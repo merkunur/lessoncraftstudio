@@ -18,7 +18,7 @@ const content: GuideContent = {
       'générateur cartes bingo uniques multiples',
     ],
     titleTag: 'Créer des cartes bingo avec images thématiques — Guide',
-    metaDescription: 'Comment créer des cartes bingo avec images thématiques. Taille de grille, cartes uniques avec cartes d'appel et PDF prêts à imprimer pour Etsy et KDP.',
+    metaDescription: 'Comment créer des cartes bingo avec images thématiques. Taille de grille, cartes uniques avec cartes d\'appel et PDF prêts à imprimer pour Etsy et KDP.',
   },
 
   hero: {

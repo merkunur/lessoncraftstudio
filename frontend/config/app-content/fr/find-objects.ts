@@ -15,7 +15,7 @@ const content: AppContent = {
       'fiches recherche visuelle imprimables avec corrigé automatique',
     ],
     titleTag: 'Générateur Fiches Objets Cachés | Je Vois + Intrus',
-    metaDescription: 'Créez des fiches objets cachés pour Etsy, KDP et Gumroad. Modes Cherche et Trouve l'Intrus, sans chevauchement, corrigé auto. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des fiches objets cachés pour Etsy, KDP et Gumroad. Modes Cherche et Trouve l\'Intrus, sans chevauchement, corrigé auto. Essai gratuit avec filigrane.',
   },
 
   hero: {

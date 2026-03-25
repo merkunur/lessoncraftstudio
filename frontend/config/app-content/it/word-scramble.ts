@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Definisci le opzioni lettere, codice colori e tocchi personalizzati',
         description:
-          'Scegli tra tessere di lettere maiuscole (predefinito) e minuscole. Attiva il codice colori vocali-consonanti per mostrare le vocali in un colore e le consonanti in un altro — un aiuto fonetico visivo esclusivo di Lettere Mescolate — oppure seleziona Tutto Nero per tessere monocromatiche tradizionali. Attiva o disattiva la numerazione dei puzzle e aggiungi campi nome e data dell'utente. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand con dimensione, colore e contorno regolabili.',
+          'Scegli tra tessere di lettere maiuscole (predefinito) e minuscole. Attiva il codice colori vocali-consonanti per mostrare le vocali in un colore e le consonanti in un altro — un aiuto fonetico visivo esclusivo di Lettere Mescolate — oppure seleziona Tutto Nero per tessere monocromatiche tradizionali. Attiva o disattiva la numerazione dei puzzle e aggiungi campi nome e data dell\'utente. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand con dimensione, colore e contorno regolabili.',
       },
       {
         title: 'Genera il foglio risposte e scarica',

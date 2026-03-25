@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Tri d\'Images | Fiches de Classification',
     metaDescription:
-      'Créez des fiches de tri d'images pour Etsy, KDP et Gumroad. Tri à deux catégories, corrigé auto, 104 thèmes, 4 à 12 images par fiche.',
+      'Créez des fiches de tri d\'images pour Etsy, KDP et Gumroad. Tri à deux catégories, corrigé auto, 104 thèmes, 4 à 12 images par fiche.',
   },
 
   hero: {

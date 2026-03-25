@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'How does the auto-generated header work?',
       answer:
-        'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title "Picture Pathway" and description "Follow the path from start to finish!" are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d'Images), Spanish (Camino de Imágenes), and all other supported languages.',
+        'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title "Picture Pathway" and description "Follow the path from start to finish!" are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d\'Images), Spanish (Camino de Imágenes), and all other supported languages.',
     },
     {
       question: 'Is there a free trial?',

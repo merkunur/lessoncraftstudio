@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Scegli la Modalità di Gioco e Configura le Impostazioni',
         description:
-          'Apri il pannello Configurazione Percorso e seleziona una delle tre modalità. Percorso Illustrato crea una griglia di immagini con un unico percorso corretto dall\'inizio alla fine. Labirinto negozico genera labirinti con muri usando l\'algoritmo LPF — imposta dimensione griglia (da 15×15 a 20×20), numero di percorsi (1, 2 o 3), quantità e copie di immagini collezionabili, colore muri, spessore (1–10px) e opacità (10–100%). Scegli il Percorso Giusto crea labirinti a tre percorsi con quattro opzioni direzionali. Attiva "Includi Campi Nome/Data" per aggiungere righe per nome e data dell'utente.',
+          'Apri il pannello Configurazione Percorso e seleziona una delle tre modalità. Percorso Illustrato crea una griglia di immagini con un unico percorso corretto dall\'inizio alla fine. Labirinto negozico genera labirinti con muri usando l\'algoritmo LPF — imposta dimensione griglia (da 15×15 a 20×20), numero di percorsi (1, 2 o 3), quantità e copie di immagini collezionabili, colore muri, spessore (1–10px) e opacità (10–100%). Scegli il Percorso Giusto crea labirinti a tre percorsi con quattro opzioni direzionali. Attiva "Includi Campi Nome/Data" per aggiungere righe per nome e data dell\'utente.',
       },
       {
         title: 'Seleziona le Immagini per Ruolo dalla Libreria',

@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Dynamic Missing Position with Intelligent Placement',
         description:
-          'The blank wagon position is dynamically selected from positions 3 through 10 based on the configured clue count, ensuring the missing item always falls within the pattern's repeating section rather than at the obvious start. The first 3 positions are always filled to establish the pattern visually before presenting the challenge. This intelligent placement creates fair, solvable puzzles every time — solvers have enough context to identify the pattern before encountering the blank. The dynamic positioning also means two worksheets with the same pattern type can have different missing positions, adding variety to product bundles.',
+          'The blank wagon position is dynamically selected from positions 3 through 10 based on the configured clue count, ensuring the missing item always falls within the pattern\'s repeating section rather than at the obvious start. The first 3 positions are always filled to establish the pattern visually before presenting the challenge. This intelligent placement creates fair, solvable puzzles every time — solvers have enough context to identify the pattern before encountering the blank. The dynamic positioning also means two worksheets with the same pattern type can have different missing positions, adding variety to product bundles.',
       },
       {
         title: 'Image Library with 104 Themed Collections',

@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Controlla la Difficoltà Attraverso il Numero di Oggetti e Distrattori',
-      description: 'Il numero di oggetti controlla direttamente la difficoltà degli oggetti nascosti. Vedo Vedo con 1 oggetto nascosto tra 8 distrattori crea schede facili per prodotti della scuola dell\'infanzia. Aumentando a 3 oggetti nascosti tra 10 distrattori si producono sfide moderate per utenti della scuola primaria. La massima difficoltà (5 oggetti nascosti tra 12 distrattori) crea scene dense dove trovare ogni bersaglio richiede un impegno genuino. Crea pacchetti a difficoltà progressiva con sezioni chiaramente etichettate facile, medio e difficile — gli acquirenti pagano prezzi premium per prodotti che crescono con l'utente.',
+      description: 'Il numero di oggetti controlla direttamente la difficoltà degli oggetti nascosti. Vedo Vedo con 1 oggetto nascosto tra 8 distrattori crea schede facili per prodotti della scuola dell\'infanzia. Aumentando a 3 oggetti nascosti tra 10 distrattori si producono sfide moderate per utenti della scuola primaria. La massima difficoltà (5 oggetti nascosti tra 12 distrattori) crea scene dense dove trovare ogni bersaglio richiede un impegno genuino. Crea pacchetti a difficoltà progressiva con sezioni chiaramente etichettate facile, medio e difficile — gli acquirenti pagano prezzi premium per prodotti che crescono con l\'utente.',
     },
     {
       title: 'Sfrutta il Formato Puramente Visivo per Vendite Mondiali Senza Traduzione',

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Intrus | Créer & Vendre',
     metaDescription:
-      'Créez des fiches trouve l'intrus pour Etsy, KDP et Gumroad. Modes Identique et Similaire, corrigé auto cercles rouges, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches trouve l\'intrus pour Etsy, KDP et Gumroad. Modes Identique et Similaire, corrigé auto cercles rouges, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

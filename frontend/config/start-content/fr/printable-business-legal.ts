@@ -18,7 +18,7 @@ const content: StartContent = {
       'charges déductibles activité imprimables',
     ],
     titleTag: 'Obligations Fiscales Vente Imprimables — Guide Juridique',
-    metaDescription: 'Obligations fiscales pour la vente d'imprimables. Structure juridique, charges déductibles, propriété intellectuelle et conformité des plateformes de vente.',
+    metaDescription: 'Obligations fiscales pour la vente d\'imprimables. Structure juridique, charges déductibles, propriété intellectuelle et conformité des plateformes de vente.',
   },
 
   hero: {

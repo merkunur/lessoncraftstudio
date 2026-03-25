@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Varia la Difficoltà del Labirinto negozico con Dimensione Griglia e Numero di Percorsi',
-      description: 'Il Labirinto negozico offre controllo granulare della difficoltà tramite dimensione della griglia (15×15–20×20) e numero di percorsi (1–3). Una griglia 15×15 con 1 percorso crea un labirinto gestibile per i più piccoli. Una griglia 20×20 con 3 percorsi e blocco dei vicoli ciechi produce una sfida complessa per utenti più grandi. La configurazione della lunghezza del percorso (4–30 celle, predefinito 8–12) aggiunge un\'altra dimensione di difficoltà. Crea pacchetti a difficoltà progressiva con sezioni facile, medio e difficile chiaramente etichettate — gli acquirenti pagano prezzi premium per prodotti che crescono con l'utente.',
+      description: 'Il Labirinto negozico offre controllo granulare della difficoltà tramite dimensione della griglia (15×15–20×20) e numero di percorsi (1–3). Una griglia 15×15 con 1 percorso crea un labirinto gestibile per i più piccoli. Una griglia 20×20 con 3 percorsi e blocco dei vicoli ciechi produce una sfida complessa per utenti più grandi. La configurazione della lunghezza del percorso (4–30 celle, predefinito 8–12) aggiunge un\'altra dimensione di difficoltà. Crea pacchetti a difficoltà progressiva con sezioni facile, medio e difficile chiaramente etichettate — gli acquirenti pagano prezzi premium per prodotti che crescono con l\'utente.',
     },
     {
       title: 'Sfrutta il Formato Interamente Visivo per Vendite Globali',

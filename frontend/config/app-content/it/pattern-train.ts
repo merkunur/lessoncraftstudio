@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Sistema a doppio canvas con scheda risposte separata',
         description:
-          'La scheda e le risposte risiedono su canvas separati e modificabili in modo indipendente, accessibili tramite schede. La scheda mostra il treno con un vagone vuoto; le risposte mostrano tutti gli 11 vagoni riempiti con la sequenza corretta del pattern. Ogni canvas consente la modifica completa — aggiungi testo, regola la disposizione, riposiziona gli elementi — così puoi personalizzare sia la scheda dell'utente che le risposte dell\'venditore in modo indipendente. Entrambi si scaricano come file separati, offrendo agli acquirenti un pacchetto prodotto completo. Includere le risposte verificate aumenta il valore percepito ed è ciò che gli acquirenti si aspettano su Etsy, Gumroad e KDP.',
+          'La scheda e le risposte risiedono su canvas separati e modificabili in modo indipendente, accessibili tramite schede. La scheda mostra il treno con un vagone vuoto; le risposte mostrano tutti gli 11 vagoni riempiti con la sequenza corretta del pattern. Ogni canvas consente la modifica completa — aggiungi testo, regola la disposizione, riposiziona gli elementi — così puoi personalizzare sia la scheda dell\'utente che le risposte dell\'venditore in modo indipendente. Entrambi si scaricano come file separati, offrendo agli acquirenti un pacchetto prodotto completo. Includere le risposte verificate aumenta il valore percepito ed è ciò che gli acquirenti si aspettano su Etsy, Gumroad e KDP.',
       },
       {
         title: 'Esportazione PDF e JPEG pronta per la stampa in alta risoluzione',

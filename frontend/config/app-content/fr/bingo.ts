@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Cartes Bingo à Images | Créer et Vendre',
     metaDescription:
-      'Créez des cartes bingo à images pour Etsy, KDP et Gumroad. Lots de cartes uniques, export ZIP, feuilles d'appel, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des cartes bingo à images pour Etsy, KDP et Gumroad. Lots de cartes uniques, export ZIP, feuilles d\'appel, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

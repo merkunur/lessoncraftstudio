@@ -18,7 +18,7 @@ const content: GuideContent = {
       'demande mots-clés volume recherche tendances marketplace signaux intention achat',
     ],
     titleTag: 'Sélection de Niche pour Activités Imprimables — Guide',
-    metaDescription: 'Sélection de niche pour activités imprimables : rechercher la demande, analyser la concurrence, évaluer la rentabilité, valider et planifier l'expansion.',
+    metaDescription: 'Sélection de niche pour activités imprimables : rechercher la demande, analyser la concurrence, évaluer la rentabilité, valider et planifier l\'expansion.',
   },
 
   hero: {

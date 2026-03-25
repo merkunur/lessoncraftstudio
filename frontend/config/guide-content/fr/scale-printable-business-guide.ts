@@ -18,7 +18,7 @@ const content: GuideContent = {
       'systèmes entreprise processus reproductibles pipeline production multiplication contenu',
     ],
     titleTag: 'Développer Activité Imprimables — Guide de Croissance',
-    metaDescription: 'Comment développer votre activité d'imprimables avec production par lots, expansion multiplateforme, catalogue, marchés multilingues et automatisation.',
+    metaDescription: 'Comment développer votre activité d\'imprimables avec production par lots, expansion multiplateforme, catalogue, marchés multilingues et automatisation.',
   },
 
   hero: {

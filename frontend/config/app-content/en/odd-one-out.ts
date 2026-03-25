@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see the auto-generated answer key with a red circle drawn around the odd item in each exercise row. The circle's stroke width scales with image size (max of imageSize × 0.04 or 3px) for consistent visibility across page sizes. Download both versions using the four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
+          'Switch to the Answer Key tab to see the auto-generated answer key with a red circle drawn around the odd item in each exercise row. The circle\'s stroke width scales with image size (max of imageSize × 0.04 or 3px) for consistent visibility across page sizes. Download both versions using the four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Auto-Generated Answer Key with Red Circle Markers',
         description:
-          'Every odd one out worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact worksheet layout and draws a red circle outline around the odd item in each exercise row. The circle's stroke width scales dynamically with image size — calculated as the maximum of imageSize × 0.04 or 3 pixels — ensuring consistent visibility across all page sizes and exercise counts. No manual marking, no separate file creation — the answer key stays in sync with the worksheet automatically.',
+          'Every odd one out worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact worksheet layout and draws a red circle outline around the odd item in each exercise row. The circle\'s stroke width scales dynamically with image size — calculated as the maximum of imageSize × 0.04 or 3 pixels — ensuring consistent visibility across all page sizes and exercise counts. No manual marking, no separate file creation — the answer key stays in sync with the worksheet automatically.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'How does the odd one out mechanic work?',
       answer:
-        'Each exercise displays four images in a horizontal card — three common items and one odd item. Solvers look at the row, identify which image doesn\'t belong, and circle it. The odd item's position is randomly shuffled within the row, so it can appear in any of the four slots. Exercises are arranged vertically on the page, with the layout switching to 2 columns when using landscape orientation or portrait with 7 or more exercises.',
+        'Each exercise displays four images in a horizontal card — three common items and one odd item. Solvers look at the row, identify which image doesn\'t belong, and circle it. The odd item\'s position is randomly shuffled within the row, so it can appear in any of the four slots. Exercises are arranged vertically on the page, with the layout switching to 2 columns when using landscape orientation or portrait with 7 or more exercises.',
     },
     {
       question: 'What is the difference between Identical and Similar modes?',
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does the auto-generated answer key with red circles work?',
       answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the exercise cards without any markings — solvers circle the odd item themselves. The answer key reproduces the identical layout and draws a red circle outline around the odd item in each row. The circle's stroke width scales dynamically with image size (the larger of imageSize × 0.04 or 3 pixels). Both versions export separately using four dedicated download buttons.',
+        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the exercise cards without any markings — solvers circle the odd item themselves. The answer key reproduces the identical layout and draws a red circle outline around the odd item in each row. The circle\'s stroke width scales dynamically with image size (the larger of imageSize × 0.04 or 3 pixels). Both versions export separately using four dedicated download buttons.',
     },
     {
       question: 'Can I add name and date fields to odd one out worksheets?',

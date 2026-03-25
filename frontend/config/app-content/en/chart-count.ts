@@ -147,7 +147,7 @@ const content: AppContent = {
     {
       question: 'How does the automatic image selection work?',
       answer:
-        'Open the Image Library panel and use the Worksheet Image Source dropdown to select a theme. The app randomly picks 6 images from that theme's collection. If you prefer manual control, switch to manual mode: browse themes or search by keyword, then click exactly 6 images. Selected images appear in a preview strip where you can click any image to remove it and pick a replacement. With no theme selected, the app draws 6 random images from all available collections. Every mode guarantees exactly 6 image types per worksheet.',
+        'Open the Image Library panel and use the Worksheet Image Source dropdown to select a theme. The app randomly picks 6 images from that theme\'s collection. If you prefer manual control, switch to manual mode: browse themes or search by keyword, then click exactly 6 images. Selected images appear in a preview strip where you can click any image to remove it and pick a replacement. With no theme selected, the app draws 6 random images from all available collections. Every mode guarantees exactly 6 image types per worksheet.',
     },
     {
       question: 'How does the auto-generated answer key work?',

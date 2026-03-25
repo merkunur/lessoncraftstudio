@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Scegli la Modalità di Esercizio e Configura le Opzioni',
         description:
-          'Apri il pannello Configurazione Esercizio e seleziona la tua modalità: Abbinamento Ombre o Completa l\'Immagine. La modalità Abbinamento Ombre genera silhouette nere dalle immagini selezionate tramite elaborazione a livello di pixel. La modalità Completa l\'Immagine divide le immagini in metà — scegli la direzione di taglio orizzontale (sopra/sotto) o verticale (sinistra/destra) con i pulsanti radio che appaiono in questa modalità. Attiva o disattiva la casella «Mostra Etichette» (attiva per impostazione predefinita) per visualizzare gli identificativi A/B/C/D e 1/2/3/4 nella scheda. Attiva «Includi Campi Nome/Data» per aggiungere righe per nome e data dell'utente.',
+          'Apri il pannello Configurazione Esercizio e seleziona la tua modalità: Abbinamento Ombre o Completa l\'Immagine. La modalità Abbinamento Ombre genera silhouette nere dalle immagini selezionate tramite elaborazione a livello di pixel. La modalità Completa l\'Immagine divide le immagini in metà — scegli la direzione di taglio orizzontale (sopra/sotto) o verticale (sinistra/destra) con i pulsanti radio che appaiono in questa modalità. Attiva o disattiva la casella «Mostra Etichette» (attiva per impostazione predefinita) per visualizzare gli identificativi A/B/C/D e 1/2/3/4 nella scheda. Attiva «Includi Campi Nome/Data» per aggiungere righe per nome e data dell\'utente.',
       },
       {
         title: 'Seleziona 4 Immagini dalla Libreria',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Risposte Auto-Generate con Etichette di Corrispondenza Lettera-Numero',
         description:
-          'Ogni scheda di abbinamento ombre genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte usa un layout a griglia dove ogni cella mostra l\'immagine originale accanto alla sua silhouette o immagine completa, etichettata con la corrispondenza corretta come «A → 2». La griglia usa 4 colonne con uno spazio di 50 px prima della seconda riga e 15 px di spaziatura verticale tra gli elementi. Nessuna creazione manuale delle risposte — il foglio risposte rimane sincronizzato con la scheda. Scaricalo separatamente come answer_key.jpeg o answer_key.pdf insieme alla scheda dell'utente.',
+          'Ogni scheda di abbinamento ombre genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte usa un layout a griglia dove ogni cella mostra l\'immagine originale accanto alla sua silhouette o immagine completa, etichettata con la corrispondenza corretta come «A → 2». La griglia usa 4 colonne con uno spazio di 50 px prima della seconda riga e 15 px di spaziatura verticale tra gli elementi. Nessuna creazione manuale delle risposte — il foglio risposte rimane sincronizzato con la scheda. Scaricalo separatamente come answer_key.jpeg o answer_key.pdf insieme alla scheda dell\'utente.',
       },
       {
         title: 'Libreria Immagini con 104 Collezioni Tematiche e Oltre 3100 Illustrazioni',

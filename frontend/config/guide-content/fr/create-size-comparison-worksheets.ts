@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil fiches tailles licence commerciale',
     ],
     titleTag: 'Fiches Comparaison de Tailles — Guide Étape par Étape',
-    metaDescription: 'Créez des fiches comparaison de tailles avec 5 types de questions et 2 modes d'image. Sortie sans texte vendable partout. Guide pour Etsy, KDP et Gumroad.',
+    metaDescription: 'Créez des fiches comparaison de tailles avec 5 types de questions et 2 modes d\'image. Sortie sans texte vendable partout. Guide pour Etsy, KDP et Gumroad.',
   },
 
   hero: {

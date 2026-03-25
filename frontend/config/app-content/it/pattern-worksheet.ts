@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi decorazioni di testo e personalizza il canvas',
         description:
-          'Usa il pannello Strumenti Testo per aggiungere un titolo, campi nome e data dell'utente o istruzioni con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Regola la dimensione del font, il colore e il contorno per una leggibilità ottimale. Il canvas completo Fabric.js ti permette di trascinare, ridimensionare, ruotare e riposizionare ogni elemento della pagina. I controlli di livello gestiscono l\'ordine di sovrapposizione, il blocco/sblocco protegge gli elementi terminati mentre ne modifichi altri, e gli strumenti di allineamento posizionano gli elementi con precisione. Zoom per un posizionamento preciso con annulla e ripristina illimitati.',
+          'Usa il pannello Strumenti Testo per aggiungere un titolo, campi nome e data dell\'utente o istruzioni con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Regola la dimensione del font, il colore e il contorno per una leggibilità ottimale. Il canvas completo Fabric.js ti permette di trascinare, ridimensionare, ruotare e riposizionare ogni elemento della pagina. I controlli di livello gestiscono l\'ordine di sovrapposizione, il blocco/sblocco protegge gli elementi terminati mentre ne modifichi altri, e gli strumenti di allineamento posizionano gli elementi con precisione. Zoom per un posizionamento preciso con annulla e ripristina illimitati.',
       },
       {
         title: 'Rivedi le risposte e scarica',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Sistema a doppio canvas con scheda risposte separata',
         description:
-          'La scheda e le risposte risiedono su canvas separati e modificabili in modo indipendente, accessibili tramite schede. La scheda mostra gli esercizi con caselle vuote o opzioni di scelta multipla; le risposte mostrano tutte le caselle riempite con gli elementi corretti del pattern. Ogni canvas consente la modifica completa — aggiungi testo, regola la disposizione, riposiziona gli elementi — così puoi personalizzare sia la scheda dell'utente che le risposte dell\'venditore in modo indipendente. Entrambi si scaricano come file separati, offrendo agli acquirenti un pacchetto prodotto completo con soluzioni verificate per ogni esercizio.',
+          'La scheda e le risposte risiedono su canvas separati e modificabili in modo indipendente, accessibili tramite schede. La scheda mostra gli esercizi con caselle vuote o opzioni di scelta multipla; le risposte mostrano tutte le caselle riempite con gli elementi corretti del pattern. Ogni canvas consente la modifica completa — aggiungi testo, regola la disposizione, riposiziona gli elementi — così puoi personalizzare sia la scheda dell\'utente che le risposte dell\'venditore in modo indipendente. Entrambi si scaricano come file separati, offrendo agli acquirenti un pacchetto prodotto completo con soluzioni verificate per ogni esercizio.',
       },
       {
         title: 'Esportazione PDF e JPEG pronta per la stampa in alta risoluzione',

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP publication processus de vérification épreuve exemplaires auteur',
     ],
     titleTag: 'Créer des livres d\'activités maths KDP — Guide',
-    metaDescription: 'Créez des livres d'activités maths KDP pour gagner des redevances. Formatage de manuscrit, design de couverture et optimisation des mots-clés sur Amazon.',
+    metaDescription: 'Créez des livres d\'activités maths KDP pour gagner des redevances. Formatage de manuscrit, design de couverture et optimisation des mots-clés sur Amazon.',
   },
 
   hero: {

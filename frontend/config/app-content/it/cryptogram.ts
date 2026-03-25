@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Regola la difficoltà con Lettere da Rivelare e aggiungi testo personalizzato',
         description:
-          'Regola il controllo Lettere da Rivelare da 0 a 10 per determinare quante corrispondenze lettera-immagine sono pre-risolte come indizi nella scheda. Zero rivelazioni crea una sfida di decrittazione pura; dieci rivelazioni fornisce guida progressiva intensa per principianti. Aggiungi un titolo alla scheda, campi nome e data dell'utente, istruzioni o qualsiasi testo personalizzato con cinque font: Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Usa il canvas Fabric.js completo per trascinare, ridimensionare, ruotare e riposizionare ogni elemento.',
+          'Regola il controllo Lettere da Rivelare da 0 a 10 per determinare quante corrispondenze lettera-immagine sono pre-risolte come indizi nella scheda. Zero rivelazioni crea una sfida di decrittazione pura; dieci rivelazioni fornisce guida progressiva intensa per principianti. Aggiungi un titolo alla scheda, campi nome e data dell\'utente, istruzioni o qualsiasi testo personalizzato con cinque font: Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Usa il canvas Fabric.js completo per trascinare, ridimensionare, ruotare e riposizionare ogni elemento.',
       },
       {
         title: 'Genera la legenda delle lettere nel foglio risposte e scarica',
@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: 'Centri di decrittazione differenziati per Gumroad',
         description:
-          'Costruisci set di pratica crittogramma per livelli usando Lettere da Rivelare come asse di differenziazione: Livello 1 (8 rivelazioni, frasi brevi, immagini tematiche), Livello 2 (5 rivelazioni, frasi medie), Livello 3 (2 rivelazioni, periodi più lunghi) e Livello 4 (0 rivelazioni, sfida di decrittazione completa). Accompagna ogni livello con le legende delle lettere dei fogli risposte e un foglio di monitoraggio dei progressi dell'utente. La meccanica della cifra è intrinsecamente motivante — gli utenti sperimentano un\'autentica emozione di decrittazione quando ogni lettera decodificata sblocca più del messaggio. Gli acquirenti di Gumroad pagano prezzi premium per risorse di alfabetizzazione differenziate che possono implementare immediatamente su più livelli di capacità.',
+          'Costruisci set di pratica crittogramma per livelli usando Lettere da Rivelare come asse di differenziazione: Livello 1 (8 rivelazioni, frasi brevi, immagini tematiche), Livello 2 (5 rivelazioni, frasi medie), Livello 3 (2 rivelazioni, periodi più lunghi) e Livello 4 (0 rivelazioni, sfida di decrittazione completa). Accompagna ogni livello con le legende delle lettere dei fogli risposte e un foglio di monitoraggio dei progressi dell\'utente. La meccanica della cifra è intrinsecamente motivante — gli utenti sperimentano un\'autentica emozione di decrittazione quando ogni lettera decodificata sblocca più del messaggio. Gli acquirenti di Gumroad pagano prezzi premium per risorse di alfabetizzazione differenziate che possono implementare immediatamente su più livelli di capacità.',
         platform: 'Gumroad (teacherspayteachers.com)',
       },
       {

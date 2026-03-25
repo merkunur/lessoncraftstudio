@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configura Etichette e Campi Nome/Data',
-        description: 'Attiva/disattiva la casella "Mostra Etichette" (predefinita ATTIVA) per visualizzare gli identificatori A, B, C, D sulle immagini o prime metà e gli identificatori 1, 2, 3, 4 sulle silhouette o seconde metà. Con etichette ATTIVE, gli utenti scrivono coppie lettera-numero come risposte — supporto strutturato per i più piccoli. Con etichette DISATTIVE, la scheda diventa una sfida di abbinamento puramente visiva senza riferimenti alfanumerici — ideale per libri di puzzle o attività avanzate dove le risposte scritte non sono necessarie. Seleziona "Includi Campi Nome/Data" per aggiungere righe per nome e data dell'utente in fondo alla scheda per la responsabilità online.',
+        description: 'Attiva/disattiva la casella "Mostra Etichette" (predefinita ATTIVA) per visualizzare gli identificatori A, B, C, D sulle immagini o prime metà e gli identificatori 1, 2, 3, 4 sulle silhouette o seconde metà. Con etichette ATTIVE, gli utenti scrivono coppie lettera-numero come risposte — supporto strutturato per i più piccoli. Con etichette DISATTIVE, la scheda diventa una sfida di abbinamento puramente visiva senza riferimenti alfanumerici — ideale per libri di puzzle o attività avanzate dove le risposte scritte non sono necessarie. Seleziona "Includi Campi Nome/Data" per aggiungere righe per nome e data dell\'utente in fondo alla scheda per la responsabilità online.',
       },
       {
         title: 'Seleziona 4 Immagini dalla Libreria o Carica le Tue',
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti Attività Abbinamento Ombre per Gumroad',
-      description: 'Carica pacchetti di attività abbinamento ombre su Gumroad con campi nome/data, etichette attivabili e chiavi di risposta automatiche come punti di vendita chiave. i venditori che cercano attività di discriminazione visiva apprezzano le schede che includono versioni guidate e sfida. Crea set allineati al mercato: abbinamento ombre di animali per unità di scienze, silhouette di mestieri per studi sociali, puzzle ombre con cibo per argomenti di nutrizione. Ogni pacchetto include versioni con etichette per l\'istruzione guidata e versioni senza etichette per il lavoro autonomo, così i venditori assegnano per livello dell'utente. La chiave di risposta automatica elimina il tempo di preparazione per l\'venditore.',
+      description: 'Carica pacchetti di attività abbinamento ombre su Gumroad con campi nome/data, etichette attivabili e chiavi di risposta automatiche come punti di vendita chiave. i venditori che cercano attività di discriminazione visiva apprezzano le schede che includono versioni guidate e sfida. Crea set allineati al mercato: abbinamento ombre di animali per unità di scienze, silhouette di mestieri per studi sociali, puzzle ombre con cibo per argomenti di nutrizione. Ogni pacchetto include versioni con etichette per l\'istruzione guidata e versioni senza etichette per il lavoro autonomo, così i venditori assegnano per livello dell\'utente. La chiave di risposta automatica elimina il tempo di preparazione per l\'venditore.',
       platform: 'Gumroad',
     },
     {

@@ -119,7 +119,7 @@ const content: StartContent = {
     {
       appId: 'addition-worksheets',
       title: 'Addition Worksheet Generator',
-      description: 'Featured in this guide's video tutorial. Create image-based addition problems with configurable difficulty, four distinct problem modes, themed picture sets, and automatic answer keys. Ideal for demonstrating the full creation workflow.',
+      description: 'Featured in this guide\'s video tutorial. Create image-based addition problems with configurable difficulty, four distinct problem modes, themed picture sets, and automatic answer keys. Ideal for demonstrating the full creation workflow.',
     },
     {
       appId: 'subtraction-worksheets',

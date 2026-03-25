@@ -114,7 +114,7 @@ const content: AppContent = {
       {
         title: 'Handwriting Workbooks on Amazon KDP',
         description:
-          'Compile 80–120 handwriting practice pages into a printed workbook formatted for Amazon KDP. Structure the book as a learning progression: Chapter 1 covers pre-writing strokes, Chapter 2 introduces uppercase letters with arrow-guided stroke order in Trace mode, Chapter 3 repeats uppercase in Fading Trace mode, Chapter 4 introduces lowercase letters, and Chapter 5 advances to Guided Copy with complete words. Use per-row independence to mix modes within chapters for variety. Handwriting workbooks sell consistently year-round and benefit from KDP's print-on-demand model — no inventory needed.',
+          'Compile 80–120 handwriting practice pages into a printed workbook formatted for Amazon KDP. Structure the book as a learning progression: Chapter 1 covers pre-writing strokes, Chapter 2 introduces uppercase letters with arrow-guided stroke order in Trace mode, Chapter 3 repeats uppercase in Fading Trace mode, Chapter 4 introduces lowercase letters, and Chapter 5 advances to Guided Copy with complete words. Use per-row independence to mix modes within chapters for variety. Handwriting workbooks sell consistently year-round and benefit from KDP\'s print-on-demand model — no inventory needed.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {

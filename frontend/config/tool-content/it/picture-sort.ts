@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Imposta il Layout della Pagina e le Decorazioni',
-        description: 'Nella sezione Impostazioni Pagina, seleziona la dimensione: Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o inserisci una dimensione personalizzata. Scegli un colore di sfondo. Seleziona un tema di sfondo decorativo e un tema di bordo dalla libreria integrata, ognuno con un cursore di opacità indipendente (0–1, passo 0,05). I temi di sfondo e bordo funzionano in modo indipendente, così puoi abbinare un motivo di sfondo sottile con un bordo decorativo marcato. Spunta "Includi Campi Nome/Data" per aggiungere righe per nome e data dell'utente per la responsabilità online.',
+        description: 'Nella sezione Impostazioni Pagina, seleziona la dimensione: Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o inserisci una dimensione personalizzata. Scegli un colore di sfondo. Seleziona un tema di sfondo decorativo e un tema di bordo dalla libreria integrata, ognuno con un cursore di opacità indipendente (0–1, passo 0,05). I temi di sfondo e bordo funzionano in modo indipendente, così puoi abbinare un motivo di sfondo sottile con un bordo decorativo marcato. Spunta "Includi Campi Nome/Data" per aggiungere righe per nome e data dell\'utente per la responsabilità online.',
       },
       {
         title: 'Genera la Scheda di negozificazione',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso includere campi nome e data nelle schede di negozificazione?',
-      answer: 'Sì. Spunta la casella "Includi Campi Nome/Data" nel pannello Impostazioni Pagina per aggiungere righe per nome e data dell'utente alla scheda. Questi campi garantiscono la responsabilità degli utenti online e rendono le tue schede di negozificazione pronte per la raccolta e la valutazione da parte dell\'venditore senza alcuna preparazione aggiuntiva. I campi nome/data sono un punto di vendita chiave per i prodotti Gumroad per il negozio dove i venditori si aspettano schede pronte all\'uso.',
+      answer: 'Sì. Spunta la casella "Includi Campi Nome/Data" nel pannello Impostazioni Pagina per aggiungere righe per nome e data dell\'utente alla scheda. Questi campi garantiscono la responsabilità degli utenti online e rendono le tue schede di negozificazione pronte per la raccolta e la valutazione da parte dell\'venditore senza alcuna preparazione aggiuntiva. I campi nome/data sono un punto di vendita chiave per i prodotti Gumroad per il negozio dove i venditori si aspettano schede pronte all\'uso.',
     },
     {
       question: 'Quali dimensioni pagina e formati di esportazione sono disponibili?',

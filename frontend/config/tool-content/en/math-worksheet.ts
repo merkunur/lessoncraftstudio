@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generate, Review, and Download',
-        description: 'Click "Generate" to build your algebra puzzle worksheet. The built-in solver verifies that every puzzle has exactly one solution before rendering. Preview on the canvas, then use the "Download" dropdown to save as JPEG (single image) or PDF (print-optimized). Always generate the matching answer key — it shows each symbol's numeric value for quick grading.',
+        description: 'Click "Generate" to build your algebra puzzle worksheet. The built-in solver verifies that every puzzle has exactly one solution before rendering. Preview on the canvas, then use the "Download" dropdown to save as JPEG (single image) or PDF (print-optimized). Always generate the matching answer key — it shows each symbol\'s numeric value for quick grading.',
       },
     ],
   },
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Always Include the Answer Key',
-      description: 'Generate the answer key before downloading your worksheets. The answer key shows each image symbol's numeric value and the fully solved equation system. Buyers on Etsy and Gumroad consistently rate products higher when answer keys are included — it saves grading time and gives buyers confidence in the solution.',
+      description: 'Generate the answer key before downloading your worksheets. The answer key shows each image symbol\'s numeric value and the fully solved equation system. Buyers on Etsy and Gumroad consistently rate products higher when answer keys are included — it saves grading time and gives buyers confidence in the solution.',
     },
   ],
 

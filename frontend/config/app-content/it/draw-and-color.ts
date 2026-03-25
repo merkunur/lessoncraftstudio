@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi decorazioni di testo e personalizza il canvas',
         description:
-          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome e data dell'utente o istruzioni di disegno con font come Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. L\'intestazione autogenerata appare con testo localizzato nella lingua selezionata. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas completo Fabric.js. Usa i controlli livelli, blocco/sblocco, strumenti di allineamento e zoom dal 25 % al 300 % per un posizionamento preciso. Attiva l\'opzione campi nome/data per le zone di identificazione dell'utente.',
+          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome e data dell\'utente o istruzioni di disegno con font come Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. L\'intestazione autogenerata appare con testo localizzato nella lingua selezionata. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas completo Fabric.js. Usa i controlli livelli, blocco/sblocco, strumenti di allineamento e zoom dal 25 % al 300 % per un posizionamento preciso. Attiva l\'opzione campi nome/data per le zone di identificazione dell\'utente.',
       },
       {
         title: 'Scarica la griglia di pratica e la griglia indizi',
@@ -176,9 +176,9 @@ const content: AppContent = {
         'Esplora oltre 100 collezioni di temi di contorni in bianco e nero con oltre 3000 illustrazioni organizzate per categoria — animali, veicoli, alimenti, natura, professioni, festività e decine di altri. Usa la funzione di ricerca per trovare immagini specifiche in tutti i temi. Oppure carica la tua immagine personalizzata per creare esercizi su griglia da qualsiasi fonte. Le immagini selezionate vengono automaticamente elaborate nel formato a griglia doppia con la percentuale indizi e le regolazioni di simmetria configurate.',
     },
     {
-      question: 'Posso aggiungere campi nome e data dell'utente alla scheda?',
+      question: 'Posso aggiungere campi nome e data dell\'utente alla scheda?',
       answer:
-        'Sì. Attiva l\'opzione Includi Campi Nome/Data per aggiungere zone di identificazione dell'utente alla tua scheda. Puoi anche usare il pannello Strumenti Testo per aggiungere un titolo personalizzato, istruzioni o qualsiasi altro testo con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Tutti gli elementi di testo sono completamente modificabili sul canvas — trascina, ridimensiona, ruota e riposiziona secondo necessità.',
+        'Sì. Attiva l\'opzione Includi Campi Nome/Data per aggiungere zone di identificazione dell\'utente alla tua scheda. Puoi anche usare il pannello Strumenti Testo per aggiungere un titolo personalizzato, istruzioni o qualsiasi altro testo con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Tutti gli elementi di testo sono completamente modificabili sul canvas — trascina, ridimensiona, ruota e riposiziona secondo necessità.',
     },
     {
       question: 'Esiste una prova gratuita?',

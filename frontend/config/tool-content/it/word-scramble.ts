@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configura maiuscole, numerazione e lingua',
-        description: 'Alterna tra tessere lettere maiuscole (predefinito) e minuscole. Attiva o disattiva la numerazione degli esercizi. Abilita i campi nome e data dell'utente. Seleziona tra le 11 lingue supportate — ogni lingua cambia completamente la parola target, così la stessa immagine crea un puzzle di parole mescolate completamente diverso. Aggiungi sovrapposizioni di testo personalizzate con istruzioni per guidare gli utenti.',
+        description: 'Alterna tra tessere lettere maiuscole (predefinito) e minuscole. Attiva o disattiva la numerazione degli esercizi. Abilita i campi nome e data dell\'utente. Seleziona tra le 11 lingue supportate — ogni lingua cambia completamente la parola target, così la stessa immagine crea un puzzle di parole mescolate completamente diverso. Aggiungi sovrapposizioni di testo personalizzate con istruzioni per guidare gli utenti.',
       },
       {
         title: 'Personalizza font, testo e canvas',

@@ -18,7 +18,7 @@ const content: StartContent = {
       'checklist lancement activité imprimables',
     ],
     titleTag: 'Idées Activité Imprimables — Plan d\'Action vers le Revenu',
-    metaDescription: 'Transformez vos idées d'imprimables en plan d'action. Planifiez votre gamme, choisissez vos plateformes, fixez vos prix et lancez-vous avec les générateurs.',
+    metaDescription: 'Transformez vos idées d\'imprimables en plan d\'action. Planifiez votre gamme, choisissez vos plateformes, fixez vos prix et lancez-vous avec les générateurs.',
   },
 
   hero: {

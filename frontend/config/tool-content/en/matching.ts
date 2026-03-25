@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Custom Word Spelling and Vocabulary Packs',
-      description: 'Use Custom Word mode to type your own matching terms alongside images, creating spelling practice worksheets, vocabulary quizzes, and foreign language matching exercises. Sellers can target specific sight words, weekly vocabulary lists, or subject-specific terminology. Create grade-level spelling packs where each worksheet matches images to progressively harder words. Custom Word mode is the most flexible matching type because it lets you pair any image with any word — the educational content is limited only by what you type, not by the library's built-in labels.',
+      description: 'Use Custom Word mode to type your own matching terms alongside images, creating spelling practice worksheets, vocabulary quizzes, and foreign language matching exercises. Sellers can target specific sight words, weekly vocabulary lists, or subject-specific terminology. Create grade-level spelling packs where each worksheet matches images to progressively harder words. Custom Word mode is the most flexible matching type because it lets you pair any image with any word — the educational content is limited only by what you type, not by the library\'s built-in labels.',
     },
     {
       title: 'Seasonal Matching Activity Collections',

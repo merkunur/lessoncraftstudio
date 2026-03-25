@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'How does the locale-aware alphabet work?',
       answer:
-        'When you select a language, the available alphabet set automatically adjusts to include that language\'s characters. German adds ä, ö, ü, ß to the standard 26 letters. French adds é, è, ç, à, and other accented characters. Each locale's alphabet is defined by the getAlphabetForLocale() function, ensuring the cipher covers every letter that could appear in the secret phrase for that language.',
+        'When you select a language, the available alphabet set automatically adjusts to include that language\'s characters. German adds ä, ö, ü, ß to the standard 26 letters. French adds é, è, ç, à, and other accented characters. Each locale\'s alphabet is defined by the getAlphabetForLocale() function, ensuring the cipher covers every letter that could appear in the secret phrase for that language.',
     },
     {
       question: 'Is there a free trial?',

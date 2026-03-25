@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'générateur de pages de coloriage pour vendeurs Etsy',
       'créateur de fiches de coloriage pour éditeurs Amazon KDP',
-      'vendre des pages de coloriage sur Teachers Pay Teachers',
+      'vendre des pages de coloriage sur Gumroad',
       'générateur de pages de coloriage licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Pages de Coloriage | Créer et Vendre',
     metaDescription:
-      'Créez des pages de coloriage pour Etsy, KDP et TPT. Canevas libre, 104 thèmes, dessin à main levée, export niveaux de gris. Essai gratuit avec filigrane.',
+      'Créez des pages de coloriage pour Etsy, KDP et Gumroad. Canevas libre, 104 thèmes, dessin à main levée, export niveaux de gris. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Pages de Coloriage pour des Fiches de Coloriage Personnalisées',
-    tagline: 'Concepteur de pages de coloriage sur canevas libre — parcourez 104 collections d\'images thématiques, ajoutez des dessins à main levée, incluez des aides pour la classe comme les champs nom et lignes d\'écriture, et activez l\'export en niveaux de gris pour des pages de coloriage économiques en encre.',
+    tagline: 'Concepteur de pages de coloriage sur canevas libre — parcourez 104 collections d\'images thématiques, ajoutez des dessins à main levée, incluez des aides pour la vente comme les champs nom et lignes d\'écriture, et activez l\'export en niveaux de gris pour des pages de coloriage économiques en encre.',
     description:
-      'Concevez des pages de coloriage professionnelles sur un canevas libre où vous placez les images exactement où vous le souhaitez — aucune grille, aucun modèle, une liberté créative totale. Parcourez la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations colorées réparties dans 104 collections thématiques, cliquez sur n\'importe quelle image pour l\'ajouter à votre canevas, puis arrangez, redimensionnez, pivotez et superposez les éléments jusqu\'à ce que votre page soit parfaite. L\'outil de dessin à main levée vous permet de dessiner des illustrations personnalisées directement sur le canevas avec une couleur et une taille de pinceau réglables. Les aides pour la classe ajoutent un champ nom d\'élève et des lignes de pratique d\'écriture en un seul clic — transformant les pages de coloriage en activités prêtes pour la classe. Lorsque vous avez terminé, activez l\'option d\'export en niveaux de gris pour convertir votre composition colorée en pages de coloriage économiques en encre, parfaites pour l\'impression. Ajoutez des thèmes de bordures décoratives, du texte personnalisé avec des effets de contour et téléversez vos propres images en complément du contenu de la bibliothèque. Le Générateur de Pages de Coloriage n\'est pas sensible à la langue — la sortie est purement visuelle, les fiches sont donc identiques dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des lots de pages de coloriage sur Etsy, compiliez des cahiers de coloriage pour Amazon KDP ou créiez des activités de coloriage pour TPT, le Générateur de Pages de Coloriage livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des pages de coloriage professionnelles sur un canevas libre où vous placez les images exactement où vous le souhaitez — aucune grille, aucun modèle, une liberté créative totale. Parcourez la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations colorées réparties dans 104 collections thématiques, cliquez sur n\'importe quelle image pour l\'ajouter à votre canevas, puis arrangez, redimensionnez, pivotez et superposez les éléments jusqu\'à ce que votre page soit parfaite. L\'outil de dessin à main levée vous permet de dessiner des illustrations personnalisées directement sur le canevas avec une couleur et une taille de pinceau réglables. Les aides pour la vente ajoutent un champ nom d\'utilisateur et des lignes de pratique d\'écriture en un seul clic — transformant les pages de coloriage en activités prêtes pour la vente. Lorsque vous avez terminé, activez l\'option d\'export en niveaux de gris pour convertir votre composition colorée en pages de coloriage économiques en encre, parfaites pour l\'impression. Ajoutez des thèmes de bordures décoratives, du texte personnalisé avec des effets de contour et téléversez vos propres images en complément du contenu de la bibliothèque. Le Générateur de Pages de Coloriage n\'est pas sensible à la langue — la sortie est purement visuelle, les fiches sont donc identiques dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des lots de pages de coloriage sur Etsy, compiliez des cahiers de coloriage pour Amazon KDP ou créiez des activités de coloriage pour Gumroad, le Générateur de Pages de Coloriage livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -45,14 +45,14 @@ const content: AppContent = {
           'Glissez les images n\'importe où sur le canevas libre — aucun alignement sur grille, aucune restriction de modèle. Redimensionnez en tirant les poignées d\'angle, pivotez à n\'importe quel angle et utilisez les contrôles de calques pour gérer l\'ordre d\'empilement. Verrouillez les éléments terminés pour éviter les déplacements accidentels pendant que vous continuez l\'édition. Le canevas supporte jusqu\'à 20 états annuler/rétablir (Ctrl+Z / Ctrl+Y) pour expérimenter librement. Zoomez de 25 % à 300 % pour un placement précis des petits détails.',
       },
       {
-        title: 'Ajouter du texte, des aides pour la classe et des dessins à main levée',
+        title: 'Ajouter du texte, des aides pour la vente et des dessins à main levée',
         description:
-          'Utilisez le panneau Outils Texte pour ajouter des titres, des consignes ou des étiquettes avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et la largeur du contour de texte (0 à 10 avec une granularité de 0,5) pour une lisibilité maximale. Cliquez sur les Aides pour la Classe pour ajouter un champ nom d\'élève (« Nom : ____ ») ou des lignes de pratique d\'écriture en un seul clic. Passez à l\'Outil de Dessin pour dessiner des illustrations à main levée directement sur le canevas — choisissez une couleur de pinceau et réglez la taille du pinceau de 1 à 50 pixels.',
+          'Utilisez le panneau Outils Texte pour ajouter des titres, des consignes ou des étiquettes avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et la largeur du contour de texte (0 à 10 avec une granularité de 0,5) pour une lisibilité maximale. Cliquez sur les Aides pour la vente pour ajouter un champ nom d\'utilisateur (« Nom : ____ ») ou des lignes de pratique d\'écriture en un seul clic. Passez à l\'Outil de Dessin pour dessiner des illustrations à main levée directement sur le canevas — choisissez une couleur de pinceau et réglez la taille du pinceau de 1 à 50 pixels.',
       },
       {
         title: 'Activer les niveaux de gris et télécharger',
         description:
-          'Ouvrez le panneau Téléchargement et activez l\'option niveaux de gris pour convertir votre composition colorée en pages de coloriage économiques en encre — parfaites pour les fiches imprimées et les cahiers de coloriage. Exportez en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Les fichiers sont nommés coloring_page.jpeg ou coloring_page.pdf pour une organisation facile. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT — aucun post-traitement nécessaire.',
+          'Ouvrez le panneau Téléchargement et activez l\'option niveaux de gris pour convertir votre composition colorée en pages de coloriage économiques en encre — parfaites pour les fiches imprimées et les cahiers de coloriage. Exportez en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Les fichiers sont nommés coloring_page.jpeg ou coloring_page.pdf pour une organisation facile. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — aucun post-traitement nécessaire.',
       },
     ],
   },
@@ -71,14 +71,14 @@ const content: AppContent = {
           'Passez en mode Dessin et dessinez directement sur le canevas avec le pinceau à main levée. Choisissez n\'importe quelle couleur de pinceau à l\'aide du sélecteur de couleurs (par défaut #333333) et réglez la taille du pinceau de 1 à 50 pixels avec le curseur. Dessinez des bordures personnalisées, ajoutez des gribouillis décoratifs, créez des illustrations originales ou esquissez des lignes de connexion entre les images. L\'outil de dessin utilise le rendu à main levée de Fabric.js pour des traits lisses et réactifs. Combiné à la bibliothèque d\'images, le dessin à main levée vous permet de créer des pages de coloriage qui mélangent illustrations sélectionnées et vos propres œuvres originales.',
       },
       {
-        title: 'Aides pour la classe : champ nom et lignes d\'écriture',
+        title: 'Aides pour la vente : champ nom et lignes d\'écriture',
         description:
-          'Deux aides pour la classe en un clic transforment les pages de coloriage en activités prêtes pour la classe. Le bouton Champ Nom ajoute un bloc de texte formaté « Nom : ____________________ » positionné en haut de la page — les élèves écrivent leur nom avant de commencer. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Ensemble, ces aides rendent vos fiches de coloriage prêtes pour la classe sans mise en forme manuelle du texte. Les vendeurs TPT peuvent mettre en avant ces fonctionnalités comme différenciation intégrée par rapport aux pages de coloriage génériques.',
+          'Deux aides pour la vente en un clic transforment les pages de coloriage en activités prêtes pour la vente. Le bouton Champ Nom ajoute un bloc de texte formaté « Nom : ____________________ » positionné en haut de la page — les utilisateurs écrivent leur nom avant de commencer. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Ensemble, ces aides rendent vos fiches de coloriage prêtes pour la vente sans mise en forme manuelle du texte. Les vendeurs Gumroad peuvent mettre en avant ces fonctionnalités comme différenciation intégrée par rapport aux pages de coloriage génériques.',
       },
       {
         title: 'Export en niveaux de gris pour des pages de coloriage économiques en encre',
         description:
-          'La Bibliothèque d\'Images contient plus de 3 100 illustrations colorées — mais les pages de coloriage doivent être imprimées en noir et blanc pour que les élèves ajoutent leurs propres couleurs. L\'option d\'export en niveaux de gris résout ce problème en convertissant votre composition entière en niveaux de gris au moment de l\'export. Concevez avec des images en couleur pour une identification visuelle facile, puis activez l\'option pour produire des fiches de coloriage économiques en encre. Ce flux de travail est essentiel pour les cahiers de coloriage Amazon KDP où les pages intérieures doivent être en niveaux de gris, et pour l\'impression en classe où l\'encre couleur est coûteuse ou indisponible.',
+          'La Bibliothèque d\'Images contient plus de 3 100 illustrations colorées — mais les pages de coloriage doivent être imprimées en noir et blanc pour que les utilisateurs ajoutent leurs propres couleurs. L\'option d\'export en niveaux de gris résout ce problème en convertissant votre composition entière en niveaux de gris au moment de l\'export. Concevez avec des images en couleur pour une identification visuelle facile, puis activez l\'option pour produire des fiches de coloriage économiques en encre. Ce flux de travail est essentiel pour les cahiers de coloriage Amazon KDP où les pages intérieures doivent être en niveaux de gris, et pour l\'impression en volume où l\'encre couleur est coûteuse ou indisponible.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 collections thématiques et 3 100+ illustrations',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI',
         description:
-          'Téléchargez les pages de coloriage en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI à l\'aide d\'un multiplicateur 6× pour une sortie nette. Les formats de page incluent Letter Portrait (612×792), Letter Paysage (792×612), A4 Portrait (595×842), A4 Paysage (842×595), Carré (1200×1200) et des dimensions entièrement personnalisées. Activez les niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production : téléchargements numériques Etsy, intérieurs de livres Amazon KDP et fichiers ressources TPT.',
+          'Téléchargez les pages de coloriage en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI à l\'aide d\'un multiplicateur 6× pour une sortie nette. Les formats de page incluent Letter Portrait (612×792), Letter Paysage (792×612), A4 Portrait (595×842), A4 Paysage (842×595), Carré (1200×1200) et des dimensions entièrement personnalisées. Activez les niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production : téléchargements numériques Etsy, intérieurs de livres Amazon KDP et fichiers ressources Gumroad.',
       },
       {
         title: 'Édition complète sur canevas avec outils texte et contrôles de calques',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fiches d\'activités de coloriage pour la classe sur TPT',
+        title: 'Fiches d\'activités de coloriage pour la vente sur Gumroad',
         description:
-          'Construisez des fiches de coloriage prêtes pour la classe avec les aides intégrées. Ajoutez un champ nom pour que les élèves identifient leur travail et incluez des lignes de pratique d\'écriture en bas pour une pratique de littératie intégrée. Les enseignants recherchant des activités de coloriage sur TPT valorisent les fiches qui vont au-delà du simple coloriage — le champ nom et les lignes d\'écriture font de votre produit une fiche d\'activité multi-compétences. Créez des ensembles thématiques liés aux unités du programme : la météo, les saisons, les métiers de la communauté, les groupes alimentaires et les habitats. La sortie purement visuelle fonctionne pour chaque élève quel que soit la langue ou le niveau de lecture.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construisez des fiches de coloriage prêtes pour la vente avec les aides intégrées. Ajoutez un champ nom pour que les utilisateurs identifient leur travail et incluez des lignes de pratique d\'écriture en bas pour une pratique de littératie intégrée. Les vendeurs recherchant des activités de coloriage sur Gumroad valorisent les fiches qui vont au-delà du simple coloriage — le champ nom et les lignes d\'écriture font de votre produit une fiche d\'activité multi-compétences. Créez des ensembles thématiques liés aux unités du programme : la météo, les saisons, les métiers de la communauté, les groupes alimentaires et les habitats. La sortie purement visuelle fonctionne pour chaque utilisateur quel que soit la langue ou le niveau de lecture.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Pages de coloriage personnalisées avec dessin à main levée',
         description:
           'Combinez les illustrations de la bibliothèque avec vos propres dessins à main levée pour créer des pages de coloriage qu\'aucun autre générateur ne peut produire. Esquissez des bordures personnalisées, ajoutez des éléments décoratifs entre les images, dessinez des scènes connectées reliant plusieurs images ensemble, ou créez des illustrations entièrement originales sur le canevas. La taille de pinceau réglable (1 à 50 px) gère tout, du travail de détail fin aux contours gras. Cette approche hybride — images sélectionnées de la bibliothèque plus art original à main levée — produit des pages de coloriage avec une véritable valeur créative qui commandent des prix premium dans les listages de places de marché.',
-        platform: 'Etsy / Amazon KDP / TPT',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Collections de coloriage saisonnières et de fêtes',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d\'été, fêtes d\'hiver et bien d\'autres. Créez des collections de pages de coloriage à durée limitée alignées sur les pics d\'achat. Lancez les lots de coloriage Halloween en septembre, les collections de Noël en octobre et les packs de Saint-Valentin en janvier. Les produits saisonniers commandent des prix plus élevés pendant leurs fenêtres de pointe et créent des raisons naturelles de rachats récurrents chez la même clientèle.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
     ],
   },
@@ -151,14 +151,14 @@ const content: AppContent = {
         'Activez le bouton Outil de Dessin pour passer du mode Sélection au mode Dessin. Choisissez une couleur de pinceau à l\'aide du sélecteur de couleurs et réglez la taille du pinceau de 1 à 50 pixels avec le curseur. Dessinez directement sur le canevas avec votre souris ou stylet — les traits sont rendus comme des tracés Fabric.js lisses. Repassez en mode Sélection pour déplacer et modifier vos dessins comme n\'importe quel autre objet du canevas. Combinez le dessin à main levée avec les images de la bibliothèque pour des pages de coloriage hybrides.',
     },
     {
-      question: 'Que sont les aides pour la classe et comment les utiliser ?',
+      question: 'Que sont les aides pour la vente et comment les utiliser ?',
       answer:
-        'Deux boutons en un clic dans le panneau Aides pour la Classe. Le bouton Champ Nom ajoute un bloc de texte formaté « Nom : ____________________ » près du haut de la page. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Les deux aides créent des objets de canevas standard que vous pouvez repositionner, redimensionner ou supprimer comme n\'importe quel autre élément.',
+        'Deux boutons en un clic dans le panneau Aides pour la vente. Le bouton Champ Nom ajoute un bloc de texte formaté « Nom : ____________________ » près du haut de la page. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Les deux aides créent des objets de canevas standard que vous pouvez repositionner, redimensionner ou supprimer comme n\'importe quel autre élément.',
     },
     {
       question: 'Comment fonctionne l\'option d\'export en niveaux de gris ?',
       answer:
-        'L\'option niveaux de gris dans le panneau Téléchargement convertit votre page de coloriage entière en niveaux de gris au moment de l\'export. Votre canevas reste en couleur pour une édition visuelle facile — les niveaux de gris ne sont appliqués qu\'au fichier exporté. Cela vous permet de concevoir avec des images colorées pour l\'identification et de produire ensuite une sortie économique en encre pour l\'impression. Essentiel pour les intérieurs de cahiers de coloriage Amazon KDP et l\'impression en classe où l\'encre couleur est indisponible ou coûteuse.',
+        'L\'option niveaux de gris dans le panneau Téléchargement convertit votre page de coloriage entière en niveaux de gris au moment de l\'export. Votre canevas reste en couleur pour une édition visuelle facile — les niveaux de gris ne sont appliqués qu\'au fichier exporté. Cela vous permet de concevoir avec des images colorées pour l\'identification et de produire ensuite une sortie économique en encre pour l\'impression. Essentiel pour les intérieurs de cahiers de coloriage Amazon KDP et l\'impression en volume où l\'encre couleur est indisponible ou coûteuse.',
     },
     {
       question: 'Comment parcourir et ajouter des images depuis la bibliothèque ?',
@@ -178,12 +178,12 @@ const content: AppContent = {
     {
       question: 'Pourquoi n\'y a-t-il pas de corrigé pour les pages de coloriage ?',
       answer:
-        'Les pages de coloriage sont des activités créatives sans réponse unique correcte — le but même est que les élèves ou les coloristes ajoutent leurs propres couleurs. Contrairement aux fiches de mathématiques ou aux exercices de tracé de lettres, il n\'y a pas de bonne ou de mauvaise façon de colorier une page. Cela fait des pages de coloriage des produits idéaux à faible préparation pour les vendeurs, car vous exportez uniquement la page de coloriage elle-même, sans fichier de corrigé supplémentaire à créer.',
+        'Les pages de coloriage sont des activités créatives sans réponse unique correcte — le but même est que les utilisateurs ou les coloristes ajoutent leurs propres couleurs. Contrairement aux fiches de mathématiques ou aux exercices de tracé de lettres, il n\'y a pas de bonne ou de mauvaise façon de colorier une page. Cela fait des pages de coloriage des produits idéaux à faible préparation pour les vendeurs, car vous exportez uniquement la page de coloriage elle-même, sans fichier de corrigé supplémentaire à créer.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        'Oui. Vous pouvez accéder à toutes les fonctionnalités — le canevas libre, tous les outils de dessin, la bibliothèque d\'images, les aides pour la classe, les thèmes de bordures, l\'export en niveaux de gris et tous les formats de téléchargement — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
+        'Oui. Vous pouvez accéder à toutes les fonctionnalités — le canevas libre, tous les outils de dessin, la bibliothèque d\'images, les aides pour la vente, les thèmes de bordures, l\'export en niveaux de gris et tous les formats de téléchargement — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
     },
     {
       question: 'Le Générateur de Pages de Coloriage est-il sensible à la langue ?',
@@ -193,12 +193,12 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des pages de coloriage créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos pages de coloriage en téléchargement numérique sur Etsy, en cahiers de coloriage imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Le canevas libre, l\'outil de dessin à main levée et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de pages de coloriage originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos pages de coloriage en téléchargement numérique sur Etsy, en cahiers de coloriage imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Le canevas libre, l\'outil de dessin à main levée et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de pages de coloriage originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
       answer:
-        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester le canevas libre, chaque outil de dessin, la bibliothèque d\'images complète, les aides pour la classe, les thèmes de bordures, l\'export en niveaux de gris et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester le canevas libre, chaque outil de dessin, la bibliothèque d\'images complète, les aides pour la vente, les thèmes de bordures, l\'export en niveaux de gris et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
     },
   ],
 
@@ -263,7 +263,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/french/coloring/coloring portrait 1.webp',
-      primaryAlt: 'Page de coloriage personnalisée avec images thématiques arrangées sur canevas libre avec bordure décorative et champ nom pour la classe',
+      primaryAlt: 'Page de coloriage personnalisée avec images thématiques arrangées sur canevas libre avec bordure décorative et champ nom pour la vente',
     },
     sampleGallery: [
       {
@@ -273,8 +273,8 @@ const content: AppContent = {
       },
       {
         src: '/samples/french/coloring/coloring portrait 2.webp',
-        alt: 'Page de coloriage avec lignes d\'écriture et champ nom d\'élève pour utilisation en classe',
-        caption: 'Page de coloriage prête pour la classe — champ nom et lignes de pratique d\'écriture inclus',
+        alt: 'Page de coloriage avec lignes d\'écriture et champ nom d\'utilisateur pour utilisation en ligne',
+        caption: 'Page de coloriage prête pour la vente — champ nom et lignes de pratique d\'écriture inclus',
       },
       {
         src: '/samples/french/coloring/coloring portrait 3.webp',

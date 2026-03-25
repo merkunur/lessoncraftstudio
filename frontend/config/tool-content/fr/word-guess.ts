@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches Deviner les Mots',
     tagline: 'Créez des fiches d\'orthographe par images avec 4 niveaux d\'indices dans 11 langues',
-    description: 'Transformez la pratique du vocabulaire en un puzzle visuel que les élèves adorent résoudre. Cet outil génère des fiches deviner les mots où un indice image est associé à une grille de lettres contenant des cases vides — les élèves étudient l\'image et remplissent les lettres manquantes pour épeler le mot qu\'elle représente. La fonctionnalité phare est un système progressif à 4 niveaux d\'indices : Sans Indices ne révèle aucune lettre pour un rappel pur, Facile révèle la moitié des lettres pour un étayage adapté aux débutants, Normal révèle un quart pour un défi équilibré, et Difficile révèle seulement un sixième pour les orthographeurs confirmés. Choisissez entre deux modes de saisie : le mode Indice Image tire le vocabulaire de plus de 3 100 images réparties dans 104 collections thématiques avec génération automatique de la grille de lettres, ou le mode Liste de Mots Personnalisée vous permet de taper n\'importe quels mots directement pour une pratique de vocabulaire ciblée sans images. La fonctionnalité Exclure des Lettres retire des lettres spécifiques des grilles — excluez les voyelles pour des exercices axés sur la phonétique ou excluez les lettres courantes pour un défi accru. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit une orthographe correcte différente. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol. Un seul design de fiche devient 11 produits linguistiques uniques avec des réponses véritablement différentes. Définissez la casse en majuscules ou minuscules, activez la numérotation des exercices, ajoutez des superpositions de texte personnalisées et choisissez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération optionnelle de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Transformez la pratique du vocabulaire en un puzzle visuel que les utilisateurs adorent résoudre. Cet outil génère des fiches deviner les mots où un indice image est associé à une grille de lettres contenant des cases vides — les utilisateurs étudient l\'image et remplissent les lettres manquantes pour épeler le mot qu\'elle représente. La fonctionnalité phare est un système progressif à 4 niveaux d\'indices : Sans Indices ne révèle aucune lettre pour un rappel pur, Facile révèle la moitié des lettres pour un étayage adapté aux débutants, Normal révèle un quart pour un défi équilibré, et Difficile révèle seulement un sixième pour les orthographeurs confirmés. Choisissez entre deux modes de saisie : le mode Indice Image tire le vocabulaire de plus de 3 100 images réparties dans 104 collections thématiques avec génération automatique de la grille de lettres, ou le mode Liste de Mots Personnalisée vous permet de taper n\'importe quels mots directement pour une pratique de vocabulaire ciblée sans images. La fonctionnalité Exclure des Lettres retire des lettres spécifiques des grilles — excluez les voyelles pour des exercices axés sur la phonétique ou excluez les lettres courantes pour un défi accru. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit une orthographe correcte différente. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol. Un seul design de fiche devient 11 produits linguistiques uniques avec des réponses véritablement différentes. Définissez la casse en majuscules ou minuscules, activez la numérotation des exercices, ajoutez des superpositions de texte personnalisées et choisissez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération optionnelle de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Définir le Niveau de Difficulté des Indices',
-        description: 'Choisissez parmi quatre niveaux de difficulté progressifs. Sans Indices laisse la grille entièrement vide pour un rappel pur — idéal pour les orthographeurs avancés. Facile révèle la moitié des lettres, offrant un étayage aux jeunes apprenants qui commencent à épeler. Normal révèle un quart des lettres pour un défi équilibré. Difficile révèle seulement un sixième des lettres pour les élèves confiants qui n\'ont besoin que d\'un minimum d\'indices. Mélangez les niveaux de difficulté entre les pages pour créer des packs de fiches différenciés.',
+        description: 'Choisissez parmi quatre niveaux de difficulté progressifs. Sans Indices laisse la grille entièrement vide pour un rappel pur — idéal pour les orthographeurs avancés. Facile révèle la moitié des lettres, offrant un étayage aux jeunes apprenants qui commencent à épeler. Normal révèle un quart des lettres pour un défi équilibré. Difficile révèle seulement un sixième des lettres pour les utilisateurs confiants qui n\'ont besoin que d\'un minimum d\'indices. Mélangez les niveaux de difficulté entre les pages pour créer des packs de fiches différenciés.',
       },
       {
         title: 'Sélectionner les Images et le Thème',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configurer Exclure des Lettres, la Casse et la Numérotation',
-        description: 'Utilisez la fonctionnalité Exclure des Lettres pour retirer des lettres spécifiques des grilles — par exemple, excluez toutes les voyelles pour que les élèves doivent les fournir, créant un exercice axé sur la phonétique. Définissez la casse des lettres en majuscules ou minuscules. Activez ou désactivez la numérotation des exercices. Ajoutez une superposition de texte personnalisée avec des consignes comme « Remplissez les lettres manquantes ! » pour guider clairement les élèves.',
+        description: 'Utilisez la fonctionnalité Exclure des Lettres pour retirer des lettres spécifiques des grilles — par exemple, excluez toutes les voyelles pour que les utilisateurs doivent les fournir, créant un exercice axé sur la phonétique. Définissez la casse des lettres en majuscules ou minuscules. Activez ou désactivez la numérotation des exercices. Ajoutez une superposition de texte personnalisée avec des consignes comme « Remplissez les lettres manquantes ! » pour guider clairement les utilisateurs.',
       },
       {
         title: 'Personnaliser les Polices, le Texte et le Canevas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Thématiques de Devinettes Orthographiques',
-      description: 'Créez des ensembles de 10 à 15 fiches deviner les mots avec des collections d\'images thématiques — animaux, nourriture, véhicules, scènes de nature. Chaque fiche associe des images à des grilles de lettres à un niveau de difficulté constant. Regroupez par thème et vendez sur Etsy.fr ou Teachers Pay Teachers. Le format image-plus-puzzle rend vos vignettes de listing visuellement accrocheuses comparées aux fiches d\'orthographe classiques.',
+      description: 'Créez des ensembles de 10 à 15 fiches deviner les mots avec des collections d\'images thématiques — animaux, nourriture, véhicules, scènes de nature. Chaque fiche associe des images à des grilles de lettres à un niveau de difficulté constant. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format image-plus-puzzle rend vos vignettes de listing visuellement accrocheuses comparées aux fiches d\'orthographe classiques.',
     },
     {
       title: 'Cahiers d\'Activités Deviner les Mots pour KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles Différenciés par Niveau d\'Indices',
-      description: 'Générez quatre versions de la même fiche thématique — une à chaque niveau d\'indices : Sans Indices, Facile, Normal et Difficile. Les enseignants peuvent distribuer la bonne version à chaque élève selon son niveau. Vendez comme pack différencié à un prix premium sur TPT ou Etsy.fr. Quatre niveaux de difficulté à partir d\'une seule session de création, avec des corrigés inclus pour chaque version.',
+      description: 'Générez quatre versions de la même fiche thématique — une à chaque niveau d\'indices : Sans Indices, Facile, Normal et Difficile. Les vendeurs peuvent distribuer la bonne version à chaque utilisateur selon son niveau. Vendez comme pack différencié à un prix premium sur Gumroad ou Etsy.fr. Quatre niveaux de difficulté à partir d\'une seule session de création, avec des corrigés inclus pour chaque version.',
     },
     {
       title: 'Produits d\'Orthographe Multilingues',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Saisonniers de Devinettes Orthographiques',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Deviner les Mots de Noël » avec du vocabulaire festif — RENNE, FLOCON, CADEAU — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et TPT. Le format puzzle visuel rend les produits saisonniers frais et engageants.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Deviner les Mots de Noël » avec du vocabulaire festif — RENNE, FLOCON, CADEAU — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad. Le format puzzle visuel rend les produits saisonniers frais et engageants.',
     },
   ],
 
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Cahiers de Devinettes Orthographiques Progressifs sur Amazon KDP',
-      description: 'Compilez plus de 80 pages deviner les mots dans un cahier d\'activités physique pour Amazon KDP. Structurez les chapitres par difficulté : le niveau Facile en premier pour l\'échauffement, Normal pour la section principale, Difficile pour le chapitre défi et Sans Indices pour la section bonus expert. Incluez les corrigés à la fin. Publiez des éditions séparées par langue pour multiplier votre catalogue. Le système à 4 niveaux donne à votre livre une progression claire que les parents et enseignants apprécient.',
+      description: 'Compilez plus de 80 pages deviner les mots dans un cahier d\'activités physique pour Amazon KDP. Structurez les chapitres par difficulté : le niveau Facile en premier pour l\'échauffement, Normal pour la section principale, Difficile pour le chapitre défi et Sans Indices pour la section bonus expert. Incluez les corrigés à la fin. Publiez des éditions séparées par langue pour multiplier votre catalogue. Le système à 4 niveaux donne à votre livre une progression claire que les parents et vendeurs apprécient.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs Différenciés pour Teachers Pay Teachers',
-      description: 'Téléchargez des packs de fiches deviner les mots sur TPT organisés par thème et niveau de difficulté. Incluez les quatre niveaux d\'indices pour chaque thème, plus les corrigés pour chaque page. Les enseignants recherchent fréquemment « fiches d\'orthographe » et « activités de construction de mots ». La différenciation à 4 niveaux signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les enseignants valorisent hautement dans leurs avis.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs Différenciés pour Gumroad',
+      description: 'Téléchargez des packs de fiches deviner les mots sur Gumroad organisés par thème et niveau de difficulté. Incluez les quatre niveaux d\'indices pour chaque thème, plus les corrigés pour chaque page. Les vendeurs recherchent fréquemment « fiches d\'orthographe » et « activités de construction de mots ». La différenciation à 4 niveaux signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs valorisent hautement dans leurs avis.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits Phonétiques sur Gumroad',
-      description: 'Créez des kits phonétiques premium sur Gumroad utilisant stratégiquement la fonctionnalité Exclure des Lettres — excluez les voyelles pour des exercices centrés sur les voyelles, excluez les mélanges de consonnes pour la pratique des mélanges. Regroupez avec des fiches en mode Liste de Mots Personnalisée ciblant des schémas phonétiques spécifiques. Incluez un guide pédagogique expliquant comment chaque schéma d\'exclusion cible une compétence phonétique différente. Vendez aux parents pratiquant l\'école à la maison et aux enseignants de FLE.',
+      description: 'Créez des kits phonétiques premium sur Gumroad utilisant stratégiquement la fonctionnalité Exclure des Lettres — excluez les voyelles pour des exercices centrés sur les voyelles, excluez les mélanges de consonnes pour la pratique des mélanges. Regroupez avec des fiches en mode Liste de Mots Personnalisée ciblant des schémas phonétiques spécifiques. Incluez un guide pédagogique expliquant comment chaque schéma d\'exclusion cible une compétence phonétique différente. Vendez aux parents pratiquant l\'école à la maison et aux vendeurs de FLE.',
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Utilisez Sans Indices pour les Orthographeurs Avancés',
-      description: 'Le mode Sans Indices laisse la grille de lettres entièrement vide — les élèves doivent retrouver l\'orthographe complète à partir de l\'image seule. C\'est une véritable évaluation d\'orthographe, pas de la reconnaissance. Utilisez-le pour les élèves plus âgés, les contrôles d\'orthographe ou la section finale « défi » d\'un cahier progressif.',
+      description: 'Le mode Sans Indices laisse la grille de lettres entièrement vide — les utilisateurs doivent retrouver l\'orthographe complète à partir de l\'image seule. C\'est une véritable évaluation d\'orthographe, pas de la reconnaissance. Utilisez-le pour les utilisateurs plus âgés, les contrôles d\'orthographe ou la section finale « défi » d\'un cahier progressif.',
     },
     {
       title: 'Utilisez le Mode Facile pour les Jeunes Débutants',
-      description: 'Le mode Facile révèle la moitié des lettres, réduisant la charge cognitive pour que les jeunes apprenants puissent développer leur confiance. Ils voient assez du mot pour reconnaître les schémas orthographiques tout en ayant des cases vides à remplir. Commencez ici avec les élèves de maternelle et les débutants en FLE avant de progresser vers Normal et Difficile.',
+      description: 'Le mode Facile révèle la moitié des lettres, réduisant la charge cognitive pour que les jeunes apprenants puissent développer leur confiance. Ils voient assez du mot pour reconnaître les schémas orthographiques tout en ayant des cases vides à remplir. Commencez ici avec les utilisateurs de maternelle et les débutants en FLE avant de progresser vers Normal et Difficile.',
     },
     {
       title: 'Passez au Multilingue pour 11x Votre Gamme de Produits',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Utilisez les Niveaux de Gris pour KDP et l\'Impression en Volume',
-      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en classe. Le rendu noir et blanc coûte nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes attirent les clics.',
+      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en ligne. Le rendu noir et blanc coûte nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes attirent les clics.',
     },
     {
       title: 'Excluez les Voyelles pour un Focus Phonétique',
-      description: 'Utilisez la fonctionnalité Exclure des Lettres pour retirer toutes les voyelles de la grille de lettres. Les élèves doivent fournir chaque voyelle eux-mêmes, transformant un exercice d\'orthographe en pratique phonétique ciblée. Vous pouvez également exclure des consonnes spécifiques ou des combinaisons de lettres pour vous concentrer sur des compétences phonétiques particulières.',
+      description: 'Utilisez la fonctionnalité Exclure des Lettres pour retirer toutes les voyelles de la grille de lettres. Les utilisateurs doivent fournir chaque voyelle eux-mêmes, transformant un exercice d\'orthographe en pratique phonétique ciblée. Vous pouvez également exclure des consonnes spécifiques ou des combinaisons de lettres pour vous concentrer sur des compétences phonétiques particulières.',
     },
     {
       title: 'Associez avec d\'Autres Outils d\'Alphabétisation',
-      description: 'Combinez les fiches deviner les mots avec des mots mélangés, des mots cachés, des fiches d\'écriture et des fiches d\'association pour créer des packs d\'orthographe complets. Un « Kit Complet de Pratique d\'Orthographe » avec plusieurs types d\'activités se vend plus cher qu\'un seul format de fiche et offre aux élèves une pratique variée avec le même vocabulaire. Réutiliser les mêmes images thématiques à travers différents types d\'activités maintient aussi la cohérence visuelle de votre marque, ce qui renforce la reconnaissance des acheteurs lorsqu\'ils parcourent votre boutique.',
+      description: 'Combinez les fiches deviner les mots avec des mots mélangés, des mots cachés, des fiches d\'écriture et des fiches d\'association pour créer des packs d\'orthographe complets. Un « Kit Complet de Pratique d\'Orthographe » avec plusieurs types d\'activités se vend plus cher qu\'un seul format de fiche et offre aux utilisateurs une pratique variée avec le même vocabulaire. Réutiliser les mêmes images thématiques à travers différents types d\'activités maintient aussi la cohérence visuelle de votre marque, ce qui renforce la reconnaissance des acheteurs lorsqu\'ils parcourent votre boutique.',
     },
   ],
 
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Que fait la fonctionnalité Exclure des Lettres ?',
-      answer: 'Exclure des Lettres retire des lettres spécifiques des positions pré-remplies dans la grille. Par exemple, excluez toutes les voyelles pour que les élèves doivent les fournir, transformant l\'exercice en pratique phonétique ciblée. Vous pouvez exclure n\'importe quelle combinaison de lettres pour cibler des compétences orthographiques spécifiques ou augmenter la difficulté au-delà des quatre niveaux d\'indices standards.',
+      answer: 'Exclure des Lettres retire des lettres spécifiques des positions pré-remplies dans la grille. Par exemple, excluez toutes les voyelles pour que les utilisateurs doivent les fournir, transformant l\'exercice en pratique phonétique ciblée. Vous pouvez exclure n\'importe quelle combinaison de lettres pour cibler des compétences orthographiques spécifiques ou augmenter la difficulté au-delà des quatre niveaux d\'indices standards.',
     },
     {
       question: 'Comment fonctionne la sensibilité linguistique ?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'L\'outil génère-t-il des corrigés ?',
-      answer: 'Oui. L\'outil génère un corrigé séparé montrant l\'orthographe correcte pour chaque exercice. Les corrigés sont disponibles en format PDF et JPEG. Chaque niveau de difficulté obtient son propre corrigé pour que les enseignants puissent vérifier rapidement le travail des élèves quel que soit le niveau d\'indices attribué.',
+      answer: 'Oui. L\'outil génère un corrigé séparé montrant l\'orthographe correcte pour chaque exercice. Les corrigés sont disponibles en format PDF et JPEG. Chaque niveau de difficulté obtient son propre corrigé pour que les vendeurs puissent vérifier rapidement le travail des utilisateurs quel que soit le niveau d\'indices attribué.',
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
     },
     {
       question: 'Quels formats de fichier puis-je télécharger ?',

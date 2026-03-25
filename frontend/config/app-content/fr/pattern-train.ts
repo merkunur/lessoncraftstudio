@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'générateur de fiches train de suites logiques pour vendeurs Etsy',
       'créateur de fiches de séquences répétitives train pour éditeurs Amazon KDP',
-      'vendre des fiches de reconnaissance de motifs sur Teachers Pay Teachers',
+      'vendre des fiches de reconnaissance de motifs sur Gumroad',
       'générateur de fiches train suites logiques licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Train Suites Logiques | Vendre',
     metaDescription:
-      'Créez des fiches train de suites logiques pour Etsy, KDP et TPT. Cinq types de motifs, 11 wagons thématiques, indices ajustables.',
+      'Créez des fiches train de suites logiques pour Etsy, KDP et Gumroad. Cinq types de motifs, 11 wagons thématiques, indices ajustables.',
   },
 
   hero: {
     title: 'Générateur de Fiches Train de Suites Logiques pour des Exercices de Séquences Répétitives',
     tagline: 'Cinq types de motifs — AB, AAB, ABB, ABC, AABB — affichés sur 11 wagons de train thématiques avec un nombre d\'indices ajustable de 4 à 10 pour un contrôle précis de la difficulté.',
     description:
-      'Concevez des fiches professionnelles de reconnaissance de motifs où les élèves identifient et complètent des séquences répétitives affichées sous forme d\'images sur un train thématique à 11 wagons. Cinq types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB regroupe deux d\'un suivi d\'un autre, ABB inverse ce regroupement, ABC fait tourner trois éléments différents, et AABB associe deux de chaque avant de recommencer. La disposition du train organise 11 wagons sur trois rangées (5 + 3 + 3), chaque wagon contenant une image du motif répétitif. Un wagon est laissé vide — les élèves identifient le motif et déterminent l\'élément manquant. Ajustez le nombre d\'indices de 4 à 10 pour contrôler la difficulté : afficher 10 indices rend le motif évident, tandis que n\'en afficher que 4 exige un véritable raisonnement logique puisque les 3 premiers wagons sont toujours révélés. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre les 11 wagons remplis avec la séquence correcte pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images sur les wagons et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers différenciés de mathématiques pour TPT, le Générateur de Fiches Train de Suites Logiques livre des produits uniques au format train en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches professionnelles de reconnaissance de motifs où les utilisateurs identifient et complètent des séquences répétitives affichées sous forme d\'images sur un train thématique à 11 wagons. Cinq types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB regroupe deux d\'un suivi d\'un autre, ABB inverse ce regroupement, ABC fait tourner trois éléments différents, et AABB associe deux de chaque avant de recommencer. La disposition du train organise 11 wagons sur trois rangées (5 + 3 + 3), chaque wagon contenant une image du motif répétitif. Un wagon est laissé vide — les utilisateurs identifient le motif et déterminent l\'élément manquant. Ajustez le nombre d\'indices de 4 à 10 pour contrôler la difficulté : afficher 10 indices rend le motif évident, tandis que n\'en afficher que 4 exige un véritable raisonnement logique puisque les 3 premiers wagons sont toujours révélés. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre les 11 wagons remplis avec la séquence correcte pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images sur les wagons et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers différenciés de mathématiques pour Gumroad, le Générateur de Fiches Train de Suites Logiques livre des produits uniques au format train en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Configurer le nombre d\'indices et les champs nom/date',
         description:
-          'Réglez le nombre d\'indices visibles de 4 à 10 pour contrôler la difficulté de la fiche. Les 3 premiers wagons sont toujours affichés, et le wagon manquant est placé dynamiquement parmi les positions restantes. Afficher 10 indices ne laisse qu\'un seul wagon vide parmi 10 visibles — le motif est très évident, idéal pour les débutants. N\'afficher que 4 indices oblige les élèves à identifier le motif à partir d\'informations minimales — un véritable défi de raisonnement. Activez les champs optionnels de nom et date découpables pour l\'identification des élèves sur les fiches imprimées.',
+          'Réglez le nombre d\'indices visibles de 4 à 10 pour contrôler la difficulté de la fiche. Les 3 premiers wagons sont toujours affichés, et le wagon manquant est placé dynamiquement parmi les positions restantes. Afficher 10 indices ne laisse qu\'un seul wagon vide parmi 10 visibles — le motif est très évident, idéal pour les débutants. N\'afficher que 4 indices oblige les utilisateurs à identifier le motif à partir d\'informations minimales — un véritable défi de raisonnement. Activez les champs optionnels de nom et date découpables pour l\'identification des utilisateurs sur les fiches imprimées.',
       },
       {
         title: 'Sélectionner les images et ajouter des décorations',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Vérifier le corrigé et télécharger',
         description:
-          'Basculez vers l\'onglet Corrigé pour voir le train complet avec les 11 wagons remplis — la position manquante affiche maintenant l\'élément correct du motif. La fiche et le corrigé sont indépendamment modifiables sur des canevas séparés. Activez l\'export en niveaux de gris pour des versions économiques en encre. Puis téléchargez chacun en JPEG haute résolution ou en PDF prêt à imprimer. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT — la fiche et le corrigé se téléchargent comme des fichiers séparés pour un pack produit complet.',
+          'Basculez vers l\'onglet Corrigé pour voir le train complet avec les 11 wagons remplis — la position manquante affiche maintenant l\'élément correct du motif. La fiche et le corrigé sont indépendamment modifiables sur des canevas séparés. Activez l\'export en niveaux de gris pour des versions économiques en encre. Puis téléchargez chacun en JPEG haute résolution ou en PDF prêt à imprimer. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — la fiche et le corrigé se téléchargent comme des fichiers séparés pour un pack produit complet.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Format visuel en wagons de train avec 11 wagons thématiques',
         description:
-          'Les motifs s\'affichent sur un train thématique avec 11 wagons disposés en trois rangées (5 en haut, 3 au milieu-gauche, 3 au milieu-droite). Chaque wagon contient une image de la séquence répétitive, créant un format visuellement attrayant qui se démarque des fiches de motifs classiques en grille. La disposition en train donne aux produits un aspect distinctif dans les listages des places de marché — les acheteurs parcourant Etsy ou TPT voient immédiatement quelque chose de différent des exercices habituels en lignes et colonnes. Le train thématique illustré ajoute une valeur de production qui justifie des prix premium.',
+          'Les motifs s\'affichent sur un train thématique avec 11 wagons disposés en trois rangées (5 en haut, 3 au milieu-gauche, 3 au milieu-droite). Chaque wagon contient une image de la séquence répétitive, créant un format visuellement attrayant qui se démarque des fiches de motifs classiques en grille. La disposition en train donne aux produits un aspect distinctif dans les listages des places de marché — les acheteurs parcourant Etsy ou Gumroad voient immédiatement quelque chose de différent des exercices habituels en lignes et colonnes. Le train thématique illustré ajoute une valeur de production qui justifie des prix premium.',
       },
       {
         title: 'Cinq types de motifs répétitifs pour une difficulté progressive',
         description:
-          'Cinq types de motifs couvrent tout le spectre de complexité des séquences répétitives. AB alterne deux éléments dans le motif le plus simple possible. AAB et ABB introduisent des regroupements asymétriques où un élément apparaît deux fois avant ou après l\'autre. ABC fait tourner trois éléments différents, obligeant les élèves à suivre une unité de répétition plus longue. AABB associe deux de chaque élément dans un cycle étendu. Cette progression crée une échelle de difficulté naturelle, de l\'alternance simple en maternelle aux séquences multi-éléments avancées — offrant aux vendeurs un axe de différenciation intégré pour des lots de produits par niveaux.',
+          'Cinq types de motifs couvrent tout le spectre de complexité des séquences répétitives. AB alterne deux éléments dans le motif le plus simple possible. AAB et ABB introduisent des regroupements asymétriques où un élément apparaît deux fois avant ou après l\'autre. ABC fait tourner trois éléments différents, obligeant les utilisateurs à suivre une unité de répétition plus longue. AABB associe deux de chaque élément dans un cycle étendu. Cette progression crée une échelle de difficulté naturelle, de l\'alternance simple en maternelle aux séquences multi-éléments avancées — offrant aux vendeurs un axe de différenciation intégré pour des lots de produits par niveaux.',
       },
       {
         title: 'Nombre d\'indices ajustable de 4 à 10 pour le contrôle de difficulté',
         description:
-          'Le curseur du nombre d\'indices contrôle combien des 11 positions de wagons affichent des images par rapport à la position vide unique. Les 3 premiers wagons sont toujours révélés, établissant la base du motif. Avec 10 indices, un seul wagon est vide parmi 10 éléments visibles — le motif est très évident. Avec 4 indices, les élèves voient un minimum d\'informations et doivent raisonner attentivement pour identifier la séquence à partir de données limitées. Ce seul réglage crée une large gamme de difficulté à partir de chaque type de motif, multipliant efficacement la variété de vos produits : un motif AB à 10 indices convient aux débutants, tandis qu\'un motif ABC à 4 indices met au défi les élèves avancés.',
+          'Le curseur du nombre d\'indices contrôle combien des 11 positions de wagons affichent des images par rapport à la position vide unique. Les 3 premiers wagons sont toujours révélés, établissant la base du motif. Avec 10 indices, un seul wagon est vide parmi 10 éléments visibles — le motif est très évident. Avec 4 indices, les utilisateurs voient un minimum d\'informations et doivent raisonner attentivement pour identifier la séquence à partir de données limitées. Ce seul réglage crée une large gamme de difficulté à partir de chaque type de motif, multipliant efficacement la variété de vos produits : un motif AB à 10 indices convient aux débutants, tandis qu\'un motif ABC à 4 indices met au défi les utilisateurs avancés.',
       },
       {
         title: 'Position manquante dynamique avec placement intelligent',
         description:
-          'La position du wagon vide est sélectionnée dynamiquement parmi les positions 3 à 10 en fonction du nombre d\'indices configuré, garantissant que l\'élément manquant tombe toujours dans la section répétitive du motif plutôt qu\'au début évident. Les 3 premières positions sont toujours remplies pour établir visuellement le motif avant de présenter le défi. Ce placement intelligent crée des puzzles justes et résolvables à chaque fois — les élèves ont assez de contexte pour identifier le motif avant de rencontrer le wagon vide. Le positionnement dynamique signifie aussi que deux fiches avec le même type de motif peuvent avoir des positions manquantes différentes, ajoutant de la variété naturelle aux lots de produits.',
+          'La position du wagon vide est sélectionnée dynamiquement parmi les positions 3 à 10 en fonction du nombre d\'indices configuré, garantissant que l\'élément manquant tombe toujours dans la section répétitive du motif plutôt qu\'au début évident. Les 3 premières positions sont toujours remplies pour établir visuellement le motif avant de présenter le défi. Ce placement intelligent crée des puzzles justes et résolvables à chaque fois — les utilisateurs ont assez de contexte pour identifier le motif avant de rencontrer le wagon vide. Le positionnement dynamique signifie aussi que deux fiches avec le même type de motif peuvent avoir des positions manquantes différentes, ajoutant de la variété naturelle aux lots de produits.',
       },
       {
         title: 'Bibliothèque d\'images avec 104 collections thématiques',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Système à double canevas avec corrigé séparé',
         description:
-          'La fiche et le corrigé vivent sur des canevas séparés et indépendamment modifiables, accessibles via des onglets. La fiche montre le train avec un wagon vide ; le corrigé montre les 11 wagons remplis avec la séquence correcte du motif. Chaque canevas permet une édition complète — ajoutez du texte, ajustez la mise en page, repositionnez les éléments — vous pouvez personnaliser la fiche de l\'élève et le corrigé de l\'enseignant indépendamment. Les deux se téléchargent comme des fichiers séparés, offrant aux acheteurs un pack produit complet. Inclure des corrigés vérifiés augmente la valeur perçue et correspond aux attentes des acheteurs sur Etsy, TPT et KDP.',
+          'La fiche et le corrigé vivent sur des canevas séparés et indépendamment modifiables, accessibles via des onglets. La fiche montre le train avec un wagon vide ; le corrigé montre les 11 wagons remplis avec la séquence correcte du motif. Chaque canevas permet une édition complète — ajoutez du texte, ajustez la mise en page, repositionnez les éléments — vous pouvez personnaliser la fiche de l\'utilisateur et le corrigé de l\'vendeur indépendamment. Les deux se téléchargent comme des fichiers séparés, offrant aux acheteurs un pack produit complet. Inclure des corrigés vérifiés augmente la valeur perçue et correspond aux attentes des acheteurs sur Etsy, Gumroad et KDP.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer en haute résolution',
         description:
-          'Téléchargez les fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus avec un multiplicateur 6x pour une sortie nette et détaillée. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) et les dimensions personnalisées sont tous pris en charge. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe ou les cahiers en noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT — aucun post-traitement nécessaire.',
+          'Téléchargez les fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus avec un multiplicateur 6x pour une sortie nette et détaillée. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) et les dimensions personnalisées sont tous pris en charge. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume ou les cahiers en noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — aucun post-traitement nécessaire.',
       },
       {
         title: 'Édition complète du canevas avec outils texte et décoration',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers différenciés de mathématiques et reconnaissance visuelle pour TPT',
+        title: 'Ateliers différenciés de mathématiques et reconnaissance visuelle pour Gumroad',
         description:
-          'Construisez des sets de pratique de reconnaissance de motifs par niveaux en utilisant la complexité comme axe de différenciation : Niveau 1 (motifs AB, 8–10 indices), Niveau 2 (motifs AAB/ABB, 6–8 indices), Niveau 3 (motifs ABC, 5–6 indices), et Niveau 4 (motifs AABB, 4–5 indices). Chaque niveau cible une demande cognitive différente — de la reconnaissance d\'alternance simple à l\'identification de séquences multi-éléments complexes à partir d\'informations limitées. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d\'atelier en classe. Regroupez chaque niveau avec des exercices thématiques et des corrigés séparés pour la commodité de l\'enseignant.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construisez des sets de pratique de reconnaissance de motifs par niveaux en utilisant la complexité comme axe de différenciation : Niveau 1 (motifs AB, 8–10 indices), Niveau 2 (motifs AAB/ABB, 6–8 indices), Niveau 3 (motifs ABC, 5–6 indices), et Niveau 4 (motifs AABB, 4–5 indices). Chaque niveau cible une demande cognitive différente — de la reconnaissance d\'alternance simple à l\'identification de séquences multi-éléments complexes à partir d\'informations limitées. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d\'atelier en ligne. Regroupez chaque niveau avec des exercices thématiques et des corrigés séparés pour la commodité de l\'vendeur.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fiches visuelles multilingues pour les marchés mondiaux',
         description:
           'Comme les fiches Train de Suites Logiques ne contiennent que des images sur les wagons avec zéro texte sur la sortie, le même produit fonctionne dans toutes les langues sans modification. Créez un ensemble d\'exercices de trains de suites logiques et vendez-le dans le monde entier — aucune traduction nécessaire, aucune version linguistique séparée à maintenir. Changer la langue du contenu n\'affecte que les étiquettes de la bibliothèque d\'images dans le générateur, pas la fiche imprimée. Listez des produits identiques sur des boutiques Etsy ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Un seul flux de travail produit un produit vendable universellement.',
-        platform: 'Etsy / Amazon KDP / TPT (mondial)',
+        platform: 'Etsy / Amazon KDP / Gumroad (mondial)',
       },
       {
-        title: 'Outil de concepts de motifs pour la classe et le tutorat',
+        title: 'Outil de concepts de motifs pour la vente et le tutorat',
         description:
-          'Téléversez des images personnalisées pour créer des fiches train de suites logiques adaptées à n\'importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des images d\'artefacts historiques pour les études sociales, ou des symboles de notes musicales pour un cours de musique. Les cinq types de motifs vous permettent d\'adapter l\'exercice à l\'objectif pédagogique : AB pour l\'introduction, ABC et AABB pour l\'évaluation. Ajustez le nombre d\'indices selon le niveau de chaque élève — plus d\'indices pour les apprenants en difficulté, moins pour les élèves avancés. Imprimez des séries personnalisées en quelques minutes pour des petits groupes ou des classes entières. L\'onglet corrigé séparé fait gagner du temps de correction, et le format visuel en train engage les élèves qui trouvent les fiches en grille monotones.',
+          'Téléversez des images personnalisées pour créer des fiches train de suites logiques adaptées à n\'importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des images d\'artefacts historiques pour les études sociales, ou des symboles de notes musicales pour un cours de musique. Les cinq types de motifs vous permettent d\'adapter l\'exercice à l\'objectif pédagogique : AB pour l\'introduction, ABC et AABB pour l\'évaluation. Ajustez le nombre d\'indices selon le niveau de chaque utilisateur — plus d\'indices pour les apprenants en difficulté, moins pour les utilisateurs avancés. Imprimez des séries personnalisées en quelques minutes pour des petits groupes ou des classes entières. L\'onglet corrigé séparé fait gagner du valeur perçue, et le format visuel en train engage les utilisateurs qui trouvent les fiches en grille monotones.',
         platform: 'Classe / Tutorat / École à la maison',
       },
     ],
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Quels sont les cinq types de motifs et en quoi diffèrent-ils ?',
       answer:
-        'AB alterne deux éléments (A-B-A-B) pour le motif répétitif le plus simple. AAB regroupe deux d\'un élément puis un d\'un autre (A-A-B-A-A-B). ABB inverse ce regroupement (A-B-B-A-B-B). ABC fait tourner trois éléments différents (A-B-C-A-B-C), obligeant les élèves à suivre une unité de répétition plus longue. AABB associe deux de chaque élément (A-A-B-B-A-A-B-B) dans un cycle étendu. La progression de AB à AABB crée une échelle de difficulté naturelle, de l\'alternance simple à deux éléments aux séquences multi-éléments complexes.',
+        'AB alterne deux éléments (A-B-A-B) pour le motif répétitif le plus simple. AAB regroupe deux d\'un élément puis un d\'un autre (A-A-B-A-A-B). ABB inverse ce regroupement (A-B-B-A-B-B). ABC fait tourner trois éléments différents (A-B-C-A-B-C), obligeant les utilisateurs à suivre une unité de répétition plus longue. AABB associe deux de chaque élément (A-A-B-B-A-A-B-B) dans un cycle étendu. La progression de AB à AABB crée une échelle de difficulté naturelle, de l\'alternance simple à deux éléments aux séquences multi-éléments complexes.',
     },
     {
       question: 'Comment le nombre d\'indices contrôle-t-il la difficulté ?',
       answer:
-        'Le nombre d\'indices définit combien des 11 wagons du train affichent des images. Les 3 premiers wagons sont toujours visibles pour établir le motif. Avec 10 indices, un seul wagon est vide parmi 10 remplis — le motif est très évident. Avec 4 indices, les élèves voient un minimum d\'informations et doivent raisonner attentivement pour identifier la séquence. Ce seul réglage transforme n\'importe quel type de motif d\'un exercice simple en un véritable défi de raisonnement, multipliant efficacement la variété de produits à partir de chaque type de motif.',
+        'Le nombre d\'indices définit combien des 11 wagons du train affichent des images. Les 3 premiers wagons sont toujours visibles pour établir le motif. Avec 10 indices, un seul wagon est vide parmi 10 remplis — le motif est très évident. Avec 4 indices, les utilisateurs voient un minimum d\'informations et doivent raisonner attentivement pour identifier la séquence. Ce seul réglage transforme n\'importe quel type de motif d\'un exercice simple en un véritable défi de raisonnement, multipliant efficacement la variété de produits à partir de chaque type de motif.',
     },
     {
       question: 'Comment les 11 wagons du train sont-ils disposés sur la page ?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Comment la position du wagon manquant est-elle déterminée ?',
       answer:
-        'Le wagon vide est placé dynamiquement parmi les positions 3 à 10 en fonction du nombre d\'indices configuré. Les 3 premières positions sont toujours remplies pour que les élèves voient suffisamment du motif avant de rencontrer le wagon vide. Ce placement intelligent garantit que chaque puzzle est juste et résoluble. Deux fiches avec le même type de motif peuvent avoir des positions manquantes différentes, ajoutant une variété naturelle aux lots de produits.',
+        'Le wagon vide est placé dynamiquement parmi les positions 3 à 10 en fonction du nombre d\'indices configuré. Les 3 premières positions sont toujours remplies pour que les utilisateurs voient suffisamment du motif avant de rencontrer le wagon vide. Ce placement intelligent garantit que chaque puzzle est juste et résoluble. Deux fiches avec le même type de motif peuvent avoir des positions manquantes différentes, ajoutant une variété naturelle aux lots de produits.',
     },
     {
       question: 'Comment sélectionner les images pour les wagons du train ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches train de suites logiques en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les cinq types de motifs, le nombre d\'indices ajustable et le format unique en wagons de train vous offrent une forte différenciation et une vendabilité mondiale dans les catégories de places de marché.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches train de suites logiques en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les cinq types de motifs, le nombre d\'indices ajustable et le format unique en wagons de train vous offrent une forte différenciation et une vendabilité mondiale dans les catégories de places de marché.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -263,13 +263,13 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/french/pattern train/Train à Motifs 1.webp',
-      primaryAlt: 'Fiche train de suites logiques avec wagons thématiques montrant un motif répétitif AB avec un wagon manquant à compléter par les élèves',
+      primaryAlt: 'Fiche train de suites logiques avec wagons thématiques montrant un motif répétitif AB avec un wagon manquant à compléter par les utilisateurs',
     },
     sampleGallery: [
       {
         src: '/samples/french/pattern train/Train à Motifs 1.webp',
         alt: 'Fiche train de suites logiques en mode motif AB alternant avec des images d\'animaux sur 11 wagons thématiques',
-        caption: 'Motif AB avec thème animaux — les élèves identifient la séquence alternante et complètent le wagon manquant',
+        caption: 'Motif AB avec thème animaux — les utilisateurs identifient la séquence alternante et complètent le wagon manquant',
       },
       {
         src: '/samples/french/pattern train/Train à Motifs 2.webp',
@@ -279,7 +279,7 @@ const content: AppContent = {
       {
         src: '/samples/french/pattern train/Train à Motifs 3.webp',
         alt: 'Corrigé du train de suites logiques montrant les 11 wagons remplis avec la séquence correcte du motif',
-        caption: 'Vue corrigé — les 11 wagons remplis avec le motif correct pour la vérification par l\'enseignant',
+        caption: 'Vue corrigé — les 11 wagons remplis avec le motif correct pour la vérification par l\'vendeur',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des cartes bingo pour la classe',
+    primaryKeyword: 'créer des cartes bingo pour la vente',
     secondaryKeywords: [
-      'créateur de bingo à images pour la classe',
+      'créateur de bingo à images pour la vente',
       'jeu de bingo créateur pour enfants',
       'cartes de bingo imprimables pour l\'école',
-      'générateur de cartes bingo pour enseignants',
+      'générateur de cartes bingo pour vendeurs',
     ],
     lsiKeywords: [
-      'générateur de cartes bingo par lots pour la classe',
+      'générateur de cartes bingo par lots pour la vente',
       'créateur de bingo images et mots',
       'feuille d\'appel bingo créateur',
     ],
-    titleTag: 'Créer des Cartes Bingo — Pour la Classe',
-    metaDescription: 'Créez des cartes bingo à images pour la classe. Grilles 3x3 à 5x5, lots de cartes uniques, feuilles d\'appel, 104 thèmes. Essai gratuit avec filigrane.',
+    titleTag: 'Créer des Cartes Bingo — pour la vente',
+    metaDescription: 'Créez des cartes bingo à images pour la vente. Grilles 3x3 à 5x5, lots de cartes uniques, feuilles d\'appel, 104 thèmes. Essai gratuit avec filigrane.',
     },
 
   hero: {
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Télécharger les Cartes, la Feuille d\'Appel et l\'Export ZIP par Lot',
-        description: 'Activez les niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe et les intérieurs KDP. Téléchargez les fichiers individuels avec les quatre boutons dédiés : fiche JPEG, appels JPEG, fiche PDF et appels PDF — tous rendus à 300 DPI (multiplicateur 6×, qualité JPEG 1.0). Pour l\'export par lot, cliquez sur le bouton de téléchargement ZIP pour recevoir toutes les cartes bingo générées en fichiers JPEG individuels dans un seul fichier bingo_cards.zip. L\'export ZIP par lot est essentiel pour les vendeurs créant des ensembles bingo multi-cartes — générez 10 cartes uniques et empaquetez-les en un seul téléchargement. Les fichiers sont prêts pour la production : listings Etsy.fr, intérieurs Amazon KDP et fichiers produits TPT.',
+        description: 'Activez les niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume et les intérieurs KDP. Téléchargez les fichiers individuels avec les quatre boutons dédiés : fiche JPEG, appels JPEG, fiche PDF et appels PDF — tous rendus à 300 DPI (multiplicateur 6×, qualité JPEG 1.0). Pour l\'export par lot, cliquez sur le bouton de téléchargement ZIP pour recevoir toutes les cartes bingo générées en fichiers JPEG individuels dans un seul fichier bingo_cards.zip. L\'export ZIP par lot est essentiel pour les vendeurs créant des ensembles bingo multi-cartes — générez 10 cartes uniques et empaquetez-les en un seul téléchargement. Les fichiers sont prêts pour la production : listings Etsy.fr, intérieurs Amazon KDP et fichiers produits Gumroad.',
       },
     ],
   },
@@ -75,8 +75,8 @@ const content: ToolContent = {  seo: {
       description: 'Compilez 40 à 80 cartes bingo dans des cahiers d\'activités imprimés pour Amazon KDP. Structurez les chapitres par thème : bingo animaux, bingo nourriture, bingo véhicules, bingo fêtes. Incluez les feuilles d\'appel après chaque ensemble pour que le livre soit autonome et prêt à jouer — les lecteurs peuvent photocopier la page d\'appel pendant que les joueurs utilisent directement les pages de cartes bingo. Mélangez les tailles de grille au sein des chapitres pour une difficulté progressive. Activez les niveaux de gris pour une sortie économique en encre qui maintient les coûts d\'impression KDP bas. La génération par lot produit 10 cartes uniques par ensemble en quelques secondes, rendant les compilations de grands cahiers efficaces.',
     },
     {
-      title: 'Kits de Jeux Bingo Prêts pour la Classe',
-      description: 'Construisez des kits de jeux bingo complets pour la classe avec 10 cartes uniques par joueur et une feuille d\'appel par ensemble. Les enseignants recherchant des activités bingo apprécient les produits prêts à jouer — imprimez les cartes, distribuez-les et commencez le jeu immédiatement. Utilisez le mode remplissage par mots avec du vocabulaire du programme pour la révision en français, le remplissage par images pour des exercices de reconnaissance visuelle, ou les modes mixtes pour l\'instruction différenciée. La sélection personnalisée des appels vous permet de choisir exactement quels éléments de vocabulaire apparaissent dans le jeu pour un alignement précis au programme.',
+      title: 'Kits de Jeux Bingo Prêts pour la vente',
+      description: 'Construisez des kits de jeux bingo complets pour la vente avec 10 cartes uniques par joueur et une feuille d\'appel par ensemble. Les vendeurs recherchant des activités bingo apprécient les produits prêts à jouer — imprimez les cartes, distribuez-les et commencez le jeu immédiatement. Utilisez le mode remplissage par mots avec du vocabulaire du programme pour la révision en français, le remplissage par images pour des exercices de reconnaissance visuelle, ou les modes mixtes pour l\'instruction différenciée. La sélection personnalisée des appels vous permet de choisir exactement quels éléments de vocabulaire apparaissent dans le jeu pour un alignement précis au programme.',
     },
     {
       title: 'Collections Bingo Saisonnières et de Fêtes',
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs d\'Activités Bingo pour la Classe sur TPT',
-      description: 'Téléversez des packs d\'activités bingo sur TPT avec des cartes uniques par joueur et des feuilles d\'appel comme arguments de vente principaux. Les enseignants recherchant des activités bingo apprécient les produits prêts à jouer — imprimez, distribuez et commencez le jeu. Créez des ensembles alignés sur le programme : bingo vocabulaire avec le mode remplissage par mots, bingo reconnaissance d\'images avec le mode remplissage par images, et bingo en mode mixte pour l\'instruction différenciée. Incluez 10 cartes uniques par ensemble avec une feuille d\'appel. Le mode remplissage par mots avec les noms localisés des images transforme le bingo en activité de révision de vocabulaire utilisable en français, en sciences et dans les unités thématiques.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs d\'Activités Bingo pour la vente sur Gumroad',
+      description: 'Téléversez des packs d\'activités bingo sur Gumroad avec des cartes uniques par joueur et des feuilles d\'appel comme arguments de vente principaux. Les vendeurs recherchant des activités bingo apprécient les produits prêts à jouer — imprimez, distribuez et commencez le jeu. Créez des ensembles alignés sur le programme : bingo vocabulaire avec le mode remplissage par mots, bingo reconnaissance d\'images avec le mode remplissage par images, et bingo en mode mixte pour l\'instruction différenciée. Incluez 10 cartes uniques par ensemble avec une feuille d\'appel. Le mode remplissage par mots avec les noms localisés des images transforme le bingo en activité de révision de vocabulaire utilisable en français, en sciences et dans les unités thématiques.',
+      platform: 'Gumroad',
     },
     {
       title: 'Tunnel de Vente Pinterest pour Cartes Bingo',
-      description: 'Les cartes bingo font des épingles Pinterest visuellement saisissantes — la disposition en grille colorée avec des images thématiques et des jetons circulaires crée un format de jeu immédiatement reconnaissable que les parents et les enseignants adorent. Épinglez des exemples de cartes bingo montrant différents thèmes : bingo animaux pour les tableaux préscolaires, bingo des fêtes pour les tableaux saisonniers, et bingo vocabulaire pour les tableaux éducatifs. Créez des séries d\'épingles distinctes pour « cartes bingo imprimables », « jeux bingo pour la classe » et « activités bingo de fêtes ». Le bingo est un jeu universellement reconnu, les épingles attirent donc des audiences de tous les pays et langues. Reliez chaque épingle à vos listings Etsy ou TPT.',
+      description: 'Les cartes bingo font des épingles Pinterest visuellement saisissantes — la disposition en grille colorée avec des images thématiques et des jetons circulaires crée un format de jeu immédiatement reconnaissable que les parents et les vendeurs adorent. Épinglez des exemples de cartes bingo montrant différents thèmes : bingo animaux pour les tableaux préscolaires, bingo des fêtes pour les tableaux saisonniers, et bingo vocabulaire pour les tableaux éducatifs. Créez des séries d\'épingles distinctes pour « cartes bingo imprimables », « jeux bingo pour la vente » et « activités bingo de fêtes ». Le bingo est un jeu universellement reconnu, les épingles attirent donc des audiences de tous les pays et langues. Reliez chaque épingle à vos listings Etsy ou Gumroad.',
       platform: 'Pinterest',
     },
     {
@@ -116,8 +116,8 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Produits Bingo Multilingues pour les Marchés Internationaux',
-      description: 'Le Créateur de Cartes Bingo est sensible à la langue — le mode remplissage par mots utilise les noms localisés des images dans 11 langues, rendant simple la production de cartes bingo en anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois à partir des mêmes images. Créez des produits de bingo vocabulaire ciblant les boutiques Etsy internationales, les acheteurs TPT multilingues et les apprenants de langues du monde entier. Vendez le même ensemble bingo thématique dans plusieurs versions linguistiques sans aucune refonte — changez simplement la langue et régénérez. Les lots multilingues commandent des prix premium et atteignent des acheteurs inaccessibles aux concurrents monolingues.',
-      platform: 'Etsy.fr / TPT',
+      description: 'Le Créateur de Cartes Bingo est sensible à la langue — le mode remplissage par mots utilise les noms localisés des images dans 11 langues, rendant simple la production de cartes bingo en anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois à partir des mêmes images. Créez des produits de bingo vocabulaire ciblant les boutiques Etsy internationales, les acheteurs Gumroad multilingues et les apprenants de langues du monde entier. Vendez le même ensemble bingo thématique dans plusieurs versions linguistiques sans aucune refonte — changez simplement la langue et régénérez. Les lots multilingues commandent des prix premium et atteignent des acheteurs inaccessibles aux concurrents monolingues.',
+      platform: 'Etsy.fr / Gumroad',
     },
   ],
 
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Exploitez la Sélection Personnalisée des Appels pour l\'Alignement au Programme',
-      description: 'Activez la case « Utiliser la sélection personnalisée » pour choisir manuellement quelles images apparaissent dans la banque d\'appels. Le compteur en temps réel affiche votre nombre de sélections au fur et à mesure que vous choisissez dans la Bibliothèque d\'Images. Cette fonctionnalité est essentielle pour créer des jeux bingo alignés sur le programme — sélectionnez uniquement les mots de vocabulaire couverts par votre leçon, uniquement les animaux d\'un habitat spécifique, ou uniquement les aliments d\'une unité nutrition. La sélection personnalisée des appels transforme le bingo d\'un jeu aléatoire en un outil pédagogique ciblé, ce qui est l\'argument de vente clé pour les produits TPT destinés à la classe.',
+      description: 'Activez la case « Utiliser la sélection personnalisée » pour choisir manuellement quelles images apparaissent dans la banque d\'appels. Le compteur en temps réel affiche votre nombre de sélections au fur et à mesure que vous choisissez dans la Bibliothèque d\'Images. Cette fonctionnalité est essentielle pour créer des jeux bingo alignés sur le programme — sélectionnez uniquement les mots de vocabulaire couverts par votre leçon, uniquement les animaux d\'un habitat spécifique, ou uniquement les aliments d\'une unité nutrition. La sélection personnalisée des appels transforme le bingo d\'un jeu aléatoire en un outil pédagogique ciblé, ce qui est l\'argument de vente clé pour les produits Gumroad destinés à la classe.',
     },
     {
       title: 'Exploitez le Remplissage par Mots Sensible à la Langue pour des Produits Multilingues',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Ciblez Plusieurs Tailles de Grille pour une Couverture Maximale du Marché',
-      description: 'Différentes tailles de grille servent différents publics. Les grilles 3×3 (9 cases) conviennent le mieux au bingo préscolaire et maternelle avec des parties rapides et moins d\'éléments à suivre. Les grilles 4×4 (16 cases) conviennent aux classes élémentaires avec un jeu équilibré. Les grilles 5×5 (25 cases) offrent l\'expérience bingo classique pour les élèves plus âgés et les soirées jeux en famille. Incluez les trois tailles dans vos lots de produits et créez des listings séparés ciblant chaque groupe d\'âge. La génération par lot signifie que changer de taille de grille et régénérer ne prend que quelques secondes.',
+      description: 'Différentes tailles de grille servent différents publics. Les grilles 3×3 (9 cases) conviennent le mieux au bingo préscolaire et maternelle avec des parties rapides et moins d\'éléments à suivre. Les grilles 4×4 (16 cases) conviennent aux classes élémentaires avec un jeu équilibré. Les grilles 5×5 (25 cases) offrent l\'expérience bingo classique pour les utilisateurs plus âgés et les soirées jeux en famille. Incluez les trois tailles dans vos lots de produits et créez des listings séparés ciblant chaque groupe d\'âge. La génération par lot signifie que changer de taille de grille et régénérer ne prend que quelques secondes.',
     },
   ],
 
@@ -195,7 +195,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Peut-on vendre des cartes bingo créées avec cet outil à usage commercial ?',
-      answer: 'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre des cartes bingo en téléchargements numériques sur Etsy, cahiers d\'activités imprimés sur Amazon KDP, ressources pédagogiques sur TPT ou via tout autre canal de vente. Les tailles de grille configurables, la génération par lot, l\'export ZIP, les doubles modes de remplissage, les feuilles d\'appel dédiées, la sélection personnalisée des appels, le remplissage multilingue par mots et les 104 collections d\'images thématiques vous donnent tout le nécessaire pour créer des produits bingo professionnels compétitifs dans les catégories de jeux imprimables sur toutes les grandes places de marché.',
+      answer: 'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre des cartes bingo en téléchargements numériques sur Etsy, cahiers d\'activités imprimés sur Amazon KDP, ressources imprimables sur Gumroad ou via tout autre canal de vente. Les tailles de grille configurables, la génération par lot, l\'export ZIP, les doubles modes de remplissage, les feuilles d\'appel dédiées, la sélection personnalisée des appels, le remplissage multilingue par mots et les 104 collections d\'images thématiques vous donnent tout le nécessaire pour créer des produits bingo professionnels compétitifs dans les catégories de jeux imprimables sur toutes les grandes places de marché.',
     },
     {
       question: 'Quelle est votre politique de remboursement ?',

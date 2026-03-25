@@ -7,7 +7,7 @@ const content: AppContent = {
       'fiches Je Vois Je Vois imprimables pour vendeurs Etsy',
       'générateur de fiches cherche objets pour Amazon KDP',
       'créer fiches trouve l\'intrus avec licence commerciale',
-      'vendre des fiches objets cachés sur Teachers Pay Teachers',
+      'vendre des fiches objets cachés sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques fiches objets cachés pour entrepreneurs',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'fiches recherche visuelle imprimables avec corrigé automatique',
     ],
     titleTag: 'Générateur Fiches Objets Cachés | Je Vois + Intrus',
-    metaDescription: 'Créez des fiches objets cachés pour Etsy, KDP et TPT. Modes Cherche et Trouve l’Intrus, sans chevauchement, corrigé auto. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des fiches objets cachés pour Etsy, KDP et Gumroad. Modes Cherche et Trouve l’Intrus, sans chevauchement, corrigé auto. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches Objets Cachés pour Activités Je Vois Je Vois et Trouve l\'Intrus',
     tagline: 'Deux modes d\'activité en un seul générateur — scènes d\'objets cachés Je Vois Je Vois avec placement sans chevauchement et rangées d\'images appariées Trouve l\'Intrus — avec corrigés auto-générés, dimensionnement adaptatif des images, champs nom et date, et légende montrant les objets à trouver.',
     description:
-      'Concevez des fiches professionnelles d\'objets cachés où les élèves explorent une scène d\'images dispersées pour trouver et entourer des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Je Vois Je Vois utilise un algorithme de placement sans chevauchement pour disperser 1–5 objets cachés parmi 8–12 objets distracteurs sur toute la page — pas de grille, pas de lignes ni de colonnes, juste une scène visuelle cohérente générée par l\'algorithme findBestPosition() qui essaie 50 positions aléatoires par image et réduit adaptativement la taille quand l\'espace se fait rare. Une légende en bas de la fiche montre aux élèves exactement quels objets chercher. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les élèves identifient les images qui n\'ont pas de partenaire correspondant. Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé — le corrigé dessine des cercles rouges autour des objets cachés (Je Vois Je Vois) ou des éléments non appariés (Trouve l\'Intrus) pour que vous n\'ayez jamais à les marquer manuellement. Le Générateur Cherche Objets est uniquement visuel : la langue affecte les étiquettes de l\'interface mais PAS le contenu des fiches, donc chaque fiche fonctionne dans n\'importe quelle langue sans noms d\'images localisés. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, activez ou désactivez les champs nom et date, personnalisez l\'en-tête à taille automatique avec 6 choix de polices, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs d\'activités objets cachés sur Etsy, compiliez des cahiers Je Vois Je Vois pour Amazon KDP ou créiez des activités de discrimination visuelle pour TPT, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches professionnelles d\'objets cachés où les utilisateurs explorent une scène d\'images dispersées pour trouver et entourer des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Je Vois Je Vois utilise un algorithme de placement sans chevauchement pour disperser 1–5 objets cachés parmi 8–12 objets distracteurs sur toute la page — pas de grille, pas de lignes ni de colonnes, juste une scène visuelle cohérente générée par l\'algorithme findBestPosition() qui essaie 50 positions aléatoires par image et réduit adaptativement la taille quand l\'espace se fait rare. Une légende en bas de la fiche montre aux utilisateurs exactement quels objets chercher. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les utilisateurs identifient les images qui n\'ont pas de partenaire correspondant. Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé — le corrigé dessine des cercles rouges autour des objets cachés (Je Vois Je Vois) ou des éléments non appariés (Trouve l\'Intrus) pour que vous n\'ayez jamais à les marquer manuellement. Le Générateur Cherche Objets est uniquement visuel : la langue affecte les étiquettes de l\'interface mais PAS le contenu des fiches, donc chaque fiche fonctionne dans n\'importe quelle langue sans noms d\'images localisés. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, activez ou désactivez les champs nom et date, personnalisez l\'en-tête à taille automatique avec 6 choix de polices, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs d\'activités objets cachés sur Etsy, compiliez des cahiers Je Vois Je Vois pour Amazon KDP ou créiez des activités de discrimination visuelle pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Générer la scène d\'objets cachés',
         description:
-          'Cliquez sur Générer pour créer la fiche. En mode Je Vois Je Vois, l\'algorithme sans chevauchement place chaque image en essayant 50 positions aléatoires et en sélectionnant celle avec le moins de chevauchement, réduisant adaptativement la taille quand l\'espace se fait rare. Une légende apparaît en bas montrant aux élèves quels objets chercher. En mode Trouve l\'Intrus, les images sont disposées en rangées avec des éléments appariés et non appariés. L\'en-tête à taille automatique affiche votre titre en police Fredoka avec des capsules décoratives — la taille de police s\'ajuste automatiquement selon la longueur du texte.',
+          'Cliquez sur Générer pour créer la fiche. En mode Je Vois Je Vois, l\'algorithme sans chevauchement place chaque image en essayant 50 positions aléatoires et en sélectionnant celle avec le moins de chevauchement, réduisant adaptativement la taille quand l\'espace se fait rare. Une légende apparaît en bas montrant aux utilisateurs quels objets chercher. En mode Trouve l\'Intrus, les images sont disposées en rangées avec des éléments appariés et non appariés. L\'en-tête à taille automatique affiche votre titre en police Fredoka avec des capsules décoratives — la taille de police s\'ajuste automatiquement selon la longueur du texte.',
       },
       {
         title: 'Générer le corrigé et télécharger',
         description:
-          'Passez à l\'onglet Corrigé pour voir les annotations auto-générées : des cercles rouges dessinés autour des objets cachés (mode Je Vois Je Vois) ou des éléments non appariés (mode Trouve l\'Intrus), dimensionnés 3–5 px plus grands que l\'objet pour une visibilité claire. Téléchargez les deux versions avec quatre boutons dédiés dans le menu déroulant : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits TPT.',
+          'Passez à l\'onglet Corrigé pour voir les annotations auto-générées : des cercles rouges dessinés autour des objets cachés (mode Je Vois Je Vois) ou des éléments non appariés (mode Trouve l\'Intrus), dimensionnés 3–5 px plus grands que l\'objet pour une visibilité claire. Téléchargez les deux versions avec quatre boutons dédiés dans le menu déroulant : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.',
       },
     ],
   },
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Deux modes d\'activité : Objets Cachés Je Vois Je Vois et Trouve l\'Intrus',
         description:
-          'Un seul générateur couvre deux formats d\'activité distincts. Le mode Je Vois Je Vois crée des scènes d\'objets cachés en placement libre où 1–5 objets cibles se cachent parmi 8–12 objets distracteurs dans une scène visuelle dispersée — les élèves explorent la page et entourent ce qu\'ils trouvent. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les élèves identifient les images sans partenaire correspondant. Les images en mode Trouve l\'Intrus sont rendues 50 % plus grandes qu\'en mode Je Vois Je Vois pour une comparaison visuelle claire. Chaque mode produit un défi cognitif différent à partir de la même bibliothèque d\'images.',
+          'Un seul générateur couvre deux formats d\'activité distincts. Le mode Je Vois Je Vois crée des scènes d\'objets cachés en placement libre où 1–5 objets cibles se cachent parmi 8–12 objets distracteurs dans une scène visuelle dispersée — les utilisateurs explorent la page et entourent ce qu\'ils trouvent. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les utilisateurs identifient les images sans partenaire correspondant. Les images en mode Trouve l\'Intrus sont rendues 50 % plus grandes qu\'en mode Je Vois Je Vois pour une comparaison visuelle claire. Chaque mode produit un défi cognitif différent à partir de la même bibliothèque d\'images.',
       },
       {
         title: 'Génération de scènes sans chevauchement avec dimensionnement adaptatif des images',
@@ -77,12 +77,12 @@ const content: AppContent = {
       {
         title: 'Légende montrant les objets à trouver en mode Je Vois Je Vois',
         description:
-          'En mode Je Vois Je Vois, une légende dans la marge inférieure de 120 px affiche les objets cibles que les élèves doivent trouver. Cette référence visuelle montre chaque objet caché pour que les élèves sachent exactement quoi chercher — rendant les fiches accessibles aux pré-lecteurs et aux classes multilingues sans nécessiter de consignes écrites. La légende est générée automatiquement d\'après vos objets cachés sélectionnés. Le mode Trouve l\'Intrus utilise une marge inférieure compacte de 50 px puisque les élèves découvrent les éléments non appariés par comparaison visuelle plutôt que par une liste de référence.',
+          'En mode Je Vois Je Vois, une légende dans la marge inférieure de 120 px affiche les objets cibles que les utilisateurs doivent trouver. Cette référence visuelle montre chaque objet caché pour que les utilisateurs sachent exactement quoi chercher — rendant les fiches accessibles aux pré-lecteurs et aux classes multilingues sans nécessiter de consignes écrites. La légende est générée automatiquement d\'après vos objets cachés sélectionnés. Le mode Trouve l\'Intrus utilise une marge inférieure compacte de 50 px puisque les utilisateurs découvrent les éléments non appariés par comparaison visuelle plutôt que par une liste de référence.',
       },
       {
         title: 'Champs nom et date avec contrôle d\'activation',
         description:
-          'Une case à cocher dans le panneau Texte & Contenu ajoute des champs « Nom : » et « Date : » à la fiche. Ces lignes d\'identification garantissent la traçabilité en classe et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la classe ou désactivez-les pour des pages de cahier d\'activités où l\'identification de l\'élève apparaît en couverture. Les champs s\'affichent proprement aux côtés de l\'en-tête et de la légende auto-générés.',
+          'Une case à cocher dans le panneau Texte & Contenu ajoute des champs « Nom : » et « Date : » à la fiche. Ces lignes d\'identification garantissent la traçabilité en ligne et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la vente ou désactivez-les pour des pages de cahier d\'activités où l\'identification de l\'utilisateur apparaît en couverture. Les champs s\'affichent proprement aux côtés de l\'en-tête et de la légende auto-générés.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 collections thématiques et plus de 3 100 illustrations',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI avec mode niveaux de gris',
         description:
-          'Téléchargez vos fiches d\'objets cachés et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI (multiplicateur 6×). Quatre boutons de téléchargement dans le menu déroulant exportent séparément la Fiche JPEG, le Corrigé JPEG, la Fiche PDF et le Corrigé PDF. Les formats incluent Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — téléchargements numériques, cahiers imprimés et documents pour la classe.',
+          'Téléchargez vos fiches d\'objets cachés et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI (multiplicateur 6×). Quatre boutons de téléchargement dans le menu déroulant exportent séparément la Fiche JPEG, le Corrigé JPEG, la Fiche PDF et le Corrigé PDF. Les formats incluent Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — téléchargements numériques, cahiers imprimés et documents pour la vente.',
       },
       {
         title: 'Édition complète du canevas avec outils texte, thèmes de fond et thèmes de bordure',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fiches Trouve l\'Intrus discrimination visuelle pour TPT',
+        title: 'Fiches Trouve l\'Intrus discrimination visuelle pour Gumroad',
         description:
-          'Construisez des fiches Trouve l\'Intrus prêtes à l\'emploi où les élèves identifient les éléments non appariés parmi des ensembles d\'images appariées. Les enseignants sur TPT recherchent des activités de discrimination visuelle qui développent l\'observation et le raisonnement logique. Créez des ensembles alignés sur les programmes : Trouve l\'Intrus animaux de la ferme, reconnaissance de formes, tri saisonnier et classification d\'habitats. Incluez des champs nom et date pour la traçabilité des élèves, et fournissez des corrigés montrant les éléments non appariés. Chaque ensemble s\'exporte en PDF et JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construisez des fiches Trouve l\'Intrus prêtes à l\'emploi où les utilisateurs identifient les éléments non appariés parmi des ensembles d\'images appariées. Les vendeurs sur Gumroad recherchent des activités de discrimination visuelle qui développent l\'observation et le raisonnement logique. Créez des ensembles alignés sur les programmes : Trouve l\'Intrus animaux de la ferme, reconnaissance de formes, tri saisonnier et classification d\'habitats. Incluez des champs nom et date pour la traçabilité des utilisateurs, et fournissez des corrigés montrant les éléments non appariés. Chaque ensemble s\'exporte en PDF et JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections d\'objets cachés saisonnières',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d\'été et plus encore. Créez des collections de fiches d\'objets cachés limitées dans le temps, alignées sur les pics de vente. Lancez des packs Je Vois Je Vois Halloween en septembre, des collections objets cachés Noël en octobre, et des packs cherche-et-trouve Saint-Valentin en janvier. Incluez à la fois des fiches Je Vois Je Vois et Trouve l\'Intrus dans chaque collection saisonnière pour une valeur maximale.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
       {
         title: 'Packs variété mixtes Je Vois Je Vois et Trouve l\'Intrus',
         description:
-          'Combinez les deux modes d\'activité dans des packs variété premium. Chaque pack comprend des scènes Je Vois Je Vois où les élèves cherchent des objets spécifiques dans une scène dispersée, plus des fiches Trouve l\'Intrus où les élèves identifient les éléments non appariés parmi des ensembles appariés. Cette combinaison cible deux compétences cognitives différentes — la recherche visuelle et la discrimination visuelle — dans un seul produit. Les packs mixtes se vendent à des prix plus élevés car ils offrent plus de variété d\'activités et couvrent plus d\'objectifs d\'apprentissage que les produits à mode unique.',
-        platform: 'Etsy / TPT (packs variété)',
+          'Combinez les deux modes d\'activité dans des packs variété premium. Chaque pack comprend des scènes Je Vois Je Vois où les utilisateurs cherchent des objets spécifiques dans une scène dispersée, plus des fiches Trouve l\'Intrus où les utilisateurs identifient les éléments non appariés parmi des ensembles appariés. Cette combinaison cible deux compétences cognitives différentes — la recherche visuelle et la discrimination visuelle — dans un seul produit. Les packs mixtes se vendent à des prix plus élevés car ils offrent plus de variété d\'activités et couvrent plus d\'objectifs d\'apprentissage que les produits à mode unique.',
+        platform: 'Etsy / Gumroad (packs variété)',
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'Quels sont les deux modes d\'activité et en quoi diffèrent-ils ?',
       answer:
-        'Le générateur propose deux modes distincts. Le mode Je Vois Je Vois (par défaut) crée des scènes d\'objets cachés en placement libre où 1–5 objets cibles sont dispersés parmi 8–12 objets distracteurs grâce à un algorithme de placement sans chevauchement — les élèves explorent la page et entourent ce qu\'ils trouvent, guidés par une légende en bas montrant les objets à localiser. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les élèves identifient les images sans partenaire correspondant. Les images en mode Trouve l\'Intrus sont 50 % plus grandes qu\'en mode Je Vois Je Vois pour une comparaison visuelle plus claire.',
+        'Le générateur propose deux modes distincts. Le mode Je Vois Je Vois (par défaut) crée des scènes d\'objets cachés en placement libre où 1–5 objets cibles sont dispersés parmi 8–12 objets distracteurs grâce à un algorithme de placement sans chevauchement — les utilisateurs explorent la page et entourent ce qu\'ils trouvent, guidés par une légende en bas montrant les objets à localiser. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les utilisateurs identifient les images sans partenaire correspondant. Les images en mode Trouve l\'Intrus sont 50 % plus grandes qu\'en mode Je Vois Je Vois pour une comparaison visuelle plus claire.',
     },
     {
       question: 'Comment fonctionne l\'algorithme de placement sans chevauchement en mode Je Vois Je Vois ?',
@@ -152,27 +152,27 @@ const content: AppContent = {
     {
       question: 'Combien d\'objets cachés et de distracteurs peut-on utiliser en mode Je Vois Je Vois ?',
       answer:
-        'En mode Je Vois Je Vois, vous pouvez configurer 1–5 objets cachés (les cibles que les élèves doivent trouver) et 8–12 objets distracteurs (les images environnantes qui remplissent la scène). Commencez avec 1–2 objets cachés et 8 distracteurs pour des fiches plus faciles, et augmentez à 5 objets cachés parmi 12 distracteurs pour des scènes stimulantes. La légende en bas de la fiche montre aux élèves quels objets chercher.',
+        'En mode Je Vois Je Vois, vous pouvez configurer 1–5 objets cachés (les cibles que les utilisateurs doivent trouver) et 8–12 objets distracteurs (les images environnantes qui remplissent la scène). Commencez avec 1–2 objets cachés et 8 distracteurs pour des fiches plus faciles, et augmentez à 5 objets cachés parmi 12 distracteurs pour des scènes stimulantes. La légende en bas de la fiche montre aux utilisateurs quels objets chercher.',
     },
     {
       question: 'Comment fonctionne le mode Trouve l\'Intrus ?',
       answer:
-        'Le mode Trouve l\'Intrus dispose des images en rangées avec des éléments appariés et non appariés. Configurez 8–12 images appariées (chacune apparaît deux fois dans la disposition) et 1–5 éléments non appariés (intrus) qui n\'apparaissent qu\'une seule fois. Les élèves examinent chaque rangée et identifient l\'image qui n\'a pas de partenaire correspondant. Les images sont rendues 50 % plus grandes qu\'en mode Je Vois Je Vois pour une comparaison visuelle plus claire. Il n\'y a pas de légende en bas puisque les élèves découvrent les éléments non appariés par analyse visuelle plutôt que par une liste de référence.',
+        'Le mode Trouve l\'Intrus dispose des images en rangées avec des éléments appariés et non appariés. Configurez 8–12 images appariées (chacune apparaît deux fois dans la disposition) et 1–5 éléments non appariés (intrus) qui n\'apparaissent qu\'une seule fois. Les utilisateurs examinent chaque rangée et identifient l\'image qui n\'a pas de partenaire correspondant. Les images sont rendues 50 % plus grandes qu\'en mode Je Vois Je Vois pour une comparaison visuelle plus claire. Il n\'y a pas de légende en bas puisque les utilisateurs découvrent les éléments non appariés par analyse visuelle plutôt que par une liste de référence.',
     },
     {
       question: 'Que montre la légende en bas de la fiche ?',
       answer:
-        'En mode Je Vois Je Vois, une légende dans la marge inférieure de 120 px affiche les objets cibles que les élèves doivent trouver. Cette référence visuelle montre chaque objet caché pour que les élèves sachent exactement quoi chercher — rendant les fiches accessibles aux pré-lecteurs et aux classes multilingues sans nécessiter de consignes écrites. Le mode Trouve l\'Intrus n\'inclut pas de légende puisque l\'activité est auto-explicative : trouver l\'image sans partenaire correspondant.',
+        'En mode Je Vois Je Vois, une légende dans la marge inférieure de 120 px affiche les objets cibles que les utilisateurs doivent trouver. Cette référence visuelle montre chaque objet caché pour que les utilisateurs sachent exactement quoi chercher — rendant les fiches accessibles aux pré-lecteurs et aux classes multilingues sans nécessiter de consignes écrites. Le mode Trouve l\'Intrus n\'inclut pas de légende puisque l\'activité est auto-explicative : trouver l\'image sans partenaire correspondant.',
     },
     {
       question: 'Comment fonctionne le corrigé auto-généré ?',
       answer:
-        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre la scène d\'objets cachés sans marquage — les élèves cherchent et entourent les objets eux-mêmes. Le corrigé reproduit la disposition identique et dessine des cercles rouges autour des objets corrects : les cibles cachées en mode Je Vois Je Vois et les éléments non appariés en mode Trouve l\'Intrus. Les cercles sont dimensionnés 3–5 px plus grands que l\'objet pour une visibilité claire. Les deux versions s\'exportent séparément avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF.',
+        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre la scène d\'objets cachés sans marquage — les utilisateurs cherchent et entourent les objets eux-mêmes. Le corrigé reproduit la disposition identique et dessine des cercles rouges autour des objets corrects : les cibles cachées en mode Je Vois Je Vois et les éléments non appariés en mode Trouve l\'Intrus. Les cercles sont dimensionnés 3–5 px plus grands que l\'objet pour une visibilité claire. Les deux versions s\'exportent séparément avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF.',
     },
     {
       question: 'Peut-on ajouter des champs nom et date à la fiche ?',
       answer:
-        'Oui. Une case à cocher dans le panneau Texte & Contenu ajoute des champs « Nom : » et « Date : » à la fiche. Ces lignes d\'identification garantissent la traçabilité en classe et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la classe ou désactivez-les pour des pages de cahier d\'activités.',
+        'Oui. Une case à cocher dans le panneau Texte & Contenu ajoute des champs « Nom : » et « Date : » à la fiche. Ces lignes d\'identification garantissent la traçabilité en ligne et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la vente ou désactivez-les pour des pages de cahier d\'activités.',
     },
     {
       question: 'Comment fonctionne l\'en-tête auto-généré ?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches objets cachés créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'objets cachés en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les deux modes d\'activité, la génération de scènes sans chevauchement et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'objets cachés originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'objets cachés en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les deux modes d\'activité, la génération de scènes sans chevauchement et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'objets cachés originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

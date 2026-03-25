@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'créateur de fiches de puzzles maths pour Etsy',
       'générateur de puzzles images pour Amazon KDP',
-      'vendre des fiches de puzzles maths sur Teachers Pay Teachers',
+      'vendre des fiches de puzzles maths sur Gumroad',
       'fiches de puzzles mathématiques licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Puzzles Maths | Créer et Vendre',
     metaDescription:
-      'Créez des fiches puzzles maths à vendre sur Etsy, KDP et TPT. Puzzles images avec addition et soustraction, grilles configurables.',
+      'Créez des fiches puzzles maths à vendre sur Etsy, KDP et Gumroad. Puzzles images avec addition et soustraction, grilles configurables.',
   },
 
   hero: {
     title: 'Générateur de Puzzles Mathématiques pour la Résolution de Problèmes Visuels',
     tagline: 'Fusionnez pratique des maths et excitation du puzzle — chaque pièce contient un problème, chaque solution révèle l\'image.',
     description:
-      'Créez des fiches de puzzles mathématiques captivantes où une image complète est divisée en une grille de pièces, chacune contenant un problème d\'addition ou de soustraction. Les élèves résolvent les calculs, puis associent les réponses numérotées aux pièces mélangées affichées sous la grille — transformant l\'arithmétique de routine en un mystère visuel. Configurez des grilles de 2×2 jusqu\'à 4×4 pour créer des puzzles de 4 à 16 pièces, et choisissez addition, soustraction ou opérations mixtes pour s\'adapter à chaque niveau. Puisez dans plus de 3 100 illustrations dans 104 thèmes comme les animaux de la ferme, l\'espace, les dinosaures et les fêtes. Chaque fiche génère un corrigé automatique montrant la grille résolue à côté de l\'image complète. Exportez des PDF et JPEG prêts à imprimer à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'activités progressifs pour Amazon KDP ou créiez des ateliers de maths interactifs pour votre classe, le Générateur de Puzzles Mathématiques produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de puzzles mathématiques captivantes où une image complète est divisée en une grille de pièces, chacune contenant un problème d\'addition ou de soustraction. Les utilisateurs résolvent les calculs, puis associent les réponses numérotées aux pièces mélangées affichées sous la grille — transformant l\'arithmétique de routine en un mystère visuel. Configurez des grilles de 2×2 jusqu\'à 4×4 pour créer des puzzles de 4 à 16 pièces, et choisissez addition, soustraction ou opérations mixtes pour s\'adapter à chaque niveau. Puisez dans plus de 3 100 illustrations dans 104 thèmes comme les animaux de la ferme, l\'espace, les dinosaures et les fêtes. Chaque fiche génère un corrigé automatique montrant la grille résolue à côté de l\'image complète. Exportez des PDF et JPEG prêts à imprimer à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'activités progressifs pour Amazon KDP ou créiez des ateliers de maths interactifs pour votre classe, le Générateur de Puzzles Mathématiques produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Format puzzle-image avec problèmes de maths',
         description:
-          'Chaque fiche présente une image sélectionnée divisée en une grille de cellules, avec un problème de maths dans chaque cellule. Sous la grille, les pièces du puzzle sont affichées mélangées et numérotées pour que les élèves les associent en résolvant chaque problème. Ce format en deux phases — résoudre les maths, puis assembler le puzzle — transforme l\'arithmétique basique en un défi visuel engageant qui motive les élèves à terminer chaque problème de la page.',
+          'Chaque fiche présente une image sélectionnée divisée en une grille de cellules, avec un problème de maths dans chaque cellule. Sous la grille, les pièces du puzzle sont affichées mélangées et numérotées pour que les utilisateurs les associent en résolvant chaque problème. Ce format en deux phases — résoudre les maths, puis assembler le puzzle — transforme l\'arithmétique basique en un défi visuel engageant qui motive les utilisateurs à terminer chaque problème de la page.',
       },
       {
         title: 'Taille de grille configurable de 4 à 16 pièces',
@@ -83,12 +83,12 @@ const content: AppContent = {
       {
         title: 'Génération automatique du corrigé',
         description:
-          'Cliquez sur un bouton pour générer un corrigé complet montrant la grille résolue avec tous les problèmes correctement résolus à côté de l\'image entièrement assemblée. Le corrigé fournit une vérification visuelle instantanée — élèves et enseignants peuvent voir les solutions mathématiques et l\'image complétée d\'un coup d\'œil.',
+          'Cliquez sur un bouton pour générer un corrigé complet montrant la grille résolue avec tous les problèmes correctement résolus à côté de l\'image entièrement assemblée. Le corrigé fournit une vérification visuelle instantanée — utilisateurs et vendeurs peuvent voir les solutions mathématiques et l\'image complétée d\'un coup d\'œil.',
       },
       {
         title: 'Export prêt à imprimer à 400+ DPI avec option niveaux de gris',
         description:
-          'Téléchargez vos fiches et corrigés en JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d\'export rend à plus de 400 DPI. Activez le mode niveaux de gris pour des versions économiques en encre, parfaites pour l\'impression en classe ou les cahiers d\'activités en noir et blanc. Les formats Letter, A4, Fiche par défaut, Carré et personnalisés sont tous pris en charge.',
+          'Téléchargez vos fiches et corrigés en JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d\'export rend à plus de 400 DPI. Activez le mode niveaux de gris pour des versions économiques en encre, parfaites pour l\'impression en volume ou les cahiers d\'activités en noir et blanc. Les formats Letter, A4, Fiche par défaut, Carré et personnalisés sont tous pris en charge.',
       },
       {
         title: 'Téléchargement d\'images personnalisées pour des puzzles uniques',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Packs thématiques de puzzles maths sur Etsy',
         description:
-          'Créez des ensembles de 10 à 20 fiches de puzzles maths regroupées par thème — animaux de la ferme, dinosaures, vie marine, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez les corrigés en fichiers bonus. Le format puzzle se distingue des fiches d\'exercices standards, attirant les parents qui cherchent une pratique mathématique engageante et les enseignants qui veulent des activités créatives. Fixez les thèmes individuels à 3 €–5 € et les méga-packs à 12 €–18 €.',
+          'Créez des ensembles de 10 à 20 fiches de puzzles maths regroupées par thème — animaux de la ferme, dinosaures, vie marine, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez les corrigés en fichiers bonus. Le format puzzle se distingue des fiches d\'exercices standards, attirant les parents qui cherchent une pratique mathématique engageante et les vendeurs qui veulent des activités créatives. Fixez les thèmes individuels à 3 €–5 € et les méga-packs à 12 €–18 €.',
         platform: 'Etsy (etsy.fr)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers de maths différenciés pour TPT',
+        title: 'Ateliers de maths différenciés pour Gumroad',
         description:
-          'Créez des ensembles de puzzles à niveaux avec la taille de grille comme axe de difficulté : Niveau 1 (2×2 addition, 4 pièces), Niveau 2 (2×3 addition, 6 pièces), Niveau 3 (3×3 soustraction, 9 pièces) et Niveau 4 (4×4 mixte, 16 pièces). Chaque niveau avec corrigés et fiche de suivi. Les acheteurs TPT paient des prix premium pour des ressources différenciées utilisables directement en ateliers tournants.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des ensembles de puzzles à niveaux avec la taille de grille comme axe de difficulté : Niveau 1 (2×2 addition, 4 pièces), Niveau 2 (2×3 addition, 6 pièces), Niveau 3 (3×3 soustraction, 9 pièces) et Niveau 4 (4×4 mixte, 16 pièces). Chaque niveau avec corrigés et fiche de suivi. Les acheteurs Gumroad paient des prix premium pour des ressources différenciées utilisables directement en ateliers tournants.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenu d\'abonnement pour votre propre boutique',
@@ -131,9 +131,9 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Outil d\'engagement pour la classe et le soutien scolaire',
+        title: 'Outil d\'engagement pour la vente et le soutien scolaire',
         description:
-          'Générez des puzzles maths personnalisés pour chaque niveau d\'élève. Imprimez des puzzles 2×2 simples en addition pour les débutants et des puzzles 4×4 complexes en opérations mixtes pour les avancés — tout dans la même session. La mécanique de révélation de l\'image motive les élèves à terminer chaque problème pour voir l\'image complète, réduisant la résistance face aux fiches d\'exercices répétitives. Le corrigé automatique fait gagner du temps de correction.',
+          'Générez des puzzles maths personnalisés pour chaque niveau d\'utilisateur. Imprimez des puzzles 2×2 simples en addition pour les débutants et des puzzles 4×4 complexes en opérations mixtes pour les avancés — tout dans la même session. La mécanique de révélation de l\'image motive les utilisateurs à terminer chaque problème pour voir l\'image complète, réduisant la résistance face aux fiches d\'exercices répétitives. Le corrigé automatique fait gagner du valeur perçue.',
         platform: 'Classe / Soutien scolaire / École à la maison',
       },
     ],
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le format puzzle mathématique ?',
       answer:
-        'Une image sélectionnée est divisée en une grille de cellules. Chaque cellule contient un problème de maths (addition, soustraction ou mixte). Sous la grille, les mêmes pièces d\'image sont affichées mélangées et numérotées. Les élèves résolvent chaque problème, puis associent la réponse à la bonne pièce — quand toutes les pièces sont correctement associées, le puzzle est résolu et l\'image complète est révélée. Cette mécanique de révélation ajoute une motivation que les fiches d\'exercices standards n\'ont pas.',
+        'Une image sélectionnée est divisée en une grille de cellules. Chaque cellule contient un problème de maths (addition, soustraction ou mixte). Sous la grille, les mêmes pièces d\'image sont affichées mélangées et numérotées. Les utilisateurs résolvent chaque problème, puis associent la réponse à la bonne pièce — quand toutes les pièces sont correctement associées, le puzzle est résolu et l\'image complète est révélée. Cette mécanique de révélation ajoute une motivation que les fiches d\'exercices standards n\'ont pas.',
     },
     {
       question: 'Quelles tailles de grille sont disponibles pour les puzzles ?',
       answer:
-        'Vous pouvez définir les lignes de 2 à 4 et les colonnes de 2 à 4, créant des puzzles de 4 pièces (2×2) à 16 pièces (4×4). Les petites grilles sont idéales pour les jeunes élèves ou les activités rapides, tandis que les grandes grilles offrent plus de problèmes et un plus grand défi de résolution de puzzle.',
+        'Vous pouvez définir les lignes de 2 à 4 et les colonnes de 2 à 4, créant des puzzles de 4 pièces (2×2) à 16 pièces (4×4). Les petites grilles sont idéales pour les jeunes utilisateurs ou les activités rapides, tandis que les grandes grilles offrent plus de problèmes et un plus grand défi de résolution de puzzle.',
     },
     {
       question: 'Quelles opérations mathématiques le Générateur de Puzzles supporte-t-il ?',
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Puis-je exporter les puzzles en niveaux de gris ?',
       answer:
-        'Oui. Activez l\'option niveaux de gris avant l\'export pour produire des versions noir et blanc parfaites pour l\'impression en classe, les paquets de devoirs ou les cahiers d\'activités. Les exports JPEG et PDF supportent le mode niveaux de gris. De nombreux éditeurs Amazon KDP créent une édition numérique couleur et une édition imprimée en niveaux de gris du même ensemble de puzzles.',
+        'Oui. Activez l\'option niveaux de gris avant l\'export pour produire des versions noir et blanc parfaites pour l\'impression en volume, les paquets de devoirs ou les cahiers d\'activités. Les exports JPEG et PDF supportent le mode niveaux de gris. De nombreux éditeurs Amazon KDP créent une édition numérique couleur et une édition imprimée en niveaux de gris du même ensemble de puzzles.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Que comprend la licence commerciale ?',
       answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite. Vous conservez la pleine propriété de chaque fiche générée. L\'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l\'outil convient à votre flux de production.',
+        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite. Vous conservez la pleine propriété de chaque fiche générée. L\'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l\'outil convient à votre flux de production.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

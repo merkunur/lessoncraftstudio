@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches de Prépositions',
     tagline: 'Créez des fiches de prépositions spatiales avec deux modes d\'exercice dans 11 langues',
-    description: 'Enseignez les mots de position à travers des exercices basés sur des images que les élèves apprécient réellement. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en étudiant des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d\'exercice : le Texte à Trous, où les élèves écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d\'options avec une ligne d\'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l\'outil est le Remplacement de Formes — une couche d\'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu\'un seul jeu d\'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L\'allemand utilise « auf, unter, über, neben, zwischen, drinnen, draußen » ; l\'espagnol utilise « sobre, debajo, encima, al lado, entre, dentro, fuera ». Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Enseignez les mots de position à travers des exercices basés sur des images que les utilisateurs apprécient réellement. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d\'exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d\'options avec une ligne d\'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l\'outil est le Remplacement de Formes — une couche d\'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu\'un seul jeu d\'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L\'allemand utilise « auf, unter, über, neben, zwischen, drinnen, draußen » ; l\'espagnol utilise « sobre, debajo, encima, al lado, entre, dentro, fuera ». Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Choisir Votre Mode d\'Exercice',
-        description: 'Sélectionnez Texte à Trous ou Choix Multiple. Le mode Texte à Trous présente une scène imagée avec un espace vide où les élèves écrivent la préposition correcte. Le mode Choix Multiple affiche des options pour que les élèves sélectionnent la bonne réponse, avec une ligne de description personnalisable que vous pouvez modifier selon votre style d\'enseignement. Le Texte à Trous convient aux élèves plus âgés ; le Choix Multiple fonctionne mieux pour les débutants.',
+        description: 'Sélectionnez Texte à Trous ou Choix Multiple. Le mode Texte à Trous présente une scène imagée avec un espace vide où les utilisateurs écrivent la préposition correcte. Le mode Choix Multiple affiche des options pour que les utilisateurs sélectionnent la bonne réponse, avec une ligne de description personnalisable que vous pouvez modifier selon votre style d\'enseignement. Le Texte à Trous convient aux utilisateurs plus âgés ; le Choix Multiple fonctionne mieux pour les débutants.',
       },
       {
         title: 'Sélectionner les Prépositions',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Thématiques de Prépositions',
-      description: 'Créez des ensembles de 10 à 15 fiches de prépositions avec des collections d\'images thématiques — animaux, véhicules, objets du quotidien, scènes de nature. Chaque fiche utilise des images et des combinaisons de formes différentes à un niveau de difficulté constant. Regroupez par thème et vendez sur Etsy.fr ou Teachers Pay Teachers. Le format scènes imagées rend vos vignettes de listing visuellement attractives comparées aux fiches de grammaire en texte seul. Les packs thématiques encouragent également les achats répétés : un acheteur qui apprécie votre pack prépositions animaux reviendra probablement pour les véhicules ou les fêtes, fidélisant votre clientèle sur le long terme.',
+      description: 'Créez des ensembles de 10 à 15 fiches de prépositions avec des collections d\'images thématiques — animaux, véhicules, objets du quotidien, scènes de nature. Chaque fiche utilise des images et des combinaisons de formes différentes à un niveau de difficulté constant. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format scènes imagées rend vos vignettes de listing visuellement attractives comparées aux fiches de grammaire en texte seul. Les packs thématiques encouragent également les achats répétés : un acheteur qui apprécie votre pack prépositions animaux reviendra probablement pour les véhicules ou les fêtes, fidélisant votre clientèle sur le long terme.',
     },
     {
       title: 'Cahiers d\'Activités de Vocabulaire Spatial pour KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles Différenciés par Mode d\'Exercice',
-      description: 'Générez deux versions de chaque fiche thématique de prépositions : Choix Multiple pour les apprenants plus jeunes ou en difficulté, et Texte à Trous pour les élèves prêts à produire des réponses de manière autonome. Les enseignants peuvent distribuer la bonne version à chaque élève selon son niveau. Vendez comme pack différencié à un prix premium sur TPT ou Etsy.fr.',
+      description: 'Générez deux versions de chaque fiche thématique de prépositions : Choix Multiple pour les apprenants plus jeunes ou en difficulté, et Texte à Trous pour les utilisateurs prêts à produire des réponses de manière autonome. Les vendeurs peuvent distribuer la bonne version à chaque utilisateur selon son niveau. Vendez comme pack différencié à un prix premium sur Gumroad ou Etsy.fr.',
     },
     {
       title: 'Produits de Prépositions Multilingues',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Saisonniers de Prépositions',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Prépositions de Noël » avec des scènes festives — des cadeaux sous le sapin, des étoiles au-dessus de la maison, des bonbons dans la chaussette — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et TPT.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Prépositions de Noël » avec des scènes festives — des cadeaux sous le sapin, des étoiles au-dessus de la maison, des bonbons dans la chaussette — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs de Grammaire Spatiale pour Teachers Pay Teachers',
-      description: 'Téléchargez des packs de fiches de prépositions sur TPT organisés par difficulté et mode d\'exercice. Incluez des ensembles Texte à Trous, des ensembles Choix Multiple et des packs mixtes avec des corrigés pour chaque page. Les enseignants recherchent fréquemment « fiches prépositions » et « activités vocabulaire spatial ». Le format scènes imagées ajoute une valeur perçue car les élèves s\'engagent avec un contexte visuel plutôt que des phrases de grammaire abstraites.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs de Grammaire Spatiale pour Gumroad',
+      description: 'Téléchargez des packs de fiches de prépositions sur Gumroad organisés par difficulté et mode d\'exercice. Incluez des ensembles Texte à Trous, des ensembles Choix Multiple et des packs mixtes avec des corrigés pour chaque page. Les vendeurs recherchent fréquemment « fiches prépositions » et « activités vocabulaire spatial ». Le format scènes imagées ajoute une valeur perçue car les utilisateurs s\'engagent avec un contexte visuel plutôt que des phrases de grammaire abstraites.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits de Prépositions Bimodaux sur Gumroad',
-      description: 'Créez des kits de prépositions premium sur Gumroad incluant les versions Texte à Trous et Choix Multiple de chaque fiche, plus les corrigés et un guide d\'utilisation. Regroupez 5 à 11 versions linguistiques dans un seul produit multilingue. Ciblez les enseignants de FLE, les familles bilingues et les écoles internationales qui ont besoin de supports de vocabulaire spatial dans plusieurs langues.',
+      description: 'Créez des kits de prépositions premium sur Gumroad incluant les versions Texte à Trous et Choix Multiple de chaque fiche, plus les corrigés et un guide d\'utilisation. Regroupez 5 à 11 versions linguistiques dans un seul produit multilingue. Ciblez les vendeurs de FLE, les familles bilingues et les écoles internationales qui ont besoin de supports de vocabulaire spatial dans plusieurs langues.',
       platform: 'Gumroad',
     },
     {
@@ -117,19 +117,19 @@ const content: ToolContent = {
     },
     {
       title: 'Méga-Packs Remplacement de Formes sur Etsy',
-      description: 'Exploitez la fonctionnalité Remplacement de Formes pour créer des packs de variété massifs. Combinez 10 images principales avec 10 formes différentes pour produire 100 scènes d\'exercice uniques à partir de seulement 20 images source. Vendez-les comme « Méga-Pack 100 Pages de Prépositions » sur Etsy.fr — le volume impressionnant justifie un prix premium, et la variété visuelle maintient l\'engagement des élèves à travers tout le cahier.',
+      description: 'Exploitez la fonctionnalité Remplacement de Formes pour créer des packs de variété massifs. Combinez 10 images principales avec 10 formes différentes pour produire 100 scènes d\'exercice uniques à partir de seulement 20 images source. Vendez-les comme « Méga-Pack 100 Pages de Prépositions » sur Etsy.fr — le volume impressionnant justifie un prix premium, et la variété visuelle maintient l\'engagement des utilisateurs à travers tout le cahier.',
       platform: 'Etsy.fr',
     },
   ],
 
   proTips: [
     {
-      title: 'Utilisez le Texte à Trous pour les Élèves Plus Âgés',
-      description: 'Le mode Texte à Trous exige un rappel actif — les élèves doivent produire la préposition correcte de mémoire, pas simplement la reconnaître. Cela convient aux élèves de CE1 et plus ainsi qu\'aux apprenants FLE qui connaissent déjà les mots de position mais ont besoin de pratique écrite. Cela rend aussi les fiches plus difficiles à deviner, augmentant la valeur éducative. Sur Etsy.fr et TPT, les listings qui mettent en avant l\'apprentissage par rappel attirent régulièrement les acheteurs enseignants cherchant une pratique rigoureuse du vocabulaire spatial plutôt que de simples exercices de reconnaissance, donc souligner ce mode dans vos descriptions de produits peut améliorer les conversions.',
+      title: 'Utilisez le Texte à Trous pour les utilisateurs Plus Âgés',
+      description: 'Le mode Texte à Trous exige un rappel actif — les utilisateurs doivent produire la préposition correcte de mémoire, pas simplement la reconnaître. Cela convient aux utilisateurs de CE1 et plus ainsi qu\'aux apprenants FLE qui connaissent déjà les mots de position mais ont besoin de pratique écrite. Cela rend aussi les fiches plus difficiles à deviner, augmentant la valeur éducative. Sur Etsy.fr et Gumroad, les listings qui mettent en avant l\'apprentissage par rappel attirent régulièrement les acheteurs vendeurs cherchant une pratique rigoureuse du vocabulaire spatial plutôt que de simples exercices de reconnaissance, donc souligner ce mode dans vos descriptions de produits peut améliorer les conversions.',
     },
     {
       title: 'Utilisez le Choix Multiple pour les Débutants',
-      description: 'Le mode Choix Multiple offre aux jeunes apprenants ou aux élèves FLE débutants une expérience guidée. Ils voient la bonne réponse parmi les options, réduisant la frustration. Personnalisez le texte d\'instruction pour correspondre à votre style d\'enseignement. Commencez avec 3–4 exercices par page pour ne pas surcharger les débutants. Ce format guidé est particulièrement populaire auprès des parents achetant des imprimables pour l\'usage à domicile, en faisant un produit fort sur Etsy.fr où les supports éducatifs adaptés aux familles se classent régulièrement bien dans les résultats de recherche.',
+      description: 'Le mode Choix Multiple offre aux jeunes apprenants ou aux utilisateurs FLE débutants une expérience guidée. Ils voient la bonne réponse parmi les options, réduisant la frustration. Personnalisez le texte d\'instruction pour correspondre à votre style d\'enseignement. Commencez avec 3–4 exercices par page pour ne pas surcharger les débutants. Ce format guidé est particulièrement populaire auprès des parents achetant des imprimables pour l\'usage à domicile, en faisant un produit fort sur Etsy.fr où les supports éducatifs adaptés aux familles se classent régulièrement bien dans les résultats de recherche.',
     },
     {
       title: 'Passez au Multilingue pour 11x Votre Gamme de Produits',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Combinez les Deux Modes dans un Seul Produit',
-      description: 'Regroupez les fiches Texte à Trous et Choix Multiple dans un seul pack. Les enseignants adorent les packs différenciés qu\'ils peuvent distribuer aux élèves de niveaux différents. Un « Pack Complet de Prépositions » avec les deux modes, les corrigés et un guide d\'utilisation commande un prix plus élevé que l\'un ou l\'autre mode vendu séparément. Les packs bimodaux réduisent aussi les demandes de remboursement car les acheteurs sentent qu\'ils obtiennent une couverture complète, et les corrigés inclus font gagner du temps de préparation aux enseignants — un argument de vente à souligner dans vos descriptions.',
+      description: 'Regroupez les fiches Texte à Trous et Choix Multiple dans un seul pack. Les vendeurs adorent les packs différenciés qu\'ils peuvent distribuer aux utilisateurs de niveaux différents. Un « Pack Complet de Prépositions » avec les deux modes, les corrigés et un guide d\'utilisation commande un prix plus élevé que l\'un ou l\'autre mode vendu séparément. Les packs bimodaux réduisent aussi les demandes de remboursement car les acheteurs sentent qu\'ils obtiennent une couverture complète, et les corrigés inclus font gagner du temps de préparation aux vendeurs — un argument de vente à souligner dans vos descriptions.',
     },
     {
       title: 'Utilisez les Niveaux de Gris pour KDP et l\'Impression en Volume',
-      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en classe. Les scènes en noir et blanc coûtent nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes attirent les clics. Beaucoup de vendeurs KDP expérimentés publient une édition numérique couleur et une édition imprimée niveaux de gris du même cahier, doublant effectivement leur catalogue à partir d\'une seule session de création sans produire de nouveau contenu.',
+      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en ligne. Les scènes en noir et blanc coûtent nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes attirent les clics. Beaucoup de vendeurs KDP expérimentés publient une édition numérique couleur et une édition imprimée niveaux de gris du même cahier, doublant effectivement leur catalogue à partir d\'une seule session de création sans produire de nouveau contenu.',
     },
     {
       title: 'Téléchargez des Images Personnalisées pour le Branding',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Comment fonctionnent les deux modes d\'exercice ?',
-      answer: 'Le mode Texte à Trous affiche une scène imagée avec un espace vide où les élèves écrivent la préposition correcte (dans, sur, sous, etc.). Le mode Choix Multiple présente la même scène mais avec des options sélectionnables pour que les élèves choisissent la bonne réponse. Vous pouvez personnaliser le texte d\'instruction en mode Choix Multiple pour correspondre à votre style d\'enseignement.',
+      answer: 'Le mode Texte à Trous affiche une scène imagée avec un espace vide où les utilisateurs écrivent la préposition correcte (dans, sur, sous, etc.). Le mode Choix Multiple présente la même scène mais avec des options sélectionnables pour que les utilisateurs choisissent la bonne réponse. Vous pouvez personnaliser le texte d\'instruction en mode Choix Multiple pour correspondre à votre style d\'enseignement.',
     },
     {
       question: 'Comment fonctionne la sélection des prépositions ?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Combien d\'exercices puis-je mettre sur une page ?',
-      answer: 'Vous pouvez définir de 1 à 8 exercices par fiche. Moins d\'exercices par page donnent plus d\'espace visuel à chaque scène, idéal pour les jeunes élèves. Plus d\'exercices par page créent des fiches plus denses adaptées aux élèves plus âgés ou à la pratique chronométrée. La mise en page s\'adapte automatiquement au nombre d\'exercices et au format de page. Les vendeurs créent souvent deux versions du même pack — une mise en page spacieuse à 3 exercices pour les plus jeunes et une mise en page compacte à 6 exercices pour les élèves plus âgés — puis regroupent les deux versions à un prix premium.',
+      answer: 'Vous pouvez définir de 1 à 8 exercices par fiche. Moins d\'exercices par page donnent plus d\'espace visuel à chaque scène, idéal pour les jeunes utilisateurs. Plus d\'exercices par page créent des fiches plus denses adaptées aux utilisateurs plus âgés ou à la pratique chronométrée. La mise en page s\'adapte automatiquement au nombre d\'exercices et au format de page. Les vendeurs créent souvent deux versions du même pack — une mise en page spacieuse à 3 exercices pour les plus jeunes et une mise en page compacte à 6 exercices pour les utilisateurs plus âgés — puis regroupent les deux versions à un prix premium.',
     },
     {
       question: 'Puis-je télécharger mes propres images ?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
     },
     {
       question: 'Quels formats de fichier puis-je télécharger ?',

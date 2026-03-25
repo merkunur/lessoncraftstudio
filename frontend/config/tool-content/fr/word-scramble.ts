@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches Mots Mélangés',
     tagline: 'Créez des puzzles d\'orthographe par réarrangement de lettres avec indices images, code couleur et 4 niveaux de difficulté dans 11 langues',
-    description: 'Transformez la pratique du vocabulaire en un puzzle d\'orthographe pratique que les élèves résolvent en réarrangeant des tuiles de lettres mélangées. Cet outil génère des fiches mots mélangés où un indice image est associé à un ensemble de tuiles contenant toutes les lettres du mot — mais dans le mauvais ordre. Les élèves étudient l\'image, identifient ce qu\'elle représente et replacent les lettres dans le bon ordre pour épeler le mot correct. Contrairement aux exercices deviner les mots où les élèves remplissent des cases vides, les mots mélangés donnent TOUTES les lettres mais mélangées, ce qui en fait un défi de réarrangement qui développe la précision orthographique par la manipulation active. La fonctionnalité phare est le code couleur voyelles-consonnes : activez-le pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles, ajoutant une dimension phonique visuelle qui aide les élèves à identifier les types de lettres tout en reconstituant le mot. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-placées dans leur position correcte : Sans Indices mélange toutes les lettres pour un défi maximal, Facile pré-place la moitié pour un étayage adapté aux débutants, Normal place un quart pour une pratique équilibrée, et Difficile place seulement un sixième pour les orthographeurs confirmés. Choisissez entre trois sources de contenu : la Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol. Un seul design devient 11 produits uniques. Définissez 1 à 10 puzzles par page, choisissez des tuiles en majuscules ou minuscules, ajoutez la numérotation des exercices et sélectionnez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération automatique de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Transformez la pratique du vocabulaire en un puzzle d\'orthographe pratique que les utilisateurs résolvent en réarrangeant des tuiles de lettres mélangées. Cet outil génère des fiches mots mélangés où un indice image est associé à un ensemble de tuiles contenant toutes les lettres du mot — mais dans le mauvais ordre. Les utilisateurs étudient l\'image, identifient ce qu\'elle représente et replacent les lettres dans le bon ordre pour épeler le mot correct. Contrairement aux exercices deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent TOUTES les lettres mais mélangées, ce qui en fait un défi de réarrangement qui développe la précision orthographique par la manipulation active. La fonctionnalité phare est le code couleur voyelles-consonnes : activez-le pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-placées dans leur position correcte : Sans Indices mélange toutes les lettres pour un défi maximal, Facile pré-place la moitié pour un étayage adapté aux débutants, Normal place un quart pour une pratique équilibrée, et Difficile place seulement un sixième pour les orthographeurs confirmés. Choisissez entre trois sources de contenu : la Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol. Un seul design devient 11 produits uniques. Définissez 1 à 10 puzzles par page, choisissez des tuiles en majuscules ou minuscules, ajoutez la numérotation des exercices et sélectionnez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération automatique de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Activer le Code Couleur Voyelles-Consonnes',
-        description: 'Activez le bouton Code Couleur pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles de lettres mélangées. Cette fonctionnalité est unique aux Mots Mélangés et ajoute une dimension phonique visuelle qui aide les élèves à identifier les types de lettres tout en réarrangeant les tuiles. Sélectionnez Tout Noir pour des tuiles monochromes traditionnelles quand la différenciation par couleur n\'est pas nécessaire.',
+        description: 'Activez le bouton Code Couleur pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles de lettres mélangées. Cette fonctionnalité est unique aux Mots Mélangés et ajoute une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en réarrangeant les tuiles. Sélectionnez Tout Noir pour des tuiles monochromes traditionnelles quand la différenciation par couleur n\'est pas nécessaire.',
       },
       {
         title: 'Configurer la Casse, la Numérotation et la Langue',
-        description: 'Basculez entre des tuiles en majuscules (par défaut) et en minuscules. Activez ou désactivez la numérotation des exercices. Ajoutez les champs nom et date de l\'élève. Sélectionnez parmi 11 langues prises en charge — chaque langue change entièrement le mot cible, de sorte que la même image crée un puzzle mélangé complètement différent. Ajoutez des superpositions de texte personnalisées avec des consignes pour guider les élèves.',
+        description: 'Basculez entre des tuiles en majuscules (par défaut) et en minuscules. Activez ou désactivez la numérotation des exercices. Ajoutez les champs nom et date de l\'utilisateur. Sélectionnez parmi 11 langues prises en charge — chaque langue change entièrement le mot cible, de sorte que la même image crée un puzzle mélangé complètement différent. Ajoutez des superpositions de texte personnalisées avec des consignes pour guider les utilisateurs.',
       },
       {
         title: 'Personnaliser les Polices, le Texte et le Canevas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Thématiques de Puzzles Mots Mélangés',
-      description: 'Créez des ensembles de 10 à 15 fiches mots mélangés avec des collections d\'images thématiques — animaux, nourriture, véhicules, scènes de nature, fêtes, sport et plus encore. Chaque puzzle présente un indice image accompagné de tuiles de lettres mélangées que les élèves réarrangent pour épeler le mot correct. Activez le code couleur sur la moitié du pack pour une variante « édition phonique » qui met en évidence les schémas voyelles-consonnes. Regroupez par thème et vendez sur Etsy.fr ou Teachers Pay Teachers. Le format tuiles mélangées avec indices images colorés rend vos vignettes de listing visuellement accrocheuses comparées aux fiches d\'orthographe classiques.',
+      description: 'Créez des ensembles de 10 à 15 fiches mots mélangés avec des collections d\'images thématiques — animaux, nourriture, véhicules, scènes de nature, fêtes, sport et plus encore. Chaque puzzle présente un indice image accompagné de tuiles de lettres mélangées que les utilisateurs réarrangent pour épeler le mot correct. Activez le code couleur sur la moitié du pack pour une variante « édition phonique » qui met en évidence les schémas voyelles-consonnes. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format tuiles mélangées avec indices images colorés rend vos vignettes de listing visuellement accrocheuses comparées aux fiches d\'orthographe classiques.',
     },
     {
       title: 'Cahiers d\'Activités Mots Mélangés pour KDP',
@@ -85,14 +85,14 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Différenciés par Niveau de Difficulté',
-      description: 'Générez quatre versions de la même fiche thématique — une à chaque niveau de difficulté : Sans Indices, Facile, Normal et Difficile. Les enseignants distribuent la bonne version à chaque élève selon son niveau. Vendez comme pack différencié à un prix premium sur TPT ou Etsy.fr. Ajoutez des variantes avec code couleur pour un total de huit versions distinctes à partir d\'une seule session de création, avec des corrigés inclus pour chaque version.',
+      description: 'Générez quatre versions de la même fiche thématique — une à chaque niveau de difficulté : Sans Indices, Facile, Normal et Difficile. Les vendeurs distribuent la bonne version à chaque utilisateur selon son niveau. Vendez comme pack différencié à un prix premium sur Gumroad ou Etsy.fr. Ajoutez des variantes avec code couleur pour un total de huit versions distinctes à partir d\'une seule session de création, avec des corrigés inclus pour chaque version.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Boutique Etsy Spécialisée Puzzles Phoniques',
-      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches mots mélangés avec code couleur — une catégorie de produit qu\'aucun concurrent ne peut reproduire avec des générateurs de listes de mots basiques. Le code couleur voyelles-consonnes crée un produit visuellement distinctif qui attire l\'attention dans les résultats de recherche Etsy et séduit les parents axés phonique et les enseignants de FLE. Créez des packs thématiques en édition code couleur et noir classique, en fixant le prix des ensembles phoniques à un premium. Ciblez les acheteurs recherchant des aides visuelles d\'orthographe, des fiches de phonique et des activités de reconnaissance des lettres.',
+      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches mots mélangés avec code couleur — une catégorie de produit qu\'aucun concurrent ne peut reproduire avec des générateurs de listes de mots basiques. Le code couleur voyelles-consonnes crée un produit visuellement distinctif qui attire l\'attention dans les résultats de recherche Etsy et séduit les parents axés phonique et les vendeurs de FLE. Créez des packs thématiques en édition code couleur et noir classique, en fixant le prix des ensembles phoniques à un premium. Ciblez les acheteurs recherchant des aides visuelles d\'orthographe, des fiches de phonique et des activités de reconnaissance des lettres.',
       platform: 'Etsy.fr',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Ateliers de Lecture Différenciés pour Teachers Pay Teachers',
-      description: 'Téléchargez des packs de fiches mots mélangés sur TPT organisés par thème, niveau de difficulté et code couleur. Niveau 1 : Facile avec tuiles colorées voyelles-consonnes pour les apprenants visuels. Niveau 2 : Normal avec code couleur. Niveau 3 : Difficile avec tuiles Tout Noir. Niveau 4 : Sans Indices avec Tout Noir pour un défi avancé. Incluez les corrigés et une fiche de suivi de progression. Les acheteurs TPT paient des prix premium pour des ressources d\'orthographe différenciées qu\'ils peuvent déployer immédiatement dans plusieurs niveaux de lecture.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Ateliers de Lecture Différenciés pour Gumroad',
+      description: 'Téléchargez des packs de fiches mots mélangés sur Gumroad organisés par thème, niveau de difficulté et code couleur. Niveau 1 : Facile avec tuiles colorées voyelles-consonnes pour les apprenants visuels. Niveau 2 : Normal avec code couleur. Niveau 3 : Difficile avec tuiles Tout Noir. Niveau 4 : Sans Indices avec Tout Noir pour un défi avancé. Incluez les corrigés et une fiche de suivi de progression. Les acheteurs Gumroad paient des prix premium pour des ressources d\'orthographe différenciées qu\'ils peuvent déployer immédiatement dans plusieurs niveaux de lecture.',
+      platform: 'Gumroad',
     },
     {
       title: 'Boutique de Vocabulaire Multilingue',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kit Complet d\'Orthographe sur Gumroad',
-      description: 'Regroupez des fiches mots mélangés avec des fiches deviner les mots, des mots cachés, des fiches d\'écriture et des fiches d\'association pour créer un kit d\'orthographe complet sur Gumroad. Le format mots mélangés (réarrangement de lettres) exerce une compétence cognitive différente du deviner les mots (remplir les cases vides) ou des mots cachés (trouver les lettres). Un kit d\'orthographe multi-format justifie un prix premium et offre aux élèves une pratique variée avec le même vocabulaire.',
+      description: 'Regroupez des fiches mots mélangés avec des fiches deviner les mots, des mots cachés, des fiches d\'écriture et des fiches d\'association pour créer un kit d\'orthographe complet sur Gumroad. Le format mots mélangés (réarrangement de lettres) exerce une compétence cognitive différente du deviner les mots (remplir les cases vides) ou des mots cachés (trouver les lettres). Un kit d\'orthographe multi-format justifie un prix premium et offre aux utilisateurs une pratique variée avec le même vocabulaire.',
       platform: 'Gumroad',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Utilisez le Code Couleur pour la Différenciation Phonique',
-      description: 'Activez le code couleur voyelles-consonnes pour afficher les voyelles dans une couleur et les consonnes dans une autre. Cette aide phonique visuelle est unique aux Mots Mélangés et aide les élèves à identifier les types de lettres tout en reconstituant le mot. Créez une « Édition Code Couleur » aux côtés d\'une « Édition Classique » de chaque thème pour doubler votre gamme de produits.',
+      description: 'Activez le code couleur voyelles-consonnes pour afficher les voyelles dans une couleur et les consonnes dans une autre. Cette aide phonique visuelle est unique aux Mots Mélangés et aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Créez une « Édition Code Couleur » aux côtés d\'une « Édition Classique » de chaque thème pour doubler votre gamme de produits.',
     },
     {
       title: 'Utilisez Sans Indices pour les Évaluations d\'Orthographe',
-      description: 'Le mode Sans Indices mélange toutes les lettres sans aucune position pré-placée, créant une véritable évaluation d\'orthographe à partir d\'un indice image. Les élèves doivent retrouver l\'orthographe complète et réarranger toutes les tuiles de manière autonome. Utilisez-le pour les contrôles, les sections finales de défi dans les cahiers ou les produits premium « édition expert ».',
+      description: 'Le mode Sans Indices mélange toutes les lettres sans aucune position pré-placée, créant une véritable évaluation d\'orthographe à partir d\'un indice image. Les utilisateurs doivent retrouver l\'orthographe complète et réarranger toutes les tuiles de manière autonome. Utilisez-le pour les contrôles, les sections finales de défi dans les cahiers ou les produits premium « édition expert ».',
     },
     {
       title: 'Passez au Multilingue pour 11x Votre Gamme de Produits',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Utilisez les Niveaux de Gris pour KDP et l\'Impression en Volume',
-      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en classe. Le rendu noir et blanc coûte nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes et les tuiles colorées attirent les clics.',
+      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en ligne. Le rendu noir et blanc coûte nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes et les tuiles colorées attirent les clics.',
     },
     {
       title: 'Mélangez les Niveaux de Difficulté dans les Packs',
-      description: 'Créez des packs de fiches qui progressent de Facile à Sans Indices sur le même thème. Un pack « Puzzles d\'Orthographe Animaux de la Ferme » avec 5 pages Facile, 5 Normal, 5 Difficile et 5 Sans Indices donne aux enseignants un ensemble différencié prêt à l\'emploi. Incluez les corrigés pour chaque niveau. Les packs progressifs commandent des prix premium sur TPT et Etsy.fr.',
+      description: 'Créez des packs de fiches qui progressent de Facile à Sans Indices sur le même thème. Un pack « Puzzles d\'Orthographe Animaux de la Ferme » avec 5 pages Facile, 5 Normal, 5 Difficile et 5 Sans Indices donne aux vendeurs un ensemble différencié prêt à l\'emploi. Incluez les corrigés pour chaque niveau. Les packs progressifs commandent des prix premium sur Gumroad et Etsy.fr.',
     },
     {
       title: 'Associez avec Deviner les Mots pour des Packs Complets',
-      description: 'Mots Mélangés (réarrangement de lettres) et Deviner les Mots (remplir les cases vides) exercent des compétences cognitives différentes avec un vocabulaire similaire. Regroupez les deux formats dans un pack « Pratique d\'Orthographe Complète » où les élèves reconstituent d\'abord les tuiles, puis remplissent les lettres manquantes. Les packs multi-format se vendent plus cher que les packs à format unique et offrent une pratique orthographique plus complète.',
+      description: 'Mots Mélangés (réarrangement de lettres) et Deviner les Mots (remplir les cases vides) exercent des compétences cognitives différentes avec un vocabulaire similaire. Regroupez les deux formats dans un pack « Pratique d\'Orthographe Complète » où les utilisateurs reconstituent d\'abord les tuiles, puis remplissent les lettres manquantes. Les packs multi-format se vendent plus cher que les packs à format unique et offrent une pratique orthographique plus complète.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quelle est la différence entre les fiches mots mélangés et deviner les mots ?',
-      answer: 'Les Mots Mélangés donnent aux élèves TOUTES les lettres mais dans le mauvais ordre — ils réarrangent les tuiles mélangées pour épeler le mot correct. Deviner les Mots montre des cases vides à des positions fixes et les élèves remplissent les lettres manquantes. Les Mots Mélangés sont un défi de réarrangement de lettres ; Deviner les Mots est un exercice de remplissage. Ils exercent des compétences cognitives différentes et se combinent bien dans des produits groupés.',
+      answer: 'Les Mots Mélangés donnent aux utilisateurs TOUTES les lettres mais dans le mauvais ordre — ils réarrangent les tuiles mélangées pour épeler le mot correct. Deviner les Mots montre des cases vides à des positions fixes et les utilisateurs remplissent les lettres manquantes. Les Mots Mélangés sont un défi de réarrangement de lettres ; Deviner les Mots est un exercice de remplissage. Ils exercent des compétences cognitives différentes et se combinent bien dans des produits groupés.',
     },
     {
       question: 'Comment fonctionnent les quatre niveaux de difficulté ?',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Qu\'est-ce que le code couleur voyelles-consonnes ?',
-      answer: 'Activez l\'option Code Couleur pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles de lettres. Cette aide phonique visuelle aide les élèves à distinguer les schémas voyelles-consonnes tout en reconstituant le mot. Sélectionnez Tout Noir pour des tuiles monochromes traditionnelles. Le code couleur est unique aux Mots Mélangés et ajoute une forte dimension de différenciation pour les vendeurs ciblant les acheteurs orientés phonique.',
+      answer: 'Activez l\'option Code Couleur pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles de lettres. Cette aide phonique visuelle aide les utilisateurs à distinguer les schémas voyelles-consonnes tout en reconstituant le mot. Sélectionnez Tout Noir pour des tuiles monochromes traditionnelles. Le code couleur est unique aux Mots Mélangés et ajoute une forte dimension de différenciation pour les vendeurs ciblant les acheteurs orientés phonique.',
     },
     {
       question: 'Quelles sont les trois sources de contenu ?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Puis-je vendre des fiches créées avec cet outil à usage commercial ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
     },
     {
       question: 'Quelle est votre politique de remboursement ?',

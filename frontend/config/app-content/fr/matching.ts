@@ -7,7 +7,7 @@ const content: AppContent = {
       'générateur de fiches d\'association imprimables pour vendeurs Etsy',
       'créateur de fiches relier par un trait pour éditeurs Amazon KDP',
       'générateur de fiches d\'association avec licence commerciale',
-      'vendre des fiches d\'association imprimables sur Teachers Pay Teachers',
+      'vendre des fiches d\'association imprimables sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques de fiches d\'association pour entrepreneurs',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches d\'Association | Créer et Vendre',
     metaDescription:
-      'Créez des fiches d’association pour Etsy, KDP et TPT. 4 modes d’association, corrigé auto, 104 thèmes, paires configurables. Essai gratuit avec filigrane.',
+      'Créez des fiches d’association pour Etsy, KDP et Gumroad. 4 modes d’association, corrigé auto, 104 thèmes, paires configurables. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches d\'Association pour des Activités de Type Relier par un Trait',
     tagline: 'Quatre modes d\'association en un seul générateur — Lettre Initiale, Image+Mot, Image/Mot Mixte et Mot Personnalisé — avec corrigés générés automatiquement, nombre de paires configurable et en-tête localisé « Trouve les Paires ! » à travers 104 collections d\'images thématiques.',
     description:
-      'Concevez des fiches d\'association professionnelles où les élèves relient des paires en traçant des lignes entre deux colonnes. Choisissez parmi quatre modes d\'association distincts : Image ↔ Lettre Initiale associe les images à leur première lettre, Image+Mot ↔ Image+Mot apparie des images étiquetées des deux côtés, Image/Mot ↔ Image/Mot Mixte permet de mixer images et mots par ligne avec des sélecteurs déroulants, et Image ↔ Mot Personnalisé vous permet de saisir vos propres termes d\'association. Configurez 4, 5 ou 6 paires par fiche et activez ou désactivez les numéros d\'éléments et les puces décoratives pour une mise en page soignée. Chaque fiche inclut un en-tête localisé « Trouve les Paires ! » généré automatiquement, avec titre et consignes rendus dans les 11 langues prises en charge. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé trace des lignes de liaison entre les bonnes correspondances, sans aucun travail manuel de votre part. Le Générateur de Fiches d\'Association est sensible à la langue : les modes Lettre Initiale et Image+Mot utilisent les noms localisés des images, donc changer de langue modifie les mots et les premières lettres sur la fiche. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'activités d\'association sur Etsy, compiliez des cahiers d\'initiation à la lecture pour Amazon KDP ou créiez des fiches pour ateliers d\'association sur TPT, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches d\'association professionnelles où les utilisateurs relient des paires en traçant des lignes entre deux colonnes. Choisissez parmi quatre modes d\'association distincts : Image ↔ Lettre Initiale associe les images à leur première lettre, Image+Mot ↔ Image+Mot apparie des images étiquetées des deux côtés, Image/Mot ↔ Image/Mot Mixte permet de mixer images et mots par ligne avec des sélecteurs déroulants, et Image ↔ Mot Personnalisé vous permet de saisir vos propres termes d\'association. Configurez 4, 5 ou 6 paires par fiche et activez ou désactivez les numéros d\'éléments et les puces décoratives pour une mise en page soignée. Chaque fiche inclut un en-tête localisé « Trouve les Paires ! » généré automatiquement, avec titre et consignes rendus dans les 11 langues prises en charge. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé trace des lignes de liaison entre les bonnes correspondances, sans aucun travail manuel de votre part. Le Générateur de Fiches d\'Association est sensible à la langue : les modes Lettre Initiale et Image+Mot utilisent les noms localisés des images, donc changer de langue modifie les mots et les premières lettres sur la fiche. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'activités d\'association sur Etsy, compiliez des cahiers d\'initiation à la lecture pour Amazon KDP ou créiez des fiches pour ateliers d\'association sur Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configurez les Paramètres de la Fiche',
         description:
-          'Ouvrez le panneau Configuration de la Fiche et sélectionnez votre mode d\'association : Lettre Initiale, Image+Mot, Image/Mot Mixte ou Mot Personnalisé. Définissez le nombre maximum de paires à 4, 5 ou 6 (6 par défaut). Activez la case « Inclure les champs nom/date » pour ajouter des lignes nom de l\'élève et date en bas de page. Activez « Inclure les numéros d\'éléments » (activé par défaut) pour ajouter des numéros devant chaque paire, et « Afficher les puces/points » (activé par défaut) pour afficher des puces décoratives à côté des éléments. Pour le mode Lettre Initiale, choisissez entre l\'affichage en majuscules et en minuscules, et sélectionnez un sous-mode : Thème et images aléatoires, Aléatoire depuis le thème choisi, ou Sélectionner des images spécifiques.',
+          'Ouvrez le panneau Configuration de la Fiche et sélectionnez votre mode d\'association : Lettre Initiale, Image+Mot, Image/Mot Mixte ou Mot Personnalisé. Définissez le nombre maximum de paires à 4, 5 ou 6 (6 par défaut). Activez la case « Inclure les champs nom/date » pour ajouter des lignes nom de l\'utilisateur et date en bas de page. Activez « Inclure les numéros d\'éléments » (activé par défaut) pour ajouter des numéros devant chaque paire, et « Afficher les puces/points » (activé par défaut) pour afficher des puces décoratives à côté des éléments. Pour le mode Lettre Initiale, choisissez entre l\'affichage en majuscules et en minuscules, et sélectionnez un sous-mode : Thème et images aléatoires, Aléatoire depuis le thème choisi, ou Sélectionner des images spécifiques.',
       },
       {
         title: 'Sélectionnez des Images dans la Bibliothèque',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Générez la Fiche d\'Association',
         description:
-          'Cliquez sur Générer pour créer la mise en page d\'association à deux colonnes. L\'application dispose vos images et textes sélectionnés dans les colonnes gauche et droite avec le nombre de paires configuré. Un en-tête stylisé « Trouve les Paires ! » apparaît en haut avec un fond en pastille jaune (#FFD700), un cadre de bordure corail (#FF7F50) et un titre localisé ainsi que des consignes rendues en polices Fredoka et Quicksand. Les numéros d\'éléments et les puces décoratives s\'affichent selon vos réglages. L\'onglet fiche de travail montre la version élève sans lignes de liaison — prête pour que les élèves tracent leurs propres lignes.',
+          'Cliquez sur Générer pour créer la mise en page d\'association à deux colonnes. L\'application dispose vos images et textes sélectionnés dans les colonnes gauche et droite avec le nombre de paires configuré. Un en-tête stylisé « Trouve les Paires ! » apparaît en haut avec un fond en pastille jaune (#FFD700), un cadre de bordure corail (#FF7F50) et un titre localisé ainsi que des consignes rendues en polices Fredoka et Quicksand. Les numéros d\'éléments et les puces décoratives s\'affichent selon vos réglages. L\'onglet fiche de travail montre la version utilisateur sans lignes de liaison — prête pour que les utilisateurs tracent leurs propres lignes.',
       },
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir le corrigé généré automatiquement avec les lignes de liaison horizontales (#555, épaisseur de trait 2) tracées entre chaque bonne correspondance. Téléchargez les deux versions via les quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers sont nommés worksheet.jpeg, worksheet.pdf, answer_key.jpeg et answer_key.pdf à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production, que ce soit pour des fiches sur Etsy, des intérieurs Amazon KDP ou des ressources TPT.',
+          'Passez à l\'onglet Corrigé pour voir le corrigé généré automatiquement avec les lignes de liaison horizontales (#555, épaisseur de trait 2) tracées entre chaque bonne correspondance. Téléchargez les deux versions via les quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers sont nommés worksheet.jpeg, worksheet.pdf, answer_key.jpeg et answer_key.pdf à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production, que ce soit pour des fiches sur Etsy, des intérieurs Amazon KDP ou des ressources Gumroad.',
       },
     ],
   },
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Numéros d\'Éléments et Puces Décoratives avec Boutons d\'Activation',
         description:
-          'Deux boutons d\'activation dans le panneau Configuration de la Fiche contrôlent la structure visuelle de chaque colonne d\'association. « Inclure les numéros d\'éléments » (activé par défaut) ajoute des numéros devant chaque paire — les élèves voient des éléments numérotés pour une référence facile lors des corrections en classe. « Afficher les puces/points » (activé par défaut) ajoute des puces décoratives à côté des éléments pour plus de clarté visuelle. Les deux options sont indépendantes : vous pouvez avoir uniquement les numéros, uniquement les puces, les deux ou aucun, selon votre public cible et votre style de produit.',
+          'Deux boutons d\'activation dans le panneau Configuration de la Fiche contrôlent la structure visuelle de chaque colonne d\'association. « Inclure les numéros d\'éléments » (activé par défaut) ajoute des numéros devant chaque paire — les utilisateurs voient des éléments numérotés pour une référence facile lors des corrections en ligne. « Afficher les puces/points » (activé par défaut) ajoute des puces décoratives à côté des éléments pour plus de clarté visuelle. Les deux options sont indépendantes : vous pouvez avoir uniquement les numéros, uniquement les puces, les deux ou aucun, selon votre public cible et votre style de produit.',
       },
       {
         title: 'Export PDF et JPEG Prêts à Imprimer à 300 DPI avec Mode Niveaux de Gris',
@@ -110,26 +110,26 @@ const content: AppContent = {
       {
         title: 'Cahiers d\'Initiation à la Lecture sur Amazon KDP',
         description:
-          'Compilez 40 à 80 fiches d\'association dans un cahier imprimé au format Amazon KDP. Le mode Lettre Initiale est idéal pour l\'initiation à la lecture — les élèves associent les images à leur première lettre à travers de multiples thèmes, développant la conscience phonémique à chaque page. Structurez votre cahier par difficulté : le Chapitre 1 utilise 4 paires pour les débutants, le Chapitre 2 utilise 5 paires, et le Chapitre 3 utilise 6 paires pour les apprenants avancés. Incluez les corrigés à la fin du cahier grâce à la fonction de corrigé automatique. Le mode niveaux de gris produit des pages économiques en encre prêtes pour les intérieurs de livres en noir et blanc.',
+          'Compilez 40 à 80 fiches d\'association dans un cahier imprimé au format Amazon KDP. Le mode Lettre Initiale est idéal pour l\'initiation à la lecture — les utilisateurs associent les images à leur première lettre à travers de multiples thèmes, développant la conscience phonémique à chaque page. Structurez votre cahier par difficulté : le Chapitre 1 utilise 4 paires pour les débutants, le Chapitre 2 utilise 5 paires, et le Chapitre 3 utilise 6 paires pour les apprenants avancés. Incluez les corrigés à la fin du cahier grâce à la fonction de corrigé automatique. Le mode niveaux de gris produit des pages économiques en encre prêtes pour les intérieurs de livres en noir et blanc.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fiches pour Ateliers d\'Association sur TPT',
+        title: 'Fiches pour Ateliers d\'Association sur Gumroad',
         description:
-          'Créez des fiches d\'association prêtes à l\'emploi pour les ateliers en classe, avec champs nom/date, numéros d\'éléments et corrigés imprimés. Les enseignants qui recherchent des activités d\'association sur TPT apprécient les fiches prêtes à utiliser en classe — le champ nom assure la traçabilité des élèves, les numéros d\'éléments facilitent la correction efficace pendant les revues de groupe, et le corrigé généré automatiquement fait gagner du temps de préparation. Créez des ensembles alignés sur les programmes : association d\'animaux de la ferme, groupes alimentaires, vocabulaire météo et animaux par habitat. Chaque ensemble inclut fiches de travail et corrigés aux formats PDF et JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des fiches d\'association prêtes à l\'emploi pour les ateliers en ligne, avec champs nom/date, numéros d\'éléments et corrigés imprimés. Les vendeurs qui recherchent des activités d\'association sur Gumroad apprécient les fiches prêtes à utiliser en ligne — le champ nom assure la traçabilité des utilisateurs, les numéros d\'éléments facilitent la correction efficace pendant les revues de groupe, et le corrigé généré automatiquement fait gagner du temps de préparation. Créez des ensembles alignés sur les programmes : association d\'animaux de la ferme, groupes alimentaires, vocabulaire météo et animaux par habitat. Chaque ensemble inclut fiches de travail et corrigés aux formats PDF et JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fiches d\'Association de Vocabulaire en Plusieurs Langues',
         description:
-          'Exploitez les modes Lettre Initiale et Image+Mot sensibles à la langue pour créer des fiches d\'association dans 11 langues. Les mêmes images produisent un contenu d\'association différent quand vous changez de langue — les noms des images, les premières lettres et le texte de l\'en-tête se mettent à jour automatiquement. Créez des packs de vocabulaire multilingues où chaque version linguistique utilise les mêmes images thématiques mais des mots localisés. C\'est particulièrement précieux pour les enseignants de FLE, les classes bilingues et les familles d\'instruction à domicile internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.',
-        platform: 'Etsy / TPT (marché multilingue)',
+          'Exploitez les modes Lettre Initiale et Image+Mot sensibles à la langue pour créer des fiches d\'association dans 11 langues. Les mêmes images produisent un contenu d\'association différent quand vous changez de langue — les noms des images, les premières lettres et le texte de l\'en-tête se mettent à jour automatiquement. Créez des packs de vocabulaire multilingues où chaque version linguistique utilise les mêmes images thématiques mais des mots localisés. C\'est particulièrement précieux pour les vendeurs de FLE, les classes bilingues et les familles d\'instruction à domicile internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.',
+        platform: 'Etsy / Gumroad (marché multilingue)',
       },
       {
         title: 'Collections d\'Association Saisonnières',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d\'été et bien plus. Créez des collections de fiches d\'association à durée limitée alignées sur les pics de vente. Lancez les packs d\'association Halloween en septembre, les collections de Noël en octobre et les packs Saint-Valentin en janvier. Incluez les quatre modes d\'association dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers se vendent à des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles pour des achats récurrents.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
     ],
   },
@@ -138,7 +138,7 @@ const content: AppContent = {
     {
       question: 'Quels sont les quatre modes d\'association et en quoi diffèrent-ils ?',
       answer:
-        'Le générateur propose quatre modes distincts. Le mode Lettre Initiale place les images à gauche et leur première lettre à droite — les élèves associent chaque image à la lettre par laquelle elle commence. Le mode Image+Mot affiche des paires d\'images étiquetées des deux côtés pour l\'association de vocabulaire. Le mode Image/Mot Mixte utilise des sélecteurs déroulants par ligne pour que chaque côté puisse afficher indépendamment une image ou un mot, créant une difficulté variée au sein d\'une même fiche. Le mode Mot Personnalisé associe les images à vos propres mots saisis pour l\'orthographe, le vocabulaire ou des exercices de langues étrangères. Chaque mode produit une activité d\'apprentissage différente à partir de la même bibliothèque d\'images.',
+        'Le générateur propose quatre modes distincts. Le mode Lettre Initiale place les images à gauche et leur première lettre à droite — les utilisateurs associent chaque image à la lettre par laquelle elle commence. Le mode Image+Mot affiche des paires d\'images étiquetées des deux côtés pour l\'association de vocabulaire. Le mode Image/Mot Mixte utilise des sélecteurs déroulants par ligne pour que chaque côté puisse afficher indépendamment une image ou un mot, créant une difficulté variée au sein d\'une même fiche. Le mode Mot Personnalisé associe les images à vos propres mots saisis pour l\'orthographe, le vocabulaire ou des exercices de langues étrangères. Chaque mode produit une activité d\'apprentissage différente à partir de la même bibliothèque d\'images.',
     },
     {
       question: 'Comment fonctionne le nombre de paires configurable ?',
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le corrigé généré automatiquement ?',
       answer:
-        'Le générateur utilise un système à double canevas avec un onglet Fiche de Travail et un onglet Corrigé. La fiche de travail affiche la mise en page à deux colonnes sans lignes de liaison — les élèves tracent leurs propres lignes pour associer les paires. Le corrigé reproduit la même mise en page et ajoute des lignes de liaison horizontales (couleur #555, épaisseur de trait 2) entre chaque bonne correspondance. Les deux versions s\'exportent séparément via quatre boutons de téléchargement dédiés : worksheet.jpeg, worksheet.pdf, answer_key.jpeg et answer_key.pdf.',
+        'Le générateur utilise un système à double canevas avec un onglet Fiche de Travail et un onglet Corrigé. La fiche de travail affiche la mise en page à deux colonnes sans lignes de liaison — les utilisateurs tracent leurs propres lignes pour associer les paires. Le corrigé reproduit la même mise en page et ajoute des lignes de liaison horizontales (couleur #555, épaisseur de trait 2) entre chaque bonne correspondance. Les deux versions s\'exportent séparément via quatre boutons de téléchargement dédiés : worksheet.jpeg, worksheet.pdf, answer_key.jpeg et answer_key.pdf.',
     },
     {
       question: 'Quels sont les sous-modes du mode Lettre Initiale ?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionnent les numéros d\'éléments et les puces décoratives ?',
       answer:
-        'Deux boutons d\'activation dans le panneau Configuration de la Fiche contrôlent la mise en forme. « Inclure les numéros d\'éléments » (activé par défaut) ajoute des numéros devant chaque paire — utile pour la correction et la discussion en classe. « Afficher les puces/points » (activé par défaut) ajoute des puces décoratives à côté des éléments pour plus de clarté visuelle. Les deux options sont indépendantes : vous pouvez avoir uniquement les numéros, uniquement les puces, les deux ou aucun, selon votre style de fiche et votre public cible.',
+        'Deux boutons d\'activation dans le panneau Configuration de la Fiche contrôlent la mise en forme. « Inclure les numéros d\'éléments » (activé par défaut) ajoute des numéros devant chaque paire — utile pour la correction et la discussion en ligne. « Afficher les puces/points » (activé par défaut) ajoute des puces décoratives à côté des éléments pour plus de clarté visuelle. Les deux options sont indépendantes : vous pouvez avoir uniquement les numéros, uniquement les puces, les deux ou aucun, selon votre style de fiche et votre public cible.',
     },
     {
       question: 'Comment fonctionne l\'en-tête localisé ?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre les fiches d\'association créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'association en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les quatre modes d\'association, les corrigés générés automatiquement et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'activités d\'association originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'association en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les quatre modes d\'association, les corrigés générés automatiquement et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'activités d\'association originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -264,7 +264,7 @@ const content: AppContent = {
       {
         src: '/samples/french/matching/Trouve les Paires 1.webp',
         alt: 'Fiche d\'association par lettre initiale avec images à gauche et premières lettres à droite',
-        caption: 'Mode Lettre Initiale — les élèves associent les images à leur première lettre',
+        caption: 'Mode Lettre Initiale — les utilisateurs associent les images à leur première lettre',
       },
       {
         src: '/samples/french/matching/Trouve les Paires 2.webp',

@@ -7,7 +7,7 @@ const content: AppContent = {
       'générateur de fiches de tri à deux catégories pour vendeurs Etsy',
       'créateur d\'activités de classification d\'images pour éditeurs Amazon KDP',
       'générateur de fiches de tri d\'images avec licence commerciale',
-      'vendre des fiches de tri et classification sur Teachers Pay Teachers',
+      'vendre des fiches de tri et classification sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques de tri d\'images pour entrepreneurs',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Tri d\'Images | Fiches de Classification',
     metaDescription:
-      'Créez des fiches de tri d’images pour Etsy, KDP et TPT. Tri à deux catégories, corrigé auto, 104 thèmes, 4 à 12 images par fiche.',
+      'Créez des fiches de tri d’images pour Etsy, KDP et Gumroad. Tri à deux catégories, corrigé auto, 104 thèmes, 4 à 12 images par fiche.',
   },
 
   hero: {
     title: 'Générateur de Fiches de Tri d\'Images pour des Activités de Classification à Deux Catégories',
     tagline: 'Tri à deux catégories en un seul générateur puissant — mode thématique ou sélection manuelle des images — avec des corrigés auto-générés, 4 à 12 images configurables, un en-tête localisé « Tri d\'Images » en 11 langues et 104 collections d\'images thématiques.',
     description:
-      'Concevez des fiches de tri professionnelles où les élèves classifient des images dans deux catégories en triant des images découpées dans le bon groupe gauche ou droit. Choisissez le mode thématique pour remplir automatiquement les catégories à partir de la bibliothèque d\'images — sélectionnez un thème à gauche et un thème à droite, et l\'application génère 4 à 6 images aléatoires par thème — ou passez en mode manuel pour sélectionner individuellement les images et assigner chacune à une catégorie. Chaque fiche comporte deux cadres de catégories à bordure pointillée en haut comme destinations de tri et une grille découpée mélangée en dessous avec des images mixtes prêtes à être découpées et triées. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé avec des images 6× plus grandes organisées dans des boîtes de catégories, vous n\'avez donc jamais à créer de corrigés manuellement. Le Générateur de Tri d\'Images est sensible à la langue : les étiquettes de catégories utilisent des noms d\'images localisés, donc changer de langue modifie le texte sur la fiche. Un en-tête localisé « Tri d\'Images » avec un fond vert menthe et un titre bleu sarcelle s\'affiche automatiquement dans les 11 langues prises en charge. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour des étiquettes de catégories localisées. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date pour la responsabilité en classe, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités de tri sur Etsy, compiliez des cahiers de classification pour Amazon KDP ou créiez des activités de tri pour TPT, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches de tri professionnelles où les utilisateurs classifient des images dans deux catégories en triant des images découpées dans le bon groupe gauche ou droit. Choisissez le mode thématique pour remplir automatiquement les catégories à partir de la bibliothèque d\'images — sélectionnez un thème à gauche et un thème à droite, et l\'application génère 4 à 6 images aléatoires par thème — ou passez en mode manuel pour sélectionner individuellement les images et assigner chacune à une catégorie. Chaque fiche comporte deux cadres de catégories à bordure pointillée en haut comme destinations de tri et une grille découpée mélangée en dessous avec des images mixtes prêtes à être découpées et triées. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé avec des images 6× plus grandes organisées dans des boîtes de catégories, vous n\'avez donc jamais à créer de corrigés manuellement. Le Générateur de Tri d\'Images est sensible à la langue : les étiquettes de catégories utilisent des noms d\'images localisés, donc changer de langue modifie le texte sur la fiche. Un en-tête localisé « Tri d\'Images » avec un fond vert menthe et un titre bleu sarcelle s\'affiche automatiquement dans les 11 langues prises en charge. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour des étiquettes de catégories localisées. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date pour la responsabilité en ligne, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités de tri sur Etsy, compiliez des cahiers de classification pour Amazon KDP ou créiez des activités de tri pour Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -32,12 +32,12 @@ const content: AppContent = {
       {
         title: 'Définissez la Mise en Page',
         description:
-          'Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou toute dimension personnalisée. Sélectionnez une couleur de fond à l\'aide du sélecteur de couleur. Choisissez un thème de fond et ajustez son opacité (de 0 à 1 par pas de 0,05), puis choisissez un thème de bordure avec son propre contrôle d\'opacité indépendant. Cochez « Inclure les Champs Nom/Date » pour ajouter des lignes nom et date pour les élèves. Ces choix de mise en page encadrent votre fiche de tri avant de configurer le contenu.',
+          'Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou toute dimension personnalisée. Sélectionnez une couleur de fond à l\'aide du sélecteur de couleur. Choisissez un thème de fond et ajustez son opacité (de 0 à 1 par pas de 0,05), puis choisissez un thème de bordure avec son propre contrôle d\'opacité indépendant. Cochez « Inclure les Champs Nom/Date » pour ajouter des lignes nom et date pour les utilisateurs. Ces choix de mise en page encadrent votre fiche de tri avant de configurer le contenu.',
       },
       {
         title: 'Choisissez Vos Catégories de Tri',
         description:
-          'Ouvrez le panneau Catégories de Tri et sélectionnez deux thèmes — un pour la catégorie gauche et un pour la catégorie droite. L\'application génère automatiquement 4 à 6 images aléatoires par thème à partir de la bibliothèque d\'images. Par exemple, choisissez Animaux à gauche et Nourriture à droite pour créer une fiche de tri où les élèves classifient les images dans le bon groupe. Vous pouvez aussi passer en mode manuel pour sélectionner individuellement les images et assigner chacune à la catégorie gauche ou droite.',
+          'Ouvrez le panneau Catégories de Tri et sélectionnez deux thèmes — un pour la catégorie gauche et un pour la catégorie droite. L\'application génère automatiquement 4 à 6 images aléatoires par thème à partir de la bibliothèque d\'images. Par exemple, choisissez Animaux à gauche et Nourriture à droite pour créer une fiche de tri où les utilisateurs classifient les images dans le bon groupe. Vous pouvez aussi passer en mode manuel pour sélectionner individuellement les images et assigner chacune à la catégorie gauche ou droite.',
       },
       {
         title: 'Sélectionnez des Images dans la Bibliothèque ou Importez les Vôtres',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Générez la Fiche de Tri',
         description:
-          'Cliquez sur Générer pour créer la mise en page de tri en deux parties. L\'application organise votre contenu en cadres de catégories en haut (deux cadres côte à côte à bordure pointillée avec remplissage #FAFAFA) et une grille découpée mélangée en dessous (cellules blanches avec bordures pointillées #666). Un en-tête stylisé « Tri d\'Images » apparaît en haut avec un fond vert menthe (#4DB6AC), un titre bleu sarcelle (#00796B) en police Fredoka et une description orange (#FF7043) en police Quicksand. Une bordure extérieure bleu sarcelle (#26A69A, 8 px) encadre l\'ensemble de la page. La grille découpée affiche toutes les images dans un ordre aléatoire — les élèves les découpent et les trient dans le bon cadre de catégorie.',
+          'Cliquez sur Générer pour créer la mise en page de tri en deux parties. L\'application organise votre contenu en cadres de catégories en haut (deux cadres côte à côte à bordure pointillée avec remplissage #FAFAFA) et une grille découpée mélangée en dessous (cellules blanches avec bordures pointillées #666). Un en-tête stylisé « Tri d\'Images » apparaît en haut avec un fond vert menthe (#4DB6AC), un titre bleu sarcelle (#00796B) en police Fredoka et une description orange (#FF7043) en police Quicksand. Une bordure extérieure bleu sarcelle (#26A69A, 8 px) encadre l\'ensemble de la page. La grille découpée affiche toutes les images dans un ordre aléatoire — les utilisateurs les découpent et les trient dans le bon cadre de catégorie.',
       },
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir la solution auto-générée avec des images 6× plus grandes organisées dans leurs boîtes de catégories correctes, affichées en maximum 2 colonnes par boîte. Téléchargez les deux versions à l\'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s\'exportent à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers TPT.',
+          'Passez à l\'onglet Corrigé pour voir la solution auto-générée avec des images 6× plus grandes organisées dans leurs boîtes de catégories correctes, affichées en maximum 2 colonnes par boîte. Téléchargez les deux versions à l\'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s\'exportent à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers Gumroad.',
       },
     ],
   },
@@ -86,9 +86,9 @@ const content: AppContent = {
           'Parcourez 104 collections d\'images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et bien plus. Chaque thème fournit un ensemble coordonné d\'illustrations colorées qui fonctionnent comme catégories de tri. Filtrez par thème à l\'aide du menu déroulant ou recherchez des images spécifiques par mot-clé. La sélection de catégories par thème facilite la création de fiches de tri avec des paires de catégories naturelles — animaux terrestres vs animaux marins, alimentation saine vs malbouffe, objets d\'été vs objets d\'hiver. La Licence Commerciale inclut 10 thèmes colorés ; l\'Accès Complet déverrouille les 104 thèmes pour une variété créative maximale.',
       },
       {
-        title: 'Champs Nom et Date pour la Responsabilité en Classe',
+        title: 'Champs Nom et Date pour la Responsabilité en ligne',
         description:
-          'Cochez la case « Inclure les Champs Nom/Date » dans le panneau Mise en Page pour ajouter des lignes nom et date à la fiche de tri. Ces champs assurent la responsabilité des élèves en classe et rendent les fiches prêtes pour la collecte et la notation sans préparation supplémentaire. Les enseignants qui recherchent des activités de tri apprécient les fiches qui arrivent prêtes à l\'emploi, et l\'option nom/date rend vos produits plus attractifs pour le marché éducatif sur TPT et Etsy.',
+          'Cochez la case « Inclure les Champs Nom/Date » dans le panneau Mise en Page pour ajouter des lignes nom et date à la fiche de tri. Ces champs assurent la responsabilité des utilisateurs en ligne et rendent les fiches prêtes pour la collecte et la notation sans préparation supplémentaire. Les vendeurs qui recherchent des activités de tri apprécient les fiches qui arrivent prêtes à l\'emploi, et l\'option nom/date rend vos produits plus attractifs pour le marché éducatif sur Gumroad et Etsy.',
       },
       {
         title: 'Export PDF et JPEG Prêts à Imprimer à 300 DPI avec Bascule Niveaux de Gris',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Activités de Tri en Classe pour TPT',
+        title: 'Activités de Tri en ligne pour Gumroad',
         description:
-          'Créez des fiches de tri prêtes à l\'emploi avec champs nom/date et corrigés imprimés. Les enseignants qui recherchent des activités de tri sur TPT apprécient les fiches qui arrivent prêtes pour la classe — le champ nom assure la responsabilité des élèves, les cadres de catégories fournissent des destinations de tri claires, et le corrigé auto-généré fait gagner du temps de préparation. Créez des ensembles liés au programme : vivant vs non-vivant, alimentation saine vs malbouffe, animaux diurnes vs nocturnes, vêtements chauds vs froids. Chaque ensemble inclut les fiches élèves et les corrigés aux formats PDF et JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des fiches de tri prêtes à l\'emploi avec champs nom/date et corrigés imprimés. Les vendeurs qui recherchent des activités de tri sur Gumroad apprécient les fiches qui arrivent prêtes pour la vente — le champ nom assure la responsabilité des utilisateurs, les cadres de catégories fournissent des destinations de tri claires, et le corrigé auto-généré fait gagner du temps de préparation. Créez des ensembles liés au programme : vivant vs non-vivant, alimentation saine vs malbouffe, animaux diurnes vs nocturnes, vêtements chauds vs froids. Chaque ensemble inclut les fiches utilisateurs et les corrigés aux formats PDF et JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections de Tri Saisonnières et de Fêtes',
         description:
-          'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et de fête — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d\'été et bien plus. Créez des fiches de tri saisonnières où les élèves classifient des objets de fête en catégories : décorations de Noël vs nourriture de Noël, costumes d\'Halloween vs friandises d\'Halloween, activités d\'été vs activités d\'hiver. Sortez les packs de tri Halloween en septembre, les collections de Noël en octobre et les packs de Saint-Valentin en janvier. Les produits saisonniers commandent des prix plus élevés pendant les fenêtres de pic et créent des raisons naturelles pour des achats récurrents.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+          'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et de fête — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d\'été et bien plus. Créez des fiches de tri saisonnières où les utilisateurs classifient des objets de fête en catégories : décorations de Noël vs nourriture de Noël, costumes d\'Halloween vs friandises d\'Halloween, activités d\'été vs activités d\'hiver. Sortez les packs de tri Halloween en septembre, les collections de Noël en octobre et les packs de Saint-Valentin en janvier. Les produits saisonniers commandent des prix plus élevés pendant les fenêtres de pic et créent des raisons naturelles pour des achats récurrents.',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
       {
         title: 'Fiches de Tri Multilingues pour les Marchés ESL et Bilingues',
         description:
-          'Exploitez les étiquettes de catégories sensibles à la langue pour créer des fiches de tri dans 11 langues. Les mêmes images produisent des étiquettes de catégories différentes quand vous changez de langue — les noms d\'images et l\'en-tête « Tri d\'Images » se mettent à jour automatiquement. Créez des packs de tri multilingues où chaque version linguistique utilise les mêmes images thématiques mais un texte localisé. Cela est particulièrement précieux pour les enseignants ESL/FLE, les classes bilingues et les familles d\'école à la maison internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium sur Etsy et TPT.',
-        platform: 'Etsy / TPT (marché multilingue)',
+          'Exploitez les étiquettes de catégories sensibles à la langue pour créer des fiches de tri dans 11 langues. Les mêmes images produisent des étiquettes de catégories différentes quand vous changez de langue — les noms d\'images et l\'en-tête « Tri d\'Images » se mettent à jour automatiquement. Créez des packs de tri multilingues où chaque version linguistique utilise les mêmes images thématiques mais un texte localisé. Cela est particulièrement précieux pour les vendeurs ESL/FLE, les classes bilingues et les familles d\'école à la maison internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium sur Etsy et Gumroad.',
+        platform: 'Etsy / Gumroad (marché multilingue)',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le mécanisme de tri à deux catégories ?',
       answer:
-        'Chaque fiche de tri comporte exactement deux catégories — gauche et droite. La fiche affiche deux cadres de catégories à bordure pointillée en haut où les élèves trient leurs images, et une grille découpée mélangée en dessous avec toutes les images mélangées. Les élèves découpent les images de la grille et placent chacune dans le bon cadre de catégorie. Le format à deux catégories crée un exercice de classification binaire clair qui fonctionne pour n\'importe quel sujet — animaux vs nourriture, terre vs eau, vivant vs non-vivant, et des milliers d\'autres combinaisons.',
+        'Chaque fiche de tri comporte exactement deux catégories — gauche et droite. La fiche affiche deux cadres de catégories à bordure pointillée en haut où les utilisateurs trient leurs images, et une grille découpée mélangée en dessous avec toutes les images mélangées. Les utilisateurs découpent les images de la grille et placent chacune dans le bon cadre de catégorie. Le format à deux catégories crée un exercice de classification binaire clair qui fonctionne pour n\'importe quel sujet — animaux vs nourriture, terre vs eau, vivant vs non-vivant, et des milliers d\'autres combinaisons.',
     },
     {
       question: 'Quelle est la différence entre le mode thématique et le mode manuel ?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne la grille découpée mélangée ?',
       answer:
-        'La grille découpée occupe les 55 % inférieurs de la zone de contenu et affiche toutes les images sélectionnées dans un ordre aléatoire. Les images apparaissent dans des cellules blanches avec des bordures pointillées #666 et des coins arrondis de 4 px, disposées en 3 à 4 colonnes selon le nombre total d\'images. Chaque image remplit 85 % de sa cellule. Les élèves découpent les images le long des lignes pointillées et les trient dans le bon cadre de catégorie au-dessus. Le mélange garantit que les élèves doivent réellement classifier chaque image plutôt que de copier un modèle.',
+        'La grille découpée occupe les 55 % inférieurs de la zone de contenu et affiche toutes les images sélectionnées dans un ordre aléatoire. Les images apparaissent dans des cellules blanches avec des bordures pointillées #666 et des coins arrondis de 4 px, disposées en 3 à 4 colonnes selon le nombre total d\'images. Chaque image remplit 85 % de sa cellule. Les utilisateurs découpent les images le long des lignes pointillées et les trient dans le bon cadre de catégorie au-dessus. Le mélange garantit que les utilisateurs doivent réellement classifier chaque image plutôt que de copier un modèle.',
     },
     {
       question: 'Comment fonctionne le corrigé auto-généré ?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Puis-je inclure des champs nom et date sur les fiches de tri ?',
       answer:
-        'Oui. Cochez la case « Inclure les Champs Nom/Date » dans le panneau Mise en Page pour ajouter des lignes nom et date à la fiche. Ces champs assurent la responsabilité des élèves en classe et rendent vos fiches de tri prêtes pour la collecte et la notation sans préparation supplémentaire.',
+        'Oui. Cochez la case « Inclure les Champs Nom/Date » dans le panneau Mise en Page pour ajouter des lignes nom et date à la fiche. Ces champs assurent la responsabilité des utilisateurs en ligne et rendent vos fiches de tri prêtes pour la collecte et la notation sans préparation supplémentaire.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches de tri créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de tri comme téléchargements numériques sur Etsy, comme cahiers imprimés sur Amazon KDP, comme ressources pédagogiques sur TPT, ou via tout autre canal de vente. Le mécanisme de tri à deux catégories, les corrigés auto-générés et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'activités de tri originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de tri comme téléchargements numériques sur Etsy, comme cahiers imprimés sur Amazon KDP, comme ressources imprimables sur Gumroad, ou via tout autre canal de vente. Le mécanisme de tri à deux catégories, les corrigés auto-générés et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'activités de tri originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

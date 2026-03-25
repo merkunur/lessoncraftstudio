@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fiches de soustraction imprimables pour Etsy',
       'générateur de fiches de soustraction pour Amazon KDP',
-      'vendre des fiches de soustraction sur Teachers Pay Teachers',
+      'vendre des fiches de soustraction sur Gumroad',
       'fiches de soustraction licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Fiches de Soustraction | Créer et Vendre',
     metaDescription:
-      'Créez des fiches de soustraction pour Etsy, KDP et TPT. 4 modes avec visualisation barrée, 104 thèmes, corrigés, export 400+ DPI.',
+      'Créez des fiches de soustraction pour Etsy, KDP et Gumroad. 4 modes avec visualisation barrée, 104 thèmes, corrigés, export 400+ DPI.',
   },
 
   hero: {
     title: 'Générateur de Fiches de Soustraction avec Visualisation Barrée',
     tagline: 'Rendez la soustraction intuitive grâce à des fiches où les enfants barrent les images pour trouver la réponse.',
     description:
-      'Créez des fiches de soustraction basées sur les images qui enseignent le concept de « retirer » grâce à une méthode visuelle puissante : les images barrées. Les élèves voient un groupe d\'images, puis observent des croix diagonales tracées sur les éléments soustraits — rendant le concept abstrait de la soustraction concret et intuitif. Choisissez parmi quatre modes d\'exercice — Barrer, Image − Nombre, Trouver le Nombre à Soustraire et Mode Mixte — pour accompagner l\'apprentissage de la maternelle au CE1. Parcourez plus de 3 100 illustrations dans 104 thèmes comme les dinosaures, la vie marine et les véhicules. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Un mode niveaux de gris intégré permet de créer des versions noir et blanc économiques en un clic. Que vous vendiez des packs thématiques sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou imprimiez des fiches de pratique pour vos élèves, le Générateur de Fiches de Soustraction produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de soustraction basées sur les images qui enseignent le concept de « retirer » grâce à une méthode visuelle puissante : les images barrées. Les utilisateurs voient un groupe d\'images, puis observent des croix diagonales tracées sur les éléments soustraits — rendant le concept abstrait de la soustraction concret et intuitif. Choisissez parmi quatre modes d\'exercice — Barrer, Image − Nombre, Trouver le Nombre à Soustraire et Mode Mixte — pour accompagner l\'apprentissage de la maternelle au CE1. Parcourez plus de 3 100 illustrations dans 104 thèmes comme les dinosaures, la vie marine et les véhicules. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Un mode niveaux de gris intégré permet de créer des versions noir et blanc économiques en un clic. Que vous vendiez des packs thématiques sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou imprimiez des fiches de pratique pour vos utilisateurs, le Générateur de Fiches de Soustraction produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configurer le mode d\'exercice et la plage de nombres',
         description:
-          'Ouvrez la Configuration des Exercices et choisissez l\'un des quatre modes. Le mode Barrer affiche un groupe complet d\'images et trace des croix diagonales sur les éléments soustraits — la visualisation signature qui rend la soustraction tangible pour les jeunes apprenants. Le mode Image − Nombre associe un groupe d\'images à un chiffre pour les élèves en transition vers la soustraction abstraite. Le mode Trouver le Nombre à Soustraire montre le groupe de départ et le résultat, mettant les élèves au défi de déterminer combien ont été retirés. Le Mode Mixte mélange les trois pour une pratique variée. Définissez le diminuende maximum de 2 à 20 et choisissez le nombre d\'exercices par page.',
+          'Ouvrez la Configuration des Exercices et choisissez l\'un des quatre modes. Le mode Barrer affiche un groupe complet d\'images et trace des croix diagonales sur les éléments soustraits — la visualisation signature qui rend la soustraction tangible pour les jeunes apprenants. Le mode Image − Nombre associe un groupe d\'images à un chiffre pour les utilisateurs en transition vers la soustraction abstraite. Le mode Trouver le Nombre à Soustraire montre le groupe de départ et le résultat, mettant les utilisateurs au défi de déterminer combien ont été retirés. Le Mode Mixte mélange les trois pour une pratique variée. Définissez le diminuende maximum de 2 à 20 et choisissez le nombre d\'exercices par page.',
       },
       {
         title: 'Choisir des images dans la bibliothèque thématique',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générer le corrigé et télécharger',
         description:
-          'Passez à l\'onglet Corrigé et cliquez sur Générer le Corrigé pour créer une version complétée avec toutes les différences correctes. Ouvrez le menu Téléchargement et exportez la fiche et son corrigé en JPEG haute résolution ou PDF prêt à imprimer. Cochez la case Niveaux de Gris pour produire des versions noir et blanc — parfaites pour l\'impression en classe ou la production de cahiers d\'activités à bas coût. Chaque export est rendu à plus de 400 DPI.',
+          'Passez à l\'onglet Corrigé et cliquez sur Générer le Corrigé pour créer une version complétée avec toutes les différences correctes. Ouvrez le menu Téléchargement et exportez la fiche et son corrigé en JPEG haute résolution ou PDF prêt à imprimer. Cochez la case Niveaux de Gris pour produire des versions noir et blanc — parfaites pour l\'impression en volume ou la production de cahiers d\'activités à bas coût. Chaque export est rendu à plus de 400 DPI.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Visualisation par barrage',
         description:
-          'La fonctionnalité signature qui distingue ce générateur. En mode Barrer, un groupe complet d\'images est affiché et des croix diagonales sont tracées sur les N derniers éléments pour montrer visuellement la soustraction. Cela transforme l\'idée abstraite de « retirer » en quelque chose que les élèves peuvent voir et comprendre immédiatement. Un enfant regardant huit pommes dont trois sont barrées saisit « 8 moins 3 » bien plus intuitivement qu\'en fixant des chiffres nus.',
+          'La fonctionnalité signature qui distingue ce générateur. En mode Barrer, un groupe complet d\'images est affiché et des croix diagonales sont tracées sur les N derniers éléments pour montrer visuellement la soustraction. Cela transforme l\'idée abstraite de « retirer » en quelque chose que les utilisateurs peuvent voir et comprendre immédiatement. Un enfant regardant huit pommes dont trois sont barrées saisit « 8 moins 3 » bien plus intuitivement qu\'en fixant des chiffres nus.',
       },
       {
         title: 'Quatre modes d\'exercice distincts',
         description:
-          'Choisissez le mode adapté au niveau de vos élèves. Le mode Barrer est idéal pour les débutants — ils comptent le groupe complet, les éléments barrés et écrivent le nombre restant. Le mode Image − Nombre associe un groupe d\'images à un chiffre. Le mode Trouver le Nombre à Soustraire montre le groupe original et le résultat, développant le raisonnement algébrique précoce. Le Mode Mixte combine les trois pour une pratique variée.',
+          'Choisissez le mode adapté au niveau de vos utilisateurs. Le mode Barrer est idéal pour les débutants — ils comptent le groupe complet, les éléments barrés et écrivent le nombre restant. Le mode Image − Nombre associe un groupe d\'images à un chiffre. Le mode Trouver le Nombre à Soustraire montre le groupe original et le résultat, développant le raisonnement algébrique précoce. Le Mode Mixte combine les trois pour une pratique variée.',
       },
       {
         title: 'Plages de nombres configurables',
@@ -83,12 +83,12 @@ const content: AppContent = {
       {
         title: 'Génération automatique du corrigé',
         description:
-          'Cliquez sur un bouton pour générer un corrigé complet qui reproduit la mise en page de votre fiche avec toutes les différences correctes. En mode Barrer, le corrigé montre les mêmes images barrées plus la réponse écrite, permettant aux enseignants de vérifier d\'un coup d\'œil. Exportez le corrigé en fichier séparé pour les éditions enseignants ou les packs produits.',
+          'Cliquez sur un bouton pour générer un corrigé complet qui reproduit la mise en page de votre fiche avec toutes les différences correctes. En mode Barrer, le corrigé montre les mêmes images barrées plus la réponse écrite, permettant aux vendeurs de vérifier d\'un coup d\'œil. Exportez le corrigé en fichier séparé pour les éditions vendeurs ou les packs produits.',
       },
       {
         title: 'Export prêt à imprimer à 400+ DPI avec option niveaux de gris',
         description:
-          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d\'export rend à plus de 400 DPI. Le mode niveaux de gris intégré convertit l\'ensemble de votre fiche en noir et blanc en une case à cocher — idéal pour l\'impression en classe, réduire les coûts d\'encre ou produire des intérieurs de cahiers d\'activités pour Amazon KDP.',
+          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d\'export rend à plus de 400 DPI. Le mode niveaux de gris intégré convertit l\'ensemble de votre fiche en noir et blanc en une case à cocher — idéal pour l\'impression en volume, réduire les coûts d\'encre ou produire des intérieurs de cahiers d\'activités pour Amazon KDP.',
       },
       {
         title: 'Téléchargement d\'images personnalisées',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Packs thématiques de fiches de soustraction sur Etsy',
         description:
-          'Créez des ensembles de 10 à 20 fiches de soustraction regroupées par thème — dinosaures, animaux de la ferme, créatures marines, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez le corrigé et des versions couleur et niveaux de gris en fichiers bonus. La visualisation barrée est un argument visuel fort dans les aperçus miniatures, attirant l\'attention des parents et enseignants. Fixez les thèmes individuels à 3 €–5 € et les méga-packs à 12 €–18 €.',
+          'Créez des ensembles de 10 à 20 fiches de soustraction regroupées par thème — dinosaures, animaux de la ferme, créatures marines, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez le corrigé et des versions couleur et niveaux de gris en fichiers bonus. La visualisation barrée est un argument visuel fort dans les aperçus miniatures, attirant l\'attention des parents et vendeurs. Fixez les thèmes individuels à 3 €–5 € et les méga-packs à 12 €–18 €.',
         platform: 'Etsy (etsy.fr)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers de maths différenciés pour TPT',
+        title: 'Ateliers de maths différenciés pour Gumroad',
         description:
-          'Créez des ensembles de soustraction à niveaux : Niveau 1 (Barrer, diminuende max 5), Niveau 2 (Image − Nombre, diminuende max 10), Niveau 3 (Trouver le Nombre à Soustraire, diminuende max 15) et Niveau 4 (Mixte, diminuende max 20). Chaque niveau avec corrigés et fiche de suivi. Les acheteurs TPT paient des prix premium pour des ressources différenciées utilisables immédiatement dans plusieurs groupes de niveau.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des ensembles de soustraction à niveaux : Niveau 1 (Barrer, diminuende max 5), Niveau 2 (Image − Nombre, diminuende max 10), Niveau 3 (Trouver le Nombre à Soustraire, diminuende max 15) et Niveau 4 (Mixte, diminuende max 20). Chaque niveau avec corrigés et fiche de suivi. Les acheteurs Gumroad paient des prix premium pour des ressources différenciées utilisables immédiatement dans plusieurs groupes de niveau.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenu d\'abonnement pour votre propre boutique',
@@ -131,9 +131,9 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Fiches de pratique pour la classe et le soutien scolaire',
+        title: 'Fiches de pratique pour la vente et le soutien scolaire',
         description:
-          'Générez des fiches de soustraction personnalisées pour chaque niveau d\'élève. Imprimez des fiches en mode Barrer pour les débutants qui ont besoin de l\'étayage visuel, et des fiches Trouver le Nombre à Soustraire pour les élèves avancés — tout dans la même session. Le corrigé automatique fait gagner du temps de correction, et le mode niveaux de gris réduit les coûts d\'impression pour un usage intensif en classe.',
+          'Générez des fiches de soustraction personnalisées pour chaque niveau d\'utilisateur. Imprimez des fiches en mode Barrer pour les débutants qui ont besoin de l\'étayage visuel, et des fiches Trouver le Nombre à Soustraire pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue, et le mode niveaux de gris réduit les coûts d\'impression pour un usage intensif en ligne.',
         platform: 'Classe / Soutien scolaire / École à la maison',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Quels modes d\'exercice propose le Générateur de Fiches de Soustraction ?',
       answer:
-        'Le générateur comprend quatre modes : Barrer (un groupe complet d\'images avec des croix diagonales sur les éléments soustraits), Image − Nombre (un groupe d\'images moins un chiffre), Trouver le Nombre à Soustraire (le début et le résultat sont montrés, les élèves déterminent ce qui a été retiré) et Mode Mixte (mélange les trois). Chaque mode cible un niveau différent, du comptage visuel au raisonnement algébrique.',
+        'Le générateur comprend quatre modes : Barrer (un groupe complet d\'images avec des croix diagonales sur les éléments soustraits), Image − Nombre (un groupe d\'images moins un chiffre), Trouver le Nombre à Soustraire (le début et le résultat sont montrés, les utilisateurs déterminent ce qui a été retiré) et Mode Mixte (mélange les trois). Chaque mode cible un niveau différent, du comptage visuel au raisonnement algébrique.',
     },
     {
       question: 'Comment fonctionne la visualisation barrée ?',
       answer:
-        'En mode Barrer, la fiche affiche le groupe de départ complet — par exemple, huit papillons. Des croix diagonales sont ensuite tracées sur les N dernières images pour représenter la quantité soustraite. Les élèves comptent les images non marquées pour trouver la réponse. Cela rend le concept abstrait de « retirer » visible et concret, particulièrement efficace pour les enfants de maternelle et grande section qui commencent à apprendre la soustraction.',
+        'En mode Barrer, la fiche affiche le groupe de départ complet — par exemple, huit papillons. Des croix diagonales sont ensuite tracées sur les N dernières images pour représenter la quantité soustraite. Les utilisateurs comptent les images non marquées pour trouver la réponse. Cela rend le concept abstrait de « retirer » visible et concret, particulièrement efficace pour les enfants de maternelle et grande section qui commencent à apprendre la soustraction.',
     },
     {
       question: 'Quelles plages de nombres puis-je définir pour les problèmes de soustraction ?',
       answer:
-        'Vous pouvez définir le diminuende maximum de 2 à 20. Le générateur s\'assure automatiquement que le nombre à soustraire est toujours inférieur au diminuende, garantissant des réponses valides et non négatives. Créez des problèmes faciles comme 3 moins 1 pour les débutants ou des problèmes difficiles comme 18 moins 12 pour les élèves avancés.',
+        'Vous pouvez définir le diminuende maximum de 2 à 20. Le générateur s\'assure automatiquement que le nombre à soustraire est toujours inférieur au diminuende, garantissant des réponses valides et non négatives. Créez des problèmes faciles comme 3 moins 1 pour les débutants ou des problèmes difficiles comme 18 moins 12 pour les utilisateurs avancés.',
     },
     {
       question: 'Combien d\'images et de thèmes sont disponibles ?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Le générateur crée-t-il des corrigés automatiquement ?',
       answer:
-        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version complétée avec toutes les différences correctes. En mode Barrer, le corrigé conserve les images barrées et ajoute la réponse écrite, facilitant la vérification pour les enseignants et parents. Téléchargez-le en fichier JPEG ou PDF séparé.',
+        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version complétée avec toutes les différences correctes. En mode Barrer, le corrigé conserve les images barrées et ajoute la réponse écrite, facilitant la vérification pour les vendeurs et parents. Téléchargez-le en fichier JPEG ou PDF séparé.',
     },
     {
       question: 'Les fiches de soustraction sont-elles sensibles à la langue ?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Qu\'est-ce que l\'option d\'export en niveaux de gris ?',
       answer:
-        'Le menu de téléchargement inclut une case Niveaux de Gris qui convertit l\'ensemble de votre fiche et corrigé en noir et blanc avant l\'export. Cela produit des versions économiques en encre, parfaites pour l\'impression en classe, la production de cahiers d\'activités à bas coût sur Amazon KDP ou toute situation où l\'impression couleur n\'est pas disponible.',
+        'Le menu de téléchargement inclut une case Niveaux de Gris qui convertit l\'ensemble de votre fiche et corrigé en noir et blanc avant l\'export. Cela produit des versions économiques en encre, parfaites pour l\'impression en volume, la production de cahiers d\'activités à bas coût sur Amazon KDP ou toute situation où l\'impression couleur n\'est pas disponible.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: 'Que comprend la licence commerciale ?',
       answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite.',
+        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite.',
     },
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de soustraction en téléchargement numérique sur Etsy, en cahiers d\'activités sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal. De nombreux vendeurs créent des packs thématiques et des cahiers qui génèrent des revenus réguliers.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de soustraction en téléchargement numérique sur Etsy, en cahiers d\'activités sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal. De nombreux vendeurs créent des packs thématiques et des cahiers qui génèrent des revenus réguliers.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/french/subtraction/Soustractions Amusantes 3.webp',
         alt: 'Fiche de soustraction en mode Trouver le Nombre à Soustraire',
-        caption: 'Mode Trouver le Nombre à Soustraire — les élèves déterminent combien ont été retirés',
+        caption: 'Mode Trouver le Nombre à Soustraire — les utilisateurs déterminent combien ont été retirés',
       },
     ],
     youtubeId: 'til2mrWMUxk',

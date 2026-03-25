@@ -7,7 +7,7 @@ const content: AppContent = {
       'créer des mots croisés en images à vendre sur Etsy',
       'générateur de mots croisés visuels pour éditeurs Amazon KDP',
       'fiches mots croisés en images avec licence commerciale',
-      'vendre des mots croisés en images sur Teachers Pay Teachers',
+      'vendre des mots croisés en images sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques mots croisés en images pour entrepreneurs',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Mots Croisés en Images | Créer & Vendre',
     metaDescription:
-      'Créez des mots croisés en images pour Etsy, KDP et TPT. Indices visuels sur grille 15×15, 4 méthodes de saisie, corrigé auto. Essai gratuit avec filigrane.',
+      'Créez des mots croisés en images pour Etsy, KDP et Gumroad. Indices visuels sur grille 15×15, 4 méthodes de saisie, corrigé auto. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Mots Croisés en Images pour Puzzles à Indices Visuels',
     tagline: 'Remplacez les définitions textuelles par des indices visuels sur une grille de mots croisés 15×15 — quatre méthodes de saisie (sélection automatique par thème, modification manuelle des noms d\'images, liste de mots personnalisée et importation d\'images), corrigé auto-généré avec grille remplie, et en-tête localisé « Mots Croisés en Images » sur 104 collections thématiques.',
     description:
-      'Créez des mots croisés professionnels où des images colorées remplacent les définitions textuelles des mots croisés traditionnels. Huit images génèrent huit mots sur une grille fixe 15×15 — l\'algorithme extrait les mots des noms d\'images, les trie par longueur pour un placement optimal et remplit la grille avec des positions d\'indices numérotées. Choisissez parmi quatre méthodes de saisie : la Génération Rapide par Thème sélectionne automatiquement 8 images aléatoires d\'un thème et génère instantanément ; la Modification Manuelle des Noms d\'Images vous permet de cliquer sur les images et de les renommer avant la génération ; la Liste de Mots Personnalisée avec Indices bascule vers des mots croisés traditionnels à indices textuels en utilisant un format MOT : indice ; et Importer des Images Personnalisées vous permet d\'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés du contenu de la bibliothèque. Le Générateur de Mots Croisés en Images est sensible à la langue : les mots du puzzle proviennent des noms d\'images localisés via le système de Vocabulaire d\'Images, donc changer de langue modifie les mots réels des mots croisés. Le système à double canevas génère à la fois un onglet puzzle et un onglet corrigé — le corrigé affiche la grille remplie avec toutes les réponses visibles. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu (#5B9BD5), un titre en police Fredoka et une description en police Quicksand rendus dans les 11 langues prises en charge. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les mots de puzzle localisés. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de mots croisés en images sur Etsy, compiliez des cahiers de mots croisés pour Amazon KDP ou créiez des activités de vocabulaire croisé pour TPT, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des mots croisés professionnels où des images colorées remplacent les définitions textuelles des mots croisés traditionnels. Huit images génèrent huit mots sur une grille fixe 15×15 — l\'algorithme extrait les mots des noms d\'images, les trie par longueur pour un placement optimal et remplit la grille avec des positions d\'indices numérotées. Choisissez parmi quatre méthodes de saisie : la Génération Rapide par Thème sélectionne automatiquement 8 images aléatoires d\'un thème et génère instantanément ; la Modification Manuelle des Noms d\'Images vous permet de cliquer sur les images et de les renommer avant la génération ; la Liste de Mots Personnalisée avec Indices bascule vers des mots croisés traditionnels à indices textuels en utilisant un format MOT : indice ; et Importer des Images Personnalisées vous permet d\'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés du contenu de la bibliothèque. Le Générateur de Mots Croisés en Images est sensible à la langue : les mots du puzzle proviennent des noms d\'images localisés via le système de Vocabulaire d\'Images, donc changer de langue modifie les mots réels des mots croisés. Le système à double canevas génère à la fois un onglet puzzle et un onglet corrigé — le corrigé affiche la grille remplie avec toutes les réponses visibles. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu (#5B9BD5), un titre en police Fredoka et une description en police Quicksand rendus dans les 11 langues prises en charge. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les mots de puzzle localisés. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de mots croisés en images sur Etsy, compiliez des cahiers de mots croisés pour Amazon KDP ou créiez des activités de vocabulaire croisé pour Gumroad, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générer le corrigé et télécharger',
         description:
-          'Passez à l\'onglet Corrigé pour voir la grille remplie avec toutes les réponses des mots croisés visibles. Téléchargez les deux versions avec les quatre boutons dédiés du menu déroulant : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s\'exportent à 300 DPI pour une qualité prête à imprimer. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits TPT.',
+          'Passez à l\'onglet Corrigé pour voir la grille remplie avec toutes les réponses des mots croisés visibles. Téléchargez les deux versions avec les quatre boutons dédiés du menu déroulant : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s\'exportent à 300 DPI pour une qualité prête à imprimer. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.',
       },
     ],
   },
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Corrigé auto-généré avec grille de mots croisés remplie',
         description:
-          'Chaque puzzle de mots croisés en images génère automatiquement un corrigé sur un onglet canevas séparé. Le corrigé reproduit la disposition exacte du puzzle et remplit la grille avec toutes les réponses correctes visibles dans les cases. Aucune création manuelle de corrigé, aucun fichier séparé — le corrigé reste parfaitement synchronisé avec le puzzle. Cette approche à double canevas fait gagner un temps de production considérable aux vendeurs qui créent des packs de mots croisés où chaque puzzle nécessite son propre corrigé. Téléchargez le corrigé en crossword_answer_key.jpeg ou image-crossword-answer-key.pdf aux côtés du puzzle élève.',
+          'Chaque puzzle de mots croisés en images génère automatiquement un corrigé sur un onglet canevas séparé. Le corrigé reproduit la disposition exacte du puzzle et remplit la grille avec toutes les réponses correctes visibles dans les cases. Aucune création manuelle de corrigé, aucun fichier séparé — le corrigé reste parfaitement synchronisé avec le puzzle. Cette approche à double canevas fait gagner un temps de production considérable aux vendeurs qui créent des packs de mots croisés où chaque puzzle nécessite son propre corrigé. Téléchargez le corrigé en crossword_answer_key.jpeg ou image-crossword-answer-key.pdf aux côtés du puzzle utilisateur.',
       },
       {
         title: 'Mots de puzzle localisés dans 11 langues via le Vocabulaire d\'Images',
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI avec mode niveaux de gris',
         description:
-          'Téléchargez vos puzzles de mots croisés et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI (multiplicateur 6×). Quatre boutons de téléchargement dédiés dans le menu déroulant exportent séparément crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf et image-crossword-answer-key.pdf. Les formats incluent Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — téléchargements numériques, cahiers imprimés et documents pour la classe.',
+          'Téléchargez vos puzzles de mots croisés et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI (multiplicateur 6×). Quatre boutons de téléchargement dédiés dans le menu déroulant exportent séparément crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf et image-crossword-answer-key.pdf. Les formats incluent Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — téléchargements numériques, cahiers imprimés et documents pour la vente.',
       },
     ],
   },
@@ -121,20 +121,20 @@ const content: AppContent = {
       {
         title: 'Ensembles de mots croisés multilingues grâce à la génération sensible à la langue',
         description:
-          'Exploitez la génération de mots sensible à la langue pour créer des puzzles de mots croisés en images dans 11 langues. Les mêmes images produisent des grilles de mots croisés entièrement différentes quand vous changez de langue — une image de chat crée « CHAT » en français, « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien. Créez des packs de mots croisés multilingues où chaque version linguistique utilise les mêmes images thématiques mais produit des puzzles uniques avec des mots localisés. C\'est idéal pour les enseignants FLE, les classes bilingues et les familles d\'instruction en famille internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.',
-        platform: 'Etsy / TPT (marché multilingue)',
+          'Exploitez la génération de mots sensible à la langue pour créer des puzzles de mots croisés en images dans 11 langues. Les mêmes images produisent des grilles de mots croisés entièrement différentes quand vous changez de langue — une image de chat crée « CHAT » en français, « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien. Créez des packs de mots croisés multilingues où chaque version linguistique utilise les mêmes images thématiques mais produit des puzzles uniques avec des mots localisés. C\'est idéal pour les vendeurs FLE, les classes bilingues et les familles d\'instruction en famille internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.',
+        platform: 'Etsy / Gumroad (marché multilingue)',
       },
       {
-        title: 'Mots croisés de vocabulaire personnalisé pour TPT',
+        title: 'Mots croisés de vocabulaire personnalisé pour Gumroad',
         description:
-          'Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur les programmes avec du vocabulaire défini par l\'enseignant. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d\'histoire-géographie, mots de compréhension de lecture ou listes d\'orthographe. Les enseignants recherchant des activités de mots croisés sur TPT apprécient les puzzles correspondant exactement à leur programme. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG. Le mode indices textuels vous permet de créer des mots croisés pour n\'importe quelle matière sans utiliser la bibliothèque d\'images.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur les programmes avec du vocabulaire défini par l\'vendeur. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d\'histoire-géographie, mots de compréhension de lecture ou listes d\'orthographe. Les vendeurs recherchant des activités de mots croisés sur Gumroad apprécient les puzzles correspondant exactement à leur programme. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG. Le mode indices textuels vous permet de créer des mots croisés pour n\'importe quelle matière sans utiliser la bibliothèque d\'images.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections saisonnières de mots croisés en images',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d\'été et bien d\'autres. Créez des collections de mots croisés en images limitées dans le temps qui correspondent aux pics d\'achats saisonniers. Lancez les packs Halloween en septembre, les collections Noël en octobre et les packs Saint-Valentin en janvier. La nature visuelle des mots croisés en images rend les thèmes saisonniers particulièrement attractifs — les images festives comme indices créent un attrait saisonnier immédiat. Les produits saisonniers permettent des prix plus élevés pendant leurs fenêtres de pic et génèrent des achats récurrents.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
     ],
   },
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des mots croisés en images créés avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos puzzles de mots croisés en images en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les quatre méthodes de saisie, les corrigés auto-générés, la génération de mots sensible à la langue et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de mots croisés originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos puzzles de mots croisés en images en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les quatre méthodes de saisie, les corrigés auto-générés, la génération de mots sensible à la langue et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de mots croisés originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

@@ -3,15 +3,15 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'créer des fiches train alphabet pour enfants',
     secondaryKeywords: [
-      'créateur de train alphabet pour la classe',
+      'créateur de train alphabet pour la vente',
       'fiches reconnaissance des lettres pour enfants',
-      'train alphabet imprimable pour maternelle',
-      'créateur d\'association lettres-images pour enseignants',
+      'train alphabet imprimable pour le marché préscolaire',
+      'créateur d\'association lettres-images pour vendeurs',
     ],
     lsiKeywords: [
       'fiche train association lettre-image pour enfants',
-      'activité alphabet multilingue pour la classe',
-      'train alphabet coloré imprimable pour maternelle',
+      'activité alphabet multilingue pour la vente',
+      'train alphabet coloré imprimable pour le marché préscolaire',
     ],
     titleTag: 'Fiches Train Alphabet — Lettres pour Enfants',
     metaDescription: 'Créez des fiches train alphabet pour reconnaître les lettres. 11 wagons colorés, association lettre-image, 11 langues, 104 thèmes. Essai avec filigrane.',
@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Générateur de Fiches Train Alphabet',
     tagline: 'Créez des fiches colorées avec association lettre-image dans 11 langues — des wagons de train uniques pour chaque lettre',
-    description: 'Créez des fiches alphabet qui ne ressemblent en rien aux exercices de traçage classiques. Cet outil dispose 11 wagons de train colorés sur la page, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train — les élèves identifient par quelle lettre chaque image commence et l\'associent au bon wagon. Choisissez entre le mode Création Automatique (l\'outil sélectionne aléatoirement 11 lettres et assigne les images correspondantes) ou la Sélection Manuelle (choisissez chaque lettre dans l\'alphabet complet et assignez chaque image vous-même). Ajustez la difficulté avec le curseur d\'indices : 3 indices pour les débutants, 5–7 pour le niveau intermédiaire, et 9–11 pour les élèves avancés qui doivent associer presque chaque wagon. La vraie puissance réside dans la sensibilité linguistique — sélectionnez parmi 11 alphabets natifs dont l\'allemand (Ä/Ö/Ü), le suédois (Å/Ä/Ö), l\'espagnol (Ñ) et bien d\'autres. La même image s\'associe à des lettres différentes selon la langue : « chien » correspond à C en français mais à H en allemand (Hund). Un seul modèle de fiche devient 11 produits uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, ou téléchargez les vôtres pour des créations personnalisées. Choisissez parmi 7 familles de polices et exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches alphabet qui ne ressemblent en rien aux exercices de traçage classiques. Cet outil dispose 11 wagons de train colorés sur la page, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train — les utilisateurs identifient par quelle lettre chaque image commence et l\'associent au bon wagon. Choisissez entre le mode Création Automatique (l\'outil sélectionne aléatoirement 11 lettres et assigne les images correspondantes) ou la Sélection Manuelle (choisissez chaque lettre dans l\'alphabet complet et assignez chaque image vous-même). Ajustez la difficulté avec le curseur d\'indices : 3 indices pour les débutants, 5–7 pour le niveau intermédiaire, et 9–11 pour les utilisateurs avancés qui doivent associer presque chaque wagon. La vraie puissance réside dans la sensibilité linguistique — sélectionnez parmi 11 alphabets natifs dont l\'allemand (Ä/Ö/Ü), le suédois (Å/Ä/Ö), l\'espagnol (Ñ) et bien d\'autres. La même image s\'associe à des lettres différentes selon la langue : « chien » correspond à C en français mais à H en allemand (Hund). Un seul modèle de fiche devient 11 produits uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, ou téléchargez les vôtres pour des créations personnalisées. Choisissez parmi 7 familles de polices et exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Configurer le Nombre d\'Indices et les Champs Nom/Date',
-        description: 'Utilisez le curseur de nombre d\'indices pour définir combien d\'images-indices apparaissent autour du train. Définissez 3 indices pour le niveau le plus facile (la plupart des wagons sans association), 5–7 pour une difficulté moyenne, ou 9–11 pour les élèves avancés qui doivent associer presque chaque wagon. Activez ou désactivez les champs Nom et Date selon que la fiche est destinée à la classe ou au téléchargement numérique.',
+        description: 'Utilisez le curseur de nombre d\'indices pour définir combien d\'images-indices apparaissent autour du train. Définissez 3 indices pour le niveau le plus facile (la plupart des wagons sans association), 5–7 pour une difficulté moyenne, ou 9–11 pour les utilisateurs avancés qui doivent associer presque chaque wagon. Activez ou désactivez les champs Nom et Date selon que la fiche est destinée à la vente en ligne ou au téléchargement numérique.',
       },
       {
         title: 'Personnaliser le Texte et les Polices',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs Thématiques de Train Alphabet',
-      description: 'Créez des ensembles de 10 à 15 fiches train alphabet avec des collections d\'images thématiques — animaux, nourriture, véhicules, nature. Chaque fiche utilise des lettres et des images différentes avec un nombre d\'indices constant. Regroupez par thème et vendez sur Etsy.fr ou Teachers Pay Teachers. Le format coloré avec wagons de train fait ressortir votre vignette de listing face aux fiches de traçage de lettres classiques. Incluez les corrigés avec chaque ensemble pour offrir aux acheteurs une ressource complète, prête à l\'emploi en classe, ne nécessitant aucune préparation supplémentaire de la part de l\'enseignant.',
+      description: 'Créez des ensembles de 10 à 15 fiches train alphabet avec des collections d\'images thématiques — animaux, nourriture, véhicules, nature. Chaque fiche utilise des lettres et des images différentes avec un nombre d\'indices constant. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format coloré avec wagons de train fait ressortir votre vignette de listing face aux fiches de traçage de lettres classiques. Incluez les corrigés avec chaque ensemble pour offrir aux acheteurs une ressource complète, prête à l\'emploi en ligne, ne nécessitant aucune préparation supplémentaire de la part de l\'vendeur.',
     },
     {
       title: 'Cahiers d\'Activités Alphabet pour KDP',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Ensembles Différenciés par Nombre d\'Indices',
-      description: 'Générez trois versions de la même fiche train alphabet thématique à différents niveaux de difficulté : facile (3 indices), moyen (7 indices) et difficile (11 indices). Les enseignants peuvent distribuer la bonne version à chaque élève selon son niveau de lecture. Vendez comme pack différencié à un prix premium sur TPT ou Etsy.fr.',
+      description: 'Générez trois versions de la même fiche train alphabet thématique à différents niveaux de difficulté : facile (3 indices), moyen (7 indices) et difficile (11 indices). Les vendeurs peuvent distribuer la bonne version à chaque utilisateur selon son niveau de lecture. Vendez comme pack différencié à un prix premium sur Gumroad ou Etsy.fr.',
     },
     {
       title: 'Produits Alphabet Multilingues',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Fiches Personnalisées avec Images de Marque',
-      description: 'Téléchargez vos propres illustrations, mascottes ou œuvres sous licence pour créer des trains alphabet qu\'aucun autre vendeur ne peut reproduire. Les créateurs de contenu éducatif peuvent utiliser des photos de famille, les enseignants peuvent utiliser la mascotte de l\'école, et les vendeurs Etsy peuvent construire une identité visuelle distinctive à travers toute leur boutique.',
+      description: 'Téléchargez vos propres illustrations, mascottes ou œuvres sous licence pour créer des trains alphabet qu\'aucun autre vendeur ne peut reproduire. Les créateurs de contenu éducatif peuvent utiliser des photos de famille, les vendeurs peuvent utiliser la mascotte de l\'école, et les vendeurs Etsy peuvent construire une identité visuelle distinctive à travers toute leur boutique.',
     },
     {
       title: 'Packs Saisonniers de Train Alphabet',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Train Alphabet de Noël » avec des illustrations festives se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween, la Saint-Valentin et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et TPT.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Train Alphabet de Noël » avec des illustrations festives se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween, la Saint-Valentin et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs d\'Alphabétisation pour Teachers Pay Teachers',
-      description: 'Téléchargez des packs de trains alphabet différenciés sur TPT. Incluez des fiches à trois niveaux d\'indices, un guide enseignant expliquant le format train et des corrigés pour chaque page. Les enseignants recherchent constamment « activités alphabet » et « fiches reconnaissance des lettres ». Le format train visuel ajoute une valeur perçue car il ressemble à un jeu plutôt qu\'à un exercice. Proposez des packs en Création Automatique pour la variété et des packs en Sélection Manuelle pour des groupes de lettres alignés sur le programme.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs d\'Alphabétisation pour Gumroad',
+      description: 'Téléchargez des packs de trains alphabet différenciés sur Gumroad. Incluez des fiches à trois niveaux d\'indices, un guide vendeur expliquant le format train et des corrigés pour chaque page. Les vendeurs recherchent constamment « activités alphabet » et « fiches reconnaissance des lettres ». Le format train visuel ajoute une valeur perçue car il ressemble à un jeu plutôt qu\'à un exercice. Proposez des packs en Création Automatique pour la variété et des packs en Sélection Manuelle pour des groupes de lettres alignés sur le programme.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits Alphabet Multilingues sur Gumroad',
-      description: 'Créez des kits alphabet premium sur Gumroad incluant les mêmes designs de fiches dans 5 à 11 langues. Ciblez les familles bilingues, les écoles internationales et les enseignants de FLE qui ont besoin de supports de reconnaissance des lettres dans plusieurs langues. L\'approche « langue comme multiplicateur » signifie que chaque kit a 5 à 11 fois plus de contenu qu\'un concurrent monolingue, justifiant un prix plus élevé.',
+      description: 'Créez des kits alphabet premium sur Gumroad incluant les mêmes designs de fiches dans 5 à 11 langues. Ciblez les familles bilingues, les écoles internationales et les vendeurs de FLE qui ont besoin de supports de reconnaissance des lettres dans plusieurs langues. L\'approche « langue comme multiplicateur » signifie que chaque kit a 5 à 11 fois plus de contenu qu\'un concurrent monolingue, justifiant un prix plus élevé.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Commencez avec 3 Indices pour les Débutants',
-      description: 'Une fiche à 3 indices offre aux jeunes apprenants une introduction en douceur — ils n\'ont qu\'à associer 3 images aux wagons tandis que les 8 wagons restants affichent les lettres sans tâche d\'association. Cela évite la surcharge pour les enfants de maternelle. Augmentez à 7 ou 11 indices à mesure que les élèves gagnent en confiance. Les vendeurs sur Etsy.fr et TPT peuvent regrouper les versions facile, moyen et difficile dans un ensemble différencié, offrant aux enseignants exactement ce qu\'ils recherchent et justifiant un prix plus élevé pour la collection complète.',
+      description: 'Une fiche à 3 indices offre aux jeunes apprenants une introduction en douceur — ils n\'ont qu\'à associer 3 images aux wagons tandis que les 8 wagons restants affichent les lettres sans tâche d\'association. Cela évite la surcharge pour les enfants de maternelle. Augmentez à 7 ou 11 indices à mesure que les utilisateurs gagnent en confiance. Les vendeurs sur Etsy.fr et Gumroad peuvent regrouper les versions facile, moyen et difficile dans un ensemble différencié, offrant aux vendeurs exactement ce qu\'ils recherchent et justifiant un prix plus élevé pour la collection complète.',
     },
     {
       title: 'Utilisez Création Automatique pour la Vitesse, Mode Manuel pour le Contrôle',
-      description: 'Le mode Création Automatique sélectionne aléatoirement les lettres et assigne les images, vous permettant de générer des dizaines de fiches uniques en quelques minutes. Passez en Sélection Manuelle quand vous avez besoin de groupes de lettres spécifiques — par exemple, uniquement les voyelles, uniquement les consonnes, ou les lettres que vos élèves étudient actuellement. Du point de vue du vendeur, la Création Automatique est idéale pour constituer rapidement des packs variés en grand volume, tandis que la Sélection Manuelle permet de créer des produits alignés sur le programme ciblant des unités de phonétique que les enseignants recherchent activement sur TPT et Etsy.fr.',
+      description: 'Le mode Création Automatique sélectionne aléatoirement les lettres et assigne les images, vous permettant de générer des dizaines de fiches uniques en quelques minutes. Passez en Sélection Manuelle quand vous avez besoin de groupes de lettres spécifiques — par exemple, uniquement les voyelles, uniquement les consonnes, ou les lettres que vos utilisateurs étudient actuellement. Du point de vue du vendeur, la Création Automatique est idéale pour constituer rapidement des packs variés en grand volume, tandis que la Sélection Manuelle permet de créer des produits alignés sur le programme ciblant des unités de phonétique que les vendeurs recherchent activement sur Gumroad et Etsy.fr.',
     },
     {
       title: 'Passez au Multilingue pour 11x Votre Gamme de Produits',
@@ -136,7 +136,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Utilisez les Niveaux de Gris pour KDP et l\'Impression en Volume',
-      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en classe. Les trains en noir et blanc coûtent nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les wagons colorés attirent les clics. Beaucoup de vendeurs KDP créent deux éditions du même livre — une version numérique en couleur et une version imprimée en niveaux de gris — doublant leur catalogue à partir d\'une seule session de création sans travail artistique supplémentaire.',
+      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en ligne. Les trains en noir et blanc coûtent nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les wagons colorés attirent les clics. Beaucoup de vendeurs KDP créent deux éditions du même livre — une version numérique en couleur et une version imprimée en niveaux de gris — doublant leur catalogue à partir d\'une seule session de création sans travail artistique supplémentaire.',
     },
     {
       title: 'Téléchargez des Images Personnalisées pour le Branding',
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Comment fonctionne le format train alphabet ?',
-      answer: 'L\'outil crée 11 wagons de train colorés, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train. Les élèves identifient par quelle lettre chaque image-indice commence et l\'associent au bon wagon. Le nombre d\'images-indices est configurable de 3 à 11. Un corrigé est généré pour chaque fiche, montrant les associations lettre-image correctes afin que les enseignants et les parents puissent vérifier le travail rapidement sans avoir à résoudre le puzzle eux-mêmes.',
+      answer: 'L\'outil crée 11 wagons de train colorés, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train. Les utilisateurs identifient par quelle lettre chaque image-indice commence et l\'associent au bon wagon. Le nombre d\'images-indices est configurable de 3 à 11. Un corrigé est généré pour chaque fiche, montrant les associations lettre-image correctes afin que les vendeurs et les parents puissent vérifier le travail rapidement sans avoir à résoudre le puzzle eux-mêmes.',
     },
     {
       question: 'Quelle est la différence entre Création Automatique et Sélection Manuelle ?',
@@ -183,7 +183,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
     },
     {
       question: 'Quels formats de fichier puis-je télécharger ?',
@@ -229,7 +229,7 @@ const content: ToolContent = {  seo: {
       {
         src: '/samples/french/alphabet train/Train de l\'Alphabet 3.webp',
         alt: 'Fiche train alphabet avancée avec 11 indices pour un exercice de reconnaissance des lettres de difficulté maximale',
-        caption: 'Difficulté maximale avec 11 indices pour les élèves avancés',
+        caption: 'Difficulté maximale avec 11 indices pour les utilisateurs avancés',
       },
     ],
     youtubeId: '_dDQegRq9JQ',

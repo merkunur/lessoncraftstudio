@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des puzzles maths pour la classe',
+    primaryKeyword: 'créer des puzzles maths pour la vente',
     secondaryKeywords: [
-      'puzzles mathématiques jigsaw pour enseignants',
+      'puzzles mathématiques jigsaw pour vendeurs',
       'créateur de puzzles maths pour enfants',
-      'puzzles maths avec images pour la classe',
-      'fiches puzzles maths imprimables pour élèves',
+      'puzzles maths avec images pour la vente',
+      'fiches puzzles maths imprimables pour utilisateurs',
     ],
     lsiKeywords: [
-      'puzzle maths avec grille d\'images pour la classe',
+      'puzzle maths avec grille d\'images pour la vente',
       'activité puzzle maths jigsaw pour enfants',
       'créateur de puzzles maths configurable',
     ],
-    titleTag: 'Créer des Puzzles Maths — Pour la Classe',
-    metaDescription: 'Créez des puzzles maths jigsaw pour la classe. Grilles d\'images avec addition et soustraction, corrigés inclus. Essai gratuit avec filigrane.',
+    titleTag: 'Créer des Puzzles Maths — pour la vente',
+    metaDescription: 'Créez des puzzles maths jigsaw pour la vente. Grilles d\'images avec addition et soustraction, corrigés inclus. Essai gratuit avec filigrane.',
     },
 
   hero: {
     title: 'Générateur de Puzzles Mathématiques',
     tagline: 'Créez des puzzles images jigsaw avec des équations mathématiques en moins de 60 secondes',
-    description: 'Transformez la pratique des maths en un puzzle visuel captivant qui ne ressemble en rien à une fiche d\'exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les élèves résolvent chaque équation et associent la bonne pièce pour reconstituer l\'image. Choisissez parmi trois modes d\'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu\'à 4×4 (16 pièces, le plus difficile) pour s\'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s\'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Transformez la pratique des maths en un puzzle visuel captivant qui ne ressemble en rien à une fiche d\'exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l\'image. Choisissez parmi trois modes d\'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu\'à 4×4 (16 pièces, le plus difficile) pour s\'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s\'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles Maths Thématiques',
-      description: 'Créez des ensembles de 15–20 puzzles avec des images thématiques de la bibliothèque — dinosaures, espace, animaux, véhicules. Chaque puzzle utilise une image différente avec des équations d\'Addition ou de Soustraction à une taille de grille constante. Regroupez par thème et vendez sur Etsy.fr ou Teachers Pay Teachers. Le format jigsaw rend votre vignette de listing immédiatement reconnaissable parmi les fiches de maths standards. Pensez à accompagner chaque pack thématique d\'un cahier de corrigés assorti et d\'une page de couverture mettant en avant les visuels du thème. Les vendeurs qui incluent des pages de couverture professionnelles et un formatage cohérent sur chaque page obtiennent de meilleurs avis clients et des achats répétés du même acheteur.',
+      description: 'Créez des ensembles de 15–20 puzzles avec des images thématiques de la bibliothèque — dinosaures, espace, animaux, véhicules. Chaque puzzle utilise une image différente avec des équations d\'Addition ou de Soustraction à une taille de grille constante. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format jigsaw rend votre vignette de listing immédiatement reconnaissable parmi les fiches de maths standards. Pensez à accompagner chaque pack thématique d\'un cahier de corrigés assorti et d\'une page de couverture mettant en avant les visuels du thème. Les vendeurs qui incluent des pages de couverture professionnelles et un formatage cohérent sur chaque page obtiennent de meilleurs avis clients et des achats répétés du même acheteur.',
     },
     {
       title: 'Cahiers de Puzzles pour KDP',
@@ -72,19 +72,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Puzzles Personnalisés avec Vos Images',
-      description: 'Téléchargez vos propres images — logos, illustrations faites à la main ou œuvres sous licence — pour créer des fiches de puzzle que personne ne peut reproduire. Idéal pour les enseignants qui veulent des mascottes de classe, les familles en instruction à domicile qui personnalisent leur programme ou les vendeurs qui construisent une marque visuelle distinctive.',
+      description: 'Téléchargez vos propres images — logos, illustrations faites à la main ou œuvres sous licence — pour créer des fiches de puzzle que personne ne peut reproduire. Idéal pour les vendeurs qui veulent des mascottes de classe, les familles en instruction à domicile qui personnalisent leur programme ou les vendeurs qui construisent une marque visuelle distinctive.',
     },
     {
       title: 'Ensembles à Difficulté Différenciée',
-      description: 'Générez trois versions du même puzzle thématique à différents niveaux : facile (grille 2×2, Addition uniquement), moyen (grille 3×3, Addition ou Soustraction) et difficile (grille 4×4, opérations Mixtes). Les enseignants peuvent distribuer le bon niveau à chaque élève. Vendez comme pack différencié à un prix premium.',
+      description: 'Générez trois versions du même puzzle thématique à différents niveaux : facile (grille 2×2, Addition uniquement), moyen (grille 3×3, Addition ou Soustraction) et difficile (grille 4×4, opérations Mixtes). Les vendeurs peuvent distribuer le bon niveau à chaque utilisateur. Vendez comme pack différencié à un prix premium.',
     },
     {
       title: 'Packs de Puzzles Saisonniers et de Fêtes',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Puzzles Maths de Noël » avec des images festives se vend particulièrement bien en novembre–décembre. Halloween, Saint-Valentin et rentrée scolaire ont chacun leurs propres pics de ventes sur Etsy et TPT.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Puzzles Maths de Noël » avec des images festives se vend particulièrement bien en novembre–décembre. Halloween, Saint-Valentin et rentrée scolaire ont chacun leurs propres pics de ventes sur Etsy et Gumroad.',
     },
     {
-      title: 'Puzzles d\'Échauffement pour la Classe',
-      description: 'Générez des puzzles rapides en 2×2 ou 2×3 pour les échauffements quotidiens en maths. Les élèves résolvent 4–6 équations et assemblent une image amusante en moins de cinq minutes. Créez un ensemble de 30 puzzles (un par jour d\'école) et vendez comme pack « Un Mois de Puzzles Maths d\'Échauffement ». Le format ludique maintient les élèves engagés dès la première sonnerie.',
+      title: 'Puzzles d\'Échauffement pour la vente',
+      description: 'Générez des puzzles rapides en 2×2 ou 2×3 pour les échauffements quotidiens en maths. Les utilisateurs résolvent 4–6 équations et assemblent une image amusante en moins de cinq minutes. Créez un ensemble de 30 puzzles (un par jour d\'école) et vendez comme pack « Un Mois de Puzzles Maths d\'Échauffement ». Le format ludique maintient les utilisateurs engagés dès la première sonnerie.',
     },
   ],
 
@@ -100,9 +100,9 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs Premium sur Teachers Pay Teachers',
-      description: 'Téléchargez des packs de puzzles maths différenciés sur TPT. Les enseignants recherchent constamment « puzzles maths » et « jeux de maths ». Incluez les trois modes d\'opération, trois niveaux de difficulté, les corrigés et un guide enseignant dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d\'instructions « Comment Utiliser » expliquant les niveaux de difficulté par grille, les tranches d\'âge suggérées et des conseils pour l\'utilisation en classe. Les acheteurs TPT laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l\'enseignant, ce qui améliore la visibilité de votre listing dans les résultats de recherche TPT.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs Premium sur Gumroad',
+      description: 'Téléchargez des packs de puzzles maths différenciés sur Gumroad. Les vendeurs recherchent constamment « puzzles maths » et « jeux de maths ». Incluez les trois modes d\'opération, trois niveaux de difficulté, les corrigés et un guide vendeur dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d\'instructions « Comment Utiliser » expliquant les niveaux de difficulté par grille, les tranches d\'âge suggérées et des conseils pour l\'utilisation en ligne. Les acheteurs Gumroad laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l\'vendeur, ce qui améliore la visibilité de votre listing dans les résultats de recherche Gumroad.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits de Puzzles sur Gumroad',
@@ -128,7 +128,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Utilisez le Mode Mixte pour un Maximum de Variété',
-      description: 'Le mode « Addition et Soustraction » mélange aléatoirement les deux opérations dans un seul puzzle. Cela crée des fiches de révision qui testent les deux compétences simultanément et empêche les élèves de tomber dans un schéma répétitif. Les puzzles en mode mixte ont aussi une valeur perçue plus élevée dans les listings de marketplace. Les acheteurs Etsy et TPT qui cherchent « révision maths » ou « évaluation fin de chapitre » recherchent spécifiquement des ressources à opérations mixtes, donc tagger vos listings avec ces termes capture un segment d\'acheteurs distinct que les vendeurs d\'opérations uniques manquent complètement.',
+      description: 'Le mode « Addition et Soustraction » mélange aléatoirement les deux opérations dans un seul puzzle. Cela crée des fiches de révision qui testent les deux compétences simultanément et empêche les utilisateurs de tomber dans un schéma répétitif. Les puzzles en mode mixte ont aussi une valeur perçue plus élevée dans les listings de marketplace. Les acheteurs Etsy et Gumroad qui cherchent « révision maths » ou « évaluation fin de chapitre » recherchent spécifiquement des ressources à opérations mixtes, donc tagger vos listings avec ces termes capture un segment d\'acheteurs distinct que les vendeurs d\'opérations uniques manquent complètement.',
     },
     {
       title: 'Téléchargez des Images Personnalisées pour la Reconnaissance de Marque',
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mettez en Avant le Format Puzzle dans les Vignettes',
-      description: 'La grille jigsaw est visuellement unique et instantanément reconnaissable. Utilisez vos téléchargements JPEG comme vignettes de produit sur Etsy et TPT. Une image colorée divisée en pièces de puzzle numérotées attire l\'œil bien plus efficacement qu\'un aperçu de fiche classique.',
+      description: 'La grille jigsaw est visuellement unique et instantanément reconnaissable. Utilisez vos téléchargements JPEG comme vignettes de produit sur Etsy et Gumroad. Une image colorée divisée en pièces de puzzle numérotées attire l\'œil bien plus efficacement qu\'un aperçu de fiche classique.',
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: 'Générez le corrigé avant de télécharger. Le corrigé montre chaque pièce du puzzle placée dans sa position correcte sur la grille avec les équations résolues. Les acheteurs sur Etsy et TPT attribuent systématiquement de meilleures notes aux produits qui incluent un corrigé — cela fait gagner du temps de correction aux enseignants.',
+      description: 'Générez le corrigé avant de télécharger. Le corrigé montre chaque pièce du puzzle placée dans sa position correcte sur la grille avec les équations résolues. Les acheteurs sur Etsy et Gumroad attribuent systématiquement de meilleures notes aux produits qui incluent un corrigé — cela fait gagner du valeur perçue aux vendeurs.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Comment fonctionne le format puzzle mathématique ?',
-      answer: 'L\'outil divise une image choisie en une grille de cellules. Chaque cellule contient une équation mathématique (addition, soustraction ou les deux). En dessous de la grille, des pièces de puzzle mélangées affichent des numéros de réponse. Les élèves résolvent chaque équation, trouvent la pièce correspondante et la placent dans la bonne cellule pour reconstituer l\'image complète.',
+      answer: 'L\'outil divise une image choisie en une grille de cellules. Chaque cellule contient une équation mathématique (addition, soustraction ou les deux). En dessous de la grille, des pièces de puzzle mélangées affichent des numéros de réponse. Les utilisateurs résolvent chaque équation, trouvent la pièce correspondante et la placent dans la bonne cellule pour reconstituer l\'image complète.',
     },
     {
       question: 'Quelles tailles de grille sont disponibles ?',
@@ -167,7 +167,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Quels sont les trois modes d\'opération ?',
-      answer: 'Le mode Addition remplit chaque cellule avec une équation d\'addition. Le mode Soustraction utilise des équations de soustraction. Le mode Addition et Soustraction mélange aléatoirement les deux opérations sur la grille, créant des puzzles de révision qui testent les deux compétences en une seule activité. Pour les vendeurs, proposer les trois modes dans un même pack augmente la valeur perçue car les enseignants obtiennent des fiches de pratique ciblée et des fiches de révision complètes en un seul achat. Lister chaque mode comme produit séparé fonctionne aussi bien, vous donnant trois listings distincts à partir du même modèle.',
+      answer: 'Le mode Addition remplit chaque cellule avec une équation d\'addition. Le mode Soustraction utilise des équations de soustraction. Le mode Addition et Soustraction mélange aléatoirement les deux opérations sur la grille, créant des puzzles de révision qui testent les deux compétences en une seule activité. Pour les vendeurs, proposer les trois modes dans un même pack augmente la valeur perçue car les vendeurs obtiennent des fiches de pratique ciblée et des fiches de révision complètes en un seul achat. Lister chaque mode comme produit séparé fonctionne aussi bien, vous donnant trois listings distincts à partir du même modèle.',
     },
     {
       question: 'Puis-je télécharger mes propres images ?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je utiliser les puzzles à des fins commerciales ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des puzzles sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les puzzles que vous créez. Il n\'y a aucune limite sur le nombre de puzzles que vous pouvez générer ou vendre une fois la licence obtenue. Vous êtes propriétaire des fichiers générés et pouvez les lister sur plusieurs plateformes simultanément — le même pack de puzzles peut apparaître sur Etsy, TPT, Gumroad et KDP sans frais supplémentaires.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des puzzles sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les puzzles que vous créez. Il n\'y a aucune limite sur le nombre de puzzles que vous pouvez générer ou vendre une fois la licence obtenue. Vous êtes propriétaire des fichiers générés et pouvez les lister sur plusieurs plateformes simultanément — le même pack de puzzles peut apparaître sur Etsy, Gumroad, Gumroad et KDP sans frais supplémentaires.',
     },
     {
       question: 'Les puzzles fonctionnent-ils dans d\'autres langues que le français ?',
@@ -224,7 +224,7 @@ const content: ToolContent = {  seo: {
       },
       {
         src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 3.webp',
-        alt: 'Puzzle maths mixte addition et soustraction avec une grille plus grande pour les élèves avancés',
+        alt: 'Puzzle maths mixte addition et soustraction avec une grille plus grande pour les utilisateurs avancés',
         caption: 'Mode Mixte — addition et soustraction dans un seul puzzle',
       },
     ],

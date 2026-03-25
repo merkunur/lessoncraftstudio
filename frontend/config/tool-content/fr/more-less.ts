@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches Plus ou Moins',
     tagline: 'Créez des fiches de comparaison visuelles avec trois modes d\'exercice en moins de 60 secondes',
-    description: 'Enseignez plus grand que, plus petit que et égal à avec des fiches de comparaison illustrées qui rendent les concepts abstraits concrets. Cet outil génère trois types d\'exercices distincts : Image contre Image (comparer deux groupes d\'images côte à côte), Image contre Nombre (faire le pont entre le comptage visuel et les chiffres écrits) et le mode unique Cocher et Barrer les Groupes où les élèves trient une boîte d\'images mélangées de deux catégories en groupes majoritaire et minoritaire. Choisissez parmi plus de 100 thèmes d\'images, définissez votre plage de nombres, optez pour des symboles illustrés ou standards, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Comme les fiches n\'utilisent que des images, des nombres et des symboles, elles fonctionnent identiquement dans les 11 langues prises en charge — créez une seule fois et vendez aux acheteurs du monde entier. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Enseignez plus grand que, plus petit que et égal à avec des fiches de comparaison illustrées qui rendent les concepts abstraits concrets. Cet outil génère trois types d\'exercices distincts : Image contre Image (comparer deux groupes d\'images côte à côte), Image contre Nombre (faire le pont entre le comptage visuel et les chiffres écrits) et le mode unique Cocher et Barrer les Groupes où les utilisateurs trient une boîte d\'images mélangées de deux catégories en groupes majoritaire et minoritaire. Choisissez parmi plus de 100 thèmes d\'images, définissez votre plage de nombres, optez pour des symboles illustrés ou standards, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Comme les fiches n\'utilisent que des images, des nombres et des symboles, elles fonctionnent identiquement dans les 11 langues prises en charge — créez une seule fois et vendez aux acheteurs du monde entier. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Choisir le Mode d\'Exercice',
-        description: 'Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi trois modes : Image contre Image (deux groupes d\'images côte à côte — les élèves comptent et comparent les quantités), Image contre Nombre (un groupe d\'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) ou Cocher et Barrer les Groupes (une boîte contenant 8–20 images mélangées de deux catégories — les élèves cochent le groupe majoritaire et barrent le groupe minoritaire). Le mode Cocher et Barrer est unique à cet outil et permet de créer des produits qu\'aucun concurrent ne peut égaler.',
+        description: 'Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi trois modes : Image contre Image (deux groupes d\'images côte à côte — les utilisateurs comptent et comparent les quantités), Image contre Nombre (un groupe d\'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) ou Cocher et Barrer les Groupes (une boîte contenant 8–20 images mélangées de deux catégories — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire). Le mode Cocher et Barrer est unique à cet outil et permet de créer des produits qu\'aucun concurrent ne peut égaler.',
       },
       {
         title: 'Définir la Plage de Nombres',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Configurer l\'Affichage des Symboles',
-        description: 'Choisissez entre Symboles Illustrés et Symboles Normaux pour les signes de comparaison. Les Symboles Illustrés montrent des versions colorées et adaptées aux enfants des signes plus grand que, plus petit que et égal — idéaux pour les produits maternelle et grande section. Les Symboles Normaux affichent les caractères standards > < = pour les élèves plus âgés qui passent à la notation mathématique conventionnelle.',
+        description: 'Choisissez entre Symboles Illustrés et Symboles Normaux pour les signes de comparaison. Les Symboles Illustrés montrent des versions colorées et adaptées aux enfants des signes plus grand que, plus petit que et égal — idéaux pour les produits maternelle et grande section. Les Symboles Normaux affichent les caractères standards > < = pour les utilisateurs plus âgés qui passent à la notation mathématique conventionnelle.',
       },
       {
         title: 'Régler la Variété d\'Images',
-        description: 'Basculez entre Images Identiques et Images Différentes. Le mode Images Identiques montre les mêmes éléments dans les deux groupes (5 chats contre 7 chats), concentrant l\'attention uniquement sur la quantité. Le mode Images Différentes utilise des images distinctes par groupe (5 chats contre 7 chiens), ajoutant de l\'intérêt visuel et empêchant les élèves de se fier à l\'apparence plutôt qu\'au comptage.',
+        description: 'Basculez entre Images Identiques et Images Différentes. Le mode Images Identiques montre les mêmes éléments dans les deux groupes (5 chats contre 7 chats), concentrant l\'attention uniquement sur la quantité. Le mode Images Différentes utilise des images distinctes par groupe (5 chats contre 7 chiens), ajoutant de l\'intérêt visuel et empêchant les utilisateurs de se fier à l\'apparence plutôt qu\'au comptage.',
       },
       {
         title: 'Sélectionner des Images dans la Bibliothèque de Thèmes',
@@ -65,19 +65,19 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs d\'Activités Plus Grand Que et Plus Petit Que',
-      description: 'Créez des ensembles de 15–20 fiches en mode Image contre Image avec des groupes d\'images thématiques. Regroupez par thème — dinosaures, animaux de la ferme, créatures marines — et vendez comme packs de comparaison visuels sur Etsy.fr ou Teachers Pay Teachers. Incluez des versions avec symboles illustrés et symboles standards dans chaque pack pour une flexibilité maximale en classe.',
+      description: 'Créez des ensembles de 15–20 fiches en mode Image contre Image avec des groupes d\'images thématiques. Regroupez par thème — dinosaures, animaux de la ferme, créatures marines — et vendez comme packs de comparaison visuels sur Etsy.fr ou Gumroad. Incluez des versions avec symboles illustrés et symboles standards dans chaque pack pour une flexibilité maximale en ligne.',
     },
     {
       title: 'Fiches de Tri Cocher et Barrer',
-      description: 'Utilisez le mode unique Cocher et Barrer les Groupes pour créer des fiches où les élèves examinent une boîte de 8–20 images mélangées de deux catégories, puis cochent le groupe avec plus d\'éléments et barrent celui avec moins. Ce format n\'existe dans aucun autre générateur de fiches — offrant à vos produits un véritable avantage concurrentiel.',
+      description: 'Utilisez le mode unique Cocher et Barrer les Groupes pour créer des fiches où les utilisateurs examinent une boîte de 8–20 images mélangées de deux catégories, puis cochent le groupe avec plus d\'éléments et barrent celui avec moins. Ce format n\'existe dans aucun autre générateur de fiches — offrant à vos produits un véritable avantage concurrentiel.',
     },
     {
       title: 'Cahiers de Comparaison pour KDP',
       description: 'Générez 50–100 pages d\'exercices de comparaison de nombres dans les trois modes, exportez en PDF haute résolution et publiez comme cahier d\'activités low-content sur Amazon KDP. Utilisez le format carré (1200×1200) pour les cahiers d\'activités KDP et mélangez les modes pour varier les chapitres. Organisez votre cahier avec une progression claire : commencez avec les exercices Image contre Image pour les petites plages, avancez vers Image contre Nombre au milieu et terminez avec les défis Cocher et Barrer aux plages supérieures. Cette approche structurée séduit les parents qui cherchent des ressources complètes de préparation aux maths.',
     },
     {
-      title: 'Ensembles Différenciés pour la Classe',
-      description: 'Générez trois versions de la même fiche à différents niveaux de difficulté : facile (plage 1–4 avec symboles illustrés), moyen (plage 1–7 avec symboles illustrés) et difficile (plage 1–10 avec symboles normaux). Les enseignants peuvent distribuer le bon niveau à chaque élève sans passer plus de temps en préparation.',
+      title: 'Ensembles Différenciés pour la vente',
+      description: 'Générez trois versions de la même fiche à différents niveaux de difficulté : facile (plage 1–4 avec symboles illustrés), moyen (plage 1–7 avec symboles illustrés) et difficile (plage 1–10 avec symboles normaux). Les vendeurs peuvent distribuer le bon niveau à chaque utilisateur sans passer plus de temps en préparation.',
     },
     {
       title: 'Packs de Comparaison Saisonniers',
@@ -92,13 +92,13 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Boutique de Fiches de Comparaison sur Etsy.fr',
-      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches plus grand que, plus petit que et égal. Le format visuel est très recherché par les parents et enseignants car il rend la comparaison abstraite concrète. Créez 15–20 packs thématiques entre 3 € et 5 € chacun. Comme les fiches sont purement visuelles, listez chaque produit sur plusieurs marchés Etsy sans traduction. Concentrez votre identité de boutique sur les fiches de maths pour jeunes enfants et faites la promotion croisée avec des packs d\'addition et de soustraction pour fidéliser vos clients. L\'algorithme d\'Etsy récompense les boutiques avec plusieurs listings liés, donc construire un catalogue de 20–30 packs de comparaison sur différents thèmes augmente considérablement votre visibilité dans les résultats de recherche.',
+      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches plus grand que, plus petit que et égal. Le format visuel est très recherché par les parents et vendeurs car il rend la comparaison abstraite concrète. Créez 15–20 packs thématiques entre 3 € et 5 € chacun. Comme les fiches sont purement visuelles, listez chaque produit sur plusieurs marchés Etsy sans traduction. Concentrez votre identité de boutique sur les fiches de maths pour jeunes enfants et faites la promotion croisée avec des packs d\'addition et de soustraction pour fidéliser vos clients. L\'algorithme d\'Etsy récompense les boutiques avec plusieurs listings liés, donc construire un catalogue de 20–30 packs de comparaison sur différents thèmes augmente considérablement votre visibilité dans les résultats de recherche.',
       platform: 'Etsy.fr',
     },
     {
-      title: 'Vendeur de Packs de Maths sur Teachers Pay Teachers',
-      description: 'Téléchargez des packs de fiches de comparaison différenciés sur TPT. Les enseignants recherchent constamment « fiches plus grand que plus petit que » et « fiches de comparaison de nombres imprimables ». Incluez les trois modes d\'exercice, les versions avec symboles illustrés et standards, les corrigés et un guide enseignant dans chaque listing pour une valeur perçue plus élevée.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Vendeur de Packs de Maths sur Gumroad',
+      description: 'Téléchargez des packs de fiches de comparaison différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches plus grand que plus petit que » et « fiches de comparaison de nombres imprimables ». Incluez les trois modes d\'exercice, les versions avec symboles illustrés et standards, les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée.',
+      platform: 'Gumroad',
     },
     {
       title: 'Cahiers de Sens des Nombres sur Amazon KDP',
@@ -106,8 +106,8 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pack Curriculum de Comparaison sur Gumroad',
-      description: 'Créez un curriculum de comparaison structuré sur 10 semaines avec difficulté progressive — commencez avec Image contre Image à la plage 1–4, progressez jusqu\'à Cocher et Barrer à la plage 1–10. Vendez en téléchargement numérique premium sur Gumroad. Les parents qui font l\'instruction à domicile recherchent activement des programmes de maths complets et pratiques. Incluez un suivi de progression imprimable et une fiche d\'instructions parent pour justifier un prix premium entre 12 € et 19 €. Les packs curriculum structurés commandent des prix plus élevés que les packs de fiches individuels car ils font gagner aux parents des heures de planification de cours.',
+      title: 'Pack catalogue de produits de Comparaison sur Gumroad',
+      description: 'Créez un catalogue de produits de comparaison structuré sur 10 semaines avec difficulté progressive — commencez avec Image contre Image à la plage 1–4, progressez jusqu\'à Cocher et Barrer à la plage 1–10. Vendez en téléchargement numérique premium sur Gumroad. Les parents qui font l\'instruction à domicile recherchent activement des programmes de maths complets et pratiques. Incluez un suivi de progression imprimable et une fiche d\'instructions parent pour justifier un prix premium entre 12 € et 19 €. Les packs catalogue de produits structurés commandent des prix plus élevés que les packs de fiches individuels car ils font gagner aux parents des heures de planification de cours.',
       platform: 'Gumroad',
     },
     {
@@ -124,15 +124,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Utilisez les Symboles Illustrés pour les Jeunes Apprenants',
-      description: 'Les symboles de comparaison illustrés sont colorés et adaptés aux enfants, idéaux pour les produits maternelle et grande section. Passez aux Symboles Normaux pour le CP et au-delà, ou incluez les deux versions dans votre pack pour que les enseignants choisissent ce qui convient à leur classe. Inclure les deux styles de symboles dans un même listing augmente aussi votre portée de mots-clés sur Etsy car les acheteurs cherchent à la fois « fiches de comparaison illustrées » et « fiches de symboles plus grand que plus petit que » — couvrir les deux versions signifie que votre listing correspond à un éventail plus large de requêtes de recherche.',
+      description: 'Les symboles de comparaison illustrés sont colorés et adaptés aux enfants, idéaux pour les produits maternelle et grande section. Passez aux Symboles Normaux pour le CP et au-delà, ou incluez les deux versions dans votre pack pour que les vendeurs choisissent ce qui convient à leur classe. Inclure les deux styles de symboles dans un même listing augmente aussi votre portée de mots-clés sur Etsy car les acheteurs cherchent à la fois « fiches de comparaison illustrées » et « fiches de symboles plus grand que plus petit que » — couvrir les deux versions signifie que votre listing correspond à un éventail plus large de requêtes de recherche.',
     },
     {
       title: 'Modulez la Difficulté avec la Variété d\'Images',
-      description: 'Le mode Images Identiques (5 chats contre 7 chats) est plus facile car les élèves n\'ont qu\'à compter. Le mode Images Différentes (5 chats contre 7 chiens) est plus difficile car les élèves doivent compter deux groupes distincts et résister à la distraction de l\'apparence. Utilisez ce basculement pour créer des versions facile et défi à partir des mêmes réglages.',
+      description: 'Le mode Images Identiques (5 chats contre 7 chats) est plus facile car les utilisateurs n\'ont qu\'à compter. Le mode Images Différentes (5 chats contre 7 chiens) est plus difficile car les utilisateurs doivent compter deux groupes distincts et résister à la distraction de l\'apparence. Utilisez ce basculement pour créer des versions facile et défi à partir des mêmes réglages.',
     },
     {
       title: 'Le Mode Cocher et Barrer Est Votre Argument de Vente Unique',
-      description: 'Aucun autre générateur de fiches ne propose le mode Cocher et Barrer les Groupes. Mettez-le en avant dans vos titres de produits, descriptions et images d\'aperçu. Les acheteurs qui parcourent les résultats de recherche Etsy s\'arrêteront quand ils verront un format qu\'ils n\'ont jamais rencontré. Utilisez l\'aperçu Cocher et Barrer comme vignette principale de votre listing car il se distingue visuellement de toutes les autres fiches de comparaison sur le marché. Quand les enseignants et parents voient un format introuvable ailleurs, ils sont bien plus susceptibles de cliquer et d\'acheter votre produit plutôt que de passer à un concurrent.',
+      description: 'Aucun autre générateur de fiches ne propose le mode Cocher et Barrer les Groupes. Mettez-le en avant dans vos titres de produits, descriptions et images d\'aperçu. Les acheteurs qui parcourent les résultats de recherche Etsy s\'arrêteront quand ils verront un format qu\'ils n\'ont jamais rencontré. Utilisez l\'aperçu Cocher et Barrer comme vignette principale de votre listing car il se distingue visuellement de toutes les autres fiches de comparaison sur le marché. Quand les vendeurs et parents voient un format introuvable ailleurs, ils sont bien plus susceptibles de cliquer et d\'acheter votre produit plutôt que de passer à un concurrent.',
     },
     {
       title: 'Combinez avec Addition et Soustraction pour des Packs de Maths',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Pour les fiches de comparaison, le corrigé montre le symbole correct (>, < ou =) pour chaque exercice. Les acheteurs sur Etsy et TPT attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Pour le mode Cocher et Barrer, le corrigé indique clairement quel groupe d\'images est le majoritaire et lequel est le minoritaire, faisant gagner un temps précieux de correction aux enseignants. Inclure des corrigés rend aussi vos produits adaptés à l\'apprentissage autonome et aux devoirs où les parents doivent vérifier l\'exactitude sans expertise en maths.',
+      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Pour les fiches de comparaison, le corrigé montre le symbole correct (>, < ou =) pour chaque exercice. Les acheteurs sur Etsy et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Pour le mode Cocher et Barrer, le corrigé indique clairement quel groupe d\'images est le majoritaire et lequel est le minoritaire, faisant gagner un temps précieux de correction aux vendeurs. Inclure des corrigés rend aussi vos produits adaptés à l\'apprentissage autonome et aux devoirs où les parents doivent vérifier l\'exactitude sans expertise en maths.',
     },
   ],
 
@@ -159,23 +159,23 @@ const content: ToolContent = {
     },
     {
       question: 'Quels sont les trois modes d\'exercice ?',
-      answer: 'Le générateur prend en charge trois modes : Image contre Image (deux groupes d\'images côte à côte — les élèves comptent et comparent les quantités), Image contre Nombre (un groupe d\'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) et Cocher et Barrer les Groupes (une boîte de 8–20 images mélangées de deux catégories — les élèves cochent le groupe majoritaire et barrent le groupe minoritaire).',
+      answer: 'Le générateur prend en charge trois modes : Image contre Image (deux groupes d\'images côte à côte — les utilisateurs comptent et comparent les quantités), Image contre Nombre (un groupe d\'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) et Cocher et Barrer les Groupes (une boîte de 8–20 images mélangées de deux catégories — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire).',
     },
     {
       question: 'Comment fonctionne le mode Cocher et Barrer les Groupes ?',
-      answer: 'Dans le mode Cocher et Barrer, la fiche présente une boîte remplie de 8–20 images de deux catégories différentes (par exemple, des chats et des chiens) mélangées aléatoirement. L\'élève compte chaque catégorie, coche le groupe avec le plus d\'éléments et barre le groupe avec le moins. Cela développe simultanément les compétences de tri, de comptage et de comparaison. L\'exercice est particulièrement efficace car les élèves doivent d\'abord classer les images en deux groupes, puis compter chaque groupe séparément et enfin comparer les totaux — mobilisant trois compétences cognitives en une seule activité. Les enseignants rapportent que ce format maintient les élèves concentrés plus longtemps que les exercices de comparaison côte à côte standards.',
+      answer: 'Dans le mode Cocher et Barrer, la fiche présente une boîte remplie de 8–20 images de deux catégories différentes (par exemple, des chats et des chiens) mélangées aléatoirement. L\'utilisateur compte chaque catégorie, coche le groupe avec le plus d\'éléments et barre le groupe avec le moins. Cela développe simultanément les compétences de tri, de comptage et de comparaison. L\'exercice est particulièrement efficace car les utilisateurs doivent d\'abord classer les images en deux groupes, puis compter chaque groupe séparément et enfin comparer les totaux — mobilisant trois compétences cognitives en une seule activité. Les vendeurs rapportent que ce format maintient les utilisateurs concentrés plus longtemps que les exercices de comparaison côte à côte standards.',
     },
     {
       question: 'Quelle est la différence entre Symboles Illustrés et Symboles Normaux ?',
-      answer: 'Les Symboles Illustrés montrent des versions colorées et adaptées aux enfants des signes plus grand que, plus petit que et égal — parfaits pour les fiches de maternelle et de grande section. Les Symboles Normaux affichent les caractères standards > < = utilisés dans la notation mathématique conventionnelle. Utilisez les Symboles Illustrés pour les jeunes apprenants et les Symboles Normaux pour les élèves plus âgés.',
+      answer: 'Les Symboles Illustrés montrent des versions colorées et adaptées aux enfants des signes plus grand que, plus petit que et égal — parfaits pour les fiches de le marché préscolaire et de grande section. Les Symboles Normaux affichent les caractères standards > < = utilisés dans la notation mathématique conventionnelle. Utilisez les Symboles Illustrés pour les jeunes apprenants et les Symboles Normaux pour les utilisateurs plus âgés.',
     },
     {
       question: 'Que fait le réglage Variété d\'Images ?',
-      answer: 'Le mode Images Identiques utilise les mêmes images dans les deux groupes (par exemple, 5 chats contre 7 chats), pour que les élèves se concentrent uniquement sur la quantité. Le mode Images Différentes utilise des images distinctes par groupe (5 chats contre 7 chiens), ajoutant de l\'intérêt visuel et empêchant les élèves de comparer par l\'apparence plutôt que par le comptage.',
+      answer: 'Le mode Images Identiques utilise les mêmes images dans les deux groupes (par exemple, 5 chats contre 7 chats), pour que les utilisateurs se concentrent uniquement sur la quantité. Le mode Images Différentes utilise des images distinctes par groupe (5 chats contre 7 chiens), ajoutant de l\'intérêt visuel et empêchant les utilisateurs de comparer par l\'apparence plutôt que par le comptage.',
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez. Il n\'y a aucune limite sur le nombre de fiches que vous pouvez générer ou le nombre de plateformes sur lesquelles vous pouvez vendre avec une licence commerciale. Vous conservez la pleine propriété des fiches que vous créez et pouvez les modifier, regrouper et repriser comme vous le souhaitez.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez. Il n\'y a aucune limite sur le nombre de fiches que vous pouvez générer ou le nombre de plateformes sur lesquelles vous pouvez vendre avec une licence commerciale. Vous conservez la pleine propriété des fiches que vous créez et pouvez les modifier, regrouper et repriser comme vous le souhaitez.',
     },
     {
       question: 'Les fiches fonctionnent-elles dans d\'autres langues que le français ?',

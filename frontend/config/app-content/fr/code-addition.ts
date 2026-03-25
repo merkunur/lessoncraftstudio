@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fiches de puzzles mathématiques imprimables pour Etsy',
       'fiches de décodage maths pour Amazon KDP',
-      'créateur de puzzles maths pour vendeurs TPT',
+      'créateur de puzzles maths pour vendeurs Gumroad',
       'fiches de code mathématique licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur d\'Addition Codée | Puzzles Mathématiques',
     metaDescription:
-      'Créez des puzzles d’addition codée pour Etsy, KDP et TPT. Mode Mot Mystère, 104 thèmes, 11 langues, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des puzzles d’addition codée pour Etsy, KDP et Gumroad. Mode Mot Mystère, 104 thèmes, 11 langues, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches d\'Addition Codée — Puzzles Mathématiques à Décoder',
     tagline: 'Transformez l\'addition en mission de détective où chaque image cache un nombre secret.',
     description:
-      'Créez des fiches d\'addition de type cryptarithmétique qui mettent les élèves au défi de déchiffrer un code visuel. Chaque image sur la fiche représente un nombre caché — les élèves résolvent des équations d\'addition pour déduire quel nombre appartient à quelle image, combinant fluence mathématique et raisonnement logique dans un seul exercice. Passez en mode Mot Mystère et l\'enjeu monte : entrez un mot secret de dix lettres maximum, et chaque équation correctement résolue révèle une lettre de la réponse tandis que trois lettres de distraction avec de mauvaises sommes maintiennent le suspense. Le générateur prend en charge onze alphabets spécifiques à chaque langue, donc le Mot Mystère fonctionne nativement en français, allemand, anglais, espagnol et sept autres langues — une fonctionnalité qu\'aucun autre créateur de fiches n\'offre. Choisissez parmi plus de 3 100 images dans 104 thèmes, définissez les plages de nombres de 1 à 20 avec deux à cinq symboles-codes par fiche, et exportez des PDF ou JPEG prêts à imprimer à plus de 400 DPI avec corrigés automatiques. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches d\'addition de type cryptarithmétique qui mettent les utilisateurs au défi de déchiffrer un code visuel. Chaque image sur la fiche représente un nombre caché — les utilisateurs résolvent des équations d\'addition pour déduire quel nombre appartient à quelle image, combinant fluence mathématique et raisonnement logique dans un seul exercice. Passez en mode Mot Mystère et l\'enjeu monte : entrez un mot secret de dix lettres maximum, et chaque équation correctement résolue révèle une lettre de la réponse tandis que trois lettres de distraction avec de mauvaises sommes maintiennent le suspense. Le générateur prend en charge onze alphabets spécifiques à chaque langue, donc le Mot Mystère fonctionne nativement en français, allemand, anglais, espagnol et sept autres langues — une fonctionnalité qu\'aucun autre créateur de fiches n\'offre. Choisissez parmi plus de 3 100 images dans 104 thèmes, définissez les plages de nombres de 1 à 20 avec deux à cinq symboles-codes par fiche, et exportez des PDF ou JPEG prêts à imprimer à plus de 400 DPI avec corrigés automatiques. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Choisir des images dans la bibliothèque thématique',
         description:
-          'Ouvrez le panneau Bibliothèque d\'Images et parcourez 104 thèmes — des animaux et dinosaures à l\'espace et aux fêtes. Utilisez la barre de recherche pour trouver des images instantanément. Les images que vous sélectionnez deviennent les symboles-codes de votre fiche : chaque image correspond à un nombre caché que les élèves doivent déduire. Vous pouvez aussi télécharger vos propres images PNG ou JPEG pour des puzzles personnalisés.',
+          'Ouvrez le panneau Bibliothèque d\'Images et parcourez 104 thèmes — des animaux et dinosaures à l\'espace et aux fêtes. Utilisez la barre de recherche pour trouver des images instantanément. Les images que vous sélectionnez deviennent les symboles-codes de votre fiche : chaque image correspond à un nombre caché que les utilisateurs doivent déduire. Vous pouvez aussi télécharger vos propres images PNG ou JPEG pour des puzzles personnalisés.',
       },
       {
         title: 'Ajouter du texte, des titres et des options',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Mécanique de décodage — les images comme nombres cachés',
         description:
-          'La fonctionnalité distinctive de ce générateur est son moteur de cryptarithmétique. Chaque image représente secrètement un nombre spécifique. Les élèves résolvent des équations d\'addition où les opérandes et les sommes sont affichés sous forme d\'images, puis utilisent la déduction logique pour déterminer quel nombre chaque image représente. Cela transforme un exercice d\'addition routinier en un puzzle de type détective qui engage la pensée d\'ordre supérieur en parallèle de la fluence mathématique.',
+          'La fonctionnalité distinctive de ce générateur est son moteur de cryptarithmétique. Chaque image représente secrètement un nombre spécifique. Les utilisateurs résolvent des équations d\'addition où les opérandes et les sommes sont affichés sous forme d\'images, puis utilisent la déduction logique pour déterminer quel nombre chaque image représente. Cela transforme un exercice d\'addition routinier en un puzzle de type détective qui engage la pensée d\'ordre supérieur en parallèle de la fluence mathématique.',
       },
       {
         title: 'Mode Mot Mystère avec mots secrets',
         description:
-          'Activez le mode Mot Mystère et tapez un mot secret de dix lettres maximum. Le générateur crée une équation d\'addition par lettre — la somme de chaque équation correspond à une lettre spécifique sur un tableau de décodage. Les élèves résolvent les équations, font correspondre les sommes aux lettres et épellent le mot caché. Trois équations de distraction avec de mauvaises sommes sont ajoutées automatiquement, forçant les élèves à vérifier chaque réponse.',
+          'Activez le mode Mot Mystère et tapez un mot secret de dix lettres maximum. Le générateur crée une équation d\'addition par lettre — la somme de chaque équation correspond à une lettre spécifique sur un tableau de décodage. Les utilisateurs résolvent les équations, font correspondre les sommes aux lettres et épellent le mot caché. Trois équations de distraction avec de mauvaises sommes sont ajoutées automatiquement, forçant les utilisateurs à vérifier chaque réponse.',
       },
       {
         title: 'Alphabets sensibles à la langue pour 11 langues',
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: 'Plages de nombres et nombre de symboles configurables',
         description:
-          'Définissez les valeurs minimales et maximales des opérandes de 1 à 20 pour contrôler la difficulté. Choisissez entre deux et cinq symboles-images uniques par fiche pour ajuster la complexité de la déduction — deux symboles créent un puzzle accessible pour les jeunes élèves, cinq symboles exigent un suivi attentif à travers de nombreuses équations. La combinaison plage de nombres et nombre de symboles offre un contrôle fin sur la difficulté.',
+          'Définissez les valeurs minimales et maximales des opérandes de 1 à 20 pour contrôler la difficulté. Choisissez entre deux et cinq symboles-images uniques par fiche pour ajuster la complexité de la déduction — deux symboles créent un puzzle accessible pour les jeunes utilisateurs, cinq symboles exigent un suivi attentif à travers de nombreuses équations. La combinaison plage de nombres et nombre de symboles offre un contrôle fin sur la difficulté.',
       },
       {
         title: '104 thèmes visuels avec plus de 3 100 images',
         description:
-          'Parcourez une bibliothèque de plus de 3 100 illustrations dans 104 thèmes. Chaque image est en haute résolution et conçue pour une impression claire. En Addition Codée, les images servent de symboles-codes eux-mêmes — les élèves voient un chat, une fusée et un cupcake et doivent déduire que le chat vaut 3, la fusée 7 et le cupcake 5. Les puzzles thématiques sont irrésistibles pour les enfants et très vendeurs en tant que produits imprimables.',
+          'Parcourez une bibliothèque de plus de 3 100 illustrations dans 104 thèmes. Chaque image est en haute résolution et conçue pour une impression claire. En Addition Codée, les images servent de symboles-codes eux-mêmes — les utilisateurs voient un chat, une fusée et un cupcake et doivent déduire que le chat vaut 3, la fusée 7 et le cupcake 5. Les puzzles thématiques sont irrésistibles pour les enfants et très vendeurs en tant que produits imprimables.',
       },
       {
         title: 'Corrigé automatique avec superposition des nombres',
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers de maths différenciés avec Mot Mystère pour TPT',
+        title: 'Ateliers de maths différenciés avec Mot Mystère pour Gumroad',
         description:
-          'Créez des ensembles d\'addition codée à niveaux : Niveau 1 (deux symboles, sommes sous 10), Niveau 2 (trois symboles, sommes sous 15), Niveau 3 (quatre ou cinq symboles, sommes jusqu\'à 20) et un niveau bonus Mot Mystère où les élèves décodent des mots de vocabulaire. Chaque niveau avec corrigés et fiche de suivi. La mécanique de décodage différencie naturellement — plus de symboles et des plages plus élevées augmentent la difficulté sans changer le format.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des ensembles d\'addition codée à niveaux : Niveau 1 (deux symboles, sommes sous 10), Niveau 2 (trois symboles, sommes sous 15), Niveau 3 (quatre ou cinq symboles, sommes jusqu\'à 20) et un niveau bonus Mot Mystère où les utilisateurs décodent des mots de vocabulaire. Chaque niveau avec corrigés et fiche de suivi. La mécanique de décodage différencie naturellement — plus de symboles et des plages plus élevées augmentent la difficulté sans changer le format.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Packs de puzzles multilingues pour votre boutique',
@@ -131,9 +131,9 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Engagement en classe et pratique ludique des maths',
+        title: 'Engagement en ligne et pratique ludique des maths',
         description:
-          'Utilisez les fiches d\'addition codée pour ludifier la pratique quotidienne des maths. Distribuez un puzzle en Mode Classique comme défi d\'échauffement où le premier élève à craquer le code gagne une récompense. Utilisez le mode Mot Mystère pour coder un mot de vocabulaire, un fait amusant ou un message motivant que les élèves découvrent en résolvant toutes les équations. Le format puzzle transforme une fiche de pratique routinière en activité mystère captivante.',
+          'Utilisez les fiches d\'addition codée pour ludifier la pratique quotidienne des maths. Distribuez un puzzle en Mode Classique comme défi d\'échauffement où le premier utilisateur à craquer le code gagne une récompense. Utilisez le mode Mot Mystère pour coder un mot de vocabulaire, un fait amusant ou un message motivant que les utilisateurs découvrent en résolvant toutes les équations. Le format puzzle transforme une fiche de pratique routinière en activité mystère captivante.',
         platform: 'Classe / Soutien scolaire / École à la maison',
       },
     ],
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne la mécanique de décodage ?',
       answer:
-        'Chaque image sur la fiche représente secrètement un nombre spécifique. La fiche montre des équations d\'addition où les opérandes et les sommes sont affichés sous forme d\'images au lieu de chiffres. Les élèves résolvent les équations par logique et déduction : si un chat plus un chien égale sept et un chat plus un chat égale six, alors le chat vaut trois et le chien quatre. Le puzzle nécessite un raisonnement simultané sur plusieurs équations.',
+        'Chaque image sur la fiche représente secrètement un nombre spécifique. La fiche montre des équations d\'addition où les opérandes et les sommes sont affichés sous forme d\'images au lieu de chiffres. Les utilisateurs résolvent les équations par logique et déduction : si un chat plus un chien égale sept et un chat plus un chat égale six, alors le chat vaut trois et le chien quatre. Le puzzle nécessite un raisonnement simultané sur plusieurs équations.',
     },
     {
       question: 'Qu\'est-ce que le mode Mot Mystère ?',
       answer:
-        'Le mode Mot Mystère vous permet de taper un mot secret de dix lettres maximum. Le générateur crée une équation par lettre — la somme de chaque équation correspond à une lettre sur un tableau de décodage. Les élèves résolvent les équations, cherchent chaque somme sur le tableau et épellent le mot caché. Trois équations de distraction avec de mauvaises sommes sont ajoutées automatiquement, obligeant les élèves à vérifier chaque réponse.',
+        'Le mode Mot Mystère vous permet de taper un mot secret de dix lettres maximum. Le générateur crée une équation par lettre — la somme de chaque équation correspond à une lettre sur un tableau de décodage. Les utilisateurs résolvent les équations, cherchent chaque somme sur le tableau et épellent le mot caché. Trois équations de distraction avec de mauvaises sommes sont ajoutées automatiquement, obligeant les utilisateurs à vérifier chaque réponse.',
     },
     {
       question: 'Comment les symboles-images correspondent-ils aux nombres ?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Combien de symboles puis-je utiliser par fiche ?',
       answer:
-        'Vous pouvez choisir entre deux et cinq symboles-images uniques par fiche. Moins de symboles créent des puzzles plus faciles pour les jeunes élèves ; plus de symboles créent des défis complexes nécessitant le suivi de plusieurs inconnues à travers de nombreuses équations.',
+        'Vous pouvez choisir entre deux et cinq symboles-images uniques par fiche. Moins de symboles créent des puzzles plus faciles pour les jeunes utilisateurs ; plus de symboles créent des défis complexes nécessitant le suivi de plusieurs inconnues à travers de nombreuses équations.',
     },
     {
       question: 'L\'Addition Codée est-elle sensible à la langue ?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Que sont les lettres de distraction en mode Mot Mystère ?',
       answer:
-        'Les lettres de distraction sont trois équations supplémentaires dont les sommes ne correspondent à aucune lettre du mot secret. Elles apparaissent sur la fiche à côté des vraies équations, et leurs sommes pointent vers des lettres qui ne font pas partie de la réponse. Cela empêche les élèves de simplement résoudre n\'importe quelle équation en supposant qu\'elle révèle une lettre.',
+        'Les lettres de distraction sont trois équations supplémentaires dont les sommes ne correspondent à aucune lettre du mot secret. Elles apparaissent sur la fiche à côté des vraies équations, et leurs sommes pointent vers des lettres qui ne font pas partie de la réponse. Cela empêche les utilisateurs de simplement résoudre n\'importe quelle équation en supposant qu\'elle révèle une lettre.',
     },
     {
       question: 'Comment le corrigé affiche-t-il les solutions ?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Que comprend la licence commerciale ?',
       answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite.',
+        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite.',
     },
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'addition codée en téléchargement numérique sur Etsy, en cahiers de puzzles sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal. Le format de décodage se distingue des fiches d\'addition standards dans les résultats de recherche.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'addition codée en téléchargement numérique sur Etsy, en cahiers de puzzles sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal. Le format de décodage se distingue des fiches d\'addition standards dans les résultats de recherche.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -264,7 +264,7 @@ const content: AppContent = {
       {
         src: '/samples/french/code addition/Code Secret Addition 1.webp',
         alt: 'Fiche d\'addition codée en Mode Classique avec des images thématiques d\'animaux comme symboles-codes',
-        caption: 'Mode Classique — les élèves déchiffrent le code en déduisant quel nombre chaque image représente',
+        caption: 'Mode Classique — les utilisateurs déchiffrent le code en déduisant quel nombre chaque image représente',
       },
       {
         src: '/samples/french/code addition/Code Secret Addition 2.webp',

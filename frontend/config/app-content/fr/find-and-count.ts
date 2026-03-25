@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fiches objets cachés imprimables pour vendeurs Etsy',
       'générateur de fiches je vois je vois pour Amazon KDP',
-      'vendre des fiches cherche et compte sur Teachers Pay Teachers',
+      'vendre des fiches cherche et compte sur Gumroad',
       'fiches repérage de lettres avec licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Cherche et Compte | Objets Cachés',
     metaDescription:
-      'Créez des fiches cherche et compte pour Etsy, KDP et TPT. Modes Objets Cachés et Repérage de Lettres, 4 types de tâches, corrigé.',
+      'Créez des fiches cherche et compte pour Etsy, KDP et Gumroad. Modes Objets Cachés et Repérage de Lettres, 4 types de tâches, corrigé.',
   },
 
   hero: {
     title: 'Générateur de Fiches Cherche et Compte pour Activités Objets Cachés',
     tagline: 'Deux modes d\'activité en un seul générateur — Objets Cachés Je Vois Je Vois et Repérage de Lettres — avec quatre types de tâches combinables (entourer, encadrer, barrer, compter), alphabets spécifiques à la langue avec lettres accentuées, étiquettes de noms d\'images localisées dans 11 langues, et corrigés auto-générés avec annotations visuelles.',
     description:
-      'Concevez des fiches professionnelles Je Vois Je Vois et cherche et compte où les élèves explorent une scène d\'images dispersées pour trouver, entourer, barrer ou compter des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Objets Cachés disperse les images dans une grille configurable (5–10 lignes × 5–10 colonnes) et vous permet d\'assigner jusqu\'à 4 objets cibles avec des types de tâches individuels — entourer l\'objet, l\'encadrer, le barrer ou compter combien apparaissent. Le mode Repérage de Lettres affiche un alphabet spécifique à la langue avec lettres accentuées (français é, è, ç, à ; allemand ÄÖÜ ; espagnol Ñ ; suédois ÅÄÖ ; danois/norvégien ÆØÅ) et génère des scènes Je Vois Je Vois avec des images commençant par la lettre sélectionnée. Chaque fiche inclut un en-tête auto-généré — « Je Vois, Je Vois » ou « Repérage de Lettres » — localisé dans les 11 langues prises en charge avec une bordure bleue (#2196F3). Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé avec des annotations rouges cercle, carré et croix plus des affichages de quantités. Le Générateur Cherche et Compte est sensible à la langue : les étiquettes de noms d\'images sur la fiche sont rendues dans la langue sélectionnée via le système de Vocabulaire d\'Images. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour les étiquettes localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités Je Vois Je Vois sur Etsy, compiliez des cahiers d\'objets cachés pour Amazon KDP ou créiez des activités de comptage pour TPT, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches professionnelles Je Vois Je Vois et cherche et compte où les utilisateurs explorent une scène d\'images dispersées pour trouver, entourer, barrer ou compter des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Objets Cachés disperse les images dans une grille configurable (5–10 lignes × 5–10 colonnes) et vous permet d\'assigner jusqu\'à 4 objets cibles avec des types de tâches individuels — entourer l\'objet, l\'encadrer, le barrer ou compter combien apparaissent. Le mode Repérage de Lettres affiche un alphabet spécifique à la langue avec lettres accentuées (français é, è, ç, à ; allemand ÄÖÜ ; espagnol Ñ ; suédois ÅÄÖ ; danois/norvégien ÆØÅ) et génère des scènes Je Vois Je Vois avec des images commençant par la lettre sélectionnée. Chaque fiche inclut un en-tête auto-généré — « Je Vois, Je Vois » ou « Repérage de Lettres » — localisé dans les 11 langues prises en charge avec une bordure bleue (#2196F3). Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé avec des annotations rouges cercle, carré et croix plus des affichages de quantités. Le Générateur Cherche et Compte est sensible à la langue : les étiquettes de noms d\'images sur la fiche sont rendues dans la langue sélectionnée via le système de Vocabulaire d\'Images. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour les étiquettes localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités Je Vois Je Vois sur Etsy, compiliez des cahiers d\'objets cachés pour Amazon KDP ou créiez des activités de comptage pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisir le mode d\'activité',
         description:
-          'Sélectionnez entre deux modes. Le mode Objets Cachés (par défaut) crée des scènes classiques Je Vois Je Vois — des images dispersées dans une grille où les élèves cherchent des objets spécifiques. Le mode Repérage de Lettres active un alphabet spécifique à la langue avec lettres accentuées et génère des scènes avec des images commençant par la lettre sélectionnée. L\'en-tête bascule automatiquement entre « Je Vois, Je Vois » et « Repérage de Lettres » (localisé dans les 11 langues) selon votre sélection.',
+          'Sélectionnez entre deux modes. Le mode Objets Cachés (par défaut) crée des scènes classiques Je Vois Je Vois — des images dispersées dans une grille où les utilisateurs cherchent des objets spécifiques. Le mode Repérage de Lettres active un alphabet spécifique à la langue avec lettres accentuées et génère des scènes avec des images commençant par la lettre sélectionnée. L\'en-tête bascule automatiquement entre « Je Vois, Je Vois » et « Repérage de Lettres » (localisé dans les 11 langues) selon votre sélection.',
       },
       {
         title: 'Sélectionner les images et assigner les types de tâches',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générer le corrigé et télécharger',
         description:
-          'Passez à l\'onglet Corrigé pour voir les annotations auto-générées : cercles rouges autour des objets à entourer, carrés rouges autour des objets à encadrer, croix rouges sur les objets à barrer, et affichages de quantités pour les objets à compter. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits TPT.',
+          'Passez à l\'onglet Corrigé pour voir les annotations auto-générées : cercles rouges autour des objets à entourer, carrés rouges autour des objets à encadrer, croix rouges sur les objets à barrer, et affichages de quantités pour les objets à compter. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Deux modes d\'activité : Objets Cachés Je Vois Je Vois et Repérage de Lettres',
         description:
-          'Un seul générateur couvre deux formats d\'activité distincts. Le mode Objets Cachés crée des scènes classiques Je Vois Je Vois où les élèves explorent une grille d\'images dispersées pour trouver des objets spécifiques. Le mode Repérage de Lettres active un alphabet spécifique à la langue — français A–Z + é, è, ç, à (30 lettres), allemand A–Z + ÄÖÜ (29 lettres), espagnol A–Z + Ñ (27 lettres), suédois/finnois A–Z + ÅÄÖ (29 lettres), danois/norvégien A–Z + ÆØÅ (29 lettres) — et génère des scènes avec des images commençant par la lettre sélectionnée. L\'en-tête bascule automatiquement entre « Je Vois, Je Vois » et « Repérage de Lettres » (localisé dans les 11 langues) selon le mode actif.',
+          'Un seul générateur couvre deux formats d\'activité distincts. Le mode Objets Cachés crée des scènes classiques Je Vois Je Vois où les utilisateurs explorent une grille d\'images dispersées pour trouver des objets spécifiques. Le mode Repérage de Lettres active un alphabet spécifique à la langue — français A–Z + é, è, ç, à (30 lettres), allemand A–Z + ÄÖÜ (29 lettres), espagnol A–Z + Ñ (27 lettres), suédois/finnois A–Z + ÅÄÖ (29 lettres), danois/norvégien A–Z + ÆØÅ (29 lettres) — et génère des scènes avec des images commençant par la lettre sélectionnée. L\'en-tête bascule automatiquement entre « Je Vois, Je Vois » et « Repérage de Lettres » (localisé dans les 11 langues) selon le mode actif.',
       },
       {
         title: 'Quatre types de tâches : entourer, encadrer, barrer et compter — combinables sur une fiche',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Alphabets spécifiques à la langue avec lettres accentuées pour le Repérage de Lettres',
         description:
-          'Le mode Repérage de Lettres affiche un alphabet adapté au jeu de caractères de chaque langue. Le français inclut é, è, ç et à aux côtés des 26 lettres standard. L\'allemand ajoute Ä, Ö et Ü. L\'espagnol ajoute Ñ. Le suédois et le finnois incluent Å, Ä et Ö. Le danois et le norvégien ajoutent Æ, Ø et Å. L\'alphabet s\'affiche sur 7 colonnes avec ajustement automatique du nombre de lignes selon le nombre de lettres de la langue. Les élèves sélectionnent une lettre, et le générateur crée une scène Je Vois Je Vois avec des images commençant par cette lettre dans la langue sélectionnée.',
+          'Le mode Repérage de Lettres affiche un alphabet adapté au jeu de caractères de chaque langue. Le français inclut é, è, ç et à aux côtés des 26 lettres standard. L\'allemand ajoute Ä, Ö et Ü. L\'espagnol ajoute Ñ. Le suédois et le finnois incluent Å, Ä et Ö. Le danois et le norvégien ajoutent Æ, Ø et Å. L\'alphabet s\'affiche sur 7 colonnes avec ajustement automatique du nombre de lignes selon le nombre de lettres de la langue. Les utilisateurs sélectionnent une lettre, et le générateur crée une scène Je Vois Je Vois avec des images commençant par cette lettre dans la langue sélectionnée.',
       },
       {
         title: 'Étiquettes de noms d\'images localisées dans 11 langues via le Vocabulaire d\'Images',
@@ -93,12 +93,12 @@ const content: AppContent = {
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI avec mode niveaux de gris',
         description:
-          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI (multiplicateur 6×). Quatre boutons de téléchargement dédiés exportent séparément la Fiche JPEG, le Corrigé JPEG, la Fiche PDF et le Corrigé PDF. Les formats incluent Par défaut (800×1000), Letter, A4, Carré (1200×1200) et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — téléchargements numériques, cahiers imprimés et documents pour la classe.',
+          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI (multiplicateur 6×). Quatre boutons de téléchargement dédiés exportent séparément la Fiche JPEG, le Corrigé JPEG, la Fiche PDF et le Corrigé PDF. Les formats incluent Par défaut (800×1000), Letter, A4, Carré (1200×1200) et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — téléchargements numériques, cahiers imprimés et documents pour la vente.',
       },
       {
         title: 'Densité de grille configurable avec 5–10 lignes et 5–10 colonnes',
         description:
-          'Contrôlez la difficulté et la densité visuelle de vos fiches Je Vois Je Vois en ajustant les dimensions de la grille. Réglez les lignes de 5 à 10 et les colonnes de 5 à 10 — la valeur par défaut est 6×6 (36 cases). Une grille 5×5 (25 cases) crée des fiches plus faciles avec des images plus grandes pour les plus jeunes. Une grille 10×10 (100 cases) crée des scènes denses et stimulantes pour les élèves avancés. Chaque case affiche une image d\'une taille maximale de 80 px, avec une réduction de 5 % en mode Repérage de Lettres. Les objets cibles sont distribués aléatoirement dans la grille avec 1–5 instances chacun.',
+          'Contrôlez la difficulté et la densité visuelle de vos fiches Je Vois Je Vois en ajustant les dimensions de la grille. Réglez les lignes de 5 à 10 et les colonnes de 5 à 10 — la valeur par défaut est 6×6 (36 cases). Une grille 5×5 (25 cases) crée des fiches plus faciles avec des images plus grandes pour les plus jeunes. Une grille 10×10 (100 cases) crée des scènes denses et stimulantes pour les utilisateurs avancés. Chaque case affiche une image d\'une taille maximale de 80 px, avec une réduction de 5 % en mode Repérage de Lettres. Les objets cibles sont distribués aléatoirement dans la grille avec 1–5 instances chacun.',
       },
     ],
   },
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Activités d\'observation et de comptage pour TPT',
+        title: 'Activités d\'observation et de comptage pour Gumroad',
         description:
-          'Construisez des fiches Je Vois Je Vois de comptage prêtes à l\'emploi où les élèves cherchent, trouvent et comptent des objets dans une scène dispersée. Les enseignants sur TPT recherchent des activités de comptage qui combinent recherche visuelle et pratique de la numération. Le type de tâche « compter » demande aux élèves d\'écrire combien d\'instances de chaque objet ils trouvent — une extension naturelle du Je Vois Je Vois vers les mathématiques. Créez des ensembles alignés sur les programmes : comptage d\'animaux de la ferme, comptage d\'auxiliaires de vie, comptage de créatures marines et comptage d\'objets saisonniers. Chaque ensemble inclut des fiches élèves et des corrigés en PDF et JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construisez des fiches Je Vois Je Vois de comptage prêtes à l\'emploi où les utilisateurs cherchent, trouvent et comptent des objets dans une scène dispersée. Les vendeurs sur Gumroad recherchent des activités de comptage qui combinent recherche visuelle et pratique de la numération. Le type de tâche « compter » demande aux utilisateurs d\'écrire combien d\'instances de chaque objet ils trouvent — une extension naturelle du Je Vois Je Vois vers les mathématiques. Créez des ensembles alignés sur les programmes : comptage d\'animaux de la ferme, comptage d\'auxiliaires de vie, comptage de créatures marines et comptage d\'objets saisonniers. Chaque ensemble inclut des fiches utilisateurs et des corrigés en PDF et JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Packs Repérage de Lettres et phonétique pour l\'apprentissage de l\'alphabet',
         description:
-          'Exploitez le mode Repérage de Lettres pour créer des fiches Je Vois Je Vois centrées sur la reconnaissance des premières lettres. Chaque fiche cible une lettre spécifique — les élèves trouvent tous les objets commençant par cette lettre dans une scène d\'images dispersées. Créez un pack Repérage de Lettres complet A–Z avec 26 fiches (une par lettre) et leurs corrigés. Les alphabets spécifiques à la langue avec lettres accentuées vous permettent de créer des packs phonétiques pour le français (é, è, ç, à), l\'allemand (ÄÖÜ), l\'espagnol (Ñ) et les marchés nordiques (ÅÄÖ/ÆØÅ) que les concurrents utilisant des outils anglophones ne peuvent pas égaler.',
-        platform: 'Etsy / TPT (marché de la lecture)',
+          'Exploitez le mode Repérage de Lettres pour créer des fiches Je Vois Je Vois centrées sur la reconnaissance des premières lettres. Chaque fiche cible une lettre spécifique — les utilisateurs trouvent tous les objets commençant par cette lettre dans une scène d\'images dispersées. Créez un pack Repérage de Lettres complet A–Z avec 26 fiches (une par lettre) et leurs corrigés. Les alphabets spécifiques à la langue avec lettres accentuées vous permettent de créer des packs phonétiques pour le français (é, è, ç, à), l\'allemand (ÄÖÜ), l\'espagnol (Ñ) et les marchés nordiques (ÅÄÖ/ÆØÅ) que les concurrents utilisant des outils anglophones ne peuvent pas égaler.',
+        platform: 'Etsy / Gumroad (marché de la lecture)',
       },
       {
         title: 'Collections Je Vois Je Vois multilingues pour les marchés internationaux',
         description:
-          'Exploitez les étiquettes de noms d\'images sensibles à la langue pour créer des fiches Je Vois Je Vois dans 11 langues. Les mêmes images produisent des étiquettes différentes quand vous changez de langue — les noms d\'images, les premières lettres du Repérage de Lettres et le texte d\'en-tête se mettent tous à jour automatiquement. Créez des packs Je Vois Je Vois multilingues où chaque version linguistique utilise les mêmes images thématiques mais des étiquettes localisées. C\'est idéal pour les enseignants FLE, les classes bilingues et les familles d\'instruction en famille internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.',
-        platform: 'Etsy / TPT (marché multilingue)',
+          'Exploitez les étiquettes de noms d\'images sensibles à la langue pour créer des fiches Je Vois Je Vois dans 11 langues. Les mêmes images produisent des étiquettes différentes quand vous changez de langue — les noms d\'images, les premières lettres du Repérage de Lettres et le texte d\'en-tête se mettent tous à jour automatiquement. Créez des packs Je Vois Je Vois multilingues où chaque version linguistique utilise les mêmes images thématiques mais des étiquettes localisées. C\'est idéal pour les vendeurs FLE, les classes bilingues et les familles d\'instruction en famille internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.',
+        platform: 'Etsy / Gumroad (marché multilingue)',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Quels sont les deux modes d\'activité et en quoi diffèrent-ils ?',
       answer:
-        'Le générateur propose deux modes distincts. Le mode Objets Cachés (par défaut) crée des scènes classiques Je Vois Je Vois — des images dispersées dans une grille configurable où les élèves cherchent jusqu\'à 4 objets spécifiques et exécutent les tâches assignées (entourer, encadrer, barrer ou compter). Le mode Repérage de Lettres active un alphabet spécifique à la langue et génère des scènes Je Vois Je Vois avec des images commençant par la lettre sélectionnée. L\'en-tête de la fiche bascule automatiquement entre « Je Vois, Je Vois » et « Repérage de Lettres » (localisé dans les 11 langues) selon le mode actif.',
+        'Le générateur propose deux modes distincts. Le mode Objets Cachés (par défaut) crée des scènes classiques Je Vois Je Vois — des images dispersées dans une grille configurable où les utilisateurs cherchent jusqu\'à 4 objets spécifiques et exécutent les tâches assignées (entourer, encadrer, barrer ou compter). Le mode Repérage de Lettres active un alphabet spécifique à la langue et génère des scènes Je Vois Je Vois avec des images commençant par la lettre sélectionnée. L\'en-tête de la fiche bascule automatiquement entre « Je Vois, Je Vois » et « Repérage de Lettres » (localisé dans les 11 langues) selon le mode actif.',
     },
     {
       question: 'Quels sont les quatre types de tâches et peut-on les combiner sur une fiche ?',
       answer:
-        'Les quatre types de tâches sont entourer (tracer un cercle autour de l\'objet), encadrer (tracer un carré autour de l\'objet), barrer (mettre une croix sur l\'objet) et compter (compter combien d\'instances apparaissent et écrire le nombre). Oui, vous pouvez assigner un type de tâche différent à chacun des 4 objets cibles sur une seule fiche. Par exemple, une fiche peut demander aux élèves d\'entourer tous les chats, de barrer tous les chiens, de compter tous les oiseaux et d\'encadrer tous les poissons.',
+        'Les quatre types de tâches sont entourer (tracer un cercle autour de l\'objet), encadrer (tracer un carré autour de l\'objet), barrer (mettre une croix sur l\'objet) et compter (compter combien d\'instances apparaissent et écrire le nombre). Oui, vous pouvez assigner un type de tâche différent à chacun des 4 objets cibles sur une seule fiche. Par exemple, une fiche peut demander aux utilisateurs d\'entourer tous les chats, de barrer tous les chiens, de compter tous les oiseaux et d\'encadrer tous les poissons.',
     },
     {
       question: 'Comment fonctionne le Repérage de Lettres avec les différentes langues ?',
@@ -163,17 +163,17 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne la densité de grille configurable ?',
       answer:
-        'Dans le panneau Mise en Page, réglez les lignes de 5 à 10 et les colonnes de 5 à 10. La valeur par défaut est 6×6 (36 cases). Une grille plus petite comme 5×5 (25 cases) crée des fiches plus faciles avec des images plus grandes — idéal pour les plus jeunes. Une grille plus grande comme 10×10 (100 cases) crée des scènes denses et stimulantes pour les élèves avancés. Chaque case affiche une image d\'une taille maximale de 80 px. Les objets cibles apparaissent 1–5 fois chacun, les cases restantes étant remplies par des images distractrices aléatoires du thème.',
+        'Dans le panneau Mise en Page, réglez les lignes de 5 à 10 et les colonnes de 5 à 10. La valeur par défaut est 6×6 (36 cases). Une grille plus petite comme 5×5 (25 cases) crée des fiches plus faciles avec des images plus grandes — idéal pour les plus jeunes. Une grille plus grande comme 10×10 (100 cases) crée des scènes denses et stimulantes pour les utilisateurs avancés. Chaque case affiche une image d\'une taille maximale de 80 px. Les objets cibles apparaissent 1–5 fois chacun, les cases restantes étant remplies par des images distractrices aléatoires du thème.',
     },
     {
       question: 'Pourquoi y a-t-il une limite de 4 objets par fiche ?',
       answer:
-        'Le générateur impose un maximum de 4 objets cibles par fiche pour maintenir des activités Je Vois Je Vois claires et ciblées. Avec 4 objets et 4 types de tâches différents, une seule fiche peut contenir 4 tâches distinctes de cherche-et-trouve — assez de variété pour stimuler les élèves sans les submerger. Le panneau Questions Objets Cachés affiche un compteur de sélection et fournit un bouton Effacer la Sélection pour réinitialiser vos choix. Cette limite garantit que chaque fiche reste visuellement lisible et pédagogiquement efficace.',
+        'Le générateur impose un maximum de 4 objets cibles par fiche pour maintenir des activités Je Vois Je Vois claires et ciblées. Avec 4 objets et 4 types de tâches différents, une seule fiche peut contenir 4 tâches distinctes de cherche-et-trouve — assez de variété pour stimuler les utilisateurs sans les submerger. Le panneau Questions Objets Cachés affiche un compteur de sélection et fournit un bouton Effacer la Sélection pour réinitialiser vos choix. Cette limite garantit que chaque fiche reste visuellement lisible et pédagogiquement efficace.',
     },
     {
       question: 'Comment fonctionne le corrigé auto-généré ?',
       answer:
-        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre la scène d\'images dispersées sans marquage — les élèves cherchent et exécutent les tâches eux-mêmes. Le corrigé reproduit la disposition identique et superpose des annotations visuelles rouges : cercles autour des objets à entourer, carrés autour des objets à encadrer, croix sur les objets à barrer et affichages de quantités pour les objets à compter. Les deux versions s\'exportent séparément avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF.',
+        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre la scène d\'images dispersées sans marquage — les utilisateurs cherchent et exécutent les tâches eux-mêmes. Le corrigé reproduit la disposition identique et superpose des annotations visuelles rouges : cercles autour des objets à entourer, carrés autour des objets à encadrer, croix sur les objets à barrer et affichages de quantités pour les objets à compter. Les deux versions s\'exportent séparément avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF.',
     },
     {
       question: 'La fiche se génère-t-elle automatiquement à l\'ouverture ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches Je Vois Je Vois et cherche et compte en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les deux modes d\'activité, les quatre types de tâches, le Repérage de Lettres avec alphabets spécifiques à la langue et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits Je Vois Je Vois originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches Je Vois Je Vois et cherche et compte en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les deux modes d\'activité, les quatre types de tâches, le Repérage de Lettres avec alphabets spécifiques à la langue et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits Je Vois Je Vois originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fiches comparaison de tailles imprimables pour vendeurs Etsy',
       'générateur de fiches grand et petit personnalisées pour Amazon KDP',
-      'vendre des fiches discrimination visuelle de tailles sur Teachers Pay Teachers',
+      'vendre des fiches discrimination visuelle de tailles sur Gumroad',
       'fiches grand petit comparaison de tailles licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Grand Petit | Créer et Vendre',
     metaDescription:
-      'Créez des fiches comparaison de tailles pour Etsy, KDP et TPT. 5 types de questions, modes identiques et différents, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches comparaison de tailles pour Etsy, KDP et Gumroad. 5 types de questions, modes identiques et différents, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches Grand & Petit pour des Exercices de Comparaison de Tailles',
     tagline: 'Cinq types de questions — entoure le plus grand, entoure le plus petit, entoure le moyen, numéroter du plus petit au plus grand, numéroter du plus grand au plus petit — avec modes images identiques et différentes pour la discrimination visuelle de tailles.',
     description:
-      'Concevez des fiches professionnelles de comparaison de tailles où les élèves observent des images thématiques affichées à différentes tailles et identifient laquelle est plus grande, plus petite ou de taille moyenne, ou les numérotent dans l\'ordre du plus petit au plus grand ou du plus grand au plus petit. Cinq types de questions distincts couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d\'images créent des exercices fondamentalement différents : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons plus simples, trois pour des exercices plus difficiles incluant l\'option du moyen. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un corrigé généré automatiquement met en évidence les réponses correctes pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de comparaison de tailles sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou créiez des ateliers visuels différenciés pour TPT, le Générateur de Fiches Grand & Petit produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches professionnelles de comparaison de tailles où les utilisateurs observent des images thématiques affichées à différentes tailles et identifient laquelle est plus grande, plus petite ou de taille moyenne, ou les numérotent dans l\'ordre du plus petit au plus grand ou du plus grand au plus petit. Cinq types de questions distincts couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d\'images créent des exercices fondamentalement différents : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons plus simples, trois pour des exercices plus difficiles incluant l\'option du moyen. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un corrigé généré automatiquement met en évidence les réponses correctes pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de comparaison de tailles sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou créiez des ateliers visuels différenciés pour Gumroad, le Générateur de Fiches Grand & Petit produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisir le type de question',
         description:
-          'Sélectionnez l\'un des cinq types de questions depuis le panneau Contenu. Entoure le Plus Grand demande aux élèves d\'identifier la plus grande image. Entoure le Plus Petit cible la plus petite image. Entoure le Moyen met les élèves au défi de trouver l\'image de taille intermédiaire (nécessite 3 images par exercice). Numéroter 1–2–3 du Plus Petit au Plus Grand demande aux élèves d\'ordonner les images de la plus petite à la plus grande. Numéroter 1–2–3 du Plus Grand au Plus Petit inverse l\'ordre de la plus grande à la plus petite. Chaque type de question cible une compétence différente de discrimination de tailles — identification vs séquençage.',
+          'Sélectionnez l\'un des cinq types de questions depuis le panneau Contenu. Entoure le Plus Grand demande aux utilisateurs d\'identifier la plus grande image. Entoure le Plus Petit cible la plus petite image. Entoure le Moyen met les utilisateurs au défi de trouver l\'image de taille intermédiaire (nécessite 3 images par exercice). Numéroter 1–2–3 du Plus Petit au Plus Grand demande aux utilisateurs d\'ordonner les images de la plus petite à la plus grande. Numéroter 1–2–3 du Plus Grand au Plus Petit inverse l\'ordre de la plus grande à la plus petite. Chaque type de question cible une compétence différente de discrimination de tailles — identification vs séquençage.',
       },
       {
         title: 'Configurer le nombre d\'exercices et les paramètres d\'images',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Sélectionner les images et ajouter du texte décoratif',
         description:
-          'Parcourez 104 collections d\'images thématiques avec plus de 3 100 illustrations — animaux, nourriture, véhicules, nature et des dizaines d\'autres — ou téléchargez vos propres images personnalisées. Chaque thème fournit un ensemble coordonné d\'images qui fonctionnent ensemble visuellement. Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des champs nom et date de l\'élève ou des consignes avec cinq polices : Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Glissez, redimensionnez et repositionnez chaque élément sur le canevas Fabric.js complet.',
+          'Parcourez 104 collections d\'images thématiques avec plus de 3 100 illustrations — animaux, nourriture, véhicules, nature et des dizaines d\'autres — ou téléchargez vos propres images personnalisées. Chaque thème fournit un ensemble coordonné d\'images qui fonctionnent ensemble visuellement. Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des champs nom et date de l\'utilisateur ou des consignes avec cinq polices : Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Glissez, redimensionnez et repositionnez chaque élément sur le canevas Fabric.js complet.',
       },
       {
         title: 'Générer le corrigé et télécharger',
         description:
-          'Cliquez sur Générer le Corrigé pour créer une version résolue où les réponses correctes sont mises en évidence et entourées pour une vérification visuelle instantanée. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe. Puis ouvrez le menu Téléchargement et exportez la fiche et le corrigé en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT.',
+          'Cliquez sur Générer le Corrigé pour créer une version résolue où les réponses correctes sont mises en évidence et entourées pour une vérification visuelle instantanée. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume. Puis ouvrez le menu Téléchargement et exportez la fiche et le corrigé en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Cinq types de questions de comparaison de tailles',
         description:
-          'Cinq types de questions distincts couvrent chaque compétence de discrimination de tailles. Entoure le Plus Grand et Entoure le Plus Petit ciblent l\'identification d\'un seul élément — les élèves trouvent la plus grande ou la plus petite image. Entoure le Moyen ajoute de la complexité en demandant aux élèves d\'identifier l\'image de taille intermédiaire, en évitant les deux extrêmes. Numéroter 1–2–3 du Plus Petit au Plus Grand et Numéroter 1–2–3 du Plus Grand au Plus Petit passent de l\'identification au séquençage, demandant aux élèves d\'ordonner toutes les images par taille. Cette gamme de types de questions crée une progression naturelle de difficulté, de l\'identification simple à l\'ordonnancement en plusieurs étapes, offrant aux vendeurs un axe de différenciation intégré pour des packs de produits à niveaux.',
+          'Cinq types de questions distincts couvrent chaque compétence de discrimination de tailles. Entoure le Plus Grand et Entoure le Plus Petit ciblent l\'identification d\'un seul élément — les utilisateurs trouvent la plus grande ou la plus petite image. Entoure le Moyen ajoute de la complexité en demandant aux utilisateurs d\'identifier l\'image de taille intermédiaire, en évitant les deux extrêmes. Numéroter 1–2–3 du Plus Petit au Plus Grand et Numéroter 1–2–3 du Plus Grand au Plus Petit passent de l\'identification au séquençage, demandant aux utilisateurs d\'ordonner toutes les images par taille. Cette gamme de types de questions crée une progression naturelle de difficulté, de l\'identification simple à l\'ordonnancement en plusieurs étapes, offrant aux vendeurs un axe de différenciation intégré pour des packs de produits à niveaux.',
       },
       {
         title: 'Modes de comparaison Images Identiques vs Images Différentes',
         description:
-          'Deux modes d\'images créent des types d\'exercices fondamentalement différents à partir du même outil. Le mode Images Identiques montre la même image affichée à différentes tailles, isolant la perception pure de la taille sans autres variables — les élèves comparent l\'échelle sans éléments perturbateurs. Le mode Images Différentes montre des objets distincts à différentes tailles, nécessitant un raisonnement de taille relative où les élèves doivent comparer des éléments dissemblables. Le mode identique est idéal pour les plus jeunes qui développent la conscience de base des tailles, tandis que le mode différent met au défi les élèves plus avancés avec des compétences de comparaison plus abstraites. Basculer entre les modes double la variété de vos produits sans modifier aucun autre paramètre.',
+          'Deux modes d\'images créent des types d\'exercices fondamentalement différents à partir du même outil. Le mode Images Identiques montre la même image affichée à différentes tailles, isolant la perception pure de la taille sans autres variables — les utilisateurs comparent l\'échelle sans éléments perturbateurs. Le mode Images Différentes montre des objets distincts à différentes tailles, nécessitant un raisonnement de taille relative où les utilisateurs doivent comparer des éléments dissemblables. Le mode identique est idéal pour les plus jeunes qui développent la conscience de base des tailles, tandis que le mode différent met au défi les utilisateurs plus avancés avec des compétences de comparaison plus abstraites. Basculer entre les modes double la variété de vos produits sans modifier aucun autre paramètre.',
       },
       {
         title: 'Nombre d\'exercices et images par exercice ajustables',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Fiches entièrement visuelles avec aucun texte sur la sortie',
         description:
-          'Chaque fiche ne contient que des images et des indicateurs visuels — aucun texte n\'apparaît sur la sortie générée. Cela rend les fiches Grand & Petit universellement utilisables quelle que soit la langue, le niveau de lecture ou la capacité de lecture. Les élèves en prélecture, les apprenants en langue étrangère et les élèves en éducation spécialisée peuvent tous compléter les exercices sans lire un seul mot. Pour les vendeurs, l\'absence de texte sur la sortie signifie que la même fiche se vend dans le monde entier sans traduction — un seul produit dessert tous les marchés. C\'est un avantage concurrentiel considérable par rapport aux générateurs de fiches comportant du texte.',
+          'Chaque fiche ne contient que des images et des indicateurs visuels — aucun texte n\'apparaît sur la sortie générée. Cela rend les fiches Grand & Petit universellement utilisables quelle que soit la langue, le niveau de lecture ou la capacité de lecture. Les utilisateurs en prélecture, les apprenants en langue étrangère et les utilisateurs en éducation spécialisée peuvent tous compléter les exercices sans lire un seul mot. Pour les vendeurs, l\'absence de texte sur la sortie signifie que la même fiche se vend dans le monde entier sans traduction — un seul produit dessert tous les marchés. C\'est un avantage concurrentiel considérable par rapport aux générateurs de fiches comportant du texte.',
       },
       {
         title: 'Bibliothèque d\'images avec 104 collections thématiques',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Corrigé généré automatiquement avec réponses mises en évidence',
         description:
-          'Le corrigé généré automatiquement met en évidence et entoure les réponses correctes pour chaque exercice de la fiche. Pour les questions de type « entoure », l\'image correcte est visuellement marquée. Pour les questions de numérotation, l\'ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche, offrant aux acheteurs un produit complet. Inclure des corrigés augmente la valeur perçue et justifie des prix plus élevés sur Etsy et TPT — les acheteurs attendent des solutions vérifiées avec chaque produit de fiches.',
+          'Le corrigé généré automatiquement met en évidence et entoure les réponses correctes pour chaque exercice de la fiche. Pour les questions de type « entoure », l\'image correcte est visuellement marquée. Pour les questions de numérotation, l\'ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche, offrant aux acheteurs un produit complet. Inclure des corrigés augmente la valeur perçue et justifie des prix plus élevés sur Etsy et Gumroad — les acheteurs attendent des solutions vérifiées avec chaque produit de fiches.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI',
         description:
-          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) et dimensions personnalisées sont tous pris en charge. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe ou les cahiers en noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT — aucun post-traitement nécessaire.',
+          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) et dimensions personnalisées sont tous pris en charge. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume ou les cahiers en noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — aucun post-traitement nécessaire.',
       },
       {
         title: 'Édition complète du canevas avec outils texte et décoration',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers visuels différenciés pour TPT',
+        title: 'Ateliers visuels différenciés pour Gumroad',
         description:
-          'Construisez des ensembles de pratique de comparaison de tailles à niveaux en utilisant le type de question comme axe de différenciation : Niveau 1 (Entoure le Plus Grand, 2 images, mode identique), Niveau 2 (Entoure le Plus Petit, 2 images, mode différent), Niveau 3 (Entoure le Moyen, 3 images), et Niveau 4 (Numérotation 1–2–3). Chaque niveau cible une compétence cognitive différente — de l\'identification simple au séquençage en plusieurs étapes. Accompagnez chaque niveau d\'exercices thématiques et de corrigés. Le format visuel sans texte fonctionne dans n\'importe quelle classe quelle que soit la langue des élèves, rendant ces ressources précieuses pour les contextes inclusifs et multilingues.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construisez des ensembles de pratique de comparaison de tailles à niveaux en utilisant le type de question comme axe de différenciation : Niveau 1 (Entoure le Plus Grand, 2 images, mode identique), Niveau 2 (Entoure le Plus Petit, 2 images, mode différent), Niveau 3 (Entoure le Moyen, 3 images), et Niveau 4 (Numérotation 1–2–3). Chaque niveau cible une compétence cognitive différente — de l\'identification simple au séquençage en plusieurs étapes. Accompagnez chaque niveau d\'exercices thématiques et de corrigés. Le format visuel sans texte fonctionne dans n\'importe quelle classe quelle que soit la langue des utilisateurs, rendant ces ressources précieuses pour les contextes inclusifs et multilingues.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fiches visuelles multilingues pour les marchés mondiaux',
         description:
           'Comme les fiches Grand & Petit ne contiennent aucun texte sur la sortie, le même produit fonctionne dans toutes les langues sans modification. Créez un ensemble d\'exercices de comparaison de tailles et vendez-le dans le monde entier — aucune traduction nécessaire, aucune version linguistique séparée à maintenir. C\'est un avantage considérable par rapport aux générateurs de fiches textuels où chaque produit nécessite 11 variantes linguistiques. Listez des produits identiques sur des boutiques Etsy ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché internationales d\'Amazon. Un seul flux de travail produit un produit universellement vendable.',
-        platform: 'Etsy / Amazon KDP / TPT (mondial)',
+        platform: 'Etsy / Amazon KDP / Gumroad (mondial)',
       },
       {
-        title: 'Outil de comparaison de tailles pour la classe et le soutien',
+        title: 'Outil de comparaison de tailles pour la vente et le soutien',
         description:
-          'Téléchargez des images personnalisées pour créer des fiches de comparaison de tailles pour n\'importe quel sujet ou concept — comparez des tailles de bâtiments en géographie, des tailles d\'animaux en sciences ou des portions alimentaires en éducation à la santé. Les cinq types de questions vous permettent d\'adapter l\'exercice à l\'objectif pédagogique : identification pour l\'introduction, classement pour l\'évaluation. Ajustez le nombre d\'exercices par page et d\'images par exercice selon le niveau de chaque élève. Imprimez des séries personnalisées en quelques minutes pour des petits groupes ou des classes entières. Le corrigé généré automatiquement fait gagner du temps de correction, et le format visuel engage les élèves qui ont des difficultés avec les fiches comportant beaucoup de texte.',
+          'Téléchargez des images personnalisées pour créer des fiches de comparaison de tailles pour n\'importe quel sujet ou concept — comparez des tailles de bâtiments en géographie, des tailles d\'animaux en sciences ou des portions alimentaires en éducation à la santé. Les cinq types de questions vous permettent d\'adapter l\'exercice à l\'objectif pédagogique : identification pour l\'introduction, classement pour l\'évaluation. Ajustez le nombre d\'exercices par page et d\'images par exercice selon le niveau de chaque utilisateur. Imprimez des séries personnalisées en quelques minutes pour des petits groupes ou des classes entières. Le corrigé généré automatiquement fait gagner du valeur perçue, et le format visuel engage les utilisateurs qui ont des difficultés avec les fiches comportant beaucoup de texte.',
         platform: 'Classe / Soutien scolaire / École à la maison',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Quels sont les cinq types de questions et comment fonctionnent-ils ?',
       answer:
-        'Entoure le Plus Grand demande aux élèves d\'identifier la plus grande image parmi 2 ou 3 options. Entoure le Plus Petit cible la plus petite image. Entoure le Moyen nécessite d\'identifier l\'image de taille intermédiaire (disponible uniquement avec 3 images par exercice). Numéroter 1–2–3 du Plus Petit au Plus Grand demande aux élèves d\'étiqueter les images dans l\'ordre croissant de taille. Numéroter 1–2–3 du Plus Grand au Plus Petit inverse l\'ordre en décroissant. Les questions d\'entourage testent l\'identification ; les questions de numérotation testent le séquençage — ensemble, elles couvrent toute la gamme des compétences de discrimination de tailles.',
+        'Entoure le Plus Grand demande aux utilisateurs d\'identifier la plus grande image parmi 2 ou 3 options. Entoure le Plus Petit cible la plus petite image. Entoure le Moyen nécessite d\'identifier l\'image de taille intermédiaire (disponible uniquement avec 3 images par exercice). Numéroter 1–2–3 du Plus Petit au Plus Grand demande aux utilisateurs d\'étiqueter les images dans l\'ordre croissant de taille. Numéroter 1–2–3 du Plus Grand au Plus Petit inverse l\'ordre en décroissant. Les questions d\'entourage testent l\'identification ; les questions de numérotation testent le séquençage — ensemble, elles couvrent toute la gamme des compétences de discrimination de tailles.',
     },
     {
       question: 'Quelle est la différence entre le mode Images Identiques et Images Différentes ?',
       answer:
-        'Le mode Images Identiques montre la même image affichée à différentes tailles — par exemple, trois copies d\'un chat à petite, moyenne et grande échelle. Cela isole la perception pure de la taille sans autres variables. Le mode Images Différentes montre des objets distincts à différentes tailles — par exemple, un chien, un chat et un oiseau à des échelles différentes. Cela nécessite un raisonnement de taille relative où les élèves doivent comparer des éléments dissemblables. Les deux modes créent des exercices fondamentalement différents et doublent effectivement la variété de vos produits.',
+        'Le mode Images Identiques montre la même image affichée à différentes tailles — par exemple, trois copies d\'un chat à petite, moyenne et grande échelle. Cela isole la perception pure de la taille sans autres variables. Le mode Images Différentes montre des objets distincts à différentes tailles — par exemple, un chien, un chat et un oiseau à des échelles différentes. Cela nécessite un raisonnement de taille relative où les utilisateurs doivent comparer des éléments dissemblables. Les deux modes créent des exercices fondamentalement différents et doublent effectivement la variété de vos produits.',
     },
     {
       question: 'Que contrôle le réglage 2 ou 3 images par exercice ?',
       answer:
-        'Avec 2 images par exercice, les élèves font une simple comparaison grand/petit entre deux éléments. Avec 3 images, l\'option du moyen est introduite, activant le type de question Entoure le Moyen et rendant les exercices de numérotation plus difficiles avec trois éléments à ordonner au lieu de deux. Les exercices à trois images sont plus difficiles car les élèves doivent distinguer trois tailles relatives au lieu de seulement deux. Commencez avec 2 images pour les plus jeunes et progressez vers 3 pour une pratique plus avancée.',
+        'Avec 2 images par exercice, les utilisateurs font une simple comparaison grand/petit entre deux éléments. Avec 3 images, l\'option du moyen est introduite, activant le type de question Entoure le Moyen et rendant les exercices de numérotation plus difficiles avec trois éléments à ordonner au lieu de deux. Les exercices à trois images sont plus difficiles car les utilisateurs doivent distinguer trois tailles relatives au lieu de seulement deux. Commencez avec 2 images pour les plus jeunes et progressez vers 3 pour une pratique plus avancée.',
     },
     {
       question: 'Combien d\'exercices peut-on mettre sur une page ?',
@@ -163,12 +163,12 @@ const content: AppContent = {
     {
       question: 'Pourquoi les fiches n\'ont-elles aucun texte ?',
       answer:
-        'Les fiches Grand & Petit sont entièrement visuelles par conception. Les exercices ne contiennent que des images et des indicateurs visuels comme des cercles ou des cases de numérotation — aucun mot écrit n\'apparaît sur la sortie générée. Cela rend les fiches universellement utilisables quelle que soit la langue ou le niveau de lecture. Les élèves en prélecture les complètent sans avoir besoin de lire. La même fiche se vend dans le monde entier sans traduction. Les consignes peuvent être données oralement par l\'enseignant ou ajoutées comme texte personnalisé via les outils texte si nécessaire.',
+        'Les fiches Grand & Petit sont entièrement visuelles par conception. Les exercices ne contiennent que des images et des indicateurs visuels comme des cercles ou des cases de numérotation — aucun mot écrit n\'apparaît sur la sortie générée. Cela rend les fiches universellement utilisables quelle que soit la langue ou le niveau de lecture. Les utilisateurs en prélecture les complètent sans avoir besoin de lire. La même fiche se vend dans le monde entier sans traduction. Les consignes peuvent être données oralement par l\'vendeur ou ajoutées comme texte personnalisé via les outils texte si nécessaire.',
     },
     {
       question: 'Comment fonctionne le corrigé généré automatiquement ?',
       answer:
-        'Le corrigé crée une version résolue de votre fiche où les réponses correctes sont visuellement mises en évidence et entourées. Pour les questions d\'entourage, l\'image correcte est marquée. Pour les questions de numérotation, l\'ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche. Inclure des corrigés avec chaque produit augmente la valeur perçue et est attendu par les acheteurs sur Etsy, TPT et KDP.',
+        'Le corrigé crée une version résolue de votre fiche où les réponses correctes sont visuellement mises en évidence et entourées. Pour les questions d\'entourage, l\'image correcte est marquée. Pour les questions de numérotation, l\'ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche. Inclure des corrigés avec chaque produit augmente la valeur perçue et est attendu par les acheteurs sur Etsy, Gumroad et KDP.',
     },
     {
       question: 'Peut-on télécharger ses propres images au lieu d\'utiliser la bibliothèque ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de comparaison de tailles en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les cinq types de questions, les deux modes d\'images et le format entièrement visuel vous offrent une forte différenciation et une vendabilité mondiale dans les catégories de places de marché.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de comparaison de tailles en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les cinq types de questions, les deux modes d\'images et le format entièrement visuel vous offrent une forte différenciation et une vendabilité mondiale dans les catégories de places de marché.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -269,12 +269,12 @@ const content: AppContent = {
       {
         src: '/samples/french/big small/Grand ou Petit 1.webp',
         alt: 'Fiche de comparaison de tailles en mode entoure le plus grand avec des images thématiques d\'animaux à différentes tailles',
-        caption: 'Mode Entoure le Plus Grand — les élèves identifient la plus grande image dans chaque exercice',
+        caption: 'Mode Entoure le Plus Grand — les utilisateurs identifient la plus grande image dans chaque exercice',
       },
       {
         src: '/samples/french/big small/Grand ou Petit 2.webp',
         alt: 'Fiche de comparaison de tailles en mode numérotation avec trois images à ordonner du plus petit au plus grand',
-        caption: 'Numéroter 1–2–3 du Plus Petit au Plus Grand — les élèves ordonnent les images par taille croissante',
+        caption: 'Numéroter 1–2–3 du Plus Petit au Plus Grand — les utilisateurs ordonnent les images par taille croissante',
       },
       {
         src: '/samples/french/big small/Grand ou Petit 3.webp',

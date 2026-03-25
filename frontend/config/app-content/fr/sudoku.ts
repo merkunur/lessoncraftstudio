@@ -7,7 +7,7 @@ const content: AppContent = {
       'créer et vendre des sudoku en images pour vendeurs Etsy',
       'générateur de puzzles sudoku visuels pour éditeurs Amazon KDP',
       'créateur de fiches sudoku en images avec licence commerciale',
-      'vendre des fiches sudoku en images sur Teachers Pay Teachers',
+      'vendre des fiches sudoku en images sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques de sudoku visuels pour entrepreneurs',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Sudoku en Images | Fiches Logique 4×4',
     metaDescription:
-      'Créez des fiches sudoku en images pour Etsy, KDP et TPT. Grille 4×4, trois niveaux de difficulté, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches sudoku en images pour Etsy, KDP et Gumroad. Grille 4×4, trois niveaux de difficulté, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches Sudoku en Images pour Puzzles Logiques 4×4',
     tagline: 'Sudoku visuels 4×4 utilisant des images au lieu de chiffres — trois niveaux de difficulté de 4 à 8 cases vides, corrigés auto-générés avec grilles complètes remplies, et sélection d\'images par thème parmi 104 collections pour des puzzles vendables dans le monde entier sans traduction.',
     description:
-      'Créez des fiches professionnelles de sudoku en images 4×4 où les élèves remplissent les cases vides avec les bonnes images en utilisant la logique de lignes et colonnes. Chaque puzzle utilise exactement 4 images uniques qui doivent apparaître une fois dans chaque ligne et une fois dans chaque colonne — les mêmes règles que le sudoku classique, mais avec des illustrations colorées au lieu de chiffres. Choisissez parmi trois niveaux de difficulté : Facile supprime 4 cases, Moyen supprime 6, et Difficile supprime 8 — la moitié de la grille. Sélectionnez les images par thème avec une auto-sélection qui choisit aléatoirement 4 images parmi 104 collections thématiques, ou sélectionnez manuellement exactement 4 images depuis la bibliothèque, la recherche ou vos propres imports. Le design premium de la grille présente des couleurs alternées des blocs 2×2 en bleu clair et rose clair, des ombres multicouches et une bordure extérieure indigo avec coins arrondis. Chaque puzzle inclut un en-tête auto-généré « Sudoku en Images » localisé dans les 11 langues et un corrigé sur double canevas montrant la grille complète remplie avec les 16 cases remplies. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, puis exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Le sudoku en images étant entièrement visuel — aucun mot n\'apparaît sur la grille du puzzle — chaque fiche fonctionne identiquement dans les 11 langues, rendant vos produits vendables dans le monde entier sans aucune modification. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Que vous vendiez des packs de sudoku thématiques sur Etsy, compiliez des cahiers de logique pour Amazon KDP ou créiez des activités de raisonnement pour TPT, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches professionnelles de sudoku en images 4×4 où les utilisateurs remplissent les cases vides avec les bonnes images en utilisant la logique de lignes et colonnes. Chaque puzzle utilise exactement 4 images uniques qui doivent apparaître une fois dans chaque ligne et une fois dans chaque colonne — les mêmes règles que le sudoku classique, mais avec des illustrations colorées au lieu de chiffres. Choisissez parmi trois niveaux de difficulté : Facile supprime 4 cases, Moyen supprime 6, et Difficile supprime 8 — la moitié de la grille. Sélectionnez les images par thème avec une auto-sélection qui choisit aléatoirement 4 images parmi 104 collections thématiques, ou sélectionnez manuellement exactement 4 images depuis la bibliothèque, la recherche ou vos propres imports. Le design premium de la grille présente des couleurs alternées des blocs 2×2 en bleu clair et rose clair, des ombres multicouches et une bordure extérieure indigo avec coins arrondis. Chaque puzzle inclut un en-tête auto-généré « Sudoku en Images » localisé dans les 11 langues et un corrigé sur double canevas montrant la grille complète remplie avec les 16 cases remplies. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, puis exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Le sudoku en images étant entièrement visuel — aucun mot n\'apparaît sur la grille du puzzle — chaque fiche fonctionne identiquement dans les 11 langues, rendant vos produits vendables dans le monde entier sans aucune modification. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Que vous vendiez des packs de sudoku thématiques sur Etsy, compiliez des cahiers de logique pour Amazon KDP ou créiez des activités de raisonnement pour Gumroad, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisissez le Niveau de Difficulté',
         description:
-          'Ouvrez le panneau Sudoku pour Enfants et sélectionnez une difficulté dans le menu déroulant : Facile, Moyen ou Difficile. Facile supprime 4 cases de la grille 4×4, laissant 12 cases remplies et 4 à résoudre par l\'élève. Moyen supprime 6 cases pour un défi modéré. Difficile supprime 8 cases — exactement la moitié de la grille — nécessitant un raisonnement logique plus avancé. Le système sélectionne aléatoirement quelles cases deviennent vides, donc régénérer avec la même difficulté produit des configurations de puzzle différentes à chaque fois.',
+          'Ouvrez le panneau Sudoku pour Enfants et sélectionnez une difficulté dans le menu déroulant : Facile, Moyen ou Difficile. Facile supprime 4 cases de la grille 4×4, laissant 12 cases remplies et 4 à résoudre par l\'utilisateur. Moyen supprime 6 cases pour un défi modéré. Difficile supprime 8 cases — exactement la moitié de la grille — nécessitant un raisonnement logique plus avancé. Le système sélectionne aléatoirement quelles cases deviennent vides, donc régénérer avec la même difficulté produit des configurations de puzzle différentes à chaque fois.',
       },
       {
         title: 'Sélectionnez Exactement 4 Images',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir la grille complète remplie avec les 16 cases remplies — aucune case vide. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s\'exportent en sudoku_worksheet.jpeg/pdf et sudoku_answer_key.jpeg/pdf à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits TPT.',
+          'Passez à l\'onglet Corrigé pour voir la grille complète remplie avec les 16 cases remplies — aucune case vide. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s\'exportent en sudoku_worksheet.jpeg/pdf et sudoku_answer_key.jpeg/pdf à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits Gumroad.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Sudoku en Images 4×4 avec des Images au Lieu de Chiffres',
         description:
-          'Chaque puzzle utilise une grille 4×4 avec 4 images colorées uniques remplaçant les chiffres traditionnels. Les élèves appliquent les mêmes règles logiques que le sudoku classique — chaque image doit apparaître exactement une fois dans chaque ligne et une fois dans chaque colonne — mais le format visuel rend les puzzles accessibles aux pré-lecteurs et jeunes apprenants qui n\'ont pas encore maîtrisé les chiffres. Le format basé sur les images rend aussi chaque puzzle universellement compréhensible quelle que soit la langue, car aucun texte n\'apparaît dans la grille elle-même. Ce design purement visuel est le différenciateur clé qui ouvre les marchés mondiaux pour vos produits imprimables.',
+          'Chaque puzzle utilise une grille 4×4 avec 4 images colorées uniques remplaçant les chiffres traditionnels. Les utilisateurs appliquent les mêmes règles logiques que le sudoku classique — chaque image doit apparaître exactement une fois dans chaque ligne et une fois dans chaque colonne — mais le format visuel rend les puzzles accessibles aux pré-lecteurs et jeunes apprenants qui n\'ont pas encore maîtrisé les chiffres. Le format basé sur les images rend aussi chaque puzzle universellement compréhensible quelle que soit la langue, car aucun texte n\'apparaît dans la grille elle-même. Ce design purement visuel est le différenciateur clé qui ouvre les marchés mondiaux pour vos produits imprimables.',
       },
       {
         title: 'Trois Niveaux de Difficulté : Facile, Moyen et Difficile',
         description:
-          'Contrôlez la complexité du puzzle avec trois réglages de difficulté distincts. Facile supprime 4 cases de la grille de 16 cases, laissant 12 indices — les élèves résolvent une case à la fois avec une élimination simple par lignes et colonnes. Moyen supprime 6 cases, obligeant les élèves à considérer plusieurs contraintes simultanément. Difficile supprime 8 cases — exactement la moitié de la grille — exigeant un raisonnement logique en plusieurs étapes pour compléter le puzzle. Le système détermine aléatoirement quelles cases sont vidées, donc régénérer le même niveau de difficulté produit une configuration de puzzle différente à chaque fois.',
+          'Contrôlez la complexité du puzzle avec trois réglages de difficulté distincts. Facile supprime 4 cases de la grille de 16 cases, laissant 12 indices — les utilisateurs résolvent une case à la fois avec une élimination simple par lignes et colonnes. Moyen supprime 6 cases, obligeant les utilisateurs à considérer plusieurs contraintes simultanément. Difficile supprime 8 cases — exactement la moitié de la grille — exigeant un raisonnement logique en plusieurs étapes pour compléter le puzzle. Le système détermine aléatoirement quelles cases sont vidées, donc régénérer le même niveau de difficulté produit une configuration de puzzle différente à chaque fois.',
       },
       {
         title: 'Sélection par Thème et Manuelle pour Exactement 4 Images',
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: 'Design Premium de Grille avec Couleurs Alternées et Ombres Multicouches',
         description:
-          'La grille de sudoku présente un design soigné qui élève vos produits imprimables au-dessus des générateurs de puzzles basiques. Les blocs 2×2 alternés utilisent des fonds bleu clair (#F8F9FC) et rose clair (#FFF5F7) pour aider les élèves à identifier visuellement les limites des blocs. Des séparateurs centraux épais (#7C8DB5, trait de 3px) séparent les quatre quadrants tandis que des lignes intérieures plus fines (#D1D9E6, 1,5px) définissent les cases individuelles. Une bordure extérieure indigo (#667EEA) avec des coins arrondis de 18px encadre la grille entière, et trois ombres multicouches à différents décalages ajoutent de la profondeur. Les images s\'affichent à 65 % de la taille de la case pour une séparation visuelle nette.',
+          'La grille de sudoku présente un design soigné qui utilisateur vos produits imprimables au-dessus des générateurs de puzzles basiques. Les blocs 2×2 alternés utilisent des fonds bleu clair (#F8F9FC) et rose clair (#FFF5F7) pour aider les utilisateurs à identifier visuellement les limites des blocs. Des séparateurs centraux épais (#7C8DB5, trait de 3px) séparent les quatre quadrants tandis que des lignes intérieures plus fines (#D1D9E6, 1,5px) définissent les cases individuelles. Une bordure extérieure indigo (#667EEA) avec des coins arrondis de 18px encadre la grille entière, et trois ombres multicouches à différents décalages ajoutent de la profondeur. Les images s\'affichent à 65 % de la taille de la case pour une séparation visuelle nette.',
       },
       {
         title: 'Corrigé Auto-Généré avec Grille Complète Remplie',
         description:
-          'Chaque puzzle sudoku génère automatiquement un corrigé compagnon sur un onglet de canevas séparé. Le corrigé montre la grille 4×4 complète avec les 16 cases remplies — chaque case vide de la fiche est remplie avec la bonne image. Aucune résolution manuelle, aucune création de fichier séparé — le corrigé est toujours synchronisé avec le puzzle. Cette approche à double canevas économise un temps de production considérable pour les vendeurs créant des packs de sudoku où chaque puzzle nécessite sa propre page de solution. Téléchargez le corrigé en sudoku_answer_key.jpeg ou sudoku_answer_key.pdf à côté de la fiche élève.',
+          'Chaque puzzle sudoku génère automatiquement un corrigé compagnon sur un onglet de canevas séparé. Le corrigé montre la grille 4×4 complète avec les 16 cases remplies — chaque case vide de la fiche est remplie avec la bonne image. Aucune résolution manuelle, aucune création de fichier séparé — le corrigé est toujours synchronisé avec le puzzle. Cette approche à double canevas économise un temps de production considérable pour les vendeurs créant des packs de sudoku où chaque puzzle nécessite sa propre page de solution. Téléchargez le corrigé en sudoku_answer_key.jpeg ou sudoku_answer_key.pdf à côté de la fiche utilisateur.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 Collections Thématiques et Plus de 3 100 Illustrations',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Activités de Logique et Raisonnement pour la Classe sur TPT',
+        title: 'Activités de Logique et Raisonnement pour la vente sur Gumroad',
         description:
-          'Concevez des fiches de raisonnement logique prêtes à l\'emploi avec corrigés imprimés pour utilisation en classe. Les enseignants sur TPT recherchant des activités de pensée critique apprécient le sudoku en images car il développe la déduction logique dans un format accessible aux jeunes apprenants. Créez des ensembles alignés sur le programme organisés par thème : puzzles logiques d\'animaux de la ferme, activités de raisonnement sur les groupes alimentaires, fiches de résolution de problèmes sur les métiers de la communauté. Chaque ensemble inclut des fiches élèves à plusieurs niveaux de difficulté et des corrigés pour l\'enseignant aux formats PDF et JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Concevez des fiches de raisonnement logique prêtes à l\'emploi avec corrigés imprimés pour utilisation en ligne. Les vendeurs sur Gumroad recherchant des activités de pensée critique apprécient le sudoku en images car il développe la déduction logique dans un format accessible aux jeunes apprenants. Créez des ensembles alignés sur le programme organisés par thème : puzzles logiques d\'animaux de la ferme, activités de raisonnement sur les groupes alimentaires, fiches de résolution de problèmes sur les métiers de la communauté. Chaque ensemble inclut des fiches utilisateurs à plusieurs niveaux de difficulté et des corrigés pour l\'vendeur aux formats PDF et JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections de Puzzles Sudoku Saisonniers et de Fêtes',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et de fêtes — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d\'été et plus encore. Créez des collections de puzzles sudoku à durée limitée qui s\'alignent sur les périodes de forte demande. Lancez des packs de sudoku Halloween en septembre, des collections de Noël en octobre et des packs de Saint-Valentin en janvier. Incluez les trois niveaux de difficulté dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers obtiennent des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles d\'achats répétés tout au long de l\'année.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
       {
         title: 'Marché Mondial avec des Puzzles Purement Visuels',
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne un puzzle sudoku en images 4×4 ?',
       answer:
-        'Un sudoku en images 4×4 utilise une grille de 16 cases disposées en 4 lignes et 4 colonnes. Quatre images uniques remplacent les chiffres traditionnels. La règle est la même que le sudoku classique : chaque image doit apparaître exactement une fois dans chaque ligne et exactement une fois dans chaque colonne. Certaines cases sont pré-remplies avec des images (indices), et l\'élève remplit les cases vides en utilisant l\'élimination logique — vérifiant quelle image manque dans chaque ligne et colonne pour déterminer le placement correct.',
+        'Un sudoku en images 4×4 utilise une grille de 16 cases disposées en 4 lignes et 4 colonnes. Quatre images uniques remplacent les chiffres traditionnels. La règle est la même que le sudoku classique : chaque image doit apparaître exactement une fois dans chaque ligne et exactement une fois dans chaque colonne. Certaines cases sont pré-remplies avec des images (indices), et l\'utilisateur remplit les cases vides en utilisant l\'élimination logique — vérifiant quelle image manque dans chaque ligne et colonne pour déterminer le placement correct.',
     },
     {
       question: 'Pourquoi utiliser des images au lieu de chiffres pour le sudoku ?',
       answer:
-        'Les images rendent le sudoku accessible aux pré-lecteurs et jeunes apprenants qui n\'ont pas encore maîtrisé les chiffres. Le format visuel engage les élèves avec des illustrations thématiques colorées tout en développant les mêmes compétences de raisonnement logique que le sudoku basé sur les chiffres. Les puzzles basés sur les images sont aussi universellement compréhensibles — aucune connaissance de langue ou de système numérique requise — ce qui rend vos produits vendables dans le monde entier sans traduction.',
+        'Les images rendent le sudoku accessible aux pré-lecteurs et jeunes apprenants qui n\'ont pas encore maîtrisé les chiffres. Le format visuel engage les utilisateurs avec des illustrations thématiques colorées tout en développant les mêmes compétences de raisonnement logique que le sudoku basé sur les chiffres. Les puzzles basés sur les images sont aussi universellement compréhensibles — aucune connaissance de langue ou de système numérique requise — ce qui rend vos produits vendables dans le monde entier sans traduction.',
     },
     {
       question: 'Que contrôlent les trois niveaux de difficulté ?',
       answer:
-        'La difficulté détermine combien de cases sont laissées vides pour que l\'élève les résolve. Facile supprime 4 cases de la grille de 16 cases, laissant 12 indices pour une résolution simple. Moyen supprime 6 cases, nécessitant une déduction logique plus attentive. Difficile supprime 8 cases — exactement la moitié de la grille — exigeant un raisonnement en plusieurs étapes. Le système sélectionne aléatoirement quelles cases sont vidées, donc régénérer la même difficulté crée une disposition de puzzle différente à chaque fois.',
+        'La difficulté détermine combien de cases sont laissées vides pour que l\'utilisateur les résolve. Facile supprime 4 cases de la grille de 16 cases, laissant 12 indices pour une résolution simple. Moyen supprime 6 cases, nécessitant une déduction logique plus attentive. Difficile supprime 8 cases — exactement la moitié de la grille — exigeant un raisonnement en plusieurs étapes. Le système sélectionne aléatoirement quelles cases sont vidées, donc régénérer la même difficulté crée une disposition de puzzle différente à chaque fois.',
     },
     {
       question: 'Pourquoi le générateur exige-t-il exactement 4 images ?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le corrigé pour le sudoku en images ?',
       answer:
-        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre la grille 4×4 avec les cases vides que les élèves doivent résoudre. Le corrigé montre la même grille avec les 16 cases remplies — chaque case vide est remplie avec la bonne image. Les deux versions s\'exportent séparément avec quatre boutons dédiés : sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg et sudoku_answer_key.pdf.',
+        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre la grille 4×4 avec les cases vides que les utilisateurs doivent résoudre. Le corrigé montre la même grille avec les 16 cases remplies — chaque case vide est remplie avec la bonne image. Les deux versions s\'exportent séparément avec quatre boutons dédiés : sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg et sudoku_answer_key.pdf.',
     },
     {
       question: 'Qu\'est-ce qui rend le design de la grille premium ?',
       answer:
-        'La grille de sudoku présente des fonds alternés de blocs 2×2 en bleu clair (#F8F9FC) et rose clair (#FFF5F7) qui aident les élèves à identifier les limites des blocs. Des séparateurs centraux épais (#7C8DB5, trait de 3px) séparent les quatre quadrants tandis que des lignes intérieures plus fines (#D1D9E6, 1,5px) définissent les cases individuelles. Une bordure extérieure indigo (#667EEA) avec des coins arrondis de 18px encadre la grille entière, et trois ombres multicouches à différents décalages ajoutent une profondeur professionnelle. Les images s\'affichent à 65 % de la taille de la case pour une séparation visuelle nette.',
+        'La grille de sudoku présente des fonds alternés de blocs 2×2 en bleu clair (#F8F9FC) et rose clair (#FFF5F7) qui aident les utilisateurs à identifier les limites des blocs. Des séparateurs centraux épais (#7C8DB5, trait de 3px) séparent les quatre quadrants tandis que des lignes intérieures plus fines (#D1D9E6, 1,5px) définissent les cases individuelles. Une bordure extérieure indigo (#667EEA) avec des coins arrondis de 18px encadre la grille entière, et trois ombres multicouches à différents décalages ajoutent une profondeur professionnelle. Les images s\'affichent à 65 % de la taille de la case pour une séparation visuelle nette.',
     },
     {
       question: 'Les puzzles sont-ils uniques à chaque génération ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches sudoku en images créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches sudoku en images en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur TPT ou via tout autre canal de vente. Les trois niveaux de difficulté, les 104 collections d\'images thématiques et le format purement visuel vous donnent les outils créatifs pour produire des produits sudoku originaux et vendables dans le monde entier.',
+        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches sudoku en images en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les trois niveaux de difficulté, les 104 collections d\'images thématiques et le format purement visuel vous donnent les outils créatifs pour produire des produits sudoku originaux et vendables dans le monde entier.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

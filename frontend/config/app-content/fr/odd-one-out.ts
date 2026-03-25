@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'générateur de fiches intrus imprimables pour vendeurs Etsy',
       'créateur de puzzles trouve l\'intrus pour éditeurs Amazon KDP',
-      'générateur de fiches intrus avec licence commerciale TPT',
-      'vendre des fiches intrus sur Teachers Pay Teachers',
+      'générateur de fiches intrus avec licence commerciale Gumroad',
+      'vendre des fiches intrus sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques de discrimination visuelle pour entrepreneurs',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Intrus | Créer & Vendre',
     metaDescription:
-      'Créez des fiches trouve l’intrus pour Etsy, KDP et TPT. Modes Identique et Similaire, corrigé auto cercles rouges, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches trouve l’intrus pour Etsy, KDP et Gumroad. Modes Identique et Similaire, corrigé auto cercles rouges, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches Intrus pour des Puzzles Trouve la Différence',
     tagline: 'Deux modes de génération — Identique et Similaire — avec remplacement du mode par exercice, 5 à 10 exercices configurables, corrigés auto-générés avec marqueurs cercle rouge, et des puzzles purement visuels qui fonctionnent dans les 11 langues sans traduction.',
     description:
-      'Concevez des fiches professionnelles « Trouve l\'Intrus » où les élèves identifient et entourent l\'élément différent dans chaque rangée de quatre images. Choisissez entre deux modes de génération : le mode Identique place trois clones de la même image à côté d\'une image différente du même thème pour des défis de discrimination visuelle, tandis que le mode Similaire utilise trois images du Thème A et une image du Thème B pour des puzzles de discrimination inter-thèmes. Remplacez le mode par exercice pour mélanger les niveaux de difficulté sur une seule fiche. Configurez 5 à 10 exercices par page avec 6 par défaut, et activez les champs nom et date optionnels ainsi que les numéros d\'exercices pour un formatage prêt pour la classe. Chaque fiche génère un corrigé compagnon sur un onglet de canevas séparé — le corrigé dessine un cercle rouge autour de l\'élément intrus dans chaque rangée pour ne jamais avoir à marquer les réponses manuellement. L\'en-tête auto-généré présente une bordure extérieure corail, une bordure intérieure ambre et un fond turquoise avec le titre localisé « Trouve l\'Intrus » rendu en Fredoka et les instructions en Quicksand dans les 11 langues. Comme les puzzles sont entièrement visuels — aucun mot n\'apparaît sur la fiche elle-même — ils ne sont pas sensibles à la langue et fonctionnent identiquement dans chaque locale. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de pensée critique pour Amazon KDP ou créiez des activités de classe pour TPT, ce générateur produit des fiches intrus prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches professionnelles « Trouve l\'Intrus » où les utilisateurs identifient et entourent l\'élément différent dans chaque rangée de quatre images. Choisissez entre deux modes de génération : le mode Identique place trois clones de la même image à côté d\'une image différente du même thème pour des défis de discrimination visuelle, tandis que le mode Similaire utilise trois images du Thème A et une image du Thème B pour des puzzles de discrimination inter-thèmes. Remplacez le mode par exercice pour mélanger les niveaux de difficulté sur une seule fiche. Configurez 5 à 10 exercices par page avec 6 par défaut, et activez les champs nom et date optionnels ainsi que les numéros d\'exercices pour un formatage prêt pour la vente. Chaque fiche génère un corrigé compagnon sur un onglet de canevas séparé — le corrigé dessine un cercle rouge autour de l\'élément intrus dans chaque rangée pour ne jamais avoir à marquer les réponses manuellement. L\'en-tête auto-généré présente une bordure extérieure corail, une bordure intérieure ambre et un fond turquoise avec le titre localisé « Trouve l\'Intrus » rendu en Fredoka et les instructions en Quicksand dans les 11 langues. Comme les puzzles sont entièrement visuels — aucun mot n\'apparaît sur la fiche elle-même — ils ne sont pas sensibles à la langue et fonctionnent identiquement dans chaque locale. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de pensée critique pour Amazon KDP ou créiez des activités de classe pour Gumroad, ce générateur produit des fiches intrus prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré avec un cercle rouge dessiné autour de l\'élément intrus dans chaque rangée d\'exercice. La largeur du trait du cercle s\'adapte à la taille de l\'image (le maximum entre taille de l\'image × 0,04 et 3px) pour une visibilité cohérente sur toutes les tailles de page. Téléchargez les deux versions avec les quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits TPT.',
+          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré avec un cercle rouge dessiné autour de l\'élément intrus dans chaque rangée d\'exercice. La largeur du trait du cercle s\'adapte à la taille de l\'image (le maximum entre taille de l\'image × 0,04 et 3px) pour une visibilité cohérente sur toutes les tailles de page. Téléchargez les deux versions avec les quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits Gumroad.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Puzzles Intrus avec Deux Modes de Génération',
         description:
-          'Chaque exercice affiche quatre images dans une carte horizontale — trois éléments communs et un élément intrus — et les élèves entourent celui qui n\'appartient pas au groupe. Le générateur propose deux modes distincts. Le mode Identique place trois clones de la même image à côté d\'une image différente du même thème, créant un défi classique de discrimination visuelle. Le mode Similaire utilise trois images du Thème A (par exemple, animaux) et une image du Thème B (par exemple, nourriture), demandant aux élèves d\'identifier l\'intrus thématique plutôt qu\'un doublon visuel. Chaque mode produit un défi cognitif fondamentalement différent à partir de la même bibliothèque d\'images.',
+          'Chaque exercice affiche quatre images dans une carte horizontale — trois éléments communs et un élément intrus — et les utilisateurs entourent celui qui n\'appartient pas au groupe. Le générateur propose deux modes distincts. Le mode Identique place trois clones de la même image à côté d\'une image différente du même thème, créant un défi classique de discrimination visuelle. Le mode Similaire utilise trois images du Thème A (par exemple, animaux) et une image du Thème B (par exemple, nourriture), demandant aux utilisateurs d\'identifier l\'intrus thématique plutôt qu\'un doublon visuel. Chaque mode produit un défi cognitif fondamentalement différent à partir de la même bibliothèque d\'images.',
       },
       {
         title: 'Remplacement du Mode par Exercice pour des Fiches à Difficulté Mixte',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Nombre d\'Exercices Configurable de 5 à 10 par Fiche',
         description:
-          'Définissez le nombre d\'exercices de 5 à 10 avec le panneau Configuration des Exercices, avec 6 par défaut. Moins d\'exercices créent des fiches avec des cartes d\'images plus grandes et plus d\'espacement — idéal pour les jeunes apprenants ou les fiches destinées à la motricité fine où l\'entourage nécessite de la place. Plus d\'exercices augmentent la densité de contenu et le défi pour les élèves plus âgés. La mise en page s\'adapte automatiquement : les pages portrait avec 7 exercices ou plus passent en disposition à 2 colonnes, et les pages paysage utilisent toujours 2 colonnes pour un espacement optimal.',
+          'Définissez le nombre d\'exercices de 5 à 10 avec le panneau Configuration des Exercices, avec 6 par défaut. Moins d\'exercices créent des fiches avec des cartes d\'images plus grandes et plus d\'espacement — idéal pour les jeunes apprenants ou les fiches destinées à la motricité fine où l\'entourage nécessite de la place. Plus d\'exercices augmentent la densité de contenu et le défi pour les utilisateurs plus âgés. La mise en page s\'adapte automatiquement : les pages portrait avec 7 exercices ou plus passent en disposition à 2 colonnes, et les pages paysage utilisent toujours 2 colonnes pour un espacement optimal.',
       },
       {
         title: 'Système à Deux Thèmes avec Thème A (Commun) et Thème B (Intrus)',
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: 'Édition Complète du Canevas avec Outils Texte, Champs Nom/Date et Numéros d\'Exercices',
         description:
-          'Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Les contrôles de calques gèrent l\'ordre d\'empilement, et verrouillez les éléments finalisés pendant que vous en modifiez d\'autres. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour un formatage prêt pour la classe, et les numéros d\'exercices (25px de largeur, 15px d\'écart) pour une référence facile lors de la correction. Zoom de 25 % à 300 % pour le travail de détail. Annuler et rétablir jusqu\'à 20 états d\'historique avec Ctrl+Z et Ctrl+Y.',
+          'Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Les contrôles de calques gèrent l\'ordre d\'empilement, et verrouillez les éléments finalisés pendant que vous en modifiez d\'autres. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour un formatage prêt pour la vente, et les numéros d\'exercices (25px de largeur, 15px d\'écart) pour une référence facile lors de la correction. Zoom de 25 % à 300 % pour le travail de détail. Annuler et rétablir jusqu\'à 20 états d\'historique avec Ctrl+Z et Ctrl+Y.',
       },
     ],
   },
@@ -115,20 +115,20 @@ const content: AppContent = {
       {
         title: 'Cahiers de Discrimination Visuelle sur Amazon KDP',
         description:
-          'Compilez 40 à 80 fiches intrus en un cahier imprimé formaté pour Amazon KDP. Structurez votre livre avec une difficulté progressive : les premiers chapitres utilisent le mode Identique (trouver le non-clone), les chapitres intermédiaires utilisent le mode Similaire avec des contrastes thématiques évidents, et les chapitres avancés utilisent le mode Similaire avec des distinctions plus subtiles. Utilisez le remplacement du mode par exercice pour créer des pages à difficulté mixte qui challengent les élèves à alterner les stratégies visuelles. Incluez les corrigés à la fin avec le corrigé auto-généré à cercles rouges. Le mode niveaux de gris produit des pages économiques en encre pour les intérieurs en noir et blanc.',
+          'Compilez 40 à 80 fiches intrus en un cahier imprimé formaté pour Amazon KDP. Structurez votre livre avec une difficulté progressive : les premiers chapitres utilisent le mode Identique (trouver le non-clone), les chapitres intermédiaires utilisent le mode Similaire avec des contrastes thématiques évidents, et les chapitres avancés utilisent le mode Similaire avec des distinctions plus subtiles. Utilisez le remplacement du mode par exercice pour créer des pages à difficulté mixte qui challengent les utilisateurs à alterner les stratégies visuelles. Incluez les corrigés à la fin avec le corrigé auto-généré à cercles rouges. Le mode niveaux de gris produit des pages économiques en encre pour les intérieurs en noir et blanc.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Activités de Pensée Critique pour la Classe sur TPT',
+        title: 'Activités de Pensée Critique pour la vente sur Gumroad',
         description:
-          'Créez des fiches intrus prêtes à l\'emploi avec des champs nom et date, des numéros d\'exercices et des corrigés imprimés. Les enseignants qui cherchent des activités de pensée critique sur TPT apprécient les fiches qui arrivent prêtes pour la classe — le champ nom assure le suivi du travail des élèves, les numéros d\'exercices facilitent la discussion en classe, et le corrigé à cercles rouges fait gagner du temps de correction. Créez des ensembles alignés sur le programme : défis de classification animale, discrimination de groupes alimentaires, identification de métiers et puzzles de sensibilisation saisonnière. Chaque ensemble comprend des fiches élèves et des corrigés aux formats PDF et JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des fiches intrus prêtes à l\'emploi avec des champs nom et date, des numéros d\'exercices et des corrigés imprimés. Les vendeurs qui cherchent des activités de pensée critique sur Gumroad apprécient les fiches qui arrivent prêtes pour la vente — le champ nom assure le suivi du travail des utilisateurs, les numéros d\'exercices facilitent la discussion en ligne, et le corrigé à cercles rouges fait gagner du valeur perçue. Créez des ensembles alignés sur le programme : défis de classification animale, discrimination de groupes alimentaires, identification de métiers et puzzles de sensibilisation saisonnière. Chaque ensemble comprend des fiches utilisateurs et des corrigés aux formats PDF et JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections de Puzzles Saisonniers et de Fêtes',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et de fêtes — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d\'été et plus encore. Créez des collections intrus à durée limitée qui s\'alignent sur les périodes de forte demande. Lancez des packs de puzzles Halloween en septembre, des collections de Noël en octobre et des packs de Saint-Valentin en janvier. Mélangez les modes Identique et Similaire au sein de chaque ensemble saisonnier pour la variété et la valeur perçue. Les produits saisonniers obtiennent des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles d\'achats répétés.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
       {
         title: 'Marché Mondial — Des Puzzles Purement Visuels Sans Traduction Nécessaire',
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le mécanisme intrus ?',
       answer:
-        'Chaque exercice affiche quatre images dans une carte horizontale — trois éléments communs et un élément intrus. Les élèves observent la rangée, identifient quelle image n\'appartient pas au groupe, et l\'entourent. La position de l\'élément intrus est mélangée aléatoirement dans la rangée, il peut donc apparaître dans n\'importe lequel des quatre emplacements. Les exercices sont disposés verticalement sur la page, avec la mise en page passant à 2 colonnes en orientation paysage ou en portrait avec 7 exercices ou plus.',
+        'Chaque exercice affiche quatre images dans une carte horizontale — trois éléments communs et un élément intrus. Les utilisateurs observent la rangée, identifient quelle image n\'appartient pas au groupe, et l\'entourent. La position de l\'élément intrus est mélangée aléatoirement dans la rangée, il peut donc apparaître dans n\'importe lequel des quatre emplacements. Les exercices sont disposés verticalement sur la page, avec la mise en page passant à 2 colonnes en orientation paysage ou en portrait avec 7 exercices ou plus.',
     },
     {
       question: 'Quelle est la différence entre les modes Identique et Similaire ?',
       answer:
-        'Le mode Identique place trois clones de la même image à côté d\'une image différente du même thème — les élèves repèrent le non-doublon. Le mode Similaire utilise trois images du Thème A (par exemple, animaux) et une image du Thème B (par exemple, nourriture) — les élèves identifient l\'intrus thématique. Le mode Identique est plus facile car les élèves comparent des doublons visuels. Le mode Similaire est plus difficile car les quatre images sont différentes et la distinction est catégorielle plutôt que visuelle.',
+        'Le mode Identique place trois clones de la même image à côté d\'une image différente du même thème — les utilisateurs repèrent le non-doublon. Le mode Similaire utilise trois images du Thème A (par exemple, animaux) et une image du Thème B (par exemple, nourriture) — les utilisateurs identifient l\'intrus thématique. Le mode Identique est plus facile car les utilisateurs comparent des doublons visuels. Le mode Similaire est plus difficile car les quatre images sont différentes et la distinction est catégorielle plutôt que visuelle.',
     },
     {
       question: 'Comment fonctionne le remplacement du mode par exercice ?',
@@ -168,17 +168,17 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le corrigé auto-généré avec les cercles rouges ?',
       answer:
-        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre les cartes d\'exercices sans aucun marquage — les élèves entourent l\'élément intrus eux-mêmes. Le corrigé reproduit la mise en page identique et dessine un contour de cercle rouge autour de l\'élément intrus dans chaque rangée. La largeur du trait du cercle s\'adapte dynamiquement à la taille de l\'image (le maximum entre taille de l\'image × 0,04 et 3 pixels). Les deux versions s\'exportent séparément avec quatre boutons de téléchargement dédiés.',
+        'Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé. La fiche montre les cartes d\'exercices sans aucun marquage — les utilisateurs entourent l\'élément intrus eux-mêmes. Le corrigé reproduit la mise en page identique et dessine un contour de cercle rouge autour de l\'élément intrus dans chaque rangée. La largeur du trait du cercle s\'adapte dynamiquement à la taille de l\'image (le maximum entre taille de l\'image × 0,04 et 3 pixels). Les deux versions s\'exportent séparément avec quatre boutons de téléchargement dédiés.',
     },
     {
       question: 'Puis-je ajouter des champs nom et date aux fiches intrus ?',
       answer:
-        'Oui. Activez la case « Inclure les Champs Nom/Date » dans le panneau Configuration des Exercices pour ajouter des lignes nom et date. Ces champs se positionnent de façon réactive en fonction de la mise en page. Les champs nom et date rendent les fiches prêtes pour la classe — les enseignants peuvent suivre le travail des élèves et les parents peuvent organiser les activités terminées par date.',
+        'Oui. Activez la case « Inclure les Champs Nom/Date » dans le panneau Configuration des Exercices pour ajouter des lignes nom et date. Ces champs se positionnent de façon réactive en fonction de la mise en page. Les champs nom et date rendent les fiches prêtes pour la vente — les vendeurs peuvent suivre le travail des utilisateurs et les parents peuvent organiser les activités terminées par date.',
     },
     {
       question: 'Comment fonctionnent les numéros d\'exercices ?',
       answer:
-        'Activez la case « Inclure les Numéros d\'Exercices » dans le panneau Configuration des Exercices pour afficher les numéros sur le côté gauche de chaque carte d\'exercice. Les numéros utilisent une largeur de 25px avec un écart de 15px du contenu de la carte. Les numéros d\'exercices facilitent la correction en classe et permettent aux enseignants de référencer des exercices spécifiques pendant la discussion.',
+        'Activez la case « Inclure les Numéros d\'Exercices » dans le panneau Configuration des Exercices pour afficher les numéros sur le côté gauche de chaque carte d\'exercice. Les numéros utilisent une largeur de 25px avec un écart de 15px du contenu de la carte. Les numéros d\'exercices facilitent la correction en ligne et permettent aux vendeurs de référencer des exercices spécifiques pendant la discussion.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches intrus créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches intrus en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur TPT ou via tout autre canal de vente. Les deux modes de génération, les remplacements par exercice et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits originaux et vendables de discrimination visuelle.',
+        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches intrus en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les deux modes de génération, les remplacements par exercice et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits originaux et vendables de discrimination visuelle.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

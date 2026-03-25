@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fiches d\'addition imprimables pour Etsy',
       'générateur de fiches de maths pour Amazon KDP',
-      'vendre des fiches d\'addition sur Teachers Pay Teachers',
+      'vendre des fiches d\'addition sur Gumroad',
       'fiches d\'addition licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Fiches d\'Addition | Créer et Vendre',
     metaDescription:
-      'Créez des fiches d’addition à vendre sur Etsy, KDP et TPT. 104 thèmes, 4 modes d’exercice, corrigés inclus, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des fiches d’addition à vendre sur Etsy, KDP et Gumroad. 104 thèmes, 4 modes d’exercice, corrigés inclus, export 400+ DPI. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches d\'Addition pour l\'Apprentissage Visuel des Maths',
     tagline: 'Transformez l\'addition en aventure captivante avec des fiches de maths basées sur les images.',
     description:
-      'Créez de superbes fiches d\'addition basées sur les images qui rendent les premières notions de mathématiques concrètes et amusantes. Choisissez parmi quatre modes d\'exercice distincts — Image + Image, Image + Nombre, Trouver l\'Addende et Mode Mixte — pour s\'adapter à chaque niveau, de la maternelle au CE1. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes comme les animaux de la ferme, les véhicules et la nourriture pour donner vie à chaque problème. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou distribuiez des fiches à vos propres élèves, le Générateur de Fiches d\'Addition produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez de superbes fiches d\'addition basées sur les images qui rendent les premières notions de mathématiques concrètes et amusantes. Choisissez parmi quatre modes d\'exercice distincts — Image + Image, Image + Nombre, Trouver l\'Addende et Mode Mixte — pour s\'adapter à chaque niveau, de la maternelle au CE1. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes comme les animaux de la ferme, les véhicules et la nourriture pour donner vie à chaque problème. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou distribuiez des fiches à vos propres utilisateurs, le Générateur de Fiches d\'Addition produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configurer le mode d\'exercice et la plage de nombres',
         description:
-          'Ouvrez la Configuration des Exercices et sélectionnez l\'un des quatre modes. Image + Image montre deux groupes d\'images que les élèves comptent et additionnent. Image + Nombre associe un groupe d\'images à un chiffre. Trouver l\'Addende révèle le total et un groupe, mettant les élèves au défi de trouver la partie manquante. Le Mode Mixte mélange les trois pour une pratique variée. Définissez le minimum et le maximum d\'éléments par groupe (1–10) et choisissez le nombre d\'exercices par page (1–10).',
+          'Ouvrez la Configuration des Exercices et sélectionnez l\'un des quatre modes. Image + Image montre deux groupes d\'images que les utilisateurs comptent et additionnent. Image + Nombre associe un groupe d\'images à un chiffre. Trouver l\'Addende révèle le total et un groupe, mettant les utilisateurs au défi de trouver la partie manquante. Le Mode Mixte mélange les trois pour une pratique variée. Définissez le minimum et le maximum d\'éléments par groupe (1–10) et choisissez le nombre d\'exercices par page (1–10).',
       },
       {
         title: 'Choisir des images dans la bibliothèque thématique',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Quatre modes d\'exercice distincts',
         description:
-          'Choisissez le mode adapté au niveau de vos élèves. Le mode Image + Image utilise deux groupes d\'images pour un comptage purement visuel — idéal pour les enfants de maternelle qui apprennent à additionner. Le mode Image + Nombre associe des images à des chiffres pour faire le pont entre le concret et l\'abstrait. Le mode Trouver l\'Addende montre la somme et un groupe, développant le raisonnement algébrique précoce. Le Mode Mixte combine les trois pour une pratique variée et sans répétition.',
+          'Choisissez le mode adapté au niveau de vos utilisateurs. Le mode Image + Image utilise deux groupes d\'images pour un comptage purement visuel — idéal pour les enfants de maternelle qui apprennent à additionner. Le mode Image + Nombre associe des images à des chiffres pour faire le pont entre le concret et l\'abstrait. Le mode Trouver l\'Addende montre la somme et un groupe, développant le raisonnement algébrique précoce. Le Mode Mixte combine les trois pour une pratique variée et sans répétition.',
       },
       {
         title: 'Plages de nombres configurables',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Génération automatique du corrigé',
         description:
-          'Cliquez sur un bouton pour générer un corrigé complet qui reproduit la mise en page de votre fiche avec toutes les solutions remplies. L\'onglet corrigé affiche un aperçu en direct pour vérifier l\'exactitude avant le téléchargement. Exportez le corrigé en fichier JPEG ou PDF séparé, idéal pour les éditions enseignants, les guides parents ou les packs de produits Etsy sans aucun travail manuel.',
+          'Cliquez sur un bouton pour générer un corrigé complet qui reproduit la mise en page de votre fiche avec toutes les solutions remplies. L\'onglet corrigé affiche un aperçu en direct pour vérifier l\'exactitude avant le téléchargement. Exportez le corrigé en fichier JPEG ou PDF séparé, idéal pour les éditions vendeurs, les guides parents ou les packs de produits Etsy sans aucun travail manuel.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer à 400+ DPI',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Cadres décoratifs et thèmes de fond',
         description:
-          'Transformez vos fiches de simples à professionnelles avec des cadres décoratifs et des images de fond tirés de la même bibliothèque de 104 thèmes. Ajustez l\'opacité du cadre et du fond indépendamment pour que les éléments visuels enrichissent le design sans distraire du contenu mathématique. La combinaison d\'un cadre saisonnier et d\'un fond teinté crée des ensembles thématiques qui se vendent à des prix plus élevés sur Etsy et Teachers Pay Teachers.',
+          'Transformez vos fiches de simples à professionnelles avec des cadres décoratifs et des images de fond tirés de la même bibliothèque de 104 thèmes. Ajustez l\'opacité du cadre et du fond indépendamment pour que les éléments visuels enrichissent le design sans distraire du contenu mathématique. La combinaison d\'un cadre saisonnier et d\'un fond teinté crée des ensembles thématiques qui se vendent à des prix plus élevés sur Etsy et Gumroad.',
       },
       {
         title: 'Édition complète du canevas avec annuler et rétablir',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Packs thématiques de fiches d\'addition sur Etsy',
         description:
-          'Créez des ensembles de 10 à 20 fiches d\'addition regroupées par thème — animaux de la ferme, dinosaures, vie marine, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez le corrigé en fichier bonus. Les packs thématiques attirent les parents qui cherchent des centres d\'intérêt spécifiques et les enseignants qui ont besoin de matériel prêt à l\'emploi. Fixez le prix des thèmes individuels à 3 €–5 € et des méga-packs à 12 €–18 € pour un panier moyen solide.',
+          'Créez des ensembles de 10 à 20 fiches d\'addition regroupées par thème — animaux de la ferme, dinosaures, vie marine, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez le corrigé en fichier bonus. Les packs thématiques attirent les parents qui cherchent des centres d\'intérêt spécifiques et les vendeurs qui ont besoin de matériel prêt à l\'emploi. Fixez le prix des thèmes individuels à 3 €–5 € et des méga-packs à 12 €–18 € pour un panier moyen solide.',
         platform: 'Etsy (etsy.fr)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers de maths différenciés pour TPT',
+        title: 'Ateliers de maths différenciés pour Gumroad',
         description:
-          'Créez des ensembles d\'addition à niveaux avec les quatre modes d\'exercice : Niveau 1 (Image + Image, plage 1–3), Niveau 2 (Image + Nombre, plage 1–5), Niveau 3 (Trouver l\'Addende, plage 1–7) et Niveau 4 (Mixte, plage 1–10). Chaque niveau avec corrigés et fiche de suivi. Les acheteurs de Teachers Pay Teachers paient des prix premium pour des ressources différenciées qu\'ils peuvent utiliser immédiatement dans plusieurs groupes de niveau.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des ensembles d\'addition à niveaux avec les quatre modes d\'exercice : Niveau 1 (Image + Image, plage 1–3), Niveau 2 (Image + Nombre, plage 1–5), Niveau 3 (Trouver l\'Addende, plage 1–7) et Niveau 4 (Mixte, plage 1–10). Chaque niveau avec corrigés et fiche de suivi. Les acheteurs de Gumroad paient des prix premium pour des ressources différenciées qu\'ils peuvent utiliser immédiatement dans plusieurs groupes de niveau.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenu d\'abonnement pour votre propre boutique',
@@ -131,9 +131,9 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Fiches de pratique pour la classe et le soutien scolaire',
+        title: 'Fiches de pratique pour la vente et le soutien scolaire',
         description:
-          'Générez des fiches d\'addition personnalisées adaptées au niveau actuel de chaque élève. Imprimez des fiches Image + Image pour les débutants et des fiches Trouver l\'Addende pour les élèves avancés — tout dans la même session. Le corrigé automatique fait gagner du temps de correction. Que vous dirigiez un centre de soutien, enseigniez en grande section ou fassiez l\'école à la maison, le générateur remplace des heures de création manuelle par quelques clics.',
+          'Générez des fiches d\'addition personnalisées adaptées au niveau actuel de chaque utilisateur. Imprimez des fiches Image + Image pour les débutants et des fiches Trouver l\'Addende pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue. Que vous dirigiez un centre de soutien, enseigniez en grande section ou fassiez l\'école à la maison, le générateur remplace des heures de création manuelle par quelques clics.',
         platform: 'Classe / Soutien scolaire / École à la maison',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quels modes d\'exercice propose le Générateur de Fiches d\'Addition ?',
       answer:
-        'Le générateur comprend quatre modes : Image + Image (deux groupes d\'images à compter et additionner), Image + Nombre (un groupe d\'images plus un chiffre), Trouver l\'Addende (la somme est affichée et les élèves trouvent le groupe manquant) et Mode Mixte (mélange les trois). Chaque mode cible un niveau différent, du comptage visuel pur au raisonnement algébrique précoce. Les vendeurs qui proposent les quatre modes dans un même pack différencié peuvent fixer des prix premium, car les acheteurs reçoivent une progression complète du débutant à l\'avancé.',
+        'Le générateur comprend quatre modes : Image + Image (deux groupes d\'images à compter et additionner), Image + Nombre (un groupe d\'images plus un chiffre), Trouver l\'Addende (la somme est affichée et les utilisateurs trouvent le groupe manquant) et Mode Mixte (mélange les trois). Chaque mode cible un niveau différent, du comptage visuel pur au raisonnement algébrique précoce. Les vendeurs qui proposent les quatre modes dans un même pack différencié peuvent fixer des prix premium, car les acheteurs reçoivent une progression complète du débutant à l\'avancé.',
     },
     {
       question: 'Quelles plages de nombres puis-je définir pour les problèmes d\'addition ?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Le générateur crée-t-il des corrigés automatiquement ?',
       answer:
-        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version complétée de votre fiche avec toutes les sommes correctes. Vous pouvez prévisualiser le corrigé à l\'écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche élève. Inclure des corrigés dans vos fiches produits ajoute de la valeur perçue pour les enseignants acheteurs, qui s\'attendent à des ressources prêtes à l\'emploi.',
+        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version complétée de votre fiche avec toutes les sommes correctes. Vous pouvez prévisualiser le corrigé à l\'écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche utilisateur. Inclure des corrigés dans vos fiches produits ajoute de la valeur perçue pour les vendeurs acheteurs, qui s\'attendent à des ressources prêtes à l\'emploi.',
     },
     {
       question: 'Quels formats de page et d\'export sont pris en charge ?',
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: 'Que comprend la licence commerciale ?',
       answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme. Il n\'y a pas de redevances par vente, pas de frais mensuels et aucune limite sur le nombre de fiches que vous produisez ou vendez.',
+        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Il n\'y a pas de redevances par vente, pas de frais mensuels et aucune limite sur le nombre de fiches que vous produisez ou vendez.',
     },
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'addition en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. De nombreux vendeurs créent des packs thématiques et des cahiers d\'activités qui génèrent des revenus réguliers.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'addition en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. De nombreux vendeurs créent des packs thématiques et des cahiers d\'activités qui génèrent des revenus réguliers.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -259,7 +259,7 @@ const content: AppContent = {
       {
         src: '/samples/french/addition/Addition Amusant 1.webp',
         alt: 'Fiche d\'addition portrait en mode Image + Image avec thème animaux',
-        caption: 'Mode Image + Image — les élèves comptent deux groupes d\'images et écrivent la somme',
+        caption: 'Mode Image + Image — les utilisateurs comptent deux groupes d\'images et écrivent la somme',
       },
       {
         src: '/samples/french/addition/Addition Amusant 2.webp',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/french/addition/Addition Amusant 4.webp',
         alt: 'Fiche d\'addition en mode Trouver l\'Addende avec thème véhicules',
-        caption: 'Mode Trouver l\'Addende — les élèves trouvent le groupe manquant pour l\'algèbre précoce',
+        caption: 'Mode Trouver l\'Addende — les utilisateurs trouvent le groupe manquant pour l\'algèbre précoce',
       },
     ],
     youtubeId: '6O5aCzHkh8M',

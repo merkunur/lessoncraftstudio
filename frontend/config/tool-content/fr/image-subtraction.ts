@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches de Soustraction',
     tagline: 'Créez des fiches de soustraction visuelles avec images barrées en moins de 60 secondes',
-    description: 'Rendez la soustraction intuitive grâce à la visualisation barrée que les enfants comprennent instinctivement. Cet outil génère des fiches de soustraction basées sur les images où les élèves barrent des images pour trouver la réponse — la méthode la plus naturelle pour apprendre à retirer. Choisissez parmi plus de 100 thèmes d\'images, réglez le diminuende maximum, sélectionnez parmi quatre modes d\'exercice dont le format unique Barrer, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs Etsy qui construisent des gammes de produits de maths différenciés, les enseignants qui préparent des paquets pour la classe et les éditeurs KDP qui compilent des cahiers d\'activités de soustraction. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
+    description: 'Rendez la soustraction intuitive grâce à la visualisation barrée que les enfants comprennent instinctivement. Cet outil génère des fiches de soustraction basées sur les images où les utilisateurs barrent des images pour trouver la réponse — la méthode la plus naturelle pour apprendre à retirer. Choisissez parmi plus de 100 thèmes d\'images, réglez le diminuende maximum, sélectionnez parmi quatre modes d\'exercice dont le format unique Barrer, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs Etsy qui construisent des gammes de produits de maths différenciés, les vendeurs qui préparent des paquets pour la vente et les éditeurs KDP qui compilent des cahiers d\'activités de soustraction. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },
 
   tutorial: {
@@ -33,11 +33,11 @@ const content: ToolContent = {
       },
       {
         title: 'Choisir le Mode d\'Exercice',
-        description: 'Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi quatre modes : Barrer (les élèves barrent des images pour visualiser la soustraction — le mode le plus intuitif pour les jeunes apprenants), Image − Nombre (un groupe d\'images moins un chiffre), Trouver le Nombre à Soustraire (le diminuende et le résultat sont affichés ; l\'enfant doit déterminer combien ont été retirés), ou Mode Mixte (combine aléatoirement les trois styles sur une même fiche).',
+        description: 'Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi quatre modes : Barrer (les utilisateurs barrent des images pour visualiser la soustraction — le mode le plus intuitif pour les jeunes apprenants), Image − Nombre (un groupe d\'images moins un chiffre), Trouver le Nombre à Soustraire (le diminuende et le résultat sont affichés ; l\'enfant doit déterminer combien ont été retirés), ou Mode Mixte (combine aléatoirement les trois styles sur une même fiche).',
       },
       {
         title: 'Régler la Plage de Difficulté',
-        description: 'Ajustez le curseur « Diminuende Maximum » pour contrôler le plus grand nombre de départ dans chaque exercice (plage : 2–20). Pour les tout-petits, gardez-le à 5 ou moins. Les enfants de maternelle gèrent bien jusqu\'à 10. Les élèves de CP peuvent travailler avec la plage complète jusqu\'à 20. Vous pouvez aussi définir le nombre d\'exercices par fiche (de 1 à 10).',
+        description: 'Ajustez le curseur « Diminuende Maximum » pour contrôler le plus grand nombre de départ dans chaque exercice (plage : 2–20). Pour les tout-petits, gardez-le à 5 ou moins. Les enfants de maternelle gèrent bien jusqu\'à 10. Les utilisateurs de CP peuvent travailler avec la plage complète jusqu\'à 20. Vous pouvez aussi définir le nombre d\'exercices par fiche (de 1 à 10).',
       },
       {
         title: 'Sélectionner un Thème dans la Bibliothèque d\'Images',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Affiner les Options de la Fiche',
-        description: 'Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe moins entre les groupes d\'images, incluez les numéros d\'exercice et basculez le style de zone de réponse adapté aux enfants. Chaque option met à jour l\'aperçu en direct instantanément.',
+        description: 'Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe moins entre les groupes d\'images, incluez les numéros d\'exercice et basculez le style de zone de réponse attrayant. Chaque option met à jour l\'aperçu en direct instantanément.',
       },
       {
         title: 'Générer et Télécharger',
@@ -65,15 +65,15 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs d\'Activités de Soustraction par Barrage',
-      description: 'Créez des ensembles de 10 à 20 fiches en mode Barrer où les enfants barrent physiquement les images pour résoudre chaque problème. Regroupez-les par thème — dinosaures, animaux de la ferme, créatures marines — et vendez comme packs de soustraction visuelle sur Etsy.fr ou Teachers Pay Teachers. Le format Barrer est la demande numéro un des éducateurs de la petite enfance pour enseigner la soustraction.',
+      description: 'Créez des ensembles de 10 à 20 fiches en mode Barrer où les enfants barrent physiquement les images pour résoudre chaque problème. Regroupez-les par thème — dinosaures, animaux de la ferme, créatures marines — et vendez comme packs de soustraction visuelle sur Etsy.fr ou Gumroad. Le format Barrer est la demande numéro un des entrepreneurs de la petite enfance pour enseigner la soustraction.',
     },
     {
       title: 'Cahiers d\'Activités « Retirer » pour Amazon KDP',
       description: 'Générez 50 à 100 pages de fiches de soustraction en modes mixtes, exportez en PDF haute résolution et publiez comme cahier d\'activités low-content sur Amazon KDP. Utilisez le format carré (1200×1200) pour les cahiers KDP et alternez entre Barrer et Image − Nombre pour la variété.',
     },
     {
-      title: 'Ensembles Différenciés pour la Classe',
-      description: 'Générez trois versions de la même fiche à différents niveaux de difficulté : facile (diminuende max 5), moyen (diminuende max 10) et difficile (diminuende max 20). Les enseignants peuvent distribuer le bon niveau à chaque élève sans passer plus de temps en préparation. Incluez le mode Trouver le Nombre à Soustraire dans le set avancé pour un défi supplémentaire.',
+      title: 'Ensembles Différenciés pour la vente',
+      description: 'Générez trois versions de la même fiche à différents niveaux de difficulté : facile (diminuende max 5), moyen (diminuende max 10) et difficile (diminuende max 20). Les vendeurs peuvent distribuer le bon niveau à chaque utilisateur sans passer plus de temps en préparation. Incluez le mode Trouver le Nombre à Soustraire dans le set avancé pour un défi supplémentaire.',
     },
     {
       title: 'Packs de Soustraction Saisonniers',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Fiches « Trouver le Nombre Manquant »',
-      description: 'Utilisez le mode Trouver le Nombre à Soustraire exclusivement pour créer des fiches de « nombre manquant » en soustraction. Ce format est populaire auprès des enseignants de CP et CE1 car il développe le raisonnement algébrique précoce. Proposez-les comme gamme de produits séparée aux côtés de vos packs de soustraction standard.',
+      description: 'Utilisez le mode Trouver le Nombre à Soustraire exclusivement pour créer des fiches de « nombre manquant » en soustraction. Ce format est populaire auprès des vendeurs de CP et CE1 car il développe le raisonnement algébrique précoce. Proposez-les comme gamme de produits séparée aux côtés de vos packs de soustraction standard.',
     },
     {
       title: 'Fiches de Soustraction Bilingues',
@@ -92,13 +92,13 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Boutique de Fiches de Maths Visuelles sur Etsy',
-      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches de soustraction visuelles. Le format Barrer est très recherché par les parents et les enseignants car il rend la soustraction abstraite concrète et tangible. Créez 15 à 20 packs thématiques entre 3 € et 5 € chacun. Sans stock et avec livraison numérique instantanée, les marges sont proches de 100 % après les frais Etsy. Concentrez le SEO de votre boutique sur des mots-clés longue traîne comme « fiches soustraction barrer imprimables » et « exercices retirer avec images maternelle » pour vous démarquer des listings de fiches de maths génériques. Rafraîchissez vos vignettes par saison et ajoutez de nouveaux packs thématiques chaque mois pour maintenir votre boutique active dans l\'algorithme de recherche d\'Etsy.',
+      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches de soustraction visuelles. Le format Barrer est très recherché par les parents et les vendeurs car il rend la soustraction abstraite concrète et tangible. Créez 15 à 20 packs thématiques entre 3 € et 5 € chacun. Sans stock et avec livraison numérique instantanée, les marges sont proches de 100 % après les frais Etsy. Concentrez le SEO de votre boutique sur des mots-clés longue traîne comme « fiches soustraction barrer imprimables » et « exercices retirer avec images maternelle » pour vous démarquer des listings de fiches de maths génériques. Rafraîchissez vos vignettes par saison et ajoutez de nouveaux packs thématiques chaque mois pour maintenir votre boutique active dans l\'algorithme de recherche d\'Etsy.',
       platform: 'Etsy.fr',
     },
     {
-      title: 'Vendeur de Packs de Maths sur Teachers Pay Teachers',
-      description: 'Téléchargez des packs de fiches de soustraction différenciés sur TPT. Les enseignants recherchent constamment « fiches soustraction barrer » et « exercices retirer imprimables ». Incluez les quatre modes d\'exercice, les corrigés et un guide enseignant dans chaque listing pour une valeur perçue plus élevée et de meilleures évaluations.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Vendeur de Packs de Maths sur Gumroad',
+      description: 'Téléchargez des packs de fiches de soustraction différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches soustraction barrer » et « exercices retirer imprimables ». Incluez les quatre modes d\'exercice, les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée et de meilleures évaluations.',
+      platform: 'Gumroad',
     },
     {
       title: 'Cahiers d\'Activités de Soustraction sur Amazon KDP',
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ressources pour Centre de Soutien Scolaire',
-      description: 'Si vous dirigez un centre de soutien scolaire, générez des fiches de soustraction personnalisées pour chaque séance d\'élève. Commencez avec les élèves en difficulté en mode Barrer pour construire la compréhension conceptuelle, puis passez au mode Trouver le Nombre à Soustraire quand ils sont prêts. Utilisez le corrigé pour une correction instantanée entre les séances. Des fiches personnalisées avec des thèmes que chaque enfant apprécie — dinosaures pour l\'un, licornes pour l\'autre — augmentent considérablement l\'engagement et renforcent la fidélisation des clients.',
+      description: 'Si vous dirigez un centre de soutien scolaire, générez des fiches de soustraction personnalisées pour chaque séance d\'utilisateur. Commencez avec les utilisateurs en difficulté en mode Barrer pour construire la compréhension conceptuelle, puis passez au mode Trouver le Nombre à Soustraire quand ils sont prêts. Utilisez le corrigé pour une correction instantanée entre les séances. Des fiches personnalisées avec des thèmes que chaque enfant apprécie — dinosaures pour l\'un, licornes pour l\'autre — augmentent considérablement l\'engagement et renforcent la fidélisation des clients.',
     },
     {
       title: 'Entonnoir d\'Acquisition via Pinterest',
@@ -123,19 +123,19 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Commencez par le Mode Barrer pour les Jeunes Apprenants',
-      description: 'Barrer est le format de soustraction le plus intuitif pour les enfants de maternelle et grande section. Les enfants voient un groupe d\'images, en barrent certaines et comptent ce qui reste. Commencez chaque nouveau produit ou gamme de produits par le mode Barrer avant d\'introduire les autres modes — cela construit la compréhension fondamentale que la soustraction signifie « retirer ». La recherche montre systématiquement que la progression du concret vers l\'abstrait produit de meilleurs résultats en mathématiques, et les fiches Barrer se situent parfaitement dans la phase concrète-représentationnelle. Les parents et enseignants préfèrent majoritairement ce format pour les enfants de 3 à 6 ans car il supprime le facteur d\'intimidation du travail avec les chiffres seuls.',
+      description: 'Barrer est le format de soustraction le plus intuitif pour les enfants de maternelle et grande section. Les enfants voient un groupe d\'images, en barrent certaines et comptent ce qui reste. Commencez chaque nouveau produit ou gamme de produits par le mode Barrer avant d\'introduire les autres modes — cela construit la compréhension fondamentale que la soustraction signifie « retirer ». La recherche montre systématiquement que la progression du concret vers l\'abstrait produit de meilleurs résultats en mathématiques, et les fiches Barrer se situent parfaitement dans la phase concrète-représentationnelle. Les parents et vendeurs préfèrent majoritairement ce format pour les enfants de 3 à 6 ans car il supprime le facteur d\'intimidation du travail avec les chiffres seuls.',
     },
     {
       title: 'Gardez le Diminuende Maximum Bas pour les Débutants',
-      description: 'Réglez le curseur du diminuende maximum à 5 pour les produits de maternelle et à 10 pour la grande section. Les jeunes enfants sont submergés par de grands groupes d\'images. Créez des versions séparées « facile » (diminuende max 5), « moyen » (diminuende max 10) et « défi » (diminuende max 20) pour que les acheteurs puissent choisir le bon niveau. Proposer les trois niveaux de difficulté en un seul pack différencié sur Etsy ou TPT commande un prix plus élevé que les packs individuels car les enseignants apprécient les ressources nivelées prêtes à l\'emploi.',
+      description: 'Réglez le curseur du diminuende maximum à 5 pour les produits de maternelle et à 10 pour la grande section. Les jeunes enfants sont submergés par de grands groupes d\'images. Créez des versions séparées « facile » (diminuende max 5), « moyen » (diminuende max 10) et « défi » (diminuende max 20) pour que les acheteurs puissent choisir le bon niveau. Proposer les trois niveaux de difficulté en un seul pack différencié sur Etsy ou Gumroad commande un prix plus élevé que les packs individuels car les vendeurs apprécient les ressources nivelées prêtes à l\'emploi.',
     },
     {
-      title: 'Utilisez Trouver le Nombre à Soustraire pour les Élèves Avancés',
-      description: 'Le mode Trouver le Nombre à Soustraire affiche le nombre de départ et le résultat, et l\'enfant doit déterminer combien ont été retirés. C\'est nettement plus difficile et développe le raisonnement algébrique précoce. Réservez-le pour les élèves de CP et au-delà, ou commercialisez-le comme un niveau « défi » séparé. Sur Etsy et TPT, les fiches de soustraction « nombre manquant » attirent un segment d\'acheteurs distinct — les enseignants qui préparent leurs élèves aux évaluations standardisées où les opérations inverses apparaissent fréquemment.',
+      title: 'Utilisez Trouver le Nombre à Soustraire pour les utilisateurs Avancés',
+      description: 'Le mode Trouver le Nombre à Soustraire affiche le nombre de départ et le résultat, et l\'enfant doit déterminer combien ont été retirés. C\'est nettement plus difficile et développe le raisonnement algébrique précoce. Réservez-le pour les utilisateurs de CP et au-delà, ou commercialisez-le comme un niveau « défi » séparé. Sur Etsy et Gumroad, les fiches de soustraction « nombre manquant » attirent un segment d\'acheteurs distinct — les vendeurs qui préparent leurs utilisateurs aux évaluations standardisées où les opérations inverses apparaissent fréquemment.',
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Pour les fiches Barrer, le corrigé montre quelles images sont barrées, rendant la correction instantanée. Les acheteurs sur Etsy.fr et TPT attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Inclure les corrigés réduit aussi les questions de support client et les demandes de remboursement, car les parents travaillant avec leurs enfants à la maison peuvent vérifier les réponses sans avoir à résoudre chaque exercice eux-mêmes.',
+      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Pour les fiches Barrer, le corrigé montre quelles images sont barrées, rendant la correction instantanée. Les acheteurs sur Etsy.fr et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Inclure les corrigés réduit aussi les questions de support client et les demandes de remboursement, car les parents travaillant avec leurs enfants à la maison peuvent vérifier les réponses sans avoir à résoudre chaque exercice eux-mêmes.',
     },
     {
       title: 'Exportez en PDF et en JPEG',
@@ -158,7 +158,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quels sont les quatre modes d\'exercice ?',
-      answer: 'Le générateur prend en charge quatre modes : Barrer (les élèves barrent des images pour visualiser la soustraction), Image − Nombre (un groupe d\'images moins un chiffre), Trouver le Nombre à Soustraire (le diminuende et le résultat sont affichés ; l\'enfant détermine combien ont été retirés) et Mode Mixte (combine aléatoirement les trois styles sur une même fiche pour un maximum de variété).',
+      answer: 'Le générateur prend en charge quatre modes : Barrer (les utilisateurs barrent des images pour visualiser la soustraction), Image − Nombre (un groupe d\'images moins un chiffre), Trouver le Nombre à Soustraire (le diminuende et le résultat sont affichés ; l\'enfant détermine combien ont été retirés) et Mode Mixte (combine aléatoirement les trois styles sur une même fiche pour un maximum de variété).',
     },
     {
       question: 'Quels formats de fichiers puis-je télécharger ?',
@@ -166,7 +166,7 @@ const content: ToolContent = {
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez. De nombreux vendeurs créent des boutiques Etsy entières dédiées aux fiches de soustraction et de maths, générant des revenus mensuels réguliers grâce à un catalogue de produits ciblé. La licence commerciale couvre une génération illimitée de fiches sur tous les thèmes et niveaux de difficulté.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez. De nombreux vendeurs créent des boutiques Etsy entières dédiées aux fiches de soustraction et de maths, générant des revenus mensuels réguliers grâce à un catalogue de produits ciblé. La licence commerciale couvre une génération illimitée de fiches sur tous les thèmes et niveaux de difficulté.',
     },
     {
       question: 'Comment fonctionne le mode Barrer ?',
@@ -174,7 +174,7 @@ const content: ToolContent = {
     },
     {
       question: 'Que contrôle le réglage du diminuende maximum ?',
-      answer: 'Le curseur du diminuende maximum (plage 2–20) définit le plus grand nombre de départ dans chaque exercice de soustraction. Par exemple, si le diminuende maximum est réglé à 10, les exercices afficheront jusqu\'à 10 images. Les valeurs basses sont plus faciles pour les jeunes enfants ; les valeurs hautes offrent plus de défi pour les élèves avancés. Pour les vendeurs de produits, ce réglage est le contrôle de difficulté principal. Un listing bien structuré pourrait inclure trois niveaux — « facile », « moyen » et « difficile » — basés sur la valeur du diminuende maximum.',
+      answer: 'Le curseur du diminuende maximum (plage 2–20) définit le plus grand nombre de départ dans chaque exercice de soustraction. Par exemple, si le diminuende maximum est réglé à 10, les exercices afficheront jusqu\'à 10 images. Les valeurs basses sont plus faciles pour les jeunes enfants ; les valeurs hautes offrent plus de défi pour les utilisateurs avancés. Pour les vendeurs de produits, ce réglage est le contrôle de difficulté principal. Un listing bien structuré pourrait inclure trois niveaux — « facile », « moyen » et « difficile » — basés sur la valeur du diminuende maximum.',
     },
     {
       question: 'Puis-je créer des fiches dans d\'autres langues que le français ?',

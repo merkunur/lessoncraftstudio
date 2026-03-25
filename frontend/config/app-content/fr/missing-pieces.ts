@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'générateur de puzzles pièces manquantes pour vendeurs Etsy',
       'créateur de fiches puzzle visuelles pour éditeurs Amazon KDP',
-      'générateur de puzzles avec licence commerciale TPT',
-      'vendre des fiches de puzzles pièces manquantes sur Teachers Pay Teachers',
+      'générateur de puzzles avec licence commerciale Gumroad',
+      'vendre des fiches de puzzles pièces manquantes sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques de puzzles visuels pour entrepreneurs',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Pièces Manquantes | Puzzles Visuels',
     metaDescription:
-      'Créez des puzzles pièces manquantes pour Etsy, KDP et TPT. 6 formes de pièces, difficulté configurable, corrigé auto, 104 thèmes.',
+      'Créez des puzzles pièces manquantes pour Etsy, KDP et Gumroad. 6 formes de pièces, difficulté configurable, corrigé auto, 104 thèmes.',
   },
 
   hero: {
     title: 'Générateur de Puzzles Pièces Manquantes pour des Défis Visuels Style Puzzle',
-    tagline: 'Créez des puzzles style puzzle où des pièces sont découpées dans des images et les élèves identifient la bonne option numérotée — avec 6 formes de pièces, 1 à 5 pièces manquantes, 2 à 6 options de réponse incluant des pièces distractrices, des corrigés auto-générés et un design purement visuel qui fonctionne dans toutes les langues.',
+    tagline: 'Créez des puzzles style puzzle où des pièces sont découpées dans des images et les utilisateurs identifient la bonne option numérotée — avec 6 formes de pièces, 1 à 5 pièces manquantes, 2 à 6 options de réponse incluant des pièces distractrices, des corrigés auto-générés et un design purement visuel qui fonctionne dans toutes les langues.',
     description:
-      'Concevez des puzzles professionnels de pièces manquantes où une image a des trous découpés et les élèves identifient quelle option numérotée remplit chaque espace. L\'algorithme d\'extraction intelligente de pièces trouve des zones visuellement distinctes avec une variance de couleur suffisante, garantissant que chaque puzzle est résolvable et engageant. Choisissez parmi 6 formes de pièces — carré, cercle, rectangle portrait, rectangle paysage, ellipse portrait et ellipse paysage — et configurez la difficulté avec 1 à 5 pièces manquantes et 2 à 6 options de réponse qui incluent des pièces distractrices pour stimuler les compétences de discrimination visuelle. Chaque puzzle comprend un corrigé auto-généré avec des étiquettes numériques surlignées en jaune placées à l\'intérieur de chaque trou montrant la bonne option. L\'en-tête auto-généré affiche « Pièces Manquantes » en turquoise (#06B6D4) avec une description rose (#DB2777) à travers un système à double bordure — bordure extérieure bleu sarcelle (#14B8A6, 8px) et bordure intérieure rose vif (#EC4899, 3px) — localisé dans les 11 langues prises en charge. Pièces Manquantes n\'est PAS sensible à la langue : les puzzles sont purement visuels sans contenu dépendant de la locale, donc chaque puzzle fonctionne identiquement dans le monde entier. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de puzzles pour Amazon KDP ou créiez des activités de pensée critique pour TPT, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des puzzles professionnels de pièces manquantes où une image a des trous découpés et les utilisateurs identifient quelle option numérotée remplit chaque espace. L\'algorithme d\'extraction intelligente de pièces trouve des zones visuellement distinctes avec une variance de couleur suffisante, garantissant que chaque puzzle est résolvable et engageant. Choisissez parmi 6 formes de pièces — carré, cercle, rectangle portrait, rectangle paysage, ellipse portrait et ellipse paysage — et configurez la difficulté avec 1 à 5 pièces manquantes et 2 à 6 options de réponse qui incluent des pièces distractrices pour stimuler les compétences de discrimination visuelle. Chaque puzzle comprend un corrigé auto-généré avec des étiquettes numériques surlignées en jaune placées à l\'intérieur de chaque trou montrant la bonne option. L\'en-tête auto-généré affiche « Pièces Manquantes » en turquoise (#06B6D4) avec une description rose (#DB2777) à travers un système à double bordure — bordure extérieure bleu sarcelle (#14B8A6, 8px) et bordure intérieure rose vif (#EC4899, 3px) — localisé dans les 11 langues prises en charge. Pièces Manquantes n\'est PAS sensible à la langue : les puzzles sont purement visuels sans contenu dépendant de la locale, donc chaque puzzle fonctionne identiquement dans le monde entier. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de puzzles pour Amazon KDP ou créiez des activités de pensée critique pour Gumroad, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré. La même image de puzzle apparaît avec les trous, et des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) à l\'intérieur de chaque trou montrent l\'index de la bonne option. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF — le tout rendu à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits TPT.',
+          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré. La même image de puzzle apparaît avec les trous, et des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) à l\'intérieur de chaque trou montrent l\'index de la bonne option. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF — le tout rendu à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits Gumroad.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Puzzles Pièces Manquantes Style Puzzle avec Difficulté Configurable',
         description:
-          'Créez des puzzles où une image a des trous découpés et les élèves identifient quelle option numérotée remplit chaque espace. Configurez la difficulté avec deux contrôles indépendants : définissez 1 à 5 pièces manquantes pour contrôler la complexité du puzzle, et définissez 2 à 6 options de réponse pour contrôler combien de choix les élèves évaluent. Plus de pièces manquantes signifie plus de raisonnement spatial ; plus d\'options de réponse (incluant des distractrices) signifie une discrimination visuelle plus fine. Ce système de difficulté à deux axes vous permet de créer des puzzles allant de l\'identification simple d\'une seule pièce à des défis complexes multi-pièces.',
+          'Créez des puzzles où une image a des trous découpés et les utilisateurs identifient quelle option numérotée remplit chaque espace. Configurez la difficulté avec deux contrôles indépendants : définissez 1 à 5 pièces manquantes pour contrôler la complexité du puzzle, et définissez 2 à 6 options de réponse pour contrôler combien de choix les utilisateurs évaluent. Plus de pièces manquantes signifie plus de raisonnement spatial ; plus d\'options de réponse (incluant des distractrices) signifie une discrimination visuelle plus fine. Ce système de difficulté à deux axes vous permet de créer des puzzles allant de l\'identification simple d\'une seule pièce à des défis complexes multi-pièces.',
       },
       {
         title: 'Six Formes de Pièces : Carré, Cercle, Rectangle et Variantes Ellipse',
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: 'Corrigé Auto-Généré avec Étiquettes Numériques Surlignées en Jaune',
         description:
-          'Chaque puzzle de pièces manquantes génère automatiquement un corrigé compagnon sur un onglet de canevas séparé. Le corrigé affiche la même image de puzzle avec les trous, et place des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) à l\'intérieur de chaque trou montrant l\'index correct de l\'option (base 1). La taille de police s\'adapte à 60 % de la taille de la pièce pour une lisibilité claire. Aucune création manuelle de corrigé nécessaire — le corrigé reste parfaitement synchronisé avec le puzzle. Téléchargez le corrigé en answer_key.jpeg ou answer_key.pdf à côté de la fiche élève.',
+          'Chaque puzzle de pièces manquantes génère automatiquement un corrigé compagnon sur un onglet de canevas séparé. Le corrigé affiche la même image de puzzle avec les trous, et place des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) à l\'intérieur de chaque trou montrant l\'index correct de l\'option (base 1). La taille de police s\'adapte à 60 % de la taille de la pièce pour une lisibilité claire. Aucune création manuelle de corrigé nécessaire — le corrigé reste parfaitement synchronisé avec le puzzle. Téléchargez le corrigé en answer_key.jpeg ou answer_key.pdf à côté de la fiche utilisateur.',
       },
       {
         title: 'Options de Réponse Numérotées avec Pièces Distractrices',
         description:
-          'Les options de réponse sont affichées dans des conteneurs numérotés (1–N) avec des étiquettes numériques surlignées en jaune pour une identification claire. Lorsque les options de réponse dépassent le nombre de pièces manquantes, les options supplémentaires sont des pièces distractrices — extraites de zones différentes de la même image qui ne correspondent à aucun trou. Les distractrices obligent les élèves à comparer soigneusement les détails visuels plutôt que de simplement trouver la réponse par élimination. Les fiches portrait disposent les options en une seule rangée horizontale sous le puzzle (75 % de la taille maximale) ; les fiches paysage les placent sur le côté droit (50 % de largeur) en rangée horizontale.',
+          'Les options de réponse sont affichées dans des conteneurs numérotés (1–N) avec des étiquettes numériques surlignées en jaune pour une identification claire. Lorsque les options de réponse dépassent le nombre de pièces manquantes, les options supplémentaires sont des pièces distractrices — extraites de zones différentes de la même image qui ne correspondent à aucun trou. Les distractrices obligent les utilisateurs à comparer soigneusement les détails visuels plutôt que de simplement trouver la réponse par élimination. Les fiches portrait disposent les options en une seule rangée horizontale sous le puzzle (75 % de la taille maximale) ; les fiches paysage les placent sur le côté droit (50 % de largeur) en rangée horizontale.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 Collections Thématiques et Plus de 3 100 Illustrations',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Activités de Puzzles pour la Classe sur TPT',
+        title: 'Activités de Puzzles pour la vente sur Gumroad',
         description:
-          'Concevez des activités de discrimination visuelle et de pensée critique prêtes à l\'emploi pour Teachers Pay Teachers. Les puzzles de pièces manquantes renforcent le raisonnement spatial, l\'analyse visuelle et l\'attention aux détails — des compétences valorisées dans les programmes de la petite enfance et du primaire. Créez des ensembles alignés sur le programme : puzzles d\'habitats d\'animaux, puzzles de scènes saisonnières, puzzles de métiers de la communauté et puzzles de groupes alimentaires. Chaque ensemble comprend des fiches élèves et des corrigés aux formats PDF et JPEG. La difficulté configurable vous permet de créer des versions différenciées du même puzzle pour des classes à niveaux mixtes.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Concevez des activités de discrimination visuelle et de pensée critique prêtes à l\'emploi pour Gumroad. Les puzzles de pièces manquantes renforcent le raisonnement spatial, l\'analyse visuelle et l\'attention aux détails — des compétences valorisées dans les programmes de la petite enfance et du primaire. Créez des ensembles alignés sur le programme : puzzles d\'habitats d\'animaux, puzzles de scènes saisonnières, puzzles de métiers de la communauté et puzzles de groupes alimentaires. Chaque ensemble comprend des fiches utilisateurs et des corrigés aux formats PDF et JPEG. La difficulté configurable vous permet de créer des versions différenciées du même puzzle pour des classes à niveaux mixtes.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections de Puzzles Saisonniers et de Fêtes',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et de fêtes — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d\'été et plus encore. Créez des collections de puzzles à durée limitée qui s\'alignent sur les périodes de forte demande. Lancez des packs de puzzles Halloween en septembre, des collections de Noël en octobre et des packs de Saint-Valentin en janvier. Variez les formes de pièces et les niveaux de difficulté au sein de chaque collection saisonnière pour une valeur maximale. Les produits saisonniers obtiennent des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles d\'achats répétés de votre base clientèle.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
       {
         title: 'Marché Mondial — Les Puzzles Purement Visuels ne Nécessitent Aucune Traduction',
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le mécanisme du puzzle pièces manquantes ?',
       answer:
-        'Le générateur prend une image de la bibliothèque (ou votre import) et découpe 1 à 5 pièces, laissant des trous blancs avec des contours noirs aux emplacements d\'origine. Il affiche ensuite 2 à 6 options de réponse numérotées en dessous ou à côté du puzzle — les pièces correctes plus des pièces distractrices extraites d\'autres zones de la même image. Les élèves examinent les trous et les options numérotées, puis identifient quelle option remplit chaque espace en se basant sur la couleur, le motif et les détails visuels.',
+        'Le générateur prend une image de la bibliothèque (ou votre import) et découpe 1 à 5 pièces, laissant des trous blancs avec des contours noirs aux emplacements d\'origine. Il affiche ensuite 2 à 6 options de réponse numérotées en dessous ou à côté du puzzle — les pièces correctes plus des pièces distractrices extraites d\'autres zones de la même image. Les utilisateurs examinent les trous et les options numérotées, puis identifient quelle option remplit chaque espace en se basant sur la couleur, le motif et les détails visuels.',
     },
     {
       question: 'Quelles sont les 6 formes de pièces disponibles ?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionnent les réglages de difficulté ?',
       answer:
-        'La difficulté est contrôlée par deux paramètres indépendants. Le nombre de pièces manquantes (1–5) détermine combien de trous sont découpés dans l\'image — plus de pièces signifie plus de raisonnement spatial. Le nombre d\'options de réponse (2–6) détermine combien de choix numérotés les élèves évaluent — quand les options dépassent les pièces manquantes, les supplémentaires sont des distractrices qui nécessitent une comparaison visuelle attentive. Un puzzle avec 1 pièce manquante et 2 options est facile ; 5 pièces manquantes avec 6 options est stimulant.',
+        'La difficulté est contrôlée par deux paramètres indépendants. Le nombre de pièces manquantes (1–5) détermine combien de trous sont découpés dans l\'image — plus de pièces signifie plus de raisonnement spatial. Le nombre d\'options de réponse (2–6) détermine combien de choix numérotés les utilisateurs évaluent — quand les options dépassent les pièces manquantes, les supplémentaires sont des distractrices qui nécessitent une comparaison visuelle attentive. Un puzzle avec 1 pièce manquante et 2 options est facile ; 5 pièces manquantes avec 6 options est stimulant.',
     },
     {
       question: 'Que sont les pièces distractrices et comment sont-elles générées ?',
       answer:
-        'Les pièces distractrices sont des options de réponse supplémentaires qui ne correspondent à aucun trou du puzzle. Elles sont extraites de zones différentes de la même image source avec jusqu\'à 200 tentatives de placement chacune, garantissant qu\'elles ne chevauchent pas les pièces correctes. Les distractrices empêchent les élèves de résoudre par simple élimination — ils doivent comparer soigneusement les couleurs, motifs et détails visuels pour distinguer les options correctes des alternatives d\'apparence similaire.',
+        'Les pièces distractrices sont des options de réponse supplémentaires qui ne correspondent à aucun trou du puzzle. Elles sont extraites de zones différentes de la même image source avec jusqu\'à 200 tentatives de placement chacune, garantissant qu\'elles ne chevauchent pas les pièces correctes. Les distractrices empêchent les utilisateurs de résoudre par simple élimination — ils doivent comparer soigneusement les couleurs, motifs et détails visuels pour distinguer les options correctes des alternatives d\'apparence similaire.',
     },
     {
       question: 'Comment fonctionne l\'algorithme d\'extraction intelligente de pièces ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des puzzles pièces manquantes créés avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos puzzles de pièces manquantes en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur TPT ou via tout autre canal de vente. Les 6 formes de pièces, la difficulté configurable, les corrigés auto-générés et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de puzzles originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos puzzles de pièces manquantes en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les 6 formes de pièces, la difficulté configurable, les corrigés auto-générés et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de puzzles originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

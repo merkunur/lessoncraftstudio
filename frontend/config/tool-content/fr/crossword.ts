@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des mots croisés pour la classe',
+    primaryKeyword: 'créer des mots croisés pour la vente',
     secondaryKeywords: [
-      'créateur de mots croisés pour enseignants',
+      'créateur de mots croisés pour vendeurs',
       'mots croisés en images pour enfants',
       'mots croisés imprimables pour l\'école',
-      'mots croisés vocabulaire pour élèves',
+      'mots croisés vocabulaire pour utilisateurs',
     ],
     lsiKeywords: [
       'mots croisés avec indices visuels pour vocabulaire',
-      'générateur de mots croisés localisé pour la classe',
+      'générateur de mots croisés localisé pour la vente',
       'corrigé automatique mots croisés créateur',
     ],
-    titleTag: 'Créer des Mots Croisés — Pour la Classe',
-    metaDescription: 'Créez des mots croisés en images pour la classe. Grille 15x15, quatre méthodes de saisie, corrigés automatiques, 104 thèmes. Essai gratuit avec filigrane.',
+    titleTag: 'Créer des Mots Croisés — pour la vente',
+    metaDescription: 'Créez des mots croisés en images pour la vente. Grille 15x15, quatre méthodes de saisie, corrigés automatiques, 104 thèmes. Essai gratuit avec filigrane.',
     },
 
   hero: {
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Télécharger les Quatre Fichiers',
-        description: 'Activez les niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe et les intérieurs KDP. Téléchargez les quatre fichiers d\'une seule session : fiche JPEG, corrigé JPEG, fiche PDF et corrigé PDF — tous rendus à 300 DPI (multiplicateur 6×). Chaque onglet possède ses propres boutons de téléchargement dans le menu déroulant. Tous les exports sont prêts pour la production pour les annonces Etsy.fr, les intérieurs Amazon KDP et les fichiers produits TPT sans aucun post-traitement nécessaire. Cliquez à nouveau sur Générer pour produire un nouveau puzzle avec une sélection d\'images aléatoire et un placement de mots différents, ou changez de thème et de langue pour créer rapidement de la variété.',
+        description: 'Activez les niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume et les intérieurs KDP. Téléchargez les quatre fichiers d\'une seule session : fiche JPEG, corrigé JPEG, fiche PDF et corrigé PDF — tous rendus à 300 DPI (multiplicateur 6×). Chaque onglet possède ses propres boutons de téléchargement dans le menu déroulant. Tous les exports sont prêts pour la production pour les annonces Etsy.fr, les intérieurs Amazon KDP et les fichiers produits Gumroad sans aucun post-traitement nécessaire. Cliquez à nouveau sur Générer pour produire un nouveau puzzle avec une sélection d\'images aléatoire et un placement de mots différents, ou changez de thème et de langue pour créer rapidement de la variété.',
       },
     ],
   },
@@ -68,11 +68,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Ensembles de Mots Croisés Multilingues pour les Marchés Internationaux',
-      description: 'Exploitez la génération de mots sensible à la langue pour créer des puzzles de mots croisés en images dans les 11 langues prises en charge à partir des mêmes sélections d\'images. Un seul ensemble d\'images d\'animaux produit des grilles de mots croisés entièrement différentes en français, anglais, allemand, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois — chacune avec des mots localisés, des en-têtes localisés et des dispositions de grille uniques. Vendez des lots par langue pour les enseignants FLE, les classes bilingues et les familles d\'instruction en famille internationales, ou créez des méga-packs multilingues à des prix premium.',
+      description: 'Exploitez la génération de mots sensible à la langue pour créer des puzzles de mots croisés en images dans les 11 langues prises en charge à partir des mêmes sélections d\'images. Un seul ensemble d\'images d\'animaux produit des grilles de mots croisés entièrement différentes en français, anglais, allemand, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois — chacune avec des mots localisés, des en-têtes localisés et des dispositions de grille uniques. Vendez des lots par langue pour les vendeurs FLE, les classes bilingues et les familles d\'instruction en famille internationales, ou créez des méga-packs multilingues à des prix premium.',
     },
     {
-      title: 'Collections de Mots Croisés de Vocabulaire Personnalisé pour Éducateurs',
-      description: 'Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur le programme avec du vocabulaire défini par l\'enseignant. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d\'histoire-géographie, mots de compréhension de lecture, terminologie mathématique ou listes d\'orthographe. Chaque puzzle se génère sur la même grille 15×15 avec des indices textuels au lieu d\'images. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG pour les activités du matin, les révisions et la préparation aux évaluations.',
+      title: 'Collections de Mots Croisés de Vocabulaire Personnalisé pour entrepreneurs',
+      description: 'Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur le programme avec du vocabulaire défini par l\'vendeur. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d\'histoire-géographie, mots de compréhension de lecture, terminologie mathématique ou listes d\'orthographe. Chaque puzzle se génère sur la même grille 15×15 avec des indices textuels au lieu d\'images. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG pour les activités du matin, les révisions et la préparation aux évaluations.',
     },
     {
       title: 'Cahiers de Mots Croisés en Images pour KDP avec Thèmes Progressifs',
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Lots Multi-Formats de Puzzles de Mots',
-      description: 'Associez les mots croisés en images avec des mots cachés, des mots mélangés, des fiches deviner les mots et des cryptogrammes en utilisant des thèmes coordonnés à travers plusieurs générateurs. Les mots croisés en images développent le vocabulaire par l\'association image-mot. Les mots cachés développent la reconnaissance des lettres. Les mots mélangés stimulent l\'orthographe et la résolution d\'anagrammes. Chaque format cible une compétence linguistique différente tout en maintenant une cohérence thématique. Les lots multi-formats commandent des prix premium car les parents et enseignants paient plus pour des collections complètes de puzzles de vocabulaire.',
+      description: 'Associez les mots croisés en images avec des mots cachés, des mots mélangés, des fiches deviner les mots et des cryptogrammes en utilisant des thèmes coordonnés à travers plusieurs générateurs. Les mots croisés en images développent le vocabulaire par l\'association image-mot. Les mots cachés développent la reconnaissance des lettres. Les mots mélangés stimulent l\'orthographe et la résolution d\'anagrammes. Chaque format cible une compétence linguistique différente tout en maintenant une cohérence thématique. Les lots multi-formats commandent des prix premium car les parents et vendeurs paient plus pour des collections complètes de puzzles de vocabulaire.',
     },
   ],
 
@@ -100,18 +100,18 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs d\'Activités de Vocabulaire Mots Croisés sur TPT',
-      description: 'Téléversez des packs de mots croisés de vocabulaire sur TPT en utilisant à la fois le mode mots croisés en images et le mode liste de mots personnalisée. Les mots croisés en images utilisent des images thématiques pour le développement visuel du vocabulaire — les élèves voient un animal et écrivent son nom dans la grille. Les mots croisés à liste personnalisée utilisent des termes et définitions définis par l\'enseignant pour des activités de révision alignées sur le programme. Incluez les corrigés auto-générés avec chaque puzzle comme argument de vente principal. Créez des ensembles par niveau pour les sciences, l\'histoire-géographie, le français et les mathématiques.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs d\'Activités de Vocabulaire Mots Croisés sur Gumroad',
+      description: 'Téléversez des packs de mots croisés de vocabulaire sur Gumroad en utilisant à la fois le mode mots croisés en images et le mode liste de mots personnalisée. Les mots croisés en images utilisent des images thématiques pour le développement visuel du vocabulaire — les utilisateurs voient un animal et écrivent son nom dans la grille. Les mots croisés à liste personnalisée utilisent des termes et définitions définis par l\'vendeur pour des activités de révision alignées sur le programme. Incluez les corrigés auto-générés avec chaque puzzle comme argument de vente principal. Créez des ensembles par niveau pour les sciences, l\'histoire-géographie, le français et les mathématiques.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gamme de Mots Croisés Multilingues pour les Marchés Internationaux',
-      description: 'La génération de mots sensible à la langue crée des puzzles de mots croisés entièrement différents à partir d\'images identiques quand vous changez de langue. Un seul ensemble de 8 images d\'animaux produit des grilles de mots croisés uniques en français, anglais, allemand, espagnol et 7 autres langues — chacune avec des mots localisés et des en-têtes localisés. Créez des lots de mots croisés par langue pour les enseignants FLE, les programmes d\'éducation bilingue et les familles d\'instruction en famille internationales. Vendez sur des boutiques Etsy ciblées par pays, listez sur TPT pour les enseignants internationaux, ou construisez des méga-packs multilingues à prix premium. Un ensemble d\'images génère 11 produits vendables.',
-      platform: 'Etsy.fr / TPT',
+      description: 'La génération de mots sensible à la langue crée des puzzles de mots croisés entièrement différents à partir d\'images identiques quand vous changez de langue. Un seul ensemble de 8 images d\'animaux produit des grilles de mots croisés uniques en français, anglais, allemand, espagnol et 7 autres langues — chacune avec des mots localisés et des en-têtes localisés. Créez des lots de mots croisés par langue pour les vendeurs FLE, les programmes d\'éducation bilingue et les familles d\'instruction en famille internationales. Vendez sur des boutiques Etsy ciblées par pays, listez sur Gumroad pour les vendeurs internationaux, ou construisez des méga-packs multilingues à prix premium. Un ensemble d\'images génère 11 produits vendables.',
+      platform: 'Etsy.fr / Gumroad',
     },
     {
       title: 'Tunnel de Vente Pinterest pour Mots Croisés en Images',
-      description: 'Les mots croisés en images font des épingles Pinterest visuellement saisissantes — une grille de mots croisés colorée entourée d\'images-indices crée un format de puzzle immédiatement engageant que les parents et enseignants reconnaissent comme éducatif. Épinglez des exemples de mots croisés montrant la disposition des indices visuels avec les positions numérotées connectant les images aux emplacements dans la grille. Créez des séries d\'épingles distinctes pour « mots croisés en images pour enfants », « activités de mots croisés imprimables » et « fiches de vocabulaire mots croisés ». Incluez des images d\'aperçu du corrigé montrant la grille remplie. Reliez chaque épingle à vos listings Etsy ou TPT pour une conversion directe.',
+      description: 'Les mots croisés en images font des épingles Pinterest visuellement saisissantes — une grille de mots croisés colorée entourée d\'images-indices crée un format de puzzle immédiatement engageant que les parents et vendeurs reconnaissent comme éducatif. Épinglez des exemples de mots croisés montrant la disposition des indices visuels avec les positions numérotées connectant les images aux emplacements dans la grille. Créez des séries d\'épingles distinctes pour « mots croisés en images pour enfants », « activités de mots croisés imprimables » et « fiches de vocabulaire mots croisés ». Incluez des images d\'aperçu du corrigé montrant la grille remplie. Reliez chaque épingle à vos listings Etsy ou Gumroad pour une conversion directe.',
       platform: 'Pinterest',
     },
     {
@@ -132,23 +132,23 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Exploitez la Génération Sensible à la Langue pour des Produits Multilingues',
-      description: 'Les mêmes 8 images produisent des grilles de mots croisés entièrement différentes quand vous changez de langue. Une image de chat crée « CHAT » en français, « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — des longueurs de mots différentes signifient des placements différents, des croisements différents et des difficultés de puzzle différentes. Créez un ensemble thématique d\'images et générez des mots croisés dans les 11 langues pour 11 produits vendables à partir d\'une seule session de contenu. Les lots de mots croisés multilingues servent les enseignants FLE et les familles d\'instruction en famille internationales à des prix premium.',
+      description: 'Les mêmes 8 images produisent des grilles de mots croisés entièrement différentes quand vous changez de langue. Une image de chat crée « CHAT » en français, « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — des longueurs de mots différentes signifient des placements différents, des croisements différents et des difficultés de puzzle différentes. Créez un ensemble thématique d\'images et générez des mots croisés dans les 11 langues pour 11 produits vendables à partir d\'une seule session de contenu. Les lots de mots croisés multilingues servent les vendeurs FLE et les familles d\'instruction en famille internationales à des prix premium.',
     },
     {
       title: 'Utilisez le Mode Liste de Mots Personnalisée pour des Produits Alignés sur le Programme',
-      description: 'Passez au mode Liste de Mots Personnalisée avec Indices pour des mots croisés spécifiques à une matière que les enseignants recherchent sur TPT. Saisissez des termes scientifiques avec des définitions, du vocabulaire d\'histoire-géographie avec des indices contextuels, ou des mots d\'orthographe avec des phrases d\'utilisation au format MOT : indice. Les mots croisés à indices textuels ciblent un public d\'acheteurs différent des mots croisés en images — les enseignants qui ont besoin de mots croisés correspondant exactement à leur programme. Créez des ensembles de vocabulaire par niveau et par matière, et étiquetez vos listings avec les compétences spécifiques couvertes.',
+      description: 'Passez au mode Liste de Mots Personnalisée avec Indices pour des mots croisés spécifiques à une matière que les vendeurs recherchent sur Gumroad. Saisissez des termes scientifiques avec des définitions, du vocabulaire d\'histoire-géographie avec des indices contextuels, ou des mots d\'orthographe avec des phrases d\'utilisation au format MOT : indice. Les mots croisés à indices textuels ciblent un public d\'acheteurs différent des mots croisés en images — les vendeurs qui ont besoin de mots croisés correspondant exactement à leur programme. Créez des ensembles de vocabulaire par niveau et par matière, et étiquetez vos listings avec les compétences spécifiques couvertes.',
     },
     {
       title: 'Incluez les Corrigés dans Chaque Aperçu de Listing',
-      description: 'Le corrigé auto-généré avec la grille remplie montrant toutes les lettres correctes est votre différenciateur de vente le plus puissant. Incluez toujours les images d\'aperçu du corrigé dans vos listings marketplace — montrez la grille remplie clairement dans les photos produit. Les produits qui incluent les corrigés surpassent systématiquement les listings puzzles-seuls car les enseignants et parents veulent des supports auto-correctifs. Le système à double canevas génère les deux versions simultanément, donc inclure le corrigé ne vous coûte rien en temps de production supplémentaire.',
+      description: 'Le corrigé auto-généré avec la grille remplie montrant toutes les lettres correctes est votre différenciateur de vente le plus puissant. Incluez toujours les images d\'aperçu du corrigé dans vos listings marketplace — montrez la grille remplie clairement dans les photos produit. Les produits qui incluent les corrigés surpassent systématiquement les listings puzzles-seuls car les vendeurs et parents veulent des supports auto-correctifs. Le système à double canevas génère les deux versions simultanément, donc inclure le corrigé ne vous coûte rien en temps de production supplémentaire.',
     },
     {
       title: 'Combinez Mots Croisés en Images et à Indices Textuels dans des Lots Premium',
-      description: 'Incluez à la fois des mots croisés en images (utilisant les indices visuels thématiques) et des mots croisés à indices textuels (utilisant les listes de mots personnalisées) dans le même lot pour une variété maximale. Les mots croisés en images ciblent les apprenants visuels et les plus jeunes qui réagissent aux indices basés sur les images. Les mots croisés à indices textuels ciblent les élèves plus âgés et la révision de vocabulaire spécifique au programme. Regrouper les deux formats double la variété de votre contenu et couvre plusieurs styles d\'apprentissage dans un seul produit, justifiant un prix plus élevé que les packs mono-format.',
+      description: 'Incluez à la fois des mots croisés en images (utilisant les indices visuels thématiques) et des mots croisés à indices textuels (utilisant les listes de mots personnalisées) dans le même lot pour une variété maximale. Les mots croisés en images ciblent les apprenants visuels et les plus jeunes qui réagissent aux indices basés sur les images. Les mots croisés à indices textuels ciblent les utilisateurs plus âgés et la révision de vocabulaire spécifique au programme. Regrouper les deux formats double la variété de votre contenu et couvre plusieurs styles d\'apprentissage dans un seul produit, justifiant un prix plus élevé que les packs mono-format.',
     },
     {
       title: 'Utilisez les Niveaux de Gris pour les Produits KDP et Classe',
-      description: 'Activez les niveaux de gris pour créer des mots croisés économiques en encre spécifiquement pour les intérieurs KDP en impression à la demande et l\'impression en classe. L\'impression couleur coûte significativement plus cher pour KDP, et de nombreux enseignants impriment en noir et blanc. Créez des lots double format incluant les versions couleur (pour les téléchargements numériques) et niveaux de gris (pour l\'impression) — les acheteurs perçoivent cela comme le double de valeur. La grille de mots croisés, les positions d\'indices numérotées et les images-indices s\'affichent tous clairement en niveaux de gris.',
+      description: 'Activez les niveaux de gris pour créer des mots croisés économiques en encre spécifiquement pour les intérieurs KDP en impression à la demande et l\'impression en volume. L\'impression couleur coûte significativement plus cher pour KDP, et de nombreux vendeurs impriment en noir et blanc. Créez des lots double format incluant les versions couleur (pour les téléchargements numériques) et niveaux de gris (pour l\'impression) — les acheteurs perçoivent cela comme le double de valeur. La grille de mots croisés, les positions d\'indices numérotées et les images-indices s\'affichent tous clairement en niveaux de gris.',
     },
   ],
 
@@ -191,7 +191,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Peut-on vendre des mots croisés créés avec cet outil à usage commercial ?',
-      answer: 'Oui. Avec une Licence Commerciale, vous avez les droits complets pour vendre des puzzles de mots croisés en téléchargements numériques sur Etsy, en cahiers de mots croisés imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les quatre méthodes de saisie, les corrigés auto-générés avec grilles remplies, la génération de mots sensible à la langue dans 11 langues, le mode liste de mots personnalisée et les 104 collections d\'images thématiques vous donnent tout le nécessaire pour créer des produits de mots croisés professionnels compétitifs dans les catégories puzzles de mots sur toutes les grandes places de marché.',
+      answer: 'Oui. Avec une Licence Commerciale, vous avez les droits complets pour vendre des puzzles de mots croisés en téléchargements numériques sur Etsy, en cahiers de mots croisés imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les quatre méthodes de saisie, les corrigés auto-générés avec grilles remplies, la génération de mots sensible à la langue dans 11 langues, le mode liste de mots personnalisée et les 104 collections d\'images thématiques vous donnent tout le nécessaire pour créer des produits de mots croisés professionnels compétitifs dans les catégories puzzles de mots sur toutes les grandes places de marché.',
     },
     {
       question: 'Quelle est votre politique de remboursement ?',

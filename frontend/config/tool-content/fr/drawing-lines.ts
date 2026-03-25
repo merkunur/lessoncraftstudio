@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Créateur de Fiches de Graphisme',
     tagline: 'Huit modèles de lignes SVG avec association de paires d\'images, remplissage automatique depuis 104 thèmes colorés et orientation de page pilotée par le modèle pour des fiches de tracé de lignes professionnelles vendables dans le monde entier',
-    description: 'Concevez des fiches professionnelles de graphisme où les élèves tracent le long de chemins guidés pour relier des paires d\'images assorties. Huit modèles basés sur des SVG couvrent une progression complète de motricité fine : un modèle horizontal pour le tracé de gauche à droite (le plus facile), un modèle vertical pour les tracés de haut en bas, quatre modèles de courbes pour des mouvements fluides du poignet, et deux modèles de diagonales pour la coordination croisée (le plus difficile). Chaque modèle place 4 ou 5 paires d\'images assorties de part et d\'autre du tracé, donnant aux élèves un objectif visuel à chaque extrémité. La sélection du modèle détermine automatiquement l\'orientation de la page — les courbes passent en paysage pour les arcs amples, tandis que les modèles de diagonales, horizontal et vertical utilisent le portrait pour une pratique ciblée. Le remplissage automatique attribue instantanément des paires d\'images aléatoires depuis n\'importe quel thème sélectionné ou depuis les 104 thèmes à la fois, rendant la création en lot ultra rapide. Le contenu provient de plus de 3 100 illustrations colorées réparties dans 104 collections thématiques — animaux, véhicules, nourriture, nature et des dizaines d\'autres. Chaque fiche est purement visuelle avec zéro texte sur la sortie, rendant les produits universellement vendables sans traduction. Aucun corrigé n\'est nécessaire car le tracé lui-même guide l\'élève — une activité auto-corrective par nature. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Concevez des fiches professionnelles de graphisme où les utilisateurs tracent le long de chemins guidés pour relier des paires d\'images assorties. Huit modèles basés sur des SVG couvrent une progression complète de motricité fine : un modèle horizontal pour le tracé de gauche à droite (le plus facile), un modèle vertical pour les tracés de haut en bas, quatre modèles de courbes pour des mouvements fluides du poignet, et deux modèles de diagonales pour la coordination croisée (le plus difficile). Chaque modèle place 4 ou 5 paires d\'images assorties de part et d\'autre du tracé, donnant aux utilisateurs un objectif visuel à chaque extrémité. La sélection du modèle détermine automatiquement l\'orientation de la page — les courbes passent en paysage pour les arcs amples, tandis que les modèles de diagonales, horizontal et vertical utilisent le portrait pour une pratique ciblée. Le remplissage automatique attribue instantanément des paires d\'images aléatoires depuis n\'importe quel thème sélectionné ou depuis les 104 thèmes à la fois, rendant la création en lot ultra rapide. Le contenu provient de plus de 3 100 illustrations colorées réparties dans 104 collections thématiques — animaux, véhicules, nourriture, nature et des dizaines d\'autres. Chaque fiche est purement visuelle avec zéro texte sur la sortie, rendant les produits universellement vendables sans traduction. Aucun corrigé n\'est nécessaire car le tracé lui-même guide l\'utilisateur — une activité auto-corrective par nature. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Ajouter du Texte et Personnaliser les Champs',
-        description: 'Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d\'identification de l\'élève. L\'en-tête auto-généré affiche un bandeau vert vif avec « Exercice de Tracé de Lignes » localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d\'alignement, les contrôles de verrouillage/déverrouillage et l\'annulation et le rétablissement illimités.',
+        description: 'Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d\'identification de l\'utilisateur. L\'en-tête auto-généré affiche un bandeau vert vif avec « Exercice de Tracé de Lignes » localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d\'alignement, les contrôles de verrouillage/déverrouillage et l\'annulation et le rétablissement illimités.',
       },
       {
         title: 'Prévisualiser et Ajuster la Difficulté des Lignes',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Exporter en PDF ou JPEG à 300 DPI',
-        description: 'Téléchargez votre fiche terminée en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Activez les niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe et les intérieurs KDP. Aucun corrigé séparé n\'est nécessaire — le tracé lui-même guide l\'élève, faisant de chaque fiche une activité auto-corrective. Chaque export est prêt pour la production : listings Etsy.fr, intérieurs Amazon KDP et fichiers produits TPT sans post-traitement requis.',
+        description: 'Téléchargez votre fiche terminée en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Activez les niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume et les intérieurs KDP. Aucun corrigé séparé n\'est nécessaire — le tracé lui-même guide l\'utilisateur, faisant de chaque fiche une activité auto-corrective. Chaque export est prêt pour la production : listings Etsy.fr, intérieurs Amazon KDP et fichiers produits Gumroad sans post-traitement requis.',
       },
     ],
   },
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles de Préparation à l\'Écriture',
-      description: 'Construisez des fiches de graphisme spécifiquement conçues comme préparation à l\'écriture. Les lignes horizontales pratiquent le suivi gauche-droite utilisé en lecture et en écriture. Les lignes verticales développent les tracés de haut en bas essentiels à la formation des lettres. Les courbes imitent les mouvements arrondis nécessaires pour les lettres comme c, o, s et e. Les diagonales construisent les tracés angulaires utilisés dans les lettres comme k, v, w et z. Proposez ces fiches comme des lots « Préparation à l\'écriture » qui font le pont entre le développement de la motricité fine et les compétences de littéracie — une catégorie de produits avec une forte demande toute l\'année auprès des enseignants de maternelle et des parents.',
+      description: 'Construisez des fiches de graphisme spécifiquement conçues comme préparation à l\'écriture. Les lignes horizontales pratiquent le suivi gauche-droite utilisé en lecture et en écriture. Les lignes verticales développent les tracés de haut en bas essentiels à la formation des lettres. Les courbes imitent les mouvements arrondis nécessaires pour les lettres comme c, o, s et e. Les diagonales construisent les tracés angulaires utilisés dans les lettres comme k, v, w et z. Proposez ces fiches comme des lots « Préparation à l\'écriture » qui font le pont entre le développement de la motricité fine et les compétences de littéracie — une catégorie de produits avec une forte demande toute l\'année auprès des vendeurs de maternelle et des parents.',
     },
     {
       title: 'Ensembles Thématiques d\'Association de Paires d\'Images',
-      description: 'Exploitez les 104 collections thématiques pour créer des fiches de graphisme où les élèves relient des images assorties à travers des tracés guidés. Chaque thème devient un listing de produit distinct : tracé de lignes animaux de la ferme, dessin de courbes dinosaures, pratique de diagonales créatures marines, lignes verticales exploration spatiale. Le format d\'association de paires d\'images ajoute un élément d\'identification à l\'exercice de motricité fine — les élèves doivent trouver l\'image correspondante à la fin de chaque ligne, combinant discrimination visuelle et contrôle du crayon dans une seule activité engageante.',
+      description: 'Exploitez les 104 collections thématiques pour créer des fiches de graphisme où les utilisateurs relient des images assorties à travers des tracés guidés. Chaque thème devient un listing de produit distinct : tracé de lignes animaux de la ferme, dessin de courbes dinosaures, pratique de diagonales créatures marines, lignes verticales exploration spatiale. Le format d\'association de paires d\'images ajoute un élément d\'identification à l\'exercice de motricité fine — les utilisateurs doivent trouver l\'image correspondante à la fin de chaque ligne, combinant discrimination visuelle et contrôle du crayon dans une seule activité engageante.',
     },
     {
       title: 'Lots Échantillons de Types de Lignes Mixtes',
@@ -85,14 +85,14 @@ const content: ToolContent = {
     },
     {
       title: 'Lots Multi-Formats d\'Apprentissage Visuel',
-      description: 'Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches de séquences logiques et des fiches d\'association en utilisant des thèmes coordonnés. Le tracé de lignes développe le contrôle du crayon le long de chemins guidés. Le dessin sur quadrillage construit la reproduction spatiale. Les pages de coloriage entraînent la reconnaissance des couleurs et la motricité fine. Chaque format exerce une compétence visuo-motrice différente. Les lots multi-formats se vendent plus cher qu\'un seul type d\'activité et offrent aux élèves une pratique variée avec un thème unifié à travers chaque activité.',
+      description: 'Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches de séquences logiques et des fiches d\'association en utilisant des thèmes coordonnés. Le tracé de lignes développe le contrôle du crayon le long de chemins guidés. Le dessin sur quadrillage construit la reproduction spatiale. Les pages de coloriage entraînent la reconnaissance des couleurs et la motricité fine. Chaque format exerce une compétence visuo-motrice différente. Les lots multi-formats se vendent plus cher qu\'un seul type d\'activité et offrent aux utilisateurs une pratique variée avec un thème unifié à travers chaque activité.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Boutique Etsy de Graphisme par Type de Ligne',
-      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches de graphisme organisées par type de ligne et difficulté. Les packs horizontaux servent les débutants avec des lignes droites gauche-droite. Les packs verticaux avancent aux tracés de haut en bas. Les packs de courbes introduisent les mouvements fluides. Les packs de diagonales mettent au défi les élèves avancés avec des tracés en angle. Les huit modèles distincts et les 104 thèmes d\'images produisent des centaines de combinaisons de fiches uniques. Le format visuel sans texte rend chaque produit vendable dans le monde entier. Prix : packs thématiques individuels à 3 €–5 € et lots progressifs multi-types à 12 €–18 €.',
+      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches de graphisme organisées par type de ligne et difficulté. Les packs horizontaux servent les débutants avec des lignes droites gauche-droite. Les packs verticaux avancent aux tracés de haut en bas. Les packs de courbes introduisent les mouvements fluides. Les packs de diagonales mettent au défi les utilisateurs avancés avec des tracés en angle. Les huit modèles distincts et les 104 thèmes d\'images produisent des centaines de combinaisons de fiches uniques. Le format visuel sans texte rend chaque produit vendable dans le monde entier. Prix : packs thématiques individuels à 3 €–5 € et lots progressifs multi-types à 12 €–18 €.',
       platform: 'Etsy.fr',
     },
     {
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Ateliers de Préparation à l\'Écriture pour Teachers Pay Teachers',
-      description: 'Construisez des stations de préparation à l\'écriture par niveaux en utilisant le type de ligne comme axe de progression. Station 1 : lignes horizontales pour le suivi gauche-droite. Station 2 : lignes verticales pour les tracés de haut en bas. Station 3 : courbes pour les mouvements de formation des lettres. Station 4 : diagonales pour les formes de lettres angulaires. Chaque station cible une compétence de pré-écriture spécifique qui se transfère directement à la formation des lettres. Le format visuel sans texte fonctionne dans n\'importe quelle classe quelle que soit la langue des élèves, rendant ces ressources précieuses pour les contextes inclusifs et multilingues.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Ateliers de Préparation à l\'Écriture pour Gumroad',
+      description: 'Construisez des stations de préparation à l\'écriture par niveaux en utilisant le type de ligne comme axe de progression. Station 1 : lignes horizontales pour le suivi gauche-droite. Station 2 : lignes verticales pour les tracés de haut en bas. Station 3 : courbes pour les mouvements de formation des lettres. Station 4 : diagonales pour les formes de lettres angulaires. Chaque station cible une compétence de pré-écriture spécifique qui se transfère directement à la formation des lettres. Le format visuel sans texte fonctionne dans n\'importe quelle classe quelle que soit la langue des utilisateurs, rendant ces ressources précieuses pour les contextes inclusifs et multilingues.',
+      platform: 'Gumroad',
     },
     {
       title: 'Tunnel de Vente Pinterest pour Fiches de Graphisme',
-      description: 'Les fiches de graphisme avec des paires d\'images colorées et des tracés SVG distinctifs font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d\'exemple avec filigrane montrant différents types de lignes, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des séries d\'épingles distinctes pour « tracé de lignes pour enfants », « fiches de motricité fine » et « préparation à l\'écriture ». Le format sans texte signifie que les épingles attirent les parents et enseignants de tous les pays.',
+      description: 'Les fiches de graphisme avec des paires d\'images colorées et des tracés SVG distinctifs font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d\'exemple avec filigrane montrant différents types de lignes, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des séries d\'épingles distinctes pour « tracé de lignes pour enfants », « fiches de motricité fine » et « préparation à l\'écriture ». Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.',
       platform: 'Pinterest',
     },
     {
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Utilisez les Niveaux de Gris pour l\'Impression Économique',
-      description: 'Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en classe où les coûts d\'impression couleur sont une préoccupation. Même en niveaux de gris, les paires d\'images restent suffisamment distinctes pour l\'association, et les tracés SVG se reproduisent parfaitement en noir et blanc. Réservez les versions couleur pour les listings Etsy.fr où l\'attrait visuel génère des clics.',
+      description: 'Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en ligne où les coûts d\'impression couleur sont une préoccupation. Même en niveaux de gris, les paires d\'images restent suffisamment distinctes pour l\'association, et les tracés SVG se reproduisent parfaitement en noir et blanc. Réservez les versions couleur pour les listings Etsy.fr où l\'attrait visuel génère des clics.',
     },
     {
       title: 'Combinez le Graphisme avec d\'Autres Outils Visuels pour des Lots Premium',
-      description: 'Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches d\'association et de discrimination visuelle en utilisant des thèmes coordonnés. Chaque outil exerce une compétence visuo-motrice différente. Les lots visuels multi-formats se vendent plus cher qu\'un seul type d\'activité et offrent aux élèves une pratique variée à travers la motricité fine, le raisonnement spatial et la discrimination visuelle.',
+      description: 'Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches d\'association et de discrimination visuelle en utilisant des thèmes coordonnés. Chaque outil exerce une compétence visuo-motrice différente. Les lots visuels multi-formats se vendent plus cher qu\'un seul type d\'activité et offrent aux utilisateurs une pratique variée à travers la motricité fine, le raisonnement spatial et la discrimination visuelle.',
     },
   ],
 
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Comment fonctionne l\'association de paires d\'images ?',
-      answer: 'Chaque modèle place des paires d\'images assorties de part et d\'autre du tracé. Une image apparaît au début de la ligne et sa correspondance apparaît à la fin. Les élèves tracent le long du chemin guidé pour relier les images qui vont ensemble. Les modèles contiennent 4 ou 5 paires selon le type de ligne. Les images assorties donnent aux élèves un objectif visuel qui les motive à compléter chaque ligne.',
+      answer: 'Chaque modèle place des paires d\'images assorties de part et d\'autre du tracé. Une image apparaît au début de la ligne et sa correspondance apparaît à la fin. Les utilisateurs tracent le long du chemin guidé pour relier les images qui vont ensemble. Les modèles contiennent 4 ou 5 paires selon le type de ligne. Les images assorties donnent aux utilisateurs un objectif visuel qui les motive à compléter chaque ligne.',
     },
     {
       question: 'Comment fonctionne le remplissage automatique pour la création en lot ?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Pourquoi n\'y a-t-il pas de corrigé ?',
-      answer: 'Les fiches de Graphisme n\'ont pas besoin de corrigé séparé car le tracé lui-même guide l\'élève. Le modèle de ligne SVG imprimé sur la fiche montre exactement où tracer — les élèves suivent le chemin visible d\'une image à sa correspondance. L\'exercice est auto-correctif : si la ligne de l\'élève suit le tracé et atteint l\'image correspondante, il l\'a complété correctement.',
+      answer: 'Les fiches de Graphisme n\'ont pas besoin de corrigé séparé car le tracé lui-même guide l\'utilisateur. Le modèle de ligne SVG imprimé sur la fiche montre exactement où tracer — les utilisateurs suivent le chemin visible d\'une image à sa correspondance. L\'exercice est auto-correctif : si la ligne de l\'utilisateur suit le tracé et atteint l\'image correspondante, il l\'a complété correctement.',
     },
     {
       question: 'Les fiches sont-elles sensibles à la langue ?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Peut-on vendre des fiches créées avec cet outil à usage commercial ?',
-      answer: 'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de graphisme en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Les huit modèles distincts, les 104 thèmes colorés, le remplissage automatique et le format visuel sans texte créent une forte différenciation et une vendabilité mondiale.',
+      answer: 'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de graphisme en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les huit modèles distincts, les 104 thèmes colorés, le remplissage automatique et le format visuel sans texte créent une forte différenciation et une vendabilité mondiale.',
     },
     {
       question: 'Quelle est votre politique de remboursement ?',

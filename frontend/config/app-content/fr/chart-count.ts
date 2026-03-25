@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'générateur de fiches graphique à images pour vendeurs Etsy',
       'créateur de fiches pictogramme pour éditeurs Amazon KDP',
-      'vendre des activités graphique en images sur Teachers Pay Teachers',
+      'vendre des activités graphique en images sur Gumroad',
       'générateur de fiches représentation de données licence commerciale',
     ],
     lsiKeywords: [
@@ -16,23 +16,23 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Graphique à Images | Créer et Vendre',
     metaDescription:
-      'Créez des fiches graphique à images pour Etsy, KDP et TPT. Corrigé auto avec surlignage, 104 thèmes, 6 types d’images par fiche. Essai gratuit avec filigrane.',
+      'Créez des fiches graphique à images pour Etsy, KDP et Gumroad. Corrigé auto avec surlignage, 104 thèmes, 6 types d’images par fiche. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches Graphique à Images pour des Activités de Comptage Imprimables',
     tagline: 'Générateur double canevas de pictogrammes — créez des grilles d\'images dispersées avec 6 types d\'images, des corrigés en diagramme à barres remplis automatiquement, des en-têtes localisés dans 11 langues, et 104 collections d\'images thématiques pour des fiches de représentation de données.',
     description:
-      'Transformez le comptage visuel en une activité complète de compétences en données avec le seul générateur de fiches conçu spécifiquement pour les graphiques à images. Chaque fiche présente une grille d\'images dispersées avec 20 icônes de 6 types différents disposées en format 4×5 — les élèves comptent combien de chaque type apparaît, puis colorient les cases correspondantes dans le diagramme à barres en dessous. L\'application génère simultanément un corrigé avec des cases surlignées en jaune montrant les décomptes corrects, permettant aux enseignants de vérifier le travail des élèves instantanément. Choisissez les images automatiquement en sélectionnant un thème dans le menu déroulant Source d\'Images de la Fiche, ou sélectionnez manuellement exactement 6 images depuis la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections. Chaque fiche inclut un en-tête auto-généré avec un titre « Graphique en Images » localisé et des consignes de comptage — l\'en-tête s\'adapte aux 11 langues prises en charge automatiquement. Ajoutez des champs nom et date de l\'élève avec une simple case à cocher, appliquez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et personnalisez avec des outils texte et l\'édition directe sur le canevas. Le Générateur de Graphique à Images n\'est pas sensible à la langue — le comptage visuel utilise des nombres et des images universels, donc les fiches fonctionnent de manière identique dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Téléchargez les quatre fichiers — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — en une seule session. Que vous vendiez des packs de graphiques à images sur Etsy, compiliez des cahiers de compétences en données pour Amazon KDP ou créiez des activités de centre mathématique pour TPT, le Générateur de Graphique à Images livre des résultats prêts pour la classe en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Transformez le comptage visuel en une activité complète de compétences en données avec le seul générateur de fiches conçu spécifiquement pour les graphiques à images. Chaque fiche présente une grille d\'images dispersées avec 20 icônes de 6 types différents disposées en format 4×5 — les utilisateurs comptent combien de chaque type apparaît, puis colorient les cases correspondantes dans le diagramme à barres en dessous. L\'application génère simultanément un corrigé avec des cases surlignées en jaune montrant les décomptes corrects, permettant aux vendeurs de vérifier le travail des utilisateurs instantanément. Choisissez les images automatiquement en sélectionnant un thème dans le menu déroulant Source d\'Images de la Fiche, ou sélectionnez manuellement exactement 6 images depuis la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections. Chaque fiche inclut un en-tête auto-généré avec un titre « Graphique en Images » localisé et des consignes de comptage — l\'en-tête s\'adapte aux 11 langues prises en charge automatiquement. Ajoutez des champs nom et date de l\'utilisateur avec une simple case à cocher, appliquez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et personnalisez avec des outils texte et l\'édition directe sur le canevas. Le Générateur de Graphique à Images n\'est pas sensible à la langue — le comptage visuel utilise des nombres et des images universels, donc les fiches fonctionnent de manière identique dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Téléchargez les quatre fichiers — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — en une seule session. Que vous vendiez des packs de graphiques à images sur Etsy, compiliez des cahiers de compétences en données pour Amazon KDP ou créiez des activités de centre mathématique pour Gumroad, le Générateur de Graphique à Images livre des résultats prêts pour la vente en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
     title: 'Comment Créer des Fiches Graphique à Images en 5 Étapes',
     steps: [
       {
-        title: 'Définir la mise en page et les champs élève',
+        title: 'Définir la mise en page et les champs utilisateur',
         description:
-          'Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou toute dimension personnalisée. Sélectionnez une couleur de fond avec le sélecteur de couleur — le blanc est le défaut pour des fiches épurées. Cochez la case Inclure Nom/Date pour ajouter des champs formatés « Nom : ____ » et « Date : ____ » en bas de la page, permettant aux élèves d\'identifier leur travail. Choisissez un thème de fond et un thème de bordure depuis la bibliothèque intégrée, chacun avec un curseur d\'opacité indépendant (0 à 1, pas de 0,05) pour un encadrement décoratif subtil ou prononcé.',
+          'Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou toute dimension personnalisée. Sélectionnez une couleur de fond avec le sélecteur de couleur — le blanc est le défaut pour des fiches épurées. Cochez la case Inclure Nom/Date pour ajouter des champs formatés « Nom : ____ » et « Date : ____ » en bas de la page, permettant aux utilisateurs d\'identifier leur travail. Choisissez un thème de fond et un thème de bordure depuis la bibliothèque intégrée, chacun avec un curseur d\'opacité indépendant (0 à 1, pas de 0,05) pour un encadrement décoratif subtil ou prononcé.',
       },
       {
         title: 'Choisir la source d\'images',
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Générer la fiche graphique à images',
         description:
-          'Cliquez sur Générer pour créer la fiche. L\'application dispose 20 icônes dispersées de vos 6 types d\'images sélectionnés dans une grille 4×5 avec une bordure en pointillés en haut de la page. En dessous de la grille, un diagramme à barres de 6 colonnes × 5 lignes apparaît avec chaque colonne étiquetée par l\'un des 6 types d\'images. Les lignes sont numérotées de 1 à 5 du bas vers le haut. Un en-tête auto-généré affiche un titre localisé « Graphique en Images » et des consignes de comptage dans une pilule jaune stylisée avec un cadre de bordure orange. Le canevas de la fiche montre des cases vides prêtes à être remplies par les élèves.',
+          'Cliquez sur Générer pour créer la fiche. L\'application dispose 20 icônes dispersées de vos 6 types d\'images sélectionnés dans une grille 4×5 avec une bordure en pointillés en haut de la page. En dessous de la grille, un diagramme à barres de 6 colonnes × 5 lignes apparaît avec chaque colonne étiquetée par l\'un des 6 types d\'images. Les lignes sont numérotées de 1 à 5 du bas vers le haut. Un en-tête auto-généré affiche un titre localisé « Graphique en Images » et des consignes de comptage dans une pilule jaune stylisée avec un cadre de bordure orange. Le canevas de la fiche montre des cases vides prêtes à être remplies par les utilisateurs.',
       },
       {
         title: 'Personnaliser avec les outils texte et l\'édition sur canevas',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générer le corrigé et tout télécharger',
         description:
-          'Basculez vers l\'onglet Corrigé pour voir la solution auto-générée — les cases du diagramme à barres sont remplies avec un surlignage jaune (#FFC857) montrant le décompte correct pour chaque type d\'image. Activez l\'option niveaux de gris pour des versions économiques en encre. Téléchargez les quatre fichiers : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous rendus à 300 DPI. Les fichiers sont nommés worksheet.jpeg, worksheet.pdf, answer_key.jpeg et answer_key.pdf pour une organisation facile. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT.',
+          'Basculez vers l\'onglet Corrigé pour voir la solution auto-générée — les cases du diagramme à barres sont remplies avec un surlignage jaune (#FFC857) montrant le décompte correct pour chaque type d\'image. Activez l\'option niveaux de gris pour des versions économiques en encre. Téléchargez les quatre fichiers : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous rendus à 300 DPI. Les fichiers sont nommés worksheet.jpeg, worksheet.pdf, answer_key.jpeg et answer_key.pdf pour une organisation facile. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Générateur de fiches graphique à images avec grille d\'images dispersées et diagramme à barres',
         description:
-          'Chaque fiche générée combine deux éléments interconnectés : une grille 4×5 contenant 20 icônes dispersées de 6 types d\'images différents, et un diagramme à barres de 6 colonnes × 5 lignes où chaque colonne correspond à un type d\'image. Chaque type d\'image apparaît 1 à 5 fois dans la grille (maximum 5 par type, distribués aléatoirement), créant un défi de comptage unique à chaque génération. Les élèves comptent combien de chaque type d\'image apparaît dans la grille, puis colorient le nombre correspondant de cases dans le graphique en dessous. Ce format en deux parties enseigne simultanément la collecte de données et la représentation de données — le cœur des compétences graphiques de base.',
+          'Chaque fiche générée combine deux éléments interconnectés : une grille 4×5 contenant 20 icônes dispersées de 6 types d\'images différents, et un diagramme à barres de 6 colonnes × 5 lignes où chaque colonne correspond à un type d\'image. Chaque type d\'image apparaît 1 à 5 fois dans la grille (maximum 5 par type, distribués aléatoirement), créant un défi de comptage unique à chaque génération. Les utilisateurs comptent combien de chaque type d\'image apparaît dans la grille, puis colorient le nombre correspondant de cases dans le graphique en dessous. Ce format en deux parties enseigne simultanément la collecte de données et la représentation de données — le cœur des compétences graphiques de base.',
       },
       {
         title: 'Corrigé auto-généré avec cases du graphique remplies',
         description:
-          'Chaque fiche génère simultanément un corrigé correspondant sur un onglet de canevas séparé. Le corrigé affiche la même grille d\'images et le même diagramme à barres, mais avec les cases correctes remplies d\'un surlignage jaune (#FFC857). Les enseignants voient d\'un coup d\'œil combien de chaque type d\'image devrait apparaître dans le graphique. Basculez entre les onglets Fiche et Corrigé pour comparer. Téléchargez les deux versions indépendamment — fiche JPEG/PDF et corrigé JPEG/PDF — ce qui vous donne quatre fichiers prêts à la production à partir d\'une seule génération. Le corrigé automatique élimine le comptage manuel et garantit la précision sur de grands lots de fiches.',
+          'Chaque fiche génère simultanément un corrigé correspondant sur un onglet de canevas séparé. Le corrigé affiche la même grille d\'images et le même diagramme à barres, mais avec les cases correctes remplies d\'un surlignage jaune (#FFC857). Les vendeurs voient d\'un coup d\'œil combien de chaque type d\'image devrait apparaître dans le graphique. Basculez entre les onglets Fiche et Corrigé pour comparer. Téléchargez les deux versions indépendamment — fiche JPEG/PDF et corrigé JPEG/PDF — ce qui vous donne quatre fichiers prêts à la production à partir d\'une seule génération. Le corrigé automatique élimine le comptage manuel et garantit la précision sur de grands lots de fiches.',
       },
       {
         title: 'Modes de sélection d\'images automatique et manuel',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'En-tête localisé du graphique à images avec titre et consignes',
         description:
-          'Chaque fiche générée inclut un en-tête auto-généré avec un fond en pilule jaune (#FFD93D), une pilule intérieure blanche et un cadre de bordure orange (extérieur #FF8C42, intérieur #FFD6A5). L\'en-tête affiche un titre localisé — « Picture Graph » en anglais, « Bilddiagramm » en allemand, « Graphique en Images » en français, et des traductions équivalentes dans les 11 langues prises en charge. Sous le titre, des consignes de comptage localisées guident les élèves à travers l\'activité. L\'en-tête s\'adapte automatiquement lorsque vous changez la langue d\'interface, rendant les fiches prêtes pour la classe dans n\'importe quelle langue sans édition manuelle du texte.',
+          'Chaque fiche générée inclut un en-tête auto-généré avec un fond en pilule jaune (#FFD93D), une pilule intérieure blanche et un cadre de bordure orange (extérieur #FF8C42, intérieur #FFD6A5). L\'en-tête affiche un titre localisé — « Picture Graph » en anglais, « Bilddiagramm » en allemand, « Graphique en Images » en français, et des traductions équivalentes dans les 11 langues prises en charge. Sous le titre, des consignes de comptage localisées guident les utilisateurs à travers l\'activité. L\'en-tête s\'adapte automatiquement lorsque vous changez la langue d\'interface, rendant les fiches prêtes pour la vente dans n\'importe quelle langue sans édition manuelle du texte.',
       },
       {
         title: 'Bibliothèque d\'images avec 104 collections thématiques et plus de 3 100 illustrations',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI avec mode niveaux de gris',
         description:
-          'Téléchargez les fiches graphique à images et les corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI avec un multiplicateur 6× pour une sortie nette. Les formats de page incluent Letter Portrait (612×792), Letter Paysage (792×612), A4 Portrait (595×842), A4 Paysage (842×595), Carré (1200×1200) et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe et les intérieurs de livres KDP. Quatre boutons de téléchargement fournissent fiche JPEG, corrigé JPEG, fiche PDF et corrigé PDF — un ensemble produit complet à partir d\'une seule génération.',
+          'Téléchargez les fiches graphique à images et les corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer rendus à 300 DPI avec un multiplicateur 6× pour une sortie nette. Les formats de page incluent Letter Portrait (612×792), Letter Paysage (792×612), A4 Portrait (595×842), A4 Paysage (842×595), Carré (1200×1200) et dimensions entièrement personnalisées. Activez le mode niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume et les intérieurs de livres KDP. Quatre boutons de téléchargement fournissent fiche JPEG, corrigé JPEG, fiche PDF et corrigé PDF — un ensemble produit complet à partir d\'une seule génération.',
       },
     ],
   },
@@ -104,32 +104,32 @@ const content: AppContent = {
       {
         title: 'Packs thématiques de graphiques à images sur Etsy',
         description:
-          'Créez des packs de fiches graphique à images thématiques en utilisant les 104 collections d\'images — graphiques de comptage d\'animaux, graphiques de données alimentaires, fiches de dénombrement de véhicules, graphiques d\'observation de la nature et des dizaines d\'autres. Chaque thème fournit suffisamment d\'images pour 10 à 20 fiches uniques avec des distributions aléatoires différentes. Incluez le corrigé auto-généré avec chaque fiche pour la commodité des enseignants. Proposez les thèmes en packs individuels à 3 €–5 € chacun, ou combinez plusieurs thèmes en méga packs à 12 €–18 €. La grille d\'images dispersées avec 6 types par fiche garantit que chaque fiche est unique et impossible à recréer manuellement, donnant à vos produits une originalité authentique.',
+          'Créez des packs de fiches graphique à images thématiques en utilisant les 104 collections d\'images — graphiques de comptage d\'animaux, graphiques de données alimentaires, fiches de dénombrement de véhicules, graphiques d\'observation de la nature et des dizaines d\'autres. Chaque thème fournit suffisamment d\'images pour 10 à 20 fiches uniques avec des distributions aléatoires différentes. Incluez le corrigé auto-généré avec chaque fiche pour la commodité des vendeurs. Proposez les thèmes en packs individuels à 3 €–5 € chacun, ou combinez plusieurs thèmes en méga packs à 12 €–18 €. La grille d\'images dispersées avec 6 types par fiche garantit que chaque fiche est unique et impossible à recréer manuellement, donnant à vos produits une originalité authentique.',
         platform: 'Etsy (etsy.fr)',
       },
       {
         title: 'Cahiers de compétences en données sur Amazon KDP',
         description:
-          'Compilez 60 à 100 fiches graphique à images dans un cahier imprimé de compétences en données formaté pour Amazon KDP. Structurez les chapitres par thème : le chapitre 1 couvre le comptage d\'animaux, le chapitre 2 les graphiques alimentaires, le chapitre 3 les données de véhicules, et ainsi de suite. Activez l\'export en niveaux de gris pour des pages économiques en encre prêtes pour les intérieurs noir et blanc. Incluez les pages corrigés à la fin de chaque chapitre pour référence des parents et enseignants. La génération double canevas produit automatiquement fiche et corrigé, donc construire un cahier de 100 pages avec solutions complètes prend une fraction du temps comparé à la création manuelle.',
+          'Compilez 60 à 100 fiches graphique à images dans un cahier imprimé de compétences en données formaté pour Amazon KDP. Structurez les chapitres par thème : le chapitre 1 couvre le comptage d\'animaux, le chapitre 2 les graphiques alimentaires, le chapitre 3 les données de véhicules, et ainsi de suite. Activez l\'export en niveaux de gris pour des pages économiques en encre prêtes pour les intérieurs noir et blanc. Incluez les pages corrigés à la fin de chaque chapitre pour référence des parents et vendeurs. La génération double canevas produit automatiquement fiche et corrigé, donc construire un cahier de 100 pages avec solutions complètes prend une fraction du temps comparé à la création manuelle.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fiches d\'activités de centre mathématique pour TPT',
+        title: 'Fiches d\'activités de centre mathématique pour Gumroad',
         description:
-          'Construisez des activités de centre mathématique prêtes à l\'emploi avec des graphiques à images incluant des champs nom et date de l\'élève. Les enseignants recherchant des activités de graphiques sur TPT valorisent les fiches avec identification de l\'élève intégrée — la case nom/date rend votre produit immédiatement utilisable en classe sans formatage supplémentaire. Créez des ensembles par thème liés aux unités du programme : comptage d\'animaux de la ferme pour les sciences du vivant, graphiques d\'icônes météo pour les sciences de la terre, ou dénombrement de véhicules d\'aide communautaire pour l\'éducation civique. Chaque fiche est accompagnée de son propre corrigé, éliminant le temps de préparation de l\'enseignant.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construisez des activités de centre mathématique prêtes à l\'emploi avec des graphiques à images incluant des champs nom et date de l\'utilisateur. Les vendeurs recherchant des activités de graphiques sur Gumroad valorisent les fiches avec identification de l\'utilisateur intégrée — la case nom/date rend votre produit immédiatement utilisable en ligne sans formatage supplémentaire. Créez des ensembles par thème liés aux unités du programme : comptage d\'animaux de la ferme pour les sciences du vivant, graphiques d\'icônes météo pour les sciences de la terre, ou dénombrement de véhicules d\'aide communautaire pour l\'éducation civique. Chaque fiche est accompagnée de son propre corrigé, éliminant le temps de préparation de l\'vendeur.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Activités de données interdisciplinaires',
         description:
-          'Les graphiques à images font naturellement le pont entre les mathématiques et les autres matières. Utilisez les thèmes animaux pour les unités de sciences sur les habitats et la classification. Utilisez les thèmes alimentaires pour les leçons de santé et nutrition. Utilisez les thèmes véhicules pour les sujets sur la communauté et les transports. Les 104 collections thématiques couvrent virtuellement toutes les matières du primaire, vous permettant de créer des fiches de représentation de données qui renforcent le vocabulaire du contenu tout en enseignant les compétences graphiques. Vendez des packs interdisciplinaires qui attirent les enseignants cherchant des activités intégrées — une niche en croissance sur les trois grandes plateformes.',
-        platform: 'Etsy / Amazon KDP / TPT',
+          'Les graphiques à images font naturellement le pont entre les mathématiques et les autres matières. Utilisez les thèmes animaux pour les unités de sciences sur les habitats et la classification. Utilisez les thèmes alimentaires pour les leçons de santé et nutrition. Utilisez les thèmes véhicules pour les sujets sur la communauté et les transports. Les 104 collections thématiques couvrent virtuellement toutes les matières du primaire, vous permettant de créer des fiches de représentation de données qui renforcent le vocabulaire du contenu tout en vendeur les compétences graphiques. Vendez des packs interdisciplinaires qui attirent les vendeurs cherchant des activités intégrées — une niche en croissance sur les trois grandes plateformes.',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Collections saisonnières de comptage et graphiques',
         description:
-          'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et festive — décorations de Noël, icônes d\'Halloween, objets de Pâques, cœurs de Saint-Valentin, fournitures de rentrée, activités d\'été et paysages d\'hiver. Créez des collections de graphiques à images en édition limitée alignées sur les périodes de pointe d\'achat. Publiez les packs de comptage d\'Halloween en septembre, les packs graphiques de Noël en octobre, et les activités de données de Saint-Valentin en janvier. Incluez les corrigés avec chaque ensemble pour des produits enseignants complets. Les produits saisonniers commandent des prix plus élevés pendant les fenêtres de pointe et créent des raisons naturelles pour des achats répétés.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+          'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et festive — décorations de Noël, icônes d\'Halloween, objets de Pâques, cœurs de Saint-Valentin, fournitures de rentrée, activités d\'été et paysages d\'hiver. Créez des collections de graphiques à images en édition limitée alignées sur les périodes de pointe d\'achat. Publiez les packs de comptage d\'Halloween en septembre, les packs graphiques de Noël en octobre, et les activités de données de Saint-Valentin en janvier. Incluez les corrigés avec chaque ensemble pour des produits vendeurs complets. Les produits saisonniers commandent des prix plus élevés pendant les fenêtres de pointe et créent des raisons naturelles pour des achats répétés.',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
     ],
   },
@@ -138,7 +138,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne la fiche graphique à images ?',
       answer:
-        'Chaque fiche comporte deux parties. La section supérieure affiche une grille 4×5 contenant 20 icônes dispersées de 6 types d\'images différents — chaque type apparaît 1 à 5 fois, distribués aléatoirement. La section inférieure montre un diagramme à barres de 6 colonnes × 5 lignes avec les colonnes étiquetées par chaque type d\'image et les lignes numérotées de 1 à 5 du bas vers le haut. Les élèves comptent combien de chaque type d\'image apparaît dans la grille, puis colorient ou remplissent le nombre correspondant de cases dans la colonne correspondante. Cela enseigne à la fois la collecte de données (comptage) et la représentation de données (mise en graphique) en une seule activité.',
+        'Chaque fiche comporte deux parties. La section supérieure affiche une grille 4×5 contenant 20 icônes dispersées de 6 types d\'images différents — chaque type apparaît 1 à 5 fois, distribués aléatoirement. La section inférieure montre un diagramme à barres de 6 colonnes × 5 lignes avec les colonnes étiquetées par chaque type d\'image et les lignes numérotées de 1 à 5 du bas vers le haut. Les utilisateurs comptent combien de chaque type d\'image apparaît dans la grille, puis colorient ou remplissent le nombre correspondant de cases dans la colonne correspondante. Cela enseigne à la fois la collecte de données (comptage) et la représentation de données (mise en graphique) en une seule activité.',
     },
     {
       question: 'Comment fonctionne la sélection automatique d\'images ?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionnent les champs nom et date ?',
       answer:
-        'Dans le panneau Mise en Page, cochez la case Inclure Nom/Date pour ajouter des champs formatés « Nom : ____ » et « Date : ____ » en bas de la page de la fiche. Les champs utilisent la police Fredoka à 18 px en couleur #333. Les élèves inscrivent leur nom et la date avant de commencer l\'activité de comptage. Cela rend les fiches immédiatement utilisables en classe sans aucun formatage supplémentaire. Décochez la case pour retirer les champs pour les produits qui n\'ont pas besoin d\'identification de l\'élève.',
+        'Dans le panneau Mise en Page, cochez la case Inclure Nom/Date pour ajouter des champs formatés « Nom : ____ » et « Date : ____ » en bas de la page de la fiche. Les champs utilisent la police Fredoka à 18 px en couleur #333. Les utilisateurs inscrivent leur nom et la date avant de commencer l\'activité de comptage. Cela rend les fiches immédiatement utilisables en ligne sans aucun formatage supplémentaire. Décochez la case pour retirer les champs pour les produits qui n\'ont pas besoin d\'identification de l\'utilisateur.',
     },
     {
       question: 'Comment fonctionnent les thèmes de fond et de bordure ?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le mode niveaux de gris ?',
       answer:
-        'Le mode niveaux de gris dans le panneau Téléchargement convertit l\'intégralité de votre fiche ou corrigé en niveaux de gris au moment de l\'export. Votre canevas reste en couleur pour une édition visuelle facile — les niveaux de gris ne sont appliqués qu\'au fichier exporté. Cela produit une sortie économique en encre pour l\'impression en classe où l\'encre couleur est coûteuse ou indisponible, et pour les intérieurs de livres Amazon KDP qui nécessitent des pages noir et blanc. Le mode niveaux de gris fonctionne indépendamment pour les exports fiche et corrigé.',
+        'Le mode niveaux de gris dans le panneau Téléchargement convertit l\'intégralité de votre fiche ou corrigé en niveaux de gris au moment de l\'export. Votre canevas reste en couleur pour une édition visuelle facile — les niveaux de gris ne sont appliqués qu\'au fichier exporté. Cela produit une sortie économique en encre pour l\'impression en volume où l\'encre couleur est coûteuse ou indisponible, et pour les intérieurs de livres Amazon KDP qui nécessitent des pages noir et blanc. Le mode niveaux de gris fonctionne indépendamment pour les exports fiche et corrigé.',
     },
     {
       question: 'Comment basculer entre la fiche et le corrigé ?',
       answer:
-        'La zone du canevas comporte deux onglets : Fiche et Corrigé. Cliquez sur l\'onglet Corrigé pour voir la solution auto-générée avec les cases du graphique remplies en jaune. Cliquez sur l\'onglet Fiche pour revenir à la version élève avec les cases vides. Chaque onglet dispose de sa propre paire de boutons de téléchargement (JPEG et PDF), vous donnant quatre options de téléchargement au total. Les modifications des éléments du canevas comme le texte, le fond et les bordures s\'appliquent aux deux onglets — la seule différence entre eux est l\'état de remplissage du diagramme à barres.',
+        'La zone du canevas comporte deux onglets : Fiche et Corrigé. Cliquez sur l\'onglet Corrigé pour voir la solution auto-générée avec les cases du graphique remplies en jaune. Cliquez sur l\'onglet Fiche pour revenir à la version utilisateur avec les cases vides. Chaque onglet dispose de sa propre paire de boutons de téléchargement (JPEG et PDF), vous donnant quatre options de téléchargement au total. Les modifications des éléments du canevas comme le texte, le fond et les bordures s\'appliquent aux deux onglets — la seule différence entre eux est l\'état de remplissage du diagramme à barres.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: 'Le Générateur de Graphique à Images est-il sensible à la langue ?',
       answer:
-        'Non. Le Générateur de Graphique à Images produit des fiches de comptage visuel où les élèves comptent des images et remplissent des cases de diagramme à barres — les nombres et les images sont universels. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur, le titre et les consignes de l\'en-tête auto-généré, et les étiquettes de contenu de la bibliothèque d\'images. La fiche elle-même fonctionne de manière identique dans toutes les langues. La Licence Commerciale inclut 10 thèmes en couleur ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
+        'Non. Le Générateur de Graphique à Images produit des fiches de comptage visuel où les utilisateurs comptent des images et remplissent des cases de diagramme à barres — les nombres et les images sont universels. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur, le titre et les consignes de l\'en-tête auto-généré, et les étiquettes de contenu de la bibliothèque d\'images. La fiche elle-même fonctionne de manière identique dans toutes les langues. La Licence Commerciale inclut 10 thèmes en couleur ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
       question: 'Puis-je vendre des fiches graphique à images créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches graphique à images en téléchargement numérique sur Etsy, en cahiers de compétences en données imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. La génération double canevas, le corrigé automatique et les 104 collections d\'images thématiques vous donnent les outils pour produire des produits de graphiques à images originaux et vendables à grande échelle.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches graphique à images en téléchargement numérique sur Etsy, en cahiers de compétences en données imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. La génération double canevas, le corrigé automatique et les 104 collections d\'images thématiques vous donnent les outils pour produire des produits de graphiques à images originaux et vendables à grande échelle.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

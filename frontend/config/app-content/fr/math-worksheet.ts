@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'puzzles algébriques imprimables pour vendeurs Etsy',
       'générateur d\'énigmes algébriques pour éditeurs Amazon KDP',
-      'vendre des fiches de puzzles algébriques sur Teachers Pay Teachers',
+      'vendre des fiches de puzzles algébriques sur Gumroad',
       'puzzles algébriques en images licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Puzzles Algébriques Illustrés | Créer et Vendre',
     metaDescription:
-      'Créez des puzzles algébriques illustrés pour Etsy, KDP et TPT. Images comme variables, 4 niveaux de difficulté, solution unique. Essai gratuit avec filigrane.',
+      'Créez des puzzles algébriques illustrés pour Etsy, KDP et Gumroad. Images comme variables, 4 niveaux de difficulté, solution unique. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Puzzles Algébriques Illustrés pour la Résolution d\'Équations Visuelles',
     tagline: 'Transformez l\'algèbre en aventure visuelle — les images deviennent des variables et chaque puzzle a exactement une solution.',
     description:
-      'Créez des fiches captivantes de puzzles algébriques illustrés où des images remplacent les variables inconnues dans des systèmes d\'équations. Les élèves résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l\'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches captivantes de puzzles algébriques illustrés où des images remplacent les variables inconnues dans des systèmes d\'équations. Les utilisateurs résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l\'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configurer la difficulté, l\'opération et la plage de nombres',
         description:
-          'Ouvrez le panneau Configuration des Exercices et sélectionnez un niveau de difficulté. Très Facile et Facile utilisent deux symboles-images dans un système d\'équations. Moyen élève le défi à trois symboles et trois équations liées, nécessitant une déduction plus complexe. Difficile présente quatre inconnues simultanées dans quatre équations. Choisissez entre Addition Uniquement ou Addition et Soustraction pour contrôler les opérations. Définissez les valeurs minimale et maximale (par défaut 0–20) et activez l\'option Autoriser les Résultats Négatifs pour les apprenants avancés. Sélectionnez enfin le nombre de puzzles par page — de 1 à 6 — avec optimisation automatique portrait ou paysage.',
+          'Ouvrez le panneau Configuration des Exercices et sélectionnez un niveau de difficulté. Très Facile et Facile utilisent deux symboles-images dans un système d\'équations. Moyen utilisateur le défi à trois symboles et trois équations liées, nécessitant une déduction plus complexe. Difficile présente quatre inconnues simultanées dans quatre équations. Choisissez entre Addition Uniquement ou Addition et Soustraction pour contrôler les opérations. Définissez les valeurs minimale et maximale (par défaut 0–20) et activez l\'option Autoriser les Résultats Négatifs pour les apprenants avancés. Sélectionnez enfin le nombre de puzzles par page — de 1 à 6 — avec optimisation automatique portrait ou paysage.',
       },
       {
         title: 'Choisir des images pour vos symboles algébriques',
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Format de puzzle algébrique illustré',
         description:
-          'Chaque fiche présente un système d\'équations liées où des images servent de variables inconnues. Au lieu de lettres abstraites comme x, y et z, les élèves voient des images familières — animaux, véhicules, nourriture — qui rendent le concept de variables concret et accessible. Les élèves analysent les relations entre les équations, déduisent la valeur numérique de chaque image et écrivent leurs réponses. Ce format introduit une véritable pensée algébrique dès le plus jeune âge, bien au-delà des simples exercices d\'arithmétique.',
+          'Chaque fiche présente un système d\'équations liées où des images servent de variables inconnues. Au lieu de lettres abstraites comme x, y et z, les utilisateurs voient des images familières — animaux, véhicules, nourriture — qui rendent le concept de variables concret et accessible. Les utilisateurs analysent les relations entre les équations, déduisent la valeur numérique de chaque image et écrivent leurs réponses. Ce format introduit une véritable pensée algébrique dès le plus jeune âge, bien au-delà des simples exercices d\'arithmétique.',
       },
       {
         title: 'Quatre niveaux de difficulté pour un apprentissage progressif',
         description:
-          'Les niveaux Très Facile et Facile utilisent deux symboles-images, offrant aux élèves une introduction douce à la résolution de systèmes simples à deux équations. Le niveau Moyen élève le défi à trois symboles et trois équations liées, nécessitant une déduction plus complexe. Le mode Difficile présente quatre inconnues simultanées dans quatre équations — un véritable puzzle multi-variables. Cette progression intégrée vous permet de créer des fiches différenciées pour toute une classe ou de compiler un cahier d\'activités par niveau en une seule session.',
+          'Les niveaux Très Facile et Facile utilisent deux symboles-images, offrant aux utilisateurs une introduction douce à la résolution de systèmes simples à deux équations. Le niveau Moyen utilisateur le défi à trois symboles et trois équations liées, nécessitant une déduction plus complexe. Le mode Difficile présente quatre inconnues simultanées dans quatre équations — un véritable puzzle multi-variables. Cette progression intégrée vous permet de créer des fiches différenciées pour toute une classe ou de compiler un cahier d\'activités par niveau en une seule session.',
       },
       {
         title: 'Validation de solution unique',
         description:
-          'Le solveur algébrique intégré vérifie que chaque puzzle créé a exactement une solution correcte avant de le placer sur votre fiche. Aucun système ambigu, aucune réponse multiple valide et aucun puzzle insoluble. Cette garantie mathématique vous évite de vérifier manuellement chaque puzzle et assure que les élèves — et leurs enseignants — peuvent toujours arriver à une seule réponse définitive.',
+          'Le solveur algébrique intégré vérifie que chaque puzzle créé a exactement une solution correcte avant de le placer sur votre fiche. Aucun système ambigu, aucune réponse multiple valide et aucun puzzle insoluble. Cette garantie mathématique vous évite de vérifier manuellement chaque puzzle et assure que les utilisateurs — et leurs vendeurs — peuvent toujours arriver à une seule réponse définitive.',
       },
       {
         title: '104 thèmes visuels avec plus de 3 100 images comme symboles algébriques',
@@ -83,17 +83,17 @@ const content: AppContent = {
       {
         title: 'Plage de nombres configurable et résultats négatifs',
         description:
-          'Définissez les valeurs minimale et maximale des solutions de 0 à 20 par défaut, avec un contrôle précis sur la difficulté des problèmes. Pour les jeunes apprenants, gardez des nombres petits et positifs. Pour les élèves avancés, activez l\'option Autoriser les Résultats Négatifs pour introduire l\'arithmétique signée dans les systèmes d\'équations. L\'ajustement de la plage se fait en un seul clic, vous permettant de produire des versions débutant et avancé du même ensemble de puzzles en quelques minutes.',
+          'Définissez les valeurs minimale et maximale des solutions de 0 à 20 par défaut, avec un contrôle précis sur la difficulté des problèmes. Pour les jeunes apprenants, gardez des nombres petits et positifs. Pour les utilisateurs avancés, activez l\'option Autoriser les Résultats Négatifs pour introduire l\'arithmétique signée dans les systèmes d\'équations. L\'ajustement de la plage se fait en un seul clic, vous permettant de produire des versions débutant et avancé du même ensemble de puzzles en quelques minutes.',
       },
       {
         title: 'Génération automatique du corrigé',
         description:
-          'Cliquez sur un bouton pour générer un corrigé complet qui révèle la valeur numérique attribuée à chaque symbole-image. L\'onglet corrigé affiche un aperçu en direct pour vérifier l\'exactitude avant le téléchargement. Exportez le corrigé en fichier JPEG ou PDF séparé, idéal pour les éditions enseignants, les guides parents ou les packs de produits Etsy sans aucun travail manuel.',
+          'Cliquez sur un bouton pour générer un corrigé complet qui révèle la valeur numérique attribuée à chaque symbole-image. L\'onglet corrigé affiche un aperçu en direct pour vérifier l\'exactitude avant le téléchargement. Exportez le corrigé en fichier JPEG ou PDF séparé, idéal pour les éditions vendeurs, les guides parents ou les packs de produits Etsy sans aucun travail manuel.',
       },
       {
         title: 'Export prêt à imprimer à 400+ DPI avec option niveaux de gris',
         description:
-          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d\'export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l\'export en niveaux de gris pour des versions économiques en encre, parfaites pour l\'impression en classe ou les cahiers d\'activités en noir et blanc. Les formats Letter, A4, Fiche par Défaut, Carré et personnalisés sont tous pris en charge pour une flexibilité maximale.',
+          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d\'export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l\'export en niveaux de gris pour des versions économiques en encre, parfaites pour l\'impression en volume ou les cahiers d\'activités en noir et blanc. Les formats Letter, A4, Fiche par Défaut, Carré et personnalisés sont tous pris en charge pour une flexibilité maximale.',
       },
       {
         title: 'Édition complète du canevas avec annuler et rétablir',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Packs thématiques de puzzles algébriques sur Etsy',
         description:
-          'Créez des ensembles de 10 à 20 fiches de puzzles algébriques illustrés classés par difficulté — de Très Facile à Difficile — et proposez-les en téléchargement instantané sur Etsy. Incluez les corrigés en fichiers bonus. Le format de puzzle algébrique se démarque des fiches d\'exercices arithmétiques classiques, attirant les parents et enseignants qui cherchent des activités de résolution de problèmes engageantes. Fixez le prix des packs par niveau à 4 €–6 € et des méga-packs couvrant les quatre niveaux à 14 €–20 €.',
+          'Créez des ensembles de 10 à 20 fiches de puzzles algébriques illustrés classés par difficulté — de Très Facile à Difficile — et proposez-les en téléchargement instantané sur Etsy. Incluez les corrigés en fichiers bonus. Le format de puzzle algébrique se démarque des fiches d\'exercices arithmétiques classiques, attirant les parents et vendeurs qui cherchent des activités de résolution de problèmes engageantes. Fixez le prix des packs par niveau à 4 €–6 € et des méga-packs couvrant les quatre niveaux à 14 €–20 €.',
         platform: 'Etsy (etsy.fr)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers de maths différenciés pour TPT',
+        title: 'Ateliers de maths différenciés pour Gumroad',
         description:
-          'Créez des ensembles de puzzles algébriques par niveaux avec les quatre difficultés : Niveau 1 (Très Facile, 2 symboles, addition), Niveau 2 (Facile, 2 symboles, opérations mixtes), Niveau 3 (Moyen, 3 symboles) et Niveau 4 (Difficile, 4 symboles). Chaque niveau avec corrigés et fiche de suivi de progression. Les acheteurs de Teachers Pay Teachers paient des prix premium pour des ressources différenciées qui s\'adaptent directement aux groupes de niveau et introduisent le raisonnement algébrique sans notation abstraite.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des ensembles de puzzles algébriques par niveaux avec les quatre difficultés : Niveau 1 (Très Facile, 2 symboles, addition), Niveau 2 (Facile, 2 symboles, opérations mixtes), Niveau 3 (Moyen, 3 symboles) et Niveau 4 (Difficile, 4 symboles). Chaque niveau avec corrigés et fiche de suivi de progression. Les acheteurs de Gumroad paient des prix premium pour des ressources différenciées qui s\'adaptent directement aux groupes de niveau et introduisent le raisonnement algébrique sans notation abstraite.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenu d\'abonnement pour votre propre boutique',
@@ -131,9 +131,9 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Outil pédagogique pour la classe et le soutien scolaire',
+        title: 'Outil pédagogique pour la vente et le soutien scolaire',
         description:
-          'Générez des puzzles algébriques personnalisés adaptés au niveau actuel de chaque élève. Imprimez des fiches Très Facile à deux symboles pour les débutants et des systèmes Difficile à quatre symboles pour les élèves avancés — tout dans la même session. Le format d\'algèbre illustrée rend la pensée algébrique précoce accessible aux jeunes élèves qui ne sont pas encore prêts pour la notation abstraite x-et-y, tandis que le mécanisme de puzzle les motive à résoudre chaque équation. Le corrigé automatique fait gagner du temps de correction.',
+          'Générez des puzzles algébriques personnalisés adaptés au niveau actuel de chaque utilisateur. Imprimez des fiches Très Facile à deux symboles pour les débutants et des systèmes Difficile à quatre symboles pour les utilisateurs avancés — tout dans la même session. Le format d\'algèbre illustrée rend la pensée algébrique précoce accessible aux jeunes utilisateurs qui ne sont pas encore prêts pour la notation abstraite x-et-y, tandis que le mécanisme de puzzle les motive à résoudre chaque équation. Le corrigé automatique fait gagner du valeur perçue.',
         platform: 'Classe / Soutien scolaire / École à la maison',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le format de puzzle algébrique illustré ?',
       answer:
-        'Chaque puzzle présente un système d\'équations liées où des images représentent des variables inconnues. Par exemple, un puzzle à deux symboles pourrait montrer : pomme + pomme = 6, pomme + banane = 8. Les élèves déduisent que chaque pomme vaut 3 et chaque banane vaut 5. Les niveaux supérieurs ajoutent plus de symboles et plus d\'équations, créant de véritables puzzles algébriques multi-variables — le tout sans notation abstraite.',
+        'Chaque puzzle présente un système d\'équations liées où des images représentent des variables inconnues. Par exemple, un puzzle à deux symboles pourrait montrer : pomme + pomme = 6, pomme + banane = 8. Les utilisateurs déduisent que chaque pomme vaut 3 et chaque banane vaut 5. Les niveaux supérieurs ajoutent plus de symboles et plus d\'équations, créant de véritables puzzles algébriques multi-variables — le tout sans notation abstraite.',
     },
     {
       question: 'Que signifient les quatre niveaux de difficulté ?',
       answer:
-        'Les niveaux Très Facile et Facile utilisent deux symboles-images dans un petit système d\'équations — idéal pour introduire le concept. Moyen ajoute un troisième symbole avec trois équations liées, nécessitant plus d\'étapes de déduction. Difficile présente quatre symboles dans quatre équations simultanées, mettant les élèves au défi de suivre plusieurs inconnues. Chaque niveau produit un système que le solveur du générateur a vérifié comme ayant exactement une solution. Pour les vendeurs, cette structure à quatre niveaux permet de créer des ensembles par niveau ou des packs progressifs qui guident les apprenants du débutant à l\'avancé, maximisant le nombre de produits distincts à proposer.',
+        'Les niveaux Très Facile et Facile utilisent deux symboles-images dans un petit système d\'équations — idéal pour introduire le concept. Moyen ajoute un troisième symbole avec trois équations liées, nécessitant plus d\'étapes de déduction. Difficile présente quatre symboles dans quatre équations simultanées, mettant les utilisateurs au défi de suivre plusieurs inconnues. Chaque niveau produit un système que le solveur du générateur a vérifié comme ayant exactement une solution. Pour les vendeurs, cette structure à quatre niveaux permet de créer des ensembles par niveau ou des packs progressifs qui guident les apprenants du débutant à l\'avancé, maximisant le nombre de produits distincts à proposer.',
     },
     {
       question: 'Quelles opérations mathématiques sont disponibles ?',
       answer:
-        'Vous pouvez choisir Addition Uniquement, qui génère des équations utilisant seulement l\'addition, ou Addition et Soustraction, qui mélange les deux opérations dans le même puzzle. L\'addition seule est idéale pour les jeunes élèves, tandis que les opérations mixtes ajoutent de la complexité pour les apprenants avancés et créent des structures d\'équations plus variées. Proposer les deux modes dans vos annonces donne aux acheteurs une différenciation claire et vous permet de positionner des produits séparés pour les débutants et les élèves prêts pour des défis algébriques multi-opérations.',
+        'Vous pouvez choisir Addition Uniquement, qui génère des équations utilisant seulement l\'addition, ou Addition et Soustraction, qui mélange les deux opérations dans le même puzzle. L\'addition seule est idéale pour les jeunes utilisateurs, tandis que les opérations mixtes ajoutent de la complexité pour les apprenants avancés et créent des structures d\'équations plus variées. Proposer les deux modes dans vos annonces donne aux acheteurs une différenciation claire et vous permet de positionner des produits séparés pour les débutants et les utilisateurs prêts pour des défis algébriques multi-opérations.',
     },
     {
       question: 'Quelles plages de nombres puis-je définir pour les puzzles ?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: 'Comment les images fonctionnent-elles comme variables algébriques ?',
       answer:
-        'Chaque image sélectionnée dans la bibliothèque (ou téléchargée par vos soins) est assignée pour représenter une variable inconnue dans le système d\'équations. La même image représente toujours la même valeur au sein d\'un même puzzle. Les élèves voient des images familières au lieu de lettres abstraites, rendant le concept de variables concret et accessible même pour les jeunes apprenants qui n\'ont jamais rencontré l\'algèbre formelle. Les parents et enseignants réagissent systématiquement bien à cette approche visuelle, et les annonces de produits qui mettent en avant le concept image-variable dans leurs descriptions tendent à attirer des taux de clics plus élevés sur Etsy et Teachers Pay Teachers.',
+        'Chaque image sélectionnée dans la bibliothèque (ou téléchargée par vos soins) est assignée pour représenter une variable inconnue dans le système d\'équations. La même image représente toujours la même valeur au sein d\'un même puzzle. Les utilisateurs voient des images familières au lieu de lettres abstraites, rendant le concept de variables concret et accessible même pour les jeunes apprenants qui n\'ont jamais rencontré l\'algèbre formelle. Les parents et vendeurs réagissent systématiquement bien à cette approche visuelle, et les annonces de produits qui mettent en avant le concept image-variable dans leurs descriptions tendent à attirer des taux de clics plus élevés sur Etsy et Gumroad.',
     },
     {
       question: 'Le générateur crée-t-il des corrigés automatiquement ?',
       answer:
-        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue qui révèle la valeur numérique attribuée à chaque symbole-image. Vous pouvez prévisualiser le corrigé à l\'écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche élève. Inclure des corrigés dans chaque annonce ajoute de la valeur perçue pour les acheteurs, car les parents et enseignants s\'attendent à des solutions prêtes à l\'emploi.',
+        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue qui révèle la valeur numérique attribuée à chaque symbole-image. Vous pouvez prévisualiser le corrigé à l\'écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche utilisateur. Inclure des corrigés dans chaque annonce ajoute de la valeur perçue pour les acheteurs, car les parents et vendeurs s\'attendent à des solutions prêtes à l\'emploi.',
     },
     {
       question: 'Les fiches de puzzles algébriques sont-elles sensibles à la langue ?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Que comprend la licence commerciale ?',
       answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme. Il n\'y a pas de redevances par vente, pas de frais mensuels et aucune limite sur le nombre de fiches que vous produisez ou vendez.',
+        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Il n\'y a pas de redevances par vente, pas de frais mensuels et aucune limite sur le nombre de fiches que vous produisez ou vendez.',
     },
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos puzzles algébriques en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. De nombreux vendeurs créent des packs par niveau de difficulté et des cahiers d\'algèbre progressive qui génèrent des revenus réguliers. Testez toutes les fonctionnalités avec l\'essai gratuit avant d\'acheter — l\'essai inclut tous les niveaux, thèmes et formats d\'export pour évaluer la qualité des produits directement.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos puzzles algébriques en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. De nombreux vendeurs créent des packs par niveau de difficulté et des cahiers d\'algèbre progressive qui génèrent des revenus réguliers. Testez toutes les fonctionnalités avec l\'essai gratuit avant d\'acheter — l\'essai inclut tous les niveaux, thèmes et formats d\'export pour évaluer la qualité des produits directement.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

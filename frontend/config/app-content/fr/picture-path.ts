@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'créer des fiches labyrinthes à vendre sur Etsy',
       'générateur de parcours en images pour éditeurs Amazon KDP',
-      'créateur de fiches labyrinthes avec licence commerciale TPT',
+      'créateur de fiches labyrinthes avec licence commerciale Gumroad',
       'vendre des fiches labyrinthes et chemins d\'images en ligne',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Labyrinthes | 3 Modes de Jeu',
     metaDescription:
-      'Créez des fiches labyrinthes pour Etsy, KDP et TPT. 3 modes de jeu, algorithme LPF, corrigé auto, 104 thèmes, PDF imprimables. Essai gratuit avec filigrane.',
+      'Créez des fiches labyrinthes pour Etsy, KDP et Gumroad. 3 modes de jeu, algorithme LPF, corrigé auto, 104 thèmes, PDF imprimables. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches Chemin d\'Images pour Labyrinthes et Parcours Visuels',
     tagline: 'Trois modes de jeu en un seul générateur — Chemin d\'Images, Labyrinthe Classique et Choisis le Bon Chemin — propulsés par un algorithme LPF (Longest Path First) avec corrigés auto-générés, personnalisation des murs et design purement visuel fonctionnant dans le monde entier sans traduction.',
     description:
-      'Créez des fiches professionnelles de labyrinthes et parcours avec trois modes de jeu distincts. Le mode Chemin d\'Images crée une grille d\'images où les élèves suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices. Le Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF (Longest Path First) avec un système couloir-case et placement dynamique des murs — configurez la taille de la grille de 15×15 à 20×20, définissez 1 à 3 chemins avec blocage des impasses, et personnalisez la couleur, l\'épaisseur (1–10px) et l\'opacité (10–100%) des murs. Le mode Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas vers haut, haut vers bas, gauche vers droite, droite vers gauche) où les élèves identifient le seul chemin correct parmi les leurres. Chaque mode génère un corrigé compagnon sur un onglet de canevas séparé — les chemins de solution sont mis en évidence avec des cercles roses le long du parcours correct, et le mode Choisis le Bon Chemin ajoute une étiquette « ✓ CHEMIN CORRECT ». Attribuez des images à cinq rôles distincts : Image de Départ, Image d\'Arrivée, Images du Chemin, Images Distractrices et Décoration. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez les vôtres. L\'en-tête auto-généré « Chemin d\'Images » avec bordure extérieure orange affiche des titres et instructions localisés dans les 11 langues prises en charge. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Le Chemin d\'Images est entièrement visuel — les labyrinthes ne nécessitent aucune lecture ni compréhension linguistique, rendant chaque fiche instantanément vendable sur n\'importe quel marché mondial. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches professionnelles de labyrinthes et parcours avec trois modes de jeu distincts. Le mode Chemin d\'Images crée une grille d\'images où les utilisateurs suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices. Le Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF (Longest Path First) avec un système couloir-case et placement dynamique des murs — configurez la taille de la grille de 15×15 à 20×20, définissez 1 à 3 chemins avec blocage des impasses, et personnalisez la couleur, l\'épaisseur (1–10px) et l\'opacité (10–100%) des murs. Le mode Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas vers haut, haut vers bas, gauche vers droite, droite vers gauche) où les utilisateurs identifient le seul chemin correct parmi les leurres. Chaque mode génère un corrigé compagnon sur un onglet de canevas séparé — les chemins de solution sont mis en évidence avec des cercles roses le long du parcours correct, et le mode Choisis le Bon Chemin ajoute une étiquette « ✓ CHEMIN CORRECT ». Attribuez des images à cinq rôles distincts : Image de Départ, Image d\'Arrivée, Images du Chemin, Images Distractrices et Décoration. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez les vôtres. L\'en-tête auto-généré « Chemin d\'Images » avec bordure extérieure orange affiche des titres et instructions localisés dans les 11 langues prises en charge. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Le Chemin d\'Images est entièrement visuel — les labyrinthes ne nécessitent aucune lecture ni compréhension linguistique, rendant chaque fiche instantanément vendable sur n\'importe quel marché mondial. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir la solution auto-générée. Le corrigé met en évidence le chemin correct avec des cercles roses le long du parcours. Le mode Choisis le Bon Chemin ajoute une étiquette « ✓ CHEMIN CORRECT » sur le chemin correct. Le Labyrinthe Classique inclut une légende des objets à collectionner indiquant le nombre de chaque image. Téléchargez avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits TPT.',
+          'Passez à l\'onglet Corrigé pour voir la solution auto-générée. Le corrigé met en évidence le chemin correct avec des cercles roses le long du parcours. Le mode Choisis le Bon Chemin ajoute une étiquette « ✓ CHEMIN CORRECT » sur le chemin correct. Le Labyrinthe Classique inclut une légende des objets à collectionner indiquant le nombre de chaque image. Téléchargez avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits Gumroad.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Trois Modes de Jeu : Chemin d\'Images, Labyrinthe Classique et Choisis le Bon Chemin',
         description:
-          'Un seul générateur produit trois types d\'activités de labyrinthe distincts. Chemin d\'Images crée une grille d\'images où les élèves suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices — idéal pour les jeunes apprenants et les tâches de discrimination visuelle. Labyrinthe Classique génère des labyrinthes professionnels à murs utilisant l\'algorithme LPF avec des images à collectionner réparties dans les corridors pour plus d\'engagement. Choisis le Bon Chemin présente des labyrinthes à trois chemins où les élèves identifient le seul parcours correct parmi les leurres, avec quatre options directionnelles : bas vers haut, haut vers bas, gauche vers droite et droite vers gauche. Chaque mode offre un défi cognitif différent à partir de la même bibliothèque d\'images, vous donnant trois gammes de produits à partir d\'un seul outil.',
+          'Un seul générateur produit trois types d\'activités de labyrinthe distincts. Chemin d\'Images crée une grille d\'images où les utilisateurs suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices — idéal pour les jeunes apprenants et les tâches de discrimination visuelle. Labyrinthe Classique génère des labyrinthes professionnels à murs utilisant l\'algorithme LPF avec des images à collectionner réparties dans les corridors pour plus d\'engagement. Choisis le Bon Chemin présente des labyrinthes à trois chemins où les utilisateurs identifient le seul parcours correct parmi les leurres, avec quatre options directionnelles : bas vers haut, haut vers bas, gauche vers droite et droite vers gauche. Chaque mode offre un défi cognitif différent à partir de la même bibliothèque d\'images, vous donnant trois gammes de produits à partir d\'un seul outil.',
       },
       {
         title: 'Algorithme LPF Professionnel avec Scoring de Qualité et Blocage des Impasses',
@@ -83,12 +83,12 @@ const content: AppContent = {
       {
         title: 'Corrigé Auto-Généré avec Mise en Évidence du Chemin de Solution',
         description:
-          'Chaque fiche labyrinthe génère automatiquement un corrigé compagnon sur un onglet de canevas séparé. Le corrigé reproduit la disposition exacte du labyrinthe et met en évidence le chemin de solution correct avec des cercles roses placés le long du parcours. Le mode Choisis le Bon Chemin ajoute une étiquette « ✓ CHEMIN CORRECT » identifiant le parcours correct parmi les trois options. Le mode Labyrinthe Classique inclut une légende des objets à collectionner montrant le nombre de chaque image trouvée le long du chemin. Les flèches de départ et d\'arrivée apparaissent dans les cases appropriées. Téléchargez le corrigé séparément en answer_key.jpeg ou answer_key.pdf à côté de la fiche élève.',
+          'Chaque fiche labyrinthe génère automatiquement un corrigé compagnon sur un onglet de canevas séparé. Le corrigé reproduit la disposition exacte du labyrinthe et met en évidence le chemin de solution correct avec des cercles roses placés le long du parcours. Le mode Choisis le Bon Chemin ajoute une étiquette « ✓ CHEMIN CORRECT » identifiant le parcours correct parmi les trois options. Le mode Labyrinthe Classique inclut une légende des objets à collectionner montrant le nombre de chaque image trouvée le long du chemin. Les flèches de départ et d\'arrivée apparaissent dans les cases appropriées. Téléchargez le corrigé séparément en answer_key.jpeg ou answer_key.pdf à côté de la fiche utilisateur.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 Collections Thématiques et Plus de 3 100 Illustrations',
         description:
-          'Parcourez 104 collections d\'images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et des dizaines d\'autres. Chaque thème fournit des illustrations coordonnées qui fonctionnent ensemble dans les activités de labyrinthe — labyrinthes d\'animaux où les élèves suivent des chats à travers une grille de distractrices, labyrinthes de fêtes avec des objets saisonniers à collectionner, et bien plus. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l\'Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans les trois modes de jeu.',
+          'Parcourez 104 collections d\'images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et des dizaines d\'autres. Chaque thème fournit des illustrations coordonnées qui fonctionnent ensemble dans les activités de labyrinthe — labyrinthes d\'animaux où les utilisateurs suivent des chats à travers une grille de distractrices, labyrinthes de fêtes avec des objets saisonniers à collectionner, et bien plus. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l\'Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans les trois modes de jeu.',
       },
       {
         title: 'Export PDF et JPEG Prêt à Imprimer à 300 DPI avec Mode Niveaux de Gris',
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: 'Édition Complète du Canevas avec Outils Texte, Champs Nom/Date et Historique d\'Annulation',
         description:
-          'Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche labyrinthe. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour ajouter des lignes d\'identification élève. Zoomez et dézoomez ou réinitialisez à 100% pour le travail de détail. Annulez et rétablissez jusqu\'à 20 états d\'historique avec Ctrl+Z et Ctrl+Y. Les contrôles de calques gèrent l\'ordre d\'empilement pour un arrangement précis des éléments.',
+          'Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche labyrinthe. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour ajouter des lignes d\'identification utilisateur. Zoomez et dézoomez ou réinitialisez à 100% pour le travail de détail. Annulez et rétablissez jusqu\'à 20 états d\'historique avec Ctrl+Z et Ctrl+Y. Les contrôles de calques gèrent l\'ordre d\'empilement pour un arrangement précis des éléments.',
       },
     ],
   },
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Activités de Logique et Résolution de Problèmes pour TPT',
+        title: 'Activités de Logique et Résolution de Problèmes pour Gumroad',
         description:
-          'Concevez des fiches labyrinthes prêtes à l\'emploi avec champs nom/date et corrigés imprimés pour utilisation en classe. Les enseignants sur TPT recherchant des activités de logique apprécient les fiches qui développent le raisonnement spatial et la résolution de problèmes. Créez des ensembles alignés sur le programme : parcours d\'habitats animaliers, collections de labyrinthes saisonniers et packs de difficulté progressive. Le Labyrinthe Classique avec des images à collectionner ajoute de la pratique de comptage au parcours. Chaque ensemble inclut des fiches élèves et des corrigés aux formats PDF et JPEG pour une utilisation flexible en classe.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Concevez des fiches labyrinthes prêtes à l\'emploi avec champs nom/date et corrigés imprimés pour utilisation en ligne. Les vendeurs sur Gumroad recherchant des activités de logique apprécient les fiches qui développent le raisonnement spatial et la résolution de problèmes. Créez des ensembles alignés sur le programme : parcours d\'habitats animaliers, collections de labyrinthes saisonniers et packs de difficulté progressive. Le Labyrinthe Classique avec des images à collectionner ajoute de la pratique de comptage au parcours. Chaque ensemble inclut des fiches utilisateurs et des corrigés aux formats PDF et JPEG pour une utilisation flexible en ligne.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections de Labyrinthes Saisonniers et de Fêtes',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et de fêtes — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d\'été et plus encore. Créez des collections de labyrinthes à durée limitée qui s\'alignent sur les périodes de forte demande. Lancez des packs Halloween en septembre, des collections de Noël en octobre et des packs de Saint-Valentin en janvier. Incluez les trois modes de jeu dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers obtiennent des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles d\'achats répétés de la part des clients fidèles.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
       {
         title: 'Marché Mondial avec un Design de Labyrinthe Purement Visuel',
         description:
-          'Les fiches labyrinthes sont entièrement visuelles — les élèves naviguent dans des chemins, suivent des images et résolvent des puzzles spatiaux sans lire aucun texte. Cela rend chaque fiche instantanément vendable sur n\'importe quel marché mondial sans traduction ni localisation. Listez le même pack de labyrinthes sur des boutiques Etsy internationales, publiez des cahiers ciblant les marketplaces Amazon non francophones, et touchez des acheteurs TPT du monde entier. L\'en-tête auto-généré se traduit dans 11 langues automatiquement, mais le contenu du labyrinthe lui-même est universellement compris. Un seul produit, des marchés illimités.',
+          'Les fiches labyrinthes sont entièrement visuelles — les utilisateurs naviguent dans des chemins, suivent des images et résolvent des puzzles spatiaux sans lire aucun texte. Cela rend chaque fiche instantanément vendable sur n\'importe quel marché mondial sans traduction ni localisation. Listez le même pack de labyrinthes sur des boutiques Etsy internationales, publiez des cahiers ciblant les marketplaces Amazon non francophones, et touchez des acheteurs Gumroad du monde entier. L\'en-tête auto-généré se traduit dans 11 langues automatiquement, mais le contenu du labyrinthe lui-même est universellement compris. Un seul produit, des marchés illimités.',
         platform: 'Marchés mondiaux (toutes plateformes)',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quels sont les trois modes de jeu et comment diffèrent-ils ?',
       answer:
-        'Le générateur propose trois modes distincts. Chemin d\'Images crée une grille d\'images où les élèves suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF avec des images à collectionner, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles où les élèves identifient le seul parcours correct. Chaque mode produit un défi de raisonnement spatial différent à partir de la même bibliothèque d\'images.',
+        'Le générateur propose trois modes distincts. Chemin d\'Images crée une grille d\'images où les utilisateurs suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF avec des images à collectionner, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles où les utilisateurs identifient le seul parcours correct. Chaque mode produit un défi de raisonnement spatial différent à partir de la même bibliothèque d\'images.',
     },
     {
       question: 'Comment fonctionne l\'algorithme LPF pour les labyrinthes ?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Les fiches Chemin d\'Images sont-elles sensibles à la langue ?',
       answer:
-        'Non. Contrairement aux générateurs basés sur les mots, les fiches Chemin d\'Images sont entièrement visuelles. Les élèves naviguent dans des labyrinthes et suivent des chemins d\'images sans lire aucun texte. L\'en-tête auto-généré se traduit dans 11 langues, mais le contenu du labyrinthe lui-même ne nécessite aucune compréhension linguistique. Cela rend chaque fiche instantanément utilisable et vendable sur n\'importe quel marché mondial sans modification.',
+        'Non. Contrairement aux générateurs basés sur les mots, les fiches Chemin d\'Images sont entièrement visuelles. Les utilisateurs naviguent dans des labyrinthes et suivent des chemins d\'images sans lire aucun texte. L\'en-tête auto-généré se traduit dans 11 langues, mais le contenu du labyrinthe lui-même ne nécessite aucune compréhension linguistique. Cela rend chaque fiche instantanément utilisable et vendable sur n\'importe quel marché mondial sans modification.',
     },
     {
       question: 'Puis-je vendre des fiches labyrinthes créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches labyrinthes en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur TPT ou via tout autre canal de vente. Les trois modes de jeu, l\'algorithme LPF, les 104 collections d\'images thématiques et le format purement visuel vous donnent les outils pour produire des produits labyrinthes originaux et vendables dans le monde entier.',
+        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches labyrinthes en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les trois modes de jeu, l\'algorithme LPF, les 104 collections d\'images thématiques et le format purement visuel vous donnent les outils pour produire des produits labyrinthes originaux et vendables dans le monde entier.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/french/picture path/Chemin d\'Images 1.webp',
         alt: 'Mode Chemin d\'Images avec des images arrangées dans une grille montrant le chemin correct du départ à l\'arrivée',
-        caption: 'Mode Chemin d\'Images — les élèves suivent le chemin correct d\'images du départ à l\'arrivée',
+        caption: 'Mode Chemin d\'Images — les utilisateurs suivent le chemin correct d\'images du départ à l\'arrivée',
       },
       {
         src: '/samples/french/picture path/Chemin d\'Images 2.webp',

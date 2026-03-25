@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fiches train alphabet imprimables pour Etsy',
       'générateur de fiches de reconnaissance des lettres pour Amazon KDP',
-      'vendre des fiches alphabet sur Teachers Pay Teachers',
+      'vendre des fiches alphabet sur Gumroad',
       'fiches train alphabet licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Train Alphabet | Créer des Fiches Lettres',
     metaDescription:
-      'Créez des fiches train alphabet à vendre sur Etsy, KDP et TPT. Wagons colorés, association lettre-image, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches train alphabet à vendre sur Etsy, KDP et Gumroad. Wagons colorés, association lettre-image, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {
     title: 'Générateur de Fiches Train de l\'Alphabet pour la Reconnaissance des Lettres',
     tagline: 'Chaque wagon transporte une lettre et une image correspondante — construisant la reconnaissance des lettres wagon après wagon.',
     description:
-      'Concevez des fiches train alphabet captivantes où 11 wagons colorés défilent sur la page, chacun portant une lettre associée à une illustration correspondante. Choisissez le mode Création Automatique pour une sélection aléatoire instantanée de lettres ou le Mode Manuel pour sélectionner précisément 11 lettres de l\'alphabet pour un entraînement ciblé. Ajoutez de 3 à 11 indices configurables par fiche — des images-indices que les élèves associent au bon wagon-lettre — transformant la reconnaissance passive des lettres en un exercice actif de résolution de problèmes. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour trouver l\'image parfaite pour chaque lettre. L\'Accès Complet déverrouille les 11 langues prises en charge avec leurs alphabets natifs — l\'allemand avec Ä/Ö/Ü, le suédois avec Å/Ä/Ö, l\'espagnol avec Ñ, et plus encore — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou Carré. Que vous vendiez des packs alphabet thématiques sur Etsy, compiliez des cahiers d\'alphabétisation progressifs pour Amazon KDP ou créiez des ateliers de lettres différenciés pour TPT, le Générateur Train Alphabet produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches train alphabet captivantes où 11 wagons colorés défilent sur la page, chacun portant une lettre associée à une illustration correspondante. Choisissez le mode Création Automatique pour une sélection aléatoire instantanée de lettres ou le Mode Manuel pour sélectionner précisément 11 lettres de l\'alphabet pour un entraînement ciblé. Ajoutez de 3 à 11 indices configurables par fiche — des images-indices que les utilisateurs associent au bon wagon-lettre — transformant la reconnaissance passive des lettres en un exercice actif de résolution de problèmes. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour trouver l\'image parfaite pour chaque lettre. L\'Accès Complet déverrouille les 11 langues prises en charge avec leurs alphabets natifs — l\'allemand avec Ä/Ö/Ü, le suédois avec Å/Ä/Ö, l\'espagnol avec Ñ, et plus encore — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou Carré. Que vous vendiez des packs alphabet thématiques sur Etsy, compiliez des cahiers d\'alphabétisation progressifs pour Amazon KDP ou créiez des ateliers de lettres différenciés pour Gumroad, le Générateur Train Alphabet produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Configurer les indices et le style du texte',
         description:
-          'Définissez le nombre d\'indices de 3 à 11 — ce sont des images-indices affichées séparément que les élèves associent au bon wagon-lettre. Moins d\'indices créent une fiche plus facile ; plus d\'indices augmentent la difficulté. Activez ou désactivez les champs nom et date de l\'élève. Utilisez le panneau Outils de Texte pour ajouter un titre, des consignes ou du texte personnalisé. Choisissez parmi sept polices dont Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana avec taille, couleur et contour ajustables.',
+          'Définissez le nombre d\'indices de 3 à 11 — ce sont des images-indices affichées séparément que les utilisateurs associent au bon wagon-lettre. Moins d\'indices créent une fiche plus facile ; plus d\'indices augmentent la difficulté. Activez ou désactivez les champs nom et date de l\'utilisateur. Utilisez le panneau Outils de Texte pour ajouter un titre, des consignes ou du texte personnalisé. Choisissez parmi sept polices dont Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana avec taille, couleur et contour ajustables.',
       },
       {
         title: 'Générer le corrigé et télécharger',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Système d\'indices configurable pour une difficulté ajustable',
         description:
-          'Définissez de 3 à 11 indices par fiche. Les indices sont des images affichées séparément du train — les élèves doivent identifier à quel wagon-lettre chaque image-indice appartient. Moins d\'indices créent un exercice d\'association plus simple adapté aux enfants de maternelle, tandis que les 11 indices complets mettent au défi les élèves de grande section et de CP d\'associer chaque wagon. Ce curseur de difficulté intégré facilite la création de gammes de produits différenciées ou de ressources de classe à niveaux à partir de la même application.',
+          'Définissez de 3 à 11 indices par fiche. Les indices sont des images affichées séparément du train — les utilisateurs doivent identifier à quel wagon-lettre chaque image-indice appartient. Moins d\'indices créent un exercice d\'association plus simple attrayant de maternelle, tandis que les 11 indices complets mettent au défi les utilisateurs de grande section et de CP d\'associer chaque wagon. Ce curseur de difficulté intégré facilite la création de gammes de produits différenciées ou de ressources de classe à niveaux à partir de la même application.',
       },
       {
         title: '104 thèmes visuels avec plus de 3 100 images pour l\'association lettre-image',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Génération automatique du corrigé',
         description:
-          'Cliquez sur un bouton pour générer un corrigé complet montrant chaque wagon-train avec son association lettre-image correcte et tous les indices résolus. L\'onglet corrigé affiche un aperçu en direct pour vérifier l\'exactitude avant le téléchargement. Exportez le corrigé en fichier JPEG ou PDF séparé, idéal pour les éditions enseignants, les guides parents ou les packs produits Etsy sans aucun travail manuel.',
+          'Cliquez sur un bouton pour générer un corrigé complet montrant chaque wagon-train avec son association lettre-image correcte et tous les indices résolus. L\'onglet corrigé affiche un aperçu en direct pour vérifier l\'exactitude avant le téléchargement. Exportez le corrigé en fichier JPEG ou PDF séparé, idéal pour les éditions vendeurs, les guides parents ou les packs produits Etsy sans aucun travail manuel.',
       },
       {
         title: 'Export prêt à imprimer à 400+ DPI avec option niveaux de gris',
         description:
-          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d\'export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l\'export en niveaux de gris pour des versions économiques en encre, parfaites pour l\'impression en classe ou les cahiers d\'activités noir et blanc. Les formats Letter, A4 et Carré sont tous pris en charge pour une flexibilité maximale sur les plateformes d\'impression à la demande et les imprimantes domestiques.',
+          'Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d\'export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l\'export en niveaux de gris pour des versions économiques en encre, parfaites pour l\'impression en volume ou les cahiers d\'activités noir et blanc. Les formats Letter, A4 et Carré sont tous pris en charge pour une flexibilité maximale sur les plateformes d\'impression à la demande et les imprimantes domestiques.',
       },
       {
         title: 'Édition complète du canevas avec annuler et rétablir',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers d\'alphabétisation différenciés pour TPT',
+        title: 'Ateliers d\'alphabétisation différenciés pour Gumroad',
         description:
-          'Construisez des ensembles de trains alphabet à niveaux en utilisant le nombre d\'indices comme axe de difficulté : Niveau 1 (3 indices, lettres courantes), Niveau 2 (5 indices, lettres mixtes), Niveau 3 (8 indices, incluant les lettres rares comme Q, X, Z), et Niveau 4 (11 indices, défi d\'association complet). Accompagnez chaque niveau de corrigés et d\'une fiche de suivi de progression. Les acheteurs de Teachers Pay Teachers paient des prix premium pour des ressources d\'alphabétisation différenciées qu\'ils peuvent déployer immédiatement dans plusieurs groupes de lecture.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construisez des ensembles de trains alphabet à niveaux en utilisant le nombre d\'indices comme axe de difficulté : Niveau 1 (3 indices, lettres courantes), Niveau 2 (5 indices, lettres mixtes), Niveau 3 (8 indices, incluant les lettres rares comme Q, X, Z), et Niveau 4 (11 indices, défi d\'association complet). Accompagnez chaque niveau de corrigés et d\'une fiche de suivi de progression. Les acheteurs de Gumroad paient des prix premium pour des ressources d\'alphabétisation différenciées qu\'ils peuvent déployer immédiatement dans plusieurs groupes de lecture.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Produits alphabet multilingues avec Accès Complet',
         description:
-          'L\'Accès Complet déverrouille les 11 langues avec leurs alphabets natifs. Créez des trains alphabet allemands avec les wagons Ä/Ö/Ü, des trains suédois avec Å/Ä/Ö, des trains espagnols avec Ñ, et plus encore. Chaque version linguistique est un produit distinct que vous pouvez lister sur Etsy, TPT ou Amazon KDP — multipliant effectivement votre catalogue par onze à partir du même flux de travail. Les produits d\'alphabétisation multilingues rencontrent moins de concurrence et attirent des acheteurs internationaux cherchant dans leur langue maternelle.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingue)',
+          'L\'Accès Complet déverrouille les 11 langues avec leurs alphabets natifs. Créez des trains alphabet allemands avec les wagons Ä/Ö/Ü, des trains suédois avec Å/Ä/Ö, des trains espagnols avec Ñ, et plus encore. Chaque version linguistique est un produit distinct que vous pouvez lister sur Etsy, Gumroad ou Amazon KDP — multipliant effectivement votre catalogue par onze à partir du même flux de travail. Les produits d\'alphabétisation multilingues rencontrent moins de concurrence et attirent des acheteurs internationaux cherchant dans leur langue maternelle.',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
-        title: 'Outil de reconnaissance des lettres pour la classe et le soutien',
+        title: 'Outil de reconnaissance des lettres pour la vente et le soutien',
         description:
-          'Générez des fiches train alphabet personnalisées adaptées aux connaissances actuelles de chaque élève en matière de lettres. Utilisez le Mode Manuel pour sélectionner les lettres spécifiques qu\'un élève travaille, en ajustant le nombre d\'indices selon son niveau. Imprimez des trains rapides à 3 indices pour les lecteurs débutants et des trains complets à 11 indices pour les élèves prêts pour un défi — le tout dans la même session. Le format train transforme l\'exercice de lettres en jeu d\'association qui maintient l\'engagement des jeunes apprenants, et le corrigé automatique fait gagner du temps de correction.',
+          'Générez des fiches train alphabet personnalisées adaptées aux connaissances actuelles de chaque utilisateur en matière de lettres. Utilisez le Mode Manuel pour sélectionner les lettres spécifiques qu\'un utilisateur travaille, en ajustant le nombre d\'indices selon son niveau. Imprimez des trains rapides à 3 indices pour les lecteurs débutants et des trains complets à 11 indices pour les utilisateurs prêts pour un défi — le tout dans la même session. Le format train transforme l\'exercice de lettres en jeu d\'association qui maintient l\'engagement des jeunes apprenants, et le corrigé automatique fait gagner du valeur perçue.',
         platform: 'Classe / Soutien scolaire / École à la maison',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Qu\'est-ce que le format de fiche train alphabet ?',
       answer:
-        'Chaque fiche présente 11 wagons de train colorés. Chaque wagon contient une lettre associée à une image correspondante dont le nom commence par cette lettre. En dessous ou à côté du train, des images-indices sont affichées pour que les élèves les associent au bon wagon. Le format combine la reconnaissance des lettres avec l\'association visuelle, le rendant plus engageant que les exercices d\'alphabet classiques.',
+        'Chaque fiche présente 11 wagons de train colorés. Chaque wagon contient une lettre associée à une image correspondante dont le nom commence par cette lettre. En dessous ou à côté du train, des images-indices sont affichées pour que les utilisateurs les associent au bon wagon. Le format combine la reconnaissance des lettres avec l\'association visuelle, le rendant plus engageant que les exercices d\'alphabet classiques.',
     },
     {
       question: 'Quels sont les deux modes de création ?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le système d\'indices ?',
       answer:
-        'Les indices sont des images affichées séparément des wagons du train. Les élèves regardent chaque image-indice, identifient ce qu\'elle représente, déterminent sa lettre initiale et l\'associent au bon wagon. Vous pouvez définir de 3 à 11 indices par fiche — moins d\'indices rendent l\'activité plus facile, tandis que plus d\'indices augmentent la difficulté. Pour les vendeurs, cette plage d\'indices ajustable permet de créer des packs de difficulté graduée à partir d\'un seul outil — regroupez les versions facile, moyen et difficile et facturez un prix premium pour l\'ensemble différencié.',
+        'Les indices sont des images affichées séparément des wagons du train. Les utilisateurs regardent chaque image-indice, identifient ce qu\'elle représente, déterminent sa lettre initiale et l\'associent au bon wagon. Vous pouvez définir de 3 à 11 indices par fiche — moins d\'indices rendent l\'activité plus facile, tandis que plus d\'indices augmentent la difficulté. Pour les vendeurs, cette plage d\'indices ajustable permet de créer des packs de difficulté graduée à partir d\'un seul outil — regroupez les versions facile, moyen et difficile et facturez un prix premium pour l\'ensemble différencié.',
     },
     {
       question: 'Pourquoi y a-t-il toujours 11 lettres par fiche ?',
       answer:
-        'Le format train utilise 11 wagons pour équilibrer l\'impact visuel et la lisibilité sur une seule page. Onze lettres offrent un entraînement substantiel sans surcharger la page, et le nombre impair empêche les élèves de résoudre par simple élimination à la fin. Chaque fiche couvre presque la moitié de l\'alphabet français, donc deux fiches complémentaires peuvent couvrir toutes les 26 lettres.',
+        'Le format train utilise 11 wagons pour équilibrer l\'impact visuel et la lisibilité sur une seule page. Onze lettres offrent un entraînement substantiel sans surcharger la page, et le nombre impair empêche les utilisateurs de résoudre par simple élimination à la fin. Chaque fiche couvre presque la moitié de l\'alphabet français, donc deux fiches complémentaires peuvent couvrir toutes les 26 lettres.',
     },
     {
       question: 'L\'application Train Alphabet est-elle sensible à la langue ?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Le générateur crée-t-il des corrigés automatiquement ?',
       answer:
-        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue montrant chaque wagon avec son association lettre-image correcte et tous les indices résolus. Vous pouvez le prévisualiser à l\'écran et le télécharger en fichier JPEG ou PDF séparé à inclure dans les éditions enseignants ou les packs produits. Disposer d\'un corrigé prêt à l\'emploi ajoute de la valeur perçue à vos annonces et vous permet d\'indiquer « corrigé inclus » — un détail que les acheteurs Etsy et TPT filtrent spécifiquement lorsqu\'ils comparent les produits concurrents.',
+        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue montrant chaque wagon avec son association lettre-image correcte et tous les indices résolus. Vous pouvez le prévisualiser à l\'écran et le télécharger en fichier JPEG ou PDF séparé à inclure dans les éditions vendeurs ou les packs produits. Disposer d\'un corrigé prêt à l\'emploi ajoute de la valeur perçue à vos annonces et vous permet d\'indiquer « corrigé inclus » — un détail que les acheteurs Etsy et Gumroad filtrent spécifiquement lorsqu\'ils comparent les produits concurrents.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Que comprend la licence commerciale ?',
       answer:
-        'La Licence Commerciale fournit des exports anglais sans filigrane avec droits de vente complets. La licence Accès Complet ajoute les 11 langues avec leurs alphabets natifs, multipliant votre catalogue de produits. Les deux niveaux accordent des droits illimités pour vendre sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme — sans redevances par vente, sans frais mensuels et sans limite de production.',
+        'La Licence Commerciale fournit des exports anglais sans filigrane avec droits de vente complets. La licence Accès Complet ajoute les 11 langues avec leurs alphabets natifs, multipliant votre catalogue de produits. Les deux niveaux accordent des droits illimités pour vendre sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme — sans redevances par vente, sans frais mensuels et sans limite de production.',
     },
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches train alphabet en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Le format train unique et la capacité multilingue vous offrent une forte différenciation dans les catégories de places de marché très concurrentielles.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches train alphabet en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Le format train unique et la capacité multilingue vous offrent une forte différenciation dans les catégories de places de marché très concurrentielles.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',

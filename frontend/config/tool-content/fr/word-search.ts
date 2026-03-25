@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches Mots Cachés',
     tagline: 'Créez des grilles de mots cachés avec tailles ajustables, contrôles de direction et lettres de remplissage adaptées à la langue dans 11 langues',
-    description: 'Concevez des fiches professionnelles de mots cachés où des mots sont dissimulés dans une grille de lettres de remplissage aléatoires et les élèves parcourent les lignes, les colonnes et les diagonales pour les trouver — le format de puzzle classique qui ne se démode jamais. Cet outil vous donne un contrôle précis sur la difficulté à travers deux axes indépendants : la taille de grille (ajustable de 5×5 à 30×30 avec lignes et colonnes réglées indépendamment) et les activateurs de direction des mots (mots en diagonale activés ou désactivés, mots inversés activés ou désactivés) créant de deux à huit directions de placement possibles. Choisissez parmi trois sources de contenu : le mode Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser les noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. Trois modes d\'affichage — Afficher Mots et Images, Afficher Images Uniquement et Afficher Mots Uniquement — contrôlent ce qui apparaît comme indices à côté de la grille. La fonctionnalité phare est le remplissage alphabétique adapté à la langue : quand vous changez de langue, les lettres de remplissage de la grille changent pour correspondre au jeu de caractères de cette langue avec des distributions de fréquence pondérées. Les grilles allemandes incluent ä, ö, ü et ß à des fréquences naturelles. Les grilles françaises incluent é, è, ç, à. Les grilles suédoises incluent å, ä, ö. Chaque langue obtient des lettres de remplissage authentiques, rendant les puzzles linguistiquement naturels plutôt qu\'évidemment générés en anglais. Un corrigé avec code couleur met en évidence chaque mot trouvé dans l\'une de six couleurs alternées — rose, bleu, vert, doré, corail et lavande — pour une vérification visuelle instantanée. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 7 familles de polices, ajoutez les champs nom et date de l\'élève, activez le mode niveaux de gris pour un rendu économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Concevez des fiches professionnelles de mots cachés où des mots sont dissimulés dans une grille de lettres de remplissage aléatoires et les utilisateurs parcourent les lignes, les colonnes et les diagonales pour les trouver — le format de puzzle classique qui ne se démode jamais. Cet outil vous donne un contrôle précis sur la difficulté à travers deux axes indépendants : la taille de grille (ajustable de 5×5 à 30×30 avec lignes et colonnes réglées indépendamment) et les activateurs de direction des mots (mots en diagonale activés ou désactivés, mots inversés activés ou désactivés) créant de deux à huit directions de placement possibles. Choisissez parmi trois sources de contenu : le mode Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser les noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. Trois modes d\'affichage — Afficher Mots et Images, Afficher Images Uniquement et Afficher Mots Uniquement — contrôlent ce qui apparaît comme indices à côté de la grille. La fonctionnalité phare est le remplissage alphabétique adapté à la langue : quand vous changez de langue, les lettres de remplissage de la grille changent pour correspondre au jeu de caractères de cette langue avec des distributions de fréquence pondérées. Les grilles allemandes incluent ä, ö, ü et ß à des fréquences naturelles. Les grilles françaises incluent é, è, ç, à. Les grilles suédoises incluent å, ä, ö. Chaque langue obtient des lettres de remplissage authentiques, rendant les puzzles linguistiquement naturels plutôt qu\'évidemment générés en anglais. Un corrigé avec code couleur met en évidence chaque mot trouvé dans l\'une de six couleurs alternées — rose, bleu, vert, doré, corail et lavande — pour une vérification visuelle instantanée. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 7 familles de polices, ajoutez les champs nom et date de l\'utilisateur, activez le mode niveaux de gris pour un rendu économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Personnaliser les Polices, le Texte et le Canevas',
-        description: 'Choisissez parmi 7 familles de polices : Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial ou Verdana. Activez ou désactivez les champs nom et date de l\'élève. Ajoutez des superpositions de texte personnalisées avec des consignes ou des titres. Utilisez les outils du canevas Fabric.js pour glisser, redimensionner, pivoter et repositionner chaque élément de la page. Les outils d\'alignement, le verrouillage/déverrouillage et l\'annulation/rétablissement illimités vous permettent d\'ajuster la mise en page avec précision.',
+        description: 'Choisissez parmi 7 familles de polices : Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial ou Verdana. Activez ou désactivez les champs nom et date de l\'utilisateur. Ajoutez des superpositions de texte personnalisées avec des consignes ou des titres. Utilisez les outils du canevas Fabric.js pour glisser, redimensionner, pivoter et repositionner chaque élément de la page. Les outils d\'alignement, le verrouillage/déverrouillage et l\'annulation/rétablissement illimités vous permettent d\'ajuster la mise en page avec précision.',
       },
       {
         title: 'Générer le Corrigé et Télécharger',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Thématiques de Mots Cachés',
-      description: 'Créez des ensembles de 10 à 20 fiches mots cachés regroupées par thème — animaux de la ferme, créatures marines, véhicules, nourriture, fêtes et plus encore. Variez la taille de grille et les réglages de direction dans chaque ensemble pour une difficulté progressive : commencez avec une grille 8×8 horizontal uniquement et progressez jusqu\'à une grille 16×16 avec diagonales et mots inversés. Incluez des corrigés avec code couleur pour chaque puzzle. Regroupez par thème et vendez sur Etsy.fr ou Teachers Pay Teachers. Le format grille-avec-images rend vos vignettes de listing visuellement accrocheuses comme des activités de puzzle engageantes.',
+      description: 'Créez des ensembles de 10 à 20 fiches mots cachés regroupées par thème — animaux de la ferme, créatures marines, véhicules, nourriture, fêtes et plus encore. Variez la taille de grille et les réglages de direction dans chaque ensemble pour une difficulté progressive : commencez avec une grille 8×8 horizontal uniquement et progressez jusqu\'à une grille 16×16 avec diagonales et mots inversés. Incluez des corrigés avec code couleur pour chaque puzzle. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format grille-avec-images rend vos vignettes de listing visuellement accrocheuses comme des activités de puzzle engageantes.',
     },
     {
       title: 'Cahiers de Mots Cachés pour KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles de Grilles de Vocabulaire Différenciés',
-      description: 'Construisez des ensembles de pratique mots cachés à niveaux en utilisant la taille de grille et les contrôles de direction comme axes de différenciation. Niveau 1 : grille 8×8, horizontal uniquement, 4 mots. Niveau 2 : grille 12×12, horizontal et vertical, 6 mots. Niveau 3 : grille 16×16, diagonales activées, 8 mots. Niveau 4 : grille 20×20, diagonales et inversés, 8 mots. Accompagnez chaque niveau de corrigés et d\'un guide de suivi de progression. Les enseignants paient des prix premium pour des ressources différenciées déployables dans plusieurs niveaux de compétence.',
+      description: 'Construisez des ensembles de pratique mots cachés à niveaux en utilisant la taille de grille et les contrôles de direction comme axes de différenciation. Niveau 1 : grille 8×8, horizontal uniquement, 4 mots. Niveau 2 : grille 12×12, horizontal et vertical, 6 mots. Niveau 3 : grille 16×16, diagonales activées, 8 mots. Niveau 4 : grille 20×20, diagonales et inversés, 8 mots. Accompagnez chaque niveau de corrigés et d\'un guide de suivi de progression. Les vendeurs paient des prix premium pour des ressources différenciées déployables dans plusieurs niveaux de compétence.',
     },
     {
       title: 'Produits Mots Cachés Multilingues',
@@ -85,14 +85,14 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Puzzles Saisonniers et Festifs',
-      description: 'Utilisez les thèmes images saisonniers et festifs pour créer des packs à durée limitée. Un pack « Mots Cachés Halloween » avec du vocabulaire effrayant dans des grilles progressivement plus grandes se vend fortement en octobre. Noël, rentrée scolaire, printemps et été ont chacun leur propre pic de ventes sur Etsy.fr et TPT. Combinez des petites grilles faciles pour les plus jeunes avec des grandes grilles exigeantes pour les plus grands dans un seul pack saisonnier pour maximiser votre audience d\'acheteurs.',
+      description: 'Utilisez les thèmes images saisonniers et festifs pour créer des packs à durée limitée. Un pack « Mots Cachés Halloween » avec du vocabulaire effrayant dans des grilles progressivement plus grandes se vend fortement en octobre. Noël, rentrée scolaire, printemps et été ont chacun leur propre pic de ventes sur Etsy.fr et Gumroad. Combinez des petites grilles faciles pour les plus jeunes avec des grandes grilles exigeantes pour les plus grands dans un seul pack saisonnier pour maximiser votre audience d\'acheteurs.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Boutique Etsy de Puzzles par Niveau de Difficulté',
-      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches mots cachés organisées par niveau de difficulté. Utilisez la taille de grille et les activateurs de direction pour créer des paliers clairement différenciés : Débutant (8×8, horizontal uniquement), Intermédiaire (12×12, diagonales activées), Avancé (18×18, diagonales et inversés) et Expert (25×25, les huit directions). La plupart des vendeurs de mots cachés proposent des puzzles génériques à taille unique — des produits classés par difficulté permettent aux acheteurs de trouver exactement le bon niveau de défi pour leurs élèves, ce qui génère de meilleurs avis et des achats récurrents.',
+      description: 'Ouvrez une boutique Etsy spécialisée dans les fiches mots cachés organisées par niveau de difficulté. Utilisez la taille de grille et les activateurs de direction pour créer des paliers clairement différenciés : Débutant (8×8, horizontal uniquement), Intermédiaire (12×12, diagonales activées), Avancé (18×18, diagonales et inversés) et Expert (25×25, les huit directions). La plupart des vendeurs de mots cachés proposent des puzzles génériques à taille unique — des produits classés par difficulté permettent aux acheteurs de trouver exactement le bon niveau de défi pour leurs utilisateurs, ce qui génère de meilleurs avis et des achats récurrents.',
       platform: 'Etsy.fr',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Ateliers de Vocabulaire sur Teachers Pay Teachers',
-      description: 'Téléchargez des packs de fiches mots cachés sur TPT organisés par thème et difficulté. Incluez quatre niveaux de difficulté par thème en utilisant la taille de grille et les contrôles de direction comme axes de différenciation. Accompagnez de corrigés avec code couleur et de fiches de suivi de progression. Les enseignants recherchent fréquemment « activités de vocabulaire » et « fiches mots cachés ». La difficulté ajustable signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les enseignants apprécient fortement et mentionnent dans les avis.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Ateliers de Vocabulaire sur Gumroad',
+      description: 'Téléchargez des packs de fiches mots cachés sur Gumroad organisés par thème et difficulté. Incluez quatre niveaux de difficulté par thème en utilisant la taille de grille et les contrôles de direction comme axes de différenciation. Accompagnez de corrigés avec code couleur et de fiches de suivi de progression. Les vendeurs recherchent fréquemment « activités de vocabulaire » et « fiches mots cachés ». La difficulté ajustable signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs apprécient fortement et mentionnent dans les avis.',
+      platform: 'Gumroad',
     },
     {
       title: 'Boutique de Puzzles Multilingues',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kit Complet de Puzzles sur Gumroad',
-      description: 'Regroupez des fiches mots cachés avec des fiches mots mélangés, deviner les mots, cryptogramme et association pour créer un kit de puzzles complet sur Gumroad. Chaque format exerce une compétence cognitive différente : les mots cachés développent le balayage visuel et la reconnaissance de schémas, les mots mélangés pratiquent le réarrangement de lettres, deviner les mots teste le rappel orthographique en remplissage. Un kit de puzzles multi-format justifie un prix premium et offre aux élèves une pratique variée avec le même vocabulaire.',
+      description: 'Regroupez des fiches mots cachés avec des fiches mots mélangés, deviner les mots, cryptogramme et association pour créer un kit de puzzles complet sur Gumroad. Chaque format exerce une compétence cognitive différente : les mots cachés développent le balayage visuel et la reconnaissance de schémas, les mots mélangés pratiquent le réarrangement de lettres, deviner les mots teste le rappel orthographique en remplissage. Un kit de puzzles multi-format justifie un prix premium et offre aux utilisateurs une pratique variée avec le même vocabulaire.',
       platform: 'Gumroad',
     },
   ],
@@ -137,15 +137,15 @@ const content: ToolContent = {
     },
     {
       title: 'Utilisez les Modes d\'Affichage de Manière Stratégique',
-      description: 'Le mode Afficher Mots et Images est le standard — idéal pour l\'enrichissement du vocabulaire. Le mode Afficher Images Uniquement ajoute un défi supplémentaire : les élèves doivent identifier ce que l\'image représente avant de chercher le mot. Le mode Afficher Mots Uniquement crée des mots cachés textuels classiques sans indices visuels. Proposez les trois modes comme variantes du même pack thématique pour tripler votre gamme de produits à partir d\'une seule session de création.',
+      description: 'Le mode Afficher Mots et Images est le standard — idéal pour l\'enrichissement du vocabulaire. Le mode Afficher Images Uniquement ajoute un défi supplémentaire : les utilisateurs doivent identifier ce que l\'image représente avant de chercher le mot. Le mode Afficher Mots Uniquement crée des mots cachés textuels classiques sans indices visuels. Proposez les trois modes comme variantes du même pack thématique pour tripler votre gamme de produits à partir d\'une seule session de création.',
     },
     {
       title: 'Utilisez les Niveaux de Gris pour KDP et l\'Impression en Volume',
-      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en classe. Le rendu noir et blanc coûte nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes et les grilles colorées attirent les clics.',
+      description: 'Activez le mode niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l\'impression en volume en ligne. Le rendu noir et blanc coûte nettement moins cher à imprimer. Réservez le mode couleur pour les aperçus de listings Etsy et les téléchargements numériques où les images vibrantes et les grilles colorées attirent les clics.',
     },
     {
       title: 'Les Corrigés avec Code Couleur Ajoutent une Valeur Professionnelle',
-      description: 'Le corrigé à six couleurs — rose, bleu, vert, doré, corail, lavande — met en évidence chaque mot distinctement, même quand les mots se croisent ou se chevauchent dans la grille. Incluez toujours les corrigés dans vos packs de produits. Les enseignants les exigent, les parents les apprécient, et le format avec code couleur paraît professionnel dans vos aperçus de listing comparé aux simples corrigés « entourez le mot ».',
+      description: 'Le corrigé à six couleurs — rose, bleu, vert, doré, corail, lavande — met en évidence chaque mot distinctement, même quand les mots se croisent ou se chevauchent dans la grille. Incluez toujours les corrigés dans vos packs de produits. Les vendeurs les exigent, les parents les apprécient, et le format avec code couleur paraît professionnel dans vos aperçus de listing comparé aux simples corrigés « entourez le mot ».',
     },
     {
       title: 'Associez avec d\'Autres Outils de Lecture pour des Packs Premium',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Comment fonctionne le format puzzle mots cachés ?',
-      answer: 'Des mots sont dissimulés dans une grille de lettres de remplissage aléatoires. Les élèves parcourent les lignes, les colonnes et éventuellement les diagonales pour trouver chaque mot, puis l\'entourent ou le surlignent. Les lettres de remplissage sont aléatoires à chaque génération, donc chaque puzzle est unique même avec la même liste de mots. Jusqu\'à 8 mots peuvent être placés dans une seule grille.',
+      answer: 'Des mots sont dissimulés dans une grille de lettres de remplissage aléatoires. Les utilisateurs parcourent les lignes, les colonnes et éventuellement les diagonales pour trouver chaque mot, puis l\'entourent ou le surlignent. Les lettres de remplissage sont aléatoires à chaque génération, donc chaque puzzle est unique même avec la même liste de mots. Jusqu\'à 8 mots peuvent être placés dans une seule grille.',
     },
     {
       question: 'Quelles tailles de grille sont disponibles ?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quelle est la différence entre mots cachés, mots mélangés et deviner les mots ?',
-      answer: 'Les Mots Cachés sont un puzzle de balayage visuel — les élèves trouvent des mots dissimulés dans une grille de lettres aléatoires en parcourant les lignes, les colonnes et les diagonales. Les Mots Mélangés donnent aux élèves des tuiles de lettres mélangées à réarranger dans le bon ordre. Deviner les Mots montre des cases vides à des positions fixes et les élèves remplissent les lettres manquantes. Chaque format exerce une compétence cognitive différente et ils se combinent bien dans des produits groupés.',
+      answer: 'Les Mots Cachés sont un puzzle de balayage visuel — les utilisateurs trouvent des mots dissimulés dans une grille de lettres aléatoires en parcourant les lignes, les colonnes et les diagonales. Les Mots Mélangés donnent aux utilisateurs des tuiles de lettres mélangées à réarranger dans le bon ordre. Deviner les Mots montre des cases vides à des positions fixes et les utilisateurs remplissent les lettres manquantes. Chaque format exerce une compétence cognitive différente et ils se combinent bien dans des produits groupés.',
     },
     {
       question: 'Quelles langues sont prises en charge ?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Puis-je vendre des fiches créées avec cet outil à usage commercial ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
     },
     {
       question: 'Quels formats de fichier puis-je télécharger ?',

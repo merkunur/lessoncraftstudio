@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'générateur de fiches de séquences logiques imprimables pour vendeurs Etsy',
       'créateur de fiches de reconnaissance de motifs pour éditeurs Amazon KDP',
-      'vendre des fiches de séquences logiques sur Teachers Pay Teachers',
+      'vendre des fiches de séquences logiques sur Gumroad',
       'générateur de fiches séquences logiques licence commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Séquences Logiques | Vendre',
     metaDescription:
-      'Créez des fiches séquences logiques pour Etsy, KDP et TPT. Neuf types de motifs, deux modes de question, 104 thèmes, corrigé auto.',
+      'Créez des fiches séquences logiques pour Etsy, KDP et Gumroad. Neuf types de motifs, deux modes de question, 104 thèmes, corrigé auto.',
   },
 
   hero: {
     title: 'Générateur de Fiches de Séquences Logiques pour des Exercices de Complétion de Motifs en Grille',
     tagline: 'Neuf types de motifs de AB à ABCD — deux modes de question (case vide et choix multiple) — avec une configuration indépendante par exercice pour le type de motif, le mode de question et le thème sur chaque page.',
     description:
-      'Concevez des fiches professionnelles de complétion de séquences où les élèves identifient des motifs répétitifs et complètent l\'élément manquant — ou choisissent la bonne réponse parmi des options à choix multiple. Neuf types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB et ABB introduisent des regroupements asymétriques, ABC fait tourner trois éléments, AABB associe deux de chaque, ABBC et AABC ajoutent des motifs asymétriques à trois images, ABCC prolonge avec des terminaisons doublées, et ABCD fait tourner quatre éléments différents pour un défi maximal. Deux modes de question créent des exercices fondamentalement différents à partir de chaque type de motif : Case Vide remplace un élément par un espace vide que les élèves doivent compléter, tandis que Choix Multiple présente le vide accompagné de trois réponses possibles avec une correcte et deux distracteurs. Configurez 1 à 8 exercices par page avec chaque exercice paramétré indépendamment pour le type de motif, le mode de question et le thème — une même page peut combiner un exercice AB en case vide avec un exercice ABCD en choix multiple. Activez le Début Aléatoire pour commencer les motifs en milieu de cycle et la Position Vide Aléatoire pour placer l\'élément manquant n\'importe où dans la séquence pour une difficulté accrue. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre toutes les cases vides remplies avec les éléments corrects du motif pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images en lignes de grille et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers visuels différenciés pour TPT, le Générateur de Fiches de Séquences Logiques offre la plus grande variété d\'exercices de motifs disponible — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches professionnelles de complétion de séquences où les utilisateurs identifient des motifs répétitifs et complètent l\'élément manquant — ou choisissent la bonne réponse parmi des options à choix multiple. Neuf types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB et ABB introduisent des regroupements asymétriques, ABC fait tourner trois éléments, AABB associe deux de chaque, ABBC et AABC ajoutent des motifs asymétriques à trois images, ABCC prolonge avec des terminaisons doublées, et ABCD fait tourner quatre éléments différents pour un défi maximal. Deux modes de question créent des exercices fondamentalement différents à partir de chaque type de motif : Case Vide remplace un élément par un espace vide que les utilisateurs doivent compléter, tandis que Choix Multiple présente le vide accompagné de trois réponses possibles avec une correcte et deux distracteurs. Configurez 1 à 8 exercices par page avec chaque exercice paramétré indépendamment pour le type de motif, le mode de question et le thème — une même page peut combiner un exercice AB en case vide avec un exercice ABCD en choix multiple. Activez le Début Aléatoire pour commencer les motifs en milieu de cycle et la Position Vide Aléatoire pour placer l\'élément manquant n\'importe où dans la séquence pour une difficulté accrue. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre toutes les cases vides remplies avec les éléments corrects du motif pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images en lignes de grille et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers visuels différenciés pour Gumroad, le Générateur de Fiches de Séquences Logiques offre la plus grande variété d\'exercices de motifs disponible — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Ajouter des décorations textuelles et personnaliser le canevas',
         description:
-          'Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des champs nom et date de l\'élève, ou des consignes avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et le contour pour une lisibilité optimale. Le canevas complet Fabric.js vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page. Les contrôles de calques gèrent l\'ordre d\'empilement, verrouiller/déverrouiller protège les éléments terminés pendant que vous modifiez les autres, et les outils d\'alignement positionnent les éléments avec précision. Zoomez pour un placement précis avec annulation et rétablissement illimités.',
+          'Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des champs nom et date de l\'utilisateur, ou des consignes avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et le contour pour une lisibilité optimale. Le canevas complet Fabric.js vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page. Les contrôles de calques gèrent l\'ordre d\'empilement, verrouiller/déverrouiller protège les éléments terminés pendant que vous modifiez les autres, et les outils d\'alignement positionnent les éléments avec précision. Zoomez pour un placement précis avec annulation et rétablissement illimités.',
       },
       {
         title: 'Vérifier le corrigé et télécharger',
         description:
-          'Basculez vers l\'onglet Corrigé pour voir une version complétée de la fiche avec toutes les cases vides remplies montrant les éléments corrects du motif. La fiche et le corrigé sont indépendamment modifiables sur des canevas séparés. Activez l\'export en niveaux de gris pour des versions économiques en encre. Puis téléchargez chacun en JPEG haute résolution ou en PDF prêt à imprimer. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT — la fiche et le corrigé se téléchargent comme des fichiers séparés pour un pack produit complet.',
+          'Basculez vers l\'onglet Corrigé pour voir une version complétée de la fiche avec toutes les cases vides remplies montrant les éléments corrects du motif. La fiche et le corrigé sont indépendamment modifiables sur des canevas séparés. Activez l\'export en niveaux de gris pour des versions économiques en encre. Puis téléchargez chacun en JPEG haute résolution ou en PDF prêt à imprimer. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — la fiche et le corrigé se téléchargent comme des fichiers séparés pour un pack produit complet.',
       },
     ],
   },
@@ -68,17 +68,17 @@ const content: AppContent = {
       {
         title: 'Deux modes de question : case vide et choix multiple',
         description:
-          'Chaque type de motif supporte deux modes de question fondamentalement différents qui doublent la variété de produits. Le mode Case Vide remplace un élément du motif par un espace vide — les élèves doivent identifier le motif et déterminer l\'élément manquant sans aucun indice. Le mode Choix Multiple présente la case vide accompagnée de trois réponses possibles : un élément correct et deux distracteurs. La Case Vide teste le raisonnement ouvert sur les motifs ; le Choix Multiple teste la reconnaissance avec des options de réponse structurées. Le même motif AB devient deux produits entièrement différents selon le mode choisi. Les vendeurs peuvent proposer les deux modes comme niveaux de difficulté séparés ou les combiner sur une seule page pour une pratique variée.',
+          'Chaque type de motif supporte deux modes de question fondamentalement différents qui doublent la variété de produits. Le mode Case Vide remplace un élément du motif par un espace vide — les utilisateurs doivent identifier le motif et déterminer l\'élément manquant sans aucun indice. Le mode Choix Multiple présente la case vide accompagnée de trois réponses possibles : un élément correct et deux distracteurs. La Case Vide teste le raisonnement ouvert sur les motifs ; le Choix Multiple teste la reconnaissance avec des options de réponse structurées. Le même motif AB devient deux produits entièrement différents selon le mode choisi. Les vendeurs peuvent proposer les deux modes comme niveaux de difficulté séparés ou les combiner sur une seule page pour une pratique variée.',
       },
       {
         title: 'Configuration indépendante par exercice',
         description:
-          'Chaque exercice de la page possède son propre type de motif, mode de question et thème — configuré indépendamment de tous les autres exercices. Une seule fiche peut commencer par un échauffement AB en case vide, progresser vers une pratique ABC en choix multiple au milieu, et terminer par un défi ABCD en case vide en bas. Cette indépendance par exercice élimine le besoin de générer des pages séparées pour chaque niveau de difficulté. Les enseignants obtiennent une pratique différenciée sur une seule page, et les vendeurs créent des produits plus sophistiqués qui démontrent une conception professionnelle réfléchie — les pages à difficulté mixte se vendent à des prix plus élevés que les fiches à motif unique.',
+          'Chaque exercice de la page possède son propre type de motif, mode de question et thème — configuré indépendamment de tous les autres exercices. Une seule fiche peut commencer par un échauffement AB en case vide, progresser vers une pratique ABC en choix multiple au milieu, et terminer par un défi ABCD en case vide en bas. Cette indépendance par exercice élimine le besoin de générer des pages séparées pour chaque niveau de difficulté. Les vendeurs obtiennent une pratique différenciée sur une seule page, et les vendeurs créent des produits plus sophistiqués qui démontrent une conception professionnelle réfléchie — les pages à difficulté mixte se vendent à des prix plus élevés que les fiches à motif unique.',
       },
       {
         title: 'Début aléatoire et position vide aléatoire pour varier la difficulté',
         description:
-          'Deux réglages de randomisation créent des variations de difficulté supplémentaires à partir des mêmes types de motifs. Commencer à un Élément Aléatoire démarre le motif en milieu de cycle au lieu de toujours commencer au premier élément — un motif ABC pourrait commencer à B-C-A-B-C au lieu de A-B-C-A-B. La Position Vide Aléatoire place l\'élément manquant n\'importe où dans la séquence plutôt qu\'à un emplacement prévisible. Ensemble, ces réglages empêchent les élèves de résoudre par habitude et garantissent que chaque fiche générée présente un défi nouveau. Pour les vendeurs, la randomisation multiplie le nombre de fiches uniques produisibles à partir de chaque combinaison de type de motif et de thème.',
+          'Deux réglages de randomisation créent des variations de difficulté supplémentaires à partir des mêmes types de motifs. Commencer à un Élément Aléatoire démarre le motif en milieu de cycle au lieu de toujours commencer au premier élément — un motif ABC pourrait commencer à B-C-A-B-C au lieu de A-B-C-A-B. La Position Vide Aléatoire place l\'élément manquant n\'importe où dans la séquence plutôt qu\'à un emplacement prévisible. Ensemble, ces réglages empêchent les utilisateurs de résoudre par habitude et garantissent que chaque fiche générée présente un défi nouveau. Pour les vendeurs, la randomisation multiplie le nombre de fiches uniques produisibles à partir de chaque combinaison de type de motif et de thème.',
       },
       {
         title: 'Bibliothèque d\'images avec 104 collections thématiques',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Système à double canevas avec corrigé séparé',
         description:
-          'La fiche et le corrigé vivent sur des canevas séparés et indépendamment modifiables, accessibles via des onglets. La fiche montre les exercices avec des cases vides ou des options à choix multiple ; le corrigé montre toutes les cases remplies avec les éléments corrects du motif. Chaque canevas permet une édition complète — ajoutez du texte, ajustez la mise en page, repositionnez les éléments — vous pouvez personnaliser la fiche de l\'élève et le corrigé de l\'enseignant indépendamment. Les deux se téléchargent comme des fichiers séparés, offrant aux acheteurs un pack produit complet avec des solutions vérifiées pour chaque exercice.',
+          'La fiche et le corrigé vivent sur des canevas séparés et indépendamment modifiables, accessibles via des onglets. La fiche montre les exercices avec des cases vides ou des options à choix multiple ; le corrigé montre toutes les cases remplies avec les éléments corrects du motif. Chaque canevas permet une édition complète — ajoutez du texte, ajustez la mise en page, repositionnez les éléments — vous pouvez personnaliser la fiche de l\'utilisateur et le corrigé de l\'vendeur indépendamment. Les deux se téléchargent comme des fichiers séparés, offrant aux acheteurs un pack produit complet avec des solutions vérifiées pour chaque exercice.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer en haute résolution',
         description:
-          'Téléchargez les fiches et corrigés en images JPEG haute résolution (multiplicateur 6x pour un détail net) ou en documents PDF prêts à imprimer à 300 DPI. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) et les dimensions personnalisées sont tous pris en charge. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en classe ou les cahiers en noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits TPT — aucun post-traitement nécessaire.',
+          'Téléchargez les fiches et corrigés en images JPEG haute résolution (multiplicateur 6x pour un détail net) ou en documents PDF prêts à imprimer à 300 DPI. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) et les dimensions personnalisées sont tous pris en charge. Activez l\'export en niveaux de gris pour des versions économiques en encre idéales pour l\'impression en volume ou les cahiers en noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — aucun post-traitement nécessaire.',
       },
       {
         title: 'Édition complète du canevas avec outils texte et décoration',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers visuels différenciés pour TPT',
+        title: 'Ateliers visuels différenciés pour Gumroad',
         description:
           'Construisez des sets de pratique de reconnaissance de motifs par niveaux en utilisant la configuration par exercice comme différenciateur principal. Le Niveau 1 propose des pages entièrement en AB case vide avec le même thème. Le Niveau 2 mélange des exercices AB et AAB en case vide. Le Niveau 3 introduit des exercices ABC en choix multiple aux côtés d\'échauffements plus simples en case vide. Le Niveau 4 combine des défis ABCD en case vide avec le début aléatoire et la position vide aléatoire activés. Chaque niveau cible une demande cognitive différente, et l\'indépendance par exercice signifie qu\'une page imprimée sert d\'activité différenciée complète. Regroupez chaque niveau avec des exercices thématiques et des corrigés séparés.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fiches visuelles multilingues pour les marchés mondiaux',
         description:
           'Comme les exercices de Séquences Logiques ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, le même produit fonctionne dans toutes les langues sans modification. Créez un ensemble d\'exercices de complétion de motifs et vendez-le dans le monde entier — aucune traduction nécessaire, aucune version linguistique séparée à maintenir. Changer la langue du contenu n\'affecte que les étiquettes de la bibliothèque d\'images dans le générateur, pas la fiche imprimée. Listez des produits identiques sur des boutiques Etsy ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Un seul flux de travail produit un produit vendable universellement.',
-        platform: 'Etsy / Amazon KDP / TPT (mondial)',
+        platform: 'Etsy / Amazon KDP / Gumroad (mondial)',
       },
       {
-        title: 'Outil de concepts de motifs pour la classe et le tutorat',
+        title: 'Outil de concepts de motifs pour la vente et le tutorat',
         description:
-          'Téléversez des images personnalisées pour créer des fiches de séquences logiques adaptées à n\'importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des formes géométriques pour un cours de mathématiques, ou des symboles de notes musicales pour un cours de musique. Neuf types de motifs vous permettent d\'adapter l\'exercice à l\'objectif pédagogique : AB pour l\'introduction, ABC pour la pratique, ABCD pour l\'évaluation. Combinez case vide et choix multiple sur la même page pour une pratique variée. Activez le début aléatoire et la position vide aléatoire pour générer des fiches uniques pour chaque élève, empêchant la copie. L\'onglet corrigé séparé fait gagner du temps de correction, et la configuration par exercice permet de créer des pages différenciées pour des groupes de niveaux mixtes.',
+          'Téléversez des images personnalisées pour créer des fiches de séquences logiques adaptées à n\'importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des formes géométriques pour un cours de mathématiques, ou des symboles de notes musicales pour un cours de musique. Neuf types de motifs vous permettent d\'adapter l\'exercice à l\'objectif pédagogique : AB pour l\'introduction, ABC pour la pratique, ABCD pour l\'évaluation. Combinez case vide et choix multiple sur la même page pour une pratique variée. Activez le début aléatoire et la position vide aléatoire pour générer des fiches uniques pour chaque utilisateur, empêchant la copie. L\'onglet corrigé séparé fait gagner du valeur perçue, et la configuration par exercice permet de créer des pages différenciées pour des groupes de niveaux mixtes.',
         platform: 'Classe / Tutorat / École à la maison',
       },
     ],
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: 'Quels sont les deux modes de question et comment fonctionnent-ils ?',
       answer:
-        'Le mode Case Vide remplace un élément du motif par un espace vide — les élèves doivent identifier le motif et déterminer l\'élément manquant sans aucun indice. Le mode Choix Multiple présente la case vide accompagnée de trois réponses possibles : un élément correct et deux distracteurs provenant de positions différentes du motif. La Case Vide teste le raisonnement ouvert ; le Choix Multiple teste la reconnaissance avec des options structurées. Les deux modes fonctionnent avec les neuf types de motifs, donnant 18 styles d\'exercices distincts.',
+        'Le mode Case Vide remplace un élément du motif par un espace vide — les utilisateurs doivent identifier le motif et déterminer l\'élément manquant sans aucun indice. Le mode Choix Multiple présente la case vide accompagnée de trois réponses possibles : un élément correct et deux distracteurs provenant de positions différentes du motif. La Case Vide teste le raisonnement ouvert ; le Choix Multiple teste la reconnaissance avec des options structurées. Les deux modes fonctionnent avec les neuf types de motifs, donnant 18 styles d\'exercices distincts.',
     },
     {
       question: 'Comment fonctionne la configuration par exercice ?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Que font les réglages Début Aléatoire et Position Vide Aléatoire ?',
       answer:
-        'Commencer à un Élément Aléatoire démarre le motif à un point aléatoire du cycle plutôt que toujours au premier élément — un motif ABC pourrait commencer à C-A-B-C au lieu de A-B-C. La Position Vide Aléatoire place l\'élément manquant à n\'importe quelle position dans la séquence plutôt qu\'à un emplacement fixe. Ensemble, ces réglages empêchent les élèves de résoudre les motifs par habitude et garantissent que chaque fiche générée présente un défi nouveau, même en utilisant le même type de motif et le même thème.',
+        'Commencer à un Élément Aléatoire démarre le motif à un point aléatoire du cycle plutôt que toujours au premier élément — un motif ABC pourrait commencer à C-A-B-C au lieu de A-B-C. La Position Vide Aléatoire place l\'élément manquant à n\'importe quelle position dans la séquence plutôt qu\'à un emplacement fixe. Ensemble, ces réglages empêchent les utilisateurs de résoudre les motifs par habitude et garantissent que chaque fiche générée présente un défi nouveau, même en utilisant le même type de motif et le même thème.',
     },
     {
       question: 'Combien d\'exercices puis-je mettre sur une page ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de séquences logiques en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal de vente. Neuf types de motifs, deux modes de question et la configuration par exercice vous offrent la plus grande variété et différenciation de produits dans les catégories de places de marché.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de séquences logiques en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Neuf types de motifs, deux modes de question et la configuration par exercice vous offrent la plus grande variété et différenciation de produits dans les catégories de places de marché.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -274,17 +274,17 @@ const content: AppContent = {
       {
         src: '/samples/french/pattern worksheet/Puzzles de Motifs 1.webp',
         alt: 'Fiche de séquences logiques avec exercices AB en case vide utilisant des images d\'animaux dans une mise en page en grille avec des espaces vides à compléter',
-        caption: 'Exercices AB en case vide avec thème animaux — les élèves identifient le motif alternant et complètent l\'image manquante',
+        caption: 'Exercices AB en case vide avec thème animaux — les utilisateurs identifient le motif alternant et complètent l\'image manquante',
       },
       {
         src: '/samples/french/pattern worksheet/Puzzles de Motifs 2.webp',
         alt: 'Fiche de séquences logiques avec exercices ABC en choix multiple utilisant des images de véhicules avec trois options de réponse par exercice',
-        caption: 'Exercices ABC en choix multiple avec thème véhicules — les élèves choisissent l\'élément manquant correct parmi trois options',
+        caption: 'Exercices ABC en choix multiple avec thème véhicules — les utilisateurs choisissent l\'élément manquant correct parmi trois options',
       },
       {
         src: '/samples/french/pattern worksheet/Puzzles de Motifs 3.webp',
         alt: 'Corrigé de la fiche de séquences logiques montrant toutes les cases vides remplies avec les éléments corrects du motif',
-        caption: 'Vue corrigé — toutes les cases remplies avec les éléments corrects du motif pour la vérification par l\'enseignant',
+        caption: 'Vue corrigé — toutes les cases remplies avec les éléments corrects du motif pour la vérification par l\'vendeur',
       },
     ],
     youtubeId: 'W94X5_RA3ug',

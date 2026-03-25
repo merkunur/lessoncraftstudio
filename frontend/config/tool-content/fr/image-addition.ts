@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des fiches d\'addition pour la classe',
+    primaryKeyword: 'créer des fiches d\'addition pour la vente',
     secondaryKeywords: [
-      'créateur de fiches d\'addition pour enseignants',
+      'créateur de fiches d\'addition pour vendeurs',
       'fiches d\'addition mathématiques pour enfants',
       'exercices d\'addition imprimables',
-      'fiches d\'addition avec images pour maternelle',
+      'fiches d\'addition avec images pour le marché préscolaire',
     ],
     lsiKeywords: [
-      'fiches mathématiques visuelles pour la classe',
+      'fiches mathématiques visuelles pour la vente',
       'exercices d\'addition avec images pour enfants',
-      'fiches mathématiques maternelle pour enseignants',
+      'fiches mathématiques maternelle pour vendeurs',
     ],
-    titleTag: 'Créer des Fiches d\'Addition — Pour Enseignants',
-    metaDescription: 'Créez des fiches d\'addition avec images thématiques pour la classe. 104 thèmes, difficulté réglable, corrigés inclus, PDF prêt à imprimer.',
+    titleTag: 'Créer des Fiches d\'Addition — Pour vendeurs',
+    metaDescription: 'Créez des fiches d\'addition avec images thématiques pour la vente. 104 thèmes, difficulté réglable, corrigés inclus, PDF prêt à imprimer.',
     },
 
   hero: {
     title: 'Générateur de Fiches d\'Addition',
     tagline: 'Créez de superbes fiches d\'addition basées sur les images en moins de 60 secondes',
-    description: 'Transformez les exercices de maths en aventure visuelle captivante. Cet outil vous permet de créer des fiches d\'addition personnalisées avec des images thématiques que les enfants ont réellement envie de compléter. Choisissez parmi plus de 100 thèmes d\'images, réglez la plage de difficulté, sélectionnez votre mise en page et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les enseignants qui préparent des paquets de devoirs différenciés, les parents qui complètent l\'apprentissage en classe et les vendeurs Etsy qui créent des produits de maths imprimables. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
+    description: 'Transformez les exercices de maths en aventure visuelle captivante. Cet outil vous permet de créer des fiches d\'addition personnalisées avec des images thématiques que les enfants ont réellement envie de compléter. Choisissez parmi plus de 100 thèmes d\'images, réglez la plage de difficulté, sélectionnez votre mise en page et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs qui préparent des paquets de devoirs différenciés, les parents qui complètent l\'apprentissage en ligne et les vendeurs Etsy qui créent des produits de maths imprimables. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Régler la Plage de Difficulté',
-        description: 'Ajustez les curseurs « Nombre minimum par groupe » et « Nombre maximum par groupe » pour contrôler les chiffres utilisés. Pour les tout-petits, essayez 1–3. Pour la maternelle, utilisez 1–5. Les élèves de CP peuvent gérer 1–10. Vous pouvez aussi définir le nombre d\'exercices par fiche (de 1 à 10).',
+        description: 'Ajustez les curseurs « Nombre minimum par groupe » et « Nombre maximum par groupe » pour contrôler les chiffres utilisés. Pour les tout-petits, essayez 1–3. Pour la maternelle, utilisez 1–5. Les utilisateurs de CP peuvent gérer 1–10. Vous pouvez aussi définir le nombre d\'exercices par fiche (de 1 à 10).',
       },
       {
         title: 'Sélectionner un Thème dans la Bibliothèque d\'Images',
@@ -48,11 +48,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Ajouter du Texte et des Titres',
-        description: 'Utilisez le panneau « Outils Texte » pour ajouter un titre, un champ nom d\'élève ou des consignes. Choisissez parmi des polices adaptées aux enfants comme Fredoka, Baloo 2, Quicksand et Nunito. Ajustez la taille, la couleur et le contour optionnel du texte pour une meilleure lisibilité sur les fonds.',
+        description: 'Utilisez le panneau « Outils Texte » pour ajouter un titre, un champ nom d\'utilisateur ou des consignes. Choisissez parmi des polices adaptées aux enfants comme Fredoka, Baloo 2, Quicksand et Nunito. Ajustez la taille, la couleur et le contour optionnel du texte pour une meilleure lisibilité sur les fonds.',
       },
       {
         title: 'Affiner les Options de la Fiche',
-        description: 'Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe plus entre les groupes d\'images, incluez les numéros d\'exercice et basculez le style de zone de réponse adapté aux enfants. Chaque option met à jour l\'aperçu en direct instantanément.',
+        description: 'Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe plus entre les groupes d\'images, incluez les numéros d\'exercice et basculez le style de zone de réponse attrayant. Chaque option met à jour l\'aperçu en direct instantanément.',
       },
       {
         title: 'Générer et Télécharger',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs d\'Activités d\'Addition Thématiques',
-      description: 'Créez un ensemble de 10 à 20 fiches autour d\'un seul thème — dinosaures, animaux de la ferme ou créatures marines. Regroupez-les en pack PDF et vendez sur Etsy.fr ou Teachers Pay Teachers. Les parents adorent les packs thématiques car ils maintiennent l\'engagement des enfants plus longtemps. Chaque thème de la bibliothèque contient assez de variété pour remplir un pack entier sans répéter d\'images, ce qui signifie que les acheteurs obtiennent une vraie diversité visuelle dans chaque téléchargement. Positionnez vos packs entre 3 € et 5 € pour les thèmes individuels et 8 € à 12 € pour les méga-packs combinant plusieurs thèmes avec une courbe de difficulté progressive.',
+      description: 'Créez un ensemble de 10 à 20 fiches autour d\'un seul thème — dinosaures, animaux de la ferme ou créatures marines. Regroupez-les en pack PDF et vendez sur Etsy.fr ou Gumroad. Les parents adorent les packs thématiques car ils maintiennent l\'engagement des enfants plus longtemps. Chaque thème de la bibliothèque contient assez de variété pour remplir un pack entier sans répéter d\'images, ce qui signifie que les acheteurs obtiennent une vraie diversité visuelle dans chaque téléchargement. Positionnez vos packs entre 3 € et 5 € pour les thèmes individuels et 8 € à 12 € pour les méga-packs combinant plusieurs thèmes avec une courbe de difficulté progressive.',
     },
     {
       title: 'Ensembles de Devoirs Différenciés',
-      description: 'Générez trois versions de la même fiche à différents niveaux de difficulté : facile (1–3), moyen (1–5) et difficile (1–10). Les enseignants peuvent distribuer le bon niveau à chaque élève sans passer plus de temps en préparation. Cette approche fonctionne particulièrement bien sur Teachers Pay Teachers où les éducateurs recherchent spécifiquement du matériel différencié qui fait gagner du temps de préparation. Regroupez les trois niveaux en un seul listing entre 4 € et 6 €, et incluez un guide enseignant expliquant quel niveau convient à quel profil d\'élève pour maximiser la valeur perçue.',
+      description: 'Générez trois versions de la même fiche à différents niveaux de difficulté : facile (1–3), moyen (1–5) et difficile (1–10). Les vendeurs peuvent distribuer le bon niveau à chaque utilisateur sans passer plus de temps en préparation. Cette approche fonctionne particulièrement bien sur Gumroad où les entrepreneurs recherchent spécifiquement du matériel différencié qui fait gagner du temps de préparation. Regroupez les trois niveaux en un seul listing entre 4 € et 6 €, et incluez un guide vendeur expliquant quel niveau convient à quel profil d\'utilisateur pour maximiser la valeur perçue.',
     },
     {
       title: 'Packs de Maths Saisonniers',
@@ -79,8 +79,8 @@ const content: ToolContent = {  seo: {
       description: 'Générez 50 à 100 pages de fiches d\'addition en modes mixtes, exportez en PDF haute résolution et publiez comme cahier d\'activités low-content sur Amazon KDP. Le format carré (1200×1200) est idéal pour les cahiers d\'activités KDP. Utilisez un thème cohérent tout au long du livre ou alternez les thèmes chapitre par chapitre pour donner au cahier un aspect professionnel. Incluez une table des matières, une page d\'introduction avec des consignes pour les parents et une section corrigé complète à la fin. Fixez le prix de vos cahiers KDP entre 5,99 € et 8,99 € pour des redevances optimales.',
     },
     {
-      title: 'Paquets d\'Exercices du Matin pour la Classe',
-      description: 'Construisez un mois d\'échauffements quotidiens d\'addition. Chaque fiche prend 5 à 10 minutes, idéale pour le travail d\'accueil du matin. Incluez le corrigé pour que les élèves se corrigent eux-mêmes. Les paquets d\'exercices du matin se vendent régulièrement sur Etsy et Teachers Pay Teachers car les enseignants les achètent à chaque rentrée scolaire. Créez des packs mensuels de 20 à 25 fiches entre 5 € et 8 €, et proposez un pack année complète à prix réduit entre 35 € et 45 € pour un revenu maximal par client.',
+      title: 'Paquets d\'Exercices du Matin pour la vente',
+      description: 'Construisez un mois d\'échauffements quotidiens d\'addition. Chaque fiche prend 5 à 10 minutes, idéale pour le travail d\'accueil du matin. Incluez le corrigé pour que les utilisateurs se corrigent eux-mêmes. Les paquets d\'exercices du matin se vendent régulièrement sur Etsy et Gumroad car les vendeurs les achètent à chaque rentrée scolaire. Créez des packs mensuels de 20 à 25 fiches entre 5 € et 8 €, et proposez un pack année complète à prix réduit entre 35 € et 45 € pour un revenu maximal par client.',
     },
     {
       title: 'Fiches de Maths Bilingues',
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy.fr',
     },
     {
-      title: 'Vendeur sur Teachers Pay Teachers',
-      description: 'Téléchargez des packs de fiches d\'addition différenciés sur TPT. Les enseignants recherchent constamment « fiches d\'addition avec images ». Incluez les corrigés et un guide enseignant dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings TPT, investissez du temps dans les images d\'aperçu car les enseignants prennent leurs décisions d\'achat presque entièrement sur les vignettes visuelles. Générez des fiches d\'exemple avec les thèmes les plus colorés et incluez des captures d\'écran annotées montrant les options de difficulté et les modes d\'exercice.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Vendeur sur Gumroad',
+      description: 'Téléchargez des packs de fiches d\'addition différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d\'addition avec images ». Incluez les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings Gumroad, investissez du temps dans les images d\'aperçu car les vendeurs prennent leurs décisions d\'achat presque entièrement sur les vignettes visuelles. Générez des fiches d\'exemple avec les thèmes les plus colorés et incluez des captures d\'écran annotées montrant les options de difficulté et les modes d\'exercice.',
+      platform: 'Gumroad',
     },
     {
       title: 'Cahiers d\'Activités sur Amazon KDP',
@@ -111,7 +111,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Bibliothèque de Ressources pour Centre de Soutien Scolaire',
-      description: 'Si vous dirigez un centre de soutien scolaire, générez des fiches personnalisées pour chaque séance d\'élève. Le format basé sur les images maintient l\'engagement des jeunes apprenants pendant que vous suivez les plages de nombres qui leur posent problème. Utilisez le corrigé pour une correction instantanée. Suivez les progrès de chaque élève en sauvegardant les configurations et en régénérant des exercices similaires à un niveau de difficulté légèrement supérieur à mesure qu\'ils s\'améliorent.',
+      description: 'Si vous dirigez un centre de soutien scolaire, générez des fiches personnalisées pour chaque séance d\'utilisateur. Le format basé sur les images maintient l\'engagement des jeunes apprenants pendant que vous suivez les plages de nombres qui leur posent problème. Utilisez le corrigé pour une correction instantanée. Suivez les progrès de chaque utilisateur en sauvegardant les configurations et en régénérant des exercices similaires à un niveau de difficulté légèrement supérieur à mesure qu\'ils s\'améliorent.',
     },
     {
       title: 'Lead Magnet sur les Réseaux Sociaux',
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Les acheteurs sur Etsy.fr et TPT attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Cela prend 10 secondes supplémentaires et améliore considérablement vos évaluations et vos achats répétés. Un corrigé rend aussi votre produit adapté aux familles faisant l\'instruction à domicile où les parents doivent vérifier le travail rapidement.',
+      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Les acheteurs sur Etsy.fr et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Cela prend 10 secondes supplémentaires et améliore considérablement vos évaluations et vos achats répétés. Un corrigé rend aussi votre produit adapté aux familles faisant l\'instruction à domicile où les parents doivent vérifier le travail rapidement.',
     },
     {
       title: 'Exportez en PDF et en JPEG',
@@ -138,11 +138,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Commencez avec des Plages de Nombres Basses',
-      description: 'Pour les produits destinés à la maternelle, gardez le maximum par groupe à 3–5. Les jeunes enfants sont submergés par les grands nombres. Créez des versions séparées « facile » et « défi » de chaque fiche pour que les parents et enseignants puissent choisir le bon niveau.',
+      description: 'Pour les produits destinés à la maternelle, gardez le maximum par groupe à 3–5. Les jeunes enfants sont submergés par les grands nombres. Créez des versions séparées « facile » et « défi » de chaque fiche pour que les parents et vendeurs puissent choisir le bon niveau.',
     },
     {
       title: 'Ajoutez du Texte Personnalisé pour le Branding',
-      description: 'Utilisez les Outils Texte pour ajouter le nom de votre boutique, une mention de droits d\'auteur ou un message d\'encouragement en bas de chaque fiche. Ce branding subtil aide à construire la reconnaissance si un client partage votre fiche avec un autre parent ou enseignant.',
+      description: 'Utilisez les Outils Texte pour ajouter le nom de votre boutique, une mention de droits d\'auteur ou un message d\'encouragement en bas de chaque fiche. Ce branding subtil aide à construire la reconnaissance si un client partage votre fiche avec un autre parent ou vendeur.',
     },
     {
       title: 'Exploitez la Bibliothèque de Bordures et de Fonds',
@@ -161,7 +161,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Teachers Pay Teachers, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
     },
     {
       question: 'Combien de thèmes d\'images sont disponibles ?',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je générer un corrigé ?',
-      answer: 'Oui. Après avoir généré une fiche, cliquez sur « Générer le Corrigé » pour créer une fiche de solutions assortie avec toutes les réponses remplies. Vous pouvez télécharger le corrigé en fichier JPEG ou PDF séparé. C\'est particulièrement utile pour les enseignants et pour les vendeurs qui souhaitent inclure des corrigés dans leurs produits. Les acheteurs sur Etsy et TPT laissent systématiquement de meilleures évaluations pour les listings incluant des corrigés.',
+      answer: 'Oui. Après avoir généré une fiche, cliquez sur « Générer le Corrigé » pour créer une fiche de solutions assortie avec toutes les réponses remplies. Vous pouvez télécharger le corrigé en fichier JPEG ou PDF séparé. C\'est particulièrement utile pour les vendeurs et pour les vendeurs qui souhaitent inclure des corrigés dans leurs produits. Les acheteurs sur Etsy et Gumroad laissent systématiquement de meilleures évaluations pour les listings incluant des corrigés.',
     },
     {
       question: 'Quels formats de page sont pris en charge ?',

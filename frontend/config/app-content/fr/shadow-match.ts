@@ -7,7 +7,7 @@ const content: AppContent = {
       'générateur de fiches de correspondance d\'ombres pour vendeurs Etsy',
       'créateur de puzzles de silhouettes imprimables pour éditeurs Amazon KDP',
       'générateur de fiches de discrimination visuelle avec licence commerciale',
-      'vendre des fiches de correspondance d\'ombres sur Teachers Pay Teachers',
+      'vendre des fiches de correspondance d\'ombres sur Gumroad',
     ],
     lsiKeywords: [
       'produits numériques de discrimination visuelle pour entrepreneurs',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Discrimination Visuelle | Silhouettes',
     metaDescription:
-      'Créez des fiches discrimination visuelle pour Etsy, KDP et TPT. Modes Ombre et Reconstitue l’Image, silhouettes auto, 104 thèmes.',
+      'Créez des fiches discrimination visuelle pour Etsy, KDP et Gumroad. Modes Ombre et Reconstitue l’Image, silhouettes auto, 104 thèmes.',
   },
 
   hero: {
     title: 'Générateur de Fiches de Discrimination Visuelle pour des Activités de Correspondance de Silhouettes et d\'Images Divisées',
     tagline: 'Deux modes de correspondance en un seul générateur — Trouve l\'Ombre crée des silhouettes noires générées automatiquement à partir de n\'importe quelle image, Reconstitue l\'Image divise les images en moitiés — les deux avec un algorithme de dérangement Fisher-Yates garantissant aucune correspondance triviale, des corrigés auto-générés et 104 collections d\'images thématiques.',
     description:
-      'Concevez des fiches de discrimination visuelle professionnelles où les élèves associent des images en couleur à leurs silhouettes ou reconnectent des moitiés d\'images séparées. Le mode Trouve l\'Ombre place 4 images en couleur étiquetées A, B, C, D dans la rangée du haut et 4 silhouettes noires auto-générées étiquetées 1, 2, 3, 4 dans la rangée du bas — les silhouettes sont créées par un traitement d\'images au niveau des pixels qui convertit chaque pixel avec un alpha > 10 en noir pur, produisant des contours précis qui préservent le profil de transparence exact de chaque image. Le mode Reconstitue l\'Image divise les images en moitiés avec une direction de coupe horizontale ou verticale, étiquette les premières moitiés A–D et les secondes moitiés 1–4, et adapte la mise en page selon l\'orientation. Les deux modes utilisent un algorithme de dérangement Fisher-Yates pour garantir qu\'aucun élément n\'apparaît à sa position d\'origine, créant de véritables défis de correspondance à chaque fois. Activez ou désactivez l\'affichage des étiquettes A/B/C/D et 1/2/3/4, ajoutez des champs optionnels nom et date pour l\'utilisation en classe, et générez des corrigés automatiques qui affichent chaque appariement correct lettre-numéro. Le Générateur de Discrimination Visuelle n\'est PAS sensible à la langue : le résultat est purement visuel, sans contenu textuel localisé sur la fiche elle-même. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept options de police, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs de puzzles de silhouettes sur Etsy, compiliez des cahiers de perception visuelle pour Amazon KDP ou créiez des activités rapides de fin de cours pour TPT, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches de discrimination visuelle professionnelles où les utilisateurs associent des images en couleur à leurs silhouettes ou reconnectent des moitiés d\'images séparées. Le mode Trouve l\'Ombre place 4 images en couleur étiquetées A, B, C, D dans la rangée du haut et 4 silhouettes noires auto-générées étiquetées 1, 2, 3, 4 dans la rangée du bas — les silhouettes sont créées par un traitement d\'images au niveau des pixels qui convertit chaque pixel avec un alpha > 10 en noir pur, produisant des contours précis qui préservent le profil de transparence exact de chaque image. Le mode Reconstitue l\'Image divise les images en moitiés avec une direction de coupe horizontale ou verticale, étiquette les premières moitiés A–D et les secondes moitiés 1–4, et adapte la mise en page selon l\'orientation. Les deux modes utilisent un algorithme de dérangement Fisher-Yates pour garantir qu\'aucun élément n\'apparaît à sa position d\'origine, créant de véritables défis de correspondance à chaque fois. Activez ou désactivez l\'affichage des étiquettes A/B/C/D et 1/2/3/4, ajoutez des champs optionnels nom et date pour l\'utilisation en ligne, et générez des corrigés automatiques qui affichent chaque appariement correct lettre-numéro. Le Générateur de Discrimination Visuelle n\'est PAS sensible à la langue : le résultat est purement visuel, sans contenu textuel localisé sur la fiche elle-même. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept options de police, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs de puzzles de silhouettes sur Etsy, compiliez des cahiers de perception visuelle pour Amazon KDP ou créiez des activités rapides de fin de cours pour Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisissez le Mode d\'Exercice et Configurez les Options',
         description:
-          'Ouvrez le panneau Configuration de l\'Exercice et sélectionnez votre mode : Trouve l\'Ombre ou Reconstitue l\'Image. Le mode Trouve l\'Ombre génère des silhouettes noires à partir de vos images sélectionnées par traitement au niveau des pixels. Le mode Reconstitue l\'Image divise les images en moitiés — choisissez la coupe horizontale (haut/bas) ou verticale (gauche/droite) à l\'aide des boutons radio qui apparaissent dans ce mode. Activez ou désactivez la case « Afficher les Étiquettes » (activée par défaut) pour afficher les identifiants A/B/C/D et 1/2/3/4 sur la fiche. Activez « Inclure les Champs Nom/Date » pour ajouter des lignes nom et date pour les élèves.',
+          'Ouvrez le panneau Configuration de l\'Exercice et sélectionnez votre mode : Trouve l\'Ombre ou Reconstitue l\'Image. Le mode Trouve l\'Ombre génère des silhouettes noires à partir de vos images sélectionnées par traitement au niveau des pixels. Le mode Reconstitue l\'Image divise les images en moitiés — choisissez la coupe horizontale (haut/bas) ou verticale (gauche/droite) à l\'aide des boutons radio qui apparaissent dans ce mode. Activez ou désactivez la case « Afficher les Étiquettes » (activée par défaut) pour afficher les identifiants A/B/C/D et 1/2/3/4 sur la fiche. Activez « Inclure les Champs Nom/Date » pour ajouter des lignes nom et date pour les utilisateurs.',
       },
       {
         title: 'Sélectionnez 4 Images dans la Bibliothèque',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré. En mode Trouve l\'Ombre, chaque cellule affiche l\'image originale à côté de sa silhouette avec une étiquette comme « A → 2 » indiquant la correspondance correcte. En mode Reconstitue l\'Image, chaque cellule affiche l\'image originale complète avec son étiquette de correspondance. Téléchargez les deux versions à l\'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers TPT.',
+          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré. En mode Trouve l\'Ombre, chaque cellule affiche l\'image originale à côté de sa silhouette avec une étiquette comme « A → 2 » indiquant la correspondance correcte. En mode Reconstitue l\'Image, chaque cellule affiche l\'image originale complète avec son étiquette de correspondance. Téléchargez les deux versions à l\'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers Gumroad.',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Deux Modes d\'Exercice : Trouve l\'Ombre et Reconstitue l\'Image avec Options de Direction de Coupe',
         description:
-          'Un seul générateur offre deux activités de correspondance visuelle distinctes. Le mode Trouve l\'Ombre place 4 images en couleur dans la rangée du haut et 4 silhouettes auto-générées dans la rangée du bas — les élèves identifient chaque image par la forme de son contour uniquement. Le mode Reconstitue l\'Image divise 4 images en moitiés et présente les premières et secondes moitiés séparément — les élèves reconnectent les pièces pour compléter chaque image. En mode Reconstitue l\'Image, choisissez la coupe horizontale (moitiés haut/bas) ou la coupe verticale (moitiés gauche/droite). La mise en page s\'adapte automatiquement : les pages paysage utilisent 2 rangées × 4 éléments, les pages portrait utilisent 2 colonnes × 4 éléments.',
+          'Un seul générateur offre deux activités de correspondance visuelle distinctes. Le mode Trouve l\'Ombre place 4 images en couleur dans la rangée du haut et 4 silhouettes auto-générées dans la rangée du bas — les utilisateurs identifient chaque image par la forme de son contour uniquement. Le mode Reconstitue l\'Image divise 4 images en moitiés et présente les premières et secondes moitiés séparément — les utilisateurs reconnectent les pièces pour compléter chaque image. En mode Reconstitue l\'Image, choisissez la coupe horizontale (moitiés haut/bas) ou la coupe verticale (moitiés gauche/droite). La mise en page s\'adapte automatiquement : les pages paysage utilisent 2 rangées × 4 éléments, les pages portrait utilisent 2 colonnes × 4 éléments.',
       },
       {
         title: 'Algorithme de Dérangement Garantissant Aucune Correspondance Triviale',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Corrigé Auto-Généré avec Étiquettes de Correspondance Lettre-Numéro',
         description:
-          'Chaque fiche de discrimination visuelle génère automatiquement un corrigé compagnon sur un onglet canevas séparé. Le corrigé utilise une disposition en grille où chaque cellule affiche l\'image originale à côté de sa silhouette ou de l\'image complète, étiquetée avec la correspondance correcte comme « A → 2 ». La grille utilise 4 colonnes avec un écart de 50 px avant la deuxième rangée et un espacement vertical de 15 px entre les éléments. Aucune création manuelle de corrigé nécessaire — le corrigé reste synchronisé avec la fiche. Téléchargez-le séparément en answer_key.jpeg ou answer_key.pdf aux côtés de la fiche élève.',
+          'Chaque fiche de discrimination visuelle génère automatiquement un corrigé compagnon sur un onglet canevas séparé. Le corrigé utilise une disposition en grille où chaque cellule affiche l\'image originale à côté de sa silhouette ou de l\'image complète, étiquetée avec la correspondance correcte comme « A → 2 ». La grille utilise 4 colonnes avec un écart de 50 px avant la deuxième rangée et un espacement vertical de 15 px entre les éléments. Aucune création manuelle de corrigé nécessaire — le corrigé reste synchronisé avec la fiche. Téléchargez-le séparément en answer_key.jpeg ou answer_key.pdf aux côtés de la fiche utilisateur.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 Collections Thématiques et Plus de 3 100 Illustrations',
@@ -86,9 +86,9 @@ const content: AppContent = {
           'Parcourez 104 collections d\'images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et bien plus. Chaque thème fournit des illustrations colorées qui produisent des silhouettes distinctives avec des contours reconnaissables — formes d\'animaux, profils de véhicules et contours d\'objets qui stimulent la perception visuelle. Filtrez par thème à l\'aide du menu déroulant ou recherchez des images spécifiques par mot-clé. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l\'Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans les deux modes d\'exercice.',
       },
       {
-        title: 'Étiquettes Optionnelles et Champs Nom/Date pour Élèves',
+        title: 'Étiquettes Optionnelles et Champs Nom/Date pour utilisateurs',
         description:
-          'Activez ou désactivez la case « Afficher les Étiquettes » (activée par défaut) pour afficher les identifiants A, B, C, D sur les images ou premières moitiés et 1, 2, 3, 4 sur les silhouettes ou secondes moitiés. Quand les étiquettes sont masquées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — idéal pour les activités avancées ou les cahiers de puzzles où les réponses écrites ne sont pas nécessaires. La case « Inclure les Champs Nom/Date » ajoute des lignes nom et date en bas de page pour la responsabilité en classe et l\'organisation.',
+          'Activez ou désactivez la case « Afficher les Étiquettes » (activée par défaut) pour afficher les identifiants A, B, C, D sur les images ou premières moitiés et 1, 2, 3, 4 sur les silhouettes ou secondes moitiés. Quand les étiquettes sont masquées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — idéal pour les activités avancées ou les cahiers de puzzles où les réponses écrites ne sont pas nécessaires. La case « Inclure les Champs Nom/Date » ajoute des lignes nom et date en bas de page pour la responsabilité en ligne et l\'organisation.',
       },
       {
         title: 'Export PDF et JPEG Prêts à Imprimer à 300 DPI avec Bascule Niveaux de Gris',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Activités Rapides de Fin de Cours pour TPT',
+        title: 'Activités Rapides de Fin de Cours pour Gumroad',
         description:
-          'Créez des activités de discrimination visuelle prêtes à l\'emploi avec champs nom/date et corrigés imprimés pour l\'utilisation en classe. Les enseignants qui recherchent des exercices de discrimination visuelle apprécient les fiches qui arrivent prêtes à imprimer. Créez des ensembles liés au programme : correspondance d\'ombres d\'animaux pour les cours de sciences, silhouettes de métiers pour les études sociales, puzzles d\'ombres alimentaires pour les cours de nutrition. La bascule des étiquettes vous permet de créer des versions guidées (avec étiquettes A/B/C/D et 1/2/3/4) et des versions défi (étiquettes masquées) dans le même produit pour une instruction différenciée.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Créez des activités de discrimination visuelle prêtes à l\'emploi avec champs nom/date et corrigés imprimés pour l\'utilisation en ligne. Les vendeurs qui recherchent des exercices de discrimination visuelle apprécient les fiches qui arrivent prêtes à imprimer. Créez des ensembles liés au programme : correspondance d\'ombres d\'animaux pour les cours de sciences, silhouettes de métiers pour les études sociales, puzzles d\'ombres alimentaires pour les cours de nutrition. La bascule des étiquettes vous permet de créer des versions guidées (avec étiquettes A/B/C/D et 1/2/3/4) et des versions défi (étiquettes masquées) dans le même produit pour une instruction différenciée.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collections Saisonnières de Correspondance d\'Ombres',
         description:
           'Les 104 collections d\'images thématiques couvrent chaque occasion saisonnière et de fête — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d\'été et bien plus. Les activités de silhouettes ont un attrait particulier pendant Halloween quand les thèmes d\'ombres et de mystère sont naturellement populaires. Créez des collections de discrimination visuelle en édition limitée alignées sur les périodes de pic d\'achat. Incluez les fiches Trouve l\'Ombre et Reconstitue l\'Image dans chaque ensemble saisonnier pour une valeur et une variété maximales. Les produits saisonniers commandent des prix plus élevés pendant leurs fenêtres de pic.',
-        platform: 'Etsy / Amazon KDP / TPT (saisonnier)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
       },
       {
         title: 'Packs de Puzzles Multi-Modes en Offre Premium',
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quels sont les deux modes d\'exercice et en quoi diffèrent-ils ?',
       answer:
-        'Le générateur propose deux modes distincts. Le mode Trouve l\'Ombre place 4 images en couleur dans la rangée du haut et 4 silhouettes noires auto-générées dans la rangée du bas — les élèves associent chaque image à son ombre en appariant les lettres (A–D) aux numéros (1–4). Le mode Reconstitue l\'Image divise 4 images en moitiés et présente les premières moitiés (A–D) et les secondes moitiés (1–4) séparément — les élèves associent les moitiés pour compléter chaque image. Trouve l\'Ombre teste la reconnaissance de silhouettes tandis que Reconstitue l\'Image développe la conscience spatiale et le raisonnement partie-tout.',
+        'Le générateur propose deux modes distincts. Le mode Trouve l\'Ombre place 4 images en couleur dans la rangée du haut et 4 silhouettes noires auto-générées dans la rangée du bas — les utilisateurs associent chaque image à son ombre en appariant les lettres (A–D) aux numéros (1–4). Le mode Reconstitue l\'Image divise 4 images en moitiés et présente les premières moitiés (A–D) et les secondes moitiés (1–4) séparément — les utilisateurs associent les moitiés pour compléter chaque image. Trouve l\'Ombre teste la reconnaissance de silhouettes tandis que Reconstitue l\'Image développe la conscience spatiale et le raisonnement partie-tout.',
     },
     {
       question: 'Comment les silhouettes sont-elles générées ?',
@@ -158,22 +158,22 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne l\'algorithme de dérangement ?',
       answer:
-        'Les deux modes utilisent un algorithme de dérangement Fisher-Yates qui garantit qu\'aucun élément n\'apparaît à sa position d\'origine. En mode Trouve l\'Ombre, aucune silhouette ne se trouve directement sous son image correspondante. En mode Reconstitue l\'Image, aucune seconde moitié n\'apparaît adjacente à sa première moitié correspondante. Cela garantit que chaque fiche présente un véritable défi de correspondance — les élèves ne peuvent pas deviner correctement par la position seule. Le dérangement se recalcule à chaque génération, produisant des arrangements différents à partir des mêmes images.',
+        'Les deux modes utilisent un algorithme de dérangement Fisher-Yates qui garantit qu\'aucun élément n\'apparaît à sa position d\'origine. En mode Trouve l\'Ombre, aucune silhouette ne se trouve directement sous son image correspondante. En mode Reconstitue l\'Image, aucune seconde moitié n\'apparaît adjacente à sa première moitié correspondante. Cela garantit que chaque fiche présente un véritable défi de correspondance — les utilisateurs ne peuvent pas deviner correctement par la position seule. Le dérangement se recalcule à chaque génération, produisant des arrangements différents à partir des mêmes images.',
     },
     {
       question: 'Peut-on activer ou désactiver les étiquettes A/B/C/D et 1/2/3/4 ?',
       answer:
-        'Oui. La case « Afficher les Étiquettes » dans le panneau Configuration de l\'Exercice (activée par défaut) contrôle si les étiquettes A, B, C, D apparaissent sur les images ou premières moitiés et si les étiquettes 1, 2, 3, 4 apparaissent sur les silhouettes ou secondes moitiés. Quand les étiquettes sont activées, les élèves écrivent des paires lettre-numéro comme réponses. Quand les étiquettes sont désactivées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — utile pour les cahiers de puzzles ou les activités avancées.',
+        'Oui. La case « Afficher les Étiquettes » dans le panneau Configuration de l\'Exercice (activée par défaut) contrôle si les étiquettes A, B, C, D apparaissent sur les images ou premières moitiés et si les étiquettes 1, 2, 3, 4 apparaissent sur les silhouettes ou secondes moitiés. Quand les étiquettes sont activées, les utilisateurs écrivent des paires lettre-numéro comme réponses. Quand les étiquettes sont désactivées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — utile pour les cahiers de puzzles ou les activités avancées.',
     },
     {
       question: 'Pourquoi y a-t-il toujours exactement 4 problèmes par fiche ?',
       answer:
-        'La fiche utilise un nombre fixe de 4 problèmes de correspondance (SELECT_COUNT = 4). Ce n\'est pas configurable. Quatre éléments offrent l\'équilibre optimal pour la correspondance de silhouettes et d\'images divisées : suffisamment de variété pour créer un véritable défi de correspondance avec le dérangement, tout en gardant chaque image assez grande pour que les élèves étudient les détails fins des silhouettes et des moitiés divisées. Le format constant de 4 éléments fonctionne aussi bien pour les produits en pack où chaque page a une densité de contenu prévisible.',
+        'La fiche utilise un nombre fixe de 4 problèmes de correspondance (SELECT_COUNT = 4). Ce n\'est pas configurable. Quatre éléments offrent l\'équilibre optimal pour la correspondance de silhouettes et d\'images divisées : suffisamment de variété pour créer un véritable défi de correspondance avec le dérangement, tout en gardant chaque image assez grande pour que les utilisateurs étudient les détails fins des silhouettes et des moitiés divisées. Le format constant de 4 éléments fonctionne aussi bien pour les produits en pack où chaque page a une densité de contenu prévisible.',
     },
     {
       question: 'Comment fonctionnent les champs nom et date ?',
       answer:
-        'Activez la case « Inclure les Champs Nom/Date » dans le panneau Configuration de l\'Exercice pour ajouter des lignes nom et date en bas de la fiche. Quand cette option est activée, les élèves peuvent écrire leur nom et la date directement sur la page imprimée — essentiel pour la responsabilité en classe et la notation organisée. Quand elle est désactivée, la fiche utilise toute la surface de la page pour le contenu de correspondance. Cette option fonctionne avec les deux modes Trouve l\'Ombre et Reconstitue l\'Image.',
+        'Activez la case « Inclure les Champs Nom/Date » dans le panneau Configuration de l\'Exercice pour ajouter des lignes nom et date en bas de la fiche. Quand cette option est activée, les utilisateurs peuvent écrire leur nom et la date directement sur la page imprimée — essentiel pour la responsabilité en ligne et la notation organisée. Quand elle est désactivée, la fiche utilise toute la surface de la page pour le contenu de correspondance. Cette option fonctionne avec les deux modes Trouve l\'Ombre et Reconstitue l\'Image.',
     },
     {
       question: 'Comment fonctionne le corrigé auto-généré ?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches de discrimination visuelle créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de discrimination visuelle comme téléchargements numériques sur Etsy, comme cahiers imprimés sur Amazon KDP, comme ressources pédagogiques sur TPT, ou via tout autre canal de vente. Les deux modes d\'exercice, les silhouettes auto-générées, l\'algorithme de dérangement, les corrigés automatiques et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de correspondance visuelle originaux et vendables.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de discrimination visuelle comme téléchargements numériques sur Etsy, comme cahiers imprimés sur Amazon KDP, comme ressources imprimables sur Gumroad, ou via tout autre canal de vente. Les deux modes d\'exercice, les silhouettes auto-générées, l\'algorithme de dérangement, les corrigés automatiques et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de correspondance visuelle originaux et vendables.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
@@ -269,12 +269,12 @@ const content: AppContent = {
       {
         src: '/samples/french/shadow match/Trouve l\'Ombre 1.webp',
         alt: 'Fiche Trouve l\'Ombre montrant quatre images en couleur associées à quatre silhouettes noires avec étiquettes lettres et numéros',
-        caption: 'Mode Trouve l\'Ombre — les élèves associent les images à leurs silhouettes auto-générées',
+        caption: 'Mode Trouve l\'Ombre — les utilisateurs associent les images à leurs silhouettes auto-générées',
       },
       {
         src: '/samples/french/shadow match/Trouve l\'Ombre 2.webp',
-        alt: 'Fiche Reconstitue l\'Image avec des moitiés d\'images séparées que les élèves reconnectent en associant premières et secondes moitiés',
-        caption: 'Mode Reconstitue l\'Image — les élèves associent les moitiés d\'images pour compléter les illustrations',
+        alt: 'Fiche Reconstitue l\'Image avec des moitiés d\'images séparées que les utilisateurs reconnectent en associant premières et secondes moitiés',
+        caption: 'Mode Reconstitue l\'Image — les utilisateurs associent les moitiés d\'images pour compléter les illustrations',
       },
       {
         src: '/samples/french/shadow match/Trouve l\'Ombre 1 answer-key.webp',

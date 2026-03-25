@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des fiches addition codée pour la classe',
+    primaryKeyword: 'créer des fiches addition codée pour la vente',
     secondaryKeywords: [
-      'puzzles code secret maths pour enseignants',
-      'fiches addition chiffrée pour la classe',
+      'puzzles code secret maths pour vendeurs',
+      'fiches addition chiffrée pour la vente',
       'exercices code maths imprimables pour enfants',
       'créateur de fiches addition codée',
     ],
     lsiKeywords: [
-      'puzzle chiffré maths avec images pour la classe',
+      'puzzle chiffré maths avec images pour la vente',
       'fiche mot mystère code-cracker',
-      'activité code numérique maths pour élèves',
+      'activité code numérique maths pour utilisateurs',
     ],
-    titleTag: 'Fiches Addition Codée — Puzzles pour la Classe',
-    metaDescription: 'Créez des puzzles d\'addition codée pour la classe. Codes secrets avec images, mode Mot Mystère, 11 langues. Essai gratuit avec filigrane.',
+    titleTag: 'Fiches Addition Codée — Puzzles pour la vente',
+    metaDescription: 'Créez des puzzles d\'addition codée pour la vente. Codes secrets avec images, mode Mot Mystère, 11 langues. Essai gratuit avec filigrane.',
     },
 
   hero: {
     title: 'Générateur de Fiches d\'Addition Codée',
-    tagline: 'Créez des puzzles cryptarithmétiques où les élèves déchiffrent des codes secrets grâce à l\'addition',
-    description: 'Ce n\'est pas une simple fiche d\'addition — c\'est un défi de décodage. Chaque puzzle cache des nombres derrière des symboles-images, et les élèves doivent résoudre des équations d\'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d\'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d\'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
+    tagline: 'Créez des puzzles cryptarithmétiques où les utilisateurs déchiffrent des codes secrets grâce à l\'addition',
+    description: 'Ce n\'est pas une simple fiche d\'addition — c\'est un défi de décodage. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d\'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d\'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d\'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Choisir les Opérandes par Équation',
-        description: 'Sélectionnez combien de symboles apparaissent dans chaque équation d\'addition : 2, 3, 4 ou Mixte. Les équations à deux opérandes conviennent aux plus jeunes élèves. Les équations à trois et quatre opérandes poussent les élèves plus âgés à suivre davantage d\'inconnues. Le mode Mixte varie aléatoirement le nombre d\'opérandes d\'un exercice à l\'autre pour une variété maximale.',
+        description: 'Sélectionnez combien de symboles apparaissent dans chaque équation d\'addition : 2, 3, 4 ou Mixte. Les équations à deux opérandes conviennent aux plus jeunes utilisateurs. Les équations à trois et quatre opérandes poussent les utilisateurs plus âgés à suivre davantage d\'inconnues. Le mode Mixte varie aléatoirement le nombre d\'opérandes d\'un exercice à l\'autre pour une variété maximale.',
       },
       {
         title: 'Activer le Mode Mot Mystère (Optionnel)',
@@ -52,7 +52,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Ajouter du Texte et du Branding',
-        description: 'Utilisez le panneau « Outils de Texte » pour ajouter un titre comme « Déchiffre le Code ! » ou « Défi du Nombre Secret ». Ajoutez un champ nom d\'élève, des consignes ou le branding de votre boutique. Choisissez parmi des polices adaptées aux enfants (Fredoka, Baloo 2, Quicksand, Nunito) et ajustez la taille, la couleur et le contour du texte.',
+        description: 'Utilisez le panneau « Outils de Texte » pour ajouter un titre comme « Déchiffre le Code ! » ou « Défi du Nombre Secret ». Ajoutez un champ nom d\'utilisateur, des consignes ou le branding de votre boutique. Choisissez parmi des polices adaptées aux enfants (Fredoka, Baloo 2, Quicksand, Nunito) et ajustez la taille, la couleur et le contour du texte.',
       },
       {
         title: 'Générer et Télécharger',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles de Décodage',
-      description: 'Créez des ensembles thématiques de 10 à 20 puzzles cryptarithmétiques avec des images d\'animaux, d\'espace ou de fêtes. Chaque puzzle attribue des nombres secrets différents aux symboles, ce qui rend chaque page unique. Regroupez en pack PDF et vendez sur Etsy.fr ou Teachers Pay Teachers.',
+      description: 'Créez des ensembles thématiques de 10 à 20 puzzles cryptarithmétiques avec des images d\'animaux, d\'espace ou de fêtes. Chaque puzzle attribue des nombres secrets différents aux symboles, ce qui rend chaque page unique. Regroupez en pack PDF et vendez sur Etsy.fr ou Gumroad.',
     },
     {
       title: 'Cahiers d\'Activités Mot Mystère',
-      description: 'Utilisez le Mode Mot Mystère pour créer des cahiers de puzzles où les élèves résolvent des équations d\'addition pour épeler des mots cachés. Choisissez des mots de vocabulaire, des mots courants ou des termes saisonniers comme secrets. Les lettres de distraction intégrées ajoutent un niveau de défi supplémentaire qui maintient l\'engagement des élèves. Pour les éditeurs KDP, un cahier Mot Mystère ciblant les mots courants pour le CP et le CE1 est un produit de niche solide. Les parents qui cherchent « activités mots courants » sur Amazon trouvent rarement des puzzles de type cryptarithmétique, ce qui signifie moins de concurrence directe que les formats classiques de mots mêlés ou mots croisés.',
+      description: 'Utilisez le Mode Mot Mystère pour créer des cahiers de puzzles où les utilisateurs résolvent des équations d\'addition pour épeler des mots cachés. Choisissez des mots de vocabulaire, des mots courants ou des termes saisonniers comme secrets. Les lettres de distraction intégrées ajoutent un niveau de défi supplémentaire qui maintient l\'engagement des utilisateurs. Pour les éditeurs KDP, un cahier Mot Mystère ciblant les mots courants pour le CP et le CE1 est un produit de niche solide. Les parents qui cherchent « activités mots courants » sur Amazon trouvent rarement des puzzles de type cryptarithmétique, ce qui signifie moins de concurrence directe que les formats classiques de mots mêlés ou mots croisés.',
     },
     {
       title: 'Cahiers de Cryptarithmétique pour KDP',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Fiches de Chiffrement Différenciées',
-      description: 'Créez le même concept de puzzle à plusieurs niveaux de difficulté : 3 symboles avec 2 opérandes pour les débutants, 5 symboles avec 3 opérandes pour le niveau intermédiaire et 8 symboles avec des opérandes mixtes pour les avancés. Les enseignants peuvent attribuer le bon niveau sans temps de préparation supplémentaire.',
+      description: 'Créez le même concept de puzzle à plusieurs niveaux de difficulté : 3 symboles avec 2 opérandes pour les débutants, 5 symboles avec 3 opérandes pour le niveau intermédiaire et 8 symboles avec des opérandes mixtes pour les avancés. Les vendeurs peuvent attribuer le bon niveau sans temps de préparation supplémentaire.',
     },
     {
-      title: 'Défis d\'Échauffement en Classe',
-      description: 'Générez des puzzles de décodage rapides de 5 minutes pour le travail d\'accueil quotidien. Utilisez 3 à 4 symboles pour que les élèves terminent rapidement, ou augmentez à 6 ou plus pour un défi sur toute la séance. Incluez le corrigé pour que les élèves puissent se corriger eux-mêmes et suivre leur progression.',
+      title: 'Défis d\'Échauffement en ligne',
+      description: 'Générez des puzzles de décodage rapides de 5 minutes pour le travail d\'accueil quotidien. Utilisez 3 à 4 symboles pour que les utilisateurs terminent rapidement, ou augmentez à 6 ou plus pour un défi sur toute la séance. Incluez le corrigé pour que les utilisateurs puissent se corriger eux-mêmes et suivre leur progression.',
     },
   ],
 
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy.fr',
     },
     {
-      title: 'Puzzles Premium sur Teachers Pay Teachers',
-      description: 'Téléchargez des packs de puzzles de décodage différenciés sur TPT. Les enseignants recherchent des activités de maths motivantes qui vont au-delà des fiches répétitives. Incluez un guide enseignant expliquant le Mode Classique vs le Mode Mot Mystère, plus les corrigés pour chaque puzzle. Un prix premium (5 € à 8 €) est justifié par le format unique.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Puzzles Premium sur Gumroad',
+      description: 'Téléchargez des packs de puzzles de décodage différenciés sur Gumroad. Les vendeurs recherchent des activités de maths motivantes qui vont au-delà des fiches répétitives. Incluez un guide vendeur expliquant le Mode Classique vs le Mode Mot Mystère, plus les corrigés pour chaque puzzle. Un prix premium (5 € à 8 €) est justifié par le format unique.',
+      platform: 'Gumroad',
     },
     {
       title: 'Série de Cahiers de Puzzles sur Amazon KDP',
@@ -105,8 +105,8 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pack Curriculum Numérique sur Gumroad',
-      description: 'Créez un programme structuré de 8 semaines « Code Maths » avec des ensembles de puzzles hebdomadaires. La semaine 1 commence avec 3 symboles, la semaine 8 se termine avec des opérandes mixtes et des défis Mot Mystère. Vendez en téléchargement numérique premium (12 € à 15 €) sur Gumroad. Les familles qui font l\'instruction à domicile paient volontiers pour des programmes complets et structurés. Incluez un guide enseignant d\'une page en introduction expliquant comment utiliser les puzzles de chaque semaine, quelles compétences chaque niveau de difficulté cible et comment évaluer la progression.',
+      title: 'Pack catalogue de produits Numérique sur Gumroad',
+      description: 'Créez un programme structuré de 8 semaines « Code Maths » avec des ensembles de puzzles hebdomadaires. La semaine 1 commence avec 3 symboles, la semaine 8 se termine avec des opérandes mixtes et des défis Mot Mystère. Vendez en téléchargement numérique premium (12 € à 15 €) sur Gumroad. Les familles qui font l\'instruction à domicile paient volontiers pour des programmes complets et structurés. Incluez un guide vendeur d\'une page en introduction expliquant comment utiliser les puzzles de chaque semaine, quelles compétences chaque niveau de difficulté cible et comment évaluer la progression.',
       platform: 'Gumroad',
     },
     {
@@ -124,15 +124,15 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Commencez avec Moins de Symboles pour les Débutants',
-      description: 'Trois ou quatre symboles est le point idéal pour les jeunes élèves et les novices en décodage. Avec moins d\'inconnues, les élèves peuvent utiliser la logique d\'élimination plus facilement. Réservez les puzzles à 6 symboles ou plus pour les élèves plus âgés ou les sections de défis avancés dans vos packs de produits. Lors de la création d\'un listing produit, mentionnez le nombre de symboles dans votre description pour que les acheteurs sachent quel niveau de difficulté ils obtiennent. Des phrases comme « puzzles débutants à 3 symboles » ou « défis avancés à 7 symboles » aident les acheteurs à choisir le bon produit et réduisent les demandes de remboursement.',
+      description: 'Trois ou quatre symboles est le point idéal pour les jeunes utilisateurs et les novices en décodage. Avec moins d\'inconnues, les utilisateurs peuvent utiliser la logique d\'élimination plus facilement. Réservez les puzzles à 6 symboles ou plus pour les utilisateurs plus âgés ou les sections de défis avancés dans vos packs de produits. Lors de la création d\'un listing produit, mentionnez le nombre de symboles dans votre description pour que les acheteurs sachent quel niveau de difficulté ils obtiennent. Des phrases comme « puzzles débutants à 3 symboles » ou « défis avancés à 7 symboles » aident les acheteurs à choisir le bon produit et réduisent les demandes de remboursement.',
     },
     {
       title: 'Utilisez les Opérandes Mixtes pour une Variété Maximale',
-      description: 'Le réglage Mixte varie aléatoirement le nombre d\'opérandes (2, 3 ou 4) dans chaque équation. Cela crée une page de puzzle plus engageante car les élèves ne peuvent pas se reposer sur une seule stratégie. Lors de la création de produits à vendre, le mode Mixte fait que chaque page semble différente même au sein du même pack. Cette variation réduit aussi la probabilité de demandes de remboursement pour contenu répétitif, car chaque page de puzzle offre une expérience de résolution véritablement différente.',
+      description: 'Le réglage Mixte varie aléatoirement le nombre d\'opérandes (2, 3 ou 4) dans chaque équation. Cela crée une page de puzzle plus engageante car les utilisateurs ne peuvent pas se reposer sur une seule stratégie. Lors de la création de produits à vendre, le mode Mixte fait que chaque page semble différente même au sein du même pack. Cette variation réduit aussi la probabilité de demandes de remboursement pour contenu répétitif, car chaque page de puzzle offre une expérience de résolution véritablement différente.',
     },
     {
       title: 'Le Mode Mot Mystère Est Votre Différenciateur Premium',
-      description: 'Les puzzles de code standards sont amusants, mais le Mode Mot Mystère est la fonctionnalité qui distingue votre produit. Utilisez des mots saisonniers (NOËL, LAPIN, PLAGE), des mots courants pour les lecteurs débutants ou des mots de vocabulaire pour l\'intégration interdisciplinaire. Mettez cette fonctionnalité en avant dans vos listings produits. Sur Etsy et TPT, incluez une image de maquette montrant le puzzle Mot Mystère à côté de sa version résolue pour que les acheteurs puissent immédiatement voir le concept du mot caché. Cette démonstration visuelle convertit les visiteurs en acheteurs bien plus efficacement que les descriptions textuelles seules.',
+      description: 'Les puzzles de code standards sont amusants, mais le Mode Mot Mystère est la fonctionnalité qui distingue votre produit. Utilisez des mots saisonniers (NOËL, LAPIN, PLAGE), des mots courants pour les lecteurs débutants ou des mots de vocabulaire pour l\'intégration interdisciplinaire. Mettez cette fonctionnalité en avant dans vos listings produits. Sur Etsy et Gumroad, incluez une image de maquette montrant le puzzle Mot Mystère à côté de sa version résolue pour que les acheteurs puissent immédiatement voir le concept du mot caché. Cette démonstration visuelle convertit les visiteurs en acheteurs bien plus efficacement que les descriptions textuelles seules.',
     },
     {
       title: 'Exploitez les Alphabets Multilingues',
@@ -144,7 +144,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: 'Les puzzles de décodage peuvent être complexes, et les acheteurs attendent des solutions. Générez le corrigé pour chaque puzzle avant de télécharger. Pour les puzzles Mot Mystère, le corrigé affiche à la fois les attributions de nombres et le mot révélé. C\'est indispensable pour les produits destinés aux enseignants. Sans corrigés, les parents et les remplaçants ne peuvent pas vérifier le travail des élèves, ce qui entraîne des avis négatifs et un classement marketplace plus bas.',
+      description: 'Les puzzles de décodage peuvent être complexes, et les acheteurs attendent des solutions. Générez le corrigé pour chaque puzzle avant de télécharger. Pour les puzzles Mot Mystère, le corrigé affiche à la fois les attributions de nombres et le mot révélé. C\'est indispensable pour les produits destinés aux vendeurs. Sans corrigés, les parents et les remplaçants ne peuvent pas vérifier le travail des utilisateurs, ce qui entraîne des avis négatifs et un classement marketplace plus bas.',
     },
     {
       title: 'Choisissez des Images Thématiques Assorties au Mot Secret',
@@ -155,11 +155,11 @@ const content: ToolContent = {  seo: {
   faq: [
     {
       question: 'Qu\'est-ce qu\'une fiche d\'addition codée ?',
-      answer: 'Une fiche d\'addition codée est un puzzle cryptarithmétique où des images ou symboles remplacent les nombres dans des équations d\'addition. Les élèves résolvent les équations pour déterminer quel nombre chaque symbole représente. Cela combine la pratique de l\'addition avec la déduction logique, rendant l\'exercice bien plus engageant que les exercices de maths standards. Le mécanisme de chiffrement ajoute une couche de puzzle captivante qui transforme la pratique routinière de l\'addition en défi d\'investigation. Les élèves doivent d\'abord décoder quel nombre chaque image représente, puis résoudre l\'arithmétique. Cette double exigence développe simultanément la fluence mathématique et les capacités de raisonnement logique.',
+      answer: 'Une fiche d\'addition codée est un puzzle cryptarithmétique où des images ou symboles remplacent les nombres dans des équations d\'addition. Les utilisateurs résolvent les équations pour déterminer quel nombre chaque symbole représente. Cela combine la pratique de l\'addition avec la déduction logique, rendant l\'exercice bien plus engageant que les exercices de maths standards. Le mécanisme de chiffrement ajoute une couche de puzzle captivante qui transforme la pratique routinière de l\'addition en défi d\'investigation. Les utilisateurs doivent d\'abord décoder quel nombre chaque image représente, puis résoudre l\'arithmétique. Cette double exigence développe simultanément la fluence mathématique et les capacités de raisonnement logique.',
     },
     {
       question: 'Quelle est la différence entre le Mode Classique et le Mode Mot Mystère ?',
-      answer: 'En Mode Classique, chaque image cache un nombre secret unique et les élèves résolvent des équations d\'addition pour déchiffrer le code. En Mode Mot Mystère, chaque équation résolue révèle une lettre d\'un mot caché, et des lettres de distraction avec des sommes incorrectes maintiennent le suspense. Le Mode Mot Mystère est une fonctionnalité premium. Du point de vue d\'un vendeur, cette distinction compte car elle vous donne effectivement deux gammes de produits différentes à partir d\'un seul outil. Le Mode Classique attire les enseignants de maths cherchant de la pratique arithmétique basée sur la logique, tandis que le Mode Mot Mystère attire les éducateurs axés sur la littératie et les parents qui font l\'école à la maison et recherchent des activités interdisciplinaires.',
+      answer: 'En Mode Classique, chaque image cache un nombre secret unique et les utilisateurs résolvent des équations d\'addition pour déchiffrer le code. En Mode Mot Mystère, chaque équation résolue révèle une lettre d\'un mot caché, et des lettres de distraction avec des sommes incorrectes maintiennent le suspense. Le Mode Mot Mystère est une fonctionnalité premium. Du point de vue d\'un vendeur, cette distinction compte car elle vous donne effectivement deux gammes de produits différentes à partir d\'un seul outil. Le Mode Classique attire les vendeurs de maths cherchant de la pratique arithmétique basée sur la logique, tandis que le Mode Mot Mystère attire les entrepreneurs axés sur la littératie et les parents qui font l\'école à la maison et recherchent des activités interdisciplinaires.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je vendre les fiches que je crée ?',
-      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre sur Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad ou toute autre plateforme, vous avez besoin d\'une licence commerciale. La licence supprime le filigrane et accorde les droits complets de vente pour les puzzles que vous générez. Une fois licencié, il n\'y a pas de limite par téléchargement et pas de redevances — vous gardez 100 % de vos revenus de vente.',
+      answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre sur Etsy, Gumroad, Amazon KDP, Gumroad ou toute autre plateforme, vous avez besoin d\'une licence commerciale. La licence supprime le filigrane et accorde les droits complets de vente pour les puzzles que vous générez. Une fois licencié, il n\'y a pas de limite par téléchargement et pas de redevances — vous gardez 100 % de vos revenus de vente.',
     },
     {
       question: 'Quelles langues sont prises en charge ?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'En quoi est-ce différent des fiches d\'addition classiques ?',
-      answer: 'Les fiches d\'addition classiques affichent les nombres directement. Les fiches d\'addition codée cachent les nombres derrière des symboles-images, transformant chaque page en puzzle logique. Les élèves doivent utiliser les résultats des équations d\'addition pour déduire quel nombre chaque symbole représente. Cela développe à la fois la fluence arithmétique et la pensée critique.',
+      answer: 'Les fiches d\'addition classiques affichent les nombres directement. Les fiches d\'addition codée cachent les nombres derrière des symboles-images, transformant chaque page en puzzle logique. Les utilisateurs doivent utiliser les résultats des équations d\'addition pour déduire quel nombre chaque symbole représente. Cela développe à la fois la fluence arithmétique et la pensée critique.',
     },
     {
       question: 'Quelle est votre politique de remboursement ?',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Bildsortering Skapare',
     tagline: 'Tvåkategori sorterings arbetsblad generator med temabaserat och manuellt bildval, blandade utklippsrutnät av 4–12 bilder, streckade kategoriramar, automatiskt genererade facit med 6× större bilder i kategorirutor, lokaliserad Sortera bilder-rubrik på 11 språk och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella sorteringsarbetsblad där eleverna klipper ut bilder från ett blandat rutnät och klassificerar dem i två kategorier — vänster och höger. Välj temaläge för att autofylla kategorier: välj ett vänster tema och ett höger tema, appen hämtar 4–6 slumpmässiga bilder per tema. Eller växla till manuellt läge för att handvälja enskilda bilder och tilldela varje till vänster eller höger. Varje arbetsblad har två sida-vid-sida streckade kategoriramar med #FAFAFA-fyllning överst och ett blandat utklippsrutnät nedanför med vita celler, streckade #666-kanter, 4px rundade hörn och 3–4 kolumner. Konfigurera 4–12 totala bilder med 2–10 per kategori. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar bilder med 6× storlek i kategorirutor med max 2 kolumner, #FAFAFA-fyllning, #444-streck och 12px kantradie. Bildsortering Skaparen är språkkänslig: kategorietiketter använder lokaliserade bildnamn. En lokaliserad rubrik renderas med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka Bold och orange beskrivning (#FF7043) i Quicksand. En blågrön yttre ram (#26A69A, 8px streck, 12px radie) ramar in sidan. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till namn- och datumfält. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella sorteringsarbetsblad där användarna klipper ut bilder från ett blandat rutnät och klassificerar dem i två kategorier — vänster och höger. Välj temaläge för att autofylla kategorier: välj ett vänster tema och ett höger tema, appen hämtar 4–6 slumpmässiga bilder per tema. Eller växla till manuellt läge för att handvälja enskilda bilder och tilldela varje till vänster eller höger. Varje arbetsblad har två sida-vid-sida streckade kategoriramar med #FAFAFA-fyllning överst och ett blandat utklippsrutnät nedanför med vita celler, streckade #666-kanter, 4px rundade hörn och 3–4 kolumner. Konfigurera 4–12 totala bilder med 2–10 per kategori. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar bilder med 6× storlek i kategorirutor med max 2 kolumner, #FAFAFA-fyllning, #444-streck och 12px kantradie. Bildsortering Skaparen är språkkänslig: kategorietiketter använder lokaliserade bildnamn. En lokaliserad rubrik renderas med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka Bold och orange beskrivning (#FF7043) i Quicksand. En blågrön yttre ram (#26A69A, 8px streck, 12px radie) ramar in sidan. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till namn- och datumfält. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj ditt valläge',
-        description: 'Öppna panelen Sorteringskategorier. Temaläge — välj ett tema för vänster kategori och ett annat för höger — appen autoäljer 4–6 bilder per tema. Manuellt läge — handvälja enskilda bilder och tilldela var och en till vänster eller höger. Temaläge är snabbare för bulkproduktion; manuellt läge är idealiskt för läroplansanpassade sorteringsaktiviteter.',
+        description: 'Öppna panelen Sorteringskategorier. Temaläge — välj ett tema för vänster kategori och ett annat för höger — appen autoäljer 4–6 bilder per tema. Manuellt läge — handvälja enskilda bilder och tilldela var och en till vänster eller höger. Temaläge är snabbare för bulkproduktion; manuellt läge är idealiskt för produktkatalogsanpassade sorteringsaktiviteter.',
       },
       {
         title: 'Konfigurera bildantal och kategoribalans',
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Ställ in sidlayout och dekorationer',
-        description: 'Välj sidstorlek: Letter, A4, Kvadrat (1200×1200) eller anpassad. Välj dekorativt bakgrundstema och ramtema med oberoende opacitetsreglage (0–1, steg 0,05). Kryssa i «Inkludera Namn/Datum-fält» för klassrumsansvar.',
+        description: 'Välj sidstorlek: Letter, A4, Kvadrat (1200×1200) eller anpassad. Välj dekorativt bakgrundstema och ramtema med oberoende opacitetsreglage (0–1, steg 0,05). Kryssa i «Inkludera Namn/Datum-fält» för produktlinjesansvar.',
       },
       {
         title: 'Generera sorteringsarbetsbladet',
-        description: 'Klicka på Generera. Appen arrangerar innehåll i streckade kategoriramar överst och blandat utklippsrutnät nedanför. Bilder visas i slumpmässig ordning i 3–4 kolumner. En stiliserad rubrik med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) och orange beskrivning (#FF7043) renderas. Blågrön yttre ram (#26A69A) ramar in sidan. Eleverna klipper ut bilderna och sorterar i rätt kategoriruta.',
+        description: 'Klicka på Generera. Appen arrangerar innehåll i streckade kategoriramar överst och blandat utklippsrutnät nedanför. Bilder visas i slumpmässig ordning i 3–4 kolumner. En stiliserad rubrik med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) och orange beskrivning (#FF7043) renderas. Blågrön yttre ram (#26A69A) ramar in sidan. användarna klipper ut bilderna och sorterar i rätt kategoriruta.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
@@ -72,8 +72,8 @@ const content: ToolContent = {
       description: 'Sammanställ 50–80 sorteringsarbetsblad till tryckta arbetsböcker för Amazon KDP. Strukturera kapitel efter svårighet: tidiga kapitel använder 4–6 bilder med uppenbara kategoriskillnader, mellankapitel 8–10 med subtilare distinktioner, avancerade kapitel 12 bilder. Facitsidor i slutet av varje kapitel.',
     },
     {
-      title: 'Klassrums sorteringsstationsaktiviteter med namn/datum',
-      description: 'Bygg klassrumsfärdiga sorteringsarbetsblad med namn/datum-fält och facit. Skapa läroplansanpassade set: levande mot icke-levande, hälsosam mot ohälsosam mat, dag- mot nattdjur. Det autogenererade facit sparar lärarens förberedelsetid.',
+      title: 'produktlinjes sorteringsstationsaktiviteter med namn/datum',
+      description: 'Bygg produktlinjesfärdiga sorteringsarbetsblad med namn/datum-fält och facit. Skapa produktkatalogsanpassade set: levande mot icke-levande, hälsosam mot ohälsosam mat, dag- mot nattdjur. Det autogenererade facit sparar säljarens förberedelsetid.',
     },
     {
       title: 'Flerspråkiga sorteringsprodukter för internationella marknader',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Anpassade foto sorteringsarbetsblad',
-      description: 'Ladda upp egna bilder för familjesorteringsaktiviteter, klassrumsspecifika sorteringsuppgifter eller varumärkta sorteringsarbetsblad. Manuellt läge låter dig tilldela varje bild. Kombinerat med det autogenererade facit blir anpassade foto sorteringsarbetsblad unika, personaliserade produkter.',
+      description: 'Ladda upp egna bilder för familjesorteringsaktiviteter, produktlinjesspecifika sorteringsuppgifter eller varumärkta sorteringsarbetsblad. Manuellt läge låter dig tilldela varje bild. Kombinerat med det autogenererade facit blir anpassade foto sorteringsarbetsblad unika, personaliserade produkter.',
     },
     {
       title: 'Säsongsbetonade och högtidssorteringssamlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums sorteringsaktivitetspaket',
-      description: 'Ladda upp sorteringspaket till TPT med namn/datum-fält, läroplansanpassade kategorier och autogenererade facit. Lärare söker efter sorteringsaktiviteter. Skapa läroplansanpassade set. Manuellt läge låter dig handplocka exakta bilder.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes sorteringsaktivitetspaket',
+      description: 'Ladda upp sorteringspaket till Gumroad med namn/datum-fält, produktkatalogsanpassade kategorier och autogenererade facit. säljare söker efter sorteringsaktiviteter. Skapa produktkatalogsanpassade set. Manuellt läge låter dig handplocka exakta bilder.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest sorteringsarbetsblad trafiktratt',
@@ -112,13 +112,13 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad komplett sorteringsarbetsblad verktygskit',
-      description: 'Paketera sorteringsarbetsblad över alla 104 teman och båda vallägena till ett omfattande verktygskit på Gumroad. Inkludera 400+ arbetsblad med facit. Blanda temaläges arbetsblad för snabb variation med manuellt läges arbetsblad för läroplansanpassning.',
+      description: 'Paketera sorteringsarbetsblad över alla 104 teman och båda vallägena till ett omfattande verktygskit på Gumroad. Inkludera 400+ arbetsblad med facit. Blanda temaläges arbetsblad för snabb variation med manuellt läges arbetsblad för produktkatalogsanpassning.',
       platform: 'Gumroad',
     },
     {
       title: 'Flerspråkiga sorteringsprodukter för globala marknader',
       description: 'Bildsortering Skaparen är språkkänslig — kategorietiketter och Sortera bilder-rubriken använder lokaliserade bildnamn. Producera sorteringsarbetsblad på alla 11 språk. Flerspråkiga paket motiverar premiumpriser.',
-      platform: 'Etsy / TPT',
+      platform: 'Etsy / Gumroad',
     },
   ],
 
@@ -128,8 +128,8 @@ const content: ToolContent = {
       description: 'Temaläge autoäljer 4–6 bilder per kategori. Välj vänster och höger tema, klicka Generera, och appen producerar ett komplett sorteringsarbetsblad på sekunder. Att klicka Generera igen med samma teman skapar ett annorlunda arbetsblad med annorlunda bilder. Generera 10–15 unika arbetsblad per temaparning.',
     },
     {
-      title: 'Använd manuellt läge för läroplansanpassad precision',
-      description: 'Manuellt läge låter dig handplocka enskilda bilder och tilldela var och en till vänster eller höger kategori. Väsentligt för läroplansspecifika sorteringsaktiviteter där exakta bilder spelar roll. Manuellt läge arbetsblad motiverar högre priser på TPT.',
+      title: 'Använd manuellt läge för produktkatalogsanpassad precision',
+      description: 'Manuellt läge låter dig handplocka enskilda bilder och tilldela var och en till vänster eller höger kategori. Väsentligt för produktkatalogsspecifika sorteringsaktiviteter där exakta bilder spelar roll. Manuellt läge arbetsblad motiverar högre priser på Gumroad.',
     },
     {
       title: 'Variera bildantal för progressiva svårighetsprodukter',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Rikta in dig på naturliga kategorparningar för maximal söksynlighet',
-      description: 'De mest framgångsrika sorteringsarbetsblad produkterna använder kategorparningar som matchar hur lärare tänker: djur mot mat, land mot vatten, levande mot icke-levande, hälsosam mot ohälsosam. Namnge dina produktannonser med den faktiska kategoriparningen.',
+      description: 'De mest framgångsrika sorteringsarbetsblad produkterna använder kategorparningar som matchar hur säljare tänker: djur mot mat, land mot vatten, levande mot icke-levande, hälsosam mot ohälsosam. Namnge dina produktannonser med den faktiska kategoriparningen.',
     },
   ],
 
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka är de två vallägena?',
-      answer: 'Temaläge — välj ett tema för varje kategori, appen autoäljer 4–6 bilder per tema. Manuellt läge — handvälja enskilda bilder och tilldela var och en till vänster eller höger. Temaläge är snabbare; manuellt läge ger läroplansanpassad kontroll.',
+      answer: 'Temaläge — välj ett tema för varje kategori, appen autoäljer 4–6 bilder per tema. Manuellt läge — handvälja enskilda bilder och tilldela var och en till vänster eller höger. Temaläge är snabbare; manuellt läge ger produktkatalogsanpassad kontroll.',
     },
     {
       question: 'Hur fungerar tvåkategori sorteringslayouten?',
-      answer: 'Varje arbetsblad har exakt två kategorier — vänster och höger. Två streckade kategoriramar med #FAFAFA-fyllning överst och ett blandat utklippsrutnät nedanför med alla bilder blandade i vita celler. Eleverna klipper ut bilderna och sorterar i rätt kategoriruta.',
+      answer: 'Varje arbetsblad har exakt två kategorier — vänster och höger. Två streckade kategoriramar med #FAFAFA-fyllning överst och ett blandat utklippsrutnät nedanför med alla bilder blandade i vita celler. användarna klipper ut bilderna och sorterar i rätt kategoriruta.',
     },
     {
       question: 'Hur många bilder kan jag inkludera?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar det blandade utklippsrutnätet?',
-      answer: 'Utklippsrutnätet upptar de nedre 55% av innehållsområdet och visar alla bilder i slumpmässig ordning i vita celler med streckade #666-kanter och 4px rundade hörn. Varje bild fyller 85% av sin cell. Blandningen säkerställer att eleverna måste aktivt klassificera.',
+      answer: 'Utklippsrutnätet upptar de nedre 55% av innehållsområdet och visar alla bilder i slumpmässig ordning i vita celler med streckade #666-kanter och 4px rundade hörn. Varje bild fyller 85% av sin cell. Blandningen säkerställer att användarna måste aktivt klassificera.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag inkludera namn- och datumfält?',
-      answer: 'Ja. Kryssa i «Inkludera Namn/Datum-fält» i Sidinställningar för att lägga till elevens namn och datumlinjer. Dessa fält säkerställer klassrumsansvar och gör arbetsbladen redo för lärarens insamling utan extra förberedelse.',
+      answer: 'Ja. Kryssa i «Inkludera Namn/Datum-fält» i Sidinställningar för att lägga till namn och datumlinjer. Dessa fält säkerställer produktlinjesansvar och gör arbetsbladen redo för säljarens insamling utan extra förberedelse.',
     },
     {
       question: 'Vilka sidstorlekar och exportformat finns?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja sorteringsarbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja sorteringsarbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan kanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja sorteringsarbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

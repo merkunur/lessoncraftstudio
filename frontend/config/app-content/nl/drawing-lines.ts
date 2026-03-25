@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare lijntraceerwerkbladen maker voor Etsy-verkopers',
       'lijnen trekken werkbladen generator voor Amazon KDP-uitgevers',
-      'lijntekenen werkbladen verkopen op Teachers Pay Teachers',
+      'lijntekenen werkbladen verkopen op Gumroad',
       'lijnen trekken werkbladen commerciële licentie',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercieel gebruik lijnen trekken werkbladen generator',
     ],
     titleTag: 'Lijnen Trekken Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak lijntraceer werkbladen om te verkopen op Etsy, KDP en TPT. Acht SVG-lijnsjablonen, afbeeldingsparen, 104 kleurrijke thema\'s.',
+    metaDescription: 'Maak lijntraceer werkbladen om te verkopen op Etsy, KDP en Gumroad. Acht SVG-lijnsjablonen, afbeeldingsparen, 104 kleurrijke thema\'s.',
   },
 
   hero: {
     title: 'Lijnen Trekken Werkbladen Generator voor Lijntraceer Oefeningen',
     tagline: 'Acht SVG-lijnsjablonen — bochten, diagonalen, horizontaal en verticaal — met 4–5 afbeeldingsparen per pagina voor fijne motoriek ontwikkeling door begeleide lijntracering.',
     description:
-      'Ontwerp professionele lijntraceer werkbladen waarbij leerlingen langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-gebaseerde sjablonen dekken vier lijntypen: vier gebogen lijnsjablonen voor vloeiende bewegingen, twee diagonale sjablonen voor schuine streken, één horizontaal sjabloon voor horizontale tracering, en één verticaal sjabloon voor boven-naar-beneden oefening. Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, waardoor leerlingen aan elk uiteinde een visueel doel hebben. Automatisch vullen wijst willekeurig afbeeldingsparen toe uit elk geselecteerd thema of uit alle thema\'s tegelijk. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 kleurrijke illustraties verdeeld over 104 thema\'s — dieren, voertuigen, eten, natuur en tientallen meer. Elk werkblad is volledig visueel met nul tekst op de uitvoer, waardoor ze universeel bruikbaar zijn ongeacht de taal of het leesniveau. De sjabloonselectie bepaalt automatisch de pagina-oriëntatie: bochtensjablonen gebruiken standaard liggend formaat voor zwaaiende bewegingen, terwijl diagonale, horizontale en verticale sjablonen staand formaat gebruiken voor gerichte boven-naar-beneden oefening. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen voor de generator. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu lijntraceer bundels verkoopt op Etsy.nl, fijne motoriek werkboeken samenstelt voor Amazon KDP, of schrijfvoorbereiding centra maakt voor TPT, de Lijnen Trekken Werkbladen Generator levert professionele resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Ontwerp professionele lijntraceer werkbladen waarbij gebruikers langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-gebaseerde sjablonen dekken vier lijntypen: vier gebogen lijnsjablonen voor vloeiende bewegingen, twee diagonale sjablonen voor schuine streken, één horizontaal sjabloon voor horizontale tracering, en één verticaal sjabloon voor boven-naar-beneden oefening. Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, waardoor gebruikers aan elk uiteinde een visueel doel hebben. Automatisch vullen wijst willekeurig afbeeldingsparen toe uit elk geselecteerd thema of uit alle thema\'s tegelijk. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 kleurrijke illustraties verdeeld over 104 thema\'s — dieren, voertuigen, eten, natuur en tientallen meer. Elk werkblad is volledig visueel met nul tekst op de uitvoer, waardoor ze universeel bruikbaar zijn ongeacht de taal of het leesniveau. De sjabloonselectie bepaalt automatisch de pagina-oriëntatie: bochtensjablonen gebruiken standaard liggend formaat voor zwaaiende bewegingen, terwijl diagonale, horizontale en verticale sjablonen staand formaat gebruiken voor gerichte boven-naar-beneden oefening. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen voor de generator. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu lijntraceer bundels verkoopt op Etsy.nl, fijne motoriek werkboeken samenstelt voor Amazon KDP, of schrijfvoorbereiding centra maakt voor Gumroad, de Lijnen Trekken Werkbladen Generator levert professionele resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Voeg tekstdecoraties toe en pas aan',
         description:
-          'Gebruik het paneel Tekstgereedschappen om een werkbladtitel, naam- en datumvelden van leerlingen (Fredoka 18px), of aangepaste instructies toe te voegen met lettertypen waaronder Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. Pas lettergrootte, kleur en tekstomlijning aan (breedte 0–10 met 0,5 stap granulariteit). Sleep, vergroot, verklein, roteer en herpositioneer elk element op het volledige Fabric.js-canvas met laagbediening, vergrendelen/ontgrendelen, uitlijngereedschappen en zoom van 25% tot 400%. Ongedaan maken en opnieuw uitvoeren tot 100 geschiedenisstappen met Ctrl+Z en Ctrl+Y.',
+          'Gebruik het paneel Tekstgereedschappen om een werkbladtitel, naam- en datumvelden van gebruikers (Fredoka 18px), of aangepaste instructies toe te voegen met lettertypen waaronder Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. Pas lettergrootte, kleur en tekstomlijning aan (breedte 0–10 met 0,5 stap granulariteit). Sleep, vergroot, verklein, roteer en herpositioneer elk element op het volledige Fabric.js-canvas met laagbediening, vergrendelen/ontgrendelen, uitlijngereedschappen en zoom van 25% tot 400%. Ongedaan maken en opnieuw uitvoeren tot 100 geschiedenisstappen met Ctrl+Z en Ctrl+Y.',
       },
       {
         title: 'Download als JPEG of PDF',
         description:
-          'Open het downloadmenu en exporteer je voltooide werkblad als een hoge-resolutie JPEG (kwaliteit 1,0) of printklare PDF op 300 DPI via een 6x-renderingsvermenigvuldiger. Schakel grijstintenexport in voor inkvriendelijke versies die ideaal zijn voor printen in de klas. Bestanden worden opgeslagen als drawing_lines_worksheet.jpeg of drawing_lines_worksheet.pdf. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-boekinhoud en TPT-productbestanden — geen nabewerking nodig.',
+          'Open het downloadmenu en exporteer je voltooide werkblad als een hoge-resolutie JPEG (kwaliteit 1,0) of printklare PDF op 300 DPI via een 6x-renderingsvermenigvuldiger. Schakel grijstintenexport in voor inkvriendelijke versies die ideaal zijn voor printen online. Bestanden worden opgeslagen als drawing_lines_worksheet.jpeg of drawing_lines_worksheet.pdf. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-boekinhoud en Gumroad-productbestanden — geen nabewerking nodig.',
       },
     ],
   },
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Acht SVG-lijnsjablonen: Bochten, Diagonalen, Horizontaal en Verticaal',
         description:
-          'Acht unieke SVG-gebaseerde sjablonen dekken vier lijntypen voor uitgebreide fijne motoriek ontwikkeling. Vier bochtensjablonen creëren vloeiende, zwaaiende paden die polsflexibiliteit en soepele bewegingen ontwikkelen — elke bochtenvariant biedt een andere vorm voor visuele afwisseling. Twee diagonale sjablonen produceren schuine lijnen die kruiscoördinatie opbouwen terwijl leerlingen van de ene hoek naar de andere traceren. Eén horizontaal sjabloon genereert rechte links-naar-rechts lijnen voor richtingscontrole. Eén verticaal sjabloon maakt boven-naar-beneden lijnen voor neerwaartse streekoefening. De verscheidenheid aan lijntypen laat je progressieve moeilijkheidsbundels maken: begin met rechte horizontale lijnen, vorder naar bochten, en eindig met diagonalen voor een compleet fijne motoriek curriculum.',
+          'Acht unieke SVG-gebaseerde sjablonen dekken vier lijntypen voor uitgebreide fijne motoriek ontwikkeling. Vier bochtensjablonen creëren vloeiende, zwaaiende paden die polsflexibiliteit en soepele bewegingen ontwikkelen — elke bochtenvariant biedt een andere vorm voor visuele afwisseling. Twee diagonale sjablonen produceren schuine lijnen die kruiscoördinatie opbouwen terwijl gebruikers van de ene hoek naar de andere traceren. Eén horizontaal sjabloon genereert rechte links-naar-rechts lijnen voor richtingscontrole. Eén verticaal sjabloon maakt boven-naar-beneden lijnen voor neerwaartse streekoefening. De verscheidenheid aan lijntypen laat je progressieve moeilijkheidsbundels maken: begin met rechte horizontale lijnen, vorder naar bochten, en eindig met diagonalen voor een compleet fijne motoriek productcatalogus.',
       },
       {
         title: 'Afbeeldingsparen Koppeling met Automatisch Vullen uit 104 Thema\'s',
         description:
-          'Elk sjabloon plaatst bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad — leerlingen zien één afbeelding aan het begin en de bijpassende afbeelding aan het einde, wat een visueel doel creëert dat motiveert om de lijn te traceren. Automatisch vullen wijst willekeurig afbeeldingsparen toe uit het geselecteerde thema of uit alle 104 thema\'s tegelijk, waardoor elke paarplaats op de pagina direct wordt ingevuld. Dit maakt batch-werkbladcreatie snel: selecteer een thema, klik op automatisch vullen, en het sjabloon is klaar voor export. Wissel van thema en herhaal om tientallen unieke werkbladen in minuten te genereren. Elk thema biedt gecoördineerde afbeeldingen die visueel samenhangen, waardoor natuurlijke bundelingsmogelijkheden ontstaan voor thematische productpakketten.',
+          'Elk sjabloon plaatst bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad — gebruikers zien één afbeelding aan het begin en de bijpassende afbeelding aan het einde, wat een visueel doel creëert dat motiveert om de lijn te traceren. Automatisch vullen wijst willekeurig afbeeldingsparen toe uit het geselecteerde thema of uit alle 104 thema\'s tegelijk, waardoor elke paarplaats op de pagina direct wordt ingevuld. Dit maakt batch-werkbladcreatie snel: selecteer een thema, klik op automatisch vullen, en het sjabloon is klaar voor export. Wissel van thema en herhaal om tientallen unieke werkbladen in minuten te genereren. Elk thema biedt gecoördineerde afbeeldingen die visueel samenhangen, waardoor natuurlijke bundelingsmogelijkheden ontstaan voor thematische productpakketten.',
       },
       {
         title: 'Sjabloongestuurde pagina-oriëntatie',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Volledig Visuele Werkbladen met Nul Tekst op de Uitvoer',
         description:
-          'Elk werkblad bevat uitsluitend afbeeldingen, lijnpaden en decoratieve randen — er verschijnt geen tekst op de gegenereerde uitvoer. Leerlingen traceren lijnen tussen afbeeldingsparen zonder instructies te hoeven lezen. Dit maakt Lijnen Trekken werkbladen universeel bruikbaar ongeacht taal, leesniveau of geletterdheidsstatus. Nog-niet-lezende leerlingen, anderstalige leerlingen en leerlingen in het speciaal onderwijs voltooien allemaal de oefeningen door het visuele lijnpad te volgen. Voor verkopers betekent nul-tekst uitvoer dat hetzelfde werkblad wereldwijd verkoopt zonder vertaling — één productvermeling bedient elke markt zonder taalspecifieke varianten te onderhouden.',
+          'Elk werkblad bevat uitsluitend afbeeldingen, lijnpaden en decoratieve randen — er verschijnt geen tekst op de gegenereerde uitvoer. gebruikers traceren lijnen tussen afbeeldingsparen zonder instructies te hoeven lezen. Dit maakt Lijnen Trekken werkbladen universeel bruikbaar ongeacht taal, leesniveau of geletterdheidsstatus. Nog-niet-lezende gebruikers, anderstalige gebruikers en gebruikers in het speciale producten voltooien allemaal de oefeningen door het visuele lijnpad te volgen. Voor verkopers betekent nul-tekst uitvoer dat hetzelfde werkblad wereldwijd verkoopt zonder vertaling — één productvermeling bedient elke markt zonder taalspecifieke varianten te onderhouden.',
       },
       {
         title: 'Afbeeldingenbibliotheek met 104 Thematische Collecties en 3.100+ Illustraties',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Printklare PDF- en JPEG-export op 300 DPI',
         description:
-          'Download werkbladen als hoge-resolutie JPEG-afbeeldingen (kwaliteit 1,0) of printklare PDF-documenten gerenderd op 300 DPI via een 6x-renderingsvermenigvuldiger. Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en aangepaste formaten worden allemaal ondersteund. Schakel grijstintenexport in voor inkvriendelijke versies die ideaal zijn voor printen in de klas of zwart-wit werkboeken. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-boekinhoud en TPT-productbestanden — geen nabewerking nodig.',
+          'Download werkbladen als hoge-resolutie JPEG-afbeeldingen (kwaliteit 1,0) of printklare PDF-documenten gerenderd op 300 DPI via een 6x-renderingsvermenigvuldiger. Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en aangepaste formaten worden allemaal ondersteund. Schakel grijstintenexport in voor inkvriendelijke versies die ideaal zijn voor printen online of zwart-wit werkboeken. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-boekinhoud en Gumroad-productbestanden — geen nabewerking nodig.',
       },
       {
         title: 'Volledig Canvas Bewerken met Tekst- en Decoratiegereedschappen',
@@ -114,26 +114,26 @@ const content: AppContent = {
       {
         title: 'Fijne Motoriek Werkboeken op Amazon KDP',
         description:
-          'Stel 60–100 lijntraceer oefeningen samen tot een gedrukt werkboek, gestructureerd als een progressief fijne motoriek curriculum. Hoofdstuk 1 behandelt horizontale lijnen voor basale richtingscontrole. Hoofdstuk 2 introduceert verticale lijnen voor neerwaartse streekoefening. Hoofdstuk 3 gaat verder met bochtensjablonen voor polsflexibiliteit. Hoofdstuk 4 daagt leerlingen uit met diagonale lijnen die kruiscoördinatie vereisen. Elk hoofdstuk gebruikt verschillende afbeeldingsthema\'s om de betrokkenheid over 60+ pagina\'s te behouden. Het volledig visuele formaat betekent dat er geen vertaling nodig is voor internationale KDP-marktplaatsen — publiceer dezelfde inhoud in elk land. Fijne motoriek werkboeken vullen een specifieke niche voor vroeg leren met consistente vraag het hele jaar door van ouders en kleuterleidsters.',
+          'Stel 60–100 lijntraceer oefeningen samen tot een gedrukt werkboek, gestructureerd als een progressief fijne motoriek productcatalogus. Hoofdstuk 1 behandelt horizontale lijnen voor basale richtingscontrole. Hoofdstuk 2 introduceert verticale lijnen voor neerwaartse streekoefening. Hoofdstuk 3 gaat verder met bochtensjablonen voor polsflexibiliteit. Hoofdstuk 4 daagt gebruikers uit met diagonale lijnen die kruiscoördinatie vereisen. Elk hoofdstuk gebruikt verschillende afbeeldingsthema\'s om de betrokkenheid over 60+ pagina\'s te behouden. Het volledig visuele formaat betekent dat er geen vertaling nodig is voor internationale KDP-marktplaatsen — publiceer dezelfde inhoud in elk land. Fijne motoriek werkboeken vullen een specifieke niche voor vroeg leren met consistente vraag het hele jaar door van ouders en kleuterleidsters.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Schrijfvoorbereiding en Schrijfrijpheid Centra voor TPT',
+        title: 'Schrijfvoorbereiding en Schrijfrijpheid Centra voor Gumroad',
         description:
-          'Bouw schrijfrijpheid stations op niveaus waarbij het lijntype als progressie-as dient: Station 1 (horizontale lijnen voor links-naar-rechts tracking), Station 2 (verticale lijnen voor boven-naar-beneden streken), Station 3 (bochten voor lettervormende bewegingen), en Station 4 (diagonalen voor hoekige lettervormen). Elk station richt zich op een specifieke schrijfvoorbereidende vaardigheid die direct overdraagbaar is naar lettervorming. Verpak elk station met thematische oefeningen en instructiekaarten voor leerkrachten. Het visuele formaat zonder tekst werkt in elke klas ongeacht de taalachtergrond van leerlingen, waardoor deze materialen waardevol zijn voor inclusieve, meertalige en speciaal onderwijs settings.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw schrijfrijpheid stations op niveaus waarbij het lijntype als progressie-as dient: Station 1 (horizontale lijnen voor links-naar-rechts tracking), Station 2 (verticale lijnen voor boven-naar-beneden streken), Station 3 (bochten voor lettervormende bewegingen), en Station 4 (diagonalen voor hoekige lettervormen). Elk station richt zich op een specifieke schrijfvoorbereidende vaardigheid die direct overdraagbaar is naar lettervorming. Verpak elk station met thematische oefeningen en instructiekaarten voor verkopers. Het visuele formaat zonder tekst werkt in elke klas ongeacht de taalachtergrond van gebruikers, waardoor deze materialen waardevol zijn voor inclusieve, meertalige en speciale producten settings.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Meertalige Visuele Werkbladen voor Wereldwijde Markten',
         description:
-          'Omdat Lijnen Trekken werkbladen nul tekst op de uitvoer bevatten, werkt hetzelfde product in elke taal zonder aanpassingen. Leerlingen traceren lijnen tussen afbeeldingsparen zonder te hoeven lezen — het visuele lijnpad zelf biedt alle benodigde begeleiding. Maak één set lijntraceer oefeningen en verkoop deze wereldwijd zonder vertaling of aparte taalversies te onderhouden. Vermeld identieke producten op Etsy-winkels gericht op verschillende landen, of publiceer dezelfde KDP-inhoud op alle internationale Amazon-marktplaatsen. Eén werkstroom produceert een universeel verkoopbaar product.',
-        platform: 'Etsy / Amazon KDP / TPT (wereldwijd)',
+          'Omdat Lijnen Trekken werkbladen nul tekst op de uitvoer bevatten, werkt hetzelfde product in elke taal zonder aanpassingen. gebruikers traceren lijnen tussen afbeeldingsparen zonder te hoeven lezen — het visuele lijnpad zelf biedt alle benodigde begeleiding. Maak één set lijntraceer oefeningen en verkoop deze wereldwijd zonder vertaling of aparte taalversies te onderhouden. Vermeld identieke producten op Etsy-winkels gericht op verschillende landen, of publiceer dezelfde KDP-inhoud op alle internationale Amazon-marktplaatsen. Eén werkstroom produceert een universeel verkoopbaar product.',
+        platform: 'Etsy / Amazon KDP / Gumroad (wereldwijd)',
       },
       {
-        title: 'Klaslokaal- en Therapie Fijne Motoriek Instrument',
+        title: 'winkel- en Therapie Fijne Motoriek Instrument',
         description:
-          'Upload eigen afbeeldingen om gerichte lijntraceer werkbladen te maken voor specifieke therapeutische of educatieve doelen. Ergotherapeuten kunnen lijntypen selecteren die passen bij de fijne motorische ontwikkelingsbehoeften van elke patiënt — bochten voor polsmobiliteit, diagonalen voor bilaterale coördinatie, rechte lijnen voor richtingscontrole. Leerkrachten kunnen vakgerelateerde traceervellen maken waarbij leerlingen gerelateerde afbeeldingsparen verbinden terwijl ze pencontrole ontwikkelen. Pas sjabloonselectie en afbeeldingsthema\'s aan op het vaardigheidsniveau en de interesses van elke leerling. Print aangepaste sets in minuten voor individuele therapiesessies, kleine groepen of hele klassen.',
-        platform: 'Klaslokaal / Therapie / Thuisonderwijs',
+          'Upload eigen afbeeldingen om gerichte lijntraceer werkbladen te maken voor specifieke therapeutische of educatieve doelen. Ergotherapeuten kunnen lijntypen selecteren die passen bij de fijne motorische ontwikkelingsbehoeften van elke patiënt — bochten voor polsmobiliteit, diagonalen voor bilaterale coördinatie, rechte lijnen voor richtingscontrole. verkopers kunnen vakgerelateerde traceervellen maken waarbij gebruikers gerelateerde afbeeldingsparen verbinden terwijl ze pencontrole ontwikkelen. Pas sjabloonselectie en afbeeldingsthema\'s aan op het vaardigheidsniveau en de interesses van elke gebruiker. Print aangepaste sets in minuten voor individuele therapiesessies, kleine groepen of hele productlijnen.',
+        platform: 'winkel / Therapie / Thuisonderwijs',
       },
     ],
   },
@@ -147,12 +147,12 @@ const content: AppContent = {
     {
       question: 'Welke lijntypen zijn beschikbaar en welke vaardigheden ontwikkelen ze?',
       answer:
-        'Gebogen lijnen ontwikkelen polsflexibiliteit en vloeiende beweging terwijl leerlingen zwaaiende bogen volgen. Diagonale lijnen bouwen kruiscoördinatie op met schuine traceerpaden. Horizontale lijnen versterken links-naar-rechts richtingscontrole — dezelfde volgrichting die bij lezen en schrijven wordt gebruikt. Verticale lijnen oefenen boven-naar-beneden streken die essentieel zijn voor lettervorming. Samen dekken deze vier lijntypen de fundamentele fijne motorische vaardigheden die nodig zijn voor schrijfrijpheid.',
+        'Gebogen lijnen ontwikkelen polsflexibiliteit en vloeiende beweging terwijl gebruikers zwaaiende bogen volgen. Diagonale lijnen bouwen kruiscoördinatie op met schuine traceerpaden. Horizontale lijnen versterken links-naar-rechts richtingscontrole — dezelfde volgrichting die bij lezen en schrijven wordt gebruikt. Verticale lijnen oefenen boven-naar-beneden streken die essentieel zijn voor lettervorming. Samen dekken deze vier lijntypen de fundamentele fijne motorische vaardigheden die nodig zijn voor schrijfrijpheid.',
     },
     {
       question: 'Hoe werkt de afbeeldingsparen koppeling op elk sjabloon?',
       answer:
-        'Elk sjabloon plaatst bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad. Eén afbeelding verschijnt aan het begin van de lijn en de bijpassende afbeelding aan het einde. Leerlingen traceren langs het begeleide lijnpad om de bijpassende plaatjes te verbinden. Sjablonen bevatten 4 of 5 paren afhankelijk van het lijntype — bochten- en verticale sjablonen gebruiken 4 paren, diagonale en horizontale sjablonen gebruiken 5. De bijpassende afbeeldingen geven leerlingen een visueel doel dat hen motiveert om elke lijn af te maken.',
+        'Elk sjabloon plaatst bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad. Eén afbeelding verschijnt aan het begin van de lijn en de bijpassende afbeelding aan het einde. gebruikers traceren langs het begeleide lijnpad om de bijpassende plaatjes te verbinden. Sjablonen bevatten 4 of 5 paren afhankelijk van het lijntype — bochten- en verticale sjablonen gebruiken 4 paren, diagonale en horizontale sjablonen gebruiken 5. De bijpassende afbeeldingen geven gebruikers een visueel doel dat hen motiveert om elke lijn af te maken.',
     },
     {
       question: 'Hoe werkt de automatisch vullen functie?',
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Waarom is er geen antwoordblad voor Lijnen Trekken werkbladen?',
       answer:
-        'Lijnen Trekken werkbladen hebben geen apart antwoordblad nodig omdat het lijnpad zelf de leerling begeleidt. Het SVG-lijnsjabloon dat op het werkblad is afgedrukt toont precies waar getraceerd moet worden — leerlingen volgen het zichtbare pad van de ene afbeelding naar de bijpassende. De oefening is zelfcontrolerend: als de lijn van de leerling het pad volgt en de bijpassende afbeelding bereikt, is de oefening correct voltooid.',
+        'Lijnen Trekken werkbladen hebben geen apart antwoordblad nodig omdat het lijnpad zelf de gebruiker begeleidt. Het SVG-lijnsjabloon dat op het werkblad is afgedrukt toont precies waar getraceerd moet worden — gebruikers volgen het zichtbare pad van de ene afbeelding naar de bijpassende. De oefening is zelfcontrolerend: als de lijn van de gebruiker het pad volgt en de bijpassende afbeelding bereikt, is de oefening correct voltooid.',
     },
     {
       question: 'Kan ik mijn eigen afbeeldingen uploaden in plaats van de bibliotheek te gebruiken?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kan ik werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je lijntraceer werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als lesmateriaal op TPT, of via elk ander verkoopkanaal. De acht lijnsjablonen, 104 afbeeldingsthema\'s en het volledig visuele formaat geven je sterke differentiatie en wereldwijde verkoopbaarheid in marktplaatscategorieën.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je lijntraceer werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De acht lijnsjablonen, 104 afbeeldingsthema\'s en het volledig visuele formaat geven je sterke getrapte productpakketten en wereldwijde verkoopbaarheid in marktplaatscategorieën.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -268,7 +268,7 @@ const content: AppContent = {
       {
         src: '/samples/dutch/drawing lines/Lijnen%20Tekenen%20Oefenen%202.webp',
         alt: 'Lijntraceer werkblad met bochtensjabloon dat bijpassende afbeeldingsparen van dieren verbindt in liggend formaat',
-        caption: 'Bochtensjabloon — leerlingen traceren vloeiende gebogen lijnen om bijpassende afbeeldingsparen te verbinden',
+        caption: 'Bochtensjabloon — gebruikers traceren vloeiende gebogen lijnen om bijpassende afbeeldingsparen te verbinden',
       },
       {
         src: '/samples/dutch/drawing lines/Lijnen%20Tekenen%20Oefenen%203.webp',

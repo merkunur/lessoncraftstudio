@@ -23,11 +23,11 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar kategorisorterings-arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa tvåkategori klipp-och-sortera arbetsblad med tema- och manuella vallägen, autogenererade facit och flerspråkigt stöd du kan sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
+    tagline: 'En steg-för-steg-guide för att skapa tvåkategori klipp-och-sortera arbetsblad med tema- och manuella vallägen, autogenererade facit och flerspråkigt stöd du kan sälja på Etsy, Amazon KDP och Gumroad',
     description: 'Kategorisortering är en av de tidigaste kognitiva färdigheterna barn utvecklar, och sorteringsarbetsblad förblir i hög efterfrågan. Denna guide leder dig genom hela skapandeprocessen med Bildsortering Arbetsblad-generatorn — från att välja urvalläge och konfigurera bildantal till att generera blandade utklippsrutnät med automatiska facit.',
   },
 
-  introduction: 'Klassificering är en av de grundläggande kognitiva färdigheterna i tidig barndomsutbildning. Innan barn kan läsa, skriva eller räkna lär de sig sortera — gruppera objekt efter delade attribut som färg, form, funktion eller kategori. Detta gör sorteringsarbetsblad universellt relevanta.\n\nVad som gör sorteringsarbetsblad särskilt effektiva som produkt är klipp-och-sortera-formatet. Elever klipper fysiskt ut bilder från ett blandat rutnät och placerar dem i rätt kategoriram. Denna hands-on-interaktion skapar djupare engagemang.\n\nBildsortering Arbetsblad-generatorn hanterar den tekniska komplexiteten. Den erbjuder två urvallägen: temaläge autofyller kategorier från bildbiblioteket för snabb produktion, medan manuellt läge låter dig handvälja bilder. Generatorn producerar tvåkategori-layouter med blandade utklippsrutnät, autogenererade facit med bilder visade vid sex gånger rutnätscellstorleken, och en stiliserad lokaliserad rubrik på elva språk.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Klassificering är en av de grundläggande kognitiva färdigheterna i tidig barndomsutbildning. Innan barn kan läsa, skriva eller räkna lär de sig sortera — gruppera objekt efter delade attribut som färg, form, funktion eller kategori. Detta gör sorteringsarbetsblad universellt relevanta.\n\nVad som gör sorteringsarbetsblad särskilt effektiva som produkt är klipp-och-sortera-formatet. användare klipper fysiskt ut bilder från ett blandat rutnät och placerar dem i rätt kategoriram. Denna hands-on-interaktion skapar djupare engagemang.\n\nBildsortering Arbetsblad-generatorn hanterar den tekniska komplexiteten. Den erbjuder två urvallägen: temaläge autofyller kategorier från bildbiblioteket för snabb produktion, medan manuellt läge låter dig handvälja bilder. Generatorn producerar tvåkategori-layouter med blandade utklippsrutnät, autogenererade facit med bilder visade vid sex gånger rutnätscellstorleken, och en stiliserad lokaliserad rubrik på elva språk.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -36,7 +36,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj ditt urvalläge',
-      content: 'Två distinkta lägen.\n\nTemaläge: välj ett tema för vänster kategori och ett annorlunda tema för höger kategori. Appen autofyller fyra till sex slumpmässiga bilder per tema. Eftersom bildvalet randomiseras producerar varje Generera-klick ett annorlunda arbetsblad. Snabbt att skapa paket med 15–20 unika arbetsblad.\n\nManuellt läge: handvälj individuella bilder och tilldela var och en till vänster eller höger kategori. Fullständig kontroll för läroplansanpassade sorteringsaktiviteter.\n\nTemaläge är ditt volymverktyg. Manuellt läge ditt precisionsverktyg. De flesta framgångsrika säljare använder båda.',
+      content: 'Två distinkta lägen.\n\nTemaläge: välj ett tema för vänster kategori och ett annorlunda tema för höger kategori. Appen autofyller fyra till sex slumpmässiga bilder per tema. Eftersom bildvalet randomiseras producerar varje Generera-klick ett annorlunda arbetsblad. Snabbt att skapa paket med 15–20 unika arbetsblad.\n\nManuellt läge: handvälj individuella bilder och tilldela var och en till vänster eller höger kategori. Fullständig kontroll för produktkatalogsanpassade sorteringsaktiviteter.\n\nTemaläge är ditt volymverktyg. Manuellt läge ditt precisionsverktyg. De flesta framgångsrika säljare använder båda.',
     },
     {
       heading: 'Konfigurera bildantal och kategoribalans',
@@ -48,11 +48,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Ställ in sidlayout och dekorationer',
-      content: 'Sidstorlek: Letter stående, Letter liggande, A4 stående, A4 liggande, kvadrat (1200×1200) och anpassade dimensioner.\n\nBakgrunds- och ramteman med oberoende opacitetsreglage. Namn/datumfält för klassrumsanvändning.\n\nSju typsnitt. Textkontur 0–10. Anpassade titlar och instruktioner.',
+      content: 'Sidstorlek: Letter stående, Letter liggande, A4 stående, A4 liggande, kvadrat (1200×1200) och anpassade dimensioner.\n\nBakgrunds- och ramteman med oberoende opacitetsreglage. Namn/datumfält för produktlinjesanvändning.\n\nSju typsnitt. Textkontur 0–10. Anpassade titlar och instruktioner.',
     },
     {
       heading: 'Generera sorterings-arbetsbladet',
-      content: 'Klicka Generera. Två distinkta sektioner:\n\nÖverst: två sida-vid-sida streckade kategoriramrar med ljus bakgrund och kategorietikett. Elever placerar utklippta bilder här.\n\nUnder ramarna: blandat utklippsrutnät med alla bilder i randomiserad ordning. Bilder i vita celler med streckade kanter, 3–4 kolumner. Blandningen säkerställer att elever aktivt klassificerar.\n\nEn stiliserad rubrik renderas automatiskt i mintgrönt med teal titel och orange beskrivning. Rubriktexten översätts till alla 11 stödda språk.\n\nGranska förhandsgranskningen: kontrollera att bilder är tydliga, kategorietiketter läsbara och layouten balanserad.',
+      content: 'Klicka Generera. Två distinkta sektioner:\n\nÖverst: två sida-vid-sida streckade kategoriramrar med ljus bakgrund och kategorietikett. användare placerar utklippta bilder här.\n\nUnder ramarna: blandat utklippsrutnät med alla bilder i randomiserad ordning. Bilder i vita celler med streckade kanter, 3–4 kolumner. Blandningen säkerställer att användare aktivt klassificerar.\n\nEn stiliserad rubrik renderas automatiskt i mintgrönt med teal titel och orange beskrivning. Rubriktexten översätts till alla 11 stödda språk.\n\nGranska förhandsgranskningen: kontrollera att bilder är tydliga, kategorietiketter läsbara och layouten balanserad.',
     },
     {
       heading: 'Granska det autogenererade facit',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Samla 50–80 arbetsblad med progressiv svårighet. Tidiga kapitel: 4–6 bilder med uppenbara kategorier (djur kontra fordon). Mittkapitel: 8–10 med subtilare distinktioner (bondgårdsdjur kontra vilda). Avancerade: 12 bilder med utmanande klassificeringar (hälsosam mat kontra godis). Facitsidor per kapitel.\n\nTitel och undertitel: Exempeltitel "Category Sorting Worksheets for Preschool." Exempel-undertitel "80 Cut-and-Sort Classification Activities with Answer Keys for Ages 3–6."\n\nGråskaleläge för bläcksnåla KDP-interiörer.',
     },
     {
-      heading: 'Sälja sorteringsarbetsblad på Teachers Pay Teachers',
-      content: 'TPT är idealiskt — klassificering är en centrall läroplansförmåga. Naturvetenskapslärare: levande kontra icke-levande. Hälsolärare: hälsosam kontra ohälsosam. Samhällskunskapslärare: samhällshjälpare kontra andra yrken.\n\nProduktbeskrivningar: årskurs, klassificeringsfärdigheter, antal arbetsblad, om facit ingår, kategoripar, standardanpassning.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad och ett facit.\n\nPaketering: "Komplett klassificeringspaket" med sorteringsarbetsblad inom naturvetenskap, kost, natur och vardagsföremål.\n\nTPT-nyckelord: "sorteringscentra," "klassificeringsaktivitet," "klipp och klistra sortering," "kategorisortering," "naturvetenskaplig sortering."',
+      heading: 'Sälja sorteringsarbetsblad på Gumroad',
+      content: 'Gumroad är idealiskt — klassificering är en centrall produktkatalogsförmåga. Naturvetenskapssäljare: levande kontra icke-levande. Hälsosäljare: hälsosam kontra ohälsosam. Samhällskunskapssäljare: samhällshjälpare kontra andra yrken.\n\nProduktbeskrivningar: årskurs, klassificeringsfärdigheter, antal arbetsblad, om facit ingår, kategoripar, standardanpassning.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad och ett facit.\n\nPaketering: "Komplett klassificeringspaket" med sorteringsarbetsblad inom naturvetenskap, kost, natur och vardagsföremål.\n\nGumroad-nyckelord: "sorteringscentra," "klassificeringsaktivitet," "klipp och klistra sortering," "kategorisortering," "naturvetenskaplig sortering."',
     },
   ],
 
@@ -108,11 +108,11 @@ const content: GuideContent = {
   faq: [
     {
       question: 'Vilka är de två urvalslägena?',
-      answer: 'Temaläge: välj ett tema per kategori och appen autoväljer 4–6 bilder. Snabbt för massproduktion. Manuellt läge: handvälj individuella bilder och tilldela till vänster eller höger kategori. Precision för läroplansanpassning.',
+      answer: 'Temaläge: välj ett tema per kategori och appen autoväljer 4–6 bilder. Snabbt för massproduktion. Manuellt läge: handvälj individuella bilder och tilldela till vänster eller höger kategori. Precision för produktkatalogsanpassning.',
     },
     {
       question: 'Hur fungerar tvåkategori-layouten?',
-      answer: 'Varje arbetsblad har exakt två kategorier. Sida-vid-sida streckade kategoriramrar överst. Blandat utklippsrutnät nedanför. Elever klipper ut bilder och sorterar till rätt ram. Binär klassificering med tydligt lärandemål.',
+      answer: 'Varje arbetsblad har exakt två kategorier. Sida-vid-sida streckade kategoriramrar överst. Blandat utklippsrutnät nedanför. användare klipper ut bilder och sorterar till rätt ram. Binär klassificering med tydligt lärandemål.',
     },
     {
       question: 'Hur många bilder kan jag inkludera?',
@@ -145,7 +145,7 @@ const content: GuideContent = {
     {
       slug: 'skapa-hitta-udda-pussel',
       title: 'Skapa Hitta udda bilden-arbetsblad',
-      description: 'Ytterligare en klassificeringskusin. Hitta udda bilden ber elever identifiera objekt som inte hör hemma — förstärker samma kategoriseringsförmågor.',
+      description: 'Ytterligare en klassificeringskusin. Hitta udda bilden ber användare identifiera objekt som inte hör hemma — förstärker samma kategoriseringsförmågor.',
     },
     {
       slug: 'skapa-bingokort',
@@ -184,7 +184,7 @@ const content: GuideContent = {
     {
       appId: 'picture-bingo',
       title: 'Bingokort Generator',
-      description: 'Använder samma tematiska bildsamlingar. Bingokort paras bra med sorteringsarbetsblad i tematiska aktivitetspaket som tilltalar lärare och föräldrar.',
+      description: 'Använder samma tematiska bildsamlingar. Bingokort paras bra med sorteringsarbetsblad i tematiska aktivitetspaket som tilltalar säljare och föräldrar.',
     },
   ],
 

@@ -20,8 +20,8 @@ const content: ToolContent = {
 
   hero: {
     title: 'Cryptogram Werkblad Maker',
-    tagline: 'Maak plaatjescijfer-puzzels waarbij elke letter aan een afbeelding is gekoppeld en leerlingen hele geheime zinnen ontcijferen door patroonherkenning',
-    description: 'Ontwerp professionele cryptogram werkbladen gebouwd op een plaatjescijfer-mechanisme: elke alfabetletter is gekoppeld aan een unieke afbeelding, en je geheime zin wordt weergegeven als een reeks afbeeldingen die leerlingen terug moeten decoderen naar leesbare tekst. In tegenstelling tot woordzoekers of letterpuzzels die met individuele woorden werken, codeert de Cryptogram generator hele zinnen en uitdrukkingen — leerlingen kraken de cijfercode door af te leiden welke afbeelding welke letter voorstelt, gebruikmakend van contextuele aanwijzingen uit veelvoorkomende woorden zoals "de", "en" en "is" om hun codekraakwerk te versnellen. De schuifregelaar Letters Onthullen (0–10) is de primaire moeilijkheidsregeling: stel deze in op nul voor een pure codekraak-uitdaging zonder startinformatie, of schuif naar tien voor zware ondersteuning waarbij veel letter-naar-afbeelding koppelingen vooraf als hints zijn opgelost. Automatische Toewijzing haalt willekeurige afbeeldingen uit een van de 104 thematische collecties (meer dan 3100 illustraties) om de hele cijfercode met één klik te vullen, terwijl Handmatige Toewijzing je specifieke afbeeldingen voor specifieke letters laat kiezen met een volledig visueel overzicht van alle koppelingen. Upload eigen afbeeldingen voor volledige creatieve controle. Het antwoordblad bevat een letterlegenda die elke alfabetletter toont gekoppeld aan de toegewezen afbeelding in gesorteerde volgorde — de definitieve oplossingsreferentie. Taalgevoeligheid is ingebouwd: schakel van taal en zowel de geheime boodschaptekst als het alfabet veranderen. Nederlandse cryptogrammen coderen Nederlandse zinnen met het volledige Nederlandse alfabet; Duitse cryptogrammen coderen Duitse zinnen met ä, ö, ü, ß in het alfabet; Franse cryptogrammen gebruiken é, è, ç, à. Elke taalversie is een oprecht ander cijferproduct. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Kies uit 5 lettertypen, schakel grijstinten in voor inktbesparende uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    tagline: 'Maak plaatjescijfer-puzzels waarbij elke letter aan een afbeelding is gekoppeld en gebruikers hele geheime zinnen ontcijferen door patroonherkenning',
+    description: 'Ontwerp professionele cryptogram werkbladen gebouwd op een plaatjescijfer-mechanisme: elke alfabetletter is gekoppeld aan een unieke afbeelding, en je geheime zin wordt weergegeven als een reeks afbeeldingen die gebruikers terug moeten decoderen naar leesbare tekst. In tegenstelling tot woordzoekers of letterpuzzels die met individuele woorden werken, codeert de Cryptogram generator hele zinnen en uitdrukkingen — gebruikers kraken de cijfercode door af te leiden welke afbeelding welke letter voorstelt, gebruikmakend van contextuele aanwijzingen uit veelvoorkomende woorden zoals "de", "en" en "is" om hun codekraakwerk te versnellen. De schuifregelaar Letters Onthullen (0–10) is de primaire moeilijkheidsregeling: stel deze in op nul voor een pure codekraak-uitdaging zonder startinformatie, of schuif naar tien voor zware ondersteuning waarbij veel letter-naar-afbeelding koppelingen vooraf als hints zijn opgelost. Automatische Toewijzing haalt willekeurige afbeeldingen uit een van de 104 thematische collecties (meer dan 3100 illustraties) om de hele cijfercode met één klik te vullen, terwijl Handmatige Toewijzing je specifieke afbeeldingen voor specifieke letters laat kiezen met een volledig visueel overzicht van alle koppelingen. Upload eigen afbeeldingen voor volledige creatieve controle. Het antwoordblad bevat een letterlegenda die elke alfabetletter toont gekoppeld aan de toegewezen afbeelding in gesorteerde volgorde — de definitieve oplossingsreferentie. Taalgevoeligheid is ingebouwd: schakel van taal en zowel de geheime boodschaptekst als het alfabet veranderen. Nederlandse cryptogrammen coderen Nederlandse zinnen met het volledige Nederlandse alfabet; Duitse cryptogrammen coderen Duitse zinnen met ä, ö, ü, ß in het alfabet; Franse cryptogrammen gebruiken é, è, ç, à. Elke taalversie is een oprecht ander cijferproduct. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Kies uit 5 lettertypen, schakel grijstinten in voor inktbesparende uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Voer je geheime zin in en selecteer de taal',
-        description: 'Typ de zin of het woord dat je wilt dat leerlingen ontcijferen. Dit is de geheime boodschap die als plaatjescijfer wordt gecodeerd. Selecteer de doeltaal uit 11 ondersteunde talen — de beschikbare alfabetset past zich automatisch aan per taal. Nederlands gebruikt het standaard alfabet, Duits voegt ä, ö, ü, ß toe, en Frans voegt geaccentueerde tekens zoals é, è, ç, à toe. Elke letter in je zin wordt aan een afbeelding gekoppeld.',
+        description: 'Typ de zin of het woord dat je wilt dat gebruikers ontcijferen. Dit is de geheime boodschap die als plaatjescijfer wordt gecodeerd. Selecteer de doeltaal uit 11 ondersteunde talen — de beschikbare alfabetset past zich automatisch aan per taal. Nederlands gebruikt het standaard alfabet, Duits voegt ä, ö, ü, ß toe, en Frans voegt geaccentueerde tekens zoals é, è, ç, à toe. Elke letter in je zin wordt aan een afbeelding gekoppeld.',
       },
       {
         title: 'Wijs afbeeldingen toe aan letters met Automatisch of Handmatig',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Stel moeilijkheid in met Letters Onthullen',
-        description: 'Pas de schuifregelaar Letters Onthullen aan van 0 tot 10 om te bepalen hoeveel letter-naar-afbeelding koppelingen vooraf als hints op het werkblad zijn opgelost. Nul onthullingen creëert een pure codekraak-uitdaging waarbij leerlingen zonder informatie beginnen. Tien onthullingen biedt zware ondersteuning voor jongere of minder ervaren oplossers. Deze enkele instelling creëert een soepel moeilijkheidsverloop en dient als de primaire differentiatieasis voor genivelleerde productbundels.',
+        description: 'Pas de schuifregelaar Letters Onthullen aan van 0 tot 10 om te bepalen hoeveel letter-naar-afbeelding koppelingen vooraf als hints op het werkblad zijn opgelost. Nul onthullingen creëert een pure codekraak-uitdaging waarbij gebruikers zonder informatie beginnen. Tien onthullingen biedt zware ondersteuning voor jongere of minder ervaren oplossers. Deze enkele instelling creëert een soepel moeilijkheidsverloop en dient als de primaire getrapte productpakkettenasis voor genivelleerde productbundels.',
       },
       {
         title: 'Pas lettertypen, tekst en canvas aan',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gedifferentieerde Codekraak-Centra',
-      description: 'Bouw genivelleerde cryptogram oefeningsets met Letters Onthullen als differentiatieasis. Niveau 1: 8 onthullingen, korte zinnen, thematische afbeeldingen voor beginnende lezers. Niveau 2: 5 onthullingen, middellange zinnen voor ontwikkelende decodeurs. Niveau 3: 2 onthullingen, langere zinnen voor zelfverzekerde oplossers. Niveau 4: 0 onthullingen, volledige codekraak-uitdaging voor gevorderde leerlingen. Verpak elk niveau met letterlegenda antwoordbladen en een voortgangsregistratieblad.',
+      description: 'Bouw genivelleerde cryptogram oefeningsets met Letters Onthullen als getrapte productpakkettenasis. Niveau 1: 8 onthullingen, korte zinnen, thematische afbeeldingen voor beginnende lezers. Niveau 2: 5 onthullingen, middellange zinnen voor ontwikkelende decodeurs. Niveau 3: 2 onthullingen, langere zinnen voor zelfverzekerde oplossers. Niveau 4: 0 onthullingen, volledige codekraak-uitdaging voor gevorderde gebruikers. Verpak elk niveau met letterlegenda antwoordbladen en een voortgangsregistratieblad.',
     },
     {
       title: 'Meertalige Cijfer Producten',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seizoens- en Feestdag Cijferbundels',
-      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden cryptogrambundels te maken. Een "Sinterklaas Geheime Boodschappen" pakket met pepernoten-thema cijferafbeeldingen verkoopt sterk in november. Kerstmis, terug-naar-school, Valentijnsdag en zomerthema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en TPT. Combineer ondersteunde puzzels op 6–8 onthullingen voor jongere leerlingen met nul-onthulling expertpuzzels voor oudere kinderen in één seizoensbundel.',
+      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden cryptogrambundels te maken. Een "Sinterklaas Geheime Boodschappen" pakket met pepernoten-thema cijferafbeeldingen verkoopt sterk in november. Kerstmis, terug-naar-school, Valentijnsdag en zomerthema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad. Combineer ondersteunde puzzels op 6–8 onthullingen voor jongere gebruikers met nul-onthulling expertpuzzels voor oudere kinderen in één seizoensbundel.',
     },
   ],
 
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Codekraak-Centra',
-      description: 'Upload cryptogram werkbladpakketten naar TPT georganiseerd per thema en moeilijkheidsniveau. Voeg vier moeilijkheidsniveaus per thema toe met Letters Onthullen als differentiatieasis. Verpak met letterlegenda antwoordbladen en leerling-voortgangsregistratiebladen. Het cijfermechanisme is inherent boeiend — leerlingen ervaren oprechte codekraak-opwinding naarmate elke gedecodeerde letter meer van de geheime boodschap ontgrendelt. Leerkrachten zoeken naar "codekraak activiteiten" en "cijferwerkbladen" en vinden zeer weinig kwaliteitsopties.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Codekraak-Centra',
+      description: 'Upload cryptogram werkbladpakketten naar Gumroad georganiseerd per thema en moeilijkheidsniveau. Voeg vier moeilijkheidsniveaus per thema toe met Letters Onthullen als getrapte productpakkettenasis. Verpak met letterlegenda antwoordbladen en gebruiker-voortgangsregistratiebladen. Het cijfermechanisme is inherent boeiend — gebruikers ervaren oprechte codekraak-opwinding naarmate elke gedecodeerde letter meer van de geheime boodschap ontgrendelt. verkopers zoeken naar "codekraak activiteiten" en "cijferwerkbladen" en vinden zeer weinig kwaliteitsopties.',
+      platform: 'Gumroad',
     },
     {
       title: 'Meertalige Cijferwinkel',
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Gebruik Letters Onthullen als Primaire Moeilijkheidsregeling',
-      description: 'Letters Onthullen is de krachtigste instelling voor het sturen van cryptogrammoeilijkheid. Op 0 staan leerlingen voor een pure codekraak-uitdaging zonder startinformatie. Op 5 is ongeveer de helft van de cijfercode vooraf gedecodeerd, wat een gebalanceerde uitdaging biedt. Op 10 wordt de puzzel een ondersteunde oefening voor beginners. Gebruik deze schuifregelaar om hele moeilijkheid-gegradueerde productlijnen vanuit één ontwerp te maken.',
+      description: 'Letters Onthullen is de krachtigste instelling voor het sturen van cryptogrammoeilijkheid. Op 0 staan gebruikers voor een pure codekraak-uitdaging zonder startinformatie. Op 5 is ongeveer de helft van de cijfercode vooraf gedecodeerd, wat een gebalanceerde uitdaging biedt. Op 10 wordt de puzzel een ondersteunde oefening voor beginners. Gebruik deze schuifregelaar om hele moeilijkheid-gegradueerde productlijnen vanuit één ontwerp te maken.',
     },
     {
       title: 'Codeer Volledige Zinnen voor Contextuele Aanwijzingsondersteuning',
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hoe werkt de plaatjes cryptogram cijfercode?',
-      answer: 'Elke alfabetletter is gekoppeld aan een unieke afbeelding. Je geheime zin wordt weergegeven als een reeks afbeeldingen die elke letter vervangen. Leerlingen bestuderen de afbeeldingenreeks, leiden af welke afbeelding welke letter voorstelt met patroonherkenning en contextuele aanwijzingen, en schrijven de gedecodeerde letters op om de oorspronkelijke boodschap te onthullen. Spaties en leestekens blijven behouden, zodat woordgrenzen zichtbaar zijn.',
+      answer: 'Elke alfabetletter is gekoppeld aan een unieke afbeelding. Je geheime zin wordt weergegeven als een reeks afbeeldingen die elke letter vervangen. gebruikers bestuderen de afbeeldingenreeks, leiden af welke afbeelding welke letter voorstelt met patroonherkenning en contextuele aanwijzingen, en schrijven de gedecodeerde letters op om de oorspronkelijke boodschap te onthullen. Spaties en leestekens blijven behouden, zodat woordgrenzen zichtbaar zijn.',
     },
     {
       question: 'Wat doet de schuifregelaar Letters Onthullen (0–10)?',
-      answer: 'Letters Onthullen bepaalt hoeveel letter-naar-afbeelding koppelingen vooraf als hints op het werkblad zijn opgelost. Op 0 beginnen leerlingen zonder gedecodeerde letters en moeten ze de hele cijfercode vanaf nul kraken. Op 10 zijn tien koppelingen al onthuld, wat zware ondersteuning biedt voor beginners. Deze instelling is de primaire moeilijkheidsregeling en de natuurlijke differentiatieasis voor genivelleerde productbundels.',
+      answer: 'Letters Onthullen bepaalt hoeveel letter-naar-afbeelding koppelingen vooraf als hints op het werkblad zijn opgelost. Op 0 beginnen gebruikers zonder gedecodeerde letters en moeten ze de hele cijfercode vanaf nul kraken. Op 10 zijn tien koppelingen al onthuld, wat zware ondersteuning biedt voor beginners. Deze instelling is de primaire moeilijkheidsregeling en de natuurlijke getrapte productpakkettenasis voor genivelleerde productbundels.',
     },
     {
       question: 'Wat is het verschil tussen Automatische en Handmatige Toewijzing?',
@@ -172,11 +172,11 @@ const content: ToolContent = {
     },
     {
       question: 'Kan ik hele zinnen coderen, niet alleen afzonderlijke woorden?',
-      answer: 'Ja. De Cryptogram generator codeert hele zinnen en uitdrukkingen. Leerlingen decoderen een complete leesbare boodschap, wat natuurlijke contextuele aanwijzingen biedt — veelvoorkomende korte woorden zoals "de" en "en" helpen oplossers de cijfercode sneller te kraken. Zinsniveau-codering maakt puzzels bevredigender en leerzamer dan uitdagingen met afzonderlijke woorden.',
+      answer: 'Ja. De Cryptogram generator codeert hele zinnen en uitdrukkingen. gebruikers decoderen een complete leesbare boodschap, wat natuurlijke contextuele aanwijzingen biedt — veelvoorkomende korte woorden zoals "de" en "en" helpen oplossers de cijfercode sneller te kraken. Zinsniveau-codering maakt puzzels bevredigender en leerzamer dan uitdagingen met afzonderlijke woorden.',
     },
     {
       question: 'Hoe verschilt cryptogram van woordzoeker, letterpuzzel en raad-het-woord?',
-      answer: 'Cryptogram is een plaatjescijfer — leerlingen decoderen een afbeeldingenreeks terug naar tekst door letter-naar-afbeelding koppelingen af te leiden over een hele zin. Woordzoeker laat leerlingen verborgen woorden in een letterraster vinden. Letterpuzzel geeft gehusselde lettertegels om te herschikken. Raad het Woord toont lege plekken die leerlingen invullen. Cryptogram is het enige formaat dat deductie en codekraaklogica oefent, waardoor het een unieke toevoeging is aan elke geletterdheids-productbundel.',
+      answer: 'Cryptogram is een plaatjescijfer — gebruikers decoderen een afbeeldingenreeks terug naar tekst door letter-naar-afbeelding koppelingen af te leiden over een hele zin. Woordzoeker laat gebruikers verborgen woorden in een letterraster vinden. Letterpuzzel geeft gehusselde lettertegels om te herschikken. Raad het Woord toont lege plekken die gebruikers invullen. Cryptogram is het enige formaat dat deductie en codekraaklogica oefent, waardoor het een unieke toevoeging is aan elke geletterdheids-productbundel.',
     },
     {
       question: 'Hoe werkt het taalgebonden alfabet?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'Wat toont de letterlegenda antwoordblad?',
-      answer: 'Het antwoordblad bevat een volledige letterlegenda die elke alfabetletter toont gekoppeld aan de toegewezen afbeelding in gesorteerde alfabetische volgorde. Dit is de definitieve referentie voor het controleren van oplossingen — leerlingen of leerkrachten kunnen elke afbeelding opzoeken om te bevestigen welke letter deze voorstelt. Het antwoordblad toont ook de volledig gedecodeerde zin voor snelle verificatie.',
+      answer: 'Het antwoordblad bevat een volledige letterlegenda die elke alfabetletter toont gekoppeld aan de toegewezen afbeelding in gesorteerde alfabetische volgorde. Dit is de definitieve referentie voor het controleren van oplossingen — gebruikers of verkopers kunnen elke afbeelding opzoeken om te bevestigen welke letter deze voorstelt. Het antwoordblad toont ook de volledig gedecodeerde zin voor snelle verificatie.',
     },
     {
       question: 'Kan ik werkbladen gemaakt met deze tool commercieel verkopen?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de cryptogram werkbladen die je maakt.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de cryptogram werkbladen die je maakt.',
     },
     {
       question: 'Welke bestandsformaten kan ik downloaden?',

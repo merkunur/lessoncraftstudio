@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'utskrivbar labyrintaktivitet skapare för Etsy-säljare',
       'bildväg arbetsblad generator för KDP-publicerare',
-      'labyrint arbetsblad skapare kommersiell licens TPT',
+      'labyrint arbetsblad skapare kommersiell licens Gumroad',
       'sälja vägpussel arbetsblad på Etsy och Amazon',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Labyrint Arbetsblad Generator | Skapa Vägpussel',
     metaDescription:
-      'Skapa labyrintarbetsblad att sälja på Etsy, KDP och TPT. 3 spellägen, LPF-algoritm, automatiskt facit, 104 teman, tryckfärdiga PDF:er. Gratis provversion med vattenstämpel.',
+      'Skapa labyrintarbetsblad att sälja på Etsy, KDP och Gumroad. 3 spellägen, LPF-algoritm, automatiskt facit, 104 teman, tryckfärdiga PDF:er. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Bildväg Labyrint Arbetsblad Generator för Väg- och Labyrintaktiviteter',
     tagline: 'Tre spellägen i en generator — Bildväg, Klassisk Labyrint och Välj Rätt Väg — drivna av en LPF (Longest Path First) labyrintalgoritm med automatiskt genererade facit, vägganpassning och visuell design som fungerar globalt utan översättning.',
     description:
-      'Bygg professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar ett rutnät av bilder där eleverna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen (Longest Path First) med samlingsbilder utspridda genom korridorerna — konfigurera rutnätsstorlekar från 15×15 till 20×20, ställ in 1 till 3 vägar med återvändsgränd-blockering, och anpassa väggfärg, tjocklek (1–10px) och opacitet (10–100%). Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ (nedifrån-upp, uppifrån-ner, vänster-till-höger, höger-till-vänster) där eleverna identifierar den enda korrekta vägen bland lockbeten. Varje läge genererar ett medföljande facit på en separat arbetsyteflik — lösningsvägar markeras med rosa cirklar längs den korrekta rutten, och Välj Väg-läget lägger till en «✓ KORREKT VÄG»-etikett. Tilldela bilder till fem distinkta roller: Start, Mål, Väg, Distraktor och Dekoration. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna. Den automatiskt genererade «Bildväg»-rubriken med orange ram renderar lokaliserade titlar och instruktioner på alla 11 stödda språk. Bildväg är helt visuell — labyrinter kräver ingen läsning eller språkförståelse, vilket gör varje arbetsblad direkt säljbart på vilken marknad som helst i världen. Samma labyrintarbetsblad fungerar identiskt för köpare i alla länder utan översättning. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar ett rutnät av bilder där användarna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen (Longest Path First) med samlingsbilder utspridda genom korridorerna — konfigurera rutnätsstorlekar från 15×15 till 20×20, ställ in 1 till 3 vägar med återvändsgränd-blockering, och anpassa väggfärg, tjocklek (1–10px) och opacitet (10–100%). Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ (nedifrån-upp, uppifrån-ner, vänster-till-höger, höger-till-vänster) där användarna identifierar den enda korrekta vägen bland lockbeten. Varje läge genererar ett medföljande facit på en separat arbetsyteflik — lösningsvägar markeras med rosa cirklar längs den korrekta rutten, och Välj Väg-läget lägger till en «✓ KORREKT VÄG»-etikett. Tilldela bilder till fem distinkta roller: Start, Mål, Väg, Distraktor och Dekoration. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna. Den automatiskt genererade «Bildväg»-rubriken med orange ram renderar lokaliserade titlar och instruktioner på alla 11 stödda språk. Bildväg är helt visuell — labyrinter kräver ingen läsning eller språkförståelse, vilket gör varje arbetsblad direkt säljbart på vilken marknad som helst i världen. Samma labyrintarbetsblad fungerar identiskt för köpare i alla länder utan översättning. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Välj spelläge och konfigurera inställningar',
         description:
-          'Öppna panelen Vägkonfiguration och välj ett av tre spellägen. Bildväg skapar ett rutnät av bilder med en enda korrekt väg från start till mål. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen — ställ in rutnätsstorlek (15×15 till 20×20), antal vägar (1, 2 eller 3), antal samlingsbilder och kopior, väggfärg, tjocklek (1–10px) och opacitet (10–100%). Välj Rätt Väg skapar trevägs-labyrinter med fyra riktningsalternativ. Växla «Inkludera Namn/Datum-fält» för att lägga till elevens namn och datumlinjer.',
+          'Öppna panelen Vägkonfiguration och välj ett av tre spellägen. Bildväg skapar ett rutnät av bilder med en enda korrekt väg från start till mål. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen — ställ in rutnätsstorlek (15×15 till 20×20), antal vägar (1, 2 eller 3), antal samlingsbilder och kopior, väggfärg, tjocklek (1–10px) och opacitet (10–100%). Välj Rätt Väg skapar trevägs-labyrinter med fyra riktningsalternativ. Växla «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer.',
       },
       {
         title: 'Välj bilder efter roll från biblioteket',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se den automatiskt genererade lösningen. Facit markerar den korrekta vägen med rosa cirklar längs rutten. Välj Väg-läget lägger till en «✓ KORREKT VÄG»-etikett på den korrekta vägen. Klassisk Labyrint inkluderar en samlingslegend som visar bildantal. Ladda ner med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla till fliken Facit för att se den automatiskt genererade lösningen. Facit markerar den korrekta vägen med rosa cirklar längs rutten. Välj Väg-läget lägger till en «✓ KORREKT VÄG»-etikett på den korrekta vägen. Klassisk Labyrint inkluderar en samlingslegend som visar bildantal. Ladda ner med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Tre spellägen: Bildväg, Klassisk Labyrint och Välj Rätt Väg',
         description:
-          'En generator producerar tre distinkta labyrintaktivitetstyper. Bildväg skapar ett rutnät av bilder där eleverna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer — idealiskt för yngre elever och visuella diskrimineringsuppgifter. Klassisk Labyrint genererar professionella väggbaserade labyrinter med LPF-algoritmen med samlingsbilder utspridda genom korridorerna för ökat engagemang. Välj Rätt Väg presenterar trevägs-labyrinter där eleverna identifierar den enda korrekta rutten bland lockbeten, med fyra riktningsalternativ: nedifrån-upp, uppifrån-ner, vänster-till-höger och höger-till-vänster. Varje läge levererar en annorlunda kognitiv utmaning från samma bildbibliotek, vilket ger dig tre produktlinjer från ett verktyg.',
+          'En generator producerar tre distinkta labyrintaktivitetstyper. Bildväg skapar ett rutnät av bilder där användarna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer — idealiskt för yngre användare och visuella diskrimineringsuppgifter. Klassisk Labyrint genererar professionella väggbaserade labyrinter med LPF-algoritmen med samlingsbilder utspridda genom korridorerna för ökat engagemang. Välj Rätt Väg presenterar trevägs-labyrinter där användarna identifierar den enda korrekta rutten bland lockbeten, med fyra riktningsalternativ: nedifrån-upp, uppifrån-ner, vänster-till-höger och höger-till-vänster. Varje läge levererar en annorlunda kognitiv utmaning från samma bildbibliotek, vilket ger dig tre produktlinjer från ett verktyg.',
       },
       {
         title: 'Professionell LPF labyrintalgoritm med kvalitetspoängsättning och återvändsgränd-blockering',
@@ -78,27 +78,27 @@ const content: AppContent = {
       {
         title: 'Anpassningsbar väggdesign med färg-, tjockleks- och opacitetskontroller',
         description:
-          'Klassisk Labyrint och Välj Rätt Väg-lägen erbjuder full vägganpassning. Välj valfri väggfärg med färgväljaren. Justera väggtjocklek från 1 till 10 pixlar (standard 3px) för tunna eleganta linjer eller feta barnvänliga väggar. Ställ in väggopacitet från 10% till 100% (standard 100%) för subtila eller framträdande labyrintgränser. Dessa kontroller låter dig skapa distinkta visuella stilar — tunna gråa väggar för sofistikerade pusselböcker, tjocka färgglada väggar för tidiga elever, eller halvtransparenta väggar för lagereffekter. Vägginställningar bevaras över labyrintregenereringar tills du ändrar dem.',
+          'Klassisk Labyrint och Välj Rätt Väg-lägen erbjuder full vägganpassning. Välj valfri väggfärg med färgväljaren. Justera väggtjocklek från 1 till 10 pixlar (standard 3px) för tunna eleganta linjer eller feta tilltalande väggar. Ställ in väggopacitet från 10% till 100% (standard 100%) för subtila eller framträdande labyrintgränser. Dessa kontroller låter dig skapa distinkta visuella stilar — tunna gråa väggar för sofistikerade pusselböcker, tjocka färgglada väggar för tidiga användare, eller halvtransparenta väggar för lagereffekter. Vägginställningar bevaras över labyrintregenereringar tills du ändrar dem.',
       },
       {
         title: 'Automatiskt genererat facit med lösningsvägmarkering',
         description:
-          'Varje labyrintarbetsblad genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit återskapar den exakta labyrintlayouten och markerar den korrekta lösningsvägen med rosa cirklar placerade längs rutten. Välj Rätt Väg-läget lägger till en «✓ KORREKT VÄG»-etikett som identifierar den korrekta rutten bland de tre alternativen. Klassisk Labyrint-läget inkluderar en samlingslegend som visar antalet av varje samlingsbild hittad längs lösningsvägen. Start- och slutpilar visas i lämpliga celler. Ladda ner facit separat som answer_key.jpeg eller answer_key.pdf bredvid elevarbetsbladet.',
+          'Varje labyrintarbetsblad genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit återskapar den exakta labyrintlayouten och markerar den korrekta lösningsvägen med rosa cirklar placerade längs rutten. Välj Rätt Väg-läget lägger till en «✓ KORREKT VÄG»-etikett som identifierar den korrekta rutten bland de tre alternativen. Klassisk Labyrint-läget inkluderar en samlingslegend som visar antalet av varje samlingsbild hittad längs lösningsvägen. Start- och slutpilar visas i lämpliga celler. Ladda ner facit separat som answer_key.jpeg eller answer_key.pdf bredvid arbetsbladet.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
         description:
-          'Bläddra bland 104 tematiska bildsamlingar som täcker djur, mat, fordon, natur, yrken, högtider, sport, årstider och dussintals fler. Varje tema ger koordinerade illustrationer som fungerar tillsammans i labyrintaktiviteter — djurlabyrinter där eleverna följer katter genom ett rutnät av djurdistraktorer, högtidslabyrinter med säsongsbetonade samlingsbilder och fler. Filtrera efter tema med dropdownen eller sök efter specifika bilder med nyckelord. Kommersiellt Paket inkluderar 10 färgglada teman för att komma igång; Full Access låser upp alla 104 teman för maximal kreativ variation över alla tre spellägen.',
+          'Bläddra bland 104 tematiska bildsamlingar som täcker djur, mat, fordon, natur, yrken, högtider, sport, årstider och dussintals fler. Varje tema ger koordinerade illustrationer som fungerar tillsammans i labyrintaktiviteter — djurlabyrinter där användarna följer katter genom ett rutnät av djurdistraktorer, högtidslabyrinter med säsongsbetonade samlingsbilder och fler. Filtrera efter tema med dropdownen eller sök efter specifika bilder med nyckelord. Kommersiellt Paket inkluderar 10 färgglada teman för att komma igång; Full Access låser upp alla 104 teman för maximal kreativ variation över alla tre spellägen.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner labyrintarbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI med en 6× multiplikator för skarpa detaljer. Fyra dedikerade nedladdningsknappar exporterar arbetsbladet och facit separat som JPEG och PDF. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner samtidigt som labyrintväggarnas tydlighet bevaras. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+          'Ladda ner labyrintarbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI med en 6× multiplikator för skarpa detaljer. Fyra dedikerade nedladdningsknappar exporterar arbetsbladet och facit separat som JPEG och PDF. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner samtidigt som labyrintväggarnas tydlighet bevaras. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
       },
       {
         title: 'Full arbetsyteredigering med textverktyg, namn/datum-fält och ångrahistorik',
         description:
-          'Fabric.js-arbetsytan ger komplett kontroll över varje element på ditt labyrintarbetsblad. Dra, ändra storlek, rotera och flytta bilder, text och genererat labyrintinnehåll fritt. Lägg till anpassad text med sju typsnittsalternativ (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), justerbar storlek och färg, och textkonturbredd från 0 till 10 med 0,5-stegs granularitet. Växla namn- och datumfält för att lägga till elevidentifieringslinjer. Zooma in och ut eller återställ till 100% för detaljarbete. Ångra och gör om upp till 20 historiksteg med Ctrl+Z och Ctrl+Y. Lagerkontroller hanterar staplingsordning för exakt elementarrangemang.',
+          'Fabric.js-arbetsytan ger komplett kontroll över varje element på ditt labyrintarbetsblad. Dra, ändra storlek, rotera och flytta bilder, text och genererat labyrintinnehåll fritt. Lägg till anpassad text med sju typsnittsalternativ (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), justerbar storlek och färg, och textkonturbredd från 0 till 10 med 0,5-stegs granularitet. Växla namn- och datumfält för att lägga till identifieringslinjer. Zooma in och ut eller återställ till 100% för detaljarbete. Ångra och gör om upp till 20 historiksteg med Ctrl+Z och Ctrl+Y. Lagerkontroller hanterar staplingsordning för exakt elementarrangemang.',
       },
     ],
   },
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrumslogik och problemlösningsaktiviteter för TPT',
+        title: 'produktlinjeslogik och problemlösningsaktiviteter för Gumroad',
         description:
-          'Bygg färdiga labyrintarbetsblad med namn/datum-fält och tryckta facit för klassrumsanvändning. Lärare som söker på TPT efter logikaktiviteter värdesätter arbetsblad som utvecklar rumsligt resonemang och problemlösningsförmåga. Skapa läroplansanpassade set: djurlivsmiljö vägaktiviteter, säsongsbetonade labyrintsamlingar och progressiva svårighets-labyrintpaket. Klassisk Labyrint-läge med samlingsbilder lägger till räkningsövning bredvid vägfinnande. Varje set inkluderar elevarbetsblad och facit i både PDF- och JPEG-format för flexibel klassrumsanvändning.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg färdiga labyrintarbetsblad med namn/datum-fält och tryckta facit för produktlinjesanvändning. köpare som söker på Gumroad efter logikaktiviteter värdesätter arbetsblad som utvecklar rumsligt resonemang och problemlösningsförmåga. Skapa produktkatalogsanpassade set: djurlivsmiljö vägaktiviteter, säsongsbetonade labyrintsamlingar och progressiva svårighets-labyrintpaket. Klassisk Labyrint-läge med samlingsbilder lägger till räkningsövning bredvid vägfinnande. Varje set inkluderar arbetsblad och facit i både PDF- och JPEG-format för flexibel produktlinjesanvändning.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Säsongsbetonade och högtidslabyrint-samlingar',
         description:
           'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade labyrintsamlingar som sammanfaller med toppshoppingperioder. Släpp halloweenlabyrint-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Inkludera alla tre spellägen i varje säsongsset för maximalt värde. Säsongsprodukter motiverar högre priser under toppfönster och skapar naturliga skäl till återköp från återkommande kunder.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
       {
         title: 'Global marknadsattraktionskraft med visuell labyrintdesign',
         description:
-          'Labyrintarbetsblad är helt visuella — eleverna navigerar vägar, följer bilder och löser rumsliga pussel utan att läsa någon text. Detta gör att varje labyrintarbetsblad direkt kan säljas på vilken marknad som helst i världen utan översättning eller lokalisering. Lista samma labyrintpaket i internationella Etsy-butiker, publicera labyrintarbetsböcker riktade mot icke-engelska Amazon-marknadsplatser och nå globala TPT-köpare. Den automatiskt genererade rubriken översätts till 11 språk automatiskt, men labyrintinnehållet i sig är universellt förståeligt. En produkt, obegränsade marknader.',
+          'Labyrintarbetsblad är helt visuella — användarna navigerar vägar, följer bilder och löser rumsliga pussel utan att läsa någon text. Detta gör att varje labyrintarbetsblad direkt kan säljas på vilken marknad som helst i världen utan översättning eller lokalisering. Lista samma labyrintpaket i internationella Etsy-butiker, publicera labyrintarbetsböcker riktade mot icke-engelska Amazon-marknadsplatser och nå globala Gumroad-köpare. Den automatiskt genererade rubriken översätts till 11 språk automatiskt, men labyrintinnehållet i sig är universellt förståeligt. En produkt, obegränsade marknader.',
         platform: 'Alla plattformar (globalt)',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Vilka är de tre spellägena och hur skiljer de sig?',
       answer:
-        'Generatorn erbjuder tre distinkta lägen. Bildväg skapar ett rutnät av bilder där eleverna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen med samlingsbilder, konfigurerbara rutnätsstorlekar (15×15 till 20×20) och 1 till 3 vägar med återvändsgränd-blockering. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ där eleverna identifierar den enda korrekta rutten. Varje läge producerar en annorlunda rumslig resonemangutmaning från samma bildbibliotek.',
+        'Generatorn erbjuder tre distinkta lägen. Bildväg skapar ett rutnät av bilder där användarna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen med samlingsbilder, konfigurerbara rutnätsstorlekar (15×15 till 20×20) och 1 till 3 vägar med återvändsgränd-blockering. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ där användarna identifierar den enda korrekta rutten. Varje läge producerar en annorlunda rumslig resonemangutmaning från samma bildbibliotek.',
     },
     {
       question: 'Hur fungerar LPF labyrintalgoritmen?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar vägganpassning i Klassisk Labyrint och Välj Väg-lägen?',
       answer:
-        'Båda labyrintlägena erbjuder tre väggkontroller. Väggfärg använder en färgväljare för att ställa in valfri färg. Väggtjocklek justeras från 1 till 10 pixlar (standard 3px). Väggopacitet sträcker sig från 10% till 100% (standard 100%). Dessa inställningar låter dig skapa tunna gråa väggar för sofistikerade pusselböcker, tjocka färgglada väggar för unga elever, eller halvtransparenta väggar för lagereffekter. Inställningar bevaras över labyrintregenereringar.',
+        'Båda labyrintlägena erbjuder tre väggkontroller. Väggfärg använder en färgväljare för att ställa in valfri färg. Väggtjocklek justeras från 1 till 10 pixlar (standard 3px). Väggopacitet sträcker sig från 10% till 100% (standard 100%). Dessa inställningar låter dig skapa tunna gråa väggar för sofistikerade pusselböcker, tjocka färgglada väggar för unga användare, eller halvtransparenta väggar för lagereffekter. Inställningar bevaras över labyrintregenereringar.',
     },
     {
       question: 'Vilka riktningsalternativ finns i Välj Rätt Väg-läget?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Är Bildväg arbetsblad språkkänsliga?',
       answer:
-        'Nej. Till skillnad från ordbaserade generatorer är Bildväg arbetsblad helt visuella. Eleverna navigerar labyrinter och följer bildvägar utan att läsa någon text. Den automatiskt genererade rubriken översätts till 11 språk, men labyrintinnehållet i sig kräver ingen språkförståelse. Detta gör att varje arbetsblad direkt kan användas och säljas på vilken marknad som helst i världen utan modifiering.',
+        'Nej. Till skillnad från ordbaserade generatorer är Bildväg arbetsblad helt visuella. användarna navigerar labyrinter och följer bildvägar utan att läsa någon text. Den automatiskt genererade rubriken översätts till 11 språk, men labyrintinnehållet i sig kräver ingen språkförståelse. Detta gör att varje arbetsblad direkt kan användas och säljas på vilken marknad som helst i världen utan modifiering.',
     },
     {
       question: 'Kan jag sälja labyrintarbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina labyrintarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. De tre spellägena, LPF-algoritmen, 104 tematiska bildsamlingar och det visuella formatet ger dig verktygen för att producera originella, globalt säljbara labyrintprodukter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina labyrintarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De tre spellägena, LPF-algoritmen, 104 tematiska bildsamlingar och det visuella formatet ger dig verktygen för att producera originella, globalt säljbara labyrintprodukter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -274,7 +274,7 @@ const content: AppContent = {
       {
         src: '/samples/swedish/picture%20path/bildv%C3%A4g%202.webp',
         alt: 'Bildväg-läge arbetsblad med bilder arrangerade i ett rutnät som visar den korrekta vägen från start till mål',
-        caption: 'Bildväg-läge — eleverna följer den korrekta bildvägen från start till mål',
+        caption: 'Bildväg-läge — användarna följer den korrekta bildvägen från start till mål',
       },
       {
         src: '/samples/swedish/picture%20path/bildv%C3%A4g%203.webp',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Ordsökning Arbetsblad Generator',
     tagline: 'Skapa dolda-ord rutnätspussel med justerbara storlekar, riktningskontroller och lokalmedvetna fyllnadsbokstäver på 11 språk',
-    description: 'Designa professionella ordsökning arbetsblad där dolda ord är inbäddade i ett rutnät av slumpmässiga fyllnadsbokstäver och eleverna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska pusselformatet som aldrig går ur stil. Detta verktyg ger dig exakt kontroll över svårigheten genom två oberoende axlar: rutnätsstorlek (justerbar från 5×5 till 30×30 med rader och kolumner inställda oberoende) och ordriktningsväxlingar (diagonala ord på eller av, bakåtord på eller av) som skapar allt från två till åtta möjliga placeringsriktningar. Välj bland tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Tre visningslägen — Ord + Bilder, Bara Bilder och Bara Ord — kontrollerar vad som visas som ledtrådar bredvid rutnätet. Den utmärkande funktionen är lokalmedveten alfabetsfyllnad: när du byter språk ändras rutnätets fyllnadsbokstäver för att matcha det språkets teckenuppsättning med viktade frekvensfördelningar. Svenska rutnät inkluderar å, ä, ö vid naturliga frekvenser. Tyska rutnät inkluderar ä, ö, ü och ß. Franska rutnät inkluderar é, è, ç, à. Varje lokal får autentiska fyllnadstecken, vilket gör pusslen lingvistiskt genuina snarare än uppenbart engelskgenererade. Ett färgkodat facit markerar varje hittat ord i en av sex cyklande färger — rosa, blå, grön, guld, korall och lavendel — för omedelbar visuell verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med 400+ DPI i Letter, A4 eller anpassade storlekar. Välj bland 7 typsnittsfamiljer, lägg till elevens namn- och datumfält, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Designa professionella ordsökning arbetsblad där dolda ord är inbäddade i ett rutnät av slumpmässiga fyllnadsbokstäver och användarna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska pusselformatet som aldrig går ur stil. Detta verktyg ger dig exakt kontroll över svårigheten genom två oberoende axlar: rutnätsstorlek (justerbar från 5×5 till 30×30 med rader och kolumner inställda oberoende) och ordriktningsväxlingar (diagonala ord på eller av, bakåtord på eller av) som skapar allt från två till åtta möjliga placeringsriktningar. Välj bland tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Tre visningslägen — Ord + Bilder, Bara Bilder och Bara Ord — kontrollerar vad som visas som ledtrådar bredvid rutnätet. Den utmärkande funktionen är lokalmedveten alfabetsfyllnad: när du byter språk ändras rutnätets fyllnadsbokstäver för att matcha det språkets teckenuppsättning med viktade frekvensfördelningar. Svenska rutnät inkluderar å, ä, ö vid naturliga frekvenser. Tyska rutnät inkluderar ä, ö, ü och ß. Franska rutnät inkluderar é, è, ç, à. Varje lokal får autentiska fyllnadstecken, vilket gör pusslen lingvistiskt genuina snarare än uppenbart engelskgenererade. Ett färgkodat facit markerar varje hittat ord i en av sex cyklande färger — rosa, blå, grön, guld, korall och lavendel — för omedelbar visuell verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med 400+ DPI i Letter, A4 eller anpassade storlekar. Välj bland 7 typsnittsfamiljer, lägg till namn- och datumfält, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera rutnätsstorlek och dimensioner',
-        description: 'Ställ in rader och kolumner oberoende från 5 till 30. Standard är 12×12. Ett 5×5-rutnät med 25 celler skapar ett snabbt, tillgängligt pussel för unga elever. Ett 20×20 eller 30×30-rutnät skapar en tät, utmanande sökning för erfarna lösare. Att justera rutnätsdimensioner är det primära sättet att kontrollera hur mycket visuell skanning varje pussel kräver. Matcha rutnätsstorlek med din målgrupp: litet för dagisbarn, mellanstort för grundskoleelever, stort för vuxna och pusselentusiaster.',
+        description: 'Ställ in rader och kolumner oberoende från 5 till 30. Standard är 12×12. Ett 5×5-rutnät med 25 celler skapar ett snabbt, tillgängligt pussel för unga användare. Ett 20×20 eller 30×30-rutnät skapar en tät, utmanande sökning för erfarna lösare. Att justera rutnätsdimensioner är det primära sättet att kontrollera hur mycket visuell skanning varje pussel kräver. Matcha rutnätsstorlek med din målgrupp: litet för dagisbarn, mellanstort för grundskoleanvändare, stort för vuxna och pusselentusiaster.',
       },
       {
         title: 'Växla ordriktningskontroller',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Anpassa typsnitt, text och arbetsyta',
-        description: 'Välj bland 7 typsnittsfamiljer: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial eller Verdana. Växla elevens namn- och datumfält på eller av. Lägg till anpassade textöverlägg med instruktioner eller titlar. Använd Fabric.js arbetsyteverktyg för att dra, ändra storlek, rotera och flytta varje element på sidan. Justeringsverktyg, lås- och upplåsningskontroller, och obegränsad ångra och gör om låter dig finjustera layouten exakt.',
+        description: 'Välj bland 7 typsnittsfamiljer: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial eller Verdana. Växla namn- och datumfält på eller av. Lägg till anpassade textöverlägg med instruktioner eller titlar. Använd Fabric.js arbetsyteverktyg för att dra, ändra storlek, rotera och flytta varje element på sidan. Justeringsverktyg, lås- och upplåsningskontroller, och obegränsad ångra och gör om låter dig finjustera layouten exakt.',
       },
       {
         title: 'Generera facit och ladda ner',
@@ -65,15 +65,15 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiska ordsökningspussel-paket',
-      description: 'Skapa uppsättningar av 10–20 ordsökning arbetsblad grupperade efter tema — bondgårdsdjur, havsdjur, fordon, mat, högtider och fler. Variera rutnätsstorlek och riktningsinställningar genom setet för progressiv svårighet: börja med ett 8×8 enbart horisontellt rutnät och bygg till ett 16×16 diagonalt-och-bakåt-rutnät. Inkludera färgkodade facit för varje pussel. Paketera efter tema och sälj på Etsy eller Teachers Pay Teachers.',
+      description: 'Skapa uppsättningar av 10–20 ordsökning arbetsblad grupperade efter tema — bondgårdsdjur, havsdjur, fordon, mat, högtider och fler. Variera rutnätsstorlek och riktningsinställningar genom setet för progressiv svårighet: börja med ett 8×8 enbart horisontellt rutnät och bygg till ett 16×16 diagonalt-och-bakåt-rutnät. Inkludera färgkodade facit för varje pussel. Paketera efter tema och sälj på Etsy eller Gumroad.',
     },
     {
       title: 'KDP ordsökning pusselböcker',
       description: 'Generera 50–100 ordsökningssidor med progressiv svårighetsstruktur. Öppna med små 6×6 enbart horisontella rutnät för uppvärmning, avancera genom 12×12 rutnät med diagonaler och avsluta med massiva 25×25 rutnät med bakåtord aktiverade. Gruppera kapitel efter tema för bläddringsvänlig variation. Lägg till facit i slutet med färgkodade markeringar. Använd gråskaleläge för lägre utskriftskostnader. Ordsöknings pusselböcker säljer konsekvent året runt på Amazon KDP med minimal reklam.',
     },
     {
-      title: 'Differentierade vokabulärrutnätsset',
-      description: 'Bygg nivåindelade ordsöknings övningsset med rutnätsstorlek och riktningskontroller som differentieringsaxlar. Nivå 1: 8×8 rutnät, enbart horisontellt, 4 ord. Nivå 2: 12×12 rutnät, horisontellt och vertikalt, 6 ord. Nivå 3: 16×16, diagonaler aktiverade, 8 ord. Nivå 4: 20×20, diagonaler och bakåt, 8 ord. Paketera varje nivå med facit och en framstegsspårningsguide. Lärare betalar premiumpriser för differentierade resurser de kan använda på flera förmågenivåer.',
+      title: 'nivågrupperade vokabulärrutnätsset',
+      description: 'Bygg nivåindelade ordsöknings övningsset med rutnätsstorlek och riktningskontroller som differentieringsaxlar. Nivå 1: 8×8 rutnät, enbart horisontellt, 4 ord. Nivå 2: 12×12 rutnät, horisontellt och vertikalt, 6 ord. Nivå 3: 16×16, diagonaler aktiverade, 8 ord. Nivå 4: 20×20, diagonaler och bakåt, 8 ord. Paketera varje nivå med facit och en framstegsspårningsguide. säljare betalar premiumpriser för nivågrupperade resurser de kan använda på flera förmågenivåer.',
     },
     {
       title: 'Flerspråkiga ordsökningsprodukter',
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Anpassad vokabulär ordsökningar',
-      description: 'Använd Anpassad Ordlista-läget för att skriva ämnesspecifik vokabulär direkt: naturvetenskapstermer, veckovisa stavningsord, högfrekventa ordlistor, samhällskunskapsvokabulär eller språkövning. Inga bilder behövs — verktyget genererar ett komplett ordsökningsrutnät från dina inskrivna ord. Skapa riktade pusselarbetsblad för vilken läroplan, årskurs eller nischämne som helst.',
+      description: 'Använd Anpassad Ordlista-läget för att skriva ämnesspecifik vokabulär direkt: naturvetenskapstermer, veckovisa stavningsord, högfrekventa ordlistor, samhällskunskapsvokabulär eller språkövning. Inga bilder behövs — verktyget genererar ett komplett ordsökningsrutnät från dina inskrivna ord. Skapa riktade pusselarbetsblad för vilken produktkatalog, årskurs eller nischämne som helst.',
     },
     {
       title: 'Säsongsbetonade och högtidspussel-paket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Halloween Ordsökning»-paket med kuslig vokabulär i progressivt större rutnät säljer starkt i oktober. Jul, skolstart, vår och sommar-teman har alla sina egna toppförsäljningsfönster på Etsy och TPT. Kombinera små enkla rutnät för yngre elever med stora utmanande rutnät för äldre barn i ett enda säsongspaket.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Halloween Ordsökning»-paket med kuslig vokabulär i progressivt större rutnät säljer starkt i oktober. Jul, skolstart, vår och sommar-teman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Kombinera små enkla rutnät för yngre användare med stora utmanande rutnät för äldre barn i ett enda säsongspaket.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Svårighetsgraduerad pusselbutik på Etsy',
-      description: 'Öppna en Etsy-butik specialiserad på ordsökning arbetsblad organiserade efter svårighetsnivå. Använd rutnätsstorlek och riktningsväxlingar för att skapa tydligt differentierade nivåer: Nybörjare (8×8, enbart horisontellt), Mellannivå (12×12, diagonaler aktiverade), Avancerad (18×18, diagonaler och bakåt) och Expert (25×25, alla åtta riktningar). De flesta ordsökningssäljare erbjuder generiska enstorleks pussel — svårighetsgraduerade produkter låter köpare hitta exakt rätt utmaningsnivå.',
+      description: 'Öppna en Etsy-butik specialiserad på ordsökning arbetsblad organiserade efter svårighetsnivå. Använd rutnätsstorlek och riktningsväxlingar för att skapa tydligt nivågrupperade nivåer: Nybörjare (8×8, enbart horisontellt), Mellannivå (12×12, diagonaler aktiverade), Avancerad (18×18, diagonaler och bakåt) och Expert (25×25, alla åtta riktningar). De flesta ordsökningssäljare erbjuder generiska enstorleks pussel — svårighetsgraduerade produkter låter köpare hitta exakt rätt utmaningsnivå.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers vokabulärstationer',
-      description: 'Ladda upp ordsökning arbetsbladspaket till TPT organiserade efter tema och svårighet. Inkludera fyra svårighetsnivåer per tema med rutnätsstorlek och riktningskontroller som differentieringsaxlar. Paketera med färgkodade facit och elevframstegsspårningsblad. Lärare söker ständigt efter «vokabuläraktiviteter» och «ordsökning arbetsblad». Den justerbara svårigheten innebär att en produkt betjänar ett helt klassrum med blandade förmågor.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad vokabulärstationer',
+      description: 'Ladda upp ordsökning arbetsbladspaket till Gumroad organiserade efter tema och svårighet. Inkludera fyra svårighetsnivåer per tema med rutnätsstorlek och riktningskontroller som differentieringsaxlar. Paketera med färgkodade facit och framstegsspårningsblad. säljare söker ständigt efter «vokabuläraktiviteter» och «ordsökning arbetsblad». Den justerbara svårigheten innebär att en produkt betjänar ett helt produktlinje med blandade förmågor.',
+      platform: 'Gumroad',
     },
     {
       title: 'Flerspråkig pusselbutik',
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Använd rutnätsstorlek som din primära svårighetskontroll',
-      description: 'Ett 5×5-rutnät med 25 celler är ett snabbt, enkelt pussel där ord hittas nästan omedelbart. Ett 20×20-rutnät med 400 celler kräver ihållande visuell skanning. Använd små rutnät för dagisbarn och nybörjare, mellanstora rutnät för grundskoleelever och stora rutnät för vuxna och pusselentusiaster. Rutnätsstorlek påverkar svårigheten mer än någon annan enskild inställning.',
+      description: 'Ett 5×5-rutnät med 25 celler är ett snabbt, enkelt pussel där ord hittas nästan omedelbart. Ett 20×20-rutnät med 400 celler kräver ihållande visuell skanning. Använd små rutnät för dagisbarn och nybörjare, mellanstora rutnät för grundskoleanvändare och stora rutnät för vuxna och pusselentusiaster. Rutnätsstorlek påverkar svårigheten mer än någon annan enskild inställning.',
     },
     {
       title: 'Lagra riktningskontroller för progressiv utmaning',
@@ -137,15 +137,15 @@ const content: ToolContent = {
     },
     {
       title: 'Använd visningslägen strategiskt',
-      description: 'Ord + Bilder-läge är standard — utmärkt för vokabulärbyggande. Bara Bilder-läge lägger till en extra utmaning: eleverna måste identifiera vad bilden föreställer innan de kan söka efter ordet. Bara Ord-läge skapar klassiska textbaserade ordsökningar utan visuella ledtrådar. Erbjud alla tre lägen som varianter av samma temapaket för att tredubbla ditt produktutbud från en enda designsession.',
+      description: 'Ord + Bilder-läge är standard — utmärkt för vokabulärbyggande. Bara Bilder-läge lägger till en extra utmaning: användarna måste identifiera vad bilden föreställer innan de kan söka efter ordet. Bara Ord-läge skapar klassiska textbaserade ordsökningar utan visuella ledtrådar. Erbjud alla tre lägen som varianter av samma temapaket för att tredubbla ditt produktutbud från en enda designsession.',
     },
     {
       title: 'Använd gråskala för KDP och bulkutskrift',
-      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller klassrumsbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla bilder och färgglada rutnät lockar klick.',
+      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla bilder och färgglada rutnät lockar klick.',
     },
     {
       title: 'Färgkodade facit lägger till professionellt värde',
-      description: 'Det sexfärgade facit — rosa, blå, grön, guld, korall, lavendel — markerar varje ord distinkt, även när ord korsar eller överlappar i rutnätet. Inkludera alltid facit i dina produktpaket. Lärare förväntar sig dem, föräldrar uppskattar dem, och det färgkodade formatet ser professionellt ut i dina annonseringsförhandsvisningar.',
+      description: 'Det sexfärgade facit — rosa, blå, grön, guld, korall, lavendel — markerar varje ord distinkt, även när ord korsar eller överlappar i rutnätet. Inkludera alltid facit i dina produktpaket. säljare förväntar sig dem, föräldrar uppskattar dem, och det färgkodade formatet ser professionellt ut i dina annonseringsförhandsvisningar.',
     },
     {
       title: 'Para ihop med andra litteracitetsverktyg för premiumpaket',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar ordsöknings pusselformatet?',
-      answer: 'Dolda ord bäddas in i ett rutnät av slumpmässiga fyllnadsbokstäver. Eleverna skannar rader, kolumner och valfritt diagonaler för att hitta varje ord, och ringar sedan in eller markerar det. Rutnätets fyllnadsbokstäver randomiseras varje gång du genererar, så varje pussel är unikt även med samma ordlista. Upp till 8 ord kan placeras i ett enda rutnät.',
+      answer: 'Dolda ord bäddas in i ett rutnät av slumpmässiga fyllnadsbokstäver. användarna skannar rader, kolumner och valfritt diagonaler för att hitta varje ord, och ringar sedan in eller markerar det. Rutnätets fyllnadsbokstäver randomiseras varje gång du genererar, så varje pussel är unikt även med samma ordlista. Upp till 8 ord kan placeras i ett enda rutnät.',
     },
     {
       question: 'Vilka rutnätsstorlekar finns tillgängliga?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur skiljer sig ordsökning från ordmix och gissa ordet?',
-      answer: 'Ordsökning är ett visuellt skanningspussel — eleverna hittar dolda ord inbäddade i ett rutnät av slumpmässiga bokstäver genom att skanna rader, kolumner och diagonaler. Ordmix ger eleverna blandade bokstavsbrickor att omordna till rätt stavning. Gissa Ordet visar luckor i fasta positioner och eleverna fyller i de saknade bokstäverna. Varje format övar en annorlunda kognitiv färdighet och de paras bra ihop i paketerade produkter.',
+      answer: 'Ordsökning är ett visuellt skanningspussel — användarna hittar dolda ord inbäddade i ett rutnät av slumpmässiga bokstäver genom att skanna rader, kolumner och diagonaler. Ordmix ger användarna blandade bokstavsbrickor att omordna till rätt stavning. Gissa Ordet visar luckor i fasta positioner och användarna fyller i de saknade bokstäverna. Varje format övar en annorlunda kognitiv färdighet och de paras bra ihop i paketerade produkter.',
     },
     {
       question: 'Vilka språk stöds?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg kommersiellt?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja arbetsblad på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
     },
     {
       question: 'Vilka filformat kan jag ladda ner?',

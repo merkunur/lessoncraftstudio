@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Bildsudoku Skapare',
     tagline: '4×4 bildbaserad sudoku pussel generator med tre svårighetsnivåer (Lätt 4 tomma, Medel 6 tomma, Svår 8 tomma), automatiskt genererade facit med kompletta fyllda rutnät, temabaserat och manuellt bildval över 104 samlingar med mer än 3 100 illustrationer, premiumrutnätsdesign med alternerande blockfärger och flerskiktsade skuggor, och rent visuella pussel som säljer globalt utan översättning',
-    description: 'Skapa professionella bildsudoku för barn där eleverna fyller tomma celler med rätt bilder med rad-och-kolumn-logik på ett 4×4 rutnät. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6, Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från 104 tematiska samlingar, eller manuellt val. Premiumrutnätsdesignen har alternerande 2×2-blockfärger i ljusblått (#F8F9FC) och ljusrosa (#FFF5F7), feta mittdelare (#7C8DB5, 3px), lättare inre linjer (#D1D9E6, 1,5px), indigoblå yttre ram (#667EEA) med 18px rundade hörn, och tre flerskiktsade skuggor. Bilder visas med 65% av cellstorleken. Varje pussel genererar en stiliserad «Bildsudoku»-rubrik med lila bakgrund (#5E35B1). Dubbelarbetsyte-systemet skapar samtidigt arbetsblad och facit — facit visar det kompletta fyllda 4×4-rutnätet med alla 16 celler. Eftersom bildsudoku är helt visuellt — inga ord på pusselrutnätet — fungerar varje arbetsblad identiskt på alla språk, universellt säljbart. Exportera PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Växla gråskala. 50-stegs ångra/gör om. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    description: 'Skapa professionella bildsudoku för barn där användarna fyller tomma celler med rätt bilder med rad-och-kolumn-logik på ett 4×4 rutnät. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6, Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från 104 tematiska samlingar, eller manuellt val. Premiumrutnätsdesignen har alternerande 2×2-blockfärger i ljusblått (#F8F9FC) och ljusrosa (#FFF5F7), feta mittdelare (#7C8DB5, 3px), lättare inre linjer (#D1D9E6, 1,5px), indigoblå yttre ram (#667EEA) med 18px rundade hörn, och tre flerskiktsade skuggor. Bilder visas med 65% av cellstorleken. Varje pussel genererar en stiliserad «Bildsudoku»-rubrik med lila bakgrund (#5E35B1). Dubbelarbetsyte-systemet skapar samtidigt arbetsblad och facit — facit visar det kompletta fyllda 4×4-rutnätet med alla 16 celler. Eftersom bildsudoku är helt visuellt — inga ord på pusselrutnätet — fungerar varje arbetsblad identiskt på alla språk, universellt säljbart. Exportera PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Växla gråskala. 50-stegs ångra/gör om. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
   },
 
   tutorial: {
@@ -72,11 +72,11 @@ const content: ToolContent = {
       description: 'Sammanställ 50–80 pussel till tryckta arbetsböcker. Kapitel 1 Lätt (4 tomma) för nybörjare. Kapitel 2 Medel (6 tomma). Kapitel 3 Svår (8 tomma). Facitsidor i slutet. Växla gråskala. Det rent visuella formatet kräver ingen översättning.',
     },
     {
-      title: 'Klassrums logik och resonemangsaktiviteter',
-      description: 'Bygg klassrumsfärdiga bildsudoku med facit för självkontrollerande stationer. Bildsudoku utvecklar logisk deduktion i ett format tillgängligt för föreläsare. Skapa läroplansangränsande set. Varje arbetsblad exporteras med facit.',
+      title: 'produktlinjes logik och resonemangsaktiviteter',
+      description: 'Bygg produktlinjesfärdiga bildsudoku med facit för självkontrollerande stationer. Bildsudoku utvecklar logisk deduktion i ett format tillgängligt för föreläsare. Skapa produktkatalogsangränsande set. Varje arbetsblad exporteras med facit.',
     },
     {
-      title: 'Tidiga elever introduktion till logikpussel',
+      title: 'Tidiga användare introduktion till logikpussel',
       description: '4×4-formatet med bilder istället för siffror gör bildsudoku till den ideala introduktionen till logiskt resonemang för förskolebarn. Lätt svårighet (4 tomma med 12 ledtrådar) ger stöttad ingång. Skapa set med vänliga, bekanta bilder.',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums logik aktivitetspaket',
-      description: 'Ladda upp bildsudoku aktivitetspaket till TPT med autogenererade facit. Lärare söker efter kritiskt tänkande aktiviteter. Skapa läroplansangränsande set. Varje paket inkluderar Lätt för guidad instruktion och Svår för självständig utmaning — tre svårighetsnivåer betjänar hela klassrummet.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes logik aktivitetspaket',
+      description: 'Ladda upp bildsudoku aktivitetspaket till Gumroad med autogenererade facit. säljare söker efter kritiskt tänkande aktiviteter. Skapa produktkatalogsangränsande set. Varje paket inkluderar Lätt för guidad instruktion och Svår för självständig utmaning — tre svårighetsnivåer betjänar hela butiken.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest bildsudoku trafiktratt',
@@ -144,8 +144,8 @@ const content: ToolContent = {
       description: 'Det autogenererade facit med det kompletta fyllda 4×4-rutnätet är din starkaste differentieringspunkt. Visa alltid facitförhandsvisningar. Dubbelarbetsyte-systemet genererar båda versionerna samtidigt utan extra tid.',
     },
     {
-      title: 'Använd gråskala för budgetvänliga klassrumsprodukter',
-      description: 'Växla gråskala för bläckvänliga pussel specifikt för klassrumsmarknaden. Skapa dubbelformatpaket med både färg och gråskala. KDP tryck drar också nytta av gråskaleoptimering.',
+      title: 'Använd gråskala för budgetvänliga produktlinjesprodukter',
+      description: 'Växla gråskala för bläckvänliga pussel specifikt för produktlinjesmarknaden. Skapa dubbelformatpaket med både färg och gråskala. KDP tryck drar också nytta av gråskaleoptimering.',
     },
     {
       title: 'Regenerera för omedelbar pusselvariation',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar ett 4×4 bildsudoku?',
-      answer: 'Ett 4×4-rutnät med 16 celler. Fyra unika bilder ersätter siffror. Varje bild måste visas exakt en gång per rad och kolumn. Vissa celler börjar fyllda (ledtrådar), eleverna fyller i resten med logisk eliminering. Bildformatet gör pussel tillgängliga för föreläsare.',
+      answer: 'Ett 4×4-rutnät med 16 celler. Fyra unika bilder ersätter siffror. Varje bild måste visas exakt en gång per rad och kolumn. Vissa celler börjar fyllda (ledtrådar), användarna fyller i resten med logisk eliminering. Bildformatet gör pussel tillgängliga för föreläsare.',
     },
     {
       question: 'Vad kontrollerar de tre svårighetsnivåerna?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja bildsudoku arbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan kanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

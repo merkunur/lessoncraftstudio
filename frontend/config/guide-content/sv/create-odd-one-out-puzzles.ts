@@ -23,11 +23,11 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar Hitta udda bilden-pussel',
-    tagline: 'En steg-för-steg-guide för att skapa visuella diskrimineringsarbetsblad med dubbla genereringslägen, per-övning-överstyrningar, autogenererade facit med röda cirkelmarkörer, och helt visuella pussel du kan sälja världen över på Etsy, Amazon KDP och Teachers Pay Teachers',
-    description: 'Hitta udda bilden-pussel är bland de mest universellt tillgängliga pedagogiska aktiviteterna eftersom de inte kräver läsning, språkförståelse eller mattkunskaper. Elever tittar på fyra bilder och identifierar den som inte hör hemma. Detta helt visuella format gör arbetsbladen säljbara i alla länder utan översättning. Denna guide leder dig genom hela skapandeprocessen med Hitta Udda Bilden Arbetsblad-generatorn — från att välja mellan Identiskt och Liknande genereringsläge till att konfigurera per-övning-överstyrningar, generera automatiska facit med röda cirkelmarkörer och exportera produktionsklara filer.',
+    tagline: 'En steg-för-steg-guide för att skapa visuella diskrimineringsarbetsblad med dubbla genereringslägen, per-övning-överstyrningar, autogenererade facit med röda cirkelmarkörer, och helt visuella pussel du kan sälja världen över på Etsy, Amazon KDP och Gumroad',
+    description: 'Hitta udda bilden-pussel är bland de mest universellt tillgängliga pedagogiska aktiviteterna eftersom de inte kräver läsning, språkförståelse eller mattkunskaper. användare tittar på fyra bilder och identifierar den som inte hör hemma. Detta helt visuella format gör arbetsbladen säljbara i alla länder utan översättning. Denna guide leder dig genom hela skapandeprocessen med Hitta Udda Bilden Arbetsblad-generatorn — från att välja mellan Identiskt och Liknande genereringsläge till att konfigurera per-övning-överstyrningar, generera automatiska facit med röda cirkelmarkörer och exportera produktionsklara filer.',
   },
 
-  introduction: 'Visuell diskriminering är en av kärnfärdigheterna i tidig barndomsutveckling. Innan barn lär sig läsa måste de först lära sig observera skillnader. Hitta udda bilden-pussel tränar denna färdighet direkt genom att presentera fyra bilder och be elever identifiera den som inte matchar de andra. Detta gör hitta udda bilden till en grundläggande produkt med efterfrågan från förskola genom grundskola.\n\nVad som gör hitta udda bilden-arbetsblad särskilt kraftfulla som produkt är det helt visuella formatet. Inga ord, inga siffror, inget språkhinder. Ett arbetsblad skapat i en session säljer identiskt på alla internationella marknadsplatser.\n\nHitta Udda Bilden-generatorn hanterar komplexiteten genom två distinkta genereringslägen. Identiskt läge placerar tre kloner av exakt samma bild bredvid en annorlunda bild — elever hittar icke-duplikaten. Liknande läge hämtar tre bilder från Tema A och en från Tema B — elever identifierar den tematiska utomstående. Per-övning-överstyrningen låter dig blanda båda lägena på ett enda arbetsblad. Generatorn producerar automatiska facit med röda cirkelmarkörer, hanterar adaptiv kolumnlayout och exporterar fyra filer per session.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Visuell diskriminering är en av kärnfärdigheterna i tidig barndomsutveckling. Innan barn lär sig läsa måste de först lära sig observera skillnader. Hitta udda bilden-pussel tränar denna färdighet direkt genom att presentera fyra bilder och be användare identifiera den som inte matchar de andra. Detta gör hitta udda bilden till en grundläggande produkt med efterfrågan från förskola genom grundskola.\n\nVad som gör hitta udda bilden-arbetsblad särskilt kraftfulla som produkt är det helt visuella formatet. Inga ord, inga siffror, inget språkhinder. Ett arbetsblad skapat i en session säljer identiskt på alla internationella marknadsplatser.\n\nHitta Udda Bilden-generatorn hanterar komplexiteten genom två distinkta genereringslägen. Identiskt läge placerar tre kloner av exakt samma bild bredvid en annorlunda bild — användare hittar icke-duplikaten. Liknande läge hämtar tre bilder från Tema A och en från Tema B — användare identifierar den tematiska utomstående. Per-övning-överstyrningen låter dig blanda båda lägena på ett enda arbetsblad. Generatorn producerar automatiska facit med röda cirkelmarkörer, hanterar adaptiv kolumnlayout och exporterar fyra filer per session.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -36,11 +36,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj ditt genereringsläge',
-      content: 'Två distinkta lägen.\n\nIdentiskt läge: tre kloner av exakt samma bild bredvid en annorlunda bild från samma tema. Elever hittar icke-duplikaten genom att jämföra visuella detaljer. Fungerar bäst för yngre barn som utvecklar grundläggande observationsförmåga.\n\nLiknande läge: tre bilder från Tema A och en bild från Tema B. Elever identifierar den tematiska utomstående genom att känna igen kategoriskillnader. Tre djur och ett fordon, tre frukter och ett verktyg. Producerar svårare pussel eftersom alla fyra bilder är visuellt annorlunda.\n\nIdentiskt läge är ditt tillgänglighetsverktyg. Liknande läge är ditt utmaningsverktyg. De flesta framgångsrika säljare använder båda: Identiskt för förskola, Liknande för grundskola, och per-övning-överstyrningar för progressiv svårighet.',
+      content: 'Två distinkta lägen.\n\nIdentiskt läge: tre kloner av exakt samma bild bredvid en annorlunda bild från samma tema. användare hittar icke-duplikaten genom att jämföra visuella detaljer. Fungerar bäst för yngre barn som utvecklar grundläggande observationsförmåga.\n\nLiknande läge: tre bilder från Tema A och en bild från Tema B. användare identifierar den tematiska utomstående genom att känna igen kategoriskillnader. Tre djur och ett fordon, tre frukter och ett verktyg. Producerar svårare pussel eftersom alla fyra bilder är visuellt annorlunda.\n\nIdentiskt läge är ditt tillgänglighetsverktyg. Liknande läge är ditt utmaningsverktyg. De flesta framgångsrika säljare använder båda: Identiskt för förskola, Liknande för grundskola, och per-övning-överstyrningar för progressiv svårighet.',
     },
     {
       heading: 'Ställ in övningsantal och per-övning-överstyrningar',
-      content: 'Ställ in 5–10 övningar per arbetsblad (standard 6). Varje övning innehåller alltid exakt fyra bilder med den udda bildens position slumpmässigt blandad.\n\nFör förskoleprodukter: 5–6 övningar. Större bildkort med mer avstånd.\n\nFör grundskoleprodukter: 8–10 övningar för högre innehållsdensitet.\n\nPer-övning lägesöverstyrning särskiljer denna generator. Varje övningsrad har sin egen lägesrullgardinsmeny. Ställ globalt läge till Identiskt, byt sedan de sista tre övningarna till Liknande — skapar ett arbetsblad som börjar enkelt och blir progressivt svårare. Eller alternera Identiskt och Liknande genom hela arbetsbladet. "Rensa val"-knappen återställer alla överstyrningar.\n\nVäxla namn- och datumfält. Växla övningsnummer (25 px bredd, 15 px gap) för klassrumsreferens.',
+      content: 'Ställ in 5–10 övningar per arbetsblad (standard 6). Varje övning innehåller alltid exakt fyra bilder med den udda bildens position slumpmässigt blandad.\n\nFör förskoleprodukter: 5–6 övningar. Större bildkort med mer avstånd.\n\nFör grundskoleprodukter: 8–10 övningar för högre innehållsdensitet.\n\nPer-övning lägesöverstyrning särskiljer denna generator. Varje övningsrad har sin egen lägesrullgardinsmeny. Ställ globalt läge till Identiskt, byt sedan de sista tre övningarna till Liknande — skapar ett arbetsblad som börjar enkelt och blir progressivt svårare. Eller alternera Identiskt och Liknande genom hela arbetsbladet. "Rensa val"-knappen återställer alla överstyrningar.\n\nVäxla namn- och datumfält. Växla övningsnummer (25 px bredd, 15 px gap) för produktlinjesreferens.',
     },
     {
       heading: 'Välj teman och bilder',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Samla 50–80 arbetsblad med progressiv svårighet. Tidiga kapitel: Identiskt läge med 5–6 övningar. Mittkapitel: Liknande läge med uppenbara temakontraster och 7–8 övningar. Avancerade kapitel: Liknande läge med subtilare distinktioner och 9–10 övningar. Facitsidor per kapitel.\n\nTitel och undertitel: Exempeltitel "Odd One Out Puzzles for Kids." Exempel-undertitel "80 Visual Discrimination Worksheets with Answer Keys for Ages 3–8."\n\nDet helt visuella formatet är en stor KDP-fördel — en interiörfil fungerar på alla marknadsplatser. Växla gråskala.',
     },
     {
-      heading: 'Sälja hitta udda bilden-arbetsblad på Teachers Pay Teachers',
-      content: 'TPT är idealiskt — visuell diskriminering och kritiskt tänkande är tvärkurriculära färdigheter. Naturvetenskapslärare för klassificeringsövningar, mattelärare för mönsterigenkänning, specialpedagoger för visuell perceptionsutveckling.\n\nProduktbeskrivningar: årskurs, kognitiva färdigheter, antal arbetsblad, om facit ingår, genereringslägen och temapar.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med båda lägena plus ett facit med röda cirkelmarkörer. Visa per-övning-överstyrning i aktion.\n\nPaketering: "Komplett visuell diskrimineringspaket" med hitta udda bilden plus skuggmatchning och saknade bitar.\n\nTPT-nyckelord: "hitta udda bilden aktivitet," "visuell diskriminering," "kritiskt tänkande pussel," "morgonarbete pussel," "tidiga slutare," "klassificering uppvärmning."',
+      heading: 'Sälja hitta udda bilden-arbetsblad på Gumroad',
+      content: 'Gumroad är idealiskt — visuell diskriminering och kritiskt tänkande är tvärkurriculära färdigheter. Naturvetenskapssäljare för klassificeringsövningar, mattesäljare för mönsterigenkänning, specialsäljare för visuell perceptionsutveckling.\n\nProduktbeskrivningar: årskurs, kognitiva färdigheter, antal arbetsblad, om facit ingår, genereringslägen och temapar.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med båda lägena plus ett facit med röda cirkelmarkörer. Visa per-övning-överstyrning i aktion.\n\nPaketering: "Komplett visuell diskrimineringspaket" med hitta udda bilden plus skuggmatchning och saknade bitar.\n\nGumroad-nyckelord: "hitta udda bilden aktivitet," "visuell diskriminering," "kritiskt tänkande pussel," "morgonarbete pussel," "tidiga slutare," "klassificering uppvärmning."',
     },
   ],
 
@@ -90,7 +90,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Global försäljning utan översättning',
-      content: 'Det helt visuella formatet skapar en betydande konkurrensfördel. Varje arbetsblad innehåller bara bilder — fyra per rad utan språkspecifik text. Samma PDF fungerar för alla köpare i alla länder.\n\nLista samma produkter på Etsy-butiker för olika länder. Publicera samma KDP-interiör på alla internationella Amazon-marknadsplatser. Lista på TPT för internationella lärare.\n\nMedan konkurrenter som skapar texttunga arbetsblad måste producera separata versioner per språkmarknad, betjänar dina visuella pussel varje köpare från en enda filuppsättning.',
+      content: 'Det helt visuella formatet skapar en betydande konkurrensfördel. Varje arbetsblad innehåller bara bilder — fyra per rad utan språkspecifik text. Samma PDF fungerar för alla köpare i alla länder.\n\nLista samma produkter på Etsy-butiker för olika länder. Publicera samma KDP-interiör på alla internationella Amazon-marknadsplatser. Lista på Gumroad för internationella säljare.\n\nMedan konkurrenter som skapar texttunga arbetsblad måste producera separata versioner per språkmarknad, betjänar dina visuella pussel varje köpare från en enda filuppsättning.',
     },
   ],
 
@@ -101,14 +101,14 @@ const content: GuideContent = {
     },
     {
       heading: 'Progressiv svårighetsdesign',
-      content: 'Designmönster ett — uppvärmning till utmaning: globalt läge Identiskt, överstyr sista tre till Liknande. Övningar 1–4 bygger förtroende. Övningar 5–7 kräver djupare resonerande. "Stödda" eller "progressiv svårighet" produkter.\n\nDesignmönster två — alternerande lägen: Identiskt, Liknande, Identiskt, Liknande. Håller elever mentalt flexibla.\n\nDesignmönster tre — tematisk progression: Liknande läge genomgående men med ökande tematisk likhet. Börja med uppenbara par (djur kontra fordon) och progressera till subtila (bondgårdsdjur kontra zoodjur).\n\nDessa progressiva designer motiverar högre priser som "differentierade" produkter.',
+      content: 'Designmönster ett — uppvärmning till utmaning: globalt läge Identiskt, överstyr sista tre till Liknande. Övningar 1–4 bygger förtroende. Övningar 5–7 kräver djupare resonerande. "Stödda" eller "progressiv svårighet" produkter.\n\nDesignmönster två — alternerande lägen: Identiskt, Liknande, Identiskt, Liknande. Håller användare mentalt flexibla.\n\nDesignmönster tre — tematisk progression: Liknande läge genomgående men med ökande tematisk likhet. Börja med uppenbara par (djur kontra fordon) och progressera till subtila (bondgårdsdjur kontra zoodjur).\n\nDessa progressiva designer motiverar högre priser som "nivågrupperade" produkter.',
     },
   ],
 
   faq: [
     {
       question: 'Vilka är de två genereringslägen i Hitta Udda Bilden-skaparen?',
-      answer: 'Identiskt läge placerar tre kloner av exakt samma bild bredvid en annorlunda — elever hittar icke-duplikaten. Liknande läge hämtar tre bilder från Tema A och en från Tema B — elever identifierar den tematiska utomstående. Du kan överstyrka läget per övning med varje rads rullgardinsmeny.',
+      answer: 'Identiskt läge placerar tre kloner av exakt samma bild bredvid en annorlunda — användare hittar icke-duplikaten. Liknande läge hämtar tre bilder från Tema A och en från Tema B — användare identifierar den tematiska utomstående. Du kan överstyrka läget per övning med varje rads rullgardinsmeny.',
     },
     {
       question: 'Hur fungerar per-övning lägesöverstyrningen?',
@@ -145,12 +145,12 @@ const content: GuideContent = {
     {
       slug: 'skapa-saknade-bitar-pussel',
       title: 'Skapa saknade bitar-arbetsblad',
-      description: 'Ytterligare ett visuellt diskrimineringsformat. Saknade bitar-pussel utmanar elever att hitta vad som saknas i en bild.',
+      description: 'Ytterligare ett visuellt diskrimineringsformat. Saknade bitar-pussel utmanar användare att hitta vad som saknas i en bild.',
     },
     {
       slug: 'skapa-sorterings-arbetsblad',
       title: 'Skapa kategorisorterings-arbetsblad',
-      description: 'En klassificeringskompanjon. Sorteringsarbetsblad ber elever kategorisera bilder och förstärker samma kategoriska resonerande som i Liknande läge.',
+      description: 'En klassificeringskompanjon. Sorteringsarbetsblad ber användare kategorisera bilder och förstärker samma kategoriska resonerande som i Liknande läge.',
     },
   ],
 

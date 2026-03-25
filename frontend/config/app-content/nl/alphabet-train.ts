@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare alfabettrein maker voor Etsy-verkopers',
       'letterherkenning werkbladen generator voor KDP-uitgevers',
-      'alfabet werkbladen verkopen op Teachers Pay Teachers',
+      'alfabet werkbladen verkopen op Gumroad',
       'alfabettrein printables commerciële licentie',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Alfabettrein Generator | Maak Taal-Printables',
     metaDescription:
-      'Maak alfabettrein werkbladen om te verkopen op Etsy, KDP en TPT. Treinwagon letter-afbeelding koppeling in 11 talen, 104 thema\'s.',
+      'Maak alfabettrein werkbladen om te verkopen op Etsy, KDP en Gumroad. Treinwagon letter-afbeelding koppeling in 11 talen, 104 thema\'s.',
   },
 
   hero: {
     title: 'Alfabettrein Werkbladen Generator voor Letterherkenning Oefenen',
     tagline: 'Elke wagon draagt een letter en een bijpassende afbeelding — letterherkenning opbouwen, treinwagon voor treinwagon.',
     description:
-      'Ontwerp opvallende alfabettrein werkbladen waarin 11 kleurrijke wagons over de pagina rollen, elk met een letter gekoppeld aan een bijpassende illustratie. Kies de modus Automatisch Aanmaken voor directe willekeurige letterselecties of de Handmatige modus om precies 11 letters uit het alfabet te kiezen voor gerichte oefening. Voeg 3 tot 11 instelbare aanwijzingen per werkblad toe — afbeeldingshints die leerlingen koppelen aan de juiste letterwagon — waardoor passieve letterherkenning verandert in een actieve probleemoplossende oefening. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s om de perfecte afbeelding voor elke letter te vinden. Volledige Toegang ontgrendelt alle 11 ondersteunde talen met hun eigen alfabetten — Duits met Ä/Ö/Ü, Zweeds met Å/Ä/Ö, Spaans met Ñ, Nederlands met het eigen alfabet en meer — waardoor je productcatalogus elfvoudig wordt vermenigvuldigd vanuit één workflow. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 400 DPI in Letter-, A4- of Vierkant-formaat. Of je nu thematische alfabetbundels verkoopt op Etsy.nl, progressieve taalboeken samenstelt voor Amazon KDP of gedifferentieerde lettercentra maakt voor TPT — de Alfabettrein Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Ontwerp opvallende alfabettrein werkbladen waarin 11 kleurrijke wagons over de pagina rollen, elk met een letter gekoppeld aan een bijpassende illustratie. Kies de modus Automatisch Aanmaken voor directe willekeurige letterselecties of de Handmatige modus om precies 11 letters uit het alfabet te kiezen voor gerichte oefening. Voeg 3 tot 11 instelbare aanwijzingen per werkblad toe — afbeeldingshints die gebruikers koppelen aan de juiste letterwagon — waardoor passieve letterherkenning verandert in een actieve probleemoplossende oefening. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s om de perfecte afbeelding voor elke letter te vinden. Volledige Toegang ontgrendelt alle 11 ondersteunde talen met hun eigen alfabetten — Duits met Ä/Ö/Ü, Zweeds met Å/Ä/Ö, Spaans met Ñ, Nederlands met het eigen alfabet en meer — waardoor je productcatalogus elfvoudig wordt vermenigvuldigd vanuit één workflow. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 400 DPI in Letter-, A4- of Vierkant-formaat. Of je nu thematische alfabetbundels verkoopt op Etsy.nl, progressieve taalboeken samenstelt voor Amazon KDP of gedifferentieerde lettercentra maakt voor Gumroad — de Alfabettrein Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: 'Selecteer afbeeldingen uit de themabibliotheek',
         description:
-          'Open het paneel Afbeeldingenbibliotheek en verken 104 thema\'s — van dieren en voedsel tot voertuigen en feestdagen. Gebruik de zoekbalk om specifieke afbeeldingen direct te vinden. Elke letterwagon toont een afbeelding waarvan de naam begint met die letter, wat de letter-klankverbinding versterkt. In het Nederlands wordt bijvoorbeeld de afbeelding van een hond gekoppeld aan de letter H, terwijl dezelfde afbeelding in het Engels bij D (dog) staat. Je kunt ook je eigen aangepaste afbeeldingen uploaden om merkgebonden werkbladen te maken of een specifiek klasthema te volgen.',
+          'Open het paneel Afbeeldingenbibliotheek en verken 104 thema\'s — van dieren en voedsel tot voertuigen en feestdagen. Gebruik de zoekbalk om specifieke afbeeldingen direct te vinden. Elke letterwagon toont een afbeelding waarvan de naam begint met die letter, wat de letter-klankverbinding versterkt. In het Nederlands wordt bijvoorbeeld de afbeelding van een hond gekoppeld aan de letter H, terwijl dezelfde afbeelding in het Engels bij D (dog) staat. Je kunt ook je eigen aangepaste afbeeldingen uploaden om merkgebonden werkbladen te maken of een specifiek merkthema te volgen.',
       },
       {
         title: 'Configureer aanwijzingen en tekststijl',
         description:
-          'Stel het aantal aanwijzingen in van 3 tot 11 — dit zijn afbeeldingshints die apart worden getoond en die leerlingen moeten koppelen aan de juiste letterwagon. Minder aanwijzingen maken het werkblad eenvoudiger; meer aanwijzingen verhogen de uitdaging. Schakel velden voor de naam en datum van de leerling in of uit. Gebruik het paneel Tekstgereedschappen om een titel, instructies of aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana met instelbare grootte, kleur en omtrek.',
+          'Stel het aantal aanwijzingen in van 3 tot 11 — dit zijn afbeeldingshints die apart worden getoond en die gebruikers moeten koppelen aan de juiste letterwagon. Minder aanwijzingen maken het werkblad eenvoudiger; meer aanwijzingen verhogen de uitdaging. Schakel velden voor de naam en datum van de gebruiker in of uit. Gebruik het paneel Tekstgereedschappen om een titel, instructies of aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana met instelbare grootte, kleur en omtrek.',
       },
       {
         title: 'Genereer het antwoordblad en download',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Instelbaar aanwijzingensysteem voor aanpasbare moeilijkheidsgraad',
         description:
-          'Stel overal van 3 tot 11 aanwijzingen per werkblad in. Aanwijzingen zijn afbeeldingshints die apart van de trein worden getoond — leerlingen moeten identificeren bij welke letterwagon elke aanwijzingsafbeelding hoort. Minder aanwijzingen creëren een eenvoudigere koppelingsactiviteit geschikt voor kleuters, terwijl de volledige 11 aanwijzingen leerlingen in groep 1 en 2 van de basisschool uitdagen om elke wagon te koppelen. Deze ingebouwde moeilijkheidsschuif maakt het eenvoudig om gedifferentieerde productlijnen of lesmateriaal op niveau te maken vanuit dezelfde app.',
+          'Stel overal van 3 tot 11 aanwijzingen per werkblad in. Aanwijzingen zijn afbeeldingshints die apart van de trein worden getoond — gebruikers moeten identificeren bij welke letterwagon elke aanwijzingsafbeelding hoort. Minder aanwijzingen creëren een eenvoudigere koppelingsactiviteit geschikt voor kleuters, terwijl de volledige 11 aanwijzingen gebruikers in groep 1 en 2 van de basisschool uitdagen om elke wagon te koppelen. Deze ingebouwde moeilijkheidsschuif maakt het eenvoudig om gedifferentieerde productlijnen of printbare producten op niveau te maken vanuit dezelfde app.',
       },
       {
         title: '104 visuele thema\'s met meer dan 3100 afbeeldingen voor letterkoppeling',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Automatische generatie van antwoordbladen',
         description:
-          'Klik op één knop om een compleet antwoordblad te genereren dat elke treinwagon toont met de juiste letter-afbeeldingskoppeling en alle aanwijzingen beantwoord. Het tabblad Antwoordblad toont een live voorvertoning zodat je de juistheid kunt controleren voordat je downloadt. Exporteer het antwoordblad als apart JPEG- of PDF-bestand, ideaal voor docentenedities, oudergidsen of productbundels op Etsy.nl zonder enig handmatig werk.',
+          'Klik op één knop om een compleet antwoordblad te genereren dat elke treinwagon toont met de juiste letter-afbeeldingskoppeling en alle aanwijzingen beantwoord. Het tabblad Antwoordblad toont een live voorvertoning zodat je de juistheid kunt controleren voordat je downloadt. Exporteer het antwoordblad als apart JPEG- of PDF-bestand, ideaal voor verkopersedities, oudergidsen of productbundels op Etsy.nl zonder enig handmatig werk.',
       },
       {
         title: 'Printklare export op 400+ DPI met grijstintenoptie',
         description:
-          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x-vermenigvuldiger, wat meer dan 400 DPI oplevert op standaardformaten. Schakel grijstinten-export in voor inktvriendelijke versies die perfect zijn voor het afdrukken in de klas of zwart-wit activiteitenboeken. Letter-, A4- en Vierkant-formaten worden allemaal ondersteund voor maximale flexibiliteit op print-on-demand platforms en thuisprinters.',
+          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x-vermenigvuldiger, wat meer dan 400 DPI oplevert op standaardformaten. Schakel grijstinten-export in voor inktvriendelijke versies die perfect zijn voor het afdrukken in volume of zwart-wit activiteitenboeken. Letter-, A4- en Vierkant-formaten worden allemaal ondersteund voor maximale flexibiliteit op print-on-demand platforms en thuisprinters.',
       },
       {
         title: 'Volledige canvasbewerking met ongedaan maken en opnieuw doen',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde taalcentra voor TPT',
+        title: 'Gedifferentieerde taalcentra voor Gumroad',
         description:
-          'Bouw alfabettreinsets op niveau met het aantal aanwijzingen als moeilijkheidsas: Niveau 1 (3 aanwijzingen, veelvoorkomende letters), Niveau 2 (5 aanwijzingen, gemengde letters), Niveau 3 (8 aanwijzingen, inclusief minder voorkomende letters zoals Q, X, Y), en Niveau 4 (11 aanwijzingen, volledige koppelingsuitdaging). Lever elk niveau met antwoordbladen en een voortgangsregistratieblad. Kopers op Teachers Pay Teachers betalen premiumprijzen voor gedifferentieerde taalleermiddelen die ze direct kunnen inzetten in meerdere leesgroepen.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw alfabettreinsets op niveau met het aantal aanwijzingen als moeilijkheidsas: Niveau 1 (3 aanwijzingen, veelvoorkomende letters), Niveau 2 (5 aanwijzingen, gemengde letters), Niveau 3 (8 aanwijzingen, inclusief minder voorkomende letters zoals Q, X, Y), en Niveau 4 (11 aanwijzingen, volledige koppelingsuitdaging). Lever elk niveau met antwoordbladen en een voortgangsregistratieblad. Kopers op Gumroad betalen premiumprijzen voor gedifferentieerde taalleermiddelen die ze direct kunnen inzetten in meerdere leesgroepen.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Meertalige alfabetproducten met Volledige Toegang',
         description:
-          'Volledige Toegang ontgrendelt alle 11 talen met hun eigen alfabetten. Maak Duitse alfabettreinen met Ä/Ö/Ü-wagons, Zweedse treinen met Å/Ä/Ö, Spaanse treinen met Ñ, en meer. Elke taalversie is een apart product dat je kunt aanbieden op Etsy, TPT of Amazon KDP — waardoor je catalogus effectief elfvoudig wordt vermenigvuldigd vanuit dezelfde workflow. Een Nederlandse alfabettrein koppelt "hond" aan H, terwijl een Engelse versie "dog" aan D koppelt — elk werkblad is taalkundig uniek. Meertalige taalproducten ondervinden minder concurrentie en trekken internationale kopers aan die zoeken in hun eigen taal.',
-        platform: 'Etsy / Amazon KDP / TPT (meertalig)',
+          'Volledige Toegang ontgrendelt alle 11 talen met hun eigen alfabetten. Maak Duitse alfabettreinen met Ä/Ö/Ü-wagons, Zweedse treinen met Å/Ä/Ö, Spaanse treinen met Ñ, en meer. Elke taalversie is een apart product dat je kunt aanbieden op Etsy, Gumroad of Amazon KDP — waardoor je catalogus effectief elfvoudig wordt vermenigvuldigd vanuit dezelfde workflow. Een Nederlandse alfabettrein koppelt "hond" aan H, terwijl een Engelse versie "dog" aan D koppelt — elk werkblad is taalkundig uniek. Meertalige taalproducten ondervinden minder concurrentie en trekken internationale kopers aan die zoeken in hun eigen taal.',
+        platform: 'Etsy / Amazon KDP / Gumroad (meertalig)',
       },
       {
-        title: 'Letterherkenning voor de klas en bijles',
+        title: 'Letterherkenning voor de winkel en bijles',
         description:
-          'Genereer aangepaste alfabettrein werkbladen afgestemd op de huidige letterkennis van elke leerling. Gebruik de Handmatige modus om de specifieke letters te selecteren waaraan een leerling werkt, en pas het aantal aanwijzingen aan op het niveau. Print snelle treinen met 3 aanwijzingen voor beginnende lezers en volledige treinen met 11 aanwijzingen voor leerlingen die klaar zijn voor een uitdaging — alles in dezelfde sessie. Het treinformaat transformeert letteroefening in een koppelspel dat jonge leerlingen betrokken houdt, en het automatische antwoordblad bespaart nakijktijd.',
+          'Genereer aangepaste alfabettrein werkbladen afgestemd op de huidige letterkennis van elke gebruiker. Gebruik de Handmatige modus om de specifieke letters te selecteren waaraan een gebruiker werkt, en pas het aantal aanwijzingen aan op het niveau. Print snelle treinen met 3 aanwijzingen voor beginnende lezers en volledige treinen met 11 aanwijzingen voor gebruikers die klaar zijn voor een uitdaging — alles in dezelfde sessie. Het treinformaat transformeert letteroefening in een koppelspel dat jonge gebruikers betrokken houdt, en het automatische antwoordblad bespaart waargenomen waarde.',
         platform: 'Klas / Bijles / Thuisonderwijs',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Wat is het alfabettrein werkbladformaat?',
       answer:
-        'Elk werkblad bevat 11 kleurrijke treinwagons. Elke wagon bevat één letter gekoppeld aan een bijpassende afbeelding waarvan de naam begint met die letter. Onder of naast de trein worden aanwijzingsafbeeldingen getoond die leerlingen moeten koppelen aan de juiste wagon. Het formaat combineert letterherkenning met visueel koppelen, waardoor het boeiender is dan standaard alfabet-oefenbladen.',
+        'Elk werkblad bevat 11 kleurrijke treinwagons. Elke wagon bevat één letter gekoppeld aan een bijpassende afbeelding waarvan de naam begint met die letter. Onder of naast de trein worden aanwijzingsafbeeldingen getoond die gebruikers moeten koppelen aan de juiste wagon. Het formaat combineert letterherkenning met visueel koppelen, waardoor het boeiender is dan standaard alfabet-oefenbladen.',
     },
     {
       question: 'Wat zijn de twee aanmaakmodi?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Hoe werkt het aanwijzingensysteem?',
       answer:
-        'Aanwijzingen zijn afbeeldingshints die apart van de treinwagons worden getoond. Leerlingen bekijken elke aanwijzingsafbeelding, identificeren wat het voorstelt, bepalen de beginletter en koppelen het aan de juiste wagon. Je kunt overal van 3 tot 11 aanwijzingen per werkblad instellen — minder aanwijzingen maken de activiteit eenvoudiger, meer aanwijzingen verhogen de uitdaging. Voor verkopers maakt dit aanpasbare aanwijzingenbereik het mogelijk om pakketten op moeilijkheidsgraad te maken vanuit één tool — bundel eenvoudig, gemiddeld en moeilijk samen en vraag een premiumprijs voor de gedifferentieerde set.',
+        'Aanwijzingen zijn afbeeldingshints die apart van de treinwagons worden getoond. gebruikers bekijken elke aanwijzingsafbeelding, identificeren wat het voorstelt, bepalen de beginletter en koppelen het aan de juiste wagon. Je kunt overal van 3 tot 11 aanwijzingen per werkblad instellen — minder aanwijzingen maken de activiteit eenvoudiger, meer aanwijzingen verhogen de uitdaging. Voor verkopers maakt dit aanpasbare aanwijzingenbereik het mogelijk om pakketten op moeilijkheidsgraad te maken vanuit één tool — bundel eenvoudig, gemiddeld en moeilijk samen en vraag een premiumprijs voor de gedifferentieerde set.',
     },
     {
       question: 'Waarom staan er altijd 11 letters op elk werkblad?',
       answer:
-        'Het treinformaat gebruikt 11 wagons om visuele impact en leesbaarheid op één pagina in balans te brengen. Elf letters bieden substantiële oefening zonder overlading, en het oneven aantal voorkomt dat leerlingen de laatste letters oplossen door simpele eliminatie. Elk werkblad dekt bijna de helft van het alfabet, dus twee complementaire werkbladen kunnen alle letters dekken.',
+        'Het treinformaat gebruikt 11 wagons om visuele impact en leesbaarheid op één pagina in balans te brengen. Elf letters bieden substantiële oefening zonder overlading, en het oneven aantal voorkomt dat gebruikers de laatste letters oplossen door simpele eliminatie. Elk werkblad dekt bijna de helft van het alfabet, dus twee complementaire werkbladen kunnen alle letters dekken.',
     },
     {
       question: 'Is de Alfabettrein-app taalafhankelijk?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Maakt de generator automatisch antwoordbladen?',
       answer:
-        'Ja. Klik op de knop Antwoordblad Genereren om een opgeloste versie te maken die elke wagon toont met de juiste letter-afbeeldingskoppeling en alle aanwijzingen beantwoord. Je kunt het op het scherm bekijken en downloaden als apart JPEG- of PDF-bestand om op te nemen in docentenedities of productbundels. Een kant-en-klaar antwoordblad voegt waargenomen waarde toe aan je aanbiedingen en stelt je in staat om "antwoordblad inbegrepen" te adverteren — een detail waar kopers op Etsy.nl en TPT specifiek op filteren bij het vergelijken van concurrerende producten.',
+        'Ja. Klik op de knop Antwoordblad Genereren om een opgeloste versie te maken die elke wagon toont met de juiste letter-afbeeldingskoppeling en alle aanwijzingen beantwoord. Je kunt het op het scherm bekijken en downloaden als apart JPEG- of PDF-bestand om op te nemen in verkopersedities of productbundels. Een kant-en-klaar antwoordblad voegt waargenomen waarde toe aan je aanbiedingen en stelt je in staat om "antwoordblad inbegrepen" te adverteren — een detail waar kopers op Etsy.nl en Gumroad specifiek op filteren bij het vergelijken van concurrerende producten.',
     },
     {
       question: 'Is er een gratis proefversie?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Wat bevat de commerciële licentie?',
       answer:
-        'De Commerciële licentie biedt watermerkvrije Engelse exports met volledige verkooprechten. De Volledige Toegang-licentie voegt alle 11 talen met hun eigen alfabetten toe, waardoor je productcatalogus wordt vermenigvuldigd. Beide licentieniveaus verlenen onbeperkte rechten om te verkopen op Etsy.nl, Amazon KDP, Teachers Pay Teachers, Bol.com, je eigen website of elk ander platform — geen royalty\'s per verkoop, geen maandelijkse kosten en geen productielimieten.',
+        'De Commerciële licentie biedt watermerkvrije Engelse exports met volledige verkooprechten. De Volledige Toegang-licentie voegt alle 11 talen met hun eigen alfabetten toe, waardoor je productcatalogus wordt vermenigvuldigd. Beide licentieniveaus verlenen onbeperkte rechten om te verkopen op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform — geen royalty\'s per verkoop, geen maandelijkse kosten en geen productielimieten.',
     },
     {
       question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je alfabettrein werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op TPT, via Bol.com of via elk ander verkoopkanaal. Het unieke treinformaat en de meertalige mogelijkheid geven je sterke differentiatie in drukbezette marktplaatscategorieën.',
+        'Ja. Met een commerciële licentie heb je alle rechten om je alfabettrein werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. Het unieke treinformaat en de meertalige mogelijkheid geven je sterke getrapte productpakketten in drukbezette marktplaatscategorieën.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en docenten',
+      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
     },
   ],
 

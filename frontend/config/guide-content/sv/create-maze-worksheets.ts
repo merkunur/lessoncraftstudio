@@ -23,7 +23,7 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar labyrintarbetsblad och aktivitetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska labyrintarbetsblad i tre distinkta spellägen — redo att sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
+    tagline: 'En steg-för-steg-guide för att skapa tematiska labyrintarbetsblad i tre distinkta spellägen — redo att sälja på Etsy, Amazon KDP och Gumroad',
     description: 'Labyrinter är ett av de mest universellt tilltalande pusselformaten för barn. De bygger rumsligt resonerande, problemlösningsförmåga och tålamod. Denna guide leder dig genom hela skapandeprocessen med Bildvägs Labyrint-generatorn, som erbjuder tre fundamentalt annorlunda spellägen: Bildväg för visuell vägsföljning, Klassisk labyrint för väggbaserad navigering med samlarbild-räkning, och Välj rätt väg för riktningsbeslut. Varje läge producerar en distinkt produkttyp.',
   },
 
@@ -48,7 +48,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Ställ in sidstorlek och layout',
-      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande, kvadrat och anpassade dimensioner. Stående orientering fungerar typiskt bättre för labyrinter. Liggande kan fungera för Välj rätt väg med vänster-till-höger-riktning.\n\nNamn- och datumfält: Inkludera alltid för klassrumsprodukter.\n\nSidfärg: vitt standard.\n\nFör Amazon KDP, använd konsekvent sidstorlek (8,5×11 tum eller A4).',
+      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande, kvadrat och anpassade dimensioner. Stående orientering fungerar typiskt bättre för labyrinter. Liggande kan fungera för Välj rätt väg med vänster-till-höger-riktning.\n\nNamn- och datumfält: Inkludera alltid för produktlinjesprodukter.\n\nSidfärg: vitt standard.\n\nFör Amazon KDP, använd konsekvent sidstorlek (8,5×11 tum eller A4).',
     },
     {
       heading: 'Generera och förhandsgranska labyrinten',
@@ -67,15 +67,15 @@ const content: GuideContent = {
   platformTips: [
     {
       heading: 'Sälja labyrintarbetsblad på Etsy',
-      content: 'Labyrinter tilltalar både pedagogiska och underhållningsköpare. Föräldrar söker "labyrintarbetsblad för barn" och "utskriftsklara labyrintaktiviteter." Lärare söker "labyrintpussel klassrum" och "rumsligt resonerande arbetsblad."\n\nTiteloptimering: "Labyrintarbetsblad för barn 4–7 — Dinosaurietema — 30 utskriftsklara labyrinter med facit." Taggar: använd alla 13. Listningsbilder: visa labyrinten tydligt med en penna bredvid. Visa facit med lösningsväg markerad.\n\nPrissättning: enstaka labyrint $1,49–$2,49. Temapaket 10–15 labyrinter $3,99–$6,99. Kompletta aktivitetsböcker 30–50 labyrinter $7,99–$14,99. Flerlägespaket $16,99–$24,99.',
+      content: 'Labyrinter tilltalar både pedagogiska och underhållningsköpare. Föräldrar söker "labyrintarbetsblad för barn" och "utskriftsklara labyrintaktiviteter." säljare söker "labyrintpussel produktlinje" och "rumsligt resonerande arbetsblad."\n\nTiteloptimering: "Labyrintarbetsblad för barn 4–7 — Dinosaurietema — 30 utskriftsklara labyrinter med facit." Taggar: använd alla 13. Listningsbilder: visa labyrinten tydligt med en penna bredvid. Visa facit med lösningsväg markerad.\n\nPrissättning: enstaka labyrint $1,49–$2,49. Temapaket 10–15 labyrinter $3,99–$6,99. Kompletta aktivitetsböcker 30–50 labyrinter $7,99–$14,99. Flerlägespaket $16,99–$24,99.',
     },
     {
       heading: 'Sälja labyrintaktivitetsböcker på Amazon KDP',
       content: 'Amazon KDP är idealiskt eftersom labyrinter naturligt samlas till aktivitetsböcker.\n\nProduktstruktur: Börja med enklare labyrinter (15×15, Bildväg) och progressera till svårare (20×20, Klassisk med flerväg). Placera facit i slutet. Inkludera en introduktionssida som förklarar varje labyrinttyp.\n\nTitel och undertitel: Exempeltitel "Maze Activity Book for Kids Ages 4–8." Exempel-undertitel "50 Themed Picture Mazes, Classic Mazes, and Path Puzzles with Answer Keys."\n\nNyckelord: "maze book for kids," "printable maze activity book," "picture maze puzzles," "kids puzzle book ages 4–8."\n\nInteriörformatering: 8,5×11 tum. Testa utskrift — tunna väggar med låg opacitet kanske inte reproduceras bra.\n\nPrissättning: KDP labyrintböcker 50–80 sidor $5,99–$8,99. 100+ sidor $9,99–$12,99.',
     },
     {
-      heading: 'Sälja labyrintarbetsblad på Teachers Pay Teachers',
-      content: 'TPT-köpare värderar labyrinter som rumsliga resoneringsaktiviteter och klassrumshjärnpauser.\n\nProduktbeskrivningar: årskurs, specifika färdigheter (rumsligt resonerande, räkning, riktningsmedvetenhet, problemlösning), antal labyrinter, lägen, om facit ingår.\n\nFörhandsgranskningsfiler: 2–3 exempelsidor med olika lägen.\n\nTPT-positionering: "problemlösningscentra" eller "rumsliga resonerande stationer." Lärare söker "tidiga slutare," "hjärnpauspussel," "inomhusrast," "vikariepåse."\n\nPaketering: Temapaket per säsong eller ämne. "Höstens labyrintaktivitetspaket" med skörd- och skogsteman.',
+      heading: 'Sälja labyrintarbetsblad på Gumroad',
+      content: 'Gumroad-köpare värderar labyrinter som rumsliga resoneringsaktiviteter och produktlinjeshjärnpauser.\n\nProduktbeskrivningar: årskurs, specifika färdigheter (rumsligt resonerande, räkning, riktningsmedvetenhet, problemlösning), antal labyrinter, lägen, om facit ingår.\n\nFörhandsgranskningsfiler: 2–3 exempelsidor med olika lägen.\n\nGumroad-positionering: "problemlösningscentra" eller "rumsliga resonerande stationer." säljare söker "tidiga slutare," "hjärnpauspussel," "inomhusrast," "vikariepåse."\n\nPaketering: Temapaket per säsong eller ämne. "Höstens labyrintaktivitetspaket" med skörd- och skogsteman.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Grundskole- och avancerade produkter',
-      content: 'Klassisk labyrint — Mellannivå (6–8 år): 17×17 eller 18×18, 2 vägar, väglängd 10–20. 3 samlarbilder med 2–5 kopior. Väggtjocklek 3–4 px. "Havsutforskare labyrintbok — 20 klassiska labyrinter med samlarräkning."\n\nKlassisk labyrint — Avancerad (8+): 19×19 eller 20×20, 3 vägar, väglängd 15–30. 4 samlarbilder med 3–10 kopior. Tunna väggar (2–3 px).\n\nVälj rätt väg — Flerrikting (7–9 år): Varje arbetsblad använder en annorlunda riktning. 18×18, 3 vägar. Äventyrstema. "Riktningslabyrint utmaning — 4 orienteringar, 20 pussel."\n\nFlerläges aktivitetsböcker (5–9 år): Kombinera alla tre lägen. 10 Bildväg (enklast), 15 Klassisk labyrint (mellannivå), 10 Välj rätt väg (svårast). Facit i slutet. Premiumprissättning $12,99–$19,99.\n\nFör klassrumsprodukter: 25–30 labyrinter vid samma svårighet som lärare kan dela ut — en per elev.',
+      content: 'Klassisk labyrint — Mellannivå (6–8 år): 17×17 eller 18×18, 2 vägar, väglängd 10–20. 3 samlarbilder med 2–5 kopior. Väggtjocklek 3–4 px. "Havsutforskare labyrintbok — 20 klassiska labyrinter med samlarräkning."\n\nKlassisk labyrint — Avancerad (8+): 19×19 eller 20×20, 3 vägar, väglängd 15–30. 4 samlarbilder med 3–10 kopior. Tunna väggar (2–3 px).\n\nVälj rätt väg — Flerrikting (7–9 år): Varje arbetsblad använder en annorlunda riktning. 18×18, 3 vägar. Äventyrstema. "Riktningslabyrint utmaning — 4 orienteringar, 20 pussel."\n\nFlerläges aktivitetsböcker (5–9 år): Kombinera alla tre lägen. 10 Bildväg (enklast), 15 Klassisk labyrint (mellannivå), 10 Välj rätt väg (svårast). Facit i slutet. Premiumprissättning $12,99–$19,99.\n\nFör produktlinjesprodukter: 25–30 labyrinter vid samma svårighet som säljare kan dela ut — en per användare.',
     },
   ],
 

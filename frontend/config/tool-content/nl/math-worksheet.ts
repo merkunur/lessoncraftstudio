@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Rekenwerkblad Generator',
     tagline: 'Maak visuele algebra puzzels met afbeeldingen als variabelen in minder dan 60 seconden',
-    description: 'Ga verder dan standaard rekenrijtjes met algebra beeldpuzzels die leerlingen uitdagen om in stelsels van vergelijkingen te denken. Elk werkblad presenteert een set gekoppelde vergelijkingen waarbij afbeeldingen onbekende variabelen vervangen — leerlingen moeten bepalen welke numerieke waarde elk plaatje voorstelt. Vier moeilijkheidsniveaus schalen van twee symbolen met eenvoudige optelling tot vier gelijktijdige onbekenden met gemengde bewerkingen. Een ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft — geen dubbelzinnigheid, geen giswerk. Kies Alleen Optellen voor gerichte oefening of Optellen & Aftrekken voor gevorderde probleemoplossing. Stel het getallenbereik in, schakel negatieve resultaten in voor oudere leerlingen, en bepaal het aantal puzzels per pagina van 1 tot 6 met automatische indeling. Selecteer afbeeldingen individueel, laad een heel themaset, of upload je eigen PNG of JPEG voor merkgebonden puzzels. Aangezien puzzels alleen afbeeldingen en getallen gebruiken, werken ze identiek in elke taal — verkoop dezelfde PDF wereldwijd zonder vertaling. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Ga verder dan standaard rekenrijtjes met algebra beeldpuzzels die gebruikers uitdagen om in stelsels van vergelijkingen te denken. Elk werkblad presenteert een set gekoppelde vergelijkingen waarbij afbeeldingen onbekende variabelen vervangen — gebruikers moeten bepalen welke numerieke waarde elk plaatje voorstelt. Vier moeilijkheidsniveaus schalen van twee symbolen met eenvoudige optelling tot vier gelijktijdige onbekenden met gemengde bewerkingen. Een ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft — geen dubbelzinnigheid, geen giswerk. Kies Alleen Optellen voor gerichte oefening of Optellen & Aftrekken voor gevorderde probleemoplossing. Stel het getallenbereik in, schakel negatieve resultaten in voor oudere gebruikers, en bepaal het aantal puzzels per pagina van 1 tot 6 met automatische indeling. Selecteer afbeeldingen individueel, laad een heel themaset, of upload je eigen PNG of JPEG voor merkgebonden puzzels. Aangezien puzzels alleen afbeeldingen en getallen gebruiken, werken ze identiek in elke taal — verkoop dezelfde PDF wereldwijd zonder vertaling. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configureer getallenbereik en opties',
-        description: 'Stel de minimum- en maximumwaarden voor de vergelijkingen in (standaard 0–20). Voor gevorderde leerlingen schakel je de schakelaar "Negatieve Resultaten Toestaan" in zodat aftrekvergelijkingen waarden onder nul kunnen produceren. Deze besturingselementen laten je elk werkblad precies afstemmen op je doelleeftijdsgroep en curriculumniveau.',
+        description: 'Stel de minimum- en maximumwaarden voor de vergelijkingen in (standaard 0–20). Voor gevorderde gebruikers schakel je de schakelaar "Negatieve Resultaten Toestaan" in zodat aftrekvergelijkingen waarden onder nul kunnen produceren. Deze besturingselementen laten je elk werkblad precies afstemmen op je doelleeftijdsgroep en productcatalogusniveau.',
       },
       {
         title: 'Selecteer je afbeeldingen',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Voeg tekst, nummering en puzzels per pagina toe',
-        description: 'Voeg een titel, ondertitel of aangepast tekstblok toe aan je werkblad. Schakel automatische nummering over pagina\'s in. Gebruik het besturingselement "Puzzels Per Pagina" om 1 tot 6 puzzels op elk blad te plaatsen — de indeling past zich automatisch aan. Minder puzzels per pagina geven leerlingen meer werkruimte; meer puzzels per pagina creëren compacte oefeningbladen.',
+        description: 'Voeg een titel, ondertitel of aangepast tekstblok toe aan je werkblad. Schakel automatische nummering over pagina\'s in. Gebruik het besturingselement "Puzzels Per Pagina" om 1 tot 6 puzzels op elk blad te plaatsen — de indeling past zich automatisch aan. Minder puzzels per pagina geven gebruikers meer werkruimte; meer puzzels per pagina creëren compacte oefeningbladen.',
       },
       {
         title: 'Genereer, controleer en download',
@@ -65,23 +65,23 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Visuele Algebra Pakketten',
-      description: 'Maak sets van 15–20 algebra beeldpuzzels met thematische afbeeldingssymbolen uit de bibliotheek — dinosaurussen, ruimte, dieren, voertuigen. Elke puzzel gebruikt verschillende afbeeldingen als variabelen met consistente moeilijkheid. Bundel per thema en verkoop op Etsy.nl of TPT. Het visuele algebra formaat is oprecht uniek en maakt je vermeldingsminiatuur direct onderscheidend van standaard rekenwerkbladen. Thematische pakketten moedigen ook herhaalaankopen aan omdat kopers die één thema leuk vinden vaak terugkeren voor anderen. Positioneer op €3–€5 per thema.',
+      description: 'Maak sets van 15–20 algebra beeldpuzzels met thematische afbeeldingssymbolen uit de bibliotheek — dinosaurussen, ruimte, dieren, voertuigen. Elke puzzel gebruikt verschillende afbeeldingen als variabelen met consistente moeilijkheid. Bundel per thema en verkoop op Etsy.nl of Gumroad. Het visuele algebra formaat is oprecht uniek en maakt je vermeldingsminiatuur direct onderscheidend van standaard rekenwerkbladen. Thematische pakketten moedigen ook herhaalaankopen aan omdat kopers die één thema leuk vinden vaak terugkeren voor anderen. Positioneer op €3–€5 per thema.',
     },
     {
       title: 'KDP Progressieve Algebra Werkboeken',
-      description: 'Stel 60–100 pagina\'s algebra beeldpuzzels samen gestructureerd op moeilijkheid. Begin met Heel Makkelijk (2 symbolen, alleen optellen) en ga progressief door Makkelijk, Gemiddeld naar Moeilijk (4 onbekenden, gemengde bewerkingen). Publiceer als gestructureerd rekenactiviteitenwerkboek op Amazon KDP. De progressieve moeilijkheid creëert een natuurlijk curriculum dat ouders en leerkrachten van kaft tot kaft kunnen volgen. Prijs op €7,99–€10,99.',
+      description: 'Stel 60–100 pagina\'s algebra beeldpuzzels samen gestructureerd op moeilijkheid. Begin met Heel Makkelijk (2 symbolen, alleen optellen) en ga progressief door Makkelijk, Gemiddeld naar Moeilijk (4 onbekenden, gemengde bewerkingen). Publiceer als gestructureerd rekenactiviteitenwerkboek op Amazon KDP. De progressieve moeilijkheid creëert een natuurlijk productcatalogus dat ouders en verkopers van kaft tot kaft kunnen volgen. Prijs op €7,99–€10,99.',
     },
     {
       title: 'Gedifferentieerde Klassets',
-      description: 'Genereer vier versies van dezelfde thematische puzzel op elk moeilijkheidsniveau: Heel Makkelijk, Makkelijk, Gemiddeld en Moeilijk. Leerkrachten geven de juiste versie aan elke leerling op basis van vaardigheid. Alle versies gebruiken hetzelfde beeldthema zodat leerlingen zich betrokken voelen in plaats van uitgelicht. Verkoop als gedifferentieerd pakket op een premiumprijspunt op TPT.',
+      description: 'Genereer vier versies van dezelfde thematische puzzel op elk moeilijkheidsniveau: Heel Makkelijk, Makkelijk, Gemiddeld en Moeilijk. verkopers geven de juiste versie aan elke gebruiker op basis van vaardigheid. Alle versies gebruiken hetzelfde beeldthema zodat gebruikers zich betrokken voelen in plaats van uitgelicht. Verkoop als gedifferentieerd pakket op een premiumprijspunt op Gumroad.',
     },
     {
       title: 'Eigen Afbeelding Merkpuzzels',
-      description: 'Upload je eigen illustraties, logo\'s of gelicentieerd kunstwerk om algebra puzzels te maken die geen concurrent kan repliceren. De geüploade afbeeldingen worden de variabelensymbolen in elke vergelijking. Perfect voor het opbouwen van een onderscheidende visuele merkidentiteit op Etsy, het maken van gepersonaliseerde klaslokaal-materialen of het ontwerpen van op maat gemaakte rekenactiviteiten voor bijlesbedrijven.',
+      description: 'Upload je eigen illustraties, logo\'s of gelicentieerd kunstwerk om algebra puzzels te maken die geen concurrent kan repliceren. De geüploade afbeeldingen worden de variabelensymbolen in elke vergelijking. Perfect voor het opbouwen van een onderscheidende visuele merkidentiteit op Etsy, het maken van gepersonaliseerde winkel-materialen of het ontwerpen van op maat gemaakte rekenactiviteiten voor bijlesbedrijven.',
     },
     {
       title: 'Seizoensgebonden Algebra Bundels',
-      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Kerstmis Algebra Puzzel" pakket met feestelijke symboolafbeeldingen verkoopt sterk in november–december. Sinterklaas, Halloween, Valentijnsdag en terug-naar-school puzzels hebben elk hun eigen piekverkoopperioden op Etsy.nl en TPT. Het algebra formaat voegt waargenomen moeilijkheid en waarde toe boven eenvoudige rekenopgaven.',
+      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Kerstmis Algebra Puzzel" pakket met feestelijke symboolafbeeldingen verkoopt sterk in november–december. Sinterklaas, Halloween, Valentijnsdag en terug-naar-school puzzels hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad. Het algebra formaat voegt waargenomen moeilijkheid en waarde toe boven eenvoudige rekenopgaven.',
     },
     {
       title: 'Gemengde-Moeilijkheid Proefpakketten',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Premium Algebra Pakketten',
-      description: 'Upload gedifferentieerde algebra puzzelpakketten naar TPT. Leerkrachten zoeken constant naar "algebra werkbladen" en "rekenpuzzels". Voeg alle vier moeilijkheidsniveaus, beide bewerkingsmodi, antwoordbladen en een docentenhandleiding toe die uitlegt hoe het visuele algebra formaat werkt. De gegarandeerde-oplossingsfunctie voegt geloofwaardigheid toe die leerkrachten waarderen. Voor Nederlandse TPT-verkopers: visuele algebra puzzels in dit formaat zijn vrijwel onvindbaar.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Premium Algebra Pakketten',
+      description: 'Upload gedifferentieerde algebra puzzelpakketten naar Gumroad. verkopers zoeken constant naar "algebra werkbladen" en "rekenpuzzels". Voeg alle vier moeilijkheidsniveaus, beide bewerkingsmodi, antwoordbladen en een verkopershandleiding toe die uitlegt hoe het visuele algebra formaat werkt. De gegarandeerde-oplossingsfunctie voegt geloofwaardigheid toe die verkopers waarderen. Voor Nederlandse Gumroad-verkopers: visuele algebra puzzels in dit formaat zijn vrijwel onvindbaar.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Rekenuitdaging Kits',
-      description: 'Maak een premium puzzelkit op Gumroad met 40+ algebra puzzels op Gemiddeld en Moeilijk niveau. Richt je op thuisonderwijs-ouders en rekenbijlessen die uitdagende, boeiende materialen willen. Voeg een ouderhandleiding toe die uitlegt hoe elk moeilijkheidsniveau past bij leeftijdsgeschikte algebraconcepten. Het visuele formaat maakt abstracte algebra toegankelijk voor jongere leerlingen. Prijs op €12–€15.',
+      description: 'Maak een premium puzzelkit op Gumroad met 40+ algebra puzzels op Gemiddeld en Moeilijk niveau. Richt je op thuisonderwijs-ouders en rekenbijlessen die uitdagende, boeiende materialen willen. Voeg een ouderhandleiding toe die uitlegt hoe elk moeilijkheidsniveau past bij leeftijdsgeschikte algebraconcepten. Het visuele formaat maakt abstracte algebra toegankelijk voor jongere gebruikers. Prijs op €12–€15.',
       platform: 'Gumroad',
     },
     {
@@ -125,19 +125,19 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Begin met Heel Makkelijk voor Beginners',
-      description: 'Heel Makkelijk gebruikt slechts 2 afbeeldingssymbolen met eenvoudige optelvergelijkingen. Dit is perfect voor leerlingen die visuele algebra voor het eerst tegenkomen. Laat ze vertrouwen opbouwen in het herkennen van het patroon voordat ze naar Makkelijk, Gemiddeld en Moeilijk gaan. Geleidelijke progressie houdt frustratie laag en betrokkenheid hoog. Vanuit verkopersperspectief: beginnersvriendelijke puzzels trekken het breedste publiek aan omdat ouders van jongere kinderen actief zoeken naar inleidende algebra-activiteiten.',
+      description: 'Heel Makkelijk gebruikt slechts 2 afbeeldingssymbolen met eenvoudige optelvergelijkingen. Dit is perfect voor gebruikers die visuele algebra voor het eerst tegenkomen. Laat ze vertrouwen opbouwen in het herkennen van het patroon voordat ze naar Makkelijk, Gemiddeld en Moeilijk gaan. Geleidelijke progressie houdt frustratie laag en betrokkenheid hoog. Vanuit verkopersperspectief: beginnersvriendelijke puzzels trekken het breedste publiek aan omdat ouders van jongere kinderen actief zoeken naar inleidende algebra-activiteiten.',
     },
     {
       title: 'Gebruik Gemengde Bewerkingen voor Variatie',
-      description: 'De Optellen & Aftrekken modus creëert puzzels die verschillende oplosstrategieën vereisen binnen hetzelfde werkblad. Dit voorkomt dat leerlingen in een herhalend patroon vallen en test beide bewerkingsvaardigheden tegelijk. Gemengde modus puzzels hebben ook hogere waargenomen waarde in marktplaats-vermeldingen. Op Etsy en TPT vangt het labelen als "gemengde bewerkingen" zoekverkeer van leerkrachten die specifiek herhalingsmateriaal zoeken.',
+      description: 'De Optellen & Aftrekken modus creëert puzzels die verschillende oplosstrategieën vereisen binnen hetzelfde werkblad. Dit voorkomt dat gebruikers in een herhalend patroon vallen en test beide bewerkingsvaardigheden tegelijk. Gemengde modus puzzels hebben ook hogere waargenomen waarde in marktplaats-vermeldingen. Op Etsy en Gumroad vangt het labelen als "gemengde bewerkingen" zoekverkeer van verkopers die specifiek herhalingsmateriaal zoeken.',
     },
     {
       title: 'Upload Eigen Afbeeldingen voor Branding',
       description: 'Upload je eigen illustraties, mascotten of gelicentieerd kunstwerk om puzzels te maken die geen concurrent kan repliceren. De geüploade afbeeldingen worden de vergelijkingsvariabelen, waardoor je producten visueel onderscheidend worden. Kopers die je symboolstijl herkennen keren terug naar je winkel.',
     },
     {
-      title: 'Gebruik 1–2 Puzzels Per Pagina voor Jongere Leerlingen',
-      description: 'Stel puzzels per pagina in op 1 of 2 voor jongere leerlingen die meer werkruimte nodig hebben. Grotere puzzels met grotere symbolen en vergelijkingen zijn makkelijker te lezen en minder overweldigend. Bewaar 4–6 puzzels per pagina voor oudere leerlingen of compacte oefeningsets ontworpen voor snelle herhalingssessies.',
+      title: 'Gebruik 1–2 Puzzels Per Pagina voor Jongere gebruikers',
+      description: 'Stel puzzels per pagina in op 1 of 2 voor jongere gebruikers die meer werkruimte nodig hebben. Grotere puzzels met grotere symbolen en vergelijkingen zijn makkelijker te lezen en minder overweldigend. Bewaar 4–6 puzzels per pagina voor oudere gebruikers of compacte oefeningsets ontworpen voor snelle herhalingssessies.',
     },
     {
       title: 'Combineer met Standaard Rekenwerkblad Tools',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Voeg Altijd het Antwoordblad Toe',
-      description: 'Genereer het antwoordblad voordat je je werkbladen downloadt. Het antwoordblad toont de numerieke waarde van elk afbeeldingssymbool en het volledig opgeloste vergelijkingenstelsel. Kopers op Etsy en TPT beoordelen producten consistent hoger wanneer antwoordbladen zijn inbegrepen — het bespaart leerkrachten beoordelingstijd en geeft ouders vertrouwen in de oplossing.',
+      description: 'Genereer het antwoordblad voordat je je werkbladen downloadt. Het antwoordblad toont de numerieke waarde van elk afbeeldingssymbool en het volledig opgeloste vergelijkingenstelsel. Kopers op Etsy en Gumroad beoordelen producten consistent hoger wanneer antwoordbladen zijn inbegrepen — het bespaart verkopers beoordelingstijd en geeft ouders vertrouwen in de oplossing.',
     },
   ],
 
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hoe werken de algebra beeldpuzzels?',
-      answer: 'Elke puzzel presenteert een stelsel gekoppelde vergelijkingen waarbij afbeeldingen onbekende variabelen vervangen. Leerlingen analyseren de relaties tussen vergelijkingen om de numerieke waarde te bepalen die elk plaatje voorstelt. Bijvoorbeeld: als kat + hond = 7 en kat + kat = 6, dan is kat = 3 en hond = 4. De ingebouwde oplosser garandeert dat elke puzzel precies één correcte oplossing heeft. Deze aanpak introduceert algebraïsch redeneren visueel, waardoor het toegankelijk is voor jongere leerlingen die nog niet klaar zijn voor traditionele variabelenotatie met letters.',
+      answer: 'Elke puzzel presenteert een stelsel gekoppelde vergelijkingen waarbij afbeeldingen onbekende variabelen vervangen. gebruikers analyseren de relaties tussen vergelijkingen om de numerieke waarde te bepalen die elk plaatje voorstelt. Bijvoorbeeld: als kat + hond = 7 en kat + kat = 6, dan is kat = 3 en hond = 4. De ingebouwde oplosser garandeert dat elke puzzel precies één correcte oplossing heeft. Deze aanpak introduceert algebraïsch redeneren visueel, waardoor het toegankelijk is voor jongere gebruikers die nog niet klaar zijn voor traditionele variabelenotatie met letters.',
     },
     {
       question: 'Wat zijn de vier moeilijkheidsniveaus?',
-      answer: 'Heel Makkelijk gebruikt 2 afbeeldingssymbolen met eenvoudige vergelijkingen. Makkelijk gebruikt 2 symbolen met iets moeilijkere vergelijkingen. Gemiddeld introduceert 3 symbolen over 3 gekoppelde vergelijkingen. Moeilijk presenteert 4 gelijktijdige onbekenden over 4 vergelijkingen. Elk niveau verhoogt progressief het aantal variabelen en de complexiteit van het vergelijkingenstelsel. Voor verkopers: deze vier niveaus passen natuurlijk bij groepsniveaus: Heel Makkelijk voor groep 1–2, Makkelijk voor groep 3, Gemiddeld voor groep 4–5 en Moeilijk voor groep 6 en hoger.',
+      answer: 'Heel Makkelijk gebruikt 2 afbeeldingssymbolen met eenvoudige vergelijkingen. Makkelijk gebruikt 2 symbolen met iets moeilijkere vergelijkingen. Gemiddeld introduceert 3 symbolen over 3 gekoppelde vergelijkingen. Moeilijk presenteert 4 gelijktijdige onbekenden over 4 vergelijkingen. Elk niveau verhoogt progressief het aantal variabelen en de complexiteit van het vergelijkingenstelsel. Voor verkopers: deze vier niveaus passen natuurlijk bij niveaucategories: Heel Makkelijk voor groep 1–2, Makkelijk voor groep 3, Gemiddeld voor groep 4–5 en Moeilijk voor groep 6 en hoger.',
     },
     {
       question: 'Welke bewerkingsmodi zijn beschikbaar?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wat doet de schakelaar voor negatieve resultaten?',
-      answer: 'Indien ingeschakeld kunnen aftrekvergelijkingen waarden onder nul produceren. Dit voegt moeilijkheid toe voor gevorderde leerlingen die bekend zijn met negatieve getallen. Indien uitgeschakeld (standaard) blijven alle vergelijkingsresultaten binnen het positieve getallenbereik dat je hebt ingesteld. Houd het uit voor basisschoolleerlingen en schakel het in voor gevorderde rekenoefening.',
+      answer: 'Indien ingeschakeld kunnen aftrekvergelijkingen waarden onder nul produceren. Dit voegt moeilijkheid toe voor gevorderde gebruikers die bekend zijn met negatieve getallen. Indien uitgeschakeld (standaard) blijven alle vergelijkingsresultaten binnen het positieve getallenbereik dat je hebt ingesteld. Houd het uit voor basisschoolgebruikers en schakel het in voor gevorderde rekenoefening.',
     },
     {
       question: 'Kan ik mijn eigen afbeeldingen uploaden als variabelensymbolen?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hoeveel puzzels kan ik op één pagina plaatsen?',
-      answer: 'Je kunt 1 tot 6 puzzels per pagina plaatsen met het besturingselement "Puzzels Per Pagina". De indeling past zich automatisch aan om het geselecteerde aantal te bevatten. Gebruik 1–2 puzzels per pagina voor jongere leerlingen die meer ruimte nodig hebben, of 4–6 per pagina voor compacte oefeningbladen en werkboek-stijl producten.',
+      answer: 'Je kunt 1 tot 6 puzzels per pagina plaatsen met het besturingselement "Puzzels Per Pagina". De indeling past zich automatisch aan om het geselecteerde aantal te bevatten. Gebruik 1–2 puzzels per pagina voor jongere gebruikers die meer ruimte nodig hebben, of 4–6 per pagina voor compacte oefeningbladen en werkboek-stijl producten.',
     },
     {
       question: 'Werken de puzzels in alle talen?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

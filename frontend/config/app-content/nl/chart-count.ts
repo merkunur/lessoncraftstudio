@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare telgrafiek werkbladen maker voor Etsy-verkopers',
       'plaatjesgrafiek werkbladen generator voor Amazon KDP-uitgevers',
-      'telgrafieken activiteiten verkopen op Teachers Pay Teachers',
+      'telgrafieken activiteiten verkopen op Gumroad',
       'data grafiek werkbladen maker commerciële licentie',
     ],
     lsiKeywords: [
@@ -15,23 +15,23 @@ const content: AppContent = {
       'commercieel gebruik plaatjesgrafiek generator',
     ],
     titleTag: 'Telgrafiek Generator | Maak & Verkoop Werkbladen',
-    metaDescription: 'Maak telgrafiek werkbladen om te verkopen op Etsy, KDP en TPT. Automatisch antwoordblad met markeringen, 104 thema\'s, 6 afbeeldingstypen per blad.',
+    metaDescription: 'Maak telgrafiek werkbladen om te verkopen op Etsy, KDP en Gumroad. Automatisch antwoordblad met markeringen, 104 thema\'s, 6 afbeeldingstypen per blad.',
   },
 
   hero: {
     title: 'Telgrafiek Werkbladen Generator voor Printbare Plaatjesgrafiek Activiteiten',
     tagline: 'Dubbel-canvas plaatjesgrafiek maker — genereer verstrooide afbeeldingsrasters met 6 afbeeldingstypen, automatisch ingevulde staafdiagram antwoordbladen, gelokaliseerde koppen in 11 talen, en 104 thematische beeldcollecties voor gegevensrepresentatie werkbladen.',
     description:
-      'Verander visueel tellen in een complete gegevensvaardighedenactiviteit met de enige werkbladgenerator die speciaal is gebouwd voor plaatjesgrafieken. Elk werkblad bevat een verstrooide afbeeldingsraster met 20 pictogrammen van 6 verschillende typen, gerangschikt in een 4×5 indeling — leerlingen tellen hoeveel van elk type er verschijnen en kleuren vervolgens de overeenkomstige cellen in het staafdiagram eronder. De app genereert tegelijkertijd een antwoordblad met geel gemarkeerde cellen die de juiste aantallen tonen, zodat leerkrachten het werk van leerlingen direct kunnen controleren. Kies afbeeldingen automatisch door een thema te selecteren uit het dropdown-menu Werkblad Afbeeldingsbron, of kies handmatig precies 6 afbeeldingen uit de doorzoekbare Afbeeldingenbibliotheek met 3.100+ illustraties verdeeld over 104 collecties. Elk werkblad bevat een automatisch gegenereerde kop met een gelokaliseerde "Plaatjesgrafiek" titel en telinstructies — de kop past zich automatisch aan alle 11 ondersteunde talen aan. Voeg naam- en datumvelden voor leerlingen toe met een enkel selectievakje, pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en pas aan met tekstgereedschappen en canvas bewerking uit de vrije hand. De Telgrafiek Generator is niet taalgevoelig — visueel tellen gebruikt universele cijfers en afbeeldingen, dus werkbladen werken identiek in elke taal. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Download alle vier bestanden — werkblad JPEG, werkblad PDF, antwoordblad JPEG en antwoordblad PDF — in één sessie. Of je nu plaatjesgrafiek bundels verkoopt op Etsy.nl, werkboeken voor gegevensvaardigheden samenstelt voor Amazon KDP, of rekenactiviteiten voor de klas maakt voor TPT, de Telgrafiek Generator levert klasklare resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Verander visueel tellen in een complete gegevensvaardighedenactiviteit met de enige werkbladgenerator die speciaal is gebouwd voor plaatjesgrafieken. Elk werkblad bevat een verstrooide afbeeldingsraster met 20 pictogrammen van 6 verschillende typen, gerangschikt in een 4×5 indeling — gebruikers tellen hoeveel van elk type er verschijnen en kleuren vervolgens de overeenkomstige cellen in het staafdiagram eronder. De app genereert tegelijkertijd een antwoordblad met geel gemarkeerde cellen die de juiste aantallen tonen, zodat verkopers het werk van gebruikers direct kunnen controleren. Kies afbeeldingen automatisch door een thema te selecteren uit het dropdown-menu Werkblad Afbeeldingsbron, of kies handmatig precies 6 afbeeldingen uit de doorzoekbare Afbeeldingenbibliotheek met 3.100+ illustraties verdeeld over 104 collecties. Elk werkblad bevat een automatisch gegenereerde kop met een gelokaliseerde "Plaatjesgrafiek" titel en telinstructies — de kop past zich automatisch aan alle 11 ondersteunde talen aan. Voeg naam- en datumvelden voor gebruikers toe met een enkel selectievakje, pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en pas aan met tekstgereedschappen en canvas bewerking uit de vrije hand. De Telgrafiek Generator is niet taalgevoelig — visueel tellen gebruikt universele cijfers en afbeeldingen, dus werkbladen werken identiek in elke taal. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Download alle vier bestanden — werkblad JPEG, werkblad PDF, antwoordblad JPEG en antwoordblad PDF — in één sessie. Of je nu plaatjesgrafiek bundels verkoopt op Etsy.nl, werkboeken voor gegevensvaardigheden samenstelt voor Amazon KDP, of rekenactiviteiten voor de winkel maakt voor Gumroad, de Telgrafiek Generator levert klasklare resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
     title: 'Hoe Maak Je Telgrafiek Werkbladen in 5 Stappen',
     steps: [
       {
-        title: 'Stel de pagina-indeling en leerlingvelden in',
+        title: 'Stel de pagina-indeling en gebruikervelden in',
         description:
-          'Open het paneel Pagina-instellingen en kies een paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een aangepaste afmeting naar keuze. Kies een paginakleur met de kleurkiezer — wit is de standaard voor schone werkbladen. Vink het vakje Naam/Datum opnemen aan om opgemaakte "Naam: ____" en "Datum: ____" velden onderaan de pagina toe te voegen, zodat leerlingen hun werk kunnen identificeren. Selecteer een achtergrondthema en een kaderthema uit de ingebouwde bibliotheek, elk met een onafhankelijke dekkingsschuifregelaar (0–1, stap 0,05) voor subtiele of opvallende decoratieve omkadering.',
+          'Open het paneel Pagina-instellingen en kies een paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een aangepaste afmeting naar keuze. Kies een paginakleur met de kleurkiezer — wit is de standaard voor schone werkbladen. Vink het vakje Naam/Datum opnemen aan om opgemaakte "Naam: ____" en "Datum: ____" velden onderaan de pagina toe te voegen, zodat gebruikers hun werk kunnen identificeren. Selecteer een achtergrondthema en een kaderthema uit de ingebouwde bibliotheek, elk met een onafhankelijke dekkingsschuifregelaar (0–1, stap 0,05) voor subtiele of opvallende decoratieve omkadering.',
       },
       {
         title: 'Kies je afbeeldingsbron',
@@ -41,7 +41,7 @@ const content: AppContent = {
       {
         title: 'Genereer het plaatjesgrafiek werkblad',
         description:
-          'Klik op Genereren om het werkblad te maken. De app rangschikt 20 verstrooide pictogrammen van je 6 geselecteerde afbeeldingstypen in een 4×5 raster met een stippellijnrand bovenaan de pagina. Onder het raster verschijnt een staafdiagram met 6 kolommen × 5 rijen, waarbij elke kolom is gelabeld met een van de 6 afbeeldingstypen. Rijen zijn genummerd van 1–5 van onder naar boven. Een automatisch gegenereerde kop toont een gelokaliseerde "Plaatjesgrafiek" titel en telinstructies in een gestileerde gele pil met oranje randkader. Het werkbladcanvas toont lege diagramcellen die klaar zijn voor leerlingen om in te vullen.',
+          'Klik op Genereren om het werkblad te maken. De app rangschikt 20 verstrooide pictogrammen van je 6 geselecteerde afbeeldingstypen in een 4×5 raster met een stippellijnrand bovenaan de pagina. Onder het raster verschijnt een staafdiagram met 6 kolommen × 5 rijen, waarbij elke kolom is gelabeld met een van de 6 afbeeldingstypen. Rijen zijn genummerd van 1–5 van onder naar boven. Een automatisch gegenereerde kop toont een gelokaliseerde "Plaatjesgrafiek" titel en telinstructies in een gestileerde gele pil met oranje randkader. Het werkbladcanvas toont lege diagramcellen die klaar zijn voor gebruikers om in te vullen.',
       },
       {
         title: 'Pas aan met tekstgereedschappen en canvas bewerking',
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Genereer het antwoordblad en download alles',
         description:
-          'Schakel over naar het tabblad Antwoordblad om de automatisch gegenereerde oplossing te bekijken — de staafdiagramcellen zijn gevuld met gele (#FFC857) markering die het juiste aantal voor elk afbeeldingstype toont. Schakel de grijstintenoptie in voor inkvriendelijke versies. Download alle vier bestanden: werkblad JPEG, werkblad PDF, antwoordblad JPEG en antwoordblad PDF — allemaal gerenderd op 300 DPI. Bestanden worden benoemd als worksheet.jpeg, worksheet.pdf, answer_key.jpeg en answer_key.pdf voor eenvoudige organisatie. Elke export is productieklaar voor Etsy-aanbiedingen, Amazon KDP-interieurpagina\'s en TPT-bronbestanden.',
+          'Schakel over naar het tabblad Antwoordblad om de automatisch gegenereerde oplossing te bekijken — de staafdiagramcellen zijn gevuld met gele (#FFC857) markering die het juiste aantal voor elk afbeeldingstype toont. Schakel de grijstintenoptie in voor inkvriendelijke versies. Download alle vier bestanden: werkblad JPEG, werkblad PDF, antwoordblad JPEG en antwoordblad PDF — allemaal gerenderd op 300 DPI. Bestanden worden benoemd als worksheet.jpeg, worksheet.pdf, answer_key.jpeg en answer_key.pdf voor eenvoudige organisatie. Elke export is productieklaar voor Etsy-aanbiedingen, Amazon KDP-interieurpagina\'s en Gumroad-bronbestanden.',
       },
     ],
   },
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Plaatjesgrafiek Generator met Verstrooide Afbeeldingsraster en Staafdiagram',
         description:
-          'Elk gegenereerd werkblad combineert twee onderling verbonden elementen: een 4×5 raster met 20 verstrooide pictogrammen van 6 verschillende afbeeldingstypen, en een staafdiagram met 6 kolommen × 5 rijen waarbij elke kolom overeenkomt met één afbeeldingstype. De afbeeldingstypen verschijnen elk 1–5 keer in het raster (maximaal 5 per type, willekeurig verdeeld), waardoor elke keer dat je genereert een unieke teluitdaging ontstaat. Leerlingen tellen hoeveel van elk afbeeldingstype er in het raster verschijnen en kleuren vervolgens het overeenkomstige aantal cellen in de bijbehorende kolom. Dit tweedelige formaat leert gegevensverzameling en gegevensrepresentatie tegelijkertijd — de kern van vroege grafiekvaardigheden.',
+          'Elk gegenereerd werkblad combineert twee onderling verbonden elementen: een 4×5 raster met 20 verstrooide pictogrammen van 6 verschillende afbeeldingstypen, en een staafdiagram met 6 kolommen × 5 rijen waarbij elke kolom overeenkomt met één afbeeldingstype. De afbeeldingstypen verschijnen elk 1–5 keer in het raster (maximaal 5 per type, willekeurig verdeeld), waardoor elke keer dat je genereert een unieke teluitdaging ontstaat. gebruikers tellen hoeveel van elk afbeeldingstype er in het raster verschijnen en kleuren vervolgens het overeenkomstige aantal cellen in de bijbehorende kolom. Dit tweedelige formaat leert gegevensverzameling en gegevensrepresentatie tegelijkertijd — de kern van vroege grafiekvaardigheden.',
       },
       {
         title: 'Automatisch Gegenereerd Antwoordblad met Ingevulde Diagramcellen',
         description:
-          'Elk werkblad genereert tegelijkertijd een bijpassend antwoordblad op een apart canvas-tabblad. Het antwoordblad toont hetzelfde afbeeldingsraster en staafdiagram, maar met de juiste cellen gevuld in gele (#FFC857) markering. Leerkrachten zien in één oogopslag hoeveel van elk afbeeldingstype er in het diagram moeten verschijnen. Schakel tussen de tabbladen Werkblad en Antwoordblad om te vergelijken. Download beide versies onafhankelijk — werkblad JPEG/PDF en antwoordblad JPEG/PDF — wat je vier productieklare bestanden oplevert uit één enkele generatie. Het automatische antwoordblad elimineert handmatig tellen en garandeert nauwkeurigheid bij grote werkbladbundels.',
+          'Elk werkblad genereert tegelijkertijd een bijpassend antwoordblad op een apart canvas-tabblad. Het antwoordblad toont hetzelfde afbeeldingsraster en staafdiagram, maar met de juiste cellen gevuld in gele (#FFC857) markering. verkopers zien in één oogopslag hoeveel van elk afbeeldingstype er in het diagram moeten verschijnen. Schakel tussen de tabbladen Werkblad en Antwoordblad om te vergelijken. Download beide versies onafhankelijk — werkblad JPEG/PDF en antwoordblad JPEG/PDF — wat je vier productieklare bestanden oplevert uit één enkele generatie. Het automatische antwoordblad elimineert handmatig tellen en garandeert nauwkeurigheid bij grote werkbladbundels.',
       },
       {
         title: 'Automatische en Handmatige Afbeeldingsselectie Modi',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Gelokaliseerde Plaatjesgrafiek Kop met Titel en Instructies',
         description:
-          'Elk gegenereerd werkblad bevat een automatisch gegenereerde kop met een gele pilachtergrond (#FFD93D), witte binnenpil en oranje randkader (buitenrand #FF8C42, binnenrand #FFD6A5). De kop toont een gelokaliseerde titel — "Plaatjesgrafiek" in het Nederlands, "Picture Graph" in het Engels, "Bilddiagramm" in het Duits, en equivalente vertalingen in alle 11 ondersteunde talen. Onder de titel begeleiden gelokaliseerde telinstructies leerlingen door de activiteit. De kop past zich automatisch aan wanneer je de interfacetaal wisselt, waardoor werkbladen in elke taal klasklaar zijn zonder handmatige tekstbewerking.',
+          'Elk gegenereerd werkblad bevat een automatisch gegenereerde kop met een gele pilachtergrond (#FFD93D), witte binnenpil en oranje randkader (buitenrand #FF8C42, binnenrand #FFD6A5). De kop toont een gelokaliseerde titel — "Plaatjesgrafiek" in het Nederlands, "Picture Graph" in het Engels, "Bilddiagramm" in het Duits, en equivalente vertalingen in alle 11 ondersteunde talen. Onder de titel begeleiden gelokaliseerde telinstructies gebruikers door de activiteit. De kop past zich automatisch aan wanneer je de interfacetaal wisselt, waardoor werkbladen in elke taal verkoopklaar zijn zonder handmatige tekstbewerking.',
       },
       {
         title: 'Afbeeldingenbibliotheek met 104 Thematische Collecties en 3.100+ Illustraties',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Printklare PDF- en JPEG-export op 300 DPI met Grijstintenschakelaar',
         description:
-          'Download plaatjesgrafiek werkbladen en antwoordbladen als hoogresolutie JPEG-afbeeldingen of printklare PDF-documenten gerenderd op 300 DPI met een 6x vermenigvuldigingsfactor voor scherpe uitvoer. Paginaformaten omvatten Letter Staand (612×792), Letter Liggend (792×612), A4 Staand (595×842), A4 Liggend (842×595), Vierkant (1200×1200) en volledig aangepaste afmetingen. Schakel grijstinten in voor inkvriendelijke versies die ideaal zijn voor afdrukken in het klaslokaal en KDP-boekinterieurpagina\'s. Vier downloadknoppen bieden werkblad JPEG, antwoordblad JPEG, werkblad PDF en antwoordblad PDF — een complete productset uit één enkele generatie.',
+          'Download plaatjesgrafiek werkbladen en antwoordbladen als hoogresolutie JPEG-afbeeldingen of printklare PDF-documenten gerenderd op 300 DPI met een 6x vermenigvuldigingsfactor voor scherpe uitvoer. Paginaformaten omvatten Letter Staand (612×792), Letter Liggend (792×612), A4 Staand (595×842), A4 Liggend (842×595), Vierkant (1200×1200) en volledig aangepaste afmetingen. Schakel grijstinten in voor inkvriendelijke versies die ideaal zijn voor afdrukken online en KDP-boekinterieurpagina\'s. Vier downloadknoppen bieden werkblad JPEG, antwoordblad JPEG, werkblad PDF en antwoordblad PDF — een complete productset uit één enkele generatie.',
       },
       {
         title: 'Volledig Canvas Bewerking met Tekstgereedschappen en Laagbediening',
@@ -108,32 +108,32 @@ const content: AppContent = {
       {
         title: 'Thematische Plaatjesgrafiek Bundels op Etsy',
         description:
-          'Maak thematische plaatjesgrafiek pakketten met de 104 beeldcollecties — dierenteltaarten, voedsel-datagrafieken, voertuigtellbladen, natuurobservatiegrafieken en tientallen meer. Elk thema biedt genoeg afbeeldingen voor 10–20 unieke werkbladen met verschillende willekeurige verdelingen. Voeg het automatisch gegenereerde antwoordblad toe bij elk werkblad voor het gemak van de leerkracht. Verpak thema\'s als individuele bundels voor €3–€5 per stuk, of combineer meerdere thema\'s tot megapakketten voor €12–€18. Het verstrooide afbeeldingsraster met 6 typen per blad zorgt ervoor dat elk werkblad uniek is en onmogelijk handmatig na te maken, wat je producten echte originaliteit geeft.',
+          'Maak thematische plaatjesgrafiek pakketten met de 104 beeldcollecties — dierenteltaarten, voedsel-datagrafieken, voertuigtellbladen, natuurobservatiegrafieken en tientallen meer. Elk thema biedt genoeg afbeeldingen voor 10–20 unieke werkbladen met verschillende willekeurige verdelingen. Voeg het automatisch gegenereerde antwoordblad toe bij elk werkblad voor het gemak van de verkoper. Verpak thema\'s als individuele bundels voor €3–€5 per stuk, of combineer meerdere thema\'s tot megapakketten voor €12–€18. Het verstrooide afbeeldingsraster met 6 typen per blad zorgt ervoor dat elk werkblad uniek is en onmogelijk handmatig na te maken, wat je producten echte originaliteit geeft.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Werkboeken Gegevensvaardigheden op Amazon KDP',
         description:
-          'Stel 60–100 plaatjesgrafiek werkbladen samen tot een gedrukt werkboek voor gegevensvaardigheden, opgemaakt voor Amazon KDP. Structureer hoofdstukken per thema: Hoofdstuk 1 behandelt dieren tellen, Hoofdstuk 2 voedselgrafieken, Hoofdstuk 3 voertuiggegevens, enzovoort. Schakel grijstintenexport in voor inkvriendelijke pagina\'s die klaar zijn voor zwart-wit boekinterieurpagina\'s. Voeg antwoordbladpagina\'s toe achteraan elk hoofdstuk ter referentie voor ouders en leerkrachten. De dubbele-canvasgeneratie produceert zowel werkblad als antwoordblad automatisch, zodat het samenstellen van een werkboek van 100 pagina\'s met complete oplossingen een fractie van de tijd kost vergeleken met handmatig maken.',
+          'Stel 60–100 plaatjesgrafiek werkbladen samen tot een gedrukt werkboek voor gegevensvaardigheden, opgemaakt voor Amazon KDP. Structureer hoofdstukken per thema: Hoofdstuk 1 behandelt dieren tellen, Hoofdstuk 2 voedselgrafieken, Hoofdstuk 3 voertuiggegevens, enzovoort. Schakel grijstintenexport in voor inkvriendelijke pagina\'s die klaar zijn voor zwart-wit boekinterieurpagina\'s. Voeg antwoordbladpagina\'s toe achteraan elk hoofdstuk ter referentie voor ouders en verkopers. De dubbele-canvasgeneratie produceert zowel werkblad als antwoordblad automatisch, zodat het samenstellen van een werkboek van 100 pagina\'s met complete oplossingen een fractie van de tijd kost vergeleken met handmatig maken.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Rekenhoek Activiteitenbladen voor TPT',
+        title: 'Rekenhoek Activiteitenbladen voor Gumroad',
         description:
-          'Bouw kant-en-klare rekenhoekactiviteiten met plaatjesgrafieken die naam- en datumvelden voor leerlingen bevatten. Leerkrachten die op TPT zoeken naar grafiekactiviteiten waarderen werkbladen met ingebouwde leerlingidentificatie — het selectievakje voor naam/datum maakt je product direct klasklaar zonder extra opmaak. Maak themagerichte sets gekoppeld aan lesmethode-eenheden: boerderijdieren tellen voor biologie, weericonen grafisch weergeven voor aardrijkskunde, of gemeenschapshelpervoertuigen turven voor maatschappijleer. Elk werkblad wordt geleverd met een eigen antwoordblad, waardoor voorbereidingstijd voor leerkrachten vervalt.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw kant-en-klare rekenhoekactiviteiten met plaatjesgrafieken die naam- en datumvelden voor gebruikers bevatten. verkopers die op Gumroad zoeken naar grafiekactiviteiten waarderen werkbladen met ingebouwde gebruikeridentificatie — het selectievakje voor naam/datum maakt je product direct verkoopklaar zonder extra opmaak. Maak themagerichte sets gekoppeld aan lesmethode-eenheden: boerderijdieren tellen voor biologie, weericonen grafisch weergeven voor aardrijkskunde, of gemeenschapshelpervoertuigen turven voor maatschappijleer. Elk werkblad wordt geleverd met een eigen antwoordblad, waardoor productietijd voor verkopers vervalt.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Vakoverstijgende Gegevensactiviteiten',
         description:
-          'Plaatjesgrafieken vormen een natuurlijke brug tussen rekenen en andere vakken. Gebruik dierenthema\'s voor lessen over habitats en classificatie. Gebruik voedselthema\'s voor lessen over gezondheid en voeding. Gebruik voertuigthema\'s voor onderwerpen over gemeenschap en transport. De 104 thematische collecties bestrijken vrijwel elk basisschoolonderwerp, zodat je gegevensrepresentatie werkbladen kunt maken die inhoudelijke woordenschat versterken terwijl ze grafiekvaardigheden aanleren. Verkoop vakoverstijgende bundels die leerkrachten aanspreken die geïntegreerde activiteiten willen — een groeiende niche op alle drie de grote platforms.',
-        platform: 'Etsy / Amazon KDP / TPT',
+          'Plaatjesgrafieken vormen een natuurlijke brug tussen rekenen en andere vakken. Gebruik dierenthema\'s voor lessen over habitats en classificatie. Gebruik voedselthema\'s voor lessen over gezondheid en voeding. Gebruik voertuigthema\'s voor onderwerpen over gemeenschap en transport. De 104 thematische collecties bestrijken vrijwel elk basisschoolonderwerp, zodat je gegevensrepresentatie werkbladen kunt maken die inhoudelijke woordenschat versterken terwijl ze grafiekvaardigheden aanleren. Verkoop vakoverstijgende bundels die verkopers aanspreken die geïntegreerde activiteiten willen — een groeiende niche op alle drie de grote platforms.',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Seizoensgebonden Tel- en Grafiekcollecties',
         description:
-          'De 104 thematische beeldcollecties bestrijken elk seizoen en elke feestdag — kerstversieringen, Halloween-iconen, paasitems, Valentijnsharten, terug-naar-schoolbenodigdheden, zomeractiviteiten en winterscènes. Maak tijdgebonden plaatjesgrafiekcollecties die aansluiten bij piekverkoopperiodes. Breng Halloween-telbundels uit in september, kerstgrafiekpakketten in oktober en Valentijns-gegevensactiviteiten in januari. Voeg antwoordbladen toe bij elke set voor complete leerkrachtpakketten. Seizoensproducten brengen hogere prijzen op tijdens piekperiodes en creëren natuurlijke redenen voor herhaalaankopen.',
-        platform: 'Etsy / Amazon KDP / TPT (seizoensgebonden)',
+          'De 104 thematische beeldcollecties bestrijken elk seizoen en elke feestdag — kerstversieringen, Halloween-iconen, paasitems, Valentijnsharten, terug-naar-schoolbenodigdheden, zomeractiviteiten en winterscènes. Maak tijdgebonden plaatjesgrafiekcollecties die aansluiten bij piekverkoopperiodes. Breng Halloween-telbundels uit in september, kerstgrafiekpakketten in oktober en Valentijns-gegevensactiviteiten in januari. Voeg antwoordbladen toe bij elke set voor complete verkoperpakketten. Seizoensproducten brengen hogere prijzen op tijdens piekperiodes en creëren natuurlijke redenen voor herhaalaankopen.',
+        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'Hoe werkt het plaatjesgrafiek werkblad?',
       answer:
-        'Elk werkblad heeft twee delen. Het bovenste gedeelte toont een 4×5 raster met 20 verstrooide pictogrammen van 6 verschillende afbeeldingstypen — elk type verschijnt 1–5 keer, willekeurig verdeeld. Het onderste gedeelte toont een staafdiagram met 6 kolommen × 5 rijen, met kolommen gelabeld per afbeeldingstype en rijen genummerd van 1–5 van onder naar boven. Leerlingen tellen hoeveel van elk afbeeldingstype er in het raster verschijnen en kleuren of vullen vervolgens het overeenkomstige aantal cellen in de bijbehorende kolom. Dit leert zowel gegevensverzameling (tellen) als gegevensrepresentatie (grafisch weergeven) in één enkele activiteit.',
+        'Elk werkblad heeft twee delen. Het bovenste gedeelte toont een 4×5 raster met 20 verstrooide pictogrammen van 6 verschillende afbeeldingstypen — elk type verschijnt 1–5 keer, willekeurig verdeeld. Het onderste gedeelte toont een staafdiagram met 6 kolommen × 5 rijen, met kolommen gelabeld per afbeeldingstype en rijen genummerd van 1–5 van onder naar boven. gebruikers tellen hoeveel van elk afbeeldingstype er in het raster verschijnen en kleuren of vullen vervolgens het overeenkomstige aantal cellen in de bijbehorende kolom. Dit leert zowel gegevensverzameling (tellen) als gegevensrepresentatie (grafisch weergeven) in één enkele activiteit.',
     },
     {
       question: 'Hoe werkt de automatische afbeeldingsselectie?',
@@ -162,7 +162,7 @@ const content: AppContent = {
     {
       question: 'Hoe werken de naam- en datumvelden?',
       answer:
-        'In het paneel Pagina-instellingen vink je het vakje Naam/Datum opnemen aan om opgemaakte "Naam: ____" en "Datum: ____" velden onderaan de werkbladpagina toe te voegen. De velden gebruiken het lettertype Fredoka op 18px in kleur #333. Leerlingen schrijven hun naam en datum voordat ze met de telactiviteit beginnen. Dit maakt werkbladen direct klasklaar zonder extra opmaak. Schakel het vakje uit om de velden te verwijderen voor producten die geen leerlingidentificatie nodig hebben.',
+        'In het paneel Pagina-instellingen vink je het vakje Naam/Datum opnemen aan om opgemaakte "Naam: ____" en "Datum: ____" velden onderaan de werkbladpagina toe te voegen. De velden gebruiken het lettertype Fredoka op 18px in kleur #333. gebruikers schrijven hun naam en datum voordat ze met de telactiviteit beginnen. Dit maakt werkbladen direct verkoopklaar zonder extra opmaak. Schakel het vakje uit om de velden te verwijderen voor producten die geen gebruikeridentificatie nodig hebben.',
     },
     {
       question: 'Hoe werken achtergrond- en kaderthema\'s?',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'Hoe werkt de grijstintenschakelaar?',
       answer:
-        'De grijstintenschakelaar in het downloadpaneel converteert je volledige werkblad of antwoordblad naar grijstinten op het moment van exporteren. Je canvas blijft in kleur voor eenvoudige visuele bewerking — grijstinten worden alleen toegepast op het geëxporteerde bestand. Dit produceert inkvriendelijke uitvoer voor afdrukken in het klaslokaal waar kleurenink duur of niet beschikbaar is, en voor Amazon KDP-boekinterieurpagina\'s die zwart-wit pagina\'s vereisen. De grijstintenschakelaar werkt onafhankelijk voor zowel werkblad- als antwoordbladexports.',
+        'De grijstintenschakelaar in het downloadpaneel converteert je volledige werkblad of antwoordblad naar grijstinten op het moment van exporteren. Je canvas blijft in kleur voor eenvoudige visuele bewerking — grijstinten worden alleen toegepast op het geëxporteerde bestand. Dit produceert inkvriendelijke uitvoer voor afdrukken online waar kleurenink duur of niet beschikbaar is, en voor Amazon KDP-boekinterieurpagina\'s die zwart-wit pagina\'s vereisen. De grijstintenschakelaar werkt onafhankelijk voor zowel werkblad- als antwoordbladexports.',
     },
     {
       question: 'Hoe schakel ik tussen het werkblad en het antwoordblad?',
       answer:
-        'Het canvasgebied heeft twee tabbladen: Werkblad en Antwoordblad. Klik op het tabblad Antwoordblad om de automatisch gegenereerde oplossing te bekijken met geel gevulde diagramcellen. Klik op het tabblad Werkblad om terug te keren naar de leerlingenversie met lege cellen. Elk tabblad heeft zijn eigen paar downloadknoppen (JPEG en PDF), wat je vier totale downloadopties geeft. Bewerkingen van canvaselementen zoals tekst, achtergrond en kaders zijn van toepassing op beide tabbladen — het enige verschil tussen hen is de vulstatus van het staafdiagram.',
+        'Het canvasgebied heeft twee tabbladen: Werkblad en Antwoordblad. Klik op het tabblad Antwoordblad om de automatisch gegenereerde oplossing te bekijken met geel gevulde diagramcellen. Klik op het tabblad Werkblad om terug te keren naar de gebruikersversie met lege cellen. Elk tabblad heeft zijn eigen paar downloadknoppen (JPEG en PDF), wat je vier totale downloadopties geeft. Bewerkingen van canvaselementen zoals tekst, achtergrond en kaders zijn van toepassing op beide tabbladen — het enige verschil tussen hen is de vulstatus van het staafdiagram.',
     },
     {
       question: 'Is er een gratis proefversie?',
@@ -187,12 +187,12 @@ const content: AppContent = {
     {
       question: 'Is de Telgrafiek Generator taalgevoelig?',
       answer:
-        'Nee. De Telgrafiek Generator produceert visuele telwerkbladen waarbij leerlingen afbeeldingen tellen en staafdiagramcellen invullen — cijfers en afbeeldingen zijn universeel. Het wijzigen van de taal beïnvloedt alleen de interfaceteksten in de generator, de automatisch gegenereerde koptitel en instructies, en de labels van de afbeeldingenbibliotheek. De werkbladuitvoer zelf werkt identiek in elke taal. De Commerciële licentie bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen.',
+        'Nee. De Telgrafiek Generator produceert visuele telwerkbladen waarbij gebruikers afbeeldingen tellen en staafdiagramcellen invullen — cijfers en afbeeldingen zijn universeel. Het wijzigen van de taal beïnvloedt alleen de interfaceteksten in de generator, de automatisch gegenereerde koptitel en instructies, en de labels van de afbeeldingenbibliotheek. De werkbladuitvoer zelf werkt identiek in elke taal. De Commerciële licentie bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen.',
     },
     {
       question: 'Kan ik plaatjesgrafiek werkbladen die met deze tool zijn gemaakt verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je plaatjesgrafiek werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken voor gegevensvaardigheden op Amazon KDP, als klasmiddelen op TPT, of via elk ander verkoopkanaal. De dubbele-canvasgeneratie, het automatische antwoordblad en de 104 thematische beeldcollecties geven je de middelen om originele, verkoopbare plaatjesgrafiekproducten op schaal te produceren.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je plaatjesgrafiek werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken voor gegevensvaardigheden op Amazon KDP, als klasmiddelen op Gumroad, of via elk ander verkoopkanaal. De dubbele-canvasgeneratie, het automatische antwoordblad en de 104 thematische beeldcollecties geven je de middelen om originele, verkoopbare plaatjesgrafiekproducten op schaal te produceren.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -262,7 +262,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/dutch/chart%20count/Plaatjesgrafiek%201.webp',
-      primaryAlt: 'Plaatjesgrafiek werkblad met verstrooide afbeeldingsraster en staafdiagram voor leerlingen om 6 afbeeldingstypen te tellen en grafisch weer te geven',
+      primaryAlt: 'Plaatjesgrafiek werkblad met verstrooide afbeeldingsraster en staafdiagram voor gebruikers om 6 afbeeldingstypen te tellen en grafisch weer te geven',
     },
     sampleGallery: [
       {

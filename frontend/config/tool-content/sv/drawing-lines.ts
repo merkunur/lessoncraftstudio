@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Rita Linjer Arbetsblad Skapare',
     tagline: 'Åtta SVG-linjemallar med bildparmatchning, autofyllning från 104 färgglada teman och mallstyrd sidorientering för professionella linjespårnings arbetsblad som säljer globalt',
-    description: 'Skapa professionella linjespårnings arbetsblad där eleverna ritar längs guidade vägar för att koppla samman matchande bildpar. Åtta SVG-baserade mallar täcker en komplett finmotorisk progression: en horisontell mall för raka vänster-till-höger spårningar (enklast), en vertikal mall för uppifrån-och-ner streck, fyra kurvmallar för flytande handledningsrörelser, och två diagonala mallar för korsande kroppskordinering (svårast). Varje mall placerar 4 eller 5 matchade bildpar på motsatta sidor av linjevägen, vilket ger eleverna ett visuellt mål vid varje ände. Mallval driver automatiskt sidorientering — kurvor defaultar till liggande för svepande bågar, medan diagonal-, horisontell- och vertikalmallar använder stående för fokuserad övning. Autofyllning fyller direkt varje parplats med slumpmässiga bilder från valfritt valt tema eller alla 104 teman samtidigt, vilket gör batchskapande snabbt. Innehåll hämtas från mer än 3 100 färgglada illustrationer i 104 tematiska samlingar — djur, fordon, mat, natur och dussintals fler. Varje arbetsblad är helt visuellt med noll text på utmatningen, vilket gör produkter universellt säljbara utan översättning. Inget facit behövs eftersom linjevägen i sig guidar eleven — en självkontrollerande aktivitet av design. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella linjespårnings arbetsblad där användarna ritar längs guidade vägar för att koppla samman matchande bildpar. Åtta SVG-baserade mallar täcker en komplett finmotorisk progression: en horisontell mall för raka vänster-till-höger spårningar (enklast), en vertikal mall för uppifrån-och-ner streck, fyra kurvmallar för flytande handledningsrörelser, och två diagonala mallar för korsande kroppskordinering (svårast). Varje mall placerar 4 eller 5 matchade bildpar på motsatta sidor av linjevägen, vilket ger användarna ett visuellt mål vid varje ände. Mallval driver automatiskt sidorientering — kurvor defaultar till liggande för svepande bågar, medan diagonal-, horisontell- och vertikalmallar använder stående för fokuserad övning. Autofyllning fyller direkt varje parplats med slumpmässiga bilder från valfritt valt tema eller alla 104 teman samtidigt, vilket gör batchskapande snabbt. Innehåll hämtas från mer än 3 100 färgglada illustrationer i 104 tematiska samlingar — djur, fordon, mat, natur och dussintals fler. Varje arbetsblad är helt visuellt med noll text på utmatningen, vilket gör produkter universellt säljbara utan översättning. Inget facit behövs eftersom linjevägen i sig guidar användaren — en självkontrollerande aktivitet av design. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till text och växla namn/datum-fält',
-        description: 'Använd panelen Textverktyg för att lägga till en arbetsblads-titel, instruktioner eller dekorativ text. Välj bland typsnitt som Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito och Quicksand. Växla namn- och datumfält för elevidentifieringsområden. Den autogenererade rubriken visar en livfull grön banner med «Rita Linjer Övning» lokaliserad på alla 11 stödda språk.',
+        description: 'Använd panelen Textverktyg för att lägga till en arbetsblads-titel, instruktioner eller dekorativ text. Välj bland typsnitt som Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito och Quicksand. Växla namn- och datumfält för identifieringsområden. Den autogenererade rubriken visar en livfull grön banner med «Rita Linjer Övning» lokaliserad på alla 11 stödda språk.',
       },
       {
         title: 'Förhandsgranska och justera linjesvårighet',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Exportera som PDF eller JPEG med 300 DPI',
-        description: 'Ladda ner ditt färdiga arbetsblad som högupplöst JPEG eller tryckfärdig PDF med 300 DPI. Växla gråskala för bläckvänliga versioner idealiska för klassrumsutskrift och KDP-interiörer. Inget separat facit behövs — linjevägen i sig guidar eleven, vilket gör varje arbetsblad till en självkontrollerande aktivitet. Varje export är produktionsklar.',
+        description: 'Ladda ner ditt färdiga arbetsblad som högupplöst JPEG eller tryckfärdig PDF med 300 DPI. Växla gråskala för bläckvänliga versioner idealiska för volymutskrift och KDP-interiörer. Inget separat facit behövs — linjevägen i sig guidar användaren, vilket gör varje arbetsblad till en självkontrollerande aktivitet. Varje export är produktionsklar.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Tematiska bildpar matchningsaktivitetsset',
-      description: 'Utnyttja de 104 tematiska bildsamlingarna för att skapa linjespårnings arbetsblad där eleverna kopplar samman matchande bilder över guidade vägar. Varje tema blir en distinkt produktannons: bondgårdsdjur linjespårning, dinosaurie kurvritning, havsdjur diagonal övning, rymdforsknings vertikala linjer. Bildparmatchningsformatet lägger till ett identifieringselement till den finmotoriska övningen.',
+      description: 'Utnyttja de 104 tematiska bildsamlingarna för att skapa linjespårnings arbetsblad där användarna kopplar samman matchande bilder över guidade vägar. Varje tema blir en distinkt produktannons: bondgårdsdjur linjespårning, dinosaurie kurvritning, havsdjur diagonal övning, rymdforsknings vertikala linjer. Bildparmatchningsformatet lägger till ett identifieringselement till den finmotoriska övningen.',
     },
     {
       title: 'Blandade linjetyps provpaket',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Linjetyps svårighetsbutik på Etsy',
-      description: 'Öppna en Etsy-butik specialiserad på linjespårnings arbetsblad organiserade efter linjetyps svårighet. Horisontella paket betjänar nybörjare med raka vänster-till-höger linjer. Vertikala paket avancerar till uppifrån-och-ner streck. Kurvpaket introducerar flytande rörelser. Diagonala paket utmanar avancerade elever med vinklad koordinering. De åtta distinkta mallarna och 104 bildteman producerar hundratals unika arbetsbladskombinationer. Det textfria visuella formatet gör varje produkt säljbar globalt. Prissätt enskilda temapaket till 30–50 SEK.',
+      description: 'Öppna en Etsy-butik specialiserad på linjespårnings arbetsblad organiserade efter linjetyps svårighet. Horisontella paket betjänar nybörjare med raka vänster-till-höger linjer. Vertikala paket avancerar till uppifrån-och-ner streck. Kurvpaket introducerar flytande rörelser. Diagonala paket utmanar avancerade användare med vinklad koordinering. De åtta distinkta mallarna och 104 bildteman producerar hundratals unika arbetsbladskombinationer. Det textfria visuella formatet gör varje produkt säljbar globalt. Prissätt enskilda temapaket till 30–50 SEK.',
       platform: 'Etsy',
     },
     {
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers handskriftsberedskaps stationer',
-      description: 'Bygg nivåindelade handskriftsberedskaps stationer med linjetyp som progressionsaxel. Station 1 täcker horisontella linjer för vänster-till-höger spårning. Station 2 riktar sig mot vertikala linjer för uppifrån-och-ner streck. Station 3 introducerar kurvor för bokstavsformande rörelser. Station 4 utmanar eleverna med diagonaler för angulära bokstavsformer. Varje station riktar sig mot en specifik förskrivningsfärdighet. Det textfria visuella formatet fungerar i alla klassrum oavsett elevernas språkbakgrund.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad handskriftsberedskaps stationer',
+      description: 'Bygg nivåindelade handskriftsberedskaps stationer med linjetyp som progressionsaxel. Station 1 täcker horisontella linjer för vänster-till-höger spårning. Station 2 riktar sig mot vertikala linjer för uppifrån-och-ner streck. Station 3 introducerar kurvor för bokstavsformande rörelser. Station 4 utmanar användarna med diagonaler för angulära bokstavsformer. Varje station riktar sig mot en specifik förskrivningsfärdighet. Det textfria visuella formatet fungerar i alla produktlinje oavsett användarnas språkbakgrund.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest linjespårning visuell tratt',
-      description: 'Linjespårnings arbetsblad med färgglada bildpar och distinkta SVG-linjevägar gör iögonfallande Pinterest-pins. Pinna provarbetsblad som visar olika linjetyper med vattenstämpel. Det textfria formatet innebär att pins tilltalar föräldrar och lärare i varje land.',
+      description: 'Linjespårnings arbetsblad med färgglada bildpar och distinkta SVG-linjevägar gör iögonfallande Pinterest-pins. Pinna provarbetsblad som visar olika linjetyper med vattenstämpel. Det textfria formatet innebär att pins tilltalar föräldrar och säljare i varje land.',
       platform: 'Pinterest',
     },
     {
@@ -141,11 +141,11 @@ const content: ToolContent = {
     },
     {
       title: 'Framhäv färgglada teman som visuell engagemangsfördel',
-      description: 'Rita Linjer använder färgglada illustrationer, inte svartvita konturer. Framhäv detta i dina produktannonser — färgglada bildpar gör arbetsblad visuellt engagerande för unga elever och skapar mer attraktiva Etsy-miniatyrer.',
+      description: 'Rita Linjer använder färgglada illustrationer, inte svartvita konturer. Framhäv detta i dina produktannonser — färgglada bildpar gör arbetsblad visuellt engagerande för unga användare och skapar mer attraktiva Etsy-miniatyrer.',
     },
     {
       title: 'Använd gråskala för kostnadseffektiv utskrift',
-      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller klassrumsbulkutskrift. Även i gråskala förblir bildparen visuellt distinkta nog för matchning, och SVG-linjevägarna reproduceras perfekt i svartvitt.',
+      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Även i gråskala förblir bildparen visuellt distinkta nog för matchning, och SVG-linjevägarna reproduceras perfekt i svartvitt.',
     },
     {
       title: 'Kombinera linjespårning med andra visuella verktyg för premiumpaket',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar bildparmatchning?',
-      answer: 'Varje mall placerar matchade bildpar på motsatta sidor av linjevägen. En bild visas vid linjens start och dess match visas vid slutet. Eleverna spårar längs den guidade vägen för att koppla samman de matchande bilderna. Mallar rymmer 4 eller 5 par beroende på linjetyp. De matchande bilderna ger eleverna ett visuellt mål som motiverar dem att slutföra varje linje.',
+      answer: 'Varje mall placerar matchade bildpar på motsatta sidor av linjevägen. En bild visas vid linjens start och dess match visas vid slutet. användarna spårar längs den guidade vägen för att koppla samman de matchande bilderna. Mallar rymmer 4 eller 5 par beroende på linjetyp. De matchande bilderna ger användarna ett visuellt mål som motiverar dem att slutföra varje linje.',
     },
     {
       question: 'Hur fungerar autofyllning för batchskapande?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Varför finns det inget facit?',
-      answer: 'Rita Linjer arbetsblad behöver inget separat facit eftersom linjevägen i sig guidar eleven. SVG-linjemallen utskriven på arbetsbladet visar exakt var man ska spåra — eleverna följer den synliga vägen från en bild till dess match. Övningen är självkontrollerande: om elevens linje följer vägen och når den matchande bilden har de slutfört den korrekt.',
+      answer: 'Rita Linjer arbetsblad behöver inget separat facit eftersom linjevägen i sig guidar användaren. SVG-linjemallen utskriven på arbetsbladet visar exakt var man ska spåra — användarna följer den synliga vägen från en bild till dess match. Övningen är självkontrollerande: om användarens linje följer vägen och når den matchande bilden har de slutfört den korrekt.',
     },
     {
       question: 'Är dessa arbetsblad språkkänsliga?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja linjespårnings arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, lärarresurser på TPT eller genom valfri annan försäljningskanal. De åtta distinkta mallarna, 104 färgglada teman, autofyllningsarbetsflödet och det textfria visuella formatet skapar stark differentiering och global säljbarhet.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja linjespårnings arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De åtta distinkta mallarna, 104 färgglada teman, autofyllningsarbetsflödet och det textfria visuella formatet skapar stark differentiering och global säljbarhet.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

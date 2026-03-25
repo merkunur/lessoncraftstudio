@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Saknade Bitar Skapare',
     tagline: 'Pusselarbetsblad generator med 6 bitformer (fyrkant, cirkel, rektangel stående/liggande, ellips stående/liggande), 1–5 saknade bitar med 2–6 lösningsalternativ inklusive distraktorer, smart bitextraktion med färgvariansdetektering och 250px minimavstånd, automatiskt genererade facit med gulmarkerade nummertiketter, dubbelramssystem i blågrön och het rosa, och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella pusselarbetsblad där en bild har hål utklippta och eleverna identifierar vilket numrerat alternativ som fyller varje lucka. Den smarta bitextraktions-algoritmen testar upp till 150 placeringsförsök för att hitta bitar med tillräcklig färgvarians (minsta ljusstyrkavarians 15) med minst 250 pixlars avstånd mellan bitar. Bitstorlek beräknas som 12% av bildens bredd med minimum 50 pixlar. Välj bland 6 bitformer: fyrkant (standard) och cirkel för rena geometriska klipp, rektangel stående/liggande för avlånga hål, ellips stående/liggande för mjukare kurvade klipp. Konfigurera svårigheten med två oberoende kontroller: 1–5 saknade bitar och 2–6 lösningsalternativ. Distraktorbitar extraheras från icke-överlappande områden. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål. En automatiskt genererad rubrik renderar «Saknade bitar» i turkos (#06B6D4) med rosarosa beskrivning (#DB2777) och dubbelramsystem — blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px). Saknade Bitar är INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella pusselarbetsblad där en bild har hål utklippta och användarna identifierar vilket numrerat alternativ som fyller varje lucka. Den smarta bitextraktions-algoritmen testar upp till 150 placeringsförsök för att hitta bitar med tillräcklig färgvarians (minsta ljusstyrkavarians 15) med minst 250 pixlars avstånd mellan bitar. Bitstorlek beräknas som 12% av bildens bredd med minimum 50 pixlar. Välj bland 6 bitformer: fyrkant (standard) och cirkel för rena geometriska klipp, rektangel stående/liggande för avlånga hål, ellips stående/liggande för mjukare kurvade klipp. Konfigurera svårigheten med två oberoende kontroller: 1–5 saknade bitar och 2–6 lösningsalternativ. Distraktorbitar extraheras från icke-överlappande områden. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål. En automatiskt genererad rubrik renderar «Saknade bitar» i turkos (#06B6D4) med rosarosa beskrivning (#DB2777) och dubbelramsystem — blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px). Saknade Bitar är INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera pusselsvårighet med två oberoende kontroller',
-        description: 'Öppna panelen Pusselkonfiguration. Ställ in antal saknade bitar 1–5 — kontrollerar hur många hål som klipps ut. Ställ in antal lösningsalternativ 2–6 — kontrollerar hur många numrerade val eleverna utvärderar, inklusive distraktorer. Ett pussel med 1 saknad bit och 2 alternativ är tillgängligt; 5 saknade bitar med 6 alternativ är genuint utmanande.',
+        description: 'Öppna panelen Pusselkonfiguration. Ställ in antal saknade bitar 1–5 — kontrollerar hur många hål som klipps ut. Ställ in antal lösningsalternativ 2–6 — kontrollerar hur många numrerade val användarna utvärderar, inklusive distraktorer. Ett pussel med 1 saknad bit och 2 alternativ är tillgängligt; 5 saknade bitar med 6 alternativ är genuint utmanande.',
       },
       {
         title: 'Välj en bitform bland 6 alternativ',
@@ -72,12 +72,12 @@ const content: ToolContent = {
       description: 'Sammanställ 50–100 pusselarbetsblad till tryckta arbetsböcker för Amazon KDP. Strukturera kapitel: Kapitel 1 med 1 saknad bit och 2 alternativ, Kapitel 2 med 3 saknade bitar och 4 alternativ, Kapitel 3 med 5 saknade bitar och 6 alternativ inklusive distraktorer. Facitsidor i slutet. Det rent visuella formatet kräver ingen översättning.',
     },
     {
-      title: 'Klassrums visuella diskrimineringsaktiviteter med facit',
-      description: 'Bygg klassrumsfärdiga pusselarbetsblad med facit för självkontrollerande stationer. Tvåaxliga svårighetssystemet låter dig differentiera — 1 saknad bit för kämpande elever, 5 saknade bitar med distraktorer för avancerade. Varje arbetsblad exporteras med autogenererat facit.',
+      title: 'produktlinjes visuella diskrimineringsaktiviteter med facit',
+      description: 'Bygg produktlinjesfärdiga pusselarbetsblad med facit för självkontrollerande stationer. Tvåaxliga svårighetssystemet låter dig differentiera — 1 saknad bit för kämpande användare, 5 saknade bitar med distraktorer för avancerade. Varje arbetsblad exporteras med autogenererat facit.',
     },
     {
       title: 'Anpassade foto pusselarbetsblad-produkter',
-      description: 'Ladda upp egna bilder för familjefoton pussel, husdjursfoton pussel och klassrumsgrupps pussel. Den smarta bitextraktionen fungerar på valfri uppladdad bild. Blanda bitformer för maximal variation.',
+      description: 'Ladda upp egna bilder för familjefoton pussel, husdjursfoton pussel och produktlinjesgrupps pussel. Den smarta bitextraktionen fungerar på valfri uppladdad bild. Blanda bitformer för maximal variation.',
     },
     {
       title: 'Säsongsbetonade saknade bitar-samlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums pusselaktivitetspaket',
-      description: 'Ladda upp pusselaktivitetspaket till TPT med autogenererade facit och konfigurerbar svårighet som nyckelsäljpunkter. Lärare söker efter visuella diskriminerings- och kritiskt tänkande-aktiviteter. Skapa läroplansangränsande set. Varje paket inkluderar flera svårighetsnivåer. Sex bitformer ger variation.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes pusselaktivitetspaket',
+      description: 'Ladda upp pusselaktivitetspaket till Gumroad med autogenererade facit och konfigurerbar svårighet som nyckelsäljpunkter. säljare söker efter visuella diskriminerings- och kritiskt tänkande-aktiviteter. Skapa produktkatalogsangränsande set. Varje paket inkluderar flera svårighetsnivåer. Sex bitformer ger variation.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest pusselarbetsblad trafiktratt',
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Utnyttja distraktorbitar för premium svårighetsprodukter',
-      description: 'När lösningsalternativ överstiger saknade bitar är de extra alternativen distraktorer. Distraktorer tvingar eleverna att noggrant jämföra visuella detaljer. Skapa svårighetsnivåer: enkla pussel utan distraktorer och svåra pussel med 2–3 extra distraktorer.',
+      description: 'När lösningsalternativ överstiger saknade bitar är de extra alternativen distraktorer. Distraktorer tvingar användarna att noggrant jämföra visuella detaljer. Skapa svårighetsnivåer: enkla pussel utan distraktorer och svåra pussel med 2–3 extra distraktorer.',
     },
     {
       title: 'Utnyttja tvåaxlig svårighet för progressiv arbetsbok design',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar saknade bitar-pusselmekaniken?',
-      answer: 'Generatorn tar en bild och klipper ut 1–5 bitar, lämnar vita hål med svarta konturer (2px). Den visar sedan 2–6 numrerade lösningsalternativ — korrekta bitar plus distraktorer extraherade från andra icke-överlappande områden. Eleverna identifierar vilket alternativ som fyller varje lucka. Facit visar gulmarkerade nummertiketter inuti varje hål.',
+      answer: 'Generatorn tar en bild och klipper ut 1–5 bitar, lämnar vita hål med svarta konturer (2px). Den visar sedan 2–6 numrerade lösningsalternativ — korrekta bitar plus distraktorer extraherade från andra icke-överlappande områden. användarna identifierar vilket alternativ som fyller varje lucka. Facit visar gulmarkerade nummertiketter inuti varje hål.',
     },
     {
       question: 'Vilka 6 bitformer finns?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vad är distraktorbitar?',
-      answer: 'Extra lösningsalternativ som inte matchar något hål. Extraheras från annorlunda områden med upp till 200 försök vardera. Tvingar eleverna att jämföra visuella detaljer istället för att lösa genom eliminering.',
+      answer: 'Extra lösningsalternativ som inte matchar något hål. Extraheras från annorlunda områden med upp till 200 försök vardera. Tvingar användarna att jämföra visuella detaljer istället för att lösa genom eliminering.',
     },
     {
       question: 'Hur fungerar den smarta bitextraktionen?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja pusselarbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan kanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

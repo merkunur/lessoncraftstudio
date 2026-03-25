@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare vreemde eend puzzel maker voor Etsy verkopers',
       'welke hoort er niet bij werkblad generator voor KDP uitgevers',
-      'visuele discriminatie werkblad maker commerciële licentie TPT',
-      'vind de vreemde eend puzzels verkopen op Teachers Pay Teachers',
+      'visuele discriminatie werkblad maker commerciële licentie Gumroad',
+      'vind de vreemde eend puzzels verkopen op Gumroad',
     ],
     lsiKeywords: [
       'digitale welke hoort er niet bij printables online bedrijf',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Welke Hoort Er Niet Bij Generator | Maak Werkbladen',
     metaDescription:
-      'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy, KDP & TPT. Twee puzzelmodi, automatisch antwoordblad met rode cirkels, 104 thema\'s.',
+      'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy, KDP & Gumroad. Twee puzzelmodi, automatisch antwoordblad met rode cirkels, 104 thema\'s.',
   },
 
   hero: {
@@ -24,7 +24,7 @@ const content: AppContent = {
     tagline:
       'Twee generatiemodi — Identiek en Vergelijkbaar — met per-oefening moeilijkheidsoverschrijving, 5–10 instelbare oefeningen, automatisch gegenereerde antwoordbladen met rode cirkelmarkeringen, en puur visuele puzzels die in alle 11 talen werken zonder vertaling.',
     description:
-      'Maak professionele vind-de-vreemde-eend werkbladen waarbij leerlingen het afwijkende item in elke rij van vier afbeeldingen identificeren en omcirkelen. Kies tussen twee generatiemodi: Identiek modus plaatst drie klonen van dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema voor zoek-het-verschil uitdagingen, terwijl Vergelijkbaar modus drie afbeeldingen uit Thema A en één afbeelding uit Thema B gebruikt voor cross-thema discriminatiepuzzels. Overschrijf de modus per oefening om moeilijkheidsniveaus te mixen binnen één werkblad. Configureer 5 tot 10 oefeningen per pagina met de standaard ingesteld op 6, en schakel optionele naam- en datumvelden en oefeningnummers in voor klasklare opmaak. Elk werkblad genereert een bijbehorend antwoordblad op een apart canvastabblad — het antwoordblad tekent een rode cirkel rond het vreemde item in elke rij zodat je nooit handmatig antwoorden markeert. De automatisch gegenereerde koptekst bevat een koraalrood buitenkader (#FF6B6B, 8px lijndikte), amberkleurig binnenkader (#FFB84D, 3px lijndikte) en turquoise achtergrond (#4ECDC4) met de gelokaliseerde titel "Vind de Vreemde Eend" in donker groenblauw Fredoka (#1A535C) en instructies in rood Quicksand (#E63946) in alle 11 talen. Omdat de puzzels volledig visueel zijn — er verschijnen geen woorden op het werkblad zelf — zijn ze niet taalgevoelig en werken ze identiek in elke taal. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu visuele puzzelbundels verkoopt op Etsy.nl, kritisch denken werkboeken samenstelt voor Amazon KDP, of klasactiviteiten maakt voor TPT — deze generator levert productieklare welke hoort er niet bij werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele vind-de-vreemde-eend werkbladen waarbij gebruikers het afwijkende item in elke rij van vier afbeeldingen identificeren en omcirkelen. Kies tussen twee generatiemodi: Identiek modus plaatst drie klonen van dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema voor zoek-het-verschil uitdagingen, terwijl Vergelijkbaar modus drie afbeeldingen uit Thema A en één afbeelding uit Thema B gebruikt voor cross-thema discriminatiepuzzels. Overschrijf de modus per oefening om moeilijkheidsniveaus te mixen binnen één werkblad. Configureer 5 tot 10 oefeningen per pagina met de standaard ingesteld op 6, en schakel optionele naam- en datumvelden en oefeningnummers in voor klasklare opmaak. Elk werkblad genereert een bijbehorend antwoordblad op een apart canvastabblad — het antwoordblad tekent een rode cirkel rond het vreemde item in elke rij zodat je nooit handmatig antwoorden markeert. De automatisch gegenereerde koptekst bevat een koraalrood buitenkader (#FF6B6B, 8px lijndikte), amberkleurig binnenkader (#FFB84D, 3px lijndikte) en turquoise achtergrond (#4ECDC4) met de gelokaliseerde titel "Vind de Vreemde Eend" in donker groenblauw Fredoka (#1A535C) en instructies in rood Quicksand (#E63946) in alle 11 talen. Omdat de puzzels volledig visueel zijn — er verschijnen geen woorden op het werkblad zelf — zijn ze niet taalgevoelig en werken ze identiek in elke taal. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu visuele puzzelbundels verkoopt op Etsy.nl, kritisch denken werkboeken samenstelt voor Amazon KDP, of klasactiviteiten maakt voor Gumroad — deze generator levert productieklare welke hoort er niet bij werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -53,7 +53,7 @@ const content: AppContent = {
       {
         title: 'Genereer het antwoordblad en download',
         description:
-          'Schakel naar het tabblad Antwoordblad om het automatisch gegenereerde antwoordblad te bekijken met een rode cirkel rond het vreemde item in elke oefeningrij. De lijndikte van de cirkel schaalt mee met de afbeeldingsgrootte (het maximum van imageSize × 0,04 of 3 pixels) voor consistente zichtbaarheid bij alle paginaformaten. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF op 300 DPI. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden.',
+          'Schakel naar het tabblad Antwoordblad om het automatisch gegenereerde antwoordblad te bekijken met een rode cirkel rond het vreemde item in elke oefeningrij. De lijndikte van de cirkel schaalt mee met de afbeeldingsgrootte (het maximum van imageSize × 0,04 of 3 pixels) voor consistente zichtbaarheid bij alle paginaformaten. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF op 300 DPI. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.',
       },
     ],
   },
@@ -64,17 +64,17 @@ const content: AppContent = {
       {
         title: 'Vind de Vreemde Eend Puzzels met Twee Generatiemodi',
         description:
-          'Elke oefening toont vier afbeeldingen in een horizontale kaart — drie gemeenschappelijke items en één vreemd item — en leerlingen omcirkelen degene die er niet bij hoort. De generator biedt twee verschillende modi. Identiek modus plaatst drie klonen van exact dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema, waardoor een eenvoudige zoek-het-verschil uitdaging ontstaat. Vergelijkbaar modus haalt drie afbeeldingen uit Thema A (bijv. dieren) en één afbeelding uit Thema B (bijv. voedsel), waarbij leerlingen de thematische buitenstaander moeten identificeren in plaats van een visuele kopie. Elke modus produceert een fundamenteel andere cognitieve uitdaging vanuit dezelfde afbeeldingenbibliotheek. Dit maakt welke hoort er niet bij werkbladen bijzonder veelzijdig voor Etsy-verkopers: één tool levert twee compleet verschillende puzzeltypen.',
+          'Elke oefening toont vier afbeeldingen in een horizontale kaart — drie gemeenschappelijke items en één vreemd item — en gebruikers omcirkelen degene die er niet bij hoort. De generator biedt twee verschillende modi. Identiek modus plaatst drie klonen van exact dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema, waardoor een eenvoudige zoek-het-verschil uitdaging ontstaat. Vergelijkbaar modus haalt drie afbeeldingen uit Thema A (bijv. dieren) en één afbeelding uit Thema B (bijv. voedsel), waarbij gebruikers de thematische buitenstaander moeten identificeren in plaats van een visuele kopie. Elke modus produceert een fundamenteel andere cognitieve uitdaging vanuit dezelfde afbeeldingenbibliotheek. Dit maakt welke hoort er niet bij werkbladen bijzonder veelzijdig voor Etsy-verkopers: één tool levert twee compleet verschillende puzzeltypen.',
       },
       {
         title: 'Per-Oefening Modusoverschrijving voor Werkbladen met Gemixte Moeilijkheid',
         description:
-          'Elke oefeningrij bevat een eigen modusdropdown waarmee je de globale modus per oefening kunt overschrijven. Begin met makkelijke Identieke oefeningen bovenaan en ga over naar moeilijkere Vergelijkbare oefeningen onderaan — of wissel modi af voor gevarieerde uitdaging. Een knop "Selecties Wissen" zet alle per-oefening overschrijvingen terug naar de globale instelling. Deze gedetailleerde controle laat verkopers progressieve moeilijkheidswerkbladen maken die meerdere vaardigheidsniveaus bedienen op één pagina, waardoor de waargenomen waarde van elke printable toeneemt. Voor Nederlandse leerkrachten die gedifferentieerd lesmateriaal zoeken, is dit bijzonder waardevol: één werkblad met groep 3-niveau oefeningen bovenaan en groep 6-niveau uitdagingen onderaan.',
+          'Elke oefeningrij bevat een eigen modusdropdown waarmee je de globale modus per oefening kunt overschrijven. Begin met makkelijke Identieke oefeningen bovenaan en ga over naar moeilijkere Vergelijkbare oefeningen onderaan — of wissel modi af voor gevarieerde uitdaging. Een knop "Selecties Wissen" zet alle per-oefening overschrijvingen terug naar de globale instelling. Deze gedetailleerde controle laat verkopers progressieve moeilijkheidswerkbladen maken die meerdere vaardigheidsniveaus bedienen op één pagina, waardoor de waargenomen waarde van elke printable toeneemt. Voor Nederlandse verkopers die gedifferentieerd printbare producten zoeken, is dit bijzonder waardevol: één werkblad met groep 3-niveau oefeningen bovenaan en groep 6-niveau uitdagingen onderaan.',
       },
       {
         title: 'Instelbaar Aantal Oefeningen van 5 tot 10 Per Werkblad',
         description:
-          'Stel het aantal oefeningen in van 5 tot 10 met het paneel Oefeningconfiguratie, met de standaard op 6. Minder oefeningen creëren werkbladen met grotere afbeeldingskaarten en meer ruimte — ideaal voor jongere leerlingen of werkbladen bedoeld voor fijne motoriek waarbij omcirkelen ruimte nodig heeft. Meer oefeningen verhogen de inhoudsdichtheid en uitdaging voor oudere leerlingen. De indeling past zich automatisch aan: staande pagina\'s met 7 of meer oefeningen schakelen naar een 2-koloms indeling, en liggende pagina\'s gebruiken altijd 2 kolommen voor optimale ruimteverdeling. Voor Etsy-verkopers op Etsy.nl: bied dezelfde puzzel in twee varianten aan — een versie met 5 oefeningen voor kleuters en een versie met 10 oefeningen voor groep 5–8, waarmee je twee producten uit één ontwerp creëert.',
+          'Stel het aantal oefeningen in van 5 tot 10 met het paneel Oefeningconfiguratie, met de standaard op 6. Minder oefeningen creëren werkbladen met grotere afbeeldingskaarten en meer ruimte — ideaal voor jongere gebruikers of werkbladen bedoeld voor fijne motoriek waarbij omcirkelen ruimte nodig heeft. Meer oefeningen verhogen de inhoudsdichtheid en uitdaging voor oudere gebruikers. De indeling past zich automatisch aan: staande pagina\'s met 7 of meer oefeningen schakelen naar een 2-koloms indeling, en liggende pagina\'s gebruiken altijd 2 kolommen voor optimale ruimteverdeling. Voor Etsy-verkopers op Etsy.nl: bied dezelfde puzzel in twee varianten aan — een versie met 5 oefeningen voor kleuters en een versie met 10 oefeningen voor groep 5–8, waarmee je twee producten uit één ontwerp creëert.',
       },
       {
         title: 'Twee-Thema Systeem met Thema A (Gemeenschappelijk) en Thema B (Vreemd)',
@@ -116,20 +116,20 @@ const content: AppContent = {
       {
         title: 'Visuele Discriminatie Werkboeken op Amazon KDP',
         description:
-          'Stel 40–80 welke hoort er niet bij werkbladen samen in een gedrukt werkboek geformateerd voor Amazon KDP. Structureer je boek met progressieve moeilijkheid: vroege hoofdstukken gebruiken Identiek modus (zoek de niet-kloon), middelste hoofdstukken gebruiken Vergelijkbaar modus met duidelijke themacontrasten, en gevorderde hoofdstukken gebruiken Vergelijkbaar modus met subtielere onderscheidingen. Gebruik de per-oefening modusoverschrijving om werkbladen met gemixte moeilijkheid te maken die leerlingen uitdagen om tussen visuele strategieën te wisselen. Neem antwoordbladen op achterin met het automatisch gegenereerde rode-cirkel antwoordblad. De grijstinten-schakelaar produceert inktbesparende pagina\'s voor zwart-wit boekbinnenwerken. Omdat de puzzels puur visueel zijn, is één werkboek verkoopbaar op elke markt — publiceer in het Nederlands, Duits, Frans en Engels zonder wijzigingen aan de puzzelinhoud.',
+          'Stel 40–80 welke hoort er niet bij werkbladen samen in een gedrukt werkboek geformateerd voor Amazon KDP. Structureer je boek met progressieve moeilijkheid: vroege hoofdstukken gebruiken Identiek modus (zoek de niet-kloon), middelste hoofdstukken gebruiken Vergelijkbaar modus met duidelijke themacontrasten, en gevorderde hoofdstukken gebruiken Vergelijkbaar modus met subtielere onderscheidingen. Gebruik de per-oefening modusoverschrijving om werkbladen met gemixte moeilijkheid te maken die gebruikers uitdagen om tussen visuele strategieën te wisselen. Neem antwoordbladen op achterin met het automatisch gegenereerde rode-cirkel antwoordblad. De grijstinten-schakelaar produceert inktbesparende pagina\'s voor zwart-wit boekbinnenwerken. Omdat de puzzels puur visueel zijn, is één werkboek verkoopbaar op elke markt — publiceer in het Nederlands, Duits, Frans en Engels zonder wijzigingen aan de puzzelinhoud.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Kritisch Denken Activiteiten voor het Klaslokaal op TPT',
+        title: 'Kritisch Denken Activiteiten voor het winkel op Gumroad',
         description:
-          'Maak kant-en-klare welke hoort er niet bij werkbladen met naam- en datumvelden, oefeningnummers en afgedrukte antwoordbladen. Leerkrachten die TPT doorzoeken voor kritisch denken activiteiten waarderen werkbladen die klasklaar aankomen — het naamveld garandeert verantwoording, oefeningnummers maken klasdiscussie efficiënt, en het rode-cirkel antwoordblad bespaart nakijktijd. Maak curriculumgerichte sets: dierenclassificatie-uitdagingen, voedselgroep-discriminatie, beroepen-identificatie en seizoensbewustzijnspuzzels. Elke set bevat werkbladen voor leerlingen en antwoordbladen in zowel PDF- als JPEG-formaat. Voor het Nederlandse basisonderwijs zijn welke hoort er niet bij puzzels bijzonder geschikt voor groep 1–4 (kleuterschool en onderbouw) waar visuele discriminatievaardigheden centraal staan.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Maak kant-en-klare welke hoort er niet bij werkbladen met naam- en datumvelden, oefeningnummers en afgedrukte antwoordbladen. verkopers die Gumroad doorzoeken voor kritisch denken activiteiten waarderen werkbladen die verkoopklaar aankomen — het naamveld garandeert verantwoording, oefeningnummers maken klasdiscussie efficiënt, en het rode-cirkel antwoordblad bespaart waargenomen waarde. Maak productcatalogusgerichte sets: dierenclassificatie-uitdagingen, voedselgroep-discriminatie, beroepen-identificatie en seizoensbewustzijnspuzzels. Elke set bevat werkbladen voor gebruikers en antwoordbladen in zowel PDF- als JPEG-formaat. Voor het Nederlandse basisonderwijs zijn welke hoort er niet bij puzzels bijzonder geschikt voor groep 1–4 (kleuterschool en onderbouw) waar visuele discriminatievaardigheden centraal staan.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Seizoens- en Feestdagen Puzzelcollecties',
         description:
-          'De 104 thematische beeldcollecties dekken elk seizoens- en feestdagenmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, Sinterklaas, Koningsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden welke hoort er niet bij collecties die aansluiten bij piekverkoopperiodes. Breng Halloween-puzzelbundels uit in september, Sinterklaas-collecties in oktober, Kerstcollecties in november en Valentijnspakketten in januari. Mix Identieke en Vergelijkbare modi binnen elke seizoenscollectie voor variatie en waargenomen waarde. Seizoensproducten vragen hogere prijzen tijdens hun piekperiode — een Sinterklaas welke hoort er niet bij bundel met 15 werkbladen en antwoordbladen voor €5–€7 op Etsy.nl is bijzonder aantrekkelijk voor Nederlandse ouders en leerkrachten die zoeken naar creatieve feestdagactiviteiten.',
-        platform: 'Etsy / Amazon KDP / TPT (seizoensgebonden)',
+          'De 104 thematische beeldcollecties dekken elk seizoens- en feestdagenmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, Sinterklaas, Koningsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden welke hoort er niet bij collecties die aansluiten bij piekverkoopperiodes. Breng Halloween-puzzelbundels uit in september, Sinterklaas-collecties in oktober, Kerstcollecties in november en Valentijnspakketten in januari. Mix Identieke en Vergelijkbare modi binnen elke seizoenscollectie voor variatie en waargenomen waarde. Seizoensproducten vragen hogere prijzen tijdens hun piekperiode — een Sinterklaas welke hoort er niet bij bundel met 15 werkbladen en antwoordbladen voor €5–€7 op Etsy.nl is bijzonder aantrekkelijk voor Nederlandse ouders en verkopers die zoeken naar creatieve feestdagactiviteiten.',
+        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
       },
       {
         title: 'Wereldwijde Marktaantrekkingskracht met Puur Visuele Puzzels',
@@ -144,12 +144,12 @@ const content: AppContent = {
     {
       question: 'Hoe werkt het welke hoort er niet bij mechanisme?',
       answer:
-        'Elke oefening toont vier afbeeldingen in een horizontale kaart — drie gemeenschappelijke items en één vreemd item. Leerlingen bekijken de rij, identificeren welke afbeelding er niet bij hoort, en omcirkelen deze. De positie van het vreemde item wordt willekeurig geschud binnen de rij, zodat het in elk van de vier posities kan verschijnen. Oefeningen worden verticaal op de pagina gerangschikt, waarbij de indeling overschakelt naar 2 kolommen bij liggende oriëntatie of staand met 7 of meer oefeningen.',
+        'Elke oefening toont vier afbeeldingen in een horizontale kaart — drie gemeenschappelijke items en één vreemd item. gebruikers bekijken de rij, identificeren welke afbeelding er niet bij hoort, en omcirkelen deze. De positie van het vreemde item wordt willekeurig geschud binnen de rij, zodat het in elk van de vier posities kan verschijnen. Oefeningen worden verticaal op de pagina gerangschikt, waarbij de indeling overschakelt naar 2 kolommen bij liggende oriëntatie of staand met 7 of meer oefeningen.',
     },
     {
       question: 'Wat is het verschil tussen Identiek en Vergelijkbaar modus?',
       answer:
-        'Identiek modus plaatst drie klonen van exact dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema — leerlingen zoeken de niet-kopie. Vergelijkbaar modus haalt drie afbeeldingen uit Thema A (bijv. dieren) en één afbeelding uit Thema B (bijv. voedsel) — leerlingen identificeren de thematische buitenstaander. Identiek modus is makkelijker omdat leerlingen visuele kopieën vergelijken. Vergelijkbaar modus is moeilijker omdat alle vier afbeeldingen verschillend zijn en het onderscheid categorisch is in plaats van visueel.',
+        'Identiek modus plaatst drie klonen van exact dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema — gebruikers zoeken de niet-kopie. Vergelijkbaar modus haalt drie afbeeldingen uit Thema A (bijv. dieren) en één afbeelding uit Thema B (bijv. voedsel) — gebruikers identificeren de thematische buitenstaander. Identiek modus is makkelijker omdat gebruikers visuele kopieën vergelijken. Vergelijkbaar modus is moeilijker omdat alle vier afbeeldingen verschillend zijn en het onderscheid categorisch is in plaats van visueel.',
     },
     {
       question: 'Hoe werkt de per-oefening modusoverschrijving?',
@@ -169,17 +169,17 @@ const content: AppContent = {
     {
       question: 'Hoe werkt het automatisch gegenereerde antwoordblad met rode cirkels?',
       answer:
-        'De generator gebruikt een dubbel canvassysteem met een Werkblad-tabblad en een Antwoordblad-tabblad. Het werkblad toont de oefenkaarten zonder markeringen — leerlingen omcirkelen zelf het vreemde item. Het antwoordblad reproduceert de identieke indeling en tekent een rode cirkelomtrek rond het vreemde item in elke rij. De lijndikte van de cirkel schaalt dynamisch mee met de afbeeldingsgrootte (het maximum van imageSize × 0,04 of 3 pixels). Beide versies worden apart geëxporteerd met vier speciale downloadknoppen.',
+        'De generator gebruikt een dubbel canvassysteem met een Werkblad-tabblad en een Antwoordblad-tabblad. Het werkblad toont de oefenkaarten zonder markeringen — gebruikers omcirkelen zelf het vreemde item. Het antwoordblad reproduceert de identieke indeling en tekent een rode cirkelomtrek rond het vreemde item in elke rij. De lijndikte van de cirkel schaalt dynamisch mee met de afbeeldingsgrootte (het maximum van imageSize × 0,04 of 3 pixels). Beide versies worden apart geëxporteerd met vier speciale downloadknoppen.',
     },
     {
       question: 'Kan ik naam- en datumvelden toevoegen aan welke hoort er niet bij werkbladen?',
       answer:
-        'Ja. Schakel het selectievakje "Naam-/Datumvelden Toevoegen" in het paneel Oefeningconfiguratie in om naam- en datumlijnen toe te voegen. Deze velden positioneren zich responsief op basis van de pagina-indeling. Naam- en datumvelden maken werkbladen klasklaar — leerkrachten kunnen leerlingenwerk bijhouden en ouders kunnen voltooide activiteiten op datum organiseren.',
+        'Ja. Schakel het selectievakje "Naam-/Datumvelden Toevoegen" in het paneel Oefeningconfiguratie in om naam- en datumlijnen toe te voegen. Deze velden positioneren zich responsief op basis van de pagina-indeling. Naam- en datumvelden maken werkbladen verkoopklaar — verkopers kunnen gebruikerswerk bijhouden en ouders kunnen voltooide activiteiten op datum organiseren.',
     },
     {
       question: 'Hoe werken oefeningnummers?',
       answer:
-        'Schakel het selectievakje "Oefeningnummers Tonen" in het paneel Oefeningconfiguratie in om cijfers aan de linkerkant van elke oefenkaart weer te geven. Nummers gebruiken een breedte van 25px met een tussenruimte van 15px vanaf de kaartinhoud. Oefeningnummers helpen tijdens klasbeoordeling en maken het makkelijk voor leerkrachten om specifieke oefeningen te benoemen tijdens discussie.',
+        'Schakel het selectievakje "Oefeningnummers Tonen" in het paneel Oefeningconfiguratie in om cijfers aan de linkerkant van elke oefenkaart weer te geven. Nummers gebruiken een breedte van 25px met een tussenruimte van 15px vanaf de kaartinhoud. Oefeningnummers helpen tijdens klasbeoordeling en maken het makkelijk voor verkopers om specifieke oefeningen te benoemen tijdens discussie.',
     },
     {
       question: 'Is er een gratis proefversie?',
@@ -194,7 +194,7 @@ const content: AppContent = {
     {
       question: 'Kan ik welke hoort er niet bij werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je welke hoort er niet bij werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als lesmateriaal op TPT, of via elk ander verkoopkanaal. De twee generatiemodi, per-oefening overschrijvingen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare visuele discriminatieproducten te produceren.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je welke hoort er niet bij werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De twee generatiemodi, per-oefening overschrijvingen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare visuele discriminatieproducten te produceren.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -247,7 +247,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolleerlingen',
+      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
     },
     {
       pageType: 'start',

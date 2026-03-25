@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bilddiagram arbetsblad skapare för lärare',
+    primaryKeyword: 'bilddiagram arbetsblad skapare för säljare',
     secondaryKeywords: [
-      'piktogram arbetsblad skapare för klassrummet',
+      'piktogram arbetsblad skapare online',
       'diagramräkning arbetsblad för barn',
       'utskrivbara datadiagram arbetsblad för skolan',
-      'bilddiagram aktivitet skapare för lärare',
+      'bilddiagram aktivitet skapare för säljare',
     ],
     lsiKeywords: [
       'spritt bildsrutnät räkningsarbetsblad',
       'autofacit bilddiagram skapare',
-      'datarepresentation arbetsblad för klassrummet',
+      'datarepresentation arbetsblad online',
     ],
-    titleTag: 'Bilddiagram Arbetsblad Skapare — För Klassrummet',
-    metaDescription: 'Skapa bilddiagram arbetsblad för klassrummets matte. Spridda 4×5 rutnät, 6 bildtyper, automatiska facit, 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Bilddiagram Arbetsblad Skapare — online',
+    metaDescription: 'Skapa bilddiagram arbetsblad onlines matte. Spridda 4×5 rutnät, 6 bildtyper, automatiska facit, 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Diagramräkning Arbetsblad Skapare',
     tagline: 'Bilddiagram arbetsblad generator med spridda bildsrutnät, automatiskt genererade stapeldiagram-facit, lokaliserade rubriker på 11 språk och 104 tematiska bildsamlingar för datarepresentation arbetsblad som säljer globalt',
-    description: 'Skapa professionella bilddiagram arbetsblad där eleverna räknar spridda bilder och fyller i ett stapeldiagram nedanför — lär ut datainsamling och datarepresentation i en enda aktivitet. Varje arbetsblad har ett 4×5-rutnät med 20 ikoner från 6 olika bildtyper, varje typ förekommer 1–5 gånger i en slumpmässig fördelning som gör varje generering unik. Under rutnätet visar ett stapeldiagram med 6 kolumner × 5 rader var eleverna registrerar sina räkningar. Appen genererar samtidigt ett facit på en separat arbetsyteflik med gulmarkerade (#FFC857) celler som visar de korrekta antalen. Välj bilder automatiskt genom att välja ett tema från dropdownen — appen väljer slumpmässigt 6 bilder — eller bläddra manuellt i Bildbiblioteket med mer än 3 100 illustrationer i 104 tematiska samlingar och klicka exakt 6 bilder. Varje arbetsblad inkluderar en automatiskt genererad rubrik med en lokaliserad «Bilddiagram»-titel som anpassas till alla 11 stödda språk. Lägg till namn- och datumfält med en enda kryssruta. Applicera både bakgrundsteman och ramteman med oberoende opacitetsreglage (0–1, steg 0,05). Diagramräkning Generatorn är inte språkkänslig — visuell räkning med universella siffror och bilder gör arbetsbladen identiskt användbara på alla språk. Ladda ner fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Exportera i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar med gråskaleväxling för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella bilddiagram arbetsblad där användarna räknar spridda bilder och fyller i ett stapeldiagram nedanför — lär ut datainsamling och datarepresentation i en enda aktivitet. Varje arbetsblad har ett 4×5-rutnät med 20 ikoner från 6 olika bildtyper, varje typ förekommer 1–5 gånger i en slumpmässig fördelning som gör varje generering unik. Under rutnätet visar ett stapeldiagram med 6 kolumner × 5 rader var användarna registrerar sina räkningar. Appen genererar samtidigt ett facit på en separat arbetsyteflik med gulmarkerade (#FFC857) celler som visar de korrekta antalen. Välj bilder automatiskt genom att välja ett tema från dropdownen — appen väljer slumpmässigt 6 bilder — eller bläddra manuellt i Bildbiblioteket med mer än 3 100 illustrationer i 104 tematiska samlingar och klicka exakt 6 bilder. Varje arbetsblad inkluderar en automatiskt genererad rubrik med en lokaliserad «Bilddiagram»-titel som anpassas till alla 11 stödda språk. Lägg till namn- och datumfält med en enda kryssruta. Applicera både bakgrundsteman och ramteman med oberoende opacitetsreglage (0–1, steg 0,05). Diagramräkning Generatorn är inte språkkänslig — visuell räkning med universella siffror och bilder gör arbetsbladen identiskt användbara på alla språk. Ladda ner fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Exportera i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar med gråskaleväxling för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Granska det automatiskt genererade facit',
-        description: 'Klicka på fliken Facit för att se lösningen. Facit visar samma bildsrutnät och stapeldiagram, men de korrekta cellerna är fyllda med gul (#FFC857) markering. Lärare ser med en blick vilka celler eleverna ska fylla i. Facit genereras samtidigt med arbetsbladet — ingen manuell räkning, inget separat skapandesteg.',
+        description: 'Klicka på fliken Facit för att se lösningen. Facit visar samma bildsrutnät och stapeldiagram, men de korrekta cellerna är fyllda med gul (#FFC857) markering. säljare ser med en blick vilka celler användarna ska fylla i. Facit genereras samtidigt med arbetsbladet — ingen manuell räkning, inget separat skapandesteg.',
       },
       {
-        title: 'Lägg till elevfält och lokaliserad rubrik',
-        description: 'Kryssa i Inkludera Namn/Datum för att lägga till formaterade «Namn: ____» och «Datum: ____» fält längst ner (Fredoka 18px #333). Den automatiskt genererade rubriken visar «Bilddiagram»-titel och räkningsinstruktioner på det aktiva gränssnittsspråket — alla 11 språk stöds. Arbetsbladen blir klassrumsfärdiga i alla lokaler utan manuell textredigering.',
+        title: 'Lägg till namnfält och lokaliserad rubrik',
+        description: 'Kryssa i Inkludera Namn/Datum för att lägga till formaterade «Namn: ____» och «Datum: ____» fält längst ner (Fredoka 18px #333). Den automatiskt genererade rubriken visar «Bilddiagram»-titel och räkningsinstruktioner på det aktiva gränssnittsspråket — alla 11 språk stöds. Arbetsbladen blir produktlinjesfärdiga i alla lokaler utan manuell textredigering.',
       },
       {
         title: 'Anpassa med textverktyg och arbetsyteredigering',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mattestationsaktivitetsblad',
-      description: 'Bygg klassrumsfärdiga mattestationsaktiviteter med bilddiagram som inkluderar elevens namn- och datumfält. Lärare som söker efter diagramaktiviteter värdesätter arbetsblad med inbyggd elevidentifiering. Skapa temaspecifika set knutna till läroplansenheter: räkna bondgårdsdjur för livsvetenskap, diagram av väderikoner för geovetenskap. Varje arbetsblad levereras med sitt eget autogenererade facit.',
+      description: 'Bygg produktlinjesfärdiga mattestationsaktiviteter med bilddiagram som inkluderar namn- och datumfält. köpare som söker efter diagramaktiviteter värdesätter arbetsblad med inbyggd identifiering. Skapa temaspecifika set knutna till produktkatalogsenheter: räkna bondgårdsdjur för livsvetenskap, diagram av väderikoner för geovetenskap. Varje arbetsblad levereras med sitt eget autogenererade facit.',
     },
     {
       title: 'Säsongsbetonade räkne- och diagramsamlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT mattestations diagrampaket',
-      description: 'Ladda upp bilddiagram aktivitetspaket till TPT med namn/datum-fält som nyckelsäljpunkt. Lärare som söker efter mattestationsaktiviteter värdesätter arbetsblad som är omedelbart klassrumsfärdiga. Organisera efter läroplansämne: bondgårdsdjur för livsvetenskap, väderikoner för geovetenskap. Varje arbetsblad inkluderar sitt eget autogenererade facit. Den lokaliserade rubriken anpassas till 11 språk.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad mattestations diagrampaket',
+      description: 'Ladda upp bilddiagram aktivitetspaket till Gumroad med namn/datum-fält som nyckelsäljpunkt. köpare som söker efter mattestationsaktiviteter värdesätter arbetsblad som är omedelbart produktlinjesfärdiga. Organisera efter produktkatalogsämne: bondgårdsdjur för livsvetenskap, väderikoner för geovetenskap. Varje arbetsblad inkluderar sitt eget autogenererade facit. Den lokaliserade rubriken anpassas till 11 språk.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest bilddiagram trafiktratt',
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Utnyttja dubbelarbetsyte-systemet för premiumprodukter',
-      description: 'Den simultana arbetsblads- och facitgenereringen är din största konkurrensfördel. Varje bilddiagram arbetsblad kommer automatiskt med ett matchande facit med gulmarkerade celler. Inkludera facit med varje produktannons — lärare söker specifikt efter arbetsblad med inkluderade lösningar. Fyra-filers utmatningen innebär att varje generering producerar en komplett, säljbar produktuppsättning.',
+      description: 'Den simultana arbetsblads- och facitgenereringen är din största konkurrensfördel. Varje bilddiagram arbetsblad kommer automatiskt med ett matchande facit med gulmarkerade celler. Inkludera facit med varje produktannons — säljare söker specifikt efter arbetsblad med inkluderade lösningar. Fyra-filers utmatningen innebär att varje generering producerar en komplett, säljbar produktuppsättning.',
     },
     {
       title: 'Utnyttja slumpmässig fördelning för unika arbetsblad',
@@ -136,20 +136,20 @@ const content: ToolContent = {
       description: 'Till skillnad från appar med bara ramteman erbjuder Diagramräkning Generatorn oberoende bakgrunds- och ramteman med separata opacitetskontroller. Ställ in en subtil akvarellbakgrund vid 15–25% opacitet och lagra en dekorativ ram vid 80–100% opacitet. Denna dubbeltemametod skapar professionellt utseende arbetsblad som sticker ut.',
     },
     {
-      title: 'Rikta in dig på datarepresentation läroplans-nischen',
-      description: 'Bilddiagram är en specifik mattestandard i tidiga grundskoleläroplaner globalt. Lärare söker aktivt efter diagram- och datarepresentationsresurser. Positionera dina produkter med läroplansanpassade nyckelord: «bilddiagram», «stapeldiagram arbetsblad», «datarepresentation aktivitet» och «räkning och diagram».',
+      title: 'Rikta in dig på datarepresentation produktkatalogs-nischen',
+      description: 'Bilddiagram är en specifik mattestandard i tidiga grundskoleproduktkataloger globalt. säljare söker aktivt efter diagram- och datarepresentationsresurser. Positionera dina produkter med produktkatalogsanpassade nyckelord: «bilddiagram», «stapeldiagram arbetsblad», «datarepresentation aktivitet» och «räkning och diagram».',
     },
     {
       title: 'Bygg säsongssamlingar för återkommande intäkter',
       description: 'Skapa högtids- och säsongsbetonade bilddiagram-paket med tematiska samlingar. Släpp varje paket 4–6 veckor före relevant högtid. Jul, halloween, påsk, alla hjärtans dag, skolstart, sommar och vinterteman stöder var och en dedikerade produktannonser. Säsongsprodukter driver återkommande årliga intäkter.',
     },
     {
-      title: 'Inkludera namn/datum-fält för klassrumsfärdiga produkter',
-      description: 'Den enda kryssrutan som lägger till «Namn: ____» och «Datum: ____» fält förvandlar bilddiagram arbetsblad från generiska utskriftsbara till strukturerade klassrumsaktiviteter. Lärare på TPT söker specifikt efter «klassrumsfärdiga» och «print-and-go» resurser med elevidentifieringsområden.',
+      title: 'Inkludera namn/datum-fält för produktlinjesfärdiga produkter',
+      description: 'Den enda kryssrutan som lägger till «Namn: ____» och «Datum: ____» fält förvandlar bilddiagram arbetsblad från generiska utskriftsbara till strukturerade produktlinjesaktiviteter. säljare på Gumroad söker specifikt efter «produktlinjesfärdiga» och «print-and-go» resurser med identifieringsområden.',
     },
     {
       title: 'Sälj globalt med noll översättningsarbete',
-      description: 'Bilddiagram arbetsblad använder universella visuella element — spridda bilder som eleverna räknar och stapeldiagramceller de fyller i med siffror. Ingen textöversättning behövs. Den lokaliserade rubriken översätter automatiskt titeln och instruktionerna till 11 språk. Skapa en uppsättning arbetsblad och sälj samma filer globalt.',
+      description: 'Bilddiagram arbetsblad använder universella visuella element — spridda bilder som användarna räknar och stapeldiagramceller de fyller i med siffror. Ingen textöversättning behövs. Den lokaliserade rubriken översätter automatiskt titeln och instruktionerna till 11 språk. Skapa en uppsättning arbetsblad och sälj samma filer globalt.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar bilddiagram arbetsbladet?',
-      answer: 'Varje arbetsblad har två sammankopplade delar. Den övre sektionen visar ett 4×5-rutnät med 20 spridda ikoner från 6 olika bildtyper — varje typ förekommer 1–5 gånger i en slumpmässig fördelning. Den nedre sektionen visar ett stapeldiagram med 6 kolumner × 5 rader. Eleverna räknar hur många av varje bildtyp som finns i rutnätet och färglägger sedan motsvarande antal celler. Detta lär ut både datainsamling (räkning) och datarepresentation (diagram) i en enda aktivitet.',
+      answer: 'Varje arbetsblad har två sammankopplade delar. Den övre sektionen visar ett 4×5-rutnät med 20 spridda ikoner från 6 olika bildtyper — varje typ förekommer 1–5 gånger i en slumpmässig fördelning. Den nedre sektionen visar ett stapeldiagram med 6 kolumner × 5 rader. användarna räknar hur många av varje bildtyp som finns i rutnätet och färglägger sedan motsvarande antal celler. Detta lär ut både datainsamling (räkning) och datarepresentation (diagram) i en enda aktivitet.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja bilddiagram arbetsblad skapade med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja bilddiagram arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan försäljningskanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja bilddiagram arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal.',
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
@@ -214,7 +214,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/swedish/chart%20count/worksheet.webp',
-      primaryAlt: 'Bilddiagram arbetsblad med spritt 4×5 bildsrutnät som visar 20 ikoner från 6 typer och tomt stapeldiagram för eleverna att räkna och diagram data',
+      primaryAlt: 'Bilddiagram arbetsblad med spritt 4×5 bildsrutnät som visar 20 ikoner från 6 typer och tomt stapeldiagram för användarna att räkna och diagram data',
     },
     sampleGallery: [
       {

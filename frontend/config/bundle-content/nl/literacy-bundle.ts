@@ -22,33 +22,33 @@ const content: BundleContent = {
   hero: {
     title: 'Lezen & Taal Pakket',
     tagline: 'Zeven taalgestuurde werkblad generators — vermenigvuldig je productlijn over 11 talen',
-    description: 'Elke generator in deze bundel is taalbewust. Dat enkele feit transformeert je productcatalogus: één werkbladontwerp wordt 11 verschillende producten wanneer je wisselt tussen Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Het Lezen & Taal Pakket combineert zeven gespecialiseerde generators die alfabetherkenning, ruimtelijke voorzetsels, woordraden met afbeeldingsaanwijzingen, letterontscrambling, woordzoekrasters, zin-naar-afbeelding cryptogramcijfers en begeleide schrijfoefening dekken. Zes van de zeven generators produceren taalspecifieke inhoud — de woorden, letters en woordenschat op elk werkblad veranderen om bij de geselecteerde taal te passen, met correcte diakritische tekens, moedertaal-alfabetten en grammaticaal nauwkeurige formuleringen. De zevende, Schrijfoefeningen, richt zich op handschrift-streekpraktijk met minimale taalafhankelijkheid. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden. Zes van zeven bevatten automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload je eigen illustraties voor merkgebonden, nichespecifieke producten. Of je nu geletterdheid printables verkoopt op Etsy, taalwerkboeken publiceert op Amazon KDP, of materialen distribueert op Teachers Pay Teachers, deze bundel geeft je de variatie en het taalbereik dat eentalige concurrenten niet kunnen evenaren. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    description: 'Elke generator in deze bundel is taalbewust. Dat enkele feit transformeert je productcatalogus: één werkbladontwerp wordt 11 verschillende producten wanneer je wisselt tussen Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Het Lezen & Taal Pakket combineert zeven gespecialiseerde generators die alfabetherkenning, ruimtelijke voorzetsels, woordraden met afbeeldingsaanwijzingen, letterontscrambling, woordzoekrasters, zin-naar-afbeelding cryptogramcijfers en begeleide schrijfoefening dekken. Zes van de zeven generators produceren taalspecifieke inhoud — de woorden, letters en woordenschat op elk werkblad veranderen om bij de geselecteerde taal te passen, met correcte diakritische tekens, moedertaal-alfabetten en grammaticaal nauwkeurige formuleringen. De zevende, Schrijfoefeningen, richt zich op handschrift-streekpraktijk met minimale taalafhankelijkheid. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden. Zes van zeven bevatten automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload je eigen illustraties voor merkgebonden, nichespecifieke producten. Of je nu geletterdheid printables verkoopt op Etsy, taalwerkboeken publiceert op Amazon KDP, of materialen distribueert op Gumroad, deze bundel geeft je de variatie en het taalbereik dat eentalige concurrenten niet kunnen evenaren. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
   },
 
   appsIncluded: [
     {
       title: 'Alfabet Trein Werkblad Generator',
-      description: 'Maak treingeïnspireerde alfabetwerkbladen waarbij elke wagon een letter draagt gekoppeld aan een bijpassende afbeelding. Leerlingen verbinden letters met plaatjes, waardoor letter-klank associaties in een speels, visueel formaat worden versterkt. De generator ondersteunt alle 11 moedertaal-alfabetten — Duitse werkbladen bevatten umlauts en eszett, Scandinavische talen krijgen hun extra klinkers, en Spaans behoudt de tilde. Kies hoofdletters, kleine letters of gemengde letterpresentatie. Selecteer afbeeldingen uit meer dan 100 thematische sets of upload je eigen illustraties. Elk werkblad genereert automatisch een bijpassend antwoordblad. Het treinformaat is een bewezen bestseller in vroege geletterdheid omdat het ordenen, letterherkenning en woordenschatopbouw combineert in één boeiende activiteit.',
+      description: 'Maak treingeïnspireerde alfabetwerkbladen waarbij elke wagon een letter draagt gekoppeld aan een bijpassende afbeelding. gebruikers verbinden letters met plaatjes, waardoor letter-klank associaties in een speels, visueel formaat worden versterkt. De generator ondersteunt alle 11 moedertaal-alfabetten — Duitse werkbladen bevatten umlauts en eszett, Scandinavische talen krijgen hun extra klinkers, en Spaans behoudt de tilde. Kies hoofdletters, kleine letters of gemengde letterpresentatie. Selecteer afbeeldingen uit meer dan 100 thematische sets of upload je eigen illustraties. Elk werkblad genereert automatisch een bijpassend antwoordblad. Het treinformaat is een bewezen bestseller in vroege geletterdheid omdat het ordenen, letterherkenning en woordenschatopbouw combineert in één boeiende activiteit.',
     },
     {
       title: 'Voorzetsels Werkblad Generator',
-      description: 'Genereer ruimtelijke voorzetselwerkbladen die positiewoordenschat aanleren door afbeeldingsgebaseerde oefeningen. Leerlingen identificeren waar objecten geplaatst zijn — in, op, onder, achter, voor, naast, tussen en boven — ten opzichte van thematische afbeeldingen. Deze generator is diep taalbewust: Duitse werkbladen verwerken datief-samenvoegingen correct, Franse werkbladen passen elisieregels toe, en elke taal produceert grammaticaal nauwkeurige voorzetselfrasen in plaats van woord-voor-woord vertalingen. Acht ruimtelijke voorzetsels dekken de kernpositiewoordenschat die jonge leerlingen nodig hebben. Werkbladen bevatten automatische antwoordbladen.',
+      description: 'Genereer ruimtelijke voorzetselwerkbladen die positiewoordenschat aanleren door afbeeldingsgebaseerde oefeningen. gebruikers identificeren waar objecten geplaatst zijn — in, op, onder, achter, voor, naast, tussen en boven — ten opzichte van thematische afbeeldingen. Deze generator is diep taalbewust: Duitse werkbladen verwerken datief-samenvoegingen correct, Franse werkbladen passen elisieregels toe, en elke taal produceert grammaticaal nauwkeurige voorzetselfrasen in plaats van woord-voor-woord vertalingen. Acht ruimtelijke voorzetsels dekken de kernpositiewoordenschat die jonge gebruikers nodig hebben. Werkbladen bevatten automatische antwoordbladen.',
     },
     {
       title: 'Woordraad Werkblad Generator',
-      description: 'Produceer galg-stijl woordraadwerkbladen waarbij afbeeldingsaanwijzingen leerlingen helpen het verborgen woord te identificeren. Vier moeilijkheidsniveaus regelen woordlengte en letteronthullingspercentage, van eenvoudige drieletter woorden met ruime hints tot uitdagende meerlettergrepige woordenschat met minimale aanwijzingen. De woordenschat verandert volledig per taal — Franse werkbladen gebruiken Franse woorden, Duitse werkbladen gebruiken Duitse woorden, elk getrokken uit samengestelde, leeftijdsgeschikte woordenlijsten. Meer dan 100 thematische beeldsets bieden de visuele aanwijzingen. Elk werkblad genereert een bijpassend antwoordblad.',
+      description: 'Produceer galg-stijl woordraadwerkbladen waarbij afbeeldingsaanwijzingen gebruikers helpen het verborgen woord te identificeren. Vier moeilijkheidsniveaus regelen woordlengte en letteronthullingspercentage, van eenvoudige drieletter woorden met ruime hints tot uitdagende meerlettergrepige woordenschat met minimale aanwijzingen. De woordenschat verandert volledig per taal — Franse werkbladen gebruiken Franse woorden, Duitse werkbladen gebruiken Duitse woorden, elk getrokken uit samengestelde, leeftijdsgeschikte woordenlijsten. Meer dan 100 thematische beeldsets bieden de visuele aanwijzingen. Elk werkblad genereert een bijpassend antwoordblad.',
     },
     {
       title: 'Woordscramble Werkblad Generator',
-      description: 'Maak letter-ontscramble puzzels waarbij leerlingen geschudde tegels herschikken om het juiste woord te vormen. Elke tegel is kleurgecodeerd — klinkers in één kleur, medeklinkers in een andere — waardoor leerlingen een ingebouwde oplossingsstrategie krijgen en fonetisch bewustzijn wordt versterkt. De woorden en het alfabet veranderen volledig per taal, met correcte diakritische tekens op elke tegel. Configureer het aantal woorden per pagina, moeilijkheidsniveau en thema. Selecteer uit meer dan 100 beeldsets om visuele aanwijzingen te bieden bij elk gescrambled woord. Automatische antwoordbladen tonen de correcte letterrangschikking.',
+      description: 'Maak letter-ontscramble puzzels waarbij gebruikers geschudde tegels herschikken om het juiste woord te vormen. Elke tegel is kleurgecodeerd — klinkers in één kleur, medeklinkers in een andere — waardoor gebruikers een ingebouwde oplossingsstrategie krijgen en fonetisch bewustzijn wordt versterkt. De woorden en het alfabet veranderen volledig per taal, met correcte diakritische tekens op elke tegel. Configureer het aantal woorden per pagina, moeilijkheidsniveau en thema. Selecteer uit meer dan 100 beeldsets om visuele aanwijzingen te bieden bij elk gescrambled woord. Automatische antwoordbladen tonen de correcte letterrangschikking.',
     },
     {
       title: 'Woordzoeker Werkblad Generator',
-      description: 'Genereer woordzoekrasters van 5×5 voor beginners tot 30×30 voor gevorderde puzzelaars. Woorden verstoppen zich horizontaal, verticaal, diagonaal en omgekeerd. De generator is taalspecifiek op elk niveau: woordenlijsten komen overeen met de geselecteerde taal, en opvulletters gebruiken het correcte alfabet inclusief geaccentueerde letters en taalspecifieke tekens. Zeskleurige antwoordbladen maken het gemakkelijk voor leerlingen en docenten om elk woord te verifiëren. Configureer woordaantal, rasterdichtheid en moeilijkheid. Woordzoekers zijn de meest gevraagde geletterdheid printable op Etsy en TPT — verkopers met meertalige woordzoekvermeldingen vangen internationaal verkeer op dat eentalige concurrenten volledig missen.',
+      description: 'Genereer woordzoekrasters van 5×5 voor beginners tot 30×30 voor gevorderde puzzelaars. Woorden verstoppen zich horizontaal, verticaal, diagonaal en omgekeerd. De generator is taalspecifiek op elk niveau: woordenlijsten komen overeen met de geselecteerde taal, en opvulletters gebruiken het correcte alfabet inclusief geaccentueerde letters en taalspecifieke tekens. Zeskleurige antwoordbladen maken het gemakkelijk voor gebruikers en verkopers om elk woord te verifiëren. Configureer woordaantal, rasterdichtheid en moeilijkheid. Woordzoekers zijn de meest gevraagde geletterdheid printable op Etsy en Gumroad — verkopers met meertalige woordzoekvermeldingen vangen internationaal verkeer op dat eentalige concurrenten volledig missen.',
     },
     {
       title: 'Cryptogram Werkblad Generator',
-      description: 'Codeer hele zinnen in afbeeldingsgebaseerde cijferpuzzels. Elke letter in de zin wordt vervangen door een thematische afbeelding, en leerlingen decoderen het bericht door afbeeldingen aan letters te koppelen met de cijfersleutel. De frasen en het alfabet veranderen volledig per taal — Franse cryptogrammen coderen Franse zinnen, Zweedse cryptogrammen gebruiken het Zweedse alfabet inclusief extra klinkers. Thematische beeldsets bieden de cijfersymbolen, waardoor elke puzzel visueel uniek is. Automatische antwoordbladen bevatten de volledige letter-naar-afbeelding legende. Cryptogrammen combineren leesbegrip, letterherkenning en logisch redeneren in een premiumwerkbladformaat.',
+      description: 'Codeer hele zinnen in afbeeldingsgebaseerde cijferpuzzels. Elke letter in de zin wordt vervangen door een thematische afbeelding, en gebruikers decoderen het bericht door afbeeldingen aan letters te koppelen met de cijfersleutel. De frasen en het alfabet veranderen volledig per taal — Franse cryptogrammen coderen Franse zinnen, Zweedse cryptogrammen gebruiken het Zweedse alfabet inclusief extra klinkers. Thematische beeldsets bieden de cijfersymbolen, waardoor elke puzzel visueel uniek is. Automatische antwoordbladen bevatten de volledige letter-naar-afbeelding legende. Cryptogrammen combineren leesbegrip, letterherkenning en logisch redeneren in een premiumwerkbladformaat.',
     },
     {
       title: 'Schrijfoefeningen Werkblad Generator',
@@ -67,7 +67,7 @@ const content: BundleContent = {
     },
     {
       title: 'Automatische Antwoordbladen',
-      description: 'Zes van de zeven generators maken automatisch een bijbehorend antwoordblad voor elk werkblad. Woordzoekers krijgen zeskleurige gecodeerde oplossingen, cryptogrammen bevatten volledige letterlegendes, en woordscrambles tonen de correcte rangschikking. Antwoordbladen zijn een topverwachting van kopers op Etsy en TPT — deze bundel levert ze zonder handmatige inspanning. De enige uitzondering is de Schrijfoefeningen generator, waar schrijfpraktijk zelfgestuurd is.',
+      description: 'Zes van de zeven generators maken automatisch een bijbehorend antwoordblad voor elk werkblad. Woordzoekers krijgen zeskleurige gecodeerde oplossingen, cryptogrammen bevatten volledige letterlegendes, en woordscrambles tonen de correcte rangschikking. Antwoordbladen zijn een topverwachting van kopers op Etsy en Gumroad — deze bundel levert ze zonder handmatige inspanning. De enige uitzondering is de Schrijfoefeningen generator, waar schrijfpraktijk zelfgestuurd is.',
     },
     {
       title: 'Moedertaal-Alfabet en Diakritische Ondersteuning',
@@ -87,7 +87,7 @@ const content: BundleContent = {
     },
     {
       title: 'Printklare Uitvoer',
-      description: 'Download werkbladen als PDF of hoge-resolutie JPEG in Letter, A4, Liggend, Vierkant of aangepaste formaten. Bestanden zijn klaar om te vermelden op Etsy, uploaden naar KDP, of indienen bij TPT zonder nabewerking in ontwerpsoftware. Voeg decoratieve randen toe, stel paginaachtergrondkleuren in, en pas thematische achtergrondafbeeldingen toe met instelbare dekking voor gepolijste, professionele resultaten elke keer.',
+      description: 'Download werkbladen als PDF of hoge-resolutie JPEG in Letter, A4, Liggend, Vierkant of aangepaste formaten. Bestanden zijn klaar om te vermelden op Etsy, uploaden naar KDP, of indienen bij Gumroad zonder nabewerking in ontwerpsoftware. Voeg decoratieve randen toe, stel paginaachtergrondkleuren in, en pas thematische achtergrondafbeeldingen toe met instelbare dekking voor gepolijste, professionele resultaten elke keer.',
     },
   ],
 
@@ -103,13 +103,13 @@ const content: BundleContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Taalmateriaal',
-      description: 'TPT-kopers zoeken naar taalspecifieke geletterdheid materialen per leerjaar en vaardigheid. Maak gedifferentieerde pakketten: kleuterschool alfabetherkenning, groep 3 woordzoekers, groep 4 cryptogrammen. De automatische antwoordbladen, meerdere moeilijkheidsniveaus en correcte grammatica in elke taal voldoen aan TPT premium standaarden. Verpak werkbladen in uitgebreide geletterdheid bundels die docenten aanschaffen voor klassikaal gebruik gedurende het hele schooljaar.',
-      platform: 'TPT',
+      title: 'Gumroad Taalmateriaal',
+      description: 'Gumroad-kopers zoeken naar taalspecifieke geletterdheid materialen per leerjaar en vaardigheid. Maak gedifferentieerde pakketten: kleuterschool alfabetherkenning, groep 3 woordzoekers, groep 4 cryptogrammen. De automatische antwoordbladen, meerdere moeilijkheidsniveaus en correcte grammatica in elke taal voldoen aan Gumroad premium standaarden. Verpak werkbladen in uitgebreide geletterdheid bundels die verkopers aanschaffen voor klassikaal gebruik gedurende het hele schooljaar.',
+      platform: 'Gumroad',
     },
     {
-      title: 'NT2 en Vreemde-Taal Lesmateriaal',
-      description: 'Taaldocenten hebben woordenschatopbouw werkbladen nodig in specifieke doeltalen. Deze bundel produceert authentieke, taalkundig correcte werkbladen in 11 talen — geen machinaal vertaalde benaderingen. Gebruik woordzoekers om nieuwe woordenschat te introduceren, cryptogrammen om zinslezen te oefenen, woordscrambles om spelling te versterken, en voorzetsels om ruimtelijke taal aan te leren. Maak een complete leerplanaaanvulling voor elk van de 11 ondersteunde talen.',
+      title: 'NT2 en Vreemde-Taal printbare producten',
+      description: 'Taalverkopers hebben woordenschatopbouw werkbladen nodig in specifieke doeltalen. Deze bundel produceert authentieke, taalkundig correcte werkbladen in 11 talen — geen machinaal vertaalde benaderingen. Gebruik woordzoekers om nieuwe woordenschat te introduceren, cryptogrammen om zinslezen te oefenen, woordscrambles om spelling te versterken, en voorzetsels om ruimtelijke taal aan te leren. Maak een complete productcatalogusaaanvulling voor elk van de 11 ondersteunde talen.',
     },
     {
       title: 'Seizoensgebonden en Feestdagen Woordenschat Producten',
@@ -117,7 +117,7 @@ const content: BundleContent = {
     },
     {
       title: 'Bijles en Thuisonderwijs Geletterdheid Praktijk',
-      description: 'Genereer verse geletterdheid werkbladen voor elke bijlessessie of thuisonderwijsweek. Varieer de moeilijkheid, taalfocus, thema en activiteitstype zodat leerlingen nooit dezelfde pagina zien. Gebruik alfabet treinen en schrijfoefening voor jongere leerlingen, woordzoekers en scrambles voor woordenschatopbouw, en cryptogrammen voor gevorderd leesbegrip. De automatische antwoordbladen laten ouders en bijlesdocenten werk direct controleren.',
+      description: 'Genereer verse geletterdheid werkbladen voor elke bijlessessie of thuisonderwijsweek. Varieer de moeilijkheid, taalfocus, thema en activiteitstype zodat gebruikers nooit dezelfde pagina zien. Gebruik alfabet treinen en schrijfoefening voor jongere gebruikers, woordzoekers en scrambles voor woordenschatopbouw, en cryptogrammen voor gevorderd leesbegrip. De automatische antwoordbladen laten ouders en bijlesverkopers werk direct controleren.',
     },
   ],
 
@@ -141,11 +141,11 @@ const content: BundleContent = {
       description: 'Je verkoopt digitale downloads op Etsy of publiceert werkboeken op Amazon KDP en wilt productvariatie maximaliseren zonder evenredige ontwerpinspanning. De taalvermenigvuldiger in deze bundel is je concurrentievoordeel — elk geletterdheid werkblad dat je ontwerpt kan 11 aparte productvermeldingen worden over 11 talen. Verkopers met meertalige geletterdheid winkels vangen kopersdemografieën op die eentalige concurrenten niet kunnen bereiken, waardoor de adresseerbare marktomvang dramatisch wordt uitgebreid vanuit een enkele toolkit-investering.',
     },
     {
-      title: 'Teachers Pay Teachers Auteurs',
-      description: 'Je maakt en verkoopt educatieve materialen op TPT en hebt tools nodig die taalkundig correcte, leerstof-afgestemde geletterdheid werkbladen produceren. Elke generator levert automatische antwoordbladen, meerdere moeilijkheidsinstellingen en grammaticaal nauwkeurige inhoud in elke ondersteunde taal. Maak gedifferentieerde instructiepakketten per leerjaar en taal waar docenten specifiek naar zoeken — tweetalige klaslokalen, NT2-programma\'s en vreemde-taalcursussen hebben allemaal kwaliteits geletterdheid materialen nodig.',
+      title: 'Gumroad Auteurs',
+      description: 'Je maakt en verkoopt educatieve materialen op Gumroad en hebt tools nodig die taalkundig correcte, leerstof-afgestemde geletterdheid werkbladen produceren. Elke generator levert automatische antwoordbladen, meerdere moeilijkheidsinstellingen en grammaticaal nauwkeurige inhoud in elke ondersteunde taal. Maak gedifferentieerde instructiepakketten per leerjaar en taal waar verkopers specifiek naar zoeken — tweetalige winkels, NT2-programma\'s en vreemde-taalcursussen hebben allemaal kwaliteits geletterdheid materialen nodig.',
     },
     {
-      title: 'Taaldocenten en Bijlesdocenten',
+      title: 'Taalverkopers en Bijlesverkopers',
       description: 'Je geeft Nederlands als tweede taal, vreemde-taallessen of tweetalige programma\'s en hebt authentieke woordenschatopbouw werkbladen nodig in je doeltaal. Deze bundel produceert werkbladen met correcte diakritische tekens, moedertaal-alfabetten en grammaticaal nauwkeurige frasen — geen ruwe machinevertaling. Genereer vers materiaal voor elke les, varieer het activiteitstype en thema, en gebruik de automatische antwoordbladen voor snelle beoordeling. Elke generator biedt een gratis proefversie met watermerk zodat je kunt evalueren voordat je aanschaft.',
     },
     {
@@ -173,7 +173,7 @@ const content: BundleContent = {
     },
     {
       question: 'Welke formaten kan ik downloaden?',
-      answer: 'Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden. Kies uit Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant of voer een aangepast formaat in. PDF is ideaal voor meerbladzijde werkbladpakketten op Etsy en TPT. JPEG werkt goed voor KDP-binnenwerkpagina\'s en sociale media voorbeelden. Alle bestanden downloaden op printresolutie — geen opschaling of nabewerking nodig.',
+      answer: 'Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden. Kies uit Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant of voer een aangepast formaat in. PDF is ideaal voor meerbladzijde werkbladpakketten op Etsy en Gumroad. JPEG werkt goed voor KDP-binnenwerkpagina\'s en sociale media voorbeelden. Alle bestanden downloaden op printresolutie — geen opschaling of nabewerking nodig.',
     },
     {
       question: 'Kan ik mijn eigen afbeeldingen gebruiken?',
@@ -185,7 +185,7 @@ const content: BundleContent = {
     },
     {
       question: 'Mag ik de werkbladen die ik maak verkopen?',
-      answer: 'Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen die je genereert verkopen op Etsy, Amazon KDP, Teachers Pay Teachers, je eigen website of elk ander platform. Je verkoopt de werkbladen — de generatortool zelf is niet overdraagbaar.',
+      answer: 'Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen die je genereert verkopen op Etsy, Amazon KDP, Gumroad, je eigen website of elk ander platform. Je verkoopt de werkbladen — de generatortool zelf is niet overdraagbaar.',
     },
     {
       question: 'Hoeveel werkbladen kan ik maken?',

@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Hitta Udda Bilden visuella diskriminerings arbetsbladssamlingar',
-      description: 'Dedikerade Hitta Udda Bilden-set med 8–12 parade bilder och 1–5 oparade, renderade 50% större. Skapa läroplansangränsande set. Varje arbetsblad exporteras med autogenererat facit.',
+      description: 'Dedikerade Hitta Udda Bilden-set med 8–12 parade bilder och 1–5 oparade, renderade 50% större. Skapa produktkatalogsangränsande set. Varje arbetsblad exporteras med autogenererat facit.',
     },
     {
       title: 'Säsongsbetonade dolda objekt aktivitetssamlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums dolda objekt aktivitetspaket',
-      description: 'Ladda upp aktivitetspaket med namn/datum-fält och autogenererade facit. Lärare söker efter visuella sök- och observationsaktiviteter. Inkludera båda lägena för differentierad undervisning.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes dolda objekt aktivitetspaket',
+      description: 'Ladda upp aktivitetspaket med namn/datum-fält och autogenererade facit. säljare söker efter visuella sök- och observationsaktiviteter. Inkludera båda lägena för nivågrupperade produktpaket.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest dolda objekt arbetsblad trafiktratt',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar legendvisningen i Sökning-läget?',
-      answer: 'En legend i den nedre marginalen (120px) visar målobjekten visuellt — ingen läsning krävs. Gör arbetsbladen tillgängliga för föreläsare och flerspråkiga klassrum. Hitta Udda Bilden har en kompakt 50px marginal utan legend.',
+      answer: 'En legend i den nedre marginalen (120px) visar målobjekten visuellt — ingen läsning krävs. Gör arbetsbladen tillgängliga för föreläsare och flerspråkiga produktlinje. Hitta Udda Bilden har en kompakt 50px marginal utan legend.',
     },
     {
       question: 'Hur många dolda objekt och distraktorer kan jag konfigurera?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja dolda objekt arbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan kanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

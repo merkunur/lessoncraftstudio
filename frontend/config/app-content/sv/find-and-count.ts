@@ -7,7 +7,7 @@ const content: AppContent = {
       'utskrivbar hitta och räkna arbetsblad skapare för Etsy-säljare',
       'dolda objekt sökaktivitet generator för KDP-publicerare',
       'hitta och räkna arbetsblad skapare kommersiell licens',
-      'sälja hitta och räkna arbetsblad på Teachers Pay Teachers',
+      'sälja hitta och räkna arbetsblad på Gumroad',
     ],
     lsiKeywords: [
       'digitala sökarbetsblad utskriftsbara onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Hitta och Räkna Generator | Skapa Sökarbetsblad',
     metaDescription:
-      'Skapa hitta och räkna arbetsblad att sälja på Etsy, KDP och TPT. 4 uppgiftstyper, Bokstavsletning, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa hitta och räkna arbetsblad att sälja på Etsy, KDP och Gumroad. 4 uppgiftstyper, Bokstavsletning, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Hitta och Räkna Arbetsblad Generator för Sök- och Räkneaktiviteter',
     tagline: 'Två aktivitetslägen i en generator — Dolda Objekt Sökning och Bokstavsletning — med fyra mixbara uppgiftstyper (ringa in, ruta, stryk över, räkna), lokalspecifika alfabet med accentuerade bokstäver, lokaliserade bildnamnsetiketter på 11 språk och automatiskt genererade facit med visuella annoteringer.',
     description:
-      'Bygg professionella sök- och räknearbetsblad där eleverna söker i en spridd bildscen för att hitta, ringa in, stryka över eller räkna specifika objekt. Välj mellan två aktivitetslägen: Dolda Objekt-läget sprider bilder över ett konfigurerbart rutnät (5–10 rader × 5–10 kolumner) och låter dig tilldela upp till 4 målobjekt med individuella uppgiftstyper — ringa in objektet, sätt en ruta runt det, stryk över det, eller räkna hur många som finns. Bokstavsletning-läget visar ett lokalspecifikt alfabet med accentuerade bokstäver (svenska ÅÄÖ, tyska ÄÖÜ, spanska Ñ, danska/norska ÆØÅ) och genererar sökscener med bilder som börjar på den valda bokstaven. Varje arbetsblad inkluderar en automatiskt genererad rubrik — «Hitta och räkna» eller «Bokstavsletning» — lokaliserad på alla 11 stödda språk med blå ram (#2196F3). Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med röda cirkel-, rut- och korsannoteringer plus kvantitetsvisningar. Hitta och Räkna Generatorn är språkkänslig: bildnamnsetiketter på arbetsbladet renderas på det valda språket via bildvokabulärsystemet. Det innebär att samma bildtema genererar unika arbetsblad på 11 olika språk — varje språkversion har lokaliserade etiketter och bokstavsletning anpassas till det språkets alfabet (svenska ÅÄÖ), vilket gör varje version till en separat produkt. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade etiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk. Oavsett om du säljer sökaktivitetspaket på Etsy, sammanställer dolda objekt-arbetsböcker för Amazon KDP eller skapar räkneaktiviteter för TPT — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella sök- och räknearbetsblad där användarna söker i en spridd bildscen för att hitta, ringa in, stryka över eller räkna specifika objekt. Välj mellan två aktivitetslägen: Dolda Objekt-läget sprider bilder över ett konfigurerbart rutnät (5–10 rader × 5–10 kolumner) och låter dig tilldela upp till 4 målobjekt med individuella uppgiftstyper — ringa in objektet, sätt en ruta runt det, stryk över det, eller räkna hur många som finns. Bokstavsletning-läget visar ett lokalspecifikt alfabet med accentuerade bokstäver (svenska ÅÄÖ, tyska ÄÖÜ, spanska Ñ, danska/norska ÆØÅ) och genererar sökscener med bilder som börjar på den valda bokstaven. Varje arbetsblad inkluderar en automatiskt genererad rubrik — «Hitta och räkna» eller «Bokstavsletning» — lokaliserad på alla 11 stödda språk med blå ram (#2196F3). Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med röda cirkel-, rut- och korsannoteringer plus kvantitetsvisningar. Hitta och Räkna Generatorn är språkkänslig: bildnamnsetiketter på arbetsbladet renderas på det valda språket via bildvokabulärsystemet. Det innebär att samma bildtema genererar unika arbetsblad på 11 olika språk — varje språkversion har lokaliserade etiketter och bokstavsletning anpassas till det språkets alfabet (svenska ÅÄÖ), vilket gör varje version till en separat produkt. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade etiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk. Oavsett om du säljer sökaktivitetspaket på Etsy, sammanställer dolda objekt-arbetsböcker för Amazon KDP eller skapar räkneaktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Välj ditt aktivitetsläge',
         description:
-          'Välj mellan två lägen. Dolda Objekt-läget (standard) skapar klassiska sökscener — spridda bilder över ett rutnät där eleverna söker efter specifika objekt. Bokstavsletning-läget aktiverar ett lokalspecifikt alfabet med accentuerade bokstäver och genererar scener med bilder som börjar på den valda bokstaven. Det svenska alfabetet inkluderar A–Z plus Å, Ä och Ö (29 bokstäver). Rubriken växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» (lokaliserad på alla 11 språk) baserat på ditt val.',
+          'Välj mellan två lägen. Dolda Objekt-läget (standard) skapar klassiska sökscener — spridda bilder över ett rutnät där användarna söker efter specifika objekt. Bokstavsletning-läget aktiverar ett lokalspecifikt alfabet med accentuerade bokstäver och genererar scener med bilder som börjar på den valda bokstaven. Det svenska alfabetet inkluderar A–Z plus Å, Ä och Ö (29 bokstäver). Rubriken växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» (lokaliserad på alla 11 språk) baserat på ditt val.',
       },
       {
         title: 'Välj bilder och tilldela uppgiftstyper',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se automatiskt genererade annoteringer: röda cirklar runt inringade objekt, röda rutor runt rutade objekt, röda kors över överstrukna objekt och kvantitetsvisningar för räknade objekt. Ladda ner båda versionerna med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla till fliken Facit för att se automatiskt genererade annoteringer: röda cirklar runt inringade objekt, röda rutor runt rutade objekt, röda kors över överstrukna objekt och kvantitetsvisningar för räknade objekt. Ladda ner båda versionerna med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Två aktivitetslägen: Dolda Objekt Sökning och Bokstavsletning',
         description:
-          'En generator täcker två distinkta aktivitetsformat. Dolda Objekt-läget skapar klassiska sökscener där eleverna söker i ett spritt bildrutnät för att hitta specifika objekt. Bokstavsletning-läget aktiverar ett lokalspecifikt alfabet — engelska A–Ö (26 bokstäver), tyska A–Z + ÄÖÜ (29 bokstäver), spanska A–Z + Ñ (27 bokstäver), svenska/finska A–Z + ÅÄÖ (29 bokstäver), danska/norska A–Z + ÆØÅ (29 bokstäver) — och genererar scener med bilder som börjar på den valda bokstaven. Rubriken växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» (lokaliserad på alla 11 språk) baserat på det aktiva läget.',
+          'En generator täcker två distinkta aktivitetsformat. Dolda Objekt-läget skapar klassiska sökscener där användarna söker i ett spritt bildrutnät för att hitta specifika objekt. Bokstavsletning-läget aktiverar ett lokalspecifikt alfabet — engelska A–Ö (26 bokstäver), tyska A–Z + ÄÖÜ (29 bokstäver), spanska A–Z + Ñ (27 bokstäver), svenska/finska A–Z + ÅÄÖ (29 bokstäver), danska/norska A–Z + ÆØÅ (29 bokstäver) — och genererar scener med bilder som börjar på den valda bokstaven. Rubriken växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» (lokaliserad på alla 11 språk) baserat på det aktiva läget.',
       },
       {
         title: 'Fyra uppgiftstyper: Ringa in, Ruta, Stryk över och Räkna — mixbara på ett arbetsblad',
         description:
-          'Tilldela en annorlunda uppgiftstyp till var och en av de upp till 4 målobjekten på ett enda arbetsblad. Ringa in-uppgifter ber eleverna rita en cirkel runt objektet. Ruta-uppgifter ber dem sätta en ruta runt det. Stryk över-uppgifter ber dem stryka över det. Räkna-uppgifter ber dem räkna hur många instanser som finns och skriva numret. Mixa alla fyra uppgiftstyper på ett arbetsblad för varierade kognitiva utmaningar, eller använd en enda typ för fokuserad övning. Varje uppgiftstyp genererar lokaliserade instruktioner automatiskt.',
+          'Tilldela en annorlunda uppgiftstyp till var och en av de upp till 4 målobjekten på ett enda arbetsblad. Ringa in-uppgifter ber användarna rita en cirkel runt objektet. Ruta-uppgifter ber dem sätta en ruta runt det. Stryk över-uppgifter ber dem stryka över det. Räkna-uppgifter ber dem räkna hur många instanser som finns och skriva numret. Mixa alla fyra uppgiftstyper på ett arbetsblad för varierade kognitiva utmaningar, eller använd en enda typ för fokuserad övning. Varje uppgiftstyp genererar lokaliserade instruktioner automatiskt.',
       },
       {
         title: 'Lokalspecifika alfabet med accentuerade bokstäver för Bokstavsletning',
         description:
-          'Bokstavsletning-läget visar ett alfabetsrutnät anpassat till varje språks teckenuppsättning. Tyska inkluderar Ä, Ö och Ü bredvid de vanliga 26 bokstäverna. Spanska lägger till Ñ. Svenska och finska inkluderar Å, Ä och Ö. Danska och norska lägger till Æ, Ø och Å. Alfabetsrutnätet renderas i 7 kolumner och justerar automatiskt radantalet baserat på lokalens bokstavsantal. Eleverna väljer en bokstav, och generatorn skapar en sökscen med bilder som börjar med den bokstaven på det valda språket.',
+          'Bokstavsletning-läget visar ett alfabetsrutnät anpassat till varje språks teckenuppsättning. Tyska inkluderar Ä, Ö och Ü bredvid de vanliga 26 bokstäverna. Spanska lägger till Ñ. Svenska och finska inkluderar Å, Ä och Ö. Danska och norska lägger till Æ, Ø och Å. Alfabetsrutnätet renderas i 7 kolumner och justerar automatiskt radantalet baserat på lokalens bokstavsantal. användarna väljer en bokstav, och generatorn skapar en sökscen med bilder som börjar med den bokstaven på det valda språket.',
       },
       {
         title: 'Lokaliserade bildnamnsetiketter på 11 språk via bildvokabulärsystemet',
@@ -93,12 +93,12 @@ const content: AppContent = {
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner sökarbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator). Fyra dedikerade nedladdningsknappar exporterar Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF separat. Sidstorlekar inkluderar Standard (800×1000), Letter, A4, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+          'Ladda ner sökarbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator). Fyra dedikerade nedladdningsknappar exporterar Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF separat. Sidstorlekar inkluderar Standard (800×1000), Letter, A4, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
       },
       {
         title: 'Konfigurerbar rutnätsdensitet med 5–10 rader och 5–10 kolumner',
         description:
-          'Kontrollera svårigheten och visuella densiteten på dina sökarbetsblad genom att justera rutnätsdimensionerna. Ställ in rader från 5 till 10 och kolumner från 5 till 10 — standard är 6×6 (36 celler). Ett 5×5-rutnät (25 celler) skapar lättare arbetsblad med större bilder för yngre elever. Ett 10×10-rutnät (100 celler) skapar utmanande täta scener för avancerade elever. Varje cell visar en bild med en maxstorlek på 80px, med en 5% storleksminskning i Bokstavsletning-läget. Målobjekt fördelas slumpmässigt över rutnätet med 1–5 instanser vardera.',
+          'Kontrollera svårigheten och visuella densiteten på dina sökarbetsblad genom att justera rutnätsdimensionerna. Ställ in rader från 5 till 10 och kolumner från 5 till 10 — standard är 6×6 (36 celler). Ett 5×5-rutnät (25 celler) skapar lättare arbetsblad med större bilder för yngre användare. Ett 10×10-rutnät (100 celler) skapar utmanande täta scener för avancerade användare. Varje cell visar en bild med en maxstorlek på 80px, med en 5% storleksminskning i Bokstavsletning-läget. Målobjekt fördelas slumpmässigt över rutnätet med 1–5 instanser vardera.',
       },
     ],
   },
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrums observations- och räkneaktiviteter för TPT',
+        title: 'produktlinjes observations- och räkneaktiviteter för Gumroad',
         description:
-          'Bygg färdiga sökräknearbetsblad där eleverna söker, hittar och räknar objekt i en spridd scen. Lärare som söker på TPT efter räkneaktiviteter värdesätter arbetsblad som kombinerar visuellt sökande med numerisk övning. Räkna-uppgiftstypen ber eleverna skriva hur många instanser av varje objekt de hittar — en naturlig förlängning av sökning till mattefärdigheter. Skapa läroplansanpassade set: bondgårdsdjur räkning, samhällshjälpar räkning, havsdjur räkning och säsongsbetonad objekträkning. Varje set inkluderar elevarbetsblad och facit i både PDF- och JPEG-format.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg färdiga sökräknearbetsblad där användarna söker, hittar och räknar objekt i en spridd scen. köpare som söker på Gumroad efter räkneaktiviteter värdesätter arbetsblad som kombinerar visuellt sökande med numerisk övning. Räkna-uppgiftstypen ber användarna skriva hur många instanser av varje objekt de hittar — en naturlig förlängning av sökning till mattefärdigheter. Skapa produktkatalogsanpassade set: bondgårdsdjur räkning, samhällshjälpar räkning, havsdjur räkning och säsongsbetonad objekträkning. Varje set inkluderar arbetsblad och facit i både PDF- och JPEG-format.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Bokstavsletning och fonikpaket för alfabetsmedvetenhet',
         description:
-          'Utnyttja Bokstavsletning-läget för att skapa sökarbetsblad fokuserade på begynnelsebokstavsigenkänning. Varje arbetsblad riktar sig mot en specifik bokstav — eleverna hittar alla objekt som börjar med den bokstaven i en spridd bildscen. Skapa ett komplett A–Ö Bokstavsletning-paket med 29 arbetsblad (ett per bokstav, inklusive Å, Ä, Ö) och facit. De lokalspecifika alfabeten med accentuerade bokstäver låter dig skapa språkspecifika fonikpaket för tyska (ÄÖÜ), spanska (Ñ) och nordiska marknader (ÅÄÖ/ÆØÅ) som konkurrenter med enbart engelska verktyg inte kan matcha.',
-        platform: 'Etsy / TPT (litteracitetsmarknaden)',
+          'Utnyttja Bokstavsletning-läget för att skapa sökarbetsblad fokuserade på begynnelsebokstavsigenkänning. Varje arbetsblad riktar sig mot en specifik bokstav — användarna hittar alla objekt som börjar med den bokstaven i en spridd bildscen. Skapa ett komplett A–Ö Bokstavsletning-paket med 29 arbetsblad (ett per bokstav, inklusive Å, Ä, Ö) och facit. De lokalspecifika alfabeten med accentuerade bokstäver låter dig skapa språkspecifika fonikpaket för tyska (ÄÖÜ), spanska (Ñ) och nordiska marknader (ÅÄÖ/ÆØÅ) som konkurrenter med enbart engelska verktyg inte kan matcha.',
+        platform: 'Etsy / Gumroad (litteracitetsmarknaden)',
       },
       {
         title: 'Flerspråkiga söksamlingar för globala marknader',
         description:
-          'Utnyttja de språkkänsliga bildnamnsetiketterna för att skapa sökarbetsblad på 11 språk. Samma bilder producerar olika etikettering när du byter språk — bildnamn, Bokstavsletning begynnelsebokstäver och rubriktext uppdateras alla automatiskt. Skapa flerspråkiga sökpaket där varje språkversion använder samma tematiska bilder men lokaliserade etiketter. Detta är värdefullt för ESL/EFL-lärare, tvåspråkiga klassrum och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser.',
-        platform: 'Etsy / TPT (flerspråkig marknad)',
+          'Utnyttja de språkkänsliga bildnamnsetiketterna för att skapa sökarbetsblad på 11 språk. Samma bilder producerar olika etikettering när du byter språk — bildnamn, Bokstavsletning begynnelsebokstäver och rubriktext uppdateras alla automatiskt. Skapa flerspråkiga sökpaket där varje språkversion använder samma tematiska bilder men lokaliserade etiketter. Detta är värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser.',
+        platform: 'Etsy / Gumroad (flerspråkig marknad)',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Vilka är de två aktivitetslägena och hur skiljer de sig?',
       answer:
-        'Generatorn erbjuder två distinkta lägen. Dolda Objekt-läget (standard) skapar klassiska sökscener — spridda bilder över ett konfigurerbart rutnät där eleverna söker efter upp till 4 specifika objekt och utför tilldelade uppgifter (ringa in, ruta, stryk över eller räkna). Bokstavsletning-läget aktiverar ett lokalspecifikt alfabet och genererar sökscener med bilder som börjar på den valda bokstaven. Arbetsbladets rubrik växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» (lokaliserad på alla 11 språk) baserat på det aktiva läget.',
+        'Generatorn erbjuder två distinkta lägen. Dolda Objekt-läget (standard) skapar klassiska sökscener — spridda bilder över ett konfigurerbart rutnät där användarna söker efter upp till 4 specifika objekt och utför tilldelade uppgifter (ringa in, ruta, stryk över eller räkna). Bokstavsletning-läget aktiverar ett lokalspecifikt alfabet och genererar sökscener med bilder som börjar på den valda bokstaven. Arbetsbladets rubrik växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» (lokaliserad på alla 11 språk) baserat på det aktiva läget.',
     },
     {
       question: 'Vilka är de fyra uppgiftstyperna och kan jag mixa dem på ett arbetsblad?',
       answer:
-        'De fyra uppgiftstyperna är ringa in (rita en cirkel runt objektet), ruta (sätt en ruta runt objektet), stryk över (stryk över objektet) och räkna (räkna hur många instanser som finns och skriv numret). Ja, du kan tilldela en annorlunda uppgiftstyp till var och en av de upp till 4 målobjekten på ett enda arbetsblad. Till exempel kan ett arbetsblad be eleverna ringa in alla katter, stryka över alla hundar, räkna alla fåglar och sätta en ruta runt alla fiskar.',
+        'De fyra uppgiftstyperna är ringa in (rita en cirkel runt objektet), ruta (sätt en ruta runt objektet), stryk över (stryk över objektet) och räkna (räkna hur många instanser som finns och skriv numret). Ja, du kan tilldela en annorlunda uppgiftstyp till var och en av de upp till 4 målobjekten på ett enda arbetsblad. Till exempel kan ett arbetsblad be användarna ringa in alla katter, stryka över alla hundar, räkna alla fåglar och sätta en ruta runt alla fiskar.',
     },
     {
       question: 'Hur fungerar Bokstavsletning med olika språk?',
@@ -163,17 +163,17 @@ const content: AppContent = {
     {
       question: 'Hur fungerar den konfigurerbara rutnätsdensiteten?',
       answer:
-        'I panelen Sidinställningar ställer du in rader från 5 till 10 och kolumner från 5 till 10. Standard är 6×6 (36 celler). Ett mindre rutnät som 5×5 (25 celler) skapar lättare arbetsblad med större bilder — idealiskt för yngre elever. Ett större rutnät som 10×10 (100 celler) skapar täta, utmanande scener för avancerade elever. Varje cell visar en bild med maxstorlek 80px. Målobjekt förekommer 1–5 gånger vardera, med återstående celler fyllda av slumpmässiga distraktorbilder från temat.',
+        'I panelen Sidinställningar ställer du in rader från 5 till 10 och kolumner från 5 till 10. Standard är 6×6 (36 celler). Ett mindre rutnät som 5×5 (25 celler) skapar lättare arbetsblad med större bilder — idealiskt för yngre användare. Ett större rutnät som 10×10 (100 celler) skapar täta, utmanande scener för avancerade användare. Varje cell visar en bild med maxstorlek 80px. Målobjekt förekommer 1–5 gånger vardera, med återstående celler fyllda av slumpmässiga distraktorbilder från temat.',
     },
     {
       question: 'Varför finns det en gräns på 4 objekt per arbetsblad?',
       answer:
-        'Generatorn tillämpar ett maximum av 4 målobjekt per arbetsblad för att bibehålla tydliga, fokuserade sökaktiviteter. Med 4 objekt och 4 olika uppgiftstyper kan ett enda arbetsblad innehålla 4 distinkta sök-och-gör-uppgifter — tillräckligt med variation för att utmana eleverna utan att överväldiga dem. Panelen Dolda Objekt Frågor visar en räknare för valda och ger en Rensa Val-knapp för att återställa dina val. Denna gräns säkerställer att varje arbetsblad förblir visuellt överskådligt och pedagogiskt effektivt.',
+        'Generatorn tillämpar ett maximum av 4 målobjekt per arbetsblad för att bibehålla tydliga, fokuserade sökaktiviteter. Med 4 objekt och 4 olika uppgiftstyper kan ett enda arbetsblad innehålla 4 distinkta sök-och-gör-uppgifter — tillräckligt med variation för att utmana användarna utan att överväldiga dem. Panelen Dolda Objekt Frågor visar en räknare för valda och ger en Rensa Val-knapp för att återställa dina val. Denna gräns säkerställer att varje arbetsblad förblir visuellt överskådligt och pedagogiskt effektivt.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
       answer:
-        'Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Arbetsbladet visar den spridda bildscenen utan markeringar — eleverna söker och slutför uppgifterna själva. Facit återskapar den identiska layouten och lägger till röda visuella annoteringer: cirklar runt ringa in-uppgiftobjekt, rutor runt ruta-uppgiftobjekt, kors över stryk över-uppgiftobjekt och kvantitetsvisningar för räkna-uppgiftobjekt. Båda versionerna exporteras separat med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF.',
+        'Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Arbetsbladet visar den spridda bildscenen utan markeringar — användarna söker och slutför uppgifterna själva. Facit återskapar den identiska layouten och lägger till röda visuella annoteringer: cirklar runt ringa in-uppgiftobjekt, rutor runt ruta-uppgiftobjekt, kors över stryk över-uppgiftobjekt och kvantitetsvisningar för räkna-uppgiftobjekt. Båda versionerna exporteras separat med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF.',
     },
     {
       question: 'Autogenereras arbetsbladet vid sidladdning?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja sökarbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina hitta och räkna arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. De två aktivitetslägena, fyra uppgiftstyper, Bokstavsletning med lokalspecifika alfabet och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara sökprodukter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina hitta och räkna arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två aktivitetslägena, fyra uppgiftstyper, Bokstavsletning med lokalspecifika alfabet och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara sökprodukter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

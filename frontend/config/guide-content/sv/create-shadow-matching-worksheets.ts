@@ -24,7 +24,7 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar skuggmatchningsarbetsblad',
     tagline: 'En steg-för-steg-guide för att skapa dubbelläges skuggmatchningsarbetsblad med pixelnivå silhuettgenerering, Gör det helt delad-bild-halvor, Fisher-Yates-derangering, växlingsbara etiketter, autogenererade facit och helt visuell output du kan sälja världen över',
-    description: 'Skuggmatchning är en grundläggande visuell perceptionsfärdighet som barn utvecklar före läsning och matematik. Föräldrar behöver dem för visuell diskriminering hemma. Lärare behöver dem för perceptionscentra. Arbetsterapeuter använder dem för visuella bearbetningsutvärderingar. Denna guide leder dig genom hela skapandeprocessen med Skuggmatchning-skaparen — från att välja mellan Skuggmatchning och Gör det helt-lägen till att konfigurera etiketter, generera pixelnivå-silhuetter och exportera produktionsklara filer med automatiska facit.',
+    description: 'Skuggmatchning är en grundläggande visuell perceptionsfärdighet som barn utvecklar före läsning och matematik. Föräldrar behöver dem för visuell diskriminering hemma. säljare behöver dem för perceptionscentra. Arbetsterapeuter använder dem för visuella bearbetningsutvärderingar. Denna guide leder dig genom hela skapandeprocessen med Skuggmatchning-skaparen — från att välja mellan Skuggmatchning och Gör det helt-lägen till att konfigurera etiketter, generera pixelnivå-silhuetter och exportera produktionsklara filer med automatiska facit.',
   },
 
   introduction: 'Visuell perception är en av de grundläggande kognitiva färdigheterna i tidig barndomsutveckling. Innan barn kan läsa, lösa ekvationer eller navigera fysiska utrymmen utvecklar de förmågan att känna igen former, urskilja konturer och mentalt rekonstruera ofullständiga bilder. Skuggmatchning och delad-bild-aktiviteter tränar dessa färdigheter direkt.\n\nVad som gör skuggmatchningsarbetsblad särskilt effektiva som produkt är det helt visuella formatet. Inga ord att översätta, inget språkhinder. Ett enda arbetsblad säljer identiskt i alla länder.\n\nSkuggmatchning-skaparen erbjuder två distinkta övningslägen. Skuggmatchningsläge autogenererar pixelnivå svarta silhuetter — varje pixel med alpha över 10 konverteras till rent svart, vilket producerar noggranna konturer. Gör det helt-läge delar bilder i halvor längs horisontella eller vertikala snittlinjer. Båda lägena använder en Fisher-Yates-derangeringsalgoritm som garanterar att inget objekt visas i sin ursprungsposition.\n\nVäxlingsbara etiketter skapar två svårighetsnivåer. Med etiketter på visas A, B, C, D och 1, 2, 3, 4 identifierare. Med etiketter av blir det en ren visuell matchningsutmaning.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
@@ -36,11 +36,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj ditt övningsläge',
-      content: 'Två distinkta lägen.\n\nSkuggmatchning: fyra färgbilder i övre sektionen och fyra autogenererade svarta silhuetter i nedre. Silhuetterna skapas genom pixelnivå bildbehandling — varje pixel med alpha över 10 konverteras till rent svart. Elever matchar varje bild till rätt silhuett. Äkta pixelbehandling, inte CSS-filter.\n\nGör det helt: delar fyra bilder i halvor längs valt snitt — horisontellt (övre och nedre halvor) eller vertikalt (vänster och höger halvor). Första halvorna etiketteras A–D, andra halvorna 1–4. Elever kopplar ihop bitarna. De två snittriktningarna producerar fundamentalt annorlunda utmaningar.\n\nSkuggmatchning är ditt visuella diskrimineringsverktyg. Gör det helt är ditt rumsliga resonerande-verktyg. De flesta framgångsrika säljare använder båda.',
+      content: 'Två distinkta lägen.\n\nSkuggmatchning: fyra färgbilder i övre sektionen och fyra autogenererade svarta silhuetter i nedre. Silhuetterna skapas genom pixelnivå bildbehandling — varje pixel med alpha över 10 konverteras till rent svart. användare matchar varje bild till rätt silhuett. Äkta pixelbehandling, inte CSS-filter.\n\nGör det helt: delar fyra bilder i halvor längs valt snitt — horisontellt (övre och nedre halvor) eller vertikalt (vänster och höger halvor). Första halvorna etiketteras A–D, andra halvorna 1–4. användare kopplar ihop bitarna. De två snittriktningarna producerar fundamentalt annorlunda utmaningar.\n\nSkuggmatchning är ditt visuella diskrimineringsverktyg. Gör det helt är ditt rumsliga resonerande-verktyg. De flesta framgångsrika säljare använder båda.',
     },
     {
       heading: 'Konfigurera etiketter och namn/datumfält',
-      content: 'Visa etiketter-kryssrutan skapar två svårighetsnivåer.\n\nMed etiketter på (standard): bilder visar A, B, C, D och silhuetter/halvor visar 1, 2, 3, 4. Elever skriver bokstav-siffra-par. Strukturerat stöd idealiskt för yngre barn och klassrumsarbetsblad.\n\nMed etiketter av: ren visuell matchningsutmaning utan alfanumeriska ledtrådar. Idealiskt för pusselböcker, avancerade aktiviteter och premiumdigitala nedladdningar.\n\nNamn/datumfält: inkludera alltid för klassrumsprodukter.',
+      content: 'Visa etiketter-kryssrutan skapar två svårighetsnivåer.\n\nMed etiketter på (standard): bilder visar A, B, C, D och silhuetter/halvor visar 1, 2, 3, 4. användare skriver bokstav-siffra-par. Strukturerat stöd idealiskt för yngre barn och produktlinjesarbetsblad.\n\nMed etiketter av: ren visuell matchningsutmaning utan alfanumeriska ledtrådar. Idealiskt för pusselböcker, avancerade aktiviteter och premiumdigitala nedladdningar.\n\nNamn/datumfält: inkludera alltid för produktlinjesprodukter.',
     },
     {
       heading: 'Välj fyra bilder',
@@ -56,7 +56,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Granska det autogenererade facit',
-      content: 'Klicka Facit-fliken.\n\nI Skuggmatchning: varje cell visar originalbilden bredvid sin silhuett med en etikett som "A matchar med 2." Lärare och elever verifierar direkt.\n\nI Gör det helt: varje cell visar den kompletta originalbilden med sin matchetikett.\n\nFacit genereras simultant — inget manuellt skapandesteg. Nämn alltid att facit ingår i dina listningar.',
+      content: 'Klicka Facit-fliken.\n\nI Skuggmatchning: varje cell visar originalbilden bredvid sin silhuett med en etikett som "A matchar med 2." säljare och användare verifierar direkt.\n\nI Gör det helt: varje cell visar den kompletta originalbilden med sin matchetikett.\n\nFacit genereras simultant — inget manuellt skapandesteg. Nämn alltid att facit ingår i dina listningar.',
     },
     {
       heading: 'Ladda ner alla fyra filer',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Samla 50–80 arbetsblad med progressiv svårighet. Tidiga kapitel: Skuggmatchning med distinkta silhuetter. Mittkapitel: Gör det helt med horisontella snitt. Avancerade kapitel: Gör det helt med vertikala snitt och subtilare silhuettskillnader. Facitsidor per kapitel.\n\nTitel och undertitel: Exempeltitel "Shadow Matching Puzzles for Kids." Exempel-undertitel "80 Visual Perception Activities with Silhouette Matching and Make It Whole Puzzles — Ages 3–7."\n\nDet helt visuella formatet är en stor fördel — en interiörfil publiceras identiskt på alla internationella KDP-marknadsplatser.',
     },
     {
-      heading: 'Sälja skuggmatchningsarbetsblad på Teachers Pay Teachers',
-      content: 'TPT är idealiskt — visuell perception och diskriminering är sökbara läroplansförmågor. Specialpedagoger, arbetsterapeuter och förskolelärare söker alla.\n\nProduktbeskrivningar: årskurs, visuella perceptionsfärdigheter, antal arbetsblad, om facit ingår, de två övningslägena, och etikettväxeln för differentiering.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med båda lägen, ett facit.\n\nPaketering: "Komplett visuell perceptionspaket" med skuggmatchning, silhuetter och delade bilder.\n\nTPT-nyckelord: "visuell perception arbetsblad," "skuggmatchning aktivitet," "silhuett pussel," "visuell diskriminering," "matchningscentra," "gör det helt," "arbetsterapi visuell matchning."',
+      heading: 'Sälja skuggmatchningsarbetsblad på Gumroad',
+      content: 'Gumroad är idealiskt — visuell perception och diskriminering är sökbara produktkatalogsförmågor. Specialsäljare, arbetsterapeuter och förskolesäljare söker alla.\n\nProduktbeskrivningar: årskurs, visuella perceptionsfärdigheter, antal arbetsblad, om facit ingår, de två övningslägena, och etikettväxeln för differentiering.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med båda lägen, ett facit.\n\nPaketering: "Komplett visuell perceptionspaket" med skuggmatchning, silhuetter och delade bilder.\n\nGumroad-nyckelord: "visuell perception arbetsblad," "skuggmatchning aktivitet," "silhuett pussel," "visuell diskriminering," "matchningscentra," "gör det helt," "arbetsterapi visuell matchning."',
     },
   ],
 
@@ -86,7 +86,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Paketeringsstrategier',
-      content: 'Lägesspecifika paket: "Skuggmatchning silhuetter — 20 arbetsblad" och "Gör det helt — 20 arbetsblad." Olika sökfrågor.\n\nSvårighetsprogressionspaket: etiketter-på (stöd) och etiketter-av (utmaning) för samma teman. "Differentierade visuella perceptionspaket."\n\nTemaparpaket: "Djur skuggmatchningssamling" med bondgårdsdjur, vilda djur, havsvarelser, insekter.\n\nGlobala formatpaket: Letter- och A4-storlekar av samma innehåll — fördubblar internationella listningar.\n\nLista alltid både enskilda set och paket.',
+      content: 'Lägesspecifika paket: "Skuggmatchning silhuetter — 20 arbetsblad" och "Gör det helt — 20 arbetsblad." Olika sökfrågor.\n\nSvårighetsprogressionspaket: etiketter-på (stöd) och etiketter-av (utmaning) för samma teman. "nivågrupperade visuella perceptionspaket."\n\nTemaparpaket: "Djur skuggmatchningssamling" med bondgårdsdjur, vilda djur, havsvarelser, insekter.\n\nGlobala formatpaket: Letter- och A4-storlekar av samma innehåll — fördubblar internationella listningar.\n\nLista alltid både enskilda set och paket.',
     },
     {
       heading: 'Global försäljningsstrategi för helt visuella produkter',
@@ -97,7 +97,7 @@ const content: GuideContent = {
   examples: [
     {
       heading: 'Produktvariationer efter läge och etikettväxel',
-      content: 'Skuggmatchning med etiketter på: klassiskt stödjande silhuettmatchning. Fyra färgbilder A–D och fyra svarta silhuetter 1–4. Elever skriver bokstav-siffra-par. Idealiskt för förskola och förskoleklass. 10–15 arbetsblad per set med tematiska val.\n\nSkuggmatchning med etiketter av: ren visuell matchningsutmaning. Samma bilder och silhuetter utan alfanumeriska identifierare. Idealiskt för pusselböcker och avancerade aktiviteter.\n\nGör det helt med horisontella snitt och etiketter: fyra bilder delade i övre och nedre halvor. Horisontella snitt fungerar bra med djur (huvud och kropp) och byggnader (tak och struktur).\n\nGör det helt med vertikala snitt: samma bilder delade i vänster och höger halvor. Annorlunda matchningsutmaning. Inkludera båda snittriktningarna i ett paket för fördubblat innehåll.',
+      content: 'Skuggmatchning med etiketter på: klassiskt stödjande silhuettmatchning. Fyra färgbilder A–D och fyra svarta silhuetter 1–4. användare skriver bokstav-siffra-par. Idealiskt för förskola och förskoleklass. 10–15 arbetsblad per set med tematiska val.\n\nSkuggmatchning med etiketter av: ren visuell matchningsutmaning. Samma bilder och silhuetter utan alfanumeriska identifierare. Idealiskt för pusselböcker och avancerade aktiviteter.\n\nGör det helt med horisontella snitt och etiketter: fyra bilder delade i övre och nedre halvor. Horisontella snitt fungerar bra med djur (huvud och kropp) och byggnader (tak och struktur).\n\nGör det helt med vertikala snitt: samma bilder delade i vänster och höger halvor. Annorlunda matchningsutmaning. Inkludera båda snittriktningarna i ett paket för fördubblat innehåll.',
     },
     {
       heading: 'Temapar och säsongsbetonade produktidéer',

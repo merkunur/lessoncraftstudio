@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Lijnen Trekken Werkblad Maker',
     tagline: 'Acht SVG-lijnsjablonen met afbeeldingspaar matching, automatisch vullen uit 104 kleurrijke thema\'s en sjabloongestuurde pagina-oriëntatie voor professionele lijntraceer werkbladen die wereldwijd verkopen',
-    description: 'Maak professionele lijntraceer werkbladen waarbij leerlingen langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-gebaseerde sjablonen dekken een complete fijne motoriek progressie: één horizontaal sjabloon voor rechte links-naar-rechts tracering (gemakkelijkst), één verticaal sjabloon voor boven-naar-beneden streken, vier bochtensjablonen voor vloeiende polsbewegingen, en twee diagonale sjablonen voor kruiscoördinatie (moeilijkst). Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, waardoor leerlingen aan elk uiteinde een visueel doel hebben. Sjabloonselectie stuurt automatisch de pagina-oriëntatie — bochten gebruiken standaard liggend formaat voor zwaaiende bogen, terwijl diagonale, horizontale en verticale sjablonen staand formaat gebruiken voor gerichte oefening. Automatisch vullen vult elke paarplaats direct met willekeurige afbeeldingen uit elk geselecteerd thema of uit alle 104 thema\'s tegelijk, waardoor batchcreatie snel gaat. De inhoud komt uit meer dan 3.100 kleurrijke illustraties verdeeld over 104 thematische collecties — dieren, voertuigen, eten, natuur en tientallen meer. Elk werkblad is puur visueel met nul tekst op de uitvoer, waardoor producten universeel verkoopbaar zijn zonder vertaling. Er is geen antwoordblad nodig omdat het lijnpad zelf de leerling begeleidt — een zelfcontrolerende activiteit van opzet. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand en Fredoka. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Maak professionele lijntraceer werkbladen waarbij gebruikers langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-gebaseerde sjablonen dekken een complete fijne motoriek progressie: één horizontaal sjabloon voor rechte links-naar-rechts tracering (gemakkelijkst), één verticaal sjabloon voor boven-naar-beneden streken, vier bochtensjablonen voor vloeiende polsbewegingen, en twee diagonale sjablonen voor kruiscoördinatie (moeilijkst). Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, waardoor gebruikers aan elk uiteinde een visueel doel hebben. Sjabloonselectie stuurt automatisch de pagina-oriëntatie — bochten gebruiken standaard liggend formaat voor zwaaiende bogen, terwijl diagonale, horizontale en verticale sjablonen staand formaat gebruiken voor gerichte oefening. Automatisch vullen vult elke paarplaats direct met willekeurige afbeeldingen uit elk geselecteerd thema of uit alle 104 thema\'s tegelijk, waardoor batchcreatie snel gaat. De inhoud komt uit meer dan 3.100 kleurrijke illustraties verdeeld over 104 thematische collecties — dieren, voertuigen, eten, natuur en tientallen meer. Elk werkblad is puur visueel met nul tekst op de uitvoer, waardoor producten universeel verkoopbaar zijn zonder vertaling. Er is geen antwoordblad nodig omdat het lijnpad zelf de gebruiker begeleidt — een zelfcontrolerende activiteit van opzet. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand en Fredoka. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Voeg tekst toe en schakel naam-/datumvelden in',
-        description: 'Gebruik het paneel Tekstgereedschappen om een werkbladtitel, instructies of decoratieve tekst toe te voegen. Kies uit lettertypen waaronder Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. Schakel de naam- en datumvelden in voor leerlingidentificatiegebieden. De automatisch gegenereerde koptekst toont een levendige groene banner met "Lijnen Tekenen Oefenen" gelokaliseerd in alle 11 ondersteunde talen. Sleep, vergroot, verklein, roteer en herpositioneer elk element op het volledige Fabric.js-canvas met uitlijngereedschappen, vergrendelen/ontgrendelen en onbeperkt ongedaan maken en opnieuw uitvoeren.',
+        description: 'Gebruik het paneel Tekstgereedschappen om een werkbladtitel, instructies of decoratieve tekst toe te voegen. Kies uit lettertypen waaronder Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. Schakel de naam- en datumvelden in voor gebruikeridentificatiegebieden. De automatisch gegenereerde koptekst toont een levendige groene banner met "Lijnen Tekenen Oefenen" gelokaliseerd in alle 11 ondersteunde talen. Sleep, vergroot, verklein, roteer en herpositioneer elk element op het volledige Fabric.js-canvas met uitlijngereedschappen, vergrendelen/ontgrendelen en onbeperkt ongedaan maken en opnieuw uitvoeren.',
       },
       {
         title: 'Bekijk en pas de lijnmoeilijkheid aan',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Exporteer als PDF of JPEG op 300 DPI',
-        description: 'Download je voltooide werkblad als JPEG met hoge resolutie of printklare PDF op 300 DPI. Schakel grijstinten in voor inktvriendelijke versies ideaal voor het printen in de klas en KDP-binnenwerken. Er is geen apart antwoordblad nodig — het lijnpad zelf begeleidt de leerling, waardoor elk werkblad een zelfcontrolerende activiteit is. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden zonder nabewerking nodig.',
+        description: 'Download je voltooide werkblad als JPEG met hoge resolutie of printklare PDF op 300 DPI. Schakel grijstinten in voor inktvriendelijke versies ideaal voor het printen online en KDP-binnenwerken. Er is geen apart antwoordblad nodig — het lijnpad zelf begeleidt de gebruiker, waardoor elk werkblad een zelfcontrolerende activiteit is. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden zonder nabewerking nodig.',
       },
     ],
   },
@@ -69,15 +69,15 @@ const content: ToolContent = {
     },
     {
       title: 'KDP Fijne Motoriek Werkboeken',
-      description: 'Stel 60–100 lijntraceer oefeningen samen in gedrukte werkboeken voor Amazon KDP. Structureer een fijne motoriek leerplan over hoofdstukken: Hoofdstuk 1 behandelt horizontale lijnen voor richtingscontrole. Hoofdstuk 2 introduceert verticale lijnen voor neerwaartse streken. Hoofdstuk 3 gaat verder met bochten voor polsflexibiliteit. Hoofdstuk 4 daagt lezers uit met diagonalen voor kruiscoördinatie. De kleurrijke afbeeldingsparen reproduceren levendig in kleurendruk. Het nul-tekst visuele formaat publiceert identiek op alle internationale KDP-marktplaatsen zonder vertaling.',
+      description: 'Stel 60–100 lijntraceer oefeningen samen in gedrukte werkboeken voor Amazon KDP. Structureer een fijne motoriek productcatalogus over hoofdstukken: Hoofdstuk 1 behandelt horizontale lijnen voor richtingscontrole. Hoofdstuk 2 introduceert verticale lijnen voor neerwaartse streken. Hoofdstuk 3 gaat verder met bochten voor polsflexibiliteit. Hoofdstuk 4 daagt lezers uit met diagonalen voor kruiscoördinatie. De kleurrijke afbeeldingsparen reproduceren levendig in kleurendruk. Het nul-tekst visuele formaat publiceert identiek op alle internationale KDP-marktplaatsen zonder vertaling.',
     },
     {
       title: 'Schrijfvoorbereiding Handschriftgereedheid Sets',
-      description: 'Bouw lijntraceer werkbladen specifiek ontworpen als schrijfvoorbereiding. Horizontale lijnen oefenen de links-naar-rechts volgrichting die gebruikt wordt bij lezen en schrijven. Verticale lijnen ontwikkelen de boven-naar-beneden streken die essentieel zijn voor lettervorming. Bochten bootsen de afgeronde bewegingen na die nodig zijn voor letters als c, o, s en e. Diagonalen bouwen de schuine streken op die gebruikt worden bij letters als k, v, w en z. Verpak deze als "Handschriftgereedheid" bundels die fijne motoriek en geletterdheid overbruggen — een productcategorie met sterke vraag het hele jaar door van kleuterleerkrachten en ouders.',
+      description: 'Bouw lijntraceer werkbladen specifiek ontworpen als schrijfvoorbereiding. Horizontale lijnen oefenen de links-naar-rechts volgrichting die gebruikt wordt bij lezen en schrijven. Verticale lijnen ontwikkelen de boven-naar-beneden streken die essentieel zijn voor lettervorming. Bochten bootsen de afgeronde bewegingen na die nodig zijn voor letters als c, o, s en e. Diagonalen bouwen de schuine streken op die gebruikt worden bij letters als k, v, w en z. Verpak deze als "Handschriftgereedheid" bundels die fijne motoriek en geletterdheid overbruggen — een productcategorie met sterke vraag het hele jaar door van kleuterverkopers en ouders.',
     },
     {
       title: 'Thematische Afbeeldingspaar Matching Activiteitensets',
-      description: 'Benut de 104 thematische beeldcollecties om lijntraceer werkbladen te maken waarbij leerlingen bijpassende afbeeldingen verbinden over begeleide paden. Elk thema wordt een aparte productvermelding: boerderijdieren lijntracering, dinosaurus bochtentekenen, oceaandieren diagonale oefening, ruimteverkenning verticale lijnen. Het afbeeldingspaar-matchingformaat voegt een herkenningselement toe aan de fijne motoriek oefening — leerlingen moeten de bijpassende afbeelding aan het eind van elke lijn vinden, waardoor visuele discriminatie gecombineerd wordt met potloodbeheersing in één boeiende activiteit.',
+      description: 'Benut de 104 thematische beeldcollecties om lijntraceer werkbladen te maken waarbij gebruikers bijpassende afbeeldingen verbinden over begeleide paden. Elk thema wordt een aparte productvermelding: boerderijdieren lijntracering, dinosaurus bochtentekenen, oceaandieren diagonale oefening, ruimteverkenning verticale lijnen. Het afbeeldingspaar-matchingformaat voegt een herkenningselement toe aan de fijne motoriek oefening — gebruikers moeten de bijpassende afbeelding aan het eind van elke lijn vinden, waardoor visuele discriminatie gecombineerd wordt met potloodbeheersing in één boeiende activiteit.',
     },
     {
       title: 'Gemengd Lijntype Sampler Bundels',
@@ -85,29 +85,29 @@ const content: ToolContent = {
     },
     {
       title: 'Multi-Formaat Visueel Leren Bundels',
-      description: 'Koppel lijntraceer werkbladen aan kleurplaten, rasterteken oefeningen, patroonwerkbladen en matching-activiteiten met gecoördineerde thema\'s. Lijntracering ontwikkelt potloodbeheersing langs begeleide paden. Rastertekenen bouwt ruimtelijke reproductie. Kleurplaten trainen kleurherkenning en fijne motoriek. Elk formaat oefent een andere visueel-motorische vaardigheid. Multi-formaat bundels verkopen voor meer dan elk afzonderlijk activiteitstype en geven leerlingen gevarieerde oefening met een uniform thema over elke activiteit.',
+      description: 'Koppel lijntraceer werkbladen aan kleurplaten, rasterteken oefeningen, patroonwerkbladen en matching-activiteiten met gecoördineerde thema\'s. Lijntracering ontwikkelt potloodbeheersing langs begeleide paden. Rastertekenen bouwt ruimtelijke reproductie. Kleurplaten trainen kleurherkenning en fijne motoriek. Elk formaat oefent een andere visueel-motorische vaardigheid. Multi-formaat bundels verkopen voor meer dan elk afzonderlijk activiteitstype en geven gebruikers gevarieerde oefening met een uniform thema over elke activiteit.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Lijntype Moeilijkheid Winkel op Etsy',
-      description: 'Open een Etsy-winkel gespecialiseerd in lijntraceer werkbladen georganiseerd op lijntype moeilijkheid. Horizontale pakketten bedienen beginners met rechte links-naar-rechts lijnen. Verticale pakketten gaan verder met boven-naar-beneden streken. Bochtenpakketten introduceren vloeiende bewegingen. Diagonale pakketten dagen gevorderde leerlingen uit met schuine coördinatie. De acht verschillende sjablonen en 104 afbeeldingsthema\'s produceren honderden unieke werkbladcombinaties. Het nul-tekst visuele formaat maakt elk product wereldwijd verkoopbaar. Prijs individuele themapakketten op €3–€5 en progressieve multi-type bundels op €12–€18.',
+      description: 'Open een Etsy-winkel gespecialiseerd in lijntraceer werkbladen georganiseerd op lijntype moeilijkheid. Horizontale pakketten bedienen beginners met rechte links-naar-rechts lijnen. Verticale pakketten gaan verder met boven-naar-beneden streken. Bochtenpakketten introduceren vloeiende bewegingen. Diagonale pakketten dagen gevorderde gebruikers uit met schuine coördinatie. De acht verschillende sjablonen en 104 afbeeldingsthema\'s produceren honderden unieke werkbladcombinaties. Het nul-tekst visuele formaat maakt elk product wereldwijd verkoopbaar. Prijs individuele themapakketten op €3–€5 en progressieve multi-type bundels op €12–€18.',
       platform: 'Etsy',
     },
     {
       title: 'Amazon KDP Lijntraceer Werkboekserie',
-      description: 'Stel 80+ lijntraceer oefeningen samen in thematische werkboeken voor Amazon KDP. Structureer een serie per progressie: "Beginner Lijntracering" behandelt horizontale en verticale sjablonen. "Gemiddelde Lijntracering" introduceert alle vier bochtenvarianten. "Gevorderde Lijntracering" bevat diagonale sjablonen gemengd met bochten. De kleurrijke afbeeldingen printen levendig voor boeiende, kindvriendelijke binnenwerken. Het nul-tekst formaat publiceert identiek op alle internationale KDP-marktplaatsen zonder vertaling. Fijne motoriek werkboeken vullen een specifieke vroeg-leren niche met consistente vraag het hele jaar door.',
+      description: 'Stel 80+ lijntraceer oefeningen samen in thematische werkboeken voor Amazon KDP. Structureer een serie per progressie: "Beginner Lijntracering" behandelt horizontale en verticale sjablonen. "Gemiddelde Lijntracering" introduceert alle vier bochtenvarianten. "Gevorderde Lijntracering" bevat diagonale sjablonen gemengd met bochten. De kleurrijke afbeeldingen printen levendig voor boeiende, aantrekkelijke binnenwerken. Het nul-tekst formaat publiceert identiek op alle internationale KDP-marktplaatsen zonder vertaling. Fijne motoriek werkboeken vullen een specifieke vroeg-leren niche met consistente vraag het hele jaar door.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Handschriftgereedheid Centra',
-      description: 'Bouw genivelleerde handschriftgereedheid stations met lijntype als progressie-as. Station 1 behandelt horizontale lijnen voor links-naar-rechts tracering. Station 2 richt zich op verticale lijnen voor boven-naar-beneden streken. Station 3 introduceert bochten voor lettervormende bewegingen. Station 4 daagt leerlingen uit met diagonalen voor schuine lettervormen. Elk station richt zich op een specifieke schrijfvoorbereidingsvaardigheid die direct overdraagt naar lettervorming. Het nul-tekst visuele formaat werkt in elk klaslokaal ongeacht de taalachtergrond van leerlingen, waardoor deze materialen waardevol zijn voor inclusieve en meertalige settings.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Handschriftgereedheid Centra',
+      description: 'Bouw genivelleerde handschriftgereedheid stations met lijntype als progressie-as. Station 1 behandelt horizontale lijnen voor links-naar-rechts tracering. Station 2 richt zich op verticale lijnen voor boven-naar-beneden streken. Station 3 introduceert bochten voor lettervormende bewegingen. Station 4 daagt gebruikers uit met diagonalen voor schuine lettervormen. Elk station richt zich op een specifieke schrijfvoorbereidingsvaardigheid die direct overdraagt naar lettervorming. Het nul-tekst visuele formaat werkt in elk winkel ongeacht de taalachtergrond van gebruikers, waardoor deze materialen waardevol zijn voor inclusieve en meertalige settings.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Lijntraceer Visuele Trechter',
-      description: 'Lijntraceer werkbladen met kleurrijke afbeeldingsparen en kenmerkende SVG-lijnpaden maken opvallende Pinterest-pins die zich onderscheiden van tekstzware werkbladpins. Pin voorbeeldwerkbladen die verschillende lijntypen tonen met watermerk, link naar je Etsy-winkel of landingspagina, en bouw je e-maillijst. Maak aparte pinseries voor "lijntracering voor kinderen", "fijne motoriek werkbladen" en "schrijfvoorbereiding oefening". Het nul-tekst formaat betekent dat pins ouders en docenten aanspreken in elk land wereldwijd.',
+      description: 'Lijntraceer werkbladen met kleurrijke afbeeldingsparen en kenmerkende SVG-lijnpaden maken opvallende Pinterest-pins die zich onderscheiden van tekstzware werkbladpins. Pin voorbeeldwerkbladen die verschillende lijntypen tonen met watermerk, link naar je Etsy-winkel of landingspagina, en bouw je e-maillijst. Maak aparte pinseries voor "lijntracering voor kinderen", "fijne motoriek werkbladen" en "schrijfvoorbereiding oefening". Het nul-tekst formaat betekent dat pins ouders en verkopers aanspreken in elk land wereldwijd.',
       platform: 'Pinterest',
     },
     {
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Benadruk kleurrijke thema\'s als visueel engagement voordeel',
-      description: 'Lijnen Trekken gebruikt kleurrijke illustraties, geen zwart-wit contouren. Benadruk dit in je productvermeldingen — kleurrijke afbeeldingsparen maken werkbladen visueel boeiend voor jonge leerlingen en creëren aantrekkelijkere Etsy-miniaturen die hogere doorklikpercentages genereren in zoekresultaten. De levendige afbeeldingen onderscheiden je producten van eenvoudige lijntraceer werkbladen.',
+      description: 'Lijnen Trekken gebruikt kleurrijke illustraties, geen zwart-wit contouren. Benadruk dit in je productvermeldingen — kleurrijke afbeeldingsparen maken werkbladen visueel boeiend voor jonge gebruikers en creëren aantrekkelijkere Etsy-miniaturen die hogere doorklikpercentages genereren in zoekresultaten. De levendige afbeeldingen onderscheiden je producten van eenvoudige lijntraceer werkbladen.',
     },
     {
       title: 'Gebruik grijstinten voor kosteneffectief printen',
-      description: 'Schakel de grijstintenmodus in voor werkbladen bestemd voor Amazon KDP-binnenwerken of bulkprinten in de klas waar kleurendruk te duur is. Zelfs in grijstinten blijven de afbeeldingsparen visueel onderscheidend genoeg voor matching, en de SVG-lijnpaden reproduceren perfect in zwart-wit. Bewaar kleurversies voor Etsy-vermeldingen waar visuele aantrekkingskracht klikken genereert.',
+      description: 'Schakel de grijstintenmodus in voor werkbladen bestemd voor Amazon KDP-binnenwerken of bulkprinten online waar kleurendruk te duur is. Zelfs in grijstinten blijven de afbeeldingsparen visueel onderscheidend genoeg voor matching, en de SVG-lijnpaden reproduceren perfect in zwart-wit. Bewaar kleurversies voor Etsy-vermeldingen waar visuele aantrekkingskracht klikken genereert.',
     },
     {
       title: 'Combineer lijntracering met andere visuele tools voor premiumbundels',
-      description: 'Koppel lijntraceer werkbladen aan kleurplaten, rasterteken oefeningen, matching en schaduw matching activiteiten met gecoördineerde thema\'s. Elke tool oefent een andere visueel-motorische vaardigheid. Multi-formaat visuele bundels verkopen voor meer dan elk afzonderlijk activiteitstype en geven leerlingen gevarieerde oefening over fijne motoriek, ruimtelijk redeneren en visuele discriminatie vaardigheden.',
+      description: 'Koppel lijntraceer werkbladen aan kleurplaten, rasterteken oefeningen, matching en schaduw matching activiteiten met gecoördineerde thema\'s. Elke tool oefent een andere visueel-motorische vaardigheid. Multi-formaat visuele bundels verkopen voor meer dan elk afzonderlijk activiteitstype en geven gebruikers gevarieerde oefening over fijne motoriek, ruimtelijk redeneren en visuele discriminatie vaardigheden.',
     },
   ],
 
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hoe werkt afbeeldingspaar matching?',
-      answer: 'Elk sjabloon plaatst bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad. Eén afbeelding verschijnt aan het begin van de lijn en de match verschijnt aan het eind. Leerlingen traceren langs het begeleide pad om de bijpassende afbeeldingen te verbinden. Sjablonen bevatten 4 of 5 paren afhankelijk van het lijntype. De bijpassende afbeeldingen geven leerlingen een visueel doel dat hen motiveert om elke lijn te voltooien.',
+      answer: 'Elk sjabloon plaatst bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad. Eén afbeelding verschijnt aan het begin van de lijn en de match verschijnt aan het eind. gebruikers traceren langs het begeleide pad om de bijpassende afbeeldingen te verbinden. Sjablonen bevatten 4 of 5 paren afhankelijk van het lijntype. De bijpassende afbeeldingen geven gebruikers een visueel doel dat hen motiveert om elke lijn te voltooien.',
     },
     {
       question: 'Hoe werkt automatisch vullen voor batchcreatie?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Waarom is er geen antwoordblad?',
-      answer: 'Lijnen Trekken werkbladen hebben geen apart antwoordblad nodig omdat het lijnpad zelf de leerling begeleidt. Het SVG-lijnsjabloon dat op het werkblad is gedrukt toont precies waar getraceerd moet worden — leerlingen volgen het zichtbare pad van de ene afbeelding naar de match. De oefening is zelfcontrolerend: als de lijn van de leerling het pad volgt en de bijpassende afbeelding bereikt, is de oefening correct voltooid.',
+      answer: 'Lijnen Trekken werkbladen hebben geen apart antwoordblad nodig omdat het lijnpad zelf de gebruiker begeleidt. Het SVG-lijnsjabloon dat op het werkblad is gedrukt toont precies waar getraceerd moet worden — gebruikers volgen het zichtbare pad van de ene afbeelding naar de match. De oefening is zelfcontrolerend: als de lijn van de gebruiker het pad volgt en de bijpassende afbeelding bereikt, is de oefening correct voltooid.',
     },
     {
       question: 'Zijn deze werkbladen taalgevoelig?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Mag ik werkbladen gemaakt met deze tool commercieel verkopen?',
-      answer: 'Ja. Met een commerciële licentie heb je volledige rechten om lijntraceer werkbladen te verkopen als digitale downloads op Etsy, gedrukte werkboeken op Amazon KDP, lesmateriaal op TPT, of via elk ander verkoopkanaal. De acht verschillende sjablonen, 104 kleurrijke thema\'s, automatisch vullen workflow en het nul-tekst visuele formaat creëren sterke differentiatie en wereldwijde verkoopbaarheid.',
+      answer: 'Ja. Met een commerciële licentie heb je volledige rechten om lijntraceer werkbladen te verkopen als digitale downloads op Etsy, gedrukte werkboeken op Amazon KDP, printbare producten op Gumroad, of via elk ander verkoopkanaal. De acht verschillende sjablonen, 104 kleurrijke thema\'s, automatisch vullen workflow en het nul-tekst visuele formaat creëren sterke getrapte productpakketten en wereldwijde verkoopbaarheid.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

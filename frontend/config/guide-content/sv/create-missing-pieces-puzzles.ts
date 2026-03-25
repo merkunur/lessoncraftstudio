@@ -23,8 +23,8 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar pusselarbetsblad med saknade bitar',
-    tagline: 'En steg-för-steg-guide för att skapa pusselarbetsblad med sex bitformer, smart bitutdragning med ljusstyrkevariansdetektion, distraktionsbitar för genuin utmaning, två oberoende svårighetskontroller, autogenererade facit med gulmarkering, och helt visuella pussel du kan sälja världen över på Etsy, Amazon KDP och Teachers Pay Teachers',
-    description: 'Saknade bitar-pussel är en unikt engagerande visuell aktivitet där elever undersöker en bild med utstansade hål och identifierar vilken numrerad option som fyller varje lucka. Formatet kombinerar rumsligt resonerande med visuell diskriminering. Eftersom arbetsbladet bara innehåller bilder, hål och numrerade alternativ utan språkspecifik text är varje pussel du skapar omedelbart säljbart världen över utan översättning.',
+    tagline: 'En steg-för-steg-guide för att skapa pusselarbetsblad med sex bitformer, smart bitutdragning med ljusstyrkevariansdetektion, distraktionsbitar för genuin utmaning, två oberoende svårighetskontroller, autogenererade facit med gulmarkering, och helt visuella pussel du kan sälja världen över på Etsy, Amazon KDP och Gumroad',
+    description: 'Saknade bitar-pussel är en unikt engagerande visuell aktivitet där användare undersöker en bild med utstansade hål och identifierar vilken numrerad option som fyller varje lucka. Formatet kombinerar rumsligt resonerande med visuell diskriminering. Eftersom arbetsbladet bara innehåller bilder, hål och numrerade alternativ utan språkspecifik text är varje pussel du skapar omedelbart säljbart världen över utan översättning.',
   },
 
   introduction: 'Rumsligt resonerande och del-till-helhet-analys är grundläggande kognitiva färdigheter. Innan barn kan lösa komplexa visuella problem måste de lära sig analysera hur individuella bitar relaterar till en komplett bild — känna igen var ett fragment hör hemma baserat på färgkontinuitet, mönsterjustering och kontextuella ledtrådar. Saknade bitar-pussel tränar dessa färdigheter direkt.\n\nVad som gör saknade bitar-pussel särskilt kraftfulla som printable-produkt är det helt visuella formatet. Inga ord att översätta, inga instruktioner att lokalisera, inget språkhinder. Ett arbetsblad skapat i en session säljer identiskt på alla internationella marknadsplatser.\n\nSaknade Bitar Arbetsblad-generatorn hanterar komplexiteten genom ett sofistikerat smart utdragningssystem. Algoritmen gör upp till 150 placeringsförsök för att hitta bitar med tillräcklig ljusstyrkevariation (minimitröskel 15), bibehåller minst 250 pixlars avstånd mellan utdragna bitar. Sex bitformer — kvadrat, cirkel, rektangel stående, rektangel liggande, ellips stående och ellips liggande — producerar var sin visuellt distinkta pussel. Två oberoende svårighetskontroller låter dig ställa in 1–5 saknade bitar och 2–6 lösningsalternativ separat. Distraktionsbitar extraheras från icke-överlappande regioner och förhindrar lösning genom eliminering. Dubbelarbetsytesystemet genererar arbetsblad och facit simultant med gulmarkerade nummeretiketter inuti varje hål.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
@@ -36,7 +36,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Konfigurera pusselsvårighet med två oberoende kontroller',
-      content: 'Första kontrollen: antal saknade bitar (1–5). Bestämmer hur många hål som stansar ur bilden. En saknad bit: enkel identifikationsuppgift. Fem saknade bitar: komplex rumslig resoneringsutmaning.\n\nAndra kontrollen: antal lösningsalternativ (2–6). Bestämmer hur många numrerade val elever utvärderar. När alternativ överstiger saknade bitar är de extra distraktionsbitar — fragment extraherade från icke-överlappande områden som ser liknande ut men inte passar något hål. Distraktioner förhindrar lösning genom eliminering.\n\nEtt pussel med en saknad bit och två alternativ: tillgängligt för unga barn. Tre saknade bitar med fyra alternativ: mellannivå. Fem saknade bitar med sex alternativ inklusive distraktioner: genuint krävande.',
+      content: 'Första kontrollen: antal saknade bitar (1–5). Bestämmer hur många hål som stansar ur bilden. En saknad bit: enkel identifikationsuppgift. Fem saknade bitar: komplex rumslig resoneringsutmaning.\n\nAndra kontrollen: antal lösningsalternativ (2–6). Bestämmer hur många numrerade val användare utvärderar. När alternativ överstiger saknade bitar är de extra distraktionsbitar — fragment extraherade från icke-överlappande områden som ser liknande ut men inte passar något hål. Distraktioner förhindrar lösning genom eliminering.\n\nEtt pussel med en saknad bit och två alternativ: tillgängligt för unga barn. Tre saknade bitar med fyra alternativ: mellannivå. Fem saknade bitar med sex alternativ inklusive distraktioner: genuint krävande.',
     },
     {
       heading: 'Välj en bitform från sex alternativ',
@@ -44,7 +44,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj en bild från biblioteket eller ladda upp din egen',
-      content: 'Öppna Bildbibliotekspanelen med 104 temasamlingar och 3 100+ färgglada illustrationer — djur, mat, fordon, natur, högtider, yrken och dussintals fler.\n\nBilder med varierade färger och distinkta regioner producerar de mest engagerande pussel. Smart utdragningsalgoritmen kräver minimitröskel 15 för ljusstyrkevariation, så illustrationer med flera färger och detaljerade mönster genererar bättre pussel.\n\nDu kan också ladda upp egna PNG-, JPG- eller GIF-bilder. Familjefoton-pussel, klassrumsfoton, varumärkta bilder — anpassade uppladdningar öppnar produktmöjligheter som inbyggda bibliotek inte kan matcha.',
+      content: 'Öppna Bildbibliotekspanelen med 104 temasamlingar och 3 100+ färgglada illustrationer — djur, mat, fordon, natur, högtider, yrken och dussintals fler.\n\nBilder med varierade färger och distinkta regioner producerar de mest engagerande pussel. Smart utdragningsalgoritmen kräver minimitröskel 15 för ljusstyrkevariation, så illustrationer med flera färger och detaljerade mönster genererar bättre pussel.\n\nDu kan också ladda upp egna PNG-, JPG- eller GIF-bilder. Familjefoton-pussel, produktlinjesfoton, varumärkta bilder — anpassade uppladdningar öppnar produktmöjligheter som inbyggda bibliotek inte kan matcha.',
     },
     {
       heading: 'Ställ in sidlayout och dekorationer',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Samla 50–80 pussel till en arbetsbok med progressiv svårighet. Tidiga kapitel: en saknad bit med två alternativ. Mittkapitel: tre bitar med fyra alternativ. Avancerade kapitel: fem bitar med sex alternativ inklusive distraktionsbitar. Facitsidor per kapitel.\n\nTitel och undertitel: Exempeltitel "Missing Pieces Puzzles for Kids." Exempel-undertitel "80 Jigsaw Puzzle Worksheets with Answer Keys for Ages 3–8 — 6 Piece Shapes with Progressive Difficulty."\n\nDet helt visuella formatet är en stor KDP-fördel — en interiörfil fungerar på alla internationella marknadsplatser. Växla gråskala för bläcksnål utskrift.',
     },
     {
-      heading: 'Sälja pusselarbetsblad på Teachers Pay Teachers',
-      content: 'TPT är idealiskt eftersom rumsligt resonerande och visuell diskriminering är tvärkurriculära färdigheter. Naturvetenskapslärare använder med djurteman. Konstlärare för visuell analys. Specialpedagoger för spatial perception.\n\nProduktbeskrivningar: årskurs, kognitiva färdigheter, antal arbetsblad, om facit ingår, bitformer, svårighetsnivåer.\n\nFörhandsgranskningsfiler: 2–3 provpussel vid olika svårigheter plus ett facit med gulmarkerade etiketter.\n\nPaketering: "Komplett visuell perceptionspaket" med saknade bitar plus skuggmatchning, hitta udda och rutnätsmatchning.\n\nTPT-nyckelord: "saknade bitar pussel," "visuell diskriminering," "rumsligt resonerande," "morgonarbete pussel," "tidiga slutare," "kritiskt tänkande uppvärmning."',
+      heading: 'Sälja pusselarbetsblad på Gumroad',
+      content: 'Gumroad är idealiskt eftersom rumsligt resonerande och visuell diskriminering är tvärkurriculära färdigheter. Naturvetenskapssäljare använder med djurteman. Konstsäljare för visuell analys. Specialsäljare för spatial perception.\n\nProduktbeskrivningar: årskurs, kognitiva färdigheter, antal arbetsblad, om facit ingår, bitformer, svårighetsnivåer.\n\nFörhandsgranskningsfiler: 2–3 provpussel vid olika svårigheter plus ett facit med gulmarkerade etiketter.\n\nPaketering: "Komplett visuell perceptionspaket" med saknade bitar plus skuggmatchning, hitta udda och rutnätsmatchning.\n\nGumroad-nyckelord: "saknade bitar pussel," "visuell diskriminering," "rumsligt resonerande," "morgonarbete pussel," "tidiga slutare," "kritiskt tänkande uppvärmning."',
     },
   ],
 
@@ -90,14 +90,14 @@ const content: GuideContent = {
     },
     {
       heading: 'Global försäljning utan översättning',
-      content: 'Det helt visuella formatet skapar en betydande konkurrensfördel. Varje arbetsblad innehåller bara bilder, hål och numrerade alternativ — ingen språkspecifik text. Samma PDF fungerar för alla köpare i alla länder.\n\nLista samma produkter på Etsy-butiker riktade mot olika länder. Publicera samma KDP-interiör på alla internationella Amazon-marknadsplatser. Lista på TPT för internationella lärare.\n\nAnpassad bilduppladdning lägger till en ytterligare dimension — ladda upp lokalt relevanta bilder för specifika marknader medan du behåller det universella pusselformatet.',
+      content: 'Det helt visuella formatet skapar en betydande konkurrensfördel. Varje arbetsblad innehåller bara bilder, hål och numrerade alternativ — ingen språkspecifik text. Samma PDF fungerar för alla köpare i alla länder.\n\nLista samma produkter på Etsy-butiker riktade mot olika länder. Publicera samma KDP-interiör på alla internationella Amazon-marknadsplatser. Lista på Gumroad för internationella säljare.\n\nAnpassad bilduppladdning lägger till en ytterligare dimension — ladda upp lokalt relevanta bilder för specifika marknader medan du behåller det universella pusselformatet.',
     },
   ],
 
   examples: [
     {
       heading: 'Produktvariationer efter form och svårighetsnivå',
-      content: 'Förskolenivå — kvadratbitar med en saknad bit och två alternativ: färgglada djur- eller matillustrationer. Ett hål med bara två val gör identifikationen enkel och förtroendebyggande. Paketera 8–10 arbetsblad per set.\n\nFörskoleklassnivå — cirkelbitar med tre saknade bitar och fyra alternativ: tre cirkulära hål med en distraktion. Rundade formen lägger till visuell variation. 12–15 arbetsblad per set.\n\nGrundskolenivå — blandade former med fem saknade bitar och sex alternativ: rektangel- och ellipsvarianter med avlånga hål. En distraktionsbit kräver genuin visuell diskriminering. 15–20 arbetsblad.\n\nPremium anpassade fotoset — valfri form: uppladdade familjefoton, husdjursbilder eller klassrumsfoton. Personaliserade pussel kommenderar högre priser.',
+      content: 'Förskolenivå — kvadratbitar med en saknad bit och två alternativ: färgglada djur- eller matillustrationer. Ett hål med bara två val gör identifikationen enkel och förtroendebyggande. Paketera 8–10 arbetsblad per set.\n\nFörskoleklassnivå — cirkelbitar med tre saknade bitar och fyra alternativ: tre cirkulära hål med en distraktion. Rundade formen lägger till visuell variation. 12–15 arbetsblad per set.\n\nGrundskolenivå — blandade former med fem saknade bitar och sex alternativ: rektangel- och ellipsvarianter med avlånga hål. En distraktionsbit kräver genuin visuell diskriminering. 15–20 arbetsblad.\n\nPremium anpassade fotoset — valfri form: uppladdade familjefoton, husdjursbilder eller produktlinjesfoton. Personaliserade pussel kommenderar högre priser.',
     },
     {
       heading: 'Progressiv arbetsboksdesign för KDP och paket',
@@ -140,7 +140,7 @@ const content: GuideContent = {
     {
       slug: 'skapa-hitta-udda-pussel',
       title: 'Skapa Hitta udda bilden-pussel',
-      description: 'En visuell diskrimineringskompanjon. Hitta udda bilden ber elever identifiera det annorlunda objektet bland fyra bilder.',
+      description: 'En visuell diskrimineringskompanjon. Hitta udda bilden ber användare identifiera det annorlunda objektet bland fyra bilder.',
     },
     {
       slug: 'skapa-skuggmatchning-arbetsblad',

@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare rekenpuzzel werkbladen voor Etsy verkopers',
       'plaatjespuzzel werkbladen generator voor Amazon KDP',
-      'rekenpuzzel werkbladen verkopen op Teachers Pay Teachers',
+      'rekenpuzzel werkbladen verkopen op Gumroad',
       'rekenpuzzel printables commerciële licentie',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Rekenpuzzel Generator | Maak en Verkoop Printables',
     metaDescription:
-      'Maak rekenpuzzel werkbladen om te verkopen op Etsy, KDP en TPT. Plaatjespuzzels met optellen en aftrekken, instelbare rasters. Gratis proefversie met.',
+      'Maak rekenpuzzel werkbladen om te verkopen op Etsy, KDP en Gumroad. Plaatjespuzzels met optellen en aftrekken, instelbare rasters. Gratis proefversie met.',
   },
 
   hero: {
     title: 'Rekenpuzzel Werkbladen Generator voor Visuele Rekenuitdagingen',
     tagline: 'Combineer rekenpraktijk met puzzelplezier — elk stukje bevat een rekensom, elke oplossing onthult het plaatje.',
     description:
-      'Maak boeiende rekenpuzzel werkbladen waarbij een afbeelding wordt opgesplitst in een raster van stukjes, elk met een optel- of aftreksomsom. Leerlingen lossen de sommen op en koppelen de genummerde antwoorden aan de door elkaar geschudde puzzelstukjes onder het raster — zo wordt routinematig rekenen een visueel mysterie. Configureer rastergroottes van 2×2 tot 4×4 om puzzels te maken met 4 tot 16 stukjes, en kies optellen, aftrekken of gemengde bewerkingen om elk vaardigheidsniveau aan te passen. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s zoals boerderijdieren, ruimte, dinosaurussen en feestdagen om elke puzzel uniek te maken. Elk werkblad genereert een automatisch antwoordblad met het opgeloste raster naast de volledig samengestelde afbeelding. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Of je nu themapuzzelpakketten verkoopt op Etsy.nl, progressieve activiteitenboeken samenstelt voor Amazon KDP, of hands-on rekencentra maakt voor je klaslokaal — de Rekenpuzzel Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak boeiende rekenpuzzel werkbladen waarbij een afbeelding wordt opgesplitst in een raster van stukjes, elk met een optel- of aftreksomsom. gebruikers lossen de sommen op en koppelen de genummerde antwoorden aan de door elkaar geschudde puzzelstukjes onder het raster — zo wordt routinematig rekenen een visueel mysterie. Configureer rastergroottes van 2×2 tot 4×4 om puzzels te maken met 4 tot 16 stukjes, en kies optellen, aftrekken of gemengde bewerkingen om elk vaardigheidsniveau aan te passen. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s zoals boerderijdieren, ruimte, dinosaurussen en feestdagen om elke puzzel uniek te maken. Elk werkblad genereert een automatisch antwoordblad met het opgeloste raster naast de volledig samengestelde afbeelding. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Of je nu themapuzzelpakketten verkoopt op Etsy.nl, progressieve activiteitenboeken samenstelt voor Amazon KDP, of hands-on rekencentra maakt voor je winkel — de Rekenpuzzel Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: 'Kies een afbeelding uit de themabibliotheek',
         description:
-          'Open het paneel Afbeeldingenbibliotheek en verken 104 thema\'s — van dieren en voedsel tot voertuigen en feestdagen. Gebruik de zoekbalk om specifieke afbeeldingen direct te vinden. Selecteer de gewenste afbeelding als puzzelplaatje; de generator splitst deze automatisch in de rastercellen die je hebt geconfigureerd. Je kunt ook je eigen aangepaste afbeeldingen uploaden voor volledig unieke puzzels die passen bij je merk, klasthema of seizoensgebonden productlijn.',
+          'Open het paneel Afbeeldingenbibliotheek en verken 104 thema\'s — van dieren en voedsel tot voertuigen en feestdagen. Gebruik de zoekbalk om specifieke afbeeldingen direct te vinden. Selecteer de gewenste afbeelding als puzzelplaatje; de generator splitst deze automatisch in de rastercellen die je hebt geconfigureerd. Je kunt ook je eigen aangepaste afbeeldingen uploaden voor volledig unieke puzzels die passen bij je merk, merkthema of seizoensgebonden productlijn.',
       },
       {
         title: 'Voeg tekst, titels en aangepaste details toe',
         description:
-          'Gebruik het paneel Tekstgereedschappen om een werkbladtitel, velden voor naam en datum van de leerling, instructies of andere aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Pas lettergrootte, kleur en omtrek aan voor maximale leesbaarheid. Gebruik het volledige Fabric.js-canvas om elk element te slepen, schalen en herpositioneren — met laagbesturing, uitlijningshulplijnen, vergrendelen/ontgrendelen en onbeperkt ongedaan maken en opnieuw uitvoeren voor een nauwkeurige lay-out.',
+          'Gebruik het paneel Tekstgereedschappen om een werkbladtitel, velden voor naam en datum van de gebruiker, instructies of andere aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Pas lettergrootte, kleur en omtrek aan voor maximale leesbaarheid. Gebruik het volledige Fabric.js-canvas om elk element te slepen, schalen en herpositioneren — met laagbesturing, uitlijningshulplijnen, vergrendelen/ontgrendelen en onbeperkt ongedaan maken en opnieuw uitvoeren voor een nauwkeurige lay-out.',
       },
       {
         title: 'Genereer het antwoordblad en download',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Plaatjespuzzelformaat met rekensommen',
         description:
-          'Elk werkblad toont een geselecteerde afbeelding die is opgesplitst in een raster van cellen, waarbij elke cel een rekensom bevat. Onder het raster worden de door elkaar geschudde puzzelstukjes weergegeven die leerlingen moeten koppelen door elke som op te lossen en het antwoord te matchen met het juiste stukje. Deze tweefasige opzet — los de som op, stel de puzzel samen — transformeert basisrekenen in een visuele uitdaging die leerlingen motiveert om elk probleem op de pagina af te maken. De puzzelonthulling voegt een beloningsmechanisme toe dat standaard rekenwerkbladen missen, waardoor leerlingen enthousiast worden om elke som op te lossen in plaats van halverwege op te geven.',
+          'Elk werkblad toont een geselecteerde afbeelding die is opgesplitst in een raster van cellen, waarbij elke cel een rekensom bevat. Onder het raster worden de door elkaar geschudde puzzelstukjes weergegeven die gebruikers moeten koppelen door elke som op te lossen en het antwoord te matchen met het juiste stukje. Deze tweefasige opzet — los de som op, stel de puzzel samen — transformeert basisrekenen in een visuele uitdaging die gebruikers motiveert om elk probleem op de pagina af te maken. De puzzelonthulling voegt een beloningsmechanisme toe dat standaard rekenwerkbladen missen, waardoor gebruikers enthousiast worden om elke som op te lossen in plaats van halverwege op te geven.',
       },
       {
         title: 'Instelbare rastergrootte van 4 tot 16 stukjes',
         description:
-          'Stel rijen in van 2 tot 4 en kolommen van 2 tot 4 om puzzels te maken variërend van een beginnersvriendelijk 2×2-raster (4 stukjes) tot een uitdagend 4×4-raster (16 stukjes). Kleinere rasters werken perfect voor kleuters en leerlingen van groep 1 die minder sommen per pagina nodig hebben, terwijl grotere rasters uitgebreide oefening bieden voor groep 3 en 4 van de basisschool. De rastergrootte bepaalt direct het aantal sommen, waardoor moeilijkheidsdifferentiatie net zo eenvoudig is als het aanpassen van twee schuifregelaars. Voor verkopers betekent dit dat je met dezelfde afbeelding drie moeilijkheidsgraden kunt aanbieden in één productvermelding.',
+          'Stel rijen in van 2 tot 4 en kolommen van 2 tot 4 om puzzels te maken variërend van een beginnersvriendelijk 2×2-raster (4 stukjes) tot een uitdagend 4×4-raster (16 stukjes). Kleinere rasters werken perfect voor kleuters en gebruikers van groep 1 die minder sommen per pagina nodig hebben, terwijl grotere rasters uitgebreide oefening bieden voor groep 3 en 4 van de basisschool. De rastergrootte bepaalt direct het aantal sommen, waardoor moeilijkheidsgetrapte productpakketten net zo eenvoudig is als het aanpassen van twee schuifregelaars. Voor verkopers betekent dit dat je met dezelfde afbeelding drie moeilijkheidsgraden kunt aanbieden in één productvermelding.',
       },
       {
         title: 'Drie rekenbewerkingen voor elk niveau',
@@ -78,17 +78,17 @@ const content: AppContent = {
       {
         title: '104 visuele thema\'s met meer dan 3100 afbeeldingen',
         description:
-          'Blader door een zorgvuldig samengestelde bibliotheek van meer dan 3100 illustraties met hoge resolutie, georganiseerd in 104 thema\'s waaronder boerderijdieren, oceaanleven, voertuigen, ruimte, voedsel, sport, dinosaurussen, feestdagen en nog veel meer. Selecteer een afbeelding als puzzelplaatje — de generator splitst deze automatisch. Omdat het puzzelformaat volledig visueel is, werken je werkbladen perfect in elke taal en elk klaslokaal wereldwijd zonder aanpassing. Dit maakt je producten direct verkoopbaar op internationale marktplaatsen zonder vertaalinspanning.',
+          'Blader door een zorgvuldig samengestelde bibliotheek van meer dan 3100 illustraties met hoge resolutie, georganiseerd in 104 thema\'s waaronder boerderijdieren, oceaanleven, voertuigen, ruimte, voedsel, sport, dinosaurussen, feestdagen en nog veel meer. Selecteer een afbeelding als puzzelplaatje — de generator splitst deze automatisch. Omdat het puzzelformaat volledig visueel is, werken je werkbladen perfect in elke taal en elk winkel wereldwijd zonder aanpassing. Dit maakt je producten direct verkoopbaar op internationale marktplaatsen zonder vertaalinspanning.',
       },
       {
         title: 'Automatische generatie van antwoordbladen',
         description:
-          'Klik op één knop om een compleet antwoordblad te genereren dat het opgeloste raster toont met alle rekensommen correct beantwoord naast de volledig samengestelde afbeelding. Het antwoordblad biedt directe visuele verificatie — leerlingen en leerkrachten zien zowel de wiskundige oplossingen als het voltooide plaatje in één oogopslag. Exporteer het antwoordblad als apart JPEG- of PDF-bestand voor leerkrachtedities, oudergidsen of productbundels op Etsy.nl. Het opnemen van professioneel opgemaakte antwoordbladen verhoogt de waargenomen waarde van je productvermelding aanzienlijk.',
+          'Klik op één knop om een compleet antwoordblad te genereren dat het opgeloste raster toont met alle rekensommen correct beantwoord naast de volledig samengestelde afbeelding. Het antwoordblad biedt directe visuele verificatie — gebruikers en verkopers zien zowel de wiskundige oplossingen als het voltooide plaatje in één oogopslag. Exporteer het antwoordblad als apart JPEG- of PDF-bestand voor verkoperedities, oudergidsen of productbundels op Etsy.nl. Het opnemen van professioneel opgemaakte antwoordbladen verhoogt de waargenomen waarde van je productvermelding aanzienlijk.',
       },
       {
         title: 'Printklare export op 400+ DPI met grijstintenoptie',
         description:
-          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x-vermenigvuldiger, waardoor meer dan 400 DPI wordt geproduceerd in standaardformaten. Schakel de grijstintenexport in voor inktbesparende versies die perfect zijn voor afdrukken in het klaslokaal of zwart-witactiviteitenboeken. De formaten Letter, A4, Standaard Werkblad, Vierkant en aangepaste afmetingen worden allemaal ondersteund voor maximale flexibiliteit op alle platformen.',
+          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x-vermenigvuldiger, waardoor meer dan 400 DPI wordt geproduceerd in standaardformaten. Schakel de grijstintenexport in voor inktbesparende versies die perfect zijn voor afdrukken online of zwart-witactiviteitenboeken. De formaten Letter, A4, Standaard Werkblad, Vierkant en aangepaste afmetingen worden allemaal ondersteund voor maximale flexibiliteit op alle platformen.',
       },
       {
         title: 'Eigen afbeeldingen uploaden voor unieke puzzels',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Thematische rekenpuzzelpakketten op Etsy.nl',
         description:
-          'Maak sets van 10–20 rekenpuzzel werkbladen gegroepeerd per thema — boerderijdieren, dinosaurussen, oceaanleven, feestdagen — en bied ze aan als directe download pakketten op Etsy.nl. Voeg antwoordbladen toe als bonusbestanden. Het puzzelformaat valt op tussen standaard oefenbladen en trekt ouders aan die zoeken naar uitdagend rekenmateriaal en leerkrachten die creatieve klasactiviteiten nodig hebben. Prijs losse themapakketten tussen €3–€5 en megapakketten tussen €12–€18. Seizoenscollecties rond de start van het schooljaar, Halloween en de voorjaarsvakantie laten pieken zien in zoekverkeer — plan je aanbiedingen rond deze periodes voor maximale zichtbaarheid en conversies.',
+          'Maak sets van 10–20 rekenpuzzel werkbladen gegroepeerd per thema — boerderijdieren, dinosaurussen, oceaanleven, feestdagen — en bied ze aan als directe download pakketten op Etsy.nl. Voeg antwoordbladen toe als bonusbestanden. Het puzzelformaat valt op tussen standaard oefenbladen en trekt ouders aan die zoeken naar uitdagend rekenmateriaal en verkopers die creatieve klasactiviteiten nodig hebben. Prijs losse themapakketten tussen €3–€5 en megapakketten tussen €12–€18. Seizoenscollecties rond de start van het schooljaar, Halloween en de voorjaarsvakantie laten pieken zien in zoekverkeer — plan je aanbiedingen rond deze periodes voor maximale zichtbaarheid en conversies.',
         platform: 'Etsy (etsy.nl)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde rekencentra voor TPT',
+        title: 'Gedifferentieerde rekencentra voor Gumroad',
         description:
-          'Maak rekenpuzzelsets op niveau met de rastergrootte als moeilijkheidsas: Niveau 1 (2×2 optellen, 4 stukjes), Niveau 2 (2×3 optellen, 6 stukjes), Niveau 3 (3×3 aftrekken, 9 stukjes) en Niveau 4 (4×4 gemengd, 16 stukjes). Pak elk niveau in met antwoordbladen en een voortgangsregistratieblad. Kopers op Teachers Pay Teachers betalen premium prijzen voor gedifferentieerde leermiddelen die direct aansluiten bij niveaugroepen en onmiddelijk inzetbaar zijn als rekencentrumrotaties in de klas.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Maak rekenpuzzelsets op niveau met de rastergrootte als moeilijkheidsas: Niveau 1 (2×2 optellen, 4 stukjes), Niveau 2 (2×3 optellen, 6 stukjes), Niveau 3 (3×3 aftrekken, 9 stukjes) en Niveau 4 (4×4 gemengd, 16 stukjes). Pak elk niveau in met antwoordbladen en een voortgangsregistratieblad. Kopers op Gumroad betalen premium prijzen voor gedifferentieerde leermiddelen die direct aansluiten bij niveaugroepen en onmiddelijk inzetbaar zijn als rekencentrumrotaties online.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Digitale producten op Bol.com en je eigen webshop',
@@ -131,9 +131,9 @@ const content: AppContent = {
         platform: 'Bol.com / Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Rekenpuzzels voor de klas en bijles',
+        title: 'Rekenpuzzels voor de winkel en bijles',
         description:
-          'Genereer aangepaste rekenpuzzels afgestemd op het vaardigheidsniveau van elke leerling. Print eenvoudige 2×2 optelpuzzels voor beginners en complexe 4×4 gemengde-bewerkingen puzzels voor gevorderde leerlingen — allemaal in dezelfde sessie. Het puzzelonthullingsmechanisme motiveert leerlingen om elke som af te maken om het volledige plaatje te zien, waardoor de weerstand vermindert die veel kinderen voelen bij repetitieve oefenwerkbladen. Het automatische antwoordblad bespaart correctietijd. Of je nu lesgeeft op de basisschool, een bijlescentrum runt of aan thuisonderwijs doet — de generator vervangt uren handmatig werk door een paar klikken.',
+          'Genereer aangepaste rekenpuzzels afgestemd op het vaardigheidsniveau van elke gebruiker. Print eenvoudige 2×2 optelpuzzels voor beginners en complexe 4×4 gemengde-bewerkingen puzzels voor gevorderde gebruikers — allemaal in dezelfde sessie. Het puzzelonthullingsmechanisme motiveert gebruikers om elke som af te maken om het volledige plaatje te zien, waardoor de weerstand vermindert die veel kinderen voelen bij repetitieve oefenwerkbladen. Het automatische antwoordblad bespaart waargenomen waarde. Of je nu lesgeeft op de basisschool, een bijlescentrum runt of aan thuisonderwijs doet — de generator vervangt uren handmatig werk door een paar klikken.',
         platform: 'Klas / Bijles / Thuisonderwijs',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Hoe werkt het rekenpuzzelformaat?',
       answer:
-        'Een geselecteerde afbeelding wordt opgesplitst in een raster van cellen. Elke cel bevat een rekensom (optellen, aftrekken of gemengd). Onder het raster worden dezelfde afbeeldingsstukjes door elkaar geschud en genummerd weergegeven. Leerlingen lossen elke rekensom op en koppelen het antwoord aan het juiste geschudde stukje — wanneer alle stukjes correct zijn gekoppeld, is de puzzel opgelost en wordt het volledige plaatje onthuld. Dit onthullingsmechanisme voegt een motivatielaag toe die standaard oefenbladen missen, waardoor leerlingen enthousiast worden om elk probleem af te maken in plaats van halverwege het werkblad op te geven.',
+        'Een geselecteerde afbeelding wordt opgesplitst in een raster van cellen. Elke cel bevat een rekensom (optellen, aftrekken of gemengd). Onder het raster worden dezelfde afbeeldingsstukjes door elkaar geschud en genummerd weergegeven. gebruikers lossen elke rekensom op en koppelen het antwoord aan het juiste geschudde stukje — wanneer alle stukjes correct zijn gekoppeld, is de puzzel opgelost en wordt het volledige plaatje onthuld. Dit onthullingsmechanisme voegt een motivatielaag toe die standaard oefenbladen missen, waardoor gebruikers enthousiast worden om elk probleem af te maken in plaats van halverwege het werkblad op te geven.',
     },
     {
       question: 'Welke rastergroottes zijn beschikbaar voor de puzzels?',
       answer:
-        'Je kunt rijen instellen van 2 tot 4 en kolommen van 2 tot 4, waardoor puzzels ontstaan met 4 stukjes (2×2) tot 16 stukjes (4×4). Kleinere rasters zijn ideaal voor jongere leerlingen of snelle activiteiten, terwijl grotere rasters meer sommen bieden en een grotere puzzeluitdaging vormen. Dit bereik aan rasteropties maakt het ook eenvoudig om gelaagde productpakketten te maken — groepeer makkelijke, gemiddelde en moeilijke puzzels in één aanbieding die kopers aanspreekt over meerdere leeftijdsgroepen en vaardigheidsniveaus.',
+        'Je kunt rijen instellen van 2 tot 4 en kolommen van 2 tot 4, waardoor puzzels ontstaan met 4 stukjes (2×2) tot 16 stukjes (4×4). Kleinere rasters zijn ideaal voor jongere gebruikers of snelle activiteiten, terwijl grotere rasters meer sommen bieden en een grotere puzzeluitdaging vormen. Dit bereik aan rasteropties maakt het ook eenvoudig om gelaagde productpakketten te maken — groepeer makkelijke, gemiddelde en moeilijke puzzels in één aanbieding die kopers aanspreekt over meerdere leeftijdsgroepen en vaardigheidsniveaus.',
     },
     {
       question: 'Welke rekenbewerkingen ondersteunt de Rekenpuzzel Generator?',
       answer:
-        'De generator ondersteunt drie bewerkingsmodi: Optellen (twee getallen die optellen tot de oplossing), Aftrekken (het ene getal minus het andere is gelijk aan de oplossing) en Gemengd — optellen en aftrekken (beide bewerkingen willekeurig verdeeld over het raster). Hiermee kun je specifieke vaardigheden oefenen of gevarieerde oefening op één werkblad aanbieden. Verkopers die alle drie de bewerkingsmodi als aparte producten of als gebundelde collectie aanbieden, bedienen een breder scala aan kopersbehoeften en trekken zowel beginners als gevorderde leerlingen aan.',
+        'De generator ondersteunt drie bewerkingsmodi: Optellen (twee getallen die optellen tot de oplossing), Aftrekken (het ene getal minus het andere is gelijk aan de oplossing) en Gemengd — optellen en aftrekken (beide bewerkingen willekeurig verdeeld over het raster). Hiermee kun je specifieke vaardigheden oefenen of gevarieerde oefening op één werkblad aanbieden. Verkopers die alle drie de bewerkingsmodi als aparte producten of als gebundelde collectie aanbieden, bedienen een breder scala aan kopersbehoeften en trekken zowel beginners als gevorderde gebruikers aan.',
     },
     {
       question: 'Hoe worden de getallen in de rekensommen gegenereerd?',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: 'Genereert de generator antwoordbladen voor de puzzels?',
       answer:
-        'Ja. Klik op de knop Antwoordblad Genereren om een opgeloste versie te maken met het voltooide raster waarin alle rekenantwoorden zijn ingevuld, naast de volledig samengestelde afbeelding. Je kunt het op het scherm bekijken en het downloaden als apart JPEG- of PDF-bestand om op te nemen in leerkrachtedities of productpakketten.',
+        'Ja. Klik op de knop Antwoordblad Genereren om een opgeloste versie te maken met het voltooide raster waarin alle rekenantwoorden zijn ingevuld, naast de volledig samengestelde afbeelding. Je kunt het op het scherm bekijken en het downloaden als apart JPEG- of PDF-bestand om op te nemen in verkoperedities of productpakketten.',
     },
     {
       question: 'Zijn rekenpuzzel werkbladen taalgevoelig?',
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Kan ik puzzels exporteren in grijstinten voor inktbesparend printen?',
       answer:
-        'Ja. Schakel de grijstintenoptie in voordat je exporteert om zwart-witversies te produceren die perfect zijn voor afdrukken in het klaslokaal, huiswerkpakketten of activiteitenboeken waar kleurenafdrukken niet praktisch is. Zowel JPEG- als PDF-exporten ondersteunen de grijstintenmodus. Veel Amazon KDP-uitgevers maken zowel een digitale kleureditie als een grijstinten printversie van dezelfde puzzelset, waardoor ze hun productcatalogus verdubbelen met minimaal extra werk en kopers bereiken die de voorkeur geven aan inktbesparende afdrukformaten.',
+        'Ja. Schakel de grijstintenoptie in voordat je exporteert om zwart-witversies te produceren die perfect zijn voor afdrukken online, oefenmateriaalpakketten of activiteitenboeken waar kleurenafdrukken niet praktisch is. Zowel JPEG- als PDF-exporten ondersteunen de grijstintenmodus. Veel Amazon KDP-uitgevers maken zowel een digitale kleureditie als een grijstinten printversie van dezelfde puzzelset, waardoor ze hun productcatalogus verdubbelen met minimaal extra werk en kopers bereiken die de voorkeur geven aan inktbesparende afdrukformaten.',
     },
     {
       question: 'Is er een gratis proefversie?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Wat bevat de commerciële licentie?',
       answer:
-        'De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy.nl, Amazon KDP, Teachers Pay Teachers, Bol.com, je eigen website of elk ander platform. Er zijn geen royalty\'s per verkoop, geen maandelijkse kosten en geen limiet op het aantal puzzels dat je produceert of verkoopt. Je behoudt volledig eigendom van elk werkblad dat je genereert, en je kunt producten op meerdere marktplaatsen tegelijk aanbieden zonder extra licentiekosten of platformbeperkingen.',
+        'De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform. Er zijn geen royalty\'s per verkoop, geen maandelijkse kosten en geen limiet op het aantal puzzels dat je produceert of verkoopt. Je behoudt volledig eigendom van elk werkblad dat je genereert, en je kunt producten op meerdere marktplaatsen tegelijk aanbieden zonder extra licentiekosten of platformbeperkingen.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'rekenfeiten-printable-ideen',
-      anchorText: 'Reken-feiten printable ideeën voor docenten en verkopers',
+      anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers',
     },
     {
       pageType: 'idea',

@@ -23,7 +23,7 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar bildsudoku för unga barn',
-    tagline: 'En steg-för-steg-guide för att skapa bildbaserade 4×4 sudokupussel du kan sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
+    tagline: 'En steg-för-steg-guide för att skapa bildbaserade 4×4 sudokupussel du kan sälja på Etsy, Amazon KDP och Gumroad',
     description: 'Bildsudoku ersätter siffror med bilder, vilket gör logikpussel tillgängliga för barn så unga som tre år. Istället för att fylla ett rutnät med siffror placerar barn tematiska bilder — djur, frukter, fordon eller valfri bilduppsättning — så att varje rad och kolumn innehåller varje bild exakt en gång. Denna guide leder dig genom hela skapandeprocessen med Bildsudoku-skaparen — från att välja svårighetsnivå och tema till att exportera en polerad, tryckfärdig PDF med automatiskt facit.',
   },
 
@@ -32,7 +32,7 @@ const content: GuideContent = {
   tutorial: [
     {
       heading: 'Välj din svårighetsnivå',
-      content: 'Svårighet bestäms av hur många celler som lämnas tomma i 4×4 rutnätet (16 celler totalt).\n\nEnkel (4 tomma celler): Tolv av sexton celler är förifyllda. Barnet behöver bara hitta fyra saknade bilder. Idealiskt för 3–4 år och barn som möter sudoku för första gången.\n\nMedium (6 tomma celler): Tio celler förifyllda. Barn behöver använda både rad- och kolumnlogik. Passar 4–5 år.\n\nSvår (8 tomma celler): Bara åtta celler förifyllda — exakt halva rutnätet. Kräver äkta deduktivt resonerande. Fungerar för 5–7 år.\n\nSvårighetsnivå är din primära produktdifferentiering. Ett tema vid tre nivåer ger tre produkter eller ett nivåindelat paket. Föräldrar och lärare söker specifikt efter svårighetsgraderande material.',
+      content: 'Svårighet bestäms av hur många celler som lämnas tomma i 4×4 rutnätet (16 celler totalt).\n\nEnkel (4 tomma celler): Tolv av sexton celler är förifyllda. Barnet behöver bara hitta fyra saknade bilder. Idealiskt för 3–4 år och barn som möter sudoku för första gången.\n\nMedium (6 tomma celler): Tio celler förifyllda. Barn behöver använda både rad- och kolumnlogik. Passar 4–5 år.\n\nSvår (8 tomma celler): Bara åtta celler förifyllda — exakt halva rutnätet. Kräver äkta deduktivt resonerande. Fungerar för 5–7 år.\n\nSvårighetsnivå är din primära produktdifferentiering. Ett tema vid tre nivåer ger tre produkter eller ett nivåindelat paket. Föräldrar och säljare söker specifikt efter svårighetsgraderande material.',
     },
     {
       heading: 'Välj ett tema från bildbiblioteket',
@@ -56,11 +56,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Generera facit',
-      content: 'Klicka Skapa facit. Facit visar det kompletta 4×4 rutnätet med alla bilder ifyllda.\n\nFacit är avgörande:\n\nLärare: snabb verifiering vid rättning av en hel klass.\n\nFöräldrar: hjälpa barn som fastnat genom att snabbt kolla lösningen.\n\nFacit speglar arbetsbladsklayouten — samma sidstorlek, samma position, samma styling.\n\nNämn alltid facit i dina listningar. "Med facit" är en vanligt sökt kvalificerare.',
+      content: 'Klicka Skapa facit. Facit visar det kompletta 4×4 rutnätet med alla bilder ifyllda.\n\nFacit är avgörande:\n\nsäljare: snabb verifiering vid rättning av en hel klass.\n\nFöräldrar: hjälpa barn som fastnat genom att snabbt kolla lösningen.\n\nFacit speglar arbetsbladsklayouten — samma sidstorlek, samma position, samma styling.\n\nNämn alltid facit i dina listningar. "Med facit" är en vanligt sökt kvalificerare.',
     },
     {
       heading: 'Exportera som tryckfärdig PDF och JPEG',
-      content: 'Fyra nedladdningsknappar: Arbetsblad JPEG, Arbetsblad PDF, Facit JPEG, Facit PDF.\n\nGråskaleväxel: bläcksnåla versioner populära bland lärare. Överväg att erbjuda både färg och gråskala.\n\nFör marknadsplatslistningar, exportera båda formaten. PDF som leverbar produkt, JPEG för förhandsgranskningsbilder.\n\nViktigt: den gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.',
+      content: 'Fyra nedladdningsknappar: Arbetsblad JPEG, Arbetsblad PDF, Facit JPEG, Facit PDF.\n\nGråskaleväxel: bläcksnåla versioner populära bland säljare. Överväg att erbjuda både färg och gråskala.\n\nFör marknadsplatslistningar, exportera båda formaten. PDF som leverbar produkt, JPEG för förhandsgranskningsbilder.\n\nViktigt: den gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.',
     },
   ],
 
@@ -74,15 +74,15 @@ const content: GuideContent = {
       content: 'Amazon KDP är idealiskt — pussel samlas naturligt till aktivitetsböcker. Skapa 40–80 pussel organiserade efter svårighet med facit i slutet. 8,5×11 tum trim.\n\nTitel och undertitel: Exempeltitel "Picture Sudoku for Kids Ages 3–6." Exempel-undertitel "60 Visual Logic Puzzles with Animal Themes — Easy to Hard — With Answer Keys."\n\nNyckelord: "picture sudoku preschool," "visual logic puzzles kids," "sudoku puzzle book toddler."\n\nOmslagsdesign: visa ett provpussel framträdande.\n\nPrissättning: KDP pusselböcker $5,99–$8,99 för 40–80 sidor.',
     },
     {
-      heading: 'Sälja bildsudoku på Teachers Pay Teachers',
-      content: 'TPT — bildsudoku passar som logikcentra-aktivitet, tidiga slutare eller kritiskt tänkande-komplement.\n\nProduktbeskrivningar: betona pedagogiskt värde — logikfärdigheter, rumsligt resonerande, deduktivt tänkande. Inkludera ålder/årskurs, svårighetsnivå, antal pussel, om facit ingår.\n\nKlassrumspositionering: "logikcentra-aktivitet" eller "kritiskt tänkande arbetsblad."\n\nFörhandsgranskningsfiler: 2–3 provpussel med enkel och svår.\n\nPaketering: "Förskoleklass logikpussel-paket" med 40 bildsudoku.\n\nSäsongsbetonade möjligheter: högtidstematiserade sudokuuppsättningar.',
+      heading: 'Sälja bildsudoku på Gumroad',
+      content: 'Gumroad — bildsudoku passar som logikcentra-aktivitet, tidiga slutare eller kritiskt tänkande-komplement.\n\nProduktbeskrivningar: betona pedagogiskt värde — logikfärdigheter, rumsligt resonerande, deduktivt tänkande. Inkludera ålder/årskurs, svårighetsnivå, antal pussel, om facit ingår.\n\nproduktlinjespositionering: "logikcentra-aktivitet" eller "kritiskt tänkande arbetsblad."\n\nFörhandsgranskningsfiler: 2–3 provpussel med enkel och svår.\n\nPaketering: "Förskoleklass logikpussel-paket" med 40 bildsudoku.\n\nSäsongsbetonade möjligheter: högtidstematiserade sudokuuppsättningar.',
     },
   ],
 
   monetization: [
     {
       heading: 'Prissättning av dina bildsudoku-produkter',
-      content: 'Enstaka pussel med facit: $1,29–$1,99. Instegsprodukter.\n\nSvårighetsset (enkel + medium + svår, ett tema): $2,49–$3,99. Tre pussel med progression — en naturlig produktenhet.\n\nTemapaket (8–12 pussel, alla svårigheter): $3,99–$7,99. Den optimala punkten.\n\nFlertema-samling (30–50 pussel): $9,99–$16,99. Riktar sig mot lärare och hemundervisande.\n\nMegapaket (60–100+ pussel): $14,99–$24,99. Högsta intäktsprodukten.\n\nPrissätt inte enstaka pussel under $0,99.',
+      content: 'Enstaka pussel med facit: $1,29–$1,99. Instegsprodukter.\n\nSvårighetsset (enkel + medium + svår, ett tema): $2,49–$3,99. Tre pussel med progression — en naturlig produktenhet.\n\nTemapaket (8–12 pussel, alla svårigheter): $3,99–$7,99. Den optimala punkten.\n\nFlertema-samling (30–50 pussel): $9,99–$16,99. Riktar sig mot säljare och hemundervisande.\n\nMegapaket (60–100+ pussel): $14,99–$24,99. Högsta intäktsprodukten.\n\nPrissätt inte enstaka pussel under $0,99.',
     },
     {
       heading: 'Paketeringsstrategier',
@@ -97,7 +97,7 @@ const content: GuideContent = {
   examples: [
     {
       heading: 'Produktvariationer efter svårighet och ålder',
-      content: '3–4 år (Enkel, 4 tomma): Mest igenkännliga teman — bondgårdsdjur, frukter, fordon. Snabb framgångsupplevelse. 6–8 pussel per tema i liggande orientering. Riktar sig mot föräldrar och förskoleLärare.\n\n4–5 år (Medium, 6 tomma): Mer varierade teman — havsdjur, dinosaurier, insekter, matgrupper. Kräver rad- och kolumnlogik. 8–10 pussel per tema.\n\n5–7 år (Svår, 8 tomma): Alla teman fungerar. Äkta flerstegsd deduktion. 10–12 pussel per tema. Riktar sig mot förskoleklass och hemundervisande.\n\nBlandad-svårighetspaket: 4 enkla + 4 medium + 4 svåra i ett tema. 12-pusselsset. Det mest populära produktformatet.',
+      content: '3–4 år (Enkel, 4 tomma): Mest igenkännliga teman — bondgårdsdjur, frukter, fordon. Snabb framgångsupplevelse. 6–8 pussel per tema i liggande orientering. Riktar sig mot föräldrar och förskolesäljare.\n\n4–5 år (Medium, 6 tomma): Mer varierade teman — havsdjur, dinosaurier, insekter, matgrupper. Kräver rad- och kolumnlogik. 8–10 pussel per tema.\n\n5–7 år (Svår, 8 tomma): Alla teman fungerar. Äkta flerstegsd deduktion. 10–12 pussel per tema. Riktar sig mot förskoleklass och hemundervisande.\n\nBlandad-svårighetspaket: 4 enkla + 4 medium + 4 svåra i ett tema. 12-pusselsset. Det mest populära produktformatet.',
     },
     {
       heading: 'Högpresterande tema- och marknadskombinationer',
@@ -120,7 +120,7 @@ const content: GuideContent = {
     },
     {
       question: 'Skapar generatorn facit automatiskt?',
-      answer: 'Ja. Klicka Skapa facit för det kompletta 4×4 rutnätet med alla bilder ifyllda. Facit exporteras som PDF och JPEG, separata från arbetsbladsfilerna. Avgörande för lärare och föräldrar.',
+      answer: 'Ja. Klicka Skapa facit för det kompletta 4×4 rutnätet med alla bilder ifyllda. Facit exporteras som PDF och JPEG, separata från arbetsbladsfilerna. Avgörande för säljare och föräldrar.',
     },
     {
       question: 'Hur fungerar den lokaliserade rubriken?',

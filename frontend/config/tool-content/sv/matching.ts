@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Matchnings Arbetsblad Skapare',
     tagline: 'Fyrläges dra-ett-streck matchnings arbetsblad generator med Begynnelsebokstav, Bild+Ord, Blandat och Anpassat Ord-lägen, automatiskt genererade facit med kopplingslinjer, konfigurerbara parantal, lokaliserad Para ihop-rubrik på 11 språk och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella dra-ett-streck matchnings arbetsblad där eleverna kopplar ihop par genom att dra linjer mellan två kolumner — med fyra distinkta matchningslägen i en enda generator. Begynnelsebokstav-läget placerar bilder till vänster och deras första bokstäver till höger, med tre underlägen: Slumpmässigt Tema och Bilder, Slumpmässigt från Valt Tema, och Välj Specifika Bilder. Växla versaler eller gemener. Bild+Ord-läget visar märkta bildpar på båda sidor för vokabulärförstärkning. Bild/Ord Blandat-läget använder per-rad dropdown-väljare. Anpassat Ord-läget parar bilder med dina egna inskrivna matchningstermer. Konfigurera 4, 5 eller 6 par per arbetsblad (standard 6). Växla artikelnummer (standard PÅ) och punktmarkeringar (standard PÅ) oberoende. Varje arbetsblad inkluderar en automatiskt genererad lokaliserad «Para ihop!»-rubrik med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50, 8px streck), lokaliserad titel i Fredoka (700) och beskrivning i Quicksand (500), automatiskt översatt till alla 11 stödda språk. Dubbelarbetsyte-systemet genererar samtidigt en arbetsbladsflik och en facitflik — facit ritar horisontella kopplingslinjer (#555, streckbredd 2) mellan korrekta matchningar. Denna generator är språkkänslig: Begynnelsebokstav och Bild+Ord-lägen använder lokaliserade bildnamn, så att byta språk ändrar orden och begynnelsebokstäverna — samma kattbild visar K på svenska men C på engelska (Cat) och K på tyska (Katze). Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till elevens namn- och datumfält. Exportera fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Välj Letter, A4, Kvadrat eller anpassade sidstorlekar med gråskaleväxling. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella dra-ett-streck matchnings arbetsblad där användarna kopplar ihop par genom att dra linjer mellan två kolumner — med fyra distinkta matchningslägen i en enda generator. Begynnelsebokstav-läget placerar bilder till vänster och deras första bokstäver till höger, med tre underlägen: Slumpmässigt Tema och Bilder, Slumpmässigt från Valt Tema, och Välj Specifika Bilder. Växla versaler eller gemener. Bild+Ord-läget visar märkta bildpar på båda sidor för vokabulärförstärkning. Bild/Ord Blandat-läget använder per-rad dropdown-väljare. Anpassat Ord-läget parar bilder med dina egna inskrivna matchningstermer. Konfigurera 4, 5 eller 6 par per arbetsblad (standard 6). Växla artikelnummer (standard PÅ) och punktmarkeringar (standard PÅ) oberoende. Varje arbetsblad inkluderar en automatiskt genererad lokaliserad «Para ihop!»-rubrik med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50, 8px streck), lokaliserad titel i Fredoka (700) och beskrivning i Quicksand (500), automatiskt översatt till alla 11 stödda språk. Dubbelarbetsyte-systemet genererar samtidigt en arbetsbladsflik och en facitflik — facit ritar horisontella kopplingslinjer (#555, streckbredd 2) mellan korrekta matchningar. Denna generator är språkkänslig: Begynnelsebokstav och Bild+Ord-lägen använder lokaliserade bildnamn, så att byta språk ändrar orden och begynnelsebokstäverna — samma kattbild visar K på svenska men C på engelska (Cat) och K på tyska (Katze). Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till namn- och datumfält. Exportera fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Välj Letter, A4, Kvadrat eller anpassade sidstorlekar med gråskaleväxling. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera par, nummer och formatering',
-        description: 'Ställ in antal matchningspar till 4, 5 eller 6 med dropdownen (standard 6). Färre par skapar arbetsblad med större bilder och mer avstånd för yngre elever; fler par ökar svårighet och innehållsdensitet. Växla «Inkludera artikelnummer» (standard PÅ) för att lägga till siffror före varje par. Växla «Visa punktmarkeringar» (standard PÅ) för dekorativa punkter bredvid objekt. Kryssa i «Inkludera Namn/Datum-fält» för elevens namn och datumlinjer.',
+        description: 'Ställ in antal matchningspar till 4, 5 eller 6 med dropdownen (standard 6). Färre par skapar arbetsblad med större bilder och mer avstånd för yngre användare; fler par ökar svårighet och innehållsdensitet. Växla «Inkludera artikelnummer» (standard PÅ) för att lägga till siffror före varje par. Växla «Visa punktmarkeringar» (standard PÅ) för dekorativa punkter bredvid objekt. Kryssa i «Inkludera Namn/Datum-fält» för namn och datumlinjer.',
       },
       {
         title: 'Välj bilder från biblioteket',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera matchnings arbetsbladet',
-        description: 'Klicka på Generera för att skapa den tvåkolumniga matchningslayouten. En stiliserad «Para ihop!»-rubrik visas överst med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50) och lokaliserad titel i Fredoka och Quicksand. Artikelnummer och punktmarkeringar visas baserat på dina växlingsinställningar. Arbetsbladfliken visar elevversionen utan kopplingslinjer.',
+        description: 'Klicka på Generera för att skapa den tvåkolumniga matchningslayouten. En stiliserad «Para ihop!»-rubrik visas överst med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50) och lokaliserad titel i Fredoka och Quicksand. Artikelnummer och punktmarkeringar visas baserat på dina växlingsinställningar. Arbetsbladfliken visar övningsversionen utan kopplingslinjer.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
@@ -72,16 +72,16 @@ const content: ToolContent = {
       description: 'Sammanställ 60–80 matchnings arbetsblad till tryckta tidiga litteracitetsarbetsböcker för Amazon KDP. Begynnelsebokstav-läget bygger fonemisk medvetenhet. Strukturera kapitel efter svårighet: Kapitel 1 använder 4 par med versaler, Kapitel 2 använder 5 par med gemener, Kapitel 3 använder 6 par. Inkludera facitsidor i slutet av varje kapitel. Det språkkänsliga utmatningen innebär att du kan skapa separata utgåvor på flera språk från samma bildval.',
     },
     {
-      title: 'Klassrums matchningsstationsaktiviteter',
-      description: 'Bygg klassrumsfärdiga matchningsstationsarbetsblad med namn/datum-fält, artikelnummer och tryckta facit som TPT-köpare specifikt söker efter. Namnfältet säkerställer elevansvar, artikelnummer gör ficitkontroll effektiv under gruppgenomgång, och det autogenererade facit sparar lärarens förberedelsetid. Skapa läroplansanpassade set.',
+      title: 'produktlinjes matchningsstationsaktiviteter',
+      description: 'Bygg produktlinjesfärdiga matchningsstationsarbetsblad med namn/datum-fält, artikelnummer och tryckta facit som Gumroad-köpare specifikt söker efter. Namnfältet säkerställer spårbarhet, artikelnummer gör ficitkontroll effektiv under gruppgenomgång, och det autogenererade facit sparar säljarens förberedelsetid. Skapa produktkatalogsanpassade set.',
     },
     {
       title: 'Flerspråkiga vokabulärmatchnings samlingar',
-      description: 'Utnyttja de språkkänsliga Begynnelsebokstav- och Bild+Ord-lägena för att skapa matchnings arbetsblad på alla 11 stödda språk. Samma djurbilder producerar helt annorlunda matchningsinnehåll på varje språk. Skapa flerspråkiga vokabulärpaket. ESL/EFL-lärare, tvåspråkiga klassrum och internationella hemundervisningsfamiljer söker aktivt efter matchnings arbetsblad på sina modersmål.',
+      description: 'Utnyttja de språkkänsliga Begynnelsebokstav- och Bild+Ord-lägena för att skapa matchnings arbetsblad på alla 11 stödda språk. Samma djurbilder producerar helt annorlunda matchningsinnehåll på varje språk. Skapa flerspråkiga vokabulärpaket. ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer söker aktivt efter matchnings arbetsblad på sina modersmål.',
     },
     {
       title: 'Anpassat Ord stavnings- och vokabulärpaket',
-      description: 'Använd Anpassat Ord-läget för att skriva egna matchningstermer bredvid bilder — skapa stavningsövningar, vokabulärquiz och språkmatchningsövningar. Lärare kan rikta in sig på specifika högfrekventa ord, veckovisa vokabulärlistor eller ämnesspecifik terminologi.',
+      description: 'Använd Anpassat Ord-läget för att skriva egna matchningstermer bredvid bilder — skapa stavningsövningar, vokabulärquiz och språkmatchningsövningar. säljare kan rikta in sig på specifika högfrekventa ord, veckovisa vokabulärlistor eller ämnesspecifik terminologi.',
     },
     {
       title: 'Säsongsbetonade matchningsaktivitetssamlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT matchningsstations aktivitetspaket',
-      description: 'Ladda upp matchningsstations aktivitetspaket till TPT med namn/datum-fält, artikelnummer och autogenererade facit som nyckelsäljpunkter. Organisera efter läroplansämne. Varje arbetsblad inkluderar sitt eget facit med kopplingslinjer. Den lokaliserade Para ihop-rubriken anpassas till 11 språk.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad matchningsstations aktivitetspaket',
+      description: 'Ladda upp matchningsstations aktivitetspaket till Gumroad med namn/datum-fält, artikelnummer och autogenererade facit som nyckelsäljpunkter. Organisera efter produktkatalogsämne. Varje arbetsblad inkluderar sitt eget facit med kopplingslinjer. Den lokaliserade Para ihop-rubriken anpassas till 11 språk.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest matchnings arbetsblad trafiktratt',
@@ -118,7 +118,7 @@ const content: ToolContent = {
     {
       title: 'Flerspråkig matchnings produktlinje',
       description: 'Matchnings Arbetsblad Generatorn är språkkänslig — Begynnelsebokstav och Bild+Ord-lägen producerar lokaliserade ord och bokstäver. Samma djurbilder genererar svensk matchning (K för Katt), engelsk matchning (C för Cat), tysk matchning (K för Katze) och så vidare på alla 11 språk. Skapa språkspecifika matchningspaket för varje marknadsplats.',
-      platform: 'Etsy / TPT',
+      platform: 'Etsy / Gumroad',
     },
   ],
 
@@ -129,11 +129,11 @@ const content: ToolContent = {
     },
     {
       title: 'Använd det automatiska facit som en kärnsäljpunkt',
-      description: 'Det autogenererade facit med horisontella kopplingslinjer mellan korrekta par är det som skiljer professionella matchnings arbetsblad från grundläggande. Inkludera alltid facit i dina produktannonser — lärare söker specifikt efter matchningsaktiviteter med inkluderade lösningar. Visa facit i dina produktförhandsvisningsbilder.',
+      description: 'Det autogenererade facit med horisontella kopplingslinjer mellan korrekta par är det som skiljer professionella matchnings arbetsblad från grundläggande. Inkludera alltid facit i dina produktannonser — säljare söker specifikt efter matchningsaktiviteter med inkluderade lösningar. Visa facit i dina produktförhandsvisningsbilder.',
     },
     {
-      title: 'Variera parantal för differentierad svårighet',
-      description: 'Skapa graderade matchningspaket med det konfigurerbara parantalet. Börja med 4 par för förskolebarn med större bilder. Använd 5 par för första klass. Ställ in 6 par för avancerade elever. Differentierade paket med progressiv svårighet säljer bättre.',
+      title: 'Variera parantal för nivågrupperad svårighet',
+      description: 'Skapa graderade matchningspaket med det konfigurerbara parantalet. Börja med 4 par för förskolebarn med större bilder. Använd 5 par för första klass. Ställ in 6 par för avancerade användare. nivågrupperade paket med progressiv svårighet säljer bättre.',
     },
     {
       title: 'Utnyttja språkkänslighet för flerspråkiga produkter',
@@ -148,8 +148,8 @@ const content: ToolContent = {
       description: 'Det oberoende bakgrunds- och ramtemasystemet med separata opacitetsreglage låter dig skapa visuellt polerade matchnings arbetsblad som sticker ut. Ställ in en subtil bakgrund vid 15–25% opacitet och lagra en dekorativ ram vid 80–100% opacitet.',
     },
     {
-      title: 'Inkludera namn/datum-fält för klassrumsfärdiga produkter',
-      description: 'Kryssrutan som lägger till «Namn: ____» och «Datum: ____» fält förvandlar matchnings arbetsblad till strukturerade klassrumsaktiviteter. Lärare på TPT söker specifikt efter «klassrumsfärdiga» matchningsresurser med elevidentifieringsområden. Kombinerat med artikelnummer för effektiv ficitkontroll.',
+      title: 'Inkludera namn/datum-fält för produktlinjesfärdiga produkter',
+      description: 'Kryssrutan som lägger till «Namn: ____» och «Datum: ____» fält förvandlar matchnings arbetsblad till strukturerade produktlinjesaktiviteter. säljare på Gumroad söker specifikt efter «produktlinjesfärdiga» matchningsresurser med identifieringsområden. Kombinerat med artikelnummer för effektiv ficitkontroll.',
     },
   ],
 
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar det konfigurerbara parantalet?',
-      answer: 'I panelen Arbetsbladskonfiguration väljer du 4, 5 eller 6 från dropdownen för maximalt antal par. Standard är 6 par. Färre par skapar arbetsblad med större bilder och mer avstånd — idealiskt för yngre elever. Fler par ökar svårighetsgraden och innehållsdensiteten.',
+      answer: 'I panelen Arbetsbladskonfiguration väljer du 4, 5 eller 6 från dropdownen för maximalt antal par. Standard är 6 par. Färre par skapar arbetsblad med större bilder och mer avstånd — idealiskt för yngre användare. Fler par ökar svårighetsgraden och innehållsdensiteten.',
     },
     {
       question: 'Vilka är Begynnelsebokstav-underlägena?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar artikelnummer och punktmarkeringar?',
-      answer: 'Två oberoende växlingar kontrollerar visuell formatering. Inkludera Artikelnummer (standard PÅ) lägger till siffror före varje par — användbart för klassrumsficitkontroll. Visa Punktmarkeringar (standard PÅ) lägger till dekorativa punkter bredvid objekt. Du kan ha bara nummer, bara punkter, båda eller ingen.',
+      answer: 'Två oberoende växlingar kontrollerar visuell formatering. Inkludera Artikelnummer (standard PÅ) lägger till siffror före varje par — användbart för produktlinjesficitkontroll. Visa Punktmarkeringar (standard PÅ) lägger till dekorativa punkter bredvid objekt. Du kan ha bara nummer, bara punkter, båda eller ingen.',
     },
     {
       question: 'Vad är den lokaliserade Para ihop-rubriken?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja matchnings arbetsblad skapade med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja matchnings arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan försäljningskanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja matchnings arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -220,7 +220,7 @@ const content: ToolContent = {
       {
         src: '/samples/swedish/matching/Matchningsspel%20beginning%20letter.webp',
         alt: 'Begynnelsebokstav matchnings arbetsblad med bilder till vänster och deras första bokstäver till höger för fonicsövning',
-        caption: 'Begynnelsebokstav-läge — eleverna matchar bilder med deras första bokstäver med versaler eller gemener',
+        caption: 'Begynnelsebokstav-läge — användarna matchar bilder med deras första bokstäver med versaler eller gemener',
       },
       {
         src: '/samples/swedish/matching/Matchningsspel%20bild%20och%20ord.webp',

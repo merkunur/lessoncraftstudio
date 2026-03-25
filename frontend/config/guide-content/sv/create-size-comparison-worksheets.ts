@@ -18,12 +18,12 @@ const content: GuideContent = {
       'kommersiell licens storleksarbetsblad verktyg',
     ],
     titleTag: 'Skapa storleksjämförelsearbetsblad — Steg-för-steg-guide',
-    metaDescription: 'Hur du skapar storleksjämförelsearbetsblad med 5 frågetyper och 2 bildlägen. Nolltext-output som säljer världen över. Guide för Etsy, KDP och TPT.',
+    metaDescription: 'Hur du skapar storleksjämförelsearbetsblad med 5 frågetyper och 2 bildlägen. Nolltext-output som säljer världen över. Guide för Etsy, KDP och Gumroad.',
   },
 
   hero: {
     title: 'Hur du skapar storleksjämförelsearbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa storleksdiskrimineringsarbetsblad med fem frågetyper och nolltext-output du kan sälja världen över på Etsy, Amazon KDP och Teachers Pay Teachers',
+    tagline: 'En steg-för-steg-guide för att skapa storleksdiskrimineringsarbetsblad med fem frågetyper och nolltext-output du kan sälja världen över på Etsy, Amazon KDP och Gumroad',
     description: 'Storleksjämförelse är en av de tidigaste visuella färdigheterna barn utvecklar, och arbetsblad har helårsefterfrågan. Denna guide leder dig genom hela skapandeprocessen med Stort och Litet Arbetsblad-skaparen — från att välja bland fem frågetyper och två bildlägen till att konfigurera övningsdensitet, generera automatiska facit och exportera tryckfärdiga filer. Verktyget producerar helt visuella arbetsblad med noll text på outputen, vilket innebär att dina produkter säljer till köpare i alla länder utan översättning.',
   },
 
@@ -32,11 +32,11 @@ const content: GuideContent = {
   tutorial: [
     {
       heading: 'Välj din frågetyp',
-      content: 'Fem frågetyper som riktar sig mot olika storleksdiskrimineringsfärdigheter.\n\nRinga in den stora: enklast. Elever identifierar den största bilden. Idealiskt för småbarn och unga förskolebarn (2–4 år). Uppgiften är intuitiv.\n\nRinga in den lilla: elever identifierar den minsta. Något svårare eftersom "minst" kräver noggrannare jämförelse. Förskola (3–5 år).\n\nRinga in den medelstora: introducerar en tredje storleksnivå. Elever måste eliminera både störst och minst. Kräver 3 bilder per övning. Sen förskola till förskoleklass (4–6 år).\n\nNumrera 1–2–3 liten till stor: skiftar från identifiering till sekvensering. Elever märker bilder i stigande storleksordning. Flerstegs kognitiv uppgift. Förskoleklass till årskurs 1 (5–7 år).\n\nNumrera 1–2–3 stor till liten: omvänd sekvens till fallande ordning. Förhindrar rutinmässig memorering.\n\nFör produktskapande, gör separata produkter per frågetyp vid samma tema — fem frågetyper multiplicerat med ditt temaantal skapar en omfattande katalog.',
+      content: 'Fem frågetyper som riktar sig mot olika storleksdiskrimineringsfärdigheter.\n\nRinga in den stora: enklast. användare identifierar den största bilden. Idealiskt för småbarn och unga förskolebarn (2–4 år). Uppgiften är intuitiv.\n\nRinga in den lilla: användare identifierar den minsta. Något svårare eftersom "minst" kräver noggrannare jämförelse. Förskola (3–5 år).\n\nRinga in den medelstora: introducerar en tredje storleksnivå. användare måste eliminera både störst och minst. Kräver 3 bilder per övning. Sen förskola till förskoleklass (4–6 år).\n\nNumrera 1–2–3 liten till stor: skiftar från identifiering till sekvensering. användare märker bilder i stigande storleksordning. Flerstegs kognitiv uppgift. Förskoleklass till årskurs 1 (5–7 år).\n\nNumrera 1–2–3 stor till liten: omvänd sekvens till fallande ordning. Förhindrar rutinmässig memorering.\n\nFör produktskapande, gör separata produkter per frågetyp vid samma tema — fem frågetyper multiplicerat med ditt temaantal skapar en omfattande katalog.',
     },
     {
       heading: 'Välj bildläget',
-      content: 'Bildläget förändrar fundamentalt varje övnings natur och skapar två distinkta produktlinjer.\n\nIdentiska bilder: samma bild i olika storlekar. Om du väljer en katt ser eleverna tre kopior av exakt samma katt — liten, medel, stor. Isolerar ren storleksperception. Bäst för yngre barn (2–4 år) och introduktion.\n\nAnnorlunda bilder: distinkta objekt i olika storlekar. Eleverna kan se en hund, en fågel och en fisk — vardera i annorlunda skala. Kräver relativt storleksresonerande. Bäst för äldre förskolebarn och förskoleklass (4–6 år).\n\nVarje tema kan producera två helt annorlunda övningsset. "Bondgårdsdjur" i Identiskt läge ger rena storleksövningar. Samma tema i Annorlunda läge ger relativa storleksövningar. Två genuint annorlunda produkter utan extra kreativt arbete.\n\nByt läge med ett klick i innehållspanelen.',
+      content: 'Bildläget förändrar fundamentalt varje övnings natur och skapar två distinkta produktlinjer.\n\nIdentiska bilder: samma bild i olika storlekar. Om du väljer en katt ser användarna tre kopior av exakt samma katt — liten, medel, stor. Isolerar ren storleksperception. Bäst för yngre barn (2–4 år) och introduktion.\n\nAnnorlunda bilder: distinkta objekt i olika storlekar. användarna kan se en hund, en fågel och en fisk — vardera i annorlunda skala. Kräver relativt storleksresonerande. Bäst för äldre förskolebarn och förskoleklass (4–6 år).\n\nVarje tema kan producera två helt annorlunda övningsset. "Bondgårdsdjur" i Identiskt läge ger rena storleksövningar. Samma tema i Annorlunda läge ger relativa storleksövningar. Två genuint annorlunda produkter utan extra kreativt arbete.\n\nByt läge med ett klick i innehållspanelen.',
     },
     {
       heading: 'Konfigurera övningsantal och bilder per övning',
@@ -60,7 +60,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Generera facit och exportera',
-      content: 'Automatiskt facit: korrekta svar markeras och ringas in. För cirkeltyper markeras rätt bild. För numrering visas korrekt storleksordning.\n\nGråskaleväxel: svartvitt för billigare utskrift och Amazon KDP standardinteriörer.\n\nNamn/datumfält: aktivera alltid för klassrumsprodukter.\n\nFyra exportknappar: Arbetsblad JPEG, Arbetsblad PDF, Facit JPEG, Facit PDF vid 300 DPI.\n\nDen gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.\n\nNämn alltid "med facit" i listningar — en vanligt sökt kvalificerare.',
+      content: 'Automatiskt facit: korrekta svar markeras och ringas in. För cirkeltyper markeras rätt bild. För numrering visas korrekt storleksordning.\n\nGråskaleväxel: svartvitt för billigare utskrift och Amazon KDP standardinteriörer.\n\nNamn/datumfält: aktivera alltid för produktlinjesprodukter.\n\nFyra exportknappar: Arbetsblad JPEG, Arbetsblad PDF, Facit JPEG, Facit PDF vid 300 DPI.\n\nDen gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.\n\nNämn alltid "med facit" i listningar — en vanligt sökt kvalificerare.',
     },
   ],
 
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Samla 60–100 övningar med progressiv svårighet. Börja med 2-bilds Ringa in den stora i Identiskt läge, progressera genom alla fem frågetyper. Facit i slutet. Nolltext visuellt format publiceras identiskt på alla internationella KDP-marknadsplatser.\n\nTitel och undertitel: Exempeltitel "Big and Small Activity Book for Preschoolers." Exempel-undertitel "80 Size Comparison Worksheets with Five Question Types — Answer Keys Included."\n\nPrissättning: KDP arbetsböcker $5,99–$9,99. Gråskaleexporter håller tryckningskostnader låga.',
     },
     {
-      heading: 'Sälja storleksjämförelsearbetsblad på Teachers Pay Teachers',
-      content: 'TPT-köpare söker visuella diskrimineringsaktiviteter, tidig matteberedskap och differentierade lärandecentermaterial.\n\nProduktbeskrivningar: frågetyper, ålder/årskurs, antal arbetsblad, om facit ingår, utvecklingsfärdigheter (storleksdiskriminering, visuell jämförelse, ordinal sekvensering).\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med olika frågetyper.\n\nDifferentierade paket: Nivå 1 Ringa in den stora (2 bilder, Identiskt). Nivå 2 Ringa in den lilla (Different). Nivå 3 Ringa in den medelstora (3 bilder). Nivå 4 Numrera 1–2–3. Lärare betalar premiumpriser för förbyggda differentierade resurser.\n\nNolltext för flerspråkiga klassrum: betona att dessa fungerar för elever oavsett språkbakgrund.',
+      heading: 'Sälja storleksjämförelsearbetsblad på Gumroad',
+      content: 'Gumroad-köpare söker visuella diskrimineringsaktiviteter, tidig matteberedskap och nivågrupperade lärandecentermaterial.\n\nProduktbeskrivningar: frågetyper, ålder/årskurs, antal arbetsblad, om facit ingår, utvecklingsfärdigheter (storleksdiskriminering, visuell jämförelse, ordinal sekvensering).\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med olika frågetyper.\n\nnivågrupperade paket: Nivå 1 Ringa in den stora (2 bilder, Identiskt). Nivå 2 Ringa in den lilla (Different). Nivå 3 Ringa in den medelstora (3 bilder). Nivå 4 Numrera 1–2–3. säljare betalar premiumpriser för förbyggda nivågrupperade resurser.\n\nNolltext för flerspråkiga produktlinje: betona att dessa fungerar för användare oavsett språkbakgrund.',
     },
   ],
 
@@ -90,7 +90,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Maximera nolltext-fördelen',
-      content: 'Nolltext-output är din starkaste konkurrensfördel.\n\nInternationell expansion: lista samma produktfil på Etsy-butiker i alla marknader utan översättning. En fil betjänar alla köpare.\n\nFlerspråkiga produktbeskrivningar: översätt bara listningstiteln och beskrivningen, inte produkten.\n\nFörlitterata målgrupper: fungerar för barn som inte kan läsa (2–3 år) och barn med lässvårigheter. Betona "ingen läsning krävs."\n\nKlassrumsinklusivitet: i flerspråkiga klassrum behöver lärare aktiviteter alla kan göra. Positionera som "språkoberoende."\n\nDenna fördel gäller varje produkt och ackumuleras över hela din katalog.',
+      content: 'Nolltext-output är din starkaste konkurrensfördel.\n\nInternationell expansion: lista samma produktfil på Etsy-butiker i alla marknader utan översättning. En fil betjänar alla köpare.\n\nFlerspråkiga produktbeskrivningar: översätt bara listningstiteln och beskrivningen, inte produkten.\n\nFörlitterata målgrupper: fungerar för barn som inte kan läsa (2–3 år) och barn med lässvårigheter. Betona "ingen läsning krävs."\n\nproduktlinjesinklusivitet: i flerspråkiga produktlinje behöver säljare aktiviteter alla kan göra. Positionera som "språkoberoende."\n\nDenna fördel gäller varje produkt och ackumuleras över hela din katalog.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Högvärdespaket med bildlägen och teman',
-      content: 'Dubbellägesmtemapaket: alla fem frågetyper i båda bildlägen. 10 distinkta arbetsbladsstilar från ett tema. Prissätt $7,99–$12,99.\n\nProgressiva svårighetsarbetsböcker: kapitel 1 Ringa in den stora med 2 identiska bilder (enklast). Kapitel 2 Ringa in den lilla med 2 annorlunda bilder. Kapitel 3 Ringa in den medelstora med 3 bilder. Kapitel 4 Numrera liten till stor. Kapitel 5 Numrera stor till liten.\n\nSäsongssamlingar: Halloween, jul, alla hjärtans dag, påsk. Lista 4–6 veckor före.\n\nVisuellt lärande megapaket: storleksjämförelse + matchning + hitta udda bilden + mönster. 50–80 arbetsblad till $19,99–$29,99.\n\nFlertema klassrumspaket: 5–8 arbetsblad per tema × 10 teman vid samma frågetyp. "Ringa in den stora — 10 teman — 80 arbetsblad" till $14,99–$19,99.',
+      content: 'Dubbellägesmtemapaket: alla fem frågetyper i båda bildlägen. 10 distinkta arbetsbladsstilar från ett tema. Prissätt $7,99–$12,99.\n\nProgressiva svårighetsarbetsböcker: kapitel 1 Ringa in den stora med 2 identiska bilder (enklast). Kapitel 2 Ringa in den lilla med 2 annorlunda bilder. Kapitel 3 Ringa in den medelstora med 3 bilder. Kapitel 4 Numrera liten till stor. Kapitel 5 Numrera stor till liten.\n\nSäsongssamlingar: Halloween, jul, alla hjärtans dag, påsk. Lista 4–6 veckor före.\n\nVisuellt lärande megapaket: storleksjämförelse + matchning + hitta udda bilden + mönster. 50–80 arbetsblad till $19,99–$29,99.\n\nFlertema produktlinjespaket: 5–8 arbetsblad per tema × 10 teman vid samma frågetyp. "Ringa in den stora — 10 teman — 80 arbetsblad" till $14,99–$19,99.',
     },
   ],
 

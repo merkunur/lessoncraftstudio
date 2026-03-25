@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare woordraadsel werkbladen voor Etsy-verkopers',
       'hangman-stijl woordenschat werkbladen maker voor KDP-uitgevers',
-      'woordraadsel activiteiten verkopen op Teachers Pay Teachers',
+      'woordraadsel activiteiten verkopen op Gumroad',
       'woordraadsel printables commerciële licentie',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Woordraadsel Generator | Maak Woordenschat Puzzels',
     metaDescription:
-      'Maak woordraadsel werkbladen om te verkopen op Etsy, KDP en TPT. Afbeeldingsaanwijzingen, 4 moeilijkheidsniveaus, 3 inhoudsbronnen, 11 talen.',
+      'Maak woordraadsel werkbladen om te verkopen op Etsy, KDP en Gumroad. Afbeeldingsaanwijzingen, 4 moeilijkheidsniveaus, 3 inhoudsbronnen, 11 talen.',
   },
 
   hero: {
     title: 'Woordraadsel Werkbladen Generator voor Afbeelding-Aanwijzing Woordenschat Puzzels',
     tagline: 'Raad-het-woord ontmoet afbeeldingsaanwijzingen — vier moeilijkheidsniveaus maken van elk woord een uitdagende puzzel.',
     description:
-      'Ontwerp professionele woordraadsel werkbladen waarbij leerlingen een afbeeldingsaanwijzing zien en het verborgen woord ontdekken door ontbrekende letters in te vullen in een lettervakjesraster — een raad-het-woord puzzel die tegelijkertijd spelling, woordenschat en logisch redeneren opbouwt. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s, de Handmatige Bewerkingsmodus waarbij je afbeeldingen selecteert en vervolgens hun weergavenamen aanpast, of de Aangepaste Woordenlijst modus voor puzzels zonder afbeeldingen met willekeurige woordenschat die je zelf intypt. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf worden onthuld als aanwijzingen — van geen aanwijzingen (alle vakjes leeg) tot de makkelijke modus die de helft van de letters toont — waardoor een natuurlijke opbouw ontstaat van beginner tot gevorderd. Plaats 1 tot 10 puzzels per werkblad en schakel tussen hoofdletters en kleine letters voor de letterrasters. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij het doelwoord verandert per taal — "hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans — waardoor elke taal een apart, verkoopbaar product wordt. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 400 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische woordenschatbundels verkoopt op Etsy.nl, woordpuzzelboeken samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor TPT — de Woordraadsel Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Ontwerp professionele woordraadsel werkbladen waarbij gebruikers een afbeeldingsaanwijzing zien en het verborgen woord ontdekken door ontbrekende letters in te vullen in een lettervakjesraster — een raad-het-woord puzzel die tegelijkertijd spelling, woordenschat en logisch redeneren opbouwt. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s, de Handmatige Bewerkingsmodus waarbij je afbeeldingen selecteert en vervolgens hun weergavenamen aanpast, of de Aangepaste Woordenlijst modus voor puzzels zonder afbeeldingen met willekeurige woordenschat die je zelf intypt. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf worden onthuld als aanwijzingen — van geen aanwijzingen (alle vakjes leeg) tot de makkelijke modus die de helft van de letters toont — waardoor een natuurlijke opbouw ontstaat van beginner tot gevorderd. Plaats 1 tot 10 puzzels per werkblad en schakel tussen hoofdletters en kleine letters voor de letterrasters. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij het doelwoord verandert per taal — "hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans — waardoor elke taal een apart, verkoopbaar product wordt. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 400 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische woordenschatbundels verkoopt op Etsy.nl, woordpuzzelboeken samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor Gumroad — de Woordraadsel Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Stel lettervorm in en voeg persoonlijke details toe',
         description:
-          'Kies tussen hoofdletters (standaard) en kleine letters voor de puzzelrasters, afgestemd op het vaardigheidsniveau van je doelgroep. Gebruik het paneel Tekstgereedschappen om een werkbladtitel, velden voor naam en datum van de leerling, instructies of aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Fredoka en Quicksand. Pas lettergrootte, kleur en omtrek aan voor maximale leesbaarheid.',
+          'Kies tussen hoofdletters (standaard) en kleine letters voor de puzzelrasters, afgestemd op het vaardigheidsniveau van je doelgroep. Gebruik het paneel Tekstgereedschappen om een werkbladtitel, velden voor naam en datum van de gebruiker, instructies of aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Fredoka en Quicksand. Pas lettergrootte, kleur en omtrek aan voor maximale leesbaarheid.',
       },
       {
         title: 'Genereer het antwoordblad en download',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Afbeelding-Aanwijzing Woordraden met Leeg Letterraster',
         description:
-          'Elke puzzel toont een afbeeldingsaanwijzing naast een rij lege lettervakjes die het verborgen woord voorstellen. Leerlingen bestuderen de afbeelding, herkennen wat erop staat afgebeeld en vullen de ontbrekende letters in — een raad-het-woord oefening die tegelijkertijd visuele woordenschat, spellingnauwkeurigheid en letter-klankverbinding opbouwt. Woorden met meerdere delen worden als aparte woordgroepen weergegeven met ruimte ertussen, waardoor samengestelde woorden, dierennamen en langere woordenschattermen op een natuurlijke manier worden ondersteund. In het Nederlands verschijnt "ijsbeer" bijvoorbeeld als twee woordgroepen "ijs" en "beer", terwijl in het Engels dezelfde afbeelding "polar" en "bear" toont — elk met een unieke letterindeling.',
+          'Elke puzzel toont een afbeeldingsaanwijzing naast een rij lege lettervakjes die het verborgen woord voorstellen. gebruikers bestuderen de afbeelding, herkennen wat erop staat afgebeeld en vullen de ontbrekende letters in — een raad-het-woord oefening die tegelijkertijd visuele woordenschat, spellingnauwkeurigheid en letter-klankverbinding opbouwt. Woorden met meerdere delen worden als aparte woordgroepen weergegeven met ruimte ertussen, waardoor samengestelde woorden, dierennamen en langere woordenschattermen op een natuurlijke manier worden ondersteund. In het Nederlands verschijnt "ijsbeer" bijvoorbeeld als twee woordgroepen "ijs" en "beer", terwijl in het Engels dezelfde afbeelding "polar" en "bear" toont — elk met een unieke letterindeling.',
       },
       {
         title: 'Vier Moeilijkheidsniveaus met Instelbaar Aantal Aanwijzingsletters',
         description:
-          'Bepaal precies hoeveel ondersteuning leerlingen krijgen met vier ingebouwde moeilijkheidsniveaus. Geen Aanwijzingen laat elk vakje leeg voor maximale uitdaging. De modus Makkelijk onthult de helft van de letters, perfect voor beginnende lezers en kleuterschoolleerlingen. Normaal onthult een kwart van de letters voor evenwichtige oefening in groep 3 en 4. Moeilijk onthult slechts een zesde — net genoeg hint om op gang te komen zonder het antwoord weg te geven. Het combineren van moeilijkheidsniveaus binnen één bundel creëert een natuurlijke opbouw van makkelijk naar moeilijk die premiumprijzen rechtvaardigt op Etsy.nl en Bol.com.',
+          'Bepaal precies hoeveel ondersteuning gebruikers krijgen met vier ingebouwde moeilijkheidsniveaus. Geen Aanwijzingen laat elk vakje leeg voor maximale uitdaging. De modus Makkelijk onthult de helft van de letters, perfect voor beginnende lezers en kleuterschoolgebruikers. Normaal onthult een kwart van de letters voor evenwichtige oefening in groep 3 en 4. Moeilijk onthult slechts een zesde — net genoeg hint om op gang te komen zonder het antwoord weg te geven. Het combineren van moeilijkheidsniveaus binnen één bundel creëert een natuurlijke opbouw van makkelijk naar moeilijk die premiumprijzen rechtvaardigt op Etsy.nl en Bol.com.',
       },
       {
         title: 'Drie Inhoudsbronnen: Afbeeldingenbibliotheek, Handmatige Bewerking en Aangepaste Woordenlijst',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Ondersteuning voor Meerdelige Woorden bij Complexe Woordenschat',
         description:
-          'Afbeeldingsnamen en aangepaste invoer die spaties bevatten worden als aparte woordgroepen weergegeven op het puzzelraster, met duidelijke ruimte tussen elk woord. Dit betekent dat samengestelde termen zoals "ijsbeer" of "brandweerauto" op een natuurlijke manier worden weergegeven als twee verbonden woordrasters in plaats van één lange reeks. Leerlingen lossen elk woord afzonderlijk op terwijl ze begrijpen dat ze samen één begrip vormen. Deze functie vergroot je woordenschatbereik ver voorbij losse zelfstandige naamwoorden en maakt diersoorten, gerechten, plaatsnamen en beschrijvende zinnen mogelijk — in elke taal met hun eigen unieke samenstellingen.',
+          'Afbeeldingsnamen en aangepaste invoer die spaties bevatten worden als aparte woordgroepen weergegeven op het puzzelraster, met duidelijke ruimte tussen elk woord. Dit betekent dat samengestelde termen zoals "ijsbeer" of "brandweerauto" op een natuurlijke manier worden weergegeven als twee verbonden woordrasters in plaats van één lange reeks. gebruikers lossen elk woord afzonderlijk op terwijl ze begrijpen dat ze samen één begrip vormen. Deze functie vergroot je woordenschatbereik ver voorbij losse zelfstandige naamwoorden en maakt diersoorten, gerechten, plaatsnamen en beschrijvende zinnen mogelijk — in elke taal met hun eigen unieke samenstellingen.',
       },
       {
         title: '104 Visuele Thema\'s met 3100+ Afbeeldingen',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Printklare Export op 400+ DPI met Grijstintenoptie',
         description:
-          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x-vermenigvuldiger, wat meer dan 400 DPI oplevert op standaardformaten. Schakel grijstinten-export in voor inktvriendelijke versies die ideaal zijn voor het afdrukken in de klas of zwart-wit activiteitenboeken. Letter-, A4-, Vierkant- en aangepaste formaten worden allemaal ondersteund voor maximale flexibiliteit op print-on-demand platforms en thuisprinters.',
+          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x-vermenigvuldiger, wat meer dan 400 DPI oplevert op standaardformaten. Schakel grijstinten-export in voor inktvriendelijke versies die ideaal zijn voor het afdrukken in volume of zwart-wit activiteitenboeken. Letter-, A4-, Vierkant- en aangepaste formaten worden allemaal ondersteund voor maximale flexibiliteit op print-on-demand platforms en thuisprinters.',
       },
       {
         title: 'Volledige Canvasbewerking met Tekst-, Vorm- en Afbeeldingsgereedschappen',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde taalcentra voor TPT',
+        title: 'Gedifferentieerde taalcentra voor Gumroad',
         description:
-          'Bouw woordraadsel oefeningensets op niveau met het moeilijkheidsniveau als differentiatieas: Niveau 1 (Makkelijk, 4 puzzels per pagina, eenvoudige woorden), Niveau 2 (Normaal, 6 puzzels, woorden van gemiddelde lengte), Niveau 3 (Moeilijk, 8 puzzels, langere woorden) en Niveau 4 (Geen Aanwijzingen, 10 puzzels, meerdelige woorden en zinnen). Lever elk niveau met antwoordbladen en een voortgangsregistratieblad. Kopers op Teachers Pay Teachers betalen premiumprijzen voor gedifferentieerde woordenschatmaterialen die ze direct kunnen inzetten in meerdere leesniveaugroepen.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw woordraadsel oefeningensets op niveau met het moeilijkheidsniveau als getrapte productpakkettenas: Niveau 1 (Makkelijk, 4 puzzels per pagina, eenvoudige woorden), Niveau 2 (Normaal, 6 puzzels, woorden van gemiddelde lengte), Niveau 3 (Moeilijk, 8 puzzels, langere woorden) en Niveau 4 (Geen Aanwijzingen, 10 puzzels, meerdelige woorden en zinnen). Lever elk niveau met antwoordbladen en een voortgangsregistratieblad. Kopers op Gumroad betalen premiumprijzen voor gedifferentieerde woordenschatmaterialen die ze direct kunnen inzetten in meerdere leesniveaugroepen.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Meertalige woordenschatproducten met Volledige Toegang',
         description:
           'Volledige Toegang ontgrendelt alle 11 talen, en omdat Woordraadsel taalafhankelijk is, verandert het doelwoord per taal. "Hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans, "perro" in het Spaans. Elk woord heeft een ander aantal letters, een andere letterverdeling en een andere puzzeloplossing — het is letterlijk een ander product. Maak identieke themasets in meerdere talen en bied elke versie aan als apart Etsy-product of KDP-boek — elf inkomstenstromen vanuit één workflow. De Commerciële licentie is alleen Engels; Volledige Toegang ontgrendelt alle 11 talen en maakt elke taalversie een uniek, verkoopbaar product.',
-        platform: 'Etsy / Amazon KDP / TPT (meertalig)',
+        platform: 'Etsy / Amazon KDP / Gumroad (meertalig)',
       },
       {
-        title: 'Spelling en woordenschat voor de klas en bijles',
+        title: 'Spelling en woordenschat voor de winkel en bijles',
         description:
-          'Gebruik de modus Aangepaste Woordenlijst om woordraadsel werkbladen te maken voor elke woordenlijst — wekelijkse spellingwoorden, natuurkundetermen, aardrijkskunde-woordenschat of oefeningen met vreemde talen. Typ je woorden direct in zonder bijpassende afbeeldingen nodig te hebben. Pas het moeilijkheidsniveau aan op het vaardigheidsniveau van elke leerling: Makkelijk voor leerlingen die moeite hebben met spelling, Geen Aanwijzingen voor gevorderde spellers. Print aangepaste sets in enkele minuten voor kleine groepjes of hele klassen. Het automatische antwoordblad bespaart nakijktijd, en het raad-het-woord formaat houdt leerlingen betrokken vergeleken met de traditionele schrijf-het-woord-vijf-keer oefening.',
+          'Gebruik de modus Aangepaste Woordenlijst om woordraadsel werkbladen te maken voor elke woordenlijst — wekelijkse spellingwoorden, natuurkundetermen, aardrijkskunde-woordenschat of oefeningen met vreemde talen. Typ je woorden direct in zonder bijpassende afbeeldingen nodig te hebben. Pas het moeilijkheidsniveau aan op het vaardigheidsniveau van elke gebruiker: Makkelijk voor gebruikers die moeite hebben met spelling, Geen Aanwijzingen voor gevorderde spellers. Print aangepaste sets in enkele minuten voor kleine groepjes of hele productlijnen. Het automatische antwoordblad bespaart waargenomen waarde, en het raad-het-woord formaat houdt gebruikers betrokken vergeleken met de traditionele schrijf-het-woord-vijf-keer oefening.',
         platform: 'Klas / Bijles / Thuisonderwijs',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hoe werkt de woordraadsel puzzel?',
       answer:
-        'Elke puzzel toont een afbeeldingsaanwijzing naast een rij lege lettervakjes. Leerlingen bestuderen de afbeelding om te herkennen wat erop staat, en vullen vervolgens de ontbrekende letters in om het woord te spellen. Vooraf onthulde aanwijzingsletters (bepaald door het moeilijkheidsniveau) bieden ondersteuning. Het werkt als raad-het-woord maar dan met een afbeeldingsaanwijzing in plaats van een categoriehint — waardoor visuele woordenschat, spelling en logisch redeneren tegelijkertijd worden opgebouwd.',
+        'Elke puzzel toont een afbeeldingsaanwijzing naast een rij lege lettervakjes. gebruikers bestuderen de afbeelding om te herkennen wat erop staat, en vullen vervolgens de ontbrekende letters in om het woord te spellen. Vooraf onthulde aanwijzingsletters (bepaald door het moeilijkheidsniveau) bieden ondersteuning. Het werkt als raad-het-woord maar dan met een afbeeldingsaanwijzing in plaats van een categoriehint — waardoor visuele woordenschat, spelling en logisch redeneren tegelijkertijd worden opgebouwd.',
     },
     {
       question: 'Wat zijn de vier moeilijkheidsniveaus?',
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: 'Hoe werkt de ondersteuning voor meerdelige woorden?',
       answer:
-        'Woorden of afbeeldingsnamen die spaties bevatten (zoals "ijsbeer" of "brandweerauto" in het Nederlands, of "polar bear" in het Engels) worden als aparte woordgroepen weergegeven op het puzzelraster met duidelijke ruimte ertussen. Leerlingen lossen elk woord afzonderlijk op terwijl ze begrijpen dat ze samen één begrip vormen. Dit werkt met alle drie de inhoudsbronnen en alle vier de moeilijkheidsniveaus.',
+        'Woorden of afbeeldingsnamen die spaties bevatten (zoals "ijsbeer" of "brandweerauto" in het Nederlands, of "polar bear" in het Engels) worden als aparte woordgroepen weergegeven op het puzzelraster met duidelijke ruimte ertussen. gebruikers lossen elk woord afzonderlijk op terwijl ze begrijpen dat ze samen één begrip vormen. Dit werkt met alle drie de inhoudsbronnen en alle vier de moeilijkheidsniveaus.',
     },
     {
       question: 'Kan ik kiezen tussen hoofdletters en kleine letters?',
       answer:
-        'Ja. De lettervormschakelaar laat je wisselen tussen hoofdletters (standaard) en kleine letters voor het puzzelraster. Hoofdletters zijn ideaal voor jongere leerlingen in de kleuterschool en groep 1/2 die hoofdletters leren, terwijl kleine letters geschikt zijn voor oudere leerlingen in groep 3 en hoger die standaardspelling oefenen. De instelling geldt voor zowel aanwijzingsletters als de vakjes die leerlingen invullen.',
+        'Ja. De lettervormschakelaar laat je wisselen tussen hoofdletters (standaard) en kleine letters voor het puzzelraster. Hoofdletters zijn ideaal voor jongere gebruikers in de kleuterschool en groep 1/2 die hoofdletters leren, terwijl kleine letters geschikt zijn voor oudere gebruikers in groep 3 en hoger die standaardspelling oefenen. De instelling geldt voor zowel aanwijzingsletters als de vakjes die gebruikers invullen.',
     },
     {
       question: 'Hoe verschilt de Handmatige Bewerkingsmodus van de Afbeeldingenbibliotheek?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Wat kan ik doen met de modus Aangepaste Woordenlijst?',
       answer:
-        'De modus Aangepaste Woordenlijst laat je willekeurige woorden of zinnen direct intypen — geen afbeeldingen vereist. Dit is ideaal voor wekelijkse spellinglijsten, vakspecifieke woordenschat (natuurkundetermen, aardrijkskundige namen), oefeningen met vreemde talen of elke andere aangepaste inhoud. De puzzels tonen lege letterrasters zonder afbeeldingsaanwijzingen, zodat leerlingen vertrouwen op context uit werkbladtitels, instructies of voorkennis om ze op te lossen.',
+        'De modus Aangepaste Woordenlijst laat je willekeurige woorden of zinnen direct intypen — geen afbeeldingen vereist. Dit is ideaal voor wekelijkse spellinglijsten, vakspecifieke woordenschat (natuurkundetermen, aardrijkskundige namen), oefeningen met vreemde talen of elke andere aangepaste inhoud. De puzzels tonen lege letterrasters zonder afbeeldingsaanwijzingen, zodat gebruikers vertrouwen op context uit werkbladtitels, instructies of voorkennis om ze op te lossen.',
     },
     {
       question: 'Maakt de generator automatisch antwoordbladen?',
       answer:
-        'Ja. Klik op de knop Antwoordblad Genereren om een opgeloste versie van je werkblad te maken met elk lettervakje ingevuld en geen lege vakjes meer. Je kunt het antwoordblad op het scherm bekijken en het downloaden als apart JPEG- of PDF-bestand. Schakel grijstinten-export in voor inktvriendelijke antwoordbladversies die ideaal zijn voor het afdrukken in de klas.',
+        'Ja. Klik op de knop Antwoordblad Genereren om een opgeloste versie van je werkblad te maken met elk lettervakje ingevuld en geen lege vakjes meer. Je kunt het antwoordblad op het scherm bekijken en het downloaden als apart JPEG- of PDF-bestand. Schakel grijstinten-export in voor inktvriendelijke antwoordbladversies die ideaal zijn voor het afdrukken in volume.',
     },
     {
       question: 'Is de Woordraadsel generator taalafhankelijk?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je woordraadsel werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op TPT, via Bol.com of via elk ander verkoopkanaal. Het afbeelding-aanwijzing puzzelformaat en de meertalige mogelijkheid geven je sterke differentiatie in drukbezette marktplaatscategorieën.',
+        'Ja. Met een commerciële licentie heb je alle rechten om je woordraadsel werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. Het afbeelding-aanwijzing puzzelformaat en de meertalige mogelijkheid geven je sterke getrapte productpakketten in drukbezette marktplaatscategorieën.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en docenten',
+      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
     },
     {
       pageType: 'guide',

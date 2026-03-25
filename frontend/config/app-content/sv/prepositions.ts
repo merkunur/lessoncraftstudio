@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'utskrivbara prepositioner arbetsblad för Etsy-säljare',
       'rumsligt språk arbetsblad skapare för KDP-utgivare',
-      'prepositioner aktiviteter sälja på Teachers Pay Teachers',
+      'prepositioner aktiviteter sälja på Gumroad',
       'prepositioner printables kommersiell licens',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Prepositioner Arbetsblad Generator | Skapa Printables',
     metaDescription:
-      'Skapa prepositioner arbetsblad att sälja på Etsy, KDP och TPT. 8 rumsliga prepositioner, ifyllningsövningar och flerval. Gratis provversion med vattenstämpel.',
+      'Skapa prepositioner arbetsblad att sälja på Etsy, KDP och Gumroad. 8 rumsliga prepositioner, ifyllningsövningar och flerval. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Prepositioner Arbetsblad Generator för Rumsligt Språk',
     tagline: 'Åtta rumsliga prepositioner möter bild-och-form övningar — bygg rumsligt ordförråd, mening för mening.',
     description:
-      'Designa professionella prepositioner arbetsblad som lär ut rumsliga relationer genom praktiska bild-och-form övningar. Eleverna övar åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med två olika övningslägen: Ifyllningsövningar där eleverna skriver den saknade prepositionen, och Flervalsfrågor där eleverna identifierar bilden som matchar en rumslig beskrivning. Välj vilka prepositioner du vill inkludera via den inbyggda checklistan och konfigurera 1 till 8 övningar per arbetsblad. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman för de placerade föremålen, och välj bland 8 geometriska former (cirkel, kub, cylinder, hjärta, hexagon, kvadrat, stjärna, triangel) som rumsliga referenspunkter. Full Tillgång låser upp alla 11 stödda språk med grammatiskt korrekta prepositioner — tyska med kasussammandragningar som „im" och „am", franska med elisionsregler för „l\'" före vokaler, spanska med könsbaserade artiklar — vilket multiplicerar din produktkatalog elva gånger från ett enda arbetsflöde. Varje arbetsblad genererar automatiskt ett facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska prepositionspaket på Etsy.se, sammanställer böcker om rumsligt ordförråd för Amazon KDP eller skapar differentierade språkstationer för TPT — Prepositioner Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Designa professionella prepositioner arbetsblad som lär ut rumsliga relationer genom praktiska bild-och-form övningar. användarna övar åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med två olika övningslägen: Ifyllningsövningar där användarna skriver den saknade prepositionen, och Flervalsfrågor där användarna identifierar bilden som matchar en rumslig beskrivning. Välj vilka prepositioner du vill inkludera via den inbyggda checklistan och konfigurera 1 till 8 övningar per arbetsblad. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman för de placerade föremålen, och välj bland 8 geometriska former (cirkel, kub, cylinder, hjärta, hexagon, kvadrat, stjärna, triangel) som rumsliga referenspunkter. Full Tillgång låser upp alla 11 stödda språk med grammatiskt korrekta prepositioner — tyska med kasussammandragningar som „im" och „am", franska med elisionsregler för „l\'" före vokaler, spanska med könsbaserade artiklar — vilket multiplicerar din produktkatalog elva gånger från ett enda arbetsflöde. Varje arbetsblad genererar automatiskt ett facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska prepositionspaket på Etsy.se, sammanställer böcker om rumsligt ordförråd för Amazon KDP eller skapar nivågrupperade språkstationer för Gumroad — Prepositioner Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Välj övningsläge och antal övningar',
         description:
-          'Öppna panelen Övningskonfiguration och välj ett av två lägen. Läget Ifyllningsövning visar meningar som "Katten är ____ kvadraten" där eleverna skriver rätt preposition i den tomma platsen. Läget Flervalsfrågor visar en rumslig beskrivning och ber eleverna att kryssa i den matchande bilden. Ställ in antalet övningar per arbetsblad från 1 till 8 för att styra tätheten och svårighetsgraden.',
+          'Öppna panelen Övningskonfiguration och välj ett av två lägen. Läget Ifyllningsövning visar meningar som "Katten är ____ kvadraten" där användarna skriver rätt preposition i den tomma platsen. Läget Flervalsfrågor visar en rumslig beskrivning och ber användarna att kryssa i den matchande bilden. Ställ in antalet övningar per arbetsblad från 1 till 8 för att styra tätheten och svårighetsgraden.',
       },
       {
         title: 'Välj prepositioner från checklistan',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Välj föremål och former från temabiblioteket',
         description:
-          'Öppna panelen Bildbibliotek och bläddra genom 104 teman för föremålsbilder — objekten som placeras — och välj sedan bland 8 geometriska former (cirkel, kub, cylinder, hjärta, hexagon, kvadrat, stjärna, triangel) som rumsliga referenspunkter. Använd sökfältet för att hitta specifika bilder direkt. Anpassa textstilen med sju typsnitt inklusive Lexend Deca, Baloo 2 och Fredoka. Aktivera eller inaktivera fält för elevens namn och datum och ladda upp dina egna bilder för varumärkta arbetsblad.',
+          'Öppna panelen Bildbibliotek och bläddra genom 104 teman för föremålsbilder — objekten som placeras — och välj sedan bland 8 geometriska former (cirkel, kub, cylinder, hjärta, hexagon, kvadrat, stjärna, triangel) som rumsliga referenspunkter. Använd sökfältet för att hitta specifika bilder direkt. Anpassa textstilen med sju typsnitt inklusive Lexend Deca, Baloo 2 och Fredoka. Aktivera eller inaktivera fält för namn och datum och ladda upp dina egna bilder för varumärkta arbetsblad.',
       },
       {
         title: 'Generera facit och ladda ner',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: '8 rumsliga prepositioner med ifyllnings- och flervallägen',
         description:
-          'Öva åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — via två olika övningstyper. Läget Ifyllningsövning visar bild-och-form meningar med en saknad preposition som eleverna fyller i, vilket bygger skriv- och minnes­färdigheter. Läget Flervalsfrågor visar en rumslig beskrivning och ber eleverna identifiera den matchande bilden, vilket stärker igenkänning och förståelse. Att använda båda lägena på olika arbetsblad skapar en naturlig progression från lätt till svårt inom samma produktpaket.',
+          'Öva åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — via två olika övningstyper. Läget Ifyllningsövning visar bild-och-form meningar med en saknad preposition som användarna fyller i, vilket bygger skriv- och minnes­färdigheter. Läget Flervalsfrågor visar en rumslig beskrivning och ber användarna identifiera den matchande bilden, vilket stärker igenkänning och förståelse. Att använda båda lägena på olika arbetsblad skapar en naturlig progression från lätt till svårt inom samma produktpaket.',
       },
       {
         title: 'Språkmedveten grammatik med kasus, elision och artikelregler',
@@ -73,12 +73,12 @@ const content: AppContent = {
       {
         title: 'Föremål + Former: två bildtyper för rumslig kontext',
         description:
-          'Varje övning placerar ett föremål (en tematisk illustration som en katt, bil eller äpple) i förhållande till en form (cirkel, kub, cylinder, hjärta, hexagon, kvadrat, stjärna eller triangel). Detta system med två bildtyper skapar tydliga, entydiga rumsliga relationer som eleverna kan förstå med en blick. Föremålen kommer från biblioteket med 104 teman och mer än 3 100 illustrationer, medan de 8 geometriska formerna också fungerar som tidig introduktion till geometri. Formnamn är fullständigt översatta i alla 11 språk med korrekta böjningsformer.',
+          'Varje övning placerar ett föremål (en tematisk illustration som en katt, bil eller äpple) i förhållande till en form (cirkel, kub, cylinder, hjärta, hexagon, kvadrat, stjärna eller triangel). Detta system med två bildtyper skapar tydliga, entydiga rumsliga relationer som användarna kan förstå med en blick. Föremålen kommer från biblioteket med 104 teman och mer än 3 100 illustrationer, medan de 8 geometriska formerna också fungerar som tidig introduktion till geometri. Formnamn är fullständigt översatta i alla 11 språk med korrekta böjningsformer.',
       },
       {
         title: 'Justerbart antal övningar från 1 till 8 per arbetsblad',
         description:
-          'Bestäm exakt hur många övningar som visas på varje sida, från en fokuserad övning för nybörjare till en tätpackad sida med åtta övningar för repetition och utvärdering. Färre övningar lämnar utrymme för större bilder och mer vitt utrymme, perfekt för förskole- och förskoleklassprodukter. Fler övningar maximerar övningstätheten för äldre elever eller hemläxeblad. Denna flexibilitet gör det möjligt att skapa visuellt distinkta produkter från samma app utan att ändra någon annan inställning.',
+          'Bestäm exakt hur många övningar som visas på varje sida, från en fokuserad övning för nybörjare till en tätpackad sida med åtta övningar för repetition och utvärdering. Färre övningar lämnar utrymme för större bilder och mer vitt utrymme, perfekt för förskole- och förskoleklassprodukter. Fler övningar maximerar övningstätheten för äldre användare eller hemläxeblad. Denna flexibilitet gör det möjligt att skapa visuellt distinkta produkter från samma app utan att ändra någon annan inställning.',
       },
       {
         title: '104 visuella teman med 3 100+ bilder och 8 geometriska former',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Automatisk generering av facit',
         description:
-          'Klicka på en knapp för att generera ett komplett facit som speglar ditt arbetsblads layout med varje korrekt preposition ifylld. Vid Ifyllningsövningar visar facit den färdiga meningen. Vid Flervalsfrågor markeras rätt bild. Exportera facit som en separat JPEG- eller PDF-fil, vilket gör det enkelt att inkludera i lärarupplagor, föräldrahandledningar eller Etsy-produktpaket utan manuellt arbete.',
+          'Klicka på en knapp för att generera ett komplett facit som speglar ditt arbetsblads layout med varje korrekt preposition ifylld. Vid Ifyllningsövningar visar facit den färdiga meningen. Vid Flervalsfrågor markeras rätt bild. Exportera facit som en separat JPEG- eller PDF-fil, vilket gör det enkelt att inkludera i facitversioner, föräldrahandledningar eller Etsy-produktpaket utan manuellt arbete.',
       },
       {
         title: 'Tryckfärdig export i 400+ DPI med gråskalealternativ',
         description:
-          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexport för bläckvänliga versioner som är perfekta för klassrumsutskrift eller svartvita aktivitetsböcker. Letter-, A4-, Kvadrat- och anpassade format stöds alla.',
+          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexport för bläckvänliga versioner som är perfekta för volymutskrift eller svartvita aktivitetsböcker. Letter-, A4-, Kvadrat- och anpassade format stöds alla.',
       },
       {
         title: 'Full arbetsyteredigering med ångra och gör om',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade språkstationer för TPT',
+        title: 'nivågrupperade språkstationer för Gumroad',
         description:
-          'Bygg prepositioner övningsuppsättningar i nivåer med övningsläget som svårighetsaxel: Nivå 1 (Flerval, 2 prepositioner, 2 övningar per sida), Nivå 2 (Flerval, 5 prepositioner, 4 övningar), Nivå 3 (Ifyllning, 5 prepositioner, 6 övningar) och Nivå 4 (Ifyllning, alla 8 prepositioner, 8 övningar). Leverera varje nivå med facit och ett framstegsregistreringsblad. Köpare på Teachers Pay Teachers betalar premiumpriser för differentierade läromedel om rumsligt språk.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg prepositioner övningsuppsättningar i nivåer med övningsläget som svårighetsaxel: Nivå 1 (Flerval, 2 prepositioner, 2 övningar per sida), Nivå 2 (Flerval, 5 prepositioner, 4 övningar), Nivå 3 (Ifyllning, 5 prepositioner, 6 övningar) och Nivå 4 (Ifyllning, alla 8 prepositioner, 8 övningar). Leverera varje nivå med facit och ett framstegsregistreringsblad. Köpare på Gumroad betalar premiumpriser för nivågrupperade produkter om rumsligt språk.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Flerspråkiga prepositionsprodukter med Full Tillgång',
         description:
-          'Full Tillgång låser upp alla 11 språk med grammatiskt korrekta prepositioner, könsmedvetna artiklar, kasussammandragningar och elisionsregler. Skapa tyska prepositioner arbetsblad med „im" och „am", franska arbetsblad med „l\'" elision, spanska arbetsblad med el/la-artiklar och mer. Varje språkversion är en separat produkt som du kan erbjuda på Etsy.se, TPT eller Amazon KDP — vilket effektivt multiplicerar din katalog elva gånger. På svenska skriver eleverna "Katten är på kvadraten" medan samma mening på tyska blir "Die Katze ist auf dem Quadrat" med korrekt kasusböjning. Flerspråkiga produkter möter mindre konkurrens och attraherar internationella köpare.',
-        platform: 'Etsy / Amazon KDP / TPT (flerspråkigt)',
+          'Full Tillgång låser upp alla 11 språk med grammatiskt korrekta prepositioner, könsmedvetna artiklar, kasussammandragningar och elisionsregler. Skapa tyska prepositioner arbetsblad med „im" och „am", franska arbetsblad med „l\'" elision, spanska arbetsblad med el/la-artiklar och mer. Varje språkversion är en separat produkt som du kan erbjuda på Etsy.se, Gumroad eller Amazon KDP — vilket effektivt multiplicerar din katalog elva gånger. På svenska skriver användarna "Katten är på kvadraten" medan samma mening på tyska blir "Die Katze ist auf dem Quadrat" med korrekt kasusböjning. Flerspråkiga produkter möter mindre konkurrens och attraherar internationella köpare.',
+        platform: 'Etsy / Amazon KDP / Gumroad (flerspråkigt)',
       },
       {
-        title: 'Rumsligt ordförråd för klassrummet och privatundervisning',
+        title: 'Rumsligt ordförråd online och privatundervisning',
         description:
-          'Generera anpassade prepositioner arbetsblad skräddarsydda för varje elevs aktuella nivå av rumsligt ordförråd. Använd prepositioner checklistan för att fokusera på de specifika prepositionerna en elev har svårt med, och anpassa antalet övningar efter koncentrationsförmågan. Börja med Flervalsfrågor för nybörjare och gå över till Ifyllningsövningar för elever som är redo att producera språk självständigt. Skriv ut uppsättningar på några minuter för små grupper eller hela klasser. Det automatiska facit sparar rättningstid, och bild-och-form formatet håller unga elever engagerade i visuellt rumsligt resonemang.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Generera anpassade prepositioner arbetsblad skräddarsydda för varje användares aktuella nivå av rumsligt ordförråd. Använd prepositioner checklistan för att fokusera på de specifika prepositionerna en användare har svårt med, och anpassa antalet övningar efter koncentrationsförmågan. Börja med Flervalsfrågor för nybörjare och gå över till Ifyllningsövningar för användare som är redo att producera språk självständigt. Skriv ut uppsättningar på några minuter för små grupper eller hela klasser. Det automatiska facit sparar upplevt värde, och bild-och-form formatet håller unga användare engagerade i visuellt rumsligt resonemang.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Vilka övningslägen erbjuder Prepositioner Arbetsblad Generatorn?',
       answer:
-        'Generatorn innehåller två lägen: Ifyllningsövning och Flervalsfrågor. Ifyllningsövning visar meningar med en saknad preposition som eleverna fyller i (till exempel "Katten är ____ kvadraten"). Flervalsfrågor visar en rumslig beskrivning och ber eleverna kryssa i den matchande bilden. Båda lägena fungerar med alla åtta prepositioner och alla teman.',
+        'Generatorn innehåller två lägen: Ifyllningsövning och Flervalsfrågor. Ifyllningsövning visar meningar med en saknad preposition som användarna fyller i (till exempel "Katten är ____ kvadraten"). Flervalsfrågor visar en rumslig beskrivning och ber användarna kryssa i den matchande bilden. Båda lägena fungerar med alla åtta prepositioner och alla teman.',
     },
     {
       question: 'Vilka 8 prepositioner finns tillgängliga?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hur många övningar kan jag ha på varje arbetsblad?',
       answer:
-        'Du kan ställa in var som helst från 1 till 8 övningar per arbetsblad. Färre övningar skapar enklare, mer överskådliga sidor perfekta för yngre elever eller riktad övning. Fler övningar maximerar övningstätheten för repetitionssessioner, utvärderingar eller hemläxeblad. Att variera antalet övningar i dina produktlistningar hjälper dig också att skapa olika priskategorier.',
+        'Du kan ställa in var som helst från 1 till 8 övningar per arbetsblad. Färre övningar skapar enklare, mer överskådliga sidor perfekta för yngre användare eller riktad övning. Fler övningar maximerar övningstätheten för repetitionssessioner, utvärderingar eller hemläxeblad. Att variera antalet övningar i dina produktlistningar hjälper dig också att skapa olika priskategorier.',
     },
     {
       question: 'Är Prepositioner Arbetsblad Generatorn språkkänslig?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Skapar generatorn automatiskt facit?',
       answer:
-        'Ja. Klicka på knappen Generera Facit för att skapa en löst version av ditt arbetsblad. Vid Ifyllningsövningar visar facit varje tom plats ifylld med rätt preposition. Vid Flervalsfrågor markeras rätt bild. Exportera facit som en separat JPEG- eller PDF-fil bredvid elevens arbetsblad.',
+        'Ja. Klicka på knappen Generera Facit för att skapa en löst version av ditt arbetsblad. Vid Ifyllningsövningar visar facit varje tom plats ifylld med rätt preposition. Vid Flervalsfrågor markeras rätt bild. Exportera facit som en separat JPEG- eller PDF-fil bredvid användarens arbetsblad.',
     },
     {
       question: 'Finns det en gratis provversion?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Vad ingår i den kommersiella licensen?',
       answer:
-        'Den Kommersiella licensen erbjuder vattenstämpelfria engelska exporter med fulla försäljningsrättigheter. Full Tillgång-licensen lägger till alla 11 språk med grammatiskt korrekta prepositioner, artiklar och grammatikregler, vilket multiplicerar din produktkatalog. Båda licensnivåerna ger obegränsade rättigheter att sälja på Etsy.se, Amazon KDP, Teachers Pay Teachers, din egen webbplats eller vilken annan plattform som helst — inga royalties per försäljning, inga månadsavgifter och inga produktionsbegränsningar.',
+        'Den Kommersiella licensen erbjuder vattenstämpelfria engelska exporter med fulla försäljningsrättigheter. Full Tillgång-licensen lägger till alla 11 språk med grammatiskt korrekta prepositioner, artiklar och grammatikregler, vilket multiplicerar din produktkatalog. Båda licensnivåerna ger obegränsade rättigheter att sälja på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst — inga royalties per försäljning, inga månadsavgifter och inga produktionsbegränsningar.',
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina prepositioner arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska läromedel på TPT, eller via vilken annan försäljningskanal som helst. Bild-och-form formatet och den flerspråkiga förmågan ger dig stark differentiering i fullsatta marknadsplatskategorier.',
+        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina prepositioner arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska utskrivbara produkter på Gumroad, eller via vilken annan försäljningskanal som helst. Bild-och-form formatet och den flerspråkiga förmågan ger dig stark differentiering i fullsatta marknadsplatskategorier.',
     },
     {
       question: 'Vad är returpolicyn?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'hemundervisning-utskriftsbara-ideer',
-      anchorText: 'Hemundervisning utskriftsbara idéer för föräldrar och lärare',
+      anchorText: 'Hemundervisning utskriftsbara idéer för föräldrar och säljare',
     },
   ],
 
@@ -264,12 +264,12 @@ const content: AppContent = {
       {
         src: '/samples/swedish/prepositions/Prepositioner%202.webp',
         alt: 'Ifyllningsövning prepositioner arbetsblad med djurtema och geometriska former',
-        caption: 'Ifyllningsövning — eleverna fyller i meningar med rätt preposition',
+        caption: 'Ifyllningsövning — användarna fyller i meningar med rätt preposition',
       },
       {
         src: '/samples/swedish/prepositions/Prepositioner%203.webp',
         alt: 'Flervalsfrågor prepositioner arbetsblad med fordonstema och rumsliga beskrivningar',
-        caption: 'Flervalsfrågor — eleverna identifierar bilden som matchar den rumsliga beskrivningen',
+        caption: 'Flervalsfrågor — användarna identifierar bilden som matchar den rumsliga beskrivningen',
       },
       {
         src: '/samples/swedish/prepositions/Prepositioner%204.webp',

@@ -14,20 +14,20 @@ const content: GuideContent = {
       'målarbok sidor för Amazon KDP',
       'fritt formgivna målarbild-designer',
       'konvertera bilder till målarbilder',
-      'klassrums målaraktivitetsblad',
+      'produktlinjes målaraktivitetsblad',
       'kommersiell licens målarverktyg',
     ],
     titleTag: 'Skapa målarbilder från tematiska bilder — Guide',
-    metaDescription: 'Hur du skapar målarbilder från 3 100+ tematiska bilder. Fri arbetsyta med gråskaleexport, frihandsritning och klassrumshjälpare. Sälj på Etsy och KDP.',
+    metaDescription: 'Hur du skapar målarbilder från 3 100+ tematiska bilder. Fri arbetsyta med gråskaleexport, frihandsritning och produktlinjeshjälpare. Sälj på Etsy och KDP.',
   },
 
   hero: {
     title: 'Hur du skapar målarbilder från tematiska bilder',
     tagline: 'En steg-för-steg-guide för att designa anpassade målarbilder med en fri arbetsyta, 3 100+ tematiska bilder, frihandsritning och gråskaleexport med ett klick',
-    description: 'Målarbilder är en av de mest sökta och köpta printable-produkterna på alla stora marknadsplatser. Föräldrar vill ha dem för offline, opluggade aktiviteter. Lärare använder dem som klassrumsuppvärmning och belöningsblad. Etsy-säljare bygger hela butiker kring tematiska målarbild-paket. Denna guide leder dig genom hela skapandeprocessen med Målarbild-skaparen — från att placera tematiska bilder på en fri arbetsyta till att aktivera gråskaleväxeln som konverterar din färgglada design till en ren, tryckfärdig målarbild.',
+    description: 'Målarbilder är en av de mest sökta och köpta printable-produkterna på alla stora marknadsplatser. Föräldrar vill ha dem för offline, opluggade aktiviteter. säljare använder dem som produktlinjesuppvärmning och belöningsblad. Etsy-säljare bygger hela butiker kring tematiska målarbild-paket. Denna guide leder dig genom hela skapandeprocessen med Målarbild-skaparen — från att placera tematiska bilder på en fri arbetsyta till att aktivera gråskaleväxeln som konverterar din färgglada design till en ren, tryckfärdig målarbild.',
   },
 
-  introduction: 'Målarbilder intar en unik position på printable-marknaden. Till skillnad från arbetsblad som riktar sig mot specifika åldersgrupper eller färdighetsnivåer tilltalar målarbilder praktiskt taget alla — småbarn, skolbarn, tonåringar och även vuxna. Denna universella attraktionskraft översätts till massiv, helårsefterfrågan på Etsy, Amazon KDP och Teachers Pay Teachers.\n\nVad som gör målarbilder särskilt attraktiva som produkt är deras enkelhet. Det finns inga facit att generera, inga svårighetsnivåer att konfigurera och ingen läroplansanpassning att oroa sig över. En väldesignad målarbild med tilltalande bildspråk säljer på sin visuella merit.\n\nMålarbild-skaparen tar en fundamentalt annorlunda metod. Istället för att arbeta med färdiga mallar eller spåra konturer för hand arbetar du på en fri arbetsyta där du placerar tematiska bilder från ett bibliotek med över 3 100 illustrationer i 104 teman. Du drar, ändrar storlek och roterar bilder fritt. Sedan konverterar gråskaleexportväxeln din färgglada design till rena svartvita konturer redo för utskrift och färgläggning.\n\nVerktyget inkluderar också ett frihandsritningsverktyg för att lägga till handritade detaljer, textverktyg för titlar och instruktioner, och klassrumshjälpare som namnfält och skrivlinjer. Denna kombination låter dig skapa allt från enkla målarbladssidor till komplexa tematiska aktivitetsblad.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Målarbilder intar en unik position på printable-marknaden. Till skillnad från arbetsblad som riktar sig mot specifika åldersgrupper eller färdighetsnivåer tilltalar målarbilder praktiskt taget alla — småbarn, skolbarn, tonåringar och även vuxna. Denna universella attraktionskraft översätts till massiv, helårsefterfrågan på Etsy, Amazon KDP och Gumroad.\n\nVad som gör målarbilder särskilt attraktiva som produkt är deras enkelhet. Det finns inga facit att generera, inga svårighetsnivåer att konfigurera och ingen produktkatalogsanpassning att oroa sig över. En väldesignad målarbild med tilltalande bildspråk säljer på sin visuella merit.\n\nMålarbild-skaparen tar en fundamentalt annorlunda metod. Istället för att arbeta med färdiga mallar eller spåra konturer för hand arbetar du på en fri arbetsyta där du placerar tematiska bilder från ett bibliotek med över 3 100 illustrationer i 104 teman. Du drar, ändrar storlek och roterar bilder fritt. Sedan konverterar gråskaleexportväxeln din färgglada design till rena svartvita konturer redo för utskrift och färgläggning.\n\nVerktyget inkluderar också ett frihandsritningsverktyg för att lägga till handritade detaljer, textverktyg för titlar och instruktioner, och produktlinjeshjälpare som namnfält och skrivlinjer. Denna kombination låter dig skapa allt från enkla målarbladssidor till komplexa tematiska aktivitetsblad.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -51,8 +51,8 @@ const content: GuideContent = {
       content: 'Textverktyg låter dig lägga till titlar, instruktioner och etiketter. Klicka textverktyget för att lägga till ett textelement.\n\nTypsnittsalternativ inkluderar sju typsnitt: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Fredoka och Baloo 2 erbjuder lekfulla, rundade bokstäver för barninriktade produkter. Lexend Deca och Nunito ger ren läsbarhet.\n\nAnpassa text med färg, konturfärg och konturbreddkontroller. För målarbilder, överväg att använda konturtext (sätt fyllning till vit och använd mörk kontur). Detta skapar text som barn kan färglägga.\n\nVanliga texttillägg:\n\nTitlar: "Färglägg bondgårdsdjuren" eller "Under havet målarbild." Positionera överst.\n\nInstruktioner: "Färglägg varje djur med dina favoritfärger" eller "Kan du hitta och färglägga alla fem fjärilarna?"\n\nEtiketter: Namnge varje bild. "Häst," "Ko," "Gris" bredvid varje djur förvandlar en enkel målarbild till en vokabulärbyggande aktivitet.\n\nSidnummer: Avgörande för målarböcker på Amazon KDP.\n\nTextelement kan dras, ändras storlek och positioneras som bilder.',
     },
     {
-      heading: 'Använd klassrumshjälpare för aktivitetsblad',
-      content: 'Klassrumshjälparna förvandlar enkla målarbilder till strukturerade aktivitetsarbetsblad som lärare aktivt söker efter. Två enkelklickshjälpare:\n\nNamnfält: Lägger till en "Namn: ____"-rad. Detta enda element signalerar klassrumsberedskap.\n\nSkrivlinjer: Lägger till linjerade rader för skrivövning. Kombinerat med en målarbild skapas en dubbelsyftesaktivitet.\n\nDessa hjälpare skapar en helt annan produktkategori. En "Bondgårdsdjur färglägg-och-skriv aktivitetsblad" med namnfält, skrivlinjer och märkta djurbilder är en klassrumsresurs, inte bara en målarbild. Klassrumsresurser kommenderar högre priser.\n\nProduktidéer:\n\nFärglägg-och-skriv arbetsblad: Barn färglägger tematiska bilder och skriver sedan meningar. Rikta förskoleklass och årskurs 1.\n\nVokabulärmålarblad: Märk varje bild med dess namn. Lärare i tvåspråkiga klassrum värderar dessa särskilt.\n\nVeckovisa klassrumsmålaraktiviteter: 40 tematiska målarbilder med namnfält — en per vecka. Marknadsför som klassrumshanteringsresurs.',
+      heading: 'Använd produktlinjeshjälpare för aktivitetsblad',
+      content: 'produktlinjeshjälparna förvandlar enkla målarbilder till strukturerade aktivitetsarbetsblad som säljare aktivt söker efter. Två enkelklickshjälpare:\n\nNamnfält: Lägger till en "Namn: ____"-rad. Detta enda element signalerar produktlinjesberedskap.\n\nSkrivlinjer: Lägger till linjerade rader för skrivövning. Kombinerat med en målarbild skapas en dubbelsyftesaktivitet.\n\nDessa hjälpare skapar en helt annan produktkategori. En "Bondgårdsdjur färglägg-och-skriv aktivitetsblad" med namnfält, skrivlinjer och märkta djurbilder är en produktlinjesresurs, inte bara en målarbild. produktlinjesresurser kommenderar högre priser.\n\nProduktidéer:\n\nFärglägg-och-skriv arbetsblad: Barn färglägger tematiska bilder och skriver sedan meningar. Rikta förskoleklass och årskurs 1.\n\nVokabulärmålarblad: Märk varje bild med dess namn. säljare i tvåspråkiga produktlinje värderar dessa särskilt.\n\nVeckovisa produktlinjesmålaraktiviteter: 40 tematiska målarbilder med namnfält — en per vecka. Marknadsför som produktlinjeshanteringsresurs.',
     },
     {
       heading: 'Aktivera gråskala för tryckfärdiga målarbilder',
@@ -74,34 +74,34 @@ const content: GuideContent = {
       content: 'Amazon KDP är den primära marknadsplatsen för fysiska målarböcker. Samla 30–60 målarbilder med konsekvent tema. Enkelsidig utskrift är standard (för att förhindra genomblödning).\n\nTitel och undertitel: Exempeltitel "Farm Animals Coloring Book for Kids." Exempel-undertitel "50 Fun Animal Coloring Pages for Toddlers, Preschool, and Kindergarten — Large Print, Easy to Color."\n\nOmslagsdesign: Visa 3–4 exempelsidor på omslaget (i färg, som om redan färglagda) så köpare kan visualisera innehållet.\n\nPrissättning: KDP målarböcker säljs typiskt till $5,99–$8,99 för 30–60 sidor.',
     },
     {
-      heading: 'Sälja målarbilder på Teachers Pay Teachers',
-      content: 'TPT värderar målarbilder som tjänar ett klassrumssyfte bortom enkel färgläggning. De mest framgångsrika TPT-produkterna är aktivitetsblad som kombinerar färgläggning med pedagogiska element.\n\nProduktpositionering: Rama in som klassrumsverktyg. "Bondgårdsdjur färglägg-och-vokabulärarbetsblad" presterar bättre än "Bondgårdsdjur målarbild." Använd klassrumshjälparna och lägg till etiketter.\n\nPaketering: Säsongsbetonade paket säljer exceptionellt bra. "Höstens målaraktiviteter — 40 sidor med namnfält."\n\nTPT-nyckelord: "målaraktivitet," "tidiga slutare," "vikarieplaner," "morgonarbete," "finmotorikövning."',
+      heading: 'Sälja målarbilder på Gumroad',
+      content: 'Gumroad värderar målarbilder som tjänar ett produktlinjessyfte bortom enkel färgläggning. De mest framgångsrika Gumroad-produkterna är aktivitetsblad som kombinerar färgläggning med pedagogiska element.\n\nProduktpositionering: Rama in som produktlinjesverktyg. "Bondgårdsdjur färglägg-och-vokabulärarbetsblad" presterar bättre än "Bondgårdsdjur målarbild." Använd produktlinjeshjälparna och lägg till etiketter.\n\nPaketering: Säsongsbetonade paket säljer exceptionellt bra. "Höstens målaraktiviteter — 40 sidor med namnfält."\n\nGumroad-nyckelord: "målaraktivitet," "tidiga slutare," "vikarieplaner," "morgonarbete," "finmotorikövning."',
     },
   ],
 
   monetization: [
     {
       heading: 'Prissättning av dina målarbild-produkter',
-      content: 'Enstaka målarbilder: $0,99–$1,99. Instegsprodukter och butiksgenererande trafik.\n\nTematiska minipaket (5–10 sidor): $2,99–$4,99. Den optimala punkten för Etsy-säljare.\n\nFulla målarböcker (20–50 sidor): $6,99–$14,99. Här börjar seriös intäkt.\n\nMegapaket (100+ sidor): $19,99–$34,99. Högsta intäktsprodukterna.\n\nKlassrumsaktivitetsblad med pedagogiska element (namnfält, skrivlinjer, vokabuläretiketter) kommenderar 20–40% högre priser.\n\nFör Amazon KDP: $5,99–$8,99 för 30–60 sidor.',
+      content: 'Enstaka målarbilder: $0,99–$1,99. Instegsprodukter och butiksgenererande trafik.\n\nTematiska minipaket (5–10 sidor): $2,99–$4,99. Den optimala punkten för Etsy-säljare.\n\nFulla målarböcker (20–50 sidor): $6,99–$14,99. Här börjar seriös intäkt.\n\nMegapaket (100+ sidor): $19,99–$34,99. Högsta intäktsprodukterna.\n\nproduktlinjesaktivitetsblad med pedagogiska element (namnfält, skrivlinjer, vokabuläretiketter) kommenderar 20–40% högre priser.\n\nFör Amazon KDP: $5,99–$8,99 för 30–60 sidor.',
     },
     {
       heading: 'Paketeringsstrategier för målarbilder',
-      content: 'Temapaket: Gruppera 10–20 målarbilder med ett tema. Var och en av de 104 temana kan producera ett distinkt paket.\n\nÅldersriktade paket: Småbarnsmålarbilder med stora, enkla bilder. Skolålderssidor med mer detaljer. Vuxna målarbilder med intrikata kompositioner.\n\nSäsongspaket: Halloween, jul, alla hjärtans dag, påsk, sommar, skolstart.\n\nAktivitetspaket: Kombinera grundläggande målarbilder med klassrumsversioner (namnfält, skrivlinjer, etiketter). Marknadsför som "Färglägg och lär."\n\nTvärproduktpaket: Para målarbilder med ordsökningspussel och ritarbetsblad.\n\nLista alltid både enstaka pack och heltäckande paket.',
+      content: 'Temapaket: Gruppera 10–20 målarbilder med ett tema. Var och en av de 104 temana kan producera ett distinkt paket.\n\nÅldersriktade paket: Småbarnsmålarbilder med stora, enkla bilder. Skolålderssidor med mer detaljer. Vuxna målarbilder med intrikata kompositioner.\n\nSäsongspaket: Halloween, jul, alla hjärtans dag, påsk, sommar, skolstart.\n\nAktivitetspaket: Kombinera grundläggande målarbilder med produktlinjesversioner (namnfält, skrivlinjer, etiketter). Marknadsför som "Färglägg och lär."\n\nTvärproduktpaket: Para målarbilder med ordsökningspussel och ritarbetsblad.\n\nLista alltid både enstaka pack och heltäckande paket.',
     },
     {
       heading: 'Säsongsbetonade och trendande möjligheter',
-      content: 'Målarbilder har de starkaste säsongsmönstren av alla printable-kategorier.\n\nHögtidstoppar (4–6 veckor före varje högtid): Halloween, jul, alla hjärtans dag, påsk.\n\nSkolstart (augusti–september): Lärare handlar klassrumsaktiviteter. "Första skoldagen målarbild" och "Lär-känna-varandra målararbetsblad."\n\nSommaraktiviteter (juni–augusti): Föräldrar söker offlineaktiviteter.\n\nVuxenfärgläggningstrend: Intrikata kompositioner med natur, mandala och mönster betjänar vuxenmarknaden.\n\nNyckeln: skapa säsongsprodukter i förväg och schemalägg listningar 4–6 veckor före toppen.',
+      content: 'Målarbilder har de starkaste säsongsmönstren av alla printable-kategorier.\n\nHögtidstoppar (4–6 veckor före varje högtid): Halloween, jul, alla hjärtans dag, påsk.\n\nSkolstart (augusti–september): säljare handlar produktlinjesaktiviteter. "Första skoldagen målarbild" och "Lär-känna-varandra målararbetsblad."\n\nSommaraktiviteter (juni–augusti): Föräldrar söker offlineaktiviteter.\n\nVuxenfärgläggningstrend: Intrikata kompositioner med natur, mandala och mönster betjänar vuxenmarknaden.\n\nNyckeln: skapa säsongsprodukter i förväg och schemalägg listningar 4–6 veckor före toppen.',
     },
   ],
 
   examples: [
     {
       heading: 'Produktvariationer efter tema och format',
-      content: 'Enbildsklassiska målarbilder: Placera en stor tematisk bild centrerad på en Letter stående sida. Lägg till en titel överst och lämna gott om vitt utrymme. Bäst för småbarn och förskolebarn. Skapa 10–20 per tema.\n\nCollagestyle-målarbilder: Arrangera 4–8 mindre bilder i en balanserad komposition. Använd frihandsritning för kopplande element som marklinjer, gräs eller bakgrundsdetaljer. Dessa mer detaljerade sidor passar förskoleklass och äldre barn.\n\nFärglägg-och-märk aktivitetsblad: Placera tematiska bilder och lägg till textetiketter bredvid varje. Inkludera namnfält och skrivlinjer. "Havsdjur — Färglägg och märk" med val, delfin, bläckfisk och sjöstjärna. Stark TPT-produkt.\n\nKvadratformat digitala målarbilder: Använd kvadratsidstorlek för digitalt delande. Fungerar för sociala medie-utmaningar och surfplattbaserad färgläggning.',
+      content: 'Enbildsklassiska målarbilder: Placera en stor tematisk bild centrerad på en Letter stående sida. Lägg till en titel överst och lämna gott om vitt utrymme. Bäst för småbarn och förskolebarn. Skapa 10–20 per tema.\n\nCollagestyle-målarbilder: Arrangera 4–8 mindre bilder i en balanserad komposition. Använd frihandsritning för kopplande element som marklinjer, gräs eller bakgrundsdetaljer. Dessa mer detaljerade sidor passar förskoleklass och äldre barn.\n\nFärglägg-och-märk aktivitetsblad: Placera tematiska bilder och lägg till textetiketter bredvid varje. Inkludera namnfält och skrivlinjer. "Havsdjur — Färglägg och märk" med val, delfin, bläckfisk och sjöstjärna. Stark Gumroad-produkt.\n\nKvadratformat digitala målarbilder: Använd kvadratsidstorlek för digitalt delande. Fungerar för sociala medie-utmaningar och surfplattbaserad färgläggning.',
     },
     {
       heading: 'Högpresterande tema- och målgruppskombinationer',
-      content: 'Djur + Småbarn: Djurteman dominerar småbarnens målarsidmarknad. Bondgårdsdjur, husdjur, djungeldjur och havsvarelser.\n\nDinosaurier + Förskolepojkar: En dedikerad köparsegment. Föräldrar söker specifikt "dinosaurie målarbilder."\n\nPrinsessor/Sagor + Förskoleflickor: Prinsessor, enhörningar, feer och slott.\n\nFordon + Förskoleklass: Bilar, lastbilar, byggfordon, flygplan, båtar.\n\nSäsongsbetonade + Klassrumslärare: Högtidstematiserade målarbilder med namnfält. "December högtidsmålaraktiviteter" säljer konsekvent.\n\nNatur + Vuxenfärgläggning: Blommor, fåglar, fjärilar, skogar och landskap i detaljerade kompositioner. Använd flera överlappande bilder och frihandsritning. Vuxna målarböcker är en betydande KDP-kategori med mindre konkurrens.',
+      content: 'Djur + Småbarn: Djurteman dominerar småbarnens målarsidmarknad. Bondgårdsdjur, husdjur, djungeldjur och havsvarelser.\n\nDinosaurier + Förskolepojkar: En dedikerad köparsegment. Föräldrar söker specifikt "dinosaurie målarbilder."\n\nPrinsessor/Sagor + Förskoleflickor: Prinsessor, enhörningar, feer och slott.\n\nFordon + Förskoleklass: Bilar, lastbilar, byggfordon, flygplan, båtar.\n\nSäsongsbetonade + produktlinjessäljare: Högtidstematiserade målarbilder med namnfält. "December högtidsmålaraktiviteter" säljer konsekvent.\n\nNatur + Vuxenfärgläggning: Blommor, fåglar, fjärilar, skogar och landskap i detaljerade kompositioner. Använd flera överlappande bilder och frihandsritning. Vuxna målarböcker är en betydande KDP-kategori med mindre konkurrens.',
     },
   ],
 
@@ -119,8 +119,8 @@ const content: GuideContent = {
       answer: 'Bildbiblioteket innehåller över 3 100 illustrationer i 104 teman. Kategorier inkluderar djur, mat, fordon, natur, högtider, yrken, sport, fantasy och dussintals fler. Kommersiell licens inkluderar 10 tematiska bilduppsättningar. Full Access-licensen låser upp alla 104 teman.',
     },
     {
-      question: 'Vad är klassrumshjälparna och hur fungerar de?',
-      answer: 'Två enkelklickshjälpare finns. Namnfält lägger till en "Namn: ____"-rad. Skrivlinjer lägger till linjerade rader. Kombinerat med tematiska målarbilder förvandlar dessa hjälpare grundläggande målarbilder till dubbelsyftes klassrumsaktivitetsblad som lärare aktivt söker efter.',
+      question: 'Vad är produktlinjeshjälparna och hur fungerar de?',
+      answer: 'Två enkelklickshjälpare finns. Namnfält lägger till en "Namn: ____"-rad. Skrivlinjer lägger till linjerade rader. Kombinerat med tematiska målarbilder förvandlar dessa hjälpare grundläggande målarbilder till dubbelsyftes produktlinjesaktivitetsblad som säljare aktivt söker efter.',
     },
     {
       question: 'Kan jag ladda upp egna bilder till målarbilder?',
@@ -150,7 +150,7 @@ const content: GuideContent = {
     {
       slug: 'skapa-skrivoevningar',
       title: 'Skapa skrivövningsarbetsblad',
-      description: 'Skrivövningsblad är en naturlig kompanjon till målarbilder, särskilt för klassrumsaktivitetspaket riktade mot tidiga inlärare.',
+      description: 'Skrivövningsblad är en naturlig kompanjon till målarbilder, särskilt för produktlinjesaktivitetspaket riktade mot tidiga inlärare.',
     },
   ],
 
@@ -169,7 +169,7 @@ const content: GuideContent = {
     {
       appId: 'coloring',
       title: 'Målarbild-skapare',
-      description: 'Det primära verktyget för denna guide. En fri arbetsytedesigner med 3 100+ tematiska bilder, frihandsritning, klassrumshjälpare och gråskaleexport med ett klick.',
+      description: 'Det primära verktyget för denna guide. En fri arbetsytedesigner med 3 100+ tematiska bilder, frihandsritning, produktlinjeshjälpare och gråskaleexport med ett klick.',
     },
     {
       appId: 'draw-and-color',

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Stats söktermer rapport nyckelordsoptimering',
       'Etsy kategori attribut för pedagogiska digitala produkter',
     ],
-    titleTag: 'Etsy SEO Pedagogiska Utskrifter — Guide',
+    titleTag: 'Etsy SEO pedagogiska Utskrifter — Guide',
     metaDescription: 'Etsy SEO för pedagogiska utskrifter. Nyckelordsresearch, titeloptimering, alla 13 taggar, annonsbeskrivningar och rankningsfaktorer för utskriftssäljare.',
   },
 
@@ -48,7 +48,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Skriv annonsbeskrivningar som stöder SEO och konverterar',
-      content: 'Första 160 tecknen: Öppningen av din beskrivning kan visas i sökresultat-snippets. Frontladda med din primära nyckelordsfras och ett tydligt förmånsuttalande. Exempel: "Utskriftsbara additionsarbetsblad med djurillustrationer för dagisbarn. Varje PDF inkluderar tematiska matteuppgifter med matchande facit."\n\nBeskrivningsstruktur:\n1. Vad ingår: filantal, sidantal, format, facit\n2. Produktfunktioner: temaalternativ, svårighetsnivåer\n3. Vem det är för: åldersintervall, årskurs, lärandemål\n4. Hur man använder: utskriftsinstruktioner, klassrum vs. hem\n5. Tekniska detaljer: filformat (PDF), upplösning (300 DPI), pappersstorlek\n\nNaturlig nyckelordsintegrering: Väv in nyckelord naturligt i meningar istället för att lista dem i block.\n\nUndvik nyckelordsfyllning: Att upprepa samma nyckelordsfras flera gånger hjälper inte rankning och kan skada den.\n\nCall to action: Avsluta med ett tydligt nästa steg: "Klicka Lägg i Varukorg för omedelbar nedladdning." Favoriter förbättrar din annonsens kvalitetspoäng.',
+      content: 'Första 160 tecknen: Öppningen av din beskrivning kan visas i sökresultat-snippets. Frontladda med din primära nyckelordsfras och ett tydligt förmånsuttalande. Exempel: "Utskriftsbara additionsarbetsblad med djurillustrationer för dagisbarn. Varje PDF inkluderar tematiska matteuppgifter med matchande facit."\n\nBeskrivningsstruktur:\n1. Vad ingår: filantal, sidantal, format, facit\n2. Produktfunktioner: temaalternativ, svårighetsnivåer\n3. Vem det är för: åldersintervall, årskurs, lärandemål\n4. Hur man använder: utskriftsinstruktioner, produktlinje vs. hem\n5. Tekniska detaljer: filformat (PDF), upplösning (300 DPI), pappersstorlek\n\nNaturlig nyckelordsintegrering: Väv in nyckelord naturligt i meningar istället för att lista dem i block.\n\nUndvik nyckelordsfyllning: Att upprepa samma nyckelordsfras flera gånger hjälper inte rankning och kan skada den.\n\nCall to action: Avsluta med ett tydligt nästa steg: "Klicka Lägg i Varukorg för omedelbar nedladdning." Favoriter förbättrar din annonsens kvalitetspoäng.',
     },
     {
       heading: 'Använd Etsy-kategorier och attribut korrekt',
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Exempel: Optimerad annons med kompletta SEO-element',
-      content: 'Produkt: Ordsökningspussel med matordförråd, årskurs 1–3.\n\nTitel (127 tecken): "Word Search Puzzles for Kids | Food Vocabulary Worksheet Printable | Spelling Practice Digital Download"\n\nTaggar (alla 13): "word search kids," "food vocabulary," "spelling worksheet," "printable puzzle," "literacy activities," "homeschool reading," "first grade," "word games," "ESL worksheets," "vocabulary practice," "digital download," "language arts," "classroom games."\n\nBeskrivningsöppning (158 tecken): "Printable word search puzzles with food vocabulary for kids in grades 1–3. Each PDF includes themed puzzles with answer keys. Instant digital download."\n\nKategori: Craft Supplies & Tools > Learning & School > Educational Materials\n\nAttribut: Occasion: Back to School | Recipient: For Children | Format: Digital Download\n\nFotostrategi: Bild 1: Fullständig pusselvy (miniatyr). Bild 2: "Vad ingår"-infografik. Bild 3: Närbild av rutnät. Bild 4: Facitsida. Bild 5–10: Olika teman och svårighetsnivåer.\n\nVarför detta fungerar: Titeln leder med primärt nyckelord, taggar täcker ordförråd, läsning, SFI och klassrumsaspekter, beskrivningen öppnar med nyckelord och formatsignal.',
+      content: 'Produkt: Ordsökningspussel med matordförråd, årskurs 1–3.\n\nTitel (127 tecken): "Word Search Puzzles for Kids | Food Vocabulary Worksheet Printable | Spelling Practice Digital Download"\n\nTaggar (alla 13): "word search kids," "food vocabulary," "spelling worksheet," "printable puzzle," "literacy activities," "homeschool reading," "first grade," "word games," "ESL worksheets," "vocabulary practice," "digital download," "language arts," "classroom games."\n\nBeskrivningsöppning (158 tecken): "Printable word search puzzles with food vocabulary for kids in grades 1–3. Each PDF includes themed puzzles with answer keys. Instant digital download."\n\nKategori: Craft Supplies & Tools > Learning & School > Educational Materials\n\nAttribut: Occasion: Back to School | Recipient: For Children | Format: Digital Download\n\nFotostrategi: Bild 1: Fullständig pusselvy (miniatyr). Bild 2: "Vad ingår"-infografik. Bild 3: Närbild av rutnät. Bild 4: Facitsida. Bild 5–10: Olika teman och svårighetsnivåer.\n\nVarför detta fungerar: Titeln leder med primärt nyckelord, taggar täcker ordförråd, läsning, SFI och produktlinjesaspekter, beskrivningen öppnar med nyckelord och formatsignal.',
     },
   ],
 

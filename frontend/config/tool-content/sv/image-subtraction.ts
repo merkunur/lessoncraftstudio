@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Subtraktions Arbetsblad Generator',
     tagline: 'Skapa visuella stryk-över subtraktions arbetsblad på under 60 sekunder',
-    description: 'Gör subtraktion begripligt med stryk-över-visuella som barn intuitivt förstår. Detta verktyg genererar bildbaserade subtraktions arbetsblad där eleverna stryker över bilder för att hitta svaret — det mest naturliga sättet att lära sig ta-bort-matte. Välj bland mer än 100 bildteman, ställ in ditt minuendområde, välj bland fyra övningslägen inklusive det unika Stryk Över-formatet, och ladda ner tryckfärdiga PDF:er eller högupplösta JPEG-bilder. Perfekt för Etsy-säljare som bygger differentierade matteprodukter, lärare som skapar klassrumspaket och KDP-publicerare som sammanställer subtraktions-arbetsböcker. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Gör subtraktion begripligt med stryk-över-visuella som barn intuitivt förstår. Detta verktyg genererar bildbaserade subtraktions arbetsblad där användarna stryker över bilder för att hitta svaret — det mest naturliga sättet att lära sig ta-bort-matte. Välj bland mer än 100 bildteman, ställ in ditt minuendområde, välj bland fyra övningslägen inklusive det unika Stryk Över-formatet, och ladda ner tryckfärdiga PDF:er eller högupplösta JPEG-bilder. Perfekt för Etsy-säljare som bygger nivågrupperade matteprodukter, köpare som skapar produktlinjespaket och KDP-publicerare som sammanställer subtraktions-arbetsböcker. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -33,11 +33,11 @@ const content: ToolContent = {
       },
       {
         title: 'Välj ditt övningsläge',
-        description: 'Öppna panelen «Övningskonfiguration» och välj bland fyra lägen: Stryk Över (eleverna stryker över bilder för att visualisera subtraktion — det mest intuitiva läget för unga elever), Bild − Tal (en bildgrupp minus en siffra), Hitta Subtrahend (visar minuend och resultat; barnet räknar ut vad som togs bort), eller Blandat Läge (kombinerar slumpmässigt alla tre stilar på ett blad).',
+        description: 'Öppna panelen «Övningskonfiguration» och välj bland fyra lägen: Stryk Över (användarna stryker över bilder för att visualisera subtraktion — det mest intuitiva läget för unga användare), Bild − Tal (en bildgrupp minus en siffra), Hitta Subtrahend (visar minuend och resultat; barnet räknar ut vad som togs bort), eller Blandat Läge (kombinerar slumpmässigt alla tre stilar på ett blad).',
       },
       {
         title: 'Ställ in svårighetsgraden',
-        description: 'Justera reglaget «Max Minuend» för att kontrollera det största talet som används i övningarna (intervall: 2–20). För förskolebarn, håll det på 5 eller lägre. Dagisbarn klarar upp till 10 bra. Första klass-elever kan arbeta med hela intervallet upp till 20. Du kan också ställa in antalet övningar per arbetsblad (1 till 10).',
+        description: 'Justera reglaget «Max Minuend» för att kontrollera det största talet som används i övningarna (intervall: 2–20). För förskolebarn, håll det på 5 eller lägre. Dagisbarn klarar upp till 10 bra. Första klass-användare kan arbeta med hela intervallet upp till 20. Du kan också ställa in antalet övningar per arbetsblad (1 till 10).',
       },
       {
         title: 'Välj ett tema från bildbiblioteket',
@@ -49,11 +49,11 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till text och titlar',
-        description: 'Använd panelen «Textverktyg» för att lägga till en titel som «Stryk Över Subtraktion» eller «Ta-Bort Övning». Välj bland barnvänliga typsnitt som Fredoka, Baloo 2, Quicksand och Nunito. Justera teckenstorlek, färg och valfri textkontur för bättre läsbarhet över bakgrunder.',
+        description: 'Använd panelen «Textverktyg» för att lägga till en titel som «Stryk Över Subtraktion» eller «Ta-Bort Övning». Välj bland tydliga typsnitt som Fredoka, Baloo 2, Quicksand och Nunito. Justera teckenstorlek, färg och valfri textkontur för bättre läsbarhet över bakgrunder.',
       },
       {
         title: 'Växla arbetsbladsalternativ',
-        description: 'Finjustera ditt arbetsblad med kryssrutor: aktivera Namn/Datum-fält överst, visa eller dölj minustecknet mellan bildgrupper, inkludera övningsnummer och växla den barnvänliga svarsfältstilen. Varje alternativ uppdaterar liveförhandsvisningen direkt.',
+        description: 'Finjustera ditt arbetsblad med kryssrutor: aktivera Namn/Datum-fält överst, visa eller dölj minustecknet mellan bildgrupper, inkludera övningsnummer och växla den tilltalande svarsfältstilen. Varje alternativ uppdaterar liveförhandsvisningen direkt.',
       },
       {
         title: 'Generera och ladda ner',
@@ -65,15 +65,15 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Stryk-över subtraktions aktivitetspaket',
-      description: 'Skapa uppsättningar av 10–20 arbetsblad med Stryk Över-läget där barn fysiskt stryker över bilder för att lösa varje uppgift. Paketera dem efter tema — dinosaurier, bondgårdsdjur, havsdjur — och sälj som visuella subtraktionspaket på Etsy eller Teachers Pay Teachers. Stryk-över-formatet är den mest efterfrågade formaten bland förskolepedagoger.',
+      description: 'Skapa uppsättningar av 10–20 arbetsblad med Stryk Över-läget där barn fysiskt stryker över bilder för att lösa varje uppgift. Paketera dem efter tema — dinosaurier, bondgårdsdjur, havsdjur — och sälj som visuella subtraktionspaket på Etsy eller Gumroad. Stryk-över-formatet är den mest efterfrågade formaten bland förskolesäljare.',
     },
     {
       title: 'Ta-bort mattearbetsböcker för KDP',
       description: 'Generera 50–100 sidor med subtraktions arbetsblad i blandade lägen, exportera som högupplösta PDF:er och publicera som en låginnehålls aktivitetsarbetsbok på Amazon KDP. Använd kvadratformat (1200×1200) för KDP-aktivitetsböcker och blanda Stryk Över med Bild − Tal för variation.',
     },
     {
-      title: 'Differentierade klassrumsuppsättningar',
-      description: 'Generera tre versioner av samma arbetsblad på olika svårighetsnivåer: lätt (maxMinuend 5), medel (maxMinuend 10) och svår (maxMinuend 20). Lärare kan ge rätt nivå till varje elev utan extra förberedelsetid. Inkludera Hitta Subtrahend-läget i den avancerade uppsättningen för en extra utmaning.',
+      title: 'nivågrupperade produktlinjesuppsättningar',
+      description: 'Generera tre versioner av samma arbetsblad på olika svårighetsnivåer: lätt (maxMinuend 5), medel (maxMinuend 10) och svår (maxMinuend 20). säljare kan ge rätt nivå till varje användare utan extra förberedelsetid. Inkludera Hitta Subtrahend-läget i den avancerade uppsättningen för en extra utmaning.',
     },
     {
       title: 'Säsongsbetonade subtraktionspaket',
@@ -81,24 +81,24 @@ const content: ToolContent = {
     },
     {
       title: 'Hitta det saknade talet arbetsblad',
-      description: 'Använd Hitta Subtrahend-läget exklusivt för att skapa «hitta det saknade talet» subtraktionsblad. Detta format är populärt bland lärare i första och andra klass eftersom det utvecklar algebraiskt tänkande. Paketera dem som en separat produktlinje vid sidan av dina vanliga subtraktionspaket.',
+      description: 'Använd Hitta Subtrahend-läget exklusivt för att skapa «hitta det saknade talet» subtraktionsblad. Detta format är populärt bland säljare i första och andra klass eftersom det utvecklar algebraiskt tänkande. Paketera dem som en separat produktlinje vid sidan av dina vanliga subtraktionspaket.',
     },
     {
       title: 'Tvåspråkiga subtraktions arbetsblad',
-      description: 'Byt innehållsspråk för att skapa arbetsblad med bildetiketter på tyska, franska, spanska eller något av de 11 stödda språken. Idealiskt för ESL-klassrum, tvåspråkiga hemundervisningsfamiljer eller internationella skolsäljare som vill betjäna icke-engelskspråkiga marknader.',
+      description: 'Byt innehållsspråk för att skapa arbetsblad med bildetiketter på tyska, franska, spanska eller något av de 11 stödda språken. Idealiskt för ESL-produktlinje, tvåspråkiga hemundervisningsfamiljer eller internationella skolsäljare som vill betjäna icke-engelskspråkiga marknader.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Etsy visuell matte utskriftsbar butik',
-      description: 'Öppna en Etsy-butik specialiserad på visuella subtraktions arbetsblad. Stryk Över-formatet är mycket eftertraktat av föräldrar och lärare eftersom det gör abstrakt subtraktion konkret. Skapa 15–20 tematiska paket prissatta till 30–50 SEK vardera. Med noll lager och omedelbar digital leverans är marginalen nästan 100% efter Etsy-avgifter. Fokusera din butiks SEO på long-tail nyckelord som «stryk över subtraktions arbetsblad utskriftsbara» och «visuella ta-bort matteaktiviteter» för att sticka ut från generiska mattearbetsbladsannonser.',
+      description: 'Öppna en Etsy-butik specialiserad på visuella subtraktions arbetsblad. Stryk Över-formatet är mycket eftertraktat av föräldrar och säljare eftersom det gör abstrakt subtraktion konkret. Skapa 15–20 tematiska paket prissatta till 30–50 SEK vardera. Med noll lager och omedelbar digital leverans är marginalen nästan 100% efter Etsy-avgifter. Fokusera din butiks SEO på long-tail nyckelord som «stryk över subtraktions arbetsblad utskriftsbara» och «visuella ta-bort matteaktiviteter» för att sticka ut från generiska mattearbetsbladsannonser.',
       platform: 'Etsy',
     },
     {
-      title: 'Teachers Pay Teachers matte paket-säljare',
-      description: 'Ladda upp differentierade subtraktions arbetsbladspaket till TPT. Lärare söker ständigt efter «stryk över subtraktions arbetsblad» och «ta-bort matte utskriftsbara». Inkludera alla fyra övningslägen, facit och en lärarguide i varje annons för högre upplevt värde och bättre recensioner.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad matte paket-säljare',
+      description: 'Ladda upp nivågrupperade subtraktions arbetsbladspaket till Gumroad. säljare söker ständigt efter «stryk över subtraktions arbetsblad» och «ta-bort matte utskriftsbara». Inkludera alla fyra övningslägen, facit och en lärarguide i varje annons för högre upplevt värde och bättre recensioner.',
+      platform: 'Gumroad',
     },
     {
       title: 'Amazon KDP subtraktions-arbetsböcker',
@@ -106,13 +106,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad subtraktions läroplanspaket',
-      description: 'Skapa en strukturerad 12-veckors subtraktions läroplan med progressiv svårighet — börja med Stryk Över vid maxMinuend 5, bygg till Hitta Subtrahend vid maxMinuend 20. Sälj den som en premium digital nedladdning på Gumroad. Hemundervisande föräldrar söker aktivt efter praktiska, visuella mattemetaterial. Inkludera ett ensidig omfångs-och-sekvens-dokument som förklarar vilka färdigheter varje vecka riktar sig mot.',
+      title: 'Gumroad subtraktions produktkatalogspaket',
+      description: 'Skapa en strukturerad 12-veckors subtraktions produktkatalog med progressiv svårighet — börja med Stryk Över vid maxMinuend 5, bygg till Hitta Subtrahend vid maxMinuend 20. Sälj den som en premium digital nedladdning på Gumroad. Hemundervisande föräldrar söker aktivt efter praktiska, visuella mattemetaterial. Inkludera ett ensidig omfångs-och-sekvens-dokument som förklarar vilka färdigheter varje vecka riktar sig mot.',
       platform: 'Gumroad',
     },
     {
       title: 'Lektionscenter subtraktionsresurser',
-      description: 'Om du driver en lektionsverksamhet, generera anpassade subtraktions arbetsblad för varje elevsession. Börja kämpande elever med Stryk Över-läget för att bygga konceptuell förståelse, avancera sedan till Hitta Subtrahend när de är redo. Använd facit för omedelbar bedömning mellan sessioner. Personaliserade arbetsblad med teman varje barn tycker om ökar engagemanget dramatiskt.',
+      description: 'Om du driver en lektionsverksamhet, generera anpassade subtraktions arbetsblad för varje användaresession. Börja kämpande användare med Stryk Över-läget för att bygga konceptuell förståelse, avancera sedan till Hitta Subtrahend när de är redo. Använd facit för omedelbar bedömning mellan sessioner. Personaliserade arbetsblad med teman varje barn tycker om ökar engagemanget dramatiskt.',
     },
     {
       title: 'Pinterest-driven gratis provpakets-tratt',
@@ -122,20 +122,20 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Börja med Stryk Över-läge för unga elever',
-      description: 'Stryk Över är det mest intuitiva subtraktionsformatet för förskolebarn och dagisbarn. Barn ser en grupp bilder, stryker över några och räknar vad som återstår. Börja varje ny elev eller produktlinje med Stryk Över innan du introducerar andra lägen — det bygger den grundläggande förståelsen att subtraktion betyder «ta bort». Forskning visar konsekvent att konkret-till-abstrakt progression producerar starkare matteresultat, och Stryk Över-arbetsblad sitter perfekt i det konkret-representativa stadiet.',
+      title: 'Börja med Stryk Över-läge för unga användare',
+      description: 'Stryk Över är det mest intuitiva subtraktionsformatet för förskolebarn och dagisbarn. Barn ser en grupp bilder, stryker över några och räknar vad som återstår. Börja varje ny användare eller produktlinje med Stryk Över innan du introducerar andra lägen — det bygger den grundläggande förståelsen att subtraktion betyder «ta bort». Forskning visar konsekvent att konkret-till-abstrakt progression producerar starkare matteresultat, och Stryk Över-arbetsblad sitter perfekt i det konkret-representativa stadiet.',
     },
     {
-      title: 'Håll maxMinuend lågt för tidiga elever',
-      description: 'Ställ in maxMinuend-reglaget till 5 för förskoleprodukter och 10 för dagis. Unga barn överväldigas av stora grupper av bilder. Skapa separata «lätt» (maxMinuend 5), «medel» (maxMinuend 10) och «utmaning» (maxMinuend 20) versioner så köpare kan välja rätt nivå. Att lista alla tre svårighetsnivåer som ett enda differentierat paket på Etsy eller TPT motiverar ett högre pris.',
+      title: 'Håll maxMinuend lågt för tidiga användare',
+      description: 'Ställ in maxMinuend-reglaget till 5 för förskoleprodukter och 10 för dagis. Unga barn överväldigas av stora grupper av bilder. Skapa separata «lätt» (maxMinuend 5), «medel» (maxMinuend 10) och «utmaning» (maxMinuend 20) versioner så köpare kan välja rätt nivå. Att lista alla tre svårighetsnivåer som ett enda nivågrupperat paket på Etsy eller Gumroad motiverar ett högre pris.',
     },
     {
-      title: 'Använd Hitta Subtrahend för avancerade elever',
-      description: 'Hitta Subtrahend-läget visar startantalet och resultatet, och ber barnet räkna ut hur många som togs bort. Detta är betydligt svårare och utvecklar tidigt algebraiskt tänkande. Spara det för första klass och uppåt, eller marknadsför det som en separat «utmaning»-produktnivå. På Etsy och TPT attraherar «hitta det saknade talet» subtraktions arbetsblad ett distinkt köparsegment.',
+      title: 'Använd Hitta Subtrahend för avancerade användare',
+      description: 'Hitta Subtrahend-läget visar startantalet och resultatet, och ber barnet räkna ut hur många som togs bort. Detta är betydligt svårare och utvecklar tidigt algebraiskt tänkande. Spara det för första klass och uppåt, eller marknadsför det som en separat «utmaning»-produktnivå. På Etsy och Gumroad attraherar «hitta det saknade talet» subtraktions arbetsblad ett distinkt köparsegment.',
     },
     {
       title: 'Inkludera alltid facit',
-      description: 'Klicka på «Generera Facit» innan du laddar ner. För Stryk Över-arbetsblad visar facit vilka bilder som är överstrukna, vilket gör bedömningen omedelbar. Köpare på Etsy och TPT ger konsekvent högre betyg till produkter som inkluderar facit. Att inkludera facit minskar också kundtjänstfrågor och återbetalningsförfrågningar.',
+      description: 'Klicka på «Generera Facit» innan du laddar ner. För Stryk Över-arbetsblad visar facit vilka bilder som är överstrukna, vilket gör bedömningen omedelbar. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit. Att inkludera facit minskar också kundtjänstfrågor och återbetalningsförfrågningar.',
     },
     {
       title: 'Exportera både PDF och JPEG',
@@ -158,7 +158,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka är de fyra övningslägena?',
-      answer: 'Generatorn stöder fyra lägen: Stryk Över (eleverna stryker över bilder för att visualisera ta-bort subtraktion), Bild − Tal (en bildgrupp minus en siffra), Hitta Subtrahend (minuend och resultat visas; barnet avgör vad som togs bort), och Blandat Läge (kombinerar slumpmässigt alla tre stilar på ett arbetsblad för maximal variation).',
+      answer: 'Generatorn stöder fyra lägen: Stryk Över (användarna stryker över bilder för att visualisera ta-bort subtraktion), Bild − Tal (en bildgrupp minus en siffra), Hitta Subtrahend (minuend och resultat visas; barnet avgör vad som togs bort), och Blandat Läge (kombinerar slumpmässigt alla tre stilar på ett arbetsblad för maximal variation).',
     },
     {
       question: 'Vilka filformat kan jag ladda ner?',
@@ -166,15 +166,15 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja arbetsblad på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för arbetsbladen du skapar.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för arbetsbladen du skapar.',
     },
     {
       question: 'Hur fungerar Stryk Över-läget?',
-      answer: 'I Stryk Över-läget visar arbetsbladet en grupp bilder som representerar minuenden. Barnet stryker över antalet som ska subtraheras och räknar de återstående bilderna för att hitta svaret. Detta är det mest visuella och intuitiva sättet att lära ut subtraktion till unga elever. De överstrukna bilderna förblir synliga på sidan, så barn kan verifiera sitt arbete genom att räkna både den överstrukna gruppen och den återstående gruppen.',
+      answer: 'I Stryk Över-läget visar arbetsbladet en grupp bilder som representerar minuenden. Barnet stryker över antalet som ska subtraheras och räknar de återstående bilderna för att hitta svaret. Detta är det mest visuella och intuitiva sättet att lära ut subtraktion till unga användare. De överstrukna bilderna förblir synliga på sidan, så barn kan verifiera sitt arbete genom att räkna både den överstrukna gruppen och den återstående gruppen.',
     },
     {
       question: 'Vad kontrollerar maxMinuend-inställningen?',
-      answer: 'MaxMinuend-reglaget (intervall 2–20) ställer in det största starttalet i varje subtraktionsövning. Till exempel, om maxMinuend är satt till 10, visar övningarna upp till 10 bilder. Lägre värden är enklare för yngre barn; högre värden ger mer utmaning för äldre elever.',
+      answer: 'MaxMinuend-reglaget (intervall 2–20) ställer in det största starttalet i varje subtraktionsövning. Till exempel, om maxMinuend är satt till 10, visar övningarna upp till 10 bilder. Lägre värden är enklare för yngre barn; högre värden ger mer utmaning för äldre användare.',
     },
     {
       question: 'Kan jag skapa arbetsblad på andra språk än svenska?',

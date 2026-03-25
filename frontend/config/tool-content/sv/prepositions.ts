@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Prepositioner Arbetsblad Generator',
     tagline: 'Skapa rumsliga prepositioner arbetsblad med två övningslägen på 11 språk',
-    description: 'Lär ut lägesord genom bildbaserade övningar som eleverna verkligen tycker om. Detta verktyg genererar prepositioner arbetsblad där eleverna identifierar rumsliga relationer — på, under, ovanför, bredvid, mellan, inuti, utanför — genom att studera bildscener och fylla i eller välja rätt preposition. Välj mellan två övningslägen: Fyll-i-Luckan, där eleverna skriver rätt preposition själva, eller Flerval, där de väljer bland alternativ med en anpassningsbar instruktionsrad. Ställ in 1–8 övningar per arbetsblad och välj exakt vilka prepositioner som ska inkluderas med kryssrutrutnätet. Verktygets utmärkande funktion är Formersättning — ett separat bildlager som låter dig byta scenformer oberoende, vilket skapar långt fler visuella kombinationer än en enda bilduppsättning kan erbjuda. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och varje prepositionsord uppdateras till sin inhemska motsvarighet. Engelska använder «on, under, above, beside, between, inside, outside»; tyska använder «auf, unter, über, neben, zwischen, drinnen, draußen». En arbetsbladsdesign blir 11 unika språkprodukter. Bläddra bland mer än 3 100 bilder i 104 teman, ladda upp din egen PNG eller JPEG för varumärkta designer, och välj bland flera mallar och 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Lär ut lägesord genom bildbaserade övningar som användarna verkligen tycker om. Detta verktyg genererar prepositioner arbetsblad där användarna identifierar rumsliga relationer — på, under, ovanför, bredvid, mellan, inuti, utanför — genom att studera bildscener och fylla i eller välja rätt preposition. Välj mellan två övningslägen: Fyll-i-Luckan, där användarna skriver rätt preposition själva, eller Flerval, där de väljer bland alternativ med en anpassningsbar instruktionsrad. Ställ in 1–8 övningar per arbetsblad och välj exakt vilka prepositioner som ska inkluderas med kryssrutrutnätet. Verktygets utmärkande funktion är Formersättning — ett separat bildlager som låter dig byta scenformer oberoende, vilket skapar långt fler visuella kombinationer än en enda bilduppsättning kan erbjuda. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och varje prepositionsord uppdateras till sin inhemska motsvarighet. Engelska använder «on, under, above, beside, between, inside, outside»; tyska använder «auf, unter, über, neben, zwischen, drinnen, draußen». En arbetsbladsdesign blir 11 unika språkprodukter. Bläddra bland mer än 3 100 bilder i 104 teman, ladda upp din egen PNG eller JPEG för varumärkta designer, och välj bland flera mallar och 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj ditt övningsläge',
-        description: 'Välj Fyll-i-Luckan eller Flerval. Fyll-i-Luckan-läget presenterar en bildscen med en tom rad där eleverna skriver rätt preposition. Flerval-läget visar alternativ för eleverna att välja bland, med en anpassningsbar beskrivningsrad du kan redigera för att matcha din undervisningsstil. Fyll-i-Luckan passar äldre elever; Flerval fungerar bäst för nybörjare.',
+        description: 'Välj Fyll-i-Luckan eller Flerval. Fyll-i-Luckan-läget presenterar en bildscen med en tom rad där användarna skriver rätt preposition. Flerval-läget visar alternativ för användarna att välja bland, med en anpassningsbar beskrivningsrad du kan redigera för att matcha din undervisningsstil. Fyll-i-Luckan passar äldre användare; Flerval fungerar bäst för nybörjare.',
       },
       {
         title: 'Välj prepositioner',
@@ -65,15 +65,15 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiska prepositionspaket',
-      description: 'Skapa uppsättningar av 10–15 prepositioner arbetsblad med tematiska bildsamlingar — djur, fordon, hushållsföremål, naturscener. Varje arbetsblad använder olika bilder och formkombinationer vid en konsekvent svårighetsnivå. Paketera efter tema och sälj på Etsy eller Teachers Pay Teachers. Bildscenformatet gör dina annonseringsminiatyrer visuellt engagerande jämfört med rena textbaserade grammatikblad.',
+      description: 'Skapa uppsättningar av 10–15 prepositioner arbetsblad med tematiska bildsamlingar — djur, fordon, hushållsföremål, naturscener. Varje arbetsblad använder olika bilder och formkombinationer vid en konsekvent svårighetsnivå. Paketera efter tema och sälj på Etsy eller Gumroad. Bildscenformatet gör dina annonseringsminiatyrer visuellt engagerande jämfört med rena textbaserade grammatikblad.',
     },
     {
       title: 'KDP rumsliga aktivitetsböcker',
       description: 'Generera 50–100 prepositionssidor med progressiv struktur: Flerval-övningar i öppningskapitlet för uppvärmning, sedan Fyll-i-Luckan för huvudsektionen. Exportera som högupplösta PDF:er och publicera som en låginnehålls aktivitetsarbetsbok på Amazon KDP. Använd gråskaleläge för lägre utskriftskostnader. Det visuella scenformatet fotograferar sig bra för annonseringsbilder eftersom varje sida ser ut som ett pussel, inte en övning.',
     },
     {
-      title: 'Differentierade övningslägesset',
-      description: 'Generera två versioner av varje tematiskt arbetsblad: Flerval för yngre eller kämpande elever, och Fyll-i-Luckan för elever redo för självständig åtekallelse. Lärare kan ge rätt version till varje elev baserat på deras nivå. Sälj som ett differentierat paket till ett premiumpris på TPT eller Etsy.',
+      title: 'nivågrupperade övningslägesset',
+      description: 'Generera två versioner av varje tematiskt arbetsblad: Flerval för yngre eller kämpande användare, och Fyll-i-Luckan för användare redo för självständig åtekallelse. säljare kan ge rätt version till varje användare baserat på deras nivå. Sälj som ett nivågrupperat paket till ett premiumpris på Gumroad eller Etsy.',
     },
     {
       title: 'Flerspråkiga prepositionsprodukter',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade prepositionspaket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Prepositioner»-paket med festliga scener — julklappar under granen, stjärnor ovanför huset, godis inuti strumpan — säljer starkt i november–december. Skolstart, halloween och vårteman har alla sina egna toppförsäljningsfönster på Etsy och TPT.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Prepositioner»-paket med festliga scener — julklappar under granen, stjärnor ovanför huset, godis inuti strumpan — säljer starkt i november–december. Skolstart, halloween och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers grammatikpaket',
-      description: 'Ladda upp prepositioner arbetsbladspaket till TPT organiserade efter svårighet och övningsläge. Inkludera Fyll-i-Luckan-set, Flerval-set och blandade läges-paket med facit för varje sida. Lärare söker ständigt efter «prepositioner arbetsblad» och «rumsligt språk aktiviteter». Bildscenformatet lägger till upplevt värde eftersom eleverna engagerar sig med visuellt sammanhang snarare än abstrakta fyll-i-luckan-meningar.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad grammatikpaket',
+      description: 'Ladda upp prepositioner arbetsbladspaket till Gumroad organiserade efter svårighet och övningsläge. Inkludera Fyll-i-Luckan-set, Flerval-set och blandade läges-paket med facit för varje sida. säljare söker ständigt efter «prepositioner arbetsblad» och «rumsligt språk aktiviteter». Bildscenformatet lägger till upplevt värde eftersom användarna engagerar sig med visuellt sammanhang snarare än abstrakta fyll-i-luckan-meningar.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad dubbelläges prepositionskit',
-      description: 'Skapa premium prepositionskit på Gumroad som inkluderar både Fyll-i-Luckan och Flerval-versioner av varje arbetsblad, plus facit och en användningsguide. Paketera 5–11 språkversioner till en enda flerspråkig produkt. Rikta dig mot ESL-lärare, tvåspråkiga familjer och internationella skolor som behöver rumsligt språkmaterial på flera språk.',
+      description: 'Skapa premium prepositionskit på Gumroad som inkluderar både Fyll-i-Luckan och Flerval-versioner av varje arbetsblad, plus facit och en användningsguide. Paketera 5–11 språkversioner till en enda flerspråkig produkt. Rikta dig mot ESL-säljare, tvåspråkiga familjer och internationella skolor som behöver rumsligt språkmaterial på flera språk.',
       platform: 'Gumroad',
     },
     {
@@ -117,19 +117,19 @@ const content: ToolContent = {
     },
     {
       title: 'Formersättning variationspaket på Etsy',
-      description: 'Utnyttja Formersättningsfunktionen för att skapa massiva variationspaket. Kombinera 10 huvudbilder med 10 olika former för att producera 100 unika övningsscener från bara 20 källbilder. Sälj dessa som «100-Sidor Prepositioner Megapaket» på Etsy — den stora volymen motiverar ett premiumpris, och den visuella variationen håller eleverna engagerade genom hela arbetsboken.',
+      description: 'Utnyttja Formersättningsfunktionen för att skapa massiva variationspaket. Kombinera 10 huvudbilder med 10 olika former för att producera 100 unika övningsscener från bara 20 källbilder. Sälj dessa som «100-Sidor Prepositioner Megapaket» på Etsy — den stora volymen motiverar ett premiumpris, och den visuella variationen håller användarna engagerade genom hela arbetsboken.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Använd Fyll-i-Luckan för äldre elever',
-      description: 'Fyll-i-Luckan-läge kräver aktiv åtekallelse — eleverna måste producera rätt preposition ur minnet, inte bara känna igen den. Detta passar årskurs 2+ och ESL-elever som redan kan lägesorden men behöver skrivövning. Det gör också arbetsbladen svårare att gissa, vilket ökar det pedagogiska värdet.',
+      title: 'Använd Fyll-i-Luckan för äldre användare',
+      description: 'Fyll-i-Luckan-läge kräver aktiv åtekallelse — användarna måste producera rätt preposition ur minnet, inte bara känna igen den. Detta passar årskurs 2+ och ESL-användare som redan kan lägesorden men behöver skrivövning. Det gör också arbetsbladen svårare att gissa, vilket ökar det pedagogiska värdet.',
     },
     {
       title: 'Använd Flerval för nybörjare',
-      description: 'Flerval-läge ger yngre elever eller tidiga ESL-elever en stöttad upplevelse. De ser det korrekta svaret bland alternativ, vilket minskar frustration. Anpassa instruktionstexten för att matcha din undervisningsstil. Börja med 3–4 övningar per sida för att undvika att överväldiga nya elever.',
+      description: 'Flerval-läge ger yngre användare eller tidiga ESL-användare en stöttad upplevelse. De ser det korrekta svaret bland alternativ, vilket minskar frustration. Anpassa instruktionstexten för att matcha din undervisningsstil. Börja med 3–4 övningar per sida för att undvika att överväldiga nya användare.',
     },
     {
       title: 'Gå flerspråkigt för 11× produktutbud',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Paketera båda lägena i en produkt',
-      description: 'Kombinera Fyll-i-Luckan och Flerval arbetsblad i ett enda paket. Lärare älskar differentierade paket de kan ge till elever på olika nivåer. Ett «Komplett Prepositionspaket» med båda lägen, facit och en lärarguide motiverar ett högre pris än något enskilt läge sålt separat.',
+      description: 'Kombinera Fyll-i-Luckan och Flerval arbetsblad i ett enda paket. säljare älskar nivågrupperade paket de kan ge till användare på olika nivåer. Ett «Komplett Prepositionspaket» med båda lägen, facit och en lärarguide motiverar ett högre pris än något enskilt läge sålt separat.',
     },
     {
       title: 'Använd gråskala för KDP och bulkutskrift',
-      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller klassrumsbulkutskrift. Svartvita scener kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla bilder lockar klick.',
+      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvita scener kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla bilder lockar klick.',
     },
     {
       title: 'Ladda upp anpassade bilder för varumärkning',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar de två övningslägena?',
-      answer: 'Fyll-i-Luckan-läge visar en bildscen med en tom rad där eleverna skriver rätt preposition (på, under, ovanför, osv.). Flerval-läge presenterar samma scen men med valbara alternativ så eleverna väljer rätt svar. Du kan anpassa instruktionstexten i Flerval-läget för att matcha din undervisningsstil.',
+      answer: 'Fyll-i-Luckan-läge visar en bildscen med en tom rad där användarna skriver rätt preposition (på, under, ovanför, osv.). Flerval-läge presenterar samma scen men med valbara alternativ så användarna väljer rätt svar. Du kan anpassa instruktionstexten i Flerval-läget för att matcha din undervisningsstil.',
     },
     {
       question: 'Hur fungerar prepositionsvalet?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur många övningar kan jag lägga på en sida?',
-      answer: 'Du kan ställa in 1 till 8 övningar per arbetsblad. Färre övningar per sida ger varje scen mer visuellt utrymme, vilket fungerar bra för yngre elever. Fler övningar per sida skapar tätare arbetsblad lämpliga för äldre elever eller tidsövning. Layouten anpassas automatiskt efter övningsantal och sidstorlek.',
+      answer: 'Du kan ställa in 1 till 8 övningar per arbetsblad. Färre övningar per sida ger varje scen mer visuellt utrymme, vilket fungerar bra för yngre användare. Fler övningar per sida skapar tätare arbetsblad lämpliga för äldre användare eller tidsövning. Layouten anpassas automatiskt efter övningsantal och sidstorlek.',
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja arbetsblad på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
     },
     {
       question: 'Vilka filformat kan jag ladda ner?',

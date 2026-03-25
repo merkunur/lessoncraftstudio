@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera rutnätsdensitet för svårighetskontroll',
-        description: 'Ställ in rader (5–10) och kolumner (5–10) — standard 6×6 (36 celler). 5×5 (25 celler) — lättare med större bilder för yngre elever. 10×10 (100 celler) — täta, utmanande scener. Varje cell visar en bild med maxstorlek 80px, med 5% storleksminskning i Bokstavsletning.',
+        description: 'Ställ in rader (5–10) och kolumner (5–10) — standard 6×6 (36 celler). 5×5 (25 celler) — lättare med större bilder för yngre användare. 10×10 (100 celler) — täta, utmanande scener. Varje cell visar en bild med maxstorlek 80px, med 5% storleksminskning i Bokstavsletning.',
       },
       {
         title: 'Välj målbilder och tilldela uppgiftstyper',
@@ -80,8 +80,8 @@ const content: ToolContent = {
       description: 'Utnyttja de språkkänsliga bildnamnsetiketterna för att skapa sökarbetsblad på alla 11 språk. Samma bilder producerar annorlunda etikettering. «Katt» på svenska, «Cat» på engelska, «Katze» på tyska. Sälj flerspråkiga paket till premiumpriser.',
     },
     {
-      title: 'Klassrums observations- och räkneaktivitetspaket',
-      description: 'Bygg klassrumsfärdiga sökarbetsblad med namn/datum-fält och facit. Räkna-uppgiftstypen kombinerar visuellt sökande med numerisk övning. Skapa läroplansangränsande set.',
+      title: 'produktlinjes observations- och räkneaktivitetspaket',
+      description: 'Bygg produktlinjesfärdiga sökarbetsblad med namn/datum-fält och facit. Räkna-uppgiftstypen kombinerar visuellt sökande med numerisk övning. Skapa produktkatalogsangränsande set.',
     },
     {
       title: 'Flerformats sök- och hitta paket',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums sökaktivitetspaket',
-      description: 'Ladda upp sökaktivitetspaket till TPT med namn/datum-fält och autogenererade facit. Skapa läroplansangränsande set. Fyra uppgiftstyper skapar differentierade versioner. Bokstavsletning betjänar foniks- och alfabetsmedvetenhetsmarknaden.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes sökaktivitetspaket',
+      description: 'Ladda upp sökaktivitetspaket till Gumroad med namn/datum-fält och autogenererade facit. Skapa produktkatalogsangränsande set. Fyra uppgiftstyper skapar nivågrupperade versioner. Bokstavsletning betjänar foniks- och alfabetsmedvetenhetsmarknaden.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest sökarbetsblad trafiktratt',
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Använd räkna-uppgiftstypen för matteangränsande produkter',
-      description: 'Räkna-uppgiften förvandlar sökövning till räknings- och observationsövning. Eleverna söker och skriver totalt antal. Positionera i både «visuell sökning» och «räkning» kategorier.',
+      description: 'Räkna-uppgiften förvandlar sökövning till räknings- och observationsövning. användarna söker och skriver totalt antal. Positionera i både «visuell sökning» och «räkning» kategorier.',
     },
     {
       title: 'Använd gråskala för budgetvänliga produkter',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja sökarbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja sökarbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan kanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja sökarbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

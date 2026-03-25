@@ -7,7 +7,7 @@ const content: AppContent = {
       'printbare bingokaart maker voor Etsy verkopers',
       'plaatjesbingo werkblad generator voor KDP uitgevers',
       'bingokaart maker met commerciële licentie',
-      'printbare bingokaarten verkopen op Teachers Pay Teachers',
+      'printbare bingokaarten verkopen op Gumroad',
     ],
     lsiKeywords: [
       'digitale bingo-printables online bedrijf',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Bingokaart Generator | Maak & Verkoop Bingo-Printables',
     metaDescription:
-      'Maak plaatjesbingokaarten om te verkopen op Etsy, KDP & TPT. Batchgeneratie van unieke kaarten, ZIP-export, afroepbladen, 104 thema\'s.',
+      'Maak plaatjesbingokaarten om te verkopen op Etsy, KDP & Gumroad. Batchgeneratie van unieke kaarten, ZIP-export, afroepbladen, 104 thema\'s.',
   },
 
   hero: {
@@ -24,7 +24,7 @@ const content: AppContent = {
     tagline:
       'Genereer 1–10 unieke bingokaarten per batch met configureerbare rasters van 3×3 tot 5×5 — afbeeldings- of woordvulling voor zowel kaartvakjes als ronde fiches, een speciaal afroepblad voor de afroeper, ZIP-batchexport van alle kaarten en 104 thematische beeldcollecties.',
     description:
-      'Maak professionele plaatjesbingokaarten waarbij spelers overeenkomende afbeeldingen of woorden markeren op hun unieke kaartrasters. Configureer rijen van 3 tot 5 en kolommen van 3 tot 5 onafhankelijk, waardoor rasters ontstaan van 3×3 (9 vakjes) tot 5×5 (25 vakjes) met een standaard van 4×4 (16 vakjes). Kies afbeeldingsvulling of woordvulling onafhankelijk voor zowel kaartvakjes als ronde fiches — fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening voor authentiek bingospel. Genereer 1–10 unieke bingokaarten per batch, elke kaart met een andere willekeurige selectie uit de pool. Een speciaal afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper, met kolommen berekend op basis van de langste woordlengte en uniforme lettergrootte. Selecteer handmatig specifieke afbeeldingen voor aangepaste afroepselectie of laat de app kiezen uit je thema. De Plaatjesbingo Generator is taalgevoelig: woordvulling gebruikt gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden op kaarten, fiches en het afroepblad. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde woordinhoud. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Batchexport alle gegenereerde kaarten als individuele JPEG\'s in een enkel ZIP-bestand. Of je nu bingobundels verkoopt op Etsy.nl, bingo-activiteitenboeken samenstelt voor Amazon KDP, of kant-en-klare bingosets maakt voor TPT — deze generator levert productieklare bingokaarten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele plaatjesbingokaarten waarbij spelers overeenkomende afbeeldingen of woorden markeren op hun unieke kaartrasters. Configureer rijen van 3 tot 5 en kolommen van 3 tot 5 onafhankelijk, waardoor rasters ontstaan van 3×3 (9 vakjes) tot 5×5 (25 vakjes) met een standaard van 4×4 (16 vakjes). Kies afbeeldingsvulling of woordvulling onafhankelijk voor zowel kaartvakjes als ronde fiches — fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening voor authentiek bingospel. Genereer 1–10 unieke bingokaarten per batch, elke kaart met een andere willekeurige selectie uit de pool. Een speciaal afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper, met kolommen berekend op basis van de langste woordlengte en uniforme lettergrootte. Selecteer handmatig specifieke afbeeldingen voor aangepaste afroepselectie of laat de app kiezen uit je thema. De Plaatjesbingo Generator is taalgevoelig: woordvulling gebruikt gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden op kaarten, fiches en het afroepblad. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde woordinhoud. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Batchexport alle gegenereerde kaarten als individuele JPEG\'s in een enkel ZIP-bestand. Of je nu bingobundels verkoopt op Etsy.nl, bingo-activiteitenboeken samenstelt voor Amazon KDP, of kant-en-klare bingosets maakt voor Gumroad — deze generator levert productieklare bingokaarten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -53,7 +53,7 @@ const content: AppContent = {
       {
         title: 'Download kaarten en afroepblad',
         description:
-          'Schakel tussen het tabblad Kaarten + Fiches en het tabblad Afroepblad om beide uitvoeren te bekijken. Het afroepblad toont een dynamisch woordraster met uniforme lettergrootte en kolommen berekend op basis van de langste woordlengte. Download individuele kaarten als JPEG of PDF met de speciale knoppen, of batchexporteer alle gegenereerde kaarten als individuele JPEG\'s in een enkel bingo_cards.zip-bestand. Schakel grijstinten in voor inktbesparende versies. Elke export wordt gerenderd op 300 DPI en is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden.',
+          'Schakel tussen het tabblad Kaarten + Fiches en het tabblad Afroepblad om beide uitvoeren te bekijken. Het afroepblad toont een dynamisch woordraster met uniforme lettergrootte en kolommen berekend op basis van de langste woordlengte. Download individuele kaarten als JPEG of PDF met de speciale knoppen, of batchexporteer alle gegenereerde kaarten als individuele JPEG\'s in een enkel bingo_cards.zip-bestand. Schakel grijstinten in voor inktbesparende versies. Elke export wordt gerenderd op 300 DPI en is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.',
       },
     ],
   },
@@ -79,7 +79,7 @@ const content: AppContent = {
       {
         title: 'Dubbele Vulmodi: Afbeelding of Woord voor Zowel Kaartvakjes als Ronde Fiches',
         description:
-          'Kaartvakjes en fiches hebben elk een onafhankelijke vulmodus-selectie — Afbeelding of Woord. Afbeeldingsvulling toont thematische illustraties in kaartvakjes of als ronde fiche-patronen. Woordvulling toont gelokaliseerde afbeeldingsnamen als tekst. Combineer modi voor creatieve variatie: afbeeldingskaarten met woordfiches creëren een visueel-naar-tekst koppeluitdaging, terwijl woordkaarten met afbeeldingsfiches de dynamiek omdraaien. Ronde fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening, waardoor ze nooit de kaartindeling weerspiegelen. Dit dubbele vulsysteem produceert vier verschillende bingokaart-stijlen vanuit één generator. Voor docenten op TPT is dit extra waardevol: maak woordherkenning-bingo met woordvulling voor taallessen en visuele bingo met afbeeldingsvulling voor kleuters — allemaal vanuit hetzelfde thema.',
+          'Kaartvakjes en fiches hebben elk een onafhankelijke vulmodus-selectie — Afbeelding of Woord. Afbeeldingsvulling toont thematische illustraties in kaartvakjes of als ronde fiche-patronen. Woordvulling toont gelokaliseerde afbeeldingsnamen als tekst. Combineer modi voor creatieve variatie: afbeeldingskaarten met woordfiches creëren een visueel-naar-tekst koppeluitdaging, terwijl woordkaarten met afbeeldingsfiches de dynamiek omdraaien. Ronde fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening, waardoor ze nooit de kaartindeling weerspiegelen. Dit dubbele vulsysteem produceert vier verschillende bingokaart-stijlen vanuit één generator. voor verkopers op Gumroad is dit extra waardevol: maak woordherkenning-bingo met woordvulling voor taallessen en visuele bingo met afbeeldingsvulling voor kleuters — allemaal vanuit hetzelfde thema.',
       },
       {
         title: 'Speciaal Afroepblad met Dynamisch Woordraster voor de Afroeper',
@@ -89,12 +89,12 @@ const content: AppContent = {
       {
         title: 'Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties',
         description:
-          'Blader door 104 thematische beeldcollecties over dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die samen werken in bingo-activiteiten — thematische bingokaarten behoren tot de populairste printbare producten op Etsy en TPT. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De Commerciële licentie bevat 10 kleurrijke thema\'s met alleen Engels voor woordvulling; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 talen voor gelokaliseerde woordinhoud. Voor Nederlandse verkopers is de taalgevoelige woordvulling een belangrijk verkoopargument — je kunt bingokaarten maken met Nederlandse woorden voor de Nederlandse markt, Duitse woorden voor de Duitse markt, en zo verder voor 11 talen.',
+          'Blader door 104 thematische beeldcollecties over dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die samen werken in bingo-activiteiten — thematische bingokaarten behoren tot de populairste printbare producten op Etsy en Gumroad. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De Commerciële licentie bevat 10 kleurrijke thema\'s met alleen Engels voor woordvulling; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 talen voor gelokaliseerde woordinhoud. Voor Nederlandse verkopers is de taalgevoelige woordvulling een belangrijk verkoopargument — je kunt bingokaarten maken met Nederlandse woorden voor de Nederlandse markt, Duitse woorden voor de Duitse markt, en zo verder voor 11 talen.',
       },
       {
         title: 'Printklare PDF- en JPEG-export op 300 DPI met Grijstintenmodus',
         description:
-          'Download bingokaarten en afroepbladen als hoogwaardige JPEG-afbeeldingen of printklare PDF-documenten gerenderd op 300 DPI (6× vermenigvuldigingsfactor, JPEG-kwaliteit 1,0). Vier speciale knoppen exporteren werkblad-JPEG, afroepblad-JPEG, werkblad-PDF en afroepblad-PDF afzonderlijk. Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en volledig aangepaste afmetingen. PDF-oriëntatie wordt automatisch gedetecteerd. Schakel grijstinten in voor inktbesparende versies die toner besparen. Elke export is productieklaar voor digitale downloads, gedrukte spelsets en lesmateriaal. Het vierkante formaat is ideaal voor sociale media-promotie van je bingoproducten op Instagram en Pinterest.',
+          'Download bingokaarten en afroepbladen als hoogwaardige JPEG-afbeeldingen of printklare PDF-documenten gerenderd op 300 DPI (6× vermenigvuldigingsfactor, JPEG-kwaliteit 1,0). Vier speciale knoppen exporteren werkblad-JPEG, afroepblad-JPEG, werkblad-PDF en afroepblad-PDF afzonderlijk. Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en volledig aangepaste afmetingen. PDF-oriëntatie wordt automatisch gedetecteerd. Schakel grijstinten in voor inktbesparende versies die toner besparen. Elke export is productieklaar voor digitale downloads, gedrukte spelsets en printbare producten. Het vierkante formaat is ideaal voor sociale media-promotie van je bingoproducten op Instagram en Pinterest.',
       },
       {
         title: 'Volledig Canvas-bewerkingssysteem met Teksttools, Uitlijning en Laagbeheer',
@@ -110,7 +110,7 @@ const content: AppContent = {
       {
         title: 'Thematische Bingokaart-Bundels op Etsy.nl',
         description:
-          'Maak thematische bingopakketten met de 104 beeldcollecties — dierenbingo, voedselbingo, voertuigenbingo, feestdagenbingo en tientallen meer. Elk thema biedt genoeg illustraties voor unieke kaarten in verschillende rasterformaten. Bundel 10–30 unieke bingokaarten per thema met afroepbladen inbegrepen, en verkoop voor €3–€8 per bundel. Gebruik de batchgeneratiefunctie om 10 unieke kaarten per set te maken in seconden, meng vervolgens rasterformaten binnen één bundel: 3×3 snelspelkaarten, 4×4 standaardkaarten en 5×5 uitgebreid-spelkaarten voor variatie. De ZIP-batchexport stroomlijnt de productie voor verkopers met hoge volumes. Voeg Nederlandse woordvulling toe als extra variant — Nederlandse ouders en docenten waarderen bingokaarten met Nederlandse woorden voor taalonderwijs.',
+          'Maak thematische bingopakketten met de 104 beeldcollecties — dierenbingo, voedselbingo, voertuigenbingo, feestdagenbingo en tientallen meer. Elk thema biedt genoeg illustraties voor unieke kaarten in verschillende rasterformaten. Bundel 10–30 unieke bingokaarten per thema met afroepbladen inbegrepen, en verkoop voor €3–€8 per bundel. Gebruik de batchgeneratiefunctie om 10 unieke kaarten per set te maken in seconden, meng vervolgens rasterformaten binnen één bundel: 3×3 snelspelkaarten, 4×4 standaardkaarten en 5×5 uitgebreid-spelkaarten voor variatie. De ZIP-batchexport stroomlijnt de productie voor verkopers met hoge volumes. Voeg Nederlandse woordvulling toe als extra variant — Nederlandse ouders en verkopers waarderen bingokaarten met Nederlandse woorden voor taalonderwijs.',
         platform: 'Etsy (etsy.nl)',
       },
       {
@@ -120,16 +120,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Kant-en-Klare Bingo-Activiteiten voor TPT',
+        title: 'Kant-en-Klare Bingo-Activiteiten voor Gumroad',
         description:
-          'Maak kant-en-klare bingosets met unieke spelerskaarten en afroepbladen voor de docent. Docenten die zoeken naar bingo-activiteiten op TPT waarderen producten die direct in de klas bruikbaar zijn — kaarten printen, uitdelen en beginnen met spelen. Maak lesstof-gerelateerde sets: woordenschat-bingo met woordvullingsmodus, beeldherkenning-bingo met afbeeldingsvulling, en gemengde-modus-bingo voor gedifferentieerd onderwijs. Neem 10 unieke kaarten per set op (genoeg voor kleine groepen) met een afroepblad. De woordvullingsmodus met gelokaliseerde afbeeldingsnamen maakt van bingo een woordenschatherhalingsactiviteit — ideaal voor taalonderwijs in de basisschool waar spelend leren centraal staat.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Maak kant-en-klare bingosets met unieke spelerskaarten en afroepbladen voor de verkoper. verkopers die zoeken naar bingo-activiteiten op Gumroad waarderen producten die direct online bruikbaar zijn — kaarten printen, uitdelen en beginnen met spelen. Maak lesstof-gerelateerde sets: woordenschat-bingo met woordvullingsmodus, beeldherkenning-bingo met afbeeldingsvulling, en gemengde-modus-bingo voor getrapte productpakketten. Neem 10 unieke kaarten per set op (genoeg voor kleine groepen) met een afroepblad. De woordvullingsmodus met gelokaliseerde afbeeldingsnamen maakt van bingo een woordenschatherhalingsactiviteit — ideaal voor taalonderwijs in de basisschool waar spelend leren centraal staat.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Seizoensgebonden en Feestdagen Bingo-Collecties',
         description:
-          'De 104 thematische beeldcollecties dekken elk seizoen en elke feestdag — Kerstmis, Sinterklaas, Halloween, Pasen, Valentijnsdag, Koningsdag, terug-naar-school, zomervakantie en meer. Bingo is een van nature sociaal spel dat piekt tijdens feestdagen wanneer gezinnen en klassen zoeken naar groepsactiviteiten. Breng Halloween-bingosets uit in september, Sinterklaas-collecties in oktober, Kerstmis-pakketten in november en Valentijnsdagsets in januari. Elke seizoensbundel bevat meerdere rasterformaten, zowel afbeeldings- als woordvullingsvarianten, en afroepbladen. Seizoensgebonden bingoproducten brengen hogere prijzen op tijdens hun piekperiodes — een Kerstmis-bingobundel kan €6–€10 opbrengen tegenover €3–€5 voor een standaardbundel. Sinterklaas-bingo is een unieke niche voor de Nederlandse en Belgische markt.',
-        platform: 'Etsy / Amazon KDP / TPT (seizoensgebonden)',
+          'De 104 thematische beeldcollecties dekken elk seizoen en elke feestdag — Kerstmis, Sinterklaas, Halloween, Pasen, Valentijnsdag, Koningsdag, terug-naar-school, zomervakantie en meer. Bingo is een van nature sociaal spel dat piekt tijdens feestdagen wanneer gezinnen en productlijnen zoeken naar groepsactiviteiten. Breng Halloween-bingosets uit in september, Sinterklaas-collecties in oktober, Kerstmis-pakketten in november en Valentijnsdagsets in januari. Elke seizoensbundel bevat meerdere rasterformaten, zowel afbeeldings- als woordvullingsvarianten, en afroepbladen. Seizoensgebonden bingoproducten brengen hogere prijzen op tijdens hun piekperiodes — een Kerstmis-bingobundel kan €6–€10 opbrengen tegenover €3–€5 voor een standaardbundel. Sinterklaas-bingo is een unieke niche voor de Nederlandse en Belgische markt.',
+        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
       },
       {
         title: 'Evenement-Bingokaarten voor Feesten en Speciale Gelegenheden',
@@ -194,7 +194,7 @@ const content: AppContent = {
     {
       question: 'Kan ik bingokaarten gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je bingokaarten te verkopen als digitale downloads op Etsy, als gedrukte activiteitenboeken op Amazon KDP, als lesmateriaal op TPT, of via elk ander verkoopkanaal. De configureerbare rasterformaten, batchgeneratie, ZIP-export, dubbele vulmodi, afroepbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare bingoproducten op schaal te produceren.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je bingokaarten te verkopen als digitale downloads op Etsy, als gedrukte activiteitenboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De configureerbare rasterformaten, batchgeneratie, ZIP-export, dubbele vulmodi, afroepbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare bingoproducten op schaal te produceren.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

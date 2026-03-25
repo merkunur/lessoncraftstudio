@@ -7,7 +7,7 @@ const content: AppContent = {
       'printbare rasterpuzzel maker voor Etsy verkopers',
       'tegelpuzzel werkbladen generator voor KDP uitgevers',
       'rasterpuzzel maker commerciële licentie',
-      'rasterpuzzels verkopen op Teachers Pay Teachers',
+      'rasterpuzzels verkopen op Gumroad',
     ],
     lsiKeywords: [
       'digitale tegelpuzzel printables online bedrijf',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Rasterpuzzel Werkblad Generator | Maak & Verkoop Online',
     metaDescription:
-      'Maak rasterpuzzels om te verkopen op Etsy, KDP & TPT. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad, 104 thema\'s.',
+      'Maak rasterpuzzels om te verkopen op Etsy, KDP & Gumroad. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad, 104 thema\'s.',
   },
 
   hero: {
@@ -24,7 +24,7 @@ const content: AppContent = {
     tagline:
       'Maak van elke afbeelding een rasterpuzzel — verdeel het in tegels, toon instelbare aanwijzingscellen, schud de overige tegels in een genummerd palet, en genereer automatisch een antwoordblad met genummerde cirkeloverlays in 104 thematische beeldcollecties.',
     description:
-      'Maak professionele rasterpuzzels waarbij één afbeelding wordt verdeeld in een raster van tegels en leerlingen genummerde tegels terugkoppelen naar hun juiste posities. Configureer het raster van 2×2 tot 4×4 (2–4 rijen × 2–4 kolommen) en stel 1–5 aanwijzingscellen in die zichtbaar blijven als hints — minder aanwijzingen betekent moeilijkere puzzels. De app schudt de overige tegels met Fisher-Yates randomisatie en toont ze in een genummerd palet naast of onder het raster. Leerlingen bestuderen de zichtbare aanwijzingscellen, bekijken de genummerde tegels en schrijven welk nummer in elke lege cel hoort. Het dubbele-canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad — het antwoordblad toont de volledige afbeelding met genummerde cirkels over elke cel die de correcte tegelplaatsing aangeeft, zodat je nooit handmatig antwoordbladen hoeft te maken. De Rasterpuzzel Generator is NIET taalgevoelig: de puzzeluitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor de app-interface. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu tegelpuzzel-bundels verkoopt op Etsy.nl, visuele waarnemingswerkboeken samenstelt voor Amazon KDP, of snelle puzzelactiviteiten maakt voor TPT — deze generator levert productieklare rasterpuzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele rasterpuzzels waarbij één afbeelding wordt verdeeld in een raster van tegels en gebruikers genummerde tegels terugkoppelen naar hun juiste posities. Configureer het raster van 2×2 tot 4×4 (2–4 rijen × 2–4 kolommen) en stel 1–5 aanwijzingscellen in die zichtbaar blijven als hints — minder aanwijzingen betekent moeilijkere puzzels. De app schudt de overige tegels met Fisher-Yates randomisatie en toont ze in een genummerd palet naast of onder het raster. gebruikers bestuderen de zichtbare aanwijzingscellen, bekijken de genummerde tegels en schrijven welk nummer in elke lege cel hoort. Het dubbele-canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad — het antwoordblad toont de volledige afbeelding met genummerde cirkels over elke cel die de correcte tegelplaatsing aangeeft, zodat je nooit handmatig antwoordbladen hoeft te maken. De Rasterpuzzel Generator is NIET taalgevoelig: de puzzeluitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor de app-interface. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu tegelpuzzel-bundels verkoopt op Etsy.nl, visuele waarnemingswerkboeken samenstelt voor Amazon KDP, of snelle puzzelactiviteiten maakt voor Gumroad — deze generator levert productieklare rasterpuzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -38,7 +38,7 @@ const content: AppContent = {
       {
         title: 'Configureer het raster',
         description:
-          'Open het paneel Rasteropties en stel het aantal rijen (2–4, standaard 3) en kolommen (2–4, standaard 3) in voor je puzzelraster. Stel vervolgens het aantal aanwijzingscellen in (1–5, standaard 1) — dit zijn tegels die zichtbaar blijven op het werkblad als hints voor leerlingen. Een 3×3 raster met 1 aanwijzing creëert een uitdagende puzzel met 8 tegels om te koppelen, terwijl een 2×2 raster met 3 aanwijzingen een makkelijke opwarmer maakt met slechts 1 tegel om te plaatsen. Deze instelbare moeilijkheidsgraad maakt het eenvoudig om oplopende puzzelsets te creëren — ideaal voor gedifferentieerde bundels op Etsy.nl of TPT.',
+          'Open het paneel Rasteropties en stel het aantal rijen (2–4, standaard 3) en kolommen (2–4, standaard 3) in voor je puzzelraster. Stel vervolgens het aantal aanwijzingscellen in (1–5, standaard 1) — dit zijn tegels die zichtbaar blijven op het werkblad als hints voor gebruikers. Een 3×3 raster met 1 aanwijzing creëert een uitdagende puzzel met 8 tegels om te koppelen, terwijl een 2×2 raster met 3 aanwijzingen een makkelijke opwarmer maakt met slechts 1 tegel om te plaatsen. Deze instelbare moeilijkheidsgraad maakt het eenvoudig om oplopende puzzelsets te creëren — ideaal voor gedifferentieerde bundels op Etsy.nl of Gumroad.',
       },
       {
         title: 'Selecteer een afbeelding',
@@ -53,7 +53,7 @@ const content: AppContent = {
       {
         title: 'Genereer het antwoordblad en download',
         description:
-          'Schakel naar het tabblad Antwoordblad om het automatisch gegenereerde antwoordblad te zien. Het toont de volledige, ongedeelde afbeelding met genummerde cirkels over elke rastercel — gele achtergrondcirkels (#ffffe0) met zwarte omlijning die het juiste paletnummer per positie tonen, in het Fredoka-lettertype. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF op 300 DPI. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden. Het automatische antwoordblad met genummerde cirkeloverlays bespaart je enorm veel tijd — bij bundels van 20+ puzzels scheelt dit uren handmatig antwoordbladen maken.',
+          'Schakel naar het tabblad Antwoordblad om het automatisch gegenereerde antwoordblad te zien. Het toont de volledige, ongedeelde afbeelding met genummerde cirkels over elke rastercel — gele achtergrondcirkels (#ffffe0) met zwarte omlijning die het juiste paletnummer per positie tonen, in het Fredoka-lettertype. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF op 300 DPI. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden. Het automatische antwoordblad met genummerde cirkeloverlays bespaart je enorm veel tijd — bij bundels van 20+ puzzels scheelt dit uren handmatig antwoordbladen maken.',
       },
     ],
   },
@@ -64,22 +64,22 @@ const content: AppContent = {
       {
         title: 'Raster van Één Afbeelding met Instelbare Rijen en Kolommen (2–4 × 2–4)',
         description:
-          'Elke puzzel begint met één afbeelding die wordt verdeeld in een raster van tegels. Stel 2–4 rijen en 2–4 kolommen onafhankelijk in, waardoor rasters van 2×2 (4 tegels) tot 4×4 (16 tegels) ontstaan. Het standaard 3×3 raster produceert 9 tegels — een gebalanceerd moeilijkheidsniveau voor de meeste leeftijden. Kleinere rasters werken goed voor inleidende puzzels en jongere leerlingen in groep 1–2, terwijl grotere rasters oudere leerlingen in groep 5–8 uitdagen en premium puzzelproducten opleveren. In tegenstelling tot koppelwerkbladen met meerdere afbeeldingen test de rasterpuzzel ruimtelijk redeneren en visuele analyse van één complete afbeelding. Je kunt rijen en kolommen op verschillende waarden instellen — bijvoorbeeld 2 rijen × 4 kolommen creëert een brede rechthoekige puzzel, ideaal voor panoramische afbeeldingen.',
+          'Elke puzzel begint met één afbeelding die wordt verdeeld in een raster van tegels. Stel 2–4 rijen en 2–4 kolommen onafhankelijk in, waardoor rasters van 2×2 (4 tegels) tot 4×4 (16 tegels) ontstaan. Het standaard 3×3 raster produceert 9 tegels — een gebalanceerd moeilijkheidsniveau voor de meeste leeftijden. Kleinere rasters werken goed voor inleidende puzzels en jongere gebruikers in groep 1–2, terwijl grotere rasters oudere gebruikers in groep 5–8 uitdagen en premium puzzelproducten opleveren. In tegenstelling tot koppelwerkbladen met meerdere afbeeldingen test de rasterpuzzel ruimtelijk redeneren en visuele analyse van één complete afbeelding. Je kunt rijen en kolommen op verschillende waarden instellen — bijvoorbeeld 2 rijen × 4 kolommen creëert een brede rechthoekige puzzel, ideaal voor panoramische afbeeldingen.',
       },
       {
         title: 'Instelbaar Aantal Aanwijzingscellen voor Schaalbare Moeilijkheidsgraad (1–5 Zichtbare Cellen)',
         description:
-          'Beheer de puzzelmoeilijkheid door 1–5 aanwijzingscellen in te stellen die zichtbaar blijven op het werkblad als hints. Bij een 3×3 raster met 1 aanwijzing moeten leerlingen 8 geschude tegels koppelen — een echte uitdaging. Met 5 aanwijzingen op hetzelfde raster hoeven slechts 4 tegels gekoppeld te worden — veel toegankelijker. Deze enkele schuifregelaar transformeert dezelfde afbeelding in puzzels van makkelijk tot gevorderd, waardoor je gedifferentieerde puzzelsets kunt maken vanuit één afbeelding en één rasterconfiguratie. De standaardwaarde is 1 aanwijzingscel voor maximale uitdaging. Voor verkopers betekent dit: maak drie moeilijkheidsgraden (2 aanwijzingen = makkelijk, 1 aanwijzing = gemiddeld, 4×4 met 1 aanwijzing = moeilijk) en verkoop ze als een gedifferentieerd bundelpakket op Etsy.nl voor €5–€8.',
+          'Beheer de puzzelmoeilijkheid door 1–5 aanwijzingscellen in te stellen die zichtbaar blijven op het werkblad als hints. Bij een 3×3 raster met 1 aanwijzing moeten gebruikers 8 geschude tegels koppelen — een echte uitdaging. Met 5 aanwijzingen op hetzelfde raster hoeven slechts 4 tegels gekoppeld te worden — veel toegankelijker. Deze enkele schuifregelaar transformeert dezelfde afbeelding in puzzels van makkelijk tot gevorderd, waardoor je gedifferentieerde puzzelsets kunt maken vanuit één afbeelding en één rasterconfiguratie. De standaardwaarde is 1 aanwijzingscel voor maximale uitdaging. Voor verkopers betekent dit: maak drie moeilijkheidsgraden (2 aanwijzingen = makkelijk, 1 aanwijzing = gemiddeld, 4×4 met 1 aanwijzing = moeilijk) en verkoop ze als een gedifferentieerd bundelpakket op Etsy.nl voor €5–€8.',
       },
       {
         title: 'Geschud Genummerd Tegelpalet met Fisher-Yates Randomisatie',
         description:
-          'Verborgen tegels worden geschud met het Fisher-Yates algoritme en weergegeven in een genummerd palet naast het raster. Elke tegel krijgt een uniek nummer dat leerlingen als referentie gebruiken bij het invullen. De randomisatie zorgt ervoor dat elke gegenereerde puzzel een andere tegelvolgorde heeft, zelfs bij dezelfde afbeelding en rasterinstellingen. Dit betekent dat je meerdere unieke puzzelwerkbladen kunt produceren vanuit één afbeelding door simpelweg opnieuw te genereren — waardevol voor het maken van variatiepakketten zonder verschillende bronafbeeldingen nodig te hebben. Voor Etsy-verkopers is dit een enorme productiviteitsboost: één afbeelding levert 10+ unieke puzzelvarianten op, wat bundels van 20–30 puzzels haalbaar maakt met slechts een handvol bronafbeeldingen.',
+          'Verborgen tegels worden geschud met het Fisher-Yates algoritme en weergegeven in een genummerd palet naast het raster. Elke tegel krijgt een uniek nummer dat gebruikers als referentie gebruiken bij het invullen. De randomisatie zorgt ervoor dat elke gegenereerde puzzel een andere tegelvolgorde heeft, zelfs bij dezelfde afbeelding en rasterinstellingen. Dit betekent dat je meerdere unieke puzzelwerkbladen kunt produceren vanuit één afbeelding door simpelweg opnieuw te genereren — waardevol voor het maken van variatiepakketten zonder verschillende bronafbeeldingen nodig te hebben. Voor Etsy-verkopers is dit een enorme productiviteitsboost: één afbeelding levert 10+ unieke puzzelvarianten op, wat bundels van 20–30 puzzels haalbaar maakt met slechts een handvol bronafbeeldingen.',
       },
       {
         title: 'Automatisch Gegenereerd Antwoordblad met Genummerde Cirkeloverlays op Volledige Afbeelding',
         description:
-          'Elke rasterpuzzel genereert automatisch een bijbehorend antwoordblad op een apart canvastabblad. Het antwoordblad toont de volledige, ongedeelde afbeelding met genummerde cirkels over elke rastercel — gele achtergrond (#ffffe0) cirkels met zwarte omlijning en zwarte nummertekst in het Fredoka-lettertype. Elk nummer komt overeen met de geschude paletvolgorde van het werkblad, zodat leerlingen en docenten precies kunnen zien welke tegel waar hoort. Geen handmatig antwoordblad maken, geen apart bestand — het antwoordblad blijft altijd perfect gesynchroniseerd met het werkblad. Download het antwoordblad als JPEG of PDF naast het leerlingwerkblad. Bij bundels van 20 puzzels bespaart deze functie letterlijk uren werk — je hoeft nooit meer handmatig nummers in te vullen op antwoordbladen.',
+          'Elke rasterpuzzel genereert automatisch een bijbehorend antwoordblad op een apart canvastabblad. Het antwoordblad toont de volledige, ongedeelde afbeelding met genummerde cirkels over elke rastercel — gele achtergrond (#ffffe0) cirkels met zwarte omlijning en zwarte nummertekst in het Fredoka-lettertype. Elk nummer komt overeen met de geschude paletvolgorde van het werkblad, zodat gebruikers en verkopers precies kunnen zien welke tegel waar hoort. Geen handmatig antwoordblad maken, geen apart bestand — het antwoordblad blijft altijd perfect gesynchroniseerd met het werkblad. Download het antwoordblad als JPEG of PDF naast het gebruikerwerkblad. Bij bundels van 20 puzzels bespaart deze functie letterlijk uren werk — je hoeft nooit meer handmatig nummers in te vullen op antwoordbladen.',
       },
       {
         title: 'Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties',
@@ -94,7 +94,7 @@ const content: AppContent = {
       {
         title: 'Printklare PDF- en JPEG-export op 300 DPI met Grijstintenmodus',
         description:
-          'Download rasterpuzzels en antwoordbladen als hoogwaardige JPEG-afbeeldingen of printklare PDF-documenten gerenderd op 300 DPI (6× vermenigvuldigingsfactor, JPEG-kwaliteit 1,0). Vier speciale downloadknoppen exporteren werkblad- en antwoordbladbestanden afzonderlijk. Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en volledig aangepaste afmetingen. PDF-oriëntatie wordt automatisch gedetecteerd. Schakel grijstinten in voor inktbesparende versies die toner besparen terwijl de rasterstructuur behouden blijft. Elke export is productieklaar voor digitale downloads, gedrukte werkboeken en lesmateriaal. De vier afzonderlijke bestanden — werkblad JPEG, werkblad PDF, antwoordblad JPEG, antwoordblad PDF — zijn direct klaar voor upload naar Etsy, Amazon KDP of TPT.',
+          'Download rasterpuzzels en antwoordbladen als hoogwaardige JPEG-afbeeldingen of printklare PDF-documenten gerenderd op 300 DPI (6× vermenigvuldigingsfactor, JPEG-kwaliteit 1,0). Vier speciale downloadknoppen exporteren werkblad- en antwoordbladbestanden afzonderlijk. Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en volledig aangepaste afmetingen. PDF-oriëntatie wordt automatisch gedetecteerd. Schakel grijstinten in voor inktbesparende versies die toner besparen terwijl de rasterstructuur behouden blijft. Elke export is productieklaar voor digitale downloads, gedrukte werkboeken en printbare producten. De vier afzonderlijke bestanden — werkblad JPEG, werkblad PDF, antwoordblad JPEG, antwoordblad PDF — zijn direct klaar voor upload naar Etsy, Amazon KDP of Gumroad.',
       },
       {
         title: 'Volledig Canvas-bewerkingssysteem met Teksttools, Uitlijning en Laagbeheer',
@@ -120,21 +120,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Lespuzzel-activiteiten voor TPT',
+        title: 'Lespuzzel-activiteiten voor Gumroad',
         description:
-          'Maak kant-en-klare rasterpuzzel-activiteiten voor snelle afmaaktaken, ochtendwerk of verrijkingshoeken in de klas. Docenten die op TPT zoeken naar visuele waarnemingsactiviteiten waarderen puzzels die printklaar worden geleverd met antwoordbladen. Maak lesstof-gerelateerde sets: dierenpuzzels voor biologielessen, voertuigpuzzels voor techniekonderwijs, voedingspuzzels voor gezondheidslessen. De instelbare moeilijkheidsgraad laat je differentiëren binnen één product — voeg makkelijke, gemiddelde en moeilijke versies van dezelfde thematische puzzels toe zodat docenten op leerlingniveau kunnen toewijzen. Rasterpuzzels oefenen ruimtelijk redeneren en visuele waarneming — vaardigheden die in elk curriculum voorkomen.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Maak kant-en-klare rasterpuzzel-activiteiten voor snelle afmaaktaken, oefenactiviteit of verrijkingshoeken online. verkopers die op Gumroad zoeken naar visuele waarnemingsactiviteiten waarderen puzzels die printklaar worden geleverd met antwoordbladen. Maak lesstof-gerelateerde sets: dierenpuzzels voor biologielessen, voertuigpuzzels voor techniekonderwijs, voedingspuzzels voor gezondheidslessen. De instelbare moeilijkheidsgraad laat je differentiëren binnen één product — voeg makkelijke, gemiddelde en moeilijke versies van dezelfde thematische puzzels toe zodat verkopers op gebruikerniveau kunnen toewijzen. Rasterpuzzels oefenen ruimtelijk redeneren en visuele waarneming — vaardigheden die in elk productcatalogus voorkomen.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Seizoensgebonden Rasterpuzzelcollecties',
         description:
           'De 104 thematische beeldcollecties dekken elk seizoen en elke feestdag — Kerstmis, Halloween, Pasen, Valentijnsdag, Koningsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden rasterpuzzelcollecties die aansluiten bij piekverkoopperiodes. Breng Halloween-puzzelbundels uit in september, Kerstmiscollecties in oktober, Sinterklaas-puzzels in november, en Valentijnsdagpakketten in januari. Voeg meerdere rastergroottes en moeilijkheidsgraden toe aan elke seizoensbundel voor maximale waarde. Seizoensproducten brengen hogere prijzen op tijdens hun piekperiodes en creëren natuurlijke redenen voor herhaalaankopen — klanten die je Halloween-bundel kochten, komen terug voor Kerstmis.',
-        platform: 'Etsy / Amazon KDP / TPT (seizoensgebonden)',
+        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
       },
       {
         title: 'Gepersonaliseerde Foto-rasterpuzzels als Maatwerkproducten',
         description:
-          'Gebruik de functie Eigen Afbeeldingen Uploaden om rasterpuzzels te maken van elke foto of illustratie. Familiefoto-puzzels zijn unieke gepersonaliseerde cadeaus. Docenten kunnen klassenfoto\'s uploaden voor eindejaar-activiteiten. Huisdierfoto-puzzels, vakantiefoto-puzzels en teamfoto-puzzels creëren allemaal unieke producten. Bied aangepaste rasterpuzzelcreatie aan als premium Etsy-service waarbij klanten hun foto\'s insturen en jij gedrukte puzzelwerkbladen met antwoordbladen levert — een product met hoge marge en minimale productietijd. De instelbare rastergrootte en aanwijzingscellen laten je het moeilijkheidsniveau afstemmen op de wensen van de klant. Verkoop op Etsy.nl voor €8–€15 per gepersonaliseerde puzzelset.',
+          'Gebruik de functie Eigen Afbeeldingen Uploaden om rasterpuzzels te maken van elke foto of illustratie. Familiefoto-puzzels zijn unieke gepersonaliseerde cadeaus. verkopers kunnen productlijnenfoto\'s uploaden voor eindejaar-activiteiten. Huisdierfoto-puzzels, vakantiefoto-puzzels en teamfoto-puzzels creëren allemaal unieke producten. Bied aangepaste rasterpuzzelcreatie aan als premium Etsy-service waarbij klanten hun foto\'s insturen en jij gedrukte puzzelwerkbladen met antwoordbladen levert — een product met hoge marge en minimale productietijd. De instelbare rastergrootte en aanwijzingscellen laten je het moeilijkheidsniveau afstemmen op de wensen van de klant. Verkoop op Etsy.nl voor €8–€15 per gepersonaliseerde puzzelset.',
         platform: 'Etsy (gepersonaliseerde producten)',
       },
     ],
@@ -144,17 +144,17 @@ const content: AppContent = {
     {
       question: 'Welke rastergroottes zijn beschikbaar voor rasterpuzzels?',
       answer:
-        'De generator ondersteunt 2–4 rijen en 2–4 kolommen, onafhankelijk instelbaar. Dit creëert rasters van 2×2 (4 tegels) tot 4×4 (16 tegels). De standaard is 3×3 (9 tegels). Kleinere rasters zijn makkelijker en werken goed voor jongere leerlingen in groep 1–3; grotere rasters verhogen de moeilijkheid en visuele complexiteit voor leerlingen in groep 5–8. Je kunt rijen en kolommen op verschillende waarden instellen — bijvoorbeeld 2 rijen × 4 kolommen creëert een brede rechthoekige puzzel.',
+        'De generator ondersteunt 2–4 rijen en 2–4 kolommen, onafhankelijk instelbaar. Dit creëert rasters van 2×2 (4 tegels) tot 4×4 (16 tegels). De standaard is 3×3 (9 tegels). Kleinere rasters zijn makkelijker en werken goed voor jongere gebruikers in groep 1–3; grotere rasters verhogen de moeilijkheid en visuele complexiteit voor gebruikers in groep 5–8. Je kunt rijen en kolommen op verschillende waarden instellen — bijvoorbeeld 2 rijen × 4 kolommen creëert een brede rechthoekige puzzel.',
     },
     {
       question: 'Hoe bepalen aanwijzingscellen de moeilijkheidsgraad?',
       answer:
-        'Aanwijzingscellen zijn rasterposities waar de afbeeldingstegel zichtbaar blijft als hint. Stel 1–5 aanwijzingscellen in met de schuifregelaar in het paneel Rasteropties (standaard is 1). Meer aanwijzingen maken de puzzel makkelijker omdat leerlingen meer referentiepunten hebben. Bij een 3×3 raster met 1 aanwijzing moeten leerlingen 8 tegels koppelen — behoorlijk uitdagend. Met 5 aanwijzingen hoeven slechts 4 tegels gekoppeld te worden — veel toegankelijker. Deze enkele schuifregelaar laat je gedifferentieerde moeilijkheidssets maken vanuit dezelfde afbeelding.',
+        'Aanwijzingscellen zijn rasterposities waar de afbeeldingstegel zichtbaar blijft als hint. Stel 1–5 aanwijzingscellen in met de schuifregelaar in het paneel Rasteropties (standaard is 1). Meer aanwijzingen maken de puzzel makkelijker omdat gebruikers meer referentiepunten hebben. Bij een 3×3 raster met 1 aanwijzing moeten gebruikers 8 tegels koppelen — behoorlijk uitdagend. Met 5 aanwijzingen hoeven slechts 4 tegels gekoppeld te worden — veel toegankelijker. Deze enkele schuifregelaar laat je gedifferentieerde moeilijkheidssets maken vanuit dezelfde afbeelding.',
     },
     {
-      question: 'Hoe werkt de rasterpuzzel voor leerlingen?',
+      question: 'Hoe werkt de rasterpuzzel voor gebruikers?',
       answer:
-        'Het werkblad toont een raster waar sommige cellen de werkelijke afbeeldingstegel tonen (aanwijzingscellen) en de overige cellen "?" plaatshouders bevatten. Onder of naast het raster wordt een genummerd palet getoond met alle verborgen tegels in geschude volgorde. Leerlingen bestuderen de aanwijzingscellen, bekijken de genummerde tegels en bepalen welk nummer in elke lege rasterpositie hoort. De opdracht vereist ruimtelijk redeneren — het koppelen van tegelinhoud aan de juiste locatie in de totale afbeelding.',
+        'Het werkblad toont een raster waar sommige cellen de werkelijke afbeeldingstegel tonen (aanwijzingscellen) en de overige cellen "?" plaatshouders bevatten. Onder of naast het raster wordt een genummerd palet getoond met alle verborgen tegels in geschude volgorde. gebruikers bestuderen de aanwijzingscellen, bekijken de genummerde tegels en bepalen welk nummer in elke lege rasterpositie hoort. De opdracht vereist ruimtelijk redeneren — het koppelen van tegelinhoud aan de juiste locatie in de totale afbeelding.',
     },
     {
       question: 'Hoe werkt het automatisch gegenereerde antwoordblad?',
@@ -194,7 +194,7 @@ const content: AppContent = {
     {
       question: 'Kan ik rasterpuzzels gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je rasterpuzzels te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als lesmateriaal op TPT, of via elk ander verkoopkanaal. De instelbare rastergroottes, aanpasbare aanwijzingscellen, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare rasterpuzzelproducten te produceren.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je rasterpuzzels te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De instelbare rastergroottes, aanpasbare aanwijzingscellen, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare rasterpuzzelproducten te produceren.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -247,7 +247,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'kleuterschool-printable-ideen',
-      anchorText: 'Kleuterschool printable ideeën voor jonge leerlingen',
+      anchorText: 'Kleuterschool printable ideeën voor jonge gebruikers',
     },
     {
       pageType: 'start',

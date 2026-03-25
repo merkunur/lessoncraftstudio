@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare groottevergelijking werkbladen voor Etsy-verkopers',
       'groot klein werkbladen generator voor Amazon KDP-uitgevers',
-      'groottediscriminatie werkbladen verkopen op Teachers Pay Teachers',
+      'groottediscriminatie werkbladen verkopen op Gumroad',
       'groot en klein werkbladen commerciële licentie',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercieel gebruik groot klein werkbladen generator',
     ],
     titleTag: 'Groot & Klein Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak groottevergelijking werkbladen om te verkopen op Etsy, KDP en TPT. Vijf vraagtypen, identieke en verschillende modi, 104 thema\'s.',
+    metaDescription: 'Maak groottevergelijking werkbladen om te verkopen op Etsy, KDP en Gumroad. Vijf vraagtypen, identieke en verschillende modi, 104 thema\'s.',
   },
 
   hero: {
     title: 'Groot & Klein Werkbladen Generator voor Groottevergelijking Oefeningen',
     tagline: 'Vijf vraagtypen — omcirkel de grote, omcirkel de kleine, omcirkel de middelste, nummeren oplopend, nummeren aflopend — met identieke en verschillende afbeeldingsmodi voor visuele groottediscriminatie.',
     description:
-      'Ontwerp professionele groottevergelijking werkbladen waarbij leerlingen naar thematische afbeeldingen op verschillende formaten kijken en bepalen welke groter, kleiner of middelgroot is, of ze op volgorde nummeren van klein naar groot of van groot naar klein. Vijf verschillende vraagtypen dekken elke groottediscriminatie vaardigheid: Omcirkel de Grote, Omcirkel de Kleine, Omcirkel de Middelste, Nummeren 1–2–3 Klein naar Groot, en Nummeren 1–2–3 Groot naar Klein. Twee afbeeldingsmodi creëren fundamenteel verschillende oefeningen: Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten voor zuivere grootteperceptie, terwijl Verschillende Afbeeldingen onderscheidende objecten toont voor relatief grootteredeneren. Configureer 1–10 oefeningen per pagina met 2 of 3 afbeeldingen per oefening — twee afbeeldingen voor eenvoudigere vergelijkingen, drie voor moeilijkere oefeningen met een middelste optie. Elk werkblad is volledig visueel met nul tekst op de uitvoer, waardoor ze universeel bruikbaar zijn ongeacht taal of leesniveau. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema\'s. Een automatisch gegenereerd antwoordblad markeert de juiste antwoorden voor directe verificatie. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu groottevergelijking bundels verkoopt op Etsy.nl, vroeg-leren werkboeken samenstelt voor Amazon KDP, of gedifferentieerde visuele oefencentra maakt voor TPT, de Groot & Klein Werkbladen Generator levert professionele resultaten in enkele minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Ontwerp professionele groottevergelijking werkbladen waarbij gebruikers naar thematische afbeeldingen op verschillende formaten kijken en bepalen welke groter, kleiner of middelgroot is, of ze op volgorde nummeren van klein naar groot of van groot naar klein. Vijf verschillende vraagtypen dekken elke groottediscriminatie vaardigheid: Omcirkel de Grote, Omcirkel de Kleine, Omcirkel de Middelste, Nummeren 1–2–3 Klein naar Groot, en Nummeren 1–2–3 Groot naar Klein. Twee afbeeldingsmodi creëren fundamenteel verschillende oefeningen: Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten voor zuivere grootteperceptie, terwijl Verschillende Afbeeldingen onderscheidende objecten toont voor relatief grootteredeneren. Configureer 1–10 oefeningen per pagina met 2 of 3 afbeeldingen per oefening — twee afbeeldingen voor eenvoudigere vergelijkingen, drie voor moeilijkere oefeningen met een middelste optie. Elk werkblad is volledig visueel met nul tekst op de uitvoer, waardoor ze universeel bruikbaar zijn ongeacht taal of leesniveau. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema\'s. Een automatisch gegenereerd antwoordblad markeert de juiste antwoorden voor directe verificatie. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu groottevergelijking bundels verkoopt op Etsy.nl, vroeg-leren werkboeken samenstelt voor Amazon KDP, of gedifferentieerde visuele oefencentra maakt voor Gumroad, de Groot & Klein Werkbladen Generator levert professionele resultaten in enkele minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Kies het vraagtype',
         description:
-          'Selecteer een van de vijf vraagtypen in het paneel Inhoud. Omcirkel de Grote vraagt leerlingen om de grootste afbeelding te herkennen. Omcirkel de Kleine richt zich op de kleinste afbeelding. Omcirkel de Middelste daagt leerlingen uit om de middelgrote afbeelding te vinden (vereist 3 afbeeldingen per oefening). Nummeren 1–2–3 Klein naar Groot vraagt leerlingen om afbeeldingen te rangschikken van klein naar groot. Nummeren 1–2–3 Groot naar Klein keert de volgorde om van groot naar klein. Elk vraagtype richt zich op een andere groottediscriminatie vaardigheid — identificatie versus ordenen.',
+          'Selecteer een van de vijf vraagtypen in het paneel Inhoud. Omcirkel de Grote vraagt gebruikers om de grootste afbeelding te herkennen. Omcirkel de Kleine richt zich op de kleinste afbeelding. Omcirkel de Middelste daagt gebruikers uit om de middelgrote afbeelding te vinden (vereist 3 afbeeldingen per oefening). Nummeren 1–2–3 Klein naar Groot vraagt gebruikers om afbeeldingen te rangschikken van klein naar groot. Nummeren 1–2–3 Groot naar Klein keert de volgorde om van groot naar klein. Elk vraagtype richt zich op een andere groottediscriminatie vaardigheid — identificatie versus ordenen.',
       },
       {
         title: 'Configureer het aantal oefeningen en afbeeldingsinstellingen',
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Selecteer afbeeldingen en voeg decoratieve tekst toe',
         description:
-          'Verken 104 thematische afbeeldingencollecties met meer dan 3.100 illustraties — dieren, voedsel, voertuigen, natuur en tientallen meer — of upload je eigen aangepaste afbeeldingen. Elk thema biedt een gecoördineerde set afbeeldingen die visueel goed samenwerken in groottevergelijking oefeningen. Gebruik het paneel Tekstgereedschappen om een werkbladtitel, naam- en datumvelden van leerlingen, of instructies toe te voegen met lettertypen waaronder Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. Sleep, vergroot, verklein en herpositioneer elk element op het volledige Fabric.js-canvas.',
+          'Verken 104 thematische afbeeldingencollecties met meer dan 3.100 illustraties — dieren, voedsel, voertuigen, natuur en tientallen meer — of upload je eigen aangepaste afbeeldingen. Elk thema biedt een gecoördineerde set afbeeldingen die visueel goed samenwerken in groottevergelijking oefeningen. Gebruik het paneel Tekstgereedschappen om een werkbladtitel, naam- en datumvelden van gebruikers, of instructies toe te voegen met lettertypen waaronder Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. Sleep, vergroot, verklein en herpositioneer elk element op het volledige Fabric.js-canvas.',
       },
       {
         title: 'Genereer het antwoordblad en download',
         description:
-          'Klik op Antwoordblad Genereren om een opgeloste versie te maken waarin de juiste antwoorden gemarkeerd en omcirkeld zijn voor directe visuele verificatie. Schakel grijstintenexport in voor inktvriendelijke versies die ideaal zijn voor het printen in de klas. Open vervolgens het downloadmenu en exporteer zowel het werkblad als het antwoordblad als JPEG met hoge resolutie of als printklare PDF op 300 DPI. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden.',
+          'Klik op Antwoordblad Genereren om een opgeloste versie te maken waarin de juiste antwoorden gemarkeerd en omcirkeld zijn voor directe visuele verificatie. Schakel grijstintenexport in voor inktvriendelijke versies die ideaal zijn voor het printen online. Open vervolgens het downloadmenu en exporteer zowel het werkblad als het antwoordblad als JPEG met hoge resolutie of als printklare PDF op 300 DPI. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.',
       },
     ],
   },
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Vijf groottevergelijking vraagtypen',
         description:
-          'Vijf verschillende vraagtypen dekken elke groottediscriminatie vaardigheid. Omcirkel de Grote en Omcirkel de Kleine richten zich op enkelvoudige herkenning — leerlingen vinden de grootste of kleinste afbeelding. Omcirkel de Middelste voegt complexiteit toe door leerlingen te vragen de middelgrote afbeelding te identificeren, waarbij ze beide uitersten overslaan. Nummeren 1–2–3 Klein naar Groot en Nummeren 1–2–3 Groot naar Klein verschuiven van identificatie naar ordenen, waarbij leerlingen alle afbeeldingen op grootte moeten rangschikken. Dit scala aan vraagtypen creëert een natuurlijke moeilijkheidsprogressie van eenvoudige identificatie tot meerstaps ordening, waardoor verkopers een ingebouwde differentiatielaag krijgen voor werkbladbundels op verschillende niveaus.',
+          'Vijf verschillende vraagtypen dekken elke groottediscriminatie vaardigheid. Omcirkel de Grote en Omcirkel de Kleine richten zich op enkelvoudige herkenning — gebruikers vinden de grootste of kleinste afbeelding. Omcirkel de Middelste voegt complexiteit toe door gebruikers te vragen de middelgrote afbeelding te identificeren, waarbij ze beide uitersten overslaan. Nummeren 1–2–3 Klein naar Groot en Nummeren 1–2–3 Groot naar Klein verschuiven van identificatie naar ordenen, waarbij gebruikers alle afbeeldingen op grootte moeten rangschikken. Dit scala aan vraagtypen creëert een natuurlijke moeilijkheidsprogressie van eenvoudige identificatie tot meerstaps ordening, waardoor verkopers een ingebouwde getrapte productpakkettenlaag krijgen voor werkbladbundels op verschillende niveaus.',
       },
       {
         title: 'Identieke vs. verschillende afbeeldingsvergelijkingsmodi',
         description:
-          'Twee afbeeldingsmodi creëren fundamenteel verschillende oefeningentypen vanuit dezelfde tool. De modus Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten, waardoor zuivere grootteperceptie wordt geïsoleerd — leerlingen vergelijken schaal zonder verwarrende variabelen. De modus Verschillende Afbeeldingen toont onderscheidende objecten op verschillende formaten, wat relatief grootteredeneren vereist waarbij leerlingen ongelijke items moeten vergelijken. De identieke modus is ideaal voor jongere leerlingen die basisgroottebesef ontwikkelen, terwijl de verschillende modus oudere leerlingen uitdaagt met meer abstracte vergelijkingsvaardigheden. Wisselen tussen modi verdubbelt je productaanbod zonder andere instellingen te wijzigen.',
+          'Twee afbeeldingsmodi creëren fundamenteel verschillende oefeningentypen vanuit dezelfde tool. De modus Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten, waardoor zuivere grootteperceptie wordt geïsoleerd — gebruikers vergelijken schaal zonder verwarrende variabelen. De modus Verschillende Afbeeldingen toont onderscheidende objecten op verschillende formaten, wat relatief grootteredeneren vereist waarbij gebruikers ongelijke items moeten vergelijken. De identieke modus is ideaal voor jongere gebruikers die basisgroottebesef ontwikkelen, terwijl de verschillende modus oudere gebruikers uitdaagt met meer abstracte vergelijkingsvaardigheden. Wisselen tussen modi verdubbelt je productaanbod zonder andere instellingen te wijzigen.',
       },
       {
         title: 'Instelbaar aantal oefeningen en afbeeldingen per oefening',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Volledig visuele werkbladen zonder tekst op de uitvoer',
         description:
-          'Elk werkblad bevat uitsluitend afbeeldingen en visuele indicatoren — er verschijnt geen tekst op de gegenereerde uitvoer. Dit maakt Groot & Klein werkbladen universeel bruikbaar ongeacht taal, leesniveau of geletterdheidsniveau. Preliteraire leerlingen, anderstalige leerlingen en leerlingen in het speciaal onderwijs kunnen de oefeningen allemaal maken zonder een woord te lezen. Voor verkopers betekent nul-tekst-uitvoer dat hetzelfde werkblad wereldwijd verkoopt zonder vertaling — één productvermelding bedient elke markt. Dit is een aanzienlijk concurrentievoordeel ten opzichte van tekstzware werkbladgeneratoren.',
+          'Elk werkblad bevat uitsluitend afbeeldingen en visuele indicatoren — er verschijnt geen tekst op de gegenereerde uitvoer. Dit maakt Groot & Klein werkbladen universeel bruikbaar ongeacht taal, leesniveau of geletterdheidsniveau. Preliteraire gebruikers, anderstalige gebruikers en gebruikers in het speciale producten kunnen de oefeningen allemaal maken zonder een woord te lezen. Voor verkopers betekent nul-tekst-uitvoer dat hetzelfde werkblad wereldwijd verkoopt zonder vertaling — één productvermelding bedient elke markt. Dit is een aanzienlijk concurrentievoordeel ten opzichte van tekstzware werkbladgeneratoren.',
       },
       {
         title: 'Afbeeldingenbibliotheek met 104 thematische collecties',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Automatisch gegenereerd antwoordblad met gemarkeerde antwoorden',
         description:
-          'Het automatisch gegenereerde antwoordblad markeert en omcirkelt de juiste antwoorden voor elke oefening op het werkblad. Bij cirkel-vraagtypen wordt de juiste afbeelding visueel gemarkeerd. Bij nummeringsvragen wordt de juiste volgorde weergegeven. Het antwoordblad wordt als apart bestand gedownload naast het werkblad, waardoor kopers een compleet productpakket ontvangen. Het meeleveren van antwoordbladen verhoogt de waargenomen waarde en rechtvaardigt hogere prijzen op Etsy en TPT — kopers verwachten geverifieerde oplossingen bij elk werkbladproduct.',
+          'Het automatisch gegenereerde antwoordblad markeert en omcirkelt de juiste antwoorden voor elke oefening op het werkblad. Bij cirkel-vraagtypen wordt de juiste afbeelding visueel gemarkeerd. Bij nummeringsvragen wordt de juiste volgorde weergegeven. Het antwoordblad wordt als apart bestand gedownload naast het werkblad, waardoor kopers een compleet productpakket ontvangen. Het meeleveren van antwoordbladen verhoogt de waargenomen waarde en rechtvaardigt hogere prijzen op Etsy en Gumroad — kopers verwachten geverifieerde oplossingen bij elk werkbladproduct.',
       },
       {
         title: 'Printklare PDF- en JPEG-export op 300 DPI',
         description:
-          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten gerenderd op 300 DPI. Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en aangepaste formaten worden allemaal ondersteund. Schakel grijstintenexport in voor inktvriendelijke versies die ideaal zijn voor het printen in de klas of voor zwart-wit werkboeken. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden — geen nabewerking nodig.',
+          'Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten gerenderd op 300 DPI. Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en aangepaste formaten worden allemaal ondersteund. Schakel grijstintenexport in voor inktvriendelijke versies die ideaal zijn voor het printen online of voor zwart-wit werkboeken. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden — geen nabewerking nodig.',
       },
       {
         title: 'Volledig canvas-bewerking met tekst- en decoratiegereedschappen',
@@ -118,21 +118,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde visuele oefencentra voor TPT',
+        title: 'Gedifferentieerde visuele oefencentra voor Gumroad',
         description:
-          'Bouw gedifferentieerde groottevergelijking oefensets met vraagtype als differentiatielaag: Niveau 1 (Omcirkel de Grote, 2 afbeeldingen, identieke modus), Niveau 2 (Omcirkel de Kleine, 2 afbeeldingen, verschillende modus), Niveau 3 (Omcirkel de Middelste, 3 afbeeldingen), en Niveau 4 (Nummeren 1–2–3 ordenen). Elk niveau richt zich op een andere cognitieve vaardigheid — van eenvoudige identificatie tot meerstaps ordening. Verpak elk niveau met thematische oefeningen en antwoordbladen. Het visuele formaat zonder tekst werkt in elk klaslokaal ongeacht de taalachtergrond van leerlingen, waardoor deze materialen waardevol zijn voor inclusieve en meertalige settings.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw gedifferentieerde groottevergelijking oefensets met vraagtype als getrapte productpakkettenlaag: Niveau 1 (Omcirkel de Grote, 2 afbeeldingen, identieke modus), Niveau 2 (Omcirkel de Kleine, 2 afbeeldingen, verschillende modus), Niveau 3 (Omcirkel de Middelste, 3 afbeeldingen), en Niveau 4 (Nummeren 1–2–3 ordenen). Elk niveau richt zich op een andere cognitieve vaardigheid — van eenvoudige identificatie tot meerstaps ordening. Verpak elk niveau met thematische oefeningen en antwoordbladen. Het visuele formaat zonder tekst werkt in elk winkel ongeacht de taalachtergrond van gebruikers, waardoor deze materialen waardevol zijn voor inclusieve en meertalige settings.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Meertalige visuele werkbladen voor wereldwijde markten',
         description:
           'Omdat Groot & Klein werkbladen nul tekst op de uitvoer bevatten, werkt hetzelfde product in elke taal zonder aanpassing. Maak één set groottevergelijking oefeningen en verkoop deze wereldwijd — geen vertaling nodig, geen aparte taalversies om bij te houden. Dit is een aanzienlijk voordeel ten opzichte van tekstgebaseerde werkbladgeneratoren waarbij elk product 11 taalvarianten nodig heeft. Vermeld identieke producten in Etsy-winkels die verschillende landen bedienen, of publiceer hetzelfde KDP-binnenwerk op alle internationale Amazon-marktplaatsen. Eén workflow produceert een universeel verkoopbaar product.',
-        platform: 'Etsy / Amazon KDP / TPT (wereldwijd)',
+        platform: 'Etsy / Amazon KDP / Gumroad (wereldwijd)',
       },
       {
         title: 'Groottebegrippen voor klas en bijles',
         description:
-          'Upload eigen afbeeldingen om groottevergelijking werkbladen te maken voor elk vak of concept — vergelijk gebouwgroottes bij aardrijkskunde, diergroottes bij biologie, of voedselporties bij gezondheidsleer. De vijf vraagtypen laten je de oefening afstemmen op het leerdoel: identificatie voor introductie, ordenen voor toetsing. Pas oefeningen per pagina en afbeeldingen per oefening aan op het niveau van elke leerling. Print aangepaste sets in enkele minuten voor kleine groepen of een hele klas. Het automatisch gegenereerde antwoordblad bespaart nakijktijd, en het visuele formaat spreekt leerlingen aan die moeite hebben met tekstzware werkbladen.',
+          'Upload eigen afbeeldingen om groottevergelijking werkbladen te maken voor elk vak of concept — vergelijk gebouwgroottes bij aardrijkskunde, diergroottes bij biologie, of voedselporties bij gezondheidsleer. De vijf vraagtypen laten je de oefening afstemmen op het leerdoel: identificatie voor introductie, ordenen voor toetsing. Pas oefeningen per pagina en afbeeldingen per oefening aan op het niveau van elke gebruiker. Print aangepaste sets in enkele minuten voor kleine groepen of een hele productlijn. Het automatisch gegenereerde antwoordblad bespaart waargenomen waarde, en het visuele formaat spreekt gebruikers aan die moeite hebben met tekstzware werkbladen.',
         platform: 'Klas / Bijles / Thuisonderwijs',
       },
     ],
@@ -142,32 +142,32 @@ const content: AppContent = {
     {
       question: 'Wat zijn de vijf vraagtypen en hoe werken ze?',
       answer:
-        'Omcirkel de Grote vraagt leerlingen om de grootste afbeelding te herkennen uit 2 of 3 opties. Omcirkel de Kleine richt zich op de kleinste afbeelding. Omcirkel de Middelste vereist het identificeren van de middelgrote afbeelding (alleen beschikbaar met 3 afbeeldingen per oefening). Nummeren 1–2–3 Klein naar Groot vraagt leerlingen om afbeeldingen te labelen in oplopende groottevolgorde. Nummeren 1–2–3 Groot naar Klein keert de volgorde om naar aflopend. De cirkel-vragen testen identificatie; de nummeringsvragen testen ordenen — samen dekken ze het volledige spectrum van groottediscriminatie vaardigheden.',
+        'Omcirkel de Grote vraagt gebruikers om de grootste afbeelding te herkennen uit 2 of 3 opties. Omcirkel de Kleine richt zich op de kleinste afbeelding. Omcirkel de Middelste vereist het identificeren van de middelgrote afbeelding (alleen beschikbaar met 3 afbeeldingen per oefening). Nummeren 1–2–3 Klein naar Groot vraagt gebruikers om afbeeldingen te labelen in oplopende groottevolgorde. Nummeren 1–2–3 Groot naar Klein keert de volgorde om naar aflopend. De cirkel-vragen testen identificatie; de nummeringsvragen testen ordenen — samen dekken ze het volledige spectrum van groottediscriminatie vaardigheden.',
     },
     {
       question: 'Wat is het verschil tussen de modi Identieke Afbeeldingen en Verschillende Afbeeldingen?',
       answer:
-        'De modus Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten — bijvoorbeeld drie exemplaren van een kat op klein, middel en groot formaat. Dit isoleert zuivere grootteperceptie zonder andere variabelen. De modus Verschillende Afbeeldingen toont onderscheidende objecten op verschillende formaten — bijvoorbeeld een hond, een kat en een vogel op verschillende schalen. Dit vereist relatief grootteredeneren waarbij leerlingen ongelijke items moeten vergelijken. De twee modi creëren fundamenteel verschillende oefeningen en verdubbelen effectief je productvariatie.',
+        'De modus Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten — bijvoorbeeld drie exemplaren van een kat op klein, middel en groot formaat. Dit isoleert zuivere grootteperceptie zonder andere variabelen. De modus Verschillende Afbeeldingen toont onderscheidende objecten op verschillende formaten — bijvoorbeeld een hond, een kat en een vogel op verschillende schalen. Dit vereist relatief grootteredeneren waarbij gebruikers ongelijke items moeten vergelijken. De twee modi creëren fundamenteel verschillende oefeningen en verdubbelen effectief je productvariatie.',
     },
     {
       question: 'Wat bepaalt de instelling van 2 of 3 afbeeldingen per oefening?',
       answer:
-        'Met 2 afbeeldingen per oefening maken leerlingen een eenvoudige groter/kleiner vergelijking tussen twee items. Met 3 afbeeldingen wordt een middelste optie geïntroduceerd, waardoor het vraagtype Omcirkel de Middelste mogelijk wordt en nummeringsoefeningen uitdagender worden met drie items om te ordenen in plaats van twee. Oefeningen met drie afbeeldingen zijn moeilijker omdat leerlingen drie relatieve groottes moeten onderscheiden in plaats van slechts twee. Begin met 2 afbeeldingen voor jongere leerlingen en ga over naar 3 voor meer gevorderde oefening.',
+        'Met 2 afbeeldingen per oefening maken gebruikers een eenvoudige groter/kleiner vergelijking tussen twee items. Met 3 afbeeldingen wordt een middelste optie geïntroduceerd, waardoor het vraagtype Omcirkel de Middelste mogelijk wordt en nummeringsoefeningen uitdagender worden met drie items om te ordenen in plaats van twee. Oefeningen met drie afbeeldingen zijn moeilijker omdat gebruikers drie relatieve groottes moeten onderscheiden in plaats van slechts twee. Begin met 2 afbeeldingen voor jongere gebruikers en ga over naar 3 voor meer gevorderde oefening.',
     },
     {
       question: 'Hoeveel oefeningen kan ik op één pagina plaatsen?',
       answer:
-        'Je kunt 1 tot 10 oefeningen per pagina instellen. De standaard is 4 oefeningen. Minder oefeningen per pagina creëren grotere, duidelijkere afbeeldingen die ideaal zijn voor jongere leerlingen of gerichte oefening. Meer oefeningen per pagina maken dichtere werkbladen die geschikt zijn voor toetsing of herhaling. Het optimale aantal hangt af van je paginaformaat en het aantal afbeeldingen per oefening — 4 oefeningen met 3 afbeeldingen elk vult een standaardpagina goed, terwijl 8–10 oefeningen beter werken met 2 afbeeldingen per oefening.',
+        'Je kunt 1 tot 10 oefeningen per pagina instellen. De standaard is 4 oefeningen. Minder oefeningen per pagina creëren grotere, duidelijkere afbeeldingen die ideaal zijn voor jongere gebruikers of gerichte oefening. Meer oefeningen per pagina maken dichtere werkbladen die geschikt zijn voor toetsing of herhaling. Het optimale aantal hangt af van je paginaformaat en het aantal afbeeldingen per oefening — 4 oefeningen met 3 afbeeldingen elk vult een standaardpagina goed, terwijl 8–10 oefeningen beter werken met 2 afbeeldingen per oefening.',
     },
     {
       question: 'Waarom staat er geen tekst op de werkbladen?',
       answer:
-        'Groot & Klein werkbladen zijn volledig visueel van opzet. De oefeningen bevatten uitsluitend afbeeldingen en visuele indicatoren zoals cirkels of nummervakjes — er verschijnen geen geschreven woorden op de gegenereerde uitvoer. Dit maakt werkbladen universeel bruikbaar ongeacht taal of leesniveau. Preliteraire leerlingen maken ze zonder te lezen. Hetzelfde werkblad verkoopt wereldwijd zonder vertaling. Instructies kunnen mondeling gegeven worden door de leerkracht of als aangepaste tekst worden toegevoegd met de tekstgereedschappen indien nodig.',
+        'Groot & Klein werkbladen zijn volledig visueel van opzet. De oefeningen bevatten uitsluitend afbeeldingen en visuele indicatoren zoals cirkels of nummervakjes — er verschijnen geen geschreven woorden op de gegenereerde uitvoer. Dit maakt werkbladen universeel bruikbaar ongeacht taal of leesniveau. Preliteraire gebruikers maken ze zonder te lezen. Hetzelfde werkblad verkoopt wereldwijd zonder vertaling. Instructies kunnen mondeling gegeven worden door de verkoper of als aangepaste tekst worden toegevoegd met de tekstgereedschappen indien nodig.',
     },
     {
       question: 'Hoe werkt het automatisch gegenereerde antwoordblad?',
       answer:
-        'Het antwoordblad maakt een opgeloste versie van je werkblad waarin de juiste antwoorden visueel gemarkeerd en omcirkeld zijn. Bij cirkel-vragen wordt de juiste afbeelding gemarkeerd. Bij nummeringsvragen wordt de juiste groottevolgorde weergegeven. Het antwoordblad wordt als apart bestand gedownload naast het werkblad. Het meeleveren van antwoordbladen bij elk product verhoogt de waargenomen waarde en wordt verwacht door kopers op Etsy, TPT en KDP.',
+        'Het antwoordblad maakt een opgeloste versie van je werkblad waarin de juiste antwoorden visueel gemarkeerd en omcirkeld zijn. Bij cirkel-vragen wordt de juiste afbeelding gemarkeerd. Bij nummeringsvragen wordt de juiste groottevolgorde weergegeven. Het antwoordblad wordt als apart bestand gedownload naast het werkblad. Het meeleveren van antwoordbladen bij elk product verhoogt de waargenomen waarde en wordt verwacht door kopers op Etsy, Gumroad en KDP.',
     },
     {
       question: 'Kan ik mijn eigen afbeeldingen uploaden in plaats van de bibliotheek te gebruiken?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Mag ik werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je groottevergelijking werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als leermiddelen op TPT, of via elk ander verkoopkanaal. De vijf vraagtypen, twee afbeeldingsmodi en het volledig visuele formaat geven je sterke differentiatie en wereldwijde verkoopbaarheid in marktplaatscategorieën.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je groottevergelijking werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als leermiddelen op Gumroad, of via elk ander verkoopkanaal. De vijf vraagtypen, twee afbeeldingsmodi en het volledig visuele formaat geven je sterke getrapte productpakketten en wereldwijde verkoopbaarheid in marktplaatscategorieën.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -245,7 +245,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'kleuterschool-printable-ideen',
-      anchorText: 'Kleuterschool printable ideeën voor jonge leerlingen',
+      anchorText: 'Kleuterschool printable ideeën voor jonge gebruikers',
     },
     {
       pageType: 'start',
@@ -268,12 +268,12 @@ const content: AppContent = {
       {
         src: '/samples/dutch/big small/Groot%20of%20Klein%202.webp',
         alt: 'Groottevergelijking werkblad met thematische dierenafbeeldingen op verschillende formaten voor visuele discriminatie oefeningen',
-        caption: 'Omcirkel de Grote modus — leerlingen herkennen de grootste afbeelding in elke oefening',
+        caption: 'Omcirkel de Grote modus — gebruikers herkennen de grootste afbeelding in elke oefening',
       },
       {
         src: '/samples/dutch/big small/Groot%20of%20Klein%203.webp',
         alt: 'Groottevergelijking werkblad met nummeringsoefening waarbij drie afbeeldingen geordend worden van klein naar groot',
-        caption: 'Nummeren 1–2–3 Klein naar Groot — leerlingen ordenen afbeeldingen op grootte van klein naar groot',
+        caption: 'Nummeren 1–2–3 Klein naar Groot — gebruikers ordenen afbeeldingen op grootte van klein naar groot',
       },
       {
         src: '/samples/dutch/big small/Groot%20of%20Klein%204.webp',

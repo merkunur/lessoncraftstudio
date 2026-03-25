@@ -23,7 +23,7 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar matchningsarbetsblad för förskola',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska dra-en-linje matchningsarbetsblad med automatiska facit du kan sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
+    tagline: 'En steg-för-steg-guide för att skapa tematiska dra-en-linje matchningsarbetsblad med automatiska facit du kan sälja på Etsy, Amazon KDP och Gumroad',
     description: 'Matchningsarbetsblad är bland de mest mångsidiga förskole-printable-produkterna. De lär visuell diskriminering, bokstavsigenkänning, vokabulär och logisk parning — allt genom att dra en linje mellan två kolumner. Denna guide leder dig genom hela skapandeprocessen med Matchningsarbetsblad-skaparen — från att välja matchningsläge och tema till att exportera tryckfärdiga PDF:er med automatiska facit. Generatorn erbjuder fyra distinkta matchningslägen (Bokstav, Bild+Namn, Bild-eller-Namn och Anpassad), vilket gör det till ett av de mest flexibla verktygen.',
   },
 
@@ -40,7 +40,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Ställ in antal par och layoutalternativ',
-      content: 'Antal par per arbetsblad kontrollerar direkt svårighet.\n\n4 par: Bäst för förskola (3–4 år). Färre objekt, stora bilder. Instegsprodukter.\n\n5 par: Den optimala punkten för förskoleklass och förskoleklass (4–6 år). Tillräcklig utmaning utan överväldigande.\n\n6 par: Bäst för förskoleklass och årskurs 1 (5–7 år). Mer visuell skanning krävs.\n\nYtterligare layoutalternativ:\n\nNamn- och datumfält: Lärare föredrar starkt dessa.\n\nObjektnummer: Numrerar varje par (1, 2, 3...).\n\nVisa prickar: Justeringspunkter som guidar barn.\n\nSidstorlek: US Letter, A4, kvadrat och anpassade dimensioner.',
+      content: 'Antal par per arbetsblad kontrollerar direkt svårighet.\n\n4 par: Bäst för förskola (3–4 år). Färre objekt, stora bilder. Instegsprodukter.\n\n5 par: Den optimala punkten för förskoleklass och förskoleklass (4–6 år). Tillräcklig utmaning utan överväldigande.\n\n6 par: Bäst för förskoleklass och årskurs 1 (5–7 år). Mer visuell skanning krävs.\n\nYtterligare layoutalternativ:\n\nNamn- och datumfält: säljare föredrar starkt dessa.\n\nObjektnummer: Numrerar varje par (1, 2, 3...).\n\nVisa prickar: Justeringspunkter som guidar barn.\n\nSidstorlek: US Letter, A4, kvadrat och anpassade dimensioner.',
     },
     {
       heading: 'Konfigurera per-rad-visningsalternativ',
@@ -56,7 +56,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Granska det automatiska facit',
-      content: 'Varje genererat matchningsarbetsblad inkluderar ett automatiskt facit. Klicka Facit-fliken.\n\nFacit visar samma tvåkolumns-layout men med horisontella kopplingslinjer dragna mellan varje korrekt par. Denna visuella format gör rättning omedelbar — en lärare eller förälder jämför helt enkelt barnets dragna linjer mot facitets linjer.\n\nFacit är avgörande för:\n\nLärare: effektiv rättning.\n\nFöräldrar: verifiering. Hemundervisande föräldrar värderar facit särskilt.\n\nNämn alltid facit framträdande i din listning. "Inkluderar facit med kopplingslinjer" är en differentieringspunkt.',
+      content: 'Varje genererat matchningsarbetsblad inkluderar ett automatiskt facit. Klicka Facit-fliken.\n\nFacit visar samma tvåkolumns-layout men med horisontella kopplingslinjer dragna mellan varje korrekt par. Denna visuella format gör rättning omedelbar — en säljare eller förälder jämför helt enkelt barnets dragna linjer mot facitets linjer.\n\nFacit är avgörande för:\n\nsäljare: effektiv rättning.\n\nFöräldrar: verifiering. Hemundervisande föräldrar värderar facit särskilt.\n\nNämn alltid facit framträdande i din listning. "Inkluderar facit med kopplingslinjer" är en differentieringspunkt.',
     },
     {
       heading: 'Exportera som tryckfärdig PDF och JPEG',
@@ -67,15 +67,15 @@ const content: GuideContent = {
   platformTips: [
     {
       heading: 'Sälja matchningsarbetsblad på Etsy',
-      content: 'Matchningsarbetsblad är en stark Etsy-kategori. Föräldrar och lärare söker efter specifika attribut: åldersgrupp, tema och matchningstyp.\n\nTiteloptimering: "Matchningsarbetsblad för förskola — Bondgårdsdjur — Dra en linje — Med facit." Taggar: använd alla 13. Listningsbilder: visa arbetsbladet tydligt, inklusive facit med kopplingslinjer.\n\nPrissättning: enstaka arbetsblad $1,49–$2,49. Temapaket 10–20 arbetsblad $4,99–$8,99. Kompletta samlingar 40+ arbetsblad $12,99–$19,99.',
+      content: 'Matchningsarbetsblad är en stark Etsy-kategori. Föräldrar och säljare söker efter specifika attribut: åldersgrupp, tema och matchningstyp.\n\nTiteloptimering: "Matchningsarbetsblad för förskola — Bondgårdsdjur — Dra en linje — Med facit." Taggar: använd alla 13. Listningsbilder: visa arbetsbladet tydligt, inklusive facit med kopplingslinjer.\n\nPrissättning: enstaka arbetsblad $1,49–$2,49. Temapaket 10–20 arbetsblad $4,99–$8,99. Kompletta samlingar 40+ arbetsblad $12,99–$19,99.',
     },
     {
       heading: 'Sälja matchningsarbetsblad på Amazon KDP',
       content: 'Amazon KDP är idealiskt för matchnings-aktivitetsböcker. Samla 40–80 arbetsblad med facit. Organisera efter svårighet: börja med 4 par, progressera till 6. Inkludera flera matchningslägen.\n\nTitel och undertitel: Exempeltitel "Matching Worksheets for Preschool." Exempel-undertitel "60 Draw-a-Line Activities with Animal Themes, Letter Matching, and Answer Keys for Kids Ages 3–5."\n\nOmslagsdesign: Visa exempelsidor med klara, engagerande färger.\n\nPrissättning: KDP aktivitetsböcker $5,99–$8,99 för 40–80 sidor.',
     },
     {
-      heading: 'Sälja matchningsarbetsblad på Teachers Pay Teachers',
-      content: 'TPT är särskilt stark för matchningsarbetsblad — en klassrumsklassiker för tidiga inlärningscentra.\n\nProduktbeskrivningar: ålder/årskurs, matchningsläge, antal sidor, teman, facit, och utvecklingsmilstolpar.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med olika matchningslägen.\n\nPaketering: "Komplett förskolematchningspaket" med 40+ arbetsblad. Positionera som "centeraktivitet" eller "morgonarbete."\n\nTPT-nyckelord: "matchningscentra," "morgontunnor," "finmotorikaktivitet," "förläskunnighetsfärdigheter," "bokstavsigenkänning," "vokabulärmatchning," "självständig arbetsstation."\n\nDra-en-linje-formatet ger även finmotorikövning — nämn detta.',
+      heading: 'Sälja matchningsarbetsblad på Gumroad',
+      content: 'Gumroad är särskilt stark för matchningsarbetsblad — en produktlinjesklassiker för tidiga inlärningscentra.\n\nProduktbeskrivningar: ålder/årskurs, matchningsläge, antal sidor, teman, facit, och utvecklingsmilstolpar.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med olika matchningslägen.\n\nPaketering: "Komplett förskolematchningspaket" med 40+ arbetsblad. Positionera som "centeraktivitet" eller "morgonarbete."\n\nGumroad-nyckelord: "matchningscentra," "morgontunnor," "finmotorikaktivitet," "förläskunnighetsfärdigheter," "bokstavsigenkänning," "vokabulärmatchning," "självständig arbetsstation."\n\nDra-en-linje-formatet ger även finmotorikövning — nämn detta.',
     },
   ],
 

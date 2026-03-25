@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Bildväg Labyrint Skapare',
     tagline: 'Treläges labyrint arbetsblad generator med Bildväg (bildrutnät vägföljande), Klassisk Labyrint (LPF väggbaserad algoritm med samlingsbilder och återvändsgränd-blockering) och Välj Rätt Väg (trevägs riktningslabyrinter), fem bildroller, anpassningsbar väggdesign och helt visuella labyrinter som säljer globalt utan översättning',
-    description: 'Skapa professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar bildrutnät där eleverna följer rätt väg. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen, konfigurerbara rutnätsstorlekar 15×15 till 20×20, 1–3 vägar med återvändsgränd-blockering, och anpassningsbar väggfärg/tjocklek/opacitet. Samlingsbilder sprids genom korridorer. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ. Fem bildroller: Start, Mål, Väg, Distraktor och Dekoration. Varje läge genererar facit med rosa cirklar längs lösningsvägen. Välj Väg lägger till «✓ KORREKT VÄG». Klassisk Labyrint inkluderar samlingslegend. Helt visuella labyrinter — universellt säljbara utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    description: 'Skapa professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar bildrutnät där användarna följer rätt väg. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen, konfigurerbara rutnätsstorlekar 15×15 till 20×20, 1–3 vägar med återvändsgränd-blockering, och anpassningsbar väggfärg/tjocklek/opacitet. Samlingsbilder sprids genom korridorer. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ. Fem bildroller: Start, Mål, Väg, Distraktor och Dekoration. Varje läge genererar facit med rosa cirklar längs lösningsvägen. Välj Väg lägger till «✓ KORREKT VÄG». Klassisk Labyrint inkluderar samlingslegend. Helt visuella labyrinter — universellt säljbara utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
   },
 
   tutorial: {
@@ -72,12 +72,12 @@ const content: ToolContent = {
       description: 'Sammanställ 50–80 labyrinter till tryckta arbetsböcker. Kapitel 1 Bildväg för nybörjare. Kapitel 2 Klassisk Labyrint 15×15 med 1 väg. Kapitel 3 20×20 med 3 vägar. Inkludera Välj Rätt Väg-sektioner. Facitsidor med rosa cirklar och samlingslegender i slutet. Växla gråskala. Det visuella formatet kräver ingen översättning.',
     },
     {
-      title: 'Klassrums rumsligt resonemang aktiviteter',
-      description: 'Bygg klassrumsfärdiga labyrinter med namn/datum-fält och facit. Labyrinter utvecklar rumsligt resonemang och problemlösning. Skapa läroplansangränsande set. Klassisk Labyrint med samlingsbilder lägger till räkningsövning bredvid vägfinnande. Varje arbetsblad exporteras med autogenererat facit.',
+      title: 'produktlinjes rumsligt resonemang aktiviteter',
+      description: 'Bygg produktlinjesfärdiga labyrinter med namn/datum-fält och facit. Labyrinter utvecklar rumsligt resonemang och problemlösning. Skapa produktkatalogsangränsande set. Klassisk Labyrint med samlingsbilder lägger till räkningsövning bredvid vägfinnande. Varje arbetsblad exporteras med autogenererat facit.',
     },
     {
       title: 'Samlingslabyrint räkneaktivitetspaket',
-      description: 'Klassisk Labyrint sprider samlingsbilder genom korridorer — eleverna löser labyrinten OCH räknar samlingsbilder. Facit inkluderar samlingslegend med korrekt antal. Skapa tematiska räknesamlingar: räkna fjärilarna i trädgårdslabyrinten, hitta alla skatterna i piratlabyrinten. Dubbelfärdighetsformat motiverar premiumpriser.',
+      description: 'Klassisk Labyrint sprider samlingsbilder genom korridorer — användarna löser labyrinten OCH räknar samlingsbilder. Facit inkluderar samlingslegend med korrekt antal. Skapa tematiska räknesamlingar: räkna fjärilarna i trädgårdslabyrinten, hitta alla skatterna i piratlabyrinten. Dubbelfärdighetsformat motiverar premiumpriser.',
     },
     {
       title: 'Säsongsbetonade labyrintarbetsblad-samlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums labyrint aktivitetspaket',
-      description: 'Ladda upp labyrintpaket till TPT med namn/datum-fält och autogenererade facit. Lärare söker efter logik- och rumsliga resonemangaktiviteter. Skapa läroplansangränsande set. Klassisk Labyrint med samlingsbilder ger dubbla färdigheter. Varje paket inkluderar alla tre spellägen.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes labyrint aktivitetspaket',
+      description: 'Ladda upp labyrintpaket till Gumroad med namn/datum-fält och autogenererade facit. säljare söker efter logik- och rumsliga resonemangaktiviteter. Skapa produktkatalogsangränsande set. Klassisk Labyrint med samlingsbilder ger dubbla färdigheter. Varje paket inkluderar alla tre spellägen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest labyrintarbetsblad trafiktratt',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Global visuell labyrint produktlinje',
-      description: 'Bildväg producerar helt visuella labyrinter — eleverna navigerar utan att läsa text. Den automatiskt genererade rubriken översätts till 11 språk, men labyrintinnehållet kräver ingen språkförståelse. Samma produktfiler fungerar i varje land. En skapandesession producerar en globalt säljbar katalog.',
+      description: 'Bildväg producerar helt visuella labyrinter — användarna navigerar utan att läsa text. Den automatiskt genererade rubriken översätts till 11 språk, men labyrintinnehållet kräver ingen språkförståelse. Samma produktfiler fungerar i varje land. En skapandesession producerar en globalt säljbar katalog.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -148,7 +148,7 @@ const content: ToolContent = {
       description: 'Väggfärg, tjocklek och opacitet kontroller skapar distinkta produkter. Tunna gråa väggar för sofistikerade pusselböcker. Tjocka färgglada väggar för dagisbarn. Halvtransparenta väggar för lagereffekter.',
     },
     {
-      title: 'Använd gråskala för budgetvänliga klassrums- och KDP-produkter',
+      title: 'Använd gråskala för budgetvänliga produktlinjes- och KDP-produkter',
       description: 'Växla gråskala för bläckvänliga labyrinter. Skapa dubbelformatspaket med färg och gråskala. Väggbaserade labyrinter behåller full tydlighet i gråskala.',
     },
   ],
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka är de tre spellägena?',
-      answer: 'Bildväg — bildrutnät där eleverna följer rätt väg bland distraktorer. Klassisk Labyrint — LPF-algoritmen genererar väggbaserade labyrinter med samlingsbilder, konfigurerbara rutnät 15×15 till 20×20, 1–3 vägar. Välj Rätt Väg — trevägs-labyrinter med fyra riktningsalternativ. Varje läge levererar en annorlunda kognitiv utmaning.',
+      answer: 'Bildväg — bildrutnät där användarna följer rätt väg bland distraktorer. Klassisk Labyrint — LPF-algoritmen genererar väggbaserade labyrinter med samlingsbilder, konfigurerbara rutnät 15×15 till 20×20, 1–3 vägar. Välj Rätt Väg — trevägs-labyrinter med fyra riktningsalternativ. Varje läge levererar en annorlunda kognitiv utmaning.',
     },
     {
       question: 'Hur fungerar LPF labyrintalgoritmen?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar vägganpassning?',
-      answer: 'Väggfärg via färgväljare. Väggtjocklek 1–10px (standard 3). Väggopacitet 10–100% (standard 100%). Inställningar bevaras över regenereringar. Tunna gråa väggar för pusselböcker, tjocka färgglada för unga elever.',
+      answer: 'Väggfärg via färgväljare. Väggtjocklek 1–10px (standard 3). Väggopacitet 10–100% (standard 100%). Inställningar bevaras över regenereringar. Tunna gråa väggar för pusselböcker, tjocka färgglada för unga användare.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Är Bildväg Labyrint Skaparen språkkänslig?',
-      answer: 'Nej. Helt visuella labyrinter — eleverna navigerar utan att läsa text. Det enda lokaliserade elementet är rubriktexten, översatt till 11 språk. Labyrintinnehållet kräver ingen språkförståelse. Universellt säljbart.',
+      answer: 'Nej. Helt visuella labyrinter — användarna navigerar utan att läsa text. Det enda lokaliserade elementet är rubriktexten, översatt till 11 språk. Labyrintinnehållet kräver ingen språkförståelse. Universellt säljbart.',
     },
     {
       question: 'Vilka sidstorlekar och exportformat finns?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja labyrintarbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja labyrinter som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan kanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja labyrinter som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -224,7 +224,7 @@ const content: ToolContent = {
       {
         src: '/samples/swedish/picture%20path/bildv%C3%A4g%202.webp',
         alt: 'Bildväg-läge arbetsblad med bilder i ett rutnät som visar den korrekta vägen från start till mål bland distraktorbilder',
-        caption: 'Bildväg-läge — eleverna följer den korrekta bildvägen från start till mål bland distraktorer',
+        caption: 'Bildväg-läge — användarna följer den korrekta bildvägen från start till mål bland distraktorer',
       },
       {
         src: '/samples/swedish/picture%20path/bildv%C3%A4g%203.webp',

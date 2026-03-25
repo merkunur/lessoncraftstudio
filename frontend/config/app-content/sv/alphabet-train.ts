@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'utskrivbar alfabetståg skapare för Etsy-säljare',
       'bokstavsigenkänning arbetsblad generator för KDP-utgivare',
-      'alfabet arbetsblad sälja på Teachers Pay Teachers',
+      'alfabet arbetsblad sälja på Gumroad',
       'alfabetståg printables kommersiell licens',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Alfabetståg Generator | Skapa Språk-Printables',
     metaDescription:
-      'Skapa alfabetståg arbetsblad att sälja på Etsy, KDP och TPT. Tågvagn bokstav-bild koppling i 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa alfabetståg arbetsblad att sälja på Etsy, KDP och Gumroad. Tågvagn bokstav-bild koppling i 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Alfabetståg Arbetsblad Generator för Bokstavsigenkänning',
     tagline: 'Varje vagn bär en bokstav och en matchande bild — bygg bokstavsigenkänning, vagn för vagn.',
     description:
-      'Designa iögonfallande alfabetståg arbetsblad där 11 färgglada vagnar rullar över sidan, var och en med en bokstav kopplad till en matchande illustration. Välj läget Automatiskt Skapande för direkta slumpmässiga bokstavsval eller det Manuella läget för att välja exakt 11 bokstäver ur alfabetet för riktad övning. Lägg till 3 till 11 justerbara ledtrådar per arbetsblad — bildledtrådar som eleverna kopplar till rätt bokstavsvagn — vilket förvandlar passiv bokstavsigenkänning till en aktiv problemlösningsövning. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman för att hitta den perfekta bilden för varje bokstav. Full Tillgång låser upp alla 11 stödda språk med egna alfabet — tyska med Ä/Ö/Ü, svenska med Å/Ä/Ö, spanska med Ñ och fler — vilket multiplicerar din produktkatalog elva gånger från ett enda arbetsflöde. Varje arbetsblad genererar automatiskt ett facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med mer än 400 DPI i Letter-, A4- eller Kvadratformat. Oavsett om du säljer tematiska alfabetpaket på Etsy.se, sammanställer progressiva språkböcker för Amazon KDP eller skapar differentierade bokstavsstationer för TPT — Alfabetståg Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Designa iögonfallande alfabetståg arbetsblad där 11 färgglada vagnar rullar över sidan, var och en med en bokstav kopplad till en matchande illustration. Välj läget Automatiskt Skapande för direkta slumpmässiga bokstavsval eller det Manuella läget för att välja exakt 11 bokstäver ur alfabetet för riktad övning. Lägg till 3 till 11 justerbara ledtrådar per arbetsblad — bildledtrådar som användarna kopplar till rätt bokstavsvagn — vilket förvandlar passiv bokstavsigenkänning till en aktiv problemlösningsövning. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman för att hitta den perfekta bilden för varje bokstav. Full Tillgång låser upp alla 11 stödda språk med egna alfabet — tyska med Ä/Ö/Ü, svenska med Å/Ä/Ö, spanska med Ñ och fler — vilket multiplicerar din produktkatalog elva gånger från ett enda arbetsflöde. Varje arbetsblad genererar automatiskt ett facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med mer än 400 DPI i Letter-, A4- eller Kvadratformat. Oavsett om du säljer tematiska alfabetpaket på Etsy.se, sammanställer progressiva språkböcker för Amazon KDP eller skapar nivågrupperade bokstavsstationer för Gumroad — Alfabetståg Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: 'Välj bilder från temabiblioteket',
         description:
-          'Öppna panelen Bildbibliotek och utforska 104 teman — från djur och mat till fordon och högtider. Använd sökfältet för att hitta specifika bilder direkt. Varje bokstavsvagn visar en bild vars namn börjar med den bokstaven, vilket förstärker bokstav-ljud-kopplingen. På svenska kopplas till exempel bilden av en hund till bokstaven H, medan samma bild på engelska kopplas till D (dog). Du kan också ladda upp dina egna bilder för att skapa varumärkta arbetsblad eller följa ett specifikt klassrumstema.',
+          'Öppna panelen Bildbibliotek och utforska 104 teman — från djur och mat till fordon och högtider. Använd sökfältet för att hitta specifika bilder direkt. Varje bokstavsvagn visar en bild vars namn börjar med den bokstaven, vilket förstärker bokstav-ljud-kopplingen. På svenska kopplas till exempel bilden av en hund till bokstaven H, medan samma bild på engelska kopplas till D (dog). Du kan också ladda upp dina egna bilder för att skapa varumärkta arbetsblad eller följa ett specifikt produkttema.',
       },
       {
         title: 'Konfigurera ledtrådar och textstil',
         description:
-          'Ställ in antalet ledtrådar från 3 till 11 — det här är bildledtrådar som visas separat och som eleverna måste koppla till rätt bokstavsvagn. Färre ledtrådar gör arbetsbladet enklare; fler ledtrådar ökar utmaningen. Aktivera eller inaktivera fält för elevens namn och datum. Använd panelen Textverktyg för att lägga till en titel, instruktioner eller anpassad text. Välj bland sju typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana med justerbar storlek, färg och kontur.',
+          'Ställ in antalet ledtrådar från 3 till 11 — det här är bildledtrådar som visas separat och som användarna måste koppla till rätt bokstavsvagn. Färre ledtrådar gör arbetsbladet enklare; fler ledtrådar ökar utmaningen. Aktivera eller inaktivera fält för namn och datum. Använd panelen Textverktyg för att lägga till en titel, instruktioner eller anpassad text. Välj bland sju typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana med justerbar storlek, färg och kontur.',
       },
       {
         title: 'Generera facit och ladda ner',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Justerbart ledtrådssystem för anpassningsbar svårighetsgrad',
         description:
-          'Ställ in var som helst från 3 till 11 ledtrådar per arbetsblad. Ledtrådar är bildledtrådar som visas separat från tåget — eleverna måste identifiera vilken bokstavsvagn varje ledtrådsbild hör till. Färre ledtrådar skapar en enklare kopplingsaktivitet lämplig för förskolebarn, medan fulla 11 ledtrådar utmanar elever i förskoleklass och årskurs 1 att koppla varje vagn. Denna inbyggda svårighetsreglage gör det enkelt att skapa differentierade produktlinjer eller läromedel i nivåer från samma app.',
+          'Ställ in var som helst från 3 till 11 ledtrådar per arbetsblad. Ledtrådar är bildledtrådar som visas separat från tåget — användarna måste identifiera vilken bokstavsvagn varje ledtrådsbild hör till. Färre ledtrådar skapar en enklare kopplingsaktivitet lämplig för förskolebarn, medan fulla 11 ledtrådar utmanar användare i förskoleklass och årskurs 1 att koppla varje vagn. Denna inbyggda svårighetsreglage gör det enkelt att skapa nivågrupperade produktlinjer eller utskrivbara produkter i nivåer från samma app.',
       },
       {
         title: '104 visuella teman med mer än 3 100 bilder för bokstavskoppling',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Automatisk generering av facit',
         description:
-          'Klicka på en knapp för att generera ett komplett facit som visar varje tågvagn med rätt bokstav-bildkoppling och alla ledtrådar besvarade. Fliken Facit visar en förhandsgranskning i realtid så att du kan kontrollera riktigheten innan du laddar ner. Exportera facit som en separat JPEG- eller PDF-fil, perfekt för lärarupplagor, föräldrahandledningar eller produktpaket på Etsy.se utan manuellt arbete.',
+          'Klicka på en knapp för att generera ett komplett facit som visar varje tågvagn med rätt bokstav-bildkoppling och alla ledtrådar besvarade. Fliken Facit visar en förhandsgranskning i realtid så att du kan kontrollera riktigheten innan du laddar ner. Exportera facit som en separat JPEG- eller PDF-fil, perfekt för facitversioner, föräldrahandledningar eller produktpaket på Etsy.se utan manuellt arbete.',
       },
       {
         title: 'Tryckfärdig export i 400+ DPI med gråskalealternativ',
         description:
-          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexport för bläckvänliga versioner som är perfekta för klassrumsutskrift eller svartvita aktivitetsböcker. Letter-, A4- och Kvadratformat stöds alla.',
+          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexport för bläckvänliga versioner som är perfekta för volymutskrift eller svartvita aktivitetsböcker. Letter-, A4- och Kvadratformat stöds alla.',
       },
       {
         title: 'Full arbetsyteredigering med ångra och gör om',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade språkstationer för TPT',
+        title: 'nivågrupperade språkstationer för Gumroad',
         description:
-          'Bygg alfabetstågsuppsättningar i nivåer med antalet ledtrådar som svårighetsaxel: Nivå 1 (3 ledtrådar, vanliga bokstäver), Nivå 2 (5 ledtrådar, blandade bokstäver), Nivå 3 (8 ledtrådar, inklusive ovanligare bokstäver som Q, X, Y), och Nivå 4 (11 ledtrådar, fullständig kopplingsutmaning). Leverera varje nivå med facit och ett framstegsregistreringsblad. Köpare på Teachers Pay Teachers betalar premiumpriser för differentierade språkläromedel som de direkt kan använda i flera läsgrupper.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg alfabetstågsuppsättningar i nivåer med antalet ledtrådar som svårighetsaxel: Nivå 1 (3 ledtrådar, vanliga bokstäver), Nivå 2 (5 ledtrådar, blandade bokstäver), Nivå 3 (8 ledtrådar, inklusive ovanligare bokstäver som Q, X, Y), och Nivå 4 (11 ledtrådar, fullständig kopplingsutmaning). Leverera varje nivå med facit och ett framstegsregistreringsblad. Köpare på Gumroad betalar premiumpriser för nivågrupperade språkutskrivbara produkter som de direkt kan använda i flera läsgrupper.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Flerspråkiga alfabetprodukter med Full Tillgång',
         description:
-          'Full Tillgång låser upp alla 11 språk med egna alfabet. Skapa tyska alfabetståg med Ä/Ö/Ü-vagnar, svenska tåg med Å/Ä/Ö, spanska tåg med Ñ och mer. Varje språkversion är en separat produkt som du kan erbjuda på Etsy.se, TPT eller Amazon KDP — vilket effektivt multiplicerar din katalog elva gånger från samma arbetsflöde. Ett svenskt alfabetståg kopplar "hund" till H, medan en engelsk version kopplar "dog" till D — varje arbetsblad är språkligt unikt. Flerspråkiga språkprodukter möter mindre konkurrens och attraherar internationella köpare.',
-        platform: 'Etsy / Amazon KDP / TPT (flerspråkigt)',
+          'Full Tillgång låser upp alla 11 språk med egna alfabet. Skapa tyska alfabetståg med Ä/Ö/Ü-vagnar, svenska tåg med Å/Ä/Ö, spanska tåg med Ñ och mer. Varje språkversion är en separat produkt som du kan erbjuda på Etsy.se, Gumroad eller Amazon KDP — vilket effektivt multiplicerar din katalog elva gånger från samma arbetsflöde. Ett svenskt alfabetståg kopplar "hund" till H, medan en engelsk version kopplar "dog" till D — varje arbetsblad är språkligt unikt. Flerspråkiga språkprodukter möter mindre konkurrens och attraherar internationella köpare.',
+        platform: 'Etsy / Amazon KDP / Gumroad (flerspråkigt)',
       },
       {
-        title: 'Bokstavsigenkänning för klassrummet och privatundervisning',
+        title: 'Bokstavsigenkänning online och privatundervisning',
         description:
-          'Generera anpassade alfabetståg arbetsblad skräddarsydda för varje elevs aktuella bokstavskunskap. Använd det Manuella läget för att välja de specifika bokstäver en elev arbetar med, och justera antalet ledtrådar efter nivån. Skriv ut snabba tåg med 3 ledtrådar för nybörjarläsare och fullständiga tåg med 11 ledtrådar för elever som är redo för en utmaning — allt under samma session. Tågformatet förvandlar bokstavsövning till ett kopplingsspel som håller unga elever engagerade, och det automatiska facit sparar rättningstid.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Generera anpassade alfabetståg arbetsblad skräddarsydda för varje användares aktuella bokstavskunskap. Använd det Manuella läget för att välja de specifika bokstäver en användare arbetar med, och justera antalet ledtrådar efter nivån. Skriv ut snabba tåg med 3 ledtrådar för nybörjarläsare och fullständiga tåg med 11 ledtrådar för användare som är redo för en utmaning — allt under samma session. Tågformatet förvandlar bokstavsövning till ett kopplingsspel som håller unga användare engagerade, och det automatiska facit sparar upplevt värde.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Vad är alfabetståg arbetsbladsformatet?',
       answer:
-        'Varje arbetsblad innehåller 11 färgglada tågvagnar. Varje vagn innehåller en bokstav kopplad till en matchande bild vars namn börjar med den bokstaven. Under eller bredvid tåget visas ledtrådsbilder som eleverna måste koppla till rätt vagn. Formatet kombinerar bokstavsigenkänning med visuell koppling, vilket gör det mer engagerande än vanliga alfabetövningsblad.',
+        'Varje arbetsblad innehåller 11 färgglada tågvagnar. Varje vagn innehåller en bokstav kopplad till en matchande bild vars namn börjar med den bokstaven. Under eller bredvid tåget visas ledtrådsbilder som användarna måste koppla till rätt vagn. Formatet kombinerar bokstavsigenkänning med visuell koppling, vilket gör det mer engagerande än vanliga alfabetövningsblad.',
     },
     {
       question: 'Vilka är de två skapandelägena?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar ledtrådssystemet?',
       answer:
-        'Ledtrådar är bildledtrådar som visas separat från tågvagnarna. Eleverna granskar varje ledtrådsbild, identifierar vad den föreställer, bestämmer begynnelsebokstaven och kopplar den till rätt vagn. Du kan ställa in var som helst från 3 till 11 ledtrådar per arbetsblad — färre ledtrådar gör aktiviteten enklare, fler ledtrådar ökar utmaningen. För säljare gör detta justerbara ledtrådsintervall det möjligt att skapa paket baserade på svårighetsgrad från ett enda verktyg.',
+        'Ledtrådar är bildledtrådar som visas separat från tågvagnarna. användarna granskar varje ledtrådsbild, identifierar vad den föreställer, bestämmer begynnelsebokstaven och kopplar den till rätt vagn. Du kan ställa in var som helst från 3 till 11 ledtrådar per arbetsblad — färre ledtrådar gör aktiviteten enklare, fler ledtrådar ökar utmaningen. För säljare gör detta justerbara ledtrådsintervall det möjligt att skapa paket baserade på svårighetsgrad från ett enda verktyg.',
     },
     {
       question: 'Varför finns det alltid 11 bokstäver på varje arbetsblad?',
       answer:
-        'Tågformatet använder 11 vagnar för att balansera visuell effekt och läsbarhet på en sida. Elva bokstäver erbjuder betydande övning utan överbelastning, och det udda antalet förhindrar att eleverna löser de sista bokstäverna genom enkel eliminering. Varje arbetsblad täcker nästan halva alfabetet, så två kompletterande arbetsblad kan täcka alla bokstäver.',
+        'Tågformatet använder 11 vagnar för att balansera visuell effekt och läsbarhet på en sida. Elva bokstäver erbjuder betydande övning utan överbelastning, och det udda antalet förhindrar att användarna löser de sista bokstäverna genom enkel eliminering. Varje arbetsblad täcker nästan halva alfabetet, så två kompletterande arbetsblad kan täcka alla bokstäver.',
     },
     {
       question: 'Är Alfabetståg-appen språkkänslig?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Skapar generatorn automatiskt facit?',
       answer:
-        'Ja. Klicka på knappen Generera Facit för att skapa en löst version som visar varje vagn med rätt bokstav-bildkoppling och alla ledtrådar besvarade. Du kan förhandsgranska det på skärmen och ladda ner det som en separat JPEG- eller PDF-fil för att inkludera i lärarupplagor eller produktpaket. Ett färdigt facit tillför upplevt värde till dina erbjudanden och låter dig annonsera "facit inkluderat" — en detalj som köpare på Etsy.se och TPT specifikt filtrerar efter.',
+        'Ja. Klicka på knappen Generera Facit för att skapa en löst version som visar varje vagn med rätt bokstav-bildkoppling och alla ledtrådar besvarade. Du kan förhandsgranska det på skärmen och ladda ner det som en separat JPEG- eller PDF-fil för att inkludera i facitversioner eller produktpaket. Ett färdigt facit tillför upplevt värde till dina erbjudanden och låter dig annonsera "facit inkluderat" — en detalj som köpare på Etsy.se och Gumroad specifikt filtrerar efter.',
     },
     {
       question: 'Finns det en gratis provversion?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Vad ingår i den kommersiella licensen?',
       answer:
-        'Den Kommersiella licensen erbjuder vattenstämpelfria engelska exporter med fulla försäljningsrättigheter. Full Tillgång-licensen lägger till alla 11 språk med egna alfabet, vilket multiplicerar din produktkatalog. Båda licensnivåerna ger obegränsade rättigheter att sälja på Etsy.se, Amazon KDP, Teachers Pay Teachers, din egen webbplats eller vilken annan plattform som helst — inga royalties per försäljning, inga månadsavgifter och inga produktionsbegränsningar.',
+        'Den Kommersiella licensen erbjuder vattenstämpelfria engelska exporter med fulla försäljningsrättigheter. Full Tillgång-licensen lägger till alla 11 språk med egna alfabet, vilket multiplicerar din produktkatalog. Båda licensnivåerna ger obegränsade rättigheter att sälja på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst — inga royalties per försäljning, inga månadsavgifter och inga produktionsbegränsningar.',
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina alfabetståg arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska läromedel på TPT, eller via vilken annan försäljningskanal som helst. Det unika tågformatet och den flerspråkiga förmågan ger dig stark differentiering i fullsatta marknadsplatskategorier.',
+        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina alfabetståg arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska utskrivbara produkter på Gumroad, eller via vilken annan försäljningskanal som helst. Det unika tågformatet och den flerspråkiga förmågan ger dig stark differentiering i fullsatta marknadsplatskategorier.',
     },
     {
       question: 'Vad är returpolicyn?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'hemundervisning-utskriftsbara-ideer',
-      anchorText: 'Hemundervisning utskriftsbara idéer för föräldrar och lärare',
+      anchorText: 'Hemundervisning utskriftsbara idéer för föräldrar och säljare',
     },
   ],
 

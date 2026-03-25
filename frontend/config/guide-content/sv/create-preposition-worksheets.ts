@@ -24,10 +24,10 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar prepositionsarbetsblad',
     tagline: 'En steg-för-steg-guide för att skapa rumsliga språkarbetsblad med två övningslägen (Fyll-i-luckan för aktivt återkallande och Flerval för stödd övning), Formersättning som multiplicerar scenkombinationer, ett prepositions kryssrutenät för att välja exakt vilka lägesord som ska inkluderas, konfigurerbar 1–8 övningar per sida, språkkänsliga prepositionsord som översätts till inhemska motsvarigheter på 11 språk, och autogenererade facit',
-    description: 'Prepositionsarbetsblad är en visuellt engagerande rumslig språkaktivitet där elever identifierar rätt lägesord genom att studera bildscener. Till skillnad från abstrakta grammatikövningar som förlitar sig på text ger scenbaserat format konkret visuell kontext — en katt som sitter på en låda, en boll under ett bord, en fågel ovanför ett staket. Prepositions Arbetsblad-skaparen erbjuder två övningslägen: Fyll-i-luckan för aktivt återkallande och Flerval för stödd övning. Formersättning multiplicerar scenkombinationer. Språkkänsliga prepositionsord producerar genuint annorlunda språkprodukter.',
+    description: 'Prepositionsarbetsblad är en visuellt engagerande rumslig språkaktivitet där användare identifierar rätt lägesord genom att studera bildscener. Till skillnad från abstrakta grammatikövningar som förlitar sig på text ger scenbaserat format konkret visuell kontext — en katt som sitter på en låda, en boll under ett bord, en fågel ovanför ett staket. Prepositions Arbetsblad-skaparen erbjuder två övningslägen: Fyll-i-luckan för aktivt återkallande och Flerval för stödd övning. Formersättning multiplicerar scenkombinationer. Språkkänsliga prepositionsord producerar genuint annorlunda språkprodukter.',
   },
 
-  introduction: 'Rumsligt språk är en av de grundläggande kommunikationsförmågorna. Prepositioner som på, under, ovanför, bredvid, mellan, inuti och utanför definierar hur objekt relaterar till varandra i rummet. Prepositionsarbetsblad är konsekvent högefterfrågade produkter eftersom rumslig språkundervisning spänner förskola genom grundskola för modersmålstalare och är ett centralt läroplansämne i varje ESL-program.\n\nVad som gör Prepositions Arbetsblad-skaparen särskilt kraftfull är dess två övningslägen. Fyll-i-luckan presenterar en bildscen med en blank rad — elever skriver rätt preposition ur minnet. Flerval visar samma scen med valbara alternativ. Att ha båda lägena innebär differentierade produkter från samma visuella innehåll.\n\nFormersättning är den framstående funktionen — ett separat bildlager för scenformer (låda, bord, hylla, korg) som du kan byta oberoende från huvudbilderna. Kombinera 10 huvudbilder med 10 former och du får 100 unika övningsscener.\n\nPrepositions kryssrutenätet låter dig välja exakt vilka av de 7 lägesorden som ska inkluderas: på, under, ovanför, bredvid, mellan, inuti och utanför. Välj alla för heltäckande övning eller fokusera på en delmängd.\n\nKonfigurerbart övningsantal 1–8 per sida skapar naturliga densitetsnivåer.\n\nDen mest betydande konkurrensfördelen är språkkänsliga prepositionsord. Att byta språk uppdaterar varje lägesord till dess inhemska motsvarighet. Engelska "on" blir tyska "auf," franska "sur," spanska "sobre" och svenska "på." Verktyget stöder 11 språk med korrekta inhemska prepositionsord. En designsession producerar 11 säljbara produkter.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Rumsligt språk är en av de grundläggande kommunikationsförmågorna. Prepositioner som på, under, ovanför, bredvid, mellan, inuti och utanför definierar hur objekt relaterar till varandra i rummet. Prepositionsarbetsblad är konsekvent högefterfrågade produkter eftersom rumslig språkundervisning spänner förskola genom grundskola för modersmålstalare och är ett centralt produktkatalogsämne i varje ESL-program.\n\nVad som gör Prepositions Arbetsblad-skaparen särskilt kraftfull är dess två övningslägen. Fyll-i-luckan presenterar en bildscen med en blank rad — användare skriver rätt preposition ur minnet. Flerval visar samma scen med valbara alternativ. Att ha båda lägena innebär nivågrupperade produkter från samma visuella innehåll.\n\nFormersättning är den framstående funktionen — ett separat bildlager för scenformer (låda, bord, hylla, korg) som du kan byta oberoende från huvudbilderna. Kombinera 10 huvudbilder med 10 former och du får 100 unika övningsscener.\n\nPrepositions kryssrutenätet låter dig välja exakt vilka av de 7 lägesorden som ska inkluderas: på, under, ovanför, bredvid, mellan, inuti och utanför. Välj alla för heltäckande övning eller fokusera på en delmängd.\n\nKonfigurerbart övningsantal 1–8 per sida skapar naturliga densitetsnivåer.\n\nDen mest betydande konkurrensfördelen är språkkänsliga prepositionsord. Att byta språk uppdaterar varje lägesord till dess inhemska motsvarighet. Engelska "on" blir tyska "auf," franska "sur," spanska "sobre" och svenska "på." Verktyget stöder 11 språk med korrekta inhemska prepositionsord. En designsession producerar 11 säljbara produkter.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -40,11 +40,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj ditt övningsläge',
-      content: 'Fyll-i-luckan: bildscen med en blank rad där elever skriver rätt preposition ur minnet. Aktivt återkallande som testar djupare förståelse. Idealiskt för äldre elever (årskurs 2+), mellannivå ESL-inlärare och utvärdering.\n\nFlerval: samma bildscen med valbara alternativ. Stödd övning som minskar frustration. Inkluderar en anpassningsbar instruktionsrad som du kan redigera. Idealiskt för nybörjare och yngre barn.\n\nBåda lägena producerar samma professionella kvalitet. Många säljare skapar båda versioner och säljer dem som differentierade set.',
+      content: 'Fyll-i-luckan: bildscen med en blank rad där användare skriver rätt preposition ur minnet. Aktivt återkallande som testar djupare förståelse. Idealiskt för äldre användare (årskurs 2+), mellannivå ESL-inlärare och utvärdering.\n\nFlerval: samma bildscen med valbara alternativ. Stödd övning som minskar frustration. Inkluderar en anpassningsbar instruktionsrad som du kan redigera. Idealiskt för nybörjare och yngre barn.\n\nBåda lägena producerar samma professionella kvalitet. Många säljare skapar båda versioner och säljer dem som nivågrupperade set.',
     },
     {
       heading: 'Välj prepositioner',
-      content: 'Prepositions kryssrutenätet visar alla 7 lägesord för det valda språket. Bocka i de du vill inkludera: på, under, ovanför, bredvid, mellan, inuti och utanför.\n\nStrategiskt val skapar premiumprodukter. "Inuti" och "utanför" för inneslutningsfokuserade arbetsblad. "Mellan" och "bredvid" för lägesord som elever ofta förväxlar. "På," "under" och "ovanför" för vertikala rumsliga relationer.\n\nKryssrutenätet uppdateras automatiskt vid språkbyte. Engelska visar "on, under, above, beside, between, inside, outside." Tyska visar "auf, unter, über, neben, zwischen, drinnen, draußen." Svenska visar "på, under, ovanför, bredvid, mellan, inuti, utanför."',
+      content: 'Prepositions kryssrutenätet visar alla 7 lägesord för det valda språket. Bocka i de du vill inkludera: på, under, ovanför, bredvid, mellan, inuti och utanför.\n\nStrategiskt val skapar premiumprodukter. "Inuti" och "utanför" för inneslutningsfokuserade arbetsblad. "Mellan" och "bredvid" för lägesord som användare ofta förväxlar. "På," "under" och "ovanför" för vertikala rumsliga relationer.\n\nKryssrutenätet uppdateras automatiskt vid språkbyte. Engelska visar "on, under, above, beside, between, inside, outside." Tyska visar "auf, unter, über, neben, zwischen, drinnen, draußen." Svenska visar "på, under, ovanför, bredvid, mellan, inuti, utanför."',
     },
     {
       heading: 'Välj bilder och tema',
@@ -67,48 +67,48 @@ const content: GuideContent = {
   platformTips: [
     {
       heading: 'Sälja prepositionsarbetsblad på Etsy',
-      content: 'Etsy är utmärkt — föräldrar, lärare och ESL-instruktörer söker visuella rumsliga aktiviteter. Namnge med specifikt övningsläge, prepositionsfokus och tema. "Djur prepositionsarbetsblad — 15 fyll-i-luckan — På under ovanför bredvid mellan — Med facit."\n\nTaggar: använd alla 13. "prepositionsarbetsblad," "rumsligt språk aktiviteter," "lägesord utskrifter," "fyll i luckan preposition," "ESL prepositionsaktiviteter."\n\nPrissättning: enstaka lägesset 10–15 arbetsblad $2,99–$5,99. Differentierade set med båda lägen $6,99–$9,99. Kompletta samlingar $14,99–$24,99.',
+      content: 'Etsy är utmärkt — föräldrar, säljare och ESL-instruktörer söker visuella rumsliga aktiviteter. Namnge med specifikt övningsläge, prepositionsfokus och tema. "Djur prepositionsarbetsblad — 15 fyll-i-luckan — På under ovanför bredvid mellan — Med facit."\n\nTaggar: använd alla 13. "prepositionsarbetsblad," "rumsligt språk aktiviteter," "lägesord utskrifter," "fyll i luckan preposition," "ESL prepositionsaktiviteter."\n\nPrissättning: enstaka lägesset 10–15 arbetsblad $2,99–$5,99. nivågrupperade set med båda lägen $6,99–$9,99. Kompletta samlingar $14,99–$24,99.',
     },
     {
       heading: 'Sälja prepositionsarbetsblad på Amazon KDP',
       content: 'Samla 50–80 arbetsblad med progressiv svårighet. Tidiga kapitel: Flerval med grundläggande prepositioner (på, under, inuti) och 2–3 övningar per sida. Mittkapitel: Fyll-i-luckan med utökade prepositioner och 4–5 övningar. Slutkapitel: Fyll-i-luckan med alla 7 och 6–8 övningar. Facitsidor per kapitel.\n\nTitel och undertitel: Exempeltitel "Preposition Activity Book for Kids." Exempel-undertitel "80 Spatial Language Worksheets with Answer Keys for Ages 4–8."\n\nGråskaleläge för bläcksnål utskrift som fungerar identiskt.',
     },
     {
-      heading: 'Sälja prepositionsarbetsblad på Teachers Pay Teachers',
-      content: 'TPT är idealiskt — rumslig språkundervisning är ett återkommande behov i förskola genom grundskola och en kärna i ESL-läroplaner.\n\nProduktbeskrivningar: målålder, färdigheter, antal arbetsblad per läge, om facit ingår, vilka prepositioner, teman, språktillgänglighet. Förklara de två övningslägena.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med båda lägen, ett facit.\n\nPaketering: "Komplett prepositionspaket" med alla 7 lägesord i båda lägen. Prepositionsgrupperade set.\n\nTPT-nyckelord: "prepositionsarbetsblad," "rumsligt språk," "lägesord grammatik," "var är det arbetsblad," "ESL prepositionsaktiviteter," "differentierade grammatikarbetsblad."',
+      heading: 'Sälja prepositionsarbetsblad på Gumroad',
+      content: 'Gumroad är idealiskt — rumslig språkundervisning är ett återkommande behov i förskola genom grundskola och en kärna i ESL-produktkataloger.\n\nProduktbeskrivningar: målålder, färdigheter, antal arbetsblad per läge, om facit ingår, vilka prepositioner, teman, språktillgänglighet. Förklara de två övningslägena.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med båda lägen, ett facit.\n\nPaketering: "Komplett prepositionspaket" med alla 7 lägesord i båda lägen. Prepositionsgrupperade set.\n\nGumroad-nyckelord: "prepositionsarbetsblad," "rumsligt språk," "lägesord grammatik," "var är det arbetsblad," "ESL prepositionsaktiviteter," "nivågrupperade grammatikarbetsblad."',
     },
   ],
 
   monetization: [
     {
       heading: 'Prissättning av dina prepositionsarbetsblad',
-      content: 'Enstaka-läge temaset med 10–15 arbetsblad och facit: $2,99–$5,99. Instegsprodukter.\n\nDifferentierade set med båda Fyll-i-luckan och Flerval: $6,99–$12,99. Starkt upplevt värde.\n\nKompletta samlingar med 40–60 arbetsblad: $14,99–$24,99. Heltäckande rumsligt språkbibliotek.\n\nUnderprissätt inte. Scenbaserat visuellt format, dubbla övningslägen, Formersättning, 7-prepositions kryssruta, språkkänsliga lägesord och autogenererade facit är en premiumprodukt.',
+      content: 'Enstaka-läge temaset med 10–15 arbetsblad och facit: $2,99–$5,99. Instegsprodukter.\n\nnivågrupperade set med båda Fyll-i-luckan och Flerval: $6,99–$12,99. Starkt upplevt värde.\n\nKompletta samlingar med 40–60 arbetsblad: $14,99–$24,99. Heltäckande rumsligt språkbibliotek.\n\nUnderprissätt inte. Scenbaserat visuellt format, dubbla övningslägen, Formersättning, 7-prepositions kryssruta, språkkänsliga lägesord och autogenererade facit är en premiumprodukt.',
     },
     {
       heading: 'Paketeringsstrategier',
-      content: 'Övningslägespaket: "Fyll-i-luckan prepositioner" riktar sig mot äldre elever. "Flerval prepositioner" mot nybörjare.\n\nDifferentierade paket: båda lägen för samma tema — 10 + 10 arbetsblad. Premiumpris.\n\nPrepositionsgrupperade paket: "Vertikala prepositioner" (på, under, ovanför). "Proximitetpaket" (bredvid, mellan). "Inneslutningspaket" (inuti, utanför). "Komplett set" (alla 7).\n\nFormersättnings variationspaket: 10 bilder × 10 former = 100 unika scener. "100-sidors prepositions megapaket."\n\nFlerspråkiga paket: språkkänsliga lägesord möjliggör genuint annorlunda språkprodukter. "Flerspråkiga prepositioner" i 5+ språk till premiumpriser.',
+      content: 'Övningslägespaket: "Fyll-i-luckan prepositioner" riktar sig mot äldre användare. "Flerval prepositioner" mot nybörjare.\n\nnivågrupperade paket: båda lägen för samma tema — 10 + 10 arbetsblad. Premiumpris.\n\nPrepositionsgrupperade paket: "Vertikala prepositioner" (på, under, ovanför). "Proximitetpaket" (bredvid, mellan). "Inneslutningspaket" (inuti, utanför). "Komplett set" (alla 7).\n\nFormersättnings variationspaket: 10 bilder × 10 former = 100 unika scener. "100-sidors prepositions megapaket."\n\nFlerspråkiga paket: språkkänsliga lägesord möjliggör genuint annorlunda språkprodukter. "Flerspråkiga prepositioner" i 5+ språk till premiumpriser.',
     },
     {
       heading: 'Flerspråkig produktstrategi',
-      content: 'Det språkkänsliga prepositionssystemet skapar en konkurrensfördel. Varje preposition visas i det valda språkets inhemska motsvarighet — inte bara en översatt rubrik utan de faktiska lägesord som elever läser och skriver.\n\nKonkreta exempel: En katt på en låda — engelska "on," tyska "auf," franska "sur," spanska "sobre," svenska "på." En boll under ett bord — engelska "under," tyska "unter," franska "sous."\n\nEn designsession producerar 11 säljbara språkversioner. Lista språkspecifika produkter. Publicera språkspecifika KDP-interiörer. Lista på TPT för ESL-lärare.\n\nPrepositioner är ett av de svåraste aspekterna av språkinlärning — varje ESL-program ägnar betydande tid åt lägesord. Tvåspråkiga familjer och internationella skolor behöver övningsmaterial. Anmärkningsvärt få säljare erbjuder scenbaserade visuella prepositionsarbetsblad på andra språk än engelska.',
+      content: 'Det språkkänsliga prepositionssystemet skapar en konkurrensfördel. Varje preposition visas i det valda språkets inhemska motsvarighet — inte bara en översatt rubrik utan de faktiska lägesord som användare läser och skriver.\n\nKonkreta exempel: En katt på en låda — engelska "on," tyska "auf," franska "sur," spanska "sobre," svenska "på." En boll under ett bord — engelska "under," tyska "unter," franska "sous."\n\nEn designsession producerar 11 säljbara språkversioner. Lista språkspecifika produkter. Publicera språkspecifika KDP-interiörer. Lista på Gumroad för ESL-säljare.\n\nPrepositioner är ett av de svåraste aspekterna av språkinlärning — varje ESL-program ägnar betydande tid åt lägesord. Tvåspråkiga familjer och internationella skolor behöver övningsmaterial. Anmärkningsvärt få säljare erbjuder scenbaserade visuella prepositionsarbetsblad på andra språk än engelska.',
     },
   ],
 
   examples: [
     {
       heading: 'Produktvariationer efter övningsläge och densitet',
-      content: 'Förskola rumsligt startpaket — Flerval med 2–3 övningar: djur eller leksaksteman, grundläggande prepositioner (på, under, inuti), 10–12 arbetsblad med Formersättning. "Enkla prepositionsaktiviteter för förskola" till $3,99–$5,99.\n\nGrundskola differentierat set — båda lägen med 4–5 övningar: Flerval för elever som behöver stöd, Fyll-i-luckan för elever redo för självständigt återkallande. Alla 7 prepositioner. 20 arbetsblad till $7,99–$9,99.\n\nESL utvärderingspaket — Fyll-i-luckan med 6–8 övningar: tät format med aktivt återkallande. Fokus på vanligt förväxlade par (bredvid vs mellan). 15–20 arbetsblad till $5,99–$8,99.\n\nFlerspråkigt klassrumsset: identiska tematiserade arbetsblad i 3–5 språk. "Flerspråkiga prepositioner" till $12,99–$19,99.',
+      content: 'Förskola rumsligt startpaket — Flerval med 2–3 övningar: djur eller leksaksteman, grundläggande prepositioner (på, under, inuti), 10–12 arbetsblad med Formersättning. "Enkla prepositionsaktiviteter för förskola" till $3,99–$5,99.\n\nGrundskola nivågrupperat set — båda lägen med 4–5 övningar: Flerval för användare som behöver stöd, Fyll-i-luckan för användare redo för självständigt återkallande. Alla 7 prepositioner. 20 arbetsblad till $7,99–$9,99.\n\nESL utvärderingspaket — Fyll-i-luckan med 6–8 övningar: tät format med aktivt återkallande. Fokus på vanligt förväxlade par (bredvid vs mellan). 15–20 arbetsblad till $5,99–$8,99.\n\nFlerspråkigt produktlinjesset: identiska tematiserade arbetsblad i 3–5 språk. "Flerspråkiga prepositioner" till $12,99–$19,99.',
     },
     {
       heading: 'Progressiv KDP-arbetsboksdesign',
-      content: 'Designmönster ett — övningsläges-progression: börja med Flerval (15–20 sidor) med 2–3 övningar. Progressera till Fyll-i-luckan (4–5 övningar). Slutkapitel: Fyll-i-luckan med 7–8 övningar. En komplett rumslig språkkursplan.\n\nDesignmönster två — prepositions-progression: kapitel organiserade per prepositionsgrupp. Kapitel 1: på och under. Kapitel 2: ovanför. Kapitel 3: bredvid och mellan. Kapitel 4: inuti och utanför. Slutkapitel blandar alla 7.\n\nDesignmönster tre — Formersättning variationsarbetsbok: 15 bilder × 15 former = 225 möjliga scener. Välj de starkaste 60–80. Visuell mångfald håller elever engagerade.\n\nDesignmönster fyra — flerspråkig utgåveserie: publicera samma arbetsbok på 3–5 språk. Engelska, tyska och franska utgåvor tredubblar din KDP-katalog.',
+      content: 'Designmönster ett — övningsläges-progression: börja med Flerval (15–20 sidor) med 2–3 övningar. Progressera till Fyll-i-luckan (4–5 övningar). Slutkapitel: Fyll-i-luckan med 7–8 övningar. En komplett rumslig språkproduktkatalog.\n\nDesignmönster två — prepositions-progression: kapitel organiserade per prepositionsgrupp. Kapitel 1: på och under. Kapitel 2: ovanför. Kapitel 3: bredvid och mellan. Kapitel 4: inuti och utanför. Slutkapitel blandar alla 7.\n\nDesignmönster tre — Formersättning variationsarbetsbok: 15 bilder × 15 former = 225 möjliga scener. Välj de starkaste 60–80. Visuell mångfald håller användare engagerade.\n\nDesignmönster fyra — flerspråkig utgåveserie: publicera samma arbetsbok på 3–5 språk. Engelska, tyska och franska utgåvor tredubblar din KDP-katalog.',
     },
   ],
 
   faq: [
     {
       question: 'Vilka är de två övningslägena?',
-      answer: 'Fyll-i-luckan presenterar en bildscen med en blank rad — elever skriver preposition ur minnet. Flerval visar samma scen med valbara alternativ. Flerval inkluderar en anpassningsbar instruktionsrad.',
+      answer: 'Fyll-i-luckan presenterar en bildscen med en blank rad — användare skriver preposition ur minnet. Flerval visar samma scen med valbara alternativ. Flerval inkluderar en anpassningsbar instruktionsrad.',
     },
     {
       question: 'Vad är Formersättning och hur fungerar det?',
@@ -124,7 +124,7 @@ const content: GuideContent = {
     },
     {
       question: 'Hur många övningar kan jag ha per sida?',
-      answer: 'Konfigurerbart 1–8 övningar per sida. Färre (1–3) ger varje scen mer visuellt utrymme. Fler (6–8) skapar tätare arbetsblad för äldre elever eller tidsbundna övningar. Layouten anpassas automatiskt.',
+      answer: 'Konfigurerbart 1–8 övningar per sida. Färre (1–3) ger varje scen mer visuellt utrymme. Fler (6–8) skapar tätare arbetsblad för äldre användare eller tidsbundna övningar. Layouten anpassas automatiskt.',
     },
     {
       question: 'Kan jag sälja prepositionsarbetsblad på Etsy och Amazon KDP?',
@@ -145,7 +145,7 @@ const content: GuideContent = {
     {
       slug: 'skapa-prepositioner-arbetsblad',
       title: 'Skapa gissa-ordet-arbetsblad',
-      description: 'En språkkompanjon för vokabulärbyggande. Elever som lär sig rumsliga prepositioner kan utöka sin vokabulär ytterligare.',
+      description: 'En språkkompanjon för vokabulärbyggande. användare som lär sig rumsliga prepositioner kan utöka sin vokabulär ytterligare.',
     },
     {
       slug: 'skapa-matchnings-arbetsblad',
@@ -174,12 +174,12 @@ const content: GuideContent = {
     {
       appId: 'alphabet-train',
       title: 'Alfabetståg Arbetsblad Generator',
-      description: 'En läskunnighetskompanjon som skapar bokstav-bild-matchningsarbetsblad med rumsliga tågvagnslayouter. Elever som övar rumsliga prepositioner gynnas av alfabetståg som förstärker både bokstavsigenkänning och rumslig vokabulär.',
+      description: 'En läskunnighetskompanjon som skapar bokstav-bild-matchningsarbetsblad med rumsliga tågvagnslayouter. användare som övar rumsliga prepositioner gynnas av alfabetståg som förstärker både bokstavsigenkänning och rumslig vokabulär.',
     },
     {
       appId: 'word-guess',
       title: 'Gissa Ordet Arbetsblad Generator',
-      description: 'En språkkompanjon som skapar vokabulärbyggande pussel. Elever som bemästrar rumsliga prepositioner kan utöka sin vokabulär ytterligare med gissa-ordet-aktiviteter.',
+      description: 'En språkkompanjon som skapar vokabulärbyggande pussel. användare som bemästrar rumsliga prepositioner kan utöka sin vokabulär ytterligare med gissa-ordet-aktiviteter.',
     },
     {
       appId: 'matching-app',

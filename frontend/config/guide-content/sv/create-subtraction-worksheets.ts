@@ -18,16 +18,16 @@ const content: GuideContent = {
       'kommersiell licens arbetsbladsverktyg',
     ],
     titleTag: 'Skapa subtraktionsarbetsblad — Steg-för-steg-guide',
-    metaDescription: 'Skapa subtraktionsarbetsblad för barn med överkorsade bilder, tematiska visuella element och automatiska facit. Steg-för-steg-guide för Etsy, KDP och TPT.',
+    metaDescription: 'Skapa subtraktionsarbetsblad för barn med överkorsade bilder, tematiska visuella element och automatiska facit. Steg-för-steg-guide för Etsy, KDP och Gumroad.',
   },
 
   hero: {
     title: 'Hur du skapar subtraktionsarbetsblad för barn',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska subtraktionsarbetsblad med överkorsade bilder, konfigurerbar svårighet och tryckfärdig export du kan sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
-    description: 'Subtraktionsarbetsblad är det naturliga andra steget i varje matteläroplan. När barn bemästrar addition följer subtraktion omedelbart — och efterfrågan på övningsmaterial likaså. Denna guide leder dig genom hela skapandeprocessen med Subtraktionsarbetsblad-generatorn — från att ställa in Max Minuend och välja ett visuellt tema till att exportera tryckfärdiga PDF:er med automatiska facit. Generatorns signaturfeature är övningsläget med överkorsade bilder, där barn ser en grupp tematiska bilder med några visuellt överkorsade och måste bestämma hur många som finns kvar.',
+    tagline: 'En steg-för-steg-guide för att skapa tematiska subtraktionsarbetsblad med överkorsade bilder, konfigurerbar svårighet och tryckfärdig export du kan sälja på Etsy, Amazon KDP och Gumroad',
+    description: 'Subtraktionsarbetsblad är det naturliga andra steget i varje matteproduktkatalog. När barn bemästrar addition följer subtraktion omedelbart — och efterfrågan på övningsmaterial likaså. Denna guide leder dig genom hela skapandeprocessen med Subtraktionsarbetsblad-generatorn — från att ställa in Max Minuend och välja ett visuellt tema till att exportera tryckfärdiga PDF:er med automatiska facit. Generatorns signaturfeature är övningsläget med överkorsade bilder, där barn ser en grupp tematiska bilder med några visuellt överkorsade och måste bestämma hur många som finns kvar.',
   },
 
-  introduction: 'Subtraktion är den andra aritmetiska operationen barn lär sig, och den följer addition i varje läroplan världen över. Den sekvensen skapar ett pålitligt efterfrågemönster: var additions arbetsblad säljer, säljer subtraktionsarbetsblad strax efter. Köpare som köper dina additionsprodukter söker aktivt efter matchande subtraktionsmaterial.\n\nVad som gör subtraktionsarbetsblad distinkta som produkt är det visuella elementet. Medan additionsarbetsblad visar grupper som kombineras, visar subtraktionsarbetsblad föremål som tas bort — typiskt genom överkorsade bilder. Denna visuella representation av "ta bort" är hur barn först förstår subtraktion konceptuellt.\n\nSubtraktionsarbetsblad-generatorn hanterar all teknisk komplexitet. Den placerar tematiska bilder, markerar korrekt antal som överkorsade, genererar motsvarande ekvation och producerar automatiska facit. Generatorn stöder fyra övningslägen — Korsning, Bild – Tal, Hitta subtrahend och Blandat — var och en för olika inlärningssteg. Svårighet kontrolleras genom Max Minuend-inställningen.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Subtraktion är den andra aritmetiska operationen barn lär sig, och den följer addition i varje produktkatalog världen över. Den sekvensen skapar ett pålitligt efterfrågemönster: var additions arbetsblad säljer, säljer subtraktionsarbetsblad strax efter. Köpare som köper dina additionsprodukter söker aktivt efter matchande subtraktionsmaterial.\n\nVad som gör subtraktionsarbetsblad distinkta som produkt är det visuella elementet. Medan additionsarbetsblad visar grupper som kombineras, visar subtraktionsarbetsblad föremål som tas bort — typiskt genom överkorsade bilder. Denna visuella representation av "ta bort" är hur barn först förstår subtraktion konceptuellt.\n\nSubtraktionsarbetsblad-generatorn hanterar all teknisk komplexitet. Den placerar tematiska bilder, markerar korrekt antal som överkorsade, genererar motsvarande ekvation och producerar automatiska facit. Generatorn stöder fyra övningslägen — Korsning, Bild – Tal, Hitta subtrahend och Blandat — var och en för olika inlärningssteg. Svårighet kontrolleras genom Max Minuend-inställningen.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -44,7 +44,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Konfigurera arbetsbladslayouten',
-      content: 'Antal övningar: 1–10 per arbetsblad. Förskola med stora överkorsade bilder: 4–6. Äldre barn: 8–10.\n\nSidstorlek: US Letter stående/liggande, A4 stående/liggande, kvadrat, anpassade dimensioner.\n\nNamn- och datumfält: lärare föredrar starkt dessa.\n\nÖvningsnummer: numrerar varje problem sekventiellt.\n\nBarnvänlig svarsruta: rundad, visuellt distinkt ruta.\n\nSidfärg: vitt standard.',
+      content: 'Antal övningar: 1–10 per arbetsblad. Förskola med stora överkorsade bilder: 4–6. Äldre barn: 8–10.\n\nSidstorlek: US Letter stående/liggande, A4 stående/liggande, kvadrat, anpassade dimensioner.\n\nNamn- och datumfält: säljare föredrar starkt dessa.\n\nÖvningsnummer: numrerar varje problem sekventiellt.\n\nläsbar svarsruta: rundad, visuellt distinkt ruta.\n\nSidfärg: vitt standard.',
     },
     {
       heading: 'Generera och förhandsgranska ditt arbetsblad',
@@ -52,7 +52,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Granska det automatiska facit',
-      content: 'Varje genererat arbetsblad inkluderar facit. Klicka Facit-fliken.\n\nFacit speglar layouten med korrekta svar ifyllda.\n\nLärare: effektiv rättning. Föräldrar: verifiering.\n\nFacit beräknas automatiskt — du behöver aldrig verifiera svar manuellt.\n\nNämn alltid facit framträdande. "Med facit" är en vanligt sökt kvalificerare.',
+      content: 'Varje genererat arbetsblad inkluderar facit. Klicka Facit-fliken.\n\nFacit speglar layouten med korrekta svar ifyllda.\n\nsäljare: effektiv rättning. Föräldrar: verifiering.\n\nFacit beräknas automatiskt — du behöver aldrig verifiera svar manuellt.\n\nNämn alltid facit framträdande. "Med facit" är en vanligt sökt kvalificerare.',
     },
     {
       heading: 'Exportera som tryckfärdig PDF och JPEG',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'KDP är idealiskt. Samla 50–100 arbetsblad med svårighetsprogression. Börja med Max Minuend 5 och Korsningsläge, progressera genom Bild–Tal och Hitta subtrahend till Max Minuend 20.\n\nTitel och undertitel: Exempeltitel "Subtraction Worksheets for Kindergarten." Exempel-undertitel "100 Visual Subtraction Practice Pages with Crossed-Out Images and Answer Keys for Kids Ages 5–7."\n\nNyckelord: "subtraction worksheets kindergarten," "take away math practice," "visual subtraction workbook."\n\nOmslagsdesign: visa de överkorsade bilderna så köpare omedelbart förstår formatet.',
     },
     {
-      heading: 'Sälja subtraktionsarbetsblad på Teachers Pay Teachers',
-      content: 'TPT riktar sig till klassrumspedagoger. Subtraktionsarbetsblad säljer bra som komplement till additionsresurser.\n\nProduktbeskrivningar: årskurs, övningslägen (Korsning, Bild–Tal, Hitta subtrahend, Blandat), Max Minuend-intervall, antal sidor, om facit ingår.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med olika övningslägen.\n\nPaketering: "Additions- och subtraktionspaket" är en naturlig komplett paketprodukt.\n\nTPT-nyckelord: "mattecentra subtraktion," "ta bort arbetsblad," "subtraktionsövning," "visuell subtraktion."',
+      heading: 'Sälja subtraktionsarbetsblad på Gumroad',
+      content: 'Gumroad riktar sig till produktlinjessäljare. Subtraktionsarbetsblad säljer bra som komplement till additionsresurser.\n\nProduktbeskrivningar: årskurs, övningslägen (Korsning, Bild–Tal, Hitta subtrahend, Blandat), Max Minuend-intervall, antal sidor, om facit ingår.\n\nFörhandsgranskningsfiler: 2–3 provarbetsblad med olika övningslägen.\n\nPaketering: "Additions- och subtraktionspaket" är en naturlig komplett paketprodukt.\n\nGumroad-nyckelord: "mattecentra subtraktion," "ta bort arbetsblad," "subtraktionsövning," "visuell subtraktion."',
     },
   ],
 
@@ -90,7 +90,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Säsongsbetonade och trendande möjligheter',
-      content: 'Subtraktionsarbetsblad har helårs baslinjeefterfrågan med förutsägbara toppar.\n\nSkolstart (augusti–september): störst. Lärare handlar klassrumsresurser.\n\nHögtider: tematiserade arbetsblad med överkorsade halloweenpumpor, julgranor, hjärtan. Visuellt slående.\n\nSommarovning (juni–juli): föräldrar söker "sommar matteövning."\n\nNyår (januari): nya utbildningsmål.\n\nÖverkorsade bilder är särskilt visuellt tilltalande för säsongsteman — överkorsade snöflingor, kupidfigurer eller påskägg skapar omedelbart engagerande miniatyrbilder.',
+      content: 'Subtraktionsarbetsblad har helårs baslinjeefterfrågan med förutsägbara toppar.\n\nSkolstart (augusti–september): störst. säljare handlar produktlinjesresurser.\n\nHögtider: tematiserade arbetsblad med överkorsade halloweenpumpor, julgranor, hjärtan. Visuellt slående.\n\nSommarovning (juni–juli): föräldrar söker "sommar matteövning."\n\nNyår (januari): nya utbildningsmål.\n\nÖverkorsade bilder är särskilt visuellt tilltalande för säsongsteman — överkorsade snöflingor, kupidfigurer eller påskägg skapar omedelbart engagerande miniatyrbilder.',
     },
   ],
 

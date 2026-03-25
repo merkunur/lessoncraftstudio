@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Matte Arbetsblad Generator',
     tagline: 'Skapa visuella algebrapussel med bilder som variabler på under 60 sekunder',
-    description: 'Gå bortom vanliga räkneövningar med algebra bildpussel som utmanar eleverna att tänka i ekvationssystem. Varje arbetsblad presenterar en uppsättning sammankopplade ekvationer där bilder ersätter okända variabler — eleverna måste bestämma det numeriska värdet som varje bild representerar. Fyra svårighetsnivåer skalar från två symboler med enkel addition till fyra simultana okända med blandade operationer. En inbyggd algebraisk lösare garanterar att varje pussel har exakt en korrekt lösning — ingen tvetydighet, ingen gissning. Välj Bara Addition för fokuserad övning eller Addition och Subtraktion för avancerad problemlösning. Ställ in talområdet, växla negativa resultat för äldre elever, och kontrollera pussel per sida från 1 till 6 med automatisk layout. Välj bilder individuellt, ladda en hel temauppsättning, eller ladda upp din egen PNG eller JPEG för varumärkta pussel. Eftersom pusslen bara använder bilder och siffror fungerar de identiskt på varje språk — sälj samma PDF globalt utan översättning. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Gå bortom vanliga räkneövningar med algebra bildpussel som utmanar användarna att tänka i ekvationssystem. Varje arbetsblad presenterar en uppsättning sammankopplade ekvationer där bilder ersätter okända variabler — användarna måste bestämma det numeriska värdet som varje bild representerar. Fyra svårighetsnivåer skalar från två symboler med enkel addition till fyra simultana okända med blandade operationer. En inbyggd algebraisk lösare garanterar att varje pussel har exakt en korrekt lösning — ingen tvetydighet, ingen gissning. Välj Bara Addition för fokuserad övning eller Addition och Subtraktion för avancerad problemlösning. Ställ in talområdet, växla negativa resultat för äldre användare, och kontrollera pussel per sida från 1 till 6 med automatisk layout. Välj bilder individuellt, ladda en hel temauppsättning, eller ladda upp din egen PNG eller JPEG för varumärkta pussel. Eftersom pusslen bara använder bilder och siffror fungerar de identiskt på varje språk — sälj samma PDF globalt utan översättning. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera talområde och alternativ',
-        description: 'Ställ in minimi- och maxvärden för ekvationerna (standard 0–20). För avancerade elever, aktivera «Tillåt Negativa Resultat»-växlingen så subtraktionsekvationer kan producera värden under noll. Dessa kontroller låter dig matcha varje arbetsblad exakt efter din målgrupps ålder och läroplansnivå.',
+        description: 'Ställ in minimi- och maxvärden för ekvationerna (standard 0–20). För avancerade användare, aktivera «Tillåt Negativa Resultat»-växlingen så subtraktionsekvationer kan producera värden under noll. Dessa kontroller låter dig matcha varje arbetsblad exakt efter din målgrupps ålder och produktkatalogsnivå.',
       },
       {
         title: 'Välj dina bilder',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till text, numrering och ställ in pussel per sida',
-        description: 'Lägg till en titel, undertitel eller anpassat textblock på ditt arbetsblad. Aktivera automatisk numrering över sidor. Använd kontrollen «Pussel Per Sida» för att placera 1 till 6 pussel på varje blad — layouten justeras automatiskt. Färre pussel per sida ger eleverna mer arbetsutrymme; fler pussel per sida skapar kompakta övningsblad.',
+        description: 'Lägg till en titel, undertitel eller anpassat textblock på ditt arbetsblad. Aktivera automatisk numrering över sidor. Använd kontrollen «Pussel Per Sida» för att placera 1 till 6 pussel på varje blad — layouten justeras automatiskt. Färre pussel per sida ger användarna mer arbetsutrymme; fler pussel per sida skapar kompakta övningsblad.',
       },
       {
         title: 'Generera, granska och ladda ner',
@@ -65,23 +65,23 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiska visuella algebrapaket',
-      description: 'Skapa uppsättningar av 15–20 algebra bildpussel med tematiska bildsymboler från biblioteket — dinosaurier, rymden, djur, fordon. Varje pussel använder olika bilder som variabler med konsekvent svårighet. Paketera efter tema och sälj på Etsy eller Teachers Pay Teachers. Det visuella algebraformatet är genuint unikt och gör att din annonseringsminiatyr direkt sticker ut från vanliga mattearbetsblad. Tematiska paket uppmuntrar också till återköp eftersom köpare som gillar ett tema ofta återvänder för andra.',
+      description: 'Skapa uppsättningar av 15–20 algebra bildpussel med tematiska bildsymboler från biblioteket — dinosaurier, rymden, djur, fordon. Varje pussel använder olika bilder som variabler med konsekvent svårighet. Paketera efter tema och sälj på Etsy eller Gumroad. Det visuella algebraformatet är genuint unikt och gör att din annonseringsminiatyr direkt sticker ut från vanliga mattearbetsblad. Tematiska paket uppmuntrar också till återköp eftersom köpare som gillar ett tema ofta återvänder för andra.',
     },
     {
       title: 'KDP progressiva algebra-arbetsböcker',
-      description: 'Sammanställ 60–100 sidor med algebra bildpussel strukturerade efter svårighet. Börja med Väldigt Lätt (2 symboler, bara addition) och avancera genom Lätt, Medel till Svår (4 okända, blandade operationer). Publicera som en strukturerad matteaktivitets-arbetsbok på Amazon KDP. Den progressiva svårigheten skapar en naturlig läroplan som föräldrar och lärare kan följa från pärm till pärm.',
+      description: 'Sammanställ 60–100 sidor med algebra bildpussel strukturerade efter svårighet. Börja med Väldigt Lätt (2 symboler, bara addition) och avancera genom Lätt, Medel till Svår (4 okända, blandade operationer). Publicera som en strukturerad matteaktivitets-arbetsbok på Amazon KDP. Den progressiva svårigheten skapar en naturlig produktkatalog som föräldrar och säljare kan följa från pärm till pärm.',
     },
     {
-      title: 'Differentierade klassrumsuppsättningar',
-      description: 'Generera fyra versioner av samma tematiska pussel på varje svårighetsnivå: Väldigt Lätt, Lätt, Medel och Svår. Lärare ger rätt version till varje elev baserat på förmåga. Alla versioner använder samma bildtema så eleverna känner sig inkluderade snarare än utpekade. Sälj som ett differentierat paket till ett premiumpris på TPT.',
+      title: 'nivågrupperade produktlinjesuppsättningar',
+      description: 'Generera fyra versioner av samma tematiska pussel på varje svårighetsnivå: Väldigt Lätt, Lätt, Medel och Svår. säljare ger rätt version till varje användare baserat på förmåga. Alla versioner använder samma bildtema så användarna känner sig inkluderade snarare än utpekade. Sälj som ett nivågrupperat paket till ett premiumpris på Gumroad.',
     },
     {
       title: 'Anpassade bildvarumärkta pussel',
-      description: 'Ladda upp egna illustrationer, logotyper eller licensierat konstverk för att skapa algebrapussel som ingen konkurrent kan replikera. De uppladdade bilderna blir variabelsymbolerna i varje ekvation. Perfekt för att bygga ett distinkt visuellt varumärke på Etsy, skapa personaliserat klassrumsmaterial eller designa anpassade matteaktiviteter för lektionsverksamheter.',
+      description: 'Ladda upp egna illustrationer, logotyper eller licensierat konstverk för att skapa algebrapussel som ingen konkurrent kan replikera. De uppladdade bilderna blir variabelsymbolerna i varje ekvation. Perfekt för att bygga ett distinkt visuellt varumärke på Etsy, skapa personaliserat produktlinjesmaterial eller designa anpassade matteaktiviteter för lektionsverksamheter.',
     },
     {
       title: 'Säsongsbetonade algebrapaket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Algebrapussel»-paket med festliga symbolbilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och TPT. Algebraformatet lägger till upplevd svårighet och värde utöver enkel aritmetik.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Algebrapussel»-paket med festliga symbolbilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Algebraformatet lägger till upplevd svårighet och värde utöver enkel aritmetik.',
     },
     {
       title: 'Blandad svårighets-provpaket',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers premium algebrapaket',
-      description: 'Ladda upp differentierade algebrapussel-paket till TPT. Lärare söker ständigt efter «algebra arbetsblad» och «mattepussel». Inkludera alla fyra svårighetsnivåer, båda operationslägena, facit och en lärarguide som förklarar hur det visuella algebraformatet fungerar. Den garanterade lösningsfunktionen lägger till trovärdighet som lärare värdesätter.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad premium algebrapaket',
+      description: 'Ladda upp nivågrupperade algebrapussel-paket till Gumroad. säljare söker ständigt efter «algebra arbetsblad» och «mattepussel». Inkludera alla fyra svårighetsnivåer, båda operationslägena, facit och en lärarguide som förklarar hur det visuella algebraformatet fungerar. Den garanterade lösningsfunktionen lägger till trovärdighet som säljare värdesätter.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad matte utmaningskit',
-      description: 'Skapa ett premiumkit på Gumroad som inkluderar 40+ algebrapussel på Medel och Svår nivå. Rikta dig mot hemundervisande föräldrar och mattelärare som vill ha utmanande, engagerande material. Inkludera en föräldrahandledning som förklarar hur varje svårighetsnivå kopplar till årskursanpassade algebrabegrepp.',
+      description: 'Skapa ett premiumkit på Gumroad som inkluderar 40+ algebrapussel på Medel och Svår nivå. Rikta dig mot hemundervisande föräldrar och matteköpare som vill ha utmanande, engagerande material. Inkludera en föräldrahandledning som förklarar hur varje svårighetsnivå kopplar till årskursanpassade algebrabegrepp.',
       platform: 'Gumroad',
     },
     {
@@ -125,19 +125,19 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Börja med Väldigt Lätt för nybörjare',
-      description: 'Väldigt Lätt använder bara 2 bildsymboler med enkla additionsekvationer. Detta är perfekt för elever som möter visuell algebra för första gången. Låt dem bygga självförtroende genom att känna igen mönstret innan de går vidare till Lätt, Medel och Svårt. Gradvis progression håller frustration låg och engagemang högt. Ur ett säljarperspektiv attraherar nybörjarvänliga pussel den bredaste publiken.',
+      description: 'Väldigt Lätt använder bara 2 bildsymboler med enkla additionsekvationer. Detta är perfekt för användare som möter visuell algebra för första gången. Låt dem bygga självförtroende genom att känna igen mönstret innan de går vidare till Lätt, Medel och Svårt. Gradvis progression håller frustration låg och engagemang högt. Ur ett säljarperspektiv attraherar nybörjarvänliga pussel den bredaste publiken.',
     },
     {
       title: 'Använd blandade operationer för variation',
-      description: 'Läget Addition och Subtraktion skapar pussel som kräver olika lösningsstrategier inom samma arbetsblad. Detta förhindrar eleverna från att falla in i ett repetitivt mönster och testar båda operationsfärdigheterna samtidigt. Blandat-läge pussel har också högre upplevt värde i marknadsplatsannonser.',
+      description: 'Läget Addition och Subtraktion skapar pussel som kräver olika lösningsstrategier inom samma arbetsblad. Detta förhindrar användarna från att falla in i ett repetitivt mönster och testar båda operationsfärdigheterna samtidigt. Blandat-läge pussel har också högre upplevt värde i marknadsplatsannonser.',
     },
     {
       title: 'Ladda upp anpassade bilder för varumärkning',
       description: 'Ladda upp egna illustrationer, maskotbilder eller licensierat konstverk för att skapa pussel som ingen konkurrent kan replikera. De uppladdade bilderna blir ekvationsvariablerna, vilket gör dina produkter visuellt distinkta. Köpare som känner igen din symbolstil återvänder till din butik.',
     },
     {
-      title: 'Använd 1–2 pussel per sida för yngre elever',
-      description: 'Ställ in pussel per sida till 1 eller 2 för yngre elever som behöver mer arbetsutrymme. Större pussel med större symboler och ekvationer är lättare att läsa och mindre överväldigande. Spara 4–6 pussel per sida för äldre elever eller kompakta övningsset designade för snabba repetitioner.',
+      title: 'Använd 1–2 pussel per sida för yngre användare',
+      description: 'Ställ in pussel per sida till 1 eller 2 för yngre användare som behöver mer arbetsutrymme. Större pussel med större symboler och ekvationer är lättare att läsa och mindre överväldigande. Spara 4–6 pussel per sida för äldre användare eller kompakta övningsset designade för snabba repetitioner.',
     },
     {
       title: 'Para ihop med vanliga matteverktyg',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludera alltid facit',
-      description: 'Generera facit innan du laddar ner dina arbetsblad. Facit visar varje bildsymbols numeriska värde och det helt lösta ekvationssystemet. Köpare på Etsy och TPT ger konsekvent högre betyg till produkter som inkluderar facit — det sparar lärare bedömningstid och ger föräldrar förtroende för lösningen.',
+      description: 'Generera facit innan du laddar ner dina arbetsblad. Facit visar varje bildsymbols numeriska värde och det helt lösta ekvationssystemet. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit — det sparar säljare bedömningstid och ger föräldrar förtroende för lösningen.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar algebra bildpusslen?',
-      answer: 'Varje pussel presenterar ett system av sammankopplade ekvationer där bilder ersätter okända variabler. Eleverna analyserar relationerna mellan ekvationer för att bestämma det numeriska värdet varje bild representerar. Till exempel, om katt + hund = 7 och katt + katt = 6, då är katt = 3 och hund = 4. Den inbyggda lösaren garanterar att varje pussel har exakt en korrekt lösning. Denna metod introducerar algebraiskt resonemang visuellt, vilket gör det tillgängligt för yngre elever som inte är redo för traditionell variabelnotation med bokstäver.',
+      answer: 'Varje pussel presenterar ett system av sammankopplade ekvationer där bilder ersätter okända variabler. användarna analyserar relationerna mellan ekvationer för att bestämma det numeriska värdet varje bild representerar. Till exempel, om katt + hund = 7 och katt + katt = 6, då är katt = 3 och hund = 4. Den inbyggda lösaren garanterar att varje pussel har exakt en korrekt lösning. Denna metod introducerar algebraiskt resonemang visuellt, vilket gör det tillgängligt för yngre användare som inte är redo för traditionell variabelnotation med bokstäver.',
     },
     {
       question: 'Vilka är de fyra svårighetsnivåerna?',
@@ -176,15 +176,15 @@ const content: ToolContent = {
     },
     {
       question: 'Vad gör negativa resultat-växlingen?',
-      answer: 'När aktiverad kan subtraktionsekvationer producera värden under noll. Detta lägger till svårighet för avancerade elever som är bekanta med negativa tal. När avaktiverad (standard) stannar alla ekvationsresultat inom det positiva talområdet du ställt in. Håll det avaktiverat för grundskoleelever och aktivera det för högstadiet eller avancerad matteövning.',
+      answer: 'När aktiverad kan subtraktionsekvationer producera värden under noll. Detta lägger till svårighet för avancerade användare som är bekanta med negativa tal. När avaktiverad (standard) stannar alla ekvationsresultat inom det positiva talområdet du ställt in. Håll det avaktiverat för grundskoleanvändare och aktivera det för högstadiet eller avancerad matteövning.',
     },
     {
       question: 'Kan jag ladda upp egna bilder som variabelsymboler?',
-      answer: 'Ja. Klicka på «Ladda Upp Bild» för att använda dina egna PNG- eller JPEG-filer som variabelsymboler i ekvationerna. Detta låter dig skapa varumärkta pussel med anpassade illustrationer, klassrumsmaskotbilder, säsongsdesigner eller nischkonstverk som ingen annan säljare kan replikera.',
+      answer: 'Ja. Klicka på «Ladda Upp Bild» för att använda dina egna PNG- eller JPEG-filer som variabelsymboler i ekvationerna. Detta låter dig skapa varumärkta pussel med anpassade illustrationer, produktlinjesmaskotbilder, säsongsdesigner eller nischkonstverk som ingen annan säljare kan replikera.',
     },
     {
       question: 'Hur många pussel kan jag lägga på en sida?',
-      answer: 'Du kan placera 1 till 6 pussel per sida med kontrollen «Pussel Per Sida». Layouten justeras automatiskt för att passa det valda antalet. Använd 1–2 pussel per sida för yngre elever som behöver mer utrymme, eller 4–6 per sida för kompakta övningsblad och arbetsboksstils produkter.',
+      answer: 'Du kan placera 1 till 6 pussel per sida med kontrollen «Pussel Per Sida». Layouten justeras automatiskt för att passa det valda antalet. Använd 1–2 pussel per sida för yngre användare som behöver mer utrymme, eller 4–6 per sida för kompakta övningsblad och arbetsboksstils produkter.',
     },
     {
       question: 'Fungerar pusslen på alla språk?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja arbetsblad på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

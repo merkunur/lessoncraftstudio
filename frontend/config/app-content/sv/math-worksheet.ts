@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'utskrivbara algebrapussel med bilder för Etsy säljare',
       'algebraiska ekvationsarbetsblad generator för Amazon KDP',
-      'algebrapussel med bilder sälja på Teachers Pay Teachers',
+      'algebrapussel med bilder sälja på Gumroad',
       'algebrapussel printables kommersiell licens',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Algebrapussel Generator | Mattearbetsblad Skapare',
     metaDescription:
-      'Skapa algebrapussel arbetsblad att sälja på Etsy, KDP och TPT. Bilder som variabler, 4 svårighetsnivåer, unika lösningar. Gratis provversion med vattenstämpel.',
+      'Skapa algebrapussel arbetsblad att sälja på Etsy, KDP och Gumroad. Bilder som variabler, 4 svårighetsnivåer, unika lösningar. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Algebrapussel Arbetsblad Generator för Visuella Ekvationer',
     tagline: 'Gör tidig algebra till ett visuellt äventyr — bilder blir variabler, och varje pussel har exakt en lösning.',
     description:
-      'Skapa engagerande algebraiska bildpussel arbetsblad där bilder fungerar som okända variabler i ett system av ekvationer. Eleverna löser kopplade ekvationer för att bestämma det numeriska värdet av varje bild — så förvandlas abstrakt algebra till en konkret, visuell tankeprocess. Välj bland fyra svårighetsnivåer: Mycket Lätt och Lätt använder två symboler, Medel introducerar tre symboler, och Svår utmanar eleverna med fyra simultana okända. Välj uppgifter med enbart addition eller blanda addition och subtraktion för avancerad övning, och ställ in talintervallet exakt från 0 till 20 med en valfri omkopplare för negativa resultat. Den inbyggda algebraiska lösaren garanterar att varje pussel har exakt en korrekt lösning — ingen tvetydighet, ingen gissning. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman att använda som algebraiska symboler, eller ladda upp egna bilder för ett varumärkesanpassat utseende. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med 400+ DPI i Letter-, A4- eller anpassade format. Oavsett om du säljer tematiska pusselpaket på Etsy.se, sammanställer progressiva algebraböcker för Amazon KDP, eller skapar differentierade mattestationer för ditt klassrum — Mattearbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa engagerande algebraiska bildpussel arbetsblad där bilder fungerar som okända variabler i ett system av ekvationer. användarna löser kopplade ekvationer för att bestämma det numeriska värdet av varje bild — så förvandlas abstrakt algebra till en konkret, visuell tankeprocess. Välj bland fyra svårighetsnivåer: Mycket Lätt och Lätt använder två symboler, Medel introducerar tre symboler, och Svår utmanar användarna med fyra simultana okända. Välj uppgifter med enbart addition eller blanda addition och subtraktion för avancerad övning, och ställ in talintervallet exakt från 0 till 20 med en valfri omkopplare för negativa resultat. Den inbyggda algebraiska lösaren garanterar att varje pussel har exakt en korrekt lösning — ingen tvetydighet, ingen gissning. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman att använda som algebraiska symboler, eller ladda upp egna bilder för ett varumärkesanpassat utseende. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med 400+ DPI i Letter-, A4- eller anpassade format. Oavsett om du säljer tematiska pusselpaket på Etsy.se, sammanställer progressiva algebraböcker för Amazon KDP, eller skapar nivågrupperade mattestationer för ditt produktlinje — Mattearbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Konfigurera svårighet, operation och talintervall',
         description:
-          'Öppna panelen Uppgiftskonfiguration och välj en svårighetsnivå. Mycket Lätt och Lätt använder två bildsymboler i ett system av ekvationer, Medel introducerar tre symboler och tre kopplade ekvationer, och Svår använder fyra simultana okända fördelade över fyra ekvationer. Välj mellan Enbart Addition eller Addition och Subtraktion för att bestämma vilka operationer som visas i ekvationerna. Ställ in minimum- och maximumvärden (standard 0–20) och aktivera Tillåt Negativa Resultat för avancerade elever. Välj slutligen hur många pussel som visas per sida — från 1 till 6 — med automatisk stående/liggande optimering.',
+          'Öppna panelen Uppgiftskonfiguration och välj en svårighetsnivå. Mycket Lätt och Lätt använder två bildsymboler i ett system av ekvationer, Medel introducerar tre symboler och tre kopplade ekvationer, och Svår använder fyra simultana okända fördelade över fyra ekvationer. Välj mellan Enbart Addition eller Addition och Subtraktion för att bestämma vilka operationer som visas i ekvationerna. Ställ in minimum- och maximumvärden (standard 0–20) och aktivera Tillåt Negativa Resultat för avancerade användare. Välj slutligen hur många pussel som visas per sida — från 1 till 6 — med automatisk stående/liggande optimering.',
       },
       {
         title: 'Välj bilder som algebraiska symboler',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Lägg till text, titlar och pusselnumrering',
         description:
-          'Använd panelen Textverktyg för att lägga till en arbetsbladstitel, fält för elevens namn och datum, instruktioner eller annan anpassad text. Välj bland sju typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Anpassa pusselnumreringen med din egen etiketttext (t.ex. "Pussel", "Uppgift", "Utmaning") och ställ in startnumret. Använd den fullständiga Fabric.js-arbetsytan för att dra, skala och flytta varje element — med lagerkontroll, justeringsguider, lås/lås upp och obegränsad ångra och gör om.',
+          'Använd panelen Textverktyg för att lägga till en arbetsbladstitel, fält för namn och datum, instruktioner eller annan anpassad text. Välj bland sju typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Anpassa pusselnumreringen med din egen etiketttext (t.ex. "Pussel", "Uppgift", "Utmaning") och ställ in startnumret. Använd den fullständiga Fabric.js-arbetsytan för att dra, skala och flytta varje element — med lagerkontroll, justeringsguider, lås/lås upp och obegränsad ångra och gör om.',
       },
       {
         title: 'Generera facit och ladda ner',
@@ -63,37 +63,37 @@ const content: AppContent = {
       {
         title: 'Algebraiskt bildpusselformat',
         description:
-          'Varje arbetsblad presenterar ett system av kopplade ekvationer där bilder fungerar som okända variabler. Istället för abstrakta bokstäver som x, y och z ser eleverna igenkännbara bilder — djur, fordon, mat — som gör variabelbegreppet konkret och tillgängligt. Eleverna analyserar relationerna mellan ekvationer, härleder det numeriska värdet av varje bild och skriver sina svar. Detta format introducerar äkta algebraiskt tänkande i ung ålder, långt bortom enkla räkneövningar. Det visuella karaktären gör pusslen särskilt lämpliga som säljprodukter: föräldrar och lärare känner direkt igen det pedagogiska värdet när de ser arbetsbladet i en Etsy- eller TPT-produktlistning.',
+          'Varje arbetsblad presenterar ett system av kopplade ekvationer där bilder fungerar som okända variabler. Istället för abstrakta bokstäver som x, y och z ser användarna igenkännbara bilder — djur, fordon, mat — som gör variabelbegreppet konkret och tillgängligt. användarna analyserar relationerna mellan ekvationer, härleder det numeriska värdet av varje bild och skriver sina svar. Detta format introducerar äkta algebraiskt tänkande i ung ålder, långt bortom enkla räkneövningar. Det visuella karaktären gör pusslen särskilt lämpliga som säljprodukter: föräldrar och säljare känner direkt igen det pedagogiska värdet när de ser arbetsbladet i en Etsy- eller Gumroad-produktlistning.',
       },
       {
         title: 'Fyra svårighetsnivåer för progressivt lärande',
         description:
-          'Mycket Lätt och Lätt använder två bildsymboler, vilket ger eleverna en mjuk introduktion till att lösa enkla system med två ekvationer. Medel höjer utmaningen till tre symboler och tre kopplade ekvationer, vilket kräver mer komplex deduktion. Svår presenterar fyra simultana okända fördelade över fyra ekvationer — ett äkta flervariabelpussel. Denna inbyggda progression gör det möjligt att skapa differentierade arbetsblad för en hel klass eller sammanställa en svårighetsgraderad aktivitetsbok i en enda session. För säljare innebär detta fyra separata produktnivåer eller ett progressivt paket som kan prissättas mellan 140–200 kr på Etsy.se.',
+          'Mycket Lätt och Lätt använder två bildsymboler, vilket ger användarna en mjuk introduktion till att lösa enkla system med två ekvationer. Medel höjer utmaningen till tre symboler och tre kopplade ekvationer, vilket kräver mer komplex deduktion. Svår presenterar fyra simultana okända fördelade över fyra ekvationer — ett äkta flervariabelpussel. Denna inbyggda progression gör det möjligt att skapa nivågrupperade arbetsblad för en hel klass eller sammanställa en svårighetsgraderad aktivitetsbok i en enda session. För säljare innebär detta fyra separata produktnivåer eller ett progressivt paket som kan prissättas mellan 140–200 kr på Etsy.se.',
       },
       {
         title: 'Validering av unika lösningar',
         description:
-          'Generatorns inbyggda algebraiska lösare verifierar att varje pussel har exakt en korrekt lösning innan det placeras på ditt arbetsblad. Det finns inga tvetydiga system, inga multipla giltiga svar och inga olösliga pussel. Denna matematiska garanti sparar dig att manuellt kontrollera varje pussel och säkerställer att elever — och deras lärare — alltid kan nå ett definitivt svar. För säljare som producerar stora pusselbatcher är detta en enorm tidsbesparing: du kan generera tiotals arbetsblad i en session med fullt förtroende att varje pussel är matematiskt korrekt och redo för kunder.',
+          'Generatorns inbyggda algebraiska lösare verifierar att varje pussel har exakt en korrekt lösning innan det placeras på ditt arbetsblad. Det finns inga tvetydiga system, inga multipla giltiga svar och inga olösliga pussel. Denna matematiska garanti sparar dig att manuellt kontrollera varje pussel och säkerställer att användare — och deras säljare — alltid kan nå ett definitivt svar. För säljare som producerar stora pusselbatcher är detta en enorm tidsbesparing: du kan generera tiotals arbetsblad i en session med fullt förtroende att varje pussel är matematiskt korrekt och redo för kunder.',
       },
       {
         title: '104 visuella teman med mer än 3 100 bilder som algebraiska symboler',
         description:
-          'Bläddra genom ett noggrant sammanställt bibliotek med mer än 3 100 högupplösta illustrationer, organiserade i 104 teman inklusive bondgårdsdjur, havsliv, fordon, rymden, mat, sport, dinosaurier, högtider och mycket mer. Varje bild fungerar som algebraisk variabel i pusselekvationerna — inte som dekoration, utan som kärnan i själva pusslet. Eftersom arbetsbladsinnehållet är helt visuellt — bilder och tal, inga ord — fungerar dina arbetsblad på alla språk och i alla klassrum världen över utan anpassning.',
+          'Bläddra genom ett noggrant sammanställt bibliotek med mer än 3 100 högupplösta illustrationer, organiserade i 104 teman inklusive bondgårdsdjur, havsliv, fordon, rymden, mat, sport, dinosaurier, högtider och mycket mer. Varje bild fungerar som algebraisk variabel i pusselekvationerna — inte som dekoration, utan som kärnan i själva pusslet. Eftersom arbetsbladsinnehållet är helt visuellt — bilder och tal, inga ord — fungerar dina arbetsblad på alla språk och i alla marknader världen över utan anpassning.',
       },
       {
         title: 'Justerbart talintervall och negativa resultat',
         description:
-          'Ställ in minimum- och maximumvärden för lösningar, standard från 0 till 20, vilket ger dig exakt kontroll över svårighetsgraden. För yngre elever håller du talen små och positiva. För avancerade elever aktiverar du Tillåt Negativa Resultat för att introducera räkning med negativa tal i ekvationssystemen. Att justera intervallet kräver bara ett klick, så att du kan producera nybörjar- och avancerade versioner av samma pusseluppsättning på några minuter.',
+          'Ställ in minimum- och maximumvärden för lösningar, standard från 0 till 20, vilket ger dig exakt kontroll över svårighetsgraden. För yngre användare håller du talen små och positiva. För avancerade användare aktiverar du Tillåt Negativa Resultat för att introducera räkning med negativa tal i ekvationssystemen. Att justera intervallet kräver bara ett klick, så att du kan producera nybörjar- och avancerade versioner av samma pusseluppsättning på några minuter.',
       },
       {
         title: 'Automatisk generering av facit',
         description:
-          'Klicka på en knapp för att generera ett komplett facit som avslöjar det numeriska värdet av varje bildsymbol. Fliken Facit visar en förhandsgranskning i realtid så att du kan verifiera riktigheten innan du laddar ner. Exportera facit som en separat JPEG- eller PDF-fil, så att du enkelt kan inkludera det i lärarupplagor, föräldrahandledningar eller Etsy-produktpaket utan manuellt arbete. Att inkludera professionellt formaterade facit ökar det upplevda värdet av din produktlistning avsevärt.',
+          'Klicka på en knapp för att generera ett komplett facit som avslöjar det numeriska värdet av varje bildsymbol. Fliken Facit visar en förhandsgranskning i realtid så att du kan verifiera riktigheten innan du laddar ner. Exportera facit som en separat JPEG- eller PDF-fil, så att du enkelt kan inkludera det i facitversioner, föräldrahandledningar eller Etsy-produktpaket utan manuellt arbete. Att inkludera professionellt formaterade facit ökar det upplevda värdet av din produktlistning avsevärt.',
       },
       {
         title: 'Tryckfärdig export i 400+ DPI med gråskalealternativ',
         description:
-          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexporten för bläckbesparande versioner som är perfekta för klassrumsutskrift eller svartvita aktivitetsböcker. Formaten Letter, A4, Standardarbetsblad, Kvadrat och anpassade storlekar stöds alla.',
+          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexporten för bläckbesparande versioner som är perfekta för volymutskrift eller svartvita aktivitetsböcker. Formaten Letter, A4, Standardarbetsblad, Kvadrat och anpassade storlekar stöds alla.',
       },
       {
         title: 'Full arbetsyteredigering med ångra och gör om',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Tematiska algebrapusselpaket på Etsy.se',
         description:
-          'Skapa uppsättningar med 10–20 algebraiska bildpussel arbetsblad rangordnade efter svårighet — från Mycket Lätt till Svår — och erbjud dem som direktnedladdningspaket på Etsy.se. Inkludera facit som bonusfiler. Det algebraiska pusselformatet sticker ut bland vanliga räkneövningsblad och lockar föräldrar och lärare som söker utmanande problemlösningsmaterial. Det visuella variabelkonceptet är unikt nog att generera högre klickfrekvenser i sökresultat. Prissätt svårighetsgradspaket per tema mellan 40–60 kr och megapaket som täcker alla fyra nivåer mellan 140–200 kr.',
+          'Skapa uppsättningar med 10–20 algebraiska bildpussel arbetsblad rangordnade efter svårighet — från Mycket Lätt till Svår — och erbjud dem som direktnedladdningspaket på Etsy.se. Inkludera facit som bonusfiler. Det algebraiska pusselformatet sticker ut bland vanliga räkneövningsblad och lockar föräldrar och köpare som söker utmanande problemlösningsmaterial. Det visuella variabelkonceptet är unikt nog att generera högre klickfrekvenser i sökresultat. Prissätt svårighetsgradspaket per tema mellan 40–60 kr och megapaket som täcker alla fyra nivåer mellan 140–200 kr.',
         platform: 'Etsy (etsy.se)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade mattestationer för TPT',
+        title: 'Nivågrupperade matteprodukter för Gumroad',
         description:
-          'Skapa algebrapusseluppsättningar i nivåer med de fyra svårighetsnivåerna: Nivå 1 (Mycket Lätt, 2 symboler, addition), Nivå 2 (Lätt, 2 symboler, blandade operationer), Nivå 3 (Medel, 3 symboler) och Nivå 4 (Svår, 4 symboler). Paketera varje nivå med facit och ett framstegsregistreringsblad. Köpare på Teachers Pay Teachers betalar premiumpriser för differentierade läromedel som introducerar algebraiskt tänkande utan abstrakt notation — ett unikt försäljningsargument som särskiljer dina produkter.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Skapa algebrapusseluppsättningar i nivåer med de fyra svårighetsnivåerna: Nivå 1 (Mycket Lätt, 2 symboler, addition), Nivå 2 (Lätt, 2 symboler, blandade operationer), Nivå 3 (Medel, 3 symboler) och Nivå 4 (Svår, 4 symboler). Paketera varje nivå med facit och ett framstegsregistreringsblad. Köpare på Gumroad betalar premiumpriser för nivågrupperade produkter som introducerar algebraiskt tänkande utan abstrakt notation — ett unikt försäljningsargument som särskiljer dina produkter.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Digitala produkter på din egen webbshop',
@@ -131,10 +131,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Algebrapussel för klassrummet och privatundervisning',
+        title: 'Algebrapussel online och privatundervisning',
         description:
-          'Generera anpassade algebrapussel skräddarsydda för varje elevs färdighetsnivå. Skriv ut Mycket Lätt tvåsymbolsarbetsblad för nybörjare i årskurs 1 och Svår fyrsymbolssystem för avancerade elever i årskurs 3–4 — allt under samma session. Bildvariabelformatet gör tidig algebra tillgänglig för unga elever som ännu inte är redo för abstrakt x-och-y notation, medan pusselmekaniken motiverar dem att lösa varje ekvation. Det automatiska facit sparar rättningstid och möjliggör direkt återkoppling.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Generera anpassade algebrapussel skräddarsydda för varje användares färdighetsnivå. Skriv ut Mycket Lätt tvåsymbolsarbetsblad för nybörjare i årskurs 1 och Svår fyrsymbolssystem för avancerade användare i årskurs 3–4 — allt under samma session. Bildvariabelformatet gör tidig algebra tillgänglig för unga användare som ännu inte är redo för abstrakt x-och-y notation, medan pusselmekaniken motiverar dem att lösa varje ekvation. Det automatiska facit sparar upplevt värde och möjliggör direkt återkoppling.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,22 +143,22 @@ const content: AppContent = {
     {
       question: 'Hur fungerar det algebraiska bildpusselformatet?',
       answer:
-        'Varje pussel presenterar ett system av kopplade ekvationer där bilder föreställer okända variabler. Till exempel: ett tvåsymbolspussel kan visa: äpple + äpple = 6, äpple + banan = 8. Eleverna härleder att varje äpple är 3 och varje banan 5. Högre svårighetsnivåer lägger till fler symboler och fler ekvationer, vilket skapar äkta flervariabelalgebraiska pussel — allt utan abstrakt bokstavsnotation. Detta visuella format gör algebra tillgängligt för elever redan från årskurs 1.',
+        'Varje pussel presenterar ett system av kopplade ekvationer där bilder föreställer okända variabler. Till exempel: ett tvåsymbolspussel kan visa: äpple + äpple = 6, äpple + banan = 8. användarna härleder att varje äpple är 3 och varje banan 5. Högre svårighetsnivåer lägger till fler symboler och fler ekvationer, vilket skapar äkta flervariabelalgebraiska pussel — allt utan abstrakt bokstavsnotation. Detta visuella format gör algebra tillgängligt för användare redan från årskurs 1.',
     },
     {
       question: 'Vad betyder de fyra svårighetsnivåerna?',
       answer:
-        'Mycket Lätt och Lätt använder två bildsymboler i ett litet system av ekvationer — perfekt för att introducera konceptet. Medel lägger till en tredje symbol med tre kopplade ekvationer, vilket kräver fler deduktionssteg. Svår presenterar fyra symboler fördelade över fyra simultana ekvationer, vilket utmanar eleverna att spåra flera okända samtidigt. Varje nivå producerar ett system som generatorns lösare har verifierat har exakt en lösning. För säljare erbjuder denna fyrdelade struktur möjligheten att skapa nivåspecifika uppsättningar eller progressiva paket.',
+        'Mycket Lätt och Lätt använder två bildsymboler i ett litet system av ekvationer — perfekt för att introducera konceptet. Medel lägger till en tredje symbol med tre kopplade ekvationer, vilket kräver fler deduktionssteg. Svår presenterar fyra symboler fördelade över fyra simultana ekvationer, vilket utmanar användarna att spåra flera okända samtidigt. Varje nivå producerar ett system som generatorns lösare har verifierat har exakt en lösning. För säljare erbjuder denna fyrdelade struktur möjligheten att skapa nivåspecifika uppsättningar eller progressiva paket.',
     },
     {
       question: 'Vilka matteoperationer är tillgängliga?',
       answer:
-        'Du kan välja mellan Enbart Addition, där ekvationerna uteslutande använder addition, eller Addition och Subtraktion, där båda operationerna blandas inom samma pussel. Enbart Addition är perfekt för yngre elever, medan blandade operationer lägger till komplexitet för avancerade elever och skapar mer varierade ekvationsstrukturer.',
+        'Du kan välja mellan Enbart Addition, där ekvationerna uteslutande använder addition, eller Addition och Subtraktion, där båda operationerna blandas inom samma pussel. Enbart Addition är perfekt för yngre användare, medan blandade operationer lägger till komplexitet för avancerade användare och skapar mer varierade ekvationsstrukturer.',
     },
     {
       question: 'Vilka talintervall kan jag ställa in för pusslen?',
       answer:
-        'Du ställer in ett minimum- och maximumvärde för lösningarna, med ett standardintervall på 0 till 20. Mindre intervall (t.ex. 1–5) skapar enklare pussel för nybörjare, medan större intervall ger mer utmanande beräkningar inom ekvationerna. Du kan också aktivera Tillåt Negativa Resultat för avancerade elever som är redo att öva med negativa tal.',
+        'Du ställer in ett minimum- och maximumvärde för lösningarna, med ett standardintervall på 0 till 20. Mindre intervall (t.ex. 1–5) skapar enklare pussel för nybörjare, medan större intervall ger mer utmanande beräkningar inom ekvationerna. Du kan också aktivera Tillåt Negativa Resultat för avancerade användare som är redo att öva med negativa tal.',
     },
     {
       question: 'Har varje pussel verkligen exakt en lösning?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar bilder som algebraiska variabler?',
       answer:
-        'Varje bild du väljer från biblioteket (eller laddar upp själv) tilldelas att representera en okänd variabel i ekvationssystemet. Samma bild representerar alltid samma värde inom ett pussel. Eleverna ser igenkännbara bilder istället för abstrakta bokstäver, vilket gör variabelbegreppet konkret och tillgängligt — även för unga elever som aldrig sett formell algebra.',
+        'Varje bild du väljer från biblioteket (eller laddar upp själv) tilldelas att representera en okänd variabel i ekvationssystemet. Samma bild representerar alltid samma värde inom ett pussel. användarna ser igenkännbara bilder istället för abstrakta bokstäver, vilket gör variabelbegreppet konkret och tillgängligt — även för unga användare som aldrig sett formell algebra.',
     },
     {
       question: 'Genererar generatorn automatiskt facit?',
       answer:
-        'Ja. Klicka på knappen Generera Facit för att skapa en löst version som avslöjar det numeriska värdet av varje bildsymbol. Du kan förhandsgranska facit på skärmen och ladda ner det som en separat JPEG- eller PDF-fil bredvid elevens arbetsblad. Att inkludera facit i varje produktlistning tillför upplevt värde för köpare.',
+        'Ja. Klicka på knappen Generera Facit för att skapa en löst version som avslöjar det numeriska värdet av varje bildsymbol. Du kan förhandsgranska facit på skärmen och ladda ner det som en separat JPEG- eller PDF-fil bredvid användarens arbetsblad. Att inkludera facit i varje produktlistning tillför upplevt värde för köpare.',
     },
     {
       question: 'Är algebrapussel arbetsbladen språkkänsliga?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Vad ingår i den kommersiella licensen?',
       answer:
-        'Den kommersiella licensen tar bort vattenstämpeln från alla nedladdningar och ger dig obegränsade rättigheter att sälja arbetsbladen du skapar — på Etsy.se, Amazon KDP, Teachers Pay Teachers, din egen webbplats eller vilken annan plattform som helst. Det finns inga royalties per försäljning, inga månadsavgifter och ingen gräns för antalet arbetsblad du producerar eller säljer.',
+        'Den kommersiella licensen tar bort vattenstämpeln från alla nedladdningar och ger dig obegränsade rättigheter att sälja arbetsbladen du skapar — på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst. Det finns inga royalties per försäljning, inga månadsavgifter och ingen gräns för antalet arbetsblad du producerar eller säljer.',
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fullständiga rättigheter att sälja dina algebrapussel arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som läromedel på TPT, eller via vilken annan försäljningskanal som helst. Många säljare skapar svårighetsgraderade paket och progressiva algebraböcker som genererar konstanta intäkter.',
+        'Ja. Med en kommersiell licens har du fullständiga rättigheter att sälja dina algebrapussel arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som utskrivbara produkter på Gumroad, eller via vilken annan försäljningskanal som helst. Många säljare skapar svårighetsgraderade paket och progressiva algebraböcker som genererar konstanta intäkter.',
     },
     {
       question: 'Vad är returpolicyn?',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'mattefakta-utskriftsbara-ideer',
-      anchorText: 'Mattefakta utskriftsbara idéer för lärare och säljare',
+      anchorText: 'Mattefakta utskriftsbara idéer för säljare och säljare',
     },
     {
       pageType: 'idea',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Ordmix Arbetsblad Generator',
     tagline: 'Skapa blandade bokstavsbrickor stavningspussel med bildledtrådar, färgkodning och 4 svårighetsnivåer på 11 språk',
-    description: 'Förvandla vokabulärövning till ett praktiskt stavningspussel som eleverna löser genom att omordna blandade bokstavsbrickor. Detta verktyg genererar ordmix arbetsblad där en bildledtråd paras med en uppsättning blandade brickor — eleverna studerar bilden, identifierar vad den föreställer och placerar bokstäverna i rätt ordning. Till skillnad från fyll-i-luckan-övningar ger ordmix eleverna ALLA bokstäverna men i fel ordning, vilket gör det till en bokstavsomflyttning som bygger stavningsnoggrannhet genom aktiv manipulation. Den utmärkande funktionen är vokal-konsonant färgkodning: aktivera den för att visa vokaler i en färg och konsonanter i en annan, vilket lägger till en visuell foniksdimension som hjälper eleverna identifiera bokstavstyper medan de löser pussel. Fyra svårighetsnivåer kontrollerar hur många bokstäver som är förplacerade i rätt position: Inga Ledtrådar blandar varje bokstav för maximal utmaning, Lätt förplacerar hälften för stöttade nybörjare, Normal placerar en fjärdedel för balanserad övning, och Svår placerar bara en sjättedel för självsäkra stavare. Välj mellan tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar ett annorlunda målord med annorlunda bokstäver och ett helt annorlunda blandat arrangemang. En hundbild genererar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska. En design blir 11 unika produkter. Ställ in 1–10 pussel per sida, växla versaler eller gemener, lägg till övningsnumrering och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med automatisk facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Förvandla vokabulärövning till ett praktiskt stavningspussel som användarna löser genom att omordna blandade bokstavsbrickor. Detta verktyg genererar ordmix arbetsblad där en bildledtråd paras med en uppsättning blandade brickor — användarna studerar bilden, identifierar vad den föreställer och placerar bokstäverna i rätt ordning. Till skillnad från fyll-i-luckan-övningar ger ordmix användarna ALLA bokstäverna men i fel ordning, vilket gör det till en bokstavsomflyttning som bygger stavningsnoggrannhet genom aktiv manipulation. Den utmärkande funktionen är vokal-konsonant färgkodning: aktivera den för att visa vokaler i en färg och konsonanter i en annan, vilket lägger till en visuell foniksdimension som hjälper användarna identifiera bokstavstyper medan de löser pussel. Fyra svårighetsnivåer kontrollerar hur många bokstäver som är förplacerade i rätt position: Inga Ledtrådar blandar varje bokstav för maximal utmaning, Lätt förplacerar hälften för stöttade nybörjare, Normal placerar en fjärdedel för balanserad övning, och Svår placerar bara en sjättedel för självsäkra stavare. Välj mellan tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar ett annorlunda målord med annorlunda bokstäver och ett helt annorlunda blandat arrangemang. En hundbild genererar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska. En design blir 11 unika produkter. Ställ in 1–10 pussel per sida, växla versaler eller gemener, lägg till övningsnumrering och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med automatisk facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Växla vokal-konsonant färgkodning',
-        description: 'Aktivera Färgkodad-växlingen för att visa vokaler i en färg och konsonanter i en annan på de blandade bokstavsbrickorna. Denna funktion är unik för Ordmix och lägger till en visuell foniksdimension som hjälper eleverna identifiera bokstavstyper medan de omordnar brickor. Välj Helt Svart för traditionella enfärgade brickor när färgdifferentiering inte behövs.',
+        description: 'Aktivera Färgkodad-växlingen för att visa vokaler i en färg och konsonanter i en annan på de blandade bokstavsbrickorna. Denna funktion är unik för Ordmix och lägger till en visuell foniksdimension som hjälper användarna identifiera bokstavstyper medan de omordnar brickor. Välj Helt Svart för traditionella enfärgade brickor när färgdifferentiering inte behövs.',
       },
       {
         title: 'Konfigurera bokstavsläge, numrering och språk',
-        description: 'Växla mellan versaler (standard) och gemener bokstavsbrickor. Slå övningsnumrering på eller av. Aktivera elevens namn- och datumfält. Välj bland 11 stödda språk — varje språk ändrar målordet helt, så samma bild skapar ett helt annorlunda mixpussel. Lägg till anpassade textöverlägg med instruktioner för elevvägledning.',
+        description: 'Växla mellan versaler (standard) och gemener bokstavsbrickor. Slå övningsnumrering på eller av. Aktivera namn- och datumfält. Välj bland 11 stödda språk — varje språk ändrar målordet helt, så samma bild skapar ett helt annorlunda mixpussel. Lägg till anpassade textöverlägg med instruktioner för vägledning.',
       },
       {
         title: 'Anpassa typsnitt, text och arbetsyta',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiska bokstavsomflyttning pusselpaket',
-      description: 'Skapa uppsättningar av 10–15 ordmix arbetsblad med tematiska bildsamlingar — djur, mat, fordon, naturscener, högtider, sport och fler. Varje pussel presenterar en bildledtråd bredvid blandade bokstavsbrickor som eleverna omordnar till rätt stavning. Växla färgkodning på hälften av setet för en «fonicsutgåva»-variant som markerar vokal-konsonant-mönster. Paketera efter tema och sälj på Etsy eller Teachers Pay Teachers.',
+      description: 'Skapa uppsättningar av 10–15 ordmix arbetsblad med tematiska bildsamlingar — djur, mat, fordon, naturscener, högtider, sport och fler. Varje pussel presenterar en bildledtråd bredvid blandade bokstavsbrickor som användarna omordnar till rätt stavning. Växla färgkodning på hälften av setet för en «fonicsutgåva»-variant som markerar vokal-konsonant-mönster. Paketera efter tema och sälj på Etsy eller Gumroad.',
     },
     {
       title: 'KDP ordmix aktivitetsböcker',
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Anpassad vokabulär mixarbetsblad',
-      description: 'Använd Anpassad Ordlista-läget för att skriva ämnesspecifik vokabulär direkt: naturvetenskapstermer, högfrekventa ord, stavningstävlingslistor, veckovisa vokabuläruppgifter eller språkövning. Inga bilder behövs — verktyget genererar blandade bokstavsbrickor från dina inskrivna ord. Skapa riktade stavningspussel för vilken läroplan, årskurs eller nischämne som helst.',
+      description: 'Använd Anpassad Ordlista-läget för att skriva ämnesspecifik vokabulär direkt: naturvetenskapstermer, högfrekventa ord, stavningstävlingslistor, veckovisa vokabuläruppgifter eller språkövning. Inga bilder behövs — verktyget genererar blandade bokstavsbrickor från dina inskrivna ord. Skapa riktade stavningspussel för vilken produktkatalog, årskurs eller nischämne som helst.',
     },
     {
-      title: 'Differentierade svårighetspaket',
-      description: 'Generera fyra versioner av samma tematiska arbetsblad — en på varje svårighetsnivå: Inga Ledtrådar, Lätt, Normal och Svår. Lärare tilldelar rätt version till varje elev baserat på förmåga. Sälj som ett differentierat paket till ett premiumpris på TPT eller Etsy. Lägg till färgkodade varianter för totalt åtta distinkta versioner från en designsession, med facit inkluderade för varje version.',
+      title: 'nivågrupperade svårighetspaket',
+      description: 'Generera fyra versioner av samma tematiska arbetsblad — en på varje svårighetsnivå: Inga Ledtrådar, Lätt, Normal och Svår. säljare tilldelar rätt version till varje användare baserat på förmåga. Sälj som ett nivågrupperat paket till ett premiumpris på Gumroad eller Etsy. Lägg till färgkodade varianter för totalt åtta distinkta versioner från en designsession, med facit inkluderade för varje version.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Fonics-fokuserad mixbutik på Etsy',
-      description: 'Öppna en Etsy-butik specialiserad på färgkodade ordmix arbetsblad — en produktkategori som ingen konkurrent kan replikera med grundläggande ordlistegeneratorer. Vokal-konsonant färgkodningsfunktionen skapar en visuellt distinkt produkt som fångar uppmärksamhet i Etsys sökresultat och tilltalar fonics-fokuserade föräldrar och ESL-lärare. Skapa tematiska paket i både färgkodade och klassiska svarta utgåvor, prissätt de färgkodade fonics-seten till ett premiumpris.',
+      description: 'Öppna en Etsy-butik specialiserad på färgkodade ordmix arbetsblad — en produktkategori som ingen konkurrent kan replikera med grundläggande ordlistegeneratorer. Vokal-konsonant färgkodningsfunktionen skapar en visuellt distinkt produkt som fångar uppmärksamhet i Etsys sökresultat och tilltalar fonics-fokuserade föräldrar och ESL-säljare. Skapa tematiska paket i både färgkodade och klassiska svarta utgåvor, prissätt de färgkodade fonics-seten till ett premiumpris.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers differentierade litteracitetsstationer',
-      description: 'Ladda upp ordmix arbetsbladspaket till TPT organiserade efter tema, svårighetsnivå och färgkodning. Nivå 1: Lätt med färgkodade brickor för visuella elever. Nivå 2: Normal med färgkodning. Nivå 3: Svår med Helt Svarta brickor. Nivå 4: Inga Ledtrådar med Helt Svart för avancerad utmaning. Inkludera facit och ett framstegsspårningsblad. TPT-köpare betalar premiumpriser för differentierade stavningsresurser.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad nivågrupperade litteracitetsstationer',
+      description: 'Ladda upp ordmix arbetsbladspaket till Gumroad organiserade efter tema, svårighetsnivå och färgkodning. Nivå 1: Lätt med färgkodade brickor för visuella användare. Nivå 2: Normal med färgkodning. Nivå 3: Svår med Helt Svarta brickor. Nivå 4: Inga Ledtrådar med Helt Svart för avancerad utmaning. Inkludera facit och ett framstegsspårningsblad. Gumroad-köpare betalar premiumpriser för nivågrupperade stavningsresurser.',
+      platform: 'Gumroad',
     },
     {
       title: 'Flerspråkig vokabulärbutik',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad komplett stavningsverktygskit',
-      description: 'Paketera ordmix arbetsblad med gissa ordet, ordsökning, skrivövningar och matchningsarbetsblad för att skapa ett omfattande stavningsverktygskit på Gumroad. Ordmix-formatet (bokstavsomflyttning) övar en annorlunda kognitiv färdighet än gissa ordet (fyll-i-luckan) eller ordsökning (bokstavshittande). Ett flerformats stavningskit motiverar ett premiumpris och ger eleverna varierad övning.',
+      description: 'Paketera ordmix arbetsblad med gissa ordet, ordsökning, skrivövningar och matchningsarbetsblad för att skapa ett omfattande stavningsverktygskit på Gumroad. Ordmix-formatet (bokstavsomflyttning) övar en annorlunda kognitiv färdighet än gissa ordet (fyll-i-luckan) eller ordsökning (bokstavshittande). Ett flerformats stavningskit motiverar ett premiumpris och ger användarna varierad övning.',
       platform: 'Gumroad',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Använd färgkodning för foniksdifferentiering',
-      description: 'Växla vokal-konsonant färgkodning för att visa vokaler i en färg och konsonanter i en annan. Detta visuella fonicshjälpmedel är unikt för Ordmix och hjälper eleverna identifiera bokstavstyper medan de löser pussel. Skapa en «Färgkodad Utgåva» bredvid en «Klassisk Utgåva» av varje tema för att fördubbla ditt produktutbud.',
+      description: 'Växla vokal-konsonant färgkodning för att visa vokaler i en färg och konsonanter i en annan. Detta visuella fonicshjälpmedel är unikt för Ordmix och hjälper användarna identifiera bokstavstyper medan de löser pussel. Skapa en «Färgkodad Utgåva» bredvid en «Klassisk Utgåva» av varje tema för att fördubbla ditt produktutbud.',
     },
     {
       title: 'Använd Inga Ledtrådar för stavningsbedömning',
-      description: 'Inga Ledtrådar-läge blandar varje bokstav med noll förplacerade positioner, vilket skapar en genuin stavningsbedömning från en bildprompt. Eleverna måste minnas den kompletta stavningen och omordna alla brickor självständigt. Använd det för prov, slutliga utmaningssektioner i arbetsböcker eller premium «expertutgåva»-produkter.',
+      description: 'Inga Ledtrådar-läge blandar varje bokstav med noll förplacerade positioner, vilket skapar en genuin stavningsbedömning från en bildprompt. användarna måste minnas den kompletta stavningen och omordna alla brickor självständigt. Använd det för prov, slutliga utmaningssektioner i arbetsböcker eller premium «expertutgåva»-produkter.',
     },
     {
       title: 'Gå flerspråkigt för 11× produktutbud',
@@ -137,19 +137,19 @@ const content: ToolContent = {
     },
     {
       title: 'Använd Manuellt Redigeringsläge för anpassad vokabulär',
-      description: 'Manuellt Redigeringsläge låter dig välja bilder från biblioteket och sedan redigera deras visningsnamn innan generering. Använd det för att förenkla stavningar för yngre elever, lägga till alternativ vokabulär eller fokusera på specifika fonicsmönster. Bilden visas fortfarande som visuell ledtråd, men ordet att mixa är vad du skriver.',
+      description: 'Manuellt Redigeringsläge låter dig välja bilder från biblioteket och sedan redigera deras visningsnamn innan generering. Använd det för att förenkla stavningar för yngre användare, lägga till alternativ vokabulär eller fokusera på specifika fonicsmönster. Bilden visas fortfarande som visuell ledtråd, men ordet att mixa är vad du skriver.',
     },
     {
       title: 'Använd gråskala för KDP och bulkutskrift',
-      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller klassrumsbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla bilder och färgade brickor lockar klick.',
+      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla bilder och färgade brickor lockar klick.',
     },
     {
       title: 'Blanda svårighetsnivåer i paket',
-      description: 'Skapa arbetsbladspaket som avancerar från Lätt till Inga Ledtrådar över samma tema. Ett «Bondgårdsdjur Stavningspussel»-paket med 5 Lätt-sidor, 5 Normal, 5 Svår och 5 Inga Ledtrådar ger lärare en färdig differentierad uppsättning. Inkludera facit för varje nivå. Progressiva paket motiverar premiumpriser på TPT och Etsy.',
+      description: 'Skapa arbetsbladspaket som avancerar från Lätt till Inga Ledtrådar över samma tema. Ett «Bondgårdsdjur Stavningspussel»-paket med 5 Lätt-sidor, 5 Normal, 5 Svår och 5 Inga Ledtrådar ger säljare en färdig nivågrupperad uppsättning. Inkludera facit för varje nivå. Progressiva paket motiverar premiumpriser på Gumroad och Etsy.',
     },
     {
       title: 'Para ihop med Gissa Ordet för omfattande paket',
-      description: 'Ordmix (bokstavsomflyttning) och Gissa Ordet (fyll-i-luckan) övar olika kognitiva färdigheter med liknande vokabulär. Paketera båda formaten till ett «Komplett Stavningsövning»-paket där eleverna först mixar brickor och sedan fyller i saknade bokstäver. Flerformatspaket säljer för mer och ger mer grundlig stavningsövning.',
+      description: 'Ordmix (bokstavsomflyttning) och Gissa Ordet (fyll-i-luckan) övar olika kognitiva färdigheter med liknande vokabulär. Paketera båda formaten till ett «Komplett Stavningsövning»-paket där användarna först mixar brickor och sedan fyller i saknade bokstäver. Flerformatspaket säljer för mer och ger mer grundlig stavningsövning.',
     },
   ],
 
@@ -160,15 +160,15 @@ const content: ToolContent = {
     },
     {
       question: 'Hur skiljer sig ordmixpussel från gissa ordet arbetsblad?',
-      answer: 'Ordmix ger eleverna ALLA bokstäverna men i fel ordning — de omordnar blandade brickor till rätt stavning. Gissa Ordet visar luckor i fasta positioner och eleverna fyller i de saknade bokstäverna. Ordmix är en bokstavsomflyttningsutmaning; Gissa Ordet är en fyll-i-luckan-övning. De övar olika kognitiva färdigheter och paras bra ihop i paketerade produkter.',
+      answer: 'Ordmix ger användarna ALLA bokstäverna men i fel ordning — de omordnar blandade brickor till rätt stavning. Gissa Ordet visar luckor i fasta positioner och användarna fyller i de saknade bokstäverna. Ordmix är en bokstavsomflyttningsutmaning; Gissa Ordet är en fyll-i-luckan-övning. De övar olika kognitiva färdigheter och paras bra ihop i paketerade produkter.',
     },
     {
       question: 'Hur fungerar de fyra svårighetsnivåerna?',
-      answer: 'Varje nivå kontrollerar hur många bokstäver som förplaceras i rätt position bland de blandade brickorna. Inga Ledtrådar (0%) blandar varje bokstav för maximal utmaning. Lätt (50%) förplacerar hälften av bokstäverna för stöttade nybörjare. Normal (25%) placerar en fjärdedel för balanserad övning. Svår (16%) placerar bara en sjättedel. Blanda nivåer över sidor för att skapa differentierade paket.',
+      answer: 'Varje nivå kontrollerar hur många bokstäver som förplaceras i rätt position bland de blandade brickorna. Inga Ledtrådar (0%) blandar varje bokstav för maximal utmaning. Lätt (50%) förplacerar hälften av bokstäverna för stöttade nybörjare. Normal (25%) placerar en fjärdedel för balanserad övning. Svår (16%) placerar bara en sjättedel. Blanda nivåer över sidor för att skapa nivågrupperade paket.',
     },
     {
       question: 'Vad är vokal-konsonant färgkodning?',
-      answer: 'Växla Färgkodad-alternativet för att visa vokaler i en färg och konsonanter i en annan på bokstavsbrickorna. Detta visuella fonicshjälpmedel hjälper eleverna skilja vokal- och konsonantmönster medan de löser pussel. Välj Helt Svart för traditionella enfärgade brickor. Färgkodning är unikt för Ordmix och lägger till en stark differentieringsdimension för säljare som riktar sig mot fonics-fokuserade köpare.',
+      answer: 'Växla Färgkodad-alternativet för att visa vokaler i en färg och konsonanter i en annan på bokstavsbrickorna. Detta visuella fonicshjälpmedel hjälper användarna skilja vokal- och konsonantmönster medan de löser pussel. Välj Helt Svart för traditionella enfärgade brickor. Färgkodning är unikt för Ordmix och lägger till en stark differentieringsdimension för säljare som riktar sig mot fonics-fokuserade köpare.',
     },
     {
       question: 'Vilka är de tre innehållskällorna?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg kommersiellt?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja arbetsblad på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

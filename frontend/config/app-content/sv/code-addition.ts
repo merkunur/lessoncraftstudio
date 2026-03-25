@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'utskrivbara mattepussel arbetsblad för Etsy',
       'kodadditions arbetsblad för Amazon KDP',
-      'mattepussel generator för TPT säljare',
+      'mattepussel generator för Gumroad säljare',
       'kodadditions arbetsblad kommersiell licens',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Kodaddition Generator | Mattepussel att Knäcka',
     metaDescription:
-      'Skapa kodadditions arbetsblad för Etsy, KDP och TPT. Avslöja Ord läge, 104 teman, 11 språk, facit, 400+ DPI. Gratis provversion med vattenstämpel.',
+      'Skapa kodadditions arbetsblad för Etsy, KDP och Gumroad. Avslöja Ord läge, 104 teman, 11 språk, facit, 400+ DPI. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Kodadditions Arbetsblad Generator — Mattepussel att Knäcka',
     tagline: 'Förvandla addition till ett detektivuppdrag där varje bild döljer ett hemligt nummer.',
     description:
-      'Skapa kryptaritmetiska additions arbetsblad som utmanar eleverna att knäcka en visuell kod. Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer — eleverna löser additionsuppgifter för att ta reda på vilket nummer varje bild står för, där räknefärdighet och logiskt resonemang smälter samman i en och samma övning. Byt till Avslöja Ord läget och utmaningen växer: skriv ett hemligt ord på upp till tio bokstäver, och varje korrekt löst ekvation avslöjar en bokstav i svaret, medan tre vilseledande ekvationer med felaktiga summor höjer spänningen. Generatorn stöder elva språkspecifika alfabet, vilket gör att Avslöja Ord läget fungerar inbyggt på svenska, engelska, tyska, franska och sju andra språk — en funktion som ingen annan arbetsblad generator erbjuder. Det svenska alfabetet innehåller å, ä och ö, så hemliga ord med dessa bokstäver fungerar naturligt. Välj bland mer än 3 100 bilder i 104 teman, konfigurera talintervall från 1 till 20 med två till fem kodsymboler per arbetsblad, och exportera tryckfärdiga PDF:er eller JPEG:er med mer än 400 DPI med automatiska facit. Gratis provversion med alla funktioner — utan registrering, utan kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa kryptaritmetiska additions arbetsblad som utmanar användarna att knäcka en visuell kod. Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer — användarna löser additionsuppgifter för att ta reda på vilket nummer varje bild står för, där räknefärdighet och logiskt resonemang smälter samman i en och samma övning. Byt till Avslöja Ord läget och utmaningen växer: skriv ett hemligt ord på upp till tio bokstäver, och varje korrekt löst ekvation avslöjar en bokstav i svaret, medan tre vilseledande ekvationer med felaktiga summor höjer spänningen. Generatorn stöder elva språkspecifika alfabet, vilket gör att Avslöja Ord läget fungerar inbyggt på svenska, engelska, tyska, franska och sju andra språk — en funktion som ingen annan arbetsblad generator erbjuder. Det svenska alfabetet innehåller å, ä och ö, så hemliga ord med dessa bokstäver fungerar naturligt. Välj bland mer än 3 100 bilder i 104 teman, konfigurera talintervall från 1 till 20 med två till fem kodsymboler per arbetsblad, och exportera tryckfärdiga PDF:er eller JPEG:er med mer än 400 DPI med automatiska facit. Gratis provversion med alla funktioner — utan registrering, utan kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -42,17 +42,17 @@ const content: AppContent = {
       {
         title: 'Välj bilder från temabiblioteket',
         description:
-          'Öppna panelen Bildbibliotek och utforska 104 teman — från djur och dinosaurier till rymden och högtider. Använd sökfältet för att hitta specifika bilder direkt. Bilderna du väljer blir kodsymbolerna på ditt arbetsblad: varje bild motsvarar ett dolt nummer som eleverna måste ta reda på. Du kan också ladda upp dina egna PNG- eller JPEG-bilder för personliga och säsongsbetonade pussel.',
+          'Öppna panelen Bildbibliotek och utforska 104 teman — från djur och dinosaurier till rymden och högtider. Använd sökfältet för att hitta specifika bilder direkt. Bilderna du väljer blir kodsymbolerna på ditt arbetsblad: varje bild motsvarar ett dolt nummer som användarna måste ta reda på. Du kan också ladda upp dina egna PNG- eller JPEG-bilder för personliga och säsongsbetonade pussel.',
       },
       {
         title: 'Lägg till text, titlar och alternativ',
         description:
-          'Använd panelen Textverktyg för att lägga till en titel, fält för elevens namn och datum, instruktioner eller anpassad text. Välj bland sju barnvänliga typsnitt, inklusive Lexend Deca, Baloo 2, Fredoka och Quicksand. Aktivera eller inaktivera uppgiftsnummer, visa eller dölj rubrik och ram, och aktivera gråskaleläget för kostnadseffektiv utskrift. Varje inställning uppdaterar arbetsytans förhandsgranskning i realtid så att du kan justera layouten innan du exporterar.',
+          'Använd panelen Textverktyg för att lägga till en titel, fält för namn och datum, instruktioner eller anpassad text. Välj bland sju tydliga typsnitt, inklusive Lexend Deca, Baloo 2, Fredoka och Quicksand. Aktivera eller inaktivera uppgiftsnummer, visa eller dölj rubrik och ram, och aktivera gråskaleläget för kostnadseffektiv utskrift. Varje inställning uppdaterar arbetsytans förhandsgranskning i realtid så att du kan justera layouten innan du exporterar.',
       },
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Gå till fliken Facit och klicka på Generera för att skapa en löst version av ditt arbetsblad. Facit lägger det dolda numret direkt ovanpå varje bildsymbol, vilket gör lösningarna helt tydliga för lärare och föräldrar. I Avslöja Ord läget visar facit även det avkodade ordet och markerar vilka ekvationer som var vilseledande. Exportera både arbetsbladet och facit som högupplöst JPEG eller tryckfärdig PDF. Varje fil renderas med mer än 400 DPI så att dina kodknäckningspussel ser skarpa ut, oavsett om du skriver ut hemma eller laddar upp till Etsy.se och Amazon KDP.',
+          'Gå till fliken Facit och klicka på Generera för att skapa en löst version av ditt arbetsblad. Facit lägger det dolda numret direkt ovanpå varje bildsymbol, vilket gör lösningarna helt tydliga för säljare och föräldrar. I Avslöja Ord läget visar facit även det avkodade ordet och markerar vilka ekvationer som var vilseledande. Exportera både arbetsbladet och facit som högupplöst JPEG eller tryckfärdig PDF. Varje fil renderas med mer än 400 DPI så att dina kodknäckningspussel ser skarpa ut, oavsett om du skriver ut hemma eller laddar upp till Etsy.se och Amazon KDP.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Kodknäckningsmekanik — bilder som dolda nummer',
         description:
-          'Det utmärkande elementet i denna generator är den kryptaritmetiska motorn. Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer. Eleverna löser additionsuppgifter där additionstermerna och summorna visas som bilder istället för siffror, och använder sedan logisk deduktion för att upptäcka vilket nummer varje bild föreställer. Detta förvandlar en rutinmässig additionsövning till ett detektivpussel som utvecklar högre ordnings tänkande vid sidan av grundläggande räknefärdighet. Eftersom pusslen kräver att eleverna tänker igenom flera ekvationer samtidigt bygger de problemlösningsfärdigheter som går långt bortom enkel memorering.',
+          'Det utmärkande elementet i denna generator är den kryptaritmetiska motorn. Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer. användarna löser additionsuppgifter där additionstermerna och summorna visas som bilder istället för siffror, och använder sedan logisk deduktion för att upptäcka vilket nummer varje bild föreställer. Detta förvandlar en rutinmässig additionsövning till ett detektivpussel som utvecklar högre ordnings tänkande vid sidan av grundläggande räknefärdighet. Eftersom pusslen kräver att användarna tänker igenom flera ekvationer samtidigt bygger de problemlösningsfärdigheter som går långt bortom enkel memorering.',
       },
       {
         title: 'Avslöja Ord läge med hemliga ord',
         description:
-          'Aktivera Avslöja Ord läget och skriv ett hemligt ord på upp till tio bokstäver. Generatorn skapar en additionsuppgift för varje bokstav i ordet — summan av varje ekvation motsvarar en specifik bokstav i en avkodningstabell. Eleverna löser ekvationerna, slår upp varje summa i tabellen och formar det dolda ordet. Tre vilseledande ekvationer med felaktiga summor läggs till automatiskt, vilket ger eleverna extra övningsuppgifter som inte motsvarar en bokstav och tvingar dem att kontrollera varje svar. Om talintervallet inte kan producera tillräckligt med unika summor för alla bokstäver anpassar appen sig intelligent genom att utöka intervallet eller öka antalet additionstermer från två till fyra.',
+          'Aktivera Avslöja Ord läget och skriv ett hemligt ord på upp till tio bokstäver. Generatorn skapar en additionsuppgift för varje bokstav i ordet — summan av varje ekvation motsvarar en specifik bokstav i en avkodningstabell. användarna löser ekvationerna, slår upp varje summa i tabellen och formar det dolda ordet. Tre vilseledande ekvationer med felaktiga summor läggs till automatiskt, vilket ger användarna extra övningsuppgifter som inte motsvarar en bokstav och tvingar dem att kontrollera varje svar. Om talintervallet inte kan producera tillräckligt med unika summor för alla bokstäver anpassar appen sig intelligent genom att utöka intervallet eller öka antalet additionstermer från två till fyra.',
       },
       {
         title: 'Språkspecifika alfabet för 11 språk',
@@ -78,17 +78,17 @@ const content: AppContent = {
       {
         title: 'Konfigurerbara talintervall och symbolantal',
         description:
-          'Ställ in minimum- och maximumvärden för additionstermerna från 1 till 20 för att styra uppgifternas svårighetsgrad. Välj mellan två och fem unika bildsymboler per arbetsblad för att anpassa deduktionens komplexitet — två symboler skapar ett tillgängligt pussel för yngre elever, medan fem symboler kräver att eleverna håller reda på flera okända genom många ekvationer. Kombinationen av talintervall och symbolantal ger dig exakt kontroll över svårighetsgraden, så att du kan skapa progressiva arbetsbladsuppsättningar från lätt till avancerat på några minuter.',
+          'Ställ in minimum- och maximumvärden för additionstermerna från 1 till 20 för att styra uppgifternas svårighetsgrad. Välj mellan två och fem unika bildsymboler per arbetsblad för att anpassa deduktionens komplexitet — två symboler skapar ett tillgängligt pussel för yngre användare, medan fem symboler kräver att användarna håller reda på flera okända genom många ekvationer. Kombinationen av talintervall och symbolantal ger dig exakt kontroll över svårighetsgraden, så att du kan skapa progressiva arbetsbladsuppsättningar från lätt till avancerat på några minuter.',
       },
       {
         title: '104 visuella teman med mer än 3 100 bilder',
         description:
-          'Utforska ett bibliotek med mer än 3 100 noggrant utvalda illustrationer, organiserade i 104 teman, inklusive bondgårdsdjur, havsdjur, fordon, rymden, mat, sport, dinosaurier, högtider och mycket mer. Varje bild har hög upplösning och är designad för skarpa, barnvänliga utskrifter. I Kodaddition fungerar bilderna som kodsymbolerna själva — eleverna ser en katt, en raket och en muffin och måste sluta sig till att katten är 3, raketen 7 och muffinen 5. Tematiska pussel är oemotståndliga för barn och mycket säljbara som utskrivbara produkter.',
+          'Utforska ett bibliotek med mer än 3 100 noggrant utvalda illustrationer, organiserade i 104 teman, inklusive bondgårdsdjur, havsdjur, fordon, rymden, mat, sport, dinosaurier, högtider och mycket mer. Varje bild har hög upplösning och är designad för skarpa, tydliga utskrifter. I Kodaddition fungerar bilderna som kodsymbolerna själva — användarna ser en katt, en raket och en muffin och måste sluta sig till att katten är 3, raketen 7 och muffinen 5. Tematiska pussel är oemotståndliga för barn och mycket säljbara som utskrivbara produkter.',
       },
       {
         title: 'Automatiskt facit med nummeröverlager',
         description:
-          'Generera ett komplett facit med ett klick. Facit återger arbetsbladsdesignen och lägger det dolda numret direkt ovanpå varje bildsymbol, vilket gör lösningen omedelbart tydlig. I Avslöja Ord läget visar facit även det avkodade ordet och anger vilka ekvationer som var vilseledande. Exportera facit som en separat fil för enkel inkludering i lärarupplagor, föräldrahandledningar eller kommersiella produktpaket.',
+          'Generera ett komplett facit med ett klick. Facit återger arbetsbladsdesignen och lägger det dolda numret direkt ovanpå varje bildsymbol, vilket gör lösningen omedelbart tydlig. I Avslöja Ord läget visar facit även det avkodade ordet och anger vilka ekvationer som var vilseledande. Exportera facit som en separat fil för enkel inkludering i facitversioner, föräldrahandledningar eller kommersiella produktpaket.',
       },
       {
         title: 'Tryckfärdig export i 400+ DPI med gråskalealternativ',
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade mattestationer för TPT',
+        title: 'Nivågrupperade matteprodukter för Gumroad',
         description:
-          'Skapa kodadditionsuppsättningar i nivåer: Nivå 1 (två symboler med summor under 10), Nivå 2 (tre symboler med summor under 15), Nivå 3 (fyra eller fem symboler med summor till 20) och en bonusnivå Avslöja Ord där eleverna avkodar ordförrådstermer. Varje nivå med facit och framstegsregistrering. Kodmekaniken differentierar naturligt — fler symboler och högre intervall ökar svårigheten utan att ändra aktivitetsformatet, så alla elever i en mattestation gör samma typ av uppgift på sin egen nivå.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Skapa kodadditionsuppsättningar i nivåer: Nivå 1 (två symboler med summor under 10), Nivå 2 (tre symboler med summor under 15), Nivå 3 (fyra eller fem symboler med summor till 20) och en bonusnivå Avslöja Ord där användarna avkodar ordförrådstermer. Varje nivå med facit och framstegsregistrering. Kodmekaniken differentierar naturligt — fler symboler och högre intervall ökar svårigheten utan att ändra aktivitetsformatet, så alla användare i en mattestation gör samma typ av uppgift på sin egen nivå.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Flerspråkiga pusselpaket för din egen webbshop',
@@ -131,10 +131,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Engagemang i klassrummet och lekfullt räknande',
+        title: 'Engagemang online och lekfullt räknande',
         description:
-          'Använd kodadditions arbetsblad för att förvandla den dagliga matteövningen till ett spel. Dela ut ett Klassiskt Läge pussel som uppvärmningsutmaning där den första eleven som knäcker koden vinner ett pris. Använd Avslöja Ord läget för att koda ett ordförrådsord, ett faktum eller ett motiverande meddelande som eleverna upptäcker genom att lösa alla ekvationer. Pusselformatet förvandlar ett rutinmässigt övningsblad till en mysterieaktivitet som håller eleverna fokuserade och motiverade. Automatiska facit sparar rättningstid, och den justerbara svårighetsgraden betyder att en enda generator täcker från förskolan till årskurs 5.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Använd kodadditions arbetsblad för att förvandla den dagliga matteövningen till ett spel. Dela ut ett Klassiskt Läge pussel som uppvärmningsutmaning där den första användaren som knäcker koden vinner ett pris. Använd Avslöja Ord läget för att koda ett ordförrådsord, ett faktum eller ett motiverande meddelande som användarna upptäcker genom att lösa alla ekvationer. Pusselformatet förvandlar ett rutinmässigt övningsblad till en mysterieaktivitet som håller användarna fokuserade och motiverade. Automatiska facit sparar upplevt värde, och den justerbara svårighetsgraden betyder att en enda generator täcker från förskolan till årskurs 5.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar kodknäckningsmekaniken?',
       answer:
-        'Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer. Arbetsbladet visar additionsuppgifter där additionstermerna och summorna visas som bilder istället för siffror. Eleverna löser ekvationerna med logik och deduktion: om en katt plus en hund är sju och en katt plus en katt är sex, då är katten tre och hunden fyra. Pusslet kräver att man tänker igenom flera ekvationer samtidigt, vilket utvecklar både räknefärdighet och kritiskt tänkande.',
+        'Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer. Arbetsbladet visar additionsuppgifter där additionstermerna och summorna visas som bilder istället för siffror. användarna löser ekvationerna med logik och deduktion: om en katt plus en hund är sju och en katt plus en katt är sex, då är katten tre och hunden fyra. Pusslet kräver att man tänker igenom flera ekvationer samtidigt, vilket utvecklar både räknefärdighet och kritiskt tänkande.',
     },
     {
       question: 'Vad är Avslöja Ord läget?',
       answer:
-        'Avslöja Ord läget låter dig skriva ett hemligt ord på upp till tio bokstäver. Generatorn skapar en ekvation för varje bokstav — summan av varje ekvation motsvarar en specifik bokstav i en avkodningstabell. Eleverna löser ekvationerna, slår upp varje summa i tabellen och formar det dolda ordet. Tre vilseledande ekvationer med felaktiga summor läggs till automatiskt, så att eleverna måste kontrollera varje svar. Det kombinerar matteövning med stavning och ordförråd i en engagerande aktivitet.',
+        'Avslöja Ord läget låter dig skriva ett hemligt ord på upp till tio bokstäver. Generatorn skapar en ekvation för varje bokstav — summan av varje ekvation motsvarar en specifik bokstav i en avkodningstabell. användarna löser ekvationerna, slår upp varje summa i tabellen och formar det dolda ordet. Tre vilseledande ekvationer med felaktiga summor läggs till automatiskt, så att användarna måste kontrollera varje svar. Det kombinerar matteövning med stavning och ordförråd i en engagerande aktivitet.',
     },
     {
       question: 'Hur motsvarar bildsymbolerna nummer?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Hur många symboler kan jag använda per arbetsblad?',
       answer:
-        'Du kan välja mellan två och fem unika bildsymboler per arbetsblad. Färre symboler skapar enklare pussel som yngre elever kan lösa; fler symboler skapar komplexa utmaningar där flera okända måste spåras genom många ekvationer. Att justera antalet symboler är det enklaste sättet att skala svårighetsgraden utan att ändra talintervallet.',
+        'Du kan välja mellan två och fem unika bildsymboler per arbetsblad. Färre symboler skapar enklare pussel som yngre användare kan lösa; fler symboler skapar komplexa utmaningar där flera okända måste spåras genom många ekvationer. Att justera antalet symboler är det enklaste sättet att skala svårighetsgraden utan att ändra talintervallet.',
     },
     {
       question: 'Är Kodaddition språkkänsligt?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Vad är vilseledande bokstäver i Avslöja Ord läget?',
       answer:
-        'Vilseledande bokstäver är tre extra ekvationer vars summor inte motsvarar en bokstav i det hemliga ordet. De visas på arbetsbladet tillsammans med de riktiga ekvationerna, och deras summor hänvisar till bokstäver som inte ingår i svaret. Detta förhindrar att eleverna enkelt löser varje ekvation och antar att den avslöjar en bokstav — de måste lösa alla ekvationer och konsultera avkodningstabellen för att avgöra vilka som är vilseledande och vilka som bildar ordet.',
+        'Vilseledande bokstäver är tre extra ekvationer vars summor inte motsvarar en bokstav i det hemliga ordet. De visas på arbetsbladet tillsammans med de riktiga ekvationerna, och deras summor hänvisar till bokstäver som inte ingår i svaret. Detta förhindrar att användarna enkelt löser varje ekvation och antar att den avslöjar en bokstav — de måste lösa alla ekvationer och konsultera avkodningstabellen för att avgöra vilka som är vilseledande och vilka som bildar ordet.',
     },
     {
       question: 'Hur visar facit lösningarna?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Vad ingår i den kommersiella licensen?',
       answer:
-        'Den kommersiella licensen tar bort vattenstämpeln från alla nedladdningar och ger dig obegränsade rättigheter att sälja arbetsbladen du skapar — på Etsy.se, Amazon KDP, Teachers Pay Teachers, din egen webbplats eller vilken annan plattform som helst. Det finns inga royalties per försäljning, inga månadsavgifter och ingen gräns för antalet arbetsblad du producerar eller säljer.',
+        'Den kommersiella licensen tar bort vattenstämpeln från alla nedladdningar och ger dig obegränsade rättigheter att sälja arbetsbladen du skapar — på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst. Det finns inga royalties per försäljning, inga månadsavgifter och ingen gräns för antalet arbetsblad du producerar eller säljer.',
     },
     {
       question: 'Kan jag sälja arbetsbladen jag skapar med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina kodadditions arbetsblad som digitala nedladdningar på Etsy.se, som pusselböcker på Amazon KDP, som pedagogiska resurser på TPT eller via vilken annan försäljningskanal som helst. Kodknäckningsformatet är en beprövad produkt eftersom det sticker ut bland vanliga additionsarbetsblad i marknadsplatsernas sökresultat.',
+        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina kodadditions arbetsblad som digitala nedladdningar på Etsy.se, som pusselböcker på Amazon KDP, som pedagogiska resurser på Gumroad eller via vilken annan försäljningskanal som helst. Kodknäckningsformatet är en beprövad produkt eftersom det sticker ut bland vanliga additionsarbetsblad i marknadsplatsernas sökresultat.',
     },
     {
       question: 'Behöver jag installera programvara?',
@@ -246,7 +246,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'mattefakta-utskriftsbara-ideer',
-      anchorText: 'Mattefakta utskriftsbara idéer för lärare och säljare',
+      anchorText: 'Mattefakta utskriftsbara idéer för säljare och säljare',
     },
     {
       pageType: 'idea',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/swedish/code%20addition/image_addition_worksheet%20(1).webp',
         alt: 'Kodadditions arbetsblad i Klassiskt Läge med tematiska djurbilder som kodsymboler',
-        caption: 'Klassiskt Läge — eleverna knäcker koden genom att ta reda på vilket nummer varje bild föreställer',
+        caption: 'Klassiskt Läge — användarna knäcker koden genom att ta reda på vilket nummer varje bild föreställer',
       },
       {
         src: '/samples/swedish/code%20addition/image_addition_worksheet%20(2).webp',

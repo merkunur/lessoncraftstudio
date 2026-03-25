@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Mönster Arbetsblad Skapare',
     tagline: 'Generera rutnätsbaserade mönsterigenkännings arbetsblad med nio mönstertyper, två frågelägen, per-övning oberoende konfiguration och helt visuell textfri utmatning som säljer globalt utan översättning',
-    description: 'Skapa professionella mönsterkompletteringsarbetsblad där eleverna identifierar upprepande sekvenser och fyller i det saknade objektet eller väljer rätt svar bland flervalsmöjligheter. Nio distinkta mönstertyper täcker det bredaste utbudet av sekvenskomplexitet: AB alternerar två objekt, AAB och ABB introducerar asymmetriska grupperingar, ABC roterar tre olika objekt, AABB parar två av varje, ABBC och AABC lägger till trebild asymmetriska mönster, ABCC utökar med fördubblat slut, och ABCD roterar fyra olika objekt för maximal utmaning. Två frågelägen skapar fundamentalt olika övningar: Tom Ruta ersätter ett objekt med ett tomt utrymme för öppet resonemang, medan Välj bland Alternativ presenterar luckan plus tre svarsval med ett korrekt och två distraktorer. Konfigurera 1–8 övningar per sida med varje övning oberoende inställd för mönstertyp, frågeläge och tema — en sida kan blanda en AB fyll-i uppvärmning med en ABCD flervals utmaning. Aktivera Slumpmässig Start för att börja mönster mitt i cykeln och Slumpmässig Lucka för att placera det saknade objektet var som helst i sekvensen. Varje arbetsblad är helt visuellt med enbart bilder och noll text på utmatningen — inga ord visas, vilket gör dina produkter universellt säljbara utan översättning. Hämta från mer än 3 100 illustrationer i 104 tematiska samlingar eller ladda upp egna bilder. En separat facitflik visar alla luckor fyllda med rätt mönsterobjekt. Exportera tryckfärdiga PDF:er och JPEG-bilder med hög DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella mönsterkompletteringsarbetsblad där användarna identifierar upprepande sekvenser och fyller i det saknade objektet eller väljer rätt svar bland flervalsmöjligheter. Nio distinkta mönstertyper täcker det bredaste utbudet av sekvenskomplexitet: AB alternerar två objekt, AAB och ABB introducerar asymmetriska grupperingar, ABC roterar tre olika objekt, AABB parar två av varje, ABBC och AABC lägger till trebild asymmetriska mönster, ABCC utökar med fördubblat slut, och ABCD roterar fyra olika objekt för maximal utmaning. Två frågelägen skapar fundamentalt olika övningar: Tom Ruta ersätter ett objekt med ett tomt utrymme för öppet resonemang, medan Välj bland Alternativ presenterar luckan plus tre svarsval med ett korrekt och två distraktorer. Konfigurera 1–8 övningar per sida med varje övning oberoende inställd för mönstertyp, frågeläge och tema — en sida kan blanda en AB fyll-i uppvärmning med en ABCD flervals utmaning. Aktivera Slumpmässig Start för att börja mönster mitt i cykeln och Slumpmässig Lucka för att placera det saknade objektet var som helst i sekvensen. Varje arbetsblad är helt visuellt med enbart bilder och noll text på utmatningen — inga ord visas, vilket gör dina produkter universellt säljbara utan översättning. Hämta från mer än 3 100 illustrationer i 104 tematiska samlingar eller ladda upp egna bilder. En separat facitflik visar alla luckor fyllda med rätt mönsterobjekt. Exportera tryckfärdiga PDF:er och JPEG-bilder med hög DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Växla namn/datum-fält och övningsalternativ',
-        description: 'Aktivera valfria namn- och datumfält för elevidentifiering på utskrivna arbetsblad. Dessa fält visas som prickade områden som eleverna fyller i innan de börjar. Växla övningsnummer och dekorativa element på eller av.',
+        description: 'Aktivera valfria namn- och datumfält för identifiering på utskrivna arbetsblad. Dessa fält visas som prickade områden som användarna fyller i innan de börjar. Växla övningsnummer och dekorativa element på eller av.',
       },
       {
         title: 'Lägg till text och anpassa arbetsytan',
@@ -72,8 +72,8 @@ const content: ToolContent = {
       description: 'Sammanställ 80–120 mönsterövningar till tryckta arbetsböcker för Amazon KDP. Strukturera en dubbelaxlig svårighetsprogression: mönsterkomplexitet (AB genom ABCD) och frågeläge (tom ruta till flerval). Kapitel 1 täcker AB och AAB fyll-i övningar. Kapitel 2 introducerar ABC och AABB tom-ruta mönster. Kapitel 3 återbesöker tidigare typer med flervals format. Kapitel 4 presenterar ABBC genom ABCD utmaningar. Det textfria formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
     },
     {
-      title: 'Differentierade blandsvårighets-sidor',
-      description: 'Bygg arbetsblad där varje övning på samma sida riktar sig mot en annorlunda färdighetsnivå med per-övning konfiguration. Övning 1: AB tom-ruta för uppvärmning. Övning 2: AAB tom-ruta för övning. Övning 3: ABC flerval för guidad utmaning. Övning 4: ABCD tom-ruta med slumpmässig start för bedömning. En utskriven sida fungerar som en komplett differentierad aktivitet.',
+      title: 'nivågrupperade blandsvårighets-sidor',
+      description: 'Bygg arbetsblad där varje övning på samma sida riktar sig mot en annorlunda färdighetsnivå med per-övning konfiguration. Övning 1: AB tom-ruta för uppvärmning. Övning 2: AAB tom-ruta för övning. Övning 3: ABC flerval för guidad utmaning. Övning 4: ABCD tom-ruta med slumpmässig start för bedömning. En utskriven sida fungerar som en komplett nivågrupperad aktivitet.',
     },
     {
       title: 'Säsongsbetonade och högtidsmönsterset',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers nivåindelade stationer',
-      description: 'Ladda upp mönsterarbetsbladspaket till TPT organiserade efter färdighetsnivå med per-övning konfiguration som differentieringspunkt. Nivå 1-sidor har enbart AB tom-ruta övningar. Nivå 2 blandar AB och AAB med båda lägen. Nivå 3 introducerar ABC flerval bredvid tom-ruta uppvärmningar. Nivå 4 kombinerar ABCD-utmaningar med slumpmässig start. Varje nivå använder tematiska övningar med separata facit.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad nivåindelade stationer',
+      description: 'Ladda upp mönsterarbetsbladspaket till Gumroad organiserade efter färdighetsnivå med per-övning konfiguration som differentieringspunkt. Nivå 1-sidor har enbart AB tom-ruta övningar. Nivå 2 blandar AB och AAB med båda lägen. Nivå 3 introducerar ABC flerval bredvid tom-ruta uppvärmningar. Nivå 4 kombinerar ABCD-utmaningar med slumpmässig start. Varje nivå använder tematiska övningar med separata facit.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest visuellt mönstertratt',
-      description: 'Mönsterarbetsblad med färgglada tematiska bilder i en ren rutnätslayout gör utmärkta Pinterest-pins. Pinna provarbetsblad som visar olika mönstertyper med vattenstämpel, länka till din Etsy-butik eller landningssida och bygg din e-postlista. Skapa pins för varje frågeläge separat. Det textfria formatet innebär att pins tilltalar föräldrar och lärare i varje land.',
+      description: 'Mönsterarbetsblad med färgglada tematiska bilder i en ren rutnätslayout gör utmärkta Pinterest-pins. Pinna provarbetsblad som visar olika mönstertyper med vattenstämpel, länka till din Etsy-butik eller landningssida och bygg din e-postlista. Skapa pins för varje frågeläge separat. Det textfria formatet innebär att pins tilltalar föräldrar och säljare i varje land.',
       platform: 'Pinterest',
     },
     {
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Använd gråskala för KDP och bulkutskrift',
-      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller klassrumsbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsminiatyrer och digitala nedladdningar.',
+      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsminiatyrer och digitala nedladdningar.',
     },
   ],
 
@@ -164,11 +164,11 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka är de två frågelägena?',
-      answer: 'Tom Ruta-läge ersätter ett objekt i mönstret med ett tomt utrymme — eleverna måste identifiera mönstret och bestämma det saknade objektet utan tips. Välj bland Alternativ-läge presenterar luckan bredvid tre svarsval: ett korrekt objekt och två distraktorer. Tom Ruta testar öppet resonemang; Flerval testar igenkänning med strukturerade svarsalternativ. Båda lägena fungerar med alla nio mönstertyper, vilket ger 18 distinkta övningsstilar.',
+      answer: 'Tom Ruta-läge ersätter ett objekt i mönstret med ett tomt utrymme — användarna måste identifiera mönstret och bestämma det saknade objektet utan tips. Välj bland Alternativ-läge presenterar luckan bredvid tre svarsval: ett korrekt objekt och två distraktorer. Tom Ruta testar öppet resonemang; Flerval testar igenkänning med strukturerade svarsalternativ. Båda lägena fungerar med alla nio mönstertyper, vilket ger 18 distinkta övningsstilar.',
     },
     {
       question: 'Hur fungerar per-övning konfiguration?',
-      answer: 'Varje övning på sidan har oberoende inställningar för mönstertyp, frågeläge och bildtema. Övning 1 kan vara en AB tom-ruta med bondgårdsdjur, Övning 2 en ABC flerval med fordon, och Övning 3 en ABCD tom-ruta med havsdjur — allt på samma sida. Detta innebär att ett arbetsblad fungerar som en komplett differentierad aktivitet med progressiv svårighet.',
+      answer: 'Varje övning på sidan har oberoende inställningar för mönstertyp, frågeläge och bildtema. Övning 1 kan vara en AB tom-ruta med bondgårdsdjur, Övning 2 en ABC flerval med fordon, och Övning 3 en ABCD tom-ruta med havsdjur — allt på samma sida. Detta innebär att ett arbetsblad fungerar som en komplett nivågrupperad aktivitet med progressiv svårighet.',
     },
     {
       question: 'Hur skiljer sig Mönster Arbetsblad från Mönstertåg?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vad gör Slumpmässig Start och Slumpmässig Lucka?',
-      answer: 'Börja från Slumpmässigt Element startar mönstret vid en slumpmässig punkt i cykeln istället för alltid vid det första elementet — ett ABC-mönster kan börja vid C-A-B-C istället för A-B-C. Slumpmässig Lucka placerar det saknade objektet vid valfri position i sekvensen istället för vid en fast plats. Tillsammans förhindrar dessa inställningar att eleverna löser genom utantill.',
+      answer: 'Börja från Slumpmässigt Element startar mönstret vid en slumpmässig punkt i cykeln istället för alltid vid det första elementet — ett ABC-mönster kan börja vid C-A-B-C istället för A-B-C. Slumpmässig Lucka placerar det saknade objektet vid valfri position i sekvensen istället för vid en fast plats. Tillsammans förhindrar dessa inställningar att användarna löser genom utantill.',
     },
     {
       question: 'Varför har arbetsbladen ingen text?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja mönsterarbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, lärarresurser på TPT eller genom valfri annan försäljningskanal. Nio mönstertyper, två frågelägen och per-övning konfiguration ger dig den bredaste produktvariationen.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja mönsterarbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, lärarresurser på Gumroad eller genom valfri annan försäljningskanal. Nio mönstertyper, två frågelägen och per-övning konfiguration ger dig den bredaste produktvariationen.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -214,18 +214,18 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel.webp',
-      primaryAlt: 'Mönsterigenkännings arbetsblad med rutnätsbaserade övningar som visar upprepande bildmönster med tomma rutor och flervals alternativ för eleverna att slutföra',
+      primaryAlt: 'Mönsterigenkännings arbetsblad med rutnätsbaserade övningar som visar upprepande bildmönster med tomma rutor och flervals alternativ för användarna att slutföra',
     },
     sampleGallery: [
       {
         src: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel%201.webp',
-        alt: 'Mönsterarbetsblad med AB fyll-i-luckan övningar med djurbilder i rutnätslayout med tomma rutor för eleverna att slutföra',
-        caption: 'AB tom-ruta övningar med djurtema — eleverna identifierar det alternerande mönstret och fyller i den saknade bilden',
+        alt: 'Mönsterarbetsblad med AB fyll-i-luckan övningar med djurbilder i rutnätslayout med tomma rutor för användarna att slutföra',
+        caption: 'AB tom-ruta övningar med djurtema — användarna identifierar det alternerande mönstret och fyller i den saknade bilden',
       },
       {
         src: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel%203.webp',
         alt: 'Mönsterarbetsblad med ABC flervals övningar med fordonsbilder med tre svarsalternativ per övning',
-        caption: 'ABC flervals övningar med fordonstema — eleverna väljer det korrekta saknade objektet bland tre alternativ',
+        caption: 'ABC flervals övningar med fordonstema — användarna väljer det korrekta saknade objektet bland tre alternativ',
       },
       {
         src: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel%201%20answer_key.webp',

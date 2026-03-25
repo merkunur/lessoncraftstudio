@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Aftrekken Werkblad Maker',
     tagline: 'Maak visuele doorstreep-aftrekwerkbladen in minder dan 60 seconden',
-    description: 'Maak aftrekken tastbaar met doorstreep-visuals die kinderen intuïtief begrijpen en verkopers solide inkomsten opleveren. Deze tool genereert beeldgebaseerde aftrekwerkbladen waarbij leerlingen afbeeldingen doorstrepen om het antwoord te vinden — de meest natuurlijke manier om min-sommen te leren. Kies uit meer dan 100 beeldthema\'s met meer dan 3100 illustraties, stel je aftrekbereik in, kies uit vier oefenmodi inclusief het unieke Doorstrepen-formaat, en download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI. Ideaal voor Etsy-verkopers die gedifferentieerde rekenproductlijnen opbouwen, leerkrachten die klaslokaal-pakketten maken, en KDP-uitgevers die aftrekwerkboeken samenstellen. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Maak aftrekken tastbaar met doorstreep-visuals die kinderen intuïtief begrijpen en verkopers solide inkomsten opleveren. Deze tool genereert beeldgebaseerde aftrekwerkbladen waarbij gebruikers afbeeldingen doorstrepen om het antwoord te vinden — de meest natuurlijke manier om min-sommen te leren. Kies uit meer dan 100 beeldthema\'s met meer dan 3100 illustraties, stel je aftrekbereik in, kies uit vier oefenmodi inclusief het unieke Doorstrepen-formaat, en download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI. Ideaal voor Etsy-verkopers die gedifferentieerde rekenproductlijnen opbouwen, verkopers die winkel-pakketten maken, en KDP-uitgevers die aftrekwerkboeken samenstellen. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -33,11 +33,11 @@ const content: ToolContent = {
       },
       {
         title: 'Kies je oefenmodus',
-        description: 'Open het paneel "Oefenconfiguratie" en selecteer uit vier modi: Doorstrepen (leerlingen strepen afbeeldingen door om aftrekken te visualiseren — de meest intuïtieve modus voor jonge leerlingen), Afbeelding − Getal (een plaatjesgroep min een cijfer), Zoek de Aftrekker (toont het aftrekgetal en het resultaat; het kind bepaalt wat werd weggenomen), of Gemengde Modus (combineert alle drie stijlen willekeurig op één blad voor maximale afwisseling).',
+        description: 'Open het paneel "Oefenconfiguratie" en selecteer uit vier modi: Doorstrepen (gebruikers strepen afbeeldingen door om aftrekken te visualiseren — de meest intuïtieve modus voor jonge gebruikers), Afbeelding − Getal (een plaatjesgroep min een cijfer), Zoek de Aftrekker (toont het aftrekgetal en het resultaat; het kind bepaalt wat werd weggenomen), of Gemengde Modus (combineert alle drie stijlen willekeurig op één blad voor maximale afwisseling).',
       },
       {
         title: 'Stel de moeilijkheidsgraad in',
-        description: 'Pas de schuifregelaar "Maximaal Aftrekgetal" aan om het grootste startgetal in elke oefening te bepalen (bereik: 2–20). Voor kleuters houd je dit op 5 of lager. Groep 1–2 leerlingen kunnen goed overweg met maximaal 10. Groep 3 kan het volledige bereik tot 20 aan. Stel ook het aantal opgaven per werkblad in — van 1 tot 10 oefeningen per pagina.',
+        description: 'Pas de schuifregelaar "Maximaal Aftrekgetal" aan om het grootste startgetal in elke oefening te bepalen (bereik: 2–20). Voor kleuters houd je dit op 5 of lager. Groep 1–2 gebruikers kunnen goed overweg met maximaal 10. Groep 3 kan het volledige bereik tot 20 aan. Stel ook het aantal opgaven per werkblad in — van 1 tot 10 oefeningen per pagina.',
       },
       {
         title: 'Selecteer een thema uit de afbeeldingenbibliotheek',
@@ -49,11 +49,11 @@ const content: ToolContent = {
       },
       {
         title: 'Voeg tekst en titels toe',
-        description: 'Gebruik het paneel "Teksttools" om een titel toe te voegen zoals "Doorstreep Aftrekken" of "Min-Sommen Oefenen". Kies uit kindvriendelijke lettertypen zoals Fredoka, Baloo 2, Quicksand en Nunito. Pas lettergrootte, kleur en optionele tekstomtrek aan voor betere leesbaarheid over achtergronden.',
+        description: 'Gebruik het paneel "Teksttools" om een titel toe te voegen zoals "Doorstreep Aftrekken" of "Min-Sommen Oefenen". Kies uit leesbare lettertypen zoals Fredoka, Baloo 2, Quicksand en Nunito. Pas lettergrootte, kleur en optionele tekstomtrek aan voor betere leesbaarheid over achtergronden.',
       },
       {
         title: 'Werkbladopties fijnafstemmen',
-        description: 'Optimaliseer je werkblad met selectievakjes: schakel naam- en datumvelden bovenaan in, toon of verberg het minteken tussen afbeeldingsgroepen, voeg doorlopende opgavenummers toe en schakel het kindvriendelijke antwoordvakontwerp in of uit. Elke wijziging werkt de live voorbeeldweergave direct bij.',
+        description: 'Optimaliseer je werkblad met selectievakjes: schakel naam- en datumvelden bovenaan in, toon of verberg het minteken tussen afbeeldingsgroepen, voeg doorlopende opgavenummers toe en schakel het duidelijke antwoordvakontwerp in of uit. Elke wijziging werkt de live voorbeeldweergave direct bij.',
       },
       {
         title: 'Genereer en download',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Doorstreep-Aftrek Activiteitenpakketten',
-      description: 'Maak sets van 10–20 werkbladen met de Doorstrepen-modus waarbij kinderen fysiek afbeeldingen doorstrepen om elke opgave op te lossen. Bundel ze per thema — dinosaurussen, boerderijdieren, zeedieren — en verkoop als visuele aftrekpakketten op Etsy.nl of TPT. Het doorstreepformaat is de nummer één aanvraag van leerkrachten in het kleuteronderwijs en de onderbouw. Positioneer je pakketten op €3–€5 per thema en €8–€12 voor megabundels die meerdere thema\'s combineren met progressieve moeilijkheid.',
+      description: 'Maak sets van 10–20 werkbladen met de Doorstrepen-modus waarbij kinderen fysiek afbeeldingen doorstrepen om elke opgave op te lossen. Bundel ze per thema — dinosaurussen, boerderijdieren, zeedieren — en verkoop als visuele aftrekpakketten op Etsy.nl of Gumroad. Het doorstreepformaat is de nummer één aanvraag van verkopers in het kleuteronderwijs en de onderbouw. Positioneer je pakketten op €3–€5 per thema en €8–€12 voor megabundels die meerdere thema\'s combineren met progressieve moeilijkheid.',
     },
     {
       title: 'Min-Sommen Werkboeken voor KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gedifferentieerde Klassets',
-      description: 'Genereer drie versies van hetzelfde werkblad op verschillende moeilijkheidsniveaus: makkelijk (maximaal aftrekgetal 5), gemiddeld (maximaal 10) en moeilijk (maximaal 20). Leerkrachten kunnen elke leerling het juiste niveau geven zonder extra voorbereidingstijd. Voeg de modus Zoek de Aftrekker toe aan de gevorderde set voor een extra uitdaging. Bundel alle drie niveaus samen als één TPT-vermelding op €4–€6.',
+      description: 'Genereer drie versies van hetzelfde werkblad op verschillende moeilijkheidsniveaus: makkelijk (maximaal aftrekgetal 5), gemiddeld (maximaal 10) en moeilijk (maximaal 20). verkopers kunnen elke gebruiker het juiste niveau geven zonder extra productietijd. Voeg de modus Zoek de Aftrekker toe aan de gevorderde set voor een extra uitdaging. Bundel alle drie niveaus samen als één Gumroad-vermelding op €4–€6.',
     },
     {
       title: 'Seizoensgebonden Aftrekbundels',
@@ -81,24 +81,24 @@ const content: ToolContent = {
     },
     {
       title: 'Zoek het Ontbrekende Getal Werkbladen',
-      description: 'Gebruik de modus Zoek de Aftrekker exclusief om "zoek het ontbrekende getal" aftrekbladen te maken. Dit formaat is populair bij leerkrachten van groep 3–4 omdat het algebraïsch denken ontwikkelt. Verpak ze als aparte productlijn naast je standaard aftrekpakketten voor een breder aanbod.',
+      description: 'Gebruik de modus Zoek de Aftrekker exclusief om "zoek het ontbrekende getal" aftrekbladen te maken. Dit formaat is populair bij verkopers van groep 3–4 omdat het algebraïsch denken ontwikkelt. Verpak ze als aparte productlijn naast je standaard aftrekpakketten voor een breder aanbod.',
     },
     {
       title: 'Meertalige Aftrekwerkbladen',
-      description: 'Schakel de inhoudstaal om en maak werkbladen met afbeeldingslabels in het Duits, Frans, Spaans of een van de 11 ondersteunde talen. Ideaal voor NT2-klaslokalen, tweetalige thuisonderwijsgezinnen en internationale schoolverkopers. Duitse en Franse aftrekwerkbladen hebben aanzienlijk minder concurrentie op Etsy dan Engelstalige, wat hogere zoekzichtbaarheid betekent voor verkopers die in meertalige productlijnen investeren.',
+      description: 'Schakel de inhoudstaal om en maak werkbladen met afbeeldingslabels in het Duits, Frans, Spaans of een van de 11 ondersteunde talen. Ideaal voor NT2-winkels, tweetalige thuisonderwijsgezinnen en internationale schoolverkopers. Duitse en Franse aftrekwerkbladen hebben aanzienlijk minder concurrentie op Etsy dan Engelstalige, wat hogere zoekzichtbaarheid betekent voor verkopers die in meertalige productlijnen investeren.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Etsy Visuele Reken-Printables Winkel',
-      description: 'Open een Etsy-winkel gespecialiseerd in visuele aftrekwerkbladen. Het Doorstrepen-formaat is zeer gewild bij ouders en leerkrachten omdat het abstract aftrekken concreet maakt. Maak 15–20 thematische bundels geprijsd op €3–€5 per stuk. Met nul voorraad en directe digitale levering zijn de marges bijna 100% na Etsy-kosten. Focus je winkel-SEO op long-tail zoektermen zoals "doorstreep aftrekwerkbladen printbaar" en "visuele min-sommen activiteiten" om je te onderscheiden van generieke rekenwerkblad-vermeldingen. Vernieuw je miniatuurafbeeldingen seizoensgebonden.',
+      description: 'Open een Etsy-winkel gespecialiseerd in visuele aftrekwerkbladen. Het Doorstrepen-formaat is zeer gewild bij ouders en verkopers omdat het abstract aftrekken concreet maakt. Maak 15–20 thematische bundels geprijsd op €3–€5 per stuk. Met nul voorraad en directe digitale levering zijn de marges bijna 100% na Etsy-kosten. Focus je winkel-SEO op long-tail zoektermen zoals "doorstreep aftrekwerkbladen printbaar" en "visuele min-sommen activiteiten" om je te onderscheiden van generieke rekenwerkblad-vermeldingen. Vernieuw je miniatuurafbeeldingen seizoensgebonden.',
       platform: 'Etsy',
     },
     {
-      title: 'Teachers Pay Teachers Rekenbundel Verkoper',
-      description: 'Upload gedifferentieerde aftrekwerkbladpakketten naar TPT. Leerkrachten zoeken constant naar "doorstreep aftrekwerkbladen" en "visuele min-sommen printables". Voeg alle vier oefenmodi, antwoordbladen en een docentenhandleiding toe bij elke vermelding voor hogere waargenomen waarde en betere beoordelingen. Investeer extra tijd in je productvoorbeeldafbeeldingen — leerkrachten nemen aankoopbeslissingen vrijwel volledig op basis van visuele voorbeeldminiaturen.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Rekenbundel Verkoper',
+      description: 'Upload gedifferentieerde aftrekwerkbladpakketten naar Gumroad. verkopers zoeken constant naar "doorstreep aftrekwerkbladen" en "visuele min-sommen printables". Voeg alle vier oefenmodi, antwoordbladen en een verkopershandleiding toe bij elke vermelding voor hogere waargenomen waarde en betere beoordelingen. Investeer extra tijd in je productvoorbeeldafbeeldingen — verkopers nemen aankoopbeslissingen vrijwel volledig op basis van visuele voorbeeldminiaturen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Amazon KDP Aftrekwerkboeken',
@@ -106,13 +106,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Aftrek-Curriculum Pakket',
-      description: 'Maak een gestructureerd 12-weken aftrekcurriculum met progressieve moeilijkheid — begin met Doorstrepen op maximaal aftrekgetal 5, bouw op naar Zoek de Aftrekker op maximaal 20. Verkoop als premium digitale download op Gumroad. Thuisonderwijs-ouders zoeken actief naar praktische, visuele rekenmaterialen. Voeg een overzichtsdocument toe dat uitlegt welke vaardigheden elke week aanbod komen. Gestructureerde curriculumproducten rechtvaardigen premiumprijzen op Gumroad — doorgaans €12–€19.',
+      title: 'Gumroad Aftrek-productcatalogus Pakket',
+      description: 'Maak een gestructureerd 12-weken aftrekproductcatalogus met progressieve moeilijkheid — begin met Doorstrepen op maximaal aftrekgetal 5, bouw op naar Zoek de Aftrekker op maximaal 20. Verkoop als premium digitale download op Gumroad. Thuisonderwijs-ouders zoeken actief naar praktische, visuele rekenmaterialen. Voeg een overzichtsdocument toe dat uitlegt welke vaardigheden elke week aanbod komen. Gestructureerde productcatalogusproducten rechtvaardigen premiumprijzen op Gumroad — doorgaans €12–€19.',
       platform: 'Gumroad',
     },
     {
       title: 'Bijlescentrum Aftrek-Bronnen',
-      description: 'Als je een bijlesbedrijf runt, genereer je aangepaste aftrekwerkbladen voor elke leerlingensessie. Begin worsterende leerlingen met de Doorstrepen-modus om conceptueel begrip op te bouwen en ga dan door naar Zoek de Aftrekker wanneer ze er klaar voor zijn. Gebruik het antwoordblad voor directe beoordeling. Gepersonaliseerde werkbladen met thema\'s die elk kind aanspreken verhogen de betrokkenheid dramatisch.',
+      description: 'Als je een bijlesbedrijf runt, genereer je aangepaste aftrekwerkbladen voor elke gebruikerssessie. Begin worsterende gebruikers met de Doorstrepen-modus om conceptueel begrip op te bouwen en ga dan door naar Zoek de Aftrekker wanneer ze er klaar voor zijn. Gebruik het antwoordblad voor directe beoordeling. Gepersonaliseerde werkbladen met thema\'s die elk kind aanspreken verhogen de betrokkenheid dramatisch.',
     },
     {
       title: 'Pinterest-Gedreven Gratis Proefversie Trechter',
@@ -122,20 +122,20 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Begin met Doorstrepen voor Jonge Leerlingen',
-      description: 'Doorstrepen is het meest intuïtieve aftrekformaat voor kleuters en groep 1-leerlingen. Kinderen zien een groep afbeeldingen, strepen er een aantal door en tellen wat overblijft. Begin elke nieuwe leerling of productlijn met Doorstrepen voordat je andere modi introduceert — het bouwt het fundamentele begrip op dat aftrekken "wegnemen" betekent. Onderzoek toont consistent aan dat concrete-naar-abstract progressie sterkere rekenresultaten oplevert, en Doorstreep-werkbladen passen perfect in de concreet-representationele fase.',
+      title: 'Begin met Doorstrepen voor Jonge gebruikers',
+      description: 'Doorstrepen is het meest intuïtieve aftrekformaat voor kleuters en groep 1-gebruikers. Kinderen zien een groep afbeeldingen, strepen er een aantal door en tellen wat overblijft. Begin elke nieuwe gebruiker of productlijn met Doorstrepen voordat je andere modi introduceert — het bouwt het fundamentele begrip op dat aftrekken "wegnemen" betekent. Onderzoek toont consistent aan dat concrete-naar-abstract progressie sterkere rekenresultaten oplevert, en Doorstreep-werkbladen passen perfect in de concreet-representationele fase.',
     },
     {
       title: 'Houd het Maximale Aftrekgetal Laag voor Beginners',
-      description: 'Stel de schuifregelaar Maximaal Aftrekgetal in op 5 voor kleuterproducten en 10 voor groep 1–2. Jonge kinderen raken overweldigd door grote groepen afbeeldingen. Maak aparte "makkelijk" (max 5), "gemiddeld" (max 10) en "uitdaging" (max 20) versies zodat kopers het juiste niveau kunnen kiezen. Alle drie moeilijkheidsniveaus als één gedifferentieerde bundel vermelden op Etsy of TPT rechtvaardigt een hogere prijs dan individuele pakketten.',
+      description: 'Stel de schuifregelaar Maximaal Aftrekgetal in op 5 voor kleuterproducten en 10 voor groep 1–2. Jonge kinderen raken overweldigd door grote groepen afbeeldingen. Maak aparte "makkelijk" (max 5), "gemiddeld" (max 10) en "uitdaging" (max 20) versies zodat kopers het juiste niveau kunnen kiezen. Alle drie moeilijkheidsniveaus als één gedifferentieerde bundel vermelden op Etsy of Gumroad rechtvaardigt een hogere prijs dan individuele pakketten.',
     },
     {
-      title: 'Gebruik Zoek de Aftrekker voor Gevorderde Leerlingen',
-      description: 'De modus Zoek de Aftrekker toont het startaantal en het resultaat, en vraagt het kind om te bepalen hoeveel werd weggenomen. Dit is aanzienlijk moeilijker en ontwikkelt vroeg algebraïsch denken. Bewaar het voor groep 3 en hoger, of vermarkt het als een apart "uitdaging" productniveau. Op Etsy en TPT trekken "ontbrekend getal" aftrekwerkbladen een apart koperspubliek aan — leerkrachten die leerlingen voorbereiden op toetsen.',
+      title: 'Gebruik Zoek de Aftrekker voor Gevorderde gebruikers',
+      description: 'De modus Zoek de Aftrekker toont het startaantal en het resultaat, en vraagt het kind om te bepalen hoeveel werd weggenomen. Dit is aanzienlijk moeilijker en ontwikkelt vroeg algebraïsch denken. Bewaar het voor groep 3 en hoger, of vermarkt het als een apart "uitdaging" productniveau. Op Etsy en Gumroad trekken "ontbrekend getal" aftrekwerkbladen een apart koperspubliek aan — verkopers die gebruikers voorbereiden op toetsen.',
     },
     {
       title: 'Voeg Altijd het Antwoordblad Toe',
-      description: 'Klik op "Genereer Antwoordblad" voordat je downloadt. Bij Doorstreep-werkbladen toont het antwoordblad welke afbeeldingen zijn doorgestreept, wat beoordelen direct maakt. Kopers op Etsy en TPT beoordelen producten consistent hoger wanneer een antwoordblad is inbegrepen. Het vermindert ook klantenservice-vragen en restitutie-verzoeken aanzienlijk.',
+      description: 'Klik op "Genereer Antwoordblad" voordat je downloadt. Bij Doorstreep-werkbladen toont het antwoordblad welke afbeeldingen zijn doorgestreept, wat beoordelen direct maakt. Kopers op Etsy en Gumroad beoordelen producten consistent hoger wanneer een antwoordblad is inbegrepen. Het vermindert ook klantenservice-vragen en restitutie-verzoeken aanzienlijk.',
     },
     {
       title: 'Exporteer Zowel PDF als JPEG',
@@ -158,7 +158,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wat zijn de vier oefenmodi?',
-      answer: 'De generator ondersteunt vier modi: Doorstrepen (leerlingen strepen afbeeldingen door om min-sommen te visualiseren), Afbeelding − Getal (een plaatjesgroep min een cijfer), Zoek de Aftrekker (het aftrekgetal en resultaat worden getoond; het kind bepaalt wat werd weggenomen), en Gemengde Modus (combineert alle drie stijlen willekeurig op één werkblad voor maximale afwisseling).',
+      answer: 'De generator ondersteunt vier modi: Doorstrepen (gebruikers strepen afbeeldingen door om min-sommen te visualiseren), Afbeelding − Getal (een plaatjesgroep min een cijfer), Zoek de Aftrekker (het aftrekgetal en resultaat worden getoond; het kind bepaalt wat werd weggenomen), en Gemengde Modus (combineert alle drie stijlen willekeurig op één werkblad voor maximale afwisseling).',
     },
     {
       question: 'Welke bestandsformaten kan ik downloaden?',
@@ -166,15 +166,15 @@ const content: ToolContent = {
     },
     {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt. De licentie dekt onbeperkte werkbladgeneratie over alle thema\'s en moeilijkheidsniveaus.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt. De licentie dekt onbeperkte werkbladgeneratie over alle thema\'s en moeilijkheidsniveaus.',
     },
     {
       question: 'Hoe werkt de Doorstrepen-modus?',
-      answer: 'In de Doorstrepen-modus toont het werkblad een groep afbeeldingen die het aftrekgetal voorstelt. Het kind streept het aantal door dat wordt afgetrokken en telt de overgebleven afbeeldingen om het antwoord te vinden. Dit is de meest visuele en intuïtieve manier om aftrekken aan jonge leerlingen te leren. De doorgestreepte afbeeldingen blijven zichtbaar op de pagina, zodat kinderen hun werk kunnen controleren door zowel de doorgestreepte groep als de overgebleven groep te tellen.',
+      answer: 'In de Doorstrepen-modus toont het werkblad een groep afbeeldingen die het aftrekgetal voorstelt. Het kind streept het aantal door dat wordt afgetrokken en telt de overgebleven afbeeldingen om het antwoord te vinden. Dit is de meest visuele en intuïtieve manier om aftrekken aan jonge gebruikers te leren. De doorgestreepte afbeeldingen blijven zichtbaar op de pagina, zodat kinderen hun werk kunnen controleren door zowel de doorgestreepte groep als de overgebleven groep te tellen.',
     },
     {
       question: 'Wat regelt de instelling Maximaal Aftrekgetal?',
-      answer: 'De schuifregelaar Maximaal Aftrekgetal (bereik 2–20) stelt het grootste startgetal in elke aftrekoefening in. Bijvoorbeeld: als het Maximaal Aftrekgetal op 10 staat, tonen oefeningen tot 10 afbeeldingen. Lagere waarden zijn makkelijker voor jongere kinderen; hogere waarden bieden meer uitdaging voor oudere leerlingen. Voor verkopers is deze instelling de primaire moeilijkheidsregeling voor gedifferentieerde bundels.',
+      answer: 'De schuifregelaar Maximaal Aftrekgetal (bereik 2–20) stelt het grootste startgetal in elke aftrekoefening in. Bijvoorbeeld: als het Maximaal Aftrekgetal op 10 staat, tonen oefeningen tot 10 afbeeldingen. Lagere waarden zijn makkelijker voor jongere kinderen; hogere waarden bieden meer uitdaging voor oudere gebruikers. Voor verkopers is deze instelling de primaire moeilijkheidsregeling voor gedifferentieerde bundels.',
     },
     {
       question: 'Kan ik werkbladen in andere talen dan Nederlands maken?',

@@ -23,11 +23,11 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar hitta föremålen-scen arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa I Spy och Udda en ut-scenarbetsblad du kan sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
-    description: 'Hitta föremålen-arbetsblad är bland de mest engagerande printable-produkterna. Barn älskar utmaningen att söka en scen efter specifika föremål, och föräldrar och lärare älskar den fokuserade uppmärksamhet dessa aktiviteter kräver. Denna guide leder dig genom att skapa professionella hitta föremålen-scenarbetsblad med Hitta föremålen-generatorn — från att välja mellan I Spy och Udda en ut-spellägen till att bygga anpassade scener med lagerhantering, generera automatiska facit och exportera tryckfärdiga filer.',
+    tagline: 'En steg-för-steg-guide för att skapa I Spy och Udda en ut-scenarbetsblad du kan sälja på Etsy, Amazon KDP och Gumroad',
+    description: 'Hitta föremålen-arbetsblad är bland de mest engagerande printable-produkterna. Barn älskar utmaningen att söka en scen efter specifika föremål, och föräldrar och säljare älskar den fokuserade uppmärksamhet dessa aktiviteter kräver. Denna guide leder dig genom att skapa professionella hitta föremålen-scenarbetsblad med Hitta föremålen-generatorn — från att välja mellan I Spy och Udda en ut-spellägen till att bygga anpassade scener med lagerhantering, generera automatiska facit och exportera tryckfärdiga filer.',
   },
 
-  introduction: 'Hitta föremålen-aktiviteter utnyttjar en grundläggande mänsklig instinkt: driften att söka och hitta. Barn så unga som tre engagerar sig naturligt, vilket gör hitta föremålen-arbetsblad till en av de bredast tilltalande printable-produkterna. Målgruppen spänner förskola genom grundskola, korsar varje läroplan och fungerar lika bra hemma som i klassrummet.\n\nVad som särskiljer hitta föremålen-arbetsblad är deras visuella natur. Dessa arbetsblad innehåller ingen text som behöver översättas, inga matteproblem knutna till en specifik läroplan och inga språkberoende instruktioner. Ett arbetsblad skapat med engelskt gränssnitt fungerar identiskt för en köpare i Tyskland, Brasilien eller Japan. Detta gör dina produkter universellt säljbara.\n\nHitta föremålen-generatorn ger dig två distinkta spellägen. I Spy-läge utmanar barn att hitta specifika dolda föremål inom en livlig scen av distraktionsbilder. Udda en ut-läge ber barn identifiera bilden som inte har en matchande partner. Varje läge betjänar olika utvecklingsfärdigheter och skapar en separat produktlinje.\n\nTill skillnad från rutnätsbaserade generatorer använder Hitta föremålen-verktyget en fri arbetsyta där du positionerar bilder individuellt. Du kontrollerar lagerhantering, justering och placering för att skapa scener med genuin visuell komplexitet. Kombinerat med anpassade bilduppladdningar, bakgrundsteman och ramdekorationer ger detta dig fullständig kreativ kontroll.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Hitta föremålen-aktiviteter utnyttjar en grundläggande mänsklig instinkt: driften att söka och hitta. Barn så unga som tre engagerar sig naturligt, vilket gör hitta föremålen-arbetsblad till en av de bredast tilltalande printable-produkterna. Målgruppen spänner förskola genom grundskola, korsar varje produktkatalog och fungerar lika bra hemma som online.\n\nVad som särskiljer hitta föremålen-arbetsblad är deras visuella natur. Dessa arbetsblad innehåller ingen text som behöver översättas, inga matteproblem knutna till en specifik produktkatalog och inga språkberoende instruktioner. Ett arbetsblad skapat med engelskt gränssnitt fungerar identiskt för en köpare i Tyskland, Brasilien eller Japan. Detta gör dina produkter universellt säljbara.\n\nHitta föremålen-generatorn ger dig två distinkta spellägen. I Spy-läge utmanar barn att hitta specifika dolda föremål inom en livlig scen av distraktionsbilder. Udda en ut-läge ber barn identifiera bilden som inte har en matchande partner. Varje läge betjänar olika utvecklingsfärdigheter och skapar en separat produktlinje.\n\nTill skillnad från rutnätsbaserade generatorer använder Hitta föremålen-verktyget en fri arbetsyta där du positionerar bilder individuellt. Du kontrollerar lagerhantering, justering och placering för att skapa scener med genuin visuell komplexitet. Kombinerat med anpassade bilduppladdningar, bakgrundsteman och ramdekorationer ger detta dig fullständig kreativ kontroll.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -44,7 +44,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Konfigurera sidstorlek och bakgrund',
-      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande och anpassade dimensioner. Liggande orientering fungerar bra för breda panoramascener. Stående passar vertikalt lagerdelade scener.\n\nBarnvänliga dekorationer: Denna kryssruta (aktiverad som standard) lägger till subtila dekorativa element runt kanten.\n\nBakgrundstema: Välj ett tematiskt bakgrundsmönster som fyller sidan bakom dina scenobjekt.\n\nBakgrundsopacitet: 0,1–0,3 för subtil vattenstämpeleffekt. 0,5–0,8 för framträdande bakgrund. Måttlig opacitet fungerar ofta bäst.\n\nReservfärg: Vitt standard. Ljusa pasteller för digitala produkter.\n\nRamtema och opacitet: Dekorativa ramar som ramar in hela sidan.',
+      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande och anpassade dimensioner. Liggande orientering fungerar bra för breda panoramascener. Stående passar vertikalt lagerdelade scener.\n\ntilltalande dekorationer: Denna kryssruta (aktiverad som standard) lägger till subtila dekorativa element runt kanten.\n\nBakgrundstema: Välj ett tematiskt bakgrundsmönster som fyller sidan bakom dina scenobjekt.\n\nBakgrundsopacitet: 0,1–0,3 för subtil vattenstämpeleffekt. 0,5–0,8 för framträdande bakgrund. Måttlig opacitet fungerar ofta bäst.\n\nReservfärg: Vitt standard. Ljusa pasteller för digitala produkter.\n\nRamtema och opacitet: Dekorativa ramar som ramar in hela sidan.',
     },
     {
       heading: 'Lägg till text och instruktioner',
@@ -60,7 +60,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Generera facit och exportera',
-      content: 'Varje arbetsblad inkluderar ett automatiskt facit. Klicka Facit-fliken. I I Spy-läge markerar facit platserna för dolda föremål. I Udda en ut markerar det oparade bilder.\n\nGråskaleväxel: konverterar till svartvitt för bläcksnål utskrift. Överväg att skapa båda versioner.\n\nNamn- och datumfält: lägger till elevidentifiering.\n\nFyra exportknappar:\n\nArbetsblad JPEG: högupplöst vid 300 DPI.\n\nArbetsblad PDF: professionell tryckfärdig standard.\n\nFacit JPEG och Facit PDF: separata exporter.\n\nDen gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.',
+      content: 'Varje arbetsblad inkluderar ett automatiskt facit. Klicka Facit-fliken. I I Spy-läge markerar facit platserna för dolda föremål. I Udda en ut markerar det oparade bilder.\n\nGråskaleväxel: konverterar till svartvitt för bläcksnål utskrift. Överväg att skapa båda versioner.\n\nNamn- och datumfält: lägger till identifiering.\n\nFyra exportknappar:\n\nArbetsblad JPEG: högupplöst vid 300 DPI.\n\nArbetsblad PDF: professionell tryckfärdig standard.\n\nFacit JPEG och Facit PDF: separata exporter.\n\nDen gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.',
     },
   ],
 
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Amazon KDP är idealiskt — köpare söker aktivt "I Spy books for kids" och "search and find activity books."\n\nProduktformat: Samla 30–60 scener med facit i slutet. Organisera efter svårighet. 8,5×11 tum trim.\n\nTitel och undertitel: Exempeltitel "I Spy Activity Book for Kids Ages 3–6." Exempel-undertitel "50 Fun Hidden Object Scenes with Zoo Animals, Ocean Creatures, and Farm Friends — Includes Answer Keys."\n\nNyckelord: "I Spy book for toddlers," "hidden object activity book kids," "seek and find book preschool."\n\nOmslagsdesign: Visa en exempelscen med några dolda föremål inringade.\n\nPrissättning: 30–60 sidor $5,99–$8,99. 80–100 sidor $8,99–$12,99.',
     },
     {
-      heading: 'Sälja hitta föremålen-arbetsblad på Teachers Pay Teachers',
-      content: 'TPT-köpare söker hitta föremålen som visuella diskrimineringsaktiviteter, uppmärksamhetsbyggande övningar och belöningsaktiviteter.\n\nProduktbeskrivningar: spelläge (I Spy eller Udda en ut), åldersintervall, antal scener, om facit ingår, utvecklingsfärdigheter (visuell diskriminering, figur-grund-perception, mönsterigenkänning).\n\nFörhandsgranskningsfiler: 2–3 exempelscener.\n\nTPT-positionering: Använd utbildningsvokabulär. "Visuell diskriminering" och "figur-grund perception." "Udda en ut" bygger "klassificeringsfärdigheter" och "logiskt resonerande."\n\nPaketering: "Helårs visuell sökaktivitetspaket" med 40–60 scener.\n\nArbetsterapi-korsning: Nämn "OT-vänlig" eller "visuell perceptionsaktivitet."',
+      heading: 'Sälja hitta föremålen-arbetsblad på Gumroad',
+      content: 'Gumroad-köpare söker hitta föremålen som visuella diskrimineringsaktiviteter, uppmärksamhetsbyggande övningar och belöningsaktiviteter.\n\nProduktbeskrivningar: spelläge (I Spy eller Udda en ut), åldersintervall, antal scener, om facit ingår, utvecklingsfärdigheter (visuell diskriminering, figur-grund-perception, mönsterigenkänning).\n\nFörhandsgranskningsfiler: 2–3 exempelscener.\n\nGumroad-positionering: Använd utbildningsvokabulär. "Visuell diskriminering" och "figur-grund perception." "Udda en ut" bygger "klassificeringsfärdigheter" och "logiskt resonerande."\n\nPaketering: "Helårs visuell sökaktivitetspaket" med 40–60 scener.\n\nArbetsterapi-korsning: Nämn "OT-vänlig" eller "visuell perceptionsaktivitet."',
     },
   ],
 
@@ -86,7 +86,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Paketeringsstrategier',
-      content: 'Entema, dubbellägespaketet: 5 I Spy-scener och 5 Udda en ut-scener med samma tema. "Komplett djurparks sökaktivitetspaket."\n\nSvårighetsgraderande paket: enkla, medium och svåra versioner. "Progressiv svårighet" eller "Färdighetsbyggare."\n\nSäsongspaket: Halloween, jul, påsk, sommar. Lista 4–6 veckor före varje högtid.\n\nKlassrumsaktivitetspaket: 20–30 scener med svårighetsprogression och facit för enkel rättning.\n\nTvärproduktpaket: Para med ordsökningspussel och Hitta och räkna-arbetsblad. "Visuell sökaktivitets megapaket."',
+      content: 'Entema, dubbellägespaketet: 5 I Spy-scener och 5 Udda en ut-scener med samma tema. "Komplett djurparks sökaktivitetspaket."\n\nSvårighetsgraderande paket: enkla, medium och svåra versioner. "Progressiv svårighet" eller "Färdighetsbyggare."\n\nSäsongspaket: Halloween, jul, påsk, sommar. Lista 4–6 veckor före varje högtid.\n\nproduktlinjesaktivitetspaket: 20–30 scener med svårighetsprogression och facit för enkel rättning.\n\nTvärproduktpaket: Para med ordsökningspussel och Hitta och räkna-arbetsblad. "Visuell sökaktivitets megapaket."',
     },
     {
       heading: 'Skapa produktvariationer från en enda scen',
@@ -116,7 +116,7 @@ const content: GuideContent = {
     },
     {
       question: 'Skapar generatorn facit automatiskt?',
-      answer: 'Ja. Varje arbetsblad inkluderar ett automatiskt facit. I I Spy markerar facit platserna för dolda föremål. I Udda en ut markerar det oparade bilder. Facit exporteras som separata PDF och JPEG. Att inkludera facit är avgörande för klassrumsprodukter.',
+      answer: 'Ja. Varje arbetsblad inkluderar ett automatiskt facit. I I Spy markerar facit platserna för dolda föremål. I Udda en ut markerar det oparade bilder. Facit exporteras som separata PDF och JPEG. Att inkludera facit är avgörande för produktlinjesprodukter.',
     },
     {
       question: 'Hur fungerar arbetsytans redigeringsverktyg?',

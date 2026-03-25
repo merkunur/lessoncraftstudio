@@ -7,7 +7,7 @@ const content: AppContent = {
       'gissa ordet arbetsblad sälja på Etsy',
       'ordgissning arbetsblad generator för Amazon KDP',
       'gissa ordet arbetsblad kommersiell licens',
-      'utskrivbara ordpussel skapa för TPT',
+      'utskrivbara ordpussel skapa för Gumroad',
     ],
     lsiKeywords: [
       'digitala vokabulärprodukter för entreprenörer',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gissa Ordet Generator | Skapa och Sälj Ordpussel Online',
     metaDescription:
-      'Skapa gissa ordet-arbetsblad att sälja på Etsy, KDP och TPT. Bildledtrådar, 4 svårighetsnivåer, 3 innehållskällor, 11 språk. Gratis provversion med vattenstämpel.',
+      'Skapa gissa ordet-arbetsblad att sälja på Etsy, KDP och Gumroad. Bildledtrådar, 4 svårighetsnivåer, 3 innehållskällor, 11 språk. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Gissa Ordet Arbetsblad Generator för Bildbaserade Vokabulärpussel',
     tagline: 'Hänga gubbe-stil möter bildledtrådar — fyra svårighetsnivåer förvandlar varje ord till ett engagerande pussel.',
     description:
-      'Designa professionella gissa ordet-arbetsblad där eleverna ser en bildledtråd och gissar det dolda ordet genom att fylla i tomma bokstavsceller — ett hänga gubbe-liknande pussel som bygger stavning, ordförråd och deduktivt tänkande samtidigt. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med valfritt ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga ledtrådar alls till enkelt läge som visar hälften av bokstäverna — och skapar naturlig progression från nybörjare till avancerad. Placera 1 till 10 pussel per arbetsblad och växla mellan versaler och gemener i bokstavsrutnätet. Full Access låser upp alla 11 språk som stöds, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk — «dog» på engelska blir «Hund» på tyska, «chien» på franska och «hund» på svenska — vilket gör varje språkversion till en unik, säljbar produkt. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska vokabulärpaket på Etsy.se, sammanställer ordpusselböcker för Amazon KDP eller skapar differentierade lässtationar för TPT — Gissa Ordet Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Designa professionella gissa ordet-arbetsblad där användarna ser en bildledtråd och gissar det dolda ordet genom att fylla i tomma bokstavsceller — ett hänga gubbe-liknande pussel som bygger stavning, ordförråd och deduktivt tänkande samtidigt. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med valfritt ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga ledtrådar alls till enkelt läge som visar hälften av bokstäverna — och skapar naturlig progression från nybörjare till avancerad. Placera 1 till 10 pussel per arbetsblad och växla mellan versaler och gemener i bokstavsrutnätet. Full Access låser upp alla 11 språk som stöds, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk — «dog» på engelska blir «Hund» på tyska, «chien» på franska och «hund» på svenska — vilket gör varje språkversion till en unik, säljbar produkt. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska vokabulärpaket på Etsy.se, sammanställer ordpusselböcker för Amazon KDP eller skapar nivågrupperade lässtationar för Gumroad — Gissa Ordet Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Välj bokstavsformat och lägg till anpassade detaljer',
         description:
-          'Växla mellan versaler (standard) och gemener i bokstavsrutnätet för att matcha din målgrupp. Använd panelen Textverktyg för att lägga till en arbetsbladstitel, fält för elevens namn och datum, instruktioner eller annan anpassad text. Välj mellan sju barnvänliga typsnitt, inklusive Lexend Deca, Baloo 2, Fredoka och Quicksand. Justera teckenstorlek, färg och kontur för optimal läsbarhet. Versaler passar yngre elever som lär sig stora bokstäver, medan gemener passar äldre elever som övar standardstavning. Säljare kan lägga till sitt varumärkesnamn eller logotyp som textöverläggsmark direkt på arbetsytan för att bygga varumärkesigenkänning redan innan köpare öppnar filen.',
+          'Växla mellan versaler (standard) och gemener i bokstavsrutnätet för att matcha din målgrupp. Använd panelen Textverktyg för att lägga till en arbetsbladstitel, fält för namn och datum, instruktioner eller annan anpassad text. Välj mellan sju tydliga typsnitt, inklusive Lexend Deca, Baloo 2, Fredoka och Quicksand. Justera teckenstorlek, färg och kontur för optimal läsbarhet. Versaler passar yngre användare som lär sig stora bokstäver, medan gemener passar äldre användare som övar standardstavning. Säljare kan lägga till sitt varumärkesnamn eller logotyp som textöverläggsmark direkt på arbetsytan för att bygga varumärkesigenkänning redan innan köpare öppnar filen.',
       },
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Gå till fliken Facit och klicka på Generera Facit för att skapa en löst version med varje bokstav ifylld — inga tomma celler kvar. Aktivera gråskaleexport för bläckvänliga facitversioner. Öppna sedan nedladdningsmenyn och exportera både arbetsbladet och facit som högupplöst JPEG eller tryckfärdig PDF. Varje export renderas med mer än 400 DPI, vilket säkerställer perfekt skärpa oavsett om du skriver ut hemma, laddar upp på Etsy.se eller inkluderar i en Amazon KDP-ordpusselbok. Att inkludera ett separat facit i varje produkterbjudande ger upplevt mervärde som lärare förväntar sig och som motiverar premiumprissättning.',
+          'Gå till fliken Facit och klicka på Generera Facit för att skapa en löst version med varje bokstav ifylld — inga tomma celler kvar. Aktivera gråskaleexport för bläckvänliga facitversioner. Öppna sedan nedladdningsmenyn och exportera både arbetsbladet och facit som högupplöst JPEG eller tryckfärdig PDF. Varje export renderas med mer än 400 DPI, vilket säkerställer perfekt skärpa oavsett om du skriver ut hemma, laddar upp på Etsy.se eller inkluderar i en Amazon KDP-ordpusselbok. Att inkludera ett separat facit i varje produkterbjudande ger upplevt mervärde som säljare förväntar sig och som motiverar premiumprissättning.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Bildbaserad ordgissning med tomt bokstavsrutnät',
         description:
-          'Varje pussel visar en bildledtråd bredvid en rad tomma bokstavsceller som representerar det dolda ordet. Eleverna studerar bilden, identifierar vad den föreställer och fyller i de saknade bokstäverna — en hänga gubbe-liknande deduktionsövning som samtidigt bygger visuellt ordförråd, stavningsprecision och bokstav-ljud-koppling. Flerdelsfraser renderas som separata ordgrupper med mellanrum emellan, vilket stöder sammansatta substantiv, djurnamn och längre vokabulärtermer naturligt. Detta bildbaserade format skapar visuellt engagerande arbetsblad som sticker ut i Etsys sökresultat jämfört med enkla ordlistor.',
+          'Varje pussel visar en bildledtråd bredvid en rad tomma bokstavsceller som representerar det dolda ordet. användarna studerar bilden, identifierar vad den föreställer och fyller i de saknade bokstäverna — en hänga gubbe-liknande deduktionsövning som samtidigt bygger visuellt ordförråd, stavningsprecision och bokstav-ljud-koppling. Flerdelsfraser renderas som separata ordgrupper med mellanrum emellan, vilket stöder sammansatta substantiv, djurnamn och längre vokabulärtermer naturligt. Detta bildbaserade format skapar visuellt engagerande arbetsblad som sticker ut i Etsys sökresultat jämfört med enkla ordlistor.',
       },
       {
         title: 'Fyra svårighetsnivåer med justerbara ledtrådsbokstäver',
         description:
-          'Kontrollera exakt hur mycket stöd eleverna får med fyra inbyggda svårighetsnivåer. Inga Ledtrådar lämnar varje cell tom för maximal utmaning. Enkelt avslöjar hälften av bokstäverna, perfekt för framväxande läsare. Normalt avslöjar en fjärdedel för balanserad övning. Svårt avslöjar bara en sjättedel — tillräckligt med en ledtråd för att komma igång utan att avslöja svaret. Att blanda svårighetsnivåer mellan arbetsblad i ett enda paket skapar en naturlig lätt-till-svår-progression som motiverar premiumpriser hos köpare som söker differentierade läromedel.',
+          'Kontrollera exakt hur mycket stöd användarna får med fyra inbyggda svårighetsnivåer. Inga Ledtrådar lämnar varje cell tom för maximal utmaning. Enkelt avslöjar hälften av bokstäverna, perfekt för framväxande läsare. Normalt avslöjar en fjärdedel för balanserad övning. Svårt avslöjar bara en sjättedel — tillräckligt med en ledtråd för att komma igång utan att avslöja svaret. Att blanda svårighetsnivåer mellan arbetsblad i ett enda paket skapar en naturlig lätt-till-svår-progression som motiverar premiumpriser hos köpare som söker nivågrupperade produkter.',
       },
       {
         title: 'Tre innehållskällor: Bildbibliotek, Manuell Redigering och Egen Ordlista',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Stöd för flerordiga fraser och sammansatta ord',
         description:
-          'Bildnamn och egna inmatningar som innehåller mellanslag renderas som separata ordgrupper på pusselrutnätet, med tydligt avstånd mellan varje ord. Det innebär att sammansatta termer som «isbjörn» eller «brandbil» visas naturligt som sammankopplade ordrutnät snarare än en enda lång sträng. Eleverna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Denna funktion utökar ditt ordförrådsspektrum långt bortom enskilda substantiv och möjliggör djurarter, maträtter, platsnamn och beskrivande fraser i dina pussel.',
+          'Bildnamn och egna inmatningar som innehåller mellanslag renderas som separata ordgrupper på pusselrutnätet, med tydligt avstånd mellan varje ord. Det innebär att sammansatta termer som «isbjörn» eller «brandbil» visas naturligt som sammankopplade ordrutnät snarare än en enda lång sträng. användarna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Denna funktion utökar ditt ordförrådsspektrum långt bortom enskilda substantiv och möjliggör djurarter, maträtter, platsnamn och beskrivande fraser i dina pussel.',
       },
       {
         title: '104 visuella teman med mer än 3 100 bilder',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Automatisk generering av facit',
         description:
-          'Klicka på en knapp för att generera ett komplett facit som speglar ditt arbetsblads layout med varje bokstavscell ifylld — inga tomma celler kvar. Fliken Facit visar en förhandsgranskning i realtid så att du kan kontrollera riktigheten innan du laddar ner. Exportera facit som en separat JPEG- eller PDF-fil med valfri gråskalefunktion för bläckvänliga versioner. Att inkludera facit i dina Etsy-paket och KDP-böcker tillför professionellt värde utan manuell montering och sparar lärare rättningstid.',
+          'Klicka på en knapp för att generera ett komplett facit som speglar ditt arbetsblads layout med varje bokstavscell ifylld — inga tomma celler kvar. Fliken Facit visar en förhandsgranskning i realtid så att du kan kontrollera riktigheten innan du laddar ner. Exportera facit som en separat JPEG- eller PDF-fil med valfri gråskalefunktion för bläckvänliga versioner. Att inkludera facit i dina Etsy-paket och KDP-böcker tillför professionellt värde utan manuell montering och sparar säljare upplevt värde.',
       },
       {
         title: 'Tryckfärdig export med 400+ DPI och gråskalealternativ',
         description:
-          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexport för bläckvänliga versioner idealiska för klassrumsutskrift eller svartvita aktivitetsböcker. Letter, A4, Kvadrat och anpassade format stöds alla, vilket ger maximal flexibilitet för print-on-demand-plattformar och hemskrivare.',
+          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleexport för bläckvänliga versioner idealiska för volymutskrift eller svartvita aktivitetsböcker. Letter, A4, Kvadrat och anpassade format stöds alla, vilket ger maximal flexibilitet för print-on-demand-plattformar och hemskrivare.',
       },
       {
         title: 'Full arbetsyteredigering med text-, form- och bildverktyg',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Tematiska gissa ordet-paket på Etsy.se',
         description:
-          'Skapa uppsättningar med 10–20 gissa ordet-arbetsblad grupperade efter tema och svårighetsnivå — bondgårdsdjur på Enkelt, havsdjur på Normalt, dinosaurier på Svårt — och erbjud dem som direktnedladdning på Etsy.se. Inkludera facit som bonusfiler. Det bildbaserade formatet är visuellt engagerande och sticker ut från vanliga ordlistor i Etsys sökresultat. Blanda svårighetsnivåer inom paket för att täcka en bredare åldersgrupp. Prissätt enskilda temapaket mellan 30–50 kr och flertemapaket med nivåindelning mellan 120–180 kr. Skapa säsongsversioner — halloweenord, julord, sommardjur — för att driva försäljningstoppar under de perioder när föräldrar och lärare aktivt söker nytt material.',
+          'Skapa uppsättningar med 10–20 gissa ordet-arbetsblad grupperade efter tema och svårighetsnivå — bondgårdsdjur på Enkelt, havsdjur på Normalt, dinosaurier på Svårt — och erbjud dem som direktnedladdning på Etsy.se. Inkludera facit som bonusfiler. Det bildbaserade formatet är visuellt engagerande och sticker ut från vanliga ordlistor i Etsys sökresultat. Blanda svårighetsnivåer inom paket för att täcka en bredare åldersgrupp. Prissätt enskilda temapaket mellan 30–50 kr och flertemapaket med nivåindelning mellan 120–180 kr. Skapa säsongsversioner — halloweenord, julord, sommardjur — för att driva försäljningstoppar under de perioder när föräldrar och säljare aktivt söker nytt material.',
         platform: 'Etsy (etsy.se)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade lässtationar för TPT',
+        title: 'nivågrupperade lässtationar för Gumroad',
         description:
-          'Bygg nivåindelade gissa ordet-övningsuppsättningar med svårighetsnivå som differentieringsaxel: Nivå 1 (Enkelt, 4 pussel per sida, enkla ord), Nivå 2 (Normalt, 6 pussel, medelsvåra ord), Nivå 3 (Svårt, 8 pussel, längre ord) och Nivå 4 (Inga Ledtrådar, 10 pussel, flerordiga fraser). Paketera varje nivå med facit och ett framstegsregistreringskort. Köpare på Teachers Pay Teachers betalar premiumpriser för differentierade ordförrådsmaterial som de direkt kan använda i flera läsnivågrupper utan extra förberedelsetid.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg nivåindelade gissa ordet-övningsuppsättningar med svårighetsnivå som differentieringsaxel: Nivå 1 (Enkelt, 4 pussel per sida, enkla ord), Nivå 2 (Normalt, 6 pussel, medelsvåra ord), Nivå 3 (Svårt, 8 pussel, längre ord) och Nivå 4 (Inga Ledtrådar, 10 pussel, flerordiga fraser). Paketera varje nivå med facit och ett framstegsregistreringskort. Köpare på Gumroad betalar premiumpriser för nivågrupperade ordförrådsmaterial som de direkt kan använda i flera läsnivågrupper utan extra förberedelsetid.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Flerspråkiga ordförrådsprodukter med Full Access',
         description:
           'Full Access låser upp alla 11 språk, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk. «Dog» på engelska blir «Hund» på tyska, «chien» på franska, «perro» på spanska och «hund» på svenska. Varje språkversion är en genuint annorlunda produkt med andra ord, andra bokstavsantal och andra pussellösningar. Skapa identiska temauppsättningar på flera språk och lista varje som en separat Etsy-produkt eller KDP-bok — elva intäktsströmmar från ett enda arbetsflöde. Denna flerspråkiga fördel är särskilt värdefull för gissa ordet-arbetsblad eftersom ordlängder och stavning varierar dramatiskt mellan språk, vilket ger helt unika pusselupplevelser.',
-        platform: 'Etsy / Amazon KDP / TPT (flerspråkig)',
+        platform: 'Etsy / Amazon KDP / Gumroad (flerspråkig)',
       },
       {
-        title: 'Stavnings- och ordförrådsverktyg för klassrum och privatundervisning',
+        title: 'Stavnings- och ordförrådsverktyg för produktlinje och privatundervisning',
         description:
-          'Använd Egen Ordlista för att skapa gissa ordet-arbetsblad för valfri ordlista — veckans stavningsord, naturvetenskapstermer, samhällskunskapsordförråd eller övning i främmande språk. Skriv dina ord direkt utan att behöva matchande bilder. Justera svårighetsnivå efter varje elevs förmåga: Enkelt för kämpande stavare, Inga Ledtrådar för avancerade elever. Skriv ut anpassade uppsättningar på minuter för smågrupper eller hela klasser. Det automatiska facit sparar rättningstid, och det hänga gubbe-liknande formatet håller eleverna engagerade jämfört med traditionell skriv-ordet-fem-gånger-övning. Privatundervisare kan dessutom använda Manuellt Redigeringsläge för att skräddarsy ordförrådet efter varje elevs specifika behov och intressen.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Använd Egen Ordlista för att skapa gissa ordet-arbetsblad för valfri ordlista — veckans stavningsord, naturvetenskapstermer, samhällskunskapsordförråd eller övning i främmande språk. Skriv dina ord direkt utan att behöva matchande bilder. Justera svårighetsnivå efter varje användares förmåga: Enkelt för kämpande stavare, Inga Ledtrådar för avancerade användare. Skriv ut anpassade uppsättningar på minuter för smågrupper eller hela klasser. Det automatiska facit sparar upplevt värde, och det hänga gubbe-liknande formatet håller användarna engagerade jämfört med traditionell skriv-ordet-fem-gånger-övning. Privatundervisare kan dessutom använda Manuellt Redigeringsläge för att skräddarsy ordförrådet efter varje användares specifika behov och intressen.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar gissa ordet-pusslet?',
       answer:
-        'Varje pussel visar en bildledtråd bredvid en rad tomma bokstavsceller. Eleverna studerar bilden för att identifiera vad den föreställer och fyller sedan i de saknade bokstäverna för att stava ordet. Föravslöjade ledtrådsbokstäver (styrda av svårighetsnivån) ger stöd. Det fungerar som hänga gubbe men med en bildledtråd istället för en kategorisignal — och bygger visuellt ordförråd, stavning och deduktivt resonemang samtidigt. Det bildbaserade formatet gör arbetsbladen visuellt tilltalande, vilket ökar deras säljbarhet på marknadsplatser som Etsy.se.',
+        'Varje pussel visar en bildledtråd bredvid en rad tomma bokstavsceller. användarna studerar bilden för att identifiera vad den föreställer och fyller sedan i de saknade bokstäverna för att stava ordet. Föravslöjade ledtrådsbokstäver (styrda av svårighetsnivån) ger stöd. Det fungerar som hänga gubbe men med en bildledtråd istället för en kategorisignal — och bygger visuellt ordförråd, stavning och deduktivt resonemang samtidigt. Det bildbaserade formatet gör arbetsbladen visuellt tilltalande, vilket ökar deras säljbarhet på marknadsplatser som Etsy.se.',
     },
     {
       question: 'Vilka är de fyra svårighetsnivåerna?',
       answer:
-        'De fyra nivåerna styr hur många bokstäver som visas i rutnätet. Inga Ledtrådar lämnar varje cell tom för maximal utmaning. Enkelt avslöjar hälften av bokstäverna. Normalt avslöjar en fjärdedel. Svårt avslöjar en sjättedel — precis tillräckligt för att komma igång. Varje nivå skapar en annorlunda pusselupplevelse från samma ord, vilket gör det enkelt att bygga paket med progressiv svårighet som motiverar premiumpriser på Etsy.se och TPT.',
+        'De fyra nivåerna styr hur många bokstäver som visas i rutnätet. Inga Ledtrådar lämnar varje cell tom för maximal utmaning. Enkelt avslöjar hälften av bokstäverna. Normalt avslöjar en fjärdedel. Svårt avslöjar en sjättedel — precis tillräckligt för att komma igång. Varje nivå skapar en annorlunda pusselupplevelse från samma ord, vilket gör det enkelt att bygga paket med progressiv svårighet som motiverar premiumpriser på Etsy.se och Gumroad.',
     },
     {
       question: 'Vilka är de tre innehållskällorna?',
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar stödet för flerordiga fraser?',
       answer:
-        'Ord eller bildnamn som innehåller mellanslag (som «isbjörn» eller «brandbil») renderas som separata ordgrupper på pusselrutnätet med tydligt avstånd emellan. Eleverna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Detta fungerar med alla tre innehållskällor och alla fyra svårighetsnivåer, och utökar ditt ordförrådsspektrum till djurarter, maträtter, platsnamn och beskrivande fraser.',
+        'Ord eller bildnamn som innehåller mellanslag (som «isbjörn» eller «brandbil») renderas som separata ordgrupper på pusselrutnätet med tydligt avstånd emellan. användarna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Detta fungerar med alla tre innehållskällor och alla fyra svårighetsnivåer, och utökar ditt ordförrådsspektrum till djurarter, maträtter, platsnamn och beskrivande fraser.',
     },
     {
       question: 'Kan jag välja mellan versaler och gemener?',
       answer:
-        'Ja. Bokstavsformatknappen låter dig växla mellan versaler (standard) och gemener i gissningsrutnätet. Versaler är idealiska för yngre elever som lär sig stora bokstäver, medan gemener passar äldre elever som övar standardstavning. Inställningen gäller för både ledtrådsbokstäver och cellerna som eleverna fyller i.',
+        'Ja. Bokstavsformatknappen låter dig växla mellan versaler (standard) och gemener i gissningsrutnätet. Versaler är idealiska för yngre användare som lär sig stora bokstäver, medan gemener passar äldre användare som övar standardstavning. Inställningen gäller för både ledtrådsbokstäver och cellerna som användarna fyller i.',
     },
     {
       question: 'Hur skiljer sig Manuellt Redigeringsläge från Bildbiblioteket?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Vad kan jag göra med Egen Ordlista?',
       answer:
-        'Egen Ordlista låter dig skriva valfria ord eller fraser direkt — inga bilder behövs. Detta är idealiskt för veckostavningslistor, ämnesspecifikt ordförråd (naturvetenskapstermer, geografinamn), övning i främmande språk eller annat anpassat innehåll. Pusslen visar tomma bokstavsrutnät utan bildledtrådar, så eleverna förlitar sig på sammanhang från arbetsbladstitlar, instruktioner eller förkunskaper för att lösa dem.',
+        'Egen Ordlista låter dig skriva valfria ord eller fraser direkt — inga bilder behövs. Detta är idealiskt för veckostavningslistor, ämnesspecifikt ordförråd (naturvetenskapstermer, geografinamn), övning i främmande språk eller annat anpassat innehåll. Pusslen visar tomma bokstavsrutnät utan bildledtrådar, så användarna förlitar sig på sammanhang från arbetsbladstitlar, instruktioner eller förkunskaper för att lösa dem.',
     },
     {
       question: 'Skapar generatorn facit automatiskt?',
       answer:
-        'Ja. Klicka på knappen Generera Facit för att skapa en löst version av ditt arbetsblad med varje bokstavscell ifylld och inga tomma celler kvar. Du kan förhandsgranska facit på skärmen och ladda ner det som en separat JPEG- eller PDF-fil. Aktivera gråskaleexport för bläckvänliga facitversioner perfekta för klassrumsutskrift. Att inkludera facit i dina produkterbjudanden tillför professionellt värde som lärare förväntar sig och som sparar rättningstid.',
+        'Ja. Klicka på knappen Generera Facit för att skapa en löst version av ditt arbetsblad med varje bokstavscell ifylld och inga tomma celler kvar. Du kan förhandsgranska facit på skärmen och ladda ner det som en separat JPEG- eller PDF-fil. Aktivera gråskaleexport för bläckvänliga facitversioner perfekta för volymutskrift. Att inkludera facit i dina produkterbjudanden tillför professionellt värde som säljare förväntar sig och som sparar upplevt värde.',
     },
     {
       question: 'Är Gissa Ordet-generatorn språkkänslig?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja arbetsbladen jag skapar med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina gissa ordet-arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska resurser på TPT, eller via vilken annan försäljningskanal som helst. Det bildbaserade pusselformatet och den flerspråkiga kapaciteten ger dig stark differentiering i trånga marknadsplatskategorier.',
+        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina gissa ordet-arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska resurser på Gumroad, eller via vilken annan försäljningskanal som helst. Det bildbaserade pusselformatet och den flerspråkiga kapaciteten ger dig stark differentiering i trånga marknadsplatskategorier.',
     },
     {
       question: 'Vad är returpolicyn?',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'skapa-saelja-tpt-resurser',
-      anchorText: 'Skapa och Sälj TPT-Resurser',
+      anchorText: 'Skapa och Sälj Gumroad-Resurser',
     },
     {
       pageType: 'start',

@@ -22,33 +22,33 @@ const content: BundleContent = {
   hero: {
     title: 'Läsning & Språk-paket',
     tagline: 'Sju språkdrivna arbetsblad-generatorer — multiplicera din produktlinje över 11 språk',
-    description: 'Varje generator i detta paket är språkmedveten. Detta enda faktum förvandlar din produktkatalog: en arbetsbladsdesign blir 11 distinkta produkter när du växlar mellan engelska, tyska, franska, spanska, portugisiska, italienska, holländska, svenska, danska, norska och finska. Läsning & Språk-paketet kombinerar sju specialiserade generatorer som täcker alfabetigenkänning, rumsliga prepositioner, ordgissning med bildledtrådar, bokstavsmixning, ordsökningsrutnät, menings-till-bild kryptogram och guidad handstilspraktik. Sex av de sju generatorerna producerar språkspecifikt innehåll — orden, bokstäverna och ordförrådet på varje arbetsblad ändras för att matcha det valda språket, med korrekta diakritiska tecken, inhemska alfabet och grammatiskt korrekta formuleringar. Den sjunde, Skrivövning, fokuserar på handstilsstreckpraktik med minimal språkberoende. Varje generator matar ut utskriftsklara PDF- och högupplösta JPEG-filer. Sex av sju inkluderar automatiska facit. Välj bland över 100 tematiska bilduppsättningar eller ladda upp ditt eget konstverk för varumärkesspecifika, nischade produkter. Oavsett om du säljer läsutskrifter på Etsy, publicerar språkarbetsböcker på Amazon KDP eller distribuerar resurser på Teachers Pay Teachers, ger detta paket dig den variation och språkräckvidd som enspråkiga konkurrenter inte kan matcha. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
+    description: 'Varje generator i detta paket är språkmedveten. Detta enda faktum förvandlar din produktkatalog: en arbetsbladsdesign blir 11 distinkta produkter när du växlar mellan engelska, tyska, franska, spanska, portugisiska, italienska, holländska, svenska, danska, norska och finska. Läsning & Språk-paketet kombinerar sju specialiserade generatorer som täcker alfabetigenkänning, rumsliga prepositioner, ordgissning med bildledtrådar, bokstavsmixning, ordsökningsrutnät, menings-till-bild kryptogram och guidad handstilspraktik. Sex av de sju generatorerna producerar språkspecifikt innehåll — orden, bokstäverna och ordförrådet på varje arbetsblad ändras för att matcha det valda språket, med korrekta diakritiska tecken, inhemska alfabet och grammatiskt korrekta formuleringar. Den sjunde, Skrivövning, fokuserar på handstilsstreckpraktik med minimal språkberoende. Varje generator matar ut utskriftsklara PDF- och högupplösta JPEG-filer. Sex av sju inkluderar automatiska facit. Välj bland över 100 tematiska bilduppsättningar eller ladda upp ditt eget konstverk för varumärkesspecifika, nischade produkter. Oavsett om du säljer läsutskrifter på Etsy, publicerar språkarbetsböcker på Amazon KDP eller distribuerar resurser på Gumroad, ger detta paket dig den variation och språkräckvidd som enspråkiga konkurrenter inte kan matcha. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
   },
 
   appsIncluded: [
     {
       title: 'Alfabetståg Arbetsblad Generator',
-      description: 'Skapa tågtematiserade alfabetsarbetsblad där varje vagn bär en bokstav parad med en matchande bild. Elever kopplar bokstäver till bilder, vilket förstärker bokstav-ljud-associationer i ett lekfullt, visuellt format. Generatorn stöder alla 11 inhemska alfabet — tyska arbetsblad inkluderar umlauter och eszett, skandinaviska språk får sina extra vokaler och spanska inkluderar tilde. Välj versaler, gemener eller blandad bokstavspresentation. Välj bilder från över 100 tematiska uppsättningar eller ladda upp dina egna. Varje arbetsblad genererar ett matchande facit automatiskt. Tågformatet är en bevisad bästsäljare inom tidig läskunnighet eftersom det kombinerar sekvensering, bokstavsigenkänning och ordförrådsbyggande i en enda engagerande aktivitet.',
+      description: 'Skapa tågtematiserade alfabetsarbetsblad där varje vagn bär en bokstav parad med en matchande bild. användare kopplar bokstäver till bilder, vilket förstärker bokstav-ljud-associationer i ett lekfullt, visuellt format. Generatorn stöder alla 11 inhemska alfabet — tyska arbetsblad inkluderar umlauter och eszett, skandinaviska språk får sina extra vokaler och spanska inkluderar tilde. Välj versaler, gemener eller blandad bokstavspresentation. Välj bilder från över 100 tematiska uppsättningar eller ladda upp dina egna. Varje arbetsblad genererar ett matchande facit automatiskt. Tågformatet är en bevisad bästsäljare inom tidig läskunnighet eftersom det kombinerar sekvensering, bokstavsigenkänning och ordförrådsbyggande i en enda engagerande aktivitet.',
     },
     {
       title: 'Prepositioner Arbetsblad Generator',
-      description: 'Generera rumsliga prepositionsarbetsblad som lär ut positionsordförråd genom bildbaserade övningar. Elever identifierar var objekt är placerade — i, på, under, bakom, framför, bredvid, mellan och ovanför — i förhållande till tematiska bilder. Denna generator är djupt språkmedveten: tyska arbetsblad hanterar dativsammandragningar korrekt, franska tillämpar elisionsregler och varje språk producerar grammatiskt korrekta prepositionsfraser snarare än ord-för-ord-översättningar. Åtta rumsliga prepositioner täcker det grundläggande positionsordförråd som tidiga inlärare behöver. Arbetsblad inkluderar automatiska facit. Konfigurera svårighetsgrad genom att begränsa antalet prepositioner, justera bildkomplexitet och välja åldersanpassade teman.',
+      description: 'Generera rumsliga prepositionsarbetsblad som lär ut positionsordförråd genom bildbaserade övningar. användare identifierar var objekt är placerade — i, på, under, bakom, framför, bredvid, mellan och ovanför — i förhållande till tematiska bilder. Denna generator är djupt språkmedveten: tyska arbetsblad hanterar dativsammandragningar korrekt, franska tillämpar elisionsregler och varje språk producerar grammatiskt korrekta prepositionsfraser snarare än ord-för-ord-översättningar. Åtta rumsliga prepositioner täcker det grundläggande positionsordförråd som tidiga inlärare behöver. Arbetsblad inkluderar automatiska facit. Konfigurera svårighetsgrad genom att begränsa antalet prepositioner, justera bildkomplexitet och välja åldersanpassade teman.',
     },
     {
       title: 'Gissa Ordet Arbetsblad Generator',
-      description: 'Producera hängagubbe-stils ordgissningsarbetsblad där bildledtrådar hjälper elever att identifiera det gömda ordet. Fyra svårighetsnivåer kontrollerar ordlängd och bokstavsavslöjandeprocent, från enkla trebokstavsord med generösa ledtrådar till utmanande flerstafiga ordförråd med minimala ledtrådar. Ordförrådet ändras helt per språk — franska arbetsblad använder franska ord, tyska arbetsblad använder tyska ord, varje hämtat från kurerade, åldersanpassade ordlistor. Över 100 tematiska bilduppsättningar ger de visuella ledtrådarna. Varje arbetsblad genererar ett matchande facit. Ordgissningsformatet kombinerar stavningspraktik, ordförrådsbyggande och deduktivt resonemang till en enda arbetsbladstyp som föräldrar och lärare aktivt söker efter.',
+      description: 'Producera hängagubbe-stils ordgissningsarbetsblad där bildledtrådar hjälper användare att identifiera det gömda ordet. Fyra svårighetsnivåer kontrollerar ordlängd och bokstavsavslöjandeprocent, från enkla trebokstavsord med generösa ledtrådar till utmanande flerstafiga ordförråd med minimala ledtrådar. Ordförrådet ändras helt per språk — franska arbetsblad använder franska ord, tyska arbetsblad använder tyska ord, varje hämtat från kurerade, åldersanpassade ordlistor. Över 100 tematiska bilduppsättningar ger de visuella ledtrådarna. Varje arbetsblad genererar ett matchande facit. Ordgissningsformatet kombinerar stavningspraktik, ordförrådsbyggande och deduktivt resonemang till en enda arbetsbladstyp som föräldrar och säljare aktivt söker efter.',
     },
     {
       title: 'Ordmix Arbetsblad Generator',
-      description: 'Skapa bokstavsmixningspussel där elever ordnar om blandade brickor för att bilda det korrekta ordet. Varje bricka är färgkodad — vokaler i en färg, konsonanter i en annan — vilket ger elever en inbyggd lösningsstrategi och förstärker fonetisk medvetenhet. Orden och alfabetet ändras helt per språk, med korrekta diakritiska tecken på varje bricka. Konfigurera antal ord per sida, svårighetsnivå och tema. Välj bland över 100 bilduppsättningar för att ge visuella ledtrådar bredvid varje blandat ord. Automatiska facit visar den korrekta bokstavsarrangemanget. Ordmix är en basprodukt inom läskunnighet eftersom den bygger stavning, ordförråd och mönsterigenkänning samtidigt — och den tilltalar både klassrumslärare och föräldrar som letar efter skärmfria lärande-aktiviteter.',
+      description: 'Skapa bokstavsmixningspussel där användare ordnar om blandade brickor för att bilda det korrekta ordet. Varje bricka är färgkodad — vokaler i en färg, konsonanter i en annan — vilket ger användare en inbyggd lösningsstrategi och förstärker fonetisk medvetenhet. Orden och alfabetet ändras helt per språk, med korrekta diakritiska tecken på varje bricka. Konfigurera antal ord per sida, svårighetsnivå och tema. Välj bland över 100 bilduppsättningar för att ge visuella ledtrådar bredvid varje blandat ord. Automatiska facit visar den korrekta bokstavsarrangemanget. Ordmix är en basprodukt inom läskunnighet eftersom den bygger stavning, ordförråd och mönsterigenkänning samtidigt — och den tilltalar både produktlinjessäljare och föräldrar som letar efter skärmfria lärande-aktiviteter.',
     },
     {
       title: 'Ordsökning Arbetsblad Generator',
-      description: 'Generera ordsökningsrutnät från 5x5 för nybörjare upp till 30x30 för avancerade pussellösare. Ord gömmer sig horisontellt, vertikalt, diagonalt och omvänt. Generatorn är språkmedveten på alla nivåer: ordlistor matchar det valda språket och utfyllnadstecken använder det korrekta alfabetet inklusive accenttecken och språkspecifika bokstäver. Sexfärgade facit gör det enkelt för elever och lärare att verifiera varje ord. Konfigurera antal ord, rutnätsdensitet och svårighetsgrad. Välj tematiskt ordförråd från över 100 bilduppsättningar. Ordsökningar är den enskilt mest efterfrågade läsutskriften på Etsy och TpT — säljare med flerspråkiga ordsökningsannonser fångar internationell trafik som enspråkiga konkurrenter missar helt.',
+      description: 'Generera ordsökningsrutnät från 5x5 för nybörjare upp till 30x30 för avancerade pussellösare. Ord gömmer sig horisontellt, vertikalt, diagonalt och omvänt. Generatorn är språkmedveten på alla nivåer: ordlistor matchar det valda språket och utfyllnadstecken använder det korrekta alfabetet inklusive accenttecken och språkspecifika bokstäver. Sexfärgade facit gör det enkelt för användare och säljare att verifiera varje ord. Konfigurera antal ord, rutnätsdensitet och svårighetsgrad. Välj tematiskt ordförråd från över 100 bilduppsättningar. Ordsökningar är den enskilt mest efterfrågade läsutskriften på Etsy och Gumroad — säljare med flerspråkiga ordsökningsannonser fångar internationell trafik som enspråkiga konkurrenter missar helt.',
     },
     {
       title: 'Kryptogram Arbetsblad Generator',
-      description: 'Koda hela meningar till bildbaserade chifferpussel. Varje bokstav i meningen ersätts av en tematisk bild, och elever avkodar meddelandet genom att matcha bilder till bokstäver med chiffernyckeln. Fraserna och alfabetet ändras helt per språk — franska kryptogram kodar franska meningar, svenska kryptogram använder det svenska alfabetet inklusive extra vokaler. Tematiska bilduppsättningar ger chiffersymbolerna, vilket gör varje pussel visuellt unikt. Automatiska facit inkluderar den fullständiga bokstav-till-bild-legenden. Kryptogram kombinerar läsförståelse, bokstavsigenkänning och logisk deduktion till ett premiumformat som sticker ut i alla utskriftsbutiker. Säljare som erbjuder kryptogram på flera språk skapar produktlinjer som är nästan omöjliga för konkurrenter som använder grundmallar att replikera.',
+      description: 'Koda hela meningar till bildbaserade chifferpussel. Varje bokstav i meningen ersätts av en tematisk bild, och användare avkodar meddelandet genom att matcha bilder till bokstäver med chiffernyckeln. Fraserna och alfabetet ändras helt per språk — franska kryptogram kodar franska meningar, svenska kryptogram använder det svenska alfabetet inklusive extra vokaler. Tematiska bilduppsättningar ger chiffersymbolerna, vilket gör varje pussel visuellt unikt. Automatiska facit inkluderar den fullständiga bokstav-till-bild-legenden. Kryptogram kombinerar läsförståelse, bokstavsigenkänning och logisk deduktion till ett premiumformat som sticker ut i alla utskriftsbutiker. Säljare som erbjuder kryptogram på flera språk skapar produktlinjer som är nästan omöjliga för konkurrenter som använder grundmallar att replikera.',
     },
     {
       title: 'Skrivövning Arbetsblad Generator',
@@ -67,7 +67,7 @@ const content: BundleContent = {
     },
     {
       title: 'Automatiska facit',
-      description: 'Sex av de sju generatorerna skapar automatiskt ett motsvarande facit för varje arbetsblad. Ordsökningar får sexfärgskodade lösningar, kryptogram inkluderar fullständiga bokstavslegender och ordmix visar det korrekta arrangemanget. Facit är en topp-förväntning hos köpare på Etsy och TpT — detta paket levererar dem utan manuell ansträngning. Det enda undantaget är Skrivövningsgeneratorn, där handstilspraktik är självguidad.',
+      description: 'Sex av de sju generatorerna skapar automatiskt ett motsvarande facit för varje arbetsblad. Ordsökningar får sexfärgskodade lösningar, kryptogram inkluderar fullständiga bokstavslegender och ordmix visar det korrekta arrangemanget. Facit är en topp-förväntning hos köpare på Etsy och Gumroad — detta paket levererar dem utan manuell ansträngning. Det enda undantaget är Skrivövningsgeneratorn, där handstilspraktik är självguidad.',
     },
     {
       title: 'Inhemskt alfabet och diakritiskt stöd',
@@ -87,7 +87,7 @@ const content: BundleContent = {
     },
     {
       title: 'Utskriftsklar output',
-      description: 'Ladda ner arbetsblad som PDF eller högupplöst JPEG i Letter, A4, liggande, kvadrat eller anpassade storlekar. Filer är redo att lista på Etsy, ladda upp till KDP eller skicka till TpT utan efterbearbetning i designprogramvara. Lägg till dekorativa ramar från det inbyggda rambiblioteket, ställ in bakgrundsfärger och applicera tematiska bakgrundsbilder med justerbar opacitet för polerade, professionella resultat varje gång.',
+      description: 'Ladda ner arbetsblad som PDF eller högupplöst JPEG i Letter, A4, liggande, kvadrat eller anpassade storlekar. Filer är redo att lista på Etsy, ladda upp till KDP eller skicka till Gumroad utan efterbearbetning i designprogramvara. Lägg till dekorativa ramar från det inbyggda rambiblioteket, ställ in bakgrundsfärger och applicera tematiska bakgrundsbilder med justerbar opacitet för polerade, professionella resultat varje gång.',
     },
   ],
 
@@ -103,13 +103,13 @@ const content: BundleContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers språkresurser',
-      description: 'TpT-köpare söker efter språkspecifika läsresurser per årskurs och färdighet. Skapa differentierade paket: förskola alfabetigenkänning, årskurs 1 ordsökningar, årskurs 2 kryptogram. De automatiska faciterna, flera svårighetsnivåer och korrekt grammatik på varje språk uppfyller TpTs premiumresursstandarder. Paketera arbetsblad till heltäckande läspaket som lärare köper för klassrumsanvändning under hela läsåret.',
-      platform: 'TpT',
+      title: 'Gumroad språkresurser',
+      description: 'Gumroad-köpare söker efter språkspecifika läsresurser per årskurs och färdighet. Skapa nivågrupperade paket: förskola alfabetigenkänning, årskurs 1 ordsökningar, årskurs 2 kryptogram. De automatiska faciterna, flera svårighetsnivåer och korrekt grammatik på varje språk uppfyller Gumroads premiumresursstandarder. Paketera arbetsblad till heltäckande läspaket som säljare köper för produktlinjesanvändning under hela läsåret.',
+      platform: 'Gumroad',
     },
     {
-      title: 'SFI- och främmandespråksundervisningsmaterial',
-      description: 'Språklärare behöver ordförrådsbyggande arbetsblad på specifika målspråk. Detta paket producerar autentiska, lingvistiskt korrekta arbetsblad på 11 språk — inte maskinöversatta approximationer. Använd ordsökningar för att introducera nytt ordförråd, kryptogram för att öva meningsläsning, ordmix för att förstärka stavning och prepositioner för att lära ut rumsligt språk. Skapa ett komplett läroplanskomplemet för något av de 11 språk som stöds.',
+      title: 'SFI- och främmandespråksutskrivbara produkter',
+      description: 'Språksäljare behöver ordförrådsbyggande arbetsblad på specifika målspråk. Detta paket producerar autentiska, lingvistiskt korrekta arbetsblad på 11 språk — inte maskinöversatta approximationer. Använd ordsökningar för att introducera nytt ordförråd, kryptogram för att öva meningsläsning, ordmix för att förstärka stavning och prepositioner för att lära ut rumsligt språk. Skapa ett komplett produktkatalogskomplemet för något av de 11 språk som stöds.',
     },
     {
       title: 'Säsongsbetonade ordförrådsprodukter',
@@ -117,7 +117,7 @@ const content: BundleContent = {
     },
     {
       title: 'Privatundervisning och hemundervisning läspraktik',
-      description: 'Generera nya läsarbetsblad för varje undervisningssession eller hemundervisningsvecka. Variera svårighetsgrad, språkfokus, tema och aktivitetstyp så att elever aldrig ser samma sida två gånger. Använd alfabetståg och skrivpraktik för yngre elever, ordsökningar och ordmix för att bygga ordförråd, och kryptogram för avancerad läsförståelse. De automatiska faciterna låter föräldrar och handledare kontrollera arbete direkt.',
+      description: 'Generera nya läsarbetsblad för varje undervisningssession eller hemundervisningsvecka. Variera svårighetsgrad, språkfokus, tema och aktivitetstyp så att användare aldrig ser samma sida två gånger. Använd alfabetståg och skrivpraktik för yngre användare, ordsökningar och ordmix för att bygga ordförråd, och kryptogram för avancerad läsförståelse. De automatiska faciterna låter föräldrar och handledare kontrollera arbete direkt.',
     },
   ],
 
@@ -141,15 +141,15 @@ const content: BundleContent = {
       description: 'Du säljer digitala nedladdningar på Etsy eller publicerar arbetsböcker på Amazon KDP och vill maximera produktvariation utan proportionell designansträngning. Språkmultiplikatorn i detta paket är din konkurrensfördel — varje läsarbetsblad du designar kan bli 11 separata produktannonser på 11 språk. Säljare med flerspråkiga läsbutiker fångar köpardemografier som enspråkiga konkurrenter inte kan nå, vilket dramatiskt utökar den adresserbara marknadsstorleken från en enda verktygslådeinvestering.',
     },
     {
-      title: 'Teachers Pay Teachers-författare',
-      description: 'Du skapar och säljer utbildningsresurser på TpT och behöver verktyg som producerar lingvistiskt korrekta, läroplansanpassade läsarbetsblad. Varje generator levererar automatiska facit, flera svårighetsinställningar och grammatiskt korrekt innehåll på alla språk som stöds. Skapa differentierade undervisningspaket per årskurs och språk som lärare specifikt söker efter — tvåspråkiga klassrum, SFI-program och främmandespråkskurser behöver alla kvalitetsläsmaterial.',
+      title: 'Gumroad-författare',
+      description: 'Du skapar och säljer utbildningsresurser på Gumroad och behöver verktyg som producerar lingvistiskt korrekta, produktkatalogsanpassade läsarbetsblad. Varje generator levererar automatiska facit, flera svårighetsinställningar och grammatiskt korrekt innehåll på alla språk som stöds. Skapa nivågrupperade undervisningspaket per årskurs och språk som säljare specifikt söker efter — tvåspråkiga produktlinje, SFI-program och främmandespråkskurser behöver alla kvalitetsläsmaterial.',
     },
     {
-      title: 'Språklärare och handledare',
+      title: 'Språksäljare och handledare',
       description: 'Du undervisar svenska som andraspråk, främmandespråksklasser eller tvåspråkiga program och behöver autentiska ordförrådsbyggande arbetsblad på ditt målspråk. Detta paket producerar arbetsblad med korrekta diakritiska tecken, inhemska alfabet och grammatiskt korrekta fraser — inte grova maskinöversättningar. Generera nytt material för varje lektion, variera aktivitetstyp och tema, och använd de automatiska faciterna för snabb bedömning. Varje generator erbjuder en gratis provversion med vattenstämpel så att du kan utvärdera innan du köper.',
     },
     {
-      title: 'Pedagogiska innehållsskapare',
+      title: 'pedagogiska innehållsskapare',
       description: 'Du producerar innehåll för bloggar, YouTube-kanaler eller sociala medier-konton fokuserade på utbildning och läskunnighet. Använd generatorerna för att skapa exempelarbetsblad för handledningar, leadmagneter eller nedladdningsbara resurser som driver trafik till dina betalda produkter. Den flerspråkiga förmågan låter dig skapa innehåll som riktar sig mot internationella målgrupper. Den kostnadsfria provversionen med vattenstämpel låter dig visa arbetsbladsqualitet i ditt innehåll innan du förbinder dig till en licens.',
     },
   ],
@@ -173,7 +173,7 @@ const content: BundleContent = {
     },
     {
       question: 'Vilka format kan jag ladda ner?',
-      answer: 'Varje generator producerar utskriftsklara PDF- och högupplösta JPEG-filer. Välj bland Letter stående, Letter liggande, A4 stående, A4 liggande, Kvadrat eller ange en anpassad storlek. PDF är idealiskt för arbetsbladspaket med flera sidor på Etsy och TpT. JPEG fungerar bra för KDP-interiörsidor och förhandsgranskningar på sociala medier. Alla filer laddas ner i utskriftsupplösning — ingen uppskalning eller efterbearbetning behövs.',
+      answer: 'Varje generator producerar utskriftsklara PDF- och högupplösta JPEG-filer. Välj bland Letter stående, Letter liggande, A4 stående, A4 liggande, Kvadrat eller ange en anpassad storlek. PDF är idealiskt för arbetsbladspaket med flera sidor på Etsy och Gumroad. JPEG fungerar bra för KDP-interiörsidor och förhandsgranskningar på sociala medier. Alla filer laddas ner i utskriftsupplösning — ingen uppskalning eller efterbearbetning behövs.',
     },
     {
       question: 'Kan jag använda egna bilder istället för inbyggda teman?',
@@ -185,7 +185,7 @@ const content: BundleContent = {
     },
     {
       question: 'Kan jag sälja arbetsbladen jag skapar?',
-      answer: 'Ja. Både Commercial- och Full Access-licenserna inkluderar kommersiella försäljningsrättigheter. Du kan sälja arbetsbladen du genererar på Etsy, Amazon KDP, Teachers Pay Teachers, din egen webbplats eller vilken annan plattform som helst. Du säljer arbetsbladen — själva generatorverktyget är inte överlåtbart.',
+      answer: 'Ja. Både Commercial- och Full Access-licenserna inkluderar kommersiella försäljningsrättigheter. Du kan sälja arbetsbladen du genererar på Etsy, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst. Du säljer arbetsbladen — själva generatorverktyget är inte överlåtbart.',
     },
     {
       question: 'Hur många arbetsblad kan jag skapa?',

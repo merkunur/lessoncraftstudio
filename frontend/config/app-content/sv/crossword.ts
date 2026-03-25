@@ -7,7 +7,7 @@ const content: AppContent = {
       'utskrivbar bildkorsord skapare för Etsy-säljare',
       'bildkorsordspussel generator för KDP-publicerare',
       'bildkorsord arbetsblad skapare kommersiell licens',
-      'sälja korsordspussel på Teachers Pay Teachers',
+      'sälja korsordspussel på Gumroad',
     ],
     lsiKeywords: [
       'digitala korsord utskriftsbara produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Bildkorsord Generator | Skapa och Sälj Pussel',
     metaDescription:
-      'Skapa bildkorsordspussel att sälja på Etsy, KDP och TPT. Bildledtrådar på 15×15 rutnät, 4 inmatningsmetoder, automatiskt facit. Gratis provversion med vattenstämpel.',
+      'Skapa bildkorsordspussel att sälja på Etsy, KDP och Gumroad. Bildledtrådar på 15×15 rutnät, 4 inmatningsmetoder, automatiskt facit. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Bildkorsord Generator för Bildbaserade Korsordspussel',
     tagline: 'Ersätt traditionella textledtrådar med bildledtrådar på ett 15×15 korsord — fyra inmatningsmetoder (tema autoväl, manuell bildredigering, anpassad ordlista och bilduppladdning), automatiskt genererat facit med ifyllt rutnät och en lokaliserad «Bildkorsord»-rubrik över 104 tematiska bildsamlingar.',
     description:
-      'Bygg professionella bildkorsordspussel där färgglada bilder ersätter textledtrådarna i traditionella korsord. Åtta bilder genererar åtta ord på ett fast 15×15-rutnät — algoritmen extraherar ord från bildnamn, sorterar efter längd för optimal placering och fyller rutnätet med numrerade ledtrådspositioner. Välj bland fyra inmatningsmetoder: Snabb Temagenerering autoäljer 8 slumpmässiga bilder från valfritt tema och genererar direkt; Manuell Bildnamnsredigering låter dig klicka på enskilda bilder och döpa om dem innan generering; Anpassad Ordlista med Ledtrådar växlar till traditionella textledtråds-korsord med ORD: ledtråd-format; och Ladda Upp Egna Bilder låter dig lägga till egna JPEG-, PNG-, GIF- eller WebP-filer bredvid biblioteksinnehåll. Bildkorsord Generatorn är språkkänslig: pusselord kommer från lokaliserade bildnamn via bildvokabulärsystemet, så att byta språk ändrar de faktiska korsordsordet. Till exempel genererar en kattbild «KATT» på svenska men «CAT» på engelska och «KATZE» på tyska — vilket producerar helt olika korsordspussel från samma bilder. Dubbelarbetsyte-systemet genererar både en pusselflik och en facitflik — facit visar det ifyllda rutnätet med alla svar synliga. Varje pussel inkluderar en automatiskt genererad lokaliserad rubrik med blå bakgrund (#5B9BD5), Fredoka-titel och Quicksand-beskrivning renderad på alla 11 stödda språk. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 språk för lokaliserade pusselord. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk. Oavsett om du säljer bildkorsords-paket på Etsy, sammanställer korsords-arbetsböcker för Amazon KDP eller skapar vokabulär-korsord för TPT — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella bildkorsordspussel där färgglada bilder ersätter textledtrådarna i traditionella korsord. Åtta bilder genererar åtta ord på ett fast 15×15-rutnät — algoritmen extraherar ord från bildnamn, sorterar efter längd för optimal placering och fyller rutnätet med numrerade ledtrådspositioner. Välj bland fyra inmatningsmetoder: Snabb Temagenerering autoäljer 8 slumpmässiga bilder från valfritt tema och genererar direkt; Manuell Bildnamnsredigering låter dig klicka på enskilda bilder och döpa om dem innan generering; Anpassad Ordlista med Ledtrådar växlar till traditionella textledtråds-korsord med ORD: ledtråd-format; och Ladda Upp Egna Bilder låter dig lägga till egna JPEG-, PNG-, GIF- eller WebP-filer bredvid biblioteksinnehåll. Bildkorsord Generatorn är språkkänslig: pusselord kommer från lokaliserade bildnamn via bildvokabulärsystemet, så att byta språk ändrar de faktiska korsordsordet. Till exempel genererar en kattbild «KATT» på svenska men «CAT» på engelska och «KATZE» på tyska — vilket producerar helt olika korsordspussel från samma bilder. Dubbelarbetsyte-systemet genererar både en pusselflik och en facitflik — facit visar det ifyllda rutnätet med alla svar synliga. Varje pussel inkluderar en automatiskt genererad lokaliserad rubrik med blå bakgrund (#5B9BD5), Fredoka-titel och Quicksand-beskrivning renderad på alla 11 stödda språk. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 språk för lokaliserade pusselord. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk. Oavsett om du säljer bildkorsords-paket på Etsy, sammanställer korsords-arbetsböcker för Amazon KDP eller skapar vokabulär-korsord för Gumroad — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se det ifyllda rutnätet med alla korssvar synliga. Ladda ner båda versionerna med de fyra dedikerade knapparna i dropdownmenyn: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF. Filer exporteras med 300 DPI för tryckfärdig kvalitet. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla till fliken Facit för att se det ifyllda rutnätet med alla korssvar synliga. Ladda ner båda versionerna med de fyra dedikerade knapparna i dropdownmenyn: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF. Filer exporteras med 300 DPI för tryckfärdig kvalitet. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Automatiskt genererat facit med ifyllt korssordsrutnät',
         description:
-          'Varje bildkorsord genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit återskapar den exakta pussellayouten och fyller rutnätet med alla korrekta svar synliga i cellerna. Inget manuellt facitskapande, ingen separat fil — facit förblir perfekt synkroniserat med pusslet. Denna dubbelarbetsyte-metod sparar betydande produktionstid för säljare som skapar korssordspaket där varje pussel behöver sitt eget facit. Ladda ner facit som crossword_answer_key.jpeg eller image-crossword-answer-key.pdf bredvid elevpusslet.',
+          'Varje bildkorsord genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit återskapar den exakta pussellayouten och fyller rutnätet med alla korrekta svar synliga i cellerna. Inget manuellt facitskapande, ingen separat fil — facit förblir perfekt synkroniserat med pusslet. Denna dubbelarbetsyte-metod sparar betydande produktionstid för säljare som skapar korssordspaket där varje pussel behöver sitt eget facit. Ladda ner facit som crossword_answer_key.jpeg eller image-crossword-answer-key.pdf bredvid pusslet.',
       },
       {
         title: 'Lokaliserade pusselord på 11 språk via bildvokabulärsystemet',
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner korsordspussel och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator). Fyra dedikerade nedladdningsknappar i dropdownmenyn exporterar crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf och image-crossword-answer-key.pdf separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+          'Ladda ner korsordspussel och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator). Fyra dedikerade nedladdningsknappar i dropdownmenyn exporterar crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf och image-crossword-answer-key.pdf separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
       },
     ],
   },
@@ -121,20 +121,20 @@ const content: AppContent = {
       {
         title: 'Flerspråkiga bildkorsords-set med språkkänslig generering',
         description:
-          'Utnyttja den språkkänsliga ordgenereringen för att skapa bildkorsordspussel på 11 språk. Samma bilder producerar helt olika korssordsrutnät när du byter språk — en kattbild skapar «KATT» på svenska, «CAT» på engelska och «KATZE» på tyska. Skapa flerspråkiga korssordspaket där varje språkversion använder samma tematiska bilder men producerar unika pussel med lokaliserade ord. Detta är värdefullt för ESL/EFL-lärare, tvåspråkiga klassrum och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser.',
-        platform: 'Etsy / TPT (flerspråkig marknad)',
+          'Utnyttja den språkkänsliga ordgenereringen för att skapa bildkorsordspussel på 11 språk. Samma bilder producerar helt olika korssordsrutnät när du byter språk — en kattbild skapar «KATT» på svenska, «CAT» på engelska och «KATZE» på tyska. Skapa flerspråkiga korssordspaket där varje språkversion använder samma tematiska bilder men producerar unika pussel med lokaliserade ord. Detta är värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser.',
+        platform: 'Etsy / Gumroad (flerspråkig marknad)',
       },
       {
-        title: 'Anpassade vokabulärkorsord för TPT',
+        title: 'Anpassade vokabulärkorsord för Gumroad',
         description:
-          'Använd läget Anpassad Ordlista med Ledtrådar för att skapa läroplansanpassade korsordspussel med lärardefinierad vokabulär. Skriv ämnesspecifika termer och definitioner i ORD: ledtråd-format — naturvetenskaplig vokabulär, samhällskunskapstermer, läsförståelseord eller stavningslistor. Lärare som söker på TPT efter korssordsaktiviteter värdesätter pussel som matchar deras exakta läroplan. Skapa årskursnivå vokabulärkorsords-set med facit i både PDF- och JPEG-format. Textledtrådsläget låter dig bygga korsord för alla ämnen utan att förlita dig på bildbiblioteket.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Använd läget Anpassad Ordlista med Ledtrådar för att skapa produktkatalogsanpassade korsordspussel med lärardefinierad vokabulär. Skriv ämnesspecifika termer och definitioner i ORD: ledtråd-format — naturvetenskaplig vokabulär, samhällskunskapstermer, läsförståelseord eller stavningslistor. köpare som söker på Gumroad efter korssordsaktiviteter värdesätter pussel som matchar deras exakta produktkatalog. Skapa årskursnivå vokabulärkorsords-set med facit i både PDF- och JPEG-format. Textledtrådsläget låter dig bygga korsord för alla ämnen utan att förlita dig på bildbiblioteket.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Säsongsbetonade bildkorsords-samlingar',
         description:
           'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade bildkorsords-samlingar som sammanfaller med toppshoppingperioder. Släpp halloweenkorsords-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Den visuella naturen hos bildkorsord gör säsongsteman särskilt övertygande — högtidsbilder som ledtrådar skapar omedelbar säsongsattraktionskraft. Säsongsprodukter motiverar högre priser under sina toppfönster och driver återköp.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
     ],
   },
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja bildkorsord skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bildkorsordspussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. De fyra inmatningsmetoderna, automatiskt genererade facit, språkkänslig ordgenerering och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara korsordsprodukter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bildkorsordspussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De fyra inmatningsmetoderna, automatiskt genererade facit, språkkänslig ordgenerering och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara korsordsprodukter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'andra-klass-utskriftsbara-ideer',
-      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande Elever',
+      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande användare',
     },
     {
       pageType: 'start',

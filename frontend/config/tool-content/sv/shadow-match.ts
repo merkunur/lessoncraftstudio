@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera etiketter och namn/datum-fält',
-        description: 'Växla «Visa Etiketter» (standard PÅ) för A/B/C/D och 1/2/3/4 identifierare. Etiketter PÅ — eleverna skriver bokstav-nummer-par som svar. Etiketter AV — ren visuell matchningsutmaning idealisk för pusselböcker och avancerade aktiviteter. Kryssa i «Inkludera Namn/Datum-fält» för elevidentifiering.',
+        description: 'Växla «Visa Etiketter» (standard PÅ) för A/B/C/D och 1/2/3/4 identifierare. Etiketter PÅ — användarna skriver bokstav-nummer-par som svar. Etiketter AV — ren visuell matchningsutmaning idealisk för pusselböcker och avancerade aktiviteter. Kryssa i «Inkludera Namn/Datum-fält» för identifiering.',
       },
       {
         title: 'Välj 4 bilder från biblioteket eller ladda upp egna',
@@ -72,8 +72,8 @@ const content: ToolContent = {
       description: 'Sammanställ 50–80 skuggmatchnings arbetsblad till tryckta arbetsböcker för Amazon KDP. Strukturera kapitel: Kapitel 1 Skuggmatchning-läget, Kapitel 2 Gör Den Hel med horisontella klipp, Kapitel 3 Gör Den Hel med vertikala klipp. Facitsidor i slutet. Växla gråskala. Det rent visuella formatet kräver ingen översättning.',
     },
     {
-      title: 'Klassrums snabbsluts skuggpusselaktiviteter',
-      description: 'Bygg klassrumsfärdiga skuggmatchnings arbetsblad med namn/datum-fält och facit. Etikett-växlingen skapar stöttade versioner (med etiketter) och utmaningsversioner (utan etiketter) i samma generation — lärare tilldelar efter elevnivå. Varje arbetsblad exporteras med autogenererat facit.',
+      title: 'produktlinjes snabbsluts skuggpusselaktiviteter',
+      description: 'Bygg produktlinjesfärdiga skuggmatchnings arbetsblad med namn/datum-fält och facit. Etikett-växlingen skapar stöttade versioner (med etiketter) och utmaningsversioner (utan etiketter) i samma generation — säljare tilldelar efter nivå. Varje arbetsblad exporteras med autogenererat facit.',
     },
     {
       title: 'Anpassade foto skuggmatchningsprodukter',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums skuggmatchnings aktivitetspaket',
-      description: 'Ladda upp skuggmatchnings aktivitetspaket till TPT med namn/datum-fält, växelbara etiketter och autogenererade facit. Lärare söker efter visuella diskrimineringsaktiviteter. Skapa läroplansangränsande set. Varje paket inkluderar etikett-versioner för guidad instruktion och etikettfria versioner för självständigt arbete.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes skuggmatchnings aktivitetspaket',
+      description: 'Ladda upp skuggmatchnings aktivitetspaket till Gumroad med namn/datum-fält, växelbara etiketter och autogenererade facit. säljare söker efter visuella diskrimineringsaktiviteter. Skapa produktkatalogsangränsande set. Varje paket inkluderar etikett-versioner för guidad instruktion och etikettfria versioner för självständigt arbete.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest skuggpussel trafiktratt',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka är de två övningslägena?',
-      answer: 'Generatorn erbjuder två distinkta lägen. Skuggmatchning placerar 4 färgade bilder märkta A–D i övre raden och 4 automatiskt genererade svarta siluetter märkta 1–4 i nedre raden — siluetterna skapas genom pixelnivå-bearbetning. Gör Den Hel delar 4 bilder i halvor — första halvorna A–D, andra halvorna 1–4 — och eleverna kopplar ihop bitarna. Välj horisontell (övre/undre) eller vertikal (vänster/höger) klippriktning i Gör Den Hel.',
+      answer: 'Generatorn erbjuder två distinkta lägen. Skuggmatchning placerar 4 färgade bilder märkta A–D i övre raden och 4 automatiskt genererade svarta siluetter märkta 1–4 i nedre raden — siluetterna skapas genom pixelnivå-bearbetning. Gör Den Hel delar 4 bilder i halvor — första halvorna A–D, andra halvorna 1–4 — och användarna kopplar ihop bitarna. Välj horisontell (övre/undre) eller vertikal (vänster/höger) klippriktning i Gör Den Hel.',
     },
     {
       question: 'Hur fungerar pixelnivå siluettgenereringen?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja skuggmatchnings arbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja skuggmatchnings arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan försäljningskanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja skuggmatchnings arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -224,12 +224,12 @@ const content: ToolContent = {
       {
         src: '/samples/swedish/shadow%20match/skuggmatchning%201.webp',
         alt: 'Skuggmatchning arbetsblad som visar fyra färgade bilder matchade med fyra pixelnivå svarta siluetter med A B C D och 1 2 3 4 etiketter',
-        caption: 'Skuggmatchning-läge — eleverna matchar bilder med deras automatiskt genererade pixelnivå siluetter',
+        caption: 'Skuggmatchning-läge — användarna matchar bilder med deras automatiskt genererade pixelnivå siluetter',
       },
       {
         src: '/samples/swedish/shadow%20match/skuggmatchning%202.webp',
-        alt: 'Gör den hel arbetsblad med delade bildhalvor som eleverna kopplar ihop genom att matcha första och andra halvor märkta A till D och 1 till 4',
-        caption: 'Gör Den Hel-läge — eleverna matchar delade bildhalvor för att slutföra bilder med horisontella eller vertikala klipp',
+        alt: 'Gör den hel arbetsblad med delade bildhalvor som användarna kopplar ihop genom att matcha första och andra halvor märkta A till D och 1 till 4',
+        caption: 'Gör Den Hel-läge — användarna matchar delade bildhalvor för att slutföra bilder med horisontella eller vertikala klipp',
       },
       {
         src: '/samples/swedish/shadow%20match/skuggmatchning%201%20answer%20key.webp',

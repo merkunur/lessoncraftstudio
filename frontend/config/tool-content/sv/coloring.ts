@@ -4,24 +4,24 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'anpassad målarsida skapare',
     secondaryKeywords: [
-      'målarsida skapare för lärare',
-      'anpassade målararbetsblad för klassrummet',
+      'målarsida skapare för säljare',
+      'anpassade målararbetsblad online',
       'målarsida skapare för hemundervisning',
       'utskrivbara målarsidor för barn online',
     ],
     lsiKeywords: [
-      'klassrums målarsida designer online',
+      'produktlinjes målarsida designer online',
       'gråskala målararbetsblad för utskrift',
       'frihandsritning målaraktivitet skapare',
     ],
     titleTag: 'Anpassad Målarsida Skapare — Skapa Sidor Online',
-    metaDescription: 'Skapa anpassade målarsidor för ditt klassrum eller hemma. Fri arbetsyta, mer än 3 100 illustrationer, 104 teman, frihandsritning, gråskaleexport. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa anpassade målarsidor för ditt produktlinje eller hemma. Fri arbetsyta, mer än 3 100 illustrationer, 104 teman, frihandsritning, gråskaleexport. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Målarsida Skapare',
-    tagline: 'Fri arbetsyta målarsida generator med frihandsritning, gråskaleexport, klassrumshjälpare och 104 tematiska bildsamlingar för professionella målarsidor som säljer globalt utan översättning',
-    description: 'Designa professionella målarsidor på en helt öppen arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, inga fack, ren kreativ frihet. Denna fria metod är kärndifferentiatorn: varje målarsida du skapar är unik och omöjlig att replikera med mallbaserade verktyg. Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 färgglada illustrationer, klicka för att lägga till bilder, arrangera sedan, ändra storlek, rotera och lagra element var som helst på arbetsytan. Frihandsritningsverktyget låter dig skissa originella illustrationer direkt bredvid biblioteksbilder med justerbar penselfärg och storlek (1–50 pixlar), vilket skapar hybridmålarsidor som blandar kurerat konstverk med dina egna ritningar. Ettklicks klassrumshjälpare lägger till ett elevnamnfält («Namn: ____») och skrivövningslinjer (heldragen, streckad, heldragen) — förvandlar målarsidor till klassrumsfärdiga aktivitetsblad som säljer på TPT. Växla gråskaleexport för att konvertera din färgglada komposition till bläckvänliga målarsidor perfekta för KDP-interiörer och klassrumsutskrift. Lägg till dekorativa ramteman, anpassad text med kontureffekter, och ladda upp egna PNG-, JPG- eller GIF-bilder. Detta är en helt visuell app — utmatningen innehåller ingen text, vilket gör målarsidor universellt säljbara utan översättning. Inget facit existerar eftersom färgläggning är en kreativ aktivitet utan korrekt svar. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    tagline: 'Fri arbetsyta målarsida generator med frihandsritning, gråskaleexport, produktlinjeshjälpare och 104 tematiska bildsamlingar för professionella målarsidor som säljer globalt utan översättning',
+    description: 'Designa professionella målarsidor på en helt öppen arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, inga fack, ren kreativ frihet. Denna fria metod är kärndifferentiatorn: varje målarsida du skapar är unik och omöjlig att replikera med mallbaserade verktyg. Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 färgglada illustrationer, klicka för att lägga till bilder, arrangera sedan, ändra storlek, rotera och lagra element var som helst på arbetsytan. Frihandsritningsverktyget låter dig skissa originella illustrationer direkt bredvid biblioteksbilder med justerbar penselfärg och storlek (1–50 pixlar), vilket skapar hybridmålarsidor som blandar kurerat konstverk med dina egna ritningar. Ettklicks produktlinjeshjälpare lägger till ett namnfält («Namn: ____») och skrivövningslinjer (heldragen, streckad, heldragen) — förvandlar målarsidor till produktlinjesfärdiga aktivitetsblad som säljer på Gumroad. Växla gråskaleexport för att konvertera din färgglada komposition till bläckvänliga målarsidor perfekta för KDP-interiörer och volymutskrift. Lägg till dekorativa ramteman, anpassad text med kontureffekter, och ladda upp egna PNG-, JPG- eller GIF-bilder. Detta är en helt visuell app — utmatningen innehåller ingen text, vilket gör målarsidor universellt säljbara utan översättning. Inget facit existerar eftersom färgläggning är en kreativ aktivitet utan korrekt svar. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -48,8 +48,8 @@ const content: ToolContent = {
         description: 'Växla till Ritläge och skissa direkt på arbetsytan med frihandspenseln. Välj valfri penselfärg och justera penselstorleken från 1 till 50 pixlar. Rita egna ramar, lägg till dekorativa klotter, skapa originella illustrationer eller skissa kopplingslinjer mellan bilder. Frihandsverktyget skapar hybridmålarsidor som blandar biblioteksbilder med ditt eget originella konstverk — en kraftfull differentieringspunkt.',
       },
       {
-        title: 'Lägg till klassrumshjälpare och text',
-        description: 'Klicka på Namnfältsknappen för att lägga till ett formaterat «Namn: ____» textblock överst på sidan. Klicka på Skrivövningslinjer-knappen för att lägga till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten för skrivövning. Dessa ettklicks klassrumshjälpare förvandlar målarsidor till färdiga aktivitetsblad. Lägg till titlar, instruktioner eller etiketter med Textverktygen med typsnitt som Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana.',
+        title: 'Lägg till produktlinjeshjälpare och text',
+        description: 'Klicka på Namnfältsknappen för att lägga till ett formaterat «Namn: ____» textblock överst på sidan. Klicka på Skrivövningslinjer-knappen för att lägga till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten för skrivövning. Dessa ettklicks produktlinjeshjälpare förvandlar målarsidor till färdiga aktivitetsblad. Lägg till titlar, instruktioner eller etiketter med Textverktygen med typsnitt som Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana.',
       },
       {
         title: 'Växla gråskala och exportera',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Batchskapa med temavariationer',
-        description: 'Upprepa processen med olika teman för snabb produktskapande. Rensa arbetsytan, välj ett nytt tema från de 104 tillgängliga samlingarna, arrangera nya bilder och exportera. Varje tema producerar visuellt distinkta målarsidor. Kombinera detta arbetsflöde med frihandsritningsverktyget och klassrumshjälparna för att skapa varierade produktlinjer — tematiska målarpaket, klassrumsaktivitetspaket och målarboksinteriörer.',
+        description: 'Upprepa processen med olika teman för snabb produktskapande. Rensa arbetsytan, välj ett nytt tema från de 104 tillgängliga samlingarna, arrangera nya bilder och exportera. Varje tema producerar visuellt distinkta målarsidor. Kombinera detta arbetsflöde med frihandsritningsverktyget och produktlinjeshjälparna för att skapa varierade produktlinjer — tematiska målarpaket, produktlinjesaktivitetspaket och målarboksinteriörer.',
       },
     ],
   },
@@ -72,8 +72,8 @@ const content: ToolContent = {
       description: 'Sammanställ 40–80 målarsidor till kompletta boksinteriörer för Amazon KDP. Gråskaleexportväxlingen konverterar färgglada kompositioner till bläckvänliga sidor som reproduceras perfekt i standard svartvit utskrift. Strukturera böcker efter tema (djur, årstider, högtider), åldersgrupp (enkla layouter för småbarn, detaljerade kompositioner för äldre barn), eller aktivitetstyp (enbart färgläggning, färgläggning med namnfält, färgläggning med skrivövningslinjer).',
     },
     {
-      title: 'Klassrums målaraktivitetsblad',
-      description: 'Använd ettklicks klassrumshjälparna för att skapa målarsidor med inbyggda namnfält och skrivövningslinjer. Namnfältet lägger till «Namn: ____» överst. Skrivövningslinjerna lägger till heldragen-streckad-heldragen övningslinjer nertill. Dessa två tillägg förvandlar vanliga målarsidor till strukturerade klassrumsaktiviteter som TPT-köpare specifikt söker efter. Skapa tematiska set anpassade till läroplansämnen.',
+      title: 'produktlinjes målaraktivitetsblad',
+      description: 'Använd ettklicks produktlinjeshjälparna för att skapa målarsidor med inbyggda namnfält och skrivövningslinjer. Namnfältet lägger till «Namn: ____» överst. Skrivövningslinjerna lägger till heldragen-streckad-heldragen övningslinjer nertill. Dessa två tillägg förvandlar vanliga målarsidor till strukturerade produktlinjesaktiviteter som Gumroad-köpare specifikt söker efter. Skapa tematiska set anpassade till produktkatalogsämnen.',
     },
     {
       title: 'Hybridillustration målarsidor',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Tematisk målarsidebutik på Etsy',
-      description: 'Öppna en Etsy-butik specialiserad på målarsidespaket organiserade efter tema med de 104 tematiska bildsamlingarna som produktkataloggrund. Djur, fordon, mat, natur, högtider och yrken blir var och en separata annonser. Den fria arbetsytan innebär att varje sida har en unik layout som mallverktygskonkurrenter inte kan matcha. Lägg till klassrumshjälpare för differentiering. Prissätt enskilda temapaket till 30–50 SEK för 15–20 sidor.',
+      description: 'Öppna en Etsy-butik specialiserad på målarsidespaket organiserade efter tema med de 104 tematiska bildsamlingarna som produktkataloggrund. Djur, fordon, mat, natur, högtider och yrken blir var och en separata annonser. Den fria arbetsytan innebär att varje sida har en unik layout som mallverktygskonkurrenter inte kan matcha. Lägg till produktlinjeshjälpare för differentiering. Prissätt enskilda temapaket till 30–50 SEK för 15–20 sidor.',
       platform: 'Etsy',
     },
     {
@@ -101,18 +101,18 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums målaraktivitetspaket',
-      description: 'Ladda upp målarsidespaket till TPT med klassrumshjälpare som nyckelsäljpunkt. Varje sida inkluderar namnfält och skrivövningslinjer — funktioner som lärare specifikt söker efter. Organisera efter läroplansämne: bondgårdsdjur för livsvetenskap, samhällshjälpare för samhällskunskap, väder och årstider för geovetenskap. Det klassrumsfärdiga formatet motiverar högre priser.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes målaraktivitetspaket',
+      description: 'Ladda upp målarsidespaket till Gumroad med produktlinjeshjälpare som nyckelsäljpunkt. Varje sida inkluderar namnfält och skrivövningslinjer — funktioner som säljare specifikt söker efter. Organisera efter produktkatalogsämne: bondgårdsdjur för livsvetenskap, samhällshjälpare för samhällskunskap, väder och årstider för geovetenskap. Det produktlinjesfärdiga formatet motiverar högre priser.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest målarsida trafiktratt',
-      description: 'Målarsidor gör visuellt slående Pinterest-pins som driver trafik till din Etsy-butik. Pinna provmålarsidor med vattenstämpel som visar de fria arbetsytekompositionerna. Det rent visuella formatet tilltalar föräldrar och lärare i varje land.',
+      description: 'Målarsidor gör visuellt slående Pinterest-pins som driver trafik till din Etsy-butik. Pinna provmålarsidor med vattenstämpel som visar de fria arbetsytekompositionerna. Det rent visuella formatet tilltalar föräldrar och säljare i varje land.',
       platform: 'Pinterest',
     },
     {
       title: 'Gumroad komplett målarverktygskit',
-      description: 'Paketera målarsidor med frihandsritningsillustrationer, tematiska klassrumsaktivitetsblad och säsongssamlingar för ett omfattande målarverktygskit på Gumroad. Inkludera 200+ målarsidor som spänner alla stora teman med klassrumshjälpare förbyggda på varje sida. Verktygskitsformatet motiverar premiumprissättning.',
+      description: 'Paketera målarsidor med frihandsritningsillustrationer, tematiska produktlinjesaktivitetsblad och säsongssamlingar för ett omfattande målarverktygskit på Gumroad. Inkludera 200+ målarsidor som spänner alla stora teman med produktlinjeshjälpare förbyggda på varje sida. Verktygskitsformatet motiverar premiumprissättning.',
       platform: 'Gumroad',
     },
     {
@@ -129,11 +129,11 @@ const content: ToolContent = {
     },
     {
       title: 'Använd gråskaleexport strategiskt',
-      description: 'Designa med färgglada bilder för en engagerande redigeringsupplevelse, växla sedan gråskala vid export för bläckvänlig utmatning. Använd gråskala för KDP-interiörer och klassrumsbulkutskrift. Behåll färgglada versioner för Etsy-annonseringsförhandsvisningar där livfulla visuella lockar klick. Samma komposition betjänar båda syften.',
+      description: 'Designa med färgglada bilder för en engagerande redigeringsupplevelse, växla sedan gråskala vid export för bläckvänlig utmatning. Använd gråskala för KDP-interiörer och produktlinjesbulkutskrift. Behåll färgglada versioner för Etsy-annonseringsförhandsvisningar där livfulla visuella lockar klick. Samma komposition betjänar båda syften.',
     },
     {
-      title: 'Lägg till klassrumshjälpare för att motivera högre priser',
-      description: 'Målarsidor med namnfält och skrivövningslinjer säljer för mer än generiska målarsidor eftersom de tjänar ett funktionellt klassrumssyfte. Lärare på TPT söker specifikt efter «klassrumsfärdiga» målaraktiviteter med elevidentifieringsområden. Att lägga till dessa ettklickshjälpare tar sekunder men förvandlar din produkt.',
+      title: 'Lägg till produktlinjeshjälpare för att motivera högre priser',
+      description: 'Målarsidor med namnfält och skrivövningslinjer säljer för mer än generiska målarsidor eftersom de tjänar ett funktionellt produktlinjessyfte. säljare på Gumroad söker specifikt efter «produktlinjesfärdiga» målaraktiviteter med identifieringsområden. Att lägga till dessa ettklickshjälpare tar sekunder men förvandlar din produkt.',
     },
     {
       title: 'Kombinera frihandsritning med biblioteksbilder',
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Finns det en gratis provversion?',
-      answer: 'Ja. Verktyget erbjuder en gratis provversion med alla funktioner upplåsta — hela den fria arbetsytan, alla 104 tematiska bildsamlingar med mer än 3 100 illustrationer, frihandsritningsverktyget, klassrumshjälpare (namnfält och skrivövningslinjer), gråskaleexport, dekorativa ramar, anpassad bilduppladdning och alla exportformat. Ingen registrering, inget kreditkort krävs. Gratis provversion-nedladdningar innehåller en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.',
+      answer: 'Ja. Verktyget erbjuder en gratis provversion med alla funktioner upplåsta — hela den fria arbetsytan, alla 104 tematiska bildsamlingar med mer än 3 100 illustrationer, frihandsritningsverktyget, produktlinjeshjälpare (namnfält och skrivövningslinjer), gråskaleexport, dekorativa ramar, anpassad bilduppladdning och alla exportformat. Ingen registrering, inget kreditkort krävs. Gratis provversion-nedladdningar innehåller en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.',
     },
     {
       question: 'Vad gör den fria arbetsytan annorlunda från mallbaserade verktyg?',
@@ -164,11 +164,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar gråskaleexporten?',
-      answer: 'Bildbiblioteket innehåller färgglada illustrationer som du använder under design. När du är redo att exportera, växla gråskalealternativet i panelen Nedladdning för att konvertera din färgglada komposition till bläckvänliga målarsidor. Gråskalekonverteringen sker vid exporttillfället — din arbetsyta förblir färgglad medan du arbetar. Denna metod är idealisk för KDP-interiörer och klassrumsutskrift.',
+      answer: 'Bildbiblioteket innehåller färgglada illustrationer som du använder under design. När du är redo att exportera, växla gråskalealternativet i panelen Nedladdning för att konvertera din färgglada komposition till bläckvänliga målarsidor. Gråskalekonverteringen sker vid exporttillfället — din arbetsyta förblir färgglad medan du arbetar. Denna metod är idealisk för KDP-interiörer och volymutskrift.',
     },
     {
-      question: 'Vad är klassrumshjälparna?',
-      answer: 'Två ettklicksknappar lägger till klassrumsfärdiga element. Namnfältsknappen placerar ett formaterat «Namn: ____» textblock överst på sidan. Skrivövningslinjer-knappen lägger till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nertill för skrivövning. Dessa hjälpare förvandlar målarsidor till strukturerade klassrumsaktiviteter utan manuell textformatering.',
+      question: 'Vad är produktlinjeshjälparna?',
+      answer: 'Två ettklicksknappar lägger till produktlinjesfärdiga element. Namnfältsknappen placerar ett formaterat «Namn: ____» textblock överst på sidan. Skrivövningslinjer-knappen lägger till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nertill för skrivövning. Dessa hjälpare förvandlar målarsidor till strukturerade produktlinjesaktiviteter utan manuell textformatering.',
     },
     {
       question: 'Hur fungerar frihandsritningsverktyget?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Varför finns det inget facit?',
-      answer: 'Färgläggning är en kreativ aktivitet utan korrekt svar. Eleverna väljer sina egna färger och uttrycker sin egen konstnärliga vision. Det finns inget rätt eller fel sätt att färglägga en sida, så ett facit skulle vara meningslöst.',
+      answer: 'Färgläggning är en kreativ aktivitet utan korrekt svar. användarna väljer sina egna färger och uttrycker sin egen konstnärliga vision. Det finns inget rätt eller fel sätt att färglägga en sida, så ett facit skulle vara meningslöst.',
     },
     {
       question: 'Vilka bildteman och filformat finns tillgängliga?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja målarsidor skapade med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja målarsidor som digitala nedladdningar på Etsy, tryckta målarböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan försäljningskanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja målarsidor som digitala nedladdningar på Etsy, tryckta målarböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal.',
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
@@ -224,12 +224,12 @@ const content: ToolContent = {
       },
       {
         src: '/samples/swedish/coloring/coloring%20portrait%203.webp',
-        alt: 'Klassrumsfärdig målarsida med namnfält och skrivövningslinjer tillagda med ettklicks klassrumshjälpare',
-        caption: 'Klassrumsaktivitetsblad — namnfält och skrivövningslinjer förvandlar målarsidor till strukturerade inlärningsaktiviteter',
+        alt: 'produktlinjesfärdig målarsida med namnfält och skrivövningslinjer tillagda med ettklicks produktlinjeshjälpare',
+        caption: 'produktlinjesaktivitetsblad — namnfält och skrivövningslinjer förvandlar målarsidor till strukturerade inlärningsaktiviteter',
       },
       {
         src: '/samples/swedish/coloring/coloring%20landscape%201.webp',
-        alt: 'Gråskala målarsida export som visar bläckvänlig konvertering från färgglad komposition för KDP-interiörer och klassrumsutskrift',
+        alt: 'Gråskala målarsida export som visar bläckvänlig konvertering från färgglad komposition för KDP-interiörer och volymutskrift',
         caption: 'Gråskaleexport — färgglada kompositioner konverteras till bläckvänliga målarsidor för KDP-interiörer och bulkutskrift',
       },
     ],

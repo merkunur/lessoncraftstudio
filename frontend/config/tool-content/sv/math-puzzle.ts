@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mattepussel skapare för klassrummet',
+    primaryKeyword: 'mattepussel skapare online',
     secondaryKeywords: [
-      'pussel mattearbetsblad för lärare',
+      'pussel mattearbetsblad för säljare',
       'mattepussel skapare för barn',
-      'bild mattepussel för klassrummet',
-      'utskrivbara mattepussel arbetsblad för elever',
+      'bild mattepussel online',
+      'utskrivbara mattepussel arbetsblad för användare',
     ],
     lsiKeywords: [
-      'bildrutnäts mattepussel för klassrumsbruk',
+      'bildrutnäts mattepussel för produktlinjesbruk',
       'pusselstils matteaktivitet för barn',
       'konfigurerbar mattepussel arbetsblad skapare',
     ],
     titleTag: 'Mattepussel Skapare — Pusselarbetsblad för Klass',
-    metaDescription: 'Skapa pusselstils mattepussel för ditt klassrum. Bildrutnätspussel med addition och subtraktion, konfigurerbara rutnät, facit. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa pusselstils mattepussel för ditt produktlinje. Bildrutnätspussel med addition och subtraktion, konfigurerbara rutnät, facit. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Mattepussel Arbetsblad Generator',
     tagline: 'Skapa pusselstils bildpussel med matteekvationer på under 60 sekunder',
-    description: 'Förvandla matteövning till ett engagerande visuellt pussel som ser helt annorlunda ut än ett vanligt arbetsblad. Detta verktyg delar upp en vald bild i ett rutnät av celler, var och en med en matteekvation. Blandade pusselbitar med svarssiffror visas nedanför — eleverna löser varje ekvation och matchar rätt bit för att rekonstruera bilden. Välj bland tre operationslägen: Addition, Subtraktion eller Blandat (båda operationerna slumpmässigt kombinerade). Justera rutnätsstorlek från 2×2 (4 bitar, enklast) upp till 4×4 (16 bitar, svårast) för att matcha vilken färdighetsnivå som helst. Ladda upp egna PNG- eller JPEG-bilder för varumärkta, säsongsbetonade eller nischpussel, eller bläddra i det inbyggda biblioteket med mer än 3 100 bilder i 104 teman. Pusselformatet skapar en direkt igenkännbar produkt som sticker ut i marknadsplatsens sökresultat — köpare som skrollar genom rader av identiska arbetsblad stannar vid ett färgglatt bildpussel. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Förvandla matteövning till ett engagerande visuellt pussel som ser helt annorlunda ut än ett vanligt arbetsblad. Detta verktyg delar upp en vald bild i ett rutnät av celler, var och en med en matteekvation. Blandade pusselbitar med svarssiffror visas nedanför — användarna löser varje ekvation och matchar rätt bit för att rekonstruera bilden. Välj bland tre operationslägen: Addition, Subtraktion eller Blandat (båda operationerna slumpmässigt kombinerade). Justera rutnätsstorlek från 2×2 (4 bitar, enklast) upp till 4×4 (16 bitar, svårast) för att matcha vilken färdighetsnivå som helst. Ladda upp egna PNG- eller JPEG-bilder för varumärkta, säsongsbetonade eller nischpussel, eller bläddra i det inbyggda biblioteket med mer än 3 100 bilder i 104 teman. Pusselformatet skapar en direkt igenkännbar produkt som sticker ut i marknadsplatsens sökresultat — köpare som skrollar genom rader av identiska arbetsblad stannar vid ett färgglatt bildpussel. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiska mattepussel-paket',
-      description: 'Skapa uppsättningar av 15–20 pussel med tematiska bilder från biblioteket — dinosaurier, rymden, djur, fordon. Varje pussel använder en annorlunda bild med Additions- eller Subtraktionsekvationer vid en konsekvent rutnätsstorlek. Paketera efter tema och sälj på Etsy eller Teachers Pay Teachers. Pusselformatet gör att din annonseringsminiatyr direkt sticker ut från vanliga mattearbetsblad. Överväg att para varje temapaket med en matchande facithäfte och en omslagssida med temats konstverk.',
+      description: 'Skapa uppsättningar av 15–20 pussel med tematiska bilder från biblioteket — dinosaurier, rymden, djur, fordon. Varje pussel använder en annorlunda bild med Additions- eller Subtraktionsekvationer vid en konsekvent rutnätsstorlek. Paketera efter tema och sälj på Etsy eller Gumroad. Pusselformatet gör att din annonseringsminiatyr direkt sticker ut från vanliga mattearbetsblad. Överväg att para varje temapaket med en matchande facithäfte och en omslagssida med temats konstverk.',
     },
     {
       title: 'KDP pusselarbetsböcker',
@@ -73,19 +73,19 @@ const content: ToolContent = {
     },
     {
       title: 'Anpassade bildvarumärkta pussel',
-      description: 'Ladda upp egna bilder — logodesigner, handritade illustrationer eller licensierat konstverk — för att skapa varumärkta pusselarbetsblad som ingen konkurrent kan replikera. Perfekt för lärare som vill ha klassrumsmaskotbilder, hemundervisningsfamiljer som personaliserar läroplanen eller säljare som bygger ett distinkt visuellt varumärke.',
+      description: 'Ladda upp egna bilder — logodesigner, handritade illustrationer eller licensierat konstverk — för att skapa varumärkta pusselarbetsblad som ingen konkurrent kan replikera. Perfekt för säljare som vill ha produktlinjesmaskotbilder, hemundervisningsfamiljer som personaliserar produktkatalogen eller säljare som bygger ett distinkt visuellt varumärke.',
     },
     {
-      title: 'Differentierade svårighetsset',
-      description: 'Generera tre versioner av samma tematiska pussel på olika nivåer: lätt (2×2 rutnät, bara Addition), medel (3×3 rutnät, Addition eller Subtraktion) och svår (4×4 rutnät, Blandade operationer). Lärare kan ge rätt nivå till varje elev. Sälj som ett differentierat paket till en premiumpris.',
+      title: 'nivågrupperade svårighetsset',
+      description: 'Generera tre versioner av samma tematiska pussel på olika nivåer: lätt (2×2 rutnät, bara Addition), medel (3×3 rutnät, Addition eller Subtraktion) och svår (4×4 rutnät, Blandade operationer). säljare kan ge rätt nivå till varje användare. Sälj som ett nivågrupperat paket till en premiumpris.',
     },
     {
       title: 'Säsongsbetonade och högtidspussel-paket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Mattepussel»-paket med festliga bilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och TPT.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Mattepussel»-paket med festliga bilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
     },
     {
-      title: 'Klassrums uppvärmningspussel',
-      description: 'Generera snabba 2×2 eller 2×3 pussel för dagliga matteuppvärmningar. Eleverna löser 4–6 ekvationer och sätter ihop en rolig bild på under fem minuter. Skapa en uppsättning av 30 pussel (ett per skoldag) och sälj som ett «Månadens Mattepussel Uppvärmningar»-paket. Det spelliknande formatet håller eleverna engagerade från första klockan.',
+      title: 'produktlinjes uppvärmningspussel',
+      description: 'Generera snabba 2×2 eller 2×3 pussel för dagliga matteuppvärmningar. användarna löser 4–6 ekvationer och sätter ihop en rolig bild på under fem minuter. Skapa en uppsättning av 30 pussel (ett per skoldag) och sälj som ett «Månadens Mattepussel Uppvärmningar»-paket. Det spelliknande formatet håller användarna engagerade från första klockan.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers premiumpaket',
-      description: 'Ladda upp differentierade mattepussel-paket till TPT. Lärare söker ständigt efter «mattepussel» och «mattespel». Inkludera alla tre operationslägen, tre svårighetsnivåer, facit och en lärarguide i varje annons. Pusselformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Lägg till ett ensidigt «Hur man använder»-instruktionsblad.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad premiumpaket',
+      description: 'Ladda upp nivågrupperade mattepussel-paket till Gumroad. säljare söker ständigt efter «mattepussel» och «mattespel». Inkludera alla tre operationslägen, tre svårighetsnivåer, facit och en lärarguide i varje annons. Pusselformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Lägg till ett ensidigt «Hur man använder»-instruktionsblad.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad anpassade bildpussel-kit',
-      description: 'Skapa ett premium pusselkit på Gumroad som inkluderar 30+ pussel med handplockade eller anpassade uppladdade bilder. Rikta dig mot hemundervisande föräldrar som vill ha visuellt engagerande mattemetaterial. Inkludera en guide som förklarar hur man använder pussel på varje svårighetsnivå för en strukturerad läroplan.',
+      description: 'Skapa ett premium pusselkit på Gumroad som inkluderar 30+ pussel med handplockade eller anpassade uppladdade bilder. Rikta dig mot hemundervisande föräldrar som vill ha visuellt engagerande mattemetaterial. Inkludera en guide som förklarar hur man använder pussel på varje svårighetsnivå för en strukturerad produktkatalog.',
       platform: 'Gumroad',
     },
     {
@@ -124,12 +124,12 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Börja med 2×2 för unga elever',
-      description: 'Ett 2×2-rutnät har bara 4 pusselbitar och 4 ekvationer — hanterbart för förskolebarn och dagisbarn som just lär sig addition. Öka till 3×3 för första klass och 4×4 för andra klass och uppåt. Att matcha rutnätsstorlek med åldersgrupp är det enklaste sättet att skapa differentierade produkter. När du säljer på marknadsplatser, märk tydligt den rekommenderade åldern eller årskursen i din produkttitel och beskrivning.',
+      title: 'Börja med 2×2 för unga användare',
+      description: 'Ett 2×2-rutnät har bara 4 pusselbitar och 4 ekvationer — hanterbart för förskolebarn och dagisbarn som just lär sig addition. Öka till 3×3 för första klass och 4×4 för andra klass och uppåt. Att matcha rutnätsstorlek med åldersgrupp är det enklaste sättet att skapa nivågrupperade produkter. När du säljer på marknadsplatser, märk tydligt den rekommenderade åldern eller årskursen i din produkttitel och beskrivning.',
     },
     {
       title: 'Använd Blandat Läge för maximal variation',
-      description: 'Läget «Addition och Subtraktion» blandar slumpmässigt båda operationerna i ett enda pussel. Detta skapar repetitionsarbetsblad som testar båda färdigheterna samtidigt och förhindrar eleverna från att falla in i ett repetitivt mönster. Blandat läge-pussel har också högre upplevt värde i marknadsplatsannonser.',
+      description: 'Läget «Addition och Subtraktion» blandar slumpmässigt båda operationerna i ett enda pussel. Detta skapar repetitionsarbetsblad som testar båda färdigheterna samtidigt och förhindrar användarna från att falla in i ett repetitivt mönster. Blandat läge-pussel har också högre upplevt värde i marknadsplatsannonser.',
     },
     {
       title: 'Ladda upp anpassade bilder för varumärkesigenkänning',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Visa pusselformatet i miniatyrer',
-      description: 'Pusselrutnätet är visuellt unikt och direkt igenkännbart. Använd dina JPEG-nedladdningar som produktminiatyrer på Etsy och TPT. En färgglad bild uppdelad i numrerade pusselbitar fångar ögat mycket effektivare än en vanlig arbetsbladsförhandsvisning.',
+      description: 'Pusselrutnätet är visuellt unikt och direkt igenkännbart. Använd dina JPEG-nedladdningar som produktminiatyrer på Etsy och Gumroad. En färgglad bild uppdelad i numrerade pusselbitar fångar ögat mycket effektivare än en vanlig arbetsbladsförhandsvisning.',
     },
     {
       title: 'Inkludera alltid facit',
-      description: 'Generera facit innan du laddar ner. Facit visar varje pusselbit placerad i sin korrekta rutnätsposition med de lösta ekvationerna. Köpare på Etsy och TPT ger konsekvent högre betyg till produkter som inkluderar facit — det sparar lärare bedömningstid.',
+      description: 'Generera facit innan du laddar ner. Facit visar varje pusselbit placerad i sin korrekta rutnätsposition med de lösta ekvationerna. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit — det sparar säljare bedömningstid.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar mattepussel-formatet?',
-      answer: 'Verktyget delar upp en vald bild i ett rutnät av celler. Varje cell visar en matteekvation (addition, subtraktion eller båda). Under rutnätet visas blandade pusselbitar med svarssiffror. Eleverna löser varje ekvation, hittar den matchande biten och placerar den i rätt cell för att rekonstruera hela bilden.',
+      answer: 'Verktyget delar upp en vald bild i ett rutnät av celler. Varje cell visar en matteekvation (addition, subtraktion eller båda). Under rutnätet visas blandade pusselbitar med svarssiffror. användarna löser varje ekvation, hittar den matchande biten och placerar den i rätt cell för att rekonstruera hela bilden.',
     },
     {
       question: 'Vilka rutnätsstorlekar finns tillgängliga?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag använda pusslen för kommersiella ändamål?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja pussel på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för pusslen du skapar.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja pussel på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för pusslen du skapar.',
     },
     {
       question: 'Fungerar pusslen på andra språk än svenska?',
@@ -225,7 +225,7 @@ const content: ToolContent = {
       },
       {
         src: '/samples/swedish/math%20puzzle/Mattepussel%203.webp',
-        alt: 'Blandat additions- och subtraktions mattepussel med större rutnät för avancerade elever',
+        alt: 'Blandat additions- och subtraktions mattepussel med större rutnät för avancerade användare',
         caption: 'Blandade operationer — addition och subtraktion i ett pussel',
       },
     ],

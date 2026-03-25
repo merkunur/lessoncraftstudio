@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare kleurplaten maker voor Etsy-verkopers',
       'aangepaste kleurplaten generator voor Amazon KDP-uitgevers',
-      'kleurplaten verkopen op Teachers Pay Teachers',
+      'kleurplaten verkopen op Gumroad',
       'kleurplaten generator commerciële licentie',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercieel gebruik kleurplaten generator',
     ],
     titleTag: 'Kleurplaten Generator | Maak & Verkoop Printables',
-    metaDescription: 'Maak aangepaste kleurplaten om te verkopen op Etsy, KDP en TPT. Vrij canvas, 104 thema\'s, uit de vrije hand tekenen, grijstintenexport.',
+    metaDescription: 'Maak aangepaste kleurplaten om te verkopen op Etsy, KDP en Gumroad. Vrij canvas, 104 thema\'s, uit de vrije hand tekenen, grijstintenexport.',
   },
 
   hero: {
     title: 'Kleurplaten Generator voor Aangepaste Printbare Kleurwerkbladen',
-    tagline: 'Vrije-vorm canvas kleurplaten ontwerper — blader door 104 thematische beeldcollecties, voeg tekeningen uit de vrije hand toe, gebruik klaslokaal hulpmiddelen zoals naamvelden en schrijflijnen, en schakel grijstintenexport in voor inkvriendelijke kleurplaten.',
+    tagline: 'Vrije-vorm canvas kleurplaten ontwerper — blader door 104 thematische beeldcollecties, voeg tekeningen uit de vrije hand toe, gebruik winkel hulpmiddelen zoals naamvelden en schrijflijnen, en schakel grijstintenexport in voor inkvriendelijke kleurplaten.',
     description:
-      'Ontwerp professionele kleurplaten op een vrije-vorm canvas waar je afbeeldingen precies plaatst waar je ze wilt — geen rasters, geen sjablonen, pure creatieve vrijheid. Blader door de ingebouwde Afbeeldingenbibliotheek met 3.100+ kleurrijke illustraties verdeeld over 104 thematische collecties, klik op een afbeelding om deze aan je canvas toe te voegen, en schik, vergroot, verklein, roteer en laag elementen totdat je pagina er perfect uitziet. Het tekengereedschap voor uit de vrije hand laat je aangepaste illustraties rechtstreeks op het canvas schetsen met instelbare penseelkleur en -grootte. Klaslokaal hulpmiddelen voegen met één klik een naamveld voor leerlingen en schrijflijnen voor schrijfoefening toe — waardoor kleurplaten worden omgezet in kant-en-klare klasactiviteiten. Als je klaar bent, schakel je de grijstintenexport in om je kleurrijke compositie om te zetten naar inkvriendelijke kleurplaten die perfect zijn voor afdrukken. Voeg decoratieve randthema\'s toe, aangepaste tekst met omtrekeffecten, en upload je eigen afbeeldingen naast bibliotheekinhoud. De Kleurplaten Generator is niet taalgevoelig — de uitvoer is puur visueel, dus werkbladen zien er in elke taal identiek uit. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Of je nu kleurplaten bundels verkoopt op Etsy.nl, kleurboeken samenstelt voor Amazon KDP, of kleuractiviteiten voor de klas maakt voor TPT, de Kleurplaten Generator levert professionele resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Ontwerp professionele kleurplaten op een vrije-vorm canvas waar je afbeeldingen precies plaatst waar je ze wilt — geen rasters, geen sjablonen, pure creatieve vrijheid. Blader door de ingebouwde Afbeeldingenbibliotheek met 3.100+ kleurrijke illustraties verdeeld over 104 thematische collecties, klik op een afbeelding om deze aan je canvas toe te voegen, en schik, vergroot, verklein, roteer en laag elementen totdat je pagina er perfect uitziet. Het tekengereedschap voor uit de vrije hand laat je aangepaste illustraties rechtstreeks op het canvas schetsen met instelbare penseelkleur en -grootte. winkel hulpmiddelen voegen met één klik een naamveld voor gebruikers en schrijflijnen voor schrijfoefening toe — waardoor kleurplaten worden omgezet in kant-en-klare klasactiviteiten. Als je klaar bent, schakel je de grijstintenexport in om je kleurrijke compositie om te zetten naar inkvriendelijke kleurplaten die perfect zijn voor afdrukken. Voeg decoratieve randthema\'s toe, aangepaste tekst met omtrekeffecten, en upload je eigen afbeeldingen naast bibliotheekinhoud. De Kleurplaten Generator is niet taalgevoelig — de uitvoer is puur visueel, dus werkbladen zien er in elke taal identiek uit. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Of je nu kleurplaten bundels verkoopt op Etsy.nl, kleurboeken samenstelt voor Amazon KDP, of kleuractiviteiten voor de winkel maakt voor Gumroad, de Kleurplaten Generator levert professionele resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -44,14 +44,14 @@ const content: AppContent = {
           'Sleep afbeeldingen overal op het vrije-vorm canvas — geen rasteruitlijning, geen sjabloonbeperkingen. Vergroot of verklein door hoekgrepen te slepen, roteer naar elke hoek, en gebruik laagbediening om de stapelvolgorde te beheren. Vergrendel voltooide elementen om onbedoelde verplaatsingen te voorkomen terwijl je verder bewerkt. Het canvas ondersteunt tot 20 ongedaan maken/opnieuw uitvoeren stappen (Ctrl+Z / Ctrl+Y) zodat je vrij kunt experimenteren. Zoom van 25% tot 300% voor nauwkeurige plaatsing van kleine details.',
       },
       {
-        title: 'Voeg tekst, klaslokaal hulpmiddelen en tekeningen uit de vrije hand toe',
+        title: 'Voeg tekst, winkel hulpmiddelen en tekeningen uit de vrije hand toe',
         description:
-          'Gebruik het paneel Tekstgereedschappen om titels, instructies of labels toe te voegen met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Pas lettergrootte, kleur en tekstomtrekbreedte aan (0–10 met 0,5-stap nauwkeurigheid) voor maximale leesbaarheid. Klik op Klaslokaal Hulpmiddelen om met één klik een naamveld voor leerlingen ("Naam: ____") of schrijflijnen (doorlopend, stippellijn, doorlopend) toe te voegen. Schakel over naar het Tekengereedschap om illustraties uit de vrije hand rechtstreeks op het canvas te schetsen — kies een penseelkleur en pas de penseelgrootte aan van 1 tot 50 pixels.',
+          'Gebruik het paneel Tekstgereedschappen om titels, instructies of labels toe te voegen met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Pas lettergrootte, kleur en tekstomtrekbreedte aan (0–10 met 0,5-stap nauwkeurigheid) voor maximale leesbaarheid. Klik op winkel Hulpmiddelen om met één klik een naamveld voor gebruikers ("Naam: ____") of schrijflijnen (doorlopend, stippellijn, doorlopend) toe te voegen. Schakel over naar het Tekengereedschap om illustraties uit de vrije hand rechtstreeks op het canvas te schetsen — kies een penseelkleur en pas de penseelgrootte aan van 1 tot 50 pixels.',
       },
       {
         title: 'Schakel grijstinten in en download',
         description:
-          'Open het Downloadpaneel en schakel de grijstintenoptie in om je kleurrijke compositie om te zetten naar inkvriendelijke kleurplaten — perfect voor printwerkbladen en kleurboeken. Exporteer als een JPEG met hoge resolutie of printklare PDF op 300 DPI. Bestanden worden benoemd als coloring_page.jpeg of coloring_page.pdf voor eenvoudige organisatie. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden — geen nabewerking nodig.',
+          'Open het Downloadpaneel en schakel de grijstintenoptie in om je kleurrijke compositie om te zetten naar inkvriendelijke kleurplaten — perfect voor printwerkbladen en kleurboeken. Exporteer als een JPEG met hoge resolutie of printklare PDF op 300 DPI. Bestanden worden benoemd als coloring_page.jpeg of coloring_page.pdf voor eenvoudige organisatie. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden — geen nabewerking nodig.',
       },
     ],
   },
@@ -70,14 +70,14 @@ const content: AppContent = {
           'Schakel over naar Tekenmodus en schets rechtstreeks op het canvas met het penseel voor uit de vrije hand. Kies een willekeurige penseelkleur via de kleurkiezer (standaard #333333) en pas de penseelgrootte aan van 1 tot 50 pixels met de schuifregelaar. Teken aangepaste randen, voeg decoratieve krabbels toe, maak originele illustraties, of schets verbindingslijnen tussen afbeeldingen. Het tekengereedschap gebruikt Fabric.js rendering voor vloeiende, responsieve streken. In combinatie met de afbeeldingenbibliotheek laat uit de vrije hand tekenen je kleurplaten maken die samengestelde illustraties combineren met je eigen originele kunstwerk.',
       },
       {
-        title: 'Klaslokaal hulpmiddelen: naamveld en schrijflijnen',
+        title: 'winkel hulpmiddelen: naamveld en schrijflijnen',
         description:
-          'Twee één-klik klaslokaal hulpmiddelen zetten kleurplaten om in kant-en-klare klasactiviteiten. De knop Naamveld voegt een opgemaakt "Naam: ____________________" tekstblok toe bovenaan de pagina — leerlingen schrijven hun naam voordat ze beginnen. De knop Schrijflijnen voegt een groep van drie gelijkmatig verdeelde lijnen toe (doorlopend, stippellijn, doorlopend) onderaan de pagina voor schrijfoefening. Samen maken deze hulpmiddelen je kleurwerkbladen klaar voor het klaslokaal zonder handmatige tekstopmaak. TPT-verkopers kunnen deze functies benadrukken als ingebouwde differentiatie ten opzichte van generieke kleurplaten.',
+          'Twee één-klik winkel hulpmiddelen zetten kleurplaten om in kant-en-klare klasactiviteiten. De knop Naamveld voegt een opgemaakt "Naam: ____________________" tekstblok toe bovenaan de pagina — gebruikers schrijven hun naam voordat ze beginnen. De knop Schrijflijnen voegt een groep van drie gelijkmatig verdeelde lijnen toe (doorlopend, stippellijn, doorlopend) onderaan de pagina voor schrijfoefening. Samen maken deze hulpmiddelen je kleurwerkbladen klaar voor het winkel zonder handmatige tekstopmaak. Gumroad-verkopers kunnen deze functies benadrukken als ingebouwde getrapte productpakketten ten opzichte van generieke kleurplaten.',
       },
       {
         title: 'Grijstintenexport schakelaar voor inkvriendelijke kleurplaten',
         description:
-          'De Afbeeldingenbibliotheek bevat 3.100+ kleurrijke illustraties — maar kleurplaten moeten in zwart-wit worden afgedrukt zodat leerlingen hun eigen kleuren kunnen toevoegen. De grijstintenexport schakelaar lost dit op door je volledige compositie om te zetten naar grijstinten op het moment van exporteren. Ontwerp met kleurrijke afbeeldingen voor eenvoudige visuele identificatie en schakel vervolgens de schakelaar om voor inkvriendelijke kleurwerkbladen. Deze werkwijze is essentieel voor Amazon KDP-kleurboeken waarin binnenwerk in grijstinten moet zijn, en voor het printen in het klaslokaal waar kleurenink duur of niet beschikbaar is.',
+          'De Afbeeldingenbibliotheek bevat 3.100+ kleurrijke illustraties — maar kleurplaten moeten in zwart-wit worden afgedrukt zodat gebruikers hun eigen kleuren kunnen toevoegen. De grijstintenexport schakelaar lost dit op door je volledige compositie om te zetten naar grijstinten op het moment van exporteren. Ontwerp met kleurrijke afbeeldingen voor eenvoudige visuele identificatie en schakel vervolgens de schakelaar om voor inkvriendelijke kleurwerkbladen. Deze werkwijze is essentieel voor Amazon KDP-kleurboeken waarin binnenwerk in grijstinten moet zijn, en voor het printen online waar kleurenink duur of niet beschikbaar is.',
       },
       {
         title: 'Afbeeldingenbibliotheek met 104 thematische collecties en 3.100+ illustraties',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Printklare PDF- en JPEG-export op 300 DPI',
         description:
-          'Download kleurplaten als JPEG-afbeeldingen met hoge resolutie of printklare PDF-documenten op 300 DPI met een 6x vermenigvuldigingsfactor voor scherpe uitvoer. Paginaformaten omvatten Letter Staand (612×792), Letter Liggend (792×612), A4 Staand (595×842), A4 Liggend (842×595), Vierkant (1200×1200) en volledig aangepaste afmetingen. Schakel grijstinten in voor inkvriendelijke versies. Elke export is productierijp voor Etsy digitale downloads, Amazon KDP-boekbinnenwerken en TPT-productbestanden.',
+          'Download kleurplaten als JPEG-afbeeldingen met hoge resolutie of printklare PDF-documenten op 300 DPI met een 6x vermenigvuldigingsfactor voor scherpe uitvoer. Paginaformaten omvatten Letter Staand (612×792), Letter Liggend (792×612), A4 Staand (595×842), A4 Liggend (842×595), Vierkant (1200×1200) en volledig aangepaste afmetingen. Schakel grijstinten in voor inkvriendelijke versies. Elke export is productierijp voor Etsy digitale downloads, Amazon KDP-boekbinnenwerken en Gumroad-productbestanden.',
       },
       {
         title: 'Volledig canvas-bewerking met tekstgereedschappen en laagbediening',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Kleuractiviteiten werkbladen voor de klas op TPT',
+        title: 'Kleuractiviteiten werkbladen voor de winkel op Gumroad',
         description:
-          'Maak kant-en-klare kleurwerkbladen voor het klaslokaal met de ingebouwde klaslokaal hulpmiddelen. Voeg een naamveld toe zodat leerlingen hun werk identificeren, en neem schrijflijnen onderaan op voor geïntegreerde schrijfoefening. Leerkrachten die op TPT zoeken naar kleuractiviteiten waarderen werkbladen die meer bieden dan alleen kleuren — het naamveld en de schrijflijnen maken je product tot een multi-vaardigheid activiteitenblad. Maak themaspecifieke sets gekoppeld aan leerplan-eenheden: weer, seizoenen, hulpverleners, voedselgroepen en leefgebieden. De puur visuele uitvoer werkt voor elke leerling ongeacht taal of leesniveau.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Maak kant-en-klare kleurwerkbladen voor het winkel met de ingebouwde winkel hulpmiddelen. Voeg een naamveld toe zodat gebruikers hun werk identificeren, en neem schrijflijnen onderaan op voor geïntegreerde schrijfoefening. verkopers die op Gumroad zoeken naar kleuractiviteiten waarderen werkbladen die meer bieden dan alleen kleuren — het naamveld en de schrijflijnen maken je product tot een multi-vaardigheid activiteitenblad. Maak themaspecifieke sets gekoppeld aan productcatalogus-eenheden: weer, seizoenen, hulpverleners, voedselgroepen en leefgebieden. De puur visuele uitvoer werkt voor elke gebruiker ongeacht taal of leesniveau.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Aangepaste kleurplaten met tekeningen uit de vrije hand',
         description:
           'Combineer bibliotheek illustraties met je eigen tekeningen uit de vrije hand om kleurplaten te maken die geen enkele andere generator kan produceren. Schets aangepaste randen, voeg decoratieve elementen toe tussen afbeeldingen, teken verbindende scènes die meerdere afbeeldingen aan elkaar koppelen, of maak volledig originele illustraties op het canvas. De instelbare penseelgrootte (1–50px) is geschikt voor alles van fijn detailwerk tot dikke contouren. Deze hybride aanpak — samengestelde bibliotheekafbeeldingen plus originele kunst uit de vrije hand — produceert kleurplaten met oprechte creatieve waarde die premiumprijzen rechtvaardigen in marktplaatsvermeldingen.',
-        platform: 'Etsy / Amazon KDP / TPT',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Seizoens- en feestdagen kleurplaten collecties',
         description:
           'De 104 thematische beeldcollecties dekken elk seizoens- en feestdagmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, terug-naar-school, zomervakantie, wintervakantie en meer. Maak tijdgebonden kleurplaten collecties die aansluiten bij piekmomenten in het koopgedrag. Breng Halloween kleurplaten bundels uit in september, Kerstmis collecties in oktober en Valentijnsdag pakketten in januari. Seizoensproducten brengen hogere prijzen op tijdens hun piekperiode en creëren natuurlijke redenen voor herhaalaankopen van dezelfde klantenkring.',
-        platform: 'Etsy / Amazon KDP / TPT (seizoensgebonden)',
+        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
       },
     ],
   },
@@ -150,14 +150,14 @@ const content: AppContent = {
         'Schakel de knop Tekengereedschap in om van Selectiemodus naar Tekenmodus te wisselen. Kies een penseelkleur via de kleurkiezer en pas de penseelgrootte aan van 1 tot 50 pixels met de schuifregelaar. Teken rechtstreeks op het canvas met je muis of stylus — streken worden weergegeven als vloeiende Fabric.js-paden. Schakel terug naar Selectiemodus om je tekeningen te verplaatsen en bewerken als elk ander canvasobject. Combineer tekeningen uit de vrije hand met bibliotheekafbeeldingen voor hybride kleurplaten.',
     },
     {
-      question: 'Wat zijn de klaslokaal hulpmiddelen en hoe gebruik ik ze?',
+      question: 'Wat zijn de winkel hulpmiddelen en hoe gebruik ik ze?',
       answer:
-        'Twee één-klik knoppen in het paneel Klaslokaal Hulpmiddelen. De knop Naamveld voegt een opgemaakt "Naam: ____________________" tekstblok toe bovenaan de pagina. De knop Schrijflijnen voegt een groep van drie gelijkmatig verdeelde lijnen toe (doorlopend, stippellijn, doorlopend) onderaan de pagina voor schrijfoefening. Beide hulpmiddelen creëren standaard canvasobjecten die je kunt herpositioneren, vergroten/verkleinen of verwijderen als elk ander element.',
+        'Twee één-klik knoppen in het paneel winkel Hulpmiddelen. De knop Naamveld voegt een opgemaakt "Naam: ____________________" tekstblok toe bovenaan de pagina. De knop Schrijflijnen voegt een groep van drie gelijkmatig verdeelde lijnen toe (doorlopend, stippellijn, doorlopend) onderaan de pagina voor schrijfoefening. Beide hulpmiddelen creëren standaard canvasobjecten die je kunt herpositioneren, vergroten/verkleinen of verwijderen als elk ander element.',
     },
     {
       question: 'Hoe werkt de grijstintenexport schakelaar?',
       answer:
-        'De grijstinten schakelaar in het Downloadpaneel zet je volledige kleurplaat om naar grijstinten op het moment van exporteren. Je canvas blijft in kleur voor eenvoudig visueel bewerken — grijstinten worden alleen toegepast op het geëxporteerde bestand. Dit laat je ontwerpen met kleurrijke afbeeldingen voor herkenning en vervolgens inkvriendelijke uitvoer produceren voor afdrukken. Essentieel voor Amazon KDP-kleurboek binnenwerken en het printen in het klaslokaal waar kleurenink niet beschikbaar of duur is.',
+        'De grijstinten schakelaar in het Downloadpaneel zet je volledige kleurplaat om naar grijstinten op het moment van exporteren. Je canvas blijft in kleur voor eenvoudig visueel bewerken — grijstinten worden alleen toegepast op het geëxporteerde bestand. Dit laat je ontwerpen met kleurrijke afbeeldingen voor herkenning en vervolgens inkvriendelijke uitvoer produceren voor afdrukken. Essentieel voor Amazon KDP-kleurboek binnenwerken en het printen online waar kleurenink niet beschikbaar of duur is.',
     },
     {
       question: 'Hoe blader ik door de afbeeldingenbibliotheek en voeg ik afbeeldingen toe?',
@@ -177,12 +177,12 @@ const content: AppContent = {
     {
       question: 'Waarom is er geen antwoordblad voor kleurplaten?',
       answer:
-        'Kleurplaten zijn creatieve activiteiten zonder één correct antwoord — het hele doel is dat leerlingen of kleurders hun eigen kleuren toevoegen. In tegenstelling tot rekenwerkbladen of letteroefeningen is er geen goede of foute manier om een pagina in te kleuren. Dit maakt kleurplaten ideale producten met weinig voorbereiding voor verkopers, omdat je alleen de kleurplaat zelf exporteert zonder een extra antwoordbladbestand te hoeven maken.',
+        'Kleurplaten zijn creatieve activiteiten zonder één correct antwoord — het hele doel is dat gebruikers of kleurders hun eigen kleuren toevoegen. In tegenstelling tot rekenwerkbladen of letteroefeningen is er geen goede of foute manier om een pagina in te kleuren. Dit maakt kleurplaten ideale producten met weinig voorbereiding voor verkopers, omdat je alleen de kleurplaat zelf exporteert zonder een extra antwoordbladbestand te hoeven maken.',
     },
     {
       question: 'Is er een gratis proefversie?',
       answer:
-        'Ja. Je hebt toegang tot elke functie — het vrije-vorm canvas, alle tekengereedschappen, de afbeeldingenbibliotheek, klaslokaal hulpmiddelen, randthema\'s, grijstintenexport en alle downloadformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
+        'Ja. Je hebt toegang tot elke functie — het vrije-vorm canvas, alle tekengereedschappen, de afbeeldingenbibliotheek, winkel hulpmiddelen, randthema\'s, grijstintenexport en alle downloadformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
       question: 'Is de Kleurplaten Generator taalgevoelig?',
@@ -192,12 +192,12 @@ const content: AppContent = {
     {
       question: 'Mag ik kleurplaten gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je kleurplaten te verkopen als digitale downloads op Etsy, als gedrukte kleurboeken op Amazon KDP, als leermiddelen op TPT, of via elk ander verkoopkanaal. Het vrije-vorm canvas, het tekengereedschap voor uit de vrije hand en de 104 thematische beeldcollecties geven je de creatieve gereedschappen om originele, verkoopbare kleurplaten producten te maken.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je kleurplaten te verkopen als digitale downloads op Etsy, als gedrukte kleurboeken op Amazon KDP, als leermiddelen op Gumroad, of via elk ander verkoopkanaal. Het vrije-vorm canvas, het tekengereedschap voor uit de vrije hand en de 104 thematische beeldcollecties geven je de creatieve gereedschappen om originele, verkoopbare kleurplaten producten te maken.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
       answer:
-        'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restitutie aan op aankopen van commerciële licenties. Je kunt het vrije-vorm canvas, elk tekengereedschap, de volledige afbeeldingenbibliotheek, klaslokaal hulpmiddelen, randthema\'s, grijstintenexport en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',
+        'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restitutie aan op aankopen van commerciële licenties. Je kunt het vrije-vorm canvas, elk tekengereedschap, de volledige afbeeldingenbibliotheek, winkel hulpmiddelen, randthema\'s, grijstintenexport en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',
     },
   ],
 
@@ -262,7 +262,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/dutch/coloring/coloring%20portrait%201.webp',
-      primaryAlt: 'Aangepaste kleurplaat met thematische afbeeldingen op vrije-vorm canvas met decoratieve rand en naamveld voor leerlingen',
+      primaryAlt: 'Aangepaste kleurplaat met thematische afbeeldingen op vrije-vorm canvas met decoratieve rand en naamveld voor gebruikers',
     },
     sampleGallery: [
       {
@@ -272,8 +272,8 @@ const content: AppContent = {
       },
       {
         src: '/samples/dutch/coloring/coloring%20portrait%203.webp',
-        alt: 'Kleurplaat met schrijflijnen en naamveld voor leerlingen voor gebruik in het klaslokaal',
-        caption: 'Klaar voor het klaslokaal — kleurplaat met naamveld en schrijflijnen voor schrijfoefening',
+        alt: 'Kleurplaat met schrijflijnen en naamveld voor gebruikers voor gebruik online',
+        caption: 'Klaar voor het winkel — kleurplaat met naamveld en schrijflijnen voor schrijfoefening',
       },
       {
         src: '/samples/dutch/coloring/coloring%20landscape%201.webp',

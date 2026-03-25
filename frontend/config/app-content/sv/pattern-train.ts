@@ -7,7 +7,7 @@ const content: AppContent = {
       'mönstersekvens arbetsblad sälja på Etsy',
       'mönstertåg arbetsblad generator för Amazon KDP',
       'mönsterigenkänning arbetsblad kommersiell licens',
-      'utskrivbara mönsterövningar skapa för TPT',
+      'utskrivbara mönsterövningar skapa för Gumroad',
     ],
     lsiKeywords: [
       'digitala mönsterövning produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Mönstertåg Generator | Skapa Sekvensarbetsblad',
     metaDescription:
-      'Skapa mönstertåg-arbetsblad att sälja på Etsy, KDP och TPT. Fem mönstertyper, 11 tematiska tågvagnar, justerbart antal ledtrådar. Gratis provversion med vattenstämpel.',
+      'Skapa mönstertåg-arbetsblad att sälja på Etsy, KDP och Gumroad. Fem mönstertyper, 11 tematiska tågvagnar, justerbart antal ledtrådar. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Mönstertåg Arbetsblad Generator för Upprepande Sekvensövningar',
     tagline: 'Fem mönstertyper — AB, AAB, ABB, ABC, AABB — visade över 11 tematiska tågvagnar med justerbart antal ledtrådar från 4 till 10 för exakt svårighetskontroll.',
     description:
-      'Designa professionella mönsterigenkänningsarbetsblad där eleverna identifierar och kompletterar upprepande sekvenser visade som bilder på ett tematiskt tåg med 11 vagnar. Fem distinkta mönstertyper täcker varje nivå av sekvenskomplexitet: AB alternerar två element, AAB grupperar två av ett följt av ett av ett annat, ABB vänder den grupperingen, ABC roterar tre olika element, och AABB parar två av varje innan mönstret upprepas. Tåglayouten arrangerar 11 vagnar över tre rader (5 + 3 + 3), med varje vagn som håller en bild från det upprepande mönstret. En vagn lämnas tom — eleverna identifierar mönstret och bestämmer det saknade elementet. Justera antalet ledtrådar från 4 till 10 för att kontrollera svårigheten: att visa 10 ledtrådar gör mönstret uppenbart, medan att visa bara 4 kräver genuint mönsterresonemang eftersom de första 3 vagnarna alltid visas. Innehåll hämtas från det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman. En separat facitflik visar alla 11 vagnar fyllda med den korrekta mönstersekvensen för omedelbar verifiering. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med hög DPI i Letter-, A4-, Kvadrat- eller anpassat format. Varje arbetsblad är helt visuellt med enbart bilder på tågvagnarna och noll text på resultatet, vilket gör produkterna universellt säljbara utan översättning. Oavsett om du skapar mönsterigenkänningspaket på Etsy, sammanställer tidiga inlärningsarbetsböcker för Amazon KDP eller bygger differentierade mattestationer för TPT — Mönstertåg Arbetsblad Generatorn levererar unika tågformatprodukter på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Designa professionella mönsterigenkänningsarbetsblad där användarna identifierar och kompletterar upprepande sekvenser visade som bilder på ett tematiskt tåg med 11 vagnar. Fem distinkta mönstertyper täcker varje nivå av sekvenskomplexitet: AB alternerar två element, AAB grupperar två av ett följt av ett av ett annat, ABB vänder den grupperingen, ABC roterar tre olika element, och AABB parar två av varje innan mönstret upprepas. Tåglayouten arrangerar 11 vagnar över tre rader (5 + 3 + 3), med varje vagn som håller en bild från det upprepande mönstret. En vagn lämnas tom — användarna identifierar mönstret och bestämmer det saknade elementet. Justera antalet ledtrådar från 4 till 10 för att kontrollera svårigheten: att visa 10 ledtrådar gör mönstret uppenbart, medan att visa bara 4 kräver genuint mönsterresonemang eftersom de första 3 vagnarna alltid visas. Innehåll hämtas från det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman. En separat facitflik visar alla 11 vagnar fyllda med den korrekta mönstersekvensen för omedelbar verifiering. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med hög DPI i Letter-, A4-, Kvadrat- eller anpassat format. Varje arbetsblad är helt visuellt med enbart bilder på tågvagnarna och noll text på resultatet, vilket gör produkterna universellt säljbara utan översättning. Oavsett om du skapar mönsterigenkänningspaket på Etsy, sammanställer tidiga inlärningsarbetsböcker för Amazon KDP eller bygger nivågrupperade mattestationer för Gumroad — Mönstertåg Arbetsblad Generatorn levererar unika tågformatprodukter på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Konfigurera antal ledtrådar och namn/datum-fält',
         description:
-          'Ställ in antalet synliga ledtrådar från 4 till 10 för att kontrollera arbetsbladssvårigheten. De första 3 vagnarna visas alltid, och den saknade vagnen placeras dynamiskt bland de återstående positionerna. Att visa 10 ledtrådar lämnar bara 1 tom bland 10 synliga element — mönstret är mycket uppenbart, idealiskt för nybörjare. Att visa bara 4 ledtrådar tvingar eleverna att identifiera mönstret från minimal information — en genuin resonemangsutmaning. Växla valfria namn- och datumklippfält för elevidentifiering på utskrivna arbetsblad.',
+          'Ställ in antalet synliga ledtrådar från 4 till 10 för att kontrollera arbetsbladssvårigheten. De första 3 vagnarna visas alltid, och den saknade vagnen placeras dynamiskt bland de återstående positionerna. Att visa 10 ledtrådar lämnar bara 1 tom bland 10 synliga element — mönstret är mycket uppenbart, idealiskt för nybörjare. Att visa bara 4 ledtrådar tvingar användarna att identifiera mönstret från minimal information — en genuin resonemangsutmaning. Växla valfria namn- och datumklippfält för identifiering på utskrivna arbetsblad.',
       },
       {
         title: 'Välj bilder och lägg till dekorationer',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Granska facit och ladda ner',
         description:
-          'Gå till fliken Facit för att se det kompletterade tåget med alla 11 vagnar ifyllda — den saknade positionen visar nu det korrekta mönsterelementet. Både arbetsbladet och facit kan redigeras oberoende på separata arbetsytor. Aktivera gråskaleexport för bläckvänliga versioner. Ladda sedan ner var och en som högupplöst JPEG eller tryckfärdig PDF. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler — arbetsbladet och facit laddas ner som separata filer för ett komplett produktpaket.',
+          'Gå till fliken Facit för att se det kompletterade tåget med alla 11 vagnar ifyllda — den saknade positionen visar nu det korrekta mönsterelementet. Både arbetsbladet och facit kan redigeras oberoende på separata arbetsytor. Aktivera gråskaleexport för bläckvänliga versioner. Ladda sedan ner var och en som högupplöst JPEG eller tryckfärdig PDF. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler — arbetsbladet och facit laddas ner som separata filer för ett komplett produktpaket.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Tågvagnsformat med 11 tematiska vagnar',
         description:
-          'Mönster visas över ett tematiskt tåg med 11 vagnar arrangerade i tre rader (5 överst, 3 mitten-vänster, 3 mitten-höger). Varje vagn håller en bild från den upprepande sekvensen, vilket skapar ett visuellt engagerande format som skiljer sig från vanliga rutnätsbaserade mönsterarbetsblad. Tåglayouten ger produkterna ett distinkt utseende i marknadsplatsannonser — köpare som bläddrar på Etsy eller TPT ser omedelbart något annorlunda från de typiska rad-och-kolumn-mönsterövningarna. Den tematiska tågkonsten tillför produktionsvärde som motiverar premiumprissättning.',
+          'Mönster visas över ett tematiskt tåg med 11 vagnar arrangerade i tre rader (5 överst, 3 mitten-vänster, 3 mitten-höger). Varje vagn håller en bild från den upprepande sekvensen, vilket skapar ett visuellt engagerande format som skiljer sig från vanliga rutnätsbaserade mönsterarbetsblad. Tåglayouten ger produkterna ett distinkt utseende i marknadsplatsannonser — köpare som bläddrar på Etsy eller Gumroad ser omedelbart något annorlunda från de typiska rad-och-kolumn-mönsterövningarna. Den tematiska tågkonsten tillför produktionsvärde som motiverar premiumprissättning.',
       },
       {
         title: 'Fem upprepande mönstertyper för progressiv svårighet',
         description:
-          'Fem mönstertyper täcker hela spektrumet av upprepande sekvenskomplexitet. AB alternerar två element i det enklast möjliga mönstret. AAB och ABB introducerar asymmetriska grupperingar där ett element visas två gånger före eller efter det andra. ABC roterar tre olika element, vilket kräver att eleverna håller reda på en längre upprepande enhet. AABB parar två av varje element i en utökad cykel. Denna progression skapar en naturlig svårighetsstege från förskolenivå-alternering till avancerade flerelement-sekvenser — vilket ger säljare en inbyggd differentieringsaxel för nivåindelade produktpaket.',
+          'Fem mönstertyper täcker hela spektrumet av upprepande sekvenskomplexitet. AB alternerar två element i det enklast möjliga mönstret. AAB och ABB introducerar asymmetriska grupperingar där ett element visas två gånger före eller efter det andra. ABC roterar tre olika element, vilket kräver att användarna håller reda på en längre upprepande enhet. AABB parar två av varje element i en utökad cykel. Denna progression skapar en naturlig svårighetsstege från förskolenivå-alternering till avancerade flerelement-sekvenser — vilket ger säljare en inbyggd differentieringsaxel för nivåindelade produktpaket.',
       },
       {
         title: 'Justerbart antal ledtrådar från 4 till 10 för svårighetskontroll',
         description:
-          'Ledtrådsreglaget styr hur många av de 11 vagnspositionerna som visar bilder kontra den enda tomma positionen. De första 3 vagnarna visas alltid och etablerar mönstrets grund. Att ställa in 10 ledtrådar lämnar bara 1 tom bland 10 synliga element — mönstret är mycket uppenbart. Att ställa in 4 ledtrådar visar minimal information, vilket kräver genuint resonemang för att identifiera sekvensen från begränsad data. Denna enda inställning skapar ett brett svårighetsspann från varje mönstertyp, och multiplicerar effektivt din produktvariation: ett AB-mönster med 10 ledtrådar passar nybörjare, medan ett ABC-mönster med 4 ledtrådar utmanar avancerade elever.',
+          'Ledtrådsreglaget styr hur många av de 11 vagnspositionerna som visar bilder kontra den enda tomma positionen. De första 3 vagnarna visas alltid och etablerar mönstrets grund. Att ställa in 10 ledtrådar lämnar bara 1 tom bland 10 synliga element — mönstret är mycket uppenbart. Att ställa in 4 ledtrådar visar minimal information, vilket kräver genuint resonemang för att identifiera sekvensen från begränsad data. Denna enda inställning skapar ett brett svårighetsspann från varje mönstertyp, och multiplicerar effektivt din produktvariation: ett AB-mönster med 10 ledtrådar passar nybörjare, medan ett ABC-mönster med 4 ledtrådar utmanar avancerade användare.',
       },
       {
         title: 'Dynamisk saknad position med intelligent placering',
         description:
-          'Den tomma vagnspositionen väljs dynamiskt från position 3 till 10 baserat på det konfigurerade antalet ledtrådar, vilket säkerställer att det saknade elementet alltid faller inom mönstrets upprepande sektion snarare än vid den uppenbara starten. De första 3 positionerna fylls alltid för att etablera mönstret visuellt innan utmaningen presenteras. Denna intelligenta placering skapar rättvisa, lösbara pussel varje gång — eleverna har tillräckligt med kontext för att identifiera mönstret innan de stöter på den tomma vagnen. Den dynamiska positioneringen innebär också att två arbetsblad med samma mönstertyp kan ha olika saknade positioner, vilket lägger till variation i produktpaket.',
+          'Den tomma vagnspositionen väljs dynamiskt från position 3 till 10 baserat på det konfigurerade antalet ledtrådar, vilket säkerställer att det saknade elementet alltid faller inom mönstrets upprepande sektion snarare än vid den uppenbara starten. De första 3 positionerna fylls alltid för att etablera mönstret visuellt innan utmaningen presenteras. Denna intelligenta placering skapar rättvisa, lösbara pussel varje gång — användarna har tillräckligt med kontext för att identifiera mönstret innan de stöter på den tomma vagnen. Den dynamiska positioneringen innebär också att två arbetsblad med samma mönstertyp kan ha olika saknade positioner, vilket lägger till variation i produktpaket.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Dubbelt arbetsytesystem med separat facit',
         description:
-          'Arbetsbladet och facit lever på separata, oberoende redigerbara arbetsytor som nås via flikar. Arbetsbladet visar tåget med en tom vagn; facit visar alla 11 vagnar fyllda med den korrekta mönstersekvensen. Varje arbetsyta stöder full redigering — lägg till text, justera layout, flytta element — så du kan anpassa både elevarbetsbladet och lärarfacit oberoende av varandra. Båda laddas ner som separata filer, vilket ger köpare ett komplett produktpaket med verifierade lösningar.',
+          'Arbetsbladet och facit lever på separata, oberoende redigerbara arbetsytor som nås via flikar. Arbetsbladet visar tåget med en tom vagn; facit visar alla 11 vagnar fyllda med den korrekta mönstersekvensen. Varje arbetsyta stöder full redigering — lägg till text, justera layout, flytta element — så du kan anpassa både arbetsbladet och lärarfacit oberoende av varandra. Båda laddas ner som separata filer, vilket ger köpare ett komplett produktpaket med verifierade lösningar.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med hög DPI',
         description:
-          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med en 6x-multiplikator för skarpa, detaljerade resultat. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för klassrumsutskrift eller svartvita arbetsböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler — ingen efterbearbetning behövs.',
+          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med en 6x-multiplikator för skarpa, detaljerade resultat. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för volymutskrift eller svartvita arbetsböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler — ingen efterbearbetning behövs.',
       },
       {
         title: 'Full arbetsyteredigering med text- och dekorationsverktyg',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade matte- och visuella stationer för TPT',
+        title: 'nivågrupperade matte- och visuella stationer för Gumroad',
         description:
-          'Bygg nivåindelade mönsterigenkänningsövningsset med mönsterkomplexitet som differentieringsaxel: Nivå 1 (AB-mönster, 8–10 ledtrådar), Nivå 2 (AAB/ABB-mönster, 6–8 ledtrådar), Nivå 3 (ABC-mönster, 5–6 ledtrådar) och Nivå 4 (AABB-mönster, 4–5 ledtrådar). Varje nivå riktar sig mot en annorlunda kognitiv utmaning — från att känna igen enkel alternering till att identifiera komplexa flerelement-sekvenser från begränsad information. Tågvagnsformatet skapar ett engagerande visuellt tema som fungerar som klassrumsstationsaktivitet. Paketera varje nivå med tematiska övningar och separata facit för lärares bekvämlighet.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg nivåindelade mönsterigenkänningsövningsset med mönsterkomplexitet som differentieringsaxel: Nivå 1 (AB-mönster, 8–10 ledtrådar), Nivå 2 (AAB/ABB-mönster, 6–8 ledtrådar), Nivå 3 (ABC-mönster, 5–6 ledtrådar) och Nivå 4 (AABB-mönster, 4–5 ledtrådar). Varje nivå riktar sig mot en annorlunda kognitiv utmaning — från att känna igen enkel alternering till att identifiera komplexa flerelement-sekvenser från begränsad information. Tågvagnsformatet skapar ett engagerande visuellt tema som fungerar som produktlinjesstationsaktivitet. Paketera varje nivå med tematiska övningar och separata facit för säljares bekvämlighet.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Flerspråkiga visuella arbetsblad för globala marknader',
         description:
           'Eftersom mönstertåg-arbetsblad enbart innehåller bilder på tågvagnar med noll text på resultatet fungerar samma produkt på varje språk utan modifiering. Skapa en uppsättning mönstertåg-övningar och sälj den världen över — ingen översättning behövs, inga separata språkversioner att underhålla. Att byta innehållsspråk påverkar bara bildbiblioteksetiketterna i generatorn, inte det utskrivna arbetsbladet. Lista identiska produkter på Etsy-butiker som riktar sig mot olika länder, eller publicera samma KDP-interiör på alla internationella Amazon-marknadsplatser. Ett enda arbetsflöde producerar en universellt säljbar produkt.',
-        platform: 'Etsy / Amazon KDP / TPT (globalt)',
+        platform: 'Etsy / Amazon KDP / Gumroad (globalt)',
       },
       {
-        title: 'Klassrums- och privatundervisning i mönsterkoncept',
+        title: 'produktlinjes- och privatundervisning i mönsterkoncept',
         description:
-          'Ladda upp egna bilder för att skapa mönstertåg-arbetsblad för valfritt ämne eller enhet — använd växtväxtstadier för en NO-lektion, historiska artefaktbilder för SO eller musiknotsymboler för en musiklektion. De fem mönstertyperna låter dig matcha övningen till lärandemålet: AB för introduktion, ABC och AABB för bedömning. Justera antalet ledtrådar för att matcha varje elevs förmågenivå — fler ledtrådar för elever som behöver stöd, färre ledtrådar för avancerade elever. Skriv ut anpassade set på minuter för smågrupper eller hela klasser. Den separata facitfliken sparar rättningstid, och det visuella tågformatet engagerar elever som tycker rutnätsbaserade arbetsblad är monotona.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Ladda upp egna bilder för att skapa mönstertåg-arbetsblad för valfritt ämne eller enhet — använd växtväxtstadier för en NO-lektion, historiska artefaktbilder för SO eller musiknotsymboler för en musiklektion. De fem mönstertyperna låter dig matcha övningen till lärandemålet: AB för introduktion, ABC och AABB för bedömning. Justera antalet ledtrådar för att matcha varje användares förmågenivå — fler ledtrådar för användare som behöver stöd, färre ledtrådar för avancerade användare. Skriv ut anpassade set på minuter för smågrupper eller hela klasser. Den separata facitfliken sparar upplevt värde, och det visuella tågformatet engagerar användare som tycker rutnätsbaserade arbetsblad är monotona.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Vilka är de fem mönstertyperna och hur skiljer de sig?',
       answer:
-        'AB alternerar två element (A-B-A-B) för det enklaste upprepande mönstret. AAB grupperar två av ett element sedan ett av ett annat (A-A-B-A-A-B). ABB vänder den grupperingen (A-B-B-A-B-B). ABC roterar tre olika element (A-B-C-A-B-C), vilket kräver att eleverna håller reda på en längre upprepande enhet. AABB parar två av varje element (A-A-B-B-A-A-B-B) i en utökad cykel. Progressionen från AB till AABB skapar en naturlig svårighetsstege från enkel tvåelements-alternering till komplexa flerelement-sekvenser.',
+        'AB alternerar två element (A-B-A-B) för det enklaste upprepande mönstret. AAB grupperar två av ett element sedan ett av ett annat (A-A-B-A-A-B). ABB vänder den grupperingen (A-B-B-A-B-B). ABC roterar tre olika element (A-B-C-A-B-C), vilket kräver att användarna håller reda på en längre upprepande enhet. AABB parar två av varje element (A-A-B-B-A-A-B-B) i en utökad cykel. Progressionen från AB till AABB skapar en naturlig svårighetsstege från enkel tvåelements-alternering till komplexa flerelement-sekvenser.',
     },
     {
       question: 'Hur styr antalet ledtrådar svårigheten?',
       answer:
-        'Antalet ledtrådar bestämmer hur många av de 11 tågvagnarna som visar bilder. De första 3 vagnarna visas alltid för att etablera mönstret. Med 10 ledtrådar är bara 1 vagn tom bland 10 fyllda — mönstret är mycket uppenbart. Med 4 ledtrådar ser eleverna minimal information och måste resonera noggrant för att identifiera sekvensen. Denna enda inställning förvandlar varje mönstertyp från en enkel övning till en genuin resonemangsutmaning, och multiplicerar effektivt produktvariationen från varje mönstertyp.',
+        'Antalet ledtrådar bestämmer hur många av de 11 tågvagnarna som visar bilder. De första 3 vagnarna visas alltid för att etablera mönstret. Med 10 ledtrådar är bara 1 vagn tom bland 10 fyllda — mönstret är mycket uppenbart. Med 4 ledtrådar ser användarna minimal information och måste resonera noggrant för att identifiera sekvensen. Denna enda inställning förvandlar varje mönstertyp från en enkel övning till en genuin resonemangsutmaning, och multiplicerar effektivt produktvariationen från varje mönstertyp.',
     },
     {
       question: 'Hur är de 11 tågvagnarna arrangerade på sidan?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hur bestäms den saknade vagnens position?',
       answer:
-        'Den tomma vagnen placeras dynamiskt bland positionerna 3 till 10 baserat på det konfigurerade antalet ledtrådar. De första 3 positionerna fylls alltid så att eleverna ser tillräckligt av mönstret innan de stöter på den tomma vagnen. Denna intelligenta placering säkerställer att varje pussel är rättvist och lösbart. Två arbetsblad med samma mönstertyp kan ha olika saknade positioner, vilket lägger till naturlig variation i produktpaket.',
+        'Den tomma vagnen placeras dynamiskt bland positionerna 3 till 10 baserat på det konfigurerade antalet ledtrådar. De första 3 positionerna fylls alltid så att användarna ser tillräckligt av mönstret innan de stöter på den tomma vagnen. Denna intelligenta placering säkerställer att varje pussel är rättvist och lösbart. Två arbetsblad med samma mönstertyp kan ha olika saknade positioner, vilket lägger till naturlig variation i produktpaket.',
     },
     {
       question: 'Hur väljer jag bilder till tågvagnarna?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina mönstertåg-arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på TPT eller genom valfri annan försäljningskanal. De fem mönstertyperna, det justerbara antalet ledtrådar och det unika tågvagnsformatet ger dig stark differentiering och global säljbarhet i marknadsplatskategorier.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina mönstertåg-arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De fem mönstertyperna, det justerbara antalet ledtrådar och det unika tågvagnsformatet ger dig stark differentiering och global säljbarhet i marknadsplatskategorier.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'andra-klass-utskriftsbara-ideer',
-      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande Elever',
+      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande användare',
     },
     {
       pageType: 'start',
@@ -258,13 +258,13 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/swedish/pattern%20train/M%C3%B6nstert%E2%80%8B%C3%A5get%201.webp',
-      primaryAlt: 'Mönstertåg-arbetsblad med tematiska tågvagnar som visar AB upprepande mönster med en saknad vagn för eleverna att komplettera',
+      primaryAlt: 'Mönstertåg-arbetsblad med tematiska tågvagnar som visar AB upprepande mönster med en saknad vagn för användarna att komplettera',
     },
     sampleGallery: [
       {
         src: '/samples/swedish/pattern%20train/M%C3%B6nstert%E2%80%8B%C3%A5get%201.webp',
         alt: 'Mönstertåg-arbetsblad med AB alternerande mönster och djurbilder över 11 tematiska tågvagnar',
-        caption: 'AB-mönster med djurtema — eleverna identifierar den alternerande sekvensen och fyller i den saknade vagnen',
+        caption: 'AB-mönster med djurtema — användarna identifierar den alternerande sekvensen och fyller i den saknade vagnen',
       },
       {
         src: '/samples/swedish/pattern%20train/M%C3%B6nstert%E2%80%8B%C3%A5get%203.webp',

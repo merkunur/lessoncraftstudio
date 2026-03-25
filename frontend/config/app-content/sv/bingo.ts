@@ -7,7 +7,7 @@ const content: AppContent = {
       'utskrivbar bingokort skapare för Etsy-säljare',
       'bildbingo arbetsblad generator för KDP-publicerare',
       'bingokort skapare kommersiell licens',
-      'sälja utskrivbara bingokort på Teachers Pay Teachers',
+      'sälja utskrivbara bingokort på Gumroad',
     ],
     lsiKeywords: [
       'digitala bingo utskriftsbara produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Bingokort Generator | Skapa och Sälj Bingo Utskriftsbara',
     metaDescription:
-      'Skapa bildbingokort att sälja på Etsy, KDP och TPT. Batch-generera unika kort, ZIP-export, uppropslista, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa bildbingokort att sälja på Etsy, KDP och Gumroad. Batch-generera unika kort, ZIP-export, uppropslista, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Bildbingo Kort Generator för Utskrivbara Bingoaktiviteter',
     tagline: 'Generera 1–10 unika bingokort per batch med konfigurerbara rutnät från 3×3 till 5×5 — bild- eller ordfyllning för både kortceller och cirkulära brickor, en dedikerad uppropslista för spelledaren, ZIP batch-export av alla kort och 104 tematiska bildsamlingar.',
     description:
-      'Bygg professionella bildbingokort där spelare markerar matchande bilder eller ord på sina unika kortrutnät. Konfigurera rader från 3 till 5 och kolumner från 3 till 5 oberoende, vilket skapar rutnät från 3×3 (9 celler) upp till 5×5 (25 celler) med standard 4×4 (16 celler). Välj bildfyllning eller ordfyllning oberoende för både kortceller och cirkulära brickor — brickor har streckade kanter och blandad Fisher-Yates-ordning för autentiskt bingospel. Generera 1–10 unika bingokort per batch, vart och ett med ett annorlunda slumpmässigt bildurval från poolen. En dedikerad uppropslista på en separat flik visar ett dynamiskt ordrutnät för spelledaren, med kolumner beräknade baserat på längsta ordlängden och enhetlig teckenstorlek. Handplocka specifika bilder för anpassat uppropsurval eller låt appen välja från ditt tema. Bildbingo Kort Generatorn är språkkänslig: ordfyllning använder lokaliserade bildnamn från Bildbiblioteket, så att byta språk ändrar orden på kort, brickor och uppropslistan. Det innebär att samma bildtema kan generera unika bingokort på 11 olika språk — varje språkversion har lokaliserade ord, vilket gör varje version till en separat produkt för en ny marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserat ordinnehåll. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera anpassad text med sju typsnittsalternativ, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Batch-exportera alla genererade kort som individuella JPEG-bilder i en enda ZIP-fil. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer bingokort-paket på Etsy, sammanställer bingoaktivitetsböcker för Amazon KDP eller skapar klassrumsbingoset för TPT — denna generator levererar produktionsfärdiga bingokort på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella bildbingokort där spelare markerar matchande bilder eller ord på sina unika kortrutnät. Konfigurera rader från 3 till 5 och kolumner från 3 till 5 oberoende, vilket skapar rutnät från 3×3 (9 celler) upp till 5×5 (25 celler) med standard 4×4 (16 celler). Välj bildfyllning eller ordfyllning oberoende för både kortceller och cirkulära brickor — brickor har streckade kanter och blandad Fisher-Yates-ordning för autentiskt bingospel. Generera 1–10 unika bingokort per batch, vart och ett med ett annorlunda slumpmässigt bildurval från poolen. En dedikerad uppropslista på en separat flik visar ett dynamiskt ordrutnät för spelledaren, med kolumner beräknade baserat på längsta ordlängden och enhetlig teckenstorlek. Handplocka specifika bilder för anpassat uppropsurval eller låt appen välja från ditt tema. Bildbingo Kort Generatorn är språkkänslig: ordfyllning använder lokaliserade bildnamn från Bildbiblioteket, så att byta språk ändrar orden på kort, brickor och uppropslistan. Det innebär att samma bildtema kan generera unika bingokort på 11 olika språk — varje språkversion har lokaliserade ord, vilket gör varje version till en separat produkt för en ny marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserat ordinnehåll. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera anpassad text med sju typsnittsalternativ, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Batch-exportera alla genererade kort som individuella JPEG-bilder i en enda ZIP-fil. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer bingokort-paket på Etsy, sammanställer bingoaktivitetsböcker för Amazon KDP eller skapar produktlinjesbingoset för Gumroad — denna generator levererar produktionsfärdiga bingokort på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Ladda ner kort och uppropslista',
         description:
-          'Växla mellan flikarna Kort + Brickor och Upprop för att förhandsgranska båda utmatningarna. Uppropslistan visar ett dynamiskt ordrutnät med enhetlig teckenstorlek och kolumner beräknade baserat på längsta ordlängden. Ladda ner enskilda kort som JPEG eller PDF med de dedikerade knapparna, eller batch-exportera alla genererade kort som individuella JPEG-bilder i en enda bingo_cards.zip-fil. Växla gråskala för bläckvänliga versioner. Varje export renderas med 300 DPI och är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla mellan flikarna Kort + Brickor och Upprop för att förhandsgranska båda utmatningarna. Uppropslistan visar ett dynamiskt ordrutnät med enhetlig teckenstorlek och kolumner beräknade baserat på längsta ordlängden. Ladda ner enskilda kort som JPEG eller PDF med de dedikerade knapparna, eller batch-exportera alla genererade kort som individuella JPEG-bilder i en enda bingo_cards.zip-fil. Växla gråskala för bläckvänliga versioner. Varje export renderas med 300 DPI och är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
         description:
-          'Bläddra bland 104 tematiska bildsamlingar som täcker djur, mat, fordon, natur, yrken, högtider, sport, årstider och dussintals fler. Varje tema ger en koordinerad uppsättning färgglada illustrationer som fungerar tillsammans i bingoaktiviteter — tematiska bingokort är bland de mest populära utskrivbara produkterna på Etsy och TPT. Filtrera efter tema med dropdownen eller sök efter specifika bilder med nyckelord. Kommersiellt Paket inkluderar 10 färgglada teman för att komma igång; Full Access låser upp alla 104 teman för maximal kreativ variation över alla rutnätsstorlekar och fyllningslägen.',
+          'Bläddra bland 104 tematiska bildsamlingar som täcker djur, mat, fordon, natur, yrken, högtider, sport, årstider och dussintals fler. Varje tema ger en koordinerad uppsättning färgglada illustrationer som fungerar tillsammans i bingoaktiviteter — tematiska bingokort är bland de mest populära utskrivbara produkterna på Etsy och Gumroad. Filtrera efter tema med dropdownen eller sök efter specifika bilder med nyckelord. Kommersiellt Paket inkluderar 10 färgglada teman för att komma igång; Full Access låser upp alla 104 teman för maximal kreativ variation över alla rutnätsstorlekar och fyllningslägen.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner bingokort och uppropslistor som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator, JPEG-kvalitet 1,0). Fyra dedikerade knappar exporterar Arbetsblad-JPEG, Upprop-JPEG, Arbetsblad-PDF och Upprop-PDF separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. PDF-orientering detekteras automatiskt. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta spelset och klassrumsutdelningar.',
+          'Ladda ner bingokort och uppropslistor som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator, JPEG-kvalitet 1,0). Fyra dedikerade knappar exporterar Arbetsblad-JPEG, Upprop-JPEG, Arbetsblad-PDF och Upprop-PDF separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. PDF-orientering detekteras automatiskt. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta spelset och produktlinjesutdelningar.',
       },
       {
         title: 'Full arbetsyteredigering med textverktyg, justering och lagerkontroller',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrumsbingo-aktiviteter för TPT',
+        title: 'produktlinjesbingo-aktiviteter för Gumroad',
         description:
-          'Bygg spelfärdiga bingoset med unika spelarkort och spelledarblad. Lärare som söker på TPT efter bingoaktiviteter värdesätter produkter som anländer klassrumsfärdiga — skriv ut korten, dela ut dem och börja spela omedelbart. Skapa läroplansanpassade set: vokabulärbingo med ordfyllningsläge, bildigenkänningsbingo med bildfyllning och blandat läge-bingo för differentierad undervisning. Inkludera 10 unika kort per set (tillräckligt för smågrupper) med en uppropslista. Ordfyllningsläget med lokaliserade bildnamn förvandlar bingo till en vokabulärrepetitionsaktivitet.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg spelfärdiga bingoset med unika spelarkort och spelledarblad. köpare som söker på Gumroad efter bingoaktiviteter värdesätter produkter som anländer produktlinjesfärdiga — skriv ut korten, dela ut dem och börja spela omedelbart. Skapa produktkatalogsanpassade set: vokabulärbingo med ordfyllningsläge, bildigenkänningsbingo med bildfyllning och blandat läge-bingo för nivågrupperade produktpaket. Inkludera 10 unika kort per set (tillräckligt för smågrupper) med en uppropslista. Ordfyllningsläget med lokaliserade bildnamn förvandlar bingo till en vokabulärrepetitionsaktivitet.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Säsongsbetonade och högtidsbingokort-samlingar',
         description:
-          'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Bingo är ett naturligt socialt spel som toppar under högtider när familjer och klassrum söker gruppaktiviteter. Släpp halloweenbingoset i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Varje säsongsset inkluderar flera rutnätsstorlekar, både bild- och ordfyllningsvarianter och uppropslistor. Säsongsbetonade bingoprodukter motiverar premiumpriser under sina toppfönster.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+          'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Bingo är ett naturligt socialt spel som toppar under högtider när familjer och produktlinje söker gruppaktiviteter. Släpp halloweenbingoset i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Varje säsongsset inkluderar flera rutnätsstorlekar, både bild- och ordfyllningsvarianter och uppropslistor. Säsongsbetonade bingoprodukter motiverar premiumpriser under sina toppfönster.',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
       {
         title: 'Eventbingokort för festspel och speciella tillfällen',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: 'Vad är anpassat uppropsurval?',
       answer:
-        'Aktivera kryssrutan «Använd anpassat urval» i panelen Bingokortsinställningar för att handplocka vilka specifika bilder som visas i uppropspoolen. När aktiverat klickar du på bilder i Bildbiblioteket för att lägga till dem i ditt anpassade uppropsurval — en levande räknare visar «Valda för anpassade upprop: X» medan du väljer. Detta ger dig exakt kontroll över vilka objekt som visas i bingospelet, användbart för läroplansanpassade aktiviteter eller tematiska event där du vill ha specifik vokabulär.',
+        'Aktivera kryssrutan «Använd anpassat urval» i panelen Bingokortsinställningar för att handplocka vilka specifika bilder som visas i uppropspoolen. När aktiverat klickar du på bilder i Bildbiblioteket för att lägga till dem i ditt anpassade uppropsurval — en levande räknare visar «Valda för anpassade upprop: X» medan du väljer. Detta ger dig exakt kontroll över vilka objekt som visas i bingospelet, användbart för produktkatalogsanpassade aktiviteter eller tematiska event där du vill ha specifik vokabulär.',
     },
     {
       question: 'Är Bildbingo Kort Generatorn språkkänslig?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja bingokort skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bingokort som digitala nedladdningar på Etsy, som tryckta aktivitetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. De konfigurerbara rutnätsstorlekarna, batch-generering, ZIP-export, dubbla fyllningslägen, uppropslistor och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara bingoprodukter i stor skala.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bingokort som digitala nedladdningar på Etsy, som tryckta aktivitetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De konfigurerbara rutnätsstorlekarna, batch-generering, ZIP-export, dubbla fyllningslägen, uppropslistor och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara bingoprodukter i stor skala.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

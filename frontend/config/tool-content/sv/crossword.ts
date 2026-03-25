@@ -3,10 +3,10 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'bildkorsord skapare för utskrift',
     secondaryKeywords: [
-      'korsord med bilder för klassrummet',
+      'korsord med bilder online',
       'skapa bildkorsord arbetsblad',
       'korsordspussel skapare med bildledtrådar',
-      'ordförrådskorsord generator för elever',
+      'ordförrådskorsord generator för användare',
     ],
     lsiKeywords: [
       'bildkorsord pussel med bildledtrådar för ordförrådspraktik',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Ladda ner alla fyra filer',
-        description: 'Växla gråskala för bläckvänliga versioner som är idealiska för klassrumsutskrifter och KDP-interiörer. Ladda ner alla fyra filer från en enda session: arbetsblad-JPEG, facit-JPEG, arbetsblad-PDF och facit-PDF — allt renderat i 300 DPI (6× multiplikator). Varje flik har sitt eget par nedladdningsknappar i rullgardinsmenyn. Alla exporter är produktionsklara för Etsy-annonser, Amazon KDP-interiörer och TpT-resursfiler utan efterbearbetning. Klicka på Generera igen för att producera ett nytt korsord med annorlunda slumpmässigt bildval och ordplacering, eller byt tema och språk för snabb variationsskapning.',
+        description: 'Växla gråskala för bläckvänliga versioner som är idealiska för volymutskrifter och KDP-interiörer. Ladda ner alla fyra filer från en enda session: arbetsblad-JPEG, facit-JPEG, arbetsblad-PDF och facit-PDF — allt renderat i 300 DPI (6× multiplikator). Varje flik har sitt eget par nedladdningsknappar i rullgardinsmenyn. Alla exporter är produktionsklara för Etsy-annonser, Amazon KDP-interiörer och Gumroad-resursfiler utan efterbearbetning. Klicka på Generera igen för att producera ett nytt korsord med annorlunda slumpmässigt bildval och ordplacering, eller byt tema och språk för snabb variationsskapning.',
       },
     ],
   },
@@ -68,11 +68,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Flerspråkiga korsordsset för internationella marknader',
-      description: 'Utnyttja den språkberoende ordgenereringen för att skapa bildkorsord på alla 11 språk som stöds från samma bildval. En enda uppsättning djurbilder producerar helt olika korsordsrutnät på engelska, tyska, franska, spanska, portugisiska, italienska, holländska, svenska, danska, norska och finska — vart och ett med lokaliserade ord, lokaliserade rubriker och unika rutnätslayouter. Sälj språkspecifika paket för ESL/EFL-lärare, tvåspråkiga klassrum och internationella hemundervisningsfamiljer, eller skapa flerspråkiga megapaket till premiumpriser.',
+      description: 'Utnyttja den språkberoende ordgenereringen för att skapa bildkorsord på alla 11 språk som stöds från samma bildval. En enda uppsättning djurbilder producerar helt olika korsordsrutnät på engelska, tyska, franska, spanska, portugisiska, italienska, holländska, svenska, danska, norska och finska — vart och ett med lokaliserade ord, lokaliserade rubriker och unika rutnätslayouter. Sälj språkspecifika paket för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer, eller skapa flerspråkiga megapaket till premiumpriser.',
     },
     {
-      title: 'Anpassade ordförrådskorsord för pedagoger',
-      description: 'Använd läget Anpassad ordlista med ledtrådar för att skapa läroplansstyrt korsord med lärardefinerat ordförråd. Ange ämnesspecifika termer och definitioner i ORD: ledtrådsformat — naturvetenskapligt ordförråd, samhällskunskapstermer, läsförståelseord, matematikterminologi eller stavningslistor. Varje pussel genereras på samma 15×15 rutnät med textledtrådar istället för bilder. Bygg åldersanpassade ordförrådsset med facit i både PDF- och JPEG-format för klassrummets morgonarbete, repetitionsaktiviteter och bedömningsförberedelse.',
+      title: 'Anpassade ordförrådskorsord för säljare',
+      description: 'Använd läget Anpassad ordlista med ledtrådar för att skapa produktkatalogsstyrt korsord med lärardefinerat ordförråd. Ange ämnesspecifika termer och definitioner i ORD: ledtrådsformat — naturvetenskapligt ordförråd, samhällskunskapstermer, läsförståelseord, matematikterminologi eller stavningslistor. Varje pussel genereras på samma 15×15 rutnät med textledtrådar istället för bilder. Bygg åldersanpassade ordförrådsset med facit i både PDF- och JPEG-format onlines morgonarbete, repetitionsaktiviteter och bedömningsförberedelse.',
     },
     {
       title: 'KDP bildkorsordsarbetsböcker med progressiva teman',
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Blandade ordpusselpaket i megaformat',
-      description: 'Kombinera bildkorsord med ordsökning, ordmix-aktiviteter, gissa-ordet-utmaningar och kryptogrampussel med koordinerade teman över flera generatorer. Bildkorsord bygger ordförråd genom bild-till-ord-association. Ordsökning utvecklar bokstavsmönsterigenkänning. Ordmix utmanar stavning och anagramlösning. Varje format riktar sig mot en annan språkfärdighet samtidigt som tematisk konsistens bibehålls. Flerformatspusselpaket kan ta ut premiumpriser eftersom föräldrar och lärare betalar mer för omfattande ordförrådsbyggande samlingar.',
+      description: 'Kombinera bildkorsord med ordsökning, ordmix-aktiviteter, gissa-ordet-utmaningar och kryptogrampussel med koordinerade teman över flera generatorer. Bildkorsord bygger ordförråd genom bild-till-ord-association. Ordsökning utvecklar bokstavsmönsterigenkänning. Ordmix utmanar stavning och anagramlösning. Varje format riktar sig mot en annan språkfärdighet samtidigt som tematisk konsistens bibehålls. Flerformatspusselpaket kan ta ut premiumpriser eftersom föräldrar och säljare betalar mer för omfattande ordförrådsbyggande samlingar.',
     },
   ],
 
@@ -100,18 +100,18 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TpT ordförrådskorsords aktivitetspaket',
-      description: 'Ladda upp ordförrådskorsord till TpT med både bildkorsordsläget och anpassat ordlisteläge. Bildkorsord använder tematiska bilder för visuell ordförrådsbyggnad — elever ser ett djur och skriver dess namn i rutnätet. Korsord med anpassad ordlista använder lärardefinerade termer och definitioner för läroplansstyrt repetitionsaktiviteter. Inkludera automatiskt genererade facit med varje pussel som en viktig försäljningspunkt. Lärare som söker korsordsaktiviteter värdesätter utskriftsklara pussel med lösningar inkluderade. Skapa åldersanpassade set för naturvetenskap, samhällskunskap, svenska och matematikordförråd.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad ordförrådskorsords aktivitetspaket',
+      description: 'Ladda upp ordförrådskorsord till Gumroad med både bildkorsordsläget och anpassat ordlisteläge. Bildkorsord använder tematiska bilder för visuell ordförrådsbyggnad — användare ser ett djur och skriver dess namn i rutnätet. Korsord med anpassad ordlista använder lärardefinerade termer och definitioner för produktkatalogsstyrt repetitionsaktiviteter. Inkludera automatiskt genererade facit med varje pussel som en viktig försäljningspunkt. köpare som söker korsordsaktiviteter värdesätter utskriftsklara pussel med lösningar inkluderade. Skapa åldersanpassade set för naturvetenskap, samhällskunskap, svenska och matematikordförråd.',
+      platform: 'Gumroad',
     },
     {
       title: 'Flerspråkig korsordsverksamhet för internationella marknader',
-      description: 'Den språkberoende ordgenereringen skapar helt olika korsordspussel från identiska bilder när du byter språk. En enda uppsättning av 8 djurbilder producerar unika korsordsrutnät på engelska, tyska, franska, spanska och 7 fler språk — vart och ett med lokaliserade ord och lokaliserade rubriker. Skapa språkspecifika korsordspaket för ESL/EFL-lärare, tvåspråkiga utbildningsprogram och internationella hemundervisningsfamiljer. Sälj på Etsy-butiker som riktar sig mot specifika länder, lista på TpT för internationella lärare, eller bygg flerspråkiga megapaket till premiumprissättning. En bilduppsättning genererar 11 säljbara produkter.',
-      platform: 'Etsy / TpT',
+      description: 'Den språkberoende ordgenereringen skapar helt olika korsordspussel från identiska bilder när du byter språk. En enda uppsättning av 8 djurbilder producerar unika korsordsrutnät på engelska, tyska, franska, spanska och 7 fler språk — vart och ett med lokaliserade ord och lokaliserade rubriker. Skapa språkspecifika korsordspaket för ESL/EFL-säljare, tvåspråkiga utbildningsprogram och internationella hemundervisningsfamiljer. Sälj på Etsy-butiker som riktar sig mot specifika länder, lista på Gumroad för internationella säljare, eller bygg flerspråkiga megapaket till premiumprissättning. En bilduppsättning genererar 11 säljbara produkter.',
+      platform: 'Etsy / Gumroad',
     },
     {
       title: 'Pinterest bildkorsords trafiktratt',
-      description: 'Bildkorsord gör visuellt slående Pinterest-pins — ett färgglatt korsordsrutnät omgivet av bildledtrådar skapar ett omedelbart engagerande pusselformat som föräldrar och lärare känner igen som pedagogiskt. Fäst exempelkorsord som visar bildledtrådslayouten med numrerade positioner som kopplar bilder till rutnätsplatser. Skapa separata pin-serier för "bildkorsord för barn", "utskrivbara korsordsaktiviteter" och "ordförrådskorsord arbetsblad". Inkludera förhandsgranskningsbilder av facit som visar det ifyllda rutnätet med alla korrekta bokstäver. Länka varje pin till dina Etsy- eller TpT-produktannonser för direkt konvertering.',
+      description: 'Bildkorsord gör visuellt slående Pinterest-pins — ett färgglatt korsordsrutnät omgivet av bildledtrådar skapar ett omedelbart engagerande pusselformat som föräldrar och säljare känner igen som pedagogiskt. Fäst exempelkorsord som visar bildledtrådslayouten med numrerade positioner som kopplar bilder till rutnätsplatser. Skapa separata pin-serier för "bildkorsord för barn", "utskrivbara korsordsaktiviteter" och "ordförrådskorsord arbetsblad". Inkludera förhandsgranskningsbilder av facit som visar det ifyllda rutnätet med alla korrekta bokstäver. Länka varje pin till dina Etsy- eller Gumroad-produktannonser för direkt konvertering.',
       platform: 'Pinterest',
     },
     {
@@ -132,23 +132,23 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Utnyttja språkberoende generering för flerspråkiga produkter',
-      description: 'Samma 8 bilder producerar helt olika korsordsrutnät när du byter språk. En kattbild skapar "CAT" på engelska, "KATZE" på tyska, "CHAT" på franska och "GATTO" på italienska — olika ordlängder innebär olika rutnätsplaceringar, olika korsningar och olika pusselsvårighetsgrad. Skapa en tematisk bilduppsättning och generera korsord på alla 11 språk för 11 säljbara produkter från en enda innehållssession. Flerspråkiga korsordspaket betjänar ESL/EFL-lärare och internationella hemundervisningsfamiljer till premiumpriser.',
+      description: 'Samma 8 bilder producerar helt olika korsordsrutnät när du byter språk. En kattbild skapar "CAT" på engelska, "KATZE" på tyska, "CHAT" på franska och "GATTO" på italienska — olika ordlängder innebär olika rutnätsplaceringar, olika korsningar och olika pusselsvårighetsgrad. Skapa en tematisk bilduppsättning och generera korsord på alla 11 språk för 11 säljbara produkter från en enda innehållssession. Flerspråkiga korsordspaket betjänar ESL/EFL-säljare och internationella hemundervisningsfamiljer till premiumpriser.',
     },
     {
-      title: 'Använd anpassat ordlisteläge för läroplansanpassade produkter',
-      description: 'Byt till läget Anpassad ordlista med ledtrådar för ämnesspecifika korsord som lärare söker efter på TpT. Ange naturvetenskapstermer med definitioner, samhällskunskapsordförråd med kontextledtrådar eller stavningsord med användningsmeningar i ORD: ledtrådsformat. Textkorsord riktar sig mot en annan köparpublik än bildkorsord — lärare som behöver korsord som matchar deras exakta läroplan. Skapa åldersanpassade ordförrådsset per ämnesområde och märk dina annonser med de specifika läroplansstandards som täcks.',
+      title: 'Använd anpassat ordlisteläge för produktkatalogsanpassade produkter',
+      description: 'Byt till läget Anpassad ordlista med ledtrådar för ämnesspecifika korsord som säljare söker efter på Gumroad. Ange naturvetenskapstermer med definitioner, samhällskunskapsordförråd med kontextledtrådar eller stavningsord med användningsmeningar i ORD: ledtrådsformat. Textkorsord riktar sig mot en annan köparpublik än bildkorsord — köpare som behöver korsord som matchar deras exakta produktkatalog. Skapa åldersanpassade ordförrådsset per ämnesområde och märk dina annonser med de specifika produktkatalogsstandards som täcks.',
     },
     {
       title: 'Inkludera facit i varje annonsförhandsgranskning',
-      description: 'Det automatiskt genererade facit med det ifyllda rutnätet som visar alla korrekta bokstäver är din starkaste försäljningsdifferentiator. Inkludera alltid förhandsgranskningsbilder av facit i dina marknadsplatsannonser — visa det ifyllda rutnätet tydligt i produktfoton. Produkter som inkluderar facit säljer konsekvent bättre än pussel utan lösningar eftersom lärare och föräldrar vill ha självkontrollerande material. Det dubbla canvas-systemet genererar båda versionerna samtidigt, så att inkludera facit kostar dig inget extra i produktionstid.',
+      description: 'Det automatiskt genererade facit med det ifyllda rutnätet som visar alla korrekta bokstäver är din starkaste försäljningsdifferentiator. Inkludera alltid förhandsgranskningsbilder av facit i dina marknadsplatsannonser — visa det ifyllda rutnätet tydligt i produktfoton. Produkter som inkluderar facit säljer konsekvent bättre än pussel utan lösningar eftersom säljare och föräldrar vill ha självkontrollerande material. Det dubbla canvas-systemet genererar båda versionerna samtidigt, så att inkludera facit kostar dig inget extra i produktionstid.',
     },
     {
       title: 'Kombinera bild- och textkorsord i premiumpaket',
-      description: 'Inkludera både bildkorsord (med tematiska bildledtrådar) och textkorsord (med anpassade ordlistor) i samma paket för maximal variation. Bildkorsord riktar sig mot visuella inlärare och yngre elever som svarar på bildbaserade ledtrådar. Textkorsord riktar sig mot äldre elever och ämnesspecifik ordförrådsrepetition. Att paketera båda formaten fördubblar din innehållsvariation och täcker flera inlärningsstilar i en produkt, vilket motiverar högre prissättning än korsordspaket med enbart ett format.',
+      description: 'Inkludera både bildkorsord (med tematiska bildledtrådar) och textkorsord (med anpassade ordlistor) i samma paket för maximal variation. Bildkorsord riktar sig mot visuella inlärare och yngre användare som svarar på bildbaserade ledtrådar. Textkorsord riktar sig mot äldre användare och ämnesspecifik ordförrådsrepetition. Att paketera båda formaten fördubblar din innehållsvariation och täcker flera inlärningsstilar i en produkt, vilket motiverar högre prissättning än korsordspaket med enbart ett format.',
     },
     {
-      title: 'Använd gråskala för KDP- och klassrumsprodukter',
-      description: 'Växla gråskala för att skapa bläckvänliga korsordspussel specifikt för KDP print-on-demand-interiörer och klassrumsutskrifter. Färgutskrift kostar betydligt mer för KDP, och många lärare skriver ut på svartvita skrivare. Skapa dubbelformatspaket som inkluderar både färgversioner (för digitala nedladdningar) och gråskaleversioner (för utskrift) — köpare uppfattar detta som dubbelt så mycket värde. Korsordsrutnätet, numrerade ledtrådspositioner och bildledtrådar renderas alla tydligt i gråskala.',
+      title: 'Använd gråskala för KDP- och produktlinjesprodukter',
+      description: 'Växla gråskala för att skapa bläckvänliga korsordspussel specifikt för KDP print-on-demand-interiörer och volymutskrifter. Färgutskrift kostar betydligt mer för KDP, och många säljare skriver ut på svartvita skrivare. Skapa dubbelformatspaket som inkluderar både färgversioner (för digitala nedladdningar) och gråskaleversioner (för utskrift) — köpare uppfattar detta som dubbelt så mycket värde. Korsordsrutnätet, numrerade ledtrådspositioner och bildledtrådar renderas alla tydligt i gråskala.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Hur fungerar läget Anpassad ordlista med ledtrådar?',
-      answer: 'Aktivera kryssrutan Anpassad ordlista med ledtrådar för att byta från bildkorsord till traditionella textkorsord. Ange ord och deras ledtrådar i formatet ORD: ledtrådstext, en per rad, med minst 8 poster. Samma 15×15 rutnätsalgoritm placerar dina anpassade ord med optimal korsning, och textledtrådar visas bredvid rutnätet istället för bildledtrådar. Detta läge är idealiskt för ämnesspecifika ordförrådskorsord, stavningspraktik, läroplansstyrd repetition eller alla korsord där du vill definiera ditt eget innehåll utan att använda bildbiblioteket.',
+      answer: 'Aktivera kryssrutan Anpassad ordlista med ledtrådar för att byta från bildkorsord till traditionella textkorsord. Ange ord och deras ledtrådar i formatet ORD: ledtrådstext, en per rad, med minst 8 poster. Samma 15×15 rutnätsalgoritm placerar dina anpassade ord med optimal korsning, och textledtrådar visas bredvid rutnätet istället för bildledtrådar. Detta läge är idealiskt för ämnesspecifika ordförrådskorsord, stavningspraktik, produktkatalogsstyrd repetition eller alla korsord där du vill definiera ditt eget innehåll utan att använda bildbiblioteket.',
     },
     {
       question: 'Hur fungerar den automatiskt genererade rubriken?',
@@ -187,11 +187,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Vilka sidstorlekar och exportformat finns tillgängliga?',
-      answer: 'Sidstorlekar inkluderar Letter stående, Letter liggande, A4 stående, A4 liggande och anpassade mått. Exportera som högupplöst JPEG eller utskriftsklar PDF i 300 DPI (6× multiplikator). Växla gråskala för bläckvänlig utskrift. Varje generering producerar fyra nedladdningsfiler: arbetsblad-JPEG, facit-JPEG, arbetsblad-PDF och facit-PDF. Alla exporter är produktionsklara för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+      answer: 'Sidstorlekar inkluderar Letter stående, Letter liggande, A4 stående, A4 liggande och anpassade mått. Exportera som högupplöst JPEG eller utskriftsklar PDF i 300 DPI (6× multiplikator). Växla gråskala för bläckvänlig utskrift. Varje generering producerar fyra nedladdningsfiler: arbetsblad-JPEG, facit-JPEG, arbetsblad-PDF och facit-PDF. Alla exporter är produktionsklara för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
     },
     {
       question: 'Kan jag sälja korsordspussel gjorda med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja korsordspussel som digitala nedladdningar på Etsy, tryckta korsordsarbetsböcker på Amazon KDP, klassrumsresurser på TpT eller genom vilken annan försäljningskanal som helst. De fyra inmatningsmetoderna, automatiskt genererade facit med ifyllda rutnät, språkberoende ordgenerering på 11 språk, anpassat ordlisteläge och 104 tematiska bildsamlingar ger dig allt du behöver för att skapa professionella korsordsprodukter som konkurrerar i ordpusselkategorier på varje stor marknadsplats.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja korsordspussel som digitala nedladdningar på Etsy, tryckta korsordsarbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom vilken annan försäljningskanal som helst. De fyra inmatningsmetoderna, automatiskt genererade facit med ifyllda rutnät, språkberoende ordgenerering på 11 språk, anpassat ordlisteläge och 104 tematiska bildsamlingar ger dig allt du behöver för att skapa professionella korsordsprodukter som konkurrerar i ordpusselkategorier på varje stor marknadsplats.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

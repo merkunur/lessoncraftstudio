@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare puzzelstukjes maker voor Etsy verkopers',
       'ontbrekende stukjes werkblad generator voor KDP uitgevers',
-      'visuele puzzel maker met commerciële licentie TPT',
-      'ontbrekende puzzelstukjes werkbladen verkopen op Teachers Pay Teachers',
+      'visuele puzzel maker met commerciële licentie Gumroad',
+      'ontbrekende puzzelstukjes werkbladen verkopen op Gumroad',
     ],
     lsiKeywords: [
       'digitale puzzel-printables online bedrijf',
@@ -16,15 +16,15 @@ const content: AppContent = {
     ],
     titleTag: 'Ontbrekende Stukjes Generator | Maak Visuele Puzzels',
     metaDescription:
-      'Maak ontbrekende stukjes puzzels om te verkopen op Etsy, KDP & TPT. 6 stukvormen, instelbare moeilijkheid, automatisch antwoordblad, 104 thema\'s.',
+      'Maak ontbrekende stukjes puzzels om te verkopen op Etsy, KDP & Gumroad. 6 stukvormen, instelbare moeilijkheid, automatisch antwoordblad, 104 thema\'s.',
   },
 
   hero: {
     title: 'Ontbrekende Stukjes Puzzel Generator voor Legpuzzel-Stijl Visuele Puzzels',
     tagline:
-      'Genereer legpuzzel-stijl puzzels waarbij stukjes uit afbeeldingen worden geknipt en leerlingen de juiste genummerde optie identificeren — met 6 stukvormen, 1–5 ontbrekende stukjes, 2–6 oplossingsopties inclusief afleiders, automatisch gegenereerde antwoordbladen en een puur visueel ontwerp dat in elke taal werkt.',
+      'Genereer legpuzzel-stijl puzzels waarbij stukjes uit afbeeldingen worden geknipt en gebruikers de juiste genummerde optie identificeren — met 6 stukvormen, 1–5 ontbrekende stukjes, 2–6 oplossingsopties inclusief afleiders, automatisch gegenereerde antwoordbladen en een puur visueel ontwerp dat in elke taal werkt.',
     description:
-      'Maak professionele ontbrekende stukjes puzzels waarbij een afbeelding gaten bevat en leerlingen identificeren welk genummerd stukje in elke opening past. Het slimme stuk-extractie-algoritme vindt visueel onderscheidende gebieden met voldoende kleurvariantie, waardoor elke puzzel oplosbaar en boeiend is. Kies uit 6 stukvormen — vierkant, cirkel, rechthoek staand, rechthoek liggend, ellips staand en ellips liggend — en stel de moeilijkheid in met 1–5 ontbrekende stukjes en 2–6 oplossingsopties die afleidersstukjes bevatten om visuele discriminatievaardigheden uit te dagen. Elke puzzel bevat een automatisch gegenereerd antwoordblad met geel gemarkeerde nummerlabels in elk gat die de juiste optie tonen. De automatisch gegenereerde koptekst toont "Ontbrekende Stukjes" in turquoise (#06B6D4) met een roze-roze beschrijving (#DB2777) over een dubbel kadersysteem — groenblauw buitenkader (#14B8A6, 8px) en felroze binnenkader (#EC4899, 3px) — gelokaliseerd in alle 11 ondersteunde talen. Ontbrekende Stukjes is NIET taalgevoelig: puzzels zijn puur visueel zonder taalafhankelijke inhoud, dus elke puzzel werkt wereldwijd identiek. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu visuele puzzelbundels verkoopt op Etsy.nl, puzzelwerkboeken samenstelt voor Amazon KDP, of kritisch denken activiteiten maakt voor TPT — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele ontbrekende stukjes puzzels waarbij een afbeelding gaten bevat en gebruikers identificeren welk genummerd stukje in elke opening past. Het slimme stuk-extractie-algoritme vindt visueel onderscheidende gebieden met voldoende kleurvariantie, waardoor elke puzzel oplosbaar en boeiend is. Kies uit 6 stukvormen — vierkant, cirkel, rechthoek staand, rechthoek liggend, ellips staand en ellips liggend — en stel de moeilijkheid in met 1–5 ontbrekende stukjes en 2–6 oplossingsopties die afleidersstukjes bevatten om visuele discriminatievaardigheden uit te dagen. Elke puzzel bevat een automatisch gegenereerd antwoordblad met geel gemarkeerde nummerlabels in elk gat die de juiste optie tonen. De automatisch gegenereerde koptekst toont "Ontbrekende Stukjes" in turquoise (#06B6D4) met een roze-roze beschrijving (#DB2777) over een dubbel kadersysteem — groenblauw buitenkader (#14B8A6, 8px) en felroze binnenkader (#EC4899, 3px) — gelokaliseerd in alle 11 ondersteunde talen. Ontbrekende Stukjes is NIET taalgevoelig: puzzels zijn puur visueel zonder taalafhankelijke inhoud, dus elke puzzel werkt wereldwijd identiek. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu visuele puzzelbundels verkoopt op Etsy.nl, puzzelwerkboeken samenstelt voor Amazon KDP, of kritisch denken activiteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -53,7 +53,7 @@ const content: AppContent = {
       {
         title: 'Genereer het antwoordblad en download',
         description:
-          'Schakel naar het tabblad Antwoordblad om het automatisch gegenereerde antwoordblad te bekijken. Dezelfde puzzelafbeelding verschijnt met gaten, en geel gemarkeerde nummerlabels (rgba(255,255,0,0.7)) in elk gat tonen de juiste optie-index. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF — allemaal gerenderd op 300 DPI met JPEG-kwaliteit 1,0. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden. Het automatische antwoordblad elimineert de grootste tijdverspilling bij puzzelproductie — geen handmatige antwoorden meer nodig.',
+          'Schakel naar het tabblad Antwoordblad om het automatisch gegenereerde antwoordblad te bekijken. Dezelfde puzzelafbeelding verschijnt met gaten, en geel gemarkeerde nummerlabels (rgba(255,255,0,0.7)) in elk gat tonen de juiste optie-index. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF — allemaal gerenderd op 300 DPI met JPEG-kwaliteit 1,0. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden. Het automatische antwoordblad elimineert de grootste tijdverspilling bij puzzelproductie — geen handmatige antwoorden meer nodig.',
       },
     ],
   },
@@ -64,7 +64,7 @@ const content: AppContent = {
       {
         title: 'Legpuzzel-Stijl Ontbrekende Stukjes Puzzels met Instelbare Moeilijkheid',
         description:
-          'Maak puzzels waarbij een afbeelding gaten bevat en leerlingen identificeren welk genummerd stukje in elke opening past. Stel de moeilijkheid in met twee onafhankelijke regelaars: stel 1–5 ontbrekende stukjes in om de puzzelcomplexiteit te bepalen, en stel 2–6 oplossingsopties in om te bepalen hoeveel keuzes leerlingen evalueren. Meer ontbrekende stukjes betekent meer ruimtelijk redeneren; meer oplossingsopties (inclusief afleiders) betekent scherpere visuele discriminatie. Dit twee-assige moeilijkheidssysteem laat je puzzels maken variërend van eenvoudige identificatie van één stuk tot complexe meervoudige uitdagingen. Voor Etsy-verkopers op Etsy.nl is dit ideaal: maak gedifferentieerde sets met dezelfde afbeeldingen maar oplopende moeilijkheidsgraden — kleuterschool (1 stuk, 2 opties), basisschool groep 3–4 (3 stukjes, 4 opties) en groep 5–8 (5 stukjes, 6 opties met afleiders).',
+          'Maak puzzels waarbij een afbeelding gaten bevat en gebruikers identificeren welk genummerd stukje in elke opening past. Stel de moeilijkheid in met twee onafhankelijke regelaars: stel 1–5 ontbrekende stukjes in om de puzzelcomplexiteit te bepalen, en stel 2–6 oplossingsopties in om te bepalen hoeveel keuzes gebruikers evalueren. Meer ontbrekende stukjes betekent meer ruimtelijk redeneren; meer oplossingsopties (inclusief afleiders) betekent scherpere visuele discriminatie. Dit twee-assige moeilijkheidssysteem laat je puzzels maken variërend van eenvoudige identificatie van één stuk tot complexe meervoudige uitdagingen. Voor Etsy-verkopers op Etsy.nl is dit ideaal: maak gedifferentieerde sets met dezelfde afbeeldingen maar oplopende moeilijkheidsgraden — kleuterschool (1 stuk, 2 opties), basisschool groep 3–4 (3 stukjes, 4 opties) en groep 5–8 (5 stukjes, 6 opties met afleiders).',
       },
       {
         title: 'Zes Stukvormen: Vierkant, Cirkel, Rechthoek en Ellips Varianten',
@@ -79,12 +79,12 @@ const content: AppContent = {
       {
         title: 'Automatisch Gegenereerd Antwoordblad met Geel Gemarkeerde Nummerlabels',
         description:
-          'Elke ontbrekende stukjes puzzel genereert automatisch een bijbehorend antwoordblad op een apart canvastabblad. Het antwoordblad toont dezelfde puzzelafbeelding met gaten, en plaatst geel gemarkeerde nummerlabels (rgba(255,255,0,0.7)) in elk gat die de juiste 1-gebaseerde optie-index tonen. De lettergrootte schaalt naar 60% van de stukgrootte voor duidelijke leesbaarheid. Geen handmatige antwoorden nodig — het antwoordblad blijft perfect gesynchroniseerd met de puzzel. Download het antwoordblad als answer_key.jpeg of answer_key.pdf naast het werkblad voor leerlingen. Voor verkopers die puzzelbundels maken is dit een enorme tijdsbesparing: 20 puzzels met antwoordbladen in dezelfde tijd die het handmatig maken van 5 puzzels zou kosten.',
+          'Elke ontbrekende stukjes puzzel genereert automatisch een bijbehorend antwoordblad op een apart canvastabblad. Het antwoordblad toont dezelfde puzzelafbeelding met gaten, en plaatst geel gemarkeerde nummerlabels (rgba(255,255,0,0.7)) in elk gat die de juiste 1-gebaseerde optie-index tonen. De lettergrootte schaalt naar 60% van de stukgrootte voor duidelijke leesbaarheid. Geen handmatige antwoorden nodig — het antwoordblad blijft perfect gesynchroniseerd met de puzzel. Download het antwoordblad als answer_key.jpeg of answer_key.pdf naast het werkblad voor gebruikers. Voor verkopers die puzzelbundels maken is dit een enorme tijdsbesparing: 20 puzzels met antwoordbladen in dezelfde tijd die het handmatig maken van 5 puzzels zou kosten.',
       },
       {
         title: 'Genummerde Oplossingsopties met Afleidersstukjes',
         description:
-          'Oplossingsopties worden weergegeven in genummerde containers (1–N) met geel gemarkeerde nummerlabels voor duidelijke identificatie. Wanneer het aantal oplossingsopties het aantal ontbrekende stukjes overschrijdt, zijn de extra opties afleidersstukjes — geëxtraheerd uit verschillende gebieden van dezelfde afbeelding die niet bij een gat passen. Afleiders dwingen leerlingen om visuele details zorgvuldig te vergelijken in plaats van simpelweg door eliminatie te werken. Staande werkbladen rangschikken opties in een enkele horizontale rij onder de puzzel (75% van maximale grootte); liggende werkbladen plaatsen ze aan de rechterkant (50% breedte) in een horizontale rij. Dit maakt ontbrekende stukjes puzzels bijzonder waardevol voor het ontwikkelen van kritisch denken en visuele waarnemingsvaardigheden bij jonge leerlingen.',
+          'Oplossingsopties worden weergegeven in genummerde containers (1–N) met geel gemarkeerde nummerlabels voor duidelijke identificatie. Wanneer het aantal oplossingsopties het aantal ontbrekende stukjes overschrijdt, zijn de extra opties afleidersstukjes — geëxtraheerd uit verschillende gebieden van dezelfde afbeelding die niet bij een gat passen. Afleiders dwingen gebruikers om visuele details zorgvuldig te vergelijken in plaats van simpelweg door eliminatie te werken. Staande werkbladen rangschikken opties in een enkele horizontale rij onder de puzzel (75% van maximale grootte); liggende werkbladen plaatsen ze aan de rechterkant (50% breedte) in een horizontale rij. Dit maakt ontbrekende stukjes puzzels bijzonder waardevol voor het ontwikkelen van kritisch denken en visuele waarnemingsvaardigheden bij jonge gebruikers.',
       },
       {
         title: 'Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties',
@@ -120,16 +120,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Puzzelactiviteiten voor het Klaslokaal op TPT',
+        title: 'Puzzelactiviteiten voor het winkel op Gumroad',
         description:
-          'Maak kant-en-klare visuele discriminatie- en kritisch denken activiteiten voor Teachers Pay Teachers. Ontbrekende stukjes puzzels versterken ruimtelijk redeneren, visuele analyse en aandacht voor detail — vaardigheden die gewaardeerd worden in het vroeg- en basisonderwijs. Maak curriculumgerichte sets: dierenhabitat-puzzels, seizoensgerelateerde puzzels, beroepenpuzzels en voedselgroep-puzzels. Elke set bevat werkbladen voor leerlingen en antwoordbladen in zowel PDF- als JPEG-formaat. De instelbare moeilijkheid laat je gedifferentieerde versies van dezelfde puzzel maken voor klassen met gemengde niveaus — groep 1–2 krijgt eenvoudige puzzels (1 stuk, 2 opties) terwijl groep 5–6 uitdagende versies krijgt (5 stukjes, 6 opties met afleiders).',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Maak kant-en-klare visuele discriminatie- en kritisch denken activiteiten voor Gumroad. Ontbrekende stukjes puzzels versterken ruimtelijk redeneren, visuele analyse en aandacht voor detail — vaardigheden die gewaardeerd worden in het vroeg- en basisonderwijs. Maak productcatalogusgerichte sets: dierenhabitat-puzzels, seizoensgerelateerde puzzels, beroepenpuzzels en voedselgroep-puzzels. Elke set bevat werkbladen voor gebruikers en antwoordbladen in zowel PDF- als JPEG-formaat. De instelbare moeilijkheid laat je gedifferentieerde versies van dezelfde puzzel maken voor productlijnen met gemengde niveaus — groep 1–2 krijgt eenvoudige puzzels (1 stuk, 2 opties) terwijl groep 5–6 uitdagende versies krijgt (5 stukjes, 6 opties met afleiders).',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Seizoens- en Feestdagen Puzzelcollecties',
         description:
-          'De 104 thematische beeldcollecties dekken elk seizoens- en feestdagenmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, Sinterklaas, Koningsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden puzzelcollecties die aansluiten bij piekverkoopperiodes. Breng Halloween-puzzelbundels uit in september, Sinterklaas-collecties in oktober, Kerstcollecties in november en Valentijnspakketten in januari. Varieer stukvormen en moeilijkheidsniveaus binnen elke seizoenscollectie voor maximale waarde. Seizoensproducten vragen hogere prijzen tijdens hun piekperiode — een Sinterklaas-puzzelbundel met 20 werkbladen en antwoordbladen voor €5–€7 op Etsy.nl is bijzonder aantrekkelijk voor Nederlandse ouders en leerkrachten die zoeken naar creatieve feestdagactiviteiten.',
-        platform: 'Etsy / Amazon KDP / TPT (seizoensgebonden)',
+          'De 104 thematische beeldcollecties dekken elk seizoens- en feestdagenmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, Sinterklaas, Koningsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden puzzelcollecties die aansluiten bij piekverkoopperiodes. Breng Halloween-puzzelbundels uit in september, Sinterklaas-collecties in oktober, Kerstcollecties in november en Valentijnspakketten in januari. Varieer stukvormen en moeilijkheidsniveaus binnen elke seizoenscollectie voor maximale waarde. Seizoensproducten vragen hogere prijzen tijdens hun piekperiode — een Sinterklaas-puzzelbundel met 20 werkbladen en antwoordbladen voor €5–€7 op Etsy.nl is bijzonder aantrekkelijk voor Nederlandse ouders en verkopers die zoeken naar creatieve feestdagactiviteiten.',
+        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
       },
       {
         title: 'Wereldwijde Marktaantrekkingskracht — Visuele Puzzels Vereisen Geen Vertaling',
@@ -144,7 +144,7 @@ const content: AppContent = {
     {
       question: 'Hoe werkt het mechanisme van de ontbrekende stukjes puzzel?',
       answer:
-        'De generator neemt een afbeelding uit de bibliotheek (of je eigen upload) en knipt 1–5 stukjes uit, waarbij witte gaten met zwarte rand achterblijven op de originele locaties. Vervolgens worden 2–6 genummerde oplossingsopties onder of naast de puzzel weergegeven — de juiste stukjes plus afleidersstukjes die geëxtraheerd zijn uit andere gebieden van dezelfde afbeelding. Leerlingen bestuderen de gaten en de genummerde opties, en identificeren vervolgens welke optie in elk gat past op basis van kleur, patroon en visueel detail.',
+        'De generator neemt een afbeelding uit de bibliotheek (of je eigen upload) en knipt 1–5 stukjes uit, waarbij witte gaten met zwarte rand achterblijven op de originele locaties. Vervolgens worden 2–6 genummerde oplossingsopties onder of naast de puzzel weergegeven — de juiste stukjes plus afleidersstukjes die geëxtraheerd zijn uit andere gebieden van dezelfde afbeelding. gebruikers bestuderen de gaten en de genummerde opties, en identificeren vervolgens welke optie in elk gat past op basis van kleur, patroon en visueel detail.',
     },
     {
       question: 'Wat zijn de 6 beschikbare stukvormen?',
@@ -154,12 +154,12 @@ const content: AppContent = {
     {
       question: 'Hoe werken de moeilijkheidsinstellingen?',
       answer:
-        'De moeilijkheid wordt bepaald door twee onafhankelijke instellingen. Het aantal ontbrekende stukjes (1–5) bepaalt hoeveel gaten uit de afbeelding worden geknipt — meer stukjes betekent meer ruimtelijk redeneren. Het aantal oplossingsopties (2–6) bepaalt hoeveel genummerde keuzes leerlingen evalueren — wanneer opties het aantal stukjes overschrijden, zijn de extra opties afleiders die zorgvuldige visuele vergelijking vereisen. Een puzzel met 1 ontbrekend stukje en 2 opties is makkelijk; 5 ontbrekende stukjes met 6 opties is uitdagend.',
+        'De moeilijkheid wordt bepaald door twee onafhankelijke instellingen. Het aantal ontbrekende stukjes (1–5) bepaalt hoeveel gaten uit de afbeelding worden geknipt — meer stukjes betekent meer ruimtelijk redeneren. Het aantal oplossingsopties (2–6) bepaalt hoeveel genummerde keuzes gebruikers evalueren — wanneer opties het aantal stukjes overschrijden, zijn de extra opties afleiders die zorgvuldige visuele vergelijking vereisen. Een puzzel met 1 ontbrekend stukje en 2 opties is makkelijk; 5 ontbrekende stukjes met 6 opties is uitdagend.',
     },
     {
       question: 'Wat zijn afleidersstukjes en hoe worden ze gegenereerd?',
       answer:
-        'Afleidersstukjes zijn extra oplossingsopties die niet bij een gat in de puzzel passen. Ze worden geëxtraheerd uit verschillende gebieden van dezelfde bronafbeelding met tot 200 plaatsingspogingen elk, zodat ze niet overlappen met juiste stukjes. Afleiders voorkomen dat leerlingen alleen door eliminatie oplossen — ze moeten kleuren, patronen en visuele details zorgvuldig vergelijken om juiste opties te onderscheiden van gelijksoortige alternatieven.',
+        'Afleidersstukjes zijn extra oplossingsopties die niet bij een gat in de puzzel passen. Ze worden geëxtraheerd uit verschillende gebieden van dezelfde bronafbeelding met tot 200 plaatsingspogingen elk, zodat ze niet overlappen met juiste stukjes. Afleiders voorkomen dat gebruikers alleen door eliminatie oplossen — ze moeten kleuren, patronen en visuele details zorgvuldig vergelijken om juiste opties te onderscheiden van gelijksoortige alternatieven.',
     },
     {
       question: 'Hoe werkt het slimme stuk-extractie-algoritme?',
@@ -194,7 +194,7 @@ const content: AppContent = {
     {
       question: 'Kan ik ontbrekende stukjes puzzels gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je ontbrekende stukjes puzzels te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als lesmateriaal op TPT, of via elk ander verkoopkanaal. De 6 stukvormen, instelbare moeilijkheid, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare puzzelproducten te produceren.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je ontbrekende stukjes puzzels te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De 6 stukvormen, instelbare moeilijkheid, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare puzzelproducten te produceren.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -252,7 +252,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolleerlingen',
+      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
     },
     {
       pageType: 'start',

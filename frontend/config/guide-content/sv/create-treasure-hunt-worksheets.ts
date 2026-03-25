@@ -24,7 +24,7 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar skattjakt-arbetsblad',
     tagline: 'En steg-för-steg-guide för att skapa vägfinnar-skattjakt-arbetsblad på ett 5×5 koordinatrutnät med två riktningstyper (grundläggande upp/ner/vänster/höger och kardinal norr/söder/öster/väster), exakt 4 riktningsförflyttningar per pussel, 6 tematiska landmärkesbilder, autogenererade facit med ljusgul markerad skattcell, och fullt lokaliserade riktningsledtrådar på 11 språk',
-    description: 'Skattjakt-arbetsblad är en unikt engagerande vägfinnaraktivitet där elever följer sekventiella riktningsledtrådar för att lokalisera gömd skatt på ett 5×5 koordinatrutnät märkt med bokstavsrader (A–E) och sifferkolumner (1–5). Formatet kombinerar koordinatläsning med riktningsvokabulär. Skattjakt-skaparen erbjuder två riktningstyper — grundläggande (upp/ner/vänster/höger) och kardinal (norr/söder/öster/väster) — varje pussel differentieras naturligt efter åldersgrupp. Fullt lokaliserade riktningsledtrådar på 11 språk skapar flerspråkiga produktlinjer.',
+    description: 'Skattjakt-arbetsblad är en unikt engagerande vägfinnaraktivitet där användare följer sekventiella riktningsledtrådar för att lokalisera gömd skatt på ett 5×5 koordinatrutnät märkt med bokstavsrader (A–E) och sifferkolumner (1–5). Formatet kombinerar koordinatläsning med riktningsvokabulär. Skattjakt-skaparen erbjuder två riktningstyper — grundläggande (upp/ner/vänster/höger) och kardinal (norr/söder/öster/väster) — varje pussel differentieras naturligt efter åldersgrupp. Fullt lokaliserade riktningsledtrådar på 11 språk skapar flerspråkiga produktlinjer.',
   },
 
   introduction: 'Koordinatläsning och riktningsresonerande är grundläggande kognitiva färdigheter. Innan barn kan navigera kartor, läsa diagram eller lösa rumsliga problem måste de lära sig tolka rutnätsreferenser och följa sekventiella riktningsinstruktioner. Skattjakt-arbetsblad tränar båda simultant.\n\nVad som gör skattjakt-arbetsblad särskilt kraftfulla är de två riktningstyper som skapar naturlig åldersgruppsdifferentiering. Grundläggande läge använder upp, ner, vänster och höger — bekant rumsligt vokabulär för förskoleklass till årskurs 1. Kardinalläge använder norr, söder, öster och väster — kompassriktningar för årskurs 2 och uppåt. Båda lägena genererar samma 4-förflyttnings pusselstruktur, så säljare kan skapa progressiva svårighetsset.\n\nTill skillnad från rent visuella arbetsblad är skattjakt-arbetsblad språkkänsliga. All riktningsledtrådstext — "Börja vid," "Flytta," riktningsvokabulär, "ruta/rutor" och "Var är skatten?" — översätts fullständigt till alla 11 stödda språk. En pusseldesign genererar 11 autentiska inhemska språkversioner.\n\nSkattjakt-skaparen hanterar komplexiteten genom ett automatiserat pusselgenereringssystem. Sex tematiska bilder sprids över 25-cellsrutnätet som visuella landmärken. Generatorn väljer en slumpmässig startcell och skapar exakt 4 riktningsförflyttningar. Dubbelarbetsytesystemet genererar arbetsblad och facit simultant med skattcellen markerad i ljusgult (#FFFACD).\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
@@ -36,7 +36,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj din riktningstyp',
-      content: 'Två riktningstyper.\n\nGrundläggande läge: upp, ner, vänster och höger. Bekanta riktningsord idealiska för förskoleklass till årskurs 1. Barn förstår redan dessa termer.\n\nKardinalläge: norr, söder, öster och väster. Kompassriktningar för årskurs 2 och uppåt. Elever måste mentalt mappa kompassriktningar på rutnätet — norr är upp, söder ner, öster höger, väster vänster.\n\nBåda typerna genererar samma 4-förflyttningsstruktur på samma 5×5 rutnät. En produktdesignfördel: skapa progressiva svårighetsset genom att börja med grundläggande och avancera till kardinal med identiska teman.',
+      content: 'Två riktningstyper.\n\nGrundläggande läge: upp, ner, vänster och höger. Bekanta riktningsord idealiska för förskoleklass till årskurs 1. Barn förstår redan dessa termer.\n\nKardinalläge: norr, söder, öster och väster. Kompassriktningar för årskurs 2 och uppåt. användare måste mentalt mappa kompassriktningar på rutnätet — norr är upp, söder ner, öster höger, väster vänster.\n\nBåda typerna genererar samma 4-förflyttningsstruktur på samma 5×5 rutnät. En produktdesignfördel: skapa progressiva svårighetsset genom att börja med grundläggande och avancera till kardinal med identiska teman.',
     },
     {
       heading: 'Konfigurera pusselrutnät och språk',
@@ -44,7 +44,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Lägg till tematiska bilder i rutnätet',
-      content: 'Tre inmatningsmetoder för att fylla rutnätet med 6 tematiska landmärkesbilder.\n\nGenerera från tema (snabbast): välj ett tema och generatorn autoväljer 6 slumpmässiga bilder. Varje Generera-klick producerar annorlunda arrangemang. Idealiskt för massproduktion.\n\nManuellt bildval: bläddra bland 104 temasamlingar med 3 100+ illustrationer och välj exakt 6. Precisionskontroll.\n\nLadda upp egna bilder (JPEG, PNG, GIF, WebP) för unika produkter.\n\nBilder med färgglada, distinkta illustrationer fungerar bäst som rutnätslandmärken — de hjälper elever orientera sig visuellt.',
+      content: 'Tre inmatningsmetoder för att fylla rutnätet med 6 tematiska landmärkesbilder.\n\nGenerera från tema (snabbast): välj ett tema och generatorn autoväljer 6 slumpmässiga bilder. Varje Generera-klick producerar annorlunda arrangemang. Idealiskt för massproduktion.\n\nManuellt bildval: bläddra bland 104 temasamlingar med 3 100+ illustrationer och välj exakt 6. Precisionskontroll.\n\nLadda upp egna bilder (JPEG, PNG, GIF, WebP) för unika produkter.\n\nBilder med färgglada, distinkta illustrationer fungerar bäst som rutnätslandmärken — de hjälper användare orientera sig visuellt.',
     },
     {
       heading: 'Ställ in sidlayout och dekorationer',
@@ -67,15 +67,15 @@ const content: GuideContent = {
   platformTips: [
     {
       heading: 'Sälja skattjakt-arbetsblad på Etsy',
-      content: 'Etsy är utmärkt — föräldrar och lärare söker koordinatrutnätsaktiviteter och riktningsövningar. Titlar som "Skattjakt arbetsblad — Koordinatrutnät vägfinnar — Djurtema — Med facit." Namnge med riktningstyp och tema.\n\nTaggar: använd alla 13. "skattjakt arbetsblad," "koordinatrutnät aktivitet," "vägfinnar pussel," "riktningsarbetsblad," "rumsligt resonerande."\n\nPrissättning: enstaka riktningstypsset 10–15 arbetsblad $2,99–$5,99. Dubbla riktningspaket (grundläggande + kardinal) $6,99–$9,99. Flerspråkiga samlingar $14,99–$24,99.',
+      content: 'Etsy är utmärkt — föräldrar och säljare söker koordinatrutnätsaktiviteter och riktningsövningar. Titlar som "Skattjakt arbetsblad — Koordinatrutnät vägfinnar — Djurtema — Med facit." Namnge med riktningstyp och tema.\n\nTaggar: använd alla 13. "skattjakt arbetsblad," "koordinatrutnät aktivitet," "vägfinnar pussel," "riktningsarbetsblad," "rumsligt resonerande."\n\nPrissättning: enstaka riktningstypsset 10–15 arbetsblad $2,99–$5,99. Dubbla riktningspaket (grundläggande + kardinal) $6,99–$9,99. Flerspråkiga samlingar $14,99–$24,99.',
     },
     {
       heading: 'Sälja skattjakt-arbetsblad på Amazon KDP',
       content: 'Samla 50–80 pussel med progressiv svårighet. Tidiga kapitel: grundläggande riktningar med bekanta teman. Mittkapitel: grundläggande med mer varierade teman. Avancerade: kardinalriktningar. Facitsidor per kapitel.\n\nTitel och undertitel: Exempeltitel "Treasure Hunt Activity Book for Kids." Exempel-undertitel "80 Coordinate Grid Path-Finding Puzzles — Basic and Cardinal Directions — Ages 5–9."\n\nGråskaleläge för bläcksnåla interiörer.',
     },
     {
-      heading: 'Sälja skattjakt-arbetsblad på Teachers Pay Teachers',
-      content: 'TPT är idealiskt — koordinatläsning och riktningsvokabulär är läroplansförmågor.\n\nProduktbeskrivningar: årskurs, riktningstyp (grundläggande eller kardinal), antal pussel, om facit ingår, och vilka språk. Förklara koordinatrutnätssystemet.\n\nFörhandsgranskningsfiler: 2–3 provpussel med båda riktningstyper och ett facit.\n\nPaketering: "Komplett koordinatrutnät vägfinnarpaket" med grundläggande och kardinalriktningar.\n\nTPT-nyckelord: "skattjakt arbetsblad," "koordinatrutnät aktiviteter," "riktningsarbetsblad," "kartfärdigheter," "rumsligt resonerande pussel."',
+      heading: 'Sälja skattjakt-arbetsblad på Gumroad',
+      content: 'Gumroad är idealiskt — koordinatläsning och riktningsvokabulär är produktkatalogsförmågor.\n\nProduktbeskrivningar: årskurs, riktningstyp (grundläggande eller kardinal), antal pussel, om facit ingår, och vilka språk. Förklara koordinatrutnätssystemet.\n\nFörhandsgranskningsfiler: 2–3 provpussel med båda riktningstyper och ett facit.\n\nPaketering: "Komplett koordinatrutnät vägfinnarpaket" med grundläggande och kardinalriktningar.\n\nGumroad-nyckelord: "skattjakt arbetsblad," "koordinatrutnät aktiviteter," "riktningsarbetsblad," "kartfärdigheter," "rumsligt resonerande pussel."',
     },
   ],
 
@@ -90,14 +90,14 @@ const content: GuideContent = {
     },
     {
       heading: 'Flerspråkig produktstrategi',
-      content: 'Det språkkänsliga riktningssystemet skapar en betydande konkurrensfördel. Alla riktningsledtrådar — "Börja vid," "Flytta," riktningsvokabulär, "ruta/rutor" och "Var är skatten?" — översätts fullständigt.\n\nKonkreta exempel: "Move up 2 squares" blir "Flytta uppåt 2 rutor" på svenska, "Gehe 2 Felder nach oben" på tyska, "Bouge de 2 cases vers le haut" på franska.\n\nEn designsession producerar 11 säljbara språkversioner. Lista språkspecifika produkter. Publicera språkspecifika KDP-interiörer.\n\nFlerspråkiga skattjaktpaket betjänar ESL-lärare, tvåspråkiga familjer och internationella skolor.',
+      content: 'Det språkkänsliga riktningssystemet skapar en betydande konkurrensfördel. Alla riktningsledtrådar — "Börja vid," "Flytta," riktningsvokabulär, "ruta/rutor" och "Var är skatten?" — översätts fullständigt.\n\nKonkreta exempel: "Move up 2 squares" blir "Flytta uppåt 2 rutor" på svenska, "Gehe 2 Felder nach oben" på tyska, "Bouge de 2 cases vers le haut" på franska.\n\nEn designsession producerar 11 säljbara språkversioner. Lista språkspecifika produkter. Publicera språkspecifika KDP-interiörer.\n\nFlerspråkiga skattjaktpaket betjänar ESL-säljare, tvåspråkiga familjer och internationella skolor.',
     },
   ],
 
   examples: [
     {
       heading: 'Produktvariationer efter riktningstyp och åldersgrupp',
-      content: 'Grundläggande riktningar — förskoleklass till årskurs 1: "Flytta uppåt 2 rutor" med djur- och fordonsllandmärken. Bekant vokabulär. 10–12 pussel per set. "Djur skattjakt — Grundläggande riktningar — Förskoleklass."\n\nKardinalriktningar — årskurs 2+: "Flytta norrut 3 rutor" med äventyrs- och naturteman. Introducerar kompasskoncept. 10–15 pussel. "Komplass skattjakt — Kardinalriktningar — Årskurs 2–3."\n\nDubbelt riktningspaket: grundläggande OCH kardinal med samma tema. 20–30 pussel. "Komplett riktnings skattjakt — Grundläggande och kardinal."\n\nFlerspråkigt klassrumsset: samma tematiserade pussel i 3–5 språk. "Flerspråkig skattjakt" till $12,99–$19,99.',
+      content: 'Grundläggande riktningar — förskoleklass till årskurs 1: "Flytta uppåt 2 rutor" med djur- och fordonsllandmärken. Bekant vokabulär. 10–12 pussel per set. "Djur skattjakt — Grundläggande riktningar — Förskoleklass."\n\nKardinalriktningar — årskurs 2+: "Flytta norrut 3 rutor" med äventyrs- och naturteman. Introducerar kompasskoncept. 10–15 pussel. "Komplass skattjakt — Kardinalriktningar — Årskurs 2–3."\n\nDubbelt riktningspaket: grundläggande OCH kardinal med samma tema. 20–30 pussel. "Komplett riktnings skattjakt — Grundläggande och kardinal."\n\nFlerspråkigt produktlinjesset: samma tematiserade pussel i 3–5 språk. "Flerspråkig skattjakt" till $12,99–$19,99.',
     },
     {
       heading: 'Progressiv KDP-arbetsboksdesign',
@@ -140,7 +140,7 @@ const content: GuideContent = {
     {
       slug: 'skapa-hitta-foeremaalen-arbetsblad',
       title: 'Skapa Hitta föremålen-arbetsblad',
-      description: 'En sök-och-hitta-kompanjon. Hitta föremålen-arbetsblad ber elever skanna scener efter specifika objekt, relaterade visuella sök- och observationsförmågor.',
+      description: 'En sök-och-hitta-kompanjon. Hitta föremålen-arbetsblad ber användare skanna scener efter specifika objekt, relaterade visuella sök- och observationsförmågor.',
     },
     {
       slug: 'skapa-labyrint-arbetsblad',

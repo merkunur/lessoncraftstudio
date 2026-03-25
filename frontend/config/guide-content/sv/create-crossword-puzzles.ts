@@ -23,11 +23,11 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar korsordspussel för barn',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska korsordspussel med bildledtrådar du kan sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
-    description: 'Korsordspussel är ett av de mest igenkända och omtyckta pusselformaten i världen — och barnkorsordmarknaden växer snabbt. Lärare använder dem för vokabulärförstärkning. Föräldrar använder dem för stavningsövning. Handledare använder dem för att göra ordstudier till ett spel. Denna guide leder dig genom hela skapandeprocessen med Korsordspussel-generatorn — från att välja mellan bildbaserade ledtrådar och anpassade ordlistor till att konfigurera rutnätslayout, granska numrerade ledtrådar och exportera tryckfärdiga PDF:er med facit. Generatorn stöder 11 språk, vilket gör flerspråkiga korsordsprodukter till en realistisk och differentierad nisch.',
+    tagline: 'En steg-för-steg-guide för att skapa tematiska korsordspussel med bildledtrådar du kan sälja på Etsy, Amazon KDP och Gumroad',
+    description: 'Korsordspussel är ett av de mest igenkända och omtyckta pusselformaten i världen — och barnkorsordmarknaden växer snabbt. säljare använder dem för vokabulärförstärkning. Föräldrar använder dem för stavningsövning. Handledare använder dem för att göra ordstudier till ett spel. Denna guide leder dig genom hela skapandeprocessen med Korsordspussel-generatorn — från att välja mellan bildbaserade ledtrådar och anpassade ordlistor till att konfigurera rutnätslayout, granska numrerade ledtrådar och exportera tryckfärdiga PDF:er med facit. Generatorn stöder 11 språk, vilket gör flerspråkiga korsordsprodukter till en realistisk och nivågrupperad nisch.',
   },
 
-  introduction: 'Korsordspussel intar en unik position på den pedagogiska printable-marknaden. Till skillnad från ordsökningar där barn söker efter dolda ord kräver korsord aktivt återkallande och bokstav-för-bokstav stavningsnoggrannhet. Ett barn som löser ett korsord måste identifiera varje bildledtråd, återkalla rätt ord och skriva varje bokstav i sekvens in i korsande rutnätsrutor. Den kombinationen av visuell igenkänning, vokabuläråterkallande och stavningsprecision gör korsord till ett av de starkaste vokabulärbyggande verktygen.\n\nBarnkorsordskategorin drar också nytta av stark varumärkesigenkänning. Vuxna växte upp med att lösa korsord i tidningar och tidskrifter, så föräldrar och lärare känner instinktivt igen formatet och litar på dess pedagogiska värde.\n\nVad som gör denna generator särskilt kraftfull är bildledtrådsformatet. Traditionella korsord använder textbaserade ledtrådar, som kräver läsförmåga. Bildbaserade korsord ersätter textledtrådar med bilder — ett barn ser en bild av en katt och skriver K-A-T-T i rutnätet. Detta gör korsord tillgängliga för barn från förskoleklassåldern.\n\nKorsordspussel-generatorn hanterar det komplexa algoritmiska arbetet. Den placerar 8 ord i ett korsande rutnät, tilldelar numrerade positioner, genererar bildledtrådar och producerar ett komplett facit. Två skapandelägen — temabaserad bildval och anpassad ordlista med textledtrådar — ger dig flexibilitet.\n\nSpråkstödet är en stor differentiering. Att byta språk ändrar varje svar i rutnätet. Ett tyskt korsord med djurtema använder helt annan vokabulär än ett engelskt. Detta öppnar flerspråkiga produktlinjer som de flesta konkurrenter aldrig försöker.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Korsordspussel intar en unik position på den pedagogiska printable-marknaden. Till skillnad från ordsökningar där barn söker efter dolda ord kräver korsord aktivt återkallande och bokstav-för-bokstav stavningsnoggrannhet. Ett barn som löser ett korsord måste identifiera varje bildledtråd, återkalla rätt ord och skriva varje bokstav i sekvens in i korsande rutnätsrutor. Den kombinationen av visuell igenkänning, vokabuläråterkallande och stavningsprecision gör korsord till ett av de starkaste vokabulärbyggande verktygen.\n\nBarnkorsordskategorin drar också nytta av stark varumärkesigenkänning. Vuxna växte upp med att lösa korsord i tidningar och tidskrifter, så föräldrar och säljare känner instinktivt igen formatet och litar på dess pedagogiska värde.\n\nVad som gör denna generator särskilt kraftfull är bildledtrådsformatet. Traditionella korsord använder textbaserade ledtrådar, som kräver läsförmåga. Bildbaserade korsord ersätter textledtrådar med bilder — ett barn ser en bild av en katt och skriver K-A-T-T i rutnätet. Detta gör korsord tillgängliga för barn från förskoleklassåldern.\n\nKorsordspussel-generatorn hanterar det komplexa algoritmiska arbetet. Den placerar 8 ord i ett korsande rutnät, tilldelar numrerade positioner, genererar bildledtrådar och producerar ett komplett facit. Två skapandelägen — temabaserad bildval och anpassad ordlista med textledtrådar — ger dig flexibilitet.\n\nSpråkstödet är en stor differentiering. Att byta språk ändrar varje svar i rutnätet. Ett tyskt korsord med djurtema använder helt annan vokabulär än ett engelskt. Detta öppnar flerspråkiga produktlinjer som de flesta konkurrenter aldrig försöker.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -44,7 +44,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Konfigurera sidlayout och utseende',
-      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande och anpassade dimensioner. Stående orientering fungerar bäst för barnkorsord — rutnätet överst med bildledtrådar nedanför.\n\nBakgrundstema lägger till subtila dekorativa bakgrunder med justerbar opacitet. Ramtema lägger till dekorativa ramar. Kombinerat skapar dessa ett polerat, professionellt utseende.\n\nSidfärg sätter övergripande bakgrundsfärg. Vitt är standard. Ljusa pasteller kan fungera för tematisk färgkoordinering.\n\nGråskaleläge konverterar till svartvitt — avgörande för klassrumsfotokopiering. Att skapa både färg- och gråskaleversioner fördubblar dina produktalternativ.',
+      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande och anpassade dimensioner. Stående orientering fungerar bäst för barnkorsord — rutnätet överst med bildledtrådar nedanför.\n\nBakgrundstema lägger till subtila dekorativa bakgrunder med justerbar opacitet. Ramtema lägger till dekorativa ramar. Kombinerat skapar dessa ett polerat, professionellt utseende.\n\nSidfärg sätter övergripande bakgrundsfärg. Vitt är standard. Ljusa pasteller kan fungera för tematisk färgkoordinering.\n\nGråskaleläge konverterar till svartvitt — avgörande för produktlinjesfotokopiering. Att skapa både färg- och gråskaleversioner fördubblar dina produktalternativ.',
     },
     {
       heading: 'Generera och förhandsgranska ditt korsordspussel',
@@ -56,7 +56,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Exportera som tryckfärdig PDF och JPEG',
-      content: 'Pussel PDF: Standardformat för printable-produktförsäljning.\n\nPussel JPEG: Högupplöst bildfil för listningsförhandsgranskningar och sociala medier.\n\nFacit PDF och Facit JPEG: Separata filer för facit i båda format.\n\nGråskaleexport finns för klassrumsfotokopiering. Ett enda pussel kan exporteras i både färg och gråskala.\n\nViktigt: den gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.\n\nFör marknadsplatslistningar, exportera båda formaten. Använd JPEG som miniatyrbild och PDF som leverbar produkt.',
+      content: 'Pussel PDF: Standardformat för printable-produktförsäljning.\n\nPussel JPEG: Högupplöst bildfil för listningsförhandsgranskningar och sociala medier.\n\nFacit PDF och Facit JPEG: Separata filer för facit i båda format.\n\nGråskaleexport finns för produktlinjesfotokopiering. Ett enda pussel kan exporteras i både färg och gråskala.\n\nViktigt: den gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.\n\nFör marknadsplatslistningar, exportera båda formaten. Använd JPEG som miniatyrbild och PDF som leverbar produkt.',
     },
     {
       heading: 'Skapa variationer för en komplett produktlinje',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Amazon KDP är den dominerande plattformen för pusselböcker. Barnkorsordsboksnischen växer.\n\nProduktformat: Skapa en korsordsbok med 50–100 pussel plus facit. Använd konsekvent tematisering.\n\nTitel och undertitel: Exempeltitel "Crossword Puzzles for Kids Ages 5–8." Exempel-undertitel "100 Animal-Themed Picture Crosswords with Image Clues and Answer Keys."\n\nOmslagsdesign: Visa ett exempelkorsord på omslaget. Inkludera "With Answer Keys" framträdande.\n\nPrissättning: KDP korsordsböcker $5,99–$9,99 för 50–100 pussel.',
     },
     {
-      heading: 'Sälja korsordspussel på Teachers Pay Teachers',
-      content: 'TPT riktar sig till klassrumspedagoger. Korsord passar naturligt in i språkkonst-, ESL- och vokabulärundervisning.\n\nProduktbeskrivningar bör inkludera: målårskurs, specifika vokabulärfärdigheter, antal pussel, facitbekräftelse och läroplansanpassning.\n\nFörhandsgranskningsfiler: inkludera 2–3 kompletta provkorsord.\n\nPaketering: "Vokabulärkorsords-paket — 20 teman — 160 pussel med facit" ger ett helt år av veckovisa aktiviteter.\n\nTPT-nyckelord: "vokabulärcentra aktivitet," "tidiga slutare," "morgonarbete," "ordarbetsstation," "stavningsberikning," "ESL vokabulärövning."\n\nÄmnesspecifika korsord: Naturvetenskapligt vokabulär, samhällskunskapstermer och ordbildskorsord i anpassat ordlisteläge.',
+      heading: 'Sälja korsordspussel på Gumroad',
+      content: 'Gumroad riktar sig till produktlinjessäljare. Korsord passar naturligt in i språkkonst-, ESL- och vokabulärundervisning.\n\nProduktbeskrivningar bör inkludera: målårskurs, specifika vokabulärfärdigheter, antal pussel, facitbekräftelse och produktkatalogsanpassning.\n\nFörhandsgranskningsfiler: inkludera 2–3 kompletta provkorsord.\n\nPaketering: "Vokabulärkorsords-paket — 20 teman — 160 pussel med facit" ger ett helt år av veckovisa aktiviteter.\n\nGumroad-nyckelord: "vokabulärcentra aktivitet," "tidiga slutare," "morgonarbete," "ordarbetsstation," "stavningsberikning," "ESL vokabulärövning."\n\nÄmnesspecifika korsord: Naturvetenskapligt vokabulär, samhällskunskapstermer och ordbildskorsord i anpassat ordlisteläge.',
     },
   ],
 
@@ -97,7 +97,7 @@ const content: GuideContent = {
   examples: [
     {
       heading: 'Produktvariationer efter åldersgrupp och format',
-      content: 'Förskoleklass–årskurs 1 (5–7 år): Använd temabaserade bildledtrådar exklusivt. Välj teman med korta, enkla ord (3–5 bokstäver): husdjur (katt, hund, fisk), frukter (äpple, päron, druva). Bildledtrådar gör dessa tillgängliga för nya läsare. Skapa 8–10 korsord per tema.\n\nÅrskurs 2–3 (7–9 år): Blanda bildledtrådar och anpassade ordlistor. Välj teman med medellånga ord (5–8 bokstäver): havsdjur (delfin, bläckfisk, val), fordon (flygplan, cykel, traktor).\n\nESL och språkinlärare: Använd flerspråkig generering. "Lär dig engelska djur"-korsord med bildledtrådar och engelska svarsord lär vokabulär genom pussellösning.\n\nLärarklassrumspaket: 20–30 korsord som täcker en hel termin. Blanda svårighetsnivåer.\n\nAmazon KDP korsordsböcker: Samla 80–100 tematiska korsord. Organisera efter svårighetskapitel.',
+      content: 'Förskoleklass–årskurs 1 (5–7 år): Använd temabaserade bildledtrådar exklusivt. Välj teman med korta, enkla ord (3–5 bokstäver): husdjur (katt, hund, fisk), frukter (äpple, päron, druva). Bildledtrådar gör dessa tillgängliga för nya läsare. Skapa 8–10 korsord per tema.\n\nÅrskurs 2–3 (7–9 år): Blanda bildledtrådar och anpassade ordlistor. Välj teman med medellånga ord (5–8 bokstäver): havsdjur (delfin, bläckfisk, val), fordon (flygplan, cykel, traktor).\n\nESL och språkinlärare: Använd flerspråkig generering. "Lär dig engelska djur"-korsord med bildledtrådar och engelska svarsord lär vokabulär genom pussellösning.\n\nLärarproduktlinjespaket: 20–30 korsord som täcker en hel termin. Blanda svårighetsnivåer.\n\nAmazon KDP korsordsböcker: Samla 80–100 tematiska korsord. Organisera efter svårighetskapitel.',
     },
     {
       heading: 'Flerspråkiga och nischproduktstrategier',
@@ -108,7 +108,7 @@ const content: GuideContent = {
   faq: [
     {
       question: 'Vilka ledtrådsformat stöder Korsordspussel-generatorn?',
-      answer: 'Generatorn stöder två ledtrådsformat. Temabaserade bildledtrådar använder bilder — barn ser en bild och skriver dess namn i korsordsrutnätet. Anpassat ordlisteläge låter dig skriva egna ord parade med textbaserade ledtrådar. Bildledtrådar är idealiska för yngre barn. Textledtrådar för äldre elever och ämnesspecifik vokabulär.',
+      answer: 'Generatorn stöder två ledtrådsformat. Temabaserade bildledtrådar använder bilder — barn ser en bild och skriver dess namn i korsordsrutnätet. Anpassat ordlisteläge låter dig skriva egna ord parade med textbaserade ledtrådar. Bildledtrådar är idealiska för yngre barn. Textledtrådar för äldre användare och ämnesspecifik vokabulär.',
     },
     {
       question: 'Hur många ord innehåller varje korsordspussel?',
@@ -120,7 +120,7 @@ const content: GuideContent = {
     },
     {
       question: 'Skapar generatorn facit automatiskt?',
-      answer: 'Ja. Varje korsord inkluderar ett automatiskt facit som visar det ifyllda rutnätet med alla bokstäver. Facit exporteras som både PDF och JPEG, separata från pusselfilen. Avgörande för lärare, föräldrar och pusselboks facitsektioner.',
+      answer: 'Ja. Varje korsord inkluderar ett automatiskt facit som visar det ifyllda rutnätet med alla bokstäver. Facit exporteras som både PDF och JPEG, separata från pusselfilen. Avgörande för säljare, föräldrar och pusselboks facitsektioner.',
     },
     {
       question: 'Hur många tematiska bilduppsättningar finns det?',

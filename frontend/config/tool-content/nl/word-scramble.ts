@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Letterpuzzel Werkblad Maker',
     tagline: 'Maak gehusselde-lettertegel spellingpuzzels met afbeeldingsaanwijzingen, kleurcodering en 4 moeilijkheidsniveaus in 11 talen',
-    description: 'Verander woordenschatoefening in een praktische spellingpuzzel die leerlingen oplossen door gehusselde lettertegels te herschikken. Deze tool genereert letterpuzzel werkbladen waarbij een afbeeldingsaanwijzing gekoppeld is aan een set door-elkaar-gehusselde tegels — leerlingen bestuderen het plaatje, identificeren wat het voorstelt, en slepen de letters in de juiste volgorde. Anders dan invuloefeningen geeft letterpuzzel leerlingen ALLE letters maar in de verkeerde volgorde, waardoor het een letterherschikkingsuitdaging wordt die spellingnauwkeurigheid opbouwt door actieve manipulatie. De opvallende functie is klinker-medeklinker kleurcodering: schakel het in om klinkers in één kleur en medeklinkers in een andere te tonen, wat een visuele fonetische dimensie toevoegt die leerlingen helpt lettertypes te identificeren terwijl ze ontwarren. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf op hun correcte positie zijn geplaatst: Geen Aanwijzingen husselt elke letter voor maximale uitdaging, Makkelijk plaatst de helft voor ondersteunde beginners, Normaal plaatst een kwart voor gebalanceerde oefening, en Moeilijk plaatst slechts een zesde voor zelfverzekerde spellers. Kies tussen drie inhoudsbronnen: Afbeeldingenbibliotheek haalt uit meer dan 3100 illustraties over 104 thematische collecties, Handmatige Bewerkingsmodus laat je afbeeldingen selecteren en weergavenamen aanpassen, en Aangepaste Woordenlijst laat je tot 8 woorden direct typen voor tekst-only puzzels. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en dezelfde afbeelding produceert een ander doelwoord met andere letters en een compleet andere gehusselde opstelling. Een hondafbeelding genereert "HOND" in het Nederlands, "DOG" in het Engels, "HUND" in het Duits, "CHIEN" in het Frans. Eén ontwerp wordt 11 unieke producten. Stel 1–10 puzzels per pagina in, schakel tussen hoofdletters en kleine letters, voeg oefeningnummering toe en kies uit 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG met automatische antwoordbladgeneratie. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Verander woordenschatoefening in een praktische spellingpuzzel die gebruikers oplossen door gehusselde lettertegels te herschikken. Deze tool genereert letterpuzzel werkbladen waarbij een afbeeldingsaanwijzing gekoppeld is aan een set door-elkaar-gehusselde tegels — gebruikers bestuderen het plaatje, identificeren wat het voorstelt, en slepen de letters in de juiste volgorde. Anders dan invuloefeningen geeft letterpuzzel gebruikers ALLE letters maar in de verkeerde volgorde, waardoor het een letterherschikkingsuitdaging wordt die spellingnauwkeurigheid opbouwt door actieve manipulatie. De opvallende functie is klinker-medeklinker kleurcodering: schakel het in om klinkers in één kleur en medeklinkers in een andere te tonen, wat een visuele fonetische dimensie toevoegt die gebruikers helpt lettertypes te identificeren terwijl ze ontwarren. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf op hun correcte positie zijn geplaatst: Geen Aanwijzingen husselt elke letter voor maximale uitdaging, Makkelijk plaatst de helft voor ondersteunde beginners, Normaal plaatst een kwart voor gebalanceerde oefening, en Moeilijk plaatst slechts een zesde voor zelfverzekerde spellers. Kies tussen drie inhoudsbronnen: Afbeeldingenbibliotheek haalt uit meer dan 3100 illustraties over 104 thematische collecties, Handmatige Bewerkingsmodus laat je afbeeldingen selecteren en weergavenamen aanpassen, en Aangepaste Woordenlijst laat je tot 8 woorden direct typen voor tekst-only puzzels. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en dezelfde afbeelding produceert een ander doelwoord met andere letters en een compleet andere gehusselde opstelling. Een hondafbeelding genereert "HOND" in het Nederlands, "DOG" in het Engels, "HUND" in het Duits, "CHIEN" in het Frans. Eén ontwerp wordt 11 unieke producten. Stel 1–10 puzzels per pagina in, schakel tussen hoofdletters en kleine letters, voeg oefeningnummering toe en kies uit 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG met automatische antwoordbladgeneratie. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Schakel klinker-medeklinker kleurcodering in',
-        description: 'Schakel de Kleurcodering-schakelaar in om klinkers in één kleur en medeklinkers in een andere weer te geven op de gehusselde lettertegels. Deze functie is uniek voor Letterpuzzel en voegt een visuele fonetische dimensie toe die leerlingen helpt lettertypes te identificeren terwijl ze tegels herschikken. Selecteer Alles Zwart voor traditionele monochrome tegels wanneer kleurdifferentiatie niet nodig is.',
+        description: 'Schakel de Kleurcodering-schakelaar in om klinkers in één kleur en medeklinkers in een andere weer te geven op de gehusselde lettertegels. Deze functie is uniek voor Letterpuzzel en voegt een visuele fonetische dimensie toe die gebruikers helpt lettertypes te identificeren terwijl ze tegels herschikken. Selecteer Alles Zwart voor traditionele monochrome tegels wanneer kleurgetrapte productpakketten niet nodig is.',
       },
       {
         title: 'Configureer lettergrootte, nummering en taal',
-        description: 'Schakel tussen hoofdletters (standaard) en kleine letters. Schakel oefeningnummering in of uit. Schakel naam- en datumvelden in. Selecteer uit 11 ondersteunde talen — elke taal verandert het doelwoord volledig, dus dezelfde afbeelding creëert een compleet andere letterpuzzel. Voeg aangepaste tekstoverlays toe met instructies voor leerlingbegeleiding.',
+        description: 'Schakel tussen hoofdletters (standaard) en kleine letters. Schakel oefeningnummering in of uit. Schakel naam- en datumvelden in. Selecteer uit 11 ondersteunde talen — elke taal verandert het doelwoord volledig, dus dezelfde afbeelding creëert een compleet andere letterpuzzel. Voeg aangepaste tekstoverlays toe met instructies voor gebruikerbegeleiding.',
       },
       {
         title: 'Pas lettertypen, tekst en canvas aan',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Letterherschikking Puzzelpakketten',
-      description: 'Maak sets van 10–15 letterpuzzel werkbladen met thematische beeldcollecties — dieren, voedsel, voertuigen, natuurscènes, feestdagen, sport en meer. Elke puzzel presenteert een afbeeldingsaanwijzing naast gehusselde lettertegels die leerlingen in de juiste spelling herschikken. Schakel kleurcodering in voor de helft van de set voor een "fonetische editie" variant. Bundel per thema en verkoop op Etsy.nl of TPT. Het gehusselde-tegel formaat met kleurrijke afbeeldingsaanwijzingen maakt je vermeldingsminiaturen direct opvallend. Positioneer op €3–€5 per thema.',
+      description: 'Maak sets van 10–15 letterpuzzel werkbladen met thematische beeldcollecties — dieren, voedsel, voertuigen, natuurscènes, feestdagen, sport en meer. Elke puzzel presenteert een afbeeldingsaanwijzing naast gehusselde lettertegels die gebruikers in de juiste spelling herschikken. Schakel kleurcodering in voor de helft van de set voor een "fonetische editie" variant. Bundel per thema en verkoop op Etsy.nl of Gumroad. Het gehusselde-tegel formaat met kleurrijke afbeeldingsaanwijzingen maakt je vermeldingsminiaturen direct opvallend. Positioneer op €3–€5 per thema.',
     },
     {
       title: 'KDP Letterpuzzel Activiteitenboeken',
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Aangepaste Woordenschat Letterpuzzel Werkbladen',
-      description: 'Gebruik de Aangepaste Woordenlijst modus om vakspecifieke woordenschat direct te typen: wetenschappelijke termen, zichtwoorden, spellingbij-lijsten, wekelijkse woordenschatopdrachten of vreemde taal oefening. Geen afbeeldingen nodig — de tool genereert gehusselde lettertegels vanuit je getypte woorden. Maak gerichte spellingpuzzels voor elk curriculum, groepsniveau of nichethema.',
+      description: 'Gebruik de Aangepaste Woordenlijst modus om vakspecifieke woordenschat direct te typen: wetenschappelijke termen, zichtwoorden, spellingbij-lijsten, wekelijkse woordenschatopdrachten of vreemde taal oefening. Geen afbeeldingen nodig — de tool genereert gehusselde lettertegels vanuit je getypte woorden. Maak gerichte spellingpuzzels voor elk productcatalogus, niveaucategorie of nichethema.',
     },
     {
       title: 'Gedifferentieerde Moeilijkheidsbundels',
-      description: 'Genereer vier versies van hetzelfde thematische werkblad — één op elk moeilijkheidsniveau: Geen Aanwijzingen, Makkelijk, Normaal en Moeilijk. Leerkrachten wijzen de juiste versie toe aan elke leerling op basis van vaardigheid. Verkoop als gedifferentieerd pakket op een premiumprijs op TPT of Etsy.nl. Voeg kleurgecodeerde varianten toe voor in totaal acht onderscheidende versies vanuit één ontwerpsessie, met antwoordbladen voor elke versie.',
+      description: 'Genereer vier versies van hetzelfde thematische werkblad — één op elk moeilijkheidsniveau: Geen Aanwijzingen, Makkelijk, Normaal en Moeilijk. verkopers wijzen de juiste versie toe aan elke gebruiker op basis van vaardigheid. Verkoop als gedifferentieerd pakket op een premiumprijs op Gumroad of Etsy.nl. Voeg kleurgecodeerde varianten toe voor in totaal acht onderscheidende versies vanuit één ontwerpsessie, met antwoordbladen voor elke versie.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Fonetisch Gerichte Letterpuzzel Winkel op Etsy',
-      description: 'Open een Etsy-winkel gespecialiseerd in kleurgecodeerde letterpuzzel werkbladen — een productcategorie die geen concurrent kan repliceren met basis woordenlijst-generators. De klinker-medeklinker kleurcodering creëert een visueel onderscheidend product dat opvalt in Etsy-zoekresultaten en aantrekkelijk is voor fonetisch gerichte ouders en NT2-docenten. Maak thematische pakketten in zowel kleurgecodeerde als klassiek zwarte edities. Richt je op kopers die zoeken naar visuele spellinghulpmiddelen en fonetische werkbladen.',
+      description: 'Open een Etsy-winkel gespecialiseerd in kleurgecodeerde letterpuzzel werkbladen — een productcategorie die geen concurrent kan repliceren met basis woordenlijst-generators. De klinker-medeklinker kleurcodering creëert een visueel onderscheidend product dat opvalt in Etsy-zoekresultaten en aantrekkelijk is voor fonetisch gerichte ouders en NT2-verkopers. Maak thematische pakketten in zowel kleurgecodeerde als klassiek zwarte edities. Richt je op kopers die zoeken naar visuele spellinghulpmiddelen en fonetische werkbladen.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Gedifferentieerde Geletterdheidscentra',
-      description: 'Upload letterpuzzel werkbladpakketten naar TPT georganiseerd per thema, moeilijkheidsniveau en kleurcodering. Niveau 1: Makkelijk met kleurgecodeerde tegels voor visuele leerlingen. Niveau 2: Normaal met kleurcodering. Niveau 3: Moeilijk met Alles Zwart tegels. Niveau 4: Geen Aanwijzingen met Alles Zwart voor gevorderde uitdaging. Voeg antwoordbladen en een voortgangsregistratieblad toe. TPT-kopers betalen premiumprijzen voor gedifferentieerde spellingbronnen.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Gedifferentieerde Geletterdheidscentra',
+      description: 'Upload letterpuzzel werkbladpakketten naar Gumroad georganiseerd per thema, moeilijkheidsniveau en kleurcodering. Niveau 1: Makkelijk met kleurgecodeerde tegels voor visuele gebruikers. Niveau 2: Normaal met kleurcodering. Niveau 3: Moeilijk met Alles Zwart tegels. Niveau 4: Geen Aanwijzingen met Alles Zwart voor gevorderde uitdaging. Voeg antwoordbladen en een voortgangsregistratieblad toe. Gumroad-kopers betalen premiumprijzen voor gedifferentieerde spellingbronnen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Meertalige Woordenschat Winkel',
@@ -124,12 +124,12 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Gebruik Kleurcodering voor Fonetische Differentiatie',
-      description: 'Schakel klinker-medeklinker kleurcodering in om klinkers in één kleur en medeklinkers in een andere te tonen. Dit visuele fonetische hulpmiddel is uniek voor Letterpuzzel en helpt leerlingen lettertypes identificeren terwijl ze ontwarren. Maak een "Kleurgecodeerde Editie" naast een "Klassieke Editie" van elk thema om je productbereik te verdubbelen.',
+      title: 'Gebruik Kleurcodering voor Fonetische getrapte productpakketten',
+      description: 'Schakel klinker-medeklinker kleurcodering in om klinkers in één kleur en medeklinkers in een andere te tonen. Dit visuele fonetische hulpmiddel is uniek voor Letterpuzzel en helpt gebruikers lettertypes identificeren terwijl ze ontwarren. Maak een "Kleurgecodeerde Editie" naast een "Klassieke Editie" van elk thema om je productbereik te verdubbelen.',
     },
     {
       title: 'Gebruik Geen Aanwijzingen voor Spellingbeoordelingen',
-      description: 'Geen Aanwijzingen modus husselt elke letter met nul vooraf geplaatste posities, waardoor een oprechte spellingbeoordeling ontstaat vanuit een afbeeldingsaanwijzing. Leerlingen moeten de volledige spelling oproepen en alle tegels zelfstandig herschikken. Gebruik het voor toetsen, laatste uitdagingssecties in werkboeken of premium "expert editie" producten.',
+      description: 'Geen Aanwijzingen modus husselt elke letter met nul vooraf geplaatste posities, waardoor een oprechte spellingbeoordeling ontstaat vanuit een afbeeldingsaanwijzing. gebruikers moeten de volledige spelling oproepen en alle tegels zelfstandig herschikken. Gebruik het voor toetsen, laatste uitdagingssecties in werkboeken of premium "expert editie" producten.',
     },
     {
       title: 'Ga Meertalig voor 11× Productbereik',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gebruik Handmatige Bewerkingsmodus voor Aangepaste Woordenschat',
-      description: 'Handmatige Bewerkingsmodus laat je afbeeldingen uit de bibliotheek selecteren en hun weergavenamen bewerken vóór generatie. Gebruik het om spellingen te vereenvoudigen voor jongere leerlingen, alternatieve woordenschat toe te voegen of op specifieke fonetische patronen te richten. De afbeelding verschijnt nog steeds als visuele aanwijzing, maar het woord om te ontwarren is wat je typt.',
+      description: 'Handmatige Bewerkingsmodus laat je afbeeldingen uit de bibliotheek selecteren en hun weergavenamen bewerken vóór generatie. Gebruik het om spellingen te vereenvoudigen voor jongere gebruikers, alternatieve woordenschat toe te voegen of op specifieke fonetische patronen te richten. De afbeelding verschijnt nog steeds als visuele aanwijzing, maar het woord om te ontwarren is wat je typt.',
     },
     {
       title: 'Gebruik Grijstinten voor KDP en Bulkdruk',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Mix Moeilijkheidsniveaus in Bundels',
-      description: 'Maak werkbladbundels die progresseren van Makkelijk naar Geen Aanwijzingen over hetzelfde thema. Een "Boerderijdieren Spellingpuzzels" pakket met 5 Makkelijk pagina\'s, 5 Normaal, 5 Moeilijk en 5 Geen Aanwijzingen geeft leerkrachten een kant-en-klare gedifferentieerde set. Voeg antwoordbladen toe voor elk niveau. Progressieve bundels rechtvaardigen premiumprijzen op TPT en Etsy.nl.',
+      description: 'Maak werkbladbundels die progresseren van Makkelijk naar Geen Aanwijzingen over hetzelfde thema. Een "Boerderijdieren Spellingpuzzels" pakket met 5 Makkelijk pagina\'s, 5 Normaal, 5 Moeilijk en 5 Geen Aanwijzingen geeft verkopers een kant-en-klare gedifferentieerde set. Voeg antwoordbladen toe voor elk niveau. Progressieve bundels rechtvaardigen premiumprijzen op Gumroad en Etsy.nl.',
     },
     {
       title: 'Combineer met Raad het Woord voor Uitgebreide Pakketten',
-      description: 'Letterpuzzel (letterherschikking) en Raad het Woord (invuloefening) oefenen verschillende cognitieve vaardigheden met vergelijkbare woordenschat. Bundel beide formaten in een "Compleet Spellingoefening" pakket waarbij leerlingen eerst tegels ontwarren en dan ontbrekende letters invullen. Multi-formaat bundels verkopen voor meer dan enkelvoudige pakketten en bieden grondiger spellingoefening.',
+      description: 'Letterpuzzel (letterherschikking) en Raad het Woord (invuloefening) oefenen verschillende cognitieve vaardigheden met vergelijkbare woordenschat. Bundel beide formaten in een "Compleet Spellingoefening" pakket waarbij gebruikers eerst tegels ontwarren en dan ontbrekende letters invullen. Multi-formaat bundels verkopen voor meer dan enkelvoudige pakketten en bieden grondiger spellingoefening.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hoe verschillen letterpuzzels van raad-het-woord werkbladen?',
-      answer: 'Letterpuzzel geeft leerlingen ALLE letters maar in de verkeerde volgorde — ze herschikken gehusselde tegels in de juiste spelling. Raad het Woord toont lege plekken op vaste posities en leerlingen vullen de ontbrekende letters in. Letterpuzzel is een letterherschikkingsuitdaging; Raad het Woord is een invuloefening. Ze oefenen verschillende cognitieve vaardigheden en passen goed samen in gebundelde producten.',
+      answer: 'Letterpuzzel geeft gebruikers ALLE letters maar in de verkeerde volgorde — ze herschikken gehusselde tegels in de juiste spelling. Raad het Woord toont lege plekken op vaste posities en gebruikers vullen de ontbrekende letters in. Letterpuzzel is een letterherschikkingsuitdaging; Raad het Woord is een invuloefening. Ze oefenen verschillende cognitieve vaardigheden en passen goed samen in gebundelde producten.',
     },
     {
       question: 'Hoe werken de vier moeilijkheidsniveaus?',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wat is klinker-medeklinker kleurcodering?',
-      answer: 'Schakel de optie Kleurcodering in om klinkers in één kleur en medeklinkers in een andere op de lettertegels weer te geven. Dit visuele fonetische hulpmiddel helpt leerlingen klinker- en medeklinkerpatronen te onderscheiden terwijl ze ontwarren. Selecteer Alles Zwart voor traditionele monochrome tegels. Kleurcodering is uniek voor Letterpuzzel en voegt een sterke differentiatiedimensie toe voor verkopers die fonetisch gerichte kopers targeten.',
+      answer: 'Schakel de optie Kleurcodering in om klinkers in één kleur en medeklinkers in een andere op de lettertegels weer te geven. Dit visuele fonetische hulpmiddel helpt gebruikers klinker- en medeklinkerpatronen te onderscheiden terwijl ze ontwarren. Selecteer Alles Zwart voor traditionele monochrome tegels. Kleurcodering is uniek voor Letterpuzzel en voegt een sterke getrapte productpakkettendimensie toe voor verkopers die fonetisch gerichte kopers targeten.',
     },
     {
       question: 'Wat zijn de drie inhoudsbronnen?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan ik werkbladen gemaakt met deze tool commercieel verkopen?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

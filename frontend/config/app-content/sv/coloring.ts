@@ -7,7 +7,7 @@ const content: AppContent = {
       'målarbilder arbetsblad sälja på Etsy',
       'målarbilder generator för Amazon KDP',
       'utskrivbara målarbilder kommersiell licens',
-      'skapa målarbilder att sälja på TPT',
+      'skapa målarbilder att sälja på Gumroad',
     ],
     lsiKeywords: [
       'digitala målarbilder produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Målarbilder Generator | Skapa och Sälj Utskrivbara',
     metaDescription:
-      'Skapa anpassade målarbilder att sälja på Etsy, KDP och TPT. Fri arbetsyta, 104 teman, frihandsritning, gråskaleexport. Gratis provversion med vattenstämpel.',
+      'Skapa anpassade målarbilder att sälja på Etsy, KDP och Gumroad. Fri arbetsyta, 104 teman, frihandsritning, gråskaleexport. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Målarbilder Generator för Anpassade Utskrivbara Målararbetsblad',
-    tagline: 'Fri arbetsyta som målarbildsdesigner — bläddra bland 104 tematiska bildsamlingar, lägg till frihandsritningar, inkludera klassrumshjälpare som namnfält och skrivövningslinjer, och växla gråskaleexport för bläckvänliga målarbilder.',
+    tagline: 'Fri arbetsyta som målarbildsdesigner — bläddra bland 104 tematiska bildsamlingar, lägg till frihandsritningar, inkludera produktlinjeshjälpare som namnfält och skrivövningslinjer, och växla gråskaleexport för bläckvänliga målarbilder.',
     description:
-      'Designa professionella målarbilder på en fri arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, ren kreativ frihet. Bläddra i det inbyggda bildbiblioteket med mer än 3 100 färgglada illustrationer i 104 tematiska samlingar, klicka på valfri bild för att lägga till den på din arbetsyta, och arrangera, ändra storlek, rotera och lagra element tills sidan ser perfekt ut. Frihandsritningsverktyget låter dig skissa egna illustrationer direkt på arbetsytan med justerbar penselfärg och storlek. Klassrumshjälpare lägger till ett elevnamnfält och skrivövningslinjer med ett enda klick — och förvandlar målarbilder till färdiga klassrumsaktiviteter. När du är klar, växla gråskalealternativet för att konvertera din färgglada komposition till bläckvänliga målarbilder perfekta för utskrift. Lägg till dekorativa ramteman, anpassad text med kontureffekter och ladda upp egna bilder bredvid biblioteksinnehåll. Målarbilder-generatorn är inte språkkänslig — resultatet är rent visuellt, så arbetsbladen ser identiska ut på varje språk. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer målarbildspaket på Etsy, sammanställer målarböcker för Amazon KDP eller skapar klassrumsmålaraktiviteter för TPT — Målarbilder Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Designa professionella målarbilder på en fri arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, ren kreativ frihet. Bläddra i det inbyggda bildbiblioteket med mer än 3 100 färgglada illustrationer i 104 tematiska samlingar, klicka på valfri bild för att lägga till den på din arbetsyta, och arrangera, ändra storlek, rotera och lagra element tills sidan ser perfekt ut. Frihandsritningsverktyget låter dig skissa egna illustrationer direkt på arbetsytan med justerbar penselfärg och storlek. produktlinjeshjälpare lägger till ett namnfält och skrivövningslinjer med ett enda klick — och förvandlar målarbilder till färdiga produktlinjesaktiviteter. När du är klar, växla gråskalealternativet för att konvertera din färgglada komposition till bläckvänliga målarbilder perfekta för utskrift. Lägg till dekorativa ramteman, anpassad text med kontureffekter och ladda upp egna bilder bredvid biblioteksinnehåll. Målarbilder-generatorn är inte språkkänslig — resultatet är rent visuellt, så arbetsbladen ser identiska ut på varje språk. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer målarbildspaket på Etsy, sammanställer målarböcker för Amazon KDP eller skapar produktlinjesmålaraktiviteter för Gumroad — Målarbilder Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -45,14 +45,14 @@ const content: AppContent = {
           'Dra bilder var som helst på den fria arbetsytan — ingen rutnätsfästning, inga mallbegränsningar. Ändra storlek genom att dra hörnhandtagen, rotera till valfri vinkel och använd lagerkontroller för att hantera staplingsordning. Lås färdiga element för att förhindra oavsiktliga flyttningar medan du fortsätter redigera. Arbetsytan stöder upp till 20 ångra/gör om-steg (Ctrl+Z / Ctrl+Y) så du kan experimentera fritt. Zooma från 25% till 300% för precisionsplacering av små detaljer.',
       },
       {
-        title: 'Lägg till text, klassrumshjälpare och frihandsritningar',
+        title: 'Lägg till text, produktlinjeshjälpare och frihandsritningar',
         description:
-          'Använd panelen Textverktyg för att lägga till titlar, instruktioner eller etiketter med typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Justera teckenstorlek, färg och textkonturbredd (0–10 med 0,5-stegs granularitet) för maximal läsbarhet. Klicka på Klassrumshjälparna för att lägga till ett elevnamnfält («Namn: ____») eller skrivövningslinjer med ett enda klick. Växla till Ritverktyget för att skissa frihandsillustrationer direkt på arbetsytan — välj penselfärg och justera penselstorleken från 1 till 50 pixlar.',
+          'Använd panelen Textverktyg för att lägga till titlar, instruktioner eller etiketter med typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Justera teckenstorlek, färg och textkonturbredd (0–10 med 0,5-stegs granularitet) för maximal läsbarhet. Klicka på produktlinjeshjälparna för att lägga till ett namnfält («Namn: ____») eller skrivövningslinjer med ett enda klick. Växla till Ritverktyget för att skissa frihandsillustrationer direkt på arbetsytan — välj penselfärg och justera penselstorleken från 1 till 50 pixlar.',
       },
       {
         title: 'Växla gråskala och ladda ner',
         description:
-          'Öppna panelen Nedladdning och växla gråskalealternativet för att konvertera din färgglada komposition till bläckvänliga målarbilder — perfekt för utskrivbara arbetsblad och målarböcker. Exportera som högupplöst JPEG eller tryckfärdig PDF med 300 DPI. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler — ingen efterbearbetning behövs.',
+          'Öppna panelen Nedladdning och växla gråskalealternativet för att konvertera din färgglada komposition till bläckvänliga målarbilder — perfekt för utskrivbara arbetsblad och målarböcker. Exportera som högupplöst JPEG eller tryckfärdig PDF med 300 DPI. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler — ingen efterbearbetning behövs.',
       },
     ],
   },
@@ -71,14 +71,14 @@ const content: AppContent = {
           'Växla till Ritläge och skissa direkt på arbetsytan med frihandspenseln. Välj valfri penselfärg med färgväljaren och justera penselstorleken från 1 till 50 pixlar med reglaget. Rita egna ramar, lägg till dekorativa klotter, skapa originella illustrationer eller skissa kopplingslinjer mellan bilder. Ritverktyget använder Fabric.js frihandsrendering för jämna, responsiva streck. Kombinerat med bildbiblioteket låter frihandsritning dig skapa målarbilder som blandar kurerade illustrationer med din egen originalkonst.',
       },
       {
-        title: 'Klassrumshjälpare: namnfält och skrivövningslinjer',
+        title: 'produktlinjeshjälpare: namnfält och skrivövningslinjer',
         description:
-          'Två ettklicksklassrumshjälpare förvandlar målarbilder till färdiga klassrumsaktiviteter. Namnfältsknappen lägger till ett formaterat «Namn: ____________________» textblock placerat längst upp på sidan — eleverna skriver sitt namn innan de börjar. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Tillsammans gör dessa hjälpare dina målararbetsblad klassrumsfärdiga utan manuell textformatering. TPT-säljare kan lyfta fram dessa funktioner som inbyggd differentiering från generiska målarbilder.',
+          'Två ettklicksproduktlinjeshjälpare förvandlar målarbilder till färdiga produktlinjesaktiviteter. Namnfältsknappen lägger till ett formaterat «Namn: ____________________» textblock placerat längst upp på sidan — användarna skriver sitt namn innan de börjar. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Tillsammans gör dessa hjälpare dina målararbetsblad produktlinjesfärdiga utan manuell textformatering. Gumroad-säljare kan lyfta fram dessa funktioner som inbyggd differentiering från generiska målarbilder.',
       },
       {
         title: 'Gråskaleexportväxling för bläckvänliga målarbilder',
         description:
-          'Bildbiblioteket innehåller mer än 3 100 färgglada illustrationer — men målarbilder behöver skrivas ut i svartvitt så att eleverna kan lägga till sina egna färger. Gråskaleexportväxlingen löser detta genom att konvertera hela din komposition till gråskala vid exporttillfället. Designa med färgglada bilder för enkel visuell identifiering, växla sedan för att producera bläckvänliga målararbetsblad. Detta arbetsflöde är väsentligt för Amazon KDP-målarböcker där interiörsidor måste vara gråskala, och för klassrumsutskrift där färgbläck är dyrt eller otillgängligt.',
+          'Bildbiblioteket innehåller mer än 3 100 färgglada illustrationer — men målarbilder behöver skrivas ut i svartvitt så att användarna kan lägga till sina egna färger. Gråskaleexportväxlingen löser detta genom att konvertera hela din komposition till gråskala vid exporttillfället. Designa med färgglada bilder för enkel visuell identifiering, växla sedan för att producera bläckvänliga målararbetsblad. Detta arbetsflöde är väsentligt för Amazon KDP-målarböcker där interiörsidor måste vara gråskala, och för volymutskrift där färgbläck är dyrt eller otillgängligt.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI',
         description:
-          'Ladda ner målarbilder som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI via en 6x-multiplikator för skarpa resultat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy digitala nedladdningar, Amazon KDP-bokinteriörer och TPT-resursfiler.',
+          'Ladda ner målarbilder som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI via en 6x-multiplikator för skarpa resultat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy digitala nedladdningar, Amazon KDP-bokinteriörer och Gumroad-resursfiler.',
       },
       {
         title: 'Full arbetsyteredigering med textverktyg och lagerkontroller',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrumsmålaraktiviteter för TPT',
+        title: 'produktlinjesmålaraktiviteter för Gumroad',
         description:
-          'Bygg färdiga klassrumsmålararbetsblad med de inbyggda klassrumshjälparna. Lägg till ett namnfält så att eleverna identifierar sitt arbete, och inkludera skrivövningslinjer längst ner för integrerad lässtationary. Lärare som söker på TPT efter målaraktiviteter värdesätter arbetsblad som gör mer än bara måla — namnfältet och skrivövningslinjerna gör din produkt till ett flerfärdighetsaktivitetsark. Skapa temaspecifika set knutna till läroplansenheter: väder, årstider, samhällshjälpare, matgrupper och livsmiljöer. Det visuella resultatet fungerar för varje elev oavsett språk eller läsnivå.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg färdiga produktlinjesmålararbetsblad med de inbyggda produktlinjeshjälparna. Lägg till ett namnfält så att användarna identifierar sitt arbete, och inkludera skrivövningslinjer längst ner för integrerad lässtationary. köpare som söker på Gumroad efter målaraktiviteter värdesätter arbetsblad som gör mer än bara måla — namnfältet och skrivövningslinjerna gör din produkt till ett flerfärdighetsaktivitetsark. Skapa temaspecifika set knutna till produktkatalogsenheter: väder, årstider, samhällshjälpare, matgrupper och livsmiljöer. Det visuella resultatet fungerar för varje användare oavsett språk eller läsnivå.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Anpassade målarbilder med frihandsritning',
         description:
           'Kombinera bibliotekillustrationer med dina egna frihandsritningar för att skapa målarbilder som ingen annan generator kan producera. Skissa egna ramar, lägg till dekorativa element mellan bilder, rita sammanbindande scener som knyter samman flera bilder, eller skapa helt originella illustrationer på arbetsytan. Den justerbara penselstorleken (1–50px) hanterar allt från fint detaljarbete till feta konturer. Denna hybridmetod — kurerade biblioteksbilder plus originell frihandskonst — producerar målarbilder med genuint kreativt värde som motiverar premiumpriser i marknadsplatsannonser.',
-        platform: 'Etsy / Amazon KDP / TPT',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Säsongs- och högtidsmålarsamlingar',
         description:
           'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov, vinterlov och fler. Skapa tidsbegränsade målarbildssamlingar som sammanfaller med toppshoppingperioder. Släpp halloweenmålarpaket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Säsongsprodukter motiverar högre priser under sina toppfönster och skapar naturliga skäl till återköp från samma kundbas.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
     ],
   },
@@ -151,14 +151,14 @@ const content: AppContent = {
         'Växla Ritverktygsknappen för att byta från Välj-läge till Rit-läge. Välj en penselfärg med färgväljaren och justera penselstorleken från 1 till 50 pixlar med reglaget. Rita direkt på arbetsytan med din mus eller penna — streck renderas som jämna Fabric.js-banor. Växla tillbaka till Välj-läge för att flytta och redigera dina ritningar som alla andra arbetsyteobjekt. Kombinera frihandsritning med biblioteksbilder för hybridmålarbilder.',
     },
     {
-      question: 'Vad är klassrumshjälparna och hur använder jag dem?',
+      question: 'Vad är produktlinjeshjälparna och hur använder jag dem?',
       answer:
-        'Två ettklicksknappar i panelen Klassrumshjälpare. Namnfältsknappen lägger till ett formaterat «Namn: ____________________» textblock nära toppen av sidan. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Båda hjälparna skapar standardarbetsyteobjekt som du kan flytta, ändra storlek eller radera precis som alla andra element.',
+        'Två ettklicksknappar i panelen produktlinjeshjälpare. Namnfältsknappen lägger till ett formaterat «Namn: ____________________» textblock nära toppen av sidan. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Båda hjälparna skapar standardarbetsyteobjekt som du kan flytta, ändra storlek eller radera precis som alla andra element.',
     },
     {
       question: 'Hur fungerar gråskaleexportväxlingen?',
       answer:
-        'Gråskaleväxlingen i panelen Nedladdning konverterar hela din målarbild till gråskala vid exporttillfället. Din arbetsyta förblir i fullfärg för enkel visuell redigering — gråskala appliceras bara på den exporterade filen. Detta låter dig designa med färgglada bilder för identifiering och sedan producera bläckvänligt resultat för utskrift. Väsentligt för Amazon KDP-målarbokinteriörer och klassrumsutskrift där färgbläck är otillgängligt eller dyrt.',
+        'Gråskaleväxlingen i panelen Nedladdning konverterar hela din målarbild till gråskala vid exporttillfället. Din arbetsyta förblir i fullfärg för enkel visuell redigering — gråskala appliceras bara på den exporterade filen. Detta låter dig designa med färgglada bilder för identifiering och sedan producera bläckvänligt resultat för utskrift. Väsentligt för Amazon KDP-målarbokinteriörer och volymutskrift där färgbläck är otillgängligt eller dyrt.',
     },
     {
       question: 'Hur bläddrar jag och lägger till bilder från biblioteket?',
@@ -178,12 +178,12 @@ const content: AppContent = {
     {
       question: 'Varför finns det inget facit för målarbilder?',
       answer:
-        'Målarbilder är kreativa aktiviteter utan ett enda korrekt svar — hela syftet är att elever eller colorister lägger till sina egna färger. Till skillnad från mattearbetsblad eller bokstavsspårningsövningar finns det inget rätt eller fel sätt att färglägga en sida. Detta gör målarbilder till idealiska lågförberedelseprodukter för säljare eftersom du exporterar bara målarbilden i sig, utan någon extra facitfil att skapa.',
+        'Målarbilder är kreativa aktiviteter utan ett enda korrekt svar — hela syftet är att användare eller colorister lägger till sina egna färger. Till skillnad från mattearbetsblad eller bokstavsspårningsövningar finns det inget rätt eller fel sätt att färglägga en sida. Detta gör målarbilder till idealiska lågförberedelseprodukter för säljare eftersom du exporterar bara målarbilden i sig, utan någon extra facitfil att skapa.',
     },
     {
       question: 'Finns det en gratis provversion?',
       answer:
-        'Ja. Du kan använda alla funktioner — den fria arbetsytan, alla ritverktyg, bildbiblioteket, klassrumshjälparna, ramteman, gråskaleexport och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
+        'Ja. Du kan använda alla funktioner — den fria arbetsytan, alla ritverktyg, bildbiblioteket, produktlinjeshjälparna, ramteman, gråskaleexport och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
     },
     {
       question: 'Är Målarbilder-generatorn språkkänslig?',
@@ -193,12 +193,12 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja målarbilder skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina målarbilder som digitala nedladdningar på Etsy, som tryckta målarböcker på Amazon KDP, som klassrumsresurser på TPT eller genom valfri annan försäljningskanal. Den fria arbetsytan, frihandsritningsverktyget och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara målarbilsprodukter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina målarbilder som digitala nedladdningar på Etsy, som tryckta målarböcker på Amazon KDP, som produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal. Den fria arbetsytan, frihandsritningsverktyget och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara målarbilsprodukter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
       answer:
-        'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa den fria arbetsytan, varje ritverktyg, hela bildbiblioteket, klassrumshjälparna, ramteman, gråskaleexport och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
+        'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa den fria arbetsytan, varje ritverktyg, hela bildbiblioteket, produktlinjeshjälparna, ramteman, gråskaleexport och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
   ],
 
@@ -263,7 +263,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/swedish/coloring/coloring%20portrait%201.webp',
-      primaryAlt: 'Anpassad målarbild med tematiska bilder arrangerade på fri arbetsyta med dekorativ ram och klassrumsnamnfält',
+      primaryAlt: 'Anpassad målarbild med tematiska bilder arrangerade på fri arbetsyta med dekorativ ram och produktlinjesnamnfält',
     },
     sampleGallery: [
       {
@@ -273,8 +273,8 @@ const content: AppContent = {
       },
       {
         src: '/samples/swedish/coloring/coloring%20portrait%203.webp',
-        alt: 'Målarbild med skrivövningslinjer och elevnamnfält för klassrumsanvändning',
-        caption: 'Klassrumsfärdig målarbild — namnfält och skrivövningslinjer inkluderade',
+        alt: 'Målarbild med skrivövningslinjer och namnfält för produktlinjesanvändning',
+        caption: 'produktlinjesfärdig målarbild — namnfält och skrivövningslinjer inkluderade',
       },
       {
         src: '/samples/swedish/coloring/coloring%20landscape%201.webp',

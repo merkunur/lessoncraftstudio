@@ -7,7 +7,7 @@ const content: AppContent = {
       'utskrivbar sorteringsaktivitet skapare för Etsy-säljare',
       'tvåkategori sortering arbetsblad generator för KDP',
       'bildklassificering arbetsblad skapare kommersiell licens',
-      'sälja sorteringsarbetsblad på Teachers Pay Teachers',
+      'sälja sorteringsarbetsblad på Gumroad',
     ],
     lsiKeywords: [
       'digitala sorterings utskriftsbara produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Bildsortering Generator | Skapa Sorteringsarbetsblad',
     metaDescription:
-      'Skapa bildsorteringsarbetsblad att sälja på Etsy, KDP och TPT. Tvåkategorisortering, automatiskt facit, 104 teman, 4–12 bilder. Gratis provversion med vattenstämpel.',
+      'Skapa bildsorteringsarbetsblad att sälja på Etsy, KDP och Gumroad. Tvåkategorisortering, automatiskt facit, 104 teman, 4–12 bilder. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Bildsortering Arbetsblad Generator för Tvåkategori Sorteringsaktiviteter',
     tagline: 'Tvåkategorisortering i en kraftfull generator — temabaserat eller manuellt bildval — med automatiskt genererade facit, 4–12 konfigurerbara bilder, en lokaliserad «Sortera bilder»-rubrik på 11 språk och 104 tematiska bildsamlingar.',
     description:
-      'Bygg professionella sorteringsarbetsblad där eleverna klassificerar bilder i två kategorier genom att sortera utklippta bilder i rätt vänster eller höger grupp. Välj temaläge för att automatiskt fylla kategorier från bildbiblioteket — välj ett vänster tema och ett höger tema, och appen hämtar 4–6 slumpmässiga bilder per tema — eller växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till en kategori. Varje arbetsblad har två streckade kategoriramar överst för sorteringsmål och ett blandat utklippsrutnät nedanför med blandade bilder redo att klippas ut och sorteras. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med 6× större bilder organiserade i kategorirutor, så du aldrig behöver skapa facit manuellt. Bildsortering Generatorn är språkkänslig: kategorietiketter använder lokaliserade bildnamn, så att byta språk ändrar texten på arbetsbladet. Det innebär att samma bildteman kan generera unika sorteringsarbetsblad på 11 olika språk — varje språkversion har lokaliserade kategorietiketter, vilket gör varje version till en separat produkt. En lokaliserad «Sortera bilder»-rubrik med mintgrön bakgrund och blågrön titel renderas automatiskt på alla 11 stödda språk. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade kategorietiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält för klassrumsansvar, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer sorteringsaktivitets-paket på Etsy, sammanställer klassificerings-arbetsböcker för Amazon KDP eller skapar sorteringsstations-aktiviteter för TPT — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella sorteringsarbetsblad där användarna klassificerar bilder i två kategorier genom att sortera utklippta bilder i rätt vänster eller höger grupp. Välj temaläge för att automatiskt fylla kategorier från bildbiblioteket — välj ett vänster tema och ett höger tema, och appen hämtar 4–6 slumpmässiga bilder per tema — eller växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till en kategori. Varje arbetsblad har två streckade kategoriramar överst för sorteringsmål och ett blandat utklippsrutnät nedanför med blandade bilder redo att klippas ut och sorteras. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med 6× större bilder organiserade i kategorirutor, så du aldrig behöver skapa facit manuellt. Bildsortering Generatorn är språkkänslig: kategorietiketter använder lokaliserade bildnamn, så att byta språk ändrar texten på arbetsbladet. Det innebär att samma bildteman kan generera unika sorteringsarbetsblad på 11 olika språk — varje språkversion har lokaliserade kategorietiketter, vilket gör varje version till en separat produkt. En lokaliserad «Sortera bilder»-rubrik med mintgrön bakgrund och blågrön titel renderas automatiskt på alla 11 stödda språk. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade kategorietiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält för produktlinjesansvar, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer sorteringsaktivitets-paket på Etsy, sammanställer klassificerings-arbetsböcker för Amazon KDP eller skapar sorteringsstations-aktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -32,12 +32,12 @@ const content: AppContent = {
       {
         title: 'Ställ in sidlayouten',
         description:
-          'Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren som reservbakgrund. Välj ett bakgrundstema och justera dess opacitet (0–1 i 0,05-steg), välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Kryssa i «Inkludera Namn/Datum-fält» för att lägga till elevens namn och datumlinjer. Dessa layoutval ramar in ditt sorteringsarbetsblad innan du konfigurerar något innehåll.',
+          'Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren som reservbakgrund. Välj ett bakgrundstema och justera dess opacitet (0–1 i 0,05-steg), välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Kryssa i «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer. Dessa layoutval ramar in ditt sorteringsarbetsblad innan du konfigurerar något innehåll.',
       },
       {
         title: 'Välj dina sorteringskategorier',
         description:
-          'Öppna panelen Sorteringskategorier och välj två teman — ett för den vänstra kategorin och ett för den högra kategorin. Appen genererar automatiskt 4–6 slumpmässiga bilder per tema från bildbiblioteket. Välj till exempel Djur till vänster och Mat till höger för att skapa ett sorteringsarbetsblad där eleverna klassificerar bilder i rätt grupp. Alternativt, växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till vänster eller höger kategori.',
+          'Öppna panelen Sorteringskategorier och välj två teman — ett för den vänstra kategorin och ett för den högra kategorin. Appen genererar automatiskt 4–6 slumpmässiga bilder per tema från bildbiblioteket. Välj till exempel Djur till vänster och Mat till höger för att skapa ett sorteringsarbetsblad där användarna klassificerar bilder i rätt grupp. Alternativt, växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till vänster eller höger kategori.',
       },
       {
         title: 'Välj bilder från biblioteket eller ladda upp egna',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Generera sorteringsarbetsbladet',
         description:
-          'Klicka på Generera för att skapa den tvådelade sorteringslayouten. Appen arrangerar ditt innehåll i kategoriramar överst (två sida vid sida streckade ramar med #FAFAFA-fyllning) och ett blandat utklippsrutnät nedanför (vita celler med streckade #666-kanter). En stiliserad «Sortera bilder»-rubrik visas överst med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. En blågrön yttre ram (#26A69A, 8px streck) ramar in hela sidan. Utklippsrutnätet visar alla bilder i slumpmässig ordning — eleverna klipper ut dem och sorterar i rätt kategoriruta.',
+          'Klicka på Generera för att skapa den tvådelade sorteringslayouten. Appen arrangerar ditt innehåll i kategoriramar överst (två sida vid sida streckade ramar med #FAFAFA-fyllning) och ett blandat utklippsrutnät nedanför (vita celler med streckade #666-kanter). En stiliserad «Sortera bilder»-rubrik visas överst med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. En blågrön yttre ram (#26A69A, 8px streck) ramar in hela sidan. Utklippsrutnätet visar alla bilder i slumpmässig ordning — användarna klipper ut dem och sorterar i rätt kategoriruta.',
       },
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se den automatiskt genererade lösningen med 6× större bilder organiserade i sina korrekta kategorirutor, visade i maximalt 2 kolumner per ruta. Ladda ner båda versionerna med de fyra dedikerade knapparna: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF. Filer exporteras med 300 DPI och JPEG-kvalitet 1,0. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla till fliken Facit för att se den automatiskt genererade lösningen med 6× större bilder organiserade i sina korrekta kategorirutor, visade i maximalt 2 kolumner per ruta. Ladda ner båda versionerna med de fyra dedikerade knapparna: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF. Filer exporteras med 300 DPI och JPEG-kvalitet 1,0. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Konfigurerbart bildantal från 4 till 12 med 2–10 per kategori',
         description:
-          'Kontrollera det totala antalet sorteringsbilder från minst 4 till maximalt 12 per arbetsblad, med varje kategori som innehåller mellan 2 och 10 bilder. Temaläget hämtar automatiskt 4–6 bilder per tema, vilket skapar arbetsblad med 8–12 bilder totalt. Manuellt läge låter dig ställa in exakta antal per kategori. Färre bilder skapar enklare sorteringsuppgifter idealiska för yngre elever; fler bilder ökar svårighetsgraden och innehållsdensiteten. Utklippsrutnätet justerar automatiskt sin kolumnlayout (3–4 kolumner baserat på totalt antal) för att bibehålla rent visuellt avstånd.',
+          'Kontrollera det totala antalet sorteringsbilder från minst 4 till maximalt 12 per arbetsblad, med varje kategori som innehåller mellan 2 och 10 bilder. Temaläget hämtar automatiskt 4–6 bilder per tema, vilket skapar arbetsblad med 8–12 bilder totalt. Manuellt läge låter dig ställa in exakta antal per kategori. Färre bilder skapar enklare sorteringsuppgifter idealiska för yngre användare; fler bilder ökar svårighetsgraden och innehållsdensiteten. Utklippsrutnätet justerar automatiskt sin kolumnlayout (3–4 kolumner baserat på totalt antal) för att bibehålla rent visuellt avstånd.',
       },
       {
         title: 'Automatiskt genererat facit med 6× större bilder i kategorirutor',
@@ -86,14 +86,14 @@ const content: AppContent = {
           'Bläddra bland 104 tematiska bildsamlingar som täcker djur, mat, fordon, natur, yrken, högtider, sport, årstider och dussintals fler. Varje tema ger en koordinerad uppsättning färgglada illustrationer som fungerar som sorteringskategorier. Filtrera efter tema med dropdownen eller sök efter specifika bilder med nyckelord. Det temabaserade kategorivalet gör det enkelt att skapa sorteringsarbetsblad med naturliga kategorpar — landdjur mot havsdjur, hälsosam mat mot skräpmat, sommarföremål mot vinterföremål. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation.',
       },
       {
-        title: 'Namn- och datumfält för klassrumsansvar',
+        title: 'Namn- och datumfält för produktlinjesansvar',
         description:
-          'Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till elevens namn och datumlinjer på sorteringsarbetsbladet. Dessa fält säkerställer elevansvar i klassrumsmiljöer och gör arbetsbladen redo för lärarens insamling och bedömning utan ytterligare förberedelse. Lärare som söker efter sorteringsaktiviteter värdesätter arbetsblad som anländer klassrumsfärdiga, och namn/datum-alternativet gör dina produkter mer attraktiva för utbildningsmarknaden på TPT och Etsy.',
+          'Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till namn och datumlinjer på sorteringsarbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör arbetsbladen redo för säljarens insamling och bedömning utan ytterligare förberedelse. köpare som söker efter sorteringsaktiviteter värdesätter arbetsblad som anländer produktlinjesfärdiga, och namn/datum-alternativet gör dina produkter mer attraktiva för utbildningsmarknaden på Gumroad och Etsy.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner sorteringsarbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI med JPEG-kvalitet 1,0 och auto-orientering. Fyra dedikerade nedladdningsknappar exporterar Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+          'Ladda ner sorteringsarbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI med JPEG-kvalitet 1,0 och auto-orientering. Fyra dedikerade nedladdningsknappar exporterar Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
       },
       {
         title: 'Full arbetsyteredigering med textverktyg, justering och lagerkontroller',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrums sorteringsaktiviteter för TPT',
+        title: 'produktlinjes sorteringsaktiviteter för Gumroad',
         description:
-          'Bygg färdiga sorteringsstationsarbetsblad med namn/datum-fält och tryckta facit. Lärare som söker på TPT efter sorteringsaktiviteter värdesätter arbetsblad som anländer klassrumsfärdiga — namnfältet säkerställer elevansvar, kategoriramarna ger tydliga sorteringsmål, och det automatiskt genererade facit sparar lärarens förberedelsetid. Skapa läroplansanpassade set: levande mot icke-levande, hälsosam mot ohälsosam mat, dag- mot nattdjur, varmt mot kallt väderklädsel. Varje set inkluderar elevarbetsblad och facit i både PDF- och JPEG-format.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg färdiga sorteringsstationsarbetsblad med namn/datum-fält och tryckta facit. köpare som söker på Gumroad efter sorteringsaktiviteter värdesätter arbetsblad som anländer produktlinjesfärdiga — namnfältet säkerställer spårbarhet, kategoriramarna ger tydliga sorteringsmål, och det automatiskt genererade facit sparar säljarens förberedelsetid. Skapa produktkatalogsanpassade set: levande mot icke-levande, hälsosam mot ohälsosam mat, dag- mot nattdjur, varmt mot kallt väderklädsel. Varje set inkluderar arbetsblad och facit i både PDF- och JPEG-format.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Säsongsbetonade och högtidssorteringssamlingar',
         description:
-          'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa säsongsbetonade sorteringsarbetsblad där eleverna klassificerar högtidsföremål i kategorier: juldekorationer mot julmat, halloweenkostymer mot halloweengodis, sommaraktiviteter mot vinteraktiviteter. Släpp halloweensorteringspaket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Säsongsprodukter motiverar högre priser under toppfönster och skapar naturliga skäl till återköp.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+          'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa säsongsbetonade sorteringsarbetsblad där användarna klassificerar högtidsföremål i kategorier: juldekorationer mot julmat, halloweenkostymer mot halloweengodis, sommaraktiviteter mot vinteraktiviteter. Släpp halloweensorteringspaket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Säsongsprodukter motiverar högre priser under toppfönster och skapar naturliga skäl till återköp.',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
       {
         title: 'Flerspråkiga sorteringsarbetsblad för ESL och tvåspråkiga marknader',
         description:
-          'Utnyttja de språkkänsliga kategorietiketterna för att skapa sorteringsarbetsblad på 11 språk. Samma bilder producerar olika kategorietiketter när du byter språk — bildnamn och «Sortera bilder»-rubriken uppdateras alla automatiskt. Skapa flerspråkiga sorteringspaket där varje språkversion använder samma tematiska bilder men lokaliserad text. Detta är särskilt värdefullt för ESL/EFL-lärare, tvåspråkiga klassrum och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser på Etsy och TPT.',
-        platform: 'Etsy / TPT (flerspråkig marknad)',
+          'Utnyttja de språkkänsliga kategorietiketterna för att skapa sorteringsarbetsblad på 11 språk. Samma bilder producerar olika kategorietiketter när du byter språk — bildnamn och «Sortera bilder»-rubriken uppdateras alla automatiskt. Skapa flerspråkiga sorteringspaket där varje språkversion använder samma tematiska bilder men lokaliserad text. Detta är särskilt värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser på Etsy och Gumroad.',
+        platform: 'Etsy / Gumroad (flerspråkig marknad)',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar tvåkategorisorteringsmekaniken?',
       answer:
-        'Varje sorteringsarbetsblad har exakt två kategorier — vänster och höger. Arbetsbladet visar två streckade kategoriramar överst där eleverna sorterar sina bilder, och ett blandat utklippsrutnät nedanför med alla bilder blandade. Eleverna klipper ut bilderna från rutnätet och placerar var och en i rätt kategoriruta. Tvåkategoriformat skapar en tydlig binär klassificeringsuppgift som fungerar för alla ämnen — djur mot mat, land mot vatten, levande mot icke-levande och tusentals andra parningar.',
+        'Varje sorteringsarbetsblad har exakt två kategorier — vänster och höger. Arbetsbladet visar två streckade kategoriramar överst där användarna sorterar sina bilder, och ett blandat utklippsrutnät nedanför med alla bilder blandade. användarna klipper ut bilderna från rutnätet och placerar var och en i rätt kategoriruta. Tvåkategoriformat skapar en tydlig binär klassificeringsuppgift som fungerar för alla ämnen — djur mot mat, land mot vatten, levande mot icke-levande och tusentals andra parningar.',
     },
     {
       question: 'Vad är skillnaden mellan temaläge och manuellt läge?',
       answer:
-        'Temaläget låter dig välja ett tema för den vänstra kategorin och ett annat tema för den högra kategorin. Appen väljer automatiskt 4–6 slumpmässiga bilder per tema från bildbiblioteket, vilket skapar arbetsblad med 8–12 bilder totalt. Manuellt läge ger dig fullständig kontroll: du handväljer enskilda bilder från valfritt tema och tilldelar var och en till vänster eller höger kategori. Temaläge är snabbare för bulkproduktion; manuellt läge är idealiskt för att skapa specifika, läroplansanpassade sorteringsaktiviteter.',
+        'Temaläget låter dig välja ett tema för den vänstra kategorin och ett annat tema för den högra kategorin. Appen väljer automatiskt 4–6 slumpmässiga bilder per tema från bildbiblioteket, vilket skapar arbetsblad med 8–12 bilder totalt. Manuellt läge ger dig fullständig kontroll: du handväljer enskilda bilder från valfritt tema och tilldelar var och en till vänster eller höger kategori. Temaläge är snabbare för bulkproduktion; manuellt läge är idealiskt för att skapa specifika, produktkatalogsanpassade sorteringsaktiviteter.',
     },
     {
       question: 'Hur många bilder kan jag inkludera på varje sorteringsarbetsblad?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar det blandade utklippsrutnätet?',
       answer:
-        'Utklippsrutnätet upptar de nedre 55% av innehållsområdet och visar alla valda bilder i slumpmässig ordning. Bilder visas i vita celler med streckade #666-kanter och 4px rundade hörn, arrangerade i 3–4 kolumner baserat på det totala bildantalet. Varje bild fyller 85% av sin cell. Eleverna klipper ut bilderna längs de streckade linjerna och sorterar dem i rätt kategoriruta ovanför. Blandningen säkerställer att eleverna faktiskt måste klassificera varje bild istället för att kopiera ett mönster.',
+        'Utklippsrutnätet upptar de nedre 55% av innehållsområdet och visar alla valda bilder i slumpmässig ordning. Bilder visas i vita celler med streckade #666-kanter och 4px rundade hörn, arrangerade i 3–4 kolumner baserat på det totala bildantalet. Varje bild fyller 85% av sin cell. användarna klipper ut bilderna längs de streckade linjerna och sorterar dem i rätt kategoriruta ovanför. Blandningen säkerställer att användarna faktiskt måste klassificera varje bild istället för att kopiera ett mönster.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Kan jag inkludera namn- och datumfält på sorteringsarbetsblad?',
       answer:
-        'Ja. Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till elevens namn och datumlinjer på arbetsbladet. Dessa fält säkerställer elevansvar i klassrumsmiljöer och gör dina sorteringsarbetsblad redo för lärarens insamling och bedömning utan ytterligare förberedelse.',
+        'Ja. Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till namn och datumlinjer på arbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör dina sorteringsarbetsblad redo för säljarens insamling och bedömning utan ytterligare förberedelse.',
     },
     {
       question: 'Finns det en gratis provversion?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja sorteringsarbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina sorteringsarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. Tvåkategorisorteringsmekaniken, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara sorteringsaktivitetsprodukter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina sorteringsarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. Tvåkategorisorteringsmekaniken, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara sorteringsaktivitetsprodukter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

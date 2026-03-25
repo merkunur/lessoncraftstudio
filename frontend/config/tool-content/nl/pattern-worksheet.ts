@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Patronen Werkblad Maker',
     tagline: 'Genereer rastergebaseerde patronenherkenning werkbladen met negen patroontypen, twee vraagmodi, per-oefening onafhankelijke configuratie en volledig visuele nul-tekst uitvoer die wereldwijd verkoopt zonder vertaling',
-    description: 'Maak professionele patroonvoltooiing werkbladen waarbij leerlingen herhalende reeksen identificeren en het ontbrekende item invullen of het juiste antwoord kiezen uit meerkeuze-opties. Negen verschillende patroontypen dekken het breedste scala aan reekscomplexiteit beschikbaar: AB wisselt twee items af, AAB en ABB introduceren asymmetrische groeperingen, ABC roteert drie verschillende items, AABB koppelt twee van elk, ABBC en AABC voegen drie-afbeelding asymmetrische patronen toe, ABCC verlengt met verdubbelde eindes, en ABCD roteert vier verschillende items voor maximale uitdaging. Twee vraagmodi creëren fundamenteel verschillende oefeningen vanuit elk patroontype: Leeg Vak vervangt één item door een lege ruimte voor open redeneeroefening, terwijl Kies uit Opties de lege plek presenteert naast drie antwoordkeuzes met één correct antwoord en twee afleidingsantwoorden. Configureer 1–8 oefeningen per pagina waarbij elke oefening onafhankelijk is ingesteld voor patroontype, vraagmodus en thema — één pagina kan een AB-invuloefening combineren met een ABCD-meerkeuzevraag. Schakel Willekeurig Startpunt in om patronen midden in de cyclus te laten beginnen en Willekeurige Lege Positie om het ontbrekende item overal in de reeks te plaatsen. De standaard rastergebaseerde rij-en-kolom indeling rangschikt oefeningen overzichtelijk voor toetsklare uitvoer. Elk werkblad is volledig visueel met uitsluitend afbeeldingen en nul tekst op de uitvoer — er verschijnen geen woorden op de gegenereerde pagina, waardoor je producten universeel verkoopbaar zijn zonder vertaling. Eén vermelding bedient elke markt wereldwijd. Kies uit meer dan 3.100 illustraties verdeeld over 104 thematische collecties of upload je eigen afbeeldingen. Een apart antwoordblad-tabblad toont alle lege posities gevuld met de juiste patroonitems. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Maak professionele patroonvoltooiing werkbladen waarbij gebruikers herhalende reeksen identificeren en het ontbrekende item invullen of het juiste antwoord kiezen uit meerkeuze-opties. Negen verschillende patroontypen dekken het breedste scala aan reekscomplexiteit beschikbaar: AB wisselt twee items af, AAB en ABB introduceren asymmetrische groeperingen, ABC roteert drie verschillende items, AABB koppelt twee van elk, ABBC en AABC voegen drie-afbeelding asymmetrische patronen toe, ABCC verlengt met verdubbelde eindes, en ABCD roteert vier verschillende items voor maximale uitdaging. Twee vraagmodi creëren fundamenteel verschillende oefeningen vanuit elk patroontype: Leeg Vak vervangt één item door een lege ruimte voor open redeneeroefening, terwijl Kies uit Opties de lege plek presenteert naast drie antwoordkeuzes met één correct antwoord en twee afleidingsantwoorden. Configureer 1–8 oefeningen per pagina waarbij elke oefening onafhankelijk is ingesteld voor patroontype, vraagmodus en thema — één pagina kan een AB-invuloefening combineren met een ABCD-meerkeuzevraag. Schakel Willekeurig Startpunt in om patronen midden in de cyclus te laten beginnen en Willekeurige Lege Positie om het ontbrekende item overal in de reeks te plaatsen. De standaard rastergebaseerde rij-en-kolom indeling rangschikt oefeningen overzichtelijk voor toetsklare uitvoer. Elk werkblad is volledig visueel met uitsluitend afbeeldingen en nul tekst op de uitvoer — er verschijnen geen woorden op de gegenereerde pagina, waardoor je producten universeel verkoopbaar zijn zonder vertaling. Eén vermelding bedient elke markt wereldwijd. Kies uit meer dan 3.100 illustraties verdeeld over 104 thematische collecties of upload je eigen afbeeldingen. Een apart antwoordblad-tabblad toont alle lege posities gevuld met de juiste patroonitems. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Schakel naam-/datumvelden en oefenopties in',
-        description: 'Schakel optionele naam- en datum-uitknipvelden in voor leerlingidentificatie op geprinte werkbladen. Deze velden verschijnen als stippellijn-gebieden die leerlingen invullen voordat ze beginnen. Schakel oefeningnummers en decoratieve elementen naar wens in of uit. Elke optie verfijnt de werkbladindeling voor je doelgroep — klaswerkbladen profiteren van naamvelden, terwijl digitale downloadproducten deze wellicht weglaten voor een schonere uitstraling.',
+        description: 'Schakel optionele naam- en datum-uitknipvelden in voor gebruikeridentificatie op geprinte werkbladen. Deze velden verschijnen als stippellijn-gebieden die gebruikers invullen voordat ze beginnen. Schakel oefeningnummers en decoratieve elementen naar wens in of uit. Elke optie verfijnt de werkbladindeling voor je doelgroep — klaswerkbladen profiteren van naamvelden, terwijl digitale downloadproducten deze wellicht weglaten voor een schonere uitstraling.',
       },
       {
         title: 'Voeg tekst toe en pas het canvas aan',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Bekijk het antwoordblad en download',
-        description: 'Schakel over naar het tabblad Antwoordblad om het voltooide werkblad te zien met alle lege posities gevuld met de juiste patroonitems. Bij meerkeuze-oefeningen wordt het correcte antwoord duidelijk aangeduid. Zowel het werkblad als het antwoordblad zijn onafhankelijk bewerkbaar op aparte canvassen. Schakel grijstinten in voor inktvriendelijke uitvoer. Download elk als JPEG met hoge resolutie of printklare PDF op 300 DPI. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden.',
+        description: 'Schakel over naar het tabblad Antwoordblad om het voltooide werkblad te zien met alle lege posities gevuld met de juiste patroonitems. Bij meerkeuze-oefeningen wordt het correcte antwoord duidelijk aangeduid. Zowel het werkblad als het antwoordblad zijn onafhankelijk bewerkbaar op aparte canvassen. Schakel grijstinten in voor inktvriendelijke uitvoer. Download elk als JPEG met hoge resolutie of printklare PDF op 300 DPI. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.',
       },
     ],
   },
@@ -73,15 +73,15 @@ const content: ToolContent = {
     },
     {
       title: 'Gedifferentieerde Gemengde-Moeilijkheid Pagina\'s',
-      description: 'Bouw werkbladen waarbij elke oefening op dezelfde pagina een ander vaardigheidsniveau target met per-oefening configuratie. Oefening 1: AB leeg-vak als opwarming. Oefening 2: AAB leeg-vak voor oefening. Oefening 3: ABC meerkeuze als begeleide uitdaging. Oefening 4: ABCD leeg-vak met willekeurig startpunt als toetsing. Eén geprinte pagina dient als een complete gedifferentieerde activiteit. Docenten krijgen gevarieerde oefening zonder aparte bladen te beheren, en verkopers creëren geavanceerde producten die hogere prijzen opbrengen dan eenvoudige enkelpatroon pagina\'s.',
+      description: 'Bouw werkbladen waarbij elke oefening op dezelfde pagina een ander vaardigheidsniveau target met per-oefening configuratie. Oefening 1: AB leeg-vak als opwarming. Oefening 2: AAB leeg-vak voor oefening. Oefening 3: ABC meerkeuze als begeleide uitdaging. Oefening 4: ABCD leeg-vak met willekeurig startpunt als toetsing. Eén geprinte pagina dient als een complete gedifferentieerde activiteit. verkopers krijgen gevarieerde oefening zonder aparte bladen te beheren, en verkopers creëren geavanceerde producten die hogere prijzen opbrengen dan eenvoudige enkelpatroon pagina\'s.',
     },
     {
       title: 'Seizoensgebonden en Feestdagen Patroonsets',
-      description: 'Gebruik seizoensgebonden en feestdagen afbeeldingsthema\'s om tijdgebonden patroonbundels te maken. Een "Halloween Patroon" pakket met griezelige afbeeldingen verkoopt in oktober. Kerst, Sinterklaas, terug-naar-school, Valentijnsdag en zomerthema\'s raken elk hun eigen piekverkoopmomenten op Etsy en TPT. Combineer eenvoudige AB-opwarmers met gevorderde ABCD-uitdagingen in elke seizoensset om meerdere vaardigheidsniveaus te bestrijken. Twee vraagmodi vermenigvuldigen de variatie binnen elk thema.',
+      description: 'Gebruik seizoensgebonden en feestdagen afbeeldingsthema\'s om tijdgebonden patroonbundels te maken. Een "Halloween Patroon" pakket met griezelige afbeeldingen verkoopt in oktober. Kerst, Sinterklaas, terug-naar-school, Valentijnsdag en zomerthema\'s raken elk hun eigen piekverkoopmomenten op Etsy en Gumroad. Combineer eenvoudige AB-opwarmers met gevorderde ABCD-uitdagingen in elke seizoensset om meerdere vaardigheidsniveaus te bestrijken. Twee vraagmodi vermenigvuldigen de variatie binnen elk thema.',
     },
     {
       title: 'Multi-Formaat Visueel Leren Bundels',
-      description: 'Koppel patronen werkbladen aan patroontrein werkbladen, matching werkbladen, zoek de uitzondering en schaduw matching activiteiten met gecoördineerde thema\'s. Patronen werkbladen gebruiken rastergebaseerde rijen en kolommen met negen typen en twee modi. Patroontreinen gebruiken het onderscheidende 11-wagon formaat met vijf typen. Elk formaat oefent patronenherkenning op een andere manier. Multi-formaat bundels verkopen voor meer dan elk afzonderlijk activiteitstype en geven leerlingen gevarieerde oefening met een uniform thema over elke activiteit.',
+      description: 'Koppel patronen werkbladen aan patroontrein werkbladen, matching werkbladen, zoek de uitzondering en schaduw matching activiteiten met gecoördineerde thema\'s. Patronen werkbladen gebruiken rastergebaseerde rijen en kolommen met negen typen en twee modi. Patroontreinen gebruiken het onderscheidende 11-wagon formaat met vijf typen. Elk formaat oefent patronenherkenning op een andere manier. Multi-formaat bundels verkopen voor meer dan elk afzonderlijk activiteitstype en geven gebruikers gevarieerde oefening met een uniform thema over elke activiteit.',
     },
     {
       title: 'Eigen Afbeelding Vakspecifieke Werkbladen',
@@ -101,18 +101,18 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Genivelleerde Centra',
-      description: 'Upload patronen werkbladpakketten naar TPT georganiseerd per vaardigheidsniveau met per-oefening configuratie als onderscheider. Niveau 1 pagina\'s bevatten allemaal AB leeg-vak oefeningen. Niveau 2 mixt AB en AAB met beide modi. Niveau 3 introduceert ABC meerkeuze naast leeg-vak opwarmers. Niveau 4 combineert ABCD uitdagingen met willekeurig startpunt. Elk niveau gebruikt thematische oefeningen met aparte antwoordbladen. De per-oefening onafhankelijkheid betekent dat één pagina dient als een complete centrumactiviteit. Docenten zoeken naar "patronenherkenning werkbladen" en vinden beperkte opties met negen patroontypen.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Genivelleerde Centra',
+      description: 'Upload patronen werkbladpakketten naar Gumroad georganiseerd per vaardigheidsniveau met per-oefening configuratie als onderscheider. Niveau 1 pagina\'s bevatten allemaal AB leeg-vak oefeningen. Niveau 2 mixt AB en AAB met beide modi. Niveau 3 introduceert ABC meerkeuze naast leeg-vak opwarmers. Niveau 4 combineert ABCD uitdagingen met willekeurig startpunt. Elk niveau gebruikt thematische oefeningen met aparte antwoordbladen. De per-oefening onafhankelijkheid betekent dat één pagina dient als een complete centrumactiviteit. verkopers zoeken naar "patronenherkenning werkbladen" en vinden beperkte opties met negen patroontypen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visuele Patroon Trechter',
-      description: 'Patronen werkbladen met kleurrijke thema-afbeeldingen in een overzichtelijke rasterindeling maken uitstekende Pinterest-pins. Pin voorbeeldwerkbladen die verschillende patroontypen tonen met watermerk, link naar je Etsy-winkel of landingspagina, en bouw je e-maillijst. Maak pins voor elke vraagmodus apart — "invuloefening patroonwerkbladen" en "meerkeuze patroonwerkbladen" richten zich op verschillende zoekopdrachten. Het nul-tekst formaat maakt pins aantrekkelijk voor ouders en docenten in elk land wereldwijd.',
+      description: 'Patronen werkbladen met kleurrijke thema-afbeeldingen in een overzichtelijke rasterindeling maken uitstekende Pinterest-pins. Pin voorbeeldwerkbladen die verschillende patroontypen tonen met watermerk, link naar je Etsy-winkel of landingspagina, en bouw je e-maillijst. Maak pins voor elke vraagmodus apart — "invuloefening patroonwerkbladen" en "meerkeuze patroonwerkbladen" richten zich op verschillende zoekopdrachten. Het nul-tekst formaat maakt pins aantrekkelijk voor ouders en verkopers in elk land wereldwijd.',
       platform: 'Pinterest',
     },
     {
       title: 'Gumroad Compleet Patronenherkenning Toolkit',
-      description: 'Bundel patronen werkbladen (rasterformaat, 9 typen, 2 modi) met patroontrein werkbladen (treinformaat, 5 typen) tot een uitgebreid patronenherkenning toolkit op Gumroad. Elk formaat oefent dezelfde vaardigheid met een volledig andere visuele aanpak. Het rasterformaat blinkt uit in volume en gemengde-moeilijkheid toetspagina\'s. Het treinformaat biedt visueel engagement met zijn unieke wagonindeling. Samen dekken ze elke patroon-leerlingbehoefte. Een dubbel-formaat toolkit rechtvaardigt een premiumprijs en onderscheidt van enkelvoudige-formaat concurrenten.',
+      description: 'Bundel patronen werkbladen (rasterformaat, 9 typen, 2 modi) met patroontrein werkbladen (treinformaat, 5 typen) tot een uitgebreid patronenherkenning toolkit op Gumroad. Elk formaat oefent dezelfde vaardigheid met een volledig andere visuele aanpak. Het rasterformaat blinkt uit in volume en gemengde-moeilijkheid toetspagina\'s. Het treinformaat biedt visueel engagement met zijn unieke wagonindeling. Samen dekken ze elke patroon-gebruikerbehoefte. Een dubbel-formaat toolkit rechtvaardigt een premiumprijs en onderscheidt van enkelvoudige-formaat concurrenten.',
       platform: 'Gumroad',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Schakel Willekeurig Startpunt en Willekeurige Lege Positie in voor unieke werkbladen',
-      description: 'Willekeurig Startpunt laat patronen midden in de cyclus beginnen in plaats van bij het eerste element. Willekeurige Lege Positie plaatst het ontbrekende item op wisselende locaties in de reeks. Samen garanderen deze instellingen dat elk gegenereerd werkblad uniek is, zelfs bij gebruik van hetzelfde patroontype en thema. Voor verkopers betekent dit dat je efficiënt grote pakketten van niet-repetitieve werkbladen kunt produceren. Voor docenten voorkomt het dat leerlingen antwoorden kopiëren.',
+      description: 'Willekeurig Startpunt laat patronen midden in de cyclus beginnen in plaats van bij het eerste element. Willekeurige Lege Positie plaatst het ontbrekende item op wisselende locaties in de reeks. Samen garanderen deze instellingen dat elk gegenereerd werkblad uniek is, zelfs bij gebruik van hetzelfde patroontype en thema. Voor verkopers betekent dit dat je efficiënt grote pakketten van niet-repetitieve werkbladen kunt produceren. voor verkopers voorkomt het dat gebruikers antwoorden kopiëren.',
     },
     {
       title: 'Benadruk nul-tekst uitvoer voor wereldwijde verkoopbaarheid',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Stem patrooncomplexiteit af op de doelleeftijd',
-      description: 'Voor kleuters (3–4 jaar) gebruik je AB en AAB patronen met leeg-vak modus voor eenvoudige herkenning. Voor kleuterschoolleerlingen (4–6 jaar) introduceer je ABC patronen en meerkeuzemodus. Voor groep 3 en ouder creëren ABBC tot en met ABCD patronen met willekeurig startpunt echte redeneeruitdagingen. Vermeld de doelleeftijd in je producttitels en tags voor betere zoekresultaten op marktplaatsen.',
+      description: 'Voor kleuters (3–4 jaar) gebruik je AB en AAB patronen met leeg-vak modus voor eenvoudige herkenning. Voor kleuterschoolgebruikers (4–6 jaar) introduceer je ABC patronen en meerkeuzemodus. Voor groep 3 en ouder creëren ABBC tot en met ABCD patronen met willekeurig startpunt echte redeneeruitdagingen. Vermeld de doelleeftijd in je producttitels en tags voor betere zoekresultaten op marktplaatsen.',
     },
     {
       title: 'Gebruik grijstinten voor KDP en bulkprinten',
-      description: 'Schakel de grijstintenmodus in voor werkbladen bestemd voor Amazon KDP-binnenwerken of bulkprinten in de klas. Zwart-wit uitvoer kost aanzienlijk minder om te printen en voldoet aan KDP-binnenwerksvereisten voor standaard (niet-premium kleur) boeken. Bewaar de kleurmodus voor Etsy-vermeldingsvoorbeelden en digitale downloadproducten waar levendige thema-afbeeldingen klikken aantrekken in zoekresultaten.',
+      description: 'Schakel de grijstintenmodus in voor werkbladen bestemd voor Amazon KDP-binnenwerken of bulkprinten online. Zwart-wit uitvoer kost aanzienlijk minder om te printen en voldoet aan KDP-binnenwerksvereisten voor standaard (niet-premium kleur) boeken. Bewaar de kleurmodus voor Etsy-vermeldingsvoorbeelden en digitale downloadproducten waar levendige thema-afbeeldingen klikken aantrekken in zoekresultaten.',
     },
   ],
 
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wat zijn de twee vraagmodi?',
-      answer: 'Leeg Vak modus vervangt één item in het patroon door een lege ruimte — leerlingen moeten het patroon identificeren en het ontbrekende item bepalen zonder aanwijzingen. Kies uit Opties modus presenteert de lege plek naast drie antwoordkeuzes: één correct item en twee afleidingsantwoorden. Leeg Vak test open redeneren; Meerkeuze test herkenning met gestructureerde antwoordopties. Beide modi werken met alle negen patroontypen, waardoor 18 verschillende oefenstijlen ontstaan.',
+      answer: 'Leeg Vak modus vervangt één item in het patroon door een lege ruimte — gebruikers moeten het patroon identificeren en het ontbrekende item bepalen zonder aanwijzingen. Kies uit Opties modus presenteert de lege plek naast drie antwoordkeuzes: één correct item en twee afleidingsantwoorden. Leeg Vak test open redeneren; Meerkeuze test herkenning met gestructureerde antwoordopties. Beide modi werken met alle negen patroontypen, waardoor 18 verschillende oefenstijlen ontstaan.',
     },
     {
       question: 'Hoe werkt per-oefening configuratie?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wat doen Willekeurig Startpunt en Willekeurige Lege Positie?',
-      answer: 'Willekeurig Startpunt laat het patroon beginnen op een willekeurig punt in de cyclus in plaats van altijd bij het eerste element — een ABC patroon kan beginnen bij C-A-B-C in plaats van A-B-C. Willekeurige Lege Positie plaatst het ontbrekende item op elke positie in de reeks in plaats van op een vaste locatie. Samen voorkomen deze instellingen dat leerlingen mechanisch oplossen en garanderen ze dat elk gegenereerd werkblad een verse uitdaging presenteert.',
+      answer: 'Willekeurig Startpunt laat het patroon beginnen op een willekeurig punt in de cyclus in plaats van altijd bij het eerste element — een ABC patroon kan beginnen bij C-A-B-C in plaats van A-B-C. Willekeurige Lege Positie plaatst het ontbrekende item op elke positie in de reeks in plaats van op een vaste locatie. Samen voorkomen deze instellingen dat gebruikers mechanisch oplossen en garanderen ze dat elk gegenereerd werkblad een verse uitdaging presenteert.',
     },
     {
       question: 'Waarom staat er geen tekst op de werkbladen?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Mag ik werkbladen gemaakt met deze tool commercieel verkopen?',
-      answer: 'Ja. Met een commerciële licentie heb je volledige rechten om patronen werkbladen te verkopen als digitale downloads op Etsy, gedrukte werkboeken op Amazon KDP, lesmateriaal op TPT, of via elk ander verkoopkanaal. Negen patroontypen, twee vraagmodi en per-oefening configuratie geven je de breedste productvariatie en differentiatie beschikbaar.',
+      answer: 'Ja. Met een commerciële licentie heb je volledige rechten om patronen werkbladen te verkopen als digitale downloads op Etsy, gedrukte werkboeken op Amazon KDP, printbare producten op Gumroad, of via elk ander verkoopkanaal. Negen patroontypen, twee vraagmodi en per-oefening configuratie geven je de breedste productvariatie en getrapte productpakketten beschikbaar.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -214,23 +214,23 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/dutch/pattern worksheet/Patroonpuzzels%201.webp',
-      primaryAlt: 'Patronenherkenning werkblad met rastergebaseerde oefeningen die herhalende afbeeldingspatronen tonen met lege vakken en meerkeuze-opties voor leerlingen om te voltooien',
+      primaryAlt: 'Patronenherkenning werkblad met rastergebaseerde oefeningen die herhalende afbeeldingspatronen tonen met lege vakken en meerkeuze-opties voor gebruikers om te voltooien',
     },
     sampleGallery: [
       {
         src: '/samples/dutch/pattern worksheet/Patroonpuzzels%202.webp',
-        alt: 'Patronen werkblad met AB-invuloefeningen met dierenafbeeldingen in een rasterindeling met lege vakken voor leerlingen om te voltooien',
-        caption: 'AB-invuloefeningen met dierenthema — leerlingen identificeren het afwisselende patroon en vullen de ontbrekende afbeelding in',
+        alt: 'Patronen werkblad met AB-invuloefeningen met dierenafbeeldingen in een rasterindeling met lege vakken voor gebruikers om te voltooien',
+        caption: 'AB-invuloefeningen met dierenthema — gebruikers identificeren het afwisselende patroon en vullen de ontbrekende afbeelding in',
       },
       {
         src: '/samples/dutch/pattern worksheet/Patroonpuzzels%203.webp',
         alt: 'Patronen werkblad met ABC-meerkeuze-oefeningen met voertuigafbeeldingen met drie antwoordopties per oefening',
-        caption: 'ABC-meerkeuze-oefeningen met voertuigenthema — leerlingen kiezen het juiste ontbrekende item uit drie opties',
+        caption: 'ABC-meerkeuze-oefeningen met voertuigenthema — gebruikers kiezen het juiste ontbrekende item uit drie opties',
       },
       {
         src: '/samples/dutch/pattern worksheet/Patroonpuzzels%201%20answer_key.webp',
         alt: 'Patronen werkblad antwoordblad met alle lege posities gevuld met de juiste patroonitems voor verificatie',
-        caption: 'Antwoordblad weergave — alle lege posities gevuld met de juiste patroonitems voor verificatie door de leerkracht',
+        caption: 'Antwoordblad weergave — alle lege posities gevuld met de juiste patroonitems voor verificatie door de verkoper',
       },
     ],
     youtubeId: 'W94X5_RA3ug',

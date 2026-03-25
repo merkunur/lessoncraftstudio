@@ -4,24 +4,24 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'kodknäckar matte arbetsblad skapare',
     secondaryKeywords: [
-      'knäck koden matte arbetsblad för lärare',
-      'kodknäckar pussel för klassrummet',
+      'knäck koden matte arbetsblad för säljare',
+      'kodknäckar pussel online',
       'utskrivbara chiffer matte arbetsblad för barn',
       'hemlig kod additions arbetsblad skapare',
     ],
     lsiKeywords: [
-      'bild chiffer matte pussel för klassrummet',
+      'bild chiffer matte pussel online',
       'ord avslöjande kodknäckning arbetsblad',
-      'sifferkod matte aktivitet för elever',
+      'sifferkod matte aktivitet för användare',
     ],
     titleTag: 'Kodknäckar Matte Skapare — Arbetsblad för Klass',
-    metaDescription: 'Skapa kodknäckande matte arbetsblad för klassrumskul. Bildchiffer pussel med addition, Ord Avslöjande-läge, 11 språk. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa kodknäckande matte arbetsblad för produktlinjeskul. Bildchiffer pussel med addition, Ord Avslöjande-läge, 11 språk. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Kodknäckar Matte Arbetsblad Skapare',
-    tagline: 'Skapa kryptaritmetikpussel där eleverna knäcker hemliga koder genom addition',
-    description: 'Det här är inte ännu ett additions arbetsblad — det är en kodknäckningsutmaning. Varje pussel gömmer siffror bakom bildsymboler, och eleverna måste lösa additionsekvationer för att räkna ut vilken siffra som hör till vilken bild. I Vanligt Läge representerar varje symbol en unik siffra. Växla till Ord Avslöjande-läget och varje löst ekvation avslöjar en bokstav i ett hemligt ord, med vilseledande bokstäver som håller eleverna gissande. Välj bland mer än 100 bildteman, justera symbolantal och addendkomplexitet, och ladda ner tryckfärdiga PDF:er eller JPEG-bilder. Stöder 11 språk med lokalmedvetna alfabet. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    tagline: 'Skapa kryptaritmetikpussel där användarna knäcker hemliga koder genom addition',
+    description: 'Det här är inte ännu ett additions arbetsblad — det är en kodknäckningsutmaning. Varje pussel gömmer siffror bakom bildsymboler, och användarna måste lösa additionsekvationer för att räkna ut vilken siffra som hör till vilken bild. I Vanligt Läge representerar varje symbol en unik siffra. Växla till Ord Avslöjande-läget och varje löst ekvation avslöjar en bokstav i ett hemligt ord, med vilseledande bokstäver som håller användarna gissande. Välj bland mer än 100 bildteman, justera symbolantal och addendkomplexitet, och ladda ner tryckfärdiga PDF:er eller JPEG-bilder. Stöder 11 språk med lokalmedvetna alfabet. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: 'Välj addender per fråga',
-        description: 'Välj hur många symboler som visas i varje additionsekvation: 2, 3, 4 eller Blanda. Tvåaddend-ekvationer passar yngre elever. Tre- och fyraaddend-ekvationer pressar äldre elever att hålla koll på fler okända. Blanda varierar slumpmässigt antalet över övningarna för maximal variation.',
+        description: 'Välj hur många symboler som visas i varje additionsekvation: 2, 3, 4 eller Blanda. Tvåaddend-ekvationer passar yngre användare. Tre- och fyraaddend-ekvationer pressar äldre användare att hålla koll på fler okända. Blanda varierar slumpmässigt antalet över övningarna för maximal variation.',
       },
       {
         title: 'Växla till Ord Avslöjande-läget (valfritt)',
-        description: 'Aktivera Ord Avslöjande-läget för att låsa upp ett helt annorlunda pusselformat. Skriv ett hemligt ord (upp till 10 tecken) och varje korrekt löst ekvation avslöjar en bokstav. Vilseledande bokstäver med felaktiga summor håller eleverna gissande. Det svenska alfabetet inkluderar Å, Ä och Ö för autentiska svenska hemliga ord.',
+        description: 'Aktivera Ord Avslöjande-läget för att låsa upp ett helt annorlunda pusselformat. Skriv ett hemligt ord (upp till 10 tecken) och varje korrekt löst ekvation avslöjar en bokstav. Vilseledande bokstäver med felaktiga summor håller användarna gissande. Det svenska alfabetet inkluderar Å, Ä och Ö för autentiska svenska hemliga ord.',
       },
       {
         title: 'Välj bilder från temabiblioteket',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till text och varumärkning',
-        description: 'Använd panelen «Textverktyg» för att lägga till en titel som «Knäck Koden!» eller «Hemlig Sifferutmaning». Lägg till ett elevnamnsfält, instruktioner eller din butiksvarumärkning. Välj bland barnvänliga typsnitt (Fredoka, Baloo 2, Quicksand, Nunito) och justera storlek, färg och textkontur.',
+        description: 'Använd panelen «Textverktyg» för att lägga till en titel som «Knäck Koden!» eller «Hemlig Sifferutmaning». Lägg till ett namnsfält, instruktioner eller din butiksvarumärkning. Välj bland tydliga typsnitt (Fredoka, Baloo 2, Quicksand, Nunito) och justera storlek, färg och textkontur.',
       },
       {
         title: 'Generera och ladda ner',
@@ -65,11 +65,11 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Kodknäckar pusselpaket',
-      description: 'Bygg tematiska uppsättningar av 10–20 kryptaritmetikpussel med djur-, rymd- eller högtidsbilder. Varje pussel tilldelar olika hemliga siffror till symbolerna, så varje sida är unik. Paketera som ett PDF-aktivitetspaket och sälj på Etsy eller Teachers Pay Teachers.',
+      description: 'Bygg tematiska uppsättningar av 10–20 kryptaritmetikpussel med djur-, rymd- eller högtidsbilder. Varje pussel tilldelar olika hemliga siffror till symbolerna, så varje sida är unik. Paketera som ett PDF-aktivitetspaket och sälj på Etsy eller Gumroad.',
     },
     {
       title: 'Ord Avslöjande aktivitetsböcker',
-      description: 'Använd Ord Avslöjande-läget för att skapa pusselböcker där eleverna löser additionsekvationer för att stava ut dolda ord. Välj vokabulärord, högfrekventa ord eller säsongsbetonade termer som hemligheter. De inbyggda vilseledande bokstäverna lägger till ett extra lager av utmaning som håller eleverna engagerade. För KDP-publicerare är en Ord Avslöjande aktivitetsbok som riktar sig mot högfrekventa ord för dagis till och med andra klass en stark nischprodukt.',
+      description: 'Använd Ord Avslöjande-läget för att skapa pusselböcker där användarna löser additionsekvationer för att stava ut dolda ord. Välj vokabulärord, högfrekventa ord eller säsongsbetonade termer som hemligheter. De inbyggda vilseledande bokstäverna lägger till ett extra lager av utmaning som håller användarna engagerade. För KDP-publicerare är en Ord Avslöjande aktivitetsbok som riktar sig mot högfrekventa ord för dagis till och med andra klass en stark nischprodukt.',
     },
     {
       title: 'KDP kryptaritmetik-arbetsböcker',
@@ -80,12 +80,12 @@ const content: ToolContent = {
       description: 'Växla mellan 11 stödda språk för att skapa kodpussel för internationella marknader. I Ord Avslöjande-läget använder generatorn lokalmedvetna alfabet — svenska ÅÄÖ, tyska Ä/Ö/Ü, franska accenter, skandinaviska tecken — så de dolda orden är lingvistiskt korrekta. Få konkurrenter erbjuder detta.',
     },
     {
-      title: 'Differentierade chiffer-arbetsblad',
-      description: 'Skapa samma pusselkoncept på flera svårighetsnivåer: 3 symboler med 2 addender för nybörjare, 5 symboler med 3 addender för mellannivå och 8 symboler med blandade addender för avancerade elever. Lärare kan tilldela rätt nivå utan extra förberedelsetid.',
+      title: 'nivågrupperade chiffer-arbetsblad',
+      description: 'Skapa samma pusselkoncept på flera svårighetsnivåer: 3 symboler med 2 addender för nybörjare, 5 symboler med 3 addender för mellannivå och 8 symboler med blandade addender för avancerade användare. säljare kan tilldela rätt nivå utan extra förberedelsetid.',
     },
     {
-      title: 'Klassrums uppvärmningsutmaningar',
-      description: 'Generera snabba 5-minuters kodknäckningspussel för dagliga klockenarbeten. Använd 3–4 symboler så eleverna kan slutföra snabbt, eller öka till 6+ för en helperiod-utmaning. Inkludera facit så eleverna kan självkontrollera och följa sina framsteg.',
+      title: 'produktlinjes uppvärmningsutmaningar',
+      description: 'Generera snabba 5-minuters kodknäckningspussel för dagliga klockenarbeten. Använd 3–4 symboler så användarna kan slutföra snabbt, eller öka till 6+ för en helperiod-utmaning. Inkludera facit så användarna kan självkontrollera och följa sina framsteg.',
     },
   ],
 
@@ -96,9 +96,9 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Teachers Pay Teachers premiumpussel',
-      description: 'Ladda upp differentierade kodknäckarpaket till TPT. Lärare söker efter engagerande matteaktiviteter som går bortom repetitiva arbetsblad. Inkludera en lärarguide som förklarar Vanligt Läge vs. Ord Avslöjande-läge, plus facit för varje pussel. Premiumprissättning (50–80 SEK) motiveras av det unika formatet.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad premiumpussel',
+      description: 'Ladda upp nivågrupperade kodknäckarpaket till Gumroad. säljare söker efter engagerande matteaktiviteter som går bortom repetitiva arbetsblad. Inkludera en lärarguide som förklarar Vanligt Läge vs. Ord Avslöjande-läge, plus facit för varje pussel. Premiumprissättning (50–80 SEK) motiveras av det unika formatet.',
+      platform: 'Gumroad',
     },
     {
       title: 'Amazon KDP pusselbokserie',
@@ -106,8 +106,8 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad digital läroplanspaket',
-      description: 'Skapa ett strukturerat 8-veckors «Kodknäckar Matte»-läroplanspaket med veckovisa pusselset. Vecka 1 börjar med 3 symboler, Vecka 8 avslutar med blandade addender och Ord Avslöjande-utmaningar. Sälj som en premium digital nedladdning (120–150 SEK) på Gumroad. Hemundervisande föräldrar betalar bra för kompletta, strukturerade program.',
+      title: 'Gumroad digital produktkatalogspaket',
+      description: 'Skapa ett strukturerat 8-veckors «Kodknäckar Matte»-produktkatalogspaket med veckovisa pusselset. Vecka 1 börjar med 3 symboler, Vecka 8 avslutar med blandade addender och Ord Avslöjande-utmaningar. Sälj som en premium digital nedladdning (120–150 SEK) på Gumroad. Hemundervisande föräldrar betalar bra för kompletta, strukturerade program.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Fest- och eventaktivitetspaket',
-      description: 'Skapa tematiska kodknäckningsaktivitetspaket för födelsedagsfester, klassrumsfiranden och högtidsevenemang. Använd Ord Avslöjande-läge med festrelaterade hemliga ord. Föräldrar och eventplanerare söker efter unika utskrivbara aktiviteter på Etsy och Pinterest. För födelsedagspaket, använd barnets namn som det hemliga ordet och para ihop det med roliga tematiska bilder som dinosaurier, enhörningar eller superhjältar.',
+      description: 'Skapa tematiska kodknäckningsaktivitetspaket för födelsedagsfester, produktlinjesfiranden och högtidsevenemang. Använd Ord Avslöjande-läge med festrelaterade hemliga ord. Föräldrar och eventplanerare söker efter unika utskrivbara aktiviteter på Etsy och Pinterest. För födelsedagspaket, använd barnets namn som det hemliga ordet och para ihop det med roliga tematiska bilder som dinosaurier, enhörningar eller superhjältar.',
       platform: 'Etsy',
     },
   ],
@@ -125,15 +125,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Börja med färre symboler för nybörjare',
-      description: 'Tre eller fyra symboler är den bästa punkten för yngre elever och förstagångs kodknäckare. Med färre okända kan eleverna använda elimineringslogik enklare. Spara 6+ symbolpussel för äldre elever eller avancerade utmaningsavsnitt i dina produktpaket. När du bygger en produktannons, nämn symbolantalet i din beskrivning så köpare vet vilken svårighetsnivå de får.',
+      description: 'Tre eller fyra symboler är den bästa punkten för yngre användare och förstagångs kodknäckare. Med färre okända kan användarna använda elimineringslogik enklare. Spara 6+ symbolpussel för äldre användare eller avancerade utmaningsavsnitt i dina produktpaket. När du bygger en produktannons, nämn symbolantalet i din beskrivning så köpare vet vilken svårighetsnivå de får.',
     },
     {
       title: 'Använd Blanda Addender för maximal variation',
-      description: 'Blanda-inställningen varierar slumpmässigt om varje ekvation har 2, 3 eller 4 addender. Detta skapar en mer engagerande pusselsida eftersom eleverna inte kan förlita sig på en strategi. När du bygger produkter att sälja gör Blanda-läget att varje sida känns annorlunda även inom samma paket.',
+      description: 'Blanda-inställningen varierar slumpmässigt om varje ekvation har 2, 3 eller 4 addender. Detta skapar en mer engagerande pusselsida eftersom användarna inte kan förlita sig på en strategi. När du bygger produkter att sälja gör Blanda-läget att varje sida känns annorlunda även inom samma paket.',
     },
     {
       title: 'Ord Avslöjande-läge är din premium-differentiator',
-      description: 'Vanliga kodpussel är roliga, men Ord Avslöjande-läget är funktionen som gör din produkt unik. Använd säsongsbetonade ord (TOMTE, KANIN, STRAND), högfrekventa ord för tidiga läsare eller vokabulärord för ämnesintegration. Framhäv denna funktion tydligt i dina produktannonser. På Etsy och TPT, inkludera en mockup-bild som visar Ord Avslöjande-pusslet bredvid dess lösta version så köpare omedelbart kan se det dolda ordkonceptet.',
+      description: 'Vanliga kodpussel är roliga, men Ord Avslöjande-läget är funktionen som gör din produkt unik. Använd säsongsbetonade ord (TOMTE, KANIN, STRAND), högfrekventa ord för tidiga läsare eller vokabulärord för ämnesintegration. Framhäv denna funktion tydligt i dina produktannonser. På Etsy och Gumroad, inkludera en mockup-bild som visar Ord Avslöjande-pusslet bredvid dess lösta version så köpare omedelbart kan se det dolda ordkonceptet.',
     },
     {
       title: 'Utnyttja flerspråkiga alfabet',
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludera alltid facit',
-      description: 'Kodpussel kan vara knepiga, och köpare förväntar sig lösningar. Generera facit för varje pussel innan du laddar ner. För Ord Avslöjande-pussel visar facit både siffertilldelningarna och det avslöjade ordet. Detta är essentiellt för lärarprodukter. Utan facit kan föräldrar och vikarier inte verifiera elevarbeten.',
+      description: 'Kodpussel kan vara knepiga, och köpare förväntar sig lösningar. Generera facit för varje pussel innan du laddar ner. För Ord Avslöjande-pussel visar facit både siffertilldelningarna och det avslöjade ordet. Detta är essentiellt för lärarprodukter. Utan facit kan föräldrar och vikarier inte verifiera ifyllda blad.',
     },
     {
       title: 'Använd tematiska bilder som matchar det hemliga ordet',
@@ -156,11 +156,11 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Vad är ett kodadditions arbetsblad?',
-      answer: 'Ett kodadditions arbetsblad är ett kryptaritmetikpussel där bilder eller symboler ersätter siffror i additionsekvationer. Eleverna löser ekvationerna för att räkna ut vilken siffra varje symbol representerar. Det kombinerar additionsövning med logisk deduktion, vilket gör det långt mer engagerande än vanliga matteövningar. Chiffermekanismen lägger till ett engagerande pussellager som förvandlar rutinmässig additionsövning till en utredningsutmaning.',
+      answer: 'Ett kodadditions arbetsblad är ett kryptaritmetikpussel där bilder eller symboler ersätter siffror i additionsekvationer. användarna löser ekvationerna för att räkna ut vilken siffra varje symbol representerar. Det kombinerar additionsövning med logisk deduktion, vilket gör det långt mer engagerande än vanliga matteövningar. Chiffermekanismen lägger till ett engagerande pussellager som förvandlar rutinmässig additionsövning till en utredningsutmaning.',
     },
     {
       question: 'Vad är skillnaden mellan Vanligt Läge och Ord Avslöjande-läge?',
-      answer: 'I Vanligt Läge gömmer varje bild en unik hemlig siffra och eleverna löser additionsekvationer för att knäcka koden. I Ord Avslöjande-läge avslöjar varje löst ekvation en bokstav av ett dolt ord, och vilseledande bokstäver med felaktiga summor håller eleverna gissande. Ur ett säljarperspektiv ger denna distinktion dig effektivt två helt olika produktlinjer från ett verktyg.',
+      answer: 'I Vanligt Läge gömmer varje bild en unik hemlig siffra och användarna löser additionsekvationer för att knäcka koden. I Ord Avslöjande-läge avslöjar varje löst ekvation en bokstav av ett dolt ord, och vilseledande bokstäver med felaktiga summor håller användarna gissande. Ur ett säljarperspektiv ger denna distinktion dig effektivt två helt olika produktlinjer från ett verktyg.',
     },
     {
       question: 'Finns det en gratis provversion?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja arbetsbladen jag skapar?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja på Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad eller valfri annan plattform behöver du en kommersiell licens. Licensen tar bort vattenstämpeln och ger fulla rättigheter att sälja pusslen du genererar.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja på Etsy, Gumroad, Amazon KDP, Gumroad eller valfri annan plattform behöver du en kommersiell licens. Licensen tar bort vattenstämpeln och ger fulla rättigheter att sälja pusslen du genererar.',
     },
     {
       question: 'Vilka språk stöds?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur skiljer sig detta från vanliga additions arbetsblad?',
-      answer: 'Vanliga additions arbetsblad visar siffror direkt. Kodadditions arbetsblad gömmer siffrorna bakom bildsymboler, vilket förvandlar varje sida till ett logikpussel. Eleverna måste använda resultaten av additionsekvationer för att deducera vilken siffra varje symbol representerar. Det bygger både aritmetisk färdighet och kritiskt tänkande.',
+      answer: 'Vanliga additions arbetsblad visar siffror direkt. Kodadditions arbetsblad gömmer siffrorna bakom bildsymboler, vilket förvandlar varje sida till ett logikpussel. användarna måste använda resultaten av additionsekvationer för att deducera vilken siffra varje symbol representerar. Det bygger både aritmetisk färdighet och kritiskt tänkande.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

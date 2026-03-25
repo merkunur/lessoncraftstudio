@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'rekenpuzzels maken voor de klas',
+    primaryKeyword: 'rekenpuzzels maken voor de winkel',
     secondaryKeywords: [
-      'legpuzzel rekenwerkbladen voor leerkrachten',
+      'legpuzzel rekenwerkbladen voor verkopers',
       'rekenpuzzel maker voor kinderen',
-      'rekenpuzzels met afbeeldingen voor de klas',
-      'printbare rekenpuzzel werkbladen voor leerlingen',
+      'rekenpuzzels met afbeeldingen voor de winkel',
+      'printbare rekenpuzzel werkbladen voor gebruikers',
     ],
     lsiKeywords: [
-      'afbeeldingraster rekenpuzzel voor de klas',
+      'afbeeldingraster rekenpuzzel voor de winkel',
       'legpuzzel rekenactiviteit voor kinderen',
       'configureerbare rekenpuzzel maker',
     ],
-    titleTag: 'Rekenpuzzels Maken — Puzzels voor de Klas',
-    metaDescription: 'Maak legpuzzel-stijl rekenpuzzels voor de klas. Afbeeldingrasters, drie rekenmodi, antwoordblad. Gratis proefversie met watermerk.',
+    titleTag: 'Rekenpuzzels Maken — Puzzels voor de winkel',
+    metaDescription: 'Maak legpuzzel-stijl rekenpuzzels voor de winkel. Afbeeldingrasters, drie rekenmodi, antwoordblad. Gratis proefversie met watermerk.',
     },
 
   hero: {
     title: 'Rekenpuzzel Werkblad Maker',
     tagline: 'Maak legpuzzel-stijl beeldpuzzels met rekensommen in minder dan 60 seconden',
-    description: 'Verander rekenoefening in een boeiende visuele puzzel die er totaal anders uitziet dan een standaard werkblad. Deze tool splitst een gekozen afbeelding in een raster van cellen, elk met een rekensom. Gehusselde puzzelstukjes met antwoordnummers verschijnen eronder — leerlingen lossen elke vergelijking op en koppelen het juiste stukje om het plaatje te reconstrueren. Kies uit drie rekenmodi: Optellen, Aftrekken of Gemengd (beide bewerkingen willekeurig gecombineerd). Pas de rastergrootte aan van 2×2 (4 stukjes, makkelijkst) tot 4×4 (16 stukjes, moeilijkst) voor elk vaardigheidsniveau. Upload je eigen PNG- of JPEG-afbeeldingen voor merkgebonden, seizoens- of nichepuzzels, of blader door de ingebouwde bibliotheek met meer dan 3100 afbeeldingen over 104 thema\'s. Het legpuzzelformaat creëert een direct herkenbaar product dat opvalt in marktplaats-zoekresultaten — kopers die door rijen identieke werkbladen scrollen stoppen bij een kleurrijke beeldpuzzel. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Verander rekenoefening in een boeiende visuele puzzel die er totaal anders uitziet dan een standaard werkblad. Deze tool splitst een gekozen afbeelding in een raster van cellen, elk met een rekensom. Gehusselde puzzelstukjes met antwoordnummers verschijnen eronder — gebruikers lossen elke vergelijking op en koppelen het juiste stukje om het plaatje te reconstrueren. Kies uit drie rekenmodi: Optellen, Aftrekken of Gemengd (beide bewerkingen willekeurig gecombineerd). Pas de rastergrootte aan van 2×2 (4 stukjes, makkelijkst) tot 4×4 (16 stukjes, moeilijkst) voor elk vaardigheidsniveau. Upload je eigen PNG- of JPEG-afbeeldingen voor merkgebonden, seizoens- of nichepuzzels, of blader door de ingebouwde bibliotheek met meer dan 3100 afbeeldingen over 104 thema\'s. Het legpuzzelformaat creëert een direct herkenbaar product dat opvalt in marktplaats-zoekresultaten — kopers die door rijen identieke werkbladen scrollen stoppen bij een kleurrijke beeldpuzzel. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Thematische Rekenpuzzelpakketten',
-      description: 'Maak sets van 15–20 puzzels met thematische afbeeldingen uit de bibliotheek — dinosaurussen, ruimte, dieren, voertuigen. Elke puzzel gebruikt een andere afbeelding met Optellen of Aftrekken sommen op een consistente rastergrootte. Bundel per thema en verkoop op Etsy.nl of TPT. Het legpuzzelformaat maakt je vermeldingsminiatuur direct onderscheidend van standaard rekenwerkbladen. Overweeg elk themapakket te combineren met een bijpassend antwoordbladboekje en een omslagpagina. Positioneer op €3–€5 per thema en €8–€12 voor megabundels.',
+      description: 'Maak sets van 15–20 puzzels met thematische afbeeldingen uit de bibliotheek — dinosaurussen, ruimte, dieren, voertuigen. Elke puzzel gebruikt een andere afbeelding met Optellen of Aftrekken sommen op een consistente rastergrootte. Bundel per thema en verkoop op Etsy.nl of Gumroad. Het legpuzzelformaat maakt je vermeldingsminiatuur direct onderscheidend van standaard rekenwerkbladen. Overweeg elk themapakket te combineren met een bijpassend antwoordbladboekje en een omslagpagina. Positioneer op €3–€5 per thema en €8–€12 voor megabundels.',
     },
     {
       title: 'KDP Puzzelwerkboeken',
@@ -72,19 +72,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Eigen Afbeelding Merkpuzzels',
-      description: 'Upload je eigen afbeeldingen — logo-ontwerpen, handgetekende illustraties of gelicentieerd kunstwerk — om merkgebonden puzzelwerkbladen te maken die geen concurrent kan repliceren. Perfect voor leerkrachten die klasmascotten willen, thuisonderwijs-gezinnen die curriculum personaliseren, of verkopers die een onderscheidende visuele merkidentiteit opbouwen.',
+      description: 'Upload je eigen afbeeldingen — logo-ontwerpen, handgetekende illustraties of gelicentieerd kunstwerk — om merkgebonden puzzelwerkbladen te maken die geen concurrent kan repliceren. Perfect voor verkopers die klasmascotten willen, thuisonderwijs-gezinnen die productcatalogus personaliseren, of verkopers die een onderscheidende visuele merkidentiteit opbouwen.',
     },
     {
       title: 'Gedifferentieerde Moeilijkheidssets',
-      description: 'Genereer drie versies van dezelfde thematische puzzel op verschillende niveaus: makkelijk (2×2 raster, alleen Optellen), gemiddeld (3×3 raster, Optellen of Aftrekken), en moeilijk (4×4 raster, Gemengde bewerkingen). Leerkrachten kunnen het juiste niveau aan elke leerling geven. Verkoop als gedifferentieerd pakket op een premiumprijspunt van €5–€8.',
+      description: 'Genereer drie versies van dezelfde thematische puzzel op verschillende niveaus: makkelijk (2×2 raster, alleen Optellen), gemiddeld (3×3 raster, Optellen of Aftrekken), en moeilijk (4×4 raster, Gemengde bewerkingen). verkopers kunnen het juiste niveau aan elke gebruiker geven. Verkoop als gedifferentieerd pakket op een premiumprijspunt van €5–€8.',
     },
     {
       title: 'Seizoens- en Feestdagpuzzelbundels',
-      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Kerstmis Rekenpuzzel" pakket met feestelijke afbeeldingen verkoopt sterk in november–december. Sinterklaas, Halloween, Valentijnsdag en terug-naar-school puzzels hebben elk hun eigen piekverkoopperioden op Etsy.nl en TPT.',
+      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Kerstmis Rekenpuzzel" pakket met feestelijke afbeeldingen verkoopt sterk in november–december. Sinterklaas, Halloween, Valentijnsdag en terug-naar-school puzzels hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad.',
     },
     {
-      title: 'Klaslokaal Opwarm-Puzzels',
-      description: 'Genereer snelle 2×2 of 2×3 puzzels voor dagelijkse reken-opwarmers. Leerlingen lossen 4–6 vergelijkingen op en puzzelen een leuk plaatje in elkaar in minder dan vijf minuten. Maak een set van 30 puzzels (één per schooldag) en verkoop als "Maand van Rekenpuzzel Opwarmers" pakket. Het spelachtige formaat houdt leerlingen betrokken vanaf de eerste bel.',
+      title: 'winkel Opwarm-Puzzels',
+      description: 'Genereer snelle 2×2 of 2×3 puzzels voor dagelijkse reken-opwarmers. gebruikers lossen 4–6 vergelijkingen op en puzzelen een leuk plaatje in elkaar in minder dan vijf minuten. Maak een set van 30 puzzels (één per schooldag) en verkoop als "Maand van Rekenpuzzel Opwarmers" pakket. Het spelachtige formaat houdt gebruikers betrokken vanaf de eerste bel.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Premium Pakketten',
-      description: 'Upload gedifferentieerde rekenpuzzelpakketten naar TPT. Leerkrachten zoeken constant naar "rekenpuzzels" en "rekenspellen". Voeg alle drie bewerkingsmodi, drie moeilijkheidsniveaus, antwoordbladen en een docentenhandleiding toe bij elke vermelding. Het legpuzzelformaat voegt waargenomen waarde toe omdat het als een spel aanvoelt, niet als een oefening. Voor Nederlandse TPT-verkopers: rekenpuzzels in legpuzzelstijl zijn vrijwel onvindbaar op het Nederlandstalige platform.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Premium Pakketten',
+      description: 'Upload gedifferentieerde rekenpuzzelpakketten naar Gumroad. verkopers zoeken constant naar "rekenpuzzels" en "rekenspellen". Voeg alle drie bewerkingsmodi, drie moeilijkheidsniveaus, antwoordbladen en een verkopershandleiding toe bij elke vermelding. Het legpuzzelformaat voegt waargenomen waarde toe omdat het als een spel aanvoelt, niet als een oefening. Voor Nederlandse Gumroad-verkopers: rekenpuzzels in legpuzzelstijl zijn vrijwel onvindbaar op het Nederlandstalige platform.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Puzzelkits met Eigen Afbeeldingen',
-      description: 'Maak een premium puzzelkit op Gumroad met 30+ puzzels met handgekozen of zelf geüploade afbeeldingen. Richt je op thuisonderwijs-ouders die visueel boeiende rekenmaterialen willen. Voeg een handleiding toe die uitlegt hoe je puzzels op elk moeilijkheidsniveau gebruikt voor een gestructureerd curriculum. Prijs op €12–€15.',
+      description: 'Maak een premium puzzelkit op Gumroad met 30+ puzzels met handgekozen of zelf geüploade afbeeldingen. Richt je op thuisonderwijs-ouders die visueel boeiende rekenmaterialen willen. Voeg een handleiding toe die uitlegt hoe je puzzels op elk moeilijkheidsniveau gebruikt voor een gestructureerd productcatalogus. Prijs op €12–€15.',
       platform: 'Gumroad',
     },
     {
@@ -123,12 +123,12 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Begin met 2×2 voor Jonge Leerlingen',
-      description: 'Een 2×2 raster heeft slechts 4 puzzelstukjes en 4 vergelijkingen — beheersbaar voor kleuters en groep 1-leerlingen die net leren optellen. Verhoog naar 3×3 voor groep 2–3 en 4×4 voor groep 4 en hoger. Rastergrootte afstemmen op leeftijdsgroep is de makkelijkste manier om gedifferentieerde producten te maken. Vermeld bij verkoop duidelijk het aanbevolen leeftijds- of groepsniveau in je producttitel.',
+      title: 'Begin met 2×2 voor Jonge gebruikers',
+      description: 'Een 2×2 raster heeft slechts 4 puzzelstukjes en 4 vergelijkingen — beheersbaar voor kleuters en groep 1-gebruikers die net leren optellen. Verhoog naar 3×3 voor groep 2–3 en 4×4 voor groep 4 en hoger. Rastergrootte afstemmen op leeftijdsgroep is de makkelijkste manier om gedifferentieerde producten te maken. Vermeld bij verkoop duidelijk het aanbevolen leeftijds- of niveaucategorie in je producttitel.',
     },
     {
       title: 'Gebruik Gemengde Modus voor Maximale Variatie',
-      description: 'De "Optellen & Aftrekken" modus mixt beide bewerkingen willekeurig in één puzzel. Dit creëert herhalingswerkbladen die beide vaardigheden tegelijk testen en voorkomt dat leerlingen in een herhalend patroon vallen. Gemengde modus puzzels hebben ook hogere waargenomen waarde in marktplaats-vermeldingen. Etsy- en TPT-kopers die zoeken naar "reken-herhaling" zoeken specifiek naar gemengde bewerkingen.',
+      description: 'De "Optellen & Aftrekken" modus mixt beide bewerkingen willekeurig in één puzzel. Dit creëert herhalingswerkbladen die beide vaardigheden tegelijk testen en voorkomt dat gebruikers in een herhalend patroon vallen. Gemengde modus puzzels hebben ook hogere waargenomen waarde in marktplaats-vermeldingen. Etsy- en Gumroad-kopers die zoeken naar "reken-herhaling" zoeken specifiek naar gemengde bewerkingen.',
     },
     {
       title: 'Upload Eigen Afbeeldingen voor Merkherkenning',
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Toon het Puzzelformaat in Miniaturen',
-      description: 'Het legpuzzelraster is visueel uniek en direct herkenbaar. Gebruik je JPEG-downloads als productminiaturen op Etsy en TPT. Een kleurrijke afbeelding gesplitst in genummerde puzzelstukjes vangt het oog veel effectiever dan een eenvoudige werkblad-voorbeeldweergave.',
+      description: 'Het legpuzzelraster is visueel uniek en direct herkenbaar. Gebruik je JPEG-downloads als productminiaturen op Etsy en Gumroad. Een kleurrijke afbeelding gesplitst in genummerde puzzelstukjes vangt het oog veel effectiever dan een eenvoudige werkblad-voorbeeldweergave.',
     },
     {
       title: 'Voeg Altijd het Antwoordblad Toe',
-      description: 'Genereer het antwoordblad voordat je downloadt. Het antwoordblad toont elk puzzelstukje geplaatst op de juiste rasterpositie met de opgeloste vergelijkingen. Kopers op Etsy en TPT beoordelen producten consistent hoger wanneer een antwoordblad is inbegrepen — het bespaart leerkrachten beoordelingstijd.',
+      description: 'Genereer het antwoordblad voordat je downloadt. Het antwoordblad toont elk puzzelstukje geplaatst op de juiste rasterpositie met de opgeloste vergelijkingen. Kopers op Etsy en Gumroad beoordelen producten consistent hoger wanneer een antwoordblad is inbegrepen — het bespaart verkopers beoordelingstijd.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Hoe werkt het rekenpuzzelformaat?',
-      answer: 'De tool splitst een gekozen afbeelding in een raster van cellen. Elke cel toont een rekensom (optellen, aftrekken of beide). Onder het raster verschijnen gehusselde puzzelstukjes met antwoordnummers. Leerlingen lossen elke vergelijking op, vinden het bijpassende stukje en plaatsen het in de juiste cel om het volledige plaatje te reconstrueren.',
+      answer: 'De tool splitst een gekozen afbeelding in een raster van cellen. Elke cel toont een rekensom (optellen, aftrekken of beide). Onder het raster verschijnen gehusselde puzzelstukjes met antwoordnummers. gebruikers lossen elke vergelijking op, vinden het bijpassende stukje en plaatsen het in de juiste cel om het volledige plaatje te reconstrueren.',
     },
     {
       question: 'Welke rastergroottes zijn beschikbaar?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kan ik de puzzels commercieel gebruiken?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om puzzels te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten. Er is geen limiet op hoeveel puzzels je kunt genereren of verkopen na licentie.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om puzzels te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten. Er is geen limiet op hoeveel puzzels je kunt genereren of verkopen na licentie.',
     },
     {
       question: 'Werken de puzzels in andere talen dan Nederlands?',
@@ -224,7 +224,7 @@ const content: ToolContent = {  seo: {
       },
       {
         src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%203.webp',
-        alt: 'Gemengde optellen en aftrekken rekenpuzzel met een groter raster voor gevorderde leerlingen',
+        alt: 'Gemengde optellen en aftrekken rekenpuzzel met een groter raster voor gevorderde gebruikers',
         caption: 'Gemengde bewerkingen — optellen en aftrekken in één puzzel',
       },
     ],

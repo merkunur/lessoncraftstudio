@@ -48,7 +48,7 @@ const content: StartContent = {
     },
     {
       heading: 'Platformspecifieke Tools en Hulpmiddelen',
-      content: 'Elk verkoopplatform heeft zijn eigen ecosysteem van tools voor vermeldingsoptimalisatie, zoekwoordonderzoek en prestatietracking. Dit zijn categorie-drie tools — waardevol voor optimalisatie maar alleen nuttig nadat je producten hebt om te optimaliseren.\n\nEtsy-verkopers profiteren van zoekwoordonderzoek tools als eRank en Marmalead. Deze tools analyseren Etsy zoekvolume, concurrentieniveaus en trending zoekwoorden om je te helpen titels en tags te schrijven die overeenkomen met wat kopers daadwerkelijk zoeken. De Etsy Seller app biedt mobiele toegang tot winkelanalyse, orderbeheer en klantberichten. Etsy\'s ingebouwde analyse dashboard toont weergaven, favorieten en conversiepercentages per vermelding.\n\nAmazon KDP-uitgevers gebruiken het KDP-dashboard voor boekbeheer, verkooptracking en royalty monitoring. De KDP-royaltycalculator laat je omzet modelleren bij verschillende prijspunten en pagina-aantallen. Zoekwoordonderzoek voor KDP verschilt van Etsy — tools als Publisher Rocket analyseren Amazon zoekvolume en concurrentie voor boekspecifieke zoekwoorden.\n\nTeachers Pay Teachers heeft zijn eigen verkopersdashboard met analyses, verdiensten tracking en productbeheer.\n\nHet cruciale inzicht over platform tools is dit: productietools (je werkblad generators) zijn platformonafhankelijk. Dezelfde generator produceert inhoud geschikt voor Etsy, KDP, TPT, Gumroad of je eigen website. Maar vermeldingsoptimalisatie tools zijn platformspecifiek. Een Etsy zoekwoordstrategie is niet overdraagbaar naar KDP, en KDP prijsanalyse is niet van toepassing op TPT. Budget je platform tool investeringen op basis van welke platforms je actief op verkoopt, niet welke je misschien ooit zou kunnen gebruiken.',
+      content: 'Elk verkoopplatform heeft zijn eigen ecosysteem van tools voor vermeldingsoptimalisatie, zoekwoordonderzoek en prestatietracking. Dit zijn categorie-drie tools — waardevol voor optimalisatie maar alleen nuttig nadat je producten hebt om te optimaliseren.\n\nEtsy-verkopers profiteren van zoekwoordonderzoek tools als eRank en Marmalead. Deze tools analyseren Etsy zoekvolume, concurrentieniveaus en trending zoekwoorden om je te helpen titels en tags te schrijven die overeenkomen met wat kopers daadwerkelijk zoeken. De Etsy Seller app biedt mobiele toegang tot winkelanalyse, orderbeheer en klantberichten. Etsy\'s ingebouwde analyse dashboard toont weergaven, favorieten en conversiepercentages per vermelding.\n\nAmazon KDP-uitgevers gebruiken het KDP-dashboard voor boekbeheer, verkooptracking en royalty monitoring. De KDP-royaltycalculator laat je omzet modelleren bij verschillende prijspunten en pagina-aantallen. Zoekwoordonderzoek voor KDP verschilt van Etsy — tools als Publisher Rocket analyseren Amazon zoekvolume en concurrentie voor boekspecifieke zoekwoorden.\n\nGumroad heeft zijn eigen verkopersdashboard met analyses, verdiensten tracking en productbeheer.\n\nHet cruciale inzicht over platform tools is dit: productietools (je werkblad generators) zijn platformonafhankelijk. Dezelfde generator produceert inhoud geschikt voor Etsy, KDP, Gumroad, Gumroad of je eigen website. Maar vermeldingsoptimalisatie tools zijn platformspecifiek. Een Etsy zoekwoordstrategie is niet overdraagbaar naar KDP, en KDP prijsanalyse is niet van toepassing op Gumroad. Budget je platform tool investeringen op basis van welke platforms je actief op verkoopt, niet welke je misschien ooit zou kunnen gebruiken.',
     },
     {
       heading: 'Hoe Werkblad Generators Productie Versnellen',
@@ -83,7 +83,7 @@ const content: StartContent = {
     },
     {
       step: 'Zet Je Eerste Verkoopplatform Op',
-      description: 'Kies één platform om te starten: Etsy voor digitale downloads, Amazon KDP voor activiteitenboeken, of TPT voor lesmateriaal. Maak je verkopersaccount aan en maak je vertrouwd met het vermeldingsproces.',
+      description: 'Kies één platform om te starten: Etsy voor digitale downloads, Amazon KDP voor activiteitenboeken, of Gumroad voor printbare producten. Maak je verkopersaccount aan en maak je vertrouwd met het vermeldingsproces.',
     },
     {
       step: 'Maak Je Eerste 15 tot 20 Producten',
@@ -103,7 +103,7 @@ const content: StartContent = {
     },
     {
       step: 'Voeg een Tweede Platform Toe voor Multi-Kanaal Omzet',
-      description: 'Pas je bestaande producten aan voor een tweede verkoopplatform. Etsy digitale downloads kunnen KDP paperbacks worden. KDP inhoud kan TPT materiaal worden. Dezelfde productietools, nieuw publiek, extra inkomstenstroom.',
+      description: 'Pas je bestaande producten aan voor een tweede verkoopplatform. Etsy digitale downloads kunnen KDP paperbacks worden. KDP inhoud kan Gumroad materiaal worden. Dezelfde productietools, nieuw publiek, extra inkomstenstroom.',
     },
     {
       step: 'Introduceer Platform Optimalisatie Tools Strategisch',
@@ -163,7 +163,7 @@ const content: StartContent = {
     },
     {
       question: 'Kan dezelfde werkblad generator producten maken voor meerdere platforms?',
-      answer: 'Ja. Elke generator produceert platformonafhankelijke PDF uitvoer. Dezelfde werkbladen kunnen worden vermeld als Etsy digitale downloads, geformateerd in Amazon KDP paperback activiteitenboeken, geüpload naar Teachers Pay Teachers, of verkocht op Gumroad en je eigen website. Eén productietool, meerdere verkoopplatforms, meerdere inkomstenstromen.',
+      answer: 'Ja. Elke generator produceert platformonafhankelijke PDF uitvoer. Dezelfde werkbladen kunnen worden vermeld als Etsy digitale downloads, geformateerd in Amazon KDP paperback activiteitenboeken, geüpload naar Gumroad, of verkocht op Gumroad en je eigen website. Eén productietool, meerdere verkoopplatforms, meerdere inkomstenstromen.',
     },
     {
       question: 'Heb ik aparte tools nodig voor elke taalmarkt?',
@@ -188,7 +188,7 @@ const content: StartContent = {
     {
       slug: 'werkbladen-maken-die-verkopen',
       title: 'Hoe Werkbladen te Maken Die Verkopen',
-      description: 'Diepgaande kijk op productkwaliteitsnormen, differentiatietechnieken en de specifieke methoden die werkbladen laten opvallen bij concurrenten op elke marktplaats.',
+      description: 'Diepgaande kijk op productkwaliteitsnormen, getrapte productpakkettentechnieken en de specifieke methoden die werkbladen laten opvallen bij concurrenten op elke marktplaats.',
     },
     {
       slug: 'meertalige-werkbladen-maken',

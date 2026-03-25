@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'codekraker rekenwerkbladen maken voor de klas',
+    primaryKeyword: 'codekraker rekenwerkbladen maken voor de winkel',
     secondaryKeywords: [
-      'geheime code rekenpuzzels voor leerkrachten',
-      'codekraker werkbladen voor de klas',
+      'geheime code rekenpuzzels voor verkopers',
+      'codekraker werkbladen voor de winkel',
       'printbare cijfercode puzzels voor kinderen',
       'optellen codekraker werkblad maker',
     ],
     lsiKeywords: [
-      'afbeelding cijferpuzzel voor de klas',
+      'afbeelding cijferpuzzel voor de winkel',
       'woord onthullen codekraker werkblad',
-      'getalcode rekenactiviteit voor leerlingen',
+      'getalcode rekenactiviteit voor gebruikers',
     ],
-    titleTag: 'Codekraker Reken Werkbladen — Voor de Klas',
-    metaDescription: 'Maak codekraak-rekenpuzzels voor de klas. Afbeeldingssymbolen, twee modi, 11 talen, 104 thema\'s. Gratis proefversie met watermerk.',
+    titleTag: 'Codekraker Reken Werkbladen — Voor de winkel',
+    metaDescription: 'Maak codekraak-rekenpuzzels voor de winkel. Afbeeldingssymbolen, twee modi, 11 talen, 104 thema\'s. Gratis proefversie met watermerk.',
     },
 
   hero: {
     title: 'Geheime Code Reken Werkblad Maker',
-    tagline: 'Maak cryptarithmetische puzzels waarbij leerlingen geheime codes kraken door optellen',
-    description: 'Dit is geen gewoon optelwerkblad — het is een codekraak-uitdaging. Elke puzzel verbergt getallen achter afbeeldingssymbolen, en leerlingen moeten optelsom men oplossen om uit te vinden welk getal bij welk plaatje hoort. In de Normale Modus staat elk symbool voor een uniek cijfer. Schakel over naar Woord Onthullen Modus en elke opgeloste vergelijking onthult een letter van een geheim woord, met afleidingsletters die leerlingen aan het raden houden. Kies uit meer dan 100 beeldthema\'s, pas het aantal symbolen en de complexiteit van de optellers aan, en download printklare PDF\'s of JPEG\'s. Ondersteunt 11 talen met taalgebonden alfabetten — Nederlandse puzzels gebruiken het volledige Nederlandse alfabet en Nederlandse woordenschat. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    tagline: 'Maak cryptarithmetische puzzels waarbij gebruikers geheime codes kraken door optellen',
+    description: 'Dit is geen gewoon optelwerkblad — het is een codekraak-uitdaging. Elke puzzel verbergt getallen achter afbeeldingssymbolen, en gebruikers moeten optelsom men oplossen om uit te vinden welk getal bij welk plaatje hoort. In de Normale Modus staat elk symbool voor een uniek cijfer. Schakel over naar Woord Onthullen Modus en elke opgeloste vergelijking onthult een letter van een geheim woord, met afleidingsletters die gebruikers aan het raden houden. Kies uit meer dan 100 beeldthema\'s, pas het aantal symbolen en de complexiteit van de optellers aan, en download printklare PDF\'s of JPEG\'s. Ondersteunt 11 talen met taalgebonden alfabetten — Nederlandse puzzels gebruiken het volledige Nederlandse alfabet en Nederlandse woordenschat. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -36,11 +36,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Kies het aantal optellers per vraag',
-        description: 'Selecteer hoeveel symbolen in elke optelvergelijking verschijnen: 2, 3, 4 of Mix. Twee-opteller vergelijkingen passen bij jongere leerlingen. Drie- en vier-opteller vergelijkingen dwingen oudere leerlingen om meer onbekenden bij te houden. Mix varieert het aantal willekeurig over oefeningen voor maximale afwisseling.',
+        description: 'Selecteer hoeveel symbolen in elke optelvergelijking verschijnen: 2, 3, 4 of Mix. Twee-opteller vergelijkingen passen bij jongere gebruikers. Drie- en vier-opteller vergelijkingen dwingen oudere gebruikers om meer onbekenden bij te houden. Mix varieert het aantal willekeurig over oefeningen voor maximale afwisseling.',
       },
       {
         title: 'Schakel naar Woord Onthullen Modus (optioneel)',
-        description: 'Schakel Woord Onthullen Modus in om een geheel ander puzzelformaat te ontgrendelen. Typ een geheim woord (maximaal 10 tekens) en elke correct opgeloste vergelijking onthult één letter. Afleidingsletters met verkeerde sommen houden leerlingen aan het raden. Deze modus is bijzonder geschikt voor premium producten — combineer rekenvaardigheden met woordenschatontwikkeling.',
+        description: 'Schakel Woord Onthullen Modus in om een geheel ander puzzelformaat te ontgrendelen. Typ een geheim woord (maximaal 10 tekens) en elke correct opgeloste vergelijking onthult één letter. Afleidingsletters met verkeerde sommen houden gebruikers aan het raden. Deze modus is bijzonder geschikt voor premium producten — combineer rekenvaardigheden met woordenschatontwikkeling.',
       },
       {
         title: 'Selecteer afbeeldingen uit de themabibliotheek',
@@ -52,7 +52,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Voeg tekst en branding toe',
-        description: 'Gebruik het paneel "Teksttools" om een titel toe te voegen zoals "Kraak de Code!" of "Geheime Getallen Uitdaging". Voeg een naamveld voor leerlingen, instructies of je shopbranding toe. Kies uit kindvriendelijke lettertypen (Fredoka, Baloo 2, Quicksand, Nunito) en pas grootte, kleur en tekstomtrek aan.',
+        description: 'Gebruik het paneel "Teksttools" om een titel toe te voegen zoals "Kraak de Code!" of "Geheime Getallen Uitdaging". Voeg een naamveld voor gebruikers, instructies of je shopbranding toe. Kies uit leesbare lettertypen (Fredoka, Baloo 2, Quicksand, Nunito) en pas grootte, kleur en tekstomtrek aan.',
       },
       {
         title: 'Genereer en download',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Codekraker Puzzelpakketten',
-      description: 'Bouw thematische sets van 10–20 cryptarithmetische puzzels met dieren-, ruimte- of feestdagafbeeldingen. Elke puzzel wijst verschillende geheime getallen toe aan de symbolen, dus elke pagina is uniek. Bundel als PDF-activiteitenpakket en verkoop op Etsy.nl of Teachers Pay Teachers. Positioneer je pakketten op €3–€5 per thema. De nieuwigheidsfactor van codekraak-puzzels genereert hogere klikfrequenties in zoekresultaten dan standaard optelwerkbladen.',
+      description: 'Bouw thematische sets van 10–20 cryptarithmetische puzzels met dieren-, ruimte- of feestdagafbeeldingen. Elke puzzel wijst verschillende geheime getallen toe aan de symbolen, dus elke pagina is uniek. Bundel als PDF-activiteitenpakket en verkoop op Etsy.nl of Gumroad. Positioneer je pakketten op €3–€5 per thema. De nieuwigheidsfactor van codekraak-puzzels genereert hogere klikfrequenties in zoekresultaten dan standaard optelwerkbladen.',
     },
     {
       title: 'Woord Onthullen Activiteitenboeken',
-      description: 'Gebruik Woord Onthullen Modus om puzzelboeken te maken waarbij leerlingen optelvergelijkingen oplossen om verborgen woorden te spellen. Kies woordenschatwoorden, zichtwoorden of seizoensgebonden termen als geheimen. De ingebouwde afleidingsletters voegen een extra laag uitdaging toe. Voor KDP-uitgevers is een Woord Onthullen activiteitenboek gericht op zichtwoorden voor groep 1–4 een sterk nicheproduct. Ouders die op Amazon zoeken naar "woordactiviteiten" vinden zelden cryptarithmetische puzzels, wat minder directe concurrentie betekent.',
+      description: 'Gebruik Woord Onthullen Modus om puzzelboeken te maken waarbij gebruikers optelvergelijkingen oplossen om verborgen woorden te spellen. Kies woordenschatwoorden, zichtwoorden of seizoensgebonden termen als geheimen. De ingebouwde afleidingsletters voegen een extra laag uitdaging toe. Voor KDP-uitgevers is een Woord Onthullen activiteitenboek gericht op zichtwoorden voor groep 1–4 een sterk nicheproduct. Ouders die op Amazon zoeken naar "woordactiviteiten" vinden zelden cryptarithmetische puzzels, wat minder directe concurrentie betekent.',
     },
     {
       title: 'KDP Cryptarithmetische Werkboeken',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Gedifferentieerde Codewerkbladen',
-      description: 'Maak hetzelfde puzzelconcept op meerdere moeilijkheidsniveaus: 3 symbolen met 2 optellers voor beginners, 5 symbolen met 3 optellers voor gemiddeld, en 8 symbolen met gemixte optellers voor gevorderd. Leerkrachten kunnen het juiste niveau toewijzen zonder extra voorbereidingstijd. Bundel alle drie niveaus als één TPT-vermelding op €5–€8.',
+      description: 'Maak hetzelfde puzzelconcept op meerdere moeilijkheidsniveaus: 3 symbolen met 2 optellers voor beginners, 5 symbolen met 3 optellers voor gemiddeld, en 8 symbolen met gemixte optellers voor gevorderd. verkopers kunnen het juiste niveau toewijzen zonder extra productietijd. Bundel alle drie niveaus als één Gumroad-vermelding op €5–€8.',
     },
     {
-      title: 'Klaslokaal Opwarm-Uitdagingen',
-      description: 'Genereer snelle 5-minuten codekraak-puzzels voor dagelijks ochtendwerk. Gebruik 3–4 symbolen zodat leerlingen snel klaar zijn, of verhoog naar 6+ voor een volledige les-uitdaging. Voeg het antwoordblad toe zodat leerlingen zelf kunnen controleren. Ochtendwerk-codepuzzels bieden meer betrokkenheid dan standaard rekenbladen.',
+      title: 'winkel Opwarm-Uitdagingen',
+      description: 'Genereer snelle 5-minuten codekraak-puzzels voor dagelijks oefenactiviteit. Gebruik 3–4 symbolen zodat gebruikers snel klaar zijn, of verhoog naar 6+ voor een volledige les-uitdaging. Voeg het antwoordblad toe zodat gebruikers zelf kunnen controleren. oefenactiviteit-codepuzzels bieden meer betrokkenheid dan standaard rekenbladen.',
     },
   ],
 
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Teachers Pay Teachers Premium Puzzels',
-      description: 'Upload gedifferentieerde codekraker-pakketten naar TPT. Leerkrachten zoeken naar boeiende rekenactiviteiten die verder gaan dan repetitieve werkbladen. Voeg een docentenhandleiding toe die de Normale Modus versus Woord Onthullen Modus uitlegt, plus antwoordbladen voor elke puzzel. Premiumprijzen (€5–€8) zijn gerechtvaardigd door het unieke formaat. Voor Nederlandse TPT-verkopers: codekraak rekenpuzzels in het Nederlands zijn vrijwel onvindbaar op het platform.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Premium Puzzels',
+      description: 'Upload gedifferentieerde codekraker-pakketten naar Gumroad. verkopers zoeken naar boeiende rekenactiviteiten die verder gaan dan repetitieve werkbladen. Voeg een verkopershandleiding toe die de Normale Modus versus Woord Onthullen Modus uitlegt, plus antwoordbladen voor elke puzzel. Premiumprijzen (€5–€8) zijn gerechtvaardigd door het unieke formaat. Voor Nederlandse Gumroad-verkopers: codekraak rekenpuzzels in het Nederlands zijn vrijwel onvindbaar op het platform.',
+      platform: 'Gumroad',
     },
     {
       title: 'Amazon KDP Puzzelboekserie',
@@ -105,8 +105,8 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Digitaal Curriculum Pakket',
-      description: 'Maak een gestructureerd 8-weken "Codekraker Rekenen" curriculum met wekelijkse puzzelsets. Week 1 start met 3 symbolen, Week 8 eindigt met gemixte optellers en Woord Onthullen uitdagingen. Verkoop als premium digitale download (€12–€15) op Gumroad. Thuisonderwijs-ouders betalen goed voor complete, gestructureerde programma\'s. Voeg een docentenhandleiding voorin toe die uitlegt hoe je de puzzels van elke week gebruikt.',
+      title: 'Gumroad Digitaal productcatalogus Pakket',
+      description: 'Maak een gestructureerd 8-weken "Codekraker Rekenen" productcatalogus met wekelijkse puzzelsets. Week 1 start met 3 symbolen, Week 8 eindigt met gemixte optellers en Woord Onthullen uitdagingen. Verkoop als premium digitale download (€12–€15) op Gumroad. Thuisonderwijs-ouders betalen goed voor complete, gestructureerde programma\'s. Voeg een verkopershandleiding voorin toe die uitlegt hoe je de puzzels van elke week gebruikt.',
       platform: 'Gumroad',
     },
     {
@@ -124,15 +124,15 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Begin met Minder Symbolen voor Beginners',
-      description: 'Drie of vier symbolen is het ideale aantal voor jongere leerlingen en eerste codekrakers. Met minder onbekenden kunnen leerlingen eliminatielogica makkelijker toepassen. Bewaar 6+ symboolpuzzels voor oudere leerlingen of gevorderde uitdagingssecties in je productbundels. Vermeld het aantal symbolen in je productbeschrijving zodat kopers weten welk moeilijkheidsniveau ze krijgen.',
+      description: 'Drie of vier symbolen is het ideale aantal voor jongere gebruikers en eerste codekrakers. Met minder onbekenden kunnen gebruikers eliminatielogica makkelijker toepassen. Bewaar 6+ symboolpuzzels voor oudere gebruikers of gevorderde uitdagingssecties in je productbundels. Vermeld het aantal symbolen in je productbeschrijving zodat kopers weten welk moeilijkheidsniveau ze krijgen.',
     },
     {
       title: 'Gebruik Mix Optellers voor Maximale Variatie',
-      description: 'De Mix-instelling varieert willekeurig of elke vergelijking 2, 3 of 4 optellers heeft. Dit creëert een boeiendere puzzelpagina omdat leerlingen niet op één strategie kunnen vertrouwen. Bij het maken van verkoopproducten maakt Mix-modus elke pagina anders, zelfs binnen dezelfde bundel. Deze variatie vermindert de kans op retourverzoeken door repetitieve inhoud.',
+      description: 'De Mix-instelling varieert willekeurig of elke vergelijking 2, 3 of 4 optellers heeft. Dit creëert een boeiendere puzzelpagina omdat gebruikers niet op één strategie kunnen vertrouwen. Bij het maken van verkoopproducten maakt Mix-modus elke pagina anders, zelfs binnen dezelfde bundel. Deze variatie vermindert de kans op retourverzoeken door repetitieve inhoud.',
     },
     {
       title: 'Woord Onthullen Modus Is Je Premium Onderscheider',
-      description: 'Standaard codepuzzels zijn leuk, maar Woord Onthullen Modus maakt je product uniek. Gebruik seizoenswoorden (SINTERKLAAS, PAASHAAS, STRAND), zichtwoorden voor beginnende lezers of woordenschatwoorden voor vakoverstijgende integratie. Benadruk deze functie prominent in je productvermeldingen. Voeg op Etsy en TPT een mockup-afbeelding toe die de puzzel naast de opgeloste versie toont zodat kopers het verborgen woord-concept direct zien.',
+      description: 'Standaard codepuzzels zijn leuk, maar Woord Onthullen Modus maakt je product uniek. Gebruik seizoenswoorden (SINTERKLAAS, PAASHAAS, STRAND), zichtwoorden voor beginnende lezers of woordenschatwoorden voor vakoverstijgende integratie. Benadruk deze functie prominent in je productvermeldingen. Voeg op Etsy en Gumroad een mockup-afbeelding toe die de puzzel naast de opgeloste versie toont zodat kopers het verborgen woord-concept direct zien.',
     },
     {
       title: 'Benut Meertalige Alfabetten',
@@ -144,7 +144,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Voeg Altijd het Antwoordblad Toe',
-      description: 'Codepuzzels kunnen lastig zijn en kopers verwachten oplossingen. Genereer het antwoordblad voor elke puzzel voordat je downloadt. Bij Woord Onthullen puzzels toont het antwoordblad zowel de getaltoewijzingen als het onthulde woord. Zonder antwoordbladen kunnen ouders en invallers het werk van leerlingen niet controleren, wat leidt tot negatieve beoordelingen.',
+      description: 'Codepuzzels kunnen lastig zijn en kopers verwachten oplossingen. Genereer het antwoordblad voor elke puzzel voordat je downloadt. Bij Woord Onthullen puzzels toont het antwoordblad zowel de getaltoewijzingen als het onthulde woord. Zonder antwoordbladen kunnen ouders en invallers het werk van gebruikers niet controleren, wat leidt tot negatieve beoordelingen.',
     },
     {
       title: 'Gebruik Thematische Afbeeldingen die Passen bij het Geheime Woord',
@@ -155,11 +155,11 @@ const content: ToolContent = {  seo: {
   faq: [
     {
       question: 'Wat is een geheime code optelwerkblad?',
-      answer: 'Een geheime code optelwerkblad is een cryptarithmetische puzzel waarbij afbeeldingen of symbolen getallen vervangen in optelvergelijkingen. Leerlingen lossen de vergelijkingen op om uit te vinden welk getal elk symbool voorstelt. Het combineert rekenoefening met logisch redeneren, waardoor het veel boeiender is dan standaard rekenrijtjes. Het cijfermechanisme voegt een spannende puzzellaag toe die routinematige rekenoefening transformeert in een onderzoekende uitdaging.',
+      answer: 'Een geheime code optelwerkblad is een cryptarithmetische puzzel waarbij afbeeldingen of symbolen getallen vervangen in optelvergelijkingen. gebruikers lossen de vergelijkingen op om uit te vinden welk getal elk symbool voorstelt. Het combineert rekenoefening met logisch redeneren, waardoor het veel boeiender is dan standaard rekenrijtjes. Het cijfermechanisme voegt een spannende puzzellaag toe die routinematige rekenoefening transformeert in een onderzoekende uitdaging.',
     },
     {
       question: 'Wat is het verschil tussen Normale Modus en Woord Onthullen Modus?',
-      answer: 'In Normale Modus verbergt elke afbeelding een uniek geheim getal en leerlingen lossen optelvergelijkingen op om de code te kraken. In Woord Onthullen Modus onthult elke opgeloste vergelijking een letter van een verborgen woord, en afleidingsletters met verkeerde sommen houden leerlingen aan het raden. Vanuit verkopersperspectief geeft dit onderscheid je twee geheel verschillende productlijnen vanuit één tool.',
+      answer: 'In Normale Modus verbergt elke afbeelding een uniek geheim getal en gebruikers lossen optelvergelijkingen op om de code te kraken. In Woord Onthullen Modus onthult elke opgeloste vergelijking een letter van een verborgen woord, en afleidingsletters met verkeerde sommen houden gebruikers aan het raden. Vanuit verkopersperspectief geeft dit onderscheid je twee geheel verschillende productlijnen vanuit één tool.',
     },
     {
       question: 'Is er een gratis proefversie?',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kan ik de werkbladen die ik maak verkopen?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad of een ander platform, heb je een commerciële licentie nodig. De licentie verwijdert het watermerk en verleent volledige rechten om de puzzels die je genereert te verkopen. Na licentie zijn er geen download-limieten en geen royaltykosten.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om te verkopen op Etsy, Gumroad, Amazon KDP, Gumroad of een ander platform, heb je een commerciële licentie nodig. De licentie verwijdert het watermerk en verleent volledige rechten om de puzzels die je genereert te verkopen. Na licentie zijn er geen download-limieten en geen royaltykosten.',
     },
     {
       question: 'Welke talen worden ondersteund?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Hoe verschilt dit van gewone optelwerkbladen?',
-      answer: 'Gewone optelwerkbladen tonen getallen direct. Geheime code optelwerkbladen verbergen de getallen achter afbeeldingssymbolen, waardoor elke pagina een logische puzzel wordt. Leerlingen moeten de resultaten van optelvergelijkingen gebruiken om af te leiden welk getal elk symbool voorstelt. Het bouwt zowel rekenvaardigheid als kritisch denken op.',
+      answer: 'Gewone optelwerkbladen tonen getallen direct. Geheime code optelwerkbladen verbergen de getallen achter afbeeldingssymbolen, waardoor elke pagina een logische puzzel wordt. gebruikers moeten de resultaten van optelvergelijkingen gebruiken om af te leiden welk getal elk symbool voorstelt. Het bouwt zowel rekenvaardigheid als kritisch denken op.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

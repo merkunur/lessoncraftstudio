@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kruiswoordpuzzel maken voor de klas',
+    primaryKeyword: 'kruiswoordpuzzel maken voor de winkel',
     secondaryKeywords: [
-      'kruiswoordpuzzel maker voor leerkrachten',
+      'kruiswoordpuzzel maker voor verkopers',
       'plaatjes kruiswoordpuzzels voor kinderen',
       'printbare kruiswoordpuzzels voor school',
-      'woordenschat kruiswoordpuzzel voor leerlingen',
+      'woordenschat kruiswoordpuzzel voor gebruikers',
     ],
     lsiKeywords: [
       'kruiswoordpuzzel met visuele aanwijzingen',
-      'gelokaliseerde kruiswoordpuzzel generator voor de klas',
+      'gelokaliseerde kruiswoordpuzzel generator voor de winkel',
       'automatisch antwoordblad kruiswoordpuzzel',
     ],
-    titleTag: 'Kruiswoordpuzzel Maken — Voor de Klas',
-    metaDescription: 'Maak plaatjes kruiswoordpuzzels voor de klas. 15x15 raster, vier invoermethoden, automatisch antwoordblad. Gratis proefversie met watermerk.',
+    titleTag: 'Kruiswoordpuzzel Maken — Voor de winkel',
+    metaDescription: 'Maak plaatjes kruiswoordpuzzels voor de winkel. 15x15 raster, vier invoermethoden, automatisch antwoordblad. Gratis proefversie met watermerk.',
     },
 
   hero: {
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Download alle vier bestanden',
-        description: 'Schakel grijstinten in voor inktvriendelijke versies ideaal voor het printen in de klas en KDP-binnenwerken. Download alle vier bestanden vanuit één sessie: werkblad-JPEG, antwoordblad-JPEG, werkblad-PDF en antwoordblad-PDF — allemaal gerenderd op 300 DPI (6× vermenigvuldiger). Elk tabblad heeft zijn eigen paar downloadknoppen in het dropdownmenu. Alle exports zijn productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden zonder nabewerking nodig. Klik opnieuw op Genereren om een nieuwe kruiswoordpuzzel te produceren met een andere willekeurige afbeeldingsselectie en woordplaatsing, of wissel van thema en taal voor snelle variatie.',
+        description: 'Schakel grijstinten in voor inktvriendelijke versies ideaal voor het printen online en KDP-binnenwerken. Download alle vier bestanden vanuit één sessie: werkblad-JPEG, antwoordblad-JPEG, werkblad-PDF en antwoordblad-PDF — allemaal gerenderd op 300 DPI (6× vermenigvuldiger). Elk tabblad heeft zijn eigen paar downloadknoppen in het dropdownmenu. Alle exports zijn productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden zonder nabewerking nodig. Klik opnieuw op Genereren om een nieuwe kruiswoordpuzzel te produceren met een andere willekeurige afbeeldingsselectie en woordplaatsing, of wissel van thema en taal voor snelle variatie.',
       },
     ],
   },
@@ -68,11 +68,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Meertalige Kruiswoordsets voor Internationale Markten',
-      description: 'Benut de taalgebonden woordgeneratie om plaatjes kruiswoordpuzzels te maken in alle 11 ondersteunde talen vanuit dezelfde afbeeldingsselecties. Een enkele set dierenafbeeldingen produceert volledig verschillende kruiswoordrasters in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins — elk met gelokaliseerde woorden, gelokaliseerde kopteksten en unieke rasterindelingen. Verkoop taalspecifieke bundels voor NT2-docenten, tweetalige klaslokalen en internationale thuisonderwijsgezinnen, of maak meertalige megapakketten tegen premiumprijzen.',
+      description: 'Benut de taalgebonden woordgeneratie om plaatjes kruiswoordpuzzels te maken in alle 11 ondersteunde talen vanuit dezelfde afbeeldingsselecties. Een enkele set dierenafbeeldingen produceert volledig verschillende kruiswoordrasters in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins — elk met gelokaliseerde woorden, gelokaliseerde kopteksten en unieke rasterindelingen. Verkoop taalspecifieke bundels voor NT2-verkopers, tweetalige winkels en internationale thuisonderwijsgezinnen, of maak meertalige megapakketten tegen premiumprijzen.',
     },
     {
-      title: 'Aangepaste Woordenschat Kruiswoordcollecties voor Docenten',
-      description: 'Gebruik de modus Aangepaste Woordenlijst met Aanwijzingen om lesstof-gerelateerde kruiswoordpuzzels te maken met door de docent bepaalde woordenschat. Voer vakspecifieke termen en definities in WOORD: aanwijzing-formaat in — wetenschapswoordenschat, aardrijkskundeterumen, begrijpend-lezenwoorden, wiskundeterminologie of spellinglijsten. Elke puzzel wordt gegenereerd op hetzelfde 15×15 raster met tekstaanwijzingen in plaats van afbeeldingen. Bouw kruiswoordsets per leerjaar met antwoordbladen in zowel PDF- als JPEG-formaat voor ochtendwerk in de klas, herhalingsactiviteiten en toetsvoorbereiding.',
+      title: 'Aangepaste Woordenschat Kruiswoordcollecties voor verkopers',
+      description: 'Gebruik de modus Aangepaste Woordenlijst met Aanwijzingen om lesstof-gerelateerde kruiswoordpuzzels te maken met door de verkoper bepaalde woordenschat. Voer vakspecifieke termen en definities in WOORD: aanwijzing-formaat in — wetenschapswoordenschat, aardrijkskundeterumen, begrijpend-lezenwoorden, wiskundeterminologie of spellinglijsten. Elke puzzel wordt gegenereerd op hetzelfde 15×15 raster met tekstaanwijzingen in plaats van afbeeldingen. Bouw kruiswoordsets per leerjaar met antwoordbladen in zowel PDF- als JPEG-formaat voor oefenactiviteit online, herhalingsactiviteiten en toetsvoorbereiding.',
     },
     {
       title: 'KDP Plaatjes Kruiswoordpuzzel Werkboeken met Progressieve Thema\'s',
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Gemengd-Formaat Woordpuzzel Megabundels',
-      description: 'Koppel plaatjes kruiswoordpuzzels aan woordzoeker werkbladen, woordscramble-activiteiten, woordraad-uitdagingen en cryptogram puzzels met gecoördineerde thema\'s over meerdere generators. Plaatjes kruiswoordpuzzels bouwen woordenschat door afbeelding-naar-woord associatie. Woordzoekers ontwikkelen letterpatroon herkenning. Woordscrambles daagen spelling en anagram-oplossing uit. Elk formaat richt zich op een andere taalvaardigheid terwijl thematische consistentie behouden blijft. Multi-formaat woordpuzzelbundels brengen premiumprijzen op omdat ouders en docenten meer betalen voor uitgebreide woordenschatopbouwende collecties.',
+      description: 'Koppel plaatjes kruiswoordpuzzels aan woordzoeker werkbladen, woordscramble-activiteiten, woordraad-uitdagingen en cryptogram puzzels met gecoördineerde thema\'s over meerdere generators. Plaatjes kruiswoordpuzzels bouwen woordenschat door afbeelding-naar-woord associatie. Woordzoekers ontwikkelen letterpatroon herkenning. Woordscrambles daagen spelling en anagram-oplossing uit. Elk formaat richt zich op een andere taalvaardigheid terwijl thematische consistentie behouden blijft. Multi-formaat woordpuzzelbundels brengen premiumprijzen op omdat ouders en verkopers meer betalen voor uitgebreide woordenschatopbouwende collecties.',
     },
   ],
 
@@ -100,18 +100,18 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT Woordenschat Kruiswoordactiviteiten Pakketten',
-      description: 'Upload woordenschat kruiswoordpakketten naar TPT met zowel de plaatjes kruiswoordmodus als de aangepaste woordenlijstmodus. Plaatjes kruiswoordpuzzels gebruiken thematische afbeeldingen voor visuele woordenschatopbouw — leerlingen zien een dier en schrijven de naam in het raster. Aangepaste woordenlijst kruiswoordpuzzels gebruiken door de docent bepaalde termen en definities voor lesstof-gerelateerde herhalingsactiviteiten. Neem automatisch gegenereerde antwoordbladen op bij elke puzzel als belangrijk verkoopargument. Docenten die zoeken naar kruiswoordactiviteiten waarderen kant-en-klare puzzels met bijgeleverde oplossingen. Maak sets per leerjaar voor natuur, aardrijkskunde, taal en rekenwoordenschat.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Woordenschat Kruiswoordactiviteiten Pakketten',
+      description: 'Upload woordenschat kruiswoordpakketten naar Gumroad met zowel de plaatjes kruiswoordmodus als de aangepaste woordenlijstmodus. Plaatjes kruiswoordpuzzels gebruiken thematische afbeeldingen voor visuele woordenschatopbouw — gebruikers zien een dier en schrijven de naam in het raster. Aangepaste woordenlijst kruiswoordpuzzels gebruiken door de verkoper bepaalde termen en definities voor lesstof-gerelateerde herhalingsactiviteiten. Neem automatisch gegenereerde antwoordbladen op bij elke puzzel als belangrijk verkoopargument. verkopers die zoeken naar kruiswoordactiviteiten waarderen kant-en-klare puzzels met bijgeleverde oplossingen. Maak sets per leerjaar voor natuur, aardrijkskunde, taal en rekenwoordenschat.',
+      platform: 'Gumroad',
     },
     {
       title: 'Meertalige Kruiswoordpuzzel Bedrijf voor Internationale Markten',
-      description: 'De taalgebonden woordgeneratie creëert volledig verschillende kruiswoordpuzzels vanuit identieke afbeeldingen wanneer je van taal wisselt. Een enkele set van 8 dierenafbeeldingen produceert unieke kruiswoordrasters in het Nederlands, Engels, Duits, Frans, Spaans en 6 meer talen — elk met gelokaliseerde woorden en gelokaliseerde kopteksten. Maak taalspecifieke kruiswoordbundels voor NT2-docenten, tweetalige onderwijsprogramma\'s en internationale thuisonderwijsgezinnen. Verkoop in Etsy-winkels die specifieke landen bedienen, vermeld op TPT voor internationale docenten, of bouw meertalige megapakketten tegen premiumprijzen. Eén afbeeldingenset genereert 11 verkoopbare producten.',
-      platform: 'Etsy / TPT',
+      description: 'De taalgebonden woordgeneratie creëert volledig verschillende kruiswoordpuzzels vanuit identieke afbeeldingen wanneer je van taal wisselt. Een enkele set van 8 dierenafbeeldingen produceert unieke kruiswoordrasters in het Nederlands, Engels, Duits, Frans, Spaans en 6 meer talen — elk met gelokaliseerde woorden en gelokaliseerde kopteksten. Maak taalspecifieke kruiswoordbundels voor NT2-verkopers, tweetalige onderwijsprogramma\'s en internationale thuisonderwijsgezinnen. Verkoop in Etsy-winkels die specifieke landen bedienen, vermeld op Gumroad voor internationale verkopers, of bouw meertalige megapakketten tegen premiumprijzen. Eén afbeeldingenset genereert 11 verkoopbare producten.',
+      platform: 'Etsy / Gumroad',
     },
     {
       title: 'Pinterest Plaatjes Kruiswoordpuzzel Verkeerstrechter',
-      description: 'Plaatjes kruiswoordpuzzels maken visueel opvallende Pinterest-pins — een kleurrijk kruiswoordraster omringd door afbeeldingsaanwijzingen creëert een direct boeiend puzzelformaat dat ouders en docenten herkennen als educatief. Pin voorbeeldkruiswoordpuzzels die de afbeeldingsaanwijzing-indeling tonen met genummerde posities die afbeeldingen verbinden met rasterlocaties. Maak aparte pinseries voor "plaatjes kruiswoordpuzzels voor kinderen", "printbare kruiswoordactiviteiten" en "woordenschat kruiswoordwerkbladen". Neem antwoordblad-voorbeeldafbeeldingen op die het ingevulde raster met alle correcte letters tonen. Link elke pin naar je Etsy- of TPT-productvermeldingen.',
+      description: 'Plaatjes kruiswoordpuzzels maken visueel opvallende Pinterest-pins — een kleurrijk kruiswoordraster omringd door afbeeldingsaanwijzingen creëert een direct boeiend puzzelformaat dat ouders en verkopers herkennen als educatief. Pin voorbeeldkruiswoordpuzzels die de afbeeldingsaanwijzing-indeling tonen met genummerde posities die afbeeldingen verbinden met rasterlocaties. Maak aparte pinseries voor "plaatjes kruiswoordpuzzels voor kinderen", "printbare kruiswoordactiviteiten" en "woordenschat kruiswoordwerkbladen". Neem antwoordblad-voorbeeldafbeeldingen op die het ingevulde raster met alle correcte letters tonen. Link elke pin naar je Etsy- of Gumroad-productvermeldingen.',
       platform: 'Pinterest',
     },
     {
@@ -132,23 +132,23 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Benut taalgebonden generatie voor meertalige producten',
-      description: 'Dezelfde 8 afbeeldingen produceren volledig verschillende kruiswoordrasters wanneer je van taal wisselt. Een katafbeelding creëert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans — verschillende woordlengtes betekenen verschillende rasterplaatsingen, verschillende kruisingen en verschillende puzzelmoeilijkheid. Maak één thematische set afbeeldingen en genereer kruiswoordpuzzels in alle 11 talen voor 11 verkoopbare producten vanuit één inhoudssessie. Meertalige kruiswoordbundels bedienen NT2-docenten en internationale thuisonderwijsgezinnen tegen premiumprijzen.',
+      description: 'Dezelfde 8 afbeeldingen produceren volledig verschillende kruiswoordrasters wanneer je van taal wisselt. Een katafbeelding creëert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans — verschillende woordlengtes betekenen verschillende rasterplaatsingen, verschillende kruisingen en verschillende puzzelmoeilijkheid. Maak één thematische set afbeeldingen en genereer kruiswoordpuzzels in alle 11 talen voor 11 verkoopbare producten vanuit één inhoudssessie. Meertalige kruiswoordbundels bedienen NT2-verkopers en internationale thuisonderwijsgezinnen tegen premiumprijzen.',
     },
     {
       title: 'Gebruik Aangepaste Woordenlijst modus voor lesstof-gerelateerde producten',
-      description: 'Schakel over naar de modus Aangepaste Woordenlijst met Aanwijzingen voor vakspecifieke kruiswoordpuzzels waar docenten op TPT naar zoeken. Voer wetenschapstermen met definities, aardrijkskundewoordenschat met context, of spellingwoorden met gebruikszinnen in WOORD: aanwijzing-formaat in. Tekstaanwijzing-kruiswoordpuzzels richten zich op een ander koperspubliek dan plaatjes kruiswoordpuzzels — docenten die kruiswoordpuzzels nodig hebben die passen bij hun exacte leerplan. Maak woordenschatsets per leerjaar en vakgebied, en label je vermeldingen met de specifieke leerdoelen die worden behandeld.',
+      description: 'Schakel over naar de modus Aangepaste Woordenlijst met Aanwijzingen voor vakspecifieke kruiswoordpuzzels waar verkopers op Gumroad naar zoeken. Voer wetenschapstermen met definities, aardrijkskundewoordenschat met context, of spellingwoorden met gebruikszinnen in WOORD: aanwijzing-formaat in. Tekstaanwijzing-kruiswoordpuzzels richten zich op een ander koperspubliek dan plaatjes kruiswoordpuzzels — verkopers die kruiswoordpuzzels nodig hebben die passen bij hun exacte productcatalogus. Maak woordenschatsets per leerjaar en vakgebied, en label je vermeldingen met de specifieke productdoelen die worden behandeld.',
     },
     {
       title: 'Neem antwoordbladen op in elke vermeldingsvoorbeeldafbeelding',
-      description: 'Het automatisch gegenereerde antwoordblad met het ingevulde raster dat alle correcte letters toont is je sterkste verkooponderscheider. Neem altijd antwoordblad-voorbeeldafbeeldingen op in je marktplaatsvermeldingen — toon het ingevulde raster duidelijk in productfoto\'s. Producten die antwoordbladen bevatten verkopen consistent beter dan alleen-puzzel vermeldingen omdat docenten en ouders zelfcontrolerend materiaal willen. Het dubbele canvassysteem genereert beide versies tegelijkertijd, dus het opnemen van het antwoordblad kost je niets extra aan productietijd.',
+      description: 'Het automatisch gegenereerde antwoordblad met het ingevulde raster dat alle correcte letters toont is je sterkste verkooponderscheider. Neem altijd antwoordblad-voorbeeldafbeeldingen op in je marktplaatsvermeldingen — toon het ingevulde raster duidelijk in productfoto\'s. Producten die antwoordbladen bevatten verkopen consistent beter dan alleen-puzzel vermeldingen omdat verkopers en ouders zelfcontrolerend materiaal willen. Het dubbele canvassysteem genereert beide versies tegelijkertijd, dus het opnemen van het antwoordblad kost je niets extra aan productietijd.',
     },
     {
       title: 'Combineer plaatjes- en tekstaanwijzing-kruiswoordpuzzels in premiumbundels',
-      description: 'Neem zowel plaatjes kruiswoordpuzzels (met thematische afbeeldingsaanwijzingen) als tekstaanwijzing-kruiswoordpuzzels (met aangepaste woordenlijsten) op in dezelfde bundel voor maximale variatie. Plaatjes kruiswoordpuzzels richten zich op visuele leerlingen en jongere leerlingen die reageren op afbeeldingsgebaseerde aanwijzingen. Tekstaanwijzing-kruiswoordpuzzels richten zich op oudere leerlingen en vakspecifieke woordenschatherhaling. Het bundelen van beide formaten verdubbelt je inhoudsvariatie en dekt meerdere leerstijlen in één product, wat hogere prijzen rechtvaardigt dan enkelvoudige-formaat kruiswoordpakketten.',
+      description: 'Neem zowel plaatjes kruiswoordpuzzels (met thematische afbeeldingsaanwijzingen) als tekstaanwijzing-kruiswoordpuzzels (met aangepaste woordenlijsten) op in dezelfde bundel voor maximale variatie. Plaatjes kruiswoordpuzzels richten zich op visuele gebruikers en jongere gebruikers die reageren op afbeeldingsgebaseerde aanwijzingen. Tekstaanwijzing-kruiswoordpuzzels richten zich op oudere gebruikers en vakspecifieke woordenschatherhaling. Het bundelen van beide formaten verdubbelt je inhoudsvariatie en dekt meerdere leerstijlen in één product, wat hogere prijzen rechtvaardigt dan enkelvoudige-formaat kruiswoordpakketten.',
     },
     {
       title: 'Gebruik grijstinten voor KDP en klasproducten',
-      description: 'Schakel grijstinten in om inktvriendelijke kruiswoordpuzzels te maken specifiek voor KDP print-on-demand binnenwerken en het printen in de klas. Kleurendruk kost aanzienlijk meer bij KDP, en veel docenten printen op zwart-wit printers. Maak dubbel-formaat bundels die zowel kleurversies (voor digitale downloads) als grijstintenversies (voor druk) bevatten — kopers ervaren dit als dubbele waarde. Het kruiswoordraster, genummerde aanwijzingsposities en afbeeldingsaanwijzingen renderen allemaal helder in grijstinten.',
+      description: 'Schakel grijstinten in om inktvriendelijke kruiswoordpuzzels te maken specifiek voor KDP print-on-demand binnenwerken en het printen online. Kleurendruk kost aanzienlijk meer bij KDP, en veel verkopers printen op zwart-wit printers. Maak dubbel-formaat bundels die zowel kleurversies (voor digitale downloads) als grijstintenversies (voor druk) bevatten — kopers ervaren dit als dubbele waarde. Het kruiswoordraster, genummerde aanwijzingsposities en afbeeldingsaanwijzingen renderen allemaal helder in grijstinten.',
     },
   ],
 
@@ -179,15 +179,15 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Hoe werkt de modus Aangepaste Woordenlijst met Aanwijzingen?',
-      answer: 'Schakel het selectievakje Aangepaste Woordenlijst met Aanwijzingen in om over te schakelen van plaatjes kruiswoordpuzzels naar traditionele tekstaanwijzing-kruiswoordpuzzels. Voer woorden en hun aanwijzingen in het formaat WOORD: aanwijzingtekst in, één per regel, met minimaal 8 items. Hetzelfde 15×15 rasteralgoritme plaatst je aangepaste woorden met optimale kruising, en tekstaanwijzingen verschijnen naast het raster in plaats van afbeeldingsaanwijzingen. Deze modus is ideaal voor vakspecifieke woordenschat kruiswoordpuzzels, spellingoefening, leerplanherhaling, of elke kruiswoordpuzzel waarbij je je eigen inhoud wilt bepalen zonder de afbeeldingenbibliotheek te gebruiken.',
+      answer: 'Schakel het selectievakje Aangepaste Woordenlijst met Aanwijzingen in om over te schakelen van plaatjes kruiswoordpuzzels naar traditionele tekstaanwijzing-kruiswoordpuzzels. Voer woorden en hun aanwijzingen in het formaat WOORD: aanwijzingtekst in, één per regel, met minimaal 8 items. Hetzelfde 15×15 rasteralgoritme plaatst je aangepaste woorden met optimale kruising, en tekstaanwijzingen verschijnen naast het raster in plaats van afbeeldingsaanwijzingen. Deze modus is ideaal voor vakspecifieke woordenschat kruiswoordpuzzels, spellingoefening, productcatalogusherhaling, of elke kruiswoordpuzzel waarbij je je eigen inhoud wilt bepalen zonder de afbeeldingenbibliotheek te gebruiken.',
     },
     {
       question: 'Welke paginaformaten en exportformaten zijn beschikbaar?',
-      answer: 'Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en aangepaste afmetingen. Exporteer als JPEG met hoge resolutie of printklare PDF op 300 DPI (6× vermenigvuldiger). Schakel grijstinten in voor inktvriendelijke uitvoer. Elke generatie produceert vier downloadbestanden: werkblad-JPEG, antwoordblad-JPEG, werkblad-PDF en antwoordblad-PDF. Alle exports zijn productieklaar voor digitale downloads, gedrukte werkboeken en lesmateriaal.',
+      answer: 'Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en aangepaste afmetingen. Exporteer als JPEG met hoge resolutie of printklare PDF op 300 DPI (6× vermenigvuldiger). Schakel grijstinten in voor inktvriendelijke uitvoer. Elke generatie produceert vier downloadbestanden: werkblad-JPEG, antwoordblad-JPEG, werkblad-PDF en antwoordblad-PDF. Alle exports zijn productieklaar voor digitale downloads, gedrukte werkboeken en printbare producten.',
     },
     {
       question: 'Mag ik kruiswoordpuzzels gemaakt met deze tool commercieel verkopen?',
-      answer: 'Ja. Met een commerciële licentie heb je volledige rechten om kruiswoordpuzzels te verkopen als digitale downloads op Etsy, gedrukte kruiswoordwerkboeken op Amazon KDP, lesmateriaal op TPT, of via elk ander verkoopkanaal. De vier invoermethoden, automatisch gegenereerde antwoordbladen met ingevulde rasters, taalgebonden woordgeneratie in 11 talen, aangepaste woordenlijstmodus en 104 thematische beeldcollecties geven je alles wat nodig is om professionele kruiswoordproducten te maken die concurreren in woordpuzzelcategorieën op elke grote marktplaats.',
+      answer: 'Ja. Met een commerciële licentie heb je volledige rechten om kruiswoordpuzzels te verkopen als digitale downloads op Etsy, gedrukte kruiswoordwerkboeken op Amazon KDP, printbare producten op Gumroad, of via elk ander verkoopkanaal. De vier invoermethoden, automatisch gegenereerde antwoordbladen met ingevulde rasters, taalgebonden woordgeneratie in 11 talen, aangepaste woordenlijstmodus en 104 thematische beeldcollecties geven je alles wat nodig is om professionele kruiswoordproducten te maken die concurreren in woordpuzzelcategorieën op elke grote marktplaats.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

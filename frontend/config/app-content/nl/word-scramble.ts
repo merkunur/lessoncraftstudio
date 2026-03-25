@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare woordkruisel werkbladen voor Etsy-verkopers',
       'letterpuzzel maker voor KDP-uitgevers',
-      'woordkruisel activiteiten verkopen op Teachers Pay Teachers',
+      'woordkruisel activiteiten verkopen op Gumroad',
       'woordkruisel printables commerciële licentie',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Woordkruisel Generator | Maak Letterpuzzel Werkbladen',
     metaDescription:
-      'Maak woordkruisel werkbladen om te verkopen op Etsy, KDP en TPT. Gehusselde lettertegels, klinker-medeklinker kleuren, 4 niveaus, 11 talen.',
+      'Maak woordkruisel werkbladen om te verkopen op Etsy, KDP en Gumroad. Gehusselde lettertegels, klinker-medeklinker kleuren, 4 niveaus, 11 talen.',
   },
 
   hero: {
     title: 'Woordkruisel Werkbladen Generator voor Letterpuzzel Spellingoefeningen',
     tagline: 'Gehusselde lettertegels ontmoeten afbeeldingsaanwijzingen — vier moeilijkheidsniveaus en klinker-medeklinker kleurcodering maken van elk woord een hands-on spellingpuzzel.',
     description:
-      'Ontwerp professionele woordkruisel werkbladen waarbij leerlingen een afbeeldingsaanwijzing zien en door elkaar gehusselde lettertegels herschikken om het juiste woord te spellen — een letterpuzzel die tegelijkertijd spellingnauwkeurigheid, woordherkenning en fonetisch bewustzijn opbouwt. In tegenstelling tot woordraadsel puzzels waarbij leerlingen lege vakjes invullen, geeft de woordkruisel leerlingen ALLE letters maar in de verkeerde volgorde — een actieve herschikkingoefening die spelling opbouwt door manipulatie in plaats van deductie. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s, de Handmatige Bewerkingsmodus waarbij je afbeeldingen selecteert en vervolgens hun weergavenamen aanpast, of de Aangepaste Woordenlijst modus voor tekst-only puzzels met maximaal 8 woorden die je zelf intypt. Vier moeilijkheidsniveaus bepalen hoeveel aanwijzingsletters vooraf op de juiste positie worden geplaatst — van Geen Aanwijzingen (alle letters gehusseld) tot de modus Makkelijk die de helft van de letters op de juiste plek plaatst — waardoor een natuurlijke opbouw ontstaat van beginner tot gevorderd. De klinker-medeklinker kleurcodering is uniek voor de Woordkruisel: schakel gekleurde tegels in waarbij klinkers in één kleur verschijnen en medeklinkers in een andere, wat een visuele fonetische dimensie toevoegt die leerlingen helpt lettertypes te herkennen tijdens het herschikken. Plaats 1 tot 10 puzzels per werkblad (standaard: 6) en kies tussen hoofdletters en kleine letters voor de lettertegels. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij het doelwoord verandert per taal — "hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans — waardoor elke taal een apart, verkoopbaar product wordt met andere letters, een ander aantal letters en compleet andere gehusselde arrangementen. Elk werkblad genereert automatisch een antwoordblad met de correct herschikt woorden, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 300 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische spellingbundels verkoopt op Etsy.nl, letterpuzzelboeken samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor TPT — de Woordkruisel Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Ontwerp professionele woordkruisel werkbladen waarbij gebruikers een afbeeldingsaanwijzing zien en door elkaar gehusselde lettertegels herschikken om het juiste woord te spellen — een letterpuzzel die tegelijkertijd spellingnauwkeurigheid, woordherkenning en fonetisch bewustzijn opbouwt. In tegenstelling tot woordraadsel puzzels waarbij gebruikers lege vakjes invullen, geeft de woordkruisel gebruikers ALLE letters maar in de verkeerde volgorde — een actieve herschikkingoefening die spelling opbouwt door manipulatie in plaats van deductie. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s, de Handmatige Bewerkingsmodus waarbij je afbeeldingen selecteert en vervolgens hun weergavenamen aanpast, of de Aangepaste Woordenlijst modus voor tekst-only puzzels met maximaal 8 woorden die je zelf intypt. Vier moeilijkheidsniveaus bepalen hoeveel aanwijzingsletters vooraf op de juiste positie worden geplaatst — van Geen Aanwijzingen (alle letters gehusseld) tot de modus Makkelijk die de helft van de letters op de juiste plek plaatst — waardoor een natuurlijke opbouw ontstaat van beginner tot gevorderd. De klinker-medeklinker kleurcodering is uniek voor de Woordkruisel: schakel gekleurde tegels in waarbij klinkers in één kleur verschijnen en medeklinkers in een andere, wat een visuele fonetische dimensie toevoegt die gebruikers helpt lettertypes te herkennen tijdens het herschikken. Plaats 1 tot 10 puzzels per werkblad (standaard: 6) en kies tussen hoofdletters en kleine letters voor de lettertegels. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij het doelwoord verandert per taal — "hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans — waardoor elke taal een apart, verkoopbaar product wordt met andere letters, een ander aantal letters en compleet andere gehusselde arrangementen. Elk werkblad genereert automatisch een antwoordblad met de correct herschikt woorden, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 300 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische spellingbundels verkoopt op Etsy.nl, letterpuzzelboeken samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor Gumroad — de Woordkruisel Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Stel letteropties, kleurcodering en persoonlijke details in',
         description:
-          'Kies tussen hoofdletters (standaard) en kleine letters voor de lettertegels. Schakel klinker-medeklinker kleurcodering in om klinkers in één kleur en medeklinkers in een andere kleur weer te geven — een visuele fonetische ondersteuning die uniek is voor de Woordkruisel — of selecteer Alles Zwart voor traditionele monochrome tegels. Schakel puzzelnummers aan of uit en activeer velden voor naam en datum van de leerling. Gebruik het paneel Tekstgereedschappen om een werkbladtitel, instructies of aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Fredoka en Quicksand met instelbare grootte, kleur en omtrek.',
+          'Kies tussen hoofdletters (standaard) en kleine letters voor de lettertegels. Schakel klinker-medeklinker kleurcodering in om klinkers in één kleur en medeklinkers in een andere kleur weer te geven — een visuele fonetische ondersteuning die uniek is voor de Woordkruisel — of selecteer Alles Zwart voor traditionele monochrome tegels. Schakel puzzelnummers aan of uit en activeer velden voor naam en datum van de gebruiker. Gebruik het paneel Tekstgereedschappen om een werkbladtitel, instructies of aangepaste tekst toe te voegen. Kies uit zeven lettertypen waaronder Lexend Deca, Baloo 2, Fredoka en Quicksand met instelbare grootte, kleur en omtrek.',
       },
       {
         title: 'Genereer het antwoordblad en download',
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Gehusselde Lettertegels met Afbeeldingsaanwijzingen',
         description:
-          'Elke puzzel toont een afbeeldingsaanwijzing naast een set door elkaar gehusselde lettertegels. Leerlingen bestuderen de afbeelding, herkennen wat erop staat afgebeeld en herschikken de gehusselde tegels tot de juiste spelling. In tegenstelling tot woordraadsel puzzels waarbij leerlingen lege vakjes invullen, geeft de woordkruisel leerlingen ALLE letters maar in de verkeerde volgorde — een letterherschikkingsoefening die spellingnauwkeurigheid en woordherkenning opbouwt door actieve manipulatie in plaats van deductie. In het Nederlands herschikken leerlingen de gehusselde letters van "hond" (bijvoorbeeld "n-d-h-o"), terwijl dezelfde afbeelding in het Engels "d-o-g" husselt en in het Duits "H-u-n-d" — elk een compleet andere puzzelervaring.',
+          'Elke puzzel toont een afbeeldingsaanwijzing naast een set door elkaar gehusselde lettertegels. gebruikers bestuderen de afbeelding, herkennen wat erop staat afgebeeld en herschikken de gehusselde tegels tot de juiste spelling. In tegenstelling tot woordraadsel puzzels waarbij gebruikers lege vakjes invullen, geeft de woordkruisel gebruikers ALLE letters maar in de verkeerde volgorde — een letterherschikkingsoefening die spellingnauwkeurigheid en woordherkenning opbouwt door actieve manipulatie in plaats van deductie. In het Nederlands herschikken gebruikers de gehusselde letters van "hond" (bijvoorbeeld "n-d-h-o"), terwijl dezelfde afbeelding in het Engels "d-o-g" husselt en in het Duits "H-u-n-d" — elk een compleet andere puzzelervaring.',
       },
       {
         title: 'Vier Moeilijkheidsniveaus met Instelbare Aanwijzingsplaatsing',
         description:
-          'Bepaal precies hoeveel ondersteuning leerlingen krijgen met vier ingebouwde moeilijkheidsniveaus. Geen Aanwijzingen (0 letters geplaatst) husselt elke letter voor maximale uitdaging. De modus Makkelijk plaatst de helft van de letters op hun juiste positie, perfect voor beginnende lezers en kleuterschoolleerlingen. Normaal plaatst een kwart van de letters voor evenwichtige oefening in groep 3 en 4. Moeilijk plaatst slechts een zesde — net genoeg ondersteuning om op gang te komen zonder het antwoord weg te geven. Het combineren van moeilijkheidsniveaus binnen een enkele bundel creëert een natuurlijke opbouw van makkelijk naar moeilijk die premiumprijzen rechtvaardigt op Etsy.nl en Bol.com.',
+          'Bepaal precies hoeveel ondersteuning gebruikers krijgen met vier ingebouwde moeilijkheidsniveaus. Geen Aanwijzingen (0 letters geplaatst) husselt elke letter voor maximale uitdaging. De modus Makkelijk plaatst de helft van de letters op hun juiste positie, perfect voor beginnende lezers en kleuterschoolgebruikers. Normaal plaatst een kwart van de letters voor evenwichtige oefening in groep 3 en 4. Moeilijk plaatst slechts een zesde — net genoeg ondersteuning om op gang te komen zonder het antwoord weg te geven. Het combineren van moeilijkheidsniveaus binnen een enkele bundel creëert een natuurlijke opbouw van makkelijk naar moeilijk die premiumprijzen rechtvaardigt op Etsy.nl en Bol.com.',
       },
       {
         title: 'Klinker- en Medeklinker Kleurcodering',
         description:
-          'Schakel de optie Kleurcodering in om klinkers in één kleur en medeklinkers in een andere kleur weer te geven op de gehusselde lettertegels — een functie die uniek is voor de Woordkruisel onder alle werkbladgenerators. Deze visuele fonetische ondersteuning helpt leerlingen klinker-medeklinker patronen herkennen terwijl ze herschikken, waardoor letterbewustzijn wordt versterkt naast spellingoefening. Selecteer Alles Zwart voor traditionele monochrome tegels wanneer kleurdifferentiatie niet nodig is. De kleurcodering voegt een krachtige differentiatiedimensie toe voor TPT-verkopers die zich richten op fonetisch-gerichte kopers en voor Etsy-verkopers die een "fonetische editie" als premium variant willen aanbieden.',
+          'Schakel de optie Kleurcodering in om klinkers in één kleur en medeklinkers in een andere kleur weer te geven op de gehusselde lettertegels — een functie die uniek is voor de Woordkruisel onder alle werkbladgenerators. Deze visuele fonetische ondersteuning helpt gebruikers klinker-medeklinker patronen herkennen terwijl ze herschikken, waardoor letterbewustzijn wordt versterkt naast spellingoefening. Selecteer Alles Zwart voor traditionele monochrome tegels wanneer kleurgetrapte productpakketten niet nodig is. De kleurcodering voegt een krachtige getrapte productpakkettendimensie toe voor Gumroad-verkopers die zich richten op fonetisch-gerichte kopers en voor Etsy-verkopers die een "fonetische editie" als premium variant willen aanbieden.',
       },
       {
         title: 'Drie Inhoudsbronnen: Afbeeldingenbibliotheek, Handmatige Bewerking en Aangepaste Woordenlijst',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde taalcentra voor TPT',
+        title: 'Gedifferentieerde taalcentra voor Gumroad',
         description:
-          'Bouw woordkruisel oefeningensets op niveau met het moeilijkheidsniveau en kleurcodering als differentiatie-assen. Niveau 1: Makkelijk met gekleurde klinkers en medeklinkers voor visuele leerlingen. Niveau 2: Normaal met kleurcodering. Niveau 3: Moeilijk met Alles Zwart tegels voor zelfstandige spellers. Niveau 4: Geen Aanwijzingen met Alles Zwart tegels voor gevorderde uitdaging. Lever elk niveau met antwoordbladen en een voortgangsregistratieblad. Kopers op Teachers Pay Teachers betalen premiumprijzen voor gedifferentieerde spellingmaterialen die ze direct kunnen inzetten in meerdere leesniveaugroepen.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw woordkruisel oefeningensets op niveau met het moeilijkheidsniveau en kleurcodering als getrapte productpakketten-assen. Niveau 1: Makkelijk met gekleurde klinkers en medeklinkers voor visuele gebruikers. Niveau 2: Normaal met kleurcodering. Niveau 3: Moeilijk met Alles Zwart tegels voor zelfstandige spellers. Niveau 4: Geen Aanwijzingen met Alles Zwart tegels voor gevorderde uitdaging. Lever elk niveau met antwoordbladen en een voortgangsregistratieblad. Kopers op Gumroad betalen premiumprijzen voor gedifferentieerde spellingmaterialen die ze direct kunnen inzetten in meerdere leesniveaugroepen.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Meertalige woordenschatproducten met Volledige Toegang',
         description:
           'Volledige Toegang ontgrendelt alle 11 talen, en omdat de Woordkruisel taalafhankelijk is, verandert het doelwoord per taal. "Hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans, "perro" in het Spaans — elk met andere letters, een ander aantal letters en compleet andere gehusselde arrangementen. De gehusselde tegels voor "hond" (4 letters) zien er totaal anders uit dan die voor "Schmetterling" (13 letters) — het is letterlijk een ander product. Maak identieke themasets in meerdere talen en bied elke versie aan als apart Etsy-product of KDP-boek — elf inkomstenstromen vanuit één workflow. De Commerciële licentie is alleen Engels; Volledige Toegang ontgrendelt alle 11 talen.',
-        platform: 'Etsy / Amazon KDP / TPT (meertalig)',
+        platform: 'Etsy / Amazon KDP / Gumroad (meertalig)',
       },
       {
-        title: 'Spelling en woordenschat voor de klas en bijles',
+        title: 'Spelling en woordenschat voor de winkel en bijles',
         description:
-          'Gebruik de modus Aangepaste Woordenlijst om woordkruisel werkbladen te maken voor elke woordenlijst — wekelijkse spellingwoorden, natuurkundetermen, aardrijkskunde-woordenschat of oefeningen met vreemde talen. Typ maximaal 8 woorden direct in zonder bijpassende afbeeldingen nodig te hebben. Pas het moeilijkheidsniveau aan op het vaardigheidsniveau van elke leerling: Makkelijk met gekleurde klinkers en medeklinkers voor leerlingen die moeite hebben met spelling, Geen Aanwijzingen met Alles Zwart tegels voor gevorderde spellers. Print aangepaste sets in enkele minuten voor kleine groepjes of hele klassen. Het automatische antwoordblad bespaart nakijktijd, en het letterherschikkingsformaat houdt leerlingen actief betrokken vergeleken met de traditionele schrijf-het-woord-vijf-keer oefening.',
+          'Gebruik de modus Aangepaste Woordenlijst om woordkruisel werkbladen te maken voor elke woordenlijst — wekelijkse spellingwoorden, natuurkundetermen, aardrijkskunde-woordenschat of oefeningen met vreemde talen. Typ maximaal 8 woorden direct in zonder bijpassende afbeeldingen nodig te hebben. Pas het moeilijkheidsniveau aan op het vaardigheidsniveau van elke gebruiker: Makkelijk met gekleurde klinkers en medeklinkers voor gebruikers die moeite hebben met spelling, Geen Aanwijzingen met Alles Zwart tegels voor gevorderde spellers. Print aangepaste sets in enkele minuten voor kleine groepjes of hele productlijnen. Het automatische antwoordblad bespaart waargenomen waarde, en het letterherschikkingsformaat houdt gebruikers actief betrokken vergeleken met de traditionele schrijf-het-woord-vijf-keer oefening.',
         platform: 'Klas / Bijles / Thuisonderwijs',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hoe werkt de woordkruisel puzzel?',
       answer:
-        'Elke puzzel toont een afbeeldingsaanwijzing naast een set door elkaar gehusselde lettertegels. Leerlingen bestuderen de afbeelding om te herkennen wat erop staat, en herschikken vervolgens de gehusselde tegels tot de juiste spelling. In tegenstelling tot woordraadsel puzzels waarbij leerlingen lege vakjes invullen, geeft de woordkruisel leerlingen alle letters maar in de verkeerde volgorde — een hands-on letterherschikkingsoefening die spellingnauwkeurigheid en woordherkenning opbouwt door actieve manipulatie.',
+        'Elke puzzel toont een afbeeldingsaanwijzing naast een set door elkaar gehusselde lettertegels. gebruikers bestuderen de afbeelding om te herkennen wat erop staat, en herschikken vervolgens de gehusselde tegels tot de juiste spelling. In tegenstelling tot woordraadsel puzzels waarbij gebruikers lege vakjes invullen, geeft de woordkruisel gebruikers alle letters maar in de verkeerde volgorde — een hands-on letterherschikkingsoefening die spellingnauwkeurigheid en woordherkenning opbouwt door actieve manipulatie.',
     },
     {
       question: 'Wat zijn de vier moeilijkheidsniveaus?',
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: 'Hoe werkt de klinker-medeklinker kleurcodering?',
       answer:
-        'Schakel de optie Kleurcodering in om klinkers in één kleur en medeklinkers in een andere kleur weer te geven op de lettertegels. Deze visuele fonetische ondersteuning helpt leerlingen klinker- en medeklinkerpatronen herkennen terwijl ze herschikken. Selecteer Alles Zwart voor traditionele monochrome tegels wanneer kleurdifferentiatie niet nodig is. Kleurcodering is uniek voor de Woordkruisel en voegt een krachtige differentiatiedimensie toe voor verkopers die zich richten op fonetisch-gerichte kopers.',
+        'Schakel de optie Kleurcodering in om klinkers in één kleur en medeklinkers in een andere kleur weer te geven op de lettertegels. Deze visuele fonetische ondersteuning helpt gebruikers klinker- en medeklinkerpatronen herkennen terwijl ze herschikken. Selecteer Alles Zwart voor traditionele monochrome tegels wanneer kleurgetrapte productpakketten niet nodig is. Kleurcodering is uniek voor de Woordkruisel en voegt een krachtige getrapte productpakkettendimensie toe voor verkopers die zich richten op fonetisch-gerichte kopers.',
     },
     {
       question: 'Kan ik kiezen tussen hoofdletters en kleine letters?',
       answer:
-        'Ja. De lettervormschakelaar laat je wisselen tussen hoofdletters (standaard) en kleine letters voor de gehusselde lettertegels. Hoofdletters zijn ideaal voor jongere leerlingen in de kleuterschool en groep 1/2 die hoofdletters leren, terwijl kleine letters geschikt zijn voor oudere leerlingen in groep 3 en hoger die standaardspelling oefenen. De instelling geldt voor zowel aanwijzingsletters als gehusselde tegels.',
+        'Ja. De lettervormschakelaar laat je wisselen tussen hoofdletters (standaard) en kleine letters voor de gehusselde lettertegels. Hoofdletters zijn ideaal voor jongere gebruikers in de kleuterschool en groep 1/2 die hoofdletters leren, terwijl kleine letters geschikt zijn voor oudere gebruikers in groep 3 en hoger die standaardspelling oefenen. De instelling geldt voor zowel aanwijzingsletters als gehusselde tegels.',
     },
     {
       question: 'Hoe verschilt de Handmatige Bewerkingsmodus van de Afbeeldingenbibliotheek?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Wat kan ik doen met de modus Aangepaste Woordenlijst?',
       answer:
-        'De modus Aangepaste Woordenlijst laat je maximaal 8 woorden direct intypen — geen afbeeldingen vereist. Dit is ideaal voor wekelijkse spellinglijsten, vakspecifieke woordenschat (natuurkundetermen, aardrijkskundige namen), oefeningen met vreemde talen of elke andere aangepaste inhoud. De puzzels tonen gehusselde lettertegels zonder afbeeldingsaanwijzingen, zodat leerlingen vertrouwen op context uit werkbladtitels of instructies om het woord te identificeren voordat ze de letters herschikken.',
+        'De modus Aangepaste Woordenlijst laat je maximaal 8 woorden direct intypen — geen afbeeldingen vereist. Dit is ideaal voor wekelijkse spellinglijsten, vakspecifieke woordenschat (natuurkundetermen, aardrijkskundige namen), oefeningen met vreemde talen of elke andere aangepaste inhoud. De puzzels tonen gehusselde lettertegels zonder afbeeldingsaanwijzingen, zodat gebruikers vertrouwen op context uit werkbladtitels of instructies om het woord te identificeren voordat ze de letters herschikken.',
     },
     {
       question: 'Maakt de generator automatisch antwoordbladen?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je woordkruisel werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op TPT, via Bol.com of via elk ander verkoopkanaal. Het formaat met gehusselde lettertegels, klinker-medeklinker kleurcodering en de meertalige mogelijkheid geven je sterke differentiatie in drukbezette marktplaatscategorieën.',
+        'Ja. Met een commerciële licentie heb je alle rechten om je woordkruisel werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. Het formaat met gehusselde lettertegels, klinker-medeklinker kleurcodering en de meertalige mogelijkheid geven je sterke getrapte productpakketten in drukbezette marktplaatscategorieën.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en docenten',
+      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
     },
     {
       pageType: 'guide',

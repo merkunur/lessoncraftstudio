@@ -15,13 +15,13 @@ const content: ToolContent = {
       'pricka och kryssa matte aktivitet generator',
     ],
     titleTag: 'Större Än Mindre Än Arbetsblad | Sälj Online',
-    metaDescription: 'Skapa visuella större än, mindre än och lika med arbetsblad med bilder på sekunder. Tre lägen inklusive unikt Pricka och Kryssa. Sälj på Etsy, KDP och TPT.',
+    metaDescription: 'Skapa visuella större än, mindre än och lika med arbetsblad med bilder på sekunder. Tre lägen inklusive unikt Pricka och Kryssa. Sälj på Etsy, KDP och Gumroad.',
   },
 
   hero: {
     title: 'Större Än Mindre Än Arbetsblad Skapare',
     tagline: 'Skapa visuella jämförelsearbetsblad med tre övningslägen på under 60 sekunder',
-    description: 'Lär ut större än, mindre än och lika med genom bildbaserade jämförelsearbetsblad som gör abstrakta begrepp konkreta. Detta verktyg genererar tre distinkta övningstyper: Bild mot Bild (jämför två bildgrupper sida vid sida), Bild mot Tal (överbrygga visuell räkning med skrivna siffror), och det unika Pricka och Kryssa Grupper-läget där eleverna sorterar en blandad ruta med omflyttade bilder i majoritets- och minoritetskategorier. Välj bland mer än 100 bildteman, ställ in ditt talområde, välj mellan illustrerade eller vanliga jämförelsesymboler och ladda ner tryckfärdiga PDF:er eller högupplösta JPEG-bilder. Eftersom arbetsbladen bara använder bilder, siffror och symboler fungerar de identiskt på alla 11 stödda språk — skapa en gång och sälj till köpare världen över. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Lär ut större än, mindre än och lika med genom bildbaserade jämförelsearbetsblad som gör abstrakta begrepp konkreta. Detta verktyg genererar tre distinkta övningstyper: Bild mot Bild (jämför två bildgrupper sida vid sida), Bild mot Tal (överbrygga visuell räkning med skrivna siffror), och det unika Pricka och Kryssa Grupper-läget där användarna sorterar en blandad ruta med omflyttade bilder i majoritets- och minoritetskategorier. Välj bland mer än 100 bildteman, ställ in ditt talområde, välj mellan illustrerade eller vanliga jämförelsesymboler och ladda ner tryckfärdiga PDF:er eller högupplösta JPEG-bilder. Eftersom arbetsbladen bara använder bilder, siffror och symboler fungerar de identiskt på alla 11 stödda språk — skapa en gång och sälj till köpare världen över. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj ditt övningsläge',
-        description: 'Öppna panelen «Övningskonfiguration» och välj bland tre lägen: Bild mot Bild (två bildgrupper sida vid sida — eleverna räknar och jämför kvantiteter), Bild mot Tal (en bildgrupp parad med en siffra — överbryggar visuell och abstrakt taligenkänning), eller Pricka och Kryssa Grupper (en enda ruta med 8–20 blandade bilder från två kategorier blandade tillsammans — eleverna prickar majoritetsgruppen och kryssar minoritetsgruppen). Pricka och Kryssa är unikt för detta verktyg och skapar produkter som ingen konkurrent kan matcha.',
+        description: 'Öppna panelen «Övningskonfiguration» och välj bland tre lägen: Bild mot Bild (två bildgrupper sida vid sida — användarna räknar och jämför kvantiteter), Bild mot Tal (en bildgrupp parad med en siffra — överbryggar visuell och abstrakt taligenkänning), eller Pricka och Kryssa Grupper (en enda ruta med 8–20 blandade bilder från två kategorier blandade tillsammans — användarna prickar majoritetsgruppen och kryssar minoritetsgruppen). Pricka och Kryssa är unikt för detta verktyg och skapar produkter som ingen konkurrent kan matcha.',
       },
       {
         title: 'Ställ in talområdet',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera symbolvisning',
-        description: 'Välj mellan Illustrationer och Vanliga Symboler för jämförelsetecknen. Illustrationer visar färgglada, barnvänliga versioner av större än, mindre än och lika med-symbolerna — idealiskt för förskole- och dagisprodukter. Vanliga Symboler visar standard > < = tecken för äldre elever som övergår till konventionell mattnotation.',
+        description: 'Välj mellan Illustrationer och Vanliga Symboler för jämförelsetecknen. Illustrationer visar färgglada, tilltalande versioner av större än, mindre än och lika med-symbolerna — idealiskt för förskole- och dagisprodukter. Vanliga Symboler visar standard > < = tecken för äldre användare som övergår till konventionell mattnotation.',
       },
       {
         title: 'Ställ in bildvariation',
-        description: 'Växla mellan Samma Bilder och Olika Bilder. Samma Bilder-läge visar identiska objekt i båda grupperna (5 katter mot 7 katter), fokuserar uppmärksamheten enbart på kvantitet. Olika Bilder-läge använder distinkta bilder per grupp (5 katter mot 7 hundar), lägger till visuellt intresse och förhindrar eleverna från att förlita sig på utseende istället för att räkna.',
+        description: 'Växla mellan Samma Bilder och Olika Bilder. Samma Bilder-läge visar identiska objekt i båda grupperna (5 katter mot 7 katter), fokuserar uppmärksamheten enbart på kvantitet. Olika Bilder-läge använder distinkta bilder per grupp (5 katter mot 7 hundar), lägger till visuellt intresse och förhindrar användarna från att förlita sig på utseende istället för att räkna.',
       },
       {
         title: 'Välj bilder från temabiblioteket',
@@ -65,19 +65,19 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Större än mindre än aktivitetspaket',
-      description: 'Skapa uppsättningar av 15–20 arbetsblad med Bild mot Bild-läge med tematiska bildgrupper. Paketera efter tema — dinosaurier, bondgårdsdjur, havsdjur — och sälj som visuella jämförelsepaket på Etsy eller Teachers Pay Teachers. Inkludera både illustrerade och vanliga symbolversioner i varje paket för maximal klassrumsflexibilitet.',
+      description: 'Skapa uppsättningar av 15–20 arbetsblad med Bild mot Bild-läge med tematiska bildgrupper. Paketera efter tema — dinosaurier, bondgårdsdjur, havsdjur — och sälj som visuella jämförelsepaket på Etsy eller Gumroad. Inkludera både illustrerade och vanliga symbolversioner i varje paket för maximal produktlinjesflexibilitet.',
     },
     {
       title: 'Pricka och Kryssa sorteringsarbetsblad',
-      description: 'Använd det unika Pricka och Kryssa Grupper-läget för att skapa arbetsblad där eleverna undersöker en ruta med 8–20 blandade bilder från två kategorier, prickar sedan gruppen med fler objekt och kryssar gruppen med färre. Detta format finns inte i någon annan arbetsblad-generator — vilket ger dina produkter en genuin konkurrensfördel.',
+      description: 'Använd det unika Pricka och Kryssa Grupper-läget för att skapa arbetsblad där användarna undersöker en ruta med 8–20 blandade bilder från två kategorier, prickar sedan gruppen med fler objekt och kryssar gruppen med färre. Detta format finns inte i någon annan arbetsblad-generator — vilket ger dina produkter en genuin konkurrensfördel.',
     },
     {
       title: 'KDP jämförelsearbetsböcker',
       description: 'Generera 50–100 sidor med taljämförelseövningar i alla tre lägen, exportera som högupplösta PDF:er och publicera som en låginnehålls aktivitetsarbetsbok på Amazon KDP. Använd kvadratformat (1200×1200) för KDP-aktivitetsböcker och blanda övningslägen för variation genom kapitel. Organisera din arbetsbok med en tydlig progression: börja med Bild mot Bild-övningar med små talområden, avancera till Bild mot Tal i mellansektionen och avsluta med Pricka och Kryssa-utmaningar vid högre intervall.',
     },
     {
-      title: 'Differentierade klassrumsuppsättningar',
-      description: 'Generera tre versioner av samma arbetsblad på olika svårighetsnivåer: lätt (intervall 1–4 med illustrerade symboler), medel (intervall 1–7 med illustrerade symboler) och svår (intervall 1–10 med vanliga symboler). Lärare kan ge rätt nivå till varje elev utan extra förberedelsetid.',
+      title: 'nivågrupperade produktlinjesuppsättningar',
+      description: 'Generera tre versioner av samma arbetsblad på olika svårighetsnivåer: lätt (intervall 1–4 med illustrerade symboler), medel (intervall 1–7 med illustrerade symboler) och svår (intervall 1–10 med vanliga symboler). säljare kan ge rätt nivå till varje användare utan extra förberedelsetid.',
     },
     {
       title: 'Säsongsbetonade jämförelsepaket',
@@ -92,13 +92,13 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Etsy jämförelse utskriftsbara butik',
-      description: 'Öppna en Etsy-butik specialiserad på större än, mindre än och lika med arbetsblad. Det visuella formatet är mycket eftertraktat av föräldrar och lärare eftersom det gör abstrakt jämförelse konkret. Skapa 15–20 tematiska paket prissatta till 30–50 SEK vardera. Eftersom arbetsbladen bara har bilder, lista varje produkt på flera Etsy-marknader utan översättning. Fokusera din butiksvarumärkning kring tidiga matte utskriftsbara och korsmarknadsför med additions- och subtraktions arbetsbladspaket för återkommande kunder.',
+      description: 'Öppna en Etsy-butik specialiserad på större än, mindre än och lika med arbetsblad. Det visuella formatet är mycket eftertraktat av föräldrar och säljare eftersom det gör abstrakt jämförelse konkret. Skapa 15–20 tematiska paket prissatta till 30–50 SEK vardera. Eftersom arbetsbladen bara har bilder, lista varje produkt på flera Etsy-marknader utan översättning. Fokusera din butiksvarumärkning kring tidiga matte utskriftsbara och korsmarknadsför med additions- och subtraktions arbetsbladspaket för återkommande kunder.',
       platform: 'Etsy',
     },
     {
-      title: 'Teachers Pay Teachers matte paket-säljare',
-      description: 'Ladda upp differentierade jämförelsearbetsbladspaket till TPT. Lärare söker ständigt efter «större än mindre än arbetsblad» och «taljämförelse utskriftsbara». Inkludera alla tre övningslägen, illustrerade och vanliga symbolversioner, facit och en lärarguide i varje annons för högre upplevt värde.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad matte paket-säljare',
+      description: 'Ladda upp nivågrupperade jämförelsearbetsbladspaket till Gumroad. säljare söker ständigt efter «större än mindre än arbetsblad» och «taljämförelse utskriftsbara». Inkludera alla tre övningslägen, illustrerade och vanliga symbolversioner, facit och en lärarguide i varje annons för högre upplevt värde.',
+      platform: 'Gumroad',
     },
     {
       title: 'Amazon KDP talförståelse-arbetsböcker',
@@ -106,7 +106,7 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad jämförelse läroplanspaket',
+      title: 'Gumroad jämförelse produktkatalogspaket',
       description: 'Skapa ett strukturerat 10-veckors jämförelsekurrikulumpaket med progressiv svårighet — börja med Bild mot Bild vid intervall 1–4, bygg till Pricka och Kryssa vid intervall 1–10. Sälj som en premium digital nedladdning på Gumroad. Hemundervisande föräldrar söker aktivt efter kompletta, praktiska matteprogram. Inkludera en utskrivbar framstegsspårare och föräldrainstruktionsblad för att motivera premiumprissättning till 120–190 SEK.',
       platform: 'Gumroad',
     },
@@ -123,12 +123,12 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Använd Illustrationer för yngre elever',
-      description: 'De illustrerade jämförelsesymbolerna är färgglada och barnvänliga, idealiska för förskole- och dagisprodukter. Växla till Vanliga Symboler för första klass och uppåt, eller inkludera båda versionerna i ditt paket så lärare kan välja rätt passform för sitt klassrum. Att inkludera båda symbolstilarna i en enda produktannons ökar också din nyckelordsräckvidd på Etsy.',
+      title: 'Använd Illustrationer för yngre användare',
+      description: 'De illustrerade jämförelsesymbolerna är färgglada och tilltalande, idealiska för förskole- och dagisprodukter. Växla till Vanliga Symboler för första klass och uppåt, eller inkludera båda versionerna i ditt paket så säljare kan välja rätt passform för sitt produktlinje. Att inkludera båda symbolstilarna i en enda produktannons ökar också din nyckelordsräckvidd på Etsy.',
     },
     {
       title: 'Skala svårighet med bildvariation',
-      description: 'Samma Bilder-läge (5 katter mot 7 katter) är lättare eftersom eleverna bara behöver räkna. Olika Bilder-läge (5 katter mot 7 hundar) är svårare eftersom eleverna måste räkna två distinkta grupper och motstå att bli distraherade av utseende. Använd denna växling för att skapa lätta och utmaningsversioner från samma inställningar.',
+      description: 'Samma Bilder-läge (5 katter mot 7 katter) är lättare eftersom användarna bara behöver räkna. Olika Bilder-läge (5 katter mot 7 hundar) är svårare eftersom användarna måste räkna två distinkta grupper och motstå att bli distraherade av utseende. Använd denna växling för att skapa lätta och utmaningsversioner från samma inställningar.',
     },
     {
       title: 'Pricka och Kryssa är din unika försäljningspunkt',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludera alltid facit',
-      description: 'Klicka på «Generera Facit» innan du laddar ner. För jämförelsearbetsblad visar facit den korrekta symbolen (>, < eller =) för varje övning. Köpare på Etsy och TPT ger konsekvent högre betyg till produkter som inkluderar facit. För Pricka och Kryssa-läget markerar facit tydligt vilken bildgrupp som är majoritet och vilken som är minoritet, vilket sparar lärare värdefull bedömningstid.',
+      description: 'Klicka på «Generera Facit» innan du laddar ner. För jämförelsearbetsblad visar facit den korrekta symbolen (>, < eller =) för varje övning. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit. För Pricka och Kryssa-läget markerar facit tydligt vilken bildgrupp som är majoritet och vilken som är minoritet, vilket sparar säljare värdefull bedömningstid.',
     },
   ],
 
@@ -159,23 +159,23 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka är de tre övningslägena?',
-      answer: 'Generatorn stöder tre lägen: Bild mot Bild (två bildgrupper sida vid sida — eleverna räknar och jämför kvantiteter), Bild mot Tal (en bildgrupp parad med en siffra — överbryggar visuell och abstrakt taligenkänning), och Pricka och Kryssa Grupper (en ruta med 8–20 blandade bilder från två kategorier blandade tillsammans — eleverna prickar majoritetsgruppen och kryssar minoritetsgruppen).',
+      answer: 'Generatorn stöder tre lägen: Bild mot Bild (två bildgrupper sida vid sida — användarna räknar och jämför kvantiteter), Bild mot Tal (en bildgrupp parad med en siffra — överbryggar visuell och abstrakt taligenkänning), och Pricka och Kryssa Grupper (en ruta med 8–20 blandade bilder från två kategorier blandade tillsammans — användarna prickar majoritetsgruppen och kryssar minoritetsgruppen).',
     },
     {
       question: 'Hur fungerar Pricka och Kryssa Grupper-läget?',
-      answer: 'I Pricka och Kryssa-läget visar arbetsbladet en enda ruta fylld med 8–20 bilder från två olika kategorier (till exempel katter och hundar) blandade slumpmässigt. Eleven räknar varje kategori, ritar en bock bredvid gruppen med fler objekt och ritar ett kryss bredvid gruppen med färre objekt. Detta utvecklar sorterings-, räknings- och jämförelsefärdigheter samtidigt.',
+      answer: 'I Pricka och Kryssa-läget visar arbetsbladet en enda ruta fylld med 8–20 bilder från två olika kategorier (till exempel katter och hundar) blandade slumpmässigt. Användaren räknar varje kategori, ritar en bock bredvid gruppen med fler objekt och ritar ett kryss bredvid gruppen med färre objekt. Detta utvecklar sorterings-, räknings- och jämförelsefärdigheter samtidigt.',
     },
     {
       question: 'Vad är skillnaden mellan Illustrationer och Vanliga Symboler?',
-      answer: 'Illustrationer visar färgglada, barnvänliga versioner av större än, mindre än och lika med-tecknen — perfekt för förskole- och dagis arbetsblad. Vanliga Symboler visar de standard > < = tecken som används i konventionell mattnotation. Använd Illustrationer för yngre elever och Vanliga Symboler för äldre elever.',
+      answer: 'Illustrationer visar färgglada, tilltalande versioner av större än, mindre än och lika med-tecknen — perfekt för förskole- och dagis arbetsblad. Vanliga Symboler visar de standard > < = tecken som används i konventionell mattnotation. Använd Illustrationer för yngre användare och Vanliga Symboler för äldre användare.',
     },
     {
       question: 'Vad gör Bildvariations-inställningen?',
-      answer: 'Samma Bilder-läge använder identiska bilder i båda grupperna (till exempel 5 katter mot 7 katter), så eleverna fokuserar enbart på kvantitet. Olika Bilder-läge använder distinkta bilder per grupp (5 katter mot 7 hundar), lägger till visuellt intresse och förhindrar eleverna från att jämföra genom utseende istället för att räkna.',
+      answer: 'Samma Bilder-läge använder identiska bilder i båda grupperna (till exempel 5 katter mot 7 katter), så användarna fokuserar enbart på kvantitet. Olika Bilder-läge använder distinkta bilder per grupp (5 katter mot 7 hundar), lägger till visuellt intresse och förhindrar användarna från att jämföra genom utseende istället för att räkna.',
     },
     {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja arbetsblad på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för arbetsbladen du skapar.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för arbetsbladen du skapar.',
     },
     {
       question: 'Fungerar arbetsbladen på andra språk än svenska?',

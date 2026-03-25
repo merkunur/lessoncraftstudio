@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Meer of Minder Werkblad Maker',
     tagline: 'Maak visuele vergelijkingswerkbladen met drie oefenmodi in minder dan 60 seconden',
-    description: 'Leer groter dan, kleiner dan en gelijk aan met beeldgebaseerde vergelijkingswerkbladen die abstracte concepten concreet maken en verkopers solide inkomsten opleveren. Deze tool genereert drie verschillende oefentypen: Afbeelding naar Afbeelding (vergelijk twee plaatjesgroepen naast elkaar), Afbeelding naar Getal (overbrugt visueel tellen met geschreven cijfers), en de unieke Vinkje & Kruisje Groepen modus waarbij leerlingen een gemengde doos met door elkaar gehusselde afbeeldingen sorteren in meerderheids- en minderheidscategorieën. Kies uit meer dan 100 beeldthema\'s, stel je getallenbereik in, kies tussen geïllustreerde of standaard vergelijkingssymbolen, en download printklare PDF\'s of hoge-resolutie JPEG\'s. Omdat werkbladen alleen afbeeldingen, getallen en symbolen gebruiken, werken ze identiek in alle 11 ondersteunde talen — maak eenmaal en verkoop aan kopers wereldwijd. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Leer groter dan, kleiner dan en gelijk aan met beeldgebaseerde vergelijkingswerkbladen die abstracte concepten concreet maken en verkopers solide inkomsten opleveren. Deze tool genereert drie verschillende oefentypen: Afbeelding naar Afbeelding (vergelijk twee plaatjesgroepen naast elkaar), Afbeelding naar Getal (overbrugt visueel tellen met geschreven cijfers), en de unieke Vinkje & Kruisje Groepen modus waarbij gebruikers een gemengde doos met door elkaar gehusselde afbeeldingen sorteren in meerderheids- en minderheidscategorieën. Kies uit meer dan 100 beeldthema\'s, stel je getallenbereik in, kies tussen geïllustreerde of standaard vergelijkingssymbolen, en download printklare PDF\'s of hoge-resolutie JPEG\'s. Omdat werkbladen alleen afbeeldingen, getallen en symbolen gebruiken, werken ze identiek in alle 11 ondersteunde talen — maak eenmaal en verkoop aan kopers wereldwijd. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -33,19 +33,19 @@ const content: ToolContent = {
       },
       {
         title: 'Kies je oefenmodus',
-        description: 'Open het paneel "Oefenconfiguratie" en selecteer uit drie modi: Afbeelding naar Afbeelding (twee plaatjesgroepen naast elkaar — leerlingen tellen en vergelijken hoeveelheden), Afbeelding naar Getal (een plaatjesgroep gekoppeld aan een cijfer — overbrugt visuele en abstracte getalherkenning), of Vinkje & Kruisje Groepen (één doos met 8–20 gemengde afbeeldingen uit twee categorieën door elkaar gehusseld — leerlingen zetten een vinkje bij de meerderheidsgroep en een kruisje bij de minderheidsgroep). Vinkje & Kruisje is uniek voor deze tool en creëert producten die geen concurrent kan evenaren.',
+        description: 'Open het paneel "Oefenconfiguratie" en selecteer uit drie modi: Afbeelding naar Afbeelding (twee plaatjesgroepen naast elkaar — gebruikers tellen en vergelijken hoeveelheden), Afbeelding naar Getal (een plaatjesgroep gekoppeld aan een cijfer — overbrugt visuele en abstracte getalherkenning), of Vinkje & Kruisje Groepen (één doos met 8–20 gemengde afbeeldingen uit twee categorieën door elkaar gehusseld — gebruikers zetten een vinkje bij de meerderheidsgroep en een kruisje bij de minderheidsgroep). Vinkje & Kruisje is uniek voor deze tool en creëert producten die geen concurrent kan evenaren.',
       },
       {
         title: 'Stel het getallenbereik in',
-        description: 'Gebruik de minimum- en maximumschuifregelaars om te bepalen hoeveel items per groep verschijnen (bereik: 1–10). Voor kleuters houd je het bereik smal (1–5). Groep 1–2 leerlingen kunnen 1–10 goed aan. Het aantal oefeningen per pagina past zich automatisch aan: 1–8 voor standaardmodi en 1–3 voor Vinkje & Kruisje vanwege de grotere visuele ruimte die het inneemt.',
+        description: 'Gebruik de minimum- en maximumschuifregelaars om te bepalen hoeveel items per groep verschijnen (bereik: 1–10). Voor kleuters houd je het bereik smal (1–5). Groep 1–2 gebruikers kunnen 1–10 goed aan. Het aantal oefeningen per pagina past zich automatisch aan: 1–8 voor standaardmodi en 1–3 voor Vinkje & Kruisje vanwege de grotere visuele ruimte die het inneemt.',
       },
       {
         title: 'Configureer de symboolweergave',
-        description: 'Kies tussen Illustraties en Normale Symbolen voor de vergelijkingstekens. Illustraties tonen kleurrijke, kindvriendelijke versies van de groter dan, kleiner dan en gelijk aan symbolen — ideaal voor kleuter- en groep 1-producten. Normale Symbolen tonen standaard > < = tekens voor oudere leerlingen die overstappen naar conventionele wiskundige notatie.',
+        description: 'Kies tussen Illustraties en Normale Symbolen voor de vergelijkingstekens. Illustraties tonen kleurrijke, aantrekkelijke versies van de groter dan, kleiner dan en gelijk aan symbolen — ideaal voor kleuter- en groep 1-producten. Normale Symbolen tonen standaard > < = tekens voor oudere gebruikers die overstappen naar conventionele wiskundige notatie.',
       },
       {
         title: 'Stel beeldvariatie in',
-        description: 'Schakel tussen Dezelfde Afbeeldingen en Verschillende Afbeeldingen. Dezelfde Afbeeldingen modus toont identieke items in beide groepen (5 katten vs. 7 katten), waardoor de aandacht puur op hoeveelheid gericht is. Verschillende Afbeeldingen modus gebruikt onderscheidende plaatjes per groep (5 katten vs. 7 honden), wat visuele interesse toevoegt en voorkomt dat leerlingen op uiterlijk vertrouwen in plaats van tellen.',
+        description: 'Schakel tussen Dezelfde Afbeeldingen en Verschillende Afbeeldingen. Dezelfde Afbeeldingen modus toont identieke items in beide groepen (5 katten vs. 7 katten), waardoor de aandacht puur op hoeveelheid gericht is. Verschillende Afbeeldingen modus gebruikt onderscheidende plaatjes per groep (5 katten vs. 7 honden), wat visuele interesse toevoegt en voorkomt dat gebruikers op uiterlijk vertrouwen in plaats van tellen.',
       },
       {
         title: 'Selecteer afbeeldingen uit de themabibliotheek',
@@ -65,11 +65,11 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Groter Dan Kleiner Dan Activiteitenpakketten',
-      description: 'Maak sets van 15–20 werkbladen met de Afbeelding naar Afbeelding modus met thematische plaatjesgroepen. Bundel per thema — dinosaurussen, boerderijdieren, zeedieren — en verkoop als visuele vergelijkingspakketten op Etsy.nl of TPT. Voeg zowel geïllustreerde als standaard symboolversies toe aan elk pakket voor maximale klassikale flexibiliteit. Positioneer je pakketten op €3–€5 per thema en €8–€12 voor megabundels.',
+      description: 'Maak sets van 15–20 werkbladen met de Afbeelding naar Afbeelding modus met thematische plaatjesgroepen. Bundel per thema — dinosaurussen, boerderijdieren, zeedieren — en verkoop als visuele vergelijkingspakketten op Etsy.nl of Gumroad. Voeg zowel geïllustreerde als standaard symboolversies toe aan elk pakket voor maximale klassikale flexibiliteit. Positioneer je pakketten op €3–€5 per thema en €8–€12 voor megabundels.',
     },
     {
       title: 'Vinkje & Kruisje Sorteerwerkbladen',
-      description: 'Gebruik de unieke Vinkje & Kruisje Groepen modus om werkbladen te maken waarbij leerlingen een doos met 8–20 door elkaar gehusselde afbeeldingen uit twee categorieën onderzoeken, dan een vinkje zetten bij de groep met meer items en een kruisje bij de groep met minder. Dit formaat bestaat in geen enkele andere werkblad generator — waardoor je producten een oprecht concurrentievoordeel hebben. Voor de Nederlandse markt zijn Vinkje & Kruisje werkbladen bijzonder interessant voor groep 1–3.',
+      description: 'Gebruik de unieke Vinkje & Kruisje Groepen modus om werkbladen te maken waarbij gebruikers een doos met 8–20 door elkaar gehusselde afbeeldingen uit twee categorieën onderzoeken, dan een vinkje zetten bij de groep met meer items en een kruisje bij de groep met minder. Dit formaat bestaat in geen enkele andere werkblad generator — waardoor je producten een oprecht concurrentievoordeel hebben. Voor de Nederlandse markt zijn Vinkje & Kruisje werkbladen bijzonder interessant voor groep 1–3.',
     },
     {
       title: 'KDP Vergelijkingswerkboeken',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gedifferentieerde Klassets',
-      description: 'Genereer drie versies van hetzelfde werkblad op verschillende moeilijkheidsniveaus: makkelijk (bereik 1–4 met geïllustreerde symbolen), gemiddeld (bereik 1–7 met geïllustreerde symbolen) en moeilijk (bereik 1–10 met normale symbolen). Leerkrachten kunnen elke leerling het juiste niveau geven zonder extra voorbereidingstijd. Bundel alle drie niveaus als één TPT-vermelding op €4–€6.',
+      description: 'Genereer drie versies van hetzelfde werkblad op verschillende moeilijkheidsniveaus: makkelijk (bereik 1–4 met geïllustreerde symbolen), gemiddeld (bereik 1–7 met geïllustreerde symbolen) en moeilijk (bereik 1–10 met normale symbolen). verkopers kunnen elke gebruiker het juiste niveau geven zonder extra productietijd. Bundel alle drie niveaus als één Gumroad-vermelding op €4–€6.',
     },
     {
       title: 'Seizoensgebonden Vergelijkingsbundels',
@@ -92,13 +92,13 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Etsy Vergelijkings-Printables Winkel',
-      description: 'Open een Etsy-winkel gespecialiseerd in groter dan, kleiner dan en gelijk aan werkbladen. Het visuele formaat is zeer gewild bij ouders en leerkrachten omdat het abstracte vergelijking concreet maakt. Maak 15–20 thematische bundels geprijsd op €3–€5 per stuk. Omdat werkbladen puur visueel zijn, vermeld je elk product op meerdere Etsy-markten zonder vertaling. Focus je winkelbranding rond vroege reken-printables en cross-promoteer met optellen- en aftrekkenwerkblad-bundels voor terugkerende klanten.',
+      description: 'Open een Etsy-winkel gespecialiseerd in groter dan, kleiner dan en gelijk aan werkbladen. Het visuele formaat is zeer gewild bij ouders en verkopers omdat het abstracte vergelijking concreet maakt. Maak 15–20 thematische bundels geprijsd op €3–€5 per stuk. Omdat werkbladen puur visueel zijn, vermeld je elk product op meerdere Etsy-markten zonder vertaling. Focus je winkelbranding rond vroege reken-printables en cross-promoteer met optellen- en aftrekkenwerkblad-bundels voor terugkerende klanten.',
       platform: 'Etsy',
     },
     {
-      title: 'Teachers Pay Teachers Rekenbundel Verkoper',
-      description: 'Upload gedifferentieerde vergelijkingswerkbladpakketten naar TPT. Leerkrachten zoeken constant naar "groter dan kleiner dan werkbladen" en "getallen vergelijken printables". Voeg alle drie oefenmodi, geïllustreerde en standaard symboolversies, antwoordbladen en een docentenhandleiding toe bij elke vermelding voor hogere waargenomen waarde. Voor Nederlandse TPT-verkopers: vergelijkingswerkbladen met de unieke Vinkje & Kruisje modus zijn vrijwel onvindbaar op het platform.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Rekenbundel Verkoper',
+      description: 'Upload gedifferentieerde vergelijkingswerkbladpakketten naar Gumroad. verkopers zoeken constant naar "groter dan kleiner dan werkbladen" en "getallen vergelijken printables". Voeg alle drie oefenmodi, geïllustreerde en standaard symboolversies, antwoordbladen en een verkopershandleiding toe bij elke vermelding voor hogere waargenomen waarde. Voor Nederlandse Gumroad-verkopers: vergelijkingswerkbladen met de unieke Vinkje & Kruisje modus zijn vrijwel onvindbaar op het platform.',
+      platform: 'Gumroad',
     },
     {
       title: 'Amazon KDP Getalbegrip Werkboeken',
@@ -106,8 +106,8 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Vergelijkingscurriculum Pakket',
-      description: 'Maak een gestructureerd 10-weken vergelijkingscurriculum met progressieve moeilijkheid — begin met Afbeelding naar Afbeelding op bereik 1–4, bouw op naar Vinkje & Kruisje op bereik 1–10. Verkoop als premium digitale download op Gumroad. Thuisonderwijs-ouders zoeken actief naar complete, praktische rekenprogramma\'s. Voeg een printbare voortgangstracker en ouderinstructieblad toe om premiumprijzen van €12–€19 te rechtvaardigen.',
+      title: 'Gumroad Vergelijkingsproductcatalogus Pakket',
+      description: 'Maak een gestructureerd 10-weken vergelijkingsproductcatalogus met progressieve moeilijkheid — begin met Afbeelding naar Afbeelding op bereik 1–4, bouw op naar Vinkje & Kruisje op bereik 1–10. Verkoop als premium digitale download op Gumroad. Thuisonderwijs-ouders zoeken actief naar complete, praktische rekenprogramma\'s. Voeg een printbare voortgangstracker en ouderinstructieblad toe om premiumprijzen van €12–€19 te rechtvaardigen.',
       platform: 'Gumroad',
     },
     {
@@ -123,12 +123,12 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Gebruik Illustraties voor Jongere Leerlingen',
-      description: 'De geïllustreerde vergelijkingssymbolen zijn kleurrijk en kindvriendelijk, waardoor ze ideaal zijn voor kleuter- en groep 1-producten. Schakel over naar Normale Symbolen voor groep 3 en hoger, of neem beide versies op in je bundel zodat leerkrachten de juiste pasvorm kunnen kiezen. Het opnemen van beide symboolstijlen in één vermelding vergroot ook je zoekwoordbereik op Etsy.',
+      title: 'Gebruik Illustraties voor Jongere gebruikers',
+      description: 'De geïllustreerde vergelijkingssymbolen zijn kleurrijk en aantrekkelijk, waardoor ze ideaal zijn voor kleuter- en groep 1-producten. Schakel over naar Normale Symbolen voor groep 3 en hoger, of neem beide versies op in je bundel zodat verkopers de juiste pasvorm kunnen kiezen. Het opnemen van beide symboolstijlen in één vermelding vergroot ook je zoekwoordbereik op Etsy.',
     },
     {
       title: 'Schaal Moeilijkheid met Beeldvariatie',
-      description: 'Dezelfde Afbeeldingen modus (5 katten vs. 7 katten) is makkelijker omdat leerlingen alleen hoeven te tellen. Verschillende Afbeeldingen modus (5 katten vs. 7 honden) is moeilijker omdat leerlingen twee onderscheidende groepen moeten tellen en zich niet laten afleiden door uiterlijk. Gebruik deze schakelaar om makkelijke en uitdagingsversies te maken vanuit dezelfde instellingen.',
+      description: 'Dezelfde Afbeeldingen modus (5 katten vs. 7 katten) is makkelijker omdat gebruikers alleen hoeven te tellen. Verschillende Afbeeldingen modus (5 katten vs. 7 honden) is moeilijker omdat gebruikers twee onderscheidende groepen moeten tellen en zich niet laten afleiden door uiterlijk. Gebruik deze schakelaar om makkelijke en uitdagingsversies te maken vanuit dezelfde instellingen.',
     },
     {
       title: 'Vinkje & Kruisje Is Je Unieke Verkoopargument',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Voeg Altijd het Antwoordblad Toe',
-      description: 'Klik op "Genereer Antwoordblad" voordat je downloadt. Bij vergelijkingswerkbladen toont het antwoordblad het correcte symbool (>, < of =) voor elke oefening. Kopers op Etsy en TPT beoordelen producten consistent hoger wanneer een antwoordblad is inbegrepen. Bij Vinkje & Kruisje modus markeert het antwoordblad duidelijk welke afbeeldingsgroep de meerderheid is en welke de minderheid.',
+      description: 'Klik op "Genereer Antwoordblad" voordat je downloadt. Bij vergelijkingswerkbladen toont het antwoordblad het correcte symbool (>, < of =) voor elke oefening. Kopers op Etsy en Gumroad beoordelen producten consistent hoger wanneer een antwoordblad is inbegrepen. Bij Vinkje & Kruisje modus markeert het antwoordblad duidelijk welke afbeeldingsgroep de meerderheid is en welke de minderheid.',
     },
   ],
 
@@ -159,23 +159,23 @@ const content: ToolContent = {
     },
     {
       question: 'Wat zijn de drie oefenmodi?',
-      answer: 'De generator ondersteunt drie modi: Afbeelding naar Afbeelding (twee plaatjesgroepen naast elkaar — leerlingen tellen en vergelijken hoeveelheden), Afbeelding naar Getal (een plaatjesgroep gekoppeld aan een cijfer — overbrugt visuele en abstracte getalherkenning), en Vinkje & Kruisje Groepen (een doos met 8–20 gemengde afbeeldingen uit twee categorieën door elkaar gehusseld — leerlingen zetten een vinkje bij de meerderheidsgroep en een kruisje bij de minderheidsgroep).',
+      answer: 'De generator ondersteunt drie modi: Afbeelding naar Afbeelding (twee plaatjesgroepen naast elkaar — gebruikers tellen en vergelijken hoeveelheden), Afbeelding naar Getal (een plaatjesgroep gekoppeld aan een cijfer — overbrugt visuele en abstracte getalherkenning), en Vinkje & Kruisje Groepen (een doos met 8–20 gemengde afbeeldingen uit twee categorieën door elkaar gehusseld — gebruikers zetten een vinkje bij de meerderheidsgroep en een kruisje bij de minderheidsgroep).',
     },
     {
       question: 'Hoe werkt de Vinkje & Kruisje Groepen modus?',
-      answer: 'In Vinkje & Kruisje modus toont het werkblad één doos gevuld met 8–20 afbeeldingen uit twee verschillende categorieën (bijvoorbeeld katten en honden) willekeurig door elkaar gehusseld. De leerling telt elke categorie, tekent een vinkje bij de groep met meer items en een kruisje bij de groep met minder items. Dit ontwikkelt sorteer-, tel- en vergelijkingsvaardigheden gelijktijdig. De oefening is bijzonder effectief omdat leerlingen eerst de afbeeldingen in twee groepen moeten classificeren, dan elke groep apart tellen en ten slotte de totalen vergelijken.',
+      answer: 'In Vinkje & Kruisje modus toont het werkblad één doos gevuld met 8–20 afbeeldingen uit twee verschillende categorieën (bijvoorbeeld katten en honden) willekeurig door elkaar gehusseld. De gebruiker telt elke categorie, tekent een vinkje bij de groep met meer items en een kruisje bij de groep met minder items. Dit ontwikkelt sorteer-, tel- en vergelijkingsvaardigheden gelijktijdig. De oefening is bijzonder effectief omdat gebruikers eerst de afbeeldingen in twee groepen moeten classificeren, dan elke groep apart tellen en ten slotte de totalen vergelijken.',
     },
     {
       question: 'Wat is het verschil tussen Illustraties en Normale Symbolen?',
-      answer: 'Illustraties tonen kleurrijke, kindvriendelijke versies van de groter dan, kleiner dan en gelijk aan tekens — perfect voor kleuter- en groep 1-werkbladen. Normale Symbolen tonen de standaard > < = tekens die in conventionele wiskundige notatie worden gebruikt. Gebruik Illustraties voor jongere leerlingen en Normale Symbolen voor oudere leerlingen.',
+      answer: 'Illustraties tonen kleurrijke, aantrekkelijke versies van de groter dan, kleiner dan en gelijk aan tekens — perfect voor kleuter- en groep 1-werkbladen. Normale Symbolen tonen de standaard > < = tekens die in conventionele wiskundige notatie worden gebruikt. Gebruik Illustraties voor jongere gebruikers en Normale Symbolen voor oudere gebruikers.',
     },
     {
       question: 'Wat doet de instelling Beeldvariatie?',
-      answer: 'Dezelfde Afbeeldingen modus gebruikt identieke plaatjes in beide groepen (bijvoorbeeld 5 katten vs. 7 katten), zodat leerlingen zich puur richten op hoeveelheid. Verschillende Afbeeldingen modus gebruikt onderscheidende plaatjes per groep (5 katten vs. 7 honden), wat visuele interesse toevoegt en voorkomt dat leerlingen vergelijken op uiterlijk in plaats van tellen.',
+      answer: 'Dezelfde Afbeeldingen modus gebruikt identieke plaatjes in beide groepen (bijvoorbeeld 5 katten vs. 7 katten), zodat gebruikers zich puur richten op hoeveelheid. Verschillende Afbeeldingen modus gebruikt onderscheidende plaatjes per groep (5 katten vs. 7 honden), wat visuele interesse toevoegt en voorkomt dat gebruikers vergelijken op uiterlijk in plaats van tellen.',
     },
     {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten. Er is geen limiet op hoeveel werkbladen je kunt genereren of op hoeveel platforms je kunt verkopen.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten. Er is geen limiet op hoeveel werkbladen je kunt genereren of op hoeveel platforms je kunt verkopen.',
     },
     {
       question: 'Werken de werkbladen in andere talen dan Nederlands?',

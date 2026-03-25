@@ -7,7 +7,7 @@ const content: AppContent = {
       'bildkryptogram pussel sälja på Etsy',
       'kryptogram arbetsblad generator för Amazon KDP',
       'bildchiffer pussel kommersiell licens',
-      'utskrivbara kryptogram skapa för TPT',
+      'utskrivbara kryptogram skapa för Gumroad',
     ],
     lsiKeywords: [
       'digitala bildchiffer pussel produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Kryptogram Generator | Skapa och Sälj Chifferpussel',
     metaDescription:
-      'Skapa kryptogramarbetsblad att sälja på Etsy, KDP och TPT. Bildchifferkodning, Bokstäver att Avslöja svårighetskontroll, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa kryptogramarbetsblad att sälja på Etsy, KDP och Gumroad. Bildchifferkodning, Bokstäver att Avslöja svårighetskontroll, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Kryptogram Arbetsblad Generator för Bildchifferpussel',
     tagline: 'Mappa alfabetets bokstäver till bilder och koda hela fraser till visuella chifferpussel — justerbar svårighet från noll ledtrådar till kraftigt scaffoldat med Bokstäver att Avslöja.',
     description:
-      'Förvandla valfri fras eller mening till ett bildkryptogrampussel där varje alfabetsbokstav ersätts av en bild, och eleverna knäcker koden genom att härleda vilken bild som representerar vilken bokstav. Varje pussel kodar ett komplett läsbart meddelande — inte bara ett enstaka ord — vilket ger lösarna tillfredsställelsen av att avslöja en hel mening genom mönsterigenkänning och deduktion. Reglaget Bokstäver att Avslöja (0–10) styr hur många bokstav-till-bild-kopplingar som är förlösta som ledtrådar, vilket skapar en jämn svårighetsgradient från noll-ledtrådar expertutmaningar till kraftigt scaffoldade nybörjarpussel. Auto-Tilldela hämtar slumpmässiga bilder från valfri av 104 tematiska samlingar (mer än 3 100 illustrationer) för att fylla otilldelade bokstäver direkt, eller använd Manuell Tilldelning för att handplocka specifika bilder till specifika bokstäver med en komplett visuell förhandsgranskning av alla kopplingar. Facit inkluderar en komplett bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning — den definitiva referensen för att kontrollera lösningar. Full Access låser upp alla 11 språk som stöds, där både den hemliga meddelandetexten och den tillgängliga alfabetsuppsättningen ändras efter språk: svenska kryptogram kodar svenska fraser med å, ä, ö i alfabetet; tyska kryptogram kodar tyska fraser med ä, ö, ü — varje språkversion är en genuint annorlunda chifferprodukt. Exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer tematiska chifferpaket på Etsy, sammanställer kryptogrampusselböcker för Amazon KDP eller skapar differentierade kodknäckarstationer för TPT — Kryptogram Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Förvandla valfri fras eller mening till ett bildkryptogrampussel där varje alfabetsbokstav ersätts av en bild, och användarna knäcker koden genom att härleda vilken bild som representerar vilken bokstav. Varje pussel kodar ett komplett läsbart meddelande — inte bara ett enstaka ord — vilket ger lösarna tillfredsställelsen av att avslöja en hel mening genom mönsterigenkänning och deduktion. Reglaget Bokstäver att Avslöja (0–10) styr hur många bokstav-till-bild-kopplingar som är förlösta som ledtrådar, vilket skapar en jämn svårighetsgradient från noll-ledtrådar expertutmaningar till kraftigt scaffoldade nybörjarpussel. Auto-Tilldela hämtar slumpmässiga bilder från valfri av 104 tematiska samlingar (mer än 3 100 illustrationer) för att fylla otilldelade bokstäver direkt, eller använd Manuell Tilldelning för att handplocka specifika bilder till specifika bokstäver med en komplett visuell förhandsgranskning av alla kopplingar. Facit inkluderar en komplett bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning — den definitiva referensen för att kontrollera lösningar. Full Access låser upp alla 11 språk som stöds, där både den hemliga meddelandetexten och den tillgängliga alfabetsuppsättningen ändras efter språk: svenska kryptogram kodar svenska fraser med å, ä, ö i alfabetet; tyska kryptogram kodar tyska fraser med ä, ö, ü — varje språkversion är en genuint annorlunda chifferprodukt. Exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer tematiska chifferpaket på Etsy, sammanställer kryptogrampusselböcker för Amazon KDP eller skapar nivågrupperade kodknäckarstationer för Gumroad — Kryptogram Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Skriv in din hemliga fras och välj språk',
         description:
-          'Skriv frasen eller meningen som du vill att eleverna ska avkoda. Detta är det hemliga meddelandet som kommer att kodas som ett bildchiffer. Välj målspråket — frastexten bör matcha det valda språket eftersom eleverna kommer att avkoda den till läsbara ord. Den tillgängliga alfabetsuppsättningen justeras automatiskt efter språk: engelska använder 26 bokstäver, svenska inkluderar å, ä och ö, tyska inkluderar ä, ö, ü, ß och franska inkluderar accenterade tecken. Varje bokstav i din fras kommer att mappas till en bild i chiffret.',
+          'Skriv frasen eller meningen som du vill att användarna ska avkoda. Detta är det hemliga meddelandet som kommer att kodas som ett bildchiffer. Välj målspråket — frastexten bör matcha det valda språket eftersom användarna kommer att avkoda den till läsbara ord. Den tillgängliga alfabetsuppsättningen justeras automatiskt efter språk: engelska använder 26 bokstäver, svenska inkluderar å, ä och ö, tyska inkluderar ä, ö, ü, ß och franska inkluderar accenterade tecken. Varje bokstav i din fras kommer att mappas till en bild i chiffret.',
       },
       {
         title: 'Tilldela bilder till bokstäver',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Ställ in svårighet med Bokstäver att Avslöja och lägg till anpassad text',
         description:
-          'Justera inställningen Bokstäver att Avslöja från 0 till 10 för att styra hur många bokstav-till-bild-kopplingar som är förlösta som ledtrådar på arbetsbladet. Noll avslöjanden skapar en ren kodknäckarutmaning; tio avslöjanden ger kraftigt stöd för nybörjare. Lägg till en arbetsbladstitel, fält för elevens namn och datum, instruktioner eller annan anpassad text med fem typsnitt: Lexend Deca, Baloo 2, Nunito, Quicksand och Fredoka. Använd den inbyggda Fabric.js-arbetsytan för att dra, ändra storlek, rotera och flytta varje element efter behov.',
+          'Justera inställningen Bokstäver att Avslöja från 0 till 10 för att styra hur många bokstav-till-bild-kopplingar som är förlösta som ledtrådar på arbetsbladet. Noll avslöjanden skapar en ren kodknäckarutmaning; tio avslöjanden ger kraftigt stöd för nybörjare. Lägg till en arbetsbladstitel, fält för namn och datum, instruktioner eller annan anpassad text med fem typsnitt: Lexend Deca, Baloo 2, Nunito, Quicksand och Fredoka. Använd den inbyggda Fabric.js-arbetsytan för att dra, ändra storlek, rotera och flytta varje element efter behov.',
       },
       {
         title: 'Generera bokstavslegendens facit och ladda ner',
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Bildchiffer med bild-till-bokstav-koppling',
         description:
-          'Varje alfabetsbokstav mappas till en unik bild, och den hemliga frasen renderas som en sekvens av bilder som ersätter varje bokstav. Eleverna identifierar varje bild, härleder vilken bokstav den representerar och rekonstruerar originaltexten — en fundamentalt annorlunda utmaning jämfört med ordsöknings- eller bokstavsomflyttningspussel. Bild-till-bokstav-chiffret engagerar deduktion, mönsterigenkänning och kontextuellt resonemang när eleverna bygger en mental dekrypteringsnyckel en koppling i taget. Denna kodknäckningsmekanik skapar pussel med genuina «aha-ögonblick» när varje avkodad bokstav låser upp flera ord samtidigt.',
+          'Varje alfabetsbokstav mappas till en unik bild, och den hemliga frasen renderas som en sekvens av bilder som ersätter varje bokstav. användarna identifierar varje bild, härleder vilken bokstav den representerar och rekonstruerar originaltexten — en fundamentalt annorlunda utmaning jämfört med ordsöknings- eller bokstavsomflyttningspussel. Bild-till-bokstav-chiffret engagerar deduktion, mönsterigenkänning och kontextuellt resonemang när användarna bygger en mental dekrypteringsnyckel en koppling i taget. Denna kodknäckningsmekanik skapar pussel med genuina «aha-ögonblick» när varje avkodad bokstav låser upp flera ord samtidigt.',
       },
       {
         title: 'Frasnivåkodning för komplett meddelandeavkodning',
         description:
-          'Till skillnad från pussel som kodar enskilda ord kodar Kryptogram-generatorn hela fraser och meningar. Eleverna avkodar ett komplett läsbart meddelande — ett motiverande citat, en ordförrådsmeming, ett roligt faktum eller en anpassad instruktion — vilket ger dem tillfredsställelsen av att avslöja meningsfullt innehåll snarare än isolerade ord. Frasnivåkodning ger också kontextuella ledtrådar: vanliga korta ord som «och», «den» och «är» hjälper lösare att knäcka chiffret snabbare, vilket skapar en naturlig scaffoldingseffekt som belönar språkintuition.',
+          'Till skillnad från pussel som kodar enskilda ord kodar Kryptogram-generatorn hela fraser och meningar. användarna avkodar ett komplett läsbart meddelande — ett motiverande citat, en ordförrådsmeming, ett roligt faktum eller en anpassad instruktion — vilket ger dem tillfredsställelsen av att avslöja meningsfullt innehåll snarare än isolerade ord. Frasnivåkodning ger också kontextuella ledtrådar: vanliga korta ord som «och», «den» och «är» hjälper lösare att knäcka chiffret snabbare, vilket skapar en naturlig scaffoldingseffekt som belönar språkintuition.',
       },
       {
         title: 'Justerbar svårighet med Bokstäver att Avslöja (0–10)',
         description:
-          'Inställningen Bokstäver att Avslöja styr hur många bokstav-till-bild-kopplingar som är förlösta som ledtrådar på arbetsbladet. Vid noll möter eleverna en ren kodknäckarutmaning utan startinformation. Vid tio är en betydande del av chiffret redan avkodat, vilket ger kraftigt stöd för yngre eller mindre erfarna lösare. Denna enda kontroll skapar en jämn svårighetsgradient som gör kryptogrampussel tillgängliga för en bred spännvidd av förmågenivåer — och den fungerar som en kraftfull differentieringsaxel för produktpaket.',
+          'Inställningen Bokstäver att Avslöja styr hur många bokstav-till-bild-kopplingar som är förlösta som ledtrådar på arbetsbladet. Vid noll möter användarna en ren kodknäckarutmaning utan startinformation. Vid tio är en betydande del av chiffret redan avkodat, vilket ger kraftigt stöd för yngre eller mindre erfarna lösare. Denna enda kontroll skapar en jämn svårighetsgradient som gör kryptogrampussel tillgängliga för en bred spännvidd av förmågenivåer — och den fungerar som en kraftfull differentieringsaxel för produktpaket.',
       },
       {
         title: 'Auto-Tilldela bilder från 104 tematiska samlingar',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Komplett bokstavslegend i facit',
         description:
-          'Facit inkluderar en unik bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad alfabetisk ordning. Detta är den definitiva referensen för att kontrollera lösningar — elever (eller lärare) kan slå upp valfri bild för att bekräfta vilken bokstav den representerar. Bokstavslegendformatet är exklusivt för Kryptogram-generatorn och ger en renare, mer heltäckande svarsreferens än att bara visa den avkodade frastexten.',
+          'Facit inkluderar en unik bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad alfabetisk ordning. Detta är den definitiva referensen för att kontrollera lösningar — användare (eller säljare) kan slå upp valfri bild för att bekräfta vilken bokstav den representerar. Bokstavslegendformatet är exklusivt för Kryptogram-generatorn och ger en renare, mer heltäckande svarsreferens än att bara visa den avkodade frastexten.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med hög DPI',
         description:
-          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x DPI-multiplikator, vilket producerar resultat över 400 DPI i standardformat. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för klassrumsutskrift eller svartvita pusselböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x DPI-multiplikator, vilket producerar resultat över 400 DPI i standardformat. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för volymutskrift eller svartvita pusselböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
       {
         title: 'Full arbetsyteredigering med text- och bildverktyg',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade kodknäckarstationer för TPT',
+        title: 'nivågrupperade kodknäckarstationer för Gumroad',
         description:
-          'Bygg nivåindelade kryptogramövningsset med Bokstäver att Avslöja som differentieringsaxel: Nivå 1 (8 avslöjanden, korta fraser, tematiska bilder), Nivå 2 (5 avslöjanden, medellånga fraser), Nivå 3 (2 avslöjanden, längre meningar) och Nivå 4 (0 avslöjanden, full kodknäckarutmaning). Paketera varje nivå med bokstavslegendsfacit och ett framstegsblad. Chiffermekaniken är i sig engagerande — eleverna upplever genuin kodknäckarspänning när varje avkodad bokstav låser upp mer av meddelandet. TPT-köpare betalar premiumpriser för differentierade lässtationar som är redo att användas direkt.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg nivåindelade kryptogramövningsset med Bokstäver att Avslöja som differentieringsaxel: Nivå 1 (8 avslöjanden, korta fraser, tematiska bilder), Nivå 2 (5 avslöjanden, medellånga fraser), Nivå 3 (2 avslöjanden, längre meningar) och Nivå 4 (0 avslöjanden, full kodknäckarutmaning). Paketera varje nivå med bokstavslegendsfacit och ett framstegsblad. Chiffermekaniken är i sig engagerande — användarna upplever genuin kodknäckarspänning när varje avkodad bokstav låser upp mer av meddelandet. Gumroad-köpare betalar premiumpriser för nivågrupperade lässtationar som är redo att användas direkt.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Flerspråkiga kryptogramprodukter med Full Access',
         description:
           'Full Access låser upp alla 11 språk, och eftersom Kryptogram är språkkänsligt ändras både den hemliga meddelandetexten och den tillgängliga alfabetsuppsättningen efter språk. En svensk fras kodas med ett alfabet som inkluderar å, ä, ö; en tysk fras kodas med ett utökat alfabet med ä, ö, ü, ß; en fransk fras använder ett alfabet med é, è, ç, à. Varje språkversion producerar ett genuint annorlunda chifferpussel med olika ord, olika bokstavskopplingar och en annorlunda lösarupplevelse. Skapa identiska temaserier på flera språk och lista varje som en separat Etsy-produkt eller KDP-bok — elva intäktsströmmar från ett enda arbetsflöde.',
-        platform: 'Etsy / Amazon KDP / TPT (flerspråkigt)',
+        platform: 'Etsy / Amazon KDP / Gumroad (flerspråkigt)',
       },
       {
-        title: 'Klassrums- och privatundervisning i ordförråd',
+        title: 'produktlinjes- och privatundervisning i ordförråd',
         description:
-          'Koda anpassade ordförrådsmeningar, stavningsrepetitionsfraser eller ämnesspecifika definitioner som kryptogrampussel. Skriv valfri fras som hemligt meddelande — «Mitokondrien är cellens kraftverk» för biologi, «Riksdagen är Sveriges lagstiftande församling» för samhällskunskap, eller veckans stavningsord arrangerade i en mening. Ställ in Bokstäver att Avslöja baserat på varje elevs förmågenivå för direkt differentiering. Kodknäckarformatet förvandlar mekanisk ordförrådsrepetition till en engagerande pusselaktivitet, och bokstavslegendsfacit sparar rättningstid.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Koda anpassade ordförrådsmeningar, stavningsrepetitionsfraser eller ämnesspecifika definitioner som kryptogrampussel. Skriv valfri fras som hemligt meddelande — «Mitokondrien är cellens kraftverk» för biologi, «Riksdagen är Sveriges lagstiftande församling» för samhällskunskap, eller veckans stavningsord arrangerade i en mening. Ställ in Bokstäver att Avslöja baserat på varje användares förmågenivå för direkt differentiering. Kodknäckarformatet förvandlar mekanisk ordförrådsrepetition till en engagerande pusselaktivitet, och bokstavslegendsfacit sparar upplevt värde.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar bildkryptogramchiffret?',
       answer:
-        'Varje alfabetsbokstav tilldelas en unik bild. Din hemliga fras visas sedan som en sekvens av bilder som ersätter varje bokstav. Eleverna tittar på varje bild, räknar ut vilken bokstav den representerar och skriver bokstaven för att rekonstruera originalmeddelandet. Mellanslag och skiljetecken bevaras som de är, så eleverna kan se ordgränserna. Utmaningen är att bygga den kompletta bild-till-bokstav-kopplingskartan genom deduktion och mönsterigenkänning.',
+        'Varje alfabetsbokstav tilldelas en unik bild. Din hemliga fras visas sedan som en sekvens av bilder som ersätter varje bokstav. användarna tittar på varje bild, räknar ut vilken bokstav den representerar och skriver bokstaven för att rekonstruera originalmeddelandet. Mellanslag och skiljetecken bevaras som de är, så användarna kan se ordgränserna. Utmaningen är att bygga den kompletta bild-till-bokstav-kopplingskartan genom deduktion och mönsterigenkänning.',
     },
     {
       question: 'Vad gör Bokstäver att Avslöja (0–10)?',
       answer:
-        'Bokstäver att Avslöja styr hur många bokstav-till-bild-kopplingar som är förlösta på arbetsbladet som ledtrådar. Vid 0 börjar eleverna utan information och måste knäcka hela chiffret från grunden. Vid 10 är tio kopplingar redan avkodade, vilket ger betydande stöd. Denna inställning är den primära svårighetskontrollen — använd högre värden för nybörjare och lägre värden för avancerade lösare. Den fungerar också som en naturlig differentieringsaxel för nivåindelade produktpaket.',
+        'Bokstäver att Avslöja styr hur många bokstav-till-bild-kopplingar som är förlösta på arbetsbladet som ledtrådar. Vid 0 börjar användarna utan information och måste knäcka hela chiffret från grunden. Vid 10 är tio kopplingar redan avkodade, vilket ger betydande stöd. Denna inställning är den primära svårighetskontrollen — använd högre värden för nybörjare och lägre värden för avancerade lösare. Den fungerar också som en naturlig differentieringsaxel för nivåindelade produktpaket.',
     },
     {
       question: 'Vad är skillnaden mellan Auto-Tilldela och Manuell Tilldelning?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Kan jag koda hela meningar, inte bara enstaka ord?',
       answer:
-        'Ja. Kryptogram-generatorn kodar hela fraser och meningar, inte enskilda ord. Eleverna avkodar ett komplett läsbart meddelande, vilket ger kontextuella ledtrådar — vanliga korta ord, bekanta meningmönster och upprepade bokstäver hjälper alla lösare att knäcka chiffret. Denna frasnivåkodning gör pusslet mer tillfredsställande och mer pedagogiskt än enkla ordutmaningar.',
+        'Ja. Kryptogram-generatorn kodar hela fraser och meningar, inte enskilda ord. användarna avkodar ett komplett läsbart meddelande, vilket ger kontextuella ledtrådar — vanliga korta ord, bekanta meningmönster och upprepade bokstäver hjälper alla lösare att knäcka chiffret. Denna frasnivåkodning gör pusslet mer tillfredsställande och mer pedagogiskt än enkla ordutmaningar.',
     },
     {
       question: 'Kan jag ladda upp egna bilder till chiffret?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: 'Vad visar bokstavslegendens facit?',
       answer:
-        'Facit inkluderar en komplett bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad alfabetisk ordning. Detta är den definitiva referensen för att kontrollera lösningar — elever eller lärare kan slå upp valfri bild för att bekräfta vilken bokstav den representerar. Facit visar också den fullständigt avkodade frasen för snabb verifiering.',
+        'Facit inkluderar en komplett bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad alfabetisk ordning. Detta är den definitiva referensen för att kontrollera lösningar — användare eller säljare kan slå upp valfri bild för att bekräfta vilken bokstav den representerar. Facit visar också den fullständigt avkodade frasen för snabb verifiering.',
     },
     {
       question: 'Vad är skillnaden mellan Färg- och Svartvitt-teman?',
       answer:
-        'Temasamlingar finns tillgängliga som färgglada illustrationer och svartvita konturteckningsvarianter. Färgteman producerar livfulla, visuellt rika chifferpussel idealiska för digitala produkter och färgutskrift. Svartvitt-teman producerar bläckvänliga arbetsblad som skrivs ut rent på vanliga klassrumsskrivare och fungerar bra i svartvita pusselböcker.',
+        'Temasamlingar finns tillgängliga som färgglada illustrationer och svartvita konturteckningsvarianter. Färgteman producerar livfulla, visuellt rika chifferpussel idealiska för digitala produkter och färgutskrift. Svartvitt-teman producerar bläckvänliga arbetsblad som skrivs ut rent på vanliga produktlinjesskrivare och fungerar bra i svartvita pusselböcker.',
     },
     {
       question: 'Hur fungerar det språkmedvetna alfabetet?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina kryptogramarbetsblad som digitala nedladdningar på Etsy, som tryckta pusselböcker på Amazon KDP, som lärarresurser på TPT eller genom valfri annan försäljningskanal. De justerbara Bokstäver att Avslöja, tematiska bildsamlingarna och den flerspråkiga kapaciteten ger dig stark differentiering i marknadsplatskategorier.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina kryptogramarbetsblad som digitala nedladdningar på Etsy, som tryckta pusselböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De justerbara Bokstäver att Avslöja, tematiska bildsamlingarna och den flerspråkiga kapaciteten ger dig stark differentiering i marknadsplatskategorier.',
     },
     {
       question: 'Är Kryptogram-generatorn språkkänslig?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'hemundervisning-utskriftsbara-ideer',
-      anchorText: 'Hemundervisning Utskriftsbara Idéer för Föräldrar och Pedagoger',
+      anchorText: 'Hemundervisning Utskriftsbara Idéer för Föräldrar och säljare',
     },
     {
       pageType: 'guide',

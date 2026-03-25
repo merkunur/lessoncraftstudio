@@ -7,7 +7,7 @@ const content: AppContent = {
       'ordletarpussel arbetsblad sälja på Etsy',
       'ordletar generator för Amazon KDP utgivare',
       'ordletarpussel arbetsblad kommersiell licens',
-      'utskrivbara ordletarpussel skapa för TPT',
+      'utskrivbara ordletarpussel skapa för Gumroad',
     ],
     lsiKeywords: [
       'digitala ordletarpussel produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Ordletar Generator | Skapa och Sälj Ordpussel',
     metaDescription:
-      'Skapa ordletararbetsblad att sälja på Etsy, KDP och TPT. Justerbart rutnät 5–30, riktningskontroller, språkmedvetna fyllnadsbokstäver. Gratis provversion med vattenstämpel.',
+      'Skapa ordletararbetsblad att sälja på Etsy, KDP och Gumroad. Justerbart rutnät 5–30, riktningskontroller, språkmedvetna fyllnadsbokstäver. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Ordletar Arbetsblad Generator för Gömda-Ord Rutnätspussel',
     tagline: 'Justerbara rutnät från 5×5 till 30×30 med diagonal- och bakåtriktningskontroller — bygg den perfekta svårighetsgraden för varje målgrupp.',
     description:
-      'Designa professionella ordletararbetsblad där gömda ord är inbäddade i ett rutnät av slumpmässiga fyllnadsbokstäver och eleverna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska pusselformatet som aldrig går ur mode. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med upp till 8 egna ord. Justera rutnätet från 5×5 för snabba uppvärmningar till 30×30 för riktiga utmaningar, och växla diagonala ord samt bakåtvända ord på eller av för att finjustera svårigheten över fyra till åtta möjliga placeringsriktningar. Tre visningslägen — ord plus bilder, enbart bilder eller enbart ord — styr hur ledtrådarna visas bredvid rutnätet. Full Access låser upp alla 11 språk som stöds, där både de gömda orden och rutnätets fyllnadsbokstäver ändras efter språk: svenska rutnät inkluderar å, ä, ö vid naturliga frekvensvikter, tyska rutnät inkluderar ä, ö, ü och varje annat språk använder sin autentiska teckenuppsättning. Ett färgkodat facit markerar varje hittat ord i en av sex roterande färger för omedelbar visuell verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer tematiska pusselpaket på Etsy, sammanställer ordletarböcker för Amazon KDP eller skapar differentierade ordförrådsstationer för TPT — Ordletar Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Designa professionella ordletararbetsblad där gömda ord är inbäddade i ett rutnät av slumpmässiga fyllnadsbokstäver och användarna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska pusselformatet som aldrig går ur mode. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med upp till 8 egna ord. Justera rutnätet från 5×5 för snabba uppvärmningar till 30×30 för riktiga utmaningar, och växla diagonala ord samt bakåtvända ord på eller av för att finjustera svårigheten över fyra till åtta möjliga placeringsriktningar. Tre visningslägen — ord plus bilder, enbart bilder eller enbart ord — styr hur ledtrådarna visas bredvid rutnätet. Full Access låser upp alla 11 språk som stöds, där både de gömda orden och rutnätets fyllnadsbokstäver ändras efter språk: svenska rutnät inkluderar å, ä, ö vid naturliga frekvensvikter, tyska rutnät inkluderar ä, ö, ü och varje annat språk använder sin autentiska teckenuppsättning. Ett färgkodat facit markerar varje hittat ord i en av sex roterande färger för omedelbar visuell verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer tematiska pusselpaket på Etsy, sammanställer ordletarböcker för Amazon KDP eller skapar nivågrupperade ordförrådsstationer för Gumroad — Ordletar Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Ställ in visningsläge och lägg till anpassade detaljer',
         description:
-          'Välj mellan tre ord/bildvisningslägen: Visa Ord och Bilder (standard), Visa Enbart Bilder eller Visa Enbart Ord. Varje läge styr vad som visas bredvid rutnätet som ledtrådar. Använd panelen Textverktyg för att lägga till en arbetsbladstitel, fält för elevens namn och datum, instruktioner eller annan anpassad text. Välj mellan sju typsnitt inklusive Lexend Deca, Baloo 2, Fredoka och Quicksand. Justera teckenstorlek, färg och kontur för maximal läsbarhet. Använd den inbyggda Fabric.js-arbetsytan för att dra, ändra storlek och flytta varje element efter behov.',
+          'Välj mellan tre ord/bildvisningslägen: Visa Ord och Bilder (standard), Visa Enbart Bilder eller Visa Enbart Ord. Varje läge styr vad som visas bredvid rutnätet som ledtrådar. Använd panelen Textverktyg för att lägga till en arbetsbladstitel, fält för namn och datum, instruktioner eller annan anpassad text. Välj mellan sju typsnitt inklusive Lexend Deca, Baloo 2, Fredoka och Quicksand. Justera teckenstorlek, färg och kontur för maximal läsbarhet. Använd den inbyggda Fabric.js-arbetsytan för att dra, ändra storlek och flytta varje element efter behov.',
       },
       {
         title: 'Generera det färgkodade facit och ladda ner',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Gömda-ord rutnätspussel med bildledtrådar',
         description:
-          'Varje pussel bäddar in gömda ord inuti ett rutnät av slumpmässiga fyllnadsbokstäver. Eleverna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska ordletarformatet som engagerar visuell skanning, mönsterigenkänning och ordförrådsåtergivning samtidigt. När du använder Bildbibliotek eller Manuellt Redigeringsläge visas bilder bredvid rutnätet som visuella ledtrådar, vilket kopplar samman bildigenkänning och ordidentifiering. Egen Ordlista-läget skapar renodlade textbaserade ordletarpussel utan bilder, vilket utökar formatet till valfritt ämne eller ordförrådsset.',
+          'Varje pussel bäddar in gömda ord inuti ett rutnät av slumpmässiga fyllnadsbokstäver. användarna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska ordletarformatet som engagerar visuell skanning, mönsterigenkänning och ordförrådsåtergivning samtidigt. När du använder Bildbibliotek eller Manuellt Redigeringsläge visas bilder bredvid rutnätet som visuella ledtrådar, vilket kopplar samman bildigenkänning och ordidentifiering. Egen Ordlista-läget skapar renodlade textbaserade ordletarpussel utan bilder, vilket utökar formatet till valfritt ämne eller ordförrådsset.',
       },
       {
         title: 'Anpassningsbar rutnätsstorlek från 5×5 till 30×30',
         description:
-          'Justera rader och kolumner oberoende av varandra från 5 till 30, vilket skapar rutnät så kompakta som 5×5 (25 celler) eller så expansiva som 30×30 (900 celler). Små rutnät ger snabba, tillgängliga pussel idealiska för yngre elever eller uppvärmningsaktiviteter. Stora rutnät skapar täta, utmanande sökövningar som håller erfarna lösare engagerade längre. Standardrutnätet 12×12 balanserar svårighet och sidutrymme för de flesta målgrupper. Detta spann låter dig skapa progressiva svårighetspaket — från små startrutnät till massiva expertnivåutmaningar — allt från samma verktyg.',
+          'Justera rader och kolumner oberoende av varandra från 5 till 30, vilket skapar rutnät så kompakta som 5×5 (25 celler) eller så expansiva som 30×30 (900 celler). Små rutnät ger snabba, tillgängliga pussel idealiska för yngre användare eller uppvärmningsaktiviteter. Stora rutnät skapar täta, utmanande sökövningar som håller erfarna lösare engagerade längre. Standardrutnätet 12×12 balanserar svårighet och sidutrymme för de flesta målgrupper. Detta spann låter dig skapa progressiva svårighetspaket — från små startrutnät till massiva expertnivåutmaningar — allt från samma verktyg.',
       },
       {
         title: 'Ordriktningskontroller: diagonal- och bakåtväxlingar',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Färgkodat facit med 6 markeringsfärger',
         description:
-          'Facit markerar varje hittat ord i en av sex roterande färger: rosa, blå, grön, guld, korall och lavendel. Varje ord får en distinkt färg för omedelbar visuell identifiering, vilket gör det enkelt för elever att självkontrollera eller för lärare att rätta snabbt. Det färgkodade formatet är visuellt engagerande och professionellt — ett tydligt steg uppåt jämfört med enkla ringa-in-ordet-facit. Aktivera gråskaleexport när du behöver bläckvänliga versioner för svartvit utskrift.',
+          'Facit markerar varje hittat ord i en av sex roterande färger: rosa, blå, grön, guld, korall och lavendel. Varje ord får en distinkt färg för omedelbar visuell identifiering, vilket gör det enkelt för användare att självkontrollera eller för säljare att rätta snabbt. Det färgkodade formatet är visuellt engagerande och professionellt — ett tydligt steg uppåt jämfört med enkla ringa-in-ordet-facit. Aktivera gråskaleexport när du behöver bläckvänliga versioner för svartvit utskrift.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med hög DPI',
         description:
-          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket producerar resultat över 400 DPI i standardformat. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för klassrumsutskrift eller svartvita pusselböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket producerar resultat över 400 DPI i standardformat. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för volymutskrift eller svartvita pusselböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
       {
         title: 'Full arbetsyteredigering med text- och bildverktyg',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentierade ordförrådsstationer för TPT',
+        title: 'nivågrupperade ordförrådsstationer för Gumroad',
         description:
-          'Bygg nivåindelade ordletarövningsset som använder rutnätsstorlek och riktningskontroller som differentieringsaxlar: Nivå 1 (8×8, enbart horisontellt, 4 ord), Nivå 2 (12×12, horisontellt och vertikalt, 6 ord), Nivå 3 (16×16, diagonaler aktiverade, 8 ord) och Nivå 4 (20×20, diagonaler och bakåtvänt, 8 ord). Paketera varje nivå med färgkodade facit och ett framstegsblad. TPT-köpare betalar premiumpriser för differentierade ordförrådsresurser de kan använda direkt över flera förmågenivåer.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg nivåindelade ordletarövningsset som använder rutnätsstorlek och riktningskontroller som differentieringsaxlar: Nivå 1 (8×8, enbart horisontellt, 4 ord), Nivå 2 (12×12, horisontellt och vertikalt, 6 ord), Nivå 3 (16×16, diagonaler aktiverade, 8 ord) och Nivå 4 (20×20, diagonaler och bakåtvänt, 8 ord). Paketera varje nivå med färgkodade facit och ett framstegsblad. Gumroad-köpare betalar premiumpriser för nivågrupperade ordförrådsresurser de kan använda direkt över flera förmågenivåer.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Flerspråkiga ordletarprodukter med Full Access',
         description:
           'Full Access låser upp alla 11 språk, och eftersom Ordletar är språkkänsligt ändras både de gömda orden och rutnätets fyllnadsbokstäver efter språk. «Dog» på engelska blir «Hund» i ett rutnät fyllt med tyska tecken inklusive ä, ö, ü; «chien» på franska visas i ett rutnät med é, è, ç, à. Svenska rutnät inkluderar å, ä och ö vid naturliga frekvenser. Varje språkversion är en genuint annorlunda produkt med olika ord, olika fyllnadstecken och en annorlunda lösarupplevelse. Skapa identiska temaserier på flera språk och lista varje som en separat Etsy-produkt eller KDP-bok — elva intäktsströmmar från ett enda arbetsflöde.',
-        platform: 'Etsy / Amazon KDP / TPT (flerspråkigt)',
+        platform: 'Etsy / Amazon KDP / Gumroad (flerspråkigt)',
       },
       {
-        title: 'Klassrums- och privatundervisning i ordförrådsövning',
+        title: 'produktlinjes- och privatundervisning i ordförrådsövning',
         description:
-          'Använd Egen Ordlista-läget för att skapa ordletararbetsblad för valfri ordlista — veckans stavningsord, naturvetenskapliga termer, SO-ordförråd eller övning i främmande språk. Skriv upp till 8 ord direkt utan att behöva matchande bilder. Justera rutnätsstorlek och riktningsväxlingar för att matcha varje elevs förmåga: små enbart-horisontella rutnät för elever som behöver stöd, stora diagonal-och-bakåt-rutnät för avancerade elever. Skriv ut anpassade set på minuter för smågrupper eller hela klasser. Det färgkodade facit sparar rättningstid och det klassiska ordletarformatet håller eleverna engagerade.',
-        platform: 'Klassrum / Privatundervisning / Hemundervisning',
+          'Använd Egen Ordlista-läget för att skapa ordletararbetsblad för valfri ordlista — veckans stavningsord, naturvetenskapliga termer, SO-ordförråd eller övning i främmande språk. Skriv upp till 8 ord direkt utan att behöva matchande bilder. Justera rutnätsstorlek och riktningsväxlingar för att matcha varje användares förmåga: små enbart-horisontella rutnät för användare som behöver stöd, stora diagonal-och-bakåt-rutnät för avancerade användare. Skriv ut anpassade set på minuter för smågrupper eller hela klasser. Det färgkodade facit sparar upplevt värde och det klassiska ordletarformatet håller användarna engagerade.',
+        platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar ordletarpusslet?',
       answer:
-        'Gömda ord är inbäddade inuti ett rutnät av slumpmässiga fyllnadsbokstäver. Eleverna skannar rader, kolumner och valfritt diagonaler för att hitta varje ord. När ett ord hittas ringar eleverna in eller markerar det i rutnätet. Fyllnadsbokstäverna slumpas varje gång du genererar, så varje pussel är unikt även med samma ordlista. Upp till 8 ord kan placeras i ett enda rutnät.',
+        'Gömda ord är inbäddade inuti ett rutnät av slumpmässiga fyllnadsbokstäver. användarna skannar rader, kolumner och valfritt diagonaler för att hitta varje ord. När ett ord hittas ringar användarna in eller markerar det i rutnätet. Fyllnadsbokstäverna slumpas varje gång du genererar, så varje pussel är unikt även med samma ordlista. Upp till 8 ord kan placeras i ett enda rutnät.',
     },
     {
       question: 'Vilka rutnätsstorlekar finns tillgängliga?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Vilka är de tre visningslägena?',
       answer:
-        'Visa Ord och Bilder (standard) visar både bildledtrådar och ordlistor bredvid rutnätet. Visa Enbart Bilder visar bildledtrådar utan textlistor, vilket kräver att eleverna identifierar bilden och hittar ordet själva. Visa Enbart Ord visar textlistor utan bilder, vilket skapar en renodlad textbaserad ordletarupplevelse. Varje läge styr vad som visas som ledtrådsreferenser bredvid rutnätet.',
+        'Visa Ord och Bilder (standard) visar både bildledtrådar och ordlistor bredvid rutnätet. Visa Enbart Bilder visar bildledtrådar utan textlistor, vilket kräver att användarna identifierar bilden och hittar ordet själva. Visa Enbart Ord visar textlistor utan bilder, vilket skapar en renodlad textbaserad ordletarupplevelse. Varje läge styr vad som visas som ledtrådsreferenser bredvid rutnätet.',
     },
     {
       question: 'Hur fungerar den språkmedvetna alfabetsfyllnaden?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina ordletararbetsblad som digitala nedladdningar på Etsy, som tryckta pusselböcker på Amazon KDP, som lärarresurser på TPT eller genom valfri annan försäljningskanal. De justerbara rutnätsstorlekarna, riktningskontrollerna och den flerspråkiga kapaciteten ger dig stark differentiering i trånga marknadsplatskategorier.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina ordletararbetsblad som digitala nedladdningar på Etsy, som tryckta pusselböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De justerbara rutnätsstorlekarna, riktningskontrollerna och den flerspråkiga kapaciteten ger dig stark differentiering i trånga marknadsplatskategorier.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'hemundervisning-utskriftsbara-ideer',
-      anchorText: 'Hemundervisning Utskriftsbara Idéer för Föräldrar och Pedagoger',
+      anchorText: 'Hemundervisning Utskriftsbara Idéer för Föräldrar och säljare',
     },
     {
       pageType: 'guide',

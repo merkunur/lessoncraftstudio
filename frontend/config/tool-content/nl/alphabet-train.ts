@@ -3,14 +3,14 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'alfabettrein werkbladen maken voor kinderen',
     secondaryKeywords: [
-      'alfabettrein maker voor de klas',
+      'alfabettrein maker voor de winkel',
       'letterherkenning werkbladen voor kinderen',
       'printbare alfabettrein voor kleuters',
-      'letter-afbeelding koppeling maker voor leerkrachten',
+      'letter-afbeelding koppeling maker voor verkopers',
     ],
     lsiKeywords: [
       'letter-afbeelding trein werkblad voor kinderen',
-      'meertalige alfabet activiteit voor de klas',
+      'meertalige alfabet activiteit voor de winkel',
       'kleurrijke alfabettrein om te printen',
     ],
     titleTag: 'Alfabettrein Werkbladen — Letteroefeningen',
@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Alfabettrein Werkblad Maker',
     tagline: 'Maak kleurrijke letter-trein werkbladen met afbeelding-naar-letter koppeling in 11 talen',
-    description: 'Bouw alfabetwerkbladen die er totaal anders uitzien dan het standaard letter-overtrekblad. Deze tool rangschikt 11 levendige treinwagons over de pagina, elk met een letter en een bijpassende illustratie. Verspreide aanwijzingsafbeeldingen verschijnen naast de trein — leerlingen identificeren met welke letter elke afbeelding begint en koppelen deze aan de juiste wagon. Kies tussen Auto Aanmaken (de tool kiest willekeurig 11 letters en wijst bijpassende afbeeldingen toe) of Handmatige Selectie (kies elke letter uit een volledig alfabetraster en wijs elke afbeelding zelf toe). Pas de moeilijkheid aan met de aanwijzingenteller: 3 aanwijzingen voor beginners, 5–7 voor gemiddelde leerlingen en 9–11 voor gevorderde leerlingen die bijna elke wagon moeten koppelen. De echte kracht is taalgevoeligheid — selecteer uit 11 moedertaalalfabetten inclusief Duits (Ä/Ö/Ü), Zweeds (Å/Ä/Ö), Spaans (Ñ) en meer. Dezelfde afbeelding koppelt aan verschillende letters in elke taal: "hond" koppelt aan H in het Nederlands maar D in het Engels (Dog) en C in het Frans (Chien). Eén werkbladsjabloon wordt 11 unieke producten. Blader door meer dan 3100 afbeeldingen over 104 thema\'s, of upload je eigen voor merkgebonden ontwerpen. Kies uit 7 lettertypefamilies en exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Bouw alfabetwerkbladen die er totaal anders uitzien dan het standaard letter-overtrekblad. Deze tool rangschikt 11 levendige treinwagons over de pagina, elk met een letter en een bijpassende illustratie. Verspreide aanwijzingsafbeeldingen verschijnen naast de trein — gebruikers identificeren met welke letter elke afbeelding begint en koppelen deze aan de juiste wagon. Kies tussen Auto Aanmaken (de tool kiest willekeurig 11 letters en wijst bijpassende afbeeldingen toe) of Handmatige Selectie (kies elke letter uit een volledig alfabetraster en wijs elke afbeelding zelf toe). Pas de moeilijkheid aan met de aanwijzingenteller: 3 aanwijzingen voor beginners, 5–7 voor gemiddelde gebruikers en 9–11 voor gevorderde gebruikers die bijna elke wagon moeten koppelen. De echte kracht is taalgevoeligheid — selecteer uit 11 moedertaalalfabetten inclusief Duits (Ä/Ö/Ü), Zweeds (Å/Ä/Ö), Spaans (Ñ) en meer. Dezelfde afbeelding koppelt aan verschillende letters in elke taal: "hond" koppelt aan H in het Nederlands maar D in het Engels (Dog) en C in het Frans (Chien). Eén werkbladsjabloon wordt 11 unieke producten. Blader door meer dan 3100 afbeeldingen over 104 thema\'s, of upload je eigen voor merkgebonden ontwerpen. Kies uit 7 lettertypefamilies en exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Kies je aanmaakmodus',
-        description: 'Selecteer Auto Aanmaken om de tool willekeurig 11 letters te laten kiezen en automatisch bijpassende afbeeldingen toe te wijzen uit het gekozen thema — ideaal voor snelle productie. Kies Handmatige Selectie voor volledige controle: je kiest precies 11 letters uit het alfabetraster en wijst elke afbeelding individueel toe. Handmatige modus is het beste voor curriculumgerichte werkbladen die specifieke lettergroepen behandelen.',
+        description: 'Selecteer Auto Aanmaken om de tool willekeurig 11 letters te laten kiezen en automatisch bijpassende afbeeldingen toe te wijzen uit het gekozen thema — ideaal voor snelle productie. Kies Handmatige Selectie voor volledige controle: je kiest precies 11 letters uit het alfabetraster en wijst elke afbeelding individueel toe. Handmatige modus is het beste voor productcatalogusgerichte werkbladen die specifieke lettergroepen behandelen.',
       },
       {
         title: 'Selecteer letters (handmatige modus)',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Configureer aanwijzingenaantal en naam/datumvelden',
-        description: 'Gebruik de aanwijzingenteller om in te stellen hoeveel bijpassende aanwijzingsafbeeldingen naast de trein verschijnen. Stel 3 aanwijzingen in voor het makkelijkste niveau (de meeste wagons zonder koppelingstaak), 5–7 voor gemiddelde moeilijkheid, of 9–11 voor gevorderde leerlingen die bijna elke wagon moeten koppelen. Schakel de Naam- en Datumvelden in of uit afhankelijk van of het werkblad voor klashandouts of digitale productdownloads is.',
+        description: 'Gebruik de aanwijzingenteller om in te stellen hoeveel bijpassende aanwijzingsafbeeldingen naast de trein verschijnen. Stel 3 aanwijzingen in voor het makkelijkste niveau (de meeste wagons zonder koppelingstaak), 5–7 voor gemiddelde moeilijkheid, of 9–11 voor gevorderde gebruikers die bijna elke wagon moeten koppelen. Schakel de Naam- en Datumvelden in of uit afhankelijk van of het werkblad voor klashandouts of digitale productdownloads is.',
       },
       {
         title: 'Pas tekst en lettertypen aan',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Thematische Alfabettrein Pakketten',
-      description: 'Maak sets van 10–15 alfabettrein werkbladen met thematische beeldcollecties — dieren, voedsel, voertuigen, natuur. Elk werkblad gebruikt verschillende letters en afbeeldingen op een consistent aanwijzingenaantal. Bundel per thema en verkoop op Etsy.nl of TPT. Het kleurrijke treinwagonformaat maakt je vermeldingsminiatuur opvallend tegenover vlakke letter-overtrekwerkbladen. Voeg antwoordbladen toe bij elke set zodat kopers een compleet, klasklaar pakket krijgen. Positioneer op €3–€5 per thema.',
+      description: 'Maak sets van 10–15 alfabettrein werkbladen met thematische beeldcollecties — dieren, voedsel, voertuigen, natuur. Elk werkblad gebruikt verschillende letters en afbeeldingen op een consistent aanwijzingenaantal. Bundel per thema en verkoop op Etsy.nl of Gumroad. Het kleurrijke treinwagonformaat maakt je vermeldingsminiatuur opvallend tegenover vlakke letter-overtrekwerkbladen. Voeg antwoordbladen toe bij elke set zodat kopers een compleet, verkoopklaar pakket krijgen. Positioneer op €3–€5 per thema.',
     },
     {
       title: 'KDP Alfabet Activiteitenboeken',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Gedifferentieerde Aanwijzingenaantal Sets',
-      description: 'Genereer drie versies van dezelfde thematische alfabettrein op verschillende moeilijkheidsniveaus: makkelijk (3 aanwijzingen), gemiddeld (7 aanwijzingen) en moeilijk (11 aanwijzingen). Leerkrachten kunnen de juiste versie aan elke leerling geven op basis van hun leesniveau. Verkoop als gedifferentieerd pakket op een premiumprijspunt op TPT of Etsy.nl.',
+      description: 'Genereer drie versies van dezelfde thematische alfabettrein op verschillende moeilijkheidsniveaus: makkelijk (3 aanwijzingen), gemiddeld (7 aanwijzingen) en moeilijk (11 aanwijzingen). verkopers kunnen de juiste versie aan elke gebruiker geven op basis van hun leesniveau. Verkoop als gedifferentieerd pakket op een premiumprijspunt op Gumroad of Etsy.nl.',
     },
     {
       title: 'Meertalige Alfabet Producten',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Eigen Afbeelding Merkwerkbladen',
-      description: 'Upload je eigen illustraties, mascotten of gelicentieerd kunstwerk om alfabettreinen te maken die geen andere verkoper kan repliceren. Thuisonderwijs-makers kunnen familiefoto\'s gebruiken, klasleerkrachten kunnen schoolmascotten gebruiken, en Etsy-verkopers kunnen een onderscheidende visuele identiteit opbouwen over hun hele winkel.',
+      description: 'Upload je eigen illustraties, mascotten of gelicentieerd kunstwerk om alfabettreinen te maken die geen andere verkoper kan repliceren. Thuisonderwijs-makers kunnen familiefoto\'s gebruiken, klasverkopers kunnen schoolmascotten gebruiken, en Etsy-verkopers kunnen een onderscheidende visuele identiteit opbouwen over hun hele winkel.',
     },
     {
       title: 'Seizoensgebonden Alfabettrein Bundels',
-      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Alfabettrein" pakket met feestelijke illustraties verkoopt sterk in november. Kerstmis, terug-naar-school, Halloween, Valentijnsdag en lentethema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en TPT.',
+      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Alfabettrein" pakket met feestelijke illustraties verkoopt sterk in november. Kerstmis, terug-naar-school, Halloween, Valentijnsdag en lentethema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Geletterdheid Bundels',
-      description: 'Upload gedifferentieerde alfabettrein pakketten naar TPT. Voeg werkbladen op drie aanwijzingsniveaus, een docentenhandleiding die het treinformaat uitlegt en antwoordbladen voor elke pagina toe. Leerkrachten zoeken constant naar "alfabet activiteiten" en "letterherkenning werkbladen". Het visuele treinformaat voegt waargenomen waarde toe omdat het als een spel aanvoelt, niet als een oefening. Bied Auto Aanmaken bundels voor variatie en Handmatige Selectie bundels voor curriculumgerichte lettergroepen.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Geletterdheid Bundels',
+      description: 'Upload gedifferentieerde alfabettrein pakketten naar Gumroad. Voeg werkbladen op drie aanwijzingsniveaus, een verkopershandleiding die het treinformaat uitlegt en antwoordbladen voor elke pagina toe. verkopers zoeken constant naar "alfabet activiteiten" en "letterherkenning werkbladen". Het visuele treinformaat voegt waargenomen waarde toe omdat het als een spel aanvoelt, niet als een oefening. Bied Auto Aanmaken bundels voor variatie en Handmatige Selectie bundels voor productcatalogusgerichte lettergroepen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Meertalige Alfabet Kits',
-      description: 'Maak premium alfabetkits op Gumroad die dezelfde werkbladontwerpen bevatten in 5–11 talen. Richt je op tweetalige gezinnen, internationale scholen en NT2-docenten die letterherkenningsmateriaal in meerdere talen nodig hebben. De taal-als-vermenigvuldiger aanpak betekent dat elke kit 5–11× de inhoud heeft van een enkeltaalconcurrent, wat een hogere prijs rechtvaardigt. Prijs op €12–€19.',
+      description: 'Maak premium alfabetkits op Gumroad die dezelfde werkbladontwerpen bevatten in 5–11 talen. Richt je op tweetalige gezinnen, internationale scholen en NT2-verkopers die letterherkenningsmateriaal in meerdere talen nodig hebben. De taal-als-vermenigvuldiger aanpak betekent dat elke kit 5–11× de inhoud heeft van een enkeltaalconcurrent, wat een hogere prijs rechtvaardigt. Prijs op €12–€19.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Begin met 3 Aanwijzingen voor Beginners',
-      description: 'Een werkblad met 3 aanwijzingen geeft jonge leerlingen een zachte introductie — ze hoeven slechts 3 afbeeldingen aan wagons te koppelen terwijl de overige 8 wagons letters tonen zonder koppelingstaak. Dit voorkomt overweldiging voor kleuters en vroege groep 1-leerlingen. Verhoog naar 7 of 11 aanwijzingen naarmate leerlingen vertrouwen opbouwen. Verkopers op Etsy en TPT kunnen makkelijke, gemiddelde en moeilijke versies samen verpakken als gedifferentieerde set.',
+      description: 'Een werkblad met 3 aanwijzingen geeft jonge gebruikers een zachte introductie — ze hoeven slechts 3 afbeeldingen aan wagons te koppelen terwijl de overige 8 wagons letters tonen zonder koppelingstaak. Dit voorkomt overweldiging voor kleuters en vroege groep 1-gebruikers. Verhoog naar 7 of 11 aanwijzingen naarmate gebruikers vertrouwen opbouwen. Verkopers op Etsy en Gumroad kunnen makkelijke, gemiddelde en moeilijke versies samen verpakken als gedifferentieerde set.',
     },
     {
       title: 'Gebruik Auto Aanmaken voor Snelheid, Handmatig voor Controle',
-      description: 'Auto Aanmaken modus selecteert willekeurig letters en wijst afbeeldingen toe, waardoor je in minuten tientallen unieke werkbladen kunt genereren. Schakel naar Handmatige Selectie wanneer je specifieke lettergroepen nodig hebt — bijvoorbeeld alleen klinkers, alleen medeklinkers, of letters die je leerlingen momenteel leren in de klas. Vanuit verkopersperspectief is Auto Aanmaken ideaal voor het snel bouwen van variatiepakketten, terwijl Handmatige Selectie je curriculumgerichte producten laat maken.',
+      description: 'Auto Aanmaken modus selecteert willekeurig letters en wijst afbeeldingen toe, waardoor je in minuten tientallen unieke werkbladen kunt genereren. Schakel naar Handmatige Selectie wanneer je specifieke lettergroepen nodig hebt — bijvoorbeeld alleen klinkers, alleen medeklinkers, of letters die je gebruikers momenteel leren online. Vanuit verkopersperspectief is Auto Aanmaken ideaal voor het snel bouwen van variatiepakketten, terwijl Handmatige Selectie je productcatalogusgerichte producten laat maken.',
     },
     {
       title: 'Ga Meertalig voor 11× Productbereik',
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Hoe werkt het alfabettrein formaat?',
-      answer: 'De tool maakt 11 kleurrijke treinwagons, elk met een letter en een bijpassende illustratie. Verspreide aanwijzingsafbeeldingen verschijnen naast de trein. Leerlingen identificeren met welke letter elke aanwijzingsafbeelding begint en koppelen deze aan de juiste wagon. Het aantal aanwijzingsafbeeldingen is configureerbaar van 3 tot 11. Een antwoordblad wordt bij elk werkblad gegenereerd, met de correcte letter-afbeelding verbindingen zodat leerkrachten en ouders werk snel kunnen controleren.',
+      answer: 'De tool maakt 11 kleurrijke treinwagons, elk met een letter en een bijpassende illustratie. Verspreide aanwijzingsafbeeldingen verschijnen naast de trein. gebruikers identificeren met welke letter elke aanwijzingsafbeelding begint en koppelen deze aan de juiste wagon. Het aantal aanwijzingsafbeeldingen is configureerbaar van 3 tot 11. Een antwoordblad wordt bij elk werkblad gegenereerd, met de correcte letter-afbeelding verbindingen zodat verkopers en ouders werk snel kunnen controleren.',
     },
     {
       question: 'Wat is het verschil tussen Auto Aanmaken en Handmatige Selectie?',
@@ -183,7 +183,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
       question: 'Welke bestandsformaten kan ik downloaden?',
@@ -191,7 +191,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Welke lettertypeopties zijn beschikbaar?',
-      answer: 'De tool biedt 7 lettertypefamilies: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Elk lettertype is helder en leesbaar op werkbladformaat. Kies afgeronde, speelse lettertypen zoals Fredoka voor jongere leerlingen of schone lettertypen zoals Lexend Deca voor een professionele uitstraling.',
+      answer: 'De tool biedt 7 lettertypefamilies: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Elk lettertype is helder en leesbaar op werkbladformaat. Kies afgeronde, speelse lettertypen zoals Fredoka voor jongere gebruikers of schone lettertypen zoals Lexend Deca voor een professionele uitstraling.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -218,7 +218,7 @@ const content: ToolContent = {  seo: {
     sampleGallery: [
       {
         src: '/samples/dutch/alphabet%20train/Alfabettrein%201.webp',
-        alt: 'Kleurrijk alfabettrein werkblad met letter-afbeelding koppelactiviteit voor jonge leerlingen',
+        alt: 'Kleurrijk alfabettrein werkblad met letter-afbeelding koppelactiviteit voor jonge gebruikers',
         caption: 'Treinwagon formaat met letter-afbeelding koppeling',
       },
       {
@@ -229,7 +229,7 @@ const content: ToolContent = {  seo: {
       {
         src: '/samples/dutch/alphabet%20train/Alfabettrein%203.webp',
         alt: 'Gevorderd alfabettrein werkblad met 11 aanwijzingen voor maximale moeilijkheid letterherkenning',
-        caption: 'Volledige 11-aanwijzingen moeilijkheid voor gevorderde leerlingen',
+        caption: 'Volledige 11-aanwijzingen moeilijkheid voor gevorderde gebruikers',
       },
     ],
     youtubeId: '_dDQegRq9JQ',

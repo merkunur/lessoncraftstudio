@@ -18,12 +18,12 @@ const content: GuideContent = {
       'kommersiell licens arbetsbladsverktyg',
     ],
     titleTag: 'Hur du skapar mönsterarbetsblad — Steg-för-steg-guide',
-    metaDescription: 'Skapa mönsterarbetsblad med 9 typer, tematiska bilder, automatiska facit och 2 frågeformat. Exportera tryckfärdiga PDF att sälja på Etsy, Amazon KDP och TPT.',
+    metaDescription: 'Skapa mönsterarbetsblad med 9 typer, tematiska bilder, automatiska facit och 2 frågeformat. Exportera tryckfärdiga PDF att sälja på Etsy, Amazon KDP och Gumroad.',
   },
 
   hero: {
     title: 'Hur du skapar mönsterigenkänningsarbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska, tryckfärdiga mönsterigenkänningsarbetsblad du kan sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
+    tagline: 'En steg-för-steg-guide för att skapa tematiska, tryckfärdiga mönsterigenkänningsarbetsblad du kan sälja på Etsy, Amazon KDP och Gumroad',
     description: 'Mönsterigenkänning är en av de mest grundläggande förmattematiska färdigheterna barn utvecklar, och arbetsblad som lär detta är i konstant efterfrågan. Denna guide leder dig genom hela skapandeprocessen med Mönsterarbetsblad-skaparen — från att välja mönstertyper och frågeformat till att exportera tryckfärdiga PDF:er med automatiska facit. Med 9 distinkta mönstertyper som sträcker sig från enkla AB-sekvenser till komplexa ABCD-mönster kan du skapa produkter för alla åldrar från förskola genom tidig grundskola.',
   },
 
@@ -40,7 +40,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj frågeformatet',
-      content: 'Två frågeformat.\n\nTom ruta: mönstersekvensen med en bild ersatt av en tom ruta. Barn måste identifiera den saknade bilden. Öppen respons som testar djupare förståelse. Fungerar för klassrumsutvärdering och hemundervisning.\n\nVälj bland alternativ: mönstersekvensen med en saknad bild, plus en rad bildval nedanför (inklusive distraktorer). Flervalformat som ger stöd. Fungerar för introduktion, standardiserad testförberedelse och snabb rättning.\n\nFör produktskapande, gör separata produkter per format. "Mönsterarbetsblad — Fyll i rutan" och "Mönsterarbetsblad — Flerval" betjänar olika köparbehov. Du kan även paketera båda formaten tillsammans.',
+      content: 'Två frågeformat.\n\nTom ruta: mönstersekvensen med en bild ersatt av en tom ruta. Barn måste identifiera den saknade bilden. Öppen respons som testar djupare förståelse. Fungerar för produktlinjesutvärdering och hemundervisning.\n\nVälj bland alternativ: mönstersekvensen med en saknad bild, plus en rad bildval nedanför (inklusive distraktorer). Flervalformat som ger stöd. Fungerar för introduktion, standardiserad testförberedelse och snabb rättning.\n\nFör produktskapande, gör separata produkter per format. "Mönsterarbetsblad — Fyll i rutan" och "Mönsterarbetsblad — Flerval" betjänar olika köparbehov. Du kan även paketera båda formaten tillsammans.',
     },
     {
       heading: 'Ställ in antal övningar och layout',
@@ -52,11 +52,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Anpassa med text, bakgrund och ram',
-      content: 'Textverktyg: titel ("Mönsterövning — Vad kommer härnäst?"), instruktioner, varumärke. 7 typsnittsfamiljer. Barnvänliga (Fredoka, Baloo 2) eller rena (Lexend Deca, Arial).\n\nBakgrundsteman med opacitetskontroll — lätt mönster lägger till visuell värme utan att störa. Ramteman ramar in arbetsbladet.\n\nAlla arbetsyteelement stöder drag, storleksändring, rotation, lagerhantering, lås/upplåsning och justering. Fabric.js-baserad arbetsyta med ångra/gör om.',
+      content: 'Textverktyg: titel ("Mönsterövning — Vad kommer härnäst?"), instruktioner, varumärke. 7 typsnittsfamiljer. tilltalande (Fredoka, Baloo 2) eller rena (Lexend Deca, Arial).\n\nBakgrundsteman med opacitetskontroll — lätt mönster lägger till visuell värme utan att störa. Ramteman ramar in arbetsbladet.\n\nAlla arbetsyteelement stöder drag, storleksändring, rotation, lagerhantering, lås/upplåsning och justering. Fabric.js-baserad arbetsyta med ångra/gör om.',
     },
     {
       heading: 'Granska det automatiska facit',
-      content: 'Varje genererat mönsterarbetsblad inkluderar ett automatiskt facit. Klicka Facit-fliken.\n\nFacit visar det kompletta mönstret med den korrekta bilden ifylld i den tomma positionen. Avgörande för lärare (snabb rättning) och föräldrar (verifiering).\n\nFacit genereras automatiskt baserat på mönsterlogiken — du behöver inte lösa mönstren själv.\n\nNämn alltid facit i dina listningar. "Med facit" är en vanligt sökt kvalificerare.',
+      content: 'Varje genererat mönsterarbetsblad inkluderar ett automatiskt facit. Klicka Facit-fliken.\n\nFacit visar det kompletta mönstret med den korrekta bilden ifylld i den tomma positionen. Avgörande för säljare (snabb rättning) och föräldrar (verifiering).\n\nFacit genereras automatiskt baserat på mönsterlogiken — du behöver inte lösa mönstren själv.\n\nNämn alltid facit i dina listningar. "Med facit" är en vanligt sökt kvalificerare.',
     },
     {
       heading: 'Exportera som tryckfärdig PDF och JPEG',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Mönsterigenkänningsarbetsböcker presterar starkt på KDP. Skapa en arbetsbok med 50–100 arbetsblad som svårighetsprogression — börja med AB, avancera genom ABCD.\n\nTitel och undertitel: Exempeltitel "Pattern Recognition Worksheets for Preschool and Kindergarten." Exempel-undertitel "100 Visual Pattern Activities, 9 Pattern Types from AB to ABCD, Answer Keys for Ages 3–6."\n\nNyckelord: "pattern recognition preschool," "what comes next worksheets," "visual pattern activities kids."\n\nOmslagsdesign: Visa exempelmönsterövningar. Inkludera åldersintervall framträdande.\n\nPrissättning: KDP arbetsböcker $5,99–$9,99.',
     },
     {
-      heading: 'Sälja mönsterarbetsblad på Teachers Pay Teachers',
-      content: 'TPT riktar sig till klassrumspedagoger. Mönsterigenkänning anpassar direkt till tidiga mattestandarder.\n\nProduktbeskrivningar: årskurs, mönstertyper, antal sidor, om facit ingår, frågeformat, och standardanpassning.\n\nFörhandsgranskningsfiler: 2–3 exempelsidor med olika mönstertyper och båda frågeformaten.\n\nPaketering: "Komplett mönsterigenkänningsenhet — AB genom ABCD" med 50+ arbetsblad.\n\nTPT-nyckelord: "mattecentra," "morgonarbete," "mönsterenhet," "förmattematiska färdigheter," "algebraiskt tänkande." Skolstart (augusti–september) är den största försäljningsperioden.',
+      heading: 'Sälja mönsterarbetsblad på Gumroad',
+      content: 'Gumroad riktar sig till produktlinjessäljare. Mönsterigenkänning anpassar direkt till tidiga mattestandarder.\n\nProduktbeskrivningar: årskurs, mönstertyper, antal sidor, om facit ingår, frågeformat, och standardanpassning.\n\nFörhandsgranskningsfiler: 2–3 exempelsidor med olika mönstertyper och båda frågeformaten.\n\nPaketering: "Komplett mönsterigenkänningsenhet — AB genom ABCD" med 50+ arbetsblad.\n\nGumroad-nyckelord: "mattecentra," "morgonarbete," "mönsterenhet," "förmattematiska färdigheter," "algebraiskt tänkande." Skolstart (augusti–september) är den största försäljningsperioden.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Förskoleklass och uppåt produkter',
-      content: 'ABC mönster — Fordon: ABC-typ, fordon, tom ruta, 5 övningar. Aktivera båda randomiseringsalternativ. 15 arbetsblad.\n\nABCD utmaning — Djur: ABCD-typ, djur, flerval, 6 övningar. Mest utmanande. 10 arbetsblad. Marknadsför som "utmanande."\n\nProgressiv svårighetspaket: Alla 9 mönstertyper inom ett tema. Börja med 5 AB, sedan 5 AAB, och så vidare genom ABCD. 45 arbetsblad (5 per typ) med facit. Prissätt $12,99–$16,99.\n\nDubbeltformat utvärderingspaket: Identiska mönster i tom-ruta och flerval. Lärare använder flerval för introduktion och tom ruta för utvärdering. 30 arbetsblad.',
+      content: 'ABC mönster — Fordon: ABC-typ, fordon, tom ruta, 5 övningar. Aktivera båda randomiseringsalternativ. 15 arbetsblad.\n\nABCD utmaning — Djur: ABCD-typ, djur, flerval, 6 övningar. Mest utmanande. 10 arbetsblad. Marknadsför som "utmanande."\n\nProgressiv svårighetspaket: Alla 9 mönstertyper inom ett tema. Börja med 5 AB, sedan 5 AAB, och så vidare genom ABCD. 45 arbetsblad (5 per typ) med facit. Prissätt $12,99–$16,99.\n\nDubbeltformat utvärderingspaket: Identiska mönster i tom-ruta och flerval. säljare använder flerval för introduktion och tom ruta för utvärdering. 30 arbetsblad.',
     },
   ],
 

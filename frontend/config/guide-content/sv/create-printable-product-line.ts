@@ -24,7 +24,7 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar en utskriftsbar produktlinje',
     tagline: 'En komplett guide till att bygga en sammanhängande utskriftsbar produktlinje som driver varumärkesigenkänning och upprepade köp — täcker produktlinjeidentitet och struktur, visuell konsistens, namnkonventioner, strategisk produktsekvensering, katalogorganisation och systematiska expansionsmetoder',
-    description: 'En produktlinje förvandlar en slumpmässig samling utskriftsklara arbetsblad till ett igenkännbart varumärke som köpare återvänder till. Istället för att skapa isolerade produkter bygger en sammanhängande produktlinje katalogdjup, visuell konsistens och köparförtroende som ackumuleras över tid. Denna guide täcker det kompletta ramverket för planering, byggande och expandering av en produktlinje som fungerar på Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Fabrica och alla andra plattformar.',
+    description: 'En produktlinje förvandlar en slumpmässig samling utskriftsklara arbetsblad till ett igenkännbart varumärke som köpare återvänder till. Istället för att skapa isolerade produkter bygger en sammanhängande produktlinje katalogdjup, visuell konsistens och köparförtroende som ackumuleras över tid. Denna guide täcker det kompletta ramverket för planering, byggande och expandering av en produktlinje som fungerar på Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica och alla andra plattformar.',
   },
 
   introduction: 'De flesta printable-säljare börjar likadant: de skapar ett arbetsblad, listar det, sedan skapar de ett orelaterat arbetsblad och listar det. Över månader ackumulerar deras butik dussintals produkter med olika visuella stilar, inkonsekvent namngivning och ingen logisk koppling. Varje ny produktlansering börjar från noll.\n\nEn produktlinje tar den motsatta metoden. Varje produkt du skapar passar in i en genomtänkt struktur — enhetlig i visuell design, kopplad genom konsekvent namngivning, organiserad i tydliga kategorier och sekvenserad för att bygga på det som kom före. När en köpare upptäcker en produkt och gillar kvaliteten kan de omedelbart se tio fler produkter som matchar.\n\nAffärspåverkan är väsentlig. Säljare med sammanhängande produktlinjer rapporterar högre genomsnittligt ordervärde, starkare organisk sökprestanda, lägre kundförvärvskostnader och genuin varumärkesigenkänning. Köpare lär sig att söka specifikt efter deras produkter.\n\nDenna guide täcker hela ramverket: definiera din linjes identitet, planera dess struktur, etablera visuell konsistens, skapa namnkonventioner, sekvensera produkter strategiskt, organisera din katalog och expandera systematiskt.',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Amazon KDP visar din linje genom din författarsida, "köpte också"-algoritmen och seriemetadata. Använd ett konsekvent serienamn (KDP tillåter seriedesignering) och identiska omslagsmallar. Amazons rekommendationsmotor rekommenderar automatiskt andra produkter i din linje.',
     },
     {
-      heading: 'Utnyttja produktlinjedjup på Teachers Pay Teachers',
-      content: 'TPT:s butiksorganisation med anpassade kategorier och utvalda produkter. Skapa kategorier som mappas till din linjestruktur. TPT-köpare är särskilt mottagliga för heltäckande produktlinjer. Använd produktbeskrivningar för att kartlägga din linje explicit: "Detta är produkt 3 av 12 i Matte-mästare serien."',
+      heading: 'Utnyttja produktlinjedjup på Gumroad',
+      content: 'Gumroad:s butiksorganisation med anpassade kategorier och utvalda produkter. Skapa kategorier som mappas till din linjestruktur. Gumroad-köpare är särskilt mottagliga för heltäckande produktlinjer. Använd produktbeskrivningar för att kartlägga din linje explicit: "Detta är produkt 3 av 12 i Matte-mästare serien."',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Exempel: Flerformatssäljare bygger en temabaserad produktlinje',
-      content: 'En säljare noterar att djurtematiserade produkter säljer bra. "Vilda Klassrummet"-serien med grönt-och-brunt naturfärgpalett och konsekvent lövradesign. Börjar med djurmålarbilder och djurordsökningar. Expanderar format-för-format: matchningsarbetsblad, additionsarbetsblad, subtraktionsarbetsblad, vokabuläraktiviteter. Organiserar butiken efter format ("Målarbilder," "Ordsökningar," "Mattearbetsblad") och djurgrupp ("Bondgårdsdjur," "Havsdjur," "Safaridjur"). Namnger konsekvent: "Vilda Klassrummet: [Format] — [Djurgrupp] | [Åldersintervall]." Efter 15 produkter börjar expandera till nya temalinjer — "Havsäventyr" och "Rymdutforskare" — med samma formatvariation och visuella konsistensprinciper.',
+      content: 'En säljare noterar att djurtematiserade produkter säljer bra. "Vilda butiken"-serien med grönt-och-brunt naturfärgpalett och konsekvent lövradesign. Börjar med djurmålarbilder och djurordsökningar. Expanderar format-för-format: matchningsarbetsblad, additionsarbetsblad, subtraktionsarbetsblad, vokabuläraktiviteter. Organiserar butiken efter format ("Målarbilder," "Ordsökningar," "Mattearbetsblad") och djurgrupp ("Bondgårdsdjur," "Havsdjur," "Safaridjur"). Namnger konsekvent: "Vilda butiken: [Format] — [Djurgrupp] | [Åldersintervall]." Efter 15 produkter börjar expandera till nya temalinjer — "Havsäventyr" och "Rymdutforskare" — med samma formatvariation och visuella konsistensprinciper.',
     },
   ],
 

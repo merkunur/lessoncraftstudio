@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'utskrivbar pusselspel skapare för Etsy-säljare',
       'saknade bitar arbetsblad generator för KDP-publicerare',
-      'visuellt pussel skapare kommersiell licens TPT',
-      'sälja saknade bitar arbetsblad på Teachers Pay Teachers',
+      'visuellt pussel skapare kommersiell licens Gumroad',
+      'sälja saknade bitar arbetsblad på Gumroad',
     ],
     lsiKeywords: [
       'digitala pussel utskriftsbara produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Saknade Bitar Generator | Skapa Visuella Pussel',
     metaDescription:
-      'Skapa saknade bitar-pussel att sälja på Etsy, KDP och TPT. 6 bitformer, konfigurerbar svårighet, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa saknade bitar-pussel att sälja på Etsy, KDP och Gumroad. 6 bitformer, konfigurerbar svårighet, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Saknade Bitar Pussel Generator för Pusselliknande Visuella Pussel',
-    tagline: 'Generera pusselliknande pussel där bitar klipps ut från bilder och eleverna identifierar rätt numrerat alternativ — med 6 bitformer, 1–5 saknade bitar, 2–6 lösningsalternativ inklusive distraktorer, automatiskt genererade facit och visuell design som fungerar på alla språk.',
+    tagline: 'Generera pusselliknande pussel där bitar klipps ut från bilder och användarna identifierar rätt numrerat alternativ — med 6 bitformer, 1–5 saknade bitar, 2–6 lösningsalternativ inklusive distraktorer, automatiskt genererade facit och visuell design som fungerar på alla språk.',
     description:
-      'Bygg professionella saknade bitar-pussel där en bild har hål utklippta och eleverna identifierar vilket numrerat alternativ som fyller varje lucka. Den smarta bitextraktions-algoritmen hittar visuellt distinkta områden med tillräcklig färgvarians, vilket säkerställer att varje pussel är lösbart och engagerande. Välj bland 6 bitformer — fyrkant, cirkel, rektangel stående, rektangel liggande, ellips stående och ellips liggande — och konfigurera svårighetsgraden med 1–5 saknade bitar och 2–6 lösningsalternativ som inkluderar distraktorbitar för att utmana visuell diskrimineringsförmåga. Varje pussel inkluderar ett automatiskt genererat facit med gulmarkerade nummertiketter placerade inuti varje hål som visar det korrekta alternativet. Den automatiskt genererade rubriken renderar «Saknade bitar» i turkos (#06B6D4) med en rosarosa beskrivning (#DB2777) över ett dubbelt ramsystem — blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px) — lokaliserad på alla 11 stödda språk. Saknade Bitar är INTE språkkänsligt: pusslen är rent visuella utan lokalberoende innehåll, så varje pussel fungerar identiskt över hela världen. Samma pussel kan säljas globalt utan översättning — ett enda skapandeflöde betjänar varje marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer visuella pusselpaket på Etsy, sammanställer pusselarbetsböcker för Amazon KDP eller skapar kritiskt tänkande-aktiviteter för TPT — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella saknade bitar-pussel där en bild har hål utklippta och användarna identifierar vilket numrerat alternativ som fyller varje lucka. Den smarta bitextraktions-algoritmen hittar visuellt distinkta områden med tillräcklig färgvarians, vilket säkerställer att varje pussel är lösbart och engagerande. Välj bland 6 bitformer — fyrkant, cirkel, rektangel stående, rektangel liggande, ellips stående och ellips liggande — och konfigurera svårighetsgraden med 1–5 saknade bitar och 2–6 lösningsalternativ som inkluderar distraktorbitar för att utmana visuell diskrimineringsförmåga. Varje pussel inkluderar ett automatiskt genererat facit med gulmarkerade nummertiketter placerade inuti varje hål som visar det korrekta alternativet. Den automatiskt genererade rubriken renderar «Saknade bitar» i turkos (#06B6D4) med en rosarosa beskrivning (#DB2777) över ett dubbelt ramsystem — blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px) — lokaliserad på alla 11 stödda språk. Saknade Bitar är INTE språkkänsligt: pusslen är rent visuella utan lokalberoende innehåll, så varje pussel fungerar identiskt över hela världen. Samma pussel kan säljas globalt utan översättning — ett enda skapandeflöde betjänar varje marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer visuella pusselpaket på Etsy, sammanställer pusselarbetsböcker för Amazon KDP eller skapar kritiskt tänkande-aktiviteter för Gumroad — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se det automatiskt genererade facit. Samma pusselbild visas med hål, och gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål visar det korrekta alternativindexet. Ladda ner båda versionerna med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF — alla renderade med 300 DPI och JPEG-kvalitet 1,0. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla till fliken Facit för att se det automatiskt genererade facit. Samma pusselbild visas med hål, och gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål visar det korrekta alternativindexet. Ladda ner båda versionerna med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF — alla renderade med 300 DPI och JPEG-kvalitet 1,0. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Pusselliknande saknade bitar-pussel med konfigurerbar svårighet',
         description:
-          'Skapa pussel där en bild har hål utklippta och eleverna identifierar vilket numrerat alternativ som fyller varje lucka. Konfigurera svårighetsgraden med två oberoende kontroller: ställ in 1–5 saknade bitar för att kontrollera pusselkomplexiteten, och ställ in 2–6 lösningsalternativ för att kontrollera hur många val eleverna utvärderar. Fler saknade bitar innebär mer rumsligt resonemang; fler lösningsalternativ (inklusive distraktorer) innebär skarpare visuell diskriminering. Detta tvåaxliga svårighetssystem låter dig skapa pussel som sträcker sig från enkel enbitarsidentifiering till komplexa flerbitarsutmaningar.',
+          'Skapa pussel där en bild har hål utklippta och användarna identifierar vilket numrerat alternativ som fyller varje lucka. Konfigurera svårighetsgraden med två oberoende kontroller: ställ in 1–5 saknade bitar för att kontrollera pusselkomplexiteten, och ställ in 2–6 lösningsalternativ för att kontrollera hur många val användarna utvärderar. Fler saknade bitar innebär mer rumsligt resonemang; fler lösningsalternativ (inklusive distraktorer) innebär skarpare visuell diskriminering. Detta tvåaxliga svårighetssystem låter dig skapa pussel som sträcker sig från enkel enbitarsidentifiering till komplexa flerbitarsutmaningar.',
       },
       {
         title: 'Sex bitformer: Fyrkant, Cirkel, Rektangel och Ellipsvarianter',
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: 'Automatiskt genererat facit med gulmarkerade nummertiketter',
         description:
-          'Varje saknade bitar-pussel genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit visar samma pusselbild med hål, och placerar gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål som visar det korrekta 1-baserade alternativindexet. Teckenstorleken skalas till 60% av bitstorleken för tydlig läsbarhet. Inget manuellt facitskapande behövs — facit förblir perfekt synkroniserat med pusslet. Ladda ner facit som answer_key.jpeg eller answer_key.pdf bredvid elevarbetsbladet.',
+          'Varje saknade bitar-pussel genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit visar samma pusselbild med hål, och placerar gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål som visar det korrekta 1-baserade alternativindexet. Teckenstorleken skalas till 60% av bitstorleken för tydlig läsbarhet. Inget manuellt facitskapande behövs — facit förblir perfekt synkroniserat med pusslet. Ladda ner facit som answer_key.jpeg eller answer_key.pdf bredvid arbetsbladet.',
       },
       {
         title: 'Numrerade lösningsalternativ med distraktorbitar',
         description:
-          'Lösningsalternativ visas i numrerade containrar (1–N) med gulmarkerade nummertiketter för tydlig identifiering. När lösningsalternativ överstiger antalet saknade bitar är de extra alternativen distraktorbitar — extraherade från olika områden av samma bild som inte matchar något hål. Distraktorer tvingar eleverna att noggrant jämföra visuella detaljer istället för att helt enkelt matcha genom eliminering. Stående arbetsblad arrangerar alternativ i en enda horisontell rad under pusslet (75% av maxstorlek); liggande arbetsblad placerar dem på höger sida (50% bredd) i en horisontell rad.',
+          'Lösningsalternativ visas i numrerade containrar (1–N) med gulmarkerade nummertiketter för tydlig identifiering. När lösningsalternativ överstiger antalet saknade bitar är de extra alternativen distraktorbitar — extraherade från olika områden av samma bild som inte matchar något hål. Distraktorer tvingar användarna att noggrant jämföra visuella detaljer istället för att helt enkelt matcha genom eliminering. Stående arbetsblad arrangerar alternativ i en enda horisontell rad under pusslet (75% av maxstorlek); liggande arbetsblad placerar dem på höger sida (50% bredd) i en horisontell rad.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner saknade bitar-pussel och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator) med JPEG-kvalitet 1,0. Fyra dedikerade nedladdningsknappar exporterar arbetsblad och facitfiler separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+          'Ladda ner saknade bitar-pussel och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator) med JPEG-kvalitet 1,0. Fyra dedikerade nedladdningsknappar exporterar arbetsblad och facitfiler separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
       },
       {
         title: 'Full arbetsyteredigering med textverktyg, justering och lagerkontroller',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrumspussel-aktiviteter för TPT',
+        title: 'produktlinjespussel-aktiviteter för Gumroad',
         description:
-          'Bygg färdiga visuella diskriminerings- och kritiskt tänkande-aktiviteter för Teachers Pay Teachers. Saknade bitar-pussel stärker rumsligt resonemang, visuell analys och uppmärksamhet på detaljer — färdigheter som värderas genom hela förskole- och grundskoleläroplaner. Skapa läroplansanpassade set: djurlivsmiljö-pussel, säsongsscen-pussel, samhällshjälpar-pussel och matgrupp-pussel. Varje set inkluderar elevarbetsblad och facit i både PDF- och JPEG-format. Den konfigurerbara svårighetsgraden låter dig skapa differentierade versioner av samma pussel för blandade klassrum.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg färdiga visuella diskriminerings- och kritiskt tänkande-aktiviteter för Gumroad. Saknade bitar-pussel stärker rumsligt resonemang, visuell analys och uppmärksamhet på detaljer — färdigheter som värderas genom hela förskole- och grundskoleproduktkataloger. Skapa produktkatalogsanpassade set: djurlivsmiljö-pussel, säsongsscen-pussel, samhällshjälpar-pussel och matgrupp-pussel. Varje set inkluderar arbetsblad och facit i både PDF- och JPEG-format. Den konfigurerbara svårighetsgraden låter dig skapa nivågrupperade versioner av samma pussel för blandade produktlinje.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Säsongsbetonade och högtidspussel-samlingar',
         description:
           'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade pusselsamlingar som sammanfaller med toppshoppingperioder. Släpp halloweenpussel-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Variera bitformer och svårighetsnivåer inom varje säsongsset för maximalt värde. Säsongsprodukter motiverar högre priser under sina toppfönster och skapar naturliga skäl till återköp från din kundbas.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
       {
         title: 'Global marknadsattraktionskraft — visuella pussel kräver ingen översättning',
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar saknade bitar-pusselmekaniken?',
       answer:
-        'Generatorn tar en bild från biblioteket (eller din uppladdning) och klipper ut 1–5 bitar, lämnar vita hål med svarta konturlinjer på de ursprungliga platserna. Den visar sedan 2–6 numrerade lösningsalternativ under eller bredvid pusslet — de korrekta bitarna plus distraktorbitar extraherade från andra områden av samma bild. Eleverna granskar hålen och de numrerade alternativen, och identifierar sedan vilket alternativ som fyller varje lucka baserat på färg, mönster och visuella detaljer.',
+        'Generatorn tar en bild från biblioteket (eller din uppladdning) och klipper ut 1–5 bitar, lämnar vita hål med svarta konturlinjer på de ursprungliga platserna. Den visar sedan 2–6 numrerade lösningsalternativ under eller bredvid pusslet — de korrekta bitarna plus distraktorbitar extraherade från andra områden av samma bild. användarna granskar hålen och de numrerade alternativen, och identifierar sedan vilket alternativ som fyller varje lucka baserat på färg, mönster och visuella detaljer.',
     },
     {
       question: 'Vilka 6 bitformer finns tillgängliga?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar svårighetsinställningarna?',
       answer:
-        'Svårigheten kontrolleras av två oberoende inställningar. Antal saknade bitar (1–5) bestämmer hur många hål som klipps ut från bilden — fler bitar innebär mer rumsligt resonemang. Antal lösningsalternativ (2–6) bestämmer hur många numrerade val eleverna utvärderar — när alternativ överstiger saknade bitar är de extra distraktorer som kräver noggrann visuell jämförelse. Ett pussel med 1 saknad bit och 2 alternativ är lätt; 5 saknade bitar med 6 alternativ är utmanande.',
+        'Svårigheten kontrolleras av två oberoende inställningar. Antal saknade bitar (1–5) bestämmer hur många hål som klipps ut från bilden — fler bitar innebär mer rumsligt resonemang. Antal lösningsalternativ (2–6) bestämmer hur många numrerade val användarna utvärderar — när alternativ överstiger saknade bitar är de extra distraktorer som kräver noggrann visuell jämförelse. Ett pussel med 1 saknad bit och 2 alternativ är lätt; 5 saknade bitar med 6 alternativ är utmanande.',
     },
     {
       question: 'Vad är distraktorbitar och hur genereras de?',
       answer:
-        'Distraktorbitar är extra lösningsalternativ som inte matchar något hål i pusslet. De extraheras från olika områden av samma källbild med upp till 200 placeringsförsök vardera, vilket säkerställer att de inte överlappar med korrekta bitar. Distraktorer förhindrar eleverna från att lösa genom eliminering enbart — de måste noggrant jämföra färger, mönster och visuella detaljer för att skilja korrekta alternativ från liknande alternativ.',
+        'Distraktorbitar är extra lösningsalternativ som inte matchar något hål i pusslet. De extraheras från olika områden av samma källbild med upp till 200 placeringsförsök vardera, vilket säkerställer att de inte överlappar med korrekta bitar. Distraktorer förhindrar användarna från att lösa genom eliminering enbart — de måste noggrant jämföra färger, mönster och visuella detaljer för att skilja korrekta alternativ från liknande alternativ.',
     },
     {
       question: 'Hur fungerar den smarta bitextraktions-algoritmen?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja saknade bitar-pussel skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina saknade bitar-pussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. De 6 bitformerna, konfigurerbar svårighet, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara pusselprodukter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina saknade bitar-pussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De 6 bitformerna, konfigurerbar svårighet, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara pusselprodukter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'andra-klass-utskriftsbara-ideer',
-      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande Elever',
+      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande användare',
     },
     {
       pageType: 'start',

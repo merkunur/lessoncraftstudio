@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Woordzoeker Werkblad Maker',
     tagline: 'Maak verborgen-woorden rasterpuzzels met instelbare formaten, richtingsbesturing en taalgebonden vulletters in 11 talen',
-    description: 'Ontwerp professionele woordzoeker werkbladen waarbij verborgen woorden zijn ingebed in een raster van willekeurige vulletters en leerlingen rijen, kolommen en diagonalen scannen om ze te vinden — het klassieke puzzelformaat dat nooit uit de mode raakt. Deze tool geeft je nauwkeurige controle over de moeilijkheid via twee onafhankelijke assen: rastergrootte (instelbaar van 5×5 tot 30×30 met rijen en kolommen apart ingesteld) en woordrichtingsschakelaars (diagonale woorden aan of uit, achterwaartse woorden aan of uit) die twee tot acht mogelijke plaatsingsrichtingen creëren. Kies uit drie inhoudsbronnen: Afbeeldingenbibliotheek haalt uit meer dan 3100 illustraties over 104 thematische collecties, Handmatige Bewerkingsmodus laat je afbeeldingen selecteren en weergavenamen aanpassen, en Aangepaste Woordenlijst laat je tot 8 woorden direct typen voor tekst-only puzzels. Drie weergavemodi — Woorden + Afbeeldingen, Alleen Afbeeldingen en Alleen Woorden — bepalen wat als aanwijzingen naast het raster verschijnt. De opvallende functie is taalgebonden alfabetvulling: wanneer je van taal wisselt, veranderen de rastervulletters om bij de tekenset van die taal te passen met gewogen frequentieverdelingen. Duitse rasters bevatten ä, ö, ü en ß op natuurlijke frequenties. Franse rasters bevatten é, è, ç, à. Nederlandse rasters gebruiken het volledige Nederlandse alfabet met correcte letterfrequenties. Elke taal krijgt authentieke vultekens, waardoor puzzels taalkundig echt zijn in plaats van duidelijk Engels-gegenereerd. Een kleurgecodeerd antwoordblad markeert elk gevonden woord in een van zes wisselende kleuren — roze, blauw, groen, goud, koraal en lavendel — voor directe visuele verificatie. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Kies uit 7 lettertypefamilies, voeg naam- en datumvelden toe, schakel grijstinten in voor inktbesparende uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Ontwerp professionele woordzoeker werkbladen waarbij verborgen woorden zijn ingebed in een raster van willekeurige vulletters en gebruikers rijen, kolommen en diagonalen scannen om ze te vinden — het klassieke puzzelformaat dat nooit uit de mode raakt. Deze tool geeft je nauwkeurige controle over de moeilijkheid via twee onafhankelijke assen: rastergrootte (instelbaar van 5×5 tot 30×30 met rijen en kolommen apart ingesteld) en woordrichtingsschakelaars (diagonale woorden aan of uit, achterwaartse woorden aan of uit) die twee tot acht mogelijke plaatsingsrichtingen creëren. Kies uit drie inhoudsbronnen: Afbeeldingenbibliotheek haalt uit meer dan 3100 illustraties over 104 thematische collecties, Handmatige Bewerkingsmodus laat je afbeeldingen selecteren en weergavenamen aanpassen, en Aangepaste Woordenlijst laat je tot 8 woorden direct typen voor tekst-only puzzels. Drie weergavemodi — Woorden + Afbeeldingen, Alleen Afbeeldingen en Alleen Woorden — bepalen wat als aanwijzingen naast het raster verschijnt. De opvallende functie is taalgebonden alfabetvulling: wanneer je van taal wisselt, veranderen de rastervulletters om bij de tekenset van die taal te passen met gewogen frequentieverdelingen. Duitse rasters bevatten ä, ö, ü en ß op natuurlijke frequenties. Franse rasters bevatten é, è, ç, à. Nederlandse rasters gebruiken het volledige Nederlandse alfabet met correcte letterfrequenties. Elke taal krijgt authentieke vultekens, waardoor puzzels taalkundig echt zijn in plaats van duidelijk Engels-gegenereerd. Een kleurgecodeerd antwoordblad markeert elk gevonden woord in een van zes wisselende kleuren — roze, blauw, groen, goud, koraal en lavendel — voor directe visuele verificatie. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Kies uit 7 lettertypefamilies, voeg naam- en datumvelden toe, schakel grijstinten in voor inktbesparende uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configureer rastergrootte en afmetingen',
-        description: 'Stel rijen en kolommen onafhankelijk in van 5 tot 30. De standaard is 12×12. Een 5×5 raster met 25 cellen creëert een snelle, toegankelijke puzzel voor jonge leerlingen. Een 20×20 of 30×30 raster creëert een dichte, uitdagende zoektocht voor ervaren puzzelaars. Rastergrootte afstemmen op je doelgroep: klein voor kleuters, gemiddeld voor basisschoolleerlingen, groot voor volwassenen en puzzelliefhebbers.',
+        description: 'Stel rijen en kolommen onafhankelijk in van 5 tot 30. De standaard is 12×12. Een 5×5 raster met 25 cellen creëert een snelle, toegankelijke puzzel voor jonge gebruikers. Een 20×20 of 30×30 raster creëert een dichte, uitdagende zoektocht voor ervaren puzzelaars. Rastergrootte afstemmen op je doelgroep: klein voor kleuters, gemiddeld voor basisschoolgebruikers, groot voor volwassenen en puzzelliefhebbers.',
       },
       {
         title: 'Schakel woordrichtingsbesturing in',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Woordzoeker Puzzelpakketten',
-      description: 'Maak sets van 10–20 woordzoeker werkbladen gegroepeerd per thema — boerderijdieren, zeedieren, voertuigen, voedsel, feestdagen en meer. Varieer de rastergrootte en richtingsinstellingen over de set voor progressieve moeilijkheid: begin met een 8×8 alleen-horizontaal raster en bouw op naar een 16×16 diagonaal-en-achterwaarts raster. Voeg kleurgecodeerde antwoordbladen toe voor elke puzzel. Bundel per thema en verkoop op Etsy.nl of TPT. Positioneer op €3–€5 per thema en €8–€12 voor megabundels.',
+      description: 'Maak sets van 10–20 woordzoeker werkbladen gegroepeerd per thema — boerderijdieren, zeedieren, voertuigen, voedsel, feestdagen en meer. Varieer de rastergrootte en richtingsinstellingen over de set voor progressieve moeilijkheid: begin met een 8×8 alleen-horizontaal raster en bouw op naar een 16×16 diagonaal-en-achterwaarts raster. Voeg kleurgecodeerde antwoordbladen toe voor elke puzzel. Bundel per thema en verkoop op Etsy.nl of Gumroad. Positioneer op €3–€5 per thema en €8–€12 voor megabundels.',
     },
     {
       title: 'KDP Woordzoeker Puzzelboeken',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gedifferentieerde Woordenschat Rastersets',
-      description: 'Bouw genivelleerde woordzoeker oefeningsets met rastergrootte en richtingsbesturing als differentiatieassen. Niveau 1: 8×8 raster, alleen horizontaal, 4 woorden. Niveau 2: 12×12 raster, horizontaal en verticaal, 6 woorden. Niveau 3: 16×16, diagonalen ingeschakeld, 8 woorden. Niveau 4: 20×20, diagonalen en achterwaarts, 8 woorden. Verpak elk niveau met antwoordbladen en een voortgangsregistratieblad. Leerkrachten betalen premiumprijzen voor gedifferentieerde bronnen.',
+      description: 'Bouw genivelleerde woordzoeker oefeningsets met rastergrootte en richtingsbesturing als getrapte productpakkettenassen. Niveau 1: 8×8 raster, alleen horizontaal, 4 woorden. Niveau 2: 12×12 raster, horizontaal en verticaal, 6 woorden. Niveau 3: 16×16, diagonalen ingeschakeld, 8 woorden. Niveau 4: 20×20, diagonalen en achterwaarts, 8 woorden. Verpak elk niveau met antwoordbladen en een voortgangsregistratieblad. verkopers betalen premiumprijzen voor gedifferentieerde bronnen.',
     },
     {
       title: 'Meertalige Woordzoeker Producten',
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: 'Aangepaste Woordenschat Woordzoekers',
-      description: 'Gebruik de Aangepaste Woordenlijst modus om vakspecifieke woordenschat direct te typen: wetenschappelijke termen, wekelijkse spellingwoorden, zichtwoordlijsten, aardrijkskundige woordenschat of vreemde taal oefening. Geen afbeeldingen nodig — de tool genereert een volledig woordzoeker raster vanuit je getypte woorden. Maak gerichte puzzelwerkbladen voor elk curriculum of nichethema.',
+      description: 'Gebruik de Aangepaste Woordenlijst modus om vakspecifieke woordenschat direct te typen: wetenschappelijke termen, wekelijkse spellingwoorden, zichtwoordlijsten, aardrijkskundige woordenschat of vreemde taal oefening. Geen afbeeldingen nodig — de tool genereert een volledig woordzoeker raster vanuit je getypte woorden. Maak gerichte puzzelwerkbladen voor elk productcatalogus of nichethema.',
     },
     {
       title: 'Seizoens- en Feestdag Puzzelbundels',
-      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Woordzoeker" pakket met feestelijke woordenschat in progressief grotere rasters verkoopt sterk in november. Kerstmis, terug-naar-school, lente en zomerthema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en TPT. Combineer kleine makkelijke rasters voor jongere leerlingen met grote uitdagende rasters voor oudere kinderen in één seizoensbundel.',
+      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Woordzoeker" pakket met feestelijke woordenschat in progressief grotere rasters verkoopt sterk in november. Kerstmis, terug-naar-school, lente en zomerthema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad. Combineer kleine makkelijke rasters voor jongere gebruikers met grote uitdagende rasters voor oudere kinderen in één seizoensbundel.',
     },
   ],
 
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Woordenschatcentra',
-      description: 'Upload woordzoeker werkbladpakketten naar TPT georganiseerd per thema en moeilijkheid. Voeg vier moeilijkheidsniveaus per thema toe met rastergrootte en richtingsbesturing als differentiatieassen. Verpak met kleurgecodeerde antwoordbladen en leerling-voortgangsregistratiebladen. Leerkrachten zoeken frequent naar "woordenschat activiteiten" en "woordzoeker werkbladen". De instelbare moeilijkheid betekent dat één product een heel klaslokaal met gemengde vaardigheden bedient.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Woordenschatcentra',
+      description: 'Upload woordzoeker werkbladpakketten naar Gumroad georganiseerd per thema en moeilijkheid. Voeg vier moeilijkheidsniveaus per thema toe met rastergrootte en richtingsbesturing als getrapte productpakkettenassen. Verpak met kleurgecodeerde antwoordbladen en gebruiker-voortgangsregistratiebladen. verkopers zoeken frequent naar "woordenschat activiteiten" en "woordzoeker werkbladen". De instelbare moeilijkheid betekent dat één product een heel winkel met gemengde vaardigheden bedient.',
+      platform: 'Gumroad',
     },
     {
       title: 'Meertalige Puzzelwinkel',
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Gebruik Rastergrootte als Primaire Moeilijkheidsregeling',
-      description: 'Een 5×5 raster met 25 cellen is een snelle, makkelijke puzzel waarbij woorden vrijwel direct worden gevonden. Een 20×20 raster met 400 cellen vereist aanhoudend visueel scannen. Gebruik kleine rasters voor kleuters en beginners, gemiddelde rasters voor basisschoolleerlingen en grote rasters voor volwassenen en puzzelliefhebbers. Rastergrootte beïnvloedt de moeilijkheid meer dan welke andere afzonderlijke instelling ook.',
+      description: 'Een 5×5 raster met 25 cellen is een snelle, makkelijke puzzel waarbij woorden vrijwel direct worden gevonden. Een 20×20 raster met 400 cellen vereist aanhoudend visueel scannen. Gebruik kleine rasters voor kleuters en beginners, gemiddelde rasters voor basisschoolgebruikers en grote rasters voor volwassenen en puzzelliefhebbers. Rastergrootte beïnvloedt de moeilijkheid meer dan welke andere afzonderlijke instelling ook.',
     },
     {
       title: 'Laag Richtingsbesturing voor Progressieve Uitdaging',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gebruik Weergavemodi Strategisch',
-      description: 'Woorden + Afbeeldingen is de standaard — uitstekend voor woordenschatopbouw. Alleen Afbeeldingen voegt een extra uitdaging toe: leerlingen moeten identificeren wat het plaatje voorstelt vóórdat ze het woord kunnen zoeken. Alleen Woorden maakt klassieke tekstgebaseerde woordzoekers zonder visuele aanwijzingen. Bied alle drie modi als varianten van hetzelfde themapakket aan om je productbereik te verdrievoudigen vanuit één ontwerpsessie.',
+      description: 'Woorden + Afbeeldingen is de standaard — uitstekend voor woordenschatopbouw. Alleen Afbeeldingen voegt een extra uitdaging toe: gebruikers moeten identificeren wat het plaatje voorstelt vóórdat ze het woord kunnen zoeken. Alleen Woorden maakt klassieke tekstgebaseerde woordzoekers zonder visuele aanwijzingen. Bied alle drie modi als varianten van hetzelfde themapakket aan om je productbereik te verdrievoudigen vanuit één ontwerpsessie.',
     },
     {
       title: 'Gebruik Grijstinten voor KDP en Bulkdruk',
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kleurgecodeerde Antwoordbladen Voegen Professionele Waarde Toe',
-      description: 'Het zeskleuren antwoordblad — roze, blauw, groen, goud, koraal, lavendel — markeert elk woord onderscheidend, zelfs wanneer woorden kruisen of overlappen in het raster. Voeg altijd antwoordbladen toe aan je productbundels. Leerkrachten verwachten ze, ouders waarderen ze, en het kleurgecodeerde formaat ziet er professioneel uit in je vermeldingsvoorbeelden vergeleken met eenvoudige omcirkel-het-woord antwoordbladen.',
+      description: 'Het zeskleuren antwoordblad — roze, blauw, groen, goud, koraal, lavendel — markeert elk woord onderscheidend, zelfs wanneer woorden kruisen of overlappen in het raster. Voeg altijd antwoordbladen toe aan je productbundels. verkopers verwachten ze, ouders waarderen ze, en het kleurgecodeerde formaat ziet er professioneel uit in je vermeldingsvoorbeelden vergeleken met eenvoudige omcirkel-het-woord antwoordbladen.',
     },
     {
       title: 'Combineer met Andere Geletterdheidstools voor Premium Bundels',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hoe werkt het woordzoeker puzzelformaat?',
-      answer: 'Verborgen woorden zijn ingebed in een raster van willekeurige vulletters. Leerlingen scannen rijen, kolommen en optioneel diagonalen om elk woord te vinden, en omcirkelen of markeren het vervolgens. De rastervulletters worden elke keer willekeurig gegenereerd, dus elke puzzel is uniek zelfs met dezelfde woordenlijst. Tot 8 woorden kunnen in één raster worden geplaatst.',
+      answer: 'Verborgen woorden zijn ingebed in een raster van willekeurige vulletters. gebruikers scannen rijen, kolommen en optioneel diagonalen om elk woord te vinden, en omcirkelen of markeren het vervolgens. De rastervulletters worden elke keer willekeurig gegenereerd, dus elke puzzel is uniek zelfs met dezelfde woordenlijst. Tot 8 woorden kunnen in één raster worden geplaatst.',
     },
     {
       question: 'Welke rastergroottes zijn beschikbaar?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hoe verschilt woordzoeker van letterpuzzel en raad-het-woord?',
-      answer: 'Woordzoeker is een visuele scanpuzzel — leerlingen vinden verborgen woorden ingebed in een raster van willekeurige letters door rijen, kolommen en diagonalen te scannen. Letterpuzzel geeft leerlingen gehusselde lettertegels om in de juiste spelling te herschikken. Raad het Woord toont lege plekken op vaste posities en leerlingen vullen de ontbrekende letters in. Elk formaat oefent een andere cognitieve vaardigheid en ze passen goed samen in gebundelde producten.',
+      answer: 'Woordzoeker is een visuele scanpuzzel — gebruikers vinden verborgen woorden ingebed in een raster van willekeurige letters door rijen, kolommen en diagonalen te scannen. Letterpuzzel geeft gebruikers gehusselde lettertegels om in de juiste spelling te herschikken. Raad het Woord toont lege plekken op vaste posities en gebruikers vullen de ontbrekende letters in. Elk formaat oefent een andere cognitieve vaardigheid en ze passen goed samen in gebundelde producten.',
     },
     {
       question: 'Welke talen worden ondersteund?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan ik werkbladen gemaakt met deze tool commercieel verkopen?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
       question: 'Welke bestandsformaten kan ik downloaden?',

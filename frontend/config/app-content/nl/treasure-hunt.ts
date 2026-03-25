@@ -7,7 +7,7 @@ const content: AppContent = {
       'printbare schattenjacht padzoek-maker voor Etsy verkopers',
       'richtingspuzzel werkblad generator voor KDP uitgevers',
       'coördinatenraster schattenjacht maker met commerciële licentie',
-      'schattenjacht werkbladen verkopen op Teachers Pay Teachers',
+      'schattenjacht werkbladen verkopen op Gumroad',
     ],
     lsiKeywords: [
       'digitale schattenjacht printables online bedrijf',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Schattenjacht Generator | Maak & Verkoop Padzoekpuzzels',
     metaDescription:
-      'Maak schattenjacht werkbladen om te verkopen op Etsy, KDP & TPT. 5×5 coördinatenraster, twee richtingstypen, automatisch antwoordblad, 104 thema\'s.',
+      'Maak schattenjacht werkbladen om te verkopen op Etsy, KDP & Gumroad. 5×5 coördinatenraster, twee richtingstypen, automatisch antwoordblad, 104 thema\'s.',
   },
 
   hero: {
@@ -24,7 +24,7 @@ const content: AppContent = {
     tagline:
       'Genereer richtingsgebaseerde padzoekpuzzels op een 5×5 coördinatenraster — twee richtingswoordenschatten (Basis: omhoog/omlaag/links/rechts en Kompas: noord/zuid/oost/west), volledig gelokaliseerde richtingsaanwijzingen in 11 talen, automatisch gegenereerd antwoordblad met gemarkeerde schatlocatie, en schattenjacht-thema kopteksten over 104 beeldcollecties.',
     description:
-      'Bouw professionele schattenjacht werkbladen waarbij leerlingen opeenvolgende bewegingsaanwijzingen volgen om verborgen schatten te vinden op een 5×5 letter-nummer coördinatenraster (A–E rijen, 1–5 kolommen). Elke puzzel verspreidt 6 thematische afbeeldingen over het raster als oriëntatiepunten, genereert vervolgens een startpositie en precies 4 richtingsbewegingen die naar de schatcel leiden. Kies tussen twee richtingswoordenschatten: Basismodus gebruikt omhoog, omlaag, links en rechts voor jonge leerlingen die fundamentele ruimtelijke woordenschat opbouwen, terwijl Kompasmodus noord, zuid, oost en west gebruikt voor gevorderde ruimtelijke oriëntatie. De Schattenjacht Generator is taalgebonden: het wisselen van taal verandert zowel de richtingsinstructietekst als de afbeeldingsinhoud, met alle richtingen volledig vertaald in 11 ondersteunde talen. Elke puzzel bevat een automatisch gegenereerde gelokaliseerde koptekst met een blauwgroene achtergrond (#2C8C7C), gouden titel (#D4A017) in Fredoka-lettertype en zandkleurige beschrijving in Quicksand — met "Schattenjacht" en "Volg de aanwijzingen en vind de schat!" in de geselecteerde taal. Het dubbele canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad — het antwoordblad markeert de uiteindelijke schatcel in lichtgeel zodat je deze nooit handmatig hoeft aan te duiden. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 talen voor gelokaliseerde richtingen en afbeeldingen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu schattenjacht bundels verkoopt op Etsy.nl, richtingsvaardigheden werkboeken samenstelt voor Amazon KDP, of coördinatenraster activiteiten maakt voor TPT — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Bouw professionele schattenjacht werkbladen waarbij gebruikers opeenvolgende bewegingsaanwijzingen volgen om verborgen schatten te vinden op een 5×5 letter-nummer coördinatenraster (A–E rijen, 1–5 kolommen). Elke puzzel verspreidt 6 thematische afbeeldingen over het raster als oriëntatiepunten, genereert vervolgens een startpositie en precies 4 richtingsbewegingen die naar de schatcel leiden. Kies tussen twee richtingswoordenschatten: Basismodus gebruikt omhoog, omlaag, links en rechts voor jonge gebruikers die fundamentele ruimtelijke woordenschat opbouwen, terwijl Kompasmodus noord, zuid, oost en west gebruikt voor gevorderde ruimtelijke oriëntatie. De Schattenjacht Generator is taalgebonden: het wisselen van taal verandert zowel de richtingsinstructietekst als de afbeeldingsinhoud, met alle richtingen volledig vertaald in 11 ondersteunde talen. Elke puzzel bevat een automatisch gegenereerde gelokaliseerde koptekst met een blauwgroene achtergrond (#2C8C7C), gouden titel (#D4A017) in Fredoka-lettertype en zandkleurige beschrijving in Quicksand — met "Schattenjacht" en "Volg de aanwijzingen en vind de schat!" in de geselecteerde taal. Het dubbele canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad — het antwoordblad markeert de uiteindelijke schatcel in lichtgeel zodat je deze nooit handmatig hoeft aan te duiden. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 talen voor gelokaliseerde richtingen en afbeeldingen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu schattenjacht bundels verkoopt op Etsy.nl, richtingsvaardigheden werkboeken samenstelt voor Amazon KDP, of coördinatenraster activiteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -38,12 +38,12 @@ const content: AppContent = {
       {
         title: 'Kies je richtingstype',
         description:
-          'Schakel in het paneel Puzzel-instelling tussen twee richtingswoordenschatten. Basismodus gebruikt omhoog, omlaag, links en rechts — ideaal voor kleuters en groep 1–2 leerlingen die fundamentele ruimtelijke woordenschat opbouwen. Kompasmodus gebruikt noord, zuid, oost en west — geschikt voor groep 3 en hoger, waarbij kompasrichtingen en kaartleesvaardigheden worden geïntroduceerd. Beide richtingssets zijn volledig vertaald in alle 11 ondersteunde talen, dus het wisselen van de taalselector werkt de richtingsaanwijzingstekst op het werkblad bij. Voor Nederlandse verkopers: Basismodus sluit aan bij de leerdoelen voor ruimtelijke oriëntatie in groep 1–3, terwijl Kompasmodus aansluit bij de aardrijkskundelessen in groep 4–6.',
+          'Schakel in het paneel Puzzel-instelling tussen twee richtingswoordenschatten. Basismodus gebruikt omhoog, omlaag, links en rechts — ideaal voor kleuters en groep 1–2 gebruikers die fundamentele ruimtelijke woordenschat opbouwen. Kompasmodus gebruikt noord, zuid, oost en west — geschikt voor groep 3 en hoger, waarbij kompasrichtingen en kaartleesvaardigheden worden geïntroduceerd. Beide richtingssets zijn volledig vertaald in alle 11 ondersteunde talen, dus het wisselen van de taalselector werkt de richtingsaanwijzingstekst op het werkblad bij. Voor Nederlandse verkopers: Basismodus sluit aan bij de productdoelen voor ruimtelijke oriëntatie in groep 1–3, terwijl Kompasmodus aansluit bij de aardrijkskundelessen in groep 4–6.',
       },
       {
         title: 'Selecteer afbeeldingen voor het raster',
         description:
-          'Kies hoe je het 5×5 raster vult met 6 thematische afbeeldingen. Genereren vanuit Thema (standaard) selecteert automatisch 6 willekeurige afbeeldingen uit het gekozen thema en verspreidt ze over het raster. Handmatige Afbeeldingsselectie laat je door 104 thematische collecties met meer dan 3100 kleurrijke illustraties bladeren — dieren, voedsel, voertuigen, natuur, feestdagen en tientallen meer — en klikken om precies 6 afbeeldingen te selecteren. Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. Voor Nederlandse verkopers zijn thema\'s als boerderijdieren, Sinterklaas, seizoenen en piraten bijzonder populair bij Nederlandse ouders en leerkrachten.',
+          'Kies hoe je het 5×5 raster vult met 6 thematische afbeeldingen. Genereren vanuit Thema (standaard) selecteert automatisch 6 willekeurige afbeeldingen uit het gekozen thema en verspreidt ze over het raster. Handmatige Afbeeldingsselectie laat je door 104 thematische collecties met meer dan 3100 kleurrijke illustraties bladeren — dieren, voedsel, voertuigen, natuur, feestdagen en tientallen meer — en klikken om precies 6 afbeeldingen te selecteren. Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. Voor Nederlandse verkopers zijn thema\'s als boerderijdieren, Sinterklaas, seizoenen en piraten bijzonder populair bij Nederlandse ouders en verkopers.',
       },
       {
         title: 'Genereer de schattenjacht puzzel',
@@ -53,7 +53,7 @@ const content: AppContent = {
       {
         title: 'Bekijk het antwoordblad en download',
         description:
-          'Schakel naar het tabblad Antwoordblad om de oplossing te zien met de uiteindelijke schatcel gemarkeerd in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze omlijning. Download beide versies met de vier speciale knoppen in het dropdownmenu: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF. Bestanden worden geëxporteerd op 300 DPI voor printklare kwaliteit. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden. Voor verkopers die schattenjacht bundels samenstellen: het automatische antwoordblad bespaart enorm veel tijd — 20 puzzels met antwoordbladen in dezelfde tijd die het handmatig oplossen en markeren van 5 puzzels zou kosten.',
+          'Schakel naar het tabblad Antwoordblad om de oplossing te zien met de uiteindelijke schatcel gemarkeerd in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze omlijning. Download beide versies met de vier speciale knoppen in het dropdownmenu: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF. Bestanden worden geëxporteerd op 300 DPI voor printklare kwaliteit. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden. Voor verkopers die schattenjacht bundels samenstellen: het automatische antwoordblad bespaart enorm veel tijd — 20 puzzels met antwoordbladen in dezelfde tijd die het handmatig oplossen en markeren van 5 puzzels zou kosten.',
       },
     ],
   },
@@ -69,12 +69,12 @@ const content: AppContent = {
       {
         title: 'Twee Richtingstypen: Basis (Omhoog/Omlaag/Links/Rechts) en Kompas (Noord/Zuid/Oost/West)',
         description:
-          'Schakel tussen twee richtingswoordenschatten om aan te sluiten bij je doelgroep. Basismodus gebruikt omhoog, omlaag, links en rechts — vertrouwde richtingswoorden voor jonge leerlingen die ruimtelijke woordenschat opbouwen. Kompasmodus introduceert noord, zuid, oost en west voor kompasrichtingoefening en kaartleesgereedheid. Beide woordenschatten produceren dezelfde 4-bewegingen puzzelstructuur op hetzelfde 5×5 raster, waardoor je progressieve moeilijkheidssets kunt maken: begin met Basis richtingswerkbladen en ga door naar Kompas richtingswerkbladen met identieke thema\'s en afbeeldingen. Voor het Nederlandse basisonderwijs: Basismodus sluit aan bij de leerdoelen voor ruimtelijke oriëntatie in groep 1–3 (kleuterschool en onderbouw), terwijl Kompasmodus aansluit bij de aardrijkskundelessen over kompasrichtingen in groep 4–6.',
+          'Schakel tussen twee richtingswoordenschatten om aan te sluiten bij je doelgroep. Basismodus gebruikt omhoog, omlaag, links en rechts — vertrouwde richtingswoorden voor jonge gebruikers die ruimtelijke woordenschat opbouwen. Kompasmodus introduceert noord, zuid, oost en west voor kompasrichtingoefening en kaartleesgereedheid. Beide woordenschatten produceren dezelfde 4-bewegingen puzzelstructuur op hetzelfde 5×5 raster, waardoor je progressieve moeilijkheidssets kunt maken: begin met Basis richtingswerkbladen en ga door naar Kompas richtingswerkbladen met identieke thema\'s en afbeeldingen. Voor het Nederlandse basisonderwijs: Basismodus sluit aan bij de productdoelen voor ruimtelijke oriëntatie in groep 1–3 (kleuterschool en onderbouw), terwijl Kompasmodus aansluit bij de aardrijkskundelessen over kompasrichtingen in groep 4–6.',
       },
       {
         title: 'Automatisch Gegenereerd Antwoordblad met Gemarkeerde Schatlocatie',
         description:
-          'Elke schattenjacht puzzel genereert automatisch een bijbehorend antwoordblad op een apart canvastabblad. Het antwoordblad reproduceert exact dezelfde puzzelindeling en markeert de uiteindelijke schatcel in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze omlijning, waardoor de bestemming onmiddellijk zichtbaar is. Geen handmatig markeren, geen apart bestand maken — het antwoordblad blijft altijd perfect gesynchroniseerd met de puzzel. Deze dubbele canvasbenadering bespaart aanzienlijke productietijd voor verkopers die schattenjacht bundels samenstellen waarbij elk werkblad een eigen antwoordblad nodig heeft. Voor Nederlandse TPT-verkopers: leerkrachten verwachten standaard een antwoordblad bij elke puzzelactiviteit — producten zonder antwoordblad krijgen lagere beoordelingen.',
+          'Elke schattenjacht puzzel genereert automatisch een bijbehorend antwoordblad op een apart canvastabblad. Het antwoordblad reproduceert exact dezelfde puzzelindeling en markeert de uiteindelijke schatcel in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze omlijning, waardoor de bestemming onmiddellijk zichtbaar is. Geen handmatig markeren, geen apart bestand maken — het antwoordblad blijft altijd perfect gesynchroniseerd met de puzzel. Deze dubbele canvasbenadering bespaart aanzienlijke productietijd voor verkopers die schattenjacht bundels samenstellen waarbij elk werkblad een eigen antwoordblad nodig heeft. Voor Nederlandse Gumroad-verkopers: verkopers verwachten standaard een antwoordblad bij elke puzzelactiviteit — producten zonder antwoordblad krijgen lagere beoordelingen.',
       },
       {
         title: 'Volledig Gelokaliseerde Richtingsaanwijzingen in 11 Talen',
@@ -84,7 +84,7 @@ const content: AppContent = {
       {
         title: 'Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties',
         description:
-          'Blader door 104 thematische beeldcollecties met dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die het 5×5 raster vullen als visuele oriëntatiepunten. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. Klik op een afbeelding om deze aan je puzzel toe te voegen. De Commerciële licentie bevat 10 kleurrijke thema\'s om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema\'s voor maximale creatieve variatie over alle schattenjacht puzzels. Voor Nederlandse verkopers op Etsy.nl: thema\'s als piraten, boerderijdieren, Sinterklaas en zeeleven zijn bijzonder populair bij Nederlandse ouders en leerkrachten.',
+          'Blader door 104 thematische beeldcollecties met dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die het 5×5 raster vullen als visuele oriëntatiepunten. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. Klik op een afbeelding om deze aan je puzzel toe te voegen. De Commerciële licentie bevat 10 kleurrijke thema\'s om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema\'s voor maximale creatieve variatie over alle schattenjacht puzzels. Voor Nederlandse verkopers op Etsy.nl: thema\'s als piraten, boerderijdieren, Sinterklaas en zeeleven zijn bijzonder populair bij Nederlandse ouders en verkopers.',
       },
       {
         title: 'Schattenjacht-Thema Koptekst met Gouden Titel in 11 Talen',
@@ -122,20 +122,20 @@ const content: AppContent = {
       {
         title: 'Meertalige Schattenjacht Sets met Gelokaliseerde Richtingen',
         description:
-          'Benut de volledig gelokaliseerde richtingsaanwijzingen om schattenjacht werkbladen in 11 talen te maken. Dezelfde puzzelstructuur produceert authentieke moedertaal-inhoud wanneer je van taal wisselt — richtingen, instructies en afbeeldingslabels worden allemaal automatisch bijgewerkt. Maak meertalige schattenjacht bundels waarbij elke taalversie dezelfde thema-afbeeldingen gebruikt maar gelokaliseerde richtingstekst. Dit is waardevol voor NT2-klaslokalen die richtingswoordenschat onderwijzen, tweetalige gezinnen en internationale thuisonderwijsprogramma\'s. Verkoop taalspecifieke sets of meertalige megapakketten tegen premiumprijzen. Voor Nederlandse verkopers: een Nederlands–Engels tweetalig schattenjacht pakket is bijzonder populair bij ouders die hun kinderen tweetalig opvoeden — kinderen leren richtingswoorden in beide talen terwijl ze dezelfde leuke puzzels oplossen.',
-        platform: 'Etsy / TPT (meertalige markt)',
+          'Benut de volledig gelokaliseerde richtingsaanwijzingen om schattenjacht werkbladen in 11 talen te maken. Dezelfde puzzelstructuur produceert authentieke moedertaal-inhoud wanneer je van taal wisselt — richtingen, instructies en afbeeldingslabels worden allemaal automatisch bijgewerkt. Maak meertalige schattenjacht bundels waarbij elke taalversie dezelfde thema-afbeeldingen gebruikt maar gelokaliseerde richtingstekst. Dit is waardevol voor NT2-winkels die richtingswoordenschat onderwijzen, tweetalige gezinnen en internationale thuisonderwijsprogramma\'s. Verkoop taalspecifieke sets of meertalige megapakketten tegen premiumprijzen. Voor Nederlandse verkopers: een Nederlands–Engels tweetalig schattenjacht pakket is bijzonder populair bij ouders die hun kinderen tweetalig opvoeden — kinderen leren richtingswoorden in beide talen terwijl ze dezelfde leuke puzzels oplossen.',
+        platform: 'Etsy / Gumroad (meertalige markt)',
       },
       {
-        title: 'Coördinatenraster Activiteitenpakketten voor TPT',
+        title: 'Coördinatenraster Activiteitenpakketten voor Gumroad',
         description:
-          'Bouw kant-en-klare coördinatenraster activiteitensets die ruimtelijk redeneren en kaartvaardigheden onderwijzen. Het 5×5 letter-nummer raster (A–E rijen, 1–5 kolommen) introduceert leerlingen in coördinatensystemen die worden gebruikt in aardrijkskunde, wiskunde en natuurkunde. Leerkrachten die TPT doorzoeken voor coördinatenraster activiteiten waarderen werkbladen met duidelijke visuele rasters, opeenvolgende instructies en gedrukte antwoordbladen. Maak curriculumgerichte sets: koppel Basis richtingswerkbladen met Kompas versies voor gedifferentieerd onderwijs. Elke set bevat leerlingwerkbladen en antwoordbladen in zowel PDF- als JPEG-formaat. Voor het Nederlandse basisonderwijs: coördinatenraster activiteiten sluiten aan bij de rekenleerdoelen voor ruimtelijke oriëntatie in groep 3–6.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw kant-en-klare coördinatenraster activiteitensets die ruimtelijk redeneren en kaartvaardigheden onderwijzen. Het 5×5 letter-nummer raster (A–E rijen, 1–5 kolommen) introduceert gebruikers in coördinatensystemen die worden gebruikt in aardrijkskunde, wiskunde en natuurkunde. verkopers die Gumroad doorzoeken voor coördinatenraster activiteiten waarderen werkbladen met duidelijke visuele rasters, opeenvolgende instructies en gedrukte antwoordbladen. Maak productcatalogusgerichte sets: koppel Basis richtingswerkbladen met Kompas versies voor getrapte productpakketten. Elke set bevat werkbladen en antwoordbladen in zowel PDF- als JPEG-formaat. Voor het Nederlandse basisonderwijs: coördinatenraster activiteiten sluiten aan bij de rekenproductdoelen voor ruimtelijke oriëntatie in groep 3–6.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Seizoensgebonden Schattenjacht Collecties',
         description:
           'De 104 thematische beeldcollecties dekken elk seizoens- en feestdagmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden schattenjacht collecties die aansluiten bij piekverkoopperioden. Lanceer Halloween schattenjacht bundels in september, Sinterklaas puzzelcollecties in oktober, Kerstmis schattenjacht sets in november en Valentijnsdag puzzelpakketten in januari. Neem zowel Basis als Kompas richtingstypen op in elke seizoenset voor maximale waarde. Seizoensproducten rechtvaardigen hogere prijzen tijdens hun piekperioden en creëren natuurlijke redenen voor herhaalaankopen. Voor de Nederlandse markt: Sinterklaas-thema schattenjachten zijn bijzonder lucratief — dit is een uniek Nederlands/Belgisch feest waarvoor vrijwel geen Engelstalige concurrentie bestaat.',
-        platform: 'Etsy / Amazon KDP / TPT (seizoensgebonden)',
+        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
       },
     ],
   },
@@ -144,27 +144,27 @@ const content: AppContent = {
     {
       question: 'Wat is een schattenjacht werkblad en hoe werkt de puzzel?',
       answer:
-        'Een schattenjacht werkblad is een padzoekpuzzel op een 5×5 coördinatenraster gelabeld met letterrijen (A–E) en nummerkolommen (1–5). Zes thematische afbeeldingen zijn verspreid over het raster als visuele oriëntatiepunten. Het werkblad biedt 5 instructieregels: een startpositie (bijv. "Begin bij A3"), precies 4 richtingsbewegingen (bijv. "Ga omlaag 2 vakjes"), en een slotvraag "Waar is de schat?" Leerlingen volgen de opeenvolgende aanwijzingen op het raster om te bepalen welke cel de schat bevat.',
+        'Een schattenjacht werkblad is een padzoekpuzzel op een 5×5 coördinatenraster gelabeld met letterrijen (A–E) en nummerkolommen (1–5). Zes thematische afbeeldingen zijn verspreid over het raster als visuele oriëntatiepunten. Het werkblad biedt 5 instructieregels: een startpositie (bijv. "Begin bij A3"), precies 4 richtingsbewegingen (bijv. "Ga omlaag 2 vakjes"), en een slotvraag "Waar is de schat?" gebruikers volgen de opeenvolgende aanwijzingen op het raster om te bepalen welke cel de schat bevat.',
     },
     {
       question: 'Hoe werkt het 5×5 coördinatenraster?',
       answer:
-        'Het raster bestaat uit 25 cellen gerangschikt in 5 rijen (gelabeld A tot en met E) en 5 kolommen (gelabeld 1 tot en met 5). Elke cel wordt geïdentificeerd door een letter-nummer coördinaat zoals A1, B3 of E5. Zes thematische afbeeldingen bezetten 6 van de 25 cellen als visuele oriëntatiepunten. De startpositie en alle 4 bewegingen blijven binnen de rastergrenzen (rijen A–E, kolommen 1–5), wat garandeert dat elke puzzel oplosbaar is. Dit letter-nummer coördinatensysteem introduceert leerlingen in de rasterreferentievaardigheden die worden gebruikt bij kaarten, grafieken en wiskunde.',
+        'Het raster bestaat uit 25 cellen gerangschikt in 5 rijen (gelabeld A tot en met E) en 5 kolommen (gelabeld 1 tot en met 5). Elke cel wordt geïdentificeerd door een letter-nummer coördinaat zoals A1, B3 of E5. Zes thematische afbeeldingen bezetten 6 van de 25 cellen als visuele oriëntatiepunten. De startpositie en alle 4 bewegingen blijven binnen de rastergrenzen (rijen A–E, kolommen 1–5), wat garandeert dat elke puzzel oplosbaar is. Dit letter-nummer coördinatensysteem introduceert gebruikers in de rasterreferentievaardigheden die worden gebruikt bij kaarten, grafieken en wiskunde.',
     },
     {
       question: 'Wat zijn de twee richtingstypen en hoe verschillen ze?',
       answer:
-        'Basismodus gebruikt omhoog, omlaag, links en rechts — vertrouwde richtingswoorden voor kleuters en groep 1–2 leerlingen die fundamentele ruimtelijke woordenschat opbouwen. Kompasmodus gebruikt noord, zuid, oost en west — kompasrichtingen geschikt voor groep 3 en hoger. Beide modi genereren dezelfde 4-bewegingen puzzelstructuur op hetzelfde 5×5 raster. De richtingstype-schakelaar laat je progressieve moeilijkheid creëren: begin met Basis richtingswerkbladen en ga door naar Kompas richtingswerkbladen met identieke thema\'s.',
+        'Basismodus gebruikt omhoog, omlaag, links en rechts — vertrouwde richtingswoorden voor kleuters en groep 1–2 gebruikers die fundamentele ruimtelijke woordenschat opbouwen. Kompasmodus gebruikt noord, zuid, oost en west — kompasrichtingen geschikt voor groep 3 en hoger. Beide modi genereren dezelfde 4-bewegingen puzzelstructuur op hetzelfde 5×5 raster. De richtingstype-schakelaar laat je progressieve moeilijkheid creëren: begin met Basis richtingswerkbladen en ga door naar Kompas richtingswerkbladen met identieke thema\'s.',
     },
     {
       question: 'Waarom heeft elke puzzel precies 4 bewegingen?',
       answer:
-        'De consistente 4-bewegingen structuur creëert een gestandaardiseerd puzzelformaat dat betrouwbaar werkt op het 5×5 raster. Vier bewegingen bieden genoeg complexiteit voor betekenisvol padzoeken zonder jongere leerlingen te overweldigen. Elke puzzel volgt hetzelfde 5-regels instructieformaat: startpositie, 4 opeenvolgende bewegingen en de "Waar is de schat?" vraag. Deze consistentie maakt schattenjacht werkbladen voorspelbaar voor leerlingen en gemakkelijk te verpakken in gestructureerde activiteitensets voor verkopers.',
+        'De consistente 4-bewegingen structuur creëert een gestandaardiseerd puzzelformaat dat betrouwbaar werkt op het 5×5 raster. Vier bewegingen bieden genoeg complexiteit voor betekenisvol padzoeken zonder jongere gebruikers te overweldigen. Elke puzzel volgt hetzelfde 5-regels instructieformaat: startpositie, 4 opeenvolgende bewegingen en de "Waar is de schat?" vraag. Deze consistentie maakt schattenjacht werkbladen voorspelbaar voor gebruikers en gemakkelijk te verpakken in gestructureerde activiteitensets voor verkopers.',
     },
     {
       question: 'Hoe worden de 6 afbeeldingen gebruikt in de puzzel?',
       answer:
-        'Zes thematische afbeeldingen worden verspreid over de 25 cellen van het 5×5 raster als visuele oriëntatiepunten. Ze maken het raster visueel aantrekkelijk en helpen leerlingen zich te oriënteren terwijl ze richtingsaanwijzingen volgen. Je kunt het raster vullen met drie methoden: Genereren vanuit Thema (standaard) selecteert automatisch 6 willekeurige afbeeldingen uit het gekozen thema, Handmatige Afbeeldingsselectie laat je door de bibliotheek bladeren en klikken om precies 6 afbeeldingen te kiezen, en Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen.',
+        'Zes thematische afbeeldingen worden verspreid over de 25 cellen van het 5×5 raster als visuele oriëntatiepunten. Ze maken het raster visueel aantrekkelijk en helpen gebruikers zich te oriënteren terwijl ze richtingsaanwijzingen volgen. Je kunt het raster vullen met drie methoden: Genereren vanuit Thema (standaard) selecteert automatisch 6 willekeurige afbeeldingen uit het gekozen thema, Handmatige Afbeeldingsselectie laat je door de bibliotheek bladeren en klikken om precies 6 afbeeldingen te kiezen, en Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen.',
     },
     {
       question: 'Is de Schattenjacht Generator taalgebonden?',
@@ -179,7 +179,7 @@ const content: AppContent = {
     {
       question: 'Hoe werkt het automatisch gegenereerde antwoordblad?',
       answer:
-        'De generator gebruikt een dubbel canvassysteem met een Werkblad-tabblad en een Antwoordblad-tabblad, elk met afzonderlijke ongedaan maken/opnieuw uitvoeren stapels. Het werkblad toont het 5×5 raster met verspreide afbeeldingen en richtingsaanwijzingen — klaar voor leerlingen om te volgen. Het antwoordblad reproduceert de identieke indeling en markeert de uiteindelijke schatcel in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze omlijning, waardoor de bestemming onmiddellijk zichtbaar is. Beide versies worden apart geëxporteerd met vier speciale knoppen: worksheet.jpeg, answer_key.jpeg, worksheet.pdf en answer_key.pdf.',
+        'De generator gebruikt een dubbel canvassysteem met een Werkblad-tabblad en een Antwoordblad-tabblad, elk met afzonderlijke ongedaan maken/opnieuw uitvoeren stapels. Het werkblad toont het 5×5 raster met verspreide afbeeldingen en richtingsaanwijzingen — klaar voor gebruikers om te volgen. Het antwoordblad reproduceert de identieke indeling en markeert de uiteindelijke schatcel in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze omlijning, waardoor de bestemming onmiddellijk zichtbaar is. Beide versies worden apart geëxporteerd met vier speciale knoppen: worksheet.jpeg, answer_key.jpeg, worksheet.pdf en answer_key.pdf.',
     },
     {
       question: 'Is er een gratis proefversie?',
@@ -189,7 +189,7 @@ const content: AppContent = {
     {
       question: 'Kan ik schattenjacht werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je schattenjacht werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als lesmateriaal op TPT, of via elk ander verkoopkanaal. De twee richtingstypen, het 5×5 coördinatenraster, gelokaliseerde richtingsaanwijzingen, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare padzoekpuzzelproducten te produceren.',
+        'Ja. Met een commerciële licentie heb je volledige rechten om je schattenjacht werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De twee richtingstypen, het 5×5 coördinatenraster, gelokaliseerde richtingsaanwijzingen, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare padzoekpuzzelproducten te produceren.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

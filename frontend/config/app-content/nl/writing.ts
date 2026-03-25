@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printbare schrijfoefeningen werkbladmaker voor Etsy-verkopers',
       'handschrift oefenwerkbladen generator voor KDP-uitgevers',
-      'schrijfoefeningen verkopen op Teachers Pay Teachers',
+      'schrijfoefeningen verkopen op Gumroad',
       'schrijfoefeningen werkbladen commerciële licentie',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Schrijfoefeningen Generator | Maak & Verkoop Printables',
     metaDescription:
-      'Maak schrijfoefeningen werkbladen om te verkopen op Etsy, KDP en TPT. Drie oefenmodi, vijf lettertypes, pijlgeleide pennenstreek.',
+      'Maak schrijfoefeningen werkbladen om te verkopen op Etsy, KDP en Gumroad. Drie oefenmodi, vijf lettertypes, pijlgeleide pennenstreek.',
   },
 
   hero: {
     title: 'Schrijfoefeningen Werkbladen Generator voor Handschrift Oefenbladen',
     tagline: 'Drie progressieve oefenmodi met pijlgeleide pennenstreek en vervagend overtrekken — bouw schrijfvaardigheid op van volledig overtrekken naar zelfstandig schrijven op één werkblad.',
     description:
-      'Ontwerp professionele schrijfoefeningen werkbladen met drie onderscheidende modi die een natuurlijke leervolgorde creëren: de Overtrekmodus biedt stevige letteromtrekken waar beginners overheen schrijven, Vervagend Overtrekken vermindert geleidelijk de zichtbaarheid van de letters over de rij heen om zelfvertrouwen op te bouwen, en Begeleid Kopiëren toont een vage omtrek voor bijna-zelfstandig schrijven. Kies uit vijf lettertypes — Print Standaard, Print Standaard Pijl met genummerde streekvolgordeaanwijzingen, Print Overtrek voor stippelomtrek oefeningen, Print Overtrek Pijl dat stippelomtrekken combineert met streekordepijlen, en Schoonschrift (Great Vibes) — om bij elk handschrift curriculum te passen. Elke rij op het werkblad is onafhankelijk instelbaar: combineer de Overtrekmodus voor nieuwe letters, Vervagend Overtrekken voor geoefende letters en Begeleid Kopiëren voor herhaling, allemaal op dezelfde pagina. Voorbereidende schrijfbewegingen (verticale lijnen, horizontale lijnen, cirkels en zigzaglijnen) voegen fijne motoriek opwarmingen toe die handen voorbereiden op lettervorming. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s: gebruik de modus Beginletter om de eerste letter van elke afbeeldingsnaam te oefenen, de modus Volledige Bestandsnaam om complete woorden te schrijven, of typ elke gewenste Eigen Tekst. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 UI-talen voor de interface. Exporteer printklare PDF\'s en JPEG\'s op ~300 DPI in Letter-, A4- of aangepast formaat. Of je nu schrijfoefeningen bundels verkoopt op Etsy.nl, handschrift werkboeken samenstelt voor Amazon KDP of gedifferentieerde schrijfcentra maakt voor TPT — de Schrijfoefeningen Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Ontwerp professionele schrijfoefeningen werkbladen met drie onderscheidende modi die een natuurlijke leervolgorde creëren: de Overtrekmodus biedt stevige letteromtrekken waar beginners overheen schrijven, Vervagend Overtrekken vermindert geleidelijk de zichtbaarheid van de letters over de rij heen om zelfvertrouwen op te bouwen, en Begeleid Kopiëren toont een vage omtrek voor bijna-zelfstandig schrijven. Kies uit vijf lettertypes — Print Standaard, Print Standaard Pijl met genummerde streekvolgordeaanwijzingen, Print Overtrek voor stippelomtrek oefeningen, Print Overtrek Pijl dat stippelomtrekken combineert met streekordepijlen, en Schoonschrift (Great Vibes) — om bij elk handschrift productcatalogus te passen. Elke rij op het werkblad is onafhankelijk instelbaar: combineer de Overtrekmodus voor nieuwe letters, Vervagend Overtrekken voor geoefende letters en Begeleid Kopiëren voor herhaling, allemaal op dezelfde pagina. Voorbereidende schrijfbewegingen (verticale lijnen, horizontale lijnen, cirkels en zigzaglijnen) voegen fijne motoriek opwarmingen toe die handen voorbereiden op lettervorming. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s: gebruik de modus Beginletter om de eerste letter van elke afbeeldingsnaam te oefenen, de modus Volledige Bestandsnaam om complete woorden te schrijven, of typ elke gewenste Eigen Tekst. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 UI-talen voor de interface. Exporteer printklare PDF\'s en JPEG\'s op ~300 DPI in Letter-, A4- of aangepast formaat. Of je nu schrijfoefeningen bundels verkoopt op Etsy.nl, handschrift werkboeken samenstelt voor Amazon KDP of gedifferentieerde schrijfcentra maakt voor Gumroad — de Schrijfoefeningen Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Voeg rijen toe en kies de oefenmodus per rij',
         description:
-          'Elk schrijfoefeningen werkblad wordt rij voor rij opgebouwd, en elke rij heeft zijn eigen onafhankelijke instellingen. Selecteer per rij een van de drie oefenmodi: Overtrekken biedt stevige letteromtrekken waar leerlingen direct overheen schrijven, Vervagend Overtrekken begint met duidelijke letters die geleidelijk vervagen over de rij om zelfstandigheid op te bouwen, en Begeleid Kopiëren toont een vage omtrek die leerlingen ernaast kopiëren. Combineer alle drie de modi op één werkblad om progressieve moeilijkheid te creëren van boven naar beneden — overtreken van nieuwe letters bovenaan, vervagend oefenen in het midden en begeleid kopiëren onderaan.',
+          'Elk schrijfoefeningen werkblad wordt rij voor rij opgebouwd, en elke rij heeft zijn eigen onafhankelijke instellingen. Selecteer per rij een van de drie oefenmodi: Overtrekken biedt stevige letteromtrekken waar gebruikers direct overheen schrijven, Vervagend Overtrekken begint met duidelijke letters die geleidelijk vervagen over de rij om zelfstandigheid op te bouwen, en Begeleid Kopiëren toont een vage omtrek die gebruikers ernaast kopiëren. Combineer alle drie de modi op één werkblad om progressieve moeilijkheid te creëren van boven naar beneden — overtreken van nieuwe letters bovenaan, vervagend oefenen in het midden en begeleid kopiëren onderaan.',
       },
       {
         title: 'Selecteer lettertype en inhoudsbron',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Stel hoofdletters, voorbereidende schrijfbewegingen en decoratieve tekst in',
         description:
-          'Stel per rij het lettertype in: Hoofdletters, Kleine letters of Beginletter hoofdletter. Schakel voor Eigen Tekst rijen de voorbereidende schrijfbewegingen in — verticale lijnen, horizontale lijnen, cirkels of zigzaglijnen — om fijne motoriek opwarmingen toe te voegen vóór de letteroefening. Pas de rijhoogte aan om de regelafstand te regelen. Gebruik het paneel Tekstgereedschappen om een werkbladtitel toe te voegen, velden voor naam en datum van de leerling, of instructies met zeven lettertypen waaronder Lexend Deca, Baloo 2, Fredoka en Quicksand. Sleep, wijzig het formaat en herpositioneer elk element op het volledige Fabric.js-canvas.',
+          'Stel per rij het lettertype in: Hoofdletters, Kleine letters of Beginletter hoofdletter. Schakel voor Eigen Tekst rijen de voorbereidende schrijfbewegingen in — verticale lijnen, horizontale lijnen, cirkels of zigzaglijnen — om fijne motoriek opwarmingen toe te voegen vóór de letteroefening. Pas de rijhoogte aan om de regelafstand te regelen. Gebruik het paneel Tekstgereedschappen om een werkbladtitel toe te voegen, velden voor naam en datum van de gebruiker, of instructies met zeven lettertypen waaronder Lexend Deca, Baloo 2, Fredoka en Quicksand. Sleep, wijzig het formaat en herpositioneer elk element op het volledige Fabric.js-canvas.',
       },
       {
         title: 'Download als JPEG of PDF',
         description:
-          'Open het Download-menu en exporteer je schrijfoefeningen werkblad als JPEG met hoge resolutie of als printklare PDF. De exportmotor rendert met een 6x vermenigvuldigingsfactor (~300 DPI), zodat letters en geleidelijnen scherp en schoon afdrukken. Schakel grijswaarden-export in voor inkt-zuinige versies die ideaal zijn voor klassikaal afdrukken. Er is geen antwoordblad voor schrijfoefeningen — de oefenmodi zelf dienen als gids. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden.',
+          'Open het Download-menu en exporteer je schrijfoefeningen werkblad als JPEG met hoge resolutie of als printklare PDF. De exportmotor rendert met een 6x vermenigvuldigingsfactor (~300 DPI), zodat letters en geleidelijnen scherp en schoon afdrukken. Schakel grijswaarden-export in voor inkt-zuinige versies die ideaal zijn voor klassikaal afdrukken. Er is geen antwoordblad voor schrijfoefeningen — de oefenmodi zelf dienen als gids. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Drie Progressieve Oefenmodi: Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren',
         description:
-          'De drie oefenmodi creëren een natuurlijke leervolgorde op één werkblad. De Overtrekmodus biedt stevige letteromtrekken waar leerlingen direct overheen schrijven — volledige ondersteuning voor nieuwe of onbekende letters. Vervagend Overtrekken begint met duidelijke letters aan de linkerkant van de rij en vermindert geleidelijk de zichtbaarheid naar rechts, zodat leerlingen steeds minder op de gids vertrouwen bij elke herhaling en zo zelfvertrouwen opbouwen. Begeleid Kopiëren toont slechts een vage omtrek van elke letter, waardoor bijna-zelfstandige lettervorming met minimale visuele ondersteuning vereist wordt. Deze progressie van overtrekken naar kopiëren weerspiegelt bewezen methoden voor handschriftinstructie en biedt verkopers een ingebouwde differentiatie-as voor productbundels op verschillende niveaus.',
+          'De drie oefenmodi creëren een natuurlijke leervolgorde op één werkblad. De Overtrekmodus biedt stevige letteromtrekken waar gebruikers direct overheen schrijven — volledige ondersteuning voor nieuwe of onbekende letters. Vervagend Overtrekken begint met duidelijke letters aan de linkerkant van de rij en vermindert geleidelijk de zichtbaarheid naar rechts, zodat gebruikers steeds minder op de gids vertrouwen bij elke herhaling en zo zelfvertrouwen opbouwen. Begeleid Kopiëren toont slechts een vage omtrek van elke letter, waardoor bijna-zelfstandige lettervorming met minimale visuele ondersteuning vereist wordt. Deze progressie van overtrekken naar kopiëren weerspiegelt bewezen methoden voor handschriftinstructie en biedt verkopers een ingebouwde getrapte productpakketten-as voor productbundels op verschillende niveaus.',
       },
       {
         title: 'Pijlgeleide Pennenstreek voor Correcte Lettervorming',
         description:
-          'De lettertypes Print Standaard Pijl en Print Overtrek Pijl plaatsen genummerde richtingspijlen op elke letter, die leerlingen precies laten zien hoe ze elke streek in de juiste volgorde vormen. Pijl 1 geeft aan waar je begint, pijl 2 toont de volgende streek, enzovoort — zodat er geen twijfel ontstaat over streekrichting en volgorde. Deze functie is uniek onder schrijfoefeningen generators: leerlingen leren niet alleen hoe de letter eruitziet, maar ook precies hoe ze hem moeten tekenen. Werkbladen met pijlgeleide streekvolgorde brengen premiumprijzen op bij TPT en Etsy omdat ze de juiste schrijftechniek aanleren in plaats van alleen overtreklijnen te bieden.',
+          'De lettertypes Print Standaard Pijl en Print Overtrek Pijl plaatsen genummerde richtingspijlen op elke letter, die gebruikers precies laten zien hoe ze elke streek in de juiste volgorde vormen. Pijl 1 geeft aan waar je begint, pijl 2 toont de volgende streek, enzovoort — zodat er geen twijfel ontstaat over streekrichting en volgorde. Deze functie is uniek onder schrijfoefeningen generators: gebruikers leren niet alleen hoe de letter eruitziet, maar ook precies hoe ze hem moeten tekenen. Werkbladen met pijlgeleide streekvolgorde brengen premiumprijzen op bij Gumroad en Etsy omdat ze de juiste schrijftechniek aanleren in plaats van alleen overtreklijnen te bieden.',
       },
       {
         title: 'Vijf Lettertypes Inclusief Print en Schoonschrift',
@@ -78,22 +78,22 @@ const content: AppContent = {
       {
         title: 'Voorbereidende Schrijfbewegingen voor Fijne Motoriek Ontwikkeling',
         description:
-          'Voordat leerlingen aan lettervorming beginnen, bouwen voorbereidende schrijfbewegingen de fundamentele motorische vaardigheden op die nodig zijn voor handschrift. Vier typen schrijfbewegingen zijn beschikbaar: verticale lijnen (trekkende beweging van boven naar beneden), horizontale lijnen (vegende beweging van links naar rechts), cirkels (controle over doorlopende bochten) en zigzaglijnen (oefening in richtingsverandering). Deze oefeningen versterken oog-handcoördinatie, potloodgreep en de specifieke spierbewegingen die gebruikt worden bij het schrijven. Bundels met voorbereidende schrijfbewegingen gericht op fijne motoriek ontwikkeling vormen een aparte productniche op Etsy.nl en TPT, los van standaard overtrekwerkbladen.',
+          'Voordat gebruikers aan lettervorming beginnen, bouwen voorbereidende schrijfbewegingen de fundamentele motorische vaardigheden op die nodig zijn voor handschrift. Vier typen schrijfbewegingen zijn beschikbaar: verticale lijnen (trekkende beweging van boven naar beneden), horizontale lijnen (vegende beweging van links naar rechts), cirkels (controle over doorlopende bochten) en zigzaglijnen (oefening in richtingsverandering). Deze oefeningen versterken oog-handcoördinatie, potloodgreep en de specifieke spierbewegingen die gebruikt worden bij het schrijven. Bundels met voorbereidende schrijfbewegingen gericht op fijne motoriek ontwikkeling vormen een aparte productniche op Etsy.nl en Gumroad, los van standaard overtrekwerkbladen.',
       },
       {
         title: 'Per-Rij Onafhankelijkheid voor Werkbladen met Gemengde Modi',
         description:
-          'Elke rij op het werkblad werkt onafhankelijk: eigen oefenmodus, lettertype, inhoudsbron en hoofdletter-instelling. Dit betekent dat één werkblad de Overtrekmodus met Print Pijl lettertype kan combineren voor een nieuwe letter, Vervagend Overtrekken met Print Overtrek voor een geoefende letter, en Begeleid Kopiëren met Schoonschrift voor een herhalingsletter — echte differentiatie op één pagina. Per-rij onafhankelijkheid maakt het mogelijk werkbladen te maken die van ondersteund oefenen naar zelfstandig schrijven overgaan zonder van pagina te wisselen, en het geeft verkopers de flexibiliteit om unieke indelingen te ontwerpen die opvallen tussen op sjablonen gebaseerde concurrenten.',
+          'Elke rij op het werkblad werkt onafhankelijk: eigen oefenmodus, lettertype, inhoudsbron en hoofdletter-instelling. Dit betekent dat één werkblad de Overtrekmodus met Print Pijl lettertype kan combineren voor een nieuwe letter, Vervagend Overtrekken met Print Overtrek voor een geoefende letter, en Begeleid Kopiëren met Schoonschrift voor een herhalingsletter — echte getrapte productpakketten op één pagina. Per-rij onafhankelijkheid maakt het mogelijk werkbladen te maken die van ondersteund oefenen naar zelfstandig schrijven overgaan zonder van pagina te wisselen, en het geeft verkopers de flexibiliteit om unieke indelingen te ontwerpen die opvallen tussen op sjablonen gebaseerde concurrenten.',
       },
       {
         title: 'Afbeeldingenbibliotheek Integratie met 104 Thematische Collecties',
         description:
-          'Toegang tot meer dan 3100 illustraties verdeeld over 104 thematische collecties — dieren, voedsel, voertuigen, natuur, beroepen en tientallen meer. In de modus Beginletter oefenen leerlingen het schrijven van de eerste letter van elke afbeeldingsnaam met de afbeelding als visueel referentiepunt. In de modus Volledige Bestandsnaam schrijven leerlingen het complete woord, waardoor schrijfoefening wordt verbonden met woordenschatopbouw. De thematische afbeeldingsintegratie maakt schrijfoefeningen boeiender dan blanco oefenpagina\'s en creëert natuurlijke bundelmogelijkheden per thema (boerderijdieren, oceaandieren, dinosaurussen) voor marktplaatsvermeldingen.',
+          'Toegang tot meer dan 3100 illustraties verdeeld over 104 thematische collecties — dieren, voedsel, voertuigen, natuur, beroepen en tientallen meer. In de modus Beginletter oefenen gebruikers het schrijven van de eerste letter van elke afbeeldingsnaam met de afbeelding als visueel referentiepunt. In de modus Volledige Bestandsnaam schrijven gebruikers het complete woord, waardoor schrijfoefening wordt verbonden met woordenschatopbouw. De thematische afbeeldingsintegratie maakt schrijfoefeningen boeiender dan blanco oefenpagina\'s en creëert natuurlijke bundelmogelijkheden per thema (boerderijdieren, oceaandieren, dinosaurussen) voor marktplaatsvermeldingen.',
       },
       {
         title: 'Printklare PDF- en JPEG-export op Hoge DPI',
         description:
-          'Download werkbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x vermenigvuldigingsfactor, wat ~300 DPI uitvoer produceert op standaardpaginaformaten — essentieel voor schrijfoefeningen waar dunne geleidelijnen en letterdetails schoon moeten afdrukken. Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en aangepaste formaten worden allemaal ondersteund. Schakel grijswaarden-export in voor inkt-zuinige versies die ideaal zijn voor klassikaal afdrukken of zwart-wit werkboeken. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en TPT-productbestanden.',
+          'Download werkbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten. De exportmotor rendert met een 6x vermenigvuldigingsfactor, wat ~300 DPI uitvoer produceert op standaardpaginaformaten — essentieel voor schrijfoefeningen waar dunne geleidelijnen en letterdetails schoon moeten afdrukken. Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en aangepaste formaten worden allemaal ondersteund. Schakel grijswaarden-export in voor inkt-zuinige versies die ideaal zijn voor klassikaal afdrukken of zwart-wit werkboeken. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.',
       },
       {
         title: 'Volledige Canvasbewerking met Tekst- en Decoratiegereedschappen',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde schrijfcentra voor TPT',
+        title: 'Gedifferentieerde schrijfcentra voor Gumroad',
         description:
-          'Bouw schrijfoefensets op niveau met de drie oefenmodi als differentiatieniveaus: Niveau 1 (Overtrekmodus met pijlgeleide streekvolgorde voor leerlingen die lettervorming leren), Niveau 2 (Vervagend Overtrekken voor leerlingen die zelfstandigheid opbouwen), Niveau 3 (Begeleid Kopiëren voor leerlingen die vlot beginnen te worden) en Niveau 4 (lege regels voor zelfstandig schrijven). Gebruik per-rij onafhankelijkheid om werkbladen met gemengde modi te maken waar elke rij een ander vaardigheidsniveau aanspreekt — het ultieme differentiatiegereedschap voor schrijfcentra. Combineer elk niveau met thematische afbeeldingenintegratie voor betrokkenheid. Kopers op Teachers Pay Teachers betalen premiumprijzen voor gedifferentieerde schrijfmaterialen die inzetbaar zijn over meerdere vaardigheidsniveaus.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bouw schrijfoefensets op niveau met de drie oefenmodi als getrapte productpakkettenniveaus: Niveau 1 (Overtrekmodus met pijlgeleide streekvolgorde voor gebruikers die lettervorming leren), Niveau 2 (Vervagend Overtrekken voor gebruikers die zelfstandigheid opbouwen), Niveau 3 (Begeleid Kopiëren voor gebruikers die vlot beginnen te worden) en Niveau 4 (lege regels voor zelfstandig schrijven). Gebruik per-rij onafhankelijkheid om werkbladen met gemengde modi te maken waar elke rij een ander vaardigheidsniveau aanspreekt — het ultieme getrapte productpakkettengereedschap voor schrijfcentra. Combineer elk niveau met thematische afbeeldingenintegratie voor betrokkenheid. Kopers op Gumroad betalen premiumprijzen voor gedifferentieerde schrijfmaterialen die inzetbaar zijn over meerdere vaardigheidsniveaus.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Bundels met voorbereidende schrijfbewegingen voor fijne motoriek',
         description:
-          'Maak speciale oefensets met voorbereidende schrijfbewegingen: verticale lijnen, horizontale lijnen, cirkels en zigzaglijnen. Deze fijne motoriek oefeningen richten zich op een specifiek publiek: ergotherapeuten, leerkrachten in het kleuteronderwijs en ouders van kleuters die potloodbeheersing ontwikkelen voordat ze aan formele letterinstructie beginnen. Bied schrijfbewegingstypen afzonderlijk aan of als een complete motorische vaardighedenprogressie. Bundels met voorbereidende schrijfbewegingen vullen een specifieke niche op Etsy.nl en TPT met minder concurrentie dan standaard overtrekwerkbladen, en de vier bewegingstypen bieden voldoende variatie voor zinvolle productbundels.',
-        platform: 'Etsy / TPT (fijne motoriek niche)',
+          'Maak speciale oefensets met voorbereidende schrijfbewegingen: verticale lijnen, horizontale lijnen, cirkels en zigzaglijnen. Deze fijne motoriek oefeningen richten zich op een specifiek publiek: ergotherapeuten, verkopers in het kleuteronderwijs en ouders van kleuters die potloodbeheersing ontwikkelen voordat ze aan formele letterinstructie beginnen. Bied schrijfbewegingstypen afzonderlijk aan of als een complete motorische vaardighedenprogressie. Bundels met voorbereidende schrijfbewegingen vullen een specifieke niche op Etsy.nl en Gumroad met minder concurrentie dan standaard overtrekwerkbladen, en de vier bewegingstypen bieden voldoende variatie voor zinvolle productbundels.',
+        platform: 'Etsy / Gumroad (fijne motoriek niche)',
       },
       {
-        title: 'Schrijfoefeningen voor de klas en bijles',
+        title: 'Schrijfoefeningen voor de winkel en bijles',
         description:
-          'Gebruik de modus Eigen Tekst om schrijfoefeningen te maken voor elk woord, elke zin of uitdrukking — wekelijkse spellingwoorden, namen van leerlingen, leeswoorden of vakspecifieke woordenschat. Stel de oefenmodus in op basis van het vaardigheidsniveau van elke leerling: Overtrekken voor nieuwe inhoud, Vervagend Overtrekken voor het opbouwen van vloeiendheid, Begeleid Kopiëren voor bijna-zelfstandige herhaling. Selecteer pijlgeleide lettertypes voor leerlingen die streekvolgordeninstructie nodig hebben. Druk aangepaste sets binnen enkele minuten af voor kleine groepen of hele klassen. De per-rij onafhankelijkheid betekent dat één werkblad meerdere vaardigheidsniveaus tegelijkertijd kan bedienen — de bovenste rijen overtrekken nieuwe woorden terwijl de onderste rijen bekende woorden oefenen.',
+          'Gebruik de modus Eigen Tekst om schrijfoefeningen te maken voor elk woord, elke zin of uitdrukking — wekelijkse spellingwoorden, namen van gebruikers, leeswoorden of vakspecifieke woordenschat. Stel de oefenmodus in op basis van het vaardigheidsniveau van elke gebruiker: Overtrekken voor nieuwe inhoud, Vervagend Overtrekken voor het opbouwen van vloeiendheid, Begeleid Kopiëren voor bijna-zelfstandige herhaling. Selecteer pijlgeleide lettertypes voor gebruikers die streekvolgordeninstructie nodig hebben. Druk aangepaste sets binnen enkele minuten af voor kleine groepen of hele productlijnen. De per-rij onafhankelijkheid betekent dat één werkblad meerdere vaardigheidsniveaus tegelijkertijd kan bedienen — de bovenste rijen overtrekken nieuwe woorden terwijl de onderste rijen bekende woorden oefenen.',
         platform: 'Klas / Bijles / Thuisonderwijs',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Wat zijn de drie oefenmodi en hoe werken ze?',
       answer:
-        'De Overtrekmodus biedt stevige letteromtrekken waar leerlingen direct overheen schrijven — volledige visuele ondersteuning voor het leren van nieuwe letters. Vervagend Overtrekken begint met duidelijke letters aan de linkerkant van de rij en vervaagt ze geleidelijk naar rechts, zodat leerlingen binnen één enkele rij de overgang maken van overtrekken naar zelfstandig schrijven. Begeleid Kopiëren toont een vage omtrek van elke letter die leerlingen ernaast kopiëren met minimale visuele ondersteuning. Deze drie modi creëren een natuurlijke progressie van volledige ondersteuning naar zelfstandig schrijven, en je kunt alle drie combineren op één werkblad dankzij per-rij onafhankelijkheid.',
+        'De Overtrekmodus biedt stevige letteromtrekken waar gebruikers direct overheen schrijven — volledige visuele ondersteuning voor het leren van nieuwe letters. Vervagend Overtrekken begint met duidelijke letters aan de linkerkant van de rij en vervaagt ze geleidelijk naar rechts, zodat gebruikers binnen één enkele rij de overgang maken van overtrekken naar zelfstandig schrijven. Begeleid Kopiëren toont een vage omtrek van elke letter die gebruikers ernaast kopiëren met minimale visuele ondersteuning. Deze drie modi creëren een natuurlijke progressie van volledige ondersteuning naar zelfstandig schrijven, en je kunt alle drie combineren op één werkblad dankzij per-rij onafhankelijkheid.',
     },
     {
       question: 'Wat zijn de vijf lettertypes en wanneer gebruik je welke?',
@@ -153,17 +153,17 @@ const content: AppContent = {
     {
       question: 'Hoe werkt de pijlgeleide pennenstreek?',
       answer:
-        'De lettertypes Print Standaard Pijl en Print Overtrek Pijl plaatsen genummerde richtingspijlen op elke letter. Pijl 1 toont waar je de eerste streek begint en welke richting je beweegt, pijl 2 geeft de tweede streek aan, enzovoort. De pijlen leren leerlingen de correcte vormingsvolgorde voor elke letter — niet alleen hoe de letter eruitziet, maar precies hoe ze hem met de juiste streekvolgorde en richting moeten tekenen. Dit verandert een gewoon overtrekwerkblad in een instructiemiddel.',
+        'De lettertypes Print Standaard Pijl en Print Overtrek Pijl plaatsen genummerde richtingspijlen op elke letter. Pijl 1 toont waar je de eerste streek begint en welke richting je beweegt, pijl 2 geeft de tweede streek aan, enzovoort. De pijlen leren gebruikers de correcte vormingsvolgorde voor elke letter — niet alleen hoe de letter eruitziet, maar precies hoe ze hem met de juiste streekvolgorde en richting moeten tekenen. Dit verandert een gewoon overtrekwerkblad in een instructiemiddel.',
     },
     {
       question: 'Hoe werkt de modus Vervagend Overtrekken?',
       answer:
-        'De modus Vervagend Overtrekken begint elke rij met volledig zichtbare duidelijke letters aan de linkerkant en vermindert geleidelijk de dekking van elke volgende letter naarmate de rij naar rechts doorloopt. Tegen het einde van de rij zijn de letters nauwelijks zichtbaar of helemaal verdwenen. Deze geleidelijke vervaging bouwt het zelfvertrouwen van leerlingen op door visuele ondersteuning stapsgewijs te verminderen — elke herhaling vereist iets meer zelfstandige herinnering dan de vorige. Het overbrugt de kloof tussen volledig overtrekken en zelfstandig schrijven.',
+        'De modus Vervagend Overtrekken begint elke rij met volledig zichtbare duidelijke letters aan de linkerkant en vermindert geleidelijk de dekking van elke volgende letter naarmate de rij naar rechts doorloopt. Tegen het einde van de rij zijn de letters nauwelijks zichtbaar of helemaal verdwenen. Deze geleidelijke vervaging bouwt het zelfvertrouwen van gebruikers op door visuele ondersteuning stapsgewijs te verminderen — elke herhaling vereist iets meer zelfstandige herinnering dan de vorige. Het overbrugt de kloof tussen volledig overtrekken en zelfstandig schrijven.',
     },
     {
       question: 'Wat zijn voorbereidende schrijfbewegingen en voor wie zijn ze bedoeld?',
       answer:
-        'Voorbereidende schrijfbewegingen zijn basale lijnoefeningen die de fijne motorische controle ontwikkelen die nodig is voor handschrift: verticale lijnen (trekkende streken van boven naar beneden), horizontale lijnen (vegende bewegingen van links naar rechts), cirkels (oefening in doorlopende bochten) en zigzaglijnen (beheersing van richtingsverandering). Deze oefeningen richten zich op leerlingen die nog niet klaar zijn voor lettervorming — ze bouwen potloodgreepsterkte, oog-handcoördinatie en de specifieke spierbewegingen op die bij het schrijven worden gebruikt. Voorbereidende schrijfbewegingen zijn beschikbaar in de modus Eigen Tekst.',
+        'Voorbereidende schrijfbewegingen zijn basale lijnoefeningen die de fijne motorische controle ontwikkelen die nodig is voor handschrift: verticale lijnen (trekkende streken van boven naar beneden), horizontale lijnen (vegende bewegingen van links naar rechts), cirkels (oefening in doorlopende bochten) en zigzaglijnen (beheersing van richtingsverandering). Deze oefeningen richten zich op gebruikers die nog niet klaar zijn voor lettervorming — ze bouwen potloodgreepsterkte, oog-handcoördinatie en de specifieke spierbewegingen op die bij het schrijven worden gebruikt. Voorbereidende schrijfbewegingen zijn beschikbaar in de modus Eigen Tekst.',
     },
     {
       question: 'Wat betekent per-rij onafhankelijkheid?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Waarom is er geen antwoordblad voor schrijfoefeningen?',
       answer:
-        'Schrijfoefeningen zijn oefenactiviteiten, geen puzzels met juiste of onjuiste antwoorden. De Overtrek- en Vervagend Overtrekmodi dienen zelf als gids — leerlingen schrijven direct over of naast de aangeboden lettervormen. Er is geen verborgen antwoord om te onthullen. Het werkblad IS het referentiemateriaal. Dit verschilt van puzzelgeneratoren zoals Woordzoeker of Cryptogram, waar een antwoordblad de oplossing toont die leerlingen tijdens de oefening niet konden zien.',
+        'Schrijfoefeningen zijn oefenactiviteiten, geen puzzels met juiste of onjuiste antwoorden. De Overtrek- en Vervagend Overtrekmodi dienen zelf als gids — gebruikers schrijven direct over of naast de aangeboden lettervormen. Er is geen verborgen antwoord om te onthullen. Het werkblad IS het referentiemateriaal. Dit verschilt van puzzelgeneratoren zoals Woordzoeker of Cryptogram, waar een antwoordblad de oplossing toont die gebruikers tijdens de oefening niet konden zien.',
     },
     {
       question: 'Is er een gratis proefversie?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
       answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je schrijfoefeningen werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte werkboeken op Amazon KDP, als educatieve leermiddelen op TPT, via Bol.com of via elk ander verkoopkanaal. De drie oefenmodi, vijf lettertypes, pijlgeleide streekvolgorde en voorbereidende schrijfbewegingen geven je sterke differentiatie in drukbezette marktplaatscategorieën.',
+        'Ja. Met een commerciële licentie heb je alle rechten om je schrijfoefeningen werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte werkboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. De drie oefenmodi, vijf lettertypes, pijlgeleide streekvolgorde en voorbereidende schrijfbewegingen geven je sterke getrapte productpakketten in drukbezette marktplaatscategorieën.',
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en docenten',
+      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
     },
     {
       pageType: 'guide',

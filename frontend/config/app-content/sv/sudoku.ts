@@ -7,7 +7,7 @@ const content: AppContent = {
       'utskrivbar bildsudoku skapare för Etsy-säljare',
       'bildsudoku pussel generator för KDP-publicerare',
       'bildsudoku arbetsblad skapare kommersiell licens',
-      'sälja sudoku pusselarbetsblad på Teachers Pay Teachers',
+      'sälja sudoku pusselarbetsblad på Gumroad',
     ],
     lsiKeywords: [
       'digitala sudoku utskriftsbara produkter onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Bildsudoku Generator | Skapa och Sälj Arbetsblad',
     metaDescription:
-      'Skapa bildsudoku arbetsblad att sälja på Etsy, KDP och TPT. 4×4 rutnät, tre svårighetsnivåer, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa bildsudoku arbetsblad att sälja på Etsy, KDP och Gumroad. 4×4 rutnät, tre svårighetsnivåer, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Bildsudoku Arbetsblad Generator för 4×4 Bildlogikpussel',
     tagline: 'Visuella 4×4 sudokupussel med bilder istället för siffror — tre svårighetsnivåer från 4 till 8 tomma celler, automatiskt genererade facit med kompletta fyllda rutnät och temabaserat bildval över 104 samlingar för pussel som säljer globalt utan översättning.',
     description:
-      'Bygg professionella 4×4 bildsudoku arbetsblad där eleverna fyller tomma celler med rätt bilder med rad-och-kolumn-logik. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Välj bland tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6 och Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från valfri av 104 tematiska samlingar, eller välj manuellt exakt 4 bilder från biblioteket, sök eller dina egna uppladdningar. Det premiumdesignade rutnätet har alternerande 2×2-blockfärger i ljusblått och ljusrosa, flerskiktsade skuggor och en indigoblå yttre ram med rundade hörn. Varje pussel inkluderar en automatiskt genererad «Bildsudoku»-rubrik lokaliserad på alla 11 språk och ett dubbelarbetsyte-facit som visar det kompletta fyllda rutnätet med alla 16 celler ifyllda. Eftersom bildsudoku är helt visuellt — inga ord visas på pusselrutnätet — fungerar varje arbetsblad identiskt på alla 11 språk, vilket gör dina produkter säljbara globalt utan någon modifiering. Samma pussel kan listas i flera butiker och på flera marknadsplatser utan att skapa separata språkversioner. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer tematiska sudokupaket på Etsy, sammanställer logikarbetsböcker för Amazon KDP eller skapar resonemangsaktiviteter för TPT — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella 4×4 bildsudoku arbetsblad där användarna fyller tomma celler med rätt bilder med rad-och-kolumn-logik. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Välj bland tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6 och Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från valfri av 104 tematiska samlingar, eller välj manuellt exakt 4 bilder från biblioteket, sök eller dina egna uppladdningar. Det premiumdesignade rutnätet har alternerande 2×2-blockfärger i ljusblått och ljusrosa, flerskiktsade skuggor och en indigoblå yttre ram med rundade hörn. Varje pussel inkluderar en automatiskt genererad «Bildsudoku»-rubrik lokaliserad på alla 11 språk och ett dubbelarbetsyte-facit som visar det kompletta fyllda rutnätet med alla 16 celler ifyllda. Eftersom bildsudoku är helt visuellt — inga ord visas på pusselrutnätet — fungerar varje arbetsblad identiskt på alla 11 språk, vilket gör dina produkter säljbara globalt utan någon modifiering. Samma pussel kan listas i flera butiker och på flera marknadsplatser utan att skapa separata språkversioner. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer tematiska sudokupaket på Etsy, sammanställer logikarbetsböcker för Amazon KDP eller skapar resonemangsaktiviteter för Gumroad — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Välj svårighetsnivå',
         description:
-          'Öppna panelen Sudoku för Barn och välj en svårighet från dropdownen: Lätt, Medel eller Svår. Lätt tar bort 4 celler från 4×4-rutnätet, lämnar 12 fyllda och 4 för eleven att lösa. Medel tar bort 6 celler för en måttlig utmaning. Svår tar bort 8 celler — exakt halva rutnätet — och kräver mer avancerat logiskt resonemang. Systemet väljer slumpmässigt vilka celler som blir tomma, så att regenerera samma svårighet producerar olika pusselkonfigurationer varje gång.',
+          'Öppna panelen Sudoku för Barn och välj en svårighet från dropdownen: Lätt, Medel eller Svår. Lätt tar bort 4 celler från 4×4-rutnätet, lämnar 12 fyllda och 4 för användaren att lösa. Medel tar bort 6 celler för en måttlig utmaning. Svår tar bort 8 celler — exakt halva rutnätet — och kräver mer avancerat logiskt resonemang. Systemet väljer slumpmässigt vilka celler som blir tomma, så att regenerera samma svårighet producerar olika pusselkonfigurationer varje gång.',
       },
       {
         title: 'Välj exakt 4 bilder',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se det kompletta fyllda rutnätet med alla 16 celler ifyllda — inga tomma. Ladda ner båda versionerna med de fyra dedikerade knapparna: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF. Filer exporteras som sudoku_worksheet.jpeg/pdf och sudoku_answer_key.jpeg/pdf med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla till fliken Facit för att se det kompletta fyllda rutnätet med alla 16 celler ifyllda — inga tomma. Ladda ner båda versionerna med de fyra dedikerade knapparna: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF. Filer exporteras som sudoku_worksheet.jpeg/pdf och sudoku_answer_key.jpeg/pdf med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: '4×4 bildsudoku med bilder istället för siffror',
         description:
-          'Varje pussel använder ett 4×4-rutnät med 4 unika färgglada bilder som ersätter traditionella siffror. Eleverna tillämpar samma logikregler som klassiskt sudoku — varje bild måste visas exakt en gång i varje rad och exakt en gång i varje kolumn — men det visuella formatet gör pussel tillgängliga för föreläsare och unga elever som inte har bemästrat siffror ännu. Det bildbaserade formatet gör också varje pussel universellt förståeligt oavsett språk, eftersom ingen text visas inom själva rutnätet. Denna visuella design är den viktigaste skillnaden som öppnar världsmarknader för dina utskrivbara produkter.',
+          'Varje pussel använder ett 4×4-rutnät med 4 unika färgglada bilder som ersätter traditionella siffror. användarna tillämpar samma logikregler som klassiskt sudoku — varje bild måste visas exakt en gång i varje rad och exakt en gång i varje kolumn — men det visuella formatet gör pussel tillgängliga för föreläsare och unga användare som inte har bemästrat siffror ännu. Det bildbaserade formatet gör också varje pussel universellt förståeligt oavsett språk, eftersom ingen text visas inom själva rutnätet. Denna visuella design är den viktigaste skillnaden som öppnar världsmarknader för dina utskrivbara produkter.',
       },
       {
         title: 'Tre svårighetsnivåer: Lätt, Medel och Svår',
         description:
-          'Kontrollera pusselkomplexiteten med tre distinkta svårighetsinställningar. Lätt tar bort 4 celler från 16-cells rutnätet, lämnar 12 ledtrådar — eleverna löser en cell i taget med enkel rad-och-kolumn-eliminering. Medel tar bort 6 celler, vilket kräver att eleverna överväger flera begränsningar samtidigt. Svår tar bort 8 celler — exakt halva rutnätet — och kräver flerstegs logiskt resonemang för att slutföra. Systemet bestämmer slumpmässigt vilka celler som blir tomma, så att regenerera samma svårighetsnivå producerar en annorlunda pusselkonfiguration varje gång.',
+          'Kontrollera pusselkomplexiteten med tre distinkta svårighetsinställningar. Lätt tar bort 4 celler från 16-cells rutnätet, lämnar 12 ledtrådar — användarna löser en cell i taget med enkel rad-och-kolumn-eliminering. Medel tar bort 6 celler, vilket kräver att användarna överväger flera begränsningar samtidigt. Svår tar bort 8 celler — exakt halva rutnätet — och kräver flerstegs logiskt resonemang för att slutföra. Systemet bestämmer slumpmässigt vilka celler som blir tomma, så att regenerera samma svårighetsnivå producerar en annorlunda pusselkonfiguration varje gång.',
       },
       {
         title: 'Temabaserat och manuellt bildval för exakt 4 bilder',
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: 'Premiumrutnätsdesign med alternerande blockfärger och flerskiktsade skuggor',
         description:
-          'Sudokurutnätet har en polerad design som lyfter dina utskrivbara produkter över grundläggande pusselgeneratorer. Alternerande 2×2-block använder ljusblå (#F8F9FC) och ljusrosa (#FFF5F7) bakgrunder för att hjälpa eleverna visuellt identifiera blockgränser. Feta mittdelare (#7C8DB5, 3px streck) separerar de fyra kvadranterna medan lättare inre linjer (#D1D9E6, 1,5px) definierar individuella celler. En indigoblå yttre ram (#667EEA) med 18px rundade hörn ramar in hela rutnätet, och tre flerskiktsade skuggor lägger till djup. Bilder visas med 65% av cellstorleken för tydlig visuell separation.',
+          'Sudokurutnätet har en polerad design som lyfter dina utskrivbara produkter över grundläggande pusselgeneratorer. Alternerande 2×2-block använder ljusblå (#F8F9FC) och ljusrosa (#FFF5F7) bakgrunder för att hjälpa användarna visuellt identifiera blockgränser. Feta mittdelare (#7C8DB5, 3px streck) separerar de fyra kvadranterna medan lättare inre linjer (#D1D9E6, 1,5px) definierar individuella celler. En indigoblå yttre ram (#667EEA) med 18px rundade hörn ramar in hela rutnätet, och tre flerskiktsade skuggor lägger till djup. Bilder visas med 65% av cellstorleken för tydlig visuell separation.',
       },
       {
         title: 'Automatiskt genererat facit med komplett fyllt rutnät',
         description:
-          'Varje sudokupussel genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit visar det kompletta 4×4-rutnätet med alla 16 celler fyllda — varje tom cell från arbetsbladet är ifylld med rätt bild. Ingen manuell lösning, ingen separat filskapning — facit är alltid synkroniserat med pusslet. Denna dubbelarbetsyte-metod sparar betydande produktionstid för säljare som skapar sudokupaket där varje pussel behöver sin egen lösningssida. Ladda ner facit som sudoku_answer_key.jpeg eller sudoku_answer_key.pdf bredvid elevarbetsbladet.',
+          'Varje sudokupussel genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit visar det kompletta 4×4-rutnätet med alla 16 celler fyllda — varje tom cell från arbetsbladet är ifylld med rätt bild. Ingen manuell lösning, ingen separat filskapning — facit är alltid synkroniserat med pusslet. Denna dubbelarbetsyte-metod sparar betydande produktionstid för säljare som skapar sudokupaket där varje pussel behöver sin egen lösningssida. Ladda ner facit som sudoku_answer_key.jpeg eller sudoku_answer_key.pdf bredvid arbetsbladet.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner sudoku arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× arbetsyte-multiplikator). Fyra dedikerade nedladdningsknappar exporterar sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg och sudoku_answer_key.pdf separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner samtidigt som bildtydligheten bevaras. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+          'Ladda ner sudoku arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× arbetsyte-multiplikator). Fyra dedikerade nedladdningsknappar exporterar sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg och sudoku_answer_key.pdf separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och helt anpassade dimensioner. Växla gråskala för bläckvänliga versioner som sparar toner samtidigt som bildtydligheten bevaras. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
       },
       {
         title: 'Full arbetsyteredigering med textverktyg och 50-stegs ångrahistorik',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrumslogik och resonemangsaktiviteter för TPT',
+        title: 'produktlinjeslogik och resonemangsaktiviteter för Gumroad',
         description:
-          'Bygg färdiga logikresonemangs-arbetsblad med tryckta facit för klassrumsanvändning. Lärare som söker på TPT efter kritiskt tänkande-aktiviteter värdesätter bildsudoku eftersom det utvecklar logisk deduktion i ett format tillgängligt för tidiga elever. Skapa läroplansanpassade set organiserade efter tema: bondgårdsdjur logikpussel, matgrupper resonemangsaktiviteter, samhällshjälpar problemlösningsblad. Varje set inkluderar elevarbetsblad på flera svårighetsnivåer och lärarfacit i både PDF- och JPEG-format.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg färdiga logikresonemangs-arbetsblad med tryckta facit för produktlinjesanvändning. köpare som söker på Gumroad efter kritiskt tänkande-aktiviteter värdesätter bildsudoku eftersom det utvecklar logisk deduktion i ett format tillgängligt för tidiga användare. Skapa produktkatalogsanpassade set organiserade efter tema: bondgårdsdjur logikpussel, matgrupper resonemangsaktiviteter, samhällshjälpar problemlösningsblad. Varje set inkluderar arbetsblad på flera svårighetsnivåer och lärarfacit i både PDF- och JPEG-format.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Säsongsbetonade och högtidssudoku pussel-samlingar',
         description:
           'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade sudoku pussel-samlingar som sammanfaller med toppshoppingperioder. Släpp halloweensudoku-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Inkludera alla tre svårighetsnivåer i varje säsongsset för maximalt värde. Säsongsprodukter motiverar högre priser under sina toppfönster och skapar naturliga skäl till återköp genom hela året.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
       {
         title: 'Global marknadsattraktionskraft med visuella pussel',
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Hur fungerar ett 4×4 bildsudoku-pussel?',
       answer:
-        'Ett 4×4 bildsudoku använder ett rutnät med 16 celler arrangerade i 4 rader och 4 kolumner. Fyra unika bilder ersätter traditionella siffror. Regeln är densamma som klassiskt sudoku: varje bild måste visas exakt en gång i varje rad och exakt en gång i varje kolumn. Vissa celler börjar fyllda med bilder (ledtrådar), och eleven fyller i de tomma cellerna genom att använda logisk eliminering — kontrollera vilken bild som saknas i varje rad och kolumn för att bestämma korrekt placering.',
+        'Ett 4×4 bildsudoku använder ett rutnät med 16 celler arrangerade i 4 rader och 4 kolumner. Fyra unika bilder ersätter traditionella siffror. Regeln är densamma som klassiskt sudoku: varje bild måste visas exakt en gång i varje rad och exakt en gång i varje kolumn. Vissa celler börjar fyllda med bilder (ledtrådar), och användaren fyller i de tomma cellerna genom att använda logisk eliminering — kontrollera vilken bild som saknas i varje rad och kolumn för att bestämma korrekt placering.',
     },
     {
       question: 'Varför använda bilder istället för siffror för sudoku?',
       answer:
-        'Bilder gör sudoku tillgängligt för föreläsare och unga elever som inte har bemästrat siffror. Det visuella formatet engagerar eleverna med färgglada tematiska illustrationer samtidigt som det utvecklar samma logiska resonemangsfärdigheter som sifferbaserat sudoku. Bildbaserade pussel är också universellt förståeliga — ingen språk- eller siffersystemkunskap krävs — vilket gör dina produkter säljbara globalt utan översättning.',
+        'Bilder gör sudoku tillgängligt för föreläsare och unga användare som inte har bemästrat siffror. Det visuella formatet engagerar användarna med färgglada tematiska illustrationer samtidigt som det utvecklar samma logiska resonemangsfärdigheter som sifferbaserat sudoku. Bildbaserade pussel är också universellt förståeliga — ingen språk- eller siffersystemkunskap krävs — vilket gör dina produkter säljbara globalt utan översättning.',
     },
     {
       question: 'Vad kontrollerar de tre svårighetsnivåerna?',
       answer:
-        'Svårighet bestämmer hur många celler som lämnas tomma för eleven att lösa. Lätt tar bort 4 celler från 16-cells rutnätet, lämnar 12 ledtrådar för enkel lösning. Medel tar bort 6 celler, vilket kräver mer noggrann logisk deduktion. Svår tar bort 8 celler — exakt halva rutnätet — och kräver flerstegs resonemang. Systemet väljer slumpmässigt vilka celler som blir tomma, så att regenerera samma svårighet skapar en annorlunda pussellayout varje gång.',
+        'Svårighet bestämmer hur många celler som lämnas tomma för användaren att lösa. Lätt tar bort 4 celler från 16-cells rutnätet, lämnar 12 ledtrådar för enkel lösning. Medel tar bort 6 celler, vilket kräver mer noggrann logisk deduktion. Svår tar bort 8 celler — exakt halva rutnätet — och kräver flerstegs resonemang. Systemet väljer slumpmässigt vilka celler som blir tomma, så att regenerera samma svårighet skapar en annorlunda pussellayout varje gång.',
     },
     {
       question: 'Varför kräver generatorn exakt 4 bilder?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar facit för bildsudoku?',
       answer:
-        'Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Arbetsbladet visar 4×4-rutnätet med tomma celler där eleverna behöver bestämma de korrekta bilderna. Facit visar exakt samma rutnät men med alla 16 celler fyllda — varje tom cell är ifylld med rätt bild. Båda versionerna exporteras separat med fyra dedikerade knappar: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg och sudoku_answer_key.pdf.',
+        'Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Arbetsbladet visar 4×4-rutnätet med tomma celler där användarna behöver bestämma de korrekta bilderna. Facit visar exakt samma rutnät men med alla 16 celler fyllda — varje tom cell är ifylld med rätt bild. Båda versionerna exporteras separat med fyra dedikerade knappar: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg och sudoku_answer_key.pdf.',
     },
     {
       question: 'Vad gör rutnätsdesignen premium?',
       answer:
-        'Sudokurutnätet har alternerande 2×2-blockbakgrunder i ljusblått (#F8F9FC) och ljusrosa (#FFF5F7) som hjälper eleverna identifiera blockgränser. Feta mittdelare (#7C8DB5, 3px streck) separerar de fyra kvadranterna medan lättare inre linjer (#D1D9E6, 1,5px) definierar individuella celler. En indigoblå yttre ram (#667EEA) med 18px rundade hörn ramar in hela rutnätet, och tre flerskiktsade skuggor vid varierande förskjutningar lägger till professionellt djup. Bilder visas med 65% av cellstorleken för tydlig visuell separation.',
+        'Sudokurutnätet har alternerande 2×2-blockbakgrunder i ljusblått (#F8F9FC) och ljusrosa (#FFF5F7) som hjälper användarna identifiera blockgränser. Feta mittdelare (#7C8DB5, 3px streck) separerar de fyra kvadranterna medan lättare inre linjer (#D1D9E6, 1,5px) definierar individuella celler. En indigoblå yttre ram (#667EEA) med 18px rundade hörn ramar in hela rutnätet, och tre flerskiktsade skuggor vid varierande förskjutningar lägger till professionellt djup. Bilder visas med 65% av cellstorleken för tydlig visuell separation.',
     },
     {
       question: 'Är pusslen unika varje gång jag genererar ett?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja bildsudoku arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bildsudoku arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. De tre svårighetsnivåerna, 104 tematiska bildsamlingar och det visuella formatet ger dig de kreativa verktygen för att producera originella, globalt säljbara sudokuprodukter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bildsudoku arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De tre svårighetsnivåerna, 104 tematiska bildsamlingar och det visuella formatet ger dig de kreativa verktygen för att producera originella, globalt säljbara sudokuprodukter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -256,7 +256,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'andra-klass-utskriftsbara-ideer',
-      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande Elever',
+      anchorText: 'Andra Klass Utskriftsbara Idéer för Växande användare',
     },
     {
       pageType: 'start',

@@ -22,33 +22,33 @@ const content: BundleContent = {
   hero: {
     title: 'Wiskunde Meester Pakket',
     tagline: 'Zes professionele wiskunde werkblad generators in één voordelig pakket',
-    description: 'Bouw een complete wiskunde printable productlijn zonder te wisselen tussen afzonderlijke tools. Het Wiskunde Meester Pakket combineert zes gespecialiseerde werkblad generators die optelling, aftrekken, cryptaritmetische codepuzzels, groter-dan en kleiner-dan vergelijking, legpuzzel-raster rekenpuzzels en visuele algebra beeldvergelijkingen dekken. Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden met automatische antwoordbladen, instelbare moeilijkheid en thematische afbeeldingenbibliotheken. Vijf van de zes apps zijn volledig visueel — de werkbladen die ze produceren werken in elke taal omdat ze vertrouwen op afbeeldingen en cijfers in plaats van tekst. De zesde, Code-Optelling, voegt een taalgevoelige Woordonthulling-modus toe die alle 11 interfacetalen ondersteunt. Kies uit meer dan 100 thematische beeldsets of upload je eigen PNG- en JPEG-bestanden voor merkgebonden, nichespecifieke producten. Of je nu verkoopt op Etsy, Amazon KDP of Teachers Pay Teachers, deze bundel geeft je de variatie die kopers verwachten en de snelheid die verkopers nodig hebben. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    description: 'Bouw een complete wiskunde printable productlijn zonder te wisselen tussen afzonderlijke tools. Het Wiskunde Meester Pakket combineert zes gespecialiseerde werkblad generators die optelling, aftrekken, cryptaritmetische codepuzzels, groter-dan en kleiner-dan vergelijking, legpuzzel-raster rekenpuzzels en visuele algebra beeldvergelijkingen dekken. Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden met automatische antwoordbladen, instelbare moeilijkheid en thematische afbeeldingenbibliotheken. Vijf van de zes apps zijn volledig visueel — de werkbladen die ze produceren werken in elke taal omdat ze vertrouwen op afbeeldingen en cijfers in plaats van tekst. De zesde, Code-Optelling, voegt een taalgevoelige Woordonthulling-modus toe die alle 11 interfacetalen ondersteunt. Kies uit meer dan 100 thematische beeldsets of upload je eigen PNG- en JPEG-bestanden voor merkgebonden, nichespecifieke producten. Of je nu verkoopt op Etsy, Amazon KDP of Gumroad, deze bundel geeft je de variatie die kopers verwachten en de snelheid die verkopers nodig hebben. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
   },
 
   appsIncluded: [
     {
       title: 'Optelling Werkblad Generator',
-      description: 'Maak afbeeldingsgebaseerde optelwerkbladen in vier verschillende modi: Afbeelding + Afbeelding tellen, Afbeelding + Nummer hybride opgaven, Vind de Optelterm ontbrekende-waarde uitdagingen, en Gemengde modus die alle drie op één pagina combineert. Leerlingen tellen thematische afbeeldingen om elke vergelijking op te lossen, waardoor abstracte optelling concreet en boeiend wordt. Stel het getalbereik in van 1 tot 99, kies tussen 4, 6, 8 of 12 opgaven per pagina, en selecteer afbeeldingen uit meer dan 100 thematische sets waaronder dieren, eten, voertuigen en seizoensgebonden categorieën. Elk werkblad genereert automatisch een bijpassend antwoordblad. Kies uit meerdere paginaformaten, voeg decoratieve randen en thematische achtergronden toe, en download als printklare PDF of JPEG.',
+      description: 'Maak afbeeldingsgebaseerde optelwerkbladen in vier verschillende modi: Afbeelding + Afbeelding tellen, Afbeelding + Nummer hybride opgaven, Vind de Optelterm ontbrekende-waarde uitdagingen, en Gemengde modus die alle drie op één pagina combineert. gebruikers tellen thematische afbeeldingen om elke vergelijking op te lossen, waardoor abstracte optelling concreet en boeiend wordt. Stel het getalbereik in van 1 tot 99, kies tussen 4, 6, 8 of 12 opgaven per pagina, en selecteer afbeeldingen uit meer dan 100 thematische sets waaronder dieren, eten, voertuigen en seizoensgebonden categorieën. Elk werkblad genereert automatisch een bijpassend antwoordblad. Kies uit meerdere paginaformaten, voeg decoratieve randen en thematische achtergronden toe, en download als printklare PDF of JPEG.',
     },
     {
       title: 'Aftrekken Werkblad Generator',
-      description: 'Genereer visuele aftrekwerkbladen met vier modi waaronder de unieke Doorstrepen-aanpak — leerlingen strepen fysiek afbeeldingen door om het verschil te vinden, waardoor intuïtief begrip van aftrekken als wegnemen wordt opgebouwd. Aanvullende modi dekken Afbeelding - Afbeelding, Afbeelding - Nummer en Gemengde formaten. Instelbare getalbereiken, aantal opgaven en thematische beeldsets geven je dezelfde flexibiliteit als de optellinggenerator, met aftrekkenspecifieke pedagogiek ingebouwd. De Doorstreep-modus is bijzonder populair bij docenten in het kleuteronderwijs omdat het aftrekken verandert in een hands-on activiteit waarmee leerlingen fysiek kunnen interacteren op de geprinte pagina.',
+      description: 'Genereer visuele aftrekwerkbladen met vier modi waaronder de unieke Doorstrepen-aanpak — gebruikers strepen fysiek afbeeldingen door om het verschil te vinden, waardoor intuïtief begrip van aftrekken als wegnemen wordt opgebouwd. Aanvullende modi dekken Afbeelding - Afbeelding, Afbeelding - Nummer en Gemengde formaten. Instelbare getalbereiken, aantal opgaven en thematische beeldsets geven je dezelfde flexibiliteit als de optellinggenerator, met aftrekkenspecifieke pedagogiek ingebouwd. De Doorstreep-modus is bijzonder populair bij verkopers in het kleuteronderwijs omdat het aftrekken verandert in een hands-on activiteit waarmee gebruikers fysiek kunnen interacteren op de geprinte pagina.',
     },
     {
       title: 'Code-Optelling Werkblad Generator',
-      description: 'Produceer cryptaritmetische codebreaker-puzzels waarbij leerlingen optellingen oplossen om letters te decoderen en verborgen woorden te onthullen. Dit is de enige app in de bundel met een taalgevoelige functie: Woordonthulling-modus haalt uit woordenlijsten in alle 11 ondersteunde talen, zodat de gedecodeerde woorden overeenkomen met de werkbladtaal. Standaard Codemodus gebruikt eenvoudige letter-naar-nummer toewijzing en werkt identiek in alle talen. Stel de moeilijkheid in met getalbereiken en het aantal vergelijkingen per puzzel. Het codebreaker-formaat combineert rekenpraktijk met woordontdekking, waardoor het een opvallend product is in elke wiskunde werkbladwinkel.',
+      description: 'Produceer cryptaritmetische codebreaker-puzzels waarbij gebruikers optellingen oplossen om letters te decoderen en verborgen woorden te onthullen. Dit is de enige app in de bundel met een taalgevoelige functie: Woordonthulling-modus haalt uit woordenlijsten in alle 11 ondersteunde talen, zodat de gedecodeerde woorden overeenkomen met de werkbladtaal. Standaard Codemodus gebruikt eenvoudige letter-naar-nummer toewijzing en werkt identiek in alle talen. Stel de moeilijkheid in met getalbereiken en het aantal vergelijkingen per puzzel. Het codebreaker-formaat combineert rekenpraktijk met woordontdekking, waardoor het een opvallend product is in elke wiskunde werkbladwinkel.',
     },
     {
       title: 'Meer of Minder Werkblad Generator',
-      description: 'Bouw groter-dan, kleiner-dan en gelijk-aan vergelijkingswerkbladen in drie modi. Vergelijk Groepen toont twee afbeeldingsclusters voor visuele telvergelijking. Vergelijk Getallen presenteert kale cijfers voor snellere, abstracte oefening. De unieke Controleer & Streep Groepen modus vraagt leerlingen om de grotere groep aan te vinken en de kleinere door te strepen — een tactiele, in de klas bewezen oefening die vergelijkingsconcepten versterkt door fysieke interactie met de pagina. Instelbare getalbereiken en thematische afbeeldingen houden werkbladen gevarieerd over productvermeldingen.',
+      description: 'Bouw groter-dan, kleiner-dan en gelijk-aan vergelijkingswerkbladen in drie modi. Vergelijk Groepen toont twee afbeeldingsclusters voor visuele telvergelijking. Vergelijk Getallen presenteert kale cijfers voor snellere, abstracte oefening. De unieke Controleer & Streep Groepen modus vraagt gebruikers om de grotere groep aan te vinken en de kleinere door te strepen — een tactiele, online bewezen oefening die vergelijkingsconcepten versterkt door fysieke interactie met de pagina. Instelbare getalbereiken en thematische afbeeldingen houden werkbladen gevarieerd over productvermeldingen.',
     },
     {
       title: 'Rekenpuzzel Werkblad Generator',
-      description: 'Maak legpuzzel-raster beeldpuzzels waarbij leerlingen een rekensom op elk puzzelstuk oplossen om de volledige afbeelding samen te stellen. Rasters schalen van 2×2 (4 stukken) voor beginners tot 4×4 (16 stukken) voor gevorderde leerlingen. Elk stuk toont een vergelijking — het antwoord vertelt leerlingen waar ze het moeten plaatsen. Kies optelling, aftrekken of gemengde bewerkingen en stel het getalbereik in passend bij je doelleerjaar. De onthulafbeelding komt uit de thematische bibliotheek of je eigen uploads. Het puzzelformaat maakt rekenen als een spel in plaats van een drilloefening.',
+      description: 'Maak legpuzzel-raster beeldpuzzels waarbij gebruikers een rekensom op elk puzzelstuk oplossen om de volledige afbeelding samen te stellen. Rasters schalen van 2×2 (4 stukken) voor beginners tot 4×4 (16 stukken) voor gevorderde gebruikers. Elk stuk toont een vergelijking — het antwoord vertelt gebruikers waar ze het moeten plaatsen. Kies optelling, aftrekken of gemengde bewerkingen en stel het getalbereik in passend bij je doelleerjaar. De onthulafbeelding komt uit de thematische bibliotheek of je eigen uploads. Het puzzelformaat maakt rekenen als een spel in plaats van een drilloefening.',
     },
     {
       title: 'Rekenwerkblad Generator',
-      description: 'Genereer visuele algebra beeldpuzzels waarbij thematische afbeeldingen onbekende variabelen vervangen in stelsels van gekoppelde vergelijkingen. Leerlingen bepalen de numerieke waarde die elke afbeelding voorstelt. Vier moeilijkheidsniveaus vorderen van twee-symbool eenvoudige optelling tot vier gelijktijdige onbekenden met gemengde bewerkingen. Een ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft. Kies Alleen Optelling of Optelling & Aftrekken modi, schakel negatieve resultaten in voor oudere leerlingen, en regel puzzels per pagina van 1 tot 6. Deze generator overbrugt de kloof tussen basisrekenen en algebraïsch denken.',
+      description: 'Genereer visuele algebra beeldpuzzels waarbij thematische afbeeldingen onbekende variabelen vervangen in stelsels van gekoppelde vergelijkingen. gebruikers bepalen de numerieke waarde die elke afbeelding voorstelt. Vier moeilijkheidsniveaus vorderen van twee-symbool eenvoudige optelling tot vier gelijktijdige onbekenden met gemengde bewerkingen. Een ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft. Kies Alleen Optelling of Optelling & Aftrekken modi, schakel negatieve resultaten in voor oudere gebruikers, en regel puzzels per pagina van 1 tot 6. Deze generator overbrugt de kloof tussen basisrekenen en algebraïsch denken.',
     },
   ],
 
@@ -63,7 +63,7 @@ const content: BundleContent = {
     },
     {
       title: 'Automatische Antwoordbladen',
-      description: 'Elke generator in de bundel produceert een bijbehorend antwoordblad bij elk werkblad. Antwoordbladen zijn een topverwachting van kopers op Etsy en TPT — deze bundel levert ze automatisch, wat uren handmatig werk bespaart.',
+      description: 'Elke generator in de bundel produceert een bijbehorend antwoordblad bij elk werkblad. Antwoordbladen zijn een topverwachting van kopers op Etsy en Gumroad — deze bundel levert ze automatisch, wat uren handmatig werk bespaart.',
     },
     {
       title: 'Consistente Professionele Kwaliteit',
@@ -83,7 +83,7 @@ const content: BundleContent = {
     },
     {
       title: 'Printklare Uitvoer',
-      description: 'Download werkbladen als PDF of hoge-resolutie JPEG in Letter, A4, Liggend, Vierkant of aangepaste formaten. Bestanden zijn klaar om te vermelden op Etsy, te uploaden naar KDP, of in te dienen bij TPT zonder nabewerking in ontwerpsoftware. Voeg decoratieve randen toe uit de ingebouwde randenbibliotheek, stel paginaachtergrondkleuren in, en pas thematische achtergrondafbeeldingen toe met instelbare dekking voor gepolijste, professionele resultaten elke keer.',
+      description: 'Download werkbladen als PDF of hoge-resolutie JPEG in Letter, A4, Liggend, Vierkant of aangepaste formaten. Bestanden zijn klaar om te vermelden op Etsy, te uploaden naar KDP, of in te dienen bij Gumroad zonder nabewerking in ontwerpsoftware. Voeg decoratieve randen toe uit de ingebouwde randenbibliotheek, stel paginaachtergrondkleuren in, en pas thematische achtergrondafbeeldingen toe met instelbare dekking voor gepolijste, professionele resultaten elke keer.',
     },
   ],
 
@@ -99,16 +99,16 @@ const content: BundleContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Materiaalenpakket',
-      description: 'TPT-kopers verwachten antwoordbladen, meerdere moeilijkheidsniveaus en leerplanafstemming. Elke generator levert alle drie automatisch. Bundel werkbladen in per-leerjaar pakketten — kleuterschool tellen, groep 3 optelling en aftrekken, groep 4 vergelijking en puzzels — en prijs ze als premium materialen. De vier moeilijkheidsniveaus over elke generator laten je gedifferentieerd instructiemateriaal maken waar docenten specifiek naar zoeken.',
-      platform: 'TPT',
+      title: 'Gumroad Materiaalenpakket',
+      description: 'Gumroad-kopers verwachten antwoordbladen, meerdere moeilijkheidsniveaus en productcatalogusafstemming. Elke generator levert alle drie automatisch. Bundel werkbladen in per-leerjaar pakketten — kleuterschool tellen, groep 3 optelling en aftrekken, groep 4 vergelijking en puzzels — en prijs ze als premium materialen. De vier moeilijkheidsniveaus over elke generator laten je gedifferentieerd instructiemateriaal maken waar verkopers specifiek naar zoeken.',
+      platform: 'Gumroad',
     },
     {
       title: 'Bijles en Thuisonderwijs Materialen',
-      description: 'Genereer verse werkbladen voor elke bijlessessie of thuisonderwijsweek. Varieer de moeilijkheid, het thema en het opgavetype zodat leerlingen nooit dezelfde pagina zien. De antwoordbladen laten ouders en bijlesdocenten werk direct controleren zonder oplossingen handmatig te berekenen. Begin met eenvoudige optelling tellen voor jongere leerlingen en vorder door aftrekken, vergelijking en algebraïsche beeldpuzzels naarmate vaardigheden zich ontwikkelen — alles vanuit dezelfde bundel.',
+      description: 'Genereer verse werkbladen voor elke bijlessessie of thuisonderwijsweek. Varieer de moeilijkheid, het thema en het opgavetype zodat gebruikers nooit dezelfde pagina zien. De antwoordbladen laten ouders en bijlesverkopers werk direct controleren zonder oplossingen handmatig te berekenen. Begin met eenvoudige optelling tellen voor jongere gebruikers en vorder door aftrekken, vergelijking en algebraïsche beeldpuzzels naarmate vaardigheden zich ontwikkelen — alles vanuit dezelfde bundel.',
     },
     {
-      title: 'Aanvullend Lesmateriaal Verkoop',
+      title: 'Aanvullend printbare producten Verkoop',
       description: 'Scholen en schoolbesturen kopen aanvullend rekenmateriaal in bulk. Maak leerjaar-afgestemde werkbladpakketten en bied ze rechtstreeks aan via je website of educatieve marktplaats. De commerciële licentie laat je aan instellingen verkopen zonder per-kopie beperkingen. Verpak werkbladen van alle zes generators in uitgebreide per-leerjaar kits die het volledige bereik van basisschool rekenstandaarden dekken.',
     },
     {
@@ -136,12 +136,12 @@ const content: BundleContent = {
       description: 'Je verkoopt digitale downloads op Etsy of publiceert werkboeken op Amazon KDP en wilt een snelle, betrouwbare manier om professionele wiskunde werkbladen op schaal te produceren. De bundel geeft je zes generators en honderden themacombinaties om een diverse productcatalogus op te bouwen zonder ontwerpvaardigheden of dure software. Maak nieuwe vermeldingen in minuten in plaats van uren en houd je winkel het hele jaar door gevuld met verse, seizoensgebonden inhoud. De zes-generator aanpak betekent dat je nooit een creatieve muur raakt — wanneer één generator genoeg optelwerkbladen voor je catalogus heeft geproduceerd, schakel over naar aftrekken, puzzels of vergelijkingsactiviteiten en maak volledig nieuwe productvermeldingen met minimale inspanning.',
     },
     {
-      title: 'Teachers Pay Teachers Auteurs',
-      description: 'Je maakt en verkoopt educatieve materialen op TPT en hebt tools nodig die voldoen aan de platformverwachtingen. Elke generator produceert leerstof-afgestemde werkbladen met automatische antwoordbladen en meerdere moeilijkheidsinstellingen — precies wat TPT-reviewers en kopers verwachten van premium wiskunde materialen. De vier moeilijkheidsniveaus per generator maken het eenvoudig om gedifferentieerde instructiepakketten te maken waar docenten naar zoeken per leerjaar en vaardigheid. TPT-kopers verwachten gepolijste, gebruiksklare klasmateriaal met consistente visuele presentatie over een productlijn — de gedeelde ontwerp-engine over alle zes generators garandeert dat je wiskunde materialen een samenhangende professionele uitstraling behouden.',
+      title: 'Gumroad Auteurs',
+      description: 'Je maakt en verkoopt educatieve materialen op Gumroad en hebt tools nodig die voldoen aan de platformverwachtingen. Elke generator produceert leerstof-afgestemde werkbladen met automatische antwoordbladen en meerdere moeilijkheidsinstellingen — precies wat Gumroad-reviewers en kopers verwachten van premium wiskunde materialen. De vier moeilijkheidsniveaus per generator maken het eenvoudig om gedifferentieerde instructiepakketten te maken waar verkopers naar zoeken per leerjaar en vaardigheid. Gumroad-kopers verwachten gepolijste, gebruiksklare klasmateriaal met consistente visuele presentatie over een productlijn — de gedeelde ontwerp-engine over alle zes generators garandeert dat je wiskunde materialen een samenhangende professionele uitstraling behouden.',
     },
     {
-      title: 'Bijlesdocenten en Thuisonderwijsouders',
-      description: 'Je hebt elke week verse, gevarieerde rekenoefeninsmaterialen nodig. In plaats van te zoeken naar generieke werkbladen die nooit helemaal passen, genereer precies wat je leerlingen nodig hebben — de juiste moeilijkheid, het juiste onderwerp, het juiste thema — in minder dan een minuut. Elke generator biedt een gratis proefversie met watermerk zodat je kunt evalueren voordat je aanschaft.',
+      title: 'Bijlesverkopers en Thuisonderwijsouders',
+      description: 'Je hebt elke week verse, gevarieerde rekenoefeninsmaterialen nodig. In plaats van te zoeken naar generieke werkbladen die nooit helemaal passen, genereer precies wat je gebruikers nodig hebben — de juiste moeilijkheid, het juiste onderwerp, het juiste thema — in minder dan een minuut. Elke generator biedt een gratis proefversie met watermerk zodat je kunt evalueren voordat je aanschaft.',
     },
     {
       title: 'Educatieve Inhoudmakers',
@@ -156,11 +156,11 @@ const content: BundleContent = {
     },
     {
       question: 'Welke formaten kan ik downloaden?',
-      answer: 'Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden. Je kunt kiezen uit Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant of een aangepast formaat invoeren. PDF is ideaal voor meerbladzijde werkbladpakketten op Etsy en TPT. JPEG werkt goed voor KDP-binnenwerkpagina\'s en sociale media voorbeelden. Alle bestanden downloaden op printresolutie — geen opschaling of nabewerking nodig.',
+      answer: 'Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden. Je kunt kiezen uit Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant of een aangepast formaat invoeren. PDF is ideaal voor meerbladzijde werkbladpakketten op Etsy en Gumroad. JPEG werkt goed voor KDP-binnenwerkpagina\'s en sociale media voorbeelden. Alle bestanden downloaden op printresolutie — geen opschaling of nabewerking nodig.',
     },
     {
       question: 'Bevatten de werkbladen antwoordbladen?',
-      answer: 'Ja. Alle zes generators maken automatisch een bijbehorend antwoordblad voor elk werkblad. Antwoordbladen zijn een topverwachting voor kopers op Etsy en TPT, en ze besparen je de tijd van het handmatig oplossen van elke opgave.',
+      answer: 'Ja. Alle zes generators maken automatisch een bijbehorend antwoordblad voor elk werkblad. Antwoordbladen zijn een topverwachting voor kopers op Etsy en Gumroad, en ze besparen je de tijd van het handmatig oplossen van elke opgave.',
     },
     {
       question: 'Kan ik mijn eigen afbeeldingen gebruiken in plaats van de ingebouwde thema\'s?',
@@ -176,7 +176,7 @@ const content: BundleContent = {
     },
     {
       question: 'Mag ik de werkbladen die ik maak verkopen?',
-      answer: 'Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen die je genereert verkopen op Etsy, Amazon KDP, Teachers Pay Teachers, je eigen website of elk ander platform. Je verkoopt de werkbladen — de generatortool zelf is niet overdraagbaar.',
+      answer: 'Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen die je genereert verkopen op Etsy, Amazon KDP, Gumroad, je eigen website of elk ander platform. Je verkoopt de werkbladen — de generatortool zelf is niet overdraagbaar.',
     },
     {
       question: 'Hoeveel werkbladen kan ik maken?',
@@ -188,7 +188,7 @@ const content: BundleContent = {
     },
     {
       question: 'Hoe lang duurt het om een complete wiskunde productlijn te maken met deze bundel?',
-      answer: 'De meeste verkopers bouwen hun initiële wiskunde productcatalogus binnen een enkel weekend met de bundel. Elke generator produceert een voltooid, printklaar werkblad met antwoordblad in minder dan een minuut. Een typische productiesessie omvat het selecteren van een thema, het configureren van moeilijkheidsinstellingen en het genereren van een batch van tien tot twintig werkbladen die een thematische productvermelding worden. Met zes generators kun je zes tot twaalf verschillende productvermeldingen maken in een enkele dag — genoeg om een geloofwaardige wiskunde printable winkel te lanceren op Etsy of TPT.',
+      answer: 'De meeste verkopers bouwen hun initiële wiskunde productcatalogus binnen een enkel weekend met de bundel. Elke generator produceert een voltooid, printklaar werkblad met antwoordblad in minder dan een minuut. Een typische productiesessie omvat het selecteren van een thema, het configureren van moeilijkheidsinstellingen en het genereren van een batch van tien tot twintig werkbladen die een thematische productvermelding worden. Met zes generators kun je zes tot twaalf verschillende productvermeldingen maken in een enkele dag — genoeg om een geloofwaardige wiskunde printable winkel te lanceren op Etsy of Gumroad.',
     },
     {
       question: 'Wat is het restitutiebeleid voor commerciële licenties?',
@@ -206,7 +206,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Gids: rekenwerkbladen verkopen op Etsy' },
     { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken-activiteitenboeken op Amazon KDP' },
     { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Werkbladen maken die verkopen' },
-    { pageType: 'idea', slug: 'rekenfeiten-printable-ideen', anchorText: 'Reken-feiten printable ideeën voor docenten en verkopers' },
+    { pageType: 'idea', slug: 'rekenfeiten-printable-ideen', anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers' },
   ],
 
   visuals: {

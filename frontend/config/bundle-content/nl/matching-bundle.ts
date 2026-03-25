@@ -22,29 +22,29 @@ const content: BundleContent = {
   hero: {
     title: 'Matchen & Sorteren Pakket',
     tagline: 'Vijf koppel- en sorteergenerators — van visueel paar koppelen tot batch bingokaart exports',
-    description: 'Het Matchen & Sorteren Pakket brengt vijf gespecialiseerde generators samen die het volledige scala aan koppel-, paring- en categorisatieactiviteiten dekken. Dit is een hybride bundel — drie van de vijf apps zijn taalgevoelig en produceren werkbladen met woordenschatlabels in elk van de 11 ondersteunde talen, terwijl twee puur visueel zijn en wereldwijd werken zonder vertaling. Verbindingswerkblad biedt vier verschillende modi waaronder letterkoppeling, afbeelding-naam koppeling en aangepaste inhoud. Rasterpuzzel maakt coördinaatgebaseerde koppelpuzzels op gestructureerde rasters. Schaduw Koppelen genereert silhouet-koppelwerkbladen waarbij leerlingen lijnen trekken die objecten met hun schaduwen verbinden. Plaatjesbingo produceert batch-exports van meerdere unieke kaarten in één ZIP-download — de enige app over alle bundels met deze mogelijkheid, specifiek ontworpen voor klas- en groepsgebruik. Sorteer Werkblad bouwt twee-categorieën sorteerwerkbladen waarbij leerlingen thematische afbeeldingen classificeren in linker- en rechtergroepen. Vier van de vijf generators produceren automatische antwoordbladen. Plaatjesbingo is de uitzondering — als spelkaart-generator is er geen enkel correct antwoord. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden. Kies uit meer dan 100 thematische beeldsets of upload je eigen PNG- en JPEG-bestanden voor merkgebonden, nichespecifieke producten. Of je nu koppelactiviteitenpakketten verkoopt op Etsy, sorteerwerkboeken publiceert op Amazon KDP, of bingokaartsets maakt voor Teachers Pay Teachers, deze bundel geeft je de variatie en productiesnelheid die verkopers nodig hebben. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    description: 'Het Matchen & Sorteren Pakket brengt vijf gespecialiseerde generators samen die het volledige scala aan koppel-, paring- en categorisatieactiviteiten dekken. Dit is een hybride bundel — drie van de vijf apps zijn taalgevoelig en produceren werkbladen met woordenschatlabels in elk van de 11 ondersteunde talen, terwijl twee puur visueel zijn en wereldwijd werken zonder vertaling. Verbindingswerkblad biedt vier verschillende modi waaronder letterkoppeling, afbeelding-naam koppeling en aangepaste inhoud. Rasterpuzzel maakt coördinaatgebaseerde koppelpuzzels op gestructureerde rasters. Schaduw Koppelen genereert silhouet-koppelwerkbladen waarbij gebruikers lijnen trekken die objecten met hun schaduwen verbinden. Plaatjesbingo produceert batch-exports van meerdere unieke kaarten in één ZIP-download — de enige app over alle bundels met deze mogelijkheid, specifiek ontworpen voor klas- en groepsgebruik. Sorteer Werkblad bouwt twee-categorieën sorteerwerkbladen waarbij gebruikers thematische afbeeldingen classificeren in linker- en rechtergroepen. Vier van de vijf generators produceren automatische antwoordbladen. Plaatjesbingo is de uitzondering — als spelkaart-generator is er geen enkel correct antwoord. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden. Kies uit meer dan 100 thematische beeldsets of upload je eigen PNG- en JPEG-bestanden voor merkgebonden, nichespecifieke producten. Of je nu koppelactiviteitenpakketten verkoopt op Etsy, sorteerwerkboeken publiceert op Amazon KDP, of bingokaartsets maakt voor Gumroad, deze bundel geeft je de variatie en productiesnelheid die verkopers nodig hebben. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
   },
 
   appsIncluded: [
     {
       title: 'Verbindingswerkblad Generator',
-      description: 'Maak koppelwerkbladen in vier verschillende modi die verschillende vaardigheidsniveaus en leerdoelen dekken. Letterkoppeling koppelt hoofd- en kleine letters voor alfabetherkenning. Afbeelding-Naam koppeling plaatst thematische afbeeldingen tegenover hun woordenschatlabels voor woord-plaatje associatie. Afbeelding-of-Beginletter modus voegt een variatie toe waarbij leerlingen afbeeldingen koppelen aan de eerste letter van het woord — een geleidelijke stap tussen puur visueel koppelen en volledig lezen. Aangepaste modus laat je je eigen koppelparen definiëren met tekst, afbeeldingen of beide. Dit is de meest veelzijdige koppelgenerator in de bundel, die alle 11 interfacetalen ondersteunt voor woordenschatgebaseerde modi. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
+      description: 'Maak koppelwerkbladen in vier verschillende modi die verschillende vaardigheidsniveaus en productdoelen dekken. Letterkoppeling koppelt hoofd- en kleine letters voor alfabetherkenning. Afbeelding-Naam koppeling plaatst thematische afbeeldingen tegenover hun woordenschatlabels voor woord-plaatje associatie. Afbeelding-of-Beginletter modus voegt een variatie toe waarbij gebruikers afbeeldingen koppelen aan de eerste letter van het woord — een geleidelijke stap tussen puur visueel koppelen en volledig lezen. Aangepaste modus laat je je eigen koppelparen definiëren met tekst, afbeeldingen of beide. Dit is de meest veelzijdige koppelgenerator in de bundel, die alle 11 interfacetalen ondersteunt voor woordenschatgebaseerde modi. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
     },
     {
       title: 'Rasterpuzzel Generator',
-      description: 'Genereer coördinaatgebaseerde koppelpuzzels op gestructureerde rasterindelingen. Leerlingen gebruiken rij- en kolomcoördinaten om paren binnen het raster te lokaliseren en te koppelen — waardoor ruimtelijk redeneren wordt gecombineerd met visuele discriminatie. Het rasterformaat is visueel onderscheidend en onderscheidt je producten direct van standaard trek-een-lijn koppelwerkbladen. Alle inhoud is puur visueel — alleen afbeeldingen en rastercoördinaten, geen taaltekst op de pagina — waardoor elk werkblad wereldwijd verkoopbaar is zonder vertaling. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
+      description: 'Genereer coördinaatgebaseerde koppelpuzzels op gestructureerde rasterindelingen. gebruikers gebruiken rij- en kolomcoördinaten om paren binnen het raster te lokaliseren en te koppelen — waardoor ruimtelijk redeneren wordt gecombineerd met visuele discriminatie. Het rasterformaat is visueel onderscheidend en onderscheidt je producten direct van standaard trek-een-lijn koppelwerkbladen. Alle inhoud is puur visueel — alleen afbeeldingen en rastercoördinaten, geen taaltekst op de pagina — waardoor elk werkblad wereldwijd verkoopbaar is zonder vertaling. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
     },
     {
       title: 'Schaduw Koppelen Generator',
-      description: 'Produceer schaduw koppelwerkbladen waarbij de generator automatisch silhouetversies van thematische afbeeldingen maakt. Leerlingen trekken lijnen die elk gekleurd object verbinden met zijn bijbehorende zwarte silhouet — een visuele discriminatieoefening die observatievaardigheden en aandacht voor detail versterkt. Elk werkblad gebruikt een vaste indeling van 4 items, waardoor de activiteit gericht en leeftijdsgeschikt blijft voor het kleuter- en kleuterschoolpubliek. Alle inhoud is puur visueel — geen taaltekst op de pagina — dus elk werkblad werkt in elke markt wereldwijd. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
+      description: 'Produceer schaduw koppelwerkbladen waarbij de generator automatisch silhouetversies van thematische afbeeldingen maakt. gebruikers trekken lijnen die elk gekleurd object verbinden met zijn bijbehorende zwarte silhouet — een visuele discriminatieoefening die observatievaardigheden en aandacht voor detail versterkt. Elk werkblad gebruikt een vaste indeling van 4 items, waardoor de activiteit gericht en leeftijdsgeschikt blijft voor het kleuter- en kleuterschoolpubliek. Alle inhoud is puur visueel — geen taaltekst op de pagina — dus elk werkblad werkt in elke markt wereldwijd. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
     },
     {
       title: 'Plaatjesbingo Generator',
-      description: 'Maak batch-exports van meerdere unieke bingokaarten in één ZIP-download — een mogelijkheid uniek voor deze generator over alle bundels. Elke kaart in de batch gebruikt hetzelfde thema en dezelfde afbeeldingenpool maar rangschikt items in een andere willekeurige indeling, waardoor elke speler in een klas of groep een unieke kaart krijgt. Dit is de enige generator ontworpen specifiek voor groepsgebruik in plaats van individuele werkbladoefening. Optionele labels onder elke afbeelding voegen woordenschatversterking toe, waardoor dit een taalgevoelige app is die alle 11 interfacetalen ondersteunt. Schakel labels uit voor puur visuele bingokaarten die in elke taal werken. Plaatjesbingo is de enige generator in deze bundel die geen antwoordbladen produceert — als spelkaart-generator is er geen enkel correct antwoord. De batch ZIP-export is de kernonderscheider: verkopers maken klasklare bingosets die kopers veel meer waarderen dan producten met één kaart.',
+      description: 'Maak batch-exports van meerdere unieke bingokaarten in één ZIP-download — een mogelijkheid uniek voor deze generator over alle bundels. Elke kaart in de batch gebruikt hetzelfde thema en dezelfde afbeeldingenpool maar rangschikt items in een andere willekeurige indeling, waardoor elke speler in een productlijn of groep een unieke kaart krijgt. Dit is de enige generator ontworpen specifiek voor groepsgebruik in plaats van individuele werkbladoefening. Optionele labels onder elke afbeelding voegen woordenschatversterking toe, waardoor dit een taalgevoelige app is die alle 11 interfacetalen ondersteunt. Schakel labels uit voor puur visuele bingokaarten die in elke taal werken. Plaatjesbingo is de enige generator in deze bundel die geen antwoordbladen produceert — als spelkaart-generator is er geen enkel correct antwoord. De batch ZIP-export is de kernonderscheider: verkopers maken klasklare bingosets die kopers veel meer waarderen dan producten met één kaart.',
     },
     {
       title: 'Sorteer Werkblad Generator',
-      description: 'Bouw twee-categorieën sorteerwerkbladen waarbij leerlingen thematische afbeeldingen classificeren in linker- en rechtergroepen op basis van de categorie waartoe ze behoren. Linker- en rechter themaselectoren laten je twee contrasterende categorieën kiezen — dieren versus voertuigen, fruit versus groente, land versus zee — waardoor direct begrijpelijke sorteeroefeningen ontstaan. Dit is een taalgevoelige app: categorielabels verschijnen in de geselecteerde interfacetaal, met ondersteuning voor alle 11 talen. Kies uit meer dan 100 thematische beeldsets voor elke categorie onafhankelijk, waardoor duizenden mogelijke sorteer-combinaties ontstaan. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
+      description: 'Bouw twee-categorieën sorteerwerkbladen waarbij gebruikers thematische afbeeldingen classificeren in linker- en rechtergroepen op basis van de categorie waartoe ze behoren. Linker- en rechter themaselectoren laten je twee contrasterende categorieën kiezen — dieren versus voertuigen, fruit versus groente, land versus zee — waardoor direct begrijpelijke sorteeroefeningen ontstaan. Dit is een taalgevoelige app: categorielabels verschijnen in de geselecteerde interfacetaal, met ondersteuning voor alle 11 talen. Kies uit meer dan 100 thematische beeldsets voor elke categorie onafhankelijk, waardoor duizenden mogelijke sorteer-combinaties ontstaan. Elk werkblad genereert automatisch een bijpassend antwoordblad.',
     },
   ],
 
@@ -63,7 +63,7 @@ const content: BundleContent = {
     },
     {
       title: 'Antwoordbladen voor 4 van 5 Generators',
-      description: 'Verbindingswerkblad, Rasterpuzzel, Schaduw Koppelen en Sorteer Werkblad produceren allemaal automatische antwoordbladen bij elk werkblad. Antwoordbladen zijn een topverwachting van kopers op Etsy en TPT — automatische generatie bespaart uren handmatig werk. Plaatjesbingo is de enige uitzondering: als spelkaart-generator met willekeurige indelingen is er geen enkel correct antwoord.',
+      description: 'Verbindingswerkblad, Rasterpuzzel, Schaduw Koppelen en Sorteer Werkblad produceren allemaal automatische antwoordbladen bij elk werkblad. Antwoordbladen zijn een topverwachting van kopers op Etsy en Gumroad — automatische generatie bespaart uren handmatig werk. Plaatjesbingo is de enige uitzondering: als spelkaart-generator met willekeurige indelingen is er geen enkel correct antwoord.',
     },
     {
       title: 'Cognitieve Vaardigheidsvariatie',
@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Printklare Uitvoer',
-      description: 'Download werkbladen als PDF of hoge-resolutie JPEG in Letter, A4, Liggend, Vierkant of aangepaste formaten. Plaatjesbingo exporteert als een ZIP met meerdere unieke kaarten klaar voor direct gebruik. Bestanden zijn klaar om te vermelden op Etsy, uploaden naar KDP, of indienen bij TPT zonder nabewerking in ontwerpsoftware. Voeg decoratieve randen toe, stel paginaachtergrondkleuren in, en pas thematische achtergrondafbeeldingen toe met instelbare dekking.',
+      description: 'Download werkbladen als PDF of hoge-resolutie JPEG in Letter, A4, Liggend, Vierkant of aangepaste formaten. Plaatjesbingo exporteert als een ZIP met meerdere unieke kaarten klaar voor direct gebruik. Bestanden zijn klaar om te vermelden op Etsy, uploaden naar KDP, of indienen bij Gumroad zonder nabewerking in ontwerpsoftware. Voeg decoratieve randen toe, stel paginaachtergrondkleuren in, en pas thematische achtergrondafbeeldingen toe met instelbare dekking.',
     },
   ],
 
@@ -91,16 +91,16 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP Koppelactiviteiten Boeken',
-      description: 'Combineer werkbladen van meerdere generators in thematische KDP-activiteitenboeken: "Kleuter Koppelen & Sorteren Werkboek" met koppelpagina\'s, schaduw koppelen oefeningen en sorteeractiviteiten, of "Klaslokaal Bingo & Koppelen Collectie" die bingokaarten mixt met rasterpuzzels. De consistente ontwerp-engine garandeert dat elke pagina er professioneel uniform uitziet. De twee puur visuele generators produceren taalonafhankelijke pagina\'s die op elke Amazon-marktplaats wereldwijd verkopen.',
+      description: 'Combineer werkbladen van meerdere generators in thematische KDP-activiteitenboeken: "Kleuter Koppelen & Sorteren Werkboek" met koppelpagina\'s, schaduw koppelen oefeningen en sorteeractiviteiten, of "winkel Bingo & Koppelen Collectie" die bingokaarten mixt met rasterpuzzels. De consistente ontwerp-engine garandeert dat elke pagina er professioneel uniform uitziet. De twee puur visuele generators produceren taalonafhankelijke pagina\'s die op elke Amazon-marktplaats wereldwijd verkopen.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Klaspakketten',
-      description: 'TPT-kopers verwachten klasklaar materiaal met antwoordbladen, meerdere moeilijkheidsniveaus en genoeg variatie voor klassikaal gebruik. De batch bingo-export is hier bijzonder waardevol — maak een set van 30 unieke bingokaarten voor klasgebruik en prijs dit als premium TPT-materiaal. Bundel koppelwerkbladen over alle vier modi met schaduw koppelen en sorteer werkbladen voor uitgebreide koppelvaardigheden pakketten. De antwoordbladen voor vier van vijf generators voldoen aan TPT-kopersverwachtingen.',
-      platform: 'TPT',
+      title: 'Gumroad Klaspakketten',
+      description: 'Gumroad-kopers verwachten verkoopklaar materiaal met antwoordbladen, meerdere moeilijkheidsniveaus en genoeg variatie voor klassikaal gebruik. De batch bingo-export is hier bijzonder waardevol — maak een set van 30 unieke bingokaarten voor klasgebruik en prijs dit als premium Gumroad-materiaal. Bundel koppelwerkbladen over alle vier modi met schaduw koppelen en sorteer werkbladen voor uitgebreide koppelvaardigheden pakketten. De antwoordbladen voor vier van vijf generators voldoen aan Gumroad-kopersverwachtingen.',
+      platform: 'Gumroad',
     },
     {
-      title: 'Kleuter Koppel Leerplanpakketten',
+      title: 'Kleuter Koppel productcataloguspakketten',
       description: 'Kleuter- en kinderdagverblijfprogramma\'s hebben een constante aanvoer van koppel- en sorteeractiviteiten nodig voor dagelijkse centra en wekelijkse lesplannen. De vijf generators dekken elk koppelvaardigheidtype: woordenschat-afbeelding associatie, ruimtelijk-raster koppelen, visueel-silhouet discriminatie, sociale groepsspellen en categorisch sorteren. Genereer thematische wekelijkse activiteitenpakketten afgestemd op klasonderwerpen — dieren de ene week, voertuigen de volgende, eten de week daarna — met antwoordbladen inbegrepen.',
     },
     {
@@ -133,11 +133,11 @@ const content: BundleContent = {
       description: 'Je verkoopt digitale downloads op Etsy of publiceert activiteitenboeken op Amazon KDP en wilt een snelle, betrouwbare manier om professionele koppel- en sorteerwerkbladen op schaal te produceren. De bundel geeft je vijf generators en honderden themacombinaties om een diverse productcatalogus op te bouwen. De batch bingo-export alleen opent een hele productcategorie — klasklare bingosets brengen premiumprijzen op en zijn sneller te produceren dan elk ander printable type.',
     },
     {
-      title: 'Teachers Pay Teachers Auteurs',
-      description: 'Je maakt en verkoopt educatieve materialen op TPT en hebt tools nodig die voldoen aan platformverwachtingen voor kwaliteit en volledigheid. Vier van de vijf generators produceren automatisch antwoordbladen. De Verbindingswerkblad generator biedt vier verschillende modi voor gedifferentieerd onderwijs. De batch bingo-export maakt klasklare sets van 30+ unieke kaarten in seconden — een premium TPT-producttype waar kopers specifiek naar zoeken. De taalgevoelige apps laten je materialen maken voor NT2 en tweetalige klaslokalen in 11 talen.',
+      title: 'Gumroad Auteurs',
+      description: 'Je maakt en verkoopt educatieve materialen op Gumroad en hebt tools nodig die voldoen aan platformverwachtingen voor kwaliteit en volledigheid. Vier van de vijf generators produceren automatisch antwoordbladen. De Verbindingswerkblad generator biedt vier verschillende modi voor getrapte productpakketten. De batch bingo-export maakt klasklare sets van 30+ unieke kaarten in seconden — een premium Gumroad-producttype waar kopers specifiek naar zoeken. De taalgevoelige apps laten je materialen maken voor NT2 en tweetalige winkels in 11 talen.',
     },
     {
-      title: 'Kleuter- en Kleuterschool Leerkrachten',
+      title: 'Kleuter- en Kleuterschool verkopers',
       description: 'Je geeft les aan jonge kinderen en hebt een constante aanvoer van koppel- en sorteeractiviteiten nodig die fundamentele cognitieve vaardigheden opbouwen. Verbindingswerkblad ontwikkelt woordenschat en letterherkenning. Rasterpuzzel introduceert ruimtelijk redeneren. Schaduw Koppelen versterkt visuele discriminatie. Sorteer Werkblad leert categorisatie en logisch denken. Plaatjesbingo voegt sociale interactie en groepsspel toe aan je lesplannen. Elke generator biedt een gratis proefversie met watermerk.',
     },
     {
@@ -161,11 +161,11 @@ const content: BundleContent = {
     },
     {
       question: 'Bevatten de generators antwoordbladen?',
-      answer: 'Vier van de vijf generators produceren automatische antwoordbladen: Verbindingswerkblad, Rasterpuzzel, Schaduw Koppelen en Sorteer Werkblad. Plaatjesbingo is de enige uitzondering — als spelkaart-generator met willekeurige indelingen is er geen enkel correct antwoord om een sleutel voor te bieden. Antwoordbladen zijn een topverwachting van kopers op Etsy en TPT.',
+      answer: 'Vier van de vijf generators produceren automatische antwoordbladen: Verbindingswerkblad, Rasterpuzzel, Schaduw Koppelen en Sorteer Werkblad. Plaatjesbingo is de enige uitzondering — als spelkaart-generator met willekeurige indelingen is er geen enkel correct antwoord om een sleutel voor te bieden. Antwoordbladen zijn een topverwachting van kopers op Etsy en Gumroad.',
     },
     {
       question: 'Hoeveel items gebruikt Schaduw Koppelen per werkblad?',
-      answer: 'Schaduw Koppelen gebruikt een vaste indeling van 4 items per werkblad. Elk werkblad toont 4 gekleurde objecten aan de ene kant en hun bijbehorende silhouetten aan de andere, waarbij leerlingen lijnen trekken om de paren te verbinden. Het vaste aantal houdt de activiteit gericht en leeftijdsgeschikt voor het kleuter- en kleuterschoolpubliek.',
+      answer: 'Schaduw Koppelen gebruikt een vaste indeling van 4 items per werkblad. Elk werkblad toont 4 gekleurde objecten aan de ene kant en hun bijbehorende silhouetten aan de andere, waarbij gebruikers lijnen trekken om de paren te verbinden. Het vaste aantal houdt de activiteit gericht en leeftijdsgeschikt voor het kleuter- en kleuterschoolpubliek.',
     },
     {
       question: 'Welke formaten kan ik downloaden?',
@@ -177,7 +177,7 @@ const content: BundleContent = {
     },
     {
       question: 'Mag ik de werkbladen en bingokaarten die ik maak verkopen?',
-      answer: 'Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen en bingokaartsets die je genereert verkopen op Etsy, Amazon KDP, Teachers Pay Teachers, je eigen website of elk ander platform. Je verkoopt de gegenereerde producten — de generatortool zelf is niet overdraagbaar.',
+      answer: 'Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen en bingokaartsets die je genereert verkopen op Etsy, Amazon KDP, Gumroad, je eigen website of elk ander platform. Je verkoopt de gegenereerde producten — de generatortool zelf is niet overdraagbaar.',
     },
     {
       question: 'Hoeveel werkbladen kan ik maken?',

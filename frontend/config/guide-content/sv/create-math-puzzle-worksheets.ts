@@ -23,7 +23,7 @@ const content: GuideContent = {
 
   hero: {
     title: 'Hur du skapar mattepussel arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa bildåterställnings-mattepussel där barn löser ekvationer för att återställa bilder — redo att sälja på Etsy, Amazon KDP och Teachers Pay Teachers',
+    tagline: 'En steg-för-steg-guide för att skapa bildåterställnings-mattepussel där barn löser ekvationer för att återställa bilder — redo att sälja på Etsy, Amazon KDP och Gumroad',
     description: 'Mattepussel-arbetsblad kombinerar matteövning med spänningen av att lösa ett visuellt pussel. En bild delas i rutnätsbitar, varje bit får en matteekvation, och barn löser ekvationerna för att ta reda på var varje bit hör hemma och återställa bilden. Denna guide leder dig genom att skapa mattepussel med Mattepussel-generatorn — från att välja teman och rutnätsstorlekar till att exportera tryckfärdiga PDF:er med automatiska facit.',
   },
 
@@ -32,7 +32,7 @@ const content: GuideContent = {
   tutorial: [
     {
       heading: 'Välj ett tema och välj din bild',
-      content: 'Varje mattepussel centreras kring en enda bild som delas i rutnätsbitar. Temat du väljer bestämmer vilka bilder som finns och bilden blir den visuella belöningen.\n\nÖppna Mattepussel-generatorn och hitta temaväljaren. Med kommersiell licens: 10 tematiska bilduppsättningar. Full Access: över 100 teman.\n\nVälj bilder som är visuellt tydliga och igenkännbara även uppdelade. Färgstarka, tydliga bilder med distinkta funktioner fungerar bäst. En ljusröd brandbil eller en färgglad papegoja är lättare att återställa än ett subtilt landskap.\n\nGeneratorn stöder även anpassad bilduppladdning för helt anpassade pussel — varumärkesmaskottdjur, klassrumsfoton eller klientspecifikt konstverk.\n\nTemaval är ett produktstrategibeslut. Varje tema skapar en distinkt produktlistning. "Dinosaurie mattepussel" och "havsdjur mattepussel" riktar sig mot helt annorlunda sökningar. Tio teman vid en svårighetsnivå ger tio unika produkter.',
+      content: 'Varje mattepussel centreras kring en enda bild som delas i rutnätsbitar. Temat du väljer bestämmer vilka bilder som finns och bilden blir den visuella belöningen.\n\nÖppna Mattepussel-generatorn och hitta temaväljaren. Med kommersiell licens: 10 tematiska bilduppsättningar. Full Access: över 100 teman.\n\nVälj bilder som är visuellt tydliga och igenkännbara även uppdelade. Färgstarka, tydliga bilder med distinkta funktioner fungerar bäst. En ljusröd brandbil eller en färgglad papegoja är lättare att återställa än ett subtilt landskap.\n\nGeneratorn stöder även anpassad bilduppladdning för helt anpassade pussel — varumärkesmaskottdjur, produktlinjesfoton eller klientspecifikt konstverk.\n\nTemaval är ett produktstrategibeslut. Varje tema skapar en distinkt produktlistning. "Dinosaurie mattepussel" och "havsdjur mattepussel" riktar sig mot helt annorlunda sökningar. Tio teman vid en svårighetsnivå ger tio unika produkter.',
     },
     {
       heading: 'Ställ in rutnätsstorlek för svårighetskontroll',
@@ -44,7 +44,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Konfigurera sidlayout och utseende',
-      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande, standard arbetsblad (800×1000 pixlar) och kvadrat (1200×1200). Liggande kan fungera bra för breda bilder.\n\nBakgrundsteman med justerbar opacitet. En ljus bakgrund vid 10–20% lägger till visuell polish.\n\nRamteman med oberoende opacitet. Särskilt effektiva för högtidstematiserade pussel.\n\nArbetsyteredigeraren erbjuder textverktyg. Lägg till titlar som "Mattepussel utmaning" eller instruktioner. Välj bland flera typsnittsfamiljer.\n\nGråskaleläge: konverterar till svartvitt för klassrumsfotokopiering.\n\nDessa visuella alternativ spelar roll — ett mattepussel med polerad bakgrund, tematisk ram och anpassad titel ser väsentligt mer professionellt ut.',
+      content: 'Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande, standard arbetsblad (800×1000 pixlar) och kvadrat (1200×1200). Liggande kan fungera bra för breda bilder.\n\nBakgrundsteman med justerbar opacitet. En ljus bakgrund vid 10–20% lägger till visuell polish.\n\nRamteman med oberoende opacitet. Särskilt effektiva för högtidstematiserade pussel.\n\nArbetsyteredigeraren erbjuder textverktyg. Lägg till titlar som "Mattepussel utmaning" eller instruktioner. Välj bland flera typsnittsfamiljer.\n\nGråskaleläge: konverterar till svartvitt för produktlinjesfotokopiering.\n\nDessa visuella alternativ spelar roll — ett mattepussel med polerad bakgrund, tematisk ram och anpassad titel ser väsentligt mer professionellt ut.',
     },
     {
       heading: 'Generera och förhandsgranska ditt mattepussel',
@@ -52,7 +52,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Granska facit',
-      content: 'Varje mattepussel inkluderar ett automatiskt facit via Facit-fliken.\n\nFacit visar den återställda bilden vid 30% opacitet med ett rutnätsöverlägg. Varje cell visar den fullständigt lösta ekvationen (till exempel "3 + 5 = 8"). Lärare och föräldrar verifierar svar direkt.\n\nFacit är avgörande för:\n\nRättningseffektivitet: Lärare behöver snabb referens.\n\nSjälvkontroll: Barn jämför sin återställda bild.\n\nFör marknadsplatsprodukter, nämn alltid facit framträdande. "Inkluderar facit" är en vanligt sökt kvalificerare. Facit exporteras som separata filer.',
+      content: 'Varje mattepussel inkluderar ett automatiskt facit via Facit-fliken.\n\nFacit visar den återställda bilden vid 30% opacitet med ett rutnätsöverlägg. Varje cell visar den fullständigt lösta ekvationen (till exempel "3 + 5 = 8"). säljare och föräldrar verifierar svar direkt.\n\nFacit är avgörande för:\n\nRättningseffektivitet: säljare behöver snabb referens.\n\nSjälvkontroll: Barn jämför sin återställda bild.\n\nFör marknadsplatsprodukter, nämn alltid facit framträdande. "Inkluderar facit" är en vanligt sökt kvalificerare. Facit exporteras som separata filer.',
     },
     {
       heading: 'Exportera som tryckfärdig PDF och JPEG',
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Mattepusselböcker intar en unik nisch med väsentligt mindre konkurrens än standardarbetsböcker.\n\nProduktformat: Samla 50–80 pussel med svårighetsprogression. Börja med 2×2 (bara addition), progressera till 3×3, avsluta med 4×4 (blandade operationer). 8,5×11 tum trim.\n\nTitel och undertitel: Exempeltitel "Math Puzzle Activity Book for Kids." Exempel-undertitel "60 Image Reconstruction Puzzles with Addition and Subtraction — Ages 5–8 with Answer Keys."\n\nOmslagsdesign: Visa ett delvis slutfört mattepussel så köpare omedelbart förstår formatet.\n\nPrissättning: KDP mattepusselböcker $6,99–$9,99.',
     },
     {
-      heading: 'Sälja mattepussel på Teachers Pay Teachers',
-      content: 'TPT-köpare värderar innovativa format som gör matteövning engagerande.\n\nProduktbeskrivningar: årskurs, operationer, rutnätsstorlekar och bitantal, antal pussel, om facit ingår. Nämn att formatet fungerar som mattecentra, tidiga slutare eller belöningsaktivitet.\n\nFörhandsgranskningsfiler: 2–3 provpussel som visar olika rutnätsstorlekar.\n\nPaketering: "Mattepussel-paket — Helårs pussel — Addition och subtraktion — 3 svårighetsnivåer."\n\nTPT-positionering: "mattecentra," "berikning," "tidiga slutare," "roliga fredags matte." Mattepussel fungerar som belöningsaktiviteter.',
+      heading: 'Sälja mattepussel på Gumroad',
+      content: 'Gumroad-köpare värderar innovativa format som gör matteövning engagerande.\n\nProduktbeskrivningar: årskurs, operationer, rutnätsstorlekar och bitantal, antal pussel, om facit ingår. Nämn att formatet fungerar som mattecentra, tidiga slutare eller belöningsaktivitet.\n\nFörhandsgranskningsfiler: 2–3 provpussel som visar olika rutnätsstorlekar.\n\nPaketering: "Mattepussel-paket — Helårs pussel — Addition och subtraktion — 3 svårighetsnivåer."\n\nGumroad-positionering: "mattecentra," "berikning," "tidiga slutare," "roliga fredags matte." Mattepussel fungerar som belöningsaktiviteter.',
     },
   ],
 
@@ -86,11 +86,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Paketera mattepussel med andra mattearbetsblad',
-      content: 'Mattepussel paras naturligt med standardarbetsblad.\n\nMattevariation-paket: Kombinera mattepussel med standardadditions- och subtraktionsarbetsblad. "Komplett årskurs 1 mattepaket" till $12,99–$19,99.\n\nOperationsspecifika paket: Para additionsmattepussel med additionsarbetsblad.\n\nKlassrumsaktivitetspaket: 5–10 pussel vid olika svårigheter som "Mattecentra-paket."\n\nSäsongsbetonade mattepaket: Högtidstematiserade pussel med matchande standardarbetsblad.\n\nPaketeringsstrategin fungerar eftersom mattepussel är ett kompletterande format, inte en ersättning.',
+      content: 'Mattepussel paras naturligt med standardarbetsblad.\n\nMattevariation-paket: Kombinera mattepussel med standardadditions- och subtraktionsarbetsblad. "Komplett årskurs 1 mattepaket" till $12,99–$19,99.\n\nOperationsspecifika paket: Para additionsmattepussel med additionsarbetsblad.\n\nproduktlinjesaktivitetspaket: 5–10 pussel vid olika svårigheter som "Mattecentra-paket."\n\nSäsongsbetonade mattepaket: Högtidstematiserade pussel med matchande standardarbetsblad.\n\nPaketeringsstrategin fungerar eftersom mattepussel är ett kompletterande format, inte en ersättning.',
     },
     {
       heading: 'Säsongsbetonade och tematiserade möjligheter',
-      content: 'Mattepussel har en naturlig fördel för säsongsprodukter tack vare bildkomponenten.\n\nHögtidspussel: Halloween pumpor, julgranar, alla hjärtans dag-hjärtan, påskägg. Lista 4–6 veckor före varje högtid.\n\nSkolstart (augusti–september): Lärare handlar mattecentra-aktiviteter. Ha dina paket redo senast i juli.\n\nSommarinlärning (juni–juli): Föräldrar söker "rolig matteövning." Pusselformatet känns mindre som hemläxa.\n\nDjur- och naturteman: Vintergröna med stadig helårsefterfrågan.\n\nAnpassad bilduppladdning: Skapa pussel med barnets foto, klassmaskot eller varumärkestecken. Personaliserade pussel kommenderar $3,99–$5,99 per styck.',
+      content: 'Mattepussel har en naturlig fördel för säsongsprodukter tack vare bildkomponenten.\n\nHögtidspussel: Halloween pumpor, julgranar, alla hjärtans dag-hjärtan, påskägg. Lista 4–6 veckor före varje högtid.\n\nSkolstart (augusti–september): säljare handlar mattecentra-aktiviteter. Ha dina paket redo senast i juli.\n\nSommarinlärning (juni–juli): Föräldrar söker "rolig matteövning." Pusselformatet känns mindre som hemläxa.\n\nDjur- och naturteman: Vintergröna med stadig helårsefterfrågan.\n\nAnpassad bilduppladdning: Skapa pussel med barnets foto, varumärkesmaskot eller varumärkestecken. Personaliserade pussel kommenderar $3,99–$5,99 per styck.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Tvärformat produktidéer',
-      content: 'Klassrumsmattecentra-rotation: 6 mattepussel vid 3×3 (två addition, två subtraktion, två blandad) med lärarinstruktionskort.\n\nHemundervisnings-matteberikning: 20 mattepussel (progression från 2×2 till 4×4) med 20 standard additions- och subtraktionsarbetsblad.\n\nHandledningsresurspaket: Mattepussel organiserade efter sessionsstruktur — 2×2 som uppvärmning, 3×3 som huvudövning, 4×4 som utmaningsextension.\n\nFest- och belöningsaktiviteter: Mattepussel med roliga teman (dinosaurier, rymd, superhjältar). Marknadsför som "Roliga mattepussel — Klassrumsfestaktivitet."\n\nAnpassade pussel: Personaliserade med barnets namn eller foto. $3,99–$5,99 per styck.',
+      content: 'produktlinjesmattecentra-rotation: 6 mattepussel vid 3×3 (två addition, två subtraktion, två blandad) med lärarinstruktionskort.\n\nHemundervisnings-matteberikning: 20 mattepussel (progression från 2×2 till 4×4) med 20 standard additions- och subtraktionsarbetsblad.\n\nHandledningsresurspaket: Mattepussel organiserade efter sessionsstruktur — 2×2 som uppvärmning, 3×3 som huvudövning, 4×4 som utmaningsextension.\n\nFest- och belöningsaktiviteter: Mattepussel med roliga teman (dinosaurier, rymd, superhjältar). Marknadsför som "Roliga mattepussel — produktlinjesfestaktivitet."\n\nAnpassade pussel: Personaliserade med barnets namn eller foto. $3,99–$5,99 per styck.',
     },
   ],
 

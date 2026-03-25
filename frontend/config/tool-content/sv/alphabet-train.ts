@@ -4,14 +4,14 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'alfabetståg arbetsblad skapare för barn',
     secondaryKeywords: [
-      'alfabetståg skapare för klassrummet',
+      'alfabetståg skapare online',
       'bokstavsigenkänning arbetsblad för barn',
       'utskrivbart alfabetståg för förskolan',
-      'alfabet matchning arbetsblad skapare för lärare',
+      'alfabet matchning arbetsblad skapare för säljare',
     ],
     lsiKeywords: [
       'bokstav-bild matchning tågarbetsblad för barn',
-      'flerspråkig alfabet aktivitet för klassrummet',
+      'flerspråkig alfabet aktivitet online',
       'färgglatt alfabetståg utskriftsbart för förskolan',
     ],
     titleTag: 'Alfabetståg Skapare — Bokstavsövning för Barn',
@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Alfabetståg Arbetsblad Generator',
     tagline: 'Skapa färgglada bokstavståg-arbetsblad med bild-till-bokstav matchning på 11 språk',
-    description: 'Bygg alfabet arbetsblad som inte ser ut som vanliga bokstavsspårningssidor. Detta verktyg arrangerar 11 livfulla tågvagnar över sidan, var och en med en bokstav och en matchande illustration. Spridda ledtrådsbilder visas bredvid tåget — eleverna identifierar vilken bokstav varje bild börjar på och matchar den med rätt vagn. Välj mellan Autoskapa-läge (verktyget väljer slumpmässigt 11 bokstäver och tilldelar matchande bilder) eller Manuellt Val (handplocka varje bokstav från ett fullständigt alfabetsrutnät och tilldela varje bild själv). Justera svårigheten med ledtrådsräknaren: 3 ledtrådar för nybörjare, 5–7 för mellannivå, och 9–11 för avancerade elever som måste matcha nästan varje vagn. Den verkliga styrkan är språkkänslighet — välj bland 11 inhemska alfabet inklusive svenska (Å/Ä/Ö), tyska (Ä/Ö/Ü), spanska (Ñ) och fler. Samma bild paras med olika bokstäver på varje språk: «hund» matchar H på svenska men D på engelska (Dog). En arbetsbladsdesign blir 11 unika produkter. Bläddra bland mer än 3 100 bilder i 104 teman, eller ladda upp egna för varumärkta designer. Välj bland 7 typsnittsfamiljer och exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Bygg alfabet arbetsblad som inte ser ut som vanliga bokstavsspårningssidor. Detta verktyg arrangerar 11 livfulla tågvagnar över sidan, var och en med en bokstav och en matchande illustration. Spridda ledtrådsbilder visas bredvid tåget — användarna identifierar vilken bokstav varje bild börjar på och matchar den med rätt vagn. Välj mellan Autoskapa-läge (verktyget väljer slumpmässigt 11 bokstäver och tilldelar matchande bilder) eller Manuellt Val (handplocka varje bokstav från ett fullständigt alfabetsrutnät och tilldela varje bild själv). Justera svårigheten med ledtrådsräknaren: 3 ledtrådar för nybörjare, 5–7 för mellannivå, och 9–11 för avancerade användare som måste matcha nästan varje vagn. Den verkliga styrkan är språkkänslighet — välj bland 11 inhemska alfabet inklusive svenska (Å/Ä/Ö), tyska (Ä/Ö/Ü), spanska (Ñ) och fler. Samma bild paras med olika bokstäver på varje språk: «hund» matchar H på svenska men D på engelska (Dog). En arbetsbladsdesign blir 11 unika produkter. Bläddra bland mer än 3 100 bilder i 104 teman, eller ladda upp egna för varumärkta designer. Välj bland 7 typsnittsfamiljer och exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj ditt skapandeläge',
-        description: 'Välj Autoskapa för att låta verktyget slumpmässigt välja 11 bokstäver och automatiskt tilldela matchande bilder från det valda temat — idealiskt för snabb produktion. Välj Manuellt Val för full kontroll: du handplockar exakt 11 bokstäver från alfabetsrutnätet och tilldelar varje bild individuellt. Manuellt läge är bäst för läroplansanpassade arbetsblad som riktar sig mot specifika bokstavsgrupper.',
+        description: 'Välj Autoskapa för att låta verktyget slumpmässigt välja 11 bokstäver och automatiskt tilldela matchande bilder från det valda temat — idealiskt för snabb produktion. Välj Manuellt Val för full kontroll: du handplockar exakt 11 bokstäver från alfabetsrutnätet och tilldelar varje bild individuellt. Manuellt läge är bäst för produktkatalogsanpassade arbetsblad som riktar sig mot specifika bokstavsgrupper.',
       },
       {
         title: 'Välj bokstäver (Manuellt läge)',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera ledtrådsantal och namn/datum-fält',
-        description: 'Använd ledtrådsräknaren för att ställa in hur många matchande ledtrådsbilder som visas bredvid tåget. Ställ in 3 ledtrådar för den enklaste nivån (de flesta vagnar omatchade), 5–7 för medel svårighet, eller 9–11 för avancerade elever som måste matcha nästan varje vagn. Växla Namn- och Datum-fälten på eller av beroende på om arbetsbladet är för klassrumsutdelning eller digital produktnedladdning.',
+        description: 'Använd ledtrådsräknaren för att ställa in hur många matchande ledtrådsbilder som visas bredvid tåget. Ställ in 3 ledtrådar för den enklaste nivån (de flesta vagnar omatchade), 5–7 för medel svårighet, eller 9–11 för avancerade användare som måste matcha nästan varje vagn. Växla Namn- och Datum-fälten på eller av beroende på om arbetsbladet är för produktlinjesutdelning eller digital produktnedladdning.',
       },
       {
         title: 'Anpassa text och typsnitt',
@@ -65,15 +65,15 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiska alfabetstågspaket',
-      description: 'Skapa uppsättningar av 10–15 alfabetståg arbetsblad med tematiska bildsamlingar — djur, mat, fordon, natur. Varje arbetsblad använder olika bokstäver och bilder vid ett konsekvent ledtrådsantal. Paketera efter tema och sälj på Etsy eller Teachers Pay Teachers. Det färgglada tågvagnsformatet gör att din annonseringsminiatyr poppar mot platta bokstavsspårningsarbetsblad. Inkludera facit med varje set så köpare får en komplett, klassrumsfärdig resurs.',
+      description: 'Skapa uppsättningar av 10–15 alfabetståg arbetsblad med tematiska bildsamlingar — djur, mat, fordon, natur. Varje arbetsblad använder olika bokstäver och bilder vid ett konsekvent ledtrådsantal. Paketera efter tema och sälj på Etsy eller Gumroad. Det färgglada tågvagnsformatet gör att din annonseringsminiatyr poppar mot platta bokstavsspårningsarbetsblad. Inkludera facit med varje set så köpare får en komplett, produktlinjesfärdig resurs.',
     },
     {
       title: 'KDP alfabet aktivitetsböcker',
       description: 'Generera 50–100 alfabetståg sidor med progressiv svårighet: 3 ledtrådar i öppningskapitlet, 5–7 i mitten och 9–11 för utmaningssektionen. Exportera som högupplösta PDF:er och publicera som en låginnehålls aktivitetsarbetsbok på Amazon KDP. Använd gråskaleläge för lägre utskriftskostnader. Tågformatet fotograferar sig bra för KDP-annonseringsbilder eftersom det är visuellt distinkt från konkurrerande alfabetarbetsböcker.',
     },
     {
-      title: 'Differentierade ledtrådsantal-set',
-      description: 'Generera tre versioner av samma tematiska alfabetståg på olika svårighetsnivåer: lätt (3 ledtrådar), medel (7 ledtrådar) och svår (11 ledtrådar). Lärare kan ge rätt version till varje elev baserat på deras läsnivå. Sälj som ett differentierat paket till ett premiumpris på TPT eller Etsy.',
+      title: 'nivågrupperade ledtrådsantal-set',
+      description: 'Generera tre versioner av samma tematiska alfabetståg på olika svårighetsnivåer: lätt (3 ledtrådar), medel (7 ledtrådar) och svår (11 ledtrådar). säljare kan ge rätt version till varje användare baserat på deras läsnivå. Sälj som ett nivågrupperat paket till ett premiumpris på Gumroad eller Etsy.',
     },
     {
       title: 'Flerspråkiga alfabetprodukter',
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: 'Anpassade bild varumärkta arbetsblad',
-      description: 'Ladda upp egna illustrationer, maskotbilder eller licensierat konstverk för att skapa alfabetståg som ingen annan säljare kan replikera. Hemundervisningsinnehållsskapare kan använda familjefoton, klassrumslärare kan använda skolmaskotbilder, och Etsy-säljare kan bygga en distinkt visuell identitet genom hela sin butik.',
+      description: 'Ladda upp egna illustrationer, maskotbilder eller licensierat konstverk för att skapa alfabetståg som ingen annan säljare kan replikera. Hemundervisningsinnehållsskapare kan använda familjefoton, produktlinjessäljare kan använda skolmaskotbilder, och Etsy-säljare kan bygga en distinkt visuell identitet genom hela sin butik.',
     },
     {
       title: 'Säsongsbetonade alfabetståg-paket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Alfabetståg»-paket med festliga illustrationer säljer starkt i november–december. Skolstart, halloween, alla hjärtans dag och vårteman har alla sina egna toppförsäljningsfönster på Etsy och TPT.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Alfabetståg»-paket med festliga illustrationer säljer starkt i november–december. Skolstart, halloween, alla hjärtans dag och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers litteracitetspaket',
-      description: 'Ladda upp differentierade alfabetståg-paket till TPT. Inkludera arbetsblad på tre ledtrådsnivåer, en lärarguide som förklarar tågformatet och facit för varje sida. Lärare söker ständigt efter «alfabet aktiviteter» och «bokstavsigenkänning arbetsblad». Det visuella tågformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Erbjud Autoskapa-paket för variation och Manuellt Val-paket för läroplansanpassade bokstavsgrupper.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad litteracitetspaket',
+      description: 'Ladda upp nivågrupperade alfabetståg-paket till Gumroad. Inkludera arbetsblad på tre ledtrådsnivåer, en lärarguide som förklarar tågformatet och facit för varje sida. säljare söker ständigt efter «alfabet aktiviteter» och «bokstavsigenkänning arbetsblad». Det visuella tågformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Erbjud Autoskapa-paket för variation och Manuellt Val-paket för produktkatalogsanpassade bokstavsgrupper.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad flerspråkiga alfabet-kit',
-      description: 'Skapa premium alfabet-kit på Gumroad som inkluderar samma arbetsbladsdesigner på 5–11 språk. Rikta dig mot tvåspråkiga familjer, internationella skolor och ESL-lärare som behöver bokstavsigenkänningmaterial på flera språk. Språk-som-multiplikator-metoden innebär att varje kit har 5–11× innehållet av en enspråkig konkurrent, vilket motiverar ett högre pris.',
+      description: 'Skapa premium alfabet-kit på Gumroad som inkluderar samma arbetsbladsdesigner på 5–11 språk. Rikta dig mot tvåspråkiga familjer, internationella skolor och ESL-köpare som behöver bokstavsigenkänningmaterial på flera språk. Språk-som-multiplikator-metoden innebär att varje kit har 5–11× innehållet av en enspråkig konkurrent, vilket motiverar ett högre pris.',
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Börja med 3 ledtrådar för nybörjare',
-      description: 'Ett 3-ledtråds arbetsblad ger unga elever en skonsam introduktion — de behöver bara matcha 3 bilder till vagnar medan de återstående 8 vagnarna visar bokstäver utan matchningsuppgift. Detta förhindrar överväldigande för förskolebarn och tidiga dagisbarn. Öka till 7 eller 11 ledtrådar allt eftersom eleverna får självförtroende. Säljare på Etsy och TPT kan paketera lätta, medel och svåra versioner tillsammans som ett differentierat set.',
+      description: 'Ett 3-ledtråds arbetsblad ger unga användare en skonsam introduktion — de behöver bara matcha 3 bilder till vagnar medan de återstående 8 vagnarna visar bokstäver utan matchningsuppgift. Detta förhindrar överväldigande för förskolebarn och tidiga dagisbarn. Öka till 7 eller 11 ledtrådar allt eftersom användarna får självförtroende. Säljare på Etsy och Gumroad kan paketera lätta, medel och svåra versioner tillsammans som ett nivågrupperat set.',
     },
     {
       title: 'Använd Autoskapa för hastighet, Manuellt för kontroll',
-      description: 'Autoskapa-läget väljer slumpmässigt bokstäver och tilldelar bilder, vilket låter dig generera dussintals unika arbetsblad på minuter. Växla till Manuellt Val när du behöver specifika bokstavsgrupper — till exempel bara vokaler, bara konsonanter, eller bokstäver dina elever just lär sig i klassen. Ur ett säljarperspektiv är Autoskapa idealiskt för att bygga högvolyms variationspaket snabbt, medan Manuellt Val låter dig skapa läroplansanpassade produkter.',
+      description: 'Autoskapa-läget väljer slumpmässigt bokstäver och tilldelar bilder, vilket låter dig generera dussintals unika arbetsblad på minuter. Växla till Manuellt Val när du behöver specifika bokstavsgrupper — till exempel bara vokaler, bara konsonanter, eller bokstäver dina kunder just lär sig i klassen. Ur ett säljarperspektiv är Autoskapa idealiskt för att bygga högvolyms variationspaket snabbt, medan Manuellt Val låter dig skapa produktkatalogsanpassade produkter.',
     },
     {
       title: 'Gå flerspråkigt för 11× produktutbud',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Använd gråskala för KDP och bulkutskrift',
-      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller klassrumsbulkutskrift. Svartvita tåg kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla vagnar lockar klick.',
+      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvita tåg kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla vagnar lockar klick.',
     },
     {
       title: 'Ladda upp anpassade bilder för varumärkning',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar alfabetståg-formatet?',
-      answer: 'Verktyget skapar 11 färgglada tågvagnar, var och en med en bokstav och en matchande illustration. Spridda ledtrådsbilder visas bredvid tåget. Eleverna identifierar vilken bokstav varje ledtrådsbild börjar på och matchar den med rätt vagn. Antalet ledtrådsbilder är konfigurerbart från 3 till 11. Ett facit genereras bredvid varje arbetsblad, som visar de korrekta bokstav-bild-kopplingarna.',
+      answer: 'Verktyget skapar 11 färgglada tågvagnar, var och en med en bokstav och en matchande illustration. Spridda ledtrådsbilder visas bredvid tåget. användarna identifierar vilken bokstav varje ledtrådsbild börjar på och matchar den med rätt vagn. Antalet ledtrådsbilder är konfigurerbart från 3 till 11. Ett facit genereras bredvid varje arbetsblad, som visar de korrekta bokstav-bild-kopplingarna.',
     },
     {
       question: 'Vad är skillnaden mellan Autoskapa och Manuellt Val?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',
-      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och klassrumsbruk. För att sälja arbetsblad på Etsy, Teachers Pay Teachers, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
+      answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
     },
     {
       question: 'Vilka filformat kan jag ladda ner?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka typsnittsalternativ finns tillgängliga?',
-      answer: 'Verktyget erbjuder 7 typsnittsfamiljer: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Varje typsnitt är tydligt och läsbart i arbetsbladsformat. Välj rundade, lekfulla typsnitt som Fredoka för yngre elever eller rena typsnitt som Lexend Deca för ett professionellt utseende.',
+      answer: 'Verktyget erbjuder 7 typsnittsfamiljer: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Varje typsnitt är tydligt och läsbart i arbetsbladsformat. Välj rundade, lekfulla typsnitt som Fredoka för yngre användare eller rena typsnitt som Lexend Deca för ett professionellt utseende.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -219,7 +219,7 @@ const content: ToolContent = {
     sampleGallery: [
       {
         src: '/samples/swedish/alphabet%20train/alfabet%C3%A5g%20portrait.webp',
-        alt: 'Färgglatt alfabetståg arbetsblad med bokstav-bild matchningsaktivitet för unga elever',
+        alt: 'Färgglatt alfabetståg arbetsblad med bokstav-bild matchningsaktivitet för unga användare',
         caption: 'Tågvagnsformat med bokstav-bild matchning',
       },
       {
@@ -230,7 +230,7 @@ const content: ToolContent = {
       {
         src: '/samples/swedish/alphabet%20train/worksheet%20(1).webp',
         alt: 'Avancerat alfabetståg arbetsblad med 11 ledtrådar för maximal svårighets bokstavsigenkänning',
-        caption: 'Fullständig 11-ledtråds svårighet för avancerade elever',
+        caption: 'Fullständig 11-ledtråds svårighet för avancerade användare',
       },
     ],
     youtubeId: '_dDQegRq9JQ',

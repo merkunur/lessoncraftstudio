@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Rita och Färglägg Arbetsblad Skapare',
     tagline: 'Generera dubbelrutnäts ritningsarbetsblad med justerbar ledtrådsprocent, tre symmetrilägen och helt visuell textfri utmatning som säljer globalt utan översättning',
-    description: 'Skapa professionella rutnätsritning arbetsblad där eleverna reproducerar en referensbild genom att kopiera den cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät. Två rutnät visas per vald bild: ett Övningsrutnät med tomma celler där eleverna ritar, och ett Ledtrådsrutnät som visar en konfigurerbar procentandel av referensbilden som visuella tips. Justera ledtrådsprocenten från 10% till 75% för att kontrollera svårigheten — färre ledtrådar innebär svårare övningar som kräver skarpare observation. Konfigurera rutnätsdimensioner från 3×3 (9 celler) till 10×10 (100 celler), med rader och kolumner justerbara oberoende. Tre symmetrilägen lägger till en rumslig resonemangdimension: Slumpmässig sprider ledtrådar i godtyckliga positioner, Horisontell speglar ledtrådar vänster-höger, och Vertikal speglar ledtrådar uppifrån-ner. Innehåll hämtas från det inbyggda svartvita konturbiblioteket med 100+ samlingar med mer än 3 000 svartvita illustrationer specifikt designade för ritning och färgläggning — rena konturer som eleverna reproducerar och sedan färglägger. Detta är en helt visuell app: arbetsblad innehåller enbart rutnätsbilder med noll text, vilket gör dem universellt säljbara utan översättning. Inget separat facit existerar eftersom ledtrådsrutnätet i sig fungerar som referenslösningen. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella rutnätsritning arbetsblad där användarna reproducerar en referensbild genom att kopiera den cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät. Två rutnät visas per vald bild: ett Övningsrutnät med tomma celler där användarna ritar, och ett Ledtrådsrutnät som visar en konfigurerbar procentandel av referensbilden som visuella tips. Justera ledtrådsprocenten från 10% till 75% för att kontrollera svårigheten — färre ledtrådar innebär svårare övningar som kräver skarpare observation. Konfigurera rutnätsdimensioner från 3×3 (9 celler) till 10×10 (100 celler), med rader och kolumner justerbara oberoende. Tre symmetrilägen lägger till en rumslig resonemangdimension: Slumpmässig sprider ledtrådar i godtyckliga positioner, Horisontell speglar ledtrådar vänster-höger, och Vertikal speglar ledtrådar uppifrån-ner. Innehåll hämtas från det inbyggda svartvita konturbiblioteket med 100+ samlingar med mer än 3 000 svartvita illustrationer specifikt designade för ritning och färgläggning — rena konturer som användarna reproducerar och sedan färglägger. Detta är en helt visuell app: arbetsblad innehåller enbart rutnätsbilder med noll text, vilket gör dem universellt säljbara utan översättning. Inget separat facit existerar eftersom ledtrådsrutnätet i sig fungerar som referenslösningen. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -37,15 +37,15 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera rutnätsdimensioner',
-        description: 'Ställ in rutnätsrader (3–10) och kolumner (3–10) oberoende för att kontrollera cellantal och bildförhållande. Ett 3×3-rutnät med 9 stora celler är enkelt för nybörjare och unga elever. Ett 10×10-rutnät med 100 små celler utmanar avancerade elever som kräver exakt reproduktion. Icke-kvadratiska rutnät som 4×6 eller 8×5 anpassas till olika bildproportioner.',
+        description: 'Ställ in rutnätsrader (3–10) och kolumner (3–10) oberoende för att kontrollera cellantal och bildförhållande. Ett 3×3-rutnät med 9 stora celler är enkelt för nybörjare och unga användare. Ett 10×10-rutnät med 100 små celler utmanar avancerade användare som kräver exakt reproduktion. Icke-kvadratiska rutnät som 4×6 eller 8×5 anpassas till olika bildproportioner.',
       },
       {
         title: 'Ställ in ledtrådsprocenten',
-        description: 'Justera ledtrådsprocentreglaget från 10% till 75% för att kontrollera hur mycket av referensbilden som avslöjas i ledtrådsrutnätet. Vid 75% visar de flesta cellerna bilden och eleverna fyller i den återstående fjärdedelen. Vid 50% är hälften av cellerna synliga för en måttlig utmaning. Vid 25% arbetar eleverna från spridda fragment. Vid 10% syns knappt någon referens och eleverna rekonstruerar bilden nästan från grunden — ett genuint pussel även för vuxna.',
+        description: 'Justera ledtrådsprocentreglaget från 10% till 75% för att kontrollera hur mycket av referensbilden som avslöjas i ledtrådsrutnätet. Vid 75% visar de flesta cellerna bilden och användarna fyller i den återstående fjärdedelen. Vid 50% är hälften av cellerna synliga för en måttlig utmaning. Vid 25% arbetar användarna från spridda fragment. Vid 10% syns knappt någon referens och användarna rekonstruerar bilden nästan från grunden — ett genuint pussel även för vuxna.',
       },
       {
         title: 'Välj symmetriläge',
-        description: 'Välj ett symmetriläge för att kontrollera hur ledtrådsceller placeras. Slumpmässig sprider ledtrådsceller i godtyckliga positioner för allmän ritningsövning. Horisontell speglar ledtrådsceller vänster-höger, lär ut bilateral symmetri — eleverna ser ena sidan och rekonstruerar spegelbilden. Vertikal speglar ledtrådsceller uppifrån-ner för vertikal symmetriövning. När Horisontell eller Vertikal är valt, låter en del-att-avslöja-väljare dig välja vilken halva som visas som ledtrådar.',
+        description: 'Välj ett symmetriläge för att kontrollera hur ledtrådsceller placeras. Slumpmässig sprider ledtrådsceller i godtyckliga positioner för allmän ritningsövning. Horisontell speglar ledtrådsceller vänster-höger, lär ut bilateral symmetri — användarna ser ena sidan och rekonstruerar spegelbilden. Vertikal speglar ledtrådsceller uppifrån-ner för vertikal symmetriövning. När Horisontell eller Vertikal är valt, låter en del-att-avslöja-väljare dig välja vilken halva som visas som ledtrådar.',
       },
       {
         title: 'Välj en svartvit temabild eller ladda upp egen',
@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till text och anpassa arbetsytan',
-        description: 'Använd panelen Textverktyg för att lägga till en arbetsblads-titel, instruktioner eller dekorativ text. Välj bland typsnitt som Lexend Deca, Baloo 2, Nunito, Quicksand och Fredoka. Växla namn/datum-fält för elevidentifieringsområden. Den autogenererade rubriken lokaliseras på alla 11 stödda språk. Dra, ändra storlek, rotera och flytta varje element på Fabric.js-arbetsytan.',
+        description: 'Använd panelen Textverktyg för att lägga till en arbetsblads-titel, instruktioner eller dekorativ text. Välj bland typsnitt som Lexend Deca, Baloo 2, Nunito, Quicksand och Fredoka. Växla namn/datum-fält för identifieringsområden. Den autogenererade rubriken lokaliseras på alla 11 stödda språk. Dra, ändra storlek, rotera och flytta varje element på Fabric.js-arbetsytan.',
       },
       {
         title: 'Växla gråskala och ladda ner',
-        description: 'Aktivera gråskala för bläckvänliga versioner idealiska för klassrumsutskrift och KDP-interiörer. Ladda ner ditt arbetsblad som högupplöst JPEG eller tryckfärdig PDF med 300 DPI. Varje export inkluderar både övningsrutnätet (tomma celler för ritning) och ledtrådsrutnätet (partiell referensbild). Inget separat facit behövs — ledtrådsrutnätet i sig fungerar som lösningsreferens. Varje export är produktionsklar.',
+        description: 'Aktivera gråskala för bläckvänliga versioner idealiska för volymutskrift och KDP-interiörer. Ladda ner ditt arbetsblad som högupplöst JPEG eller tryckfärdig PDF med 300 DPI. Varje export inkluderar både övningsrutnätet (tomma celler för ritning) och ledtrådsrutnätet (partiell referensbild). Inget separat facit behövs — ledtrådsrutnätet i sig fungerar som lösningsreferens. Varje export är produktionsklar.',
       },
     ],
   },
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Symmetri och rumsligt resonemang arbetsblad',
-      description: 'Använd Horisontell och Vertikal spegellägen för att skapa arbetsblad som överbryggar konst och matte. Eleverna ser ledtrådsceller på ena sidan av rutnätet och måste rekonstruera spegelbilden på den motsatta sidan. Ett Horisontellt symmetripaket lär ut bilateral symmetri — grundläggande för geometri och biologi. Ett Vertikalt symmetripaket riktar sig mot uppifrån-och-ner spegelkänning. Dessa resurser säljer exceptionellt bra i både konst- och mattekategorier på TPT.',
+      description: 'Använd Horisontell och Vertikal spegellägen för att skapa arbetsblad som överbryggar konst och matte. användarna ser ledtrådsceller på ena sidan av rutnätet och måste rekonstruera spegelbilden på den motsatta sidan. Ett Horisontellt symmetripaket lär ut bilateral symmetri — grundläggande för geometri och biologi. Ett Vertikalt symmetripaket riktar sig mot uppifrån-och-ner spegelkänning. Dessa resurser säljer exceptionellt bra i både konst- och mattekategorier på Gumroad.',
     },
     {
       title: 'Tematiska svartvita färgläggning-efter-ritning set',
-      description: 'Utnyttja det svartvita konturbiblioteket för att skapa ritningsövningar som också fungerar som färgläggningsaktiviteter. Eleverna reproducerar först konturen genom att kopiera celler från ledtrådsrutnätet, sedan färglägger de sin färdiga ritning. Bondgårdsdjur, dinosaurier, havsdjur, fordon och högtidsteman blir var och en distinkta produktannonser. Rita-sedan-färglägg formatet levererar två aktiviteter per sida.',
+      description: 'Utnyttja det svartvita konturbiblioteket för att skapa ritningsövningar som också fungerar som färgläggningsaktiviteter. användarna reproducerar först konturen genom att kopiera celler från ledtrådsrutnätet, sedan färglägger de sin färdiga ritning. Bondgårdsdjur, dinosaurier, havsdjur, fordon och högtidsteman blir var och en distinkta produktannonser. Rita-sedan-färglägg formatet levererar två aktiviteter per sida.',
     },
     {
       title: 'Anpassade bild ämnesspecifika rutnätsövningar',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers symmetristationer',
-      description: 'Ladda upp rutnätsritning arbetsbladspaket till TPT organiserade efter symmetriläge som undervisningsfokus. Nivå 1 använder Slumpmässig ledtrådsplacering för allmän ritningsövning. Nivå 2 introducerar Horisontellt spegelläge. Nivå 3 använder Vertikalt spegelläge. Nivå 4 kombinerar låg ledtrådsprocent med spegelläge. Dessa resurser överbryggar konst- och mattestandards.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad symmetristationer',
+      description: 'Ladda upp rutnätsritning arbetsbladspaket till Gumroad organiserade efter symmetriläge som undervisningsfokus. Nivå 1 använder Slumpmässig ledtrådsplacering för allmän ritningsövning. Nivå 2 introducerar Horisontellt spegelläge. Nivå 3 använder Vertikalt spegelläge. Nivå 4 kombinerar låg ledtrådsprocent med spegelläge. Dessa resurser överbryggar konst- och mattestandards.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest rutnätsritning visuell tratt',
-      description: 'Rutnätsritning arbetsblad med den distinkta dubbelrutnätslayouten gör iögonfallande Pinterest-pins som sticker ut. Pinna provarbetsblad som visar olika ledtrådsprocent och symmetrilägen med vattenstämpel. Det textfria formatet innebär att pins tilltalar föräldrar och lärare i varje land.',
+      description: 'Rutnätsritning arbetsblad med den distinkta dubbelrutnätslayouten gör iögonfallande Pinterest-pins som sticker ut. Pinna provarbetsblad som visar olika ledtrådsprocent och symmetrilägen med vattenstämpel. Det textfria formatet innebär att pins tilltalar föräldrar och säljare i varje land.',
       platform: 'Pinterest',
     },
     {
@@ -129,11 +129,11 @@ const content: ToolContent = {
     },
     {
       title: 'Utnyttja symmetrilägen som undervisningsverktyg',
-      description: 'Horisontella och Vertikala spegellägen förvandlar rutnätsritning från en konstaktivitet till en rumslig resonemangövning som överbryggar konst- och matteläroplaner. Eleverna ser ledtrådsceller på ena halvan och måste rekonstruera spegelbilden på den motsatta halvan. Detta lär ut bilateral och vertikal symmetri medan de övar ritning — två lärandemål från ett arbetsblad.',
+      description: 'Horisontella och Vertikala spegellägen förvandlar rutnätsritning från en konstaktivitet till en rumslig resonemangövning som överbryggar konst- och matteproduktkataloger. användarna ser ledtrådsceller på ena halvan och måste rekonstruera spegelbilden på den motsatta halvan. Detta lär ut bilateral och vertikal symmetri medan de övar ritning — två lärandemål från ett arbetsblad.',
     },
     {
       title: 'Framhäv svartvita konturer som dubbelaktivitetsformat',
-      description: 'Det svartvita konturbiblioteket är designat för ritning först, färgläggning sedan. Efter att eleverna reproducerat konturen genom att kopiera celler från ledtrådsrutnätet, färglägger de sin färdiga ritning. Detta levererar två aktiviteter per sida — rumslig reproduktion och kreativ färgläggning. Framhäv detta rita-sedan-färglägg arbetsflöde i dina produktbeskrivningar.',
+      description: 'Det svartvita konturbiblioteket är designat för ritning först, färgläggning sedan. Efter att användarna reproducerat konturen genom att kopiera celler från ledtrådsrutnätet, färglägger de sin färdiga ritning. Detta levererar två aktiviteter per sida — rumslig reproduktion och kreativ färgläggning. Framhäv detta rita-sedan-färglägg arbetsflöde i dina produktbeskrivningar.',
     },
     {
       title: 'Framhäv dubbelrutnätet som premiumformat',
@@ -144,8 +144,8 @@ const content: ToolContent = {
       description: 'Strukturera arbetsböcker där varje kapitel minskar ledtrådsprocenten: Kapitel 1 vid 75%, Kapitel 2 vid 50%, Kapitel 3 vid 25%, Kapitel 4 vid 10%. Inom varje kapitel, öka också rutnätsstorleken från 4×4 till 8×8. Denna dubbla progression levererar en tillfredsställande svårighetskurva.',
     },
     {
-      title: 'Använd gråskala för KDP och klassrumsutskrift',
-      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller klassrumsbulkutskrift. Svartvita konturteman är naturligt anpassade för gråskaleexport — rena linjer reproduceras perfekt i svartvitt.',
+      title: 'Använd gråskala för KDP och volymutskrift',
+      description: 'Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvita konturteman är naturligt anpassade för gråskaleexport — rena linjer reproduceras perfekt i svartvitt.',
     },
     {
       title: 'Kombinera rutnätsritning med andra visuella verktyg för premiumpaket',
@@ -160,27 +160,27 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar dubbelrutnätssystemet?',
-      answer: 'Varje bild du väljer genererar två kompanjonrutnät. Övningsrutnätet har tomma celler med lätta konturer där eleverna ritar sin reproduktion. Ledtrådsrutnätet visar en konfigurerbar procentandel av referensbilden — vissa celler fyllda med delar av bilden, andra lämnade tomma. Eleverna tittar på ledtrådsrutnätet, identifierar vilka celler som visar referensinnehåll, och reproducerar hela bilden cell-för-cell i övningsrutnätet.',
+      answer: 'Varje bild du väljer genererar två kompanjonrutnät. Övningsrutnätet har tomma celler med lätta konturer där användarna ritar sin reproduktion. Ledtrådsrutnätet visar en konfigurerbar procentandel av referensbilden — vissa celler fyllda med delar av bilden, andra lämnade tomma. användarna tittar på ledtrådsrutnätet, identifierar vilka celler som visar referensinnehåll, och reproducerar hela bilden cell-för-cell i övningsrutnätet.',
     },
     {
       question: 'Vad kontrollerar ledtrådsprocentreglaget?',
-      answer: 'Ledtrådsprocenten (10%–75%) bestämmer vilken andel av ledtrådsrutnätets celler som avslöjar referensbilden. Vid 75% visar tre fjärdedelar av cellerna bilden och eleverna fyller i bara den återstående fjärdedelen. Vid 50% är hälften av cellerna synliga för en måttlig utmaning. Vid 25% rekonstruerar eleverna från spridda fragment. Vid 10% syns knappt någon referens för en maximal utmaning.',
+      answer: 'Ledtrådsprocenten (10%–75%) bestämmer vilken andel av ledtrådsrutnätets celler som avslöjar referensbilden. Vid 75% visar tre fjärdedelar av cellerna bilden och användarna fyller i bara den återstående fjärdedelen. Vid 50% är hälften av cellerna synliga för en måttlig utmaning. Vid 25% rekonstruerar användarna från spridda fragment. Vid 10% syns knappt någon referens för en maximal utmaning.',
     },
     {
       question: 'Hur fungerar symmetri- och spegellägen?',
-      answer: 'Tre lägen kontrollerar hur ledtrådsceller placeras. Slumpmässig sprider ledtrådsceller i godtyckliga positioner för allmän ritningsövning. Horisontell speglar ledtrådsceller vänster-höger — eleverna ser ena sidan och måste rita spegelbilden på den andra. Vertikal speglar ledtrådsceller uppifrån-ner. När Horisontell eller Vertikal är valt, låter en del-att-avslöja-väljare dig välja vilken halva som visas som ledtrådar (vänster/höger eller övre/undre).',
+      answer: 'Tre lägen kontrollerar hur ledtrådsceller placeras. Slumpmässig sprider ledtrådsceller i godtyckliga positioner för allmän ritningsövning. Horisontell speglar ledtrådsceller vänster-höger — användarna ser ena sidan och måste rita spegelbilden på den andra. Vertikal speglar ledtrådsceller uppifrån-ner. När Horisontell eller Vertikal är valt, låter en del-att-avslöja-väljare dig välja vilken halva som visas som ledtrådar (vänster/höger eller övre/undre).',
     },
     {
       question: 'Varför använder denna app svartvita konturteman istället för färgglada?',
-      answer: 'Rita och Färglägg använder svartvita konturillustrationer specifikt designade för ritnings- och färgläggningsaktiviteter. Rena konturer är idealiska för cell-för-cell reproduktion — eleverna kan tydligt se linjerna de behöver kopiera. Efter att ha slutfört ritningen kan eleverna färglägga sin reproduktion som en extra aktivitet. Svartvita formatet skrivs ut perfekt i svartvitt.',
+      answer: 'Rita och Färglägg använder svartvita konturillustrationer specifikt designade för ritnings- och färgläggningsaktiviteter. Rena konturer är idealiska för cell-för-cell reproduktion — användarna kan tydligt se linjerna de behöver kopiera. Efter att ha slutfört ritningen kan användarna färglägga sin reproduktion som en extra aktivitet. Svartvita formatet skrivs ut perfekt i svartvitt.',
     },
     {
       question: 'Varför finns det inget separat facit?',
-      answer: 'Ledtrådsrutnätet i sig fungerar som referenslösningen. Eleverna jämför sitt färdiga övningsrutnät mot den ursprungliga källbilden när som helst. Det finns inget behov av en separat facitfil — dubbelrutnätsformatet inkluderar naturligt lösningsreferensen.',
+      answer: 'Ledtrådsrutnätet i sig fungerar som referenslösningen. användarna jämför sitt färdiga övningsrutnät mot den ursprungliga källbilden när som helst. Det finns inget behov av en separat facitfil — dubbelrutnätsformatet inkluderar naturligt lösningsreferensen.',
     },
     {
       question: 'Vilka rutnätsstorlekar kan jag konfigurera?',
-      answer: 'Rader och kolumner är oberoende justerbara från 3 till 10. Ett 3×3-rutnät har 9 stora celler — enkelt för unga elever. Ett 10×10-rutnät har 100 små celler — krävande för avancerade elever. Icke-kvadratiska rutnät som 4×6 eller 8×5 anpassas till olika bildproportioner.',
+      answer: 'Rader och kolumner är oberoende justerbara från 3 till 10. Ett 3×3-rutnät har 9 stora celler — enkelt för unga användare. Ett 10×10-rutnät har 100 små celler — krävande för avancerade användare. Icke-kvadratiska rutnät som 4×6 eller 8×5 anpassas till olika bildproportioner.',
     },
     {
       question: 'Är arbetsbladen språkkänsliga?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja arbetsblad skapade med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja rutnätsritning arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, lärarresurser på TPT eller genom valfri annan försäljningskanal. Dubbelrutnätsformatet, justerbar ledtrådsprocent, symmetrilägen och svartvita konturstil skapar en distinkt produkt.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja rutnätsritning arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, lärarresurser på Gumroad eller genom valfri annan försäljningskanal. Dubbelrutnätsformatet, justerbar ledtrådsprocent, symmetrilägen och svartvita konturstil skapar en distinkt produkt.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -220,7 +220,7 @@ const content: ToolContent = {
       {
         src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%202.webp',
         alt: 'Rutnätsritning arbetsblad med djur svartvitt konturtema vid 25% ledtrådsprocent som visar övningsrutnät och ledtrådsrutnät sida vid sida',
-        caption: 'Djurtema vid 25% ledtrådar — eleverna reproducerar konturen från spridda rutnätstips sedan färglägger sin ritning',
+        caption: 'Djurtema vid 25% ledtrådar — användarna reproducerar konturen från spridda rutnätstips sedan färglägger sin ritning',
       },
       {
         src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%204.webp',

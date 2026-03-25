@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Hitta Udda Bilden Skapare',
     tagline: 'Dubbelläges hitta udda bilden arbetsblad generator med Identiskt läge (3 kloner + 1 annorlunda) och Liknande läge (3 från Tema A + 1 från Tema B), per-övning lägesöverskridning, 5–10 konfigurerbara övningar, automatiskt genererade facit med röda cirkelmarkeringar och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella hitta udda bilden arbetsblad där eleverna identifierar och ringar in bilden som inte hör hemma i varje rad av fyra bilder. Två distinkta lägen: Identiskt läge placerar tre kloner bredvid en annorlunda bild från samma tema — eleverna hittar den som inte är dubblett. Liknande läge hämtar tre bilder från Tema A och en från Tema B — eleverna identifierar den tematiska avvikaren. Per-övning lägesöverskridning med dropdown på varje rad — blanda Identiska och Liknande övningar på ett enda arbetsblad för progressiv svårighet. «Rensa Val»-knapp återställer alla överskridningar. Konfigurera 5–10 övningar (standard 6) med 4 bilder per övning — den uddas position blandas slumpmässigt. Layouten anpassas automatiskt med 2-kolumner för liggande sidor och stående med 7+ övningar. Tvåtemasystem för korsande kategoridiskrimineringspussel. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit ritar röda cirkelkonturer runt det udda objektet med dynamiskt skalad streckbredd (max(imageSize × 0,04, 3px)). En stiliserad rubrik med korall yttre ram (#FF6B6B), bärnstensfärgad inre ram (#FFB84D) och turkos bakgrund (#4ECDC4) visar «Hitta den som inte hör hemma» lokaliserad på alla 11 språk. INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella hitta udda bilden arbetsblad där användarna identifierar och ringar in bilden som inte hör hemma i varje rad av fyra bilder. Två distinkta lägen: Identiskt läge placerar tre kloner bredvid en annorlunda bild från samma tema — användarna hittar den som inte är dubblett. Liknande läge hämtar tre bilder från Tema A och en från Tema B — användarna identifierar den tematiska avvikaren. Per-övning lägesöverskridning med dropdown på varje rad — blanda Identiska och Liknande övningar på ett enda arbetsblad för progressiv svårighet. «Rensa Val»-knapp återställer alla överskridningar. Konfigurera 5–10 övningar (standard 6) med 4 bilder per övning — den uddas position blandas slumpmässigt. Layouten anpassas automatiskt med 2-kolumner för liggande sidor och stående med 7+ övningar. Tvåtemasystem för korsande kategoridiskrimineringspussel. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit ritar röda cirkelkonturer runt det udda objektet med dynamiskt skalad streckbredd (max(imageSize × 0,04, 3px)). En stiliserad rubrik med korall yttre ram (#FF6B6B), bärnstensfärgad inre ram (#FFB84D) och turkos bakgrund (#4ECDC4) visar «Hitta den som inte hör hemma» lokaliserad på alla 11 språk. INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -72,12 +72,12 @@ const content: ToolContent = {
       description: 'Sammanställ 50–80 arbetsblad till tryckta arbetsböcker för Amazon KDP. Strukturera kapitel: Kapitel 1 Identiskt läge, Kapitel 2 Liknande läge med uppenbara kontraster, Kapitel 3 Liknande läge med subtilare distinktioner. Facitsidor med röda cirkelmarkeringar i slutet. Växla gråskala. Det rent visuella formatet kräver ingen översättning.',
     },
     {
-      title: 'Klassrums kritiskt tänkande-aktiviteter med facit',
-      description: 'Bygg klassrumsfärdiga arbetsblad med namn/datum-fält, övningsnummer och facit. Skapa läroplansangränsande set. Per-övning överskridning skapar differentierade versioner på samma sida. Varje arbetsblad exporteras med autogenererat facit.',
+      title: 'produktlinjes kritiskt tänkande-aktiviteter med facit',
+      description: 'Bygg produktlinjesfärdiga arbetsblad med namn/datum-fält, övningsnummer och facit. Skapa produktkatalogsangränsande set. Per-övning överskridning skapar nivågrupperade versioner på samma sida. Varje arbetsblad exporteras med autogenererat facit.',
     },
     {
       title: 'Blandsvårighets progressiva pusselsidor',
-      description: 'Använd per-övning lägesöverskridning för progressiv svårighet — börja med 3 Identiska övningar för uppvärmning, övergå till 3 Liknande för huvudutmaningen. Föräldrar och lärare betalar premiumpriser för inbyggd differentiering.',
+      description: 'Använd per-övning lägesöverskridning för progressiv svårighet — börja med 3 Identiska övningar för uppvärmning, övergå till 3 Liknande för huvudutmaningen. Föräldrar och säljare betalar premiumpriser för inbyggd differentiering.',
     },
     {
       title: 'Säsongsbetonade hitta udda bilden samlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums hitta udda bilden aktivitetspaket',
-      description: 'Ladda upp aktivitetspaket till TPT med namn/datum-fält, övningsnummer och autogenererade facit. Lärare söker efter kritiskt tänkande och visuella diskrimineringsaktiviteter. Skapa läroplansangränsande set. Varje paket inkluderar Identiskt läge för guidad instruktion och Liknande läge för självständig utmaning — per-övning överskridning kombinerar båda på en sida.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes hitta udda bilden aktivitetspaket',
+      description: 'Ladda upp aktivitetspaket till Gumroad med namn/datum-fält, övningsnummer och autogenererade facit. säljare söker efter kritiskt tänkande och visuella diskrimineringsaktiviteter. Skapa produktkatalogsangränsande set. Varje paket inkluderar Identiskt läge för guidad instruktion och Liknande läge för självständig utmaning — per-övning överskridning kombinerar båda på en sida.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest hitta udda bilden trafiktratt',
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Välj distinkta temaparningar för Liknande läge',
-      description: 'Kvaliteten beror på hur tydligt det udda objektet sticker ut. Välj uppenbara kategoriskillnader för yngre elever — djur mot fordon. Använd subtilare parningar för avancerade produkter — husdjur mot vilda djur, frukt mot grönsaker. Tvåtemasystemet låter dig kontrollera svårighet genom enbart temaval.',
+      description: 'Kvaliteten beror på hur tydligt det udda objektet sticker ut. Välj uppenbara kategoriskillnader för yngre användare — djur mot fordon. Använd subtilare parningar för avancerade produkter — husdjur mot vilda djur, frukt mot grönsaker. Tvåtemasystemet låter dig kontrollera svårighet genom enbart temaval.',
     },
     {
       title: 'Använd per-övning överskridningar för premium progressiv svårighet',
-      description: 'Per-övning läges-dropdown skapar progressiva arbetsblad som betjänar flera nivåer på en sida. Börja med 2–3 Identiska övningar, övergå till 3–4 Liknande. Märk dina annonser som «progressiv svårighet» eller «differentierad utmaning». «Rensa Val»-knappen gör experiment snabbt.',
+      description: 'Per-övning läges-dropdown skapar progressiva arbetsblad som betjänar flera nivåer på en sida. Börja med 2–3 Identiska övningar, övergå till 3–4 Liknande. Märk dina annonser som «progressiv svårighet» eller «nivågrupperad utmaning». «Rensa Val»-knappen gör experiment snabbt.',
     },
     {
       title: 'Utnyttja det rent visuella formatet för global försäljning',
@@ -141,10 +141,10 @@ const content: ToolContent = {
     },
     {
       title: 'Utnyttja övningsantal för åldersriktade produkter',
-      description: 'Använd 5 övningar för förskoleprodukter med större bildkort. Använd 8–10 för äldre elever. Layouten anpassas automatiskt med 2-kolumner. Märk annonser med specifika åldersintervall.',
+      description: 'Använd 5 övningar för förskoleprodukter med större bildkort. Använd 8–10 för äldre användare. Layouten anpassas automatiskt med 2-kolumner. Märk annonser med specifika åldersintervall.',
     },
     {
-      title: 'Använd gråskaleväxling för budgetvänliga klassrumsprodukter',
+      title: 'Använd gråskaleväxling för budgetvänliga produktlinjesprodukter',
       description: 'Skapa dubbelformats paket med både färg och gråskala. Köpare uppfattar det som dubbelt värde. KDP tryck drar också nytta av gråskaleoptimering.',
     },
     {
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vilka är de två genereringslägena?',
-      answer: 'Identiskt läge — tre kloner av samma bild bredvid en annorlunda bild från samma tema, eleverna hittar den som inte är dubblett. Liknande läge — tre bilder från Tema A och en från Tema B, eleverna identifierar den tematiska avvikaren. Överskrid läget per övning med dropdown på varje rad.',
+      answer: 'Identiskt läge — tre kloner av samma bild bredvid en annorlunda bild från samma tema, användarna hittar den som inte är dubblett. Liknande läge — tre bilder från Tema A och en från Tema B, användarna identifierar den tematiska avvikaren. Överskrid läget per övning med dropdown på varje rad.',
     },
     {
       question: 'Hur fungerar per-övning lägesöverskridning?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag lägga till namn/datum-fält och övningsnummer?',
-      answer: 'Ja. Oberoende kryssrutor. Namn/datum-fält för klassrumsansvar. Övningsnummer (25px bredd, 15px gap) för enkel referens under genomgång. Båda kan aktiveras tillsammans eller separat.',
+      answer: 'Ja. Oberoende kryssrutor. Namn/datum-fält för produktlinjesansvar. Övningsnummer (25px bredd, 15px gap) för enkel referens under genomgång. Båda kan aktiveras tillsammans eller separat.',
     },
     {
       question: 'Är Hitta Udda Bilden Skaparen språkkänslig?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja hitta udda bilden arbetsblad kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan kanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

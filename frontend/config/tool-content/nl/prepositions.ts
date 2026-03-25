@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Voorzetsels Werkblad Maker',
     tagline: 'Maak ruimtelijke voorzetsels werkbladen met twee oefenmodi in 11 talen',
-    description: 'Leer positiewoorden door beeldgebaseerde oefeningen die leerlingen daadwerkelijk leuk vinden en verkopers solide inkomsten opleveren. Deze tool genereert voorzetsels werkbladen waarbij leerlingen ruimtelijke relaties identificeren — op, onder, boven, naast, tussen, binnen, buiten — door afbeeldingsscènes te bestuderen en het correcte voorzetsel in te vullen of te selecteren. Kies tussen twee oefenmodi: Invuloefening, waarbij leerlingen het correcte voorzetsel zelf schrijven, of Meerkeuze, waarbij ze kiezen uit opties met een aanpasbare instructieregel. Stel 1–8 oefeningen per werkblad in en selecteer precies welke voorzetsels je wilt opnemen via het selectievakjesraster. De opvallende functie van de tool is Vormvervanging — een aparte afbeeldingslaag laat je scènevormen onafhankelijk wisselen, waardoor veel meer visuele combinaties ontstaan dan een enkele afbeeldingenset zou bieden. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en elk voorzetsel wordt bijgewerkt naar het moedertaal-equivalent. Duits gebruikt „auf, unter, über, neben, zwischen, drinnen, draußen"; Frans gebruikt «sur, sous, au-dessus, à côté, entre, dedans, dehors». Eén werkbladontwerp wordt 11 unieke taalproducten. Blader door meer dan 3100 afbeeldingen over 104 thema\'s, upload je eigen PNG of JPEG voor merkgebonden ontwerpen, en kies uit meerdere sjablonen en 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Leer positiewoorden door beeldgebaseerde oefeningen die gebruikers daadwerkelijk leuk vinden en verkopers solide inkomsten opleveren. Deze tool genereert voorzetsels werkbladen waarbij gebruikers ruimtelijke relaties identificeren — op, onder, boven, naast, tussen, binnen, buiten — door afbeeldingsscènes te bestuderen en het correcte voorzetsel in te vullen of te selecteren. Kies tussen twee oefenmodi: Invuloefening, waarbij gebruikers het correcte voorzetsel zelf schrijven, of Meerkeuze, waarbij ze kiezen uit opties met een aanpasbare instructieregel. Stel 1–8 oefeningen per werkblad in en selecteer precies welke voorzetsels je wilt opnemen via het selectievakjesraster. De opvallende functie van de tool is Vormvervanging — een aparte afbeeldingslaag laat je scènevormen onafhankelijk wisselen, waardoor veel meer visuele combinaties ontstaan dan een enkele afbeeldingenset zou bieden. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en elk voorzetsel wordt bijgewerkt naar het moedertaal-equivalent. Duits gebruikt „auf, unter, über, neben, zwischen, drinnen, draußen"; Frans gebruikt «sur, sous, au-dessus, à côté, entre, dedans, dehors». Eén werkbladontwerp wordt 11 unieke taalproducten. Blader door meer dan 3100 afbeeldingen over 104 thema\'s, upload je eigen PNG of JPEG voor merkgebonden ontwerpen, en kies uit meerdere sjablonen en 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Kies je oefenmodus',
-        description: 'Selecteer Invuloefening of Meerkeuze. Invuloefening toont een afbeeldingsscène met een lege lijn waar leerlingen het correcte voorzetsel schrijven. Meerkeuze toont opties waaruit leerlingen kunnen kiezen, met een aanpasbare beschrijvingsregel die je kunt bewerken om bij je instructiestijl te passen. Invuloefening past bij oudere leerlingen; Meerkeuze werkt het beste voor beginners.',
+        description: 'Selecteer Invuloefening of Meerkeuze. Invuloefening toont een afbeeldingsscène met een lege lijn waar gebruikers het correcte voorzetsel schrijven. Meerkeuze toont opties waaruit gebruikers kunnen kiezen, met een aanpasbare beschrijvingsregel die je kunt bewerken om bij je instructiestijl te passen. Invuloefening past bij oudere gebruikers; Meerkeuze werkt het beste voor beginners.',
       },
       {
         title: 'Selecteer voorzetsels',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Voorzetsels Pakketten',
-      description: 'Maak sets van 10–15 voorzetsels werkbladen met thematische beeldcollecties — dieren, voertuigen, huishoudelijke voorwerpen, natuurscènes. Elk werkblad gebruikt verschillende afbeeldingen en vormcombinaties op een consistent moeilijkheidsniveau. Bundel per thema en verkoop op Etsy.nl of TPT. Het afbeeldingsscène-formaat maakt je vermeldingsminiaturen visueel aantrekkelijk vergeleken met tekstgebaseerde grammaticabladen. Thematische pakketten moedigen herhaalaankopen aan: een koper die je dieren voorzetsels pakket leuk vindt komt waarschijnlijk terug voor voertuigen of feestdagen. Positioneer op €3–€5 per thema.',
+      description: 'Maak sets van 10–15 voorzetsels werkbladen met thematische beeldcollecties — dieren, voertuigen, huishoudelijke voorwerpen, natuurscènes. Elk werkblad gebruikt verschillende afbeeldingen en vormcombinaties op een consistent moeilijkheidsniveau. Bundel per thema en verkoop op Etsy.nl of Gumroad. Het afbeeldingsscène-formaat maakt je vermeldingsminiaturen visueel aantrekkelijk vergeleken met tekstgebaseerde grammaticabladen. Thematische pakketten moedigen herhaalaankopen aan: een koper die je dieren voorzetsels pakket leuk vindt komt waarschijnlijk terug voor voertuigen of feestdagen. Positioneer op €3–€5 per thema.',
     },
     {
       title: 'KDP Ruimtelijke Activiteitenboeken',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gedifferentieerde Oefenmodus Sets',
-      description: 'Genereer twee versies van elk thematisch werkblad: Meerkeuze voor jongere of worsterende leerlingen, en Invuloefening voor leerlingen die klaar zijn voor zelfstandig oproepen. Leerkrachten kunnen de juiste versie aan elke leerling geven op basis van hun niveau. Verkoop als gedifferentieerd pakket op een premiumprijspunt op TPT of Etsy.nl.',
+      description: 'Genereer twee versies van elk thematisch werkblad: Meerkeuze voor jongere of worsterende gebruikers, en Invuloefening voor gebruikers die klaar zijn voor zelfstandig oproepen. verkopers kunnen de juiste versie aan elke gebruiker geven op basis van hun niveau. Verkoop als gedifferentieerd pakket op een premiumprijspunt op Gumroad of Etsy.nl.',
     },
     {
       title: 'Meertalige Voorzetsels Producten',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seizoensgebonden Voorzetsels Bundels',
-      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Voorzetsels" pakket met feestelijke scènes — cadeautjes onder de schoorsteen, pepernoten op de tafel, chocoladeletters in de schoen — verkoopt sterk in november. Kerstmis, terug-naar-school, Halloween en lentethema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en TPT.',
+      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Voorzetsels" pakket met feestelijke scènes — cadeautjes onder de schoorsteen, pepernoten op de tafel, chocoladeletters in de schoen — verkoopt sterk in november. Kerstmis, terug-naar-school, Halloween en lentethema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Grammatica Bundels',
-      description: 'Upload voorzetsels werkbladpakketten naar TPT georganiseerd per moeilijkheid en oefenmodus. Voeg Invuloefening sets, Meerkeuze sets en gemengde-modus bundels met antwoordbladen voor elke pagina toe. Leerkrachten zoeken frequent naar "voorzetsels werkbladen" en "ruimtelijke taal activiteiten". Het afbeeldingsscène-formaat voegt waargenomen waarde toe omdat leerlingen met visuele context werken in plaats van abstracte invulzinnen.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Grammatica Bundels',
+      description: 'Upload voorzetsels werkbladpakketten naar Gumroad georganiseerd per moeilijkheid en oefenmodus. Voeg Invuloefening sets, Meerkeuze sets en gemengde-modus bundels met antwoordbladen voor elke pagina toe. verkopers zoeken frequent naar "voorzetsels werkbladen" en "ruimtelijke taal activiteiten". Het afbeeldingsscène-formaat voegt waargenomen waarde toe omdat gebruikers met visuele context werken in plaats van abstracte invulzinnen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Dubbele-Modus Voorzetsels Kits',
-      description: 'Maak premium voorzetsels kits op Gumroad die zowel Invuloefening als Meerkeuze versies van elk werkblad bevatten, plus antwoordbladen en een gebruikershandleiding. Bundel 5–11 taalversies in één meertalig product. Richt je op NT2-docenten, tweetalige gezinnen en internationale scholen die ruimtelijke taalmaterialen in meerdere talen nodig hebben. Prijs op €12–€19.',
+      description: 'Maak premium voorzetsels kits op Gumroad die zowel Invuloefening als Meerkeuze versies van elk werkblad bevatten, plus antwoordbladen en een gebruikershandleiding. Bundel 5–11 taalversies in één meertalig product. Richt je op NT2-verkopers, tweetalige gezinnen en internationale scholen die ruimtelijke taalmaterialen in meerdere talen nodig hebben. Prijs op €12–€19.',
       platform: 'Gumroad',
     },
     {
@@ -117,19 +117,19 @@ const content: ToolContent = {
     },
     {
       title: 'Vormvervanging Variatiepakketten op Etsy',
-      description: 'Benut de Vormvervanging functie om enorme variatiepakketten te maken. Combineer 10 hoofdafbeeldingen met 10 verschillende vormen om 100 unieke oefeningenscènes te produceren vanuit slechts 20 bronafbeeldingen. Verkoop deze als "100-Pagina Voorzetsels Megapakket" op Etsy.nl — het enorme volume rechtvaardigt een premiumprijs, en de visuele variatie houdt leerlingen betrokken door het hele werkboek.',
+      description: 'Benut de Vormvervanging functie om enorme variatiepakketten te maken. Combineer 10 hoofdafbeeldingen met 10 verschillende vormen om 100 unieke oefeningenscènes te produceren vanuit slechts 20 bronafbeeldingen. Verkoop deze als "100-Pagina Voorzetsels Megapakket" op Etsy.nl — het enorme volume rechtvaardigt een premiumprijs, en de visuele variatie houdt gebruikers betrokken door het hele werkboek.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Gebruik Invuloefening voor Oudere Leerlingen',
-      description: 'Invuloefening vereist actief oproepen — leerlingen moeten het correcte voorzetsel uit hun geheugen produceren, niet alleen herkennen. Dit past bij groep 3+ en NT2-leerlingen die de positiewoorden al kennen maar schrijfoefening nodig hebben. Het maakt werkbladen ook moeilijker te raden, wat de educatieve waarde verhoogt. Op Etsy en TPT trekken vermeldingen die op oproepgebaseerd leren benadrukken leerkracht-kopers aan die zoeken naar grondige ruimtelijke taaloefening.',
+      title: 'Gebruik Invuloefening voor Oudere gebruikers',
+      description: 'Invuloefening vereist actief oproepen — gebruikers moeten het correcte voorzetsel uit hun geheugen produceren, niet alleen herkennen. Dit past bij groep 3+ en NT2-gebruikers die de positiewoorden al kennen maar schrijfoefening nodig hebben. Het maakt werkbladen ook moeilijker te raden, wat de educatieve waarde verhoogt. Op Etsy en Gumroad trekken vermeldingen die op oproepgebaseerd leren benadrukken verkoper-kopers aan die zoeken naar grondige ruimtelijke taaloefening.',
     },
     {
       title: 'Gebruik Meerkeuze voor Beginners',
-      description: 'Meerkeuze geeft jongere leerlingen of beginnende NT2-leerlingen een ondersteunde ervaring. Ze zien het correcte antwoord tussen opties, wat frustratie vermindert. Pas de instructietekst aan om bij je lesstijl te passen. Begin met 3–4 oefeningen per pagina om nieuwe leerlingen niet te overweldigen. Dit ondersteunde formaat is bijzonder populair bij ouders die printables kopen voor thuisgebruik.',
+      description: 'Meerkeuze geeft jongere gebruikers of beginnende NT2-gebruikers een ondersteunde ervaring. Ze zien het correcte antwoord tussen opties, wat frustratie vermindert. Pas de instructietekst aan om bij je lesstijl te passen. Begin met 3–4 oefeningen per pagina om nieuwe gebruikers niet te overweldigen. Dit ondersteunde formaat is bijzonder populair bij ouders die printables kopen voor thuisgebruik.',
     },
     {
       title: 'Ga Meertalig voor 11× Productbereik',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Bundel Beide Modi in Één Product',
-      description: 'Combineer Invuloefening en Meerkeuze werkbladen in één bundel. Leerkrachten houden van gedifferentieerde pakketten die ze aan leerlingen op verschillende niveaus kunnen geven. Een "Compleet Voorzetsels Pakket" met beide modi, antwoordbladen en een docentenhandleiding rechtvaardigt een hogere prijs dan beide modi apart verkocht.',
+      description: 'Combineer Invuloefening en Meerkeuze werkbladen in één bundel. verkopers houden van gedifferentieerde pakketten die ze aan gebruikers op verschillende niveaus kunnen geven. Een "Compleet Voorzetsels Pakket" met beide modi, antwoordbladen en een verkopershandleiding rechtvaardigt een hogere prijs dan beide modi apart verkocht.',
     },
     {
       title: 'Gebruik Grijstinten voor KDP en Bulkdruk',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hoe werken de twee oefenmodi?',
-      answer: 'Invuloefening toont een afbeeldingsscène met een lege lijn waar leerlingen het correcte voorzetsel schrijven (op, onder, boven, enz.). Meerkeuze presenteert dezelfde scène maar met selecteerbare opties zodat leerlingen het juiste antwoord kiezen. Je kunt de instructietekst in Meerkeuze aanpassen aan je lesstijl.',
+      answer: 'Invuloefening toont een afbeeldingsscène met een lege lijn waar gebruikers het correcte voorzetsel schrijven (op, onder, boven, enz.). Meerkeuze presenteert dezelfde scène maar met selecteerbare opties zodat gebruikers het juiste antwoord kiezen. Je kunt de instructietekst in Meerkeuze aanpassen aan je lesstijl.',
     },
     {
       question: 'Hoe werkt de voorzetsels-selectie?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hoeveel oefeningen kan ik op één pagina plaatsen?',
-      answer: 'Je kunt 1 tot 8 oefeningen per werkblad instellen. Minder oefeningen per pagina geven elke scène meer visuele ruimte, wat goed werkt voor jongere leerlingen. Meer oefeningen per pagina creëren dichtere werkbladen geschikt voor oudere leerlingen of getimede oefeningen. De indeling past zich automatisch aan het oefeningenaantal en paginaformaat aan.',
+      answer: 'Je kunt 1 tot 8 oefeningen per werkblad instellen. Minder oefeningen per pagina geven elke scène meer visuele ruimte, wat goed werkt voor jongere gebruikers. Meer oefeningen per pagina creëren dichtere werkbladen geschikt voor oudere gebruikers of getimede oefeningen. De indeling past zich automatisch aan het oefeningenaantal en paginaformaat aan.',
     },
     {
       question: 'Kan ik mijn eigen afbeeldingen uploaden?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
       question: 'Welke bestandsformaten kan ik downloaden?',

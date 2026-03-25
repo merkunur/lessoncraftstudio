@@ -40,7 +40,7 @@ const content: StartContent = {
     },
     {
       heading: 'Platformeconomie: De Kostenstructuren Begrijpen',
-      content: 'Elke marktplaats neemt een deel van je verkoop. De werkelijke kostenstructuren begrijpen laat je je echte omzet per verkoop berekenen — niet de vermeldingsprijs, maar het bedrag dat op je rekening komt.\n\nEtsy rekent een vermeldingsvergoeding van $0,20 per item (vernieuwd elke vier maanden of bij verkoop), een transactievergoeding van 6,5% over de verkoopprijs inclusief verzending, en betalingsverwerkingskosten van ongeveer 3% plus $0,25 per transactie. Voor een digitale download van €4,99 is de geschatte netto na alle kosten ruwweg €4,15–€4,30. Dit zijn Etsy\'s publiek vermelde tarieven per begin 2026.\n\nAmazon KDP gebruikt een royaltymodel voor paperback boeken: 60% van de catalogusprijs minus drukkosten. Drukkosten hangen af van pagina-aantal, inkttype (zwart-wit versus kleur) en marktplaats. Een zwart-wit activiteitenboek van 100 pagina\'s met een catalogusprijs van $6,99 op Amazon.com heeft drukkosten van ongeveer $2,15, wat een royalty oplevert van ongeveer $2,04 per verkoop. KDP biedt een royaltycalculator zodat je exacte cijfers kunt modelleren.\n\nTeachers Pay Teachers biedt een royaltypercentage van 55% op het basisplan en 80% op het premiumplan ($59,95 per jaar). Gumroad, Payhip en vergelijkbare platforms rekenen variërende kosten afhankelijk van het abonnementsniveau. Directe verkoop via je eigen website (Shopify, WooCommerce) omvat betalingsverwerkingskosten van ongeveer 2,9% plus €0,30 per transactie maar geen marktplaatscommissie.\n\nDit zijn feitelijke, publiek beschikbare platformtarieven. Het zijn geen inkomensvoorspellingen — het zijn de kostenstructuren die je werkelijke per-verkoop omzet op elk platform bepalen.',
+      content: 'Elke marktplaats neemt een deel van je verkoop. De werkelijke kostenstructuren begrijpen laat je je echte omzet per verkoop berekenen — niet de vermeldingsprijs, maar het bedrag dat op je rekening komt.\n\nEtsy rekent een vermeldingsvergoeding van $0,20 per item (vernieuwd elke vier maanden of bij verkoop), een transactievergoeding van 6,5% over de verkoopprijs inclusief verzending, en betalingsverwerkingskosten van ongeveer 3% plus $0,25 per transactie. Voor een digitale download van €4,99 is de geschatte netto na alle kosten ruwweg €4,15–€4,30. Dit zijn Etsy\'s publiek vermelde tarieven per begin 2026.\n\nAmazon KDP gebruikt een royaltymodel voor paperback boeken: 60% van de catalogusprijs minus drukkosten. Drukkosten hangen af van pagina-aantal, inkttype (zwart-wit versus kleur) en marktplaats. Een zwart-wit activiteitenboek van 100 pagina\'s met een catalogusprijs van $6,99 op Amazon.com heeft drukkosten van ongeveer $2,15, wat een royalty oplevert van ongeveer $2,04 per verkoop. KDP biedt een royaltycalculator zodat je exacte cijfers kunt modelleren.\n\nGumroad biedt een royaltypercentage van 55% op het basisplan en 80% op het premiumplan ($59,95 per jaar). Gumroad, Payhip en vergelijkbare platforms rekenen variërende kosten afhankelijk van het abonnementsniveau. Directe verkoop via je eigen website (Shopify, WooCommerce) omvat betalingsverwerkingskosten van ongeveer 2,9% plus €0,30 per transactie maar geen marktplaatscommissie.\n\nDit zijn feitelijke, publiek beschikbare platformtarieven. Het zijn geen inkomensvoorspellingen — het zijn de kostenstructuren die je werkelijke per-verkoop omzet op elk platform bepalen.',
     },
     {
       heading: 'Prijsstrategieën voor Printbare Werkbladen',
@@ -48,7 +48,7 @@ const content: StartContent = {
     },
     {
       heading: 'De Catalogusgrootte Factor: Waarom Meer Vermeldingen Ertoe Doen',
-      content: 'Platformalgoritmen op Etsy, Amazon en TPT delen allemaal één fundamenteel kenmerk: ze tonen producten van verkopers met grotere, actieve catalogi vaker dan producten van verkopers met een handvol vermeldingen. Dit is geen geheime algoritme-hack — het is basismarktplaats-wiskunde. Meer vermeldingen creëren meer indexeerbare pagina\'s, meer zoekwoorddoelen en meer mogelijkheden voor het algoritme om je producten te koppelen aan koperszoekopdrachten.\n\nElke vermelding die je maakt is een onafhankelijk ingangspunt voor ontdekking. Een woordzoeker puzzel met dierenthema richt zich op andere zoekopdrachten dan een met eten, voertuigen of feestdagenthema. Een rekenwerkblad voor groep 3 richt zich op andere zoekopdrachten dan een voor groep 5. Elke variatie die je maakt richt zich op een nieuw cluster van koperszoekopdrachten.\n\nWerkblad generators versnellen catalogusopbouw dramatisch omdat elke generator tientallen unieke productvariaties kan produceren. Overweeg één voorbeeld: de woordzoeker generator met 10 beschikbare thema\'s en 3 moeilijkheidsniveaus produceert 30 verschillende productconfiguraties. Voeg 3 verschillende pagina-aantallen toe en je hebt 90 potentiële Etsy-vermeldingen vanuit één generator.\n\nDe praktische conclusie: je catalogus consistent opbouwen in de loop der tijd — wekelijks nieuwe producten toevoegen in plaats van in een enkele burst — is een van de sterkste voorspellers van uiteindelijke verkoop. Platformalgoritmen belonen verkopers die doorlopende activiteit demonstreren.\n\nDe gratis proefversie met watermerk laat je testen hoe snel je variaties kunt produceren voordat je een licentie aanschaft.',
+      content: 'Platformalgoritmen op Etsy, Amazon en Gumroad delen allemaal één fundamenteel kenmerk: ze tonen producten van verkopers met grotere, actieve catalogi vaker dan producten van verkopers met een handvol vermeldingen. Dit is geen geheime algoritme-hack — het is basismarktplaats-wiskunde. Meer vermeldingen creëren meer indexeerbare pagina\'s, meer zoekwoorddoelen en meer mogelijkheden voor het algoritme om je producten te koppelen aan koperszoekopdrachten.\n\nElke vermelding die je maakt is een onafhankelijk ingangspunt voor ontdekking. Een woordzoeker puzzel met dierenthema richt zich op andere zoekopdrachten dan een met eten, voertuigen of feestdagenthema. Een rekenwerkblad voor groep 3 richt zich op andere zoekopdrachten dan een voor groep 5. Elke variatie die je maakt richt zich op een nieuw cluster van koperszoekopdrachten.\n\nWerkblad generators versnellen catalogusopbouw dramatisch omdat elke generator tientallen unieke productvariaties kan produceren. Overweeg één voorbeeld: de woordzoeker generator met 10 beschikbare thema\'s en 3 moeilijkheidsniveaus produceert 30 verschillende productconfiguraties. Voeg 3 verschillende pagina-aantallen toe en je hebt 90 potentiële Etsy-vermeldingen vanuit één generator.\n\nDe praktische conclusie: je catalogus consistent opbouwen in de loop der tijd — wekelijks nieuwe producten toevoegen in plaats van in een enkele burst — is een van de sterkste voorspellers van uiteindelijke verkoop. Platformalgoritmen belonen verkopers die doorlopende activiteit demonstreren.\n\nDe gratis proefversie met watermerk laat je testen hoe snel je variaties kunt produceren voordat je een licentie aanschaft.',
     },
     {
       heading: 'Tijdsinvestering: Hoe de Eerste 90 Dagen Eruitzien',
@@ -60,11 +60,11 @@ const content: StartContent = {
     },
     {
       heading: 'Het Samenstellende Effect van Meerdere Inkomstenstromen',
-      content: 'Een van de sterkste structurele voordelen van een printable bedrijf is dat dezelfde gegenereerde inhoud tegelijkertijd op meerdere platforms kan verkopen. Dit creëert meerdere inkomstenstromen vanuit één productiesessie.\n\nOverweeg een praktisch voorbeeld. Je genereert een set van 50 woordzoeker puzzels met een dierenthema op drie moeilijkheidsniveaus. Vanuit die ene generatiesessie kun je maken: een Etsy digitale download vermelding met een 50-pagina PDF-bundel, een Amazon KDP paperback activiteitenboek met dezelfde 50 pagina\'s plus een omslag, een Teachers Pay Teachers materiaalvermelding, en een Gumroad directe-verkoop vermelding. Vier inkomstenstromen vanuit één productiesessie. Elk platform bereikt andere kopers.\n\nMeertalige uitbreiding vermenigvuldigt dit verder. Hetzelfde woordzoekconcept gegenereerd in het Duits richt zich op Amazon.de en Duitstalige Etsy-kopers. In het Frans richt het zich op Amazon.fr. In het Spaans op Amazon.es en de bredere Spaanstalige wereld.\n\nCross-generator bundeling creëert nog een andere laag. Een "Compleet Dieren Activiteitenpakket" met woordzoekers, kruiswoorden, kleurplaten en rekenwerkbladen verkoopt tegen een premiumprijs omdat het meer variatie biedt.\n\nDe samenstellende wiskunde is eenvoudig. Een verkoper met één product op één platform heeft één inkomstenstroom. Een verkoper met dat product op vier platforms heeft vier. Vertaald in drie talen over vier platforms wordt dat twaalf. Gebundeld met inhoud van drie andere generators vermenigvuldigen de variaties opnieuw.',
+      content: 'Een van de sterkste structurele voordelen van een printable bedrijf is dat dezelfde gegenereerde inhoud tegelijkertijd op meerdere platforms kan verkopen. Dit creëert meerdere inkomstenstromen vanuit één productiesessie.\n\nOverweeg een praktisch voorbeeld. Je genereert een set van 50 woordzoeker puzzels met een dierenthema op drie moeilijkheidsniveaus. Vanuit die ene generatiesessie kun je maken: een Etsy digitale download vermelding met een 50-pagina PDF-bundel, een Amazon KDP paperback activiteitenboek met dezelfde 50 pagina\'s plus een omslag, een Gumroad materiaalvermelding, en een Gumroad directe-verkoop vermelding. Vier inkomstenstromen vanuit één productiesessie. Elk platform bereikt andere kopers.\n\nMeertalige uitbreiding vermenigvuldigt dit verder. Hetzelfde woordzoekconcept gegenereerd in het Duits richt zich op Amazon.de en Duitstalige Etsy-kopers. In het Frans richt het zich op Amazon.fr. In het Spaans op Amazon.es en de bredere Spaanstalige wereld.\n\nCross-generator bundeling creëert nog een andere laag. Een "Compleet Dieren Activiteitenpakket" met woordzoekers, kruiswoorden, kleurplaten en rekenwerkbladen verkoopt tegen een premiumprijs omdat het meer variatie biedt.\n\nDe samenstellende wiskunde is eenvoudig. Een verkoper met één product op één platform heeft één inkomstenstroom. Een verkoper met dat product op vier platforms heeft vier. Vertaald in drie talen over vier platforms wordt dat twaalf. Gebundeld met inhoud van drie andere generators vermenigvuldigen de variaties opnieuw.',
     },
     {
       heading: 'Veelvoorkomende Inkomensmythes in de Printable Bedrijfsruimte',
-      content: 'De printable bedrijfsruimte trekt meer misleidende inkomensclaims aan dan de meeste online bedrijfsniches. De meest voorkomende mythes herkennen beschermt je tegen onrealistische verwachtingen.\n\nMythe: je kunt direct een groot terugkerend inkomen verdienen met minimale inspanning. Realiteit: een printable bedrijf opbouwen dat consistente verkoop genereert vereist aanhoudende inspanning over maanden.\n\nMythe: één product kan transformatief inkomen genereren. Realiteit: printable bedrijfsinkomsten zijn bijna altijd verdeeld over veel producten. Succesvolle verkopers hebben doorgaans tientallen of honderden vermeldingen.\n\nMythe: het bedrijf draait zichzelf na de initiële opzet. Realiteit: actieve verkopers die producten blijven toevoegen, vermeldingen optimaliseren en op markttrends reageren presteren beter dan degenen die een winkel opzetten en weglopen.\n\nMythe: elke printable verkoopt als je het vermeldt. Realiteit: marktonderzoek, nicheselectie en productdifferentiatie zijn enorm belangrijk.\n\nMythe: toolkeuze bepaalt inkomen. Realiteit: de tool is een productieversneller, geen inkomensgarantie. Een hoogwaardige werkblad generator maakt je efficiënter, maar efficiëntie zonder strategie produceert meer producten die mogelijk niet verkopen.',
+      content: 'De printable bedrijfsruimte trekt meer misleidende inkomensclaims aan dan de meeste online bedrijfsniches. De meest voorkomende mythes herkennen beschermt je tegen onrealistische verwachtingen.\n\nMythe: je kunt direct een groot terugkerend inkomen verdienen met minimale inspanning. Realiteit: een printable bedrijf opbouwen dat consistente verkoop genereert vereist aanhoudende inspanning over maanden.\n\nMythe: één product kan transformatief inkomen genereren. Realiteit: printable bedrijfsinkomsten zijn bijna altijd verdeeld over veel producten. Succesvolle verkopers hebben doorgaans tientallen of honderden vermeldingen.\n\nMythe: het bedrijf draait zichzelf na de initiële opzet. Realiteit: actieve verkopers die producten blijven toevoegen, vermeldingen optimaliseren en op markttrends reageren presteren beter dan degenen die een winkel opzetten en weglopen.\n\nMythe: elke printable verkoopt als je het vermeldt. Realiteit: marktonderzoek, nicheselectie en productgetrapte productpakketten zijn enorm belangrijk.\n\nMythe: toolkeuze bepaalt inkomen. Realiteit: de tool is een productieversneller, geen inkomensgarantie. Een hoogwaardige werkblad generator maakt je efficiënter, maar efficiëntie zonder strategie produceert meer producten die mogelijk niet verkopen.',
     },
     {
       heading: 'Je Eigen Realistische Inkomensdoelen Stellen',
@@ -87,7 +87,7 @@ const content: StartContent = {
     },
     {
       step: 'Kies Je Startplatform',
-      description: 'Kies één primair platform om te starten: Etsy voor digitale downloads, Amazon KDP voor activiteitenboeken, of TPT voor lesmateriaal. Beheers één platform voordat je uitbreidt naar andere.',
+      description: 'Kies één primair platform om te starten: Etsy voor digitale downloads, Amazon KDP voor activiteitenboeken, of Gumroad voor printbare producten. Beheers één platform voordat je uitbreidt naar andere.',
     },
     {
       step: 'Stel een 30-Dagen Catalogusdoel',
@@ -99,7 +99,7 @@ const content: StartContent = {
     },
     {
       step: 'Vermeld op een Tweede Platform',
-      description: 'Na het vestigen van je aanwezigheid op één platform, pas je producten aan voor een tweede. Een Etsy digitale download kan een KDP paperback of TPT-materiaal worden met minimaal extra werk. Meerdere platforms betekenen meerdere inkomstenstromen.',
+      description: 'Na het vestigen van je aanwezigheid op één platform, pas je producten aan voor een tweede. Een Etsy digitale download kan een KDP paperback of Gumroad-materiaal worden met minimaal extra werk. Meerdere platforms betekenen meerdere inkomstenstromen.',
     },
     {
       step: 'Volg Inputs Wekelijks, Omzet Maandelijks',
@@ -135,7 +135,7 @@ const content: StartContent = {
     {
       appId: 'addition-worksheets',
       title: 'Optelling Werkblad Generator',
-      description: 'Een groenblijvende educatieve standaard met vraag het hele jaar door van ouders en leerkrachten. Rekenoefening werkbladen bieden consistente verkoop over alle seizoenen.',
+      description: 'Een groenblijvende educatieve standaard met vraag het hele jaar door van ouders en verkopers. Rekenoefening werkbladen bieden consistente verkoop over alle seizoenen.',
     },
     {
       appId: 'crossword-worksheets',
@@ -155,7 +155,7 @@ const content: StartContent = {
     },
     {
       question: 'Moet ik vooraf geld investeren om printables te beginnen verkopen?',
-      answer: 'Platformkosten zijn de primaire voorafgaande kosten: Etsy rekent €0,20 per vermelding, Amazon KDP heeft geen publicatiekosten, en TPT heeft een kosteloze verkopers-tier. De werkblad generators bieden een gratis proefversie met watermerk zodat je alles kunt testen voordat je een licentie aanschaft. Een Commercieel Pakket licentie begint bij $27 per generator.',
+      answer: 'Platformkosten zijn de primaire voorafgaande kosten: Etsy rekent €0,20 per vermelding, Amazon KDP heeft geen publicatiekosten, en Gumroad heeft een kosteloze verkopers-tier. De werkblad generators bieden een gratis proefversie met watermerk zodat je alles kunt testen voordat je een licentie aanschaft. Een Commercieel Pakket licentie begint bij $27 per generator.',
     },
     {
       question: 'Hoeveel producten moet ik vermelden voordat ik consistente verkoop zie?',
@@ -163,11 +163,11 @@ const content: StartContent = {
     },
     {
       question: 'Welk platform is het best voor het verkopen van printbare werkbladen?',
-      answer: 'Elk platform bedient andere kopertypes. Etsy bereikt digitale download shoppers. Amazon KDP bereikt boekenkopers. TPT bereikt leerkrachten. Het beste startplatform hangt af van je productformaat. De meeste succesvolle verkopers verkopen uiteindelijk op meerdere platforms.',
+      answer: 'Elk platform bedient andere kopertypes. Etsy bereikt digitale download shoppers. Amazon KDP bereikt boekenkopers. Gumroad bereikt verkopers. Het beste startplatform hangt af van je productformaat. De meeste succesvolle verkopers verkopen uiteindelijk op meerdere platforms.',
     },
     {
       question: 'Kan ik dezelfde werkbladen tegelijkertijd op meerdere platforms verkopen?',
-      answer: 'Ja. Je commerciële licentie is platformonafhankelijk. Dezelfde werkbladbundel kan worden vermeld als een Etsy digitale download, geformateerd als een Amazon KDP paperback, geüpload naar TPT, en verkocht op Gumroad of je eigen website. Elk platform bereikt andere kopers.',
+      answer: 'Ja. Je commerciële licentie is platformonafhankelijk. Dezelfde werkbladbundel kan worden vermeld als een Etsy digitale download, geformateerd als een Amazon KDP paperback, geüpload naar Gumroad, en verkocht op Gumroad of je eigen website. Elk platform bereikt andere kopers.',
     },
     {
       question: 'Vervangen werkblad generators de noodzaak voor ontwerpvaardigheden?',
@@ -188,7 +188,7 @@ const content: StartContent = {
     {
       slug: 'werkbladen-maken-die-verkopen',
       title: 'Hoe Werkbladen te Maken Die Verkopen',
-      description: 'Diepgaande kijk op productkwaliteit: ontwerpnormen, differentiatietechnieken en de methoden die werkbladen laten opvallen bij concurrenten op elke marktplaats.',
+      description: 'Diepgaande kijk op productkwaliteit: ontwerpnormen, getrapte productpakkettentechnieken en de methoden die werkbladen laten opvallen bij concurrenten op elke marktplaats.',
     },
     {
       slug: 'etsy-printable-bedrijf',

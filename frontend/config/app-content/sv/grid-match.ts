@@ -7,7 +7,7 @@ const content: AppContent = {
       'utskrivbar rutnätspussel skapare för Etsy-säljare',
       'bildplattor matchnings arbetsblad generator för KDP',
       'rutnätsmatchning pussel skapare kommersiell licens',
-      'sälja rutnätsbildpussel på Teachers Pay Teachers',
+      'sälja rutnätsbildpussel på Gumroad',
     ],
     lsiKeywords: [
       'digitala plattor matchnings utskriftsbara onlineföretag',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Rutmatchning Pussel Generator | Skapa och Sälj',
     metaDescription:
-      'Skapa rutmatchningspussel att sälja på Etsy, KDP och TPT. Konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa rutmatchningspussel att sälja på Etsy, KDP och Gumroad. Konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
     title: 'Rutmatchning Pussel Generator för Bildplattors Matchningsaktiviteter',
     tagline: 'Förvandla vilken bild som helst till ett rutnätsbaserat bildpussel — dela upp den i plattor, visa konfigurerbara ledtrådsceller, blanda återstående plattor till en numrerad palett, och auto-generera ett facit med numrerade cirkelöverlägg över 104 tematiska bildsamlingar.',
     description:
-      'Bygg professionella rutmatchningspussel där en enstaka bild delas upp i ett rutnät av plattor och eleverna matchar numrerade plattor tillbaka till deras korrekta positioner. Konfigurera rutnätet från 2×2 upp till 4×4 (2–4 rader × 2–4 kolumner) och ställ in 1–5 ledtrådsceller som förblir synliga som tips — färre ledtrådar innebär svårare pussel. Appen blandar återstående plattor med Fisher-Yates-randomisering och visar dem i en numrerad palett bredvid eller under rutnätet. Eleverna studerar de synliga ledtrådscellerna, granskar de numrerade plattorna och skriver vilket nummer som hör hemma i varje tom cell. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik — facit visar den kompletta bilden med numrerade cirklar överlagrade på varje cell som visar korrekt plattplacering, så du aldrig behöver skapa facit manuellt. Rutmatchning är INTE språkkänslig: pusselresultatet är rent visuellt utan lokaliserat ordinnehåll på själva arbetsbladet. Samma rutnätspussel fungerar identiskt på alla marknader utan översättning — ett enda skapandeflöde betjänar varje marknad. Språkbytet påverkar bara appgränssnittets menyer, knappar och rubriktext, inte det genererade pusslet. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för appgränssnittet. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera anpassad text med sju typsnittsalternativ, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation över alla rutnätspussel-produkter. Oavsett om du säljer bildpussel-paket på Etsy, sammanställer visuell perception-arbetsböcker för Amazon KDP eller skapar snabbsluts-pusselaktiviteter för TPT — denna generator levererar produktionsfärdiga rutnätspussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella rutmatchningspussel där en enstaka bild delas upp i ett rutnät av plattor och användarna matchar numrerade plattor tillbaka till deras korrekta positioner. Konfigurera rutnätet från 2×2 upp till 4×4 (2–4 rader × 2–4 kolumner) och ställ in 1–5 ledtrådsceller som förblir synliga som tips — färre ledtrådar innebär svårare pussel. Appen blandar återstående plattor med Fisher-Yates-randomisering och visar dem i en numrerad palett bredvid eller under rutnätet. användarna studerar de synliga ledtrådscellerna, granskar de numrerade plattorna och skriver vilket nummer som hör hemma i varje tom cell. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik — facit visar den kompletta bilden med numrerade cirklar överlagrade på varje cell som visar korrekt plattplacering, så du aldrig behöver skapa facit manuellt. Rutmatchning är INTE språkkänslig: pusselresultatet är rent visuellt utan lokaliserat ordinnehåll på själva arbetsbladet. Samma rutnätspussel fungerar identiskt på alla marknader utan översättning — ett enda skapandeflöde betjänar varje marknad. Språkbytet påverkar bara appgränssnittets menyer, knappar och rubriktext, inte det genererade pusslet. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för appgränssnittet. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera anpassad text med sju typsnittsalternativ, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation över alla rutnätspussel-produkter. Oavsett om du säljer bildpussel-paket på Etsy, sammanställer visuell perception-arbetsböcker för Amazon KDP eller skapar snabbsluts-pusselaktiviteter för Gumroad — denna generator levererar produktionsfärdiga rutnätspussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Konfigurera rutnätet',
         description:
-          'Öppna panelen Rutnätsalternativ och ställ in antalet rader (2–4, standard 3) och kolumner (2–4, standard 3) för ditt pusselrutnät. Ställ sedan in antalet ledtrådsceller (1–5, standard 1) — dessa är plattor som förblir synliga på arbetsbladet som tips för eleverna. Ett 3×3-rutnät med 1 ledtråd skapar ett utmanande pussel med 8 plattor att matcha, medan ett 2×2-rutnät med 3 ledtrådar skapar en enkel uppvärmning med bara 1 platta att placera. Denna konfigurerbara svårighetsgrad gör det enkelt att skapa graderade pusselset.',
+          'Öppna panelen Rutnätsalternativ och ställ in antalet rader (2–4, standard 3) och kolumner (2–4, standard 3) för ditt pusselrutnät. Ställ sedan in antalet ledtrådsceller (1–5, standard 1) — dessa är plattor som förblir synliga på arbetsbladet som tips för användarna. Ett 3×3-rutnät med 1 ledtråd skapar ett utmanande pussel med 8 plattor att matcha, medan ett 2×2-rutnät med 3 ledtrådar skapar en enkel uppvärmning med bara 1 platta att placera. Denna konfigurerbara svårighetsgrad gör det enkelt att skapa graderade pusselset.',
       },
       {
         title: 'Välj en bild',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se det automatiskt genererade facit. Det visar den kompletta, oskapade bilden med numrerade cirklar överlagrade på varje rutnätscell — gul bakgrund (#ffffe0) cirklar med svarta konturer som visar vilket palettnummer som hör hemma i varje position. Ladda ner båda versionerna med de fyra dedikerade knapparna: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och TPT-produktfiler.',
+          'Växla till fliken Facit för att se det automatiskt genererade facit. Det visar den kompletta, oskapade bilden med numrerade cirklar överlagrade på varje rutnätscell — gul bakgrund (#ffffe0) cirklar med svarta konturer som visar vilket palettnummer som hör hemma i varje position. Ladda ner båda versionerna med de fyra dedikerade knapparna: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Enbildsrutnätspussel med konfigurerbara rader och kolumner (2–4 × 2–4)',
         description:
-          'Varje pussel börjar med en bild uppdelad i ett rutnät av plattor. Ställ in 2–4 rader och 2–4 kolumner oberoende, vilket skapar rutnät från 2×2 (4 plattor) upp till 4×4 (16 plattor). Standard 3×3-rutnätet producerar 9 plattor — en balanserad svårighetsnivå för de flesta åldrar. Mindre rutnät fungerar bra för introduktionspussel och yngre elever, medan större rutnät utmanar äldre elever och skapar premiumpussel-produkter. Till skillnad från matchningsarbetsblad med flera bilder testar rutnätspusslet rumsligt resonemang och visuell analys av en enda komplett bild.',
+          'Varje pussel börjar med en bild uppdelad i ett rutnät av plattor. Ställ in 2–4 rader och 2–4 kolumner oberoende, vilket skapar rutnät från 2×2 (4 plattor) upp till 4×4 (16 plattor). Standard 3×3-rutnätet producerar 9 plattor — en balanserad svårighetsnivå för de flesta åldrar. Mindre rutnät fungerar bra för introduktionspussel och yngre användare, medan större rutnät utmanar äldre användare och skapar premiumpussel-produkter. Till skillnad från matchningsarbetsblad med flera bilder testar rutnätspusslet rumsligt resonemang och visuell analys av en enda komplett bild.',
       },
       {
         title: 'Justerbart antal ledtrådsceller för skalbar svårighetsgrad (1–5 synliga celler)',
         description:
-          'Kontrollera pusselsvårigheten genom att ställa in 1–5 ledtrådsceller som förblir synliga på arbetsbladet som tips. Med ett 3×3-rutnät och 1 ledtråd måste eleverna matcha 8 blandade plattor — en genuin utmaning. Med 5 ledtrådar på samma rutnät behöver bara 4 plattor matchas — en tillgänglig uppvärmning. Denna enda kontroll förvandlar samma bild till pussel som spänner från lätt till avancerad svårighet, vilket låter dig skapa graderade pusselset från en bild och en rutnätskonfiguration. Standard är 1 ledtrådscell för maximal utmaning.',
+          'Kontrollera pusselsvårigheten genom att ställa in 1–5 ledtrådsceller som förblir synliga på arbetsbladet som tips. Med ett 3×3-rutnät och 1 ledtråd måste användarna matcha 8 blandade plattor — en genuin utmaning. Med 5 ledtrådar på samma rutnät behöver bara 4 plattor matchas — en tillgänglig uppvärmning. Denna enda kontroll förvandlar samma bild till pussel som spänner från lätt till avancerad svårighet, vilket låter dig skapa graderade pusselset från en bild och en rutnätskonfiguration. Standard är 1 ledtrådscell för maximal utmaning.',
       },
       {
         title: 'Blandad numrerad plattpalett med Fisher-Yates-randomisering',
         description:
-          'Dolda plattor blandas med Fisher-Yates-algoritmen och visas i en numrerad palett bredvid rutnätet. Varje platta får ett unikt nummer som eleverna refererar till när de skriver svar. Randomiseringen säkerställer att varje genererat pussel har en annorlunda plattordning, även när samma bild och rutnätsinställningar används. Detta innebär att du kan producera flera unika pusselarbetsblad från en enda bild genom att helt enkelt regenerera — värdefullt för att skapa variationspaket utan att behöva olika källbilder.',
+          'Dolda plattor blandas med Fisher-Yates-algoritmen och visas i en numrerad palett bredvid rutnätet. Varje platta får ett unikt nummer som användarna refererar till när de skriver svar. Randomiseringen säkerställer att varje genererat pussel har en annorlunda plattordning, även när samma bild och rutnätsinställningar används. Detta innebär att du kan producera flera unika pusselarbetsblad från en enda bild genom att helt enkelt regenerera — värdefullt för att skapa variationspaket utan att behöva olika källbilder.',
       },
       {
         title: 'Automatiskt genererat facit med numrerade cirkelöverlägg på komplett bild',
         description:
-          'Varje rutnätspussel genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit visar den kompletta, oskapade bilden med numrerade cirklar överlagrade på varje rutnätscell — gul bakgrund (#ffffe0) cirklar med svarta konturer och svart nummertext i Fredoka-typsnitt. Varje nummer motsvarar den blandade palettordningen från arbetsbladet, och visar elever och lärare exakt vilken platta som hör var. Inget manuellt facitskapande, ingen separat fil — facit förblir perfekt synkroniserat med arbetsbladet.',
+          'Varje rutnätspussel genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit visar den kompletta, oskapade bilden med numrerade cirklar överlagrade på varje rutnätscell — gul bakgrund (#ffffe0) cirklar med svarta konturer och svart nummertext i Fredoka-typsnitt. Varje nummer motsvarar den blandade palettordningen från arbetsbladet, och visar användare och säljare exakt vilken platta som hör var. Inget manuellt facitskapande, ingen separat fil — facit förblir perfekt synkroniserat med arbetsbladet.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
         description:
-          'Ladda ner rutnätspussel och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator, JPEG-kvalitet 1,0). Fyra dedikerade nedladdningsknappar exporterar arbetsblad och facitfiler separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och helt anpassade dimensioner. PDF-orientering detekteras automatiskt. Växla gråskala för bläckvänliga versioner som sparar toner samtidigt som rutnätsstrukturen bevaras. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och klassrumsutdelningar.',
+          'Ladda ner rutnätspussel och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med 300 DPI (6× multiplikator, JPEG-kvalitet 1,0). Fyra dedikerade nedladdningsknappar exporterar arbetsblad och facitfiler separat. Sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och helt anpassade dimensioner. PDF-orientering detekteras automatiskt. Växla gråskala för bläckvänliga versioner som sparar toner samtidigt som rutnätsstrukturen bevaras. Varje export är produktionsklar för digitala nedladdningar, tryckta arbetsböcker och produktlinjesutdelningar.',
       },
       {
         title: 'Full arbetsyteredigering med textverktyg, justering och lagerkontroller',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Klassrumspussel-aktiviteter för TPT',
+        title: 'produktlinjespussel-aktiviteter för Gumroad',
         description:
-          'Bygg färdiga rutnätspussel-aktiviteter för snabbsluts-övningar i klassrummet, morgonarbete eller berikningstationer. Lärare som söker på TPT efter visuella perceptionsaktiviteter värdesätter pussel som anländer tryckfärdiga med facit. Skapa läroplansangränsande set: djurbildpussel för naturvetenskapsenheter, landmärkespussel för samhällskunskap, matpussel för hälsa och näring. Den konfigurerbara svårighetsgraden låter dig differentiera inom en enda produkt — inkludera lätta, medel och svåra versioner av samma tematiska pussel så lärare kan tilldela efter elevnivå.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Bygg färdiga rutnätspussel-aktiviteter för snabbsluts-övningar online, morgonarbete eller berikningstationer. köpare som söker på Gumroad efter visuella perceptionsaktiviteter värdesätter pussel som anländer tryckfärdiga med facit. Skapa produktkatalogsangränsande set: djurbildpussel för naturvetenskapsenheter, landmärkespussel för samhällskunskap, matpussel för hälsa och näring. Den konfigurerbara svårighetsgraden låter dig differentiera inom en enda produkt — inkludera lätta, medel och svåra versioner av samma tematiska pussel så säljare kan tilldela efter nivå.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Säsongsbetonade rutnätspussel-samlingar',
         description:
           'De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade rutnätspussel-samlingar som sammanfaller med toppshoppingperioder. Släpp halloweenpussel-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Inkludera flera rutnätsstorlekar och svårighetsnivåer i varje säsongsset för maximalt värde. Säsongsprodukter motiverar högre priser under sina toppfönster och skapar naturliga skäl till återköp.',
-        platform: 'Etsy / Amazon KDP / TPT (säsongsbetonat)',
+        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
       },
       {
         title: 'Anpassade fotorutnätspussel för personaliserade produkter',
         description:
-          'Använd funktionen Ladda Upp Egna Bilder för att skapa rutnätspussel från valfritt foto eller konstverk. Familjefotopussel blir unika personliga presenter. Lärare kan ladda upp klassfoton för terminens avslutningsaktiviteter. Husdjursfotopussel, semesterfotopussel och lagfotopussel skapar alla unika produkter. Erbjud anpassat rutnätspussel-skapande som en premiumtjänst på Etsy där kunder skickar sina foton och du levererar tryckta pusselarbetsblad med facit — en högmarginal personaliserad produkt med minimal produktionstid.',
+          'Använd funktionen Ladda Upp Egna Bilder för att skapa rutnätspussel från valfritt foto eller konstverk. Familjefotopussel blir unika personliga presenter. säljare kan ladda upp klassfoton för terminens avslutningsaktiviteter. Husdjursfotopussel, semesterfotopussel och lagfotopussel skapar alla unika produkter. Erbjud anpassat rutnätspussel-skapande som en premiumtjänst på Etsy där kunder skickar sina foton och du levererar tryckta pusselarbetsblad med facit — en högmarginal personaliserad produkt med minimal produktionstid.',
         platform: 'Etsy (personaliserade produkter)',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Vilka rutnätsstorlekar finns tillgängliga för rutmatchningspussel?',
       answer:
-        'Generatorn stöder 2–4 rader och 2–4 kolumner, konfigurerade oberoende. Detta skapar rutnät från 2×2 (4 plattor) upp till 4×4 (16 plattor). Standard är 3×3 (9 plattor). Mindre rutnät är lättare och fungerar bra för yngre elever; större rutnät ökar svårighetsgraden och visuell komplexitet. Du kan ställa in rader och kolumner till olika värden — till exempel skapar 2 rader × 4 kolumner ett brett rektangulärt pussel.',
+        'Generatorn stöder 2–4 rader och 2–4 kolumner, konfigurerade oberoende. Detta skapar rutnät från 2×2 (4 plattor) upp till 4×4 (16 plattor). Standard är 3×3 (9 plattor). Mindre rutnät är lättare och fungerar bra för yngre användare; större rutnät ökar svårighetsgraden och visuell komplexitet. Du kan ställa in rader och kolumner till olika värden — till exempel skapar 2 rader × 4 kolumner ett brett rektangulärt pussel.',
     },
     {
       question: 'Hur kontrollerar ledtrådsceller pusselsvårigheten?',
       answer:
-        'Ledtrådsceller är rutnätspositioner där bildplattan förblir synlig som ett tips. Ställ in 1–5 ledtrådsceller med reglaget i panelen Rutnätsalternativ (standard är 1). Fler ledtrådar gör pusslet lättare eftersom eleverna har fler referenspunkter. För ett 3×3-rutnät med 1 ledtråd måste eleverna matcha 8 plattor — ganska utmanande. Med 5 ledtrådar behöver bara 4 plattor matchas — mycket mer tillgängligt. Denna enda kontroll låter dig skapa graderade svårighetsset från samma bild.',
+        'Ledtrådsceller är rutnätspositioner där bildplattan förblir synlig som ett tips. Ställ in 1–5 ledtrådsceller med reglaget i panelen Rutnätsalternativ (standard är 1). Fler ledtrådar gör pusslet lättare eftersom användarna har fler referenspunkter. För ett 3×3-rutnät med 1 ledtråd måste användarna matcha 8 plattor — ganska utmanande. Med 5 ledtrådar behöver bara 4 plattor matchas — mycket mer tillgängligt. Denna enda kontroll låter dig skapa graderade svårighetsset från samma bild.',
     },
     {
-      question: 'Hur fungerar rutmatchningspusslet för eleverna?',
+      question: 'Hur fungerar rutmatchningspusslet för användarna?',
       answer:
-        'Arbetsbladet visar ett rutnät där vissa celler visar den faktiska bildplattan (ledtrådsceller) och återstående celler visar «?»-platshållare. Under eller bredvid rutnätet visar en numrerad palett alla dolda plattor i blandad ordning. Eleverna granskar ledtrådscellerna, studerar de numrerade plattorna och avgör vilket nummer som hör hemma i varje tom rutnätsposition. Svaret kräver rumsligt resonemang — matchning av plattinnehåll till dess korrekta plats i den övergripande bilden.',
+        'Arbetsbladet visar ett rutnät där vissa celler visar den faktiska bildplattan (ledtrådsceller) och återstående celler visar «?»-platshållare. Under eller bredvid rutnätet visar en numrerad palett alla dolda plattor i blandad ordning. användarna granskar ledtrådscellerna, studerar de numrerade plattorna och avgör vilket nummer som hör hemma i varje tom rutnätsposition. Svaret kräver rumsligt resonemang — matchning av plattinnehåll till dess korrekta plats i den övergripande bilden.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jag sälja rutmatchningspussel skapade med detta verktyg på Etsy och Amazon KDP?',
       answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina rutmatchningspussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som klassrumsresurser på TPT, eller genom valfri annan försäljningskanal. De konfigurerbara rutnätsstorlekarna, justerbara ledtrådscellerna, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara rutnätspussel-produkter.',
+        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina rutmatchningspussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De konfigurerbara rutnätsstorlekarna, justerbara ledtrådscellerna, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara rutnätspussel-produkter.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',
@@ -241,12 +241,12 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'forskola-utskriftsbara-ideer',
-      anchorText: 'Förskola Utskriftsbara Idéer för Tidiga Elever',
+      anchorText: 'Förskola Utskriftsbara Idéer för Tidiga användare',
     },
     {
       pageType: 'idea',
       slug: 'dagis-utskriftsbara-ideer',
-      anchorText: 'Dagis Utskriftsbara Idéer för Unga Elever',
+      anchorText: 'Dagis Utskriftsbara Idéer för unga användare',
     },
     {
       pageType: 'start',

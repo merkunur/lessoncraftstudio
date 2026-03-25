@@ -2,20 +2,20 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bingokort skapare för lärare',
+    primaryKeyword: 'bingokort skapare för säljare',
     secondaryKeywords: [
-      'bildbingo kort skapare för klassrummet',
+      'bildbingo kort skapare online',
       'bingospel skapare för barn',
       'utskrivbara bingokort för skolan',
-      'anpassad bingokort generator för lärare',
+      'anpassad bingokort generator för säljare',
     ],
     lsiKeywords: [
-      'batch bingokort generator för klassrumsspel',
+      'batch bingokort generator för produktlinjesspel',
       'bild och ord bingokort skapare',
       'uppropslista bingo arbetsblad skapare',
     ],
-    titleTag: 'Bingokort Skapare — Bildbingo för Klassrummet',
-    metaDescription: 'Skapa bildbingokort för klassrumsspel. Rutnät från 3×3 till 5×5, batch unika kort, uppropslistor, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Bingokort Skapare — Bildbingo online',
+    metaDescription: 'Skapa bildbingokort för produktlinjesspel. Rutnät från 3×3 till 5×5, batch unika kort, uppropslistor, 104 teman. Gratis provversion med vattenstämpel.',
   },
 
   hero: {
@@ -76,8 +76,8 @@ const content: ToolContent = {
       description: 'Sammanställ 40–80 bingokort till tryckta aktivitetsböcker för Amazon KDP. Inkludera uppropslistor efter varje set så boken är fristående för spel. Blanda rutnätsstorlekar inom kapitel. Växla gråskala för bläckvänlig utmatning. Batch-genereringsfunktionen producerar 10 unika kort per set på sekunder.',
     },
     {
-      title: 'Klassrumsfärdiga bingospelskit',
-      description: 'Bygg kompletta bingospelskit med 10 unika spelarkort och ett spelledarblad per set. Använd Ordfyllning med läroplans vokabulär för språkrevisionsöversikt, Bildfyllning för visuella igenkänningsövningar eller blandade lägen för differentierad undervisning. Anpassat uppropsurval ger exakt läroplansanpassning.',
+      title: 'produktlinjesfärdiga bingospelskit',
+      description: 'Bygg kompletta bingospelskit med 10 unika spelarkort och ett spelledarblad per set. Använd Ordfyllning med produktkatalogs vokabulär för språkrevisionsöversikt, Bildfyllning för visuella igenkänningsövningar eller blandade lägen för nivågrupperade produktpaket. Anpassat uppropsurval ger exakt produktkatalogsanpassning.',
     },
     {
       title: 'Säsongsbetonade och högtidsbingosamlingar',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TPT klassrums bingo aktivitetspaket',
-      description: 'Ladda upp klassrums bingo aktivitetspaket till TPT med unika spelarkort och spelledarblad. Lärare söker efter bingoaktiviteter de kan börja spela direkt. Skapa läroplansanpassade set: vokabulärbingo med Ordfyllning, bildigenkänning med Bildfyllning. Inkludera 10 unika kort med uppropslista. Ordfyllning med lokaliserade bildnamn förvandlar bingo till vokabulärrepetition.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad produktlinjes bingo aktivitetspaket',
+      description: 'Ladda upp produktlinjes bingo aktivitetspaket till Gumroad med unika spelarkort och spelledarblad. säljare söker efter bingoaktiviteter de kan börja spela direkt. Skapa produktkatalogsanpassade set: vokabulärbingo med Ordfyllning, bildigenkänning med Bildfyllning. Inkludera 10 unika kort med uppropslista. Ordfyllning med lokaliserade bildnamn förvandlar bingo till vokabulärrepetition.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest bingokort trafiktratt',
@@ -118,7 +118,7 @@ const content: ToolContent = {
     {
       title: 'Flerspråkiga bingoprodukter för globala marknader',
       description: 'Bingokort Skaparen är språkkänslig — Ordfyllning använder lokaliserade bildnamn. Producera bingokort på alla 11 språk från samma bilder. Flerspråkiga vokabulärbingopaket motiverar premiumpriser och når köpare som enspråkiga konkurrenter inte kan.',
-      platform: 'Etsy / TPT',
+      platform: 'Etsy / Gumroad',
     },
   ],
 
@@ -132,8 +132,8 @@ const content: ToolContent = {
       description: 'Kortceller och brickor har oberoende fyllningsval — Bild eller Ord. Detta skapar fyra distinkta bingokortsstilar: bildkort med bildbrickor (helt visuellt), bildkort med ordbrickor (visuell-till-text matchning), ordkort med bildbrickor (text-till-visuell matchning), ordkort med ordbrickor (helt textbaserat). Inkludera alla fyra stilar i premiumpaket.',
     },
     {
-      title: 'Utnyttja anpassat uppropsurval för läroplansanpassning',
-      description: 'Aktivera «Använd anpassat urval» för att handplocka exakt vilka bilder som visas i uppropspoolen. Levande räknaren visar ditt urval. Denna funktion är kritisk för läroplansanpassade bingospel — välj bara de vokabulärord din lektion täcker.',
+      title: 'Utnyttja anpassat uppropsurval för produktkatalogsanpassning',
+      description: 'Aktivera «Använd anpassat urval» för att handplocka exakt vilka bilder som visas i uppropspoolen. Levande räknaren visar ditt urval. Denna funktion är kritisk för produktkatalogsanpassade bingospel — välj bara de vokabulärord din lektion täcker.',
     },
     {
       title: 'Utnyttja det språkkänsliga Ordfyllningsläget för flerspråkiga produkter',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Rikta in dig på flera rutnätsstorlekar för maximal marknadstäckning',
-      description: 'Olika rutnätsstorlekar betjänar olika publiker. 3×3-rutnät (9 celler) för dagis med snabba omgångar. 4×4-rutnät (16 celler) för grundskoleelever. 5×5-rutnät (25 celler) för den klassiska bingoupplevelsen. Inkludera alla tre storlekar i dina produktpaket.',
+      description: 'Olika rutnätsstorlekar betjänar olika publiker. 3×3-rutnät (9 celler) för dagis med snabba omgångar. 4×4-rutnät (16 celler) för grundskoleanvändare. 5×5-rutnät (25 celler) för den klassiska bingoupplevelsen. Inkludera alla tre storlekar i dina produktpaket.',
     },
   ],
 
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vad är anpassat uppropsurval?',
-      answer: 'Aktivera «Använd anpassat urval» för att handplocka vilka specifika bilder som visas i uppropspoolen. En levande räknare visar «Valda för anpassade upprop: X» medan du väljer. Ger exakt kontroll för läroplansanpassade bingospel.',
+      answer: 'Aktivera «Använd anpassat urval» för att handplocka vilka specifika bilder som visas i uppropspoolen. En levande räknare visar «Valda för anpassade upprop: X» medan du väljer. Ger exakt kontroll för produktkatalogsanpassade bingospel.',
     },
     {
       question: 'Är Bingokort Skaparen språkkänslig?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag sälja bingokort skapade med detta verktyg kommersiellt?',
-      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja bingokort som digitala nedladdningar på Etsy, tryckta aktivitetsböcker på Amazon KDP, klassrumsresurser på TPT eller genom valfri annan försäljningskanal.',
+      answer: 'Ja. Med en kommersiell licens har du fulla rättigheter att sälja bingokort som digitala nedladdningar på Etsy, tryckta aktivitetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

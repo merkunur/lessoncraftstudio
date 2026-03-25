@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Raad het Woord Werkblad Maker',
     tagline: 'Maak beeldgebaseerde spellingwerkbladen met 4 aanwijzingsniveaus in 11 talen',
-    description: 'Verander woordenschatoefening in een visuele puzzel die leerlingen graag oplossen en verkopers solide inkomsten oplevert. Deze tool genereert raad-het-woord werkbladen waarbij een afbeeldingsaanwijzing gekoppeld is aan een letterraster met lege plekken — leerlingen bestuderen het plaatje en vullen de ontbrekende letters in om het woord te spellen. De opvallende functie is een 4-niveaus progressief aanwijzingensysteem: Geen Aanwijzingen onthult nul letters voor puur geheugenwerk, Makkelijk onthult de helft van de letters voor ondersteunde beginners, Normaal onthult een kwart voor gebalanceerde uitdaging, en Moeilijk onthult slechts een zesde voor zelfverzekerde spellers. Kies tussen twee invoermodi: Afbeeldingsaanwijzing haalt woordenschat uit meer dan 3100 afbeeldingen over 104 thematische collecties met automatische letterrastergeneratie, of Aangepaste Woordenlijst laat je woorden direct typen voor gerichte woordenschatoefening zonder afbeeldingen. De functie Letters Uitsluiten verwijdert specifieke letters uit rasters — sluit klinkers uit voor fonetisch gerichte oefeningen of sluit veelvoorkomende letters uit voor een moeilijkere uitdaging. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en dezelfde afbeelding produceert een andere correcte spelling. Een hondafbeelding genereert "HOND" in het Nederlands, "DOG" in het Engels, "HUND" in het Duits, "CHIEN" in het Frans. Eén werkbladontwerp wordt 11 unieke taalproducten met oprecht verschillende antwoorden. Stel hoofdletters of kleine letters in, schakel oefeningnummering in, voeg aangepaste tekstoverlays toe en kies uit 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG met optionele antwoordbladgeneratie. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Verander woordenschatoefening in een visuele puzzel die gebruikers graag oplossen en verkopers solide inkomsten oplevert. Deze tool genereert raad-het-woord werkbladen waarbij een afbeeldingsaanwijzing gekoppeld is aan een letterraster met lege plekken — gebruikers bestuderen het plaatje en vullen de ontbrekende letters in om het woord te spellen. De opvallende functie is een 4-niveaus progressief aanwijzingensysteem: Geen Aanwijzingen onthult nul letters voor puur geheugenwerk, Makkelijk onthult de helft van de letters voor ondersteunde beginners, Normaal onthult een kwart voor gebalanceerde uitdaging, en Moeilijk onthult slechts een zesde voor zelfverzekerde spellers. Kies tussen twee invoermodi: Afbeeldingsaanwijzing haalt woordenschat uit meer dan 3100 afbeeldingen over 104 thematische collecties met automatische letterrastergeneratie, of Aangepaste Woordenlijst laat je woorden direct typen voor gerichte woordenschatoefening zonder afbeeldingen. De functie Letters Uitsluiten verwijdert specifieke letters uit rasters — sluit klinkers uit voor fonetisch gerichte oefeningen of sluit veelvoorkomende letters uit voor een moeilijkere uitdaging. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en dezelfde afbeelding produceert een andere correcte spelling. Een hondafbeelding genereert "HOND" in het Nederlands, "DOG" in het Engels, "HUND" in het Duits, "CHIEN" in het Frans. Eén werkbladontwerp wordt 11 unieke taalproducten met oprecht verschillende antwoorden. Stel hoofdletters of kleine letters in, schakel oefeningnummering in, voeg aangepaste tekstoverlays toe en kies uit 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG met optionele antwoordbladgeneratie. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Stel het aanwijzingsniveau in',
-        description: 'Kies uit vier progressieve moeilijkheidsniveaus. Geen Aanwijzingen laat het hele raster leeg voor puur geheugenwerk — ideaal voor gevorderde spellers. Makkelijk onthult de helft van de letters, wat ondersteuning biedt voor jonge leerlingen die net beginnen met spellen. Normaal onthult een kwart van de letters voor gebalanceerde uitdaging. Moeilijk onthult slechts een zesde van de letters voor zelfverzekerde leerlingen die minimale hints nodig hebben. Mix moeilijkheidsniveaus over pagina\'s om gedifferentieerde werkbladpakketten te maken.',
+        description: 'Kies uit vier progressieve moeilijkheidsniveaus. Geen Aanwijzingen laat het hele raster leeg voor puur geheugenwerk — ideaal voor gevorderde spellers. Makkelijk onthult de helft van de letters, wat ondersteuning biedt voor jonge gebruikers die net beginnen met spellen. Normaal onthult een kwart van de letters voor gebalanceerde uitdaging. Moeilijk onthult slechts een zesde van de letters voor zelfverzekerde gebruikers die minimale hints nodig hebben. Mix moeilijkheidsniveaus over pagina\'s om gedifferentieerde werkbladpakketten te maken.',
       },
       {
         title: 'Selecteer afbeeldingen en thema',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configureer letters uitsluiten, lettergrootte en nummering',
-        description: 'Gebruik de functie Letters Uitsluiten om specifieke letters uit de rasters te verwijderen — sluit bijvoorbeeld alle klinkers uit zodat leerlingen deze zelf moeten invullen, waardoor een fonetisch gerichte oefening ontstaat. Stel letteruitvoer in op hoofdletters of kleine letters. Schakel oefeningnummering in of uit. Voeg een aangepaste tekstoverlay toe met instructies zoals "Vul de ontbrekende letters in!" voor duidelijke leerlingbegeleiding.',
+        description: 'Gebruik de functie Letters Uitsluiten om specifieke letters uit de rasters te verwijderen — sluit bijvoorbeeld alle klinkers uit zodat gebruikers deze zelf moeten invullen, waardoor een fonetisch gerichte oefening ontstaat. Stel letteruitvoer in op hoofdletters of kleine letters. Schakel oefeningnummering in of uit. Voeg een aangepaste tekstoverlay toe met instructies zoals "Vul de ontbrekende letters in!" voor duidelijke gebruikerbegeleiding.',
       },
       {
         title: 'Pas lettertypen, tekst en canvas aan',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Spelling Raadpakketten',
-      description: 'Maak sets van 10–15 raad-het-woord werkbladen met thematische beeldcollecties — dieren, voedsel, voertuigen, natuurscènes. Elk werkblad koppelt afbeeldingen aan letterrasters op een consistent moeilijkheidsniveau. Bundel per thema en verkoop op Etsy.nl of TPT. Het afbeelding-plus-puzzel formaat maakt je vermeldingsminiaturen direct opvallend vergeleken met eenvoudige spellingwerkbladen. Positioneer op €3–€5 per thema.',
+      description: 'Maak sets van 10–15 raad-het-woord werkbladen met thematische beeldcollecties — dieren, voedsel, voertuigen, natuurscènes. Elk werkblad koppelt afbeeldingen aan letterrasters op een consistent moeilijkheidsniveau. Bundel per thema en verkoop op Etsy.nl of Gumroad. Het afbeelding-plus-puzzel formaat maakt je vermeldingsminiaturen direct opvallend vergeleken met eenvoudige spellingwerkbladen. Positioneer op €3–€5 per thema.',
     },
     {
       title: 'KDP Raad het Woord Activiteitenboeken',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gedifferentieerde Aanwijzingsniveau Sets',
-      description: 'Genereer vier versies van hetzelfde thematische werkblad — één op elk aanwijzingsniveau: Geen Aanwijzingen, Makkelijk, Normaal en Moeilijk. Leerkrachten kunnen de juiste versie aan elke leerling geven op basis van vaardigheid. Verkoop als gedifferentieerd pakket op een premiumprijs op TPT of Etsy.nl. Vier moeilijkheidsniveaus vanuit één ontwerpsessie, met antwoordbladen voor elke versie.',
+      description: 'Genereer vier versies van hetzelfde thematische werkblad — één op elk aanwijzingsniveau: Geen Aanwijzingen, Makkelijk, Normaal en Moeilijk. verkopers kunnen de juiste versie aan elke gebruiker geven op basis van vaardigheid. Verkoop als gedifferentieerd pakket op een premiumprijs op Gumroad of Etsy.nl. Vier moeilijkheidsniveaus vanuit één ontwerpsessie, met antwoordbladen voor elke versie.',
     },
     {
       title: 'Meertalige Spelling Producten',
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: 'Aangepaste Woordenlijst Woordenschatwerkbladen',
-      description: 'Gebruik de Aangepaste Woordenlijst modus om vakspecifieke woordenschat direct te typen: wetenschappelijke termen, zichtwoorden, spellingbij-lijsten of vreemde taal woordenschat. Geen afbeeldingen nodig — de tool genereert letterrasters vanuit je getypte woorden. Maak gerichte spellingoefening voor elk curriculum, groepsniveau of nichethema dat de afbeeldingenbibliotheek niet dekt.',
+      description: 'Gebruik de Aangepaste Woordenlijst modus om vakspecifieke woordenschat direct te typen: wetenschappelijke termen, zichtwoorden, spellingbij-lijsten of vreemde taal woordenschat. Geen afbeeldingen nodig — de tool genereert letterrasters vanuit je getypte woorden. Maak gerichte spellingoefening voor elk productcatalogus, niveaucategorie of nichethema dat de afbeeldingenbibliotheek niet dekt.',
     },
     {
       title: 'Seizoensgebonden Spelling Bundels',
-      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Raad het Woord" pakket met feestelijke woordenschat — PEPERNOOT, STOOMBOOT, SCHOEN — verkoopt sterk in november. Kerstmis, terug-naar-school, Halloween en lentethema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en TPT.',
+      description: 'Gebruik feestdag- en seizoensthema\'s om tijdgebonden bundels te maken. Een "Sinterklaas Raad het Woord" pakket met feestelijke woordenschat — PEPERNOOT, STOOMBOOT, SCHOEN — verkoopt sterk in november. Kerstmis, terug-naar-school, Halloween en lentethema\'s hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Gedifferentieerde Pakketten',
-      description: 'Upload raad-het-woord werkbladpakketten naar TPT georganiseerd per thema en moeilijkheidsniveau. Voeg alle vier aanwijzingsniveaus voor elk thema toe, plus antwoordbladen voor elke pagina. Leerkrachten zoeken frequent naar "spelling werkbladen" en "woordopbouw activiteiten". De 4-niveaus differentiatie betekent dat één product een heel klaslokaal met gemengde vaardigheden bedient, wat leerkrachten zeer waarderen in beoordelingen.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Gedifferentieerde Pakketten',
+      description: 'Upload raad-het-woord werkbladpakketten naar Gumroad georganiseerd per thema en moeilijkheidsniveau. Voeg alle vier aanwijzingsniveaus voor elk thema toe, plus antwoordbladen voor elke pagina. verkopers zoeken frequent naar "spelling werkbladen" en "woordopbouw activiteiten". De 4-niveaus getrapte productpakketten betekent dat één product een heel winkel met gemengde vaardigheden bedient, wat verkopers zeer waarderen in beoordelingen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Fonetisch Focus Kits',
-      description: 'Maak premium fonetische kits op Gumroad die de functie Letters Uitsluiten strategisch gebruiken — sluit klinkers uit voor klinker-focus oefeningen, sluit medeklinkercombinaties uit voor combinatie-oefening. Bundel met Aangepaste Woordenlijst werkbladen die specifieke fonetische patronen behandelen. Voeg een docentenhandleiding toe die uitlegt hoe elk uitsluitingspatroon een andere fonetische vaardigheid behandelt. Prijs op €12–€15.',
+      description: 'Maak premium fonetische kits op Gumroad die de functie Letters Uitsluiten strategisch gebruiken — sluit klinkers uit voor klinker-focus oefeningen, sluit medeklinkercombinaties uit voor combinatie-oefening. Bundel met Aangepaste Woordenlijst werkbladen die specifieke fonetische patronen behandelen. Voeg een verkopershandleiding toe die uitlegt hoe elk uitsluitingspatroon een andere fonetische vaardigheid behandelt. Prijs op €12–€15.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Dubbele-Modus Woordenschat Pakketten op Etsy',
-      description: 'Benut beide invoermodi om uitgebreide woordenschatpakketten te maken. Gebruik Afbeeldingsaanwijzing modus voor visuele woordenschatopbouw en Aangepaste Woordenlijst modus voor curriculumgerichte spellingwoorden. Bundel beide in één product: "Compleet Spellingoefening Kit — Visueel + Geschreven." De dubbele-modus aanpak rechtvaardigt een premiumprijspunt en bedient zowel visuele als traditionele leerlingen.',
+      description: 'Benut beide invoermodi om uitgebreide woordenschatpakketten te maken. Gebruik Afbeeldingsaanwijzing modus voor visuele woordenschatopbouw en Aangepaste Woordenlijst modus voor productcatalogusgerichte spellingwoorden. Bundel beide in één product: "Compleet Spellingoefening Kit — Visueel + Geschreven." De dubbele-modus aanpak rechtvaardigt een premiumprijspunt en bedient zowel visuele als traditionele gebruikers.',
       platform: 'Etsy',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Gebruik Geen Aanwijzingen voor Gevorderde Spellers',
-      description: 'Geen Aanwijzingen modus laat het hele letterraster leeg — leerlingen moeten de volledige spelling uit de afbeelding alleen oproepen. Dit is oprechte spellingbeoordeling, geen herkenning. Gebruik het voor oudere leerlingen, spellingtests of de laatste "uitdaging" sectie van een progressief werkboek.',
+      description: 'Geen Aanwijzingen modus laat het hele letterraster leeg — gebruikers moeten de volledige spelling uit de afbeelding alleen oproepen. Dit is oprechte spellingbeoordeling, geen herkenning. Gebruik het voor oudere gebruikers, spellingtests of de laatste "uitdaging" sectie van een progressief werkboek.',
     },
     {
       title: 'Gebruik Makkelijk voor Jonge Beginners',
-      description: 'Makkelijk modus onthult de helft van de letters, waardoor de cognitieve belasting wordt verminderd zodat jonge leerlingen vertrouwen kunnen opbouwen. Ze zien genoeg van het woord om spellingpatronen te herkennen terwijl ze nog steeds lege plekken hebben om in te vullen. Begin kleuters en vroege NT2-leerlingen hier voordat je naar Normaal en Moeilijk gaat.',
+      description: 'Makkelijk modus onthult de helft van de letters, waardoor de cognitieve belasting wordt verminderd zodat jonge gebruikers vertrouwen kunnen opbouwen. Ze zien genoeg van het woord om spellingpatronen te herkennen terwijl ze nog steeds lege plekken hebben om in te vullen. Begin kleuters en vroege NT2-gebruikers hier voordat je naar Normaal en Moeilijk gaat.',
     },
     {
       title: 'Ga Meertalig voor 11× Productbereik',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Sluit Klinkers Uit voor Fonetisch Focus',
-      description: 'Gebruik de functie Letters Uitsluiten om alle klinkers uit het letterraster te verwijderen. Leerlingen moeten elke klinker zelf invullen, waardoor een spellingoefening een gerichte fonetische oefening wordt. Je kunt ook specifieke medeklinkers of lettercombinaties uitsluiten om op bepaalde fonetische vaardigheden te richten.',
+      description: 'Gebruik de functie Letters Uitsluiten om alle klinkers uit het letterraster te verwijderen. gebruikers moeten elke klinker zelf invullen, waardoor een spellingoefening een gerichte fonetische oefening wordt. Je kunt ook specifieke medeklinkers of lettercombinaties uitsluiten om op bepaalde fonetische vaardigheden te richten.',
     },
     {
       title: 'Combineer met Andere Geletterdheidstools',
-      description: 'Combineer raad-het-woord werkbladen met letterpuzzels, woordzoekers, schrijfoefeningen en koppelwerkbladen om uitgebreide spellingbundels te maken. Een "Compleet Spellingoefening" pakket met meerdere activiteitstypen verkoopt voor meer dan elk afzonderlijk werkbladformaat alleen en geeft leerlingen gevarieerde oefening met dezelfde woordenschat.',
+      description: 'Combineer raad-het-woord werkbladen met letterpuzzels, woordzoekers, schrijfoefeningen en koppelwerkbladen om uitgebreide spellingbundels te maken. Een "Compleet Spellingoefening" pakket met meerdere activiteitstypen verkoopt voor meer dan elk afzonderlijk werkbladformaat alleen en geeft gebruikers gevarieerde oefening met dezelfde woordenschat.',
     },
   ],
 
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wat doet de functie Letters Uitsluiten?',
-      answer: 'Letters Uitsluiten verwijdert specifieke letters uit de vooraf ingevulde posities in het raster. Sluit bijvoorbeeld alle klinkers uit zodat leerlingen deze moeten invullen, waardoor de oefening fonetisch gericht wordt. Je kunt elke combinatie van letters uitsluiten om specifieke spellingvaardigheden te behandelen of de moeilijkheid te verhogen voorbij de vier standaard aanwijzingsniveaus.',
+      answer: 'Letters Uitsluiten verwijdert specifieke letters uit de vooraf ingevulde posities in het raster. Sluit bijvoorbeeld alle klinkers uit zodat gebruikers deze moeten invullen, waardoor de oefening fonetisch gericht wordt. Je kunt elke combinatie van letters uitsluiten om specifieke spellingvaardigheden te behandelen of de moeilijkheid te verhogen voorbij de vier standaard aanwijzingsniveaus.',
     },
     {
       question: 'Hoe werkt de taalgevoeligheid?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'Genereert de tool antwoordbladen?',
-      answer: 'Ja. De tool genereert een apart antwoordblad dat de correcte spelling voor elke oefening toont. Antwoordbladen zijn beschikbaar in zowel PDF- als JPEG-formaat. Elk moeilijkheidsniveau krijgt een eigen antwoordblad zodat leerkrachten snel leerlingwerk kunnen controleren ongeacht welk aanwijzingsniveau was toegewezen.',
+      answer: 'Ja. De tool genereert een apart antwoordblad dat de correcte spelling voor elke oefening toont. Antwoordbladen zijn beschikbaar in zowel PDF- als JPEG-formaat. Elk moeilijkheidsniveau krijgt een eigen antwoordblad zodat verkopers snel gebruikerwerk kunnen controleren ongeacht welk aanwijzingsniveau was toegewezen.',
     },
     {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
-      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Teachers Pay Teachers, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
+      answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
       question: 'Welke bestandsformaten kan ik downloaden?',

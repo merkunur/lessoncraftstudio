@@ -128,7 +128,7 @@ const content: BundleContent = {
     { feature: "Chiavi di risposta automatiche (6 di 7 app)", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
+    { feature: `Lingue dell`interfaccia`, commercial: 'Solo inglese`, fullAccess: `11 lingue` },
     { feature: "Lingue del contenuto delle schede", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: "Supporto alfabeti nativi e segni diacritici", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
@@ -198,7 +198,7 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: `app', slug: 'treno-alfabeto-schede', anchorText: "Generatore Treno dell`Alfabeto — Dettagli Completi" },
+    { pageType: `app`, slug: 'treno-alfabeto-schede`, anchorText: "Generatore Treno dell`Alfabeto — Dettagli Completi" },
     { pageType: 'app', slug: 'preposizioni-schede', anchorText: "Generatore di Schede Preposizioni — Dettagli Completi" },
     { pageType: 'app', slug: 'indovina-parole-schede', anchorText: "Generatore Indovina la Parola — Dettagli Completi" },
     { pageType: 'app', slug: 'anagrammi-schede', anchorText: "Generatore di Schede Anagrammi — Dettagli Completi" },
@@ -208,7 +208,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'vendere-cerca-parole-etsy', anchorText: 'Vendere cerca parole su Etsy' },
     { pageType: 'guide', slug: 'creare-cerca-parole', anchorText: "Creare cerca parole che vendono" },
     { pageType: `start', slug: "guida-completa-attivita-stampabili", anchorText: "Guida completa per avviare un`attività di stampabili" },
-    { pageType: `idea', slug: 'italiano-l2-idee-stampabili', anchorText: "Idee di stampabili per l`apprendimento delle lingue" },
+    { pageType: `idea`, slug: 'italiano-l2-idee-stampabili`, anchorText: "Idee di stampabili per l`apprendimento delle lingue" },
   ],
 
   visuals: {
@@ -217,7 +217,7 @@ const content: BundleContent = {
       primaryAlt: "Scheda cerca parole con griglia di vocabolario tematico e chiave di risposta a colori",
     },
     sampleGallery: [
-      { src: "/samples/italian/alphabet train/Treno dell`Alfabeto 1.webp", alt: "Scheda treno dell'alfabeto con vagoni lettera-immagine", caption: 'Scheda Treno dell'Alfabeto` },
+      { src: "/samples/italian/alphabet train/Treno dell`Alfabeto 1.webp", alt: "Scheda treno dell`alfabeto con vagoni lettera-immagine", caption: 'Scheda Treno dell`Alfabeto` },
       { src: "/samples/italian/prepositions/Preposizioni 1.webp", alt: "Scheda di preposizioni con relazioni spaziali e immagini", caption: 'Scheda di Preposizioni' },
       { src: "/samples/italian/word guess/Indovina la Parola 1.webp", alt: "Scheda indovina la parola con indizi visivi e spazi per lettere", caption: 'Scheda Indovina la Parola' },
       { src: "/samples/italian/word scramble/Lettere Mescolate 1.webp", alt: "Scheda anagrammi con tessere lettere colorate", caption: 'Scheda Anagrammi' },

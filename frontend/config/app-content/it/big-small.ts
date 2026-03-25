@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il Generatore Grande e Piccolo è sensibile alla lingua?",
       answer:
-        "No. Grande e Piccolo è un`applicazione puramente visiva — le schede contengono solo immagini con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua modifica solo le etichette dell'interfaccia del generatore, non il contenuto della scheda. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.",
+        "No. Grande e Piccolo è un`applicazione puramente visiva — le schede contengono solo immagini con zero testo nell`output, quindi sono identiche in tutte le lingue. Cambiare la lingua modifica solo le etichette dell'interfaccia del generatore, non il contenuto della scheda. La Licenza Commerciale include 10 temi colorati; l`Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.",
     },
     {
       question: "Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?",

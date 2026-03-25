@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Export prêt à imprimer à 400+ DPI avec option niveaux de gris",
         description:
-          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d`export rend à plus de 400 DPI. Le mode niveaux de gris intégré convertit l'ensemble de votre fiche en noir et blanc en une case à cocher — idéal pour l'impression en volume, réduire les coûts d'encre ou produire des intérieurs de cahiers d`activités pour Amazon KDP.",
+          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d`export rend à plus de 400 DPI. Le mode niveaux de gris intégré convertit l`ensemble de votre fiche en noir et blanc en une case à cocher — idéal pour l'impression en volume, réduire les coûts d`encre ou produire des intérieurs de cahiers d`activités pour Amazon KDP.",
       },
       {
         title: "Téléchargement d'images personnalisées",
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d'export et taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter. L'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l`outil convient à votre flux de production.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d`export et taille de page avant d`acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l`outil répond à vos besoins avant d`acheter. L`essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l`outil convient à votre flux de production.",
     },
     {
       question: "Dois-je installer un logiciel ?",

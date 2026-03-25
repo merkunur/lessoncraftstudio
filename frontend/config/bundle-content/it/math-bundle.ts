@@ -124,7 +124,7 @@ const content: BundleContent = {
     { feature: "Chiavi di risposta automatiche", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
+    { feature: `Lingue dell`interfaccia`, commercial: 'Solo inglese`, fullAccess: `11 lingue` },
     { feature: "Lingue Scopri la Parola Addizione Codificata", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },
@@ -192,7 +192,7 @@ const content: BundleContent = {
     },
     {
       question: "Posso passare dal Commerciale all'Accesso Completo in seguito?",
-      answer: "I livelli Commerciale e Accesso Completo sono opzioni di acquisto separate. Se inizi con il Commerciale e successivamente desideri accedere a tutti i 104 set di immagini tematiche e a tutte le 11 lingue dell`interfaccia, dovrai acquistare il livello Accesso Completo. Ti consigliamo di iniziare con la prova gratuita per valutare approfonditamente tutti e sei i generatori prima di scegliere il tuo livello. La prova gratuita include funzionalità complete con tutti i 104 temi e tutte le lingue — l'unica differenza è una filigrana sui file scaricati. Questo ti permette di testare l'esperienza completa dell'Accesso Completo prima di decidere quale livello corrisponde alle tue esigenze aziendali. Molti venditori iniziano con il Commerciale per i prodotti nel mercato anglofono e passano all`Accesso Completo quando sono pronti ad espandersi in mercati multilingue o hanno bisogno della libreria completa di immagini tematiche per la massima varietà di prodotti.",
+      answer: "I livelli Commerciale e Accesso Completo sono opzioni di acquisto separate. Se inizi con il Commerciale e successivamente desideri accedere a tutti i 104 set di immagini tematiche e a tutte le 11 lingue dell`interfaccia, dovrai acquistare il livello Accesso Completo. Ti consigliamo di iniziare con la prova gratuita per valutare approfonditamente tutti e sei i generatori prima di scegliere il tuo livello. La prova gratuita include funzionalità complete con tutti i 104 temi e tutte le lingue — l`unica differenza è una filigrana sui file scaricati. Questo ti permette di testare l'esperienza completa dell`Accesso Completo prima di decidere quale livello corrisponde alle tue esigenze aziendali. Molti venditori iniziano con il Commerciale per i prodotti nel mercato anglofono e passano all`Accesso Completo quando sono pronti ad espandersi in mercati multilingue o hanno bisogno della libreria completa di immagini tematiche per la massima varietà di prodotti.",
     },
     {
       question: "Qual è la politica di rimborso per le licenze commerciali?",

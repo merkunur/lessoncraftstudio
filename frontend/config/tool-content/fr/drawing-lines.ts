@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: "Ajouter du Texte et Personnaliser les Champs",
-        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d`identification de l'utilisateur. L'en-tête auto-généré affiche un bandeau vert vif avec « Exercice de Tracé de Lignes » localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d'alignement, les contrôles de verrouillage/déverrouillage et l`annulation et le rétablissement illimités.",
+        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d`identification de l`utilisateur. L'en-tête auto-généré affiche un bandeau vert vif avec « Exercice de Tracé de Lignes » localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d`alignement, les contrôles de verrouillage/déverrouillage et l`annulation et le rétablissement illimités.",
       },
       {
         title: "Prévisualiser et Ajuster la Difficulté des Lignes",
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: "Ensembles Thématiques d'Association de Paires d'Images",
-      description: "Exploitez les 104 collections thématiques pour créer des fiches de graphisme où les utilisateurs relient des images assorties à travers des tracés guidés. Chaque thème devient un listing de produit distinct : tracé de lignes animaux de la ferme, dessin de courbes dinosaures, pratique de diagonales créatures marines, lignes verticales exploration spatiale. Le format d`association de paires d'images ajoute un élément d'identification à l'exercice de motricité fine — les utilisateurs doivent trouver l`image correspondante à la fin de chaque ligne, combinant discrimination visuelle et contrôle du crayon dans une seule activité engageante.",
+      description: "Exploitez les 104 collections thématiques pour créer des fiches de graphisme où les utilisateurs relient des images assorties à travers des tracés guidés. Chaque thème devient un listing de produit distinct : tracé de lignes animaux de la ferme, dessin de courbes dinosaures, pratique de diagonales créatures marines, lignes verticales exploration spatiale. Le format d`association de paires d`images ajoute un élément d'identification à l`exercice de motricité fine — les utilisateurs doivent trouver l`image correspondante à la fin de chaque ligne, combinant discrimination visuelle et contrôle du crayon dans une seule activité engageante.",
     },
     {
       title: "Lots Échantillons de Types de Lignes Mixtes",
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez les Niveaux de Gris pour l'Impression Économique",
-      description: "Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l`impression en volume en ligne où les coûts d'impression couleur sont une préoccupation. Même en niveaux de gris, les paires d'images restent suffisamment distinctes pour l'association, et les tracés SVG se reproduisent parfaitement en noir et blanc. Réservez les versions couleur pour les listings Etsy.fr où l`attrait visuel génère des clics.",
+      description: "Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l`impression en volume en ligne où les coûts d`impression couleur sont une préoccupation. Même en niveaux de gris, les paires d'images restent suffisamment distinctes pour l`association, et les tracés SVG se reproduisent parfaitement en noir et blanc. Réservez les versions couleur pour les listings Etsy.fr où l`attrait visuel génère des clics.",
     },
     {
       title: "Combinez le Graphisme avec d'Autres Outils Visuels pour des Lots Premium",
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les huit modèles de lignes, la bibliothèque d'images complète avec 104 thèmes, le remplissage automatique, le téléversement d'images personnalisées et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les huit modèles de lignes, la bibliothèque d`images complète avec 104 thèmes, le remplissage automatique, le téléversement d'images personnalisées et tous les formats d`export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les huit modèles de lignes ?",
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: "Pourquoi n'y a-t-il pas de corrigé ?",
-      answer: "Les fiches de Graphisme n`ont pas besoin de corrigé séparé car le tracé lui-même guide l'utilisateur. Le modèle de ligne SVG imprimé sur la fiche montre exactement où tracer — les utilisateurs suivent le chemin visible d'une image à sa correspondance. L'exercice est auto-correctif : si la ligne de l'utilisateur suit le tracé et atteint l'image correspondante, il l`a complété correctement.",
+      answer: "Les fiches de Graphisme n`ont pas besoin de corrigé séparé car le tracé lui-même guide l`utilisateur. Le modèle de ligne SVG imprimé sur la fiche montre exactement où tracer — les utilisateurs suivent le chemin visible d`une image à sa correspondance. L'exercice est auto-correctif : si la ligne de l`utilisateur suit le tracé et atteint l`image correspondante, il l`a complété correctement.",
     },
     {
       question: "Les fiches sont-elles sensibles à la langue ?",
@@ -206,9 +206,9 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: "generateur-train-suites-logiques", anchorText: "Créateur de Fiches Train de Suites Logiques" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
-    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: 'Créateur de Fiches d'Écriture` },
+    { pageType: `tool`, slug: `generateur-fiches-ecriture', anchorText: `Créateur de Fiches d`Écriture` },
   ],
 
   visuals: {

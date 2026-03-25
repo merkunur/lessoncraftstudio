@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: "Sélectionner une Image dans la Bibliothèque ou Importer la Vôtre",
-        description: "Ouvrez le panneau Bibliothèque d`Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes, métiers et bien d'autres. Filtrez par thème à l'aide du menu déroulant ou recherchez par mot-clé. Cliquez sur une image pour la sélectionner comme source de votre puzzle. Les images avec des couleurs variées et des régions distinctes produisent les puzzles les plus engageants car l'algorithme d'extraction intelligente trouve des pièces avec une variance de couleur plus élevée. Vous pouvez aussi importer vos propres images PNG, JPG ou GIF via le panneau d'Import d`Images Personnalisées pour des designs de puzzles personnalisés — photos de famille, illustrations personnalisées, contenu de marque ou images spécifiques à la classe.",
+        description: "Ouvrez le panneau Bibliothèque d`Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes, métiers et bien d`autres. Filtrez par thème à l`aide du menu déroulant ou recherchez par mot-clé. Cliquez sur une image pour la sélectionner comme source de votre puzzle. Les images avec des couleurs variées et des régions distinctes produisent les puzzles les plus engageants car l'algorithme d`extraction intelligente trouve des pièces avec une variance de couleur plus élevée. Vous pouvez aussi importer vos propres images PNG, JPG ou GIF via le panneau d`Import d`Images Personnalisées pour des designs de puzzles personnalisés — photos de famille, illustrations personnalisées, contenu de marque ou images spécifiques à la classe.",
       },
       {
         title: "Définir la Mise en Page et les Décorations",
@@ -49,11 +49,11 @@ const content: ToolContent = {
       },
       {
         title: "Générer le Puzzle de Pièces Manquantes",
-        description: "Cliquez sur Générer pour créer le puzzle de pièces manquantes. L`algorithme d'extraction intelligente effectue jusqu'à 150 tentatives de placement pour trouver des pièces avec une variance de couleur suffisante (variance de luminosité minimale de 15), maintenant au moins 250 pixels de distance entre les pièces. Des trous blancs avec un contour noir (2px) apparaissent aux emplacements d'origine dans l'image source. Les options de réponse numérotées — pièces correctes plus distractrices — sont affichées avec des étiquettes numériques surlignées en jaune. Les mises en page portrait placent l'image du puzzle en haut avec les options en dessous en rangée horizontale (75 % de la taille maximale) ; les mises en page paysage divisent la vue 50/50 avec les options sur le côté droit. L`en-tête auto-généré affiche « Pièces Manquantes » en turquoise (#06B6D4) avec une description rose (#DB2777) à travers une double bordure — bleu sarcelle extérieure (#14B8A6, 8px) et rose vif intérieure (#EC4899, 3px).",
+        description: "Cliquez sur Générer pour créer le puzzle de pièces manquantes. L`algorithme d`extraction intelligente effectue jusqu`à 150 tentatives de placement pour trouver des pièces avec une variance de couleur suffisante (variance de luminosité minimale de 15), maintenant au moins 250 pixels de distance entre les pièces. Des trous blancs avec un contour noir (2px) apparaissent aux emplacements d'origine dans l`image source. Les options de réponse numérotées — pièces correctes plus distractrices — sont affichées avec des étiquettes numériques surlignées en jaune. Les mises en page portrait placent l`image du puzzle en haut avec les options en dessous en rangée horizontale (75 % de la taille maximale) ; les mises en page paysage divisent la vue 50/50 avec les options sur le côté droit. L`en-tête auto-généré affiche « Pièces Manquantes » en turquoise (#06B6D4) avec une description rose (#DB2777) à travers une double bordure — bleu sarcelle extérieure (#14B8A6, 8px) et rose vif intérieure (#EC4899, 3px).",
       },
       {
         title: "Consulter le Corrigé Auto-Généré",
-        description: "Cliquez sur l`onglet Corrigé pour voir la solution auto-générée. La même image de puzzle apparaît avec les trous, et des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) sont placées à l'intérieur de chaque trou montrant l'index correct de l'option (base 1). La taille de police s`adapte à 60 % de la taille de la pièce pour une lisibilité claire. Basculez entre les onglets Fiche et Corrigé pour comparer. Le corrigé se génère simultanément avec la fiche — aucune étape de création manuelle, aucun processus de conception séparé, aucune possibilité de réponses incompatibles. Ce système à double canevas est votre plus grand gain de temps pour créer des lots de puzzles pièces manquantes.",
+        description: "Cliquez sur l`onglet Corrigé pour voir la solution auto-générée. La même image de puzzle apparaît avec les trous, et des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) sont placées à l`intérieur de chaque trou montrant l'index correct de l`option (base 1). La taille de police s`adapte à 60 % de la taille de la pièce pour une lisibilité claire. Basculez entre les onglets Fiche et Corrigé pour comparer. Le corrigé se génère simultanément avec la fiche — aucune étape de création manuelle, aucun processus de conception séparé, aucune possibilité de réponses incompatibles. Ce système à double canevas est votre plus grand gain de temps pour créer des lots de puzzles pièces manquantes.",
       },
       {
         title: "Télécharger les Quatre Fichiers",
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Packs d'Activités de Puzzles en ligne sur Gumroad",
-      description: "Téléversez des packs d`activités de puzzles pièces manquantes sur Gumroad avec les corrigés auto-générés et la difficulté configurable comme arguments de vente principaux. Les vendeurs recherchant des activités de discrimination visuelle et de pensée critique apprécient les fiches qui arrivent prêtes à l'emploi avec des options de difficulté différenciées. Créez des ensembles alignés sur le programme : puzzles d'habitats d'animaux pour les sciences, puzzles de métiers de la communauté pour les études sociales, puzzles de groupes alimentaires pour la nutrition. Chaque pack inclut les fiches utilisateurs à plusieurs niveaux de difficulté (1–5 pièces manquantes, 2–6 options) plus les corrigés pour les stations d'auto-correction. Les six formes de pièces offrent de la variété aux vendeurs au sein d'un seul type d`activité.",
+      description: "Téléversez des packs d`activités de puzzles pièces manquantes sur Gumroad avec les corrigés auto-générés et la difficulté configurable comme arguments de vente principaux. Les vendeurs recherchant des activités de discrimination visuelle et de pensée critique apprécient les fiches qui arrivent prêtes à l`emploi avec des options de difficulté différenciées. Créez des ensembles alignés sur le programme : puzzles d`habitats d'animaux pour les sciences, puzzles de métiers de la communauté pour les études sociales, puzzles de groupes alimentaires pour la nutrition. Chaque pack inclut les fiches utilisateurs à plusieurs niveaux de difficulté (1–5 pièces manquantes, 2–6 options) plus les corrigés pour les stations d`auto-correction. Les six formes de pièces offrent de la variété aux vendeurs au sein d`un seul type d`activité.",
       platform: 'Gumroad',
     },
     {
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les 6 formes de pièces (carré, cercle, rectangle portrait/paysage, ellipse portrait/paysage), 1–5 pièces manquantes, 2–6 options de réponse avec distractrices, le corrigé auto-généré avec étiquettes numériques surlignées en jaune, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'importation d'images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, le système de double bordure, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les 6 formes de pièces (carré, cercle, rectangle portrait/paysage, ellipse portrait/paysage), 1–5 pièces manquantes, 2–6 options de réponse avec distractrices, le corrigé auto-généré avec étiquettes numériques surlignées en jaune, les 104 collections d`images thématiques avec plus de 3 100 illustrations, l'importation d`images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, le système de double bordure, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Comment fonctionne le mécanisme du puzzle pièces manquantes ?",
@@ -200,7 +200,7 @@ const content: ToolContent = {
     },
     {
       question: "Quelle est votre politique de remboursement ?",
-      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux 6 formes de pièces, 1–5 pièces manquantes, 2–6 options de réponse avec distractrices, le corrigé auto-généré, les 104 thèmes, l'importation d'images personnalisées, les thèmes de fond et de bordure, la double bordure, l'export en niveaux de gris et tous les formats de téléchargement, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d`acheter.",
+      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l`outil avant d`acheter. Comme l`essai gratuit vous donne un accès complet aux 6 formes de pièces, 1–5 pièces manquantes, 2–6 options de réponse avec distractrices, le corrigé auto-généré, les 104 thèmes, l`importation d'images personnalisées, les thèmes de fond et de bordure, la double bordure, l`export en niveaux de gris et tous les formats de téléchargement, nous n`offrons pas de remboursement sur les achats de licence. Assurez-vous que l`outil répond à vos besoins en utilisant l`essai gratuit avant d`acheter.",
     },
   ],
 
@@ -209,8 +209,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
-    { pageType: `tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches de Tri d`Images" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-tri-images`, anchorText: "Créateur de Fiches de Tri d`Images" },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],

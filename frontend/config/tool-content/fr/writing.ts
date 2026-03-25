@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: "Définir la Source de Contenu et la Casse des Lettres",
-        description: "Configurez ce que chaque ligne pratique. Bibliothèque d`Images — le mode Lettre Initiale utilise la première lettre de chaque nom d'image avec l'image comme référence visuelle. Bibliothèque d'Images — le mode Nom Complet écrit le mot entier. Le mode Texte Personnalisé vous permet de saisir n`importe quel mot, phrase ou texte. Le mode Vide crée des lignes réglées vierges avec le système de guidage à trois lignes. Puis définissez la casse : Majuscules, Minuscules ou Casse de Titre par ligne.",
+        description: "Configurez ce que chaque ligne pratique. Bibliothèque d`Images — le mode Lettre Initiale utilise la première lettre de chaque nom d`image avec l'image comme référence visuelle. Bibliothèque d`Images — le mode Nom Complet écrit le mot entier. Le mode Texte Personnalisé vous permet de saisir n`importe quel mot, phrase ou texte. Le mode Vide crée des lignes réglées vierges avec le système de guidage à trois lignes. Puis définissez la casse : Majuscules, Minuscules ou Casse de Titre par ligne.",
       },
       {
         title: "Ajouter des Tracés de Pré-écriture pour les Échauffements Moteurs",
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Télécharger en PDF ou JPEG',
-        description: "Exportez votre fiche d`écriture en PDF prêt à imprimer ou en JPEG haute résolution. Le moteur d'export rend avec un multiplicateur 6× (~300 DPI) pour que les lignes de guidage, les détails des lettres et les flèches d'ordre des traits s'impriment de manière nette et précise. Activez les niveaux de gris pour une sortie économique en encre idéale pour l'impression en volume ou les intérieurs de cahiers KDP. Il n'y a pas de corrigé pour les fiches d'écriture — les modes de pratique eux-mêmes servent de guide, car il s'agit d`exercices de pratique et non de puzzles. Chaque export est prêt pour la production : listings Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
+        description: "Exportez votre fiche d`écriture en PDF prêt à imprimer ou en JPEG haute résolution. Le moteur d`export rend avec un multiplicateur 6× (~300 DPI) pour que les lignes de guidage, les détails des lettres et les flèches d`ordre des traits s`impriment de manière nette et précise. Activez les niveaux de gris pour une sortie économique en encre idéale pour l'impression en volume ou les intérieurs de cahiers KDP. Il n`y a pas de corrigé pour les fiches d`écriture — les modes de pratique eux-mêmes servent de guide, car il s`agit d`exercices de pratique et non de puzzles. Chaque export est prêt pour la production : listings Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: "Packs Progressifs de Pratique d'Écriture",
-      description: "Créez des ensembles de 15 à 30 fiches d`écriture organisés par difficulté progressive en utilisant les trois modes de pratique comme paliers. Commencez par des tracés de pré-écriture, avancez au mode Tracé avec l'ordre des traits fléché pour l'introduction des lettres, puis au Tracé Progressif pour développer l'autonomie, et terminez par la Copie Guidée pour l`écriture quasi-autonome. Proposez les ensembles majuscules et minuscules séparément ou combinez-les en packs de progression alphabétique complets. La progression en trois modes crée une courbe de difficulté naturelle qui justifie des prix premium pour les lots sur Etsy.fr et Gumroad.",
+      description: "Créez des ensembles de 15 à 30 fiches d`écriture organisés par difficulté progressive en utilisant les trois modes de pratique comme paliers. Commencez par des tracés de pré-écriture, avancez au mode Tracé avec l`ordre des traits fléché pour l'introduction des lettres, puis au Tracé Progressif pour développer l`autonomie, et terminez par la Copie Guidée pour l`écriture quasi-autonome. Proposez les ensembles majuscules et minuscules séparément ou combinez-les en packs de progression alphabétique complets. La progression en trois modes crée une courbe de difficulté naturelle qui justifie des prix premium pour les lots sur Etsy.fr et Gumroad.",
     },
     {
       title: `Cahiers d'Écriture pour KDP`,
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: "Fiches d'Écriture Thématiques avec Vocabulaire",
-      description: "Utilisez la Bibliothèque d`Images avec 104 collections thématiques pour créer des fiches d'écriture qui combinent la pratique des lettres avec l'enrichissement du vocabulaire. En mode Lettre Initiale, les utilisateurs pratiquent la première lettre de chaque nom d'image (A pour Abeille, B pour Baleine). En mode Nom Complet, les utilisateurs écrivent le mot entier. Regroupez les fiches par thème — animaux de la ferme, créatures marines, dinosaures, véhicules — pour des listings saisonniers et de niche sur les places de marché. L'intégration d'images thématiques rend les fiches d`écriture plus engageantes que des pages de pratique vierges.",
+      description: "Utilisez la Bibliothèque d`Images avec 104 collections thématiques pour créer des fiches d`écriture qui combinent la pratique des lettres avec l`enrichissement du vocabulaire. En mode Lettre Initiale, les utilisateurs pratiquent la première lettre de chaque nom d'image (A pour Abeille, B pour Baleine). En mode Nom Complet, les utilisateurs écrivent le mot entier. Regroupez les fiches par thème — animaux de la ferme, créatures marines, dinosaures, véhicules — pour des listings saisonniers et de niche sur les places de marché. L`intégration d`images thématiques rend les fiches d`écriture plus engageantes que des pages de pratique vierges.",
     },
     {
       title: "Collections de Pratique d'Écriture Cursive",
-      description: "Utilisez la police Cursive (Great Vibes) avec les trois modes de pratique pour créer des programmes complets d`écriture cursive. Le mode Tracé en cursive permet aux débutants de suivre les formes de lettres liées. Le Tracé Progressif en cursive développe la mémoire musculaire pour les traits connectés. La Copie Guidée en cursive met les utilisateurs au défi de reproduire l'écriture liée avec un support minimal. L'écriture cursive constitue une catégorie de produits distincte de l'écriture en lettres bâtons — proposez les deux sur Etsy.fr et Gumroad pour toucher des audiences d`acheteurs différentes cherchant des besoins pédagogiques différents.",
+      description: "Utilisez la police Cursive (Great Vibes) avec les trois modes de pratique pour créer des programmes complets d`écriture cursive. Le mode Tracé en cursive permet aux débutants de suivre les formes de lettres liées. Le Tracé Progressif en cursive développe la mémoire musculaire pour les traits connectés. La Copie Guidée en cursive met les utilisateurs au défi de reproduire l`écriture liée avec un support minimal. L'écriture cursive constitue une catégorie de produits distincte de l`écriture en lettres bâtons — proposez les deux sur Etsy.fr et Gumroad pour toucher des audiences d`acheteurs différentes cherchant des besoins pédagogiques différents.",
     },
   ],
 
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: "Série de Cahiers d'Écriture sur Amazon KDP",
-      description: "Publiez une série de cahiers d`écriture sur Amazon KDP, chacun ciblant une étape spécifique : « Tracés de Pré-écriture pour le Développement Moteur », « Lettres Bâtons avec Ordre des Traits Fléché », « Pratique d'Écriture en Tracé Progressif », « Écriture Cursive pour Débutants ». Chaque livre contient 80 à 120 pages avec une structure de difficulté progressive. Utilisez les niveaux de gris pour réduire les coûts d'impression. Les cahiers d'écriture se vendent régulièrement toute l`année et les trois modes de pratique plus les cinq styles de police vous donnent assez de variété pour maintenir une série multi-livres sans contenu répétitif.",
+      description: "Publiez une série de cahiers d`écriture sur Amazon KDP, chacun ciblant une étape spécifique : « Tracés de Pré-écriture pour le Développement Moteur », « Lettres Bâtons avec Ordre des Traits Fléché », « Pratique d`Écriture en Tracé Progressif », « Écriture Cursive pour Débutants ». Chaque livre contient 80 à 120 pages avec une structure de difficulté progressive. Utilisez les niveaux de gris pour réduire les coûts d'impression. Les cahiers d`écriture se vendent régulièrement toute l`année et les trois modes de pratique plus les cinq styles de police vous donnent assez de variété pour maintenir une série multi-livres sans contenu répétitif.",
       platform: 'Amazon KDP',
     },
     {
@@ -112,12 +112,12 @@ const content: ToolContent = {
     },
     {
       title: "Tunnel de Vente Pinterest pour Fiches d'Écriture",
-      description: "Les fiches d`écriture avec ordre des traits guidé par des flèches sont naturellement attractives sur Pinterest — les flèches numérotées sur les formes de lettres sont visuellement distinctives et signalent immédiatement une valeur pédagogique. Épinglez un échantillon gratuit de 3 pages avec filigrane, collectez des adresses e-mail sur votre page d'atterrissage, puis proposez des packs de progression alphabétique complets en vente. Les épingles de pratique d'écriture obtiennent des taux d'enregistrement élevés sur Pinterest car les parents et vendeurs recherchent activement des ressources imprimables de pratique des lettres toute l`année, pas seulement à la rentrée.",
+      description: "Les fiches d`écriture avec ordre des traits guidé par des flèches sont naturellement attractives sur Pinterest — les flèches numérotées sur les formes de lettres sont visuellement distinctives et signalent immédiatement une valeur pédagogique. Épinglez un échantillon gratuit de 3 pages avec filigrane, collectez des adresses e-mail sur votre page d`atterrissage, puis proposez des packs de progression alphabétique complets en vente. Les épingles de pratique d'écriture obtiennent des taux d`enregistrement élevés sur Pinterest car les parents et vendeurs recherchent activement des ressources imprimables de pratique des lettres toute l`année, pas seulement à la rentrée.",
       platform: 'Pinterest',
     },
     {
       title: "Programme Complet d'Écriture sur Gumroad",
-      description: "Regroupez les tracés de pré-écriture, le tracé de lettres bâtons avec ordre des traits, la pratique en tracé progressif, la copie guidée et l`écriture cursive dans un programme d'écriture complet sur Gumroad. Incluez les cinq styles de police, les trois modes de pratique et les variations d'images thématiques. Un programme d'écriture multi-étapes justifie un prix premium car il remplace plusieurs achats individuels. Associez-le aux fiches train de l`alphabet et de graphisme pour un pack complet de littératie précoce et de compétences motrices.",
+      description: "Regroupez les tracés de pré-écriture, le tracé de lettres bâtons avec ordre des traits, la pratique en tracé progressif, la copie guidée et l`écriture cursive dans un programme d`écriture complet sur Gumroad. Incluez les cinq styles de police, les trois modes de pratique et les variations d'images thématiques. Un programme d`écriture multi-étapes justifie un prix premium car il remplace plusieurs achats individuels. Associez-le aux fiches train de l`alphabet et de graphisme pour un pack complet de littératie précoce et de compétences motrices.",
       platform: 'Gumroad',
     },
   ],
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les trois modes de pratique (Tracé, Tracé Progressif, Copie Guidée), les cinq styles de police incluant l'ordre des traits fléché, les tracés de pré-écriture, la bibliothèque d'images, la configuration ligne par ligne, la saisie de texte personnalisé et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une licence commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les trois modes de pratique (Tracé, Tracé Progressif, Copie Guidée), les cinq styles de police incluant l`ordre des traits fléché, les tracés de pré-écriture, la bibliothèque d'images, la configuration ligne par ligne, la saisie de texte personnalisé et tous les formats d`export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une licence commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les trois modes de pratique ?",
@@ -201,8 +201,8 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: `app', slug: 'ecriture-fiches', anchorText: "Fiches d`Écriture — Détails Complets du Produit" },
-    { pageType: `tool', slug: 'generateur-train-alphabet', anchorText: "Créateur de Fiches Train de l`Alphabet" },
+    { pageType: `app`, slug: 'ecriture-fiches`, anchorText: "Fiches d`Écriture — Détails Complets du Produit" },
+    { pageType: `tool`, slug: 'generateur-train-alphabet`, anchorText: "Créateur de Fiches Train de l`Alphabet" },
     { pageType: 'tool', slug: 'generateur-deviner-mots', anchorText: "Créateur de Fiches Deviner les Mots" },
     { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: "Créateur de Fiches Mots Mélangés" },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: "Créateur de Fiches Mots Cachés" },

@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches de Vocabulaire avec Liste de Mots Personnalisée",
-      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d`orthographe ou vocabulaire en langue étrangère. Pas besoin d'images — l'outil génère des grilles de lettres à partir de vos mots saisis. Créez une pratique d'orthographe ciblée pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d`images ne couvre pas.",
+      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d`orthographe ou vocabulaire en langue étrangère. Pas besoin d`images — l'outil génère des grilles de lettres à partir de vos mots saisis. Créez une pratique d`orthographe ciblée pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d`images ne couvre pas.",
     },
     {
       title: "Packs Saisonniers de Devinettes Orthographiques",
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez les Listes de Mots Personnalisées pour du Vocabulaire de Niche",
-      description: "Le mode Liste de Mots Personnalisée vous permet de taper n`importe quels mots directement, contournant la bibliothèque d'images. Créez des fiches d'orthographe pour des termes scientifiques, des listes de mots de dictée, la préparation aux concours d'orthographe, du vocabulaire en langue étrangère ou toute terminologie spécifique à une matière. Ce mode ouvre des marchés que la bibliothèque d`images seule ne peut atteindre.",
+      description: "Le mode Liste de Mots Personnalisée vous permet de taper n`importe quels mots directement, contournant la bibliothèque d`images. Créez des fiches d'orthographe pour des termes scientifiques, des listes de mots de dictée, la préparation aux concours d`orthographe, du vocabulaire en langue étrangère ou toute terminologie spécifique à une matière. Ce mode ouvre des marchés que la bibliothèque d`images seule ne peut atteindre.",
     },
     {
       title: "Utilisez les Niveaux de Gris pour KDP et l'Impression en Volume",
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: "Quels sont les deux modes de saisie ?",
-      answer: "Le mode Indice Image utilise des illustrations de la bibliothèque intégrée de plus de 3 100 images réparties dans 104 thèmes. L`outil génère automatiquement les grilles de lettres à partir du mot de l'image dans la langue sélectionnée. Le mode Liste de Mots Personnalisée vous permet de taper n'importe quels mots directement — l'outil génère des grilles de lettres sans images, idéal pour les listes de dictée, le vocabulaire spécifique à une matière ou les mots que la bibliothèque d`images ne couvre pas.",
+      answer: "Le mode Indice Image utilise des illustrations de la bibliothèque intégrée de plus de 3 100 images réparties dans 104 thèmes. L`outil génère automatiquement les grilles de lettres à partir du mot de l`image dans la langue sélectionnée. Le mode Liste de Mots Personnalisée vous permet de taper n'importe quels mots directement — l`outil génère des grilles de lettres sans images, idéal pour les listes de dictée, le vocabulaire spécifique à une matière ou les mots que la bibliothèque d`images ne couvre pas.",
     },
     {
       question: "Que fait la fonctionnalité Exclure des Lettres ?",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: 'Générateur de Mots Mélangés' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
-    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-ecriture`, anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

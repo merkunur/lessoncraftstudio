@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Choisir Votre Mode de Jeu',
-        description: "Ouvrez le panneau Configuration du Parcours et sélectionnez un des trois modes de jeu. Chemin d`Images crée une grille d'images avec un seul chemin correct du départ à l'arrivée — les utilisateurs identifient les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l'algorithme LPF (Longest Path First) avec des tailles de grille configurables de 15×15 à 20×20, 1 à 3 chemins et blocage automatique des impasses. Choisis le Bon Chemin crée des labyrinthes à trois chemins avec quatre options directionnelles : bas→haut, haut→bas, gauche→droite et droite→gauche. Chaque mode offre un défi cognitif différent à partir de la même bibliothèque d`images.",
+        description: "Ouvrez le panneau Configuration du Parcours et sélectionnez un des trois modes de jeu. Chemin d`Images crée une grille d`images avec un seul chemin correct du départ à l'arrivée — les utilisateurs identifient les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l`algorithme LPF (Longest Path First) avec des tailles de grille configurables de 15×15 à 20×20, 1 à 3 chemins et blocage automatique des impasses. Choisis le Bon Chemin crée des labyrinthes à trois chemins avec quatre options directionnelles : bas→haut, haut→bas, gauche→droite et droite→gauche. Chaque mode offre un défi cognitif différent à partir de la même bibliothèque d`images.",
       },
       {
         title: "Configurer les Paramètres Spécifiques au Mode",
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: "Sélectionner les Images par Rôle depuis la Bibliothèque",
-        description: "Ouvrez le panneau Bibliothèque d`Images et utilisez le sélecteur de rôle pour attribuer les images à cinq rôles distincts. L'Image de Départ marque le point d'entrée. L'Image d'Arrivée marque la destination — sélectionnez-en 1 pour Chemin d'Images et Labyrinthe Classique, ou 3 pour Choisis le Bon Chemin. Les Images du Chemin définissent le parcours correct en mode Chemin d`Images ou apparaissent comme objets à collectionner en Labyrinthe Classique. Les Images Distractrices remplissent les cellules hors chemin pour créer un défi visuel. Les images de Décoration sont placées librement sur le canevas. Parcourez 104 collections thématiques avec plus de 3 100 illustrations, recherchez par mot-clé ou importez des images PNG, JPG ou GIF personnalisées.",
+        description: "Ouvrez le panneau Bibliothèque d`Images et utilisez le sélecteur de rôle pour attribuer les images à cinq rôles distincts. L`Image de Départ marque le point d`entrée. L'Image d`Arrivée marque la destination — sélectionnez-en 1 pour Chemin d`Images et Labyrinthe Classique, ou 3 pour Choisis le Bon Chemin. Les Images du Chemin définissent le parcours correct en mode Chemin d`Images ou apparaissent comme objets à collectionner en Labyrinthe Classique. Les Images Distractrices remplissent les cellules hors chemin pour créer un défi visuel. Les images de Décoration sont placées librement sur le canevas. Parcourez 104 collections thématiques avec plus de 3 100 illustrations, recherchez par mot-clé ou importez des images PNG, JPG ou GIF personnalisées.",
       },
       {
         title: 'Générer la Fiche Labyrinthe',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: "Lots d'Activités Labyrinthes Multi-Modes par Thème",
-      description: "Créez des packs d`activités labyrinthes utilisant les trois modes de jeu à partir des 104 collections d'images. Un seul thème animalier produit des fiches Chemin d'Images pour le parcours visuel, des puzzles Labyrinthe Classique avec des corridors à murs et des objets à collectionner, et des défis Choisis le Bon Chemin avec du parcours directionnel — trois types de puzzles distincts à partir d'un seul thème. Regroupez 15–20 fiches labyrinthes par lot avec les corrigés auto-générés inclus. Variez la difficulté en ajustant les tailles de grille, le nombre de chemins et les configurations d'objets à collectionner dans les fiches Labyrinthe Classique. La génération aléatoire de labyrinthes signifie que chaque clic sur Générer produit une disposition unique, donc vous pouvez créer de grands lots à partir d'un petit ensemble d`images thématiques.",
+      description: "Créez des packs d`activités labyrinthes utilisant les trois modes de jeu à partir des 104 collections d`images. Un seul thème animalier produit des fiches Chemin d`Images pour le parcours visuel, des puzzles Labyrinthe Classique avec des corridors à murs et des objets à collectionner, et des défis Choisis le Bon Chemin avec du parcours directionnel — trois types de puzzles distincts à partir d'un seul thème. Regroupez 15–20 fiches labyrinthes par lot avec les corrigés auto-générés inclus. Variez la difficulté en ajustant les tailles de grille, le nombre de chemins et les configurations d`objets à collectionner dans les fiches Labyrinthe Classique. La génération aléatoire de labyrinthes signifie que chaque clic sur Générer produit une disposition unique, donc vous pouvez créer de grands lots à partir d`un petit ensemble d`images thématiques.",
     },
     {
       title: "Cahiers de Labyrinthes KDP avec Difficulté Progressive",
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: "Activités de Raisonnement Spatial et Résolution de Problèmes pour la vente",
-      description: "Construisez des fiches labyrinthes prêtes à l`emploi avec les champs nom/date et les corrigés imprimés pour les stations d'auto-correction. Les labyrinthes développent le raisonnement spatial, la planification et la résolution de problèmes dans un format accessible à tous les âges et niveaux de lecture. Créez des ensembles alignés sur le programme : parcours d'habitats animaliers pour les sciences, collections de labyrinthes saisonniers pour les séquences de fêtes, et défis Choisis le Bon Chemin thématiques pour les études sociales. Le Labyrinthe Classique avec des objets à collectionner ajoute de la pratique de comptage au parcours. Chaque fiche s'exporte avec son corrigé auto-généré, éliminant le temps de préparation de l`vendeur pour créer des pages de solutions séparées.",
+      description: "Construisez des fiches labyrinthes prêtes à l`emploi avec les champs nom/date et les corrigés imprimés pour les stations d`auto-correction. Les labyrinthes développent le raisonnement spatial, la planification et la résolution de problèmes dans un format accessible à tous les âges et niveaux de lecture. Créez des ensembles alignés sur le programme : parcours d'habitats animaliers pour les sciences, collections de labyrinthes saisonniers pour les séquences de fêtes, et défis Choisis le Bon Chemin thématiques pour les études sociales. Le Labyrinthe Classique avec des objets à collectionner ajoute de la pratique de comptage au parcours. Chaque fiche s`exporte avec son corrigé auto-généré, éliminant le temps de préparation de l`vendeur pour créer des pages de solutions séparées.",
     },
     {
       title: "Packs d'Activités Labyrinthes à Collectionner et Compter",
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: "Boutique Etsy de Labyrinthes Thématiques",
-      description: "Ouvrez une boutique Etsy spécialisée dans les lots de labyrinthes organisés par thème en utilisant les 104 collections d`images. Labyrinthes d'animaux, de fêtes, de la ferme, de l'océan — chaque thème devient un listing séparé avec des fiches Chemin d'Images, Labyrinthe Classique et Choisis le Bon Chemin plus les corrigés auto-générés. Trois modes de jeu à partir de chaque thème triplent la variété de vos produits. L`algorithme LPF produit des dispositions de labyrinthes uniques à chaque génération, donc créer plus de 20 fiches uniques par thème prend des minutes. Prix : packs thématiques individuels à 3 €–5 € pour 15–20 fiches avec corrigés et lots premium multi-thèmes à 7 €–12 € pour des collections à difficulté progressive.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les lots de labyrinthes organisés par thème en utilisant les 104 collections d`images. Labyrinthes d`animaux, de fêtes, de la ferme, de l'océan — chaque thème devient un listing séparé avec des fiches Chemin d`Images, Labyrinthe Classique et Choisis le Bon Chemin plus les corrigés auto-générés. Trois modes de jeu à partir de chaque thème triplent la variété de vos produits. L`algorithme LPF produit des dispositions de labyrinthes uniques à chaque génération, donc créer plus de 20 fiches uniques par thème prend des minutes. Prix : packs thématiques individuels à 3 €–5 € pour 15–20 fiches avec corrigés et lots premium multi-thèmes à 7 €–12 € pour des collections à difficulté progressive.",
       platform: 'Etsy.fr',
     },
     {
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: "Utilisez les Trois Modes de Jeu dans Chaque Lot pour une Valeur Perçue Maximale",
-      description: "Les lots qui incluent des fiches Chemin d`Images, Labyrinthe Classique et Choisis le Bon Chemin offrent trois types de puzzles distincts au lieu d'un seul. Le Chemin d'Images développe la discrimination visuelle et le parcours. Le Labyrinthe Classique construit la planification spatiale à travers des corridors à murs. Choisis le Bon Chemin exige du raisonnement directionnel entre plusieurs options de parcours. Inclure les trois modes triple la variété de vos fiches à partir du même thème, élargit la tranche d'âge que votre produit couvre, et justifie un prix plus élevé car les acheteurs obtiennent trois types d`activités en un seul achat.",
+      description: "Les lots qui incluent des fiches Chemin d`Images, Labyrinthe Classique et Choisis le Bon Chemin offrent trois types de puzzles distincts au lieu d`un seul. Le Chemin d'Images développe la discrimination visuelle et le parcours. Le Labyrinthe Classique construit la planification spatiale à travers des corridors à murs. Choisis le Bon Chemin exige du raisonnement directionnel entre plusieurs options de parcours. Inclure les trois modes triple la variété de vos fiches à partir du même thème, élargit la tranche d`âge que votre produit couvre, et justifie un prix plus élevé car les acheteurs obtiennent trois types d`activités en un seul achat.",
     },
     {
       title: "Variez la Difficulté du Labyrinthe Classique par la Taille de Grille et le Nombre de Chemins",
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez la Personnalisation des Murs pour Créer des Styles Visuels Distincts",
-      description: "Les contrôles de couleur, d`épaisseur et d'opacité des murs vous permettent de créer des produits labyrinthes visuellement distincts pour différents publics. Des murs gris fins (2px, 60 % d'opacité) produisent une esthétique de livre de puzzles sophistiquée pour les utilisateurs plus âgés. Des murs colorés épais (8px, 100 % d'opacité, couleurs vives) créent des labyrinthes audacieux adaptés aux enfants pour la maternelle. Des murs semi-transparents (30–50 % d`opacité) se superposent aux thèmes de fond pour des effets de design multicouches. Développez un style visuel cohérent à travers votre gamme de produits pour que les clients fidèles reconnaissent votre marque.",
+      description: "Les contrôles de couleur, d`épaisseur et d`opacité des murs vous permettent de créer des produits labyrinthes visuellement distincts pour différents publics. Des murs gris fins (2px, 60 % d'opacité) produisent une esthétique de livre de puzzles sophistiquée pour les utilisateurs plus âgés. Des murs colorés épais (8px, 100 % d`opacité, couleurs vives) créent des labyrinthes audacieux adaptés aux enfants pour la maternelle. Des murs semi-transparents (30–50 % d`opacité) se superposent aux thèmes de fond pour des effets de design multicouches. Développez un style visuel cohérent à travers votre gamme de produits pour que les clients fidèles reconnaissent votre marque.",
     },
     {
       title: "Utilisez les Niveaux de Gris pour des Produits Économiques pour la vente et KDP",
@@ -156,11 +156,11 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les trois modes de jeu (Chemin d'Images, Labyrinthe Classique, Choisis le Bon Chemin), l'algorithme LPF avec score de qualité, les cinq rôles d'images (Départ, Arrivée, Chemin, Distractrice, Décoration), la personnalisation des murs avec contrôles couleur/épaisseur/opacité, le système d'objets à collectionner avec types et copies configurables, le corrigé auto-généré avec cercles roses sur les chemins de solution et légendes des objets à collectionner, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'importation d'images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les trois modes de jeu (Chemin d`Images, Labyrinthe Classique, Choisis le Bon Chemin), l`algorithme LPF avec score de qualité, les cinq rôles d`images (Départ, Arrivée, Chemin, Distractrice, Décoration), la personnalisation des murs avec contrôles couleur/épaisseur/opacité, le système d'objets à collectionner avec types et copies configurables, le corrigé auto-généré avec cercles roses sur les chemins de solution et légendes des objets à collectionner, les 104 collections d`images thématiques avec plus de 3 100 illustrations, l`importation d`images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les trois modes de jeu et comment diffèrent-ils ?",
-      answer: "Le générateur propose trois modes distincts en un seul outil. Chemin d`Images crée une grille d'images où les utilisateurs suivent le chemin correct du départ à l'arrivée en identifiant les images du chemin parmi les distractrices — idéal pour les jeunes apprenants et la discrimination visuelle. Labyrinthe Classique génère des labyrinthes à murs utilisant l'algorithme LPF (Longest Path First) avec des images à collectionner réparties dans les corridors, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas→haut, haut→bas, gauche→droite, droite→gauche) où les utilisateurs identifient le seul chemin correct parmi les leurres. Chaque mode offre un défi cognitif différent à partir de la même bibliothèque d`images.",
+      answer: "Le générateur propose trois modes distincts en un seul outil. Chemin d`Images crée une grille d`images où les utilisateurs suivent le chemin correct du départ à l'arrivée en identifiant les images du chemin parmi les distractrices — idéal pour les jeunes apprenants et la discrimination visuelle. Labyrinthe Classique génère des labyrinthes à murs utilisant l`algorithme LPF (Longest Path First) avec des images à collectionner réparties dans les corridors, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas→haut, haut→bas, gauche→droite, droite→gauche) où les utilisateurs identifient le seul chemin correct parmi les leurres. Chaque mode offre un défi cognitif différent à partir de la même bibliothèque d`images.",
     },
     {
       question: "Comment fonctionne l'algorithme LPF pour les labyrinthes ?",
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: "Quel est le design de l'en-tête auto-généré ?",
-      answer: "Chaque fiche inclut un en-tête stylisé avec une bordure extérieure orange (trait de 8px) et des marges de 34px. Le titre « Chemin d`Images » et la description « Suis le chemin du départ à l'arrivée ! » sont automatiquement traduits dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. L'en-tête se rend en texte localisé pour le français (Chemin d'Images), l'allemand (Bilderpfad), l'anglais (Picture Pathway), l`espagnol (Camino de Imágenes) et toutes les autres langues prises en charge.",
+      answer: "Chaque fiche inclut un en-tête stylisé avec une bordure extérieure orange (trait de 8px) et des marges de 34px. Le titre « Chemin d`Images » et la description « Suis le chemin du départ à l`arrivée ! » sont automatiquement traduits dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. L`en-tête se rend en texte localisé pour le français (Chemin d'Images), l`allemand (Bilderpfad), l`anglais (Picture Pathway), l`espagnol (Camino de Imágenes) et toutes les autres langues prises en charge.",
     },
     {
       question: "Le Créateur de Labyrinthes Chemin d'Images est-il sensible à la langue ?",
@@ -205,7 +205,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: `app', slug: 'parcours-images-fiches', anchorText: "Labyrinthes Chemin d`Images — Détails Complets du Produit" },
+    { pageType: `app`, slug: 'parcours-images-fiches`, anchorText: "Labyrinthes Chemin d`Images — Détails Complets du Produit" },
     { pageType: 'tool', slug: 'generateur-sudoku-enfants', anchorText: 'Créateur de Sudoku en Images' },
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: "Créateur de Puzzles Pièces Manquantes" },
     { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },

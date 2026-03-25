@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Genera le Risposte e Scarica',
         description:
-          "Passa alla scheda Risposte per visualizzare le risposte auto-generate. Nella modalità Abbinamento Ombre, ogni cella mostra l`immagine originale accanto alla sua silhouette con un'etichetta come «A → 2» che indica la corrispondenza corretta. Nella modalità Completa l'Immagine, ogni cella mostra l'immagine originale completa con la sua etichetta di corrispondenza. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d`inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
+          "Passa alla scheda Risposte per visualizzare le risposte auto-generate. Nella modalità Abbinamento Ombre, ogni cella mostra l`immagine originale accanto alla sua silhouette con un`etichetta come «A → 2» che indica la corrispondenza corretta. Nella modalità Completa l'Immagine, ogni cella mostra l`immagine originale completa con la sua etichetta di corrispondenza. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d`inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
       },
     ],
   },
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il Generatore di Abbinamento Ombre è sensibile alla lingua?",
       answer:
-        "No. L`Abbinamento Ombre è puramente visivo — il risultato della scheda contiene solo immagini, silhouette e metà divise, senza contenuto testuale localizzato. L'interfaccia dell'app (menu, pulsanti, testo dell'intestazione) supporta tutte le 11 lingue, ma la scheda generata funziona in modo identico indipendentemente dalla selezione della lingua. Questo rende le schede di abbinamento ombre universalmente vendibili su tutti i mercati senza traduzione. La Licenza Commerciale include 10 temi colorati; l`Accesso Completo sblocca tutti i 104 temi e le 11 lingue di interfaccia.",
+        "No. L`Abbinamento Ombre è puramente visivo — il risultato della scheda contiene solo immagini, silhouette e metà divise, senza contenuto testuale localizzato. L`interfaccia dell'app (menu, pulsanti, testo dell`intestazione) supporta tutte le 11 lingue, ma la scheda generata funziona in modo identico indipendentemente dalla selezione della lingua. Questo rende le schede di abbinamento ombre universalmente vendibili su tutti i mercati senza traduzione. La Licenza Commerciale include 10 temi colorati; l`Accesso Completo sblocca tutti i 104 temi e le 11 lingue di interfaccia.",
     },
     {
       question: "Posso vendere schede di abbinamento ombre create con questo strumento su Etsy e Amazon KDP?",

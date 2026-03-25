@@ -197,12 +197,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'comparaison-quantites-fiches', anchorText: "Fiches Plus ou Moins — Détails Complets du Produit" },
-    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
+    { pageType: `tool`, slug: 'generateur-fiches-addition`, anchorText: "Générateur de Fiches d`Addition" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
-    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée` },
+    { pageType: `tool`, slug: `generateur-addition-codee', anchorText: `Générateur d`Addition Codée` },
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: 'Générateur de Puzzles Maths' },
-    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-exercices-maths`, anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Générateur de Fiches Grand et Petit" },
   ],
 

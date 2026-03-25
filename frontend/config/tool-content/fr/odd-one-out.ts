@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: "Sélectionner les Thèmes et Images dans la Bibliothèque",
-        description: "Ouvrez le panneau Bibliothèque d`Images et choisissez le Thème A dans le menu déroulant — il fournit les trois images communes en mode Similaire. Choisissez le Thème B pour l'élément intrus en mode Similaire (par exemple, Thème A = animaux, Thème B = nourriture). Parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées, ou recherchez par mot-clé. Les images se chargent avec un chargement paresseux (20 à la fois) pour une navigation fluide. En mode Identique, un seul thème est nécessaire puisque les clones communs et l'image intrus proviennent de la même collection. Vous pouvez aussi importer vos propres images PNG, JPG ou GIF via le panneau d'Import d`Images Personnalisées.",
+        description: "Ouvrez le panneau Bibliothèque d`Images et choisissez le Thème A dans le menu déroulant — il fournit les trois images communes en mode Similaire. Choisissez le Thème B pour l`élément intrus en mode Similaire (par exemple, Thème A = animaux, Thème B = nourriture). Parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées, ou recherchez par mot-clé. Les images se chargent avec un chargement paresseux (20 à la fois) pour une navigation fluide. En mode Identique, un seul thème est nécessaire puisque les clones communs et l'image intrus proviennent de la même collection. Vous pouvez aussi importer vos propres images PNG, JPG ou GIF via le panneau d`Import d`Images Personnalisées.",
       },
       {
         title: "Définir la Mise en Page et les Décorations",
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Packs d'Activités Intrus en ligne sur Gumroad",
-      description: "Téléversez des packs d`activités intrus sur Gumroad avec les champs nom/date, les numéros d'exercices et les corrigés auto-générés comme arguments de vente principaux. Les vendeurs recherchant des activités de pensée critique et de discrimination visuelle apprécient les fiches qui arrivent prêtes à l'emploi. Créez des ensembles alignés sur le programme : classification animale pour les sciences, tri de groupes alimentaires pour la nutrition, identification des métiers pour les études sociales. Chaque pack inclut des versions en mode Identique pour l'enseignement guidé et des versions en mode Similaire pour le défi autonome — le remplacement par exercice permet de combiner les deux sur une seule page pour l`offres groupées par niveau.",
+      description: "Téléversez des packs d`activités intrus sur Gumroad avec les champs nom/date, les numéros d`exercices et les corrigés auto-générés comme arguments de vente principaux. Les vendeurs recherchant des activités de pensée critique et de discrimination visuelle apprécient les fiches qui arrivent prêtes à l'emploi. Créez des ensembles alignés sur le programme : classification animale pour les sciences, tri de groupes alimentaires pour la nutrition, identification des métiers pour les études sociales. Chaque pack inclut des versions en mode Identique pour l`enseignement guidé et des versions en mode Similaire pour le défi autonome — le remplacement par exercice permet de combiner les deux sur une seule page pour l`offres groupées par niveau.",
       platform: 'Gumroad',
     },
     {
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les deux modes de génération (Identique et Similaire), les remplacements de mode par exercice avec réinitialisation Effacer les Sélections, le nombre d'exercices configurable (5–10), le corrigé auto-généré avec marqueurs cercle rouge, le système à deux thèmes, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'importation d'images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, les numéros d'exercices, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les deux modes de génération (Identique et Similaire), les remplacements de mode par exercice avec réinitialisation Effacer les Sélections, le nombre d`exercices configurable (5–10), le corrigé auto-généré avec marqueurs cercle rouge, le système à deux thèmes, les 104 collections d`images thématiques avec plus de 3 100 illustrations, l'importation d`images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, les numéros d`exercices, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les deux modes de génération ?",
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le système à deux thèmes en mode Similaire ?",
-      answer: "En mode Similaire, vous sélectionnez deux thèmes dans les menus déroulants. Le Thème A fournit les trois images communes pour chaque exercice (par exemple, animaux), et le Thème B fournit l`élément intrus unique (par exemple, nourriture). Cela garantit que l'élément intrus est toujours thématiquement distinct, créant des puzzles clairs et pédagogiquement significatifs. Choisissez n'importe quelle combinaison parmi les 104 thèmes disponibles — animaux contre véhicules, nourriture contre outils, nature contre bâtiments, et des milliers d'autres associations. En mode Identique, un seul thème est nécessaire puisque les clones communs et l`image intrus proviennent de la même collection.",
+      answer: "En mode Similaire, vous sélectionnez deux thèmes dans les menus déroulants. Le Thème A fournit les trois images communes pour chaque exercice (par exemple, animaux), et le Thème B fournit l`élément intrus unique (par exemple, nourriture). Cela garantit que l`élément intrus est toujours thématiquement distinct, créant des puzzles clairs et pédagogiquement significatifs. Choisissez n'importe quelle combinaison parmi les 104 thèmes disponibles — animaux contre véhicules, nourriture contre outils, nature contre bâtiments, et des milliers d`autres associations. En mode Identique, un seul thème est nécessaire puisque les clones communs et l`image intrus proviennent de la même collection.",
     },
     {
       question: "Combien d'exercices puis-je inclure sur une fiche ?",
@@ -200,7 +200,7 @@ const content: ToolContent = {
     },
     {
       question: "Quelle est votre politique de remboursement ?",
-      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux deux modes de génération, aux remplacements par exercice, au système à deux thèmes, aux nombres d'exercices configurables, au corrigé auto-généré avec marqueurs cercle rouge, aux 104 thèmes, à l'importation d'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, aux numéros d'exercices, à l'export en niveaux de gris et à tous les formats de téléchargement, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d`acheter.",
+      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l`outil avant d`acheter. Comme l`essai gratuit vous donne un accès complet aux deux modes de génération, aux remplacements par exercice, au système à deux thèmes, aux nombres d`exercices configurables, au corrigé auto-généré avec marqueurs cercle rouge, aux 104 thèmes, à l`importation d'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, aux numéros d`exercices, à l`export en niveaux de gris et à tous les formats de téléchargement, nous n`offrons pas de remboursement sur les achats de licence. Assurez-vous que l`outil répond à vos besoins en utilisant l`essai gratuit avant d`acheter.",
     },
   ],
 
@@ -209,8 +209,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: "Créateur de Puzzles Pièces Manquantes" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
-    { pageType: `tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches de Tri d`Images" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-tri-images`, anchorText: "Créateur de Fiches de Tri d`Images" },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],

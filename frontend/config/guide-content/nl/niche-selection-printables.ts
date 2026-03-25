@@ -359,7 +359,7 @@ De belangrijkste les: ga niet breed, ga diep. Een micro-niche met honderd produc
     { appId: `wordsearch', title: "Woordzoeker Werkblad Generator", description: "Maak thematische woordzoeker puzzels voor elke niche. Kies uit meer dan 100 thema`s met afbeeldingen en pas het moeilijkheidsniveau aan voor je doelgroep." },
     { appId: 'coloring', title: 'Kleurplaat Generator', description: "Genereer professionele kleurplaten met thematische afbeeldingen. Perfect voor seizoensgebonden en evergreen niches in het printable segment." },
     { appId: 'matching', title: 'Koppelen Werkblad Generator', description: "Maak educatieve koppelactiviteiten voor woordenschat, rekenen en meer. Ideaal voor de educatieve printable niche op Etsy en Gumroad." },
-    { appId: `addition', title: 'Optellen Werkblad Generator', description: "Genereer rekenactiviteiten met thematische afbeeldingen. Combineer rekenen met aantrekkelijke thema`s voor een unieke niche positionering." },
+    { appId: `addition`, title: 'Optellen Werkblad Generator`, description: "Genereer rekenactiviteiten met thematische afbeeldingen. Combineer rekenen met aantrekkelijke thema`s voor een unieke niche positionering." },
   ],
   visuals: {
     heroImage: { src: "/samples/dutch/wordsearch/Woordzoeker 1.webp", alt: "Woordzoeker werkblad als voorbeeld van niche content voor printable bedrijven" },

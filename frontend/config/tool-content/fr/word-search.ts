@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: "Choisir Votre Source de Contenu",
-        description: "Sélectionnez l`une des trois sources de contenu. Le mode Bibliothèque d'Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot caché dans la grille. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement pour des puzzles textuels.",
+        description: "Sélectionnez l`une des trois sources de contenu. Le mode Bibliothèque d`Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot caché dans la grille. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d`affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement pour des puzzles textuels.",
       },
       {
         title: "Configurer la Taille de Grille et les Dimensions",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
     { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: "Générateur de Fiches Train Alphabet" },
     { pageType: 'tool', slug: "generateur-fiches-prepositions", anchorText: "Générateur de Fiches de Prépositions" },
-    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-ecriture`, anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

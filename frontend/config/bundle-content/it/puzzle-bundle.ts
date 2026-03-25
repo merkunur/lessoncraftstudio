@@ -113,7 +113,7 @@ const content: BundleContent = {
     { feature: "Tutto esclusivamente visivo — nessun testo sulle schede", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
+    { feature: `Lingue dell`interfaccia`, commercial: 'Solo inglese`, fullAccess: `11 lingue` },
     { feature: "Percorso di Immagini — 3 modalità labirinto", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },
@@ -183,7 +183,7 @@ const content: BundleContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'pezzi-mancanti-schede', anchorText: "Generatore Puzzle Pezzi Mancanti — Dettagli Completi" },
-    { pageType: `app', slug: 'trova-intruso-schede', anchorText: "Generatore Trova l`Intruso — Dettagli Completi" },
+    { pageType: `app`, slug: 'trova-intruso-schede`, anchorText: "Generatore Trova l`Intruso — Dettagli Completi" },
     { pageType: 'app', slug: 'sudoku-bambini-schede', anchorText: "Generatore Sudoku con Immagini — Dettagli Completi" },
     { pageType: 'app', slug: 'percorso-illustrato-schede', anchorText: "Generatore Labirinti Percorso di Immagini — Dettagli Completi" },
     { pageType: 'guide', slug: 'creare-cruciverba', anchorText: 'Creare cruciverba che vendono' },

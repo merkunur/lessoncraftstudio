@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: `Choisir le Mode d'Exercice`,
-        description: "Ouvrez le panneau Configuration de l`Exercice et sélectionnez votre mode. Le mode Trouve l'Ombre génère des silhouettes noires à partir de vos images sélectionnées par un traitement au niveau des pixels — chaque pixel avec un alpha > 10 est converti en noir pur, produisant des contours fidèles qui préservent les détails fins comme les oreilles d'animaux, les formes de véhicules et les contours d'objets. Le mode Reconstitue l'Image divise les images en moitiés — choisissez la coupe horizontale (moitiés haut/bas) ou la coupe verticale (moitiés gauche/droite) à l'aide des boutons radio qui apparaissent dans ce mode. Chaque mode crée une activité de correspondance fondamentalement différente à partir du même ensemble d`images.",
+        description: "Ouvrez le panneau Configuration de l`Exercice et sélectionnez votre mode. Le mode Trouve l`Ombre génère des silhouettes noires à partir de vos images sélectionnées par un traitement au niveau des pixels — chaque pixel avec un alpha > 10 est converti en noir pur, produisant des contours fidèles qui préservent les détails fins comme les oreilles d`animaux, les formes de véhicules et les contours d'objets. Le mode Reconstitue l`Image divise les images en moitiés — choisissez la coupe horizontale (moitiés haut/bas) ou la coupe verticale (moitiés gauche/droite) à l`aide des boutons radio qui apparaissent dans ce mode. Chaque mode crée une activité de correspondance fondamentalement différente à partir du même ensemble d`images.",
       },
       {
         title: "Configurer les Étiquettes et les Champs Nom/Date",
@@ -49,11 +49,11 @@ const content: ToolContent = {
       },
       {
         title: "Générer la Fiche de Discrimination Visuelle",
-        description: "Cliquez sur Générer pour créer la fiche de correspondance. En mode Trouve l`Ombre, l'application traite chaque image au niveau des pixels — elle la charge sur un canevas, extrait les données de pixels via getImageData et convertit chaque pixel avec un alpha > 10 en noir pur pour produire des silhouettes fidèles. En mode Reconstitue l'Image, les images sont divisées selon la direction de coupe choisie en moitiés étiquetées. Les deux modes appliquent un dérangement Fisher-Yates pour garantir qu'aucun élément n'apparaît à sa position d'origine — aucune silhouette ne se trouve sous son image correspondante, aucune seconde moitié n'apparaît adjacente à sa première moitié. Un en-tête stylisé apparaît avec un fond ambre (#FFC107), un conteneur pilule blanc et une bordure ambre de 3 px affichant « Trouve l'Ombre » et les instructions dans la langue sélectionnée. La mise en page s`adapte automatiquement : les pages paysage utilisent 2 rangées × 4 éléments, les pages portrait utilisent 2 colonnes × 4 éléments.",
+        description: "Cliquez sur Générer pour créer la fiche de correspondance. En mode Trouve l`Ombre, l`application traite chaque image au niveau des pixels — elle la charge sur un canevas, extrait les données de pixels via getImageData et convertit chaque pixel avec un alpha > 10 en noir pur pour produire des silhouettes fidèles. En mode Reconstitue l`Image, les images sont divisées selon la direction de coupe choisie en moitiés étiquetées. Les deux modes appliquent un dérangement Fisher-Yates pour garantir qu`aucun élément n'apparaît à sa position d`origine — aucune silhouette ne se trouve sous son image correspondante, aucune seconde moitié n`apparaît adjacente à sa première moitié. Un en-tête stylisé apparaît avec un fond ambre (#FFC107), un conteneur pilule blanc et une bordure ambre de 3 px affichant « Trouve l`Ombre » et les instructions dans la langue sélectionnée. La mise en page s`adapte automatiquement : les pages paysage utilisent 2 rangées × 4 éléments, les pages portrait utilisent 2 colonnes × 4 éléments.",
       },
       {
         title: "Consulter le Corrigé Auto-Généré",
-        description: "Cliquez sur l`onglet Corrigé pour voir la solution auto-générée. En mode Trouve l'Ombre, chaque cellule affiche l'image originale à côté de sa silhouette avec une étiquette comme « A → 2 » indiquant la correspondance correcte. En mode Reconstitue l'Image, chaque cellule affiche l`image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Basculez entre les onglets Fiche de Travail et Corrigé pour comparer. Le corrigé est généré simultanément avec la fiche — aucune création manuelle, aucune étape séparée, aucune possibilité de réponses erronées. Ce système double canevas est votre plus grand gain de temps lors de la création de lots de fiches de discrimination visuelle.",
+        description: "Cliquez sur l`onglet Corrigé pour voir la solution auto-générée. En mode Trouve l`Ombre, chaque cellule affiche l'image originale à côté de sa silhouette avec une étiquette comme « A → 2 » indiquant la correspondance correcte. En mode Reconstitue l`Image, chaque cellule affiche l`image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Basculez entre les onglets Fiche de Travail et Corrigé pour comparer. Le corrigé est généré simultanément avec la fiche — aucune création manuelle, aucune étape séparée, aucune possibilité de réponses erronées. Ce système double canevas est votre plus grand gain de temps lors de la création de lots de fiches de discrimination visuelle.",
       },
       {
         title: "Télécharger les Quatre Fichiers",
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: "Surfez sur la Vague Halloween pour les Produits de Silhouettes",
-      description: "Les activités de silhouettes et d`ombres ont un attrait saisonnier particulier pendant Halloween quand les thèmes de mystère, d'ombres et de contours sombres sont naturellement pertinents. Créez des collections dédiées de discrimination visuelle Halloween à partir d'images de la bibliothèque à thème effrayant et lancez-les 4–6 semaines avant le 31 octobre pour une visibilité maximale sur les places de marché. Le mode Trouve l'Ombre avec ses silhouettes noires complète naturellement l'esthétique Halloween. Cet avantage de timing saisonnier est unique aux produits de silhouettes et génère des taux de conversion plus élevés pendant la fenêtre d'achat d`automne.",
+      description: "Les activités de silhouettes et d`ombres ont un attrait saisonnier particulier pendant Halloween quand les thèmes de mystère, d`ombres et de contours sombres sont naturellement pertinents. Créez des collections dédiées de discrimination visuelle Halloween à partir d`images de la bibliothèque à thème effrayant et lancez-les 4–6 semaines avant le 31 octobre pour une visibilité maximale sur les places de marché. Le mode Trouve l'Ombre avec ses silhouettes noires complète naturellement l`esthétique Halloween. Cet avantage de timing saisonnier est unique aux produits de silhouettes et génère des taux de conversion plus élevés pendant la fenêtre d`achat d`automne.",
     },
     {
       title: "Utilisez les Thèmes de Fond et Bordure pour une Image de Marque Cohérente",
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les deux modes d'exercice (Trouve l'Ombre et Reconstitue l'Image), le traitement de silhouettes au niveau des pixels, les coupes horizontales et verticales, le corrigé auto-généré avec étiquettes lettre-numéro, les identifiants A/B/C/D et 1/2/3/4 activables, les 104 collections d'images thématiques avec plus de 3 100 illustrations, le téléchargement d'images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les deux modes d`exercice (Trouve l`Ombre et Reconstitue l'Image), le traitement de silhouettes au niveau des pixels, les coupes horizontales et verticales, le corrigé auto-généré avec étiquettes lettre-numéro, les identifiants A/B/C/D et 1/2/3/4 activables, les 104 collections d`images thématiques avec plus de 3 100 illustrations, le téléchargement d`images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les deux modes d'exercice ?",
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le traitement de silhouettes au niveau des pixels ?",
-      answer: "En mode Trouve l`Ombre, l'application charge chaque image sélectionnée sur un canevas, extrait chaque pixel via getImageData et convertit tous les pixels avec une valeur alpha supérieure à 10 en noir pur (R=0, G=0, B=0, A=255). Cela préserve le profil de transparence exact de chaque image source, produisant des silhouettes noires fidèles qui reflètent les détails fins comme les oreilles, les queues, les poignées et les contours distinctifs. Il s'agit d'un véritable traitement de pixels — pas de filtres CSS, pas d'éléments d'ombres préfabriqués, pas de superpositions d`images. La gestion CORS assure le traitement correct des images cross-origin de la bibliothèque.",
+      answer: "En mode Trouve l`Ombre, l`application charge chaque image sélectionnée sur un canevas, extrait chaque pixel via getImageData et convertit tous les pixels avec une valeur alpha supérieure à 10 en noir pur (R=0, G=0, B=0, A=255). Cela préserve le profil de transparence exact de chaque image source, produisant des silhouettes noires fidèles qui reflètent les détails fins comme les oreilles, les queues, les poignées et les contours distinctifs. Il s`agit d'un véritable traitement de pixels — pas de filtres CSS, pas d`éléments d`ombres préfabriqués, pas de superpositions d`images. La gestion CORS assure le traitement correct des images cross-origin de la bibliothèque.",
     },
     {
       question: "Comment fonctionne l'algorithme de dérangement Fisher-Yates ?",
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le corrigé auto-généré ?",
-      answer: "Le système double canevas génère simultanément un onglet fiche et un onglet corrigé. En mode Trouve l`Ombre, le corrigé affiche une grille où chaque cellule présente l'image originale à côté de sa silhouette avec une étiquette comme « A → 2 » indiquant la correspondance correcte. En mode Reconstitue l'Image, chaque cellule affiche l'image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Téléchargez chaque version indépendamment — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — pour quatre fichiers prêts à la production à partir d`une seule génération.",
+      answer: "Le système double canevas génère simultanément un onglet fiche et un onglet corrigé. En mode Trouve l`Ombre, le corrigé affiche une grille où chaque cellule présente l`image originale à côté de sa silhouette avec une étiquette comme « A → 2 » indiquant la correspondance correcte. En mode Reconstitue l'Image, chaque cellule affiche l`image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Téléchargez chaque version indépendamment — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — pour quatre fichiers prêts à la production à partir d`une seule génération.",
     },
     {
       question: "Peut-on activer ou désactiver les étiquettes A/B/C/D et 1/2/3/4 ?",
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: "Pourquoi y a-t-il toujours exactement 4 éléments par fiche ?",
-      answer: "Les deux modes d`exercice utilisent un nombre fixe de 4 éléments de correspondance par fiche. Ce n'est pas configurable. Quatre éléments offrent l'équilibre optimal pour la correspondance de silhouettes et d'images divisées : suffisamment de variété pour créer un véritable défi de correspondance avec l`algorithme de dérangement, tout en gardant chaque image assez grande pour que les utilisateurs étudient les détails fins des silhouettes et des moitiés divisées. Le format constant de 4 éléments fonctionne aussi bien pour les produits en lot où chaque page a une densité de contenu et un équilibre visuel prévisibles.",
+      answer: "Les deux modes d`exercice utilisent un nombre fixe de 4 éléments de correspondance par fiche. Ce n`est pas configurable. Quatre éléments offrent l'équilibre optimal pour la correspondance de silhouettes et d`images divisées : suffisamment de variété pour créer un véritable défi de correspondance avec l`algorithme de dérangement, tout en gardant chaque image assez grande pour que les utilisateurs étudient les détails fins des silhouettes et des moitiés divisées. Le format constant de 4 éléments fonctionne aussi bien pour les produits en lot où chaque page a une densité de contenu et un équilibre visuel prévisibles.",
     },
     {
       question: "Le Créateur de Discrimination Visuelle est-il sensible à la langue ?",
@@ -200,18 +200,18 @@ const content: ToolContent = {
     },
     {
       question: "Quelle est votre politique de remboursement ?",
-      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux deux modes d'exercice, au traitement de silhouettes au niveau des pixels, aux options de direction de coupe, au corrigé auto-généré, aux 104 thèmes, au téléchargement d'images personnalisées, aux thèmes de fond et de bordure, à la bascule des étiquettes, aux champs nom/date, à l'export en niveaux de gris et à tous les formats de téléchargement, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d`acheter.",
+      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l`outil avant d`acheter. Comme l`essai gratuit vous donne un accès complet aux deux modes d`exercice, au traitement de silhouettes au niveau des pixels, aux options de direction de coupe, au corrigé auto-généré, aux 104 thèmes, au téléchargement d'images personnalisées, aux thèmes de fond et de bordure, à la bascule des étiquettes, aux champs nom/date, à l`export en niveaux de gris et à tous les formats de téléchargement, nous n`offrons pas de remboursement sur les achats de licence. Assurez-vous que l`outil répond à vos besoins en utilisant l`essai gratuit avant d`acheter.",
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: "discrimination-visuelle-fiches", anchorText: "Discrimination Visuelle — Détails Complets du Produit" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
     { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Créateur de Cartes Bingo' },
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: "Créateur de Fiches Pièces Manquantes" },
     { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },
-    { pageType: `tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches Tri d`Images" },
+    { pageType: `tool`, slug: 'generateur-tri-images`, anchorText: "Créateur de Fiches Tri d`Images" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],
 

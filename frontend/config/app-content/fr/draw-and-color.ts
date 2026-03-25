@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: "Modes symétrie et miroir pour l'apprentissage spatial",
         description:
-          "Trois modes de symétrie transforment le dessin standard sur grille en un exercice de raisonnement spatial. Le mode Aléatoire disperse les cellules d`indices dans des positions arbitraires pour la pratique générale du dessin. Le mode Horizontal reflète les cellules d'indices de gauche à droite, vendeur la symétrie bilatérale — les utilisateurs voient une moitié et reconstruisent l'image miroir. Le mode Vertical reflète les cellules d'indices de haut en bas pour des exercices de symétrie verticale. Chaque mode miroir inclut un sélecteur de partie à révéler qui vous permet de choisir quelle moitié montrer comme indices. Les fiches de symétrie se vendent exceptionnellement bien dans les catégories mathématiques et artistiques car elles font le pont entre l`art visuel et les concepts mathématiques.",
+          "Trois modes de symétrie transforment le dessin standard sur grille en un exercice de raisonnement spatial. Le mode Aléatoire disperse les cellules d`indices dans des positions arbitraires pour la pratique générale du dessin. Le mode Horizontal reflète les cellules d`indices de gauche à droite, vendeur la symétrie bilatérale — les utilisateurs voient une moitié et reconstruisent l'image miroir. Le mode Vertical reflète les cellules d`indices de haut en bas pour des exercices de symétrie verticale. Chaque mode miroir inclut un sélecteur de partie à révéler qui vous permet de choisir quelle moitié montrer comme indices. Les fiches de symétrie se vendent exceptionnellement bien dans les catégories mathématiques et artistiques car elles font le pont entre l`art visuel et les concepts mathématiques.",
       },
       {
         title: "Bibliothèque de thèmes de contours N&B avec 100+ collections",
@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: "Taille de grille configurable de 3×3 à 10×10",
         description:
-          "Définissez les lignes (3 à 10) et les colonnes (3 à 10) indépendamment pour créer des grilles allant de 3×3 avec 9 grandes cellules à 10×10 avec 100 petites cellules. Les grandes cellules rendent le dessin plus facile pour les jeunes utilisateurs ou les images simples ; les petites cellules augmentent les exigences de précision pour les utilisateurs plus âgés ou les illustrations plus détaillées. Les grilles non carrées comme 4×6 ou 8×5 s`adaptent aux différents rapports d'aspect des images. La taille de la grille et le pourcentage d'indices ensemble définissent deux axes de difficulté indépendants : une grille 5×5 à 50 % d'indices est modérée, tandis qu'une grille 10×10 à 10 % d'indices est de niveau expert. Cela crée des dizaines de combinaisons de difficulté distinctes à partir d`une seule image.",
+          "Définissez les lignes (3 à 10) et les colonnes (3 à 10) indépendamment pour créer des grilles allant de 3×3 avec 9 grandes cellules à 10×10 avec 100 petites cellules. Les grandes cellules rendent le dessin plus facile pour les jeunes utilisateurs ou les images simples ; les petites cellules augmentent les exigences de précision pour les utilisateurs plus âgés ou les illustrations plus détaillées. Les grilles non carrées comme 4×6 ou 8×5 s`adaptent aux différents rapports d`aspect des images. La taille de la grille et le pourcentage d`indices ensemble définissent deux axes de difficulté indépendants : une grille 5×5 à 50 % d'indices est modérée, tandis qu`une grille 10×10 à 10 % d`indices est de niveau expert. Cela crée des dizaines de combinaisons de difficulté distinctes à partir d`une seule image.",
       },
       {
         title: "En-tête auto-généré réactif avec texte localisé",
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Outil de dessin pour la vente d'art et la thérapie",
         description:
-          "Téléversez des images personnalisées pour créer des fiches de dessin sur grille pour n`importe quel sujet ou contexte thérapeutique. Les vendeurs d'art utilisent le dessin sur grille pour enseigner l'observation proportionnelle — la méthode cellule par cellule est une technique classique utilisée dans l'enseignement des beaux-arts. Les ergothérapeutes utilisent les exercices de reproduction sur grille pour développer le contrôle de la motricité fine, la coordination œil-main et le traitement visuo-spatial. Le pourcentage d'indices réglable permet aux praticiens de définir la difficulté avec précision : commencez à 75 % pour les patients ayant besoin d'un étayage solide et réduisez progressivement les indices au fur et à mesure que les compétences s`améliorent. Les modes de symétrie ajoutent un composant explicite de raisonnement spatial aux séances de thérapie.",
+          "Téléversez des images personnalisées pour créer des fiches de dessin sur grille pour n`importe quel sujet ou contexte thérapeutique. Les vendeurs d`art utilisent le dessin sur grille pour enseigner l`observation proportionnelle — la méthode cellule par cellule est une technique classique utilisée dans l'enseignement des beaux-arts. Les ergothérapeutes utilisent les exercices de reproduction sur grille pour développer le contrôle de la motricité fine, la coordination œil-main et le traitement visuo-spatial. Le pourcentage d`indices réglable permet aux praticiens de définir la difficulté avec précision : commencez à 75 % pour les patients ayant besoin d`un étayage solide et réduisez progressivement les indices au fur et à mesure que les compétences s`améliorent. Les modes de symétrie ajoutent un composant explicite de raisonnement spatial aux séances de thérapie.",
         platform: "Classe / Éducation Artistique / Thérapie",
       },
     ],
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: "Pourquoi cette application utilise-t-elle des thèmes de contours N&B au lieu de thèmes colorés ?",
       answer:
-        "Dessin sur Quadrillage utilise des illustrations de contours en noir et blanc spécifiquement conçues pour les activités de dessin et de coloriage. Les contours nets sont idéaux pour la reproduction cellule par cellule — les utilisateurs peuvent clairement voir les lignes qu`ils doivent copier. Après avoir terminé le dessin, les utilisateurs peuvent colorier leur reproduction comme activité supplémentaire. Les images colorées seraient plus difficiles à reproduire à la main et n'inviteraient pas au coloriage ensuite. Le format N&B s'imprime aussi parfaitement en noir et blanc, maintenant les coûts d'impression bas pour l`utilisation en ligne et les cahiers.",
+        "Dessin sur Quadrillage utilise des illustrations de contours en noir et blanc spécifiquement conçues pour les activités de dessin et de coloriage. Les contours nets sont idéaux pour la reproduction cellule par cellule — les utilisateurs peuvent clairement voir les lignes qu`ils doivent copier. Après avoir terminé le dessin, les utilisateurs peuvent colorier leur reproduction comme activité supplémentaire. Les images colorées seraient plus difficiles à reproduire à la main et n`inviteraient pas au coloriage ensuite. Le format N&B s'imprime aussi parfaitement en noir et blanc, maintenant les coûts d`impression bas pour l`utilisation en ligne et les cahiers.",
     },
     {
       question: "Pourquoi n'y a-t-il pas de corrigé séparé pour cette application ?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Le Générateur Dessin sur Quadrillage est-il sensible à la langue ?",
       answer:
-        "Non. Dessin sur Quadrillage est une application purement visuelle — les fiches ne contiennent que des images en grille sans aucun texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l'interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes N&B ; l'Accès Complet déverrouille tous les 100+ thèmes N&B et les 11 langues d`interface.",
+        "Non. Dessin sur Quadrillage est une application purement visuelle — les fiches ne contiennent que des images en grille sans aucun texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l`interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes N&B ; l`Accès Complet déverrouille tous les 100+ thèmes N&B et les 11 langues d`interface.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",

@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisir la source de contenu',
         description:
-          "Ouvrez le panneau Contenu et sélectionnez l`une des trois sources. Le mode Bibliothèque d'Images vous permet de parcourir 104 thèmes et de sélectionner des images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier chaque nom d'affichage avant la génération, parfait pour un vocabulaire personnalisé ou des orthographes simplifiées. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement, idéal pour des listes de vocabulaire hebdomadaires, du vocabulaire spécifique à une matière ou de la pratique en langue étrangère.",
+          "Ouvrez le panneau Contenu et sélectionnez l`une des trois sources. Le mode Bibliothèque d`Images vous permet de parcourir 104 thèmes et de sélectionner des images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier chaque nom d`affichage avant la génération, parfait pour un vocabulaire personnalisé ou des orthographes simplifiées. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement, idéal pour des listes de vocabulaire hebdomadaires, du vocabulaire spécifique à une matière ou de la pratique en langue étrangère.",
       },
       {
         title: "Configurer le niveau de difficulté et le nombre de puzzles",
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: "Trois sources de contenu : Bibliothèque d'Images, Édition Manuelle et Liste de Mots Personnalisée",
         description:
-          "La source Bibliothèque d`Images tire les mots de collections d'images thématiques — sélectionnez des animaux, des véhicules ou des aliments et le mot à reconstituer est le nom de l'image. Le Mode Édition Manuelle ajoute une couche de personnalisation : sélectionnez des images de la bibliothèque, puis modifiez leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou des mots ciblés en phonétique. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement, permettant des fiches de vocabulaire pour toute matière, des dictées ou de la pratique en langue étrangère sans illustrations correspondantes.",
+          "La source Bibliothèque d`Images tire les mots de collections d`images thématiques — sélectionnez des animaux, des véhicules ou des aliments et le mot à reconstituer est le nom de l'image. Le Mode Édition Manuelle ajoute une couche de personnalisation : sélectionnez des images de la bibliothèque, puis modifiez leurs noms d`affichage avant la génération, parfait pour des orthographes simplifiées ou des mots ciblés en phonétique. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement, permettant des fiches de vocabulaire pour toute matière, des dictées ou de la pratique en langue étrangère sans illustrations correspondantes.",
       },
       {
         title: "104 thèmes visuels avec plus de 3 100 images",
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, les options de code couleur, chaque format d'export et chaque format de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, les options de code couleur, chaque format d`export et chaque format de page avant d'acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

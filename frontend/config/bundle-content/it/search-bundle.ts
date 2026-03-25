@@ -113,7 +113,7 @@ const content: BundleContent = {
     { feature: "Schede sensibili alla lingua (3 app)", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
+    { feature: `Lingue dell`interfaccia`, commercial: 'Solo inglese`, fullAccess: `11 lingue` },
     { feature: "Trova e Conta — alfabeti specifici per lingua", commercial: 'Solo inglese', fullAccess: '11 alfabeti' },
     { feature: "Cruciverba — vocabolario multilingue", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: "Caccia al Tesoro — direzioni tradotte", commercial: 'Solo inglese', fullAccess: '11 lingue' },
@@ -187,7 +187,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: "creare-schede-oggetti-nascosti", anchorText: "Creare schede di oggetti nascosti" },
     { pageType: 'guide', slug: 'creare-schede-caccia-tesoro', anchorText: "Creare schede di caccia al tesoro" },
     { pageType: 'start', slug: 'marketing-attivita-stampabili', anchorText: "Marketing per la tua attività di stampabili" },
-    { pageType: `idea', slug: 'campeggio-idee-stampabili', anchorText: "Idee di stampabili per campeggio e attività all`aperto" },
+    { pageType: `idea`, slug: 'campeggio-idee-stampabili`, anchorText: "Idee di stampabili per campeggio e attività all`aperto" },
   ],
 
   visuals: {

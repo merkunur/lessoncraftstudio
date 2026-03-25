@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: "Cinq Rôles d'Images : Départ, Arrivée, Chemin, Distractrice et Décoration",
         description:
-          "Chaque image placée sur la fiche remplit un rôle spécifique dans le design du labyrinthe. L`Image de Départ marque le point d'entrée. Les Images d'Arrivée marquent la destination — une pour les modes Chemin d'Images et Labyrinthe Classique, trois pour Choisis le Bon Chemin. Les Images du Chemin définissent le parcours correct en mode Chemin d'Images ou apparaissent comme objets à collectionner en Labyrinthe Classique. Les Images Distractrices remplissent les cases hors chemin pour créer un défi visuel. Les images de Décoration peuvent être placées librement sur le canevas pour un attrait visuel supplémentaire. Le sélecteur de rôle dans le panneau Bibliothèque d'Images permet d`attribuer et réattribuer les rôles rapidement, avec des panneaux dédiés affichant les images sélectionnées pour chaque rôle.",
+          "Chaque image placée sur la fiche remplit un rôle spécifique dans le design du labyrinthe. L`Image de Départ marque le point d`entrée. Les Images d`Arrivée marquent la destination — une pour les modes Chemin d'Images et Labyrinthe Classique, trois pour Choisis le Bon Chemin. Les Images du Chemin définissent le parcours correct en mode Chemin d`Images ou apparaissent comme objets à collectionner en Labyrinthe Classique. Les Images Distractrices remplissent les cases hors chemin pour créer un défi visuel. Les images de Décoration peuvent être placées librement sur le canevas pour un attrait visuel supplémentaire. Le sélecteur de rôle dans le panneau Bibliothèque d`Images permet d`attribuer et réattribuer les rôles rapidement, avec des panneaux dédiés affichant les images sélectionnées pour chaque rôle.",
       },
       {
         title: "Personnalisation des Murs avec Couleur, Épaisseur et Opacité",
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: "Édition Complète du Canevas avec Outils Texte, Champs Nom/Date et Historique d'Annulation",
         description:
-          "Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche labyrinthe. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour ajouter des lignes d`identification utilisateur. Zoomez et dézoomez ou réinitialisez à 100% pour le travail de détail. Annulez et rétablissez jusqu'à 20 états d'historique avec Ctrl+Z et Ctrl+Y. Les contrôles de calques gèrent l'ordre d`empilement pour un arrangement précis des éléments.",
+          "Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche labyrinthe. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour ajouter des lignes d`identification utilisateur. Zoomez et dézoomez ou réinitialisez à 100% pour le travail de détail. Annulez et rétablissez jusqu`à 20 états d'historique avec Ctrl+Z et Ctrl+Y. Les contrôles de calques gèrent l`ordre d`empilement pour un arrangement précis des éléments.",
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Quels sont les trois modes de jeu et comment diffèrent-ils ?",
       answer:
-        "Le générateur propose trois modes distincts. Chemin d`Images crée une grille d'images où les utilisateurs suivent le chemin correct du départ à l'arrivée en identifiant les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l'algorithme LPF avec des images à collectionner, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles où les utilisateurs identifient le seul parcours correct. Chaque mode produit un défi de raisonnement spatial différent à partir de la même bibliothèque d`images.",
+        "Le générateur propose trois modes distincts. Chemin d`Images crée une grille d`images où les utilisateurs suivent le chemin correct du départ à l'arrivée en identifiant les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l`algorithme LPF avec des images à collectionner, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles où les utilisateurs identifient le seul parcours correct. Chaque mode produit un défi de raisonnement spatial différent à partir de la même bibliothèque d`images.",
     },
     {
       question: "Comment fonctionne l'algorithme LPF pour les labyrinthes ?",
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne l'en-tête auto-généré ?",
       answer:
-        "Chaque fiche inclut un en-tête stylisé avec une bordure extérieure orange (trait de 8px) et des marges de 34px. Le titre « Chemin d`Images » et la description « Suis le chemin du départ à l'arrivée ! » sont automatiquement traduits dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. L'en-tête se rend en texte localisé pour le français (Chemin d'Images), l'allemand (Bilderpfad), l'anglais (Picture Pathway), l`espagnol (Camino de Imágenes) et toutes les autres langues prises en charge.",
+        "Chaque fiche inclut un en-tête stylisé avec une bordure extérieure orange (trait de 8px) et des marges de 34px. Le titre « Chemin d`Images » et la description « Suis le chemin du départ à l`arrivée ! » sont automatiquement traduits dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. L`en-tête se rend en texte localisé pour le français (Chemin d'Images), l`allemand (Bilderpfad), l`anglais (Picture Pathway), l`espagnol (Camino de Imágenes) et toutes les autres langues prises en charge.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois modes de jeu, l'algorithme LPF, les cinq rôles d'images, la personnalisation des murs, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d`acheter une licence.",
+        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois modes de jeu, l`algorithme LPF, les cinq rôles d`images, la personnalisation des murs, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d`acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil correspond à vos besoins avant d`acheter une licence.",
     },
   ],
 

@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Vendeur sur Gumroad',
-      description: "Téléchargez des packs de fiches d`addition différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d'addition avec images ». Incluez les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings Gumroad, investissez du temps dans les images d'aperçu car les vendeurs prennent leurs décisions d'achat presque entièrement sur les vignettes visuelles. Générez des fiches d'exemple avec les thèmes les plus colorés et incluez des captures d'écran annotées montrant les options de difficulté et les modes d`exercice.",
+      description: "Téléchargez des packs de fiches d`addition différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d`addition avec images ». Incluez les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings Gumroad, investissez du temps dans les images d`aperçu car les vendeurs prennent leurs décisions d'achat presque entièrement sur les vignettes visuelles. Générez des fiches d`exemple avec les thèmes les plus colorés et incluez des captures d`écran annotées montrant les options de difficulté et les modes d`exercice.",
       platform: 'Gumroad',
     },
     {
@@ -194,12 +194,12 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: `app', slug: 'addition-fiches', anchorText: "Fiches d`Addition — Détails Complets du Produit" },
+    { pageType: `app`, slug: 'addition-fiches`, anchorText: "Fiches d`Addition — Détails Complets du Produit" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
-    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
-    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: "Générateur de Fiches d`Addition Codée" },
+    { pageType: `tool`, slug: 'generateur-exercices-maths`, anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool`, slug: 'generateur-addition-codee`, anchorText: "Générateur de Fiches d`Addition Codée" },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-cherche-et-compte', anchorText: 'Générateur Cherche et Compte' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Générateur de Pages de Coloriage" },
   ],

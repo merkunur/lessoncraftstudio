@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Bibliothèque d'Images avec 104 Collections Thématiques et Plus de 3 100 Illustrations",
         description:
-          "Parcourez 104 collections d`images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et des dizaines d'autres. Chaque thème fournit un ensemble coordonné d'illustrations colorées qui créent des puzzles sudoku visuellement cohérents. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. Cliquez sur une image pour l'ajouter à votre puzzle. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l`Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos produits sudoku.",
+          "Parcourez 104 collections d`images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et des dizaines d`autres. Chaque thème fournit un ensemble coordonné d'illustrations colorées qui créent des puzzles sudoku visuellement cohérents. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. Cliquez sur une image pour l`ajouter à votre puzzle. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l`Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos produits sudoku.",
       },
       {
         title: "Export PDF et JPEG Prêt à Imprimer à 300 DPI avec Mode Niveaux de Gris",
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: "Édition Complète du Canevas avec Outils Texte et Historique de 50 États",
         description:
-          "Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche sudoku. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Les contrôles de calques gèrent l`ordre d'empilement — amenez des éléments vers l'avant ou envoyez-les vers l'arrière. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Zoom de 25 % à 300 % par incréments de 25 % pour le travail de détail. Annuler et rétablir jusqu'à 50 états d'historique avec Ctrl+Z et Ctrl+Y — plus du double de la profondeur d`annulation typique pour une expérimentation en toute confiance.",
+          "Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche sudoku. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Les contrôles de calques gèrent l`ordre d`empilement — amenez des éléments vers l`avant ou envoyez-les vers l'arrière. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Zoom de 25 % à 300 % par incréments de 25 % pour le travail de détail. Annuler et rétablir jusqu`à 50 états d`historique avec Ctrl+Z et Ctrl+Y — plus du double de la profondeur d`annulation typique pour une expérimentation en toute confiance.",
       },
     ],
   },
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: "Packs de Sudoku en Images Thématiques sur Etsy",
         description:
-          "Créez des packs de puzzles sudoku thématiques en utilisant les 104 collections d`images — sudoku d'animaux, de nourriture, de véhicules, de l'océan et des dizaines d'autres. Chaque thème fournit suffisamment d'illustrations pour générer plusieurs puzzles uniques avec différentes combinaisons d'images et configurations de cases. Compilez 15 à 30 puzzles sudoku par thème avec les corrigés inclus, et vendez entre 3 € et 7 € par pack. Mélangez les niveaux de difficulté au sein de chaque pack : commencez par des puzzles Facile pour l`échauffement et progressez vers Difficile pour un ensemble complet de défis logiques. Le corrigé auto-généré élimine le plus gros travail chronophage de la production de puzzles.",
+          "Créez des packs de puzzles sudoku thématiques en utilisant les 104 collections d`images — sudoku d`animaux, de nourriture, de véhicules, de l`océan et des dizaines d'autres. Chaque thème fournit suffisamment d`illustrations pour générer plusieurs puzzles uniques avec différentes combinaisons d`images et configurations de cases. Compilez 15 à 30 puzzles sudoku par thème avec les corrigés inclus, et vendez entre 3 € et 7 € par pack. Mélangez les niveaux de difficulté au sein de chaque pack : commencez par des puzzles Facile pour l`échauffement et progressez vers Difficile pour un ensemble complet de défis logiques. Le corrigé auto-généré élimine le plus gros travail chronophage de la production de puzzles.",
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: "Collections de Puzzles Sudoku Saisonniers et de Fêtes",
         description:
-          "Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et de fêtes — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d'été et plus encore. Créez des collections de puzzles sudoku à durée limitée qui s'alignent sur les périodes de forte demande. Lancez des packs de sudoku Halloween en septembre, des collections de Noël en octobre et des packs de Saint-Valentin en janvier. Incluez les trois niveaux de difficulté dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers obtiennent des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles d'achats répétés tout au long de l`année.",
+          "Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et de fêtes — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d`été et plus encore. Créez des collections de puzzles sudoku à durée limitée qui s'alignent sur les périodes de forte demande. Lancez des packs de sudoku Halloween en septembre, des collections de Noël en octobre et des packs de Saint-Valentin en janvier. Incluez les trois niveaux de difficulté dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers obtiennent des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles d`achats répétés tout au long de l`année.",
         platform: "Etsy / Amazon KDP / Gumroad (saisonnier)",
       },
       {
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois niveaux de difficulté, la sélection par thème et manuelle, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d`acheter une licence.",
+        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois niveaux de difficulté, la sélection par thème et manuelle, le corrigé auto-généré, la bibliothèque d`images complète, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d'acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil correspond à vos besoins avant d`acheter une licence.",
     },
   ],
 

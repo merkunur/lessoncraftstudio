@@ -22,7 +22,7 @@ const content: BundleContent = {
   hero: {
     title: 'Pack Apprentissage Visuel',
     tagline: "Sept générateurs de fiches 100 % visuelles — des fiches qui fonctionnent dans toutes les langues du monde",
-    description: "Chaque générateur de ce pack produit des fiches composées uniquement d`images, de formes, de couleurs et de nombres. Aucun texte n'apparaît sur la page finie en dehors des étiquettes d'interface optionnelles. Cela signifie que chaque fiche que vous créez fonctionne pour des acheteurs de n'importe quel pays, n'importe quelle langue, n'importe quel système éducatif — sans traduction, sans adaptation, sans effort de localisation. Le Pack Apprentissage Visuel réunit sept générateurs spécialisés couvrant la comparaison de tailles, les suites logiques en wagons, les fiches de séquences logiques à compléter, le dessin sur quadrillage avec mode symétrie, le tracé de lignes entre objets appariés, la création de pages de coloriage à partir de contours d'images et les activités de comptage sur graphiques à barres. Deux des sept générateurs — Dessin Quadrillage et Coloriage — proposent des thèmes de contours noir et blanc spécialement conçus pour le coloriage et le dessin, vous donnant accès à des styles de produits colorés et N/B depuis un seul toolkit. Trois générateurs incluent des corrigés automatiques où applicable : Grand & Petit, Séquences Logiques et Graphique Images. Les quatre autres sont des activités créatives ou pratiques où les corrigés ne s'appliquent pas. Chaque générateur produit des fichiers PDF prêts à imprimer et des JPEG haute résolution. Choisissez parmi plus de 100 ensembles d'images thématiques ou importez vos propres visuels pour des produits personnalisés et adaptés à votre niche. Que vous vendiez des pages de coloriage sur Etsy.fr, publiiez des cahiers d'activités sur Amazon KDP ou distribuiez des packs préscolaires sur Gumroad, ce pack vous offre la variété visuelle et la portée universelle que les concurrents dépendants du texte ne peuvent pas égaler. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez tester toutes les fonctionnalités avant d`acheter une licence.",
+    description: "Chaque générateur de ce pack produit des fiches composées uniquement d`images, de formes, de couleurs et de nombres. Aucun texte n`apparaît sur la page finie en dehors des étiquettes d`interface optionnelles. Cela signifie que chaque fiche que vous créez fonctionne pour des acheteurs de n`importe quel pays, n`importe quelle langue, n'importe quel système éducatif — sans traduction, sans adaptation, sans effort de localisation. Le Pack Apprentissage Visuel réunit sept générateurs spécialisés couvrant la comparaison de tailles, les suites logiques en wagons, les fiches de séquences logiques à compléter, le dessin sur quadrillage avec mode symétrie, le tracé de lignes entre objets appariés, la création de pages de coloriage à partir de contours d`images et les activités de comptage sur graphiques à barres. Deux des sept générateurs — Dessin Quadrillage et Coloriage — proposent des thèmes de contours noir et blanc spécialement conçus pour le coloriage et le dessin, vous donnant accès à des styles de produits colorés et N/B depuis un seul toolkit. Trois générateurs incluent des corrigés automatiques où applicable : Grand & Petit, Séquences Logiques et Graphique Images. Les quatre autres sont des activités créatives ou pratiques où les corrigés ne s`appliquent pas. Chaque générateur produit des fichiers PDF prêts à imprimer et des JPEG haute résolution. Choisissez parmi plus de 100 ensembles d`images thématiques ou importez vos propres visuels pour des produits personnalisés et adaptés à votre niche. Que vous vendiez des pages de coloriage sur Etsy.fr, publiiez des cahiers d`activités sur Amazon KDP ou distribuiez des packs préscolaires sur Gumroad, ce pack vous offre la variété visuelle et la portée universelle que les concurrents dépendants du texte ne peuvent pas égaler. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez tester toutes les fonctionnalités avant d`acheter une licence.",
   },
 
   appsIncluded: [
@@ -48,7 +48,7 @@ const content: BundleContent = {
     },
     {
       title: "Générateur de Pages de Coloriage",
-      description: "Convertissez des images thématiques en contours de pages de coloriage imprimables avec superposition de texte optionnelle pour l`étiquetage éducatif. Le générateur transforme automatiquement les images colorées de la bibliothèque en contours noir et blanc nets, optimisés pour l'impression et le coloriage. Ce générateur utilise des thèmes de contours N/B dédiés qui produisent des contours nets et attrayants avec une épaisseur de trait appropriée pour les jeunes coloristes. Ajoutez des légendes optionnelles sous chaque image pour le renforcement du vocabulaire — bien que l'activité de coloriage elle-même soit entièrement visuelle et indépendante de la langue. Configurez les images par page, l'épaisseur des contours et la mise en page. Les pages de coloriage sont la catégorie d'imprimables la plus vendue sur Etsy, avec une demande constante toute l'année dans tous les groupes d`âge et marchés. La conversion automatique en contours permet de créer des pages de coloriage professionnelles sans compétences en illustration.",
+      description: "Convertissez des images thématiques en contours de pages de coloriage imprimables avec superposition de texte optionnelle pour l`étiquetage éducatif. Le générateur transforme automatiquement les images colorées de la bibliothèque en contours noir et blanc nets, optimisés pour l`impression et le coloriage. Ce générateur utilise des thèmes de contours N/B dédiés qui produisent des contours nets et attrayants avec une épaisseur de trait appropriée pour les jeunes coloristes. Ajoutez des légendes optionnelles sous chaque image pour le renforcement du vocabulaire — bien que l`activité de coloriage elle-même soit entièrement visuelle et indépendante de la langue. Configurez les images par page, l'épaisseur des contours et la mise en page. Les pages de coloriage sont la catégorie d`imprimables la plus vendue sur Etsy, avec une demande constante toute l`année dans tous les groupes d`âge et marchés. La conversion automatique en contours permet de créer des pages de coloriage professionnelles sans compétences en illustration.",
     },
     {
       title: "Générateur de Fiches Graphique Images",
@@ -63,7 +63,7 @@ const content: BundleContent = {
     },
     {
       title: "Fiches universelles sans texte",
-      description: "C`est l'avantage déterminant du Pack Apprentissage Visuel. Les sept générateurs produisent des fiches composées d'images, de formes, de couleurs et de nombres — aucun texte sur la page. Le même PDF que vous créez pour un acheteur francophone fonctionne identiquement pour des acheteurs en Allemagne, au Japon, au Brésil ou n'importe où ailleurs. Vous n`avez jamais besoin de traduire, localiser ou créer des versions linguistiques séparées. Une seule annonce dessert chaque marché mondial, maximisant votre portée sans effort supplémentaire.",
+      description: "C`est l`avantage déterminant du Pack Apprentissage Visuel. Les sept générateurs produisent des fiches composées d'images, de formes, de couleurs et de nombres — aucun texte sur la page. Le même PDF que vous créez pour un acheteur francophone fonctionne identiquement pour des acheteurs en Allemagne, au Japon, au Brésil ou n`importe où ailleurs. Vous n`avez jamais besoin de traduire, localiser ou créer des versions linguistiques séparées. Une seule annonce dessert chaque marché mondial, maximisant votre portée sans effort supplémentaire.",
     },
     {
       title: "Thèmes colorés et N/B dans un seul toolkit",
@@ -122,14 +122,14 @@ const content: BundleContent = {
   ],
 
   featureComparison: [
-    { feature: "Les 7 générateurs d`apprentissage visuel", commercial: 'Oui', fullAccess: 'Oui` },
-    { feature: "Ensembles d`images thématiques colorés", commercial: '5 thèmes', fullAccess: '104 thèmes` },
+    { feature: "Les 7 générateurs d`apprentissage visuel", commercial: `Oui', fullAccess: `Oui` },
+    { feature: "Ensembles d`images thématiques colorés", commercial: `5 thèmes', fullAccess: `104 thèmes` },
     { feature: "Thèmes contours N/B (Dessin Quadrillage, Coloriage)", commercial: '5 thèmes', fullAccess: 'Tous disponibles' },
-    { feature: "Import d`images personnalisées (PNG/JPEG)", commercial: 'Oui', fullAccess: 'Oui` },
+    { feature: "Import d`images personnalisées (PNG/JPEG)", commercial: `Oui', fullAccess: `Oui` },
     { feature: "Corrigés automatiques (3 des 7 apps)", commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Téléchargement PDF et JPEG', commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Droits de vente commerciale', commercial: 'Oui', fullAccess: 'Oui' },
-    { feature: `Langues d'interface', commercial: 'Français uniquement', fullAccess: '11 langues` },
+    { feature: `Langues d`interface`, commercial: 'Français uniquement`, fullAccess: `11 langues` },
     { feature: "Mode symétrie et dessin miroir", commercial: 'Oui', fullAccess: 'Oui' },
     { feature: "Téléchargements sans filigrane", commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Mises à jour à vie', commercial: 'Oui', fullAccess: 'Oui' },
@@ -142,7 +142,7 @@ const content: BundleContent = {
     },
     {
       title: "Éditeurs de cahiers d'activités Amazon KDP",
-      description: "Vous publiez des cahiers d`activités et des cahiers d'exercices sur Amazon KDP et avez besoin d'un moyen rapide de générer des pages intérieures professionnelles en volume. Combinez des fiches des sept générateurs dans des cahiers d'activités thématiques — chaque générateur remplit une section différente avec un type d`activité différent. Le moteur de design uniforme maintient chaque page visuellement cohérente. Comme tout le contenu est indépendant du texte, le même cahier fonctionne dans chaque place de marché Amazon mondiale, maximisant votre revenu par titre sans effort de production supplémentaire.",
+      description: "Vous publiez des cahiers d`activités et des cahiers d`exercices sur Amazon KDP et avez besoin d'un moyen rapide de générer des pages intérieures professionnelles en volume. Combinez des fiches des sept générateurs dans des cahiers d`activités thématiques — chaque générateur remplit une section différente avec un type d`activité différent. Le moteur de design uniforme maintient chaque page visuellement cohérente. Comme tout le contenu est indépendant du texte, le même cahier fonctionne dans chaque place de marché Amazon mondiale, maximisant votre revenu par titre sans effort de production supplémentaire.",
     },
     {
       title: "Vendeurs pour le marché préscolaire et préscolaire",
@@ -157,11 +157,11 @@ const content: BundleContent = {
   faq: [
     {
       question: "Puis-je essayer les générateurs avant d'acheter ?",
-      answer: "Oui. Chaque générateur du pack propose un essai gratuit avec filigrane et toutes les fonctionnalités. Vous pouvez configurer les paramètres, prévisualiser les fiches et télécharger les fichiers. Les téléchargements d`essai incluent un filigrane. L'achat d'une licence supprime le filigrane pour que vous puissiez vendre à titre commercial. Nous recommandons de tester chacun des sept générateurs avant l'achat pour confirmer qu`ils répondent à vos besoins.",
+      answer: "Oui. Chaque générateur du pack propose un essai gratuit avec filigrane et toutes les fonctionnalités. Vous pouvez configurer les paramètres, prévisualiser les fiches et télécharger les fichiers. Les téléchargements d`essai incluent un filigrane. L`achat d'une licence supprime le filigrane pour que vous puissiez vendre à titre commercial. Nous recommandons de tester chacun des sept générateurs avant l`achat pour confirmer qu`ils répondent à vos besoins.",
     },
     {
       question: "Qu'est-ce qui rend ces fiches « 100 % visuelles » et pourquoi est-ce important ?",
-      answer: "Chaque fiche produite par les sept générateurs de ce pack contient uniquement des images, des formes, des couleurs et des nombres — aucun mot ni phrase n`apparaît sur la page finie. Cela signifie qu'une page de coloriage, une fiche de motifs ou une activité de comptage sur graphique que vous créez fonctionne identiquement pour des acheteurs de n'importe quel pays et dans n'importe quelle langue. Vous n`avez jamais besoin de traduire ni de créer des versions linguistiques séparées. Une seule annonce dessert chaque marché mondial, vous donnant un avantage structurel sur les vendeurs dont les fiches nécessitent une traduction textuelle.",
+      answer: "Chaque fiche produite par les sept générateurs de ce pack contient uniquement des images, des formes, des couleurs et des nombres — aucun mot ni phrase n`apparaît sur la page finie. Cela signifie qu`une page de coloriage, une fiche de motifs ou une activité de comptage sur graphique que vous créez fonctionne identiquement pour des acheteurs de n'importe quel pays et dans n`importe quelle langue. Vous n`avez jamais besoin de traduire ni de créer des versions linguistiques séparées. Une seule annonce dessert chaque marché mondial, vous donnant un avantage structurel sur les vendeurs dont les fiches nécessitent une traduction textuelle.",
     },
     {
       question: "Quels générateurs proposent des thèmes de contours noir et blanc ?",
@@ -181,7 +181,7 @@ const content: BundleContent = {
     },
     {
       question: "Quelle est la différence entre Licence Commerciale et Accès Complet ?",
-      answer: "Les deux niveaux incluent les sept générateurs avec téléchargements sans filigrane et droits de vente commerciale. La Licence Commerciale vous donne 5 thèmes colorés et 5 thèmes de contours N/B avec l`interface en français uniquement. L'Accès Complet débloque les 104 thèmes colorés, tous les thèmes N/B disponibles et les 11 langues d'interface. Les deux niveaux produisent des fiches identiques indépendantes du texte — la langue d'interface n`affecte que les contrôles du générateur, pas le contenu des fiches.",
+      answer: "Les deux niveaux incluent les sept générateurs avec téléchargements sans filigrane et droits de vente commerciale. La Licence Commerciale vous donne 5 thèmes colorés et 5 thèmes de contours N/B avec l`interface en français uniquement. L`Accès Complet débloque les 104 thèmes colorés, tous les thèmes N/B disponibles et les 11 langues d'interface. Les deux niveaux produisent des fiches identiques indépendantes du texte — la langue d`interface n`affecte que les contrôles du générateur, pas le contenu des fiches.",
     },
     {
       question: "Puis-je vendre les fiches que je crée ?",
@@ -189,7 +189,7 @@ const content: BundleContent = {
     },
     {
       question: "Combien de fiches puis-je créer ?",
-      answer: "Il n`y a aucune limite. Une fois la licence acquise, vous pouvez générer autant de fiches que vous le souhaitez à travers les sept générateurs. Il n'y a pas de frais par téléchargement, de plafonds mensuels ou de restrictions d'utilisation. Avec sept générateurs et plus de 100 thèmes d'images, le nombre de combinaisons uniques de fiches est pratiquement illimité. De nombreux vendeurs génèrent des cahiers d`activités thématiques entiers en une seule session.",
+      answer: "Il n`y a aucune limite. Une fois la licence acquise, vous pouvez générer autant de fiches que vous le souhaitez à travers les sept générateurs. Il n`y a pas de frais par téléchargement, de plafonds mensuels ou de restrictions d'utilisation. Avec sept générateurs et plus de 100 thèmes d`images, le nombre de combinaisons uniques de fiches est pratiquement illimité. De nombreux vendeurs génèrent des cahiers d`activités thématiques entiers en une seule session.",
     },
     {
       question: "Quelle est la politique de remboursement pour les licences commerciales ?",
@@ -207,7 +207,7 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'graphique-images-fiches', anchorText: "Générateur Graphique Images — Tous les Détails" },
     { pageType: 'guide', slug: 'creer-coloriages-etsy', anchorText: "Créer des coloriages pour Etsy" },
     { pageType: 'guide', slug: 'creer-fiches-dessin', anchorText: 'Créer des fiches de dessin' },
-    { pageType: `start', slug: 'activite-imprimables-etsy', anchorText: "Lancez votre activité d`imprimables sur Etsy" },
+    { pageType: `start`, slug: 'activite-imprimables-etsy`, anchorText: "Lancez votre activité d`imprimables sur Etsy" },
     { pageType: 'idea', slug: 'ete-idees-imprimables', anchorText: "Idées d'imprimables d'été pour enfants" },
   ],
 

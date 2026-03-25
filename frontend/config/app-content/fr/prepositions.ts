@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: "Grammaire adaptée à chaque langue avec datif, élision et règles d'articles",
         description:
-          "L`Accès Complet déverrouille les 11 langues prises en charge, et chacune applique ses propres règles grammaticales aux phrases de prépositions. L'allemand utilise les contractions datives comme « im » (in dem) et « am » (an dem) avec des articles genrés (dem/der). Le français applique les règles d'élision, remplaçant « le » par « l' » devant les voyelles ou le h muet. L`espagnol et le portugais utilisent des articles genrés (el/la, o/a). Chaque phrase générée est grammaticalement correcte dans la langue cible — pas une traduction mot à mot — faisant de chaque version linguistique un produit véritablement commercialisable.",
+          "L`Accès Complet déverrouille les 11 langues prises en charge, et chacune applique ses propres règles grammaticales aux phrases de prépositions. L`allemand utilise les contractions datives comme « im » (in dem) et « am » (an dem) avec des articles genrés (dem/der). Le français applique les règles d'élision, remplaçant « le » par « l` » devant les voyelles ou le h muet. L`espagnol et le portugais utilisent des articles genrés (el/la, o/a). Chaque phrase générée est grammaticalement correcte dans la langue cible — pas une traduction mot à mot — faisant de chaque version linguistique un produit véritablement commercialisable.",
       },
       {
         title: "Objets + Formes : deux types d'images pour le contexte spatial",
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: "Export prêt à imprimer à 400+ DPI avec option niveaux de gris",
         description:
-          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d`export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l'export en niveaux de gris pour des versions économiques en encre, parfaites pour l'impression en volume ou les cahiers d'activités noir et blanc. Les formats Letter, A4, Carré et dimensions personnalisées sont tous pris en charge pour une flexibilité maximale sur les plateformes d`impression à la demande et les imprimantes domestiques.",
+          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d`export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l`export en niveaux de gris pour des versions économiques en encre, parfaites pour l'impression en volume ou les cahiers d`activités noir et blanc. Les formats Letter, A4, Carré et dimensions personnalisées sont tous pris en charge pour une flexibilité maximale sur les plateformes d`impression à la demande et les imprimantes domestiques.",
       },
       {
         title: "Édition complète du canevas avec annuler et rétablir",
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Combien d'exercices puis-je mettre sur chaque fiche ?",
       answer:
-        "Vous pouvez définir de 1 à 8 exercices par fiche. Moins d`exercices créent des pages plus simples et moins chargées, idéales pour les jeunes utilisateurs ou la pratique ciblée. Plus d'exercices maximisent la densité de pratique pour les sessions de révision, les évaluations ou les devoirs. Varier le nombre d'exercices dans vos annonces vous aide également à créer des niveaux de prix distincts — une fiche d'introduction à un seul exercice comme point d`entrée à bas prix et un pack de révision complet à huit exercices à un prix premium.",
+        "Vous pouvez définir de 1 à 8 exercices par fiche. Moins d`exercices créent des pages plus simples et moins chargées, idéales pour les jeunes utilisateurs ou la pratique ciblée. Plus d`exercices maximisent la densité de pratique pour les sessions de révision, les évaluations ou les devoirs. Varier le nombre d'exercices dans vos annonces vous aide également à créer des niveaux de prix distincts — une fiche d`introduction à un seul exercice comme point d`entrée à bas prix et un pack de révision complet à huit exercices à un prix premium.",
     },
     {
       question: "Le Générateur de Fiches de Prépositions est-il sensible à la langue ?",
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne la gestion grammaticale dans les différentes langues ?",
       answer:
-        "Le générateur intègre un moteur grammatical pour chacune des 11 langues prises en charge. Il recherche l`article correct selon le genre du nom (important pour l'allemand, le français, l'espagnol, le portugais, l'italien), applique les règles du datif pour les prépositions allemandes, gère l`élision française où les articles se contractent devant les voyelles ou le h muet, et utilise les formes plurielles correctes pour les noms de formes. Le résultat est des phrases fluides dans chaque langue, pas des traductions littérales maladroites.",
+        "Le générateur intègre un moteur grammatical pour chacune des 11 langues prises en charge. Il recherche l`article correct selon le genre du nom (important pour l`allemand, le français, l'espagnol, le portugais, l`italien), applique les règles du datif pour les prépositions allemandes, gère l`élision française où les articles se contractent devant les voyelles ou le h muet, et utilise les formes plurielles correctes pour les noms de formes. Le résultat est des phrases fluides dans chaque langue, pas des traductions littérales maladroites.",
     },
     {
       question: "Comment fonctionne la liste de prépositions ?",

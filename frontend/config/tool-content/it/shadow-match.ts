@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: "Rivedi la Chiave di Risposta Generata Automaticamente",
-        description: "Clicca sulla scheda Chiave di Risposta per vedere la soluzione generata automaticamente. Nella modalità Abbinamento Ombre, ogni cella mostra l`immagine originale accanto alla sua silhouette con un'etichetta come \"A → 2\" che indica l'abbinamento corretto. Nella modalità Completa l'Immagine, ogni cella mostra l`immagine originale completa con la sua etichetta di abbinamento. La griglia usa 4 colonne con spaziatura costante. Passa tra le schede Foglio di Lavoro e Chiave di Risposta per confrontare. La chiave di risposta si genera simultaneamente al foglio di lavoro — nessun passaggio di creazione manuale, nessun processo di progettazione separato, nessuna possibilità di risposte non corrispondenti. Questo sistema a doppio canvas è il tuo più grande risparmio di tempo nella creazione di pacchetti di abbinamento ombre.",
+        description: "Clicca sulla scheda Chiave di Risposta per vedere la soluzione generata automaticamente. Nella modalità Abbinamento Ombre, ogni cella mostra l`immagine originale accanto alla sua silhouette con un`etichetta come \"A → 2\" che indica l'abbinamento corretto. Nella modalità Completa l`Immagine, ogni cella mostra l`immagine originale completa con la sua etichetta di abbinamento. La griglia usa 4 colonne con spaziatura costante. Passa tra le schede Foglio di Lavoro e Chiave di Risposta per confrontare. La chiave di risposta si genera simultaneamente al foglio di lavoro — nessun passaggio di creazione manuale, nessun processo di progettazione separato, nessuna possibilità di risposte non corrispondenti. Questo sistema a doppio canvas è il tuo più grande risparmio di tempo nella creazione di pacchetti di abbinamento ombre.",
       },
       {
         title: "Scarica Tutti e Quattro i File",
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: "Come funziona la chiave di risposta generata automaticamente?",
-      answer: "Il sistema a doppio canvas genera simultaneamente sia una scheda foglio di lavoro che una scheda chiave di risposta. Nella modalità Abbinamento Ombre, la chiave di risposta mostra una griglia dove ogni cella presenta l`immagine originale accanto alla sua silhouette con un'etichetta come \"A → 2\" che indica l'abbinamento corretto. Nella modalità Completa l'Immagine, ogni cella mostra l`immagine originale completa con la sua etichetta di abbinamento. La griglia usa 4 colonne con spaziatura costante. Scarica ogni versione indipendentemente — foglio JPEG, foglio PDF, chiave di risposta JPEG e chiave di risposta PDF — ottenendo quattro file pronti per la produzione da una singola generazione.",
+      answer: "Il sistema a doppio canvas genera simultaneamente sia una scheda foglio di lavoro che una scheda chiave di risposta. Nella modalità Abbinamento Ombre, la chiave di risposta mostra una griglia dove ogni cella presenta l`immagine originale accanto alla sua silhouette con un`etichetta come \"A → 2\" che indica l'abbinamento corretto. Nella modalità Completa l`Immagine, ogni cella mostra l`immagine originale completa con la sua etichetta di abbinamento. La griglia usa 4 colonne con spaziatura costante. Scarica ogni versione indipendentemente — foglio JPEG, foglio PDF, chiave di risposta JPEG e chiave di risposta PDF — ottenendo quattro file pronti per la produzione da una singola generazione.",
     },
     {
       question: "Posso attivare e disattivare le etichette A/B/C/D e 1/2/3/4?",
@@ -210,7 +210,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-puzzle-griglia', anchorText: 'Generatore Puzzle a Griglia' },
     { pageType: 'tool', slug: 'generatore-cartelle-bingo', anchorText: 'Generatore Cartelle Bingo' },
     { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: "Generatore Puzzle Pezzi Mancanti" },
-    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l`Intruso" },
+    { pageType: `tool`, slug: 'generatore-schede-intruso`, anchorText: "Generatore Schede Trova l`Intruso" },
     { pageType: 'tool', slug: "generatore-negozificazione-immagini", anchorText: "Generatore negozificazione Immagini" },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
   ],

@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: "Générez la Fiche de Discrimination Visuelle",
         description:
-          "Cliquez sur Générer pour créer la fiche de correspondance. En mode Trouve l`Ombre, l'application traite chaque image au niveau des pixels — elle la charge sur un canevas, extrait les données de pixels via getImageData, et convertit chaque pixel avec un alpha > 10 en noir pur (R=0, G=0, B=0, A=255) pour produire des silhouettes fidèles. En mode Reconstitue l'Image, les images sont divisées selon la direction de coupe choisie. Les deux modes appliquent un dérangement Fisher-Yates pour garantir qu'aucun élément n'apparaît à sa position d'origine. Un en-tête stylisé apparaît avec un fond ambre (#FFC107), un conteneur pilule blanc et une bordure ambre de 3 px affichant « Trouve l`Ombre » et les instructions dans la langue sélectionnée.",
+          "Cliquez sur Générer pour créer la fiche de correspondance. En mode Trouve l`Ombre, l`application traite chaque image au niveau des pixels — elle la charge sur un canevas, extrait les données de pixels via getImageData, et convertit chaque pixel avec un alpha > 10 en noir pur (R=0, G=0, B=0, A=255) pour produire des silhouettes fidèles. En mode Reconstitue l`Image, les images sont divisées selon la direction de coupe choisie. Les deux modes appliquent un dérangement Fisher-Yates pour garantir qu'aucun élément n`apparaît à sa position d`origine. Un en-tête stylisé apparaît avec un fond ambre (#FFC107), un conteneur pilule blanc et une bordure ambre de 3 px affichant « Trouve l`Ombre » et les instructions dans la langue sélectionnée.",
       },
       {
         title: "Générez le Corrigé et Téléchargez",
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Silhouettes Auto-Générées par Traitement d'Images au Niveau des Pixels",
         description:
-          "Le mode Trouve l`Ombre crée des silhouettes noires par une véritable manipulation au niveau des pixels — pas de filtres CSS ni d'éléments préfabriqués. L'application charge chaque image sur un canevas, extrait les données de pixels via getImageData, et convertit chaque pixel dont la valeur alpha est supérieure à 10 en noir pur (R=0, G=0, B=0, A=255). Cela préserve le profil de transparence exact de chaque image, produisant des contours de silhouettes fidèles qui reflètent les détails fins comme les oreilles d'animaux, les formes de véhicules et les contours d`objets. La gestion CORS assure le traitement correct des images cross-origin, avec un repli vers un rectangle noir uni si le canevas est corrompu.",
+          "Le mode Trouve l`Ombre crée des silhouettes noires par une véritable manipulation au niveau des pixels — pas de filtres CSS ni d`éléments préfabriqués. L'application charge chaque image sur un canevas, extrait les données de pixels via getImageData, et convertit chaque pixel dont la valeur alpha est supérieure à 10 en noir pur (R=0, G=0, B=0, A=255). Cela préserve le profil de transparence exact de chaque image, produisant des contours de silhouettes fidèles qui reflètent les détails fins comme les oreilles d`animaux, les formes de véhicules et les contours d`objets. La gestion CORS assure le traitement correct des images cross-origin, avec un repli vers un rectangle noir uni si le canevas est corrompu.",
       },
       {
         title: "Deux Modes d`Exercice : Trouve l'Ombre et Reconstitue l`Image avec Options de Direction de Coupe",
@@ -115,13 +115,13 @@ const content: AppContent = {
       {
         title: "Cahiers de Perception Visuelle sur Amazon KDP",
         description:
-          "Compilez 50 à 80 fiches de discrimination visuelle dans un cahier imprimé au format Amazon KDP. Structurez votre livre avec des chapitres alternés : les chapitres Trouve l`Ombre développent la reconnaissance de silhouettes tandis que les chapitres Reconstitue l'Image développent la conscience spatiale et le raisonnement partie-tout. Incluez les directions de coupe horizontale et verticale dans les sections Reconstitue l'Image pour la variété. Placez les corrigés à la fin du livre grâce à la fonction de corrigé auto-généré. La bascule niveaux de gris produit des pages économiques en encre prêtes pour les intérieurs de livres en noir et blanc. Les cahiers de puzzles de perception visuelle se vendent bien toute l'année dans la catégorie cahiers d`activités.",
+          "Compilez 50 à 80 fiches de discrimination visuelle dans un cahier imprimé au format Amazon KDP. Structurez votre livre avec des chapitres alternés : les chapitres Trouve l`Ombre développent la reconnaissance de silhouettes tandis que les chapitres Reconstitue l`Image développent la conscience spatiale et le raisonnement partie-tout. Incluez les directions de coupe horizontale et verticale dans les sections Reconstitue l'Image pour la variété. Placez les corrigés à la fin du livre grâce à la fonction de corrigé auto-généré. La bascule niveaux de gris produit des pages économiques en encre prêtes pour les intérieurs de livres en noir et blanc. Les cahiers de puzzles de perception visuelle se vendent bien toute l`année dans la catégorie cahiers d`activités.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: "Activités Rapides de Fin de Cours pour Gumroad",
         description:
-          "Créez des activités de discrimination visuelle prêtes à l`emploi avec champs nom/date et corrigés imprimés pour l'utilisation en ligne. Les vendeurs qui recherchent des exercices de discrimination visuelle apprécient les fiches qui arrivent prêtes à imprimer. Créez des ensembles liés au programme : correspondance d'ombres d'animaux pour les cours de sciences, silhouettes de métiers pour les études sociales, puzzles d`ombres alimentaires pour les cours de nutrition. La bascule des étiquettes vous permet de créer des versions guidées (avec étiquettes A/B/C/D et 1/2/3/4) et des versions défi (étiquettes masquées) dans le même produit pour une instruction différenciée.",
+          "Créez des activités de discrimination visuelle prêtes à l`emploi avec champs nom/date et corrigés imprimés pour l`utilisation en ligne. Les vendeurs qui recherchent des exercices de discrimination visuelle apprécient les fiches qui arrivent prêtes à imprimer. Créez des ensembles liés au programme : correspondance d'ombres d`animaux pour les cours de sciences, silhouettes de métiers pour les études sociales, puzzles d`ombres alimentaires pour les cours de nutrition. La bascule des étiquettes vous permet de créer des versions guidées (avec étiquettes A/B/C/D et 1/2/3/4) et des versions défi (étiquettes masquées) dans le même produit pour une instruction différenciée.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Packs de Puzzles Multi-Modes en Offre Premium",
         description:
-          "Combinez les deux modes d`exercice dans des packs de puzzles multi-modes premium qui mettent en valeur la polyvalence du générateur. Chaque pack inclut des fiches Trouve l'Ombre (reconnaissance de silhouettes), des fiches Reconstitue l'Image avec coupes horizontales (réassemblage haut/bas), et des fiches Reconstitue l'Image avec coupes verticales (réassemblage gauche/droite) — trois types d'activités distincts à partir d'un même ensemble d`images thématiques. Cette approche trois-en-un justifie un prix premium de 7–12 € par pack. Les corrigés pour chaque fiche sont inclus automatiquement, ajoutant une finition professionnelle qui commande une valeur perçue plus élevée.",
+          "Combinez les deux modes d`exercice dans des packs de puzzles multi-modes premium qui mettent en valeur la polyvalence du générateur. Chaque pack inclut des fiches Trouve l`Ombre (reconnaissance de silhouettes), des fiches Reconstitue l`Image avec coupes horizontales (réassemblage haut/bas), et des fiches Reconstitue l'Image avec coupes verticales (réassemblage gauche/droite) — trois types d`activités distincts à partir d`un même ensemble d`images thématiques. Cette approche trois-en-un justifie un prix premium de 7–12 € par pack. Les corrigés pour chaque fiche sont inclus automatiquement, ajoutant une finition professionnelle qui commande une valeur perçue plus élevée.",
         platform: "Etsy / Amazon KDP (packs premium)",
       },
     ],
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne le corrigé auto-généré ?",
       answer:
-        "Le générateur utilise un système à double canevas avec un onglet Fiche de Travail et un onglet Corrigé. En mode Trouve l`Ombre, le corrigé affiche une grille où chaque cellule présente l'image originale à côté de sa silhouette avec une étiquette comme « A → 2 ». En mode Reconstitue l'Image, chaque cellule affiche l'image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Les deux versions s`exportent séparément via quatre boutons de téléchargement dédiés : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF.",
+        "Le générateur utilise un système à double canevas avec un onglet Fiche de Travail et un onglet Corrigé. En mode Trouve l`Ombre, le corrigé affiche une grille où chaque cellule présente l`image originale à côté de sa silhouette avec une étiquette comme « A → 2 ». En mode Reconstitue l'Image, chaque cellule affiche l`image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Les deux versions s`exportent séparément via quatre boutons de téléchargement dédiés : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Le Générateur de Discrimination Visuelle est-il sensible à la langue ?",
       answer:
-        "Non. La Discrimination Visuelle est purement visuelle — le résultat de la fiche contient uniquement des images, des silhouettes et des moitiés divisées sans contenu textuel localisé. L`interface de l'application (menus, boutons, texte de l'en-tête) prend en charge les 11 langues, mais la fiche générée fonctionne de manière identique quel que soit le choix de langue. Cela rend les fiches de discrimination visuelle universellement vendables sur tous les marchés sans traduction. La Licence Commerciale inclut 10 thèmes colorés ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
+        "Non. La Discrimination Visuelle est purement visuelle — le résultat de la fiche contient uniquement des images, des silhouettes et des moitiés divisées sans contenu textuel localisé. L`interface de l`application (menus, boutons, texte de l'en-tête) prend en charge les 11 langues, mais la fiche générée fonctionne de manière identique quel que soit le choix de langue. Cela rend les fiches de discrimination visuelle universellement vendables sur tous les marchés sans traduction. La Licence Commerciale inclut 10 thèmes colorés ; l`Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
     },
     {
       question: "Puis-je vendre des fiches de discrimination visuelle créées avec cet outil sur Etsy et Amazon KDP ?",

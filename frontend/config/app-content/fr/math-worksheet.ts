@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: "Édition complète du canevas avec annuler et rétablir",
         description:
-          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, blocs de puzzles, bordures et fonds. Utilisez les contrôles de calques pour gérer l`empilement, les outils d'alignement pour un placement précis et le verrouillage/déverrouillage pour protéger les éléments positionnés. L'annulation et le rétablissement illimités vous permettent d'expérimenter librement — la flexibilité d`un outil de design graphique dans un générateur de fiches.",
+          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, blocs de puzzles, bordures et fonds. Utilisez les contrôles de calques pour gérer l`empilement, les outils d`alignement pour un placement précis et le verrouillage/déverrouillage pour protéger les éléments positionnés. L'annulation et le rétablissement illimités vous permettent d`expérimenter librement — la flexibilité d`un outil de design graphique dans un générateur de fiches.",
       },
     ],
   },

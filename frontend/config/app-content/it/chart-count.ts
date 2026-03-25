@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: "Intestazione localizzata del grafico a immagini con titolo e istruzioni",
         description:
-          "Ogni scheda generata include un`intestazione auto-generata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione (esterno #FF8C42, interno #FFD6A5). L'intestazione presenta un titolo localizzato — «Picture Graph» in inglese, «Bilddiagramm» in tedesco, «Graphique en Images» in francese, e traduzioni equivalenti nelle 11 lingue supportate. Sotto il titolo, istruzioni di conteggio localizzate guidano gli utenti attraverso l'attività. L'intestazione si adatta automaticamente quando cambi la lingua dell`interfaccia, rendendo le schede pronte per il negozio in qualsiasi lingua senza modifiche manuali del testo.",
+          "Ogni scheda generata include un`intestazione auto-generata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione (esterno #FF8C42, interno #FFD6A5). L`intestazione presenta un titolo localizzato — «Picture Graph» in inglese, «Bilddiagramm» in tedesco, «Graphique en Images» in francese, e traduzioni equivalenti nelle 11 lingue supportate. Sotto il titolo, istruzioni di conteggio localizzate guidano gli utenti attraverso l'attività. L`intestazione si adatta automaticamente quando cambi la lingua dell`interfaccia, rendendo le schede pronte per il negozio in qualsiasi lingua senza modifiche manuali del testo.",
       },
       {
         title: "Libreria di Immagini con 104 collezioni tematiche e oltre 3100 illustrazioni",
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Cos'è l'intestazione localizzata di ogni scheda?",
       answer:
-        "Ogni scheda generata include un`intestazione stilizzata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione. L'intestazione presenta un titolo «Grafico con Immagini» e istruzioni di conteggio che si traducono automaticamente nella lingua dell'interfaccia attiva — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. L'intestazione si adatta in modalità orizzontale con un layout compatto. Non è necessario creare né formattare l`intestazione manualmente.",
+        "Ogni scheda generata include un`intestazione stilizzata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione. L`intestazione presenta un titolo «Grafico con Immagini» e istruzioni di conteggio che si traducono automaticamente nella lingua dell'interfaccia attiva — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. L`intestazione si adatta in modalità orizzontale con un layout compatto. Non è necessario creare né formattare l`intestazione manualmente.",
     },
     {
       question: "Come funzionano i campi nome e data?",

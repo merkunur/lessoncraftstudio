@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: `Choisir la Source d'Images`,
-        description: "Ouvrez le panneau Bibliothèque d`Images et utilisez le menu déroulant Source d'Images de la Fiche pour sélectionner un thème comme Animaux, Nourriture ou Véhicules. L'application choisit aléatoirement 6 images de cette collection pour la sélection automatique. Sinon, passez en mode manuel : parcourez la Bibliothèque d'Images par thème ou recherchez par mot-clé, puis cliquez exactement 6 images. Les images sélectionnées apparaissent dans une bande d'aperçu où vous pouvez cliquer pour retirer et remplacer des choix individuels. Sans thème sélectionné, l'application choisit 6 images aléatoires parmi toutes les collections. Chaque mode garantit exactement 6 types d`images par fiche.",
+        description: "Ouvrez le panneau Bibliothèque d`Images et utilisez le menu déroulant Source d`Images de la Fiche pour sélectionner un thème comme Animaux, Nourriture ou Véhicules. L`application choisit aléatoirement 6 images de cette collection pour la sélection automatique. Sinon, passez en mode manuel : parcourez la Bibliothèque d'Images par thème ou recherchez par mot-clé, puis cliquez exactement 6 images. Les images sélectionnées apparaissent dans une bande d`aperçu où vous pouvez cliquer pour retirer et remplacer des choix individuels. Sans thème sélectionné, l`application choisit 6 images aléatoires parmi toutes les collections. Chaque mode garantit exactement 6 types d`images par fiche.",
       },
       {
         title: "Générer la Fiche Graphique à Images",
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Consulter le Corrigé Auto-Généré",
-        description: "Cliquez sur l`onglet Corrigé pour voir la solution auto-générée. Le corrigé affiche la même grille d'images et le même diagramme à barres, mais les cases correctes sont remplies d'un surlignage jaune (#FFC857) montrant exactement combien de chaque type d'image apparaît. Les vendeurs voient d'un coup d'œil quelles cases les utilisateurs devraient remplir. Basculez entre les onglets Fiche et Corrigé pour comparer. Le corrigé est généré simultanément avec la fiche — aucun comptage manuel, aucune étape de création séparée, aucune possibilité d`erreur.",
+        description: "Cliquez sur l`onglet Corrigé pour voir la solution auto-générée. Le corrigé affiche la même grille d`images et le même diagramme à barres, mais les cases correctes sont remplies d`un surlignage jaune (#FFC857) montrant exactement combien de chaque type d'image apparaît. Les vendeurs voient d`un coup d`œil quelles cases les utilisateurs devraient remplir. Basculez entre les onglets Fiche et Corrigé pour comparer. Le corrigé est généré simultanément avec la fiche — aucun comptage manuel, aucune étape de création séparée, aucune possibilité d`erreur.",
       },
       {
         title: "Ajouter les Champs utilisateur et l'En-tête Localisé",
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Fiches d'Activités de Centre Mathématique",
-      description: "Construisez des activités de centre mathématique prêtes pour la vente avec des graphiques à images incluant des champs nom et date. Les vendeurs recherchant des activités de graphiques valorisent les fiches avec identification de l`utilisateur intégrée — la case nom/date rend votre produit immédiatement utilisable en ligne. Créez des ensembles par thème liés aux unités du programme : comptage d'animaux de la ferme pour les sciences du vivant, graphiques d'icônes météo pour les sciences de la terre, ou dénombrement de métiers pour l'éducation civique. Chaque fiche est accompagnée de son propre corrigé auto-généré, éliminant le temps de préparation de l`vendeur et garantissant la précision.",
+      description: "Construisez des activités de centre mathématique prêtes pour la vente avec des graphiques à images incluant des champs nom et date. Les vendeurs recherchant des activités de graphiques valorisent les fiches avec identification de l`utilisateur intégrée — la case nom/date rend votre produit immédiatement utilisable en ligne. Créez des ensembles par thème liés aux unités du programme : comptage d`animaux de la ferme pour les sciences du vivant, graphiques d'icônes météo pour les sciences de la terre, ou dénombrement de métiers pour l`éducation civique. Chaque fiche est accompagnée de son propre corrigé auto-généré, éliminant le temps de préparation de l`vendeur et garantissant la précision.",
     },
     {
       title: "Collections Saisonnières de Comptage et Graphiques",
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Utilisez les Thèmes de Fond et de Bordure Ensemble",
-      description: "Contrairement aux applications avec uniquement des thèmes de bordure, le Générateur de Graphique à Images offre des thèmes de fond et de bordure indépendants avec des contrôles d`opacité séparés. Définissez un fond aquarelle subtil à 15–25 % d'opacité pour ajouter de la chaleur visuelle sans distraire de la grille d'images et du diagramme à barres. Superposez une bordure décorative à 80–100 % d'opacité pour un encadrement soigné. Cette approche double thème crée des fiches d`aspect professionnel qui se démarquent dans les listings de places de marché. Un style cohérent de fond et de bordure à travers un lot crée un aspect produit unifié.",
+      description: "Contrairement aux applications avec uniquement des thèmes de bordure, le Générateur de Graphique à Images offre des thèmes de fond et de bordure indépendants avec des contrôles d`opacité séparés. Définissez un fond aquarelle subtil à 15–25 % d`opacité pour ajouter de la chaleur visuelle sans distraire de la grille d'images et du diagramme à barres. Superposez une bordure décorative à 80–100 % d`opacité pour un encadrement soigné. Cette approche double thème crée des fiches d`aspect professionnel qui se démarquent dans les listings de places de marché. Un style cohérent de fond et de bordure à travers un lot crée un aspect produit unifié.",
     },
     {
       title: "Ciblez la Niche Représentation de Données du Programme",
@@ -155,7 +155,7 @@ const content: ToolContent = {  seo: {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — le système double canevas, la génération de grille d'images dispersées, la création de diagramme à barres, le corrigé auto-généré avec cases surlignées en jaune, les 104 collections d'images thématiques avec plus de 3 100 illustrations, la sélection automatique et manuelle, les en-têtes localisés, les thèmes de fond et de bordure, les champs nom/date, l'export en niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — le système double canevas, la génération de grille d`images dispersées, la création de diagramme à barres, le corrigé auto-généré avec cases surlignées en jaune, les 104 collections d'images thématiques avec plus de 3 100 illustrations, la sélection automatique et manuelle, les en-têtes localisés, les thèmes de fond et de bordure, les champs nom/date, l`export en niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Comment fonctionne la fiche graphique à images ?",
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Qu'est-ce que l'en-tête localisé sur chaque fiche ?",
-      answer: "Chaque fiche générée inclut un en-tête stylisé avec un fond en pilule jaune (#FFD93D), une pilule intérieure blanche et un cadre de bordure orange. L`en-tête affiche un titre « Graphique en Images » et des consignes de comptage qui se traduisent automatiquement dans la langue d'interface active — anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien ou finnois. L'en-tête s'adapte automatiquement lorsque vous changez la langue, rendant les fiches prêtes pour la vente dans n`importe quelle langue sans édition manuelle du texte.",
+      answer: "Chaque fiche générée inclut un en-tête stylisé avec un fond en pilule jaune (#FFD93D), une pilule intérieure blanche et un cadre de bordure orange. L`en-tête affiche un titre « Graphique en Images » et des consignes de comptage qui se traduisent automatiquement dans la langue d`interface active — anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien ou finnois. L'en-tête s`adapte automatiquement lorsque vous changez la langue, rendant les fiches prêtes pour la vente dans n`importe quelle langue sans édition manuelle du texte.",
     },
     {
       question: "Comment fonctionnent les thèmes de fond et de bordure ?",
@@ -206,8 +206,8 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: "Créateur de Fiches Dessin sur Quadrillage" },
     { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: "Créateur de Fiches de Graphisme" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
-    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: 'Créateur de Fiches d'Addition` },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: `generateur-fiches-addition', anchorText: `Créateur de Fiches d`Addition` },
   ],
 
   visuals: {

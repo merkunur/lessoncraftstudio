@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Ajouter les Aides pour la vente et du Texte",
-        description: "Cliquez sur le bouton Champ Nom pour ajouter un bloc de texte formaté « Nom : ____ » en haut de la page pour l`identification de l'utilisateur. Cliquez sur le bouton Lignes d'Écriture pour ajouter un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) en bas pour la pratique de l'écriture. Ces aides pour la vente en un clic transforment les pages de coloriage en fiches d`activités prêtes pour la vente. Ajoutez des titres, consignes ou étiquettes avec le panneau Outils Texte en utilisant des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Réglez la largeur du contour de texte de 0 à 10 avec une granularité de 0,5.",
+        description: "Cliquez sur le bouton Champ Nom pour ajouter un bloc de texte formaté « Nom : ____ » en haut de la page pour l`identification de l`utilisateur. Cliquez sur le bouton Lignes d'Écriture pour ajouter un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) en bas pour la pratique de l`écriture. Ces aides pour la vente en un clic transforment les pages de coloriage en fiches d`activités prêtes pour la vente. Ajoutez des titres, consignes ou étiquettes avec le panneau Outils Texte en utilisant des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Réglez la largeur du contour de texte de 0 à 10 avec une granularité de 0,5.",
       },
       {
         title: "Activer les Niveaux de Gris et Exporter",
@@ -68,11 +68,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Intérieurs de Cahiers de Coloriage pour KDP",
-      description: "Compilez 40 à 80 pages de coloriage dans des intérieurs de cahiers complets pour Amazon KDP. L`option d'export en niveaux de gris convertit les compositions colorées en pages économiques en encre qui se reproduisent parfaitement en impression noir et blanc standard, maintenant les coûts de production bas. Structurez les cahiers par thème (animaux, saisons, fêtes), par tranche d'âge (mises en page simples pour les tout-petits, compositions détaillées pour les enfants plus grands) ou par type d'activité (coloriage seul, coloriage avec champ nom, coloriage avec lignes d`écriture). La sortie purement visuelle se publie de manière identique sur toutes les places de marché KDP internationales sans traduction — un seul intérieur dessert tous les pays.",
+      description: "Compilez 40 à 80 pages de coloriage dans des intérieurs de cahiers complets pour Amazon KDP. L`option d`export en niveaux de gris convertit les compositions colorées en pages économiques en encre qui se reproduisent parfaitement en impression noir et blanc standard, maintenant les coûts de production bas. Structurez les cahiers par thème (animaux, saisons, fêtes), par tranche d'âge (mises en page simples pour les tout-petits, compositions détaillées pour les enfants plus grands) ou par type d`activité (coloriage seul, coloriage avec champ nom, coloriage avec lignes d`écriture). La sortie purement visuelle se publie de manière identique sur toutes les places de marché KDP internationales sans traduction — un seul intérieur dessert tous les pays.",
     },
     {
       title: "Fiches d'Activités de Coloriage pour la vente",
-      description: "Utilisez les aides pour la vente en un clic pour créer des pages de coloriage avec champ nom et lignes de pratique d`écriture intégrés. Le champ nom ajoute « Nom : ____ » en haut pour l'identification de l'utilisateur. Les lignes d'écriture ajoutent des lignes de pratique pleine-pointillée-pleine en bas. Ces deux ajouts transforment des pages de coloriage standard en activités de classe structurées que les acheteurs Gumroad recherchent spécifiquement. Créez des ensembles thématiques alignés sur les sujets du programme — animaux de la ferme pour les sciences, métiers de la communauté pour l`éducation civique, thèmes saisonniers pour les activités de fêtes — chaque pack avec des aides pour la vente pré-intégrées.",
+      description: "Utilisez les aides pour la vente en un clic pour créer des pages de coloriage avec champ nom et lignes de pratique d`écriture intégrés. Le champ nom ajoute « Nom : ____ » en haut pour l`identification de l'utilisateur. Les lignes d`écriture ajoutent des lignes de pratique pleine-pointillée-pleine en bas. Ces deux ajouts transforment des pages de coloriage standard en activités de classe structurées que les acheteurs Gumroad recherchent spécifiquement. Créez des ensembles thématiques alignés sur les sujets du programme — animaux de la ferme pour les sciences, métiers de la communauté pour l`éducation civique, thèmes saisonniers pour les activités de fêtes — chaque pack avec des aides pour la vente pré-intégrées.",
     },
     {
       title: "Pages de Coloriage Hybrides avec Illustrations Originales",
@@ -101,12 +101,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Packs d'Activités de Coloriage pour Gumroad",
-      description: "Téléversez des packs de pages de coloriage sur Gumroad avec les aides pour la vente comme argument de vente clé. Chaque page inclut un champ nom et des lignes de pratique d`écriture — des fonctionnalités que les vendeurs recherchent spécifiquement. Organisez par sujet de programme : animaux de la ferme pour les sciences de la vie, métiers de la communauté pour l'éducation civique, météo et saisons pour les sciences de la terre, formes et modèles pour l'intégration mathématique. Le format prêt pour la vente justifie des prix plus élevés que les pages de coloriage génériques car les vendeurs paient un supplément pour des ressources « imprimer et utiliser » incluant identification de l'utilisateur et pratique de l`écriture.",
+      description: "Téléversez des packs de pages de coloriage sur Gumroad avec les aides pour la vente comme argument de vente clé. Chaque page inclut un champ nom et des lignes de pratique d`écriture — des fonctionnalités que les vendeurs recherchent spécifiquement. Organisez par sujet de programme : animaux de la ferme pour les sciences de la vie, métiers de la communauté pour l`éducation civique, météo et saisons pour les sciences de la terre, formes et modèles pour l'intégration mathématique. Le format prêt pour la vente justifie des prix plus élevés que les pages de coloriage génériques car les vendeurs paient un supplément pour des ressources « imprimer et utiliser » incluant identification de l`utilisateur et pratique de l`écriture.",
       platform: 'Gumroad',
     },
     {
       title: "Tunnel de Vente Pinterest pour Pages de Coloriage",
-      description: "Les pages de coloriage font des épingles Pinterest visuellement frappantes qui génèrent du trafic vers votre boutique Etsy ou page d`atterrissage. Épinglez des exemples de pages de coloriage avec filigrane montrant les compositions en forme libre, les arrangements d'images thématiques et les aides pour la vente. Créez des séries d'épingles distinctes pour « pages de coloriage animaux », « fiches de coloriage pour les fêtes » et « activités de coloriage pour la vente ». Le format purement visuel attire les parents et vendeurs de tous les pays. Reliez chaque épingle à vos listings produits et construisez une liste d'abonnés d`acheteurs de pages de coloriage pour les annonces de nouvelles sorties.",
+      description: "Les pages de coloriage font des épingles Pinterest visuellement frappantes qui génèrent du trafic vers votre boutique Etsy ou page d`atterrissage. Épinglez des exemples de pages de coloriage avec filigrane montrant les compositions en forme libre, les arrangements d`images thématiques et les aides pour la vente. Créez des séries d'épingles distinctes pour « pages de coloriage animaux », « fiches de coloriage pour les fêtes » et « activités de coloriage pour la vente ». Le format purement visuel attire les parents et vendeurs de tous les pays. Reliez chaque épingle à vos listings produits et construisez une liste d`abonnés d`acheteurs de pages de coloriage pour les annonces de nouvelles sorties.",
       platform: 'Pinterest',
     },
     {
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Ajoutez les Aides pour la vente pour Justifier des Prix Plus Élevés",
-      description: "Les pages de coloriage avec champ nom et lignes d`écriture se vendent plus cher que les pages de coloriage génériques car elles servent un objectif fonctionnel en ligne. Les vendeurs sur Gumroad recherchent spécifiquement des activités de coloriage « prêtes pour la vente » avec des zones d'identification de l'utilisateur. Ajouter ces aides en un clic prend quelques secondes mais transforme votre produit d'une simple page de coloriage en une activité d`apprentissage structurée qui justifie un prix premium.",
+      description: "Les pages de coloriage avec champ nom et lignes d`écriture se vendent plus cher que les pages de coloriage génériques car elles servent un objectif fonctionnel en ligne. Les vendeurs sur Gumroad recherchent spécifiquement des activités de coloriage « prêtes pour la vente » avec des zones d`identification de l'utilisateur. Ajouter ces aides en un clic prend quelques secondes mais transforme votre produit d`une simple page de coloriage en une activité d`apprentissage structurée qui justifie un prix premium.",
     },
     {
       title: "Combinez Dessin à Main Levée et Images de la Bibliothèque",
@@ -163,7 +163,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Comment fonctionne l'export en niveaux de gris ?",
-      answer: "La Bibliothèque d`Images contient des illustrations colorées que vous utilisez pendant la conception pour une expérience d'édition engageante. Lorsque vous êtes prêt à exporter, activez l'option niveaux de gris dans le panneau Téléchargement pour convertir votre composition colorée en pages de coloriage économiques en encre. La conversion en niveaux de gris se fait au moment de l'export — votre canevas reste coloré pendant le travail. Cette approche est idéale pour les intérieurs KDP et l`impression en volume où la reproduction noir et blanc réduit les coûts.",
+      answer: "La Bibliothèque d`Images contient des illustrations colorées que vous utilisez pendant la conception pour une expérience d`édition engageante. Lorsque vous êtes prêt à exporter, activez l'option niveaux de gris dans le panneau Téléchargement pour convertir votre composition colorée en pages de coloriage économiques en encre. La conversion en niveaux de gris se fait au moment de l`export — votre canevas reste coloré pendant le travail. Cette approche est idéale pour les intérieurs KDP et l`impression en volume où la reproduction noir et blanc réduit les coûts.",
     },
     {
       question: "Que sont les aides pour la vente ?",
@@ -205,9 +205,9 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: "Créateur de Fiches de Graphisme" },
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: "generateur-train-suites-logiques", anchorText: "Créateur de Fiches Train de Suites Logiques" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
-    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: 'Créateur de Fiches d'Écriture` },
+    { pageType: `tool`, slug: `generateur-fiches-ecriture', anchorText: `Créateur de Fiches d`Écriture` },
   ],
 
   visuals: {

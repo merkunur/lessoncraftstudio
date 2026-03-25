@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: "Scegli la modalità e configura il codice",
         description:
-          "Apri le Impostazioni Esercizio e seleziona la Modalità negozica per decifrare il codice puro oppure la Modalità Parola Rivelata per incorporare una parola segreta. Nella Modalità negozica, imposta i valori minimi e massimi degli addendi (1–20) e scegli quanti simboli-immagine unici compaiono per scheda (2–5). Nella Modalità Parola Rivelata, scrivi una parola segreta fino a dieci lettere — l`applicazione genera un'equazione per ogni lettera la cui somma corrisponde a quella lettera, più tre equazioni distratrici con somme errate per aumentare la sfida. Se l'intervallo numerico non riesce a produrre somme uniche sufficienti per la parola, l'applicazione amplia automaticamente l`intervallo.",
+          "Apri le Impostazioni Esercizio e seleziona la Modalità negozica per decifrare il codice puro oppure la Modalità Parola Rivelata per incorporare una parola segreta. Nella Modalità negozica, imposta i valori minimi e massimi degli addendi (1–20) e scegli quanti simboli-immagine unici compaiono per scheda (2–5). Nella Modalità Parola Rivelata, scrivi una parola segreta fino a dieci lettere — l`applicazione genera un`equazione per ogni lettera la cui somma corrisponde a quella lettera, più tre equazioni distratrici con somme errate per aumentare la sfida. Se l'intervallo numerico non riesce a produrre somme uniche sufficienti per la parola, l`applicazione amplia automaticamente l`intervallo.",
       },
       {
         title: "Scegli le immagini dalla libreria tematica",

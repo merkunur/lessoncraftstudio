@@ -115,7 +115,7 @@ const content: AppContent = {
       {
         title: "Cahiers d'activités de maths sur Amazon KDP",
         description:
-          "Compilez 50 à 100 fiches d`addition dans un cahier d'activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Image + Image à petites plages de nombres et progressez vers le Mode Mixte proche de 10 — pour créer un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes et une section corrigé à la fin. Les cahiers d'activités mathématiques KDP pour enfants de 3 à 7 ans se vendent régulièrement toute l`année avec un budget publicitaire minimal.",
+          "Compilez 50 à 100 fiches d`addition dans un cahier d`activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Image + Image à petites plages de nombres et progressez vers le Mode Mixte proche de 10 — pour créer un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes et une section corrigé à la fin. Les cahiers d`activités mathématiques KDP pour enfants de 3 à 7 ans se vendent régulièrement toute l`année avec un budget publicitaire minimal.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode, chaque thème, chaque format d'export et chaque taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode, chaque thème, chaque format d`export et chaque taille de page avant d'acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil répond à vos besoins avant d`acheter une licence.",
     },
     {
       question: "Dois-je installer un logiciel ?",

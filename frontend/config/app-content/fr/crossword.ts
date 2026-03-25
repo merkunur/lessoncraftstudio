@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: "Quatre méthodes de saisie : sélection par thème, modification manuelle, liste personnalisée et import d'images",
         description:
-          "Un seul générateur prend en charge quatre façons distinctes de fournir le contenu des mots croisés. La Génération Rapide par Thème sélectionne 8 images aléatoires d`un thème et génère instantanément — le chemin le plus rapide vers un puzzle terminé. La Modification Manuelle des Noms d'Images vous permet de cliquer sur les images pour les sélectionner et de modifier chaque nom d'affichage avant la génération, offrant un contrôle précis sur les mots qui apparaissent dans la grille. La Liste de Mots Personnalisée avec Indices bascule en mode mots croisés traditionnels : saisissez des paires MOT : indice dans une zone de texte pour des indices textuels au lieu d'images. Importer des Images Personnalisées vous permet d`ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés des images de la bibliothèque. Chaque méthode produit un puzzle complet à partir du même moteur de grille 15×15.",
+          "Un seul générateur prend en charge quatre façons distinctes de fournir le contenu des mots croisés. La Génération Rapide par Thème sélectionne 8 images aléatoires d`un thème et génère instantanément — le chemin le plus rapide vers un puzzle terminé. La Modification Manuelle des Noms d`Images vous permet de cliquer sur les images pour les sélectionner et de modifier chaque nom d'affichage avant la génération, offrant un contrôle précis sur les mots qui apparaissent dans la grille. La Liste de Mots Personnalisée avec Indices bascule en mode mots croisés traditionnels : saisissez des paires MOT : indice dans une zone de texte pour des indices textuels au lieu d`images. Importer des Images Personnalisées vous permet d`ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés des images de la bibliothèque. Chaque méthode produit un puzzle complet à partir du même moteur de grille 15×15.",
       },
       {
         title: "Corrigé auto-généré avec grille de mots croisés remplie",
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: "Mots croisés de vocabulaire personnalisé pour Gumroad",
         description:
-          "Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur les programmes avec du vocabulaire défini par l`vendeur. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d'histoire-géographie, mots de compréhension de lecture ou listes d'orthographe. Les vendeurs recherchant des activités de mots croisés sur Gumroad apprécient les puzzles correspondant exactement à leur programme. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG. Le mode indices textuels vous permet de créer des mots croisés pour n'importe quelle matière sans utiliser la bibliothèque d`images.",
+          "Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur les programmes avec du vocabulaire défini par l`vendeur. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d`histoire-géographie, mots de compréhension de lecture ou listes d'orthographe. Les vendeurs recherchant des activités de mots croisés sur Gumroad apprécient les puzzles correspondant exactement à leur programme. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG. Le mode indices textuels vous permet de créer des mots croisés pour n`importe quelle matière sans utiliser la bibliothèque d`images.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Le Générateur de Mots Croisés en Images est-il sensible à la langue ?",
       answer:
-        "Oui. Les mots du puzzle proviennent des noms d`images localisés chargés via le système de Vocabulaire d'Images. Changer la langue du contenu modifie les mots réels placés dans la grille de mots croisés. Une image de chat génère « CHAT » en français mais « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — créant des puzzles de mots croisés entièrement différents à partir de sélections d'images identiques. L'en-tête localisé « Mots Croisés en Images » change également avec la langue sélectionnée. La Licence Commerciale inclut le contenu anglais ; l`Accès Complet déverrouille les 11 langues.",
+        "Oui. Les mots du puzzle proviennent des noms d`images localisés chargés via le système de Vocabulaire d`Images. Changer la langue du contenu modifie les mots réels placés dans la grille de mots croisés. Une image de chat génère « CHAT » en français mais « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — créant des puzzles de mots croisés entièrement différents à partir de sélections d'images identiques. L`en-tête localisé « Mots Croisés en Images » change également avec la langue sélectionnée. La Licence Commerciale inclut le contenu anglais ; l`Accès Complet déverrouille les 11 langues.",
     },
     {
       question: "Comment fonctionne l'en-tête auto-généré ?",
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre méthodes de saisie, le générateur de grille 15×15, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre méthodes de saisie, le générateur de grille 15×15, le corrigé auto-généré, la bibliothèque d`images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

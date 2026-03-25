@@ -1832,7 +1832,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       heading: "Spot Which Picture Does Not Belong",
       subheading: "Classification worksheets that challenge kids to find the odd one out in every group",
       images: [
-        { src: img(`odd one out', 'Find the Odd One Out.webp'), alt: "Odd one out worksheet — identify the picture that doesn`t belong" },
+        { src: img(`odd one out`, 'Find the Odd One Out.webp`), alt: "Odd one out worksheet — identify the picture that doesn`t belong" },
         { src: img('odd one out', 'Find the Odd One Out (1).webp'), alt: "Category reasoning — themed odd-one-out activity" },
         { src: img('odd one out', 'Find the Odd One Out (5).webp'), alt: "Odd one out challenge — subtle difference puzzles" },
       ],
@@ -2604,7 +2604,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Progression structurée par niveaux", "Des fiches adaptées à chaque rythme d'apprentissage",
     "Compter des images thématiques et additionner jusqu'à 5", "Groupes d'images mélangées avec sommes jusqu'à 10", "Combiner images et nombres jusqu'à 20",
     "Progressez à votre rythme avec les maths visuelles",
-    `Le calcul en couleurs !', 'Maîtriser l'addition visuelle`,
+    `Le calcul en couleurs !`, 'Maîtriser l`addition visuelle`,
     "Collection de fiches d'addition", "Exercices prêts à imprimer pour la maison et la classe",
   ],
   'image-subtraction': [
@@ -2700,7 +2700,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Exercices d'écriture en trois niveaux", "Du traçage à l'écriture autonome",
     'Pratique de traçage', 'Écriture guidée des lettres', 'Écriture autonome',
     "Une belle écriture commence par la pratique",
-    `Pratiquer l'écriture !', 'Maîtrise des lettres`,
+    `Pratiquer l`écriture !', `Maîtrise des lettres`,
     "Collection d`exercices d'écriture", "Fiches d`écriture avec lignes de guidage",
   ],
   'big-small': [
@@ -2778,7 +2778,7 @@ const frToolText: Record<string, FrTextTuple> = {
   'shadow-match': [
     "Puzzles d'association d'ombres", "Quelle ombre correspond à quelle image ?",
     "Association d'ombres en trois niveaux", "Des ombres simples aux ombres tournées",
-    `Paires d'ombres simples', 'Images d'ombres tournées', 'Puzzles d'ombres complexes`,
+    `Paires d`ombres simples`, `Images d'ombres tournées`, `Puzzles d`ombres complexes`,
     "Les puzzles d'ombres aiguisent l'observation",
     'Trouver l'ombre !', 'Puzzles d'ombres',
     "Collection d`association d'ombres", "Fiches stimulantes pour le sens de l`observation",
@@ -2786,7 +2786,7 @@ const frToolText: Record<string, FrTextTuple> = {
   bingo: [
     "Créer des cartes de loto d'images", "Cartes de loto thématiques à imprimer et jouer",
     "Loto en trois tailles de cartes", "Des cartes simples aux cartes complètes pour différents âges",
-    `Loto simple 3×3', 'Loto d'images 4×4', 'Cartes de loto complètes 5×5`,
+    `Loto simple 3×3`, `Loto d'images 4×4`, `Cartes de loto complètes 5×5`,
     "Le loto rend l'apprentissage en groupe amusant",
     'LOTO !', 'Amusement loto en images',
     'Collection de cartes de loto', "Cartes thématiques prêtes pour les activités de groupe et de classe",
@@ -2796,7 +2796,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Exercices de tri en trois niveaux", "De 2 catégories à la classification complexe",
     'Tri en 2 catégories', 'Tri en 3 catégories', 'Défis de 4+ catégories',
     "Trier enseigne la structuration logique",
-    `Trier !', 'Puzzle d'ordre`,
+    `Trier !`, 'Puzzle d`ordre`,
     `Collection de fiches de tri', "Exercices de classification prêts pour la maison et l`école",
   ],
   'missing-pieces': [
@@ -2804,7 +2804,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Puzzles en trois niveaux de difficulté", "Des puzzles visuels simples aux complexes",
     'Pièces manquantes simples', 'Puzzles à plusieurs pièces', 'Puzzles visuels complexes',
     "Les puzzles renforcent la pensée visuelle",
-    `Qu'est-ce qui manque ?', 'Détective de puzzles`,
+    `Qu`est-ce qui manque ?', `Détective de puzzles`,
     "Collection de fiches de puzzles", "Exercices de recherche stimulants pour les esprits attentifs",
   ],
   'odd-one-out': [
@@ -2834,7 +2834,7 @@ const frToolText: Record<string, FrTextTuple> = {
   'find-and-count': [
     "Activités de recherche et de comptage", "Trouver et compter les images cachées dans des scènes colorées",
     "Images de recherche en trois niveaux", "De la recherche simple à la scène complexe",
-    `Trouver 3-5 objets', 'Compter jusqu'à 10 objets`, "Scènes avancées à comptage multiple",
+    `Trouver 3-5 objets`, 'Compter jusqu`à 10 objets`, "Scènes avancées à comptage multiple",
     "Chercher et compter rend attentif",
     'Je vois !', "Amusement de recherche et de comptage",
     "Collection de recherche et de comptage", "Scènes joliment conçues pour chercher",
@@ -3474,7 +3474,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Esercizi di preposizioni in tre livelli", "Dal vocabolario base alla descrizione complessa",
     "Parole spaziali base: sopra, in, sotto", "Vocabolario ampliato con scene tematiche", "Relazioni spaziali complesse e frasi",
     "Le parole di posizione arricchiscono l'espressione",
-    `Dov'è?', 'Impara le parole di posizione`,
+    `Dov`è?', `Impara le parole di posizione`,
     "Collezione di schede di preposizioni", "Esercizi pronti per il vocabolario spaziale",
   ],
   'word-guess': [
@@ -3594,7 +3594,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Associazione di ombre in tre livelli", "Da ombre semplici a ombre ruotate",
     'Coppie di ombre semplici', 'Immagini di ombre ruotate', 'Puzzle di ombre complessi',
     "I puzzle di ombre affinano l'osservazione",
-    `Trova l'ombra!', 'Puzzle di ombre`,
+    `Trova l`ombra!', `Puzzle di ombre`,
     "Collezione di associazione di ombre", "Schede stimolanti per la capacità di osservazione",
   ],
   bingo: [
@@ -3626,7 +3626,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Trova le differenze in tre livelli", "Da serie semplici a serie complesse",
     'Gruppi semplici di 3', 'Gruppi medi di 4', 'Avanzato: 6+ immagini',
     "Riconoscere le differenze rafforza il pensiero logico",
-    `Quale non appartiene?', 'Puzzle occhio d'aquila`,
+    `Quale non appartiene?`, 'Puzzle occhio d`aquila`,
     `Collezione di puzzle logici', "Esercizi pronti per l`osservazione attenta",
   ],
   sudoku: [

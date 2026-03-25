@@ -170,7 +170,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le mode Barrer ?",
-      answer: "En mode Barrer, la fiche affiche un groupe d`images représentant le diminuende. L'enfant barre le nombre d'images soustraites et compte les images restantes pour trouver la réponse. C'est la méthode la plus visuelle et intuitive pour enseigner la soustraction aux jeunes apprenants. Les images barrées restent visibles sur la page, permettant aux enfants de vérifier leur travail en comptant à la fois le groupe barré et le groupe restant. Cet aspect d`auto-vérification rend le mode Barrer particulièrement précieux pour la pratique autonome et les devoirs.",
+      answer: "En mode Barrer, la fiche affiche un groupe d`images représentant le diminuende. L`enfant barre le nombre d'images soustraites et compte les images restantes pour trouver la réponse. C`est la méthode la plus visuelle et intuitive pour enseigner la soustraction aux jeunes apprenants. Les images barrées restent visibles sur la page, permettant aux enfants de vérifier leur travail en comptant à la fois le groupe barré et le groupe restant. Cet aspect d`auto-vérification rend le mode Barrer particulièrement précieux pour la pratique autonome et les devoirs.",
     },
     {
       question: "Que contrôle le réglage du diminuende maximum ?",
@@ -196,12 +196,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'soustraction-fiches', anchorText: "Fiches de Soustraction — Détails Complets du Produit" },
-    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
-    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: "Générateur de Fiches d`Addition Codée" },
+    { pageType: `tool`, slug: 'generateur-fiches-addition`, anchorText: "Générateur de Fiches d`Addition" },
+    { pageType: `tool`, slug: 'generateur-addition-codee`, anchorText: "Générateur de Fiches d`Addition Codée" },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: "Générateur de Puzzles Mathématiques" },
-    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-exercices-maths`, anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Générateur de Pages de Coloriage" },
   ],
 

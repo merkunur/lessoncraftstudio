@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Genera le Cartelle Bingo',
-        description: "Clicca Genera per creare le tue cartelle bingo. L`app riempie la griglia configurata con immagini o parole dal tema selezionato e crea gettoni circolari con bordi tratteggiati (#666, strokeDashArray [5,5]) sotto la cartella. I gettoni sono mescolati usando l'ordinamento Fisher-Yates così non rispecchiano mai il layout della griglia della cartella, garantendo un gioco di bingo autentico. Se hai richiesto più cartelle, ciascuna pesca una selezione casuale diversa dal pool di immagini. La prima cartella appare sul canvas immediatamente per l'anteprima. L'area della griglia usa il 60% dell`altezza disponibile del canvas (massimo 500px) per proporzioni ottimali.",
+        description: "Clicca Genera per creare le tue cartelle bingo. L`app riempie la griglia configurata con immagini o parole dal tema selezionato e crea gettoni circolari con bordi tratteggiati (#666, strokeDashArray [5,5]) sotto la cartella. I gettoni sono mescolati usando l`ordinamento Fisher-Yates così non rispecchiano mai il layout della griglia della cartella, garantendo un gioco di bingo autentico. Se hai richiesto più cartelle, ciascuna pesca una selezione casuale diversa dal pool di immagini. La prima cartella appare sul canvas immediatamente per l'anteprima. L`area della griglia usa il 60% dell`altezza disponibile del canvas (massimo 500px) per proporzioni ottimali.",
       },
       {
         title: "Controlla il Foglio di Richiamo",

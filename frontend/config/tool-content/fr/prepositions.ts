@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: "Générateur de Fiches de Prépositions",
     tagline: "Créez des fiches de prépositions spatiales avec deux modes d'exercice dans 11 langues",
-    description: "Enseignez les mots de position à travers des exercices basés sur des images que les utilisateurs apprécient réellement. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d`exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d'options avec une ligne d'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l'outil est le Remplacement de Formes — une couche d'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu'un seul jeu d'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L'allemand utilise « auf, unter, über, neben, zwischen, drinnen, draußen » ; l'espagnol utilise « sobre, debajo, encima, al lado, entre, dentro, fuera ». Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
+    description: "Enseignez les mots de position à travers des exercices basés sur des images que les utilisateurs apprécient réellement. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d`exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d`options avec une ligne d`instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l`outil est le Remplacement de Formes — une couche d`image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu'un seul jeu d`images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l`une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L`allemand utilise « auf, unter, über, neben, zwischen, drinnen, draußen » ; l`espagnol utilise « sobre, debajo, encima, al lado, entre, dentro, fuera ». Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
   tutorial: {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: "Combinez les Deux Modes dans un Seul Produit",
-      description: "Regroupez les fiches Texte à Trous et Choix Multiple dans un seul pack. Les vendeurs adorent les packs différenciés qu`ils peuvent distribuer aux utilisateurs de niveaux différents. Un « Pack Complet de Prépositions » avec les deux modes, les corrigés et un guide d'utilisation commande un prix plus élevé que l'un ou l'autre mode vendu séparément. Les packs bimodaux réduisent aussi les demandes de remboursement car les acheteurs sentent qu`ils obtiennent une couverture complète, et les corrigés inclus font gagner du temps de préparation aux vendeurs — un argument de vente à souligner dans vos descriptions.",
+      description: "Regroupez les fiches Texte à Trous et Choix Multiple dans un seul pack. Les vendeurs adorent les packs différenciés qu`ils peuvent distribuer aux utilisateurs de niveaux différents. Un « Pack Complet de Prépositions » avec les deux modes, les corrigés et un guide d`utilisation commande un prix plus élevé que l'un ou l`autre mode vendu séparément. Les packs bimodaux réduisent aussi les demandes de remboursement car les acheteurs sentent qu`ils obtiennent une couverture complète, et les corrigés inclus font gagner du temps de préparation aux vendeurs — un argument de vente à souligner dans vos descriptions.",
     },
     {
       title: "Utilisez les Niveaux de Gris pour KDP et l'Impression en Volume",
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: "Qu'est-ce que le Remplacement de Formes ?",
-      answer: "Le Remplacement de Formes est une fonctionnalité unique à l`outil de prépositions. Il ajoute une couche d'image séparée pour les formes de scène — les objets qui créent le contexte spatial (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle). Vous pouvez remplacer les formes indépendamment des images principales, multipliant le nombre de scènes d'exercice uniques que vous pouvez générer à partir du même jeu d'images. Pour les vendeurs, cela signifie que vous pouvez produire des packs de variété volumineux sans avoir besoin de centaines d`images source — dix images principales combinées à dix formes donnent cent scènes distinctes.",
+      answer: "Le Remplacement de Formes est une fonctionnalité unique à l`outil de prépositions. Il ajoute une couche d`image séparée pour les formes de scène — les objets qui créent le contexte spatial (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle). Vous pouvez remplacer les formes indépendamment des images principales, multipliant le nombre de scènes d'exercice uniques que vous pouvez générer à partir du même jeu d`images. Pour les vendeurs, cela signifie que vous pouvez produire des packs de variété volumineux sans avoir besoin de centaines d`images source — dix images principales combinées à dix formes donnent cent scènes distinctes.",
     },
     {
       question: "Comment fonctionne la sensibilité linguistique ?",
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: "Combien d'exercices puis-je mettre sur une page ?",
-      answer: "Vous pouvez définir de 1 à 8 exercices par fiche. Moins d`exercices par page donnent plus d'espace visuel à chaque scène, idéal pour les jeunes utilisateurs. Plus d'exercices par page créent des fiches plus denses adaptées aux utilisateurs plus âgés ou à la pratique chronométrée. La mise en page s'adapte automatiquement au nombre d`exercices et au format de page. Les vendeurs créent souvent deux versions du même pack — une mise en page spacieuse à 3 exercices pour les plus jeunes et une mise en page compacte à 6 exercices pour les utilisateurs plus âgés — puis regroupent les deux versions à un prix premium.",
+      answer: "Vous pouvez définir de 1 à 8 exercices par fiche. Moins d`exercices par page donnent plus d`espace visuel à chaque scène, idéal pour les jeunes utilisateurs. Plus d'exercices par page créent des fiches plus denses adaptées aux utilisateurs plus âgés ou à la pratique chronométrée. La mise en page s`adapte automatiquement au nombre d`exercices et au format de page. Les vendeurs créent souvent deux versions du même pack — une mise en page spacieuse à 3 exercices pour les plus jeunes et une mise en page compacte à 6 exercices pour les utilisateurs plus âgés — puis regroupent les deux versions à un prix premium.",
     },
     {
       question: "Puis-je télécharger mes propres images ?",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: 'Générateur de Mots Mélangés' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
-    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-ecriture`, anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

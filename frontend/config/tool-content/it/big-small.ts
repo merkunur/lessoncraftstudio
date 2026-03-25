@@ -205,7 +205,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-schede-sequenze', anchorText: 'Generatore Schede Sequenze' },
     { pageType: 'tool', slug: 'generatore-disegno-griglia', anchorText: 'Generatore Disegno e Colora' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
-    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l`Intruso" },
+    { pageType: `tool`, slug: 'generatore-schede-intruso`, anchorText: "Generatore Schede Trova l`Intruso" },
     { pageType: 'tool', slug: "generatore-discriminazione-visiva", anchorText: "Generatore Discriminazione Visiva Ombre" },
     { pageType: 'tool', slug: 'generatore-schede-pregrafismo', anchorText: 'Generatore Schede Pregrafismo' },
   ],

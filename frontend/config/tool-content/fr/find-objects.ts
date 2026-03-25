@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: "Packs Variété Mixtes Je Vois Je Vois et Trouve l'Intrus",
-      description: "Combinez les deux modes d`activité dans des packs variété premium. Chaque pack comprend des scènes Je Vois Je Vois où les utilisateurs cherchent des objets spécifiques dans une scène dispersée guidés par la légende en bas, plus des fiches Trouve l'Intrus où les utilisateurs identifient les éléments non appariés parmi des ensembles appariés. Cette combinaison cible deux compétences cognitives différentes — la recherche visuelle et la discrimination visuelle — dans un seul produit. Les packs mixtes se vendent à des prix plus élevés car ils offrent plus de variété d'activités et couvrent plus d'objectifs d`apprentissage que les produits à mode unique.",
+      description: "Combinez les deux modes d`activité dans des packs variété premium. Chaque pack comprend des scènes Je Vois Je Vois où les utilisateurs cherchent des objets spécifiques dans une scène dispersée guidés par la légende en bas, plus des fiches Trouve l`Intrus où les utilisateurs identifient les éléments non appariés parmi des ensembles appariés. Cette combinaison cible deux compétences cognitives différentes — la recherche visuelle et la discrimination visuelle — dans un seul produit. Les packs mixtes se vendent à des prix plus élevés car ils offrent plus de variété d'activités et couvrent plus d`objectifs d`apprentissage que les produits à mode unique.",
     },
     {
       title: "Cahiers d'Activités Objets Cachés KDP avec Difficulté Progressive",
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Packs d'Activités Objets Cachés pour la vente sur Gumroad",
-      description: "Téléversez des packs d`activités objets cachés sur Gumroad avec les champs nom et date et les corrigés auto-générés comme arguments de vente principaux. Les vendeurs recherchant des activités de recherche visuelle et d'observation valorisent les fiches prêtes à l'emploi avec solutions incluses. Créez des ensembles alignés sur les programmes : objets cachés animaux de la ferme pour les sciences, Je Vois Je Vois métiers pour les sciences sociales, recherche de groupes alimentaires pour la nutrition et scènes objets cachés saisonnières pour les activités festives. Incluez à la fois des fiches Je Vois Je Vois et Trouve l'Intrus pour une instruction différenciée — Je Vois Je Vois pour la pratique de la recherche visuelle et Trouve l`Intrus pour le développement de la discrimination visuelle.",
+      description: "Téléversez des packs d`activités objets cachés sur Gumroad avec les champs nom et date et les corrigés auto-générés comme arguments de vente principaux. Les vendeurs recherchant des activités de recherche visuelle et d`observation valorisent les fiches prêtes à l'emploi avec solutions incluses. Créez des ensembles alignés sur les programmes : objets cachés animaux de la ferme pour les sciences, Je Vois Je Vois métiers pour les sciences sociales, recherche de groupes alimentaires pour la nutrition et scènes objets cachés saisonnières pour les activités festives. Incluez à la fois des fiches Je Vois Je Vois et Trouve l`Intrus pour une instruction différenciée — Je Vois Je Vois pour la pratique de la recherche visuelle et Trouve l`Intrus pour le développement de la discrimination visuelle.",
       platform: 'Gumroad',
     },
     {
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: "Kit Complet d'Activités Objets Cachés sur Gumroad",
-      description: "Regroupez des fiches d`objets cachés couvrant les 104 thèmes et les deux modes d'activité dans un kit complet sur Gumroad. Incluez plus de 300 fiches couvrant le mode Je Vois Je Vois avec des niveaux de difficulté progressive (1–5 objets cachés, 8–12 distracteurs) et le mode Trouve l'Intrus avec des quantités d'images appariées variables. Chaque fiche inclut son corrigé auto-généré avec annotations en cercles rouges, doublant votre nombre de fichiers à plus de 600 au total. L'algorithme sans chevauchement et les deux modes d'activité produisent plus de variété que n`importe quel concurrent offrant de simples fiches objets cachés en grille. Le format kit justifie un prix premium car les acheteurs obtiennent une bibliothèque complète de puzzles objets cachés.",
+      description: "Regroupez des fiches d`objets cachés couvrant les 104 thèmes et les deux modes d`activité dans un kit complet sur Gumroad. Incluez plus de 300 fiches couvrant le mode Je Vois Je Vois avec des niveaux de difficulté progressive (1–5 objets cachés, 8–12 distracteurs) et le mode Trouve l`Intrus avec des quantités d'images appariées variables. Chaque fiche inclut son corrigé auto-généré avec annotations en cercles rouges, doublant votre nombre de fichiers à plus de 600 au total. L`algorithme sans chevauchement et les deux modes d`activité produisent plus de variété que n`importe quel concurrent offrant de simples fiches objets cachés en grille. Le format kit justifie un prix premium car les acheteurs obtiennent une bibliothèque complète de puzzles objets cachés.",
       platform: 'Gumroad',
     },
     {
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: "Le Créateur de Fiches Cherche Objets est-il sensible à la langue ?",
-      answer: "Non. Le Créateur de Fiches Cherche Objets est un format de puzzle purement visuel — aucun nom d`image localisé n'apparaît sur le contenu de la fiche. La légende Je Vois Je Vois affiche les objets cibles sous forme d'images, pas de texte. Les réglages de langue affectent uniquement les étiquettes de l'interface (boutons, titres de panneaux, infobulles), PAS le contenu des fiches. Cela rend chaque fiche générée universellement vendable sur tous les marchés sans traduction ni modification — un seul ensemble de puzzles d`objets cachés fonctionne pour tous les marchés internationaux.",
+      answer: "Non. Le Créateur de Fiches Cherche Objets est un format de puzzle purement visuel — aucun nom d`image localisé n`apparaît sur le contenu de la fiche. La légende Je Vois Je Vois affiche les objets cibles sous forme d'images, pas de texte. Les réglages de langue affectent uniquement les étiquettes de l`interface (boutons, titres de panneaux, infobulles), PAS le contenu des fiches. Cela rend chaque fiche générée universellement vendable sur tous les marchés sans traduction ni modification — un seul ensemble de puzzles d`objets cachés fonctionne pour tous les marchés internationaux.",
     },
     {
       question: "Quels formats de page et d'export sont disponibles ?",
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: "Quels outils d'édition du canevas sont disponibles ?",
-      answer: "Le canevas Fabric.js offre un contrôle total sur chaque élément. Glissez, redimensionnez, pivotez et repositionnez librement images, texte et contenu généré. Les contrôles de couches gèrent l`ordre d'empilement avec verrouillage/déverrouillage sur les objets individuels. Ajoutez du texte personnalisé avec 7 options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur réglables, et épaisseur de contour de texte de 0 à 10. Six options d'alignement plus centrage sur la page positionnent les éléments avec précision. Zoom de 25 % à 300 % et annuler/rétablir jusqu'à 20 états d`historique.",
+      answer: "Le canevas Fabric.js offre un contrôle total sur chaque élément. Glissez, redimensionnez, pivotez et repositionnez librement images, texte et contenu généré. Les contrôles de couches gèrent l`ordre d`empilement avec verrouillage/déverrouillage sur les objets individuels. Ajoutez du texte personnalisé avec 7 options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur réglables, et épaisseur de contour de texte de 0 à 10. Six options d'alignement plus centrage sur la page positionnent les éléments avec précision. Zoom de 25 % à 300 % et annuler/rétablir jusqu`à 20 états d`historique.",
     },
     {
       question: "Peut-on vendre des fiches objets cachés créées avec cet outil à usage commercial ?",
@@ -210,8 +210,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: "generateur-mots-croises-images", anchorText: "Créateur de Mots Croisés en Images" },
     { pageType: 'tool', slug: 'generateur-chasse-au-tresor', anchorText: 'Créateur de Chasse au Trésor' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: `tool', slug: 'generateur-fiches-intrus', anchorText: "Créateur de Fiches Trouve l`Intrus" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-intrus`, anchorText: "Créateur de Fiches Trouve l`Intrus" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],
 

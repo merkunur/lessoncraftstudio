@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Outil de concepts de motifs pour la vente et le tutorat",
         description:
-          "Téléversez des images personnalisées pour créer des fiches de séquences logiques adaptées à n`importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des formes géométriques pour un cours de mathématiques, ou des symboles de notes musicales pour un cours de musique. Neuf types de motifs vous permettent d'adapter l'exercice à l'objectif pédagogique : AB pour l'introduction, ABC pour la pratique, ABCD pour l'évaluation. Combinez case vide et choix multiple sur la même page pour une pratique variée. Activez le début aléatoire et la position vide aléatoire pour générer des fiches uniques pour chaque utilisateur, empêchant la copie. L`onglet corrigé séparé fait gagner du valeur perçue, et la configuration par exercice permet de créer des pages différenciées pour des groupes de niveaux mixtes.",
+          "Téléversez des images personnalisées pour créer des fiches de séquences logiques adaptées à n`importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des formes géométriques pour un cours de mathématiques, ou des symboles de notes musicales pour un cours de musique. Neuf types de motifs vous permettent d`adapter l`exercice à l'objectif pédagogique : AB pour l`introduction, ABC pour la pratique, ABCD pour l`évaluation. Combinez case vide et choix multiple sur la même page pour une pratique variée. Activez le début aléatoire et la position vide aléatoire pour générer des fiches uniques pour chaque utilisateur, empêchant la copie. L`onglet corrigé séparé fait gagner du valeur perçue, et la configuration par exercice permet de créer des pages différenciées pour des groupes de niveaux mixtes.",
         platform: "Classe / Tutorat / École à la maison",
       },
     ],
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Le générateur de Séquences Logiques est-il sensible à la langue ?",
       answer:
-        "Non. Le générateur de Séquences Logiques est une application purement visuelle — les fiches ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l'interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
+        "Non. Le générateur de Séquences Logiques est une application purement visuelle — les fiches ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l`interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l`Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",
@@ -203,7 +203,7 @@ const content: AppContent = {
     {
       question: "Quelle est la différence entre la Licence Commerciale et l'Accès Complet ?",
       answer:
-        "La Licence Commerciale inclut 10 thèmes colorés de la bibliothèque d`images et les droits complets de vente commerciale pour tous les produits créés. L'Accès Complet déverrouille les 104 thèmes de la bibliothèque d'images et les 11 langues d'interface, offrant une variété de produits maximale. Les deux licences suppriment le filigrane et accordent des droits commerciaux complets — la différence réside uniquement dans le nombre de thèmes et de langues d`interface disponibles.",
+        "La Licence Commerciale inclut 10 thèmes colorés de la bibliothèque d`images et les droits complets de vente commerciale pour tous les produits créés. L`Accès Complet déverrouille les 104 thèmes de la bibliothèque d'images et les 11 langues d`interface, offrant une variété de produits maximale. Les deux licences suppriment le filigrane et accordent des droits commerciaux complets — la différence réside uniquement dans le nombre de thèmes et de langues d`interface disponibles.",
     },
   ],
 

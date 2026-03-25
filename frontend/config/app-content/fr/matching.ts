@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: "Générez la Fiche d'Association",
         description:
-          "Cliquez sur Générer pour créer la mise en page d`association à deux colonnes. L'application dispose vos images et textes sélectionnés dans les colonnes gauche et droite avec le nombre de paires configuré. Un en-tête stylisé « Trouve les Paires ! » apparaît en haut avec un fond en pastille jaune (#FFD700), un cadre de bordure corail (#FF7F50) et un titre localisé ainsi que des consignes rendues en polices Fredoka et Quicksand. Les numéros d'éléments et les puces décoratives s'affichent selon vos réglages. L`onglet fiche de travail montre la version utilisateur sans lignes de liaison — prête pour que les utilisateurs tracent leurs propres lignes.",
+          "Cliquez sur Générer pour créer la mise en page d`association à deux colonnes. L`application dispose vos images et textes sélectionnés dans les colonnes gauche et droite avec le nombre de paires configuré. Un en-tête stylisé « Trouve les Paires ! » apparaît en haut avec un fond en pastille jaune (#FFD700), un cadre de bordure corail (#FF7F50) et un titre localisé ainsi que des consignes rendues en polices Fredoka et Quicksand. Les numéros d'éléments et les puces décoratives s`affichent selon vos réglages. L`onglet fiche de travail montre la version utilisateur sans lignes de liaison — prête pour que les utilisateurs tracent leurs propres lignes.",
       },
       {
         title: "Générez le Corrigé et Téléchargez",
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Quatre Modes d'Association : Lettre Initiale, Image+Mot, Image/Mot Mixte et Mot Personnalisé",
         description:
-          "Un seul générateur couvre quatre activités d`association distinctes. Le mode Lettre Initiale place les images à gauche et leur première lettre à droite — avec trois sous-modes : thèmes aléatoires, images aléatoires depuis un thème choisi ou sélection manuelle des images. Le mode Image+Mot affiche des paires d'images étiquetées des deux côtés pour le renforcement du vocabulaire. Le mode Image/Mot Mixte utilise des sélecteurs déroulants par ligne, chaque côté pouvant afficher indépendamment une image ou un mot, créant une difficulté variée au sein d'une même fiche. Le mode Mot Personnalisé associe les images à vos propres mots saisis pour la pratique de l'orthographe, des quiz de vocabulaire ou des exercices de langues étrangères. Chaque mode génère un défi cognitif différent à partir de la même bibliothèque d`images.",
+          "Un seul générateur couvre quatre activités d`association distinctes. Le mode Lettre Initiale place les images à gauche et leur première lettre à droite — avec trois sous-modes : thèmes aléatoires, images aléatoires depuis un thème choisi ou sélection manuelle des images. Le mode Image+Mot affiche des paires d`images étiquetées des deux côtés pour le renforcement du vocabulaire. Le mode Image/Mot Mixte utilise des sélecteurs déroulants par ligne, chaque côté pouvant afficher indépendamment une image ou un mot, créant une difficulté variée au sein d'une même fiche. Le mode Mot Personnalisé associe les images à vos propres mots saisis pour la pratique de l`orthographe, des quiz de vocabulaire ou des exercices de langues étrangères. Chaque mode génère un défi cognitif différent à partir de la même bibliothèque d`images.",
       },
       {
         title: "Corrigé Généré Automatiquement avec Lignes de Liaison entre les Paires Associées",
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: "Nombre de Paires Configurable avec 4, 5 ou 6 Paires d'Association par Fiche",
         description:
-          "Définissez le nombre de paires d`association à 4, 5 ou 6 via le menu déroulant dans le panneau Configuration de la Fiche. La valeur par défaut est 6 paires, idéale pour les fiches standard. Réduisez à 4 ou 5 paires pour les jeunes apprenants qui ont besoin d'images plus grandes et de plus d'espacement, ou pour les fiches avec des mots personnalisés plus longs nécessitant davantage de place. Le nombre de paires s'applique de manière cohérente aux quatre modes d`association, vous donnant le contrôle sur la difficulté de la fiche et la densité visuelle sans refaire la mise en page.",
+          "Définissez le nombre de paires d`association à 4, 5 ou 6 via le menu déroulant dans le panneau Configuration de la Fiche. La valeur par défaut est 6 paires, idéale pour les fiches standard. Réduisez à 4 ou 5 paires pour les jeunes apprenants qui ont besoin d`images plus grandes et de plus d'espacement, ou pour les fiches avec des mots personnalisés plus longs nécessitant davantage de place. Le nombre de paires s`applique de manière cohérente aux quatre modes d`association, vous donnant le contrôle sur la difficulté de la fiche et la densité visuelle sans refaire la mise en page.",
       },
       {
         title: "En-tête Localisé « Trouve les Paires ! » avec Titre et Consignes dans 11 Langues",
@@ -104,7 +104,7 @@ const content: AppContent = {
       {
         title: "Packs de Fiches d'Association Thématiques sur Etsy",
         description:
-          "Créez des packs d`activités d'association thématiques à partir des 104 collections d'images — association d'animaux, de nourriture, de véhicules, de fêtes et bien d'autres. Chaque thème fournit assez d'illustrations pour plusieurs fiches d'association uniques à travers différents modes. Regroupez 10 à 20 fiches d'association par thème avec les corrigés inclus et vendez entre 3 € et 7 € par pack. Mixez les modes au sein d'un même pack pour plus de variété : fiches Lettre Initiale pour la reconnaissance des lettres, fiches Image+Mot pour le vocabulaire et fiches Mot Personnalisé pour la pratique de l'orthographe. Le corrigé généré automatiquement élimine la tâche la plus chronophage de la production de fiches d`association.",
+          "Créez des packs d`activités d`association thématiques à partir des 104 collections d`images — association d`animaux, de nourriture, de véhicules, de fêtes et bien d`autres. Chaque thème fournit assez d'illustrations pour plusieurs fiches d`association uniques à travers différents modes. Regroupez 10 à 20 fiches d`association par thème avec les corrigés inclus et vendez entre 3 € et 7 € par pack. Mixez les modes au sein d`un même pack pour plus de variété : fiches Lettre Initiale pour la reconnaissance des lettres, fiches Image+Mot pour le vocabulaire et fiches Mot Personnalisé pour la pratique de l`orthographe. Le corrigé généré automatiquement élimine la tâche la plus chronophage de la production de fiches d`association.",
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -122,13 +122,13 @@ const content: AppContent = {
       {
         title: "Fiches d'Association de Vocabulaire en Plusieurs Langues",
         description:
-          "Exploitez les modes Lettre Initiale et Image+Mot sensibles à la langue pour créer des fiches d`association dans 11 langues. Les mêmes images produisent un contenu d'association différent quand vous changez de langue — les noms des images, les premières lettres et le texte de l'en-tête se mettent à jour automatiquement. Créez des packs de vocabulaire multilingues où chaque version linguistique utilise les mêmes images thématiques mais des mots localisés. C'est particulièrement précieux pour les vendeurs de FLE, les classes bilingues et les familles d`instruction à domicile internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.",
+          "Exploitez les modes Lettre Initiale et Image+Mot sensibles à la langue pour créer des fiches d`association dans 11 langues. Les mêmes images produisent un contenu d`association différent quand vous changez de langue — les noms des images, les premières lettres et le texte de l'en-tête se mettent à jour automatiquement. Créez des packs de vocabulaire multilingues où chaque version linguistique utilise les mêmes images thématiques mais des mots localisés. C`est particulièrement précieux pour les vendeurs de FLE, les classes bilingues et les familles d`instruction à domicile internationales. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.",
         platform: "Etsy / Gumroad (marché multilingue)",
       },
       {
         title: "Collections d'Association Saisonnières",
         description:
-          "Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d'été et bien plus. Créez des collections de fiches d'association à durée limitée alignées sur les pics de vente. Lancez les packs d'association Halloween en septembre, les collections de Noël en octobre et les packs Saint-Valentin en janvier. Incluez les quatre modes d`association dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers se vendent à des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles pour des achats récurrents.",
+          "Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d`été et bien plus. Créez des collections de fiches d'association à durée limitée alignées sur les pics de vente. Lancez les packs d`association Halloween en septembre, les collections de Noël en octobre et les packs Saint-Valentin en janvier. Incluez les quatre modes d`association dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers se vendent à des prix plus élevés pendant leurs périodes de pointe et créent des raisons naturelles pour des achats récurrents.",
         platform: "Etsy / Amazon KDP / Gumroad (saisonnier)",
       },
     ],
@@ -183,17 +183,17 @@ const content: AppContent = {
     {
       question: "Puis-je ajouter des thèmes de fond et de bordure aux fiches d'association ?",
       answer:
-        "Oui. Le panneau Mise en Page inclut à la fois un sélecteur de thème de fond avec un curseur d`opacité (de 0 à 1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu d'association, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d'opacité séparés pour créer des fonds subtils avec des bordures bien visibles, ou toute combinaison adaptée à votre design. Ces éléments visuels augmentent la qualité perçue de vos fiches d`association pour les annonces sur les marketplaces.",
+        "Oui. Le panneau Mise en Page inclut à la fois un sélecteur de thème de fond avec un curseur d`opacité (de 0 à 1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d`opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu d'association, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d`opacité séparés pour créer des fonds subtils avec des bordures bien visibles, ou toute combinaison adaptée à votre design. Ces éléments visuels augmentent la qualité perçue de vos fiches d`association pour les annonces sur les marketplaces.",
     },
     {
       question: "Puis-je vendre les fiches d'association créées avec cet outil sur Etsy et Amazon KDP ?",
       answer:
-        "Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d`association en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les quatre modes d'association, les corrigés générés automatiquement et les 104 collections d'images thématiques vous donnent les outils créatifs pour produire des produits d'activités d`association originaux et vendables.",
+        "Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d`association en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les quatre modes d`association, les corrigés générés automatiquement et les 104 collections d'images thématiques vous donnent les outils créatifs pour produire des produits d`activités d`association originaux et vendables.",
     },
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre modes d'association, le corrigé généré automatiquement, la bibliothèque d'images complète, les thèmes de fond et de bordure, les champs nom/date, les numéros d'éléments, les puces décoratives et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d`acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre modes d`association, le corrigé généré automatiquement, la bibliothèque d`images complète, les thèmes de fond et de bordure, les champs nom/date, les numéros d'éléments, les puces décoratives et tous les formats de téléchargement avant d`acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil correspond à vos besoins avant d`acheter une licence.",
     },
   ],
 

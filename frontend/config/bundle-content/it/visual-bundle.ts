@@ -129,7 +129,7 @@ const content: BundleContent = {
     { feature: "Chiavi di risposta automatiche (3 di 7 app)", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
+    { feature: `Lingue dell`interfaccia`, commercial: 'Solo inglese`, fullAccess: `11 lingue` },
     { feature: "Modalità simmetria e disegno specchiato", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },

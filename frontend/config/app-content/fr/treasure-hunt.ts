@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: "Bibliothèque d'images avec 104 collections thématiques et plus de 3 100 illustrations",
         description:
-          "Parcourez 104 collections d`images thématiques couvrant les animaux, la nourriture, les véhicules, la nature, les professions, les fêtes, les sports, les saisons et des dizaines d'autres. Chaque thème fournit un ensemble coordonné d'illustrations colorées qui peuplent la grille 5×5 comme repères visuels. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. Cliquez sur une image pour l'ajouter à votre puzzle. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l`Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos puzzles de chasse au trésor.",
+          "Parcourez 104 collections d`images thématiques couvrant les animaux, la nourriture, les véhicules, la nature, les professions, les fêtes, les sports, les saisons et des dizaines d`autres. Chaque thème fournit un ensemble coordonné d'illustrations colorées qui peuplent la grille 5×5 comme repères visuels. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. Cliquez sur une image pour l`ajouter à votre puzzle. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l`Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos puzzles de chasse au trésor.",
       },
       {
         title: "En-tête thématique auto-généré avec titre doré dans 11 langues",
@@ -128,7 +128,7 @@ const content: AppContent = {
       {
         title: "Collections saisonnières de chasse au trésor",
         description:
-          "Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d'été et bien d'autres. Créez des collections de chasse au trésor limitées dans le temps qui correspondent aux pics d'achats saisonniers. Lancez les packs Halloween en septembre, les collections Noël en octobre et les packs Saint-Valentin en janvier. Incluez les directions simples et cardinales dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers permettent des prix plus élevés pendant leurs fenêtres de pic et génèrent des raisons naturelles d`achats récurrents.",
+          "Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d`été et bien d'autres. Créez des collections de chasse au trésor limitées dans le temps qui correspondent aux pics d`achats saisonniers. Lancez les packs Halloween en septembre, les collections Noël en octobre et les packs Saint-Valentin en janvier. Incluez les directions simples et cardinales dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers permettent des prix plus élevés pendant leurs fenêtres de pic et génèrent des raisons naturelles d`achats récurrents.",
         platform: "Etsy / Amazon KDP / Gumroad (saisonnier)",
       },
     ],
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux types de direction, la grille de coordonnées 5×5, la génération de puzzle à 6 images, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux types de direction, la grille de coordonnées 5×5, la génération de puzzle à 6 images, le corrigé auto-généré, la bibliothèque d`images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

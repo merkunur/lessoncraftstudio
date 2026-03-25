@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: "Cinque tipi di pattern ripetitivi per difficoltà progressiva",
         description:
-          "Cinque tipi di pattern coprono l`intero spettro di complessità delle sequenze ripetitive. AB alterna due elementi nel pattern più semplice possibile. AAB e ABB introducono raggruppamenti asimmetrici dove un elemento appare due volte prima o dopo l'altro. ABC ruota tre elementi diversi, obbligando gli utenti a seguire un'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento in un ciclo esteso. Questa progressione crea una scala di difficoltà naturale dall'alternanza semplice nella scuola dell`infanzia alle sequenze avanzate con più elementi — offrendo ai venditori un asse di differenziazione integrato per pacchetti di prodotti per livelli.",
+          "Cinque tipi di pattern coprono l`intero spettro di complessità delle sequenze ripetitive. AB alterna due elementi nel pattern più semplice possibile. AAB e ABB introducono raggruppamenti asimmetrici dove un elemento appare due volte prima o dopo l`altro. ABC ruota tre elementi diversi, obbligando gli utenti a seguire un'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento in un ciclo esteso. Questa progressione crea una scala di difficoltà naturale dall`alternanza semplice nella scuola dell`infanzia alle sequenze avanzate con più elementi — offrendo ai venditori un asse di differenziazione integrato per pacchetti di prodotti per livelli.",
       },
       {
         title: "Numero di indizi regolabile da 4 a 10 per il controllo della difficoltà",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il Generatore Treno dei Modelli è sensibile alla lingua?",
       answer:
-        "No. Il Treno dei Modelli è un`applicazione puramente visiva — le schede contengono solo immagini nei vagoni con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda in sé. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.",
+        "No. Il Treno dei Modelli è un`applicazione puramente visiva — le schede contengono solo immagini nei vagoni con zero testo nell`output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda in sé. La Licenza Commerciale include 10 temi colorati; l`Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.",
     },
     {
       question: "Posso vendere schede create con questo strumento su Etsy e Amazon KDP?",

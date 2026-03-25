@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Définir la mise en page',
         description:
-          "Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage ou toute dimension personnalisée. Sélectionnez une couleur de fond, choisissez un thème de fond décoratif depuis la bibliothèque d`images et ajustez son opacité pour garder les lignes d'écriture lisibles. Ajoutez un cadre de bordure assorti avec un contrôle d'opacité indépendant. Ces choix de mise en page donnent à vos fiches d'écriture une apparence soignée et professionnelle avant d`ajouter la moindre ligne de pratique.",
+          "Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage ou toute dimension personnalisée. Sélectionnez une couleur de fond, choisissez un thème de fond décoratif depuis la bibliothèque d`images et ajustez son opacité pour garder les lignes d`écriture lisibles. Ajoutez un cadre de bordure assorti avec un contrôle d'opacité indépendant. Ces choix de mise en page donnent à vos fiches d`écriture une apparence soignée et professionnelle avant d`ajouter la moindre ligne de pratique.",
       },
       {
         title: "Ajouter des lignes et choisir le mode de pratique par ligne",
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Télécharger en JPEG ou PDF',
         description:
-          "Ouvrez le menu Téléchargement et exportez votre fiche d`écriture en JPEG haute résolution ou en PDF prêt à imprimer. Le moteur d'export rend à une échelle 6× (~300 DPI) pour que les lettres et les lignes de guidage s'impriment de manière nette et précise. Activez l'export en niveaux de gris pour des versions économiques en encre idéales pour l'impression en volume. Il n'y a pas de corrigé pour les fiches d`écriture — les modes de pratique eux-mêmes servent de guide. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
+          "Ouvrez le menu Téléchargement et exportez votre fiche d`écriture en JPEG haute résolution ou en PDF prêt à imprimer. Le moteur d`export rend à une échelle 6× (~300 DPI) pour que les lettres et les lignes de guidage s`impriment de manière nette et précise. Activez l'export en niveaux de gris pour des versions économiques en encre idéales pour l`impression en volume. Il n`y a pas de corrigé pour les fiches d`écriture — les modes de pratique eux-mêmes servent de guide. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Trois modes de pratique progressifs : Tracé, Tracé Progressif et Copie Guidée",
         description:
-          "Les trois modes de pratique créent une progression d`apprentissage naturelle sur une seule fiche. Le mode Tracé fournit des contours de lettres pleins que les utilisateurs suivent directement — un support visuel complet pour les lettres nouvelles ou non familières. Le Tracé Progressif commence avec des lettres pleines du côté gauche de la ligne et réduit progressivement leur visibilité vers la droite, renforçant la confiance à mesure que les utilisateurs s'appuient moins sur le guide à chaque répétition. La Copie Guidée ne montre qu'un contour léger, exigeant une formation de lettres quasi-autonome avec un support visuel minimal. Cette progression tracé-vers-copie reproduit les méthodologies éprouvées d'enseignement de l`écriture et offre aux vendeurs un axe de différenciation intégré pour des lots de produits par niveaux.",
+          "Les trois modes de pratique créent une progression d`apprentissage naturelle sur une seule fiche. Le mode Tracé fournit des contours de lettres pleins que les utilisateurs suivent directement — un support visuel complet pour les lettres nouvelles ou non familières. Le Tracé Progressif commence avec des lettres pleines du côté gauche de la ligne et réduit progressivement leur visibilité vers la droite, renforçant la confiance à mesure que les utilisateurs s`appuient moins sur le guide à chaque répétition. La Copie Guidée ne montre qu'un contour léger, exigeant une formation de lettres quasi-autonome avec un support visuel minimal. Cette progression tracé-vers-copie reproduit les méthodologies éprouvées d`enseignement de l`écriture et offre aux vendeurs un axe de différenciation intégré pour des lots de produits par niveaux.",
       },
       {
         title: "Ordre des traits guidé par des flèches pour une formation correcte des lettres",
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: "Cinq styles de police incluant imprimé et cursive",
         description:
-          "Choisissez parmi cinq styles de police distincts par ligne : Imprimé Standard pour les lettres bâtons classiques, Imprimé Standard Fléché avec des guides d`ordre des traits numérotés, Imprimé Tracé pour les lettres en pointillés conçues pour la pratique du tracé, Imprimé Tracé Fléché combinant les contours en pointillés avec les flèches d'ordre des traits, et Cursive (Great Vibes) pour la pratique de l'écriture liée. Chaque style correspond à une étape différente du développement de l'écriture. Combinez plusieurs styles de police sur une seule fiche — lettres fléchées en haut pour l`instruction, lettres en tracé au milieu pour la pratique, et imprimé standard en bas comme référence.",
+          "Choisissez parmi cinq styles de police distincts par ligne : Imprimé Standard pour les lettres bâtons classiques, Imprimé Standard Fléché avec des guides d`ordre des traits numérotés, Imprimé Tracé pour les lettres en pointillés conçues pour la pratique du tracé, Imprimé Tracé Fléché combinant les contours en pointillés avec les flèches d`ordre des traits, et Cursive (Great Vibes) pour la pratique de l'écriture liée. Chaque style correspond à une étape différente du développement de l`écriture. Combinez plusieurs styles de police sur une seule fiche — lettres fléchées en haut pour l`instruction, lettres en tracé au milieu pour la pratique, et imprimé standard en bas comme référence.",
       },
       {
         title: "Exercices de tracés de pré-écriture pour le développement de la motricité fine",
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: "Intégration de la Bibliothèque d'Images avec 104 collections thématiques",
         description:
-          "Accédez à plus de 3 100 illustrations réparties dans 104 collections thématiques — animaux, nourriture, véhicules, nature, métiers et des dizaines d`autres. En mode Lettre Initiale, les utilisateurs pratiquent l'écriture de la première lettre de chaque nom d'image avec l'image comme référence visuelle. En mode Nom Complet, les utilisateurs écrivent le mot entier, reliant la pratique d'écriture à l'enrichissement du vocabulaire. L'intégration d'images thématiques rend les fiches d`écriture plus engageantes que des pages de pratique vierges et crée des opportunités naturelles de regroupement par thème (animaux de la ferme, créatures marines, dinosaures) pour les listages de places de marché.",
+          "Accédez à plus de 3 100 illustrations réparties dans 104 collections thématiques — animaux, nourriture, véhicules, nature, métiers et des dizaines d`autres. En mode Lettre Initiale, les utilisateurs pratiquent l`écriture de la première lettre de chaque nom d`image avec l`image comme référence visuelle. En mode Nom Complet, les utilisateurs écrivent le mot entier, reliant la pratique d'écriture à l`enrichissement du vocabulaire. L`intégration d`images thématiques rend les fiches d`écriture plus engageantes que des pages de pratique vierges et crée des opportunités naturelles de regroupement par thème (animaux de la ferme, créatures marines, dinosaures) pour les listages de places de marché.",
       },
       {
         title: "Export PDF et JPEG prêt à imprimer à haute résolution",
         description:
-          "Téléchargez les fiches en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d`export rend avec un multiplicateur 6×, produisant une sortie à ~300 DPI sur les formats de page standard — essentiel pour les fiches d'écriture où les lignes de guidage fines et les détails des lettres doivent s'imprimer de manière nette. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage et les dimensions personnalisées sont tous pris en charge. Activez l'export en niveaux de gris pour des versions économiques en encre idéales pour l`impression en volume ou les cahiers noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
+          "Téléchargez les fiches en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d`export rend avec un multiplicateur 6×, produisant une sortie à ~300 DPI sur les formats de page standard — essentiel pour les fiches d`écriture où les lignes de guidage fines et les détails des lettres doivent s'imprimer de manière nette. Les formats Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage et les dimensions personnalisées sont tous pris en charge. Activez l`export en niveaux de gris pour des versions économiques en encre idéales pour l`impression en volume ou les cahiers noir et blanc. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
       },
       {
         title: "Édition complète sur canevas avec outils texte et décoration",
@@ -115,7 +115,7 @@ const content: AppContent = {
       {
         title: "Cahiers d'écriture sur Amazon KDP",
         description:
-          "Compilez 80 à 120 pages de pratique d`écriture dans un cahier imprimé formaté pour Amazon KDP. Structurez le livre comme une progression d'apprentissage : le chapitre 1 couvre les tracés de pré-écriture, le chapitre 2 introduit les majuscules avec l'ordre des traits fléché en mode Tracé, le chapitre 3 reprend les majuscules en mode Tracé Progressif, le chapitre 4 introduit les minuscules, et le chapitre 5 avance à la Copie Guidée avec des mots complets. Utilisez l'indépendance ligne par ligne pour varier les modes au sein des chapitres. Les cahiers d'écriture se vendent régulièrement toute l'année et bénéficient du modèle d`impression à la demande de KDP — aucun stock nécessaire.",
+          "Compilez 80 à 120 pages de pratique d`écriture dans un cahier imprimé formaté pour Amazon KDP. Structurez le livre comme une progression d`apprentissage : le chapitre 1 couvre les tracés de pré-écriture, le chapitre 2 introduit les majuscules avec l`ordre des traits fléché en mode Tracé, le chapitre 3 reprend les majuscules en mode Tracé Progressif, le chapitre 4 introduit les minuscules, et le chapitre 5 avance à la Copie Guidée avec des mots complets. Utilisez l'indépendance ligne par ligne pour varier les modes au sein des chapitres. Les cahiers d`écriture se vendent régulièrement toute l`année et bénéficient du modèle d`impression à la demande de KDP — aucun stock nécessaire.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Outil de pratique d'écriture pour la vente et le soutien scolaire",
         description:
-          "Utilisez le mode Texte Personnalisé pour créer des fiches d`écriture pour n'importe quel mot, phrase ou texte — mots d'orthographe hebdomadaires, prénoms des utilisateurs, mots de vocabulaire ou termes spécifiques à une matière. Définissez le mode de pratique selon les capacités de chaque utilisateur : mode Tracé pour le nouveau contenu, Tracé Progressif pour développer la fluidité, Copie Guidée pour la révision quasi-maîtrisée. Sélectionnez les polices fléchées pour les utilisateurs ayant besoin de l'instruction de l'ordre des traits. Imprimez des ensembles personnalisés en quelques minutes pour des petits groupes ou des classes entières. L'indépendance ligne par ligne signifie qu`une seule fiche peut servir plusieurs niveaux simultanément — les lignes du haut tracent les nouveaux mots tandis que les lignes du bas pratiquent les mots familiers.",
+          "Utilisez le mode Texte Personnalisé pour créer des fiches d`écriture pour n`importe quel mot, phrase ou texte — mots d`orthographe hebdomadaires, prénoms des utilisateurs, mots de vocabulaire ou termes spécifiques à une matière. Définissez le mode de pratique selon les capacités de chaque utilisateur : mode Tracé pour le nouveau contenu, Tracé Progressif pour développer la fluidité, Copie Guidée pour la révision quasi-maîtrisée. Sélectionnez les polices fléchées pour les utilisateurs ayant besoin de l'instruction de l`ordre des traits. Imprimez des ensembles personnalisés en quelques minutes pour des petits groupes ou des classes entières. L`indépendance ligne par ligne signifie qu`une seule fiche peut servir plusieurs niveaux simultanément — les lignes du haut tracent les nouveaux mots tandis que les lignes du bas pratiquent les mots familiers.",
         platform: "Classe / Soutien Scolaire / École à la Maison",
       },
     ],
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Le Générateur d'Écriture est-il sensible à la langue ?",
       answer:
-        "Non. Le Générateur d`Écriture est un outil de pratique d'écriture visuelle — les formes des lettres, les flèches d'ordre des traits et les modes de pratique ne changent pas selon la langue. Les étiquettes de l'interface se traduisent dans les 11 langues prises en charge, et la bibliothèque d'images fournit des noms d'images localisés pour les sources de contenu, mais la fonctionnalité principale de pratique d'écriture est la même quelle que soit la langue. La Licence Commerciale inclut 10 thèmes en couleur ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
+        "Non. Le Générateur d`Écriture est un outil de pratique d`écriture visuelle — les formes des lettres, les flèches d`ordre des traits et les modes de pratique ne changent pas selon la langue. Les étiquettes de l`interface se traduisent dans les 11 langues prises en charge, et la bibliothèque d'images fournit des noms d`images localisés pour les sources de contenu, mais la fonctionnalité principale de pratique d`écriture est la même quelle que soit la langue. La Licence Commerciale inclut 10 thèmes en couleur ; l`Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
     },
     {
       question: "Puis-je vendre des fiches d'écriture créées avec cet outil sur Etsy et Amazon KDP ?",
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode de pratique, chaque style de police, les tracés de pré-écriture, chaque source de contenu, chaque format d'export et chaque taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode de pratique, chaque style de police, les tracés de pré-écriture, chaque source de contenu, chaque format d`export et chaque taille de page avant d'acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

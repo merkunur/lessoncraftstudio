@@ -110,11 +110,11 @@ export const APP_NAME_TRANSLATIONS: Record<AppId, Record<Locale, string>> = {
     pt: 'Jogo de correspondência', nl: 'Koppelen', da: 'Parspil', sv: 'Para ihop', no: 'Finn par', fi: 'Yhdistäminen',
   },
   'grid-match': {
-    en: `Grid Match', de: 'Gitter-Zuordnung', fr: 'Grille d'association', es: 'Cuadrícula de asociación', it: 'Griglia di abbinamento`,
+    en: `Grid Match`, de: `Gitter-Zuordnung`, fr: `Grille d'association`, es: `Cuadrícula de asociación`, it: `Griglia di abbinamento`,
     pt: 'Grade de correspondência', nl: 'Raster koppelen', da: 'Gittermatching', sv: 'Rutmatchning', no: 'Rutematching', fi: 'Ruudukkomatch',
   },
   'shadow-match': {
-    en: `Shadow Match', de: 'Schattenspiel', fr: 'Jeu d'ombres', es: 'Sombras y figuras', it: 'Abbina le ombre`,
+    en: `Shadow Match`, de: `Schattenspiel`, fr: `Jeu d'ombres`, es: `Sombras y figuras`, it: `Abbina le ombre`,
     pt: 'Combine as sombras', nl: 'Schaduw koppelen', da: 'Skyggespil', sv: 'Skuggmatchning', no: 'Skyggespill', fi: 'Varjoyhdistäminen',
   },
   'bingo': {
@@ -140,7 +140,7 @@ export const APP_NAME_TRANSLATIONS: Record<AppId, Record<Locale, string>> = {
     pt: 'Sudoku', nl: 'Sudoku', da: 'Sudoku', sv: 'Sudoku', no: 'Sudoku', fi: 'Sudoku',
   },
   'picture-path': {
-    en: `Picture Path', de: 'Bilderpfad', fr: 'Chemin d'images', es: 'Camino de imágenes', it: 'Percorso di immagini`,
+    en: `Picture Path`, de: `Bilderpfad`, fr: `Chemin d'images`, es: `Camino de imágenes`, it: `Percorso di immagini`,
     pt: 'Caminho de imagens', nl: 'Plaatjespad', da: 'Billedsti', sv: 'Bildväg', no: 'Bildesti', fi: 'Kuvapolku',
   },
 

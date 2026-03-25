@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches Thématiques avec Images Personnalisées",
-      description: "Téléversez des images personnalisées pour créer des fiches de séquences logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour les sciences, des symboles de notes musicales pour le cours de musique, des formes géométriques pour les mathématiques ou des artefacts historiques pour l`histoire-géographie. Neuf types de motifs et deux modes de question permettent d'adapter l'exercice à n'importe quel objectif pédagogique. La configuration par exercice signifie qu`une page peut combiner différentes images thématiques pour des fiches de révision interdisciplinaires.",
+      description: "Téléversez des images personnalisées pour créer des fiches de séquences logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour les sciences, des symboles de notes musicales pour le cours de musique, des formes géométriques pour les mathématiques ou des artefacts historiques pour l`histoire-géographie. Neuf types de motifs et deux modes de question permettent d`adapter l'exercice à n`importe quel objectif pédagogique. La configuration par exercice signifie qu`une page peut combiner différentes images thématiques pour des fiches de révision interdisciplinaires.",
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Ateliers par Niveaux sur Gumroad",
-      description: "Téléchargez des packs de fiches de séquences logiques sur Gumroad organisés par niveau de compétence en utilisant la configuration par exercice comme différenciateur. Le Niveau 1 propose des pages entièrement AB en case vide. Le Niveau 2 mélange AB et AAB avec les deux modes. Le Niveau 3 introduit ABC en choix multiple avec des échauffements en case vide. Le Niveau 4 combine des défis ABCD avec début aléatoire activé. Chaque niveau utilise des exercices thématiques avec corrigés séparés. L`indépendance par exercice signifie qu'une page sert d'activité d'atelier complète. Les vendeurs recherchent « fiches de reconnaissance de motifs » et trouvent peu d`options avec neuf types de motifs.",
+      description: "Téléchargez des packs de fiches de séquences logiques sur Gumroad organisés par niveau de compétence en utilisant la configuration par exercice comme différenciateur. Le Niveau 1 propose des pages entièrement AB en case vide. Le Niveau 2 mélange AB et AAB avec les deux modes. Le Niveau 3 introduit ABC en choix multiple avec des échauffements en case vide. Le Niveau 4 combine des défis ABCD avec début aléatoire activé. Chaque niveau utilise des exercices thématiques avec corrigés séparés. L`indépendance par exercice signifie qu`une page sert d'activité d`atelier complète. Les vendeurs recherchent « fiches de reconnaissance de motifs » et trouvent peu d`options avec neuf types de motifs.",
       platform: 'Gumroad',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez la Configuration par Exercice pour des Pages à Difficulté Mixte",
-      description: "L`indépendance par exercice est votre plus fort différenciateur produit. Créez des pages qui commencent facile et deviennent plus difficiles au sein d'une seule fiche : l'exercice 1 en AB case vide, l'exercice 3 en ABC choix multiple, l`exercice 5 en ABCD avec début aléatoire. Les pages à difficulté mixte démontrent une conception professionnelle réfléchie et commandent des prix plus élevés sur les places de marché que les fiches répétitives à motif unique.",
+      description: "L`indépendance par exercice est votre plus fort différenciateur produit. Créez des pages qui commencent facile et deviennent plus difficiles au sein d`une seule fiche : l'exercice 1 en AB case vide, l`exercice 3 en ABC choix multiple, l`exercice 5 en ABCD avec début aléatoire. Les pages à difficulté mixte démontrent une conception professionnelle réfléchie et commandent des prix plus élevés sur les places de marché que les fiches répétitives à motif unique.",
     },
     {
       title: "Différenciez le Format Grille du Format Train",
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: "Quelle est votre politique de remboursement ?",
-      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux neuf types de motifs, aux deux modes de question, à la configuration par exercice et à tous les formats d'export, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d`acheter.",
+      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l`outil avant d`acheter. Comme l`essai gratuit vous donne un accès complet aux neuf types de motifs, aux deux modes de question, à la configuration par exercice et à tous les formats d'export, nous n`offrons pas de remboursement sur les achats de licence. Assurez-vous que l`outil répond à vos besoins en utilisant l`essai gratuit avant d`acheter.",
     },
   ],
 
@@ -205,8 +205,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: "generateur-train-suites-logiques", anchorText: "Créateur de Fiches Train de Suites Logiques" },
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: "Créateur de Fiches Dessin sur Quadrillage" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
-    { pageType: `tool', slug: 'generateur-fiches-intrus', anchorText: "Créateur de Fiches de l`Intrus" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-intrus`, anchorText: "Créateur de Fiches de l`Intrus" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],

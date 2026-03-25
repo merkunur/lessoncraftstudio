@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: "Configurer le nombre d'indices et les champs nom/date",
         description:
-          "Réglez le nombre d`indices visibles de 4 à 10 pour contrôler la difficulté de la fiche. Les 3 premiers wagons sont toujours affichés, et le wagon manquant est placé dynamiquement parmi les positions restantes. Afficher 10 indices ne laisse qu'un seul wagon vide parmi 10 visibles — le motif est très évident, idéal pour les débutants. N'afficher que 4 indices oblige les utilisateurs à identifier le motif à partir d'informations minimales — un véritable défi de raisonnement. Activez les champs optionnels de nom et date découpables pour l`identification des utilisateurs sur les fiches imprimées.",
+          "Réglez le nombre d`indices visibles de 4 à 10 pour contrôler la difficulté de la fiche. Les 3 premiers wagons sont toujours affichés, et le wagon manquant est placé dynamiquement parmi les positions restantes. Afficher 10 indices ne laisse qu`un seul wagon vide parmi 10 visibles — le motif est très évident, idéal pour les débutants. N'afficher que 4 indices oblige les utilisateurs à identifier le motif à partir d`informations minimales — un véritable défi de raisonnement. Activez les champs optionnels de nom et date découpables pour l`identification des utilisateurs sur les fiches imprimées.",
       },
       {
         title: "Sélectionner les images et ajouter des décorations",
@@ -115,13 +115,13 @@ const content: AppContent = {
       {
         title: "Cahiers d'apprentissage précoce sur Amazon KDP",
         description:
-          "Compilez 60 à 100 exercices de trains de suites logiques dans un cahier imprimé formaté pour Amazon KDP. Structurez le livre comme une progression de complexité : le chapitre 1 couvre les motifs AB avec beaucoup d`indices, le chapitre 2 introduit AAB et ABB, le chapitre 3 avance aux motifs ABC à trois éléments, le chapitre 4 présente les séquences étendues AABB, et le chapitre 5 réduit le nombre d'indices sur tous les types de motifs pour les pages de défi. Le format entièrement visuel avec des images sur les wagons et zéro texte signifie qu'aucune traduction n'est nécessaire pour les places de marché KDP internationales — publiez le même intérieur dans chaque pays. Les cahiers de trains de suites logiques remplissent une niche spécifique de mathématiques précoces avec une demande constante toute l`année.",
+          "Compilez 60 à 100 exercices de trains de suites logiques dans un cahier imprimé formaté pour Amazon KDP. Structurez le livre comme une progression de complexité : le chapitre 1 couvre les motifs AB avec beaucoup d`indices, le chapitre 2 introduit AAB et ABB, le chapitre 3 avance aux motifs ABC à trois éléments, le chapitre 4 présente les séquences étendues AABB, et le chapitre 5 réduit le nombre d`indices sur tous les types de motifs pour les pages de défi. Le format entièrement visuel avec des images sur les wagons et zéro texte signifie qu'aucune traduction n`est nécessaire pour les places de marché KDP internationales — publiez le même intérieur dans chaque pays. Les cahiers de trains de suites logiques remplissent une niche spécifique de mathématiques précoces avec une demande constante toute l`année.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: "Ateliers différenciés de mathématiques et reconnaissance visuelle pour Gumroad",
         description:
-          "Construisez des sets de pratique de reconnaissance de motifs par niveaux en utilisant la complexité comme axe de différenciation : Niveau 1 (motifs AB, 8–10 indices), Niveau 2 (motifs AAB/ABB, 6–8 indices), Niveau 3 (motifs ABC, 5–6 indices), et Niveau 4 (motifs AABB, 4–5 indices). Chaque niveau cible une demande cognitive différente — de la reconnaissance d`alternance simple à l'identification de séquences multi-éléments complexes à partir d'informations limitées. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d'atelier en ligne. Regroupez chaque niveau avec des exercices thématiques et des corrigés séparés pour la commodité de l`vendeur.",
+          "Construisez des sets de pratique de reconnaissance de motifs par niveaux en utilisant la complexité comme axe de différenciation : Niveau 1 (motifs AB, 8–10 indices), Niveau 2 (motifs AAB/ABB, 6–8 indices), Niveau 3 (motifs ABC, 5–6 indices), et Niveau 4 (motifs AABB, 4–5 indices). Chaque niveau cible une demande cognitive différente — de la reconnaissance d`alternance simple à l`identification de séquences multi-éléments complexes à partir d'informations limitées. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d`atelier en ligne. Regroupez chaque niveau avec des exercices thématiques et des corrigés séparés pour la commodité de l`vendeur.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Le générateur Train de Suites Logiques est-il sensible à la langue ?",
       answer:
-        "Non. Train de Suites Logiques est une application purement visuelle — les fiches ne contiennent que des images sur les wagons avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l'interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
+        "Non. Train de Suites Logiques est une application purement visuelle — les fiches ne contiennent que des images sur les wagons avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l`interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l`Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",

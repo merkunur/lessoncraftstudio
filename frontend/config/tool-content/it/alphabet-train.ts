@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: `app', slug: 'treno-alfabeto-schede', anchorText: "Treno dell`Alfabeto Schede — Dettagli Completi del Prodotto" },
+    { pageType: `app`, slug: 'treno-alfabeto-schede`, anchorText: "Treno dell`Alfabeto Schede — Dettagli Completi del Prodotto" },
     { pageType: 'tool', slug: "generatore-schede-preposizioni", anchorText: "Generatore Schede Preposizioni" },
     { pageType: 'tool', slug: 'generatore-indovina-parole', anchorText: 'Generatore Indovina Parole' },
     { pageType: 'tool', slug: 'generatore-parole-mescolate', anchorText: 'Generatore Parole Mescolate' },

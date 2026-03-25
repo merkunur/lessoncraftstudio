@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: "Lots Multi-Formats d'Apprentissage Visuel",
-      description: "Associez les fiches train de suites logiques avec les fiches de séquences logiques en grille, les fiches d`association, les fiches de l'intrus et les fiches de discrimination visuelle en utilisant des thèmes coordonnés. Chaque format exerce une compétence cognitive visuelle différente : le Train de Suites Logiques développe la reconnaissance de séquences dans un format distinctif en train, les grilles de motifs utilisent le format standard en lignes et colonnes, l'association développe l'appariement visuel, l'intrus développe la classification. Les lots visuels multi-formats se vendent plus cher qu'un seul type d`activité et offrent aux utilisateurs une pratique variée.",
+      description: "Associez les fiches train de suites logiques avec les fiches de séquences logiques en grille, les fiches d`association, les fiches de l`intrus et les fiches de discrimination visuelle en utilisant des thèmes coordonnés. Chaque format exerce une compétence cognitive visuelle différente : le Train de Suites Logiques développe la reconnaissance de séquences dans un format distinctif en train, les grilles de motifs utilisent le format standard en lignes et colonnes, l`association développe l'appariement visuel, l`intrus développe la classification. Les lots visuels multi-formats se vendent plus cher qu`un seul type d`activité et offrent aux utilisateurs une pratique variée.",
     },
     {
       title: "Trains de Suites Logiques avec Images Personnalisées par Sujet",
-      description: "Téléversez des images personnalisées pour créer des fiches train de suites logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour une leçon de sciences, des symboles de notes musicales pour un cours de musique, des formes géométriques pour une unité de mathématiques, ou des images d`artefacts historiques pour l'histoire-géographie. Les cinq types de motifs et le nombre d'indices ajustable vous permettent d'adapter l'exercice à n'importe quel objectif pédagogique. Les images personnalisées vous permettent de cibler des niches d`acheteurs spécifiques sur Etsy.fr et Gumroad là où les images thématiques seules ne suffisent pas.",
+      description: "Téléversez des images personnalisées pour créer des fiches train de suites logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour une leçon de sciences, des symboles de notes musicales pour un cours de musique, des formes géométriques pour une unité de mathématiques, ou des images d`artefacts historiques pour l`histoire-géographie. Les cinq types de motifs et le nombre d`indices ajustable vous permettent d'adapter l`exercice à n`importe quel objectif pédagogique. Les images personnalisées vous permettent de cibler des niches d`acheteurs spécifiques sur Etsy.fr et Gumroad là où les images thématiques seules ne suffisent pas.",
     },
   ],
 
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les cinq types de motifs, le nombre d'indices ajustable de 4 à 10, la Bibliothèque d'Images, la génération de corrigé et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les cinq types de motifs, le nombre d`indices ajustable de 4 à 10, la Bibliothèque d'Images, la génération de corrigé et tous les formats d`export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les cinq types de motifs ?",
@@ -205,8 +205,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: "generateur-fiches-sequences-logiques", anchorText: "Créateur de Fiches Séquences Logiques" },
     { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: "Créateur de Fiches Dessin sur Quadrillage" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
-    { pageType: `tool', slug: 'generateur-fiches-intrus', anchorText: "Créateur de Fiches de l`Intrus" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-intrus`, anchorText: "Créateur de Fiches de l`Intrus" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],

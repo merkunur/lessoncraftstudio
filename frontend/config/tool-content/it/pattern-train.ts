@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: "Bundle di Apprendimento Visivo Multi-Formato",
-      description: "Abbina schede treno delle sequenze con schede sequenze a griglia, schede di abbinamento, trova l`intruso e attività di discriminazione visiva usando temi coordinati. Ogni formato esercita un'abilità cognitiva visiva diversa: il Treno delle Sequenze costruisce il riconoscimento degli schemi in un distintivo layout a treno, le griglie usano il formato standard a righe e colonne, l'abbinamento costruisce l'accoppiamento visivo, trova l`intruso costruisce la negozificazione. I bundle visivi multi-formato si vendono a più dei singoli tipi di attività e offrono agli utenti pratica variegata.",
+      description: "Abbina schede treno delle sequenze con schede sequenze a griglia, schede di abbinamento, trova l`intruso e attività di discriminazione visiva usando temi coordinati. Ogni formato esercita un`abilità cognitiva visiva diversa: il Treno delle Sequenze costruisce il riconoscimento degli schemi in un distintivo layout a treno, le griglie usano il formato standard a righe e colonne, l'abbinamento costruisce l`accoppiamento visivo, trova l`intruso costruisce la negozificazione. I bundle visivi multi-formato si vendono a più dei singoli tipi di attività e offrono agli utenti pratica variegata.",
     },
     {
       title: "Treni Sequenze con Immagini Personalizzate per Argomenti Specifici",
@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-sequenze', anchorText: 'Generatore Schede Sequenze' },
     { pageType: 'tool', slug: 'generatore-disegno-griglia', anchorText: 'Generatore Disegno e Colore' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
-    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l`Intruso" },
+    { pageType: `tool`, slug: 'generatore-schede-intruso`, anchorText: "Generatore Schede Trova l`Intruso" },
     { pageType: 'tool', slug: "generatore-discriminazione-visiva", anchorText: "Generatore Discriminazione Visiva" },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
   ],

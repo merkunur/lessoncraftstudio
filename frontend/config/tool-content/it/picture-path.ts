@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: "Quali sono le tre modalità di gioco e come si differenziano?",
-      answer: "Il generatore offre tre modalità distinte in un unico strumento. Percorso con Immagini crea una griglia di immagini dove gli utenti seguono il percorso corretto dall`inizio alla fine identificando le immagini del percorso tra i distrattori — ideale per i più piccoli e la discriminazione visiva. Labirinto negozico genera labirinti con muri usando l'algoritmo LPF (Percorso Più Lungo Per Primo) con immagini collezionabili disseminate nei corridoi, griglie configurabili (15×15–20×20), e da 1 a 3 percorsi con blocco dei vicoli ciechi. Scegli il Percorso Giusto presenta labirinti a tre percorsi con quattro opzioni direzionali (dal basso verso l'alto, dall'alto verso il basso, da sinistra a destra, da destra a sinistra) dove gli utenti identificano l`unica rotta corretta tra le alternative. Ogni modalità offre una sfida cognitiva diversa dalla stessa libreria di immagini.",
+      answer: "Il generatore offre tre modalità distinte in un unico strumento. Percorso con Immagini crea una griglia di immagini dove gli utenti seguono il percorso corretto dall`inizio alla fine identificando le immagini del percorso tra i distrattori — ideale per i più piccoli e la discriminazione visiva. Labirinto negozico genera labirinti con muri usando l`algoritmo LPF (Percorso Più Lungo Per Primo) con immagini collezionabili disseminate nei corridoi, griglie configurabili (15×15–20×20), e da 1 a 3 percorsi con blocco dei vicoli ciechi. Scegli il Percorso Giusto presenta labirinti a tre percorsi con quattro opzioni direzionali (dal basso verso l'alto, dall`alto verso il basso, da sinistra a destra, da destra a sinistra) dove gli utenti identificano l`unica rotta corretta tra le alternative. Ogni modalità offre una sfida cognitiva diversa dalla stessa libreria di immagini.",
     },
     {
       question: "Come funziona l'algoritmo LPF per i labirinti?",
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: "Com'è il design dell'intestazione generata automaticamente?",
-      answer: "Ogni scheda include un`intestazione stilizzata con un bordo esterno arancione (tratto 8px) e margini di 34px. Il titolo \"Percorso con Immagini\" e la descrizione \"Segui il percorso dall'inizio alla fine!\" sono tradotti automaticamente in tutte le 11 lingue supportate. Le schede in formato verticale mostrano un'intestazione di 240px; le schede in formato orizzontale usano un layout compatto di 165px. L'intestazione renderizza testo localizzato per italiano, inglese, tedesco (Bilderpfad), francese (Chemin d`Images), spagnolo (Camino de Imágenes) e tutte le altre lingue supportate.",
+      answer: "Ogni scheda include un`intestazione stilizzata con un bordo esterno arancione (tratto 8px) e margini di 34px. Il titolo \"Percorso con Immagini\" e la descrizione \"Segui il percorso dall`inizio alla fine!\" sono tradotti automaticamente in tutte le 11 lingue supportate. Le schede in formato verticale mostrano un'intestazione di 240px; le schede in formato orizzontale usano un layout compatto di 165px. L`intestazione renderizza testo localizzato per italiano, inglese, tedesco (Bilderpfad), francese (Chemin d`Images), spagnolo (Camino de Imágenes) e tutte le altre lingue supportate.",
     },
     {
       question: "Il Generatore Percorso con Immagini è sensibile alla lingua?",
@@ -208,7 +208,7 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'percorso-illustrato-schede', anchorText: "Puzzle Labirinto con Percorso Immagini — Dettagli Completi del Prodotto" },
     { pageType: 'tool', slug: 'generatore-sudoku-bambini', anchorText: 'Generatore Sudoku Illustrato' },
     { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: 'Generatore Pezzi Mancanti' },
-    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Trova l'Intruso` },
+    { pageType: `tool`, slug: `generatore-schede-intruso', anchorText: `Generatore Trova l`Intruso` },
     { pageType: 'tool', slug: 'generatore-puzzle-griglia', anchorText: 'Generatore Puzzle Griglia' },
     { pageType: 'tool', slug: 'generatore-cerca-e-conta', anchorText: 'Generatore Cerca e Conta' },
     { pageType: 'tool', slug: 'generatore-cerca-parole', anchorText: 'Generatore Cerca Parole' },

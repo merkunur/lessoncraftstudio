@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches d'Association pour Ateliers en ligne",
-      description: "Construisez des fiches d`association prêtes pour la vente avec champs nom/date, numéros d'éléments et corrigés imprimés — exactement ce que recherchent les acheteurs Gumroad. Le champ nom assure la traçabilité des utilisateurs, les numéros d'éléments facilitent la correction efficace pendant les revues de groupe, et le corrigé auto-généré fait gagner du temps de préparation. Créez des ensembles alignés sur les programmes : association d'animaux domestiques, groupes alimentaires, vocabulaire météo et animaux par habitat. Les vendeurs valorisent les activités d'association prêtes à l'emploi sans formatage supplémentaire — chaque fiche s`exporte avec tous les éléments pour la vente intégrés.",
+      description: "Construisez des fiches d`association prêtes pour la vente avec champs nom/date, numéros d`éléments et corrigés imprimés — exactement ce que recherchent les acheteurs Gumroad. Le champ nom assure la traçabilité des utilisateurs, les numéros d`éléments facilitent la correction efficace pendant les revues de groupe, et le corrigé auto-généré fait gagner du temps de préparation. Créez des ensembles alignés sur les programmes : association d'animaux domestiques, groupes alimentaires, vocabulaire météo et animaux par habitat. Les vendeurs valorisent les activités d`association prêtes à l`emploi sans formatage supplémentaire — chaque fiche s`exporte avec tous les éléments pour la vente intégrés.",
     },
     {
       title: "Collections d'Association de Vocabulaire Multilingues",
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: "Boutique Etsy de Fiches d'Association Quatre Modes",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches d`association organisées par mode et par thème en utilisant les 104 collections d'images. Chaque thème supporte quatre listings de produits distincts — Lettre Initiale, Image+Mot, Mixte et Mot Personnalisé — multipliant votre catalogue à partir d'un seul ensemble d'images. Regroupez 15 à 20 fiches d`association par listing avec les corrigés auto-générés inclus dans chaque pack. Le corrigé avec lignes de liaison est un argument de vente critique qui différencie vos listings de la concurrence. Prix : packs par mode à 3 €–5 € et lots multi-modes par thème à 8 €–12 €.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches d`association organisées par mode et par thème en utilisant les 104 collections d`images. Chaque thème supporte quatre listings de produits distincts — Lettre Initiale, Image+Mot, Mixte et Mot Personnalisé — multipliant votre catalogue à partir d'un seul ensemble d`images. Regroupez 15 à 20 fiches d`association par listing avec les corrigés auto-générés inclus dans chaque pack. Le corrigé avec lignes de liaison est un argument de vente critique qui différencie vos listings de la concurrence. Prix : packs par mode à 3 €–5 € et lots multi-modes par thème à 8 €–12 €.",
       platform: 'Etsy.fr',
     },
     {
@@ -102,12 +102,12 @@ const content: ToolContent = {
     },
     {
       title: "Packs d'Ateliers d'Association pour Gumroad",
-      description: "Téléversez des packs d`activités d'association sur Gumroad avec les champs nom/date, les numéros d'éléments et les corrigés auto-générés comme arguments de vente clés. Les vendeurs recherchant des activités d'ateliers d'association valorisent les fiches immédiatement utilisables en ligne avec identification de l'utilisateur intégrée. Organisez par sujet de programme : association d'animaux de la ferme, groupes alimentaires, vocabulaire météo et animaux par habitat. Chaque fiche inclut son propre corrigé avec lignes de liaison, éliminant le temps de préparation. L'en-tête localisé « Trouve les Paires ! » s`adapte à 11 langues pour les classes bilingues et internationales.",
+      description: "Téléversez des packs d`activités d`association sur Gumroad avec les champs nom/date, les numéros d`éléments et les corrigés auto-générés comme arguments de vente clés. Les vendeurs recherchant des activités d`ateliers d'association valorisent les fiches immédiatement utilisables en ligne avec identification de l`utilisateur intégrée. Organisez par sujet de programme : association d`animaux de la ferme, groupes alimentaires, vocabulaire météo et animaux par habitat. Chaque fiche inclut son propre corrigé avec lignes de liaison, éliminant le temps de préparation. L`en-tête localisé « Trouve les Paires ! » s`adapte à 11 langues pour les classes bilingues et internationales.",
       platform: 'Gumroad',
     },
     {
       title: "Tunnel de Vente Pinterest pour Fiches d'Association",
-      description: "Les fiches d`association avec leur format à deux colonnes de type relier par un trait font des épingles Pinterest visuellement distinctes — la mise en page structurée avec des images colorées, les numéros d'éléments et l'en-tête « Trouve les Paires ! » créent un format éducatif immédiatement reconnaissable. Épinglez des fiches d'exemple montrant différents modes : Lettre Initiale pour les épingles phonétiques, Image+Mot pour les épingles vocabulaire, Mot Personnalisé pour les épingles orthographe. Créez des séries d'épingles distinctes pour « fiches d'association animaux », « activités d`association fêtes » et « association initiation à la lecture ». Reliez chaque épingle à vos listings Etsy ou Gumroad.",
+      description: "Les fiches d`association avec leur format à deux colonnes de type relier par un trait font des épingles Pinterest visuellement distinctes — la mise en page structurée avec des images colorées, les numéros d`éléments et l`en-tête « Trouve les Paires ! » créent un format éducatif immédiatement reconnaissable. Épinglez des fiches d'exemple montrant différents modes : Lettre Initiale pour les épingles phonétiques, Image+Mot pour les épingles vocabulaire, Mot Personnalisé pour les épingles orthographe. Créez des séries d`épingles distinctes pour « fiches d`association animaux », « activités d`association fêtes » et « association initiation à la lecture ». Reliez chaque épingle à vos listings Etsy ou Gumroad.",
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: "Gamme de Produits d'Association Multilingues",
-      description: "Le Créateur de Fiches d`Association est sensible à la langue — les modes Lettre Initiale et Image+Mot produisent des mots et lettres localisés quand vous changez de langue. Les mêmes images d'animaux génèrent une association anglaise (C pour Cat), allemande (K pour Katze), française (C pour Chat) et ainsi de suite dans les 11 langues. Créez des packs d'association par langue pour chaque place de marché ou des méga-packs multilingues à des prix premium. Les vendeurs de FLE, les classes bilingues et les familles d'instruction à domicile internationales recherchent activement des fiches d`association dans leur langue maternelle.",
+      description: "Le Créateur de Fiches d`Association est sensible à la langue — les modes Lettre Initiale et Image+Mot produisent des mots et lettres localisés quand vous changez de langue. Les mêmes images d`animaux génèrent une association anglaise (C pour Cat), allemande (K pour Katze), française (C pour Chat) et ainsi de suite dans les 11 langues. Créez des packs d'association par langue pour chaque place de marché ou des méga-packs multilingues à des prix premium. Les vendeurs de FLE, les classes bilingues et les familles d`instruction à domicile internationales recherchent activement des fiches d`association dans leur langue maternelle.",
       platform: 'Etsy.fr / Gumroad',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: "Exploitez les Quatre Modes pour Multiplier Votre Catalogue",
-      description: "Chaque thème des 104 collections de la bibliothèque supporte quatre produits d`association distincts — Lettre Initiale pour la phonétique, Image+Mot pour le vocabulaire, Image/Mot Mixte pour une difficulté variée et Mot Personnalisé pour l'orthographe. Un seul ensemble d'images animaux produit quatre listings séparés ciblant quatre compétences éducatives différentes. Soit 104 thèmes multipliés par 4 modes, ce qui vous donne 416 concepts de produits potentiels à partir d'un seul générateur, chacun avec un focus éducatif et un format d`association uniques.",
+      description: "Chaque thème des 104 collections de la bibliothèque supporte quatre produits d`association distincts — Lettre Initiale pour la phonétique, Image+Mot pour le vocabulaire, Image/Mot Mixte pour une difficulté variée et Mot Personnalisé pour l`orthographe. Un seul ensemble d'images animaux produit quatre listings séparés ciblant quatre compétences éducatives différentes. Soit 104 thèmes multipliés par 4 modes, ce qui vous donne 416 concepts de produits potentiels à partir d`un seul générateur, chacun avec un focus éducatif et un format d`association uniques.",
     },
     {
       title: "Utilisez le Corrigé Automatique comme Argument de Vente Principal",
@@ -141,11 +141,11 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez le Mode Mot Personnalisé pour des Produits Éducatifs de Niche",
-      description: "Le mode Mot Personnalisé permet de saisir n`importe quel terme d'association à côté des images, ouvrant des catégories de produits de niche que les autres générateurs ne peuvent pas servir. Créez des fiches d'association de mots de lecture avec des listes par niveau, des fiches de vocabulaire par matière pour les sciences et l'histoire-géographie, ou des exercices d`association en langues étrangères. Les fiches Mot Personnalisé se vendent à des prix plus élevés car le contenu est adapté à des besoins curriculaires spécifiques.",
+      description: "Le mode Mot Personnalisé permet de saisir n`importe quel terme d`association à côté des images, ouvrant des catégories de produits de niche que les autres générateurs ne peuvent pas servir. Créez des fiches d'association de mots de lecture avec des listes par niveau, des fiches de vocabulaire par matière pour les sciences et l`histoire-géographie, ou des exercices d`association en langues étrangères. Les fiches Mot Personnalisé se vendent à des prix plus élevés car le contenu est adapté à des besoins curriculaires spécifiques.",
     },
     {
       title: "Combinez les Thèmes de Fond et de Bordure pour une Présentation Premium",
-      description: "Le système indépendant de thèmes de fond et de bordure avec des curseurs d`opacité séparés permet de créer des fiches d'association visuellement soignées qui se démarquent dans les listings. Définissez un thème de fond subtil à 15–25 % d'opacité pour une chaleur visuelle sans distraire du contenu d'association. Superposez une bordure décorative à 80–100 % d`opacité pour un encadrement professionnel. Un style cohérent à travers un lot crée un aspect produit unifié que les acheteurs associent à la qualité et qui justifie des prix premium.",
+      description: "Le système indépendant de thèmes de fond et de bordure avec des curseurs d`opacité séparés permet de créer des fiches d`association visuellement soignées qui se démarquent dans les listings. Définissez un thème de fond subtil à 15–25 % d'opacité pour une chaleur visuelle sans distraire du contenu d`association. Superposez une bordure décorative à 80–100 % d`opacité pour un encadrement professionnel. Un style cohérent à travers un lot crée un aspect produit unifié que les acheteurs associent à la qualité et qui justifie des prix premium.",
     },
     {
       title: "Incluez les Champs Nom/Date pour des Produits Prêts pour la vente",
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les quatre modes d'association (Lettre Initiale, Image+Mot, Image/Mot Mixte, Mot Personnalisé), le nombre de paires configurable (4, 5 ou 6), le corrigé auto-généré avec lignes de liaison, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'en-tête localisé « Trouve les Paires ! » dans 11 langues, les thèmes de fond et de bordure avec opacité indépendante, les numéros d'éléments, les puces décoratives, les champs nom/date, l'export en niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les quatre modes d`association (Lettre Initiale, Image+Mot, Image/Mot Mixte, Mot Personnalisé), le nombre de paires configurable (4, 5 ou 6), le corrigé auto-généré avec lignes de liaison, les 104 collections d`images thématiques avec plus de 3 100 illustrations, l'en-tête localisé « Trouve les Paires ! » dans 11 langues, les thèmes de fond et de bordure avec opacité indépendante, les numéros d`éléments, les puces décoratives, les champs nom/date, l`export en niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les quatre modes d'association ?",
@@ -201,14 +201,14 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: `app', slug: 'association-fiches', anchorText: "Fiches d`Association — Détails Complets du Produit" },
+    { pageType: `app`, slug: 'association-fiches`, anchorText: "Fiches d`Association — Détails Complets du Produit" },
     { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: "Créateur de Fiches Puzzle Grille" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Créateur de Cartes Bingo' },
-    { pageType: `tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches Tri d`Images" },
+    { pageType: `tool`, slug: 'generateur-tri-images`, anchorText: "Créateur de Fiches Tri d`Images" },
     { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: "Créateur de Fiches Train Alphabet" },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: 'Créateur de Fiches d'Addition` },
+    { pageType: `tool`, slug: `generateur-fiches-addition', anchorText: `Créateur de Fiches d`Addition` },
   ],
 
   visuals: {

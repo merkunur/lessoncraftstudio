@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: "Générateur de Fiches d'Addition Codée",
     tagline: "Créez des puzzles cryptarithmétiques où les utilisateurs déchiffrent des codes secrets grâce à l'addition",
-    description: "Ce n`est pas une simple fiche d'addition — c'est un défi de décodage. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.",
+    description: "Ce n`est pas une simple fiche d`addition — c`est un défi de décodage. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d`un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d`images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.",
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Choisir les Opérandes par Équation",
-        description: "Sélectionnez combien de symboles apparaissent dans chaque équation d`addition : 2, 3, 4 ou Mixte. Les équations à deux opérandes conviennent aux plus jeunes utilisateurs. Les équations à trois et quatre opérandes poussent les utilisateurs plus âgés à suivre davantage d'inconnues. Le mode Mixte varie aléatoirement le nombre d'opérandes d'un exercice à l`autre pour une variété maximale.",
+        description: "Sélectionnez combien de symboles apparaissent dans chaque équation d`addition : 2, 3, 4 ou Mixte. Les équations à deux opérandes conviennent aux plus jeunes utilisateurs. Les équations à trois et quatre opérandes poussent les utilisateurs plus âgés à suivre davantage d`inconnues. Le mode Mixte varie aléatoirement le nombre d'opérandes d`un exercice à l`autre pour une variété maximale.",
       },
       {
         title: "Activer le Mode Mot Mystère (Optionnel)",
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Quelle est la différence entre le Mode Classique et le Mode Mot Mystère ?",
-      answer: "En Mode Classique, chaque image cache un nombre secret unique et les utilisateurs résolvent des équations d`addition pour déchiffrer le code. En Mode Mot Mystère, chaque équation résolue révèle une lettre d'un mot caché, et des lettres de distraction avec des sommes incorrectes maintiennent le suspense. Le Mode Mot Mystère est une fonctionnalité premium. Du point de vue d'un vendeur, cette distinction compte car elle vous donne effectivement deux gammes de produits différentes à partir d'un seul outil. Le Mode Classique attire les vendeurs de maths cherchant de la pratique arithmétique basée sur la logique, tandis que le Mode Mot Mystère attire les entrepreneurs axés sur la littératie et les parents qui font l`école à la maison et recherchent des activités interdisciplinaires.",
+      answer: "En Mode Classique, chaque image cache un nombre secret unique et les utilisateurs résolvent des équations d`addition pour déchiffrer le code. En Mode Mot Mystère, chaque équation résolue révèle une lettre d`un mot caché, et des lettres de distraction avec des sommes incorrectes maintiennent le suspense. Le Mode Mot Mystère est une fonctionnalité premium. Du point de vue d'un vendeur, cette distinction compte car elle vous donne effectivement deux gammes de produits différentes à partir d`un seul outil. Le Mode Classique attire les vendeurs de maths cherchant de la pratique arithmétique basée sur la logique, tandis que le Mode Mot Mystère attire les entrepreneurs axés sur la littératie et les parents qui font l`école à la maison et recherchent des activités interdisciplinaires.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -196,13 +196,13 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: `app', slug: 'addition-codee-fiches', anchorText: "Fiches d`Addition Codée — Détails Complets du Produit" },
-    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
+    { pageType: `app`, slug: 'addition-codee-fiches`, anchorText: "Fiches d`Addition Codée — Détails Complets du Produit" },
+    { pageType: `tool`, slug: 'generateur-fiches-addition`, anchorText: "Générateur de Fiches d`Addition" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: "Générateur de Puzzles Mathématiques" },
-    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-exercices-maths`, anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Générateur de Pages de Coloriage" },
   ],
 

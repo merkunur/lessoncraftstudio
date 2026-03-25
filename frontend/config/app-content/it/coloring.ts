@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: "Esportazione in scala di grigi per pagine da colorare economiche in inchiostro",
         description:
-          "La Libreria di Immagini contiene oltre 3100 illustrazioni a colori — ma le pagine da colorare devono essere stampate in bianco e nero affinché gli utenti aggiungano i propri colori. L`esportazione in scala di grigi risolve questo convertendo l'intera composizione in scala di grigi al momento dell'esportazione. Disegna con immagini a colori per una facile identificazione visiva, poi attiva l'opzione per produrre schede da colorare economiche in inchiostro. Questo flusso di lavoro è essenziale per gli interni dei libri da colorare di Amazon KDP dove le pagine devono essere in scala di grigi, e per la stampa in volume dove l`inchiostro a colori è costoso o non disponibile.",
+          "La Libreria di Immagini contiene oltre 3100 illustrazioni a colori — ma le pagine da colorare devono essere stampate in bianco e nero affinché gli utenti aggiungano i propri colori. L`esportazione in scala di grigi risolve questo convertendo l`intera composizione in scala di grigi al momento dell'esportazione. Disegna con immagini a colori per una facile identificazione visiva, poi attiva l`opzione per produrre schede da colorare economiche in inchiostro. Questo flusso di lavoro è essenziale per gli interni dei libri da colorare di Amazon KDP dove le pagine devono essere in scala di grigi, e per la stampa in volume dove l`inchiostro a colori è costoso o non disponibile.",
       },
       {
         title: "Libreria di Immagini con 104 collezioni tematiche e oltre 3100 illustrazioni",
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Come funziona l'esportazione in scala di grigi?",
       answer:
-        "L`opzione scala di grigi nel pannello Scarica converte l'intera pagina da colorare in scala di grigi al momento dell'esportazione. Il tuo canvas rimane a colori per una facile modifica visiva — la scala di grigi viene applicata solo al file esportato. Questo ti permette di disegnare con immagini a colori per l'identificazione e poi produrre un output economico in inchiostro per la stampa. Essenziale per gli interni dei libri da colorare di Amazon KDP e la stampa in volume dove l`inchiostro a colori non è disponibile o è costoso.",
+        "L`opzione scala di grigi nel pannello Scarica converte l`intera pagina da colorare in scala di grigi al momento dell'esportazione. Il tuo canvas rimane a colori per una facile modifica visiva — la scala di grigi viene applicata solo al file esportato. Questo ti permette di disegnare con immagini a colori per l`identificazione e poi produrre un output economico in inchiostro per la stampa. Essenziale per gli interni dei libri da colorare di Amazon KDP e la stampa in volume dove l`inchiostro a colori non è disponibile o è costoso.",
     },
     {
       question: "Come esplorare e aggiungere immagini dalla libreria?",

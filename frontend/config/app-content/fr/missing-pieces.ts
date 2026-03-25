@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Générez le Puzzle',
         description:
-          "L`application découpe automatiquement des trous dans l'image sélectionnée grâce à l'extraction intelligente de pièces. L'algorithme effectue jusqu'à 150 tentatives de placement pour trouver des pièces avec une variance de couleur suffisante (variance de luminosité minimale de 15) et au moins 250 pixels de distance entre les pièces pour éviter le chevauchement. Des trous blancs avec un contour noir (2px) apparaissent aux emplacements d'origine. Les options de réponse numérotées — pièces correctes plus distractrices — sont affichées avec des étiquettes numériques surlignées en jaune. Les mises en page portrait placent l`image du puzzle en haut avec les options en dessous ; les mises en page paysage divisent la vue 50/50.",
+          "L`application découpe automatiquement des trous dans l`image sélectionnée grâce à l`extraction intelligente de pièces. L'algorithme effectue jusqu`à 150 tentatives de placement pour trouver des pièces avec une variance de couleur suffisante (variance de luminosité minimale de 15) et au moins 250 pixels de distance entre les pièces pour éviter le chevauchement. Des trous blancs avec un contour noir (2px) apparaissent aux emplacements d`origine. Les options de réponse numérotées — pièces correctes plus distractrices — sont affichées avec des étiquettes numériques surlignées en jaune. Les mises en page portrait placent l`image du puzzle en haut avec les options en dessous ; les mises en page paysage divisent la vue 50/50.",
       },
       {
         title: "Générez le Corrigé et Téléchargez",
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: "Extraction Intelligente de Pièces avec Détection de Variance de Couleur",
         description:
-          "L`algorithme d'extraction de pièces garantit que chaque puzzle est visuellement résolvable et engageant. Il effectue jusqu'à 150 tentatives de placement pour trouver des pièces avec un seuil de variance de luminosité minimum de 15 — garantissant que chaque pièce extraite contient suffisamment de détails visuels pour être identifiable. Les pièces maintiennent au moins 250 pixels de distance entre elles pour éviter le chevauchement. Les pièces distractrices sont générées avec jusqu'à 200 tentatives chacune, garantissant qu'elles proviennent de zones non chevauchantes de l'image. Cette extraction intelligente produit des puzzles de haute qualité de manière constante à partir de n`importe quelle image source.",
+          "L`algorithme d`extraction de pièces garantit que chaque puzzle est visuellement résolvable et engageant. Il effectue jusqu`à 150 tentatives de placement pour trouver des pièces avec un seuil de variance de luminosité minimum de 15 — garantissant que chaque pièce extraite contient suffisamment de détails visuels pour être identifiable. Les pièces maintiennent au moins 250 pixels de distance entre elles pour éviter le chevauchement. Les pièces distractrices sont générées avec jusqu'à 200 tentatives chacune, garantissant qu`elles proviennent de zones non chevauchantes de l`image. Cette extraction intelligente produit des puzzles de haute qualité de manière constante à partir de n`importe quelle image source.",
       },
       {
         title: "Corrigé Auto-Généré avec Étiquettes Numériques Surlignées en Jaune",
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: "Packs de Puzzles Pièces Manquantes Thématiques sur Etsy",
         description:
-          "Créez des packs de puzzles thématiques en utilisant les 104 collections d`images — puzzles d'animaux, de véhicules, de nourriture, de nature et des dizaines d'autres. Chaque thème fournit des illustrations colorées qui produisent des défis engageants de pièces manquantes. Compilez 15 à 25 puzzles par thème avec les corrigés inclus, en variant la difficulté de 1 pièce manquante avec 2 options (facile) à 5 pièces manquantes avec 6 options (difficile). Mélangez les formes de pièces au sein d'un pack pour la variété visuelle : des pièces carrées dans certains puzzles, des pièces rondes dans d`autres, des variantes ellipse pour les défis avancés. Le corrigé auto-généré élimine le plus gros travail chronophage de la production de puzzles.",
+          "Créez des packs de puzzles thématiques en utilisant les 104 collections d`images — puzzles d`animaux, de véhicules, de nourriture, de nature et des dizaines d'autres. Chaque thème fournit des illustrations colorées qui produisent des défis engageants de pièces manquantes. Compilez 15 à 25 puzzles par thème avec les corrigés inclus, en variant la difficulté de 1 pièce manquante avec 2 options (facile) à 5 pièces manquantes avec 6 options (difficile). Mélangez les formes de pièces au sein d`un pack pour la variété visuelle : des pièces carrées dans certains puzzles, des pièces rondes dans d`autres, des variantes ellipse pour les défis avancés. Le corrigé auto-généré élimine le plus gros travail chronophage de la production de puzzles.",
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: "Activités de Puzzles pour la vente sur Gumroad",
         description:
-          "Concevez des activités de discrimination visuelle et de pensée critique prêtes à l`emploi pour Gumroad. Les puzzles de pièces manquantes renforcent le raisonnement spatial, l'analyse visuelle et l'attention aux détails — des compétences valorisées dans les programmes de la petite enfance et du primaire. Créez des ensembles alignés sur le programme : puzzles d'habitats d`animaux, puzzles de scènes saisonnières, puzzles de métiers de la communauté et puzzles de groupes alimentaires. Chaque ensemble comprend des fiches utilisateurs et des corrigés aux formats PDF et JPEG. La difficulté configurable vous permet de créer des versions différenciées du même puzzle pour des classes à niveaux mixtes.",
+          "Concevez des activités de discrimination visuelle et de pensée critique prêtes à l`emploi pour Gumroad. Les puzzles de pièces manquantes renforcent le raisonnement spatial, l`analyse visuelle et l'attention aux détails — des compétences valorisées dans les programmes de la petite enfance et du primaire. Créez des ensembles alignés sur le programme : puzzles d`habitats d`animaux, puzzles de scènes saisonnières, puzzles de métiers de la communauté et puzzles de groupes alimentaires. Chaque ensemble comprend des fiches utilisateurs et des corrigés aux formats PDF et JPEG. La difficulté configurable vous permet de créer des versions différenciées du même puzzle pour des classes à niveaux mixtes.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les 6 formes de pièces, les réglages de difficulté configurables, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d`acheter une licence.",
+        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n`offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les 6 formes de pièces, les réglages de difficulté configurables, le corrigé auto-généré, la bibliothèque d`images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil correspond à vos besoins avant d`acheter une licence.",
     },
   ],
 

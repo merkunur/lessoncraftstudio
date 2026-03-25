@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: "Choisir Votre Source de Contenu",
-        description: "Sélectionnez l`une des trois sources de contenu. Le mode Bibliothèque d'Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement pour des puzzles textuels.",
+        description: "Sélectionnez l`une des trois sources de contenu. Le mode Bibliothèque d`Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d`affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement pour des puzzles textuels.",
       },
       {
         title: "Définir le Niveau de Difficulté et le Nombre de Puzzles",
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches de Vocabulaire Personnalisé",
-      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d`orthographe, vocabulaire hebdomadaire ou pratique en langue étrangère. Pas besoin d'images — l'outil génère des tuiles de lettres mélangées à partir de vos mots saisis. Créez des puzzles d'orthographe ciblés pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d`images ne couvre pas.",
+      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d`orthographe, vocabulaire hebdomadaire ou pratique en langue étrangère. Pas besoin d`images — l'outil génère des tuiles de lettres mélangées à partir de vos mots saisis. Créez des puzzles d`orthographe ciblés pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d`images ne couvre pas.",
     },
     {
       title: "Packs Différenciés par Niveau de Difficulté",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
     { pageType: 'tool', slug: "generateur-fiches-prepositions", anchorText: "Générateur de Fiches de Prépositions" },
-    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-fiches-ecriture`, anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

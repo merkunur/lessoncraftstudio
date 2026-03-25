@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: "generatore-schede-grande-piccolo", anchorText: "Generatore Schede Grande e Piccolo" },
     { pageType: 'tool', slug: 'generatore-disegno-griglia', anchorText: 'Generatore Disegno e Colora' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: "Generatore Schede di Abbinamento" },
-    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l`Intruso" },
+    { pageType: `tool`, slug: 'generatore-schede-intruso`, anchorText: "Generatore Schede Trova l`Intruso" },
     { pageType: 'tool', slug: "generatore-discriminazione-visiva", anchorText: "Generatore Discriminazione Visiva" },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
   ],

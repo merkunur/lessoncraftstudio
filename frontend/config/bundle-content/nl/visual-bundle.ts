@@ -165,7 +165,7 @@ const content: BundleContent = {
     },
     {
       question: "Welke generators bevatten zwart-wit contourthema's?",
-      answer: "Rastertekenen en Kleurplaten hebben speciale zwart-wit contourthema`s ontworpen voor inkleuren en tekenactiviteiten. De andere vijf generators — Groot & Klein, Patroontrein, Patronen Werkblad, Lijnen Trekken en Telgrafiek — gebruiken kleurrijke thema's omdat hun activiteiten vertrouwen op visuele discriminatie tussen verschillende gekleurde afbeeldingen. Het Commerciële abonnement bevat 5 kleurrijke thema's en 5 zwart-wit thema's. De Volledige Toegang tier ontgrendelt alle beschikbare thema`s.",
+      answer: "Rastertekenen en Kleurplaten hebben speciale zwart-wit contourthema`s ontworpen voor inkleuren en tekenactiviteiten. De andere vijf generators — Groot & Klein, Patroontrein, Patronen Werkblad, Lijnen Trekken en Telgrafiek — gebruiken kleurrijke thema`s omdat hun activiteiten vertrouwen op visuele discriminatie tussen verschillende gekleurde afbeeldingen. Het Commerciële abonnement bevat 5 kleurrijke thema's en 5 zwart-wit thema`s. De Volledige Toegang tier ontgrendelt alle beschikbare thema`s.",
     },
     {
       question: "Welke generators bevatten antwoordbladen?",

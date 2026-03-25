@@ -28,7 +28,7 @@ const content: BundleContent = {
   appsIncluded: [
     {
       title: "Generatore di Schede di Abbinamento",
-      description: "Crea schede di abbinamento in quattro modalità distinte che coprono diversi livelli di abilità e obiettivi di apprendimento. Abbinamento Lettere accoppia lettere maiuscole e minuscole per la pratica del riconoscimento dell`alfabeto. Abbinamento Immagine-Nome posiziona immagini tematiche di fronte alle loro etichette di vocabolario per l'associazione parola-immagine. La modalità Immagine-o-Prima-Lettera aggiunge una variazione in cui gli utenti abbinano le immagini alla prima lettera della parola anziché al nome completo — un passaggio graduale tra l'abbinamento puramente visivo e la lettura completa. La modalità Personalizzata ti permette di definire le tue coppie di abbinamento usando testo, immagini o entrambi. Questo è il generatore di abbinamento più versatile del pacchetto, supportando tutte le 11 lingue dell'interfaccia per le modalità basate sul vocabolario. Scegli tra oltre 100 set di immagini tematiche, configura il numero di coppie per pagina e seleziona tra più stili di layout. Ogni scheda genera automaticamente una chiave di risposta. La struttura a quattro modalità ti permette di creare prodotti differenziati per diverse fasce d`età e livelli di abilità da un singolo strumento.",
+      description: "Crea schede di abbinamento in quattro modalità distinte che coprono diversi livelli di abilità e obiettivi di apprendimento. Abbinamento Lettere accoppia lettere maiuscole e minuscole per la pratica del riconoscimento dell`alfabeto. Abbinamento Immagine-Nome posiziona immagini tematiche di fronte alle loro etichette di vocabolario per l`associazione parola-immagine. La modalità Immagine-o-Prima-Lettera aggiunge una variazione in cui gli utenti abbinano le immagini alla prima lettera della parola anziché al nome completo — un passaggio graduale tra l'abbinamento puramente visivo e la lettura completa. La modalità Personalizzata ti permette di definire le tue coppie di abbinamento usando testo, immagini o entrambi. Questo è il generatore di abbinamento più versatile del pacchetto, supportando tutte le 11 lingue dell`interfaccia per le modalità basate sul vocabolario. Scegli tra oltre 100 set di immagini tematiche, configura il numero di coppie per pagina e seleziona tra più stili di layout. Ogni scheda genera automaticamente una chiave di risposta. La struttura a quattro modalità ti permette di creare prodotti differenziati per diverse fasce d`età e livelli di abilità da un singolo strumento.",
     },
     {
       title: "Generatore di Schede Griglia Abbinamento",
@@ -36,7 +36,7 @@ const content: BundleContent = {
     },
     {
       title: "Generatore di Schede Abbinamento Ombre",
-      description: "Produci schede di abbinamento ombre dove il generatore crea automaticamente versioni silhouette delle immagini tematiche. gli utenti tracciano linee collegando ogni oggetto colorato alla corrispondente silhouette nera — un esercizio di discriminazione visiva che rafforza le capacità di osservazione e l`attenzione ai dettagli. Ogni scheda utilizza un layout fisso di 4 elementi, mantenendo l'attività focalizzata e adatta all'età del pubblico della scuola materna e dell'infanzia a cui si rivolge l`abbinamento ombre. Il formato con linee da tracciare incoraggia lo sviluppo della motricità fine insieme al compito cognitivo di abbinamento. Tutto il contenuto è puramente visivo — nessun testo sulla pagina — quindi ogni scheda funziona in qualsiasi mercato nel mondo. Scegli tra oltre 100 set di immagini tematiche. La generazione automatica delle silhouette significa che non hai mai bisogno di competenze di illustrazione o software di design per creare prodotti professionali di abbinamento ombre. Ogni scheda genera automaticamente una chiave di risposta.",
+      description: "Produci schede di abbinamento ombre dove il generatore crea automaticamente versioni silhouette delle immagini tematiche. gli utenti tracciano linee collegando ogni oggetto colorato alla corrispondente silhouette nera — un esercizio di discriminazione visiva che rafforza le capacità di osservazione e l`attenzione ai dettagli. Ogni scheda utilizza un layout fisso di 4 elementi, mantenendo l`attività focalizzata e adatta all'età del pubblico della scuola materna e dell`infanzia a cui si rivolge l`abbinamento ombre. Il formato con linee da tracciare incoraggia lo sviluppo della motricità fine insieme al compito cognitivo di abbinamento. Tutto il contenuto è puramente visivo — nessun testo sulla pagina — quindi ogni scheda funziona in qualsiasi mercato nel mondo. Scegli tra oltre 100 set di immagini tematiche. La generazione automatica delle silhouette significa che non hai mai bisogno di competenze di illustrazione o software di design per creare prodotti professionali di abbinamento ombre. Ogni scheda genera automaticamente una chiave di risposta.",
     },
     {
       title: 'Generatore di Cartelle Bingo',
@@ -121,7 +121,7 @@ const content: BundleContent = {
     { feature: 'Esportazione batch ZIP bingo', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
+    { feature: `Lingue dell`interfaccia`, commercial: 'Solo inglese`, fullAccess: `11 lingue` },
     { feature: "Etichette sensibili alla lingua (3 app)", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },
@@ -165,7 +165,7 @@ const content: BundleContent = {
     },
     {
       question: "Quanti elementi usa Abbinamento Ombre per scheda?",
-      answer: "Abbinamento Ombre usa un layout fisso di 4 elementi per scheda. Ogni scheda mostra 4 oggetti colorati su un lato e le corrispondenti silhouette sull`altro, con gli utenti che tracciano linee per collegare le coppie. Il conteggio fisso mantiene l'attività focalizzata e adatta all'età del pubblico della scuola materna e dell'infanzia a cui si rivolge l`abbinamento ombre.",
+      answer: "Abbinamento Ombre usa un layout fisso di 4 elementi per scheda. Ogni scheda mostra 4 oggetti colorati su un lato e le corrispondenti silhouette sull`altro, con gli utenti che tracciano linee per collegare le coppie. Il conteggio fisso mantiene l`attività focalizzata e adatta all'età del pubblico della scuola materna e dell`infanzia a cui si rivolge l`abbinamento ombre.",
     },
     {
       question: "In quali formati posso scaricare?",

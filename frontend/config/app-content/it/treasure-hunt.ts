@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: "Come vengono localizzati gli indizi direzionali?",
       answer:
-        "Tutto il vocabolario direzionale è tradotto in 11 lingue: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Le direzioni Base (su/giù/sinistra/destra) e le direzioni Cardinali (nord/sud/est/ovest) hanno entrambe traduzioni complete, insieme all`istruzione \"Parti da\", al verbo \"Muoviti\", all'unità \"casella/e\" e alla domanda \"Dov'è il tesoro?\" Per esempio, in tedesco in modalità Base, \"Muoviti verso il basso di 2 caselle\" diventa l'equivalente tedesco con vocabolario direzionale nativo. Anche il titolo e la descrizione dell`intestazione si traducono automaticamente.",
+        "Tutto il vocabolario direzionale è tradotto in 11 lingue: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Le direzioni Base (su/giù/sinistra/destra) e le direzioni Cardinali (nord/sud/est/ovest) hanno entrambe traduzioni complete, insieme all`istruzione \"Parti da\", al verbo \"Muoviti\", all`unità \"casella/e\" e alla domanda \"Dov'è il tesoro?\" Per esempio, in tedesco in modalità Base, \"Muoviti verso il basso di 2 caselle\" diventa l`equivalente tedesco con vocabolario direzionale nativo. Anche il titolo e la descrizione dell`intestazione si traducono automaticamente.",
     },
     {
       question: "Come funziona la chiave di risposta auto-generata?",

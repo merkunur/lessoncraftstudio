@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: "Générateur de Puzzles Mathématiques",
     tagline: "Créez des puzzles images jigsaw avec des équations mathématiques en moins de 60 secondes",
-    description: "Transformez la pratique des maths en un puzzle visuel captivant qui ne ressemble en rien à une fiche d`exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l'image. Choisissez parmi trois modes d'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu'à 4×4 (16 pièces, le plus difficile) pour s'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
+    description: "Transformez la pratique des maths en un puzzle visuel captivant qui ne ressemble en rien à une fiche d`exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l`image. Choisissez parmi trois modes d`opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu'à 4×4 (16 pièces, le plus difficile) pour s`adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s`arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
   tutorial: {
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs Premium sur Gumroad',
-      description: "Téléchargez des packs de puzzles maths différenciés sur Gumroad. Les vendeurs recherchent constamment « puzzles maths » et « jeux de maths ». Incluez les trois modes d`opération, trois niveaux de difficulté, les corrigés et un guide vendeur dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d'instructions « Comment Utiliser » expliquant les niveaux de difficulté par grille, les tranches d'âge suggérées et des conseils pour l'utilisation en ligne. Les acheteurs Gumroad laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l`vendeur, ce qui améliore la visibilité de votre listing dans les résultats de recherche Gumroad.",
+      description: "Téléchargez des packs de puzzles maths différenciés sur Gumroad. Les vendeurs recherchent constamment « puzzles maths » et « jeux de maths ». Incluez les trois modes d`opération, trois niveaux de difficulté, les corrigés et un guide vendeur dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d`instructions « Comment Utiliser » expliquant les niveaux de difficulté par grille, les tranches d'âge suggérées et des conseils pour l`utilisation en ligne. Les acheteurs Gumroad laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l`vendeur, ce qui améliore la visibilité de votre listing dans les résultats de recherche Gumroad.",
       platform: 'Gumroad',
     },
     {
@@ -197,12 +197,12 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'puzzle-maths-fiches', anchorText: "Puzzles Maths — Détails Complets du Produit" },
-    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
+    { pageType: `tool`, slug: 'generateur-fiches-addition`, anchorText: "Générateur de Fiches d`Addition" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
-    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée` },
+    { pageType: `tool`, slug: `generateur-addition-codee', anchorText: `Générateur d`Addition Codée` },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
-    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
-    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
+    { pageType: `tool`, slug: 'generateur-exercices-maths`, anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool`, slug: 'generateur-fiches-association`, anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: "Générateur de Pièces Manquantes" },
   ],
 

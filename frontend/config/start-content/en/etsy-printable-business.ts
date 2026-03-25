@@ -226,7 +226,7 @@ const content: StartContent = {
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page worksheet for Etsy printable shop', caption: 'Coloring Page — Etsy Top Category' },
       { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search printable worksheet for Etsy listing', caption: 'Word Search — High Search Volume' },
       { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with image-based math problems', caption: 'Addition — Evergreen Math Category' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet for international Etsy buyers, caption: 'Matching — No-Text Visual Activity' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet for international Etsy buyers', caption: 'Matching — No-Text Visual Activity' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Page Worksheets — LessonCraftStudio Demo',

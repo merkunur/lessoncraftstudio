@@ -192,7 +192,7 @@ const content: GuideContent = {
       },
       {
         src: '/samples/english/wordsearch/wordsearch portrait.webp',
-        alt: 'Word search puzzle with themed content demonstrating product clarity for buyers,
+        alt: 'Word search puzzle with themed content demonstrating product clarity for buyers',
         caption: 'Content-rich products benefit most from comprehensive documentation and self-service support',
       },
     ],

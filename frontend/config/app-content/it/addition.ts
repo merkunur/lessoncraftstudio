@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi testo, titoli e dettagli personalizzati',
         description:
-          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi per il nome e la data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font accattivanti, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per una leggibilità ottimale. Attiva o disattiva i numeri degli esercizi, il segno di addizione tra i gruppi di immagini e la casella di risposta accattivante in base alle tue esigenze.',
+          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi per il nome e la data dell\'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font accattivanti, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per una leggibilità ottimale. Attiva o disattiva i numeri degli esercizi, il segno di addizione tra i gruppi di immagini e la casella di risposta accattivante in base alle tue esigenze.',
       },
       {
         title: 'Genera il foglio soluzioni e scarica',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Il generatore crea fogli soluzioni automaticamente?',
       answer:
-        'Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le somme corrette. Puoi visualizzare l\'anteprima del foglio soluzioni sullo schermo e scaricarlo come file JPEG o PDF separato insieme alla scheda dell'utente. Includere fogli soluzioni nelle tue inserzioni di prodotto aggiunge valore percepito per i acquirenti, che si aspettano risorse pronte all\'uso che facciano risparmiare tempo nel valore percepito.',
+        'Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le somme corrette. Puoi visualizzare l\'anteprima del foglio soluzioni sullo schermo e scaricarlo come file JPEG o PDF separato insieme alla scheda dell\'utente. Includere fogli soluzioni nelle tue inserzioni di prodotto aggiunge valore percepito per i acquirenti, che si aspettano risorse pronte all\'uso che facciano risparmiare tempo nel valore percepito.',
     },
     {
       question: 'Quali formati di pagina e di esportazione sono supportati?',

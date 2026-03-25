@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: 'Attività di Puzzle per il negozio su Gumroad',
         description:
-          'Crea attività di puzzle a griglia pronte all\'uso per riempitivi di fine lezione, lavoro mattutino o centri di arricchimento. i venditori che cercano attività di percezione visiva su Gumroad apprezzano puzzle che arrivano pronti per la stampa con risposte. Crea set allineati al mercato: puzzle di immagini di animali per scienze, puzzle di monumenti per studi sociali, puzzle di alimenti per educazione alimentare. La difficoltà configurabile ti permette di differenziare all\'interno di un singolo prodotto — includi versioni facili, medie e difficili degli stessi puzzle tematici così che i venditori possano assegnare in base al livello dell'utente.',
+          'Crea attività di puzzle a griglia pronte all\'uso per riempitivi di fine lezione, lavoro mattutino o centri di arricchimento. i venditori che cercano attività di percezione visiva su Gumroad apprezzano puzzle che arrivano pronti per la stampa con risposte. Crea set allineati al mercato: puzzle di immagini di animali per scienze, puzzle di monumenti per studi sociali, puzzle di alimenti per educazione alimentare. La difficoltà configurabile ti permette di differenziare all\'interno di un singolo prodotto — includi versioni facili, medie e difficili degli stessi puzzle tematici così che i venditori possano assegnare in base al livello dell\'utente.',
         platform: 'Gumroad (teacherspayteachers.com)',
       },
       {

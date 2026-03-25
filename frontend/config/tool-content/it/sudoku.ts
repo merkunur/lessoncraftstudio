@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Scegli il Livello di Difficoltà',
-        description: 'Apri il pannello Sudoku per Bambini e seleziona una difficoltà dal menu a tendina: Facile, Medio o Difficile. Facile rimuove 4 celle dalla griglia 4×4, lasciando 12 celle riempite e 4 da risolvere per l'utente. Medio rimuove 6 celle per una sfida moderata. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo un ragionamento logico più avanzato. Il sistema seleziona casualmente quali celle diventano vuote, quindi rigenerando la stessa difficoltà si produce una configurazione di puzzle diversa ogni volta.',
+        description: 'Apri il pannello Sudoku per Bambini e seleziona una difficoltà dal menu a tendina: Facile, Medio o Difficile. Facile rimuove 4 celle dalla griglia 4×4, lasciando 12 celle riempite e 4 da risolvere per l\'utente. Medio rimuove 6 celle per una sfida moderata. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo un ragionamento logico più avanzato. Il sistema seleziona casualmente quali celle diventano vuote, quindi rigenerando la stessa difficoltà si produce una configurazione di puzzle diversa ogni volta.',
       },
       {
         title: 'Seleziona Esattamente 4 Immagini',
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mescola Tutti e Tre i Livelli di Difficoltà in Ogni Pacchetto',
-      description: 'I pacchetti che includono puzzle sudoku con immagini Facile, Medio e Difficile servono una fascia d\'età più ampia e giustificano prezzi più alti. Facile (4 celle vuote) funziona per bambini della scuola dell\'infanzia e primaria che scoprono la logica per la prima volta. Medio (6 celle vuote) sfida gli utenti della primaria. Difficile (8 celle vuote — metà della griglia) spinge gli utenti più grandi nel ragionamento multi-step. Etichetta le tue inserzioni con la fascia d\'età completa (3–8 anni) per attrarre più acquirenti. I pacchetti a difficoltà progressiva superano in vendite i prodotti a difficoltà singola perché genitori e venditori vogliono materiali che crescono con l'utente.',
+      description: 'I pacchetti che includono puzzle sudoku con immagini Facile, Medio e Difficile servono una fascia d\'età più ampia e giustificano prezzi più alti. Facile (4 celle vuote) funziona per bambini della scuola dell\'infanzia e primaria che scoprono la logica per la prima volta. Medio (6 celle vuote) sfida gli utenti della primaria. Difficile (8 celle vuote — metà della griglia) spinge gli utenti più grandi nel ragionamento multi-step. Etichetta le tue inserzioni con la fascia d\'età completa (3–8 anni) per attrarre più acquirenti. I pacchetti a difficoltà progressiva superano in vendite i prodotti a difficoltà singola perché genitori e venditori vogliono materiali che crescono con l\'utente.',
     },
     {
       title: 'Sfrutta il Formato Puramente Visivo per Vendite Globali',
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'Come funziona un puzzle sudoku con immagini 4×4?',
-      answer: 'Un sudoku con immagini 4×4 usa una griglia di 16 celle disposte in 4 righe e 4 colonne. Quattro immagini uniche sostituiscono i numeri tradizionali. La regola è la stessa del sudoku negozico: ogni immagine deve apparire esattamente una volta in ogni riga e esattamente una volta in ogni colonna. Alcune celle partono riempite con immagini (indizi), e l'utente riempie le celle vuote usando l\'eliminazione logica — controllando quale immagine manca in ogni riga e colonna per determinare il posizionamento corretto. Il formato basato su immagini rende i puzzle accessibili ai pre-lettori che non hanno ancora padroneggiato i numeri.',
+      answer: 'Un sudoku con immagini 4×4 usa una griglia di 16 celle disposte in 4 righe e 4 colonne. Quattro immagini uniche sostituiscono i numeri tradizionali. La regola è la stessa del sudoku negozico: ogni immagine deve apparire esattamente una volta in ogni riga e esattamente una volta in ogni colonna. Alcune celle partono riempite con immagini (indizi), e l\'utente riempie le celle vuote usando l\'eliminazione logica — controllando quale immagine manca in ogni riga e colonna per determinare il posizionamento corretto. Il formato basato su immagini rende i puzzle accessibili ai pre-lettori che non hanno ancora padroneggiato i numeri.',
     },
     {
       question: 'Cosa controllano i tre livelli di difficoltà?',
-      answer: 'La difficoltà determina quante celle vengono lasciate vuote per l'utente da risolvere. Facile rimuove 4 celle dalla griglia di 16 celle, lasciando 12 indizi per una semplice eliminazione riga-e-colonna. Medio rimuove 6 celle, richiedendo agli utenti di considerare più vincoli simultaneamente. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo un ragionamento logico multi-step per completare. Il sistema seleziona casualmente quali celle vengono svuotate, quindi rigenerando la stessa difficoltà si crea un layout di puzzle diverso ogni volta.',
+      answer: 'La difficoltà determina quante celle vengono lasciate vuote per l\'utente da risolvere. Facile rimuove 4 celle dalla griglia di 16 celle, lasciando 12 indizi per una semplice eliminazione riga-e-colonna. Medio rimuove 6 celle, richiedendo agli utenti di considerare più vincoli simultaneamente. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo un ragionamento logico multi-step per completare. Il sistema seleziona casualmente quali celle vengono svuotate, quindi rigenerando la stessa difficoltà si crea un layout di puzzle diverso ogni volta.',
     },
     {
       question: 'Perché il generatore richiede esattamente 4 immagini?',

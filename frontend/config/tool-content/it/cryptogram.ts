@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Personalizza font, testo e canvas',
-        description: 'Scegli tra 5 famiglie di font: Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Aggiungi un titolo alla scheda, campi nome e data dell'utente, istruzioni personalizzate o qualsiasi testo sovrapposto. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Strumenti di allineamento, controlli di blocco/sblocco e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
+        description: 'Scegli tra 5 famiglie di font: Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Aggiungi un titolo alla scheda, campi nome e data dell\'utente, istruzioni personalizzate o qualsiasi testo sovrapposto. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Strumenti di allineamento, controlli di blocco/sblocco e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
       },
       {
         title: 'Genera la legenda lettere con chiave di risposta e scarica',

@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi testo, titoli e opzioni',
         description:
-          'Usa il pannello Strumenti Testo per aggiungere un titolo, campi per il nome e la data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra tre font accattivanti — Lexend Deca, Baloo 2 e Nunito — e regola dimensione, colore e stile per una leggibilità ottimale. Attiva o disattiva i numeri degli esercizi, abilita la casella di risposta accattivante e regola la posizione degli elementi sul canvas con gli strumenti di trascinamento.',
+          'Usa il pannello Strumenti Testo per aggiungere un titolo, campi per il nome e la data dell\'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra tre font accattivanti — Lexend Deca, Baloo 2 e Nunito — e regola dimensione, colore e stile per una leggibilità ottimale. Attiva o disattiva i numeri degli esercizi, abilita la casella di risposta accattivante e regola la posizione degli elementi sul canvas con gli strumenti di trascinamento.',
       },
       {
         title: 'Genera il foglio soluzioni e scarica',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Il generatore crea fogli soluzioni automaticamente?',
       answer:
-        'Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le differenze corrette. Nella modalità Barratura, il foglio soluzioni conserva le immagini barrate e aggiunge la risposta scritta, facilitando la verifica per venditori e genitori. Scaricalo come file JPEG o PDF separato insieme alla scheda dell'utente.',
+        'Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le differenze corrette. Nella modalità Barratura, il foglio soluzioni conserva le immagini barrate e aggiunge la risposta scritta, facilitando la verifica per venditori e genitori. Scaricalo come file JPEG o PDF separato insieme alla scheda dell\'utente.',
     },
     {
       question: 'Le schede di sottrazione dipendono dalla lingua?',

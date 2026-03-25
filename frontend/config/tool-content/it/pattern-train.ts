@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Attiva Campi Nome/Data e Opzioni Esercizio',
-        description: 'Attiva i campi opzionali nome e data ritagliabili per l\'identificazione dell'utente sulle schede stampate. Questi campi appaiono come aree con linee tratteggiate che gli utenti compilano prima di iniziare. Attiva o disattiva numeri di esercizio ed elementi decorativi. Ogni opzione perfeziona il layout della scheda per il tuo pubblico target — le schede per il negozio beneficiano dei campi nome, mentre gli annunci per download digitali possono ometterli.',
+        description: 'Attiva i campi opzionali nome e data ritagliabili per l\'identificazione dell\'utente sulle schede stampate. Questi campi appaiono come aree con linee tratteggiate che gli utenti compilano prima di iniziare. Attiva o disattiva numeri di esercizio ed elementi decorativi. Ogni opzione perfeziona il layout della scheda per il tuo pubblico target — le schede per il negozio beneficiano dei campi nome, mentre gli annunci per download digitali possono ometterli.',
       },
       {
         title: 'Aggiungi Testo e Personalizza il Canvas',

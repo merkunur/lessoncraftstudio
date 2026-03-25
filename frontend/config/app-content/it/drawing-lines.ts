@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi decorazioni di testo e personalizza',
         description:
-          'Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi nome e data dell'utente (Fredoka 18px) o istruzioni personalizzate con font come Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Regola la dimensione del font, il colore e la larghezza del contorno del testo (da 0 a 10 con granularità di 0,5). Trascina, ridimensiona, ruota e riposiziona ogni elemento nel canvas completo Fabric.js con controlli dei livelli, blocco/sblocco, strumenti di allineamento e zoom dal 25% al 400%. Annulla e ripristina fino a 100 stati di cronologia con Ctrl+Z e Ctrl+Y.',
+          'Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi nome e data dell\'utente (Fredoka 18px) o istruzioni personalizzate con font come Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Regola la dimensione del font, il colore e la larghezza del contorno del testo (da 0 a 10 con granularità di 0,5). Trascina, ridimensiona, ruota e riposiziona ogni elemento nel canvas completo Fabric.js con controlli dei livelli, blocco/sblocco, strumenti di allineamento e zoom dal 25% al 400%. Annulla e ripristina fino a 100 stati di cronologia con Ctrl+Z e Ctrl+Y.',
       },
       {
         title: 'Scarica come JPEG o PDF',

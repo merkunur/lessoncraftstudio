@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configura gli Esercizi',
         description:
-          'Apri il pannello Configurazione Esercizi e imposta il numero di esercizi da 3 a 8 (predefinito 6). Seleziona una modalità di generazione globale: la modalità Identica usa tre cloni della stessa immagine più un\'immagine diversa dello stesso tema, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B. Sostituisci la modalità per esercizio usando i selettori a tendina su ogni riga — mescola esercizi Identici e Simili in un\'unica scheda per difficoltà progressiva. Attiva l\'opzione \"Includi Campi Nome/Data\" per aggiungere righe di nome e data dell'utente, e attiva \"Includi Numeri di Esercizio\" per mostrare i numeri sul lato sinistro di ogni scheda esercizio.',
+          'Apri il pannello Configurazione Esercizi e imposta il numero di esercizi da 3 a 8 (predefinito 6). Seleziona una modalità di generazione globale: la modalità Identica usa tre cloni della stessa immagine più un\'immagine diversa dello stesso tema, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B. Sostituisci la modalità per esercizio usando i selettori a tendina su ogni riga — mescola esercizi Identici e Simili in un\'unica scheda per difficoltà progressiva. Attiva l\'opzione \"Includi Campi Nome/Data\" per aggiungere righe di nome e data dell\'utente, e attiva \"Includi Numeri di Esercizio\" per mostrare i numeri sul lato sinistro di ogni scheda esercizio.',
       },
       {
         title: 'Seleziona Temi e Immagini',
@@ -120,7 +120,7 @@ const content: AppContent = {
       {
         title: 'Attività di Pensiero Critico per il negozio su Gumroad',
         description:
-          'Crea schede trova l\'intruso pronte all\'uso con campi di nome e data, numeri di esercizio e fogli risposte stampati. i venditori che cercano attività di pensiero critico su Gumroad apprezzano schede che arrivano pronte per il negozio — il campo nome garantisce la responsabilità dell'utente, i numeri di esercizio rendono la discussione online efficiente, e il foglio risposte con cerchi rossi risparmia valore percepito. Crea set allineati al mercato: sfide di negozificazione animale, discriminazione di gruppi alimentari, identificazione di mestieri e puzzle di consapevolezza stagionale. Ogni set include schede per gli utenti e fogli risposte nei formati PDF e JPEG.',
+          'Crea schede trova l\'intruso pronte all\'uso con campi di nome e data, numeri di esercizio e fogli risposte stampati. i venditori che cercano attività di pensiero critico su Gumroad apprezzano schede che arrivano pronte per il negozio — il campo nome garantisce la responsabilità dell\'utente, i numeri di esercizio rendono la discussione online efficiente, e il foglio risposte con cerchi rossi risparmia valore percepito. Crea set allineati al mercato: sfide di negozificazione animale, discriminazione di gruppi alimentari, identificazione di mestieri e puzzle di consapevolezza stagionale. Ogni set include schede per gli utenti e fogli risposte nei formati PDF e JPEG.',
         platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Posso aggiungere campi di nome e data alle schede trova l\'intruso?',
       answer:
-        'Sì. Attiva l\'opzione \"Includi Campi Nome/Data\" nel pannello Configurazione Esercizi per aggiungere righe di nome e data dell'utente. Questi campi si posizionano in modo adattivo in base al layout della pagina. I campi di nome e data rendono le schede pronte per il negozio — i venditori possono monitorare il lavoro degli utenti e i genitori possono organizzare le attività completate per data.',
+        'Sì. Attiva l\'opzione \"Includi Campi Nome/Data\" nel pannello Configurazione Esercizi per aggiungere righe di nome e data dell\'utente. Questi campi si posizionano in modo adattivo in base al layout della pagina. I campi di nome e data rendono le schede pronte per il negozio — i venditori possono monitorare il lavoro degli utenti e i genitori possono organizzare le attività completate per data.',
     },
     {
       question: 'Come funzionano i numeri di esercizio?',

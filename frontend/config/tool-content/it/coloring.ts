@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Aggiungi Assistenti per il negozio e Testo',
-        description: 'Clicca il pulsante Campo Nome per aggiungere un blocco di testo formattato "Nome: ____" in alto alla pagina per l\'identificazione dell'utente. Clicca il pulsante Linee di Scrittura per aggiungere un gruppo di tre linee equidistanti (continua, tratteggiata, continua) in basso per la pratica di scrittura. Questi assistenti per il negozio con un clic trasformano le pagine da colorare in schede di attività pronte all\'uso. Aggiungi titoli, istruzioni o etichette usando il pannello Strumenti Testo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Regola la larghezza del contorno del testo da 0 a 10 con granularità di 0,5.',
+        description: 'Clicca il pulsante Campo Nome per aggiungere un blocco di testo formattato "Nome: ____" in alto alla pagina per l\'identificazione dell\'utente. Clicca il pulsante Linee di Scrittura per aggiungere un gruppo di tre linee equidistanti (continua, tratteggiata, continua) in basso per la pratica di scrittura. Questi assistenti per il negozio con un clic trasformano le pagine da colorare in schede di attività pronte all\'uso. Aggiungi titoli, istruzioni o etichette usando il pannello Strumenti Testo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Regola la larghezza del contorno del testo da 0 a 10 con granularità di 0,5.',
       },
       {
         title: 'Attiva Scala di Grigi ed Esporta',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Schede di Attività da Colorare per il negozio',
-      description: 'Usa gli assistenti per il negozio con un clic per creare pagine da colorare con campo nome e linee di pratica di scrittura integrati. Il campo nome aggiunge "Nome: ____" in alto per l\'identificazione dell'utente. Le linee di scrittura aggiungono linee di pratica continua-tratteggiata-continua in basso. Queste due aggiunte trasformano le pagine da colorare standard in attività strutturate per il negozio che gli acquirenti Gumroad cercano specificamente. Crea set tematici allineati agli argomenti del programma — animali della fattoria per scienze, mestieri della comunità per studi sociali, temi stagionali per attività festive — ogni kit con assistenti per il negozio preimpostati.',
+      description: 'Usa gli assistenti per il negozio con un clic per creare pagine da colorare con campo nome e linee di pratica di scrittura integrati. Il campo nome aggiunge "Nome: ____" in alto per l\'identificazione dell\'utente. Le linee di scrittura aggiungono linee di pratica continua-tratteggiata-continua in basso. Queste due aggiunte trasformano le pagine da colorare standard in attività strutturate per il negozio che gli acquirenti Gumroad cercano specificamente. Crea set tematici allineati agli argomenti del programma — animali della fattoria per scienze, mestieri della comunità per studi sociali, temi stagionali per attività festive — ogni kit con assistenti per il negozio preimpostati.',
     },
     {
       title: 'Pagine da Colorare con Illustrazioni Ibride',
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Kit di Attività da Colorare per il negozio su Gumroad',
-      description: 'Carica pacchetti di pagine da colorare su Gumroad con gli assistenti per il negozio come punto di vendita chiave. Ogni pagina include un campo nome e linee di pratica di scrittura — funzionalità che i venditori cercano specificamente. Organizza per argomento del programma: animali della fattoria per unità di scienze della vita, mestieri della comunità per studi sociali, meteo e stagioni per scienze della terra, forme e pattern per integrazione matematica. Il formato pronto per il negozio giustifica prezzi più alti rispetto alle pagine da colorare generiche perché i venditori pagano un premium per risorse pronte da stampare e usare che includono identificazione dell'utente e pratica di scrittura.',
+      description: 'Carica pacchetti di pagine da colorare su Gumroad con gli assistenti per il negozio come punto di vendita chiave. Ogni pagina include un campo nome e linee di pratica di scrittura — funzionalità che i venditori cercano specificamente. Organizza per argomento del programma: animali della fattoria per unità di scienze della vita, mestieri della comunità per studi sociali, meteo e stagioni per scienze della terra, forme e pattern per integrazione matematica. Il formato pronto per il negozio giustifica prezzi più alti rispetto alle pagine da colorare generiche perché i venditori pagano un premium per risorse pronte da stampare e usare che includono identificazione dell\'utente e pratica di scrittura.',
       platform: 'Gumroad',
     },
     {
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Aggiungi Assistenti per il negozio per Prezzi Più Alti',
-      description: 'Le pagine da colorare con campo nome e linee di scrittura si vendono a prezzi più alti delle pagine generiche perché servono uno scopo funzionale per il negozio. i venditori su Gumroad cercano specificamente attività da colorare "pronte per il negozio" con aree di identificazione dell'utente. Aggiungere questi assistenti con un clic richiede pochi secondi ma trasforma il tuo prodotto da una semplice pagina da colorare in un\'attività di apprendimento strutturata che giustifica prezzi premium.',
+      description: 'Le pagine da colorare con campo nome e linee di scrittura si vendono a prezzi più alti delle pagine generiche perché servono uno scopo funzionale per il negozio. i venditori su Gumroad cercano specificamente attività da colorare "pronte per il negozio" con aree di identificazione dell\'utente. Aggiungere questi assistenti con un clic richiede pochi secondi ma trasforma il tuo prodotto da una semplice pagina da colorare in un\'attività di apprendimento strutturata che giustifica prezzi premium.',
     },
     {
       title: 'Combina Disegno a Mano Libera con Immagini della Libreria',
@@ -167,7 +167,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Cosa sono gli assistenti per il negozio?',
-      answer: 'Due pulsanti con un clic aggiungono elementi pronti per il negozio. Il pulsante Campo Nome posiziona un blocco di testo formattato "Nome: ____" in alto alla pagina per l\'identificazione dell'utente. Il pulsante Linee di Scrittura aggiunge un gruppo di tre linee equidistanti (continua, tratteggiata, continua) in basso per la pratica di scrittura. Questi assistenti trasformano le pagine da colorare in attività strutturate per il negozio senza formattazione manuale del testo — un punto di vendita chiave per le risorse Gumroad.',
+      answer: 'Due pulsanti con un clic aggiungono elementi pronti per il negozio. Il pulsante Campo Nome posiziona un blocco di testo formattato "Nome: ____" in alto alla pagina per l\'identificazione dell\'utente. Il pulsante Linee di Scrittura aggiunge un gruppo di tre linee equidistanti (continua, tratteggiata, continua) in basso per la pratica di scrittura. Questi assistenti trasformano le pagine da colorare in attività strutturate per il negozio senza formattazione manuale del testo — un punto di vendita chiave per le risorse Gumroad.',
     },
     {
       question: 'Come funziona lo strumento di disegno a mano libera?',

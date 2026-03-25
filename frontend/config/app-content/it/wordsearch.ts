@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Scegli la modalità di visualizzazione e aggiungi tocchi personalizzati',
         description:
-          'Scegli tra tre modalità di visualizzazione parole/immagini: Mostra Parole e Immagini (predefinita), Mostra Solo Immagini o Mostra Solo Parole. Ogni modalità controlla cosa appare accanto alla griglia come indizi. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi nome e data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione del font, colore e contorno per la massima leggibilità. Usa il canvas Fabric.js per trascinare, ridimensionare e riposizionare ogni elemento.',
+          'Scegli tra tre modalità di visualizzazione parole/immagini: Mostra Parole e Immagini (predefinita), Mostra Solo Immagini o Mostra Solo Parole. Ogni modalità controlla cosa appare accanto alla griglia come indizi. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi nome e data dell\'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione del font, colore e contorno per la massima leggibilità. Usa il canvas Fabric.js per trascinare, ridimensionare e riposizionare ogni elemento.',
       },
       {
         title: 'Genera il foglio risposte con codice colori e scarica',

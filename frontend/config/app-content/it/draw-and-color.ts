@@ -176,9 +176,9 @@ const content: AppContent = {
         'Esplora oltre 100 collezioni di temi di contorni in bianco e nero con oltre 3000 illustrazioni organizzate per categoria — animali, veicoli, alimenti, natura, professioni, festività e decine di altri. Usa la funzione di ricerca per trovare immagini specifiche in tutti i temi. Oppure carica la tua immagine personalizzata per creare esercizi su griglia da qualsiasi fonte. Le immagini selezionate vengono automaticamente elaborate nel formato a griglia doppia con la percentuale indizi e le regolazioni di simmetria configurate.',
     },
     {
-      question: 'Posso aggiungere campi nome e data dell'utente alla scheda?',
+      question: 'Posso aggiungere campi nome e data dell\'utente alla scheda?',
       answer:
-        'Sì. Attiva l\'opzione Includi Campi Nome/Data per aggiungere zone di identificazione dell'utente alla tua scheda. Puoi anche usare il pannello Strumenti Testo per aggiungere un titolo personalizzato, istruzioni o qualsiasi altro testo con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Tutti gli elementi di testo sono completamente modificabili sul canvas — trascina, ridimensiona, ruota e riposiziona secondo necessità.',
+        'Sì. Attiva l\'opzione Includi Campi Nome/Data per aggiungere zone di identificazione dell\'utente alla tua scheda. Puoi anche usare il pannello Strumenti Testo per aggiungere un titolo personalizzato, istruzioni o qualsiasi altro testo con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Tutti gli elementi di testo sono completamente modificabili sul canvas — trascina, ridimensiona, ruota e riposiziona secondo necessità.',
     },
     {
       question: 'Esiste una prova gratuita?',

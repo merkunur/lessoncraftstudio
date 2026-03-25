@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Scegli gli oggetti e le forme dalla libreria',
         description:
-          'Apri il pannello della Libreria di Immagini ed esplora 104 temi per le immagini degli oggetti — gli elementi posizionati — e poi scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. Usa la barra di ricerca per trovare immagini specifiche istantaneamente. Configura lo stile del testo con sette font, tra cui Lexend Deca, Baloo 2 e Fredoka. Attiva i campi per nome e data dell'utente, e carica le tue immagini personalizzate per schede con il tuo marchio.',
+          'Apri il pannello della Libreria di Immagini ed esplora 104 temi per le immagini degli oggetti — gli elementi posizionati — e poi scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. Usa la barra di ricerca per trovare immagini specifiche istantaneamente. Configura lo stile del testo con sette font, tra cui Lexend Deca, Baloo 2 e Fredoka. Attiva i campi per nome e data dell\'utente, e carica le tue immagini personalizzate per schede con il tuo marchio.',
       },
       {
         title: 'Genera la chiave di risposta e scarica',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Il generatore crea chiavi di risposta automaticamente?',
       answer:
-        'Sì. Clicca sul pulsante Genera Chiave di Risposta per creare una versione risolta della tua scheda. Per gli esercizi Completa la Frase, la chiave di risposta mostra ogni spazio vuoto compilato con la preposizione corretta. Per la Scelta Multipla, indica l\'immagine corretta. Esporta la chiave di risposta come file JPEG o PDF separato insieme alla scheda dell'utente.',
+        'Sì. Clicca sul pulsante Genera Chiave di Risposta per creare una versione risolta della tua scheda. Per gli esercizi Completa la Frase, la chiave di risposta mostra ogni spazio vuoto compilato con la preposizione corretta. Per la Scelta Multipla, indica l\'immagine corretta. Esporta la chiave di risposta come file JPEG o PDF separato insieme alla scheda dell\'utente.',
     },
     {
       question: 'Esiste una prova gratuita?',

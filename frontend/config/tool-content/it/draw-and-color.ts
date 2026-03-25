@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Aggiungi Testo e Personalizza il Canvas',
-        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, istruzioni o testo decorativo. Scegli tra i font Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Attiva l\'opzione dei campi nome/data per le aree di identificazione dell'utente. L\'intestazione generata automaticamente si localizza in tutte le 11 lingue supportate. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas Fabric.js completo. Gli strumenti di allineamento posizionano gli elementi con precisione, i controlli di blocco e sblocco proteggono gli elementi finiti mentre ne modifichi altri, e annulla e ripristina illimitati ti permettono di sperimentare liberamente.',
+        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, istruzioni o testo decorativo. Scegli tra i font Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Attiva l\'opzione dei campi nome/data per le aree di identificazione dell\'utente. L\'intestazione generata automaticamente si localizza in tutte le 11 lingue supportate. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas Fabric.js completo. Gli strumenti di allineamento posizionano gli elementi con precisione, i controlli di blocco e sblocco proteggono gli elementi finiti mentre ne modifichi altri, e annulla e ripristina illimitati ti permettono di sperimentare liberamente.',
       },
       {
         title: 'Attiva la Scala di Grigi e Scarica',

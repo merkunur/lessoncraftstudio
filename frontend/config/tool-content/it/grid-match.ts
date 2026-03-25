@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti di Attività Puzzle a Griglia per il negozio',
-      description: 'Carica pacchetti di attività puzzle a griglia con difficoltà differenziata come punto di vendita principale. i venditori che cercano attività di percezione visiva apprezzano puzzle che includono più livelli di difficoltà e chiavi di risposta. Crea set collegati al programma: puzzle a griglia con animali per unità di scienze, puzzle con cibi per argomenti di nutrizione, puzzle con veicoli per temi di trasporto. Ogni pacchetto include versioni facile (2×2), media (3×3) e difficile (4×4) degli stessi puzzle tematici così i venditori assegnano per livello dell'utente. La chiave di risposta automatica con sovrapposizioni numerate elimina il tempo di preparazione dell\'venditore.',
+      description: 'Carica pacchetti di attività puzzle a griglia con difficoltà differenziata come punto di vendita principale. i venditori che cercano attività di percezione visiva apprezzano puzzle che includono più livelli di difficoltà e chiavi di risposta. Crea set collegati al programma: puzzle a griglia con animali per unità di scienze, puzzle con cibi per argomenti di nutrizione, puzzle con veicoli per temi di trasporto. Ogni pacchetto include versioni facile (2×2), media (3×3) e difficile (4×4) degli stessi puzzle tematici così i venditori assegnano per livello dell\'utente. La chiave di risposta automatica con sovrapposizioni numerate elimina il tempo di preparazione dell\'venditore.',
       platform: 'Gumroad',
     },
     {

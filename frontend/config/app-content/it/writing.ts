@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Configura maiuscole, tratti di pre-scrittura e testo decorativo',
         description:
-          'Imposta l\'uso delle maiuscole per ogni riga: tutto maiuscolo, tutto minuscolo o iniziali maiuscole. Per le righe in Testo Personalizzato, attiva gli esercizi di tratti di pre-scrittura — linee verticali, linee orizzontali, cerchi o linee a zigzag — per aggiungere riscaldamenti di motricità fine prima della pratica delle lettere. Regola l\'altezza della riga per controllare la spaziatura tra le righe. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi per il nome e la data dell'utente o istruzioni con sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Trascina, ridimensiona e riposiziona ogni elemento nel canvas completo Fabric.js.',
+          'Imposta l\'uso delle maiuscole per ogni riga: tutto maiuscolo, tutto minuscolo o iniziali maiuscole. Per le righe in Testo Personalizzato, attiva gli esercizi di tratti di pre-scrittura — linee verticali, linee orizzontali, cerchi o linee a zigzag — per aggiungere riscaldamenti di motricità fine prima della pratica delle lettere. Regola l\'altezza della riga per controllare la spaziatura tra le righe. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi per il nome e la data dell\'utente o istruzioni con sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Trascina, ridimensiona e riposiziona ogni elemento nel canvas completo Fabric.js.',
       },
       {
         title: 'Scarica come JPEG o PDF',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Come funziona la modalità Tracciamento Progressivo?',
       answer:
-        'La modalità Tracciamento Progressivo inizia ogni riga con lettere completamente visibili e solide sul lato sinistro e riduce progressivamente l\'opacità di ogni lettera successiva man mano che la riga prosegue verso destra. Alla fine della riga, le lettere sono appena visibili o scomparse del tutto. Questa sfumatura graduale rafforza la sicurezza dell'utente riducendo il supporto visivo in modo incrementale — ogni ripetizione richiede un po\' più di memoria autonoma della precedente. Serve come ponte tra il tracciamento completo e la scrittura autonoma.',
+        'La modalità Tracciamento Progressivo inizia ogni riga con lettere completamente visibili e solide sul lato sinistro e riduce progressivamente l\'opacità di ogni lettera successiva man mano che la riga prosegue verso destra. Alla fine della riga, le lettere sono appena visibili o scomparse del tutto. Questa sfumatura graduale rafforza la sicurezza dell\'utente riducendo il supporto visivo in modo incrementale — ogni ripetizione richiede un po\' più di memoria autonoma della precedente. Serve come ponte tra il tracciamento completo e la scrittura autonoma.',
     },
     {
       question: 'Cosa sono i tratti di pre-scrittura e a chi sono destinati?',

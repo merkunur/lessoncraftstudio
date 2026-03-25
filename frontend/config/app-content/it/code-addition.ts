@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi testo, titoli e opzioni',
         description:
-          'Usa il pannello Strumenti di Testo per aggiungere un titolo, campi per nome e data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font accattivanti, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Attiva o disattiva i numeri degli esercizi, mostra o nascondi l\'intestazione e la cornice, e attiva la modalità scala di grigi per una stampa economica. Ogni opzione aggiorna l\'anteprima del canvas in tempo reale per regolare il layout prima di esportare.',
+          'Usa il pannello Strumenti di Testo per aggiungere un titolo, campi per nome e data dell\'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font accattivanti, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Attiva o disattiva i numeri degli esercizi, mostra o nascondi l\'intestazione e la cornice, e attiva la modalità scala di grigi per una stampa economica. Ogni opzione aggiorna l\'anteprima del canvas in tempo reale per regolare il layout prima di esportare.',
       },
       {
         title: 'Genera la chiave di valore percepito e scarica',

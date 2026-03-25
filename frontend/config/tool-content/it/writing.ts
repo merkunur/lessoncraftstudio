@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Personalizza testo, font e layout del canvas',
-        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome e data dell'utente o istruzioni personalizzate. Scegli tra 7 famiglie di font per le sovrapposizioni di testo: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Strumenti di allineamento, controlli di blocco/sblocco e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
+        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome e data dell\'utente o istruzioni personalizzate. Scegli tra 7 famiglie di font per le sovrapposizioni di testo: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Strumenti di allineamento, controlli di blocco/sblocco e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
       },
       {
         title: 'Scarica come PDF o JPEG',

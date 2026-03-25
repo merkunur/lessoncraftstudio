@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacchetti Caccia al Tesoro a Tema per Collezione di Immagini',
-      description: 'Crea pacchetti caccia al tesoro organizzati per tema utilizzando le 104 collezioni — cacce al tesoro di animali, oceano, spazio, dinosauri, festivià e decine di altri. Genera per Tema seleziona automaticamente 6 immagini casuali e crea posizioni di partenza e sequenze di mosse uniche ad ogni generazione, così ogni clic produce un puzzle completamente diverso dallo stesso tema. Prepara 10–20 schede caccia al tesoro per tema con chiavi di risposta generate automaticamente incluse. Mescola i tipi di direzione Base e Cardinale all\'interno di ogni pacchetto per una difficoltà progressiva che cresce con il livello dell'utente.',
+      description: 'Crea pacchetti caccia al tesoro organizzati per tema utilizzando le 104 collezioni — cacce al tesoro di animali, oceano, spazio, dinosauri, festivià e decine di altri. Genera per Tema seleziona automaticamente 6 immagini casuali e crea posizioni di partenza e sequenze di mosse uniche ad ogni generazione, così ogni clic produce un puzzle completamente diverso dallo stesso tema. Prepara 10–20 schede caccia al tesoro per tema con chiavi di risposta generate automaticamente incluse. Mescola i tipi di direzione Base e Cardinale all\'interno di ogni pacchetto per una difficoltà progressiva che cresce con il livello dell\'utente.',
     },
     {
       title: 'Quaderni Progressivi di Competenze Direzionali',

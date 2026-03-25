@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Configura gli indizi e lo stile del testo',
         description:
-          'Imposta il numero di indizi da 3 a 11 — sono immagini-indizio presentate separatamente che gli utenti abbinano al vagone-lettera corretto. Meno indizi creano una scheda più facile; più indizi aumentano la difficoltà. Attiva o disattiva i campi nome e data dell'utente. Usa il pannello Strumenti di Testo per aggiungere un titolo, istruzioni o testo personalizzato. Scegli tra sette font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana con dimensione, colore e contorno regolabili.',
+          'Imposta il numero di indizi da 3 a 11 — sono immagini-indizio presentate separatamente che gli utenti abbinano al vagone-lettera corretto. Meno indizi creano una scheda più facile; più indizi aumentano la difficoltà. Attiva o disattiva i campi nome e data dell\'utente. Usa il pannello Strumenti di Testo per aggiungere un titolo, istruzioni o testo personalizzato. Scegli tra sette font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana con dimensione, colore e contorno regolabili.',
       },
       {
         title: 'Genera il foglio delle risposte e scarica',

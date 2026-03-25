@@ -120,7 +120,7 @@ const content: GuideContent = {
     },
     {
       question: 'Cosa sono gli strumenti per il negozio e come funzionano?',
-      answer: 'Due strumenti per il negozio con un clic sono disponibili. Il Campo Nome aggiunge una riga \\"Nome: ____\\" alla pagina per l\'identificazione dell'utente. Le Righe di Scrittura aggiungono righe guidate per l\'esercizio di scrittura. Combinati con immagini tematiche da colorare, questi strumenti trasformano semplici pagine da colorare in schede di attivit\à a doppio scopo per il negozio che i venditori cercano attivamente e acquistano.',
+      answer: 'Due strumenti per il negozio con un clic sono disponibili. Il Campo Nome aggiunge una riga \\"Nome: ____\\" alla pagina per l\'identificazione dell\'utente. Le Righe di Scrittura aggiungono righe guidate per l\'esercizio di scrittura. Combinati con immagini tematiche da colorare, questi strumenti trasformano semplici pagine da colorare in schede di attivit\à a doppio scopo per il negozio che i venditori cercano attivamente e acquistano.',
     },
     {
       question: 'Posso caricare le mie immagini da usare sulle pagine da colorare?',

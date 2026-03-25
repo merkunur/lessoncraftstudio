@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Usa la Densità della Griglia come Controllo Principale della Difficoltà',
-      description: 'La dimensione della griglia controlla direttamente la difficoltà del Vedo Vedo. Una griglia 5×5 (25 celle) crea schede facili con immagini grandi e ben visibili — perfette per prodotti per la scuola dell\'infanzia. Una griglia 7×7 (49 celle) bilancia sfida e chiarezza per utenti della primaria. Una griglia 10×10 (100 celle) crea scene dense e impegnative dove trovare oggetti specifici richiede vero impegno. Crea pacchetti a difficoltà progressiva con sezioni chiaramente etichettate facile (5×5), medio (7×7) e difficile (10×10) — gli acquirenti pagano prezzi premium per prodotti che crescono con l'utente.',
+      description: 'La dimensione della griglia controlla direttamente la difficoltà del Vedo Vedo. Una griglia 5×5 (25 celle) crea schede facili con immagini grandi e ben visibili — perfette per prodotti per la scuola dell\'infanzia. Una griglia 7×7 (49 celle) bilancia sfida e chiarezza per utenti della primaria. Una griglia 10×10 (100 celle) crea scene dense e impegnative dove trovare oggetti specifici richiede vero impegno. Crea pacchetti a difficoltà progressiva con sezioni chiaramente etichettate facile (5×5), medio (7×7) e difficile (10×10) — gli acquirenti pagano prezzi premium per prodotti che crescono con l\'utente.',
     },
     {
       title: 'Sfrutta il Trova le Lettere per Prodotti Fonetici Che i Concorrenti Non Possono Eguagliare',

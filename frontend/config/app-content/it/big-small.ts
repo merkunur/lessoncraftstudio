@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Seleziona immagini e aggiungi testo decorativo',
         description:
-          'Esplora 104 collezioni di immagini tematiche con oltre 3100 illustrazioni — animali, cibo, veicoli, natura e decine di altri — oppure carica le tue immagini personalizzate. Ogni tema fornisce un set coordinato di immagini che funzionano bene insieme visivamente. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi nome e data dell'utente o istruzioni con cinque font: Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Trascina, ridimensiona e riposiziona ogni elemento nel canvas completo Fabric.js.',
+          'Esplora 104 collezioni di immagini tematiche con oltre 3100 illustrazioni — animali, cibo, veicoli, natura e decine di altri — oppure carica le tue immagini personalizzate. Ogni tema fornisce un set coordinato di immagini che funzionano bene insieme visivamente. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi nome e data dell\'utente o istruzioni con cinque font: Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Trascina, ridimensiona e riposiziona ogni elemento nel canvas completo Fabric.js.',
       },
       {
         title: 'Genera il foglio risposte e scarica',

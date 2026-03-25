@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Imposta il tipo di carattere e aggiungi tocchi personalizzati',
         description:
-          'Scegli tra griglie di lettere in maiuscolo (predefinito) e minuscolo per adattarti al livello di competenza desiderato. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi per nome e data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per la massima leggibilità.',
+          'Scegli tra griglie di lettere in maiuscolo (predefinito) e minuscolo per adattarti al livello di competenza desiderato. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi per nome e data dell\'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per la massima leggibilità.',
       },
       {
         title: 'Genera il foglio risposte e scarica',

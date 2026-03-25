@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar den automatiskt genererade rubriken?',
       answer:
-        'Varje arbetsblad inkluderar en stiliserad rubrik med en orange yttre ram (8px streck) och 34px marginaler. Titeln \"Bildväg\" och beskrivningen \"Följ vägen från start till mål!\" översätts automatiskt till alla 11 stödda språk. Stående arbetsblad visar en 240px rubrik; liggande arbetsblad använder en kompakt 165px layout. Rubriken renderas med lokaliserad text för engelska, tyska (Bilderpfad), franska (Chemin d'Images), svenska (Bildväg) och alla andra stödda språk.',
+        'Varje arbetsblad inkluderar en stiliserad rubrik med en orange yttre ram (8px streck) och 34px marginaler. Titeln \"Bildväg\" och beskrivningen \"Följ vägen från start till mål!\" översätts automatiskt till alla 11 stödda språk. Stående arbetsblad visar en 240px rubrik; liggande arbetsblad använder en kompakt 165px layout. Rubriken renderas med lokaliserad text för engelska, tyska (Bilderpfad), franska (Chemin d\'Images), svenska (Bildväg) och alla andra stödda språk.',
     },
     {
       question: 'Finns det en gratis provversion?',

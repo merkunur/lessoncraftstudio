@@ -31,8 +31,8 @@ const content: ToolContent = {  seo: {
         description: "Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches d'addition. L'outil s'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l'aperçu en temps réel. Aucun compte ni téléchargement requis.",
       },
       {
-        title: 'Choisir le Mode d'Exercice',
-        description: "Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi quatre modes : Image + Image (les deux termes sont représentés par des groupes d'images), Image + Nombre (un groupe d'images plus un chiffre), Trouver le Terme Manquant (un terme est caché et l'enfant doit le deviner), ou Mode Mixte (combine aléatoirement les trois styles sur une même fiche).",
+        title: `Choisir le Mode d'Exercice`,
+        description: "Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi quatre modes : Image + Image (les deux termes sont représentés par des groupes d`images), Image + Nombre (un groupe d'images plus un chiffre), Trouver le Terme Manquant (un terme est caché et l`enfant doit le deviner), ou Mode Mixte (combine aléatoirement les trois styles sur une même fiche).",
       },
       {
         title: 'Régler la Plage de Difficulté',
@@ -52,7 +52,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Affiner les Options de la Fiche",
-        description: "Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe plus entre les groupes d'images, incluez les numéros d'exercice et basculez le style de zone de réponse attrayant. Chaque option met à jour l'aperçu en direct instantanément.",
+        description: "Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe plus entre les groupes d`images, incluez les numéros d'exercice et basculez le style de zone de réponse attrayant. Chaque option met à jour l`aperçu en direct instantanément.",
       },
       {
         title: 'Générer et Télécharger',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: "Packs d'Activités d'Addition Thématiques",
-      description: "Créez un ensemble de 10 à 20 fiches autour d'un seul thème — dinosaures, animaux de la ferme ou créatures marines. Regroupez-les en pack PDF et vendez sur Etsy.fr ou Gumroad. Les parents adorent les packs thématiques car ils maintiennent l'engagement des enfants plus longtemps. Chaque thème de la bibliothèque contient assez de variété pour remplir un pack entier sans répéter d'images, ce qui signifie que les acheteurs obtiennent une vraie diversité visuelle dans chaque téléchargement. Positionnez vos packs entre 3 € et 5 € pour les thèmes individuels et 8 € à 12 € pour les méga-packs combinant plusieurs thèmes avec une courbe de difficulté progressive.",
+      description: "Créez un ensemble de 10 à 20 fiches autour d`un seul thème — dinosaures, animaux de la ferme ou créatures marines. Regroupez-les en pack PDF et vendez sur Etsy.fr ou Gumroad. Les parents adorent les packs thématiques car ils maintiennent l'engagement des enfants plus longtemps. Chaque thème de la bibliothèque contient assez de variété pour remplir un pack entier sans répéter d`images, ce qui signifie que les acheteurs obtiennent une vraie diversité visuelle dans chaque téléchargement. Positionnez vos packs entre 3 € et 5 € pour les thèmes individuels et 8 € à 12 € pour les méga-packs combinant plusieurs thèmes avec une courbe de difficulté progressive.",
     },
     {
       title: "Ensembles de Devoirs Différenciés",
@@ -84,19 +84,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Fiches de Maths Bilingues',
-      description: "Changez la langue du contenu pour créer des fiches avec des légendes d'images en allemand, espagnol, portugais ou l'une des 11 langues prises en charge. Idéal pour les classes FLE, les familles bilingues qui font l'école à la maison ou les vendeurs internationaux. La capacité multilingue ouvre des opportunités sur les marchés internationaux que la plupart des concurrents ignorent complètement. Les fiches de maths en allemand et en espagnol font face à une concurrence nettement moindre sur Etsy que celles en français, ce qui signifie une meilleure visibilité et un meilleur taux de conversion.",
+      description: "Changez la langue du contenu pour créer des fiches avec des légendes d`images en allemand, espagnol, portugais ou l'une des 11 langues prises en charge. Idéal pour les classes FLE, les familles bilingues qui font l`école à la maison ou les vendeurs internationaux. La capacité multilingue ouvre des opportunités sur les marchés internationaux que la plupart des concurrents ignorent complètement. Les fiches de maths en allemand et en espagnol font face à une concurrence nettement moindre sur Etsy que celles en français, ce qui signifie une meilleure visibilité et un meilleur taux de conversion.",
     },
   ],
 
   businessIdeas: [
     {
       title: "Boutique de Fiches de Maths Imprimables sur Etsy",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches d'addition imprimables. Créez 15 à 20 packs thématiques (animaux, véhicules, nourriture, etc.) entre 3 € et 5 € chacun. Sans stock et avec livraison numérique instantanée, les marges sont proches de 100 % après les frais Etsy. Concentrez-vous sur la construction d'une identité de marque cohérente avec des noms et un style visuel uniformes sur tous vos listings. Utilisez les bordures et fonds pour créer une esthétique reconnaissable qui donne à votre boutique un aspect soigné plutôt qu'aléatoire.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches d`addition imprimables. Créez 15 à 20 packs thématiques (animaux, véhicules, nourriture, etc.) entre 3 € et 5 € chacun. Sans stock et avec livraison numérique instantanée, les marges sont proches de 100 % après les frais Etsy. Concentrez-vous sur la construction d'une identité de marque cohérente avec des noms et un style visuel uniformes sur tous vos listings. Utilisez les bordures et fonds pour créer une esthétique reconnaissable qui donne à votre boutique un aspect soigné plutôt qu`aléatoire.",
       platform: 'Etsy.fr',
     },
     {
       title: 'Vendeur sur Gumroad',
-      description: "Téléchargez des packs de fiches d'addition différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d'addition avec images ». Incluez les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings Gumroad, investissez du temps dans les images d'aperçu car les vendeurs prennent leurs décisions d'achat presque entièrement sur les vignettes visuelles. Générez des fiches d'exemple avec les thèmes les plus colorés et incluez des captures d'écran annotées montrant les options de difficulté et les modes d'exercice.",
+      description: "Téléchargez des packs de fiches d`addition différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d'addition avec images ». Incluez les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings Gumroad, investissez du temps dans les images d'aperçu car les vendeurs prennent leurs décisions d'achat presque entièrement sur les vignettes visuelles. Générez des fiches d'exemple avec les thèmes les plus colorés et incluez des captures d'écran annotées montrant les options de difficulté et les modes d`exercice.",
       platform: 'Gumroad',
     },
     {
@@ -126,7 +126,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Adaptez le Thème à la Saison pour de Meilleures Ventes",
-      description: "Les produits saisonniers surpassent les evergreen pendant les pics de ventes. Créez des packs d'addition thème citrouille en septembre, thème bonhomme de neige en novembre et thème fleurs en mars. Listez-les 2 à 3 semaines avant le début de la saison pour capter les acheteurs précoces. Suivez quels thèmes saisonniers génèrent le plus de favoris et d'achats pour prioriser leur réapprovisionnement et leur extension l'année suivante.",
+      description: "Les produits saisonniers surpassent les evergreen pendant les pics de ventes. Créez des packs d`addition thème citrouille en septembre, thème bonhomme de neige en novembre et thème fleurs en mars. Listez-les 2 à 3 semaines avant le début de la saison pour capter les acheteurs précoces. Suivez quels thèmes saisonniers génèrent le plus de favoris et d'achats pour prioriser leur réapprovisionnement et leur extension l`année suivante.",
     },
     {
       title: 'Incluez Toujours le Corrigé',
@@ -194,12 +194,12 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: "Fiches d'Addition — Détails Complets du Produit" },
+    { pageType: `app', slug: 'addition-fiches', anchorText: "Fiches d`Addition — Détails Complets du Produit" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
-    { pageType: 'tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d'Exercices de Maths" },
-    { pageType: 'tool', slug: 'generateur-addition-codee', anchorText: "Générateur de Fiches d'Addition Codée" },
+    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: "Générateur de Fiches d`Addition Codée" },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-cherche-et-compte', anchorText: 'Générateur Cherche et Compte' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Générateur de Pages de Coloriage" },
   ],

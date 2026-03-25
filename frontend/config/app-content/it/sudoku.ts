@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Genera il Puzzle Sudoku',
         description:
-          "Clicca su Genera per creare la griglia 4×4 di sudoku con immagini. L'app posiziona le tue 4 immagini selezionate in una disposizione di sudoku valida dove ogni immagine compare esattamente una volta per riga e una volta per colonna, poi rimuove il numero configurato di celle in base all'impostazione di difficoltà. La griglia premium presenta colori alternati nei blocchi 2×2 in azzurro (#F8F9FC) e rosa chiaro (#FFF5F7), con divisori centrali in grassetto, ombre multilivello e un bordo esterno indaco (#667EEA) con angoli arrotondati. Un'intestazione stilizzata «Sudoku con Immagini» appare sopra la griglia con sfondo viola (#5E35B1) e testo del titolo localizzato.",
+          "Clicca su Genera per creare la griglia 4×4 di sudoku con immagini. L`app posiziona le tue 4 immagini selezionate in una disposizione di sudoku valida dove ogni immagine compare esattamente una volta per riga e una volta per colonna, poi rimuove il numero configurato di celle in base all'impostazione di difficoltà. La griglia premium presenta colori alternati nei blocchi 2×2 in azzurro (#F8F9FC) e rosa chiaro (#FFF5F7), con divisori centrali in grassetto, ombre multilivello e un bordo esterno indaco (#667EEA) con angoli arrotondati. Un`intestazione stilizzata «Sudoku con Immagini» appare sopra la griglia con sfondo viola (#5E35B1) e testo del titolo localizzato.",
       },
       {
         title: "Genera il Foglio Risposte e Scarica",

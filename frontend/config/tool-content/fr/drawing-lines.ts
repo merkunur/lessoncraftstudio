@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches de Graphisme",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de graphisme immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de graphisme immédiatement.",
       },
       {
         title: "Définir la Mise en Page et l'Arrière-Plan",
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: "Sélectionner un Modèle de Ligne",
-        description: "Dans le panneau Contenu, choisissez parmi huit modèles de lignes basés sur des SVG. Quatre modèles de courbes créent des tracés fluides et amples en orientation paysage avec 4 paires d'images chacun — chaque variante offre une forme d'arc différente pour la variété visuelle. Deux modèles de diagonales produisent des lignes en angle en orientation portrait avec 5 paires. Un modèle horizontal génère des lignes droites de gauche à droite en portrait avec 5 paires. Un modèle vertical crée des lignes de haut en bas en portrait avec 4 paires. Le modèle sélectionné définit automatiquement l'orientation optimale de la page pour ce type de ligne.",
+        description: "Dans le panneau Contenu, choisissez parmi huit modèles de lignes basés sur des SVG. Quatre modèles de courbes créent des tracés fluides et amples en orientation paysage avec 4 paires d`images chacun — chaque variante offre une forme d'arc différente pour la variété visuelle. Deux modèles de diagonales produisent des lignes en angle en orientation portrait avec 5 paires. Un modèle horizontal génère des lignes droites de gauche à droite en portrait avec 5 paires. Un modèle vertical crée des lignes de haut en bas en portrait avec 4 paires. Le modèle sélectionné définit automatiquement l`orientation optimale de la page pour ce type de ligne.",
       },
       {
         title: "Choisir un Thème et Parcourir les Paires d'Images",
-        description: "Parcourez 104 collections d'images thématiques avec plus de 3 100 illustrations colorées organisées par catégorie — animaux, véhicules, nourriture, nature, métiers, fêtes et des dizaines d'autres. Chaque thème fournit des images coordonnées qui s'associent naturellement dans les exercices de tracé de lignes : animaux de la ferme aux deux extrémités, créatures marines assorties ensemble, véhicules se reliant à travers les courbes. Utilisez la fonction de recherche pour trouver des images spécifiques dans tous les thèmes. Ou téléversez vos propres images personnalisées pour du contenu spécialisé.",
+        description: "Parcourez 104 collections d`images thématiques avec plus de 3 100 illustrations colorées organisées par catégorie — animaux, véhicules, nourriture, nature, métiers, fêtes et des dizaines d'autres. Chaque thème fournit des images coordonnées qui s`associent naturellement dans les exercices de tracé de lignes : animaux de la ferme aux deux extrémités, créatures marines assorties ensemble, véhicules se reliant à travers les courbes. Utilisez la fonction de recherche pour trouver des images spécifiques dans tous les thèmes. Ou téléversez vos propres images personnalisées pour du contenu spécialisé.",
       },
       {
         title: "Utiliser le Remplissage Automatique pour la Création en Lot",
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: "Ajouter du Texte et Personnaliser les Champs",
-        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d'identification de l'utilisateur. L'en-tête auto-généré affiche un bandeau vert vif avec « Exercice de Tracé de Lignes » localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d'alignement, les contrôles de verrouillage/déverrouillage et l'annulation et le rétablissement illimités.",
+        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d`identification de l'utilisateur. L'en-tête auto-généré affiche un bandeau vert vif avec « Exercice de Tracé de Lignes » localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d'alignement, les contrôles de verrouillage/déverrouillage et l`annulation et le rétablissement illimités.",
       },
       {
         title: "Prévisualiser et Ajuster la Difficulté des Lignes",
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: "Exporter en PDF ou JPEG à 300 DPI",
-        description: "Téléchargez votre fiche terminée en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Activez les niveaux de gris pour des versions économiques en encre idéales pour l'impression en volume et les intérieurs KDP. Aucun corrigé séparé n'est nécessaire — le tracé lui-même guide l'utilisateur, faisant de chaque fiche une activité auto-corrective. Chaque export est prêt pour la production : listings Etsy.fr, intérieurs Amazon KDP et fichiers produits Gumroad sans post-traitement requis.",
+        description: "Téléchargez votre fiche terminée en JPEG haute résolution ou en PDF prêt à imprimer à 300 DPI. Activez les niveaux de gris pour des versions économiques en encre idéales pour l`impression en volume et les intérieurs KDP. Aucun corrigé séparé n'est nécessaire — le tracé lui-même guide l`utilisateur, faisant de chaque fiche une activité auto-corrective. Chaque export est prêt pour la production : listings Etsy.fr, intérieurs Amazon KDP et fichiers produits Gumroad sans post-traitement requis.",
       },
     ],
   },
@@ -73,19 +73,19 @@ const content: ToolContent = {
     },
     {
       title: "Ensembles de Préparation à l'Écriture",
-      description: "Construisez des fiches de graphisme spécifiquement conçues comme préparation à l'écriture. Les lignes horizontales pratiquent le suivi gauche-droite utilisé en lecture et en écriture. Les lignes verticales développent les tracés de haut en bas essentiels à la formation des lettres. Les courbes imitent les mouvements arrondis nécessaires pour les lettres comme c, o, s et e. Les diagonales construisent les tracés angulaires utilisés dans les lettres comme k, v, w et z. Proposez ces fiches comme des lots « Préparation à l'écriture » qui font le pont entre le développement de la motricité fine et les compétences de littéracie — une catégorie de produits avec une forte demande toute l'année auprès des vendeurs de maternelle et des parents.",
+      description: "Construisez des fiches de graphisme spécifiquement conçues comme préparation à l`écriture. Les lignes horizontales pratiquent le suivi gauche-droite utilisé en lecture et en écriture. Les lignes verticales développent les tracés de haut en bas essentiels à la formation des lettres. Les courbes imitent les mouvements arrondis nécessaires pour les lettres comme c, o, s et e. Les diagonales construisent les tracés angulaires utilisés dans les lettres comme k, v, w et z. Proposez ces fiches comme des lots « Préparation à l'écriture » qui font le pont entre le développement de la motricité fine et les compétences de littéracie — une catégorie de produits avec une forte demande toute l`année auprès des vendeurs de maternelle et des parents.",
     },
     {
       title: "Ensembles Thématiques d'Association de Paires d'Images",
-      description: "Exploitez les 104 collections thématiques pour créer des fiches de graphisme où les utilisateurs relient des images assorties à travers des tracés guidés. Chaque thème devient un listing de produit distinct : tracé de lignes animaux de la ferme, dessin de courbes dinosaures, pratique de diagonales créatures marines, lignes verticales exploration spatiale. Le format d'association de paires d'images ajoute un élément d'identification à l'exercice de motricité fine — les utilisateurs doivent trouver l'image correspondante à la fin de chaque ligne, combinant discrimination visuelle et contrôle du crayon dans une seule activité engageante.",
+      description: "Exploitez les 104 collections thématiques pour créer des fiches de graphisme où les utilisateurs relient des images assorties à travers des tracés guidés. Chaque thème devient un listing de produit distinct : tracé de lignes animaux de la ferme, dessin de courbes dinosaures, pratique de diagonales créatures marines, lignes verticales exploration spatiale. Le format d`association de paires d'images ajoute un élément d'identification à l'exercice de motricité fine — les utilisateurs doivent trouver l`image correspondante à la fin de chaque ligne, combinant discrimination visuelle et contrôle du crayon dans une seule activité engageante.",
     },
     {
       title: "Lots Échantillons de Types de Lignes Mixtes",
-      description: "Combinez les huit modèles dans des packs échantillons qui présentent chaque type de ligne en un seul produit. Incluez deux fiches de courbes, une de diagonale, une horizontale et une verticale pour un échantillon de cinq pages à un prix d'entrée. Passez à des échantillons de dix ou vingt pages en utilisant différents thèmes à travers les modèles. Les lots échantillons mixtes servent d'aimants à prospects guidant les clients vers des packs thématiques complets et des cahiers de motricité fine — une stratégie efficace d'échelle de produits.",
+      description: "Combinez les huit modèles dans des packs échantillons qui présentent chaque type de ligne en un seul produit. Incluez deux fiches de courbes, une de diagonale, une horizontale et une verticale pour un échantillon de cinq pages à un prix d`entrée. Passez à des échantillons de dix ou vingt pages en utilisant différents thèmes à travers les modèles. Les lots échantillons mixtes servent d'aimants à prospects guidant les clients vers des packs thématiques complets et des cahiers de motricité fine — une stratégie efficace d`échelle de produits.",
     },
     {
       title: "Lots Multi-Formats d'Apprentissage Visuel",
-      description: "Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches de séquences logiques et des fiches d'association en utilisant des thèmes coordonnés. Le tracé de lignes développe le contrôle du crayon le long de chemins guidés. Le dessin sur quadrillage construit la reproduction spatiale. Les pages de coloriage entraînent la reconnaissance des couleurs et la motricité fine. Chaque format exerce une compétence visuo-motrice différente. Les lots multi-formats se vendent plus cher qu'un seul type d'activité et offrent aux utilisateurs une pratique variée avec un thème unifié à travers chaque activité.",
+      description: "Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches de séquences logiques et des fiches d`association en utilisant des thèmes coordonnés. Le tracé de lignes développe le contrôle du crayon le long de chemins guidés. Le dessin sur quadrillage construit la reproduction spatiale. Les pages de coloriage entraînent la reconnaissance des couleurs et la motricité fine. Chaque format exerce une compétence visuo-motrice différente. Les lots multi-formats se vendent plus cher qu'un seul type d`activité et offrent aux utilisateurs une pratique variée avec un thème unifié à travers chaque activité.",
     },
   ],
 
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: "Série de Cahiers de Tracé de Lignes pour Amazon KDP",
-      description: "Compilez plus de 80 exercices de tracé de lignes dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : « Graphisme Débutant » couvre les modèles horizontaux et verticaux. « Graphisme Intermédiaire » introduit les quatre variantes de courbes. « Graphisme Avancé » présente les modèles de diagonales mélangés aux courbes. Les images colorées s'impriment de manière vibrante pour des intérieurs engageants et attrayants pour les enfants. Le format sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction. Les cahiers de motricité fine remplissent une niche spécifique d'apprentissage précoce avec une demande constante toute l'année.",
+      description: "Compilez plus de 80 exercices de tracé de lignes dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : « Graphisme Débutant » couvre les modèles horizontaux et verticaux. « Graphisme Intermédiaire » introduit les quatre variantes de courbes. « Graphisme Avancé » présente les modèles de diagonales mélangés aux courbes. Les images colorées s`impriment de manière vibrante pour des intérieurs engageants et attrayants pour les enfants. Le format sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction. Les cahiers de motricité fine remplissent une niche spécifique d'apprentissage précoce avec une demande constante toute l`année.",
       platform: 'Amazon KDP',
     },
     {
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: "Kit Complet de Motricité Fine sur Gumroad",
-      description: "Regroupez les fiches de graphisme (huit modèles, quatre types de lignes) avec des fiches de dessin sur quadrillage, des pages de coloriage et des fiches d'écriture pour un kit complet de compétences en motricité fine sur Gumroad. Chaque format cible une compétence différente : le tracé de lignes développe le contrôle guidé du crayon, le dessin sur grille construit la reproduction spatiale, les pages de coloriage développent l'expression créative, et l'écriture fait le pont entre les compétences visuo-motrices et la littéracie. Un kit multi-formats justifie un prix premium et se différencie des concurrents à format unique.",
+      description: "Regroupez les fiches de graphisme (huit modèles, quatre types de lignes) avec des fiches de dessin sur quadrillage, des pages de coloriage et des fiches d`écriture pour un kit complet de compétences en motricité fine sur Gumroad. Chaque format cible une compétence différente : le tracé de lignes développe le contrôle guidé du crayon, le dessin sur grille construit la reproduction spatiale, les pages de coloriage développent l'expression créative, et l`écriture fait le pont entre les compétences visuo-motrices et la littéracie. Un kit multi-formats justifie un prix premium et se différencie des concurrents à format unique.",
       platform: 'Gumroad',
     },
     {
@@ -145,18 +145,18 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez les Niveaux de Gris pour l'Impression Économique",
-      description: "Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l'impression en volume en ligne où les coûts d'impression couleur sont une préoccupation. Même en niveaux de gris, les paires d'images restent suffisamment distinctes pour l'association, et les tracés SVG se reproduisent parfaitement en noir et blanc. Réservez les versions couleur pour les listings Etsy.fr où l'attrait visuel génère des clics.",
+      description: "Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l`impression en volume en ligne où les coûts d'impression couleur sont une préoccupation. Même en niveaux de gris, les paires d'images restent suffisamment distinctes pour l'association, et les tracés SVG se reproduisent parfaitement en noir et blanc. Réservez les versions couleur pour les listings Etsy.fr où l`attrait visuel génère des clics.",
     },
     {
       title: "Combinez le Graphisme avec d'Autres Outils Visuels pour des Lots Premium",
-      description: "Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches d'association et de discrimination visuelle en utilisant des thèmes coordonnés. Chaque outil exerce une compétence visuo-motrice différente. Les lots visuels multi-formats se vendent plus cher qu'un seul type d'activité et offrent aux utilisateurs une pratique variée à travers la motricité fine, le raisonnement spatial et la discrimination visuelle.",
+      description: "Associez les fiches de graphisme avec des pages de coloriage, des fiches de dessin sur quadrillage, des fiches d`association et de discrimination visuelle en utilisant des thèmes coordonnés. Chaque outil exerce une compétence visuo-motrice différente. Les lots visuels multi-formats se vendent plus cher qu'un seul type d`activité et offrent aux utilisateurs une pratique variée à travers la motricité fine, le raisonnement spatial et la discrimination visuelle.",
     },
   ],
 
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L'outil propose un essai gratuit avec toutes les fonctionnalités — les huit modèles de lignes, la bibliothèque d'images complète avec 104 thèmes, le remplissage automatique, le téléversement d'images personnalisées et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l'essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les huit modèles de lignes, la bibliothèque d'images complète avec 104 thèmes, le remplissage automatique, le téléversement d'images personnalisées et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les huit modèles de lignes ?",
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: "Pourquoi n'y a-t-il pas de corrigé ?",
-      answer: "Les fiches de Graphisme n'ont pas besoin de corrigé séparé car le tracé lui-même guide l'utilisateur. Le modèle de ligne SVG imprimé sur la fiche montre exactement où tracer — les utilisateurs suivent le chemin visible d'une image à sa correspondance. L'exercice est auto-correctif : si la ligne de l'utilisateur suit le tracé et atteint l'image correspondante, il l'a complété correctement.",
+      answer: "Les fiches de Graphisme n`ont pas besoin de corrigé séparé car le tracé lui-même guide l'utilisateur. Le modèle de ligne SVG imprimé sur la fiche montre exactement où tracer — les utilisateurs suivent le chemin visible d'une image à sa correspondance. L'exercice est auto-correctif : si la ligne de l'utilisateur suit le tracé et atteint l'image correspondante, il l`a complété correctement.",
     },
     {
       question: "Les fiches sont-elles sensibles à la langue ?",
@@ -206,9 +206,9 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: "generateur-train-suites-logiques", anchorText: "Créateur de Fiches Train de Suites Logiques" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Créateur de Fiches d'Écriture' },
+    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: 'Créateur de Fiches d'Écriture` },
   ],
 
   visuals: {

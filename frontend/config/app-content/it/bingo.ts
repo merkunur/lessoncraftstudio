@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Genera le Cartelle di Bingo',
         description:
-          "Clicca su Genera per creare le tue cartelle di bingo. L'app riempie la griglia configurata con immagini o parole dal tema selezionato, poi crea fiches circolari con bordi tratteggiati sotto la cartella — le fiches sono mescolate con l'algoritmo Fisher-Yates così non corrispondono mai direttamente al layout della cartella. Se hai richiesto più cartelle, ciascuna ottiene una selezione casuale diversa dal pool di immagini, garantendo che ogni cartella del lotto sia unica. La prima cartella appare immediatamente sul canvas; tutte le cartelle sono incluse nell'esportazione ZIP in lotto.",
+          "Clicca su Genera per creare le tue cartelle di bingo. L`app riempie la griglia configurata con immagini o parole dal tema selezionato, poi crea fiches circolari con bordi tratteggiati sotto la cartella — le fiches sono mescolate con l'algoritmo Fisher-Yates così non corrispondono mai direttamente al layout della cartella. Se hai richiesto più cartelle, ciascuna ottiene una selezione casuale diversa dal pool di immagini, garantendo che ogni cartella del lotto sia unica. La prima cartella appare immediatamente sul canvas; tutte le cartelle sono incluse nell`esportazione ZIP in lotto.",
       },
       {
         title: "Scarica Cartelle e Foglio di Richiamo",
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Griglia di Bingo Configurabile da 3×3 a 5×5 con Controlli Indipendenti di Righe e Colonne",
         description:
-          "Imposta le righe e le colonne in modo indipendente da 3 a 5, creando griglie da 3×3 (9 celle) fino a 5×5 (25 celle). Il valore predefinito è 4×4 (16 celle), ideale per cartelle di bingo standard. Una griglia 3×3 è perfetta per partite rapide con meno elementi da seguire, mentre una griglia 5×5 offre l'esperienza negozica di bingo con 25 celle per partite più lunghe. L'area della griglia utilizza il 60% dell'altezza disponibile del canvas (massimo 500 px) per proporzioni ottimali della cartella. I controlli indipendenti di righe e colonne permettono di creare griglie non quadrate come 3×5 o 5×3 per formati di cartelle di bingo unici che si distinguono nelle inserzioni dei marketplace.",
+          "Imposta le righe e le colonne in modo indipendente da 3 a 5, creando griglie da 3×3 (9 celle) fino a 5×5 (25 celle). Il valore predefinito è 4×4 (16 celle), ideale per cartelle di bingo standard. Una griglia 3×3 è perfetta per partite rapide con meno elementi da seguire, mentre una griglia 5×5 offre l`esperienza negozica di bingo con 25 celle per partite più lunghe. L'area della griglia utilizza il 60% dell`altezza disponibile del canvas (massimo 500 px) per proporzioni ottimali della cartella. I controlli indipendenti di righe e colonne permettono di creare griglie non quadrate come 3×5 o 5×3 per formati di cartelle di bingo unici che si distinguono nelle inserzioni dei marketplace.",
       },
       {
         title: "Generazione in Lotto da 1 a 10 Cartelle di Bingo Uniche per Scheda",
@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: "Attività di Bingo per il negozio su Gumroad",
         description:
-          "Crea set di bingo pronti per giocare con cartelle uniche per ogni giocatore e fogli di richiamo per l'venditore. i venditori che cercano attività di bingo su Gumroad apprezzano prodotti pronti all'uso — stampa le cartelle, distribuiscile e inizia a giocare immediatamente. Crea set allineati al mercato: bingo di vocabolario con la modalità riempimento parole, bingo di riconoscimento immagini con la modalità riempimento immagini, e bingo in modalità mista per pacchetti scalati per livello. Includi 10 cartelle uniche per set (sufficienti per un piccolo gruppo) con un foglio di richiamo. La modalità riempimento parole con i nomi localizzati delle immagini trasforma il bingo in un'attività di ripasso del vocabolario.",
+          "Crea set di bingo pronti per giocare con cartelle uniche per ogni giocatore e fogli di richiamo per l`venditore. i venditori che cercano attività di bingo su Gumroad apprezzano prodotti pronti all'uso — stampa le cartelle, distribuiscile e inizia a giocare immediatamente. Crea set allineati al mercato: bingo di vocabolario con la modalità riempimento parole, bingo di riconoscimento immagini con la modalità riempimento immagini, e bingo in modalità mista per pacchetti scalati per livello. Includi 10 cartelle uniche per set (sufficienti per un piccolo gruppo) con un foglio di richiamo. La modalità riempimento parole con i nomi localizzati delle immagini trasforma il bingo in un`attività di ripasso del vocabolario.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {

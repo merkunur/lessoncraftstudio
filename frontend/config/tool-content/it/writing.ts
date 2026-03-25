@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Scarica come PDF o JPEG',
-        description: "Esporta la scheda di scrittura come PDF pronto per la stampa o JPEG ad alta risoluzione. Il motore di esportazione renderizza con moltiplicatore 6x (circa 300 DPI) così le linee guida, i dettagli delle lettere e le frecce per l'ordine dei tratti vengono stampati nitidi e precisi. Attiva la scala di grigi per output ottimizzato per l'inchiostro ideale per la stampa in serie online o gli interni di libri KDP. Non c'è chiave di risposta per le schede di scrittura — le modalità di pratica stesse fungono da guida. Ogni esportazione è pronta per inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
+        description: "Esporta la scheda di scrittura come PDF pronto per la stampa o JPEG ad alta risoluzione. Il motore di esportazione renderizza con moltiplicatore 6x (circa 300 DPI) così le linee guida, i dettagli delle lettere e le frecce per l`ordine dei tratti vengono stampati nitidi e precisi. Attiva la scala di grigi per output ottimizzato per l'inchiostro ideale per la stampa in serie online o gli interni di libri KDP. Non c`è chiave di risposta per le schede di scrittura — le modalità di pratica stesse fungono da guida. Ogni esportazione è pronta per inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
       },
     ],
   },
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: "Quaderni di scrittura a mano per KDP",
-      description: "Compila 80–120 pagine di pratica scrittura in un quaderno stampato per Amazon KDP. Struttura il libro come progressione didattica: tratti pre-scrittura nel Capitolo 1, lettere maiuscole con ordine tratti in modalità Traccia nel Capitolo 2, maiuscole in Traccia Sfumata nel Capitolo 3, lettere minuscole nel Capitolo 4, e Copia Guidata con parole complete nel Capitolo 5. Usa l'indipendenza per riga per mescolare le modalità all'interno dei capitoli per varietà. I quaderni di scrittura vendono costantemente tutto l'anno e beneficiano del modello print-on-demand di KDP — nessun inventario necessario.",
+      description: "Compila 80–120 pagine di pratica scrittura in un quaderno stampato per Amazon KDP. Struttura il libro come progressione didattica: tratti pre-scrittura nel Capitolo 1, lettere maiuscole con ordine tratti in modalità Traccia nel Capitolo 2, maiuscole in Traccia Sfumata nel Capitolo 3, lettere minuscole nel Capitolo 4, e Copia Guidata con parole complete nel Capitolo 5. Usa l`indipendenza per riga per mescolare le modalità all'interno dei capitoli per varietà. I quaderni di scrittura vendono costantemente tutto l`anno e beneficiano del modello print-on-demand di KDP — nessun inventario necessario.",
     },
     {
       title: "Centri di scrittura differenziati per il negozio",
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: "In cosa differisce la scrittura dal treno alfabeto, dal pregrafismo e dagli strumenti per parole?",
-      answer: "Le schede di scrittura a mano si concentrano sulla formazione delle lettere — gli utenti tracciano, copiano e scrivono lettere con istruzioni sull'ordine dei tratti e supporto progressivo. Il Treno Alfabeto è un esercizio di riconoscimento lettere con abbinamento (collegare lettere a immagini su un treno). Il Pregrafismo è tracciatura di linee per lo sviluppo motorio senza forme di lettere. Cerca Parole, Parole Mescolate e Indovina Parole sono puzzle di ortografia e vocabolario. La Scrittura è l'unico formato che insegna come formare fisicamente le lettere con l'ordine corretto dei tratti.",
+      answer: "Le schede di scrittura a mano si concentrano sulla formazione delle lettere — gli utenti tracciano, copiano e scrivono lettere con istruzioni sull`ordine dei tratti e supporto progressivo. Il Treno Alfabeto è un esercizio di riconoscimento lettere con abbinamento (collegare lettere a immagini su un treno). Il Pregrafismo è tracciatura di linee per lo sviluppo motorio senza forme di lettere. Cerca Parole, Parole Mescolate e Indovina Parole sono puzzle di ortografia e vocabolario. La Scrittura è l'unico formato che insegna come formare fisicamente le lettere con l`ordine corretto dei tratti.",
     },
     {
       question: "Perché non c'è chiave di risposta?",

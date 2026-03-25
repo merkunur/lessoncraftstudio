@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Pacchetti algebra premium su Gumroad",
-      description: "Carica pacchetti di puzzle algebra differenziati su Gumroad. i venditori cercano costantemente \"schede algebra\" e \"puzzle matematici\". Includi tutti e quattro i livelli di difficoltà, entrambe le modalità operative, foglio delle risposte e una guida per l'venditore che spiega come funziona il formato algebra visuale. La garanzia di soluzione unica aggiunge credibilità che i venditori apprezzano nella scelta dei materiali. Una guida d'uso che mappa ogni livello agli standard scolastici aiuta i venditori a giustificare l'acquisto e aumenta le recensioni positive.",
+      description: "Carica pacchetti di puzzle algebra differenziati su Gumroad. i venditori cercano costantemente \"schede algebra\" e \"puzzle matematici\". Includi tutti e quattro i livelli di difficoltà, entrambe le modalità operative, foglio delle risposte e una guida per l`venditore che spiega come funziona il formato algebra visuale. La garanzia di soluzione unica aggiunge credibilità che i venditori apprezzano nella scelta dei materiali. Una guida d'uso che mappa ogni livello agli standard scolastici aiuta i venditori a giustificare l`acquisto e aumenta le recensioni positive.",
       platform: 'Gumroad',
     },
     {

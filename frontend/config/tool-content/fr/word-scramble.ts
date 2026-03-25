@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Mots Mélangés",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots mélangés immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots mélangés immédiatement.",
       },
       {
         title: "Définir la Mise en Page et le Modèle",
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: "Choisir Votre Source de Contenu",
-        description: "Sélectionnez l'une des trois sources de contenu. Le mode Bibliothèque d'Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu'à 8 mots directement pour des puzzles textuels.",
+        description: "Sélectionnez l`une des trois sources de contenu. Le mode Bibliothèque d'Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement pour des puzzles textuels.",
       },
       {
         title: "Définir le Niveau de Difficulté et le Nombre de Puzzles",
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: "Cahiers d'Activités Mots Mélangés pour KDP",
-      description: "Générez 50 à 100 pages de mots mélangés avec une structure de difficulté progressive : le niveau Facile dans le chapitre d'ouverture, Normal pour la section principale, Difficile pour les chapitres défi et Sans Indices pour la section bonus expert. Exportez en PDF haute résolution et publiez comme cahier d'activités imprimé sur Amazon KDP. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Incluez les corrigés à la fin pour un cahier de puzzles complet et autonome.",
+      description: "Générez 50 à 100 pages de mots mélangés avec une structure de difficulté progressive : le niveau Facile dans le chapitre d`ouverture, Normal pour la section principale, Difficile pour les chapitres défi et Sans Indices pour la section bonus expert. Exportez en PDF haute résolution et publiez comme cahier d'activités imprimé sur Amazon KDP. Utilisez le mode niveaux de gris pour réduire les coûts d`impression. Incluez les corrigés à la fin pour un cahier de puzzles complet et autonome.",
     },
     {
       title: "Ensembles de Puzzles Phoniques avec Code Couleur",
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches de Vocabulaire Personnalisé",
-      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d'orthographe, vocabulaire hebdomadaire ou pratique en langue étrangère. Pas besoin d'images — l'outil génère des tuiles de lettres mélangées à partir de vos mots saisis. Créez des puzzles d'orthographe ciblés pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d'images ne couvre pas.",
+      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d`orthographe, vocabulaire hebdomadaire ou pratique en langue étrangère. Pas besoin d'images — l'outil génère des tuiles de lettres mélangées à partir de vos mots saisis. Créez des puzzles d'orthographe ciblés pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d`images ne couvre pas.",
     },
     {
       title: "Packs Différenciés par Niveau de Difficulté",
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: "Boutique Etsy Spécialisée Puzzles Phoniques",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches mots mélangés avec code couleur — une catégorie de produit qu'aucun concurrent ne peut reproduire avec des générateurs de listes de mots basiques. Le code couleur voyelles-consonnes crée un produit visuellement distinctif qui attire l'attention dans les résultats de recherche Etsy et séduit les parents axés phonique et les vendeurs de FLE. Créez des packs thématiques en édition code couleur et noir classique, en fixant le prix des ensembles phoniques à un premium. Ciblez les acheteurs recherchant des aides visuelles d'orthographe, des fiches de phonique et des activités de reconnaissance des lettres.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches mots mélangés avec code couleur — une catégorie de produit qu`aucun concurrent ne peut reproduire avec des générateurs de listes de mots basiques. Le code couleur voyelles-consonnes crée un produit visuellement distinctif qui attire l'attention dans les résultats de recherche Etsy et séduit les parents axés phonique et les vendeurs de FLE. Créez des packs thématiques en édition code couleur et noir classique, en fixant le prix des ensembles phoniques à un premium. Ciblez les acheteurs recherchant des aides visuelles d`orthographe, des fiches de phonique et des activités de reconnaissance des lettres.",
       platform: 'Etsy.fr',
     },
     {
@@ -107,12 +107,12 @@ const content: ToolContent = {
     },
     {
       title: "Boutique de Vocabulaire Multilingue",
-      description: "Créez des séries thématiques identiques dans plusieurs langues et listez chacune comme un produit séparé. La plupart des vendeurs de puzzles d'orthographe ne servent que l'anglais — vous pouvez lister les mêmes designs sur Etsy Allemagne, France, Espagne, Italie, Suède et plus encore. Chaque version linguistique utilise des orthographes correctes différentes avec des nombres de lettres différents et des arrangements mélangés complètement différents. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d'acheteurs différent avec une concurrence minimale.",
+      description: "Créez des séries thématiques identiques dans plusieurs langues et listez chacune comme un produit séparé. La plupart des vendeurs de puzzles d`orthographe ne servent que l'anglais — vous pouvez lister les mêmes designs sur Etsy Allemagne, France, Espagne, Italie, Suède et plus encore. Chaque version linguistique utilise des orthographes correctes différentes avec des nombres de lettres différents et des arrangements mélangés complètement différents. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d`acheteurs différent avec une concurrence minimale.",
       platform: 'Etsy',
     },
     {
       title: "Tunnel de Vente Puzzles Visuels sur Pinterest",
-      description: "Le format tuiles-mélangées-plus-image est naturellement visuel et épinglable — une image colorée d'animal associée à des tuiles de lettres mélangées est instantanément reconnaissable comme une activité ludique. Les tuiles avec code couleur rendent les épingles encore plus accrocheuses. Épinglez un échantillon gratuit de 3 pages avec filigrane, collectez des adresses e-mail, puis proposez vos packs thématiques et multilingues complets en vente. Les fiches mots mélangés obtiennent significativement plus de sauvegardes que les listes d'orthographe classiques parce qu'elles ressemblent à des jeux interactifs.",
+      description: "Le format tuiles-mélangées-plus-image est naturellement visuel et épinglable — une image colorée d`animal associée à des tuiles de lettres mélangées est instantanément reconnaissable comme une activité ludique. Les tuiles avec code couleur rendent les épingles encore plus accrocheuses. Épinglez un échantillon gratuit de 3 pages avec filigrane, collectez des adresses e-mail, puis proposez vos packs thématiques et multilingues complets en vente. Les fiches mots mélangés obtiennent significativement plus de sauvegardes que les listes d'orthographe classiques parce qu`elles ressemblent à des jeux interactifs.",
       platform: 'Pinterest',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez Sans Indices pour les Évaluations d'Orthographe",
-      description: "Le mode Sans Indices mélange toutes les lettres sans aucune position pré-placée, créant une véritable évaluation d'orthographe à partir d'un indice image. Les utilisateurs doivent retrouver l'orthographe complète et réarranger toutes les tuiles de manière autonome. Utilisez-le pour les contrôles, les sections finales de défi dans les cahiers ou les produits premium « édition expert ».",
+      description: "Le mode Sans Indices mélange toutes les lettres sans aucune position pré-placée, créant une véritable évaluation d`orthographe à partir d'un indice image. Les utilisateurs doivent retrouver l`orthographe complète et réarranger toutes les tuiles de manière autonome. Utilisez-le pour les contrôles, les sections finales de défi dans les cahiers ou les produits premium « édition expert ».",
     },
     {
       title: "Passez au Multilingue pour 11x Votre Gamme de Produits",
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez le Mode Édition Manuelle pour du Vocabulaire Personnalisé",
-      description: "Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier leurs noms d'affichage avant la génération. Utilisez-le pour simplifier les orthographes pour les jeunes apprenants, ajouter un vocabulaire alternatif ou cibler des schémas phonétiques spécifiques. L'image sert toujours d'indice visuel, mais le mot à reconstituer est celui que vous tapez.",
+      description: "Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier leurs noms d`affichage avant la génération. Utilisez-le pour simplifier les orthographes pour les jeunes apprenants, ajouter un vocabulaire alternatif ou cibler des schémas phonétiques spécifiques. L'image sert toujours d`indice visuel, mais le mot à reconstituer est celui que vous tapez.",
     },
     {
       title: "Utilisez les Niveaux de Gris pour KDP et l'Impression en Volume",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
     { pageType: 'tool', slug: "generateur-fiches-prepositions", anchorText: "Générateur de Fiches de Prépositions" },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d'Écriture" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

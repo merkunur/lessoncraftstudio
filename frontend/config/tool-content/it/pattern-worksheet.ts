@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: "Come funziona la configurazione per esercizio?",
-      answer: "Ogni esercizio sulla pagina ha impostazioni indipendenti per tipo di schema, modalità di domanda e tema delle immagini. L'Esercizio 1 può essere un AB a casella vuota con animali della fattoria, l'Esercizio 2 un ABC a scelta multipla con veicoli e l'Esercizio 3 un ABCD a casella vuota con creature marine — tutto sulla stessa pagina. Questo significa che una scheda serve come attività differenziata completa con difficoltà progressiva, anziché necessitare pagine separate per ogni tipo o modalità.",
+      answer: "Ogni esercizio sulla pagina ha impostazioni indipendenti per tipo di schema, modalità di domanda e tema delle immagini. L`Esercizio 1 può essere un AB a casella vuota con animali della fattoria, l'Esercizio 2 un ABC a scelta multipla con veicoli e l`Esercizio 3 un ABCD a casella vuota con creature marine — tutto sulla stessa pagina. Questo significa che una scheda serve come attività differenziata completa con difficoltà progressiva, anziché necessitare pagine separate per ogni tipo o modalità.",
     },
     {
       question: "Qual è la differenza tra Schede Sequenze e Treno delle Sequenze?",
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: "Perché le schede non hanno testo?",
-      answer: "Le schede sequenze sono completamente visive per design — solo immagini appaiono nelle righe della griglia con zero parole scritte sull'output. Questo rende le schede universalmente utilizzabili indipendentemente dalla lingua o dal livello di lettura. Per i venditori, l'output senza testo significa che lo stesso prodotto si vende in tutto il mondo senza traduzione. Cambiare la lingua dei contenuti nel generatore modifica solo le etichette dell'interfaccia, non la scheda stampata.",
+      answer: "Le schede sequenze sono completamente visive per design — solo immagini appaiono nelle righe della griglia con zero parole scritte sull`output. Questo rende le schede universalmente utilizzabili indipendentemente dalla lingua o dal livello di lettura. Per i venditori, l'output senza testo significa che lo stesso prodotto si vende in tutto il mondo senza traduzione. Cambiare la lingua dei contenuti nel generatore modifica solo le etichette dell`interfaccia, non la scheda stampata.",
     },
     {
       question: "Come funziona la chiave di risposta?",
@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: "generatore-schede-grande-piccolo", anchorText: "Generatore Schede Grande e Piccolo" },
     { pageType: 'tool', slug: 'generatore-disegno-griglia', anchorText: 'Generatore Disegno e Colora' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: "Generatore Schede di Abbinamento" },
-    { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l'Intruso" },
+    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l`Intruso" },
     { pageType: 'tool', slug: "generatore-discriminazione-visiva", anchorText: "Generatore Discriminazione Visiva" },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
   ],

@@ -28,7 +28,7 @@ const content: BundleContent = {
   appsIncluded: [
     {
       title: "Generatore di Schede di Abbinamento",
-      description: "Crea schede di abbinamento in quattro modalità distinte che coprono diversi livelli di abilità e obiettivi di apprendimento. Abbinamento Lettere accoppia lettere maiuscole e minuscole per la pratica del riconoscimento dell'alfabeto. Abbinamento Immagine-Nome posiziona immagini tematiche di fronte alle loro etichette di vocabolario per l'associazione parola-immagine. La modalità Immagine-o-Prima-Lettera aggiunge una variazione in cui gli utenti abbinano le immagini alla prima lettera della parola anziché al nome completo — un passaggio graduale tra l'abbinamento puramente visivo e la lettura completa. La modalità Personalizzata ti permette di definire le tue coppie di abbinamento usando testo, immagini o entrambi. Questo è il generatore di abbinamento più versatile del pacchetto, supportando tutte le 11 lingue dell'interfaccia per le modalità basate sul vocabolario. Scegli tra oltre 100 set di immagini tematiche, configura il numero di coppie per pagina e seleziona tra più stili di layout. Ogni scheda genera automaticamente una chiave di risposta. La struttura a quattro modalità ti permette di creare prodotti differenziati per diverse fasce d'età e livelli di abilità da un singolo strumento.",
+      description: "Crea schede di abbinamento in quattro modalità distinte che coprono diversi livelli di abilità e obiettivi di apprendimento. Abbinamento Lettere accoppia lettere maiuscole e minuscole per la pratica del riconoscimento dell`alfabeto. Abbinamento Immagine-Nome posiziona immagini tematiche di fronte alle loro etichette di vocabolario per l'associazione parola-immagine. La modalità Immagine-o-Prima-Lettera aggiunge una variazione in cui gli utenti abbinano le immagini alla prima lettera della parola anziché al nome completo — un passaggio graduale tra l'abbinamento puramente visivo e la lettura completa. La modalità Personalizzata ti permette di definire le tue coppie di abbinamento usando testo, immagini o entrambi. Questo è il generatore di abbinamento più versatile del pacchetto, supportando tutte le 11 lingue dell'interfaccia per le modalità basate sul vocabolario. Scegli tra oltre 100 set di immagini tematiche, configura il numero di coppie per pagina e seleziona tra più stili di layout. Ogni scheda genera automaticamente una chiave di risposta. La struttura a quattro modalità ti permette di creare prodotti differenziati per diverse fasce d`età e livelli di abilità da un singolo strumento.",
     },
     {
       title: "Generatore di Schede Griglia Abbinamento",
@@ -36,7 +36,7 @@ const content: BundleContent = {
     },
     {
       title: "Generatore di Schede Abbinamento Ombre",
-      description: "Produci schede di abbinamento ombre dove il generatore crea automaticamente versioni silhouette delle immagini tematiche. gli utenti tracciano linee collegando ogni oggetto colorato alla corrispondente silhouette nera — un esercizio di discriminazione visiva che rafforza le capacità di osservazione e l'attenzione ai dettagli. Ogni scheda utilizza un layout fisso di 4 elementi, mantenendo l'attività focalizzata e adatta all'età del pubblico della scuola materna e dell'infanzia a cui si rivolge l'abbinamento ombre. Il formato con linee da tracciare incoraggia lo sviluppo della motricità fine insieme al compito cognitivo di abbinamento. Tutto il contenuto è puramente visivo — nessun testo sulla pagina — quindi ogni scheda funziona in qualsiasi mercato nel mondo. Scegli tra oltre 100 set di immagini tematiche. La generazione automatica delle silhouette significa che non hai mai bisogno di competenze di illustrazione o software di design per creare prodotti professionali di abbinamento ombre. Ogni scheda genera automaticamente una chiave di risposta.",
+      description: "Produci schede di abbinamento ombre dove il generatore crea automaticamente versioni silhouette delle immagini tematiche. gli utenti tracciano linee collegando ogni oggetto colorato alla corrispondente silhouette nera — un esercizio di discriminazione visiva che rafforza le capacità di osservazione e l`attenzione ai dettagli. Ogni scheda utilizza un layout fisso di 4 elementi, mantenendo l'attività focalizzata e adatta all'età del pubblico della scuola materna e dell'infanzia a cui si rivolge l`abbinamento ombre. Il formato con linee da tracciare incoraggia lo sviluppo della motricità fine insieme al compito cognitivo di abbinamento. Tutto il contenuto è puramente visivo — nessun testo sulla pagina — quindi ogni scheda funziona in qualsiasi mercato nel mondo. Scegli tra oltre 100 set di immagini tematiche. La generazione automatica delle silhouette significa che non hai mai bisogno di competenze di illustrazione o software di design per creare prodotti professionali di abbinamento ombre. Ogni scheda genera automaticamente una chiave di risposta.",
     },
     {
       title: 'Generatore di Cartelle Bingo',
@@ -121,7 +121,7 @@ const content: BundleContent = {
     { feature: 'Esportazione batch ZIP bingo', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: 'Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue' },
+    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
     { feature: "Etichette sensibili alla lingua (3 app)", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },
@@ -130,7 +130,7 @@ const content: BundleContent = {
   whoIsThisFor: [
     {
       title: "Venditori Etsy e KDP di Stampabili",
-      description: "Vendi download digitali su Etsy o pubblichi libri di attività su Amazon KDP e vuoi un modo rapido e affidabile per produrre schede professionali di abbinamento e negozificazione su larga scala. Il pacchetto ti offre cinque generatori e centinaia di combinazioni tematiche per costruire un catalogo prodotti diversificato. L'esportazione batch bingo da sola apre un'intera categoria di prodotti — i set bingo pronti per il negozio hanno prezzi premium e sono più veloci da produrre di qualsiasi altro tipo di stampabile. Crea nuove inserzioni in pochi minuti anziché ore e mantieni il tuo negozio rifornito con contenuti freschi e stagionali tutto l'anno.",
+      description: "Vendi download digitali su Etsy o pubblichi libri di attività su Amazon KDP e vuoi un modo rapido e affidabile per produrre schede professionali di abbinamento e negozificazione su larga scala. Il pacchetto ti offre cinque generatori e centinaia di combinazioni tematiche per costruire un catalogo prodotti diversificato. L`esportazione batch bingo da sola apre un'intera categoria di prodotti — i set bingo pronti per il negozio hanno prezzi premium e sono più veloci da produrre di qualsiasi altro tipo di stampabile. Crea nuove inserzioni in pochi minuti anziché ore e mantieni il tuo negozio rifornito con contenuti freschi e stagionali tutto l`anno.",
     },
     {
       title: 'Autori Gumroad',
@@ -149,7 +149,7 @@ const content: BundleContent = {
   faq: [
     {
       question: "Posso provare i generatori prima dell'acquisto?",
-      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l'anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei cinque generatori prima dell'acquisto per confermare che soddisfano le tue esigenze.",
+      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l`anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei cinque generatori prima dell`acquisto per confermare che soddisfano le tue esigenze.",
     },
     {
       question: "Quali generatori sono sensibili alla lingua e quali sono esclusivamente visivi?",
@@ -165,7 +165,7 @@ const content: BundleContent = {
     },
     {
       question: "Quanti elementi usa Abbinamento Ombre per scheda?",
-      answer: "Abbinamento Ombre usa un layout fisso di 4 elementi per scheda. Ogni scheda mostra 4 oggetti colorati su un lato e le corrispondenti silhouette sull'altro, con gli utenti che tracciano linee per collegare le coppie. Il conteggio fisso mantiene l'attività focalizzata e adatta all'età del pubblico della scuola materna e dell'infanzia a cui si rivolge l'abbinamento ombre.",
+      answer: "Abbinamento Ombre usa un layout fisso di 4 elementi per scheda. Ogni scheda mostra 4 oggetti colorati su un lato e le corrispondenti silhouette sull`altro, con gli utenti che tracciano linee per collegare le coppie. Il conteggio fisso mantiene l'attività focalizzata e adatta all'età del pubblico della scuola materna e dell'infanzia a cui si rivolge l`abbinamento ombre.",
     },
     {
       question: "In quali formati posso scaricare?",
@@ -173,7 +173,7 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la differenza tra Commerciale e Accesso Completo?",
-      answer: "Entrambi i livelli includono tutti e cinque i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 10 set di immagini tematiche e interfaccia ed etichette solo in inglese. L'Accesso Completo sblocca tutti i 104 set di immagini tematiche e tutte le 11 lingue dell'interfaccia, comprese le etichette di vocabolario in Abbinamento, Bingo e negozificazione Immagini in ogni lingua supportata. Entrambi i livelli includono l'esportazione batch bingo e le chiavi di risposta per i generatori applicabili.",
+      answer: "Entrambi i livelli includono tutti e cinque i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 10 set di immagini tematiche e interfaccia ed etichette solo in inglese. L`Accesso Completo sblocca tutti i 104 set di immagini tematiche e tutte le 11 lingue dell'interfaccia, comprese le etichette di vocabolario in Abbinamento, Bingo e negozificazione Immagini in ogni lingua supportata. Entrambi i livelli includono l`esportazione batch bingo e le chiavi di risposta per i generatori applicabili.",
     },
     {
       question: "Posso vendere le schede e le cartelle bingo che creo?",
@@ -185,7 +185,7 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la politica di rimborso per le licenze commerciali?",
-      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell'output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell'acquisto.",
+      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell`output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell`acquisto.",
     },
   ],
 

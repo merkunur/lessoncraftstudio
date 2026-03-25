@@ -71,7 +71,7 @@ Het safarithema presteert ook uitzonderlijk goed op de markt voor babykamer- en 
     },
     {
       title: "Safaridieren Schaduwkoppelwerkbladen Verkopen",
-      description: "Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen Afrikaanse safaridieren koppelen aan hun silhouetten. De onderscheidende lichaamsvormen van safariwezens zoals giraffen, olifanten, neushoorns en flamingo's maken schaduwkoppelen van nature gevarieerd en boeiend. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Safari-schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.",
+      description: "Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen Afrikaanse safaridieren koppelen aan hun silhouetten. De onderscheidende lichaamsvormen van safariwezens zoals giraffen, olifanten, neushoorns en flamingo's maken schaduwkoppelen van nature gevarieerd en boeiend. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Safari-schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.",
       appId: 'shadow-match',
     },
     {

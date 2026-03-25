@@ -40,7 +40,7 @@ const content: BundleContent = {
     },
     {
       title: "Rastertekenen Werkblad Generator",
-      description: "Maak referentieafbeelding tekenwerkbladen waarbij een thematische afbeelding verschijnt naast een leeg raster of tekengebied voor gebruikers om te reproduceren. De symmetrie- en spiegeltekenmodus splitst een afbeelding door het midden en vraagt gebruikers om de ontbrekende helft te voltooien — een populaire fijne motoriek en ruimtelijk redeneren activiteit. Deze generator bevat speciale zwart-wit contourthema's ontworpen voor inkleuren na het tekenen, naast standaard kleurrijke referentiethema's. De zwart-wit contourstijl is specifiek ontworpen voor geprinte werkbladen waar gebruikers het resultaat inkleuren, waardoor deze pagina's een dubbel doel dienen: tekenoefening plus kleuractiviteit.",
+      description: "Maak referentieafbeelding tekenwerkbladen waarbij een thematische afbeelding verschijnt naast een leeg raster of tekengebied voor gebruikers om te reproduceren. De symmetrie- en spiegeltekenmodus splitst een afbeelding door het midden en vraagt gebruikers om de ontbrekende helft te voltooien — een populaire fijne motoriek en ruimtelijk redeneren activiteit. Deze generator bevat speciale zwart-wit contourthema`s ontworpen voor inkleuren na het tekenen, naast standaard kleurrijke referentiethema's. De zwart-wit contourstijl is specifiek ontworpen voor geprinte werkbladen waar gebruikers het resultaat inkleuren, waardoor deze pagina`s een dubbel doel dienen: tekenoefening plus kleuractiviteit.",
     },
     {
       title: "Lijnen Trekken Werkblad Generator",
@@ -94,7 +94,7 @@ const content: BundleContent = {
   businessUseCases: [
     {
       title: "Etsy Kleurplaat en Activiteiten Winkel",
-      description: "Kleurplaten zijn de meest verkochte printable productcategorie op Etsy, en de Kleurplaten generator alleen kan een hele winkel vullen. Voeg tekenwerkbladen, patroonactiviteiten en grafiek telpagina's toe om je winkel te onderscheiden van pure kleurplaatconcurrenten. De zwart-wit contourthema's produceren directe kleurplaten vanuit elke thematische beeldset, terwijl de kleurrijke thema's activiteitenwerkbladen creëren die je kleurvermeldingen aanvullen. Omdat elk werkblad tekstonafhankelijk is, bedient je hele winkel internationale kopers zonder aparte vermeldingen per taal.",
+      description: "Kleurplaten zijn de meest verkochte printable productcategorie op Etsy, en de Kleurplaten generator alleen kan een hele winkel vullen. Voeg tekenwerkbladen, patroonactiviteiten en grafiek telpagina`s toe om je winkel te onderscheiden van pure kleurplaatconcurrenten. De zwart-wit contourthema's produceren directe kleurplaten vanuit elke thematische beeldset, terwijl de kleurrijke thema`s activiteitenwerkbladen creëren die je kleurvermeldingen aanvullen. Omdat elk werkblad tekstonafhankelijk is, bedient je hele winkel internationale kopers zonder aparte vermeldingen per taal.",
       platform: 'Etsy',
     },
     {
@@ -165,7 +165,7 @@ const content: BundleContent = {
     },
     {
       question: "Welke generators bevatten zwart-wit contourthema's?",
-      answer: "Rastertekenen en Kleurplaten hebben speciale zwart-wit contourthema's ontworpen voor inkleuren en tekenactiviteiten. De andere vijf generators — Groot & Klein, Patroontrein, Patronen Werkblad, Lijnen Trekken en Telgrafiek — gebruiken kleurrijke thema's omdat hun activiteiten vertrouwen op visuele discriminatie tussen verschillende gekleurde afbeeldingen. Het Commerciële abonnement bevat 5 kleurrijke thema's en 5 zwart-wit thema's. De Volledige Toegang tier ontgrendelt alle beschikbare thema's.",
+      answer: "Rastertekenen en Kleurplaten hebben speciale zwart-wit contourthema`s ontworpen voor inkleuren en tekenactiviteiten. De andere vijf generators — Groot & Klein, Patroontrein, Patronen Werkblad, Lijnen Trekken en Telgrafiek — gebruiken kleurrijke thema's omdat hun activiteiten vertrouwen op visuele discriminatie tussen verschillende gekleurde afbeeldingen. Het Commerciële abonnement bevat 5 kleurrijke thema's en 5 zwart-wit thema's. De Volledige Toegang tier ontgrendelt alle beschikbare thema`s.",
     },
     {
       question: "Welke generators bevatten antwoordbladen?",

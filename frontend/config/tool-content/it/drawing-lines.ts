@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Seleziona un Modello di Linea',
-        description: "Nel pannello Contenuto, scegli tra otto modelli di linea basati su SVG. Quattro modelli curva creano percorsi fluidi e ampi in formato orizzontale con 4 coppie di immagini ciascuno — ogni variante offre una forma d'arco diversa per varietà visiva. Due modelli diagonale producono linee angolate in formato verticale con 5 coppie. Un modello orizzontale genera linee rettilinee da sinistra a destra in formato verticale con 5 coppie. Un modello verticale crea linee dall'alto al basso in formato verticale con 4 coppie. Il modello selezionato imposta automaticamente l'orientamento ottimale della pagina per quel tipo di linea.",
+        description: "Nel pannello Contenuto, scegli tra otto modelli di linea basati su SVG. Quattro modelli curva creano percorsi fluidi e ampi in formato orizzontale con 4 coppie di immagini ciascuno — ogni variante offre una forma d`arco diversa per varietà visiva. Due modelli diagonale producono linee angolate in formato verticale con 5 coppie. Un modello orizzontale genera linee rettilinee da sinistra a destra in formato verticale con 5 coppie. Un modello verticale crea linee dall'alto al basso in formato verticale con 4 coppie. Il modello selezionato imposta automaticamente l`orientamento ottimale della pagina per quel tipo di linea.",
       },
       {
         title: "Scegli un Tema e Sfoglia le Coppie di Immagini",
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: "Esporta come PDF o JPEG a 300 DPI",
-        description: "Scarica la scheda finita come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI. Attiva la scala di grigi per versioni ottimizzate per il risparmio d'inchiostro, ideali per la stampa in volume e gli interni KDP. Non è necessaria una chiave di risposta separata — il percorso della linea stesso guida l'utente, rendendo ogni scheda un'attività autocorrettiva. Ogni esportazione è pronta per la vendita su Etsy, interni Amazon KDP e file prodotto Gumroad senza alcuna post-elaborazione.",
+        description: "Scarica la scheda finita come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI. Attiva la scala di grigi per versioni ottimizzate per il risparmio d`inchiostro, ideali per la stampa in volume e gli interni KDP. Non è necessaria una chiave di risposta separata — il percorso della linea stesso guida l'utente, rendendo ogni scheda un`attività autocorrettiva. Ogni esportazione è pronta per la vendita su Etsy, interni Amazon KDP e file prodotto Gumroad senza alcuna post-elaborazione.",
       },
     ],
   },
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: "Set di Preparazione alla Scrittura",
-      description: "Costruisci schede pregrafismo progettate specificamente come preparazione alla scrittura. Le linee orizzontali praticano la direzione di tracciamento da sinistra a destra usata nella lettura e nella scrittura. Le linee verticali sviluppano i tratti dall'alto al basso essenziali per la formazione delle lettere. Le curve imitano i movimenti arrotondati necessari per lettere come c, o, s ed e. Le diagonali costruiscono i tratti angolati usati in lettere come k, v, w e z. Confeziona questi come bundle \"Preparazione alla Scrittura\" che collegano lo sviluppo della motricità fine alle competenze di alfabetizzazione — una categoria di prodotto con forte domanda durante tutto l'anno da parte di venditori della scuola dell'infanzia e genitori.",
+      description: "Costruisci schede pregrafismo progettate specificamente come preparazione alla scrittura. Le linee orizzontali praticano la direzione di tracciamento da sinistra a destra usata nella lettura e nella scrittura. Le linee verticali sviluppano i tratti dall`alto al basso essenziali per la formazione delle lettere. Le curve imitano i movimenti arrotondati necessari per lettere come c, o, s ed e. Le diagonali costruiscono i tratti angolati usati in lettere come k, v, w e z. Confeziona questi come bundle \"Preparazione alla Scrittura\" che collegano lo sviluppo della motricità fine alle competenze di alfabetizzazione — una categoria di prodotto con forte domanda durante tutto l'anno da parte di venditori della scuola dell`infanzia e genitori.",
     },
     {
       title: "Set di Attività con Coppie di Immagini Abbinate per Tema",
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: "Usa la Scala di Grigi per la Stampa Economica",
-      description: "Attiva l'opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in serie online dove i costi di stampa a colori sono un problema. Anche in scala di grigi, le coppie di immagini rimangono visivamente distinguibili per l'abbinamento e i percorsi SVG si riproducono perfettamente in bianco e nero. Riserva le versioni a colori per le inserzioni Etsy dove l'appeal visivo guida i clic.",
+      description: "Attiva l`opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in serie online dove i costi di stampa a colori sono un problema. Anche in scala di grigi, le coppie di immagini rimangono visivamente distinguibili per l'abbinamento e i percorsi SVG si riproducono perfettamente in bianco e nero. Riserva le versioni a colori per le inserzioni Etsy dove l`appeal visivo guida i clic.",
     },
     {
       title: "Combina il Tracciamento Linee con Altri Strumenti Visivi per Bundle Premium",

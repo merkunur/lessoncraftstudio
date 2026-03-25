@@ -23,7 +23,7 @@ const content: AppContent = {
     title: "Générateur de Puzzles Mathématiques pour la Résolution de Problèmes Visuels",
     tagline: "Fusionnez pratique des maths et excitation du puzzle — chaque pièce contient un problème, chaque solution révèle l'image.",
     description:
-      "Créez des fiches de puzzles mathématiques captivantes où une image complète est divisée en une grille de pièces, chacune contenant un problème d'addition ou de soustraction. Les utilisateurs résolvent les calculs, puis associent les réponses numérotées aux pièces mélangées affichées sous la grille — transformant l'arithmétique de routine en un mystère visuel. Configurez des grilles de 2×2 jusqu'à 4×4 pour créer des puzzles de 4 à 16 pièces, et choisissez addition, soustraction ou opérations mixtes pour s'adapter à chaque niveau. Puisez dans plus de 3 100 illustrations dans 104 thèmes comme les animaux de la ferme, l'espace, les dinosaures et les fêtes. Chaque fiche génère un corrigé automatique montrant la grille résolue à côté de l'image complète. Exportez des PDF et JPEG prêts à imprimer à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d'activités progressifs pour Amazon KDP ou créiez des ateliers de maths interactifs pour votre classe, le Générateur de Puzzles Mathématiques produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
+      "Créez des fiches de puzzles mathématiques captivantes où une image complète est divisée en une grille de pièces, chacune contenant un problème d`addition ou de soustraction. Les utilisateurs résolvent les calculs, puis associent les réponses numérotées aux pièces mélangées affichées sous la grille — transformant l'arithmétique de routine en un mystère visuel. Configurez des grilles de 2×2 jusqu'à 4×4 pour créer des puzzles de 4 à 16 pièces, et choisissez addition, soustraction ou opérations mixtes pour s'adapter à chaque niveau. Puisez dans plus de 3 100 illustrations dans 104 thèmes comme les animaux de la ferme, l'espace, les dinosaures et les fêtes. Chaque fiche génère un corrigé automatique montrant la grille résolue à côté de l'image complète. Exportez des PDF et JPEG prêts à imprimer à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d`activités progressifs pour Amazon KDP ou créiez des ateliers de maths interactifs pour votre classe, le Générateur de Puzzles Mathématiques produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
   },
 
   howItWorks: {
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Export prêt à imprimer à 400+ DPI avec option niveaux de gris",
         description:
-          "Téléchargez vos fiches et corrigés en JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d'export rend à plus de 400 DPI. Activez le mode niveaux de gris pour des versions économiques en encre, parfaites pour l'impression en volume ou les cahiers d'activités en noir et blanc. Les formats Letter, A4, Fiche par défaut, Carré et personnalisés sont tous pris en charge.",
+          "Téléchargez vos fiches et corrigés en JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d`export rend à plus de 400 DPI. Activez le mode niveaux de gris pour des versions économiques en encre, parfaites pour l'impression en volume ou les cahiers d`activités en noir et blanc. Les formats Letter, A4, Fiche par défaut, Carré et personnalisés sont tous pris en charge.",
       },
       {
         title: "Téléchargement d'images personnalisées pour des puzzles uniques",
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: "Édition complète du canevas avec annuler et rétablir",
         description:
-          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément — texte, grilles de puzzle, bordures et fonds. Contrôle de calques, outils d'alignement et verrouillage/déverrouillage permettent un placement précis. L'annulation et le rétablissement illimités offrent la flexibilité d'un outil de design graphique dans un générateur de puzzles.",
+          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément — texte, grilles de puzzle, bordures et fonds. Contrôle de calques, outils d`alignement et verrouillage/déverrouillage permettent un placement précis. L'annulation et le rétablissement illimités offrent la flexibilité d`un outil de design graphique dans un générateur de puzzles.",
       },
     ],
   },
@@ -115,7 +115,7 @@ const content: AppContent = {
       {
         title: "Cahiers de puzzles maths sur Amazon KDP",
         description:
-          "Compilez 50 à 100 puzzles maths dans un cahier d'activités au format Amazon KDP. Structurez avec une difficulté progressive — commencez avec des puzzles 2×2 en addition et avancez vers des grilles 4×4 en opérations mixtes — pour un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes expliquant le format et une section corrigé. Les cahiers de puzzles maths occupent une niche moins concurrencée que les cahiers d'exercices standards.",
+          "Compilez 50 à 100 puzzles maths dans un cahier d`activités au format Amazon KDP. Structurez avec une difficulté progressive — commencez avec des puzzles 2×2 en addition et avancez vers des grilles 4×4 en opérations mixtes — pour un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes expliquant le format et une section corrigé. Les cahiers de puzzles maths occupent une niche moins concurrencée que les cahiers d`exercices standards.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Les fiches de puzzles maths sont-elles sensibles à la langue ?",
       answer:
-        "Non. Les fiches de puzzles maths sont purement visuelles — le contenu utilise des images et des nombres, pas des mots. Un puzzle créé dans n'importe quel paramètre de langue fonctionne dans le monde entier. L'option de langue ne change que les libellés de l'interface.",
+        "Non. Les fiches de puzzles maths sont purement visuelles — le contenu utilise des images et des nombres, pas des mots. Un puzzle créé dans n`importe quel paramètre de langue fonctionne dans le monde entier. L'option de langue ne change que les libellés de l`interface.",
     },
     {
       question: "Puis-je télécharger mes propres images pour les puzzles ?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois opérations, toutes les tailles de grille, la bibliothèque d'images complète, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets. Les détenteurs d'une licence commerciale bénéficient d'un accès à vie à toutes les fonctionnalités actuelles et à toutes les futures mises à jour du générateur, couvrant la création illimitée de fiches sur tous les thèmes et formats pris en charge.",
+        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois opérations, toutes les tailles de grille, la bibliothèque d`images complète, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets. Les détenteurs d'une licence commerciale bénéficient d`un accès à vie à toutes les fonctionnalités actuelles et à toutes les futures mises à jour du générateur, couvrant la création illimitée de fiches sur tous les thèmes et formats pris en charge.",
     },
     {
       question: "Que comprend la licence commerciale ?",
@@ -216,7 +216,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'addition-codee-fiches',
-      anchorText: 'Générateur d'Addition Codée',
+      anchorText: `Générateur d'Addition Codée`,
     },
     {
       pageType: 'app',

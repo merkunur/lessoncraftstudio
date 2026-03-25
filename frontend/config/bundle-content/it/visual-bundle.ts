@@ -48,7 +48,7 @@ const content: BundleContent = {
     },
     {
       title: "Generatore di Pagine da Colorare",
-      description: "Converti immagini tematiche in contorni stampabili per pagine da colorare con sovrapposizione di testo opzionale per etichettatura educativa. Il generatore trasforma automaticamente le immagini colorate della libreria in contorni puliti in bianco e nero ottimizzati per la stampa e la colorazione. Questo generatore utilizza temi dedicati di contorni B&N che producono contorni nitidi e accattivanti con spessore di linea appropriato per i giovani coloristi. Aggiungi didascalie di testo opzionali sotto ogni immagine per il rinforzo del vocabolario — anche se l'attività di colorazione in sé è interamente visiva e indipendente dalla lingua. Configura le immagini per pagina, lo spessore del contorno e il layout della pagina. Le pagine da colorare sono la categoria di stampabili a più alto volume su Etsy, con domanda costante tutto l'anno in tutte le fasce d'età e mercati. La conversione automatica dei contorni significa che puoi creare pagine da colorare professionali senza competenze di illustrazione.",
+      description: "Converti immagini tematiche in contorni stampabili per pagine da colorare con sovrapposizione di testo opzionale per etichettatura educativa. Il generatore trasforma automaticamente le immagini colorate della libreria in contorni puliti in bianco e nero ottimizzati per la stampa e la colorazione. Questo generatore utilizza temi dedicati di contorni B&N che producono contorni nitidi e accattivanti con spessore di linea appropriato per i giovani coloristi. Aggiungi didascalie di testo opzionali sotto ogni immagine per il rinforzo del vocabolario — anche se l`attività di colorazione in sé è interamente visiva e indipendente dalla lingua. Configura le immagini per pagina, lo spessore del contorno e il layout della pagina. Le pagine da colorare sono la categoria di stampabili a più alto volume su Etsy, con domanda costante tutto l'anno in tutte le fasce d`età e mercati. La conversione automatica dei contorni significa che puoi creare pagine da colorare professionali senza competenze di illustrazione.",
     },
     {
       title: "Generatore di Schede Grafici con Immagini",
@@ -104,7 +104,7 @@ const content: BundleContent = {
     },
     {
       title: "Pacchetti per la Scuola Materna su Gumroad",
-      description: "Gli acquirenti Gumroad cercano pacchetti completi di attività per la scuola materna e dell'infanzia che coprano più competenze. Combina confronto dimensioni, riconoscimento sequenze, pregrafismo e attività di colorazione in pacchetti per livello scolastico con chiavi di risposta incluse per le attività applicabili. Il formato esclusivamente visivo attrae gli acquirenti Gumroad che servono negozi diversificate dove gli utenti parlano più lingue — le schede che non richiedono lettura eliminano completamente le barriere linguistiche. Confeziona le schede in pacchetti tematici che i venditori acquistano per l'uso online durante tutto l'anno.",
+      description: "Gli acquirenti Gumroad cercano pacchetti completi di attività per la scuola materna e dell`infanzia che coprano più competenze. Combina confronto dimensioni, riconoscimento sequenze, pregrafismo e attività di colorazione in pacchetti per livello scolastico con chiavi di risposta incluse per le attività applicabili. Il formato esclusivamente visivo attrae gli acquirenti Gumroad che servono negozi diversificate dove gli utenti parlano più lingue — le schede che non richiedono lettura eliminano completamente le barriere linguistiche. Confeziona le schede in pacchetti tematici che i venditori acquistano per l'uso online durante tutto l`anno.",
       platform: 'Gumroad',
     },
     {
@@ -129,7 +129,7 @@ const content: BundleContent = {
     { feature: "Chiavi di risposta automatiche (3 di 7 app)", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: 'Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue' },
+    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
     { feature: "Modalità simmetria e disegno specchiato", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },
@@ -146,7 +146,7 @@ const content: BundleContent = {
     },
     {
       title: "imprenditori di Scuola Materna e dell'Infanzia",
-      description: "Insegni a bambini piccoli e hai bisogno di un rifornimento costante di attività di apprendimento visivo che funzionino indipendentemente dal livello di lettura o dalla provenienza linguistica degli utenti. Grande e Piccolo sviluppa le competenze di confronto, Treno delle Sequenze e Schede Sequenze costruiscono il pensiero logico, Pregrafismo e Disegno Griglia rafforzano il controllo della motricità fine, Colorare supporta l'espressione creativa e Grafici con Immagini introduce l'alfabetizzazione precoce sui dati. Ogni generatore offre una prova gratuita con filigrana così puoi valutare prima dell'acquisto.",
+      description: "Insegni a bambini piccoli e hai bisogno di un rifornimento costante di attività di apprendimento visivo che funzionino indipendentemente dal livello di lettura o dalla provenienza linguistica degli utenti. Grande e Piccolo sviluppa le competenze di confronto, Treno delle Sequenze e Schede Sequenze costruiscono il pensiero logico, Pregrafismo e Disegno Griglia rafforzano il controllo della motricità fine, Colorare supporta l`espressione creativa e Grafici con Immagini introduce l'alfabetizzazione precoce sui dati. Ogni generatore offre una prova gratuita con filigrana così puoi valutare prima dell`acquisto.",
     },
     {
       title: "Creatori di Contenuti Educativi",
@@ -157,7 +157,7 @@ const content: BundleContent = {
   faq: [
     {
       question: "Posso provare i generatori prima dell'acquisto?",
-      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l'anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei sette generatori prima dell'acquisto per confermare che soddisfano le tue esigenze.",
+      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l`anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei sette generatori prima dell`acquisto per confermare che soddisfano le tue esigenze.",
     },
     {
       question: "Cosa significa \"esclusivamente visive\" e perché è importante?",
@@ -181,7 +181,7 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la differenza tra Commerciale e Accesso Completo?",
-      answer: "Entrambi i livelli includono tutti e sette i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 5 temi colorati e 5 temi con contorni B&N con interfaccia solo in inglese. L'Accesso Completo sblocca tutti i 104 temi colorati, tutti i temi B&N disponibili e tutte le 11 lingue dell'interfaccia. Entrambi i livelli producono schede identiche indipendenti dal testo — la lingua dell'interfaccia influisce solo sui controlli del generatore, non sul contenuto delle schede.",
+      answer: "Entrambi i livelli includono tutti e sette i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 5 temi colorati e 5 temi con contorni B&N con interfaccia solo in inglese. L`Accesso Completo sblocca tutti i 104 temi colorati, tutti i temi B&N disponibili e tutte le 11 lingue dell'interfaccia. Entrambi i livelli producono schede identiche indipendenti dal testo — la lingua dell`interfaccia influisce solo sui controlli del generatore, non sul contenuto delle schede.",
     },
     {
       question: "Posso vendere le schede che creo?",
@@ -193,7 +193,7 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la politica di rimborso per le licenze commerciali?",
-      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell'output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell'acquisto.",
+      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell`output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell`acquisto.",
     },
   ],
 

@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: "Attività di Abbinamento per Centri Didattici online",
-      description: "Crea schede di abbinamento pronte per il negozio con campi nome/data, numeri elemento e chiavi di risposta stampate che gli acquirenti Gumroad cercano specificamente. Il campo nome garantisce la responsabilità dell'utente, i numeri elemento rendono efficiente il valore percepito durante la revisione di gruppo e la chiave di risposta generata automaticamente risparmia tempo di preparazione all'venditore. Crea set allineati al mercato: abbinamento aiutanti della comunità, abbinamento gruppi alimentari, abbinamento vocabolario meteorologico e abbinamento animali degli habitat. i venditori apprezzano attività di abbinamento pronte all'uso senza formattazione aggiuntiva necessaria — ogni scheda si esporta con tutti gli elementi per il negozio già integrati.",
+      description: "Crea schede di abbinamento pronte per il negozio con campi nome/data, numeri elemento e chiavi di risposta stampate che gli acquirenti Gumroad cercano specificamente. Il campo nome garantisce la responsabilità dell`utente, i numeri elemento rendono efficiente il valore percepito durante la revisione di gruppo e la chiave di risposta generata automaticamente risparmia tempo di preparazione all'venditore. Crea set allineati al mercato: abbinamento aiutanti della comunità, abbinamento gruppi alimentari, abbinamento vocabolario meteorologico e abbinamento animali degli habitat. i venditori apprezzano attività di abbinamento pronte all`uso senza formattazione aggiuntiva necessaria — ogni scheda si esporta con tutti gli elementi per il negozio già integrati.",
     },
     {
       title: "Collezioni di Abbinamento Vocabolario Multilingue",

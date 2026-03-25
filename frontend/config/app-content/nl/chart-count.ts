@@ -82,12 +82,12 @@ const content: AppContent = {
       {
         title: "Afbeeldingenbibliotheek met 104 Thematische Collecties en 3.100+ Illustraties",
         description:
-          "Blader door 104 thematische afbeeldingscollecties met onderwerpen als dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een samenhangende set kleurrijke illustraties die perfect zijn voor plaatjesgrafiek werkbladen. Gebruik het thema-dropdown om per categorie te filteren of zoek naar specifieke afbeeldingen op trefwoord. In automatische modus selecteert de app 6 afbeeldingen uit je gekozen thema; in handmatige modus kies je precies 6 uit elke combinatie van thema's. De Commerciële licentie bevat 10 kleurrijke thema's; Volledige Toegang ontgrendelt alle 104 thema's voor maximale variatie in werkbladbundels.",
+          "Blader door 104 thematische afbeeldingscollecties met onderwerpen als dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een samenhangende set kleurrijke illustraties die perfect zijn voor plaatjesgrafiek werkbladen. Gebruik het thema-dropdown om per categorie te filteren of zoek naar specifieke afbeeldingen op trefwoord. In automatische modus selecteert de app 6 afbeeldingen uit je gekozen thema; in handmatige modus kies je precies 6 uit elke combinatie van thema`s. De Commerciële licentie bevat 10 kleurrijke thema's; Volledige Toegang ontgrendelt alle 104 thema`s voor maximale variatie in werkbladbundels.",
       },
       {
         title: "Achtergrond- en Kaderthema's met Onafhankelijke Dekkingsregelaars",
         description:
-          "Pas decoratieve achtergronden en kaders uit de ingebouwde themabibliotheek toe om je plaatjesgrafiek werkbladen te omkaderen. In tegenstelling tot apps met alleen kaderthema's biedt de Telgrafiek Generator zowel achtergrond- als kaderthema's met onafhankelijke dekkingsschuifregelaars (0–1, stap 0,05). Stel een subtiele aquarelachtergrond in op 20% dekking terwijl je een opvallend decoratief kader op volle dekking houdt, of elke combinatie die bij je ontwerp past. Achtergrond- en kaderthema's voegen visuele verfijning toe en verhogen de waargenomen kwaliteit voor marktplaatsaanbiedingen zonder het afbeeldingsraster of de staafdiagraminhoud te verstoren.",
+          "Pas decoratieve achtergronden en kaders uit de ingebouwde themabibliotheek toe om je plaatjesgrafiek werkbladen te omkaderen. In tegenstelling tot apps met alleen kaderthema`s biedt de Telgrafiek Generator zowel achtergrond- als kaderthema's met onafhankelijke dekkingsschuifregelaars (0–1, stap 0,05). Stel een subtiele aquarelachtergrond in op 20% dekking terwijl je een opvallend decoratief kader op volle dekking houdt, of elke combinatie die bij je ontwerp past. Achtergrond- en kaderthema`s voegen visuele verfijning toe en verhogen de waargenomen kwaliteit voor marktplaatsaanbiedingen zonder het afbeeldingsraster of de staafdiagraminhoud te verstoren.",
       },
       {
         title: "Printklare PDF- en JPEG-export op 300 DPI met Grijstintenschakelaar",
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: "Vakoverstijgende Gegevensactiviteiten",
         description:
-          "Plaatjesgrafieken vormen een natuurlijke brug tussen rekenen en andere vakken. Gebruik dierenthema's voor lessen over habitats en classificatie. Gebruik voedselthema's voor lessen over gezondheid en voeding. Gebruik voertuigthema's voor onderwerpen over gemeenschap en transport. De 104 thematische collecties bestrijken vrijwel elk basisschoolonderwerp, zodat je gegevensrepresentatie werkbladen kunt maken die inhoudelijke woordenschat versterken terwijl ze grafiekvaardigheden aanleren. Verkoop vakoverstijgende bundels die verkopers aanspreken die geïntegreerde activiteiten willen — een groeiende niche op alle drie de grote platforms.",
+          "Plaatjesgrafieken vormen een natuurlijke brug tussen rekenen en andere vakken. Gebruik dierenthema`s voor lessen over habitats en classificatie. Gebruik voedselthema's voor lessen over gezondheid en voeding. Gebruik voertuigthema`s voor onderwerpen over gemeenschap en transport. De 104 thematische collecties bestrijken vrijwel elk basisschoolonderwerp, zodat je gegevensrepresentatie werkbladen kunt maken die inhoudelijke woordenschat versterken terwijl ze grafiekvaardigheden aanleren. Verkoop vakoverstijgende bundels die verkopers aanspreken die geïntegreerde activiteiten willen — een groeiende niche op alle drie de grote platforms.",
         platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {

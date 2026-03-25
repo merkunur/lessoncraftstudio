@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: "Configura le dimensioni della griglia e la percentuale indizi",
         description:
-          "Imposta le righe (da 3 a 10) e le colonne (da 3 a 10) della griglia in modo indipendente per controllare il numero di celle e le proporzioni. Una griglia 3×3 con 9 celle grandi è facile per i principianti; una griglia 10×10 con 100 celle piccole sfida gli utenti avanzati. Poi imposta la percentuale indizi dal 10 % al 75 %. Al 75 %, la maggior parte dell'immagine di riferimento è visibile e gli utenti completano il quarto rimanente. Al 10 %, gli utenti vedono solo indizi sparsi e devono ricostruire quasi tutta l'immagine — una vera sfida anche per gli adulti. Questo singolo cursore crea una curva di difficoltà progressiva per l'intera gamma di prodotti.",
+          "Imposta le righe (da 3 a 10) e le colonne (da 3 a 10) della griglia in modo indipendente per controllare il numero di celle e le proporzioni. Una griglia 3×3 con 9 celle grandi è facile per i principianti; una griglia 10×10 con 100 celle piccole sfida gli utenti avanzati. Poi imposta la percentuale indizi dal 10 % al 75 %. Al 75 %, la maggior parte dell`immagine di riferimento è visibile e gli utenti completano il quarto rimanente. Al 10 %, gli utenti vedono solo indizi sparsi e devono ricostruire quasi tutta l'immagine — una vera sfida anche per gli adulti. Questo singolo cursore crea una curva di difficoltà progressiva per l`intera gamma di prodotti.",
       },
       {
         title: "Scegli la modalità simmetria e seleziona un'immagine di contorni in bianco e nero",
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Intestazione autogenerata e adattabile con testo localizzato",
         description:
-          "Ogni scheda include un'intestazione autogenerata che si adatta all'orientamento della pagina. La modalità Verticale presenta un'intestazione grande centrata con un bordo esterno magenta e un bordo interno rosa. La modalità Orizzontale usa un'intestazione compatta centrata con sfondo verde lime e un riquadro bianco. Il testo dell'intestazione è automaticamente localizzato nelle 11 lingue supportate — «Disegna e Colora» in italiano, «Draw and Color» in inglese, «Zeichnen & Ausmalen» in tedesco, ecc. Le intestazioni sono completamente modificabili sul canvas: seleziona, sposta, ridimensiona o eliminale. Questa localizzazione automatica permette ai venditori di creare prodotti multilingue senza traduzione manuale delle intestazioni.",
+          "Ogni scheda include un`intestazione autogenerata che si adatta all'orientamento della pagina. La modalità Verticale presenta un'intestazione grande centrata con un bordo esterno magenta e un bordo interno rosa. La modalità Orizzontale usa un'intestazione compatta centrata con sfondo verde lime e un riquadro bianco. Il testo dell`intestazione è automaticamente localizzato nelle 11 lingue supportate — «Disegna e Colora» in italiano, «Draw and Color» in inglese, «Zeichnen & Ausmalen» in tedesco, ecc. Le intestazioni sono completamente modificabili sul canvas: seleziona, sposta, ridimensiona o eliminale. Questa localizzazione automatica permette ai venditori di creare prodotti multilingue senza traduzione manuale delle intestazioni.",
       },
       {
         title: "Esportazione PDF e JPEG pronta per la stampa a 300 DPI",
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Strumento di disegno per il negozio di arte e la terapia",
         description:
-          "Carica immagini personalizzate per creare schede di disegno su griglia per qualsiasi disciplina o contesto terapeutico. i venditori di arte usano il disegno su griglia per insegnare l'osservazione proporzionale — il metodo cella per cella è una tecnica negozica usata nell'insegnamento delle belle arti. I terapisti occupazionali usano gli esercizi di riproduzione su griglia per sviluppare il controllo della motricità fine, la coordinazione occhio-mano e l'elaborazione visuospaziale. La percentuale indizi regolabile permette ai professionisti di impostare la difficoltà con precisione: inizia al 75 % per i pazienti che necessitano di supporto solido e riduci gradualmente gli indizi man mano che le competenze migliorano. Le modalità simmetria aggiungono una componente esplicita di ragionamento spaziale alle sessioni di terapia.",
+          "Carica immagini personalizzate per creare schede di disegno su griglia per qualsiasi disciplina o contesto terapeutico. i venditori di arte usano il disegno su griglia per insegnare l`osservazione proporzionale — il metodo cella per cella è una tecnica negozica usata nell'insegnamento delle belle arti. I terapisti occupazionali usano gli esercizi di riproduzione su griglia per sviluppare il controllo della motricità fine, la coordinazione occhio-mano e l`elaborazione visuospaziale. La percentuale indizi regolabile permette ai professionisti di impostare la difficoltà con precisione: inizia al 75 % per i pazienti che necessitano di supporto solido e riduci gradualmente gli indizi man mano che le competenze migliorano. Le modalità simmetria aggiungono una componente esplicita di ragionamento spaziale alle sessioni di terapia.",
         platform: "Vendita Online / Marketplace / Uso Personale",
       },
     ],
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: "Come funziona il sistema a griglia doppia?",
       answer:
-        "Ogni immagine che selezioni genera due griglie complementari. La Griglia di Pratica ha celle vuote con contorni morbidi dove gli utenti disegnano la loro riproduzione. La Griglia Indizi mostra una percentuale configurabile dell'immagine di riferimento — alcune celle riempite con parti dell'immagine, altre lasciate vuote. gli utenti guardano la griglia indizi, identificano quali celle mostrano il contenuto di riferimento e riproducono l'immagine completa cella per cella nella griglia di pratica. Le due griglie appaiono insieme sulla pagina della scheda.",
+        "Ogni immagine che selezioni genera due griglie complementari. La Griglia di Pratica ha celle vuote con contorni morbidi dove gli utenti disegnano la loro riproduzione. La Griglia Indizi mostra una percentuale configurabile dell`immagine di riferimento — alcune celle riempite con parti dell'immagine, altre lasciate vuote. gli utenti guardano la griglia indizi, identificano quali celle mostrano il contenuto di riferimento e riproducono l`immagine completa cella per cella nella griglia di pratica. Le due griglie appaiono insieme sulla pagina della scheda.",
     },
     {
       question: "Cosa controlla la percentuale indizi?",
       answer:
-        "La percentuale indizi (10 %–75 %) determina quale frazione delle celle della griglia indizi rivela l'immagine di riferimento. Al 75 %, tre quarti delle celle mostrano l'immagine e gli utenti completano solo il quarto rimanente. Al 25 %, solo un quarto delle celle è visibile e gli utenti ricostruiscono il resto da indizi sparsi. Al 10 %, quasi nessun riferimento è visibile per una sfida massima. Una percentuale indizi più bassa significa esercizi più difficili. Questo cursore è il controllo principale della difficoltà e permette di creare progressioni fluide da facile a esperto all'interno di un singolo pacchetto di schede.",
+        "La percentuale indizi (10 %–75 %) determina quale frazione delle celle della griglia indizi rivela l`immagine di riferimento. Al 75 %, tre quarti delle celle mostrano l'immagine e gli utenti completano solo il quarto rimanente. Al 25 %, solo un quarto delle celle è visibile e gli utenti ricostruiscono il resto da indizi sparsi. Al 10 %, quasi nessun riferimento è visibile per una sfida massima. Una percentuale indizi più bassa significa esercizi più difficili. Questo cursore è il controllo principale della difficoltà e permette di creare progressioni fluide da facile a esperto all`interno di un singolo pacchetto di schede.",
     },
     {
       question: "Quali dimensioni di griglia posso configurare?",
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Come funzionano le modalità simmetria e specchio?",
       answer:
-        "Tre modalità controllano come le celle indizi vengono posizionate. Nessuna (Casuale) disperde le celle indizi in posizioni arbitrarie per la pratica generale del disegno. Orizzontale riflette le celle indizi da sinistra a destra — gli utenti vedono un lato e devono disegnare l'immagine speculare nell'altro. Verticale riflette le celle indizi dall'alto verso il basso. Quando Orizzontale o Verticale è selezionata, un selettore della metà da rivelare permette di scegliere quale metà mostrare come indizi (sinistra/destra o alto/basso). Le modalità specchio insegnano il riconoscimento della simmetria insieme alle competenze di disegno.",
+        "Tre modalità controllano come le celle indizi vengono posizionate. Nessuna (Casuale) disperde le celle indizi in posizioni arbitrarie per la pratica generale del disegno. Orizzontale riflette le celle indizi da sinistra a destra — gli utenti vedono un lato e devono disegnare l`immagine speculare nell'altro. Verticale riflette le celle indizi dall`alto verso il basso. Quando Orizzontale o Verticale è selezionata, un selettore della metà da rivelare permette di scegliere quale metà mostrare come indizi (sinistra/destra o alto/basso). Le modalità specchio insegnano il riconoscimento della simmetria insieme alle competenze di disegno.",
     },
     {
       question: "Perché questa applicazione usa temi di contorni in bianco e nero invece di colorati?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il generatore di Disegno su Griglia è sensibile alla lingua?",
       answer:
-        "No. Il Disegno su Griglia è un'applicazione puramente visiva — le schede contengono solo immagini su griglia con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influenza solo le etichette dell'interfaccia del generatore e le etichette dei contenuti della libreria immagini, non la scheda stessa. La Licenza Commerciale include 10 temi di contorni in bianco e nero; l'Accesso Completo sblocca tutti gli oltre 100 temi di contorni in bianco e nero e le 11 lingue dell'interfaccia.",
+        "No. Il Disegno su Griglia è un`applicazione puramente visiva — le schede contengono solo immagini su griglia con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influenza solo le etichette dell'interfaccia del generatore e le etichette dei contenuti della libreria immagini, non la scheda stessa. La Licenza Commerciale include 10 temi di contorni in bianco e nero; l'Accesso Completo sblocca tutti gli oltre 100 temi di contorni in bianco e nero e le 11 lingue dell`interfaccia.",
     },
     {
       question: "Posso vendere schede create con questo strumento su Etsy e Amazon KDP?",

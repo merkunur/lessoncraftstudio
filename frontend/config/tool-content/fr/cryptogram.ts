@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: "Générateur de Fiches Cryptogramme",
     tagline: "Créez des puzzles chiffre par images où chaque lettre correspond à une image et les utilisateurs décodent des phrases secrètes entières par reconnaissance de schémas",
-    description: "Concevez des fiches cryptogramme professionnelles construites sur une mécanique de chiffre par images : chaque lettre de l'alphabet est associée à une image unique, et votre phrase secrète est rendue comme une séquence d'images que les utilisateurs doivent décoder pour retrouver le texte lisible. Contrairement aux mots cachés ou aux mots mélangés qui travaillent avec des mots individuels, le Générateur de Cryptogramme encode des phrases et sentences entières — les utilisateurs déchiffrent le code en déduisant quelle image représente quelle lettre, utilisant des indices contextuels provenant de mots courants comme « le », « et » et « est » pour accélérer leur décryptage. Le curseur Lettres à Révéler (0–10) est le contrôle principal de difficulté : réglez-le à zéro pour un défi de décryptage pur sans aucune information de départ, ou montez-le à dix pour un guidage important où de nombreuses correspondances lettre-image sont pré-résolues comme indices. L'Attribution Automatique tire des images aléatoires de n'importe laquelle des 104 collections thématiques (plus de 3 100 illustrations) pour remplir tout le chiffre en un clic, tandis que l'Attribution Manuelle vous permet de sélectionner manuellement des images spécifiques pour des lettres spécifiques avec un aperçu visuel complet de toutes les correspondances. Téléchargez des images personnalisées pour un contrôle créatif total. Le corrigé inclut une légende des lettres montrant chaque lettre de l'alphabet associée à son image assignée par ordre alphabétique — la référence définitive pour vérifier les solutions. La sensibilité linguistique est intégrée : changez de langue et le texte du message secret ainsi que l'alphabet changent. Les cryptogrammes allemands encodent des phrases allemandes avec ä, ö, ü, ß dans l'alphabet ; les cryptogrammes français utilisent é, è, ç, à. Chaque version linguistique est un produit de chiffrage véritablement différent. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 5 polices, activez les niveaux de gris pour un rendu économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
+    description: "Concevez des fiches cryptogramme professionnelles construites sur une mécanique de chiffre par images : chaque lettre de l`alphabet est associée à une image unique, et votre phrase secrète est rendue comme une séquence d'images que les utilisateurs doivent décoder pour retrouver le texte lisible. Contrairement aux mots cachés ou aux mots mélangés qui travaillent avec des mots individuels, le Générateur de Cryptogramme encode des phrases et sentences entières — les utilisateurs déchiffrent le code en déduisant quelle image représente quelle lettre, utilisant des indices contextuels provenant de mots courants comme « le », « et » et « est » pour accélérer leur décryptage. Le curseur Lettres à Révéler (0–10) est le contrôle principal de difficulté : réglez-le à zéro pour un défi de décryptage pur sans aucune information de départ, ou montez-le à dix pour un guidage important où de nombreuses correspondances lettre-image sont pré-résolues comme indices. L'Attribution Automatique tire des images aléatoires de n'importe laquelle des 104 collections thématiques (plus de 3 100 illustrations) pour remplir tout le chiffre en un clic, tandis que l'Attribution Manuelle vous permet de sélectionner manuellement des images spécifiques pour des lettres spécifiques avec un aperçu visuel complet de toutes les correspondances. Téléchargez des images personnalisées pour un contrôle créatif total. Le corrigé inclut une légende des lettres montrant chaque lettre de l'alphabet associée à son image assignée par ordre alphabétique — la référence définitive pour vérifier les solutions. La sensibilité linguistique est intégrée : changez de langue et le texte du message secret ainsi que l'alphabet changent. Les cryptogrammes allemands encodent des phrases allemandes avec ä, ö, ü, ß dans l'alphabet ; les cryptogrammes français utilisent é, è, ç, à. Chaque version linguistique est un produit de chiffrage véritablement différent. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 5 polices, activez les niveaux de gris pour un rendu économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Cryptogramme",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles chiffre par images immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles chiffre par images immédiatement.",
       },
       {
         title: "Définir la Mise en Page et le Modèle",
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: "Saisir la Phrase Secrète et Sélectionner la Langue",
-        description: "Tapez la phrase ou la sentence que vous voulez que les utilisateurs décodent. C'est le message secret qui sera encodé sous forme de chiffre par images. Sélectionnez la langue cible parmi les 11 langues prises en charge — le jeu de lettres de l'alphabet s'ajuste automatiquement selon la langue. L'anglais utilise 26 lettres, l'allemand ajoute ä, ö, ü, ß, et le français ajoute les caractères accentués comme é, è, ç, à. Chaque lettre de votre phrase sera associée à une image.",
+        description: "Tapez la phrase ou la sentence que vous voulez que les utilisateurs décodent. C`est le message secret qui sera encodé sous forme de chiffre par images. Sélectionnez la langue cible parmi les 11 langues prises en charge — le jeu de lettres de l'alphabet s'ajuste automatiquement selon la langue. L'anglais utilise 26 lettres, l`allemand ajoute ä, ö, ü, ß, et le français ajoute les caractères accentués comme é, è, ç, à. Chaque lettre de votre phrase sera associée à une image.",
       },
       {
         title: "Assigner des Images aux Lettres avec Attribution Automatique ou Manuelle",
-        description: "Utilisez l'Attribution Automatique pour associer instantanément des images aléatoires du thème sélectionné à toutes les lettres non assignées en un clic — le moyen le plus rapide de construire un chiffre complet. Sinon, utilisez l'Attribution Manuelle pour sélectionner manuellement quelle image représente quelle lettre, avec un aperçu visuel de toutes les correspondances actuelles. Vous pouvez également télécharger des images personnalisées et les assigner à n'importe quelle lettre pour un contrôle créatif total.",
+        description: "Utilisez l`Attribution Automatique pour associer instantanément des images aléatoires du thème sélectionné à toutes les lettres non assignées en un clic — le moyen le plus rapide de construire un chiffre complet. Sinon, utilisez l'Attribution Manuelle pour sélectionner manuellement quelle image représente quelle lettre, avec un aperçu visuel de toutes les correspondances actuelles. Vous pouvez également télécharger des images personnalisées et les assigner à n`importe quelle lettre pour un contrôle créatif total.",
       },
       {
         title: "Choisir un Thème et le Filtre Couleur ou Noir et Blanc",
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: "Boutique de Cryptogrammes Multilingues",
-      description: "Créez des séries thématiques identiques dans plusieurs langues et listez chacune comme un produit séparé. L'alphabet adapté à la langue signifie que les versions allemande, française, espagnole et autres ont des jeux de caractères élargis — pas juste des phrases traduites dans un chiffre à lettres anglaises. La plupart des vendeurs de cryptogrammes ne servent que l'anglais. Vous pouvez lister sur Etsy Allemagne, France, Espagne, Italie et plus encore avec des produits de chiffrage véritablement localisés. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d'acheteurs différent avec une concurrence minimale.",
+      description: "Créez des séries thématiques identiques dans plusieurs langues et listez chacune comme un produit séparé. L`alphabet adapté à la langue signifie que les versions allemande, française, espagnole et autres ont des jeux de caractères élargis — pas juste des phrases traduites dans un chiffre à lettres anglaises. La plupart des vendeurs de cryptogrammes ne servent que l'anglais. Vous pouvez lister sur Etsy Allemagne, France, Espagne, Italie et plus encore avec des produits de chiffrage véritablement localisés. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d`acheteurs différent avec une concurrence minimale.",
       platform: 'Etsy',
     },
     {
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le chiffre cryptogramme à images ?",
-      answer: "Chaque lettre de l'alphabet est associée à une image unique. Votre phrase secrète est rendue comme une séquence d'images remplaçant chaque lettre. Les utilisateurs étudient la séquence d'images, déduisent quelle image représente quelle lettre par reconnaissance de schémas et indices contextuels, et écrivent les lettres décodées pour retrouver le message original. Les espaces et la ponctuation sont conservés, donc les limites entre les mots sont visibles.",
+      answer: "Chaque lettre de l`alphabet est associée à une image unique. Votre phrase secrète est rendue comme une séquence d'images remplaçant chaque lettre. Les utilisateurs étudient la séquence d`images, déduisent quelle image représente quelle lettre par reconnaissance de schémas et indices contextuels, et écrivent les lettres décodées pour retrouver le message original. Les espaces et la ponctuation sont conservés, donc les limites entre les mots sont visibles.",
     },
     {
       question: "Que fait le curseur Lettres à Révéler (0–10) ?",
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: "Que montre la légende des lettres du corrigé ?",
-      answer: "Le corrigé inclut une légende des lettres complète affichant chaque lettre de l'alphabet associée à son image assignée par ordre alphabétique. C'est la référence définitive pour vérifier les solutions — les utilisateurs ou les vendeurs peuvent rechercher n'importe quelle image pour confirmer quelle lettre elle représente. Le corrigé affiche également la phrase entièrement décodée pour une vérification rapide.",
+      answer: "Le corrigé inclut une légende des lettres complète affichant chaque lettre de l`alphabet associée à son image assignée par ordre alphabétique. C'est la référence définitive pour vérifier les solutions — les utilisateurs ou les vendeurs peuvent rechercher n`importe quelle image pour confirmer quelle lettre elle représente. Le corrigé affiche également la phrase entièrement décodée pour une vérification rapide.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil à usage commercial ?",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: "Générateur de Fiches Mots Mélangés" },
     { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: "Générateur de Fiches Train Alphabet" },
     { pageType: 'tool', slug: "generateur-fiches-prepositions", anchorText: "Générateur de Fiches de Prépositions" },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d'Écriture" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: "Schede completamente visive con zero testo nell'output",
         description:
-          "Ogni scheda contiene solo immagini e indicatori visivi — nessun testo appare nell'output generato. Questo rende le schede Grande e Piccolo universalmente utilizzabili indipendentemente dalla lingua, dal livello di lettura o dalla capacità di alfabetizzazione. gli utenti in fase di pre-lettura, gli apprendenti di lingue e gli utenti con bisogni educativi speciali possono completare gli esercizi senza leggere una singola parola. Per i venditori, l'assenza di testo nell'output significa che la stessa scheda si vende in tutto il mondo senza traduzione — un singolo prodotto serve tutti i mercati. Questo è un vantaggio competitivo significativo rispetto ai generatori di schede con testo.",
+          "Ogni scheda contiene solo immagini e indicatori visivi — nessun testo appare nell`output generato. Questo rende le schede Grande e Piccolo universalmente utilizzabili indipendentemente dalla lingua, dal livello di lettura o dalla capacità di alfabetizzazione. gli utenti in fase di pre-lettura, gli apprendenti di lingue e gli utenti con bisogni educativi speciali possono completare gli esercizi senza leggere una singola parola. Per i venditori, l'assenza di testo nell`output significa che la stessa scheda si vende in tutto il mondo senza traduzione — un singolo prodotto serve tutti i mercati. Questo è un vantaggio competitivo significativo rispetto ai generatori di schede con testo.",
       },
       {
         title: "Libreria di Immagini con 104 collezioni tematiche",
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Strumento di confronto dimensioni per il negozio e le ripetizioni",
         description:
-          "Carica immagini personalizzate per creare schede di confronto dimensioni per qualsiasi materia o concetto — confronta dimensioni di edifici in storia, dimensioni di animali in scienze naturali o porzioni di cibo in educazione alimentare. I cinque tipi di domande ti permettono di adattare l'esercizio all'obiettivo di apprendimento: identificazione per l'introduzione, ordinamento per la valutazione. Regola il numero di esercizi per pagina e di immagini per esercizio in base al livello di ogni utente. Stampa serie personalizzate in pochi minuti per piccoli gruppi o negozi intere. Il foglio risposte generato automaticamente fa risparmiare tempo nel valore percepito, e il formato visivo coinvolge gli utenti che hanno difficoltà con schede ricche di testo.",
+          "Carica immagini personalizzate per creare schede di confronto dimensioni per qualsiasi materia o concetto — confronta dimensioni di edifici in storia, dimensioni di animali in scienze naturali o porzioni di cibo in educazione alimentare. I cinque tipi di domande ti permettono di adattare l`esercizio all'obiettivo di apprendimento: identificazione per l`introduzione, ordinamento per la valutazione. Regola il numero di esercizi per pagina e di immagini per esercizio in base al livello di ogni utente. Stampa serie personalizzate in pochi minuti per piccoli gruppi o negozi intere. Il foglio risposte generato automaticamente fa risparmiare tempo nel valore percepito, e il formato visivo coinvolge gli utenti che hanno difficoltà con schede ricche di testo.",
         platform: "Vendita Online / Marketplace / Uso Personale",
       },
     ],
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il Generatore Grande e Piccolo è sensibile alla lingua?",
       answer:
-        "No. Grande e Piccolo è un'applicazione puramente visiva — le schede contengono solo immagini con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua modifica solo le etichette dell'interfaccia del generatore, non il contenuto della scheda. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell'interfaccia.",
+        "No. Grande e Piccolo è un`applicazione puramente visiva — le schede contengono solo immagini con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua modifica solo le etichette dell'interfaccia del generatore, non il contenuto della scheda. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.",
     },
     {
       question: "Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?",

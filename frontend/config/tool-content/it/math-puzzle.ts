@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Generatore Puzzle Matematici',
     tagline: "Crea puzzle jigsaw con immagini ed equazioni matematiche in meno di 60 secondi",
-    description: "Trasforma la pratica matematica in un coinvolgente puzzle visivo che non assomiglia a nessuna scheda tradizionale. Questo strumento divide un'immagine scelta in una griglia di celle, ciascuna contenente un'equazione matematica. Sotto appaiono i pezzi del puzzle mescolati con i numeri delle risposte — gli utenti risolvono ogni equazione e abbinano il pezzo corretto per ricostruire l'immagine. Scegli tra tre modalità operative: Addizione, Sottrazione o Mista (entrambe le operazioni combinate casualmente). Regola la dimensione della griglia da 2×2 (4 pezzi, più facile) fino a 4×4 (16 pezzi, più difficile) per adattarla a qualsiasi livello di competenza. Carica le tue immagini PNG o JPEG per puzzle personalizzati, stagionali o di nicchia, oppure sfoglia la libreria integrata con oltre 3.100 immagini in 104 temi. Il formato jigsaw crea un prodotto immediatamente riconoscibile che si distingue nei risultati di ricerca dei marketplace — gli acquirenti che scorrono file di schede identiche si fermeranno davanti a un puzzle colorato con immagini. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni.",
+    description: "Trasforma la pratica matematica in un coinvolgente puzzle visivo che non assomiglia a nessuna scheda tradizionale. Questo strumento divide un`immagine scelta in una griglia di celle, ciascuna contenente un'equazione matematica. Sotto appaiono i pezzi del puzzle mescolati con i numeri delle risposte — gli utenti risolvono ogni equazione e abbinano il pezzo corretto per ricostruire l`immagine. Scegli tra tre modalità operative: Addizione, Sottrazione o Mista (entrambe le operazioni combinate casualmente). Regola la dimensione della griglia da 2×2 (4 pezzi, più facile) fino a 4×4 (16 pezzi, più difficile) per adattarla a qualsiasi livello di competenza. Carica le tue immagini PNG o JPEG per puzzle personalizzati, stagionali o di nicchia, oppure sfoglia la libreria integrata con oltre 3.100 immagini in 104 temi. Il formato jigsaw crea un prodotto immediatamente riconoscibile che si distingue nei risultati di ricerca dei marketplace — gli acquirenti che scorrono file di schede identiche si fermeranno davanti a un puzzle colorato con immagini. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni.",
   },
 
   tutorial: {
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pacchetti premium su Gumroad',
-      description: "Carica pacchetti di puzzle matematici differenziati su Gumroad. i venditori cercano costantemente \"puzzle matematici\" e \"giochi di matematica\". Includi tutte e tre le modalità operative, tre livelli di difficoltà, foglio delle soluzioni e una guida per l'venditore in ogni annuncio. Il formato jigsaw aggiunge valore percepito perché sembra un gioco, non un esercizio ripetitivo. Aggiungi una pagina \"Come usare\" con spiegazioni sui livelli di difficoltà della griglia, i negozi consigliate e suggerimenti per l'uso online. Gli acquirenti Gumroad lasciano costantemente valutazioni più alte per risorse che includono documentazione per l'venditore, il che a sua volta migliora la visibilità del tuo annuncio nei risultati di ricerca Gumroad.",
+      description: "Carica pacchetti di puzzle matematici differenziati su Gumroad. i venditori cercano costantemente \"puzzle matematici\" e \"giochi di matematica\". Includi tutte e tre le modalità operative, tre livelli di difficoltà, foglio delle soluzioni e una guida per l`venditore in ogni annuncio. Il formato jigsaw aggiunge valore percepito perché sembra un gioco, non un esercizio ripetitivo. Aggiungi una pagina \"Come usare\" con spiegazioni sui livelli di difficoltà della griglia, i negozi consigliate e suggerimenti per l'uso online. Gli acquirenti Gumroad lasciano costantemente valutazioni più alte per risorse che includono documentazione per l`venditore, il che a sua volta migliora la visibilità del tuo annuncio nei risultati di ricerca Gumroad.",
       platform: 'Gumroad',
     },
     {
@@ -144,7 +144,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Metti in evidenza il formato puzzle nelle miniature",
-      description: "La griglia jigsaw è visivamente unica e immediatamente riconoscibile. Usa i tuoi download JPEG come miniature dei prodotti su Etsy e Gumroad. Un'immagine colorata divisa in pezzi puzzle numerati cattura l'attenzione molto più efficacemente di un'anteprima di scheda tradizionale.",
+      description: "La griglia jigsaw è visivamente unica e immediatamente riconoscibile. Usa i tuoi download JPEG come miniature dei prodotti su Etsy e Gumroad. Un`immagine colorata divisa in pezzi puzzle numerati cattura l'attenzione molto più efficacemente di un`anteprima di scheda tradizionale.",
     },
     {
       title: "Includi sempre il foglio delle soluzioni",
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Come funziona il formato puzzle matematico?",
-      answer: "Lo strumento divide un'immagine scelta in una griglia di celle. Ogni cella mostra un'equazione matematica (addizione, sottrazione o entrambe). Sotto la griglia, i pezzi del puzzle mescolati mostrano i numeri delle risposte. gli utenti risolvono ogni equazione, trovano il pezzo corrispondente e lo posizionano nella cella corretta per ricostruire l'immagine completa.",
+      answer: "Lo strumento divide un`immagine scelta in una griglia di celle. Ogni cella mostra un'equazione matematica (addizione, sottrazione o entrambe). Sotto la griglia, i pezzi del puzzle mescolati mostrano i numeri delle risposte. gli utenti risolvono ogni equazione, trovano il pezzo corrispondente e lo posizionano nella cella corretta per ricostruire l`immagine completa.",
     },
     {
       question: "Quali dimensioni di griglia sono disponibili?",

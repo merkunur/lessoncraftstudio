@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Vakoverstijgende Gegevensrepresentatie Activiteiten",
-      description: "Plaatjesgrafieken overbruggen rekenen en andere vakken op natuurlijke wijze. Gebruik dierenthema's voor biologielessen over leefgebieden en classificatie. Gebruik voedselthema's voor lessen over gezondheid en voeding. Gebruik voertuigenthema's voor onderwerpen over gemeenschap en transport. Het staafdiagramformaat leert gegevensverzameling (verstrooide afbeeldingen tellen) en gegevensrepresentatie (diagramcellen invullen) tegelijkertijd, waardoor grafiekvaardigheden worden versterkt terwijl vakinhoud wordt behandeld. Vakoverstijgende bundels spreken verkopers aan die geïntegreerde activiteiten willen — een groeiende niche op alle grote marktplaatsplatformen.",
+      description: "Plaatjesgrafieken overbruggen rekenen en andere vakken op natuurlijke wijze. Gebruik dierenthema`s voor biologielessen over leefgebieden en classificatie. Gebruik voedselthema's voor lessen over gezondheid en voeding. Gebruik voertuigenthema`s voor onderwerpen over gemeenschap en transport. Het staafdiagramformaat leert gegevensverzameling (verstrooide afbeeldingen tellen) en gegevensrepresentatie (diagramcellen invullen) tegelijkertijd, waardoor grafiekvaardigheden worden versterkt terwijl vakinhoud wordt behandeld. Vakoverstijgende bundels spreken verkopers aan die geïntegreerde activiteiten willen — een groeiende niche op alle grote marktplaatsplatformen.",
     },
     {
       title: "Multi-Formaat Visueel Leren Bundels",

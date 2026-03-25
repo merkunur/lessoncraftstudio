@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: "Seleziona un'Immagine dalla Libreria o Carica la Tua",
-        description: "Apri il pannello Libreria Immagini e sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni colorate — animali, cibo, veicoli, natura, festività, professioni e decine di altri temi. Filtra per tema usando il menu a tendina o cerca per parola chiave. Clicca su qualsiasi immagine per selezionarla come fonte del puzzle. In alternativa, usa il pannello Carica Immagini Personalizzate per caricare i tuoi file PNG, JPG o GIF per puzzle a griglia personalizzati — foto di famiglia, opere d'arte personalizzate, immagini brandizzate o contenuti specifici per il negozio. L'anteprima dell'immagine selezionata mostra la tua scelta prima della generazione.",
+        description: "Apri il pannello Libreria Immagini e sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni colorate — animali, cibo, veicoli, natura, festività, professioni e decine di altri temi. Filtra per tema usando il menu a tendina o cerca per parola chiave. Clicca su qualsiasi immagine per selezionarla come fonte del puzzle. In alternativa, usa il pannello Carica Immagini Personalizzate per caricare i tuoi file PNG, JPG o GIF per puzzle a griglia personalizzati — foto di famiglia, opere d`arte personalizzate, immagini brandizzate o contenuti specifici per il negozio. L'anteprima dell`immagine selezionata mostra la tua scelta prima della generazione.",
       },
       {
         title: "Imposta il Layout della Pagina e le Decorazioni",
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: "Come funziona il puzzle a griglia?",
-      answer: "La scheda mostra un'immagine singola divisa in una griglia dove alcune celle mostrano la tessera dell'immagine reale (celle indizio) e le celle rimanenti mostrano segnaposto \"?\". Accanto o sotto la griglia, una tavolozza numerata mostra tutte le tessere nascoste in ordine mescolato. gli utenti esaminano le celle indizio visibili, studiano le tessere numerate nella tavolozza e determinano quale numero appartiene a ciascuna posizione vuota della griglia. Il puzzle richiede ragionamento spaziale — abbinare il contenuto delle singole tessere alla loro posizione corretta nell'immagine complessiva. Configura la griglia da 2×2 (4 tessere) a 4×4 (16 tessere) e imposta 1–5 celle indizio per controllare la difficoltà.",
+      answer: "La scheda mostra un`immagine singola divisa in una griglia dove alcune celle mostrano la tessera dell'immagine reale (celle indizio) e le celle rimanenti mostrano segnaposto \"?\". Accanto o sotto la griglia, una tavolozza numerata mostra tutte le tessere nascoste in ordine mescolato. gli utenti esaminano le celle indizio visibili, studiano le tessere numerate nella tavolozza e determinano quale numero appartiene a ciascuna posizione vuota della griglia. Il puzzle richiede ragionamento spaziale — abbinare il contenuto delle singole tessere alla loro posizione corretta nell`immagine complessiva. Configura la griglia da 2×2 (4 tessere) a 4×4 (16 tessere) e imposta 1–5 celle indizio per controllare la difficoltà.",
     },
     {
       question: "Come funziona la chiave di risposta automatica?",

@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: "Assegna le immagini alle lettere",
         description:
-          "Usa l'Assegnazione Automatica per associare istantaneamente immagini casuali dal tema selezionato a tutte le lettere non assegnate — un clic completa l'intera cifra. In alternativa, usa l'Assegnazione Manuale per selezionare manualmente immagini specifiche per lettere specifiche, visualizzando in anteprima tutte le corrispondenze attuali in una panoramica visiva. Puoi anche caricare immagini personalizzate da assegnare a qualsiasi lettera. Il filtro Colore vs Bianco e Nero ti permette di scegliere tra illustrazioni a colori e disegni a tratto in bianco e nero per schede economiche in termini di inchiostro.",
+          "Usa l`Assegnazione Automatica per associare istantaneamente immagini casuali dal tema selezionato a tutte le lettere non assegnate — un clic completa l'intera cifra. In alternativa, usa l`Assegnazione Manuale per selezionare manualmente immagini specifiche per lettere specifiche, visualizzando in anteprima tutte le corrispondenze attuali in una panoramica visiva. Puoi anche caricare immagini personalizzate da assegnare a qualsiasi lettera. Il filtro Colore vs Bianco e Nero ti permette di scegliere tra illustrazioni a colori e disegni a tratto in bianco e nero per schede economiche in termini di inchiostro.",
       },
       {
         title: "Regola la difficoltà con Lettere da Rivelare e aggiungi testo personalizzato",
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: "Assegnazione Automatica di immagini da 104 collezioni tematiche",
         description:
-          "Un clic sull'Assegnazione Automatica associa istantaneamente immagini casuali dal tema selezionato a ogni lettera non assegnata. Scegli tra 104 collezioni di immagini tematiche con oltre 3100 illustrazioni in totale — animali, alimenti, veicoli, natura, professioni e decine di altre. Il filtro Colore vs Bianco e Nero ti permette di alternare tra illustrazioni a colori e disegni a tratto in bianco e nero per schede economiche in termini di inchiostro. L'Assegnazione Automatica rende la produzione in lotto velocissima: seleziona un tema, scrivi la tua frase, e l'intera cifra è pronta in pochi secondi.",
+          "Un clic sull`Assegnazione Automatica associa istantaneamente immagini casuali dal tema selezionato a ogni lettera non assegnata. Scegli tra 104 collezioni di immagini tematiche con oltre 3100 illustrazioni in totale — animali, alimenti, veicoli, natura, professioni e decine di altre. Il filtro Colore vs Bianco e Nero ti permette di alternare tra illustrazioni a colori e disegni a tratto in bianco e nero per schede economiche in termini di inchiostro. L'Assegnazione Automatica rende la produzione in lotto velocissima: seleziona un tema, scrivi la tua frase, e l`intera cifra è pronta in pochi secondi.",
       },
       {
         title: "Assegnazione Manuale di immagini con anteprima visiva",
         description:
-          "Per un controllo preciso, usa l'Assegnazione Manuale per selezionare manualmente quale immagine rappresenta quale lettera. Una panoramica visiva mostra tutte le corrispondenze lettera-immagine attuali a colpo d'occhio, facilitando la verifica delle assegnazioni prima di generare. Puoi anche caricare immagini personalizzate da assegnare a qualsiasi lettera, estendendo la cifra oltre la libreria integrata. L'assegnazione manuale è ideale per creare crittogrammi tematici dove immagini specifiche rafforzano il tema del puzzle — animali della fattoria per vocabolario agricolo, strumenti musicali per la lezione di musica o icone festive per puzzle stagionali.",
+          "Per un controllo preciso, usa l`Assegnazione Manuale per selezionare manualmente quale immagine rappresenta quale lettera. Una panoramica visiva mostra tutte le corrispondenze lettera-immagine attuali a colpo d'occhio, facilitando la verifica delle assegnazioni prima di generare. Puoi anche caricare immagini personalizzate da assegnare a qualsiasi lettera, estendendo la cifra oltre la libreria integrata. L`assegnazione manuale è ideale per creare crittogrammi tematici dove immagini specifiche rafforzano il tema del puzzle — animali della fattoria per vocabolario agricolo, strumenti musicali per la lezione di musica o icone festive per puzzle stagionali.",
       },
       {
         title: "Legenda delle lettere completa nel foglio risposte",
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: "Prodotti crittogramma multilingue con Accesso Completo",
         description:
-          "L'Accesso Completo sblocca tutte le 11 lingue, e poiché il Crittogramma è sensibile alla lingua, sia il testo del messaggio segreto CHE il set di lettere dell'alfabeto cambiano in base alla lingua. Una frase in inglese diventa una frase in tedesco codificata con un alfabeto che include ä, ö, ü, ß; una frase in francese usa un alfabeto con é, è, ç, à; una frase in italiano usa un alfabeto con à, è, é, ì, ò, ù. Ogni versione linguistica produce un puzzle cifrato genuinamente diverso con parole diverse, corrispondenze di lettere diverse e un'esperienza di risoluzione diversa. Crea serie tematiche identiche in più lingue e pubblica ciascuna come prodotto Etsy o libro KDP separato — undici flussi di entrate da un unico flusso di lavoro.",
+          "L`Accesso Completo sblocca tutte le 11 lingue, e poiché il Crittogramma è sensibile alla lingua, sia il testo del messaggio segreto CHE il set di lettere dell'alfabeto cambiano in base alla lingua. Una frase in inglese diventa una frase in tedesco codificata con un alfabeto che include ä, ö, ü, ß; una frase in francese usa un alfabeto con é, è, ç, à; una frase in italiano usa un alfabeto con à, è, é, ì, ò, ù. Ogni versione linguistica produce un puzzle cifrato genuinamente diverso con parole diverse, corrispondenze di lettere diverse e un`esperienza di risoluzione diversa. Crea serie tematiche identiche in più lingue e pubblica ciascuna come prodotto Etsy o libro KDP separato — undici flussi di entrate da un unico flusso di lavoro.",
         platform: "Etsy / Amazon KDP / Gumroad (multilingue)",
       },
       {
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: "Qual è la differenza tra Assegnazione Automatica e Assegnazione Manuale?",
       answer:
-        "L'Assegnazione Automatica associa istantaneamente immagini casuali dal tema selezionato a tutte le lettere non assegnate con un singolo clic — veloce per la produzione in lotto. L'Assegnazione Manuale ti permette di selezionare manualmente quale immagine specifica rappresenta quale lettera specifica, con un'anteprima visiva di tutte le corrispondenze attuali. Puoi combinare entrambe: assegnare automaticamente la maggior parte e poi scambiare manualmente lettere specifiche con immagini che si adattano meglio al tuo tema o obiettivo didattico.",
+        "L`Assegnazione Automatica associa istantaneamente immagini casuali dal tema selezionato a tutte le lettere non assegnate con un singolo clic — veloce per la produzione in lotto. L'Assegnazione Manuale ti permette di selezionare manualmente quale immagine specifica rappresenta quale lettera specifica, con un`anteprima visiva di tutte le corrispondenze attuali. Puoi combinare entrambe: assegnare automaticamente la maggior parte e poi scambiare manualmente lettere specifiche con immagini che si adattano meglio al tuo tema o obiettivo didattico.",
     },
     {
       question: "Si possono codificare frasi complete, non solo singole parole?",

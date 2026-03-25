@@ -67,7 +67,7 @@ const content: GuideContent = {
   platformTips: [
     {
       heading: "Bereken Royalty's Vóór het Kiezen van Pagina-Aantallen",
-      content: "Finaliseer nooit het pagina-aantal van een boek zonder de royaltyberekening door te rekenen bij je doelprijs. Elke extra pagina verhoogt de drukkosten, die direct uit je royalty komen. Een 100-pagina boek geprijsd op $8,99 verdient een betekenisvol andere royalty dan een 120-pagina boek op dezelfde prijs. Soms verhoogt het verminderen van je pagina-aantal met 10 tot 20 pagina's — terwijl je nog steeds uitstekende waarde biedt — je winst per verkoop genoeg om meer totale omzet te verdienen zelfs als iets minder kopers het boek kiezen. Gebruik KDP's drukkostencalculator om scenario's te modelleren voordat je je aan productie verbindt.",
+      content: "Finaliseer nooit het pagina-aantal van een boek zonder de royaltyberekening door te rekenen bij je doelprijs. Elke extra pagina verhoogt de drukkosten, die direct uit je royalty komen. Een 100-pagina boek geprijsd op $8,99 verdient een betekenisvol andere royalty dan een 120-pagina boek op dezelfde prijs. Soms verhoogt het verminderen van je pagina-aantal met 10 tot 20 pagina`s — terwijl je nog steeds uitstekende waarde biedt — je winst per verkoop genoeg om meer totale omzet te verdienen zelfs als iets minder kopers het boek kiezen. Gebruik KDP's drukkostencalculator om scenario`s te modelleren voordat je je aan productie verbindt.",
     },
     {
       heading: "Ontwerp voor Zwart-Wit om Winst te Maximaliseren",
@@ -120,7 +120,7 @@ const content: GuideContent = {
     },
     {
       question: "Is het beter om veel korte activiteitenboeken of minder lange te publiceren?",
-      answer: "Meer titels genereren bijna altijd meer totale omzet dan minder langere titels, mits de kwaliteit consistent blijft. Een 40-pagina activiteitenboek en een 100-pagina activiteitenboek bedienen verschillende kopersbehoeften. Het kortere boek heeft lagere drukkosten en kan lager worden geprijsd terwijl gezonde royalty's behouden blijven, waardoor het toegankelijk is voor budgetbewuste kopers. Het langere boek beheerst een hogere prijs en biedt meer waargenomen waarde. De optimale strategie is een mix: sommige standaard-lengte titels (50 tot 80 pagina's) als je catalogusruggengraat, plus enkele langere premiumtitels (100 tot 150 pagina's) voor kopers die maximale inhoud willen. Elke titel bezet andere zoekresultaatslots en bedient andere kopersvoorkeuren, wat je totale catalogusbereik maximaliseert.",
+      answer: "Meer titels genereren bijna altijd meer totale omzet dan minder langere titels, mits de kwaliteit consistent blijft. Een 40-pagina activiteitenboek en een 100-pagina activiteitenboek bedienen verschillende kopersbehoeften. Het kortere boek heeft lagere drukkosten en kan lager worden geprijsd terwijl gezonde royalty`s behouden blijven, waardoor het toegankelijk is voor budgetbewuste kopers. Het langere boek beheerst een hogere prijs en biedt meer waargenomen waarde. De optimale strategie is een mix: sommige standaard-lengte titels (50 tot 80 pagina's) als je catalogusruggengraat, plus enkele langere premiumtitels (100 tot 150 pagina`s) voor kopers die maximale inhoud willen. Elke titel bezet andere zoekresultaatslots en bedient andere kopersvoorkeuren, wat je totale catalogusbereik maximaliseert.",
     },
     {
       question: "Hoe prijs ik activiteitenboeken wanneer ik concurreer met zeer goedkope boeken?",

@@ -108,7 +108,7 @@ const content: GuideContent = {
     },
     {
       question: "Preciso de uma licença comercial para vender no Etsy?",
-      answer: "Os requisitos legais de registo de negócio variam por país e jurisdição. O Etsy permite que indivíduos vendam sem uma entidade empresarial formal em muitos países. No entanto, para usar os 33 geradores para criar imprimíveis para venda, precisa de uma licença comercial do software — esta é diferente de uma licença empresarial governamental. O teste grátis com marca d'água permite criar e testar todos os produtos, mas os downloads com marca d'água não podem ser vendidos. A licença comercial remove a marca d'água e concede direitos de venda completos.",
+      answer: "Os requisitos legais de registo de negócio variam por país e jurisdição. O Etsy permite que indivíduos vendam sem uma entidade empresarial formal em muitos países. No entanto, para usar os 33 geradores para criar imprimíveis para venda, precisa de uma licença comercial do software — esta é diferente de uma licença empresarial governamental. O teste grátis com marca d`água permite criar e testar todos os produtos, mas os downloads com marca d'água não podem ser vendidos. A licença comercial remove a marca d`água e concede direitos de venda completos.",
     },
     {
       question: "Quantos anúncios preciso para começar a vender?",

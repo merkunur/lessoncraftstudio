@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: "Générateur de Fiches d'Addition Codée",
     tagline: "Créez des puzzles cryptarithmétiques où les utilisateurs déchiffrent des codes secrets grâce à l'addition",
-    description: "Ce n'est pas une simple fiche d'addition — c'est un défi de décodage. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.",
+    description: "Ce n`est pas une simple fiche d'addition — c'est un défi de décodage. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.",
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Choisir les Opérandes par Équation",
-        description: "Sélectionnez combien de symboles apparaissent dans chaque équation d'addition : 2, 3, 4 ou Mixte. Les équations à deux opérandes conviennent aux plus jeunes utilisateurs. Les équations à trois et quatre opérandes poussent les utilisateurs plus âgés à suivre davantage d'inconnues. Le mode Mixte varie aléatoirement le nombre d'opérandes d'un exercice à l'autre pour une variété maximale.",
+        description: "Sélectionnez combien de symboles apparaissent dans chaque équation d`addition : 2, 3, 4 ou Mixte. Les équations à deux opérandes conviennent aux plus jeunes utilisateurs. Les équations à trois et quatre opérandes poussent les utilisateurs plus âgés à suivre davantage d'inconnues. Le mode Mixte varie aléatoirement le nombre d'opérandes d'un exercice à l`autre pour une variété maximale.",
       },
       {
         title: "Activer le Mode Mot Mystère (Optionnel)",
@@ -83,7 +83,7 @@ const content: ToolContent = {  seo: {
       description: "Créez le même concept de puzzle à plusieurs niveaux de difficulté : 3 symboles avec 2 opérandes pour les débutants, 5 symboles avec 3 opérandes pour le niveau intermédiaire et 8 symboles avec des opérandes mixtes pour les avancés. Les vendeurs peuvent attribuer le bon niveau sans temps de préparation supplémentaire.",
     },
     {
-      title: 'Défis d'Échauffement en ligne',
+      title: `Défis d'Échauffement en ligne`,
       description: "Générez des puzzles de décodage rapides de 5 minutes pour le travail d'accueil quotidien. Utilisez 3 à 4 symboles pour que les utilisateurs terminent rapidement, ou augmentez à 6 ou plus pour un défi sur toute la séance. Incluez le corrigé pour que les utilisateurs puissent se corriger eux-mêmes et suivre leur progression.",
     },
   ],
@@ -91,7 +91,7 @@ const content: ToolContent = {  seo: {
   businessIdeas: [
     {
       title: "Boutique de Puzzles Cryptarithmétiques sur Etsy",
-      description: "Ouvrez une boutique Etsy de niche spécialisée dans les fiches de maths à décoder. C'est une catégorie véritablement sous-exploitée — la plupart des vendeurs proposent des exercices d'addition standards, pas des puzzles cryptarithmétiques. Créez 15 à 20 packs thématiques entre 3 € et 5 € chacun. Le facteur de nouveauté génère des taux de clics plus élevés dans les résultats de recherche. Pensez à organiser votre boutique en collections saisonnières — décodeurs d'Halloween en octobre, packs de chiffrement des fêtes en décembre, ensembles de rentrée en août. Les produits saisonniers connaissent des pics dans les recherches Etsy pendant leur période, ce qui vous donne des fenêtres de trafic prévisibles.",
+      description: "Ouvrez une boutique Etsy de niche spécialisée dans les fiches de maths à décoder. C`est une catégorie véritablement sous-exploitée — la plupart des vendeurs proposent des exercices d'addition standards, pas des puzzles cryptarithmétiques. Créez 15 à 20 packs thématiques entre 3 € et 5 € chacun. Le facteur de nouveauté génère des taux de clics plus élevés dans les résultats de recherche. Pensez à organiser votre boutique en collections saisonnières — décodeurs d`Halloween en octobre, packs de chiffrement des fêtes en décembre, ensembles de rentrée en août. Les produits saisonniers connaissent des pics dans les recherches Etsy pendant leur période, ce qui vous donne des fenêtres de trafic prévisibles.",
       platform: 'Etsy.fr',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: "Commencez avec Moins de Symboles pour les Débutants",
-      description: "Trois ou quatre symboles est le point idéal pour les jeunes utilisateurs et les novices en décodage. Avec moins d'inconnues, les utilisateurs peuvent utiliser la logique d'élimination plus facilement. Réservez les puzzles à 6 symboles ou plus pour les utilisateurs plus âgés ou les sections de défis avancés dans vos packs de produits. Lors de la création d'un listing produit, mentionnez le nombre de symboles dans votre description pour que les acheteurs sachent quel niveau de difficulté ils obtiennent. Des phrases comme « puzzles débutants à 3 symboles » ou « défis avancés à 7 symboles » aident les acheteurs à choisir le bon produit et réduisent les demandes de remboursement.",
+      description: "Trois ou quatre symboles est le point idéal pour les jeunes utilisateurs et les novices en décodage. Avec moins d`inconnues, les utilisateurs peuvent utiliser la logique d'élimination plus facilement. Réservez les puzzles à 6 symboles ou plus pour les utilisateurs plus âgés ou les sections de défis avancés dans vos packs de produits. Lors de la création d`un listing produit, mentionnez le nombre de symboles dans votre description pour que les acheteurs sachent quel niveau de difficulté ils obtiennent. Des phrases comme « puzzles débutants à 3 symboles » ou « défis avancés à 7 symboles » aident les acheteurs à choisir le bon produit et réduisent les demandes de remboursement.",
     },
     {
       title: "Utilisez les Opérandes Mixtes pour une Variété Maximale",
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Combinez avec des Fiches d'Addition Classiques",
-      description: "Créez des packs qui associent des fiches d'addition standards avec des puzzles de décodage. Les fiches d'addition développent la fluence en calcul ; les puzzles de code appliquent cette fluence dans un contexte logique. Les produits combinés ont une valeur perçue plus élevée et justifient de meilleurs prix sur tous les marketplaces. Un pack bien structuré pourrait inclure 20 pages d'addition classique, 10 puzzles de décodage en Mode Classique et 5 défis Mot Mystère — le tout avec corrigés.",
+      description: "Créez des packs qui associent des fiches d`addition standards avec des puzzles de décodage. Les fiches d'addition développent la fluence en calcul ; les puzzles de code appliquent cette fluence dans un contexte logique. Les produits combinés ont une valeur perçue plus élevée et justifient de meilleurs prix sur tous les marketplaces. Un pack bien structuré pourrait inclure 20 pages d`addition classique, 10 puzzles de décodage en Mode Classique et 5 défis Mot Mystère — le tout avec corrigés.",
     },
     {
       title: 'Incluez Toujours le Corrigé',
@@ -154,12 +154,12 @@ const content: ToolContent = {  seo: {
 
   faq: [
     {
-      question: "Qu'est-ce qu'une fiche d'addition codée ?",
+      question: "Qu`est-ce qu'une fiche d`addition codée ?",
       answer: "Une fiche d'addition codée est un puzzle cryptarithmétique où des images ou symboles remplacent les nombres dans des équations d'addition. Les utilisateurs résolvent les équations pour déterminer quel nombre chaque symbole représente. Cela combine la pratique de l'addition avec la déduction logique, rendant l'exercice bien plus engageant que les exercices de maths standards. Le mécanisme de chiffrement ajoute une couche de puzzle captivante qui transforme la pratique routinière de l'addition en défi d'investigation. Les utilisateurs doivent d'abord décoder quel nombre chaque image représente, puis résoudre l'arithmétique. Cette double exigence développe simultanément la fluence mathématique et les capacités de raisonnement logique.",
     },
     {
       question: "Quelle est la différence entre le Mode Classique et le Mode Mot Mystère ?",
-      answer: "En Mode Classique, chaque image cache un nombre secret unique et les utilisateurs résolvent des équations d'addition pour déchiffrer le code. En Mode Mot Mystère, chaque équation résolue révèle une lettre d'un mot caché, et des lettres de distraction avec des sommes incorrectes maintiennent le suspense. Le Mode Mot Mystère est une fonctionnalité premium. Du point de vue d'un vendeur, cette distinction compte car elle vous donne effectivement deux gammes de produits différentes à partir d'un seul outil. Le Mode Classique attire les vendeurs de maths cherchant de la pratique arithmétique basée sur la logique, tandis que le Mode Mot Mystère attire les entrepreneurs axés sur la littératie et les parents qui font l'école à la maison et recherchent des activités interdisciplinaires.",
+      answer: "En Mode Classique, chaque image cache un nombre secret unique et les utilisateurs résolvent des équations d`addition pour déchiffrer le code. En Mode Mot Mystère, chaque équation résolue révèle une lettre d'un mot caché, et des lettres de distraction avec des sommes incorrectes maintiennent le suspense. Le Mode Mot Mystère est une fonctionnalité premium. Du point de vue d'un vendeur, cette distinction compte car elle vous donne effectivement deux gammes de produits différentes à partir d'un seul outil. Le Mode Classique attire les vendeurs de maths cherchant de la pratique arithmétique basée sur la logique, tandis que le Mode Mot Mystère attire les entrepreneurs axés sur la littératie et les parents qui font l`école à la maison et recherchent des activités interdisciplinaires.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Puis-je vendre les fiches que je crée ?",
-      answer: "L'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre sur Etsy, Gumroad, Amazon KDP, Gumroad ou toute autre plateforme, vous avez besoin d'une licence commerciale. La licence supprime le filigrane et accorde les droits complets de vente pour les puzzles que vous générez. Une fois licencié, il n'y a pas de limite par téléchargement et pas de redevances — vous gardez 100 % de vos revenus de vente.",
+      answer: "L`essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre sur Etsy, Gumroad, Amazon KDP, Gumroad ou toute autre plateforme, vous avez besoin d'une licence commerciale. La licence supprime le filigrane et accorde les droits complets de vente pour les puzzles que vous générez. Une fois licencié, il n`y a pas de limite par téléchargement et pas de redevances — vous gardez 100 % de vos revenus de vente.",
     },
     {
       question: "Quelles langues sont prises en charge ?",
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "En quoi est-ce différent des fiches d'addition classiques ?",
-      answer: "Les fiches d'addition classiques affichent les nombres directement. Les fiches d'addition codée cachent les nombres derrière des symboles-images, transformant chaque page en puzzle logique. Les utilisateurs doivent utiliser les résultats des équations d'addition pour déduire quel nombre chaque symbole représente. Cela développe à la fois la fluence arithmétique et la pensée critique.",
+      answer: "Les fiches d`addition classiques affichent les nombres directement. Les fiches d'addition codée cachent les nombres derrière des symboles-images, transformant chaque page en puzzle logique. Les utilisateurs doivent utiliser les résultats des équations d`addition pour déduire quel nombre chaque symbole représente. Cela développe à la fois la fluence arithmétique et la pensée critique.",
     },
     {
       question: "Quelle est votre politique de remboursement ?",
@@ -196,13 +196,13 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-codee-fiches', anchorText: "Fiches d'Addition Codée — Détails Complets du Produit" },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d'Addition" },
+    { pageType: `app', slug: 'addition-codee-fiches', anchorText: "Fiches d`Addition Codée — Détails Complets du Produit" },
+    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: "Générateur de Puzzles Mathématiques" },
-    { pageType: 'tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d'Exercices de Maths" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Générateur de Pages de Coloriage" },
   ],
 

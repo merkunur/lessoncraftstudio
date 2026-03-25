@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Tessere di lettere mescolate con indizi immagine",
         description:
-          "Ogni puzzle presenta un indizio immagine accanto a un set di tessere di lettere mescolate. gli utenti studiano l'immagine, identificano cosa rappresenta e riordinano le tessere nell'ordine corretto per comporre la parola. A differenza dei puzzle indovina parole dove gli utenti riempiono spazi vuoti, lettere mescolate dà agli utenti TUTTE le lettere ma nell'ordine sbagliato — un esercizio di riordino lettere che sviluppa la precisione ortografica e il riconoscimento delle parole attraverso la manipolazione attiva anziché la deduzione.",
+          "Ogni puzzle presenta un indizio immagine accanto a un set di tessere di lettere mescolate. gli utenti studiano l`immagine, identificano cosa rappresenta e riordinano le tessere nell'ordine corretto per comporre la parola. A differenza dei puzzle indovina parole dove gli utenti riempiono spazi vuoti, lettere mescolate dà agli utenti TUTTE le lettere ma nell`ordine sbagliato — un esercizio di riordino lettere che sviluppa la precisione ortografica e il riconoscimento delle parole attraverso la manipolazione attiva anziché la deduzione.",
       },
       {
         title: "Quattro livelli di difficoltà con posizionamento indizi regolabile",

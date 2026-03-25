@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Genera le Cartelle Bingo',
-        description: "Clicca Genera per creare le tue cartelle bingo. L'app riempie la griglia configurata con immagini o parole dal tema selezionato e crea gettoni circolari con bordi tratteggiati (#666, strokeDashArray [5,5]) sotto la cartella. I gettoni sono mescolati usando l'ordinamento Fisher-Yates così non rispecchiano mai il layout della griglia della cartella, garantendo un gioco di bingo autentico. Se hai richiesto più cartelle, ciascuna pesca una selezione casuale diversa dal pool di immagini. La prima cartella appare sul canvas immediatamente per l'anteprima. L'area della griglia usa il 60% dell'altezza disponibile del canvas (massimo 500px) per proporzioni ottimali.",
+        description: "Clicca Genera per creare le tue cartelle bingo. L`app riempie la griglia configurata con immagini o parole dal tema selezionato e crea gettoni circolari con bordi tratteggiati (#666, strokeDashArray [5,5]) sotto la cartella. I gettoni sono mescolati usando l'ordinamento Fisher-Yates così non rispecchiano mai il layout della griglia della cartella, garantendo un gioco di bingo autentico. Se hai richiesto più cartelle, ciascuna pesca una selezione casuale diversa dal pool di immagini. La prima cartella appare sul canvas immediatamente per l'anteprima. L'area della griglia usa il 60% dell`altezza disponibile del canvas (massimo 500px) per proporzioni ottimali.",
       },
       {
         title: "Controlla il Foglio di Richiamo",
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Scarica Cartelle, Foglio di Richiamo e Batch ZIP",
-        description: "Attiva la scala di grigi per versioni a risparmio d'inchiostro ideali per la stampa in volume e gli interni KDP. Scarica i file individuali usando i quattro pulsanti dedicati: scheda JPEG, foglio di richiamo JPEG, scheda PDF e foglio di richiamo PDF — tutto renderizzato a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Per l'esportazione batch, clicca il pulsante download ZIP per ricevere tutte le cartelle bingo generate come JPEG individuali in un unico file bingo_cards.zip. L'esportazione batch ZIP è essenziale per i venditori che creano set di cartelle bingo multipli — genera 10 cartelle uniche e confezionale in un unico download. I file sono pronti per la produzione per inserzioni Etsy, interni Amazon KDP e file risorse Gumroad.",
+        description: "Attiva la scala di grigi per versioni a risparmio d`inchiostro ideali per la stampa in volume e gli interni KDP. Scarica i file individuali usando i quattro pulsanti dedicati: scheda JPEG, foglio di richiamo JPEG, scheda PDF e foglio di richiamo PDF — tutto renderizzato a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Per l'esportazione batch, clicca il pulsante download ZIP per ricevere tutte le cartelle bingo generate come JPEG individuali in un unico file bingo_cards.zip. L`esportazione batch ZIP è essenziale per i venditori che creano set di cartelle bingo multipli — genera 10 cartelle uniche e confezionale in un unico download. I file sono pronti per la produzione per inserzioni Etsy, interni Amazon KDP e file risorse Gumroad.",
       },
     ],
   },
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Serie di Libri di Attività Bingo per Amazon KDP",
-      description: "Compila 40–80 cartelle bingo in libri di attività tematici per Amazon KDP. Struttura una serie per argomento: \"Tombola degli Animali\", \"Tombola delle Festività\", \"Tombola del Cibo\" e \"Tombola degli Oggetti Quotidiani\". Includi i fogli di richiamo dopo ogni set di cartelle così il libro è autosufficiente per il gioco. Mescola le dimensioni delle griglie per una difficoltà progressiva all'interno di ogni libro — inizia con cartelle 3×3 e avanza alle 5×5. Attiva la scala di grigi per stampe a risparmio d'inchiostro che si stampano perfettamente in bianco e nero. I libri di attività bingo si vendono tutto l'anno con picchi durante le stagioni festive quando le famiglie cercano attività di gruppo.",
+      description: "Compila 40–80 cartelle bingo in libri di attività tematici per Amazon KDP. Struttura una serie per argomento: \"Tombola degli Animali\", \"Tombola delle Festività\", \"Tombola del Cibo\" e \"Tombola degli Oggetti Quotidiani\". Includi i fogli di richiamo dopo ogni set di cartelle così il libro è autosufficiente per il gioco. Mescola le dimensioni delle griglie per una difficoltà progressiva all`interno di ogni libro — inizia con cartelle 3×3 e avanza alle 5×5. Attiva la scala di grigi per stampe a risparmio d'inchiostro che si stampano perfettamente in bianco e nero. I libri di attività bingo si vendono tutto l`anno con picchi durante le stagioni festive quando le famiglie cercano attività di gruppo.",
       platform: 'Amazon KDP',
     },
     {
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Punta a Più Dimensioni di Griglia per la Massima Copertura di Mercato",
-      description: "Diverse dimensioni di griglia servono diversi pubblici. Le griglie 3×3 (9 celle) funzionano meglio per il bingo della scuola dell'infanzia e della primaria con turni rapidi e meno elementi da seguire. Le griglie 4×4 (16 celle) sono adatte per i negozi elementari con un gameplay equilibrato. Le griglie 5×5 (25 celle) offrono l'esperienza di bingo negozica per utenti più grandi e serate di gioco in famiglia. Includi tutte e tre le dimensioni nei tuoi pacchetti prodotto e crea inserzioni separate per ogni fascia d'età. La funzione di generazione batch significa che cambiare dimensione della griglia e rigenerare richiede pochi secondi.",
+      description: "Diverse dimensioni di griglia servono diversi pubblici. Le griglie 3×3 (9 celle) funzionano meglio per il bingo della scuola dell`infanzia e della primaria con turni rapidi e meno elementi da seguire. Le griglie 4×4 (16 celle) sono adatte per i negozi elementari con un gameplay equilibrato. Le griglie 5×5 (25 celle) offrono l'esperienza di bingo negozica per utenti più grandi e serate di gioco in famiglia. Includi tutte e tre le dimensioni nei tuoi pacchetti prodotto e crea inserzioni separate per ogni fascia d`età. La funzione di generazione batch significa che cambiare dimensione della griglia e rigenerare richiede pochi secondi.",
     },
   ],
 

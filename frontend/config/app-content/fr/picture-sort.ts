@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de tri d'images',
+    primaryKeyword: `générateur de tri d'images`,
     secondaryKeywords: [
       "générateur de fiches de tri à deux catégories pour vendeurs Etsy",
       "créateur d'activités de classification d'images pour éditeurs Amazon KDP",
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: "Générateur de Fiches de Tri d'Images pour des Activités de Classification à Deux Catégories",
     tagline: "Tri à deux catégories en un seul générateur puissant — mode thématique ou sélection manuelle des images — avec des corrigés auto-générés, 4 à 12 images configurables, un en-tête localisé « Tri d'Images » en 11 langues et 104 collections d'images thématiques.",
     description:
-      "Concevez des fiches de tri professionnelles où les utilisateurs classifient des images dans deux catégories en triant des images découpées dans le bon groupe gauche ou droit. Choisissez le mode thématique pour remplir automatiquement les catégories à partir de la bibliothèque d'images — sélectionnez un thème à gauche et un thème à droite, et l'application génère 4 à 6 images aléatoires par thème — ou passez en mode manuel pour sélectionner individuellement les images et assigner chacune à une catégorie. Chaque fiche comporte deux cadres de catégories à bordure pointillée en haut comme destinations de tri et une grille découpée mélangée en dessous avec des images mixtes prêtes à être découpées et triées. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé avec des images 6× plus grandes organisées dans des boîtes de catégories, vous n'avez donc jamais à créer de corrigés manuellement. Le Générateur de Tri d'Images est sensible à la langue : les étiquettes de catégories utilisent des noms d'images localisés, donc changer de langue modifie le texte sur la fiche. Un en-tête localisé « Tri d'Images » avec un fond vert menthe et un titre bleu sarcelle s'affiche automatiquement dans les 11 langues prises en charge. L'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d'interface pour des étiquettes de catégories localisées. Ajoutez des thèmes de fond et de bordure avec des contrôles d'opacité indépendants, incluez des champs nom et date pour la responsabilité en ligne, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d'activités de tri sur Etsy, compiliez des cahiers de classification pour Amazon KDP ou créiez des activités de tri pour Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
+      "Concevez des fiches de tri professionnelles où les utilisateurs classifient des images dans deux catégories en triant des images découpées dans le bon groupe gauche ou droit. Choisissez le mode thématique pour remplir automatiquement les catégories à partir de la bibliothèque d`images — sélectionnez un thème à gauche et un thème à droite, et l'application génère 4 à 6 images aléatoires par thème — ou passez en mode manuel pour sélectionner individuellement les images et assigner chacune à une catégorie. Chaque fiche comporte deux cadres de catégories à bordure pointillée en haut comme destinations de tri et une grille découpée mélangée en dessous avec des images mixtes prêtes à être découpées et triées. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé avec des images 6× plus grandes organisées dans des boîtes de catégories, vous n'avez donc jamais à créer de corrigés manuellement. Le Générateur de Tri d'Images est sensible à la langue : les étiquettes de catégories utilisent des noms d'images localisés, donc changer de langue modifie le texte sur la fiche. Un en-tête localisé « Tri d'Images » avec un fond vert menthe et un titre bleu sarcelle s'affiche automatiquement dans les 11 langues prises en charge. L'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d'interface pour des étiquettes de catégories localisées. Ajoutez des thèmes de fond et de bordure avec des contrôles d'opacité indépendants, incluez des champs nom et date pour la responsabilité en ligne, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d`activités de tri sur Etsy, compiliez des cahiers de classification pour Amazon KDP ou créiez des activités de tri pour Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
   },
 
   howItWorks: {
@@ -42,17 +42,17 @@ const content: AppContent = {
       {
         title: "Sélectionnez des Images dans la Bibliothèque ou Importez les Vôtres",
         description:
-          "Ouvrez le panneau Bibliothèque d'Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes et bien plus. Filtrez par thème à l'aide du menu déroulant ou recherchez par mot-clé. Cliquez sur les images pour les ajouter à votre fiche et assignez chacune à la catégorie gauche ou droite. Le nombre total d'images va de 4 à 12, avec 2 à 10 images par catégorie. Vous pouvez aussi importer des images personnalisées PNG, JPG ou GIF à utiliser avec le contenu de la bibliothèque.",
+          "Ouvrez le panneau Bibliothèque d`Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes et bien plus. Filtrez par thème à l'aide du menu déroulant ou recherchez par mot-clé. Cliquez sur les images pour les ajouter à votre fiche et assignez chacune à la catégorie gauche ou droite. Le nombre total d`images va de 4 à 12, avec 2 à 10 images par catégorie. Vous pouvez aussi importer des images personnalisées PNG, JPG ou GIF à utiliser avec le contenu de la bibliothèque.",
       },
       {
         title: 'Générez la Fiche de Tri',
         description:
-          "Cliquez sur Générer pour créer la mise en page de tri en deux parties. L'application organise votre contenu en cadres de catégories en haut (deux cadres côte à côte à bordure pointillée avec remplissage #FAFAFA) et une grille découpée mélangée en dessous (cellules blanches avec bordures pointillées #666). Un en-tête stylisé « Tri d'Images » apparaît en haut avec un fond vert menthe (#4DB6AC), un titre bleu sarcelle (#00796B) en police Fredoka et une description orange (#FF7043) en police Quicksand. Une bordure extérieure bleu sarcelle (#26A69A, 8 px) encadre l'ensemble de la page. La grille découpée affiche toutes les images dans un ordre aléatoire — les utilisateurs les découpent et les trient dans le bon cadre de catégorie.",
+          "Cliquez sur Générer pour créer la mise en page de tri en deux parties. L`application organise votre contenu en cadres de catégories en haut (deux cadres côte à côte à bordure pointillée avec remplissage #FAFAFA) et une grille découpée mélangée en dessous (cellules blanches avec bordures pointillées #666). Un en-tête stylisé « Tri d'Images » apparaît en haut avec un fond vert menthe (#4DB6AC), un titre bleu sarcelle (#00796B) en police Fredoka et une description orange (#FF7043) en police Quicksand. Une bordure extérieure bleu sarcelle (#26A69A, 8 px) encadre l`ensemble de la page. La grille découpée affiche toutes les images dans un ordre aléatoire — les utilisateurs les découpent et les trient dans le bon cadre de catégorie.",
       },
       {
         title: "Générez le Corrigé et Téléchargez",
         description:
-          "Passez à l'onglet Corrigé pour voir la solution auto-générée avec des images 6× plus grandes organisées dans leurs boîtes de catégories correctes, affichées en maximum 2 colonnes par boîte. Téléchargez les deux versions à l'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s'exportent à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers Gumroad.",
+          "Passez à l`onglet Corrigé pour voir la solution auto-générée avec des images 6× plus grandes organisées dans leurs boîtes de catégories correctes, affichées en maximum 2 colonnes par boîte. Téléchargez les deux versions à l'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s`exportent à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers Gumroad.",
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Tri à Deux Catégories avec Sélection d'Images Thématique ou Manuelle",
         description:
-          "Créez des fiches de tri avec exactement deux catégories — gauche et droite — en utilisant deux modes de sélection distincts. Le mode thématique vous permet de choisir un thème pour chaque catégorie (ex. Animaux vs Nourriture, Terre vs Eau, Fruits vs Légumes), et l'application sélectionne automatiquement 4 à 6 images aléatoires par thème depuis la bibliothèque d'images. Le mode manuel vous donne un contrôle total : sélectionnez individuellement les images de n'importe quel thème et assignez chacune à la catégorie gauche ou droite. Les deux modes produisent la même mise en page professionnelle avec cadres de catégories et grille découpée mélangée, vous offrant une flexibilité maximale pour différents styles de produits.",
+          "Créez des fiches de tri avec exactement deux catégories — gauche et droite — en utilisant deux modes de sélection distincts. Le mode thématique vous permet de choisir un thème pour chaque catégorie (ex. Animaux vs Nourriture, Terre vs Eau, Fruits vs Légumes), et l`application sélectionne automatiquement 4 à 6 images aléatoires par thème depuis la bibliothèque d'images. Le mode manuel vous donne un contrôle total : sélectionnez individuellement les images de n`importe quel thème et assignez chacune à la catégorie gauche ou droite. Les deux modes produisent la même mise en page professionnelle avec cadres de catégories et grille découpée mélangée, vous offrant une flexibilité maximale pour différents styles de produits.",
       },
       {
         title: "Nombre d'Images Configurable de 4 à 12 avec 2 à 10 par Catégorie",
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: "Packs Thématiques de Fiches de Tri sur Etsy",
         description:
-          "Créez des packs d'activités de tri thématiques à partir des 104 collections d'images avec des paires de catégories naturelles — animaux vs nourriture, terre vs eau, fruits vs légumes, intérieur vs extérieur et des dizaines d'autres. Chaque paire de thèmes produit plusieurs fiches de tri uniques en variant les sélections et les quantités d'images. Regroupez 10 à 20 fiches de tri par pack avec corrigés inclus, et vendez à 3–7 € par pack. Le sélecteur de catégories par thème permet de générer rapidement des fiches avec des groupements gauche/droite distincts, et le corrigé auto-généré élimine le principal goulot d'étranglement de la production.",
+          "Créez des packs d`activités de tri thématiques à partir des 104 collections d'images avec des paires de catégories naturelles — animaux vs nourriture, terre vs eau, fruits vs légumes, intérieur vs extérieur et des dizaines d'autres. Chaque paire de thèmes produit plusieurs fiches de tri uniques en variant les sélections et les quantités d'images. Regroupez 10 à 20 fiches de tri par pack avec corrigés inclus, et vendez à 3–7 € par pack. Le sélecteur de catégories par thème permet de générer rapidement des fiches avec des groupements gauche/droite distincts, et le corrigé auto-généré élimine le principal goulot d`étranglement de la production.",
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: "Quelle est la différence entre le mode thématique et le mode manuel ?",
       answer:
-        "Le mode thématique vous permet de choisir un thème pour la catégorie gauche et un thème différent pour la catégorie droite. L'application sélectionne automatiquement 4 à 6 images aléatoires par thème depuis la bibliothèque d'images, créant des fiches avec 8 à 12 images au total. Le mode manuel vous donne un contrôle total : vous sélectionnez individuellement les images de n'importe quel thème et assignez chacune à la catégorie gauche ou droite. Le mode thématique est plus rapide pour la production en masse ; le mode manuel est idéal pour créer des activités de tri spécifiques alignées sur le programme.",
+        "Le mode thématique vous permet de choisir un thème pour la catégorie gauche et un thème différent pour la catégorie droite. L`application sélectionne automatiquement 4 à 6 images aléatoires par thème depuis la bibliothèque d'images, créant des fiches avec 8 à 12 images au total. Le mode manuel vous donne un contrôle total : vous sélectionnez individuellement les images de n`importe quel thème et assignez chacune à la catégorie gauche ou droite. Le mode thématique est plus rapide pour la production en masse ; le mode manuel est idéal pour créer des activités de tri spécifiques alignées sur le programme.",
     },
     {
       question: "Combien d'images puis-je inclure sur chaque fiche de tri ?",
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à chaque fonctionnalité — la sélection de catégories thématique et manuelle, le nombre d'images configurable, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
+        "Oui. Vous pouvez accéder à chaque fonctionnalité — la sélection de catégories thématique et manuelle, le nombre d`images configurable, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
     },
     {
       question: "Puis-je ajouter des thèmes de fond et de bordure aux fiches de tri ?",
       answer:
-        "Oui. Le panneau Mise en Page inclut un sélecteur de thème de fond avec un curseur d'opacité (de 0 à 1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu de tri, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d'opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison qui convient à votre design.",
+        "Oui. Le panneau Mise en Page inclut un sélecteur de thème de fond avec un curseur d`opacité (de 0 à 1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu de tri, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d`opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison qui convient à votre design.",
     },
     {
       question: "Puis-je vendre des fiches de tri créées avec cet outil sur Etsy et Amazon KDP ?",
@@ -221,7 +221,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'bingo-images-fiches',
-      anchorText: 'Générateur de Bingo d'Images',
+      anchorText: `Générateur de Bingo d'Images`,
     },
     {
       pageType: 'app',

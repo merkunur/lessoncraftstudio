@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'créateur fiches d'association',
+    primaryKeyword: `créateur fiches d'association`,
     secondaryKeywords: [
       "créateur de fiches d'association relier par un trait pour vendeurs",
       "créer des fiches d'association à imprimer pour vendre",
@@ -20,7 +20,7 @@ const content: ToolContent = {
 
   hero: {
     title: "Créateur de Fiches d'Association",
-    tagline: "Générateur de fiches d'association quatre modes avec Lettre Initiale, Image+Mot, Image/Mot Mixte et Mot Personnalisé, corrigés auto-générés avec lignes de liaison, nombre de paires configurable, en-tête localisé « Trouve les Paires ! » dans 11 langues et 104 collections d'images thématiques pour des activités d'association vendables dans le monde entier",
+    tagline: "Générateur de fiches d`association quatre modes avec Lettre Initiale, Image+Mot, Image/Mot Mixte et Mot Personnalisé, corrigés auto-générés avec lignes de liaison, nombre de paires configurable, en-tête localisé « Trouve les Paires ! » dans 11 langues et 104 collections d'images thématiques pour des activités d`association vendables dans le monde entier",
     description: "Créez des fiches d'association professionnelles où les utilisateurs relient des paires en traçant des lignes entre deux colonnes — avec quatre modes d'association distincts dans un seul générateur. Le mode Lettre Initiale place les images à gauche et leur première lettre à droite, avec trois sous-modes : Thème et Images Aléatoires choisit un thème et des images automatiquement, Aléatoire depuis le Thème Choisi vous permet de choisir le thème, et Sélectionner des Images Spécifiques vous donne un contrôle manuel sur chaque image. Basculez entre l'affichage en majuscules ou minuscules pour des fiches adaptées à l'âge. Le mode Image+Mot affiche des paires d'images étiquetées des deux côtés pour le renforcement du vocabulaire. Le mode Image/Mot Mixte utilise des sélecteurs déroulants par ligne pour que chaque côté puisse afficher indépendamment une image ou un mot, créant une difficulté variée au sein d'une même fiche. Le mode Mot Personnalisé associe les images à vos propres termes d'association pour la pratique de l'orthographe, les quiz de vocabulaire ou les exercices de langues étrangères. Configurez 4, 5 ou 6 paires par fiche (6 par défaut) pour contrôler la difficulté et la densité visuelle. Activez les numéros d'éléments (activés par défaut) pour ajouter des chiffres devant chaque paire et les puces décoratives (activées par défaut) pour un formatage visuel soigné — les deux se contrôlent indépendamment. Chaque fiche inclut un en-tête auto-généré localisé « Trouve les Paires ! » avec un fond en pastille jaune (#FFD700), un cadre de bordure corail (#FF7F50, épaisseur 8px), un titre en Fredoka (700) et une description en Quicksand (500), automatiquement traduit dans les 11 langues prises en charge. Le système double canevas génère simultanément un onglet fiche de travail et un onglet corrigé — le corrigé trace des lignes de liaison horizontales (#555, épaisseur de trait 2) entre les bonnes correspondances, sans aucun travail manuel de votre part. Ce générateur est sensible à la langue : les modes Lettre Initiale et Image+Mot utilisent les noms localisés des images, donc changer de langue modifie les mots et les premières lettres sur la fiche. Parcourez 104 collections thématiques avec plus de 3 100 illustrations. Appliquez des thèmes de fond et de bordure avec des curseurs d'opacité indépendants (0–1, pas de 0,05). Ajoutez des champs nom et date avec une simple case à cocher. Exportez quatre fichiers par session : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous à 300 DPI. Choisissez Letter, A4, Carré (1200×1200) ou des dimensions personnalisées avec une option niveaux de gris pour une sortie économique en encre. Éditez tout sur le canevas Fabric.js avec 7 polices, contour de texte 0–10, outils d'alignement, calques, verrouillage, zoom 25 %–300 % et annuler/rétablir 20 états. L'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: "Configurer les Paires, Numéros et Mise en Forme",
-        description: "Définissez le nombre de paires à 4, 5 ou 6 via le menu déroulant (6 par défaut). Moins de paires créent des fiches avec des images plus grandes et plus d'espacement pour les jeunes apprenants ; plus de paires augmentent la difficulté et la densité du contenu. Activez « Inclure les numéros d'éléments » (activé par défaut) pour ajouter des chiffres devant chaque paire, facilitant la correction en ligne. Activez « Afficher les puces/points » (activé par défaut) pour afficher des puces décoratives à côté des éléments. Cochez « Inclure les champs nom/date » pour ajouter des lignes nom de l'utilisateur et date en bas de la fiche. Les deux options de mise en forme fonctionnent de manière indépendante pour un contrôle total de la structure visuelle.",
+        description: "Définissez le nombre de paires à 4, 5 ou 6 via le menu déroulant (6 par défaut). Moins de paires créent des fiches avec des images plus grandes et plus d`espacement pour les jeunes apprenants ; plus de paires augmentent la difficulté et la densité du contenu. Activez « Inclure les numéros d'éléments » (activé par défaut) pour ajouter des chiffres devant chaque paire, facilitant la correction en ligne. Activez « Afficher les puces/points » (activé par défaut) pour afficher des puces décoratives à côté des éléments. Cochez « Inclure les champs nom/date » pour ajouter des lignes nom de l`utilisateur et date en bas de la fiche. Les deux options de mise en forme fonctionnent de manière indépendante pour un contrôle total de la structure visuelle.",
       },
       {
         title: "Sélectionner des Images dans la Bibliothèque",
-        description: "Ouvrez le panneau Bibliothèque d'Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes, métiers et bien d'autres. Filtrez par thème via le menu déroulant ou recherchez par mot-clé. En mode Lettre Initiale avec Sélectionner des Images Spécifiques, choisissez manuellement exactement les images souhaitées. En mode Image/Mot Mixte, utilisez le panneau Configuration des Éléments avec des sélecteurs déroulants par ligne pour définir si chaque côté affiche une image ou un mot. En mode Mot Personnalisé, saisissez vos propres termes d'association dans les champs texte. Téléversez vos propres images PNG, JPG ou GIF en complément du contenu de la bibliothèque.",
+        description: "Ouvrez le panneau Bibliothèque d`Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes, métiers et bien d'autres. Filtrez par thème via le menu déroulant ou recherchez par mot-clé. En mode Lettre Initiale avec Sélectionner des Images Spécifiques, choisissez manuellement exactement les images souhaitées. En mode Image/Mot Mixte, utilisez le panneau Configuration des Éléments avec des sélecteurs déroulants par ligne pour définir si chaque côté affiche une image ou un mot. En mode Mot Personnalisé, saisissez vos propres termes d`association dans les champs texte. Téléversez vos propres images PNG, JPG ou GIF en complément du contenu de la bibliothèque.",
       },
       {
         title: "Définir la Mise en Page et les Décorations",
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: "Consulter le Corrigé Auto-Généré",
-        description: "Cliquez sur l'onglet Corrigé pour voir la solution auto-générée. Le corrigé reproduit exactement la mise en page de la fiche et ajoute des lignes de liaison horizontales (#555, épaisseur de trait 2) tracées entre chaque bonne correspondance. Basculez entre les onglets Fiche et Corrigé pour comparer. Le corrigé est généré simultanément avec la fiche — aucun tracé de lignes manuel, aucune étape de création séparée, aucune possibilité de correspondances erronées. Ce système double canevas est votre plus grand gain de temps lors de la création de packs d'activités d'association où chaque fiche nécessite son propre corrigé.",
+        description: "Cliquez sur l`onglet Corrigé pour voir la solution auto-générée. Le corrigé reproduit exactement la mise en page de la fiche et ajoute des lignes de liaison horizontales (#555, épaisseur de trait 2) tracées entre chaque bonne correspondance. Basculez entre les onglets Fiche et Corrigé pour comparer. Le corrigé est généré simultanément avec la fiche — aucun tracé de lignes manuel, aucune étape de création séparée, aucune possibilité de correspondances erronées. Ce système double canevas est votre plus grand gain de temps lors de la création de packs d'activités d`association où chaque fiche nécessite son propre corrigé.",
       },
       {
         title: "Télécharger les Quatre Fichiers",
@@ -69,11 +69,11 @@ const content: ToolContent = {
     },
     {
       title: "Cahiers d'Initiation à la Lecture pour KDP",
-      description: "Compilez 60 à 80 fiches d'association dans des cahiers d'initiation à la lecture pour Amazon KDP. Le mode Lettre Initiale est idéal pour la conscience phonémique — les utilisateurs associent les images à leur première lettre à travers les thèmes. Structurez les chapitres par difficulté : le Chapitre 1 utilise 4 paires avec des lettres majuscules pour les débutants, le Chapitre 2 utilise 5 paires avec des lettres minuscules pour les apprenants intermédiaires, le Chapitre 3 utilise 6 paires pour la pratique avancée. Incluez les pages corrigés à la fin de chaque chapitre grâce à la fonction de corrigé automatique. La sortie sensible à la langue signifie que vous pouvez créer des éditions séparées en plusieurs langues à partir des mêmes sélections d'images, chacune avec des mots et lettres localisés.",
+      description: "Compilez 60 à 80 fiches d`association dans des cahiers d'initiation à la lecture pour Amazon KDP. Le mode Lettre Initiale est idéal pour la conscience phonémique — les utilisateurs associent les images à leur première lettre à travers les thèmes. Structurez les chapitres par difficulté : le Chapitre 1 utilise 4 paires avec des lettres majuscules pour les débutants, le Chapitre 2 utilise 5 paires avec des lettres minuscules pour les apprenants intermédiaires, le Chapitre 3 utilise 6 paires pour la pratique avancée. Incluez les pages corrigés à la fin de chaque chapitre grâce à la fonction de corrigé automatique. La sortie sensible à la langue signifie que vous pouvez créer des éditions séparées en plusieurs langues à partir des mêmes sélections d`images, chacune avec des mots et lettres localisés.",
     },
     {
       title: "Fiches d'Association pour Ateliers en ligne",
-      description: "Construisez des fiches d'association prêtes pour la vente avec champs nom/date, numéros d'éléments et corrigés imprimés — exactement ce que recherchent les acheteurs Gumroad. Le champ nom assure la traçabilité des utilisateurs, les numéros d'éléments facilitent la correction efficace pendant les revues de groupe, et le corrigé auto-généré fait gagner du temps de préparation. Créez des ensembles alignés sur les programmes : association d'animaux domestiques, groupes alimentaires, vocabulaire météo et animaux par habitat. Les vendeurs valorisent les activités d'association prêtes à l'emploi sans formatage supplémentaire — chaque fiche s'exporte avec tous les éléments pour la vente intégrés.",
+      description: "Construisez des fiches d`association prêtes pour la vente avec champs nom/date, numéros d'éléments et corrigés imprimés — exactement ce que recherchent les acheteurs Gumroad. Le champ nom assure la traçabilité des utilisateurs, les numéros d'éléments facilitent la correction efficace pendant les revues de groupe, et le corrigé auto-généré fait gagner du temps de préparation. Créez des ensembles alignés sur les programmes : association d'animaux domestiques, groupes alimentaires, vocabulaire météo et animaux par habitat. Les vendeurs valorisent les activités d'association prêtes à l'emploi sans formatage supplémentaire — chaque fiche s`exporte avec tous les éléments pour la vente intégrés.",
     },
     {
       title: "Collections d'Association de Vocabulaire Multilingues",
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: "Boutique Etsy de Fiches d'Association Quatre Modes",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches d'association organisées par mode et par thème en utilisant les 104 collections d'images. Chaque thème supporte quatre listings de produits distincts — Lettre Initiale, Image+Mot, Mixte et Mot Personnalisé — multipliant votre catalogue à partir d'un seul ensemble d'images. Regroupez 15 à 20 fiches d'association par listing avec les corrigés auto-générés inclus dans chaque pack. Le corrigé avec lignes de liaison est un argument de vente critique qui différencie vos listings de la concurrence. Prix : packs par mode à 3 €–5 € et lots multi-modes par thème à 8 €–12 €.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches d`association organisées par mode et par thème en utilisant les 104 collections d'images. Chaque thème supporte quatre listings de produits distincts — Lettre Initiale, Image+Mot, Mixte et Mot Personnalisé — multipliant votre catalogue à partir d'un seul ensemble d'images. Regroupez 15 à 20 fiches d`association par listing avec les corrigés auto-générés inclus dans chaque pack. Le corrigé avec lignes de liaison est un argument de vente critique qui différencie vos listings de la concurrence. Prix : packs par mode à 3 €–5 € et lots multi-modes par thème à 8 €–12 €.",
       platform: 'Etsy.fr',
     },
     {
@@ -102,12 +102,12 @@ const content: ToolContent = {
     },
     {
       title: "Packs d'Ateliers d'Association pour Gumroad",
-      description: "Téléversez des packs d'activités d'association sur Gumroad avec les champs nom/date, les numéros d'éléments et les corrigés auto-générés comme arguments de vente clés. Les vendeurs recherchant des activités d'ateliers d'association valorisent les fiches immédiatement utilisables en ligne avec identification de l'utilisateur intégrée. Organisez par sujet de programme : association d'animaux de la ferme, groupes alimentaires, vocabulaire météo et animaux par habitat. Chaque fiche inclut son propre corrigé avec lignes de liaison, éliminant le temps de préparation. L'en-tête localisé « Trouve les Paires ! » s'adapte à 11 langues pour les classes bilingues et internationales.",
+      description: "Téléversez des packs d`activités d'association sur Gumroad avec les champs nom/date, les numéros d'éléments et les corrigés auto-générés comme arguments de vente clés. Les vendeurs recherchant des activités d'ateliers d'association valorisent les fiches immédiatement utilisables en ligne avec identification de l'utilisateur intégrée. Organisez par sujet de programme : association d'animaux de la ferme, groupes alimentaires, vocabulaire météo et animaux par habitat. Chaque fiche inclut son propre corrigé avec lignes de liaison, éliminant le temps de préparation. L'en-tête localisé « Trouve les Paires ! » s`adapte à 11 langues pour les classes bilingues et internationales.",
       platform: 'Gumroad',
     },
     {
       title: "Tunnel de Vente Pinterest pour Fiches d'Association",
-      description: "Les fiches d'association avec leur format à deux colonnes de type relier par un trait font des épingles Pinterest visuellement distinctes — la mise en page structurée avec des images colorées, les numéros d'éléments et l'en-tête « Trouve les Paires ! » créent un format éducatif immédiatement reconnaissable. Épinglez des fiches d'exemple montrant différents modes : Lettre Initiale pour les épingles phonétiques, Image+Mot pour les épingles vocabulaire, Mot Personnalisé pour les épingles orthographe. Créez des séries d'épingles distinctes pour « fiches d'association animaux », « activités d'association fêtes » et « association initiation à la lecture ». Reliez chaque épingle à vos listings Etsy ou Gumroad.",
+      description: "Les fiches d`association avec leur format à deux colonnes de type relier par un trait font des épingles Pinterest visuellement distinctes — la mise en page structurée avec des images colorées, les numéros d'éléments et l'en-tête « Trouve les Paires ! » créent un format éducatif immédiatement reconnaissable. Épinglez des fiches d'exemple montrant différents modes : Lettre Initiale pour les épingles phonétiques, Image+Mot pour les épingles vocabulaire, Mot Personnalisé pour les épingles orthographe. Créez des séries d'épingles distinctes pour « fiches d'association animaux », « activités d`association fêtes » et « association initiation à la lecture ». Reliez chaque épingle à vos listings Etsy ou Gumroad.",
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: "Gamme de Produits d'Association Multilingues",
-      description: "Le Créateur de Fiches d'Association est sensible à la langue — les modes Lettre Initiale et Image+Mot produisent des mots et lettres localisés quand vous changez de langue. Les mêmes images d'animaux génèrent une association anglaise (C pour Cat), allemande (K pour Katze), française (C pour Chat) et ainsi de suite dans les 11 langues. Créez des packs d'association par langue pour chaque place de marché ou des méga-packs multilingues à des prix premium. Les vendeurs de FLE, les classes bilingues et les familles d'instruction à domicile internationales recherchent activement des fiches d'association dans leur langue maternelle.",
+      description: "Le Créateur de Fiches d`Association est sensible à la langue — les modes Lettre Initiale et Image+Mot produisent des mots et lettres localisés quand vous changez de langue. Les mêmes images d'animaux génèrent une association anglaise (C pour Cat), allemande (K pour Katze), française (C pour Chat) et ainsi de suite dans les 11 langues. Créez des packs d'association par langue pour chaque place de marché ou des méga-packs multilingues à des prix premium. Les vendeurs de FLE, les classes bilingues et les familles d'instruction à domicile internationales recherchent activement des fiches d`association dans leur langue maternelle.",
       platform: 'Etsy.fr / Gumroad',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: "Exploitez les Quatre Modes pour Multiplier Votre Catalogue",
-      description: "Chaque thème des 104 collections de la bibliothèque supporte quatre produits d'association distincts — Lettre Initiale pour la phonétique, Image+Mot pour le vocabulaire, Image/Mot Mixte pour une difficulté variée et Mot Personnalisé pour l'orthographe. Un seul ensemble d'images animaux produit quatre listings séparés ciblant quatre compétences éducatives différentes. Soit 104 thèmes multipliés par 4 modes, ce qui vous donne 416 concepts de produits potentiels à partir d'un seul générateur, chacun avec un focus éducatif et un format d'association uniques.",
+      description: "Chaque thème des 104 collections de la bibliothèque supporte quatre produits d`association distincts — Lettre Initiale pour la phonétique, Image+Mot pour le vocabulaire, Image/Mot Mixte pour une difficulté variée et Mot Personnalisé pour l'orthographe. Un seul ensemble d'images animaux produit quatre listings séparés ciblant quatre compétences éducatives différentes. Soit 104 thèmes multipliés par 4 modes, ce qui vous donne 416 concepts de produits potentiels à partir d'un seul générateur, chacun avec un focus éducatif et un format d`association uniques.",
     },
     {
       title: "Utilisez le Corrigé Automatique comme Argument de Vente Principal",
-      description: "Le corrigé auto-généré avec des lignes de liaison horizontales entre les bonnes correspondances est ce qui distingue les fiches d'association professionnelles des basiques. Incluez toujours les corrigés dans vos listings de produits — les vendeurs recherchent spécifiquement des activités d'association avec solutions incluses. Montrez le corrigé dans vos images de prévisualisation à côté de la fiche de travail. Le système double canevas produit les deux versions simultanément, donc inclure les corrigés n'ajoute aucun temps de production supplémentaire.",
+      description: "Le corrigé auto-généré avec des lignes de liaison horizontales entre les bonnes correspondances est ce qui distingue les fiches d`association professionnelles des basiques. Incluez toujours les corrigés dans vos listings de produits — les vendeurs recherchent spécifiquement des activités d'association avec solutions incluses. Montrez le corrigé dans vos images de prévisualisation à côté de la fiche de travail. Le système double canevas produit les deux versions simultanément, donc inclure les corrigés n`ajoute aucun temps de production supplémentaire.",
     },
     {
       title: "Variez le Nombre de Paires pour une Difficulté Différenciée",
@@ -141,11 +141,11 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez le Mode Mot Personnalisé pour des Produits Éducatifs de Niche",
-      description: "Le mode Mot Personnalisé permet de saisir n'importe quel terme d'association à côté des images, ouvrant des catégories de produits de niche que les autres générateurs ne peuvent pas servir. Créez des fiches d'association de mots de lecture avec des listes par niveau, des fiches de vocabulaire par matière pour les sciences et l'histoire-géographie, ou des exercices d'association en langues étrangères. Les fiches Mot Personnalisé se vendent à des prix plus élevés car le contenu est adapté à des besoins curriculaires spécifiques.",
+      description: "Le mode Mot Personnalisé permet de saisir n`importe quel terme d'association à côté des images, ouvrant des catégories de produits de niche que les autres générateurs ne peuvent pas servir. Créez des fiches d'association de mots de lecture avec des listes par niveau, des fiches de vocabulaire par matière pour les sciences et l'histoire-géographie, ou des exercices d`association en langues étrangères. Les fiches Mot Personnalisé se vendent à des prix plus élevés car le contenu est adapté à des besoins curriculaires spécifiques.",
     },
     {
       title: "Combinez les Thèmes de Fond et de Bordure pour une Présentation Premium",
-      description: "Le système indépendant de thèmes de fond et de bordure avec des curseurs d'opacité séparés permet de créer des fiches d'association visuellement soignées qui se démarquent dans les listings. Définissez un thème de fond subtil à 15–25 % d'opacité pour une chaleur visuelle sans distraire du contenu d'association. Superposez une bordure décorative à 80–100 % d'opacité pour un encadrement professionnel. Un style cohérent à travers un lot crée un aspect produit unifié que les acheteurs associent à la qualité et qui justifie des prix premium.",
+      description: "Le système indépendant de thèmes de fond et de bordure avec des curseurs d`opacité séparés permet de créer des fiches d'association visuellement soignées qui se démarquent dans les listings. Définissez un thème de fond subtil à 15–25 % d'opacité pour une chaleur visuelle sans distraire du contenu d'association. Superposez une bordure décorative à 80–100 % d`opacité pour un encadrement professionnel. Un style cohérent à travers un lot crée un aspect produit unifié que les acheteurs associent à la qualité et qui justifie des prix premium.",
     },
     {
       title: "Incluez les Champs Nom/Date pour des Produits Prêts pour la vente",
@@ -156,15 +156,15 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L'outil propose un essai gratuit avec toutes les fonctionnalités — les quatre modes d'association (Lettre Initiale, Image+Mot, Image/Mot Mixte, Mot Personnalisé), le nombre de paires configurable (4, 5 ou 6), le corrigé auto-généré avec lignes de liaison, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'en-tête localisé « Trouve les Paires ! » dans 11 langues, les thèmes de fond et de bordure avec opacité indépendante, les numéros d'éléments, les puces décoratives, les champs nom/date, l'export en niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l'essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les quatre modes d'association (Lettre Initiale, Image+Mot, Image/Mot Mixte, Mot Personnalisé), le nombre de paires configurable (4, 5 ou 6), le corrigé auto-généré avec lignes de liaison, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'en-tête localisé « Trouve les Paires ! » dans 11 langues, les thèmes de fond et de bordure avec opacité indépendante, les numéros d'éléments, les puces décoratives, les champs nom/date, l'export en niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les quatre modes d'association ?",
-      answer: "Le générateur propose quatre modes distincts dans un seul outil. Le mode Lettre Initiale place les images à gauche et leur première lettre à droite — avec trois sous-modes pour les thèmes aléatoires, les images aléatoires depuis un thème choisi ou la sélection manuelle des images, plus un basculement majuscules/minuscules. Le mode Image+Mot affiche des paires d'images étiquetées des deux côtés pour le renforcement du vocabulaire. Le mode Image/Mot Mixte utilise des sélecteurs déroulants par ligne pour que chaque côté affiche indépendamment une image ou un mot, créant une difficulté variée au sein d'une même fiche. Le mode Mot Personnalisé associe les images à vos propres termes saisis pour la pratique de l'orthographe, les quiz de vocabulaire ou les exercices de langues étrangères.",
+      answer: "Le générateur propose quatre modes distincts dans un seul outil. Le mode Lettre Initiale place les images à gauche et leur première lettre à droite — avec trois sous-modes pour les thèmes aléatoires, les images aléatoires depuis un thème choisi ou la sélection manuelle des images, plus un basculement majuscules/minuscules. Le mode Image+Mot affiche des paires d`images étiquetées des deux côtés pour le renforcement du vocabulaire. Le mode Image/Mot Mixte utilise des sélecteurs déroulants par ligne pour que chaque côté affiche indépendamment une image ou un mot, créant une difficulté variée au sein d'une même fiche. Le mode Mot Personnalisé associe les images à vos propres termes saisis pour la pratique de l`orthographe, les quiz de vocabulaire ou les exercices de langues étrangères.",
     },
     {
       question: "Comment fonctionne le corrigé auto-généré ?",
-      answer: "Lorsque vous générez une fiche, l'application crée simultanément un corrigé correspondant sur un onglet de canevas séparé. Le corrigé reproduit exactement la mise en page de la fiche et ajoute des lignes de liaison horizontales (#555, épaisseur de trait 2) tracées entre chaque bonne correspondance. Basculez entre les onglets Fiche et Corrigé pour comparer. Téléchargez chaque version indépendamment — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — ce qui vous donne quatre fichiers prêts à la production à partir d'une seule génération. Le corrigé automatique élimine le tracé de lignes manuel et garantit la précision sur de grands lots de fiches d'association.",
+      answer: "Lorsque vous générez une fiche, l`application crée simultanément un corrigé correspondant sur un onglet de canevas séparé. Le corrigé reproduit exactement la mise en page de la fiche et ajoute des lignes de liaison horizontales (#555, épaisseur de trait 2) tracées entre chaque bonne correspondance. Basculez entre les onglets Fiche et Corrigé pour comparer. Téléchargez chaque version indépendamment — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — ce qui vous donne quatre fichiers prêts à la production à partir d'une seule génération. Le corrigé automatique élimine le tracé de lignes manuel et garantit la précision sur de grands lots de fiches d`association.",
     },
     {
       question: "Comment fonctionne le nombre de paires configurable ?",
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionnent les numéros d'éléments et les puces décoratives ?",
-      answer: "Deux options indépendantes dans le panneau Configuration de la Fiche contrôlent la mise en forme visuelle. « Inclure les numéros d'éléments » (activé par défaut) ajoute des chiffres devant chaque paire — utile pour la correction et la discussion en ligne. « Afficher les puces/points » (activé par défaut) ajoute des puces décoratives à côté des éléments pour plus de clarté visuelle. Vous pouvez avoir uniquement les numéros, uniquement les puces, les deux ou aucun, selon votre style de fiche et votre public cible. Les deux réglages s'appliquent aux deux colonnes de la fiche d'association.",
+      answer: "Deux options indépendantes dans le panneau Configuration de la Fiche contrôlent la mise en forme visuelle. « Inclure les numéros d`éléments » (activé par défaut) ajoute des chiffres devant chaque paire — utile pour la correction et la discussion en ligne. « Afficher les puces/points » (activé par défaut) ajoute des puces décoratives à côté des éléments pour plus de clarté visuelle. Vous pouvez avoir uniquement les numéros, uniquement les puces, les deux ou aucun, selon votre style de fiche et votre public cible. Les deux réglages s'appliquent aux deux colonnes de la fiche d`association.",
     },
     {
       question: "Qu'est-ce que l'en-tête localisé « Trouve les Paires ! » ?",
@@ -201,14 +201,14 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'association-fiches', anchorText: "Fiches d'Association — Détails Complets du Produit" },
+    { pageType: `app', slug: 'association-fiches', anchorText: "Fiches d`Association — Détails Complets du Produit" },
     { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: "Créateur de Fiches Puzzle Grille" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Créateur de Cartes Bingo' },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches Tri d'Images" },
+    { pageType: `tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches Tri d`Images" },
     { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: "Créateur de Fiches Train Alphabet" },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Créateur de Fiches d'Addition' },
+    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: 'Créateur de Fiches d'Addition` },
   ],
 
   visuals: {

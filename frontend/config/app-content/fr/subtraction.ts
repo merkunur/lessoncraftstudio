@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Définir la mise en page',
         description:
-          "Ouvrez le panneau Mise en Page et sélectionnez un format : Letter Portrait, Fiche par défaut (800×1000) ou A4 Portrait. Choisissez une couleur de fond ou un thème décoratif dans la bibliothèque d'images, puis ajustez le curseur d'opacité pour garder les exercices lisibles. Ajoutez un cadre de bordure assorti pour un aspect professionnel et soigné. Chaque paramètre de mise en page s'applique à la fois à la fiche et au corrigé, garantissant la cohérence du produit final.",
+          "Ouvrez le panneau Mise en Page et sélectionnez un format : Letter Portrait, Fiche par défaut (800×1000) ou A4 Portrait. Choisissez une couleur de fond ou un thème décoratif dans la bibliothèque d`images, puis ajustez le curseur d'opacité pour garder les exercices lisibles. Ajoutez un cadre de bordure assorti pour un aspect professionnel et soigné. Chaque paramètre de mise en page s`applique à la fois à la fiche et au corrigé, garantissant la cohérence du produit final.",
       },
       {
         title: "Configurer le mode d'exercice et la plage de nombres",
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: "Générer le corrigé et télécharger",
         description:
-          "Passez à l'onglet Corrigé et cliquez sur Générer le Corrigé pour créer une version complétée avec toutes les différences correctes. Ouvrez le menu Téléchargement et exportez la fiche et son corrigé en JPEG haute résolution ou PDF prêt à imprimer. Cochez la case Niveaux de Gris pour produire des versions noir et blanc — parfaites pour l'impression en volume ou la production de cahiers d'activités à bas coût. Chaque export est rendu à plus de 400 DPI.",
+          "Passez à l`onglet Corrigé et cliquez sur Générer le Corrigé pour créer une version complétée avec toutes les différences correctes. Ouvrez le menu Téléchargement et exportez la fiche et son corrigé en JPEG haute résolution ou PDF prêt à imprimer. Cochez la case Niveaux de Gris pour produire des versions noir et blanc — parfaites pour l'impression en volume ou la production de cahiers d`activités à bas coût. Chaque export est rendu à plus de 400 DPI.",
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Visualisation par barrage',
         description:
-          "La fonctionnalité signature qui distingue ce générateur. En mode Barrer, un groupe complet d'images est affiché et des croix diagonales sont tracées sur les N derniers éléments pour montrer visuellement la soustraction. Cela transforme l'idée abstraite de « retirer » en quelque chose que les utilisateurs peuvent voir et comprendre immédiatement. Un enfant regardant huit pommes dont trois sont barrées saisit « 8 moins 3 » bien plus intuitivement qu'en fixant des chiffres nus.",
+          "La fonctionnalité signature qui distingue ce générateur. En mode Barrer, un groupe complet d`images est affiché et des croix diagonales sont tracées sur les N derniers éléments pour montrer visuellement la soustraction. Cela transforme l'idée abstraite de « retirer » en quelque chose que les utilisateurs peuvent voir et comprendre immédiatement. Un enfant regardant huit pommes dont trois sont barrées saisit « 8 moins 3 » bien plus intuitivement qu`en fixant des chiffres nus.",
       },
       {
         title: "Quatre modes d'exercice distincts",
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Export prêt à imprimer à 400+ DPI avec option niveaux de gris",
         description:
-          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d'export rend à plus de 400 DPI. Le mode niveaux de gris intégré convertit l'ensemble de votre fiche en noir et blanc en une case à cocher — idéal pour l'impression en volume, réduire les coûts d'encre ou produire des intérieurs de cahiers d'activités pour Amazon KDP.",
+          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou documents PDF prêts à imprimer. Le moteur d`export rend à plus de 400 DPI. Le mode niveaux de gris intégré convertit l'ensemble de votre fiche en noir et blanc en une case à cocher — idéal pour l'impression en volume, réduire les coûts d'encre ou produire des intérieurs de cahiers d`activités pour Amazon KDP.",
       },
       {
         title: "Téléchargement d'images personnalisées",
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Fiches de pratique pour la vente et le soutien scolaire",
         description:
-          "Générez des fiches de soustraction personnalisées pour chaque niveau d'utilisateur. Imprimez des fiches en mode Barrer pour les débutants qui ont besoin de l'étayage visuel, et des fiches Trouver le Nombre à Soustraire pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue, et le mode niveaux de gris réduit les coûts d'impression pour un usage intensif en ligne.",
+          "Générez des fiches de soustraction personnalisées pour chaque niveau d`utilisateur. Imprimez des fiches en mode Barrer pour les débutants qui ont besoin de l'étayage visuel, et des fiches Trouver le Nombre à Soustraire pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue, et le mode niveaux de gris réduit les coûts d`impression pour un usage intensif en ligne.",
         platform: "Classe / Soutien scolaire / École à la maison",
       },
     ],
@@ -171,14 +171,14 @@ const content: AppContent = {
         "Non. Les fiches de soustraction sont purement visuelles — le contenu utilise des images, des croix et des nombres, pas des mots. Une fiche créée dans une langue fonctionne dans toutes les langues. Le paramètre de langue ne change que les libellés de l'interface, rendant vos produits vendables dans le monde entier sans traduction.",
     },
     {
-      question: "Qu'est-ce que l'option d'export en niveaux de gris ?",
+      question: "Qu`est-ce que l'option d`export en niveaux de gris ?",
       answer:
         "Le menu de téléchargement inclut une case Niveaux de Gris qui convertit l'ensemble de votre fiche et corrigé en noir et blanc avant l'export. Cela produit des versions économiques en encre, parfaites pour l'impression en volume, la production de cahiers d'activités à bas coût sur Amazon KDP ou toute situation où l'impression couleur n'est pas disponible.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les quatre modes, la bibliothèque d'images complète, la génération de corrigés, l'export niveaux de gris et tous les formats — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
+        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les quatre modes, la bibliothèque d`images complète, la génération de corrigés, l'export niveaux de gris et tous les formats — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
     },
     {
       question: "Que comprend la licence commerciale ?",
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d'export et taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter. L'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l'outil convient à votre flux de production.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d'export et taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter. L'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l`outil convient à votre flux de production.",
     },
     {
       question: "Dois-je installer un logiciel ?",

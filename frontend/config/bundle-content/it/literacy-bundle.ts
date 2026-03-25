@@ -28,7 +28,7 @@ const content: BundleContent = {
   appsIncluded: [
     {
       title: "Generatore di Schede Treno dell'Alfabeto",
-      description: "Crea schede a tema treno dove ogni vagone trasporta una lettera abbinata a un'immagine corrispondente. gli utenti collegano lettere e immagini, rafforzando le associazioni lettera-suono in un formato giocoso e visivo. Il generatore supporta tutti gli 11 alfabeti nativi — le schede in tedesco includono Umlaut e Eszett, le lingue scandinave ottengono le loro vocali aggiuntive e lo spagnolo include la tilde. Scegli la presentazione in maiuscolo, minuscolo o mista. Seleziona le immagini da oltre 100 set tematici o carica le tue. Ogni scheda genera automaticamente una chiave di risposta corrispondente. Il formato treno è un bestseller comprovato nell'alfabetizzazione precoce perché combina sequenziamento, riconoscimento delle lettere e costruzione del vocabolario in un'unica attività coinvolgente.",
+      description: "Crea schede a tema treno dove ogni vagone trasporta una lettera abbinata a un`immagine corrispondente. gli utenti collegano lettere e immagini, rafforzando le associazioni lettera-suono in un formato giocoso e visivo. Il generatore supporta tutti gli 11 alfabeti nativi — le schede in tedesco includono Umlaut e Eszett, le lingue scandinave ottengono le loro vocali aggiuntive e lo spagnolo include la tilde. Scegli la presentazione in maiuscolo, minuscolo o mista. Seleziona le immagini da oltre 100 set tematici o carica le tue. Ogni scheda genera automaticamente una chiave di risposta corrispondente. Il formato treno è un bestseller comprovato nell'alfabetizzazione precoce perché combina sequenziamento, riconoscimento delle lettere e costruzione del vocabolario in un`unica attività coinvolgente.",
     },
     {
       title: "Generatore di Schede di Preposizioni",
@@ -48,7 +48,7 @@ const content: BundleContent = {
     },
     {
       title: "Generatore di Schede Crittogramma",
-      description: "Codifica intere frasi in puzzle di cifratura basati su immagini. Ogni lettera nella frase viene sostituita da un'immagine tematica e gli utenti decodificano il messaggio abbinando immagini a lettere usando la chiave del cifrario. Le frasi e l'alfabeto cambiano interamente in base alla lingua — i crittogrammi in francese codificano frasi francesi, i crittogrammi in svedese usano l'alfabeto svedese incluse le vocali aggiuntive. I set di immagini tematiche forniscono i simboli del cifrario, rendendo ogni puzzle visivamente unico. Le chiavi di risposta automatiche includono la legenda completa lettera-immagine. I crittogrammi combinano comprensione della lettura, riconoscimento delle lettere e deduzione logica in un formato di scheda premium che si distingue in qualsiasi negozio di stampabili. I venditori che offrono crittogrammi in più lingue creano linee di prodotti quasi impossibili da replicare per i concorrenti che usano modelli base.",
+      description: "Codifica intere frasi in puzzle di cifratura basati su immagini. Ogni lettera nella frase viene sostituita da un`immagine tematica e gli utenti decodificano il messaggio abbinando immagini a lettere usando la chiave del cifrario. Le frasi e l'alfabeto cambiano interamente in base alla lingua — i crittogrammi in francese codificano frasi francesi, i crittogrammi in svedese usano l`alfabeto svedese incluse le vocali aggiuntive. I set di immagini tematiche forniscono i simboli del cifrario, rendendo ogni puzzle visivamente unico. Le chiavi di risposta automatiche includono la legenda completa lettera-immagine. I crittogrammi combinano comprensione della lettura, riconoscimento delle lettere e deduzione logica in un formato di scheda premium che si distingue in qualsiasi negozio di stampabili. I venditori che offrono crittogrammi in più lingue creano linee di prodotti quasi impossibili da replicare per i concorrenti che usano modelli base.",
     },
     {
       title: "Generatore di Schede di Scrittura",
@@ -104,7 +104,7 @@ const content: BundleContent = {
     },
     {
       title: "Risorse Linguistiche per Gumroad",
-      description: "Gli acquirenti Gumroad cercano risorse di alfabetizzazione specifiche per lingua, livello scolastico e competenza. Crea pacchetti scalati per livello: riconoscimento dell'alfabeto per la scuola materna, cerca parole per la prima elementare, crittogrammi per la seconda elementare. Le chiavi di risposta automatiche, i livelli di difficoltà multipli e la grammatica corretta in ogni lingua soddisfano gli standard delle risorse premium Gumroad. Confeziona le schede in pacchetti completi di alfabetizzazione che i venditori acquistano per l'uso online durante tutto l'anno scolastico.",
+      description: "Gli acquirenti Gumroad cercano risorse di alfabetizzazione specifiche per lingua, livello scolastico e competenza. Crea pacchetti scalati per livello: riconoscimento dell`alfabeto per la scuola materna, cerca parole per la prima elementare, crittogrammi per la seconda elementare. Le chiavi di risposta automatiche, i livelli di difficoltà multipli e la grammatica corretta in ogni lingua soddisfano gli standard delle risorse premium Gumroad. Confeziona le schede in pacchetti completi di alfabetizzazione che i venditori acquistano per l'uso online durante tutto l`anno scolastico.",
       platform: 'Gumroad',
     },
     {
@@ -128,7 +128,7 @@ const content: BundleContent = {
     { feature: "Chiavi di risposta automatiche (6 di 7 app)", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: 'Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue' },
+    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
     { feature: "Lingue del contenuto delle schede", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: "Supporto alfabeti nativi e segni diacritici", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
@@ -157,11 +157,11 @@ const content: BundleContent = {
   faq: [
     {
       question: "Posso provare i generatori prima dell'acquisto?",
-      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l'anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei sette generatori con diverse impostazioni di lingua prima dell'acquisto per confermare che soddisfano le tue esigenze.",
+      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l`anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei sette generatori con diverse impostazioni di lingua prima dell`acquisto per confermare che soddisfano le tue esigenze.",
     },
     {
       question: 'Come funzionano le 11 lingue?',
-      answer: "Sei dei sette generatori producono contenuto specifico per lingua. Quando selezioni una lingua — ad esempio il francese — gli elenchi di parole, il vocabolario, i caratteri dell'alfabeto e le lettere di riempimento passano tutti al francese. Il generatore di Preposizioni applica persino le regole grammaticali francesi come l'elisione. Crei la scheda una volta, poi cambi lingua e generi di nuovo per produrre un prodotto distinto in ogni lingua. Il generatore di Scrittura è l'eccezione: gestisce qualsiasi testo digiti ma non ha elenchi di parole specifici per lingua integrati.",
+      answer: "Sei dei sette generatori producono contenuto specifico per lingua. Quando selezioni una lingua — ad esempio il francese — gli elenchi di parole, il vocabolario, i caratteri dell`alfabeto e le lettere di riempimento passano tutti al francese. Il generatore di Preposizioni applica persino le regole grammaticali francesi come l'elisione. Crei la scheda una volta, poi cambi lingua e generi di nuovo per produrre un prodotto distinto in ogni lingua. Il generatore di Scrittura è l`eccezione: gestisce qualsiasi testo digiti ma non ha elenchi di parole specifici per lingua integrati.",
     },
     {
       question: 'Quali lingue sono supportate?',
@@ -193,12 +193,12 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la politica di rimborso per le licenze commerciali?",
-      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell'output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell'acquisto.",
+      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell`output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell`acquisto.",
     },
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'treno-alfabeto-schede', anchorText: "Generatore Treno dell'Alfabeto — Dettagli Completi" },
+    { pageType: `app', slug: 'treno-alfabeto-schede', anchorText: "Generatore Treno dell`Alfabeto — Dettagli Completi" },
     { pageType: 'app', slug: 'preposizioni-schede', anchorText: "Generatore di Schede Preposizioni — Dettagli Completi" },
     { pageType: 'app', slug: 'indovina-parole-schede', anchorText: "Generatore Indovina la Parola — Dettagli Completi" },
     { pageType: 'app', slug: 'anagrammi-schede', anchorText: "Generatore di Schede Anagrammi — Dettagli Completi" },
@@ -207,8 +207,8 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'scrittura-schede', anchorText: "Generatore di Schede di Scrittura — Dettagli Completi" },
     { pageType: 'guide', slug: 'vendere-cerca-parole-etsy', anchorText: 'Vendere cerca parole su Etsy' },
     { pageType: 'guide', slug: 'creare-cerca-parole', anchorText: "Creare cerca parole che vendono" },
-    { pageType: 'start', slug: "guida-completa-attivita-stampabili", anchorText: "Guida completa per avviare un'attività di stampabili" },
-    { pageType: 'idea', slug: 'italiano-l2-idee-stampabili', anchorText: "Idee di stampabili per l'apprendimento delle lingue" },
+    { pageType: `start', slug: "guida-completa-attivita-stampabili", anchorText: "Guida completa per avviare un`attività di stampabili" },
+    { pageType: `idea', slug: 'italiano-l2-idee-stampabili', anchorText: "Idee di stampabili per l`apprendimento delle lingue" },
   ],
 
   visuals: {
@@ -217,7 +217,7 @@ const content: BundleContent = {
       primaryAlt: "Scheda cerca parole con griglia di vocabolario tematico e chiave di risposta a colori",
     },
     sampleGallery: [
-      { src: "/samples/italian/alphabet train/Treno dell'Alfabeto 1.webp", alt: "Scheda treno dell'alfabeto con vagoni lettera-immagine", caption: 'Scheda Treno dell'Alfabeto' },
+      { src: "/samples/italian/alphabet train/Treno dell`Alfabeto 1.webp", alt: "Scheda treno dell'alfabeto con vagoni lettera-immagine", caption: 'Scheda Treno dell'Alfabeto` },
       { src: "/samples/italian/prepositions/Preposizioni 1.webp", alt: "Scheda di preposizioni con relazioni spaziali e immagini", caption: 'Scheda di Preposizioni' },
       { src: "/samples/italian/word guess/Indovina la Parola 1.webp", alt: "Scheda indovina la parola con indizi visivi e spazi per lettere", caption: 'Scheda Indovina la Parola' },
       { src: "/samples/italian/word scramble/Lettere Mescolate 1.webp", alt: "Scheda anagrammi con tessere lettere colorate", caption: 'Scheda Anagrammi' },

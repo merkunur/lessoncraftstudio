@@ -128,7 +128,7 @@ const content: GuideContent = {
     },
     {
       question: "Posso vender produtos criados com o teste grátis com marca d'água no Etsy?",
-      answer: "Não. O teste grátis com marca d'água é apenas para avaliação — pode testar todas as funcionalidades, criar produtos completos com qualquer gerador e avaliar a qualidade, mas os resultados com marca d'água não podem ser vendidos comercialmente. Para vender no Etsy ou em qualquer outro marketplace, precisa de uma licença comercial que remove a marca d'água e concede direitos completos de venda comercial. Não há royalties nem encargos por venda com a licença comercial — fica com 100 por cento das suas receitas de vendas no Etsy após as comissões do marketplace.",
+      answer: "Não. O teste grátis com marca d`água é apenas para avaliação — pode testar todas as funcionalidades, criar produtos completos com qualquer gerador e avaliar a qualidade, mas os resultados com marca d'água não podem ser vendidos comercialmente. Para vender no Etsy ou em qualquer outro marketplace, precisa de uma licença comercial que remove a marca d`água e concede direitos completos de venda comercial. Não há royalties nem encargos por venda com a licença comercial — fica com 100 por cento das suas receitas de vendas no Etsy após as comissões do marketplace.",
     },
     {
       question: "Qual é a política de reembolso para licenças comerciais?",

@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Scegli il tipo di pattern',
         description:
-          "Seleziona uno dei cinque tipi di pattern ripetitivi nel pannello Contenuto. AB alterna due elementi (A-B-A-B-A-B) per le sequenze più semplici. AAB raggruppa due di un elemento seguito da uno dell'altro (A-A-B-A-A-B). ABB inverte tale raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C) per un'identificazione più complessa. AABB accoppia due di ciascuno prima di ripetere (A-A-B-B-A-A-B-B). Ogni tipo si concentra su un livello diverso di competenza nel riconoscimento dei pattern — dall'alternanza semplice di due elementi alle sequenze con più elementi.",
+          "Seleziona uno dei cinque tipi di pattern ripetitivi nel pannello Contenuto. AB alterna due elementi (A-B-A-B-A-B) per le sequenze più semplici. AAB raggruppa due di un elemento seguito da uno dell`altro (A-A-B-A-A-B). ABB inverte tale raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C) per un'identificazione più complessa. AABB accoppia due di ciascuno prima di ripetere (A-A-B-B-A-A-B-B). Ogni tipo si concentra su un livello diverso di competenza nel riconoscimento dei pattern — dall`alternanza semplice di due elementi alle sequenze con più elementi.",
       },
       {
         title: "Configura il numero di indizi e i campi nome/data",
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: "Cinque tipi di pattern ripetitivi per difficoltà progressiva",
         description:
-          "Cinque tipi di pattern coprono l'intero spettro di complessità delle sequenze ripetitive. AB alterna due elementi nel pattern più semplice possibile. AAB e ABB introducono raggruppamenti asimmetrici dove un elemento appare due volte prima o dopo l'altro. ABC ruota tre elementi diversi, obbligando gli utenti a seguire un'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento in un ciclo esteso. Questa progressione crea una scala di difficoltà naturale dall'alternanza semplice nella scuola dell'infanzia alle sequenze avanzate con più elementi — offrendo ai venditori un asse di differenziazione integrato per pacchetti di prodotti per livelli.",
+          "Cinque tipi di pattern coprono l`intero spettro di complessità delle sequenze ripetitive. AB alterna due elementi nel pattern più semplice possibile. AAB e ABB introducono raggruppamenti asimmetrici dove un elemento appare due volte prima o dopo l'altro. ABC ruota tre elementi diversi, obbligando gli utenti a seguire un'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento in un ciclo esteso. Questa progressione crea una scala di difficoltà naturale dall'alternanza semplice nella scuola dell`infanzia alle sequenze avanzate con più elementi — offrendo ai venditori un asse di differenziazione integrato per pacchetti di prodotti per livelli.",
       },
       {
         title: "Numero di indizi regolabile da 4 a 10 per il controllo della difficoltà",
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Strumento per concetti di pattern online e ripetizioni",
         description:
-          "Carica immagini personalizzate per creare schede treno dei modelli adattate a qualsiasi materia o unità — usa fasi di crescita delle piante per una lezione di scienze, immagini di manufatti storici per storia, o simboli di note musicali per una lezione di musica. I cinque tipi di pattern ti permettono di adattare l'esercizio all'obiettivo di apprendimento: AB per l'introduzione, ABC e AABB per la valutazione. Regola il numero di indizi in base al livello di ogni utente — più indizi per chi ha difficoltà, meno per gli avanzati. Stampa serie personalizzate in pochi minuti per piccoli gruppi o negozi intere. La scheda risposte separata fa risparmiare valore percepito, e il formato visivo a treno coinvolge gli utenti che trovano monotone le schede a griglia.",
+          "Carica immagini personalizzate per creare schede treno dei modelli adattate a qualsiasi materia o unità — usa fasi di crescita delle piante per una lezione di scienze, immagini di manufatti storici per storia, o simboli di note musicali per una lezione di musica. I cinque tipi di pattern ti permettono di adattare l`esercizio all'obiettivo di apprendimento: AB per l`introduzione, ABC e AABB per la valutazione. Regola il numero di indizi in base al livello di ogni utente — più indizi per chi ha difficoltà, meno per gli avanzati. Stampa serie personalizzate in pochi minuti per piccoli gruppi o negozi intere. La scheda risposte separata fa risparmiare valore percepito, e il formato visivo a treno coinvolge gli utenti che trovano monotone le schede a griglia.",
         platform: "Vendita Online / Marketplace / Uso Personale",
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Quali sono i cinque tipi di pattern e come si differenziano?",
       answer:
-        "AB alterna due elementi (A-B-A-B) per il pattern ripetitivo più semplice. AAB raggruppa due di un elemento seguito da uno dell'altro (A-A-B-A-A-B). ABB inverte tale raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C), obbligando gli utenti a seguire un'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento (A-A-B-B-A-A-B-B) in un ciclo esteso. La progressione da AB a AABB crea una scala di difficoltà naturale dall'alternanza semplice di due elementi alle sequenze complesse con più elementi.",
+        "AB alterna due elementi (A-B-A-B) per il pattern ripetitivo più semplice. AAB raggruppa due di un elemento seguito da uno dell`altro (A-A-B-A-A-B). ABB inverte tale raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C), obbligando gli utenti a seguire un'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento (A-A-B-B-A-A-B-B) in un ciclo esteso. La progressione da AB a AABB crea una scala di difficoltà naturale dall`alternanza semplice di due elementi alle sequenze complesse con più elementi.",
     },
     {
       question: "Come controlla la difficoltà il numero di indizi?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il Generatore Treno dei Modelli è sensibile alla lingua?",
       answer:
-        "No. Il Treno dei Modelli è un'applicazione puramente visiva — le schede contengono solo immagini nei vagoni con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda in sé. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell'interfaccia.",
+        "No. Il Treno dei Modelli è un`applicazione puramente visiva — le schede contengono solo immagini nei vagoni con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda in sé. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.",
     },
     {
       question: "Posso vendere schede create con questo strumento su Etsy e Amazon KDP?",

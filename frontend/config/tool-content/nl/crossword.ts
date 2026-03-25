@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Amazon KDP Plaatjes Kruiswoordpuzzel Werkboekserie",
-      description: "Stel 40–80 plaatjes kruiswoordpuzzels samen in thematische werkboeken voor Amazon KDP. Structureer een serie per categorie: \"Dieren Plaatjes Kruiswoordpuzzels\" met dierenthema's, \"Feestdagen Kruiswoordavonturen\" met seizoenscollecties, en \"Ultieme Plaatjes Kruiswoorduitdaging\" met gemengde thema's over hoofdstukken. Neem antwoordbladpagina's op achterin met ingevulde rasters die alle correcte letters tonen. Schakel grijstinten in voor inktvriendelijke uitvoer. Plaatjes kruiswoordpuzzels combineren visuele aantrekkingskracht met woordoplosuitdaging en vullen een unieke niche tussen kleurboeken en traditionele kruiswoordcollecties in de KDP-activiteitenboekmarkt.",
+      description: "Stel 40–80 plaatjes kruiswoordpuzzels samen in thematische werkboeken voor Amazon KDP. Structureer een serie per categorie: \"Dieren Plaatjes Kruiswoordpuzzels\" met dierenthema`s, \"Feestdagen Kruiswoordavonturen\" met seizoenscollecties, en \"Ultieme Plaatjes Kruiswoorduitdaging\" met gemengde thema's over hoofdstukken. Neem antwoordbladpagina`s op achterin met ingevulde rasters die alle correcte letters tonen. Schakel grijstinten in voor inktvriendelijke uitvoer. Plaatjes kruiswoordpuzzels combineren visuele aantrekkingskracht met woordoplosuitdaging en vullen een unieke niche tussen kleurboeken en traditionele kruiswoordcollecties in de KDP-activiteitenboekmarkt.",
       platform: 'Amazon KDP',
     },
     {

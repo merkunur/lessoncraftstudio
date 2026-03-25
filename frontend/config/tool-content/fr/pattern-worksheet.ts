@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches de Séquences Logiques",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de séquences logiques immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de séquences logiques immédiatement.",
       },
       {
         title: "Définir la Mise en Page et l'Arrière-Plan",
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: "Parcourir les Thèmes ou Téléverser des Images Personnalisées",
-        description: "Parcourez 104 collections d'images thématiques avec plus de 3 100 illustrations — animaux, nourriture, véhicules, nature, fêtes, métiers et des dizaines d'autres. Chaque thème fournit des images visuellement coordonnées qui fonctionnent ensemble dans les exercices de complétion de motifs. Le type de motif détermine combien d'images distinctes sont nécessaires : 2 pour AB/AAB/ABB/AABB, 3 pour ABC/ABBC/AABC/ABCC, et 4 pour ABCD. Vous pouvez aussi téléverser vos propres images personnalisées pour des fiches de séquences logiques thématiques allant au-delà de la bibliothèque intégrée.",
+        description: "Parcourez 104 collections d`images thématiques avec plus de 3 100 illustrations — animaux, nourriture, véhicules, nature, fêtes, métiers et des dizaines d'autres. Chaque thème fournit des images visuellement coordonnées qui fonctionnent ensemble dans les exercices de complétion de motifs. Le type de motif détermine combien d`images distinctes sont nécessaires : 2 pour AB/AAB/ABB/AABB, 3 pour ABC/ABBC/AABC/ABCC, et 4 pour ABCD. Vous pouvez aussi téléverser vos propres images personnalisées pour des fiches de séquences logiques thématiques allant au-delà de la bibliothèque intégrée.",
       },
       {
         title: "Activer les Champs Nom/Date et les Options d'Exercice",
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: "Ajouter du Texte et Personnaliser le Canevas",
-        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js. Les outils d'alignement positionnent les éléments avec précision, les contrôles de verrouillage/déverrouillage protègent les éléments terminés pendant que vous modifiez les autres, et l'annulation et le rétablissement illimités vous permettent d'expérimenter librement.",
+        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js. Les outils d`alignement positionnent les éléments avec précision, les contrôles de verrouillage/déverrouillage protègent les éléments terminés pendant que vous modifiez les autres, et l'annulation et le rétablissement illimités vous permettent d`expérimenter librement.",
       },
       {
         title: "Vérifier le Corrigé et Télécharger",
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: "Pages Différenciées à Difficulté Mixte",
-      description: "Construisez des fiches où chaque exercice de la même page cible un niveau de compétence différent grâce à la configuration par exercice. Exercice 1 : AB case vide pour l'échauffement. Exercice 2 : AAB case vide pour la pratique. Exercice 3 : ABC choix multiple pour un défi guidé. Exercice 4 : ABCD case vide avec début aléatoire pour l'évaluation. Une seule page imprimée sert d'activité différenciée complète. Les vendeurs obtiennent une pratique variée sans gérer des fiches séparées, et les vendeurs créent des produits sophistiqués qui commandent des prix plus élevés que les pages à motif unique.",
+      description: "Construisez des fiches où chaque exercice de la même page cible un niveau de compétence différent grâce à la configuration par exercice. Exercice 1 : AB case vide pour l`échauffement. Exercice 2 : AAB case vide pour la pratique. Exercice 3 : ABC choix multiple pour un défi guidé. Exercice 4 : ABCD case vide avec début aléatoire pour l'évaluation. Une seule page imprimée sert d`activité différenciée complète. Les vendeurs obtiennent une pratique variée sans gérer des fiches séparées, et les vendeurs créent des produits sophistiqués qui commandent des prix plus élevés que les pages à motif unique.",
     },
     {
       title: "Ensembles Saisonniers et de Fêtes",
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches Thématiques avec Images Personnalisées",
-      description: "Téléversez des images personnalisées pour créer des fiches de séquences logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour les sciences, des symboles de notes musicales pour le cours de musique, des formes géométriques pour les mathématiques ou des artefacts historiques pour l'histoire-géographie. Neuf types de motifs et deux modes de question permettent d'adapter l'exercice à n'importe quel objectif pédagogique. La configuration par exercice signifie qu'une page peut combiner différentes images thématiques pour des fiches de révision interdisciplinaires.",
+      description: "Téléversez des images personnalisées pour créer des fiches de séquences logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour les sciences, des symboles de notes musicales pour le cours de musique, des formes géométriques pour les mathématiques ou des artefacts historiques pour l`histoire-géographie. Neuf types de motifs et deux modes de question permettent d'adapter l'exercice à n'importe quel objectif pédagogique. La configuration par exercice signifie qu`une page peut combiner différentes images thématiques pour des fiches de révision interdisciplinaires.",
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: "Série de Cahiers de Motifs sur Amazon KDP",
-      description: "Compilez plus de 80 exercices de complétion de motifs dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : « Motifs Débutants » couvre AB jusqu'à ABB en mode case vide. « Motifs Intermédiaires » introduit ABC et AABB avec les deux modes de question. « Motifs Avancés » présente ABBC jusqu'à ABCD avec début aléatoire et position vide aléatoire. Corrigés à la fin de chaque cahier. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction, maximisant votre portée géographique à partir d'un seul fichier intérieur.",
+      description: "Compilez plus de 80 exercices de complétion de motifs dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : « Motifs Débutants » couvre AB jusqu`à ABB en mode case vide. « Motifs Intermédiaires » introduit ABC et AABB avec les deux modes de question. « Motifs Avancés » présente ABBC jusqu'à ABCD avec début aléatoire et position vide aléatoire. Corrigés à la fin de chaque cahier. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction, maximisant votre portée géographique à partir d`un seul fichier intérieur.",
       platform: 'Amazon KDP',
     },
     {
       title: "Ateliers par Niveaux sur Gumroad",
-      description: "Téléchargez des packs de fiches de séquences logiques sur Gumroad organisés par niveau de compétence en utilisant la configuration par exercice comme différenciateur. Le Niveau 1 propose des pages entièrement AB en case vide. Le Niveau 2 mélange AB et AAB avec les deux modes. Le Niveau 3 introduit ABC en choix multiple avec des échauffements en case vide. Le Niveau 4 combine des défis ABCD avec début aléatoire activé. Chaque niveau utilise des exercices thématiques avec corrigés séparés. L'indépendance par exercice signifie qu'une page sert d'activité d'atelier complète. Les vendeurs recherchent « fiches de reconnaissance de motifs » et trouvent peu d'options avec neuf types de motifs.",
+      description: "Téléchargez des packs de fiches de séquences logiques sur Gumroad organisés par niveau de compétence en utilisant la configuration par exercice comme différenciateur. Le Niveau 1 propose des pages entièrement AB en case vide. Le Niveau 2 mélange AB et AAB avec les deux modes. Le Niveau 3 introduit ABC en choix multiple avec des échauffements en case vide. Le Niveau 4 combine des défis ABCD avec début aléatoire activé. Chaque niveau utilise des exercices thématiques avec corrigés séparés. L`indépendance par exercice signifie qu'une page sert d'activité d'atelier complète. Les vendeurs recherchent « fiches de reconnaissance de motifs » et trouvent peu d`options avec neuf types de motifs.",
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: "Gamme de Produits Sans Texte pour le Marché Mondial",
-      description: "Les fiches de séquences logiques ne contiennent que des images en lignes de grille avec zéro texte sur la sortie. Le même produit fonctionne dans toutes les langues sans modification — aucune traduction nécessaire, aucun listing séparé à maintenir. Créez un ensemble d'exercices et vendez-le dans le monde entier sur Etsy.fr ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Neuf types de motifs et deux modes de question donnent 18 styles d'exercices à partir d'un seul thème. Une seule session de création produit un catalogue vendable universellement.",
+      description: "Les fiches de séquences logiques ne contiennent que des images en lignes de grille avec zéro texte sur la sortie. Le même produit fonctionne dans toutes les langues sans modification — aucune traduction nécessaire, aucun listing séparé à maintenir. Créez un ensemble d`exercices et vendez-le dans le monde entier sur Etsy.fr ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Neuf types de motifs et deux modes de question donnent 18 styles d'exercices à partir d`un seul thème. Une seule session de création produit un catalogue vendable universellement.",
       platform: 'Etsy.fr / Amazon KDP',
     },
   ],
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez la Configuration par Exercice pour des Pages à Difficulté Mixte",
-      description: "L'indépendance par exercice est votre plus fort différenciateur produit. Créez des pages qui commencent facile et deviennent plus difficiles au sein d'une seule fiche : l'exercice 1 en AB case vide, l'exercice 3 en ABC choix multiple, l'exercice 5 en ABCD avec début aléatoire. Les pages à difficulté mixte démontrent une conception professionnelle réfléchie et commandent des prix plus élevés sur les places de marché que les fiches répétitives à motif unique.",
+      description: "L`indépendance par exercice est votre plus fort différenciateur produit. Créez des pages qui commencent facile et deviennent plus difficiles au sein d'une seule fiche : l'exercice 1 en AB case vide, l'exercice 3 en ABC choix multiple, l`exercice 5 en ABCD avec début aléatoire. Les pages à difficulté mixte démontrent une conception professionnelle réfléchie et commandent des prix plus élevés sur les places de marché que les fiches répétitives à motif unique.",
     },
     {
       title: "Différenciez le Format Grille du Format Train",
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: "Que font le Début Aléatoire et la Position Vide Aléatoire ?",
-      answer: "Commencer à un Élément Aléatoire démarre le motif à un point aléatoire du cycle plutôt que toujours au premier élément — un motif ABC pourrait commencer à C-A-B-C au lieu de A-B-C. La Position Vide Aléatoire place l'élément manquant à n'importe quelle position dans la séquence plutôt qu'à un emplacement fixe. Ensemble, ces réglages empêchent les utilisateurs de résoudre par habitude et garantissent que chaque fiche générée présente un défi nouveau.",
+      answer: "Commencer à un Élément Aléatoire démarre le motif à un point aléatoire du cycle plutôt que toujours au premier élément — un motif ABC pourrait commencer à C-A-B-C au lieu de A-B-C. La Position Vide Aléatoire place l`élément manquant à n'importe quelle position dans la séquence plutôt qu`à un emplacement fixe. Ensemble, ces réglages empêchent les utilisateurs de résoudre par habitude et garantissent que chaque fiche générée présente un défi nouveau.",
     },
     {
       question: "Pourquoi les fiches ne contiennent-elles aucun texte ?",
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: "Quelle est votre politique de remboursement ?",
-      answer: "Essayez avant d'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux neuf types de motifs, aux deux modes de question, à la configuration par exercice et à tous les formats d'export, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d'acheter.",
+      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux neuf types de motifs, aux deux modes de question, à la configuration par exercice et à tous les formats d'export, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d`acheter.",
     },
   ],
 
@@ -205,8 +205,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: "generateur-train-suites-logiques", anchorText: "Créateur de Fiches Train de Suites Logiques" },
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: "Créateur de Fiches Dessin sur Quadrillage" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d'Association" },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: "Créateur de Fiches de l'Intrus" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool', slug: 'generateur-fiches-intrus', anchorText: "Créateur de Fiches de l`Intrus" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],

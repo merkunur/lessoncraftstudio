@@ -59,7 +59,7 @@ De seizoensconcentratie van de zomerleermarkt maakt voorbereidende publicatie es
     },
     {
       title: "Zomerleren Kleurplaten voor Etsy en KDP Verkopers",
-      description: "Kleurplaten met educatieve zomerleerelementen — kleur-bij-som, kleur-bij-woord of kleur-bij-tafeluitkomst — transformeren een vakantie-activiteit in een verkapte leerervaring die kinderen bereidwillig doen. De Kleuren-generator maakt gedetailleerde contouren van zomerthema's met educatieve instructies die passen bij specifieke niveaucategories. Voor Etsy verkoop je sets van tien tot vijftien pagina's per niveaucategorie. Voor KDP compileer je dertig tot vijftig pagina's in zomerleer-activiteitenboeken per niveaucategorieovergang — bijzonder populair als vakantiewerkboekje-alternatief.",
+      description: "Kleurplaten met educatieve zomerleerelementen — kleur-bij-som, kleur-bij-woord of kleur-bij-tafeluitkomst — transformeren een vakantie-activiteit in een verkapte leerervaring die kinderen bereidwillig doen. De Kleuren-generator maakt gedetailleerde contouren van zomerthema`s met educatieve instructies die passen bij specifieke niveaucategories. Voor Etsy verkoop je sets van tien tot vijftien pagina's per niveaucategorie. Voor KDP compileer je dertig tot vijftig pagina`s in zomerleer-activiteitenboeken per niveaucategorieovergang — bijzonder populair als vakantiewerkboekje-alternatief.",
       appId: 'coloring',
     },
     {

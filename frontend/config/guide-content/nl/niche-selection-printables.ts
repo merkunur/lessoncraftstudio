@@ -215,7 +215,7 @@ Op Amazon is de BSR (Best Sellers Rank) je belangrijkste indicator voor niche-vr
 
 Een belangrijk verschil met Etsy is dat Amazon-klanten vaak zoeken naar complete boeken in plaats van losse werkbladen. Dit betekent dat je niche moet passen bij het boekformaat. Niches die zich goed lenen voor KDP zijn: puzzelboeken (woordzoekers, sudoku, kruiswoordpuzzels), activiteitenboeken voor kinderen, kleurboeken, en oefenwerkboeken. Met de werkblad generators van LessonCraftStudio, beschikbaar als gratis proefversie met watermerk, kun je de inhoud genereren die je nodig hebt voor deze boektypen.
 
-Let bij je KDP niche-analyse ook op het formaat en de omvang van concurrerende boeken. Hoeveel pagina's hebben ze? Welk formaat gebruiken ze? Wat is hun prijspunt? Amazon-klanten verwachten een bepaalde waarde voor hun geld, en je product moet aan die verwachting voldoen. Een puzzelboek met vijftig pagina's voor vijf euro is een ander product dan een met tweehonderd pagina's voor twaalf euro.
+Let bij je KDP niche-analyse ook op het formaat en de omvang van concurrerende boeken. Hoeveel pagina`s hebben ze? Welk formaat gebruiken ze? Wat is hun prijspunt? Amazon-klanten verwachten een bepaalde waarde voor hun geld, en je product moet aan die verwachting voldoen. Een puzzelboek met vijftig pagina's voor vijf euro is een ander product dan een met tweehonderd pagina`s voor twaalf euro.
 
 Analyseer de reviews van concurrerende boeken zorgvuldig. Amazon-reviews zijn gedetailleerder dan Etsy-reviews en geven je diep inzicht in wat klanten zoeken. Let op terugkerende complimenten en klachten. Veel voorkomende klachten bij puzzel- en activiteitenboeken zijn: te dun papier waardoor inkt doorbloedt, te kleine letters, ontbreken van antwoorden, en gebrek aan variatie in moeilijkheidsgraad.`,
     },
@@ -356,10 +356,10 @@ De belangrijkste les: ga niet breed, ga diep. Een micro-niche met honderd produc
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Gids commerciële licentie' },
   ],
   toolsRecommended: [
-    { appId: 'wordsearch', title: "Woordzoeker Werkblad Generator", description: "Maak thematische woordzoeker puzzels voor elke niche. Kies uit meer dan 100 thema's met afbeeldingen en pas het moeilijkheidsniveau aan voor je doelgroep." },
+    { appId: `wordsearch', title: "Woordzoeker Werkblad Generator", description: "Maak thematische woordzoeker puzzels voor elke niche. Kies uit meer dan 100 thema`s met afbeeldingen en pas het moeilijkheidsniveau aan voor je doelgroep." },
     { appId: 'coloring', title: 'Kleurplaat Generator', description: "Genereer professionele kleurplaten met thematische afbeeldingen. Perfect voor seizoensgebonden en evergreen niches in het printable segment." },
     { appId: 'matching', title: 'Koppelen Werkblad Generator', description: "Maak educatieve koppelactiviteiten voor woordenschat, rekenen en meer. Ideaal voor de educatieve printable niche op Etsy en Gumroad." },
-    { appId: 'addition', title: 'Optellen Werkblad Generator', description: "Genereer rekenactiviteiten met thematische afbeeldingen. Combineer rekenen met aantrekkelijke thema's voor een unieke niche positionering." },
+    { appId: `addition', title: 'Optellen Werkblad Generator', description: "Genereer rekenactiviteiten met thematische afbeeldingen. Combineer rekenen met aantrekkelijke thema`s voor een unieke niche positionering." },
   ],
   visuals: {
     heroImage: { src: "/samples/dutch/wordsearch/Woordzoeker 1.webp", alt: "Woordzoeker werkblad als voorbeeld van niche content voor printable bedrijven" },

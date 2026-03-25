@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: "Début aléatoire et position vide aléatoire pour varier la difficulté",
         description:
-          "Deux réglages de randomisation créent des variations de difficulté supplémentaires à partir des mêmes types de motifs. Commencer à un Élément Aléatoire démarre le motif en milieu de cycle au lieu de toujours commencer au premier élément — un motif ABC pourrait commencer à B-C-A-B-C au lieu de A-B-C-A-B. La Position Vide Aléatoire place l'élément manquant n'importe où dans la séquence plutôt qu'à un emplacement prévisible. Ensemble, ces réglages empêchent les utilisateurs de résoudre par habitude et garantissent que chaque fiche générée présente un défi nouveau. Pour les vendeurs, la randomisation multiplie le nombre de fiches uniques produisibles à partir de chaque combinaison de type de motif et de thème.",
+          "Deux réglages de randomisation créent des variations de difficulté supplémentaires à partir des mêmes types de motifs. Commencer à un Élément Aléatoire démarre le motif en milieu de cycle au lieu de toujours commencer au premier élément — un motif ABC pourrait commencer à B-C-A-B-C au lieu de A-B-C-A-B. La Position Vide Aléatoire place l`élément manquant n'importe où dans la séquence plutôt qu`à un emplacement prévisible. Ensemble, ces réglages empêchent les utilisateurs de résoudre par habitude et garantissent que chaque fiche générée présente un défi nouveau. Pour les vendeurs, la randomisation multiplie le nombre de fiches uniques produisibles à partir de chaque combinaison de type de motif et de thème.",
       },
       {
         title: "Bibliothèque d'images avec 104 collections thématiques",
@@ -127,13 +127,13 @@ const content: AppContent = {
       {
         title: "Fiches visuelles multilingues pour les marchés mondiaux",
         description:
-          "Comme les exercices de Séquences Logiques ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, le même produit fonctionne dans toutes les langues sans modification. Créez un ensemble d'exercices de complétion de motifs et vendez-le dans le monde entier — aucune traduction nécessaire, aucune version linguistique séparée à maintenir. Changer la langue du contenu n'affecte que les étiquettes de la bibliothèque d'images dans le générateur, pas la fiche imprimée. Listez des produits identiques sur des boutiques Etsy ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Un seul flux de travail produit un produit vendable universellement.",
+          "Comme les exercices de Séquences Logiques ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, le même produit fonctionne dans toutes les langues sans modification. Créez un ensemble d`exercices de complétion de motifs et vendez-le dans le monde entier — aucune traduction nécessaire, aucune version linguistique séparée à maintenir. Changer la langue du contenu n'affecte que les étiquettes de la bibliothèque d`images dans le générateur, pas la fiche imprimée. Listez des produits identiques sur des boutiques Etsy ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Un seul flux de travail produit un produit vendable universellement.",
         platform: "Etsy / Amazon KDP / Gumroad (mondial)",
       },
       {
         title: "Outil de concepts de motifs pour la vente et le tutorat",
         description:
-          "Téléversez des images personnalisées pour créer des fiches de séquences logiques adaptées à n'importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des formes géométriques pour un cours de mathématiques, ou des symboles de notes musicales pour un cours de musique. Neuf types de motifs vous permettent d'adapter l'exercice à l'objectif pédagogique : AB pour l'introduction, ABC pour la pratique, ABCD pour l'évaluation. Combinez case vide et choix multiple sur la même page pour une pratique variée. Activez le début aléatoire et la position vide aléatoire pour générer des fiches uniques pour chaque utilisateur, empêchant la copie. L'onglet corrigé séparé fait gagner du valeur perçue, et la configuration par exercice permet de créer des pages différenciées pour des groupes de niveaux mixtes.",
+          "Téléversez des images personnalisées pour créer des fiches de séquences logiques adaptées à n`importe quelle matière ou unité — utilisez des étapes de croissance des plantes pour une leçon de sciences, des formes géométriques pour un cours de mathématiques, ou des symboles de notes musicales pour un cours de musique. Neuf types de motifs vous permettent d'adapter l'exercice à l'objectif pédagogique : AB pour l'introduction, ABC pour la pratique, ABCD pour l'évaluation. Combinez case vide et choix multiple sur la même page pour une pratique variée. Activez le début aléatoire et la position vide aléatoire pour générer des fiches uniques pour chaque utilisateur, empêchant la copie. L`onglet corrigé séparé fait gagner du valeur perçue, et la configuration par exercice permet de créer des pages différenciées pour des groupes de niveaux mixtes.",
         platform: "Classe / Tutorat / École à la maison",
       },
     ],
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: "Que font les réglages Début Aléatoire et Position Vide Aléatoire ?",
       answer:
-        "Commencer à un Élément Aléatoire démarre le motif à un point aléatoire du cycle plutôt que toujours au premier élément — un motif ABC pourrait commencer à C-A-B-C au lieu de A-B-C. La Position Vide Aléatoire place l'élément manquant à n'importe quelle position dans la séquence plutôt qu'à un emplacement fixe. Ensemble, ces réglages empêchent les utilisateurs de résoudre les motifs par habitude et garantissent que chaque fiche générée présente un défi nouveau, même en utilisant le même type de motif et le même thème.",
+        "Commencer à un Élément Aléatoire démarre le motif à un point aléatoire du cycle plutôt que toujours au premier élément — un motif ABC pourrait commencer à C-A-B-C au lieu de A-B-C. La Position Vide Aléatoire place l`élément manquant à n'importe quelle position dans la séquence plutôt qu`à un emplacement fixe. Ensemble, ces réglages empêchent les utilisateurs de résoudre les motifs par habitude et garantissent que chaque fiche générée présente un défi nouveau, même en utilisant le même type de motif et le même thème.",
     },
     {
       question: "Combien d'exercices puis-je mettre sur une page ?",
       answer:
-        "Vous pouvez paramétrer de 1 à 8 exercices par page, avec un défaut de 5. Moins d'exercices par page créent des lignes de grille plus grandes et plus claires, idéales pour les jeunes apprenants ou la pratique ciblée. Plus d'exercices créent des fiches plus denses adaptées à l'évaluation ou à la révision. Combiné avec la configuration par exercice, 8 exercices sur une page peuvent présenter 8 types de motifs différents ou mixer les modes case vide et choix multiple pour une pratique complète.",
+        "Vous pouvez paramétrer de 1 à 8 exercices par page, avec un défaut de 5. Moins d`exercices par page créent des lignes de grille plus grandes et plus claires, idéales pour les jeunes apprenants ou la pratique ciblée. Plus d'exercices créent des fiches plus denses adaptées à l`évaluation ou à la révision. Combiné avec la configuration par exercice, 8 exercices sur une page peuvent présenter 8 types de motifs différents ou mixer les modes case vide et choix multiple pour une pratique complète.",
     },
     {
       question: "Comment sélectionner les images pour chaque exercice ?",
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les neuf types de motifs, les deux modes de question, la configuration par exercice, la bibliothèque d'images, le début aléatoire et la position vide aléatoire, la génération de corrigé et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
+        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les neuf types de motifs, les deux modes de question, la configuration par exercice, la bibliothèque d`images, le début aléatoire et la position vide aléatoire, la génération de corrigé et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
     },
     {
       question: "Le générateur de Séquences Logiques est-il sensible à la langue ?",
       answer:
-        "Non. Le générateur de Séquences Logiques est une application purement visuelle — les fiches ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n'affecte que les étiquettes de l'interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d'interface.",
+        "Non. Le générateur de Séquences Logiques est une application purement visuelle — les fiches ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l'interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",
@@ -203,7 +203,7 @@ const content: AppContent = {
     {
       question: "Quelle est la différence entre la Licence Commerciale et l'Accès Complet ?",
       answer:
-        "La Licence Commerciale inclut 10 thèmes colorés de la bibliothèque d'images et les droits complets de vente commerciale pour tous les produits créés. L'Accès Complet déverrouille les 104 thèmes de la bibliothèque d'images et les 11 langues d'interface, offrant une variété de produits maximale. Les deux licences suppriment le filigrane et accordent des droits commerciaux complets — la différence réside uniquement dans le nombre de thèmes et de langues d'interface disponibles.",
+        "La Licence Commerciale inclut 10 thèmes colorés de la bibliothèque d`images et les droits complets de vente commerciale pour tous les produits créés. L'Accès Complet déverrouille les 104 thèmes de la bibliothèque d'images et les 11 langues d'interface, offrant une variété de produits maximale. Les deux licences suppriment le filigrane et accordent des droits commerciaux complets — la différence réside uniquement dans le nombre de thèmes et de langues d`interface disponibles.",
     },
   ],
 

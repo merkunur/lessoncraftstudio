@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: "Wat zijn de negen patroontypen en hoe verschillen ze?",
       answer:
-        "AB wisselt twee items af (A-B-A-B) voor het eenvoudigste patroon. AAB groepeert twee van het ene gevolgd door één van het andere (A-A-B-A-A-B). ABB keert die groepering om (A-B-B-A-B-B). ABC roteert drie items (A-B-C-A-B-C). AABB koppelt twee van elk (A-A-B-B-A-A-B-B). ABBC plaatst twee B's tussen A en C. AABC begint met twee A's voor B en C. ABCC eindigt met twee C's na A en B. ABCD roteert vier verschillende items voor maximale complexiteit. De progressie van 2-afbeelding tot 4-afbeelding patronen creëert een natuurlijke moeilijkheidsladder van kleuterschool tot en met onderbouw basisschool.",
+        "AB wisselt twee items af (A-B-A-B) voor het eenvoudigste patroon. AAB groepeert twee van het ene gevolgd door één van het andere (A-A-B-A-A-B). ABB keert die groepering om (A-B-B-A-B-B). ABC roteert drie items (A-B-C-A-B-C). AABB koppelt twee van elk (A-A-B-B-A-A-B-B). ABBC plaatst twee B`s tussen A en C. AABC begint met twee A's voor B en C. ABCC eindigt met twee C`s na A en B. ABCD roteert vier verschillende items voor maximale complexiteit. De progressie van 2-afbeelding tot 4-afbeelding patronen creëert een natuurlijke moeilijkheidsladder van kleuterschool tot en met onderbouw basisschool.",
     },
     {
       question: "Wat zijn de twee vraagmodi en hoe werken ze?",

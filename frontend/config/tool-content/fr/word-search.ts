@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Mots Cachés",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots cachés immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots cachés immédiatement.",
       },
       {
         title: "Définir la Mise en Page et le Modèle",
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: "Choisir Votre Source de Contenu",
-        description: "Sélectionnez l'une des trois sources de contenu. Le mode Bibliothèque d'Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot caché dans la grille. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu'à 8 mots directement pour des puzzles textuels.",
+        description: "Sélectionnez l`une des trois sources de contenu. Le mode Bibliothèque d'Images utilise des illustrations de la collection intégrée de plus de 3 100 images — le nom de l'image devient le mot caché dans la grille. Le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou un vocabulaire alternatif. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement pour des puzzles textuels.",
       },
       {
         title: "Configurer la Taille de Grille et les Dimensions",
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: "Activer les Contrôles de Direction des Mots",
-        description: "Deux activateurs indépendants affinent la difficulté du puzzle. Activez les mots en diagonale pour permettre le placement le long des deux axes diagonaux en plus de l'horizontal et du vertical. Activez les mots inversés (à l'envers) pour permettre le placement dans la direction opposée sur chaque axe activé. Avec les deux activés, les mots peuvent apparaître dans huit directions possibles. Avec les deux désactivés, les mots n'apparaissent que de gauche à droite horizontalement et de haut en bas verticalement. Utilisez ces activateurs en combinaison avec la taille de grille pour créer une courbe de difficulté précise dans vos packs de fiches.",
+        description: "Deux activateurs indépendants affinent la difficulté du puzzle. Activez les mots en diagonale pour permettre le placement le long des deux axes diagonaux en plus de l`horizontal et du vertical. Activez les mots inversés (à l'envers) pour permettre le placement dans la direction opposée sur chaque axe activé. Avec les deux activés, les mots peuvent apparaître dans huit directions possibles. Avec les deux désactivés, les mots n`apparaissent que de gauche à droite horizontalement et de haut en bas verticalement. Utilisez ces activateurs en combinaison avec la taille de grille pour créer une courbe de difficulté précise dans vos packs de fiches.",
       },
       {
         title: "Choisir le Mode d'Affichage et la Langue",
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: "Cahiers de Mots Cachés pour KDP",
-      description: "Générez 50 à 100 pages de mots cachés avec une structure de difficulté progressive. Ouvrez avec des petites grilles 6×6 horizontal uniquement pour l'échauffement, progressez à travers des grilles 12×12 avec diagonales, et terminez avec des grilles massives 25×25 avec mots inversés activés. Regroupez les chapitres par thème pour une variété navigable. Ajoutez les corrigés avec code couleur à la fin. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Les cahiers de mots cachés se vendent régulièrement toute l'année sur Amazon KDP avec un minimum de publicité.",
+      description: "Générez 50 à 100 pages de mots cachés avec une structure de difficulté progressive. Ouvrez avec des petites grilles 6×6 horizontal uniquement pour l`échauffement, progressez à travers des grilles 12×12 avec diagonales, et terminez avec des grilles massives 25×25 avec mots inversés activés. Regroupez les chapitres par thème pour une variété navigable. Ajoutez les corrigés avec code couleur à la fin. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Les cahiers de mots cachés se vendent régulièrement toute l`année sur Amazon KDP avec un minimum de publicité.",
     },
     {
       title: "Ensembles de Grilles de Vocabulaire Différenciés",
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: "Série de Cahiers de Puzzles Thématiques sur Amazon KDP",
-      description: "Compilez plus de 80 puzzles mots cachés dans un cahier d'activités thématique pour Amazon KDP. Structurez une série autour de thèmes populaires : « Mots Cachés Animaux », « Mots Cachés Nourriture et Cuisine », « Mots Cachés Nature et Sciences ». Chaque cahier utilise des tailles de grille progressives de 6×6 à 25×25 avec corrigés à la fin. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Les cahiers de mots cachés se vendent régulièrement toute l'année sur Amazon. Publiez des éditions séparées par langue grâce aux lettres de remplissage adaptées pour multiplier votre catalogue.",
+      description: "Compilez plus de 80 puzzles mots cachés dans un cahier d`activités thématique pour Amazon KDP. Structurez une série autour de thèmes populaires : « Mots Cachés Animaux », « Mots Cachés Nourriture et Cuisine », « Mots Cachés Nature et Sciences ». Chaque cahier utilise des tailles de grille progressives de 6×6 à 25×25 avec corrigés à la fin. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Les cahiers de mots cachés se vendent régulièrement toute l`année sur Amazon. Publiez des éditions séparées par langue grâce aux lettres de remplissage adaptées pour multiplier votre catalogue.",
       platform: 'Amazon KDP',
     },
     {
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: "Tunnel de Vente Mots Cachés sur Pinterest",
-      description: "Le format grille de mots cachés est naturellement visuel et épinglable — une grille de lettres colorée avec des indices images thématiques est instantanément reconnaissable comme une activité de puzzle ludique. Épinglez un échantillon gratuit de 3 pages avec filigrane, collectez des adresses e-mail sur votre page d'atterrissage, puis proposez vos packs thématiques et multilingues complets en vente. Les fiches mots cachés obtiennent régulièrement des taux de sauvegarde élevés sur Pinterest parce qu'elles ressemblent à des jeux interactifs plutôt qu'à des devoirs traditionnels.",
+      description: "Le format grille de mots cachés est naturellement visuel et épinglable — une grille de lettres colorée avec des indices images thématiques est instantanément reconnaissable comme une activité de puzzle ludique. Épinglez un échantillon gratuit de 3 pages avec filigrane, collectez des adresses e-mail sur votre page d`atterrissage, puis proposez vos packs thématiques et multilingues complets en vente. Les fiches mots cachés obtiennent régulièrement des taux de sauvegarde élevés sur Pinterest parce qu'elles ressemblent à des jeux interactifs plutôt qu`à des devoirs traditionnels.",
       platform: 'Pinterest',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez les Modes d'Affichage de Manière Stratégique",
-      description: "Le mode Afficher Mots et Images est le standard — idéal pour l'enrichissement du vocabulaire. Le mode Afficher Images Uniquement ajoute un défi supplémentaire : les utilisateurs doivent identifier ce que l'image représente avant de chercher le mot. Le mode Afficher Mots Uniquement crée des mots cachés textuels classiques sans indices visuels. Proposez les trois modes comme variantes du même pack thématique pour tripler votre gamme de produits à partir d'une seule session de création.",
+      description: "Le mode Afficher Mots et Images est le standard — idéal pour l`enrichissement du vocabulaire. Le mode Afficher Images Uniquement ajoute un défi supplémentaire : les utilisateurs doivent identifier ce que l'image représente avant de chercher le mot. Le mode Afficher Mots Uniquement crée des mots cachés textuels classiques sans indices visuels. Proposez les trois modes comme variantes du même pack thématique pour tripler votre gamme de produits à partir d`une seule session de création.",
     },
     {
       title: "Utilisez les Niveaux de Gris pour KDP et l'Impression en Volume",
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le remplissage alphabétique adapté à la langue ?",
-      answer: "Quand vous sélectionnez une langue, les lettres de remplissage de la grille changent automatiquement pour correspondre à l'alphabet de cette langue avec des distributions de fréquence pondérées. Les grilles allemandes incluent ä, ö, ü et ß. Les grilles françaises incluent é, è, ç, à et d'autres caractères accentués. Les grilles suédoises incluent å, ä et ö. Cela rend les puzzles linguistiquement authentiques plutôt qu'évidemment générés en anglais — une fonctionnalité unique au générateur Mots Cachés.",
+      answer: "Quand vous sélectionnez une langue, les lettres de remplissage de la grille changent automatiquement pour correspondre à l`alphabet de cette langue avec des distributions de fréquence pondérées. Les grilles allemandes incluent ä, ö, ü et ß. Les grilles françaises incluent é, è, ç, à et d'autres caractères accentués. Les grilles suédoises incluent å, ä et ö. Cela rend les puzzles linguistiquement authentiques plutôt qu`évidemment générés en anglais — une fonctionnalité unique au générateur Mots Cachés.",
     },
     {
       question: "Comment fonctionne le corrigé avec code couleur ?",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
     { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: "Générateur de Fiches Train Alphabet" },
     { pageType: 'tool', slug: "generateur-fiches-prepositions", anchorText: "Générateur de Fiches de Prépositions" },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d'Écriture" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

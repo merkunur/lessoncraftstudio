@@ -71,7 +71,7 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
     },
     {
       title: "Groep 4 Schaduwkoppelwerkbladen voor Printable Winkels",
-      description: "Schaduwkoppelwerkbladen voor groep 4 bieden complexere visuele discriminatieuitdagingen met subtielere vormverschillen die passen bij het cognitieve ontwikkelingsniveau van zeven- tot achtjarigen. Gebruik de Schaduw Koppelen-generator om pagina's te maken met thematische beelden en hun silhouetten op gevorderd niveau. Combineer met populaire thema's die aansluiten bij de interesses van groep 4 gebruikers. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.",
+      description: "Schaduwkoppelwerkbladen voor groep 4 bieden complexere visuele discriminatieuitdagingen met subtielere vormverschillen die passen bij het cognitieve ontwikkelingsniveau van zeven- tot achtjarigen. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met thematische beelden en hun silhouetten op gevorderd niveau. Combineer met populaire thema's die aansluiten bij de interesses van groep 4 gebruikers. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.",
       appId: 'shadow-match',
     },
     {

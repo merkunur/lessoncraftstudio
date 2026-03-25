@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: "Cosa fanno gli interruttori direzione diagonale e inversa?",
-      answer: "L'interruttore diagonale permette il posizionamento delle parole lungo entrambi gli assi diagonali oltre a orizzontale e verticale. L'interruttore inverso permette il posizionamento delle parole al contrario in ogni direzione abilitata. Con entrambi attivati, le parole possono apparire in otto direzioni possibili. Con entrambi disattivati, le parole appaiono solo da sinistra a destra orizzontalmente e dall'alto in basso verticalmente. Questi interruttori ti permettono di regolare la difficoltà da semplici griglie a due direzioni a puzzle complessi a otto direzioni.",
+      answer: "L`interruttore diagonale permette il posizionamento delle parole lungo entrambi gli assi diagonali oltre a orizzontale e verticale. L'interruttore inverso permette il posizionamento delle parole al contrario in ogni direzione abilitata. Con entrambi attivati, le parole possono apparire in otto direzioni possibili. Con entrambi disattivati, le parole appaiono solo da sinistra a destra orizzontalmente e dall`alto in basso verticalmente. Questi interruttori ti permettono di regolare la difficoltà da semplici griglie a due direzioni a puzzle complessi a otto direzioni.",
     },
     {
       question: "Come funzionano le lettere riempitive sensibili alla lingua?",
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: "Come funziona il foglio risposte codificato a colori?",
-      answer: "Il foglio risposte evidenzia ogni parola trovata in uno di sei colori ciclici: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un'identificazione visiva istantanea, anche quando le parole si incrociano o si sovrappongono nella griglia. Puoi attivare l'esportazione in scala di grigi per versioni del foglio risposte ottimizzate per l'inchiostro. Il foglio risposte viene generato come file scaricabile separato in formato PDF e JPEG.",
+      answer: "Il foglio risposte evidenzia ogni parola trovata in uno di sei colori ciclici: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un`identificazione visiva istantanea, anche quando le parole si incrociano o si sovrappongono nella griglia. Puoi attivare l'esportazione in scala di grigi per versioni del foglio risposte ottimizzate per l`inchiostro. Il foglio risposte viene generato come file scaricabile separato in formato PDF e JPEG.",
     },
     {
       question: "In cosa differisce il cerca parole da parole mescolate e indovina parole?",

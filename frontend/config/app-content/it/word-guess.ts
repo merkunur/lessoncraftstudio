@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Generazione automatica del foglio risposte",
         description:
-          "Clicca un pulsante per generare un foglio risposte completo che riproduce il layout della tua scheda con ogni casella di lettera compilata — nessuna casella rimane vuota. La scheda foglio risposte mostra un'anteprima in tempo reale per verificare l'esattezza prima di scaricare. Esporta il foglio risposte come file JPEG o PDF separato con un'opzione scala di grigi per versioni economiche in inchiostro. Includere fogli risposte nei tuoi pacchetti Etsy e libri KDP aggiunge valore professionale senza alcun lavoro manuale di assemblaggio.",
+          "Clicca un pulsante per generare un foglio risposte completo che riproduce il layout della tua scheda con ogni casella di lettera compilata — nessuna casella rimane vuota. La scheda foglio risposte mostra un`anteprima in tempo reale per verificare l'esattezza prima di scaricare. Esporta il foglio risposte come file JPEG o PDF separato con un`opzione scala di grigi per versioni economiche in inchiostro. Includere fogli risposte nei tuoi pacchetti Etsy e libri KDP aggiunge valore professionale senza alcun lavoro manuale di assemblaggio.",
       },
       {
         title: "Esportazione pronta per la stampa a 400+ DPI con opzione scala di grigi",
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Come funziona il puzzle indovina la parola?",
       answer:
-        "Ogni puzzle mostra un indizio immagine accanto a una fila di caselle di lettere vuote. gli utenti studiano l'immagine per identificare cosa rappresenta e poi riempiono le lettere mancanti per comporre la parola. Le lettere-indizio pre-rivelate (controllate dal livello di difficoltà) forniscono supporto. Funziona come il gioco dell'impiccato ma con un indizio immagine invece di una categoria — sviluppando contemporaneamente il vocabolario visivo, l'ortografia e il ragionamento deduttivo.",
+        "Ogni puzzle mostra un indizio immagine accanto a una fila di caselle di lettere vuote. gli utenti studiano l`immagine per identificare cosa rappresenta e poi riempiono le lettere mancanti per comporre la parola. Le lettere-indizio pre-rivelate (controllate dal livello di difficoltà) forniscono supporto. Funziona come il gioco dell'impiccato ma con un indizio immagine invece di una categoria — sviluppando contemporaneamente il vocabolario visivo, l`ortografia e il ragionamento deduttivo.",
     },
     {
       question: "Quali sono i quattro livelli di difficoltà?",

@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: "Choisir les objets et les formes dans la bibliothèque",
         description:
-          "Ouvrez le panneau Bibliothèque d'Images et parcourez 104 thèmes pour les images d'objets — les éléments positionnés — puis choisissez parmi 8 formes géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) comme points de référence spatiale. Utilisez la barre de recherche pour trouver des images spécifiques instantanément. Configurez le style du texte avec sept polices dont Lexend Deca, Baloo 2 et Fredoka. Activez les champs nom et date de l'utilisateur, et téléchargez vos propres images personnalisées pour des fiches de marque.",
+          "Ouvrez le panneau Bibliothèque d`Images et parcourez 104 thèmes pour les images d'objets — les éléments positionnés — puis choisissez parmi 8 formes géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) comme points de référence spatiale. Utilisez la barre de recherche pour trouver des images spécifiques instantanément. Configurez le style du texte avec sept polices dont Lexend Deca, Baloo 2 et Fredoka. Activez les champs nom et date de l`utilisateur, et téléchargez vos propres images personnalisées pour des fiches de marque.",
       },
       {
         title: "Générer le corrigé et télécharger",
@@ -68,12 +68,12 @@ const content: AppContent = {
       {
         title: "Grammaire adaptée à chaque langue avec datif, élision et règles d'articles",
         description:
-          "L'Accès Complet déverrouille les 11 langues prises en charge, et chacune applique ses propres règles grammaticales aux phrases de prépositions. L'allemand utilise les contractions datives comme « im » (in dem) et « am » (an dem) avec des articles genrés (dem/der). Le français applique les règles d'élision, remplaçant « le » par « l' » devant les voyelles ou le h muet. L'espagnol et le portugais utilisent des articles genrés (el/la, o/a). Chaque phrase générée est grammaticalement correcte dans la langue cible — pas une traduction mot à mot — faisant de chaque version linguistique un produit véritablement commercialisable.",
+          "L`Accès Complet déverrouille les 11 langues prises en charge, et chacune applique ses propres règles grammaticales aux phrases de prépositions. L'allemand utilise les contractions datives comme « im » (in dem) et « am » (an dem) avec des articles genrés (dem/der). Le français applique les règles d'élision, remplaçant « le » par « l' » devant les voyelles ou le h muet. L`espagnol et le portugais utilisent des articles genrés (el/la, o/a). Chaque phrase générée est grammaticalement correcte dans la langue cible — pas une traduction mot à mot — faisant de chaque version linguistique un produit véritablement commercialisable.",
       },
       {
         title: "Objets + Formes : deux types d'images pour le contexte spatial",
         description:
-          "Chaque exercice positionne un objet (une illustration thématique comme un chat, une voiture ou une pomme) par rapport à une forme (cercle, cube, cylindre, cœur, hexagone, carré, étoile ou triangle). Ce système à deux images crée des relations spatiales claires et non ambiguës que les utilisateurs peuvent analyser d'un coup d'œil. Les objets proviennent de la bibliothèque de 104 thèmes avec plus de 3 100 illustrations, tandis que les 8 formes géométriques servent également d'initiation à la géométrie. Les noms des formes sont entièrement traduits dans les 11 langues avec les formes plurielles correctes.",
+          "Chaque exercice positionne un objet (une illustration thématique comme un chat, une voiture ou une pomme) par rapport à une forme (cercle, cube, cylindre, cœur, hexagone, carré, étoile ou triangle). Ce système à deux images crée des relations spatiales claires et non ambiguës que les utilisateurs peuvent analyser d`un coup d'œil. Les objets proviennent de la bibliothèque de 104 thèmes avec plus de 3 100 illustrations, tandis que les 8 formes géométriques servent également d`initiation à la géométrie. Les noms des formes sont entièrement traduits dans les 11 langues avec les formes plurielles correctes.",
       },
       {
         title: "Nombre d'exercices configurable de 1 à 8 par fiche",
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: "Export prêt à imprimer à 400+ DPI avec option niveaux de gris",
         description:
-          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d'export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l'export en niveaux de gris pour des versions économiques en encre, parfaites pour l'impression en volume ou les cahiers d'activités noir et blanc. Les formats Letter, A4, Carré et dimensions personnalisées sont tous pris en charge pour une flexibilité maximale sur les plateformes d'impression à la demande et les imprimantes domestiques.",
+          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d`export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l'export en niveaux de gris pour des versions économiques en encre, parfaites pour l'impression en volume ou les cahiers d'activités noir et blanc. Les formats Letter, A4, Carré et dimensions personnalisées sont tous pris en charge pour une flexibilité maximale sur les plateformes d`impression à la demande et les imprimantes domestiques.",
       },
       {
         title: "Édition complète du canevas avec annuler et rétablir",
@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: "Ateliers de langage différenciés pour Gumroad",
         description:
-          "Construisez des ensembles de prépositions à niveaux en utilisant le mode d'exercice comme axe de difficulté : Niveau 1 (Choix Multiple, 2 prépositions, 2 exercices par page), Niveau 2 (Choix Multiple, 5 prépositions, 4 exercices), Niveau 3 (Texte à Trous, 5 prépositions, 6 exercices), et Niveau 4 (Texte à Trous, les 8 prépositions, 8 exercices). Accompagnez chaque niveau de corrigés et d'une fiche de suivi de progression. Les acheteurs de Gumroad paient des prix premium pour des ressources de vocabulaire spatial différenciées qu'ils peuvent déployer immédiatement dans plusieurs groupes de niveau.",
+          "Construisez des ensembles de prépositions à niveaux en utilisant le mode d`exercice comme axe de difficulté : Niveau 1 (Choix Multiple, 2 prépositions, 2 exercices par page), Niveau 2 (Choix Multiple, 5 prépositions, 4 exercices), Niveau 3 (Texte à Trous, 5 prépositions, 6 exercices), et Niveau 4 (Texte à Trous, les 8 prépositions, 8 exercices). Accompagnez chaque niveau de corrigés et d'une fiche de suivi de progression. Les acheteurs de Gumroad paient des prix premium pour des ressources de vocabulaire spatial différenciées qu`ils peuvent déployer immédiatement dans plusieurs groupes de niveau.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Outil de vocabulaire spatial pour la vente et le soutien",
         description:
-          "Générez des fiches de prépositions personnalisées adaptées au niveau de vocabulaire spatial de chaque utilisateur. Utilisez la liste de prépositions pour cibler celles sur lesquelles un utilisateur a des difficultés, et ajustez le nombre d'exercices selon sa capacité d'attention. Commencez par le Choix Multiple pour les apprenants débutants et progressez vers le Texte à Trous pour les utilisateurs prêts à produire du langage de manière autonome. Imprimez des séries en quelques minutes pour des petits groupes ou des classes entières. Le corrigé automatique fait gagner du valeur perçue, et le format images-et-formes maintient l'engagement des jeunes apprenants avec le raisonnement spatial visuel.",
+          "Générez des fiches de prépositions personnalisées adaptées au niveau de vocabulaire spatial de chaque utilisateur. Utilisez la liste de prépositions pour cibler celles sur lesquelles un utilisateur a des difficultés, et ajustez le nombre d`exercices selon sa capacité d'attention. Commencez par le Choix Multiple pour les apprenants débutants et progressez vers le Texte à Trous pour les utilisateurs prêts à produire du langage de manière autonome. Imprimez des séries en quelques minutes pour des petits groupes ou des classes entières. Le corrigé automatique fait gagner du valeur perçue, et le format images-et-formes maintient l`engagement des jeunes apprenants avec le raisonnement spatial visuel.",
         platform: "Classe / Soutien scolaire / École à la maison",
       },
     ],
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Combien d'exercices puis-je mettre sur chaque fiche ?",
       answer:
-        "Vous pouvez définir de 1 à 8 exercices par fiche. Moins d'exercices créent des pages plus simples et moins chargées, idéales pour les jeunes utilisateurs ou la pratique ciblée. Plus d'exercices maximisent la densité de pratique pour les sessions de révision, les évaluations ou les devoirs. Varier le nombre d'exercices dans vos annonces vous aide également à créer des niveaux de prix distincts — une fiche d'introduction à un seul exercice comme point d'entrée à bas prix et un pack de révision complet à huit exercices à un prix premium.",
+        "Vous pouvez définir de 1 à 8 exercices par fiche. Moins d`exercices créent des pages plus simples et moins chargées, idéales pour les jeunes utilisateurs ou la pratique ciblée. Plus d'exercices maximisent la densité de pratique pour les sessions de révision, les évaluations ou les devoirs. Varier le nombre d'exercices dans vos annonces vous aide également à créer des niveaux de prix distincts — une fiche d'introduction à un seul exercice comme point d`entrée à bas prix et un pack de révision complet à huit exercices à un prix premium.",
     },
     {
       question: "Le Générateur de Fiches de Prépositions est-il sensible à la langue ?",
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne la gestion grammaticale dans les différentes langues ?",
       answer:
-        "Le générateur intègre un moteur grammatical pour chacune des 11 langues prises en charge. Il recherche l'article correct selon le genre du nom (important pour l'allemand, le français, l'espagnol, le portugais, l'italien), applique les règles du datif pour les prépositions allemandes, gère l'élision française où les articles se contractent devant les voyelles ou le h muet, et utilise les formes plurielles correctes pour les noms de formes. Le résultat est des phrases fluides dans chaque langue, pas des traductions littérales maladroites.",
+        "Le générateur intègre un moteur grammatical pour chacune des 11 langues prises en charge. Il recherche l`article correct selon le genre du nom (important pour l'allemand, le français, l'espagnol, le portugais, l'italien), applique les règles du datif pour les prépositions allemandes, gère l`élision française où les articles se contractent devant les voyelles ou le h muet, et utilise les formes plurielles correctes pour les noms de formes. Le résultat est des phrases fluides dans chaque langue, pas des traductions littérales maladroites.",
     },
     {
       question: "Comment fonctionne la liste de prépositions ?",

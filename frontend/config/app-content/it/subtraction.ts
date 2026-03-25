@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: "Intervalli numerici configurabili",
         description:
-          "Imposta il minuendo massimo da 2 a 20, con controllo totale sulla difficoltà. Il generatore garantisce che il sottraendo è sempre minore del minuendo, producendo risposte valide e non negative in tutti i casi. Crea schede semplici con un massimo di 5 per la scuola dell'infanzia, esercizi standard fino a 10 per la scuola primaria, o problemi più impegnativi fino a 20 per la prima e seconda elementare. La regolazione si fa con una sola modifica, permettendoti di differenziare l'insegnamento per un'intero catalogo in pochi minuti.",
+          "Imposta il minuendo massimo da 2 a 20, con controllo totale sulla difficoltà. Il generatore garantisce che il sottraendo è sempre minore del minuendo, producendo risposte valide e non negative in tutti i casi. Crea schede semplici con un massimo di 5 per la scuola dell`infanzia, esercizi standard fino a 10 per la scuola primaria, o problemi più impegnativi fino a 20 per la prima e seconda elementare. La regolazione si fa con una sola modifica, permettendoti di differenziare l'insegnamento per un`intero catalogo in pochi minuti.",
       },
       {
         title: "104 temi visivi con oltre 3100 immagini",
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: "Le schede di sottrazione dipendono dalla lingua?",
       answer:
-        "No. Le schede di sottrazione sono puramente visive — il contenuto matematico usa immagini, croci e numeri, non parole. Una scheda creata in una lingua funziona in tutte le lingue. L'impostazione della lingua modifica solo le etichette dell'interfaccia dell'applicazione, non il contenuto della scheda, rendendo i tuoi prodotti vendibili istantaneamente in tutto il mondo senza traduzione.",
+        "No. Le schede di sottrazione sono puramente visive — il contenuto matematico usa immagini, croci e numeri, non parole. Una scheda creata in una lingua funziona in tutte le lingue. L`impostazione della lingua modifica solo le etichette dell'interfaccia dell`applicazione, non il contenuto della scheda, rendendo i tuoi prodotti vendibili istantaneamente in tutto il mondo senza traduzione.",
     },
     {
       question: "Cos'è l'opzione di esportazione in scala di grigi?",

@@ -22,7 +22,7 @@ const content: BundleContent = {
   hero: {
     title: 'Pack Maîtrise Maths',
     tagline: "Six générateurs professionnels de fiches de maths dans un seul pack à prix réduit",
-    description: "Constituez une gamme complète de produits maths imprimables sans jongler entre plusieurs outils. Le Pack Maîtrise Maths réunit six générateurs spécialisés couvrant l'addition, la soustraction, les puzzles cryptarithmétiques de type code à décrypter, les comparaisons plus grand/plus petit, les puzzles-grilles mathématiques et les équations algébriques illustrées. Chaque générateur produit des fichiers PDF prêts à imprimer et des JPEG haute résolution avec corrigés automatiques, difficulté configurable et bibliothèques d'images thématiques. Cinq des six applications sont entièrement visuelles — les fiches produites fonctionnent dans toutes les langues car elles utilisent des images et des nombres plutôt que du texte. La sixième, Addition Codée, ajoute un mode Révélation de Mot sensible à la langue qui prend en charge les 11 langues d'interface. Choisissez parmi plus de 100 ensembles d'images thématiques ou importez vos propres fichiers PNG et JPEG pour des produits personnalisés et adaptés à votre niche. Que vous vendiez sur Etsy.fr, Amazon KDP ou Gumroad, ce pack vous offre la variété attendue par les acheteurs et la rapidité dont les vendeurs ont besoin. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez tester toutes les fonctionnalités avant d'acheter une licence.",
+    description: "Constituez une gamme complète de produits maths imprimables sans jongler entre plusieurs outils. Le Pack Maîtrise Maths réunit six générateurs spécialisés couvrant l`addition, la soustraction, les puzzles cryptarithmétiques de type code à décrypter, les comparaisons plus grand/plus petit, les puzzles-grilles mathématiques et les équations algébriques illustrées. Chaque générateur produit des fichiers PDF prêts à imprimer et des JPEG haute résolution avec corrigés automatiques, difficulté configurable et bibliothèques d'images thématiques. Cinq des six applications sont entièrement visuelles — les fiches produites fonctionnent dans toutes les langues car elles utilisent des images et des nombres plutôt que du texte. La sixième, Addition Codée, ajoute un mode Révélation de Mot sensible à la langue qui prend en charge les 11 langues d'interface. Choisissez parmi plus de 100 ensembles d'images thématiques ou importez vos propres fichiers PNG et JPEG pour des produits personnalisés et adaptés à votre niche. Que vous vendiez sur Etsy.fr, Amazon KDP ou Gumroad, ce pack vous offre la variété attendue par les acheteurs et la rapidité dont les vendeurs ont besoin. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez tester toutes les fonctionnalités avant d`acheter une licence.",
   },
 
   appsIncluded: [
@@ -35,8 +35,8 @@ const content: BundleContent = {
       description: "Générez des fiches visuelles de soustraction avec quatre modes incluant l'approche unique Barrer — les utilisateurs marquent physiquement les images pour trouver la différence, construisant une compréhension intuitive de la soustraction comme retrait. Les autres modes couvrent Image − Image, Image − Nombre, et formats Mixtes. Les plages de nombres configurables, le nombre d'exercices et les ensembles d'images thématiques offrent la même flexibilité que le générateur d'addition, avec une pédagogie spécifique à la soustraction intégrée. Le mode Barrer est particulièrement populaire auprès des entrepreneurs de la petite enfance car il transforme la soustraction en une activité pratique avec laquelle les utilisateurs peuvent interagir physiquement sur la page imprimée.",
     },
     {
-      title: 'Générateur d'Addition Codée',
-      description: "Produisez des puzzles cryptarithmétiques où les utilisateurs résolvent des équations d'addition pour décoder des lettres et révéler des mots cachés. C'est la seule application du pack avec une fonctionnalité sensible à la langue : le mode Révélation de Mot utilise des listes de vocabulaire dans les 11 langues prises en charge, de sorte que les mots décodés correspondent à la langue de la fiche. Le mode Code standard utilise un simple mappage lettre-nombre et fonctionne de manière identique dans toutes les langues. Réglez la difficulté avec les plages de nombres et le nombre d'équations par puzzle. Le format code à décrypter combine la pratique des maths avec la découverte de mots, en faisant un produit phare dans toute boutique de fiches de maths — les acheteurs évaluent systématiquement les fiches de type puzzle plus favorablement que les exercices répétitifs standard.",
+      title: `Générateur d'Addition Codée`,
+      description: "Produisez des puzzles cryptarithmétiques où les utilisateurs résolvent des équations d`addition pour décoder des lettres et révéler des mots cachés. C'est la seule application du pack avec une fonctionnalité sensible à la langue : le mode Révélation de Mot utilise des listes de vocabulaire dans les 11 langues prises en charge, de sorte que les mots décodés correspondent à la langue de la fiche. Le mode Code standard utilise un simple mappage lettre-nombre et fonctionne de manière identique dans toutes les langues. Réglez la difficulté avec les plages de nombres et le nombre d`équations par puzzle. Le format code à décrypter combine la pratique des maths avec la découverte de mots, en faisant un produit phare dans toute boutique de fiches de maths — les acheteurs évaluent systématiquement les fiches de type puzzle plus favorablement que les exercices répétitifs standard.",
     },
     {
       title: "Générateur de Fiches Plus ou Moins",
@@ -44,11 +44,11 @@ const content: BundleContent = {
     },
     {
       title: 'Générateur de Puzzles Maths',
-      description: "Créez des puzzles-grilles illustrés où les utilisateurs résolvent une équation mathématique sur chaque pièce de puzzle pour assembler l'image complète. Les grilles vont de 2×2 (4 pièces) pour les débutants jusqu'à 4×4 (16 pièces) pour les utilisateurs avancés. Chaque pièce affiche une équation — la réponse indique aux utilisateurs où la placer. Choisissez addition, soustraction ou opérations mixtes et réglez la plage de nombres selon le niveau ciblé. L'image à découvrir provient de la bibliothèque thématique ou de vos propres fichiers importés. Le format puzzle transforme les maths en jeu plutôt qu'en exercice — les utilisateurs sont motivés à résoudre chaque équation car la récompense est de voir l'image terminée.",
+      description: "Créez des puzzles-grilles illustrés où les utilisateurs résolvent une équation mathématique sur chaque pièce de puzzle pour assembler l`image complète. Les grilles vont de 2×2 (4 pièces) pour les débutants jusqu'à 4×4 (16 pièces) pour les utilisateurs avancés. Chaque pièce affiche une équation — la réponse indique aux utilisateurs où la placer. Choisissez addition, soustraction ou opérations mixtes et réglez la plage de nombres selon le niveau ciblé. L'image à découvrir provient de la bibliothèque thématique ou de vos propres fichiers importés. Le format puzzle transforme les maths en jeu plutôt qu'en exercice — les utilisateurs sont motivés à résoudre chaque équation car la récompense est de voir l`image terminée.",
     },
     {
       title: "Générateur de Puzzles Algébriques Illustrés",
-      description: "Générez des puzzles d'algèbre visuelle où des images thématiques remplacent les variables inconnues dans des systèmes d'équations liées. Les utilisateurs déterminent la valeur numérique que chaque image représente. Quatre niveaux de difficulté progressent de deux symboles avec addition simple jusqu'à quatre inconnues simultanées avec opérations mixtes. Un solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — pas d'ambiguïté, pas de puzzles insolubles. Choisissez entre Addition Uniquement ou Addition et Soustraction, activez les résultats négatifs pour les utilisateurs plus âgés, et contrôlez le nombre de puzzles par page de 1 à 6. Ce générateur fait le pont entre l'arithmétique de base et la pensée algébrique, en faisant un produit à forte valeur pour les vendeurs ciblant le CE1 et au-delà.",
+      description: "Générez des puzzles d`algèbre visuelle où des images thématiques remplacent les variables inconnues dans des systèmes d'équations liées. Les utilisateurs déterminent la valeur numérique que chaque image représente. Quatre niveaux de difficulté progressent de deux symboles avec addition simple jusqu'à quatre inconnues simultanées avec opérations mixtes. Un solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — pas d'ambiguïté, pas de puzzles insolubles. Choisissez entre Addition Uniquement ou Addition et Soustraction, activez les résultats négatifs pour les utilisateurs plus âgés, et contrôlez le nombre de puzzles par page de 1 à 6. Ce générateur fait le pont entre l`arithmétique de base et la pensée algébrique, en faisant un produit à forte valeur pour les vendeurs ciblant le CE1 et au-delà.",
     },
   ],
 
@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: "Import d'images personnalisées",
-      description: "Importez vos propres fichiers PNG ou JPEG dans n'importe quel générateur pour des fiches personnalisées et adaptées à votre niche. Créez des produits autour de thèmes tendance, d'événements saisonniers ou de demandes spécifiques de clients qu'aucun modèle préfabriqué ne peut égaler.",
+      description: "Importez vos propres fichiers PNG ou JPEG dans n`importe quel générateur pour des fiches personnalisées et adaptées à votre niche. Créez des produits autour de thèmes tendance, d'événements saisonniers ou de demandes spécifiques de clients qu`aucun modèle préfabriqué ne peut égaler.",
     },
     {
       title: 'Sortie prête à imprimer',
@@ -105,11 +105,11 @@ const content: BundleContent = {
     },
     {
       title: "Supports de soutien éducatif et d'instruction à domicile",
-      description: "Générez des fiches fraîches pour chaque séance de soutien ou semaine d'instruction à domicile. Variez la difficulté, le thème et le type d'exercice pour que les utilisateurs ne voient jamais la même page deux fois. Les corrigés permettent aux parents et aux tuteurs de vérifier le travail instantanément sans calculer les solutions manuellement. Commencez par le comptage d'addition simple pour les plus jeunes et progressez à travers la soustraction, la comparaison et les puzzles algébriques illustrés — le tout depuis le même pack. Les tuteurs qui suivent plusieurs utilisateurs peuvent générer des ensembles de fiches personnalisés adaptés au niveau de compétence et aux centres d'intérêt de chaque apprenant. Les familles en instruction à domicile bénéficient de la variété des six générateurs car elle prévient la lassitude des fiches répétitives qui fait souvent dérailler l'vente des maths à la maison.",
+      description: "Générez des fiches fraîches pour chaque séance de soutien ou semaine d`instruction à domicile. Variez la difficulté, le thème et le type d'exercice pour que les utilisateurs ne voient jamais la même page deux fois. Les corrigés permettent aux parents et aux tuteurs de vérifier le travail instantanément sans calculer les solutions manuellement. Commencez par le comptage d'addition simple pour les plus jeunes et progressez à travers la soustraction, la comparaison et les puzzles algébriques illustrés — le tout depuis le même pack. Les tuteurs qui suivent plusieurs utilisateurs peuvent générer des ensembles de fiches personnalisés adaptés au niveau de compétence et aux centres d'intérêt de chaque apprenant. Les familles en instruction à domicile bénéficient de la variété des six générateurs car elle prévient la lassitude des fiches répétitives qui fait souvent dérailler l`vente des maths à la maison.",
     },
     {
       title: "Vente de compléments commercials aux écoles",
-      description: "Les écoles et les circonscriptions achètent du matériel mathématique complémentaire en gros. Créez des packs de fiches alignés par niveau et proposez-les directement via votre site web ou les places de marché éducatives. La licence commerciale vous permet de vendre aux établissements sans restriction de copies. Compilez des fiches des six générateurs en kits complets par niveau couvrant l'ensemble des standards mathématiques du primaire. Les ventes au niveau d'une circonscription sont particulièrement lucratives car une seule décision d'achat peut couvrir plusieurs classes et niveaux, générant un revenu par transaction nettement supérieur aux ventes individuelles.",
+      description: "Les écoles et les circonscriptions achètent du matériel mathématique complémentaire en gros. Créez des packs de fiches alignés par niveau et proposez-les directement via votre site web ou les places de marché éducatives. La licence commerciale vous permet de vendre aux établissements sans restriction de copies. Compilez des fiches des six générateurs en kits complets par niveau couvrant l`ensemble des standards mathématiques du primaire. Les ventes au niveau d'une circonscription sont particulièrement lucratives car une seule décision d`achat peut couvrir plusieurs classes et niveaux, générant un revenu par transaction nettement supérieur aux ventes individuelles.",
       platform: 'Éducation',
     },
     {
@@ -120,12 +120,12 @@ const content: BundleContent = {
 
   featureComparison: [
     { feature: "Les 6 générateurs de fiches de maths", commercial: 'Oui', fullAccess: 'Oui' },
-    { feature: "Ensembles d'images thématiques", commercial: '10 thèmes', fullAccess: '104 thèmes' },
-    { feature: "Import d'images personnalisées (PNG/JPEG)", commercial: 'Oui', fullAccess: 'Oui' },
+    { feature: "Ensembles d`images thématiques", commercial: '10 thèmes', fullAccess: '104 thèmes` },
+    { feature: "Import d`images personnalisées (PNG/JPEG)", commercial: 'Oui', fullAccess: 'Oui` },
     { feature: 'Corrigés automatiques', commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Téléchargement PDF et JPEG', commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Droits de vente commerciale', commercial: 'Oui', fullAccess: 'Oui' },
-    { feature: 'Langues d'interface', commercial: 'Français uniquement', fullAccess: '11 langues' },
+    { feature: `Langues d'interface', commercial: 'Français uniquement', fullAccess: '11 langues` },
     { feature: "Langues Révélation de Mot Addition Codée", commercial: 'Français uniquement', fullAccess: '11 langues' },
     { feature: "Téléchargements sans filigrane", commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Mises à jour à vie', commercial: 'Oui', fullAccess: 'Oui' },
@@ -134,11 +134,11 @@ const content: BundleContent = {
   whoIsThisFor: [
     {
       title: "Vendeurs Etsy et KDP d'imprimables",
-      description: "Vous vendez des téléchargements numériques sur Etsy.fr ou publiez des cahiers sur Amazon KDP et cherchez un moyen rapide et fiable de produire des fiches de maths professionnelles à grande échelle. Le pack vous offre six générateurs et des centaines de combinaisons thématiques pour construire un catalogue de produits diversifié sans compétences en design ni logiciel coûteux. Créez de nouvelles annonces en minutes plutôt qu'en heures et gardez votre boutique approvisionnée en contenu frais et saisonnier toute l'année. L'approche à six générateurs signifie que vous ne serez jamais à court d'idées — quand un générateur a produit assez de fiches d'addition pour votre catalogue, passez à la soustraction, aux puzzles ou aux activités de comparaison et créez des annonces entièrement nouvelles avec un effort minimal. Les rotations thématiques saisonnières avec la bibliothèque d'images intégrée vous permettent de rafraîchir l'apparence de votre boutique chaque mois sans créer de produits de zéro.",
+      description: "Vous vendez des téléchargements numériques sur Etsy.fr ou publiez des cahiers sur Amazon KDP et cherchez un moyen rapide et fiable de produire des fiches de maths professionnelles à grande échelle. Le pack vous offre six générateurs et des centaines de combinaisons thématiques pour construire un catalogue de produits diversifié sans compétences en design ni logiciel coûteux. Créez de nouvelles annonces en minutes plutôt qu`en heures et gardez votre boutique approvisionnée en contenu frais et saisonnier toute l'année. L'approche à six générateurs signifie que vous ne serez jamais à court d'idées — quand un générateur a produit assez de fiches d'addition pour votre catalogue, passez à la soustraction, aux puzzles ou aux activités de comparaison et créez des annonces entièrement nouvelles avec un effort minimal. Les rotations thématiques saisonnières avec la bibliothèque d'images intégrée vous permettent de rafraîchir l`apparence de votre boutique chaque mois sans créer de produits de zéro.",
     },
     {
       title: 'Auteurs Gumroad',
-      description: "Vous créez et vendez des produits imprimables sur Gumroad et avez besoin d'outils qui correspondent aux attentes de la plateforme. Chaque générateur produit des fiches adaptées au marché avec des corrigés automatiques et plusieurs paramètres de difficulté — exactement ce que les acheteurs Gumroad attendent des ressources maths premium. Les quatre niveaux de difficulté par générateur facilitent la création de packs d'produits par niveau que les vendeurs recherchent par niveau et par compétence. Les acheteurs Gumroad attendent des produits soignés et prêts à l'emploi avec une présentation visuelle cohérente — le moteur de design partagé des six générateurs garantit que vos ressources maths maintiennent une apparence professionnelle cohérente qui construit la crédibilité de votre marque et génère des achats récurrents.",
+      description: "Vous créez et vendez des produits imprimables sur Gumroad et avez besoin d`outils qui correspondent aux attentes de la plateforme. Chaque générateur produit des fiches adaptées au marché avec des corrigés automatiques et plusieurs paramètres de difficulté — exactement ce que les acheteurs Gumroad attendent des ressources maths premium. Les quatre niveaux de difficulté par générateur facilitent la création de packs d'produits par niveau que les vendeurs recherchent par niveau et par compétence. Les acheteurs Gumroad attendent des produits soignés et prêts à l`emploi avec une présentation visuelle cohérente — le moteur de design partagé des six générateurs garantit que vos ressources maths maintiennent une apparence professionnelle cohérente qui construit la crédibilité de votre marque et génère des achats récurrents.",
     },
     {
       title: "Tuteurs et parents en instruction à domicile",
@@ -153,7 +153,7 @@ const content: BundleContent = {
   faq: [
     {
       question: "Puis-je essayer les générateurs avant d'acheter ?",
-      answer: "Oui. Chaque générateur du pack propose un essai gratuit avec filigrane et toutes les fonctionnalités. Vous pouvez configurer les paramètres, prévisualiser les fiches et télécharger les fichiers. Les téléchargements d'essai incluent un filigrane. L'achat d'une licence supprime le filigrane pour que vous puissiez vendre à titre commercial.",
+      answer: "Oui. Chaque générateur du pack propose un essai gratuit avec filigrane et toutes les fonctionnalités. Vous pouvez configurer les paramètres, prévisualiser les fiches et télécharger les fichiers. Les téléchargements d`essai incluent un filigrane. L'achat d`une licence supprime le filigrane pour que vous puissiez vendre à titre commercial.",
     },
     {
       question: "Quels formats puis-je télécharger ?",
@@ -177,7 +177,7 @@ const content: BundleContent = {
     },
     {
       question: "Puis-je vendre les fiches que je crée ?",
-      answer: "Oui. La Licence Commerciale comme l'Accès Complet incluent des droits de vente commerciale. Vous pouvez vendre les fiches que vous générez sur Etsy.fr, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Vous vendez les fiches — l'outil générateur lui-même n'est pas transférable.",
+      answer: "Oui. La Licence Commerciale comme l`Accès Complet incluent des droits de vente commerciale. Vous pouvez vendre les fiches que vous générez sur Etsy.fr, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Vous vendez les fiches — l'outil générateur lui-même n`est pas transférable.",
     },
     {
       question: "Combien de fiches puis-je créer ?",
@@ -189,7 +189,7 @@ const content: BundleContent = {
     },
     {
       question: "Combien de temps faut-il pour créer une gamme complète de produits maths avec ce pack ?",
-      answer: "La plupart des vendeurs construisent leur catalogue initial de produits maths en un seul week-end avec le pack. Chaque générateur produit une fiche terminée et prête à imprimer avec corrigé en moins d'une minute. Une session de production typique consiste à sélectionner un thème, configurer les paramètres de difficulté et générer un lot de dix à vingt fiches qui deviennent une annonce produit thématique. Avec six générateurs, vous pouvez créer six à douze annonces produits distinctes en une seule journée — assez pour lancer une boutique de fiches de maths crédible sur Etsy.fr ou Gumroad. Les vendeurs expérimentés rapportent qu'après avoir appris l'interface lors de leur première session, ils peuvent produire un pack maths thématique complet contenant des fiches de tous les six générateurs en moins de deux heures.",
+      answer: "La plupart des vendeurs construisent leur catalogue initial de produits maths en un seul week-end avec le pack. Chaque générateur produit une fiche terminée et prête à imprimer avec corrigé en moins d`une minute. Une session de production typique consiste à sélectionner un thème, configurer les paramètres de difficulté et générer un lot de dix à vingt fiches qui deviennent une annonce produit thématique. Avec six générateurs, vous pouvez créer six à douze annonces produits distinctes en une seule journée — assez pour lancer une boutique de fiches de maths crédible sur Etsy.fr ou Gumroad. Les vendeurs expérimentés rapportent qu'après avoir appris l`interface lors de leur première session, ils peuvent produire un pack maths thématique complet contenant des fiches de tous les six générateurs en moins de deux heures.",
     },
     {
       question: "Puis-je passer de la Licence Commerciale à l'Accès Complet plus tard ?",
@@ -202,16 +202,16 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: "Générateur de Fiches d'Addition — Tous les Détails" },
+    { pageType: `app', slug: 'addition-fiches', anchorText: "Générateur de Fiches d`Addition — Tous les Détails" },
     { pageType: 'app', slug: 'soustraction-fiches', anchorText: "Générateur de Fiches de Soustraction — Tous les Détails" },
-    { pageType: 'app', slug: 'addition-codee-fiches', anchorText: "Générateur d'Addition Codée — Tous les Détails" },
+    { pageType: `app', slug: 'addition-codee-fiches', anchorText: "Générateur d`Addition Codée — Tous les Détails" },
     { pageType: 'app', slug: 'comparaison-quantites-fiches', anchorText: "Générateur Plus ou Moins — Tous les Détails" },
     { pageType: 'app', slug: 'puzzle-maths-fiches', anchorText: "Générateur de Puzzles Maths — Tous les Détails" },
     { pageType: 'app', slug: 'exercices-maths-fiches', anchorText: "Générateur de Puzzles Algébriques Illustrés — Tous les Détails" },
     { pageType: 'guide', slug: 'vendre-fiches-maths-etsy', anchorText: "Guide pour vendre des fiches de maths sur Etsy" },
-    { pageType: 'guide', slug: 'livres-activites-maths-kdp', anchorText: "Livres d'activités maths sur Amazon KDP" },
+    { pageType: `guide', slug: 'livres-activites-maths-kdp', anchorText: "Livres d`activités maths sur Amazon KDP" },
     { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: "Créer des fiches qui se vendent" },
-    { pageType: 'idea', slug: 'bases-maths-idees-imprimables', anchorText: "Idées d'imprimables de faits mathématiques" },
+    { pageType: `idea', slug: 'bases-maths-idees-imprimables', anchorText: "Idées d`imprimables de faits mathématiques" },
   ],
 
   visuals: {
@@ -220,12 +220,12 @@ const content: BundleContent = {
       primaryAlt: "Fiche d'addition avec images thématiques montrant des exercices de comptage visuel",
     },
     sampleGallery: [
-      { src: "/samples/french/addition/Addition Amusant 1.webp", alt: "Fiche d'addition avec des images thématiques d'animaux", caption: 'Fiche d'Addition' },
+      { src: "/samples/french/addition/Addition Amusant 1.webp", alt: "Fiche d`addition avec des images thématiques d'animaux", caption: 'Fiche d'Addition` },
       { src: "/samples/french/subtraction/Soustractions Amusantes 1.webp", alt: "Fiche de soustraction avec comptage par barrage", caption: 'Fiche de Soustraction' },
-      { src: "/samples/french/code addition/Code Secret Addition 1.webp", alt: "Puzzle d'addition codée avec décodage de lettres", caption: 'Puzzle Addition Codée' },
+      { src: "/samples/french/code addition/Code Secret Addition 1.webp", alt: "Puzzle d`addition codée avec décodage de lettres", caption: 'Puzzle Addition Codée` },
       { src: "/samples/french/more less/Plus Moins 1.webp", alt: "Fiche de comparaison plus grand que plus petit que", caption: 'Fiche Plus ou Moins' },
       { src: "/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp", alt: "Puzzle-grille mathématique avec équations", caption: 'Fiche Puzzle Maths' },
-      { src: "/samples/french/math worksheet/Feuille de Mathématique 1.webp", alt: "Puzzle d'algèbre visuelle avec variables images", caption: 'Puzzle Algébrique Illustré' },
+      { src: "/samples/french/math worksheet/Feuille de Mathématique 1.webp", alt: "Puzzle d`algèbre visuelle avec variables images", caption: 'Puzzle Algébrique Illustré` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: "Pack Maîtrise Maths — Découvrez les 6 Générateurs en Action",

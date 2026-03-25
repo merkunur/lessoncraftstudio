@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Genera e scarica',
-        description: "Clicca \"Genera\" per creare la scheda con il treno dell'alfabeto. L'anteprima si aggiorna nell'area di lavoro. Attiva il toggle Scala di Grigi per un output in bianco e nero ideale per interni KDP. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. Genera un foglio delle risposte corrispondente che mostra ogni immagine indizio collegata al suo vagone corretto.",
+        description: "Clicca \"Genera\" per creare la scheda con il treno dell`alfabeto. L'anteprima si aggiorna nell`area di lavoro. Attiva il toggle Scala di Grigi per un output in bianco e nero ideale per interni KDP. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. Genera un foglio delle risposte corrispondente che mostra ogni immagine indizio collegata al suo vagone corretto.",
       },
     ],
   },
@@ -76,7 +76,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Prodotti alfabeto multilingue',
-      description: "Cambia l'impostazione della lingua e rigenera lo stesso modello di scheda in tutte le 11 lingue supportate. Lo strumento adatta automaticamente l'alfabeto, l'ordinamento delle lettere e le associazioni immagine-lettera per ogni lingua. Una sessione di design produce 11 prodotti distinti — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese — ciascuno pronto per la pubblicazione nel proprio marketplace locale.",
+      description: "Cambia l`impostazione della lingua e rigenera lo stesso modello di scheda in tutte le 11 lingue supportate. Lo strumento adatta automaticamente l'alfabeto, l`ordinamento delle lettere e le associazioni immagine-lettera per ogni lingua. Una sessione di design produce 11 prodotti distinti — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese — ciascuno pronto per la pubblicazione nel proprio marketplace locale.",
     },
     {
       title: "Schede personalizzate con immagini proprie",
@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'treno-alfabeto-schede', anchorText: "Treno dell'Alfabeto Schede — Dettagli Completi del Prodotto" },
+    { pageType: `app', slug: 'treno-alfabeto-schede', anchorText: "Treno dell`Alfabeto Schede — Dettagli Completi del Prodotto" },
     { pageType: 'tool', slug: "generatore-schede-preposizioni", anchorText: "Generatore Schede Preposizioni" },
     { pageType: 'tool', slug: 'generatore-indovina-parole', anchorText: 'Generatore Indovina Parole' },
     { pageType: 'tool', slug: 'generatore-parole-mescolate', anchorText: 'Generatore Parole Mescolate' },

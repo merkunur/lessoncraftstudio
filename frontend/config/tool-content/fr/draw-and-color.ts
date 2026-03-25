@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: "Créateur de Fiches Dessin sur Quadrillage",
     tagline: "Générez des fiches de dessin sur grille avec système de double grille, pourcentage d'indices réglable, trois modes symétrie et une sortie purement visuelle sans texte qui se vend dans le monde entier sans traduction",
-    description: "Concevez des fiches professionnelles de dessin sur quadrillage où les utilisateurs reproduisent une image de référence en la copiant cellule par cellule depuis une grille d'indices vers une grille de pratique vierge. Deux grilles apparaissent par image sélectionnée : une Grille de Pratique avec des cellules vides où les utilisateurs dessinent, et une Grille d'Indices montrant un pourcentage configurable de l'image de référence comme indices visuels. Ajustez le pourcentage d'indices de 10 % à 75 % pour contrôler la difficulté — moins d'indices signifie des exercices plus difficiles exigeant une observation plus fine. Configurez les dimensions de la grille de 3×3 (9 cellules) à 10×10 (100 cellules), avec les lignes et colonnes réglables indépendamment. Trois modes de symétrie ajoutent une dimension de raisonnement spatial : Aléatoire disperse les indices dans des positions arbitraires, Horizontal reflète les indices de gauche à droite, et Vertical reflète les indices de haut en bas, chacun avec un sélecteur de partie à révéler contrôlant quelle moitié est montrée. Le contenu provient de la bibliothèque intégrée de thèmes de contours noir et blanc avec plus de 100 collections comportant plus de 3 000 illustrations N&B spécifiquement conçues pour le dessin et le coloriage — des contours nets que les utilisateurs reproduisent puis colorient, pas des thèmes en couleur. C'est une application purement visuelle : les fiches ne contiennent que des images en grille avec zéro texte, les rendant universellement vendables sans traduction. Aucun corrigé séparé n'existe car la grille d'indices elle-même sert de solution de référence. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. L'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
+    description: "Concevez des fiches professionnelles de dessin sur quadrillage où les utilisateurs reproduisent une image de référence en la copiant cellule par cellule depuis une grille d`indices vers une grille de pratique vierge. Deux grilles apparaissent par image sélectionnée : une Grille de Pratique avec des cellules vides où les utilisateurs dessinent, et une Grille d'Indices montrant un pourcentage configurable de l'image de référence comme indices visuels. Ajustez le pourcentage d'indices de 10 % à 75 % pour contrôler la difficulté — moins d'indices signifie des exercices plus difficiles exigeant une observation plus fine. Configurez les dimensions de la grille de 3×3 (9 cellules) à 10×10 (100 cellules), avec les lignes et colonnes réglables indépendamment. Trois modes de symétrie ajoutent une dimension de raisonnement spatial : Aléatoire disperse les indices dans des positions arbitraires, Horizontal reflète les indices de gauche à droite, et Vertical reflète les indices de haut en bas, chacun avec un sélecteur de partie à révéler contrôlant quelle moitié est montrée. Le contenu provient de la bibliothèque intégrée de thèmes de contours noir et blanc avec plus de 100 collections comportant plus de 3 000 illustrations N&B spécifiquement conçues pour le dessin et le coloriage — des contours nets que les utilisateurs reproduisent puis colorient, pas des thèmes en couleur. C'est une application purement visuelle : les fiches ne contiennent que des images en grille avec zéro texte, les rendant universellement vendables sans traduction. Aucun corrigé séparé n'existe car la grille d'indices elle-même sert de solution de référence. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. L`essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Dessin sur Quadrillage",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de dessin sur quadrillage immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de dessin sur quadrillage immédiatement.",
       },
       {
         title: "Définir la Mise en Page et l'Arrière-Plan",
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: "Configurer les Dimensions de la Grille",
-        description: "Définissez les lignes (3 à 10) et les colonnes (3 à 10) de la grille indépendamment pour contrôler le nombre de cellules et le rapport d'aspect. Une grille 3×3 avec 9 grandes cellules est facile pour les débutants et les jeunes utilisateurs. Une grille 10×10 avec 100 petites cellules met au défi les utilisateurs avancés exigeant une reproduction précise. Les grilles non carrées comme 4×6 ou 8×5 s'adaptent aux différents rapports d'aspect des images. La taille de grille constitue l'un des deux axes de difficulté indépendants aux côtés du pourcentage d'indices.",
+        description: "Définissez les lignes (3 à 10) et les colonnes (3 à 10) de la grille indépendamment pour contrôler le nombre de cellules et le rapport d`aspect. Une grille 3×3 avec 9 grandes cellules est facile pour les débutants et les jeunes utilisateurs. Une grille 10×10 avec 100 petites cellules met au défi les utilisateurs avancés exigeant une reproduction précise. Les grilles non carrées comme 4×6 ou 8×5 s'adaptent aux différents rapports d'aspect des images. La taille de grille constitue l'un des deux axes de difficulté indépendants aux côtés du pourcentage d`indices.",
       },
       {
         title: "Régler le Pourcentage d'Indices",
-        description: "Ajustez le curseur du pourcentage d'indices de 10 % à 75 % pour contrôler quelle fraction de l'image de référence est révélée dans la grille d'indices. À 75 %, la majeure partie des cellules montre l'image et les utilisateurs complètent le quart restant — parfait pour les débutants qui construisent leur confiance. À 50 %, la moitié des cellules est visible pour un défi modéré. À 25 %, les utilisateurs travaillent à partir de fragments dispersés. À 10 %, à peine une référence est visible et les utilisateurs reconstruisent l'image presque à partir de zéro — un véritable casse-tête même pour les adultes. Ce curseur unique crée une courbe de difficulté progressive pour toute votre gamme de produits.",
+        description: "Ajustez le curseur du pourcentage d`indices de 10 % à 75 % pour contrôler quelle fraction de l'image de référence est révélée dans la grille d'indices. À 75 %, la majeure partie des cellules montre l'image et les utilisateurs complètent le quart restant — parfait pour les débutants qui construisent leur confiance. À 50 %, la moitié des cellules est visible pour un défi modéré. À 25 %, les utilisateurs travaillent à partir de fragments dispersés. À 10 %, à peine une référence est visible et les utilisateurs reconstruisent l`image presque à partir de zéro — un véritable casse-tête même pour les adultes. Ce curseur unique crée une courbe de difficulté progressive pour toute votre gamme de produits.",
       },
       {
         title: 'Choisir un Mode de Symétrie',
@@ -49,11 +49,11 @@ const content: ToolContent = {
       },
       {
         title: "Sélectionner une Image de Contour N&B ou Téléverser la Vôtre",
-        description: "Parcourez plus de 100 collections de thèmes de contours N&B avec plus de 3 000 illustrations en noir et blanc organisées par catégorie — animaux, véhicules, nourriture, nature, métiers, fêtes et des dizaines d'autres. Chaque thème fournit des dessins de contours nets spécifiquement conçus pour la reproduction cellule par cellule et le coloriage ensuite. Utilisez la fonction de recherche pour trouver des images spécifiques dans tous les thèmes. Ou téléversez votre propre image personnalisée pour créer des exercices de grille à partir de n'importe quelle source. Les images sélectionnées sont automatiquement traitées dans le format double grille avec votre pourcentage d'indices et vos réglages de symétrie configurés.",
+        description: "Parcourez plus de 100 collections de thèmes de contours N&B avec plus de 3 000 illustrations en noir et blanc organisées par catégorie — animaux, véhicules, nourriture, nature, métiers, fêtes et des dizaines d`autres. Chaque thème fournit des dessins de contours nets spécifiquement conçus pour la reproduction cellule par cellule et le coloriage ensuite. Utilisez la fonction de recherche pour trouver des images spécifiques dans tous les thèmes. Ou téléversez votre propre image personnalisée pour créer des exercices de grille à partir de n'importe quelle source. Les images sélectionnées sont automatiquement traitées dans le format double grille avec votre pourcentage d`indices et vos réglages de symétrie configurés.",
       },
       {
         title: "Ajouter du Texte et Personnaliser le Canevas",
-        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. Activez l'option champs nom/date pour les zones d'identification de l'utilisateur. L'en-tête auto-généré s'adapte à la langue sélectionnée. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js. Les outils d'alignement placent les éléments en position, les contrôles de verrouillage/déverrouillage protègent les éléments terminés pendant que vous en éditez d'autres, et l'annulation et le rétablissement illimités vous permettent d'expérimenter librement.",
+        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. Activez l`option champs nom/date pour les zones d'identification de l'utilisateur. L'en-tête auto-généré s'adapte à la langue sélectionnée. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js. Les outils d'alignement placent les éléments en position, les contrôles de verrouillage/déverrouillage protègent les éléments terminés pendant que vous en éditez d'autres, et l'annulation et le rétablissement illimités vous permettent d`expérimenter librement.",
       },
       {
         title: "Activer les Niveaux de Gris et Télécharger",
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: "Packs de Dessin sur Grille à Difficulté Progressive",
-      description: "Créez des packs de dessin thématiques avec 15 à 25 fiches qui progressent du facile à l'expert en utilisant le pourcentage d'indices comme axe de difficulté. Commencez chaque pack à 75 % d'indices avec des grilles 4×4 pour des échauffements accessibles, progressez à travers 50 % d'indices sur des grilles 6×6 pour des défis modérés, et terminez à 10–15 % d'indices avec des grilles 8×8 ou 10×10 pour une reproduction de niveau expert. Le style contours N&B invite au coloriage après le dessin, ajoutant une couche d'activité supplémentaire qui augmente la valeur perçue. Le format double grille — grille de pratique plus grille d'indices sur chaque page — différencie vos produits des simples pages de coloriage et justifie des prix plus élevés sur Etsy.fr.",
+      description: "Créez des packs de dessin thématiques avec 15 à 25 fiches qui progressent du facile à l`expert en utilisant le pourcentage d'indices comme axe de difficulté. Commencez chaque pack à 75 % d'indices avec des grilles 4×4 pour des échauffements accessibles, progressez à travers 50 % d'indices sur des grilles 6×6 pour des défis modérés, et terminez à 10–15 % d'indices avec des grilles 8×8 ou 10×10 pour une reproduction de niveau expert. Le style contours N&B invite au coloriage après le dessin, ajoutant une couche d'activité supplémentaire qui augmente la valeur perçue. Le format double grille — grille de pratique plus grille d`indices sur chaque page — différencie vos produits des simples pages de coloriage et justifie des prix plus élevés sur Etsy.fr.",
     },
     {
       title: "Cahiers de Compétences en Dessin pour KDP",
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: "Exercices sur Grille avec Images Personnalisées",
-      description: "Téléversez des images personnalisées pour créer des fiches de dessin sur grille destinées à des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des diagrammes de plantes pour les sciences, des dessins architecturaux pour les cours de design, des formes géométriques pour l'intégration mathématique ou des artefacts historiques pour l'histoire-géographie. Le pourcentage d'indices réglable adapte la difficulté à n'importe quel groupe d'âge, et les modes de symétrie ajoutent du raisonnement spatial aux contenus thématiques. Les exercices avec images personnalisées remplissent des niches de marché sur Etsy.fr et Gumroad que les thèmes standard ne peuvent pas atteindre.",
+      description: "Téléversez des images personnalisées pour créer des fiches de dessin sur grille destinées à des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des diagrammes de plantes pour les sciences, des dessins architecturaux pour les cours de design, des formes géométriques pour l`intégration mathématique ou des artefacts historiques pour l'histoire-géographie. Le pourcentage d'indices réglable adapte la difficulté à n'importe quel groupe d`âge, et les modes de symétrie ajoutent du raisonnement spatial aux contenus thématiques. Les exercices avec images personnalisées remplissent des niches de marché sur Etsy.fr et Gumroad que les thèmes standard ne peuvent pas atteindre.",
     },
     {
       title: "Lots Multi-Formats d'Apprentissage Visuel",
-      description: "Associez les fiches de dessin sur grille avec des pages de coloriage, des fiches de graphisme, des fiches de séquences logiques et des fiches d'association en utilisant des thèmes N&B coordonnés. Le dessin sur grille développe la reproduction spatiale cellule par cellule. Les pages de coloriage construisent la reconnaissance des couleurs et la motricité fine. Les fiches de graphisme entraînent le contrôle du crayon. Chaque format exerce une compétence visuo-motrice différente. Les lots multi-formats se vendent plus cher qu'un seul type d'activité et offrent aux utilisateurs une pratique variée avec un thème unifié à travers chaque activité.",
+      description: "Associez les fiches de dessin sur grille avec des pages de coloriage, des fiches de graphisme, des fiches de séquences logiques et des fiches d`association en utilisant des thèmes N&B coordonnés. Le dessin sur grille développe la reproduction spatiale cellule par cellule. Les pages de coloriage construisent la reconnaissance des couleurs et la motricité fine. Les fiches de graphisme entraînent le contrôle du crayon. Chaque format exerce une compétence visuo-motrice différente. Les lots multi-formats se vendent plus cher qu'un seul type d`activité et offrent aux utilisateurs une pratique variée avec un thème unifié à travers chaque activité.",
     },
   ],
 
   businessIdeas: [
     {
       title: "Boutique Etsy de Dessin sur Grille par Niveau de Difficulté",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches de dessin sur quadrillage organisées par niveau de difficulté en utilisant le pourcentage d'indices comme différenciateur principal. Les packs Facile présentent 75 % d'indices avec des grilles 4×4 pour les jeunes apprenants. Les packs Moyen utilisent 40–50 % d'indices avec des grilles 6×6 pour les dessinateurs confirmés. Les packs Difficile descendent à 15–25 % d'indices avec des grilles 8×8 pour les défis avancés. Les packs Expert poussent à 10 % d'indices avec des grilles 10×10 pour les adultes. Le format double grille crée un produit premium qui se distingue des simples pages de coloriage. Prix : packs thématiques individuels à 3 €–5 € et lots progressifs multi-difficulté à 12 €–18 €.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches de dessin sur quadrillage organisées par niveau de difficulté en utilisant le pourcentage d`indices comme différenciateur principal. Les packs Facile présentent 75 % d'indices avec des grilles 4×4 pour les jeunes apprenants. Les packs Moyen utilisent 40–50 % d'indices avec des grilles 6×6 pour les dessinateurs confirmés. Les packs Difficile descendent à 15–25 % d'indices avec des grilles 8×8 pour les défis avancés. Les packs Expert poussent à 10 % d`indices avec des grilles 10×10 pour les adultes. Le format double grille crée un produit premium qui se distingue des simples pages de coloriage. Prix : packs thématiques individuels à 3 €–5 € et lots progressifs multi-difficulté à 12 €–18 €.",
       platform: 'Etsy.fr',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: "Tunnel de Vente Pinterest pour Dessin sur Grille",
-      description: "Les fiches de dessin sur grille avec leur mise en page distinctive à double grille font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d'exemple avec filigrane montrant différents pourcentages d'indices et modes de symétrie, renvoyez vers votre boutique Etsy.fr ou page d'atterrissage, et collectez des adresses e-mail pour votre liste d'abonnés. Créez des séries d'épingles distinctes pour « dessin sur grille pour enfants », « fiches de symétrie » et « reproduction cellule par cellule ». Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.",
+      description: "Les fiches de dessin sur grille avec leur mise en page distinctive à double grille font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d`exemple avec filigrane montrant différents pourcentages d'indices et modes de symétrie, renvoyez vers votre boutique Etsy.fr ou page d'atterrissage, et collectez des adresses e-mail pour votre liste d'abonnés. Créez des séries d`épingles distinctes pour « dessin sur grille pour enfants », « fiches de symétrie » et « reproduction cellule par cellule ». Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.",
       platform: 'Pinterest',
     },
     {
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez les Niveaux de Gris pour KDP et l'impression en volume",
-      description: "Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l'impression en volume en ligne. Les thèmes de contours N&B sont intrinsèquement adaptés à l'export en niveaux de gris — les lignes nettes se reproduisent parfaitement en noir et blanc. Réservez les fonds en couleur pour les aperçus de listings Etsy.fr où l'attrait visuel génère des clics dans les résultats de recherche.",
+      description: "Activez les niveaux de gris pour les fiches destinées aux intérieurs Amazon KDP ou à l`impression en volume en ligne. Les thèmes de contours N&B sont intrinsèquement adaptés à l'export en niveaux de gris — les lignes nettes se reproduisent parfaitement en noir et blanc. Réservez les fonds en couleur pour les aperçus de listings Etsy.fr où l`attrait visuel génère des clics dans les résultats de recherche.",
     },
     {
       title: "Combinez le Dessin sur Grille avec d'Autres Outils Visuels pour des Lots Premium",
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L'outil propose un essai gratuit avec toutes les fonctionnalités — toutes les tailles de grille, tous les pourcentages d'indices, tous les modes de symétrie, la bibliothèque de thèmes N&B, le téléversement d'images personnalisées et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l'essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — toutes les tailles de grille, tous les pourcentages d'indices, tous les modes de symétrie, la bibliothèque de thèmes N&B, le téléversement d'images personnalisées et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Comment fonctionne le système de double grille ?",
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: "Que contrôle le curseur du pourcentage d'indices ?",
-      answer: "Le pourcentage d'indices (10 %–75 %) détermine quelle fraction des cellules de la grille d'indices révèle l'image de référence. À 75 %, trois quarts des cellules montrent l'image et les utilisateurs ne complètent que le quart restant. À 50 %, la moitié des cellules est visible pour un défi modéré. À 25 %, les utilisateurs reconstruisent à partir de fragments dispersés. À 10 %, à peine une référence est visible pour un défi maximum. Un pourcentage d'indices plus faible signifie des exercices plus difficiles. Ce curseur et la taille de grille ensemble créent deux axes de difficulté indépendants.",
+      answer: "Le pourcentage d`indices (10 %–75 %) détermine quelle fraction des cellules de la grille d'indices révèle l'image de référence. À 75 %, trois quarts des cellules montrent l'image et les utilisateurs ne complètent que le quart restant. À 50 %, la moitié des cellules est visible pour un défi modéré. À 25 %, les utilisateurs reconstruisent à partir de fragments dispersés. À 10 %, à peine une référence est visible pour un défi maximum. Un pourcentage d`indices plus faible signifie des exercices plus difficiles. Ce curseur et la taille de grille ensemble créent deux axes de difficulté indépendants.",
     },
     {
       question: "Comment fonctionnent les modes symétrie et miroir ?",
@@ -207,7 +207,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: "Créateur de Fiches de Graphisme" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
   ],
 

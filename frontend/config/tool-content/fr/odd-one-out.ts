@@ -33,15 +33,15 @@ const content: ToolContent = {
       },
       {
         title: "Choisir Votre Mode de Génération",
-        description: "Ouvrez le panneau Configuration des Exercices et sélectionnez un mode de génération global. Le mode Identique place trois clones de la même image à côté d'une image différente du même thème — les utilisateurs repèrent le non-doublon en comparant les détails visuels fins. Le mode Similaire utilise trois images du Thème A et une image du Thème B — les utilisateurs identifient l'intrus thématique en reconnaissant les différences catégorielles. Chaque mode crée un défi cognitif fondamentalement différent à partir de la même bibliothèque d'images, choisissez donc en fonction du niveau de difficulté et de la compétence visée pour votre produit.",
+        description: "Ouvrez le panneau Configuration des Exercices et sélectionnez un mode de génération global. Le mode Identique place trois clones de la même image à côté d`une image différente du même thème — les utilisateurs repèrent le non-doublon en comparant les détails visuels fins. Le mode Similaire utilise trois images du Thème A et une image du Thème B — les utilisateurs identifient l'intrus thématique en reconnaissant les différences catégorielles. Chaque mode crée un défi cognitif fondamentalement différent à partir de la même bibliothèque d`images, choisissez donc en fonction du niveau de difficulté et de la compétence visée pour votre produit.",
       },
       {
         title: "Définir le Nombre d'Exercices et les Remplacements par Exercice",
-        description: "Définissez le nombre d'exercices de 5 à 10 (6 par défaut) pour contrôler combien de rangées apparaissent sur la fiche. Chaque exercice contient toujours exactement 4 images — 3 éléments communs et 1 élément intrus. Pour des fiches à difficulté mixte, utilisez le sélecteur déroulant de mode par exercice sur chaque rangée pour remplacer le mode global — commencez avec des exercices Identiques faciles en haut et passez à des exercices Similaires plus difficiles vers le bas. Le bouton « Effacer les Sélections » réinitialise tous les remplacements au réglage global. Activez les champs nom/date pour le suivi en ligne et les numéros d'exercices (25px de largeur, 15px d'écart) pour une référence facile.",
+        description: "Définissez le nombre d`exercices de 5 à 10 (6 par défaut) pour contrôler combien de rangées apparaissent sur la fiche. Chaque exercice contient toujours exactement 4 images — 3 éléments communs et 1 élément intrus. Pour des fiches à difficulté mixte, utilisez le sélecteur déroulant de mode par exercice sur chaque rangée pour remplacer le mode global — commencez avec des exercices Identiques faciles en haut et passez à des exercices Similaires plus difficiles vers le bas. Le bouton « Effacer les Sélections » réinitialise tous les remplacements au réglage global. Activez les champs nom/date pour le suivi en ligne et les numéros d'exercices (25px de largeur, 15px d`écart) pour une référence facile.",
       },
       {
         title: "Sélectionner les Thèmes et Images dans la Bibliothèque",
-        description: "Ouvrez le panneau Bibliothèque d'Images et choisissez le Thème A dans le menu déroulant — il fournit les trois images communes en mode Similaire. Choisissez le Thème B pour l'élément intrus en mode Similaire (par exemple, Thème A = animaux, Thème B = nourriture). Parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées, ou recherchez par mot-clé. Les images se chargent avec un chargement paresseux (20 à la fois) pour une navigation fluide. En mode Identique, un seul thème est nécessaire puisque les clones communs et l'image intrus proviennent de la même collection. Vous pouvez aussi importer vos propres images PNG, JPG ou GIF via le panneau d'Import d'Images Personnalisées.",
+        description: "Ouvrez le panneau Bibliothèque d`Images et choisissez le Thème A dans le menu déroulant — il fournit les trois images communes en mode Similaire. Choisissez le Thème B pour l'élément intrus en mode Similaire (par exemple, Thème A = animaux, Thème B = nourriture). Parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées, ou recherchez par mot-clé. Les images se chargent avec un chargement paresseux (20 à la fois) pour une navigation fluide. En mode Identique, un seul thème est nécessaire puisque les clones communs et l'image intrus proviennent de la même collection. Vous pouvez aussi importer vos propres images PNG, JPG ou GIF via le panneau d'Import d`Images Personnalisées.",
       },
       {
         title: "Définir la Mise en Page et les Décorations",
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: "Pages de Puzzles Progressifs à Difficulté Mixte",
-      description: "Utilisez le remplacement du mode par exercice pour créer des fiches à difficulté progressive qui servent plusieurs niveaux de compétence sur une seule page. Commencez avec 3 exercices en mode Identique en haut pour l'échauffement, puis passez à 3 exercices en mode Similaire en bas pour le défi principal. Les parents et vendeurs paient des prix premium pour des fiches avec une différenciation intégrée car elles servent une tranche d'âge et un spectre de compétences plus larges. Le bouton « Effacer les Sélections » facilite l'expérimentation avec différentes combinaisons de modes avant de fixer le mélange final pour votre produit.",
+      description: "Utilisez le remplacement du mode par exercice pour créer des fiches à difficulté progressive qui servent plusieurs niveaux de compétence sur une seule page. Commencez avec 3 exercices en mode Identique en haut pour l`échauffement, puis passez à 3 exercices en mode Similaire en bas pour le défi principal. Les parents et vendeurs paient des prix premium pour des fiches avec une différenciation intégrée car elles servent une tranche d'âge et un spectre de compétences plus larges. Le bouton « Effacer les Sélections » facilite l`expérimentation avec différentes combinaisons de modes avant de fixer le mélange final pour votre produit.",
     },
     {
       title: "Collections Intrus Saisonnières",
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Packs d'Activités Intrus en ligne sur Gumroad",
-      description: "Téléversez des packs d'activités intrus sur Gumroad avec les champs nom/date, les numéros d'exercices et les corrigés auto-générés comme arguments de vente principaux. Les vendeurs recherchant des activités de pensée critique et de discrimination visuelle apprécient les fiches qui arrivent prêtes à l'emploi. Créez des ensembles alignés sur le programme : classification animale pour les sciences, tri de groupes alimentaires pour la nutrition, identification des métiers pour les études sociales. Chaque pack inclut des versions en mode Identique pour l'enseignement guidé et des versions en mode Similaire pour le défi autonome — le remplacement par exercice permet de combiner les deux sur une seule page pour l'offres groupées par niveau.",
+      description: "Téléversez des packs d`activités intrus sur Gumroad avec les champs nom/date, les numéros d'exercices et les corrigés auto-générés comme arguments de vente principaux. Les vendeurs recherchant des activités de pensée critique et de discrimination visuelle apprécient les fiches qui arrivent prêtes à l'emploi. Créez des ensembles alignés sur le programme : classification animale pour les sciences, tri de groupes alimentaires pour la nutrition, identification des métiers pour les études sociales. Chaque pack inclut des versions en mode Identique pour l'enseignement guidé et des versions en mode Similaire pour le défi autonome — le remplacement par exercice permet de combiner les deux sur une seule page pour l`offres groupées par niveau.",
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: "Choisissez des Associations de Thèmes Distinctives pour le Mode Similaire",
-      description: "La qualité des puzzles en mode Similaire dépend de la clarté avec laquelle l'élément intrus se distingue des trois éléments communs. Choisissez des associations thématiques avec des différences catégorielles évidentes pour les jeunes apprenants — animaux contre véhicules, nourriture contre outils, nature contre bâtiments. Pour des produits avancés, utilisez des associations plus subtiles où les thèmes partagent des similitudes visuelles — animaux de la ferme contre animaux du zoo, fruits contre légumes, activités d'été contre activités d'hiver. Le système à deux thèmes vous permet de contrôler la difficulté par la sélection thématique seule, sans changer aucun autre réglage.",
+      description: "La qualité des puzzles en mode Similaire dépend de la clarté avec laquelle l`élément intrus se distingue des trois éléments communs. Choisissez des associations thématiques avec des différences catégorielles évidentes pour les jeunes apprenants — animaux contre véhicules, nourriture contre outils, nature contre bâtiments. Pour des produits avancés, utilisez des associations plus subtiles où les thèmes partagent des similitudes visuelles — animaux de la ferme contre animaux du zoo, fruits contre légumes, activités d'été contre activités d`hiver. Le système à deux thèmes vous permet de contrôler la difficulté par la sélection thématique seule, sans changer aucun autre réglage.",
     },
     {
       title: "Utilisez les Remplacements par Exercice pour une Difficulté Progressive Premium",
-      description: "Le sélecteur déroulant de mode par exercice crée des fiches à difficulté progressive qui servent plusieurs niveaux de compétence sur une seule page. Commencez avec 2–3 exercices Identiques pour l'échauffement (repérer le non-doublon), puis passez à 3–4 exercices Similaires pour le défi principal (identifier l'intrus thématique). Les parents et vendeurs paient des prix premium pour des fiches avec une différenciation intégrée. Étiquetez vos listings produits comme « difficulté progressive » ou « défi progressif » pour attirer les acheteurs qui valorisent le contenu multi-niveaux. Le bouton « Effacer les Sélections » rend l'expérimentation rapide.",
+      description: "Le sélecteur déroulant de mode par exercice crée des fiches à difficulté progressive qui servent plusieurs niveaux de compétence sur une seule page. Commencez avec 2–3 exercices Identiques pour l`échauffement (repérer le non-doublon), puis passez à 3–4 exercices Similaires pour le défi principal (identifier l'intrus thématique). Les parents et vendeurs paient des prix premium pour des fiches avec une différenciation intégrée. Étiquetez vos listings produits comme « difficulté progressive » ou « défi progressif » pour attirer les acheteurs qui valorisent le contenu multi-niveaux. Le bouton « Effacer les Sélections » rend l`expérimentation rapide.",
     },
     {
       title: "Exploitez le Format Purement Visuel pour des Ventes Mondiales",
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez le Mode Niveaux de Gris pour des Produits Économiques en ligne",
-      description: "Activez les niveaux de gris pour créer des fiches intrus économiques en encre spécifiquement pour le marché de votre boutique et de l'enseignement à domicile. De nombreux vendeurs impriment les fiches en noir et blanc et apprécient les produits optimisés pour la sortie en niveaux de gris. Créez des lots double format qui incluent les versions couleur et niveaux de gris des mêmes fiches — les acheteurs perçoivent cela comme le double de valeur. Les intérieurs KDP en impression à la demande bénéficient aussi de l'optimisation niveaux de gris puisque l'impression couleur coûte significativement plus cher.",
+      description: "Activez les niveaux de gris pour créer des fiches intrus économiques en encre spécifiquement pour le marché de votre boutique et de l`enseignement à domicile. De nombreux vendeurs impriment les fiches en noir et blanc et apprécient les produits optimisés pour la sortie en niveaux de gris. Créez des lots double format qui incluent les versions couleur et niveaux de gris des mêmes fiches — les acheteurs perçoivent cela comme le double de valeur. Les intérieurs KDP en impression à la demande bénéficient aussi de l'optimisation niveaux de gris puisque l`impression couleur coûte significativement plus cher.",
     },
     {
       title: "Incluez les Corrigés dans Chaque Aperçu de Listing pour Surpasser la Concurrence",
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L'outil propose un essai gratuit avec toutes les fonctionnalités — les deux modes de génération (Identique et Similaire), les remplacements de mode par exercice avec réinitialisation Effacer les Sélections, le nombre d'exercices configurable (5–10), le corrigé auto-généré avec marqueurs cercle rouge, le système à deux thèmes, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'importation d'images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, les numéros d'exercices, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l'essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les deux modes de génération (Identique et Similaire), les remplacements de mode par exercice avec réinitialisation Effacer les Sélections, le nombre d'exercices configurable (5–10), le corrigé auto-généré avec marqueurs cercle rouge, le système à deux thèmes, les 104 collections d'images thématiques avec plus de 3 100 illustrations, l'importation d'images personnalisées, les thèmes de fond et de bordure avec opacité indépendante, les champs nom/date, les numéros d'exercices, le mode niveaux de gris et tous les formats de téléchargement. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les deux modes de génération ?",
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le système à deux thèmes en mode Similaire ?",
-      answer: "En mode Similaire, vous sélectionnez deux thèmes dans les menus déroulants. Le Thème A fournit les trois images communes pour chaque exercice (par exemple, animaux), et le Thème B fournit l'élément intrus unique (par exemple, nourriture). Cela garantit que l'élément intrus est toujours thématiquement distinct, créant des puzzles clairs et pédagogiquement significatifs. Choisissez n'importe quelle combinaison parmi les 104 thèmes disponibles — animaux contre véhicules, nourriture contre outils, nature contre bâtiments, et des milliers d'autres associations. En mode Identique, un seul thème est nécessaire puisque les clones communs et l'image intrus proviennent de la même collection.",
+      answer: "En mode Similaire, vous sélectionnez deux thèmes dans les menus déroulants. Le Thème A fournit les trois images communes pour chaque exercice (par exemple, animaux), et le Thème B fournit l`élément intrus unique (par exemple, nourriture). Cela garantit que l'élément intrus est toujours thématiquement distinct, créant des puzzles clairs et pédagogiquement significatifs. Choisissez n'importe quelle combinaison parmi les 104 thèmes disponibles — animaux contre véhicules, nourriture contre outils, nature contre bâtiments, et des milliers d'autres associations. En mode Identique, un seul thème est nécessaire puisque les clones communs et l`image intrus proviennent de la même collection.",
     },
     {
       question: "Combien d'exercices puis-je inclure sur une fiche ?",
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: "Puis-je ajouter des champs nom/date et des numéros d'exercices ?",
-      answer: "Oui. Activez la case « Inclure les Champs Nom/Date » pour ajouter des lignes nom et date pour le suivi en ligne. Activez « Inclure les Numéros d'Exercices » pour afficher les numéros sur le côté gauche de chaque carte d'exercice — les numéros utilisent une largeur de 25px avec un écart de 15px du contenu de la carte. Les numéros d'exercices facilitent la correction en ligne et permettent aux vendeurs de référencer des rangées spécifiques lors de la discussion. Les deux options sont indépendantes et peuvent être activées ensemble ou séparément.",
+      answer: "Oui. Activez la case « Inclure les Champs Nom/Date » pour ajouter des lignes nom et date pour le suivi en ligne. Activez « Inclure les Numéros d`Exercices » pour afficher les numéros sur le côté gauche de chaque carte d'exercice — les numéros utilisent une largeur de 25px avec un écart de 15px du contenu de la carte. Les numéros d`exercices facilitent la correction en ligne et permettent aux vendeurs de référencer des rangées spécifiques lors de la discussion. Les deux options sont indépendantes et peuvent être activées ensemble ou séparément.",
     },
     {
       question: "Le Créateur de Fiches Intrus est-il sensible à la langue ?",
-      answer: "Non. Les fiches intrus sont un format de puzzle purement visuel — aucun texte n'apparaît sur le contenu de la fiche. Les quatre images par rangée, les marqueurs cercle rouge sur le corrigé et la disposition des exercices sont tous universels. Le seul élément dépendant de la langue est le texte d'en-tête auto-généré (« Trouve l'Intrus »), localisé dans les 11 langues prises en charge. Cela rend les fiches intrus universellement vendables dans tous les marchés sans traduction — un seul jeu de puzzles sert chaque place de marché internationale.",
+      answer: "Non. Les fiches intrus sont un format de puzzle purement visuel — aucun texte n`apparaît sur le contenu de la fiche. Les quatre images par rangée, les marqueurs cercle rouge sur le corrigé et la disposition des exercices sont tous universels. Le seul élément dépendant de la langue est le texte d'en-tête auto-généré (« Trouve l`Intrus »), localisé dans les 11 langues prises en charge. Cela rend les fiches intrus universellement vendables dans tous les marchés sans traduction — un seul jeu de puzzles sert chaque place de marché internationale.",
     },
     {
       question: "Quels formats de page et d'export sont disponibles ?",
@@ -196,11 +196,11 @@ const content: ToolContent = {
     },
     {
       question: "Peut-on vendre des fiches intrus créées avec cet outil à usage commercial ?",
-      answer: "Oui. Avec une licence commerciale, vous avez tous les droits pour vendre des fiches intrus en téléchargements numériques sur Etsy, cahiers de discrimination visuelle imprimés sur Amazon KDP, ressources de classe sur Gumroad ou via tout autre canal de vente. Les deux modes de génération, les remplacements par exercice, le système à deux thèmes, les corrigés auto-générés avec marqueurs cercle rouge, l'importation d'images personnalisées et les 104 collections d'images thématiques vous donnent tout le nécessaire pour créer des produits de fiches intrus professionnels compétitifs dans les catégories de puzzles visuels sur toutes les grandes places de marché.",
+      answer: "Oui. Avec une licence commerciale, vous avez tous les droits pour vendre des fiches intrus en téléchargements numériques sur Etsy, cahiers de discrimination visuelle imprimés sur Amazon KDP, ressources de classe sur Gumroad ou via tout autre canal de vente. Les deux modes de génération, les remplacements par exercice, le système à deux thèmes, les corrigés auto-générés avec marqueurs cercle rouge, l`importation d'images personnalisées et les 104 collections d`images thématiques vous donnent tout le nécessaire pour créer des produits de fiches intrus professionnels compétitifs dans les catégories de puzzles visuels sur toutes les grandes places de marché.",
     },
     {
       question: "Quelle est votre politique de remboursement ?",
-      answer: "Essayez avant d'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux deux modes de génération, aux remplacements par exercice, au système à deux thèmes, aux nombres d'exercices configurables, au corrigé auto-généré avec marqueurs cercle rouge, aux 104 thèmes, à l'importation d'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, aux numéros d'exercices, à l'export en niveaux de gris et à tous les formats de téléchargement, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d'acheter.",
+      answer: "Essayez avant d`acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l'outil avant d'acheter. Comme l'essai gratuit vous donne un accès complet aux deux modes de génération, aux remplacements par exercice, au système à deux thèmes, aux nombres d'exercices configurables, au corrigé auto-généré avec marqueurs cercle rouge, aux 104 thèmes, à l'importation d'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, aux numéros d'exercices, à l'export en niveaux de gris et à tous les formats de téléchargement, nous n'offrons pas de remboursement sur les achats de licence. Assurez-vous que l'outil répond à vos besoins en utilisant l'essai gratuit avant d`acheter.",
     },
   ],
 
@@ -209,8 +209,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: "Créateur de Puzzles Pièces Manquantes" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d'Association" },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches de Tri d'Images" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool', slug: 'generateur-tri-images', anchorText: "Créateur de Fiches de Tri d`Images" },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],
@@ -233,7 +233,7 @@ const content: ToolContent = {
       },
       {
         src: "/samples/french/odd one out/Trouve l'Intrus 1 answer-key.webp",
-        alt: "Corrigé intrus avec des contours de cercle rouge dessinés autour de l'élément intrus dans chaque rangée d'exercice avec largeur de trait proportionnelle à la taille de l'image",
+        alt: "Corrigé intrus avec des contours de cercle rouge dessinés autour de l`élément intrus dans chaque rangée d'exercice avec largeur de trait proportionnelle à la taille de l`image",
         caption: "Corrigé auto-généré — les marqueurs cercle rouge (trait = max(taille de l'image × 0,04, 3px)) identifient l'élément intrus dans chaque rangée",
       },
     ],

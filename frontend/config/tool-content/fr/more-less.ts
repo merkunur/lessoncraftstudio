@@ -29,22 +29,22 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Générateur de Fiches",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches Plus ou Moins. L'outil s'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l'aperçu en temps réel. Aucun compte ni téléchargement requis.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches Plus ou Moins. L`outil s'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l`aperçu en temps réel. Aucun compte ni téléchargement requis.",
       },
       {
-        title: 'Choisir le Mode d'Exercice',
-        description: "Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi trois modes : Image contre Image (deux groupes d'images côte à côte — les utilisateurs comptent et comparent les quantités), Image contre Nombre (un groupe d'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) ou Cocher et Barrer les Groupes (une boîte contenant 8–20 images mélangées de deux catégories — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire). Le mode Cocher et Barrer est unique à cet outil et permet de créer des produits qu'aucun concurrent ne peut égaler.",
+        title: `Choisir le Mode d'Exercice`,
+        description: "Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi trois modes : Image contre Image (deux groupes d`images côte à côte — les utilisateurs comptent et comparent les quantités), Image contre Nombre (un groupe d'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) ou Cocher et Barrer les Groupes (une boîte contenant 8–20 images mélangées de deux catégories — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire). Le mode Cocher et Barrer est unique à cet outil et permet de créer des produits qu`aucun concurrent ne peut égaler.",
       },
       {
         title: 'Définir la Plage de Nombres',
-        description: "Utilisez les curseurs min et max pour contrôler combien d'éléments apparaissent par groupe (plage : 1–10). Pour les tout-petits, gardez une plage étroite (1–5). Les enfants de maternelle gèrent bien 1–10. Le nombre d'exercices par page s'ajuste automatiquement : 1–8 pour les modes standards et 1–3 pour Cocher et Barrer en raison de son empreinte visuelle plus grande.",
+        description: "Utilisez les curseurs min et max pour contrôler combien d`éléments apparaissent par groupe (plage : 1–10). Pour les tout-petits, gardez une plage étroite (1–5). Les enfants de maternelle gèrent bien 1–10. Le nombre d'exercices par page s`ajuste automatiquement : 1–8 pour les modes standards et 1–3 pour Cocher et Barrer en raison de son empreinte visuelle plus grande.",
       },
       {
         title: "Configurer l'Affichage des Symboles",
         description: "Choisissez entre Symboles Illustrés et Symboles Normaux pour les signes de comparaison. Les Symboles Illustrés montrent des versions colorées et adaptées aux enfants des signes plus grand que, plus petit que et égal — idéaux pour les produits maternelle et grande section. Les Symboles Normaux affichent les caractères standards > < = pour les utilisateurs plus âgés qui passent à la notation mathématique conventionnelle.",
       },
       {
-        title: 'Régler la Variété d'Images',
+        title: `Régler la Variété d'Images`,
         description: "Basculez entre Images Identiques et Images Différentes. Le mode Images Identiques montre les mêmes éléments dans les deux groupes (5 chats contre 7 chats), concentrant l'attention uniquement sur la quantité. Le mode Images Différentes utilise des images distinctes par groupe (5 chats contre 7 chiens), ajoutant de l'intérêt visuel et empêchant les utilisateurs de se fier à l'apparence plutôt qu'au comptage.",
       },
       {
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: "Cahiers de Comparaison pour KDP",
-      description: "Générez 50–100 pages d'exercices de comparaison de nombres dans les trois modes, exportez en PDF haute résolution et publiez comme cahier d'activités low-content sur Amazon KDP. Utilisez le format carré (1200×1200) pour les cahiers d'activités KDP et mélangez les modes pour varier les chapitres. Organisez votre cahier avec une progression claire : commencez avec les exercices Image contre Image pour les petites plages, avancez vers Image contre Nombre au milieu et terminez avec les défis Cocher et Barrer aux plages supérieures. Cette approche structurée séduit les parents qui cherchent des ressources complètes de préparation aux maths.",
+      description: "Générez 50–100 pages d`exercices de comparaison de nombres dans les trois modes, exportez en PDF haute résolution et publiez comme cahier d'activités low-content sur Amazon KDP. Utilisez le format carré (1200×1200) pour les cahiers d`activités KDP et mélangez les modes pour varier les chapitres. Organisez votre cahier avec une progression claire : commencez avec les exercices Image contre Image pour les petites plages, avancez vers Image contre Nombre au milieu et terminez avec les défis Cocher et Barrer aux plages supérieures. Cette approche structurée séduit les parents qui cherchent des ressources complètes de préparation aux maths.",
     },
     {
       title: "Ensembles Différenciés pour la vente",
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: "Boutique de Fiches de Comparaison sur Etsy.fr",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches plus grand que, plus petit que et égal. Le format visuel est très recherché par les parents et vendeurs car il rend la comparaison abstraite concrète. Créez 15–20 packs thématiques entre 3 € et 5 € chacun. Comme les fiches sont purement visuelles, listez chaque produit sur plusieurs marchés Etsy sans traduction. Concentrez votre identité de boutique sur les fiches de maths pour jeunes enfants et faites la promotion croisée avec des packs d'addition et de soustraction pour fidéliser vos clients. L'algorithme d'Etsy récompense les boutiques avec plusieurs listings liés, donc construire un catalogue de 20–30 packs de comparaison sur différents thèmes augmente considérablement votre visibilité dans les résultats de recherche.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches plus grand que, plus petit que et égal. Le format visuel est très recherché par les parents et vendeurs car il rend la comparaison abstraite concrète. Créez 15–20 packs thématiques entre 3 € et 5 € chacun. Comme les fiches sont purement visuelles, listez chaque produit sur plusieurs marchés Etsy sans traduction. Concentrez votre identité de boutique sur les fiches de maths pour jeunes enfants et faites la promotion croisée avec des packs d`addition et de soustraction pour fidéliser vos clients. L'algorithme d`Etsy récompense les boutiques avec plusieurs listings liés, donc construire un catalogue de 20–30 packs de comparaison sur différents thèmes augmente considérablement votre visibilité dans les résultats de recherche.",
       platform: 'Etsy.fr',
     },
     {
@@ -102,12 +102,12 @@ const content: ToolContent = {
     },
     {
       title: "Cahiers de Sens des Nombres sur Amazon KDP",
-      description: "Compilez plus de 60 pages d'exercices de comparaison dans un cahier d'activités physique. Mélangez les modes Image contre Image, Image contre Nombre et Cocher et Barrer pour la variété. Fixez le prix entre 6,99 € et 9,99 € et laissez Amazon gérer l'impression et la livraison. Le format Cocher et Barrer se photographie particulièrement bien pour les images de listing KDP car il est visuellement distinctif.",
+      description: "Compilez plus de 60 pages d`exercices de comparaison dans un cahier d'activités physique. Mélangez les modes Image contre Image, Image contre Nombre et Cocher et Barrer pour la variété. Fixez le prix entre 6,99 € et 9,99 € et laissez Amazon gérer l`impression et la livraison. Le format Cocher et Barrer se photographie particulièrement bien pour les images de listing KDP car il est visuellement distinctif.",
       platform: 'Amazon KDP',
     },
     {
       title: "Pack catalogue de produits de Comparaison sur Gumroad",
-      description: "Créez un catalogue de produits de comparaison structuré sur 10 semaines avec difficulté progressive — commencez avec Image contre Image à la plage 1–4, progressez jusqu'à Cocher et Barrer à la plage 1–10. Vendez en téléchargement numérique premium sur Gumroad. Les parents qui font l'instruction à domicile recherchent activement des programmes de maths complets et pratiques. Incluez un suivi de progression imprimable et une fiche d'instructions parent pour justifier un prix premium entre 12 € et 19 €. Les packs catalogue de produits structurés commandent des prix plus élevés que les packs de fiches individuels car ils font gagner aux parents des heures de planification de cours.",
+      description: "Créez un catalogue de produits de comparaison structuré sur 10 semaines avec difficulté progressive — commencez avec Image contre Image à la plage 1–4, progressez jusqu`à Cocher et Barrer à la plage 1–10. Vendez en téléchargement numérique premium sur Gumroad. Les parents qui font l'instruction à domicile recherchent activement des programmes de maths complets et pratiques. Incluez un suivi de progression imprimable et une fiche d`instructions parent pour justifier un prix premium entre 12 € et 19 €. Les packs catalogue de produits structurés commandent des prix plus élevés que les packs de fiches individuels car ils font gagner aux parents des heures de planification de cours.",
       platform: 'Gumroad',
     },
     {
@@ -128,7 +128,7 @@ const content: ToolContent = {
     },
     {
       title: "Modulez la Difficulté avec la Variété d'Images",
-      description: "Le mode Images Identiques (5 chats contre 7 chats) est plus facile car les utilisateurs n'ont qu'à compter. Le mode Images Différentes (5 chats contre 7 chiens) est plus difficile car les utilisateurs doivent compter deux groupes distincts et résister à la distraction de l'apparence. Utilisez ce basculement pour créer des versions facile et défi à partir des mêmes réglages.",
+      description: "Le mode Images Identiques (5 chats contre 7 chats) est plus facile car les utilisateurs n`ont qu'à compter. Le mode Images Différentes (5 chats contre 7 chiens) est plus difficile car les utilisateurs doivent compter deux groupes distincts et résister à la distraction de l`apparence. Utilisez ce basculement pour créer des versions facile et défi à partir des mêmes réglages.",
     },
     {
       title: "Le Mode Cocher et Barrer Est Votre Argument de Vente Unique",
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: "Cliquez sur « Générer le Corrigé » avant de télécharger. Pour les fiches de comparaison, le corrigé montre le symbole correct (>, < ou =) pour chaque exercice. Les acheteurs sur Etsy et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Pour le mode Cocher et Barrer, le corrigé indique clairement quel groupe d'images est le majoritaire et lequel est le minoritaire, faisant gagner un temps précieux de correction aux vendeurs. Inclure des corrigés rend aussi vos produits adaptés à l'apprentissage autonome et aux devoirs où les parents doivent vérifier l'exactitude sans expertise en maths.",
+      description: "Cliquez sur « Générer le Corrigé » avant de télécharger. Pour les fiches de comparaison, le corrigé montre le symbole correct (>, < ou =) pour chaque exercice. Les acheteurs sur Etsy et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Pour le mode Cocher et Barrer, le corrigé indique clairement quel groupe d`images est le majoritaire et lequel est le minoritaire, faisant gagner un temps précieux de correction aux vendeurs. Inclure des corrigés rend aussi vos produits adaptés à l'apprentissage autonome et aux devoirs où les parents doivent vérifier l`exactitude sans expertise en maths.",
     },
   ],
 
@@ -175,11 +175,11 @@ const content: ToolContent = {
     },
     {
       question: "Puis-je utiliser les fiches à des fins commerciales ?",
-      answer: "L'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez. Il n'y a aucune limite sur le nombre de fiches que vous pouvez générer ou le nombre de plateformes sur lesquelles vous pouvez vendre avec une licence commerciale. Vous conservez la pleine propriété des fiches que vous créez et pouvez les modifier, regrouper et repriser comme vous le souhaitez.",
+      answer: "L`essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez. Il n`y a aucune limite sur le nombre de fiches que vous pouvez générer ou le nombre de plateformes sur lesquelles vous pouvez vendre avec une licence commerciale. Vous conservez la pleine propriété des fiches que vous créez et pouvez les modifier, regrouper et repriser comme vous le souhaitez.",
     },
     {
       question: "Les fiches fonctionnent-elles dans d'autres langues que le français ?",
-      answer: "Oui — et c'est un avantage majeur. Comme les fiches de comparaison n'utilisent que des images, des nombres et des symboles, elles sont complètement indépendantes de la langue. Les fiches que vous créez fonctionnent identiquement dans les 11 langues prises en charge. Vous pouvez vendre le même produit aux acheteurs de n'importe quel pays sans traduction.",
+      answer: "Oui — et c`est un avantage majeur. Comme les fiches de comparaison n'utilisent que des images, des nombres et des symboles, elles sont complètement indépendantes de la langue. Les fiches que vous créez fonctionnent identiquement dans les 11 langues prises en charge. Vous pouvez vendre le même produit aux acheteurs de n`importe quel pays sans traduction.",
     },
     {
       question: "Quels formats de fichiers puis-je télécharger ?",
@@ -197,12 +197,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'comparaison-quantites-fiches', anchorText: "Fiches Plus ou Moins — Détails Complets du Produit" },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d'Addition" },
+    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
-    { pageType: 'tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée' },
+    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée` },
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: 'Générateur de Puzzles Maths' },
-    { pageType: 'tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d'Exercices de Maths" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Générateur de Fiches Grand et Petit" },
   ],
 

@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: "Scegli la Modalità di Esercizio e Configura le Opzioni",
         description:
-          "Apri il pannello Configurazione Esercizio e seleziona la tua modalità: Abbinamento Ombre o Completa l'Immagine. La modalità Abbinamento Ombre genera silhouette nere dalle immagini selezionate tramite elaborazione a livello di pixel. La modalità Completa l'Immagine divide le immagini in metà — scegli la direzione di taglio orizzontale (sopra/sotto) o verticale (sinistra/destra) con i pulsanti radio che appaiono in questa modalità. Attiva o disattiva la casella «Mostra Etichette» (attiva per impostazione predefinita) per visualizzare gli identificativi A/B/C/D e 1/2/3/4 nella scheda. Attiva «Includi Campi Nome/Data» per aggiungere righe per nome e data dell'utente.",
+          "Apri il pannello Configurazione Esercizio e seleziona la tua modalità: Abbinamento Ombre o Completa l`Immagine. La modalità Abbinamento Ombre genera silhouette nere dalle immagini selezionate tramite elaborazione a livello di pixel. La modalità Completa l'Immagine divide le immagini in metà — scegli la direzione di taglio orizzontale (sopra/sotto) o verticale (sinistra/destra) con i pulsanti radio che appaiono in questa modalità. Attiva o disattiva la casella «Mostra Etichette» (attiva per impostazione predefinita) per visualizzare gli identificativi A/B/C/D e 1/2/3/4 nella scheda. Attiva «Includi Campi Nome/Data» per aggiungere righe per nome e data dell`utente.",
       },
       {
         title: "Seleziona 4 Immagini dalla Libreria",
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: "Genera la Scheda di Abbinamento Ombre",
         description:
-          "Clicca su Genera per creare la scheda di corrispondenza. Nella modalità Abbinamento Ombre, l'app elabora ogni immagine a livello di pixel — la carica su un canvas, estrae i dati dei pixel tramite getImageData e converte ogni pixel con alpha > 10 in nero puro (R=0, G=0, B=0, A=255) per produrre silhouette precise. Nella modalità Completa l'Immagine, le immagini vengono divise lungo la direzione di taglio scelta. Entrambe le modalità applicano un derangement Fisher-Yates per garantire che nessun elemento appaia nella sua posizione originale. Un'intestazione stilizzata appare con sfondo ambra (#FFC107), contenitore bianco a pillola e bordo ambra di 3 px mostrando «Abbinamento Ombre» e istruzioni nella lingua selezionata.",
+          "Clicca su Genera per creare la scheda di corrispondenza. Nella modalità Abbinamento Ombre, l`app elabora ogni immagine a livello di pixel — la carica su un canvas, estrae i dati dei pixel tramite getImageData e converte ogni pixel con alpha > 10 in nero puro (R=0, G=0, B=0, A=255) per produrre silhouette precise. Nella modalità Completa l'Immagine, le immagini vengono divise lungo la direzione di taglio scelta. Entrambe le modalità applicano un derangement Fisher-Yates per garantire che nessun elemento appaia nella sua posizione originale. Un`intestazione stilizzata appare con sfondo ambra (#FFC107), contenitore bianco a pillola e bordo ambra di 3 px mostrando «Abbinamento Ombre» e istruzioni nella lingua selezionata.",
       },
       {
         title: 'Genera le Risposte e Scarica',
         description:
-          "Passa alla scheda Risposte per visualizzare le risposte auto-generate. Nella modalità Abbinamento Ombre, ogni cella mostra l'immagine originale accanto alla sua silhouette con un'etichetta come «A → 2» che indica la corrispondenza corretta. Nella modalità Completa l'Immagine, ogni cella mostra l'immagine originale completa con la sua etichetta di corrispondenza. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
+          "Passa alla scheda Risposte per visualizzare le risposte auto-generate. Nella modalità Abbinamento Ombre, ogni cella mostra l`immagine originale accanto alla sua silhouette con un'etichetta come «A → 2» che indica la corrispondenza corretta. Nella modalità Completa l'Immagine, ogni cella mostra l'immagine originale completa con la sua etichetta di corrispondenza. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d`inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
       },
     ],
   },
@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: "Attività Rapide di Fine Lezione per Gumroad",
         description:
-          "Crea attività di abbinamento ombre pronte all'uso con campi nome/data e risposte stampate per l'uso online. i venditori che cercano esercizi di discriminazione visiva apprezzano schede che arrivano pronte per la stampa. Crea set collegati al catalogo prodotti: corrispondenza di ombre di animali per scienze, silhouette di professioni per studi sociali, puzzle di ombre di cibi per educazione alimentare. L'opzione etichette ti permette di creare versioni guidate (con etichette A/B/C/D e 1/2/3/4) e versioni sfida (etichette nascoste) nello stesso prodotto per pacchetti scalati per livello.",
+          "Crea attività di abbinamento ombre pronte all`uso con campi nome/data e risposte stampate per l'uso online. i venditori che cercano esercizi di discriminazione visiva apprezzano schede che arrivano pronte per la stampa. Crea set collegati al catalogo prodotti: corrispondenza di ombre di animali per scienze, silhouette di professioni per studi sociali, puzzle di ombre di cibi per educazione alimentare. L`opzione etichette ti permette di creare versioni guidate (con etichette A/B/C/D e 1/2/3/4) e versioni sfida (etichette nascoste) nello stesso prodotto per pacchetti scalati per livello.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Come funzionano i campi nome e data?",
       answer:
-        "Attiva la casella «Includi Campi Nome/Data» nel pannello Configurazione Esercizio per aggiungere righe per nome e data nella parte inferiore della scheda. Quando attiva, gli utenti possono scrivere il loro nome e la data direttamente sulla pagina stampata — essenziale per la responsabilità online e l'organizzazione delle valutazioni. Quando disattivata, la scheda utilizza l'intera area della pagina per il contenuto di corrispondenza. Questa opzione funziona con entrambe le modalità, Abbinamento Ombre e Completa l'Immagine.",
+        "Attiva la casella «Includi Campi Nome/Data» nel pannello Configurazione Esercizio per aggiungere righe per nome e data nella parte inferiore della scheda. Quando attiva, gli utenti possono scrivere il loro nome e la data direttamente sulla pagina stampata — essenziale per la responsabilità online e l`organizzazione delle valutazioni. Quando disattivata, la scheda utilizza l'intera area della pagina per il contenuto di corrispondenza. Questa opzione funziona con entrambe le modalità, Abbinamento Ombre e Completa l`Immagine.",
     },
     {
       question: "Come funzionano le risposte auto-generate?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il Generatore di Abbinamento Ombre è sensibile alla lingua?",
       answer:
-        "No. L'Abbinamento Ombre è puramente visivo — il risultato della scheda contiene solo immagini, silhouette e metà divise, senza contenuto testuale localizzato. L'interfaccia dell'app (menu, pulsanti, testo dell'intestazione) supporta tutte le 11 lingue, ma la scheda generata funziona in modo identico indipendentemente dalla selezione della lingua. Questo rende le schede di abbinamento ombre universalmente vendibili su tutti i mercati senza traduzione. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue di interfaccia.",
+        "No. L`Abbinamento Ombre è puramente visivo — il risultato della scheda contiene solo immagini, silhouette e metà divise, senza contenuto testuale localizzato. L'interfaccia dell'app (menu, pulsanti, testo dell'intestazione) supporta tutte le 11 lingue, ma la scheda generata funziona in modo identico indipendentemente dalla selezione della lingua. Questo rende le schede di abbinamento ombre universalmente vendibili su tutti i mercati senza traduzione. La Licenza Commerciale include 10 temi colorati; l`Accesso Completo sblocca tutti i 104 temi e le 11 lingue di interfaccia.",
     },
     {
       question: "Posso vendere schede di abbinamento ombre create con questo strumento su Etsy e Amazon KDP?",

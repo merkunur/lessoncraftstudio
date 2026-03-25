@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: "Gumroad Compleet Vreemde Eend Toolkit",
-      description: "Bundel welke hoort er niet bij werkbladen over alle 104 thema's en beide generatiemodi tot een uitgebreid toolkit op Gumroad. Neem 300+ werkbladen op die Identiek modus, Vergelijkbaar modus en gemengde-modus progressieve-moeilijkheid pagina's bestrijken — drie werkbladtypen vanuit elke themacombinatie. Elk werkblad bevat zijn automatisch gegenereerd antwoordblad met rode cirkelmarkeringen, waardoor je bestandstelling verdubbelt tot 600+ bestanden totaal. Het per-oefening overschrijvingssysteem betekent dat zelfs enkele pagina's meer variatie en waargenomen waarde bevatten dan concurrenten die eenvoudige enkele-modus puzzels aanbieden. Het toolkit-formaat rechtvaardigt premiumprijzen.",
+      description: "Bundel welke hoort er niet bij werkbladen over alle 104 thema`s en beide generatiemodi tot een uitgebreid toolkit op Gumroad. Neem 300+ werkbladen op die Identiek modus, Vergelijkbaar modus en gemengde-modus progressieve-moeilijkheid pagina's bestrijken — drie werkbladtypen vanuit elke themacombinatie. Elk werkblad bevat zijn automatisch gegenereerd antwoordblad met rode cirkelmarkeringen, waardoor je bestandstelling verdubbelt tot 600+ bestanden totaal. Het per-oefening overschrijvingssysteem betekent dat zelfs enkele pagina`s meer variatie en waargenomen waarde bevatten dan concurrenten die eenvoudige enkele-modus puzzels aanbieden. Het toolkit-formaat rechtvaardigt premiumprijzen.",
       platform: 'Gumroad',
     },
     {
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: "Hoe werkt het twee-thema systeem in Vergelijkbaar modus?",
-      answer: "In Vergelijkbaar modus selecteer je twee thema's uit de dropdown-menu's. Thema A levert de drie gemeenschappelijke afbeeldingen voor elke oefening (bijv. dieren), en Thema B levert het enkele vreemde item (bijv. eten). Dit garandeert dat het vreemde item altijd thematisch onderscheidend is, waardoor duidelijke en educatief betekenisvolle puzzels ontstaan. Kies uit elke combinatie van de 104 beschikbare thema's — dieren versus voertuigen, eten versus gereedschap, natuur versus gebouwen, en duizenden meer combinaties. In Identiek modus is slechts één thema nodig aangezien zowel de gemeenschappelijke klonen als het vreemde item uit dezelfde collectie komen.",
+      answer: "In Vergelijkbaar modus selecteer je twee thema`s uit de dropdown-menu's. Thema A levert de drie gemeenschappelijke afbeeldingen voor elke oefening (bijv. dieren), en Thema B levert het enkele vreemde item (bijv. eten). Dit garandeert dat het vreemde item altijd thematisch onderscheidend is, waardoor duidelijke en educatief betekenisvolle puzzels ontstaan. Kies uit elke combinatie van de 104 beschikbare thema`s — dieren versus voertuigen, eten versus gereedschap, natuur versus gebouwen, en duizenden meer combinaties. In Identiek modus is slechts één thema nodig aangezien zowel de gemeenschappelijke klonen als het vreemde item uit dezelfde collectie komen.",
     },
     {
       question: "Hoeveel oefeningen kan ik op één werkblad plaatsen?",

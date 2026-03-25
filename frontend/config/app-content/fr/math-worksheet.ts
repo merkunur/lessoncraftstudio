@@ -23,7 +23,7 @@ const content: AppContent = {
     title: "Générateur de Puzzles Algébriques Illustrés pour la Résolution d'Équations Visuelles",
     tagline: "Transformez l'algèbre en aventure visuelle — les images deviennent des variables et chaque puzzle a exactement une solution.",
     description:
-      "Créez des fiches captivantes de puzzles algébriques illustrés où des images remplacent les variables inconnues dans des systèmes d'équations. Les utilisateurs résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d'algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
+      "Créez des fiches captivantes de puzzles algébriques illustrés où des images remplacent les variables inconnues dans des systèmes d`équations. Les utilisateurs résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d`algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: "Générer le corrigé et télécharger",
         description:
-          "Passez à l'onglet Corrigé et cliquez sur Générer le Corrigé pour créer une version résolue montrant la valeur numérique de chaque image. Ouvrez ensuite le menu Téléchargement et exportez la fiche et son corrigé en JPEG haute résolution ou en PDF prêt à imprimer. Activez l'export en niveaux de gris pour des versions économiques en encre. Chaque export est rendu à plus de 400 DPI, garantissant une netteté parfaite que vos puzzles soient imprimés à domicile, mis en ligne sur Etsy ou inclus dans un cahier d'activités Amazon KDP.",
+          "Passez à l`onglet Corrigé et cliquez sur Générer le Corrigé pour créer une version résolue montrant la valeur numérique de chaque image. Ouvrez ensuite le menu Téléchargement et exportez la fiche et son corrigé en JPEG haute résolution ou en PDF prêt à imprimer. Activez l'export en niveaux de gris pour des versions économiques en encre. Chaque export est rendu à plus de 400 DPI, garantissant une netteté parfaite que vos puzzles soient imprimés à domicile, mis en ligne sur Etsy ou inclus dans un cahier d`activités Amazon KDP.",
       },
     ],
   },
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: "Édition complète du canevas avec annuler et rétablir",
         description:
-          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, blocs de puzzles, bordures et fonds. Utilisez les contrôles de calques pour gérer l'empilement, les outils d'alignement pour un placement précis et le verrouillage/déverrouillage pour protéger les éléments positionnés. L'annulation et le rétablissement illimités vous permettent d'expérimenter librement — la flexibilité d'un outil de design graphique dans un générateur de fiches.",
+          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, blocs de puzzles, bordures et fonds. Utilisez les contrôles de calques pour gérer l`empilement, les outils d'alignement pour un placement précis et le verrouillage/déverrouillage pour protéger les éléments positionnés. L'annulation et le rétablissement illimités vous permettent d'expérimenter librement — la flexibilité d`un outil de design graphique dans un générateur de fiches.",
       },
     ],
   },
@@ -115,7 +115,7 @@ const content: AppContent = {
       {
         title: "Cahiers de puzzles algébriques sur Amazon KDP",
         description:
-          "Compilez 50 à 100 puzzles algébriques dans un cahier d'activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec des puzzles Très Facile à deux symboles en addition et progressez vers des systèmes Difficile à quatre symboles en opérations mixtes — pour créer un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes expliquant le format et une section corrigé à la fin. Les cahiers d'algèbre illustrée occupent un créneau moins encombré que les cahiers de maths classiques, vous offrant un avantage concurrentiel dans les résultats de recherche.",
+          "Compilez 50 à 100 puzzles algébriques dans un cahier d`activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec des puzzles Très Facile à deux symboles en addition et progressez vers des systèmes Difficile à quatre symboles en opérations mixtes — pour créer un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes expliquant le format et une section corrigé à la fin. Les cahiers d`algèbre illustrée occupent un créneau moins encombré que les cahiers de maths classiques, vous offrant un avantage concurrentiel dans les résultats de recherche.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -148,12 +148,12 @@ const content: AppContent = {
     {
       question: "Que signifient les quatre niveaux de difficulté ?",
       answer:
-        "Les niveaux Très Facile et Facile utilisent deux symboles-images dans un petit système d'équations — idéal pour introduire le concept. Moyen ajoute un troisième symbole avec trois équations liées, nécessitant plus d'étapes de déduction. Difficile présente quatre symboles dans quatre équations simultanées, mettant les utilisateurs au défi de suivre plusieurs inconnues. Chaque niveau produit un système que le solveur du générateur a vérifié comme ayant exactement une solution. Pour les vendeurs, cette structure à quatre niveaux permet de créer des ensembles par niveau ou des packs progressifs qui guident les apprenants du débutant à l'avancé, maximisant le nombre de produits distincts à proposer.",
+        "Les niveaux Très Facile et Facile utilisent deux symboles-images dans un petit système d`équations — idéal pour introduire le concept. Moyen ajoute un troisième symbole avec trois équations liées, nécessitant plus d'étapes de déduction. Difficile présente quatre symboles dans quatre équations simultanées, mettant les utilisateurs au défi de suivre plusieurs inconnues. Chaque niveau produit un système que le solveur du générateur a vérifié comme ayant exactement une solution. Pour les vendeurs, cette structure à quatre niveaux permet de créer des ensembles par niveau ou des packs progressifs qui guident les apprenants du débutant à l`avancé, maximisant le nombre de produits distincts à proposer.",
     },
     {
       question: "Quelles opérations mathématiques sont disponibles ?",
       answer:
-        "Vous pouvez choisir Addition Uniquement, qui génère des équations utilisant seulement l'addition, ou Addition et Soustraction, qui mélange les deux opérations dans le même puzzle. L'addition seule est idéale pour les jeunes utilisateurs, tandis que les opérations mixtes ajoutent de la complexité pour les apprenants avancés et créent des structures d'équations plus variées. Proposer les deux modes dans vos annonces donne aux acheteurs une différenciation claire et vous permet de positionner des produits séparés pour les débutants et les utilisateurs prêts pour des défis algébriques multi-opérations.",
+        "Vous pouvez choisir Addition Uniquement, qui génère des équations utilisant seulement l`addition, ou Addition et Soustraction, qui mélange les deux opérations dans le même puzzle. L'addition seule est idéale pour les jeunes utilisateurs, tandis que les opérations mixtes ajoutent de la complexité pour les apprenants avancés et créent des structures d`équations plus variées. Proposer les deux modes dans vos annonces donne aux acheteurs une différenciation claire et vous permet de positionner des produits séparés pour les débutants et les utilisateurs prêts pour des défis algébriques multi-opérations.",
     },
     {
       question: "Quelles plages de nombres puis-je définir pour les puzzles ?",
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: "Chaque puzzle a-t-il vraiment exactement une solution ?",
       answer:
-        "Oui. Le générateur inclut un solveur algébrique intégré qui valide chaque puzzle avant de le placer sur la fiche. Si un système généré aléatoirement avait des solutions multiples ou aucune solution, le générateur l'écarte et en crée un nouveau. Vous n'avez jamais besoin de vérifier manuellement les mathématiques — chaque puzzle est garanti d'être résolvable de manière unique. Cette validation intégrée est un gain de temps considérable pour les vendeurs produisant de grands lots de puzzles, car vous pouvez générer des dizaines de fiches en une seule session avec la certitude totale que chaque puzzle est mathématiquement correct et prêt pour vos clients.",
+        "Oui. Le générateur inclut un solveur algébrique intégré qui valide chaque puzzle avant de le placer sur la fiche. Si un système généré aléatoirement avait des solutions multiples ou aucune solution, le générateur l`écarte et en crée un nouveau. Vous n'avez jamais besoin de vérifier manuellement les mathématiques — chaque puzzle est garanti d`être résolvable de manière unique. Cette validation intégrée est un gain de temps considérable pour les vendeurs produisant de grands lots de puzzles, car vous pouvez générer des dizaines de fiches en une seule session avec la certitude totale que chaque puzzle est mathématiquement correct et prêt pour vos clients.",
     },
     {
       question: "Comment les images fonctionnent-elles comme variables algébriques ?",
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Le générateur crée-t-il des corrigés automatiquement ?",
       answer:
-        "Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue qui révèle la valeur numérique attribuée à chaque symbole-image. Vous pouvez prévisualiser le corrigé à l'écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche utilisateur. Inclure des corrigés dans chaque annonce ajoute de la valeur perçue pour les acheteurs, car les parents et vendeurs s'attendent à des solutions prêtes à l'emploi.",
+        "Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue qui révèle la valeur numérique attribuée à chaque symbole-image. Vous pouvez prévisualiser le corrigé à l`écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche utilisateur. Inclure des corrigés dans chaque annonce ajoute de la valeur perçue pour les acheteurs, car les parents et vendeurs s'attendent à des solutions prêtes à l`emploi.",
     },
     {
       question: "Les fiches de puzzles algébriques sont-elles sensibles à la langue ?",

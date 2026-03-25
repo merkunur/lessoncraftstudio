@@ -106,7 +106,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Materiale integrativo per l'istruzione a casa",
-      description: "Crea un catalogo prodotti strutturato di addizione di 12 settimane con difficoltà progressiva, partendo da semplici esercizi Immagine + Immagine nell'intervallo 1–3 fino ad arrivare a esercizi complessi Trova il Sommando nell'intervallo 1–10. Vendi il catalogo prodotti completo come download digitale sul tuo sito web o tramite Gumroad. Le famiglie che praticano l'istruzione a casa cercano attivamente materiali matematici visivi e pratici.",
+      description: "Crea un catalogo prodotti strutturato di addizione di 12 settimane con difficoltà progressiva, partendo da semplici esercizi Immagine + Immagine nell`intervallo 1–3 fino ad arrivare a esercizi complessi Trova il Sommando nell'intervallo 1–10. Vendi il catalogo prodotti completo come download digitale sul tuo sito web o tramite Gumroad. Le famiglie che praticano l`istruzione a casa cercano attivamente materiali matematici visivi e pratici.",
       platform: 'Gumroad',
     },
     {

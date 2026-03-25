@@ -40,7 +40,7 @@ const content: BundleContent = {
     },
     {
       title: "Generatore di Schede Caccia al Tesoro",
-      description: "Crea cacce al tesoro su griglia di coordinate dove gli utenti seguono indizi direzionali sequenziali per localizzare il tesoro nascosto. Una griglia 5x5 etichettata da A a E orizzontalmente e da 1 a 5 verticalmente contiene 6 immagini di punti di riferimento tematici posizionati a coordinate specifiche. gli utenti partono da una posizione data e seguono esattamente 4 mosse direzionali per raggiungere il tesoro — leggendo ogni indizio, applicando la direzione e tracciando la propria posizione sulla griglia. Due tipi di direzione offrono diversi livelli di difficoltà: la modalità Base usa su, giù, sinistra e destra per utenti più piccoli, mentre la modalità Cardinale usa nord, sud, est e ovest per utenti che imparano le direzioni della bussola. Tutti gli indizi direzionali sono completamente tradotti in 11 lingue — una scheda in tedesco dice \"nach oben\" invece di \"up\", una scheda in francese dice \"vers le haut\" — rendendo ogni versione linguistica un prodotto genuinamente unico. Il formato con griglia di coordinate insegna la lettura delle griglie e l'orientamento spaziale insieme all'avventura della caccia al tesoro. Ogni scheda genera automaticamente una chiave di risposta che mostra il percorso corretto attraverso la griglia. Le cacce al tesoro sono un formato di attività ad alto coinvolgimento perché combinano apprendimento e avventura — gli utenti sono motivati dall'obiettivo di trovare il tesoro, il che rende la pratica del vocabolario direzionale simile a un gioco piuttosto che a un esercizio.",
+      description: "Crea cacce al tesoro su griglia di coordinate dove gli utenti seguono indizi direzionali sequenziali per localizzare il tesoro nascosto. Una griglia 5x5 etichettata da A a E orizzontalmente e da 1 a 5 verticalmente contiene 6 immagini di punti di riferimento tematici posizionati a coordinate specifiche. gli utenti partono da una posizione data e seguono esattamente 4 mosse direzionali per raggiungere il tesoro — leggendo ogni indizio, applicando la direzione e tracciando la propria posizione sulla griglia. Due tipi di direzione offrono diversi livelli di difficoltà: la modalità Base usa su, giù, sinistra e destra per utenti più piccoli, mentre la modalità Cardinale usa nord, sud, est e ovest per utenti che imparano le direzioni della bussola. Tutti gli indizi direzionali sono completamente tradotti in 11 lingue — una scheda in tedesco dice \"nach oben\" invece di \"up\", una scheda in francese dice \"vers le haut\" — rendendo ogni versione linguistica un prodotto genuinamente unico. Il formato con griglia di coordinate insegna la lettura delle griglie e l`orientamento spaziale insieme all'avventura della caccia al tesoro. Ogni scheda genera automaticamente una chiave di risposta che mostra il percorso corretto attraverso la griglia. Le cacce al tesoro sono un formato di attività ad alto coinvolgimento perché combinano apprendimento e avventura — gli utenti sono motivati dall`obiettivo di trovare il tesoro, il che rende la pratica del vocabolario direzionale simile a un gioco piuttosto che a un esercizio.",
     },
   ],
 
@@ -87,7 +87,7 @@ const content: BundleContent = {
     },
     {
       title: "Negozio Etsy di Stampabili Cerca e Trova",
-      description: "Costruisci un negozio Etsy intorno a stampabili di ricerca, scoperta e ritrovamento. Pubblica pacchetti di conteggio Vedo Vedo, pacchetti di schede oggetti nascosti, collezioni di cruciverba con immagini e set di attività caccia al tesoro come prodotti separati — quattro categorie di prodotti distinte dal primo giorno. Usa gli oltre 100 set di immagini tematiche per creare inserzioni stagionali: Vedo Vedo di Halloween, cruciverba di Natale, cacce al tesoro primaverili. Ogni combinazione tema-generatore diventa un'inserzione unica che attira traffico di ricerca diverso. Le app sensibili alla lingua danno ai venditori con Accesso Completo un moltiplicatore aggiuntivo: un'inserzione \"Vedo Vedo Animali in Francese\" ha virtualmente zero concorrenza rispetto all'equivalente in inglese.",
+      description: "Costruisci un negozio Etsy intorno a stampabili di ricerca, scoperta e ritrovamento. Pubblica pacchetti di conteggio Vedo Vedo, pacchetti di schede oggetti nascosti, collezioni di cruciverba con immagini e set di attività caccia al tesoro come prodotti separati — quattro categorie di prodotti distinte dal primo giorno. Usa gli oltre 100 set di immagini tematiche per creare inserzioni stagionali: Vedo Vedo di Halloween, cruciverba di Natale, cacce al tesoro primaverili. Ogni combinazione tema-generatore diventa un`inserzione unica che attira traffico di ricerca diverso. Le app sensibili alla lingua danno ai venditori con Accesso Completo un moltiplicatore aggiuntivo: un'inserzione \"Vedo Vedo Animali in Francese\" ha virtualmente zero concorrenza rispetto all`equivalente in inglese.",
       platform: 'Etsy',
     },
     {
@@ -113,7 +113,7 @@ const content: BundleContent = {
     { feature: "Schede sensibili alla lingua (3 app)", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: 'Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue' },
+    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
     { feature: "Trova e Conta — alfabeti specifici per lingua", commercial: 'Solo inglese', fullAccess: '11 alfabeti' },
     { feature: "Cruciverba — vocabolario multilingue", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: "Caccia al Tesoro — direzioni tradotte", commercial: 'Solo inglese', fullAccess: '11 lingue' },
@@ -143,7 +143,7 @@ const content: BundleContent = {
   faq: [
     {
       question: "Posso provare i generatori prima dell'acquisto?",
-      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l'anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei quattro generatori prima dell'acquisto per confermare che soddisfano le tue esigenze.",
+      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l`anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei quattro generatori prima dell`acquisto per confermare che soddisfano le tue esigenze.",
     },
     {
       question: "Cosa rende questo il pacchetto più ricco linguisticamente?",
@@ -171,11 +171,11 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la differenza tra Commerciale e Accesso Completo?",
-      answer: "Entrambi i livelli includono tutti e quattro i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 10 set di immagini tematiche con schede e interfaccia solo in inglese. L'Accesso Completo sblocca tutti i 104 set di immagini tematiche e tutte le 11 lingue — e poiché tre delle quattro app sono sensibili alla lingua, l'upgrade linguistico influisce direttamente sul contenuto delle schede, non solo sull'interfaccia. I venditori con Accesso Completo possono creare 11 versioni linguistiche di ogni prodotto Vedo Vedo, cruciverba e caccia al tesoro, moltiplicando effettivamente il loro catalogo prodotti partendo dagli stessi temi.",
+      answer: "Entrambi i livelli includono tutti e quattro i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 10 set di immagini tematiche con schede e interfaccia solo in inglese. L`Accesso Completo sblocca tutti i 104 set di immagini tematiche e tutte le 11 lingue — e poiché tre delle quattro app sono sensibili alla lingua, l'upgrade linguistico influisce direttamente sul contenuto delle schede, non solo sull`interfaccia. I venditori con Accesso Completo possono creare 11 versioni linguistiche di ogni prodotto Vedo Vedo, cruciverba e caccia al tesoro, moltiplicando effettivamente il loro catalogo prodotti partendo dagli stessi temi.",
     },
     {
       question: "Qual è la politica di rimborso per le licenze commerciali?",
-      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell'output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell'acquisto.",
+      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell`output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell`acquisto.",
     },
   ],
 
@@ -187,7 +187,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: "creare-schede-oggetti-nascosti", anchorText: "Creare schede di oggetti nascosti" },
     { pageType: 'guide', slug: 'creare-schede-caccia-tesoro', anchorText: "Creare schede di caccia al tesoro" },
     { pageType: 'start', slug: 'marketing-attivita-stampabili', anchorText: "Marketing per la tua attività di stampabili" },
-    { pageType: 'idea', slug: 'campeggio-idee-stampabili', anchorText: "Idee di stampabili per campeggio e attività all'aperto" },
+    { pageType: `idea', slug: 'campeggio-idee-stampabili', anchorText: "Idee di stampabili per campeggio e attività all`aperto" },
   ],
 
   visuals: {

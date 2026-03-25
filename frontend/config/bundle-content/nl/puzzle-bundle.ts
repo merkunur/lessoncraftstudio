@@ -165,7 +165,7 @@ const content: BundleContent = {
     },
     {
       question: "Kan ik alle vier puzzeltypen in één boek combineren?",
-      answer: "Absoluut. Veel verkopers maken thematische puzzelboeken door werkbladen van alle vier generators te genereren met hetzelfde afbeeldingsthema, en ze vervolgens te combineren in één PDF. Een \"Boerderijdieren Puzzelboek\" kan 10 ontbrekende stukjes pagina's, 10 welke hoort er niet bij pagina's, 10 Sudoku pagina's en 10 doolhofpagina's bevatten — 40 pagina's gevarieerde puzzelinhoud vanuit één thema. Multi-formaat puzzelboeken verkopen voor hogere prijzen en ontvangen betere beoordelingen.",
+      answer: "Absoluut. Veel verkopers maken thematische puzzelboeken door werkbladen van alle vier generators te genereren met hetzelfde afbeeldingsthema, en ze vervolgens te combineren in één PDF. Een \"Boerderijdieren Puzzelboek\" kan 10 ontbrekende stukjes pagina`s, 10 welke hoort er niet bij pagina's, 10 Sudoku pagina's en 10 doolhofpagina's bevatten — 40 pagina`s gevarieerde puzzelinhoud vanuit één thema. Multi-formaat puzzelboeken verkopen voor hogere prijzen en ontvangen betere beoordelingen.",
     },
     {
       question: "Wat is het verschil tussen Commercieel en Volledige Toegang?",

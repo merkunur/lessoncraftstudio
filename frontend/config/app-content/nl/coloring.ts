@@ -108,7 +108,7 @@ const content: AppContent = {
       {
         title: "Thematische kleurplaten bundels op Etsy",
         description:
-          "Maak thematische kleurplaten pakketten met de 104 beeldcollecties — boerderijdieren, oceaandieren, dinosaurussen, jungledieren, feestdagvieringen en tientallen meer. Elk thema biedt genoeg illustraties voor 10–20 unieke kleurplaten. Schakel grijstintenexport in voor printklare uitvoer, voeg decoratieve randen toe voor een verzorgde uitstraling, en neem pagina's met schrijflijnen op voor extra educatieve waarde. Verpak thema's als individuele bundels voor €3–€5 per stuk, of combineer meerdere thema's tot megapakketten voor €12–€18. Het vrije-vorm canvas zorgt ervoor dat elke pagina origineel is en onmogelijk na te maken met sjabloongebaseerde generators.",
+          "Maak thematische kleurplaten pakketten met de 104 beeldcollecties — boerderijdieren, oceaandieren, dinosaurussen, jungledieren, feestdagvieringen en tientallen meer. Elk thema biedt genoeg illustraties voor 10–20 unieke kleurplaten. Schakel grijstintenexport in voor printklare uitvoer, voeg decoratieve randen toe voor een verzorgde uitstraling, en neem pagina`s met schrijflijnen op voor extra educatieve waarde. Verpak thema's als individuele bundels voor €3–€5 per stuk, of combineer meerdere thema`s tot megapakketten voor €12–€18. Het vrije-vorm canvas zorgt ervoor dat elke pagina origineel is en onmogelijk na te maken met sjabloongebaseerde generators.",
         platform: 'Etsy (etsy.com)',
       },
       {

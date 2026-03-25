@@ -28,7 +28,7 @@ const content: BundleContent = {
   appsIncluded: [
     {
       title: "Generatore di Schede di Addizione",
-      description: "Crea schede di addizione basate su immagini in quattro modalità distinte: conteggio Immagine + Immagine, problemi ibridi Immagine + Numero, sfide Trova l'Addendo con valori mancanti e modalità Mista che combina tutte e tre su una singola pagina. gli utenti contano immagini tematiche per risolvere ogni equazione, rendendo l'addizione astratta concreta e coinvolgente. Imposta l'intervallo numerico da 1 a 99, scegli tra 4, 6, 8 o 12 problemi per pagina e seleziona le immagini da oltre 100 set tematici tra cui animali, cibo, veicoli e categorie stagionali. Ogni scheda genera automaticamente una chiave di risposta corrispondente. Scegli tra diversi formati di pagina, aggiungi bordi decorativi e sfondi tematici e scarica come PDF pronto per la stampa o JPEG.",
+      description: "Crea schede di addizione basate su immagini in quattro modalità distinte: conteggio Immagine + Immagine, problemi ibridi Immagine + Numero, sfide Trova l`Addendo con valori mancanti e modalità Mista che combina tutte e tre su una singola pagina. gli utenti contano immagini tematiche per risolvere ogni equazione, rendendo l'addizione astratta concreta e coinvolgente. Imposta l`intervallo numerico da 1 a 99, scegli tra 4, 6, 8 o 12 problemi per pagina e seleziona le immagini da oltre 100 set tematici tra cui animali, cibo, veicoli e categorie stagionali. Ogni scheda genera automaticamente una chiave di risposta corrispondente. Scegli tra diversi formati di pagina, aggiungi bordi decorativi e sfondi tematici e scarica come PDF pronto per la stampa o JPEG.",
     },
     {
       title: "Generatore di Schede di Sottrazione",
@@ -124,7 +124,7 @@ const content: BundleContent = {
     { feature: "Chiavi di risposta automatiche", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: 'Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue' },
+    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
     { feature: "Lingue Scopri la Parola Addizione Codificata", commercial: 'Solo inglese', fullAccess: '11 lingue' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },
@@ -133,7 +133,7 @@ const content: BundleContent = {
   whoIsThisFor: [
     {
       title: "Venditori di Stampabili su Etsy e KDP",
-      description: "Vendi download digitali su Etsy o pubblichi quaderni su Amazon KDP e vuoi un modo rapido e affidabile per produrre schede matematiche professionali su larga scala. Il pacchetto ti offre sei generatori e centinaia di combinazioni tematiche per costruire un catalogo di prodotti diversificato senza competenze di design o software costosi. Crea nuove inserzioni in minuti anziché ore e mantieni il tuo negozio rifornito con contenuti freschi e stagionali tutto l'anno. L'approccio a sei generatori significa che non raggiungerai mai un muro creativo — quando un generatore ha prodotto abbastanza schede di addizione per il tuo catalogo, passa a sottrazione, puzzle o attività di confronto e crea inserzioni di prodotti completamente nuove con il minimo sforzo. Le rotazioni tematiche stagionali usando la libreria di immagini integrata ti permettono di rinnovare l'aspetto del tuo negozio mensilmente senza creare prodotti da zero.",
+      description: "Vendi download digitali su Etsy o pubblichi quaderni su Amazon KDP e vuoi un modo rapido e affidabile per produrre schede matematiche professionali su larga scala. Il pacchetto ti offre sei generatori e centinaia di combinazioni tematiche per costruire un catalogo di prodotti diversificato senza competenze di design o software costosi. Crea nuove inserzioni in minuti anziché ore e mantieni il tuo negozio rifornito con contenuti freschi e stagionali tutto l`anno. L'approccio a sei generatori significa che non raggiungerai mai un muro creativo — quando un generatore ha prodotto abbastanza schede di addizione per il tuo catalogo, passa a sottrazione, puzzle o attività di confronto e crea inserzioni di prodotti completamente nuove con il minimo sforzo. Le rotazioni tematiche stagionali usando la libreria di immagini integrata ti permettono di rinnovare l`aspetto del tuo negozio mensilmente senza creare prodotti da zero.",
     },
     {
       title: 'Autori su Gumroad',
@@ -172,7 +172,7 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la differenza tra Commerciale e Accesso Completo?",
-      answer: "Entrambi i livelli includono tutti e sei i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 10 set di immagini tematiche e interfaccia solo in inglese. L'Accesso Completo sblocca tutti i 104 set di immagini tematiche e tutte le 11 lingue dell'interfaccia, incluso il vocabolario dell'Addizione Codificata in ogni lingua supportata.",
+      answer: "Entrambi i livelli includono tutti e sei i generatori con download senza filigrana e diritti di vendita commerciale. Il Commerciale ti dà 10 set di immagini tematiche e interfaccia solo in inglese. L`Accesso Completo sblocca tutti i 104 set di immagini tematiche e tutte le 11 lingue dell'interfaccia, incluso il vocabolario dell`Addizione Codificata in ogni lingua supportata.",
     },
     {
       question: "Posso vendere le schede che creo?",
@@ -192,11 +192,11 @@ const content: BundleContent = {
     },
     {
       question: "Posso passare dal Commerciale all'Accesso Completo in seguito?",
-      answer: "I livelli Commerciale e Accesso Completo sono opzioni di acquisto separate. Se inizi con il Commerciale e successivamente desideri accedere a tutti i 104 set di immagini tematiche e a tutte le 11 lingue dell'interfaccia, dovrai acquistare il livello Accesso Completo. Ti consigliamo di iniziare con la prova gratuita per valutare approfonditamente tutti e sei i generatori prima di scegliere il tuo livello. La prova gratuita include funzionalità complete con tutti i 104 temi e tutte le lingue — l'unica differenza è una filigrana sui file scaricati. Questo ti permette di testare l'esperienza completa dell'Accesso Completo prima di decidere quale livello corrisponde alle tue esigenze aziendali. Molti venditori iniziano con il Commerciale per i prodotti nel mercato anglofono e passano all'Accesso Completo quando sono pronti ad espandersi in mercati multilingue o hanno bisogno della libreria completa di immagini tematiche per la massima varietà di prodotti.",
+      answer: "I livelli Commerciale e Accesso Completo sono opzioni di acquisto separate. Se inizi con il Commerciale e successivamente desideri accedere a tutti i 104 set di immagini tematiche e a tutte le 11 lingue dell`interfaccia, dovrai acquistare il livello Accesso Completo. Ti consigliamo di iniziare con la prova gratuita per valutare approfonditamente tutti e sei i generatori prima di scegliere il tuo livello. La prova gratuita include funzionalità complete con tutti i 104 temi e tutte le lingue — l'unica differenza è una filigrana sui file scaricati. Questo ti permette di testare l'esperienza completa dell'Accesso Completo prima di decidere quale livello corrisponde alle tue esigenze aziendali. Molti venditori iniziano con il Commerciale per i prodotti nel mercato anglofono e passano all`Accesso Completo quando sono pronti ad espandersi in mercati multilingue o hanno bisogno della libreria completa di immagini tematiche per la massima varietà di prodotti.",
     },
     {
       question: "Qual è la politica di rimborso per le licenze commerciali?",
-      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell'output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell'acquisto.",
+      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell`output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell`acquisto.",
     },
   ],
 

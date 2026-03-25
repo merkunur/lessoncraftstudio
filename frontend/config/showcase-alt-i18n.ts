@@ -487,7 +487,7 @@ export const frAltTexts: Record<string, AltTexts> = {
     "Fiche de maths en vedette — adorables équations avec images d'animaux",
     "Fiche d'algèbre visuelle professionnelle",
     "Algèbre visuelle — variante thématique",
-    'Corrigé d'algèbre visuelle',
+    `Corrigé d'algèbre visuelle`,
   ],
   'alphabet-train': [
     "Fiche train de l'alphabet — activité de reconnaissance des lettres",
@@ -667,7 +667,7 @@ export const frAltTexts: Record<string, AltTexts> = {
     "Fiche d'association en vedette — activité de vocabulaire colorée",
     "Fiche d'association professionnelle",
     "Association — variante thématique",
-    'Corrigé de l'association',
+    `Corrigé de l'association`,
   ],
   'grid-match': [
     "Puzzle de grille — correspondance de positions",
@@ -702,8 +702,8 @@ export const frAltTexts: Record<string, AltTexts> = {
     "Carte de bingo 5×5 — grille complète",
     "Fiche d'appel bingo — cartes d'appel thématiques",
     "Carte de bingo professionnelle — mode mots",
-    'Fiche d'appel bingo',
-    'Fiche d'appel mots',
+    `Fiche d'appel bingo`,
+    `Fiche d'appel mots`,
   ],
   'picture-sort': [
     "Fiche de tri d'images — catégoriser les images",
@@ -715,7 +715,7 @@ export const frAltTexts: Record<string, AltTexts> = {
     "Tri d'images en vedette — activité de catégorisation colorée",
     "Fiche de tri d'images professionnelle",
     "Tri d'images — variante thématique",
-    'Corrigé du tri d'images',
+    `Corrigé du tri d'images`,
   ],
   'missing-pieces': [
     "Fiche puzzle pièces manquantes",
@@ -732,14 +732,14 @@ export const frAltTexts: Record<string, AltTexts> = {
   'odd-one-out': [
     "Fiche de l'intrus — repérer le différent",
     "L'intrus — catégories thématiques",
-    'L'intrus — défi avancé',
+    `L'intrus — défi avancé`,
     "L'intrus facile — différences évidentes",
     "L'intrus moyen — groupes thématiques",
     "L'intrus difficile — différences subtiles",
     "L'intrus en vedette — activité de réflexion colorée",
     "Fiche de l'intrus professionnelle",
     "L'intrus — variante thématique",
-    'Corrigé de l'intrus',
+    `Corrigé de l'intrus`,
   ],
   sudoku: [
     "Sudoku en images — niveau facile avec animaux",
@@ -1941,13 +1941,13 @@ export const itAltTexts: Record<string, AltTexts> = {
   'odd-one-out': [
     "Scheda dell'intruso — trova il diverso",
     "L'intruso — categorie tematiche",
-    'L'intruso — sfida avanzata',
+    `L'intruso — sfida avanzata`,
     "L'intruso facile — differenze evidenti",
     "L'intruso medio — gruppi tematici",
     "L'intruso difficile — differenze sottili",
     "L'intruso in primo piano — attività di pensiero colorata",
     "Scheda dell'intruso professionale",
-    'L'intruso — variante tematica',
+    `L'intruso — variante tematica`,
     "Chiave di risposta dell'intruso",
   ],
   sudoku: [

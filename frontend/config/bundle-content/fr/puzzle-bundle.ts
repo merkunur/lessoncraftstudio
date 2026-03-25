@@ -22,7 +22,7 @@ const content: BundleContent = {
   hero: {
     title: 'Pack Puzzles & Logique',
     tagline: "Quatre générateurs de puzzles 100% visuels — raisonnement spatial, déduction logique et résolution de problèmes dans chaque fiche",
-    description: "Le Pack Puzzles & Logique est le seul pack où chaque application produit des fiches exclusivement visuelles. Aucun texte, aucune dépendance linguistique, aucune traduction nécessaire — chaque fiche fonctionne dans tous les pays, toutes les langues, tous les marchés. Ce pack combine quatre générateurs de puzzles spécialisés ciblant des compétences cognitives de haut niveau : le raisonnement spatial avec les puzzles à grille Pièces Manquantes, la discrimination visuelle avec les défis Trouve l'Intrus, la déduction logique avec le Sudoku Enfants en 4x4, et la résolution de problèmes avec les labyrinthes Parcours d'Images. Les quatre générateurs produisent des corrigés automatiques — le seul pack avec une couverture de corrigés à 100% sur chaque application. Chaque générateur produit des fichiers PDF prêts à imprimer et JPEG haute résolution avec des paramètres de difficulté configurables et des bibliothèques d'images thématiques. La catégorie fiches de puzzles et logique est l'un des segments à la croissance la plus rapide sur Etsy.fr et Amazon KDP car ces activités plaisent à une tranche d'âge plus large que les fiches de compétences de base — de le marché préscolaire au CE2 et au-delà. Le générateur Pièces Manquantes divise les images en segments de grille et retire des pièces que les utilisateurs doivent identifier. Le générateur Trouve l'Intrus présente des rangées d'images où un élément diffère des autres. Le générateur Sudoku Enfants utilise une grille 4x4 avec des images thématiques au lieu de chiffres, rendant le Sudoku classique accessible aux jeunes enfants qui ne maîtrisent pas encore les chiffres. Le générateur Parcours d'Images propose trois modes de labyrinthes distincts : navigation de parcours, labyrinthe classique et choix de chemin. Choisissez parmi plus de 100 ensembles d'images thématiques ou importez vos propres fichiers PNG et JPEG pour des produits personnalisés et adaptés à votre niche. Que vous vendiez des cahiers de puzzles sur Amazon KDP, des packs d'activités sur Etsy.fr ou des lots de logique sur Gumroad, ce pack vous offre quatre types de puzzles distincts que les acheteurs recherchent indépendamment. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez tester toutes les fonctionnalités avant d'acheter une licence.",
+    description: "Le Pack Puzzles & Logique est le seul pack où chaque application produit des fiches exclusivement visuelles. Aucun texte, aucune dépendance linguistique, aucune traduction nécessaire — chaque fiche fonctionne dans tous les pays, toutes les langues, tous les marchés. Ce pack combine quatre générateurs de puzzles spécialisés ciblant des compétences cognitives de haut niveau : le raisonnement spatial avec les puzzles à grille Pièces Manquantes, la discrimination visuelle avec les défis Trouve l`Intrus, la déduction logique avec le Sudoku Enfants en 4x4, et la résolution de problèmes avec les labyrinthes Parcours d'Images. Les quatre générateurs produisent des corrigés automatiques — le seul pack avec une couverture de corrigés à 100% sur chaque application. Chaque générateur produit des fichiers PDF prêts à imprimer et JPEG haute résolution avec des paramètres de difficulté configurables et des bibliothèques d'images thématiques. La catégorie fiches de puzzles et logique est l'un des segments à la croissance la plus rapide sur Etsy.fr et Amazon KDP car ces activités plaisent à une tranche d'âge plus large que les fiches de compétences de base — de le marché préscolaire au CE2 et au-delà. Le générateur Pièces Manquantes divise les images en segments de grille et retire des pièces que les utilisateurs doivent identifier. Le générateur Trouve l'Intrus présente des rangées d'images où un élément diffère des autres. Le générateur Sudoku Enfants utilise une grille 4x4 avec des images thématiques au lieu de chiffres, rendant le Sudoku classique accessible aux jeunes enfants qui ne maîtrisent pas encore les chiffres. Le générateur Parcours d'Images propose trois modes de labyrinthes distincts : navigation de parcours, labyrinthe classique et choix de chemin. Choisissez parmi plus de 100 ensembles d'images thématiques ou importez vos propres fichiers PNG et JPEG pour des produits personnalisés et adaptés à votre niche. Que vous vendiez des cahiers de puzzles sur Amazon KDP, des packs d'activités sur Etsy.fr ou des lots de logique sur Gumroad, ce pack vous offre quatre types de puzzles distincts que les acheteurs recherchent indépendamment. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez tester toutes les fonctionnalités avant d`acheter une licence.",
   },
 
   appsIncluded: [
@@ -32,11 +32,11 @@ const content: BundleContent = {
     },
     {
       title: "Générateur de Fiches Trouve l'Intrus",
-      description: "Générez des fiches de discrimination visuelle où chaque rangée affiche un groupe d'images similaires avec un élément qui diffère des autres. Les utilisateurs identifient l'élément différent dans chaque rangée — un exercice qui renforce l'attention aux détails, le balayage visuel et la pensée catégorielle. Le générateur prend en charge la sélection de mode par rangée, vous permettant de mélanger différents types de critères « intrus » sur une même fiche : une rangée pourrait présenter une espèce animale différente, la suivante une variante de couleur différente, et une autre une orientation différente. Cette variété au sein d'une même page maintient l'activité engageante et empêche les utilisateurs de tomber dans un raccourci de reconnaissance de motifs. Configurez le nombre de rangées par page et le nombre d'éléments par rangée pour adapter la difficulté aux différentes tranches d'âge. Chaque fiche génère automatiquement un corrigé correspondant, mettant en évidence l'intrus correct dans chaque rangée. Trouve l'Intrus est l'un des formats d'activités les plus reconnaissables de la petite enfance — les parents et vendeurs le recherchent par nom, ce qui en fait une catégorie de produits à fort trafic. Chaque fiche est purement visuelle sans texte sur la page, donc chaque puzzle fonctionne dans toutes les langues et tous les marchés du monde.",
+      description: "Générez des fiches de discrimination visuelle où chaque rangée affiche un groupe d`images similaires avec un élément qui diffère des autres. Les utilisateurs identifient l'élément différent dans chaque rangée — un exercice qui renforce l'attention aux détails, le balayage visuel et la pensée catégorielle. Le générateur prend en charge la sélection de mode par rangée, vous permettant de mélanger différents types de critères « intrus » sur une même fiche : une rangée pourrait présenter une espèce animale différente, la suivante une variante de couleur différente, et une autre une orientation différente. Cette variété au sein d'une même page maintient l'activité engageante et empêche les utilisateurs de tomber dans un raccourci de reconnaissance de motifs. Configurez le nombre de rangées par page et le nombre d'éléments par rangée pour adapter la difficulté aux différentes tranches d'âge. Chaque fiche génère automatiquement un corrigé correspondant, mettant en évidence l'intrus correct dans chaque rangée. Trouve l'Intrus est l'un des formats d`activités les plus reconnaissables de la petite enfance — les parents et vendeurs le recherchent par nom, ce qui en fait une catégorie de produits à fort trafic. Chaque fiche est purement visuelle sans texte sur la page, donc chaque puzzle fonctionne dans toutes les langues et tous les marchés du monde.",
     },
     {
       title: 'Générateur de Sudoku Enfants',
-      description: "Produisez des puzzles Sudoku 4x4 utilisant des images thématiques au lieu de chiffres — rendant le jeu de logique classique accessible aux jeunes enfants qui n'ont pas encore appris les chiffres. Les utilisateurs placent quatre images différentes de sorte que chaque ligne et chaque colonne contienne chaque image exactement une fois, développant la déduction logique et le raisonnement par élimination. La grille 4x4 est spécifiquement dimensionnée pour le public cible : assez grande pour présenter un véritable défi logique, assez petite pour que les enfants du marché préscolaire et grande section puissent la gérer sans frustration. Configurez les niveaux de difficulté en contrôlant le nombre de cellules préremplies — moins d'images de départ créent des puzzles plus difficiles nécessitant plus d'étapes déductives. Chaque fiche génère automatiquement un corrigé montrant la grille complètement résolue. Le Sudoku Enfants est une catégorie de produits remarquable car il combine la reconnaissance universelle de la marque Sudoku avec un gameplay visuel attrayant. Les parents recherchant « sudoku enfants » ou « sudoku images » trouvent un produit qui leur semble familier tout en étant adapté à l'âge. Chaque fiche est purement visuelle — pas de chiffres, pas de texte, uniquement des images — rendant chaque puzzle vendable dans le monde entier. Choisissez parmi plus de 100 ensembles d'images thématiques ou importez les vôtres pour des produits de puzzles personnalisés.",
+      description: "Produisez des puzzles Sudoku 4x4 utilisant des images thématiques au lieu de chiffres — rendant le jeu de logique classique accessible aux jeunes enfants qui n`ont pas encore appris les chiffres. Les utilisateurs placent quatre images différentes de sorte que chaque ligne et chaque colonne contienne chaque image exactement une fois, développant la déduction logique et le raisonnement par élimination. La grille 4x4 est spécifiquement dimensionnée pour le public cible : assez grande pour présenter un véritable défi logique, assez petite pour que les enfants du marché préscolaire et grande section puissent la gérer sans frustration. Configurez les niveaux de difficulté en contrôlant le nombre de cellules préremplies — moins d'images de départ créent des puzzles plus difficiles nécessitant plus d'étapes déductives. Chaque fiche génère automatiquement un corrigé montrant la grille complètement résolue. Le Sudoku Enfants est une catégorie de produits remarquable car il combine la reconnaissance universelle de la marque Sudoku avec un gameplay visuel attrayant. Les parents recherchant « sudoku enfants » ou « sudoku images » trouvent un produit qui leur semble familier tout en étant adapté à l'âge. Chaque fiche est purement visuelle — pas de chiffres, pas de texte, uniquement des images — rendant chaque puzzle vendable dans le monde entier. Choisissez parmi plus de 100 ensembles d`images thématiques ou importez les vôtres pour des produits de puzzles personnalisés.",
     },
     {
       title: "Générateur de Labyrinthes Parcours d'Images",
@@ -51,7 +51,7 @@ const content: BundleContent = {
     },
     {
       title: "100% visuel — chaque application, chaque fiche",
-      description: "C'est le seul pack où chaque application produit des fiches exclusivement visuelles. Aucun texte n'apparaît sur aucune page — uniquement des images, des grilles, des parcours et des motifs visuels. Chaque fiche que vous créez fonctionne dans tous les pays, toutes les langues et tous les marchés sans traduction ni modification. Publiez le même PDF sur Etsy.fr, Amazon Allemagne, les places de marché éducatives japonaises ou n'importe où ailleurs — le produit est identique et universellement compris.",
+      description: "C`est le seul pack où chaque application produit des fiches exclusivement visuelles. Aucun texte n'apparaît sur aucune page — uniquement des images, des grilles, des parcours et des motifs visuels. Chaque fiche que vous créez fonctionne dans tous les pays, toutes les langues et tous les marchés sans traduction ni modification. Publiez le même PDF sur Etsy.fr, Amazon Allemagne, les places de marché éducatives japonaises ou n`importe où ailleurs — le produit est identique et universellement compris.",
     },
     {
       title: 'Couverture de corrigés à 100%',
@@ -59,11 +59,11 @@ const content: BundleContent = {
     },
     {
       title: "Compétences cognitives de haut niveau",
-      description: "Chaque générateur cible une compétence cognitive différente dans la catégorie puzzles et logique. Pièces Manquantes développe le raisonnement spatial et la mémoire visuelle. Trouve l'Intrus renforce la discrimination visuelle et la pensée catégorielle. Sudoku Enfants construit la déduction logique et le raisonnement par élimination. Parcours d'Images exerce la pensée séquentielle et la prise de décision. Ensemble, ces quatre générateurs couvrent l'ensemble du spectre des compétences cognitives basées sur les puzzles que les entrepreneurs et parents valorisent le plus — positionnant vos produits comme des outils de développement, pas simplement du divertissement.",
+      description: "Chaque générateur cible une compétence cognitive différente dans la catégorie puzzles et logique. Pièces Manquantes développe le raisonnement spatial et la mémoire visuelle. Trouve l`Intrus renforce la discrimination visuelle et la pensée catégorielle. Sudoku Enfants construit la déduction logique et le raisonnement par élimination. Parcours d'Images exerce la pensée séquentielle et la prise de décision. Ensemble, ces quatre générateurs couvrent l`ensemble du spectre des compétences cognitives basées sur les puzzles que les entrepreneurs et parents valorisent le plus — positionnant vos produits comme des outils de développement, pas simplement du divertissement.",
     },
     {
-      title: 'Large tranche d'âge',
-      description: "Les fiches de puzzles et logique couvrent naturellement une tranche d'âge plus large que les activités de compétences de base. Les grilles simples de Pièces Manquantes et les rangées faciles de Trouve l'Intrus conviennent aux tout-petits, tandis que les puzzles Sudoku complexes et les parcours de labyrinthes ramifiés défient les utilisateurs de CE1 et CE2. Ce large attrait signifie plus d'acheteurs potentiels par annonce et la possibilité de créer des gammes de produits par niveau qui grandissent avec votre clientèle — du « Pack Puzzles Préscolaire » au « Défi Logique CE2 ».",
+      title: `Large tranche d'âge`,
+      description: "Les fiches de puzzles et logique couvrent naturellement une tranche d`âge plus large que les activités de compétences de base. Les grilles simples de Pièces Manquantes et les rangées faciles de Trouve l'Intrus conviennent aux tout-petits, tandis que les puzzles Sudoku complexes et les parcours de labyrinthes ramifiés défient les utilisateurs de CE1 et CE2. Ce large attrait signifie plus d`acheteurs potentiels par annonce et la possibilité de créer des gammes de produits par niveau qui grandissent avec votre clientèle — du « Pack Puzzles Préscolaire » au « Défi Logique CE2 ».",
     },
     {
       title: "Machine à cahiers de puzzles KDP",
@@ -82,12 +82,12 @@ const content: BundleContent = {
   businessUseCases: [
     {
       title: 'Cahiers de puzzles Amazon KDP',
-      description: "Les cahiers de puzzles sont une catégorie de très demandés KDP avec une demande constante toute l'année. Combinez les quatre générateurs en cahiers de puzzles thématiques : « Cahier d'Activités Puzzles Animaux » avec pièces manquantes, pages intrus, grilles sudoku enfants et défis labyrinthes — quatre types de puzzles par cahier au lieu d'un seul. Le format 100% visuel signifie que chaque page fonctionne sur tous les marchés Amazon du monde sans traduction. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Les cahiers de puzzles multi-formats imposent des prix plus élevés que les alternatives mono-format et génèrent de meilleures évaluations car les acheteurs perçoivent plus de valeur par page.",
+      description: "Les cahiers de puzzles sont une catégorie de très demandés KDP avec une demande constante toute l`année. Combinez les quatre générateurs en cahiers de puzzles thématiques : « Cahier d'Activités Puzzles Animaux » avec pièces manquantes, pages intrus, grilles sudoku enfants et défis labyrinthes — quatre types de puzzles par cahier au lieu d`un seul. Le format 100% visuel signifie que chaque page fonctionne sur tous les marchés Amazon du monde sans traduction. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Les cahiers de puzzles multi-formats imposent des prix plus élevés que les alternatives mono-format et génèrent de meilleures évaluations car les acheteurs perçoivent plus de valeur par page.",
       platform: 'Amazon KDP',
     },
     {
       title: "Boutique Etsy.fr de puzzles et logique",
-      description: "Construisez une boutique Etsy autour des imprimables de puzzles et logique. Proposez des packs de pièces manquantes, des lots de fiches intrus, des collections de sudoku enfants et des sets d'activités labyrinthes comme produits distincts. Les quatre générateurs vous donnent quatre catégories de produits distinctes dès le premier jour. Utilisez les plus de 100 ensembles d'images thématiques pour créer des annonces saisonnières : labyrinthes Halloween, sudoku Noël, intrus animaux du printemps. Chaque combinaison thème-générateur devient une annonce unique captant un trafic de recherche différent. Le format 100% visuel signifie que vous publiez une fois et vendez à des acheteurs de n'importe quel pays sans créer de versions linguistiques séparées.",
+      description: "Construisez une boutique Etsy autour des imprimables de puzzles et logique. Proposez des packs de pièces manquantes, des lots de fiches intrus, des collections de sudoku enfants et des sets d`activités labyrinthes comme produits distincts. Les quatre générateurs vous donnent quatre catégories de produits distinctes dès le premier jour. Utilisez les plus de 100 ensembles d'images thématiques pour créer des annonces saisonnières : labyrinthes Halloween, sudoku Noël, intrus animaux du printemps. Chaque combinaison thème-générateur devient une annonce unique captant un trafic de recherche différent. Le format 100% visuel signifie que vous publiez une fois et vendez à des acheteurs de n`importe quel pays sans créer de versions linguistiques séparées.",
       platform: 'Etsy.fr',
     },
     {
@@ -97,7 +97,7 @@ const content: BundleContent = {
     },
     {
       title: "Soutien éducatif et enrichissement commercial",
-      description: "Les activités de puzzles et logique sont des supports d'enrichissement idéaux pour les séances de soutien éducatif et les catalogues d'vente à domicile. Elles développent des compétences cognitives qui soutiennent la réussite académique dans toutes les matières sans être liées à un sujet ou un programme spécifique. Générez des puzzles inédits pour chaque séance avec différents thèmes et niveaux de difficulté pour que les utilisateurs ne voient jamais la même page deux fois. Les quatre types de puzzles vous permettent de faire tourner les activités tout au long de la semaine — sudoku le lundi, labyrinthes le mardi, pièces manquantes le mercredi, intrus le jeudi — maintenant l'engagement élevé et développant des compétences de réflexion variées.",
+      description: "Les activités de puzzles et logique sont des supports d`enrichissement idéaux pour les séances de soutien éducatif et les catalogues d'vente à domicile. Elles développent des compétences cognitives qui soutiennent la réussite académique dans toutes les matières sans être liées à un sujet ou un programme spécifique. Générez des puzzles inédits pour chaque séance avec différents thèmes et niveaux de difficulté pour que les utilisateurs ne voient jamais la même page deux fois. Les quatre types de puzzles vous permettent de faire tourner les activités tout au long de la semaine — sudoku le lundi, labyrinthes le mardi, pièces manquantes le mercredi, intrus le jeudi — maintenant l`engagement élevé et développant des compétences de réflexion variées.",
     },
     {
       title: "Supports de thérapie et éducation spécialisée",
@@ -107,14 +107,14 @@ const content: BundleContent = {
 
   featureComparison: [
     { feature: "Les 4 générateurs puzzles et logique", commercial: 'Oui', fullAccess: 'Oui' },
-    { feature: "Ensembles d'images thématiques", commercial: '10 thèmes', fullAccess: '104 thèmes' },
-    { feature: "Import d'images personnalisées (PNG/JPEG)", commercial: 'Oui', fullAccess: 'Oui' },
+    { feature: "Ensembles d`images thématiques", commercial: '10 thèmes', fullAccess: '104 thèmes` },
+    { feature: "Import d`images personnalisées (PNG/JPEG)", commercial: 'Oui', fullAccess: 'Oui` },
     { feature: "Corrigés automatiques (les 4 apps)", commercial: 'Oui', fullAccess: 'Oui' },
     { feature: "100% visuel — aucun texte sur les fiches", commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Téléchargement PDF et JPEG', commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Droits de vente commerciale', commercial: 'Oui', fullAccess: 'Oui' },
-    { feature: 'Langues d'interface', commercial: 'Français uniquement', fullAccess: '11 langues' },
-    { feature: "Parcours d'Images — 3 modes de labyrinthes", commercial: 'Oui', fullAccess: 'Oui' },
+    { feature: `Langues d'interface', commercial: 'Français uniquement', fullAccess: '11 langues` },
+    { feature: "Parcours d`Images — 3 modes de labyrinthes", commercial: 'Oui', fullAccess: 'Oui` },
     { feature: "Téléchargements sans filigrane", commercial: 'Oui', fullAccess: 'Oui' },
     { feature: 'Mises à jour à vie', commercial: 'Oui', fullAccess: 'Oui' },
   ],
@@ -130,7 +130,7 @@ const content: BundleContent = {
     },
     {
       title: "Enseignants et parents en instruction à domicile",
-      description: "Vous avez besoin d'activités d'enrichissement qui développent les compétences cognitives au-delà de l'entraînement par matière. Les fiches de puzzles et logique développent le raisonnement spatial, la discrimination visuelle, la déduction logique et la résolution de problèmes — des compétences transférables à toutes les matières académiques. Générez des puzzles inédits pour chaque leçon ou devoir avec différents thèmes et niveaux de difficulté pour maintenir l'engagement semaine après semaine. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez évaluer les quatre types de puzzles avant d'acheter.",
+      description: "Vous avez besoin d`activités d'enrichissement qui développent les compétences cognitives au-delà de l'entraînement par matière. Les fiches de puzzles et logique développent le raisonnement spatial, la discrimination visuelle, la déduction logique et la résolution de problèmes — des compétences transférables à toutes les matières académiques. Générez des puzzles inédits pour chaque leçon ou devoir avec différents thèmes et niveaux de difficulté pour maintenir l'engagement semaine après semaine. Chaque générateur propose un essai gratuit avec filigrane pour que vous puissiez évaluer les quatre types de puzzles avant d`acheter.",
     },
     {
       title: "Thérapeutes et professionnels de l'éducation spécialisée",
@@ -141,7 +141,7 @@ const content: BundleContent = {
   faq: [
     {
       question: "Puis-je essayer les générateurs avant d'acheter ?",
-      answer: "Oui. Chaque générateur du pack propose un essai gratuit avec filigrane et toutes les fonctionnalités. Vous pouvez configurer tous les paramètres, prévisualiser les fiches et télécharger les fichiers. Les téléchargements d'essai incluent un filigrane. L'achat d'une licence supprime le filigrane pour que vous puissiez vendre à titre commercial. Nous recommandons de tester les quatre générateurs avant l'achat pour confirmer qu'ils répondent à vos besoins.",
+      answer: "Oui. Chaque générateur du pack propose un essai gratuit avec filigrane et toutes les fonctionnalités. Vous pouvez configurer tous les paramètres, prévisualiser les fiches et télécharger les fichiers. Les téléchargements d`essai incluent un filigrane. L'achat d'une licence supprime le filigrane pour que vous puissiez vendre à titre commercial. Nous recommandons de tester les quatre générateurs avant l'achat pour confirmer qu`ils répondent à vos besoins.",
     },
     {
       question: "Les quatre générateurs sont-ils vraiment 100% visuels ?",
@@ -157,7 +157,7 @@ const content: BundleContent = {
     },
     {
       question: "Les quatre générateurs incluent-ils des corrigés ?",
-      answer: "Oui. Les quatre générateurs produisent des corrigés automatiques avec chaque fiche — c'est le seul pack avec une couverture de corrigés à 100%. Pièces Manquantes montre les placements corrects, Trouve l'Intrus met en évidence l'intrus dans chaque rangée, Sudoku affiche la grille complètement résolue, et Parcours d'Images trace la route correcte. Les corrigés sont une attente majeure des acheteurs sur Etsy.fr et Gumroad, et vous n'avez jamais besoin de résoudre les puzzles manuellement.",
+      answer: "Oui. Les quatre générateurs produisent des corrigés automatiques avec chaque fiche — c`est le seul pack avec une couverture de corrigés à 100%. Pièces Manquantes montre les placements corrects, Trouve l'Intrus met en évidence l'intrus dans chaque rangée, Sudoku affiche la grille complètement résolue, et Parcours d'Images trace la route correcte. Les corrigés sont une attente majeure des acheteurs sur Etsy.fr et Gumroad, et vous n`avez jamais besoin de résoudre les puzzles manuellement.",
     },
     {
       question: "Quels formats puis-je télécharger ?",
@@ -183,13 +183,13 @@ const content: BundleContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'pieces-manquantes-fiches', anchorText: "Générateur Pièces Manquantes — Tous les Détails" },
-    { pageType: 'app', slug: 'intrus-fiches', anchorText: "Générateur Trouve l'Intrus — Tous les Détails" },
+    { pageType: `app', slug: 'intrus-fiches', anchorText: "Générateur Trouve l`Intrus — Tous les Détails" },
     { pageType: 'app', slug: 'sudoku-enfants-fiches', anchorText: "Générateur Sudoku Enfants — Tous les Détails" },
-    { pageType: 'app', slug: 'parcours-images-fiches', anchorText: "Générateur Parcours d'Images — Tous les Détails" },
+    { pageType: `app', slug: 'parcours-images-fiches', anchorText: "Générateur Parcours d`Images — Tous les Détails" },
     { pageType: 'guide', slug: 'creer-mots-croises', anchorText: "Créer des mots croisés qui se vendent" },
     { pageType: 'guide', slug: 'publier-livres-puzzles-kdp', anchorText: "Publier des livres de puzzles sur Amazon KDP" },
-    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: "Publier des livres d'activités sur Amazon KDP" },
-    { pageType: 'idea', slug: 'cp-idees-imprimables', anchorText: "Idées d'imprimables pour le CP" },
+    { pageType: `start', slug: 'livres-activites-amazon-kdp', anchorText: "Publier des livres d`activités sur Amazon KDP" },
+    { pageType: `idea', slug: 'cp-idees-imprimables', anchorText: "Idées d`imprimables pour le CP" },
   ],
 
   visuals: {
@@ -198,10 +198,10 @@ const content: BundleContent = {
       primaryAlt: "Puzzle pièces manquantes avec segments de grille retirés pour un défi de raisonnement spatial",
     },
     sampleGallery: [
-      { src: "/samples/french/missing pieces/Pièces Manquantes 1.webp", alt: "Puzzle pièces manquantes avec segments de grille d'image retirés", caption: 'Puzzle Pièces Manquantes' },
+      { src: "/samples/french/missing pieces/Pièces Manquantes 1.webp", alt: "Puzzle pièces manquantes avec segments de grille d`image retirés", caption: 'Puzzle Pièces Manquantes` },
       { src: "/samples/french/odd one out/Trouve l'Intrus 1.webp", alt: "Fiche trouve l'intrus avec rangées d'images similaires et un élément différent", caption: 'Fiche Trouve l'Intrus' },
       { src: "/samples/french/sudoku/sudoku_worksheet.webp", alt: "Puzzle sudoku enfants 4x4 avec images thématiques au lieu de chiffres", caption: 'Puzzle Sudoku Enfants' },
-      { src: "/samples/french/picture path/Chemin d'Images 1.webp", alt: "Labyrinthe parcours d'images avec route thématique à travers une grille", caption: 'Labyrinthe Parcours d'Images' },
+      { src: "/samples/french/picture path/Chemin d`Images 1.webp", alt: "Labyrinthe parcours d'images avec route thématique à travers une grille", caption: 'Labyrinthe Parcours d'Images` },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: "Pack Puzzles & Logique — Découvrez les 4 Générateurs en Action",

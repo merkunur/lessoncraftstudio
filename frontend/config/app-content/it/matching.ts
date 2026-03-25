@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: "Genera la Scheda di Abbinamento",
         description:
-          "Clicca su Genera per creare il layout di abbinamento a due colonne. L'applicazione organizza le immagini e i testi selezionati nelle colonne sinistra e destra con il numero di coppie configurato. Un'intestazione stilizzata «Collega!» appare in alto con uno sfondo a pastiglia gialla (#FFD700), una cornice di bordo corallo (#FF7F50), e titolo e istruzioni localizzati nei font Fredoka e Quicksand. I numeri degli elementi e i punti decorativi appaiono secondo le tue impostazioni. La scheda di lavoro mostra la versione per l'utente senza linee di collegamento — pronta per gli utenti che tracciano le proprie linee.",
+          "Clicca su Genera per creare il layout di abbinamento a due colonne. L`applicazione organizza le immagini e i testi selezionati nelle colonne sinistra e destra con il numero di coppie configurato. Un'intestazione stilizzata «Collega!» appare in alto con uno sfondo a pastiglia gialla (#FFD700), una cornice di bordo corallo (#FF7F50), e titolo e istruzioni localizzati nei font Fredoka e Quicksand. I numeri degli elementi e i punti decorativi appaiono secondo le tue impostazioni. La scheda di lavoro mostra la versione per l`utente senza linee di collegamento — pronta per gli utenti che tracciano le proprie linee.",
       },
       {
         title: "Genera il Foglio Risposte e Scarica",

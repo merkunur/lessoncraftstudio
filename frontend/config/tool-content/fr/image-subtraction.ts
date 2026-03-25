@@ -29,15 +29,15 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Générateur de Fiches",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches de soustraction. L'outil s'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l'aperçu en temps réel. Aucun compte ni téléchargement requis.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches de soustraction. L`outil s'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l`aperçu en temps réel. Aucun compte ni téléchargement requis.",
       },
       {
-        title: 'Choisir le Mode d'Exercice',
+        title: `Choisir le Mode d'Exercice`,
         description: "Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi quatre modes : Barrer (les utilisateurs barrent des images pour visualiser la soustraction — le mode le plus intuitif pour les jeunes apprenants), Image − Nombre (un groupe d'images moins un chiffre), Trouver le Nombre à Soustraire (le diminuende et le résultat sont affichés ; l'enfant doit déterminer combien ont été retirés), ou Mode Mixte (combine aléatoirement les trois styles sur une même fiche).",
       },
       {
         title: 'Régler la Plage de Difficulté',
-        description: "Ajustez le curseur « Diminuende Maximum » pour contrôler le plus grand nombre de départ dans chaque exercice (plage : 2–20). Pour les tout-petits, gardez-le à 5 ou moins. Les enfants de maternelle gèrent bien jusqu'à 10. Les utilisateurs de CP peuvent travailler avec la plage complète jusqu'à 20. Vous pouvez aussi définir le nombre d'exercices par fiche (de 1 à 10).",
+        description: "Ajustez le curseur « Diminuende Maximum » pour contrôler le plus grand nombre de départ dans chaque exercice (plage : 2–20). Pour les tout-petits, gardez-le à 5 ou moins. Les enfants de maternelle gèrent bien jusqu`à 10. Les utilisateurs de CP peuvent travailler avec la plage complète jusqu'à 20. Vous pouvez aussi définir le nombre d`exercices par fiche (de 1 à 10).",
       },
       {
         title: "Sélectionner un Thème dans la Bibliothèque d'Images",
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: "Affiner les Options de la Fiche",
-        description: "Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe moins entre les groupes d'images, incluez les numéros d'exercice et basculez le style de zone de réponse attrayant. Chaque option met à jour l'aperçu en direct instantanément.",
+        description: "Peaufinez votre fiche avec des cases à cocher : activez les champs Nom/Date en haut, affichez ou masquez le signe moins entre les groupes d`images, incluez les numéros d'exercice et basculez le style de zone de réponse attrayant. Chaque option met à jour l`aperçu en direct instantanément.",
       },
       {
         title: 'Générer et Télécharger',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches de Soustraction Bilingues",
-      description: "Changez la langue du contenu pour créer des fiches avec des légendes d'images en allemand, espagnol, portugais ou l'une des 11 langues prises en charge. Idéal pour les classes FLE, les familles bilingues qui font l'instruction à domicile ou les vendeurs internationaux qui souhaitent servir des marchés non francophones.",
+      description: "Changez la langue du contenu pour créer des fiches avec des légendes d`images en allemand, espagnol, portugais ou l'une des 11 langues prises en charge. Idéal pour les classes FLE, les familles bilingues qui font l`instruction à domicile ou les vendeurs internationaux qui souhaitent servir des marchés non francophones.",
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Cahiers d'Activités de Soustraction sur Amazon KDP",
-      description: "Compilez plus de 50 pages d'exercices de soustraction avec images dans un cahier d'activités physique. Utilisez les modes mixtes et plusieurs thèmes pour la variété. Fixez le prix entre 6,99 € et 9,99 € et laissez Amazon gérer l'impression et la livraison. Les fiches Barrer se photographient particulièrement bien pour les images de listing KDP car les croix attirent immédiatement le regard.",
+      description: "Compilez plus de 50 pages d`exercices de soustraction avec images dans un cahier d'activités physique. Utilisez les modes mixtes et plusieurs thèmes pour la variété. Fixez le prix entre 6,99 € et 9,99 € et laissez Amazon gérer l`impression et la livraison. Les fiches Barrer se photographient particulièrement bien pour les images de listing KDP car les croix attirent immédiatement le regard.",
       platform: 'Amazon KDP',
     },
     {
@@ -131,7 +131,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez Trouver le Nombre à Soustraire pour les utilisateurs Avancés",
-      description: "Le mode Trouver le Nombre à Soustraire affiche le nombre de départ et le résultat, et l'enfant doit déterminer combien ont été retirés. C'est nettement plus difficile et développe le raisonnement algébrique précoce. Réservez-le pour les utilisateurs de CP et au-delà, ou commercialisez-le comme un niveau « défi » séparé. Sur Etsy et Gumroad, les fiches de soustraction « nombre manquant » attirent un segment d'acheteurs distinct — les vendeurs qui préparent leurs utilisateurs aux évaluations standardisées où les opérations inverses apparaissent fréquemment.",
+      description: "Le mode Trouver le Nombre à Soustraire affiche le nombre de départ et le résultat, et l`enfant doit déterminer combien ont été retirés. C'est nettement plus difficile et développe le raisonnement algébrique précoce. Réservez-le pour les utilisateurs de CP et au-delà, ou commercialisez-le comme un niveau « défi » séparé. Sur Etsy et Gumroad, les fiches de soustraction « nombre manquant » attirent un segment d`acheteurs distinct — les vendeurs qui préparent leurs utilisateurs aux évaluations standardisées où les opérations inverses apparaissent fréquemment.",
     },
     {
       title: 'Incluez Toujours le Corrigé',
@@ -143,7 +143,7 @@ const content: ToolContent = {
     },
     {
       title: "Combinez avec l'Addition pour des Packs Complets",
-      description: "Créez des ensembles d'addition et de soustraction assortis en utilisant le même thème et la même plage de difficulté. Vendez-les individuellement et en méga-pack combiné « Addition & Soustraction » avec une légère réduction. Les produits en pack ont des valeurs de commande moyennes plus élevées sur chaque marketplace. Les méga-packs combinés addition et soustraction commandent des prix nettement supérieurs aux packs d'opérations individuelles car ils offrent une couverture complète des familles de faits. Créez des sets thématiques assortis où les mêmes images apparaissent dans les fiches d'addition et de soustraction, renforçant la relation inverse entre les opérations. Fixez les méga-packs entre 7 € et 9 € pour un revenu maximal par transaction.",
+      description: "Créez des ensembles d`addition et de soustraction assortis en utilisant le même thème et la même plage de difficulté. Vendez-les individuellement et en méga-pack combiné « Addition & Soustraction » avec une légère réduction. Les produits en pack ont des valeurs de commande moyennes plus élevées sur chaque marketplace. Les méga-packs combinés addition et soustraction commandent des prix nettement supérieurs aux packs d'opérations individuelles car ils offrent une couverture complète des familles de faits. Créez des sets thématiques assortis où les mêmes images apparaissent dans les fiches d`addition et de soustraction, renforçant la relation inverse entre les opérations. Fixez les méga-packs entre 7 € et 9 € pour un revenu maximal par transaction.",
     },
     {
       title: "Ajoutez des Bordures Thématiques pour un Prix Premium",
@@ -170,7 +170,7 @@ const content: ToolContent = {
     },
     {
       question: "Comment fonctionne le mode Barrer ?",
-      answer: "En mode Barrer, la fiche affiche un groupe d'images représentant le diminuende. L'enfant barre le nombre d'images soustraites et compte les images restantes pour trouver la réponse. C'est la méthode la plus visuelle et intuitive pour enseigner la soustraction aux jeunes apprenants. Les images barrées restent visibles sur la page, permettant aux enfants de vérifier leur travail en comptant à la fois le groupe barré et le groupe restant. Cet aspect d'auto-vérification rend le mode Barrer particulièrement précieux pour la pratique autonome et les devoirs.",
+      answer: "En mode Barrer, la fiche affiche un groupe d`images représentant le diminuende. L'enfant barre le nombre d'images soustraites et compte les images restantes pour trouver la réponse. C'est la méthode la plus visuelle et intuitive pour enseigner la soustraction aux jeunes apprenants. Les images barrées restent visibles sur la page, permettant aux enfants de vérifier leur travail en comptant à la fois le groupe barré et le groupe restant. Cet aspect d`auto-vérification rend le mode Barrer particulièrement précieux pour la pratique autonome et les devoirs.",
     },
     {
       question: "Que contrôle le réglage du diminuende maximum ?",
@@ -196,12 +196,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'soustraction-fiches', anchorText: "Fiches de Soustraction — Détails Complets du Produit" },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d'Addition" },
-    { pageType: 'tool', slug: 'generateur-addition-codee', anchorText: "Générateur de Fiches d'Addition Codée" },
+    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
+    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: "Générateur de Fiches d`Addition Codée" },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: "Générateur de Puzzles Mathématiques" },
-    { pageType: 'tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d'Exercices de Maths" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Générateur de Pages de Coloriage" },
   ],
 

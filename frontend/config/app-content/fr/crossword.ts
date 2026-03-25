@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: "Générer le puzzle de mots croisés en images",
         description:
-          "Cliquez sur Générer pour créer les mots croisés sur une grille fixe 15×15. L'algorithme extrait les mots des noms d'images, supprime les espaces, convertit en majuscules, mélange et trie par longueur (les plus longs en premier), puis place les mots dans la grille pour un croisement optimal. Les positions d'indices numérotées marquent le début de chaque mot. Les images-indices apparaissent à côté de la grille avec leurs numéros correspondants. Un en-tête stylisé « Mots Croisés en Images » apparaît en haut avec un fond bleu (#5B9BD5), une pastille blanche, et un titre et une description localisés en polices Fredoka et Quicksand.",
+          "Cliquez sur Générer pour créer les mots croisés sur une grille fixe 15×15. L`algorithme extrait les mots des noms d'images, supprime les espaces, convertit en majuscules, mélange et trie par longueur (les plus longs en premier), puis place les mots dans la grille pour un croisement optimal. Les positions d`indices numérotées marquent le début de chaque mot. Les images-indices apparaissent à côté de la grille avec leurs numéros correspondants. Un en-tête stylisé « Mots Croisés en Images » apparaît en haut avec un fond bleu (#5B9BD5), une pastille blanche, et un titre et une description localisés en polices Fredoka et Quicksand.",
       },
       {
         title: "Générer le corrigé et télécharger",
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: "Quatre méthodes de saisie : sélection par thème, modification manuelle, liste personnalisée et import d'images",
         description:
-          "Un seul générateur prend en charge quatre façons distinctes de fournir le contenu des mots croisés. La Génération Rapide par Thème sélectionne 8 images aléatoires d'un thème et génère instantanément — le chemin le plus rapide vers un puzzle terminé. La Modification Manuelle des Noms d'Images vous permet de cliquer sur les images pour les sélectionner et de modifier chaque nom d'affichage avant la génération, offrant un contrôle précis sur les mots qui apparaissent dans la grille. La Liste de Mots Personnalisée avec Indices bascule en mode mots croisés traditionnels : saisissez des paires MOT : indice dans une zone de texte pour des indices textuels au lieu d'images. Importer des Images Personnalisées vous permet d'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés des images de la bibliothèque. Chaque méthode produit un puzzle complet à partir du même moteur de grille 15×15.",
+          "Un seul générateur prend en charge quatre façons distinctes de fournir le contenu des mots croisés. La Génération Rapide par Thème sélectionne 8 images aléatoires d`un thème et génère instantanément — le chemin le plus rapide vers un puzzle terminé. La Modification Manuelle des Noms d'Images vous permet de cliquer sur les images pour les sélectionner et de modifier chaque nom d'affichage avant la génération, offrant un contrôle précis sur les mots qui apparaissent dans la grille. La Liste de Mots Personnalisée avec Indices bascule en mode mots croisés traditionnels : saisissez des paires MOT : indice dans une zone de texte pour des indices textuels au lieu d'images. Importer des Images Personnalisées vous permet d`ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés des images de la bibliothèque. Chaque méthode produit un puzzle complet à partir du même moteur de grille 15×15.",
       },
       {
         title: "Corrigé auto-généré avec grille de mots croisés remplie",
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: "Mots de puzzle localisés dans 11 langues via le Vocabulaire d'Images",
         description:
-          "Le Générateur de Mots Croisés en Images est sensible à la langue : les mots du puzzle proviennent des noms d'images localisés chargés via le système de Vocabulaire d'Images. Changer la langue du contenu modifie les mots réels placés dans la grille de mots croisés. Par exemple, une image de chat génère « CHAT » en français mais « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — produisant des puzzles de mots croisés entièrement différents à partir des mêmes images. Les 11 langues sont prises en charge : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. La Licence Commerciale inclut le contenu anglais ; l'Accès Complet déverrouille les 11 langues pour les mots de puzzle localisés.",
+          "Le Générateur de Mots Croisés en Images est sensible à la langue : les mots du puzzle proviennent des noms d`images localisés chargés via le système de Vocabulaire d'Images. Changer la langue du contenu modifie les mots réels placés dans la grille de mots croisés. Par exemple, une image de chat génère « CHAT » en français mais « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — produisant des puzzles de mots croisés entièrement différents à partir des mêmes images. Les 11 langues sont prises en charge : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. La Licence Commerciale inclut le contenu anglais ; l`Accès Complet déverrouille les 11 langues pour les mots de puzzle localisés.",
       },
       {
         title: "Liste de mots personnalisée avec indices textuels pour mots croisés traditionnels",
         description:
-          "Activez la case Liste de Mots Personnalisée avec Indices pour basculer des mots croisés en images vers des mots croisés traditionnels à indices textuels. Saisissez vos mots et leurs indices au format MOT : texte de l'indice, un par ligne, avec un minimum de 8 entrées. Le même algorithme de grille 15×15 place vos mots personnalisés avec un croisement optimal, et les indices textuels remplacent les images-indices à côté de la grille. Ce mode est idéal pour les mots croisés de vocabulaire spécifique à une matière, la pratique de l'orthographe ou tout puzzle où vous souhaitez définir votre propre contenu — sans bibliothèque d'images nécessaire.",
+          "Activez la case Liste de Mots Personnalisée avec Indices pour basculer des mots croisés en images vers des mots croisés traditionnels à indices textuels. Saisissez vos mots et leurs indices au format MOT : texte de l`indice, un par ligne, avec un minimum de 8 entrées. Le même algorithme de grille 15×15 place vos mots personnalisés avec un croisement optimal, et les indices textuels remplacent les images-indices à côté de la grille. Ce mode est idéal pour les mots croisés de vocabulaire spécifique à une matière, la pratique de l'orthographe ou tout puzzle où vous souhaitez définir votre propre contenu — sans bibliothèque d`images nécessaire.",
       },
       {
         title: "Modification manuelle des noms d'images avant la génération du puzzle",
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: "Packs thématiques de mots croisés en images sur Etsy",
         description:
-          "Créez des packs de mots croisés en images thématiques avec les 104 collections d'images — mots croisés animaux, mots croisés nourriture, mots croisés véhicules, mots croisés fêtes et des dizaines d'autres. Chaque thème fournit assez d'illustrations pour plusieurs puzzles uniques puisque le générateur sélectionne aléatoirement 8 images par puzzle. Proposez 10–20 mots croisés en images par thème avec corrigés inclus, et vendez à 3 €–7 € par pack. Le format à indices visuels rend ces mots croisés visuellement attrayants dans les miniatures de listages Etsy, générant des taux de clic plus élevés que les produits de mots croisés uniquement textuels.",
+          "Créez des packs de mots croisés en images thématiques avec les 104 collections d`images — mots croisés animaux, mots croisés nourriture, mots croisés véhicules, mots croisés fêtes et des dizaines d'autres. Chaque thème fournit assez d`illustrations pour plusieurs puzzles uniques puisque le générateur sélectionne aléatoirement 8 images par puzzle. Proposez 10–20 mots croisés en images par thème avec corrigés inclus, et vendez à 3 €–7 € par pack. Le format à indices visuels rend ces mots croisés visuellement attrayants dans les miniatures de listages Etsy, générant des taux de clic plus élevés que les produits de mots croisés uniquement textuels.",
         platform: 'Etsy (etsy.fr)',
       },
       {
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: "Mots croisés de vocabulaire personnalisé pour Gumroad",
         description:
-          "Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur les programmes avec du vocabulaire défini par l'vendeur. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d'histoire-géographie, mots de compréhension de lecture ou listes d'orthographe. Les vendeurs recherchant des activités de mots croisés sur Gumroad apprécient les puzzles correspondant exactement à leur programme. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG. Le mode indices textuels vous permet de créer des mots croisés pour n'importe quelle matière sans utiliser la bibliothèque d'images.",
+          "Utilisez le mode Liste de Mots Personnalisée avec Indices pour créer des puzzles de mots croisés alignés sur les programmes avec du vocabulaire défini par l`vendeur. Saisissez des termes et définitions spécifiques à la matière au format MOT : indice — vocabulaire scientifique, termes d'histoire-géographie, mots de compréhension de lecture ou listes d'orthographe. Les vendeurs recherchant des activités de mots croisés sur Gumroad apprécient les puzzles correspondant exactement à leur programme. Créez des ensembles de mots croisés par niveau avec corrigés en PDF et JPEG. Le mode indices textuels vous permet de créer des mots croisés pour n'importe quelle matière sans utiliser la bibliothèque d`images.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -141,14 +141,14 @@ const content: AppContent = {
 
   faq: [
     {
-      question: "Qu'est-ce qu'un mot croisé en images et en quoi diffère-t-il d'un mot croisé traditionnel ?",
+      question: "Qu`est-ce qu'un mot croisé en images et en quoi diffère-t-il d`un mot croisé traditionnel ?",
       answer:
         "Un mot croisé en images remplace les définitions textuelles traditionnelles par des indices visuels. Au lieu de lire une définition écrite et de remplir la réponse, les résolveurs regardent une image colorée et écrivent le mot qu'elle représente dans la grille de mots croisés. Le générateur place 8 mots dérivés d'images sur une grille fixe 15×15 avec des positions numérotées reliant chaque image à sa case de départ. Ce format rend les mots croisés accessibles aux plus jeunes et aux apprenants en langues tout en conservant le défi de placement des mots des mots croisés traditionnels.",
     },
     {
       question: "Pourquoi la grille est-elle fixée à 15×15 cases ?",
       answer:
-        "La grille 15×15 offre suffisamment d'espace pour 8 mots croisés de longueurs variées tout en maintenant des proportions visuelles harmonieuses sur les formats Letter et A4. La taille de la grille est optimisée pour l'algorithme de placement — des grilles plus grandes laisseraient trop d'espace vide avec 8 mots, tandis que des grilles plus petites empêcheraient les mots longs de tenir. La taille fixe garantit des puzzles de mots croisés cohérents et professionnels à travers tous les thèmes et toutes les langues.",
+        "La grille 15×15 offre suffisamment d`espace pour 8 mots croisés de longueurs variées tout en maintenant des proportions visuelles harmonieuses sur les formats Letter et A4. La taille de la grille est optimisée pour l'algorithme de placement — des grilles plus grandes laisseraient trop d`espace vide avec 8 mots, tandis que des grilles plus petites empêcheraient les mots longs de tenir. La taille fixe garantit des puzzles de mots croisés cohérents et professionnels à travers tous les thèmes et toutes les langues.",
     },
     {
       question: "Comment fonctionne l'algorithme de génération du puzzle ?",
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Le Générateur de Mots Croisés en Images est-il sensible à la langue ?",
       answer:
-        "Oui. Les mots du puzzle proviennent des noms d'images localisés chargés via le système de Vocabulaire d'Images. Changer la langue du contenu modifie les mots réels placés dans la grille de mots croisés. Une image de chat génère « CHAT » en français mais « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — créant des puzzles de mots croisés entièrement différents à partir de sélections d'images identiques. L'en-tête localisé « Mots Croisés en Images » change également avec la langue sélectionnée. La Licence Commerciale inclut le contenu anglais ; l'Accès Complet déverrouille les 11 langues.",
+        "Oui. Les mots du puzzle proviennent des noms d`images localisés chargés via le système de Vocabulaire d'Images. Changer la langue du contenu modifie les mots réels placés dans la grille de mots croisés. Une image de chat génère « CHAT » en français mais « CAT » en anglais, « KATZE » en allemand et « GATTO » en italien — créant des puzzles de mots croisés entièrement différents à partir de sélections d'images identiques. L'en-tête localisé « Mots Croisés en Images » change également avec la langue sélectionnée. La Licence Commerciale inclut le contenu anglais ; l`Accès Complet déverrouille les 11 langues.",
     },
     {
       question: "Comment fonctionne l'en-tête auto-généré ?",
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre méthodes de saisie, le générateur de grille 15×15, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre méthodes de saisie, le générateur de grille 15×15, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

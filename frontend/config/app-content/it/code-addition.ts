@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: "Scegli la modalità e configura il codice",
         description:
-          "Apri le Impostazioni Esercizio e seleziona la Modalità negozica per decifrare il codice puro oppure la Modalità Parola Rivelata per incorporare una parola segreta. Nella Modalità negozica, imposta i valori minimi e massimi degli addendi (1–20) e scegli quanti simboli-immagine unici compaiono per scheda (2–5). Nella Modalità Parola Rivelata, scrivi una parola segreta fino a dieci lettere — l'applicazione genera un'equazione per ogni lettera la cui somma corrisponde a quella lettera, più tre equazioni distratrici con somme errate per aumentare la sfida. Se l'intervallo numerico non riesce a produrre somme uniche sufficienti per la parola, l'applicazione amplia automaticamente l'intervallo.",
+          "Apri le Impostazioni Esercizio e seleziona la Modalità negozica per decifrare il codice puro oppure la Modalità Parola Rivelata per incorporare una parola segreta. Nella Modalità negozica, imposta i valori minimi e massimi degli addendi (1–20) e scegli quanti simboli-immagine unici compaiono per scheda (2–5). Nella Modalità Parola Rivelata, scrivi una parola segreta fino a dieci lettere — l`applicazione genera un'equazione per ogni lettera la cui somma corrisponde a quella lettera, più tre equazioni distratrici con somme errate per aumentare la sfida. Se l'intervallo numerico non riesce a produrre somme uniche sufficienti per la parola, l'applicazione amplia automaticamente l`intervallo.",
       },
       {
         title: "Scegli le immagini dalla libreria tematica",
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: "Aggiungi testo, titoli e opzioni",
         description:
-          "Usa il pannello Strumenti di Testo per aggiungere un titolo, campi per nome e data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font accattivanti, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Attiva o disattiva i numeri degli esercizi, mostra o nascondi l'intestazione e la cornice, e attiva la modalità scala di grigi per una stampa economica. Ogni opzione aggiorna l'anteprima del canvas in tempo reale per regolare il layout prima di esportare.",
+          "Usa il pannello Strumenti di Testo per aggiungere un titolo, campi per nome e data dell`utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font accattivanti, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Attiva o disattiva i numeri degli esercizi, mostra o nascondi l'intestazione e la cornice, e attiva la modalità scala di grigi per una stampa economica. Ogni opzione aggiorna l`anteprima del canvas in tempo reale per regolare il layout prima di esportare.",
       },
       {
         title: "Genera la chiave di valore percepito e scarica",
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Quali intervalli numerici posso configurare per i problemi di addizione codificata?",
       answer:
-        "Puoi impostare i valori minimi e massimi da 1 a 20. L'intervallo deve essere sufficientemente ampio da fornire numeri unici a tutti i tuoi simboli — se selezioni cinque simboli, hai bisogno di almeno cinque numeri distinti nel tuo intervallo. L'applicazione lo valida automaticamente e ti indicherà se devi regolare l'intervallo.",
+        "Puoi impostare i valori minimi e massimi da 1 a 20. L`intervallo deve essere sufficientemente ampio da fornire numeri unici a tutti i tuoi simboli — se selezioni cinque simboli, hai bisogno di almeno cinque numeri distinti nel tuo intervallo. L'applicazione lo valida automaticamente e ti indicherà se devi regolare l`intervallo.",
     },
     {
       question: "Quanti simboli posso usare per scheda?",

@@ -42,17 +42,17 @@ const content: AppContent = {
       {
         title: "Configurer le nombre d'indices et les champs nom/date",
         description:
-          "Réglez le nombre d'indices visibles de 4 à 10 pour contrôler la difficulté de la fiche. Les 3 premiers wagons sont toujours affichés, et le wagon manquant est placé dynamiquement parmi les positions restantes. Afficher 10 indices ne laisse qu'un seul wagon vide parmi 10 visibles — le motif est très évident, idéal pour les débutants. N'afficher que 4 indices oblige les utilisateurs à identifier le motif à partir d'informations minimales — un véritable défi de raisonnement. Activez les champs optionnels de nom et date découpables pour l'identification des utilisateurs sur les fiches imprimées.",
+          "Réglez le nombre d`indices visibles de 4 à 10 pour contrôler la difficulté de la fiche. Les 3 premiers wagons sont toujours affichés, et le wagon manquant est placé dynamiquement parmi les positions restantes. Afficher 10 indices ne laisse qu'un seul wagon vide parmi 10 visibles — le motif est très évident, idéal pour les débutants. N'afficher que 4 indices oblige les utilisateurs à identifier le motif à partir d'informations minimales — un véritable défi de raisonnement. Activez les champs optionnels de nom et date découpables pour l`identification des utilisateurs sur les fiches imprimées.",
       },
       {
         title: "Sélectionner les images et ajouter des décorations",
         description:
-          "Parcourez 104 collections d'images thématiques avec plus de 3 100 illustrations — animaux, nourriture, véhicules, nature et des dizaines d'autres — ou laissez le thème sélectionner automatiquement des images assorties, choisissez manuellement depuis la bibliothèque, ou téléversez vos propres images personnalisées. Chaque thème fournit des visuels coordonnés qui sont cohérents sur l'ensemble des wagons du train. Utilisez le panneau Outils Texte pour ajouter un titre, des consignes ou du texte décoratif avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. Glissez, redimensionnez et repositionnez chaque élément sur le canevas complet Fabric.js.",
+          "Parcourez 104 collections d`images thématiques avec plus de 3 100 illustrations — animaux, nourriture, véhicules, nature et des dizaines d'autres — ou laissez le thème sélectionner automatiquement des images assorties, choisissez manuellement depuis la bibliothèque, ou téléversez vos propres images personnalisées. Chaque thème fournit des visuels coordonnés qui sont cohérents sur l`ensemble des wagons du train. Utilisez le panneau Outils Texte pour ajouter un titre, des consignes ou du texte décoratif avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. Glissez, redimensionnez et repositionnez chaque élément sur le canevas complet Fabric.js.",
       },
       {
         title: "Vérifier le corrigé et télécharger",
         description:
-          "Basculez vers l'onglet Corrigé pour voir le train complet avec les 11 wagons remplis — la position manquante affiche maintenant l'élément correct du motif. La fiche et le corrigé sont indépendamment modifiables sur des canevas séparés. Activez l'export en niveaux de gris pour des versions économiques en encre. Puis téléchargez chacun en JPEG haute résolution ou en PDF prêt à imprimer. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — la fiche et le corrigé se téléchargent comme des fichiers séparés pour un pack produit complet.",
+          "Basculez vers l`onglet Corrigé pour voir le train complet avec les 11 wagons remplis — la position manquante affiche maintenant l'élément correct du motif. La fiche et le corrigé sont indépendamment modifiables sur des canevas séparés. Activez l`export en niveaux de gris pour des versions économiques en encre. Puis téléchargez chacun en JPEG haute résolution ou en PDF prêt à imprimer. Chaque export est prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad — la fiche et le corrigé se téléchargent comme des fichiers séparés pour un pack produit complet.",
       },
     ],
   },
@@ -73,17 +73,17 @@ const content: AppContent = {
       {
         title: "Nombre d'indices ajustable de 4 à 10 pour le contrôle de difficulté",
         description:
-          "Le curseur du nombre d'indices contrôle combien des 11 positions de wagons affichent des images par rapport à la position vide unique. Les 3 premiers wagons sont toujours révélés, établissant la base du motif. Avec 10 indices, un seul wagon est vide parmi 10 éléments visibles — le motif est très évident. Avec 4 indices, les utilisateurs voient un minimum d'informations et doivent raisonner attentivement pour identifier la séquence à partir de données limitées. Ce seul réglage crée une large gamme de difficulté à partir de chaque type de motif, multipliant efficacement la variété de vos produits : un motif AB à 10 indices convient aux débutants, tandis qu'un motif ABC à 4 indices met au défi les utilisateurs avancés.",
+          "Le curseur du nombre d`indices contrôle combien des 11 positions de wagons affichent des images par rapport à la position vide unique. Les 3 premiers wagons sont toujours révélés, établissant la base du motif. Avec 10 indices, un seul wagon est vide parmi 10 éléments visibles — le motif est très évident. Avec 4 indices, les utilisateurs voient un minimum d'informations et doivent raisonner attentivement pour identifier la séquence à partir de données limitées. Ce seul réglage crée une large gamme de difficulté à partir de chaque type de motif, multipliant efficacement la variété de vos produits : un motif AB à 10 indices convient aux débutants, tandis qu`un motif ABC à 4 indices met au défi les utilisateurs avancés.",
       },
       {
         title: "Position manquante dynamique avec placement intelligent",
         description:
-          "La position du wagon vide est sélectionnée dynamiquement parmi les positions 3 à 10 en fonction du nombre d'indices configuré, garantissant que l'élément manquant tombe toujours dans la section répétitive du motif plutôt qu'au début évident. Les 3 premières positions sont toujours remplies pour établir visuellement le motif avant de présenter le défi. Ce placement intelligent crée des puzzles justes et résolvables à chaque fois — les utilisateurs ont assez de contexte pour identifier le motif avant de rencontrer le wagon vide. Le positionnement dynamique signifie aussi que deux fiches avec le même type de motif peuvent avoir des positions manquantes différentes, ajoutant de la variété naturelle aux lots de produits.",
+          "La position du wagon vide est sélectionnée dynamiquement parmi les positions 3 à 10 en fonction du nombre d`indices configuré, garantissant que l'élément manquant tombe toujours dans la section répétitive du motif plutôt qu`au début évident. Les 3 premières positions sont toujours remplies pour établir visuellement le motif avant de présenter le défi. Ce placement intelligent crée des puzzles justes et résolvables à chaque fois — les utilisateurs ont assez de contexte pour identifier le motif avant de rencontrer le wagon vide. Le positionnement dynamique signifie aussi que deux fiches avec le même type de motif peuvent avoir des positions manquantes différentes, ajoutant de la variété naturelle aux lots de produits.",
       },
       {
         title: "Bibliothèque d'images avec 104 collections thématiques",
         description:
-          "Accédez à plus de 3 100 illustrations réparties dans 104 collections thématiques — animaux, nourriture, véhicules, nature, métiers, fêtes et des dizaines d'autres. Chaque thème fournit un ensemble coordonné d'images qui sont cohérentes sur les wagons du train. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l'Accès Complet déverrouille les 104 thèmes pour une variété maximale de produits. La bibliothèque thématique crée des opportunités naturelles de regroupement : trains de suites logiques animaux de la ferme, séquences créatures marines, reconnaissance de motifs dinosaures — chaque thème devient un listage de produit distinct avec un attrait visuel immédiat.",
+          "Accédez à plus de 3 100 illustrations réparties dans 104 collections thématiques — animaux, nourriture, véhicules, nature, métiers, fêtes et des dizaines d`autres. Chaque thème fournit un ensemble coordonné d'images qui sont cohérentes sur les wagons du train. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l`Accès Complet déverrouille les 104 thèmes pour une variété maximale de produits. La bibliothèque thématique crée des opportunités naturelles de regroupement : trains de suites logiques animaux de la ferme, séquences créatures marines, reconnaissance de motifs dinosaures — chaque thème devient un listage de produit distinct avec un attrait visuel immédiat.",
       },
       {
         title: "Système à double canevas avec corrigé séparé",
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: "Édition complète du canevas avec outils texte et décoration",
         description:
-          "Le canevas intégré Fabric.js 5.3.1 vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, illustration du train, images, bordures et arrière-plans. Ajoutez du texte personnalisé avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et le contour pour une lisibilité maximale. Les contrôles de calques gèrent l'ordre d'empilement, verrouiller/déverrouiller protège les éléments terminés pendant que vous modifiez les autres, et les outils d'alignement positionnent les éléments avec précision. Zoomez de 25 % à 300 % pour un placement précis, avec annulation et rétablissement illimités pour une expérimentation confiante.",
+          "Le canevas intégré Fabric.js 5.3.1 vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, illustration du train, images, bordures et arrière-plans. Ajoutez du texte personnalisé avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et le contour pour une lisibilité maximale. Les contrôles de calques gèrent l`ordre d'empilement, verrouiller/déverrouiller protège les éléments terminés pendant que vous modifiez les autres, et les outils d`alignement positionnent les éléments avec précision. Zoomez de 25 % à 300 % pour un placement précis, avec annulation et rétablissement illimités pour une expérimentation confiante.",
       },
     ],
   },
@@ -115,19 +115,19 @@ const content: AppContent = {
       {
         title: "Cahiers d'apprentissage précoce sur Amazon KDP",
         description:
-          "Compilez 60 à 100 exercices de trains de suites logiques dans un cahier imprimé formaté pour Amazon KDP. Structurez le livre comme une progression de complexité : le chapitre 1 couvre les motifs AB avec beaucoup d'indices, le chapitre 2 introduit AAB et ABB, le chapitre 3 avance aux motifs ABC à trois éléments, le chapitre 4 présente les séquences étendues AABB, et le chapitre 5 réduit le nombre d'indices sur tous les types de motifs pour les pages de défi. Le format entièrement visuel avec des images sur les wagons et zéro texte signifie qu'aucune traduction n'est nécessaire pour les places de marché KDP internationales — publiez le même intérieur dans chaque pays. Les cahiers de trains de suites logiques remplissent une niche spécifique de mathématiques précoces avec une demande constante toute l'année.",
+          "Compilez 60 à 100 exercices de trains de suites logiques dans un cahier imprimé formaté pour Amazon KDP. Structurez le livre comme une progression de complexité : le chapitre 1 couvre les motifs AB avec beaucoup d`indices, le chapitre 2 introduit AAB et ABB, le chapitre 3 avance aux motifs ABC à trois éléments, le chapitre 4 présente les séquences étendues AABB, et le chapitre 5 réduit le nombre d'indices sur tous les types de motifs pour les pages de défi. Le format entièrement visuel avec des images sur les wagons et zéro texte signifie qu'aucune traduction n'est nécessaire pour les places de marché KDP internationales — publiez le même intérieur dans chaque pays. Les cahiers de trains de suites logiques remplissent une niche spécifique de mathématiques précoces avec une demande constante toute l`année.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: "Ateliers différenciés de mathématiques et reconnaissance visuelle pour Gumroad",
         description:
-          "Construisez des sets de pratique de reconnaissance de motifs par niveaux en utilisant la complexité comme axe de différenciation : Niveau 1 (motifs AB, 8–10 indices), Niveau 2 (motifs AAB/ABB, 6–8 indices), Niveau 3 (motifs ABC, 5–6 indices), et Niveau 4 (motifs AABB, 4–5 indices). Chaque niveau cible une demande cognitive différente — de la reconnaissance d'alternance simple à l'identification de séquences multi-éléments complexes à partir d'informations limitées. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d'atelier en ligne. Regroupez chaque niveau avec des exercices thématiques et des corrigés séparés pour la commodité de l'vendeur.",
+          "Construisez des sets de pratique de reconnaissance de motifs par niveaux en utilisant la complexité comme axe de différenciation : Niveau 1 (motifs AB, 8–10 indices), Niveau 2 (motifs AAB/ABB, 6–8 indices), Niveau 3 (motifs ABC, 5–6 indices), et Niveau 4 (motifs AABB, 4–5 indices). Chaque niveau cible une demande cognitive différente — de la reconnaissance d`alternance simple à l'identification de séquences multi-éléments complexes à partir d'informations limitées. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d'atelier en ligne. Regroupez chaque niveau avec des exercices thématiques et des corrigés séparés pour la commodité de l`vendeur.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
         title: "Fiches visuelles multilingues pour les marchés mondiaux",
         description:
-          "Comme les fiches Train de Suites Logiques ne contiennent que des images sur les wagons avec zéro texte sur la sortie, le même produit fonctionne dans toutes les langues sans modification. Créez un ensemble d'exercices de trains de suites logiques et vendez-le dans le monde entier — aucune traduction nécessaire, aucune version linguistique séparée à maintenir. Changer la langue du contenu n'affecte que les étiquettes de la bibliothèque d'images dans le générateur, pas la fiche imprimée. Listez des produits identiques sur des boutiques Etsy ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Un seul flux de travail produit un produit vendable universellement.",
+          "Comme les fiches Train de Suites Logiques ne contiennent que des images sur les wagons avec zéro texte sur la sortie, le même produit fonctionne dans toutes les langues sans modification. Créez un ensemble d`exercices de trains de suites logiques et vendez-le dans le monde entier — aucune traduction nécessaire, aucune version linguistique séparée à maintenir. Changer la langue du contenu n'affecte que les étiquettes de la bibliothèque d`images dans le générateur, pas la fiche imprimée. Listez des produits identiques sur des boutiques Etsy ciblant différents pays, ou publiez le même intérieur KDP sur toutes les places de marché Amazon internationales. Un seul flux de travail produit un produit vendable universellement.",
         platform: "Etsy / Amazon KDP / Gumroad (mondial)",
       },
       {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Quels sont les cinq types de motifs et en quoi diffèrent-ils ?",
       answer:
-        "AB alterne deux éléments (A-B-A-B) pour le motif répétitif le plus simple. AAB regroupe deux d'un élément puis un d'un autre (A-A-B-A-A-B). ABB inverse ce regroupement (A-B-B-A-B-B). ABC fait tourner trois éléments différents (A-B-C-A-B-C), obligeant les utilisateurs à suivre une unité de répétition plus longue. AABB associe deux de chaque élément (A-A-B-B-A-A-B-B) dans un cycle étendu. La progression de AB à AABB crée une échelle de difficulté naturelle, de l'alternance simple à deux éléments aux séquences multi-éléments complexes.",
+        "AB alterne deux éléments (A-B-A-B) pour le motif répétitif le plus simple. AAB regroupe deux d`un élément puis un d'un autre (A-A-B-A-A-B). ABB inverse ce regroupement (A-B-B-A-B-B). ABC fait tourner trois éléments différents (A-B-C-A-B-C), obligeant les utilisateurs à suivre une unité de répétition plus longue. AABB associe deux de chaque élément (A-A-B-B-A-A-B-B) dans un cycle étendu. La progression de AB à AABB crée une échelle de difficulté naturelle, de l`alternance simple à deux éléments aux séquences multi-éléments complexes.",
     },
     {
       question: "Comment le nombre d'indices contrôle-t-il la difficulté ?",
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: "Comment sélectionner les images pour les wagons du train ?",
       answer:
-        "Trois options sont disponibles : la sélection automatique par thème choisit des images coordonnées du thème sélectionné automatiquement, la sélection manuelle vous permet de parcourir la bibliothèque de 104 thèmes et de choisir des images spécifiques, et le téléversement personnalisé vous permet d'ajouter vos propres images. Chaque thème fournit un ensemble visuellement coordonné — animaux, véhicules, nourriture, nature et des dizaines d'autres. Le type de motif détermine combien d'images distinctes sont nécessaires : AB utilise 2, AAB et ABB utilisent 2, ABC utilise 3, et AABB utilise 2.",
+        "Trois options sont disponibles : la sélection automatique par thème choisit des images coordonnées du thème sélectionné automatiquement, la sélection manuelle vous permet de parcourir la bibliothèque de 104 thèmes et de choisir des images spécifiques, et le téléversement personnalisé vous permet d`ajouter vos propres images. Chaque thème fournit un ensemble visuellement coordonné — animaux, véhicules, nourriture, nature et des dizaines d'autres. Le type de motif détermine combien d`images distinctes sont nécessaires : AB utilise 2, AAB et ABB utilisent 2, ABC utilise 3, et AABB utilise 2.",
     },
     {
       question: "Comment fonctionne le corrigé pour les fiches train de suites logiques ?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Le générateur Train de Suites Logiques est-il sensible à la langue ?",
       answer:
-        "Non. Train de Suites Logiques est une application purement visuelle — les fiches ne contiennent que des images sur les wagons avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n'affecte que les étiquettes de l'interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d'interface.",
+        "Non. Train de Suites Logiques est une application purement visuelle — les fiches ne contiennent que des images sur les wagons avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n`affecte que les étiquettes de l'interface du générateur et les étiquettes de contenu de la bibliothèque d'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l'Accès Complet déverrouille les 104 thèmes et les 11 langues d`interface.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",

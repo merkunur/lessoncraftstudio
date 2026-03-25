@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Générer les cartes bingo',
         description:
-          "Cliquez sur Générer pour créer vos cartes bingo. L'application remplit votre grille configurée avec des images ou des mots du thème sélectionné, puis crée des jetons circulaires avec bordures en pointillés sous la carte — les jetons sont mélangés par l'algorithme de Fisher-Yates pour qu'ils ne correspondent jamais directement à la disposition de la carte. Si vous avez demandé plusieurs cartes, chacune tire une sélection aléatoire différente de la banque d'images, garantissant que chaque carte du lot est unique. La première carte apparaît immédiatement sur le canevas ; toutes les cartes sont incluses dans l'export ZIP par lot.",
+          "Cliquez sur Générer pour créer vos cartes bingo. L`application remplit votre grille configurée avec des images ou des mots du thème sélectionné, puis crée des jetons circulaires avec bordures en pointillés sous la carte — les jetons sont mélangés par l'algorithme de Fisher-Yates pour qu'ils ne correspondent jamais directement à la disposition de la carte. Si vous avez demandé plusieurs cartes, chacune tire une sélection aléatoire différente de la banque d'images, garantissant que chaque carte du lot est unique. La première carte apparaît immédiatement sur le canevas ; toutes les cartes sont incluses dans l`export ZIP par lot.",
       },
       {
         title: "Télécharger les cartes et la feuille d'appel",
         description:
-          "Basculez entre l'onglet Cartes + Jetons et l'onglet Appels pour prévisualiser les deux sorties. La feuille d'appel affiche une grille dynamique de mots avec une taille de police uniforme et des colonnes calculées selon la longueur du mot le plus long. Téléchargez les cartes individuelles en JPEG ou PDF avec les boutons dédiés, ou exportez par lot toutes les cartes générées en fichiers JPEG individuels dans un seul fichier bingo_cards.zip. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est rendu à 300 DPI et prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
+          "Basculez entre l`onglet Cartes + Jetons et l'onglet Appels pour prévisualiser les deux sorties. La feuille d`appel affiche une grille dynamique de mots avec une taille de police uniforme et des colonnes calculées selon la longueur du mot le plus long. Téléchargez les cartes individuelles en JPEG ou PDF avec les boutons dédiés, ou exportez par lot toutes les cartes générées en fichiers JPEG individuels dans un seul fichier bingo_cards.zip. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est rendu à 300 DPI et prêt pour la production : listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.",
       },
     ],
   },
@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: "Feuille d'appel dédiée avec grille dynamique de mots pour le meneur de jeu",
         description:
-          "Chaque ensemble de cartes bingo inclut une feuille d'appel compagnon sur un onglet séparé. La feuille d'appel affiche une grille dynamique de tous les mots uniques de la banque d'images — le meneur de jeu les lit à voix haute pendant que les joueurs marquent leurs cartes. Les colonnes sont calculées selon la longueur du mot le plus long (2 à 6 colonnes) avec une taille de police uniforme sur toutes les entrées pour une lisibilité claire. La grille est centrée sur la page et hérite des bordures et du fond du canevas. Activez la sélection personnalisée des appels pour choisir manuellement les images spécifiques pour la banque d'appels, avec un compteur en temps réel affichant le nombre d'éléments sélectionnés.",
+          "Chaque ensemble de cartes bingo inclut une feuille d`appel compagnon sur un onglet séparé. La feuille d'appel affiche une grille dynamique de tous les mots uniques de la banque d'images — le meneur de jeu les lit à voix haute pendant que les joueurs marquent leurs cartes. Les colonnes sont calculées selon la longueur du mot le plus long (2 à 6 colonnes) avec une taille de police uniforme sur toutes les entrées pour une lisibilité claire. La grille est centrée sur la page et hérite des bordures et du fond du canevas. Activez la sélection personnalisée des appels pour choisir manuellement les images spécifiques pour la banque d'appels, avec un compteur en temps réel affichant le nombre d`éléments sélectionnés.",
       },
       {
         title: "Bibliothèque d'images avec 104 collections thématiques et plus de 3 100 illustrations",
@@ -104,13 +104,13 @@ const content: AppContent = {
       {
         title: "Packs thématiques de cartes bingo sur Etsy",
         description:
-          "Créez des packs de cartes bingo thématiques en utilisant les 104 collections d'images — bingo animaux, bingo nourriture, bingo véhicules, bingo fêtes et des dizaines d'autres. Chaque thème fournit suffisamment d'illustrations pour des cartes uniques sur différentes tailles de grille. Regroupez 10 à 30 cartes bingo uniques par thème avec les feuilles d'appel incluses, et vendez à 3 €–8 € par pack. Utilisez la génération par lot pour créer 10 cartes uniques par ensemble en quelques secondes, puis mélangez les tailles de grille dans un même pack : cartes 3×3 pour des parties rapides, cartes 4×4 standard et cartes 5×5 prolongées pour la variété. L'export ZIP par lot rationalise la production pour les vendeurs à haut volume.",
+          "Créez des packs de cartes bingo thématiques en utilisant les 104 collections d`images — bingo animaux, bingo nourriture, bingo véhicules, bingo fêtes et des dizaines d'autres. Chaque thème fournit suffisamment d'illustrations pour des cartes uniques sur différentes tailles de grille. Regroupez 10 à 30 cartes bingo uniques par thème avec les feuilles d'appel incluses, et vendez à 3 €–8 € par pack. Utilisez la génération par lot pour créer 10 cartes uniques par ensemble en quelques secondes, puis mélangez les tailles de grille dans un même pack : cartes 3×3 pour des parties rapides, cartes 4×4 standard et cartes 5×5 prolongées pour la variété. L`export ZIP par lot rationalise la production pour les vendeurs à haut volume.",
         platform: 'Etsy (etsy.fr)',
       },
       {
         title: "Cahiers d'activités bingo sur Amazon KDP",
         description:
-          "Compilez 40 à 80 cartes bingo dans un cahier d'activités imprimé formaté pour Amazon KDP. Structurez votre livre par chapitres thématiques : animaux, nourriture, véhicules, fêtes et plus encore. Incluez les feuilles d'appel après chaque série de cartes pour que le livre soit autonome et prêt à jouer. Utilisez le mode niveaux de gris pour des intérieurs économiques en encre qui maintiennent les coûts d'impression bas. Mélangez les tailles de grille pour offrir une difficulté progressive — commencez avec des cartes 3×3 pour des parties rapides et progressez vers 5×5 pour des parties plus longues. Les cahiers d'activités bingo se vendent bien toute l'année et connaissent des pics pendant les fêtes quand les familles recherchent des activités de groupe.",
+          "Compilez 40 à 80 cartes bingo dans un cahier d`activités imprimé formaté pour Amazon KDP. Structurez votre livre par chapitres thématiques : animaux, nourriture, véhicules, fêtes et plus encore. Incluez les feuilles d'appel après chaque série de cartes pour que le livre soit autonome et prêt à jouer. Utilisez le mode niveaux de gris pour des intérieurs économiques en encre qui maintiennent les coûts d'impression bas. Mélangez les tailles de grille pour offrir une difficulté progressive — commencez avec des cartes 3×3 pour des parties rapides et progressez vers 5×5 pour des parties plus longues. Les cahiers d'activités bingo se vendent bien toute l`année et connaissent des pics pendant les fêtes quand les familles recherchent des activités de groupe.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -122,7 +122,7 @@ const content: AppContent = {
       {
         title: "Collections bingo saisonnières et de fêtes",
         description:
-          "Les 104 collections d'images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d'été et plus encore. Le bingo est un jeu naturellement social qui connaît des pics pendant les fêtes quand les familles et les classes recherchent des activités de groupe. Publiez les ensembles bingo Halloween en septembre, les collections de Noël en octobre, et les packs Saint-Valentin en janvier. Chaque ensemble saisonnier inclut plusieurs tailles de grille, les variantes remplissage images et mots, et les feuilles d'appel. Les produits bingo saisonniers commandent des prix premium pendant leurs fenêtres de pointe.",
+          "Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée scolaire, vacances d'été et plus encore. Le bingo est un jeu naturellement social qui connaît des pics pendant les fêtes quand les familles et les classes recherchent des activités de groupe. Publiez les ensembles bingo Halloween en septembre, les collections de Noël en octobre, et les packs Saint-Valentin en janvier. Chaque ensemble saisonnier inclut plusieurs tailles de grille, les variantes remplissage images et mots, et les feuilles d`appel. Les produits bingo saisonniers commandent des prix premium pendant leurs fenêtres de pointe.",
         platform: "Etsy / Amazon KDP / Gumroad (saisonnier)",
       },
       {
@@ -138,12 +138,12 @@ const content: AppContent = {
     {
       question: "Quelles tailles de grille sont disponibles pour les cartes bingo ?",
       answer:
-        "Les lignes et les colonnes sont configurables indépendamment de 3 à 5, créant des grilles de 3×3 (9 cases) jusqu'à 5×5 (25 cases). Le défaut est 4×4 avec 16 cases. Vous pouvez aussi créer des grilles non carrées comme 3×5 (15 cases) ou 5×3 (15 cases) pour des formats de cartes bingo uniques. Les grilles plus petites conviennent aux parties rapides, tandis que les grilles 5×5 offrent l'expérience bingo classique avec plus d'éléments à suivre.",
+        "Les lignes et les colonnes sont configurables indépendamment de 3 à 5, créant des grilles de 3×3 (9 cases) jusqu`à 5×5 (25 cases). Le défaut est 4×4 avec 16 cases. Vous pouvez aussi créer des grilles non carrées comme 3×5 (15 cases) ou 5×3 (15 cases) pour des formats de cartes bingo uniques. Les grilles plus petites conviennent aux parties rapides, tandis que les grilles 5×5 offrent l'expérience bingo classique avec plus d`éléments à suivre.",
     },
     {
       question: "Comment fonctionne la génération par lot pour plusieurs cartes bingo ?",
       answer:
-        "Réglez le nombre de cartes de 1 à 10 dans le panneau Paramètres de la Carte Bingo. Chaque carte tire une sélection aléatoire différente de la banque d'images, garantissant que chaque carte du lot est unique — essentiel pour le bingo où chaque joueur a besoin d'une carte différente. La première carte apparaît immédiatement sur le canevas pour un aperçu. Toutes les cartes générées sont disponibles via l'export ZIP par lot pour le téléchargement en fichiers JPEG individuels.",
+        "Réglez le nombre de cartes de 1 à 10 dans le panneau Paramètres de la Carte Bingo. Chaque carte tire une sélection aléatoire différente de la banque d`images, garantissant que chaque carte du lot est unique — essentiel pour le bingo où chaque joueur a besoin d'une carte différente. La première carte apparaît immédiatement sur le canevas pour un aperçu. Toutes les cartes générées sont disponibles via l`export ZIP par lot pour le téléchargement en fichiers JPEG individuels.",
     },
     {
       question: "Comment fonctionne l'export ZIP par lot ?",
@@ -153,17 +153,17 @@ const content: AppContent = {
     {
       question: "Quelle est la différence entre le remplissage des cases et le remplissage des jetons ?",
       answer:
-        "Les cases de la carte et les jetons ont chacun un mode de remplissage indépendant : Image ou Mot. Le remplissage des cases détermine ce qui apparaît dans chaque case de la grille bingo. Le remplissage des jetons détermine ce qui apparaît sur les jetons circulaires sous la carte que les joueurs utilisent pour l'association. Vous pouvez mélanger les modes — cartes à images avec jetons à mots, cartes à mots avec jetons à images, ou combiner les deux — créant quatre styles de cartes bingo distincts à partir d'un même ensemble d'images.",
+        "Les cases de la carte et les jetons ont chacun un mode de remplissage indépendant : Image ou Mot. Le remplissage des cases détermine ce qui apparaît dans chaque case de la grille bingo. Le remplissage des jetons détermine ce qui apparaît sur les jetons circulaires sous la carte que les joueurs utilisent pour l`association. Vous pouvez mélanger les modes — cartes à images avec jetons à mots, cartes à mots avec jetons à images, ou combiner les deux — créant quatre styles de cartes bingo distincts à partir d'un même ensemble d`images.",
     },
     {
       question: "Qu'est-ce que la feuille d'appel et comment fonctionne-t-elle ?",
       answer:
-        "La feuille d'appel est une page séparée (accessible via l'onglet Appels) qui affiche une grille dynamique de tous les éléments uniques de la banque d'images. Le meneur de jeu lit ces mots à voix haute pendant que les joueurs marquent leurs cartes bingo. Les colonnes sont calculées selon la longueur du mot le plus long (2 à 6 colonnes) avec une taille de police uniforme. La grille est centrée sur la page et hérite des bordures et du fond du canevas. Ce n'est PAS un corrigé — c'est une feuille de référence pour la personne qui anime le jeu de bingo.",
+        "La feuille d`appel est une page séparée (accessible via l'onglet Appels) qui affiche une grille dynamique de tous les éléments uniques de la banque d'images. Le meneur de jeu lit ces mots à voix haute pendant que les joueurs marquent leurs cartes bingo. Les colonnes sont calculées selon la longueur du mot le plus long (2 à 6 colonnes) avec une taille de police uniforme. La grille est centrée sur la page et hérite des bordures et du fond du canevas. Ce n'est PAS un corrigé — c`est une feuille de référence pour la personne qui anime le jeu de bingo.",
     },
     {
       question: "Qu'est-ce que la sélection personnalisée des appels ?",
       answer:
-        "Activez la case « Utiliser la sélection personnalisée » dans le panneau Paramètres de la Carte Bingo pour choisir manuellement quelles images spécifiques apparaissent dans la banque d'appels. Lorsqu'elle est activée, cliquez sur les images dans la Bibliothèque d'Images pour les ajouter à votre sélection personnalisée — un compteur en temps réel affiche « Sélectionnés pour les appels personnalisés : X » au fur et à mesure de votre choix. Cela vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme ou les événements thématiques nécessitant un vocabulaire spécifique.",
+        "Activez la case « Utiliser la sélection personnalisée » dans le panneau Paramètres de la Carte Bingo pour choisir manuellement quelles images spécifiques apparaissent dans la banque d`appels. Lorsqu'elle est activée, cliquez sur les images dans la Bibliothèque d`Images pour les ajouter à votre sélection personnalisée — un compteur en temps réel affiche « Sélectionnés pour les appels personnalisés : X » au fur et à mesure de votre choix. Cela vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme ou les événements thématiques nécessitant un vocabulaire spécifique.",
     },
     {
       question: "Le Générateur de Cartes Bingo à Images est-il sensible à la langue ?",
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: "Pourquoi n'y a-t-il pas de corrigé pour les cartes bingo ?",
       answer:
-        "Les cartes bingo utilisent une feuille d'appel au lieu d'un corrigé. Au bingo, le meneur de jeu lit les éléments de la feuille d'appel pendant que les joueurs marquent les éléments correspondants sur leurs cartes uniques — il n'y a pas de « bonne réponse » unique puisque chaque carte de joueur contient des éléments différents à des positions différentes. La feuille d'appel sert de document de référence du jeu, listant tous les éléments possibles que le meneur peut annoncer pendant la partie.",
+        "Les cartes bingo utilisent une feuille d`appel au lieu d'un corrigé. Au bingo, le meneur de jeu lit les éléments de la feuille d'appel pendant que les joueurs marquent les éléments correspondants sur leurs cartes uniques — il n'y a pas de « bonne réponse » unique puisque chaque carte de joueur contient des éléments différents à des positions différentes. La feuille d`appel sert de document de référence du jeu, listant tous les éléments possibles que le meneur peut annoncer pendant la partie.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à toutes les fonctionnalités — toutes les tailles de grille, la génération par lot jusqu'à 10 cartes, l'export ZIP par lot, les modes remplissage images et mots, la feuille d'appel, la bibliothèque d'images complète, la sélection personnalisée des appels, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
+        "Oui. Vous pouvez accéder à toutes les fonctionnalités — toutes les tailles de grille, la génération par lot jusqu`à 10 cartes, l'export ZIP par lot, les modes remplissage images et mots, la feuille d'appel, la bibliothèque d'images complète, la sélection personnalisée des appels, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
     },
     {
       question: "Peut-on ajouter des thèmes de fond et de bordure aux cartes bingo ?",
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester toutes les tailles de grille, la génération par lot, l'export ZIP, les modes remplissage images et mots, la feuille d'appel, la bibliothèque d'images complète, la sélection personnalisée des appels, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester toutes les tailles de grille, la génération par lot, l'export ZIP, les modes remplissage images et mots, la feuille d'appel, la bibliothèque d'images complète, la sélection personnalisée des appels, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: "Configurer la Plage de Nombres et les Options",
-        description: "Définissez les valeurs minimale et maximale pour les équations (par défaut 0–20). Pour les utilisateurs avancés, activez l'option « Autoriser les Résultats Négatifs » afin que les équations de soustraction puissent produire des valeurs négatives. Ces contrôles vous permettent d'adapter chaque fiche précisément à la tranche d'âge et au niveau scolaire visés.",
+        description: "Définissez les valeurs minimale et maximale pour les équations (par défaut 0–20). Pour les utilisateurs avancés, activez l`option « Autoriser les Résultats Négatifs » afin que les équations de soustraction puissent produire des valeurs négatives. Ces contrôles vous permettent d'adapter chaque fiche précisément à la tranche d`âge et au niveau scolaire visés.",
       },
       {
         title: 'Sélectionner Vos Images',
@@ -76,7 +76,7 @@ const content: ToolContent = {
       description: "Téléchargez vos propres illustrations, logos ou œuvres sous licence pour créer des puzzles algébriques qu'aucun concurrent ne peut reproduire. Les images téléchargées deviennent les symboles de variables dans chaque équation. Idéal pour construire une identité visuelle distinctive sur Etsy, créer des supports pédagogiques personnalisés ou concevoir des activités de maths de marque pour les entreprises de soutien scolaire.",
     },
     {
-      title: 'Packs Saisonniers d'Algèbre',
+      title: `Packs Saisonniers d'Algèbre`,
       description: "Utilisez les thèmes d'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Puzzles Algébriques de Noël » avec des symboles-images festifs se vend particulièrement bien en novembre–décembre. Halloween, Saint-Valentin et rentrée scolaire ont chacun leurs propres pics de ventes sur Etsy et Gumroad. Le format algébrique ajoute une difficulté perçue et une valeur supérieure par rapport aux simples exercices d'arithmétique.",
     },
     {
@@ -98,7 +98,7 @@ const content: ToolContent = {
     },
     {
       title: "Packs d'Algèbre Premium sur Gumroad",
-      description: "Téléchargez des packs de puzzles algébriques différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d'algèbre » et « puzzles maths ». Incluez les quatre niveaux de difficulté, les deux modes d'opération, les corrigés et un guide vendeur expliquant le fonctionnement du format d'algèbre visuelle. La fonction de solution garantie ajoute une crédibilité que les vendeurs valorisent pour les supports pédagogiques. Un guide d'utilisation associant chaque niveau de difficulté à des standards de programme aide les vendeurs à justifier l'achat auprès de leur administration.",
+      description: "Téléchargez des packs de puzzles algébriques différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d`algèbre » et « puzzles maths ». Incluez les quatre niveaux de difficulté, les deux modes d'opération, les corrigés et un guide vendeur expliquant le fonctionnement du format d'algèbre visuelle. La fonction de solution garantie ajoute une crédibilité que les vendeurs valorisent pour les supports pédagogiques. Un guide d'utilisation associant chaque niveau de difficulté à des standards de programme aide les vendeurs à justifier l`achat auprès de leur administration.",
       platform: 'Gumroad',
     },
     {
@@ -121,7 +121,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: "Commencez par Très Facile pour les Débutants",
-      description: "Le niveau Très Facile n'utilise que 2 symboles-images avec des équations d'addition simples. C'est idéal pour les utilisateurs qui découvrent l'algèbre visuelle pour la première fois. Laissez-les prendre confiance en reconnaissant les schémas avant de passer aux niveaux Facile, Moyen et Difficile. Une progression graduelle maintient la frustration basse et l'engagement élevé. Du point de vue du vendeur, les puzzles adaptés aux débutants attirent le public le plus large car les parents de jeunes enfants recherchent activement des activités d'introduction à l'algèbre utilisables à la maison.",
+      description: "Le niveau Très Facile n`utilise que 2 symboles-images avec des équations d'addition simples. C'est idéal pour les utilisateurs qui découvrent l'algèbre visuelle pour la première fois. Laissez-les prendre confiance en reconnaissant les schémas avant de passer aux niveaux Facile, Moyen et Difficile. Une progression graduelle maintient la frustration basse et l'engagement élevé. Du point de vue du vendeur, les puzzles adaptés aux débutants attirent le public le plus large car les parents de jeunes enfants recherchent activement des activités d'introduction à l`algèbre utilisables à la maison.",
     },
     {
       title: "Utilisez les Opérations Mixtes pour la Variété",
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: "Quels modes d'opération sont disponibles ?",
-      answer: "Le mode Addition Uniquement crée des équations utilisant uniquement l'addition. Le mode Addition et Soustraction mélange les deux opérations dans le système d'équations. Le mode mixte est idéal pour la pratique avancée et les fiches de révision qui testent les deux compétences simultanément dans un seul puzzle. Proposer deux modes d'opération distincts permet aux vendeurs de créer des listings séparés pour chaque mode plus un pack combiné, triplant efficacement la taille du catalogue à partir des mêmes modèles de fiches.",
+      answer: "Le mode Addition Uniquement crée des équations utilisant uniquement l`addition. Le mode Addition et Soustraction mélange les deux opérations dans le système d'équations. Le mode mixte est idéal pour la pratique avancée et les fiches de révision qui testent les deux compétences simultanément dans un seul puzzle. Proposer deux modes d`opération distincts permet aux vendeurs de créer des listings séparés pour chaque mode plus un pack combiné, triplant efficacement la taille du catalogue à partir des mêmes modèles de fiches.",
     },
     {
       question: "Comment fonctionne la garantie de solution unique ?",
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: "Que fait l'option résultats négatifs ?",
-      answer: "Lorsqu'elle est activée, les équations de soustraction peuvent produire des valeurs inférieures à zéro. Cela ajoute de la difficulté pour les apprenants avancés familiarisés avec les nombres négatifs. Lorsqu'elle est désactivée (par défaut), tous les résultats d'équations restent dans la plage de nombres positifs que vous avez définie. Gardez-la désactivée pour les utilisateurs du primaire et activez-la pour le collège ou la pratique avancée.",
+      answer: "Lorsqu`elle est activée, les équations de soustraction peuvent produire des valeurs inférieures à zéro. Cela ajoute de la difficulté pour les apprenants avancés familiarisés avec les nombres négatifs. Lorsqu'elle est désactivée (par défaut), tous les résultats d`équations restent dans la plage de nombres positifs que vous avez définie. Gardez-la désactivée pour les utilisateurs du primaire et activez-la pour le collège ou la pratique avancée.",
     },
     {
       question: "Puis-je télécharger mes propres images comme symboles de variables ?",
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: "Combien de puzzles puis-je mettre sur une page ?",
-      answer: "Vous pouvez placer de 1 à 6 puzzles par page grâce au contrôle « Puzzles Par Page ». La mise en page s'ajuste automatiquement au nombre sélectionné. Utilisez 1–2 puzzles par page pour les jeunes apprenants qui ont besoin de plus d'espace, ou 4–6 par page pour des fiches de pratique compactes et des produits de type cahier d'activités.",
+      answer: "Vous pouvez placer de 1 à 6 puzzles par page grâce au contrôle « Puzzles Par Page ». La mise en page s`ajuste automatiquement au nombre sélectionné. Utilisez 1–2 puzzles par page pour les jeunes apprenants qui ont besoin de plus d'espace, ou 4–6 par page pour des fiches de pratique compactes et des produits de type cahier d`activités.",
     },
     {
       question: "Les puzzles fonctionnent-ils dans toutes les langues ?",
@@ -198,12 +198,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'exercices-maths-fiches', anchorText: "Exercices de Maths — Détails Complets du Produit" },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d'Addition" },
+    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
-    { pageType: 'tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée' },
+    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée` },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: "Générateur de Puzzles Mathématiques" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: "Générateur de Pièces Manquantes" },
   ],
 

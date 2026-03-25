@@ -151,7 +151,7 @@ const content: StartContent = {
   faq: [
     {
       question: "Posso experimentar os geradores de fichas antes de comprar uma licença?",
-      answer: "Sim. Cada gerador oferece um teste grátis com marca d'água. Pode aceder a todas as funcionalidades, criar tantas fichas como desejar e avaliar a qualidade dos resultados antes de comprar. A única diferença é que as descargas de teste incluem uma marca d'água. Uma licença comercial remove a marca d'água e permite-lhe vender as fichas que criar.",
+      answer: "Sim. Cada gerador oferece um teste grátis com marca d`água. Pode aceder a todas as funcionalidades, criar tantas fichas como desejar e avaliar a qualidade dos resultados antes de comprar. A única diferença é que as descargas de teste incluem uma marca d'água. Uma licença comercial remove a marca d`água e permite-lhe vender as fichas que criar.",
     },
     {
       question: "Preciso de competências de design para criar fichas imprimíveis?",

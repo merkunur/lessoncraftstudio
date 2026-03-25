@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: "Créateur de Fiches Grand & Petit",
     tagline: "Créez des fiches de comparaison de tailles avec cinq types de questions, deux modes d'images et une sortie entièrement visuelle sans aucun texte — vendables dans le monde entier sans traduction",
-    description: "Concevez des fiches professionnelles de comparaison de tailles où les utilisateurs identifient les images plus grandes, plus petites ou de taille moyenne, ou les numérotent dans l'ordre croissant ou décroissant. Cinq types de questions couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d'images créent des exercices fondamentalement différents à partir du même outil : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts à différentes tailles pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons directes grand/petit, trois images pour introduire l'option du moyen et activer les exercices de classement. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie. Aucun mot n'apparaît sur la page générée — uniquement des images et des indicateurs visuels. Cela rend vos fiches universellement utilisables quelle que soit la langue, le niveau de lecture ou la capacité de lecture, et universellement vendables sans traduction. Un seul listing de produit dessert tous les marchés du monde. Choisissez parmi plus de 3 100 illustrations réparties dans 104 collections thématiques ou téléchargez vos propres images. Le corrigé généré automatiquement met en évidence et entoure les réponses correctes pour une vérification instantanée. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Personnalisez chaque élément sur le canevas Fabric.js complet avec les polices Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. L'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
+    description: "Concevez des fiches professionnelles de comparaison de tailles où les utilisateurs identifient les images plus grandes, plus petites ou de taille moyenne, ou les numérotent dans l`ordre croissant ou décroissant. Cinq types de questions couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d'images créent des exercices fondamentalement différents à partir du même outil : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts à différentes tailles pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons directes grand/petit, trois images pour introduire l'option du moyen et activer les exercices de classement. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie. Aucun mot n'apparaît sur la page générée — uniquement des images et des indicateurs visuels. Cela rend vos fiches universellement utilisables quelle que soit la langue, le niveau de lecture ou la capacité de lecture, et universellement vendables sans traduction. Un seul listing de produit dessert tous les marchés du monde. Choisissez parmi plus de 3 100 illustrations réparties dans 104 collections thématiques ou téléchargez vos propres images. Le corrigé généré automatiquement met en évidence et entoure les réponses correctes pour une vérification instantanée. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Personnalisez chaque élément sur le canevas Fabric.js complet avec les polices Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. L`essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
   tutorial: {
@@ -28,23 +28,23 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Grand & Petit",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de comparaison de tailles immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de comparaison de tailles immédiatement.",
       },
       {
         title: "Définir la Mise en Page et le Fond",
-        description: "Dans la section Mise en Page, sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou entrez une taille personnalisée. Choisissez une couleur de fond, sélectionnez un fond décoratif thématique dans la bibliothèque d'images avec opacité réglable et ajoutez un cadre de bordure avec contrôle d'opacité indépendant. Ces choix de mise en page donnent à vos fiches un aspect soigné et professionnel avant d'ajouter les exercices.",
+        description: "Dans la section Mise en Page, sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou entrez une taille personnalisée. Choisissez une couleur de fond, sélectionnez un fond décoratif thématique dans la bibliothèque d`images avec opacité réglable et ajoutez un cadre de bordure avec contrôle d'opacité indépendant. Ces choix de mise en page donnent à vos fiches un aspect soigné et professionnel avant d`ajouter les exercices.",
       },
       {
         title: 'Choisir le Type de Question',
-        description: "Sélectionnez l'un des cinq types de questions depuis le panneau Contenu. Entoure le Plus Grand demande aux utilisateurs d'identifier la plus grande image. Entoure le Plus Petit cible la plus petite. Entoure le Moyen met les utilisateurs au défi de trouver l'image de taille intermédiaire (nécessite 3 images par exercice). Numéroter 1–2–3 du Plus Petit au Plus Grand demande aux utilisateurs d'ordonner les images par taille croissante. Numéroter 1–2–3 du Plus Grand au Plus Petit inverse l'ordre en décroissant. Chaque type cible une compétence différente — identification vs séquençage.",
+        description: "Sélectionnez l`un des cinq types de questions depuis le panneau Contenu. Entoure le Plus Grand demande aux utilisateurs d'identifier la plus grande image. Entoure le Plus Petit cible la plus petite. Entoure le Moyen met les utilisateurs au défi de trouver l'image de taille intermédiaire (nécessite 3 images par exercice). Numéroter 1–2–3 du Plus Petit au Plus Grand demande aux utilisateurs d'ordonner les images par taille croissante. Numéroter 1–2–3 du Plus Grand au Plus Petit inverse l`ordre en décroissant. Chaque type cible une compétence différente — identification vs séquençage.",
       },
       {
-        title: 'Sélectionner le Mode d'Images',
+        title: `Sélectionner le Mode d'Images`,
         description: "Choisissez entre deux styles d'exercices fondamentalement différents. Le mode Images Identiques affiche la même image à différentes tailles, isolant la perception pure de la taille sans variable perturbatrice — idéal pour les plus jeunes qui développent la conscience de base des tailles. Le mode Images Différentes montre des objets distincts à différentes tailles, nécessitant un raisonnement de taille relative. Basculer entre les modes double la variété de vos produits sans modifier aucun autre paramètre.",
       },
       {
         title: "Configurer le Nombre d'Exercices et les Images par Exercice",
-        description: "Réglez le nombre d'exercices par page de 1 à 10. Choisissez 2 ou 3 images par exercice. Deux images créent des comparaisons directes grand/petit. Trois images ajoutent l'option du moyen, activent le type de question Entoure le Moyen et rendent les exercices de numérotation plus difficiles avec trois éléments à ordonner. Moins d'exercices avec de grandes images conviennent à la pratique ciblée pour les plus jeunes ; plus d'exercices créent des fiches d'évaluation denses.",
+        description: "Réglez le nombre d`exercices par page de 1 à 10. Choisissez 2 ou 3 images par exercice. Deux images créent des comparaisons directes grand/petit. Trois images ajoutent l'option du moyen, activent le type de question Entoure le Moyen et rendent les exercices de numérotation plus difficiles avec trois éléments à ordonner. Moins d'exercices avec de grandes images conviennent à la pratique ciblée pour les plus jeunes ; plus d'exercices créent des fiches d`évaluation denses.",
       },
       {
         title: "Parcourir les Thèmes ou Télécharger des Images Personnalisées",
@@ -52,7 +52,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Ajouter du Texte et Personnaliser le Canevas",
-        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des champs nom et date de l'utilisateur ou des consignes personnalisées. Choisissez parmi les polices Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas Fabric.js complet. Les outils d'alignement positionnent les éléments avec précision, le verrouillage/déverrouillage protège les éléments terminés pendant l'édition, et l'annulation/rétablissement illimités vous permettent d'expérimenter librement.",
+        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des champs nom et date de l`utilisateur ou des consignes personnalisées. Choisissez parmi les polices Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas Fabric.js complet. Les outils d'alignement positionnent les éléments avec précision, le verrouillage/déverrouillage protège les éléments terminés pendant l'édition, et l'annulation/rétablissement illimités vous permettent d`expérimenter librement.",
       },
       {
         title: "Générer le Corrigé et Télécharger",
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: "Utilisez le Type de Question comme Axe Principal de Difficulté",
-      description: "Les cinq types de questions créent une progression de difficulté naturelle. Entoure le Plus Grand est le plus facile — les utilisateurs repèrent l'image la plus grande. Entoure le Plus Petit est légèrement plus difficile car « le plus petit » demande une comparaison plus attentive. Entoure le Moyen est la tâche d'identification la plus dure car les utilisateurs doivent éliminer les deux extrêmes. Numéroter 1–2–3 nécessite un séquençage en plusieurs étapes. Utilisez cette progression pour créer des packs de produits à niveaux à partir d'une seule session de création.",
+      description: "Les cinq types de questions créent une progression de difficulté naturelle. Entoure le Plus Grand est le plus facile — les utilisateurs repèrent l`image la plus grande. Entoure le Plus Petit est légèrement plus difficile car « le plus petit » demande une comparaison plus attentive. Entoure le Moyen est la tâche d'identification la plus dure car les utilisateurs doivent éliminer les deux extrêmes. Numéroter 1–2–3 nécessite un séquençage en plusieurs étapes. Utilisez cette progression pour créer des packs de produits à niveaux à partir d`une seule session de création.",
     },
     {
       title: "Exploitez les Modes Identique vs Différent pour Doubler vos Produits",
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Combinez avec d'Autres Outils Visuels pour des Packs Premium",
-      description: "Associez les fiches de comparaison de tailles avec les fiches d'association, d'intrus, de silhouettes et de suites logiques. Chaque outil exerce une compétence de discrimination visuelle différente : Grand & Petit couvre la perception de la taille, l'association couvre l'appariement visuel, l'intrus couvre la classification, les silhouettes couvrent la reconnaissance de formes. Les packs visuels multi-format se vendent plus cher que les packs à format unique.",
+      description: "Associez les fiches de comparaison de tailles avec les fiches d`association, d'intrus, de silhouettes et de suites logiques. Chaque outil exerce une compétence de discrimination visuelle différente : Grand & Petit couvre la perception de la taille, l'association couvre l'appariement visuel, l`intrus couvre la classification, les silhouettes couvrent la reconnaissance de formes. Les packs visuels multi-format se vendent plus cher que les packs à format unique.",
     },
     {
       title: "Téléchargez des Images Personnalisées pour les Marchés de Niche",
-      description: "Utilisez le téléchargement d'images personnalisées pour créer des fiches de comparaison de tailles pour des audiences de niche au-delà de la bibliothèque intégrée. Comparez des tailles de bâtiments pour des cours de géographie, des portions alimentaires pour l'éducation à la santé, ou des tailles de planètes pour des cours de sciences. Les images personnalisées vous permettent de cibler des niches d'acheteurs spécifiques sur Etsy.fr et Gumroad où les images thématiques de la bibliothèque seules ne suffisent pas.",
+      description: "Utilisez le téléchargement d`images personnalisées pour créer des fiches de comparaison de tailles pour des audiences de niche au-delà de la bibliothèque intégrée. Comparez des tailles de bâtiments pour des cours de géographie, des portions alimentaires pour l'éducation à la santé, ou des tailles de planètes pour des cours de sciences. Les images personnalisées vous permettent de cibler des niches d`acheteurs spécifiques sur Etsy.fr et Gumroad où les images thématiques de la bibliothèque seules ne suffisent pas.",
     },
   ],
 
@@ -171,11 +171,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "En quoi Grand & Petit diffère-t-il des fiches d'association, d'intrus et de suites logiques ?",
-      answer: "Grand & Petit se concentre spécifiquement sur la discrimination de tailles — les utilisateurs comparent des objets par taille, identifient le plus grand ou le plus petit, ou classent les éléments par ordre de taille. Les fiches d'association apparient des éléments identiques ou associés. L'intrus demande de trouver quel élément n'appartient pas à un ensemble. Le Train Suites Logiques et les Séquences Logiques se concentrent sur la reconnaissance et la continuation de séquences. Chaque outil exerce une compétence visuelle distincte.",
+      answer: "Grand & Petit se concentre spécifiquement sur la discrimination de tailles — les utilisateurs comparent des objets par taille, identifient le plus grand ou le plus petit, ou classent les éléments par ordre de taille. Les fiches d`association apparient des éléments identiques ou associés. L'intrus demande de trouver quel élément n`appartient pas à un ensemble. Le Train Suites Logiques et les Séquences Logiques se concentrent sur la reconnaissance et la continuation de séquences. Chaque outil exerce une compétence visuelle distincte.",
     },
     {
       question: "Comment fonctionne le corrigé ?",
-      answer: "Le corrigé généré automatiquement crée une version résolue de votre fiche. Pour les questions d'entourage, l'image correcte est visuellement mise en évidence et entourée. Pour les questions de numérotation, l'ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche. Inclure des corrigés augmente la valeur perçue du produit et est attendu par les acheteurs sur Etsy.fr, Gumroad et KDP.",
+      answer: "Le corrigé généré automatiquement crée une version résolue de votre fiche. Pour les questions d`entourage, l'image correcte est visuellement mise en évidence et entourée. Pour les questions de numérotation, l`ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche. Inclure des corrigés augmente la valeur perçue du produit et est attendu par les acheteurs sur Etsy.fr, Gumroad et KDP.",
     },
     {
       question: "Peut-on choisir 2 ou 3 images par exercice ?",
@@ -183,7 +183,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Peut-on télécharger ses propres images ?",
-      answer: "Oui. Le téléchargement d'images personnalisées vous permet d'ajouter n'importe quelle image à vos exercices de comparaison de tailles. Téléchargez des photos, illustrations ou graphiques pertinents pour votre sujet ou audience. Les images personnalisées fonctionnent avec les cinq types de questions et les deux modes d'images. C'est utile pour les sujets de niche comme comparer des tailles de bâtiments, des portions alimentaires ou des tailles de planètes au-delà de la bibliothèque thématique des 104 thèmes.",
+      answer: "Oui. Le téléchargement d`images personnalisées vous permet d'ajouter n'importe quelle image à vos exercices de comparaison de tailles. Téléchargez des photos, illustrations ou graphiques pertinents pour votre sujet ou audience. Les images personnalisées fonctionnent avec les cinq types de questions et les deux modes d'images. C`est utile pour les sujets de niche comme comparer des tailles de bâtiments, des portions alimentaires ou des tailles de planètes au-delà de la bibliothèque thématique des 104 thèmes.",
     },
     {
       question: "Quels formats de fichier et tailles de page sont disponibles ?",
@@ -204,8 +204,8 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: "generateur-train-suites-logiques", anchorText: "Créateur de Fiches Train Suites Logiques" },
     { pageType: 'tool', slug: "generateur-fiches-sequences-logiques", anchorText: "Créateur de Fiches Séquences Logiques" },
     { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: "Créateur de Fiches Dessin sur Quadrillage" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d'Association" },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches d'Intrus' },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches d'Intrus` },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches de Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: "Créateur de Fiches de Graphisme" },
   ],

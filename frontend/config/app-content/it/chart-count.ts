@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: "Genera la scheda grafico a immagini",
         description:
-          "Clicca su Genera per creare la scheda. L'app distribuisce 20 icone sparse dei tuoi 6 tipi di immagini selezionati in una griglia 4×5 con un bordo tratteggiato nella parte superiore della pagina. Sotto la griglia appare un grafico a barre di 6 colonne × 5 righe con ogni colonna etichettata da uno dei 6 tipi di immagini. Le righe sono numerate da 1 a 5 dal basso verso l'alto. Un'intestazione auto-generata presenta un titolo localizzato «Grafico con Immagini» e istruzioni di conteggio in una pastiglia gialla stilizzata con cornice arancione. Il canvas della scheda mostra celle vuote pronte per gli utenti da completare.",
+          "Clicca su Genera per creare la scheda. L`app distribuisce 20 icone sparse dei tuoi 6 tipi di immagini selezionati in una griglia 4×5 con un bordo tratteggiato nella parte superiore della pagina. Sotto la griglia appare un grafico a barre di 6 colonne × 5 righe con ogni colonna etichettata da uno dei 6 tipi di immagini. Le righe sono numerate da 1 a 5 dal basso verso l'alto. Un`intestazione auto-generata presenta un titolo localizzato «Grafico con Immagini» e istruzioni di conteggio in una pastiglia gialla stilizzata con cornice arancione. Il canvas della scheda mostra celle vuote pronte per gli utenti da completare.",
       },
       {
         title: "Personalizza con strumenti di testo e modifica sul canvas",
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: "Genera la chiave di valore percepito e scarica tutto",
         description:
-          "Passa alla scheda Chiave di valore percepito per vedere la soluzione auto-generata — le celle del grafico a barre sono riempite con un'evidenziazione gialla (#FFC857) che mostra il conteggio corretto per ogni tipo di immagine. Attiva l'opzione scala di grigi per versioni economiche in inchiostro. Scarica i quattro file: scheda JPEG, scheda PDF, chiave di valore percepito JPEG e chiave di valore percepito PDF — tutti renderizzati a 300 DPI. I file vengono salvati come worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf per un'organizzazione facile. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
+          "Passa alla scheda Chiave di valore percepito per vedere la soluzione auto-generata — le celle del grafico a barre sono riempite con un`evidenziazione gialla (#FFC857) che mostra il conteggio corretto per ogni tipo di immagine. Attiva l'opzione scala di grigi per versioni economiche in inchiostro. Scarica i quattro file: scheda JPEG, scheda PDF, chiave di valore percepito JPEG e chiave di valore percepito PDF — tutti renderizzati a 300 DPI. I file vengono salvati come worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf per un`organizzazione facile. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.",
       },
     ],
   },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: "Intestazione localizzata del grafico a immagini con titolo e istruzioni",
         description:
-          "Ogni scheda generata include un'intestazione auto-generata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione (esterno #FF8C42, interno #FFD6A5). L'intestazione presenta un titolo localizzato — «Picture Graph» in inglese, «Bilddiagramm» in tedesco, «Graphique en Images» in francese, e traduzioni equivalenti nelle 11 lingue supportate. Sotto il titolo, istruzioni di conteggio localizzate guidano gli utenti attraverso l'attività. L'intestazione si adatta automaticamente quando cambi la lingua dell'interfaccia, rendendo le schede pronte per il negozio in qualsiasi lingua senza modifiche manuali del testo.",
+          "Ogni scheda generata include un`intestazione auto-generata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione (esterno #FF8C42, interno #FFD6A5). L'intestazione presenta un titolo localizzato — «Picture Graph» in inglese, «Bilddiagramm» in tedesco, «Graphique en Images» in francese, e traduzioni equivalenti nelle 11 lingue supportate. Sotto il titolo, istruzioni di conteggio localizzate guidano gli utenti attraverso l'attività. L'intestazione si adatta automaticamente quando cambi la lingua dell`interfaccia, rendendo le schede pronte per il negozio in qualsiasi lingua senza modifiche manuali del testo.",
       },
       {
         title: "Libreria di Immagini con 104 collezioni tematiche e oltre 3100 illustrazioni",
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Cos'è l'intestazione localizzata di ogni scheda?",
       answer:
-        "Ogni scheda generata include un'intestazione stilizzata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione. L'intestazione presenta un titolo «Grafico con Immagini» e istruzioni di conteggio che si traducono automaticamente nella lingua dell'interfaccia attiva — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. L'intestazione si adatta in modalità orizzontale con un layout compatto. Non è necessario creare né formattare l'intestazione manualmente.",
+        "Ogni scheda generata include un`intestazione stilizzata con uno sfondo a pastiglia gialla (#FFD93D), una pastiglia interna bianca e una cornice arancione. L'intestazione presenta un titolo «Grafico con Immagini» e istruzioni di conteggio che si traducono automaticamente nella lingua dell'interfaccia attiva — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. L'intestazione si adatta in modalità orizzontale con un layout compatto. Non è necessario creare né formattare l`intestazione manualmente.",
     },
     {
       question: "Come funzionano i campi nome e data?",
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: "Come funziona la modalità scala di grigi?",
       answer:
-        "La modalità scala di grigi nel pannello Download converte l'intera scheda o chiave di valore percepito in scala di grigi al momento dell'esportazione. Il tuo canvas rimane a colori per una facile modifica visiva — la scala di grigi viene applicata solo al file esportato. Questo produce un output economico in inchiostro per la stampa in volume dove l'inchiostro a colori è costoso o non disponibile, e per interni di libri Amazon KDP che richiedono pagine in bianco e nero. La modalità scala di grigi funziona in modo indipendente per le esportazioni di scheda e chiave di valore percepito.",
+        "La modalità scala di grigi nel pannello Download converte l`intera scheda o chiave di valore percepito in scala di grigi al momento dell'esportazione. Il tuo canvas rimane a colori per una facile modifica visiva — la scala di grigi viene applicata solo al file esportato. Questo produce un output economico in inchiostro per la stampa in volume dove l`inchiostro a colori è costoso o non disponibile, e per interni di libri Amazon KDP che richiedono pagine in bianco e nero. La modalità scala di grigi funziona in modo indipendente per le esportazioni di scheda e chiave di valore percepito.",
     },
     {
       question: "Come si alterna tra la scheda e la chiave di valore percepito?",
       answer:
-        "L'area del canvas ha due schede: Foglio di Lavoro e Chiave di valore percepito. Clicca sulla scheda Chiave di valore percepito per vedere la soluzione auto-generata con le celle del grafico riempite di giallo. Clicca sulla scheda Foglio di Lavoro per tornare alla versione dell'utente con celle vuote. Ogni scheda ha il proprio paio di pulsanti di download (JPEG e PDF), dandoti quattro opzioni di download in totale. Le modifiche agli elementi del canvas come testo, sfondo e bordi si applicano a entrambe le schede — l'unica differenza tra loro è lo stato di riempimento del grafico a barre.",
+        "L`area del canvas ha due schede: Foglio di Lavoro e Chiave di valore percepito. Clicca sulla scheda Chiave di valore percepito per vedere la soluzione auto-generata con le celle del grafico riempite di giallo. Clicca sulla scheda Foglio di Lavoro per tornare alla versione dell'utente con celle vuote. Ogni scheda ha il proprio paio di pulsanti di download (JPEG e PDF), dandoti quattro opzioni di download in totale. Le modifiche agli elementi del canvas come testo, sfondo e bordi si applicano a entrambe le schede — l`unica differenza tra loro è lo stato di riempimento del grafico a barre.",
     },
     {
       question: "È disponibile una prova gratuita?",

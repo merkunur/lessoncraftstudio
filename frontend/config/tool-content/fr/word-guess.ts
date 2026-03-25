@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Deviner les Mots",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur. L'outil s'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur. L`outil s'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.",
       },
       {
         title: "Définir la Mise en Page et le Modèle",
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: 'Choisir Votre Mode de Saisie',
-        description: "Sélectionnez Indice Image ou Liste de Mots Personnalisée. Le mode Indice Image utilise des illustrations de la bibliothèque intégrée — l'outil génère automatiquement les grilles de lettres à partir du mot de l'image dans la langue sélectionnée. Le mode Liste de Mots Personnalisée vous permet de taper des mots directement sans images, idéal pour du vocabulaire de niche, des listes de dictée ou de la terminologie spécifique à une matière que la bibliothèque d'images ne couvre pas.",
+        description: "Sélectionnez Indice Image ou Liste de Mots Personnalisée. Le mode Indice Image utilise des illustrations de la bibliothèque intégrée — l`outil génère automatiquement les grilles de lettres à partir du mot de l'image dans la langue sélectionnée. Le mode Liste de Mots Personnalisée vous permet de taper des mots directement sans images, idéal pour du vocabulaire de niche, des listes de dictée ou de la terminologie spécifique à une matière que la bibliothèque d`images ne couvre pas.",
       },
       {
         title: "Définir le Niveau de Difficulté des Indices",
-        description: "Choisissez parmi quatre niveaux de difficulté progressifs. Sans Indices laisse la grille entièrement vide pour un rappel pur — idéal pour les orthographeurs avancés. Facile révèle la moitié des lettres, offrant un étayage aux jeunes apprenants qui commencent à épeler. Normal révèle un quart des lettres pour un défi équilibré. Difficile révèle seulement un sixième des lettres pour les utilisateurs confiants qui n'ont besoin que d'un minimum d'indices. Mélangez les niveaux de difficulté entre les pages pour créer des packs de fiches différenciés.",
+        description: "Choisissez parmi quatre niveaux de difficulté progressifs. Sans Indices laisse la grille entièrement vide pour un rappel pur — idéal pour les orthographeurs avancés. Facile révèle la moitié des lettres, offrant un étayage aux jeunes apprenants qui commencent à épeler. Normal révèle un quart des lettres pour un défi équilibré. Difficile révèle seulement un sixième des lettres pour les utilisateurs confiants qui n`ont besoin que d'un minimum d`indices. Mélangez les niveaux de difficulté entre les pages pour créer des packs de fiches différenciés.",
       },
       {
         title: "Sélectionner les Images et le Thème",
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Générer et Télécharger',
-        description: "Cliquez sur « Générer » pour créer votre fiche deviner les mots. L'aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant l'orthographe correcte pour chaque exercice. Pour les pages en paysage avec 5 exercices ou plus, l'outil bascule automatiquement vers une mise en page intelligente à deux colonnes.",
+        description: "Cliquez sur « Générer » pour créer votre fiche deviner les mots. L`aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant l'orthographe correcte pour chaque exercice. Pour les pages en paysage avec 5 exercices ou plus, l`outil bascule automatiquement vers une mise en page intelligente à deux colonnes.",
       },
     ],
   },
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: "Cahiers d'Activités Deviner les Mots pour KDP",
-      description: "Générez 50 à 100 pages deviner les mots avec une structure de difficulté progressive : le niveau Facile dans le chapitre d'ouverture, Normal pour la section principale et Difficile pour les chapitres de défi final. Exportez en PDF haute résolution et publiez comme cahier d'activités sur Amazon KDP. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Chaque page ressemble à un puzzle visuel, faisant ressortir votre livre dans les résultats de recherche KDP.",
+      description: "Générez 50 à 100 pages deviner les mots avec une structure de difficulté progressive : le niveau Facile dans le chapitre d`ouverture, Normal pour la section principale et Difficile pour les chapitres de défi final. Exportez en PDF haute résolution et publiez comme cahier d'activités sur Amazon KDP. Utilisez le mode niveaux de gris pour réduire les coûts d`impression. Chaque page ressemble à un puzzle visuel, faisant ressortir votre livre dans les résultats de recherche KDP.",
     },
     {
       title: "Ensembles Différenciés par Niveau d'Indices",
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: "Fiches de Vocabulaire avec Liste de Mots Personnalisée",
-      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d'orthographe ou vocabulaire en langue étrangère. Pas besoin d'images — l'outil génère des grilles de lettres à partir de vos mots saisis. Créez une pratique d'orthographe ciblée pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d'images ne couvre pas.",
+      description: "Utilisez le mode Liste de Mots Personnalisée pour taper du vocabulaire spécifique à une matière : termes scientifiques, mots de dictée, listes de concours d`orthographe ou vocabulaire en langue étrangère. Pas besoin d'images — l'outil génère des grilles de lettres à partir de vos mots saisis. Créez une pratique d'orthographe ciblée pour tout programme, niveau scolaire ou thème de niche que la bibliothèque d`images ne couvre pas.",
     },
     {
       title: "Packs Saisonniers de Devinettes Orthographiques",
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: "Boutique Etsy d'Orthographe Multilingue",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches deviner les mots dans les 11 langues prises en charge. La plupart des vendeurs de fiches d'orthographe ne servent que l'anglais — vous pouvez lister des designs identiques sur Etsy Allemagne, France, Espagne, Italie, Suède et plus encore. Chaque version linguistique utilise des orthographes correctes différentes à partir des mêmes images, créant des produits véritablement uniques. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d'acheteurs différent avec une concurrence minimale.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches deviner les mots dans les 11 langues prises en charge. La plupart des vendeurs de fiches d`orthographe ne servent que l'anglais — vous pouvez lister des designs identiques sur Etsy Allemagne, France, Espagne, Italie, Suède et plus encore. Chaque version linguistique utilise des orthographes correctes différentes à partir des mêmes images, créant des produits véritablement uniques. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d`acheteurs différent avec une concurrence minimale.",
       platform: 'Etsy.fr',
     },
     {
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Packs Différenciés pour Gumroad",
-      description: "Téléchargez des packs de fiches deviner les mots sur Gumroad organisés par thème et niveau de difficulté. Incluez les quatre niveaux d'indices pour chaque thème, plus les corrigés pour chaque page. Les vendeurs recherchent fréquemment « fiches d'orthographe » et « activités de construction de mots ». La différenciation à 4 niveaux signifie qu'un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs valorisent hautement dans leurs avis.",
+      description: "Téléchargez des packs de fiches deviner les mots sur Gumroad organisés par thème et niveau de difficulté. Incluez les quatre niveaux d`indices pour chaque thème, plus les corrigés pour chaque page. Les vendeurs recherchent fréquemment « fiches d'orthographe » et « activités de construction de mots ». La différenciation à 4 niveaux signifie qu`un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs valorisent hautement dans leurs avis.",
       platform: 'Gumroad',
     },
     {
@@ -112,12 +112,12 @@ const content: ToolContent = {
     },
     {
       title: "Tunnel de Vente Orthographe Visuelle sur Pinterest",
-      description: "Le format image-plus-grille-de-lettres est naturellement visuel et épinglable — une image colorée d'animal associée à une grille de lettres partiellement remplie est instantanément reconnaissable comme une activité ludique. Épinglez un échantillon gratuit de 3 pages, collectez des adresses e-mail, puis proposez vos packs thématiques et multilingues complets en vente. Les fiches deviner les mots obtiennent significativement plus de sauvegardes que les listes d'orthographe classiques parce qu'elles ressemblent à des puzzles.",
+      description: "Le format image-plus-grille-de-lettres est naturellement visuel et épinglable — une image colorée d`animal associée à une grille de lettres partiellement remplie est instantanément reconnaissable comme une activité ludique. Épinglez un échantillon gratuit de 3 pages, collectez des adresses e-mail, puis proposez vos packs thématiques et multilingues complets en vente. Les fiches deviner les mots obtiennent significativement plus de sauvegardes que les listes d'orthographe classiques parce qu`elles ressemblent à des puzzles.",
       platform: 'Pinterest',
     },
     {
       title: "Packs de Vocabulaire Bimodaux sur Etsy",
-      description: "Exploitez les deux modes de saisie pour créer des packs de vocabulaire complets. Utilisez le mode Indice Image pour la construction de vocabulaire visuel et le mode Liste de Mots Personnalisée pour les mots d'orthographe alignés au programme. Regroupez les deux dans un seul produit : « Kit Complet de Pratique d'Orthographe — Visuel + Écrit ». L'approche bimodale justifie un prix premium et sert à la fois les apprenants visuels et traditionnels.",
+      description: "Exploitez les deux modes de saisie pour créer des packs de vocabulaire complets. Utilisez le mode Indice Image pour la construction de vocabulaire visuel et le mode Liste de Mots Personnalisée pour les mots d`orthographe alignés au programme. Regroupez les deux dans un seul produit : « Kit Complet de Pratique d'Orthographe — Visuel + Écrit ». L`approche bimodale justifie un prix premium et sert à la fois les apprenants visuels et traditionnels.",
       platform: 'Etsy.fr',
     },
   ],
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: "Utilisez les Listes de Mots Personnalisées pour du Vocabulaire de Niche",
-      description: "Le mode Liste de Mots Personnalisée vous permet de taper n'importe quels mots directement, contournant la bibliothèque d'images. Créez des fiches d'orthographe pour des termes scientifiques, des listes de mots de dictée, la préparation aux concours d'orthographe, du vocabulaire en langue étrangère ou toute terminologie spécifique à une matière. Ce mode ouvre des marchés que la bibliothèque d'images seule ne peut atteindre.",
+      description: "Le mode Liste de Mots Personnalisée vous permet de taper n`importe quels mots directement, contournant la bibliothèque d'images. Créez des fiches d'orthographe pour des termes scientifiques, des listes de mots de dictée, la préparation aux concours d'orthographe, du vocabulaire en langue étrangère ou toute terminologie spécifique à une matière. Ce mode ouvre des marchés que la bibliothèque d`images seule ne peut atteindre.",
     },
     {
       title: "Utilisez les Niveaux de Gris pour KDP et l'Impression en Volume",
@@ -164,11 +164,11 @@ const content: ToolContent = {
     },
     {
       question: "Quels sont les deux modes de saisie ?",
-      answer: "Le mode Indice Image utilise des illustrations de la bibliothèque intégrée de plus de 3 100 images réparties dans 104 thèmes. L'outil génère automatiquement les grilles de lettres à partir du mot de l'image dans la langue sélectionnée. Le mode Liste de Mots Personnalisée vous permet de taper n'importe quels mots directement — l'outil génère des grilles de lettres sans images, idéal pour les listes de dictée, le vocabulaire spécifique à une matière ou les mots que la bibliothèque d'images ne couvre pas.",
+      answer: "Le mode Indice Image utilise des illustrations de la bibliothèque intégrée de plus de 3 100 images réparties dans 104 thèmes. L`outil génère automatiquement les grilles de lettres à partir du mot de l'image dans la langue sélectionnée. Le mode Liste de Mots Personnalisée vous permet de taper n'importe quels mots directement — l'outil génère des grilles de lettres sans images, idéal pour les listes de dictée, le vocabulaire spécifique à une matière ou les mots que la bibliothèque d`images ne couvre pas.",
     },
     {
       question: "Que fait la fonctionnalité Exclure des Lettres ?",
-      answer: "Exclure des Lettres retire des lettres spécifiques des positions pré-remplies dans la grille. Par exemple, excluez toutes les voyelles pour que les utilisateurs doivent les fournir, transformant l'exercice en pratique phonétique ciblée. Vous pouvez exclure n'importe quelle combinaison de lettres pour cibler des compétences orthographiques spécifiques ou augmenter la difficulté au-delà des quatre niveaux d'indices standards.",
+      answer: "Exclure des Lettres retire des lettres spécifiques des positions pré-remplies dans la grille. Par exemple, excluez toutes les voyelles pour que les utilisateurs doivent les fournir, transformant l`exercice en pratique phonétique ciblée. Vous pouvez exclure n'importe quelle combinaison de lettres pour cibler des compétences orthographiques spécifiques ou augmenter la difficulté au-delà des quatre niveaux d`indices standards.",
     },
     {
       question: "Comment fonctionne la sensibilité linguistique ?",
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: "L'outil génère-t-il des corrigés ?",
-      answer: "Oui. L'outil génère un corrigé séparé montrant l'orthographe correcte pour chaque exercice. Les corrigés sont disponibles en format PDF et JPEG. Chaque niveau de difficulté obtient son propre corrigé pour que les vendeurs puissent vérifier rapidement le travail des utilisateurs quel que soit le niveau d'indices attribué.",
+      answer: "Oui. L`outil génère un corrigé séparé montrant l'orthographe correcte pour chaque exercice. Les corrigés sont disponibles en format PDF et JPEG. Chaque niveau de difficulté obtient son propre corrigé pour que les vendeurs puissent vérifier rapidement le travail des utilisateurs quel que soit le niveau d`indices attribué.",
     },
     {
       question: "Puis-je utiliser les fiches à des fins commerciales ?",
@@ -207,8 +207,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: 'Générateur de Mots Mélangés' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d'Écriture" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
   ],
 
   visuals: {

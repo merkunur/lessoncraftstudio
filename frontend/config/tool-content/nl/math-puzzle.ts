@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'KDP Puzzelwerkboeken',
-      description: "Genereer 50–100 puzzelpagina's over alle drie rekenmodi en meerdere rastergroottes. Exporteer als hoge-resolutie PDF's en publiceer als low-content activiteitenwerkboek op Amazon KDP. Gebruik grijstinten om drukkosten laag te houden. Structureer hoofdstukken op moeilijkheid: 2×2 rasters als opwarming, 3×3 voor het hoofdgedeelte, 4×4 voor uitdagingspagina's.",
+      description: "Genereer 50–100 puzzelpagina`s over alle drie rekenmodi en meerdere rastergroottes. Exporteer als hoge-resolutie PDF's en publiceer als low-content activiteitenwerkboek op Amazon KDP. Gebruik grijstinten om drukkosten laag te houden. Structureer hoofdstukken op moeilijkheid: 2×2 rasters als opwarming, 3×3 voor het hoofdgedeelte, 4×4 voor uitdagingspagina`s.",
     },
     {
       title: 'Eigen Afbeelding Merkpuzzels',

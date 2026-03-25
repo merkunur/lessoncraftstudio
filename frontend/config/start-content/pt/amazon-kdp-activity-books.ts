@@ -155,7 +155,7 @@ const content: StartContent = {
     },
     {
       question: "Preciso de uma licença comercial para publicar livros de atividades na Amazon KDP?",
-      answer: "Sim. O teste grátis com marca d'água destina-se apenas a avaliação — os resultados de teste incluem uma marca d'água que os torna inadequados para publicação. Uma licença comercial remove a marca d'água e confere-lhe o direito de publicar e vender o conteúdo gerado na Amazon KDP e noutras plataformas.",
+      answer: "Sim. O teste grátis com marca d`água destina-se apenas a avaliação — os resultados de teste incluem uma marca d'água que os torna inadequados para publicação. Uma licença comercial remove a marca d`água e confere-lhe o direito de publicar e vender o conteúdo gerado na Amazon KDP e noutras plataformas.",
     },
     {
       question: "Quanto custa publicar um livro de atividades na Amazon KDP?",

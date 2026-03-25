@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: "Negozio Etsy di Attività Labirinto Tematiche",
-      description: "Apri un negozio Etsy specializzato in pacchetti di attività labirinto organizzati per tema usando le 104 collezioni di immagini. Labirinti con animali, labirinti festivi, labirinti della fattoria, labirinti dell'oceano — ogni tema diventa un'inserzione separata con schede Percorso con Immagini, Labirinto negozico e Scegli il Percorso Giusto più chiavi di risposta generate automaticamente. Tre modalità di gioco da ogni tema triplicano la varietà dei tuoi prodotti. L'algoritmo LPF produce layout di labirinto unici ad ogni generazione, così costruire oltre 20 schede uniche per tema richiede pochi minuti. Prezzo dei pacchetti a tema singolo a 3–5 € per 15–20 schede con chiavi di risposta e pacchetti premium multi-tema a 7–12 € per collezioni a difficoltà progressiva.",
+      description: "Apri un negozio Etsy specializzato in pacchetti di attività labirinto organizzati per tema usando le 104 collezioni di immagini. Labirinti con animali, labirinti festivi, labirinti della fattoria, labirinti dell`oceano — ogni tema diventa un'inserzione separata con schede Percorso con Immagini, Labirinto negozico e Scegli il Percorso Giusto più chiavi di risposta generate automaticamente. Tre modalità di gioco da ogni tema triplicano la varietà dei tuoi prodotti. L`algoritmo LPF produce layout di labirinto unici ad ogni generazione, così costruire oltre 20 schede uniche per tema richiede pochi minuti. Prezzo dei pacchetti a tema singolo a 3–5 € per 15–20 schede con chiavi di risposta e pacchetti premium multi-tema a 7–12 € per collezioni a difficoltà progressiva.",
       platform: 'Etsy',
     },
     {
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: "Usa la Scala di Grigi per Prodotti Economici Online e KDP",
-      description: "Attiva la scala di grigi per creare schede labirinto a risparmio d'inchiostro specificamente per il mercato scolastico e dell'istruzione domestica. Molti venditori stampano le schede con stampanti in bianco e nero e apprezzano prodotti ottimizzati per la stampa in scala di grigi. Crea pacchetti in doppio formato che includono versioni a colori e in scala di grigi degli stessi labirinti — gli acquirenti percepiscono questo come il doppio del valore. Anche gli interni KDP print-on-demand beneficiano dell'ottimizzazione in scala di grigi poiché la stampa a colori costa significativamente di più. I labirinti con muri mantengono piena chiarezza in scala di grigi perché la struttura dei muri è indipendente dal colore.",
+      description: "Attiva la scala di grigi per creare schede labirinto a risparmio d`inchiostro specificamente per il mercato scolastico e dell'istruzione domestica. Molti venditori stampano le schede con stampanti in bianco e nero e apprezzano prodotti ottimizzati per la stampa in scala di grigi. Crea pacchetti in doppio formato che includono versioni a colori e in scala di grigi degli stessi labirinti — gli acquirenti percepiscono questo come il doppio del valore. Anche gli interni KDP print-on-demand beneficiano dell`ottimizzazione in scala di grigi poiché la stampa a colori costa significativamente di più. I labirinti con muri mantengono piena chiarezza in scala di grigi perché la struttura dei muri è indipendente dal colore.",
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: "Quali sono le tre modalità di gioco e come si differenziano?",
-      answer: "Il generatore offre tre modalità distinte in un unico strumento. Percorso con Immagini crea una griglia di immagini dove gli utenti seguono il percorso corretto dall'inizio alla fine identificando le immagini del percorso tra i distrattori — ideale per i più piccoli e la discriminazione visiva. Labirinto negozico genera labirinti con muri usando l'algoritmo LPF (Percorso Più Lungo Per Primo) con immagini collezionabili disseminate nei corridoi, griglie configurabili (15×15–20×20), e da 1 a 3 percorsi con blocco dei vicoli ciechi. Scegli il Percorso Giusto presenta labirinti a tre percorsi con quattro opzioni direzionali (dal basso verso l'alto, dall'alto verso il basso, da sinistra a destra, da destra a sinistra) dove gli utenti identificano l'unica rotta corretta tra le alternative. Ogni modalità offre una sfida cognitiva diversa dalla stessa libreria di immagini.",
+      answer: "Il generatore offre tre modalità distinte in un unico strumento. Percorso con Immagini crea una griglia di immagini dove gli utenti seguono il percorso corretto dall`inizio alla fine identificando le immagini del percorso tra i distrattori — ideale per i più piccoli e la discriminazione visiva. Labirinto negozico genera labirinti con muri usando l'algoritmo LPF (Percorso Più Lungo Per Primo) con immagini collezionabili disseminate nei corridoi, griglie configurabili (15×15–20×20), e da 1 a 3 percorsi con blocco dei vicoli ciechi. Scegli il Percorso Giusto presenta labirinti a tre percorsi con quattro opzioni direzionali (dal basso verso l'alto, dall'alto verso il basso, da sinistra a destra, da destra a sinistra) dove gli utenti identificano l`unica rotta corretta tra le alternative. Ogni modalità offre una sfida cognitiva diversa dalla stessa libreria di immagini.",
     },
     {
       question: "Come funziona l'algoritmo LPF per i labirinti?",
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: "Com'è il design dell'intestazione generata automaticamente?",
-      answer: "Ogni scheda include un'intestazione stilizzata con un bordo esterno arancione (tratto 8px) e margini di 34px. Il titolo \"Percorso con Immagini\" e la descrizione \"Segui il percorso dall'inizio alla fine!\" sono tradotti automaticamente in tutte le 11 lingue supportate. Le schede in formato verticale mostrano un'intestazione di 240px; le schede in formato orizzontale usano un layout compatto di 165px. L'intestazione renderizza testo localizzato per italiano, inglese, tedesco (Bilderpfad), francese (Chemin d'Images), spagnolo (Camino de Imágenes) e tutte le altre lingue supportate.",
+      answer: "Ogni scheda include un`intestazione stilizzata con un bordo esterno arancione (tratto 8px) e margini di 34px. Il titolo \"Percorso con Immagini\" e la descrizione \"Segui il percorso dall'inizio alla fine!\" sono tradotti automaticamente in tutte le 11 lingue supportate. Le schede in formato verticale mostrano un'intestazione di 240px; le schede in formato orizzontale usano un layout compatto di 165px. L'intestazione renderizza testo localizzato per italiano, inglese, tedesco (Bilderpfad), francese (Chemin d`Images), spagnolo (Camino de Imágenes) e tutte le altre lingue supportate.",
     },
     {
       question: "Il Generatore Percorso con Immagini è sensibile alla lingua?",
@@ -200,7 +200,7 @@ const content: ToolContent = {
     },
     {
       question: "Qual è la vostra politica di rimborso?",
-      answer: "Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell'acquisto. Poiché la prova gratuita ti dà accesso completo a tutte e tre le modalità di gioco, l'algoritmo LPF, i cinque ruoli immagine, la personalizzazione dei muri, il sistema di collezionabili, la chiave di risposta generata automaticamente con percorsi soluzione con cerchi rosa, tutti i 104 temi, il caricamento di immagini personalizzate, temi di sfondo e bordo, campi nome/data, esportazione in scala di grigi, e ogni formato di download, non offriamo rimborsi sugli acquisti di licenza. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima dell'acquisto.",
+      answer: "Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell`acquisto. Poiché la prova gratuita ti dà accesso completo a tutte e tre le modalità di gioco, l'algoritmo LPF, i cinque ruoli immagine, la personalizzazione dei muri, il sistema di collezionabili, la chiave di risposta generata automaticamente con percorsi soluzione con cerchi rosa, tutti i 104 temi, il caricamento di immagini personalizzate, temi di sfondo e bordo, campi nome/data, esportazione in scala di grigi, e ogni formato di download, non offriamo rimborsi sugli acquisti di licenza. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima dell`acquisto.",
     },
   ],
 
@@ -208,7 +208,7 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'percorso-illustrato-schede', anchorText: "Puzzle Labirinto con Percorso Immagini — Dettagli Completi del Prodotto" },
     { pageType: 'tool', slug: 'generatore-sudoku-bambini', anchorText: 'Generatore Sudoku Illustrato' },
     { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: 'Generatore Pezzi Mancanti' },
-    { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Trova l'Intruso' },
+    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Trova l'Intruso` },
     { pageType: 'tool', slug: 'generatore-puzzle-griglia', anchorText: 'Generatore Puzzle Griglia' },
     { pageType: 'tool', slug: 'generatore-cerca-e-conta', anchorText: 'Generatore Cerca e Conta' },
     { pageType: 'tool', slug: 'generatore-cerca-parole', anchorText: 'Generatore Cerca Parole' },

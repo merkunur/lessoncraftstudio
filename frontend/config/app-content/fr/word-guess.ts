@@ -23,7 +23,7 @@ const content: AppContent = {
     title: "Générateur de Fiches Deviner les Mots pour des Puzzles de Vocabulaire avec Indices Images",
     tagline: "La déduction style pendu rencontre les indices visuels — quatre niveaux de difficulté transforment chaque mot en un puzzle gratifiant.",
     description:
-      "Concevez des fiches professionnelles de type deviner les mots où les utilisateurs voient un indice image et déduisent le mot caché en remplissant des cases de lettres vides — un puzzle style pendu qui développe simultanément l'orthographe, le vocabulaire et le raisonnement déductif. Choisissez parmi trois sources de contenu : la Bibliothèque d'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant le vocabulaire de votre choix. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-révélées comme indices — de Sans Indices (aucune lettre révélée) au mode Facile montrant la moitié des lettres — créant un étayage naturel du débutant à l'avancé. Placez de 1 à 10 puzzles par fiche et basculez entre des grilles de lettres en majuscules ou en minuscules. L'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — « dog » en anglais devient « Hund » en allemand, « chien » en français, « perro » en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de vocabulaire thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Deviner les Mots produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
+      "Concevez des fiches professionnelles de type deviner les mots où les utilisateurs voient un indice image et déduisent le mot caché en remplissant des cases de lettres vides — un puzzle style pendu qui développe simultanément l`orthographe, le vocabulaire et le raisonnement déductif. Choisissez parmi trois sources de contenu : la Bibliothèque d'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant le vocabulaire de votre choix. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-révélées comme indices — de Sans Indices (aucune lettre révélée) au mode Facile montrant la moitié des lettres — créant un étayage naturel du débutant à l'avancé. Placez de 1 à 10 puzzles par fiche et basculez entre des grilles de lettres en majuscules ou en minuscules. L`Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — « dog » en anglais devient « Hund » en allemand, « chien » en français, « perro » en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de vocabulaire thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Deviner les Mots produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisir la source de contenu',
         description:
-          "Ouvrez le panneau Contenu et sélectionnez l'une des trois sources. Le mode Bibliothèque d'Images vous permet de parcourir 104 thèmes et de sélectionner des images — le nom de l'image devient le mot à deviner. Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier chaque nom d'affichage avant la génération, parfait pour un vocabulaire personnalisé ou des orthographes simplifiées. Le mode Liste de Mots Personnalisée supprime entièrement les images et vous laisse taper n'importe quels mots ou expressions directement, idéal pour des listes de vocabulaire spécifiques, des dictées ou de la pratique en langue étrangère.",
+          "Ouvrez le panneau Contenu et sélectionnez l`une des trois sources. Le mode Bibliothèque d'Images vous permet de parcourir 104 thèmes et de sélectionner des images — le nom de l'image devient le mot à deviner. Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier chaque nom d'affichage avant la génération, parfait pour un vocabulaire personnalisé ou des orthographes simplifiées. Le mode Liste de Mots Personnalisée supprime entièrement les images et vous laisse taper n`importe quels mots ou expressions directement, idéal pour des listes de vocabulaire spécifiques, des dictées ou de la pratique en langue étrangère.",
       },
       {
         title: "Configurer le niveau de difficulté et le nombre de puzzles",
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: "Devinette de mots par indices images avec grille de lettres vides",
         description:
-          "Chaque puzzle présente un indice image accompagné d'une rangée de cases de lettres vides représentant le mot caché. Les utilisateurs étudient l'image, identifient ce qu'elle représente et remplissent les lettres manquantes — un exercice de déduction style pendu qui développe simultanément le vocabulaire visuel, la précision orthographique et la correspondance lettre-son. Les expressions à plusieurs mots s'affichent sous forme de groupes de mots séparés avec un espacement entre eux, prenant en charge naturellement les noms composés, les noms d'animaux et les termes de vocabulaire plus longs.",
+          "Chaque puzzle présente un indice image accompagné d`une rangée de cases de lettres vides représentant le mot caché. Les utilisateurs étudient l'image, identifient ce qu'elle représente et remplissent les lettres manquantes — un exercice de déduction style pendu qui développe simultanément le vocabulaire visuel, la précision orthographique et la correspondance lettre-son. Les expressions à plusieurs mots s'affichent sous forme de groupes de mots séparés avec un espacement entre eux, prenant en charge naturellement les noms composés, les noms d`animaux et les termes de vocabulaire plus longs.",
       },
       {
         title: "Quatre niveaux de difficulté avec nombre de lettres-indices ajustable",
         description:
-          "Contrôlez exactement le niveau d'étayage que reçoivent les utilisateurs avec quatre niveaux de difficulté intégrés. Le mode Sans Indices laisse chaque case vide pour un défi maximal. Le mode Facile pré-révèle la moitié des lettres, parfait pour les lecteurs débutants. Le mode Normal révèle un quart des lettres pour une pratique équilibrée. Le mode Difficile révèle seulement un sixième — assez d'un indice pour démarrer sans donner la réponse. Mélanger les niveaux de difficulté dans les fiches d'un même pack crée une progression naturelle facile-à-difficile qui justifie des prix premium.",
+          "Contrôlez exactement le niveau d`étayage que reçoivent les utilisateurs avec quatre niveaux de difficulté intégrés. Le mode Sans Indices laisse chaque case vide pour un défi maximal. Le mode Facile pré-révèle la moitié des lettres, parfait pour les lecteurs débutants. Le mode Normal révèle un quart des lettres pour une pratique équilibrée. Le mode Difficile révèle seulement un sixième — assez d'un indice pour démarrer sans donner la réponse. Mélanger les niveaux de difficulté dans les fiches d`un même pack crée une progression naturelle facile-à-difficile qui justifie des prix premium.",
       },
       {
         title: "Trois sources de contenu : Bibliothèque d'Images, Édition Manuelle et Liste de Mots Personnalisée",
         description:
-          "La source Bibliothèque d'Images tire les mots de collections d'images thématiques — sélectionnez des animaux, des véhicules ou des aliments et le mot à deviner est le nom de l'image. Le Mode Édition Manuelle ajoute une couche de personnalisation : sélectionnez des images de la bibliothèque, puis modifiez leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées, un vocabulaire alternatif ou des mots ciblés en phonétique. Le mode Liste de Mots Personnalisée abandonne les images entièrement et vous laisse taper n'importe quels mots ou expressions, permettant des fiches de vocabulaire pour toute matière, des dictées ou de la pratique en langue étrangère sans illustrations correspondantes.",
+          "La source Bibliothèque d`Images tire les mots de collections d'images thématiques — sélectionnez des animaux, des véhicules ou des aliments et le mot à deviner est le nom de l'image. Le Mode Édition Manuelle ajoute une couche de personnalisation : sélectionnez des images de la bibliothèque, puis modifiez leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées, un vocabulaire alternatif ou des mots ciblés en phonétique. Le mode Liste de Mots Personnalisée abandonne les images entièrement et vous laisse taper n`importe quels mots ou expressions, permettant des fiches de vocabulaire pour toute matière, des dictées ou de la pratique en langue étrangère sans illustrations correspondantes.",
       },
       {
         title: "Support des expressions à plusieurs mots pour un vocabulaire complexe",
         description:
-          "Les noms d'images et les entrées personnalisées contenant des espaces s'affichent sous forme de groupes de mots séparés sur la grille du puzzle, avec un espacement clair entre chaque mot. Cela signifie que des termes composés comme « ours polaire » ou « camion de pompiers » s'affichent naturellement en deux grilles de mots connectées plutôt qu'une longue chaîne. Les utilisateurs résolvent chaque mot indépendamment tout en comprenant qu'ils forment un seul concept. Cette fonctionnalité élargit la portée de votre vocabulaire bien au-delà des noms simples, intégrant les espèces animales, les plats, les noms de lieux et les expressions descriptives.",
+          "Les noms d`images et les entrées personnalisées contenant des espaces s'affichent sous forme de groupes de mots séparés sur la grille du puzzle, avec un espacement clair entre chaque mot. Cela signifie que des termes composés comme « ours polaire » ou « camion de pompiers » s'affichent naturellement en deux grilles de mots connectées plutôt qu'une longue chaîne. Les utilisateurs résolvent chaque mot indépendamment tout en comprenant qu`ils forment un seul concept. Cette fonctionnalité élargit la portée de votre vocabulaire bien au-delà des noms simples, intégrant les espèces animales, les plats, les noms de lieux et les expressions descriptives.",
       },
       {
         title: "104 thèmes visuels avec plus de 3 100 images",
@@ -93,12 +93,12 @@ const content: AppContent = {
       {
         title: "Export prêt à imprimer à 400+ DPI avec option niveaux de gris",
         description:
-          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d'export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l'export en niveaux de gris pour des versions économiques en encre, idéales pour l'impression en volume ou les cahiers d'activités noir et blanc. Les formats Letter, A4, Carré et dimensions personnalisées sont tous pris en charge pour une flexibilité maximale sur les plateformes d'impression à la demande et les imprimantes domestiques.",
+          "Téléchargez vos fiches et corrigés en images JPEG haute résolution ou en documents PDF prêts à imprimer. Le moteur d`export rend à un multiplicateur 6x, produisant plus de 400 DPI sur les formats standards. Activez l'export en niveaux de gris pour des versions économiques en encre, idéales pour l'impression en volume ou les cahiers d'activités noir et blanc. Les formats Letter, A4, Carré et dimensions personnalisées sont tous pris en charge pour une flexibilité maximale sur les plateformes d`impression à la demande et les imprimantes domestiques.",
       },
       {
         title: "Édition complète du canevas avec outils texte, forme et image",
         description:
-          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, blocs de puzzle, images, bordures et fonds. Ajoutez du texte personnalisé avec sept polices, insérez des formes et des éléments décoratifs, et utilisez les contrôles de calques pour un empilement précis. Les outils d'alignement positionnent les éléments au pixel près, et le verrouillage/déverrouillage protège les éléments terminés pendant l'édition des autres. L'annulation et le rétablissement illimités vous permettent d'expérimenter librement, offrant la flexibilité d'un outil de design graphique dans un générateur de puzzles de mots.",
+          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, blocs de puzzle, images, bordures et fonds. Ajoutez du texte personnalisé avec sept polices, insérez des formes et des éléments décoratifs, et utilisez les contrôles de calques pour un empilement précis. Les outils d`alignement positionnent les éléments au pixel près, et le verrouillage/déverrouillage protège les éléments terminés pendant l'édition des autres. L'annulation et le rétablissement illimités vous permettent d'expérimenter librement, offrant la flexibilité d`un outil de design graphique dans un générateur de puzzles de mots.",
       },
     ],
   },
@@ -115,7 +115,7 @@ const content: AppContent = {
       {
         title: "Cahiers d'activités de vocabulaire sur Amazon KDP",
         description:
-          "Compilez 50 à 100 puzzles deviner les mots dans un cahier d'activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Facile (moitié des lettres révélées) utilisant des mots simples de trois lettres, progressez à travers Normal et Difficile jusqu'à Sans Indices avec des expressions complexes à plusieurs mots. Regroupez les chapitres par thème (animaux, nourriture, véhicules, nature) pour une variété navigable. Ajoutez une page de titre, un guide de difficulté et une section corrigé à la fin. Les cahiers de puzzles de mots pour enfants de 4 à 9 ans se vendent régulièrement toute l'année avec un minimum de publicité.",
+          "Compilez 50 à 100 puzzles deviner les mots dans un cahier d`activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Facile (moitié des lettres révélées) utilisant des mots simples de trois lettres, progressez à travers Normal et Difficile jusqu'à Sans Indices avec des expressions complexes à plusieurs mots. Regroupez les chapitres par thème (animaux, nourriture, véhicules, nature) pour une variété navigable. Ajoutez une page de titre, un guide de difficulté et une section corrigé à la fin. Les cahiers de puzzles de mots pour enfants de 4 à 9 ans se vendent régulièrement toute l`année avec un minimum de publicité.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: "Outil d'orthographe pour la vente et le soutien",
         description:
-          "Utilisez le mode Liste de Mots Personnalisée pour créer des fiches deviner les mots à partir de n'importe quelle liste de vocabulaire — mots de la dictée hebdomadaire, termes scientifiques, vocabulaire d'histoire-géographie ou pratique en langue étrangère. Tapez vos mots directement sans avoir besoin d'images correspondantes. Ajustez le niveau de difficulté selon les capacités de chaque utilisateur : Facile pour les utilisateurs en difficulté, Sans Indices pour les plus avancés. Imprimez des séries personnalisées en quelques minutes pour des petits groupes ou des classes entières. Le corrigé automatique fait gagner du valeur perçue, et le format style pendu maintient l'engagement des utilisateurs par rapport aux exercices traditionnels d'écriture répétitive.",
+          "Utilisez le mode Liste de Mots Personnalisée pour créer des fiches deviner les mots à partir de n`importe quelle liste de vocabulaire — mots de la dictée hebdomadaire, termes scientifiques, vocabulaire d'histoire-géographie ou pratique en langue étrangère. Tapez vos mots directement sans avoir besoin d'images correspondantes. Ajustez le niveau de difficulté selon les capacités de chaque utilisateur : Facile pour les utilisateurs en difficulté, Sans Indices pour les plus avancés. Imprimez des séries personnalisées en quelques minutes pour des petits groupes ou des classes entières. Le corrigé automatique fait gagner du valeur perçue, et le format style pendu maintient l'engagement des utilisateurs par rapport aux exercices traditionnels d`écriture répétitive.",
         platform: "Classe / Soutien scolaire / École à la maison",
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne le puzzle deviner les mots ?",
       answer:
-        "Chaque puzzle affiche un indice image accompagné d'une rangée de cases de lettres vides. Les utilisateurs étudient l'image pour identifier ce qu'elle représente, puis remplissent les lettres manquantes pour épeler le mot. Des lettres-indices pré-révélées (contrôlées par le niveau de difficulté) fournissent un étayage. Cela fonctionne comme le jeu du pendu mais avec un indice image au lieu d'une indication de catégorie — développant simultanément le vocabulaire visuel, l'orthographe et le raisonnement déductif.",
+        "Chaque puzzle affiche un indice image accompagné d`une rangée de cases de lettres vides. Les utilisateurs étudient l'image pour identifier ce qu'elle représente, puis remplissent les lettres manquantes pour épeler le mot. Des lettres-indices pré-révélées (contrôlées par le niveau de difficulté) fournissent un étayage. Cela fonctionne comme le jeu du pendu mais avec un indice image au lieu d'une indication de catégorie — développant simultanément le vocabulaire visuel, l`orthographe et le raisonnement déductif.",
     },
     {
       question: "Quels sont les quatre niveaux de difficulté ?",
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne le support des expressions à plusieurs mots ?",
       answer:
-        "Les mots ou noms d'images contenant des espaces (comme « ours polaire » ou « camion de pompiers ») s'affichent sous forme de groupes de mots séparés sur la grille du puzzle avec un espacement clair entre eux. Les utilisateurs résolvent chaque mot indépendamment tout en comprenant qu'ils forment un seul concept. Cela fonctionne avec les trois sources de contenu et les quatre niveaux de difficulté.",
+        "Les mots ou noms d`images contenant des espaces (comme « ours polaire » ou « camion de pompiers ») s'affichent sous forme de groupes de mots séparés sur la grille du puzzle avec un espacement clair entre eux. Les utilisateurs résolvent chaque mot indépendamment tout en comprenant qu`ils forment un seul concept. Cela fonctionne avec les trois sources de contenu et les quatre niveaux de difficulté.",
     },
     {
       question: "Puis-je choisir entre majuscules et minuscules ?",
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: "Que puis-je faire avec le mode Liste de Mots Personnalisée ?",
       answer:
-        "Le mode Liste de Mots Personnalisée vous permet de taper n'importe quels mots ou expressions directement — sans images requises. C'est idéal pour les listes de dictée hebdomadaire, le vocabulaire spécifique à une matière (termes scientifiques, noms géographiques), la pratique en langue étrangère ou tout contenu personnalisé. Les puzzles affichent des grilles de lettres vides sans indices images, les utilisateurs s'appuient donc sur le contexte des titres de fiches, des consignes ou de leurs connaissances préalables pour résoudre les énigmes.",
+        "Le mode Liste de Mots Personnalisée vous permet de taper n`importe quels mots ou expressions directement — sans images requises. C'est idéal pour les listes de dictée hebdomadaire, le vocabulaire spécifique à une matière (termes scientifiques, noms géographiques), la pratique en langue étrangère ou tout contenu personnalisé. Les puzzles affichent des grilles de lettres vides sans indices images, les utilisateurs s`appuient donc sur le contexte des titres de fiches, des consignes ou de leurs connaissances préalables pour résoudre les énigmes.",
     },
     {
       question: "Le générateur crée-t-il des corrigés automatiquement ?",
       answer:
-        "Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue de votre fiche avec chaque case de lettre remplie et aucune case vide restante. Vous pouvez prévisualiser le corrigé à l'écran et le télécharger en fichier JPEG ou PDF séparé. Activez l'export en niveaux de gris pour des corrigés économiques en encre, idéaux pour l'impression en volume.",
+        "Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue de votre fiche avec chaque case de lettre remplie et aucune case vide restante. Vous pouvez prévisualiser le corrigé à l`écran et le télécharger en fichier JPEG ou PDF séparé. Activez l'export en niveaux de gris pour des corrigés économiques en encre, idéaux pour l`impression en volume.",
     },
     {
       question: "Le générateur Deviner les Mots est-il sensible à la langue ?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois sources de contenu, les quatre niveaux de difficulté, la bibliothèque d'images complète, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
+        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois sources de contenu, les quatre niveaux de difficulté, la bibliothèque d`images complète, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, chaque format d'export et chaque format de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, chaque format d'export et chaque format de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Eigen Foto Sorteer Werkbladen',
-      description: "Gebruik de functie Eigen Afbeeldingen Uploaden om sorteer werkbladen te maken van je eigen foto's of illustraties. Familiesorteeractiviteiten waarbij kinderen foto's classificeren in categorieën als \"Mensen\" versus \"Plaatsen\", klasspecifieke sorteertaken met door gebruikers genomen foto's, merkgebonden sorteeractiviteiten voor educatieve bedrijven, of gepersonaliseerde sorteer werkbladen voor speciale producten met vertrouwde afbeeldingen. De handmatige modus laat je elke geüploade afbeelding toewijzen aan de linker- of rechtercategorie. Gecombineerd met het automatisch gegenereerde antwoordblad worden eigen foto sorteer werkbladen unieke, gepersonaliseerde producten die concurrenten niet kunnen repliceren.",
+      description: "Gebruik de functie Eigen Afbeeldingen Uploaden om sorteer werkbladen te maken van je eigen foto`s of illustraties. Familiesorteeractiviteiten waarbij kinderen foto's classificeren in categorieën als \"Mensen\" versus \"Plaatsen\", klasspecifieke sorteertaken met door gebruikers genomen foto`s, merkgebonden sorteeractiviteiten voor educatieve bedrijven, of gepersonaliseerde sorteer werkbladen voor speciale producten met vertrouwde afbeeldingen. De handmatige modus laat je elke geüploade afbeelding toewijzen aan de linker- of rechtercategorie. Gecombineerd met het automatisch gegenereerde antwoordblad worden eigen foto sorteer werkbladen unieke, gepersonaliseerde producten die concurrenten niet kunnen repliceren.",
     },
     {
       title: "Seizoensgebonden en Feestdagen Sorteer Collecties",

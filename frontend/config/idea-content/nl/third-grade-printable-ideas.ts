@@ -73,7 +73,7 @@ Het cross-promotionele potentieel van de groep-5-niche is bijzonder sterk omdat 
     },
     {
       title: "Groep 5 Schaduwkoppelwerkbladen voor Printable Winkels",
-      description: "Schaduwkoppelwerkbladen voor groep 5 bieden complexe visuele discriminatieuitdagingen met subtiele vormverschillen die passen bij het cognitieve niveau van acht- tot negenjarigen. Gebruik de Schaduw Koppelen-generator om pagina's te maken met thematische beelden op gevorderd niveau. Combineer met thema's die aansluiten bij de interesses van groep 5 gebruikers — ruimte, constructie, wetenschap. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.",
+      description: "Schaduwkoppelwerkbladen voor groep 5 bieden complexe visuele discriminatieuitdagingen met subtiele vormverschillen die passen bij het cognitieve niveau van acht- tot negenjarigen. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met thematische beelden op gevorderd niveau. Combineer met thema's die aansluiten bij de interesses van groep 5 gebruikers — ruimte, constructie, wetenschap. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.",
       appId: 'shadow-match',
     },
     {

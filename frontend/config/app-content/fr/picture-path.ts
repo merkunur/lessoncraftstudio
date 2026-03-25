@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: "Sélectionnez les Images par Rôle depuis la Bibliothèque",
         description:
-          "Ouvrez le panneau Bibliothèque d'Images et attribuez des images à cinq rôles distincts avec le sélecteur de rôle : Image de Départ (point d'entrée), Image d'Arrivée (destination — 1 pour Chemin/Labyrinthe, 3 pour Choisis le Bon Chemin), Images du Chemin (parcours correct ou objets à collectionner), Images Distractrices (cases hors chemin), et Décoration (placement libre sur le canevas). Parcourez 104 collections thématiques avec plus de 3 100 illustrations, filtrez par thème ou recherchez par mot-clé. Importez des images PNG, JPG ou GIF personnalisées.",
+          "Ouvrez le panneau Bibliothèque d`Images et attribuez des images à cinq rôles distincts avec le sélecteur de rôle : Image de Départ (point d'entrée), Image d`Arrivée (destination — 1 pour Chemin/Labyrinthe, 3 pour Choisis le Bon Chemin), Images du Chemin (parcours correct ou objets à collectionner), Images Distractrices (cases hors chemin), et Décoration (placement libre sur le canevas). Parcourez 104 collections thématiques avec plus de 3 100 illustrations, filtrez par thème ou recherchez par mot-clé. Importez des images PNG, JPG ou GIF personnalisées.",
       },
       {
         title: "Générez le Labyrinthe ou le Parcours",
         description:
-          "Cliquez sur Générer pour créer la disposition du labyrinthe selon le mode sélectionné. Chemin d'Images arrange les images dans une grille avec un chemin correct marqué par les images du chemin parmi les distractrices. Labyrinthe Classique construit des corridors à murs avec des images à collectionner placées le long des chemins. Choisis le Bon Chemin construit trois parcours distincts avec un chemin correct et des alternatives leurres. L'en-tête auto-généré « Chemin d'Images » apparaît en haut avec une bordure extérieure orange, un titre localisé et des instructions dans la langue sélectionnée.",
+          "Cliquez sur Générer pour créer la disposition du labyrinthe selon le mode sélectionné. Chemin d`Images arrange les images dans une grille avec un chemin correct marqué par les images du chemin parmi les distractrices. Labyrinthe Classique construit des corridors à murs avec des images à collectionner placées le long des chemins. Choisis le Bon Chemin construit trois parcours distincts avec un chemin correct et des alternatives leurres. L'en-tête auto-généré « Chemin d`Images » apparaît en haut avec une bordure extérieure orange, un titre localisé et des instructions dans la langue sélectionnée.",
       },
       {
         title: "Générez le Corrigé et Téléchargez",
@@ -73,12 +73,12 @@ const content: AppContent = {
       {
         title: "Cinq Rôles d'Images : Départ, Arrivée, Chemin, Distractrice et Décoration",
         description:
-          "Chaque image placée sur la fiche remplit un rôle spécifique dans le design du labyrinthe. L'Image de Départ marque le point d'entrée. Les Images d'Arrivée marquent la destination — une pour les modes Chemin d'Images et Labyrinthe Classique, trois pour Choisis le Bon Chemin. Les Images du Chemin définissent le parcours correct en mode Chemin d'Images ou apparaissent comme objets à collectionner en Labyrinthe Classique. Les Images Distractrices remplissent les cases hors chemin pour créer un défi visuel. Les images de Décoration peuvent être placées librement sur le canevas pour un attrait visuel supplémentaire. Le sélecteur de rôle dans le panneau Bibliothèque d'Images permet d'attribuer et réattribuer les rôles rapidement, avec des panneaux dédiés affichant les images sélectionnées pour chaque rôle.",
+          "Chaque image placée sur la fiche remplit un rôle spécifique dans le design du labyrinthe. L`Image de Départ marque le point d'entrée. Les Images d'Arrivée marquent la destination — une pour les modes Chemin d'Images et Labyrinthe Classique, trois pour Choisis le Bon Chemin. Les Images du Chemin définissent le parcours correct en mode Chemin d'Images ou apparaissent comme objets à collectionner en Labyrinthe Classique. Les Images Distractrices remplissent les cases hors chemin pour créer un défi visuel. Les images de Décoration peuvent être placées librement sur le canevas pour un attrait visuel supplémentaire. Le sélecteur de rôle dans le panneau Bibliothèque d'Images permet d`attribuer et réattribuer les rôles rapidement, avec des panneaux dédiés affichant les images sélectionnées pour chaque rôle.",
       },
       {
         title: "Personnalisation des Murs avec Couleur, Épaisseur et Opacité",
         description:
-          "Les modes Labyrinthe Classique et Choisis le Bon Chemin offrent une personnalisation complète des murs. Choisissez n'importe quelle couleur de mur avec le sélecteur de couleur. Ajustez l'épaisseur des murs de 1 à 10 pixels (défaut 3px) pour des lignes fines et élégantes ou des murs épais adaptés aux enfants. Réglez l'opacité des murs de 10% à 100% (défaut 100%) pour des limites de labyrinthe subtiles ou prononcées. Ces contrôles vous permettent de créer des styles visuels distincts — murs gris fins pour des livres de puzzles sophistiqués, murs colorés épais pour les jeunes apprenants ou murs semi-transparents pour des effets de design superposés. Les paramètres des murs persistent entre les régénérations de labyrinthes.",
+          "Les modes Labyrinthe Classique et Choisis le Bon Chemin offrent une personnalisation complète des murs. Choisissez n`importe quelle couleur de mur avec le sélecteur de couleur. Ajustez l'épaisseur des murs de 1 à 10 pixels (défaut 3px) pour des lignes fines et élégantes ou des murs épais adaptés aux enfants. Réglez l`opacité des murs de 10% à 100% (défaut 100%) pour des limites de labyrinthe subtiles ou prononcées. Ces contrôles vous permettent de créer des styles visuels distincts — murs gris fins pour des livres de puzzles sophistiqués, murs colorés épais pour les jeunes apprenants ou murs semi-transparents pour des effets de design superposés. Les paramètres des murs persistent entre les régénérations de labyrinthes.",
       },
       {
         title: "Corrigé Auto-Généré avec Mise en Évidence du Chemin de Solution",
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: "Édition Complète du Canevas avec Outils Texte, Champs Nom/Date et Historique d'Annulation",
         description:
-          "Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche labyrinthe. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour ajouter des lignes d'identification utilisateur. Zoomez et dézoomez ou réinitialisez à 100% pour le travail de détail. Annulez et rétablissez jusqu'à 20 états d'historique avec Ctrl+Z et Ctrl+Y. Les contrôles de calques gèrent l'ordre d'empilement pour un arrangement précis des éléments.",
+          "Le canevas Fabric.js offre un contrôle complet sur chaque élément de votre fiche labyrinthe. Glissez, redimensionnez, pivotez et repositionnez les images, le texte et le contenu généré librement. Ajoutez du texte personnalisé avec sept options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), taille et couleur ajustables, et largeur de contour de texte de 0 à 10 avec une granularité de 0,5. Activez les champs nom et date pour ajouter des lignes d`identification utilisateur. Zoomez et dézoomez ou réinitialisez à 100% pour le travail de détail. Annulez et rétablissez jusqu'à 20 états d'historique avec Ctrl+Z et Ctrl+Y. Les contrôles de calques gèrent l'ordre d`empilement pour un arrangement précis des éléments.",
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Quels sont les trois modes de jeu et comment diffèrent-ils ?",
       answer:
-        "Le générateur propose trois modes distincts. Chemin d'Images crée une grille d'images où les utilisateurs suivent le chemin correct du départ à l'arrivée en identifiant les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l'algorithme LPF avec des images à collectionner, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles où les utilisateurs identifient le seul parcours correct. Chaque mode produit un défi de raisonnement spatial différent à partir de la même bibliothèque d'images.",
+        "Le générateur propose trois modes distincts. Chemin d`Images crée une grille d'images où les utilisateurs suivent le chemin correct du départ à l'arrivée en identifiant les images du chemin parmi les distractrices. Labyrinthe Classique génère des labyrinthes à murs utilisant l'algorithme LPF avec des images à collectionner, des tailles de grille configurables (15×15 à 20×20) et 1 à 3 chemins avec blocage des impasses. Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles où les utilisateurs identifient le seul parcours correct. Chaque mode produit un défi de raisonnement spatial différent à partir de la même bibliothèque d`images.",
     },
     {
       question: "Comment fonctionne l'algorithme LPF pour les labyrinthes ?",
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne le système d'objets à collectionner en Labyrinthe Classique ?",
       answer:
-        "Le Labyrinthe Classique disperse des images à collectionner dans les corridors du labyrinthe. Configurez le nombre de types d'images à collectionner (1, 2, 3 ou 4 — défaut 4), le minimum de copies par image (1, 2 ou 3 — défaut 1) et le maximum de copies par image (1–10 — défaut 10). Le corrigé inclut une légende des objets à collectionner montrant chaque image et son nombre le long du chemin de solution. Les objets à collectionner ajoutent de la pratique de comptage et d'observation en complément de l'activité de résolution du labyrinthe.",
+        "Le Labyrinthe Classique disperse des images à collectionner dans les corridors du labyrinthe. Configurez le nombre de types d`images à collectionner (1, 2, 3 ou 4 — défaut 4), le minimum de copies par image (1, 2 ou 3 — défaut 1) et le maximum de copies par image (1–10 — défaut 10). Le corrigé inclut une légende des objets à collectionner montrant chaque image et son nombre le long du chemin de solution. Les objets à collectionner ajoutent de la pratique de comptage et d'observation en complément de l`activité de résolution du labyrinthe.",
     },
     {
       question: "Comment fonctionne le corrigé auto-généré ?",
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne l'en-tête auto-généré ?",
       answer:
-        "Chaque fiche inclut un en-tête stylisé avec une bordure extérieure orange (trait de 8px) et des marges de 34px. Le titre « Chemin d'Images » et la description « Suis le chemin du départ à l'arrivée ! » sont automatiquement traduits dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. L'en-tête se rend en texte localisé pour le français (Chemin d'Images), l'allemand (Bilderpfad), l'anglais (Picture Pathway), l'espagnol (Camino de Imágenes) et toutes les autres langues prises en charge.",
+        "Chaque fiche inclut un en-tête stylisé avec une bordure extérieure orange (trait de 8px) et des marges de 34px. Le titre « Chemin d`Images » et la description « Suis le chemin du départ à l'arrivée ! » sont automatiquement traduits dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. L'en-tête se rend en texte localisé pour le français (Chemin d'Images), l'allemand (Bilderpfad), l'anglais (Picture Pathway), l`espagnol (Camino de Imágenes) et toutes les autres langues prises en charge.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "Comme l'essai gratuit vous donne accès à chaque fonctionnalité, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois modes de jeu, l'algorithme LPF, les cinq rôles d'images, la personnalisation des murs, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d'acheter une licence.",
+        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois modes de jeu, l'algorithme LPF, les cinq rôles d'images, la personnalisation des murs, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d`acheter une licence.",
     },
   ],
 
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: "/samples/french/picture path/Chemin d'Images 1.webp",
         alt: "Mode Chemin d'Images avec des images arrangées dans une grille montrant le chemin correct du départ à l'arrivée",
-        caption: "Mode Chemin d'Images — les utilisateurs suivent le chemin correct d'images du départ à l'arrivée",
+        caption: "Mode Chemin d`Images — les utilisateurs suivent le chemin correct d'images du départ à l`arrivée",
       },
       {
         src: "/samples/french/picture path/Chemin d'Images 2.webp",

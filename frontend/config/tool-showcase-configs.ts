@@ -1832,7 +1832,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       heading: "Spot Which Picture Does Not Belong",
       subheading: "Classification worksheets that challenge kids to find the odd one out in every group",
       images: [
-        { src: img('odd one out', 'Find the Odd One Out.webp'), alt: "Odd one out worksheet — identify the picture that doesn't belong" },
+        { src: img(`odd one out', 'Find the Odd One Out.webp'), alt: "Odd one out worksheet — identify the picture that doesn`t belong" },
         { src: img('odd one out', 'Find the Odd One Out (1).webp'), alt: "Category reasoning — themed odd-one-out activity" },
         { src: img('odd one out', 'Find the Odd One Out (5).webp'), alt: "Odd one out challenge — subtle difference puzzles" },
       ],
@@ -2604,7 +2604,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Progression structurée par niveaux", "Des fiches adaptées à chaque rythme d'apprentissage",
     "Compter des images thématiques et additionner jusqu'à 5", "Groupes d'images mélangées avec sommes jusqu'à 10", "Combiner images et nombres jusqu'à 20",
     "Progressez à votre rythme avec les maths visuelles",
-    'Le calcul en couleurs !', 'Maîtriser l'addition visuelle',
+    `Le calcul en couleurs !', 'Maîtriser l'addition visuelle`,
     "Collection de fiches d'addition", "Exercices prêts à imprimer pour la maison et la classe",
   ],
   'image-subtraction': [
@@ -2618,7 +2618,7 @@ const frToolText: Record<string, FrTextTuple> = {
   'code-addition': [
     "Déchiffrage de codes par addition", "Résoudre des calculs pour découvrir des mots secrets",
     "Exercices de déchiffrage progressifs", "Des calculs adaptés au niveau de chaque élève",
-    "Codes d'addition simples (1-5)", "Codes intermédiaires avec sommes jusqu'à 10", "Codes à plusieurs étapes jusqu'à 20",
+    "Codes d`addition simples (1-5)", "Codes intermédiaires avec sommes jusqu'à 10", "Codes à plusieurs étapes jusqu`à 20",
     "Déchiffrer des codes renforce les compétences en maths",
     'Déchiffrer les codes !', 'Maths + Mystère',
     "Collection de fiches de déchiffrage", "Puzzles prêts à imprimer pour la maison et l'école",
@@ -2644,8 +2644,8 @@ const frToolText: Record<string, FrTextTuple> = {
     "Des équations pour chaque niveau", "De l'image simple à l'équation complexe",
     "Équations d'images simples (1-5)", "Équations thématiques jusqu'à 10", "Équations d'images à plusieurs étapes jusqu'à 20",
     "Construire la pensée algébrique dès le début",
-    'Équations en images !', "Apprentissage visuel de l'algèbre",
-    "Collection de fiches d'équations", "Exercices prêts pour l'apprentissage visuel de l'algèbre",
+    `Équations en images !', "Apprentissage visuel de l`algèbre",
+    "Collection de fiches d`équations", "Exercices prêts pour l'apprentissage visuel de l`algèbre",
   ],
   'alphabet-train': [
     "Activité du train de l'alphabet", "Reconnaître et associer les lettres avec des exercices de découpage de train",
@@ -2700,8 +2700,8 @@ const frToolText: Record<string, FrTextTuple> = {
     "Exercices d'écriture en trois niveaux", "Du traçage à l'écriture autonome",
     'Pratique de traçage', 'Écriture guidée des lettres', 'Écriture autonome',
     "Une belle écriture commence par la pratique",
-    'Pratiquer l'écriture !', 'Maîtrise des lettres',
-    "Collection d'exercices d'écriture", "Fiches d'écriture avec lignes de guidage",
+    `Pratiquer l'écriture !', 'Maîtrise des lettres`,
+    "Collection d`exercices d'écriture", "Fiches d`écriture avec lignes de guidage",
   ],
   'big-small': [
     "Comparaison visuelle des tailles", "Reconnaître grand et petit avec des images colorées",
@@ -2778,15 +2778,15 @@ const frToolText: Record<string, FrTextTuple> = {
   'shadow-match': [
     "Puzzles d'association d'ombres", "Quelle ombre correspond à quelle image ?",
     "Association d'ombres en trois niveaux", "Des ombres simples aux ombres tournées",
-    'Paires d'ombres simples', 'Images d'ombres tournées', 'Puzzles d'ombres complexes',
+    `Paires d'ombres simples', 'Images d'ombres tournées', 'Puzzles d'ombres complexes`,
     "Les puzzles d'ombres aiguisent l'observation",
     'Trouver l'ombre !', 'Puzzles d'ombres',
-    "Collection d'association d'ombres", "Fiches stimulantes pour le sens de l'observation",
+    "Collection d`association d'ombres", "Fiches stimulantes pour le sens de l`observation",
   ],
   bingo: [
     "Créer des cartes de loto d'images", "Cartes de loto thématiques à imprimer et jouer",
     "Loto en trois tailles de cartes", "Des cartes simples aux cartes complètes pour différents âges",
-    'Loto simple 3×3', 'Loto d'images 4×4', 'Cartes de loto complètes 5×5',
+    `Loto simple 3×3', 'Loto d'images 4×4', 'Cartes de loto complètes 5×5`,
     "Le loto rend l'apprentissage en groupe amusant",
     'LOTO !', 'Amusement loto en images',
     'Collection de cartes de loto', "Cartes thématiques prêtes pour les activités de groupe et de classe",
@@ -2796,15 +2796,15 @@ const frToolText: Record<string, FrTextTuple> = {
     "Exercices de tri en trois niveaux", "De 2 catégories à la classification complexe",
     'Tri en 2 catégories', 'Tri en 3 catégories', 'Défis de 4+ catégories',
     "Trier enseigne la structuration logique",
-    'Trier !', 'Puzzle d'ordre',
-    'Collection de fiches de tri', "Exercices de classification prêts pour la maison et l'école",
+    `Trier !', 'Puzzle d'ordre`,
+    `Collection de fiches de tri', "Exercices de classification prêts pour la maison et l`école",
   ],
   'missing-pieces': [
     "Découvrir les pièces manquantes", "Trouver la bonne pièce manquante de chaque image",
     "Puzzles en trois niveaux de difficulté", "Des puzzles visuels simples aux complexes",
     'Pièces manquantes simples', 'Puzzles à plusieurs pièces', 'Puzzles visuels complexes',
     "Les puzzles renforcent la pensée visuelle",
-    'Qu'est-ce qui manque ?', 'Détective de puzzles',
+    `Qu'est-ce qui manque ?', 'Détective de puzzles`,
     "Collection de fiches de puzzles", "Exercices de recherche stimulants pour les esprits attentifs",
   ],
   'odd-one-out': [
@@ -2824,7 +2824,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Collection de sudoku en images", "Puzzles logiques prêts pour l'entraînement cérébral",
   ],
   'picture-path': [
-    'Suivre les chemins en images', "Trouver le bon chemin à travers le labyrinthe d'images",
+    `Suivre les chemins en images', "Trouver le bon chemin à travers le labyrinthe d`images",
     "Recherche de chemins en trois niveaux", "Des chemins droits aux labyrinthes complexes",
     'Chemins droits simples', 'Chemins ramifiés', "Chemins de labyrinthe complexes",
     "La recherche de chemins développe le sens de l'orientation",
@@ -2834,7 +2834,7 @@ const frToolText: Record<string, FrTextTuple> = {
   'find-and-count': [
     "Activités de recherche et de comptage", "Trouver et compter les images cachées dans des scènes colorées",
     "Images de recherche en trois niveaux", "De la recherche simple à la scène complexe",
-    'Trouver 3-5 objets', 'Compter jusqu'à 10 objets', "Scènes avancées à comptage multiple",
+    `Trouver 3-5 objets', 'Compter jusqu'à 10 objets`, "Scènes avancées à comptage multiple",
     "Chercher et compter rend attentif",
     'Je vois !', "Amusement de recherche et de comptage",
     "Collection de recherche et de comptage", "Scènes joliment conçues pour chercher",
@@ -2844,7 +2844,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Images de recherche en trois niveaux de difficulté", "Du visible à l'astucieusement caché",
     'Objets cachés simples', "Recherche de scènes intermédiaires", 'Défis de recherche complexes',
     "La recherche attentive est récompensée",
-    'Tous les trouver !', "Aventure d'images de recherche",
+    `Tous les trouver !', "Aventure d`images de recherche",
     "Collection d'images de recherche", "Scènes professionnelles pour une observation attentive",
   ],
   crossword: [
@@ -2853,7 +2853,7 @@ const frToolText: Record<string, FrTextTuple> = {
     "Mots croisés simples de 5 mots", 'Puzzles moyens de 10 mots', 'Grilles avancées de 15+ mots',
     "Les mots croisés enrichissent le vocabulaire en s'amusant",
     'Amusement mots croisés !', 'Puzzle de grille de mots',
-    'Collection de mots croisés', "Grilles de mots prêtes pour l'entraînement du vocabulaire",
+    `Collection de mots croisés', "Grilles de mots prêtes pour l`entraînement du vocabulaire",
   ],
   'treasure-hunt': [
     "Chasse au trésor avec des cartes", "Lire les indices, suivre les directions et trouver le trésor",
@@ -3418,7 +3418,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Progressione strutturata per livelli", "Schede adattate a ogni ritmo di apprendimento",
     "Contare immagini tematiche e sommare fino a 5", "Gruppi di immagini miste con somme fino a 10", "Combinare immagini e numeri fino a 20",
     "Avanza al tuo ritmo con la matematica visiva",
-    'Il calcolo a colori!', "Padroneggia l'addizione visiva",
+    `Il calcolo a colori!', "Padroneggia l`addizione visiva",
     "Collezione di schede di addizione", "Esercizi pronti da stampare per casa e scuola",
   ],
   'image-subtraction': [
@@ -3458,7 +3458,7 @@ const itToolText: Record<string, EsTextTuple> = {
     'Equazioni per ogni livello', "Dall'immagine semplice all'equazione complessa",
     "Equazioni con immagini semplici (1-5)", 'Equazioni tematiche fino a 10', "Equazioni con immagini a più passaggi fino a 20",
     "Il pensiero algebrico inizia con le immagini",
-    'Equazioni con immagini!', "Apprendimento visivo dell'algebra",
+    `Equazioni con immagini!', "Apprendimento visivo dell`algebra",
     "Collezione di schede di equazioni", "Esercizi pronti per l'apprendimento visivo dell'algebra",
   ],
   'alphabet-train': [
@@ -3474,7 +3474,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Esercizi di preposizioni in tre livelli", "Dal vocabolario base alla descrizione complessa",
     "Parole spaziali base: sopra, in, sotto", "Vocabolario ampliato con scene tematiche", "Relazioni spaziali complesse e frasi",
     "Le parole di posizione arricchiscono l'espressione",
-    'Dov'è?', 'Impara le parole di posizione',
+    `Dov'è?', 'Impara le parole di posizione`,
     "Collezione di schede di preposizioni", "Esercizi pronti per il vocabolario spaziale",
   ],
   'word-guess': [
@@ -3486,7 +3486,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Collezione di indovinelli di parole", "Esercizi motivanti per il vocabolario",
   ],
   'word-scramble': [
-    'Puzzle di lettere mescolate', "Riordinare le lettere mescolate con l'aiuto di immagini",
+    `Puzzle di lettere mescolate', "Riordinare le lettere mescolate con l`aiuto di immagini",
     "Lettere mescolate in tre livelli", "Dal puzzle semplice alla sfida ortografica",
     "Parole semplici di 3-4 lettere", "Parole tematiche di 5-6 lettere", "Parole più lunghe e liste personalizzate",
     "Le lettere mescolate migliorano l'ortografia",
@@ -3594,7 +3594,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Associazione di ombre in tre livelli", "Da ombre semplici a ombre ruotate",
     'Coppie di ombre semplici', 'Immagini di ombre ruotate', 'Puzzle di ombre complessi',
     "I puzzle di ombre affinano l'osservazione",
-    'Trova l'ombra!', 'Puzzle di ombre',
+    `Trova l'ombra!', 'Puzzle di ombre`,
     "Collezione di associazione di ombre", "Schede stimolanti per la capacità di osservazione",
   ],
   bingo: [
@@ -3626,8 +3626,8 @@ const itToolText: Record<string, EsTextTuple> = {
     "Trova le differenze in tre livelli", "Da serie semplici a serie complesse",
     'Gruppi semplici di 3', 'Gruppi medi di 4', 'Avanzato: 6+ immagini',
     "Riconoscere le differenze rafforza il pensiero logico",
-    'Quale non appartiene?', 'Puzzle occhio d'aquila',
-    'Collezione di puzzle logici', "Esercizi pronti per l'osservazione attenta",
+    `Quale non appartiene?', 'Puzzle occhio d'aquila`,
+    `Collezione di puzzle logici', "Esercizi pronti per l`osservazione attenta",
   ],
   sudoku: [
     'Puzzle di sudoku con immagini', "Puzzle logici con immagini al posto dei numeri",
@@ -3667,7 +3667,7 @@ const itToolText: Record<string, EsTextTuple> = {
     "Cruciverba semplici da 5 parole", 'Puzzle intermedi da 10 parole', "Griglie avanzate da 15+ parole",
     "I cruciverba arricchiscono il vocabolario in modo divertente",
     'Cruciverba divertenti!', 'Puzzle di griglia di parole',
-    'Collezione di cruciverba', "Griglie di parole pronte per l'allenamento del vocabolario",
+    `Collezione di cruciverba', "Griglie di parole pronte per l`allenamento del vocabolario",
   ],
   'treasure-hunt': [
     'Caccia al tesoro con mappe', "Leggi gli indizi, segui le direzioni e trova il tesoro",

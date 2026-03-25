@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: "Come funziona la configurazione per esercizio?",
       answer:
-        "Ogni esercizio della pagina ha impostazioni indipendenti per tipo di pattern, modalità di domanda e tema di immagini. Puoi configurare l'Esercizio 1 come AB casella vuota con animali della fattoria, l'Esercizio 2 come ABC scelta multipla con veicoli, e l'Esercizio 3 come ABCD casella vuota con creature marine — tutto nella stessa pagina. Questo significa che una sola scheda può servire come attività differenziata completa con difficoltà progressiva integrata, senza necessità di pagine separate per ogni tipo di pattern o modalità di domanda.",
+        "Ogni esercizio della pagina ha impostazioni indipendenti per tipo di pattern, modalità di domanda e tema di immagini. Puoi configurare l`Esercizio 1 come AB casella vuota con animali della fattoria, l'Esercizio 2 come ABC scelta multipla con veicoli, e l`Esercizio 3 come ABCD casella vuota con creature marine — tutto nella stessa pagina. Questo significa che una sola scheda può servire come attività differenziata completa con difficoltà progressiva integrata, senza necessità di pagine separate per ogni tipo di pattern o modalità di domanda.",
     },
     {
       question: "Cosa fanno le impostazioni di Inizio Casuale e Posizione Casuale dello Spazio Vuoto?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Il Generatore di Schede di Pattern è sensibile alla lingua?",
       answer:
-        "No. Il Generatore di Schede di Pattern è un'applicazione puramente visiva — le schede contengono solo immagini in righe a griglia con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda in sé. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell'interfaccia.",
+        "No. Il Generatore di Schede di Pattern è un`applicazione puramente visiva — le schede contengono solo immagini in righe a griglia con zero testo nell'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda in sé. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.",
     },
     {
       question: "Posso vendere schede create con questo strumento su Etsy e Amazon KDP?",

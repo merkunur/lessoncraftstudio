@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Optellen Werkblad Maker',
     tagline: "Maak prachtige, beeldgebaseerde optelwerkbladen in minder dan 60 seconden",
-    description: "Verander rekenoefen in een visueel avontuur dat kinderen daadwerkelijk willen maken en verkopers solide inkomsten oplevert. Met deze krachtige tool maak je aangepaste optelwerkbladen met thematische afbeeldingen die kinderen enthousiast houden. Kies uit meer dan 100 beeldthema's met meer dan 3100 handgeselecteerde illustraties, stel de moeilijkheidsgraad in via vier verschillende oefenmodi, bepaal je pagina-indeling tot in het kleinste detail en download printklare PDF's of hoge-resolutie JPEG's op 300 DPI. Ideaal voor Etsy.nl-verkopers die printbare rekenproducten maken en schaalbare inkomsten willen genereren, Amazon KDP-uitgevers die activiteitenboeken samenstellen, en Gumroad-aanbieders die gedifferentieerde oefenmaterialen nodig hebben voor verschillende niveaus. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en je werkbladen op elk platform commercieel te verkopen.",
+    description: "Verander rekenoefen in een visueel avontuur dat kinderen daadwerkelijk willen maken en verkopers solide inkomsten oplevert. Met deze krachtige tool maak je aangepaste optelwerkbladen met thematische afbeeldingen die kinderen enthousiast houden. Kies uit meer dan 100 beeldthema`s met meer dan 3100 handgeselecteerde illustraties, stel de moeilijkheidsgraad in via vier verschillende oefenmodi, bepaal je pagina-indeling tot in het kleinste detail en download printklare PDF's of hoge-resolutie JPEG`s op 300 DPI. Ideaal voor Etsy.nl-verkopers die printbare rekenproducten maken en schaalbare inkomsten willen genereren, Amazon KDP-uitgevers die activiteitenboeken samenstellen, en Gumroad-aanbieders die gedifferentieerde oefenmaterialen nodig hebben voor verschillende niveaus. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en je werkbladen op elk platform commercieel te verkopen.",
   },
 
   tutorial: {
@@ -157,7 +157,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Welke bestandsformaten kan ik downloaden?",
-      answer: "Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF's zijn ideaal voor direct printen; JPEG's werken uitstekend voor het maken van productmockups en social media berichten. Voor KDP-publicatie exporteer je PDF's op de hoogste beschikbare resolutie om aan Amazon-printkwaliteitsvereisten te voldoen.",
+      answer: "Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF`s zijn ideaal voor direct printen; JPEG's werken uitstekend voor het maken van productmockups en social media berichten. Voor KDP-publicatie exporteer je PDF`s op de hoogste beschikbare resolutie om aan Amazon-printkwaliteitsvereisten te voldoen.",
     },
     {
       question: "Kan ik de werkbladen commercieel gebruiken?",

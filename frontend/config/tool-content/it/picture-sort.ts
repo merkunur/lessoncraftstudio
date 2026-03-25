@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: "Quaderni di negozificazione KDP con Difficoltà Progressiva",
-      description: "Compila 50–80 schede di negozificazione in quaderni stampati per Amazon KDP. Struttura i capitoli per difficoltà: i primi capitoli usano 4–6 immagini con differenze di categoria evidenti (animali vs veicoli), i capitoli intermedi usano 8–10 immagini con distinzioni più sottili (animali della fattoria vs animali selvatici), e i capitoli avanzati usano 12 immagini con categorie impegnative (cibo sano vs dolci). Includi pagine con chiave di risposta alla fine di ogni capitolo usando la chiave auto-generata con immagini 6× più grandi nelle caselle categoria. Attiva la scala di grigi per un output ottimizzato per l'inchiostro che si stampa perfettamente in bianco e nero. Il formato di negozificazione a due categorie funziona per ogni fascia d'età dalla scuola dell'infanzia alla primaria.",
+      description: "Compila 50–80 schede di negozificazione in quaderni stampati per Amazon KDP. Struttura i capitoli per difficoltà: i primi capitoli usano 4–6 immagini con differenze di categoria evidenti (animali vs veicoli), i capitoli intermedi usano 8–10 immagini con distinzioni più sottili (animali della fattoria vs animali selvatici), e i capitoli avanzati usano 12 immagini con categorie impegnative (cibo sano vs dolci). Includi pagine con chiave di risposta alla fine di ogni capitolo usando la chiave auto-generata con immagini 6× più grandi nelle caselle categoria. Attiva la scala di grigi per un output ottimizzato per l`inchiostro che si stampa perfettamente in bianco e nero. Il formato di negozificazione a due categorie funziona per ogni fascia d'età dalla scuola dell`infanzia alla primaria.",
     },
     {
       title: "Attività di negozificazione per il negozio con Campi Nome/Data",
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: "Serie di Quaderni di negozificazione per Amazon KDP",
-      description: "Compila 50–80 schede di negozificazione in quaderni tematici per Amazon KDP. Struttura una serie per argomento: \"Puzzle di negozificazione Animali\", \"Attività di negozificazione Cibo\", \"Quaderno di negozificazione Natura\" e \"negozifica Oggetti Quotidiani\". Ogni libro progredisce da negozificazioni semplici con 4 immagini a sfide complesse con 12 immagini. Includi pagine con chiave di risposta in fondo con immagini 6× più grandi organizzate in caselle categoria per una verifica chiara. Attiva la scala di grigi per un output ottimizzato per l'inchiostro che mantiene bassi i costi di stampa KDP. I quaderni di negozificazione servono un pubblico ampio dalla scuola dell'infanzia alla primaria e vendono tutto l'anno nella categoria libri di attività.",
+      description: "Compila 50–80 schede di negozificazione in quaderni tematici per Amazon KDP. Struttura una serie per argomento: \"Puzzle di negozificazione Animali\", \"Attività di negozificazione Cibo\", \"Quaderno di negozificazione Natura\" e \"negozifica Oggetti Quotidiani\". Ogni libro progredisce da negozificazioni semplici con 4 immagini a sfide complesse con 12 immagini. Includi pagine con chiave di risposta in fondo con immagini 6× più grandi organizzate in caselle categoria per una verifica chiara. Attiva la scala di grigi per un output ottimizzato per l`inchiostro che mantiene bassi i costi di stampa KDP. I quaderni di negozificazione servono un pubblico ampio dalla scuola dell'infanzia alla primaria e vendono tutto l`anno nella categoria libri di attività.",
       platform: 'Amazon KDP',
     },
     {
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: "Posso includere campi nome e data nelle schede di negozificazione?",
-      answer: "Sì. Spunta la casella \"Includi Campi Nome/Data\" nel pannello Impostazioni Pagina per aggiungere righe per nome e data dell'utente alla scheda. Questi campi garantiscono la responsabilità degli utenti online e rendono le tue schede di negozificazione pronte per la raccolta e la valutazione da parte dell'venditore senza alcuna preparazione aggiuntiva. I campi nome/data sono un punto di vendita chiave per i prodotti Gumroad per il negozio dove i venditori si aspettano schede pronte all'uso.",
+      answer: "Sì. Spunta la casella \"Includi Campi Nome/Data\" nel pannello Impostazioni Pagina per aggiungere righe per nome e data dell`utente alla scheda. Questi campi garantiscono la responsabilità degli utenti online e rendono le tue schede di negozificazione pronte per la raccolta e la valutazione da parte dell'venditore senza alcuna preparazione aggiuntiva. I campi nome/data sono un punto di vendita chiave per i prodotti Gumroad per il negozio dove i venditori si aspettano schede pronte all`uso.",
     },
     {
       question: "Quali dimensioni pagina e formati di esportazione sono disponibili?",

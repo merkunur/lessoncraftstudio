@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: "Grammatica adattata per ogni lingua con preposizioni articolate, elisione e regole degli articoli",
         description:
-          "L'Accesso Completo sblocca tutte le 11 lingue supportate, e ciascuna applica le proprie regole grammaticali alle frasi di preposizioni. Il tedesco usa le contrazioni dative come „im\" (in dem) e „am\" (an dem) con articoli di genere (dem/der). Il francese applica le regole di elisione, sostituendo «le» con «l'» davanti a vocali o h muta. L'italiano usa le preposizioni articolate — nel (in + il), nella (in + la), sul (su + il), sulla (su + la), nello (in + lo), nell' (in + l') — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta nella lingua di destinazione — non una traduzione parola per parola — rendendo ogni versione linguistica un prodotto genuinamente commercializzabile.",
+          "L`Accesso Completo sblocca tutte le 11 lingue supportate, e ciascuna applica le proprie regole grammaticali alle frasi di preposizioni. Il tedesco usa le contrazioni dative come „im\" (in dem) e „am\" (an dem) con articoli di genere (dem/der). Il francese applica le regole di elisione, sostituendo «le» con «l'» davanti a vocali o h muta. L'italiano usa le preposizioni articolate — nel (in + il), nella (in + la), sul (su + il), sulla (su + la), nello (in + lo), nell' (in + l`) — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta nella lingua di destinazione — non una traduzione parola per parola — rendendo ogni versione linguistica un prodotto genuinamente commercializzabile.",
       },
       {
         title: "Oggetti + Forme: due tipi di immagine per il contesto spaziale",
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: "Prodotti multilingue di preposizioni con Accesso Completo",
         description:
-          "L'Accesso Completo sblocca tutte le 11 lingue con preposizioni grammaticalmente corrette, preposizioni articolate, contrazioni dative e regole di elisione. Crea schede di preposizioni in tedesco con „im\" e „am\", schede in francese con l'elisione «l'», schede in italiano con le preposizioni articolate (nel, nella, sul, sulla), schede in spagnolo con gli articoli el/la, e altro ancora. Ogni versione linguistica è un prodotto distinto che puoi pubblicare su Etsy, Gumroad o Amazon KDP — moltiplicando effettivamente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti multilingue di vocabolario spaziale incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.",
+          "L`Accesso Completo sblocca tutte le 11 lingue con preposizioni grammaticalmente corrette, preposizioni articolate, contrazioni dative e regole di elisione. Crea schede di preposizioni in tedesco con „im\" e „am\", schede in francese con l'elisione «l`», schede in italiano con le preposizioni articolate (nel, nella, sul, sulla), schede in spagnolo con gli articoli el/la, e altro ancora. Ogni versione linguistica è un prodotto distinto che puoi pubblicare su Etsy, Gumroad o Amazon KDP — moltiplicando effettivamente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti multilingue di vocabolario spaziale incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.",
         platform: "Etsy / Amazon KDP / Gumroad (multilingue)",
       },
       {
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: "Il Generatore di Schede di Preposizioni dipende dalla lingua?",
       answer:
-        "Sì. A differenza delle applicazioni di matematica puramente visive, le schede di preposizioni cambiano fondamentalmente in base alla lingua selezionata. Ogni lingua ha le proprie preposizioni, regole degli articoli e strutture grammaticali. Il tedesco usa le contrazioni dative («im», «am») e gli articoli di genere (dem/der). Il francese applica l'elisione («l'» davanti a vocali). L'italiano usa le preposizioni articolate — nel, nella, sul, sulla, nello, nell' — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta — non una traduzione parola per parola. La Licenza Commerciale è solo in inglese; l'Accesso Completo sblocca tutte le 11 lingue.",
+        "Sì. A differenza delle applicazioni di matematica puramente visive, le schede di preposizioni cambiano fondamentalmente in base alla lingua selezionata. Ogni lingua ha le proprie preposizioni, regole degli articoli e strutture grammaticali. Il tedesco usa le contrazioni dative («im», «am») e gli articoli di genere (dem/der). Il francese applica l`elisione («l'» davanti a vocali). L'italiano usa le preposizioni articolate — nel, nella, sul, sulla, nello, nell' — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta — non una traduzione parola per parola. La Licenza Commerciale è solo in inglese; l`Accesso Completo sblocca tutte le 11 lingue.",
     },
     {
       question: "Come funziona la gestione grammaticale nelle diverse lingue?",

@@ -23,7 +23,7 @@ const content: AppContent = {
     title: "Generatore di Schede di Puzzle Matematici con Risoluzione Visiva",
     tagline: "Combina la pratica matematica con il divertimento di risolvere puzzle — ogni pezzo contiene un problema, ogni soluzione rivela l'immagine.",
     description:
-      "Crea schede di puzzle matematici coinvolgenti dove un'immagine completa viene divisa in una griglia di pezzi, ciascuno con un problema di addizione o sottrazione. gli utenti risolvono le operazioni e poi abbinano le risposte numerate ai pezzi mescolati mostrati sotto la griglia — trasformando l'aritmetica di routine in un mistero visivo. Configura griglie da 2×2 fino a 4×4 per creare puzzle da 4 a 16 pezzi e scegli addizione, sottrazione o operazioni miste per adattarti a qualsiasi livello. Seleziona tra oltre 3100 illustrazioni in 104 temi come animali della fattoria, spazio, dinosauri e festività per rendere ogni puzzle unico. Ogni scheda genera automaticamente un foglio delle soluzioni che mostra la griglia risolta accanto all'immagine completa. Esporta PDF e JPEG pronti per la stampa a oltre 400 DPI in formato Lettera, A4 o personalizzato. Che tu venda pacchetti tematici di puzzle su Etsy, compili libri di attività progressivi per Amazon KDP o crei centri di matematica interattivi per il tuo catalogo, il Generatore di Puzzle Matematici produce risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.",
+      "Crea schede di puzzle matematici coinvolgenti dove un`immagine completa viene divisa in una griglia di pezzi, ciascuno con un problema di addizione o sottrazione. gli utenti risolvono le operazioni e poi abbinano le risposte numerate ai pezzi mescolati mostrati sotto la griglia — trasformando l'aritmetica di routine in un mistero visivo. Configura griglie da 2×2 fino a 4×4 per creare puzzle da 4 a 16 pezzi e scegli addizione, sottrazione o operazioni miste per adattarti a qualsiasi livello. Seleziona tra oltre 3100 illustrazioni in 104 temi come animali della fattoria, spazio, dinosauri e festività per rendere ogni puzzle unico. Ogni scheda genera automaticamente un foglio delle soluzioni che mostra la griglia risolta accanto all`immagine completa. Esporta PDF e JPEG pronti per la stampa a oltre 400 DPI in formato Lettera, A4 o personalizzato. Che tu venda pacchetti tematici di puzzle su Etsy, compili libri di attività progressivi per Amazon KDP o crei centri di matematica interattivi per il tuo catalogo, il Generatore di Puzzle Matematici produce risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.",
   },
 
   howItWorks: {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Come funziona il formato del puzzle matematico?",
       answer:
-        "Un'immagine selezionata viene divisa in una griglia di celle. Ogni cella contiene un problema di matematica (addizione, sottrazione o misto). Sotto la griglia, gli stessi pezzi dell'immagine appaiono mescolati e numerati. gli utenti risolvono ogni problema e poi abbinano la risposta al pezzo corretto — quando tutti i pezzi sono correttamente abbinati, il puzzle è risolto e l'immagine completa viene rivelata. Questa meccanica di rivelazione aggiunge un livello di motivazione che le schede di esercizi standard non hanno, facendo sì che gli utenti siano ansiosi di completare ogni problema invece di abbandonare la scheda a metà.",
+        "Un`immagine selezionata viene divisa in una griglia di celle. Ogni cella contiene un problema di matematica (addizione, sottrazione o misto). Sotto la griglia, gli stessi pezzi dell'immagine appaiono mescolati e numerati. gli utenti risolvono ogni problema e poi abbinano la risposta al pezzo corretto — quando tutti i pezzi sono correttamente abbinati, il puzzle è risolto e l`immagine completa viene rivelata. Questa meccanica di rivelazione aggiunge un livello di motivazione che le schede di esercizi standard non hanno, facendo sì che gli utenti siano ansiosi di completare ogni problema invece di abbandonare la scheda a metà.",
     },
     {
       question: "Quali dimensioni di griglia sono disponibili per i puzzle?",
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Le schede di puzzle matematici dipendono dalla lingua?",
       answer:
-        "No. Le schede di puzzle matematici sono completamente visive — il contenuto usa immagini e numeri, non parole. Un puzzle creato in qualsiasi configurazione linguistica funziona in tutto il mondo. L'opzione della lingua modifica solo le etichette dell'interfaccia dell'applicazione, non il contenuto della scheda stessa, rendendo i tuoi prodotti immediatamente vendibili in qualsiasi mercato.",
+        "No. Le schede di puzzle matematici sono completamente visive — il contenuto usa immagini e numeri, non parole. Un puzzle creato in qualsiasi configurazione linguistica funziona in tutto il mondo. L`opzione della lingua modifica solo le etichette dell'interfaccia dell`applicazione, non il contenuto della scheda stessa, rendendo i tuoi prodotti immediatamente vendibili in qualsiasi mercato.",
     },
     {
       question: "Posso caricare le mie immagini per i puzzle?",
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: "Posso esportare i puzzle in scala di grigi per risparmiare inchiostro?",
       answer:
-        "Sì. Attiva l'opzione scala di grigi prima di esportare per produrre versioni in bianco e nero perfette per la stampa in volume, pacchetti di compiti a casa o libri di attività dove la stampa a colori non è pratica. Sia le esportazioni JPEG che PDF supportano la modalità scala di grigi. Molti editori su Amazon KDP creano sia un'edizione digitale a colori che un'edizione stampata in scala di grigi dello stesso set di puzzle, raddoppiando il catalogo prodotti con un minimo lavoro aggiuntivo.",
+        "Sì. Attiva l`opzione scala di grigi prima di esportare per produrre versioni in bianco e nero perfette per la stampa in volume, pacchetti di compiti a casa o libri di attività dove la stampa a colori non è pratica. Sia le esportazioni JPEG che PDF supportano la modalità scala di grigi. Molti editori su Amazon KDP creano sia un'edizione digitale a colori che un`edizione stampata in scala di grigi dello stesso set di puzzle, raddoppiando il catalogo prodotti con un minimo lavoro aggiuntivo.",
     },
     {
       question: 'Esiste una prova gratuita?',

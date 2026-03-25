@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: "Genera il Cruciverba con Immagini",
         description:
-          "Clicca Genera per creare il cruciverba su una griglia fissa 15×15. L'algoritmo estrae le parole dai nomi delle immagini, rimuove gli spazi, converte in maiuscolo, mescola e ordina per lunghezza (la più lunga prima), poi posiziona le parole nella griglia per un incrocio ottimale. Le posizioni numerate segnano l'inizio di ogni parola. Gli indizi visivi appaiono accanto alla griglia con i numeri corrispondenti. Un'intestazione stilizzata \"Cruciverba con Immagini\" appare in alto con sfondo blu (#5B9BD5), pillola bianca e titolo e descrizione localizzati nei font Fredoka e Quicksand.",
+          "Clicca Genera per creare il cruciverba su una griglia fissa 15×15. L`algoritmo estrae le parole dai nomi delle immagini, rimuove gli spazi, converte in maiuscolo, mescola e ordina per lunghezza (la più lunga prima), poi posiziona le parole nella griglia per un incrocio ottimale. Le posizioni numerate segnano l'inizio di ogni parola. Gli indizi visivi appaiono accanto alla griglia con i numeri corrispondenti. Un`intestazione stilizzata \"Cruciverba con Immagini\" appare in alto con sfondo blu (#5B9BD5), pillola bianca e titolo e descrizione localizzati nei font Fredoka e Quicksand.",
       },
       {
         title: "Genera il Foglio Risposte e Scarica",
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: "Cruciverba con Immagini e Indizi Visivi su Griglia Fissa 15×15",
         description:
-          "Genera cruciverba dove immagini colorate sostituiscono gli indizi testuali tradizionali. Otto immagini forniscono otto parole che l'algoritmo posiziona su una griglia fissa 15×15 — le celle nere formano lo sfondo con contorni colorati che segnano le celle delle risposte. L'algoritmo di posizionamento estrae le parole dai nomi delle immagini, le ordina per lunghezza (la più lunga prima) per una copertura ottimale della griglia e posiziona le parole con lettere incrociate. Le posizioni numerate all'inizio di ogni parola collegano gli indizi visivi alle rispettive posizioni nella griglia. Questo formato con indizi illustrati crea un'esperienza di cruciverba unica che funziona per l'apprendimento del vocabolario a tutte le età.",
+          "Genera cruciverba dove immagini colorate sostituiscono gli indizi testuali tradizionali. Otto immagini forniscono otto parole che l`algoritmo posiziona su una griglia fissa 15×15 — le celle nere formano lo sfondo con contorni colorati che segnano le celle delle risposte. L'algoritmo di posizionamento estrae le parole dai nomi delle immagini, le ordina per lunghezza (la più lunga prima) per una copertura ottimale della griglia e posiziona le parole con lettere incrociate. Le posizioni numerate all'inizio di ogni parola collegano gli indizi visivi alle rispettive posizioni nella griglia. Questo formato con indizi illustrati crea un'esperienza di cruciverba unica che funziona per l`apprendimento del vocabolario a tutte le età.",
       },
       {
         title: "Quattro Metodi di Input: Selezione Automatica Tema, Modifica Manuale, Lista Parole Personalizzata e Caricamento Immagini",
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: "Il Generatore di Cruciverba con Immagini è sensibile alla lingua?",
       answer:
-        "Sì. Le parole del puzzle provengono dai nomi localizzati delle immagini caricati tramite il sistema Vocabolario Immagini. Cambiare la lingua del contenuto modifica le parole effettive posizionate nella griglia del cruciverba. Un'immagine di gatto genera \"CAT\" in inglese ma \"GATTO\" in italiano, \"KATZE\" in tedesco e \"CHAT\" in francese — creando cruciverba completamente diversi dalla stessa selezione di immagini. Anche l'intestazione localizzata \"Cruciverba con Immagini\" cambia con la lingua selezionata. Il livello Commerciale include il contenuto inglese; l'Accesso Completo sblocca tutte le 11 lingue.",
+        "Sì. Le parole del puzzle provengono dai nomi localizzati delle immagini caricati tramite il sistema Vocabolario Immagini. Cambiare la lingua del contenuto modifica le parole effettive posizionate nella griglia del cruciverba. Un`immagine di gatto genera \"CAT\" in inglese ma \"GATTO\" in italiano, \"KATZE\" in tedesco e \"CHAT\" in francese — creando cruciverba completamente diversi dalla stessa selezione di immagini. Anche l'intestazione localizzata \"Cruciverba con Immagini\" cambia con la lingua selezionata. Il livello Commerciale include il contenuto inglese; l`Accesso Completo sblocca tutte le 11 lingue.",
     },
     {
       question: "Come funziona l'intestazione auto-generata?",
       answer:
-        "Ogni cruciverba generato include un'intestazione reattiva con sfondo blu (#5B9BD5), pillola bianca e titolo e descrizione localizzati. Il formato verticale mostra un'intestazione a tutta larghezza (altezza 220px); il formato orizzontale usa un layout centrato compatto (altezza 145px). Il titolo \"Cruciverba con Immagini\" viene renderizzato nel font Fredoka con dimensionamento dinamico (48px per titoli corti fino a 28px per traduzioni più lunghe), e la descrizione \"Guarda le immagini e inserisci le parole!\" viene renderizzata in Quicksand. Entrambi gli elementi testuali si traducono automaticamente in tutte le 11 lingue supportate. Un bordo blu brillante (#4A90E2, tratto 8px, angoli arrotondati 12px) incornicia l'intestazione.",
+        "Ogni cruciverba generato include un`intestazione reattiva con sfondo blu (#5B9BD5), pillola bianca e titolo e descrizione localizzati. Il formato verticale mostra un'intestazione a tutta larghezza (altezza 220px); il formato orizzontale usa un layout centrato compatto (altezza 145px). Il titolo \"Cruciverba con Immagini\" viene renderizzato nel font Fredoka con dimensionamento dinamico (48px per titoli corti fino a 28px per traduzioni più lunghe), e la descrizione \"Guarda le immagini e inserisci le parole!\" viene renderizzata in Quicksand. Entrambi gli elementi testuali si traducono automaticamente in tutte le 11 lingue supportate. Un bordo blu brillante (#4A90E2, tratto 8px, angoli arrotondati 12px) incornicia l`intestazione.",
     },
     {
       question: "È disponibile una prova gratuita?",

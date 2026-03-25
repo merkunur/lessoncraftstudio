@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Train de Suites Logiques",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L'outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches train de suites logiques immédiatement.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L`outil s'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches train de suites logiques immédiatement.",
       },
       {
         title: "Définir la Mise en Page et l'Arrière-Plan",
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: "Ajouter du Texte et Personnaliser le Canevas",
-        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js. Les outils d'alignement positionnent les éléments avec précision, les contrôles de verrouillage/déverrouillage protègent les éléments terminés pendant que vous modifiez les autres, et l'annulation et le rétablissement illimités vous permettent d'expérimenter librement.",
+        description: "Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js. Les outils d`alignement positionnent les éléments avec précision, les contrôles de verrouillage/déverrouillage protègent les éléments terminés pendant que vous modifiez les autres, et l'annulation et le rétablissement illimités vous permettent d`expérimenter librement.",
       },
       {
         title: "Vérifier le Corrigé et Télécharger",
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: "Lots Multi-Formats d'Apprentissage Visuel",
-      description: "Associez les fiches train de suites logiques avec les fiches de séquences logiques en grille, les fiches d'association, les fiches de l'intrus et les fiches de discrimination visuelle en utilisant des thèmes coordonnés. Chaque format exerce une compétence cognitive visuelle différente : le Train de Suites Logiques développe la reconnaissance de séquences dans un format distinctif en train, les grilles de motifs utilisent le format standard en lignes et colonnes, l'association développe l'appariement visuel, l'intrus développe la classification. Les lots visuels multi-formats se vendent plus cher qu'un seul type d'activité et offrent aux utilisateurs une pratique variée.",
+      description: "Associez les fiches train de suites logiques avec les fiches de séquences logiques en grille, les fiches d`association, les fiches de l'intrus et les fiches de discrimination visuelle en utilisant des thèmes coordonnés. Chaque format exerce une compétence cognitive visuelle différente : le Train de Suites Logiques développe la reconnaissance de séquences dans un format distinctif en train, les grilles de motifs utilisent le format standard en lignes et colonnes, l'association développe l'appariement visuel, l'intrus développe la classification. Les lots visuels multi-formats se vendent plus cher qu'un seul type d`activité et offrent aux utilisateurs une pratique variée.",
     },
     {
       title: "Trains de Suites Logiques avec Images Personnalisées par Sujet",
-      description: "Téléversez des images personnalisées pour créer des fiches train de suites logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour une leçon de sciences, des symboles de notes musicales pour un cours de musique, des formes géométriques pour une unité de mathématiques, ou des images d'artefacts historiques pour l'histoire-géographie. Les cinq types de motifs et le nombre d'indices ajustable vous permettent d'adapter l'exercice à n'importe quel objectif pédagogique. Les images personnalisées vous permettent de cibler des niches d'acheteurs spécifiques sur Etsy.fr et Gumroad là où les images thématiques seules ne suffisent pas.",
+      description: "Téléversez des images personnalisées pour créer des fiches train de suites logiques pour des publics spécialisés au-delà de la bibliothèque intégrée. Utilisez des étapes de croissance des plantes pour une leçon de sciences, des symboles de notes musicales pour un cours de musique, des formes géométriques pour une unité de mathématiques, ou des images d`artefacts historiques pour l'histoire-géographie. Les cinq types de motifs et le nombre d'indices ajustable vous permettent d'adapter l'exercice à n'importe quel objectif pédagogique. Les images personnalisées vous permettent de cibler des niches d`acheteurs spécifiques sur Etsy.fr et Gumroad là où les images thématiques seules ne suffisent pas.",
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: "Ateliers de Motifs sur Gumroad",
-      description: "Téléchargez des packs de fiches train de suites logiques sur Gumroad organisés par niveau de compétence et thème. Incluez quatre paliers de difficulté par thème en utilisant le type de motif et le nombre d'indices comme axes de différenciation. Accompagnez de corrigés auto-générés et de fiches de suivi de progression. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d'atelier en ligne. Les vendeurs recherchent « activités de reconnaissance de motifs » et « fiches de séquences répétitives » et trouvent peu d'options au format train — vos produits comblent un véritable manque.",
+      description: "Téléchargez des packs de fiches train de suites logiques sur Gumroad organisés par niveau de compétence et thème. Incluez quatre paliers de difficulté par thème en utilisant le type de motif et le nombre d`indices comme axes de différenciation. Accompagnez de corrigés auto-générés et de fiches de suivi de progression. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d'atelier en ligne. Les vendeurs recherchent « activités de reconnaissance de motifs » et « fiches de séquences répétitives » et trouvent peu d`options au format train — vos produits comblent un véritable manque.",
       platform: 'Gumroad',
     },
     {
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: "Kit Complet d'Apprentissage des Motifs sur Gumroad",
-      description: "Regroupez les fiches train de suites logiques avec les fiches de séquences logiques en grille, les fiches d'association et les activités de complétion de séquences pour créer un kit complet d'apprentissage des motifs sur Gumroad. Chaque format exerce la reconnaissance de motifs différemment : le Train de Suites Logiques utilise la disposition distinctive à 11 wagons, les grilles de motifs utilisent le format standard en lignes et colonnes, l'association apparie des éléments liés, la complétion de séquences prolonge les motifs. Un kit multi-formats justifie un prix premium et offre aux utilisateurs une pratique variée avec des images thématiques coordonnées.",
+      description: "Regroupez les fiches train de suites logiques avec les fiches de séquences logiques en grille, les fiches d`association et les activités de complétion de séquences pour créer un kit complet d'apprentissage des motifs sur Gumroad. Chaque format exerce la reconnaissance de motifs différemment : le Train de Suites Logiques utilise la disposition distinctive à 11 wagons, les grilles de motifs utilisent le format standard en lignes et colonnes, l`association apparie des éléments liés, la complétion de séquences prolonge les motifs. Un kit multi-formats justifie un prix premium et offre aux utilisateurs une pratique variée avec des images thématiques coordonnées.",
       platform: 'Gumroad',
     },
     {
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Y a-t-il un essai gratuit ?',
-      answer: "Oui. L'outil propose un essai gratuit avec toutes les fonctionnalités — les cinq types de motifs, le nombre d'indices ajustable de 4 à 10, la Bibliothèque d'Images, la génération de corrigé et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l'essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
+      answer: "Oui. L`outil propose un essai gratuit avec toutes les fonctionnalités — les cinq types de motifs, le nombre d'indices ajustable de 4 à 10, la Bibliothèque d'Images, la génération de corrigé et tous les formats d'export. Sans inscription, sans carte bancaire. Les téléchargements de l`essai gratuit incluent un filigrane. Achetez une Licence Commerciale pour supprimer le filigrane et débloquer les droits de vente.",
     },
     {
       question: "Quels sont les cinq types de motifs ?",
@@ -205,8 +205,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: "Créateur de Fiches Grand et Petit" },
     { pageType: 'tool', slug: "generateur-fiches-sequences-logiques", anchorText: "Créateur de Fiches Séquences Logiques" },
     { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: "Créateur de Fiches Dessin sur Quadrillage" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d'Association" },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: "Créateur de Fiches de l'Intrus" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Créateur de Fiches d`Association" },
+    { pageType: `tool', slug: 'generateur-fiches-intrus', anchorText: "Créateur de Fiches de l`Intrus" },
     { pageType: 'tool', slug: "generateur-discrimination-visuelle", anchorText: "Créateur de Fiches Discrimination Visuelle" },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: "Créateur de Pages de Coloriage" },
   ],

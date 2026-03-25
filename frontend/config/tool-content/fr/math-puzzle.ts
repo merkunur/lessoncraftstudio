@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: "Générateur de Puzzles Mathématiques",
     tagline: "Créez des puzzles images jigsaw avec des équations mathématiques en moins de 60 secondes",
-    description: "Transformez la pratique des maths en un puzzle visuel captivant qui ne ressemble en rien à une fiche d'exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l'image. Choisissez parmi trois modes d'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu'à 4×4 (16 pièces, le plus difficile) pour s'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
+    description: "Transformez la pratique des maths en un puzzle visuel captivant qui ne ressemble en rien à une fiche d`exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l'image. Choisissez parmi trois modes d'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu'à 4×4 (16 pièces, le plus difficile) pour s'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
   tutorial: {
@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: "Ouvrir le Générateur de Puzzles",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le créateur de puzzles maths. L'outil s'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l'aperçu en temps réel. Aucun compte ni téléchargement requis.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le créateur de puzzles maths. L`outil s'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l`aperçu en temps réel. Aucun compte ni téléchargement requis.",
       },
       {
         title: "Définir la Taille de la Grille",
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: "Packs de Puzzles Maths Thématiques",
-      description: "Créez des ensembles de 15–20 puzzles avec des images thématiques de la bibliothèque — dinosaures, espace, animaux, véhicules. Chaque puzzle utilise une image différente avec des équations d'Addition ou de Soustraction à une taille de grille constante. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format jigsaw rend votre vignette de listing immédiatement reconnaissable parmi les fiches de maths standards. Pensez à accompagner chaque pack thématique d'un cahier de corrigés assorti et d'une page de couverture mettant en avant les visuels du thème. Les vendeurs qui incluent des pages de couverture professionnelles et un formatage cohérent sur chaque page obtiennent de meilleurs avis clients et des achats répétés du même acheteur.",
+      description: "Créez des ensembles de 15–20 puzzles avec des images thématiques de la bibliothèque — dinosaures, espace, animaux, véhicules. Chaque puzzle utilise une image différente avec des équations d`Addition ou de Soustraction à une taille de grille constante. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format jigsaw rend votre vignette de listing immédiatement reconnaissable parmi les fiches de maths standards. Pensez à accompagner chaque pack thématique d'un cahier de corrigés assorti et d`une page de couverture mettant en avant les visuels du thème. Les vendeurs qui incluent des pages de couverture professionnelles et un formatage cohérent sur chaque page obtiennent de meilleurs avis clients et des achats répétés du même acheteur.",
     },
     {
       title: 'Cahiers de Puzzles pour KDP',
@@ -96,12 +96,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Cahiers d'Activités de Puzzles Maths sur Amazon KDP",
-      description: "Compilez 60+ pages de puzzles maths dans un cahier d'activités physique. Mélangez les tailles de grille et les opérations pour varier les chapitres. Utilisez le mode niveaux de gris pour réduire les coûts d'impression KDP. Fixez le prix entre 6,99 € et 9,99 € et laissez Amazon gérer l'impression et la livraison. Le format puzzle se photographie particulièrement bien pour les images de listing KDP car il ne ressemble à aucun cahier concurrent.",
+      description: "Compilez 60+ pages de puzzles maths dans un cahier d`activités physique. Mélangez les tailles de grille et les opérations pour varier les chapitres. Utilisez le mode niveaux de gris pour réduire les coûts d'impression KDP. Fixez le prix entre 6,99 € et 9,99 € et laissez Amazon gérer l`impression et la livraison. Le format puzzle se photographie particulièrement bien pour les images de listing KDP car il ne ressemble à aucun cahier concurrent.",
       platform: 'Amazon KDP',
     },
     {
       title: 'Packs Premium sur Gumroad',
-      description: "Téléchargez des packs de puzzles maths différenciés sur Gumroad. Les vendeurs recherchent constamment « puzzles maths » et « jeux de maths ». Incluez les trois modes d'opération, trois niveaux de difficulté, les corrigés et un guide vendeur dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d'instructions « Comment Utiliser » expliquant les niveaux de difficulté par grille, les tranches d'âge suggérées et des conseils pour l'utilisation en ligne. Les acheteurs Gumroad laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l'vendeur, ce qui améliore la visibilité de votre listing dans les résultats de recherche Gumroad.",
+      description: "Téléchargez des packs de puzzles maths différenciés sur Gumroad. Les vendeurs recherchent constamment « puzzles maths » et « jeux de maths ». Incluez les trois modes d`opération, trois niveaux de difficulté, les corrigés et un guide vendeur dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d'instructions « Comment Utiliser » expliquant les niveaux de difficulté par grille, les tranches d'âge suggérées et des conseils pour l'utilisation en ligne. Les acheteurs Gumroad laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l`vendeur, ce qui améliore la visibilité de votre listing dans les résultats de recherche Gumroad.",
       platform: 'Gumroad',
     },
     {
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Vendeur de Puzzles Maths Multilingue",
-      description: "Les puzzles maths n'utilisent que des images, des nombres et des équations — aucun texte nécessaire. Un seul puzzle PDF fonctionne identiquement dans toutes les langues. Listez le même produit sur Etsy Allemagne, France, Espagne, Italie et tout autre marché sans traduction. La plupart des concurrents ne servent que les acheteurs anglophones, vous donnant un avantage de marché de 5 à 10 fois. Créer des puzzles maths en allemand, français et espagnol ouvre des opportunités sur les marketplaces internationaux où les vendeurs anglophones sont peu présents. La nature visuelle des puzzles jigsaw signifie qu'ils nécessitent une traduction minimale, rendant l'expansion multilingue plus rapide et plus rentable que les produits éducatifs textuels.",
+      description: "Les puzzles maths n`utilisent que des images, des nombres et des équations — aucun texte nécessaire. Un seul puzzle PDF fonctionne identiquement dans toutes les langues. Listez le même produit sur Etsy Allemagne, France, Espagne, Italie et tout autre marché sans traduction. La plupart des concurrents ne servent que les acheteurs anglophones, vous donnant un avantage de marché de 5 à 10 fois. Créer des puzzles maths en allemand, français et espagnol ouvre des opportunités sur les marketplaces internationaux où les vendeurs anglophones sont peu présents. La nature visuelle des puzzles jigsaw signifie qu'ils nécessitent une traduction minimale, rendant l`expansion multilingue plus rapide et plus rentable que les produits éducatifs textuels.",
       platform: 'Etsy',
     },
   ],
@@ -175,11 +175,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Que fait le mode niveaux de gris ?",
-      answer: "Activer le mode niveaux de gris convertit l'image du puzzle en noir et blanc. Cela produit des fiches économiques en encre qui coûtent moins cher à imprimer en grande quantité. C'est particulièrement utile pour les cahiers Amazon KDP où les intérieurs en niveaux de gris ont des frais d'impression inférieurs à ceux en couleur.",
+      answer: "Activer le mode niveaux de gris convertit l`image du puzzle en noir et blanc. Cela produit des fiches économiques en encre qui coûtent moins cher à imprimer en grande quantité. C'est particulièrement utile pour les cahiers Amazon KDP où les intérieurs en niveaux de gris ont des frais d`impression inférieurs à ceux en couleur.",
     },
     {
       question: "Puis-je utiliser les puzzles à des fins commerciales ?",
-      answer: "L'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des puzzles sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les puzzles que vous créez. Il n'y a aucune limite sur le nombre de puzzles que vous pouvez générer ou vendre une fois la licence obtenue. Vous êtes propriétaire des fichiers générés et pouvez les lister sur plusieurs plateformes simultanément — le même pack de puzzles peut apparaître sur Etsy, Gumroad, Gumroad et KDP sans frais supplémentaires.",
+      answer: "L`essai gratuit avec filigrane est réservé à un usage personnel et pédagogique. Pour vendre des puzzles sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les puzzles que vous créez. Il n`y a aucune limite sur le nombre de puzzles que vous pouvez générer ou vendre une fois la licence obtenue. Vous êtes propriétaire des fichiers générés et pouvez les lister sur plusieurs plateformes simultanément — le même pack de puzzles peut apparaître sur Etsy, Gumroad, Gumroad et KDP sans frais supplémentaires.",
     },
     {
       question: "Les puzzles fonctionnent-ils dans d'autres langues que le français ?",
@@ -197,12 +197,12 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'puzzle-maths-fiches', anchorText: "Puzzles Maths — Détails Complets du Produit" },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d'Addition" },
+    { pageType: `tool', slug: 'generateur-fiches-addition', anchorText: "Générateur de Fiches d`Addition" },
     { pageType: 'tool', slug: "generateur-fiches-soustraction", anchorText: "Générateur de Fiches de Soustraction" },
-    { pageType: 'tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée' },
+    { pageType: `tool', slug: 'generateur-addition-codee', anchorText: 'Générateur d'Addition Codée` },
     { pageType: 'tool', slug: "generateur-comparaison-quantites", anchorText: "Générateur de Comparaison de Quantités" },
-    { pageType: 'tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d'Exercices de Maths" },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d'Association" },
+    { pageType: `tool', slug: 'generateur-exercices-maths', anchorText: "Générateur d`Exercices de Maths" },
+    { pageType: `tool', slug: 'generateur-fiches-association', anchorText: "Générateur de Fiches d`Association" },
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: "Générateur de Pièces Manquantes" },
   ],
 

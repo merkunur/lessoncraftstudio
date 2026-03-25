@@ -133,7 +133,7 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
     },
     {
       question: "Welke NT2/ESL thema's verkopen het beste?",
-      answer: "De bestverkopende vocabulairethema's voor NT2/ESL zijn dagelijks leven (eten, kleding, wonen), school en klas (schoolspullen, klasinstructies, vakken), boodschappen en winkelen (voedingsmiddelen, winkelinrichting, betalen), vervoer (voertuigen, richtingen, openbaar vervoer) en beroepen (beroepsnamen, werkplaatsen, gereedschap). Deze thema's sluiten aan bij de primaire communicatiebehoeften van beginnende taalleerders en worden universeel behandeld in NT2- en ESL-programma's wereldwijd. Seizoensthema's en feestdagenthema's voegen culturele taalverwerving toe die verkopers bijzonder waarderen.",
+      answer: "De bestverkopende vocabulairethema`s voor NT2/ESL zijn dagelijks leven (eten, kleding, wonen), school en klas (schoolspullen, klasinstructies, vakken), boodschappen en winkelen (voedingsmiddelen, winkelinrichting, betalen), vervoer (voertuigen, richtingen, openbaar vervoer) en beroepen (beroepsnamen, werkplaatsen, gereedschap). Deze thema's sluiten aan bij de primaire communicatiebehoeften van beginnende taalleerders en worden universeel behandeld in NT2- en ESL-programma's wereldwijd. Seizoensthema's en feestdagenthema`s voegen culturele taalverwerving toe die verkopers bijzonder waarderen.",
     },
     {
       question: "Hoe maak ik efficiënt NT2/ESL werkbladen met generator tools?",

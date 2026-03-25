@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: "Schede personalizzate con immagini proprie",
-      description: "Carica le tue illustrazioni, mascotte o opere d'arte con licenza per creare schede sulle preposizioni che nessun altro venditore può replicare. Combina immagini principali personalizzate con sostituzioni di forme personalizzate per un'identità visiva completamente brandizzata. I creatori di contenuti per homeschooling possono usare oggetti familiari, e i venditori Etsy possono costruire un'estetica distintiva nel loro intero negozio.",
+      description: "Carica le tue illustrazioni, mascotte o opere d`arte con licenza per creare schede sulle preposizioni che nessun altro venditore può replicare. Combina immagini principali personalizzate con sostituzioni di forme personalizzate per un'identità visiva completamente brandizzata. I creatori di contenuti per homeschooling possono usare oggetti familiari, e i venditori Etsy possono costruire un`estetica distintiva nel loro intero negozio.",
     },
     {
       title: "Pacchetti preposizioni stagionali",
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: "Usa Scala di Grigi per KDP e stampa in blocco",
-      description: "Attiva l'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco online. Le scene in bianco e nero costano significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci attirano i clic. Molti venditori KDP esperti pubblicano sia un'edizione digitale a colori che un'edizione stampata in scala di grigi dello stesso quaderno, raddoppiando effettivamente il loro catalogo da una singola sessione di design senza creare nuovi contenuti.",
+      description: "Attiva l`opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco online. Le scene in bianco e nero costano significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci attirano i clic. Molti venditori KDP esperti pubblicano sia un'edizione digitale a colori che un`edizione stampata in scala di grigi dello stesso quaderno, raddoppiando effettivamente il loro catalogo da una singola sessione di design senza creare nuovi contenuti.",
     },
     {
       title: "Carica immagini personalizzate per il branding",
@@ -167,7 +167,7 @@ const content: ToolContent = {
       answer: "Lo strumento mostra una griglia con caselle di controllo con tutte le preposizioni disponibili per la lingua selezionata. Seleziona quelle che vuoi includere: su, sotto, sopra, accanto, tra, dentro, fuori. Puoi selezionarle tutte per una pratica completa o concentrarti su un sottogruppo specifico per lezioni mirate.",
     },
     {
-      question: 'Cos'è la Sostituzione Forme?',
+      question: `Cos'è la Sostituzione Forme?`,
       answer: "La Sostituzione Forme è una funzione unica dello strumento preposizioni. Aggiunge un livello di immagini separato per le forme della scena — gli oggetti che creano il contesto spaziale (una scatola, un tavolo, uno scaffale). Puoi sostituire le forme indipendentemente dalle immagini principali, moltiplicando il numero di scene di esercizio uniche che puoi generare dallo stesso set di immagini. Per i venditori, questo significa produrre pacchetti varietà ad alto volume senza bisogno di centinaia di immagini sorgente — dieci immagini principali combinate con dieci forme producono cento scene distinte.",
     },
     {

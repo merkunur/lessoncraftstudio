@@ -131,7 +131,7 @@ Genderinclusieve aantrekkingskracht vertegenwoordigt een waardevolle kracht van 
     },
     {
       question: "Welke sportsubthema's verkopen het beste?",
-      answer: "De bestverkopende sportsubthema's zijn voetbal, basketbal, zwemmen en de Olympische Spelen. Voetbal is veruit het populairste sportthema wereldwijd en bijzonder dominant in Nederland, waar miljoenen kinderen wekelijks trainen bij lokale clubs. Basketbal spreekt een breed internationaal publiek aan en genereert sterke wintervraag. Zwemmen combineert sportthema met het populaire zomerthema. Olympische Spelen genereren elke twee jaar een krachtige vraagpiek die alle sportsubthema's tegelijkertijd stimuleert. In Nederland bieden schaatsen, hockey en de Koningsspelen unieke culturele sportthema's die internationale concurrenten niet kunnen evenaren met Nederlandstalig materiaal.",
+      answer: "De bestverkopende sportsubthema`s zijn voetbal, basketbal, zwemmen en de Olympische Spelen. Voetbal is veruit het populairste sportthema wereldwijd en bijzonder dominant in Nederland, waar miljoenen kinderen wekelijks trainen bij lokale clubs. Basketbal spreekt een breed internationaal publiek aan en genereert sterke wintervraag. Zwemmen combineert sportthema met het populaire zomerthema. Olympische Spelen genereren elke twee jaar een krachtige vraagpiek die alle sportsubthema's tegelijkertijd stimuleert. In Nederland bieden schaatsen, hockey en de Koningsspelen unieke culturele sportthema`s die internationale concurrenten niet kunnen evenaren met Nederlandstalig materiaal.",
     },
     {
       question: "Hoe maak ik efficiënt sportwerkbladen met generator tools?",

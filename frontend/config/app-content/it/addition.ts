@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: "Intervalli numerici configurabili",
         description:
-          "Imposta il minimo e il massimo di elementi per gruppo da 1 a 10, con controllo totale sulla difficoltà. Crea schede semplici da 1+1 a 3+3 per i più piccoli, esercizi standard da 1–10 per la scuola dell'infanzia, o problemi più impegnativi vicini al dieci per la prima e seconda elementare. La regolazione si fa con un solo clic, permettendoti di differenziare l'insegnamento per un'intero catalogo in pochi minuti.",
+          "Imposta il minimo e il massimo di elementi per gruppo da 1 a 10, con controllo totale sulla difficoltà. Crea schede semplici da 1+1 a 3+3 per i più piccoli, esercizi standard da 1–10 per la scuola dell`infanzia, o problemi più impegnativi vicini al dieci per la prima e seconda elementare. La regolazione si fa con un solo clic, permettendoti di differenziare l'insegnamento per un`intero catalogo in pochi minuti.",
       },
       {
         title: "104 temi visivi con oltre 3100 immagini",
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: "Generazione automatica del foglio soluzioni",
         description:
-          "Clicca un pulsante per generare un foglio soluzioni completo che riproduce il layout della tua scheda con tutte le risposte compilate. La scheda soluzioni presenta un'anteprima in tempo reale per verificare l'esattezza prima di scaricare. Esporta il foglio soluzioni come file JPEG o PDF separato, ideale per edizioni dell'venditore, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.",
+          "Clicca un pulsante per generare un foglio soluzioni completo che riproduce il layout della tua scheda con tutte le risposte compilate. La scheda soluzioni presenta un`anteprima in tempo reale per verificare l'esattezza prima di scaricare. Esporta il foglio soluzioni come file JPEG o PDF separato, ideale per edizioni dell`venditore, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.",
       },
       {
         title: "Esportazione PDF e JPEG pronta per la stampa a 400+ DPI",
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: "Cornici decorative e temi di sfondo",
         description:
-          "Trasforma le tue schede da semplici a professionali con cornici decorative e immagini di sfondo dalla stessa libreria di 104 temi. Regola l'opacità della cornice e dello sfondo in modo indipendente affinché gli elementi visivi arricchiscano il design senza distrarre dal contenuto matematico. Abbinare una cornice stagionale a uno sfondo colorato crea set tematici che si vendono a prezzi più alti su Etsy e Gumroad. Ad esempio, schede con cornice floreale e sfondo pastello per la primavera, o cornice di fiocchi di neve e sfondo azzurro per l'inverno, ti permettono di creare collezioni stagionali che gli acquirenti cercano attivamente in momenti specifici dell'anno.",
+          "Trasforma le tue schede da semplici a professionali con cornici decorative e immagini di sfondo dalla stessa libreria di 104 temi. Regola l`opacità della cornice e dello sfondo in modo indipendente affinché gli elementi visivi arricchiscano il design senza distrarre dal contenuto matematico. Abbinare una cornice stagionale a uno sfondo colorato crea set tematici che si vendono a prezzi più alti su Etsy e Gumroad. Ad esempio, schede con cornice floreale e sfondo pastello per la primavera, o cornice di fiocchi di neve e sfondo azzurro per l'inverno, ti permettono di creare collezioni stagionali che gli acquirenti cercano attivamente in momenti specifici dell`anno.",
       },
       {
         title: "Editing completo del canvas con annulla e ripristina",
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: "Pacchetti tematici di schede di addizione su Etsy",
         description:
-          "Crea set di 10–20 schede di addizione raggruppate per tema — animali della fattoria, dinosauri, vita marina, festività — e offrili come download istantaneo su Etsy. Includi il foglio soluzioni come file extra. I pacchetti tematici attraggono genitori che cercano interessi specifici e venditori che necessitano di materiale pronto all'uso. Definisci il prezzo dei temi singoli tra $3–$5 e dei mega-pacchetti tra $12–$18 per un valore medio dell'ordine solido. Organizza ogni pacchetto con difficoltà progressiva — partendo da somme semplici di 1+1 nelle prime schede e avanzando fino a somme di 8+9 nelle ultime — così che i genitori vedano un percorso di apprendimento completo all'interno di ogni acquisto.",
+          "Crea set di 10–20 schede di addizione raggruppate per tema — animali della fattoria, dinosauri, vita marina, festività — e offrili come download istantaneo su Etsy. Includi il foglio soluzioni come file extra. I pacchetti tematici attraggono genitori che cercano interessi specifici e venditori che necessitano di materiale pronto all`uso. Definisci il prezzo dei temi singoli tra $3–$5 e dei mega-pacchetti tra $12–$18 per un valore medio dell'ordine solido. Organizza ogni pacchetto con difficoltà progressiva — partendo da somme semplici di 1+1 nelle prime schede e avanzando fino a somme di 8+9 nelle ultime — così che i genitori vedano un percorso di apprendimento completo all`interno di ogni acquisto.",
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Il generatore crea fogli soluzioni automaticamente?",
       answer:
-        "Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le somme corrette. Puoi visualizzare l'anteprima del foglio soluzioni sullo schermo e scaricarlo come file JPEG o PDF separato insieme alla scheda dell'utente. Includere fogli soluzioni nelle tue inserzioni di prodotto aggiunge valore percepito per i acquirenti, che si aspettano risorse pronte all'uso che facciano risparmiare tempo nel valore percepito.",
+        "Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le somme corrette. Puoi visualizzare l`anteprima del foglio soluzioni sullo schermo e scaricarlo come file JPEG o PDF separato insieme alla scheda dell'utente. Includere fogli soluzioni nelle tue inserzioni di prodotto aggiunge valore percepito per i acquirenti, che si aspettano risorse pronte all`uso che facciano risparmiare tempo nel valore percepito.",
     },
     {
       question: "Quali formati di pagina e di esportazione sono supportati?",
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: "Le schede di addizione dipendono dalla lingua?",
       answer:
-        "No. Le schede di addizione sono puramente visive — il contenuto matematico usa immagini e numeri, non parole. Una scheda creata in una lingua funziona in tutte le lingue. L'impostazione della lingua modifica solo le etichette dell'interfaccia dell'applicazione, non il contenuto della scheda, rendendo i tuoi prodotti vendibili istantaneamente in tutto il mondo senza alcuno sforzo di traduzione.",
+        "No. Le schede di addizione sono puramente visive — il contenuto matematico usa immagini e numeri, non parole. Una scheda creata in una lingua funziona in tutte le lingue. L`impostazione della lingua modifica solo le etichette dell'interfaccia dell`applicazione, non il contenuto della scheda, rendendo i tuoi prodotti vendibili istantaneamente in tutto il mondo senza alcuno sforzo di traduzione.",
     },
     {
       question: "Posso usare le mie immagini al posto della libreria integrata?",

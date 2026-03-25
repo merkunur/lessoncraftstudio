@@ -36,7 +36,7 @@ const content: ToolContent = {
         description: "Apri il pannello \"Configurazione Esercizio\" e seleziona tra tre modalità: Immagine vs Immagine (due gruppi di figure affiancati — gli utenti contano e confrontano le quantità), Immagine vs Numero (un gruppo di figure abbinato a un numero — collega il riconoscimento visivo e quello numerico astratto), oppure Spunta e Croce (un riquadro con 8–20 immagini mischiate di due categorie — gli utenti segnano con una spunta il gruppo maggioritario e con una croce quello minoritario). Spunta e Croce è esclusiva di questo strumento e crea prodotti che nessun concorrente può replicare.",
       },
       {
-        title: 'Imposta l'intervallo numerico',
+        title: `Imposta l'intervallo numerico`,
         description: "Usa i cursori min e max per controllare quanti elementi compaiono per gruppo (intervallo: 1–10). Per i bambini della scuola dell'infanzia, mantieni l'intervallo ridotto (1–5). Quelli della primaria gestiscono bene 1–10. Il numero di esercizi per pagina si regola automaticamente: 1–8 per le modalità standard e 1–3 per Spunta e Croce per il suo ingombro visivo maggiore.",
       },
       {
@@ -163,7 +163,7 @@ const content: ToolContent = {
     },
     {
       question: "Come funziona la modalità Spunta e Croce?",
-      answer: "Nella modalità Spunta e Croce, la scheda mostra un singolo riquadro riempito con 8–20 immagini di due categorie diverse (ad esempio, gatti e cani) mischiate casualmente. L'utente conta ogni categoria, disegna un segno di spunta accanto al gruppo con più elementi e un segno di croce accanto al gruppo con meno elementi. Questo sviluppa contemporaneamente le capacità di negozificazione, conteggio e confronto. L'esercizio è particolarmente efficace perché gli utenti devono prima negozificare le immagini in due gruppi, poi contare ogni gruppo separatamente e infine confrontare i totali — coinvolgendo tre competenze cognitive in un'unica attività. i venditori riferiscono che questo formato mantiene gli utenti concentrati più a lungo rispetto ai negozici esercizi di confronto affiancato.",
+      answer: "Nella modalità Spunta e Croce, la scheda mostra un singolo riquadro riempito con 8–20 immagini di due categorie diverse (ad esempio, gatti e cani) mischiate casualmente. L`utente conta ogni categoria, disegna un segno di spunta accanto al gruppo con più elementi e un segno di croce accanto al gruppo con meno elementi. Questo sviluppa contemporaneamente le capacità di negozificazione, conteggio e confronto. L'esercizio è particolarmente efficace perché gli utenti devono prima negozificare le immagini in due gruppi, poi contare ogni gruppo separatamente e infine confrontare i totali — coinvolgendo tre competenze cognitive in un`unica attività. i venditori riferiscono che questo formato mantiene gli utenti concentrati più a lungo rispetto ai negozici esercizi di confronto affiancato.",
     },
     {
       question: "Qual è la differenza tra Illustrazioni e Simboli normali?",

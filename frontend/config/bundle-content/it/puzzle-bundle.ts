@@ -36,7 +36,7 @@ const content: BundleContent = {
     },
     {
       title: "Generatore di Schede Sudoku con Immagini",
-      description: "Produci puzzle Sudoku 4x4 che usano immagini tematiche al posto dei numeri — rendendo il negozico gioco di logica accessibile ai bambini piccoli che non hanno ancora imparato le cifre. gli utenti posizionano quattro immagini diverse in modo che ogni riga e ogni colonna contenga ogni immagine esattamente una volta, sviluppando deduzione logica e ragionamento per eliminazione. La griglia 4x4 è dimensionata specificamente per il pubblico target: abbastanza grande da presentare una vera sfida logica, abbastanza piccola perché bambini della scuola dell'infanzia e del pre-scuola possano gestirla senza frustrazione. Configura i livelli di difficoltà controllando quante celle sono pre-compilate — meno immagini iniziali creano puzzle più difficili che richiedono più passaggi deduttivi. Ogni scheda genera automaticamente una chiave di risposta che mostra la griglia completamente risolta. Sudoku con Immagini è una categoria di prodotti di spicco perché combina il riconoscimento universale del marchio Sudoku con un gameplay visivo accattivante. I genitori che cercano \"sudoku bambini\" o \"sudoku con immagini\" trovano un prodotto dall'aspetto familiare ma adatto all'età. Ogni scheda è puramente visiva — nessun numero, nessun testo, solo immagini — rendendo ogni puzzle vendibile in tutto il mondo. Scegli tra oltre 100 set di immagini tematiche o carica le tue per prodotti puzzle personalizzati.",
+      description: "Produci puzzle Sudoku 4x4 che usano immagini tematiche al posto dei numeri — rendendo il negozico gioco di logica accessibile ai bambini piccoli che non hanno ancora imparato le cifre. gli utenti posizionano quattro immagini diverse in modo che ogni riga e ogni colonna contenga ogni immagine esattamente una volta, sviluppando deduzione logica e ragionamento per eliminazione. La griglia 4x4 è dimensionata specificamente per il pubblico target: abbastanza grande da presentare una vera sfida logica, abbastanza piccola perché bambini della scuola dell`infanzia e del pre-scuola possano gestirla senza frustrazione. Configura i livelli di difficoltà controllando quante celle sono pre-compilate — meno immagini iniziali creano puzzle più difficili che richiedono più passaggi deduttivi. Ogni scheda genera automaticamente una chiave di risposta che mostra la griglia completamente risolta. Sudoku con Immagini è una categoria di prodotti di spicco perché combina il riconoscimento universale del marchio Sudoku con un gameplay visivo accattivante. I genitori che cercano \"sudoku bambini\" o \"sudoku con immagini\" trovano un prodotto dall'aspetto familiare ma adatto all`età. Ogni scheda è puramente visiva — nessun numero, nessun testo, solo immagini — rendendo ogni puzzle vendibile in tutto il mondo. Scegli tra oltre 100 set di immagini tematiche o carica le tue per prodotti puzzle personalizzati.",
     },
     {
       title: "Generatore di Labirinti Percorso di Immagini",
@@ -59,10 +59,10 @@ const content: BundleContent = {
     },
     {
       title: "Competenze Cognitive di Ordine Superiore",
-      description: "Ogni generatore mira a una diversa competenza cognitiva all'interno della categoria puzzle e logica. Pezzi Mancanti sviluppa il ragionamento spaziale e la memoria visiva. Trova l'Intruso rafforza la discriminazione visiva e il pensiero categoriale. Sudoku con Immagini costruisce la deduzione logica e il ragionamento per eliminazione. Percorso di Immagini esercita il pensiero sequenziale e il processo decisionale. Insieme, questi quattro generatori coprono l'intero spettro di competenze cognitive basate sui puzzle che imprenditori e genitori apprezzano di più — posizionando i tuoi prodotti come strumenti di sviluppo, non solo intrattenimento.",
+      description: "Ogni generatore mira a una diversa competenza cognitiva all`interno della categoria puzzle e logica. Pezzi Mancanti sviluppa il ragionamento spaziale e la memoria visiva. Trova l'Intruso rafforza la discriminazione visiva e il pensiero categoriale. Sudoku con Immagini costruisce la deduzione logica e il ragionamento per eliminazione. Percorso di Immagini esercita il pensiero sequenziale e il processo decisionale. Insieme, questi quattro generatori coprono l`intero spettro di competenze cognitive basate sui puzzle che imprenditori e genitori apprezzano di più — posizionando i tuoi prodotti come strumenti di sviluppo, non solo intrattenimento.",
     },
     {
-      title: 'Ampia Fascia d'Età',
+      title: `Ampia Fascia d'Età`,
       description: "Le schede di puzzle e logica coprono naturalmente una fascia d'età più ampia rispetto alle attività di competenze base. Semplici griglie di Pezzi Mancanti e facili righe di Trova l'Intruso funzionano per bambini della scuola dell'infanzia, mentre puzzle Sudoku complessi e percorsi labirintici ramificati sfidano gli utenti di seconda e terza elementare. Questa ampia attrattiva significa più potenziali acquirenti per inserzione di prodotto e la possibilità di creare linee di prodotti per livello scolastico che crescono con la tua base clienti — dal \"Pacchetto Puzzle Scuola dell'Infanzia\" alla \"Sfida Logica Terza Elementare\".",
     },
     {
@@ -87,7 +87,7 @@ const content: BundleContent = {
     },
     {
       title: "Negozio Etsy di Attività Puzzle",
-      description: "Costruisci un negozio Etsy intorno a stampabili di puzzle e logica. Pubblica pacchetti di puzzle pezzi mancanti, pacchetti di schede trova l'intruso, collezioni di sudoku con immagini e set di attività con labirinti come prodotti separati. I quattro generatori ti danno quattro categorie di prodotti distinte dal primo giorno. Usa gli oltre 100 set di immagini tematiche per creare inserzioni stagionali: labirinti di Halloween, sudoku di Natale, trova l'intruso animali primaverile. Ogni combinazione tema-generatore diventa un'inserzione unica che attira traffico di ricerca diverso. Il formato esclusivamente visivo significa che pubblichi una volta e vendi ad acquirenti di qualsiasi paese senza creare versioni linguistiche separate.",
+      description: "Costruisci un negozio Etsy intorno a stampabili di puzzle e logica. Pubblica pacchetti di puzzle pezzi mancanti, pacchetti di schede trova l`intruso, collezioni di sudoku con immagini e set di attività con labirinti come prodotti separati. I quattro generatori ti danno quattro categorie di prodotti distinte dal primo giorno. Usa gli oltre 100 set di immagini tematiche per creare inserzioni stagionali: labirinti di Halloween, sudoku di Natale, trova l'intruso animali primaverile. Ogni combinazione tema-generatore diventa un`inserzione unica che attira traffico di ricerca diverso. Il formato esclusivamente visivo significa che pubblichi una volta e vendi ad acquirenti di qualsiasi paese senza creare versioni linguistiche separate.",
       platform: 'Etsy',
     },
     {
@@ -113,7 +113,7 @@ const content: BundleContent = {
     { feature: "Tutto esclusivamente visivo — nessun testo sulle schede", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download PDF e JPEG', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: "Diritti di vendita commerciale", commercial: 'Sì', fullAccess: 'Sì' },
-    { feature: 'Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue' },
+    { feature: `Lingue dell'interfaccia', commercial: 'Solo inglese', fullAccess: '11 lingue` },
     { feature: "Percorso di Immagini — 3 modalità labirinto", commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Download senza filigrana', commercial: 'Sì', fullAccess: 'Sì' },
     { feature: 'Aggiornamenti a vita', commercial: 'Sì', fullAccess: 'Sì' },
@@ -134,18 +134,18 @@ const content: BundleContent = {
     },
     {
       title: "Terapisti e Professionisti dell'Educazione Speciale",
-      description: "Lavori con utenti che traggono beneficio da esercizi cognitivi strutturati e visivi. La natura puramente visiva di ogni scheda elimina completamente i requisiti di lettura, rendendo questi puzzle accessibili a utenti con ritardi linguistici, disabilità dell'apprendimento o competenza limitata nella lingua locale. La difficoltà regolabile su tutti e quattro i generatori ti permette di adattare le attività ai livelli di sviluppo individuali. Pezzi Mancanti per la memoria visiva, Trova l'Intruso per l'attenzione ai dettagli, Sudoku per il sequenziamento logico e Percorso di Immagini per la pianificazione e la coordinazione motoria fine — ognuno mira a un dominio cognitivo specifico utilizzato nei contesti terapeutici.",
+      description: "Lavori con utenti che traggono beneficio da esercizi cognitivi strutturati e visivi. La natura puramente visiva di ogni scheda elimina completamente i requisiti di lettura, rendendo questi puzzle accessibili a utenti con ritardi linguistici, disabilità dell`apprendimento o competenza limitata nella lingua locale. La difficoltà regolabile su tutti e quattro i generatori ti permette di adattare le attività ai livelli di sviluppo individuali. Pezzi Mancanti per la memoria visiva, Trova l'Intruso per l`attenzione ai dettagli, Sudoku per il sequenziamento logico e Percorso di Immagini per la pianificazione e la coordinazione motoria fine — ognuno mira a un dominio cognitivo specifico utilizzato nei contesti terapeutici.",
     },
   ],
 
   faq: [
     {
       question: "Posso provare i generatori prima dell'acquisto?",
-      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l'anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei quattro generatori prima dell'acquisto per confermare che soddisfano le tue esigenze.",
+      answer: "Sì. Ogni generatore nel pacchetto offre una prova gratuita con funzionalità completa. Puoi configurare tutte le impostazioni, visualizzare l`anteprima delle schede e scaricare i file. I download di prova includono una filigrana. L'acquisto di una licenza rimuove la filigrana così puoi vendere commercialmente. Ti consigliamo di testare ciascuno dei quattro generatori prima dell`acquisto per confermare che soddisfano le tue esigenze.",
     },
     {
       question: "Tutti e quattro i generatori sono davvero esclusivamente visivi?",
-      answer: "Sì. Ogni scheda prodotta da ogni generatore in questo pacchetto contiene solo immagini, griglie, percorsi e pattern visivi — nessun testo appare sulla pagina della scheda. Questo significa che ogni puzzle che crei funziona in qualsiasi lingua e qualsiasi paese senza traduzione. L'impostazione della lingua dell'interfaccia influisce solo sui controlli del generatore, non sulle schede stesse. Questo è l'unico pacchetto in cui il 100% delle app è esclusivamente visivo.",
+      answer: "Sì. Ogni scheda prodotta da ogni generatore in questo pacchetto contiene solo immagini, griglie, percorsi e pattern visivi — nessun testo appare sulla pagina della scheda. Questo significa che ogni puzzle che crei funziona in qualsiasi lingua e qualsiasi paese senza traduzione. L`impostazione della lingua dell'interfaccia influisce solo sui controlli del generatore, non sulle schede stesse. Questo è l`unico pacchetto in cui il 100% delle app è esclusivamente visivo.",
     },
     {
       question: "In cosa differisce il Sudoku con Immagini dal Sudoku normale?",
@@ -177,13 +177,13 @@ const content: BundleContent = {
     },
     {
       question: "Qual è la politica di rimborso per le licenze commerciali?",
-      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell'output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell'acquisto.",
+      answer: "Ogni generatore offre una prova gratuita con filigrana così puoi testare tutte le funzionalità, creare schede di esempio e valutare la qualità dell`output prima dell'acquisto. Poiché puoi valutare completamente il prodotto prima di comprare, tutte le vendite di licenze commerciali sono definitive. Non offriamo rimborsi. Questa è una pratica standard per gli strumenti di prodotti digitali dove il prodotto completo può essere visualizzato in anteprima prima dell`acquisto.",
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'pezzi-mancanti-schede', anchorText: "Generatore Puzzle Pezzi Mancanti — Dettagli Completi" },
-    { pageType: 'app', slug: 'trova-intruso-schede', anchorText: "Generatore Trova l'Intruso — Dettagli Completi" },
+    { pageType: `app', slug: 'trova-intruso-schede', anchorText: "Generatore Trova l`Intruso — Dettagli Completi" },
     { pageType: 'app', slug: 'sudoku-bambini-schede', anchorText: "Generatore Sudoku con Immagini — Dettagli Completi" },
     { pageType: 'app', slug: 'percorso-illustrato-schede', anchorText: "Generatore Labirinti Percorso di Immagini — Dettagli Completi" },
     { pageType: 'guide', slug: 'creare-cruciverba', anchorText: 'Creare cruciverba che vendono' },

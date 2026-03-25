@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: "Inserisci la frase segreta e seleziona la lingua",
-        description: "Digita la frase o il periodo che vuoi far decodificare agli utenti. Questo è il messaggio segreto che verrà codificato come cifrario illustrato. Seleziona la lingua di destinazione tra le 11 lingue supportate — il set di lettere dell'alfabeto disponibile si adatta automaticamente alla lingua selezionata. L'italiano usa il suo set standard di lettere, il tedesco aggiunge ä, ö, ü, ß, e il francese aggiunge caratteri accentati come é, è, ç, à. Ogni lettera della tua frase verrà associata a un'immagine.",
+        description: "Digita la frase o il periodo che vuoi far decodificare agli utenti. Questo è il messaggio segreto che verrà codificato come cifrario illustrato. Seleziona la lingua di destinazione tra le 11 lingue supportate — il set di lettere dell`alfabeto disponibile si adatta automaticamente alla lingua selezionata. L'italiano usa il suo set standard di lettere, il tedesco aggiunge ä, ö, ü, ß, e il francese aggiunge caratteri accentati come é, è, ç, à. Ogni lettera della tua frase verrà associata a un`immagine.",
       },
       {
         title: "Assegna immagini alle lettere con Assegnazione Automatica o Manuale",
-        description: "Usa l'Assegnazione Automatica per associare istantaneamente immagini casuali dal tema selezionato a tutte le lettere dell'alfabeto non assegnate con un solo clic — il modo più veloce per costruire un cifrario completo. In alternativa, usa l'Assegnazione Manuale per scegliere manualmente quale immagine specifica rappresenta quale lettera specifica, con una panoramica visiva di tutte le associazioni correnti. Puoi anche caricare immagini personalizzate e assegnarle a qualsiasi lettera per un controllo creativo totale.",
+        description: "Usa l`Assegnazione Automatica per associare istantaneamente immagini casuali dal tema selezionato a tutte le lettere dell'alfabeto non assegnate con un solo clic — il modo più veloce per costruire un cifrario completo. In alternativa, usa l`Assegnazione Manuale per scegliere manualmente quale immagine specifica rappresenta quale lettera specifica, con una panoramica visiva di tutte le associazioni correnti. Puoi anche caricare immagini personalizzate e assegnarle a qualsiasi lettera per un controllo creativo totale.",
       },
       {
         title: "Scegli un tema e il filtro Colore o B/N",
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: "Pacchetti puzzle cifrario illustrato tematici",
-      description: "Crea set di 10–20 schede crittogramma raggruppate per tema di immagini — animali della fattoria, creature marine, veicoli, cibo, festività e altro. Usa l'Assegnazione Automatica per associare immagini tematiche all'alfabeto e varia l'impostazione Lettere da Rivelare nel set per difficoltà progressiva: inizia con 8 rivelazioni per puzzle di riscaldamento e scendi fino a 0 rivelazioni per sfide esperte. Includi le chiavi di risposta con legenda lettere per ogni puzzle. Il formato cifrario visivo con immagini tematiche si distingue dai negozici cruciverba o cerca parole su Etsy e Gumroad.",
+      description: "Crea set di 10–20 schede crittogramma raggruppate per tema di immagini — animali della fattoria, creature marine, veicoli, cibo, festività e altro. Usa l`Assegnazione Automatica per associare immagini tematiche all'alfabeto e varia l`impostazione Lettere da Rivelare nel set per difficoltà progressiva: inizia con 8 rivelazioni per puzzle di riscaldamento e scendi fino a 0 rivelazioni per sfide esperte. Includi le chiavi di risposta con legenda lettere per ogni puzzle. Il formato cifrario visivo con immagini tematiche si distingue dai negozici cruciverba o cerca parole su Etsy e Gumroad.",
     },
     {
       title: "Libri puzzle crittogramma per KDP",
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Prodotti cifrario multilingue',
-      description: "Cambia la lingua e rigenera lo stesso design di crittogramma in tutte le 11 lingue supportate. Sia il testo del messaggio segreto sia il set di lettere dell'alfabeto disponibile cambiano per lingua — un crittogramma tedesco codifica una frase tedesca con ä, ö, ü, ß nell'alfabeto, un crittogramma francese usa é, è, ç, à. Ogni versione linguistica è un puzzle cifrario genuinamente diverso con parole diverse, associazioni lettera diverse e un'esperienza di risoluzione diversa. Una sessione di design produce 11 prodotti distinti.",
+      description: "Cambia la lingua e rigenera lo stesso design di crittogramma in tutte le 11 lingue supportate. Sia il testo del messaggio segreto sia il set di lettere dell`alfabeto disponibile cambiano per lingua — un crittogramma tedesco codifica una frase tedesca con ä, ö, ü, ß nell'alfabeto, un crittogramma francese usa é, è, ç, à. Ogni versione linguistica è un puzzle cifrario genuinamente diverso con parole diverse, associazioni lettera diverse e un`esperienza di risoluzione diversa. Una sessione di design produce 11 prodotti distinti.",
     },
     {
       title: "Schede cifrario con vocabolario personalizzato",
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: "Usa l'Assegnazione Automatica per produzione in serie veloce",
-      description: "L'Assegnazione Automatica completa l'intero cifrario con un clic associando immagini casuali dal tema selezionato a ogni lettera non assegnata. Per la produzione in serie, seleziona un tema, digita la frase, clicca Assegnazione Automatica, regola Lettere da Rivelare e genera. Puoi produrre un puzzle cifrario tematico completo in meno di due minuti. Riserva l'Assegnazione Manuale per prodotti premium dove specifiche associazioni immagine-lettera rafforzano il tema.",
+      description: "L`Assegnazione Automatica completa l'intero cifrario con un clic associando immagini casuali dal tema selezionato a ogni lettera non assegnata. Per la produzione in serie, seleziona un tema, digita la frase, clicca Assegnazione Automatica, regola Lettere da Rivelare e genera. Puoi produrre un puzzle cifrario tematico completo in meno di due minuti. Riserva l`Assegnazione Manuale per prodotti premium dove specifiche associazioni immagine-lettera rafforzano il tema.",
     },
     {
       title: "Alterna Colore e B/N per raddoppiare i prodotti",
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: "Qual è la differenza tra Assegnazione Automatica e Manuale?",
-      answer: "L'Assegnazione Automatica associa istantaneamente immagini casuali dal tema selezionato a tutte le lettere dell'alfabeto non assegnate con un solo clic — veloce per la produzione in serie. L'Assegnazione Manuale ti permette di scegliere manualmente quale immagine specifica rappresenta quale lettera specifica, con una panoramica visiva di tutte le associazioni correnti. Puoi combinare entrambe: assegnazione automatica per la maggior parte, poi scambi manuali di lettere specifiche per immagini più adatte al tema.",
+      answer: "L`Assegnazione Automatica associa istantaneamente immagini casuali dal tema selezionato a tutte le lettere dell'alfabeto non assegnate con un solo clic — veloce per la produzione in serie. L`Assegnazione Manuale ti permette di scegliere manualmente quale immagine specifica rappresenta quale lettera specifica, con una panoramica visiva di tutte le associazioni correnti. Puoi combinare entrambe: assegnazione automatica per la maggior parte, poi scambi manuali di lettere specifiche per immagini più adatte al tema.",
     },
     {
       question: "Posso codificare frasi complete, non solo singole parole?",

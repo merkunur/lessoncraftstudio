@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Définir la mise en page',
         description:
-          "Ouvrez le panneau Mise en Page et choisissez un format : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou toute dimension personnalisée. Sélectionnez une couleur de fond, choisissez un thème de fond décoratif dans la bibliothèque d'images et ajustez l'opacité pour garder les exercices lisibles. Ajoutez un cadre de bordure assorti pour donner à vos fiches un aspect professionnel et prêt à imprimer. L'aperçu du canevas se met à jour en temps réel pendant vos modifications, vous permettant de voir exactement le résultat final avant de télécharger.",
+          "Ouvrez le panneau Mise en Page et choisissez un format : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou toute dimension personnalisée. Sélectionnez une couleur de fond, choisissez un thème de fond décoratif dans la bibliothèque d`images et ajustez l'opacité pour garder les exercices lisibles. Ajoutez un cadre de bordure assorti pour donner à vos fiches un aspect professionnel et prêt à imprimer. L`aperçu du canevas se met à jour en temps réel pendant vos modifications, vous permettant de voir exactement le résultat final avant de télécharger.",
       },
       {
         title: "Configurer le mode d'exercice et la plage de nombres",
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: "Quatre modes d'exercice distincts",
         description:
-          "Choisissez le mode adapté au niveau de vos utilisateurs. Le mode Image + Image utilise deux groupes d'images pour un comptage purement visuel — idéal pour les enfants de maternelle qui apprennent à additionner. Le mode Image + Nombre associe des images à des chiffres pour faire le pont entre le concret et l'abstrait. Le mode Trouver l'Addende montre la somme et un groupe, développant le raisonnement algébrique précoce. Le Mode Mixte combine les trois pour une pratique variée et sans répétition.",
+          "Choisissez le mode adapté au niveau de vos utilisateurs. Le mode Image + Image utilise deux groupes d`images pour un comptage purement visuel — idéal pour les enfants de maternelle qui apprennent à additionner. Le mode Image + Nombre associe des images à des chiffres pour faire le pont entre le concret et l'abstrait. Le mode Trouver l`Addende montre la somme et un groupe, développant le raisonnement algébrique précoce. Le Mode Mixte combine les trois pour une pratique variée et sans répétition.",
       },
       {
         title: "Plages de nombres configurables",
         description:
-          "Définissez le minimum et le maximum d'éléments par groupe de 1 à 10, avec un contrôle total sur la difficulté. Créez des fiches simples de 1+1 à 3+3 pour les tout-petits, des exercices standards de 1–10 pour la grande section, ou des problèmes plus difficiles proches de dix pour le CP et le CE1. L'ajustement se fait en un seul clic, vous permettant de différencier l'enseignement pour toute une classe en quelques minutes.",
+          "Définissez le minimum et le maximum d`éléments par groupe de 1 à 10, avec un contrôle total sur la difficulté. Créez des fiches simples de 1+1 à 3+3 pour les tout-petits, des exercices standards de 1–10 pour la grande section, ou des problèmes plus difficiles proches de dix pour le CP et le CE1. L'ajustement se fait en un seul clic, vous permettant de différencier l`enseignement pour toute une classe en quelques minutes.",
       },
       {
         title: "104 thèmes visuels avec plus de 3 100 images",
@@ -88,17 +88,17 @@ const content: AppContent = {
       {
         title: "Téléchargement de vos propres images",
         description:
-          "Allez au-delà de la bibliothèque intégrée en téléchargeant vos propres images PNG ou JPEG directement dans l'application. Idéal pour des fiches de marque, des cliparts personnalisés, des mascottes de classe ou du contenu saisonnier qui distingue vos produits imprimables de la concurrence. Les images téléchargées s'intègrent parfaitement à chaque mode d'exercice, vous gardez un contrôle créatif total.",
+          "Allez au-delà de la bibliothèque intégrée en téléchargeant vos propres images PNG ou JPEG directement dans l`application. Idéal pour des fiches de marque, des cliparts personnalisés, des mascottes de classe ou du contenu saisonnier qui distingue vos produits imprimables de la concurrence. Les images téléchargées s'intègrent parfaitement à chaque mode d`exercice, vous gardez un contrôle créatif total.",
       },
       {
         title: "Cadres décoratifs et thèmes de fond",
         description:
-          "Transformez vos fiches de simples à professionnelles avec des cadres décoratifs et des images de fond tirés de la même bibliothèque de 104 thèmes. Ajustez l'opacité du cadre et du fond indépendamment pour que les éléments visuels enrichissent le design sans distraire du contenu mathématique. La combinaison d'un cadre saisonnier et d'un fond teinté crée des ensembles thématiques qui se vendent à des prix plus élevés sur Etsy et Gumroad.",
+          "Transformez vos fiches de simples à professionnelles avec des cadres décoratifs et des images de fond tirés de la même bibliothèque de 104 thèmes. Ajustez l`opacité du cadre et du fond indépendamment pour que les éléments visuels enrichissent le design sans distraire du contenu mathématique. La combinaison d'un cadre saisonnier et d`un fond teinté crée des ensembles thématiques qui se vendent à des prix plus élevés sur Etsy et Gumroad.",
       },
       {
         title: "Édition complète du canevas avec annuler et rétablir",
         description:
-          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, images, blocs d'exercice, bordures et fonds. Zoomez pour un placement précis et utilisez l'annulation et le rétablissement illimités pour expérimenter librement. Verrouillez les éléments en place ou déverrouillez tout pour un redesign spontané — la flexibilité d'un outil de design graphique dans un générateur de fiches.",
+          "Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément de la page — texte, images, blocs d`exercice, bordures et fonds. Zoomez pour un placement précis et utilisez l'annulation et le rétablissement illimités pour expérimenter librement. Verrouillez les éléments en place ou déverrouillez tout pour un redesign spontané — la flexibilité d`un outil de design graphique dans un générateur de fiches.",
       },
     ],
   },
@@ -109,13 +109,13 @@ const content: AppContent = {
       {
         title: "Packs thématiques de fiches d'addition sur Etsy",
         description:
-          "Créez des ensembles de 10 à 20 fiches d'addition regroupées par thème — animaux de la ferme, dinosaures, vie marine, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez le corrigé en fichier bonus. Les packs thématiques attirent les parents qui cherchent des centres d'intérêt spécifiques et les vendeurs qui ont besoin de matériel prêt à l'emploi. Fixez le prix des thèmes individuels à 3 €–5 € et des méga-packs à 12 €–18 € pour un panier moyen solide.",
+          "Créez des ensembles de 10 à 20 fiches d`addition regroupées par thème — animaux de la ferme, dinosaures, vie marine, fêtes — et proposez-les en téléchargement instantané sur Etsy. Incluez le corrigé en fichier bonus. Les packs thématiques attirent les parents qui cherchent des centres d'intérêt spécifiques et les vendeurs qui ont besoin de matériel prêt à l`emploi. Fixez le prix des thèmes individuels à 3 €–5 € et des méga-packs à 12 €–18 € pour un panier moyen solide.",
         platform: 'Etsy (etsy.fr)',
       },
       {
         title: "Cahiers d'activités de maths sur Amazon KDP",
         description:
-          "Compilez 50 à 100 fiches d'addition dans un cahier d'activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Image + Image à petites plages de nombres et progressez vers le Mode Mixte proche de 10 — pour créer un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes et une section corrigé à la fin. Les cahiers d'activités mathématiques KDP pour enfants de 3 à 7 ans se vendent régulièrement toute l'année avec un budget publicitaire minimal.",
+          "Compilez 50 à 100 fiches d`addition dans un cahier d'activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Image + Image à petites plages de nombres et progressez vers le Mode Mixte proche de 10 — pour créer un parcours d'apprentissage structuré. Ajoutez une page de titre, des consignes et une section corrigé à la fin. Les cahiers d'activités mathématiques KDP pour enfants de 3 à 7 ans se vendent régulièrement toute l`année avec un budget publicitaire minimal.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -127,13 +127,13 @@ const content: AppContent = {
       {
         title: "Contenu d'abonnement pour votre propre boutique",
         description:
-          "Utilisez le générateur pour produire des packs hebdomadaires de fiches d'addition et distribuez-les via votre propre boutique Shopify, Gumroad ou Payhip. Un modèle d'abonnement — nouveau pack thématique chaque semaine — génère des revenus récurrents et fidélise une clientèle de familles en instruction à domicile et de centres de soutien scolaire. Les quatre modes d'exercice et 104 thèmes offrent assez de variété pour des années de contenu unique.",
+          "Utilisez le générateur pour produire des packs hebdomadaires de fiches d`addition et distribuez-les via votre propre boutique Shopify, Gumroad ou Payhip. Un modèle d'abonnement — nouveau pack thématique chaque semaine — génère des revenus récurrents et fidélise une clientèle de familles en instruction à domicile et de centres de soutien scolaire. Les quatre modes d`exercice et 104 thèmes offrent assez de variété pour des années de contenu unique.",
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
         title: "Fiches de pratique pour la vente et le soutien scolaire",
         description:
-          "Générez des fiches d'addition personnalisées adaptées au niveau actuel de chaque utilisateur. Imprimez des fiches Image + Image pour les débutants et des fiches Trouver l'Addende pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue. Que vous dirigiez un centre de soutien, enseigniez en grande section ou fassiez l'école à la maison, le générateur remplace des heures de création manuelle par quelques clics.",
+          "Générez des fiches d`addition personnalisées adaptées au niveau actuel de chaque utilisateur. Imprimez des fiches Image + Image pour les débutants et des fiches Trouver l'Addende pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue. Que vous dirigiez un centre de soutien, enseigniez en grande section ou fassiez l`école à la maison, le générateur remplace des heures de création manuelle par quelques clics.",
         platform: "Classe / Soutien scolaire / École à la maison",
       },
     ],
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Le générateur crée-t-il des corrigés automatiquement ?",
       answer:
-        "Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version complétée de votre fiche avec toutes les sommes correctes. Vous pouvez prévisualiser le corrigé à l'écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche utilisateur. Inclure des corrigés dans vos fiches produits ajoute de la valeur perçue pour les vendeurs acheteurs, qui s'attendent à des ressources prêtes à l'emploi.",
+        "Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version complétée de votre fiche avec toutes les sommes correctes. Vous pouvez prévisualiser le corrigé à l`écran et le télécharger en fichier JPEG ou PDF séparé à côté de la fiche utilisateur. Inclure des corrigés dans vos fiches produits ajoute de la valeur perçue pour les vendeurs acheteurs, qui s'attendent à des ressources prêtes à l`emploi.",
     },
     {
       question: "Quels formats de page et d'export sont pris en charge ?",
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Puis-je utiliser mes propres images au lieu de la bibliothèque intégrée ?",
       answer:
-        "Absolument. Le panneau de téléchargement d'images vous permet d'ajouter vos propres fichiers PNG ou JPEG directement dans le générateur. Les images téléchargées fonctionnent avec les quatre modes d'exercice et apparaissent à côté des images de la bibliothèque, vous permettant de combiner des visuels personnalisés avec les illustrations intégrées pour un résultat unique.",
+        "Absolument. Le panneau de téléchargement d`images vous permet d'ajouter vos propres fichiers PNG ou JPEG directement dans le générateur. Les images téléchargées fonctionnent avec les quatre modes d`exercice et apparaissent à côté des images de la bibliothèque, vous permettant de combiner des visuels personnalisés avec les illustrations intégrées pour un résultat unique.",
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",
       answer:
-        "Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d'addition en téléchargement numérique sur Etsy, en cahiers d'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. De nombreux vendeurs créent des packs thématiques et des cahiers d'activités qui génèrent des revenus réguliers.",
+        "Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d`addition en téléchargement numérique sur Etsy, en cahiers d'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. De nombreux vendeurs créent des packs thématiques et des cahiers d`activités qui génèrent des revenus réguliers.",
     },
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode, chaque thème, chaque format d'export et chaque taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode, chaque thème, chaque format d'export et chaque taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
     },
     {
       question: "Dois-je installer un logiciel ?",

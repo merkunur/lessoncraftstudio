@@ -207,7 +207,7 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'sudoku-bambini-schede', anchorText: "Puzzle Sudoku con Immagini — Dettagli Prodotto Completi" },
     { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: "Generatore Puzzle Pezzi Mancanti" },
-    { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l'Intruso" },
+    { pageType: `tool', slug: 'generatore-schede-intruso', anchorText: "Generatore Schede Trova l`Intruso" },
     { pageType: 'tool', slug: 'generatore-percorso-immagini', anchorText: "Generatore Percorso con Immagini" },
     { pageType: 'tool', slug: 'generatore-puzzle-griglia', anchorText: 'Generatore Puzzle Griglia' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: "Generatore Schede di Abbinamento" },

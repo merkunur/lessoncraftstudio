@@ -66,7 +66,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Printable bedrijf opschalen' },
   ],
   toolsRecommended: [
-    { appId: 'wordsearch', title: 'Woordzoeker Generator', description: "Maak woordzoeker puzzels in 11 talen met 104 beeldthema's. Ideaal voor meertalige productcatalogi." },
+    { appId: `wordsearch', title: 'Woordzoeker Generator', description: "Maak woordzoeker puzzels in 11 talen met 104 beeldthema`s. Ideaal voor meertalige productcatalogi." },
     { appId: 'addition', title: 'Optellen Generator', description: "Produceer rekenbladen in minuten. Perfect voor het schaalbaar maken van je wiskundige productlijn." },
     { appId: 'coloring', title: 'Kleurplaat Generator', description: "Genereer kleurplaten met thematische afbeeldingen. Een veelzijdig product voor elke niche." },
     { appId: 'crossword', title: 'Kruiswoordpuzzel Generator', description: "Maak kruiswoordpuzzels met afbeeldingen. Voegt een puzzelcategorie toe aan je productlijn." },

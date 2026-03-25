@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: "Le schede di confronto dipendono dalla lingua?",
       answer:
-        "No. Le schede Più o Meno sono puramente visive — il contenuto di confronto usa immagini e numeri, non parole. Questo significa che una scheda creata in una lingua funziona in tutte le lingue. L'impostazione della lingua cambia solo le etichette dell'interfaccia dell'app, non il contenuto della scheda, rendendo i tuoi prodotti vendibili istantaneamente in tutto il mondo senza alcuno sforzo di traduzione. Questo è un vantaggio significativo per i venditori che puntano ai mercati internazionali, perché un singolo PDF di schede di confronto può essere pubblicato su negozi Etsy di più paesi senza alcuna localizzazione.",
+        "No. Le schede Più o Meno sono puramente visive — il contenuto di confronto usa immagini e numeri, non parole. Questo significa che una scheda creata in una lingua funziona in tutte le lingue. L`impostazione della lingua cambia solo le etichette dell'interfaccia dell`app, non il contenuto della scheda, rendendo i tuoi prodotti vendibili istantaneamente in tutto il mondo senza alcuno sforzo di traduzione. Questo è un vantaggio significativo per i venditori che puntano ai mercati internazionali, perché un singolo PDF di schede di confronto può essere pubblicato su negozi Etsy di più paesi senza alcuna localizzazione.",
     },
     {
       question: "Il generatore crea le soluzioni automaticamente?",

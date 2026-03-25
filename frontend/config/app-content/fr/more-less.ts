@@ -23,7 +23,7 @@ const content: AppContent = {
     title: "Générateur de Fiches Plus ou Moins pour la Comparaison Visuelle de Nombres",
     tagline: "Transformez la comparaison de nombres en découverte visuelle avec des fiches illustrées de plus grand et plus petit.",
     description:
-      "Créez des fiches de comparaison attrayantes qui enseignent aux utilisateurs à identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d'exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d'images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
+      "Créez des fiches de comparaison attrayantes qui enseignent aux utilisateurs à identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d`exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d`images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.",
   },
 
   howItWorks: {
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: "Configurer les paramètres d'exercice",
         description:
-          "Définissez la plage de nombres pour chaque groupe (1–10) pour contrôler la difficulté. Choisissez la Variété d'Images — Images Identiques utilise les mêmes éléments dans les deux groupes (5 chats vs 7 chats) tandis qu'Images Différentes utilise des éléments distincts (5 chats vs 7 chiens). Sélectionnez le Mode d'Affichage des Symboles : les Symboles Illustrés montrent des versions graphiques et colorées des signes plus grand, plus petit et égal, tandis que les Symboles Normaux utilisent les caractères standards (>, <, =).",
+          "Définissez la plage de nombres pour chaque groupe (1–10) pour contrôler la difficulté. Choisissez la Variété d`Images — Images Identiques utilise les mêmes éléments dans les deux groupes (5 chats vs 7 chats) tandis qu'Images Différentes utilise des éléments distincts (5 chats vs 7 chiens). Sélectionnez le Mode d`Affichage des Symboles : les Symboles Illustrés montrent des versions graphiques et colorées des signes plus grand, plus petit et égal, tandis que les Symboles Normaux utilisent les caractères standards (>, <, =).",
       },
       {
         title: "Parcourir la bibliothèque d'images et ajouter du texte",
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Quels modes de comparaison propose le Générateur Plus ou Moins ?",
       answer:
-        "Le générateur comprend trois modes : Image contre Image (deux groupes d'images à compter et comparer), Image contre Nombre (un groupe d'images associé à un chiffre) et Cocher et Barrer les Groupes (une boîte d'images mélangées où les utilisateurs cochent le groupe majoritaire et barrent le minoritaire). Chaque mode cible un niveau et un défi de comparaison différent. Les vendeurs regroupent souvent les trois modes dans une même fiche produit, offrant aux acheteurs un cursus complet de comparaison.",
+        "Le générateur comprend trois modes : Image contre Image (deux groupes d`images à compter et comparer), Image contre Nombre (un groupe d'images associé à un chiffre) et Cocher et Barrer les Groupes (une boîte d`images mélangées où les utilisateurs cochent le groupe majoritaire et barrent le minoritaire). Chaque mode cible un niveau et un défi de comparaison différent. Les vendeurs regroupent souvent les trois modes dans une même fiche produit, offrant aux acheteurs un cursus complet de comparaison.",
     },
     {
       question: "Qu'est-ce que le mode Cocher et Barrer les Groupes ?",
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois modes de comparaison, la bibliothèque d'images complète, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
+        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois modes de comparaison, la bibliothèque d`images complète, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
     },
     {
       question: "Que comprend la licence commerciale ?",

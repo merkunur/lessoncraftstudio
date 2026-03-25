@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Générez le Puzzle',
         description:
-          "L'application découpe automatiquement des trous dans l'image sélectionnée grâce à l'extraction intelligente de pièces. L'algorithme effectue jusqu'à 150 tentatives de placement pour trouver des pièces avec une variance de couleur suffisante (variance de luminosité minimale de 15) et au moins 250 pixels de distance entre les pièces pour éviter le chevauchement. Des trous blancs avec un contour noir (2px) apparaissent aux emplacements d'origine. Les options de réponse numérotées — pièces correctes plus distractrices — sont affichées avec des étiquettes numériques surlignées en jaune. Les mises en page portrait placent l'image du puzzle en haut avec les options en dessous ; les mises en page paysage divisent la vue 50/50.",
+          "L`application découpe automatiquement des trous dans l'image sélectionnée grâce à l'extraction intelligente de pièces. L'algorithme effectue jusqu'à 150 tentatives de placement pour trouver des pièces avec une variance de couleur suffisante (variance de luminosité minimale de 15) et au moins 250 pixels de distance entre les pièces pour éviter le chevauchement. Des trous blancs avec un contour noir (2px) apparaissent aux emplacements d'origine. Les options de réponse numérotées — pièces correctes plus distractrices — sont affichées avec des étiquettes numériques surlignées en jaune. Les mises en page portrait placent l`image du puzzle en haut avec les options en dessous ; les mises en page paysage divisent la vue 50/50.",
       },
       {
         title: "Générez le Corrigé et Téléchargez",
         description:
-          "Passez à l'onglet Corrigé pour voir le corrigé auto-généré. La même image de puzzle apparaît avec les trous, et des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) à l'intérieur de chaque trou montrent l'index de la bonne option. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF — le tout rendu à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits Gumroad.",
+          "Passez à l`onglet Corrigé pour voir le corrigé auto-généré. La même image de puzzle apparaît avec les trous, et des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) à l'intérieur de chaque trou montrent l`index de la bonne option. Téléchargez les deux versions avec quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF — le tout rendu à 300 DPI avec une qualité JPEG de 1.0. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour des annonces Etsy, des intérieurs Amazon KDP et des fichiers produits Gumroad.",
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Puzzles Pièces Manquantes Style Puzzle avec Difficulté Configurable",
         description:
-          "Créez des puzzles où une image a des trous découpés et les utilisateurs identifient quelle option numérotée remplit chaque espace. Configurez la difficulté avec deux contrôles indépendants : définissez 1 à 5 pièces manquantes pour contrôler la complexité du puzzle, et définissez 2 à 6 options de réponse pour contrôler combien de choix les utilisateurs évaluent. Plus de pièces manquantes signifie plus de raisonnement spatial ; plus d'options de réponse (incluant des distractrices) signifie une discrimination visuelle plus fine. Ce système de difficulté à deux axes vous permet de créer des puzzles allant de l'identification simple d'une seule pièce à des défis complexes multi-pièces.",
+          "Créez des puzzles où une image a des trous découpés et les utilisateurs identifient quelle option numérotée remplit chaque espace. Configurez la difficulté avec deux contrôles indépendants : définissez 1 à 5 pièces manquantes pour contrôler la complexité du puzzle, et définissez 2 à 6 options de réponse pour contrôler combien de choix les utilisateurs évaluent. Plus de pièces manquantes signifie plus de raisonnement spatial ; plus d`options de réponse (incluant des distractrices) signifie une discrimination visuelle plus fine. Ce système de difficulté à deux axes vous permet de créer des puzzles allant de l'identification simple d`une seule pièce à des défis complexes multi-pièces.",
       },
       {
         title: "Six Formes de Pièces : Carré, Cercle, Rectangle et Variantes Ellipse",
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: "Extraction Intelligente de Pièces avec Détection de Variance de Couleur",
         description:
-          "L'algorithme d'extraction de pièces garantit que chaque puzzle est visuellement résolvable et engageant. Il effectue jusqu'à 150 tentatives de placement pour trouver des pièces avec un seuil de variance de luminosité minimum de 15 — garantissant que chaque pièce extraite contient suffisamment de détails visuels pour être identifiable. Les pièces maintiennent au moins 250 pixels de distance entre elles pour éviter le chevauchement. Les pièces distractrices sont générées avec jusqu'à 200 tentatives chacune, garantissant qu'elles proviennent de zones non chevauchantes de l'image. Cette extraction intelligente produit des puzzles de haute qualité de manière constante à partir de n'importe quelle image source.",
+          "L`algorithme d'extraction de pièces garantit que chaque puzzle est visuellement résolvable et engageant. Il effectue jusqu'à 150 tentatives de placement pour trouver des pièces avec un seuil de variance de luminosité minimum de 15 — garantissant que chaque pièce extraite contient suffisamment de détails visuels pour être identifiable. Les pièces maintiennent au moins 250 pixels de distance entre elles pour éviter le chevauchement. Les pièces distractrices sont générées avec jusqu'à 200 tentatives chacune, garantissant qu'elles proviennent de zones non chevauchantes de l'image. Cette extraction intelligente produit des puzzles de haute qualité de manière constante à partir de n`importe quelle image source.",
       },
       {
         title: "Corrigé Auto-Généré avec Étiquettes Numériques Surlignées en Jaune",
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Bibliothèque d'Images avec 104 Collections Thématiques et Plus de 3 100 Illustrations",
         description:
-          "Parcourez 104 collections d'images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et des dizaines d'autres. Chaque thème fournit des illustrations colorées qui fonctionnent comme sources de puzzles — les images avec des couleurs variées et des régions distinctes produisent les puzzles de pièces manquantes les plus engageants. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l'Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos designs de puzzles.",
+          "Parcourez 104 collections d`images thématiques couvrant animaux, nourriture, véhicules, nature, professions, fêtes, sports, saisons et des dizaines d'autres. Chaque thème fournit des illustrations colorées qui fonctionnent comme sources de puzzles — les images avec des couleurs variées et des régions distinctes produisent les puzzles de pièces manquantes les plus engageants. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l`Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos designs de puzzles.",
       },
       {
         title: "Export PDF et JPEG Prêt à Imprimer à 300 DPI avec Mode Niveaux de Gris",
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: "Packs de Puzzles Pièces Manquantes Thématiques sur Etsy",
         description:
-          "Créez des packs de puzzles thématiques en utilisant les 104 collections d'images — puzzles d'animaux, de véhicules, de nourriture, de nature et des dizaines d'autres. Chaque thème fournit des illustrations colorées qui produisent des défis engageants de pièces manquantes. Compilez 15 à 25 puzzles par thème avec les corrigés inclus, en variant la difficulté de 1 pièce manquante avec 2 options (facile) à 5 pièces manquantes avec 6 options (difficile). Mélangez les formes de pièces au sein d'un pack pour la variété visuelle : des pièces carrées dans certains puzzles, des pièces rondes dans d'autres, des variantes ellipse pour les défis avancés. Le corrigé auto-généré élimine le plus gros travail chronophage de la production de puzzles.",
+          "Créez des packs de puzzles thématiques en utilisant les 104 collections d`images — puzzles d'animaux, de véhicules, de nourriture, de nature et des dizaines d'autres. Chaque thème fournit des illustrations colorées qui produisent des défis engageants de pièces manquantes. Compilez 15 à 25 puzzles par thème avec les corrigés inclus, en variant la difficulté de 1 pièce manquante avec 2 options (facile) à 5 pièces manquantes avec 6 options (difficile). Mélangez les formes de pièces au sein d'un pack pour la variété visuelle : des pièces carrées dans certains puzzles, des pièces rondes dans d`autres, des variantes ellipse pour les défis avancés. Le corrigé auto-généré élimine le plus gros travail chronophage de la production de puzzles.",
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: "Activités de Puzzles pour la vente sur Gumroad",
         description:
-          "Concevez des activités de discrimination visuelle et de pensée critique prêtes à l'emploi pour Gumroad. Les puzzles de pièces manquantes renforcent le raisonnement spatial, l'analyse visuelle et l'attention aux détails — des compétences valorisées dans les programmes de la petite enfance et du primaire. Créez des ensembles alignés sur le programme : puzzles d'habitats d'animaux, puzzles de scènes saisonnières, puzzles de métiers de la communauté et puzzles de groupes alimentaires. Chaque ensemble comprend des fiches utilisateurs et des corrigés aux formats PDF et JPEG. La difficulté configurable vous permet de créer des versions différenciées du même puzzle pour des classes à niveaux mixtes.",
+          "Concevez des activités de discrimination visuelle et de pensée critique prêtes à l`emploi pour Gumroad. Les puzzles de pièces manquantes renforcent le raisonnement spatial, l'analyse visuelle et l'attention aux détails — des compétences valorisées dans les programmes de la petite enfance et du primaire. Créez des ensembles alignés sur le programme : puzzles d'habitats d`animaux, puzzles de scènes saisonnières, puzzles de métiers de la communauté et puzzles de groupes alimentaires. Chaque ensemble comprend des fiches utilisateurs et des corrigés aux formats PDF et JPEG. La difficulté configurable vous permet de créer des versions différenciées du même puzzle pour des classes à niveaux mixtes.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: "Que sont les pièces distractrices et comment sont-elles générées ?",
       answer:
-        "Les pièces distractrices sont des options de réponse supplémentaires qui ne correspondent à aucun trou du puzzle. Elles sont extraites de zones différentes de la même image source avec jusqu'à 200 tentatives de placement chacune, garantissant qu'elles ne chevauchent pas les pièces correctes. Les distractrices empêchent les utilisateurs de résoudre par simple élimination — ils doivent comparer soigneusement les couleurs, motifs et détails visuels pour distinguer les options correctes des alternatives d'apparence similaire.",
+        "Les pièces distractrices sont des options de réponse supplémentaires qui ne correspondent à aucun trou du puzzle. Elles sont extraites de zones différentes de la même image source avec jusqu`à 200 tentatives de placement chacune, garantissant qu'elles ne chevauchent pas les pièces correctes. Les distractrices empêchent les utilisateurs de résoudre par simple élimination — ils doivent comparer soigneusement les couleurs, motifs et détails visuels pour distinguer les options correctes des alternatives d`apparence similaire.",
     },
     {
       question: "Comment fonctionne l'algorithme d'extraction intelligente de pièces ?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: "Puis-je ajouter des thèmes de fond et de bordure aux puzzles ?",
       answer:
-        "Oui. Le panneau Mise en Page comprend un sélecteur de thème de fond avec un curseur d'opacité (0–1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu du puzzle, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d'opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison qui correspond à votre design.",
+        "Oui. Le panneau Mise en Page comprend un sélecteur de thème de fond avec un curseur d`opacité (0–1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu du puzzle, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d`opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison qui correspond à votre design.",
     },
     {
       question: "Puis-je vendre des puzzles pièces manquantes créés avec cet outil sur Etsy et Amazon KDP ?",
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "Comme l'essai gratuit vous donne accès à chaque fonctionnalité, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les 6 formes de pièces, les réglages de difficulté configurables, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d'acheter une licence.",
+        "Comme l`essai gratuit vous donne accès à chaque fonctionnalité, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les 6 formes de pièces, les réglages de difficulté configurables, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil correspond à vos besoins avant d`acheter une licence.",
     },
   ],
 

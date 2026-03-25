@@ -69,7 +69,7 @@ Het jaarronde karakter van de vraag naar groep-3-materiaal is bijzonder sterk om
     },
     {
       title: "Groep 3 Schaduwkoppelwerkbladen voor Printable Winkels",
-      description: "Schaduwkoppelwerkbladen voor groep 3 ontwikkelen visuele discriminatievaardigheden op een niveau dat aansluit bij de leesgereedheids- en lettervormherkenningseisen van dit niveaucategorie. Gebruik de Schaduw Koppelen-generator om pagina's te maken met complexere vormen en subtielere verschillen dan kleuterversies — geschikt voor zes- tot zevenjarigen die hun visuele waarnemingsvaardigheden verfijnen. Combineer met thematische beelden die aansluiten bij seizoensgebonden of productcatalogusgebonden thema's. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.",
+      description: "Schaduwkoppelwerkbladen voor groep 3 ontwikkelen visuele discriminatievaardigheden op een niveau dat aansluit bij de leesgereedheids- en lettervormherkenningseisen van dit niveaucategorie. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met complexere vormen en subtielere verschillen dan kleuterversies — geschikt voor zes- tot zevenjarigen die hun visuele waarnemingsvaardigheden verfijnen. Combineer met thematische beelden die aansluiten bij seizoensgebonden of productcatalogusgebonden thema's. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.",
       appId: 'shadow-match',
     },
     {

@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: "Foglio risposte con codice colori a 6 colori di evidenziazione",
         description:
-          "Il foglio risposte evidenzia ogni parola trovata in uno di sei colori alternati: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un'identificazione visiva istantanea, facilitando l'autoverifica da parte degli utenti o il valore percepito rapida da parte dei venditori. Il formato con codice colori è visivamente attraente e professionale — un passo avanti rispetto ai semplici fogli risposte con «cerchia la parola». Attiva l'esportazione in scala di grigi quando necessiti di versioni economiche in inchiostro per la stampa in bianco e nero.",
+          "Il foglio risposte evidenzia ogni parola trovata in uno di sei colori alternati: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un`identificazione visiva istantanea, facilitando l'autoverifica da parte degli utenti o il valore percepito rapida da parte dei venditori. Il formato con codice colori è visivamente attraente e professionale — un passo avanti rispetto ai semplici fogli risposte con «cerchia la parola». Attiva l`esportazione in scala di grigi quando necessiti di versioni economiche in inchiostro per la stampa in bianco e nero.",
       },
       {
         title: "Esportazione PDF e JPEG pronta per la stampa a oltre 400 DPI",
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: "Cosa fanno gli interruttori di direzione diagonale e invertita?",
       answer:
-        "L'interruttore diagonale consente alle parole di essere posizionate lungo entrambi gli assi diagonali oltre a quello orizzontale e verticale. L'interruttore invertita consente alle parole di essere posizionate al contrario in ogni direzione abilitata. Con entrambi attivati, le parole possono apparire in otto direzioni possibili. Con entrambi disattivati, le parole appaiono solo da sinistra a destra orizzontalmente e dall'alto verso il basso verticalmente. Questi interruttori ti permettono di calibrare la difficoltà dalle griglie semplici a due direzioni ai puzzle complessi a otto direzioni.",
+        "L`interruttore diagonale consente alle parole di essere posizionate lungo entrambi gli assi diagonali oltre a quello orizzontale e verticale. L'interruttore invertita consente alle parole di essere posizionate al contrario in ogni direzione abilitata. Con entrambi attivati, le parole possono apparire in otto direzioni possibili. Con entrambi disattivati, le parole appaiono solo da sinistra a destra orizzontalmente e dall`alto verso il basso verticalmente. Questi interruttori ti permettono di calibrare la difficoltà dalle griglie semplici a due direzioni ai puzzle complessi a otto direzioni.",
     },
     {
       question: "Quali sono le tre fonti di contenuto?",

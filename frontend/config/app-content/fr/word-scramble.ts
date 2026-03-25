@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisir la source de contenu',
         description:
-          "Ouvrez le panneau Contenu et sélectionnez l'une des trois sources. Le mode Bibliothèque d'Images vous permet de parcourir 104 thèmes et de sélectionner des images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier chaque nom d'affichage avant la génération, parfait pour un vocabulaire personnalisé ou des orthographes simplifiées. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu'à 8 mots directement, idéal pour des listes de vocabulaire hebdomadaires, du vocabulaire spécifique à une matière ou de la pratique en langue étrangère.",
+          "Ouvrez le panneau Contenu et sélectionnez l`une des trois sources. Le mode Bibliothèque d'Images vous permet de parcourir 104 thèmes et de sélectionner des images — le nom de l'image devient le mot à reconstituer. Le Mode Édition Manuelle vous permet de sélectionner des images de la bibliothèque puis de modifier chaque nom d'affichage avant la génération, parfait pour un vocabulaire personnalisé ou des orthographes simplifiées. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement, idéal pour des listes de vocabulaire hebdomadaires, du vocabulaire spécifique à une matière ou de la pratique en langue étrangère.",
       },
       {
         title: "Configurer le niveau de difficulté et le nombre de puzzles",
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: "Tuiles de lettres mélangées avec indices images",
         description:
-          "Chaque puzzle présente un indice image accompagné d'un ensemble de tuiles de lettres mélangées. Les utilisateurs étudient l'image, identifient ce qu'elle représente et réarrangent les tuiles dans le bon ordre pour épeler le mot. Contrairement aux puzzles deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent aux utilisateurs TOUTES les lettres mais dans le mauvais ordre — un exercice de réarrangement de lettres qui développe la précision orthographique et la reconnaissance des mots par la manipulation active plutôt que par la déduction.",
+          "Chaque puzzle présente un indice image accompagné d`un ensemble de tuiles de lettres mélangées. Les utilisateurs étudient l'image, identifient ce qu`elle représente et réarrangent les tuiles dans le bon ordre pour épeler le mot. Contrairement aux puzzles deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent aux utilisateurs TOUTES les lettres mais dans le mauvais ordre — un exercice de réarrangement de lettres qui développe la précision orthographique et la reconnaissance des mots par la manipulation active plutôt que par la déduction.",
       },
       {
         title: "Quatre niveaux de difficulté avec placement d'indices ajustable",
@@ -73,12 +73,12 @@ const content: AppContent = {
       {
         title: "Code couleur voyelles et consonnes",
         description:
-          "Activez l'option Code Couleur pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles de lettres mélangées — une fonctionnalité unique aux Mots Mélangés parmi tous les générateurs de fiches. Cette aide phonique visuelle permet aux utilisateurs d'identifier les schémas voyelles-consonnes tout en reconstituant le mot, renforçant la conscience des types de lettres parallèlement à la pratique orthographique. Passez en Tout Noir pour des tuiles monochromes traditionnelles quand la différenciation par couleur n'est pas nécessaire. Le code couleur ajoute une dimension de différenciation puissante pour les vendeurs Gumroad ciblant les acheteurs orientés phonique.",
+          "Activez l`option Code Couleur pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles de lettres mélangées — une fonctionnalité unique aux Mots Mélangés parmi tous les générateurs de fiches. Cette aide phonique visuelle permet aux utilisateurs d'identifier les schémas voyelles-consonnes tout en reconstituant le mot, renforçant la conscience des types de lettres parallèlement à la pratique orthographique. Passez en Tout Noir pour des tuiles monochromes traditionnelles quand la différenciation par couleur n`est pas nécessaire. Le code couleur ajoute une dimension de différenciation puissante pour les vendeurs Gumroad ciblant les acheteurs orientés phonique.",
       },
       {
         title: "Trois sources de contenu : Bibliothèque d'Images, Édition Manuelle et Liste de Mots Personnalisée",
         description:
-          "La source Bibliothèque d'Images tire les mots de collections d'images thématiques — sélectionnez des animaux, des véhicules ou des aliments et le mot à reconstituer est le nom de l'image. Le Mode Édition Manuelle ajoute une couche de personnalisation : sélectionnez des images de la bibliothèque, puis modifiez leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou des mots ciblés en phonétique. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu'à 8 mots directement, permettant des fiches de vocabulaire pour toute matière, des dictées ou de la pratique en langue étrangère sans illustrations correspondantes.",
+          "La source Bibliothèque d`Images tire les mots de collections d'images thématiques — sélectionnez des animaux, des véhicules ou des aliments et le mot à reconstituer est le nom de l'image. Le Mode Édition Manuelle ajoute une couche de personnalisation : sélectionnez des images de la bibliothèque, puis modifiez leurs noms d'affichage avant la génération, parfait pour des orthographes simplifiées ou des mots ciblés en phonétique. Le mode Liste de Mots Personnalisée supprime les images et vous laisse taper jusqu`à 8 mots directement, permettant des fiches de vocabulaire pour toute matière, des dictées ou de la pratique en langue étrangère sans illustrations correspondantes.",
       },
       {
         title: "104 thèmes visuels avec plus de 3 100 images",
@@ -115,13 +115,13 @@ const content: AppContent = {
       {
         title: "Cahiers d'activités d'orthographe sur Amazon KDP",
         description:
-          "Compilez 50 à 100 puzzles mots mélangés dans un cahier d'activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Facile (moitié des lettres pré-placées) utilisant des mots simples de trois lettres, progressez à travers Normal et Difficile jusqu'à Sans Indices avec des mots plus longs et multi-syllabiques. Regroupez les chapitres par thème (animaux, nourriture, véhicules, nature) pour une variété navigable. Ajoutez une page de titre, un guide de difficulté et une section corrigé à la fin. Les cahiers de puzzles de mots se vendent régulièrement toute l'année avec un minimum de publicité.",
+          "Compilez 50 à 100 puzzles mots mélangés dans un cahier d`activités imprimé au format Amazon KDP. Utilisez une difficulté progressive — commencez avec le mode Facile (moitié des lettres pré-placées) utilisant des mots simples de trois lettres, progressez à travers Normal et Difficile jusqu'à Sans Indices avec des mots plus longs et multi-syllabiques. Regroupez les chapitres par thème (animaux, nourriture, véhicules, nature) pour une variété navigable. Ajoutez une page de titre, un guide de difficulté et une section corrigé à la fin. Les cahiers de puzzles de mots se vendent régulièrement toute l`année avec un minimum de publicité.",
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: "Ateliers de lecture différenciés pour Gumroad",
         description:
-          "Construisez des ensembles de pratique mots mélangés à niveaux en utilisant le niveau de difficulté et le code couleur comme axes de différenciation. Niveau 1 : Facile avec tuiles colorées voyelles-consonnes pour les apprenants visuels. Niveau 2 : Normal avec code couleur. Niveau 3 : Difficile avec tuiles Tout Noir pour les orthographeurs autonomes. Niveau 4 : Sans Indices avec tuiles Tout Noir pour un défi avancé. Accompagnez chaque niveau de corrigés et d'une fiche de suivi de progression. Les acheteurs de Gumroad paient des prix premium pour des ressources d'orthographe différenciées qu'ils peuvent déployer immédiatement dans plusieurs niveaux de lecture.",
+          "Construisez des ensembles de pratique mots mélangés à niveaux en utilisant le niveau de difficulté et le code couleur comme axes de différenciation. Niveau 1 : Facile avec tuiles colorées voyelles-consonnes pour les apprenants visuels. Niveau 2 : Normal avec code couleur. Niveau 3 : Difficile avec tuiles Tout Noir pour les orthographeurs autonomes. Niveau 4 : Sans Indices avec tuiles Tout Noir pour un défi avancé. Accompagnez chaque niveau de corrigés et d`une fiche de suivi de progression. Les acheteurs de Gumroad paient des prix premium pour des ressources d'orthographe différenciées qu`ils peuvent déployer immédiatement dans plusieurs niveaux de lecture.",
         platform: "Gumroad (teacherspayteachers.com)",
       },
       {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: "Comment fonctionne le puzzle mots mélangés ?",
       answer:
-        "Chaque puzzle affiche un indice image accompagné d'un ensemble de tuiles de lettres mélangées. Les utilisateurs étudient l'image pour identifier ce qu'elle représente, puis réarrangent les tuiles mélangées pour épeler le mot correct. Contrairement aux puzzles deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent aux utilisateurs toutes les lettres mais dans le mauvais ordre — un exercice pratique de réarrangement de lettres qui développe la précision orthographique et la reconnaissance des mots.",
+        "Chaque puzzle affiche un indice image accompagné d`un ensemble de tuiles de lettres mélangées. Les utilisateurs étudient l'image pour identifier ce qu`elle représente, puis réarrangent les tuiles mélangées pour épeler le mot correct. Contrairement aux puzzles deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent aux utilisateurs toutes les lettres mais dans le mauvais ordre — un exercice pratique de réarrangement de lettres qui développe la précision orthographique et la reconnaissance des mots.",
     },
     {
       question: "Quels sont les quatre niveaux de difficulté ?",
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: "Que puis-je faire avec le mode Liste de Mots Personnalisée ?",
       answer:
-        "Le mode Liste de Mots Personnalisée vous permet de taper jusqu'à 8 mots directement — sans images requises. C'est idéal pour les listes de dictée hebdomadaire, le vocabulaire spécifique à une matière (termes scientifiques, noms géographiques), la pratique en langue étrangère ou tout contenu personnalisé. Les puzzles affichent des tuiles de lettres mélangées sans indices images, les utilisateurs s'appuient donc sur le contexte des titres de fiches ou des consignes pour identifier le mot à reconstituer.",
+        "Le mode Liste de Mots Personnalisée vous permet de taper jusqu`à 8 mots directement — sans images requises. C'est idéal pour les listes de dictée hebdomadaire, le vocabulaire spécifique à une matière (termes scientifiques, noms géographiques), la pratique en langue étrangère ou tout contenu personnalisé. Les puzzles affichent des tuiles de lettres mélangées sans indices images, les utilisateurs s`appuient donc sur le contexte des titres de fiches ou des consignes pour identifier le mot à reconstituer.",
     },
     {
       question: "Le générateur crée-t-il des corrigés automatiquement ?",
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois sources de contenu, les quatre niveaux de difficulté, la bibliothèque d'images complète, le code couleur voyelles-consonnes, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
+        "Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois sources de contenu, les quatre niveaux de difficulté, la bibliothèque d`images complète, le code couleur voyelles-consonnes, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.",
     },
     {
       question: "Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?",
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: "Quelle est la politique de remboursement ?",
       answer:
-        "L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, les options de code couleur, chaque format d'export et chaque format de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter une licence.",
+        "L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, les options de code couleur, chaque format d'export et chaque format de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.",
     },
   ],
 

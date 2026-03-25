@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: "Générateur de Fiches Train Alphabet",
     tagline: "Créez des fiches colorées avec association lettre-image dans 11 langues — des wagons de train uniques pour chaque lettre",
-    description: "Créez des fiches alphabet qui ne ressemblent en rien aux exercices de traçage classiques. Cet outil dispose 11 wagons de train colorés sur la page, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train — les utilisateurs identifient par quelle lettre chaque image commence et l'associent au bon wagon. Choisissez entre le mode Création Automatique (l'outil sélectionne aléatoirement 11 lettres et assigne les images correspondantes) ou la Sélection Manuelle (choisissez chaque lettre dans l'alphabet complet et assignez chaque image vous-même). Ajustez la difficulté avec le curseur d'indices : 3 indices pour les débutants, 5–7 pour le niveau intermédiaire, et 9–11 pour les utilisateurs avancés qui doivent associer presque chaque wagon. La vraie puissance réside dans la sensibilité linguistique — sélectionnez parmi 11 alphabets natifs dont l'allemand (Ä/Ö/Ü), le suédois (Å/Ä/Ö), l'espagnol (Ñ) et bien d'autres. La même image s'associe à des lettres différentes selon la langue : « chien » correspond à C en français mais à H en allemand (Hund). Un seul modèle de fiche devient 11 produits uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, ou téléchargez les vôtres pour des créations personnalisées. Choisissez parmi 7 familles de polices et exportez en PDF prêt à imprimer ou en JPEG haute résolution. L'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
+    description: "Créez des fiches alphabet qui ne ressemblent en rien aux exercices de traçage classiques. Cet outil dispose 11 wagons de train colorés sur la page, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train — les utilisateurs identifient par quelle lettre chaque image commence et l`associent au bon wagon. Choisissez entre le mode Création Automatique (l'outil sélectionne aléatoirement 11 lettres et assigne les images correspondantes) ou la Sélection Manuelle (choisissez chaque lettre dans l'alphabet complet et assignez chaque image vous-même). Ajustez la difficulté avec le curseur d'indices : 3 indices pour les débutants, 5–7 pour le niveau intermédiaire, et 9–11 pour les utilisateurs avancés qui doivent associer presque chaque wagon. La vraie puissance réside dans la sensibilité linguistique — sélectionnez parmi 11 alphabets natifs dont l'allemand (Ä/Ö/Ü), le suédois (Å/Ä/Ö), l'espagnol (Ñ) et bien d'autres. La même image s'associe à des lettres différentes selon la langue : « chien » correspond à C en français mais à H en allemand (Hund). Un seul modèle de fiche devient 11 produits uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, ou téléchargez les vôtres pour des créations personnalisées. Choisissez parmi 7 familles de polices et exportez en PDF prêt à imprimer ou en JPEG haute résolution. L`essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.",
   },
 
   tutorial: {
@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: "Ouvrir le Créateur de Fiches Train Alphabet",
-        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur. L'outil s'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.",
+        description: "Cliquez sur « Essayer maintenant » pour lancer le générateur. L`outil s'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d`aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.",
       },
       {
         title: 'Définir la Mise en Page',
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: "Sélectionner les Images et le Thème",
-        description: "Ouvrez le panneau « Bibliothèque d'Images » et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Chaque image s'associe automatiquement à la bonne lettre selon la langue sélectionnée — la même image de chat s'associe à C en français mais à K en allemand (Katze). Téléchargez vos propres PNG ou JPEG pour des fiches personnalisées.",
+        description: "Ouvrez le panneau « Bibliothèque d`Images » et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Chaque image s'associe automatiquement à la bonne lettre selon la langue sélectionnée — la même image de chat s`associe à C en français mais à K en allemand (Katze). Téléchargez vos propres PNG ou JPEG pour des fiches personnalisées.",
       },
       {
         title: "Configurer le Nombre d'Indices et les Champs Nom/Date",
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Cahiers d'Activités Alphabet pour KDP",
-      description: "Générez 50 à 100 pages de train alphabet avec une difficulté progressive : 3 indices dans le chapitre d'ouverture, 5–7 au milieu, et 9–11 pour la section défi. Exportez en PDF haute résolution et publiez comme cahier d'activités sur Amazon KDP. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Le format train se photographie particulièrement bien pour les images de listing KDP car il est visuellement distinct des cahiers alphabet concurrents.",
+      description: "Générez 50 à 100 pages de train alphabet avec une difficulté progressive : 3 indices dans le chapitre d`ouverture, 5–7 au milieu, et 9–11 pour la section défi. Exportez en PDF haute résolution et publiez comme cahier d'activités sur Amazon KDP. Utilisez le mode niveaux de gris pour réduire les coûts d`impression. Le format train se photographie particulièrement bien pour les images de listing KDP car il est visuellement distinct des cahiers alphabet concurrents.",
     },
     {
       title: "Ensembles Différenciés par Nombre d'Indices",
@@ -76,7 +76,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Produits Alphabet Multilingues",
-      description: "Changez le paramètre de langue et régénérez le même modèle de fiche dans les 11 langues prises en charge. L'outil ajuste automatiquement l'alphabet, l'ordre des lettres et les associations lettre-image pour chaque langue. Une seule session de création produit 11 produits distincts — anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois — chacun prêt à être listé sur sa marketplace locale.",
+      description: "Changez le paramètre de langue et régénérez le même modèle de fiche dans les 11 langues prises en charge. L`outil ajuste automatiquement l'alphabet, l`ordre des lettres et les associations lettre-image pour chaque langue. Une seule session de création produit 11 produits distincts — anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois — chacun prêt à être listé sur sa marketplace locale.",
     },
     {
       title: "Fiches Personnalisées avec Images de Marque",
@@ -91,12 +91,12 @@ const content: ToolContent = {  seo: {
   businessIdeas: [
     {
       title: "Boutique Etsy de Trains Alphabet Multilingues",
-      description: "Ouvrez une boutique Etsy spécialisée dans les fiches train alphabet dans les 11 langues prises en charge. La plupart des vendeurs d'imprimables alphabet ne servent que l'anglais — vous pouvez lister des designs identiques sur Etsy Allemagne, France, Espagne, Italie, Suède et plus encore. Chaque version linguistique est un produit unique avec son propre alphabet natif et ses associations lettre-image. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d'acheteurs différent sans chevauchement de concurrence.",
+      description: "Ouvrez une boutique Etsy spécialisée dans les fiches train alphabet dans les 11 langues prises en charge. La plupart des vendeurs d`imprimables alphabet ne servent que l'anglais — vous pouvez lister des designs identiques sur Etsy Allemagne, France, Espagne, Italie, Suède et plus encore. Chaque version linguistique est un produit unique avec son propre alphabet natif et ses associations lettre-image. Un après-midi de travail de création produit 11 listings, chacun ciblant un marché d`acheteurs différent sans chevauchement de concurrence.",
       platform: 'Etsy.fr',
     },
     {
       title: "Cahiers d'Activités Reconnaissance des Lettres sur Amazon KDP",
-      description: "Compilez 60+ pages de train alphabet dans un cahier d'activités physique pour Amazon KDP. Structurez les chapitres par difficulté : pages à 3 indices pour l'échauffement, 7 indices pour la section principale, et 11 indices pour les défis. Utilisez le mode niveaux de gris pour réduire les coûts d'impression. Le format wagon de train ne ressemble en rien aux livres de traçage alphabet standards, donnant à votre listing un avantage visuel. Publiez des éditions séparées pour chaque langue afin de multiplier votre catalogue.",
+      description: "Compilez 60+ pages de train alphabet dans un cahier d`activités physique pour Amazon KDP. Structurez les chapitres par difficulté : pages à 3 indices pour l'échauffement, 7 indices pour la section principale, et 11 indices pour les défis. Utilisez le mode niveaux de gris pour réduire les coûts d`impression. Le format wagon de train ne ressemble en rien aux livres de traçage alphabet standards, donnant à votre listing un avantage visuel. Publiez des éditions séparées pour chaque langue afin de multiplier votre catalogue.",
       platform: 'Amazon KDP',
     },
     {
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: "Téléchargez des Images Personnalisées pour le Branding",
-      description: "Téléchargez vos propres illustrations ou œuvres sous licence pour créer des trains alphabet qu'aucun concurrent ne peut reproduire. Les images personnalisées vous permettent de construire une identité visuelle cohérente à travers votre boutique Etsy et rendent vos produits instantanément reconnaissables par les clients fidèles. C'est particulièrement précieux pour les vendeurs qui commandent des cliparts originaux — vos listings de trains alphabet deviennent impossibles à dupliquer, réduisant la concurrence directe et renforçant l'identité unique de votre boutique dans les résultats de recherche.",
+      description: "Téléchargez vos propres illustrations ou œuvres sous licence pour créer des trains alphabet qu`aucun concurrent ne peut reproduire. Les images personnalisées vous permettent de construire une identité visuelle cohérente à travers votre boutique Etsy et rendent vos produits instantanément reconnaissables par les clients fidèles. C'est particulièrement précieux pour les vendeurs qui commandent des cliparts originaux — vos listings de trains alphabet deviennent impossibles à dupliquer, réduisant la concurrence directe et renforçant l`identité unique de votre boutique dans les résultats de recherche.",
     },
     {
       title: "Associez avec d'Autres Outils d'Alphabétisation",
@@ -159,15 +159,15 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Comment fonctionne le format train alphabet ?",
-      answer: "L'outil crée 11 wagons de train colorés, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train. Les utilisateurs identifient par quelle lettre chaque image-indice commence et l'associent au bon wagon. Le nombre d'images-indices est configurable de 3 à 11. Un corrigé est généré pour chaque fiche, montrant les associations lettre-image correctes afin que les vendeurs et les parents puissent vérifier le travail rapidement sans avoir à résoudre le puzzle eux-mêmes.",
+      answer: "L`outil crée 11 wagons de train colorés, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train. Les utilisateurs identifient par quelle lettre chaque image-indice commence et l'associent au bon wagon. Le nombre d`images-indices est configurable de 3 à 11. Un corrigé est généré pour chaque fiche, montrant les associations lettre-image correctes afin que les vendeurs et les parents puissent vérifier le travail rapidement sans avoir à résoudre le puzzle eux-mêmes.",
     },
     {
       question: "Quelle est la différence entre Création Automatique et Sélection Manuelle ?",
-      answer: "La Création Automatique choisit aléatoirement 11 lettres de l'alphabet et assigne automatiquement les images correspondantes du thème sélectionné — idéal pour la production rapide en lot. La Sélection Manuelle vous permet de choisir exactement 11 lettres dans l'alphabet complet et d'assigner chaque image individuellement, vous donnant un contrôle total sur les lettres qui apparaissent sur la fiche.",
+      answer: "La Création Automatique choisit aléatoirement 11 lettres de l`alphabet et assigne automatiquement les images correspondantes du thème sélectionné — idéal pour la production rapide en lot. La Sélection Manuelle vous permet de choisir exactement 11 lettres dans l'alphabet complet et d`assigner chaque image individuellement, vous donnant un contrôle total sur les lettres qui apparaissent sur la fiche.",
     },
     {
       question: "Comment fonctionne le système d'indices ?",
-      answer: "Le curseur de nombre d'indices contrôle combien d'images correspondantes apparaissent autour du train. Avec 3 indices, seuls 3 des 11 wagons ont une tâche d'association — le niveau le plus facile. Avec 11 indices, chaque wagon a une correspondance, créant la version la plus difficile. Ajustez le nombre pour différencier les fiches par difficulté.",
+      answer: "Le curseur de nombre d`indices contrôle combien d'images correspondantes apparaissent autour du train. Avec 3 indices, seuls 3 des 11 wagons ont une tâche d`association — le niveau le plus facile. Avec 11 indices, chaque wagon a une correspondance, créant la version la plus difficile. Ajustez le nombre pour différencier les fiches par difficulté.",
     },
     {
       question: "Quelles langues sont prises en charge ?",
@@ -175,7 +175,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: "Comment fonctionne l'association lettre-image sensible à la langue ?",
-      answer: "L'outil associe chaque image à la lettre par laquelle elle commence dans la langue sélectionnée. Par exemple, une image de chien s'associe à C en français (chien), à D en anglais (dog), à H en allemand (Hund) et à P en espagnol (perro). Cela signifie que le même jeu d'images produit des fiches véritablement différentes dans chaque langue, pas seulement des étiquettes traduites.",
+      answer: "L`outil associe chaque image à la lettre par laquelle elle commence dans la langue sélectionnée. Par exemple, une image de chien s'associe à C en français (chien), à D en anglais (dog), à H en allemand (Hund) et à P en espagnol (perro). Cela signifie que le même jeu d`images produit des fiches véritablement différentes dans chaque langue, pas seulement des étiquettes traduites.",
     },
     {
       question: "Puis-je télécharger mes propres images ?",
@@ -206,7 +206,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: 'Générateur de Mots Mélangés' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d'Écriture" },
+    { pageType: `tool', slug: 'generateur-fiches-ecriture', anchorText: "Générateur de Fiches d`Écriture" },
     { pageType: 'tool', slug: "generateur-train-suites-logiques", anchorText: "Générateur de Train de Suites Logiques" },
   ],
 

@@ -125,7 +125,7 @@ export default async function GuidePage({
   const content = await getGuideContent(config.guideId, locale);
 
   // Look up visual showcase config (EN + DE + FR + ES + PT)
-  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl')
+  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl' || locale === 'sv')
     ? getPageShowcaseConfig('guide', config.guideId, locale)
     : null;
 

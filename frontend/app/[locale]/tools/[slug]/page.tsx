@@ -170,7 +170,7 @@ export default async function ToolPage({
   const cta = toolCta[locale] || toolCta.en;
 
   // Showcase config (EN + DE + FR)
-  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl') ? getToolShowcaseConfig(toolConfig.toolId, locale) : null;
+  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl' || locale === 'sv') ? getToolShowcaseConfig(toolConfig.toolId, locale) : null;
 
   // App launch URL
   const htmlFile = appData.htmlFile || `${wpAppId}.html`;

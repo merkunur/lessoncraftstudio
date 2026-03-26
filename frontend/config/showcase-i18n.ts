@@ -17,6 +17,7 @@ const localeFolderMap: Record<string, string> = {
   pt: 'portuguese',
   it: 'italian',
   nl: 'dutch',
+  sv: 'swedish',
 };
 
 /** Build a sample image URL for any locale */
@@ -3421,6 +3422,66 @@ const nlStringTable: Record<string, string> = {
 };
 
 /** Get the string table for a given locale */
+const svStringTable: Record<string, string> = {
+  'Grades K-2': 'Förskoleklass-Årskurs 2',
+  'Grades 1-3': 'Årskurs 1-3',
+  'Grades 1-4': 'Årskurs 1-4',
+  'Grades K-3': 'Förskoleklass-Årskurs 3',
+  'Skill Levels': 'Färdighetsnivåer',
+  'Challenge Levels': 'Utmaningsnivåer',
+  'Professional Printables': 'Professionella Arbetsblad',
+  'Early Math Skills': 'Tidiga Mattefärdigheter',
+  'Early Math Foundations': 'Mattegrunder',
+  'Progression Path': 'Lärväg',
+  'Visual Learning': 'Visuellt Lärande',
+  'Fine Motor Skills': 'Finmotorik',
+  'Pre-Writing': 'Skrivförberedelse',
+  'Language Skills': 'Språkfärdigheter',
+  'Word Skills': 'Ordkunskap',
+  'Logic & Fun': 'Logik & Kul',
+  'Creative Skills': 'Kreativitet',
+  'Observation Skills': 'Observationsförmåga',
+  'Group Activities': 'Gruppaktiviteter',
+  'Activity Types': 'Aktivitetstyper',
+  'Difficulty Levels': 'Svårighetsnivåer',
+  'Difficulty Tiers': 'Svårighetsgrader',
+  'All Ages': 'Alla åldrar',
+  'Beginner': 'Nybörjare',
+  'Explorer': 'Utforskare',
+  'Expert': 'Expert',
+  'Answer Key': 'Facit',
+  'Sample 1': 'Exempel 1',
+  'Sample 2': 'Exempel 2',
+  'Skill Progression': 'Färdighetsprogression',
+  'Matching Modes': 'Matchningslägen',
+  'Pattern Complexity': 'Mönsterkomplexitet',
+  'Puzzle Difficulty': 'Pusselsvårighet',
+  'Spatial Reasoning': 'Rumsligt tänkande',
+  'Game-Based Learning': 'Spelbaserat lärande',
+  'Vocabulary Building': 'Ordförrådsuppbyggnad',
+  'Creative Activities': 'Kreativa aktiviteter',
+  'Three Modes': 'Tre lägen',
+  'Multiple Line Types': 'Flera linjetyper',
+  'Code Levels': 'Kodnivåer',
+  'Grid Levels': 'Rutnätsnivåer',
+  'Art Levels': 'Konstnivåer',
+  'Drawing Levels': 'Ritnivåer',
+  'Logic Levels': 'Logiknivåer',
+  'Match Levels': 'Matchningsnivåer',
+  'Pattern Levels': 'Mönsternivåer',
+  'Puzzle Levels': 'Pusselnivåer',
+  'Search Levels': 'Söknivåer',
+  'Sorting Levels': 'Sorteringsnivåer',
+  'Spelling Levels': 'Stavningsnivåer',
+  'Thinking Levels': 'Tänkandenivåer',
+  'Vocabulary Levels': 'Ordförrådsnivåer',
+  'Word Levels': 'Ordnivåer',
+  'Adventure Levels': 'Äventyrsnivåer',
+  'Pre-K to K': 'Förskola',
+  'Pre-K to 1st': 'Förskola till Årskurs 1',
+  'Pre-K to 2nd': 'Förskola till Årskurs 2',
+};
+
 function getStringTable(locale: string): Record<string, string> | null {
   if (locale === 'de') return deStringTable;
   if (locale === 'fr') return frStringTable;
@@ -3428,6 +3489,7 @@ function getStringTable(locale: string): Record<string, string> | null {
   if (locale === 'pt') return ptStringTable;
   if (locale === 'it') return itStringTable;
   if (locale === 'nl') return nlStringTable;
+  if (locale === 'sv') return svStringTable;
   return null;
 }
 

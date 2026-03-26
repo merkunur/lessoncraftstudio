@@ -6,6 +6,7 @@ import { spanishImages } from '@/config/spanish-showcase-images';
 import { portugueseImages } from '@/config/portuguese-showcase-images';
 import { italianImages } from '@/config/italian-showcase-images';
 import { dutchImages } from '@/config/dutch-showcase-images';
+import { swedishImages } from '@/config/swedish-showcase-images';
 
 export interface ToolShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -3713,6 +3714,46 @@ const nlToolText: Record<string, FrTextTuple> = {
   'crossword': ['Los het op!', 'Plaatjeskruiswoorden met themawoorden', 'Van klein naar groot kruiswoord', 'Drie niveaus van kruiswoorduitdaging', 'Mini-kruiswoord (5 woorden)', 'Gemiddeld kruiswoord (10 woorden)', 'Groot kruiswoord (15+ woorden)', 'Kruiswoorden versterken woordenschat en spelling', 'Kruiswoordpret!', 'Vul de vakjes', 'Kruiswoordwerkbladen', 'Woordpuzzels voor de klas'],
 };
 
+// ═══════════════════════════════════════════════════════════════════
+// SWEDISH LOCALIZATION — per-tool text overrides
+// ═══════════════════════════════════════════════════════════════════
+
+const svToolText: Record<string, FrTextTuple> = {
+  'image-addition': ['Räkna med bilder!', 'Professionella additionsarbetsblad med temabilder', 'Differentierat lärande för varje barn', 'Tre svårighetsnivåer som växer med eleverna', 'Enkelt räknande (1-5)', 'Blandade bilder till 10', 'Avancerade uppgifter till 20', 'Varje barn lär i sin egen takt', 'Additionskul!', 'Räkna med glädje', 'Professionella arbetsblad', 'Material skapat med omsorg'],
+  'image-subtraction': ['Subtraktion blir roligt!', 'Stryk över och jämför med temabilder', 'Steg för steg subtraktion', 'Tre nivåer från enkelt till utmanande', 'Stryk över bilder (1-5)', 'Bild-tal till 10', 'Blandade lägen till 20', 'Varje uppgift bygger förtroende', 'Subtraktionskul!', 'Subtraktion är roligt', 'Professionella arbetsblad', 'Tydliga layouter för elever'],
+  'code-addition': ['Knäck koden!', 'Lös räkneuppgifter för att avslöja meddelanden', 'Från summor till hemliga koder', 'Tre nivåer av kodknäckning', 'Enkla koder (1-5)', 'Större summor för längre meddelanden', 'Flerstegskoder till 20', 'Varje kod stärker matteförtroendet', 'Kodknäckning!', 'Matte möter mysterium', 'Professionella kodarbetsblad', 'Matte kombinerat med pussel'],
+  'more-less': ['Mer, mindre eller lika?', 'Jämför mängder med bilder', 'Behärska jämförelser', 'Tre nivåer av jämförelse', 'Vilken grupp har fler (1-5)', 'Grupper till 10 att jämföra', 'Större/mindre/lika', 'Jämförelse bygger mattegrunder', 'Jämför det!', 'Mer eller mindre?', 'Jämförelsearbetsblad', 'Visuella jämförelser'],
+  'math-puzzle': ['Mattepussel!', 'Utmanande räknepussel med temabilder', 'Från enkelt till mästarnivå', 'Tre pusselnivåer', 'Enkla pussel', 'Medelsvåra pussel', 'Utmanande pussel', 'Varje pussel skärper tänkandet', 'Pusselkul!', 'Matte som pussel', 'Mattepussel', 'Utmanande material'],
+  'math-worksheet': ['Mattearbetsblad!', 'Professionella matteövningar med temabilder', 'Daglig matteövning', 'Tre nivåer för differentiering', 'Grundövningar', 'Medelsvåra övningar', 'Avancerade övningar', 'Daglig övning bygger förtroende', 'Mattekul!', 'Lite bättre varje dag', 'Professionella arbetsblad', 'Tydliga layouter'],
+  'alphabet-train': ['Stig ombord för ABC!', 'Bokstäver att känna igen med alfabetståget', 'Från A till Ö', 'Tre nivåer av bokstavsigenkänning', 'Stora bokstäver', 'Små bokstäver att koppla', 'Komplett alfabetövning', 'Varje bokstav för närmare läsning', 'ABC-tåget!', 'Bokstäver är roligt', 'Alfabetsarbetsblad', 'Färgglada tågarbetsblad'],
+  'word-guess': ['Gissa ordet!', 'Ordgissningslekar med bildledtrådar', 'Från enkelt till utmanande', 'Tre nivåer av ordgissning', 'Enkla ord', 'Längre ord', 'Utmanande ord', 'Varje gissning stärker ordförrådet', 'Gissa det!', 'Upptäck ord', 'Ordgissningsarbetsblad', 'Spännande ordpussel'],
+  'word-scramble': ['Bokstavspussel!', 'Blandade bokstäver att ordna', 'Från enkelt till komplext', 'Tre nivåer av ordblandning', 'Korta ord (3-4 bokstäver)', 'Medelsvåra ord (5-6)', 'Långa ord (7+)', 'Varje pussel stärker stavningen', 'Bokstavsskoj!', 'Reda ut bokstäverna', 'Bokstavspusselarbetsblad', 'Stavning som spel'],
+  'word-search': ['Hitta orden!', 'Dolda ord i rutnät att hitta', 'Från litet till stort sökande', 'Tre nivåer av ordletningskul', 'Litet rutnät (6 ord)', 'Medelstort rutnät (10 ord)', 'Stort rutnät (15+ ord)', 'Varje ord stärker igenkänning', 'Ordletning!', 'Sök och hitta', 'Ordletningspussel', 'Tematiska ordletningar'],
+  'big-small': ['Stor eller liten?', 'Storleksjämförelse med bilder', 'Storlekar att jämföra', 'Tre nivåer av storleksförståelse', 'Tydliga skillnader', 'Subtilare jämförelser', 'Komplex ordning', 'Jämförelse bygger tänkande', 'Stor & Liten!', 'Jämför storlekarna', 'Storleksarbetsblad', 'Visuella jämförelser'],
+  'pattern-train': ['Upptäck mönstret!', 'Mönster med mönstertåget', 'Från enkelt till komplext', 'Tre nivåer av mönster', 'AB-mönster', 'ABC-mönster', 'AABB-mönster', 'Mönster är mattegrunden', 'Mönstertåget!', 'Följ mönstret', 'Mönsterarbetsblad', 'Färgglada mönster'],
+  'pattern-worksheet': ['Känn igen mönstret!', 'Mönster att känna igen och fortsätta', 'Mönstertänkande att utveckla', 'Tre nivåer av mönsterutmaning', 'Enkla AB-mönster', 'Medelsvåra ABC-mönster', 'Komplexa mönster', 'Att se mönster är att tänka', 'Mönsterkul!', 'Upptäck regelbundenheten', 'Mönsterarbetsblad', 'Systematisk övning'],
+  'draw-and-color': ['Rita och färglägg!', 'Steg-för-steg-ritning med temabilder', 'Från enkelt till detaljerat', 'Tre nivåer av ritutmaning', 'Enkla former', 'Mer detaljerat', 'Kreativa skapelser', 'Ritning utvecklar finmotoriken', 'Rita det!', 'Kreativt arbete', 'Ritarbetsblad', 'Steg-för-steg aktiviteter'],
+  'drawing-lines': ['Dra linjer!', 'Finmotorik med linjeaktiviteter', 'Från rakt till böjt', 'Tre nivåer av linjefärdighet', 'Raka linjer', 'Böjda linjer', 'Komplexa mönster', 'Linjer förbereder för skrivning', 'Linjekul!', 'Dra linjen', 'Linjearbetsblad', 'Skrivförberedelse'],
+  'chart-count': ['Data blir roligt!', 'Bilddiagram att skapa och läsa', 'Data med bilder', 'Tre nivåer av diagram', 'Enkla diagram', 'Fler kategorier', 'Komplex dataanalys', 'Diagram är en viktig färdighet', 'Diagramkul!', 'Räkna och rita', 'Diagramarbetsblad', 'Visuell data'],
+  'grid-match': ['Matcha rutnätet!', 'Rutnätspussel med temabilder', 'Från enkelt till komplext', 'Tre nivåer av rutnätspussel', 'Enkel igenkänning', 'Medelsvåra pussel', 'Komplexa utmaningar', 'Rutnät utvecklar rumslig uppfattning', 'Rutnätspussel!', 'Tänk i rutnät', 'Rutnätsarbetsblad', 'Rumsligt tänkande'],
+  'shadow-match': ['Hitta skuggan!', 'Skuggor att koppla till bilder', 'Från tydligt till subtilt', 'Tre nivåer av skuggigenkänning', 'Tydliga skuggor', 'Subtilare former', 'Utmanande silhuetter', 'Skuggmatchning för läsberedskap', 'Skuggkul!', 'Matcha skuggan', 'Skuggarbetsblad', 'Visuell diskriminering'],
+  'picture-sort': ['Sortera det!', 'Bilder att sortera och kategorisera', 'Från enkelt till komplext', 'Tre nivåer av sortering', 'Två kategorier', 'Tre kategorier', 'Komplex klassificering', 'Sortering bygger logik', 'Sorteringskul!', 'Indela och ordna', 'Sorteringsarbetsblad', 'Klassificering'],
+  'missing-pieces': ['Gör bilden klar!', 'Saknade bitar att hitta och fylla i', 'Från enkelt till komplext', 'Tre nivåer av pussel', 'Tydligt saknade delar', 'Subtilare bitar', 'Utmanande pussel', 'Pussel skärper iakttagelsen', 'Pusselkul!', 'Vad saknas?', 'Pusselarbetsblad', 'Visuell logik'],
+  'odd-one-out': ['Vilken är annorlunda?', 'Hitta den udda i gruppen', 'Från tydligt till subtilt', 'Tre nivåer av observation', 'Tydligt avvikande', 'Subtilare skillnader', 'Komplexa undantag', 'Observation stärker kritiskt tänkande', 'Udda fågeln!', 'Hitta skillnaden', 'Observationsarbetsblad', 'Visuellt resonemang'],
+  'picture-path': ['Hitta vägen!', 'Vägar att följa och navigera', 'Från enkelt till komplext', 'Tre nivåer av vägutmaning', 'Raka vägar', 'Kurviga vägar', 'Komplexa labyrinter', 'Vägar utvecklar problemlösning', 'Vägäventyr!', 'Följ spåret', 'Vägarbetsblad', 'Navigering'],
+  'find-and-count': ['Jag ser, jag ser!', 'Sök och räkna i färgglada scener', 'Från lite till mycket', 'Tre nivåer av sök-och-räkna', 'Räkna till 5', 'Räkna till 10', 'Räkna till 20', 'Söka och räkna skärper iakttagelsen', 'Sök & räkna!', 'Hur många ser du?', 'Räknearbetsblad', 'Visuella räkneaktiviteter'],
+  'find-objects': ['Hitta alla!', 'Dolda föremål i detaljerade scener', 'Från enkelt till komplext', 'Tre nivåer av sökutmaning', 'Tydligt synliga', 'Kamouflerade', 'Utmanande dolda', 'Skarpa ögon utvecklar koncentration', 'Sökkul!', 'Hitta föremålet', 'Sökarbetsblad', 'Koncentrationsutmaningar'],
+  'treasure-hunt': ['Skattjakt!', 'Kartäventyr med dolda skatter', 'Från enkelt till komplext', 'Tre nivåer av skattjakt', 'Enkla kartor', 'Mer komplexa kartor', 'Utmanande skattkartor', 'Varje skatt stärker problemlösning', 'Skattjakt!', 'Hitta skatten', 'Skattjaktsarbetsblad', 'Kartäventyr'],
+  'bingo': ['BINGO!', 'Tematiska bingokort för gruppen', 'Bingo för varje tema', 'Tre nivåer av bingokul', 'Enkel bildbingo', 'Ordbingo', 'Blandade utmaningar', 'Bingo gör lärande till fest', 'Bingokul!', 'Ögonen på kortet', 'Bingokort', 'Gruppaktiviteter'],
+  'coloring': ['Färglägg din värld!', 'Färgläggningssidor med 100+ teman', 'Färgläggning för alla', 'Från enkelt till detaljerat', 'Stora ytor', 'Detaljerade konturer', 'Fina detaljer', 'Färgläggning utvecklar kreativitet', 'Färgläggningskul!', 'Släpp lös kreativiteten', 'Färgläggningssidor', '100+ teman'],
+  'prepositions': ['Var är det?', 'Prepositioner med bilder och scener', 'Behärska positionsord', 'Tre nivåer av positionsförståelse', 'Grundpositioner (på, i, under)', 'Utökade positioner (bredvid, mellan, bakom)', 'Komplexa rumsliga beskrivningar', 'Positionsord stärker språkförståelsen', 'Prepositioner!', 'Var befinner det sig?', 'Prepositionsarbetsblad', 'Visuella positionsövningar'],
+  'writing': ['Skriv och lär!', 'Skrivövningsarbetsblad för handstil', 'Från linjer till bokstäver till ord', 'Tre nivåer av skrivfärdighet', 'Linjer och former att spåra', 'Bokstäver att forma och öva', 'Ord och meningar att skriva', 'Varje bokstav bygger skrivförtroende', 'Skrivkul!', 'Pennan på pappret', 'Skrivarbetsblad', 'Strukturerade skrivövningar'],
+  'matching': ['Hitta paret!', 'Matchningsaktiviteter med temabilder och ord', 'Från enkelt till komplext', 'Tre matchningslägen för differentiering', 'Bild-till-bild matchning', 'Bild-till-ord matchning', 'Egna ordlistor att matcha', 'Matchning stärker ordförråd och minne', 'Matchningskul!', 'Hitta paren', 'Matchningsarbetsblad', 'Visuella matchningsaktiviteter'],
+  'sudoku': ['Sudoku-kul!', 'Bildsudoku för unga tänkare', 'Från litet till stort rutnät', 'Tre nivåer av sudokoutmaning', 'Mini-sudoku med 4 bilder', 'Medelsvåra med 6 bilder', 'Utmanande med 9 bilder', 'Sudoku utvecklar logik', 'Sudoku!', 'Tänk logiskt', 'Sudokuarbetsblad', 'Logikpussel för barn'],
+  'crossword': ['Lös det!', 'Bildkorsord med temaord', 'Från litet till stort korsord', 'Tre nivåer av korsordutmaning', 'Mini-korsord (5 ord)', 'Medelkorsord (10 ord)', 'Stort korsord (15+ ord)', 'Korsord stärker ordförråd och stavning', 'Korsordskul!', 'Fyll i rutorna', 'Korsordarbetsblad', 'Ordpussel för gruppen'],
+  'cryptogram': ['Avslöja hemligheten!', 'Hemliga meddelanden att dechiffrera', 'Från enkel till mästardechiffrare', 'Tre nivåer av hemlig skrift', 'Enkel bokstavsersättning', 'Mer komplexa koder', 'Mästarutmaningar', 'Dechiffrering stärker logik', 'Kryptogram!', 'Knäck koden', 'Kryptogramarbetsblad', 'Hemliga meddelanden'],
+};
+
 // ─── Generic tool localization function ───
 
 // Locale-aware alt text templates for tool showcases
@@ -3757,6 +3798,13 @@ const toolAltTemplates: Record<string, {
     spotlight: (name) => `${name} — Uitgelicht werkblad`,
     gallery: (label) => `${label} — Professioneel werkblad`,
     answerKey: (label) => `${label} — Antwoordsleutel`,
+  },
+  sv: {
+    sample: (name, n) => `${name} — Arbetsblad exempel ${n}`,
+    tier: (name, tierName) => `${name} — ${tierName} arbetsblad`,
+    spotlight: (name) => `${name} — Utvalt arbetsblad`,
+    gallery: (label) => `${label} — Professionellt arbetsblad`,
+    answerKey: (label) => `${label} — Facit`,
   },
 };
 
@@ -3837,6 +3885,7 @@ export function getToolShowcaseConfig(toolId: string, locale: string = 'en'): To
   if (locale === 'pt') return localizeToolShowcase(enConfig, toolId, portugueseImages, ptToolText, 'pt');
   if (locale === 'it') return localizeToolShowcase(enConfig, toolId, italianImages, itToolText, 'it');
   if (locale === 'nl') return localizeToolShowcase(enConfig, toolId, dutchImages, nlToolText, 'nl');
+  if (locale === 'sv') return localizeToolShowcase(enConfig, toolId, swedishImages, svToolText, 'sv');
   return enConfig;
 }
 

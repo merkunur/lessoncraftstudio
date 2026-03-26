@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/pattern%20train/M%C3%B6nstert%E2%80%8B%C3%A5get%201.webp',
+      primary: '/samples/swedish/pattern%20train/pattern_train_worksheet.webp',
       primaryAlt: 'Mönstertåg-arbetsblad med tematiska tågvagnar som visar AB upprepande mönster med en saknad vagn för användarna att komplettera',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/pattern%20train/M%C3%B6nstert%E2%80%8B%C3%A5get%201.webp',
+        src: '/samples/swedish/pattern%20train/pattern_train_worksheet%20(1).webp',
         alt: 'Mönstertåg-arbetsblad med AB alternerande mönster och djurbilder över 11 tematiska tågvagnar',
         caption: 'AB-mönster med djurtema — användarna identifierar den alternerande sekvensen och fyller i den saknade vagnen',
       },
       {
-        src: '/samples/swedish/pattern%20train/M%C3%B6nstert%E2%80%8B%C3%A5get%203.webp',
+        src: '/samples/swedish/pattern%20train/pattern_train_worksheet%20(2).webp',
         alt: 'Mönstertåg-arbetsblad med ABC treelement-mönster och tematiska bilder över tågvagnar',
         caption: 'ABC-mönster — tre roterande element skapar en mer komplex upprepande sekvens',
       },
       {
-        src: '/samples/swedish/pattern%20train/M%C3%B6nstert%E2%80%8B%C3%A5get%201%20answer_key.webp',
+        src: '/samples/swedish/pattern%20train/pattern_train_answer_key.webp',
         alt: 'Mönstertåg facit som visar alla 11 vagnar fyllda med den korrekta mönstersekvensen',
         caption: 'Facit — alla 11 vagnar fyllda med det korrekta mönstret för lärarverifiering',
       },

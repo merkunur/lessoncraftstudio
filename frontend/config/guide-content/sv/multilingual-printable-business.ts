@@ -18,7 +18,7 @@ const content: GuideContent = {
       'tvärspråkliga intäktsströmmar plattformsinternationalisering multimarknadsdistribution',
     ],
     titleTag: 'Flerspråkigt utskriftsbart företag — Strategiguide',
-    metaDescription: 'Bygg ett flerspråkigt utskriftsbart företag genom att expandera till internationella marknader. Lär dig vilka språk att rikta, översättningsarbetsflöden och intäkt.',
+    metaDescription: 'Bygg ett flerspråkigt utskriftsbart företag genom att expandera till internationella marknader. Lär dig vilka språk att rikta, översättningsarbetsflöden och.',
   },
 
   hero: {

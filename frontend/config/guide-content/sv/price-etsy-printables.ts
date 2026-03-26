@@ -18,7 +18,7 @@ const content: GuideContent = {
       'internationell prissättning valuta Etsy digitala nedladdningar A4 Letter',
     ],
     titleTag: 'Prissätt Etsy Utskriftsbara Arbetsblad — Prisguide',
-    metaDescription: 'Prissätt Etsy utskriftsbara arbetsblad med avgiftsmatematik, trenivå-prissättning, paketstrategier och säsongsbetonade justeringar. Komplett prisguide för arbetsblad-säljare.',
+    metaDescription: 'Prissätt Etsy utskriftsbara arbetsblad med avgiftsmatematik, trenivå-prissättning, paketstrategier och säsongsbetonade justeringar. Komplett prisguide för.',
   },
 
   hero: {

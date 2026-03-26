@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Safaridjur utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck lönsamma safaridjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Afrikanskt vilt djurliv produktkoncept och plattformstips för säljare.',
+    metaDescription: 'Upptäck lönsamma safaridjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Afrikanskt vilt djurliv produktkoncept och plattformstips för.',
 
     primaryKeyword: 'safaridjur utskriftsbara idéer',
     secondaryKeywords: [

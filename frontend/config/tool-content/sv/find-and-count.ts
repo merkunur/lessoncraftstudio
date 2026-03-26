@@ -14,7 +14,7 @@ const content: ToolContent = {
       'fyra uppgiftstyper ringa ruta kryssa räkna mixbar arbetsblad',
       'lokalspecifikt alfabet accentuerade bokstäver sökgenerator',
     ],
-    titleTag: 'Hitta och Räkna Skapare — Sökarbetsblad Generator',
+    titleTag: 'Hitta och Räkna Skapare — Sökarbetsblad Generator | Online',
     metaDescription: 'Skapa sökarbetsblad med Dolda Objekt och Bokstavsletning-lägen, fyra uppgiftstyper, lokalspecifika alfabet, 104 teman. Gratis provversion med vattenstämpel.',
   },
 

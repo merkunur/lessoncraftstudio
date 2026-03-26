@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP visuell diskriminering arbetsböcker',
       'kommersiell licens hitta udda bilden verktyg',
     ],
-    titleTag: 'Hitta udda bilden arbetsblad — Guide',
+    titleTag: 'Hitta udda bilden arbetsblad — Guide — Steg-för-Steg Guide',
     metaDescription: 'Skapa hitta udda bilden-arbetsblad med Identiskt och Liknande läge, per-övning överstyrning och automatiskt facit. Steg-för-steg-guide för Etsy och KDP.',
   },
 

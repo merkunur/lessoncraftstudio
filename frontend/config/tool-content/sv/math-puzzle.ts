@@ -14,8 +14,8 @@ const content: ToolContent = {
       'pusselstils matteaktivitet för barn',
       'konfigurerbar mattepussel arbetsblad skapare',
     ],
-    titleTag: 'Mattepussel Skapare — Pusselarbetsblad för Klass',
-    metaDescription: 'Skapa pusselstils mattepussel för ditt produktlinje. Bildrutnätspussel med addition och subtraktion, konfigurerbara rutnät, facit. Gratis provversion med vattenstämpel.',
+    titleTag: 'Mattepussel Skapare — Pusselarbetsblad för Klass — Säljguide',
+    metaDescription: 'Skapa pusselstils mattepussel för ditt produktlinje. Bildrutnätspussel med addition och subtraktion, konfigurerbara rutnät, facit. Gratis provversion med.',
   },
 
   hero: {

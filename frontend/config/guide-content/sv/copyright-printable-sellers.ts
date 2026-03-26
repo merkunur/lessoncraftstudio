@@ -17,8 +17,8 @@ const content: GuideContent = {
       'upphovsrättsägande automatiskt skydd registreringsfördelar lagstadgade skadestånd',
       'kreativa val uttryck kontra idéer fakta standardmetoder pedagogiskt innehåll',
     ],
-    titleTag: 'Upphovsrätt utskriftsbara säljare — Grundguide',
-    metaDescription: 'Förstå upphovsrätten som säljare av utskriftsbara produkter behöver: vilka arbetsbladelement som är skyddsbara, registreringsfördelar, upprätthållande och att undvika intrång.',
+    titleTag: 'Upphovsrätt utskriftsbara säljare — Grundguide — Säljguide',
+    metaDescription: 'Förstå upphovsrätten som säljare av utskriftsbara produkter behöver: vilka arbetsbladelement som är skyddsbara, registreringsfördelar, upprätthållande och att.',
   },
 
   hero: {

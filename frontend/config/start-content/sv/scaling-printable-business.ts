@@ -18,7 +18,7 @@ const content: StartContent = {
       'återinvesteringsstrategi utskriftsbart företag',
     ],
     titleTag: 'Skala upp utskriftsbart företag — sidoprojekt till heltid',
-    metaDescription: 'Hur du skalar ditt utskriftsbara företag från sidoprojekt till heltid. Täcker katalogexpansion, multiplattformsdistribution, paketering och arbetsflödesautomation.',
+    metaDescription: 'Hur du skalar ditt utskriftsbara företag från sidoprojekt till heltid. Täcker katalogexpansion, multiplattformsdistribution, paketering och arbetsflödesautomati',
   },
 
   hero: {

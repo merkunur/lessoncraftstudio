@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Hemundervisning utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck utskriftsbara idéer för hemundervisning att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot föräldrar som bygger hemundervisningsprogram.',
+    metaDescription: 'Upptäck utskriftsbara idéer för hemundervisning att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot föräldrar som bygger.',
 
     primaryKeyword: 'hemundervisning utskriftsbara idéer',
     secondaryKeywords: [

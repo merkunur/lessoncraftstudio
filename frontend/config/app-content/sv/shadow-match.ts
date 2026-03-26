@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk skuggpussel arbetsblad generator',
       'utskrivbar visuell matchningsaktivitet affärsverktyg',
     ],
-    titleTag: 'Skuggmatchning Generator | Skapa Siluettpussel',
+    titleTag: 'Skuggmatchning Generator | Skapa Siluettpussel — Säljguide',
     metaDescription:
-      'Skapa skuggmatchnings arbetsblad att sälja på Etsy, KDP och Gumroad. Skuggmatchning och gör-den-hel-lägen, autosiluetter, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa skuggmatchnings arbetsblad att sälja på Etsy, KDP och Gumroad. Skuggmatchning och gör-den-hel-lägen, autosiluetter, 104 teman. Gratis provversion med.',
   },
 
   hero: {

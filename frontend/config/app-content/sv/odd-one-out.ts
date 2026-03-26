@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Hitta Udda Bilden Generator | Skapa och Sälj Arbetsblad',
     metaDescription:
-      'Skapa hitta udda bilden arbetsblad att sälja på Etsy, KDP och Gumroad. Två pussellägen, automatiskt facit med röda cirklar, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa hitta udda bilden arbetsblad att sälja på Etsy, KDP och Gumroad. Två pussellägen, automatiskt facit med röda cirklar, 104 teman. Gratis provversion med.',
   },
 
   hero: {

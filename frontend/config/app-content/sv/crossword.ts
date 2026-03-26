@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk korsordspussel generator',
       'utskrivbar bildkorsord affärsverktyg',
     ],
-    titleTag: 'Bildkorsord Generator | Skapa och Sälj Pussel',
+    titleTag: 'Bildkorsord Generator | Skapa och Sälj Pussel — Säljguide',
     metaDescription:
-      'Skapa bildkorsordspussel att sälja på Etsy, KDP och Gumroad. Bildledtrådar på 15×15 rutnät, 4 inmatningsmetoder, automatiskt facit. Gratis provversion med vattenstämpel.',
+      'Skapa bildkorsordspussel att sälja på Etsy, KDP och Gumroad. Bildledtrådar på 15×15 rutnät, 4 inmatningsmetoder, automatiskt facit. Gratis provversion med.',
   },
 
   hero: {

@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk vägpussel arbetsblad generator',
       'utskrivbar pusselaktivitet affärsverktyg',
     ],
-    titleTag: 'Labyrint Arbetsblad Generator | Skapa Vägpussel',
+    titleTag: 'Labyrint Arbetsblad Generator | Skapa Vägpussel — Säljguide',
     metaDescription:
-      'Skapa labyrintarbetsblad att sälja på Etsy, KDP och Gumroad. 3 spellägen, LPF-algoritm, automatiskt facit, 104 teman, tryckfärdiga PDF:er. Gratis provversion med vattenstämpel.',
+      'Skapa labyrintarbetsblad att sälja på Etsy, KDP och Gumroad. 3 spellägen, LPF-algoritm, automatiskt facit, 104 teman, tryckfärdiga PDF:er. Gratis provversion.',
   },
 
   hero: {

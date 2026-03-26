@@ -17,8 +17,8 @@ const content: GuideContent = {
       'organiska recensioner autentisk feedback recensionsvolym marknadsplatsranking',
       'listningsoptimering förväntningssättning köparkommunikation efterköpsupplevelse',
     ],
-    titleTag: 'Få recensioner utskriftsbara produkter — Guide',
-    metaDescription: 'Beprövade strategier för att få recensioner för utskriftsbara produkter. Bygg socialt bevis, tjäna autentisk feedback och lyft din Etsy-, KDP- och Gumroad-butik.',
+    titleTag: 'Få recensioner utskriftsbara produkter — Guide — Säljguide',
+    metaDescription: 'Beprövade strategier för att få recensioner för utskriftsbara produkter. Bygg socialt bevis, tjäna autentisk feedback och lyft din Etsy-, KDP- och Gumroad-butik',
   },
 
   hero: {

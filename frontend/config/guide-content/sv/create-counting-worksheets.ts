@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP datakompetens arbetsböcker',
       'kommersiell licens bilddiagram-skapare',
     ],
-    titleTag: 'Räkne- och diagramarbetsblad — Guide',
+    titleTag: 'Räkne- och diagramarbetsblad — Guide — Steg-för-Steg Guide',
     metaDescription: 'Hur du skapar räkningsarbetsblad med bilddiagram, automatiskt facit och 104 teman. Steg-för-steg-guide för att sälja printables på Etsy, KDP och Gumroad.',
   },
 

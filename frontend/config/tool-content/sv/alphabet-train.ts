@@ -14,7 +14,7 @@ const content: ToolContent = {
       'flerspråkig alfabet aktivitet online',
       'färgglatt alfabetståg utskriftsbart för förskolan',
     ],
-    titleTag: 'Alfabetståg Skapare — Bokstavsövning för Barn',
+    titleTag: 'Alfabetståg Skapare — Bokstavsövning för Barn — Säljguide',
     metaDescription: 'Skapa alfabetståg arbetsblad för bokstavsigenkänning. 11 färgglada vagnar, bokstav-bild matchning, 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
   },
 

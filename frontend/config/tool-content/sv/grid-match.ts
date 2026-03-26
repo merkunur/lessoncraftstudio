@@ -15,7 +15,7 @@ const content: ToolContent = {
       'konfigurerbar ledtrådscell svårighet rutnätsskapare',
     ],
     titleTag: 'Rutmatchning Skapare — Rutnäts Arbetsblad Generator',
-    metaDescription: 'Skapa rutnätsmatchnings arbetsblad med konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, Fisher-Yates-blandning och 104 tematiska bilder. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa rutnätsmatchnings arbetsblad med konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, Fisher-Yates-blandning och 104 tematiska bilder. Gratis.',
   },
 
   hero: {

@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fåglar utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Utforska fågeltematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept, plattformsstrategier och nischpositioneringstips för säljare.',
+    titleTag: 'Fåglar utskriftsbara idéer att sälja — nischguide | Online',
+    metaDescription: 'Utforska fågeltematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept, plattformsstrategier och nischpositioneringstips för.',
 
     primaryKeyword: 'fåglar utskriftsbara idéer',
     secondaryKeywords: [

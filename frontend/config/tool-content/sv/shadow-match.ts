@@ -14,7 +14,7 @@ const content: ToolContent = {
       'pixelnivå skugggenerering derangeringsalgoritm skapare',
       'automatiskt facit skuggpussel arbetsblad generator',
     ],
-    titleTag: 'Skuggmatchning Skapare — Arbetsblad Generator',
+    titleTag: 'Skuggmatchning Skapare — Arbetsblad Generator — Säljguide',
     metaDescription: 'Skapa skuggmatchning arbetsblad med pixelnivå siluetter och Gör Den Hel bilddelning, automatiska facit, 104 teman. Gratis provversion med vattenstämpel.',
   },
 

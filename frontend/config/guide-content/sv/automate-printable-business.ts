@@ -17,8 +17,8 @@ const content: GuideContent = {
       'strömlinjeformat arbetsflöde processstandardisering operativ effektivitet uppgiftsbatchning',
       'produktionssystem skalbara processer kataloghantering arbetsflödesdesign',
     ],
-    titleTag: 'Automatisera utskriftsbart företag — Guide',
-    metaDescription: 'Så automatiserar du ditt utskriftsbara företag med batchproduktion, mallsystem och systematiska arbetsflöden. Spara timmar varje vecka och skala upp.',
+    titleTag: 'Automatisera utskriftsbart företag — Guide — Online Verktyg',
+    metaDescription: 'Så automatiserar du ditt utskriftsbara företag med batchproduktion, mallsystem och systematiska arbetsflöden. Spara timmar varje vecka och skala upp. Prova.',
   },
 
   hero: {

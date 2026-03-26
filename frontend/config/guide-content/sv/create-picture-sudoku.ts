@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP pussel aktivitetsböcker',
       'kommersiell licens pusselverktyg',
     ],
-    titleTag: 'Hur du skapar bildsudoku-arbetsblad — Guide',
-    metaDescription: 'Skapa bildsudoku för unga barn. 4×4 bildrutnät, 3 svårighetsnivåer, tematiska bilder, facit och tryckfärdiga PDF att sälja på Etsy och KDP.',
+    titleTag: 'Hur du skapar bildsudoku-arbetsblad — Guide — Online Verktyg',
+    metaDescription: 'Skapa bildsudoku för unga barn. 4×4 bildrutnät, 3 svårighetsnivåer, tematiska bilder, facit och tryckfärdiga PDF att sälja på Etsy och KDP. Prova idag.',
   },
 
   hero: {

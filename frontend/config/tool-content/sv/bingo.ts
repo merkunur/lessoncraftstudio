@@ -14,7 +14,7 @@ const content: ToolContent = {
       'bild och ord bingokort skapare',
       'uppropslista bingo arbetsblad skapare',
     ],
-    titleTag: 'Bingokort Skapare — Bildbingo online',
+    titleTag: 'Bingokort Skapare — Bildbingo online — Skapa Online Gratis',
     metaDescription: 'Skapa bildbingokort för produktlinjesspel. Rutnät från 3×3 till 5×5, batch unika kort, uppropslistor, 104 teman. Gratis provversion med vattenstämpel.',
   },
 

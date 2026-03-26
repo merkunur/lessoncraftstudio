@@ -18,7 +18,7 @@ const content: GuideContent = {
       'licensregister licensdokumentation multiplattformslicensiering konkurrensfördel',
     ],
     titleTag: 'Kommersiell licens utskriftsbara produkter — Säljarguide',
-    metaDescription: 'Förstå kommersiella licenser för utskriftsbara produkter innan du säljer. Lär dig licenstyper, vanliga misstag och hur korrekt licensiering skyddar din verksamhet.',
+    metaDescription: 'Förstå kommersiella licenser för utskriftsbara produkter innan du säljer. Lär dig licenstyper, vanliga misstag och hur korrekt licensiering skyddar din.',
   },
 
   hero: {

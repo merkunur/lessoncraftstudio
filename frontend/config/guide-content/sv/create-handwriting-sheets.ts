@@ -17,8 +17,8 @@ const content: GuideContent = {
       'sälja skrivövningar på Etsy',
       'Amazon KDP skrivarbetsböcker',
     ],
-    titleTag: 'Skapa skrivövningsblad — Steg-för-steg-guide',
-    metaDescription: 'Skapa skrivövningsblad med spåra, toningsövning och guidad kopia. Streckordningspilar, fem typsnittsstilar och PDF-export för Etsy och KDP.',
+    titleTag: 'Skapa skrivövningsblad — Steg-för-steg-guide — Säljguide',
+    metaDescription: 'Skapa skrivövningsblad med spåra, toningsövning och guidad kopia. Streckordningspilar, fem typsnittsstilar och PDF-export för Etsy och KDP. Prova idag.',
   },
 
   hero: {

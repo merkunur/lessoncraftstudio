@@ -17,7 +17,7 @@ const content: GuideContent = {
       'produktlinjes målaraktivitetsblad',
       'kommersiell licens målarverktyg',
     ],
-    titleTag: 'Skapa målarbilder från tematiska bilder — Guide',
+    titleTag: 'Skapa målarbilder från tematiska bilder — Guide — Säljguide',
     metaDescription: 'Hur du skapar målarbilder från 3 100+ tematiska bilder. Fri arbetsyta med gråskaleexport, frihandsritning och produktlinjeshjälpare. Sälj på Etsy och KDP.',
   },
 

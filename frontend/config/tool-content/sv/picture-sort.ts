@@ -15,7 +15,7 @@ const content: ToolContent = {
       'blandat utklippsrutnät sorteringsaktivitet skapare',
     ],
     titleTag: 'Bildsortering Skapare — Sorterings Arbetsblad Generator',
-    metaDescription: 'Skapa sorteringsarbetsblad med tvåkategori temaläge, blandade utklippsrutnät, automatiska facit och 104 tematiska bildsamlingar. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa sorteringsarbetsblad med tvåkategori temaläge, blandade utklippsrutnät, automatiska facit och 104 tematiska bildsamlingar. Gratis provversion med.',
   },
 
   hero: {

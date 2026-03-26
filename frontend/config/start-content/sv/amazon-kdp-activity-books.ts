@@ -17,8 +17,8 @@ const content: StartContent = {
       'KDP royaltyberäkning aktivitetsböcker',
       'print-on-demand aktivitetsbok företag',
     ],
-    titleTag: 'Sälja aktivitetsböcker på Amazon KDP — Guide',
-    metaDescription: 'Lär dig sälja aktivitetsböcker på Amazon KDP. Interiörformatering, omslagsdesign, nyckelordsstrategi, prissättning och skalning av ditt KDP-bokföretag steg för steg.',
+    titleTag: 'Sälja aktivitetsböcker på Amazon KDP — Guide — Säljguide',
+    metaDescription: 'Lär dig sälja aktivitetsböcker på Amazon KDP. Interiörformatering, omslagsdesign, nyckelordsstrategi, prissättning och skalning av ditt KDP-bokföretag steg för.',
   },
 
   hero: {

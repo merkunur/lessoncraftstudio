@@ -14,9 +14,9 @@ const content: AppContent = {
       'utskrivbara bokstavsomflyttning onlineföretag',
       'ordmix generator kommersiellt bruk',
     ],
-    titleTag: 'Ordmix Generator | Skapa och Sälj Stavningspussel',
+    titleTag: 'Ordmix Generator | Skapa och Sälj Stavningspussel | Online',
     metaDescription:
-      'Skapa ordmix-arbetsblad att sälja på Etsy, KDP och Gumroad. Bildledtrådar, blandade bokstavsplattor, vokal-konsonant-färgkodning, 11 språk. Gratis provversion med vattenstämpel.',
+      'Skapa ordmix-arbetsblad att sälja på Etsy, KDP och Gumroad. Bildledtrådar, blandade bokstavsplattor, vokal-konsonant-färgkodning, 11 språk. Gratis provversion.',
   },
 
   hero: {

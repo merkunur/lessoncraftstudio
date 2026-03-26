@@ -17,7 +17,7 @@ const content: GuideContent = {
       'flerplattform Etsy Gumroad digital utskrift expansion',
       'KDP rapporter prestationsspårning intäkt per titel analys',
     ],
-    titleTag: 'Tjäna pengar KDP aktivitetsböcker — Intäktsguide',
+    titleTag: 'Tjäna pengar KDP aktivitetsböcker — Intäktsguide — Säljguide',
     metaDescription: 'Hur du tjänar pengar med KDP aktivitetsböcker. Täcker prissättning, katalogbyggande, royaltyberäkningar, säsongsbetonad publicering och skalningsstrategier.',
   },
 

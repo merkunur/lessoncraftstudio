@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fordon utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Utforska fordon utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Fordonstema produktkoncept, plattformsstrategier och tips för säljare.',
+    titleTag: 'Fordon utskriftsbara idéer att sälja — nischguide | Online',
+    metaDescription: 'Utforska fordon utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Fordonstema produktkoncept, plattformsstrategier och tips för säljare. Prova.',
 
     primaryKeyword: 'fordon utskriftsbara idéer',
     secondaryKeywords: [

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'skolstart matte utskrifter Etsy säsongsstrategi',
       'Etsy annonsfoton mockups för mattearbetsblad produkter',
     ],
-    titleTag: 'Sälj Mattearbetsblad på Etsy — Guide',
-    metaDescription: 'Sälj mattearbetsblad på Etsy med 6 generatorer. Etsy SEO, annonsoptimering, prissättning, paketstrategier och säsongstajming för utskriftssäljare.',
+    titleTag: 'Sälj Mattearbetsblad på Etsy — Guide — Steg-för-Steg Guide',
+    metaDescription: 'Sälj mattearbetsblad på Etsy med 6 generatorer. Etsy SEO, annonsoptimering, prissättning, paketstrategier och säsongstajming för utskriftssäljare. Prova.',
   },
 
   hero: {

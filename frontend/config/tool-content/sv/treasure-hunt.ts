@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatiskt facit markerad skattcell dubbelt canvas-system',
     ],
     titleTag: 'Skattjakt Skapare — Skattjakt Arbetsblad Generator',
-    metaDescription: 'Skapa skattjakt arbetsblad på 5×5 rutnät med två riktningstyper, tematiska landmärken, automatiskt facit och 104 bildsamlingar. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa skattjakt arbetsblad på 5×5 rutnät med två riktningstyper, tematiska landmärken, automatiskt facit och 104 bildsamlingar. Gratis provversion med.',
   },
 
   hero: {

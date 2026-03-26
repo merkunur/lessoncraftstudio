@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommersiell licens matchningsarbetsblad',
       'bulkproduktion matchningsarbetsblad verktyg',
     ],
-    titleTag: 'Matchningsarbetsblad Paket — 5 Sorterings- och Matchningsgeneratorer',
-    metaDescription: 'Få 5 matchningsarbetsblad-generatorer i ett paket. Skapa matchning, rutnätsmatchning, skuggmatchning, bingo och sorteringsarbetsblad att sälja på Etsy, KDP och Gumroad.',
+    titleTag: 'Matchningsarbetsblad Paket — 5 Sorterings- och Matchningsgen',
+    metaDescription: 'Få 5 matchningsarbetsblad-generatorer i ett paket. Skapa matchning, rutnätsmatchning, skuggmatchning, bingo och sorteringsarbetsblad att sälja på Etsy.',
   },
 
   hero: {

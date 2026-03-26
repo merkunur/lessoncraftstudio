@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Gumroad sökalgoritm taggar titel beskrivning upptäckbarhet rankning',
       'arbetsbladspaket produktkatalog enhet aktivitetspaket prisstrategi',
     ],
-    titleTag: 'Hur du skapar och säljer Gumroad-resurser — Guide',
-    metaDescription: 'Hur du skapar och säljer Gumroad-resurser. Kontouppstart, resursformatering, listningsoptimering, prissättning och att bygga momentum på Gumroad.',
+    titleTag: 'Hur du skapar och säljer Gumroad-resurser — Guide | Online',
+    metaDescription: 'Hur du skapar och säljer Gumroad-resurser. Kontouppstart, resursformatering, listningsoptimering, prissättning och att bygga momentum på Gumroad. Prova.',
   },
 
   hero: {

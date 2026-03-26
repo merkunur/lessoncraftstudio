@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Gumroad analys säsongsplanering datadriven katalogskalningsstrategi',
     ],
     titleTag: 'Gumroad butiksoptimering guide — Sälj fler resurser',
-    metaDescription: 'Gumroad butiksoptimeringsstrategier för högre sökrankningar och mer försäljning. Täcker förhandsgranskningskonvertering, produktpaketering, recensionsbyggande och katalog.',
+    metaDescription: 'Gumroad butiksoptimeringsstrategier för högre sökrankningar och mer försäljning. Täcker förhandsgranskningskonvertering, produktpaketering, recensionsbyggande.',
   },
 
   hero: {

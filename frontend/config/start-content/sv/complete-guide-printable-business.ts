@@ -17,7 +17,7 @@ const content: StartContent = {
       'Gumroad arbetsblad',
       'kommersiell licens utskriftsbara verktyg',
     ],
-    titleTag: 'Starta utskriftsbart företag — Komplett guide',
+    titleTag: 'Starta utskriftsbart företag — Komplett guide — Säljguide',
     metaDescription: 'Så startar du ett utskriftsbart företag från grunden. Steg-för-steg-guide för Etsy-, Amazon KDP- och Gumroad-säljare som använder arbetsbladsgenratorer.',
   },
 

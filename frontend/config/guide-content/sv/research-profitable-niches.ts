@@ -18,7 +18,7 @@ const content: GuideContent = {
       'minimalt livskraftig produkttestning forskningsarbetsflöde nischupptäckt systematisk process',
     ],
     titleTag: 'Undersök lönsamma utskriftsbara nischer — Metodguide',
-    metaDescription: 'Hur du undersöker lönsamma utskriftsbara nischer med marknadsplatsdata, nyckelordsanalys, konkurrentforskning, efterfrågesignaler och systematiska valideringsmetoder.',
+    metaDescription: 'Hur du undersöker lönsamma utskriftsbara nischer med marknadsplatsdata, nyckelordsanalys, konkurrentforskning, efterfrågesignaler och systematiska valideringsme',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Stort och Litet Generator | Skapa och Sälj Arbetsblad',
     metaDescription:
-      'Skapa storleksjämförelsearbetsblad att sälja på Etsy, KDP och Gumroad. Fem frågetyper, identiska och olika lägen, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa storleksjämförelsearbetsblad att sälja på Etsy, KDP och Gumroad. Fem frågetyper, identiska och olika lägen, 104 teman. Gratis provversion med vattenstämpe',
   },
 
   hero: {

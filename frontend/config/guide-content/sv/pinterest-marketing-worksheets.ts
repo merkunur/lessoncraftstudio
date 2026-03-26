@@ -18,7 +18,7 @@ const content: GuideContent = {
       'sökranking sparfrekvens utgående klick publikinsikter pin-mallar',
     ],
     titleTag: 'Pinterest marknadsföring arbetsblad — Säljstrategi',
-    metaDescription: 'Pinterest-marknadsföringsstrategi för säljare av arbetsblad. Driv långsiktig trafik genom pin-optimering, tavlestrategi och nyckelordrikt innehåll.',
+    metaDescription: 'Pinterest-marknadsföringsstrategi för säljare av arbetsblad. Driv långsiktig trafik genom pin-optimering, tavlestrategi och nyckelordrikt innehåll. Prova.',
   },
 
   hero: {

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'kommersiell licens bingoverktyg',
       'flera unika bingokort generator',
     ],
-    titleTag: 'Skapa bingokort med tematiska bilder — Guide',
-    metaDescription: 'Hur du skapar bingokort med tematiska bilder. Välj rutnätsstorlekar, generera unika kort med uppropskort och exportera tryckfärdiga PDF att sälja på Etsy och KDP.',
+    titleTag: 'Skapa bingokort med tematiska bilder — Guide — Säljguide',
+    metaDescription: 'Hur du skapar bingokort med tematiska bilder. Välj rutnätsstorlekar, generera unika kort med uppropskort och exportera tryckfärdiga PDF att sälja på Etsy och.',
   },
 
   hero: {

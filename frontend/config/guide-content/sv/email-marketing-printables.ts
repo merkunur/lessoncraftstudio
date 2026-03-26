@@ -17,8 +17,8 @@ const content: GuideContent = {
       'automatiserade sekvenser återaktiveringskampanj listhygien avsändarrykte',
       'innehållskalender e-postanalys A/B-testning personalisering taggar',
     ],
-    titleTag: 'E-postmarknadsföring utskriftsbara — Säljstrategi',
-    metaDescription: 'E-postmarknadsföringsstrategier för säljare av utskriftsbara produkter. Bygg din prenumerantlista, skapa lead magnets, automatisera sekvenser och driv försäljning.',
+    titleTag: 'E-postmarknadsföring utskriftsbara — Säljstrategi | Online',
+    metaDescription: 'E-postmarknadsföringsstrategier för säljare av utskriftsbara produkter. Bygg din prenumerantlista, skapa lead magnets, automatisera sekvenser och driv.',
   },
 
   hero: {

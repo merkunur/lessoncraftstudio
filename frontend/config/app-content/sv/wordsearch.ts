@@ -14,9 +14,9 @@ const content: AppContent = {
       'utskrivbara gömda-ord rutnät arbetsblad företag',
       'ordletar generator kommersiellt bruk',
     ],
-    titleTag: 'Ordletar Generator | Skapa och Sälj Ordpussel',
+    titleTag: 'Ordletar Generator | Skapa och Sälj Ordpussel — Säljguide',
     metaDescription:
-      'Skapa ordletararbetsblad att sälja på Etsy, KDP och Gumroad. Justerbart rutnät 5–30, riktningskontroller, språkmedvetna fyllnadsbokstäver. Gratis provversion med vattenstämpel.',
+      'Skapa ordletararbetsblad att sälja på Etsy, KDP och Gumroad. Justerbart rutnät 5–30, riktningskontroller, språkmedvetna fyllnadsbokstäver. Gratis provversion.',
   },
 
   hero: {

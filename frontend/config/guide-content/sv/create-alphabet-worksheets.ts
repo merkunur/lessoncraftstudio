@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP bokstavsigenkänning tåg-arbetsböcker',
       'kommersiell licens alfabetståg verktyg',
     ],
-    titleTag: 'Alfabetståg arbetsblad — Guide',
+    titleTag: 'Alfabetståg arbetsblad — Guide — Komplett Guide för Säljare',
     metaDescription: 'Hur du skapar alfabetståg-arbetsblad med tågvagnar, två skapandelägen, konfigurerbar svårighet och 104 temabildsamlingar. Sälj på Etsy, KDP och Gumroad.',
   },
 

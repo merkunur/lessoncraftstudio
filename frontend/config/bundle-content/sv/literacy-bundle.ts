@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommersiell licens läsarbetsblad',
       'bulkproduktion språkarbetsblad verktyg',
     ],
-    titleTag: 'Läsarbetsblad Paket — 7 Språk- och Ordgeneratorer',
-    metaDescription: 'Få 7 läs- och skrivarbetsblad-generatorer i ett paket. Skapa alfabet, ordsökning, kryptogram, prepositioner och handstilsarbetsblad på 11 språk.',
+    titleTag: 'Läsarbetsblad Paket — 7 Språk- och Ordgeneratorer | Online',
+    metaDescription: 'Få 7 läs- och skrivarbetsblad-generatorer i ett paket. Skapa alfabet, ordsökning, kryptogram, prepositioner och handstilsarbetsblad på 11 språk. Prova.',
   },
 
   hero: {

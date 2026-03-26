@@ -17,8 +17,8 @@ const content: GuideContent = {
       'sidnumrering förmaterial bakmaterial innehållsförteckning',
       'KDP uppladdningsfel avvisning felsökning förhandsgranskning provtryck',
     ],
-    titleTag: 'KDP formatering arbetsblad — Komplett guide',
-    metaDescription: 'KDP formateringsguide som täcker trimstorlekar, marginaler, utfallsinställningar, PDF-export vid 300 DPI, omslagsdimensioner och felsökning för aktivitetsböcker.',
+    titleTag: 'KDP formatering arbetsblad — Komplett guide — Online Verktyg',
+    metaDescription: 'KDP formateringsguide som täcker trimstorlekar, marginaler, utfallsinställningar, PDF-export vid 300 DPI, omslagsdimensioner och felsökning för aktivitetsböcker',
   },
 
   hero: {

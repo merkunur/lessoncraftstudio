@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Bildsortering Generator | Skapa Sorteringsarbetsblad',
     metaDescription:
-      'Skapa bildsorteringsarbetsblad att sälja på Etsy, KDP och Gumroad. Tvåkategorisortering, automatiskt facit, 104 teman, 4–12 bilder. Gratis provversion med vattenstämpel.',
+      'Skapa bildsorteringsarbetsblad att sälja på Etsy, KDP och Gumroad. Tvåkategorisortering, automatiskt facit, 104 teman, 4–12 bilder. Gratis provversion med.',
   },
 
   hero: {

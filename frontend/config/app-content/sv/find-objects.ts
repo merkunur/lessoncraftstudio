@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk hitta föremålen arbetsblad generator',
       'utskrivbar visuell sökaktivitet affärsverktyg',
     ],
-    titleTag: 'Dolda Objekt Generator | Skapa Sökarbetsblad',
+    titleTag: 'Dolda Objekt Generator | Skapa Sökarbetsblad — Säljguide',
     metaDescription:
-      'Skapa dolda objekt arbetsblad att sälja på Etsy, KDP och Gumroad. Sökning och Hitta Udda Bilden-lägen, noll-överlappning scener, automatiskt facit. Gratis provversion med vattenstämpel.',
+      'Skapa dolda objekt arbetsblad att sälja på Etsy, KDP och Gumroad. Sökning och Hitta Udda Bilden-lägen, noll-överlappning scener, automatiskt facit. Gratis.',
   },
 
   hero: {

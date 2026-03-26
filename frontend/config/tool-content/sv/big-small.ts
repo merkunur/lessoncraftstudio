@@ -14,7 +14,7 @@ const content: ToolContent = {
       'textfri storleksjämförelse utskriftsbar',
       'stor liten ordning aktivitet för förskolan',
     ],
-    titleTag: 'Storleksjämförelse Arbetsblad Skapare — För Barn',
+    titleTag: 'Storleksjämförelse Arbetsblad Skapare — För Barn — Säljguide',
     metaDescription: 'Skapa storleksjämförelse arbetsblad för förskolan och dagis. Fem frågetyper, identiska och olika bildlägen, 104 teman. Gratis provversion med vattenstämpel.',
   },
 

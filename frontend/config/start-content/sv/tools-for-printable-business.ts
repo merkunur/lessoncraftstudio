@@ -17,8 +17,8 @@ const content: StartContent = {
       'flerspråkig arbetsbladsgenrator verktyg',
       'kommersiell licens arbetsbladsproduktion',
     ],
-    titleTag: 'Bästa verktyg för säljare av utskriftsbara produkter — komplett guide',
-    metaDescription: 'Bästa verktyg för säljare av utskriftsbara produkter: arbetsbladsgenratorer, designverktyg, plattformsverktyg och arbetsflöden för en professionell verktygslåda.',
+    titleTag: 'Bästa verktyg för säljare av utskriftsbara produkter',
+    metaDescription: 'Bästa verktyg för säljare av utskriftsbara produkter: arbetsbladsgenratorer, designverktyg, plattformsverktyg och arbetsflöden för en professionell verktygslåda',
   },
 
   hero: {

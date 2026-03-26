@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Kryptogram Generator | Skapa och Sälj Chifferpussel',
     metaDescription:
-      'Skapa kryptogramarbetsblad att sälja på Etsy, KDP och Gumroad. Bildchifferkodning, Bokstäver att Avslöja svårighetskontroll, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa kryptogramarbetsblad att sälja på Etsy, KDP och Gumroad. Bildchifferkodning, Bokstäver att Avslöja svårighetskontroll, 104 teman. Gratis provversion med.',
   },
 
   hero: {

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'matte arbetsbok sidantal svårighetsgradering facit',
       'KDP publiceringsgranskningsprocess provtryck författarkopior',
     ],
-    titleTag: 'Hur du skapar matte aktivitetsböcker KDP — Guide',
-    metaDescription: 'Lär dig hur du skapar matte aktivitetsböcker för KDP. Täcker manuskriptformatering, omslagsdesign och Amazon nyckelordsoptimering.',
+    titleTag: 'Hur du skapar matte aktivitetsböcker KDP — Guide — Säljguide',
+    metaDescription: 'Lär dig hur du skapar matte aktivitetsböcker för KDP. Täcker manuskriptformatering, omslagsdesign och Amazon nyckelordsoptimering. Ingen registrering.',
   },
 
   hero: {

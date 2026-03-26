@@ -15,7 +15,7 @@ const content: ToolContent = {
       'flerspråkig prepositioner aktivitet generator',
     ],
     titleTag: 'Prepositioner Arbetsblad Generator | Sälj Utskriftsbara',
-    metaDescription: 'Generera prepositioner arbetsblad med fyll-i-luckan och flerval-lägen, formersättning, 104 teman, 11 språk. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Generera prepositioner arbetsblad med fyll-i-luckan och flerval-lägen, formersättning, 104 teman, 11 språk. Gratis provversion med vattenstämpel. Prova.',
   },
 
   hero: {

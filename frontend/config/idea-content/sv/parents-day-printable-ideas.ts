@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mors dag och fars dag utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Mors dag och fars dag utskriftsbara idéer att sälja',
     metaDescription: 'Upptäck mors dag och fars dag utskriftsbara idéer att sälja på Etsy, KDP och Gumroad. Föräldrauppskattning produktkoncept och plattformstips för säljare.',
     primaryKeyword: 'föräldradagen utskriftsbara idéer',
     secondaryKeywords: [

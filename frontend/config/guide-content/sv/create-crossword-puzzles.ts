@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Etsy korsord printables',
       'kommersiell licens pusselverktyg',
     ],
-    titleTag: 'Skapa korsordspussel — Steg-för-steg-guide',
-    metaDescription: 'Hur du skapar korsordspussel för barn med bildledtrådar. Välj teman, generera korsande rutnät, numrerade ledtrådar, facit, sälj på Etsy och KDP.',
+    titleTag: 'Skapa korsordspussel — Steg-för-steg-guide — Online Verktyg',
+    metaDescription: 'Hur du skapar korsordspussel för barn med bildledtrådar. Välj teman, generera korsande rutnät, numrerade ledtrådar, facit, sälj på Etsy och KDP. Prova.',
   },
 
   hero: {

@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommersiell licens matte arbetsblad',
       'bulkproduktion matte arbetsblad verktyg',
     ],
-    titleTag: 'Matte Arbetsblad Paket — 6 Generatorer | Matematik Mästarpaket',
-    metaDescription: 'Få 6 matte arbetsblad-generatorer i ett paket. Skapa additions-, subtraktions-, kodpussel-, jämförelse- och algebraarbetsblad att sälja på Etsy, KDP och Gumroad.',
+    titleTag: 'Matte Arbetsblad Paket — 6 Generatorer | Matematik',
+    metaDescription: 'Få 6 matte arbetsblad-generatorer i ett paket. Skapa additions-, subtraktions-, kodpussel-, jämförelse- och algebraarbetsblad att sälja på Etsy, KDP och.',
   },
 
   hero: {

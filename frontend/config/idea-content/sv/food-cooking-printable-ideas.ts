@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mat och matlagning utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Mat och matlagning utskriftsbara idéer att sälja —',
     metaDescription: 'Upptäck mat och matlagning utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Recepttema produktkoncept, plattformsstrategier och tips för säljare.',
 
     primaryKeyword: 'mat och matlagning utskriftsbara idéer',

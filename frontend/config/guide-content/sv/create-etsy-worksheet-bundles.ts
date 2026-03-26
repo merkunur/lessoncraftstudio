@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy digital leverans flera filer paketstruktur',
       'paket vs enskild annons kannibalisering Etsy butiksstrategi',
     ],
-    titleTag: 'Skapa Etsy Arbetsblad-paket — Guide',
+    titleTag: 'Skapa Etsy Arbetsblad-paket — Guide — Steg-för-Steg Guide',
     metaDescription: 'Skapa Etsy arbetsblad-paket som ökar genomsnittligt ordervärde. Pakettyper, filorganisation, förhandsgranskningsbilder, annonsoptimering och prisstrategi.',
   },
 

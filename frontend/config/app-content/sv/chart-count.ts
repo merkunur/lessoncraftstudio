@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Bilddiagram Generator | Skapa Diagramräkning Arbetsblad',
     metaDescription:
-      'Skapa bilddiagram arbetsblad att sälja på Etsy, KDP och Gumroad. Automatiskt facit med markeringar, 104 teman, 6 bildtyper per blad. Gratis provversion med vattenstämpel.',
+      'Skapa bilddiagram arbetsblad att sälja på Etsy, KDP och Gumroad. Automatiskt facit med markeringar, 104 teman, 6 bildtyper per blad. Gratis provversion med.',
   },
 
   hero: {

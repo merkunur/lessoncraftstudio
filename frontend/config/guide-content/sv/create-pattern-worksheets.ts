@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommersiell licens arbetsbladsverktyg',
     ],
     titleTag: 'Hur du skapar mönsterarbetsblad — Steg-för-steg-guide',
-    metaDescription: 'Skapa mönsterarbetsblad med 9 typer, tematiska bilder, automatiska facit och 2 frågeformat. Exportera tryckfärdiga PDF att sälja på Etsy, Amazon KDP och Gumroad.',
+    metaDescription: 'Skapa mönsterarbetsblad med 9 typer, tematiska bilder, automatiska facit och 2 frågeformat. Exportera tryckfärdiga PDF att sälja på Etsy, Amazon KDP och.',
   },
 
   hero: {

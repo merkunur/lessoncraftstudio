@@ -17,8 +17,8 @@ const content: StartContent = {
       'digital nedladdning företag tidsinvestering',
       'flera intäktsströmmar utskriftsbara produkter',
     ],
-    titleTag: 'Hur mycket kan man tjäna på att sälja utskriftsbara produkter?',
-    metaDescription: 'Hur mycket kan du tjäna på att sälja utskriftsbara produkter? Realistiska inkomstförväntningar, plattformsavgifter, prissättningsstrategier och variablerna som avgör.',
+    titleTag: 'Hur mycket kan man tjäna på att sälja utskriftsbara',
+    metaDescription: 'Hur mycket kan du tjäna på att sälja utskriftsbara produkter? Realistiska inkomstförväntningar, plattformsavgifter, prissättningsstrategier och variablerna som.',
   },
 
   hero: {

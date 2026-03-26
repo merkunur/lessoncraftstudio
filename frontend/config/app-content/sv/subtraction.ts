@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Subtraktions Arbetsblad Generator | Skapa och Sälj',
     metaDescription:
-      'Skapa subtraktionsarbetsblad att sälja på Etsy, KDP och Gumroad. 4 lägen med överstrykning, 104 teman, facit, gråskala, 400+ DPI. Gratis provversion med vattenstämpel.',
+      'Skapa subtraktionsarbetsblad att sälja på Etsy, KDP och Gumroad. 4 lägen med överstrykning, 104 teman, facit, gråskala, 400+ DPI. Gratis provversion med.',
   },
 
   hero: {

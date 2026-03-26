@@ -14,7 +14,7 @@ const content: ToolContent = {
       'ord avslöjande kodknäckning arbetsblad',
       'sifferkod matte aktivitet för användare',
     ],
-    titleTag: 'Kodknäckar Matte Skapare — Arbetsblad för Klass',
+    titleTag: 'Kodknäckar Matte Skapare — Arbetsblad för Klass — Säljguide',
     metaDescription: 'Skapa kodknäckande matte arbetsblad för produktlinjeskul. Bildchiffer pussel med addition, Ord Avslöjande-läge, 11 språk. Gratis provversion med vattenstämpel.',
   },
 

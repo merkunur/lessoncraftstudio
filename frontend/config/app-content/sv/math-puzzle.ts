@@ -14,9 +14,9 @@ const content: AppContent = {
       'utskrivbara pusselarbetsblad business',
       'kommersiellt bruk mattepussel generator',
     ],
-    titleTag: 'Mattepussel Generator | Skapa och Sälj Printables',
+    titleTag: 'Mattepussel Generator | Skapa och Sälj Printables | Online',
     metaDescription:
-      'Skapa mattepussel arbetsblad att sälja på Etsy, KDP och Gumroad. Bildpussel med addition och subtraktion, justerbara rutnät. Gratis provversion med vattenstämpel.',
+      'Skapa mattepussel arbetsblad att sälja på Etsy, KDP och Gumroad. Bildpussel med addition och subtraktion, justerbara rutnät. Gratis provversion med vattenstämpe',
   },
 
   hero: {

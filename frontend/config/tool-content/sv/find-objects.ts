@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatiskt facit röd cirkel annoteringsdolda objekt skapare',
     ],
     titleTag: 'Dolda Objekt Skapare — Dolda Objekt Arbetsblad Generator',
-    metaDescription: 'Skapa dolda objekt arbetsblad med Sökning och Hitta Udda Bilden-lägen, noll-överlappning scener, automatiska facit och 104 temabilder. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa dolda objekt arbetsblad med Sökning och Hitta Udda Bilden-lägen, noll-överlappning scener, automatiska facit och 104 temabilder. Gratis provversion med.',
   },
 
   hero: {

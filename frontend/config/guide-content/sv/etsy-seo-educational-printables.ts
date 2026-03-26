@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Stats söktermer rapport nyckelordsoptimering',
       'Etsy kategori attribut för pedagogiska digitala produkter',
     ],
-    titleTag: 'Etsy SEO pedagogiska Utskrifter — Guide',
+    titleTag: 'Etsy SEO pedagogiska Utskrifter — Guide | Guide för Säljare',
     metaDescription: 'Etsy SEO för pedagogiska utskrifter. Nyckelordsresearch, titeloptimering, alla 13 taggar, annonsbeskrivningar och rankningsfaktorer för utskriftssäljare.',
   },
 

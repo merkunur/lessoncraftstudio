@@ -17,8 +17,8 @@ const content: GuideContent = {
       'nischstackning multinischstrategi nischdjup produkt-marknads-passning',
       'nyckelordsefterfrågan sökvolym marknadstrender köparavsiktssignaler',
     ],
-    titleTag: 'Nischval för utskriftsbart företag — Guide',
-    metaDescription: 'Nischval för utskriftsbara företag: undersök efterfrågan, analysera konkurrens, utvärdera lönsamhet, validera innan du satsar och planera expansion.',
+    titleTag: 'Nischval för utskriftsbart företag — Guide — Online Verktyg',
+    metaDescription: 'Nischval för utskriftsbara företag: undersök efterfrågan, analysera konkurrens, utvärdera lönsamhet, validera innan du satsar och planera expansion. Prova.',
   },
 
   hero: {

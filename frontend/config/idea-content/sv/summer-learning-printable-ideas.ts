@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Sommarlärande utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck utskriftsbara idéer för sommarlärande att sälja på Etsy, Amazon KDP och Gumroad. Säsongsbetonade produktkoncept för föräldrar, lärare och sommaraktiviteter.',
+    metaDescription: 'Upptäck utskriftsbara idéer för sommarlärande att sälja på Etsy, Amazon KDP och Gumroad. Säsongsbetonade produktkoncept för föräldrar, lärare och sommaraktivite',
 
     primaryKeyword: 'sommarlärande utskriftsbara idéer',
     secondaryKeywords: [

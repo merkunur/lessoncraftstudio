@@ -17,8 +17,8 @@ const content: GuideContent = {
       'flerplattforms-försäljningsstrategi tvärplattforms utskriftsbart företag',
       'utskriftsbart arbetsblad aktivitetsbok målarbild pusselbok marknadsplats',
     ],
-    titleTag: 'KDP vs Etsy printables — Jämförelseguide',
-    metaDescription: 'KDP vs Etsy för printable-säljare. Jämför avgiftsstrukturer, produktformat, trafikmekanik och lär dig flerplattformsstrategier för dina printables.',
+    titleTag: 'KDP vs Etsy printables — Jämförelseguide | Guide för Säljare',
+    metaDescription: 'KDP vs Etsy för printable-säljare. Jämför avgiftsstrukturer, produktformat, trafikmekanik och lär dig flerplattformsstrategier för dina printables. Prova.',
   },
 
   hero: {

@@ -14,9 +14,9 @@ const content: AppContent = {
       'utskrivbara visuella mönstersekvens arbetsblad företag',
       'mönstertåg generator kommersiellt bruk',
     ],
-    titleTag: 'Mönstertåg Generator | Skapa Sekvensarbetsblad',
+    titleTag: 'Mönstertåg Generator | Skapa Sekvensarbetsblad — Säljguide',
     metaDescription:
-      'Skapa mönstertåg-arbetsblad att sälja på Etsy, KDP och Gumroad. Fem mönstertyper, 11 tematiska tågvagnar, justerbart antal ledtrådar. Gratis provversion med vattenstämpel.',
+      'Skapa mönstertåg-arbetsblad att sälja på Etsy, KDP och Gumroad. Fem mönstertyper, 11 tematiska tågvagnar, justerbart antal ledtrådar. Gratis provversion med.',
   },
 
   hero: {

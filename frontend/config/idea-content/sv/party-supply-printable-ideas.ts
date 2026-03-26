@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Festartiklar utskriftsbara affärsidéer att sälja — guide',
-    metaDescription: 'Utskriftsbara festartiklar-affärsidéer för Etsy-säljare. Skapa tematiska festpaket, födelsedagsspel, firande-arbetsblad och säsongsbetonade evenemang-utskriftsbara.',
+    metaDescription: 'Utskriftsbara festartiklar-affärsidéer för Etsy-säljare. Skapa tematiska festpaket, födelsedagsspel, firande-arbetsblad och säsongsbetonade evenemang-utskriftsb',
 
     primaryKeyword: 'utskriftsbara festartiklar',
     secondaryKeywords: [

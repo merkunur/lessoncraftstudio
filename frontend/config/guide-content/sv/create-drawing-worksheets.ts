@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP rit-aktivitetsböcker',
       'S/V konturarbetsblad verktyg',
     ],
-    titleTag: 'Ritning och symmetriarbetsblad — Guide',
-    metaDescription: 'Skapa ritnings- och symmetriarbetsblad med dubbelrutnätssystem, justerbar ledtrådsprocent, tre symmetrilägen och S/V-konturer. Sälj på Etsy och KDP.',
+    titleTag: 'Ritning och symmetriarbetsblad — Guide — Steg-för-Steg Guide',
+    metaDescription: 'Skapa ritnings- och symmetriarbetsblad med dubbelrutnätssystem, justerbar ledtrådsprocent, tre symmetrilägen och S/V-konturer. Sälj på Etsy och KDP. Prova.',
   },
 
   hero: {

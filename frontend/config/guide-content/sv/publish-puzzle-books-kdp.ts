@@ -17,8 +17,8 @@ const content: GuideContent = {
       'print-on-demand pusselkatalog serie volymnumrering',
       'pusselrutnät avstånd trimstorlek facit bakmaterial',
     ],
-    titleTag: 'Hur du publicerar pusselböcker KDP — Guide',
-    metaDescription: 'Hur du publicerar pusselböcker på KDP med ordsökning, korsord och sudoku. Täcker formatering, variationsböcker, seriestrategi och Amazon-annonsering.',
+    titleTag: 'Hur du publicerar pusselböcker KDP — Guide — Online Verktyg',
+    metaDescription: 'Hur du publicerar pusselböcker på KDP med ordsökning, korsord och sudoku. Täcker formatering, variationsböcker, seriestrategi och Amazon-annonsering. Prova.',
   },
 
   hero: {

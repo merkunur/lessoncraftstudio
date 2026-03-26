@@ -14,8 +14,8 @@ const content: ToolContent = {
       'gråskala målararbetsblad för utskrift',
       'frihandsritning målaraktivitet skapare',
     ],
-    titleTag: 'Anpassad Målarsida Skapare — Skapa Sidor Online',
-    metaDescription: 'Skapa anpassade målarsidor för ditt produktlinje eller hemma. Fri arbetsyta, mer än 3 100 illustrationer, 104 teman, frihandsritning, gråskaleexport. Gratis provversion med vattenstämpel.',
+    titleTag: 'Anpassad Målarsida Skapare — Skapa Sidor Online — Säljguide',
+    metaDescription: 'Skapa anpassade målarsidor för ditt produktlinje eller hemma. Fri arbetsyta, mer än 3 100 illustrationer, 104 teman, frihandsritning, gråskaleexport. Gratis.',
   },
 
   hero: {

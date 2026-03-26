@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sociala medier trafik Pinterest Instagram blogginnehåll SEO marknadsföring',
       'produktpaket medlemskap prenumerationer återkommande intäkt katalogskalning',
     ],
-    titleTag: 'Hur du säljer printables på Gumroad — Guide',
+    titleTag: 'Hur du säljer printables på Gumroad — Guide — Online Verktyg',
     metaDescription: 'Hur du säljer printables på Gumroad med noll månadsavgifter. Butiksuppstart, prisstrategier, e-postmarknadsföring och att bygga direkta kundrelationer.',
   },
 

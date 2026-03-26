@@ -15,7 +15,7 @@ const content: ToolContent = {
       'bildvariabel matteaktivitet generator',
     ],
     titleTag: 'Matte Arbetsblad Generator | Visuella Algebrapussel',
-    metaDescription: 'Generera algebra bildpussel där bilder representerar variabler i sammankopplade ekvationer. Fyra svårighetsnivåer, unika lösningar. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Generera algebra bildpussel där bilder representerar variabler i sammankopplade ekvationer. Fyra svårighetsnivåer, unika lösningar. Gratis provversion med.',
   },
 
   hero: {

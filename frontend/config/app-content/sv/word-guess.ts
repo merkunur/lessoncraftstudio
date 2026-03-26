@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gissa Ordet Generator | Skapa och Sälj Ordpussel Online',
     metaDescription:
-      'Skapa gissa ordet-arbetsblad att sälja på Etsy, KDP och Gumroad. Bildledtrådar, 4 svårighetsnivåer, 3 innehållskällor, 11 språk. Gratis provversion med vattenstämpel.',
+      'Skapa gissa ordet-arbetsblad att sälja på Etsy, KDP och Gumroad. Bildledtrådar, 4 svårighetsnivåer, 3 innehållskällor, 11 språk. Gratis provversion med.',
   },
 
   hero: {

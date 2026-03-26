@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk visuellt pussel generator',
       'utskrivbar pusselaktivitet affärsverktyg',
     ],
-    titleTag: 'Saknade Bitar Generator | Skapa Visuella Pussel',
+    titleTag: 'Saknade Bitar Generator | Skapa Visuella Pussel — Säljguide',
     metaDescription:
-      'Skapa saknade bitar-pussel att sälja på Etsy, KDP och Gumroad. 6 bitformer, konfigurerbar svårighet, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa saknade bitar-pussel att sälja på Etsy, KDP och Gumroad. 6 bitformer, konfigurerbar svårighet, automatiskt facit, 104 teman. Gratis provversion med.',
   },
 
   hero: {

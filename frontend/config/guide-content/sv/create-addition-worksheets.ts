@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP matte aktivitetsböcker',
       'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Skapa additionsarbetsblad — Steg-för-steg-guide',
+    titleTag: 'Skapa additionsarbetsblad — Steg-för-steg-guide — Säljguide',
     metaDescription: 'Hur du skapar additionsarbetsblad för barn. Steg-för-steg-guide: välj teman, ställ in svårighet, generera facit och exportera PDF att sälja på Etsy och KDP.',
   },
 

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'intäktsmultiplikation katalogeffekter organisk upptäckt pågående försäljning',
       'skalbar intäktsmodell arbetsblad inkomstströmmar multiplattformsintäkt',
     ],
-    titleTag: 'Återkommande intäkt arbetsblad — Inkomstguide',
-    metaDescription: 'Bygg återkommande arbetsbladsinkomst genom vintergröna kataloger, multiplattformsdistribution, språkexpansion och katalogackumuleringsstrategier.',
+    titleTag: 'Återkommande intäkt arbetsblad — Inkomstguide — Säljguide',
+    metaDescription: 'Bygg återkommande arbetsbladsinkomst genom vintergröna kataloger, multiplattformsdistribution, språkexpansion och katalogackumuleringsstrategier. Prova.',
   },
 
   hero: {

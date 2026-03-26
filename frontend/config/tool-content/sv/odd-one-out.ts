@@ -14,8 +14,8 @@ const content: ToolContent = {
       'per-övning lägesöverskridning hitta udda generator',
       'automatiskt facit röd cirkel udda objekt arbetsblad skapare',
     ],
-    titleTag: 'Hitta Udda Bilden Skapare — Arbetsblad Generator',
-    metaDescription: 'Skapa hitta udda bilden arbetsblad med Identiskt och Liknande läge, per-övning överskridningar, automatiska facit med röda cirklar. Gratis provversion med vattenstämpel.',
+    titleTag: 'Hitta Udda Bilden Skapare — Arbetsblad Generator — Säljguide',
+    metaDescription: 'Skapa hitta udda bilden arbetsblad med Identiskt och Liknande läge, per-övning överskridningar, automatiska facit med röda cirklar. Gratis provversion med.',
   },
 
   hero: {

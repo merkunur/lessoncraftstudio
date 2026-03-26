@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk matchnings arbetsblad generator',
       'utskrivbar matchningsaktivitet affärsverktyg',
     ],
-    titleTag: 'Matchnings Arbetsblad Generator | Skapa och Sälj',
+    titleTag: 'Matchnings Arbetsblad Generator | Skapa och Sälj — Säljguide',
     metaDescription:
-      'Skapa matchnings arbetsblad att sälja på Etsy, KDP och Gumroad. 4 matchningslägen, automatiskt facit, 104 teman, konfigurerbara par. Gratis provversion med vattenstämpel.',
+      'Skapa matchnings arbetsblad att sälja på Etsy, KDP och Gumroad. 4 matchningslägen, automatiskt facit, 104 teman, konfigurerbara par. Gratis provversion med.',
   },
 
   hero: {

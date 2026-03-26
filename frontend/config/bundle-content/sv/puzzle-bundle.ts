@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulkproduktion pusselarbetsblad verktyg',
     ],
     titleTag: 'Pusselarbetsblad Paket — 4 Logik- och Pusselgeneratorer',
-    metaDescription: 'Pusselarbetsblad paket med 4 generatorer: saknade bitar, hitta udda bilden, bildsudoku och labyrinter. Sälj på Etsy, KDP och Gumroad. Kommersiell licens inkluderad.',
+    metaDescription: 'Pusselarbetsblad paket med 4 generatorer: saknade bitar, hitta udda bilden, bildsudoku och labyrinter. Sälj på Etsy, KDP och Gumroad. Kommersiell licens.',
   },
 
   hero: {

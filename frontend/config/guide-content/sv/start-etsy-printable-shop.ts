@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy utskriftsbutik lanseringsstrategi första 30 dagarna tillväxtplan',
     ],
     titleTag: 'Hur du startar Etsy utskriftsbutik från grunden — Guide',
-    metaDescription: 'Lär dig hur du startar en Etsy utskriftsbutik från grunden med 33 generatorer. Butiksuppsättning, varumärke, annonsoptimering, prissättning, Etsy-avgifter och 30-dagars lansering.',
+    metaDescription: 'Lär dig hur du startar en Etsy utskriftsbutik från grunden med 33 generatorer. Butiksuppsättning, varumärke, annonsoptimering, prissättning, Etsy-avgifter och.',
   },
 
   hero: {

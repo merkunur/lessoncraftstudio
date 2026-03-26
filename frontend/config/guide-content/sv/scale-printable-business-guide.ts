@@ -18,7 +18,7 @@ const content: GuideContent = {
       'affärssystem repeterbara processer produktionspipeline innehållsmultiplikation',
     ],
     titleTag: 'Skala upp utskriftsbart företag — Tillväxtstrategi',
-    metaDescription: 'Hur du skalar upp ditt utskriftsbara företag med batchproduktion, multiplattformsexpansion, katalogtillväxt, flerspråkiga marknader och automatiseringsstrategier.',
+    metaDescription: 'Hur du skalar upp ditt utskriftsbara företag med batchproduktion, multiplattformsexpansion, katalogtillväxt, flerspråkiga marknader och automatiseringsstrategie',
   },
 
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'högtids säsongsbetonade målarbilder utskrift Etsy efterfrågan',
       'Etsy annonsfoton mockups för målarbild-produkter',
     ],
-    titleTag: 'Skapa Etsy Målarbilder som Säljer — Guide',
+    titleTag: 'Skapa Etsy Målarbilder som Säljer — Guide — Online Verktyg',
     metaDescription: 'Skapa Etsy målarbilder från 104 bildteman. Svartvit och gråskaleexport, annonsoptimering, prissättning för tematiska paket och säsongsbetonade säljstrategier.',
   },
 

@@ -14,7 +14,7 @@ const content: AppContent = {
       'mattepussel sälja online',
       'mattepussel arbetsbok generator',
     ],
-    titleTag: 'Kodaddition Generator | Mattepussel att Knäcka',
+    titleTag: 'Kodaddition Generator | Mattepussel att Knäcka — Säljguide',
     metaDescription:
       'Skapa kodadditions arbetsblad för Etsy, KDP och Gumroad. Avslöja Ord läge, 104 teman, 11 språk, facit, 400+ DPI. Gratis provversion med vattenstämpel.',
   },

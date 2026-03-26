@@ -17,7 +17,7 @@ const content: GuideContent = {
       'passiva intäkter utskriftskostnader förpackning produktkvalitetskontroll',
       'formatval affärsmodelljämförelse säljarstrategi tillväxtväg',
     ],
-    titleTag: 'Digitala kontra fysiska utskriftsbara — Guide',
+    titleTag: 'Digitala kontra fysiska utskriftsbara — Guide — Säljguide',
     metaDescription: 'Jämförelse digitala kontra fysiska utskriftsbara produkter för säljare. Vinstmarginaler, skalbarhet, leverans och val av rätt format för ditt företag.',
   },
 

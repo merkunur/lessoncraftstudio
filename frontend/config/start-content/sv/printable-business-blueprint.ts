@@ -17,7 +17,7 @@ const content: StartContent = {
       'produktlinjekartläggning för säljare',
       'lanseringschecklista utskriftsbart företag',
     ],
-    titleTag: 'Utskriftsbar affärsplan — Från idé till inkomst',
+    titleTag: 'Utskriftsbar affärsplan — Från idé till inkomst — Säljguide',
     metaDescription: 'Förvandla utskriftsbara affärsidéer till en strukturerad plan. Kartlägg din produktlinje, välj plattformar, sätt priser och lansera på Etsy och Amazon KDP.',
   },
 

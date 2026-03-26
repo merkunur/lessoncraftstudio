@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk rutnätspussel arbetsblad generator',
       'utskrivbar bildpussel affärsverktyg',
     ],
-    titleTag: 'Rutmatchning Pussel Generator | Skapa och Sälj',
+    titleTag: 'Rutmatchning Pussel Generator | Skapa och Sälj — Säljguide',
     metaDescription:
-      'Skapa rutmatchningspussel att sälja på Etsy, KDP och Gumroad. Konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa rutmatchningspussel att sälja på Etsy, KDP och Gumroad. Konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, automatiskt facit, 104 teman. Gratis.',
   },
 
   hero: {

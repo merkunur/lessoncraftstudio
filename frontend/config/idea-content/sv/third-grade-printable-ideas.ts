@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Årskurs 3 utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck utskriftsbara idéer för årskurs 3 att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot det avgörande akademiska året i årskurs 3.',
+    metaDescription: 'Upptäck utskriftsbara idéer för årskurs 3 att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot det avgörande akademiska.',
 
     primaryKeyword: 'årskurs 3 utskriftsbara idéer',
     secondaryKeywords: [

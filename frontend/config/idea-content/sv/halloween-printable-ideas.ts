@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Halloween utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Utforska halloween utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kusliga produktkoncept, säsongsstrategier och tips för säljare.',
+    metaDescription: 'Utforska halloween utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kusliga produktkoncept, säsongsstrategier och tips för säljare. Prova.',
 
     primaryKeyword: 'halloween utskriftsbara idéer',
     secondaryKeywords: [

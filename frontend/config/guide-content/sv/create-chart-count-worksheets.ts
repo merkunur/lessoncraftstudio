@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP datakompetens arbetsböcker med stapeldiagram',
       'kommersiell licens diagram räkning verktyg',
     ],
-    titleTag: 'Bilddiagram arbetsblad — Guide',
+    titleTag: 'Bilddiagram arbetsblad — Guide — Komplett Guide för Säljare',
     metaDescription: 'Skapa bilddiagram arbetsblad med 4×5 utspridda rutnät, automatiskt facit, slumpmässig bildfördelning och 104 teman. Steg-för-steg-guide för Etsy och KDP.',
   },
 

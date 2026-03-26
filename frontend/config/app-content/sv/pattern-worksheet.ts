@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Mönsterarbetsblad Generator | Skapa och Sälj Online',
     metaDescription:
-      'Skapa mönsterarbetsblad att sälja på Etsy, KDP och Gumroad. Nio mönstertyper, två frågelägen, övningsvis konfiguration, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa mönsterarbetsblad att sälja på Etsy, KDP och Gumroad. Nio mönstertyper, två frågelägen, övningsvis konfiguration, 104 teman. Gratis provversion med.',
   },
 
   hero: {

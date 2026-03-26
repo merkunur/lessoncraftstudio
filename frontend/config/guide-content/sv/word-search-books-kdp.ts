@@ -17,8 +17,8 @@ const content: GuideContent = {
       'ordsökningsbok serie volymer upprepade köp katalog',
       'vuxna barn ordsökning marknad målgrupp rutnätsformatering',
     ],
-    titleTag: 'Hur du skapar ordsökningsböcker KDP — Guide',
-    metaDescription: 'Skapa ordsökningsböcker KDP med tematiska ordlistor, storskriftsformat och seriestrategi. Rutnätsstorlek, målgruppsinriktning och Amazon-optimering.',
+    titleTag: 'Hur du skapar ordsökningsböcker KDP — Guide — Online Verktyg',
+    metaDescription: 'Skapa ordsökningsböcker KDP med tematiska ordlistor, storskriftsformat och seriestrategi. Rutnätsstorlek, målgruppsinriktning och Amazon-optimering. Prova.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Skräddarsydd arbetsblad-tjänst affärsidéer — guide',
-    metaDescription: 'Skräddarsydda arbetsblad-tjänstidéer för Etsy- och frilansförsäljare. Erbjud beställningstillverkade pedagogiska utskriftsbara produkter med premium per-order-prissättning.',
+    metaDescription: 'Skräddarsydda arbetsblad-tjänstidéer för Etsy- och frilansförsäljare. Erbjud beställningstillverkade pedagogiska utskriftsbara produkter med premium per-order-p',
 
     primaryKeyword: 'skräddarsydd arbetsblad-tjänst',
     secondaryKeywords: [

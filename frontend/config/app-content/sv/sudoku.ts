@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk bildpussel generator',
       'utskrivbar logikpussel affärsverktyg',
     ],
-    titleTag: 'Bildsudoku Generator | Skapa och Sälj Arbetsblad',
+    titleTag: 'Bildsudoku Generator | Skapa och Sälj Arbetsblad — Säljguide',
     metaDescription:
-      'Skapa bildsudoku arbetsblad att sälja på Etsy, KDP och Gumroad. 4×4 rutnät, tre svårighetsnivåer, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa bildsudoku arbetsblad att sälja på Etsy, KDP och Gumroad. 4×4 rutnät, tre svårighetsnivåer, automatiskt facit, 104 teman. Gratis provversion med.',
   },
 
   hero: {

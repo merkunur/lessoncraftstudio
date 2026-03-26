@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vinter utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Vinter utskriftsbara idéer att sälja — nischguide | Online',
     metaDescription: 'Upptäck vinter utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kallvädersproduktkoncept med stark november-februari-efterfrågan för arbetsblad.',
 
     primaryKeyword: 'vinter utskriftsbara idéer',

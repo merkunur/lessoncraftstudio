@@ -14,7 +14,7 @@ const content: ToolContent = {
       'kvantitetsjämförelse arbetsblad verktyg',
       'pricka och kryssa matte aktivitet generator',
     ],
-    titleTag: 'Större Än Mindre Än Arbetsblad | Sälj Online',
+    titleTag: 'Större Än Mindre Än Arbetsblad | Sälj Online — Säljguide',
     metaDescription: 'Skapa visuella större än, mindre än och lika med arbetsblad med bilder på sekunder. Tre lägen inklusive unikt Pricka och Kryssa. Sälj på Etsy, KDP och Gumroad.',
   },
 

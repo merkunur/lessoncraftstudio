@@ -15,7 +15,7 @@ const content: ToolContent = {
       'dagis matte utskriftsbara för säljare',
     ],
     titleTag: 'Additions Arbetsblad Skapare — Matteblad för Klass',
-    metaDescription: 'Skapa additions arbetsblad med tematiska bilder för ditt produktlinje. 104 teman, 4 övningslägen, facit, tryckfärdiga PDF:er. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Skapa additions arbetsblad med tematiska bilder för ditt produktlinje. 104 teman, 4 övningslägen, facit, tryckfärdiga PDF:er. Gratis provversion med vattenstämp',
   },
 
   hero: {

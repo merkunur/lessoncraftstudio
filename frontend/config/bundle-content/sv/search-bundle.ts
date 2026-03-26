@@ -15,7 +15,7 @@ const content: BundleContent = {
       'kommersiell licens upptäcktsarbetsblad',
       'bulkproduktion sök och hitta arbetsblad verktyg',
     ],
-    titleTag: 'Sök och Hitta Arbetsblad Paket — 4 Generatorer',
+    titleTag: 'Sök och Hitta Arbetsblad Paket — 4 Generatorer — Säljguide',
     metaDescription: 'Sök och hitta arbetsblad paket med 4 generatorer: I Spy, gömda objekt, korsord och skattjakter. Sälj på Etsy, KDP, Gumroad. Kommersiell licens inkluderad.',
   },
 

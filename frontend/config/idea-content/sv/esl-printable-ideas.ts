@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Svenska som andraspråk utskriftsbara idéer — nischguide',
-    metaDescription: 'Upptäck utskriftsbara idéer för svenska som andraspråk att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot SvA-lärare och språkelever.',
+    metaDescription: 'Upptäck utskriftsbara idéer för svenska som andraspråk att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot SvA-lärare och.',
 
     primaryKeyword: 'svenska som andraspråk utskriftsbara idéer',
     secondaryKeywords: [

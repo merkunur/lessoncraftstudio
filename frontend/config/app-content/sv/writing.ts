@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Skrivövning Generator | Skapa och Sälj Handstilsark',
     metaDescription:
-      'Skapa skrivövningsarbetsblad att sälja på Etsy, KDP och Gumroad. Tre övningslägen, fem typsnittsstilar, pilguidad streckordning, toningsövning. Gratis provversion med vattenstämpel.',
+      'Skapa skrivövningsarbetsblad att sälja på Etsy, KDP och Gumroad. Tre övningslägen, fem typsnittsstilar, pilguidad streckordning, toningsövning. Gratis.',
   },
 
   hero: {

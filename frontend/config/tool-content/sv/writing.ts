@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kursiv och tryckstil skrivövnings generator',
     ],
     titleTag: 'Skrivövningar Arbetsblad Generator | Skapa och Sälj',
-    metaDescription: 'Generera skrivövningar arbetsblad med tre övningslägen, fem typsnittsstilar, pilguidad streckordning, toningsguider, 104 teman. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Generera skrivövningar arbetsblad med tre övningslägen, fem typsnittsstilar, pilguidad streckordning, toningsguider, 104 teman. Gratis provversion med.',
   },
 
   hero: {

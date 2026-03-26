@@ -15,7 +15,7 @@ const content: ToolContent = {
       'flerspråkig stavningsaktivitet generator',
     ],
     titleTag: 'Gissa Ordet Arbetsblad Generator | Sälj Utskriftsbara',
-    metaDescription: 'Generera gissa ordet arbetsblad med 4 svårighetsnivåer, dubbla inmatningslägen, exkludera bokstäver, 11 språk och 104 teman. Gratis provversion med vattenstämpel.',
+    metaDescription: 'Generera gissa ordet arbetsblad med 4 svårighetsnivåer, dubbla inmatningslägen, exkludera bokstäver, 11 språk och 104 teman. Gratis provversion med vattenstämpe',
   },
 
   hero: {

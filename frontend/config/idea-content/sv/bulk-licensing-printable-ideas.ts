@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Volymlicensiering utskriftsbara affärsidéer — guide',
-    metaDescription: 'Volymlicensiering utskriftsbara affärsidéer för försäljning av arbetsbladssamlingar till skolor, kommuner och organisationer. Volymlicensieringsstrategier för säljare.',
+    metaDescription: 'Volymlicensiering utskriftsbara affärsidéer för försäljning av arbetsbladssamlingar till skolor, kommuner och organisationer. Volymlicensieringsstrategier för.',
 
     primaryKeyword: 'volymlicensiering utskriftsbara',
     secondaryKeywords: [

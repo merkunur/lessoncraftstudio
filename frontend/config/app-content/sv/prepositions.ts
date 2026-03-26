@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Prepositioner Arbetsblad Generator | Skapa Printables',
     metaDescription:
-      'Skapa prepositioner arbetsblad att sälja på Etsy, KDP och Gumroad. 8 rumsliga prepositioner, ifyllningsövningar och flerval. Gratis provversion med vattenstämpel.',
+      'Skapa prepositioner arbetsblad att sälja på Etsy, KDP och Gumroad. 8 rumsliga prepositioner, ifyllningsövningar och flerval. Gratis provversion med vattenstämpe',
   },
 
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP visuell perception arbetsböcker',
       'kommersiell licens skuggmatchning verktyg',
     ],
-    titleTag: 'Skuggmatchning arbetsblad — Guide',
+    titleTag: 'Skuggmatchning arbetsblad — Guide — Steg-för-Steg Guide',
     metaDescription: 'Skapa skuggmatchningsarbetsblad med två lägen: Skuggmatchning för silhuetter och Gör det helt för delade bilder. Steg-för-steg-guide för Etsy och KDP.',
   },
 

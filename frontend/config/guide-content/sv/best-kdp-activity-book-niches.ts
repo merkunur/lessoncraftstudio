@@ -17,8 +17,8 @@ const content: GuideContent = {
       'nischvalidering testtitel 90-dagars försäljning katalogstrategi',
       'tvärkategori hybrid tematisk aktivitetsbok undernisch',
     ],
-    titleTag: 'KDP aktivitetsbok nischer — Bästa valen guide',
-    metaDescription: 'Upptäck de bästa KDP aktivitetsbok-nischerna för publicerare. Täcker efterfrågeanalys, konkurrensutvärdering, underbetjänade kategorier och säsongsbetonad timing.',
+    titleTag: 'KDP aktivitetsbok nischer — Bästa valen guide — Säljguide',
+    metaDescription: 'Upptäck de bästa KDP aktivitetsbok-nischerna för publicerare. Täcker efterfrågeanalys, konkurrensutvärdering, underbetjänade kategorier och säsongsbetonad.',
   },
 
   hero: {

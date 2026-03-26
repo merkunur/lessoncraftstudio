@@ -17,8 +17,8 @@ const content: GuideContent = {
       'textlängdsvariation sammansatta ord kulturell anpassning arbetsbladslokalisering',
       'batchproduktion flerspråkig innehållsgenerering automatiserade översättningsverktyg ordförrådsdatabaser',
     ],
-    titleTag: 'Skapa arbetsblad på flera språk — Guide',
-    metaDescription: 'Hur du skapar arbetsblad på flera språk med produktionsarbetsflöden, teckenhantering, typsnittsval, kvalitetssäkring och listningsanpassning.',
+    titleTag: 'Skapa arbetsblad på flera språk — Guide | Guide för Säljare',
+    metaDescription: 'Hur du skapar arbetsblad på flera språk med produktionsarbetsflöden, teckenhantering, typsnittsval, kvalitetssäkring och listningsanpassning. Testa nu.',
   },
 
   hero: {

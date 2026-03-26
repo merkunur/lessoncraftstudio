@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sport utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Sport utskriftsbara idéer att sälja — nischguide — Säljguide',
     metaDescription: 'Upptäck sport utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Atletiktema produktkoncept, plattformsstrategier och tips för helårsförsäljning.',
 
     primaryKeyword: 'sport utskriftsbara idéer',

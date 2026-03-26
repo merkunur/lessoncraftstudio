@@ -17,8 +17,8 @@ const content: StartContent = {
       'internationellt utskriftsbart företag',
       'sälja arbetsblad på Etsy.de Etsy.fr',
     ],
-    titleTag: 'Flerspråkig arbetsbladsgenrator — 11 språk',
-    metaDescription: 'Skapa och sälj arbetsblad på 11 språk med en flerspråkig genrator. Nå tyska, franska och spanska köpare på Etsy, Amazon KDP och globala marknader.',
+    titleTag: 'Flerspråkig arbetsbladsgenrator — 11 språk — Kom Igång Guide',
+    metaDescription: 'Skapa och sälj arbetsblad på 11 språk med en flerspråkig genrator. Nå tyska, franska och spanska köpare på Etsy, Amazon KDP och globala marknader. Prova.',
   },
 
   hero: {

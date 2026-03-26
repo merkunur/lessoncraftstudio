@@ -14,7 +14,7 @@ const content: ToolContent = {
       'bildbaserad ordmix arbetsblad verktyg',
       'flerspråkig stavningspussel generator',
     ],
-    titleTag: 'Ordmix Arbetsblad Generator | Skapa och Sälj',
+    titleTag: 'Ordmix Arbetsblad Generator | Skapa och Sälj — Säljguide',
     metaDescription: 'Generera ordmix arbetsblad med blandade bokstavsbrickor, bildledtrådar, vokal-färgkodning, 4 svårighetsnivåer, 11 språk. Gratis provversion med vattenstämpel.',
   },
 

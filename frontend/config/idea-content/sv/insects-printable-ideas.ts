@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Insekter utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck insektstematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kryp- och fjärilskoncept, plattformsstrategier och nischtips för säljare.',
+    metaDescription: 'Upptäck insektstematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kryp- och fjärilskoncept, plattformsstrategier och nischtips för.',
 
     primaryKeyword: 'insekter utskriftsbara idéer',
     secondaryKeywords: [

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Prenumerationsbox utskriftsbara idéer att sälja — guide',
-    metaDescription: 'Utskriftsbara prenumerationsbox-idéer att sälja på Etsy, Gumroad och Patreon. Bygg återkommande intäkter med månatliga kurerade arbetsbladspaket och tematiska paket.',
+    metaDescription: 'Utskriftsbara prenumerationsbox-idéer att sälja på Etsy, Gumroad och Patreon. Bygg återkommande intäkter med månatliga kurerade arbetsbladspaket och tematiska.',
 
     primaryKeyword: 'prenumerationsbox utskriftsbara idéer',
     secondaryKeywords: [

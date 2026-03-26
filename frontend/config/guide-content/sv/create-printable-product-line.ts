@@ -18,7 +18,7 @@ const content: GuideContent = {
       'visuell identitet produkthierarki kompletterande produkter produktekosystem linjesammanhållning',
     ],
     titleTag: 'Hur du skapar en utskriftsbar produktlinje — Guide',
-    metaDescription: 'Lär dig skapa en utskriftsbar produktlinje med konsekvent varumärke, strategisk produktsekvensering och systematisk expansion för att bygga en sammanhängande katalog.',
+    metaDescription: 'Lär dig skapa en utskriftsbar produktlinje med konsekvent varumärke, strategisk produktsekvensering och systematisk expansion för att bygga en sammanhängande.',
   },
 
   hero: {

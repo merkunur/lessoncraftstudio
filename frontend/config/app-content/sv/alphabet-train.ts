@@ -14,7 +14,7 @@ const content: AppContent = {
       'utskrivbara alfabet arbetsblad business',
       'kommersiellt bruk alfabetståg generator',
     ],
-    titleTag: 'Alfabetståg Generator | Skapa Språk-Printables',
+    titleTag: 'Alfabetståg Generator | Skapa Språk-Printables — Säljguide',
     metaDescription:
       'Skapa alfabetståg arbetsblad att sälja på Etsy, KDP och Gumroad. Tågvagn bokstav-bild koppling i 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
   },

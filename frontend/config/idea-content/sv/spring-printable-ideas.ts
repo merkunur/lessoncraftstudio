@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vår utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck vår utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Säsongsproduktkoncept, mars-maj-strategier och plattformstips för säljare.',
+    titleTag: 'Vår utskriftsbara idéer att sälja — nischguide — Säljguide',
+    metaDescription: 'Upptäck vår utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Säsongsproduktkoncept, mars-maj-strategier och plattformstips för säljare. Prova.',
 
     primaryKeyword: 'vår utskriftsbara idéer',
     secondaryKeywords: [

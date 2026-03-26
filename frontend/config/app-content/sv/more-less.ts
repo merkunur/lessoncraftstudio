@@ -14,7 +14,7 @@ const content: AppContent = {
       'utskrivbara talförståelse arbetsblad business',
       'kommersiellt bruk jämförelsegenerator',
     ],
-    titleTag: 'Mer eller Mindre Generator | Jämförelsearbetsblad',
+    titleTag: 'Mer eller Mindre Generator | Jämförelsearbetsblad | Online',
     metaDescription:
       'Skapa jämförelsearbetsblad att sälja på Etsy, KDP och Gumroad. 3 jämförelselägen, 104 teman, facit, 400+ DPI export. Gratis provversion med vattenstämpel.',
   },

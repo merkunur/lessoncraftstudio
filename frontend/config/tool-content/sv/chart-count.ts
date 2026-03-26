@@ -14,7 +14,7 @@ const content: ToolContent = {
       'autofacit bilddiagram skapare',
       'datarepresentation arbetsblad online',
     ],
-    titleTag: 'Bilddiagram Arbetsblad Skapare — online',
+    titleTag: 'Bilddiagram Arbetsblad Skapare — online | Online Verktyg',
     metaDescription: 'Skapa bilddiagram arbetsblad onlines matte. Spridda 4×5 rutnät, 6 bildtyper, automatiska facit, 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
   },
 

@@ -17,8 +17,8 @@ const content: StartContent = {
       'arbetsbladsgenrator licensnivåer',
       'kommersiell kontra personlig användning utskriftsbara',
     ],
-    titleTag: 'Kommersiell licens för utskriftsbara arbetsblad — guide för säljare',
-    metaDescription: 'Förstå kommersiella licenser för att sälja arbetsblad på Etsy, Amazon KDP och andra plattformar. Två licensnivåer förklarade med tydliga rättigheter och villkor.',
+    titleTag: 'Kommersiell licens för utskriftsbara arbetsblad — guide för',
+    metaDescription: 'Förstå kommersiella licenser för att sälja arbetsblad på Etsy, Amazon KDP och andra plattformar. Två licensnivåer förklarade med tydliga rättigheter och.',
   },
 
   hero: {

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP klassificeringsarbetsböcker',
       'kommersiell licens sorteringsverktyg',
     ],
-    titleTag: 'Kategorisorterings-arbetsblad — Guide',
-    metaDescription: 'Skapa sorteringsarbetsblad med tvåkategori temaläge, 4–12 bilder, blandat utklippsrutnät och automatiska facit. Steg-för-steg-guide för Etsy och KDP.',
+    titleTag: 'Kategorisorterings-arbetsblad — Guide — Steg-för-Steg Guide',
+    metaDescription: 'Skapa sorteringsarbetsblad med tvåkategori temaläge, 4–12 bilder, blandat utklippsrutnät och automatiska facit. Steg-för-steg-guide för Etsy och KDP. Prova.',
   },
 
   hero: {

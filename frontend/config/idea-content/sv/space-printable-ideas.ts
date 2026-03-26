@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Rymden utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Rymden utskriftsbara idéer att sälja — nischguide | Online',
     metaDescription: 'Upptäck rymden utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Rymdtema produktkoncept, STEM-strategier och plattformstips för säljare.',
 
     primaryKeyword: 'rymden utskriftsbara idéer',

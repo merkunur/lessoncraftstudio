@@ -17,8 +17,8 @@ const content: GuideContent = {
       'paketförpackning mockup förhandsgranskning varumärke filorganisering namnkonventioner',
       'multiplattformspaketlistningar universell strategi plattformsoberoende försäljning',
     ],
-    titleTag: 'Skapa arbetsbladpaket som säljer — Guide',
-    metaDescription: 'Hur du skapar arbetsbladpaket som säljer på alla plattformar. Pakettyper, prissättningspsykologi, värdestackning och professionell förpackning för högre intäkter.',
+    titleTag: 'Skapa arbetsbladpaket som säljer — Guide | Guide för Säljare',
+    metaDescription: 'Hur du skapar arbetsbladpaket som säljer på alla plattformar. Pakettyper, prissättningspsykologi, värdestackning och professionell förpackning för högre.',
   },
 
   hero: {

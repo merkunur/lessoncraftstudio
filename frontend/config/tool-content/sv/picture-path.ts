@@ -14,7 +14,7 @@ const content: ToolContent = {
       'LPF longest path first algoritm väggbaserad labyrint skapare',
       'automatiskt facit rosa cirkel lösningsväg labyrint generator',
     ],
-    titleTag: 'Bildväg Skapare — Labyrint Arbetsblad Generator',
+    titleTag: 'Bildväg Skapare — Labyrint Arbetsblad Generator — Säljguide',
     metaDescription: 'Skapa labyrintarbetsblad med Bildväg, Klassisk Labyrint och Välj Rätt Väg-lägen, samlingsbilder och automatiska facit. Gratis provversion med vattenstämpel.',
   },
 

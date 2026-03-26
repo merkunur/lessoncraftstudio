@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Mattegrunder utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck utskriftsbara idéer för mattegrunder att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot lärare och föräldrar som behöver övning.',
+    metaDescription: 'Upptäck utskriftsbara idéer för mattegrunder att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot lärare och föräldrar som.',
 
     primaryKeyword: 'mattegrunder utskriftsbara idéer',
     secondaryKeywords: [

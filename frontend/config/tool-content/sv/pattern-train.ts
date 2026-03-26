@@ -14,8 +14,8 @@ const content: ToolContent = {
       'textfri tågvagn mönster arbetsblad verktyg',
       'AB ABC mönstersekvens arbetsblad skapare',
     ],
-    titleTag: 'Mönster Arbetsblad Generator — Tågskapare | Sälj',
-    metaDescription: 'Generera mönstertåg arbetsblad med fem mönstertyper, 11 tematiska tågvagnar, justerbart ledtrådsantal och automatiska facit. Gratis provversion med vattenstämpel.',
+    titleTag: 'Mönster Arbetsblad Generator — Tågskapare | Sälj — Säljguide',
+    metaDescription: 'Generera mönstertåg arbetsblad med fem mönstertyper, 11 tematiska tågvagnar, justerbart ledtrådsantal och automatiska facit. Gratis provversion med vattenstämpe',
   },
 
   hero: {

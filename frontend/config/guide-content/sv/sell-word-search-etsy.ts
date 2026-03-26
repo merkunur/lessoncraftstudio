@@ -17,7 +17,7 @@ const content: GuideContent = {
       'högtidstema ordsökning utskrift Etsy säsongsstrategi',
       'Etsy annonsfoton mockups för ordsökningspussel produkter',
     ],
-    titleTag: 'Sälj Ordsökningspussel på Etsy — Guide',
+    titleTag: 'Sälj Ordsökningspussel på Etsy — Guide — Steg-för-Steg Guide',
     metaDescription: 'Sälj ordsökningspussel på Etsy med 4 pusselgeneratorer. Etsy SEO, annonsoptimering, prissättning, paketering med korsord och ordmix, och säsongstajming.',
   },
 

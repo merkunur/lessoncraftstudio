@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk dolda objekt arbetsblad generator',
       'utskrivbar räkningsaktivitet affärsverktyg',
     ],
-    titleTag: 'Hitta och Räkna Generator | Skapa Sökarbetsblad',
+    titleTag: 'Hitta och Räkna Generator | Skapa Sökarbetsblad — Säljguide',
     metaDescription:
-      'Skapa hitta och räkna arbetsblad att sälja på Etsy, KDP och Gumroad. 4 uppgiftstyper, Bokstavsletning, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa hitta och räkna arbetsblad att sälja på Etsy, KDP och Gumroad. 4 uppgiftstyper, Bokstavsletning, automatiskt facit, 104 teman. Gratis provversion med.',
   },
 
   hero: {

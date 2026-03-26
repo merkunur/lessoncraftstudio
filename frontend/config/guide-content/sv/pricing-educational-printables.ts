@@ -17,8 +17,8 @@ const content: GuideContent = {
       'säsongsprissättning prisjustering marknadsundersökning köparens betalningsvilja prissättningsmodell',
       'prissättningsramverk prispositionering underprissättning överprissättning hållbar prissättning',
     ],
-    titleTag: 'Prissättningsstrategier för pedagogiska utskriftsbara produkter — Guide',
-    metaDescription: 'Beprövade prissättningsstrategier för pedagogiska utskriftsbara produkter. Täcker prispsykologi, konkurrensanalys, plattformsavgifter, vinstmarginaler och pristestning.',
+    titleTag: 'Prissättningsstrategier för pedagogiska utskriftsbara',
+    metaDescription: 'Beprövade prissättningsstrategier för pedagogiska utskriftsbara produkter. Täcker prispsykologi, konkurrensanalys, plattformsavgifter, vinstmarginaler och.',
   },
 
   hero: {

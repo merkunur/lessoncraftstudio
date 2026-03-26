@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Musik utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck musik utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Instrumenttema produktkoncept, plattformsstrategier och nischstrategier för säljare.',
+    titleTag: 'Musik utskriftsbara idéer att sälja — nischguide — Säljguide',
+    metaDescription: 'Upptäck musik utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Instrumenttema produktkoncept, plattformsstrategier och nischstrategier för.',
 
     primaryKeyword: 'musik utskriftsbara idéer',
     secondaryKeywords: [

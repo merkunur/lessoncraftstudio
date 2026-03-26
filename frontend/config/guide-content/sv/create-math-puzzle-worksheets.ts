@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommersiell licens pussel-skapare',
     ],
     titleTag: 'Skapa mattepussel arbetsblad — Steg-för-steg-guide',
-    metaDescription: 'Hur du skapar mattepussel där barn löser ekvationer för att återställa bilder. Rutnätsstorlekar, operationer, facit och tips för att sälja på Etsy.',
+    metaDescription: 'Hur du skapar mattepussel där barn löser ekvationer för att återställa bilder. Rutnätsstorlekar, operationer, facit och tips för att sälja på Etsy. Prova.',
   },
 
   hero: {

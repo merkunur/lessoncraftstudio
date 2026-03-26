@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Förskola utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck förskola utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Förskoleproduktskoncept och nischstrategier för säljare av utskriftsbara produkter.',
+    metaDescription: 'Upptäck förskola utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Förskoleproduktskoncept och nischstrategier för säljare av utskriftsbara.',
 
     primaryKeyword: 'förskola utskriftsbara idéer',
     secondaryKeywords: [

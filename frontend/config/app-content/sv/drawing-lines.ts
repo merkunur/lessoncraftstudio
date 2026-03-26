@@ -14,9 +14,9 @@ const content: AppContent = {
       'utskrivbara finmotoriska arbetsblad företag',
       'rita linjer generator kommersiellt bruk',
     ],
-    titleTag: 'Rita Linjer Generator | Skapa Spårningsarbetsblad',
+    titleTag: 'Rita Linjer Generator | Skapa Spårningsarbetsblad | Online',
     metaDescription:
-      'Skapa linjespårningsarbetsblad att sälja på Etsy, KDP och Gumroad. Åtta SVG-mallar, bildparmatchning, 104 tematiska samlingar. Gratis provversion med vattenstämpel.',
+      'Skapa linjespårningsarbetsblad att sälja på Etsy, KDP och Gumroad. Åtta SVG-mallar, bildparmatchning, 104 tematiska samlingar. Gratis provversion med.',
   },
 
   hero: {

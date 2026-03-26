@@ -14,9 +14,9 @@ const content: AppContent = {
       'kommersiellt bruk riktningsarbetsblad generator',
       'utskrivbar vägfinnande pussel affärsverktyg',
     ],
-    titleTag: 'Skattjakt Generator | Skapa Vägarbetsblad',
+    titleTag: 'Skattjakt Generator | Skapa Vägarbetsblad — Skapa och Sälj',
     metaDescription:
-      'Skapa skattjakt arbetsblad att sälja på Etsy, KDP och Gumroad. 5×5 koordinatrutnät, två riktningstyper, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa skattjakt arbetsblad att sälja på Etsy, KDP och Gumroad. 5×5 koordinatrutnät, två riktningstyper, automatiskt facit, 104 teman. Gratis provversion med.',
   },
 
   hero: {

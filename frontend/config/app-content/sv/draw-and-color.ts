@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Rutritning Generator | Skapa Rutnätskonst Arbetsblad',
     metaDescription:
-      'Skapa rutnätsritningsarbetsblad att sälja på Etsy, KDP och Gumroad. Dubbelt rutnätssystem, justerbar ledtrådsprocent, symmetrilägen. Gratis provversion med vattenstämpel.',
+      'Skapa rutnätsritningsarbetsblad att sälja på Etsy, KDP och Gumroad. Dubbelt rutnätssystem, justerbar ledtrådsprocent, symmetrilägen. Gratis provversion med.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: StartContent = {
       'Etsy prissättningsstrategi utskriftsbara',
     ],
     titleTag: 'Sälj utskriftsbara produkter på Etsy — Mästarklass',
-    metaDescription: 'Så säljer du utskriftsbara produkter på Etsy steg för steg. Butiksuppställning, Etsy SEO, listningsoptimering, prissättning och skalning med arbetsbladsgenratorer.',
+    metaDescription: 'Så säljer du utskriftsbara produkter på Etsy steg för steg. Butiksuppställning, Etsy SEO, listningsoptimering, prissättning och skalning med arbetsbladsgenrator',
   },
 
   hero: {

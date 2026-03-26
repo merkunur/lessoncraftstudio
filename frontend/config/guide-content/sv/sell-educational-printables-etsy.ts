@@ -17,7 +17,7 @@ const content: GuideContent = {
       'korskategori pedagogisk utskrift paketerings Etsy-strategi',
       'Etsy annonsfoton mockups för pedagogiska utskriftsprodukter',
     ],
-    titleTag: 'Sälj pedagogiska Utskrifter på Etsy — Guide',
+    titleTag: 'Sälj pedagogiska Utskrifter på Etsy — Guide — Online Verktyg',
     metaDescription: 'Sälj pedagogiska utskrifter på Etsy med 33 generatorer över 6 kategorier. Butiksstrategi, Etsy SEO, korskategori-paketering och prissättning för säljare.',
   },
 

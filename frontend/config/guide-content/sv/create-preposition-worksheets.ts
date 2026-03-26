@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP rumsligt språk aktivitetsböcker',
       'kommersiell licens prepositionsarbetsblad verktyg',
     ],
-    titleTag: 'Prepositionsarbetsblad — Guide',
-    metaDescription: 'Skapa prepositionsarbetsblad med två övningslägen, formersättning för scenvariation, 7-prepositions kryssruta och inhemska lägesord på 11 språk.',
+    titleTag: 'Prepositionsarbetsblad — Guide — Komplett Guide för Säljare',
+    metaDescription: 'Skapa prepositionsarbetsblad med två övningslägen, formersättning för scenvariation, 7-prepositions kryssruta och inhemska lägesord på 11 språk. Prova.',
   },
 
   hero: {

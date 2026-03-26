@@ -14,8 +14,8 @@ const content: ToolContent = {
       'lokalmedveten ordsökning arbetsblad verktyg',
       'flerspråkig ordsökning pussel generator',
     ],
-    titleTag: 'Ordsökning Arbetsblad Generator | Skapa och Sälj Rutnätspussel',
-    metaDescription: 'Generera ordsökning arbetsblad med justerbara rutnät från 5×5 till 30×30, riktningskontroller, lokalmedvetna fyllnadsbokstäver, 11 språk. Gratis provversion med vattenstämpel.',
+    titleTag: 'Ordsökning Arbetsblad Generator | Skapa och Sälj Rutnätspuss',
+    metaDescription: 'Generera ordsökning arbetsblad med justerbara rutnät från 5×5 till 30×30, riktningskontroller, lokalmedvetna fyllnadsbokstäver, 11 språk. Gratis provversion.',
   },
 
   hero: {

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP matchnings-aktivitetsböcker',
       'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Skapa matchningsarbetsblad för förskola — Guide',
-    metaDescription: 'Hur du skapar matchningsarbetsblad för förskola. Använd 4 lägen, tematiska bilder, automatiska facit med kopplingslinjer och exportera PDF att sälja på Etsy och KDP.',
+    titleTag: 'Skapa matchningsarbetsblad för förskola — Guide — Säljguide',
+    metaDescription: 'Hur du skapar matchningsarbetsblad för förskola. Använd 4 lägen, tematiska bilder, automatiska facit med kopplingslinjer och exportera PDF att sälja på Etsy.',
   },
 
   hero: {

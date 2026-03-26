@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Specialpedagogik utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck utskriftsbara idéer för specialpedagogik att sälja på Etsy, KDP och Gumroad. Produktkoncept för säljare som riktar sig mot specialpedagoger och föräldrar.',
+    metaDescription: 'Upptäck utskriftsbara idéer för specialpedagogik att sälja på Etsy, KDP och Gumroad. Produktkoncept för säljare som riktar sig mot specialpedagoger och.',
 
     primaryKeyword: 'specialpedagogik utskriftsbara idéer',
     secondaryKeywords: [

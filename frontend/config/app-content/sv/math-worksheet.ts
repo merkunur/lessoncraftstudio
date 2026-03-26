@@ -14,9 +14,9 @@ const content: AppContent = {
       'utskrivbara ekvationspussel business',
       'kommersiellt bruk algebraisk arbetsblad generator',
     ],
-    titleTag: 'Algebrapussel Generator | Mattearbetsblad Skapare',
+    titleTag: 'Algebrapussel Generator | Mattearbetsblad Skapare | Online',
     metaDescription:
-      'Skapa algebrapussel arbetsblad att sälja på Etsy, KDP och Gumroad. Bilder som variabler, 4 svårighetsnivåer, unika lösningar. Gratis provversion med vattenstämpel.',
+      'Skapa algebrapussel arbetsblad att sälja på Etsy, KDP och Gumroad. Bilder som variabler, 4 svårighetsnivåer, unika lösningar. Gratis provversion med vattenstämp',
   },
 
   hero: {

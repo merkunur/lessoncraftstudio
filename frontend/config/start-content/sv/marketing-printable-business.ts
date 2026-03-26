@@ -18,7 +18,7 @@ const content: StartContent = {
       'innehållsmarknadsföring för utskriftsbara företagare',
     ],
     titleTag: 'Marknadsför utskriftsbara arbetsblad — guide för säljare',
-    metaDescription: 'Marknadsför utskriftsbara arbetsblad online: plattforms-SEO, Pinterest-strategi, e-postmarknadsföring, säsongsplanering och varumärkesbyggande för utskriftsbara företag.',
+    metaDescription: 'Marknadsför utskriftsbara arbetsblad online: plattforms-SEO, Pinterest-strategi, e-postmarknadsföring, säsongsplanering och varumärkesbyggande för utskriftsbara',
   },
 
   hero: {

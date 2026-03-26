@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy ordsökningspussel utskriftsbart',
       'kommersiell licens pusselverktyg',
     ],
-    titleTag: 'Skapa ordsökningspussel — Steg-för-steg-guide',
+    titleTag: 'Skapa ordsökningspussel — Steg-för-steg-guide — Säljguide',
     metaDescription: 'Hur du skapar ordsökningspussel med bildledtrådar. Välj teman, ställ in rutnätsstorlek, konfigurera sökriktningar, generera facit och sälj på Etsy och KDP.',
   },
 

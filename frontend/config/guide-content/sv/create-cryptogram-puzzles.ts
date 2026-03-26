@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP bildchiffer pusselböcker',
       'kommersiell licens kryptogram arbetsblad verktyg',
     ],
-    titleTag: 'Kryptogrampussel — Guide',
+    titleTag: 'Kryptogrampussel — Guide — Komplett Guide för Säljare',
     metaDescription: 'Skapa kryptogrampussel med bildchifferkodning, justerbar svårighet, automatiskt tilldelningsläge och språkmedvetna alfabet. Guide för Etsy- och KDP-säljare.',
   },
 

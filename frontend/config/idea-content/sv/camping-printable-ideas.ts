@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Camping utskriftsbara idéer att sälja — nischguide',
-    metaDescription: 'Upptäck campingtematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Friluftsinspirerade produktkoncept, plattformsstrategier och nischtips för säljare.',
+    metaDescription: 'Upptäck campingtematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Friluftsinspirerade produktkoncept, plattformsstrategier och.',
 
     primaryKeyword: 'camping utskriftsbara idéer',
     secondaryKeywords: [

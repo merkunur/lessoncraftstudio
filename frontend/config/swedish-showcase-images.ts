@@ -178,8 +178,15 @@ export const swedishImages: Record<string, SwedishImageSet> = {
   },
   'pattern-train': {
     folder: 'pattern train',
-    imgs: [],
-    answerKey: '',
+    imgs: [
+      'pattern_train_worksheet.webp',
+      'pattern_train_worksheet (1).webp',
+      'pattern_train_worksheet (2).webp',
+      'pattern_train_worksheet (3).webp',
+      'pattern_train_worksheet (4).webp',
+      'pattern_train_worksheet (5).webp',
+    ],
+    answerKey: 'pattern_train_answer_key.webp',
   },
   'pattern-worksheet': {
     folder: 'pattern worksheet',

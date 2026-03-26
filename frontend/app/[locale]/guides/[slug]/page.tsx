@@ -288,7 +288,7 @@ export default async function GuidePage({
           <section className="py-10 md:py-14">
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">{getSectionLabel('introduction', locale)}</h2>
-              <ReadMoreText text={content.introduction} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace />
+              <ReadMoreText text={content.introduction} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace lines={12} />
             </div>
           </section>
         )}
@@ -319,7 +319,7 @@ export default async function GuidePage({
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-gray-900 mb-2">{step.heading}</h3>
-                      <ReadMoreText text={step.content} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace />
+                      <ReadMoreText text={step.content} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace lines={10} />
                     </div>
                   </div>
                 ))}

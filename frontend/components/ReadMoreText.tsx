@@ -7,7 +7,7 @@ export default function ReadMoreText({
   text,
   locale,
   className = '',
-  lines = 3,
+  lines = 8,
   preserveWhitespace = false,
 }: {
   text: string;

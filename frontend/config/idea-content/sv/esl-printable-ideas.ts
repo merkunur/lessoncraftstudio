@@ -187,12 +187,12 @@ Konkurrenslandskapet inom andraspråk utskriftsbara produkter gynnar specialiste
   ],
 
   themeImages: [
-    { src: '/image-library/product line/backpack.webp', alt: 'Ryggsäck — tematisk pedagogisk bild', caption: 'Ryggsäck' },
-    { src: '/image-library/product line/binder.webp', alt: 'Pärm — tematisk pedagogisk bild', caption: 'Pärm' },
-    { src: '/image-library/product line/book.webp', alt: 'Bok — tematisk pedagogisk bild', caption: 'Bok' },
-    { src: '/image-library/product line/cabinet.webp', alt: 'Skåp — tematisk pedagogisk bild', caption: 'Skåp' },
-    { src: '/image-library/product line/calculator.webp', alt: 'Miniräknare — tematisk pedagogisk bild', caption: 'Miniräknare' },
-    { src: '/image-library/product line/calender.webp', alt: 'Kalender — tematisk pedagogisk bild', caption: 'Kalender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Ryggsäck — tematisk pedagogisk bild', caption: 'Ryggsäck' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Pärm — tematisk pedagogisk bild', caption: 'Pärm' },
+    { src: '/image-library/classroom/book.webp', alt: 'Bok — tematisk pedagogisk bild', caption: 'Bok' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Skåp — tematisk pedagogisk bild', caption: 'Skåp' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Miniräknare — tematisk pedagogisk bild', caption: 'Miniräknare' },
+    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — tematisk pedagogisk bild', caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

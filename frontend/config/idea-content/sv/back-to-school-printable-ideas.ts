@@ -197,12 +197,12 @@ Från ett nyckelordsperspektiv delar sig sökningar efter skolstartutskrifter i 
   ],
 
   themeImages: [
-    { src: '/image-library/product line/backpack.webp', alt: 'Ryggsäck — tematiserad pedagogisk bild', caption: 'Ryggsäck' },
-    { src: '/image-library/product line/binder.webp', alt: 'Pärm — tematiserad pedagogisk bild', caption: 'Pärm' },
-    { src: '/image-library/product line/book.webp', alt: 'Bok — tematiserad pedagogisk bild', caption: 'Bok' },
-    { src: '/image-library/product line/cabinet.webp', alt: 'Skåp — tematiserad pedagogisk bild', caption: 'Skåp' },
-    { src: '/image-library/product line/calculator.webp', alt: 'Miniräknare — tematiserad pedagogisk bild', caption: 'Miniräknare' },
-    { src: '/image-library/product line/calender.webp', alt: 'Kalender — tematiserad pedagogisk bild', caption: 'Kalender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Ryggsäck — tematiserad pedagogisk bild', caption: 'Ryggsäck' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Pärm — tematiserad pedagogisk bild', caption: 'Pärm' },
+    { src: '/image-library/classroom/book.webp', alt: 'Bok — tematiserad pedagogisk bild', caption: 'Bok' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Skåp — tematiserad pedagogisk bild', caption: 'Skåp' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Miniräknare — tematiserad pedagogisk bild', caption: 'Miniräknare' },
+    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — tematiserad pedagogisk bild', caption: 'Kalender' },
   ],
 
 

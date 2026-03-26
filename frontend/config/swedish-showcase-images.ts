@@ -128,7 +128,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
     ],
     answerKey: "Ordmix portrait answer-key.webp",
   },
-  'word-search': {
+  wordsearch: {
     folder: 'wordsearch',
     imgs: [
       'ordletning portrait.webp',

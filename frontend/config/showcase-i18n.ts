@@ -3989,6 +3989,9 @@ const svStringTable: Record<string, string> = {
   'Multiple Sizes': 'Flera storlekar',
   'Multiple Levels': 'Flera nivåer',
   'Full Access': 'Full Tillgång',
+  'Image & Word Modes': 'Bild- & Ordlägen',
+  'Image & Word Cards': 'Bild- & Ordkort',
+  'Callout Sheets': 'Uppropskort',
 };
 
 // Total entries: 405

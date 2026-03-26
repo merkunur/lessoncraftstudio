@@ -1025,6 +1025,8 @@ function buildConfig(
         ? ['Pronto per la stampa', 'Qualità professionale', 'Formati multipli', 'Chiavi di risposta']
         : isNl
         ? ['Printklaar', 'Professionele kwaliteit', 'Meerdere formaten', 'Antwoordsleutels']
+        : isSv
+        ? ['Utskriftsredo', 'Professionell kvalitet', 'Flera format', 'Facit']
         : ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
       frameColor: d1.frameColor,
     },

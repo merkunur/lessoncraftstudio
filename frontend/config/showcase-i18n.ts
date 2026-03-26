@@ -3982,7 +3982,6 @@ const svStringTable: Record<string, string> = {
   'Fun for All!': 'Kul för alla!',
   'Learning should feel like play': 'Lärande ska kännas som lek',
   'Cut & Paste Ready': 'Klipp & Klistra redo',
-  'Cut & Paste': 'Klipp & Klistra',
   'No Prep Needed': 'Ingen förberedelse behövs',
   'Variety Included': 'Variation inkluderad',
   'Themed Sets': 'Temauppsättningar',

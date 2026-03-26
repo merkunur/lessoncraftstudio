@@ -3772,7 +3772,7 @@ function localizeShowcase(
 ): ShowcaseConfig | null {
   const gi = images[appId];
   const dt = appText[appId];
-  if (!gi || !dt) return null;
+  if (!gi || !dt || !gi.imgs.length) return null;
 
   const [heroH, heroSub, tieredH, tieredSub, t1, t2, t3, trophy, spotH, spotTag, galH, galSub] = dt;
   const di = (filename: string) => imgUrl(gi.folder, filename, locale);
@@ -3838,6 +3838,6 @@ export function getLocalizedShowcaseConfig(appId: string, locale: string): Showc
   if (locale === 'pt') return localizeShowcase(enConfig, appId, portugueseImages, ptAppText, 'pt');
   if (locale === 'it') return localizeShowcase(enConfig, appId, italianImages, itAppText, 'it');
   if (locale === 'nl') return localizeShowcase(enConfig, appId, dutchImages, nlAppText, 'nl');
-  if (locale === 'sv') return localizeShowcase(enConfig, appId, swedishImages, svAppText, 'sv');
+  if (locale === 'sv') return localizeShowcase(enConfig, appId, swedishImages, svAppText, 'sv') ?? enConfig;
   return enConfig;
 }

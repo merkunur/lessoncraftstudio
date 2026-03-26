@@ -3885,7 +3885,7 @@ export function getToolShowcaseConfig(toolId: string, locale: string = 'en'): To
   if (locale === 'pt') return localizeToolShowcase(enConfig, toolId, portugueseImages, ptToolText, 'pt');
   if (locale === 'it') return localizeToolShowcase(enConfig, toolId, italianImages, itToolText, 'it');
   if (locale === 'nl') return localizeToolShowcase(enConfig, toolId, dutchImages, nlToolText, 'nl');
-  if (locale === 'sv') return localizeToolShowcase(enConfig, toolId, swedishImages, svToolText, 'sv');
+  if (locale === 'sv') return localizeToolShowcase(enConfig, toolId, swedishImages, svToolText, 'sv') ?? enConfig;
   return enConfig;
 }
 

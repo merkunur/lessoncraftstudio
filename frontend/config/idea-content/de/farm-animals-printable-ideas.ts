@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'bauernhoftiere-druckvorlagen',
+    primaryKeyword: 'Bauernhof-Druckvorlagen auf Etsy verkaufen',
     secondaryKeywords: [
       'Bauernhof-Arbeitsblätter auf Etsy erstellen',
       'Nutztier-Aktivitätsblätter auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Bauernhof-Nische Ganzjahres-Lernmaterialien',
       'Vorschul-Lieblingsthema Arbeitsblatt-Markt',
     ],
-    titleTag: 'Bauernhoftiere-Druckvorlagen — Verkäufer-Guide',
-    metaDescription: 'Entdecken Sie profitable Bauernhoftiere-Druckvorlagen-Ideen für Etsy, Amazon KDP und Gumroad. Produktkonzepte, Preisstrategien und Plattformtipps für Verkäufer.',
+    titleTag: 'Bauernhof-Druckvorlagen für Etsy | LCS',
+    metaDescription: 'Bauernhof-Druckvorlagen auf Etsy verkaufen — profitable Produktideen mit Kühen, Schweinen und Hühnern. Plattformstrategien, Preistipps und Generator-Werkzeuge.',
   },
   hero: {
-    title: 'Bauernhoftiere-Druckvorlagen: Geschäftsideen für Verkäufer',
-    description: 'Bauernhoftiere gehören zu den zuverlässigsten Themen im Markt für lehrreiche Druckvorlagen. Von Kleinkindern, die lernen Scheunentiere zu zählen, bis zu Kindergartenkindern, die das Wort \"Huhn" nachspuren — diese Nische zieht Eltern, Käufer und Homeschooler das ganze Jahr über an. Für Druckvorlagen-Verkäufer bietet das Bauernhof-Thema eine seltene Kombination aus zeitloser Nachfrage, breiter Altersgruppen-Ansprache und starken saisonalen Spitzen im Frühling und zur Herbsternte. Ob Sie auf Etsy, Amazon KDP oder Gumroad verkaufen — Bauernhoftier-Druckvorlagen sind eine bewährte Nische mit Raum für kreative Differenzierung. Dieser Leitfaden führt Sie durch konkrete Produktideen, Plattformstrategien und Preisansätze, um mit unseren Arbeitsblatt-Generator-Werkzeugen eine profitable Bauernhof-Produktlinie aufzubauen.',
+    title: 'Bauernhof-Druckvorlagen auf Etsy verkaufen',
+    description: 'Bauernhof-Druckvorlagen auf Etsy verkaufen gehört zu den zuverlässigsten Geschäftsideen im Markt für lehrreiche Druckvorlagen. Von Kleinkindern, die lernen Scheunentiere zu zählen, bis zu Kindergartenkindern, die das Wort \"Huhn\" nachspuren — diese Nische zieht Eltern, Käufer und Homeschooler das ganze Jahr über an. Für Druckvorlagen-Verkäufer bietet das Bauernhof-Thema eine seltene Kombination aus zeitloser Nachfrage, breiter Altersgruppen-Ansprache und starken saisonalen Spitzen im Frühling und zur Herbsternte. Ob Sie auf Etsy, Amazon KDP oder Gumroad verkaufen — Bauernhoftier-Druckvorlagen sind eine bewährte Nische mit Raum für kreative Differenzierung. Dieser Leitfaden führt Sie durch konkrete Produktideen, Plattformstrategien und Preisansätze, um mit unseren Arbeitsblatt-Generator-Werkzeugen eine profitable Bauernhof-Produktlinie aufzubauen.',
   },
   marketOverview: `Die Nische der Bauernhoftier-Druckvorlagen liegt an der Schnittstelle zweier starker Kaufmotivationen: lehrreicher Wert und thematische Anziehungskraft. Eltern, die nach Bauernhof-Arbeitsblättern suchen, wollen in der Regel ansprechende Möglichkeiten finden, um grundlegende Fähigkeiten wie Zählen, Buchstabenerkennung, Wortschatzerweiterung und Feinmotorik zu vermitteln. Käufer suchen einsatzfertige Materialien, die zu gängigen frühkindlichen Produkteinheiten über Bauernhöfe und Lebensmittelproduktion passen.
 

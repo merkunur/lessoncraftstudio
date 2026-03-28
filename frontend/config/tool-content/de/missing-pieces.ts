@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fehlende-puzzleteile-ersteller',
+    primaryKeyword: 'kostenloser Fehlende-Teile-Rätsel Generator',
     secondaryKeywords: [
-      'Fehlende-Puzzleteile-Ersteller für Verkäufer',
-      'Puzzleteil-Rätsel online erstellen und verkaufen',
-      'druckbare Jigsaw-Puzzle-Arbeitsblätter kommerziell erstellen',
-      'Puzzleteil-Rätsel-Generator mit 6 Teilformen und automatischem Lösungsschlüssel für KDP',
+      'Fehlende-Teile-Rätsel kostenlos erstellen',
+      'Puzzleteil-Generator online ohne Anmeldung',
+      'kostenlose Jigsaw-Puzzle-Arbeitsblätter erstellen',
+      'Fehlende-Puzzleteile Ersteller mit Lösungsschlüssel kostenlos',
     ],
     lsiKeywords: [
-      'intelligente Teileextraktion Farbvarianz Puzzleteil-Rätsel-Generator',
-      'sechs Teilformen Fehlende-Puzzleteile-Ersteller mit Lösungsschlüssel',
-      'Distraktoren Jigsaw-Puzzle-Arbeitsblatt-Ersteller visuelles Rätsel-Werkzeug',
+      'Jigsaw-Puzzle Arbeitsblätter Teilformen',
+      'Fehlende Puzzleteile visuelles Rätsel',
+      'Puzzle-Arbeitsblatt Generator Distraktoren',
     ],
-    titleTag: 'Fehlende-Puzzleteile-Ersteller | Puzzle-Rätsel',
-    metaDescription: 'Jigsaw-Puzzle-Arbeitsblätter mit 6 Teilformen und 1–5 fehlenden Teilen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Fehlende-Teile Generator | LCS',
+    metaDescription: 'Kostenloser Fehlende-Teile-Rätsel Generator: Jigsaw-Puzzle-Arbeitsblätter mit sechs Teilformen erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Fehlende-Puzzleteile-Ersteller',
+    title: 'Fehlende-Teile-Rätsel kostenlos erstellen online',
     tagline: 'Jigsaw-Puzzle-Arbeitsblatt-Generator mit 6 Teilformen (Quadrat, Kreis, Rechteck Hochformat/Querformat, Ellipse Hochformat/Querformat), 1–5 fehlenden Teilen mit 2–6 Lösungsoptionen inklusive Distraktoren, intelligenter Teileextraktion mit Farbvarianz-Erkennung und 250px Mindestabstand, automatisch generierten Lösungsschlüsseln mit gelb hervorgehobenen Nummernbeschriftungen, Doppelrahmen in Blaugrün und Pink sowie 104 thematischen Bildsammlungen für Jigsaw-Puzzle-Arbeitsblätter, die weltweit verkauft werden können',
-    description: 'Erstellen Sie professionelle Jigsaw-Puzzle-Arbeitsblätter, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Teileextraktions-Algorithmus führt bis zu 150 Platzierungsversuche durch, um Teile mit ausreichender Farbvarianz zu finden (minimale Helligkeitsvarianz von 15), und hält mindestens 250 Pixel Abstand zwischen den Teilen ein, um Überlappungen zu verhindern. Die Teilgröße wird als 12% der Bildbreite berechnet, mit einem Minimum von 50 Pixeln. Wählen Sie aus 6 Teilformen, die den visuellen Charakter jedes Rätsels verändern: Quadrat (Standard) und Kreis bieten saubere geometrische Schnitte, Rechteck Hochformat (80% Breite, 100% Höhe) und Rechteck Querformat (100% Breite, 80% Höhe) erzeugen längliche Löcher, und Ellipse Hochformat und Ellipse Querformat bieten weichere geschwungene Schnitte mit denselben Dimensionsverhältnissen. Konfigurieren Sie den Schwierigkeitsgrad mit zwei unabhängigen Reglern: Legen Sie 1–5 fehlende Teile fest, um die Anzahl der Löcher im Bild zu steuern, und 2–6 Lösungsoptionen, um die Anzahl der nummerierten Auswahlmöglichkeiten zu bestimmen. Wenn die Lösungsoptionen die fehlenden Teile übersteigen, sind die zusätzlichen Optionen Ablenkungsteile — extrahiert aus nicht überlappenden Bereichen desselben Bildes mit bis zu 200 Platzierungsversuchen pro Distraktor. Ablenkungsteile verhindern das Lösen durch Ausschlussverfahren und erzwingen sorgfältigen visuellen Vergleich von Farben, Mustern und Details. Das Dual-Canvas-System generiert gleichzeitig ein Arbeitsblatt und einen Lösungsschlüssel. Der Lösungsschlüssel zeigt dasselbe Puzzle-Bild mit Löchern und platziert gelb hervorgehobene Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedes Loch, die den korrekten 1-basierten Optionsindex anzeigen. Die Schriftgröße skaliert auf 60% der Teilgröße für klare Lesbarkeit. Ein automatisch generierter Header rendert \"Fehlende Puzzleteile\" in Türkis (#06B6D4) mit einer rosafarbenen Beschreibung (#DB2777) über ein Doppelrahmen-System — blaugrüner äußerer Rahmen (#14B8A6, 8px Strichstärke, 34px Abstände, 12px Radius) und pinkfarbener innerer Rahmen (#EC4899, 3px Strichstärke, 46,5px Abstände, 8px Radius, 2px Versatz nach rechts und 3px nach unten). Der Fehlende-Puzzleteile-Ersteller ist NICHT sprachabhängig — die Rätsel sind rein visuell ohne sprachabhängige Inhalte auf dem Arbeitsblatt selbst, sodass jedes Rätsel weltweit ohne Übersetzung verkauft werden kann. Das einzige lokalisierte Element ist der Header-Text, übersetzt in alle 11 unterstützten Sprachen. Hochformat-Layouts platzieren das Puzzle-Bild oben mit Optionen darunter in einer horizontalen Reihe (75% der Maximalgröße); Querformat-Layouts teilen die Ansicht 50/50 mit Optionen auf der rechten Seite. Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu (0–1, Schrittweite 0,05). Passen Sie Text mit 7 Schriftoptionen an (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10. Exportieren Sie vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle mit 300 DPI (6× Multiplikator, JPEG-Qualität 1.0). Wählen Sie Letter, A4, Quadrat (1200×1200) oder benutzerdefinierte Seitengrößen mit einem Graustufen-Schalter für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit 6 Ausrichtungsoptionen plus Auf-Seite-Zentrieren, Ebenensteuerung, Sperren/Entsperren, Zoom 25%–300% in 25%-Schritten und Rückgängig/Wiederholen mit 50 Zuständen. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Fehlende-Teile-Rätsel kostenlos mit unserem Fehlende-Teile Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Ein Bild weist Löcher auf, und Sie identifizieren die richtige nummerierte Option für jede Lücke. Wählen Sie aus 6 Teilformen: Quadrat, Kreis, Rechteck und Ellipse in Hoch- oder Querformat. Konfigurieren Sie 1–5 fehlende Teile und 2–6 Lösungsoptionen mit Ablenkungsteilen für erhöhte Schwierigkeit. Der intelligente Algorithmus findet Teile mit ausreichender Farbvarianz und hält Mindestabstände ein. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit gelb hervorgehobenen Nummern. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Rätsel zu verkaufen.',
   },
 
   tutorial: {

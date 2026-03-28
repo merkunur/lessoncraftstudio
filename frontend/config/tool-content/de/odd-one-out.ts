@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'was-passt-nicht-ersteller',
+    primaryKeyword: 'kostenloser Was-passt-nicht Generator',
     secondaryKeywords: [
-      'Was-Passt-Nicht-Ersteller für Verkäufer',
-      'Ausreißer-Rätsel online erstellen und verkaufen',
-      'druckbare Was-passt-nicht-Arbeitsblätter kommerziell erstellen',
-      'Was-passt-nicht-Generator mit zwei Modi und automatischem Lösungsschlüssel für KDP',
+      'Was-passt-nicht-Rätsel kostenlos erstellen',
+      'Ausreißer-Rätsel Generator ohne Anmeldung',
+      'kostenloser Was-passt-nicht Ersteller online',
+      'Was-passt-nicht-Arbeitsblätter online drucken',
     ],
     lsiKeywords: [
-      'Identisch-Ähnlich-Modus visuelle Unterscheidung Was-passt-nicht-Ersteller',
-      'Modus-Überschreibung pro Übung Was-passt-nicht-Generator',
-      'automatischer Lösungsschlüssel rote Kreismarkierungen Ausreißer-Rätsel-Ersteller',
+      'Identisch- und Ähnlich-Modus Ausreißer-Erkennung',
+      'automatischer Lösungsschlüssel mit Kreismarkierungen',
+      'Pro-Übung-Konfiguration Was-passt-nicht',
     ],
-    titleTag: 'Was-Passt-Nicht-Ersteller | Ausreißer-Rätsel',
-    metaDescription: 'Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Was-passt-nicht Generator | LCS',
+    metaDescription: 'Kostenloser Was-passt-nicht Generator mit Identisch- und Ähnlich-Modus. Pro-Übung-Konfiguration, 104 Themen, ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Was-Passt-Nicht-Ersteller',
+    title: 'Was-passt-nicht-Rätsel kostenlos erstellen — Online-Tool',
     tagline: 'Was-passt-nicht-Arbeitsblatt-Generator mit zwei Erzeugungsmodi — Identisch-Modus (3 Klone + 1 anderes Bild aus demselben Thema) und Ähnlich-Modus (3 aus Thema A + 1 aus Thema B), Modus-Überschreibung pro Übung mit Auswahl-zurücksetzen-Funktion, 5–10 konfigurierbaren Übungen mit adaptivem 2-Spalten-Layout, automatisch generierten Lösungsschlüsseln mit roten Kreismarkierungen skaliert zur Bildgröße, Zwei-Themen-System über 104 thematische Sammlungen und rein visuellen Rätseln, die weltweit ohne Übersetzung verkauft werden können',
-    description: 'Erstellen Sie professionelle Was-passt-nicht-Arbeitsblätter, bei denen das abweichende Bild in jeder Reihe von vier Bildern identifiziert und eingekreist werden muss. Der Generator bietet zwei verschiedene Erzeugungsmodi, die grundlegend unterschiedliche kognitive Herausforderungen erzeugen. Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema — hier wird das Nicht-Duplikat durch Vergleich visueller Details innerhalb eines einzigen Themas erkannt. Der Ähnlich-Modus verwendet drei Bilder aus Thema A und ein Bild aus Thema B — hier wird der thematische Ausreißer durch Erkennung kategorialer Unterschiede zwischen zwei Themen identifiziert. Jede Übungszeile enthält ein eigenes Modus-Dropdown, mit dem der globale Modus pro Übung überschrieben werden kann. Beginnen Sie mit einfachen Identisch-Übungen am Anfang und gehen Sie zu schwereren Ähnlich-Übungen am Ende über, oder wechseln Sie die Modi durchgehend ab für vielfältige Herausforderungen. Ein \"Auswahl zurücksetzen\"-Button setzt alle Überschreibungen auf die globale Einstellung zurück. Konfigurieren Sie 5–10 Übungen pro Arbeitsblatt (Standard: 6) im Übungskonfigurations-Panel. Jede Übung enthält immer genau 4 Bilder — 3 gemeinsame Bilder und 1 Ausreißer — wobei die Position des Ausreißers innerhalb der Reihe zufällig gemischt wird. Das Layout passt sich automatisch an: Hochformat-Seiten mit 7 oder mehr Übungen wechseln zu einem 2-Spalten-Layout, und Querformat-Seiten verwenden stets 2 Spalten für optimalen Abstand. Das Zwei-Themen-System macht themenübergreifende Unterscheidungsrätsel mühelos — wählen Sie Thema A aus dem Dropdown für die drei gemeinsamen Bilder und Thema B für den einzelnen Ausreißer. Kombinieren Sie Tiere mit Lebensmitteln, Fahrzeuge mit Natur, Berufe mit Sport — beliebige Kombinationen aus den 104 verfügbaren thematischen Sammlungen mit über 3.100 Illustrationen. Im Identisch-Modus wird nur ein Thema benötigt, da sowohl die gemeinsamen Klone als auch das abweichende Bild aus derselben Sammlung stammen. Das Dual-Canvas-System generiert gleichzeitig einen Arbeitsblatt-Tab und einen Lösungsschlüssel-Tab. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und zeichnet einen roten Kreisumriss um den Ausreißer in jeder Übungsreihe. Die Strichstärke des Kreises skaliert dynamisch mit der Bildgröße — berechnet als Maximum von Bildgröße × 0,04 oder 3 Pixel — und gewährleistet gleichmäßige Sichtbarkeit über alle Seitengrößen und Übungsanzahlen hinweg. Ein automatisch generierter Header rendert \"Finde den Ausreißer\" mit einem korallenroten äußeren Rahmen (#FF6B6B, 8px Strichstärke), einem bernsteinfarbenen inneren Rahmen (#FFB84D, 3px Strichstärke) und einem türkisfarbenen Hintergrund (#4ECDC4). Der Titel erscheint in dunklem Blaugrün in Fredoka (#1A535C) und die Anweisungen in Rot in Quicksand (#E63946), lokalisiert über alle 11 unterstützten Sprachen. Der Was-Passt-Nicht-Ersteller ist NICHT sprachabhängig — die Rätsel sind vollständig visuell ohne Wörter auf dem Arbeitsblattinhalt selbst, sodass jedes Rätsel weltweit ohne Übersetzung verkauft werden kann. Aktivieren Sie optionale Name-und-Datum-Felder für unterrichtsfertige Zuordnung und Übungsnummern (25px Breite, 15px Abstand vom Karteninhalt) für einfache Referenz bei der Besprechung. Durchsuchen Sie 104 thematische Sammlungen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu (0–1, Schrittweite 0,05). Passen Sie Text mit 7 Schriftoptionen an (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10. Exportieren Sie vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle mit 300 DPI (6× Multiplikator, JPEG-Qualität 1.0). Wählen Sie Letter, A4, Quadrat (1200×1200) oder benutzerdefinierte Seitengrößen mit einem Graustufen-Schalter für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit 6 Ausrichtungsoptionen plus Auf-Seite-Zentrieren, Ebenensteuerung, Sperren/Entsperren, Zoom 25%–300% und Rückgängig/Wiederholen mit 20 Zuständen. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Was-passt-nicht-Rätsel mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Installation. In jeder Reihe von vier Bildern muss das abweichende Bild identifiziert werden. Zwei Erzeugungsmodi bieten verschiedene Herausforderungen: Der Identisch-Modus platziert drei Klone neben einem anderen Bild aus demselben Thema, der Ähnlich-Modus verwendet drei Bilder aus Thema A und eines aus Thema B. Jede Übung kann den Modus individuell überschreiben für gemischte Schwierigkeit. Konfigurieren Sie 5–10 Übungen pro Arbeitsblatt aus 104 thematischen Sammlungen mit über 3.100 Illustrationen. Ein automatisch generierter Lösungsschlüssel markiert jeden Ausreißer mit rotem Kreis. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

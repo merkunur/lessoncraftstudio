@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Größenvergleich-Arbeitsblätter erstellen',
+    primaryKeyword: 'Größenvergleich-Arbeitsblätter zum Verkauf erstellen',
     secondaryKeywords: [
-      'Groß-und-Klein-Arbeitsblätter für Kinder',
-      'Größenunterscheidung Arbeitsblatt-Generator',
-      'druckbare Größenvergleich-Arbeitsblätter zum Verkaufen',
-      'Größenanordnung Arbeitsblätter für Vorschule',
+      'Groß-und-Klein-Arbeitsblätter für Etsy produzieren',
+      'Größenvergleich-Übungen kommerziell verkaufen',
+      'Größenanordnung-Aktivitätsbuch auf KDP veröffentlichen',
+      'Größenvergleich-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'visuelle Größenunterscheidung Übungen',
-      'textfreie Arbeitsblätter für internationalen Verkauf',
-      'Kreise das Große ein Arbeitsblätter',
-      'Größenvergleich-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Größenanordnung Aktivitätsbücher',
-      'kommerzielle Lizenz Größenvergleich-Werkzeug',
+      'textfreie Arbeitsblätter weltweiter Verkauf Nische',
+      'Vorschul-Größenvergleich Druckvorlagen Etsy',
+      'KDP Größenanordnung Aktivitätsbuch veröffentlichen',
     ],
-    titleTag: 'Größenvergleich-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Größenvergleich-Arbeitsblätter mit 5 Aufgabentypen und 2 Bildmodi erstellen. Textfreie Ausgabe für weltweiten Verkauf. Schritt-für-Schritt für Etsy und KDP.',
+    titleTag: 'Größenvergleich-Arbeitsblätter erstellen | LCS',
+    metaDescription: 'Größenvergleich-Arbeitsblätter zum Verkauf erstellen. 5 Aufgabentypen, 2 Bildmodi und textfreie Ausgabe für weltweiten Verkauf auf Etsy und Amazon KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Größenvergleich-Arbeitsblätter',
+    title: 'Größenvergleich-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung von Größenunterscheidungs-Arbeitsblättern mit fünf Aufgabentypen und textfreier Ausgabe, die Sie weltweit auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Größenvergleich ist eine der frühesten visuellen Fähigkeiten, die Kinder entwickeln, und Arbeitsblätter zur Übung dieser Fähigkeit haben ganzjährig Nachfrage bei Eltern, Käufern und Frühförderzentren. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Groß-und-Klein-Arbeitsblatt-Ersteller — von der Auswahl unter fünf Aufgabentypen und zwei Bildmodi über die Konfiguration der Übungsdichte bis hin zur Generierung automatischer Lösungsschlüssel und dem Export druckfertiger Dateien. Das Werkzeug erzeugt vollständig visuelle Arbeitsblätter ohne Text auf der Ausgabe, was bedeutet, dass Ihre Produkte an Käufer in jedem Land ohne Übersetzung verkauft werden können. Ob Sie Ihr erstes druckbares Produkt erstellen oder einen bestehenden Frühförder-Katalog erweitern — am Ende dieses Tutorials haben Sie fertige Arbeitsblätter zum Einstellen bereit.',
+    description: 'Größenvergleich-Arbeitsblätter zum Verkauf erstellen bietet einen konkreten Wettbewerbsvorteil: Die textfreie Ausgabe bedeutet, dass ein Produkt ohne Übersetzung weltweit verkauft werden kann — ein Eintrag, eine Datei, universelle Verkaufbarkeit. Sie wählen aus fünf Aufgabentypen — Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummeriere Klein nach Groß und Groß nach Klein — und zwei Bildmodi, konfigurieren die Übungsdichte und exportieren druckfertige Dateien mit automatischen Lösungsschlüsseln. Jeder Aufgabentyp zielt auf eine andere kognitive Fähigkeit und erzeugt ein separates Produkt für Ihren Katalog. Über 100 Themen ermöglichen Dutzende einzigartiger Produkte aus einer Sitzung. Ob Sie Ihr erstes Produkt listen oder einen Frühförder-Katalog erweitern — am Ende dieser Anleitung haben Sie fertige Arbeitsblätter bereit.',
   },
 
   introduction: 'Größenunterscheidung ist eine grundlegende visuell-kognitive Fähigkeit, die Kinder entwickeln, bevor sie lesen, schreiben oder zählen können. Zu erkennen, dass ein Objekt größer als ein anderes ist, Gegenstände vom kleinsten zum größten zu ordnen und die mittlere Größe in einer Gruppe zu identifizieren — diese Fähigkeiten bilden die Grundlage für mathematisches Denken, räumliches Bewusstsein und alltägliche Problemlösung. Diese entwicklungsmäßige Bedeutung führt zu anhaltender Marktnachfrage nach Größenvergleich-Arbeitsblättern für Vorschule, Kindergarten und frühe Grundschuljahre.\n\nWas Größenvergleich-Arbeitsblätter als druckbares Produkt außergewöhnlich stark macht, ist ihre textfreie Ausgabe. Der Groß-und-Klein-Arbeitsblatt-Ersteller generiert Arbeitsblätter, die nur Bilder und visuelle Indikatoren enthalten — keine Wörter erscheinen auf der fertigen Seite. Das bedeutet, ein in einer Sitzung erstelltes Arbeitsblatt verkauft sich identisch an Käufer in jedem Land, jeder Sprache und jedem Lese-Niveau. Sie brauchen keine separaten Produktversionen für englische, deutsche, französische oder spanische Märkte. Ein Eintrag, eine Datei, universelle Verkaufbarkeit. Dies ist ein konkreter Wettbewerbsvorteil gegenüber textbasierten Arbeitsblatt-Generatoren, bei denen jedes Produkt Übersetzung und separate Marktplatz-Einträge erfordert.\n\nDas Werkzeug bietet fünf verschiedene Aufgabentypen, die eine natürliche Schwierigkeitsprogression schaffen. Kreise das Große ein ist die einfachste Identifikationsaufgabe. Kreise das Kleine ein erfordert etwas sorgfältigeren Vergleich. Kreise das Mittlere ein führt eine dritte Größenstufe und Eliminierungslogik ein. Nummeriere 1–2–3 Klein nach Groß und Groß nach Klein wechseln von Identifikation zu mehrstufiger Reihenfolge. Jeder Aufgabentyp zielt auf eine andere kognitive Fähigkeit ab, und jeder schafft ein separates Produkt, das Sie auf Marktplätzen einstellen können.\n\nZwei Bildmodi verdoppeln Ihre Produktvielfalt mit demselben Werkzeug. Der Modus Identische Bilder zeigt dasselbe Bild in verschiedenen Größen und isoliert die reine Größenwahrnehmung. Der Modus Verschiedene Bilder zeigt unterschiedliche Objekte in verschiedenen Größen und erfordert relatives Größendenken. Diese Modi schaffen grundlegend unterschiedliche Übungen, die verschiedene Käuferbedürfnisse ansprechen.\n\nJede in dieser Anleitung genannte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können alle fünf Aufgabentypen, beide Bildmodi, jedes Thema und die komplette Export-Pipeline testen, bevor Sie eine kommerzielle Lizenz erwerben.',

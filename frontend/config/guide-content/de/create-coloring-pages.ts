@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'malvorlagen aus thematischen bildern erstellen',
+    primaryKeyword: 'Ausmalbilder zum Verkauf auf Etsy und KDP erstellen',
     secondaryKeywords: [
-      'Malvorlagen-Ersteller aus Bildern',
-      'druckbare Malvorlagen zum Verkaufen',
-      'Graustufen-Malvorlagen-Generator',
-      'individuelle Malvorlagen für Kinder',
+      'Malvorlagen für Etsy-Shop produzieren',
+      'Malbuch-Seiten für Amazon KDP erstellen',
+      'druckbare Ausmalbilder kommerziell verkaufen',
+      'Malvorlagen-Generator für Printable-Business',
     ],
     lsiKeywords: [
-      'thematische Malvorlagen für Etsy',
-      'Malbuch-Seiten für Amazon KDP',
-      'freie Leinwand Malvorlagen-Designer',
-      'Bilder in Malvorlagen umwandeln',
-      'Malvorlagen für den Produkterstellung',
-      'kommerzielle Lizenz Malvorlagen-Tool',
+      'thematische Malvorlagen Etsy Printable-Geschäft',
+      'KDP Malbuch veröffentlichen Anleitung',
+      'Graustufen-Export Malvorlagen Produktlinie',
     ],
-    titleTag: 'Malvorlagen aus thematischen Bildern erstellen — Anleitung',
-    metaDescription: 'Malvorlagen aus 3.100+ thematischen Bildern erstellen. Freie Leinwand, Graustufen-Export und Freihand-Zeichenwerkzeug. Druckvorlagen für Etsy und KDP-Verkauf.',
+    titleTag: 'Ausmalbilder für Etsy & KDP erstellen | LCS',
+    metaDescription: 'Ausmalbilder zum Verkauf auf Etsy und KDP erstellen. 3.100+ thematische Bilder, freie Leinwand, Graustufen-Export und Freihand-Werkzeug. Verkäufer-Guide.',
   },
 
   hero: {
-    title: 'So erstellen Sie Malvorlagen aus thematischen Bildern',
+    title: 'Ausmalbilder erstellen und auf Etsy und KDP verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Gestalten individueller Malvorlagen mit freier Leinwand, über 3.100 thematischen Bildern, Freihand-Zeichenwerkzeug und Ein-Klick-Graustufen-Export',
-    description: 'Malvorlagen gehören zu den meistgesuchten und meistgekauften druckbaren Produkten auf allen großen Marktplätzen. Eltern nutzen sie für Offline-Aktivitäten ohne Bildschirm. Käufer setzen sie als Aufwärmübungen und Belohnungsblätter im Produkterstellung ein. Etsy-Verkäufer bauen ganze Shops rund um thematische Malvorlagen-Pakete auf. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Malvorlagen-Ersteller — vom Platzieren thematischer Bilder auf einer freien Leinwand bis zum Aktivieren des Graustufen-Umschalters, der Ihr farbenfrohes Design in eine saubere, druckfertige Malvorlage umwandelt. Ob Sie Ihr erstes Malvorlagen-Produkt erstellen oder einen bestehenden Druckvorlagen-Katalog erweitern — am Ende dieser Anleitung haben Sie eine fertige Malvorlage, die Sie sofort listen können.',
+    description: 'Ausmalbilder zum Verkauf auf Etsy und KDP erstellen ist eine der zugänglichsten Nischen für Druckvorlagen-Verkäufer. Malvorlagen gehören zu den meistgesuchten und meistgekauften Produkten auf allen großen Marktplätzen — Eltern kaufen sie für Offline-Aktivitäten ohne Bildschirm, Etsy-Verkäufer bauen ganze Shops rund um thematische Malvorlagen-Pakete auf, und auf Amazon KDP sind Malbücher eine der volumenstärksten Kategorien. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Malvorlagen-Ersteller: Sie platzieren thematische Bilder aus einer Bibliothek mit über 3.100 Illustrationen auf einer freien Leinwand, gestalten originelle Kompositionen mit dem Freihand-Zeichenwerkzeug und aktivieren den Graustufen-Umschalter, der Ihr farbenfrohes Design in eine saubere, druckfertige Malvorlage umwandelt. Im Vergleich zu anderen Druckvorlagen-Typen erfordern Malvorlagen keine Lösungsschlüssel und keine Schwierigkeitsgrad-Konfiguration — ein gut gestaltetes Ausmalbild verkauft sich allein durch seine visuelle Qualität. Ob Sie Ihr erstes Produkt listen oder einen bestehenden Katalog erweitern — am Ende dieser Anleitung haben Sie eine fertige Malvorlage zum Einstellen bereit.',
   },
 
   introduction: 'Malvorlagen nehmen eine einzigartige Position auf dem Druckvorlagen-Markt ein. Anders als Arbeitsblätter, die auf bestimmte Altersgruppen oder Fähigkeitsstufen abzielen, sprechen Malvorlagen praktisch jeden an — Kleinkinder, Schulkinder, Jugendliche und sogar Erwachsene. Diese universelle Attraktivität bedeutet massive, ganzjährige Nachfrage auf Etsy, Amazon KDP und Gumroad.\n\nWas Malvorlagen als Produkt besonders attraktiv macht, ist ihre Einfachheit. Es gibt keine Lösungsschlüssel zu erstellen, keine Schwierigkeitsgrade zu konfigurieren und keine Produktkatalog-Ausrichtung zu beachten. Eine gut gestaltete Malvorlage mit ansprechenden Bildern verkauft sich allein durch ihre visuelle Qualität. Die Einstiegshürde ist niedrig, aber die Verkäufer, die Erfolg haben, sind diejenigen mit unverwechselbaren Designs, die sich von generischen Clipart-Sammlungen abheben.\n\nDer Malvorlagen-Ersteller verfolgt einen grundlegend anderen Ansatz als traditionelle Malvorlagen-Tools. Anstatt mit vorgefertigten Vorlagen zu arbeiten oder Umrisse von Hand nachzuzeichnen, arbeiten Sie auf einer freien Leinwand, auf der Sie thematische Bilder aus einer Bibliothek mit über 3.100 Illustrationen aus 104 Themen platzieren. Sie ziehen, skalieren und drehen Bilder frei, um originelle Kompositionen zu erstellen. Der Graustufen-Export-Umschalter wandelt dann Ihr farbenfrohes Design in saubere Schwarz-Weiß-Umrisse um, die zum Ausmalen bereit sind.\n\nDas Tool enthält außerdem ein Freihand-Zeichenwerkzeug zum Hinzufügen handgezeichneter Details, Textwerkzeuge für Titel und Anweisungen sowie Bildungsmarkt-Hilfen wie Namensfelder und Schreiblinien. Diese Kombination ermöglicht Ihnen, alles zu erstellen — von einfachen Einzelbild-Malvorlagen bis hin zu komplexen thematischen Aktivitätsblättern.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können komplette Malvorlagen gestalten, den Graustufen-Umschalter testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

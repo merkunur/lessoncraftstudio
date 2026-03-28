@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gumroad Shop Optimierung',
+    primaryKeyword: 'Eduki Shop einrichten und optimieren',
     secondaryKeywords: [
-      'wie Gumroad Shop optimieren',
-      'Gumroad Suchalgorithmus Rankingfaktoren',
-      'Gumroad Verkäufe steigern durch Shop-Optimierung',
-      'Gumroad Shop Wachstumsstrategie',
+      'Eduki Suchalgorithmus Rankingfaktoren verstehen',
+      'Eduki Verkäufe steigern Shop-Optimierung',
+      'Eduki Bewertungen aufbauen Wachstumsstrategie',
+      'Eduki Listing-Konversion Vorschauen verbessern',
     ],
     lsiKeywords: [
-      'Gumroad Suchranking Konversionsrate Produktsichtbarkeit Gumroad',
-      'Shop-Branding Profilbanner kohärente visuelle Identität Fachbereich',
-      'Produktvorschau Miniaturansicht Beschreibung Listing-Optimierung',
-      'Bewertungen Generierung Vertrauenssignal Sternebewertung Feedback',
-      'Shop-Bereiche Kategorien Navigation nutzerfreundliche Organisation',
-      'Gumroad Analytik saisonale Planung datengestützte Katalogskalierung',
+      'Shop-Branding Profilbanner visuelle Identität Fachbereich',
+      'Produktvorschau Miniaturansicht Listing-Optimierung',
+      'Eduki Analytik saisonale Planung Katalogskalierung',
     ],
-    titleTag: 'Gumroad Shop Optimierung Leitfaden — Mehr Materialien verkaufen',
-    metaDescription: 'Gumroad Shop Optimierungsstrategien für bessere Suchrankings und mehr Verkäufe. Vorschau-Konversion, Bewertungsaufbau und datengestützte Katalogskalierung.',
+    titleTag: 'Eduki Shop einrichten & optimieren | LCS',
+    metaDescription: 'Eduki Shop einrichten und optimieren: Suchalgorithmus verstehen, Vorschauen verbessern, Bewertungen aufbauen und Katalog datengestützt skalieren für Wachstum.',
   },
 
   hero: {
-    title: 'Gumroad Shop Einrichtung und Optimierung — Leitfaden',
+    title: 'Eduki Shop einrichten und für mehr Verkäufe optimieren',
     tagline: 'Fortgeschrittene Strategien zur Optimierung eines bestehenden Gumroad Shops — einschließlich Suchalgorithmus-Rankingfaktoren, hochkonvertierender Produktbeschreibungen und Vorschauen, Bewertungs-Generierungstaktiken, Shop-Organisation für nutzerfreundliche Navigation, Gumroad-Werbeaktionsstrategie und datengestützter Katalogskalierung, um einen aktiven Gumroad-Shop in einen konstanten und wachsenden Einnahmekanal zu verwandeln',
-    description: 'Einen Gumroad-Shop einzurichten und die ersten Materialien zu veröffentlichen ist nur der Anfang. Der Unterschied zwischen einem Shop, der gelegentliche Verkäufe generiert, und einem, der konstante monatliche Einnahmen erzielt, liegt in der Optimierung — wie gut Ihre Listings im Gumroad-Suchergebnis ranken, wie effektiv Ihre Vorschauen Besucher in Käufer verwandeln, wie Ihre Shop-Organisation Mehrfachkäufe fördert und wie strategisch Sie Ihren Katalog basierend auf tatsächlichen Leistungsdaten erweitern. Dieser Leitfaden behandelt die Optimierungsstrategien, die einen Gumroad-Shop von der Einrichtungsphase in nachhaltiges Wachstum überführen, aufbauend auf den Grundlagen aus unserem Leitfaden zum Erstellen und Verkaufen von Gumroad-Materialien.',
+    description: 'Eduki Shop einrichten und optimieren — dieser Leitfaden zeigt Ihnen, wie Sie über die Grundeinrichtung hinaus zu konstanten monatlichen Einnahmen wachsen. Der Unterschied zwischen einem Shop mit gelegentlichen Verkäufen und einem mit planbarem Umsatz liegt in der systematischen Optimierung jedes einzelnen Elements. Sie erfahren, wie der Eduki-Suchalgorithmus funktioniert und welche Rankingfaktoren — von Titel-Keywords über Verkaufsgeschwindigkeit bis zu Konversionsraten — Sie aktiv beeinflussen können. Der Leitfaden zeigt, wie Sie Vorschauen und Miniaturansichten gestalten, die Besucher in Käufer verwandeln, Bewertungen systematisch aufbauen und Ihren Shop für nutzerfreundliche Navigation organisieren. Außerdem behandelt er Werbeaktionsstrategien und die datengestützte Katalogskalierung, die nachhaltiges Wachstum auf der Plattform ermöglicht.',
   },
 
   introduction: 'Die meisten Gumroad-Verkäufer erreichen dasselbe Plateau. Sie richten ihren Shop ein, veröffentlichen 10 bis 20 Materialien, generieren eine Handvoll Verkäufe pro Monat und stagnieren dann. Ihre Materialien sind solide — gut formatiert, standardkonform, wirklich nützlich für Käufer. Aber solide Materialien allein garantieren keine konstanten Einnahmen auf Gumroad. Die Plattform beherbergt Millionen von Materialien, und Sichtbarkeit wird durch gezielte Optimierung verdient, nicht nur durch Inhaltsqualität.\n\nDie Verkäufer, die das Plateau durchbrechen und Shops aufbauen, die 500 $, 1.000 $ oder mehr pro Monat generieren, erstellen nicht unbedingt bessere Inhalte als alle anderen. Sie optimieren jedes Element ihrer Gumroad-Präsenz: Sie schreiben Titel, die in Suchergebnissen höher ranken, gestalten Vorschauen, die Besucher mit höheren Raten in Käufer verwandeln, strukturieren ihre Shops so, dass besuchende Käufer mehrere relevante Materialien in einer Sitzung entdecken, bauen Bewertungsdynamik auf, die ihre Glaubwürdigkeit über die Zeit vervielfacht, und nutzen ihre Verkaufsdaten, um zu steuern, was sie als nächstes erstellen, anstatt zu raten.\n\nDer Gumroad-Suchalgorithmus ist keine Blackbox — Verkäufer, die verstehen, wie er funktioniert, und entsprechend optimieren, gewinnen messbare Vorteile gegenüber denen, die ihn ignorieren. Der Algorithmus gewichtet spezifische Faktoren: Titel-Keyword-Relevanz, Verkaufsgeschwindigkeit, Konversionsraten, Bewertungswerte, Listing-Vollständigkeit und Aktualitätssignale. Jeden dieser Faktoren können Sie durch gezielte Optimierungsentscheidungen beeinflussen. Ein Material mit einem strategisch geschriebenen Titel, einer überzeugenden Vorschau, vollständiger Kategorisierung und starken Bewertungen wird ein vergleichbares Material übertreffen, das diese Elemente vernachlässigt, selbst wenn die zugrunde liegende Inhaltsqualität identisch ist.\n\nDieser Leitfaden setzt voraus, dass Sie bereits einen Gumroad-Shop mit mindestens einigen veröffentlichten Materialien haben. Wenn Sie bei null anfangen, lesen Sie zuerst unseren Leitfaden zum Erstellen und Verkaufen von Gumroad-Materialien und kehren Sie dann hierher zurück, wenn Sie zur Optimierung für Wachstum bereit sind. Die folgenden Strategien bauen auf dieser Grundlage auf und konzentrieren sich speziell auf die Optimierungshebel, die einen aktiven Gumroad-Shop in einen konstant wachsenden Einnahmekanal verwandeln.\n\nJede Empfehlung in diesem Leitfaden ist auf Ihren bestehenden Katalog anwendbar. Sie müssen keine neuen Materialien erstellen, um von der Optimierung zu profitieren — viele der wirkungsvollsten Änderungen beinhalten das Aktualisieren von Titeln, Umschreiben von Beschreibungen, Verbessern von Vorschauen und Umorganisieren Ihres bestehenden Shops. Beginnen Sie mit Ihren aktuellen Materialien und wenden Sie diese Strategien systematisch an.',

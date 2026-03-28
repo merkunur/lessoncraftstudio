@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'valentinstag-druckvorlagen-ideen',
+    primaryKeyword: 'Valentinstag-Druckvorlagen verkaufen',
     secondaryKeywords: [
       'Valentinstag-Arbeitsblätter auf Etsy erstellen',
       'Liebes-Herz-Druckvorlagen auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Valentinstag-Nische Arbeitsblätter Etsy',
       'Liebes-Thema Lernmaterialien saisonaler Markt',
     ],
-    titleTag: 'Valentinstag-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Valentinstag-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Liebes-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer und Shops.',
+    titleTag: 'Valentinstag-Druckvorlagen verkaufen | LCS',
+    metaDescription: 'Valentinstag-Druckvorlagen verkaufen auf Etsy und KDP. Herzen, Freundschaft und Liebesbriefe — saisonale Produktideen und Februar-Verkaufsstrategien für Shops.',
   },
   hero: {
-    title: 'Valentinstag-Druckvorlagen-Geschäftsideen für Verkäufer',
-    description: 'Der Valentinstag eröffnet ein starkes Winter-Verkaufsfenster für Druckvorlagen-Unternehmer — die Nachfrage steigt im Januar und erreicht Anfang Februar ihren Höhepunkt, wenn Verkäufer Valentinstag-Gruppenaktivitäten vorbereiten und Eltern nach lehrreichen Liebes- und Freundschaftsaktivitäten sowie kreativen Alternativen zu gekauften Valentinskarten suchen. Die Nische bietet eine charmante thematische Vielfalt mit Herzen, Amor, Freundschaft, Rosen, Süßigkeiten, Briefkästen, Liebesbriefen und Valentinsgrüßen — ein warmes visuelles Vokabular, das junge Lernende, Familien und Käufer gleichermaßen anspricht. In den deutschsprachigen Ländern gewinnt der Valentinstag zunehmend an Bedeutung — neben der traditionellen romantischen Dimension setzen immer mehr Schulen und Kindergärten auf Freundschafts- und Wertschätzungsaktivitäten rund um den 14. Februar. Tagespflegeeinrichtungen und Homeschooling-Familien bilden ein weiteres Käufersegment mit Bedarf an strukturierten Valentinstag-Aktivitäten, die Feiertagsbegeisterung mit echtem Kompetenzaufbau verbinden. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verbindet die Valentinstag-Nische zuverlässige jährliche Nachfrage mit einer universell ansprechenden Liebes- und Freundschaftsästhetik, die sich hervorragend für Produktbilder und Social-Media-Marketing eignet. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen beim Aufbau einer profitablen Valentinstag-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools helfen.',
+    title: 'Valentinstag-Druckvorlagen verkaufen — Ideen',
+    description: 'Valentinstag-Druckvorlagen verkaufen eröffnet ein starkes Winter-Verkaufsfenster — die Nachfrage steigt im Januar und erreicht Anfang Februar ihren Höhepunkt, wenn Verkäufer Valentinstag-Gruppenaktivitäten vorbereiten und Eltern nach Liebes- und Freundschaftsaktivitäten suchen. Die Nische bietet charmante thematische Vielfalt mit Herzen, Amor, Rosen, Süßigkeiten, Briefkästen und Valentinsgrüßen — ein warmes visuelles Vokabular, das Familien und Käufer gleichermaßen anspricht. In den DACH-Ländern gewinnt der Valentinstag zunehmend an Bedeutung — immer mehr Schulen und Kindergärten setzen auf Freundschafts- und Wertschätzungsaktivitäten rund um den 14. Februar. Tagespflegeeinrichtungen und Homeschooling-Familien bilden ein weiteres Käufersegment mit Bedarf an strukturierten Valentinstag-Aktivitäten, die Feiertagsbegeisterung mit Kompetenzaufbau verbinden. Für Verkäufer auf Etsy, Amazon KDP und Gumroad verbindet die Valentinstag-Nische zuverlässige jährliche Nachfrage mit einer universell ansprechenden Ästhetik. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze für eine profitable Valentinstag-Produktlinie.',
   },
   marketOverview: `Die Valentinstag-Druckvorlagen-Nische nimmt eine strategische Position im Winter-Verkaufskalender ein und liefert konzentrierte saisonale Nachfrage in einem Zeitraum, in dem die Nachweihnachts-Kaufenergie sich auf frische kreative Projekte und Gruppenaktivitäten umlenkt. Verkäufer beginnen Anfang Januar mit der Planung von Valentinstag-Aktivitäten und Februar-Produktkatalog-Ergänzungen und suchen nach thematischen Arbeitsblättern, die die Begeisterung rund um den Valentinstag in strukturierte Lernmöglichkeiten verwandeln. Eltern suchen altersgerechte Valentinstag-Aktivitäten, die als kreative Alternativen zu gekauften Valentinskarten dienen und lehrreiche Unterhaltung während der Liebes-Feiertagswoche bieten. Tagespflegeeinrichtungen, Homeschooling-Familien und Nachmittagsbetreuungen kaufen thematische Aktivitätsblätter für Valentinsfeiern, freundschaftsbezogene Lerneinheiten und Februar-Veranstaltungen, die ansprechende Materialien für junge Teilnehmer benötigen.
 

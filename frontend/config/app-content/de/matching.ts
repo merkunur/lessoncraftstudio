@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'zuordnungs-generator',
+    primaryKeyword: 'Zuordnungs-Arbeitsblätter erstellen Etsy verkaufen',
     secondaryKeywords: [
-      'druckbarer Zuordnungs-Aktivitäten-Generator für Etsy-Verkäufer',
-      'Paare-Verbinden-Arbeitsblatt-Generator für KDP-Verleger',
-      'Zuordnungs-Arbeitsblätter auf Gumroad verkaufen',
-      'Zuordnungs-Arbeitsblatt-Ersteller kommerzielle Lizenz',
+      'Paare-Verbinden-Arbeitsblatt-Generator für Etsy-Verkäufer',
+      'Zuordnungs-Druckvorlagen erstellen KDP',
+      'Matching-Arbeitsblätter verkaufen kommerzielle Lizenz',
+      'Zuordnungsspiel-Generator mit Lösungsschlüssel',
     ],
     lsiKeywords: [
-      'digitale Zuordnungs-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Zuordnungs-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft Paare-Verbinden-Werkzeuge',
+      'Printable-Business Zuordnungs-Übungen Einkommensquelle',
+      'Paare-Verbinden-Aktivitäten Druckvorlagen erstellen',
+      'Bildzuordnung Arbeitsblatt verkaufen Etsy KDP',
     ],
-    titleTag: 'Zuordnungs-Generator | Paare-Verbinden-Übungen',
-    metaDescription: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 4 Zuordnungsmodi, konfigurierbare Paaranzahl, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Zuordnungs-Arbeitsblätter für Etsy erstellen | LCS',
+    metaDescription: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy verkaufen. Vier Modi, konfigurierbare Paaranzahl, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Zuordnungs-Generator für druckbare Paare-Verbinden-Arbeitsblätter',
+    title: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy verkaufen',
     tagline: 'Vier Zuordnungsmodi in einem Generator — Anfangsbuchstabe, Bild+Wort, Bild/Wort-Mischung und Eigenes Wort — mit automatisch generiertem Lösungsschlüssel, konfigurierbarer Paaranzahl und lokalisierter \"Finde die Paare!\"-Überschrift über 104 thematische Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Zuordnungs-Arbeitsblätter, bei denen Lernende Paare verbinden, indem sie Linien zwischen zwei Spalten ziehen. Wählen Sie aus vier verschiedenen Zuordnungsmodi: der Anfangsbuchstaben-Modus ordnet Bilder ihren Anfangsbuchstaben zu und trainiert phonemisches Bewusstsein, der Bild+Wort-Modus zeigt beschriftete Bildpaare auf beiden Seiten für gezielten Wortschatzaufbau, der Bild/Wort-Mischungs-Modus ermöglicht pro Zeile die unabhängige Auswahl von Bild oder Wort über Dropdown-Menüs für gestufte Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts, und der Eigenes-Wort-Modus lässt Sie eigene Zuordnungsbegriffe eintippen für maßgeschneiderte Rechtschreib- und Vokabelübungen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt und schalten Sie Elementnummern und dekorative Aufzählungspunkte für saubere Formatierung um. Jedes Arbeitsblatt enthält eine automatisch generierte lokalisierte \"Finde die Paare!\"-Überschrift mit Titel und Anweisungen in allen 11 unterstützten Sprachen. Das Doppel-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeichnet Verbindungslinien zwischen den korrekten Paaren, sodass Sie ihn niemals manuell erstellen müssen. Der Zuordnungs-Generator ist sprachabhängig: die Modi Anfangsbuchstabe und Bild+Wort verwenden lokalisierte Bildnamen, sodass ein Sprachwechsel die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt ändert. Im Anfangsbuchstaben-Modus wird beispielsweise ein Katzenbild im Deutschen als \"K\" angezeigt (Katze), im Englischen als \"C\" (Cat) und im Französischen als \"C\" (Chat). Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen für lokalisierte Wortinhalte frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie Namens- und Datumsfelder und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen und Englisch als Sprache; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen für lokalisierte Wortinhalte frei. Ob Sie thematische Zuordnungs-Pakete auf Etsy.de verkaufen, Lese-Lern-Arbeitsbücher für Amazon KDP zusammenstellen oder Zuordnungs-Stationen-Aktivitäten für den Gumroad erstellen — der Zuordnungs-Generator liefert produktionsfertige Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Zuordnungs-Arbeitsblätter erstellen und als druckbare Produkte auf Etsy oder Amazon KDP verkaufen? Dieser Generator bietet vier verschiedene Zuordnungsmodi in einem Werkzeug: Anfangsbuchstaben-Zuordnung für phonemisches Bewusstsein, Bild+Wort-Paare für Wortschatzaufbau, Bild/Wort-Mischung mit individueller Schwierigkeitssteuerung pro Zeile und Eigenes-Wort-Modus für maßgeschneiderte Vokabelübungen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt, schalten Sie Elementnummern und Aufzählungspunkte um und generieren Sie automatisch einen Lösungsschlüssel mit Verbindungslinien zwischen den korrekten Paaren. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen — Tiere, Fahrzeuge, Lebensmittel und mehr. Der Generator ist sprachabhängig: ein Sprachwechsel ändert die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt, sodass Sie mehrsprachige Produktlinien aus einem einzigen Workflow erstellen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

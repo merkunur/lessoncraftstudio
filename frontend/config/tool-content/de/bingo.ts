@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Bingo-Karten für die Produkterstellung erstellen',
+    primaryKeyword: 'kostenloser Bingo-Karten Generator mit Bildern',
     secondaryKeywords: [
-      'Bilder-Bingo-Ersteller für die Klasse',
-      'Bingo-Spiel-Ersteller für Kinder',
-      'druckbare Bingo-Karten für die Schule',
-      'Bingo-Karten-Generator für Verkäufer',
+      'Bingo-Karten kostenlos erstellen online',
+      'Bilder-Bingo-Generator ohne Anmeldung',
+      'kostenloser Bingo-Karten Ersteller für Kinder',
+      'Bingo-Karten online erstellen und drucken',
     ],
     lsiKeywords: [
-      'Stapel-Bingo-Karten für Klassenspiele',
-      'Bild-und-Wort-Bingo-Ersteller',
-      'Ansageblatt-Bingo-Arbeitsblatt-Ersteller',
+      'Stapel-Bingo-Karten mit ZIP-Export',
+      'Bild-und-Wort-Bingo zum Ausdrucken',
+      'Ansageblatt-Bingo-Arbeitsblatt-Generator',
     ],
-    titleTag: 'Bingo-Karten Erstellen — Bilder-Bingo für die Klasse',
-    metaDescription: 'Bingo-Karten für die Produkterstellung erstellen. Raster von 3x3 bis 5x5, Stapel-Generierung, Ansageblatt, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Bingo-Karten Generator | LCS',
+    metaDescription: 'Kostenloser Bingo-Karten Generator mit Bildern und Stapel-Export. Raster 3x3 bis 5x5, 104 Themen, ohne Anmeldung. Lizenz für kommerziellen Verkauf verfügbar.',
     },
 
   hero: {
-    title: 'Bingo-Karten-Ersteller',
+    title: 'Bingo-Karten kostenlos erstellen — Generator mit Bildern',
     tagline: 'Bilder-Bingo-Karten-Generator mit konfigurierbaren Rastern von 3×3 bis 5×5, Stapel-Generierung von 1–10 einzigartigen Karten pro Satz, ZIP-Export aller Karten in einem Download, Doppel-Füllmodi für Kartenzellen und runde Chips unabhängig wählbar, eigenem Ansageblatt mit dynamischem Wortraster, benutzerdefinierter Ansage-Auswahl mit Live-Zähler und 104 thematischen Bildsammlungen für Bilder-Bingo-Karten, die weltweit verkaufbar sind',
-    description: 'Erstellen Sie professionelle Bilder-Bingo-Karten, bei denen jeder Spieler eine einzigartige Karte mit verschiedenen Bildern an verschiedenen Positionen erhält — unverzichtbar, damit Bingo als Spiel funktioniert. Konfigurieren Sie Zeilen von 3 bis 5 und Spalten von 3 bis 5 unabhängig voneinander und erstellen Sie Raster von 3×3 (9 Zellen) bis 5×5 (25 Zellen) mit einem Standardwert von 4×4 (16 Zellen). Generieren Sie 1 bis 10 einzigartige Bingo-Karten pro Stapel, wobei jede Karte eine andere zufällige Bildauswahl aus dem Pool erhält, sodass keine zwei Karten dasselbe Layout teilen. Exportieren Sie alle generierten Karten als einzelne JPEGs in einer einzigen bingo_cards.zip-Datei mit JSZip-Komprimierung — ein Klick lädt einen kompletten Bingo-Karten-Satz herunter, fertig zum Verpacken in Marktplatz-Produkte. Wählen Sie Bild- oder Wort-Füllung unabhängig für Kartenzellen und runde Chips und erstellen Sie so vier verschiedene Bingo-Karten-Stile aus einem Generator. Bild-Füllung zeigt thematische Illustrationen; Wort-Füllung zeigt lokalisierte Bildnamen aus der Bildbibliothek, wodurch der Bingo-Karten-Ersteller sprachabhängig wird — ein Sprachwechsel ändert die Wörter auf Karten, Chips und dem Ansageblatt. Runde Chips haben gestrichelte Ränder (#666, strokeDashArray [5,5]) und werden per Fisher-Yates-Algorithmus gemischt, sodass sie niemals dem Kartenlayout entsprechen — das gewährleistet authentisches Bingo-Spiel, bei dem Chips als Zuordnungsreferenz dienen statt als positionsbasierte Hinweise. Ein eigenes Ansageblatt auf einem separaten Tab zeigt ein dynamisches Wortraster für den Spielleiter — Spalten werden basierend auf der längsten Wortlänge berechnet (2–6 Spalten) mit einheitlicher Schriftgröße über alle Einträge für saubere Lesbarkeit. Aktivieren Sie die benutzerdefinierte Ansage-Auswahl, um bestimmte Bilder für den Ansage-Pool von Hand auszuwählen, mit einem Live-Zähler, der Ihre Auswahlanzahl anzeigt — so erhalten Sie präzise Kontrolle über die Produktkataloganpassung der Spielinhalte. Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schrittweite 0,05) hinzu. Fügen Sie benutzerdefinierten Text mit 7 Schriftoptionen (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10 hinzu. Exportieren Sie Arbeitsblatt-JPEG, Ansageblatt-JPEG, Arbeitsblatt-PDF und Ansageblatt-PDF mit 300 DPI (6×-Multiplikator, JPEG-Qualität 1.0), plus den ZIP-Stapelexport für alle Karten. Wählen Sie Letter, A4, Quadrat (1200×1200) oder benutzerdefinierte Seitengrößen mit Graustufen-Schalter für tintenschonende Ausgabe. Der Rasterbereich nutzt 60% der verfügbaren Arbeitsflächenhöhe (maximal 500px) für optimale Kartenproportionen. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Ausrichtungswerkzeugen, Ebenen, Sperren/Entsperren, Zoom 50%–200% in 10%-Schritten und Rückgängig/Wiederholen mit 20 Zuständen. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Bingo-Karten mit Bildern — direkt im Browser, ohne Anmeldung, ohne Installation. Konfigurieren Sie Raster von 3×3 bis 5×5 und generieren Sie bis zu 10 einzigartige Karten pro Stapel, wobei jede Karte eine andere zufällige Bildauswahl erhält. Exportieren Sie alle Karten als ZIP-Datei mit einem Klick. Wählen Sie Bild- oder Wort-Füllung unabhängig für Kartenzellen und runde Chips — vier verschiedene Bingo-Stile aus einem Generator. Ein eigenes Ansageblatt zeigt ein dynamisches Wortraster für den Spielleiter. Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene Bilder hoch. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

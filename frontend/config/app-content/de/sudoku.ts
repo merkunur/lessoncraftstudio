@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bilder-sudoku-generator',
+    primaryKeyword: 'Bilder-Sudoku-Generator für KDP Rätselbücher',
     secondaryKeywords: [
-      'druckbarer Bild-Sudoku-Generator für Etsy-Verkäufer',
-      'Bilder-Sudoku-Rätsel-Ersteller für KDP-Verleger',
-      'Bild-Sudoku-Arbeitsblatt-Generator kommerzielle Lizenz',
-      'visuelle Logikrätsel-Arbeitsblätter auf Gumroad verkaufen',
+      'Bilder-Sudoku erstellen für KDP-Rätselbücher',
+      'Bild-Sudoku-Generator für Etsy-Druckvorlagen',
+      'visuelle Sudoku-Rätsel Printable-Business verkaufen',
+      'Bilder-Sudoku-Arbeitsblätter kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Bilder-Sudoku-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Bild-Sudoku-Rätsel-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft visuelle Logikrätsel Werkzeuge',
+      'Rätselbücher Amazon KDP Sudoku veröffentlichen',
+      'Druckvorlagen-Geschäft Logikrätsel passive Einnahmen',
+      '4×4-Raster drei Schwierigkeitsgrade visuell',
     ],
-    titleTag: 'Bilder-Sudoku-Generator | 4×4-Bild-Sudoku',
-    metaDescription: 'Bilder-Sudoku erstellen und auf Etsy, KDP verkaufen. 4×4-Raster, drei Schwierigkeitsgrade, rein visuelle Rätsel, 104 Themen. Kostenlos testen mit.',
+    titleTag: 'Bilder-Sudoku-Generator für KDP-Rätselbücher | LCS',
+    metaDescription: 'Bilder-Sudoku erstellen für KDP-Rätselbücher und Etsy — 4×4-Raster, drei Schwierigkeitsgrade, rein visuell. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {
-    title: 'Bilder-Sudoku-Generator für 4×4-Bild-Logikrätsel',
+    title: 'Bilder-Sudoku für KDP-Rätselbücher und Etsy erstellen',
     tagline: 'Rein visuelle 4×4-Sudoku-Rätsel mit Bildern statt Zahlen — drei Schwierigkeitsgrade von 4 bis 8 leeren Zellen, automatisch generierte Lösungsschlüssel mit vollständig gefülltem Raster und themenbasierte Bildauswahl aus 104 Sammlungen für Rätsel, die weltweit ohne Übersetzung verkaufbar sind.',
     description:
-      'Erstellen Sie professionelle 4×4-Bilder-Sudoku-Arbeitsblätter, bei denen leere Zellen mit den richtigen Bildern gefüllt werden müssen — unter Anwendung der Zeilen-und-Spalten-Logik. Jedes Rätsel verwendet genau 4 einzigartige Bilder, die jeweils genau einmal pro Zeile und einmal pro Spalte erscheinen müssen — dieselben Regeln wie beim klassischen Sudoku, aber mit farbenfrohen Illustrationen statt Zahlen. Wählen Sie aus drei Schwierigkeitsgraden: Leicht entfernt 4 Zellen, Mittel entfernt 6 Zellen und Schwer entfernt 8 Zellen — die Hälfte des Rasters. Wählen Sie Bilder über die themenbasierte Auswahl, die automatisch 4 zufällige Bilder aus einer der 104 thematischen Sammlungen auswählt, oder wählen Sie manuell genau 4 Bilder aus der Bibliothek, der Suche oder Ihren eigenen Uploads. Das Premium-Rasterdesign bietet abwechselnde 2×2-Blockfarben in Hellblau und Hellrosa, mehrstufige Schatten und einen indigofarbenen äußeren Rahmen mit abgerundeten Ecken. Jedes Rätsel enthält einen automatisch generierten \"Bilder-Sudoku\"-Header, der in allen 11 Sprachen lokalisiert ist, sowie einen Dual-Canvas-Lösungsschlüssel mit dem vollständig gefüllten Raster — alle 16 Zellen belegt. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Da Bilder-Sudoku vollständig visuell ist — keine Wörter erscheinen auf dem Rätselraster — funktioniert jedes Arbeitsblatt in allen 11 Sprachen identisch und ist weltweit ohne Anpassung verkaufbar. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Ob Sie thematische Sudoku-Pakete auf Etsy.de verkaufen, Logik-Arbeitsbücher für Amazon KDP zusammenstellen oder Denk-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Bilder-Sudoku-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Bilder-Sudoku mit dem Sudoku-Generator und verkaufen Sie Rätselbücher auf Amazon KDP, Etsy oder Gumroad. Jedes 4×4-Rätsel verwendet 4 einzigartige Bilder statt Zahlen — dieselbe Logik wie beim klassischen Sudoku, aber mit farbenfrohen Illustrationen. Drei Schwierigkeitsgrade steuern die Herausforderung: Leicht entfernt 4 Zellen, Mittel 6 und Schwer 8. Wählen Sie Bilder aus 104 Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene hoch. Das Premium-Rasterdesign erzeugt sofort professionelle Ergebnisse. Lösungsschlüssel wird automatisch generiert. Das rein visuelle Format funktioniert weltweit ohne Übersetzung. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
   howItWorks: {

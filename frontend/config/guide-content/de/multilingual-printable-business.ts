@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mehrsprachiges Druckvorlagen-Geschäft',
+    primaryKeyword: 'Mehrsprachiges Druckvorlagen-Business aufbauen',
     secondaryKeywords: [
-      'Druckvorlagen in mehreren Sprachen verkaufen',
-      'internationaler Druckvorlagen-Markt',
-      'mehrsprachiges Arbeitsblatt-Geschäft',
-      'Druckvorlagen global expandieren',
+      'Druckvorlagen international verkaufen Strategie',
+      'Sprachexpansion Printable-Geschäft planen',
+      'europäische Druckvorlagen-Märkte erschließen',
+      'Umsatzmultiplikation mehrsprachige Arbeitsblätter',
     ],
     lsiKeywords: [
-      'Sprachexpansion internationale Märkte Lokalisierungsstrategie europäische Druckvorlagen-Märkte',
-      'deutscher Bildungsmarkt französische Arbeitsblatt-Nachfrage spanische Druckvorlagen-Käufer',
-      'mehrsprachiger Katalog Umsatzmultiplikation Marktdiversifizierung grenzüberschreitender Verkauf',
-      'Übersetzungs-Workflow globaler Bildungsmarkt sprachspezifische Marktplätze internationales SEO',
-      'mehrsprachiges Produktportfolio Sprachabdeckung Wettbewerbsvorteil unterversorgte Märkte',
-      'sprachübergreifende Einkommensströme Plattform-Internationalisierung Mehrmarkt-Vertrieb',
+      'Lokalisierungsstrategie internationale Marktplätze Sprachpriorisierung Marktdiversifizierung',
+      'Übersetzungs-Workflow Mehrmarkt-Vertrieb unterversorgte Sprachmärkte Wettbewerbsvorteil',
+      'mehrsprachiges Produktportfolio grenzüberschreitender Verkauf Plattform-Internationalisierung',
     ],
-    titleTag: 'Mehrsprachiges Druckvorlagen-Geschäft — Strategie-Leitfaden',
-    metaDescription: 'Mehrsprachiges Druckvorlagen-Geschäft aufbauen und in internationale Märkte expandieren. Sprachpriorisierung und Strategien für mehr Umsatz auf Etsy und KDP.',
+    titleTag: 'Mehrsprachiges Printable-Business | LCS',
+    metaDescription: 'Mehrsprachiges Druckvorlagen-Business aufbauen: Sprachpriorisierung, internationale Marktanalyse und Expansionsstrategien für mehr Umsatz auf Etsy und KDP.',
   },
 
   hero: {
-    title: 'Ein mehrsprachiges Druckvorlagen-Geschäft aufbauen',
+    title: 'Mehrsprachiges Druckvorlagen-Business erfolgreich aufbauen',
     tagline: 'Ein vollständiger Leitfaden zur internationalen Expansion Ihres Druckvorlagen-Geschäfts — warum mehrsprachige Expansion die am meisten unterschätzte Wachstumsstrategie ist, welche Sprachmärkte die höchsten Renditen bieten, wie Sie Ihr Geschäft für mehrsprachige Operationen strukturieren, internationale Marktplatz-Chancen analysieren, Wettbewerbsvorteile durch Sprachabdeckung aufbauen, ein Umsatzmultiplikations-Framework entwickeln, eine phasenweise Sprachexpansion planen und die Performance Ihres mehrsprachigen Portfolios optimieren',
-    description: 'Die meisten Druckvorlagen-Verkäufer konkurrieren ausschließlich auf Englisch und ignorieren die massive Nachfrage in deutschen, französischen, spanischen und anderen Sprachmärkten. Dieser Leitfaden zeigt Ihnen, wie Sie ein mehrsprachiges Druckvorlagen-Geschäft aufbauen, das Ihren Umsatz vervielfacht, indem Sie unterversorgte internationale Käufer über mehrere Plattformen und Sprachen erreichen.',
+    description: 'Ein mehrsprachiges Druckvorlagen-Business aufbauen ist die am meisten unterschätzte Wachstumsstrategie für Printable-Verkäufer. Die meisten konkurrieren ausschließlich auf Englisch und ignorieren die massive Nachfrage in deutschen, französischen, spanischen und weiteren Sprachmärkten, wo der Wettbewerb um ein Vielfaches geringer ausfällt. Während ein englisches Arbeitsblatt gegen 5.000 Konkurrenten antritt, hat dasselbe Produkt auf Deutsch oft nur 50 Wettbewerber — ein enormer Sichtbarkeitsvorteil. Sie erfahren in diesem Leitfaden, welche Sprachen die höchsten Renditen bieten, wie Sie Ihr Geschäft für mehrsprachige Operationen auf Etsy, Amazon KDP und regionalen Plattformen wie Eduki strukturieren und internationale Marktplatz-Chancen systematisch analysieren. Das Framework zeigt Ihnen, wie Sprachexpansion Ihren bestehenden Katalog vervielfacht, unterversorgte Märkte erschließt und Ihre Einnahmen diversifiziert.',
   },
 
   introduction: 'Der Markt für praktische Druckvorlagen erstreckt sich weit über englischsprachige Länder hinaus, dennoch erstellen die allermeisten Verkäufer ihre Produkte ausschließlich auf Englisch. Dies schafft eine bemerkenswerte Geschäftsmöglichkeit: Millionen von Eltern, Käufern und Käufer weltweit suchen aktiv nach druckbaren Arbeitsblättern in ihrer Muttersprache und finden nur sehr wenige Ergebnisse. Betrachten Sie die Mathematik dahinter. Ein Arbeitsblatt, das gegen 5.000 ähnliche englische Produkte konkurriert, hat möglicherweise nur 50 Wettbewerber auf Deutsch oder 30 auf Französisch. Dieser dramatische Unterschied in der Konkurrenz übersetzt sich direkt in Sichtbarkeit, Verkäufe und Umsatzpotenzial. Ein mehrsprachiges Druckvorlagen-Geschäft aufzubauen bedeutet nicht einfach nur, Ihre vorhandenen Produkte zu übersetzen. Es erfordert das Verständnis, welche Sprachmärkte eine Investition rechtfertigen, wie internationale Marktplätze unterschiedlich funktionieren, wo Käufer in jeder Sprache tatsächlich einkaufen und wie Sie Ihre Operationen so strukturieren, dass Sprachexpansion zu einem skalierbaren Wachstumsmotor wird statt zu einer Ressourcenbelastung. Dieser Leitfaden führt Sie durch die vollständige Geschäftsstrategie für mehrsprachige Expansion — von Marktanalyse und Sprachpriorisierung bis hin zu Umsatzmultiplikations-Frameworks und langfristiger Portfolio-Optimierung. Ob Sie Ihre ersten Druckvorlagen-Produkte launchen oder einen etablierten Katalog ausbauen möchten — das Verständnis der mehrsprachigen Chance hilft Ihnen, fundierte Entscheidungen darüber zu treffen, wo Sie Ihre Produktionszeit für maximale Renditen investieren sollten.',

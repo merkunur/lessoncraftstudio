@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schattenbilder-generator',
+    primaryKeyword: 'Schattenbilder-Zuordnung erstellen Etsy verkaufen',
     secondaryKeywords: [
-      'druckbarer Silhouetten-Zuordnungs-Generator für Etsy-Verkäufer',
-      'Schattenbild-Rätsel-Arbeitsblatt-Generator für KDP-Verleger',
-      'Schattenbilder-Zuordnen-Ersteller kommerzielle Lizenz',
-      'Silhouetten-Arbeitsblätter auf Gumroad verkaufen',
+      'Silhouetten-Zuordnungs-Generator für Etsy-Verkäufer',
+      'Schattenbild-Rätsel Druckvorlagen erstellen KDP',
+      'Bildhälften-Zuordnung verkaufen kommerzielle Lizenz',
+      'Shadow-Matching-Arbeitsblatt-Generator Lösungsschlüssel',
     ],
     lsiKeywords: [
-      'digitale Schattenbilder-Zuordnung Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Silhouetten-Rätsel-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft visuelle Wahrnehmung Werkzeuge',
+      'Printable-Business Silhouetten-Rätsel Druckvorlagen',
+      'Schattenbilder Arbeitsblatt verkaufen Etsy KDP',
+      'visuelle Wahrnehmung Druckvorlagen Einkommensquelle',
     ],
-    titleTag: 'Schattenbilder-Generator | Silhouetten-Zuordnung',
-    metaDescription: 'Schattenbilder-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Silhouetten-Zuordnung, Bild-Vervollständigung. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Schattenbilder-Zuordnung für Etsy erstellen | LCS',
+    metaDescription: 'Schattenbilder-Zuordnung erstellen und auf Etsy verkaufen. Silhouetten-Matching und Bildhälften-Modus, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Schattenbilder-Zuordnen-Generator für Silhouetten- und Bildhälften-Zuordnungsaktivitäten',
+    title: 'Schattenbilder-Zuordnung erstellen und auf Etsy verkaufen',
     tagline: 'Zwei Zuordnungsmodi in einem Generator — Schattenbild-Zuordnung erstellt automatisch schwarze Silhouetten aus jedem Bild, Bild Vervollständigen teilt Bilder in Hälften — beide mit Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen, automatisch generierten Lösungsschlüsseln und 104 thematischen Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Schattenbilder-Zuordnungs-Arbeitsblätter, bei denen Lernende farbige Bilder ihren Silhouetten zuordnen oder geteilte Bildhälften wieder zusammenfügen. Der Schattenbild-Zuordnungsmodus platziert 4 farbige Bilder mit den Beschriftungen A, B, C, D in der oberen Reihe und 4 automatisch generierte schwarze Silhouetten mit den Beschriftungen 1, 2, 3, 4 in der unteren Reihe — die Silhouetten werden durch pixelgenaue Bildverarbeitung erzeugt, die jeden Pixel mit Alpha > 10 in reines Schwarz (R=0, G=0, B=0, A=255) umwandelt und so präzise Umrisse erstellt, die das exakte Transparenzprofil jedes Bildes bewahren. Der Modus Bild Vervollständigen teilt Bilder in Hälften mit horizontaler oder vertikaler Schnittrichtung, beschriftet die ersten Hälften A–D und die zweiten Hälften 1–4 und passt das Layout basierend auf der Ausrichtung an. Beide Modi verwenden Fisher-Yates-Derangement, um zu garantieren, dass kein Element an seiner ursprünglichen Position erscheint — echte Zuordnungsherausforderungen bei jeder Generierung. Schalten Sie die Anzeige der A/B/C/D- und 1/2/3/4-Beschriftungen um, fügen Sie optionale Name- und Datumsfelder für die Produkterstellung hinzu und generieren Sie automatische Lösungsschlüssel, die jede korrekte Buchstabe-zu-Nummer-Zuordnung anzeigen. Der Schattenbilder-Zuordnen-Generator ist NICHT sprachabhängig: die Ausgabe ist rein visuell mit keinem lokalisierten Wortinhalt auf dem Arbeitsblatt selbst. Ein Sprachwechsel ändert nur die Oberflächenbeschriftungen und den Überschriftentext, NICHT die Arbeitsblatt-Ausgabe. Dasselbe Arbeitsblatt funktioniert identisch in allen Märkten ohne Übersetzung. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen für die App-Oberfläche frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie benutzerdefinierten Text mit sieben Schriftoptionen und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Ob Sie thematische Silhouetten-Pakete auf Etsy.de verkaufen, Arbeitsbücher für visuelle Wahrnehmung bei Amazon KDP veröffentlichen oder Schnellabschluss-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Schattenbilder-Zuordnungsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Schattenbilder-Zuordnungs-Arbeitsblätter erstellen und auf Etsy oder als KDP-Arbeitsbücher verkaufen? Dieser Generator bietet zwei Zuordnungsmodi: Der Schattenbild-Modus platziert 4 farbige Bilder neben 4 automatisch generierten schwarzen Silhouetten — erzeugt durch pixelgenaue Bildverarbeitung, die präzise Umrisse erstellt. Der Bildhälften-Modus teilt Bilder horizontal oder vertikal und fordert die Zuordnung der passenden Hälften. Beide Modi verwenden Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen bei jeder Generierung. Der automatische Lösungsschlüssel zeigt jede korrekte Buchstabe-zu-Nummer-Zuordnung an. Die rein visuelle Ausgabe ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

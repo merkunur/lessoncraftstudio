@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'suchbilder-ersteller',
+    primaryKeyword: 'kostenloser Suchbilder-Generator',
     secondaryKeywords: [
-      'Suchbilder-Ersteller für Verkäufer',
-      'Ich-sehe-was-Rätsel-Generator online erstellen und verkaufen',
-      'druckbare Suchbild-Szenen kommerziell erstellen',
-      'Suchbilder-Generator mit Welches-passt-nicht-Modus und automatischem Lösungsschlüssel für KDP',
+      'Suchbilder-Arbeitsblätter kostenlos erstellen',
+      'Suchbilder-Generator online ohne Anmeldung',
+      'kostenlose Versteckte-Objekte-Rätsel erstellen',
+      'Suchbilder-Ersteller mit Lösungsschlüssel kostenlos',
     ],
     lsiKeywords: [
-      'Ich-sehe-was Welches-passt-nicht Dual-Aktivitätsmodus Ersteller',
-      'überlappungsfreie Szenengeneration adaptive Bildgrößenanpassung Algorithmus',
-      'automatischer Lösungsschlüssel rote Kreis-Markierungen Suchbilder-Generator',
+      'Ich-sehe-was Rätsel Arbeitsblätter',
+      'Was-passt-nicht visuelle Rätsel',
+      'Versteckte-Objekte Suchszenen Generator',
     ],
-    titleTag: 'Suchbilder-Ersteller | Versteckte-Objekte-Rätsel',
-    metaDescription: 'Suchbild-Arbeitsblätter mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Suchbilder-Generator Online | LCS',
+    metaDescription: 'Kostenloser Suchbilder-Generator: Versteckte-Objekte-Rätsel mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Suchbilder-Ersteller',
+    title: 'Suchbilder kostenlos erstellen — Zwei Aktivitätsmodi',
     tagline: 'Dual-Modus-Suchbilder-Generator mit Ich-sehe-was-Modus (überlappungsfreie Suchszenen mit 1–5 versteckten Objekten unter 8–12 Ablenkungsbildern und Legende am unteren Rand) und Welches-passt-nicht-Modus (8–12 gepaarte Bilder mit 1–5 unpaaren Elementen, 50 % größer gerendert), adaptivem Bildgrößenanpassungs-Algorithmus mit 50 Positionstests pro Bild, automatisch generierten Lösungsschlüsseln mit roten Kreis-Markierungen und rein visuellen Rätseln, die weltweit ohne Übersetzung verkauft werden können',
-    description: 'Erstellen Sie professionelle Suchbild-Arbeitsblätter, bei denen in einer verteilten Bilderszene bestimmte Objekte gesucht und eingekreist werden. Der Generator bietet zwei verschiedene Aktivitätsmodi, die grundlegend unterschiedliche kognitive Herausforderungen erzeugen. Der Ich-sehe-was-Modus verwendet einen überlappungsfreien Platzierungsalgorithmus, um 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite zu verteilen — kein Raster, keine Zeilen und Spalten, sondern eine zusammenhängende Suchszene. Der findBestPosition()-Algorithmus testet 50 zufällige Positionen pro Bild und wählt die Platzierung mit der geringsten Überlappung, wobei die Bildgröße adaptiv reduziert wird, wenn der Platz knapp wird. Eine Legende am unteren Rand des Arbeitsblatts (120px Abstand) zeigt den Nutzern genau, welche Objekte gefunden werden müssen — das macht Arbeitsblätter auch ohne schriftliche Anweisungen zugänglich für Leseanfänger. Der Welches-passt-nicht-Modus ordnet 8–12 gepaarte Bilder mit 1–5 unpaaren Elementen dazwischen an — die Aufgabe ist, Bilder ohne passenden Partner zu identifizieren. Bilder im Welches-passt-nicht-Modus werden 50 % größer als im Ich-sehe-was-Modus gerendert für deutlicheren visuellen Vergleich. Das Dual-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab gleichzeitig. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und zeichnet rote Kreise um versteckte Objekte (Ich-sehe-was-Modus) oder unpaare Elemente (Welches-passt-nicht-Modus), 3–5px größer als das Objekt für deutliche Sichtbarkeit. Ein automatisch generierter Header zeigt Ihren Titel in Fredoka-Schrift mit automatischer Größenanpassung — 32px für kurze Titel, herunterskaliert auf 18px für längeren Text — mit dekorativen weißen Kapsel-Dekorelementen und Schatten. Namens- und Datumsfelder lassen sich für Geschäftseinsatz aktivieren. Der Suchbilder-Ersteller ist NICHT sprachabhängig: Die Rätsel sind rein visuell ohne lokalisierte Bildbezeichnungen auf dem Arbeitsblatt-Inhalt selbst, sodass jedes Rätsel universell in jedem Markt weltweit verkauft werden kann, ohne Übersetzung. Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Wenden Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern an. Fügen Sie benutzerdefinierten Text mit 7 Schriftoptionen (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10 hinzu. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI (6× Multiplikator) in Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder benutzerdefinierten Maßen. Graustufen-Schalter für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Canvas mit Verschieben, Skalieren, Drehen, Ebenen, Sperren/Entsperren, 6 Ausrichtungsoptionen plus Auf-Seite-zentrieren, Zoom 25 %–300 % und 20 Rückgängig-/Wiederherstellen-Zuständen. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Suchbilder-Arbeitsblätter kostenlos mit unserem Suchbilder-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Zwei verschiedene Aktivitätsmodi erzeugen grundlegend unterschiedliche Herausforderungen: Der Ich-sehe-was-Modus verteilt 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite mit einem überlappungsfreien Platzierungsalgorithmus. Eine Legende am unteren Rand zeigt, welche Objekte gefunden werden müssen. Der Welches-passt-nicht-Modus ordnet gepaarte Bilder mit unpaaren Elementen dazwischen an. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit roten Kreis-Markierungen. Die Rätsel sind rein visuell und universell einsetzbar ohne Übersetzung. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Rätsel zu verkaufen.',
   },
 
   tutorial: {

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'arbeitsblätter die sich verkaufen',
+    primaryKeyword: 'Arbeitsblätter erstellen die sich verkaufen',
     secondaryKeywords: [
       'professionelle Arbeitsblätter erstellen',
       'Arbeitsblätter zum Verkaufen auf Etsy.de',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'thematische Arbeitsblatt-Bilder',
       'druckfertige PDF-Arbeitsblätter',
     ],
-    titleTag: 'Arbeitsblätter die sich verkaufen — Profi-Tipps',
-    metaDescription: 'Arbeitsblätter erstellen und auf Etsy, KDP und Gumroad verkaufen. Erstellungsprozess mit Generatoren, Bildern und Lösungsschlüsseln. Profi-Guide.',
+    titleTag: 'Arbeitsblätter erstellen die sich verkaufen | LCS',
+    metaDescription: 'Professionelle Arbeitsblätter erstellen, die Käufer auf Etsy und KDP überzeugen. Qualitätsstandards, Paketstrategien und der Erstellungsprozess für Verkäufer.',
   },
 
   hero: {
-    title: 'Professionelle Arbeitsblätter erstellen, die sich verkaufen',
+    title: 'Arbeitsblätter erstellen, die sich auf Etsy und KDP verkaufen',
     tagline: 'Das Produkterstellungs-Handbuch, das Arbeitsblätter, die Käufer wählen, von Arbeitsblättern unterscheidet, an denen Käufer vorbeiscrollen',
-    description: 'Dieser Leitfaden deckt jeden Schritt der Erstellung druckbarer Arbeitsblätter ab, die professionellen Standards entsprechen und sich konstant verkaufen. Sie erfahren, was ein Arbeitsblatt professionell aussehen lässt, wie Sie mit Generatoren Designbarrieren beseitigen, wie Sie Pakete erstellen, die den Umsatz maximieren, und wie Sie Ihre Produkte vor dem Listen testen. Ob Sie auf Etsy.de, Amazon KDP, Gumroad oder Gumroad verkaufen — die Qualität Ihrer Arbeitsblätter bestimmt, ob Käufer auf \"In den Warenkorb" klicken oder weiter scrollen.',
+    description: 'Arbeitsblätter erstellen die sich verkaufen erfordert mehr als gute Inhalte — es erfordert professionelle Standards, die Käufer auf Etsy, Amazon KDP und Gumroad sofort überzeugen. Dieser Leitfaden deckt jeden Schritt ab: was ein Arbeitsblatt professionell aussehen lässt, wie Sie mit Generatoren Designbarrieren vollständig beseitigen, wie Sie thematische Pakete und Schwierigkeitsabstufungen erstellen, die den Umsatz pro Transaktion maximieren, und wie Sie Ihre Produkte vor dem Listen gründlich testen. Im deutschsprachigen Markt auf Etsy.de und Amazon.de erwarten Käufer besonders hohe Qualitätsstandards — saubere Layouts, präzise Lösungsschlüssel und konsistente Formatierung sind keine Extras, sondern Voraussetzung für positive Bewertungen. Die Qualität Ihrer Arbeitsblätter bestimmt, ob Käufer auf \"In den Warenkorb\" klicken oder weiter scrollen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen zum risikofreien Testen.',
   },
 
   introduction: 'Der Markt für druckbare Arbeitsblätter ist wettbewerbsintensiv. Tausende Verkäufer listen jede Woche neue Produkte. Doch die Mehrheit dieser Produkte teilt dasselbe Problem: Sie wirken amateurhaft. Ungleichmäßige Abstände, fehlende Lösungsschlüssel, eintönige Layouts und generische Cliparts signalisieren geringen Aufwand — und Käufer bemerken das.\n\nDie Verkäufer, die konstantes Einkommen mit Arbeitsblättern erzielen, sind diejenigen, die Produkterstellung als Handwerk behandeln. Ihre Arbeitsblätter haben saubere Layouts, präzise Lösungsschlüssel, visuell ansprechende Themen und professionelle Druckformatierung. Das sind keine Design-Genies — es sind Verkäufer, die verstehen, worauf Käufer vor dem Kauf achten, und die die richtigen Werkzeuge nutzen, um diese Standards effizient zu erfüllen.\n\nIn diesem Leitfaden geht es darum, diese Qualitätslücke zu schließen. Sie erfahren genau, was ein Arbeitsblatt in den Augen der Käufer \"professionell" macht, wie Arbeitsblatt-Generatoren die technische Komplexität übernehmen, damit Sie sich auf die Produktstrategie konzentrieren können, und den konkreten Erstellungsprozess, der verkaufsfähige Produkte in Minuten statt Stunden hervorbringt.\n\nEin wichtiger Hinweis: Jeder in diesem Leitfaden erwähnte Arbeitsblatt-Generator bietet eine kostenlose Testversion mit Wasserzeichen. Sie können den kompletten Erstellungsprozess testen, die Ausgabequalität bewerten und Muster-Arbeitsblätter erstellen, bevor Sie eine kommerzielle Lizenz erwerben. Es gibt keinerlei Risiko beim Mitmachen.',

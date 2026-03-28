@@ -2,28 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'additions-arbeitsblatt-generator',
+    primaryKeyword: 'Plusaufgaben Arbeitsblätter erstellen und auf Etsy verkaufen',
     secondaryKeywords: [
-      'druckbare Additions-Arbeitsblätter für Etsy',
-      'Mathe-Arbeitsblatt-Generator für KDP',
-      'Additions-Arbeitsblätter auf Gumroad verkaufen',
-      'Additions-Druckvorlagen kommerzielle Lizenz',
+      'Additionsaufgaben Generator für Etsy-Verkäufer',
+      'Mathe-Arbeitsblätter für Amazon KDP erstellen',
+      'Rechenblätter mit gewerblicher Lizenz',
+      'Plusaufgaben Druckvorlagen für Online-Verkauf',
+      'Bildbasierte Mathe-Arbeitsblätter für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'digitale Mathe-Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Arbeitsblätter',
-      'kommerzieller Arbeitsblatt-Generator',
+      'Gewerbliche Lizenz druckfertig 300 DPI',
+      'Mathe-Druckvorlagen Arbeitsblattgenerator DACH-Markt',
+      'Themenbilder Lösungsschlüssel digitaler Download',
     ],
-    titleTag: 'Additions-Arbeitsblatt-Generator | Mathe-Druckvorlagen',
+    titleTag: 'Plusaufgaben erstellen & auf Etsy verkaufen | LCS',
     metaDescription:
-      'Mathe-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. 104 Themen, 4 Additions-Modi, Lösungsschlüssel, 400+ DPI. Kostenlos testen mit.',
+      'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Additions-Arbeitsblatt-Generator für visuelles Mathe-Lernen',
+    title: 'Plusaufgaben-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen',
     tagline: 'Verwandeln Sie Addition in ein spannendes Abenteuer mit bildbasierten Mathe-Arbeitsblättern.',
     description:
-      'Erstellen Sie beeindruckende bildbasierte Additions-Arbeitsblätter, die frühe Mathematik greifbar und unterhaltsam machen. Wählen Sie aus vier verschiedenen Übungsmodi — Bild + Bild, Bild + Zahl, Summand finden und Gemischt — passend für jedes Niveau von der Vorschule bis zur zweiten Klasse. Stöbern Sie durch über 3.100 handverlesene Illustrationen in 104 Themen wie Bauernhoftiere, Fahrzeuge und Essen, um jede Aufgabe lebendig zu gestalten. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Ob Sie auf Etsy verkaufen, Aktivitätsbücher auf Amazon KDP veröffentlichen oder Arbeitsblätter für Ihren eigenen Shop erstellen — der Additions-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter und verkaufen Sie diese auf Etsy, Amazon KDP oder Eduki — in weniger als 3 Minuten pro Arbeitsblatt. Dieser Generator erstellt bildbasierte Additionsaufgaben mit über 3.000 thematischen Illustrationen, die Kinder ansprechen und Eltern zum Kauf bewegen. Jedes Arbeitsblatt wird als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel exportiert. Die gewerbliche Lizenz ist inklusive: kein Quellennachweis nötig, keine Gebühren, keine Einschränkungen beim Verkauf. Der deutschsprachige Markt für Mathe-Druckvorlagen auf Etsy ist deutlich weniger umkämpft als der englische — eine echte Chance für Ihr Printable-Business im DACH-Raum mit über 100 Millionen potenziellen Kunden. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

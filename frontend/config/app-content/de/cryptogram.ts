@@ -2,28 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kryptogramm-generator',
+    primaryKeyword: 'Kryptogramm-Rätsel-Generator für Etsy verkaufen',
     secondaryKeywords: [
-      'druckbare Bilder-Chiffre-Rätsel-Generator für Etsy-Verkäufer',
-      'Bildkryptogramm-Arbeitsblatt-Generator für KDP-Verleger',
-      'Geheimschrift-Rätsel mit Bildern auf Gumroad verkaufen',
-      'Bildkryptogramm-Druckvorlagen kommerzielle Lizenz',
-      'Bilder-Chiffre-Generator mit sprachabhängigem Alphabet',
+      'Bildkryptogramm-Generator für Etsy-Verkäufer',
+      'Geheimschrift-Rätselbücher für Amazon KDP erstellen',
+      'Kryptogramm-Druckvorlagen gewerbliche Lizenz',
+      'Bilder-Chiffre-Rätsel für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'digitale Geheimschrift-Rätsel-Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Bild-Buchstaben-Chiffre-Arbeitsblätter',
-      'kommerzieller Bildkryptogramm-Generator mit Buchstabenlegende',
+      'Geheimschrift Bilder-Chiffre druckfertig 300 DPI',
+      'Kryptogramm-Generator DACH-Markt Alphabet ä/ö/ü/ß',
+      'Buchstabenlegende Lösungsschlüssel kommerzielle Nutzung',
     ],
-    titleTag: 'Kryptogramm-Generator | Bilder-Chiffre-Rätsel',
-    metaDescription: 'Kryptogramm-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Bild-Buchstaben-Chiffre, deutsches Alphabet mit ä/ö/ü/ß. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kryptogramm-Rätsel für Etsy verkaufen | LCS',
+    metaDescription: 'Kryptogramm-Rätsel erstellen und auf Etsy & KDP verkaufen. Bilder-Chiffre, Alphabet mit ä/ö/ü/ß, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Bildkryptogramm-Arbeitsblatt-Generator für Bilder-Chiffre-Rätsel',
+    title: 'Kryptogramm-Rätsel erstellen und auf Etsy verkaufen',
     tagline: 'Ordnen Sie jedem Buchstaben ein Bild zu und verschlüsseln Sie ganze Sätze als visuelle Chiffre-Rätsel — einstellbare Schwierigkeit von null Hinweisen bis umfassender Hilfestellung mit Buchstaben aufdecken.',
     description:
-      'Verwandeln Sie jeden Satz oder jede Redewendung in ein Bildkryptogramm-Rätsel, bei dem jeder Buchstabe des Alphabets durch ein einzigartiges Bild ersetzt wird und Nutzer den Code knacken, indem sie herausfinden, welches Bild welchen Buchstaben darstellt. Jedes Rätsel verschlüsselt eine vollständige lesbare Nachricht — nicht nur ein einzelnes Wort — und bietet Lösern die Befriedigung, einen ganzen Satz durch Mustererkennung und logisches Schlussfolgern zu entschlüsseln. Der Regler \"Buchstaben aufdecken\" (0–10) steuert, wie viele Bild-Buchstaben-Zuordnungen als Hinweise auf dem Arbeitsblatt vorausgelöst sind: Null aufgedeckte Buchstaben erzeugen eine reine Codeknacker-Herausforderung, zehn aufgedeckte Buchstaben bieten umfangreiche Hilfestellung für Einsteiger. Diese einzige Steuerung erzeugt einen gleichmäßigen Schwierigkeitsgradienten, der Bildkryptogramme für ein breites Leistungsspektrum zugänglich macht. Auto-Zuordnung zieht zufällige Bilder aus einer der 104 thematischen Sammlungen (mehr als 3.100 Illustrationen) und füllt alle nicht zugeordneten Buchstaben sofort, oder nutzen Sie die manuelle Zuordnung, um gezielt Bilder für bestimmte Buchstaben auszuwählen — mit einer visuellen Vorschau aller Zuordnungen auf einen Blick. Der Lösungsschlüssel enthält eine vollständige Buchstabenlegende, die jeden Buchstaben des Alphabets mit seinem zugeordneten Bild in sortierter Reihenfolge zeigt — die definitive Referenz zur Lösungsüberprüfung. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sich sowohl der Geheimtext als auch der verfügbare Zeichensatz je nach Sprache ändern: Deutsche Kryptogramme verschlüsseln deutsche Sätze wie \"Der Hund liegt auf dem Sofa\" mit einem erweiterten Alphabet, das ä, ö, ü und ß umfasst — insgesamt 30 Buchstaben statt der englischen 26. Das bedeutet mehr Bild-Buchstaben-Zuordnungen, visuell reichere Chiffren und eine größere Herausforderung. Französische Kryptogramme verwenden ein Alphabet mit é, è, ç, à — jede Sprachversion ist ein grundsätzlich anderes Chiffre-Produkt. Der Farb- und Schwarzweiß-Themenfilter wechselt zwischen farbigen Illustrationen und Schwarzweiß-Strichzeichnungen für tintenschonende Arbeitsblätter. Deutsche zusammengesetzte Substantive in den Geheimtexten erzeugen längere Wörter mit mehr einzigartigen Buchstaben, was die Komplexität der Chiffre weiter erhöht — ein klarer Verkaufsvorteil für den deutschsprachigen Markt. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Ob Sie thematische Chiffre-Pakete auf Etsy.de verkaufen, Kryptogramm-Rätselbücher für Amazon KDP zusammenstellen oder gestufte Codeknacker-Stationen für den Gumroad erstellen — der Bildkryptogramm-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen. Das Eszett (ß) ist ein einzigartig deutscher Buchstabe, der sein eigenes Chiffre-Bild erhält — kein anderes Alphabet hat dieses Zeichen, was deutsche Kryptogramme zu einem unverwechselbaren Produkt macht.',
+      'Der Kryptogramm-Rätsel-Generator für Etsy verkaufen ermöglicht Ihnen die Erstellung professioneller Bilder-Chiffre-Rätsel, bei denen jeder Buchstabe durch ein einzigartiges Bild ersetzt wird. Käufer lieben das Entschlüsseln ganzer Sätze durch Mustererkennung — ein Rätselformat, das sich auf Etsy.de und Amazon KDP klar von Wortsuch- und Kreuzworträtsel-Produkten abhebt. Der einstellbare Hinweisregler (0–10 aufgedeckte Buchstaben) erzeugt gestufte Schwierigkeitsgrade, mit denen Sie aus einem einzigen Design mehrere Produktvarianten generieren können. Für den deutschsprachigen Markt bietet der Generator einen entscheidenden Vorteil: Das erweiterte Alphabet mit ä, ö, ü und ß umfasst 30 Buchstaben statt 26, was visuell reichere und komplexere Chiffren erzeugt — ein Alleinstellungsmerkmal, das kein englischsprachiger Anbieter nachbilden kann. Mit der gewerblichen Lizenz und Unterstützung für 11 Sprachen bauen Sie ein skalierbares Rätsel-Printable-Business auf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

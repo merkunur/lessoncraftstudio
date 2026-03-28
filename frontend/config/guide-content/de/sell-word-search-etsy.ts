@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Wortsuche-Rätsel auf Etsy verkaufen',
+    primaryKeyword: 'Suchsel auf Etsy verkaufen Tipps',
     secondaryKeywords: [
-      'Wortsuche-Rätsel auf Etsy verkaufen Anleitung',
-      'Etsy Wortsuche-Rätsel-Shop einrichten',
-      'druckbare Wortsuche-Rätsel Etsy Geschäft',
-      'Rätsel-Druckvorlagen auf Etsy verkaufen',
+      'Wortsuchrätsel auf Etsy einstellen Anleitung',
+      'Etsy Rätsel-Shop mehrsprachig aufbauen',
+      'druckbare Wortsuche Etsy Listing optimieren',
+      'Kreuzworträtsel und Suchsel Etsy Geschäft',
     ],
     lsiKeywords: [
-      'Etsy digitaler Download Wortsuche-Rätsel Angebotsoptimierung',
-      'Wortsuche-Rätsel-Bündel Preisstrategie Etsy Verkäufer',
-      'Etsy SEO Tags für druckbare Rätsel-Arbeitsblätter',
-      'Kreuzworträtsel Buchstabensalat Rätsel Etsy Shop verkaufen',
-      'Feiertags-thematische Wortsuche-Druckvorlagen Etsy saisonale Strategie',
-      'Etsy Angebotsfotos Mockups für Wortsuche-Rätsel-Produkte',
+      'digitaler Download Worträtsel Angebotsoptimierung',
+      'Etsy SEO Tags druckbare Rätsel-Arbeitsblätter',
+      'Rätsel-Bündel Preisstrategie mehrsprachig',
     ],
-    titleTag: 'Wortsuche-Rätsel auf Etsy verkaufen — Leitfaden',
-    metaDescription: 'Wortsuchrätsel auf Etsy verkaufen mit 4 Generatoren. Etsy-SEO, Angebotsoptimierung und Bündelstrategien mit Kreuzworträtseln. Saisonales Timing für Verkäufer.',
+    titleTag: 'Suchsel auf Etsy verkaufen — Anleitung | LCS',
+    metaDescription: 'Suchsel auf Etsy verkaufen — Tipps zu Etsy-SEO, mehrsprachigen Worträtsel-Angeboten, Bündelstrategien und saisonalem Timing für Ihren Rätsel-Shop auf Etsy.',
   },
 
   hero: {
-    title: 'Wortsuche-Rätsel auf Etsy verkaufen',
+    title: 'Suchsel und Worträtsel erfolgreich auf Etsy verkaufen',
     tagline: 'Ein umfassender Plattform-Leitfaden für den Aufbau eines profitablen Etsy-Shops, der Wortsuche-Rätsel und ergänzende Sprachrätsel-Formate verkauft — einschließlich Etsy-Shop-Einrichtung, SEO-Optimierung mit allen 13 Tags, Angebotstiteln und -beschreibungen die für Rätsel-Käufer-Suchbegriffe ranken, Produktfotografie mit Rätselgittern und Lösungsschlüsseln, Preisstrategien für einzelne Rätsel und thematische Bündel, saisonalem Timing für Feiertags- und Produkterstellungs-Hochphasen, Katalogplanung über Wortsuche, Kreuzworträtsel, Buchstabensalat und Kryptogramm-Formate, sprachspezifische Produktmöglichkeiten in mehrsprachigen Märkten sowie fortlaufender Shop-Optimierung mit Etsy Stats und Suchanalysen',
-    description: 'Wortsuche-Rätsel gehören zu den nachfragestärksten druckbaren Rätselformaten auf Etsy, gekauft von Käufern, Eltern, Aktivitätsleitern und erwachsenen Rätselbegeisterten. Dieser Leitfaden führt Sie durch jeden Schritt beim Aufbau eines Etsy-Shops, der Wortsuche-Rätsel neben ergänzenden Rätselformaten verkauft — von der Recherche der Käufernachfrage und Planung Ihres Produktkatalogs über die Inventarerstellung mit 4 Rätsel-Tools bis hin zum Schreiben optimierter Angebote, der Erstellung von Angebotsfotos, der Preisfestlegung und dem Shop-Start. Sie erfahren, wie sich Wortsuche-Rätsel von anderen Druckvorlagen-Kategorien in Bezug auf Sprachsensibilität, Käuferdemografie, Cross-Selling-Möglichkeiten und Amazon-KDP-Crossover-Potenzial unterscheiden.',
+    description: 'Suchsel auf Etsy verkaufen — diese Anleitung zeigt Ihnen, wie Sie einen profitablen Rätsel-Shop aufbauen, der sich durch Formatvielfalt und mehrsprachige Angebote von der Konkurrenz abhebt. Wortsuchrätsel gehören zu den nachfragestärksten druckbaren Formaten auf Etsy und werden von Eltern, Aktivitätsleitern, Seniorenzentren und Rätselbegeisterten gekauft. Die Sprachsensibilität dieser Produkte schafft einen einzigartigen Wettbewerbsvorteil: Rätsel in 11 Sprachen erschließen Märkte, die englischsprachige Verkäufer nicht bedienen. Sie erfahren Schritt für Schritt, wie Sie mit 4 Rätsel-Generatoren Ihren Produktkatalog planen, mehrsprachige Angebote erstellen und für die Etsy-Suche optimieren. Der Leitfaden behandelt Angebotsfotos, Preisstrategien, saisonales Timing und Cross-Selling-Möglichkeiten mit Kreuzworträtseln, Buchstabensalat und Kryptogrammen — inklusive KDP-Crossover-Potenzial für Rätselbücher.',
   },
 
   introduction: 'Wortsuche-Rätsel nehmen eine einzigartige Position im Etsy-Druckvorlagen-Marktplatz ein. Anders als Mathe-Arbeitsblätter oder Ausmalseiten, die rein visuell sind, ist Wortsuche-Inhalt sprachgesteuert — die im Gitter versteckten Wörter ändern sich je nach Sprache, Thema und Wortschatzniveau. Diese Sprachsensibilität schafft sowohl eine Produktdifferenzierungsmöglichkeit als auch einen Wettbewerbsvorteil, den viele Verkäufer übersehen.\n\nDie Nachfrage nach druckbaren Wortsuche-Rätseln auf Etsy erstreckt sich über eine ungewöhnlich breite Käuferdemografie. Käufer kaufen thematische Wortsuche-Arbeitsblätter zur Wortschatzfestigung und Rechtschreibübung im Produkterstellung. Eltern kaufen sie als bildschirmfreie Aktivitäten für Autofahrten, Regentage und ruhige Zeiten. Homeschool-Familien nutzen Wortsuche-Rätsel als ansprechende Alternativen zu traditionellen Vokabelübungen. Aktivitätsleiter in Seniorenzentren und Pflegeeinrichtungen kaufen großgedruckte Wortsuchen zur kognitiven Beschäftigung. Erwachsene Rätselbegeisterte kaufen thematische Sammlungen zur persönlichen Unterhaltung. Diese Breite der Nachfrage bedeutet, dass Ihre Wortsuche-Produkte für Suchbegriffe über mehrere Käuferkategorien hinweg ranken können.\n\nDie Rätsel-Druckvorlagen-Nische auf Etsy hat einen entscheidenden Vorteil gegenüber anderen Druckvorlagen-Kategorien: natürliches Cross-Selling. Käufer, die Wortsuche-Rätsel erwerben, kaufen häufig auch Kreuzworträtsel, Buchstabensalat und Kryptogramme vom selben Shop. Ein Rätsel-Shop, der alle vier Formate führt, erzielt deutlich mehr Umsatz pro Kunde als ein Shop, der nur einen Rätseltyp verkauft. Die 4 Rätsel-Generatoren — Wortsuche, Kreuzworträtsel, Buchstabensalat und Kryptogramm — produzieren ergänzende Formate, die Themen und Wortschatz teilen, wodurch die Erstellung von Multi-Format-Produkten effizient wird.\n\nEtsys Algorithmus belohnt Shops, die Kategorieexpertise durch konsistente, verwandte Angebote demonstrieren. Ein spezialisierter Rätsel-Shop mit 20 bis 30 Wortsuche-Angeboten, ergänzt durch Kreuzworträtsel-, Buchstabensalat- und Kryptogramm-Produkte, signalisiert tiefe Nischenspezialisierung. Dieser Kategoriefokus verbessert den Qualitätsscore Ihres Shops und hilft Etsy, Ihre Produkte Käufern zu empfehlen, die ähnliche Rätsel-Angebote von Wettbewerbern durchstöbern.\n\nWortsuche-Rätsel haben auch erhebliches Amazon-KDP-Crossover-Potenzial. Derselbe Rätselinhalt, der als einzelner digitaler Download auf Etsy verkauft wird, kann zu Rätselbüchern für KDP-Publishing zusammengestellt werden. Viele erfolgreiche Rätselverkäufer betreiben beide Plattformen gleichzeitig, nutzen Etsy für einzelne thematische Downloads und KDP für zusammengestellte Rätselbücher. Dieser Dual-Plattform-Ansatz maximiert den Umsatz aus jedem erstellten Rätsel.\n\nEin weiterer wettbewerbsspezifischer Vorteil von Wortsuche-Rätseln ist die mehrsprachige Marktchance. Da Wortsuche-Inhalt sprachabhängig ist, eröffnet die Erstellung von Rätseln in Sprachen über Englisch hinaus — Spanisch, Französisch, Deutsch und andere — Marktsegmente mit dramatisch weniger Wettbewerb. Die meisten Etsy-Wortsuche-Verkäufer bieten nur englischsprachige Produkte an, sodass ein Shop mit mehrsprachigen Rätsel-Angeboten weniger Konkurrenten gegenübersteht und gleichzeitig unterversorgte Käuferpools anspricht.',

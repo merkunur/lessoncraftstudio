@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Mehr-oder-Weniger-Ersteller',
+    primaryKeyword: 'kostenloser Größer-Kleiner-Generator',
     secondaryKeywords: [
-      'Größer-Kleiner-Arbeitsblatt Generator',
-      'Mengenvergleich-Übungen online erstellen',
-      'druckbare Vergleichs-Arbeitsblätter',
-      'Ankreuzen-und-Durchstreichen-Arbeitsblatt Ersteller',
+      'Größer-Kleiner-Arbeitsblätter kostenlos erstellen',
+      'Mengenvergleich-Generator online ohne Anmeldung',
+      'kostenloser Vergleichs-Arbeitsblatt Ersteller',
+      'Mehr-oder-Weniger-Übungen online erstellen',
     ],
     lsiKeywords: [
-      'visuelle Vergleichs-Druckvorlagen für Etsy',
-      'Mengenvergleich-Arbeitsblatt-Tool',
-      'Ankreuzen-und-Durchstreichen-Aktivitäten Generator',
+      'Ankreuzen-und-Durchstreichen-Aktivitäten zum Ausdrucken',
+      'Mengenvergleich-Arbeitsblätter für Vorschule',
+      'visuelle Größer-als Kleiner-als Übungen',
     ],
-    titleTag: 'Mehr-oder-Weniger-Ersteller | Vergleichsübungen',
-    metaDescription: 'Größer-als- und Kleiner-als-Arbeitsblätter mit Bildern erstellen. Drei Modi inkl. Ankreuzen und Durchstreichen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Größer-Kleiner Generator | LCS',
+    metaDescription: 'Kostenloser Größer-Kleiner-Generator mit drei Vergleichsmodi inkl. Ankreuzen und Durchstreichen. 104 Themen, ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Mehr-oder-Weniger-Ersteller',
+    title: 'Größer-Kleiner-Arbeitsblätter kostenlos erstellen online',
     tagline: 'Visuelle Vergleichs-Arbeitsblätter mit drei Übungsmodi in unter 60 Sekunden erstellen',
-    description: 'Bringen Sie Größer als, Kleiner als und Gleich mit bildbasierten Vergleichs-Arbeitsblättern bei, die abstrakte Konzepte greifbar machen. Dieses Tool generiert drei verschiedene Übungstypen: Bild zu Bild (zwei Bildergruppen nebeneinander vergleichen), Bild zu Zahl (visuelles Zählen mit geschriebenen Ziffern verbinden) und den einzigartigen Ankreuzen-und-Durchstreichen-Modus, bei dem Nutzer eine gemischte Box mit durcheinander geworfenen Bildern aus zwei Kategorien in Mehrheits- und Minderheitsgruppen sortieren. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 Illustrationen, legen Sie Ihren Zahlenbereich fest, wählen Sie zwischen illustrierten oder Standard-Vergleichszeichen und laden Sie druckfertige PDFs oder hochauflösende JPEGs herunter. Da die Arbeitsblätter ausschließlich Bilder, Zahlen und Symbole verwenden, funktionieren sie sprachunabhängig in allen 11 unterstützten Sprachen — einmal erstellen und weltweit an Käufer verkaufen. Perfekt für Etsy.de-Verkäufer, Amazon-KDP-Verleger und Gumroad-Anbieter. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Größer-Kleiner-Arbeitsblätter mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Installation. Drei verschiedene Übungstypen stehen bereit: Bild zu Bild (zwei Bildergruppen nebeneinander vergleichen), Bild zu Zahl (visuelles Zählen mit Ziffern verbinden) und der einzigartige Ankreuzen-und-Durchstreichen-Modus für Sortierübungen. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 Illustrationen, legen Sie Ihren Zahlenbereich fest und wählen Sie zwischen illustrierten oder Standard-Vergleichszeichen. Die Arbeitsblätter verwenden ausschließlich Bilder, Zahlen und Symbole und funktionieren sprachunabhängig. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

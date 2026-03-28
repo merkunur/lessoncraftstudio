@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'wortsuche-generator',
+    primaryKeyword: 'kostenloser Suchsel-Generator mit Bildern',
     secondaryKeywords: [
-      'Wortsuchrätsel-Ersteller für Verkäufer',
-      'Buchstabengitter-Arbeitsblätter online erstellen',
-      'druckbare Wortgitter-Rätsel kommerziell',
-      'mehrsprachiger Wortsuche-Generator für KDP',
+      'Suchsel-Generator kostenlos online',
+      'Wortsuchrätsel erstellen ohne Anmeldung',
+      'Wortsuche Generator sofort nutzen',
+      'kostenlose Buchstabengitter-Rätsel mit Bildern',
     ],
     lsiKeywords: [
-      'versteckte-Wörter-Gitterrätsel-Druckvorlagen für Etsy',
-      'sprachabhängiges Wortsuche-Arbeitsblatt-Tool',
-      'mehrsprachiger Buchstabengitter-Rätsel-Generator',
+      'versteckte-Wörter-Gitterrätsel druckfertig',
+      'sprachabhängige Füllbuchstaben Wortsuche',
+      'Buchstabengitter-Rätsel mehrsprachig',
     ],
-    titleTag: 'Wortsuche-Generator | Buchstabengitter-Rätsel',
-    metaDescription: 'Wortsuche-Arbeitsblätter mit Gittern 5×5 bis 30×30 und Richtungssteuerung erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Suchsel-Generator mit Bildern | LCS',
+    metaDescription: 'Kostenloser Suchsel-Generator mit Bildern — Wortsuchrätsel online erstellen, 11 Sprachen, Richtungssteuerung. Testversion mit Wasserzeichen verfügbar.',
   },
 
   hero: {
-    title: 'Wortsuche-Arbeitsblatt-Generator',
+    title: 'Suchsel-Generator — Wortsuchrätsel mit Bildern kostenlos erstellen',
     tagline: 'Versteckte-Wörter-Gitterrätsel mit einstellbaren Größen, Richtungssteuerung und sprachabhängigen Füllbuchstaben in 11 Sprachen erstellen',
-    description: 'Erstellen Sie professionelle Wortsuche-Arbeitsblätter, bei denen versteckte Wörter in einem Gitter aus zufälligen Füllbuchstaben eingebettet sind und Nutzer Zeilen, Spalten und Diagonalen durchsuchen, um jedes Wort zu finden — das klassische Buchstabengitter-Rätsel, das nie aus der Mode kommt. Dieses Tool gibt Ihnen präzise Kontrolle über die Schwierigkeit durch zwei unabhängige Achsen: Gittergröße (einstellbar von 5×5 bis 30×30 mit unabhängig einstellbaren Zeilen und Spalten) und Wortrichtungs-Schalter (diagonale Wörter ein/aus, rückwärts laufende Wörter ein/aus), die zwischen zwei und acht mögliche Platzierungsrichtungen erzeugen. Wählen Sie aus drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Drei Anzeigemodi — Wörter und Bilder, nur Bilder und nur Wörter — steuern, was als Hinweise neben dem Gitter erscheint. Die herausragende Funktion sind sprachabhängige Füllbuchstaben: Beim Sprachwechsel ändern sich die Gitter-Füllbuchstaben, um den Zeichensatz der Zielsprache mit gewichteten Häufigkeitsverteilungen widerzuspiegeln. Deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeiten. Französische Gitter enthalten é, è, ç, à. Schwedische Gitter enthalten å, ä, ö. Jede Sprache erhält authentische Füllzeichen, sodass Rätsel sprachlich echt wirken statt offensichtlich englisch generiert. Diese doppelte Sprachabhängigkeit — sowohl versteckte Wörter als auch Füllbuchstaben ändern sich — macht jede Sprachversion zu einem eigenständigen Produkt. Deutsche zusammengesetzte Substantive wie \"Schmetterling\" (13 Buchstaben) spannen sich über deutlich mehr Gitterzellen als englische Äquivalente, und Umlaute wie ö in \"Löwe\" erscheinen sowohl als versteckte Buchstaben als auch als natürliche Füllzeichen — dadurch verschmilzt das Wort nahtloser mit dem Gitterhintergrund. Ein farbcodierter Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor — Rosa, Blau, Grün, Gold, Koralle und Lavendel — für sofortige visuelle Überprüfung. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Wählen Sie aus 7 Schriftfamilien, fügen Sie Felder für Name und Datum hinzu, schalten Sie den Graustufen-Export für tintenschonende Ausgabe ein und nutzen Sie die vollständige Fabric.js-Arbeitsfläche zum Neupositionieren jedes Elements. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+        description: 'Unser kostenloser Suchsel-Generator mit Bildern erstellt professionelle Wortsuche-Arbeitsblätter — direkt im Browser, ohne Anmeldung und ohne Installation. Versteckte Wörter werden in einem Gitter aus zufälligen Füllbuchstaben eingebettet, und Nutzer durchsuchen Zeilen, Spalten und Diagonalen, um jedes Wort zu finden. Sie haben präzise Kontrolle über die Schwierigkeit: Gittergröße von 5x5 bis 30x30, diagonale Wörter ein/aus und rückwärts laufende Wörter ein/aus. Wählen Sie aus drei Inhaltsquellen: Bildbibliothek-Modus mit über 3.100 Illustrationen, manueller Bearbeitungsmodus oder benutzerdefinierte Wortlisten. Die herausragende Funktion sind sprachabhängige Füllbuchstaben — deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeiten. Ein farbcodierter Lösungsschlüssel hebt jedes Wort visuell hervor. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

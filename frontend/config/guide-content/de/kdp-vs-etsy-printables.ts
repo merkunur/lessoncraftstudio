@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP oder Etsy Druckvorlagen',
+    primaryKeyword: 'Amazon KDP oder Etsy Druckvorlagen Vergleich',
     secondaryKeywords: [
-      'Amazon KDP oder Etsy für Druckvorlagen verkaufen',
       'wo Druckvorlagen online verkaufen beste Plattform',
-      'KDP oder Etsy welche Plattform besser für Druckvorlagen',
-      'Druckvorlagen auf mehreren Plattformen verkaufen Strategie',
+      'KDP Etsy Gebühren Gewinnmargen Vergleich',
+      'Druckvorlagen Multi-Plattform-Strategie aufbauen',
+      'digitaler Download vs Print-on-Demand Vergleich',
     ],
     lsiKeywords: [
-      'Digitaler Download Marktplatz Print-on-Demand Verlagsplattform Vergleich',
-      'Etsy Einstellungsgebühr Transaktionsgebühr KDP Tantieme Druckkosten',
-      'Etsy SEO Tags Algorithmus Amazon A9 Backend-Keywords Kategorien',
-      'Digitales PDF Druckvorlage physisches gedrucktes Buch Formatkonvertierung',
-      'Multi-Plattform-Verkaufsstrategie plattformübergreifendes Druckvorlagen-Geschäft',
-      'Druckvorlage Arbeitsblatt Aktivitätsbuch Malvorlage Rätselbuch Marktplatz',
+      'Etsy Transaktionsgebühr KDP Tantieme Druckkosten',
+      'Etsy SEO Amazon A9 Backend-Keywords Kategorien',
+      'plattformübergreifendes Druckvorlagen-Geschäft Strategie',
     ],
-    titleTag: 'KDP oder Etsy Druckvorlagen — Vergleichsleitfaden',
-    metaDescription: 'KDP oder Etsy Druckvorlagen Vergleich. Gebührenstrukturen, Produktformate, Traffic-Mechanismen und Multi-Plattform-Strategie für Ihr Druckvorlagen-Geschäft.',
+    titleTag: 'KDP vs Etsy: Wo Druckvorlagen verkaufen | LCS',
+    metaDescription: 'Amazon KDP oder Etsy für Druckvorlagen? Systematischer Vergleich von Gebühren, Traffic, Produktformaten und die Multi-Plattform-Strategie für maximalen Umsatz.',
   },
 
   hero: {
-    title: 'Amazon KDP oder Etsy: Wo Sie Druckvorlagen verkaufen sollten',
+    title: 'KDP vs Etsy: Wo Sie Ihre Druckvorlagen verkaufen',
     tagline: 'Ein direkter Vergleich der beiden dominierenden Plattformen für Druckvorlagen-Verkäufer — mit dem grundlegenden Unterschied zwischen digitalen Downloads und Print-on-Demand, Gebührenstrukturen und realen Gewinnmargen, Traffic- und Auffindbarkeits-Mechanismen, welche Produkttypen zu welcher Plattform passen, Einstellungs- und Veröffentlichungsabläufen, Käuferverhaltens-Mustern, der Multi-Plattform-Strategie zur Umsatzmaximierung und einem Entscheidungsrahmen für die Wahl der richtigen Startplattform basierend auf Inhaltstyp, Volumen und Geschäftszielen',
-    description: 'Etsy und Amazon KDP sind die beiden größten Plattformen für den Verkauf von Druckvorlagen-Inhalten, bedienen aber grundlegend unterschiedliche Märkte mit unterschiedlicher Wirtschaftlichkeit. Etsy verkauft digitale PDF-Downloads, die Käufer zu Hause ausdrucken. KDP verkauft physisch gedruckte Bücher, die Amazon herstellt und versendet. Gleiche Lerninhalte, völlig unterschiedliche Produktformate, Käufererlebnisse und Umsatzmodelle. Dieser Leitfaden bietet einen systematischen Vergleich über alle relevanten Dimensionen — Gebühren, Traffic, Produkteignung, Arbeitsabläufe und Käuferverhalten — damit Sie eine fundierte Entscheidung treffen können, wo Sie Ihre Druckvorlagen verkaufen und wie Sie eine Multi-Plattform-Strategie aufbauen, die Umsätze aus beiden Marktplätzen generiert.',
+    description: 'Amazon KDP oder Etsy — wo sollten Sie Ihre Druckvorlagen verkaufen? Dieser Leitfaden bietet einen systematischen Vergleich der beiden größten Plattformen für Printable-Unternehmer. Etsy verkauft digitale PDF-Downloads mit sofortiger Lieferung, KDP verkauft physisch gedruckte Bücher über Amazons Print-on-Demand-Infrastruktur — gleiche Lerninhalte, aber völlig unterschiedliche Produktformate, Käufererwartungen und Umsatzmodelle. Sie erfahren, wie sich Gebührenstrukturen und reale Gewinnmargen konkret unterscheiden, welche Produkttypen zu welcher Plattform passen und wie die Traffic-Mechanismen — Etsys Suchalgorithmus versus Amazons A9 mit Empfehlungsfunktionen — auf beiden Seiten funktionieren. Für Verkäufer im DACH-Markt behandelt der Leitfaden auch die Rolle von Eduki als dritte Option. Außerdem erhalten Sie einen klaren Entscheidungsrahmen für die richtige Startplattform und eine Multi-Plattform-Strategie zur Umsatzmaximierung.',
   },
 
   introduction: 'Jeder Druckvorlagen-Verkäufer steht vor derselben strategischen Frage: Soll man auf Etsy, Amazon KDP oder auf beiden Plattformen verkaufen? Die Antwort hängt davon ab, was Sie erstellen, wie viel Content Sie haben und welche Art von Geschäft Sie aufbauen möchten. Aber diese Entscheidung ohne Verständnis der grundlegenden Unterschiede zwischen den Plattformen zu treffen, führt zu verschwendeter Mühe, falschen Produktformaten und verpassten Umsätzen.\n\nEtsy und Amazon KDP erscheinen oberflächlich ähnlich — beide ermöglichen den Verkauf von Lern- und Kreativinhalten an ein globales Publikum. Aber die Gemeinsamkeiten enden dort. Etsy ist ein Marktplatz für digitale Downloads, auf dem Käufer PDF-Dateien kaufen und zu Hause oder im Copyshop ausdrucken. KDP ist eine Print-on-Demand-Verlagsplattform, auf der Amazon Bücher physisch druckt, bindet und an Käufer versendet. Dieser Unterschied beeinflusst alles: Ihr Inhaltsformat, Ihre Preisstrategie, Gewinnmargen, Produktionsabläufe und die Art der Käufer, die Ihre Produkte entdecken.\n\nDie Gebührenstrukturen unterscheiden sich erheblich. Etsy erhebt Einstellungsgebühren, Transaktionsgebühren und Zahlungsabwicklungsgebühren bei jedem Verkauf. KDP zieht die Druckkosten vom Listenpreis ab und zahlt Ihnen einen Prozentsatz des Rests als Tantieme. Keines der Modelle ist generell besser — die Wirtschaftlichkeit begünstigt unterschiedliche Produkttypen bei unterschiedlichen Preispunkten. Eine einzelne Druckvorlage für 3 € erzielt vernünftige Margen auf Etsy, wäre aber auf KDP nicht rentabel zu veröffentlichen. Ein 120-seitiges Aktivitätsbuch erzielt starke Tantiemen auf KDP, wäre aber als digitaler Etsy-Download schwer wettbewerbsfähig zu bepreisen.\n\nTraffic und Auffindbarkeit funktionieren auf jeder Plattform anders. Etsy verwendet einen Suchalgorithmus, der Listing-Qualität, Relevanz und Aktualität gewichtet, mit optionaler bezahlter Werbung über Etsy Ads. Amazon nutzt den A9-Suchalgorithmus mit Backend-Keyword-Feldern, Kategorie-Navigation und leistungsstarken Empfehlungsfunktionen wie \"Kunden, die diesen Artikel gekauft haben, kauften auch". Die Kaufabsicht unterscheidet sich ebenfalls — Etsy-Käufer stöbern nach einzigartigen handgefertigten Artikeln und tätigen oft Impulskäufe, während Amazon-Käufer nach bestimmten Produkten suchen und vergleichen, bevor sie kaufen.\n\nDieser Leitfaden vergleicht Etsy und KDP systematisch über alle Faktoren, die Ihr Druckvorlagen-Geschäft beeinflussen. Anstatt eine Plattform als überlegen zu erklären, präsentieren wir die objektiven Kompromisse, damit Sie Ihre spezifischen Inhalte, Ziele und Ihre Situation der richtigen Plattformstrategie zuordnen können. Für detaillierte plattformspezifische Taktiken verweist dieser Leitfaden durchgehend auf die dedizierten Etsy-Verkaufsleitfäden und KDP-Veröffentlichungsleitfäden — hier konzentrieren wir uns ausschließlich auf den Vergleich und den Entscheidungsrahmen, der Ihnen hilft zu wählen, wo und wie Sie verkaufen.',

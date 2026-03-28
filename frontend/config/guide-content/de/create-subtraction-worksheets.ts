@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Subtraktions-Arbeitsblätter erstellen',
+    primaryKeyword: 'Minusaufgaben-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Subtraktions-Arbeitsblätter für Kinder erstellen',
-      'Subtraktions-Arbeitsblatt-Generator',
-      'druckbare Subtraktions-Arbeitsblätter zum Verkaufen',
-      'individuelle Subtraktionsübungen erstellen',
+      'Subtraktions-Arbeitsblätter für Etsy produzieren',
+      'Minusaufgaben-PDFs auf KDP verkaufen',
+      'druckbare Subtraktionsübungen kommerziell erstellen',
+      'Subtraktions-Arbeitsblatt-Generator für Verkäufer',
     ],
     lsiKeywords: [
-      'durchgestrichene Bilder Subtraktions-Arbeitsblätter',
-      'visuelle Subtraktion für Kindergarten',
-      'Erste Klasse Subtraktionsübungen',
-      'Subtraktions-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Subtraktions-Aktivitätsbücher',
-      'kommerzielle Lizenz Arbeitsblatt-Tool',
+      'durchgestrichene Bilder Mathe-Druckvorlagen Geschäft',
+      'Etsy Printable Subtraktions-Übungen verkaufen',
+      'KDP Mathe-Arbeitsbuch Subtraktion veröffentlichen',
     ],
-    titleTag: 'Subtraktions-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Subtraktions-Arbeitsblätter mit durchgestrichenen Bildern und Lösungsschlüsseln erstellen. Visuelle Themen wählen und auf Etsy, Amazon KDP und Gumroad verkaufen.',
+    titleTag: 'Minusaufgaben zum Verkaufen erstellen | LCS',
+    metaDescription: 'Minusaufgaben-Arbeitsblätter zum Verkaufen erstellen. Durchgestrichene Bilder, Lösungsschlüssel, Themen wählen und druckfertige PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'Subtraktions-Arbeitsblätter für Kinder erstellen',
+    title: 'Minusaufgaben-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung thematischer Subtraktions-Arbeitsblätter mit durchgestrichenen Bildern, konfigurierbarem Schwierigkeitsgrad und druckfertigen Exporten zum Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Subtraktions-Arbeitsblätter sind der natürliche zweite Schritt in jedem Mathe-Produktkatalog. Sobald Kinder die Addition beherrschen, folgt die Subtraktion unmittelbar — und damit auch die Nachfrage nach Übungsmaterialien. Eltern, Käufer und Selbststudium-Käufer brauchen alle Subtraktionsressourcen, die zum Schwierigkeitsgrad ihrer Nutzer passen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Subtraktions-Arbeitsblatt-Generator — vom Einstellen des Maximalen Minuenden und der Auswahl eines visuellen Themas bis zum Export professioneller, druckfertiger PDFs mit automatischen Lösungsschlüsseln. Das Markenzeichen des Subtraktions-Generators ist der Übungsmodus Durchstreichen, bei dem Kinder eine Gruppe thematischer Bilder sehen, von denen einige visuell durchgestrichen sind, und bestimmen müssen, wie viele übrig bleiben. Ob Sie Subtraktionsprodukte zu einer bestehenden Mathe-Arbeitsblatt-Linie hinzufügen oder Ihr erstes Druckvorlagen-Produkt erstellen — am Ende dieser Anleitung haben Sie ein fertiges Arbeitsblatt bereit zum Einstellen.',
+    description: 'Minusaufgaben-Arbeitsblätter zum Verkaufen erstellen ist der logische nächste Schritt, wenn Sie bereits Additions-Produkte in Ihrem Druckvorlagen-Shop anbieten. Subtraktionsübungen sind auf Etsy, Amazon KDP und Gumroad ganzjährig nachgefragt — Eltern kaufen sie zum Üben zu Hause, Nachhilfezentren brauchen passende Sets zu jedem Schwierigkeitsgrad, und Homeschool-Familien suchen gezielt nach Ergänzungen zu ihren Mathe-Materialien. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Subtraktions-Arbeitsblatt-Generator: Sie stellen den Maximalen Minuenden ein, wählen ein visuelles Thema und exportieren professionelle, druckfertige PDFs mit automatischen Lösungsschlüsseln. Das Markenzeichen des Generators ist der Übungsmodus Durchstreichen, bei dem thematische Bilder visuell durchgestrichen werden und Kinder bestimmen, wie viele übrig bleiben. Vier Übungsmodi, über 100 Themen und elf Sprachen ermöglichen es Ihnen, aus einer Sitzung Dutzende verkaufsfähige Varianten zu produzieren. Ob Sie Subtraktionsprodukte zu einer bestehenden Mathe-Produktlinie hinzufügen oder Ihr erstes Druckvorlagen-Produkt erstellen — am Ende dieser Anleitung haben Sie ein fertiges Arbeitsblatt bereit zum Einstellen.',
   },
 
   introduction: 'Subtraktion ist die zweite Rechenoperation, die Kinder lernen, und sie folgt der Addition in jedem Produktkatalog weltweit. Diese Reihenfolge erzeugt ein zuverlässiges Nachfragemuster: Überall, wo sich Additions-Arbeitsblätter verkaufen, verkaufen sich Subtraktions-Arbeitsblätter direkt danach. Käufer, die Ihre Additionsprodukte erwerben, werden aktiv nach passenden Subtraktionsmaterialien suchen, was dies zu einer natürlichen Katalogerweiterung mit einem eingebauten Publikum macht.\n\nWas Subtraktions-Arbeitsblätter als Druckvorlagen-Produkt besonders macht, ist das visuelle Element. Während Additions-Arbeitsblätter zwei Gruppen zeigen, die zusammengefügt werden, zeigen Subtraktions-Arbeitsblätter Elemente, die entfernt werden — typischerweise durch durchgestrichene Bilder. Diese visuelle Darstellung des \"Wegnehmens" ist die Art, wie Kinder Subtraktion zuerst konzeptionell verstehen, und sie macht Subtraktions-Arbeitsblätter in Marktplatz-Vorschaubildern sofort erkennbar und ansprechend.\n\nDer Subtraktions-Arbeitsblatt-Generator übernimmt die gesamte technische Komplexität bei der Erstellung dieser Visualisierungen. Er platziert thematische Bilder auf der Leinwand, markiert die korrekte Anzahl als durchgestrichen, generiert die entsprechende Gleichung und erstellt einen automatischen Lösungsschlüssel. Der Generator unterstützt vier Übungsmodi — Durchstreichen, Bild – Zahl, Subtrahend finden und Gemischter Modus — die jeweils verschiedene Lernstufen und Käuferbedürfnisse bedienen. Der Schwierigkeitsgrad wird über die Einstellung Maximaler Minuend gesteuert, die die größte Zahl bestimmt, von der Kinder subtrahieren.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Arbeitsblätter erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

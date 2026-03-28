@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Lernmaterial auf Etsy verkaufen',
+    primaryKeyword: 'Lern-Druckvorlagen auf Etsy verkaufen für Anfänger',
     secondaryKeywords: [
-      'praktische Druckvorlagen auf Etsy verkaufen Anleitung',
-      'Etsy Lernmaterial-Shop Strategie',
-      'druckbare Arbeitsblätter Etsy Geschäft Multi-Kategorie',
-      'Arbeitsblätter und Aktivitäten auf Etsy verkaufen',
+      'Multi-Kategorie Druckvorlagen-Shop Etsy aufbauen',
+      'Arbeitsblätter und Aktivitäten auf Etsy einstellen',
+      'Etsy Lernmaterial-Shop 33 Generatoren Strategie',
+      'kategorieübergreifende Druckvorlagen Etsy Geschäft',
     ],
     lsiKeywords: [
-      'Etsy digitaler Download praktische Aktivitäten Angebotsoptimierung',
-      'Multi-Kategorie Druckvorlagen-Shop Preisstrategie Etsy Verkäufer',
-      'Etsy SEO Tags für praktische Arbeitsblatt- und Rätselprodukte',
-      'Mathe Lesen Rätsel Druckvorlagen Etsy Shop diversifiziert verkaufen',
-      'kategorieübergreifende praktische Druckvorlagen-Bündelung Etsy Strategie',
-      'Etsy Angebotsfotos Mockups für praktische Druckvorlagen-Produkte',
+      'digitaler Download Aktivitäten Angebotsoptimierung Etsy',
+      'kategorieübergreifende Bündelung Preisstrategie',
+      'Mathe Rätsel Malvorlagen Etsy Shop diversifiziert',
     ],
-    titleTag: 'Lernmaterial auf Etsy verkaufen — Leitfaden',
-    metaDescription: 'Praktische Druckvorlagen auf Etsy verkaufen mit 33 Generatoren. Shop-Strategie, Etsy-SEO und kategorieübergreifende Bündelung.',
+    titleTag: 'Lernmaterial auf Etsy verkaufen (Anfänger) | LCS',
+    metaDescription: 'Lern-Druckvorlagen auf Etsy verkaufen für Anfänger: Multi-Kategorie-Shopstrategie, Etsy-SEO für 33 Generatoren und kategorieübergreifende Bündelung erklärt.',
   },
 
   hero: {
-    title: 'Lernmaterial auf Etsy verkaufen',
+    title: 'Lern-Druckvorlagen auf Etsy verkaufen — Anfänger-Guide',
     tagline: 'Ein umfassender Plattform-Leitfaden für den Aufbau eines diversifizierten Etsy-Shops, der praktische Druckvorlagen verkauft, erstellt mit 33 spezialisierten Generatoren in 6 Kategorien — einschließlich Multi-Kategorie-Shop-Strategie, kategoriespezifischer Etsy-SEO-Optimierung mit allen 13 Tags, kategorieübergreifender Bündelung und Preisgestaltung, Angebotsfotografie für verschiedene Produkttypen, saisonaler Produktrotation über Mathe-Arbeitsblätter, Lese-Aktivitäten, visuelles Lernen, Zuordnungsübungen, Rätsel und Such-und-Finde-Spiele sowie Skalierung von einer einzelnen Kategorie zu einem vollständigen Lernmaterial-Shop',
-    description: 'Praktische Druckvorlagen gehören zu den am häufigsten gesuchten digitalen Produktkategorien auf Etsy. Eltern, Käufer, Homeschooler und Selbststudiumzentren suchen jeden Tag nach Mathe-Arbeitsblättern, Wortsuche-Rätseln, Malvorlagen, Zuordnungsaktivitäten, Sudoku-Büchern und Dutzenden weiterer praktischer Formate. Dieser Leitfaden zeigt Ihnen, wie Sie einen diversifizierten Etsy-Shop aufbauen, der alle 6 praktischen Druckvorlagen-Kategorien mit 33 spezialisierten Generatoren abdeckt — und damit einen Wettbewerbsvorteil schaffen, den Ein-Kategorie-Shops nicht erreichen können. Ob Sie Ihre erste praktische Druckvorlage veröffentlichen oder einen bestehenden Shop in neue Kategorien erweitern — am Ende dieses Leitfadens haben Sie eine vollständige Multi-Kategorie-Strategie.',
+    description: 'Lern-Druckvorlagen auf Etsy verkaufen — dieser Anfänger-Leitfaden zeigt Ihnen, wie Sie einen diversifizierten Shop aufbauen, der sich von Ein-Kategorie-Wettbewerbern abhebt. Eltern, Homeschooler und Aktivitätsleiter suchen täglich nach Mathe-Arbeitsblättern, Worträtseln, Malvorlagen und Dutzenden weiterer Formate — und ein Shop, der alle führt, erfasst den gesamten Einkauf eines Käufers. Sie erfahren, wie Sie mit 33 Generatoren in 6 Kategorien einen Multi-Kategorie-Shop starten, der einen strukturellen Wettbewerbsvorteil bietet, weil Etsys Algorithmus Shops mit mehr verwandten Angeboten belohnt. Der Leitfaden behandelt kategoriespezifische Etsy-SEO mit allen 13 Tags, kategorieübergreifende Bündelung und Preisgestaltung, saisonale Produktrotation und die schrittweise Skalierung von einer Startkategorie zum vollständigen Lernmaterial-Shop mit Hunderten von Produkten.',
   },
 
   introduction: 'Der Markt für praktische Druckvorlagen auf Etsy ist riesig, aber die meisten Verkäufer konkurrieren in einer einzigen engen Kategorie. Ein Shop, der nur Additions-Arbeitsblätter verkauft, konkurriert mit jedem anderen Anbieter von Additions-Arbeitsblättern. Ein Shop, der nur Wortsuchrätsel verkauft, konkurriert mit jedem anderen Wortsuchrätsel-Anbieter. Die Verkäufer, die nachhaltige Geschäfte aufbauen, sind diejenigen, die sich über mehrere praktische Druckvorlagen-Kategorien diversifizieren — unterschiedliche Käufersegmente, unterschiedliche saisonale Hochphasen und unterschiedliche Suchbegriffe erreichen, die ein Ein-Kategorie-Shop niemals abdecken könnte.\n\nGenau hier wird ein Multi-Kategorie-Ansatz zu einem echten Wettbewerbsvorteil. Mit 33 Generatoren, organisiert in 6 praktischen Kategorien — Mathe-Meisterschaft, Lese- und Sprachkompetenz, Visuelles Lernen, Zuordnung und Sortierung, Rätsel und Logik sowie Suchen und Finden — können Sie einen Shop mit Hunderten einzigartiger Produkte aufbauen, der jede Altersgruppe von Vorschule bis Grundschule und jedes Fachgebiet abdeckt, nach dem Eltern und Käufer suchen.\n\nDie sechs Kategorien bedienen grundlegend unterschiedliche Käuferbedürfnisse. Mathe-Arbeitsblätter zielen auf Rechenübungen ab. Leseprodukte zielen auf Lesen und Wortschatz ab. Visuelles Lernen fördert die kreative Entwicklung. Zuordnungsaktivitäten trainieren kognitive Fähigkeiten in der frühen Kindheit. Rätsel fördern kritisches Denken. Such-und-Finde-Aktivitäten trainieren Aufmerksamkeit und Beobachtungsgabe. Ein einzelner Käufer — ein Elternteil, eine Lehrkraft, ein Homeschooler — benötigt oft Produkte aus mehreren Kategorien, und ein Shop, der alle führt, erfasst diesen gesamten Einkauf, anstatt den Käufer für sein zweites Produkt an einen Konkurrenten zu verlieren.\n\nAlle in diesem Leitfaden erwähnten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Musterprodukte aus allen 33 Generatoren erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz für die gewünschten Kategorien erwerben.',

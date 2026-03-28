@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kommerzielle lizenz-leitfaden für druckvorlagen-verkäufer',
+    primaryKeyword: 'Gewerbliche Lizenz für Druckvorlagen erklärt',
     secondaryKeywords: [
       'kommerzielle Lizenz Arbeitsblätter verkaufen',
       'Arbeitsblätter kommerziell verkaufen Etsy Amazon',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'Arbeitsblatt-Generator Lizenzstufen',
       'kommerzielle vs persönliche Nutzung Druckvorlagen',
     ],
-    titleTag: 'Kommerzielle Lizenz-Leitfaden für Druckvorlagen-Verkäufer',
-    metaDescription: 'Kommerzielle Lizenzen für den Verkauf von Arbeitsblättern auf Etsy, KDP und weiteren Plattformen verstehen. Zwei Stufen mit klaren Rechten und Preisen.',
+    titleTag: 'Gewerbliche Lizenz für Verkäufer erklärt | LCS',
+    metaDescription: 'Gewerbliche Lizenz für Druckvorlagen-Verkäufer verständlich erklärt. Zwei Lizenzstufen, abgedeckte Plattformen und klare Rechte für Etsy, KDP und Gumroad.',
   },
 
   hero: {
-    title: 'Kommerzielle Lizenz-Leitfaden für Druckvorlagen-Verkäufer',
+    title: 'Gewerbliche Lizenz für Druckvorlagen-Verkäufer erklärt',
     tagline: 'Alles, was Sie über kommerzielle Lizenzierung für Arbeitsblatt-Generatoren wissen müssen — was Sie verkaufen dürfen, wo Sie verkaufen können und welche Stufe zu Ihrem Geschäft passt',
-    description: 'Kommerzielle Lizenzierung ist das am häufigsten missverstandene Thema im Druckvorlagen-Geschäft. Verkäufer sorgen sich, ob sie das Recht haben, generierte Arbeitsblätter zu verkaufen, welche Plattformen abgedeckt sind und ob sie für jedes Produkt oder jeden Eintrag separate Lizenzen benötigen. Dieser Leitfaden beseitigt diese Verwirrung vollständig. Sie erfahren genau, was eine kommerzielle Lizenz abdeckt, was die zwei Preisstufen beinhalten, wie die Lizenz auf jeder großen Verkaufsplattform gilt und wie die kostenlose Testversion mit Wasserzeichen es Ihnen ermöglicht, alles zu testen, bevor Sie kaufen. Ob Sie auf Etsy verkaufen, auf Amazon KDP veröffentlichen oder einen anderen Marktplatz nutzen — dieser Leitfaden gibt Ihnen vollständige Klarheit über Ihre kommerziellen Rechte.',
+    description: 'Gewerbliche Lizenz für Druckvorlagen erklärt — klar und verständlich. Viele Verkäufer im DACH-Raum und international sorgen sich, ob sie generierte Arbeitsblätter verkaufen dürfen, welche Plattformen abgedeckt sind und ob separate Lizenzen pro Produkt nötig sind. Dieser Leitfaden beseitigt die Verwirrung vollständig. Sie erfahren genau, was die zwei Preisstufen beinhalten, wie die Lizenz auf Etsy, Amazon KDP, Gumroad und Ihrer eigenen Website gilt und welche Rechte Sie für unbegrenzte Arbeitsblätter, Pakete und Aktivitätsbücher erhalten. Die kostenlose Testversion mit Wasserzeichen ermöglicht es Ihnen, jeden Generator vollständig zu testen, bevor Sie kaufen. Vollständige Klarheit über Ihre kommerziellen Rechte — ohne juristischen Fachjargon, ohne versteckte Einschränkungen.',
   },
 
   introduction: 'Lizenz-Verwirrung zerstört mehr Druckvorlagen-Geschäfte als schlechte Produkte es je könnten. Nicht weil die Regeln kompliziert sind — das sind sie nicht — sondern weil Verkäufer entweder nie ihre Lizenzbedingungen prüfen oder Einschränkungen annehmen, die gar nicht existieren. Beide Fehler kosten Geld.\n\nVerkäufer, die auf Lizenzrecherche verzichten, riskieren, einen Produktkatalog mit Werkzeugen aufzubauen, die sie nicht legal für kommerzielle Zwecke nutzen dürfen. Eine einzige Abmahnung von einem Rechteinhaber kann monatelange Arbeit zunichtemachen — gesperrte Produkte, verlorene Bewertungen und beschädigter Verkäufer-Ruf. Verkäufer, die hingegen zu strenge Einschränkungen annehmen, lassen Geld auf dem Tisch liegen, indem sie keine Produkte erstellen, zu deren Verkauf sie voll berechtigt sind.\n\nDer Markt für druckbare Arbeitsblätter ist besonders anfällig für Lizenz-Verwirrung, weil so viele verschiedene Werkzeuge mit völlig unterschiedlichen Bedingungen existieren. Manche Clipart-Bibliotheken erlauben nur persönliche Nutzung. Manche Arbeitsblatt-Vorlagen erfordern Namensnennung. Manche Generatoren beschränken die Anzahl der Produkte, die Sie erstellen können, oder die Plattformen, auf denen Sie verkaufen dürfen. Jedes Werkzeug hat seine eigenen Bedingungen, und Verkäufer, die mehrere Werkzeuge nutzen, müssen jedes einzelne verstehen.\n\nDieser Leitfaden konzentriert sich speziell auf LessonCraftStudio Arbeitsblatt-Generator-Lizenzen — was sie abdecken, was sie kosten und wie sie in realen Verkaufsszenarien auf Etsy, Amazon KDP, Gumroad, Gumroad und anderen Plattformen gelten. Das Ziel ist, Ihnen vollständiges Vertrauen in Ihre kommerziellen Rechte zu geben, damit Sie sich auf den Aufbau von Produkten konzentrieren können, anstatt sich über rechtliche Risiken zu sorgen.\n\nJeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, die Ihnen vollen Zugang zu allen Funktionen gibt, bevor Sie etwas ausgeben. Die Testversion lässt Sie die Ausgabequalität bewerten, verschiedene Themen und Einstellungen testen und bestätigen, dass die Generatoren Ihre Produktionsanforderungen erfüllen — alles bevor Sie eine Lizenzentscheidung treffen.',

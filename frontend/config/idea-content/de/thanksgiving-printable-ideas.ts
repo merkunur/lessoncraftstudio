@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'erntedankfest-druckvorlagen',
+    primaryKeyword: 'Erntedank-Druckvorlagen verkaufen Ideen',
     secondaryKeywords: [
       'Thanksgiving-Arbeitsblätter auf Etsy erstellen',
       'Herbst-Erntedank-Druckvorlagen auf KDP',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Erntedank-Nische Arbeitsblätter Etsy-Markt',
       'Herbst-Feiertags-Thema Lernmaterialien',
     ],
-    titleTag: 'Erntedankfest-Druckvorlagen — Verkäufer-Guide',
-    metaDescription: 'Erntedankfest-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Thanksgiving-Produktkonzepte und saisonale Strategien. Plattformtipps für Druckvorlagen-Verkäufer.',
+    titleTag: 'Erntedank-Druckvorlagen verkaufen | LCS',
+    metaDescription: 'Erntedank-Druckvorlagen verkaufen auf Etsy, KDP und Gumroad. Thanksgiving-Produktideen und Timing-Strategien samt Nischentipps für deutschsprachige Verkäufer.',
   },
   hero: {
-    title: 'Thanksgiving-Druckvorlagen-Geschäftsideen für Verkäufer',
-    description: 'Das amerikanische Thanksgiving eröffnet ein fokussiertes und hochprofitables Verkaufsfenster für Druckvorlagen-Unternehmer, wobei die Nachfrage im Oktober steigt und in den ersten drei Novemberwochen ihren Höhepunkt erreicht, wenn Verkäufer erntethematische Shopaktivitäten vorbereiten und Familien lehrreiche Unterhaltung für Feiertagstreffen planen. Die Nische bietet eine reiche Unterthemen-Vielfalt — darunter Truthähne, Kürbisse, Pilger, Ernteszenen, Füllhörner, Herbstblätter, Kuchen, Eicheln und Dankbarkeitsaktivitäten — und gibt Verkäufern ein warmes visuelles Vokabular, das bei kleinen Lernenden und ihren Familien während einer der am meisten erwarteten Feiern des Jahres Anklang findet. Homeschool-Familien und Kinderbetreuungsprogramme sorgen für zusätzliche Käufertiefe und suchen Thanksgiving-Bastelarbeiten und Aktivitäten, die Feiertagsbegeisterung mit echten Lernergebnissen verbinden. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad liefert die Thanksgiving-Nische konzentrierte saisonale Nachfrage mit einer gemütlichen Herbstästhetik, die sich hervorragend für Produktfotos und Social-Media-Marketing eignet. Dieser Leitfaden behandelt spezifische Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen helfen, eine profitable Thanksgiving-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools aufzubauen.',
+    title: 'Erntedank-Druckvorlagen — Saisonale Ideen für Ihren Printable-Shop',
+    description: 'Erntedank-Druckvorlagen verkaufen Sie am profitabelsten im Oktober-November-Fenster, wenn US-Käufer auf Etsy und KDP massiv nach Thanksgiving-Arbeitsblättern suchen. Sie nutzen dabei Unterthemen wie Truthähne, Kürbisse, Ernteszenen, Füllhörner und Herbstblätter — ein warmes visuelles Vokabular mit starker Konversionsrate bei Familien und Bildungseinrichtungen. Als deutschsprachiger Verkäufer bedienen Sie den riesigen US-Markt ohne eigene Feiertagstradition — ein strategischer Vorteil, denn Sie verstehen die geschäftliche Seite und erstellen professionelle Produkte für einen vorhersagbaren Markt. Die Erntedank-Nische überschneidet sich natürlich mit breiteren Herbstthemen und verlängert so Ihr effektives Verkaufsfenster auf fast zwei Monate. Dieser Leitfaden zeigt Ihnen konkrete Produktideen, Timing-Strategien und Plattformansätze, mit denen Sie eine profitable Thanksgiving-Produktlinie aufbauen — erstellt mit unseren Arbeitsblatt-Generator-Tools.',
   },
   marketOverview: `Die Thanksgiving-Druckvorlagen-Nische nimmt eine erstklassige Position im Herbst-Verkaufskalender ein und erzeugt konzentrierte Nachfrage während Oktober und November, wenn Verkäufer, Eltern und Homeschool-Familien in den USA aktiv nach erntethematischen Lernmaterialien suchen. Verkäufer beginnen Anfang Oktober mit der Planung von November-Shopaktivitäten und Thanksgiving-Feiern und suchen thematische Arbeitsblätter, die festliche Wärme mit echten lehrreichen Ergebnissen in Mathematik, Lese- und Schreibkompetenz und kritischem Denken verbinden. Eltern suchen altersgerechte Thanksgiving-Aktivitäten, die mehreren Zwecken dienen: Kinder während der Feiertagsvorbereitung beschäftigen, lehrreiche Unterhaltung während Familienreisen bieten und strukturierte Lernmomente während des verlängerten Thanksgiving-Wochenendes schaffen, wenn bildschirmfreie Aktivitäten besonders geschätzt werden.
 

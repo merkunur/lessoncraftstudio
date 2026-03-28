@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Was-passt-nicht-Arbeitsblätter erstellen',
+    primaryKeyword: 'Was-passt-nicht-Rätsel zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Was-passt-nicht-Rätsel zum Verkaufen erstellen',
-      'visuelle Unterscheidung Arbeitsblatt-Generator',
-      'druckbare Was-passt-nicht-Ersteller kommerzielle Nutzung',
-      'Ausreißer-Rätsel für Etsy und KDP finden',
+      'Was-passt-nicht-Arbeitsblätter für Etsy produzieren',
+      'visuelle Unterscheidung Rätsel kommerziell verkaufen',
+      'Was-passt-nicht-Arbeitsbuch auf KDP veröffentlichen',
+      'Was-passt-nicht-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'Dual-Modus Identisch Ähnlich Was-passt-nicht-Generator',
-      'pro-Übung Modusüberschreibung visuelle Rätsel',
-      'automatischer Lösungsschlüssel roter Kreis Arbeitsblatt-Ersteller',
-      'Was-passt-nicht-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP visuelle Unterscheidung Arbeitsbücher',
-      'kommerzielle Lizenz Was-passt-nicht-Tool',
+      'rein visuelles Rätsel weltweiter Verkauf Etsy',
+      'Identisch-Ähnlich Dual-Modus Printable Nische',
+      'KDP visuelle Unterscheidung Arbeitsbuch veröffentlichen',
     ],
-    titleTag: 'Was-passt-nicht-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration und Lösungsschlüssel. Rein visuelles Format für Etsy.',
+    titleTag: 'Was-passt-nicht Rätsel für Etsy | LCS',
+    metaDescription: 'Was-passt-nicht-Rätsel zum Verkaufen erstellen. Identisch- und Ähnlich-Modus, Pro-Übung-Konfiguration und Lösungsschlüssel. Druckfertig für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Was-passt-nicht-Rätsel',
+    title: 'Was-passt-nicht-Rätsel erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung visueller Unterscheidungs-Arbeitsblätter mit zwei Generierungsmodi, pro-Übung-Überschreibungen, automatisch erstellten Lösungsschlüsseln mit roter Kreis-Markierung und rein visuellen Rätseln, die Sie weltweit auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Was-passt-nicht-Rätsel gehören zu den universell zugänglichsten praktischen Aktivitäten, denn sie erfordern kein Lesen, kein Sprachverständnis und keine Mathematikkenntnisse. Die Nutzer betrachten vier Bilder und identifizieren dasjenige, das nicht dazugehört. Dieses rein visuelle Format macht Was-passt-nicht-Arbeitsblätter in jedem Land ohne Übersetzung verkaufbar. Eltern nutzen sie für die visuelle Wahrnehmungsübung zu Hause. Käufer nutzen sie für Aufwärmübungen zum kritischen Denken und Klassifikationsaktivitäten. Selbststudiumzentren nutzen sie für kognitive Entwicklungsübungen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Was-passt-nicht-Arbeitsblatt-Generator — von der Wahl zwischen Identisch- und Ähnlich-Generierungsmodus über die Konfiguration von pro-Übung-Überschreibungen, die Erstellung automatischer Lösungsschlüssel mit roter Kreis-Markierung bis zum Export produktionsfertiger Dateien. Ob Sie Ihr erstes visuelles Rätselprodukt erstellen oder einen bestehenden Arbeitsblattkatalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt, das Sie sofort listen können.',
+    description: 'Was-passt-nicht-Rätsel zum Verkaufen erstellen nutzt einen erheblichen Wettbewerbsvorteil: Das rein visuelle Format erfordert kein Lesen und keine Mathematikkenntnisse, wodurch jedes Produkt ohne Übersetzung weltweit verkauft werden kann. Vier Bilder in einer Reihe, drei die zusammengehören und eines das nicht passt — universell verständlich. Sie wählen zwischen Identisch-Modus für feinen visuellen Vergleich und Ähnlich-Modus für thematische Ausreißer-Erkennung, konfigurieren pro-Übung-Überschreibungen für progressive Schwierigkeitsgrade auf einem Blatt und exportieren produktionsfertige Dateien mit automatischen Lösungsschlüsseln mit roter Kreis-Markierung. Die pro-Übung-Modusüberschreibung ermöglicht es, beide Modi auf einem Arbeitsblatt zu mischen — ein Feature, das gestufte Produkte für Premiumpreise möglich macht. Eltern, Nachhilfezentren und Homeschool-Familien bilden starke Käufersegmente. Ob Sie Ihr erstes visuelles Rätselprodukt listen oder Ihren Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt bereit.',
   },
 
   introduction: 'Visuelle Unterscheidung ist eine der grundlegenden kognitiven Fähigkeiten in der frühkindlichen Entwicklung. Bevor Kinder lesen lernen, müssen sie zunächst lernen, Unterschiede zu beobachten — eine Form von einer anderen zu unterscheiden, einen Buchstaben von einem ähnlichen Buchstaben, ein Objekt von einer Gruppe. Was-passt-nicht-Rätsel trainieren diese Fähigkeit direkt, indem sie vier Bilder präsentieren und die Nutzer auffordern, dasjenige zu identifizieren, das nicht zu den anderen passt. Dies macht Was-passt-nicht-Arbeitsblätter zu einem grundlegenden Produkt mit Nachfrage von der Vorschule bis zur Grundschule.\n\nWas Was-passt-nicht-Arbeitsblätter als druckbares Produkt besonders leistungsstark macht, ist das rein visuelle Format. Anders als Vokabelarbeitsblätter, Leseverständnisseiten oder Mathematikaufgaben, die sprachspezifischen Text erfordern, enthalten Was-passt-nicht-Rätsel nur Bilder. Vier Bilder in einer Reihe, drei die zusammengehören und eines das nicht passt. Keine Wörter, keine Zahlen, keine Sprachbarriere. Ein in einer Sitzung erstelltes Arbeitsblatt verkauft sich identisch auf jedem internationalen Marktplatz ohne Übersetzung oder Lokalisierung. Diese globale Reichweite ohne Aufwand pro Sprache ist ein erheblicher Wettbewerbsvorteil für Verkäufer.\n\nDer Was-passt-nicht-Arbeitsblatt-Generator bewältigt die Komplexität der Erstellung dieser Aktivitäten durch zwei verschiedene Generierungsmodi. Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema — die Nutzer erkennen das Nicht-Duplikat durch Vergleich feiner visueller Details. Der Ähnlich-Modus zieht drei Bilder aus Thema A und ein Bild aus Thema B — die Nutzer identifizieren den thematischen Ausreißer durch Erkennen kategorialer Unterschiede. Jeder Modus zielt auf eine andere kognitive Fähigkeit ab, und die pro-Übung-Modusüberschreibung ermöglicht es Ihnen, beide Modi auf einem einzigen Arbeitsblatt für progressive Schwierigkeitsgrade zu mischen. Der Generator erstellt automatische Lösungsschlüssel mit roter Kreis-Markierung, die an die Bildgröße angepasst ist, verarbeitet adaptives Spaltenlayout für fünf bis zehn Übungen pro Seite und exportiert vier produktionsfertige Dateien pro Sitzung. Sie konzentrieren sich auf die Produktstrategie — welche Moduskombinationen Sie verwenden, welche Themenpaarungen Sie anvisieren, wie Sie bündeln und bepreisen — während der Generator Layout, Mischung und Lösungsschlüsselerstellung übernimmt.\n\nAlle in dieser Anleitung genannten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Was-passt-nicht-Arbeitsblätter erstellen, beide Generierungsmodi testen, mit pro-Übung-Überschreibungen experimentieren und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

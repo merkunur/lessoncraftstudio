@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Alphabet-Zug-Arbeitsblätter für Kinder erstellen',
+    primaryKeyword: 'kostenloser Alphabet-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Alphabet-Zug-Ersteller für die Klasse',
-      'Buchstabenerkennung Arbeitsblätter für Kinder',
-      'druckbarer Alphabet-Zug für Vorschule',
-      'Buchstaben-Zuordnung Ersteller für Verkäufer',
+      'Alphabet-Arbeitsblätter kostenlos erstellen online',
+      'Alphabet-Zug-Generator ohne Anmeldung',
+      'kostenloser Buchstaben-Arbeitsblatt Ersteller',
+      'Alphabet-Übungen online erstellen und drucken',
     ],
     lsiKeywords: [
       'Buchstabe-Bild-Zuordnung Zug für Kinder',
-      'mehrsprachige Alphabet-Aktivität für die Klasse',
-      'bunter Alphabet-Zug zum Ausdrucken',
+      'mehrsprachige Alphabet-Aktivität zum Ausdrucken',
+      'bunte Zugwaggon-Buchstabenübungen',
     ],
-    titleTag: 'Alphabet-Zug Erstellen — Buchstabenüben für Kinder',
-    metaDescription: 'Alphabet-Zug-Arbeitsblätter für Buchstabenerkennung erstellen. 11 bunte Waggons, Buchstabe-Bild-Zuordnung, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Alphabet-Generator Online | LCS',
+    metaDescription: 'Kostenloser Alphabet-Generator mit 11 bunten Zugwaggons und Buchstabe-Bild-Zuordnung. Online ohne Anmeldung in 11 Sprachen. Lizenz für kommerziellen Verkauf.',
     },
 
   hero: {
-    title: 'Alphabet-Zug-Arbeitsblatt-Generator',
+    title: 'Alphabet-Arbeitsblätter kostenlos erstellen — Zug-Generator',
     tagline: 'Farbenfrohe Buchstabenzug-Arbeitsblätter mit Bild-Buchstabe-Zuordnung in 11 Sprachen erstellen',
-    description: 'Erstellen Sie Alphabet-Arbeitsblätter, die sich grundlegend von Standard-Buchstaben-Nachschreibseiten unterscheiden. Dieses Tool ordnet 11 farbenfrohe Zugwaggons über die Seite an, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug — Nutzer erkennen, mit welchem Buchstaben jedes Bild beginnt, und ordnen es dem richtigen Waggon zu. Wählen Sie zwischen Auto-Erstellen (das Tool wählt zufällig 11 Buchstaben und weist passende Bilder zu) oder Manuellem Modus (wählen Sie jeden Buchstaben einzeln aus dem vollständigen Alphabet-Raster). Passen Sie die Schwierigkeit mit dem Hinweisanzahl-Regler an: 3 Hinweise für Anfänger, 5–7 für Fortgeschrittene und 9–11 für erfahrene Lernende, die fast jeden Waggon zuordnen müssen. Die besondere Stärke ist die Sprachsensitivität — wählen Sie aus 11 nativen Alphabeten einschließlich Deutsch (30 Buchstaben mit Ä/Ö/Ü/ß), Schwedisch (Å/Ä/Ö), Spanisch (Ñ) und weiteren. Dasselbe Bild wird in jeder Sprache einem anderen Buchstaben zugeordnet: \"Hund\" passt zu H auf Deutsch, aber zu D auf Englisch (Dog). Eine Arbeitsblatt-Vorlage wird zu 11 einzigartigen Produkten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene Grafiken für markentypische Designs hoch. Wählen Sie aus 7 Schriftfamilien und exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Alphabet-Arbeitsblätter mit diesem Alphabet-Generator — direkt im Browser, ohne Anmeldung, ohne Software-Download. Das Tool ordnet 11 farbenfrohe Zugwaggons über die Seite an, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug — Nutzer erkennen, mit welchem Buchstaben jedes Bild beginnt, und ordnen es dem richtigen Waggon zu. Wählen Sie zwischen Auto-Erstellen oder Manuellem Modus und passen Sie die Schwierigkeit mit dem Hinweisanzahl-Regler an (3 bis 11). Die besondere Stärke ist die Sprachsensitivität — wählen Sie aus 11 nativen Alphabeten einschließlich Deutsch mit Ä/Ö/Ü/ß. Durchstöbern Sie über 3.100 Bilder in 104 Themen und exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

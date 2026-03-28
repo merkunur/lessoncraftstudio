@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'wie viel verdient man mit Druckvorlagen verkaufen',
+    primaryKeyword: 'Wie viel verdient man mit Druckvorlagen',
     secondaryKeywords: [
       'Druckvorlagen-Geschäft Einkommenserwartungen',
       'realistische Einnahmen Druckvorlagen verkaufen',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'digitaler Download Geschäft Zeitinvestition',
       'mehrere Einnahmequellen druckbare Produkte',
     ],
-    titleTag: 'Wie viel verdient man mit Druckvorlagen verkaufen?',
-    metaDescription: 'Wie viel verdient man mit Druckvorlagen? Realistische Einkommenserwartungen, Plattform-Gebühren und Preisstrategien. Die Variablen, die den Verdienst.',
+    titleTag: 'Verdienst mit Druckvorlagen-Verkauf | LCS',
+    metaDescription: 'Wie viel verdient man mit Druckvorlagen-Verkauf? Realistische Einkommenserwartungen, Plattform-Gebühren und die Variablen, die Ihren Verdienst bestimmen.',
   },
 
   hero: {
-    title: 'Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen',
+    title: 'Verdienst mit Druckvorlagen — realistische Erwartungen',
     tagline: 'Eine ehrliche Analyse der Variablen, die den Verdienst im Druckvorlagen-Geschäft bestimmen — kein Hype, keine erfundenen Zahlen, nur die Faktoren, die Sie tatsächlich kontrollieren',
-    description: 'Jede Recherche zum Druckvorlagen-Geschäft führt irgendwann zur gleichen Frage: Wie viel kann man verdienen? Das Internet ist voller vager Versprechen und nicht überprüfbarer Behauptungen. Dieser Leitfaden wählt einen anderen Ansatz. Statt eine Zahl zu nennen, die ohne Kontext bedeutungslos wäre, analysiert er die konkreten Variablen, die das Einkommen im Druckvorlagen-Geschäft bestimmen — Kataloggröße, Produktqualität, Preisstrategie, Plattformökonomie, Marketingaufwand und Zeitinvestition. Das sind die Faktoren, die Sie kontrollieren können, und sie zu verstehen ist weitaus wertvoller als jede Dollarzahl. Ob Sie auf Etsy verkaufen, auf Amazon KDP veröffentlichen oder andere Marktplätze nutzen — die gleichen grundlegenden wirtschaftlichen Prinzipien gelten. Die kostenlose Testversion mit Wasserzeichen ermöglicht es Ihnen, jeden Generator vor einer Investition zu testen, damit Sie Produktqualität und Produktionsgeschwindigkeit aus erster Hand bewerten können.',
+    description: 'Wie viel verdient man mit Druckvorlagen? Das Internet ist voller vager Versprechen, aber dieser Leitfaden wählt einen ehrlichen Ansatz. Statt eine Zahl zu nennen, die ohne Kontext bedeutungslos wäre, analysiert er die konkreten Variablen, die Ihren Verdienst bestimmen — Kataloggröße, Produktqualität, Preisstrategie, Plattformökonomie und Gebührenstrukturen, Marketingaufwand und Zeitinvestition. Diese Faktoren kontrollieren Sie, und sie zu verstehen ist weitaus wertvoller als jede Einkommensbehauptung. Ob Sie auf Etsy verkaufen, auf Amazon KDP veröffentlichen oder Gumroad und andere Marktplätze nutzen — die gleichen wirtschaftlichen Prinzipien gelten überall. Die kostenlose Testversion mit Wasserzeichen ermöglicht es Ihnen, Produktionsgeschwindigkeit und Qualität vor jeder Investition zu testen.',
   },
 
   introduction: 'Wie viel kann man mit dem Verkauf von Druckvorlagen verdienen? Es ist die meistgesuchte Frage im Bereich des Druckvorlagen-Geschäfts, und fast jede Antwort, die Sie online finden, ist irreführend. Blog-Beiträge versprechen bestimmte monatliche Einkommenszahlen. YouTube-Thumbnails zeigen beeindruckende Umsatz-Screenshots. Kursverkäufer nennen Einnahmen, die zufällig genau zu ihrem Verkaufspreis passen. Das Problem ist nicht, dass es unmöglich ist, mit Druckvorlagen Geld zu verdienen — das Problem ist, dass die Frage selbst falsch gestellt wird.\n\nDie Frage \"Wie viel kann man verdienen" setzt voraus, dass es eine feste Antwort gibt. Die gibt es nicht. Das Einkommen im Druckvorlagen-Geschäft hängt von einer Kombination von Variablen ab: wie viele Produkte Sie listen, wie gut Sie sie bepreisen, auf welchen Plattformen Sie verkaufen, wie viel Traffic Ihre Listings erhalten und wie konsequent Sie Zeit in den Aufbau Ihres Katalogs investieren. Zwei Verkäufer, die identische Werkzeuge nutzen, können dramatisch unterschiedliche Ergebnisse erzielen — basierend auf Einsatz, Strategie und Ausdauer.\n\nDieser Leitfaden wird Ihnen keine Zahl nennen. Er wird Ihnen etwas Nützlicheres geben: ein klares Verständnis jeder Variablen, die das Einkommen im Druckvorlagen-Geschäft bestimmt, die tatsächliche Ökonomie der Plattformen, auf denen Druckvorlagen verkauft werden, realistische Zeitpläne für die ersten Monate und ein Rahmenwerk zum Setzen von Zielen, die in Ihrer Kontrolle liegen. Mit diesem Verständnis können Sie fundierte Entscheidungen darüber treffen, ob ein Druckvorlagen-Geschäft zu Ihrer Situation passt und wie Sie es strategisch angehen.\n\nDie in diesem Leitfaden vorgestellten Arbeitsblatt-Generatoren bieten eine kostenlose Testversion mit Wasserzeichen, damit Sie Produktionsgeschwindigkeit und Ausgabequalität testen können, bevor Sie Geld investieren. Diese praktische Erfahrung sagt Ihnen mehr über Ihr Verdienstpotenzial als jede Einkommensbehauptung es je könnte.',

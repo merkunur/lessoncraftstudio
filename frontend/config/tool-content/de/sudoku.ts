@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Bilder-Sudoku-Generator',
+    primaryKeyword: 'kostenloser Bilder-Sudoku Generator für Kinder',
     secondaryKeywords: [
-      'Bilder-Sudoku-Ersteller für Verkäufer',
-      '4×4-Bild-Sudoku-Rätsel online erstellen und verkaufen',
-      'druckbare Bilder-Sudoku-Arbeitsblätter kommerziell erstellen',
-      'Bilder-Sudoku-Generator mit drei Schwierigkeitsgraden und automatischem Lösungsschlüssel für KDP',
+      'Bilder-Sudoku kostenlos erstellen online',
+      'Bilder-Sudoku-Generator ohne Anmeldung',
+      'kostenloser Kinder-Sudoku Ersteller mit Bildern',
+      'Sudoku-Rätsel für Kinder online erstellen',
     ],
     lsiKeywords: [
-      '4×4-Raster Bildlogik-Rätsel-Ersteller drei Schwierigkeitsgrade',
-      'automatischer Lösungsschlüssel vollständig gefülltes Raster Bilder-Sudoku-Generator',
-      'themenbasierte Bildauswahl 104 Sammlungen Sudoku-Arbeitsblatt-Ersteller',
+      '4x4-Raster Bildlogik-Rätsel für Kinder',
+      'automatischer Lösungsschlüssel Bilder-Sudoku',
+      'themenbasierte Bildauswahl aus 104 Sammlungen',
     ],
-    titleTag: 'Bilder-Sudoku-Ersteller — Bilder-Sudoku-Generator für Kinder',
-    metaDescription: 'Bilder-Sudoku mit 4×4-Raster und drei Schwierigkeitsgraden erstellen. Lösungsschlüssel, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Bilder-Sudoku Generator | LCS',
+    metaDescription: 'Kostenloser Bilder-Sudoku Generator für Kinder mit 4x4-Raster und drei Schwierigkeitsgraden. 104 Themen, ohne Anmeldung. Lizenz für kommerziellen Verkauf.',
   },
 
   hero: {
-    title: 'Bilder-Sudoku-Ersteller',
+    title: 'Bilder-Sudoku kostenlos erstellen — Generator für Kinder',
     tagline: '4×4-bildbasierter Sudoku-Rätsel-Generator mit drei Schwierigkeitsgraden (Leicht 4 leere Zellen, Mittel 6 leere Zellen, Schwer 8 leere Zellen), automatisch generiertem Lösungsschlüssel mit vollständig gefülltem Raster, themenbasierter und manueller Bildauswahl über 104 Sammlungen mit über 3.100 Illustrationen, Premium-Rasterdesign mit abwechselnden Blockfarben und mehrstufigen Schatten sowie rein visuellen Rätseln, die weltweit ohne Übersetzung verkauft werden können',
-    description: 'Erstellen Sie professionelle Bilder-Sudoku für Kinder, bei denen Nutzer leere Zellen mit den richtigen Bildern füllen und dabei Zeilen-und-Spalten-Logik auf einem 4×4-Raster anwenden. Jedes Rätsel verwendet genau 4 einzigartige Bilder, die jeweils einmal pro Zeile und einmal pro Spalte erscheinen müssen — dieselben Regeln wie klassisches Sudoku, aber mit bunten Illustrationen statt Zahlen. Drei Schwierigkeitsgrade steuern die Herausforderung: Leicht entfernt 4 Zellen, Mittel entfernt 6 und Schwer entfernt 8 — die Hälfte des Rasters. Wählen Sie Bilder über die themenbasierte Auswahl, die automatisch 4 zufällige Bilder aus einer der 104 thematischen Sammlungen auswählt, oder durchsuchen, filtern und laden Sie manuell genau 4 Bilder hoch. Das Premium-Rasterdesign zeigt abwechselnde 2×2-Blockfarben in Hellblau (#F8F9FC) und Hellrosa (#FFF5F7), fette Mittelteiler (#7C8DB5, 3px Strichstärke), feinere Innenlinien (#D1D9E6, 1,5px), einen indigofarbenen Außenrahmen (#667EEA) mit 18px abgerundeten Ecken und drei mehrstufige Schatten für Tiefenwirkung. Bilder werden bei 65% der Zellgröße angezeigt für klare visuelle Trennung. Jedes Rätsel generiert einen gestalteten \"Bilder-Sudoku\"-Header mit einem lila Hintergrund (#5E35B1) und lokalisiertem Titeltext über alle 11 unterstützten Sprachen. Das Dual-Canvas-System erstellt gleichzeitig einen Arbeitsblatt-Tab und einen Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das vollständig gefüllte 4×4-Raster mit allen 16 Zellen. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu (0–1, Schrittweite 0,05). Passen Sie Text mit 7 Schriftoptionen an (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI (6× Multiplikator) in Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder benutzerdefinierten Maßen — keine quadratische Seitengröße bei dieser App. Graustufen-Schalter für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit 6 Ausrichtungsoptionen plus Auf-Seite-Zentrieren, Ebenensteuerung, Sperren/Entsperren, Zoom 25%–300% in 25%-Schritten und Rückgängig/Wiederholen mit 50 Zuständen. Da Bilder-Sudoku vollständig visuell ist — keine Wörter erscheinen auf dem Rätselraster — funktioniert jedes Arbeitsblatt identisch in allen 11 Sprachen und macht Ihre Produkte weltweit verkaufbar. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Bilder-Sudoku für Kinder mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Software-Download. Nutzer füllen leere Zellen mit den richtigen Bildern und wenden Zeilen-und-Spalten-Logik auf einem 4×4-Raster an. Jedes Rätsel verwendet genau 4 einzigartige Bilder, die jeweils einmal pro Zeile und einmal pro Spalte erscheinen müssen. Drei Schwierigkeitsgrade steuern die Herausforderung: Leicht entfernt 4 Zellen, Mittel entfernt 6 und Schwer entfernt 8. Wählen Sie Bilder aus 104 thematischen Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene hoch. Ein Lösungsschlüssel-Tab zeigt das vollständig gefüllte Raster. Die Arbeitsblätter sind rein visuell und funktionieren in allen 11 Sprachen. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

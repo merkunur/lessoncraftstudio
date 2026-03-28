@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Mathe-Rätsel für die Produkterstellung erstellen',
+    primaryKeyword: 'kostenloser Mathe-Rätsel Ersteller',
     secondaryKeywords: [
-      'Puzzle-Mathe-Arbeitsblätter für Verkäufer',
-      'Mathe-Rätsel-Ersteller für Kinder',
-      'Bild-Mathe-Rätsel für die Klasse',
-      'druckbare Mathe-Rätsel für Nutzer',
+      'Mathe-Rätsel Ersteller kostenlos online',
+      'Jigsaw-Puzzle-Arbeitsblätter erstellen ohne Anmeldung',
+      'Mathe-Puzzle Generator sofort nutzen',
+      'kostenlose Mathe-Rätsel mit Bildern erstellen',
     ],
     lsiKeywords: [
-      'Bildraster-Mathe-Rätsel für die Produkterstellung',
-      'Puzzle-Mathe-Aktivität für Kinder',
-      'konfigurierbarer Mathe-Rätsel-Ersteller',
+      'Bildraster-Puzzle-Arbeitsblätter druckfertig',
+      'Jigsaw-Mathe-Aktivität für Kinder',
+      'konfigurierbarer Mathe-Puzzle-Generator',
     ],
-    titleTag: 'Mathe-Rätsel Erstellen — Puzzles für die Klasse',
-    metaDescription: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil für die Produkterstellung erstellen. Bildraster, drei Rechenarten, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Mathe-Rätsel Ersteller | LCS',
+    metaDescription: 'Kostenloser Mathe-Rätsel Ersteller — Jigsaw-Puzzle-Arbeitsblätter mit Bildern online erstellen, ohne Anmeldung. Testversion mit Wasserzeichen verfügbar.',
     },
 
   hero: {
-    title: 'Mathe-Rätsel-Arbeitsblatt-Generator',
+    title: 'Mathe-Rätsel Ersteller — Jigsaw-Puzzles kostenlos erstellen',
     tagline: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil in unter 60 Sekunden erstellen',
-    description: 'Verwandeln Sie Mathe-Übungen in ein fesselndes visuelles Puzzle, das völlig anders aussieht als ein normales Arbeitsblatt. Dieses Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen, die jeweils eine Mathe-Gleichung enthalten. Darunter erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen — Nutzer lösen jede Gleichung und ordnen das richtige Teil zu, um das Bild zu rekonstruieren. Wählen Sie aus drei Rechenarten: Addition, Subtraktion oder Gemischt (beide Operationen zufällig kombiniert). Passen Sie die Rastergröße von 2×2 (4 Teile, am einfachsten) bis 4×4 (16 Teile, am schwierigsten) an jedes Fähigkeitsniveau an. Laden Sie eigene PNG- oder JPEG-Bilder für markentypische, saisonale oder Nischen-Puzzles hoch, oder durchstöbern Sie die integrierte Bibliothek mit über 3.100 Bildern in 104 Themen. Das Jigsaw-Format erzeugt ein sofort erkennbares Produkt, das in Marktplatz-Suchergebnissen heraussticht — Käufer, die durch Reihen identischer Arbeitsblätter scrollen, bleiben bei einem farbenfrohen Bilderpuzzle stehen. Download als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Unser kostenloser Mathe-Rätsel Ersteller verwandelt Mathe-Übungen in fesselnde visuelle Puzzles — direkt im Browser, ohne Anmeldung und ohne Installation. Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen, die jeweils eine Mathe-Gleichung enthalten. Darunter erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen — Nutzer lösen jede Gleichung und ordnen das richtige Teil zu, um das Bild zu rekonstruieren. Wählen Sie aus drei Rechenarten: Addition, Subtraktion oder Gemischt. Passen Sie die Rastergröße von 2x2 (4 Teile) bis 4x4 (16 Teile) an jedes Fähigkeitsniveau an. Laden Sie eigene Bilder hoch oder durchstöbern Sie die integrierte Bibliothek mit über 3.100 Bildern in 104 Themen. Graustufen-Export für tintenschonende Ausgabe und automatische Lösungsschlüssel-Generierung sind integriert. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

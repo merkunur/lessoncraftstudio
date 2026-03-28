@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Lese-Arbeitsblatt-Paket',
+    primaryKeyword: 'Sprach-Rätsel-Generatoren-Bundle für Etsy KDP',
     secondaryKeywords: [
       'Sprach-Arbeitsblätter-Paket für Verkäufer',
       'Lese-Arbeitsblatt-Generator-Paket kommerzielle Nutzung',
@@ -15,14 +15,14 @@ const content: BundleContent = {
       'kommerzielle Lizenz Lese-Arbeitsblätter',
       'Sprach-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Lese-Arbeitsblatt-Paket — 7 Sprach- & Wort-Generatoren',
-    metaDescription: '7 Lese- und Sprach-Generatoren im Paket: Wortsuche, Buchstabensalat, Kryptogramm, Präpositionen, Wörter-Raten und Schreibübungen. 11 Sprachen für Etsy.',
+    titleTag: 'Sprach-Rätsel-Bundle — Auf Etsy verkaufen | LCS',
+    metaDescription: 'Sprach-Rätsel-Generatoren-Bundle mit 7 Apps für Etsy und KDP. Wortsuche, Kryptogramm, Buchstabensalat und mehr in 11 Sprachen — verkaufen Sie international.',
   },
 
   hero: {
-    title: 'Lese- & Sprach-Paket',
+    title: 'Sprach-Rätsel-Generatoren-Bundle für Etsy und KDP',
     tagline: 'Sieben sprachgestützte Arbeitsblatt-Generatoren — multiplizieren Sie Ihre Produktlinie über 11 Sprachen',
-    description: 'Jeder Generator in diesem Paket ist sprachbewusst. Diese eine Tatsache verwandelt Ihren Produktkatalog: Ein Arbeitsblatt-Design wird zu 11 eigenständigen Produkten, wenn Sie zwischen Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch wechseln. Das Lese- & Sprach-Paket kombiniert sieben spezialisierte Generatoren für Buchstabenerkennung, räumliche Präpositionen, Wörter-Raten mit Bildhinweisen, Buchstaben-Entwirren, Wortsuche-Raster, Satz-zu-Bild-Kryptogramm-Verschlüsselungen und geführte Schreibübungen. Sechs der sieben Generatoren erzeugen sprachspezifische Inhalte — die Wörter, Buchstaben und der Wortschatz auf jedem Arbeitsblatt ändern sich passend zur gewählten Sprache, mit korrekten diakritischen Zeichen, muttersprachlichen Alphabeten und grammatisch präzisen Formulierungen. Der siebte, Schreibübungen, konzentriert sich auf Handschrift-Strichübungen mit minimaler Sprachabhängigkeit. Jeder Generator gibt druckfertige PDF- und hochauflösende JPEG-Dateien aus. Sechs von sieben enthalten automatische Lösungsschlüssel. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene Grafiken für markenspezifische, nischenorientierte Produkte hoch. Ob Sie Lese-Druckmaterialien auf Etsy.de verkaufen, Sprach-Arbeitsbücher auf Amazon KDP veröffentlichen oder Ressourcen auf dem Gumroad anbieten — dieses Paket bietet Ihnen die Vielfalt und Sprachreichweite, die einsprachige Konkurrenten nicht bieten können. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
+    description: 'Dieses Sprach-Rätsel-Generatoren-Bundle für Etsy und KDP verwandelt Ihren Produktkatalog: Jeder Generator ist sprachbewusst, sodass ein Arbeitsblatt-Design zu 11 eigenständigen Produkten wird, wenn Sie zwischen Deutsch, Englisch, Französisch, Spanisch und sieben weiteren Sprachen wechseln. Das Bundle kombiniert sieben spezialisierte Generatoren für Buchstabenerkennung, räumliche Präpositionen, Wörter-Raten, Buchstaben-Entwirren, Wortsuche-Raster, Kryptogramm-Verschlüsselungen und Schreibübungen. Sechs der sieben erzeugen sprachspezifische Inhalte mit korrekten diakritischen Zeichen und muttersprachlichen Alphabeten. Jeder Generator gibt druckfertige PDF- und JPEG-Dateien mit automatischen Lösungsschlüsseln aus. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene Grafiken hoch. Ob Sie Lese-Druckmaterialien auf Etsy.de, Sprach-Arbeitsbücher auf Amazon KDP oder Ressourcen auf Gumroad verkaufen — dieses Bundle bietet die Vielfalt und Sprachreichweite, die einsprachige Konkurrenten nicht bieten können. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen zum Testen aller Funktionen.',
   },
 
   appsIncluded: [

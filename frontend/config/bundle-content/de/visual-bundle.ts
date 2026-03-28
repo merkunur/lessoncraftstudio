@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuelles lernen',
+    primaryKeyword: 'Visuelle Arbeitsblatt-Generatoren für Verkäufer',
     secondaryKeywords: [
       'Malvorlagen-Zeichnen-Arbeitsblatt-Generator-Paket für Verkäufer',
       'visuelle Aktivitäten druckbares Toolkit kommerzielle Nutzung',
@@ -15,14 +15,14 @@ const content: BundleContent = {
       'kommerzielle Lizenz visuelle Aktivitäts-Arbeitsblätter',
       'visuelle Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Visuelles Lernen — 7-Generatoren-Paket',
-    metaDescription: '7 visuelle Lern-Generatoren im Paket: Malvorlagen, Zeichenaktivitäten, Muster, Größenvergleiche, Bilddiagramme und Linienübungen. Weltweit einsetzbar.',
+    titleTag: 'Visuelles Arbeitsblatt-Bundle für Verkäufer | LCS',
+    metaDescription: 'Visuelles Arbeitsblatt-Bundle mit 7 Generatoren für Etsy-Verkäufer. Malvorlagen, Zeichenübungen, Muster und Diagramme — sprachfrei, weltweit verkaufbar.',
   },
 
   hero: {
-    title: 'Visuelles-Lernen-Paket',
+    title: 'Visuelle Arbeitsblatt-Generatoren-Bundle für Verkäufer',
     tagline: 'Sieben rein visuelle Arbeitsblatt-Generatoren — Arbeitsblätter, die weltweit in jeder Sprache funktionieren',
-    description: 'Jeder Generator in diesem Paket erzeugt Arbeitsblätter, die ausschließlich aus Bildern, Formen, Farben und Zahlen bestehen. Kein Text erscheint auf der fertigen Seite außer optionalen Oberflächenbeschriftungen. Das bedeutet: Jedes Arbeitsblatt, das Sie erstellen, funktioniert für Käufer in jedem Land, jeder Sprache, jedem Schulsystem — ohne Übersetzung, ohne Anpassung, ohne Lokalisierungsaufwand. Das Visuelles-Lernen-Paket vereint sieben spezialisierte Generatoren für Größenvergleich, Zugwaggon-Musterfolgen, Lücken-Muster-Arbeitsblätter, Referenzbild-Zeichnen mit Symmetriemodus, Linien-Nachziehen zwischen gepaarten Objekten, Malvorlagen-Erstellung aus Bild-Umrissen und Balkendiagramm-Zählaktivitäten. Zwei der sieben Generatoren — Rasterzeichnen und Malvorlagen — bieten spezielle Schwarz-Weiß-Umrissthemen, die gezielt zum Ausmalen und Zeichnen konzipiert sind, sodass Sie sowohl farbige als auch S/W-Produktstile aus einem einzigen Toolkit erstellen können. Drei Generatoren liefern automatische Lösungsschlüssel, wo anwendbar: Groß & Klein, Muster-Arbeitsblatt und Bilddiagramm. Die anderen vier sind kreative oder Übungsaktivitäten, bei denen Lösungsschlüssel nicht zutreffen. Jeder Generator gibt druckfertige PDF- und hochauflösende JPEG-Dateien aus. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene Grafiken für markenspezifische, nischenorientierte Produkte hoch. Ob Sie Malvorlagen auf Etsy.de verkaufen, Aktivitätsbücher auf Amazon KDP veröffentlichen oder Vorschul-Pakete auf dem Gumroad anbieten — dieses Paket bietet Ihnen die visuelle Vielfalt und universelle Marktreichweite, die textabhängige Wettbewerber nicht bieten können. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
+    description: 'Dieses visuelle Arbeitsblatt-Bundle für Verkäufer erzeugt Arbeitsblätter, die ausschließlich aus Bildern, Formen und Zahlen bestehen — kein Text auf der fertigen Seite. Jedes Arbeitsblatt funktioniert weltweit ohne Übersetzung oder Lokalisierungsaufwand. Sieben spezialisierte Generatoren decken Größenvergleich, Zugwaggon-Musterfolgen, Lücken-Muster, Referenzbild-Zeichnen mit Symmetriemodus, Linien-Nachziehen, Malvorlagen aus Bild-Umrissen und Balkendiagramm-Zählaktivitäten ab. Zwei Generatoren bieten Schwarz-Weiß-Umrissthemen für Ausmal- und Zeichenprodukte. Drei liefern automatische Lösungsschlüssel, wo anwendbar. Über 100 thematische Bildsets oder eigene Uploads ermöglichen nischenorientierte Produkte. Ob Malvorlagen auf Etsy.de, Aktivitätsbücher auf Amazon KDP oder Vorschul-Pakete auf Gumroad — dieses Bundle bietet visuelle Vielfalt und universelle Marktreichweite, die textabhängige Wettbewerber nicht bieten können. Kostenlose Testversion mit Wasserzeichen verfügbar.',
   },
 
   appsIncluded: [

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schattenbilder-ersteller',
+    primaryKeyword: 'kostenloser Schattenbilder-Generator',
     secondaryKeywords: [
-      'Schattenbilder-Ersteller für Verkäufer',
-      'Silhouetten-Zuordnungs-Arbeitsblätter online erstellen und verkaufen',
-      'druckbare Schattenbild-Rätsel kommerziell erstellen',
-      'Schattenbilder-Generator mit pixelgenauer Silhouetten-Erstellung und automatischem Lösungsschlüssel für KDP',
+      'Schattenbilder-Arbeitsblätter kostenlos erstellen',
+      'Silhouetten-Zuordnung Generator online ohne Anmeldung',
+      'kostenlose Schattenbilder-Rätsel mit Lösungsschlüssel',
+      'Schattenbilder-Ersteller mit Bild-Vervollständigung kostenlos',
     ],
     lsiKeywords: [
-      'Doppelmodus-Silhouetten- und Bildhälften-Zuordnungstool für Verkäufer',
-      'pixelgenaue Schattenbilderzeugung mit Derangement-Algorithmus',
-      'automatischer Lösungsschlüssel Schattenbilder-Zuordnungs-Generator',
+      'Silhouetten-Zuordnung pixelgenaue Verarbeitung',
+      'Bild-Vervollständigung Hälften-Zuordnung',
+      'Schattenbilder-Rätsel Arbeitsblätter Generator',
     ],
-    titleTag: 'Schattenbilder-Ersteller | Silhouetten-Zuordnung',
-    metaDescription: 'Schattenbilder-Zuordnungsblätter mit pixelgenauen Silhouetten und Bild-Vervollständigung erstellen. 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Schattenbilder-Generator | LCS',
+    metaDescription: 'Kostenloser Schattenbilder-Generator: Silhouetten-Zuordnung und Bild-Vervollständigung online erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Schattenbilder-Ersteller',
+    title: 'Schattenbilder-Zuordnung kostenlos erstellen online',
     tagline: 'Doppelmodus-Schattenbilder-Zuordnungs-Generator mit pixelgenauer Silhouetten-Erstellung, Modus Bild Vervollständigen mit horizontaler und vertikaler Schnittrichtung, Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen, automatisch generierten Lösungsschlüsseln mit Buchstabe-zu-Nummer-Beschriftungen, umschaltbaren A/B/C/D- und 1/2/3/4-Kennzeichnungen und 104 thematischen Bildsammlungen für Schattenbilder-Arbeitsblätter, die weltweit verkaufbar sind',
-    description: 'Erstellen Sie professionelle Schattenbilder-Zuordnungsblätter mit zwei verschiedenen Übungsmodi in einem einzigen Generator. Der Schattenbild-Zuordnungsmodus platziert 4 farbige Bilder mit den Beschriftungen A, B, C, D in der oberen Reihe und 4 automatisch generierte schwarze Silhouetten mit den Beschriftungen 1, 2, 3, 4 in der unteren Reihe — die Silhouetten werden durch pixelgenaue Bildverarbeitung erzeugt, die jeden Pixel mit Alpha > 10 in reines Schwarz (R=0, G=0, B=0, A=255) umwandelt und so präzise Umrisse erstellt, die das exakte Transparenzprofil jedes Bildes bewahren. Dies ist echte pixelgenaue Verarbeitung, keine CSS-Filter oder vorgefertigten Schattenelemente. Der Modus Bild Vervollständigen teilt 4 Bilder in Hälften — wählen Sie horizontale Schnittrichtung (obere/untere Hälften) oder vertikale Schnittrichtung (linke/rechte Hälften) — beschriftet die ersten Hälften A–D und die zweiten Hälften 1–4, und Lernende fügen die Teile wieder zusammen, um jedes Bild zu vervollständigen. Beide Modi verwenden einen Fisher-Yates-Derangement-Algorithmus, der garantiert, dass kein Element an seiner ursprünglichen Position erscheint — keine Silhouette sitzt direkt unter ihrem passenden Bild, keine zweite Hälfte sitzt neben ihrer passenden ersten Hälfte. Das Derangement berechnet sich bei jeder Generierung neu und erzeugt verschiedene Anordnungen aus demselben Bilderset. Schalten Sie die Anzeige der A/B/C/D- und 1/2/3/4-Beschriftungen um — Beschriftungen EIN bieten Buchstabe-Nummer-Gerüststruktur für jüngere Lernende, Beschriftungen AUS erzeugen eine rein visuelle Zuordnungsherausforderung, ideal für Rätselbücher und fortgeschrittene Aktivitäten. Fügen Sie optionale Name- und Datumsfelder für die Produkterstellung hinzu. Das Doppel-Canvas-System generiert gleichzeitig ein Arbeitsblatt und einen Lösungsschlüssel — der Lösungsschlüssel zeigt jede korrekte Buchstabe-zu-Nummer-Zuordnung (A → 2, B → 4 usw.) neben den Originalbildern und ihren Silhouetten oder vollständigen Bildern, sodass Sie niemals Lösungsschlüssel manuell erstellen müssen. Das Layout passt sich automatisch an: Querformat-Seiten ordnen Elemente in 2 Reihen × 4 Elemente, Hochformat-Seiten verwenden 2 Spalten × 4 Elemente. Eine gestaltete Überschrift erscheint mit bernsteinfarbenem Hintergrund (#FFC107), weißem Pillen-Container und 3px bernsteinfarbenem Rahmen. Der Schattenbilder-Ersteller ist NICHT sprachabhängig — die Rätsel-Ausgabe ist rein visuell ohne lokalisierten Wortinhalt auf dem Arbeitsblatt selbst, sodass jedes Arbeitsblatt universell verkaufbar ist über alle Märkte hinweg ohne Übersetzung. Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schrittweite 0,05) hinzu. Fügen Sie benutzerdefinierten Text mit 7 Schriftoptionen (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10 hinzu. Exportieren Sie vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle mit 300 DPI (6×-Multiplikator, JPEG-Qualität 1.0). Wählen Sie Letter, A4, Quadrat (1200×1200) oder benutzerdefinierte Seitengrößen mit Graustufen-Schalter für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Ausrichtungswerkzeugen, Ebenen, Sperren/Entsperren, Zoom 25%–300% und Rückgängig/Wiederholen mit 20 Zuständen. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Schattenbilder-Zuordnungsblätter kostenlos mit unserem Schattenbilder-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Zwei Übungsmodi bieten unterschiedliche Herausforderungen: Der Schattenbild-Zuordnungsmodus platziert farbige Bilder und pixelgenau erzeugte schwarze Silhouetten — echte Bildverarbeitung, keine CSS-Filter. Der Modus Bild Vervollständigen teilt Bilder in Hälften mit wählbarer horizontaler oder vertikaler Schnittrichtung. Der Fisher-Yates-Derangement-Algorithmus garantiert, dass kein Element an seiner Originalposition erscheint. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit Buchstabe-zu-Nummer-Zuordnungen. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },
 
   tutorial: {

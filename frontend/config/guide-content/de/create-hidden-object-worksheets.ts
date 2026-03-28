@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Suchbilder-Arbeitsblätter erstellen',
+    primaryKeyword: 'Suchbilder-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Suchbilder-Szenen-Generator',
-      'Ich-sehe-was-Arbeitsblätter für Kinder',
-      'Was passt nicht druckbare Arbeitsblätter',
-      'Suchbilder-Rätsel zum Verkaufen erstellen',
+      'Suchbilder-Szenen für Etsy produzieren',
+      'Ich-sehe-was-Arbeitsblätter kommerziell verkaufen',
+      'Such-und-Finde-Aktivitätsbuch auf KDP veröffentlichen',
+      'Suchbilder-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'visuelle Sucharbeitsblätter für Vorschule',
-      'versteckte Objekte finden Aktivitätsblätter',
-      'Suchen und Finden druckbare Seiten',
-      'Suchbilder-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Such- und Finde-Aktivitätsbücher',
-      'kommerzielle Lizenz Suchbilder-Ersteller',
+      'visuelle Sucharbeitsblätter Etsy-Geschäft',
+      'versteckte Objekte Printable Nische verkaufen',
+      'KDP Such-und-Finde-Aktivitätsbuch veröffentlichen',
     ],
-    titleTag: 'Suchbilder-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Suchbilder-Arbeitsblätter mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. Thematische Szenen, Lösungsschlüssel. Verkaufen auf Etsy und Amazon KDP.',
+    titleTag: 'Suchbilder zum Verkaufen erstellen | LCS',
+    metaDescription: 'Suchbilder-Arbeitsblätter zum Verkaufen erstellen. Ich-sehe-was und Was-passt-nicht-Modus, Lösungsschlüssel und druckfertige Dateien für Etsy und KDP.',
   },
 
   hero: {
-    title: 'Wie Sie Suchbilder-Szenen-Arbeitsblätter erstellen',
+    title: 'Suchbilder-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Erstellen von Ich-sehe-was- und Was-passt-nicht-Szenen-Arbeitsblättern für den Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Suchbilder-Arbeitsblätter gehören zu den fesselndsten druckbaren Produkten, die Sie erstellen können. Kinder lieben die Herausforderung, eine Szene nach bestimmten Objekten abzusuchen, und Eltern und Käufer schätzen die konzentrierte Aufmerksamkeit, die diese Aktivitäten erfordern. Diese Anleitung führt Sie durch das Erstellen professioneller Suchbilder-Szenen-Arbeitsblätter mit dem Objekte-finden-Szenen-Generator — von der Wahl zwischen Ich-sehe-was- und Was-passt-nicht-Spielmodus über das Aufbauen individueller Szenen mit geschichteten Bildern, das automatische Generieren von Lösungsschlüsseln bis hin zum Export druckfertiger Dateien. Ob Sie Ihr erstes druckbares Produkt starten oder eine neue Kategorie zu einem bestehenden Shop hinzufügen — am Ende dieser Anleitung haben Sie fertige Arbeitsblätter zum Einstellen.',
+    description: 'Suchbilder-Arbeitsblätter zum Verkaufen erstellen bedient eine Nische, in der Kinder die Aktivitäten lieben und Eltern die konzentrierte Aufmerksamkeit schätzen — eine ideale Kombination für hohe Verkaufszahlen auf Etsy und KDP. Suchbilder-Arbeitsblätter sind rein visuell und enthalten keinen Text, der übersetzt werden müsste, wodurch ein Produkt ohne Anpassung in jedem Land verkauft werden kann. Diese Anleitung führt Sie durch den Erstellungsprozess mit dem Objekte-finden-Szenen-Generator: Sie wählen zwischen Ich-sehe-was- und Was-passt-nicht-Spielmodus, bauen individuelle Szenen mit geschichteten Bildern auf, generieren automatisch Lösungsschlüssel und exportieren druckfertige Dateien. Im Unterschied zu rasterbasierten Generatoren arbeiten Sie auf einer freien Zeichenfläche, auf der Sie Bilder einzeln positionieren und Schichtung, Ausrichtung und Platzierung kontrollieren. Über 100 Themen und eigene Bild-Uploads ermöglichen unbegrenzte Szenenvielfalt für Ihren Produktkatalog. Ob Sie Ihr erstes Produkt listen oder eine neue Kategorie zu Ihrem Shop hinzufügen — am Ende dieser Anleitung haben Sie fertige Arbeitsblätter bereit zum Einstellen.',
   },
 
   introduction: 'Suchbild-Aktivitäten sprechen einen grundlegenden menschlichen Instinkt an: den Drang zu suchen und zu finden. Schon Kinder ab drei Jahren beschäftigen sich ganz natürlich mit Suchen-und-Finden-Aufgaben, was Suchbilder-Arbeitsblätter zu einem der breitest ansprechenden druckbaren Produkte macht, die Sie erstellen können. Die Zielgruppe reicht von der Vorschule bis zur Grundschule, umfasst jedes Produktkatalog und funktioniert gleichermaßen zu Hause und im Bildungsmarkt.\n\nWas Suchbilder-Arbeitsblätter von anderen druckbaren Produkten unterscheidet, ist ihre visuelle Natur. Diese Arbeitsblätter enthalten keinen Text, der übersetzt werden muss, keine Matheaufgaben, die an ein bestimmtes Produktkatalog gebunden sind, und keine sprachabhängigen Anweisungen. Ein Suchbilder-Szenen-Arbeitsblatt, das mit englischen UI-Bezeichnungen erstellt wurde, funktioniert identisch für Käufer in Deutschland, Brasilien oder Japan. Das macht Ihre Produkte universell auf internationalen Marktplätzen verkäuflich, ohne jegliche Anpassung.\n\nDer Objekte-finden-Generator bietet Ihnen zwei verschiedene Spielmodi, die grundlegend unterschiedliche Produkte erzeugen. Der Ich-sehe-was-Modus fordert Kinder heraus, bestimmte versteckte Objekte in einer belebten Szene voller Ablenkerbilder zu finden. Der Was-passt-nicht-Modus fordert Kinder auf, das Bild zu identifizieren, das kein passendes Gegenstück hat. Jeder Modus fördert unterschiedliche Entwicklungsfähigkeiten — visuelle Unterscheidung, Aufmerksamkeit für Details, Mustererkennung — und jeder erzeugt eine eigene Produktlinie für Ihren Katalog.\n\nIm Gegensatz zu rasterbasierten Arbeitsblatt-Generatoren verwendet der Objekte-finden-Generator eine freie Zeichenfläche, auf der Sie Bilder einzeln positionieren. Sie kontrollieren Schichtung, Ausrichtung und Platzierung, um Szenen mit echter visueller Komplexität zu erstellen. Kombiniert mit eigenen Bild-Uploads, Hintergrund-Themen und Rahmendekorationen gibt Ihnen das vollständige kreative Kontrolle über jede Szene, die Sie aufbauen.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können komplette Szenen aufbauen, beide Spielmodi testen und die Exportqualität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

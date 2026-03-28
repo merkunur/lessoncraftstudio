@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bilder-sortieren-generator',
+    primaryKeyword: 'Sortier-Arbeitsblätter erstellen Etsy-Shop',
     secondaryKeywords: [
-      'druckbarer Sortier-Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Zwei-Kategorien-Sortierung-Arbeitsblatt-Generator für KDP-Verleger',
-      'Klassifizierungs-Arbeitsblatt-Ersteller kommerzielle Lizenz',
-      'Sortier-Aktivitäten auf Gumroad verkaufen',
+      'Bilder-Sortieren-Generator für Etsy-Verkäufer',
+      'Zwei-Kategorien-Sortierung Druckvorlagen erstellen KDP',
+      'Klassifizierungs-Arbeitsblätter verkaufen kommerzielle Lizenz',
+      'Sortier-Aktivitäten Generator mit Lösungsschlüssel',
     ],
     lsiKeywords: [
-      'digitale Sortier-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Bilder-Sortieren-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft Klassifizierungs-Aktivitäten Werkzeuge',
+      'Printable-Business Sortier-Übungen Druckvorlagen',
+      'Bilder-Sortieren Arbeitsblatt verkaufen Etsy KDP',
+      'Kategorisierung Druckvorlagen Einkommensquelle',
     ],
-    titleTag: 'Bilder-Sortieren-Generator | Sortier-Aktivitäten',
-    metaDescription: 'Bilder-Sortieren-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Zwei-Kategorien-Sortierung, 4–12 Bilder. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Sortier-Arbeitsblätter für Etsy-Shop | LCS',
+    metaDescription: 'Sortier-Arbeitsblätter erstellen für Ihren Etsy-Shop. Zwei-Kategorien-Sortierung mit Ausschneidegitter und Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Bilder-Sortieren-Arbeitsblatt-Generator für Zwei-Kategorien-Sortier-Aktivitäten',
+    title: 'Sortier-Arbeitsblätter erstellen für Ihren Etsy-Shop',
     tagline: 'Zwei-Kategorien-Sortierung in einem leistungsstarken Generator — themenbasierte oder manuelle Bildauswahl — mit automatisch generierten Lösungsschlüsseln, 4–12 konfigurierbaren Bildern, einem lokalisierten \"Bilder-Sortieren\"-Header in 11 Sprachen und 104 thematischen Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Sortier-Arbeitsblätter, bei denen ausgeschnittene Bilder in zwei Kategorien einsortiert werden — links und rechts. Wählen Sie den Themen-Modus, um Kategorien automatisch aus der Bildbibliothek zu befüllen — wählen Sie ein linkes Thema und ein rechtes Thema, und die App zieht 4–6 zufällige Bilder pro Thema — oder wechseln Sie in den manuellen Modus, um einzelne Bilder von Hand auszuwählen und jeder Kategorie zuzuweisen. Jedes Arbeitsblatt enthält zwei gestrichelt umrandete Kategorierahmen oben als Sortierbereiche und ein gemischtes Ausschneidegitter unten mit durcheinandergeworfenen Bildern zum Ausschneiden und Zuordnen. Das Dual-Canvas-System generiert sowohl einen Arbeitsblatt-Tab als auch einen Lösungsschlüssel-Tab mit 6× größeren Bildern in Kategorieboxen, sodass Sie Lösungsschlüssel niemals manuell erstellen müssen. Der Bilder-Sortieren-Generator ist sprachabhängig: Kategoriebeschriftungen verwenden lokalisierte Bildnamen, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Ein lokalisierter \"Bilder-Sortieren\"-Header mit mintgrünem Hintergrund und blaugrünem Titel wird automatisch in allen 11 unterstützten Sprachen gerendert. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen für lokalisierte Kategoriebeschriftungen frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie Name-und-Datumsfelder für die Produkterstellungsalltag und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen nur auf Englisch; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen für lokalisierte Kategoriebeschriftungen frei. Ob Sie thematische Sortier-Pakete auf Etsy.de verkaufen, Klassifizierungs-Arbeitsbücher für Amazon KDP zusammenstellen oder Sortier-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Sortier-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Sortier-Arbeitsblätter erstellen und in Ihrem Etsy-Shop oder als KDP-Arbeitsbücher verkaufen? Dieser Generator erstellt professionelle Zwei-Kategorien-Sortierungen, bei denen ausgeschnittene Bilder in zwei Kategorien einsortiert werden. Wählen Sie den Themen-Modus, um Kategorien automatisch aus der Bildbibliothek zu befüllen, oder den manuellen Modus für individuelle Bildauswahl. Jedes Arbeitsblatt enthält gestrichelt umrandete Kategorierahmen oben und ein gemischtes Ausschneidegitter unten mit durcheinandergeworfenen Bildern zum Ausschneiden und Zuordnen. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel. Der Generator ist sprachabhängig: Kategoriebeschriftungen verwenden lokalisierte Bildnamen, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert — ideal für mehrsprachige Produktlinien. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

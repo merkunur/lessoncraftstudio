@@ -2,28 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bilder-additions-generator',
+    primaryKeyword: 'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen',
     secondaryKeywords: [
-      'druckbare Code-Knacker-Mathe-Rätsel für Etsy',
-      'Bilder-Additions-Rätsel für Amazon KDP',
-      'Wort-Entschlüsselungs-Arbeitsblätter auf Gumroad verkaufen',
-      'Code-Knacker-Arbeitsblätter kommerzielle Lizenz',
-      'mehrsprachige Mathe-Rätsel-Druckvorlagen',
+      'Code-Additions-Generator für Etsy-Verkäufer',
+      'Kryptarithmetische Rätsel für Amazon KDP erstellen',
+      'Geheimcode-Arbeitsblätter gewerbliche Lizenz',
+      'Wort-Entschlüsselungs-Mathe-Rätsel für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'Geheimcode-Additions-Rätsel druckbar',
-      'Detektiv-Mathe-Arbeitsblätter verkaufen',
-      'Rätsel-Arbeitsblatt-Generator für Unternehmer',
+      'Geheimcode Addition Detektiv-Rätsel druckfertig',
+      'Code-Knacker-Arbeitsblätter DACH-Markt',
+      'Wort-Entschlüsselung Lösungsschlüssel kommerzielle Nutzung',
     ],
-    titleTag: 'Bilder-Additions-Generator | Code-Knacker-Mathe',
-    metaDescription: 'Code-Knacker-Additions-Rätsel erstellen und auf Etsy, KDP verkaufen. Wort-Entschlüsselung, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Geheimcode-Mathe-Rätsel für Etsy erstellen | LCS',
+    metaDescription: 'Erstellen Sie Geheimcode-Mathe-Rätsel zum Verkauf auf Etsy & KDP. Wort-Entschlüsselung, 11 Sprachen, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Bilder-Additions-Arbeitsblatt-Generator — Code-Knacker-Mathe-Rätsel',
+    title: 'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen',
     tagline: 'Verwandeln Sie Addition in eine Detektiv-Mission, bei der jedes Bild eine geheime Zahl verbirgt.',
     description:
-      'Erstellen Sie kryptarithmetische Additions-Arbeitsblätter, die Nutzer herausfordern, einen visuellen Code zu knacken. Jedes Bild auf dem Arbeitsblatt repräsentiert eine versteckte Zahl — Nutzer lösen Additionsgleichungen, um durch logisches Denken herauszufinden, welche Zahl zu welchem Bild gehört. Diese Kombination aus Rechenfertigkeit und logischem Schlussfolgern macht jedes Arbeitsblatt zu einer spannenden Knobelaufgabe. Wechseln Sie in den Wort-Entschlüsselungs-Modus und die Spannung steigt: Geben Sie ein Geheimwort mit bis zu zehn Buchstaben ein, und jede richtig gelöste Gleichung enthüllt einen Buchstaben der Antwort, während drei Ablenkungs-Gleichungen mit falschen Summen die Nutzer zum genauen Prüfen zwingen. Der Generator unterstützt elf sprachspezifische Alphabete, sodass die Wort-Entschlüsselung nativ auf Deutsch mit Ä, Ö, Ü und ß funktioniert — ebenso wie auf Französisch, Spanisch und sieben weiteren Sprachen. Kein anderer Arbeitsblatt-Generator bietet dieses Feature. Wählen Sie aus über 3.100 Bildern in 104 visuellen Themen, stellen Sie Zahlenbereiche von 1 bis 20 mit zwei bis fünf Code-Symbolen pro Blatt ein und exportieren Sie druckfertige PDFs oder JPEGs mit über 400 DPI inklusive automatischem Lösungsschlüssel, der die versteckte Zahl auf jedem Bild einblendet. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen — mit diesem Generator produzieren Sie ein Produktformat, das auf deutschsprachigen Marktplätzen praktisch konkurrenzlos ist. Jedes Arbeitsblatt verwandelt Addition in eine Detektiv-Mission: Bilder repräsentieren versteckte Zahlen, und Käufer lösen die Gleichungen, um den Code zu knacken. Im Wort-Entschlüsselungs-Modus verbergen Sie ein Geheimwort mit bis zu zehn Buchstaben — inklusive Ä, Ö, Ü und ß für native deutsche Rätsel. Mit 11 unterstützten Sprachen, 104 Themen und über 3.100 Bildern erstellen Sie in Minuten einzigartige Rätsel-Pakete für Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf Ihrer erstellten Arbeitsblätter im gesamten DACH-Markt und darüber hinaus. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

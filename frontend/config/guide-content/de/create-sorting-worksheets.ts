@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kategoriesortierung Arbeitsblätter',
+    primaryKeyword: 'Sortier-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Sortier-Arbeitsblätter für Kinder erstellen',
-      'Bilder-Sortieren Arbeitsblatt-Generator',
-      'druckbare Sortieraktivitäten zum Verkaufen',
-      'Zwei-Kategorien-Klassifizierung Arbeitsblätter',
+      'Ausschneide-und-Sortier-Arbeitsblätter für Etsy produzieren',
+      'Kategoriesortierung-PDFs kommerziell verkaufen',
+      'Klassifizierung-Arbeitsbuch auf KDP veröffentlichen',
+      'Sortier-Arbeitsblatt-Generator für Verkäufer',
     ],
     lsiKeywords: [
-      'Ausschneide-und-Sortier-Arbeitsblätter für Vorschule',
-      'Bildklassifizierung Aktivitäten-Ersteller',
-      'Sortier-Arbeitsblätter mit Lösungsschlüssel',
-      'Sortier-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Klassifizierung Arbeitsbücher',
-      'kommerzielle Lizenz Sortier-Tool',
+      'Vorschul-Sortier-Druckvorlagen Etsy-Geschäft',
+      'Ausschneide-Sortier Printable Nische verkaufen',
+      'KDP Klassifizierung-Arbeitsbuch veröffentlichen',
     ],
-    titleTag: 'Kategoriesortierung Arbeitsblätter — Anleitung',
-    metaDescription: 'Sortier-Arbeitsblätter mit Zwei-Kategorien-Modus erstellen. 4–12 Bilder und Lösungsschlüssel. Druckvorlagen für den Verkauf auf Etsy und KDP. Verkäufer-Guide.',
+    titleTag: 'Sortier-Arbeitsblätter zum Verkauf | LCS',
+    metaDescription: 'Sortier-Arbeitsblätter zum Verkaufen erstellen. Zwei-Kategorien-Modus, 4–12 Bilder und automatische Lösungsschlüssel. Druckfertige PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Kategoriesortierung-Arbeitsblätter',
+    title: 'Sortier-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Erstellen von Zwei-Kategorien-Ausschneide-und-Sortier-Arbeitsblättern mit Themen- und manuellem Auswahlmodus, automatisch generierten Lösungsschlüsseln und mehrsprachiger Unterstützung, die Sie auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Kategoriesortierung ist eine der frühesten kognitiven Fähigkeiten, die Kinder entwickeln, und Sortier-Arbeitsblätter sind auf jedem Bildungsmarktplatz stark nachgefragt. Eltern benötigen sie für praktisches Lernen zu Hause. Käufer benötigen sie für Klassifizierungsaktivitäten und Sortierstationen. Selbststudiumzentren nutzen sie für visuelle Kategorisierungsübungen. Dieser Leitfaden führt Sie durch den gesamten Erstellungsprozess mit dem Bilder-Sortieren-Arbeitsblatt-Ersteller — von der Wahl des Auswahlmodus und der Konfiguration der Bildanzahl bis zur Generierung gemischter Ausschneideraster mit automatischen Lösungsschlüsseln. Ob Sie Ihr erstes Sortierprodukt erstellen oder einen bestehenden Klassifizierungs-Arbeitsblattkatalog erweitern — am Ende dieses Tutorials haben Sie ein fertiges Produkt zum Listen bereit.',
+    description: 'Sortier-Arbeitsblätter zum Verkaufen erstellen bedient eine der beständigsten Nachfragen im Vorschul-Druckvorlagen-Markt. Kategoriesortierung ist eine grundlegende kognitive Fähigkeit, und Eltern, Nachhilfezentren sowie Homeschool-Familien kaufen Sortier-Arbeitsblätter ganzjährig auf Etsy und KDP. Das Ausschneide-und-Sortier-Format schafft dabei tieferes Engagement als einfache Einkreis-Aktivitäten, weil es motorische Fähigkeiten, räumliches Denken und aktive Entscheidungsfindung erfordert. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bilder-Sortieren-Arbeitsblatt-Ersteller: Sie wählen zwischen Themenmodus für schnelle Produktion und manuellem Modus für marktgenaue Präzision, konfigurieren vier bis zwölf Bilder pro Arbeitsblatt und generieren gemischte Ausschneideraster mit automatischen Lösungsschlüsseln. Der Generator unterstützt elf Sprachen und erzeugt lokalisierte Kopfzeilen, sodass Sie mehrsprachige Produktlinien aufbauen können. Ob Sie Ihr erstes Sortierprodukt listen oder einen bestehenden Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt zum Einstellen bereit.',
   },
 
   introduction: 'Klassifizierung ist eine der grundlegenden kognitiven Fähigkeiten in der frühkindlichen Bildung. Bevor Kinder lesen, schreiben oder rechnen können, lernen sie zu sortieren — Objekte nach gemeinsamen Merkmalen wie Farbe, Form, Funktion oder Kategorie zu gruppieren. Das macht Sortier-Arbeitsblätter zu einem universell relevanten Produkt mit anhaltender Nachfrage von der Vorschule bis zur Grundschule.\n\nWas Sortier-Arbeitsblätter als Druckprodukt besonders effektiv macht, ist das Ausschneide-und-Sortier-Format. Nutzer schneiden Bilder aus einem gemischten Raster aus und ordnen sie dem richtigen Kategorierahmen zu. Diese praktische Interaktion schafft tieferes Engagement als Einkreis- oder Linien-Zieh-Aktivitäten, weil sie motorische Fähigkeiten, räumliches Denken und aktive Entscheidungsfindung erfordert. Käufer und Eltern suchen aktiv nach Ausschneide-und-Sortier-Formaten, weil sie Kinder länger beschäftigen und ein greifbares fertiges Ergebnis produzieren.\n\nDer Bilder-Sortieren-Arbeitsblatt-Ersteller übernimmt die technische Komplexität bei der Erstellung dieser Aktivitäten. Er bietet zwei Auswahlmodi: Der Themenmodus füllt Kategorien automatisch aus der integrierten Bildbibliothek für schnelle Produktion, während der manuelle Modus die individuelle Auswahl einzelner Bilder für marktkonforme Präzision ermöglicht. Der Generator erzeugt Zwei-Kategorien-Sortierlayouts mit gemischten Ausschneiderastern, automatisch generierten Lösungsschlüsseln mit Bildern in sechsfacher Rasterzellengröße und einer gestalteten lokalisierten Kopfzeile in elf Sprachen. Sie konzentrieren sich auf die Produktstrategie — welche Kategoriepaarungen anzuvisieren sind, welche Schwierigkeitsgrade zu erstellen sind, wie zu bündeln und zu bepreisen ist — während der Generator Layout, Mischung und Lösungsschlüssel-Erstellung übernimmt.\n\nAlle in diesem Leitfaden genannten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Sortier-Arbeitsblätter erstellen, beide Auswahlmodi testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

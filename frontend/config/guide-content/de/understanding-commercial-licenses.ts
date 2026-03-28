@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kommerzielle Lizenz Druckvorlagen',
+    primaryKeyword: 'Gewerbliche Lizenz für Druckvorlagen-Verkäufer',
     secondaryKeywords: [
-      'kommerzielle Nutzungsrechte Arbeitsblätter',
-      'Arbeitsblätter legal verkaufen',
-      'gewerbliche Rechte digitale Produkte',
-      'Lizenzierung für Druckvorlagen-Verkäufer',
+      'kommerzielle Nutzungsrechte Arbeitsblätter Etsy',
+      'Druckvorlagen legal verkaufen Lizenzierung',
+      'Clipart-Lizenz kommerziell prüfen',
+      'Konformitätssystem Printable-Business aufbauen',
     ],
     lsiKeywords: [
-      'geistiges Eigentum Nutzungsrechte persönliche vs kommerzielle Nutzung Lizenzstufen',
-      'lizenzgebührenfrei Weiterverkaufsrechte abgeleitete Werke Unterlizenzierung Urheberrechtskonformität',
-      'Lizenzbedingungen digitale Produktrechte Clipart-Lizenzierung Vorlagenlizenzierung',
-      'kommerzielle Ausgaberechte Lizenzvereinbarung Lizenzverifizierung Konformitätssystem',
-      'Lizenzierungsfehler Plattformbeschränkungen Quellenangabepflicht Exklusivitätsklauseln',
-      'Lizenzunterlagen Lizenzdokumentation plattformübergreifende Lizenzierung Wettbewerbsvorteil',
+      'persönliche vs kommerzielle Nutzung Lizenzstufen Lizenzvereinbarung Konformität',
+      'Weiterverkaufsrechte abgeleitete Werke Plattformbeschränkungen Lizenzverifizierung',
+      'plattformübergreifende Lizenzierung Lizenzdokumentation Wettbewerbsvorteil Urheberrecht',
     ],
-    titleTag: 'Kommerzielle Lizenz Druckvorlagen — Verkäufer-Leitfaden',
-    metaDescription: 'Kommerzielle Lizenzen für Druckvorlagen verstehen. Lizenztypen, häufige Fehler und wie korrekte Lizenzierung Ihr Arbeitsblatt-Geschäft auf Etsy und KDP.',
+    titleTag: 'Gewerbliche Lizenz für Verkäufer erklärt | LCS',
+    metaDescription: 'Gewerbliche Lizenz für Druckvorlagen-Verkäufer erklärt: Lizenztypen, häufige Fehler vermeiden und ein Konformitätssystem aufbauen, das Ihr Business schützt.',
   },
 
   hero: {
-    title: 'Kommerzielle Lizenzen verstehen',
+    title: 'Gewerbliche Lizenzen für Druckvorlagen-Verkäufer erklärt',
     tagline: 'Ein vollständiger Leitfaden zur kommerziellen Lizenzierung für Druckvorlagen-Verkäufer — einschließlich des Unterschieds zwischen persönlicher und kommerzieller Nutzung, was eine kommerzielle Lizenz erfordert, wie man Lizenzbedingungen bewertet, gängige Lizenzmodelle in der Druckvorlagen-Branche, zu vermeidende Lizenzierungsfehler, Aufbau eines Konformitätssystems, plattformübergreifende Lizenzierung und Lizenzwissen als Wettbewerbsvorteil',
-    description: 'Jede Ressource, die Sie zur Erstellung von Druckvorlagen verwenden — Arbeitsblatt-Generatoren, Clipart, Schriftarten, Vorlagen und Bildbibliotheken — hat Lizenzbedingungen, die bestimmen, ob Sie die Ergebnisse legal verkaufen dürfen. Die meisten Druckvorlagen-Verkäufer überspringen diesen Schritt komplett und gehen davon aus, dass der Kauf eines Tools automatisch kommerzielle Rechte gewährt. Diese Annahme führt zu Produktentfernungen, Kontosperrungen und Umsatzverlusten. Dieser Leitfaden erklärt, wie kommerzielle Lizenzierung in der Druckvorlagen-Branche funktioniert, worauf man in Lizenzvereinbarungen achten sollte und wie man ein Konformitätssystem aufbaut, das Ihr Geschäft beim Wachstum schützt.',
+    description: 'Die gewerbliche Lizenz für Druckvorlagen-Verkäufer ist die rechtliche Grundlage Ihres gesamten Geschäfts — und der am häufigsten missverstandene Aspekt beim Verkauf digitaler Produkte. Jede Ressource, die Sie verwenden — Arbeitsblatt-Generatoren, Clipart, Schriftarten, Vorlagen und Bildbibliotheken — hat Lizenzbedingungen, die bestimmen, ob Sie die Ergebnisse legal verkaufen dürfen. Ein Verstoß kann zur Entfernung ganzer Produktlinien und zum Verlust monatelanger Arbeit führen. Sie erfahren in diesem Leitfaden, wie Sie persönliche von kommerziellen Nutzungsrechten unterscheiden, gängige Lizenzmodelle in der Druckvorlagen-Branche verstehen und Lizenzvereinbarungen vor dem Kauf richtig bewerten. Außerdem lernen Sie, ein Konformitätssystem aufzubauen, das mit Ihrem Geschäft skaliert, und die häufigsten Lizenzierungsfehler zu vermeiden, die zu Produktentfernungen und Kontosperrungen führen.',
   },
 
   introduction: 'Kommerzielle Lizenzierung ist die rechtliche Grundlage jedes Druckvorlagen-Geschäfts, bleibt aber einer der am meisten missverstandenen Aspekte beim Verkauf digitaler Produkte. Die Verwirrung ist verständlich: Lizenzbedingungen variieren dramatisch zwischen verschiedenen Tools, Plattformen und Ressourcenanbietern. Eine Clipart-Bibliothek gewährt unbegrenzte kommerzielle Nutzung mit einem einzigen Kauf. Eine andere beschränkt die Ausgabe auf 500 Einheiten. Eine dritte erlaubt die kommerzielle Nutzung auf Etsy, verbietet aber Amazon KDP. Ohne diese Unterschiede zu verstehen, bauen Verkäufer unwissentlich Geschäfte auf unsicherem rechtlichem Boden auf.\n\nDie Konsequenzen von Lizenzierungsfehlern reichen von lästig bis verheerend. Am milden Ende erhält ein Verkäufer eine Entfernungsaufforderung für ein einzelnes Listing und entfernt es. Am schweren Ende baut ein Verkäufer eine ganze Produktlinie auf Ressourcen auf, für die er keine kommerziellen Rechte hat, und ein Rechteinhaber stellt Entfernungsaufforderungen über alle Plattformen gleichzeitig. Monate an Arbeit und gesammelten Bewertungen verschwinden über Nacht. Der Verkäufer muss mit ordnungsgemäß lizenzierten Ressourcen von vorne beginnen, nachdem er sowohl die Produkte als auch die Marktplatz-Glaubwürdigkeit verloren hat, deren Aufbau Monate gedauert hat.\n\nDie Ironie ist, dass ordnungsgemäße kommerzielle Lizenzierung weder schwierig noch teuer ist. Die meisten professionellen Arbeitsblatt-Generatoren und Ressourcenbibliotheken bieten klare kommerzielle Lizenzoptionen zu vernünftigen Einmalpreisen. Die Herausforderung liegt nicht in den Kosten — sondern in der Wissenslücke. Verkäufer, die kommerzielle Lizenzierung verstehen, treffen selbstbewusste Entscheidungen darüber, welche Tools sie kaufen, welche Ressourcen sie verwenden und wie sie ihre Rechte dokumentieren. Sie expandieren plattformübergreifend ohne Angst vor Entfernungen, weil sie genau wissen, was ihre Lizenzen erlauben.\n\nDieser Leitfaden behandelt kommerzielle Lizenzierung aus der Perspektive eines Druckvorlagen-Verkäufers, der ein echtes Geschäft aufbaut. Sie lernen, wie Sie zwischen persönlichen und kommerziellen Nutzungsrechten unterscheiden, welche Ressourcen in Ihrer Produktionspipeline kommerzielle Lizenzen erfordern, Lizenzbedingungen vor dem Kauf bewerten, die gängigsten Lizenzmodelle in der Druckvorlagen-Branche verstehen, die Fehler vermeiden, die unvorbereitete Verkäufer treffen, ein Konformitätssystem aufbauen, das mit Ihrem Geschäft skaliert, Lizenzierung über mehrere Verkaufsplattformen verwalten und Lizenzwissen als echten Wettbewerbsvorteil nutzen.\n\nDas Ziel ist nicht, Sie zum Lizenzanwalt zu machen — sondern Ihnen das praktische Wissen zu geben, um fundierte Entscheidungen zu treffen, vermeidbare Probleme zu umgehen und ein Druckvorlagen-Geschäft auf einer soliden rechtlichen Grundlage aufzubauen. Verkäufer, die ein paar Stunden in das Verständnis von Lizenzierung investieren, schützen sich vor Risiken, die Monate an Arbeit und Tausende von Euro an potenziellem Umsatz zunichtemachen können.',

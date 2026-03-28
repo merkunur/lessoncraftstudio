@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'weihnachts-druckvorlagen-ideen',
+    primaryKeyword: 'Weihnachts-Druckvorlagen auf Etsy verkaufen',
     secondaryKeywords: [
       'Weihnachts-Arbeitsblätter auf Etsy erstellen',
       'Advents-Aktivitätsblätter auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Winter-Festtags-Nische Arbeitsblatt-Umsatz',
       'Dezember-Saison Lernmaterialien Etsy-Verkauf',
     ],
-    titleTag: 'Weihnachts-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Weihnachts-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Saisonale Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer im Advent.',
+    titleTag: 'Weihnachts-Druckvorlagen für Etsy | LCS',
+    metaDescription: 'Weihnachts-Druckvorlagen auf Etsy verkaufen — profitable Adventsprodukte mit Nikolaus, Rentier und Lebkuchen. Saisonale Strategien und Timing-Tipps für Shops.',
   },
   hero: {
-    title: 'Weihnachts-Druckvorlagen: Geschäftsideen für Verkäufer',
-    description: 'Weihnachten ist die mit Abstand stärkste saisonale Verkaufsgelegenheit im gesamten Druckvorlagen-Markt und erzeugt von Oktober bis Dezember einen Nachfrageschub, der alle anderen Feiertage zusammen in den Schatten stellt. Das Thema umfasst eine außergewöhnliche Bandbreite an Unterthemen — Weihnachtsmann, Rentiere, Schneemänner, Lebkuchen, Zuckerstangen, Christbaumkugeln, Wichtel, Nikolausstiefel, Adventskränze und Krippenszenen — und bietet Verkäufern praktisch unbegrenzte Produktvielfalt innerhalb einer zusammenhängenden Nische. Käufer planen Shop-Weihnachtsfeiern und Adventsaktivitäten im Dezember, Eltern suchen bildschirmfreie Unterhaltung während der Winterferien, und Schenkende entdecken, dass Aktivitätsbücher und Arbeitsblatt-Pakete ideale Nikolausgeschenke und Adventskalender-Füllungen sind. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad belohnt die Weihnachts-Nische frühe Vorbereitung mit jährlich wachsenden Erträgen, da Angebote Suchautorität und Bewertungen aufbauen. Dieser Leitfaden liefert konkrete Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen helfen, eine profitable Weihnachts-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Werkzeugen aufzubauen.',
+    title: 'Weihnachts-Druckvorlagen auf Etsy verkaufen',
+    description: 'Weihnachts-Druckvorlagen auf Etsy verkaufen ist die mit Abstand stärkste saisonale Verkaufsgelegenheit im gesamten Druckvorlagen-Markt und erzeugt von Oktober bis Dezember einen Nachfrageschub, der alle anderen Feiertage zusammen in den Schatten stellt. Das Thema umfasst eine außergewöhnliche Bandbreite an Unterthemen — Weihnachtsmann, Rentiere, Schneemänner, Lebkuchen, Zuckerstangen, Christbaumkugeln, Wichtel, Nikolausstiefel, Adventskränze und Krippenszenen — und bietet Verkäufern praktisch unbegrenzte Produktvielfalt innerhalb einer zusammenhängenden Nische. Käufer planen Shop-Weihnachtsfeiern und Adventsaktivitäten im Dezember, Eltern suchen bildschirmfreie Unterhaltung während der Winterferien, und Schenkende entdecken, dass Aktivitätsbücher und Arbeitsblatt-Pakete ideale Nikolausgeschenke und Adventskalender-Füllungen sind. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad belohnt die Weihnachts-Nische frühe Vorbereitung mit jährlich wachsenden Erträgen, da Angebote Suchautorität und Bewertungen aufbauen. Dieser Leitfaden liefert konkrete Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen helfen, eine profitable Weihnachts-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Werkzeugen aufzubauen.',
   },
   marketOverview: `Die Weihnachts-Druckvorlagen-Nische ist das unbestrittene Schwergewicht des saisonalen Bildungsprodukt-Verkaufs, angetrieben durch die gleichzeitige Nachfrage von Käufern, Eltern, Homeschooling-Familien und Geschenke-Käufern im letzten Quartal jedes Jahres. In deutschsprachigen Ländern beginnt die Adventszeit bereits Ende November, und Käufer planen ihre Dezember-Shopaktivitäten schon ab September — von Nikolaustag-Arbeitsblättern über Adventskalender-Aufgaben bis hin zu Weihnachtsfeier-Spielen. Eltern suchen weihnachtliche Lernaktivitäten, um Kinder während der Adventssonntage, bei Familientreffen und in den langen Winterferien sinnvoll zu beschäftigen. Geschenke-Käufer entdecken, dass druckbare Aktivitätsbücher und Arbeitsblatt-Pakete durchdachte, erschwingliche Nikolausgeschenke und Strumpffüller sind.
 

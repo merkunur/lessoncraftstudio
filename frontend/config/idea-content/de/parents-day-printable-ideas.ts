@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'elterntag-druckvorlagen-ideen',
+    primaryKeyword: 'Mutter-Vatertag-Druckvorlagen verkaufen',
     secondaryKeywords: [
       'Muttertag-Arbeitsblätter auf Etsy erstellen',
       'Vatertag-Druckvorlagen auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Muttertag-Vatertag-Nische Arbeitsblätter',
       'Familienfest-Thema Lernmaterialien Etsy',
     ],
-    titleTag: 'Elterntag-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Entdecken Sie Muttertag- und Vatertag-Druckvorlagen-Ideen für Etsy, Amazon KDP und Gumroad. Produktkonzepte zur Elternwürdigung und Plattformtipps für Verkäufer.',
+    titleTag: 'Mutter-/Vatertag Druckvorlagen | LCS',
+    metaDescription: 'Mutter- und Vatertag Druckvorlagen auf Etsy, KDP und Gumroad verkaufen. Doppeltes Verkaufsfenster nutzen mit Produktideen und Strategien für Ihren Shop.',
   },
   hero: {
-    title: 'Muttertag & Vatertag Druckvorlagen-Geschäftsideen für Verkäufer',
-    description: 'Muttertag und Vatertag bilden zusammen eines der emotional stärksten Doppel-Feiertags-Verkaufsfenster im Druckvorlagen-Kalender, wobei die Nachfrage im April für den Muttertag im Mai steigt und bis in den Juni für den Vatertag anhält. Die Nische bietet herzliche Unterthemen-Vielfalt einschließlich Herzen, Blumen, Krawatten, Grußkarten, Geschenkgutscheinen, Wertschätzungscoupons, Familienporträts, Trophäen, Kronen und \"Beste Mama"- oder \"Bester Papa"-Auszeichnungsbändern, die Verkäufern ein warmes visuelles Vokabular bieten, das bei Käufern, Eltern und Kindern aller Altersgruppen Anklang findet. Käufer planen Geschenkbastelprojekte im Shop Wochen im Voraus und suchen nach druckbaren Aktivitäten, mit denen Nutzer während des Lernens personalisierte Wertschätzungsgeschenke erstellen können. Homeschool-Familien und Kindertagesstätten erweitern die Käuferbasis und suchen nach Elternwürdigungs-Bastelarbeiten, die herzliche Stimmung mit echten Lernergebnissen verbinden. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad liefert diese Nische zwei unterschiedliche Umsatzspitzen aus einer einzigen Produktlinie, mit einer feierlichen Ästhetik, die emotionale Käufe und starke Konversionsraten antreibt. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen helfen, eine profitable Elternwürdigungs-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Werkzeugen aufzubauen.',
+    title: 'Mutter-/Vatertag Druckvorlagen — Geschäftsideen für Verkäufer',
+    description: 'Mutter-Vatertag-Druckvorlagen verkaufen Sie in einem der emotional stärksten Doppelfenster im Printable-Kalender — die Nachfrage steigt im April für den Muttertag und hält bis Juni für den Vatertag an. Sie nutzen herzliche Unterthemen wie Herzen, Blumen, Krawatten, Grußkarten, Trophäen und Wertschätzungscoupons, die emotionale Kaufmotivation und höhere Konversionsraten als rein akademische Produkte erzeugen. Der strategische Vorteil liegt in der dreifachen Katalogarchitektur: Muttertag-Produkte, Vatertag-Produkte und kombinierte Elternwürdigungs-Pakete aus einem einzigen Designaufwand. Käufer auf Etsy und KDP suchen gezielt nach Geschenkbastel-Aktivitäten, die Lernergebnisse mit herzlicher Wertschätzung verbinden. Dieser Leitfaden zeigt Ihnen konkrete Produktideen, Timing-Strategien und Plattformansätze, mit denen Sie eine profitable Elternwürdigungs-Produktlinie aufbauen — erstellt mit unseren Arbeitsblatt-Generator-Tools.',
   },
   marketOverview: `Die Nische der Elternwürdigungs-Druckvorlagen nimmt eine einzigartig starke Position im Frühjahrs-Verkaufskalender ein, weil sie zwei konzentrierte Nachfragespitzen aus einer Produktlinie liefert. Der Muttertag im Mai und der Vatertag im Juni (in den USA am dritten Sonntag im Juni; im deutschsprachigen Raum fällt der Vatertag auf Christi Himmelfahrt, meist im Mai oder Juni) schaffen aufeinanderfolgende Verkaufsfenster, die Verkäufer belohnen, die einen zusammenhängenden Familienwürdigungskatalog vorbereiten. Käufer beginnen im frühen April, Geschenkbastelprojekte für den Mai zu planen, und suchen nach druckbaren Aktivitäten, mit denen Nutzer personalisierte Wertschätzungsgeschenke, Karten und Erinnerungsbüchlein im Produkterstellung erstellen können. Eltern und Homeschool-Familien suchen altersgerechte Bastelaktivitäten, die Kindern helfen, Dankbarkeit sinnvoll auszudrücken, und Kindertagesstätten benötigen strukturierte Wertschätzungsprojekte für ihre jüngsten Lernenden.
 

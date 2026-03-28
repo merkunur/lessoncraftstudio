@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kreuzworträtsel-generator',
+    primaryKeyword: 'Kreuzworträtsel-Ersteller für Etsy und KDP verkaufen',
     secondaryKeywords: [
-      'druckbarer Bild-Kreuzworträtsel-Generator für Etsy-Verkäufer',
-      'Bilderkreuzworträtsel-Ersteller für KDP-Verleger',
-      'Kreuzworträtsel mit Bildhinweisen kommerzielle Lizenz',
-      'Bild-Kreuzworträtsel auf Etsy.de und Amazon verkaufen',
+      'Bilderkreuzworträtsel-Generator für Etsy-Verkäufer',
+      'Kreuzworträtsel-Bücher für Amazon KDP erstellen',
+      'Kreuzworträtsel-Druckvorlagen gewerbliche Lizenz',
+      'Bild-Kreuzworträtsel für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'digitale Bilderkreuzworträtsel-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Kreuzworträtsel-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft Bild-Kreuzworträtsel Werkzeuge',
+      'Bilderkreuzworträtsel 15×15-Raster druckfertig',
+      'Kreuzworträtsel-Generator DACH-Markt',
+      'Lösungsschlüssel 11 Sprachen kommerzielle Nutzung',
     ],
-    titleTag: 'Kreuzworträtsel-Generator | Bilder-Kreuzworträtsel',
-    metaDescription: 'Bilderkreuzworträtsel erstellen und auf Etsy, KDP verkaufen. 15×15-Raster, 4 Eingabemethoden, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kreuzworträtsel für Etsy & KDP erstellen | LCS',
+    metaDescription: 'Erstellen Sie Bilderkreuzworträtsel zum Verkauf auf Etsy & KDP. 15×15-Raster, 4 Eingabemethoden, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Bilderkreuzworträtsel-Generator für Kreuzwortpuzzle mit Bildhinweisen',
+    title: 'Kreuzworträtsel erstellen und auf Etsy & KDP verkaufen',
     tagline: 'Traditionelle Text-Hinweise durch Bildhinweise ersetzen auf einem festen 15×15-Raster — vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste mit Hinweisen und Eigene Bilder hochladen), automatisch generierter Lösungsschlüssel mit ausgefülltem Raster und ein lokalisierter \"Bilderkreuzworträtsel\"-Header über 104 thematische Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Bilderkreuzworträtsel, bei denen farbenfrohe Bilder die Text-Hinweise traditioneller Kreuzworträtsel ersetzen. Acht Bilder erzeugen acht Wörter auf einem festen 15×15-Raster — der Platzierungsalgorithmus extrahiert Wörter aus Bildnamen, sortiert nach Länge für optimale Platzierung und füllt das Raster mit nummerierten Hinweispositionen. Wählen Sie aus vier Eingabemethoden: Schnelle Themen-Generierung wählt automatisch 8 zufällige Bilder aus einem beliebigen Thema und generiert sofort; Manuelle Bildnamen-Bearbeitung lässt Sie einzelne Bilder anklicken und umbenennen, bevor das Rätsel generiert wird; Benutzerdefinierte Wortliste mit Hinweisen wechselt zu traditionellen Text-Hinweis-Kreuzworträtseln im WORT: Hinweis-Format; und Eigene Bilder hochladen ermöglicht das Hinzufügen eigener JPEG-, PNG-, GIF- oder WebP-Dateien neben den Bibliotheksinhalten. Der Bilderkreuzworträtsel-Generator ist sprachabhängig: Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen über das Bildvokabular-System, sodass ein Sprachwechsel die tatsächlichen Kreuzwortwörter ändert — ein Katzenbild erzeugt \"KATZE\" auf Deutsch, \"CAT\" auf Englisch und \"CHAT\" auf Französisch, was völlig verschiedene Kreuzworträtsel aus denselben Bildern entstehen lässt. Für deutsche Verkäufer bedeutet das: Deutsche Bildbezeichnungen erzeugen automatisch deutsche Kreuzwortwörter — kein manuelles Übersetzen nötig. Das Dual-Canvas-System generiert sowohl ein Rätsel-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das ausgefüllte Raster mit allen sichtbaren Antworten. Jedes Rätsel enthält einen automatisch generierten lokalisierten Header mit blauem Hintergrund (#5B9BD5), Fredoka-Titel und Quicksand-Beschreibung, gerendert in allen 11 unterstützten Sprachen. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Sprachen für lokalisierte Kreuzwortwörter frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Ob Sie thematische Bilderkreuzworträtsel-Pakete auf Etsy.de verkaufen, Kreuzworträtsel-Arbeitsbücher für Amazon KDP zusammenstellen oder mehrsprachige Kreuzworträtsel-Sets für internationale Märkte erstellen — dieser Generator liefert produktionsfertige Rätsel in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Mit dem Kreuzworträtsel-Ersteller für Etsy und KDP verkaufen Sie einzigartige Bilderkreuzworträtsel, die sich deutlich von der Konkurrenz abheben. Statt klassischer Texthinweise verwenden Ihre Rätsel farbenfrohe Bildhinweise auf einem festen 15×15-Raster — ein visuelles Format, das auf Produktvorschaubildern sofort ins Auge fällt und höhere Klickraten erzielt. Der Generator unterstützt vier Eingabemethoden, darunter Schnelle Themen-Generierung und Eigene Bilder hochladen, sodass Sie in wenigen Minuten ganze Produktpakete erstellen können. Besonders wertvoll für den DACH-Markt: Das integrierte Bildvokabular-System erzeugt automatisch korrekte deutsche Kreuzwortwörter aus lokalisierten Bildbezeichnungen — ohne manuelles Übersetzen. Mit der gewerblichen Lizenz und Unterstützung für 11 Sprachen erschließen Sie internationale Märkte und bauen ein skalierbares Printable-Business auf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

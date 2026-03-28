@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kreuzworträtsel erstellen',
+    primaryKeyword: 'Kreuzworträtsel zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Kreuzworträtsel-Generator für Kinder',
-      'druckbare Kreuzworträtsel erstellen',
-      'Kreuzworträtsel zum Verkaufen',
-      'individuelle Kreuzworträtsel mit Bildhinweisen',
+      'Bilderkreuzworträtsel für Etsy produzieren',
+      'Kreuzworträtsel-Bücher auf KDP verkaufen',
+      'druckbare Kreuzworträtsel kommerziell erstellen',
+      'Kreuzworträtsel-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'Bilderkreuzworträtsel-Arbeitsblätter',
-      'mehrsprachige Kreuzworträtsel',
-      'Vokabel-Kreuzworträtsel für Kinder',
-      'Kreuzworträtsel-Bücher auf KDP verkaufen',
-      'Etsy Kreuzworträtsel-Druckvorlagen',
-      'kommerzielle Lizenz Rätsel-Tool',
+      'mehrsprachige Kreuzworträtsel-Produktlinie aufbauen',
+      'Etsy Rätsel-Druckvorlagen Shop Kreuzworträtsel',
+      'KDP Kreuzworträtsel-Rätselbuch veröffentlichen',
     ],
-    titleTag: 'Kreuzworträtsel erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Kreuzworträtsel mit Bildhinweisen für Kinder erstellen. Themen wählen, Raster generieren und Lösungsschlüssel erstellen. Druckvorlagen für Etsy und.',
+    titleTag: 'Kreuzworträtsel zum Verkaufen erstellen | LCS',
+    metaDescription: 'Kreuzworträtsel zum Verkaufen erstellen. Bildhinweise, Lösungsschlüssel, 11 Sprachen. Themen wählen, Raster generieren und PDFs für Etsy und KDP exportieren.',
   },
 
   hero: {
-    title: 'Kreuzworträtsel für Kinder erstellen',
+    title: 'Kreuzworträtsel erstellen und auf Etsy verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung thematischer Kreuzworträtsel mit Bildhinweisen zum Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Kreuzworträtsel gehören zu den bekanntesten und beliebtesten Rätselformaten der Welt — und der Markt für Kinder-Kreuzworträtsel wächst rasant. Käufer verwenden sie zur Vokabelvertiefung. Eltern nutzen sie zum Üben der Rechtschreibung. Selbststudium-Käufer setzen sie ein, um Wortübungen wie ein Spiel statt wie eine Pflichtaufgabe wirken zu lassen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Kreuzworträtsel-Generator — von der Wahl zwischen Bildhinweisen und eigener Wortliste bis zur Konfiguration des Rasterlayouts, der Überprüfung nummerierter Hinweise und dem Export druckfertiger PDFs mit Lösungsschlüsseln. Der Generator unterstützt 11 Sprachen, wodurch mehrsprachige Kreuzworträtsel-Produkte eine realistische und gestufte Nische darstellen. Ob Sie Ihr erstes Rätselprodukt erstellen oder in Kreuzworträtsel-Bücher für Amazon KDP expandieren — am Ende dieser Anleitung haben Sie ein fertiges, professionelles Kreuzworträtsel zum Einstellen bereit.',
+    description: 'Kreuzworträtsel zum Verkaufen erstellen ist eine starke Nische im Druckvorlagen-Geschäft, denn das Format gehört zu den bekanntesten und beliebtesten Rätseltypen weltweit. Der Markt für Kinder-Kreuzworträtsel wächst rasant — Eltern kaufen sie zum Üben der Rechtschreibung, Nachhilfezentren setzen sie zur Vokabelvertiefung ein, und Sprachlerner nutzen sie als motivierende Übungsform. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Kreuzworträtsel-Generator: Sie wählen zwischen Bildhinweisen und eigener Wortliste, konfigurieren das Rasterlayout, überprüfen nummerierte Hinweise und exportieren druckfertige PDFs mit Lösungsschlüsseln. Der Generator unterstützt elf Sprachen, wodurch Sie mehrsprachige Kreuzworträtsel-Produktlinien aufbauen können, die die meisten Wettbewerber komplett ignorieren. Ob Sie Ihr erstes Rätselprodukt auf Etsy listen oder in Kreuzworträtsel-Bücher für Amazon KDP expandieren — am Ende dieser Anleitung haben Sie ein fertiges, professionelles Kreuzworträtsel zum Einstellen bereit.',
   },
 
   introduction: 'Kreuzworträtsel nehmen eine einzigartige Position auf dem Markt für praktische Druckvorlagen ein. Anders als bei Wortsuchrätsel, bei denen Kinder versteckte Wörter scannen, erfordern Kreuzworträtsel aktives Erinnern und buchstabengenau Rechtschreibung. Ein Kind, das ein Kreuzworträtsel löst, muss jeden Bildhinweis erkennen, das richtige Wort abrufen und jeden Buchstaben der Reihe nach in die sich kreuzenden Rasterfelder eintragen. Diese Kombination aus visueller Erkennung, Vokabelabruf und Rechtschreibgenauigkeit macht Kreuzworträtsel zu einem der stärksten Vokabel-Lernwerkzeuge im Druckvorlagenformat.\n\nDie Kategorie Kinder-Kreuzworträtsel profitiert auch von starkem Wiedererkennungswert. Erwachsene sind mit Kreuzworträtseln in Zeitungen und Zeitschriften aufgewachsen, sodass Eltern und Käufer das Format instinktiv erkennen und seinen praktischen Wert vertrauen. Diese eingebaute Vertrautheit bedeutet weniger Überzeugungsarbeit in Ihren Produktbeschreibungen — Käufer wissen bereits, was ein Kreuzworträtsel ist und warum es funktioniert.\n\nWas diesen Generator besonders leistungsstark macht, ist das Bildhinweis-Format. Traditionelle Kreuzworträtsel verwenden textbasierte Hinweisbeschreibungen, die Lesefähigkeiten voraussetzen, die jüngere Kinder möglicherweise noch nicht haben. Bilderkreuzworträtsel ersetzen Texthinweise durch Bilder — ein Kind sieht ein Bild einer Katze und schreibt K-A-T-Z-E in das Raster. Das macht Kreuzworträtsel für Kinder ab dem Kindergartenalter zugänglich und erweitert Ihre potenzielle Käuferzielgruppe im Vergleich zu reinen Text-Kreuzworträtsel-Produkten erheblich.\n\nDer Kreuzworträtsel-Generator übernimmt die komplexe algorithmische Arbeit für Sie. Er platziert 8 Wörter in einem Kreuzungsraster, in dem sich Wörter an gemeinsamen Buchstaben kreuzen, weist jedem Wort nummerierte Positionen zu, generiert Bildhinweise, die den Rasternummern entsprechen, und erstellt einen vollständigen Lösungsschlüssel. Zwei Erstellungsmodi — themenbasierte Bildauswahl und eigene Wortliste mit Texthinweisen — geben Ihnen Flexibilität für sowohl visuelle Produkte für jüngere Kinder als auch Texthinweis-Produkte für ältere Nutzer.\n\nDie Sprachunterstützung ist ein wesentliches Unterscheidungsmerkmal. Da die Kreuzworträtsel-Antworten DIE Wörter sind, ändert ein Sprachwechsel jede Antwort im Raster. Ein deutsches Kreuzworträtsel zum Thema Tiere verwendet völlig anderes Vokabular als ein englisches. Dies eröffnet mehrsprachige Produktlinien, die die meisten Wettbewerber nie in Angriff nehmen.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispielrätsel erstellen, beide Hinweismodi testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

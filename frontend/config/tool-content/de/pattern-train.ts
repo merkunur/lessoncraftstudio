@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'muster-zug-ersteller',
+    primaryKeyword: 'kostenloser Muster-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Muster-Zug-Arbeitsblatt-Ersteller für Verkäufer',
-      'Mustererkennungs-Arbeitsblätter online erstellen',
-      'druckbare Muster-Zug-Übungen kommerziell',
-      'textfreier Zugwaggon-Muster-Generator für KDP',
+      'Muster-Zug-Arbeitsblätter kostenlos erstellen',
+      'Musterfolge-Generator ohne Anmeldung online',
+      'kostenloser Zugwaggon-Muster-Ersteller',
+      'Mustererkennungs-Arbeitsblätter online drucken',
     ],
     lsiKeywords: [
-      'visuelle Mustererkennung-Druckvorlagen für Etsy',
-      'textfreier Zugwaggon-Musterfolge-Generator',
-      'AB ABC Musterfolge-Arbeitsblatt-Ersteller',
+      'textfreie Musterfolge-Arbeitsblätter zum Ausdrucken',
+      'AB ABC Musterfolge-Übungen für Kinder',
+      'visuelle Mustererkennung auf Zugwaggons',
     ],
-    titleTag: 'Muster-Zug-Ersteller | Musterfolge-Generator',
-    metaDescription: 'Muster-Zug-Arbeitsblätter mit fünf Mustertypen und 11 Waggons erstellen. Textfreie Ausgabe, 104 Themen. Kostenlos testen mit Wasserzeichen. Jetzt entdecken.',
+    titleTag: 'Kostenloser Muster-Arbeitsblatt Maker | LCS',
+    metaDescription: 'Kostenloser Muster-Arbeitsblatt Generator mit fünf Mustertypen auf 11 Zugwaggons. Textfrei, 104 Themen, ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Muster-Zug-Ersteller',
+    title: 'Muster-Zug-Arbeitsblätter kostenlos erstellen — Online-Tool',
     tagline: 'Musterfolge-Arbeitsblätter mit fünf Mustertypen auf 11 thematischen Zugwaggons im unverwechselbaren 5+3+3-Layout erstellen — einstellbare Hinweisanzahl, dynamische fehlende Position, textfreie Ausgabe für weltweiten Verkauf ohne Übersetzung',
-    description: 'Erstellen Sie professionelle Mustererkennungs-Arbeitsblätter, bei denen Lernende sich wiederholende Bildfolgen auf einem thematischen Zug mit 11 Waggons erkennen und vervollständigen. Fünf verschiedene Mustertypen decken jede Stufe der Sequenz-Komplexität ab: AB wechselt zwei Elemente ab, AAB gruppiert zwei eines Elements gefolgt von einem anderen, ABB kehrt diese Gruppierung um, ABC rotiert drei verschiedene Elemente, und AABB paart je zwei jedes Elements vor der Wiederholung. Das Zug-Layout ordnet 11 Waggons in drei Reihen an (5 + 3 + 3), wobei jeder Waggon ein Bild aus der sich wiederholenden Musterfolge enthält. Ein Waggon bleibt leer — Lernende identifizieren das Muster und bestimmen das fehlende Element. Passen Sie die Hinweisanzahl von 4 bis 10 an, um die Schwierigkeit zu steuern: 10 sichtbare Hinweise machen das Muster offensichtlich, während nur 4 Hinweise echtes Muster-Denken erfordern, da die ersten 3 Waggons immer sichtbar sind. Das unverwechselbare Zugwaggon-Layout hebt sich sofort von standardmäßigen gitterbasierten Muster-Arbeitsblättern ab — Käufer auf Etsy oder dem Gumroad sehen etwas Anderes als typische Zeilen-und-Spalten-Musterübungen. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Ein separater Lösungsschlüssel-Tab zeigt alle 11 Waggons ausgefüllt mit der korrekten Musterfolge zur sofortigen Überprüfung. Jedes Arbeitsblatt ist vollständig visuell mit ausschließlich Bildern auf Zugwaggons und null Text auf der Ausgabe. Keine Wörter erscheinen auf der generierten Seite — nur Bilder. Das macht Ihre Arbeitsblätter universell verkaufbar ohne Übersetzung: Ein Produktangebot bedient jeden Markt weltweit. Der Generator ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht den Arbeitsblatt-Inhalt. Exportieren Sie druckfertige PDFs und JPEGs bei hoher DPI (6-facher Multiplikator) in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Muster-Arbeitsblätter mit diesem Muster-Zug-Generator — direkt im Browser, ohne Anmeldung, ohne Software-Download. Fünf verschiedene Mustertypen decken jede Stufe der Sequenz-Komplexität ab: AB, AAB, ABB, ABC und AABB. Das Zug-Layout ordnet 11 Waggons in drei Reihen an, wobei jeder ein Bild aus der sich wiederholenden Musterfolge enthält und ein Waggon leer bleibt. Passen Sie die Hinweisanzahl von 4 bis 10 an, um die Schwierigkeit zu steuern. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Die Arbeitsblätter sind vollständig visuell mit null Text auf der Ausgabe. Ein separater Lösungsschlüssel-Tab zeigt alle Waggons ausgefüllt. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

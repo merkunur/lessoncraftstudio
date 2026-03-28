@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Bilder-Sortieren-Generator',
+    primaryKeyword: 'kostenloser Sortier-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Bilder-Sortieren-Ersteller für Verkäufer',
-      'Sortier-Arbeitsblätter online erstellen und verkaufen',
-      'druckbare Sortier-Aktivitäten kommerziell erstellen',
-      'Sortier-Arbeitsblatt-Generator mit Zwei-Kategorien-Layout und automatischem Lösungsschlüssel für KDP',
+      'Sortier-Arbeitsblätter kostenlos erstellen',
+      'Bilder-Sortieren Generator online ohne Anmeldung',
+      'kostenlose Sortier-Aktivitäten mit Lösungsschlüssel',
+      'Sortier-Arbeitsblatt Maker mit Zwei-Kategorien kostenlos',
     ],
     lsiKeywords: [
-      'Zwei-Kategorien-Sortier-Ersteller mit automatischem Lösungsschlüssel für Verkäufer',
-      'themenbasierter und manueller Modus Bilder-Klassifizierungs-Generator',
-      'gemischtes Ausschneidegitter Sortier-Aktivitäten-Erstellungstool',
+      'Zwei-Kategorien Sortier-Arbeitsblätter Generator',
+      'Bilder-Klassifizierung Ausschneidegitter',
+      'Sortier-Aktivitäten Vorschule Grundschule',
     ],
-    titleTag: 'Bilder-Sortieren-Ersteller — Bilder-Sortieren-Generator',
-    metaDescription: 'Zwei-Kategorien-Sortier-Arbeitsblätter mit 4–12 Bildern und Lösungsschlüssel erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Sortier-Arbeitsblatt Maker | LCS',
+    metaDescription: 'Kostenloser Sortier-Arbeitsblatt Generator: Zwei-Kategorien-Sortierübungen mit Lösungsschlüssel erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Bilder-Sortieren-Ersteller',
+    title: 'Sortier-Arbeitsblätter kostenlos erstellen online',
     tagline: 'Zwei-Kategorien-Sortier-Arbeitsblatt-Generator mit themenbasierter und manueller Bildauswahl, gemischtem Ausschneidegitter mit 4–12 Bildern in 3–4 automatisch angepassten Spalten, gestrichelt umrandeten Kategorierahmen für Links-/Rechts-Sortierbereiche, automatisch generierten Lösungsschlüsseln mit 6× größeren Bildern in Kategorieboxen, lokalisiertem Bilder-Sortieren-Header in 11 Sprachen und 104 thematischen Bildsammlungen für Sortier-Arbeitsblätter, die weltweit verkaufbar sind',
-    description: 'Erstellen Sie professionelle Sortier-Arbeitsblätter, bei denen Nutzer Bilder aus einem gemischten Gitter ausschneiden und in zwei Kategorien einsortieren — links und rechts. Wählen Sie den Themen-Modus, um Kategorien automatisch aus der Bildbibliothek zu befüllen: Wählen Sie ein linkes Thema und ein rechtes Thema, und die App zieht 4–6 zufällige Bilder pro Thema. Oder wechseln Sie in den manuellen Modus, um einzelne Bilder von Hand auszuwählen und jeder Kategorie zuzuweisen. Jedes Arbeitsblatt zeigt zwei nebeneinander liegende, gestrichelt umrandete Kategorierahmen oben mit #FAFAFA-Füllung als Sortierbereiche und ein gemischtes Ausschneidegitter unten mit weißen Zellen, gestrichelten #666-Rändern, 4px abgerundeten Ecken und 3–4 Spalten basierend auf der Gesamtbildzahl. Jedes Bild füllt 85% seiner Zelle aus. Konfigurieren Sie 4–12 Bilder insgesamt mit 2–10 pro Kategorie — weniger Bilder schaffen einfachere Sortieraufgaben für jüngere Lernende, mehr Bilder erhöhen Schwierigkeitsgrad und Inhaltsdichte. Das Dual-Canvas-System generiert sowohl einen Arbeitsblatt-Tab als auch einen Lösungsschlüssel-Tab gleichzeitig. Der Lösungsschlüssel zeigt Bilder in 6-facher Größe der Ausschneidegitter-Zellen, organisiert in Kategorieboxen mit maximal 2 Spalten pro Box, #FAFAFA-Füllung, #444-Strich und 12px Randradius — kein manuelles Erstellen des Lösungsschlüssels nötig. Der Bilder-Sortieren-Ersteller ist sprachabhängig: Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Ein lokalisierter Header wird automatisch gerendert mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Hochformat-Arbeitsblätter zeigen einen 100px-Header mit 28–48px Titel; Querformat-Arbeitsblätter verwenden einen 70px-Header mit 24–36px Titel. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite. Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schrittweite 0,05) hinzu. Integrieren Sie Name- und Datumsfelder für die Produkterstellungsalltag. Fügen Sie benutzerdefinierten Text mit 7 Schriftoptionen (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10 hinzu. Exportieren Sie vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle mit 300 DPI (6×-Multiplikator, JPEG-Qualität 1.0). Wählen Sie Letter, A4, Quadrat (1200×1200) oder benutzerdefinierte Seitengrößen mit Graustufen-Schalter für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit 6 Ausrichtungsoptionen plus Auf-Seite-Zentrieren, Ebenen, Sperren/Entsperren, Zoom 25%–300% und Rückgängig/Wiederholen mit 20 Zuständen. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Sortier-Arbeitsblätter kostenlos mit unserem Sortier-Arbeitsblatt Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Nutzer schneiden Bilder aus einem gemischten Gitter aus und sortieren sie in zwei Kategorien — links und rechts. Im Themen-Modus werden Kategorien automatisch aus der Bildbibliothek befüllt; im manuellen Modus wählen Sie einzelne Bilder von Hand aus. Konfigurieren Sie 4–12 Bilder insgesamt mit 2–10 pro Kategorie für flexible Schwierigkeitsgrade. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit vergrößerten Bildern in Kategorieboxen. Kategoriebeschriftungen aktualisieren sich beim Sprachwechsel automatisch. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },
 
   tutorial: {

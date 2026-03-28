@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kryptogramm-generator',
+    primaryKeyword: 'kostenloser Kryptogramm-Generator',
     secondaryKeywords: [
-      'Bilder-Chiffre-Rätsel-Ersteller für Verkäufer',
-      'Bildkryptogramm-Arbeitsblätter online erstellen',
-      'druckbare Geheimschrift-Rätsel kommerziell',
-      'mehrsprachiger Kryptogramm-Generator für KDP',
+      'Kryptogramm-Generator kostenlos online',
+      'Bilder-Chiffre-Rätsel erstellen ohne Anmeldung',
+      'Kryptogramm Ersteller sofort nutzen',
+      'kostenlose Geheimschrift-Rätsel mit Bildern',
     ],
     lsiKeywords: [
-      'Bild-Buchstaben-Chiffre-Druckvorlagen für Etsy',
-      'Codeknacker-Arbeitsblatt-Generator-Tool',
-      'mehrsprachiger Bildkryptogramm-Ersteller',
+      'Bilder-Chiffre-Rätsel deutsches Alphabet',
+      'Codeknacker-Arbeitsblatt mit Bildzuordnung',
+      'Geheimtext-Entschlüsselungs-Generator',
     ],
-    titleTag: 'Kryptogramm-Generator | Bilder-Chiffre-Rätsel',
-    metaDescription: 'Kryptogramm-Arbeitsblätter mit Bild-Buchstaben-Chiffre erstellen. Deutsches 30-Buchstaben-Alphabet, 104 Themen für Etsy und KDP. Kostenlos testen.',
+    titleTag: 'Kostenloser Kryptogramm-Generator | LCS',
+    metaDescription: 'Kostenloser Kryptogramm-Generator — Bilder-Chiffre-Rätsel mit deutschem 30-Buchstaben-Alphabet online erstellen. Testversion mit Wasserzeichen verfügbar.',
   },
 
   hero: {
-    title: 'Kryptogramm-Arbeitsblatt-Generator',
+    title: 'Kryptogramm-Generator — Bilder-Chiffre-Rätsel kostenlos erstellen',
     tagline: 'Bilder-Chiffre-Rätsel erstellen, bei denen jeder Buchstabe einem Bild zugeordnet ist und Nutzer ganze Geheimtexte durch Mustererkennung und Deduktion entschlüsseln',
-    description: 'Erstellen Sie professionelle Kryptogramm-Arbeitsblätter auf Basis einer Bilder-Chiffre-Mechanik: Jeder Buchstabe des Alphabets wird einem einzigartigen Bild zugeordnet, und Ihr Geheimtext wird als Bildfolge dargestellt, die Nutzer zurück in lesbaren Text entschlüsseln müssen. Anders als Wortsuche oder Buchstabensalat, die mit einzelnen Wörtern arbeiten, verschlüsselt der Kryptogramm-Generator ganze Sätze und Redewendungen — Nutzer knacken die Chiffre, indem sie durch Deduktion herausfinden, welches Bild welchen Buchstaben darstellt, und nutzen dabei kontextuelle Hinweise aus häufigen Wörtern wie \"der\", \"und\" und \"ist\", um das Code-Knacken zu beschleunigen. Der Regler \"Buchstaben aufdecken\" (0–10) ist die primäre Schwierigkeitssteuerung: Bei null eine reine Codeknacker-Herausforderung ohne Startinformationen, bei zehn umfangreiche Hilfestellung mit vielen vorausgelösten Bild-Buchstaben-Zuordnungen. Auto-Zuordnung zieht zufällige Bilder aus einer der 104 thematischen Sammlungen (mehr als 3.100 Illustrationen) und füllt die gesamte Chiffre mit einem Klick, während die manuelle Zuordnung es ermöglicht, gezielt Bilder für bestimmte Buchstaben auszuwählen — mit einer visuellen Vorschau aller Zuordnungen. Laden Sie eigene Bilder hoch für vollständige kreative Kontrolle. Der Lösungsschlüssel enthält eine vollständige Buchstabenlegende, die jeden Buchstaben des Alphabets mit seinem zugeordneten Bild in sortierter Reihenfolge zeigt — die definitive Lösungsreferenz. Die Sprachabhängigkeit ist integriert: Beim Sprachwechsel ändern sich sowohl der Geheimtext als auch der Zeichensatz. Deutsche Kryptogramme verschlüsseln deutsche Sätze mit einem erweiterten 30-Buchstaben-Alphabet einschließlich ä, ö, ü und ß — vier zusätzliche Bild-Buchstaben-Zuordnungen erzeugen visuell reichere und komplexere Chiffren als die englische 26-Buchstaben-Version. Das Eszett (ß) ist ein einzigartig deutscher Buchstabe, der die Chiffre unverwechselbar macht. Der Farb- und Schwarzweiß-Themenfilter wechselt zwischen farbigen Illustrationen und Strichzeichnungen für tintenschonende Ausgabe. Deutsche zusammengesetzte Substantive in den Geheimtexten erzeugen längere Wörter mit mehr einzigartigen Buchstaben, was die Komplexität der Chiffre weiter erhöht. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Wählen Sie aus 5 Schriftfamilien, schalten Sie den Graustufen-Export für tintenschonende Ausgabe ein und nutzen Sie die Fabric.js-Arbeitsfläche zum Neupositionieren jedes Elements. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+        description: 'Unser kostenloser Kryptogramm-Generator erstellt professionelle Bilder-Chiffre-Rätsel — direkt im Browser, ohne Anmeldung und ohne Installation. Jeder Buchstabe des Alphabets wird einem einzigartigen Bild zugeordnet, und Ihr Geheimtext wird als Bildfolge dargestellt, die Nutzer durch Deduktion zurück in lesbaren Text entschlüsseln müssen. Anders als Wortsuche oder Buchstabensalat verschlüsselt der Kryptogramm-Generator ganze Sätze und Redewendungen. Der Regler Buchstaben aufdecken (0–10) steuert die Schwierigkeit. Deutsche Kryptogramme nutzen ein erweitertes 30-Buchstaben-Alphabet einschließlich ä, ö, ü und ß — vier zusätzliche Bild-Buchstaben-Zuordnungen erzeugen visuell reichere Chiffren als die englische Version. Wählen Sie Bilder aus 104 thematischen Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene hoch. Der Lösungsschlüssel enthält eine vollständige Buchstabenlegende. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Geschäft automatisieren',
+    primaryKeyword: 'Druckvorlagen-Business automatisieren',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft Automatisierung',
-      'Arbeitsblatt-Erstellung automatisieren',
-      'digitale Produkte Workflow-Automatisierung',
-      'Druckvorlagen-Verkäufer Effizienz',
+      'Stapelverarbeitung Printable-Produktion Workflow',
+      'Vorlagensysteme Arbeitsblatt-Geschäft aufbauen',
+      'Listing-Automatisierung Etsy-Verkäufer',
+      'Produktionspipeline digitale Produkte optimieren',
     ],
     lsiKeywords: [
-      'Stapelverarbeitung Workflow-Optimierung Vorlagensysteme Produktionsbeschleunigung',
-      'Eintrag-Automatisierung Massenverarbeitung Zeitmanagement Produktionspipeline',
-      'systematische Erstellung wiederholbare Prozesse Werkzeug-Effizienz Inhaltsbündelung',
-      'Eintragsvorlagen Beschreibungsvorlagen Dateiorganisation Produktionsplanung',
-      'optimierter Arbeitsablauf Prozessstandardisierung betriebliche Effizienz Aufgabenbündelung',
-      'Produktionssysteme skalierbare Prozesse Katalogverwaltung Workflow-Design',
+      'Stapelverarbeitung Vorlagensysteme Workflow-Optimierung Produktionsbeschleunigung',
+      'Eintragsvorlagen Beschreibungsvorlagen Dateiorganisation Prozessstandardisierung',
+      'skalierbare Prozesse Katalogverwaltung wiederholbare Systeme betriebliche Effizienz',
     ],
-    titleTag: 'Druckvorlagen-Geschäft automatisieren — Effizienz-Leitfaden',
-    metaDescription: 'Druckvorlagen-Geschäft automatisieren mit Stapelverarbeitung und Vorlagensystemen. Systematische Prozesse, die Stunden sparen und die Produktionsleistung.',
+    titleTag: 'Printable-Business automatisieren | LCS',
+    metaDescription: 'Druckvorlagen-Business automatisieren: Stapelverarbeitung, Vorlagensysteme und standardisierte Workflows, die Stunden sparen und den Output vervielfachen.',
   },
 
   hero: {
-    title: 'Wie Sie Ihr Druckvorlagen-Geschäft automatisieren',
+    title: 'Ihr Printable-Business mit Systemen automatisieren',
     tagline: 'Ein vollständiger Leitfaden zur Optimierung Ihres Druckvorlagen-Geschäfts — mit der Identifizierung von Automatisierungsmöglichkeiten, dem Aufbau von Vorlagensystemen, der Stapelverarbeitung von Produktionsaufgaben, der Standardisierung von Einträgen, der systematischen Dateiorganisation, der Automatisierung der Dateiverarbeitung, der Erstellung von Produktionsplänen und der Skalierung durch systematische Variation',
-    description: 'Die erfolgreichsten Druckvorlagen-Verkäufer sind nicht unbedingt die kreativsten oder talentiertesten Designer. Sie sind die systematischsten. Sie haben Arbeitsabläufe aufgebaut, die überflüssigen Aufwand eliminieren, Vorlagensysteme, die verhindern, dass sie bei null anfangen, und Produktionsprozesse, die stundenlange Arbeit in Minuten verwandeln. Dieser Leitfaden zeigt Ihnen, wie Sie Ihr Druckvorlagen-Geschäft durch praktische, umsetzbare Strategien automatisieren — von Stapelverarbeitung und Vorlagensystemen bis hin zu standardisierten Einträgen und systematischer Katalogerweiterung.',
+    description: 'Ihr Druckvorlagen-Business automatisieren bedeutet, überflüssigen Aufwand durch Systeme zu ersetzen, die Ihre Produktionsleistung vervielfachen. Die erfolgreichsten Verkäufer auf Etsy, Amazon KDP und Eduki sind nicht die kreativsten — sie sind die systematischsten. Sie erfahren in diesem Leitfaden, wie Sie Vorlagensysteme aufbauen, die verhindern, dass Sie bei null anfangen, Stapelverarbeitung nutzen, die stundenlange Arbeit in Minuten verwandelt, und Listing-Vorlagen erstellen, die Ihre Eintragszeit von dreißig auf fünf Minuten reduzieren. Gerade im DACH-Markt, wo Käufer professionelle Qualität und schnelle Lieferung erwarten, verschafft Ihnen ein automatisierter Workflow einen entscheidenden Wettbewerbsvorteil gegenüber manuell arbeitenden Verkäufern. Außerdem lernen Sie, Produktionspläne zu erstellen, Dateibenennung zu standardisieren und Ihren Katalog durch systematische Variation effizient zu erweitern.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer verbringen den Großteil ihrer Arbeitszeit mit Aufgaben, die mit den richtigen Systemen dramatisch schneller erledigt werden könnten. Sie erstellen jedes Arbeitsblatt von einer leeren Leinwand, schreiben jede Produktbeschreibung von Grund auf, organisieren Dateien inkonsistent in verschiedenen Ordnern und treffen Eintragsentscheidungen reaktiv statt einem geplanten Produktionskalender zu folgen. Das Ergebnis ist ein Geschäft, in dem der Verkäufer der Engpass ist — die Produktionsleistung wird durch die Anzahl der Stunden begrenzt, die er persönlich investieren kann, und jede Stunde fühlt sich vollständig von repetitiver manueller Arbeit aufgezehrt an.\n\nAutomatisierung in einem Druckvorlagen-Geschäft erfordert keine teure Software oder technische Programmierkenntnisse. Die wirkungsvollste Automatisierung entsteht durch den Aufbau von Systemen: Vorlagendateien, die den Start von der leeren Leinwand eliminieren, Stapelverarbeitungssitzungen, die ähnliche Aufgaben bündeln, standardisierte Benennungskonventionen, die Dateichaos verhindern, Eintragsvorlagen, die das Schreiben von Beschreibungen von dreißig auf fünf Minuten reduzieren, und Produktionskalender, die tägliche Entscheidungsfindung durch einen vorbestimmten Zeitplan ersetzen. Dies sind Prozessautomatisierungen — Wege, Ihre Arbeit so zu strukturieren, dass jede repetitive Aufgabe von einem System erledigt wird statt jedes einzelne Mal durch manuellen Aufwand.\n\nDer Unterschied in der Produktionsleistung zwischen einem systematischen Verkäufer und einem Ad-hoc-Verkäufer ist dramatisch. Ein Verkäufer, der Arbeitsblätter einzeln erstellt, jeden Eintrag individuell schreibt und Dateien reaktiv organisiert, könnte 3 bis 5 fertige, gelistete Produkte pro Woche produzieren. Ein Verkäufer mit Stapelverarbeitungs-Workflows, Beschreibungsvorlagen und standardisierten Dateisystemen kann 15 bis 25 fertige, gelistete Produkte in der gleichen Anzahl von Arbeitsstunden produzieren. Die Qualität ist identisch — beide Verkäufer nutzen die gleichen Werkzeuge und erstellen die gleichen Produktarten. Der Unterschied liegt ausschließlich darin, wie die Arbeit strukturiert ist.\n\nArbeitsblatt-Generatoren sind ein grundlegendes Automatisierungswerkzeug für Druckvorlagen-Verkäufer, weil sie den zeitintensivsten Schritt im Produktionsprozess ersetzen: die Erstellung des eigentlichen Arbeitsblatt-Inhalts und -Layouts. Anstatt manuell Text zu platzieren, Linien zu zeichnen, Bilder zu positionieren und Seiten zu formatieren, konfigurieren Sie Einstellungen und generieren professionelle, druckfertige Ergebnisse in Minuten. Das befreit Ihre Zeit für die strategische Arbeit, die Generatoren nicht automatisieren können: die Auswahl profitabler Themen, das Verfassen überzeugender Beschreibungen, die Optimierung von Eintragskeywords und die Planung Ihres Katalogwachstums.\n\nDieser Leitfaden führt Sie durch ein vollständiges Automatisierungs-Framework für Ihr Druckvorlagen-Geschäft. Jeder Schritt behandelt einen spezifischen Bereich, in dem systematische Prozesse manuellen Aufwand ersetzen, von der Identifizierung Ihrer größten Zeitfresser bis zum Aufbau von Produktionssystemen, die Ihre Leistung skalieren, ohne proportional Ihre Arbeitsstunden zu erhöhen. Das Ziel ist ein Geschäft, in dem Ihre Systeme die repetitive Arbeit erledigen und Ihre persönliche Zeit für die Entscheidungen und Strategien verwendet wird, die tatsächlich Ihren Umsatz steigern.',

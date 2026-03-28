@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mathe-Rätsel-Arbeitsblätter erstellen',
+    primaryKeyword: 'Mathe-Rätsel zum Online-Verkauf erstellen',
     secondaryKeywords: [
-      'Mathe-Rätsel-Arbeitsblatt-Generator',
-      'Bilderrekonstruktions-Mathe-Rätsel',
-      'druckbare Mathe-Rätsel-Arbeitsblätter zum Verkaufen',
-      'rasterbasierte Mathe-Rätsel für Kinder',
+      'Mathe-Rätsel-Arbeitsblätter für Etsy produzieren',
+      'Bilderrekonstruktions-Rätsel kommerziell verkaufen',
+      'druckbare Mathe-Rätsel auf KDP veröffentlichen',
+      'Mathe-Rätsel-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'Bilderrätsel Mathe-Aktivität',
-      'Gleichungen lösen Bild zusammensetzen',
-      'visuelle Mathe-Rätsel Vorschule Kindergarten',
-      'Mathe-Rätsel auf Etsy verkaufen',
-      'Amazon KDP Mathe-Rätsel-Bücher',
-      'kommerzielle Lizenz Rätsel-Ersteller',
+      'Bilderrätsel Mathe-Druckvorlagen Geschäft',
+      'Etsy Mathe-Rätsel-PDFs verkaufen Nische',
+      'KDP Mathe-Rätsel-Aktivitätsbuch veröffentlichen',
     ],
-    titleTag: 'Mathe-Rätsel-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Mathe-Rätsel-Arbeitsblätter erstellen, bei denen Kinder Gleichungen lösen. Rastergrößen, Rechenoperationen und Lösungsschlüssel. Verkaufen auf Etsy und KDP.',
+    titleTag: 'Mathe-Rätsel zum Verkaufen erstellen | LCS',
+    metaDescription: 'Mathe-Rätsel zum Verkaufen erstellen. Kinder lösen Gleichungen und setzen Bilder zusammen. Rastergrößen, Lösungsschlüssel und PDFs für Etsy und KDP-Verkauf.',
   },
 
   hero: {
-    title: 'Mathe-Rätsel-Arbeitsblätter erstellen',
+    title: 'Mathe-Rätsel-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung von Bilderrekonstruktions-Mathe-Rätseln, bei denen Kinder Gleichungen lösen, um Bilder zusammenzusetzen — fertig zum Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Mathe-Rätsel-Arbeitsblätter verbinden Mathe-Übungen mit dem Nervenkitzel, ein visuelles Rätsel zu lösen. Ein einzelnes Bild wird in Rasterteile unterteilt, jedes Teil erhält eine Rechenaufgabe, und die Kinder lösen die Gleichungen, um herauszufinden, wohin jedes Teil gehört, und das Bild zusammenzusetzen. Dieses Format verwandelt routinemäßiges Mathe-Üben in ein fesselndes Spiel, das Kinder tatsächlich beenden möchten. Diese Anleitung führt Sie durch die Erstellung von Mathe-Rätsel-Arbeitsblättern mit dem Mathe-Rätsel-Generator — von der Themenauswahl und Rastergröße bis zum Export druckfertiger PDFs mit automatischen Lösungsschlüsseln. Ob Sie Ihr erstes Druckvorlagen-Produkt erstellen oder einem bestehenden Mathe-Arbeitsblatt-Katalog ein einzigartiges Format hinzufügen — am Ende dieser Anleitung haben Sie fertige Rätsel bereit zum Einstellen.',
+    description: 'Mathe-Rätsel zum Online-Verkauf erstellen hebt Ihr Druckvorlagen-Geschäft von der Konkurrenz ab, denn dieses Format verbindet Mathe-Übungen mit dem Nervenkitzel, ein visuelles Rätsel zu lösen. Ein Bild wird in Rasterteile unterteilt, jedes Teil erhält eine Rechenaufgabe, und Kinder lösen die Gleichungen, um das Bild zusammenzusetzen. Dieses Format verwandelt routinemäßiges Mathe-Üben in ein fesselndes Spiel — und auf Etsy, KDP und Gumroad fallen Mathe-Rätsel sofort auf, weil sie grundlegend anders aussehen als Standard-Arbeitsblätter. Diese Anleitung führt Sie durch die Erstellung mit dem Mathe-Rätsel-Generator: Sie wählen Thema und Rastergröße, konfigurieren die Rechenoperation und exportieren druckfertige PDFs mit automatischen Lösungsschlüsseln. Da Mathe-Rätsel Zahlen und Bilder statt Wörter verwenden, ist der Inhalt sprachunabhängig — ein Produkt funktioniert für Käufer in jedem Land ohne Übersetzung. Ob Sie Ihr erstes Druckvorlagen-Produkt erstellen oder einem bestehenden Katalog ein einzigartiges Format hinzufügen — am Ende dieser Anleitung haben Sie fertige Rätsel bereit zum Einstellen.',
   },
 
   introduction: 'Standard-Additions- und Subtraktions-Arbeitsblätter sind unverzichtbar, aber sie folgen alle dem gleichen Format: eine Liste von Gleichungen auf einer Seite. Mathe-Rätsel-Arbeitsblätter durchbrechen dieses Muster vollständig. Anstelle von Aufgabenreihen sehen Kinder ein Raster aus durcheinander gewürfelten Bildteilen neben mathematischen Ausdrücken. Das Lösen jeder Gleichung ergibt eine Nummer, die dem Kind zeigt, wo dieses Teil im rekonstruierten Bild hingehört. Die Belohnung ist nicht nur eine richtige Antwort — es ist ein fertiges Bild.\n\nDieses Format nutzt etwas Kraftvolles: Kinder, die sich gegen traditionelles Mathe-Üben sträuben, werden dieselben Gleichungen bereitwillig durcharbeiten, wenn ein Rätsel involviert ist. Die visuelle Belohnung, das Bild entstehen zu sehen, erzeugt eine intrinsische Motivation, die einfache Arbeitsblätter nicht bieten können. Für Druckvorlagen-Verkäufer bedeutet dies direkte Marktplatz-Abstufung. Käufer, die sich durch Seiten identisch aussehender Mathe-Arbeitsblätter scrollen, halten inne, wenn sie ein Produkt sehen, das grundlegend anders aussieht.\n\nDer Mathe-Rätsel-Generator übernimmt die gesamte technische Komplexität. Er teilt jedes thematische Bild in Rasterteile (2x2, 3x3 oder 4x4), generiert passende Rechenaufgaben für jede Zelle, mischt die Teile mit nummerierten Beschriftungen und erstellt sowohl das Rätsel-Arbeitsblatt als auch einen vollständigen Lösungsschlüssel. Sie konfigurieren Rastergröße, Rechenoperation und Thema — der Generator kümmert sich um Layout, Gleichungsgenauigkeit und Druckformatierung.\n\nDa Mathe-Rätsel Zahlen und Bilder statt Wörter verwenden, ist der Rätselinhalt selbst sprachunabhängig. Zahlen sind universell. Das bedeutet, dass ein einzelnes Rätsel-Produkt für Käufer in jedem Land ohne Übersetzung funktioniert, was den internationalen Verkauf erheblich vereinfacht.\n\nJede in dieser Anleitung beschriebene Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Rätsel erstellen, jede Rastergröße und Rechenoperation testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

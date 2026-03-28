@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Wortsuchrätsel erstellen',
+    primaryKeyword: 'Suchsel mit Bildern erstellen zum Verkaufen',
     secondaryKeywords: [
-      'Wortsuchrätsel-Generator',
-      'druckbare Wortsuche erstellen',
-      'Wortsuchrätsel zum Verkaufen',
-      'individuelle Wortsuche mit Bildern',
+      'Wortsuchrätsel für Etsy und KDP erstellen',
+      'Bildersuchsel kommerziell produzieren',
+      'druckbare Wortsuche-Bücher verkaufen Anleitung',
+      'Suchsel-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'bildbasierte Wortsuche-Arbeitsblätter',
-      'mehrsprachige Wortsuchrätsel',
-      'Vokabel-Wortsuche für Kinder',
-      'Wortsuche-Bücher auf KDP verkaufen',
-      'Etsy Wortsuche-Druckvorlagen',
-      'kommerzielle Lizenz Rätsel-Tool',
+      'mehrsprachige Wortsuche-Produkte Geschäft',
+      'Etsy Wortsuche-Druckvorlagen Shop aufbauen',
+      'KDP Wortsuche-Rätselbuch veröffentlichen',
     ],
-    titleTag: 'Wortsuchrätsel erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Wortsuchrätsel mit Bildhinweisen erstellen. Themen wählen, Rastergröße einstellen, Lösungsschlüssel generieren. Druckvorlagen für den Verkauf auf Etsy, KDP.',
+    titleTag: 'Suchsel mit Bildern erstellen | LCS',
+    metaDescription: 'Suchsel mit Bildern zum Verkaufen erstellen. Themen wählen, Rastergröße einstellen, farbcodierten Lösungsschlüssel generieren und PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'Wortsuchrätsel mit Bildern erstellen',
+    title: 'Suchsel mit Bildern erstellen und profitabel verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung thematischer Wortsuchrätsel mit Bildhinweisen zum Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Wortsuchrätsel gehören zu den meistverkauften Druckvorlagen-Kategorien auf jedem großen Marktplatz. Sie sprechen Kinder an, die Vokabeln lernen, Nutzer, die Rechtschreibung üben, Sprachlernende, die Worterkennung trainieren, und Erwachsene, die Rätselbücher zur Entspannung genießen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Wortsuchrätsel-Generator — von der Wahl zwischen Vokabelmodus und eigener Wortliste bis zur Konfiguration von Rastergröße, Suchrichtungen und Schwierigkeitsgraden. Der Generator unterstützt 11 Sprachen, wodurch mehrsprachige Wortsuchprodukte eine realistische und profitable Nische darstellen. Ob Sie Ihr erstes Rätselprodukt erstellen oder ein Wortsuch-Buchimperium auf Amazon KDP aufbauen — am Ende dieser Anleitung haben Sie ein fertiges, druckfertiges Rätsel mit farbcodiertem Lösungsschlüssel.',
+    description: 'Suchsel mit Bildern erstellen zum Verkaufen gehört zu den profitabelsten Nischen im Druckvorlagen-Markt. Wortsuchrätsel sprechen alle Altersgruppen an — von Kindern, die Vokabeln lernen, über Sprachlernende bis hin zu Erwachsenen, die Rätselbücher zur Entspannung kaufen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Wortsuchrätsel-Generator: Sie wählen zwischen Vokabelmodus und eigener Wortliste, konfigurieren Rastergröße, Suchrichtungen und Schwierigkeitsgrade und exportieren druckfertige PDFs mit farbcodiertem Lösungsschlüssel. Der Generator unterstützt elf Sprachen, wodurch mehrsprachige Wortsuchprodukte eine realistische und profitable Produktlinie darstellen — die meisten Verkäufer ignorieren den nicht-englischen Markt komplett. Ob Sie Ihr erstes Rätselprodukt auf Etsy listen oder ein Wortsuche-Buchimperium auf Amazon KDP aufbauen — am Ende dieser Anleitung haben Sie ein fertiges Produkt bereit zum Einstellen.',
   },
 
   introduction: 'Wortsuchrätsel nehmen eine einzigartige Position auf dem Druckvorlagen-Markt ein. Anders als Arbeitsblätter, die eine einzelne Altersgruppe bedienen, erstrecken sich Wortsuchrätsel über das gesamte Altersspektrum — von Kindergartenkindern, die dreistellige Tiernamen in einem kleinen Raster finden, bis zu Erwachsenen, die komplexe thematische Rätsel in einem 400-Seiten-Buch lösen. Diese universelle Anziehungskraft bedeutet enorme, anhaltende Nachfrage über jeden Vertriebskanal.\n\nWas Wortsuchrätsel als Produktkategorie besonders stark macht, ist das schiere Volumen des Buchmarktes. Auf Amazon KDP rangieren Wortsuche-Bücher konstant unter den meistverkauften Aktivitätsbuch-Kategorien. Ein einzelnes gut optimiertes Wortsuche-Buch mit 100 Rätseln und Lösungsschlüsseln kann über Jahre hinweg stetige Tantiemen generieren. Die Einstiegshürde ist niedrig, aber Verkäufer, die thematische, visuell ansprechende Rätsel mit Bildhinweisen produzieren, heben sich dramatisch von der generischen Nur-Text-Konkurrenz ab.\n\nDer Wortsuchrätsel-Generator übernimmt die technische Komplexität der Rätselerstellung für Sie. Er platziert Wörter in einem Raster mit konfigurierbaren Richtungen (horizontal, vertikal, diagonal, rückwärts), füllt verbleibende Zellen mit zufälligen Buchstaben, generiert farbcodierte Lösungsschlüssel, bei denen jedes Wort eine eigene Hervorhebungsfarbe erhält, und unterstützt Bildhinweise, die Rätsel visuell ansprechend und lehrreich machen. Zwei Erstellungsmodi — Vokabelmodus und Eigene Wortliste — geben Ihnen Flexibilität für sowohl thematische bildbasierte Produkte als auch reine Text-Rätsel.\n\nEin wesentliches Unterscheidungsmerkmal ist die Sprachunterstützung. Der Generator arbeitet in 11 Sprachen, und da Wortsuchrätsel AUS den Wörtern bestehen, verändert die Sprache alles. Eine spanische Wortsuche verwendet völlig andere Vokabeln als eine englische für dasselbe Thema. Dies öffnet die Tür zu mehrsprachigen Produktlinien, die die meisten Wettbewerber komplett ignorieren.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispielrätsel erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

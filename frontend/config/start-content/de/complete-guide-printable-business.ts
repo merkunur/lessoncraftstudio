@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'druckvorlagen-geschäft starten',
+    primaryKeyword: 'Druckvorlagen-Business starten Anleitung 2026',
     secondaryKeywords: [
       'Druckvorlagen-Geschäft für Anfänger',
       'Arbeitsblätter online verkaufen',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'Gumroad Arbeitsblätter',
       'kommerzielle Lizenz Druckvorlagen-Werkzeuge',
     ],
-    titleTag: 'Druckvorlagen-Geschäft starten — Komplettanleitung',
-    metaDescription: 'Druckvorlagen-Geschäft starten. Schritt-für-Schritt-Anleitung für Etsy, KDP und Gumroad mit Arbeitsblatt-Generatoren für Produkte, die sich.',
+    titleTag: 'Druckvorlagen-Business starten (2026) | LCS',
+    metaDescription: 'Druckvorlagen-Business starten: Komplettanleitung für 2026. Von der Nischenwahl über Produkterstellung bis zum ersten Verkauf auf Etsy, KDP und Gumroad.',
   },
 
   hero: {
-    title: 'Die Komplettanleitung zum Start eines Druckvorlagen-Geschäfts',
+    title: 'Druckvorlagen-Business starten — Komplettanleitung 2026',
     tagline: 'Von null zum ersten Verkauf — alles, was Sie über den Aufbau eines Druckvorlagen-Arbeitsblatt-Geschäfts wissen müssen',
-    description: 'Diese Anleitung führt Sie durch jeden Schritt beim Aufbau eines Druckvorlagen-Arbeitsblatt-Geschäfts. Sie erfahren, wie Sie eine profitable Nische wählen, professionelle Produkte ohne Designkenntnisse erstellen, auf den richtigen Plattformen listen, gewinnbringend kalkulieren und einen Katalog aufbauen, der kontinuierliche Verkäufe generiert. Ob Sie auf Etsy.de, Amazon KDP, Gumroad oder Ihrer eigenen Website verkaufen möchten — hier ist Ihr Ausgangspunkt.',
+    description: 'Druckvorlagen-Business starten Anleitung 2026: Der Einstieg ist einfacher als Sie denken, wenn Sie die richtige Strategie haben. Dieser Leitfaden führt Sie durch jeden Schritt beim Aufbau eines profitablen Arbeitsblatt-Geschäfts — von der Wahl einer profitablen Nische im deutschsprachigen oder internationalen Markt über die Erstellung professioneller Produkte ohne Designkenntnisse bis zum optimalen Listing auf Etsy, Amazon KDP und Gumroad. Sie lernen, wie Sie gewinnbringend kalkulieren, Pakete strategisch schnüren und einen wachsenden Katalog aufbauen, der kontinuierliche passive Verkäufe generiert. Besonders für den DACH-Markt bieten mehrsprachige Generatoren einen erheblichen Wettbewerbsvorteil. Jeder hier erwähnte Arbeitsblatt-Generator bietet eine kostenlose Testversion mit Wasserzeichen, sodass Sie die Qualität bewerten können, bevor Sie eine kommerzielle Lizenz erwerben.',
   },
 
   introduction: 'Der Markt für druckbare Arbeitsblätter wächst stetig, weil die Nachfrage nie nachlässt. Eltern unterrichten zu Hause. Käufer ergänzen den Produktkatalog. Kursanbieter brauchen jede Woche neues Material. Saisonale Themen wechseln, aber der Kernbedarf — strukturierte, ansprechende, druckfertige Lernaktivitäten — bleibt Jahr für Jahr konstant.\n\nEin Druckvorlagen-Geschäft zu starten erfordert keinen Lehramtsabschluss, keine Grafikdesign-Erfahrung und keine große Anfangsinvestition. Was es erfordert, ist ein klares Verständnis davon, was Käufer tatsächlich wollen, die richtigen Werkzeuge zur effizienten Erstellung professioneller Produkte und die Bereitschaft, dies als echtes Geschäft zu behandeln — nicht als Nebenprojekt.\n\nDiese Anleitung deckt den vollständigen Weg ab. Am Ende werden Sie einen konkreten Aktionsplan haben: Ihre Nische ausgewählt, Ihr erstes Produkt erstellt, Ihren Shop eingerichtet und Ihre Preisstrategie festgelegt. Keine vagen Ratschläge, kein leeres Versprechen — nur die praktischen Schritte, die Sie von der Idee zum Einkommen bringen.\n\nEin wichtiger Hinweis bevor wir beginnen: Jeder hier erwähnte Arbeitsblatt-Generator bietet eine kostenlose Testversion mit Wasserzeichen. Sie können alle Funktionen testen, Muster-Arbeitsblätter erstellen und die Qualität bewerten, bevor Sie eine kommerzielle Lizenz erwerben. Der Einstieg ist völlig risikofrei.',

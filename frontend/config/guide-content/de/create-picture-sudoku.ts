@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bilder-sudoku-arbeitsblätter erstellen',
+    primaryKeyword: 'Bilder-Sudoku zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Bilder-Sudoku für Kinder',
-      'Bild-Sudoku Arbeitsblatt-Generator',
-      'druckbare Bilder-Sudoku zum Verkaufen',
-      'visuelle Sudoku-Rätsel für Vorschulkinder',
+      'Bilder-Sudoku-Arbeitsblätter für Etsy produzieren',
+      'Bild-Sudoku-Rätsel kommerziell verkaufen',
+      'Sudoku-Rätselbuch auf KDP veröffentlichen',
+      'Bilder-Sudoku-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'bildbasierte Logikrätsel für Kinder',
-      'visuelles Sudoku für junge Lerner',
-      'Vorschul-Logik-Arbeitsblatt-Ersteller',
-      'Sudoku-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Rätsel-Aktivitätsbücher',
-      'kommerzielle Lizenz Rätsel-Tool',
+      'bildbasierte Logikrätsel Etsy-Geschäft',
+      'KDP Sudoku-Aktivitätsbuch Kinder veröffentlichen',
+      'Vorschul-Logikrätsel Printable Nische',
     ],
-    titleTag: 'Bilder-Sudoku-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Bilder-Sudoku für junge Lerner erstellen. 4×4-Bildraster, drei Schwierigkeitsstufen, thematische Bilder und Lösungsschlüssel. Druckfertige PDFs für Etsy, KDP.',
+    titleTag: 'Bilder-Sudoku zum Verkaufen erstellen | LCS',
+    metaDescription: 'Bilder-Sudoku zum Verkaufen erstellen. 4×4-Bildraster, drei Schwierigkeitsstufen und automatische Lösungsschlüssel. Druckfertige PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'Bilder-Sudoku für junge Lerner erstellen',
+    title: 'Bilder-Sudoku erstellen und profitabel verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung bildbasierter 4×4-Sudoku-Rätsel zum Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Bilder-Sudoku ersetzt Zahlen durch Bilder und macht Logikrätsel für Kinder ab drei Jahren zugänglich. Anstatt ein Raster mit Ziffern zu füllen, platzieren Kinder thematische Bilder — Tiere, Früchte, Fahrzeuge oder beliebige Bildsets — so dass jede Reihe und Spalte jedes Bild genau einmal enthält. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bilder-Sudoku-Ersteller — von der Auswahl Ihrer Schwierigkeitsstufe und Ihres Themas bis zum Export einer ausgefeilten, druckfertigen PDF mit automatischem Lösungsschlüssel. Ob Sie Ihr erstes druckbares Rätselprodukt erstellen oder einen bestehenden Frühförderungskatalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt, das Sie einstellen können.',
+    description: 'Bilder-Sudoku zum Verkaufen erstellen positioniert Ihre Produkte in der Logik- und Rätselkategorie, abseits des übersättigten Mathe-Arbeitsblatt-Marktes. Das Format ersetzt Zahlen durch thematische Bilder und macht Logikrätsel für Kinder ab drei Jahren zugänglich — Kinder platzieren Tiere, Früchte oder Fahrzeuge so, dass jede Reihe und Spalte jedes Bild genau einmal enthält. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bilder-Sudoku-Ersteller: Sie wählen Schwierigkeitsstufe und Thema, generieren gültige 4×4-Rätsel und exportieren druckfertige PDFs mit automatischem Lösungsschlüssel und Ausschneidebereich. Da der Rätselinhalt rein visuell ist, funktioniert ein Produkt ohne Übersetzung für Käufer in jedem Land — ein erheblicher Vorteil gegenüber textbasierten Produkten. Der Generator bietet drei Schwierigkeitsstufen und über 100 Themen, sodass Sie Dutzende einzigartiger Produkte aus einem Werkzeug produzieren können. Ob Sie Ihr erstes Rätselprodukt erstellen oder Ihren Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt bereit zum Einstellen.',
   },
 
   introduction: 'Sudoku ist eines der bekanntesten Rätselformate der Welt, aber standardmäßige 9×9-Zahlenraster sind für junge Lerner viel zu komplex. Bilder-Sudoku löst dieses Problem, indem es ein 4×4-Raster mit vier thematischen Bildern anstelle von neun Ziffern verwendet. Die Regeln bleiben gleich — jede Reihe und Spalte muss jedes Bild genau einmal enthalten — aber die reduzierte Rastergröße und das visuelle Format machen es für Kinder im Alter von 3 bis 7 Jahren geeignet.\n\nWas Bilder-Sudoku als druckbares Produkt besonders stark macht, ist dass es Logik lehrt, nicht Mathematik. Eltern, die nach \"Logikrätsel für Vorschulkinder" oder \"Arbeitsblätter zum kritischen Denken für den Kindergarten" suchen, finden Bilder-Sudoku, weil es räumliches Denken und deduktives Denken entwickelt, ohne Zahlenkenntnisse zu erfordern. Dies positioniert Ihre Produkte in der Logik- und Rätselkategorie, anstatt direkt mit dem übersättigten Markt für Mathe-Arbeitsblätter zu konkurrieren.\n\nDie visuelle Natur von Bilder-Sudoku macht es auch sprachunabhängig für den eigentlichen Rätselinhalt. Ein Kind, das ein Raster mit Tierbildern löst, muss keinen Text lesen — das Rätsel ist vollständig visuell. Das bedeutet, dass ein einzelnes Arbeitsblatt-Design für Käufer in jedem Land funktioniert, was Ihren potenziellen Markt dramatisch erweitert. Die Kopfzeile und Anweisungen sind sprachbewusst mit 11 eingebauten Sprachen, aber das eigentliche Rätsel braucht keine Übersetzung.\n\nDer Bilder-Sudoku-Ersteller übernimmt die gesamte Rätselgenerierung für Sie. Er erstellt gültige 4×4-Sudoku-Raster, entfernt die richtige Anzahl von Zellen basierend auf Ihrer gewählten Schwierigkeitsstufe, generiert einen Ausschneidebereich, in dem Kinder die fehlenden Bilder finden, und produziert automatische Lösungsschlüssel. Sie konzentrieren sich auf die Produktstrategie — welche Themen verwendet werden, welche Schwierigkeitsstufen anvisiert werden, wie gebündelt und bepreist wird — während der Generator Rätsellogik, Layout und Druckformatierung übernimmt.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispielrätsel erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

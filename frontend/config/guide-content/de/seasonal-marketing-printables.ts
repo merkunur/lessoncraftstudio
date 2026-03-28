@@ -2,28 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'saisonales Marketing Druckvorlagen',
+    primaryKeyword: 'Saisonales Marketing für Druckvorlagen-Verkäufer',
     secondaryKeywords: [
-      'saisonale Druckvorlagen-Geschäftsstrategie',
-      'Feiertagsarbeitsblätter Marketing',
-      'Schulanfang Druckvorlagen Verkauf',
-      'saisonaler Produktkalender Verkäufer',
+      'Printable-Verkäuferkalender Hauptverkaufszeiten',
+      'Feiertagsarbeitsblätter Produktionsplanung',
+      'Schulanfang Druckvorlagen Marketing Timing',
+      'saisonale Keywords Etsy-Listings optimieren',
     ],
     lsiKeywords: [
-      'Feiertagsnachfrage Zyklus saisonale Produktplanung Hauptverkaufszeiten',
-      'Schulanfang Feiertagsarbeitsblätter Sommerlernen Neujahr Ressourcen',
-      'Valentinstag Aktivitäten Oster-Druckvorlagen Halloween-Arbeitsblätter Weihnachtsarbeitsblätter',
-      'Erntedank Aktivitäten saisonale Trends Nachfrageprognose Produktionskalender',
-      'Veröffentlichungszeitpunkt saisonale Schlüsselwörter Trendanalyse Inhaltskalender Quartalsplanung',
+      'Feiertagsnachfrage saisonale Produktplanung Produktionskalender Vorlaufzeit',
+      'Halloween-Arbeitsblätter Weihnachtsarbeitsblätter Schulanfang Sommerlernen',
+      'Veröffentlichungszeitpunkt saisonale Schlüsselwörter Quartalsplanung Trendanalyse',
     ],
-    titleTag: 'Saisonales Marketing Druckvorlagen — Verkäuferkalender',
-    metaDescription: 'Saisonale Druckvorlagen-Kampagnen planen. Verkäuferkalender, Produktionstiming, Schlüsselwörter und Strategien für Hauptverkaufszeiten auf Gumroad.',
+    titleTag: 'Saisonales Marketing für Printable-Shops | LCS',
+    metaDescription: 'Saisonales Marketing für Druckvorlagen-Verkäufer: Produktionskalender, optimales Timing, saisonale Keywords und Strategien für Hauptverkaufszeiten auf Etsy.',
   },
 
   hero: {
-    title: 'Saisonaler Marketingkalender für Druckvorlagen-Verkäufer',
+    title: 'Saisonales Marketing für Ihren Printable-Shop planen',
     tagline: 'Ein vollständiger Leitfaden für saisonales Marketing mit Druckvorlagen — von der Abbildung jährlicher Nachfragezyklen über den Aufbau von Produktionskalendern für Spitzenzeiten, die Optimierung von Listings für saisonale Suchen, die effiziente Erstellung thematischer Produktvarianten, die Planung saisonaler Pakete, die Terminierung von Marketingkampagnen, die Analyse der Jahresleistung bis hin zur Balance zwischen saisonalen Veröffentlichungen und Evergreen-Katalogtiefe',
-    description: 'Das Timing entscheidet, ob ein Druckvorlagen-Produkt in eine Phase hoher Nachfrage startet oder erst ankommt, wenn Käufer bereits bei Wettbewerbern gekauft haben. Ein Halloween-Arbeitsblattpaket, das im Oktober eingestellt wird, konkurriert gegen Hunderte etablierter Listings, die seit August Verkäufe sammeln. Ein Schulanfangs-Mathebündel, das im September erstellt wird, verpasst das Kaufzeitfenster, das bereits im Juli begann. Dieser Leitfaden bietet ein vollständiges Framework für den saisonalen Marketingkalender, speziell für Druckvorlagen-Verkäufer — von der jährlichen Nachfragekartierung und Produktionsplanung bis zur Optimierung saisonaler Schlüsselwörter und der Verfeinerung der Jahresleistung.',
+    description: 'Saisonales Marketing für Druckvorlagen-Verkäufer entscheidet, ob Ihr Produkt in eine Phase hoher Nachfrage startet oder erst ankommt, wenn Käufer längst bei Wettbewerbern gekauft haben. Ein Halloween-Paket, das erst im Oktober erscheint, konkurriert gegen Hunderte Listings, die seit August Verkäufe und Bewertungen sammeln. Die richtige Vorlaufzeit ist der Schlüssel zu saisonalem Erfolg. Sie erfahren in diesem Leitfaden, wie Sie den jährlichen Nachfragezyklus für Lern-Druckvorlagen präzise kartieren, einen 12-Monats-Produktionskalender an Nachfragespitzen ausrichten und Listings für saisonale Keywords optimieren. Außerdem lernen Sie, thematische Produktvarianten effizient mit Generatoren zu erstellen, Marketingkampagnen terminlich abzustimmen und die richtige Balance zwischen saisonalen Veröffentlichungen und Evergreen-Katalogtiefe zu halten, die ganzjährig konsistenten Umsatz sichert.',
   },
 
   introduction: 'Die Nachfrage nach Druckvorlagen verteilt sich nicht gleichmäßig über das Kalenderjahr. Sie folgt vorhersehbaren saisonalen Zyklen, die durch Schulkalender, Feiertage und kulturelle Ereignisse bestimmt werden und sich jährlich mit bemerkenswerter Konstanz wiederholen. Der Schulanfang erzeugt einen massiven Nachfrageanstieg für jahrgangsspezifische Arbeitsblätter und Druckprodukte. Die Feiertagssaison treibt den Kauf von thematischen Aktivitätspaketen von Halloween bis Weihnachten an. Der Sommer bringt Eltern, die Materialien zur Vermeidung von Lernverlusten suchen. Jede dieser Nachfragespitzen stellt ein konzentriertes Kaufzeitfenster dar, in dem Verkäufer mit vorbereiteten, indexierten und sichtbaren Produkten überproportional mehr Umsatz erzielen als Verkäufer, die erst auf die Nachfrage reagieren, wenn sie bereits eingetroffen ist.\n\nDie grundlegende Herausforderung des saisonalen Marketings für Druckvorlagen-Verkäufer ist die Vorlaufzeit. Marktplatz-Suchalgorithmen brauchen Wochen, um neue Listings zu indexieren und zu ranken. Produkte brauchen Zeit, um eine anfängliche Verkaufsdynamik und Bewertungen aufzubauen, die sie in den Suchergebnissen nach oben bringen. Käufer in vielen Kategorien beginnen 4–8 Wochen vor dem tatsächlichen Feiertag oder Saisonbeginn zu suchen und zu kaufen — Käufer, die ihren Oktober-Produktkatalog planen, beginnen im August einzukaufen, Eltern, die Feiertagsaktivitätspakete vorbereiten, beginnen Anfang November zu stöbern, und Homeschool-Familien, die Sommerlernpakete planen, beginnen im April zu recherchieren. Ein Verkäufer, der Produkte während der Nachfragespitze erstellt, konkurriert gegen Verkäufer, die Monate vorher vorbereitet haben und bereits etablierte, gut gerankte Listings haben.\n\nDie Verkäufer, die konstant den höchsten saisonalen Umsatz erzielen, sind nicht unbedingt die mit den größten Katalogen oder den kreativsten Designs. Es sind diejenigen, die Produktion und Marketing rund um den jährlichen Nachfragekalender mit disziplinierter Konsequenz planen. Sie erstellen Halloween-Produkte im Juli, Schulanfangs-Ressourcen im Mai und Weihnachtsaktivitätspakete im September. Ihre Listings sind indexiert, optimiert und sammeln erste Verkäufe, bevor die Mehrheit der Käufer überhaupt zu suchen beginnt. Diese Vorausplanung schafft einen sich verstärkenden Vorteil: Frühe Verkäufe generieren Bewertungen, Bewertungen verbessern das Suchranking, höheres Ranking generiert mehr Verkäufe, und der Kreislauf beschleunigt sich während der Hauptnachfragezeit.\n\nSaisonales Marketing beschränkt sich nicht nur auf feiertagsbezogene Produkte. Jeder Monat des Jahres hat Nachfragemuster, die informierte Verkäufer nutzen können. Januar bringt Neujahrsvorsatz-Aktivitäten und Ressourcen für den Neustart des Produktkatalogs. Februar treibt Valentinstag-Arbeitsblätter und Bildungsinhalte an. März und April schaffen Nachfrage nach Vorbereitungsmaterialien für Frühjahrstests. Die Verkäufer, die diese monatlichen Nachfragemuster kartieren und sich darauf vorbereiten, erhalten das ganze Jahr über konsistenten Umsatz, anstatt Festmahl-und-Hunger-Zyklen zu erleben, die die Geschäftsplanung erschweren.\n\nDieser Leitfaden führt durch ein vollständiges Framework für den saisonalen Marketingkalender für Druckvorlagen-Verkäufer. Jeder Schritt behandelt einen bestimmten Aspekt der saisonalen Planung — von der Kartierung des jährlichen Nachfragezyklus und dem Aufbau eines Produktionskalenders bis zur Optimierung saisonaler Schlüsselwörter, der effizienten Erstellung von Produktvarianten und der Analyse der Jahresleistung. Das Ziel ist ein systematischer Ansatz, der sicherstellt, dass Ihre Produkte erstellt, gelistet, optimiert und sichtbar sind, bevor jede Nachfragespitze eintrifft — kein reaktives Durcheinander, um saisonale Produkte zu erstellen, nachdem das Kaufzeitfenster bereits geöffnet hat.',

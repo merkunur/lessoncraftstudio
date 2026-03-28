@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'rasterzeichnen-generator',
+    primaryKeyword: 'kostenloser Mal-und-Zeichenvorlagen Ersteller',
     secondaryKeywords: [
-      'Rasterzeichnen-Ersteller für Verkäufer',
-      'Gitterzeichnungs-Arbeitsblätter online erstellen',
-      'druckbare Zelle-für-Zelle-Zeichenübungen kommerziell',
-      'Rasterzeichnen-Generator mit Hinweisprozent für KDP',
+      'Rasterzeichnen-Generator kostenlos online',
+      'Mal-und-Zeichenvorlagen ohne Anmeldung erstellen',
+      'kostenloser Gitterzeichnungs-Arbeitsblatt Generator',
+      'Zeichenvorlagen online erstellen und drucken',
     ],
     lsiKeywords: [
-      'Duales-Raster-Zeichnen-Druckvorlagen für Etsy',
-      'einstellbarer Hinweisprozentsatz-Arbeitsblatt-Generator',
-      'Symmetriemodus-Spiegelzeichnen-Arbeitsblatt-Ersteller',
+      'duales Rastersystem mit Hinweisprozent',
+      'Symmetriemodus-Spiegelzeichnen-Arbeitsblatt',
+      'Zelle-für-Zelle-Zeichenübungen zum Ausdrucken',
     ],
-    titleTag: 'Rasterzeichnen-Generator | Gitter-Zeichnungen',
-    metaDescription: 'Rasterzeichnen-Arbeitsblätter mit dualem Rastersystem und Hinweisprozent 10–75% erstellen. Drei Symmetriemodi, 100+ Themen. Kostenlos testen mit.',
+    titleTag: 'Kostenloser Mal-und-Zeichen Generator | LCS',
+    metaDescription: 'Kostenloser Mal-und-Zeichenvorlagen Ersteller mit Rastersystem und Hinweisprozent. Online ohne Anmeldung nutzbar. Kommerzielle Lizenz für den Verkauf verfügbar.',
   },
 
   hero: {
-    title: 'Rasterzeichnen-Ersteller',
+    title: 'Mal-und-Zeichenvorlagen kostenlos erstellen — Raster-Tool',
     tagline: 'Duale-Raster-Zeichen-Arbeitsblätter mit einstellbarem Hinweisprozent, drei Symmetriemodi und rein visueller textfreier Ausgabe erstellen — weltweit verkaufbar ohne Übersetzung',
-    description: 'Erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter, bei denen Lernende ein Referenzbild Zelle für Zelle vom Hinweisraster in ein leeres Übungsraster übertragen. Pro ausgewähltem Bild erscheinen zwei Raster: ein Übungsraster mit leeren Zellen zum Zeichnen und ein Hinweisraster, das einen konfigurierbaren Prozentsatz des Referenzbilds als visuelle Hilfe zeigt. Passen Sie den Hinweisprozentsatz von 10 % bis 75 % an, um den Schwierigkeitsgrad zu steuern — weniger Hinweise bedeuten anspruchsvollere Übungen, die schärfere Beobachtungsgabe erfordern. Konfigurieren Sie Rasterdimensionen von 3×3 (9 Zellen) bis 10×10 (100 Zellen), wobei Zeilen und Spalten unabhängig einstellbar sind. Drei Symmetriemodi fügen eine räumliche Denkdimension hinzu: Zufall verteilt Hinweise an beliebigen Positionen, Horizontal spiegeln spiegelt Hinweise links-rechts, und Vertikal spiegeln spiegelt Hinweise oben-unten, jeweils mit einem Teilbereich-Selektor zur Steuerung der angezeigten Hälfte. Inhalte stammen aus der integrierten S&W-Umriss-Themenbibliothek mit über 100 Sammlungen und über 3.000 Schwarz-Weiß-Illustrationen, die speziell für Zeichnen und Ausmalen gestaltet sind — klare Umrisse, die Lernende nachzeichnen und anschließend ausmalen, keine farbigen Themen. Dies ist eine rein visuelle App: Arbeitsblätter enthalten ausschließlich Rasterbilder mit null Text, was sie universell verkaufbar ohne Übersetzung macht. Es existiert kein separater Lösungsschlüssel, da das Hinweisraster selbst als Referenzlösung dient. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand und Fredoka. Der Generator ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht den Arbeitsblatt-Inhalt. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Mal-und-Zeichenvorlagen mit diesem Rasterzeichnen-Generator — direkt im Browser, ohne Anmeldung, ohne Installation. Pro ausgewähltem Bild erscheinen zwei Raster: ein Übungsraster mit leeren Zellen zum Zeichnen und ein Hinweisraster mit konfigurierbarem Hinweisprozentsatz von 10 % bis 75 %. Konfigurieren Sie Rasterdimensionen von 3×3 bis 10×10 mit unabhängig einstellbaren Zeilen und Spalten. Drei Symmetriemodi fügen eine räumliche Denkdimension hinzu: Zufall, Horizontal spiegeln und Vertikal spiegeln. Durchstöbern Sie über 100 S&W-Umriss-Sammlungen mit über 3.000 Illustrationen. Die Arbeitsblätter sind rein visuell mit null Text auf der Ausgabe. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

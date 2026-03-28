@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'wortsuche-generator',
+    primaryKeyword: 'Suchsel-Generator zum Verkaufen auf Etsy und KDP',
     secondaryKeywords: [
-      'druckbare Wortsuchrätsel-Generator für Etsy-Verkäufer',
-      'Wortgitter-Arbeitsblatt-Generator für KDP-Verleger',
-      'Buchstabengitter-Rätsel auf Gumroad verkaufen',
-      'Wortsuche-Druckvorlagen kommerzielle Lizenz',
-      'Wortsuchrätsel-Generator mit sprachabhängigem Buchstabengitter',
+      'Wortsuchrätsel-Generator für Etsy-Verkäufer',
+      'Suchsel-Bücher für Amazon KDP erstellen',
+      'Buchstabengitter-Rätsel gewerbliche Lizenz',
+      'Wortgitter-Druckvorlagen für Eduki verkaufen',
+      'Wortsuchrätsel mit Bildern für Online-Verkauf',
     ],
     lsiKeywords: [
-      'digitale Wortgitter-Rätsel-Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Buchstabengitter-Arbeitsblätter',
-      'kommerzieller Wortsuche-Generator mit Farbcode-Lösungsschlüssel',
+      'Suchsel Buchstabengitter druckfertig 300 DPI',
+      'Wortsuchrätsel-Generator DACH-Markt',
+      'Farbcode-Lösungsschlüssel kommerzielle Nutzung',
     ],
-    titleTag: 'Wortsuche-Generator | Wortsuchrätsel erstellen',
-    metaDescription: 'Wortsuche-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Gittergröße 5–30, Diagonal- und Rückwärts-Steuerung. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Suchsel-Generator zum Verkaufen auf Etsy | LCS',
+    metaDescription: 'Suchsel-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen. Gittergröße 5–30, 11 Sprachen, gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Wortsuche-Arbeitsblatt-Generator für Buchstabengitter-Rätsel',
+    title: 'Suchsel erstellen und auf Etsy & KDP verkaufen',
     tagline: 'Einstellbare Gitter von 5×5 bis 30×30 mit Diagonal- und Rückwärts-Richtungssteuerung — erstellen Sie die perfekte Schwierigkeitsstufe für jede Zielgruppe.',
     description:
-      'Erstellen Sie professionelle Wortsuche-Arbeitsblätter, bei denen versteckte Wörter in einem Gitter aus zufälligen Füllbuchstaben eingebettet sind und Nutzer Zeilen, Spalten und Diagonalen durchsuchen, um jedes Wort zu finden — das klassische Buchstabengitter-Rätsel, das nie aus der Mode kommt. Wählen Sie aus drei Inhaltsquellen: die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, der manuelle Bearbeitungsmodus, in dem Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen, oder der benutzerdefinierte Wortlisten-Modus für reine Text-Rätsel mit bis zu 8 Wörtern, die Sie direkt eingeben. Stellen Sie die Gittergröße von 5×5 für schnelle Aufgaben bis 30×30 für anspruchsvolle Herausforderungen ein, und schalten Sie diagonale Wörter sowie rückwärts (umgekehrte) Wörter unabhängig ein oder aus, um die Schwierigkeit über vier bis acht mögliche Platzierungsrichtungen fein abzustimmen. Drei Anzeigemodi — Wörter und Bilder, nur Bilder oder nur Wörter — steuern, wie Hinweise neben dem Gitter erscheinen. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sowohl die versteckten Wörter als auch die Gitter-Füllbuchstaben sich je nach Sprache ändern: Deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeitsgewichtungen, französische Gitter enthalten é, è, ç, à, und jede andere Sprache verwendet ihren authentischen Zeichensatz. Diese doppelte Sprachabhängigkeit macht jede Sprachversion zu einem völlig eigenständigen Produkt — \"Hund\" versteckt in einem Gitter voller deutscher Zeichen wie ...K...ä...H-U-N-D...ö...ß... sieht grundsätzlich anders aus als \"dog\" in einem englischen Gitter. Deutsche zusammengesetzte Substantive wie \"Schmetterling\" (13 Buchstaben) spannen sich über deutlich mehr Gitterzellen als ihre englischen Äquivalente und erzeugen visuell einzigartige Rätsel. Ein farbcodierter Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor — Rosa, Blau, Grün, Gold, Koralle und Lavendel — für sofortige visuelle Überprüfung. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Im Gegensatz zu Buchstabensalat, wo Nutzer durcheinander gemischte Plättchen in die richtige Reihenfolge bringen, fordert die Wortsuche visuelles Scanning und räumliche Mustererkennung — Nutzer müssen das Wort in einem Meer aus Füllbuchstaben erkennen, was eine völlig andere kognitive Fähigkeit trainiert. Die einstellbare Gittergröße von 5×5 bis 30×30 ermöglicht eine enorme Schwierigkeitsbandbreite: Ein 5×5-Gitter mit 25 Zellen und nur horizontalen Wörtern ist in Sekunden gelöst, während ein 30×30-Gitter mit 900 Zellen und acht Platzierungsrichtungen selbst erfahrene Rätsellöser minutenlang beschäftigt. Ob Sie thematische Rätsel-Pakete auf Etsy.de verkaufen, Wortsuchrätsel-Bücher für Amazon KDP zusammenstellen oder gestufte Vokabelübungen für den Gumroad erstellen — der Wortsuche-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Der Suchsel-Generator zum Verkaufen auf Etsy und KDP ist Ihr Werkzeug für eines der beliebtesten Rätselformate überhaupt — Wortsuchrätsel verkaufen sich als Einzelblätter, thematische Pakete und komplette Rätselbücher gleichermaßen gut. Stellen Sie die Gittergröße von 5×5 bis 30×30 ein und steuern Sie Diagonal- sowie Rückwärts-Platzierung für präzise Schwierigkeitsstufen. Deutsche Gitter enthalten authentische Füllbuchstaben mit ä, ö, ü und ß, und lange zusammengesetzte Substantive wie "Schmetterling" erzeugen visuell einzigartige Rätsel, die sich klar von englischen Produkten abheben. Mit 11 Sprachen, 104 Bildthemen und über 3.100 Illustrationen erstellen Sie in Minuten professionelle Suchsel für den DACH-Markt und internationale Käufer. Der farbcodierte Lösungsschlüssel wird automatisch generiert. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf auf Etsy, Amazon KDP, Gumroad und Eduki. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

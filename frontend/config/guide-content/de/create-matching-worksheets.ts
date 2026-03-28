@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zuordnungs-Arbeitsblätter erstellen',
+    primaryKeyword: 'Zuordnungs-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Zuordnungs-Arbeitsblätter für Vorschule',
-      'Zuordnungs-Arbeitsblatt-Generator',
-      'druckbare Zuordnungsaktivitäten zum Verkaufen',
-      'Linie-ziehen Zuordnungs-Arbeitsblätter',
+      'Zuordnungs-Arbeitsblätter für Etsy produzieren',
+      'Linie-ziehen-Arbeitsblätter kommerziell verkaufen',
+      'druckbare Zuordnungsaktivitäten KDP veröffentlichen',
+      'Zuordnungs-Arbeitsblatt-Generator für Verkäufer',
     ],
     lsiKeywords: [
-      'Bildzuordnungs-Arbeitsblätter Vorschule',
-      'Buchstabenzuordnung Kindergarten',
-      'visuelle Unterscheidung Arbeitsblätter',
-      'Zuordnungs-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Zuordnungs-Aktivitätsbücher',
-      'kommerzielle Lizenz Arbeitsblatt-Tool',
+      'Vorschul-Zuordnung Druckvorlagen Etsy-Geschäft',
+      'Buchstabenzuordnung Printable Nische verkaufen',
+      'KDP Zuordnungs-Aktivitätsbuch veröffentlichen',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Zuordnungs-Arbeitsblätter für die Vorschule erstellen. 4 Modi, thematische Bilder und Lösungsschlüssel mit Linien. PDFs zum Verkauf auf Etsy und exportieren.',
+    titleTag: 'Zuordnungs-Arbeitsblätter zum Verkauf | LCS',
+    metaDescription: 'Zuordnungs-Arbeitsblätter zum Verkaufen erstellen. 4 Modi, thematische Bilder und automatische Lösungsschlüssel. Druckfertige PDFs für Etsy und KDP-Verkauf.',
   },
 
   hero: {
-    title: 'So erstellen Sie Zuordnungs-Arbeitsblätter für die Vorschule',
+    title: 'Zuordnungs-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Erstellen thematischer Linie-ziehen-Zuordnungs-Arbeitsblätter mit automatischen Lösungsschlüsseln, die Sie auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Zuordnungs-Arbeitsblätter gehören zu den vielseitigsten Vorschul-Druckprodukten, die Sie erstellen können. Sie vermitteln visuelle Unterscheidung, Buchstabenerkennung, Wortschatz und logisches Zuordnen — alles durch das einfache Ziehen einer Linie zwischen zwei Spalten. Dieser Leitfaden führt Sie durch den gesamten Erstellungsprozess mit dem Zuordnungs-Arbeitsblatt-Ersteller — von der Wahl Ihres Zuordnungsmodus und Themas bis zum Export druckfertiger PDFs mit automatischen Lösungsschlüsseln. Der Generator bietet vier verschiedene Zuordnungsmodi (Buchstaben, Bild+Name, Bild-oder-Name und Benutzerdefiniert), was ihn zu einem der flexibelsten Tools für den Aufbau eines vielfältigen Produktkatalogs macht. Ob Sie Ihr erstes Vorschul-Druckprodukt veröffentlichen oder in Zuordnungsaktivitäten expandieren — am Ende dieses Tutorials haben Sie ein fertiges Produkt, das Sie listen können.',
+    description: 'Zuordnungs-Arbeitsblätter zum Verkaufen erstellen bietet Ihnen eine der vielseitigsten Produktkategorien im Vorschul-Druckvorlagen-Markt. Zuordnungsübungen vermitteln visuelle Unterscheidung, Buchstabenerkennung, Wortschatz und logisches Denken — alles durch das einfache Ziehen einer Linie zwischen zwei Spalten. Nachhilfezentren bestellen sie regelmäßig, Eltern kaufen sie fürs Üben zu Hause, und auf Etsy gehören sie zu den meistgesuchten Vorschul-Produkten. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Zuordnungs-Arbeitsblatt-Ersteller: Sie wählen einen von vier Zuordnungsmodi — Buchstaben, Bild+Name, Bild-oder-Name und Benutzerdefiniert — konfigurieren Thema und Paaranzahl und exportieren druckfertige PDFs mit automatischen Lösungsschlüsseln. Der Generator ist sprachsensitiv und unterstützt elf Sprachen, sodass Sie mehrsprachige Zuordnungsprodukte ohne manuelle Übersetzung erstellen können. Ob Sie Ihr erstes Vorschul-Druckprodukt veröffentlichen oder in Zuordnungsaktivitäten expandieren — am Ende dieser Anleitung haben Sie ein fertiges Produkt zum Einstellen bereit.',
   },
 
   introduction: 'Zuordnen ist eine der frühesten kognitiven Fähigkeiten, die Kinder entwickeln, und Arbeitsblätter, die diese Fähigkeit trainieren, sind von der Vorschule bis in die frühe Grundschule stark nachgefragt. Das Linie-ziehen-Format ist sofort intuitiv — Kinder sehen zwei Spalten und verbinden zusammengehörige Paare. Keine Lesekompetenz erforderlich. Keine komplexen Anweisungen. Einfach schauen, denken und zeichnen.\n\nWas Zuordnungs-Arbeitsblätter als Druckprodukt besonders stark macht, ist ihre Bandbreite an Lernanwendungen. Ein einziger Zuordnungs-Arbeitsblatt-Generator kann Buchstabenerkennungs-Aktivitäten, Wortschatzübungen, visuelle Unterscheidungsübungen und benutzerdefinierte Rechtschreibübungen produzieren. Jede Anwendung zielt auf ein anderes Käuferbedürfnis und eine andere Suchanfrage auf Marktplätzen ab.\n\nDer Zuordnungs-Arbeitsblatt-Ersteller übernimmt die Layout-Komplexität für Sie. Er ordnet Elemente in zwei gemischte Spalten an, verbindet sie mit Ausrichtungspunkten, generiert automatische Lösungsschlüssel mit horizontalen Verbindungslinien und exportiert alles in druckfertiger Auflösung. Sie wählen den Zuordnungsmodus, wählen ein Thema, legen die Anzahl der Paare fest, und der Generator erstellt in Sekunden ein professionelles Arbeitsblatt.\n\nDer Generator ist sprachsensitiv — im Buchstaben-Modus werden Anfangsbuchstaben passend zur gewählten Sprache erzeugt, und im Bild+Name-Modus werden lokalisierte Wortbezeichnungen generiert. Das bedeutet, Sie können Zuordnungsprodukte für mehrere Sprachmärkte erstellen, ohne Inhalte manuell zu übersetzen.\n\nAlle in diesem Leitfaden erwähnten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Arbeitsblätter erstellen, jeden Zuordnungsmodus testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

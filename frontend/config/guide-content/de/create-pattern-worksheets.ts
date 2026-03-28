@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Muster-Arbeitsblätter erstellen',
+    primaryKeyword: 'Muster-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Mustererkennung Arbeitsblätter für Kinder',
-      'Muster-Arbeitsblatt-Generator',
-      'druckbare Muster-Arbeitsblätter zum Verkaufen',
-      'visuelle Musteraktivitäten für Vorschule',
+      'Mustererkennung-Arbeitsblätter für Etsy produzieren',
+      'druckbare Muster-Übungen kommerziell verkaufen',
+      'Muster-Aktivitätsbuch auf KDP veröffentlichen',
+      'Muster-Arbeitsblatt-Generator für Verkäufer',
     ],
     lsiKeywords: [
-      'AB Muster-Arbeitsblätter Vorschule',
-      'bildbasierte Mustererkennung Aktivitäten',
-      'Kindergarten Muster-Vervollständigung',
-      'Muster-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Muster-Aktivitätsbücher',
-      'kommerzielle Lizenz Arbeitsblatt-Tool',
+      'Vorschul-Muster Druckvorlagen Etsy-Geschäft',
+      'KDP Muster-Aktivitätsbuch veröffentlichen',
+      'bildbasierte Mustererkennung Produktlinie aufbauen',
     ],
-    titleTag: 'Muster-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Muster-Arbeitsblätter mit 9 Mustertypen und thematischen Bildern erstellen. Lösungsschlüssel, 2 Frageformate und druckfertige PDFs für Etsy und KDP-Verkauf.',
+    titleTag: 'Muster-Arbeitsblätter zum Verkauf | LCS',
+    metaDescription: 'Muster-Arbeitsblätter zum Verkaufen erstellen. 9 Mustertypen, thematische Bilder, automatische Lösungsschlüssel und druckfertige PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Mustererkennung-Arbeitsblätter',
+    title: 'Muster-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Erstellen thematischer, druckfertiger Mustererkennung-Arbeitsblätter, die Sie auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Mustererkennung ist eine der grundlegendsten Vor-Mathematik-Fähigkeiten, die Kinder entwickeln, und Arbeitsblätter dazu sind bei Eltern, Käufern und Selbststudiumprogrammen konstant nachgefragt. Dieser Leitfaden führt Sie durch den gesamten Erstellungsprozess mit dem Muster-Arbeitsblatt-Ersteller — von der Auswahl der Mustertypen und Frageformate bis zum Export druckfertiger PDFs mit automatischen Lösungsschlüsseln. Mit 9 verschiedenen Mustertypen von einfachen AB-Musterfolgen bis hin zu komplexen ABCD-Mustern können Sie Produkte für jede Altersgruppe von der Vorschule bis zur frühen Grundschule erstellen. Ob Sie Ihr erstes Druckprodukt veröffentlichen oder einen bestehenden Arbeitsblatt-Katalog erweitern — am Ende dieses Tutorials haben Sie fertige Produkte, die Sie listen können.',
+    description: 'Muster-Arbeitsblätter zum Verkaufen erstellen bedient eine ganzjährig stabile Nachfrage im Vorschul- und Grundschulbereich. Mustererkennung ist eine grundlegende Vor-Mathematik-Fähigkeit, und Eltern, Nachhilfezentren sowie Homeschool-Familien kaufen entsprechende Übungsblätter auf allen großen Marktplätzen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Muster-Arbeitsblatt-Ersteller: Sie wählen aus neun verschiedenen Mustertypen — von einfachen AB-Folgen bis zu komplexen ABCD-Mustern — konfigurieren zwei Frageformate und exportieren druckfertige PDFs mit automatischen Lösungsschlüsseln. Ein besonderer Vorteil dieser Produktkategorie: Mustererkennung-Arbeitsblätter nutzen ausschließlich Bilder, wodurch ein einzelnes Produkt ohne Übersetzung weltweit verkauft werden kann. Der Generator unterstützt über 100 Themen, sodass Sie aus einer Sitzung Dutzende einzigartiger Produkte für verschiedene Marktplatz-Suchanfragen erstellen können. Ob Sie Ihr erstes Druckprodukt listen oder einen bestehenden Katalog erweitern — am Ende dieser Anleitung haben Sie fertige Produkte zum Einstellen bereit.',
   },
 
   introduction: 'Mustererkennung ist die kognitive Fähigkeit, die allem mathematischen Denken zugrunde liegt. Bevor Kinder addieren, subtrahieren oder zielgerichtet zählen lernen, lernen sie Muster zu erkennen — was als Nächstes kommt, was fehlt, was sich wiederholt. Diese Fähigkeit überträgt sich direkt auf Algebra, Zahlenfolgen, Geometrie und logisches Denken. Diese grundlegende Bedeutung erzeugt eine anhaltende Nachfrage nach Muster-Arbeitsblättern in jeder Altersgruppe von der Vorschule bis zur zweiten Klasse.\n\nWas Muster-Arbeitsblätter als Druckprodukt besonders stark macht, ist ihre universelle visuelle Natur. Anders als Arbeitsblätter mit sprachabhängigen Inhalten nutzen Mustererkennung-Aktivitäten ausschließlich Bilder. Ein Kind in Deutschland löst dasselbe AB-Muster aus Katzen und Hunden wie ein Kind in Brasilien. Das bedeutet, ein einzelnes Produkt bedient Käufer in jedem Markt ohne Übersetzung oder Lokalisierung — ein erheblicher Vorteil für Verkäufer, die internationale Kataloge aufbauen.\n\nDer Muster-Arbeitsblatt-Ersteller übernimmt die Komplexität für Sie. Er unterstützt 9 Mustertypen von einfachen 2-Bild-AB-Musterfolgen bis zu fortgeschrittenen 4-Bild-ABCD-Mustern, bietet zwei Frageformate (offenes Leerfeld-Format und Auswahl-Format), randomisiert Leerfeldpositionen und Startelemente für Abwechslung und generiert automatische Lösungsschlüssel. Sie konzentrieren sich auf die Produktstrategie — welche Mustertypen Sie anvisieren, welche Themen Sie verwenden, wie Sie nach Schwierigkeit bündeln — während der Generator Layout, Mustergenauigkeit und Druckformatierung übernimmt.\n\nAlle in diesem Leitfaden erwähnten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Arbeitsblätter erstellen, jeden Mustertyp und jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

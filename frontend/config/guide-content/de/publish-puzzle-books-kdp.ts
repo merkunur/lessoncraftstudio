@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rätselbücher auf amazon kdp veröffentlichen',
+    primaryKeyword: 'Rätselbücher auf Amazon KDP veröffentlichen',
     secondaryKeywords: [
-      'Rätselbücher auf Amazon KDP veröffentlichen Anleitung',
-      'KDP Rätselbuch Veröffentlichung Leitfaden',
-      'Wortsuchbücher für Amazon erstellen',
-      'Amazon KDP Kreuzworträtsel Sudoku Rätselbücher',
+      'KDP Rätselbuch erstellen Wortsuche Kreuzworträtsel',
+      'Variety Rätselbuch gemischte Formate KDP',
+      'Rätselbuch-Serie Amazon Bände aufbauen',
+      'Sudoku und Wortsuche Bücher KDP Anleitung',
     ],
     lsiKeywords: [
-      'Wortsuche Kreuzworträtsel Sudoku Rätselbuch Innenseiten',
-      'Rätselbuch Seitenzahl Schwierigkeitssteigerung Lösungsteil',
-      'KDP Variety Rätselbuch gemischte Rätseltypen Formatierung',
-      'Amazon Rätselbuch Keywords Kategorien Erwachsene Kinder Markt',
-      'Print-on-Demand Rätsel Katalog Serien Bände Nummerierung',
-      'Rätselgitter Abstände Buchformat Lösungsschlüssel Anhang',
+      'Rätselgitter Abstände Buchformat Lösungsteil',
+      'Schwierigkeitssteigerung Leicht Mittel Schwer Progression',
+      'dualer Markt Erwachsene Kinder Rätselbücher',
     ],
-    titleTag: 'Rätselbücher auf Amazon KDP veröffentlichen — Leitfaden',
-    metaDescription: 'Rätselbücher auf KDP veröffentlichen: Wortsuche, Kreuzworträtsel und Sudoku formatieren. Variety-Bücher, Serienaufbau und Amazon-Optimierung. Verleger-Guide.',
+    titleTag: 'Rätselbücher auf Amazon KDP veröffentlichen | LCS',
+    metaDescription: 'Rätselbücher auf Amazon KDP veröffentlichen: Wortsuche, Kreuzworträtsel und Sudoku formatieren, Variety-Bücher erstellen und Serien für langfristigen Umsatz.',
   },
 
   hero: {
-    title: 'Rätselbücher auf Amazon KDP veröffentlichen',
+    title: 'Rätselbücher auf Amazon KDP veröffentlichen — Anleitung',
     tagline: 'Ein vollständiger Leitfaden zum Erstellen und Veröffentlichen von Rätselbüchern auf Amazon KDP — mit Wortsuche, Kreuzworträtsel, Sudoku, Mathe-Rätseln und visuellen Rätseltypen, Aufbau von Einzeltyp- und Variety-Rätselbüchern, rätselspezifischer Formatierung für den Druck mit ausreichendem Gitterabstand und Lösungsteilen, dem dualen Markt für Erwachsene und Kinder, Amazon-Keyword-Optimierung für Rätselsuchanfragen, Schwierigkeitssteigerung über Leicht-Mittel-Schwer-Abschnitte, Aufbau mehrbändiger Rätselbuchserien und Katalogstrategien, die Amazons Cross-Promotion nutzen, um den Umsatz über Ihr gesamtes Rätselbuch-Sortiment zu steigern',
-    description: 'Rätselbücher gehören zu den größten und beständig profitabelsten Kategorien auf Amazon KDP. Im Gegensatz zu Mathe-Aktivitätsbüchern, die hauptsächlich Eltern und Käufer kleiner Kinder ansprechen, bedienen Rätselbücher einen riesigen dualen Markt — Erwachsene, die Wortsuche-, Kreuzworträtsel- und Sudoku-Bücher als tägliche Unterhaltung genießen, sowie Kinder, die sich mit visuellen Rätseln, Bilderpfaden und thematischen Wortsuchspielen beschäftigen. Dieser Leitfaden führt Sie durch die Erstellung professioneller Rätselbücher — von der Inhaltsgenerierung bis zur Amazon-Veröffentlichung — mit besonderem Augenmerk auf das, was Rätselbücher von anderen Aktivitätsbuch-Kategorien unterscheidet: höhere Seitenzahlen, die Wahl zwischen Einzeltyp- und Variety-Formaten, rätselspezifische Formatierungsanforderungen und die bandbasierte Katalogstrategie, die langfristigen KDP-Umsatz generiert.',
+    description: 'Rätselbücher auf Amazon KDP veröffentlichen — dieser Leitfaden führt Sie durch den gesamten Prozess von der Inhaltserstellung bis zur Katalogstrategie. Rätselbücher gehören zu den profitabelsten KDP-Kategorien und bedienen einen dualen Markt: Erwachsene, die Wortsuche, Kreuzworträtsel und Sudoku als tägliche Unterhaltung genießen, sowie Kinder mit visuellen Rätseln und thematischen Wortspielen. Sie erfahren, wie Sie Einzeltyp- und Variety-Formate erstellen, rätselspezifische Formatierungsanforderungen für sauberen Druck mit ausreichendem Gitterabstand erfüllen, Schwierigkeitsstufen über Leicht-Mittel-Schwer-Abschnitte sinnvoll staffeln und mehrbändige Serien aufbauen, die das starke Wiederholungskaufverhalten von Rätsel-Enthusiasten nutzen. Der Leitfaden behandelt außerdem die bandbasierte Katalogstrategie, die Amazons Cross-Promotion-Mechanismen für maximalen Umsatz über Ihr gesamtes Sortiment aktiviert.',
   },
 
   introduction: 'Rätselbücher gehören durchgehend zu den meistverkauften Kategorien auf Amazon KDP. Allein die Wortsuche-Kategorie generiert jeden Monat Tausende neuer Titel, und Kreuzworträtsel-, Sudoku- und Variety-Rätselbücher verzeichnen das ganze Jahr über eine stetige Nachfrage. Was Rätselbücher für KDP-Verleger besonders attraktiv macht, ist das duale Publikum — Erwachsene kaufen Rätselbücher zur persönlichen Unterhaltung, Entspannung und als Gehirntraining, während Eltern und Käufer sie für das Lernen und die Beschäftigung von Kindern kaufen. Das bedeutet, dass Ihre potenzielle Kundenbasis deutlich größer ist als bei Kategorien, die nur eine Zielgruppe bedienen.\n\nDie Wirtschaftlichkeit von Rätselbüchern unterscheidet sich in wichtigen Punkten von anderen KDP-Aktivitätsbuch-Kategorien. Rätselbücher haben typischerweise höhere Seitenzahlen — 60 bis 120 Seiten sind Standard im Vergleich zu 40 bis 80 bei Mathe-Aktivitätsbüchern — weil Käufer eine beträchtliche Anzahl an Rätseln pro Buch erwarten. Jedes Rätsel beansprucht für die Benutzerfreundlichkeit eine volle Seite, sodass ein Wortsuchbuch mit 100 Rätseln mindestens 100 Aktivitätsseiten plus Vorspann, Anleitungen und einen Lösungsteil benötigt. Höhere Seitenzahlen erhöhen die Druckkosten, aber sie rechtfertigen auch höhere Verkaufspreise, die bei strategischer Preisgestaltung starke Tantiemen pro Verkauf erzielen können.\n\nRätselbücher eignen sich außerdem auf natürliche Weise für bandbasiertes Veröffentlichen. Ein Wortsuche-Enthusiast, der Band 1 durchgearbeitet hat, ist ein bereiter Käufer für Band 2, Band 3 und darüber hinaus. Diese Wiederholungskauf-Dynamik ist bei Rätselbüchern stärker als bei fast jeder anderen KDP-Kategorie, weil Rätsel im Druck nur einmal lösbar sind — einmal gelöst, kann ein Rätsel nicht wiederholt werden. Dieser eingebaute Verbrauchszyklus bedeutet, dass Ihr Katalog mit jedem neuen Titel wertvoller wird, da wiederkehrende Kunden mehrere Bände kaufen.\n\nDieser Leitfaden konzentriert sich speziell auf das, was die Veröffentlichung von Rätselbüchern einzigartig macht. Für KDP-Grundlagen wie Manuskript-Formatierungsspezifikationen, Cover-Maßberechnungen, Tantiemenstufen und allgemeine Amazon-Listing-Praktiken verweisen wir auf den Leitfaden für Mathe-Aktivitätsbücher auf KDP, der diese grundlegenden Themen ausführlich behandelt. Hier konzentrieren wir uns auf rätselspezifische Inhaltsstrategie, die Wahl zwischen Einzeltyp- und Variety-Formaten, Formatierungsbesonderheiten für Rätselgitter und den Katalogaufbau-Ansatz, der den langfristigen Umsatz aus der Rätselbuch-Veröffentlichung maximiert.',

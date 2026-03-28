@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'groß-klein-generator',
+    primaryKeyword: 'Größenvergleich-Arbeitsblätter für Etsy erstellen',
     secondaryKeywords: [
-      'druckbare Groß-und-Klein-Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Größenvergleich-Arbeitsblatt-Generator für KDP-Verleger',
-      'Größenunterscheidungs-Arbeitsblätter auf Gumroad verkaufen',
-      'Groß-Klein-Vergleichs-Druckvorlagen kommerzielle Lizenz',
+      'Größenvergleich-Arbeitsblätter erstellen für Etsy',
+      'Groß-Klein-Generator für KDP-Übungshefte',
+      'Größenunterscheidung Druckvorlagen verkaufen Etsy-Shop',
+      'Groß-Klein-Vergleichs-Arbeitsblätter Printable-Business',
     ],
     lsiKeywords: [
-      'digitale Größenvergleich-Druckvorlagen skalierbares Einkommen',
-      'Druckvorlagen-Geschäft visuelle Größenunterscheidung-Übungen',
-      'kommerzieller Groß-Klein-Arbeitsblatt-Generator mit Lösungsschlüssel',
+      'Frühförderungshefte Amazon KDP Größenvergleich',
+      'Druckvorlagen-Geschäft Größenunterscheidung Einnahmen',
+      'fünf Fragetypen zwei Bildmodi Lösungsschlüssel',
     ],
-    titleTag: 'Groß-Klein-Generator | Größenvergleich-Übungen',
-    metaDescription: 'Größenvergleich-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Fünf Fragetypen, 104 Themen, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Größenvergleich-Arbeitsblätter für Etsy | LCS',
+    metaDescription: 'Größenvergleich-Arbeitsblätter für Etsy erstellen — fünf Fragetypen, zwei Bildmodi, 104 Themen mit Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Groß-Klein-Arbeitsblatt-Generator für Größenvergleichs-Übungen',
+    title: 'Größenvergleich-Arbeitsblätter erstellen für Etsy-Verkäufer',
     tagline: 'Fünf Fragetypen — Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummerierung aufsteigend, Nummerierung absteigend — mit identischen und verschiedenen Bildmodi für visuelle Größenunterscheidung.',
     description:
-      'Erstellen Sie professionelle Größenvergleich-Arbeitsblätter, bei denen Lernende thematische Bilder in verschiedenen Größen betrachten und bestimmen, welches größer, kleiner oder mittelgroß ist, oder sie der Größe nach ordnen — vom Kleinsten zum Größten oder vom Größten zum Kleinsten. Fünf verschiedene Fragetypen decken jede Größenunterscheidungs-Fähigkeit ab: Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummeriere 1–2–3 Klein nach Groß und Nummeriere 1–2–3 Groß nach Klein. Die Einkreis-Fragetypen trainieren die Identifikation einzelner Elemente, während die Nummerierungs-Fragetypen die Sortierungsfähigkeit entwickeln — zusammen bilden sie eine natürliche Schwierigkeitsprogression von einfacher Erkennung bis zur mehrstufigen Anordnung. Zwei Bildmodi erzeugen grundsätzlich verschiedene Übungsarten: Der Identische-Bilder-Modus zeigt dasselbe Bild in verschiedenen Größen für reine Größenwahrnehmung, während der Verschiedene-Bilder-Modus unterschiedliche Objekte für relatives Größen-Denken zeigt. Das Umschalten zwischen diesen beiden Modi verdoppelt Ihre Produktvielfalt aus demselben Werkzeug heraus. Konfigurieren Sie 1–10 Übungen pro Seite mit 2 oder 3 Bildern pro Übung — zwei Bilder für einfachere Vergleiche, drei für schwierigere Aufgaben mit einer mittleren Option. Jedes Arbeitsblatt ist vollständig visuell mit null Text auf der Ausgabe, sodass es universell verwendbar ist, unabhängig von Sprache oder Lesekompetenz. Vorschulkinder, Fremdsprachenlernende und Förderschüler absolvieren die Übungen ohne ein einziges Wort lesen zu müssen. Für Verkäufer bedeutet dieses textfreie Format einen erheblichen Wettbewerbsvorteil: Ein einziges Produkt bedient jeden internationalen Markt ohne Übersetzungsaufwand. Die Inhalte stammen aus der integrierten Bildbibliothek mit über 3.100 Illustrationen in 104 Themen — Tiere, Lebensmittel, Fahrzeuge, Natur, Berufe, Feiertage und Dutzende mehr. Jedes Thema bietet ein koordiniertes Set von Bildern, die visuell in Größenvergleichs-Übungen zusammenwirken. Ein automatisch generierter Lösungsschlüssel hebt die richtigen Antworten zur sofortigen Überprüfung hervor und wird als separate Datei neben dem Arbeitsblatt heruntergeladen. Die Vollzugriff-Lizenz schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen. Wichtig: Der Groß-Klein-Generator ist nicht sprachabhängig — die Arbeitsblätter enthalten ausschließlich Bilder und visuelle Indikatoren ohne jeglichen Text, sodass dasselbe Arbeitsblatt weltweit ohne Übersetzung verkauft werden kann. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftung des Generators, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 farbige Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Ob Sie Größenvergleich-Pakete auf Etsy.de verkaufen, Frühförderungshefte für Amazon KDP zusammenstellen oder gestufte visuelle Lernstationen für den Gumroad erstellen — der Groß-Klein-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Größenvergleich-Arbeitsblätter mit dem Groß-Klein-Generator und verkaufen Sie professionelle Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Fünf Fragetypen decken jede Größenunterscheidung ab: Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummeriere Klein-nach-Groß und Nummeriere Groß-nach-Klein. Zwei Bildmodi verdoppeln Ihre Produktvielfalt — identische Bilder in verschiedenen Größen oder verschiedene Bilder für relatives Größen-Denken. Konfigurieren Sie 1 bis 10 Übungen pro Seite. Die Inhalte stammen aus über 3.100 Illustrationen in 104 Themen, und ein Lösungsschlüssel wird automatisch generiert. Das textfreie Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
   howItWorks: {

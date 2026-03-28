@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'muster-zug-generator',
+    primaryKeyword: 'Muster-Übungen erstellen für Printable-Business',
     secondaryKeywords: [
-      'druckbare Muster-Zug-Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Sequenzmuster-Arbeitsblatt-Generator für KDP-Verleger',
-      'Musterfolge-Arbeitsblätter auf Gumroad verkaufen',
-      'Muster-Zug-Druckvorlagen kommerzielle Lizenz',
+      'Muster-Übungen erstellen für Etsy verkaufen',
+      'Muster-Zug-Generator für KDP-Übungshefte',
+      'Musterfolge-Arbeitsblätter Printable-Business',
+      'Sequenzmuster-Druckvorlagen Etsy-Shop erstellen',
     ],
     lsiKeywords: [
-      'digitale Musterfolge-Druckvorlagen skalierbares Einkommen',
-      'Druckvorlagen-Geschäft visuelle Sequenz-Muster-Übungen',
-      'kommerzieller Muster-Zug-Arbeitsblatt-Generator mit Lösungsschlüssel',
+      'Frühförderungshefte Amazon KDP Musterübungen',
+      'Druckvorlagen-Geschäft Musterfolge passive Einnahmen',
+      'Zug-Arbeitsblätter fünf Mustertypen Lösungsschlüssel',
     ],
-    titleTag: 'Muster-Zug-Generator | Musterfolge-Übungen',
-    metaDescription: 'Musterfolge-Zug-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Fünf Mustertypen, 11 Waggons, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Muster-Zug-Generator für Printable-Business | LCS',
+    metaDescription: 'Muster-Übungen erstellen für Ihr Printable-Business — fünf Mustertypen auf thematischen Zugwaggons mit Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Muster-Zug-Arbeitsblatt-Generator für Musterfolge-Übungen',
+    title: 'Muster-Zug-Arbeitsblätter erstellen für Etsy und KDP',
     tagline: 'Fünf Mustertypen — AB, AAB, ABB, ABC, AABB — dargestellt auf 11 thematischen Zugwaggons mit einstellbarer Hinweisanzahl von 4 bis 10 für präzise Schwierigkeitskontrolle.',
     description:
-      'Erstellen Sie professionelle Mustererkennungs-Arbeitsblätter, bei denen Lernende sich wiederholende Bildfolgen auf einem thematischen Zug mit 11 Waggons erkennen und vervollständigen. Fünf verschiedene Mustertypen decken jede Stufe der Sequenz-Komplexität ab: AB wechselt zwei Elemente ab, AAB gruppiert zwei eines Elements gefolgt von einem anderen, ABB kehrt diese Gruppierung um, ABC rotiert drei verschiedene Elemente, und AABB paart je zwei jedes Elements vor der Wiederholung. Das Zug-Layout ordnet 11 Waggons in drei Reihen an (5 + 3 + 3), wobei jeder Waggon ein Bild aus der sich wiederholenden Musterfolge enthält. Ein Waggon bleibt leer — Lernende identifizieren das Muster und bestimmen das fehlende Element. Passen Sie die Hinweisanzahl von 4 bis 10 an, um die Schwierigkeit zu steuern: 10 sichtbare Hinweise machen das Muster offensichtlich, während nur 4 Hinweise echtes Muster-Denken erfordern, da die ersten 3 Waggons immer sichtbar sind. Die Inhalte stammen aus der integrierten Bildbibliothek mit über 3.100 Illustrationen in 104 Themen. Ein separater Lösungsschlüssel-Tab zeigt alle 11 Waggons ausgefüllt mit der richtigen Musterfolge zur sofortigen Überprüfung. Die Vollzugriff-Lizenz schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Exportieren Sie druckfertige PDFs und JPEGs mit hoher DPI-Auflösung (6-facher Multiplikator) in Letter, A4, Quadrat oder benutzerdefinierten Größen. Jedes Arbeitsblatt ist vollständig visuell mit ausschließlich Bildern auf Zugwaggons und null Text auf der Ausgabe, sodass Produkte universell ohne Übersetzung verkauft werden können. Wichtig: Der Muster-Zug-Generator ist nicht sprachabhängig — die Arbeitsblätter enthalten ausschließlich Bilder ohne jeglichen Text, sodass dasselbe Arbeitsblatt weltweit ohne Übersetzung verkauft werden kann. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsprache, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 farbige Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Für Verkäufer bedeutet dieses textfreie Zug-Format einen doppelten Wettbewerbsvorteil: Erstens hebt sich das unverwechselbare Zugwaggon-Layout in Marktplatz-Suchergebnissen sofort von gitterbasierten Konkurrenzprodukten ab. Zweitens bedient ein einziges Produkt jeden internationalen Markt ohne Übersetzungsaufwand — das maximiert Ihren Ertrag pro erstelltem Arbeitsblatt und minimiert den laufenden Pflegeaufwand für Ihr Druckvorlagen-Portfolio. Die zwei unabhängigen Schwierigkeitsachsen — Mustertyp und Hinweisanzahl — erzeugen eine große Produktmatrix: Fünf Mustertypen multipliziert mit sieben Hinweisstufen ergeben 35 verschiedene Schwierigkeitskombinationen, jeweils verfügbar in 104 Themen. Ob Sie Musterfolge-Pakete auf Etsy.de verkaufen, Frühförderungshefte für Amazon KDP zusammenstellen oder gestufte Mathe-Lernstationen für den Gumroad erstellen — der Muster-Zug-Arbeitsblatt-Generator liefert einzigartige Zug-Format-Produkte in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Muster-Übungen mit dem Muster-Zug-Generator und verkaufen Sie einzigartige Arbeitsblätter auf Etsy, Amazon KDP oder Gumroad. Fünf Mustertypen — AB, AAB, ABB, ABC, AABB — erscheinen auf 11 thematischen Zugwaggons, wobei ein Waggon leer bleibt und das fehlende Element bestimmt werden muss. Steuern Sie die Schwierigkeit über die Hinweisanzahl von 4 bis 10. Die Produktmatrix aus fünf Mustertypen und sieben Hinweisstufen erzeugt 35 Schwierigkeitskombinationen — verfügbar in 104 Themen mit über 3.100 Illustrationen. Das textfreie Zug-Format hebt sich sofort von gitterbasierten Konkurrenzprodukten ab und ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Lösungsschlüssel wird automatisch generiert. Exportieren Sie druckfertige PDFs und JPEGs. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
   howItWorks: {

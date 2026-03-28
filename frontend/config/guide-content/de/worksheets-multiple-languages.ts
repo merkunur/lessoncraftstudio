@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblätter in mehreren Sprachen erstellen',
+    primaryKeyword: 'Arbeitsblätter in mehreren Sprachen verkaufen',
     secondaryKeywords: [
-      'mehrsprachige Arbeitsblatt-Erstellung',
-      'Arbeitsblätter übersetzen zum Verkaufen',
-      'mehrsprachige Druckvorlagen-Produktion',
-      'internationales Arbeitsblatt-Design',
+      'mehrsprachige Arbeitsblätter produzieren Workflow',
+      'Druckvorlagen übersetzen und verkaufen',
+      'Zeichensatz-Handhabung mehrsprachige Printables',
+      'Qualitätssicherung internationale Arbeitsblätter',
     ],
     lsiKeywords: [
-      'sprachspezifische Formatierung Zeichensätze diakritische Zeichen Schriftauswahl für Sprachen',
-      'deutsche Umlaute französische Akzente spanische Zeichen Sonderzeichen Zeichensatz-Unterstützung',
-      'Produktions-Workflow mehrsprachige Stapelübersetzung Muttersprachler-Review Qualitätssicherung',
-      'lokalisierte Angebotskopie internationaler Druckvorlagen-Workflow mehrsprachige Inhalts-Tools',
-      'RTL-Layout Textlängenvariation zusammengesetzte Wörter kulturelle Anpassung Arbeitsblatt-Lokalisierung',
-      'Stapelverarbeitung mehrsprachige Inhaltsgenerierung automatisierte Übersetzungs-Tools Vokabeldatenbanken',
+      'diakritische Zeichen Schriftauswahl Sonderzeichen Textlängenvariation Lokalisierung',
+      'Stapelverarbeitung Produktions-Workflow Muttersprachler-Review kulturelle Anpassung',
+      'zusammengesetzte Wörter lokalisierte Angebotskopie internationaler Druckvorlagen-Markt',
     ],
-    titleTag: 'Arbeitsblätter in mehreren Sprachen erstellen — Leitfaden',
-    metaDescription: 'Arbeitsblätter in mehreren Sprachen erstellen mit Produktions-Workflows, Zeichensatz-Handhabung, Schriftauswahl, Qualitätssicherung und Angebots-Anpassung.',
+    titleTag: 'Arbeitsblätter mehrsprachig verkaufen | LCS',
+    metaDescription: 'Arbeitsblätter in mehreren Sprachen verkaufen: Produktions-Workflows, Zeichensatz-Handhabung, Qualitätssicherung und Listing-Optimierung für jeden Markt.',
   },
 
   hero: {
-    title: 'Arbeitsblätter in mehreren Sprachen erstellen',
+    title: 'Arbeitsblätter mehrsprachig produzieren und verkaufen',
     tagline: 'Ein praktischer Leitfaden zur mehrsprachigen Arbeitsblatt-Produktion — von der Auswahl sprachgerechter Arbeitsblatttypen über die Einrichtung eines mehrsprachigen Arbeitsbereichs, den Umgang mit Sonderzeichen und Schriftarten, die natürliche Inhaltsanpassung für jeden Markt, die Implementierung von Übersetzungs-Qualitätssicherung, den Einsatz automatisierter mehrsprachiger Tools, den Aufbau effizienter Stapelverarbeitungs-Workflows bis hin zur Optimierung von Marktplatz-Angeboten für internationale Käufer',
-    description: 'Arbeitsblätter in mehreren Sprachen zu erstellen bedeutet nicht einfach, Text durch einen Übersetzer zu schicken. Professionelle mehrsprachige Produktion erfordert Verständnis für Zeichensätze, Schriftkompatibilität, Textlängenvariationen, kulturellen Kontext und Qualitätssicherungsprozesse, die gewährleisten, dass jede Sprachversion denselben Standard wie Ihr Original erfüllt. Dieser Leitfaden führt durch die komplette Produktionsmethodik für Arbeitsblätter, die in jeder Zielsprache professionell aussehen und sich professionell lesen.',
+    description: 'Arbeitsblätter in mehreren Sprachen verkaufen erfordert mehr als Text durch einen Übersetzer zu schicken — unprofessionelle Ergebnisse mit fehlenden Umlauten oder falschen Akzenten werden von Muttersprachlern sofort erkannt und ignoriert. Professionelle mehrsprachige Produktion verlangt systematisches Verständnis für Zeichensätze, Schriftkompatibilität, Textlängenvariationen und kulturellen Kontext jeder Zielsprache. Sie erfahren in diesem Leitfaden die komplette Produktionsmethodik: von der Auswahl sprachgerechter Arbeitsblatttypen über die korrekte Handhabung von Umlauten, Akzenten und Sonderzeichen bis zur Implementierung von Qualitätssicherungsprozessen, die Fehler vor der Veröffentlichung erkennen. Außerdem lernen Sie, wie Sie effiziente Stapelverarbeitungs-Workflows einrichten, automatisierte mehrsprachige Tools nutzen und Ihre Listings für internationale Käufer auf Etsy, Amazon KDP und Gumroad optimieren.',
   },
 
   introduction: 'Der Unterschied zwischen einem mehrsprachigen Arbeitsblatt, das sich verkauft, und einem, das auf einem Marktplatz ignoriert wird, ist die Produktionsqualität. Käufer in jedem Sprachmarkt können sofort erkennen, ob Arbeitsblätter nachlässig übersetzt oder ohne Beachtung sprachspezifischer Formatierungsanforderungen produziert wurden. Ein deutsches Arbeitsblatt mit fehlenden Umlauten, ein französisches Arbeitsblatt mit falschen Akzentzeichen oder ein spanisches Arbeitsblatt mit unbeholfener Formulierung signalisieren allesamt Amateurqualität — und Käufer übergehen sie zugunsten von Produkten, die echte Sprachkompetenz demonstrieren.\n\nDiese Qualitätslücke ist tatsächlich eine Chance. Weil so viele Verkäufer mehrsprachige Arbeitsblätter schlecht produzieren, ist die Hürde zum Herausstechen überraschend erreichbar. Sie müssen kein Muttersprachler in jeder Sprache sein, um professionelle Arbeitsblätter zu produzieren. Was Sie brauchen, ist eine systematische Produktionsmethodik, die die spezifischen technischen und sprachlichen Herausforderungen jeder Zielsprache adressiert, kombiniert mit Tools und Prozessen, die Fehler erkennen, bevor Ihre Produkte Käufer erreichen.\n\nDie praktischen Herausforderungen der mehrsprachigen Arbeitsblatt-Produktion fallen in mehrere Kategorien. Erstens gibt es Zeichensatz-Anforderungen — verschiedene Sprachen verwenden unterschiedliche Alphabete, diakritische Zeichen und Sonderzeichen, die in Ihren gewählten Schriftarten korrekt dargestellt werden müssen. Zweitens gibt es Formatierungsherausforderungen — deutsche zusammengesetzte Wörter sind deutlich länger als ihre englischen Entsprechungen, was die Textfeldgröße und das Layout beeinflusst. Drittens gibt es sprachliche Qualitätsprobleme — direkte Übersetzungen erzeugen oft unbeholfene Formulierungen, die Muttersprachler sofort bemerken. Und viertens gibt es Marktplatz-Herausforderungen — jeder Sprachmarkt hat seine eigenen Suchbegriffe, Käufererwartungen und Angebotskonventionen.\n\nDieser Leitfaden adressiert jede dieser Herausforderungen mit konkreten, umsetzbaren Produktions-Workflows. Sie lernen, wie Sie Arbeitsblatttypen auswählen, die zu Ihren Sprachfähigkeiten passen, einen organisierten mehrsprachigen Arbeitsbereich einrichten, die von jeder Sprache benötigten Zeichensätze und Schriftarten handhaben, Inhalte so anpassen, dass sie natürlich klingen statt wie eine Übersetzung, Qualitätssicherungsprozesse implementieren, die Fehler vor der Veröffentlichung erkennen, Tools nutzen, die mehrsprachige Inhalte automatisch generieren, effiziente Stapelverarbeitungssysteme aufbauen und Marktplatz-Angebote erstellen, die bei Käufern in jedem Sprachmarkt ankommen. Das Ziel ist ein wiederholbares Produktionssystem, mit dem Sie konsistent professionelle Arbeitsblätter in jeder Zielsprache erstellen können.',

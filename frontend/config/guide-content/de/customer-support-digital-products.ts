@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kundensupport digitale Produkte',
+    primaryKeyword: 'Kundenservice für digitale Produkte',
     secondaryKeywords: [
-      'Kundenservice digitale Produkte',
-      'Druckvorlagen-Geschäft Support',
-      'Kundenbeschwerden Arbeitsblätter bearbeiten',
-      'digitale Downloads Support',
+      'Support-System Druckvorlagen-Geschäft aufbauen',
+      'Rückerstattungen digitale Downloads handhaben',
+      'FAQ-System Printable-Shop erstellen',
+      'Bewertungsmanagement Etsy-Verkäufer Strategie',
     ],
     lsiKeywords: [
-      'Supportanfragen-Verwaltung Rückerstattung FAQ-Seite Käuferkommunikation Antwortvorlagen',
-      'Kundenzufriedenheit Download-Fehlerbehebung Dateiformat-Support Druckanweisungen',
-      'Marktplatz-Nachrichten Support-Automatisierung proaktive Dokumentation Selbstbedienungs-Support',
-      'Kundenbindung Bewertungsmanagement Produktbeschreibungen Klarheit Erwartungsmanagement',
-      'Support-Prävention häufige Probleme Lösungszeit professionelle Kommunikation',
-      'skalierbare Support-Systeme Vorlagenbibliotheken Musterverfolgung Feedback-Schleifen',
+      'Supportanfragen-Verwaltung Antwortvorlagen Selbstbedienungs-Support proaktive Dokumentation',
+      'Download-Fehlerbehebung Erwartungsmanagement Kundenbindung professionelle Kommunikation',
+      'skalierbare Support-Systeme Feedback-Schleifen Musterverfolgung Support-Prävention',
     ],
-    titleTag: 'Kundensupport digitale Produkte — Leitfaden',
-    metaDescription: 'Lernen Sie Kundensupport-Strategien für digitale Produkte: Problemprävention, Antwortvorlagen, Rückerstattungen, Bewertungsmanagement und skalierbare Systeme.',
+    titleTag: 'Kundenservice für digitale Produkte | LCS',
+    metaDescription: 'Kundenservice für digitale Produkte: Problemprävention, Antwortvorlagen, Rückerstattungen und skalierbare Support-Systeme für Ihren Printable-Shop auf Etsy.',
   },
 
   hero: {
-    title: 'Kundensupport für digitale Produktgeschäfte',
+    title: 'Kundenservice für digitale Produkte professionell aufbauen',
     tagline: 'Ein umfassender Leitfaden zum Aufbau effektiver Support-Systeme für Ihr Druckvorlagen-Geschäft — von den häufigsten Supportproblemen bei digitalen Produkten über die Vermeidung von Supportanfragen durch bessere Dokumentation, den Aufbau von Self-Service-FAQ-Systemen, die Erstellung von Antwortvorlagen, den professionellen Umgang mit Rückerstattungen, die Nutzung von Support zur Geschäftsverbesserung, das konstruktive Management von Bewertungen bis hin zur Skalierung des Supports bei wachsendem Katalog',
-    description: 'Kundensupport für digitale Produkte unterscheidet sich grundlegend vom Support für physische Produkte. Es gibt keine Lieferverzögerungen, keine beschädigten Pakete und keine Größenprobleme. Stattdessen bearbeiten Verkäufer digitaler Produkte Download-Probleme, Dateiformat-Verwirrung, Druckfragen und Erwartungsabweichungen. Die gute Nachricht ist, dass die meisten Supportprobleme bei digitalen Produkten vermeidbar sind — mit klaren Produktbeschreibungen, umfassenden FAQs und proaktiver Dokumentation können Sie die Mehrheit der Supportanfragen eliminieren, bevor sie entstehen. Dieser Leitfaden bietet ein praktisches Kundensupport-Framework speziell für Druckvorlagen-Verkäufer, das Präventionsstrategien, Antwortsysteme und skalierbare Prozesse abdeckt, die Qualität auch bei wachsendem Katalog aufrechterhalten.',
+    description: 'Kundenservice für digitale Produkte unterscheidet sich grundlegend vom Support für physische Waren. Statt Lieferverzögerungen bearbeiten Sie Download-Probleme, Dateiformat-Verwirrung und Druckfragen — typische Herausforderungen beim Verkauf von Arbeitsblättern und Druckvorlagen auf Etsy, Amazon KDP und Eduki. Die gute Nachricht: Die meisten Supportprobleme sind mit den richtigen Systemen vermeidbar. Sie erfahren in diesem Leitfaden, wie Sie mit klaren Produktbeschreibungen, professionellen Druckanleitungen und umfassenden FAQs die Mehrheit der Anfragen eliminieren, bevor sie entstehen. Außerdem lernen Sie, Antwortvorlagen in Deutsch und Englisch zu erstellen, die Ihre Reaktionszeit auf Minuten verkürzen, Rückerstattungen professionell handhaben und Bewertungen konstruktiv nutzen. Das Ziel ist ein skalierbares Support-System, das auch bei wachsendem Katalog funktioniert, ohne proportional mehr Zeit zu beanspruchen.',
   },
 
   introduction: 'Kundensupport ist einer der am meisten unterschätzten Aspekte beim Betrieb eines digitalen Produktgeschäfts. Viele Druckvorlagen-Verkäufer konzentrieren sich ausschließlich auf Produkterstellung und Marketing und behandeln Support als Nebensache, die sie klären, wenn Fragen eintreffen. Dieser reaktive Ansatz führt zu inkonsistenten Antworten, verschwendeter Zeit, frustrierten Käufern und negativen Bewertungen, die hätten verhindert werden können.\n\nDie Realität ist, dass Kundensupport jeden wichtigen Geschäftskennwert für Verkäufer digitaler Produkte direkt beeinflusst. Bewertungen sind der sichtbarste Effekt — eine einzige negative Bewertung aufgrund eines Support-Versagens kann den Umsatz stärker reduzieren als Dutzende positive Bewertungen ihn steigern. Käufer, die exzellenten Support erhalten, werden zu Stammkunden und hinterlassen positive Bewertungen. Käufer, die mit ungelösten Problemen kämpfen, hinterlassen negative Bewertungen, die dauerhaft in Ihren Listings verbleiben. Auf Plattformen wie Etsy und Gumroad sind Ihre Verkäuferbewertung und Ihr Bewertungsprofil primäre Faktoren sowohl für das Suchranking als auch für das Käufervertrauen.\n\nDigitale Produkte erzeugen eine spezifische Reihe von Support-Herausforderungen, die sich von physischen Produkten unterscheiden. Käufer können ein digitales Produkt vor dem Kauf nicht so untersuchen, wie sie einen physischen Artikel im Geschäft in die Hand nehmen können. Sie verlassen sich vollständig auf Ihre Produktbeschreibungen, Vorschaubilder und Bewertungen anderer Käufer, um Erwartungen zu setzen. Wenn diese Erwartungen nicht mit dem tatsächlichen Produkt übereinstimmen — selbst wenn das Produkt ausgezeichnet ist — entsteht eine Support-Interaktion. Die Download-Zustellung fügt eine weitere Ebene hinzu: Käufer wissen möglicherweise nicht, wie sie auf Dateien zugreifen, bestimmte Formate öffnen oder große Downloads handhaben. Das Drucken erzeugt zusätzliche Fragen zu Papierformat, Farbeinstellungen und Skalierungsoptionen, die bei physischen Produkten nicht existieren.\n\nDie effektivste Kundensupport-Strategie für digitale Produktgeschäfte ist Prävention. Jede Supportanfrage, die Sie durch bessere Dokumentation, klarere Beschreibungen und proaktive Anleitung verhindern, spart Zeit, die Sie für die Produkterstellung nutzen können. Prävention verbessert auch die Käufererfahrung — ein Käufer, der klare Antworten findet, ohne Sie kontaktieren zu müssen, ist zufriedener als ein Käufer, der eine Frage stellen und auf eine Antwort warten musste, selbst wenn diese Antwort hilfreich und schnell war.\n\nDieser Leitfaden deckt ein vollständiges Kundensupport-Framework für Druckvorlagen-Verkäufer ab: häufige Probleme verstehen, Supportanfragen durch bessere Produktdokumentation verhindern, Self-Service-Systeme aufbauen, Antwortvorlagen für Effizienz erstellen, Rückerstattungen strategisch handhaben, Support-Daten zur Geschäftsverbesserung nutzen, Bewertungen professionell managen und Support-Prozesse bei wachsendem Produktkatalog skalieren. Das Ziel ist es, ein Support-System aufzubauen, das die Kundenzufriedenheit steigert und gleichzeitig die Zeit reduziert, die Sie für einzelne Support-Interaktionen aufwenden.',

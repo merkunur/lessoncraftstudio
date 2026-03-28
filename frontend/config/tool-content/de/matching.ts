@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'zuordnungs-generator',
+    primaryKeyword: 'kostenloser Zuordnungs-Arbeitsblatt Ersteller',
     secondaryKeywords: [
-      'Zuordnungs-Ersteller für Verkäufer',
-      'Paare-Verbinden-Arbeitsblätter online erstellen und verkaufen',
-      'druckbare Zuordnungs-Aktivitäten kommerziell erstellen',
-      'Zuordnungs-Generator mit vier Modi und automatischem Lösungsschlüssel für KDP',
+      'Zuordnungs-Arbeitsblätter kostenlos erstellen',
+      'Paare-Verbinden-Generator online ohne Anmeldung',
+      'kostenlose Zuordnungs-Aktivitäten mit Lösungsschlüssel',
+      'Zuordnungs-Arbeitsblatt Maker mit vier Modi kostenlos',
     ],
     lsiKeywords: [
-      'Vier-Modi Paare-Verbinden-Arbeitsblatt-Tool',
-      'Auto-Lösungsschlüssel Zuordnungs-Aktivitäten-Generator',
-      'Anfangsbuchstaben Bild-Wort Zuordnungs-Ersteller',
+      'Anfangsbuchstaben Bild-Wort Zuordnung',
+      'Paare-Verbinden Arbeitsblatt Generator',
+      'Zuordnungs-Aktivitäten mit Lösungsschlüssel',
     ],
-    titleTag: 'Zuordnungs-Generator | Paare-Verbinden-Ersteller',
-    metaDescription: 'Zuordnungs-Arbeitsblätter mit 4 Modi und automatischem Lösungsschlüssel erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit.',
+    titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Maker | LCS',
+    metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt Ersteller: Paare-Verbinden mit vier Modi und Lösungsschlüssel erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Zuordnungs-Arbeitsblatt-Ersteller',
+    title: 'Zuordnungs-Arbeitsblätter kostenlos erstellen online',
     tagline: 'Vier-Modi Zuordnungs-Arbeitsblatt-Generator mit Anfangsbuchstabe, Bild+Wort, Mischung und Eigenes Wort, automatisch generiertem Lösungsschlüssel mit Verbindungslinien, konfigurierbarer Paaranzahl, lokalisierter \"Finde die Paare!\"-Überschrift in 11 Sprachen und 104 thematischen Bildsammlungen für Zuordnungs-Aktivitäten, die weltweit verkaufen',
-    description: 'Erstellen Sie professionelle Zuordnungs-Arbeitsblätter, bei denen Lernende Paare verbinden, indem sie Linien zwischen zwei Spalten ziehen — mit vier verschiedenen Zuordnungsmodi in einem einzigen Generator. Der Anfangsbuchstaben-Modus platziert Bilder links und ihre Anfangsbuchstaben rechts, mit drei Untermodi: Zufälliges Thema und Bilder wählt Thema und Bilder automatisch, Zufällig aus gewähltem Thema lässt Sie das Thema bestimmen, und Bestimmte Bilder auswählen gibt Ihnen manuelle Kontrolle über jedes Bild. Schalten Sie zwischen Groß- und Kleinbuchstaben-Anzeige um für altersgerechte Arbeitsblätter. Der Bild+Wort-Modus zeigt beschriftete Bildpaare auf beiden Seiten für Wortschatzaufbau. Der Bild/Wort-Mischungs-Modus verwendet Dropdown-Selektoren pro Zeile, sodass jede Seite unabhängig ein Bild oder ein Wort anzeigen kann und unterschiedliche Schwierigkeitsgrade innerhalb eines Arbeitsblatts entstehen. Der Eigenes-Wort-Modus paart Bilder mit Ihren eigenen eingetippten Zuordnungsbegriffen für Rechtschreibübungen, Vokabeltests oder Fremdsprachenübungen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt (Standard 6) für flexible Schwierigkeitsgrade und visuelle Dichte. Schalten Sie Elementnummern (Standard EIN) und Aufzählungspunkte (Standard EIN) unabhängig voneinander um für volle Kontrolle über die visuelle Struktur. Jedes Arbeitsblatt enthält eine automatisch generierte lokalisierte \"Finde die Paare!\"-Überschrift mit gelbem Pillen-Hintergrund (#FFD700), korallenrotem Rahmen (#FF7F50, 8px Strichstärke), Titel in Fredoka (700) und Beschreibung in Quicksand (500), automatisch übersetzt in alle 11 unterstützten Sprachen. Das Doppel-Canvas-System generiert gleichzeitig ein Arbeitsblatt-Tab und ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeichnet horizontale Verbindungslinien (#555, Strichstärke 2) zwischen den korrekten Paaren, sodass Sie ihn niemals manuell erstellen müssen. Dieser Generator ist sprachabhängig: die Modi Anfangsbuchstabe und Bild+Wort verwenden lokalisierte Bildnamen, sodass ein Sprachwechsel die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt ändert. Durchstöbern Sie 104 Themensammlungen mit über 3.100 Illustrationen. Wenden Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schritt 0,05) an. Fügen Sie Namens- und Datumsfelder mit einem einzigen Kontrollkästchen hinzu. Exportieren Sie vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI. Wählen Sie Letter, A4, Quadrat (1200×1200) oder benutzerdefinierte Seitengrößen mit Graustufen-Umschaltung für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit 7 Schriftarten, Textumriss 0–10, Ausrichtungswerkzeugen, Ebenen, Sperren/Entsperren, Zoom 25 %–300 % und Rückgängig/Wiederherstellen bis zu 20 Zustände. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Zuordnungs-Arbeitsblätter kostenlos mit unserem Zuordnungs-Arbeitsblatt Ersteller — direkt im Browser, ohne Anmeldung und ohne Software-Download. Vier verschiedene Zuordnungsmodi decken jeden Anwendungsfall ab: Anfangsbuchstaben-Modus paart Bilder mit ihren Anfangsbuchstaben, Bild+Wort-Modus zeigt beschriftete Bildpaare für Wortschatzaufbau, der Mischungs-Modus kombiniert Bilder und Wörter flexibel, und Eigenes-Wort-Modus paart Bilder mit Ihren eigenen Begriffen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt für flexible Schwierigkeitsgrade. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit Verbindungslinien zwischen korrekten Paaren. Über 3.100 Illustrationen aus 104 Themensammlungen stehen zur Verfügung. Exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },
 
   tutorial: {

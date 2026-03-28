@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraktions-arbeitsblatt-generator',
+    primaryKeyword: 'Minusaufgaben Arbeitsblätter Generator zum Verkaufen',
     secondaryKeywords: [
-      'druckbare Subtraktions-Arbeitsblätter für Etsy',
-      'Subtraktions-Aktivitätsbücher für Amazon KDP',
-      'Subtraktions-Arbeitsblätter auf Gumroad verkaufen',
-      'Subtraktions-Druckvorlagen kommerzielle Lizenz',
+      'Subtraktionsaufgaben für Etsy-Shop erstellen',
+      'Minusrechnen Druckvorlagen für Amazon KDP',
+      'Bildbasierte Subtraktionsaufgaben gewerbliche Lizenz',
+      'Rechenblätter zum Verkauf auf Eduki erstellen',
     ],
     lsiKeywords: [
-      'digitale Mathe-Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Arbeitsblätter',
-      'kommerzieller Arbeitsblatt-Generator',
+      'Durchstreich-Modus Minusaufgaben druckfertig',
+      'Mathe-Druckvorlagen Subtraktions-Generator DACH',
+      'Lösungsschlüssel Graustufen kommerzielle Nutzung',
     ],
-    titleTag: 'Subtraktions-Arbeitsblatt-Generator | Durchstreich-Modus',
+    titleTag: 'Minusaufgaben-Generator — Auf Etsy verkaufen | LCS',
     metaDescription:
-      'Subtraktions-Arbeitsblätter mit Durchstreich-Modus erstellen und verkaufen. 4 Modi, 104 Themen, Lösungsschlüssel, Graustufen, 400+ DPI. Kostenlos testen.',
+      'Erstellen Sie Minusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Themenbilder, Lösungsschlüssel, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Subtraktions-Arbeitsblatt-Generator mit Durchstreich-Visualisierung',
+    title: 'Minusaufgaben-Arbeitsblätter erstellen und online verkaufen',
     tagline: 'Machen Sie Subtraktion greifbar mit bildbasierten Arbeitsblättern, bei denen Kinder Bilder durchstreichen, um die Antwort zu finden.',
     description:
-      'Erstellen Sie ansprechende bildbasierte Subtraktions-Arbeitsblätter, die Abziehen durch eine kraftvolle visuelle Methode vermitteln: durchgestrichene Bilder. Nutzer sehen eine Bildergruppe und beobachten, wie diagonale X-Markierungen durch die abgezogenen Elemente gezeichnet werden — so wird das abstrakte Konzept des \"Wegnehmens\" konkret und intuitiv. Wählen Sie aus vier Übungsmodi — Durchstreichen, Bild − Zahl, Subtrahend finden und Gemischt — um das Lernen von der Vorschule bis zur zweiten Klasse zu begleiten. Stöbern Sie durch über 3.100 kuratierte Illustrationen in 104 Themen wie Dinosaurier, Meerestiere und Fahrzeuge. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Ein integrierter Graustufen-Schalter erzeugt tintenfreundliche Schwarz-Weiß-Versionen mit einem Klick. Ob Sie thematische Pakete auf Etsy verkaufen, Aktivitätsbücher auf Amazon KDP veröffentlichen oder Übungsblätter für Ihren eigenen Shop drucken — der Subtraktions-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Verwandeln Sie Subtraktionsaufgaben in ein verkaufsfähiges Produkt — mit einem Generator, der speziell für Printable-Unternehmer entwickelt wurde. Erstellen Sie bildbasierte Minusaufgaben mit thematischen Illustrationen aus über 100 Kategorien, exportieren Sie als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel und verkaufen Sie auf Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz ist bei jedem Arbeitsblatt inklusive. Besonders profitabel: Kombinieren Sie Plus- und Minusaufgaben zu Paketen — Verkäufer berichten von deutlich höheren Durchschnittsbestellwerten bei mathematischen Bundle-Angeboten auf Etsy. Der deutschsprachige Markt bietet enormes Potenzial bei minimaler Konkurrenz. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'versteckte-objekte-generator',
+    primaryKeyword: 'Suchbilder-Generator Etsy KDP verkaufen',
     secondaryKeywords: [
-      'druckbarer Suchbild-Generator für Etsy-Verkäufer',
-      'Versteckte-Objekte-Ersteller für KDP-Verleger',
-      'Ich-sehe-was-Arbeitsblatt-Generator kommerzielle Lizenz',
-      'Welches-passt-nicht-Arbeitsblätter auf Etsy.de und Amazon verkaufen',
+      'Versteckte-Objekte-Arbeitsblätter erstellen für Etsy',
+      'Ich-sehe-was-Generator für KDP-Arbeitsbücher',
+      'Was-passt-nicht-Druckvorlagen verkaufen',
+      'Suchbild-Ersteller kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Suchbild-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Versteckte-Objekte-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft visuelle Suchaktivitäten Werkzeuge',
+      'Printable-Business visuelle Suchaktivitäten erstellen',
+      'Suchbilder Druckvorlagen Einkommensquelle',
+      'versteckte Objekte Arbeitsblatt Generator Etsy',
     ],
-    titleTag: 'Versteckte-Objekte-Generator | Suchbilder',
-    metaDescription: 'Versteckte-Objekte-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Suchbild- und Was-passt-nicht-Modus, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Suchbilder-Generator für Etsy und KDP | LCS',
+    metaDescription: 'Suchbilder-Generator für Etsy und KDP verkaufen. Ich-sehe-was und Was-passt-nicht Modi, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Versteckte-Objekte-Generator für Ich-sehe-was- und Welches-passt-nicht-Aktivitäten',
+    title: 'Suchbilder-Generator — Druckvorlagen für Etsy und KDP',
     tagline: 'Zwei Aktivitätsmodi in einem Generator — Ich-sehe-was-Suchszenen mit überlappungsfreier Platzierung und Welches-passt-nicht-Reihen mit gepaarten Bildern — mit automatisch generierten Lösungsschlüsseln, adaptiver Bildgrößenanpassung, Namens- und Datumsfeldern und einer Legende am Seitenende.',
     description:
-      'Erstellen Sie professionelle Versteckte-Objekte-Arbeitsblätter, bei denen in einer verteilten Bilderszene bestimmte Objekte gesucht und eingekreist werden. Wählen Sie zwischen zwei Aktivitätsmodi: Der Ich-sehe-was-Modus verwendet einen überlappungsfreien Platzierungsalgorithmus, um 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite zu verteilen — kein Raster, keine Zeilen und Spalten, sondern eine zusammenhängende Suchszene, generiert durch den findBestPosition()-Algorithmus, der 50 zufällige Positionen pro Bild testet und die Bildgröße adaptiv reduziert, wenn der Platz knapp wird. Eine Legende am unteren Rand des Arbeitsblatts (120px Abstand) zeigt genau, welche Objekte gefunden werden müssen. Der Welches-passt-nicht-Modus ordnet 8–12 gepaarte Bilder in Reihen an, mit 1–5 unpaaren Elementen dazwischen — die Aufgabe ist, Bilder ohne passenden Partner zu identifizieren. Bilder im Welches-passt-nicht-Modus sind 50 % größer als im Ich-sehe-was-Modus für deutlicheren visuellen Vergleich. Das Dual-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeichnet rote Kreise um versteckte Objekte (Ich sehe was) oder unpaare Elemente (Welches passt nicht), 3–5px größer als das Objekt, für deutliche Sichtbarkeit. Der Versteckte-Objekte-Generator ist rein visuell: Die Spracheinstellung beeinflusst nur die Oberflächenbeschriftungen (Buttons, Panel-Titel, Tooltips), NICHT den Arbeitsblatt-Inhalt selbst. Jedes generierte Arbeitsblatt funktioniert universell in jeder Sprache ohne lokalisierten Text auf der Seite — ein Produkt, das weltweit in jedem Markt verkauft werden kann, ohne Anpassungen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen (~300 Bilder); Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Aktivieren Sie Namens- und Datumsfelder für Geschäftseinsatz, passen Sie den automatisch angepassten Header mit 6 Schriftarten an und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu. Ob Sie thematische Suchbild-Pakete auf Etsy.de verkaufen, Ich-sehe-was-Arbeitsbücher für Amazon KDP zusammenstellen oder Welches-passt-nicht-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Versteckte-Objekte-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Suchbilder erstellen und als Druckvorlagen auf Etsy oder in KDP-Arbeitsbüchern verkaufen? Dieser Generator bietet zwei Aktivitätsmodi: Der Ich-sehe-was-Modus verteilt 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite — überlappungsfrei platziert durch einen intelligenten Algorithmus, der 50 Positionen pro Bild testet. Der Was-passt-nicht-Modus ordnet gepaarte Bilder in Reihen an, wobei unpaare Elemente identifiziert werden müssen. Beide Modi generieren automatisch einen Lösungsschlüssel mit roten Markierungen. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand — ein Produkt für jeden Markt weltweit. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

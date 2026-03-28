@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mathe-rätsel-generator',
+    primaryKeyword: 'Mathe-Rätsel-Generator zum Verkaufen auf Etsy',
     secondaryKeywords: [
-      'druckbare Bilder-Puzzle-Mathe-Arbeitsblätter für Etsy',
-      'Rechenrätsel-Generator für KDP-Verleger',
-      'Mathe-Puzzle-Arbeitsblätter auf Gumroad verkaufen',
-      'Mathe-Puzzle-Druckvorlagen kommerzielle Lizenz',
-      'Bilderpuzzle-Rechenaufgaben erstellen',
+      'Mathe-Puzzle-Arbeitsblätter für Etsy-Shop erstellen',
+      'Bilderpuzzle-Rechenrätsel für Amazon KDP',
+      'Mathe-Rätsel-Druckvorlagen gewerbliche Lizenz',
+      'Rechenrätsel-Generator für Eduki verkaufen',
+      'Puzzle-Mathe-Arbeitsblätter für Online-Verkauf',
     ],
     lsiKeywords: [
-      'digitale Mathe-Rätsel-Produkte skalierbares Einkommen',
-      'Puzzle-Arbeitsblatt-Geschäft Druckvorlagen',
-      'kommerzieller Mathe-Puzzle-Generator',
+      'Bilderpuzzle Rechenaufgaben druckfertig 300 DPI',
+      'Mathe-Rätsel Arbeitsblattgenerator DACH-Markt',
+      'Lösungsschlüssel Themenbilder Puzzle kommerzielle Nutzung',
     ],
-    titleTag: 'Mathe-Rätsel-Generator | Puzzle-Druckvorlagen',
-    metaDescription: 'Mathe-Rätsel-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Bilderpuzzle mit Addition, Subtraktion, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mathe-Rätsel-Generator zum Verkaufen | LCS',
+    metaDescription: 'Mathe-Rätsel mit Bilderpuzzle erstellen und auf Etsy & KDP verkaufen. Addition, Subtraktion, gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Mathe-Rätsel-Arbeitsblatt-Generator für bildbasiertes Problemlösen',
+    title: 'Mathe-Rätsel erstellen und auf Etsy & KDP verkaufen',
     tagline: 'Verbinden Sie Mathe-Übungen mit Puzzle-Spannung — jedes Teil enthält eine Aufgabe, jede Lösung enthüllt das Bild.',
     description:
-      'Erstellen Sie fesselnde Mathe-Rätsel-Arbeitsblätter, bei denen ein vollständiges Bild in ein Raster aus Puzzleteilen aufgeteilt wird — jedes Teil enthält eine Additions- oder Subtraktionsaufgabe. Die Nutzer lösen die Rechenaufgaben und ordnen dann die nummerierten Antworten den durchmischten Puzzleteilen unter dem Raster zu — so wird routinemäßiges Rechnen zu einem visuellen Rätsel. Konfigurieren Sie die Rastergröße von 2×2 bis 4×4, um Puzzles mit 4 bis 16 Teilen zu erstellen, und wählen Sie zwischen Addition, Subtraktion oder gemischten Rechenoperationen für jedes Niveau. Wählen Sie aus über 3.100 kuratierten Illustrationen in 104 Themen wie Bauernhoftiere, Weltraum, Dinosaurier und Feiertage, um jedes Puzzle einzigartig zu gestalten. Jedes Arbeitsblatt generiert automatisch einen Lösungsschlüssel, der das gelöste Raster neben dem vollständigen Bild zeigt. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Ob Sie thematische Puzzle-Pakete auf Etsy.de verkaufen, progressive Aktivitätsbücher für Amazon KDP zusammenstellen oder interaktive Mathe-Stationen für Ihr Shop erstellen — der Mathe-Rätsel-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Mit dem Mathe-Rätsel-Generator zum Verkaufen auf Etsy erstellen Sie Puzzle-Arbeitsblätter, die Rechnen und Bildermotivation in einem einzigartigen Format verbinden — ein vollständiges Bild wird in Puzzleteile zerlegt, und jedes Teil enthält eine Rechenaufgabe. Käufer lösen Addition, Subtraktion oder gemischte Aufgaben und setzen so Stück für Stück das Motiv zusammen. Rastergrößen von 2×2 bis 4×4 ergeben 4 bis 16 Teile pro Puzzle — perfekt für progressive Schwierigkeitspakete auf Etsy oder mehrseitige Aktivitätsbücher für Amazon KDP. Über 3.100 Illustrationen in 104 Themen sorgen für endlose Abwechslung, und der automatische Lösungsschlüssel spart Ihnen stundenlange Handarbeit. Exportieren Sie druckfertige PDFs mit über 400 DPI und verkaufen Sie Ihre Mathe-Puzzles mit der gewerblichen Lizenz auf allen gängigen Marktplätzen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

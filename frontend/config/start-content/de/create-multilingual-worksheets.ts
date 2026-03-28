@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'mehrsprachiger Arbeitsblatt-Generator',
+    primaryKeyword: 'Arbeitsblätter in mehreren Sprachen erstellen verkaufen',
     secondaryKeywords: [
       'Arbeitsblätter in mehreren Sprachen erstellen',
       'mehrsprachige druckbare Arbeitsblätter',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'internationales Druckvorlagen-Geschäft',
       'Arbeitsblätter auf Etsy.de Etsy.fr verkaufen',
     ],
-    titleTag: 'Mehrsprachiger Arbeitsblatt-Generator — 11 Sprachen',
-    metaDescription: 'Arbeitsblätter in 11 Sprachen erstellen und auf internationalen Märkten verkaufen. Deutsche, französische und spanische Käufer auf Etsy und KDP erreichen.',
+    titleTag: 'Mehrsprachige Arbeitsblätter verkaufen | LCS',
+    metaDescription: 'Arbeitsblätter in 11 Sprachen erstellen und international verkaufen. Mehrsprachige Druckvorlagen für Etsy.de, Amazon.fr und weitere Märkte profitabel nutzen.',
   },
 
   hero: {
-    title: 'Arbeitsblätter in 11 Sprachen erstellen',
+    title: 'Mehrsprachige Arbeitsblätter erstellen und verkaufen',
     tagline: 'Internationale Käufer auf Etsy und Amazon KDP mit professionell lokalisierten Arbeitsblatt-Inhalten erreichen — keine Übersetzungskenntnisse erforderlich',
-    description: 'Die meisten Druckvorlagen-Verkäufer konkurrieren ausschließlich auf dem englischsprachigen Markt und ignorieren Millionen von Käufern, die auf Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch und in anderen Sprachen suchen. Dieser Leitfaden zeigt Ihnen, wie Sie mehrsprachige Arbeitsblatt-Generatoren nutzen, um authentische, sprachspezifische Inhalte für 11 Sprachen zu erstellen und sie auf internationalen Marktplätzen zu verkaufen. Sie lernen den entscheidenden Unterschied zwischen sprachsensitiven und rein visuellen Generatoren, verstehen die Marktchancen in jeder unterstützten Sprache und entwickeln eine systematische Strategie zur internationalen Expansion Ihres Druckvorlagen-Geschäfts.',
+    description: 'Arbeitsblätter in mehreren Sprachen erstellen und verkaufen ist der schnellste Weg, Ihr Druckvorlagen-Geschäft international zu skalieren. Die meisten Verkäufer konkurrieren ausschließlich auf dem englischsprachigen Markt und ignorieren Millionen von Käufern auf Amazon.de, Etsy.de, Amazon.fr und weiteren regionalen Marktplätzen. Dieser Leitfaden zeigt Ihnen, wie Sie mehrsprachige Generatoren nutzen, um authentische Inhalte für 11 Sprachen zu erstellen — ohne Übersetzungskosten und ohne Fremdsprachenkenntnisse. Sie lernen den entscheidenden Unterschied zwischen sprachsensitiven und rein visuellen Generatoren, verstehen die konkreten Marktchancen jeder Sprache von Deutsch über Französisch bis Finnisch und entwickeln eine systematische Expansionsstrategie, die ein Arbeitsblatt-Design in bis zu 11 eigenständige Produkte verwandelt. Der DACH-Markt allein bietet enormes Potenzial bei deutlich geringerem Wettbewerb als der englischsprachige Raum.',
   },
 
   introduction: 'Der englischsprachige Druckvorlagen-Markt auf Etsy und Amazon KDP ist überfüllt. Tausende Verkäufer konkurrieren um dieselben Keywords, drücken die Preise und machen Sichtbarkeit zunehmend schwieriger. Gleichzeitig haben die deutschen, französischen, spanischen, portugiesischen und italienischen Märkte nur einen Bruchteil dieser Konkurrenz — und Millionen aktiver Käufer, die in ihrer Muttersprache nach Lern-Arbeitsblättern, Rätselbüchern und Aktivitätsseiten suchen.\n\nDies ist keine hypothetische Chance. Amazon.de, Amazon.fr, Amazon.es, Amazon.it, Etsy.de und Etsy.fr sind etablierte Marktplätze, auf denen Eltern und Käufer aktiv nach lokalisierten Bildungsinhalten suchen. Verkäufer, die authentische mehrsprachige Arbeitsblätter anbieten — keine maschinell übersetzten Nebenlösungen — dominieren diese Märkte, weil sich so wenige Konkurrenten die Mühe machen, sie zu bedienen.\n\nDie Herausforderung war schon immer die Produktion. Arbeitsblätter in einer Sprache zu erstellen, die Sie nicht sprechen, erfordert entweder teure Übersetzungsdienste oder unzuverlässige automatisierte Übersetzung. Arbeitsblatt-Generatoren, die mehrere Sprachen unterstützen, beseitigen diese Hürde vollständig. Die Übersetzungen sind in das System integriert — Vokabeln, Wortlisten, Hinweise und Beschriftungen in allen 11 unterstützten Sprachen — sodass Sie professionelle mehrsprachige Inhalte mit demselben Workflow erstellen, den Sie bereits für Englisch verwenden.\n\nDieser Leitfaden behandelt jeden Aspekt des mehrsprachigen Druckvorlagen-Geschäfts: welche Generator-Typen sprachspezifische Inhalte produzieren, welche Märkte die stärksten Chancen bieten, wie Sie international auf Etsy und Amazon KDP listen und verkaufen, und wie Sie eine mehrsprachige Katalogstrategie aufbauen, die sich mit der Zeit potenziert.\n\nJeder in diesem Leitfaden erwähnte Generator bietet eine kostenlose Testversion mit Wasserzeichen, sodass Sie die mehrsprachige Ausgabe in jeder unterstützten Sprache testen können, bevor Sie eine kommerzielle Lizenz erwerben.',

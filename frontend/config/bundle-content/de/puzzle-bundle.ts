@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'rätsel & logik',
+    primaryKeyword: 'Logik-Rätsel-Generatoren für KDP Rätselbücher',
     secondaryKeywords: [
       'Rätsel-Arbeitsblatt-Generatoren-Paket für Verkäufer',
       'druckbare Logik-Rätsel-Toolkit kommerzielle Nutzung',
@@ -15,14 +15,14 @@ const content: BundleContent = {
       'kommerzielle Lizenz Rätsel-Arbeitsblätter',
       'Rätsel-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Rätsel & Logik — 4-Generatoren-Paket',
-    metaDescription: 'Rätsel-Paket mit 4 Generatoren: Fehlende Puzzleteile, Was passt nicht, Bilder-Sudoku und Labyrinthe. Verkaufen auf Etsy, KDP und Gumroad mit Lizenz.',
+    titleTag: 'Logik-Rätsel-Bundle für KDP Bücher | LCS',
+    metaDescription: 'Logik-Rätsel-Generatoren-Bundle mit 4 Apps für KDP-Rätselbücher. Fehlende Puzzleteile, Odd-One-Out, Bilder-Sudoku und Labyrinthe — rein visuell, weltweit.',
   },
 
   hero: {
-    title: 'Rätsel-&-Logik-Paket',
+    title: 'Logik-Rätsel-Generatoren-Bundle für KDP-Rätselbücher',
     tagline: 'Vier rein visuelle Rätsel-Generatoren — räumliches Denken, logisches Schlussfolgern und Problemlösung in jedem Arbeitsblatt',
-    description: 'Das Rätsel-&-Logik-Paket ist das einzige Paket, bei dem jede einzelne App rein visuelle Arbeitsblätter erzeugt. Kein Text, keine Sprachabhängigkeit, keine Übersetzung nötig — jedes Arbeitsblatt funktioniert in jedem Land, jeder Sprache, jedem Markt. Dieses Paket vereint vier spezialisierte Rätsel-Generatoren, die höhere kognitive Fähigkeiten trainieren: räumliches Denken mit Fehlende-Puzzleteile-Raster-Rätseln, visuelle Unterscheidung mit Was-passt-nicht-Herausforderungen, logisches Schlussfolgern mit 4x4-Kinder-Sudoku und Problemlösung mit Bilderpfad-Labyrinthen. Alle vier Generatoren erzeugen automatische Lösungsschlüssel — das einzige Paket mit 100% Lösungsschlüssel-Abdeckung über jede App. Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien mit konfigurierbaren Schwierigkeitseinstellungen und thematischen Bildbibliotheken. Die Rätsel- und Logik-Arbeitsblatt-Kategorie ist eines der am schnellsten wachsenden Segmente auf Etsy.de und Amazon KDP, weil diese Aktivitäten eine breitere Altersgruppe ansprechen als einfache Fähigkeitsübungen — vom Kindergarten bis zur dritten Klasse und darüber hinaus. Der Fehlende-Puzzleteile-Generator teilt Bilder in Rastersegmente und entfernt Teile, die Nutzer identifizieren müssen. Der Was-passt-nicht-Generator zeigt Reihen von Bildern, in denen ein Element von den übrigen abweicht. Der Kinder-Sudoku-Generator verwendet ein 4x4-Raster mit thematischen Bildern statt Zahlen und macht das klassische Sudoku für kleine Kinder zugänglich, die noch nicht mit Ziffern arbeiten können. Der Bilderpfad-Generator bietet drei verschiedene Labyrinth-Modi: Pfadmodus, Klassisches Labyrinth und Pfad-Auswahl. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene PNG- und JPEG-Dateien für markenspezifische, nischenorientierte Produkte hoch. Ob Sie Rätselbücher auf Amazon KDP, Aktivitätspakete auf Etsy.de oder Logik-Pakete auf dem Gumroad verkaufen — dieses Paket gibt Ihnen vier verschiedene Rätseltypen, nach denen Käufer unabhängig suchen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
+    description: 'Dieses Logik-Rätsel-Generatoren-Bundle ist das einzige Bundle, bei dem jede App rein visuelle Arbeitsblätter erzeugt — kein Text, keine Sprachabhängigkeit, jedes Arbeitsblatt funktioniert weltweit ohne Übersetzung. Vier spezialisierte Generatoren trainieren höhere kognitive Fähigkeiten: Fehlende-Puzzleteile für räumliches Denken, Was-passt-nicht für visuelle Unterscheidung, 4x4-Kinder-Sudoku mit Bildern statt Zahlen für logisches Schlussfolgern und Bilderpfad-Labyrinthe mit drei Modi für Problemlösung. Alle vier erzeugen automatische Lösungsschlüssel — 100% Abdeckung über jede App. Konfigurierbare Schwierigkeitseinstellungen und über 100 thematische Bildsets ermöglichen grenzenlose Produktvielfalt. Die Rätsel-Kategorie wächst auf Etsy.de und Amazon KDP besonders stark, weil diese Aktivitäten vom Kindergarten bis zur dritten Klasse ansprechen. Ob Rätselbücher auf KDP, Aktivitätspakete auf Etsy.de oder Logik-Pakete auf Gumroad — dieses Paket gibt Ihnen vier verschiedene Rätseltypen, nach denen Käufer unabhängig suchen. Kostenlose Testversion mit Wasserzeichen verfügbar.',
   },
 
   appsIncluded: [

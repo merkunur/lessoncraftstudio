@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'was-passt-nicht-generator',
+    primaryKeyword: 'Was-passt-nicht-Rätsel erstellen für Etsy und KDP',
     secondaryKeywords: [
-      'druckbarer Ausreißer-Rätsel-Generator für Etsy-Verkäufer',
-      'Was-passt-nicht-Arbeitsblatt-Generator für KDP-Verleger',
-      'Ausreißer-Puzzle-Ersteller kommerzielle Lizenz',
-      'visuelle Unterscheidungs-Arbeitsblätter auf Gumroad verkaufen',
+      'Was-passt-nicht-Rätsel erstellen für Etsy verkaufen',
+      'Ausreißer-Rätsel-Generator für KDP-Rätselbücher',
+      'visuelle Unterscheidungs-Druckvorlagen Printable-Business',
+      'Was-passt-nicht-Arbeitsblätter Etsy-Shop erstellen',
     ],
     lsiKeywords: [
-      'digitale Was-passt-nicht-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Ausreißer-Rätsel-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft visuelle Unterscheidung Werkzeuge',
+      'Rätselbücher Amazon KDP Ausreißer veröffentlichen',
+      'Druckvorlagen-Geschäft visuelle Rätsel Einnahmen',
+      'Identisch-Modus Ähnlich-Modus 104 Themen',
     ],
-    titleTag: 'Was-Passt-Nicht-Generator | Ausreißer-Rätsel',
-    metaDescription: 'Was-passt-nicht-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Identisch- und Ähnlich-Modus, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Was-passt-nicht-Rätsel Generator für Etsy | LCS',
+    metaDescription: 'Was-passt-nicht-Rätsel erstellen für Etsy und KDP — Identisch- und Ähnlich-Modus, rein visuelle Rätsel in 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Was-Passt-Nicht-Generator für Ausreißer-Rätsel',
+    title: 'Was-passt-nicht-Rätsel erstellen für Etsy-Druckvorlagen',
     tagline: 'Zwei Erzeugungsmodi — Identisch und Ähnlich — mit Modus-Überschreibung pro Übung, 5–10 konfigurierbaren Übungen, automatisch generierten Lösungsschlüsseln mit roten Kreismarkierungen und rein visuellen Rätseln, die in allen 11 Sprachen ohne Übersetzung funktionieren.',
     description:
-      'Erstellen Sie professionelle Was-passt-nicht-Arbeitsblätter, bei denen das abweichende Bild in jeder Reihe von vier Bildern identifiziert und eingekreist werden muss. Wählen Sie zwischen zwei Erzeugungsmodi: Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema für Finde-den-Unterschied-Herausforderungen, während der Ähnlich-Modus drei Bilder aus Thema A und ein Bild aus Thema B für themenübergreifende Unterscheidungsrätsel verwendet. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Seite (Standard: 6) und aktivieren Sie optionale Name-und-Datum-Felder sowie Übungsnummern für unterrichtsfertige Formatierung. Jedes Arbeitsblatt generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab — der Lösungsschlüssel zeichnet einen roten Kreis um den Ausreißer in jeder Reihe, sodass Sie Antworten niemals manuell markieren müssen. Der automatisch generierte Header verwendet einen korallenroten äußeren Rahmen (#FF6B6B, 8px), einen bernsteinfarbenen inneren Rahmen (#FFB84D, 3px) und einen türkisfarbenen Hintergrund (#4ECDC4) mit dem lokalisierten Titel \"Finde den Ausreißer\" in Fredoka und Anweisungen in Quicksand über alle 11 Sprachen. Da die Rätsel vollständig visuell sind — keine Wörter erscheinen auf dem Arbeitsblatt selbst — sind sie NICHT sprachabhängig und funktionieren in jedem Land identisch. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Arbeitsbücher zur visuellen Unterscheidung für Amazon KDP zusammenstellen oder Rätsel-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Was-passt-nicht-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Was-passt-nicht-Rätsel mit dem Ausreißer-Generator und verkaufen Sie Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Zwei Erzeugungsmodi bieten unterschiedliche Herausforderungen: Identisch-Modus für Finde-den-Unterschied-Aufgaben und Ähnlich-Modus für thematische Ausreißer-Erkennung. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade auf einer Seite zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Arbeitsblatt mit automatischem Lösungsschlüssel mit roten Kreismarkierungen. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte. Das vollständig visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
   howItWorks: {

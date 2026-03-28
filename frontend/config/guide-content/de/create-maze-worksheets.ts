@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Labyrinth-Arbeitsblätter erstellen',
+    primaryKeyword: 'Labyrinth-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Labyrinth-Arbeitsblatt-Generator',
-      'druckbare Labyrinth-Aktivitätsblätter',
-      'Labyrinth-Rätsel für Kinder zum Verkaufen',
-      'individuelle Labyrinth-Arbeitsblätter mit Lösungsschlüssel',
+      'Labyrinth-Rätsel für Etsy produzieren',
+      'druckbare Labyrinth-Aktivitätsblätter kommerziell verkaufen',
+      'Labyrinth-Aktivitätsbuch auf KDP veröffentlichen',
+      'Labyrinth-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'Bilderpfad-Arbeitsblätter',
-      'räumliches Denken Aktivitäten für Kinder',
-      'druckbare Rätsel-Arbeitsblätter Etsy',
-      'Amazon KDP Labyrinth-Aktivitätsbücher',
-      'Labyrinth-Arbeitsblätter mit thematischen Bildern',
-      'kommerzielle Lizenz Labyrinth-Generator',
+      'Bilderpfad-Arbeitsblätter Etsy-Geschäft',
+      'räumliches Denken Printable Nische verkaufen',
+      'KDP Labyrinth-Aktivitätsbuch veröffentlichen',
     ],
-    titleTag: 'Labyrinth-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Labyrinth-Arbeitsblätter mit 3 Spielmodi und thematischen Bildern erstellen. Druckbare Aktivitätsblätter mit Lösungsschlüsseln für den Verkauf auf Etsy.',
+    titleTag: 'Labyrinth-Arbeitsblätter für Etsy | LCS',
+    metaDescription: 'Labyrinth-Arbeitsblätter zum Verkaufen erstellen. 3 Spielmodi, thematische Bilder und Lösungsschlüssel. Druckfertige Aktivitätsblätter für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Labyrinth-Arbeitsblätter und Aktivitätsblätter',
+    title: 'Labyrinth-Arbeitsblätter erstellen und auf Etsy verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Erstellen thematischer Labyrinth-Arbeitsblätter in drei verschiedenen Spielmodi — fertig zum Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Labyrinthe gehören zu den universell beliebtesten Rätselformaten für Kinder. Sie fördern räumliches Denken, Problemlösungsfähigkeiten und Geduld — und sie verkaufen sich konstant auf allen Druckvorlagen-Marktplätzen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bilderpfad-Labyrinth-Generator, der drei grundlegend verschiedene Spielmodi bietet: Bilderpfad für visuelles Pfadverfolgen, Klassisches Labyrinth für wandbasierte Navigation mit Sammelbilder-Zählung und Wähle den richtigen Weg für richtungsbezogene Entscheidungen. Jeder Modus erzeugt einen eigenständigen Produkttyp aus einem einzigen Werkzeug. Sie lernen, wie Sie Rastergrößen konfigurieren, thematische Bildrollen zuweisen, die Wandgestaltung anpassen und druckfertige PDFs mit automatischen Lösungsschlüsseln exportieren. Ob Sie Ihr erstes Labyrinth-Produkt erstellen oder einen Rätsel-Arbeitsblatt-Katalog erweitern — diese Anleitung behandelt jede Einstellung und Strategie, die Sie benötigen.',
+    description: 'Labyrinth-Arbeitsblätter zum Verkaufen erstellen ist besonders profitabel, weil der Generator drei grundlegend verschiedene Spielmodi bietet und damit die dreifache Katalogvielfalt aus einem einzigen Werkzeug ermöglicht. Labyrinthe gehören zu den universell beliebtesten Rätselformaten — sie fördern räumliches Denken, Problemlösung und Geduld und verkaufen sich konstant auf Etsy, Amazon KDP und Gumroad. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bilderpfad-Labyrinth-Generator: Bilderpfad für visuelles Pfadverfolgen, Klassisches Labyrinth für wandbasierte Navigation mit Sammelbilder-Zählung und Wähle den richtigen Weg für richtungsbezogene Entscheidungen. Sie lernen, wie Sie aus sechs Rastergrößen wählen, thematische Bildrollen zuweisen, Wandgestaltung anpassen und druckfertige PDFs mit automatischen Lösungsschlüsseln exportieren. Über 100 thematische Bildsets und umfangreiche Anpassungsmöglichkeiten ermöglichen Tausende einzigartiger Labyrinth-Variationen. Ob Sie Ihr erstes Labyrinth-Produkt auf Etsy listen oder einen Rätsel-Katalog systematisch erweitern — diese Anleitung behandelt jede Einstellung und Strategie, die Sie benötigen.',
   },
 
   introduction: 'Labyrinthe sprechen etwas Grundlegendes an, wie Kinder lernen. Einen Weg vom Start zum Ziel zu verfolgen erfordert räumliches Bewusstsein, vorausschauendes Planen und die Fähigkeit, sich von falschen Abzweigungen zu erholen — Fähigkeiten, die sich direkt auf Mathematik, Leseverständnis und reale Navigation übertragen. Diese praktische Tiefe macht Labyrinth-Arbeitsblätter zu einer starken Produktkategorie mit ganzjähriger Nachfrage von Eltern, Käufern und Selbststudiumzentren.\n\nWas den Bilderpfad-Labyrinth-Generator von einfachen Labyrinth-Werkzeugen unterscheidet, sind seine drei verschiedenen Spielmodi. Bilderpfad erstellt visuelle Pfadverfolgungsaktivitäten, bei denen Kinder eine Route zwischen thematischen Bildern nachzeichnen. Klassisches Labyrinth generiert traditionelle wandbasierte Labyrinthe mit Sammelbildern, die überall verteilt sind — und verbindet Navigationsfähigkeiten mit Zählübungen. Wähle den richtigen Weg präsentiert Richtungslabyrinthe mit mehreren Routenoptionen, von denen nur eine zum richtigen Ziel führt. Jeder Modus erzeugt ein grundlegend anderes Produkt, was Ihnen die dreifache Katalogvielfalt aus einem einzigen Generator ermöglicht.\n\nÜber die Moduswahl hinaus bietet der Generator umfangreiche Anpassungsmöglichkeiten: sechs Rastergrößen von 15×15 bis 20×20, konfigurierbare Pfadanzahl und -länge, Wandfarbe und -stärke, fünf verschiedene Bildrollen (Start, Ziel, Pfad, Ablenker, Dekoration) und über 100 thematische Bildsets. Das Ergebnis ist ein Werkzeug, das Tausende einzigartiger Labyrinth-Variationen erzeugen kann — jede davon ein potenzielles Produkt.\n\nJede in dieser Anleitung beschriebene Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Muster-Labyrinthe in allen drei Modi erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

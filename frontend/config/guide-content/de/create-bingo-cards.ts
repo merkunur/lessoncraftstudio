@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bingo-karten mit thematischen bildern erstellen',
+    primaryKeyword: 'Bilder-Bingo-Karten zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Bingo-Karten mit Bildern erstellen',
-      'Bingo-Karten-Generator für Kinder',
-      'druckbare Bingo-Karten zum Verkaufen',
-      'individueller Bilder-Bingo-Ersteller',
+      'Bingo-Karten-Sets für Etsy produzieren',
+      'druckbare Bingo-Karten kommerziell verkaufen',
+      'Bingo-Aktivitätsbuch auf KDP veröffentlichen',
+      'Bingo-Karten-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'thematische Bingo-Karten für den Produkterstellung',
-      'Party-Bingo druckbare Aktivitäten',
-      'Bingo-Karten auf Etsy verkaufen',
-      'Amazon KDP Bingo-Aktivitätsbücher',
-      'kommerzielle Lizenz Bingo-Tool',
-      'mehrere einzigartige Bingo-Karten Generator',
+      'thematische Bingo-Druckvorlagen Etsy-Geschäft',
+      'Party-Bingo Printable Nische verkaufen',
+      'KDP Bingo-Aktivitätsbuch mehrere Karten',
     ],
-    titleTag: 'Bingo-Karten mit thematischen Bildern erstellen — Anleitung',
-    metaDescription: 'Bingo-Karten mit thematischen Bildern erstellen. Rastergrößen wählen, einzigartige Karten generieren und PDFs zum Verkauf auf Etsy und Amazon KDP exportieren.',
+    titleTag: 'Bingo-Karten zum Verkaufen erstellen | LCS',
+    metaDescription: 'Bilder-Bingo-Karten zum Verkaufen erstellen. Rastergrößen wählen, einzigartige Karten mit Kontrollkarten generieren und druckfertige PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Bingo-Karten mit thematischen Bildern',
+    title: 'Bilder-Bingo-Karten erstellen und online verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Erstellen thematischer, druckfertiger Bingo-Karten mit Kontrollkarten, die Sie auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Bingo-Karten gehören zu den vielseitigsten druckbaren Produkten, die Sie erstellen können. Käufer nutzen sie für Vokabelübungen und Belohnungsaktivitäten im Produkterstellung. Eltern verwenden sie für Geburtstagsfeiern und Familien-Spieleabende. Veranstaltungsplaner setzen sie bei Babypartys, Feiertagsfeiern und Teambuilding-Aktivitäten ein. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bingo-Karten-Ersteller — von der Auswahl der Rastergröße und des Themas bis zur Generierung mehrerer einzigartiger Karten mit Kontrollkarten und dem Export als druckfertige PDFs. Ob Sie Ihr erstes druckbares Spielprodukt erstellen oder in den stark nachgefragten Party- und Produkterstellungsaktivitäten-Markt expandieren — am Ende dieser Anleitung haben Sie ein komplettes Bingo-Karten-Set zum Einstellen bereit.',
+    description: 'Bilder-Bingo-Karten zum Verkaufen erstellen bedient gleich drei Käufersegmente auf einmal und ist deshalb eine besonders vielseitige Druckvorlagen-Nische. Nachhilfezentren nutzen thematische Bingo-Sets für Vokabelübungen, Eltern brauchen sie für Geburtstagsfeiern und Familien-Spieleabende, und Veranstaltungsplaner setzen sie bei Babypartys, Feiertagen und Teambuilding-Events ein. Was Bingo-Karten als Produkt besonders profitabel macht: Jedes Spiel erfordert mehrere einzigartige Karten, wodurch jedes Produkt automatisch ein Paket ist, das höhere Preise rechtfertigt als Einzelblätter. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bingo-Karten-Ersteller: Sie wählen Rastergröße und Thema, generieren mehrere einzigartige Karten mit Kontrollkarten und exportieren alles als druckfertige PDFs oder einzelne JPEGs im ZIP-Archiv. Der Generator unterstützt konfigurierbare Rastergrößen von 3×3 bis 5×5 und über 100 thematische Bildsets. Ob Sie Ihr erstes Spielprodukt erstellen oder in die Party- und Aktivitäten-Nische expandieren — am Ende dieser Anleitung haben Sie ein komplettes Bingo-Karten-Set bereit zum Einstellen.',
   },
 
   introduction: 'Bingo ist eines der wenigen druckbaren Produkte, das drei völlig unterschiedliche Käufersegmente gleichzeitig bedient. Käufer benötigen thematische Bingo-Sets für Vokabelübungen, Belohnungsaktivitäten und Regenpausen. Eltern und Partyplaner brauchen individuelle Bingo-Karten für Geburtstagsfeiern, Babypartys, Feiertagsfeiern und Familien-Spieleabende. Und Druckvorlagen-Verkäufer brauchen Bingo-Produkte, weil sie zu den am besten konvertierenden Spielformat-Druckvorlagen auf allen großen Marktplätzen gehören.\n\nWas Bingo-Karten als druckbares Produkt besonders leistungsstark macht, ist die eingebaute Anforderung mehrerer einzigartiger Karten. Anders als bei einem Arbeitsblatt, bei dem jeder Nutzer die gleiche Seite bekommt, erfordert Bingo, dass jeder Spieler eine andere Karte hat. Ein einzelnes Bingo-Spiel braucht 10, 20 oder sogar 30 einzigartige Karten — alle aus demselben Bilderpool, aber mit zufälliger Platzierung. Diese strukturelle Anforderung bedeutet, dass jedes Bingo-Produkt von Natur aus ein Paket ist, das höhere Preise rechtfertigt als einzelne Arbeitsblätter.\n\nDer Bingo-Karten-Ersteller bewältigt die Komplexität, die Bingo-Karten manuell schwer zu erstellen macht. Er generiert mehrere einzigartige Karten pro Sitzung, jede mit zufälliger Bildplatzierung aus Ihrem gewählten Thema. Er erstellt eigene Kontrollkarten, die alle in den Karten verwendeten Bilder zeigen. Er unterstützt konfigurierbare Rastergrößen von 3×3 bis 5×5, Anzeige nur mit Bildern oder mit Bildbeschriftungen und exportiert alles als mehrseitige PDFs oder einzelne JPEGs in einem ZIP-Archiv.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Bingo-Karten-Sets als Muster erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

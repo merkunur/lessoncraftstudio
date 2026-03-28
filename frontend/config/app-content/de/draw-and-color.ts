@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rasterzeichnen-generator',
+    primaryKeyword: 'Mal-und-Zeichenvorlagen für Etsy-Printable-Business',
     secondaryKeywords: [
-      'druckbarer Gitterzeichnungs-Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Rasterzeichnen-Generator mit Hinweisprozent für KDP-Verleger',
-      'Zeichenraster-Arbeitsblätter auf Gumroad verkaufen',
-      'Rasterzeichnen-Druckvorlagen kommerzielle Lizenz',
+      'Zeichenvorlagen erstellen für Etsy-Printable-Shop',
+      'Rasterzeichnen-Generator für KDP-Zeichenbücher',
+      'Mal-und-Zeichenarbeitsblätter auf Etsy verkaufen',
+      'Gitterzeichnungs-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Gitterzeichnungs-Druckvorlagen skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Zelle-für-Zelle-Zeichenraster',
-      'kommerzieller Rasterzeichnen-Arbeitsblatt-Generator',
+      'Zeichenbücher Amazon KDP veröffentlichen Einkommen',
+      'Druckvorlagen-Geschäft Rasterzeichnen passive Einnahmen',
+      'duales Rastersystem Hinweisprozent Zeichenübungen',
     ],
-    titleTag: 'Rasterzeichnen-Generator | Gitterzeichnungen',
-    metaDescription: 'Rasterzeichnen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Duales Rastersystem, Hinweisprozent 10–75%. Kostenlos testen mit Wasserzeichen verfügbar.',
+    titleTag: 'Mal-und-Zeichenvorlagen-Generator für Etsy | LCS',
+    metaDescription: 'Mal-und-Zeichenvorlagen erstellen und auf Etsy verkaufen — duales Rastersystem mit Hinweisprozent für KDP-Zeichenbücher. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Rasterzeichnen-Arbeitsblatt-Generator für rasterbasierte Zeichenübungen',
+    title: 'Zeichenvorlagen-Generator für Ihr Etsy-Printable-Business',
     tagline: 'Duales Rastersystem — Übungsraster und Hinweisraster nebeneinander — mit einstellbarem Hinweisprozent von 10% bis 75%, horizontalen und vertikalen Symmetriemodi und über 100 Schwarz-Weiß-Umriss-Themen für Zeichen- und Malaktivitäten.',
     description:
-      'Erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter, bei denen Lernende ein Referenzbild reproduzieren, indem sie es Zelle für Zelle von einem Hinweisraster in ein leeres Übungsraster übertragen. Zwei Raster erscheinen pro ausgewähltem Bild: ein Übungsraster mit leeren Zellen, in die Lernende zeichnen, und ein Hinweisraster, das einen konfigurierbaren Prozentsatz des Referenzbildes als visuelle Hinweise zeigt. Passen Sie den Hinweisprozentsatz von 10% bis 75% an, um die Schwierigkeit zu steuern — weniger Hinweise bedeuten schwierigere Übungen, die schärfere Beobachtung erfordern. Konfigurieren Sie die Rasterabmessungen von 3×3 (9 Zellen) bis 10×10 (100 Zellen), wobei Zeilen und Spalten unabhängig von 3 bis 10 einstellbar sind. Drei Symmetriemodi fügen eine räumliche Denkkomponente hinzu: Zufall platziert Hinweiszellen an verstreuten Positionen, Horizontal spiegelt Hinweise von links nach rechts, und Vertikal spiegelt Hinweise von oben nach unten — jeweils mit einem Teilbereich-Selektor zur Auswahl der sichtbaren Hälfte. Die Inhalte stammen aus der integrierten S&W-Umriss-Bildbibliothek mit über 100 Sammlungen und mehr als 3.000 Schwarz-Weiß-Illustrationen, die speziell für Zeichen- und Malaktivitäten entworfen wurden — keine farbigen Themen, sondern saubere Umrisse, die Lernende reproduzieren und anschließend ausmalen. Dies ist eine rein visuelle App: Arbeitsblätter enthalten ausschließlich Rasterbilder ohne Text, sodass sie universell einsetzbar sind, unabhängig von der Sprache. Ein separater Lösungsschlüssel ist nicht erforderlich, da das Hinweisraster selbst als Referenzlösung dient. Vollzugriff schaltet alle über 100 S&W-Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Wichtig: Der Rasterzeichnen-Generator ist nicht sprachabhängig — Arbeitsblätter enthalten ausschließlich Rasterbilder mit null Text auf der Ausgabe, sodass dasselbe Produkt weltweit ohne Übersetzung verkauft werden kann. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsprache, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 S&W-Themen; Vollzugriff schaltet alle über 100 Themen und alle 11 Oberflächensprachen frei. Für Verkäufer bietet das duale Rastersystem mit einstellbarem Hinweisprozent und drei Symmetriemodi ein einzigartiges Produktformat, das sich deutlich von einfachen Malvorlagen abhebt. Der Hinweisprozent-Regler erzeugt eine stufenlose Schwierigkeitskurve: 75% für Anfänger, 50% für mittlere Herausforderung, 25% für Fortgeschrittene und 10% für Experten. Die Symmetriemodi verbinden visuelle Kunst mit mathematischen Konzepten und erweitern so die Zielgruppe auf Kunst- und Mathematikkategorien gleichermaßen. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand — ein einziger Erstellungsworkflow bedient jeden Markt weltweit. Ob Sie Rasterzeichnen-Pakete auf Etsy.de verkaufen, Zeichenfähigkeits-Übungshefte für Amazon KDP zusammenstellen oder Symmetrie-Lernstationen für den Gumroad erstellen — der Rasterzeichnen-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Bauen Sie Ihr Etsy-Printable-Business mit dem Zeichenvorlagen-Generator auf und erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter, die Sie auf Etsy, Amazon KDP oder Gumroad verkaufen. Das duale Rastersystem zeigt ein Hinweisraster neben einem leeren Übungsraster — Nutzer reproduzieren das Referenzbild Zelle für Zelle. Steuern Sie die Schwierigkeit über den Hinweisprozent-Regler von 10% bis 75% und konfigurieren Sie Rasterabmessungen von 3×3 bis 10×10. Drei Symmetriemodi — Zufall, Horizontal und Vertikal — erweitern die Produktvielfalt. Über 3.100 Schwarzweiß-Umrisszeichnungen in 104 Themen liefern sofort einsetzbare Inhalte, und das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Oberflächensprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

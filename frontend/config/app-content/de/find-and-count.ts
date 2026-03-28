@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'suchbild-generator',
+    primaryKeyword: 'Suchen-und-Zählen-Arbeitsblätter Etsy erstellen',
     secondaryKeywords: [
-      'druckbarer Ich-sehe-was-Generator für Etsy-Verkäufer',
-      'Suchbild-Aktivität-Ersteller für KDP-Verleger',
-      'Suchen-und-Zählen-Arbeitsblatt-Generator kommerzielle Lizenz',
-      'Suchbild-Arbeitsblätter auf Etsy.de und Amazon verkaufen',
+      'Ich-sehe-was-Generator für Etsy-Druckvorlagen',
+      'Buchstabenerkennung-Arbeitsblätter verkaufen KDP',
+      'Suchbild-Ersteller mit Lösungsschlüssel',
+      'Zählaktivitäten Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Suchbild-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Ich-sehe-was-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft Zählaktivitäten Werkzeuge',
+      'Printable-Business Suchbilder Zählen Aktivitäten',
+      'Suchen-und-Zählen Druckvorlagen Einkommensquelle',
+      'Bildsuchspiel Generator verkaufen Etsy KDP',
     ],
-    titleTag: 'Suchbild-Generator | Ich-sehe-was-Übungen',
-    metaDescription: 'Suchbild-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 4 Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Suchen-und-Zählen-Generator für Etsy | LCS',
+    metaDescription: 'Suchen-und-Zählen-Arbeitsblätter für Etsy erstellen. Vier Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, 104 Bildthemen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Suchbild-Generator für Ich-sehe-was- und Suchen-und-Zählen-Aktivitäten',
+    title: 'Suchen-und-Zählen-Arbeitsblätter für Etsy erstellen',
     tagline: 'Zwei Aktivitätsmodi in einem Generator — Suchbild (Ich sehe was) und Buchstabenerkennung — mit vier mischbaren Aufgabentypen (einkreisen, umrahmen, durchstreichen, zählen), sprachspezifischen Alphabeten mit Umlauten, lokalisierten Bildbezeichnungen in 11 Sprachen und automatisch generierten Lösungsschlüsseln mit visuellen Markierungen.',
     description:
-      'Erstellen Sie professionelle Suchbild- und Suchen-und-Zählen-Arbeitsblätter, bei denen in einer verteilten Bilderszene bestimmte Objekte gesucht, eingekreist, durchgestrichen oder gezählt werden. Wählen Sie zwischen zwei Aktivitätsmodi: Der Suchbild-Modus verteilt Bilder über ein konfigurierbares Raster (5–10 Zeilen × 5–10 Spalten) und ermöglicht die Zuweisung von bis zu 4 Zielobjekten mit individuellen Aufgabentypen — das Objekt einkreisen, umrahmen, durchstreichen oder zählen, wie oft es vorkommt. Der Buchstabenerkennung-Modus zeigt ein sprachspezifisches Alphabet-Raster mit Sonderbuchstaben (Deutsch ÄÖÜ, Spanisch Ñ, Schwedisch ÅÄÖ, Dänisch/Norwegisch ÆØÅ) und generiert Suchbilder mit Bildern, die mit dem ausgewählten Buchstaben beginnen. Jedes Arbeitsblatt enthält einen automatisch generierten Header — \"Ich sehe was\" oder \"Buchstabenerkennung\" — lokalisiert in allen 11 unterstützten Sprachen mit blauem Rahmen (#2196F3). Das Dual-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab mit roten Kreis-, Rahmen- und Kreuz-Markierungen sowie Anzahl-Anzeigen. Der Suchen-und-Zählen-Generator ist sprachabhängig: Bildbezeichnungen auf dem Arbeitsblatt werden in der ausgewählten Sprache über das Bildvokabular-System gerendert. Der Wechsel von Englisch zu Deutsch ändert beispielsweise \"Cat\" zu \"Katze\" und \"Dog\" zu \"Hund\", und im Buchstabenerkennung-Modus aktualisieren sich die Anfangsbuchstaben entsprechend — eine Katze beginnt mit \"C\" auf Englisch, aber mit \"K\" auf Deutsch. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen mit Bildbezeichnungen nur auf Englisch; Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen für lokalisierte Bildbezeichnungen frei. Für Verkäufer auf Etsy.de und dem Gumroad bedeutet Vollzugriff: deutsche Bildbezeichnungen für den deutschsprachigen Markt, ohne manuelle Übersetzungsarbeit. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Ob Sie thematische Suchbild-Pakete auf Etsy.de verkaufen, Ich-sehe-was-Arbeitsbücher für Amazon KDP zusammenstellen oder Zählaktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Suchbild-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Suchen-und-Zählen-Arbeitsblätter erstellen und als druckbare Produkte auf Etsy verkaufen? Dieser Generator bietet zwei Aktivitätsmodi: Der Suchbild-Modus verteilt Bilder über ein konfigurierbares Raster (5×5 bis 10×10) und ermöglicht bis zu 4 Zielobjekte mit individuellen Aufgabentypen — einkreisen, umrahmen, durchstreichen oder zählen. Der Buchstabenerkennung-Modus zeigt ein sprachspezifisches Alphabet-Raster mit deutschen Sonderbuchstaben ÄÖÜ und generiert Suchbilder mit Bildern, die mit dem ausgewählten Buchstaben beginnen. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit roten Markierungen und Anzahl-Anzeigen. Der Generator ist sprachabhängig: ein Sprachwechsel ändert die Bildbezeichnungen — \"Cat\" wird zu \"Katze\", Anfangsbuchstaben passen sich an. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

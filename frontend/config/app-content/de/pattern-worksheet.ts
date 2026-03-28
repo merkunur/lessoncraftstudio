@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'muster-raster-generator',
+    primaryKeyword: 'Muster-Erkennung-Arbeitsblätter für Etsy-Verkäufer',
     secondaryKeywords: [
-      'druckbarer Muster-Raster-Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Sequenzmuster-Raster-Generator für KDP-Verleger',
-      'Muster-Übungs-Arbeitsblätter auf Gumroad verkaufen',
-      'Muster-Raster-Druckvorlagen kommerzielle Lizenz',
+      'Mustererkennung-Arbeitsblätter für Etsy erstellen',
+      'Muster-Raster-Generator für KDP-Übungshefte',
+      'Muster-Vervollständigung Druckvorlagen verkaufen',
+      'Sequenzmuster-Arbeitsblätter Printable-Business',
     ],
     lsiKeywords: [
-      'digitale Mustererkennung-Raster-Druckvorlagen skalierbares Einkommen',
-      'Druckvorlagen-Geschäft visuelle Muster-Raster-Übungen',
-      'kommerzieller Muster-Vervollständigungs-Arbeitsblatt-Generator',
+      'Muster-Übungshefte Amazon KDP veröffentlichen',
+      'Druckvorlagen-Geschäft Mustererkennung Einnahmen',
+      'neun Mustertypen zwei Fragemodi Raster-Übungen',
     ],
-    titleTag: 'Muster-Raster-Generator | Muster-Arbeitsblätter',
-    metaDescription: 'Muster-Raster-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Neun Mustertypen, zwei Fragemodi, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Muster-Arbeitsblätter Generator für Etsy | LCS',
+    metaDescription: 'Muster-Erkennung-Arbeitsblätter für Etsy-Verkäufer erstellen — neun Mustertypen, zwei Fragemodi, Pro-Übung-Konfiguration. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Muster-Arbeitsblatt-Generator für rasterbasierte Mustervervollständigungs-Übungen',
+    title: 'Muster-Erkennung-Raster-Generator für Etsy-Verkäufer',
     tagline: 'Neun Mustertypen von AB bis ABCD — zwei Fragemodi (Lückenfeld und Multiple-Choice) — mit unabhängiger Pro-Übung-Konfiguration für Mustertyp, Fragemodus und Thema auf jeder Seite.',
     description:
-      'Erstellen Sie professionelle Mustervervollständigungs-Arbeitsblätter, bei denen Lernende sich wiederholende Bildfolgen erkennen und das fehlende Element einsetzen — oder die korrekte Antwort aus Multiple-Choice-Optionen wählen. Neun verschiedene Mustertypen decken jede Stufe der Sequenzkomplexität ab: AB wechselt zwei Elemente ab, AAB und ABB führen asymmetrische Gruppierungen ein, ABC rotiert drei Elemente, AABB paart je zwei jedes Elements, ABBC und AABC erzeugen Drei-Bild-asymmetrische Variationen, ABCC erweitert mit verdoppeltem Ende, und ABCD rotiert vier verschiedene Elemente für maximale Herausforderung. Zwei Fragemodi verdoppeln die Produktvielfalt aus jedem Mustertyp: Lückenfeld ersetzt ein Element durch ein leeres Kästchen, das Lernende selbst ausfüllen müssen, während Multiple-Choice das leere Kästchen plus drei Antwortoptionen mit einer korrekten und zwei Ablenkern präsentiert. Konfigurieren Sie 1–8 Übungen pro Seite, wobei jede Übung unabhängig für Mustertyp, Fragemodus und Thema eingestellt wird — eine Seite kann eine AB-Lückenfeld-Übung mit einer ABCD-Multiple-Choice-Übung kombinieren. Aktivieren Sie Zufälliger Start, um Muster mitten im Zyklus beginnen zu lassen, und Zufällige Lückenposition, um das fehlende Element an beliebiger Stelle in der Sequenz zu platzieren. Die Inhalte stammen aus der integrierten Bildbibliothek mit über 3.100 Illustrationen in 104 Themen. Ein separater Lösungsschlüssel-Tab zeigt alle Lücken mit den korrekten Musterelementen ausgefüllt zur sofortigen Überprüfung. Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Exportieren Sie druckfertige PDFs und JPEGs mit hoher DPI-Auflösung in Letter, A4, Quadrat oder benutzerdefinierten Größen. Wichtig: Der Muster-Arbeitsblatt-Generator ist nicht sprachabhängig — Arbeitsblätter enthalten ausschließlich Bilder in Rasterzeilen mit null Text auf der Ausgabe, sodass dasselbe Produkt weltweit ohne Übersetzung verkauft werden kann. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsprache, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 farbige Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Für Verkäufer bietet dieses rasterbasierte Format mit neun Mustertypen und zwei Fragemodi die größte Produktvielfalt aller Muster-Arbeitsblatt-Generatoren: Neun Mustertypen multipliziert mit zwei Fragemodi ergeben 18 verschiedene Übungsstile, jeweils verfügbar in 104 Themen. Die Pro-Übung-Konfiguration ermöglicht gemischte Schwierigkeitsgrade auf einer einzigen Seite — gestufte Arbeitsblätter, die Premiumpreise rechtfertigen. Ob Sie Mustererkennung-Pakete auf Etsy.de verkaufen, Frühförderungshefte für Amazon KDP zusammenstellen oder gestufte visuelle Lernstationen für den Gumroad erstellen — der Muster-Arbeitsblatt-Generator liefert die breiteste Vielfalt an Musterübungen aller verfügbaren Generatoren. Die Kombination aus neun Mustertypen, zwei Fragemodi und Pro-Übung-Konfiguration erzeugt eine Produktmatrix, die kein vergleichbares Tool bieten kann — 18 verschiedene Übungsstile pro Thema, mischbar auf einer einzigen Seite für maximale Differenzierung und Premiumpreise. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Muster-Erkennung-Arbeitsblätter mit dem Muster-Raster-Generator und verkaufen Sie Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Neun Mustertypen — von AB bis ABCD — und zwei Fragemodi (Lückenfeld und Multiple-Choice) ergeben 18 verschiedene Übungsstile in 104 Themen. Konfigurieren Sie 1 bis 8 Übungen pro Seite, wobei jede Übung unabhängig für Mustertyp, Fragemodus und Thema eingestellt wird. Zufälliger Start und zufällige Lückenposition sorgen für einzigartige Arbeitsblätter bei jeder Generierung. Das rein visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Lösungsschlüssel wird automatisch generiert. Exportieren Sie druckfertige PDFs und JPEGs. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
   howItWorks: {

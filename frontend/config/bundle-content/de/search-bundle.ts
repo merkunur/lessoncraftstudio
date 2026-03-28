@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'suchen & finden',
+    primaryKeyword: 'Such-und-Find Arbeitsblatt-Bundle für Verkäufer',
     secondaryKeywords: [
       'Suchen-Finden-Arbeitsblatt-Generatoren-Paket für Verkäufer',
       'druckbares Suchbild-Toolkit kommerzielle Nutzung',
@@ -15,14 +15,14 @@ const content: BundleContent = {
       'kommerzielle Lizenz Entdecker-Arbeitsblätter',
       'Suchen-und-Finden-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Suchen & Finden — 4-Generatoren-Paket',
-    metaDescription: 'Such-Paket mit 4 Generatoren: Suchbilder, Kreuzworträtsel, Schatzsuche und Suchen-und-Zählen. Verkaufen auf Etsy, KDP und Gumroad mit Lizenz.',
+    titleTag: 'Such & Find Bundle für Verkäufer | LCS',
+    metaDescription: 'Such-und-Find Arbeitsblatt-Bundle mit 4 Generatoren für Etsy-Verkäufer. Suchbilder, Kreuzworträtsel, Schatzsuche und Zählen — 11 Sprachen, druckfertig.',
   },
 
   hero: {
-    title: 'Suchen-&-Finden-Paket',
+    title: 'Such-und-Find Arbeitsblatt-Bundle für Verkäufer',
     tagline: 'Vier entdeckungsorientierte Generatoren — Suchbild-Szenen, versteckte Objekte, Bilderkreuzworträtsel und Schatzsuchen in jedem Arbeitsblatt',
-    description: 'Das Suchen-&-Finden-Paket ist das sprachreichste Paket der gesamten Sammlung. Drei von vier Apps erzeugen sprachsensitive Arbeitsblätter — Bildbezeichnungen und sprachspezifische Alphabete im Suchen-und-Zählen-Generator, übersetzte Rätselwörter im Bilderkreuzworträtsel-Generator und vollständig lokalisierte Richtungsanweisungen im Schatzsuche-Generator. Diese mehrsprachige Tiefe ist ein echter Wettbewerbsvorteil für Verkäufer, die nichtdeutschsprachige Märkte bedienen, denn jedes übersetzte Arbeitsblatt wird ein einzigartiges Produktangebot mit praktisch null Konkurrenz. Das Paket vereint vier grundlegend verschiedene Aktivitätsformate unter einem \"Suchen und Entdecken\"-Thema: Suchbild-Szenen, bei denen Nutzer bestimmte Objekte finden und zählen, rein visuelle Suchbilder mit überlappungsfreier Szenenplatzierung, 15x15-Kreuzworträtsel mit Bild-Hinweisen statt Textdefinitionen und Koordinatenraster-Schatzsuchen mit aufeinanderfolgenden Richtungsanweisungen. Alle vier Generatoren erzeugen automatische Lösungsschlüssel — 100% Lösungsschlüssel-Abdeckung über das gesamte Paket. Der Suchen-und-Zählen-Generator bietet zwei Suchmodi: Suchbild-Szenen mit konfigurierbaren Rastergrößen von 5x5 bis 10x10 und einen Buchstaben-Erkennungsmodus, der sprachspezifische Alphabete einschließlich deutscher Umlaute, spanischer Akzentzeichen und skandinavischer Sonderbuchstaben verwendet. Der Suchbilder-Generator erstellt rein visuelle Arbeitsblätter mit intelligenter überlappungsfreier Szenenplatzierung und adaptiver Bildgrößenanpassung. Der Bilderkreuzworträtsel-Generator unterstützt vier Eingabemethoden — Thema-Autoauswahl, manuelle Wortbearbeitung, benutzerdefinierte Wortlisten und Bild-Upload — alles gerendert auf einem 15x15-Raster mit 8 Bild-Hinweisen anstelle traditioneller Textdefinitionen. Der Schatzsuche-Generator platziert Orientierungspunkte auf einem 5x5-Koordinatenraster mit den Beschriftungen A bis E und 1 bis 5, mit genau 4 aufeinanderfolgenden Richtungsanweisungen im Basismodus (nach oben, nach unten, nach links, nach rechts) oder im Himmelsrichtungen-Modus (Nord, Süd, Ost, West) — alle vollständig übersetzt in 11 Sprachen. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene PNG- und JPEG-Dateien für markenspezifische, nischenorientierte Produkte hoch. Ob Sie Suchbild-Bücher auf Amazon KDP, Kreuzworträtsel-Pakete auf Etsy.de oder Schatzsuche-Aktivitäten auf dem Gumroad verkaufen — dieses Paket gibt Ihnen vier stark nachgefragte Such-Aktivitätstypen, nach denen Käufer gezielt suchen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
+    description: 'Dieses Such-und-Find Arbeitsblatt-Bundle ist das sprachreichste Bundle der gesamten Sammlung — drei von vier Apps erzeugen sprachsensitive Arbeitsblätter mit Bildbezeichnungen, übersetzten Rätselwörtern und lokalisierten Richtungsanweisungen in 11 Sprachen. Diese mehrsprachige Tiefe ist ein echter Wettbewerbsvorteil, denn jedes übersetzte Arbeitsblatt wird ein einzigartiges Produktangebot mit praktisch null Konkurrenz. Das Paket vereint vier Aktivitätsformate: Suchbild-Szenen zum Finden und Zählen, rein visuelle Suchbilder mit überlappungsfreier Platzierung, 15x15-Kreuzworträtsel mit Bild-Hinweisen und Koordinatenraster-Schatzsuchen. Alle vier erzeugen automatische Lösungsschlüssel. Über 100 thematische Bildsets oder eigene Uploads ermöglichen nischenorientierte Produkte. Ob Suchbild-Bücher auf Amazon KDP, Kreuzworträtsel-Pakete auf Etsy.de oder Schatzsuche-Aktivitäten auf Gumroad — dieses Paket gibt Ihnen vier stark nachgefragte Such-Aktivitätstypen. Kostenlose Testversion mit Wasserzeichen verfügbar.',
   },
 
   appsIncluded: [

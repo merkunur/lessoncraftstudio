@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP Aktivitätsbuch Nischen',
+    primaryKeyword: 'Beste KDP Aktivitätenheft-Nischen 2026',
     secondaryKeywords: [
-      'beste KDP Aktivitätsbuch-Nischen für Verleger',
       'profitable Aktivitätsbuch-Kategorien Amazon KDP',
-      'KDP Nischenrecherche Aktivitätsbücher',
-      'unterversorgte Aktivitätsbuch-Nischen KDP',
+      'KDP Nischenrecherche Aktivitätsbücher Anfänger',
+      'unterversorgte Aktivitätsbuch-Nischen mit Nachfrage',
+      'Amazon BSR Wettbewerbsanalyse Aktivitätsbücher',
     ],
     lsiKeywords: [
-      'Amazon BSR sehr gefragt-Rang Wettbewerbsanalyse Nachfrage',
-      'Aktivitätsbuch Unterkategorie Mathe Rätsel Ausmalen Wortsuche',
-      'Zielgruppen-Segmentierung Vorschule Kinder Erwachsene Senioren Großdruck',
-      'saisonale Nische Feiertag Schulanfang Sommer immergrün',
-      'Nischenvalidierung Test-Titel 90-Tage-Verkäufe Katalogstrategie',
-      'kategorie-übergreifende Hybrid-Aktivitätsbücher thematische Unter-Nische',
+      'Zielgruppen-Segmentierung Vorschule Erwachsene Großdruck',
+      'saisonale Nische Feiertag Schulanfang immergrün',
+      'Nischenvalidierung Test-Titel Katalogstrategie',
     ],
-    titleTag: 'KDP Aktivitätsbuch Nischen — Beste Auswahl Leitfaden',
-    metaDescription: 'Beste KDP-Aktivitätsbuch-Nischen für Verleger entdecken. Nachfrageanalyse, Wettbewerbsbewertung, unterversorgte Kategorien und saisonales Timing für.',
+    titleTag: 'Beste KDP Aktivitätenheft Nischen (2026) | LCS',
+    metaDescription: 'Beste KDP Aktivitätenheft Nischen 2026: Nachfrage-Analyse, Wettbewerbsbewertung, unterversorgte Kategorien und Nischenvalidierung für profitable Bücher.',
   },
 
   hero: {
-    title: 'Die besten KDP Aktivitätsbuch-Nischen für Verleger',
+    title: 'Die besten KDP Aktivitätenheft-Nischen für 2026',
     tagline: 'Ein Nischenrecherche-Leitfaden für Amazon KDP Aktivitätsbuch-Verleger — mit Nachfrage-zu-Wettbewerb-Analyse für jede wichtige Aktivitätsbuch-Kategorie, Zielgruppen-Segmentierungsstrategien zur Vervielfachung von Nischenchancen, Interpretation von Amazon BSR- und Bewertungsdaten zur Nischenvalidierung, unterversorgten Unter-Nischen mit starker Käufernachfrage und geringem Wettbewerb, saisonalem versus immergrünem Nischen-Timing für die Katalogplanung, kategorie-übergreifenden Hybrid-Nischen für mehrere Käufergruppen, und Multi-Nischen-Portfoliostrategien zur Ausbalancierung von Tiefe und Diversifikation',
-    description: 'Die richtige Nischenwahl entscheidet, ob Ihre KDP-Aktivitätsbücher konstante Einnahmen erzielen oder in Amazons Katalog verschwinden. Dieser Leitfaden behandelt nicht die Erstellung von Aktivitätsbüchern — unsere anderen KDP-Leitfäden decken Mathe-Aktivitätsbücher, Rätselbücher, Wortsuchbücher, Formatierung und Umsatzstrategie im Detail ab. Dieser Leitfaden konzentriert sich auf die Entscheidung, die vor all dem kommt: Welche Aktivitätsbuch-Kategorien sollten Sie anvisieren, wie bewerten Sie, ob eine Nische genügend Nachfrage hat, um Ihren Aufwand zu rechtfertigen, und wie identifizieren Sie die spezifischen Unter-Nischen, in denen ein neuer Verleger gegen etablierte Titel bestehen kann.',
+    description: 'Beste KDP Aktivitätenheft Nischen 2026 — die richtige Wahl entscheidet, ob Ihre Bücher konstante Einnahmen erzielen oder in Amazons Katalog verschwinden. Dieser Leitfaden konzentriert sich auf die Entscheidung, die vor jeder Inhaltserstellung kommt: Welche Aktivitätsbuch-Kategorien sollten Sie anvisieren, wie bewerten Sie die Nachfrage einer Nische und wie identifizieren Sie unterversorgte Unter-Nischen mit geringem Wettbewerb. Sie erfahren, wie Sie Amazon BSR- und Bewertungsdaten interpretieren, Zielgruppen nach Alter und Interessen segmentieren und ein Multi-Nischen-Portfolio aufbauen, das saisonale und immergrüne Titel ausbalanciert. Der Leitfaden berücksichtigt die Besonderheiten des deutschsprachigen KDP-Marktes, wo Nischen wie Vorschul-Arbeitshefte, Großdruck-Rätsel für Senioren und thematische Ausmalbücher deutlich weniger Wettbewerb haben als auf dem englischsprachigen Marktplatz.',
   },
 
   introduction: 'Jedes auf Amazon KDP veröffentlichte Aktivitätsbuch konkurriert innerhalb einer bestimmten Nische — einer Kombination aus Inhaltstyp, Zielgruppe und Kaufabsicht, die bestimmt, in welchen Suchergebnissen das Buch erscheint, wer es sieht und ob es gekauft wird. Der Unterschied zwischen der richtigen und der falschen Nischenwahl ist nicht marginal. Eine gut gewählte Nische kann mit einem einzigen Titel 200 bis 500 Dollar pro Monat generieren. Eine schlecht gewählte Nische kann ein gleich gutes Buch dauerhaft bei 5 Dollar pro Monat belassen, unabhängig von Inhaltsqualität oder Cover-Design.\n\nDer KDP-Aktivitätsbuch-Markt umfasst Dutzende eigenständige Nischen, jede mit eigener Nachfragekurve, Wettbewerbsdichte und Gewinnpotenzial. Mathe-Arbeitshefte, Wortsammlungen, Sudoku-Rätsel, Ausmalbücher, Schreibübungen, Labyrinthe, Zeichenanleitungen, Kreuzworträtsel — jede Kategorie hat Unterkategorien, und jede Unterkategorie hat Zielgruppensegmente. Ein \"Wortsuchbuch" ist nicht eine Nische; es sind ein Dutzend Nischen: Wortsuche für Kinder von 4 bis 6 Jahren, Wortsuche für Erwachsene, Großdruck-Wortsuche für Senioren, thematische Wortsuche (Tiere, Reisen, Feiertage), Wortsuche in bestimmten Sprachen und mehr. Jede Variante zielt auf andere Amazon-Suchanfragen ab, steht vor anderem Wettbewerb und generiert unterschiedliche Einnahmen.\n\nDie meisten neuen KDP-Verleger überspringen die Nischenrecherche komplett. Sie erstellen die Art von Aktivitätsbuch, die ihnen persönlich gefällt, veröffentlichen es und hoffen, dass Amazons Algorithmus Käufer findet. Dieser Produkt-zuerst-Ansatz funktioniert gelegentlich durch Glück, scheitert aber weit häufiger als er Erfolg hat. Der Nische-zuerst-Ansatz kehrt den Prozess um: Identifizieren Sie, wo Käufernachfrage existiert, aber der Wettbewerb dünn ist, und erstellen Sie dann Inhalte speziell für diese Lücke. Das bedeutet nicht, Trends hinterherzujagen oder das System auszutricksen — es bedeutet, fundierte Entscheidungen darüber zu treffen, wo Ihr Veröffentlichungsaufwand die höchste Rendite generiert.\n\nDieser Leitfaden führt durch den vollständigen Nischenrecherche- und Validierungsprozess für KDP-Aktivitätsbücher. Für Anleitungen zur Inhaltserstellung nach der Nischenwahl lesen Sie den KDP-Leitfaden für Mathe-Aktivitätsbücher, den Rätselbuch-Leitfaden oder den Wortsuchbuch-Leitfaden. Für Formatierungsspezifikationen siehe den KDP-Formatierungsleitfaden. Für Umsatz- und Preisstrategie lesen Sie den KDP-Umsatzleitfaden. Hier behandeln wir die grundlegende Frage, die jene Leitfäden als bereits beantwortet voraussetzen: Welche Nischen sollten Sie anvisieren?',

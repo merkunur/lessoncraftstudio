@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'präpositionen-generator',
+    primaryKeyword: 'kostenloser Präpositionen-Generator',
     secondaryKeywords: [
-      'Ortspräpositionen-Ersteller für Verkäufer',
-      'Lückentext-Präpositionen-Arbeitsblätter online erstellen',
-      'druckbare Ortspräpositionen-Arbeitsblätter kommerziell',
-      'mehrsprachiger Präpositionen-Generator für KDP',
+      'Präpositionen-Arbeitsblätter kostenlos erstellen',
+      'Ortspräpositionen-Generator online ohne Anmeldung',
+      'kostenlose Präpositionen-Übungen mit Lösungsschlüssel',
+      'Präpositionen-Ersteller Lückentext Multiple Choice kostenlos',
     ],
     lsiKeywords: [
-      'räumliche Präpositionen Druckvorlagen für Etsy',
-      'Positionswörter-Arbeitsblatt-Tool',
-      'mehrsprachiger Ortspräpositionen-Generator',
+      'räumliche Präpositionen Lückentext Übungen',
+      'Positionswörter-Arbeitsblatt Formenaustausch',
+      'mehrsprachige Präpositionen-Arbeitsblätter Generator',
     ],
-    titleTag: 'Präpositionen-Generator | Ortspräpositionen',
-    metaDescription: 'Präpositionen-Arbeitsblätter mit Lückentext und Multiple Choice in 11 Sprachen erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Präpositionen-Generator | LCS',
+    metaDescription: 'Kostenloser Präpositionen-Generator: Arbeitsblätter mit Lückentext und Multiple Choice in 11 Sprachen erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Präpositionen-Arbeitsblatt-Generator',
+    title: 'Präpositionen-Arbeitsblätter kostenlos erstellen',
     tagline: 'Räumliche Präpositionen-Arbeitsblätter mit zwei Übungsmodi in 11 Sprachen erstellen',
-    description: 'Vermitteln Sie Positionswörter durch bildbasierte Übungen, die Nutzern wirklich Spaß machen. Dieses Tool erstellt Präpositionen-Arbeitsblätter, bei denen Lernende räumliche Beziehungen erkennen — auf, unter, über, neben, zwischen, drinnen, draußen — indem sie Bildszenen studieren und die richtige Präposition einsetzen oder auswählen. Wählen Sie zwischen zwei Übungsmodi: Lückentext, bei dem Nutzer die korrekte Präposition selbst schreiben, oder Multiple Choice, bei dem sie aus vorgegebenen Optionen mit einer anpassbaren Aufgabenstellung auswählen. Stellen Sie 1–8 Übungen pro Arbeitsblatt ein und wählen Sie über das Kontrollkästchen-Raster genau aus, welche Präpositionen enthalten sein sollen. Die besondere Stärke des Tools ist der Formenaustausch — eine separate Bildebene ermöglicht den unabhängigen Austausch von Szenenformen und erzeugt deutlich mehr visuelle Kombinationen als ein einzelner Bildsatz bieten könnte. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und jedes Präpositionswört wird in sein natives Äquivalent aktualisiert. Englisch verwendet \"on, under, above, beside, between, inside, outside\"; Französisch verwendet \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Ein Arbeitsblatt-Design wird zu 11 einzigartigen Sprachprodukten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene PNG- oder JPEG-Dateien für markentypische Designs hoch. Wählen Sie aus mehreren Vorlagen und 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Präpositionen-Arbeitsblätter kostenlos mit unserem Präpositionen-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Zwei Übungsmodi decken verschiedene Schwierigkeitsstufen ab: Lückentext, bei dem die korrekte Präposition selbst geschrieben wird, und Multiple Choice mit anpassbarer Aufgabenstellung. Wählen Sie über das Kontrollkästchen-Raster genau aus, welche Präpositionen enthalten sein sollen — auf, unter, über, neben, zwischen, drinnen, draußen. Die besondere Stärke ist der Formenaustausch: Eine separate Bildebene erzeugt deutlich mehr visuelle Kombinationen. Die Sprachsensitivität aktualisiert jedes Präpositionswort automatisch beim Sprachwechsel in alle 11 unterstützten Sprachen. Über 3.100 Bilder aus 104 Themen stehen bereit. Exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },
 
   tutorial: {

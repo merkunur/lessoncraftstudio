@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Ausmalseiten selber machen',
+    primaryKeyword: 'kostenloser Ausmalbilder-Generator mit Bildern',
     secondaryKeywords: [
-      'Malvorlagen erstellen für die Produkterstellung',
-      'Ausmalbilder selber gestalten für Kinder',
-      'Ausmalseiten-Ersteller für Verkäufer',
-      'druckbare Malvorlagen für die Klasse',
+      'Ausmalbilder kostenlos erstellen online',
+      'Malvorlagen-Generator ohne Anmeldung',
+      'kostenloser Ausmalseiten-Ersteller für Kinder',
+      'Ausmalbilder online erstellen und drucken',
     ],
     lsiKeywords: [
-      'Ausmalbilder für die Produkterstellung gestalten',
       'Graustufen-Malvorlage zum Ausdrucken',
       'Freihand-Zeichentool für Ausmalbilder',
+      'druckbare Malvorlagen mit Bildthemen',
     ],
-    titleTag: 'Ausmalseiten selber machen — Malvorlagen erstellen',
-    metaDescription: 'Eigene Ausmalseiten für die Produkterstellung oder zu Hause gestalten. Freie Arbeitsfläche, 3.100+ Illustrationen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Ausmalbilder-Generator | LCS',
+    metaDescription: 'Kostenloser Ausmalbilder-Generator mit Bildern aus 104 Themen. Freie Arbeitsfläche, Graustufen-Export, ohne Anmeldung nutzbar. Kommerzielle Lizenz verfügbar.',
     },
 
   hero: {
-    title: 'Malvorlagen-Ersteller',
+    title: 'Ausmalbilder kostenlos erstellen — Generator mit Bildern',
     tagline: 'Freie-Arbeitsfläche-Ausmalseiten-Generator mit Freihand-Zeichenwerkzeug, Graustufen-Export, Shop-Helfern und 104 thematischen Bildsammlungen für professionelle Malvorlagen, die weltweit ohne Übersetzung verkaufen',
-    description: 'Gestalten Sie professionelle Ausmalseiten auf einer komplett offenen Arbeitsfläche, auf der Sie Bilder exakt dort platzieren, wo Sie sie haben möchten — keine Raster, keine Vorlagen, keine Slots, reine kreative Freiheit. Dieser Freiform-Ansatz ist der zentrale Unterschied: Jede Malvorlage, die Sie erstellen, ist einzigartig und unmöglich mit vorlagenbasierten Tools zu replizieren. Durchstöbern Sie 104 thematische Bildsammlungen mit über 3.100 Schwarzweiß-Umrisszeichnungen, klicken Sie zum Hinzufügen und arrangieren, skalieren, drehen und schichten Sie Elemente überall auf der Arbeitsfläche. Das Freihand-Zeichenwerkzeug ermöglicht Ihnen, eigene Illustrationen direkt neben Bibliotheksbildern zu skizzieren mit einstellbarer Pinselfarbe und Pinselgröße (1–50 Pixel) — so entstehen hybride Ausmalseiten, die kuratierte Kunst mit Ihren eigenen Zeichnungen verbinden. Ein-Klick-Shop-Helfer fügen ein Namensfeld (\"Name: ____\") und Handschrift-Übungslinien (durchgezogen, gestrichelt, durchgezogen) hinzu — und verwandeln Malvorlagen in unterrichtsfertige Aktivitätsblätter für den Gumroad. Zum Schluss schalten Sie den Graustufen-Export ein, um Ihre farbenfrohe Komposition in tintenschonende Ausmalseiten umzuwandeln — perfekt für KDP-Innenteile und Shopdruck. Fügen Sie dekorative Rahmenthemen aus der Rahmenbibliothek hinzu, benutzerdefinierten Text mit Umrisseffekten in Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana, und laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Dies ist eine rein visuelle App — die Ausgabe enthält keinen Text, was Malvorlagen universell verkaufbar ohne Übersetzung macht. Kein Lösungsschlüssel existiert, da Ausmalen eine kreative Aktivität ohne richtige Antwort ist. Die App ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht die exportierte Malvorlage. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos individuelle Ausmalbilder mit diesem Ausmalbilder-Generator — direkt im Browser, ohne Anmeldung, ohne Software-Download. Sie erhalten eine komplett offene Arbeitsfläche, auf der Sie Bilder exakt dort platzieren, wo Sie sie haben möchten — keine Raster, keine Vorlagen, reine kreative Freiheit. Durchstöbern Sie 104 thematische Bildsammlungen mit über 3.100 Schwarzweiß-Umrisszeichnungen und arrangieren, skalieren und drehen Sie Elemente frei. Das Freihand-Zeichenwerkzeug ermöglicht eigene Illustrationen direkt neben Bibliotheksbildern. Ein-Klick-Helfer fügen Namensfelder und Handschrift-Übungslinien hinzu. Schalten Sie den Graustufen-Export ein für tintenschonende Ausmalseiten. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

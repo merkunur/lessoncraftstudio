@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy Druckvorlagen Preisgestaltung',
+    primaryKeyword: 'Druckvorlagen auf Etsy bepreisen Strategie',
     secondaryKeywords: [
-      'druckbare Arbeitsblätter auf Etsy bepreisen Anleitung',
-      'Etsy Druckvorlagen Preisstrategie Verkäufer',
-      'Preisgestaltung digitale Downloads Etsy Arbeitsblätter',
-      'Etsy Arbeitsblatt-Bündel Preisgestaltung',
+      'Etsy Gebühren berechnen Nettoumsatz Druckvorlagen',
+      'dreistufige Preisstruktur Arbeitsblätter Etsy',
+      'Bündelpreise für Etsy Druckvorlagen festlegen',
+      'Etsy Preistest Konversionsrate optimieren',
     ],
     lsiKeywords: [
-      'Etsy Gebührenberechnung digitale Produkte Nettoumsatz Aufschlüsselung',
-      'dreistufige Preisstruktur praktische Druckvorlagen-Bündel',
-      'Bündelpreisgestaltung Psychologie wahrgenommener Wertmultiplikator Arbeitsblätter',
-      'Etsy Gutscheinstrategie saisonale Preisanpassungen Verkäufer',
-      'Preistests Etsy Stats Konversionsrate Optimierung',
-      'internationale Preisgestaltung Währung Etsy digitale Downloads A4 Letter',
+      'Gebührenberechnung digitale Produkte Nettoumsatz',
+      'Bündelpreisgestaltung wahrgenommener Wert Arbeitsblätter',
+      'saisonale Preisanpassungen Etsy Gutscheine',
     ],
-    titleTag: 'Etsy Druckvorlagen Preisgestaltung — Preisleitfaden',
-    metaDescription: 'Druckbare Arbeitsblätter auf Etsy bepreisen. Gebührenberechnung, dreistufige Preisstruktur und Bündelstrategien. Saisonale Anpassungen für mehr Gewinn.',
+    titleTag: 'Druckvorlagen auf Etsy richtig bepreisen | LCS',
+    metaDescription: 'Druckvorlagen auf Etsy bepreisen — die richtige Strategie: Gebührenrechnung, dreistufige Preisstruktur, Bündelpreise und saisonale Anpassungen für mehr Gewinn.',
   },
 
   hero: {
-    title: 'So bepreisen Sie Ihre druckbaren Etsy-Arbeitsblätter',
+    title: 'Druckvorlagen auf Etsy richtig bepreisen — Strategie',
     tagline: 'Ein vollständiger Preisstrategie-Leitfaden für Etsy-Verkäufer druckbarer Arbeitsblätter — einschließlich Wettbewerberrecherche, Etsy-Gebührenberechnung und Nettoumsatz-Kalkulation, Basispreis-Richtwerte nach Produkttyp und Seitenzahl, dreistufige Preisstrukturen zur Steigerung des durchschnittlichen Bestellwerts, kategorieübergreifende und altersgruppenbasierte Bündelpreisgestaltung, strategischer Einsatz von Etsy-Rabatten und Gutscheinen, internationale Preisanpassungen für globale Käufer sowie Preistest-Methodik mit Etsy Stats Konversionsdaten',
-    description: 'Die Preisgestaltung ist die einzelne Entscheidung mit dem größten Hebel in Ihrem Etsy-Geschäft mit druckbaren Arbeitsblättern. Setzen Sie den Preis zu niedrig an, fressen die Etsy-Gebühren Ihre Margen auf. Setzen Sie ihn zu hoch an, ohne den Wert zu kommunizieren, scrollen Käufer weiter. Dieser Leitfaden gibt Ihnen das vollständige Preisrahmenwerk — von der Berechnung Ihres tatsächlichen Nettoumsatzes nach allen Etsy-Gebühren über den Aufbau einer dreistufigen Preisstruktur, die den durchschnittlichen Bestellwert natürlich steigert, bis hin zur Bepreisung kategorieübergreifender Bündel, die Premium-Preise erzielen. Ob Sie Ihr erstes Arbeitsblatt-Paket einstellen oder Preise in einem etablierten Katalog optimieren — am Ende dieses Leitfadens haben Sie eine datengestützte Preisstrategie.',
+    description: 'Druckvorlagen auf Etsy bepreisen — die richtige Strategie entscheidet über Ihren Gewinn. Setzen Sie den Preis zu niedrig an, fressen die Etsy-Gebühren Ihre Margen auf. Setzen Sie ihn zu hoch, scrollen Käufer weiter zum nächsten Angebot. Dieser Leitfaden gibt Ihnen das vollständige Preisrahmenwerk für nachhaltige Profitabilität: Sie lernen, Ihren tatsächlichen Nettoumsatz nach allen Etsy-Gebühren exakt zu berechnen, eine dreistufige Preisstruktur aufzubauen, die den durchschnittlichen Bestellwert natürlich steigert, und kategorieübergreifende Bündel zu bepreisen, die Premium-Preise erzielen. Außerdem erfahren Sie, wie Sie systematische Wettbewerberrecherche durchführen, Etsy-Rabatte und saisonale Anpassungen strategisch einsetzen und Preistests mit echten Konversionsdaten aus Etsy Stats durchführen, um Ihre Preisgestaltung kontinuierlich zu optimieren.',
   },
 
   introduction: 'Die meisten Etsy-Verkäufer druckbarer Arbeitsblätter machen bei der Preisgestaltung Fehler, und der Fehler geht fast immer in dieselbe Richtung: Unterbepreisung. Neue Verkäufer schauen sich Konkurrenz-Angebote an, sehen Arbeitsblätter für $1,99 oder $2,49 und passen ihre Preise an, ohne zu verstehen, was passiert, nachdem Etsy seine Gebühren abgezogen hat. Ein digitaler Download für $1,99 generiert nach Einstellgebühr, Transaktionsgebühr und Zahlungsabwicklungsgebühr nur etwa $1,40 tatsächlichen Umsatz. Bei dieser Marge brauchen Sie Hunderte von Verkäufen pro Monat, um ein sinnvolles Einkommen zu erzielen.\n\nDie Verkäufer, die nachhaltige Druckvorlagen-Geschäfte aufbauen, gehen die Preisgestaltung anders an. Sie verstehen, dass Etsy-Käufer nicht nach dem billigsten Arbeitsblatt suchen — sie suchen nach dem richtigen Arbeitsblatt. Ein Elternteil, das nach \"Additions-Arbeitsblätter erste Klasse" sucht, achtet weit mehr auf Qualität, Seitenzahl, enthaltene Lösungsschlüssel und Themenvielfalt als auf einen Dollar Preisunterschied. Eine Lehrkraft, die nach \"Mathe-Aktivitätenpaket für den Produkterstellung" sucht, gibt ein Schulbudget aus, kein persönliches Budget, und schätzt Vollständigkeit höher als Ersparnis.\n\nPreisstrategie für druckbare Arbeitsblätter bedeutet nicht, eine magische Zahl zu finden. Es geht darum, eine Preisstruktur aufzubauen — Einstiegsprodukte, die Käufer in Ihren Shop locken, mittelpreisige Bündel, die den Großteil des Umsatzes erwirtschaften, und Premium-Kollektionen, die den Wert pro Transaktion maximieren. Jede Stufe bedient eine andere Käufermentalität und eine andere Phase der Kaufentscheidung.\n\nDieser Leitfaden deckt das vollständige Preisrahmenwerk ab: wie Sie Wettbewerberpreise systematisch recherchieren, wie Sie Ihren tatsächlichen Nettoumsatz nach allen Etsy-Gebühren berechnen, wie Sie Basispreise nach Produkttyp und Seitenzahl festlegen, wie Sie eine dreistufige Struktur aufbauen, wie Sie Bündel für maximalen wahrgenommenen Wert bepreisen, wie Sie Etsy-Rabatte und Gutscheine einsetzen ohne Ihre Margen zu erodieren, wie Sie internationale Preisgestaltung handhaben und wie Sie Preise im Laufe der Zeit mit echten Konversionsdaten testen und optimieren.\n\nAlle in diesem Leitfaden erwähnten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Musterprodukte aus allen Generatoren erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz für die Produkte erwerben, die Sie verkaufen möchten.',

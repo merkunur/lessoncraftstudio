@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'weltraum-druckvorlagen-ideen',
+    primaryKeyword: 'Weltraum-Druckvorlagen auf Etsy verkaufen',
     secondaryKeywords: [
       'Weltraum-Arbeitsblätter auf Etsy erstellen',
       'Planeten-Raketen-Druckvorlagen auf KDP',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Weltraum-Planeten Arbeitsblätter Etsy-Markt',
       'Raumfahrt-Thema Lernmaterialien Verkauf',
     ],
-    titleTag: 'Weltraum-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Weltraum-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Weltraum-Produktkonzepte, STEM-Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
+    titleTag: 'Weltraum-Druckvorlagen für Etsy | LCS',
+    metaDescription: 'Weltraum-Druckvorlagen auf Etsy verkaufen — ganzjährige STEM-Nische mit Planeten, Raketen und Astronauten. Produktideen und Plattformstrategien für Ihren Shop.',
   },
   hero: {
-    title: 'Weltraum-Druckvorlagen-Geschäftsideen für Verkäufer',
-    description: 'Der Weltraum ist eines der universell faszinierendsten Themen für Kinder und damit eine leistungsstarke, immergrüne Nische für Druckvorlagen-Unternehmer, die konstante ganzjährige Verkäufe ohne saisonale Abhängigkeit wünschen. Das Weltraum-Thema bietet außergewöhnliche Unterthemen-Vielfalt einschließlich Planeten, Raketen, Astronauten, Sterne, Mond, Sonnensystemmodelle, Galaxien, Außerirdische, Raumschiffe, Sternbilder, Kometen, Teleskope und Raumstationen, was Verkäufern ein tiefes visuelles Vokabular bietet, das Fantasie und Neugier bei jungen Lernenden weckt. Die STEM-Bildungsausrichtung macht Weltraum-Druckvorlagen besonders wertvoll für Käufer, die naturwissenschaftliche Konzepte in Mathematik-, Lese- und Kunstaktivitäten über den gesamten Produktkatalog hinweg integrieren. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad kombiniert die Weltraum-Nische starke ganzjährige Nachfrage mit fächerübergreifendem lehrreichen Reiz, der sowohl bei Produktkäufern als auch bei Homeschool-Familien Anklang findet, die in naturwissenschaftlich reichhaltige Lernmaterialien investieren. Dieser Leitfaden behandelt spezifische Produktideen, Plattformstrategien und Positionierungsansätze, um Ihnen beim Aufbau einer profitablen Weltraum-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools zu helfen.',
+    title: 'Weltraum-Druckvorlagen — STEM-Geschäftsideen für Etsy-Verkäufer',
+    description: 'Weltraum-Druckvorlagen auf Etsy verkaufen bietet Ihnen eine leistungsstarke Evergreen-Nische mit konstanter ganzjähriger Nachfrage ohne saisonale Abhängigkeit. Sie profitieren von außergewöhnlicher Unterthemen-Vielfalt — Planeten, Raketen, Astronauten, Sterne, Galaxien und Sternbilder liefern ein tiefes visuelles Vokabular für Dutzende einzigartiger Produkte in Ihrem Shop. Die STEM-Bildungsausrichtung macht Weltraum-Druckvorlagen besonders wertvoll, denn naturwissenschaftliche Konzepte integrieren sich natürlich in Mathematik-, Lese- und Kunstaktivitäten über den gesamten Produktkatalog hinweg. Sowohl Homeschool-Familien als auch institutionelle Käufer investieren ganzjährig in Weltraum-Lernmaterialien für alle Altersstufen. Dieser Leitfaden zeigt Ihnen konkrete Produktideen, Plattformstrategien und Positionierungsansätze für Etsy, KDP und Gumroad, mit denen Sie eine profitable Weltraum-Produktlinie aufbauen — erstellt mit unseren Arbeitsblatt-Generator-Tools.',
   },
   marketOverview: `Die Weltraum-Druckvorlagen-Nische nimmt eine einzigartig vorteilhafte Position für Druckvorlagen-Verkäufer ein, da sie konstante ganzjährige Nachfrage ohne die Boom-und-Bust-Zyklen liefert, die saisonale Nischen kennzeichnen. Die Faszination von Kindern für den Weltraum ist zutiefst universell und erstreckt sich über Altersgruppen, Kulturen und Bildungsphilosophien hinweg. Vorschulkinder sind von Raketen und Sternen begeistert, Kindergartenkinder lieben es, Planetennamen und Astronautenabenteuer zu lernen, und K-2-Produktmarkt tauchen eifrig in Sonnensystem-Fakten, Sternbild-Identifikation und Geschichte der Weltraumforschung ein. Diese breite Altersansprache bedeutet, dass Verkäufer Produkte für mehrere Altersstufen aus einem einzigen Thema erstellen können, was ihre Katalogtiefe vervielfacht, ohne das Fachgebiet wechseln zu müssen.
 

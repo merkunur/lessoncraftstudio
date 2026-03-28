@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bilder-bingo-generator',
+    primaryKeyword: 'Bilder-Bingo-Generator für Etsy Druckvorlagen verkaufen',
     secondaryKeywords: [
-      'druckbarer Bingo-Karten-Generator für Etsy-Verkäufer',
-      'Bilder-Bingo-Arbeitsblatt-Generator für KDP-Verleger',
-      'Bingo-Karten-Ersteller kommerzielle Lizenz',
-      'Bingo-Aktivitäten auf Gumroad verkaufen',
+      'Bingo-Karten erstellen und auf Etsy verkaufen',
+      'Bilder-Bingo-Generator für KDP-Aktivitätsbücher',
+      'druckbare Bingo-Karten Printable-Business',
+      'Bingo-Stapel-Generierung ZIP-Export Etsy-Shop',
     ],
     lsiKeywords: [
-      'digitale Bingo-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Bingo-Karten-Generator mit Ansageblatt',
-      'Druckvorlagen-Geschäft Bingo-Aktivitäten Werkzeuge',
+      'Bingo-Aktivitätsbücher Amazon KDP veröffentlichen',
+      'Druckvorlagen-Geschäft Bingo-Karten passive Einnahmen',
+      'Bingo-Karten Ansageblatt 104 Themen Export',
     ],
-    titleTag: 'Bilder-Bingo-Generator | Bingo-Karten erstellen',
-    metaDescription: 'Bilder-Bingo-Karten erstellen und auf Etsy, KDP verkaufen. Stapel-Generierung, ZIP-Export, Ansageblatt, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Bilder-Bingo-Generator für Etsy-Druckvorlagen | LCS',
+    metaDescription: 'Bilder-Bingo-Karten für Etsy-Druckvorlagen erstellen — Stapel-Generierung, ZIP-Export, Ansageblatt und 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Bilder-Bingo-Karten-Generator für druckbare Bingo-Aktivitäten',
+    title: 'Bilder-Bingo-Karten erstellen für Ihr Druckvorlagen-Business',
     tagline: 'Generieren Sie 1–10 einzigartige Bingo-Karten pro Stapel mit konfigurierbaren Rastern von 3×3 bis 5×5 — Bild- oder Wort-Füllung für Kartenzellen und runde Chips unabhängig wählbar, ein eigenes Ansageblatt für den Spielleiter, ZIP-Stapelexport aller Karten und 104 thematische Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Bilder-Bingo-Karten, bei denen Spieler passende Bilder oder Wörter auf ihren individuellen Kartenrastern markieren. Konfigurieren Sie Zeilen von 3 bis 5 und Spalten von 3 bis 5 unabhängig voneinander und erstellen Sie Raster von 3×3 (9 Zellen) bis 5×5 (25 Zellen) mit einem Standardwert von 4×4 (16 Zellen). Wählen Sie Bild-Füllung oder Wort-Füllung unabhängig für Kartenzellen und runde Chips — Chips haben gestrichelte Ränder und werden per Fisher-Yates-Algorithmus gemischt für authentisches Bingo-Spiel. Generieren Sie 1–10 einzigartige Bingo-Karten pro Stapel, wobei jede Karte eine andere zufällige Bildauswahl aus dem Pool erhält. Ein eigenes Ansageblatt auf einem separaten Tab zeigt ein dynamisches Wortraster für den Spielleiter, mit Spalten basierend auf der längsten Wortlänge und einheitlicher Schriftgröße. Wählen Sie bestimmte Bilder für die benutzerdefinierte Ansage-Auswahl von Hand aus oder lassen Sie die App automatisch aus Ihrem Thema wählen. Der Bilder-Bingo-Karten-Generator ist sprachabhängig: Die Wort-Füllung verwendet lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel die Wörter auf Karten, Chips und dem Ansageblatt ändert. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen für lokalisierte Wortinhalte frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie benutzerdefinierten Text mit sieben Schriftoptionen und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Exportieren Sie alle generierten Karten als einzelne JPEGs in einer einzigen ZIP-Datei per Stapelexport. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen nur auf Englisch; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen für lokalisierte Wortinhalte frei. Ob Sie thematische Bingo-Pakete auf Etsy.de verkaufen, Bingo-Aktivitätsbücher für Amazon KDP zusammenstellen oder Bingo-Sets für den Gumroad erstellen — dieser Generator liefert produktionsfertige Bingo-Karten in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Bilder-Bingo-Karten mit dem Bingo-Generator und verkaufen Sie druckbare Bingo-Sets auf Etsy, Amazon KDP oder Gumroad. Generieren Sie 1 bis 10 einzigartige Karten pro Stapel mit Rastern von 3×3 bis 5×5 — Bild- oder Wort-Füllung für Zellen und Chips unabhängig wählbar. Jeder Stapel enthält ein separates Ansageblatt für den Spielleiter. Der ZIP-Stapelexport liefert alle Karten in einer Datei. Die Wort-Füllung ist sprachabhängig mit lokalisierten Bildnamen in 11 Sprachen. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
   howItWorks: {

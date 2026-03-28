@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'subtraktions-ersteller',
+    primaryKeyword: 'kostenloser Minusaufgaben Generator',
     secondaryKeywords: [
-      'Subtraktions-Arbeitsblätter Generator online',
-      'Durchstreich-Arbeitsblätter erstellen',
-      'druckbare Subtraktionsübungen Generator',
-      'bildbasierte Subtraktionsaufgaben Ersteller',
+      'Minusaufgaben Generator kostenlos ohne Anmeldung',
+      'Subtraktions-Arbeitsblätter online erstellen',
+      'Durchstreich-Arbeitsblätter Generator sofort nutzen',
+      'kostenlose Minusaufgaben mit Bildern erstellen',
     ],
     lsiKeywords: [
-      'visuelle Abzieh-Übungen Druckvorlagen',
-      'Durchstreichen Mathe-Arbeitsblatt-Tool',
-      'Zahlenraum 2–20 Subtraktionsübungen',
+      'visuelle Subtraktionsübungen Durchstreichen',
+      'bildbasierte Abzieh-Arbeitsblätter druckfertig',
+      'Zahlenraum 2–20 Minusaufgaben Generator',
     ],
-    titleTag: 'Subtraktions-Ersteller | Durchstreich-Übungen',
-    metaDescription: 'Subtraktions-Arbeitsblätter mit Durchstreich-Bildern erstellen. 4 Übungsmodi, 104 Themen, Lösungsschlüssel für Etsy und KDP. Kostenlos testen mit.',
+    titleTag: 'Kostenloser Minusaufgaben Generator | LCS',
+    metaDescription: 'Kostenloser Minusaufgaben Generator — Subtraktions-Arbeitsblätter mit Durchstreich-Bildern online erstellen. Testversion mit Wasserzeichen, Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Subtraktions-Arbeitsblatt-Ersteller',
+    title: 'Minusaufgaben Generator — Durchstreich-Arbeitsblätter erstellen',
     tagline: 'Erstellen Sie visuelle Durchstreich-Subtraktions-Arbeitsblätter in unter 60 Sekunden',
-    description: 'Machen Sie Subtraktion greifbar mit der einzigartigen Durchstreich-Visualisierung, die Kinder intuitiv verstehen. Dieser leistungsstarke Ersteller generiert bildbasierte Subtraktions-Arbeitsblätter, bei denen Nutzer Bilder durchstreichen, um die Antwort zu finden — die natürlichste Methode, um das Abziehen zu lernen. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, stellen Sie den maximalen Minuenden ein, wählen Sie aus vier Übungsmodi einschließlich des einzigartigen Durchstreich-Formats und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Der integrierte Graustufen-Schalter erzeugt tintenfreundliche Schwarz-Weiß-Versionen mit einem Klick. Perfekt für Etsy.de-Verkäufer, die gestufte Mathe-Produktlinien aufbauen, Amazon-KDP-Verleger, die Subtraktions-Aktivitätsbücher zusammenstellen, und Gumroad-Anbieter, die visuelles Übungsmaterial für verschiedene Leistungsstufen benötigen. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre erstellten Arbeitsblätter kommerziell zu verkaufen.',
+    description: 'Unser kostenloser Minusaufgaben Generator erstellt bildbasierte Subtraktions-Arbeitsblätter mit der einzigartigen Durchstreich-Visualisierung — direkt im Browser, ohne Anmeldung und ohne Installation. Nutzer streichen Bilder durch, um die Antwort zu finden, was Subtraktion greifbar und intuitiv macht. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, stellen Sie den maximalen Minuenden ein (2–20), wählen Sie aus vier Übungsmodi einschließlich des einzigartigen Durchstreich-Formats und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Der integrierte Graustufen-Schalter erzeugt tintenfreundliche Schwarz-Weiß-Versionen mit einem Klick. Das Tool unterstützt 11 Sprachen und generiert automatisch einen passenden Lösungsschlüssel. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schatzsuche-generator',
+    primaryKeyword: 'Schatzsuche-Rätsel-Generator für Etsy und KDP',
     secondaryKeywords: [
-      'druckbarer Schatzsuche-Rätsel-Generator für Etsy-Verkäufer',
-      'Richtungs-Rätsel-Arbeitsblatt-Ersteller für KDP-Verleger',
-      'Koordinatenraster-Schatzsuche kommerzielle Lizenz',
-      'Schatzsuche-Arbeitsblätter auf Etsy.de und Amazon verkaufen',
+      'Schatzsuche-Rätsel erstellen für Etsy verkaufen',
+      'Richtungs-Rätsel-Generator für KDP-Rätselbücher',
+      'Koordinatenraster-Schatzsuche Druckvorlagen Etsy-Shop',
+      'Wegfindungs-Rätsel-Arbeitsblätter Printable-Business',
     ],
     lsiKeywords: [
-      'digitale Schatzsuche-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Richtungs-Rätsel-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft Wegfindungs-Rätsel Werkzeuge',
+      'Rätselbücher Amazon KDP Schatzsuche veröffentlichen',
+      'Druckvorlagen-Geschäft Richtungsrätsel Einnahmen',
+      'Koordinatenraster zwei Richtungstypen 11 Sprachen',
     ],
-    titleTag: 'Schatzsuche-Generator | Richtungs-Rätsel',
-    metaDescription: 'Schatzsuche-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 5×5-Koordinatenraster, zwei Richtungstypen, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Schatzsuche-Rätsel-Generator für Etsy und KDP | LCS',
+    metaDescription: 'Schatzsuche-Rätsel erstellen für Etsy und KDP — Koordinatenraster mit zwei Richtungstypen in 11 Sprachen. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {
-    title: 'Schatzsuche-Arbeitsblatt-Generator für Wegfindungs-Richtungsrätsel',
+    title: 'Schatzsuche-Rätsel erstellen und auf Etsy verkaufen',
     tagline: 'Richtungsbasierte Wegfindungs-Rätsel auf einem 5×5-Koordinatenraster generieren — zwei Richtungsvokabulare (Grundrichtungen: oben/unten/links/rechts und Himmelsrichtungen: Norden/Süden/Osten/Westen), vollständig lokalisierte Richtungsanweisungen in 11 Sprachen, automatisch generierter Lösungsschlüssel mit hervorgehobener Schatzposition und schatzsuchenthematische Header über 104 Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Schatzsuche-Arbeitsblätter, bei denen Nutzer sequenzielle Bewegungsanweisungen befolgen, um einen versteckten Schatz auf einem 5×5-Buchstaben-Zahlen-Koordinatenraster (A–E Zeilen, 1–5 Spalten) zu finden. Jedes Rätsel verteilt 6 thematische Bilder als visuelle Orientierungspunkte über das Raster, generiert dann eine Startposition und genau 4 Richtungsbewegungen, die zur Schatzzelle führen. Wählen Sie zwischen zwei Richtungsvokabularen: Der Grundrichtungen-Modus verwendet oben, unten, links und rechts für Anfänger, die räumliches Vokabular aufbauen. Der Himmelsrichtungen-Modus verwendet Norden, Süden, Osten und Westen für fortgeschrittenes räumliches Denken und Kompassrichtungs-Kompetenz. Der Schatzsuche-Generator ist sprachabhängig: Ein Sprachwechsel ändert sowohl den Richtungsanweisungstext als auch die Bildinhalte, wobei alle Richtungen vollständig in 11 unterstützte Sprachen übersetzt werden. Für deutsche Verkäufer bedeutet das: Deutsche Richtungsanweisungen — \"Starte bei\", \"Bewege dich nach oben 2 Felder\", \"Wo ist der Schatz?\" — erzeugen automatisch authentische deutsche Schatzsuche-Arbeitsblätter, ohne manuelles Übersetzen. Jedes Rätsel enthält einen automatisch generierten lokalisierten Header mit türkisem Hintergrund (#2C8C7C), goldenem Titel (#D4A017) in Fredoka-Schrift und sandiger Beschreibung in Quicksand — \"Schatzsuche\" und \"Follge den Hinweisen und finde den Schatz!\" werden in der ausgewählten Sprache angezeigt. Das Dual-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel hebt die finale Schatzzelle in Blassgelb hervor, sodass Sie sie nie manuell markieren müssen. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Sprachen für lokalisierte Richtungsanweisungen und Bilder frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Ob Sie thematische Schatzsuche-Pakete auf Etsy.de verkaufen, Richtungskompetenz-Arbeitsbücher für Amazon KDP zusammenstellen oder Koordinatenraster-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Rätsel in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Schatzsuche-Rätsel mit dem Schatzsuche-Generator und verkaufen Sie diese auf Etsy, Amazon KDP oder Gumroad. Jedes Rätsel platziert 6 thematische Bilder als Orientierungspunkte auf einem 5×5-Koordinatenraster und generiert eine Startposition mit 4 Richtungsbewegungen zur Schatzzelle. Wählen Sie zwischen zwei Richtungsvokabularen: Grundrichtungen (oben/unten/links/rechts) für Einsteiger oder Himmelsrichtungen (Norden/Süden/Osten/Westen) für Fortgeschrittene. Der Generator ist sprachabhängig — ein Sprachwechsel erzeugt automatisch lokalisierte Richtungsanweisungen in allen 11 unterstützten Sprachen, sodass Sie authentische deutsche Schatzsuche-Arbeitsblätter ohne manuelles Übersetzen erstellen. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit hervorgehobener Schatzzelle. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte für jede Nische. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

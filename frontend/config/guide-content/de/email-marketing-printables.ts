@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'E-Mail-Marketing Druckvorlagen',
+    primaryKeyword: 'E-Mail-Marketing für Druckvorlagen-Verkäufer',
     secondaryKeywords: [
-      'E-Mail-Liste Druckvorlagen-Verkäufer',
-      'Newsletter für Arbeitsblatt-Geschäft',
-      'E-Mail-Marketing digitale Produkte',
-      'Druckvorlagen-Geschäft E-Mail-Strategie',
+      'E-Mail-Liste Printable-Business aufbauen',
+      'Lead-Magnet Arbeitsblatt-Shop erstellen',
+      'automatisierte E-Mail-Sequenzen Etsy-Verkäufer',
+      'Newsletter-Strategie digitale Produkte',
     ],
     lsiKeywords: [
-      'Abonnentenliste Lead-Magnet Opt-in Gratisangebot Willkommenssequenz E-Mail-Automatisierung',
-      'Öffnungsrate Klickrate Segmentierung Rundmail-E-Mails Drip-Kampagne',
-      'E-Mail-Dienstleister Zielseite Konversionsrate Abmelderate',
-      'Betreffzeilen-Optimierung E-Mail-Zustellbarkeit Abonnenten-Engagement',
-      'Automatisierte Sequenzen Reaktivierungskampagne Listenhygiene Absenderreputation',
-      'Inhaltskalender E-Mail-Analytik A/B-Testing Personalisierungs-Tags',
+      'Abonnentenliste Lead-Magnet Willkommenssequenz E-Mail-Automatisierung Segmentierung',
+      'Öffnungsrate Klickrate Drip-Kampagne Konversionsrate Betreffzeilen-Optimierung',
+      'E-Mail-Dienstleister Listenhygiene Absenderreputation A/B-Testing Personalisierung',
     ],
-    titleTag: 'E-Mail-Marketing Druckvorlagen — Verkäuferstrategie',
-    metaDescription: 'E-Mail-Marketing für Druckvorlagen-Verkäufer. Abonnentenliste aufbauen, Lead-Magnete erstellen und Sequenzen automatisieren. Wiederholungskäufe steigern.',
+    titleTag: 'E-Mail-Marketing für Printable-Verkäufer | LCS',
+    metaDescription: 'E-Mail-Marketing für Druckvorlagen-Verkäufer: E-Mail-Liste aufbauen, Lead-Magnete erstellen, Sequenzen automatisieren und Wiederholungskäufe steigern.',
   },
 
   hero: {
-    title: 'E-Mail-Marketing für Druckvorlagen-Verkäufer',
+    title: 'E-Mail-Marketing für Druckvorlagen-Verkäufer aufbauen',
     tagline: 'Ein umfassender Leitfaden zum E-Mail-Marketing für Druckvorlagen-Verkäufer — von der Auswahl eines E-Mail-Dienstleisters über die Erstellung überzeugender Lead-Magnete, den Aufbau hochkonvertierender Zielseiten, die Gestaltung von Willkommenssequenzen, die Entwicklung von Rundmail-Inhaltsstrategien, die Segmentierung Ihrer Abonnentenliste, die Automatisierung saisonaler Kampagnen bis hin zur Nachverfolgung von Kennzahlen für kontinuierliche Optimierung',
-    description: 'E-Mail ist der einzige Marketingkanal, den Sie vollständig besitzen und kontrollieren. Social-Media-Algorithmen ändern sich, Marktplatz-Suchrankings schwanken und Werbekosten steigen — aber Ihre E-Mail-Liste gehört Ihnen. Jeder Abonnent repräsentiert eine direkte Verbindung zu einem potenziellen Käufer, der bereits Interesse an Ihren Produkten gezeigt hat. Für Druckvorlagen-Verkäufer verwandelt E-Mail-Marketing einmalige Marktplatz-Kunden in Stammkäufer, die direkt einkaufen, Ihre Produkte weiterempfehlen und sich mit jeder neuen Veröffentlichung beschäftigen, die Sie ankündigen.',
+    description: 'E-Mail-Marketing für Druckvorlagen-Verkäufer ist der einzige Kanal, den Sie vollständig besitzen und kontrollieren — unabhängig von Etsy-Algorithmen, Pinterest-Änderungen oder Amazon-Rankingschwankungen. Während Marktplatz-Sichtbarkeit über Nacht einbrechen kann, gehört Ihre E-Mail-Liste dauerhaft Ihnen. Sie erfahren in diesem Leitfaden, wie Sie überzeugende Lead-Magnete erstellen, die Ihre Zielkäufer im DACH-Markt anziehen, Willkommenssequenzen gestalten, die Vertrauen aufbauen, und Ihre Liste nach Interessen und Kaufverhalten für gezielte Kampagnen segmentieren. Außerdem lernen Sie, saisonale Kampagnen für Schulanfang, Feiertage und Ferienzeiten zu automatisieren, Kennzahlen wie Öffnungsrate und Klickrate systematisch zu verfolgen und DSGVO-konforme Prozesse einzurichten. Das Ziel: Einmalige Marktplatz-Kunden werden zu loyalen Stammkäufern, die direkt bei Ihnen einkaufen.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer verlassen sich vollständig auf Marktplatz-Suchverkehr und Social-Media-Algorithmen, um potenzielle Käufer zu erreichen. Wenn Etsy seinen Suchalgorithmus ändert, sinkt ihre Sichtbarkeit über Nacht. Wenn Pinterest seinen Feed anpasst, versiegt ihr Traffic. Wenn eine Social-Media-Plattform geschäftliche Inhalte herabstuft, schrumpft ihre Reichweite auf einen Bruchteil ihrer Follower-Zahl. Diese Verkäufer haben ihre Geschäfte auf fremdem Boden aufgebaut — Plattformen, die sie nicht kontrollieren und die die Regeln jederzeit ohne Vorwarnung oder Einspruchsmöglichkeit ändern können.\n\nE-Mail-Marketing löst diese grundlegende Verwundbarkeit, indem es einen direkten Kommunikationskanal zwischen Ihnen und Ihrem Publikum schafft, den kein Algorithmus einschränken kann. Wenn Sie eine E-Mail senden, kommt sie im Posteingang Ihres Abonnenten an, unabhängig davon, was eine Plattform in dieser Woche zu priorisieren beschließt. Ihre Nachricht erreicht 100 % der Empfänger (abzüglich des geringen Anteils, der von Spam-Systemen gefiltert wird), verglichen mit Social-Media-Beiträgen, die typischerweise 2 % bis 10 % Ihrer Follower erreichen. Diese Zuverlässigkeit der Reichweite macht E-Mail dramatisch effektiver für konstante, vorhersehbare Verkäufe als jeden algorithmusabhängigen Kanal.\n\nDie Wirtschaftlichkeit des E-Mail-Marketings ist speziell für Druckvorlagen-Verkäufer überzeugend. Digitale Produkte haben keine Lagerkosten, keine Versandlogistik und keine Erfüllungsverzögerungen — das bedeutet, dass jeder E-Mail-getriebene Verkauf mit maximaler Marge konvertiert. Ein Abonnent, der über Ihre E-Mail durchklickt und ein Arbeitsblatt-Paket kauft, generiert reinen Gewinn jenseits der vernachlässigbaren Kosten des E-Mail-Versands selbst. Im Gegensatz zu Werbung, bei der Sie pro Klick bezahlen, unabhängig von der Konversion, sind die Kosten des E-Mail-Marketings pro Abonnentenzahl festgelegt, nicht pro gesendeter Nachricht. Eine Liste von 2.000 engagierten Abonnenten kostet dasselbe zum E-Mailen, egal ob Sie eine Rundmail oder zehn pro Monat senden.\n\nE-Mail-Marketing zeichnet sich besonders bei dem spezifischen Verkaufsmuster aus, von dem Druckvorlagen-Geschäfte abhängen: Wiederholungskäufe von derselben Kundenbasis. Ein Käufer, der Ihre Additionsarbeitsblätter kauft, braucht wahrscheinlich auch Subtraktion, Multiplikation und Textaufgaben-Arbeitsblätter. Ein Elternteil, das Ihr Kindergartenvorbereitungspaket kauft, wird nächstes Jahr Ressourcen für die erste Klasse benötigen. Eine Homeschool-Familie, die Ihre Wissenschaftsarbeitsblätter nutzt, wird neue Themen wollen, wenn sie ihren Produktkatalog durcharbeitet. E-Mail gibt Ihnen einen direkten Kanal, um diese bestehenden Käufer über neue Produkte zu informieren, die ihren nachgewiesenen Interessen entsprechen — etwas, das Marktplatz-Algorithmen nicht zuverlässig leisten können, selbst wenn der Kunde bereits bei Ihnen gekauft hat.\n\nDieser Leitfaden führt Sie durch den Aufbau eines vollständigen E-Mail-Marketing-Systems für Ihr Druckvorlagen-Geschäft. Jeder Schritt behandelt eine spezifische Komponente des Systems, von der Auswahl der richtigen Tools und der Erstellung von Lead-Magneten, die Ihre Zielkäufer anziehen, über die Gestaltung automatisierter Sequenzen bis hin zur Optimierung basierend auf Leistungsdaten. Das Ziel ist ein Marketingkanal, der konsistente Verkäufe generiert, unabhängig von jedem Marktplatz oder jeder Social-Media-Plattform, und Ihrem Geschäft Widerstandsfähigkeit gegen die Algorithmusänderungen verleiht, die unweigerlich jeden Verkäufer betreffen, der sich ausschließlich auf Drittanbieter-Traffic verlässt.',

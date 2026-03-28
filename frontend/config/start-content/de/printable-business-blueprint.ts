@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'druckvorlagen-geschäft ideen',
+    primaryKeyword: 'Druckvorlagen-Business von Idee zu Einkommen',
     secondaryKeywords: [
       'Druckvorlagen-Geschäftsplan für Verkäufer',
       'profitable Druckvorlagen-Produktideen',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'Produktlinien-Planung für Verkäufer',
       'Druckvorlagen-Geschäft Start-Checkliste',
     ],
-    titleTag: 'Druckvorlagen-Geschäft Ideen — Bauplan zum Einkommen',
-    metaDescription: 'Druckvorlagen-Geschäftsideen in einen Bauplan verwandeln. Produktlinie planen, Plattformen wählen, Preise setzen und mit Arbeitsblatt-Generatoren.',
+    titleTag: 'Printable-Business: Von Idee zu Einkommen | LCS',
+    metaDescription: 'Printable-Business von der Idee zum Einkommen aufbauen. Strukturierter Geschäftsplan mit Nischenwahl, Produktlinie, Preisstrategie und 90-Tage-Startplan.',
   },
 
   hero: {
-    title: 'Der Druckvorlagen-Geschäfts-Bauplan: Von der Idee zum Einkommen',
+    title: 'Printable-Business Bauplan: Von der Idee zum Einkommen',
     tagline: 'Ein strukturierter Plan, der verstreute Druckvorlagen-Geschäftsideen in eine fokussierte, umsatzgenerierende Produktlinie verwandelt',
-    description: 'Die meisten Druckvorlagen-Geschäfte scheitern nicht, weil dem Verkäufer Ideen fehlten, sondern weil ein Plan fehlte. Dieser Bauplan führt Sie durch jede Planungsphase: Ihre Druckvorlagen-Geschäftsidee validieren, Ihre Produktlinie planen, die richtigen Plattformen wählen, realistische Umsatzziele setzen und mit einem klaren Aktionsplan starten. Ob Sie bei null beginnen oder einen schwächelnden Shop umstrukturieren — dieser Leitfaden gibt Ihnen das strategische Rahmenwerk, das Verkäufer mit nachhaltigem Einkommen von denen unterscheidet, die zufällige Produkte erstellen und auf das Beste hoffen.',
+    description: 'Ihr Druckvorlagen-Business von der Idee zum Einkommen aufzubauen erfordert einen klaren Plan — und genau den liefert dieser Bauplan. Die meisten Geschäfte scheitern nicht an fehlenden Ideen, sondern an fehlender Struktur und strategischer Ausrichtung. Dieser Leitfaden führt Sie durch jede Planungsphase: Geschäftsidee validieren, Produktlinie systematisch planen, die richtigen Plattformen wie Etsy, Amazon KDP und Gumroad strategisch kombinieren, realistische Umsatzziele setzen und mit einem konkreten 90-Tage-Aktionsplan starten, der Meilensteine definiert. Sie lernen, wie Sie Ihren Katalog so strukturieren, dass jedes neue Produkt auf den vorherigen aufbaut und die Sichtbarkeit Ihres gesamten Shops erhöht. Ob Sie bei null beginnen oder einen schwächelnden Shop umstrukturieren — Sie erhalten das strategische Rahmenwerk, das Verkäufer mit nachhaltigem Einkommen von denen unterscheidet, die zufällige Produkte erstellen.',
   },
 
   introduction: 'Das Internet ist voll von Druckvorlagen-Geschäftsideen. Durchstöbern Sie ein beliebiges Unternehmer-Forum und Sie finden Listen mit \"50 Druckvorlagen, die Sie heute verkaufen können" oder \"beste digitale Produkte für Etsy.de." Die Ideen sind nicht das Problem. Das Problem ist, dass die meisten Verkäufer die Planungsphase komplett überspringen.\n\nSie greifen eine zufällige Idee auf, erstellen eine Handvoll Produkte, listen sie auf Etsy.de und fragen sich, warum nach zwei Wochen nichts verkauft wird. Dann wählen sie eine andere Idee und wiederholen denselben Kreislauf. Sechs Monate später haben sie einen ungeordneten Shop mit 15 zusammenhanglosen Produkten, keiner klaren Marke und null Schwung.\n\nDie Verkäufer, die echtes Einkommen mit Druckvorlagen aufbauen, gehen anders vor. Sie beginnen mit einem Bauplan — einem strukturierten Plan, der ihre Nische, Produktlinie, Plattformstrategie, Preisgestaltung und Wachstumsmeilensteine abbildet, bevor sie ein einziges Produkt erstellen. Dieser Plan muss nicht komplex sein, aber er muss existieren.\n\nDieser Leitfaden ist dieser Bauplan. Am Ende werden Sie einen konkreten Plan haben, der Ihre ersten 50 Produkte, Ihre Plattformstrategie, Ihre Preisstruktur und Ihren 90-Tage-Startzeitplan abdeckt. Jeder erwähnte Arbeitsblatt-Generator bietet eine kostenlose Testversion mit Wasserzeichen, sodass Sie die Produkterstellung als Teil Ihres Planungsprozesses ohne Vorabkosten testen können.',

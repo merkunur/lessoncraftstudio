@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Additions-Arbeitsblätter für die Produkterstellung erstellen',
+    primaryKeyword: 'kostenloser Plusaufgaben Generator online',
     secondaryKeywords: [
-      'Additions-Arbeitsblatt-Ersteller für Verkäufer',
-      'Mathe-Additions-Arbeitsblätter für Kinder',
-      'druckbare Additionsübungen',
-      'Bild-Additions-Arbeitsblätter für die Vorschule',
+      'Plusaufgaben Generator kostenlos ohne Anmeldung',
+      'Additions-Arbeitsblätter online erstellen',
+      'Bild-Additionsaufgaben Generator sofort nutzen',
+      'kostenlose Plusaufgaben mit Bildern erstellen',
     ],
     lsiKeywords: [
-      'visuelle Mathe-Arbeitsblätter für die Klasse',
-      'bildbasierte Additionsübungen für Kinder',
-      'Vorschul-Mathe-Arbeitsblätter für Verkäufer',
+      'visuelle Mathe-Arbeitsblätter mit Themenbildern',
+      'bildbasierte Additionsübungen druckfertig',
+      'Vorschul-Additionsaufgaben Generator',
     ],
-    titleTag: 'Additions-Arbeitsblätter Erstellen — Für Verkäufer',
-    metaDescription: 'Additions-Arbeitsblätter mit Themenbildern für die Produkterstellung erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel, druckfertige PDFs. Kostenlos testen.',
+    titleTag: 'Kostenloser Plusaufgaben Generator Online | LCS',
+    metaDescription: 'Kostenloser Plusaufgaben Generator online — Additions-Arbeitsblätter mit Bildern sofort erstellen, ohne Anmeldung. Testversion mit Wasserzeichen verfügbar.',
     },
 
   hero: {
-    title: 'Additions-Arbeitsblatt-Ersteller',
+    title: 'Plusaufgaben Generator — Additions-Arbeitsblätter kostenlos erstellen',
     tagline: 'Erstellen Sie professionelle, bildbasierte Additions-Arbeitsblätter in unter 60 Sekunden',
-    description: 'Verwandeln Sie Mathe-Übungen in ein visuelles Erlebnis, das Kinder begeistert und Verkäufern solide Einnahmen bringt. Mit diesem leistungsstarken Tool erstellen Sie individuelle Additions-Arbeitsblätter mit thematischen Bildern, die Kinder wirklich gerne bearbeiten. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, legen Sie den Schwierigkeitsgrad über vier verschiedene Übungsmodi fest, bestimmen Sie Ihr Seitenlayout bis ins kleinste Detail und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Perfekt für Etsy.de-Verkäufer, die druckbare Mathe-Produkte erstellen und skalierbares Einkommen generieren möchten, Amazon-KDP-Verleger, die Aktivitätsbücher zusammenstellen, und Gumroad-Anbieter, die gestufte Übungsmaterialien für verschiedene Leistungsstufen benötigen. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre erstellten Arbeitsblätter auf jeder Plattform kommerziell zu verkaufen.',
+    description: 'Mit unserem kostenloser Plusaufgaben Generator online erstellen Sie in Sekunden professionelle Additions-Arbeitsblätter mit thematischen Bildern — direkt im Browser, ohne Anmeldung und ohne Software-Download. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, legen Sie den Schwierigkeitsgrad über vier verschiedene Übungsmodi fest, bestimmen Sie Ihr Seitenlayout bis ins kleinste Detail und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Das Tool unterstützt Seitengrößen von Letter über A4 bis Quadrat und benutzerdefinierte Formate. Passen Sie Zahlenbereich, Aufgabenanzahl und Bildauswahl individuell an, fügen Sie Text, Titel und dekorative Rahmen hinzu und generieren Sie automatisch einen passenden Lösungsschlüssel. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz auf Etsy, Amazon KDP oder Gumroad können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

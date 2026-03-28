@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'malvorlagen-generator',
+    primaryKeyword: 'Ausmalbilder-Generator zum Verkaufen auf Etsy und KDP',
     secondaryKeywords: [
-      'druckbarer Ausmalseiten-Generator für Etsy-Verkäufer',
-      'Ausmalbilder-Generator mit Freihand-Zeichenwerkzeug für KDP-Verleger',
-      'Malvorlagen-Arbeitsblätter auf Gumroad verkaufen',
-      'Ausmalseiten-Ersteller kommerzielle Lizenz',
+      'Ausmalbilder erstellen und auf Etsy verkaufen',
+      'Malvorlagen-Generator für KDP-Ausmalbücher',
+      'druckbare Ausmalseiten für Printable-Business',
+      'Ausmalbilder-Ersteller kommerzielle Lizenz Etsy',
     ],
     lsiKeywords: [
-      'digitale Ausmalseiten-Druckvorlagen skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Malvorlagen-Werkzeuge',
-      'kommerzieller Ausmalbilder-Generator mit Graustufen-Export',
+      'Ausmalbücher Amazon KDP veröffentlichen Einnahmen',
+      'Druckvorlagen-Geschäft Malvorlagen passive Einnahmen',
+      'Ausmalseiten Freihand-Werkzeug Graustufen-Export',
     ],
-    titleTag: 'Malvorlagen-Generator | Ausmalbilder erstellen',
-    metaDescription: 'Malvorlagen und Ausmalbilder erstellen und auf Etsy, KDP verkaufen. Freie Arbeitsfläche, 104 S/W-Themen, Freihand-Werkzeug. Kostenlos testen mit.',
+    titleTag: 'Ausmalbilder-Generator für Etsy und KDP | LCS',
+    metaDescription: 'Ausmalbilder-Generator für Etsy und KDP — erstellen Sie professionelle Malvorlagen mit 104 S/W-Themen und Freihand-Werkzeug. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Malvorlagen-Generator für individuelle Ausmalseiten und Ausmalbilder',
+    title: 'Ausmalbilder erstellen und auf Etsy oder KDP verkaufen',
     tagline: 'Freier Arbeitsflächen-Designer für Ausmalseiten — durchsuchen Sie 104 thematische Bildsammlungen mit Schwarzweiß-Umrisszeichnungen, fügen Sie Freihand-Zeichnungen hinzu, integrieren Sie Shop-Helfer wie Namensfelder und Schreiblinien, und aktivieren Sie den Graustufen-Export für tintenschonende Malvorlagen.',
     description:
-      'Gestalten Sie professionelle Malvorlagen auf einer freien Arbeitsfläche, auf der Sie Bilder genau dort platzieren, wo Sie sie haben möchten — keine Raster, keine Vorlagen, reine kreative Freiheit. Durchsuchen Sie die integrierte Bildbibliothek mit über 3.100 Schwarzweiß-Umrisszeichnungen in 104 thematischen Sammlungen, klicken Sie auf ein beliebiges Bild, um es auf Ihre Arbeitsfläche zu setzen, und arrangieren, skalieren, drehen und schichten Sie Elemente, bis Ihre Seite perfekt aussieht. Das Freihand-Zeichenwerkzeug ermöglicht es Ihnen, eigene Illustrationen direkt auf der Arbeitsfläche zu skizzieren — mit einstellbarer Pinselfarbe und Pinselgröße von 1 bis 50 Pixel. Shop-Helfer fügen mit einem einzigen Klick ein Namensfeld (\"Name: ____\") und Handschrift-Übungslinien (durchgezogen, gestrichelt, durchgezogen) hinzu — und verwandeln Malvorlagen in sofort einsatzfähige Aktivitätsblätter für den Klassenraum. Wenn Ihre Seite fertig ist, aktivieren Sie den Graustufen-Export, um Ihre farbenfrohe Komposition in tintenschonende Ausmalseiten umzuwandeln, die perfekt für den Druck geeignet sind. Fügen Sie dekorative Rahmenthemen aus der Rahmenbibliothek hinzu, benutzerdefinierten Text mit Umrisseffekten in sieben Schriftarten, und laden Sie eigene Bilder neben Bibliotheksinhalten hoch. Der Malvorlagen-Generator ist nicht sprachabhängig — die Ausgabe ist rein visuell, sodass Arbeitsblätter in jeder Sprache identisch aussehen. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsbeschriftungen, nicht die Malvorlagen-Ausgabe. Dasselbe Ausmalblatt lässt sich weltweit ohne Übersetzung verkaufen — ein einziger Erstellungsworkflow bedient jeden Markt ohne sprachspezifische Varianten. Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI über 6-fachen Rendering-Multiplikator in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Die Bildbibliothek enthält Schwarzweiß-Umrisszeichnungen, die speziell zum Ausmalen gestaltet sind — keine bunten Illustrationen, sondern tintenfreundliche Konturen, die Lernende mit eigenen Farben füllen. Die kommerzielle Lizenz umfasst 10 Schwarzweiß-Themen; Vollzugriff schaltet alle 104 Themen für maximale kreative Vielfalt frei. Für Verkäufer bietet die freie Arbeitsfläche mit Freihand-Zeichenwerkzeug und Shop-Helfern ein einzigartiges Produktformat, das sich deutlich von vorlagenbasierten Ausmalseiten-Generatoren abhebt. Die Kombination aus kuratierten Bibliotheksbildern und eigenen Freihand-Zeichnungen erzeugt Malvorlagen mit echtem kreativem Wert, die Premiumpreise in Marktplatz-Listings erzielen. Ob Sie Malvorlagen-Pakete auf Etsy.de verkaufen, Ausmalbücher für Amazon KDP zusammenstellen oder Shop-Ausmalaktivitäten für den Gumroad erstellen — der Malvorlagen-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie verkaufsfertige Ausmalbilder mit dem Ausmalbilder-Generator und bauen Sie Ihr Printable-Business auf Etsy, Amazon KDP oder Gumroad auf. Platzieren Sie Bilder aus über 3.100 Schwarzweiß-Umrisszeichnungen in 104 Themen frei auf der Arbeitsfläche — arrangieren, skalieren, drehen und schichten Sie Elemente nach Belieben. Das integrierte Freihand-Zeichenwerkzeug ergänzt Ihre Malvorlagen um eigene Illustrationen mit einstellbarer Pinselfarbe und Pinselgröße. Shop-Helfer fügen Namensfelder und Handschrift-Übungslinien per Klick hinzu, und der Graustufen-Export wandelt farbige Kompositionen in tintenschonende Ausmalseiten um. Da die Ausgabe rein visuell ist, verkaufen Sie dasselbe Produkt weltweit ohne Übersetzung — ein Workflow für jeden Markt. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Oberflächensprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

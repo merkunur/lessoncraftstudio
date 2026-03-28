@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Code-Knacker-Mathe-Arbeitsblätter erstellen',
+    primaryKeyword: 'kostenloser Code-Mathe-Rätsel Generator',
     secondaryKeywords: [
-      'Code-Knacker-Rätsel für die Produkterstellung',
-      'Geheimcode-Mathe-Arbeitsblätter für Kinder',
-      'druckbare Chiffre-Rätsel für die Klasse',
-      'Additions-Code-Arbeitsblatt-Ersteller',
+      'Code-Mathe-Rätsel Generator kostenlos online',
+      'kryptarithmetische Rätsel erstellen ohne Anmeldung',
+      'Code-Knacker Additions-Rätsel sofort nutzen',
+      'kostenlose Bildsymbol-Mathe-Rätsel erstellen',
     ],
     lsiKeywords: [
-      'Bilder-Chiffre-Mathe-Rätsel für die Klasse',
-      'Wort-Enthüllung Code-Knacker-Arbeitsblatt',
-      'Zahlencode-Mathe-Aktivität für Nutzer',
+      'Geheimcode-Additions-Rätsel mit Bildern',
+      'Wort-Entschlüsselungs-Modus Mathe-Rätsel',
+      'Zahlencode-Logik-Rätsel Generator',
     ],
-    titleTag: 'Code-Knacker Mathe — Rätsel für die Produkterstellung',
-    metaDescription: 'Code-Knacker-Additions-Rätsel für die Produkterstellung erstellen. Bildsymbole, Wort-Entschlüsselung, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Code-Mathe-Rätsel Ersteller | LCS',
+    metaDescription: 'Kostenloser Code-Mathe-Rätsel Generator — kryptarithmetische Additions-Rätsel mit Bildsymbolen sofort erstellen. Testversion mit Wasserzeichen verfügbar.',
     },
 
   hero: {
-    title: 'Bilder-Additions-Ersteller',
+    title: 'Code-Mathe-Rätsel Generator — Kryptarithmetik kostenlos erstellen',
     tagline: 'Erstellen Sie kryptarithmetische Rätsel, bei denen Nutzer durch Addition geheime Codes knacken',
-    description: 'Kein gewöhnliches Additions-Arbeitsblatt — sondern eine echte Code-Knacker-Herausforderung. Jedes Rätsel versteckt Zahlen hinter Bildsymbolen, und Nutzer müssen Additionsgleichungen lösen, um herauszufinden, welche Zahl zu welchem Bild gehört. Im Regulären Modus steht jedes Symbol für eine einzigartige Ziffer. Wechseln Sie in den Wort-Entschlüsselungs-Modus und jede gelöste Gleichung enthüllt einen Buchstaben eines Geheimworts, während drei Ablenkungs-Gleichungen mit falschen Summen die Nutzer zum genauen Prüfen zwingen. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 Illustrationen, passen Sie die Symbolanzahl und die Summanden-Komplexität an und laden Sie druckfertige PDFs oder JPEGs herunter. Unterstützt 11 Sprachen mit sprachspezifischen Alphabeten — deutsches Wort-Entschlüsseln funktioniert nativ mit Ä, Ö, Ü und ß. Perfekt für Etsy.de-Verkäufer, Amazon-KDP-Verleger und Gumroad-Anbieter, die einzigartige Mathe-Rätsel-Produkte anbieten möchten. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Unser kostenloser Code-Mathe-Rätsel Generator erstellt kryptarithmetische Additions-Rätsel, bei denen Bildsymbole Zahlen verbergen — direkt im Browser, ohne Anmeldung und ohne Installation. Jedes Rätsel fordert Nutzer heraus, Additionsgleichungen zu lösen, um herauszufinden, welche Zahl zu welchem Bild gehört. Im Regulären Modus steht jedes Symbol für eine einzigartige Ziffer. Wechseln Sie in den Wort-Entschlüsselungs-Modus und jede gelöste Gleichung enthüllt einen Buchstaben eines Geheimworts, während drei Ablenkungs-Gleichungen mit falschen Summen zum genauen Prüfen zwingen. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 Illustrationen, passen Sie Symbolanzahl und Summanden-Komplexität an. Das Tool unterstützt 11 Sprachen mit sprachspezifischen Alphabeten — deutsches Wort-Entschlüsseln funktioniert nativ mit Ä, Ö, Ü und ß. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Bilddiagramm-Arbeitsblätter für die Produkterstellung',
+    primaryKeyword: 'kostenloses Zähldiagramm-Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Bilddiagramm-Ersteller für die Klasse',
-      'Zähl-und-Diagramm-Arbeitsblätter für Kinder',
-      'druckbare Datendiagramm-Arbeitsblätter für die Schule',
-      'Bilddiagramm-Aktivität für Verkäufer',
+      'Zähldiagramm Generator kostenlos online',
+      'Bilddiagramm-Arbeitsblätter erstellen ohne Anmeldung',
+      'Bilddiagramm Generator sofort nutzen',
+      'kostenloses Zähldiagramm mit Bildern erstellen',
     ],
     lsiKeywords: [
-      'Bildraster-Zähl-Arbeitsblatt für die Produkterstellung',
-      'automatischer Lösungsschlüssel Bilddiagramm',
-      'Datenvisualisierung Arbeitsblatt für die Klasse',
+      'Bildraster-Zähl-Arbeitsblatt druckfertig',
+      'Balkendiagramm Lösungsschlüssel Generator',
+      'Datenvisualisierung Arbeitsblatt für Kinder',
     ],
-    titleTag: 'Bilddiagramm-Arbeitsblätter — Für die Produkterstellung',
-    metaDescription: 'Bilddiagramm-Arbeitsblätter für die Produkterstellung erstellen. 4x5-Bildraster, Lösungsschlüssel, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloses Zähldiagramm erstellen | LCS',
+    metaDescription: 'Kostenloses Zähldiagramm online erstellen — Bilddiagramme mit 4x5-Raster und Lösungsschlüssel sofort generieren. Testversion mit Wasserzeichen verfügbar.',
     },
 
   hero: {
-    title: 'Bilddiagramm-Ersteller',
+    title: 'Zähldiagramm-Arbeitsblatt Generator — kostenlos online erstellen',
     tagline: 'Bilddiagramm-Arbeitsblatt-Generator mit verteiltem Bildraster, automatisch generiertem Balkendiagramm-Lösungsschlüssel, lokalisierten Überschriften in 11 Sprachen und 104 thematischen Bildsammlungen für Datendarstellungs-Arbeitsblätter, die weltweit ohne Übersetzung verkaufen',
-    description: 'Erstellen Sie professionelle Bilddiagramm-Arbeitsblätter, bei denen Nutzer verteilte Bilder zählen und ein darunter liegendes Balkendiagramm ausfüllen — Datenerfassung und Datendarstellung in einer einzigen Aktivität. Jedes Arbeitsblatt zeigt ein 4×5-Raster mit 20 Symbolen aus 6 verschiedenen Bildtypen, wobei jeder Typ 1–5 Mal in zufälliger Verteilung erscheint, was jede Generierung einzigartig macht. Unter dem Raster bietet ein 6-Spalten-×-5-Zeilen-Balkendiagramm mit nach Bildtyp beschrifteten Spalten und von 1–5 nummerierten Zeilen den Nutzern einen strukturierten Platz zum Eintragen ihrer Zählergebnisse. Die App generiert gleichzeitig einen Lösungsschlüssel auf einem separaten Canvas-Tab mit gelb (#FFC857) hervorgehobenen Zellen, die die korrekten Zählungen anzeigen — Verkäufer überprüfen Käuferarbeiten sofort ohne manuelles Nachzählen. Wählen Sie Bilder automatisch, indem Sie ein Thema aus dem Arbeitsblatt-Bildquelle-Dropdown auswählen — die App wählt zufällig 6 Bilder aus dieser Sammlung — oder durchstöbern Sie die Bildbibliothek manuell mit über 3.100 Illustrationen aus 104 Themensammlungen und klicken Sie genau 6 Bilder mit Vorschaustreifen an. Jedes Arbeitsblatt enthält eine automatisch generierte Überschrift mit einem lokalisierten \"Bilddiagramm\"-Titel und Zählanweisungen in einer gestalteten gelben Pillenform (#FFD93D) mit orangem Rahmen, die sich automatisch an alle 11 unterstützten Sprachen anpasst. Fügen Sie Namens- und Datumsfelder mit einem einzigen Kontrollkästchen hinzu (Fredoka 18px #333). Wenden Sie sowohl Hintergrundthemen als auch Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schritt 0,05) an. Der Bilddiagramm-Generator ist nicht sprachabhängig — visuelles Zählen verwendet universelle Zahlen und Bilder, sodass Arbeitsblätter in jeder Sprache identisch nutzbar sind. Laden Sie vier Dateien pro Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI. Exportieren Sie in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen mit Graustufen-Umschaltung für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana, Textumriss-Breite 0–10 mit 0,5-Schritt-Granularität, Rückgängig/Wiederherstellen bis zu 20 Zustände und Zoom von 25 % bis 300 %. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+        description: 'Mit unserem kostenlosen Zähldiagramm Generator erstellen Sie professionelle Bilddiagramm-Arbeitsblätter — direkt im Browser, ohne Anmeldung und ohne Installation. Nutzer zählen verteilte Bilder in einem 4x5-Raster und füllen ein darunter liegendes Balkendiagramm aus — Datenerfassung und Datendarstellung in einer einzigen Aktivität. Jedes Arbeitsblatt zeigt 20 Symbole aus 6 verschiedenen Bildtypen in zufälliger Verteilung, was jede Generierung einzigartig macht. Das Tool generiert gleichzeitig einen Lösungsschlüssel mit hervorgehobenen Zellen, die die korrekten Zählungen anzeigen. Wählen Sie Bilder automatisch aus 104 thematischen Sammlungen oder durchstöbern Sie die Bildbibliothek manuell mit über 3.100 Illustrationen. Exportieren Sie als PDF oder JPEG in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

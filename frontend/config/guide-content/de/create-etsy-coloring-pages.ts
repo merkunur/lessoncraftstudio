@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy-Malvorlagen erstellen',
+    primaryKeyword: 'Ausmalbilder für Etsy erstellen die sich verkaufen',
     secondaryKeywords: [
-      'Malvorlagen auf Etsy verkaufen Anleitung',
-      'Etsy Malvorlagen-Shop einrichten',
-      'druckbare Malvorlagen Etsy Geschäft',
-      'Ausmalbilder auf Etsy verkaufen',
+      'Malvorlagen auf Etsy verkaufen Schritt für Schritt',
+      'Etsy Malvorlagen-Shop mit Bildthemen aufbauen',
+      'druckbare Ausmalbilder für Etsy optimieren',
+      'Kinder- und Erwachsenen-Malvorlagen Etsy Geschäft',
     ],
     lsiKeywords: [
-      'Etsy digitaler Download Malvorlagen Angebotsoptimierung',
-      'Malvorlagen-Bündel Preisstrategie Etsy Verkäufer',
-      'Etsy SEO Tags für druckbare Malvorlagen-Produkte',
-      'thematische Ausmalbilder Etsy Shop Kinder Erwachsene',
-      'Feiertags- und saisonale Malvorlagen druckbar Etsy Nachfrage',
-      'Etsy Angebotsfotos Mockups für Malvorlagen-Produkte',
+      'S/W-Export Graustufen Malvorlagen Etsy Listing',
+      'thematische Ausmalbilder saisonale Nachfrage Etsy',
+      'Malvorlagen-Bündel Preisstrategie Verkäufer',
     ],
-    titleTag: 'Etsy-Malvorlagen erstellen die sich verkaufen — Leitfaden',
-    metaDescription: 'Etsy-Malvorlagen aus 104 Bildthemen erstellen. S/W- und Graustufen-Export, Angebotsoptimierung und Preisgestaltung. Saisonale Verkaufsstrategien für.',
+    titleTag: 'Ausmalbilder für Etsy erstellen | LCS',
+    metaDescription: 'Ausmalbilder für Etsy erstellen, die sich verkaufen: 104 Bildthemen, S/W-Export, Angebotsoptimierung und saisonale Verkaufsstrategie für Ihren Malvorlagen-Shop.',
   },
 
   hero: {
-    title: 'Etsy-Malvorlagen erstellen die sich verkaufen',
+    title: 'Ausmalbilder für Etsy erstellen, die sich verkaufen',
     tagline: 'Ein umfassender Plattform-Leitfaden für den Aufbau eines profitablen Etsy-Shops, der Malvorlagen aus 104 thematischen Bildbibliotheken verkauft — einschließlich Etsy-Shop-Einrichtung, SEO-Optimierung mit allen 13 Tags, Angebotstiteln und -beschreibungen die für Käufer-Suchbegriffe von Malvorlagen ranken, Produktfotografie mit S/W-Linienkunst und thematischer Vielfalt, Preisstrategien für einzelne Seiten und Themenpakete, saisonalem Timing für Feiertags- und Schulanfangs-Nachfragespitzen, Katalogplanung für Kinder- und Erwachsenen-Malvorlagen-Zielgruppen, Amazon KDP Malbuch-Crossover-Möglichkeiten sowie fortlaufender Shop-Optimierung mit Etsy Stats und Suchanalysen',
-    description: 'Lernen Sie, wie Sie mit dem Malvorlagen-Ersteller und 104 Bildthemen einen erfolgreichen Etsy-Shop für druckbare Malvorlagen aufbauen. Dieser Leitfaden behandelt die Etsy-spezifische SEO-Strategie, Angebotsoptimierung, Preisgestaltung für Themenpakete und saisonale Verkaufsstrategien für Malvorlagen.',
+    description: 'Ausmalbilder für Etsy erstellen, die sich wirklich verkaufen — dieser Leitfaden zeigt Ihnen den vollständigen Weg zum profitablen Malvorlagen-Shop. Sie erfahren, wie Sie mit dem Malvorlagen-Ersteller und 104 Bildthemen einen Etsy-Shop aufbauen, der konstante Einnahmen erzielt. Von der Erstellung ansprechender S/W-Linienkunst über die Etsy-spezifische SEO-Strategie mit allen 13 Tags bis hin zu professionellen Angebotsfotos, Preisgestaltung für Themenpakete und saisonalen Verkaufsstrategien für Feiertage und Schulanfang. Im deutschsprachigen DACH-Markt ist die Nachfrage nach hochwertigen Malvorlagen besonders stark, während der Wettbewerb deutlich geringer ausfällt als im englischsprachigen Raum. Sie lernen jeden Schritt, um Malvorlagen für Kinder und Erwachsene zu erstellen, die in der Etsy-Suche sichtbar ranken, zuverlässig konvertieren und sich auch für Amazon KDP Malbücher wiederverwenden lassen.',
   },
 
   introduction: 'Malvorlagen nehmen eine privilegierte Stellung auf dem Etsy-Marktplatz für Druckvorlagen ein. Anders als Mathe-Arbeitsblätter, die auf bestimmte Altersgruppen abzielen, oder Wortsuchrätsel, die sprachspezifisches Vokabular erfordern, sind Malvorlagen rein visuelle Produkte. Der Inhalt einer Malvorlage — Linienkunst von Tieren, Fahrzeugen, Lebensmitteln, Naturszenen — überwindet Sprachbarrieren vollständig. Eine Malvorlage mit einer Katze funktioniert gleich gut für ein Kind in Berlin, einen Rentner in Wien oder einen Therapiepatienten in Zürich. Diese visuelle Universalität schafft einen ungewöhnlich breiten adressierbaren Markt aus einem einzigen Produkt.\n\nDie Nachfrage nach druckbaren Malvorlagen auf Etsy umfasst eine außergewöhnlich breite Käuferdemografie. Eltern kaufen thematische Malvorlagen-Pakete für Regentage, Autofahrten, Wartezeiten im Restaurant und Offline-Aktivitäten als Alternative zur Bildschirmzeit. Käufer kaufen Klassensätze für morgendliche Aufwärmübungen, Belohnungsaktivitäten und thematische Feiertagsfeiern. Homeschooling-Familien nutzen Malvorlagen zur Feinmotorik-Entwicklung und als Beruhigungsaktivitäten zwischen konzentrierten Produktpakete. Ergotherapeuten kaufen Ausmalblätter für Hand-Kraft- und Koordinationsübungen. Seniorenbetreuungskoordinatoren kaufen großformatige Malvorlagen für kognitive Beschäftigungsprogramme. Erwachsene Mal-Enthusiasten kaufen detaillierte Designs zur persönlichen Entspannung und Achtsamkeitspraxis. Jedes dieser Käufersegmente sucht mit unterschiedlichen Schlüsselwörtern, was mehrere Zugangspunkte zu Ihrem Shop schafft.\n\nDie Malvorlagen-Nische hat einen strukturellen Vorteil, den viele Verkäufer übersehen: Produktionsgeschwindigkeit. Da Malvorlagen keine Lösungsschlüssel, Schwierigkeitskalibrierung oder Produktkatalogausrichtung erfordern, können Sie fertige Produkte deutlich schneller erstellen als in den meisten anderen Druckvorlagen-Kategorien. Der Malvorlagen-Ersteller wandelt thematische Bilder mit einem einzigen Schalter in druckfertige S/W- oder Graustufen-Malvorlagen um. Diese Produktionseffizienz bedeutet, dass Sie schnell einen umfangreichen Katalog aufbauen können — ein entscheidender Vorteil auf Etsy, wo das Angebotsvolumen direkt mit der Shop-Sichtbarkeit korreliert.\n\nEtsy belohnt Shops, die Kategorietiefe durch konsistente, verwandte Angebote demonstrieren. Ein spezialisierter Malvorlagen-Shop mit 30 bis 50 thematischen Angeboten signalisiert dem Algorithmus tiefe Nischenspezialisierung. Dieser Kategoriefokus verbessert Ihren Shop-Qualitätswert und hilft Etsy, Ihre Produkte Käufern zu empfehlen, die ähnliche Malvorlagen-Angebote von Wettbewerbern durchstöbern. Kombiniert mit der richtigen Tag-Nutzung über alle 13 verfügbaren Plätze kann ein fokussierter Malvorlagen-Shop innerhalb von Wochen nach dem Start starke organische Sichtbarkeit erreichen.\n\nMalvorlagen haben auch ein außergewöhnliches Amazon KDP Crossover-Potenzial. Dieselben Malvorlagen-Designs, die als einzelne digitale Downloads auf Etsy verkauft werden, können zu thematischen Malbüchern für die KDP-Veröffentlichung zusammengestellt werden. Viele erfolgreiche Malvorlagen-Verkäufer sind gleichzeitig auf beiden Plattformen aktiv — Etsy für einzelne thematische Downloads und KDP für zusammengestellte Malbücher. Dieser Dual-Plattform-Ansatz maximiert den Umsatz aus jeder erstellten Malvorlage.\n\nAlle in diesem Leitfaden beschriebenen Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können vollständige Malvorlagen gestalten, den Graustufen-Schalter testen, mit allen Leinwand-Werkzeugen experimentieren und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'ostern-druckvorlagen-ideen zum verkaufen',
+    primaryKeyword: 'Oster-Druckvorlagen auf Etsy verkaufen',
     secondaryKeywords: [
       'Oster-Arbeitsblätter auf Etsy erstellen',
       'Frühlings-Ostern-Aktivitätsblätter auf KDP',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'März-April-Verkaufsspitze Lernmaterialien',
       'Oster-Nische saisonaler Arbeitsblatt-Markt',
     ],
-    titleTag: 'Ostern-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Ostern-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Frühlings-Produktkonzepte, saisonale Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
+    titleTag: 'Oster-Druckvorlagen für Etsy verkaufen | LCS',
+    metaDescription: 'Oster-Druckvorlagen auf Etsy verkaufen — profitable Frühlings-Produkte mit Osterhasen, Eiern und Küken. Saisonale Strategien und Plattformtipps für Shops.',
   },
   hero: {
-    title: 'Ostern-Druckvorlagen-Geschäftsideen für Verkäufer',
-    description: 'Ostern eröffnet ein lebendiges Frühlings-Verkaufsfenster für Druckvorlagen-Unternehmer — die Nachfrage steigt von Februar bis April stetig an, wenn Verkäufer Frühlings-Gruppenaktivitäten planen und Eltern nach lehrreichen Oster-Beschäftigungen, Eiersuche-Ergänzungen und kreativen Osternest-Füllern suchen. Ostern gehört in den deutschsprachigen Ländern zu den wichtigsten Feiertagen des Jahres, mit tief verwurzelten Traditionen wie dem Eierfärben, der Eiersuche im Garten, dem Schmücken des Osterstrauchs mit bemalten Eiern und dem Osterlamm-Backen, die Familien und Schulen gleichermaßen begeistern. Die Nische bietet eine wunderbar vielfältige Themenwelt mit Osterhasen, verzierten Ostereiern, Osterküken, Osterlämmern, Osterkörben, Frühlingsblumen, Tulpen, Karotten, Osterglocken und Osternestern — ein fröhliches visuelles Vokabular, das bei jungen Lernenden und ihren Familien starken Anklang findet. Kirchengemeinden, Kindergärten und Gemeinschaftsorganisationen bilden ein weiteres Käufersegment mit Bedarf an druckbaren Aktivitäten für Osterfeiern und Frühlingsfeste. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verbindet die Ostern-Nische vorhersagbare jährliche Nachfrage mit einer festlichen Frühlingsästhetik, die sich hervorragend für Produktbilder und Marketingmaterialien eignet. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen beim Aufbau einer profitablen Ostern-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools helfen.',
+    title: 'Oster-Druckvorlagen auf Etsy verkaufen',
+    description: 'Oster-Druckvorlagen auf Etsy verkaufen eröffnet ein lebendiges Frühlings-Verkaufsfenster — die Nachfrage steigt von Februar bis April stetig an, wenn Verkäufer Frühlings-Aktivitäten planen und Eltern nach Oster-Beschäftigungen und kreativen Osternest-Füllern suchen. Ostern gehört in den DACH-Ländern zu den wichtigsten Feiertagen, mit Traditionen wie Eierfärben, Eiersuche, Osterstrauch-Schmücken und Osterlamm-Backen. Die Nische bietet vielfältige Themen mit Osterhasen, verzierten Ostereiern, Osterküken, Lämmern, Osterkörben, Frühlingsblumen und Osternestern — ein fröhliches visuelles Vokabular, das bei Familien starken Anklang findet. Kirchengemeinden, Kindergärten und Gemeinschaftsorganisationen bilden ein weiteres Käufersegment. Für Verkäufer auf Etsy, Amazon KDP und Gumroad verbindet die Ostern-Nische vorhersagbare jährliche Nachfrage mit einer festlichen Ästhetik, die sich hervorragend für Produktbilder eignet. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze für eine profitable Oster-Produktlinie.',
   },
   marketOverview: `Die Ostern-Druckvorlagen-Nische nimmt eine erstklassige Position im Frühlings-Verkaufskalender ein und liefert konzentrierte saisonale Nachfrage in einem Zeitraum, in dem wenige andere Feiertage um die Aufmerksamkeit der Käufer konkurrieren. Verkäufer beginnen bereits im Februar und Anfang März mit der Planung von Frühlings-Gruppenaktivitäten und Oster-Feiern und suchen nach thematischen Arbeitsblättern, die Feiertagscharme mit echtem lehrreichen Mehrwert verbinden. Eltern suchen altersgerechte Osteraktivitäten, die als Osternest-Ergänzung und lehrreiche Unterhaltung in den aufregenden Tagen vor dem Fest dienen. In den deutschsprachigen Ländern hat Ostern eine besonders tiefe kulturelle Bedeutung — traditionelle Bräuche wie das Eierfärben, die Eiersuche im Garten, das Schmücken des Osterstrauchs und das Backen von Osterlamm und Osterzopf verbinden Generationen und schaffen reichhaltigen thematischen Stoff für Lernmaterialien. Kirchengemeinden, Kindergartengruppen und Gemeinschaftsorganisationen kaufen thematische Aktivitätsblätter für Osterfeiern, Frühlingsfeste und familienfreundliche Veranstaltungen.
 

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'winter-druckvorlagen-ideen zum verkaufen',
+    primaryKeyword: 'Winter-Druckvorlagen auf Etsy verkaufen',
     secondaryKeywords: [
       'Winter-Arbeitsblätter auf Etsy erstellen',
       'Schnee-Eis-Druckvorlagen auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Kaltwetter-Nische Arbeitsblätter Etsy-Markt',
       'Winter-Saison Lernmaterialien Verkauf',
     ],
-    titleTag: 'Winter-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Winter-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Kaltwetter-Produktkonzepte mit Nachfrage von November bis Februar. Nischenstrategien Arbeitsblatt-Verkäufer.',
+    titleTag: 'Winter-Druckvorlagen für Etsy verkaufen | LCS',
+    metaDescription: 'Winter-Druckvorlagen auf Etsy verkaufen — Schneeflocken, Schneemänner und Pinguine als profitable Nische. November-Februar-Strategien für Druckvorlagen-Shops.',
   },
   hero: {
-    title: 'Winter-Druckvorlagen-Geschäftsideen für Verkäufer',
-    description: 'Der Winter eröffnet ein breites Verkaufsfenster von November bis Februar, da Käufer nach Produktthemen für die Zeit nach den Feiertagen suchen, Eltern Lernaktivitäten für drinnen während der kalten Monate benötigen und Homeschool-Familien saisonale Abwechslung jenseits des Dezember-Feiertagstrubels wünschen. Die Winter-Nische bietet eine reiche Vielfalt an Unterthemen wie Schneeflocken, Schneemänner, Pinguine, Fäustlinge, Iglus, Eisbären, Schlitten, heißen Kakao, Eiszapfen und Frost — eine visuell unverwechselbare Bildsprache, die sich deutlich von weihnachtsspezifischen Produkten abhebt. Kindertagesstätten und Nachmittagsbetreuungen brauchen strukturierte Indoor-Aktivitäten, wenn das Spielen im Freien eingeschränkt ist, was während der kältesten Monate für stetige Nachfrage sorgt. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad stellt der Winter eine konfessionsübergreifende saisonale Nische mit vorhersehbarer jährlicher Nachfrage und gemütlicher Kaltwetter-Bildsprache dar, die bei Käufern unterschiedlichster Hintergründe Anklang findet. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, um Ihnen beim Aufbau einer profitablen Winter-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools zu helfen.',
+    title: 'Winter-Druckvorlagen auf Etsy verkaufen — Tipps',
+    description: 'Winter-Druckvorlagen auf Etsy verkaufen eröffnet ein breites Verkaufsfenster von November bis Februar, da Käufer nach Produktthemen für die Zeit nach den Feiertagen suchen, Eltern Lernaktivitäten für drinnen während der kalten Monate benötigen und Homeschool-Familien saisonale Abwechslung jenseits des Dezember-Feiertagstrubels wünschen. Die Winter-Nische bietet eine reiche Vielfalt an Unterthemen wie Schneeflocken, Schneemänner, Pinguine, Fäustlinge, Iglus, Eisbären, Schlitten, heißen Kakao, Eiszapfen und Frost — eine visuell unverwechselbare Bildsprache, die sich deutlich von weihnachtsspezifischen Produkten abhebt. Kindertagesstätten und Nachmittagsbetreuungen brauchen strukturierte Indoor-Aktivitäten, wenn das Spielen im Freien eingeschränkt ist, was während der kältesten Monate für stetige Nachfrage sorgt. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad stellt der Winter eine konfessionsübergreifende saisonale Nische mit vorhersehbarer jährlicher Nachfrage und gemütlicher Kaltwetter-Bildsprache dar, die bei Käufern unterschiedlichster Hintergründe Anklang findet. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, um Ihnen beim Aufbau einer profitablen Winter-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools zu helfen.',
   },
   marketOverview: `Die Winter-Druckvorlagen-Nische nimmt eine einzigartig vorteilhafte Position im saisonalen Verkaufskalender ein, da sie über ein viermonatiges Zeitfenster hinweg anhaltende Nachfrage liefert — ohne den intensiven Wettbewerb, der sich um bestimmte Feiertage wie Weihnachten oder Valentinstag konzentriert. Käufer kehren nach den Winterferien im Januar zurück und brauchen frische Produktthemen, die das Engagement der Nutzer in der langen Strecke bis zum Frühling aufrechterhalten. Winter-Bildmotive bieten eine natürliche, marktfreundliche Option, die in jeder Schulumgebung funktioniert, unabhängig von kulturellen oder religiösen Überlegungen. Eltern, die Wochen kalten Wetters und eingeschränkter Outdoor-Aktivitäten bewältigen müssen, suchen aktiv nach lehrreichen Indoor-Aktivitäten, die Kinder beim Lernen und bei Laune halten — wodurch Winter-Arbeitsblätter eher ein praktischer Kauf als ein saisonaler Luxus sind.
 

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'halloween-druckvorlagen-ideen',
+    primaryKeyword: 'Halloween-Druckvorlagen Geschäftsideen',
     secondaryKeywords: [
       'gruselige Arbeitsblätter auf Etsy erstellen',
       'Halloween-Aktivitätsblätter auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'gruseliges Thema Arbeitsblätter Etsy-Markt',
       'Halloween-Saison Lernmaterialien Verkauf',
     ],
-    titleTag: 'Halloween-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Halloween-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Gruselige Produktkonzepte, saisonale Strategien, Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
+    titleTag: 'Halloween-Druckvorlagen Geschäftsideen | LCS',
+    metaDescription: 'Halloween-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Kürbis, Gespenster und Hexen — saisonale Produktkonzepte und Oktober-Verkaufsstrategien.',
   },
   hero: {
-    title: 'Halloween-Druckvorlagen-Geschäftsideen für Verkäufer',
-    description: 'Halloween erzeugt einen der stärksten saisonalen Nachfrageschübe auf dem Druckvorlagen-Markt — die Suchanfragen steigen ab Ende August bis Oktober stark an, wenn Verkäufer, Eltern und Partyorganisatoren nach gruselig-thematischen Lernmaterialien suchen. Die Nische bietet außergewöhnliche thematische Vielfalt mit Kürbissen, Gespenstern, Hexen, Fledermäusen, Spinnen, Skeletten, Vampiren, Monstern, Spukhäusern und geschnitzten Kürbislaternen, die Verkäufern eine reichhaltige visuelle Palette für einzigartige Produkte innerhalb eines einzigen Feiertags bieten. Halloween hat in den deutschsprachigen Ländern in den letzten zwei Jahrzehnten enorm an Beliebtheit gewonnen — besonders bei Kindern und jungen Familien, die neben dem modernen Kürbisschnitzen auch die traditionelle Kunst des Rübengeisterns wiederentdecken. Verkäufer planen Oktober-Gruppenaktivitäten und Halloween-Partys Wochen im Voraus, während Eltern nach altersgerechtem Gruselspaß suchen, der das Lernen in den Vordergrund stellt. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad belohnt die Halloween-Nische frühe Vorbereitung mit einem konzentrierten, aber hochprofitablen Verkaufsfenster, das jedes Jahr zuverlässig wiederkehrt. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen beim Aufbau einer erfolgreichen Halloween-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools helfen.',
+    title: 'Halloween-Druckvorlagen — Geschäftsideen',
+    description: 'Halloween-Druckvorlagen Geschäftsideen nutzen einen der stärksten saisonalen Nachfrageschübe — Suchanfragen steigen ab Ende August bis Oktober stark an, wenn Verkäufer, Eltern und Partyorganisatoren nach gruselig-thematischen Lernmaterialien suchen. Die Nische bietet außergewöhnliche thematische Vielfalt mit Kürbissen, Gespenstern, Hexen, Fledermäusen, Spinnen, Skeletten und Spukhäusern, die eine reichhaltige visuelle Palette für einzigartige Produkte innerhalb eines einzigen Feiertags bieten. Halloween hat in den DACH-Ländern enorm an Beliebtheit gewonnen — besonders bei Kindern und jungen Familien, die neben dem modernen Kürbisschnitzen auch die traditionelle Kunst des Rübengeisterns wiederentdecken. Verkäufer planen Oktober-Aktivitäten Wochen im Voraus, während Eltern nach altersgerechtem Gruselspaß suchen, der das Lernen in den Vordergrund stellt. Für Verkäufer auf Etsy, Amazon KDP und Gumroad belohnt die Halloween-Nische frühe Vorbereitung mit einem konzentrierten, hochprofitablen Verkaufsfenster. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze für eine erfolgreiche Halloween-Produktlinie.',
   },
   marketOverview: `Die Halloween-Druckvorlagen-Nische rangiert als zweitwertvollste saisonale Gelegenheit für Verkäufer von Lernmaterialien — sie liegt nur hinter Weihnachten beim Gesamtvolumen der Nachfrage, bietet jedoch ein kürzeres, konzentrierteres Verkaufsfenster, das das Timing besonders wichtig macht. Verkäufer beginnen Ende August und Anfang September mit der Planung von Oktober-Gruppenaktivitäten und Halloween-Partys und suchen nach thematischen Arbeitsblättern, die gruseligen Spaß mit echtem lehrreichen Wert verbinden. Eltern suchen altersgerechte Halloween-Aktivitäten, die Bildschirmzeit in kreative Lernerlebnisse verwandeln — in den Wochen der Kostümbegeisterung und der Vorfreude auf Süßes oder Saures. Partyorganisatoren und Veranstalter kaufen thematische Aktivitätsblätter für Gruppen-Partys, Gemeinschaftsveranstaltungen und Familien-Halloween-Feiern.
 

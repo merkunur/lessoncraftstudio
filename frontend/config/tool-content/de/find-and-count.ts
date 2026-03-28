@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'suchen-und-zählen-ersteller',
+    primaryKeyword: 'kostenloser Suchen-und-Zählen Generator',
     secondaryKeywords: [
-      'Suchen-und-Zählen-Ersteller für Verkäufer',
-      'Ich-sehe-was-Rätsel online erstellen und verkaufen',
-      'druckbare Suchbild-Aktivitäten kommerziell erstellen',
-      'Suchbild-Generator mit Buchstabenerkennung und automatischem Lösungsschlüssel für KDP',
+      'Suchen-und-Zählen-Arbeitsblätter kostenlos erstellen',
+      'Suchbild-Generator online ohne Anmeldung',
+      'kostenlose Ich-sehe-was-Rätsel mit Lösungsschlüssel',
+      'Suchen-und-Zählen Ersteller mit Buchstabenerkennung kostenlos',
     ],
     lsiKeywords: [
-      'Suchbild-Modus Buchstabenerkennung-Modus Dual-Aktivität Ersteller',
-      'vier Aufgabentypen Einkreisen Umrahmen Durchstreichen Zählen mischbar',
-      'sprachspezifische Alphabete Umlaute ÄÖÜ Suchbild-Generator',
+      'Suchbild Einkreisen Zählen Aufgabentypen',
+      'Buchstabenerkennung sprachspezifisches Alphabet',
+      'Suchen-und-Zählen Arbeitsblätter Vorschule',
     ],
-    titleTag: 'Suchen-und-Zählen-Ersteller | Suchbild-Generator',
-    metaDescription: 'Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi und vier Aufgabentypen erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit.',
+    titleTag: 'Kostenloser Suchen-und-Zählen Generator | LCS',
+    metaDescription: 'Kostenloser Suchen-und-Zählen Generator: Suchbild-Arbeitsblätter mit zwei Modi und vier Aufgabentypen erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Suchen-und-Zählen-Ersteller',
+    title: 'Suchen-und-Zählen-Arbeitsblätter kostenlos erstellen',
     tagline: 'Dual-Modus-Suchbild-Arbeitsblatt-Generator mit Suchbild-Modus (verteiltes Bildraster mit bis zu 4 Zielobjekten) und Buchstabenerkennung-Modus (sprachspezifisches Alphabet-Raster mit Umlauten ÄÖÜ), vier mischbaren Aufgabentypen (Einkreisen, Umrahmen, Durchstreichen, Zählen) pro Zielobjekt zuweisbar, lokalisierten Bildbezeichnungen in 11 Sprachen über das Bildvokabular-System, konfigurierbarer Rasterdichte von 5×5 bis 10×10, automatisch generierten Lösungsschlüsseln mit roten Kreis-/Rahmen-/Kreuz-Markierungen und Anzahl-Anzeigen sowie sprachabhängigen Arbeitsblättern, bei denen Bildbezeichnungen sich je nach Sprache ändern',
-    description: 'Erstellen Sie professionelle Suchbild- und Suchen-und-Zählen-Arbeitsblätter, bei denen Nutzer in einer verteilten Bilderszene bestimmte Objekte suchen, einkreisen, durchstreichen oder zählen. Der Generator bietet zwei verschiedene Aktivitätsmodi in einem einzigen Tool. Der Suchbild-Modus verteilt Bilder über ein konfigurierbares Raster (5–10 Zeilen × 5–10 Spalten, Standard 6×6) und ermöglicht die Zuweisung von bis zu 4 Zielobjekten mit individuellen Aufgabentypen — das Objekt einkreisen, umrahmen, durchstreichen oder zählen, wie oft es vorkommt. Jede Zelle zeigt ein Bild mit einer Maximalgröße von 80px. Zielobjekte werden zufällig mit 1–5 Instanzen verteilt, und die verbleibenden Zellen füllen sich mit Ablenkungsbildern aus dem Thema. Der Buchstabenerkennung-Modus zeigt ein sprachspezifisches Alphabet-Raster mit Sonderbuchstaben — Englisch A–Z (26 Buchstaben), Deutsch A–Z + ÄÖÜ (29 Buchstaben), Spanisch A–Z + Ñ (27 Buchstaben), Schwedisch/Finnisch A–Z + ÅÄÖ (29 Buchstaben), Dänisch/Norwegisch A–Z + ÆØÅ (29 Buchstaben) — dargestellt in 7 Spalten mit automatischer Zeilenanpassung. Nutzer wählen einen Buchstaben, und der Generator erstellt ein Suchbild mit Bildern, die mit diesem Buchstaben in der ausgewählten Sprache beginnen. Der Suchen-und-Zählen-Generator ist sprachabhängig: Bildbezeichnungen auf dem Arbeitsblatt werden in der ausgewählten Sprache über das Bildvokabular-System gerendert. \"Cat\" wird zu \"Katze\" auf Deutsch, \"Chat\" auf Französisch, \"Gato\" auf Spanisch — und im Buchstabenerkennung-Modus aktualisieren sich die Anfangsbuchstaben entsprechend. Die kommerzielle Lizenz umfasst nur Englisch; Vollzugriff schaltet alle 11 Sprachen für lokalisierte Bildbezeichnungen frei. Das Dual-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab gleichzeitig. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und überlagert rote visuelle Markierungen: Kreise um Einkreis-Aufgaben-Objekte, Rahmen um Umrahmen-Aufgaben-Objekte, Kreuze über Durchstreich-Aufgaben-Objekte und Anzahl-Anzeigen für Zähl-Aufgaben-Objekte. Ein automatisch generierter Header zeigt \"Ich sehe was\" oder \"Buchstabenerkennung\" (modusabhängig) mit blauem Rahmen (#2196F3), gelbem innerem Akzent und lokalisiertem Titel und Anweisungen in Fredoka- und Quicksand-Schriften über alle 11 unterstützten Sprachen. Die App generiert automatisch beim Laden der Seite mit dem Thema Tiere, 4 zufälligen Bildern, zufälligen Aufgabentypen und einem 6×6-Raster für eine sofortige Vorschau. Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene Bilder hoch. Wenden Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern an. Fügen Sie benutzerdefinierten Text mit 7 Schriftoptionen und Textumriss 0–10 hinzu. Schalten Sie Name- und Datumsfelder für Nutzeridentifikation um. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI (6× Multiplikator) in Standard (800×1000), Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Maßen. Graustufen-Schalter für tintenschonende Ausgabe. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Suchen-und-Zählen-Arbeitsblätter kostenlos mit unserem Suchen-und-Zählen Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Zwei Aktivitätsmodi bieten vielseitige Übungen: Der Suchbild-Modus verteilt Bilder über ein konfigurierbares Raster mit bis zu 4 Zielobjekten und vier mischbaren Aufgabentypen — Einkreisen, Umrahmen, Durchstreichen oder Zählen. Der Buchstabenerkennung-Modus zeigt ein sprachspezifisches Alphabet-Raster mit Sonderbuchstaben wie ÄÖÜ. Bildbezeichnungen werden automatisch in der gewählten Sprache gerendert. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit farbigen Markierungen. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },
 
   tutorial: {

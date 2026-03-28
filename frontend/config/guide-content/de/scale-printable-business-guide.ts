@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Geschäft skalieren',
+    primaryKeyword: 'Druckvorlagen-Business skalieren Anleitung',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft skalieren Anleitung',
-      'Arbeitsblatt-Geschäft Wachstumsstrategie',
-      'Druckvorlagen-Geschäft Skalierung Leitfaden',
-      'Lernmaterial-Druckvorlagen Geschäftswachstum',
+      'Printable-Geschäft Wachstumsstrategie 2026',
+      'Arbeitsblatt-Business Multiplattform skalieren',
+      'Druckvorlagen Stapelproduktion Workflow',
+      'Katalogwachstum Druckvorlagen automatisieren',
     ],
     lsiKeywords: [
-      'Geschäftswachstum Umsatz Skalierung Automatisierung Outsourcing Produktkatalog Expansion',
-      'Multiplattform-Verkauf Workflow-Optimierung Stapelproduktion Systemdenken',
-      'Zeitmanagement Delegation Produktdiversifizierung Marktexpansion Markenaufbau',
-      'Kundenlebenszeitwert operative Effizienz Prozessdokumentation Standardarbeitsanweisungen',
-      'Katalogwachstum Umsatz pro Produkt Plattformdiversifizierung Skalierungsengpass',
-      'Geschäftssysteme wiederholbare Prozesse Produktionspipeline Inhaltsmultiplikation',
+      'Multiplattform-Verkauf Stapelproduktion Workflow-Optimierung Produktionspipeline',
+      'Plattformdiversifizierung Katalogwachstum Inhaltsmultiplikation Skalierungsengpass',
+      'Prozessdokumentation wiederholbare Prozesse Kundenlebenszeitwert mehrsprachige Expansion',
     ],
-    titleTag: 'Druckvorlagen-Geschäft skalieren — Wachstumstipps',
-    metaDescription: 'Druckvorlagen-Geschäft skalieren mit Stapelproduktion, Multiplattform-Expansion und Katalogwachstum. Mehrsprachige Märkte und Automatisierung für mehr.',
+    titleTag: 'Druckvorlagen-Business skalieren | LCS',
+    metaDescription: 'Druckvorlagen-Business skalieren: Stapelproduktion, Multiplattform-Expansion, Katalogwachstum und Automatisierung für nachhaltigen Umsatz auf Etsy und KDP.',
   },
 
   hero: {
-    title: 'Wie Sie Ihr Druckvorlagen-Geschäft skalieren',
+    title: 'Ihr Druckvorlagen-Business systematisch skalieren',
     tagline: 'Ein vollständiger Leitfaden zur Skalierung Ihres Druckvorlagen-Geschäfts über Nebenprojekt-Umsätze hinaus — Skalierungsbereitschaftsbewertung und Engpassidentifikation, Stapelproduktionssysteme für konsistenten Output, Multiplattform-Expansionsstrategie, Katalogwachstum durch Produktlinienerweiterungen, mehrsprachige Marktexpansion, Automatisierung für repetitive Aufgaben und Wachstumskennzahlen für strategische Entscheidungen',
-    description: 'Der Unterschied zwischen einem Druckvorlagen-Nebenprojekt und einem skalierbaren Druckvorlagen-Geschäft liegt nicht im Talent, Glück oder härterem Arbeiten. Es sind Systeme. Jeder Verkäufer, der von einer Handvoll Produkte mit sporadischen Verkäufen zu einem Katalog gewachsen ist, der konsistente monatliche Umsätze generiert, hat dies erreicht, indem er manuelle Arbeit durch wiederholbare Prozesse ersetzt, strategisch über Plattformen und Märkte expandiert und eine Produktionspipeline aufgebaut hat, die den Output vervielfacht, ohne die Arbeitsstunden zu vervielfachen. Dieser Leitfaden führt Sie durch das vollständige Skalierungs-Framework — von der Erkennung, wann Ihr Geschäft bereit ist zu skalieren, bis zum Aufbau der Systeme, die Wachstum nachhaltig machen.',
+    description: 'Die Anleitung zum Druckvorlagen-Business skalieren zeigt Ihnen den entscheidenden Unterschied zwischen einem stagnierenden Nebenprojekt und einem echten Geschäft mit wachsenden Einnahmen: systematische Prozesse statt Einzelkämpfer-Einsatz. Jeder Verkäufer, der konsistente monatliche Umsätze von 1.000 € und mehr erreicht hat, hat manuelle Arbeit durch wiederholbare Prozesse ersetzt und strategisch über Plattformen expandiert. Sie lernen in diesem Leitfaden, wie Sie Ihre Skalierungsbereitschaft bewerten, Engpässe in Ihrem aktuellen Workflow identifizieren und Stapelproduktionssysteme aufbauen, die Ihren Output vervielfachen, ohne die Arbeitsstunden zu erhöhen. Außerdem erfahren Sie, wie Multiplattform-Expansion auf Etsy, Amazon KDP und Gumroad, mehrsprachige Markterschließung und Automatisierung zusammenwirken, um nachhaltiges Wachstum zu ermöglichen, das sich über die Zeit exponentiell verstärkt.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer erreichen ein Plateau. Die ersten 5 bis 10 Produkte entstehen durch schiere Anstrengung und Begeisterung. Verkäufe tröpfeln herein, vielleicht ein paar hundert Euro pro Monat, und das Geschäft fühlt sich vielversprechend an. Dann gerät der Fortschritt ins Stocken. Die Erstellung jedes neuen Produkts dauert genauso lange wie beim ersten. Die Listung auf einer neuen Plattform bedeutet, bei null anzufangen. Marketing verschlingt Stunden ohne klare Rendite. Der Verkäufer arbeitet härter, aber der Umsatz bleibt flach, und irgendwann fühlt sich das Geschäft eher wie ein anspruchsvolles Hobby als ein wachsendes Unternehmen an.\n\nDieses Plateau ist kein Versagen des Verkäufers — es ist ein Versagen des Ansatzes. Die Skalierung eines Druckvorlagen-Geschäfts erfordert eine grundlegend andere Strategie als der Start. Starten bedeutet, einzelne Produkte zu erstellen und sie zu listen. Skalieren bedeutet, Systeme zu bauen, die Ihren Output vervielfachen, strategisch in neue Märkte und Plattformen zu expandieren und die repetitiven Aufgaben zu automatisieren, die Ihre produktiven Stunden verbrauchen, ohne neuen Umsatz zu generieren.\n\nDie Verkäufer, die das Plateau durchbrechen, teilen gemeinsame Merkmale. Sie produzieren stapelweise statt ein Produkt nach dem anderen zu erstellen. Sie expandieren auf mehrere Verkaufsplattformen statt von einem einzigen Marktplatz abhängig zu sein. Sie bauen Produktlinien auf, die bestehende Arbeit nutzen, statt bei jedem neuen Produkt von vorne anzufangen. Sie nutzen Werkzeuge, die die Produktionszeit pro Produkt dramatisch reduzieren und Stunden für strategische Arbeit wie Marktforschung und Plattformoptimierung freisetzen. Und sie verfolgen Kennzahlen, die ihnen sagen, wo sie ihre verfügbare Zeit für maximale Rendite investieren sollten.\n\nSkalieren bedeutet nicht, mehr Stunden zu arbeiten. Tatsächlich erfordern die erfolgreichsten skalierten Druckvorlagen-Geschäfte oft weniger Stunden pro Woche als während der Hustle-Phase — der Unterschied ist, dass jede investierte Stunde wesentlich mehr Output und Umsatz produziert. Ein Verkäufer, der ein Arbeitsblatt-Paket in drei Stunden mit manuellen Methoden erstellt, verdient den gleichen Stundensatz, ob er 10 Stunden pro Woche oder 40 arbeitet. Ein Verkäufer, der Arbeitsblatt-Generatoren nutzt, um die gleiche Qualität in 20 Minuten pro Paket zu produzieren, und dann die verbleibende Zeit für strategische Katalogerweiterung und Multiplattform-Listung nutzt, verdient dramatisch mehr pro Stunde, weil seine Systeme den Wert seiner Zeit vervielfachen.\n\nDieser Leitfaden handelt nicht von Wachstums-Hacks oder Abkürzungen. Es geht darum, das operative Fundament aufzubauen, das ein Druckvorlagen-Nebenprojekt in ein Geschäft verwandelt, das systematisch wächst — durch Hinzufügen von Produkten, Plattformen, Sprachen und Umsatzströmen auf eine Weise, die sich über die Zeit zusammensetzt, statt proportional mehr Aufwand für jedes Wachstumsinkrement zu erfordern.',

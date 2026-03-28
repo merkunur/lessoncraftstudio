@@ -2,28 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'buchstabensalat-generator',
+    primaryKeyword: 'Buchstabensalat-Generator für Etsy-Printable-Business',
     secondaryKeywords: [
-      'druckbare Buchstaben-Durcheinander-Rätsel für Etsy-Verkäufer',
-      'Buchstaben-Umstell-Arbeitsblatt-Generator für KDP-Verleger',
-      'Wörter-Entwirren-Arbeitsblätter auf Gumroad verkaufen',
-      'Buchstabensalat-Druckvorlagen kommerzielle Lizenz',
-      'Buchstaben-Rätsel-Generator mit Vokal-Konsonanten-Farbcodierung',
+      'Buchstabensalat-Arbeitsblätter für Etsy-Shop erstellen',
+      'Buchstaben-Rätsel-Bücher für Amazon KDP',
+      'Wörter-Entwirren-Druckvorlagen gewerbliche Lizenz',
+      'Buchstabensalat-Generator für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'digitale Buchstaben-Umstell-Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Wort-Entwirr-Arbeitsblätter',
-      'kommerzieller Buchstabensalat-Generator Rechtschreibtraining',
+      'Buchstabenplättchen Vokal-Farbcodierung druckfertig',
+      'Buchstabensalat-Generator DACH-Markt',
+      'Lösungsschlüssel Rechtschreibrätsel kommerzielle Nutzung',
     ],
-    titleTag: 'Buchstabensalat-Generator | Buchstaben-Rätsel',
-    metaDescription: 'Buchstabensalat-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Buchstabenplättchen, Vokal-Farbcodierung, 11 Sprachen. Kostenlos testen mit.',
+    titleTag: 'Buchstabensalat-Generator für Etsy-Business | LCS',
+    metaDescription: 'Erstellen Sie Buchstabensalat-Arbeitsblätter zum Verkauf auf Etsy & KDP. Vokal-Farbcodierung, 11 Sprachen, gewerbliche Lizenz. Jetzt kostenlos testen.',
   },
 
   hero: {
-    title: 'Buchstabensalat-Arbeitsblatt-Generator für Buchstaben-Umstell-Rechtschreibrätsel',
+    title: 'Buchstabensalat-Rätsel erstellen für Etsy-Printable-Business',
     tagline: 'Gemischte Buchstabenplättchen treffen Bild-Hinweise — vier Schwierigkeitsstufen und Vokal-Konsonanten-Farbcodierung verwandeln jedes Wort in ein praktisches Rechtschreibrätsel.',
     description:
-      'Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter, bei denen Nutzer einen Bild-Hinweis sehen und gemischte Buchstabenplättchen in die richtige Reihenfolge bringen, um das korrekte Wort zu buchstabieren — ein Buchstaben-Umstell-Rätsel, das gleichzeitig Rechtschreibgenauigkeit, Worterkennung und phonologisches Bewusstsein fördert. Wählen Sie aus drei Inhaltsquellen: die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, der manuelle Bearbeitungsmodus, in dem Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen, oder der benutzerdefinierte Wortlisten-Modus für reine Text-Rätsel mit bis zu 8 Wörtern, die Sie direkt eingeben. Vier Schwierigkeitsstufen steuern, wie viele Hinweis-Buchstaben bereits an der richtigen Stelle platziert sind — von Keine Hinweise (0 Buchstaben platziert) für maximale Herausforderung über Leicht (die Hälfte vorplatziert) und Normal (ein Viertel vorplatziert) bis Schwer (ein Sechstel vorplatziert) — und schaffen eine natürliche Schwierigkeitsprogression vom Anfänger bis zum Fortgeschrittenen. Die Vokal-Konsonanten-Farbcodierung ist einzigartig beim Buchstabensalat: Aktivieren Sie farbige Plättchen, bei denen Vokale in einer Farbe und Konsonanten in einer anderen erscheinen — eine visuelle Phonik-Hilfe, die Buchstabentypen-Erkennung während des Entwirrens fördert. Im Gegensatz zu Wörter-Raten, wo Nutzer leere Felder ausfüllen, gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Umstellübung statt Deduktion. Platzieren Sie 1 bis 10 Rätsel pro Arbeitsblatt (Standard: 6) und wechseln Sie zwischen Groß- und Kleinbuchstaben auf den Plättchen. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sich das Zielwort je nach Sprache ändert — aus \"Hund\" auf Deutsch wird \"dog\" auf Englisch, \"chien\" auf Französisch — und macht jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt. Deutsche Wörter bieten dabei einen besonderen Reiz für Buchstabensalat: Zusammengesetzte Substantive wie \"Schmetterling\" (13 Plättchen: S-C-H-M-E-T-T-E-R-L-I-N-G, durcheinander zu z.B. T-N-G-E-S-L-M-R-I-C-T-H-E), \"Feuerwehrauto\" (13 Plättchen) oder \"Krankenhaus\" (11 Plättchen) erzeugen deutlich längere Plättchenreihen als ihre englischen Äquivalente und machen jedes Arbeitsblatt zu einem visuell einzigartigen Produkt. Umlaute wie ä, ö und ü erscheinen direkt auf den Buchstabenplättchen — und werden bei der Farbcodierung als Vokale markiert, was visuell besonders auffällig ist: Bei \"Löwe\" erscheinen L(Konsonant)-Ö(Vokal)-W(Konsonant)-E(Vokal) in zwei kontrastierenden Farben. Jedes Arbeitsblatt erstellt automatisch einen Lösungsschlüssel mit den korrekt entworrenen Wörtern, und Sie können druckfertige PDFs und JPEGs mit über 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen exportieren. Ob Sie thematische Buchstabensalat-Pakete auf Etsy.de verkaufen, Buchstaben-Rätsel-Bücher für Amazon KDP zusammenstellen oder gestufte Rechtschreibübungen für den Gumroad erstellen — der Buchstabensalat-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Der Buchstabensalat-Generator für Etsy-Printable-Business verwandelt jedes Wort in ein verkaufsfertiges Buchstaben-Umstell-Rätsel mit farbenfrohen Bildhinweisen und durcheinander gemischten Plättchen. Vier Schwierigkeitsstufen — von null Hinweisen bis zur Hälfte vorplatzierter Buchstaben — ermöglichen es Ihnen, aus einem einzigen Design gestufte Produktpakete zu erstellen, die höhere Preise rechtfertigen. Die einzigartige Vokal-Konsonanten-Farbcodierung hebt Ihre Produkte visuell von der Konkurrenz ab und spricht gezielt Käufer an, die phonikbasierte Materialien suchen. Für den DACH-Markt bieten deutsche zusammengesetzte Substantive wie „Schmetterling" oder „Feuerwehrauto" mit 13 durcheinander gemischten Plättchen ein deutlich beeindruckenderes Rätselformat als kurze englische Wörter — ein klarer Wettbewerbsvorteil auf Etsy.de und Amazon KDP. Mit der gewerblichen Lizenz und 11 unterstützten Sprachen skalieren Sie Ihr Printable-Business über Ländergrenzen hinweg. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

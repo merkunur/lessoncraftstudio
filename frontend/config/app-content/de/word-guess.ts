@@ -2,28 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'wörter-raten-generator',
+    primaryKeyword: 'Wörter-Raten-Rätsel erstellen und auf Etsy verkaufen',
     secondaryKeywords: [
-      'druckbare Bild-Vokabel-Rätsel für Etsy-Verkäufer',
-      'Buchstaben-Rate-Arbeitsblatt-Generator für KDP-Verleger',
-      'Worterkennungs-Arbeitsblätter auf Gumroad verkaufen',
-      'Wörter-Raten-Druckvorlagen kommerzielle Lizenz',
-      'Bild-Hinweis-Wort-Rätsel Arbeitsblatt-Generator',
+      'Wörter-Raten-Generator für Etsy-Verkäufer',
+      'Vokabel-Rätsel-Bücher für Amazon KDP erstellen',
+      'Worterkennungs-Druckvorlagen gewerbliche Lizenz',
+      'Bild-Hinweis-Rätsel für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'digitale Vokabel-Rätsel Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Buchstaben-Deduktion Arbeitsblätter',
-      'kommerzieller Wörter-Raten-Generator Rechtschreibung',
+      'Wörter-Raten Bild-Hinweis druckfertig 300 DPI',
+      'Vokabel-Rätsel-Generator DACH-Markt',
+      'Lösungsschlüssel Schwierigkeitsstufen kommerzielle Nutzung',
     ],
-    titleTag: 'Wörter-Raten-Generator | Bild-Hinweis-Vokabel',
-    metaDescription: 'Wörter-Raten-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Wörter-Raten-Rätsel für Etsy erstellen | LCS',
+    metaDescription: 'Wörter-Raten-Rätsel erstellen und auf Etsy & KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Wörter-Raten-Arbeitsblatt-Generator für Bild-Hinweis-Vokabel-Rätsel',
+    title: 'Wörter-Raten-Rätsel erstellen und auf Etsy verkaufen',
     tagline: 'Galgenmännchen-Logik trifft Bild-Hinweise — vier Schwierigkeitsstufen verwandeln jedes Wort in ein fesselndes Buchstaben-Rätsel.',
     description:
-      'Erstellen Sie professionelle Wörter-Raten-Arbeitsblätter, bei denen Nutzer einen Bild-Hinweis sehen und das versteckte Wort erraten, indem sie leere Buchstabenfelder ausfüllen — ein Galgenmännchen-ähnliches Rätsel, das gleichzeitig Rechtschreibung, Wortschatz und logisches Denken fördert. Wählen Sie aus drei Inhaltsquellen: die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, der manuelle Bearbeitungsmodus, in dem Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen, oder der benutzerdefinierte Wortlisten-Modus für reine Text-Rätsel mit beliebigem Vokabular. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben als Hinweise vorausgefüllt werden — von keinen Hinweisen (alle Felder leer) über Leicht (die Hälfte der Buchstaben sichtbar) und Normal (ein Viertel sichtbar) bis Schwer (ein Sechstel sichtbar) — und schaffen eine natürliche Schwierigkeitsprogression vom Anfänger bis zum Fortgeschrittenen. Platzieren Sie 1 bis 10 Rätsel pro Arbeitsblatt und wechseln Sie zwischen Groß- und Kleinbuchstaben im Buchstabengitter. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sich das Zielwort je nach Sprache ändert — aus \"Hund\" auf Deutsch wird \"dog\" auf Englisch, \"chien\" auf Französisch, \"perro\" auf Spanisch — und macht jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt. Deutsche Wörter bieten dabei einen besonderen Reiz: Zusammengesetzte Substantive wie \"Schmetterling\" (13 Buchstaben), \"Feuerwehrauto\" (13 Buchstaben) oder \"Krankenhaus\" (11 Buchstaben) erzeugen deutlich längere Buchstabengitter als ihre englischen Äquivalente und machen jedes Arbeitsblatt zu einem visuell einzigartigen Produkt. Umlaute wie ä, ö und ü erscheinen direkt in den Buchstabenfeldern und verleihen deutschen Rätseln zusätzliche Authentizität. Jedes Arbeitsblatt erstellt automatisch einen Lösungsschlüssel, und Sie können druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen exportieren. Ob Sie thematische Vokabel-Rätsel-Pakete auf Etsy.de verkaufen, Wort-Rätsel-Bücher für Amazon KDP zusammenstellen oder gestufte Rechtschreibübungen für den Gumroad erstellen — der Wörter-Raten-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Wörter-Raten-Rätsel erstellen und auf Etsy verkaufen — mit diesem Generator produzieren Sie professionelle Arbeitsblätter im Galgenmännchen-Stil, bei denen Käufer anhand von Bildhinweisen versteckte Wörter erraten. Das bewährte Rätselformat kombiniert Vokabeltraining mit spannendem Ratespaß und verkauft sich hervorragend als thematisches Paket auf Etsy.de und als Rätselbuch auf Amazon KDP. Vier einstellbare Schwierigkeitsstufen ermöglichen es Ihnen, aus einem einzigen Design mehrere Produktvarianten zu generieren — vom Anfänger-Arbeitsblatt mit der Hälfte vorausgefüllter Buchstaben bis zur Profi-Herausforderung ohne jeden Hinweis. Deutsche zusammengesetzte Substantive wie „Schmetterling" erzeugen beeindruckende 13-Buchstaben-Gitter, die auf Produktvorschaubildern sofort auffallen und sich vom englischsprachigen Angebot klar differenzieren. Die gewerbliche Lizenz und Unterstützung für 11 Sprachen machen jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt für internationale Märkte. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

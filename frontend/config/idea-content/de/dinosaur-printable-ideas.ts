@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'dinosaurier-druckvorlagen-ideen',
+    primaryKeyword: 'Dinosaurier-Druckvorlagen Geschäftsideen',
     secondaryKeywords: [
       'Dino-Arbeitsblätter auf Etsy erstellen',
       'Dinosaurier-Aktivitätsblätter auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Paläontologie-Bildungsthema Arbeitsblätter',
       'T-Rex-Stegosaurus-Thema Lernmaterialien Etsy',
     ],
-    titleTag: 'Dinosaurier-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Dinosaurier-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Produktkonzepte, Plattformstrategien und Nischen-Tipps für erfolgreiche Druckvorlagen-Verkäufer.',
+    titleTag: 'Dinosaurier-Druckvorlagen Geschäftsideen | LCS',
+    metaDescription: 'Dinosaurier-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. T-Rex bis Stegosaurus — profitable Produktkonzepte und Nischenstrategien für Verkäufer.',
   },
   hero: {
-    title: 'Dinosaurier-Druckvorlagen: Geschäftsideen für Verkäufer',
-    description: 'Dinosaurier faszinieren Kinder wie kaum ein anderes Thema. Die Kombination aus riesigen Kreaturen, geheimnisvollem Aussterben und endloser Artenvielfalt erzeugt eine Begeisterung, die eine konstante Nachfrage nach Dinosaurier-Lernmaterialien antreibt. Für Druckvorlagen-Verkäufer bedeutet das eine Nische mit starker emotionaler Anziehungskraft, hohem Interesse bei Eltern und Käufern sowie ganzjährigem Kaufverhalten. Anders als saisonale Themen, die nach wenigen Wochen verblassen, hält die Dinosaurier-Begeisterung über jeden Monat des Jahres an. Ob Sie auf Etsy, Amazon KDP oder Gumroad verkaufen — Dinosaurier-Druckvorlagen bieten erheblichen Spielraum für Produktdifferenzierung dank der schieren Vielfalt an Arten, Erdzeitaltern und Lernperspektiven. Dieser Leitfaden behandelt konkrete Produktideen, plattformspezifische Strategien und praktische Ansätze zum Aufbau einer profitablen Dinosaurier-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Werkzeugen.',
+    title: 'Dinosaurier-Druckvorlagen — Geschäftsideen für Verkäufer',
+    description: 'Dinosaurier-Druckvorlagen Geschäftsideen gehören zu den lukrativsten Evergreen-Themen für Verkäufer. Die Kombination aus riesigen Kreaturen, geheimnisvollem Aussterben und endloser Artenvielfalt erzeugt eine Begeisterung, die eine konstante Nachfrage nach Dinosaurier-Lernmaterialien antreibt. Für Druckvorlagen-Verkäufer bedeutet das eine Nische mit starker emotionaler Anziehungskraft, hohem Interesse bei Eltern und Käufern sowie ganzjährigem Kaufverhalten. Anders als saisonale Themen, die nach wenigen Wochen verblassen, hält die Dinosaurier-Begeisterung über jeden Monat des Jahres an. Ob Sie auf Etsy, Amazon KDP oder Gumroad verkaufen — Dinosaurier-Druckvorlagen bieten erheblichen Spielraum für Produktdifferenzierung dank der schieren Vielfalt an Arten, Erdzeitaltern und Lernperspektiven. Dieser Leitfaden behandelt konkrete Produktideen, plattformspezifische Strategien und praktische Ansätze zum Aufbau einer profitablen Dinosaurier-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Werkzeugen.',
   },
   marketOverview: `Die Dinosaurier-Druckvorlagen-Nische lebt von einer einfachen Wahrheit: Kinder sind besessen von Dinosauriern. Diese Besessenheit überwindet Geschlechtergrenzen, kulturelle Barrieren und Altersgruppen auf eine Weise, die nur wenige andere Themen erreichen. Eltern erkennen diese Leidenschaft und suchen aktiv nach Lernmaterialien, die die Dinosaurier-Begeisterung in produktives Lernen umwandeln. Käufer nutzen die Dinosaurier-Faszination, um Wortschatz, Zählen, naturwissenschaftliche Konzepte und Lesefähigkeiten zu vermitteln, weil sie wissen, dass das Engagement sprunghaft ansteigt, wenn prähistorische Kreaturen ins Spiel kommen.
 

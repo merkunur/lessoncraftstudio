@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblatt-Pakete erstellen die sich verkaufen',
+    primaryKeyword: 'Arbeitsblatt-Bundles erstellen die sich verkaufen',
     secondaryKeywords: [
-      'Arbeitsblatt-Paket Strategie',
-      'Druckvorlagen-Paket erstellen',
-      'Arbeitsblätter bündeln zum Verkaufen',
-      'Arbeitsblatt-Paket Preisgestaltung',
+      'Arbeitsblatt-Bundle Verkaufsstrategie',
+      'Druckvorlagen-Bundles für Etsy erstellen',
+      'profitable Arbeitsblatt-Pakete schnüren',
+      'Bundle-Preisgestaltung Druckvorlagen',
     ],
     lsiKeywords: [
-      'Pakettypen Fach Altersgruppe Thema saisonal Format Mega wahrgenommener Wert',
-      'Wert-Stapelung aufgeschlüsselte Ersparnisse Bonusmaterial Deckblatt Inhaltsverzeichnis',
-      'Ankerpreis Rabattpsychologie gestaffelte Paketpreise Preistests',
-      'komplementäre Produkte Vielfalt Konsistenz Füllmaterial-Vermeidung Qualitätsstandards',
-      'Paketverpackung Mockup Vorschau Branding Dateiorganisation Namenskonventionen',
-      'Multi-Plattform Paket-Listings universelle Strategie plattformübergreifender Verkauf',
+      'Pakettypen Wert-Stapelung Ankerpreis Rabattpsychologie wahrgenommener Wert',
+      'komplementäre Produkte Deckblatt Inhaltsverzeichnis Bonusmaterial Mockup',
+      'plattformübergreifender Verkauf Listing-Optimierung Konversionsrate Umsatz pro Transaktion',
     ],
-    titleTag: 'Arbeitsblatt-Pakete erstellen die sich verkaufen — Leitfaden',
-    metaDescription: 'Arbeitsblatt-Pakete erstellen, die sich auf jeder Plattform verkaufen. Pakettypen, Preispsychologie und professionelle Verpackung für mehr Profi-Anleitung.',
+    titleTag: 'Arbeitsblatt-Bundles die sich verkaufen | LCS',
+    metaDescription: 'Arbeitsblatt-Bundles erstellen die sich verkaufen: Pakettypen, Preispsychologie, Wert-Stapelung und professionelle Verpackung für mehr Umsatz auf Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Arbeitsblatt-Pakete, die sich verkaufen',
+    title: 'Arbeitsblatt-Bundles erstellen die Käufer überzeugen',
     tagline: 'Ein vollständiger Leitfaden zur Erstellung hochwertiger Arbeitsblatt-Pakete, die den Umsatz pro Transaktion auf jeder Verkaufsplattform steigern — mit Pakettypen und -strukturen, Produktauswahl für überzeugende Kombinationen, Wert-Stapelung und Psychologie des wahrgenommenen Werts, professioneller Paketverpackung und Präsentation, Ankerpreisgestaltung und Rabattstrategien, plattformunabhängiger Listing-Optimierung und Leistungsverfolgung für kontinuierliche Verbesserung',
-    description: 'Arbeitsblätter zu bündeln ist die wirksamste Methode, um Ihren durchschnittlichen Bestellwert zu steigern, ohne neue Inhalte erstellen zu müssen. Ein gut strukturiertes Paket verwandelt Einzelprodukte im Wert von 8 bis 12 € in ein 35- bis 65-€-Paket, das Käufer als besseres Angebot wahrnehmen — obwohl Sie pro Transaktion deutlich mehr verdienen. Dieser Leitfaden behandelt universelle Bündelungsstrategien, die auf Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica und jeder anderen Plattform funktionieren, auf der Sie druckbare Arbeitsblätter verkaufen.',
+    description: 'Arbeitsblatt-Bundles erstellen die sich verkaufen ist der schnellste Weg, Ihren durchschnittlichen Bestellwert zu steigern, ohne neue Inhalte von Grund auf produzieren zu müssen. Ein gut strukturiertes Bundle verwandelt Einzelprodukte im Wert von 8 bis 12 € in ein 35- bis 65-€-Paket, das Käufer als deutlich besseres Angebot wahrnehmen. Sie erfahren in diesem Leitfaden, welche Pakettypen am besten konvertieren — ob Fachpakete, Themenpakete oder Komplettsets — und wie Preispsychologie und Wert-Stapelung mit Ankerrabatten Ihre Konversionsrate erhöhen. Außerdem lernen Sie, professionelle Verpackung mit Deckblatt, Inhaltsverzeichnis und Bonusmaterial zu gestalten, die Vertrauen aufbaut und den wahrgenommenen Wert steigert. Die Strategien funktionieren plattformunabhängig auf Etsy, Amazon KDP, Eduki, Gumroad und Creative Fabrica, sodass Sie Ihren gesamten Katalog mit einem einzigen Bundle-Framework monetarisieren können.',
   },
 
   introduction: 'Der Verkauf einzelner Arbeitsblätter setzt Ihrem Umsatz pro Kunde eine harte Obergrenze. Ein Käufer besucht Ihren Shop, kauft ein Produkt für 10 € und geht. Selbst wenn Ihre Arbeitsblätter hervorragend sind, kehren die meisten Einmalkäufer nie zurück. Pakete durchbrechen dieses Muster, indem sie Käufern mehr Wert pro Einkauf bieten und gleichzeitig Ihre Einnahmen pro Transaktion dramatisch steigern.\n\nDie Psychologie hinter Paketkäufen ist gut dokumentiert: Käufer nehmen gebündelte Produkte als wertvoller wahr als die Summe ihrer Einzelteile, insbesondere wenn das Paket einen klaren Rabatt gegenüber dem Einzelkauf bietet. Ein Elternteil, das nach Matheübungsblättern sucht, sieht ein einzelnes 20-seitiges Additionspaket für 10 € oder ein komplettes Erstklassmarkt-Mathematikpaket mit 100 Seiten zu Addition, Subtraktion, Zahlenverständnis und Textaufgaben für 32 €. Das Paket kostet mehr, aber der Wert pro Seite und die Bequemlichkeit einer umfassenden Lösung machen es für die meisten Käufer zur offensichtlichen Wahl.\n\nPakete lösen auch ein kritisches Geschäftsproblem: die Kundenakquisitionskosten. Ob Sie für Werbung bezahlen, Zeit in SEO investieren oder eine Social-Media-Präsenz aufbauen — jeder Besucher Ihres Shops steht für Aufwand und manchmal direkte Kosten. Ein Paket verwandelt denselben Besucher in einen 35-€-Käufer statt eines 10-€-Käufers und verdreifacht Ihre Rendite auf jeden investierten Marketing-Euro und jede investierte Stunde. Im Laufe der Zeit verstärkt sich dieser Effekt dramatisch — Verkäufer, die Pakete in den Vordergrund stellen, berichten durchweg, dass Pakete 40 % bis 60 % ihres Gesamtumsatzes ausmachen, obwohl sie nur einen kleinen Bruchteil ihrer Gesamtangebote darstellen.\n\nDieser Leitfaden behandelt plattformunabhängige Bündelungsstrategien: was gebündelt werden sollte, wie Pakete für maximalen wahrgenommenen Wert strukturiert werden, Preispsychologie für höhere Konversion und professionelle Verpackung, die Käufervertrauen aufbaut. Die Prinzipien funktionieren identisch, ob Sie auf Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica oder Ihrer eigenen Website verkaufen. Für plattformspezifische Listing-Taktiken verweisen wir auf die dedizierten Plattform-Leitfäden, die in diesem Guide verlinkt sind.',

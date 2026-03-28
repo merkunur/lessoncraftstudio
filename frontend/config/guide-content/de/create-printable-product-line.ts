@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Produktlinie erstellen',
+    primaryKeyword: 'Druckvorlagen-Produktlinie aufbauen',
     secondaryKeywords: [
-      'Druckvorlagen-Produktlinie Strategie',
-      'Arbeitsblatt-Produktlinie aufbauen',
-      'Druckvorlagen-Katalog erstellen',
-      'Produktlinie für Druckvorlagen-Geschäft',
+      'Arbeitsblatt-Produktlinie Strategie Etsy',
+      'Druckvorlagen-Katalog systematisch erweitern',
+      'Produktserie Printable-Business erstellen',
+      'Markenkohärenz Druckvorlagen-Shop',
     ],
     lsiKeywords: [
-      'Produktkatalog Produktkonsistenz Markenkohärenz Produktprogression Katalogstrategie',
-      'Produkt-Roadmap Produktvorlagen visuelles Branding Namenskonventionen Katalogtiefe',
-      'Produktserie Designsprache Layout-Muster Markenerkennung Shop-Identität',
-      'systematische Erweiterung Altersgruppen-Erweiterung Formatvariation Themenkonsistenz Produktraster',
-      'Querverkauf Katalognavigation Shop-Organisation Produktsequenzierung Marktabdeckung',
-      'visuelle Identität Produkthierarchie Komplementärprodukte Produktökosystem Linienkohärenz',
+      'Produktkatalog Namenskonventionen visuelles Branding Katalogtiefe Querverkauf',
+      'Produktraster Designsprache Shop-Identität Produktsequenzierung Markenerkennung',
+      'systematische Erweiterung Komplementärprodukte Produktökosystem Wiederholungskäufe',
     ],
-    titleTag: 'Druckvorlagen-Produktlinie erstellen — Leitfaden',
-    metaDescription: 'Erfahren Sie, wie Sie eine Druckvorlagen-Produktlinie mit konsistentem Branding, strategischer Produktsequenzierung und systematischer Erweiterung aufbauen.',
+    titleTag: 'Druckvorlagen-Produktlinie aufbauen | LCS',
+    metaDescription: 'Druckvorlagen-Produktlinie aufbauen mit konsistentem Branding, strategischer Produktsequenzierung und systematischer Katalogerweiterung für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+    title: 'Eine profitable Druckvorlagen-Produktlinie aufbauen',
     tagline: 'Ein vollständiger Leitfaden zum Aufbau einer zusammenhängenden Druckvorlagen-Produktlinie, die Markenerkennung und Wiederholungskäufe fördert — von Produktlinien-Identität und -Struktur über visuelle Konsistenz im gesamten Katalog, Namenskonventionen für Wiedererkennung, strategische Produktsequenzierung, Katalogorganisation für einfache Navigation bis hin zu systematischen Erweiterungsmethoden für langfristiges Wachstum',
-    description: 'Eine Produktlinie verwandelt eine zufällige Sammlung von Druckvorlagen-Arbeitsblättern in eine erkennbare Marke, zu der Käufer immer wieder zurückkehren. Statt isolierte Produkte zu erstellen, die mit Tausenden ähnlicher Listings konkurrieren, baut eine zusammenhängende Produktlinie Katalogtiefe, visuelle Konsistenz und Käufervertrauen auf, die sich im Laufe der Zeit verstärken. Dieser Leitfaden behandelt das vollständige Framework für Planung, Aufbau und Erweiterung einer Druckvorlagen-Produktlinie, die auf Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica und jeder anderen Plattform funktioniert, auf der Sie Lernmaterialien verkaufen.',
+    description: 'Eine Druckvorlagen-Produktlinie aufbauen verwandelt eine zufällige Sammlung von Arbeitsblättern in eine erkennbare Marke, zu der Käufer immer wieder zurückkehren. Statt isolierte Produkte zu erstellen, die mit Tausenden ähnlicher Listings konkurrieren, schaffen Sie Katalogtiefe, visuelle Konsistenz und Käufervertrauen, die sich im Laufe der Zeit gegenseitig verstärken. In diesem Leitfaden erfahren Sie, wie Sie Ihre Produktlinien-Identität definieren, eine einheitliche Designsprache entwickeln und Namenskonventionen etablieren, die sofortigen Wiedererkennungswert schaffen. Sie lernen, Ihren Katalog strategisch zu sequenzieren, damit jedes neue Produkt die Sichtbarkeit bestehender Listings steigert und Querverkäufe fördert. Der Leitfaden behandelt auch Methoden zur systematischen Erweiterung, die plattformübergreifend auf Etsy, Amazon KDP, Eduki, Gumroad und Creative Fabrica funktionieren — besonders wertvoll im DACH-Markt, wo professionelles Branding Vertrauen aufbaut und Premium-Preise rechtfertigt.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer beginnen auf die gleiche Weise: Sie erstellen ein Arbeitsblatt, listen es, erstellen dann ein weiteres, unzusammenhängendes Arbeitsblatt und listen auch dieses. Im Laufe der Monate sammelt sich in ihrem Shop ein Dutzend Produkte mit verschiedenen visuellen Stilen, inkonsistenter Benennung und ohne logische Verbindung untereinander an. Jedes Produkt steht für sich allein und konkurriert individuell gegen Tausende ähnlicher Listings. Jeder neue Produktlaunch startet bei Null, weil nichts im Katalog irgendetwas anderes verstärkt.\n\nEine Produktlinie verfolgt den gegenteiligen Ansatz. Jedes Produkt, das Sie erstellen, fügt sich in eine durchdachte Struktur ein — vereint durch visuelles Design, verbunden durch konsistente Benennung, organisiert nach klaren Kategorien und sequenziert, um auf dem Vorherigen aufzubauen. Wenn ein Käufer ein Produkt in Ihrer Linie entdeckt und die Qualität schätzt, kann er sofort zehn weitere Produkte sehen, die denselben Standard erfüllen, verwandte Themen abdecken und aussehen, als gehörten sie zusammen. Diese visuelle und strukturelle Konsistenz macht aus Einmalkäufern Stammkunden.\n\nDie geschäftliche Wirkung einer Produktlinie im Vergleich zu einem zufälligen Katalog ist erheblich. Verkäufer mit zusammenhängenden Produktlinien berichten von höheren durchschnittlichen Bestellwerten, weil Käufer mehrere verwandte Produkte in einer Sitzung kaufen. Sie verzeichnen stärkere organische Suchleistung, weil Produkttitel und -beschreibungen sich gegenseitig mit konsistenten Keyword-Mustern verstärken. Sie erleben niedrigere Kundenakquisitionskosten, weil jeder zufriedene Käufer für zusätzliche Produkte zurückkehrt, ohne zusätzliche Marketingausgaben. Und sie bauen echte Markenerkennung auf — Käufer lernen, gezielt nach ihren Produkten zu suchen, anstatt generische Suchergebnisse zu durchstöbern.\n\nDieser Leitfaden behandelt das vollständige Framework zum Aufbau einer Druckvorlagen-Produktlinie von Grund auf: Definition der Identität Ihrer Linie, Planung der Struktur, Etablierung visueller Konsistenz, Schaffung von Namenskonventionen, strategische Produktsequenzierung, Katalogorganisation für Navigation und systematische Erweiterung im Laufe der Zeit. Die Prinzipien gelten, ob Sie auf einer einzelnen Plattform oder über mehrere Marktplätze hinweg verkaufen. Für plattformspezifische Listing-Taktiken verweisen Sie auf die dedizierten Plattform-Leitfäden, die in diesem Guide verlinkt sind.',

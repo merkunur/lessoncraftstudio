@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen verkaufen Steuerpflichten',
+    primaryKeyword: 'Druckvorlagen-Business Steuern und Recht Deutschland',
     secondaryKeywords: [
       'Druckvorlagen-Geschäft rechtliche Grundlagen',
       'Steuerpflichten digitale Produkte',
@@ -10,21 +10,21 @@ const content: StartContent = {
       'geistiges Eigentum druckbare Arbeitsblätter',
     ],
     lsiKeywords: [
-      'Umsatzsteuer digitale Downloads nach Bundesland',
-      'Einzelunternehmen für Druckvorlagen-Geschäft',
-      'Buchführung für Etsy-Verkäufer',
-      'Plattform-Nutzungsbedingungen Einhaltung',
+      'Gewerbeanmeldung Druckvorlagen-Geschäft',
+      'Impressumspflicht digitale Produkte',
+      'DSGVO für Etsy-Verkäufer',
+      'Kleinunternehmerregelung Druckvorlagen',
       'grenzüberschreitende Steuer digitale Güter',
       'absetzbare Betriebsausgaben Druckvorlagen-Geschäft',
     ],
-    titleTag: 'Druckvorlagen verkaufen Steuerpflichten — Rechts-Leitfaden',
-    metaDescription: 'Steuerpflichten beim Druckvorlagen-Verkauf erklärt. Unternehmensform, absetzbare Ausgaben, geistiges Eigentum und Plattform-Compliance Arbeitsblatt-Verkäufer.',
+    titleTag: 'Printable-Business: Steuern & Recht (DE) | LCS',
+    metaDescription: 'Printable-Business in Deutschland: Gewerbeanmeldung, Impressumspflicht, DSGVO und Kleinunternehmerregelung für Druckvorlagen-Verkäufer verständlich erklärt.',
   },
 
   hero: {
-    title: 'Steuern und rechtliche Grundlagen für Ihr Druckvorlagen-Geschäft',
+    title: 'Printable-Business: Steuern und Recht in Deutschland',
     tagline: 'Wesentliche Steuer- und Rechtsinformationen für Druckvorlagen-Verkäufer — Unternehmensform, Steuerpflichten für digitale Güter, absetzbare Ausgaben, geistiges Eigentum, Plattform-Compliance und wann professionelle Hilfe nötig ist',
-    description: 'Ein Druckvorlagen-Geschäft zu betreiben bedeutet, ein echtes Unternehmen zu führen, und echte Unternehmen haben Steuerpflichten, rechtliche Anforderungen und Compliance-Verantwortlichkeiten. Viele Druckvorlagen-Verkäufer eröffnen ihre Shops, ohne die rechtliche Landschaft zu verstehen, was zu unangenehmen Überraschungen bei der Steuererklärung oder Schlimmerem führen kann. Dieser Leitfaden behandelt die wesentlichen Themen, die jeder Druckvorlagen-Verkäufer verstehen sollte: Unternehmensformen, Steuerpflichten beim Verkauf digitaler Produkte, absetzbare Betriebsausgaben, Grundlagen des geistigen Eigentums, Einhaltung der Plattform-Nutzungsbedingungen, Anforderungen an die Buchführung und wann professionelle Rechts- oder Steuerberatung sinnvoll ist. Jeder Abschnitt enthält einen klaren Haftungsausschluss: Dies sind Bildungsinformationen, die Ihnen helfen, die richtigen Fragen zu stellen — keine professionelle Beratung für Ihre spezifische Situation. Nutzen Sie diesen Leitfaden, um die Themen zu identifizieren, die Sie mit einem qualifizierten Steuerberater oder Rechtsanwalt besprechen sollten.',
+    description: 'Druckvorlagen-Business Steuern und Recht Deutschland — dieser Leitfaden behandelt die wesentlichen rechtlichen und steuerlichen Themen für Druckvorlagen-Verkäufer im gesamten DACH-Raum. Ob Gewerbeanmeldung in Deutschland, Impressumspflicht für Ihren Online-Shop, DSGVO-Anforderungen bei der Datenverarbeitung oder Kleinunternehmerregelung als Option für den Start: Jedes Thema wird verständlich und praxisnah erklärt. Dazu kommen Umsatzsteuer auf digitale Produkte (19 % in Deutschland), absetzbare Betriebsausgaben, Grundlagen des geistigen Eigentums und Einhaltung der Plattform-Nutzungsbedingungen auf Etsy, Amazon KDP und Gumroad. In Österreich und der Schweiz gelten teils abweichende Regelungen — auch diese werden angesprochen. Jeder Abschnitt enthält einen klaren Haftungsausschluss: Dies sind Bildungsinformationen, die Ihnen helfen, die richtigen Fragen zu stellen — keine professionelle Beratung. Nutzen Sie diesen Leitfaden als Checkliste für Gespräche mit Ihrem qualifizierten Steuerberater oder Rechtsanwalt.',
   },
 
   introduction: 'Die Steuersaison überrascht viele Druckvorlagen-Verkäufer. Sie haben das ganze Jahr über Arbeitsblätter erstellt, Produkte eingestellt und Umsätze auf verschiedenen Plattformen generiert — aber nie Geld für Steuern zurückgelegt, nie absetzbare Ausgaben verfolgt und ihr Unternehmen nie ordnungsgemäß registriert. Das Ergebnis sind Stress, Strafen und manchmal eine erhebliche Steuernachzahlung, die mit richtiger Planung hätte reduziert werden können.\n\nDie rechtliche Seite eines Druckvorlagen-Geschäfts ist nicht optional, und sie ist nicht so kompliziert, wie sie scheint, sobald Sie die Grundlagen verstehen. Sie brauchen keinen Jura-Abschluss, um Arbeitsblätter auf Etsy zu verkaufen. Aber Sie müssen Ihre Steuerpflichten verstehen, Ihr geistiges Eigentum schützen, die Plattform-Nutzungsbedingungen einhalten und Aufzeichnungen führen, die die Steuererklärung unkompliziert statt chaotisch machen.\n\nDieser Leitfaden ist nach den Fragen organisiert, die Druckvorlagen-Verkäufer am häufigsten stellen: Welche Unternehmensform brauche ich? Muss ich Umsatzsteuer erheben? Welche Ausgaben kann ich absetzen? Wie schütze ich meine Designs? Was passiert, wenn ich international verkaufe? Wann brauche ich einen Fachmann? Jeder Abschnitt bietet Bildungsinhalte, die Ihnen helfen, das Thema zu verstehen und zu erkennen, was Sie mit Ihrem eigenen Steuerberater oder Rechtsanwalt besprechen müssen.\n\nEin wichtiger Haftungsausschluss vorab: Dieser Leitfaden bietet ausschließlich allgemeine Bildungsinformationen. Es handelt sich nicht um Rechtsberatung, Steuerberatung oder professionelle Beratung jeglicher Art. Steuergesetze und rechtliche Anforderungen variieren je nach Land, Bundesland, Kanton und Gemeinde. Sie ändern sich häufig. Ihre spezifische Situation — einschließlich Ihres Standorts, Umsatzniveaus, Ihrer Unternehmensform und Verkaufsplattformen — bestimmt Ihre tatsächlichen Pflichten. Konsultieren Sie immer einen qualifizierten Steuerberater oder Rechtsanwalt für Entscheidungen, die Ihr Unternehmen betreffen.',

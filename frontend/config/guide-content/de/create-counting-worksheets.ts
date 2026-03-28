@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zähl- und Diagramm-Arbeitsblätter erstellen',
+    primaryKeyword: 'Zähl-Arbeitsblätter zum Verkaufen auf Etsy erstellen',
     secondaryKeywords: [
-      'Bilddiagramm-Arbeitsblatt-Generator',
-      'Zähl- und Diagramm-Arbeitsblätter erstellen',
-      'druckbare Bilddiagramm-Arbeitsblätter zum Verkaufen',
-      'Balkendiagramm Zähl-Arbeitsblatt-Ersteller',
+      'Bilddiagramm-Arbeitsblätter für Etsy produzieren',
+      'Zähl- und Diagramm-PDFs kommerziell verkaufen',
+      'Datenkompetenzen-Arbeitsbuch auf KDP veröffentlichen',
+      'Bilddiagramm-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'Streubild-Raster Zählübung',
-      'automatischer Lösungsschlüssel Diagramm-Arbeitsblatt',
-      'duale Arbeitsfläche Datenrepräsentations-Werkzeug',
-      'Diagramm-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Datenkompetenzen-Arbeitsbücher',
-      'kommerzielle Lizenz Bilddiagramm-Ersteller',
+      'Streubild-Raster Zählübung Etsy-Geschäft',
+      'Datenrepräsentation Printable Nische verkaufen',
+      'KDP Datenkompetenzen-Arbeitsbuch veröffentlichen',
     ],
-    titleTag: 'Zähl- und Diagramm-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Zähl-Arbeitsblätter mit Bilddiagrammen und automatischen Lösungsschlüsseln erstellen. 104 Themen. Schritt-für-Schritt-Anleitung für Etsy, Amazon KDP und Gumroad.',
+    titleTag: 'Zähl-Arbeitsblätter für Etsy erstellen | LCS',
+    metaDescription: 'Zähl-Arbeitsblätter zum Verkaufen erstellen. Bilddiagramme, automatische Lösungsschlüssel und 104 Themen. Druckfertige PDFs für Ihr Etsy Printable-Business.',
   },
 
   hero: {
-    title: 'So erstellen Sie Zähl- und Diagramm-Arbeitsblätter',
+    title: 'Zähl-Arbeitsblätter erstellen und auf Etsy verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung von Bilddiagramm-Arbeitsblättern mit Streubild-Rastern, automatisch generierten Lösungsschlüsseln und Balkendiagrammen, die Sie auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Zähl- und Diagramm-Arbeitsblätter vermitteln zwei grundlegende Mathematikfähigkeiten in einer einzigen Übung: Datenerhebung (Zählen verstreuter Bilder) und Datenrepräsentation (Ausfüllen eines Balkendiagramms). Dieses Doppelfähigkeits-Format ist ein Produktkatalogstandard in Grundschulklassen weltweit und erzeugt ganzjährige Nachfrage auf jedem Marktplatz. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bilddiagramm-Arbeitsblatt-Ersteller — von der Bildauswahl und Generierung des Streubildrasters bis zur Überprüfung des automatisch erstellten Lösungsschlüssels und dem Export druckfertiger Dateien. Ob Sie Ihr erstes Datenkompetenzen-Produkt starten oder einen bestehenden Mathe-Arbeitsblatt-Katalog erweitern — am Ende dieses Tutorials haben Sie ein fertiges Bilddiagramm-Arbeitsblatt mit passendem Lösungsschlüssel zum Einstellen bereit.',
+    description: 'Zähl-Arbeitsblätter zum Verkaufen auf Etsy erstellen ist besonders attraktiv, weil das Doppelfähigkeits-Format zwei Lernziele gleichzeitig abdeckt: Datenerhebung durch Zählen verstreuter Bilder und Datenrepräsentation durch Ausfüllen eines Balkendiagramms. Nachhilfezentren und Eltern schätzen Produkte, die Übungszeit maximieren, was zu höherer Kaufbereitschaft führt. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Bilddiagramm-Arbeitsblatt-Ersteller: Sie wählen Bilder aus 104 Themen, generieren ein 4×5-Streubild-Raster und überprüfen den automatisch erstellten Lösungsschlüssel mit gelb markierten Zellen. Da die Zählaktivität rein visuell ist, funktionieren dieselben Dateien ohne Übersetzung in jedem Land — ein Produkt, universelle Verkaufbarkeit. Drei Bildauswahlmodi und die Zufallsverteilung sorgen dafür, dass keine zwei Generierungen identisch sind, was den Aufbau großer Arbeitsblatt-Pakete effizient macht. Ob Sie Ihr erstes Datenkompetenzen-Produkt starten oder einen bestehenden Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Arbeitsblatt mit Lösungsschlüssel zum Einstellen bereit.',
   },
 
   introduction: 'Bilddiagramme gehören zu den frühesten Datenrepräsentationsfähigkeiten, die Kinder lernen. Ab dem Kindergarten üben Nutzer das Zählen von Objekten und das Aufzeichnen ihrer Ergebnisse in einfachen Diagrammen — eine Fähigkeit, die bis zur zweiten Klasse und darüber hinaus gefestigt wird. Dieses mehrjährige Produktkatalogfenster erzeugt anhaltende Marktnachfrage nach Bilddiagramm- und Zähl-Arbeitsblättern über mehrere Altersgruppen hinweg.\n\nWas Zähl- und Diagramm-Arbeitsblätter als druckbares Produkt besonders stark macht, ist ihre Doppelfähigkeits-Natur. Jedes Arbeitsblatt erfordert von den Nutzern, verstreute Bilder zu zählen (Datenerhebung) und dann ein Balkendiagramm auszufüllen (Datenrepräsentation). Käufer schätzen Aktivitäten, die zwei Lernziele gleichzeitig abdecken, weil sie die Produkterstellungszeit maximieren. Eltern und Selbststudium-Käufer schätzen das visuelle, praxisorientierte Format, das abstrakte Mathematikkonzepte greifbar macht.\n\nDer Bilddiagramm-Arbeitsblatt-Ersteller übernimmt die technische Komplexität für Sie. Er generiert ein 4×5 Streubild-Raster mit 20 Symbolen aus 6 verschiedenen Bildtypen, wobei jeder Typ 1–5 Mal in zufälliger Verteilung erscheint, was jede Generierung einzigartig macht. Unterhalb des Rasters bietet ein strukturiertes 6-Spalten × 5-Zeilen Balkendiagramm den Nutzern einen klaren Platz zum Aufzeichnen ihrer Zählergebnisse. Die App erzeugt gleichzeitig einen Lösungsschlüssel auf einem separaten Arbeitsflächen-Tab mit gelb markierten Zellen, die die korrekten Zählergebnisse anzeigen — kein manuelles Zählen, kein separater Erstellungsschritt.\n\nSie konzentrieren sich auf die Produktstrategie — welche Themen verwenden, wie bündeln, welche Marktplätze ansprechen — während der Generator Layout, Verteilungslogik, Lösungsschlüssel-Genauigkeit und Druckformatierung übernimmt. Jede in dieser Anleitung genannte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Arbeitsblätter erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

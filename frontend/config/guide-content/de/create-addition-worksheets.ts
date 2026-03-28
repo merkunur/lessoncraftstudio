@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Additions-Arbeitsblätter erstellen',
+    primaryKeyword: 'Plusaufgaben-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Additions-Arbeitsblätter für Kinder erstellen',
-      'Additions-Arbeitsblatt-Generator',
-      'druckbare Additions-Arbeitsblätter zum Verkaufen',
-      'individuelle Additionsübungen erstellen',
+      'Additions-Arbeitsblätter für Etsy erstellen',
+      'Mathe-Arbeitsblätter verkaufen Anleitung',
+      'druckbare Plusaufgaben für KDP produzieren',
+      'Additions-Arbeitsblatt-Generator kommerziell',
     ],
     lsiKeywords: [
-      'bildbasierte Mathe-Arbeitsblätter',
-      'visuelle Addition für Vorschule',
-      'Kindergarten Mathe-Übungsblätter',
-      'Mathe-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Mathe-Aktivitätsbücher',
-      'kommerzielle Lizenz Arbeitsblatt-Tool',
+      'bildbasierte Mathe-Druckvorlagen Geschäft',
+      'Etsy Printable Shop Additions-PDFs',
+      'KDP Mathe-Aktivitätsbuch veröffentlichen',
     ],
-    titleTag: 'Additions-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Additions-Arbeitsblätter für Kinder erstellen. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs für Etsy und KDP.',
+    titleTag: 'Plusaufgaben zum Verkaufen erstellen | LCS',
+    metaDescription: 'Plusaufgaben-Arbeitsblätter zum Verkaufen erstellen. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'Additions-Arbeitsblätter für Kinder erstellen',
+    title: 'Plusaufgaben-Arbeitsblätter erstellen und online verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung thematischer, druckfertiger Additions-Arbeitsblätter zum Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Additions-Arbeitsblätter gehören zu den am häufigsten gesuchten Druckvorlagen-Produkten auf allen großen Marktplätzen. Eltern brauchen sie zum Üben zu Hause. Käufer brauchen sie für tägliche Übungen und Hausaufgaben. Selbststudiumzentren brauchen jede Woche frische Sets. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Additions-Arbeitsblatt-Generator — von der Auswahl Ihrer Zielgruppe und des Themas bis zum Export einer professionellen, druckfertigen PDF mit automatischem Lösungsschlüssel. Ob Sie Ihr erstes Druckvorlagen-Produkt erstellen oder einen bestehenden Mathe-Arbeitsblatt-Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt bereit zum Einstellen.',
+    description: 'Plusaufgaben-Arbeitsblätter zum Verkaufen erstellen ist eine der profitabelsten Einstiegsmöglichkeiten für Ihr Druckvorlagen-Geschäft. Additions-Übungen gehören zu den am häufigsten gesuchten Produkten auf Etsy, Amazon KDP und Gumroad — Eltern kaufen sie zum Üben zu Hause, Nachhilfezentren bestellen regelmäßig frische Sets, und Homeschool-Familien benötigen sie ganzjährig. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Additions-Arbeitsblatt-Generator: Sie wählen Ihre Zielgruppe und ein visuelles Thema, stellen den Schwierigkeitsgrad ein, konfigurieren das Layout und exportieren eine professionelle, druckfertige PDF mit automatischem Lösungsschlüssel. Der Generator unterstützt vier Übungsmodi, über 100 Themen und elf Sprachen, sodass Sie aus einer einzigen Sitzung Dutzende verkaufsfähige Varianten produzieren können. Ob Sie Ihr erstes Druckvorlagen-Produkt erstellen oder einen bestehenden Mathe-Arbeitsblatt-Katalog systematisch erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt bereit zum Einstellen auf dem Marktplatz Ihrer Wahl.',
   },
 
   introduction: 'Addition ist die erste Rechenoperation, die Kinder lernen, und sie bleibt von der Vorschule bis zur zweiten Klasse und darüber hinaus relevant. Dieses lange Lernfenster bedeutet nachhaltige Nachfrage nach Additions-Arbeitsblättern über mehrere Altersgruppen hinweg — jede erfordert unterschiedliche Schwierigkeitsgrade, visuelle Stile und Aufgabenformate.\n\nWas Additions-Arbeitsblätter als Druckvorlagen-Produkt besonders stark macht, ist ihre Universalität. Jeder Produktkatalog in jedem Land eingesetzt Addition. Jedes Elternteil, das zu Hause eingesetzt, braucht Additionsübungen. Jeder Selbststudium-Käufer, der mit Nutzern arbeitet, greift zu Additionsaufgaben. Dies ist kein saisonales Produkt oder ein Nischentrend — es ist eine grundlegende Bildungsressource mit ganzjähriger Nachfrage.\n\nDer Additions-Arbeitsblatt-Generator übernimmt die technische Komplexität für Sie. Er generiert bildbasierte Additionsaufgaben mit thematischen Illustrationen, konfiguriert den Schwierigkeitsgrad durch Anpassung der Zahlenbereiche, unterstützt vier verschiedene Übungsmodi und erstellt automatische Lösungsschlüssel. Sie konzentrieren sich auf die Produktstrategie — welche Altersgruppen ansprechen, welche Themen verwenden, wie bündeln und bepreisen — während der Generator Layout, mathematische Genauigkeit und Druckformatierung übernimmt.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Arbeitsblätter erstellen, jede Konfiguration testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

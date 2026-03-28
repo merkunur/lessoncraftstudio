@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zeichen-Arbeitsblätter erstellen',
+    primaryKeyword: 'Zeichenübungen zum Online-Verkauf erstellen',
     secondaryKeywords: [
-      'Rasterzeichnung Arbeitsblätter für Kinder',
-      'Symmetrie-Arbeitsblatt-Generator',
-      'druckbare Zeichen-Arbeitsblätter zum Verkaufen',
-      'Zelle-für-Zelle-Reproduktion Arbeitsblätter',
+      'Rasterzeichnung-Arbeitsblätter für Etsy produzieren',
+      'Symmetrie-Arbeitsblätter kommerziell verkaufen',
+      'Zeichen-Aktivitätsbuch auf KDP veröffentlichen',
+      'Zeichenübungen-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'Doppelraster Zeichen-Druckvorlagen',
-      'einstellbarer Hinweisprozentsatz Arbeitsblätter',
-      'Spiegelmodus Symmetrieübungen',
-      'Zeichen-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Zeichen-Aktivitätsbücher',
-      'Schwarz-Weiß-Umriss Arbeitsblatt-Tool',
+      'Doppelraster Zeichen-Druckvorlagen Etsy-Geschäft',
+      'textfreie Arbeitsblätter weltweiter Verkauf Nische',
+      'KDP Zeichen-Aktivitätsbuch veröffentlichen',
     ],
-    titleTag: 'Zeichen-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Zeichen-Arbeitsblätter mit Doppelraster-System und einstellbarem Hinweisprozentsatz erstellen. Drei Symmetriemodi, S/W-Export für den Verkauf auf Etsy und.',
+    titleTag: 'Zeichenübungen zum Verkaufen erstellen | LCS',
+    metaDescription: 'Zeichenübungen zum Verkaufen erstellen. Doppelraster-System, einstellbarer Hinweisprozentsatz, drei Symmetriemodi und textfreie Ausgabe für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Zeichen- und Symmetrie-Arbeitsblätter',
+    title: 'Zeichenübungen erstellen und online verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zum Erstellen von Rasterzeichnung-Arbeitsblättern mit einstellbarer Schwierigkeit, Symmetriemodi und Schwarz-Weiß-Umrissthemen, die Sie auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Rasterzeichnung-Arbeitsblätter vereinen zwei stark nachgefragte Fähigkeiten auf einer einzigen Seite: räumliche Reproduktion und Symmetrieerkennung. Nutzer kopieren ein Referenzbild Zelle für Zelle aus einem teilweise aufgedeckten Hinweisraster in ein leeres Übungsraster und entwickeln dabei Feinmotorik, Beobachtungsgenauigkeit und räumliches Denken bei jeder Übung. Dieser Leitfaden führt Sie durch den gesamten Erstellungsprozess mit dem Rasterzeichnen-Arbeitsblatt-Ersteller — von der Konfiguration der Rasterabmessungen und Hinweisprozentsätze bis zur Auswahl der Symmetriemodi und zum Export druckfertiger PDFs. Das Doppelraster-Format, die textfreie Ausgabe und der Schwarz-Weiß-Umrissstil machen diese Arbeitsblätter universell verkaufbar ohne Übersetzung. Ob Sie Ihr erstes Zeichenprodukt veröffentlichen oder einen bestehenden visuellen Aktivitätskatalog erweitern — am Ende dieses Tutorials haben Sie fertige Produkte zum Listen bereit.',
+    description: 'Zeichenübungen zum Online-Verkauf erstellen kombiniert zwei stark nachgefragte Fähigkeiten in einem Produkt: räumliche Reproduktion und Symmetrieerkennung. Das Doppelraster-Format unterscheidet sich grundlegend von Malvorlagen oder Freihand-Aufforderungen und hebt Ihre Produkte in Marktplatz-Suchergebnissen sofort hervor. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Rasterzeichnen-Arbeitsblatt-Ersteller: Sie konfigurieren Rasterabmessungen von 3×3 bis 10×10, stellen den Hinweisprozentsatz von 10 % bis 75 % ein und wählen zwischen drei Symmetriemodi — Zufällig, Horizontale Spiegelung und Vertikale Spiegelung. Diese zwei unabhängigen Schwierigkeitsachsen erzeugen Dutzende einzigartiger Produktvarianten aus einem einzigen Themenbild. Da die Ausgabe textfrei und im Schwarz-Weiß-Umrissstil ist, sind Ihre Produkte universell verkaufbar ohne Übersetzung — ein Eintrag, eine Datei, weltweite Reichweite. Über 100 Themensammlungen mit über 3.000 Illustrationen stehen als Vorlagen bereit. Ob Sie Ihr erstes Zeichenprodukt veröffentlichen oder einen visuellen Aktivitätskatalog erweitern — am Ende dieser Anleitung haben Sie fertige Produkte zum Listen bereit.',
   },
 
   introduction: 'Rasterzeichnung ist eine der effektivsten Methoden zur Entwicklung räumlicher Wahrnehmung und Feinmotorik bei Kindern. Anders als beim Freihandzeichnen gibt die rasterbasierte Reproduktion Nutzern einen strukturierten Rahmen: Sie beobachten Referenzzellen, identifizieren Formen und Linien und zeichnen sie in den entsprechenden leeren Zellen nach. Dieser Zelle-für-Zelle-Ansatz fördert Beobachtungsgenauigkeit, Hand-Auge-Koordination und die räumlichen Denkfähigkeiten, die Geometrie und Designdenken zugrunde liegen.\n\nWas Rasterzeichnung-Arbeitsblätter als Druckprodukt besonders stark macht, ist das Doppelraster-System. Jedes Arbeitsblatt enthält zwei zusammengehörige Raster pro Bild: ein Übungsraster mit leeren Zellen, in die Nutzer zeichnen, und ein Hinweisraster, das einen konfigurierbaren Prozentsatz des Referenzbilds als visuelle Hinweise zeigt. Dieses Format unterscheidet sich grundlegend von Malvorlagen oder Freihand-Zeichenaufforderungen, da es strukturierte Anleitung bietet, die mit der Schwierigkeit skaliert. Senken Sie den Hinweisprozentsatz für schwierigere Übungen, erhöhen Sie ihn für leichtere — dasselbe Bild wird zu Dutzenden verschiedener Produkte.\n\nDer Rasterzeichnen-Arbeitsblatt-Ersteller übernimmt die technische Komplexität. Er generiert Doppelraster-Layouts automatisch, bietet drei Symmetriemodi (Zufällig, Horizontale Spiegelung, Vertikale Spiegelung) für räumliche Denkübungen und greift auf eine Bibliothek von über 100 Schwarz-Weiß-Umriss-Themensammlungen mit über 3.000 Illustrationen zu, die speziell für Zeichnungsreproduktion und anschließendes Ausmalen entworfen wurden. Zwei unabhängige Schwierigkeitsachsen — Rastergröße (3×3 bis 10×10) und Hinweisprozentsatz (10 % bis 75 %) — erzeugen Dutzende einzigartiger Schwierigkeitskombinationen aus einem einzigen Themenbild. Die Ausgabe enthält keinen Text, wodurch jedes Arbeitsblatt universell auf allen internationalen Marktplätzen ohne Übersetzung verkaufbar ist.\n\nAlle in diesem Leitfaden beschriebenen Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Arbeitsblätter erstellen, jede Rastergröße, jeden Hinweisprozentsatz und jeden Symmetriemodus testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

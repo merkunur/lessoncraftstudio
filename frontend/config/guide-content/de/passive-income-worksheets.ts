@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Wiederkehrender Umsatz Arbeitsblätter',
+    primaryKeyword: 'Passives Einkommen mit Arbeitsblättern 2026',
     secondaryKeywords: [
-      'Arbeitsblatt-Geschäft Einkommen',
-      'Geld verdienen mit Arbeitsblättern',
-      'Druckvorlagen Arbeitsblatt Umsatz',
-      'Laufendes Einkommen mit Druckvorlagen',
+      'wiederkehrender Umsatz Druckvorlagen aufbauen',
+      'immergrüne Arbeitsblätter Multiplattform verkaufen',
+      'Arbeitsblatt-Katalog monetarisieren Strategie',
+      'Druckvorlagen Einkommensströme diversifizieren',
     ],
     lsiKeywords: [
-      'Umsatzstrom Digitalprodukt Einkommen immergrüne Produkte Verkaufsautomatisierung',
-      'Mehrere Umsatzkanäle Tantiemeneinkommen Print-on-Demand digitaler Download Einkommen',
-      'Produktlebenszyklus Langzeit-Umsatz Katalog-Monetarisierung immergrüner Inhalt',
-      'Wiederholungsverkäufe Zusammensetzungsrenditen Produktportfolio Einkommen nachhaltiges Einkommen',
-      'Umsatzmultiplikation Katalogeffekte organische Entdeckung fortlaufende Verkäufe',
-      'Skalierbares Umsatzmodell Arbeitsblatt-Einkommensströme Multiplattform-Umsatz',
+      'immergrüne Produkte Verkaufsautomatisierung Katalog-Zusammensetzung Multiplattform-Umsatz',
+      'Produktlebenszyklus organische Entdeckung Wiederholungsverkäufe Sprachexpansion',
+      'skalierbares Umsatzmodell Katalogeffekte fortlaufende Verkäufe Produktportfolio',
     ],
-    titleTag: 'Wiederkehrender Umsatz Arbeitsblätter — Einkommens-Leitfaden',
-    metaDescription: 'Wiederkehrenden Umsatz mit Arbeitsblättern aufbauen. Immergrüne Kataloge, Multiplattform-Vertrieb und Sprachexpansion. Katalog-Zusammensetzung Etsy-Verkäufer.',
+    titleTag: 'Passives Einkommen mit Arbeitsblättern | LCS',
+    metaDescription: 'Passives Einkommen mit Arbeitsblättern 2026 aufbauen: immergrüne Kataloge, Multiplattform-Vertrieb und Sprachexpansion für wiederkehrenden Umsatz auf Etsy.',
   },
 
   hero: {
-    title: 'Wiederkehrenden Umsatz mit Arbeitsblättern aufbauen',
+    title: 'Passives Einkommen mit Arbeitsblättern nachhaltig aufbauen',
     tagline: 'Ein vollständiger Leitfaden zum Aufbau nachhaltigen Arbeitsblatt-Einkommens — warum Arbeitsblätter fortlaufenden Umsatz generieren, Aufbau immergrüner Produktkataloge, Diversifizierung über Umsatzkanäle, Erstellung von Produkten mit ganzjähriger Nachfrage, Nutzung von Paketen für höheren Transaktionswert, Expansion in mehrere Sprachen, Optimierung für organische Entdeckung und Aufbau von Zusammensetzungseffekten im Katalog',
-    description: 'Der kraftvollste Aspekt eines Arbeitsblatt-Geschäfts ist, dass jedes erstellte Produkt weiterhin Umsatz generiert, lange nachdem der Erstellungsaufwand abgeschlossen ist. Anders als bei Dienstleistungen, bei denen Sie Stunden gegen Euro tauschen, kann ein einzelnes Arbeitsblatt-Paket hunderte oder tausende Male auf mehreren Plattformen, in mehreren Sprachen und über Jahre hinweg verkauft werden, ohne zusätzliche Produktionszeit zu erfordern. Dieser Leitfaden zeigt Ihnen, wie Sie ein Arbeitsblatt-Geschäft aufbauen, das speziell auf wiederkehrenden, sich zusammensetzenden Umsatz ausgerichtet ist — bei dem jedes neue Produkt das Ertragspotenzial Ihres gesamten Katalogs stärkt.',
+    description: 'Passives Einkommen mit Arbeitsblättern aufzubauen bedeutet, dass jedes erstellte Produkt weiterhin Umsatz generiert, lange nachdem der Erstellungsaufwand abgeschlossen ist. Anders als bei Dienstleistungen oder physischen Waren kann ein einzelnes Arbeitsblatt-Paket hunderte Male auf mehreren Plattformen und in mehreren Sprachen verkauft werden — ohne zusätzliche Produktionszeit und bei null Grenzkosten pro Verkauf. Gerade für Unternehmer im DACH-Raum bietet der Druckvorlagen-Markt besondere Chancen, da deutschsprachige Nischen deutlich weniger Wettbewerb aufweisen als der englische Markt. Sie erfahren in diesem Leitfaden, wie Sie einen immergrünen Katalog aufbauen, der sich über die Zeit verstärkt, Ihre Produkte über Multiplattform-Vertrieb auf Etsy, Amazon KDP, Eduki und Gumroad diversifizieren und durch Sprachexpansion neue Märkte erschließen. Das Ziel ist ein Umsatzsystem, bei dem jedes neue Produkt das Ertragspotenzial Ihres gesamten Katalogs stärkt.',
   },
 
   introduction: 'Die meisten Menschen, die mit dem Verkauf von Arbeitsblättern beginnen, denken an einzelne Produktverkäufe. Sie erstellen ein Arbeitsblatt-Paket, listen es auf einem Marktplatz und hoffen auf einen Verkauf. Wenn einer eintrifft, feiern sie die verdienten 5 oder 10 Euro und wenden sich der Erstellung des nächsten Produkts zu. Diese Produkt-für-Produkt-Denkweise begrenzt das Ertragspotenzial erheblich, weil sie jedes Produkt als isolierte Transaktion behandelt statt als Baustein in einem umsatzgenerierenden System.\n\nDie Verkäufer, die substanzielles Arbeitsblatt-Einkommen aufbauen, gehen ihr Geschäft anders an. Sie denken in Umsatzsystemen statt in einzelnen Verkäufen. Jedes Produkt, das sie erstellen, ist darauf ausgelegt, wiederholt zu verdienen — über mehrere Plattformen, in mehreren Sprachen, gebündelt mit ergänzenden Produkten und durch Suchmaschinen Jahr für Jahr auffindbar. Ein einzelnes Arbeitsblatt-Konzept, strategisch umgesetzt, kann Dutzende einzelner Produktlistings erzeugen, die jeweils unabhängig verdienen und die Sichtbarkeit der anderen verstärken.\n\nArbeitsblätter sind besonders geeignet für diese Art von wiederkehrendem Umsatzmodell. Die Nachfrage ist immergrün — Käufer brauchen jedes Schuljahr Additions-Arbeitsblätter, Eltern suchen jede Woche nach Bildungsaktivitäten, und Homeschooler suchen ständig nach neuen Materialien. Anders als trendabhängige Produkte, die ansteigen und wieder abklingen, bleibt ein gut gemachtes Mathe-Arbeitsblatt oder Wortsuch-Rätsel über Jahre relevant und verkaufbar. Die Grenzkosten jedes zusätzlichen Verkaufs sind null, weil die digitale Lieferung automatisch erfolgt. Und die heute verfügbaren Erstellungswerkzeuge ermöglichen es, professionelle Arbeitsblätter in Minuten statt Stunden zu produzieren, sodass die Vorabinvestition pro Produkt bemerkenswert gering ist im Verhältnis zu seinem lebenslangen Ertragspotenzial.\n\nDieser Leitfaden führt Sie durch das vollständige Framework zum Aufbau eines Arbeitsblatt-Geschäfts, das fortlaufenden, sich zusammensetzenden Umsatz generiert. Sie lernen, wie Sie Produkte erstellen, die Jahr für Jahr verkaufen, sie über mehrere Plattformen für maximale Reichweite verteilen, Ihren Katalog durch Sprachexpansion vervielfachen und die Katalogeffekte aufbauen, die jedes neue Produkt wertvoller machen als das letzte. Das Ziel ist nicht nur mehr Verkäufe — es ist ein Umsatzsystem, bei dem Ihr Katalog kontinuierlich für Sie arbeitet und Einkommen generiert, ob Sie neue Produkte erstellen, bestehende optimieren oder eine wohlverdiente Pause einlegen.\n\nDer Unterschied zwischen einem Arbeitsblatt-Verkäufer, der 200 Euro pro Monat verdient, und einem, der 2.000 Euro pro Monat verdient, liegt selten an der Produktqualität. Beide mögen gleich gute Arbeitsblätter erstellen. Der Unterschied liegt fast immer darin, wie strategisch der Katalog aufgebaut ist, wie breit die Produkte verteilt werden und wie effektiv der Verkäufer die zusammensetzende Natur eines immergrünen digitalen Produktkatalogs nutzt.',

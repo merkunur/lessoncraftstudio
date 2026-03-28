@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'geld verdienen mit kdp aktivitätsbüchern',
+    primaryKeyword: 'Mit KDP Aktivitätenheften Geld verdienen',
     secondaryKeywords: [
-      'mit KDP Aktivitätsbüchern Geld verdienen Anleitung',
-      'KDP Aktivitätsbuch Einnahmen Strategien',
-      'Amazon KDP Aktivitätsbuch Umsatzoptimierung',
-      'profitabel Aktivitätsbücher veröffentlichen KDP',
+      'KDP Tantiemen berechnen Aktivitätsbücher optimieren',
+      'Amazon KDP Aktivitätsbuch Preisstrategien Gewinn',
+      'KDP Katalogaufbau steigende monatliche Einnahmen',
+      'saisonales Veröffentlichen KDP Feiertage Schulanfang',
     ],
     lsiKeywords: [
-      'KDP Tantiemen Berechnung Druckkosten Preisstrategie',
-      'Aktivitätsbuch Katalogaufbau steigende Einnahmen monatliche Verdienste',
-      'saisonales Veröffentlichen Feiertage Weihnachten Sommer Schulanfang',
-      'Amazon sehr gefragt-Plakette Keyword Kategorie Ranking',
-      'Multi-Plattform Etsy Gumroad digitale Druckvorlagen Expansion',
-      'KDP Berichte Leistungsverfolgung Umsatz pro Titel Analyse',
+      'Tantiemen Berechnung Druckkosten Preisstrategie',
+      'Katalogökonomie Schwungradeffekt mehrere Titel',
+      'Multi-Plattform Etsy Gumroad Expansion Einnahmen',
     ],
-    titleTag: 'Geld verdienen mit KDP Aktivitätsbüchern — Umsatz-Leitfaden',
-    metaDescription: 'Mit KDP-Aktivitätsbüchern Geld verdienen. Preis-, Katalog- und Tantieme-Strategien, Umsatzrechnung und saisonales Timing. Skalierung für ambitionierte.',
+    titleTag: 'Mit KDP Aktivitätenheften Geld verdienen | LCS',
+    metaDescription: 'Mit KDP Aktivitätenheften Geld verdienen: Tantiemen-Berechnung, Preisoptimierung, Katalogaufbau und saisonales Timing für wachsende monatliche Amazon-Einnahmen.',
   },
 
   hero: {
-    title: 'Wie Sie mit KDP Aktivitätsbüchern Geld verdienen',
+    title: 'So verdienen Sie mit KDP Aktivitätenheften Geld',
     tagline: 'Ein umfassender Umsatz-Leitfaden für Amazon-KDP-Aktivitätsbuch-Verleger — mit Tantiemen-Rechnung und optimalen Preispunkten, Katalogökonomie die monatliche Einnahmen steigert, saisonalen Veröffentlichungsstrategien für Feiertags-Umsatzspitzen, Amazon-Keyword-Optimierung für maximale Verkäufe, Produktionsskalierung über verschiedene Aktivitätsbuch-Typen, Leistungsverfolgung um auf Gewinner zu setzen, und Multi-Plattform-Expansion zu Etsy und Gumroad für zusätzliche Einnahmeströme',
-    description: 'Aktivitätsbücher auf Amazon KDP zu veröffentlichen ist unkompliziert. Damit konstante, wachsende Einnahmen zu erzielen, erfordert eine durchdachte Geschäftsstrategie. Dieser Leitfaden behandelt nicht die Erstellung von Aktivitätsbüchern — unsere anderen KDP-Leitfäden decken Mathe-Aktivitätsbücher, Rätselbücher, Wortsuchbücher und Formatierung im Detail ab. Dieser Leitfaden dreht sich ums Geld: wie KDP-Tantiemen bei Aktivitätsbüchern tatsächlich funktionieren, wie Sie für maximalen Gewinn statt maximale Verkaufszahlen bepreisen, warum ein Katalog von 10 Büchern weit mehr als das Zehnfache eines einzelnen Buches verdient, und wie Sie ein Verlagsgeschäft aufbauen, das steigende monatliche Einnahmen statt einmaliger Verkäufe generiert.',
+    description: 'Mit KDP Aktivitätenheften Geld verdienen — dieser Leitfaden behandelt die Geschäftsstrategie hinter profitablen KDP-Veröffentlichungen für den deutschsprachigen und internationalen Markt. Aktivitätsbücher zu veröffentlichen ist technisch einfach, aber konstante monatliche Einnahmen erfordern durchdachte Planung bei Preisgestaltung, Nischenwahl und Katalogaufbau. Sie erfahren, wie KDP-Tantiemen bei Aktivitätsbüchern tatsächlich funktionieren, warum eine Preisänderung von 2 Dollar die Tantieme um das Siebenfache steigern kann und warum der Schwungradeffekt eines Katalogs von 10 Büchern weit mehr als das Zehnfache eines einzelnen Buches verdient. Der Leitfaden behandelt optimale Preispunkte für Schwarzweiß- und Farbdruck, strategischen Katalogaufbau mit verwandten Titeln, saisonales Timing für Schulanfangs- und Feiertagsspitzen, datenbasierte Leistungsverfolgung und Multi-Plattform-Expansion zu Etsy und Gumroad für zusätzliche Einnahmeströme.',
   },
 
   introduction: 'Aktivitätsbücher gehören zu den zuverlässigsten Einnahmekategorien auf Amazon KDP, weil sie zwei starke Geschäftsdynamiken vereinen: konstante ganzjährige Nachfrage und einen eingebauten Verbrauchszyklus. Anders als Romane oder Nachschlagewerke, die ein Käufer einmal liest und für immer behält, werden Aktivitätsbücher aufgebraucht. Ein Kind beendet ein Mathe-Arbeitsheft, ein Rätsel-Enthusiast löst eine Wortsuch-Sammlung durch, ein Elternteil bearbeitet ein Ausmalbuch mit seinem Kleinkind — und dann brauchen sie ein neues. Dieses Wiederholungskauf-Verhalten ist die Grundlage der Aktivitätsbuch-Verlagsökonomie.\n\nDer KDP-Aktivitätsbuch-Markt umfasst Dutzende Unterkategorien: Mathe-Arbeitshefte, Wortsuch-Sammlungen, Kreuzworträtsel, Sudoku-Bücher, Ausmalbücher, Zeichenanleitungen, Buchstaben-Nachspuren, Labyrinthe und mehr. Jede Unterkategorie hat ihre eigene Nachfragekurve, Wettbewerbsdichte und Preisdynamik. Aber das zugrunde liegende Geschäftsmodell ist über alle hinweg gleich: niedrige Tantiemen pro Verkauf, die sich durch Volumen, Katalogtiefe und Zeit summieren.\n\nDie meisten neuen KDP-Verleger machen zwei grundlegende Fehler. Erstens konzentrieren sie sich ausschließlich auf die Erstellung eines exzellenten Buches, anstatt eine Katalogstrategie zu planen. Ein einzelnes Aktivitätsbuch, egal wie gut, hat eine Umsatzobergrenze. Zweitens bepreisen sie nach Gefühl, anstatt die tatsächliche Tantiemen-Rechnung bei verschiedenen Preispunkten und Seitenzahlen durchzukalkulieren. Der Unterschied zwischen einem 60-seitigen Mathe-Arbeitsheft zum Preis von 6,99 Dollar und 8,99 Dollar kann den Unterschied zwischen 0,20 Dollar und 1,40 Dollar Tantieme pro Verkauf ausmachen — eine 7-fache Tantieme-Steigerung durch eine 2-Dollar-Preisänderung.\n\nDieser Leitfaden konzentriert sich ausschließlich auf die geschäftliche und umsatzbezogene Seite der KDP-Aktivitätsbuch-Veröffentlichung. Detaillierte Anleitungen zur Erstellung bestimmter Aktivitätsbuch-Typen finden Sie im Leitfaden für Mathe-Aktivitätsbücher auf KDP, im Rätselbücher-Leitfaden und im Wortsuchbücher-Leitfaden. Für Formatierungsspezifikationen siehe den KDP-Formatierungsleitfaden. Hier behandeln wir, was keiner dieser Leitfäden abdeckt: die Ökonomie, Preisstrategie, Katalogplanung, saisonales Timing, Leistungsoptimierung und Multi-Plattform-Expansion, die Aktivitätsbuch-Veröffentlichung von einem Hobby in einen Einnahmestrom verwandeln.',

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'buchstabensalat-generator',
+    primaryKeyword: 'kostenloser Buchstabensalat-Generator',
     secondaryKeywords: [
-      'Buchstaben-Umstell-Rätsel-Ersteller für Verkäufer',
-      'farbcodierte Buchstabensalat-Arbeitsblätter online erstellen',
-      'druckbare Wort-Entwirr-Arbeitsblätter kommerziell',
-      'mehrsprachiger Buchstabensalat-Generator für KDP',
+      'Buchstabensalat-Generator kostenlos online',
+      'Buchstaben-Umstell-Rätsel erstellen ohne Anmeldung',
+      'Buchstabensalat Ersteller sofort nutzen',
+      'kostenlose Buchstaben-Rätsel mit Farbcodierung',
     ],
     lsiKeywords: [
-      'gemischte Buchstabenplättchen-Druckvorlagen für Etsy',
-      'bildbasiertes Buchstabensalat-Arbeitsblatt-Tool',
-      'mehrsprachiger Rechtschreib-Rätsel-Generator',
+      'Buchstabenplättchen-Rätsel Vokal-Farbcodierung',
+      'bildbasiertes Wort-Entwirr-Arbeitsblatt',
+      'Rechtschreib-Rätsel mehrsprachig Generator',
     ],
-    titleTag: 'Buchstabensalat-Generator | Buchstaben-Rätsel',
-    metaDescription: 'Buchstabensalat-Arbeitsblätter mit Buchstabenplättchen und Vokal-Farbcodierung erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Buchstabensalat-Generator | LCS',
+    metaDescription: 'Kostenloser Buchstabensalat-Generator — Buchstaben-Umstell-Rätsel mit Farbcodierung online erstellen. Testversion mit Wasserzeichen, Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Buchstabensalat-Arbeitsblatt-Generator',
+    title: 'Buchstabensalat-Generator — Buchstaben-Rätsel kostenlos erstellen',
     tagline: 'Buchstaben-Umstell-Rätsel mit gemischten Plättchen, Vokal-Konsonanten-Farbcodierung und 4 Schwierigkeitsstufen in 11 Sprachen erstellen',
-    description: 'Verwandeln Sie Wortschatzübungen in aktive Buchstaben-Umstell-Rätsel, bei denen Nutzer durcheinander gemischte Buchstabenplättchen in die richtige Reihenfolge bringen. Dieses Tool erstellt Buchstabensalat-Arbeitsblätter, bei denen ein Bild-Hinweis neben einem Satz gemischter Plättchen erscheint — Nutzer betrachten das Bild, erkennen was es darstellt, und ordnen die Buchstaben zur korrekten Schreibweise. Im Gegensatz zu Lückentext-Übungen gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Umstellübung, die Rechtschreibgenauigkeit durch handlungsorientierte Manipulation aufbaut. Die herausragende Funktion ist die Vokal-Konsonanten-Farbcodierung: Aktivieren Sie sie, um Vokale in einer Farbe und Konsonanten in einer anderen auf den Plättchen darzustellen — eine visuelle Phonik-Hilfe, die Buchstabentypen-Erkennung während des Entwirrens fördert. Umlaute ä, ö, ü werden als Vokale erkannt und entsprechend eingefärbt. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben bereits korrekt platziert sind: Keine Hinweise mischt jedes Plättchen für maximale Herausforderung, Leicht platziert die Hälfte für unterstütztes Lernen, Normal platziert ein Viertel für ausgewogene Übung und Schwer platziert nur ein Sechstel für selbstsichere Rechtschreiber. Wählen Sie zwischen drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Die Sprachsensitivität ist integriert: Wechseln Sie zu einer der 11 Sprachen, und dasselbe Bild erzeugt ein anderes Zielwort mit anderen Buchstaben und einer völlig anderen Mischung. Ein Hundebild generiert \"HUND\" auf Deutsch, \"DOG\" auf Englisch, \"CHIEN\" auf Französisch, \"PERRO\" auf Spanisch. Deutsche Wörter bieten einen besonderen Vorteil: Zusammengesetzte Substantive wie Schmetterling (13 Plättchen), Feuerwehrauto (13 Plättchen) oder Krankenhaus (11 Plättchen) erzeugen deutlich längere Plättchenreihen als ihre englischen Äquivalente — und Umlaute auf farbcodierten Plättchen sind visuell besonders auffällig. Stellen Sie 1–10 Rätsel pro Seite ein, wechseln Sie zwischen Groß- und Kleinbuchstaben, schalten Sie die Übungsnummerierung ein und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit automatischer Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+        description: 'Unser kostenloser Buchstabensalat-Generator erstellt Buchstaben-Umstell-Rätsel mit gemischten Plättchen — direkt im Browser, ohne Anmeldung und ohne Installation. Ein Bild-Hinweis erscheint neben durcheinander gemischten Buchstabenplättchen, und Nutzer ordnen die Buchstaben zur korrekten Schreibweise. Die herausragende Funktion ist die Vokal-Konsonanten-Farbcodierung: Vokale und Konsonanten erscheinen in verschiedenen Farben auf den Plättchen — Umlaute ä, ö, ü werden als Vokale erkannt. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben bereits korrekt platziert sind. Wählen Sie aus drei Inhaltsquellen: Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, manueller Bearbeitungsmodus oder benutzerdefinierte Wortlisten. Die Sprachsensitivität ist integriert — dasselbe Bild erzeugt verschiedene Wörter in 11 Sprachen. Deutsche Zusammensetzungen wie Schmetterling erzeugen besonders lange Plättchenreihen. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

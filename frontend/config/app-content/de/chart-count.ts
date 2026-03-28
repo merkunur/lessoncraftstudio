@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bilddiagramm-generator',
+    primaryKeyword: 'Zähl- und Diagramm-Arbeitsblätter für Etsy erstellen',
     secondaryKeywords: [
-      'druckbarer Bilddiagramm-Generator für Etsy-Verkäufer',
-      'Piktogramm-Arbeitsblatt-Generator für KDP-Verleger',
-      'Bilddiagramm-Arbeitsblätter auf Gumroad verkaufen',
-      'Bilderzähl-Arbeitsblatt-Ersteller kommerzielle Lizenz',
+      'Bilddiagramm-Generator für Etsy-Verkäufer',
+      'Piktogramm-Arbeitsblätter für Amazon KDP erstellen',
+      'Zähl-Diagramm-Druckvorlagen gewerbliche Lizenz',
+      'Bilderzähl-Arbeitsblätter für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'digitale Piktogramm-Druckvorlagen skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Bilderdiagramm-Werkzeuge',
-      'kommerzieller Bilddiagramm-Generator mit Lösungsschlüssel',
+      'Piktogramm Bilddiagramm druckfertig 300 DPI',
+      'Zähl-Arbeitsblattgenerator DACH-Markt',
+      'Lösungsschlüssel Datenerfassung kommerzielle Nutzung',
     ],
-    titleTag: 'Bilddiagramm-Generator | Piktogramm-Übungen',
-    metaDescription: 'Bilddiagramm-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Lösungsschlüssel, 6 Bildtypen pro Blatt, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Zähl-Diagramm-Arbeitsblätter für Etsy | LCS',
+    metaDescription: 'Erstellen Sie Bilddiagramm-Arbeitsblätter zum Verkauf auf Etsy & KDP. Piktogramme, 6 Bildtypen, Lösungsschlüssel, gewerbliche Lizenz. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Bilddiagramm-Generator für druckbare Bilderzähl-Arbeitsblätter',
+    title: 'Zähl- und Diagramm-Arbeitsblätter erstellen und auf Etsy verkaufen',
     tagline: 'Doppel-Canvas-Piktogramm-Generator — erzeugen Sie verteilte Bildraster mit 6 Bildtypen, automatisch ausgefüllte Balkendiagramm-Lösungsschlüssel, lokalisierte Überschriften in 11 Sprachen und 104 thematische Bildsammlungen für Datenerfassungs-Arbeitsblätter.',
     description:
-      'Verwandeln Sie visuelles Zählen in eine vollständige Datenerfassungs-Aktivität mit dem einzigen Arbeitsblatt-Generator, der speziell für Bilddiagramme entwickelt wurde. Jedes Arbeitsblatt enthält ein verteiltes Bildraster mit 20 Symbolen aus 6 verschiedenen Bildtypen in einem 4×5-Layout — die Aufgabe besteht darin, zu zählen, wie oft jeder Typ vorkommt, und dann die entsprechenden Zellen im Balkendiagramm darunter auszufüllen. Die App generiert gleichzeitig einen Lösungsschlüssel mit gelb hervorgehobenen Zellen, die die richtigen Zählwerte anzeigen, sodass Verkäufer die Ergebnisse sofort überprüfen können. Wählen Sie Bilder automatisch, indem Sie ein Thema aus dem Dropdown-Menü der Arbeitsblatt-Bildquelle auswählen, oder wählen Sie manuell genau 6 Bilder aus der durchsuchbaren Bildbibliothek mit über 3.100 Illustrationen in 104 Sammlungen. Jedes Arbeitsblatt enthält eine automatisch generierte Überschrift mit einem lokalisierten \"Bilddiagramm\"-Titel und Zählanweisungen — die Überschrift passt sich automatisch an alle 11 unterstützten Sprachen an. Fügen Sie Namens- und Datumsfelder mit einem einzigen Kontrollkästchen hinzu, wenden Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern an und passen Sie alles mit Textwerkzeugen und Freihand-Canvas-Bearbeitung an. Der Bilddiagramm-Generator ist nicht sprachabhängig — visuelles Zählen verwendet universelle Zahlen und Bilder, sodass Arbeitsblätter in jeder Sprache identisch funktionieren. Dasselbe Bilddiagramm-Arbeitsblatt lässt sich weltweit ohne Übersetzung einsetzen — ein einziger Erstellungsworkflow bedient jeden Markt ohne sprachspezifische Varianten. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftung des Generators, den automatisch generierten Überschriftstitel und die Bildbibliotheks-Inhaltsbeschriftungen, nicht die Arbeitsblatt-Ausgabe selbst. Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI über 6-fachen Rendering-Multiplikator in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Laden Sie alle vier Dateien herunter — Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — in einer einzigen Sitzung. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen für maximale Vielfalt über Bilddiagramm-Pakete hinweg frei. Für Verkäufer bietet die Kombination aus Doppel-Canvas-Generierung, automatischem Lösungsschlüssel und 104 thematischen Bildsammlungen ein einzigartiges Produktformat, das sich deutlich von manuell erstellten Zählblättern abhebt. Ob Sie Bilddiagramm-Pakete auf Etsy.de verkaufen, Datenerfassungs-Arbeitsbücher für Amazon KDP zusammenstellen oder Mathematik-Stationen-Aktivitäten für den Gumroad erstellen — der Bilddiagramm-Generator liefert unterrichtsfertige Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Zähl- und Diagramm-Arbeitsblätter für Etsy erstellen — dieser spezialisierte Generator produziert Piktogramm- und Balkendiagramm-Arbeitsblätter, die auf Marktplätzen kaum Konkurrenz haben. Jedes Arbeitsblatt kombiniert ein verteiltes Bildraster mit 6 verschiedenen Bildtypen und ein zugehöriges Balkendiagramm zum Ausfüllen, sodass Ihre Käufer Zählen und Datenerfassung in einer Aktivität üben. Der automatische Lösungsschlüssel mit farblich hervorgehobenen Zellen wird gleichzeitig generiert und spart Ihnen stundenlange manuelle Arbeit. Wählen Sie aus über 3.100 Illustrationen in 104 Themen und erstellen Sie in Minuten thematische Pakete für Etsy, Aktivitätsbücher für Amazon KDP oder Stationen-Material für Gumroad. Die Arbeitsblatt-Ausgabe ist sprachunabhängig und funktioniert weltweit — ein einziger Workflow bedient den gesamten DACH-Markt und internationale Käufer. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

@@ -2,28 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'qualitätsstandards arbeitsblätter für verkäufer',
+    primaryKeyword: 'Qualitätsstandards für verkaufbare Arbeitsblätter',
     secondaryKeywords: [
-      'Druckvorlagen Qualitätscheckliste',
-      'professionelle Arbeitsblatt-Designstandards',
-      'Arbeitsblatt Qualitätskontrolle Verkauf',
-      'druckfertige Arbeitsblatt-Formatierung',
+      'Druckvorlagen Qualitätscheckliste Verkäufer',
+      'professionelle Arbeitsblatt-Formatierung Etsy',
+      'Arbeitsblatt Druckqualität DPI Ränder',
+      'Qualitätskontrolle Printable-Produkte',
     ],
     lsiKeywords: [
-      'Druckqualität Auflösung DPI Einstellungen Seitenränder Ausrichtung Schriftart Lesbarkeit',
-      'Farbkonsistenz PDF Formatierung Seitenlayout Lösungsschlüssel Genauigkeit',
-      'Korrektur-Workflow Kundenerwartungen professionelle Ausgabe Dateiformat',
-      'Beschnitt Papierformat Kompatibilität visuelle Konsistenz Markenstandards',
-      'Bewertungen Käufervertrauen Produktionscheckliste Qualitätssicherung',
+      'Druckqualität Auflösung Seitenränder Schriftart Lesbarkeit PDF Formatierung',
+      'Farbkonsistenz Lösungsschlüssel Genauigkeit Korrektur-Workflow Dateiformat',
+      'Produktionscheckliste Qualitätssicherung Käufervertrauen Markenstandards Drucktest',
     ],
-    titleTag: 'Qualitätsstandards Arbeitsblätter für Verkäufer — Checkliste',
-    metaDescription: 'Qualitätsstandards für Arbeitsblätter: Auflösung, Seitenränder, Typografie und Lösungsschlüssel. Drucktests und professionelle Ergebnisse.',
+    titleTag: 'Qualitätsstandards für Arbeitsblätter | LCS',
+    metaDescription: 'Qualitätsstandards für verkaufbare Arbeitsblätter: Auflösung, Seitenränder, Typografie, Lösungsschlüssel und Drucktests für professionelle Printable-Produkte.',
   },
 
   hero: {
-    title: 'Qualitätsstandards für Arbeitsblätter',
+    title: 'Qualitätsstandards für verkaufbare Arbeitsblätter einhalten',
     tagline: 'Ein vollständiger Leitfaden zu Qualitätsstandards für Arbeitsblätter, die Verkäufer für professionelle Ergebnisse brauchen — mit Auflösungs- und Dateiformatstandards, Seitenlayout- und Randanforderungen, Typografie- und Lesbarkeitregeln, Farb- und visueller Konsistenz, Lösungsschlüssel-Überprüfung, Qualitätskontroll-Checklisten vor der Veröffentlichung, druckerübergreifenden Tests und katalogweiter Qualitätspflege',
-    description: 'Qualität ist der entscheidende Faktor, der Arbeitsblatt-Verkäufer mit nachhaltigem Geschäft von denen unterscheidet, die mit schlechten Bewertungen, Rückerstattungsanfragen und sinkenden Verkäufen kämpfen. Ein Arbeitsblatt, das am Bildschirm professionell aussieht, aber mit abgeschnittenen Rändern, unscharfem Text oder falsch ausgerichteten Elementen gedruckt wird, erzeugt eine negative Käufererfahrung, die Ihren Shop-Ruf dauerhaft schädigt. Dieser Leitfaden bietet eine vollständige Qualitätsstandards-Checkliste speziell für Verkäufer druckbarer Arbeitsblätter — von Auflösungs- und Formatierungsstandards über Typografie, Lösungsschlüssel-Genauigkeit, Drucktests bis hin zur Qualitätspflege bei wachsendem Katalog.',
+    description: 'Qualitätsstandards für verkaufbare Arbeitsblätter sind der entscheidende Faktor zwischen einem nachhaltigen Geschäft mit positiven Bewertungen und einem Shop, der durch Reklamationen untergeht. Ein Arbeitsblatt, das am Bildschirm professionell aussieht, aber mit abgeschnittenen Rändern oder unscharfem Text gedruckt wird, schädigt Ihren Shop-Ruf dauerhaft — eine einzige negative Bewertung senkt die Konversionsrate aller Ihrer Listings. Sie erfahren in diesem Leitfaden die konkreten, messbaren Standards für Auflösung, Seitenränder, Typografie und Farbkonsistenz, die Ihre Produkte auf Tintenstrahl- und Laserdruckern druckfertig machen. Außerdem lernen Sie, Lösungsschlüssel systematisch auf Korrektheit zu überprüfen, Qualitätskontroll-Checklisten vor jeder Veröffentlichung anzuwenden und druckerübergreifende Tests durchzuführen, die Probleme erkennen, bevor Käufer sie finden.',
   },
 
   introduction: 'Jedes druckbare Arbeitsblatt, das ein Käufer herunterlädt, repräsentiert ein Versprechen: dass das Produkt korrekt gedruckt wird, professionell aussieht, wie beschrieben funktioniert und den in den Listing-Bildern gezeigten praktischen Wert liefert. Wenn dieses Versprechen konsequent eingehalten wird, hinterlassen Käufer positive Bewertungen, empfehlen den Verkäufer an Kollegen weiter, kehren für Wiederholungskäufe zurück und zahlen bereitwillig Premium-Preise. Wenn die Qualität nicht ausreicht, verstärken sich die Konsequenzen schnell. Ein einziges Arbeitsblatt mit falsch ausgerichteten Rändern oder einem fehlerhaften Lösungsschlüssel erzeugt eine negative Bewertung, die für jeden zukünftigen potenziellen Käufer sichtbar ist. Diese Bewertung senkt die Konversionsraten aller Ihrer Listings, nicht nur des problematischen Produkts, weil Käufer die Zuverlässigkeit des Verkäufers anhand des gesamten Shop-Feedbacks bewerten.\n\nDie Herausforderung für Druckvorlagen-Verkäufer besteht darin, dass Qualitätsmängel während des Erstellungsprozesses oft unentdeckt bleiben. Ein Arbeitsblatt, das auf einem hochauflösenden Monitor perfekt angezeigt wird, kann beim Drucken auf Standard-Heimdruckern Ausrichtungsprobleme offenbaren. Farben, die am Bildschirm leuchtend erscheinen, können auf Tintenstrahldruckern für Verbraucher als trübe, ausgewaschene Töne gedruckt werden. Schriftgrößen, die in einer Designanwendung lesbar erscheinen, werden beim Drucken auf Standardpapier und Betrachten in typischem Leseabstand anstrengend. Lösungsschlüssel, die bei der Erstellung korrekt erscheinen, können Fehler enthalten, die erst erkennbar werden, wenn ein Käufer oder Elternteil die Aufgaben mit einem Kind durcharbeitet. Diese unsichtbaren Qualitätsprobleme werden erst sichtbar, nachdem der Käufer das Produkt heruntergeladen, ausgedruckt und versucht hat, es zu verwenden — zu diesem Zeitpunkt ist der Schaden an Ihrem Ruf bereits angerichtet.\n\nProfessionelle Arbeitsblatt-Verkäufer begegnen dieser Lücke durch die Implementierung systematischer Qualitätsstandards, die Probleme erkennen, bevor Produkte die Käufer erreichen. Anstatt sich allein auf visuelle Inspektion zu verlassen, folgen sie dokumentierten Checklisten, die jede Qualitätsdimension überprüfen: Auflösung, Seitenränder, Typografie, Farbgenauigkeit, Inhaltskorrektheit, Druckkompatibilität und Dateiformatkonformität. Diese Standards sind keine willkürlichen Vorlieben — es sind spezifische, messbare Anforderungen, die aus den technischen Einschränkungen des Heimdrucks, den Lesbarkeitsbedürfnissen verschiedener Altersgruppen und den Dateiformaterwartungen jeder Marktplatzplattform abgeleitet sind.\n\nQualitätsstandards schaffen auch Effizienz, wenn Ihr Katalog wächst. Ohne dokumentierte Standards erfordert jedes neue Produkt Ad-hoc-Qualitätsentscheidungen: Welche Schriftgröße soll dieses Arbeitsblatt verwenden? Wie breit sollen die Ränder sein? Welche Auflösung sollen die Bilder haben? Mit etablierten Standards sind diese Entscheidungen bereits getroffen, sodass Sie kreative Energie auf den Inhalt konzentrieren können, anstatt technische Fragen wiederholt zu lösen. Standards gewährleisten auch Konsistenz über Ihre Produktlinie hinweg, was Markenbekanntheit und Käufervertrauen aufbaut — Kunden, die ein Arbeitsblatt kaufen und es professionell formatiert vorfinden, erwarten die gleiche Qualität von jedem Produkt in Ihrem Shop.\n\nDieser Leitfaden behandelt acht Qualitätsstandard-Kategorien, die die gesamte Produktionspipeline von der anfänglichen Dateieinrichtung bis zur abschließenden Überprüfung vor der Veröffentlichung abdecken. Jeder Abschnitt liefert spezifische, messbare Standards statt vager Anleitungen und gibt Ihnen eine konkrete Checkliste für jedes Arbeitsblatt vor dem Verkaufsangebot.',

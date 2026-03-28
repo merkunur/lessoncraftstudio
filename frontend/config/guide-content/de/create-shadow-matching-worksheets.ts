@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schattenbilder-arbeitsblätter erstellen',
+    primaryKeyword: 'Schattenbilder-Arbeitsblätter zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Schattenbilder-Zuordnungs-Arbeitsblätter zum Verkaufen erstellen',
-      'Silhouetten-Zuordnungs-Generator für Arbeitsblätter',
-      'druckbare Schattenrätsel für Etsy und KDP',
-      'Halb-Bilder-Arbeitsblätter zum Ganzen zusammenfügen',
+      'Silhouetten-Zuordnungs-Arbeitsblätter für Etsy produzieren',
+      'Schattenrätsel kommerziell auf KDP verkaufen',
+      'druckbare Schattenbilder-Rätsel für Printable-Business',
+      'Schattenbilder-Generator für Arbeitsblatt-Verkäufer',
     ],
     lsiKeywords: [
-      'Pixel-Silhouetten-Generierung für Arbeitsblätter',
-      'visuelle Wahrnehmung Zuordnungsaktivitäten erstellen',
-      'Schattenbilder-Arbeitsblätter mit automatischem Lösungsschlüssel',
-      'Schattenrätsel auf Etsy verkaufen',
-      'Amazon KDP visuelle Wahrnehmungs-Arbeitsbücher',
-      'kommerzielle Lizenz Schattenbilder-Zuordnungs-Tool',
+      'visuelle Wahrnehmung Druckvorlagen Etsy-Geschäft',
+      'Schattenbilder rein visuell weltweiter Verkauf',
+      'KDP visuelle Wahrnehmungs-Arbeitsbuch veröffentlichen',
     ],
-    titleTag: 'Schattenbilder-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Schattenbilder-Zuordnungs-Arbeitsblätter mit pixelgenauen Silhouetten und Halb-Bilder-Modus erstellen. Lösungsschlüssel. Verkaufen auf Etsy und Amazon KDP.',
+    titleTag: 'Schattenbilder zum Verkaufen erstellen | LCS',
+    metaDescription: 'Schattenbilder-Arbeitsblätter zum Verkaufen erstellen. Pixelgenaue Silhouetten, Halb-Bilder-Modus und Lösungsschlüssel. Rein visuelles Format für Etsy.',
   },
 
   hero: {
-    title: 'Schattenbilder-Zuordnungs-Arbeitsblätter erstellen',
+    title: 'Schattenbilder-Arbeitsblätter erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung von Dual-Modus-Schattenbilder-Zuordnungs-Arbeitsblättern mit pixelgenauer Silhouetten-Generierung, Halb-Bilder-Modus mit geteilten Bildhälften, Fisher-Yates-Derangement, umschaltbaren Beschriftungen, automatisch generierten Lösungsschlüsseln und rein visuellem Format zum weltweiten Verkauf auf Etsy, Amazon KDP und Gumroad',
-    description: 'Schattenbilder-Zuordnung ist eine grundlegende Fähigkeit der visuellen Wahrnehmung, die Kinder entwickeln, bevor sie lesen oder rechnen können, und Schattenbilder-Zuordnungs-Arbeitsblätter sind auf praktischen Marktplätzen dauerhaft gefragt. Eltern benötigen sie für die visuelle Unterscheidungsübung zu Hause. Käufer verwenden sie für Wahrnehmungszentren und Bereicherungsaktivitäten. Ergotherapeuten setzen sie für die Bewertung der visuellen Verarbeitung ein. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Schattenbilder-Ersteller — von der Wahl zwischen Schattenbilder-Zuordnung und Halb-Bilder-Übungsmodi bis zur Konfiguration von Beschriftungen, Generierung pixelgenauer Silhouetten und dem Export produktionsfertiger Dateien mit automatisch generierten Lösungsschlüsseln. Ob Sie Ihr erstes Schattenbilder-Zuordnungs-Produkt erstellen oder einen bestehenden Katalog für visuelle Wahrnehmung erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt zum Einstellen bereit.',
+    description: 'Schattenbilder-Arbeitsblätter zum Verkaufen erstellen bietet einen strukturellen Vorteil gegenüber textlastigen Produktkategorien: Das rein visuelle Format bedeutet, dass ein Produkt ohne Übersetzung in jedem Land verkauft werden kann. Schattenbilder-Zuordnung ist auf Etsy und KDP dauerhaft gefragt — Eltern kaufen sie für visuelle Unterscheidungsübung zu Hause, Nachhilfezentren verwenden sie für Wahrnehmungszentren, und Ergotherapeuten setzen sie zur Bewertung der visuellen Verarbeitung ein. Diese Anleitung führt Sie durch den Erstellungsprozess mit dem Schattenbilder-Ersteller: Sie wählen zwischen zwei Übungsmodi — Schattenbilder-Zuordnung mit pixelgenauen Silhouetten und Halb-Bilder mit geteilten Bildhälften — konfigurieren umschaltbare Beschriftungen für zwei Schwierigkeitsstufen und exportieren produktionsfertige Dateien mit automatischen Lösungsschlüsseln. Der Fisher-Yates-Derangement-Algorithmus garantiert echte Zuordnungsherausforderungen ohne triviale Positionstreffer. Über 100 Themen und der Beschriftungsschalter verdoppeln Ihre Produktvielfalt aus identischem Inhalt. Ob Sie Ihr erstes Schattenbilder-Produkt listen oder einen bestehenden Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt zum Einstellen bereit.',
   },
 
   introduction: 'Visuelle Wahrnehmung ist eine der grundlegenden kognitiven Fähigkeiten in der frühkindlichen Entwicklung. Bevor Kinder Wörter lesen, Gleichungen lösen oder sich sicher im physischen Raum bewegen können, entwickeln sie die Fähigkeit, Formen zu erkennen, Umrisse zu unterscheiden und Teilbilder gedanklich zu rekonstruieren. Dies macht Schattenbilder-Zuordnung und Halb-Bilder-Aktivitäten zu universell relevanten Produkten mit dauerhafter Nachfrage vom Vorschulalter bis in die frühe Grundschulzeit.\n\nWas Schattenbilder-Zuordnungs-Arbeitsblätter als Druckvorlagen-Produkt besonders effektiv macht, ist das rein visuelle Format. Anders als Buchstaben-Nachfahr- oder Mathe-Arbeitsblätter, die sprachspezifischen Text erfordern, bestehen Schattenbilder-Zuordnungs-Rätsel vollständig aus Bildern, Silhouetten und geteilten Hälften. Es gibt keinen Text zu übersetzen, keine Sprachbarriere zu überwinden und keine länderspezifischen Inhalte zu pflegen. Ein einziges Schattenbilder-Zuordnungs-Arbeitsblatt verkauft sich identisch in jedem Land, auf jedem Marktplatz, ohne Änderung. Diese globale Portabilität verleiht Schattenbilder-Zuordnungs-Produkten einen strukturellen Vorteil gegenüber textlastigen Arbeitsblatt-Kategorien, bei denen Verkäufer separate Versionen für jede Sprache erstellen müssen.\n\nDer Schattenbilder-Ersteller übernimmt die technische Komplexität bei der Erstellung dieser Aktivitäten. Er bietet zwei unterschiedliche Übungsmodi in einem einzigen Werkzeug. Der Schattenbilder-Zuordnungs-Modus generiert automatisch pixelgenaue schwarze Silhouetten aus Ihren ausgewählten Bildern — jedes Pixel mit einem Alpha-Wert größer als zehn wird in reines Schwarz umgewandelt, wodurch präzise Umrisse entstehen, die feine Details wie Tierohren, Fahrzeugprofile und Objektkonturen bewahren. Der Halb-Bilder-Modus teilt Bilder entlang horizontaler oder vertikaler Schnittrichtungen in Hälften und erstellt räumliche Denkaufgaben, bei denen Nutzer die Teile wieder zusammensetzen. Beide Modi verwenden einen Fisher-Yates-Derangement-Algorithmus, der garantiert, dass kein Element an seiner ursprünglichen Position erscheint, was triviale positionsbasierte Zuordnungen eliminiert und sicherstellt, dass jedes Arbeitsblatt eine echte Zuordnungsherausforderung darstellt.\n\nUmschaltbare Beschriftungen fügen eine weitere Dimension der Produktvielfalt hinzu. Mit aktivierten Beschriftungen zeigen Bilder die Kennzeichnungen A, B, C, D und Silhouetten oder Hälften die Kennzeichnungen 1, 2, 3, 4 an, was eine strukturierte Hilfestellung für jüngere Lernende bietet, die Buchstaben-Zahlen-Paare als Antworten schreiben. Mit deaktivierten Beschriftungen wird das Arbeitsblatt zu einer reinen visuellen Zuordnungsherausforderung ohne alphanumerische Hinweise, ideal für Rätselbücher und fortgeschrittene Aktivitäten. Dieser einzelne Schalter erzeugt zwei unterschiedliche Schwierigkeitsstufen aus identischem Inhalt.\n\nJede in dieser Anleitung erwähnte Funktion ist in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Schattenbilder-Zuordnungs-Arbeitsblätter erstellen, beide Übungsmodi testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

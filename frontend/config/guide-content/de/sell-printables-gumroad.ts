@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'druckvorlagen verkaufen auf gumroad',
+    primaryKeyword: 'Druckvorlagen auf Gumroad verkaufen Anleitung',
     secondaryKeywords: [
-      'wie Druckvorlagen auf Gumroad verkaufen',
-      'Gumroad Druckvorlagen-Geschäft einrichten',
-      'digitale Downloads auf Gumroad verkaufen',
-      'Gumroad für Druckvorlagen-Verkäufer',
+      'Gumroad Storefront einrichten Druckvorlagen',
+      'digitale Downloads auf Gumroad Preisstrategien',
+      'Gumroad E-Mail-Marketing Kundenbeziehung aufbauen',
+      'Gumroad Direktverkauf vs Marktplatz Vorteile',
     ],
     lsiKeywords: [
-      'Schöpfer-Direktverkauf Plattform digitale Downloads sofortige Lieferung E-Mail-Liste',
-      'Gumroad Storefront Branding Produktseite Titelbild Beschreibung Optimierung',
-      'Zahle-was-du-willst Preisgestaltung Rabattcodes Angebotslinks gestaffelte Preise',
-      'E-Mail-Marketing Publikumsaufbau Abonnentenliste Produkt-Updates Newsletter',
-      'Social-Media-Traffic Pinterest Instagram Blog-Inhalte SEO Werbung',
-      'Produktpakete Mitgliedschaften Abonnements wiederkehrende Einnahmen Katalog Skalierung',
+      'Schöpfer-Direktverkauf Plattform E-Mail-Liste aufbauen',
+      'Zahle-was-du-willst Preisgestaltung Rabattcodes',
+      'Produktpakete Mitgliedschaften wiederkehrende Einnahmen',
     ],
-    titleTag: 'Druckvorlagen verkaufen auf Gumroad — Leitfaden',
-    metaDescription: 'Druckvorlagen auf Gumroad verkaufen ohne monatliche Gebühren. Storefront-Einrichtung, Preisstrategien, E-Mail-Marketing und direkte Kundenbeziehungen.',
+    titleTag: 'Druckvorlagen auf Gumroad verkaufen | LCS',
+    metaDescription: 'Druckvorlagen auf Gumroad verkaufen: Storefront einrichten, Preisstrategien nutzen, E-Mail-Marketing aufbauen und mit Paketen und Mitgliedschaften skalieren.',
   },
 
   hero: {
-    title: 'Druckvorlagen auf Gumroad verkaufen',
+    title: 'Druckvorlagen auf Gumroad verkaufen — Ihr Leitfaden',
     tagline: 'Ein kompletter Leitfaden zum Direktverkauf von druckbaren Arbeitsblättern und Lernmaterialien über Gumroad — mit Storefront-Einrichtung, Produkterstellung, flexiblen Preisoptionen einschließlich \"Zahle was du willst", integriertem E-Mail-Marketing zum Publikumsaufbau, Traffic-Generierungsstrategien für eine Schöpfer-Direktverkaufsplattform, Produktseiten-Optimierung für höhere Konversion und Skalierung mit Paketen und Mitgliedschaften für wiederkehrende Einnahmen',
-    description: 'Gumroad unterscheidet sich grundlegend von Marktplatz-Plattformen wie Etsy, Amazon KDP oder Gumroad. Auf diesen Plattformen treibt die integrierte Suche die Auffindbarkeit voran — Käufer durchstöbern den Marktplatz und finden Ihre Produkte über Algorithmen. Auf Gumroad sind Sie der Marktplatz. Sie bringen Ihr eigenes Publikum mit, besitzen die Kundenbeziehung und behalten die E-Mail-Adressen der Käufer für Direktmarketing. Dieser Leitfaden behandelt alles, was Sie brauchen, um Druckvorlagen auf Gumroad erfolgreich zu verkaufen, von der ersten Storefront-Einrichtung bis zur Skalierung mit Paketen und Mitgliedschaften.',
+    description: 'Druckvorlagen auf Gumroad verkaufen — dieser Leitfaden zeigt Ihnen den Direktverkaufsweg als Alternative oder Ergänzung zu Marktplätzen. Gumroad unterscheidet sich grundlegend von Etsy oder Amazon KDP: Es gibt keine Marktplatz-Suche und keinen Algorithmus, der Ihre Produkte rankt. Stattdessen bringen Sie Ihr eigenes Publikum mit, besitzen die Kundenbeziehung vollständig und behalten die E-Mail-Adressen aller Käufer — ein Vorteil, den kein Marktplatz bietet. Bei nur 10 % Transaktionsgebühr behalten Sie deutlich mehr von jedem Verkauf. Sie erfahren, wie Sie Ihre Storefront einrichten, flexible Preisoptionen inklusive gestaffelter Preise und Rabattcodes nutzen, eine E-Mail-Liste aufbauen und Traffic über Social Media generieren. Der Leitfaden behandelt auch die Skalierung mit Paketen und Mitgliedschaften für wiederkehrende Einnahmen.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer beginnen auf Marktplatz-Plattformen, wo der integrierte Suchtraffic die Hauptarbeit leistet. Etsy hat Millionen aktiver Käufer, die nach digitalen Downloads stöbern. Amazon KDP bringt Ihre Aktivitätsbücher über seine Empfehlungsmaschine an Leser. Gumroad verbindet Ihre Materialien mit Käufern, die aktiv nach Altersgruppe und Fach suchen. Diese Marktplätze bieten Auffindbarkeit, aber sie kontrollieren auch die Kundenbeziehung, nehmen erhebliche Provisionen und können ihre Algorithmen oder Richtlinien jederzeit ändern.\n\nGumroad arbeitet nach einem völlig anderen Modell. Es gibt keine Marktplatz-Suche, kein Algorithmus-Ranking Ihrer Produkte gegen Wettbewerber und keinen plattformgesteuerten Auffindbarkeits-Mechanismus. Stattdessen gibt Ihnen Gumroad einen sauberen, anpassbaren Storefront, in dem Sie direkt an Käufer verkaufen, die Sie durch Ihre eigenen Marketingbemühungen anziehen. Der Kompromiss ist unkompliziert: Sie leisten mehr Arbeit, um Traffic zu generieren, behalten aber mehr Kontrolle über Ihr Geschäft und Ihre Kundenbeziehungen.\n\nDieser Kompromiss verdient ernsthafte Überlegung für Druckvorlagen-Verkäufer in jedem Stadium. Gumroad berechnet null monatliche Gebühren — Sie zahlen eine pauschale 10 %-Gebühr nur wenn Sie einen Verkauf tätigen. Vergleichen Sie das mit Etsys Einstellungsgebühren, Transaktionsgebühren, Zahlungsabwicklungsgebühren und Werbekosten, die 20 % bis 30 % Ihres Umsatzes verschlingen können. Vergleichen Sie es mit Amazon KDPs 40 % bis 65 % Tantieme-Abzügen bei Aktivitätsbüchern. Auf Gumroad behalten Sie 90 % jedes Verkaufs nach der Zahlungsabwicklung, und Sie wissen genau, was Ihre Kosten sind, bevor Sie ein einziges Produkt bepreisen.\n\nAber der finanzielle Vorteil ist nicht einmal Gumroads größter Pluspunkt für Druckvorlagen-Verkäufer, die ein langfristiges Geschäft aufbauen. Der wahre Wert sind die Kundendaten. Wenn jemand Ihre Druckvorlage auf Etsy kauft, besitzt Etsy diese Kundenbeziehung. Sie können diesem Käufer keine E-Mail über Ihre neuen Produkte senden, keinen Rabatt auf verwandte Materialien anbieten und keine direkte Verbindung aufbauen. Auf Gumroad erhalten Sie bei jedem Kauf die E-Mail-Adresse des Käufers. Sie können Ihren Kunden über neue Veröffentlichungen informieren, exklusive Rabattcodes an Stammkäufer anbieten und ein Publikum aufbauen, das Ihnen keine Plattformänderung wegnehmen kann.\n\nGumroad bietet auch Preisflexibilität, die Marktplatz-Plattformen nicht bieten können. Sie können Festpreise setzen, \"Zahle was du willst"-Preise mit einem Minimum anbieten, gestaffelte Preise für verschiedene Lizenztypen erstellen, einzigartige Rabattcodes für Aktionen generieren und Angebotslinks verwenden, die Rabatte automatisch anwenden. Diese Flexibilität ermöglicht es Ihnen, mit Preisstrategien zu experimentieren, die auf Plattformen mit starren Preisstrukturen unmöglich sind.\n\nDieser Leitfaden ist für Druckvorlagen-Verkäufer konzipiert, die Gumroad als Vertriebskanal hinzufügen oder ihr primäres Geschäft auf der Plattform aufbauen möchten. Ob Sie bereits auf Etsy oder Gumroad verkaufen und diversifizieren möchten, oder ob Sie neu starten und das Schöpfer-Direktverkaufsmodell bevorzugen — die folgenden Strategien führen Sie von der Kontoeinrichtung bis zum Aufbau eines skalierbaren Gumroad-Druckvorlagen-Geschäfts. Wenn Sie Plattformen vergleichen, um zu entscheiden, wo Sie verkaufen sollen, behandelt unser Leitfaden zu Amazon KDP vs Etsy den Marktplatz-Vergleich im Detail — die Hinzunahme von Gumroad als Direktvertriebskanal ergänzt jeden Marktplatz-Ansatz.',

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Schreibübungen-Arbeitsblätter erstellen',
+    primaryKeyword: 'Schreibübungen zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Schreibübungen für Kinder erstellen',
-      'Schreibübungen-Generator',
-      'druckbare Schreibübungen zum Verkaufen',
-      'individuelle Buchstaben-Nachfahr-Arbeitsblätter',
+      'Buchstaben-Nachfahr-Arbeitsblätter für Etsy produzieren',
+      'Schreibübungen-PDFs auf KDP verkaufen',
+      'druckbare Schreibübungen kommerziell erstellen',
+      'Schreibübungen-Generator für Printable-Verkäufer',
     ],
     lsiKeywords: [
-      'Buchstaben nachfahren Arbeitsblatt erstellen',
-      'Schreibschrift-Übungsblätter',
-      'Strichreihenfolge Buchstabenbildung',
-      'Vorübungen für Vorschulkinder',
-      'Schreibübungen auf Etsy verkaufen',
-      'Amazon KDP Schreibübungs-Arbeitshefte',
+      'Schreibübungen-Druckvorlagen Etsy Geschäft',
+      'KDP Schreibübungs-Arbeitsheft veröffentlichen',
+      'Strichreihenfolge Buchstabenbildung Produktlinie',
     ],
-    titleTag: 'Schreibübungen-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Schreibübungen mit Nachfahr- und Geführtem-Abschreib-Modus erstellen. Strichreihenfolge-Pfeile, fünf Schriftarten und druckfertige PDFs für Etsy KDP-Verkauf.',
+    titleTag: 'Schreibübungen zum Verkaufen erstellen | LCS',
+    metaDescription: 'Schreibübungen zum Verkaufen erstellen. Nachfahr- und Abschreib-Modus, Strichreihenfolge-Pfeile, fünf Schriftarten und druckfertige PDFs für Etsy und KDP.',
   },
 
   hero: {
-    title: 'Schreibübungen-Arbeitsblätter erstellen',
+    title: 'Schreibübungen erstellen und profitabel verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung professioneller Schreibübungen mit progressiven Übungsmodi, Strichreihenfolge-Pfeilen und druckfertigem Export für Etsy, Amazon KDP und Gumroad',
-    description: 'Schreibübungen gehören zu den beständigsten Kategorien im Bereich praktischer Druckvorlagen. Jedes Vorschulkind, das lernt, einen Stift zu halten, jeder Erstklassmarkt, der seine ersten Buchstaben formt, und jeder Zweitklassmarkt, der zur Schreibschrift übergeht, braucht strukturierte Übungsblätter. Eltern suchen sie für zu Hause. Käufer benötigen wöchentlich Klassensätze. Ergotherapeuten setzen sie in der Feinmotorik-Therapie ein. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Schreibübungen-Generator — von der Auswahl der Übungsmodi und Schriftarten bis hin zum Aufbau progressiver mehrzeiliger Arbeitsblätter und dem Export druckfertiger PDFs mit professioneller Formatierung. Ob Sie Ihr erstes druckbares Produkt veröffentlichen oder einen bestehenden Katalog für Lese- und Schreibübungen erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt, das Sie listen können.',
+    description: 'Schreibübungen zum Verkaufen erstellen ist eine der beständigsten Nischen im Druckvorlagen-Geschäft. Jedes Vorschulkind braucht Nachfahr-Übungen, jeder Erstklässler formt seine ersten Buchstaben, und jeder Zweitklässler steigt auf Schreibschrift um — die Nachfrage nach strukturierten Übungsblättern ist ganzjährig und über alle Marktplätze hinweg stabil. Eltern kaufen sie für zu Hause, Nachhilfezentren bestellen wöchentlich Klassensätze, und Ergotherapeuten setzen sie in der Feinmotorik-Therapie ein. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Schreibübungen-Generator: Sie wählen zwischen drei progressiven Übungsmodi — Nachfahren, Verblassendes Nachfahren und Geführtes Abschreiben — konfigurieren Schriftarten und Strichreihenfolge-Pfeile und exportieren druckfertige PDFs in professioneller Formatierung. Fünf Schriftarten und unabhängig konfigurierbare Zeilen ermöglichen es Ihnen, Arbeitsblätter zu erstellen, die auf einer Seite vom Nachfahren zum selbstständigen Schreiben fortschreiten. Ob Sie Ihr erstes Produkt auf Etsy listen oder einen bestehenden Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt zum Einstellen bereit.',
   },
 
   introduction: 'Der Schreibprodukterstellung folgt einer universellen Entwicklungssequenz: Kinder entwickeln sich von Vorübungen (Linien und Kreise) über das Nachfahren von Buchstaben zum selbstständigen Abschreiben und schließlich zum Schreiben aus dem Gedächtnis. Jedes Kind durchläuft diese Stufen, und jede Stufe erfordert gezielte Übungsmaterialien. Diese entwicklungsbedingte Realität erzeugt eine anhaltende, ganzjährige Nachfrage nach Schreibübungen für verschiedene Altersgruppen und Fähigkeitsstufen.\n\nWas Schreibübungen als druckbares Produkt besonders stark macht, ist das schiere Volumen, das Käufer benötigen. Ein einzelnes Arbeitsblatt bietet fünf bis zehn Minuten Übung. Käufer brauchen täglich neue Blätter. Eltern, die an der Buchstabenbildung arbeiten, benötigen ein Blatt pro Buchstabe — das sind mindestens 26 Blätter allein für das Großbuchstaben-Alphabet und weitere 26 für Kleinbuchstaben. Fügt man noch Zahlenbildung, Sichtwörter und Schreibschrift-Übungen hinzu, kann ein einzelner Käufer problemlos Hunderte von Seiten in einem Schuljahr kaufen.\n\nDer Schreibübungen-Generator bewältigt die technische Komplexität der Erstellung professioneller Übungsblätter. Er bietet drei progressive Übungsmodi — Nachfahren, Verblassendes Nachfahren und Geführtes Abschreiben — die der tatsächlichen Entwicklungssequenz von Kindern entsprechen. Fünf Schriftarten umfassen Standard-Druckschrift, gepunktete Nachfahr-Konturen und Strichreihenfolge-Pfeile, die Kindern genau zeigen, wie jeder Buchstabe geformt wird. Jede Zeile auf dem Arbeitsblatt ist unabhängig konfigurierbar, sodass Sie Arbeitsblätter erstellen können, die auf einer einzigen Seite vom Nachfahren zum selbstständigen Schreiben fortschreiten.\n\nAlle in dieser Anleitung genannten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Beispiel-Arbeitsblätter erstellen, jeden Übungsmodus und jede Schriftkombination testen und die Ausgabequalität bewerten, bevor Sie eine kommerzielle Lizenz erwerben.',

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy Arbeitsblatt-Pakete erstellen',
+    primaryKeyword: 'Arbeitsblatt-Bundles für Etsy erstellen',
     secondaryKeywords: [
-      'Etsy Arbeitsblatt-Pakete erstellen Anleitung',
-      'Etsy Druckvorlagen-Paket Angebotsstrategie',
-      'Arbeitsblatt-Pakete auf Etsy verkaufen',
-      'Etsy digitaler Download Paket erstellen',
+      'Etsy Druckvorlagen-Paket Umsatz steigern',
+      'Arbeitsblatt-Bündel auf Etsy verkaufen Strategie',
+      'Etsy Bundle-Angebot optimieren Bestellwert',
+      'thematische Arbeitsblatt-Pakete Etsy einstellen',
     ],
     lsiKeywords: [
-      'Etsy Paket-Angebot Optimierung Dateiorganisation Strategie',
-      'Arbeitsblatt-Paket Preisgestaltung Ankerrabatt Wertstapelung',
-      'Etsy Paket Vorschaubilder Thumbnail Mockup Layout',
-      'Fach Klasse Thema saisonale Pakettypen praktische Druckvorlagen',
-      'Etsy digitale Lieferung mehrere Dateien Paketstruktur',
-      'Paket vs Einzelangebot Kannibalisierung Etsy-Shop Strategie',
+      'Paket Dateiorganisation digitale Lieferung Etsy',
+      'Wertstapelung Ankerrabatt Bündelpreisgestaltung',
+      'Vorschaubilder Thumbnail Paket-Suchbegriffe',
     ],
-    titleTag: 'Etsy Arbeitsblatt-Pakete erstellen — Leitfaden',
-    metaDescription: 'Etsy-Arbeitsblatt-Pakete erstellen und den Bestellwert steigern. Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung.',
+    titleTag: 'Arbeitsblatt-Bundles für Etsy erstellen | LCS',
+    metaDescription: 'Arbeitsblatt-Bundles für Etsy erstellen und mehr Umsatz erzielen: Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung für höheren Bestellwert.',
   },
 
   hero: {
-    title: 'Etsy Arbeitsblatt-Pakete erstellen',
+    title: 'Arbeitsblatt-Bundles für Etsy erstellen und verkaufen',
     tagline: 'Ein umfassender Leitfaden zum Erstellen, Strukturieren, Einstellen und Optimieren von Arbeitsblatt-Paketen für Etsy — einschließlich Pakettypauswahl über Fach-, Altersgruppen-, Themen-, Saison- und Formatkategorien, Produktauswahl für maximalen wahrgenommenen Wert, Dateiorganisation innerhalb der Etsy-Liefergrenzen, paketspezifische Vorschaubilder und Thumbnail-Design, Angebotstitel und Tags optimiert für Paket-Suchbegriffe, Wertstapelungs-Preisstrategien mit Ankerrabatten sowie Leistungsverfolgung zur Identifikation Ihrer erfolgreichsten Paketkombinationen',
-    description: 'Arbeitsblatt-Pakete gehören zu den umsatzstärksten Angeboten auf Etsy für Verkäufer praktischer Druckvorlagen. Dieser Leitfaden führt Sie durch den gesamten Paket-Erstellungsprozess — von der Auswahl der zu kombinierenden Produkte über das Schreiben von Angeboten, die den Paketwert kommunizieren, bis zur Leistungsverfolgung über die Zeit.',
+    description: 'Arbeitsblatt-Bundles für Etsy erstellen — dieser Leitfaden zeigt Ihnen, wie Sie den durchschnittlichen Bestellwert in Ihrem Druckvorlagen-Shop deutlich steigern. Bundles gehören zu den umsatzstärksten Angebotsformaten auf Etsy: Ein Paket mit acht verwandten Arbeitsblättern kann den vierfachen Umsatz pro Transaktion erzielen, während die zusätzlichen Produktionskosten minimal bleiben. Sie erfahren, welche Pakettypen am besten funktionieren — ob Fach-, Altersgruppen-, Themen- oder Saisonbundles — und wie Sie Produkte für maximalen wahrgenommenen Wert kombinieren. Der Leitfaden behandelt professionelle Dateiorganisation innerhalb der Etsy-Liefergrenzen, paketspezifische Vorschaubilder und Thumbnail-Design sowie Angebotstitel und Tags, die für Paket-Suchbegriffe ranken. Außerdem lernen Sie Wertstapelungs-Preisstrategien mit Ankerrabatten, die Käufer im DACH-Markt nachweislich zum Bundle-Kauf überzeugen statt zum Einzelprodukt.',
   },
 
   introduction: 'Pakete sind eine der wirksamsten Strategien zur Umsatzsteigerung in einem Etsy-Druckvorlagen-Shop. Ein gut zusammengestelltes Arbeitsblatt-Paket bietet Käufern mehr Wert pro Kauf und verschafft Ihnen gleichzeitig einen höheren durchschnittlichen Bestellwert als Einzelangebote allein. Die Rechnung ist einfach: Wenn ein einzelnes Arbeitsblatt für 3 $ verkauft wird und ein Paket mit acht verwandten Arbeitsblättern für 12 $, verdienen Sie den vierfachen Umsatz pro Transaktion bei minimalen zusätzlichen Produktionskosten.\n\nÜber den direkten Umsatzvorteil hinaus konkurrieren Pakete in der Etsy-Suche anders. Käufer, die nach \"Mathe-Arbeitsblatt-Paket Kindergarten" suchen, haben eine stärkere Kaufabsicht als solche, die nach einzelnen Arbeitsblättern suchen — sie haben bereits entschieden, dass sie mehrere Produkte möchten, und suchen nach der besten Zusammenstellung. Paket-Keywords stehen in vielen Kategorien praktischer Druckvorlagen auch weniger im Wettbewerb als Keywords für Einzelprodukte.\n\nPakete reduzieren auch die Entscheidungsmüdigkeit, die dazu führt, dass Käufer ohne Kauf abspringen. Anstatt zwischen sechs Einzelangeboten zu wählen, kann ein Käufer ein Paket kaufen, das alles Benötigte enthält. Für Käufer, die Klassenmaterialien kaufen, oder Eltern, die Homeschool-Ressourcen zusammenstellen, lösen Pakete das Problem \"Welche soll ich nehmen?".\n\nDie Herausforderung besteht darin, dass das Erstellen effektiver Pakete durchdachte Planung erfordert. Zufällige Zusammenstellungen von Arbeitsblättern schneiden schlechter ab als sorgfältig kuratierte Pakete mit klaren Themen, gleichbleibender Qualität und professioneller Präsentation. Dieser Leitfaden behandelt jeden Aspekt des Paketerstellungsprozesses: den richtigen Pakettyp für Ihren Katalog auswählen, welche Produkte aufgenommen werden sollen, Dateien für professionelle Lieferung organisieren, Vorschaubilder erstellen, die den Wert kommunizieren, paketspezifische Angebote für die Etsy-Suche optimiert schreiben, Preise für maximalen Umsatz festlegen und Leistung verfolgen, um Ihre Strategie über die Zeit zu verfeinern. Jeder in diesem Leitfaden erwähnte Generator ist als kostenlose Testversion mit Wasserzeichen verfügbar, sodass Sie Beispiel-Paketinhalte erstellen und Ihren Ansatz testen können, bevor Sie sich für eine Lizenz entscheiden.',

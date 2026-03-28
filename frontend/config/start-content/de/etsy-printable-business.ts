@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Etsy Druckvorlagen-Business Masterclass',
     secondaryKeywords: [
       'Etsy Druckvorlagen-Geschäft',
       'Etsy-Shop für druckbare Arbeitsblätter',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'Arbeitsblatt-Generator für Etsy-Verkäufer',
       'Etsy Druckvorlagen-Preisstrategie',
     ],
-    titleTag: 'Druckvorlagen auf Etsy verkaufen — Geschäfts-Masterclass',
-    metaDescription: 'Druckvorlagen auf Etsy verkaufen Schritt für Schritt. Shop-Einrichtung, Etsy-SEO, Listing-Optimierung und Skalierung mit Arbeitsblatt-Generatoren für.',
+    titleTag: 'Etsy Printable-Business Masterclass | LCS',
+    metaDescription: 'Etsy Printable-Business Masterclass: Shop-Einrichtung, Etsy-SEO, Listing-Optimierung und Preisstrategie für profitablen Druckvorlagen-Arbeitsblatt-Verkauf.',
   },
 
   hero: {
-    title: 'Etsy Druckvorlagen-Geschäft Masterclass',
+    title: 'Etsy Printable-Business Masterclass für Verkäufer',
     tagline: 'Der plattformspezifische Leitfaden zum Aufbau eines profitablen Druckvorlagen-Arbeitsblatt-Shops auf Etsy',
-    description: 'Etsy ist der größte Marktplatz für druckbare digitale Downloads. Diese Masterclass deckt alles ab, was Sie brauchen, um einen profitablen Druckvorlagen-Arbeitsblatt-Shop auf der Plattform aufzubauen — von der Shop-Einrichtung und Etsy-spezifischem SEO bis zu Listing-Optimierung, Preisstrategie, Werbung und Skalierung über Ihre ersten 50 Produkte hinaus. Jede Strategie in diesem Leitfaden ist speziell auf die Funktionsweise von Etsy zugeschnitten, nicht allgemeine Ratschläge für beliebige Marktplätze.',
+    description: 'Etsy Druckvorlagen-Business Masterclass: Etsy ist der größte Marktplatz für druckbare digitale Downloads, und diese Masterclass deckt alles ab, was Sie für einen profitablen Arbeitsblatt-Shop brauchen — inklusive Etsy.de-spezifischer Strategien für den deutschsprachigen Markt. Von der Shop-Einrichtung und Etsy-spezifischem SEO über Listing-Optimierung und Vorschaubild-Design bis zu Preisstrategie unter Berücksichtigung der Etsy-Gebührenstruktur und Skalierung über Ihre ersten 50 Produkte hinaus. Sie lernen, wie der Etsy-Algorithmus Sichtbarkeit verteilt, wie Sie Tags und Titel für deutsche und internationale Käufer optimieren und wie Sie Pakete erstellen, die höhere Bestellwerte erzielen. Jede Strategie ist speziell auf die Funktionsweise von Etsy zugeschnitten — plattformspezifisches Wissen, das den Unterschied zwischen Sichtbarkeit und Unsichtbarkeit auf dem größten Druckvorlagen-Marktplatz ausmacht.',
   },
 
   introduction: 'Etsy verarbeitet jedes Jahr Milliarden von Dollar an Verkäufen digitaler Downloads, und druckbare Arbeitsblätter gehören zu den am schnellsten wachsenden Kategorien der Plattform. Anders als beim Verkauf auf der eigenen Website, wo Sie jeden Besucher selbst generieren müssen, liefert Etsy Käufer, die bereits genau nach dem suchen, was Sie erstellen. Eltern geben \"druckbare Additions-Arbeitsblätter" in die Etsy-Suche ein. Käufer suchen nach \"Kindergarten-Malvorlagen-Paket." Homeschool-Familien suchen nach \"K-2-Produktmarkt Mathe-Übungsblätter." Ihre Aufgabe ist es, der Shop zu sein, den sie finden.\n\nAber Etsy ist auch überfüllt. Tausende Verkäufer listen druckbare Arbeitsblätter, und der Suchalgorithmus der Plattform entscheidet, wer Sichtbarkeit bekommt und wer untergeht. Erfolg auf Etsy erfordert ein Verständnis dafür, wie die Plattformsuche funktioniert, was Käufer dazu bringt, auf Ihr Listing statt auf das eines Mitbewerbers zu klicken, und wie Sie Ihren Shop für maximale Auffindbarkeit strukturieren.\n\nDiese Masterclass ist von Anfang bis Ende Etsy-spezifisch. Allgemeine Ratschläge zum Druckvorlagen-Geschäft finden Sie in unserer Komplettanleitung zum Start eines Druckvorlagen-Geschäfts. Dieser Leitfaden setzt voraus, dass Sie sich für Etsy als Plattform entschieden haben und das taktische, plattformspezifische Wissen wollen, um erfolgreich zu sein.\n\nEin Hinweis bevor wir beginnen: Jeder in diesem Leitfaden erwähnte Arbeitsblatt-Generator bietet eine kostenlose Testversion mit Wasserzeichen. Sie können Musterprodukte erstellen, Etsy-Listings testen und Ihre Nische validieren, bevor Sie eine kommerzielle Lizenz erwerben.',

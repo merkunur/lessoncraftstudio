@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest-Marketing Arbeitsblätter',
+    primaryKeyword: 'Pinterest Marketing für Arbeitsblatt-Business',
     secondaryKeywords: [
-      'Pinterest für Druckvorlagen-Verkäufer',
-      'Arbeitsblätter mit Pinterest verkaufen',
-      'Pinterest-Strategie Druckvorlagen-Geschäft',
-      'Pinterest-Traffic für Arbeitsblatt-Shops',
+      'Pinterest-Traffic Druckvorlagen-Shop generieren',
+      'Pin-Optimierung Arbeitsblätter Verkäufer',
+      'Pinterest-SEO Printable-Geschäft Strategie',
+      'Board-Strategie Arbeitsblatt-Verkauf Pinterest',
     ],
     lsiKeywords: [
-      'visuelle Suchmaschine Pin-Design Board-Optimierung Keyword-reiche Beschreibungen',
-      'immergrüner Traffic Pin-Zeitplan Klickrate organische Entdeckung',
-      'Produkt-Pins Idea Pins Pinterest Analytics Pinterest-SEO Rich Pins',
-      'Pin-Impressionen Repin-Strategie saisonales Pinnen Board-Strategie',
-      'Pin-Optimierung Hochformat Pinterest-Algorithmus frische Pins',
-      'Suchranking Speicherungsrate ausgehende Klicks Zielgruppen-Einblicke Pin-Vorlagen',
+      'visuelle Suchmaschine Pin-Design Keyword-reiche Beschreibungen immergrüner Traffic',
+      'Pin-Zeitplan Klickrate organische Entdeckung saisonales Pinnen Hochformat',
+      'Pinterest Analytics Rich Pins Speicherungsrate ausgehende Klicks Pin-Vorlagen',
     ],
-    titleTag: 'Pinterest-Marketing Arbeitsblätter — Verkäufer-Strategie',
-    metaDescription: 'Pinterest-Marketing-Strategie für Arbeitsblatt-Verkäufer: Langfristigen Traffic durch Pin-Optimierung, Board-Strategie und keyword-reiche Inhalte generieren.',
+    titleTag: 'Pinterest Marketing für Arbeitsblätter | LCS',
+    metaDescription: 'Pinterest Marketing für Ihr Arbeitsblatt-Business: Pin-Optimierung, Board-Strategie, keyword-reiche Inhalte und saisonale Planung für langfristigen Traffic.',
   },
 
   hero: {
-    title: 'Pinterest-Marketing für Arbeitsblatt-Geschäfte',
+    title: 'Pinterest Marketing für Ihr Arbeitsblatt-Business',
     tagline: 'Ein umfassender Leitfaden zum Pinterest-Marketing für Arbeitsblatt-Verkäufer — wie Sie ein Business-Konto einrichten, Boards für Auffindbarkeit strukturieren, hochkonvertierende Pins gestalten, keyword-reiche Beschreibungen verfassen, einen Pin-Zeitplan entwickeln, für Pinterest-SEO optimieren, saisonale Inhaltszyklen nutzen und Leistungsdaten analysieren',
-    description: 'Pinterest ist keine Social-Media-Plattform. Es ist eine visuelle Suchmaschine, auf der Nutzer aktiv nach Produkten und Ideen zum Kaufen suchen. Für Arbeitsblatt-Verkäufer von Druckvorlagen ist diese Unterscheidung entscheidend — Pinterest-Nutzer entdecken, speichern und klicken sich durch zum Kauf von Bildungsressourcen, noch Monate nachdem ein Pin veröffentlicht wurde. Dieser Leitfaden bietet ein vollständiges Pinterest-Marketing-Framework, das speziell für Arbeitsblatt-Geschäfte entwickelt wurde — von der Profiloptimierung und Board-Strategie bis hin zu Pin-Design, Keyword-Integration, saisonaler Planung und datengestützter Verfeinerung.',
+    description: 'Pinterest Marketing für Ihr Arbeitsblatt-Business ist der effektivste Weg, langfristigen Traffic aufzubauen. Pinterest ist keine Social-Media-Plattform, sondern eine visuelle Suchmaschine, auf der Nutzer aktiv nach Produkten zum Kaufen suchen. Ein heute veröffentlichter Pin kann jahrelang Traffic zu Ihrem Shop leiten — ohne laufende Werbekosten oder Algorithmus-Abhängigkeit wie bei Instagram oder Facebook. Sie erfahren in diesem Leitfaden, wie Sie ein Business-Konto einrichten, Boards für maximale Auffindbarkeit strukturieren, hochkonvertierende Pins mit professionellem Design gestalten und keyword-reiche Beschreibungen verfassen, die in der Pinterest-Suche ranken. Außerdem lernen Sie, einen konsistenten Pin-Zeitplan zu entwickeln, saisonale Inhaltszyklen strategisch zu nutzen und Ihre gesamte Strategie mit Pinterest Analytics datengestützt zu verfeinern, um den Return on Investment kontinuierlich zu steigern.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer behandeln Pinterest als Nebensache — gelegentlich ein Produktbild mit einem Link teilen und auf Traffic hoffen. Dieser Ansatz bringt minimale Ergebnisse, weil er die grundlegenden Mechanismen ignoriert, die Pinterest einzigartig leistungsfähig für Arbeitsblatt-Geschäfte machen. Pinterest funktioniert als visuelle Suchmaschine, nicht als sozialer Feed. Inhalte werden durch keyword-basierte Suche und algorithmische Empfehlung entdeckt, nicht durch Follower-Timelines. Ein heute veröffentlichter Pin kann jahrelang Traffic zu Ihrem Shop leiten und dabei an Reichweite gewinnen, während er Speicherungen und Engagement ansammelt. Keine andere Plattform bietet diese Art von immergrüner Auffindbarkeit für visuelle Produkte.\n\nDie Chance für Arbeitsblatt-Verkäufer auf Pinterest ist erheblich und untergenutzt. Lern-Druckvorlagen gehören zu den meistgesuchten Produktkategorien auf Pinterest — Eltern, Käufer und Homeschooler suchen aktiv nach Arbeitsblättern, Aktivitätsseiten und Lernressourcen. Diese Suchenden haben Kaufabsicht — sie scrollen nicht beiläufig, sondern suchen aktiv nach bestimmten Produkten zum Herunterladen, Ausdrucken und Verwenden. Ein gut optimierter Pin, der in diesen Suchen erscheint, verbindet Ihr Produkt direkt mit einem motivierten Käufer genau in dem Moment, in dem er nach dem sucht, was Sie verkaufen.\n\nWas Pinterest besonders effektiv für Arbeitsblatt-Geschäfte macht, ist die visuelle Natur des Produkts. Arbeitsblätter, Ausmalseiten, Rätsel und Aktivitätsblätter sind von Natur aus visuelle Produkte, die in Pinterests bildorientiertem Format wunderbar dargestellt werden. Ein farbenfrohes, gut gestaltetes Pin, das eine Arbeitsblatt-Vorschau zeigt, kommuniziert sofort, was das Produkt ist, für wen es gedacht ist und was es ansprechend macht — alles ohne dass der Käufer ein einziges Wort Text liest. Diese visuelle Selbsterklärung reduziert die Reibung auf dem Weg von der Entdeckung zum Klick und erzeugt höhere Klickraten als textlastige Produktlistungen auf anderen Plattformen.\n\nDer kumulative Charakter des Pinterest-Traffics unterscheidet ihn von jedem anderen Marketingkanal, der Druckvorlagen-Verkäufern zur Verfügung steht. Auf Instagram oder Facebook erreicht ein Beitrag seine maximale Zielgruppe innerhalb von 24 bis 48 Stunden und verschwindet dann effektiv aus der Entdeckung. Auf Pinterest gewinnt ein Pin über Wochen und Monate an Dynamik, während der Algorithmus ihn indexiert, in Suchergebnissen anzeigt und Nutzern mit passenden Interessen empfiehlt. Leistungsstarke Pins können 6 bis 12 Monate oder länger konsistenten Traffic generieren. Das bedeutet, jeder Pin, den Sie erstellen, ist eine Investition, die noch lange nach der Veröffentlichung Erträge generiert und eine Traffic-Maschine aufbaut, die mit jedem neuen Pin wächst.\n\nArbeitsblatt-Generatoren beschleunigen Ihre Pinterest-Strategie, indem sie den Produktions-Engpass lösen, der das Pin-Volumen der meisten Verkäufer begrenzt. Genügend einzigartige, hochwertige Arbeitsblatt-Produkte zu erstellen, um einen konsistenten Pin-Zeitplan aufrechtzuerhalten, erfordert effiziente Produktionstools. Generatoren ermöglichen Ihnen die Erstellung professioneller, druckfertiger Arbeitsblätter über mehrere Themen, Fächer und Sprachen hinweg — für einen umfangreichen Produktkatalog zum Pinnen. Sie können jeden Generator als kostenlose Testversion mit Wasserzeichen ausprobieren, um zu sehen, wie er in Ihren Pinterest-gestützten Produktionsworkflow passt.\n\nDieser Leitfaden führt Sie durch ein vollständiges Pinterest-Marketing-System, das speziell für Arbeitsblatt-Geschäfte entwickelt wurde. Jeder Schritt baut auf dem vorherigen auf und schafft einen systematischen Ansatz, der Pinterest von einer gelegentlichen Nebensache in Ihren primären Traffic- und Entdeckungskanal verwandelt.',

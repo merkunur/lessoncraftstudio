@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'wörter-raten-generator',
+    primaryKeyword: 'kostenloser Wörter-Raten Generator',
     secondaryKeywords: [
-      'Bild-Hinweis-Rechtschreibübungen-Ersteller für Verkäufer',
-      'Buchstaben-Rate-Arbeitsblätter online erstellen',
-      'druckbare Worterkennungs-Arbeitsblätter kommerziell',
-      'mehrsprachiger Wörter-Raten-Generator für KDP',
+      'Wörter-Raten Generator kostenlos online',
+      'Rechtschreib-Arbeitsblätter erstellen ohne Anmeldung',
+      'Wörter-Raten Ersteller sofort nutzen',
+      'kostenlose Bild-Hinweis Rechtschreibübungen',
     ],
     lsiKeywords: [
-      'visuelle Rechtschreib-Druckvorlagen für Etsy',
-      'bildbasiertes Wortbildungs-Arbeitsblatt-Tool',
-      'mehrsprachiger Buchstabengitter-Generator',
+      'Bild-Hinweis Buchstabengitter Arbeitsblatt',
+      'progressive Schwierigkeitsstufen Rechtschreibung',
+      'sprachsensitiver Wortschatz-Generator',
     ],
-    titleTag: 'Wörter-Raten-Generator | Rechtschreib-Übungen',
-    metaDescription: 'Wörter-Raten-Arbeitsblätter mit 4 Hinweisstufen und dualem Eingabemodus erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Wörter-Raten Generator | LCS',
+    metaDescription: 'Kostenloser Wörter-Raten Generator — Rechtschreib-Arbeitsblätter mit Bild-Hinweisen und 4 Stufen online erstellen. Testversion mit Wasserzeichen verfügbar.',
   },
 
   hero: {
-    title: 'Wörter-Raten-Arbeitsblatt-Generator',
+    title: 'Wörter-Raten Generator — Rechtschreib-Rätsel kostenlos erstellen',
     tagline: 'Bildbasierte Rechtschreib-Arbeitsblätter mit 4 Hinweisstufen in 11 Sprachen erstellen',
-    description: 'Verwandeln Sie Wortschatzübungen in visuelle Rätsel, die Nutzer begeistert lösen. Dieses Tool erstellt Wörter-Raten-Arbeitsblätter, bei denen ein Bild-Hinweis mit einem Buchstabengitter kombiniert wird, das Lücken enthält — Nutzer betrachten das Bild und füllen die fehlenden Buchstaben ein, um das dargestellte Wort zu buchstabieren. Das Herzstück ist ein 4-stufiges progressives Hinweissystem: Keine Hinweise zeigt keine Buchstaben für reines Erinnern, Leicht enthüllt die Hälfte der Buchstaben für unterstütztes Lernen, Normal enthüllt ein Viertel für ausgewogene Herausforderung und Schwer enthüllt nur ein Sechstel für sichere Rechtschreiber. Wählen Sie zwischen zwei Eingabemodi: Der Bild-Hinweis-Modus greift auf über 3.100 Bilder in 104 thematischen Sammlungen zu und generiert automatisch passende Buchstabengitter, oder der Benutzerdefinierte-Wortliste-Modus ermöglicht die direkte Eingabe eigener Wörter für gezieltes Wortschatztraining ohne Bilder. Die Buchstaben-ausschließen-Funktion entfernt bestimmte Buchstaben aus den Gittern — schließen Sie Vokale aus für Phonik-fokussierte Übungen oder häufige Buchstaben für eine härtere Herausforderung. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und dasselbe Bild erzeugt eine andere korrekte Schreibweise. Ein Hundebild generiert \"HUND\" auf Deutsch, \"DOG\" auf Englisch, \"CHIEN\" auf Französisch, \"PERRO\" auf Spanisch. Besonders vorteilhaft für Deutsch: Zusammengesetzte Wörter wie Schmetterling, Feuerwehrauto oder Kühlschrank erzeugen besonders lange und anspruchsvolle Buchstabengitter — ein einzigartiges Verkaufsargument für den deutschsprachigen Markt. Stellen Sie 1–10 Übungen pro Seite ein, wählen Sie Groß- oder Kleinbuchstaben, schalten Sie die Übungsnummerierung ein oder aus, fügen Sie eigene Textanweisungen hinzu und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit optionaler Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+        description: 'Unser kostenloser Wörter-Raten Generator erstellt bildbasierte Rechtschreib-Arbeitsblätter mit progressiven Hinweisstufen — direkt im Browser, ohne Anmeldung und ohne Installation. Ein Bild-Hinweis wird mit einem Buchstabengitter kombiniert, das Lücken enthält — Nutzer betrachten das Bild und füllen die fehlenden Buchstaben ein. Das 4-stufige Hinweissystem steuert die Schwierigkeit: Keine Hinweise für reines Erinnern, Leicht enthüllt die Hälfte, Normal ein Viertel und Schwer nur ein Sechstel der Buchstaben. Zwei Eingabemodi stehen zur Verfügung: Bild-Hinweis mit über 3.100 Bildern in 104 Themen oder benutzerdefinierte Wortlisten für gezieltes Training. Die Sprachsensitivität ist integriert — dasselbe Bild erzeugt verschiedene Schreibweisen in 11 Sprachen. Deutsche Zusammensetzungen wie Schmetterling erzeugen besonders anspruchsvolle Gitter. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

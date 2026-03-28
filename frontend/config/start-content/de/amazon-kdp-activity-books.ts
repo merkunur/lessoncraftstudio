@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Aktivitätsbücher auf Amazon KDP verkaufen',
+    primaryKeyword: 'Amazon KDP Aktivitätenheft-Business Anleitung',
     secondaryKeywords: [
       'Amazon KDP Aktivitätsbücher',
       'Rätselbücher auf KDP verkaufen',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'KDP Tantiemen-Rechner Aktivitätsbücher',
       'Print-on-Demand Aktivitätsbuch-Geschäft',
     ],
-    titleTag: 'Aktivitätsbücher auf Amazon KDP verkaufen — Leitfaden',
-    metaDescription: 'Aktivitätsbücher auf Amazon KDP veröffentlichen und verkaufen. Innenformatierung, Cover-Design, Keyword-Recherche und Skalierung Ihres KDP-Geschäfts erklärt.',
+    titleTag: 'Amazon KDP Aktivitätenheft-Business | LCS',
+    metaDescription: 'Amazon KDP Aktivitätenheft-Business starten und skalieren. Innenformatierung, Cover-Design, Keyword-Recherche und Preisstrategie für Print-on-Demand-Verkäufer.',
   },
 
   hero: {
-    title: 'Amazon KDP Aktivitätsbuch-Geschäftsleitfaden',
+    title: 'Amazon KDP Aktivitätenheft-Business starten und skalieren',
     tagline: 'Professionelle Aktivitätsbücher auf Amazon per Print-on-Demand veröffentlichen und verkaufen — kein Lager, keine Vorabkosten',
-    description: 'Amazon KDP gibt Ihnen Zugang zum größten Buchmarktplatz der Welt ohne Lagerrisiko. Dieser Leitfaden deckt jeden Schritt zum Aufbau eines profitablen Aktivitätsbuch-Geschäfts auf KDP ab — von der Innenformatierung und dem Cover-Design über Keyword-Recherche, Preisstrategie und Kategorieauswahl bis zur Skalierung Ihres Katalogs. Ob Sie Ihr erstes Rätselbuch veröffentlichen oder ein bestehendes Druckvorlagen-Geschäft auf Amazon erweitern — dies ist Ihr KDP-spezifischer Leitfaden.',
+    description: 'Amazon KDP Aktivitätenheft-Business Anleitung: KDP gibt Ihnen Zugang zum größten Buchmarktplatz der Welt ohne Lagerrisiko — und mit Amazon.de erreichen Sie direkt den zweitgrößten Amazon-Marktplatz weltweit, auf dem deutschsprachige Eltern und Käufer aktiv nach Rätselbüchern und Lernheften suchen. Dieser Leitfaden deckt jeden Schritt zum Aufbau eines profitablen Aktivitätsbuch-Geschäfts ab — von der Innenformatierung und dem Cover-Design über Keyword-Recherche und Preisstrategie bis zur Kategorieauswahl und systematischen Skalierung Ihres Katalogs über mehrere Marktplätze hinweg. Sie lernen, wie Sie Print-on-Demand-Vorteile nutzen, um ohne Vorabkosten Titel auf Amazon.de, Amazon.com und weiteren regionalen Shops zu veröffentlichen. Ob Sie Ihr erstes Rätselbuch veröffentlichen oder ein bestehendes Druckvorlagen-Geschäft auf Amazon erweitern — dies ist Ihr KDP-spezifischer Leitfaden mit konkreten, sofort umsetzbaren Schritten statt allgemeiner Ratschläge.',
   },
 
   introduction: 'Amazon verkauft mehr Bücher als jeder andere Händler weltweit, und Aktivitätsbücher gehören zu den am schnellsten wachsenden Kategorien in den Bereichen Kinder- und Rätselbücher. Anders als auf Etsy, wo Sie einzelne digitale Downloads verkaufen, druckt Amazon KDP physische Bücher auf Bestellung und versendet sie direkt an die Kunden. Sie laden ein PDF-Innenteil und eine Cover-Datei hoch, legen Ihren Preis fest, und Amazon übernimmt Druck, Versand, Kundenservice und Retouren.\n\nDieses Print-on-Demand-Modell beseitigt die zwei größten Hürden des traditionellen Buchverlagswesens: Vorab-Druckkosten und Lagerrisiko. Sie zahlen nie für den Druck einer einzelnen Kopie. Amazon druckt jedes Buch erst, nachdem ein Kunde es bestellt hat. Ihr Gewinn ist die Differenz zwischen Ihrem Listenpreis und Amazons Druckkosten, multipliziert mit der gewählten Tantiemenrate.\n\nDieser Leitfaden ist von Anfang bis Ende KDP-spezifisch. Allgemeine Druckvorlagen-Geschäftsstrategie finden Sie in unserer Komplettanleitung zum Start eines Druckvorlagen-Geschäfts, und Etsy-spezifische Taktiken werden in der Etsy Druckvorlagen-Geschäft Masterclass behandelt. Hier ist jede Empfehlung auf die Plattform, den Algorithmus und das Käuferverhalten von Amazon zugeschnitten.\n\nEin wichtiger Hinweis: Jeder in diesem Leitfaden erwähnte Arbeitsblatt-Generator bietet eine kostenlose Testversion mit Wasserzeichen. Sie können Muster-Aktivitätsbuchseiten erstellen, die Formatierung testen und die Qualität bewerten, bevor Sie eine kommerzielle Lizenz für die Veröffentlichung auf KDP erwerben.',

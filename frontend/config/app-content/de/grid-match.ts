@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'raster-puzzle-generator',
+    primaryKeyword: 'Gitter-Zuordnungs-Rätsel Printable-Business',
     secondaryKeywords: [
-      'druckbarer Bilder-Rasterpuzzle-Generator für Etsy-Verkäufer',
-      'Kachel-Zuordnungs-Arbeitsblatt-Generator für KDP-Verleger',
-      'Raster-Puzzle-Ersteller kommerzielle Lizenz',
-      'Bilder-Rasterpuzzle-Arbeitsblätter auf Gumroad verkaufen',
+      'Raster-Puzzle-Generator für Etsy-Verkäufer',
+      'Kachel-Zuordnung Druckvorlagen erstellen KDP',
+      'Bilder-Rasterpuzzle verkaufen kommerzielle Lizenz',
+      'Grid-Match-Arbeitsblatt-Generator mit Lösungsschlüssel',
     ],
     lsiKeywords: [
-      'digitale Kachel-Zuordnungs-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Raster-Puzzle-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft Bilder-Rasterpuzzle-Werkzeuge',
+      'Printable-Business Kachelrätsel Druckvorlagen erstellen',
+      'Raster-Puzzle Arbeitsblätter Einkommensquelle',
+      'Bilder-Kachelpuzzle Generator verkaufen Etsy',
     ],
-    titleTag: 'Raster-Puzzle-Generator | Bilder-Rasterpuzzle',
-    metaDescription: 'Raster-Puzzle-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Konfigurierbares Raster, Hinweiszellen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Gitter-Zuordnungs-Rätsel-Generator | LCS',
+    metaDescription: 'Gitter-Zuordnungs-Rätsel erstellen für Ihr Printable-Business. Konfigurierbares Kachelraster mit Hinweiszellen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Raster-Puzzle-Generator für druckbare Bilder-Rasterpuzzle-Arbeitsblätter',
+    title: 'Gitter-Zuordnungs-Rätsel für Ihr Printable-Business erstellen',
     tagline: 'Verwandeln Sie jedes Bild in ein rasterbasiertes Bildrätsel — teilen Sie es in Kacheln auf, zeigen Sie konfigurierbare Hinweiszellen, mischen Sie die übrigen Kacheln in eine nummerierte Palette und generieren Sie automatisch einen Lösungsschlüssel mit nummerierten Kreis-Overlays über 104 thematische Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter, bei denen ein einzelnes Bild in ein Kachelraster aufgeteilt wird und Lernende nummerierte Kacheln ihren korrekten Positionen zuordnen. Konfigurieren Sie das Raster von 2×2 bis 4×4 (2–4 Zeilen × 2–4 Spalten) und legen Sie 1–5 Hinweiszellen fest, die als sichtbare Tipps erhalten bleiben — weniger Hinweise bedeuten schwierigere Rätsel. Die App mischt die übrigen Kacheln mittels Fisher-Yates-Zufallsverteilung und zeigt sie in einer nummerierten Kachelpalette neben oder unter dem Raster an. Lernende untersuchen die sichtbaren Hinweiszellen, betrachten die nummerierten Kacheln und schreiben, welche Nummer in jede leere Zelle gehört. Das Doppel-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das vollständige Bild mit nummerierten Kreisen über jeder Rasterzelle, die die korrekte Kachelplatzierung anzeigen, sodass Sie niemals Lösungsschlüssel manuell erstellen müssen. Der Raster-Puzzle-Generator ist NICHT sprachabhängig: die Puzzle-Ausgabe ist rein visuell — nur Bildkacheln und Zahlen, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Ein Sprachwechsel ändert nur die Oberflächenbeschriftungen und den Überschriftentext, NICHT die Puzzle-Ausgabe. Dasselbe Rätsel funktioniert identisch in allen Märkten ohne Übersetzung. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie benutzerdefinierten Text mit sieben Schriftoptionen und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Ob Sie thematische Rätsel-Pakete auf Etsy.de verkaufen, Arbeitsbücher für visuelle Wahrnehmung bei Amazon KDP veröffentlichen oder Schnellabschluss-Rätselaktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Raster-Puzzle in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Gitter-Zuordnungs-Rätsel als Druckvorlagen für Ihr Printable-Business erstellen? Dieser Generator teilt jedes Bild in ein Kachelraster auf, wobei Nutzer nummerierte Kacheln den korrekten Positionen zuordnen. Konfigurieren Sie das Raster von 2×2 bis 4×4 und legen Sie 1–5 Hinweiszellen fest — weniger Hinweise bedeuten schwierigere Rätsel. Die App mischt die übrigen Kacheln mittels Fisher-Yates-Algorithmus und zeigt sie in einer nummerierten Palette an. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit nummerierten Kreisen über jeder Rasterzelle. Die rein visuelle Ausgabe — nur Bildkacheln und Zahlen — ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

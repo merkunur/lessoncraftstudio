@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'zuordnung & sortierung',
+    primaryKeyword: 'Zuordnungs-Sortier-Bundle für Etsy',
     secondaryKeywords: [
       'Zuordnungs-Arbeitsblätter-Paket für Verkäufer',
       'druckbare Zuordnungs-Aktivitäten-Toolkit kommerzielle Nutzung',
@@ -15,14 +15,14 @@ const content: BundleContent = {
       'kommerzielle Lizenz Zuordnungs-Arbeitsblätter',
       'Zuordnungs-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Zuordnung & Sortierung — 5-Generatoren-Paket',
-    metaDescription: '5 Zuordnungs-Generatoren im Paket: Zuordnung, Raster-Puzzle, Schattenbilder, Bingo und Sortieren. Verkaufen auf Etsy, KDP und Gumroad mit Lizenz.',
+    titleTag: 'Zuordnung & Sortierung Bundle für Etsy | LCS',
+    metaDescription: 'Zuordnungs- und Sortier-Bundle mit 5 Generatoren für Etsy und KDP. Zuordnung, Raster-Puzzle, Schattenbilder, Bingo und Sortieren mit kommerzieller Lizenz.',
   },
 
   hero: {
-    title: 'Zuordnung-&-Sortierung-Paket',
+    title: 'Zuordnungs- und Sortier-Bundle für Etsy-Verkäufer',
     tagline: 'Fünf Zuordnungs- und Sortier-Generatoren — von visueller Paarbildung bis zum Stapel-Bingo-Karten-Export',
-    description: 'Das Zuordnung-&-Sortierung-Paket vereint fünf spezialisierte Generatoren, die das gesamte Spektrum von Zuordnungs-, Paar- und Kategorisierungsaktivitäten abdecken. Dies ist ein Hybrid-Paket — drei der fünf Apps sind sprachsensitiv und erzeugen Arbeitsblätter mit Vokabelbezeichnungen in jeder der 11 unterstützten Sprachen, während zwei rein visuell sind und weltweit ohne Übersetzung funktionieren. Der Zuordnungs-Generator bietet vier verschiedene Modi: Buchstaben-Zuordnung, Bild-Name-Zuordnung, Bild-Anfangsbuchstabe und eigene Inhalte. Der Raster-Puzzle-Generator erstellt koordinatenbasierte Zuordnungsrätsel auf strukturierten Rastern. Der Schattenbilder-Generator erzeugt Silhouetten-Zuordnungs-Arbeitsblätter, bei denen Nutzer Linien zwischen Objekten und ihren Schatten ziehen. Der Bingo-Karten-Generator produziert Stapel-Exporte mehrerer einzigartiger Karten in einem einzigen ZIP-Download — die einzige App über alle Pakete hinweg mit dieser Fähigkeit, speziell für Shop- und Gruppennutzung konzipiert. Der Bilder-Sortieren-Generator erstellt Zwei-Kategorien-Sortier-Arbeitsblätter, bei denen Nutzer thematische Bilder in linke und rechte Gruppen einordnen. Vier der fünf Generatoren erzeugen automatische Lösungsschlüssel. Der Bingo-Karten-Generator ist die Ausnahme — als Spielkarten-Generator gibt es keine einzelne richtige Antwort. Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene PNG- und JPEG-Dateien für markenspezifische, nischenorientierte Produkte hoch. Ob Sie Zuordnungs-Aktivitätspakete auf Etsy.de, Sortier-Arbeitsbücher auf Amazon KDP oder Bingo-Karten-Sets auf dem Gumroad verkaufen — dieses Paket bietet Ihnen die Vielfalt und Produktionsgeschwindigkeit, die Verkäufer brauchen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
+    description: 'Dieses Zuordnungs-Sortier-Bundle für Etsy vereint fünf spezialisierte Generatoren für Zuordnungs-, Paar- und Kategorisierungsaktivitäten. Drei der fünf Apps sind sprachsensitiv mit Vokabelbezeichnungen in 11 Sprachen, zwei sind rein visuell und weltweit ohne Übersetzung verkaufbar. Der Zuordnungs-Generator bietet vier Modi, der Raster-Puzzle-Generator erstellt koordinatenbasierte Rätsel, der Schattenbilder-Generator erzeugt Silhouetten-Zuordnungen und der Bingo-Karten-Generator produziert Stapel-Exporte mit ZIP-Download — die einzige App mit dieser Fähigkeit, speziell für Gruppennutzung konzipiert. Der Bilder-Sortieren-Generator erstellt Zwei-Kategorien-Arbeitsblätter. Vier von fünf Generatoren erzeugen automatische Lösungsschlüssel. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene Dateien für nischenorientierte Produkte hoch. Ob Etsy.de, Amazon KDP oder Gumroad — dieses Paket bietet die Vielfalt und Produktionsgeschwindigkeit, die Verkäufer brauchen. Kostenlose Testversion mit Wasserzeichen verfügbar.',
   },
 
   appsIncluded: [

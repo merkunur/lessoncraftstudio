@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Social-Media-Marketing Druckvorlagen',
+    primaryKeyword: 'Social Media Marketing für Printable-Verkäufer',
     secondaryKeywords: [
-      'Social Media für Druckvorlagen-Verkäufer',
-      'Druckvorlagen in sozialen Medien bewerben',
-      'Social-Media-Strategie Druckvorlagen-Geschäft',
-      'Arbeitsblätter online vermarkten',
+      'Instagram-Marketing Druckvorlagen-Geschäft',
+      'Social-Media-Strategie Arbeitsblatt-Shop',
+      'visuelle Inhalte Printable-Werbung erstellen',
+      'Zielgruppenaufbau Druckvorlagen Facebook Pinterest',
     ],
     lsiKeywords: [
-      'Content-Marketing Produktwerbung visuelles Marketing Plattformstrategie',
-      'Zielgruppenaufbau Engagement Markenbekanntheit Produktpräsentation',
-      'organische Reichweite Inhaltskalender visuelle Inhalte teilbare Produkte',
-      'Produktfotografie Social Proof Community-Aufbau Follower-Wachstum',
-      'Instagram-Marketing Pinterest-Strategie Facebook-Gruppen Verkäufer-Promotion',
-      'Hashtag-Strategie Veröffentlichungsplan Engagement-Rate Profiloptimierung',
+      'Content-Marketing Produktpräsentation Inhaltskalender organische Reichweite Engagement',
+      'Hashtag-Strategie Flat-Lay-Fotografie Community-Aufbau Follower-Wachstum',
+      'Veröffentlichungsplan Profiloptimierung Shop-Traffic Konversion Social Proof',
     ],
-    titleTag: 'Social-Media-Marketing Druckvorlagen — Verkäufer-Leitfaden',
-    metaDescription: 'Social-Media-Marketing-Strategien für Druckvorlagen-Verkäufer: Plattformauswahl, visuelle Inhalte, Zielgruppenaufbau und Engagement, das Shop-Traffic.',
+    titleTag: 'Social Media für Printable-Verkäufer | LCS',
+    metaDescription: 'Social Media Marketing für Printable-Verkäufer: Plattformauswahl, visuelle Inhalte erstellen, Zielgruppen aufbauen und Engagement in Shop-Traffic umwandeln.',
   },
 
   hero: {
-    title: 'Social-Media-Marketing für Druckvorlagen-Verkäufer',
+    title: 'Social Media Marketing für Ihren Printable-Shop',
     tagline: 'Ein umfassender Leitfaden zum Social-Media-Marketing für Druckvorlagen — wie Sie die richtigen Plattformen wählen, ansprechende visuelle Inhalte erstellen, Werbung und Mehrwert ausbalancieren, Beiträge auf Verkaufssaisons abstimmen, Profile für Entdeckung optimieren, Hashtags strategisch nutzen, authentisches Community-Engagement aufbauen und Ergebnisse verfolgen, um Ihre Strategie zu verfeinern',
-    description: 'Druckvorlagen-Produkte sind von Natur aus visuell, was Social Media zu einem der natürlichsten und effektivsten Marketingkanäle für Arbeitsblatt-Verkäufer macht. Ein gut fotografiertes Arbeitsblatt-Flat-Lay, ein kurzes Video, das einen Generator bei der Erstellung eines thematischen Aktivitätenpakets zeigt, oder ein Karussell mit bunten Ausmalseiten kann einen scrollenden Elternteil oder Käufer mitten im Feed stoppen und direkt zu Ihrem Shop leiten. Dieser Leitfaden bietet ein vollständiges Social-Media-Marketing-Framework, das speziell für Druckvorlagen-Verkäufer entwickelt wurde — von der Plattformauswahl und Content-Erstellung bis zum Zielgruppenaufbau und der Leistungsverfolgung.',
+    description: 'Social Media Marketing für Printable-Verkäufer nutzt den größten natürlichen Vorteil Ihrer Produkte: Sie sind von Natur aus visuell und fotogen. Ein gut fotografiertes Arbeitsblatt-Flat-Lay oder ein Karussell mit bunten Ausmalseiten kann scrollende Eltern und Käufer mitten im Feed stoppen und direkt zu Ihrem Shop leiten. Doch sporadisches Posten ohne Strategie bringt kaum messbare Ergebnisse. Sie erfahren in diesem Leitfaden, welche Plattformen für Druckvorlagen am besten funktionieren — Instagram für visuelles Engagement, Pinterest für langfristigen Such-Traffic und Facebook-Gruppen für Community-basierte Verkäufe. Sie lernen, ansprechende visuelle Inhalte zu erstellen, Werbung und Mehrwert ausgewogen zu balancieren, Beiträge auf Verkaufssaisons abzustimmen, Profile für Entdeckung zu optimieren und authentisches Community-Engagement aufzubauen, das konsistenten Traffic generiert.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer wissen, dass sie Social Media zur Bewerbung ihrer Produkte nutzen sollten, aber nur wenige haben eine strukturierte Strategie, die konsequent Traffic und Verkäufe generiert. Sie posten sporadisch, wenn sie daran denken, teilen Produktlinks ohne Kontext und fragen sich, warum ihre Follower-Zahl stagniert und ihr Shop-Traffic aus sozialen Kanälen vernachlässigbar bleibt. Das Problem ist nicht, dass Social Media für Druckvorlagen-Geschäfte nicht funktioniert — es liegt daran, dass die meisten Verkäufer es ohne Plan angehen, ohne zu verstehen, welche Inhalte auf welcher Plattform funktionieren, und ohne die Konsistenz, die Algorithmen benötigen, um Konten mit Sichtbarkeit zu belohnen.\n\nSocial-Media-Marketing für Druckvorlagen-Verkäufer hat einen erheblichen eingebauten Vorteil, den viele Kategorien digitaler Produkte nicht bieten: Druckvorlagen-Produkte sind von Natur aus fotogen. Ein Mathe-Arbeitsblatt mit Tierillustrationen, eine bunte Bingo-Karte, ein thematisches Wortsuchrätsel oder eine illustrierte Ausmalseite erzeugt visuell ansprechende Inhalte, die auf bildorientierten Plattformen natürlich gut ankommen. Sie versuchen nicht, einen abstrakten digitalen Service interessant aussehen zu lassen — Sie präsentieren greifbare, farbenfrohe, visuell ansprechende Produkte, die sich wunderbar fotografieren lassen und organisches Engagement von Käufern, Eltern und Bildungsinhalte-Enthusiasten anziehen.\n\nDie Herausforderung für Druckvorlagen-Verkäufer liegt nicht darin, attraktive Inhalte zu erstellen — sondern darin, eine nachhaltige Strategie zu entwickeln, die Produktwerbung mit Mehrwert-Inhalten ausbalanciert, Veröffentlichungspläne auf saisonale Nachfragezyklen abstimmt und gelegentliche Follower in zahlende Kunden umwandelt. Ein Verkäufer, der nur Produktlinks postet, wird Schwierigkeiten haben, eine Zielgruppe aufzubauen. Ein Verkäufer, der nur Bildungstipps ohne Produktpräsentation postet, baut Follower auf, die nie seinen Shop besuchen. Der effektive Ansatz kombiniert beides: Mehrwert-Inhalte, die die Zielgruppe aufbauen und Expertise etablieren, gepaart mit strategischer Produktpräsentation, die diese Zielgruppe in Käufer umwandelt.\n\nDie Plattformauswahl ist für Druckvorlagen-Verkäufer enorm wichtig, da nicht jede Social-Media-Plattform diese Produktkategorie gleich gut bedient. Instagram und Pinterest sind die stärksten Kanäle, weil sie bildorientierte Plattformen sind, auf denen Arbeitsblatt-Vorschauen, Flat-Lay-Fotografie und Produkt-Mockups natürlich in den Nutzer-Feeds angezeigt werden. Facebook-Gruppen bieten Community-basierte Verkaufsmöglichkeiten, bei denen direktes Engagement mit Käufern und Eltern zur Produktentdeckung führt. Andere Plattformen mögen große Nutzerbasen haben, verfügen aber nicht über das visuelle Format oder die Zielgruppen-Demografien, die mit Käufern von Bildungs-Druckvorlagen übereinstimmen.\n\nDieser Leitfaden führt durch ein vollständiges Social-Media-Marketing-Framework, das auf Druckvorlagen-Geschäfte zugeschnitten ist. Jeder Schritt behandelt einen spezifischen Aspekt der Social-Media-Strategie, von der Plattformauswahl und der Erstellung ansprechender Inhalte bis zum Aufbau von Engagement-Systemen und der Leistungsverfolgung. Das Ziel ist eine nachhaltige, handhabbare Social-Media-Präsenz, die konsequent qualifizierten Traffic zu Ihrem Shop leitet — keine zeitaufwändige Verpflichtung, die Sie von der Produkterstellung abzieht, ohne messbaren Ertrag.',

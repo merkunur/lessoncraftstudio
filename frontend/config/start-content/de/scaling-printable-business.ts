@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Geschäft skalieren',
+    primaryKeyword: 'Vom Nebenverdienst zum Vollzeit-Printable-Business',
     secondaryKeywords: [
       'Druckvorlagen-Geschäft Vollzeit aufbauen',
       'Etsy-Druckvorlagen-Shop skalieren',
@@ -17,14 +17,14 @@ const content: StartContent = {
       'mehrsprachige Marktexpansion Druckvorlagen',
       'Reinvestitionsstrategie für Druckvorlagen-Geschäft',
     ],
-    titleTag: 'Druckvorlagen-Geschäft skalieren — Wachstumstipps',
-    metaDescription: 'Druckvorlagen-Geschäft skalieren vom Nebenerwerb zum Vollzeit-Geschäft: Katalogerweiterung, Multi-Plattform-Distribution, Bündelung und Workflow-Optimierung.',
+    titleTag: 'Vom Nebenverdienst zum Vollzeit-Business | LCS',
+    metaDescription: 'Vom Nebenverdienst zum Vollzeit-Printable-Business skalieren. Katalogerweiterung, Multi-Plattform-Distribution und Workflow-Optimierung für Druckvorlagen.',
   },
 
   hero: {
-    title: 'Vom Nebenerwerb zum Vollzeit-Druckvorlagen-Geschäft',
+    title: 'Vom Nebenverdienst zum Vollzeit-Printable-Business',
     tagline: 'Strategischer Wachstumsrahmen für Druckvorlagen-Verkäufer — von Katalogerweiterung und Multi-Plattform-Distribution bis Bündelungsstrategie und Workflow-Optimierung, das operative Handbuch für die Skalierung über ein Nebenprojekt hinaus',
-    description: 'Ein Druckvorlagen-Geschäft zu starten und ein Druckvorlagen-Geschäft zu skalieren erfordern grundlegend verschiedene Fähigkeiten. Die Kreativität und Begeisterung die Ihre ersten Produkte auf den Markt bringen, weichen systematischem Denken, datengestützten Entscheidungen und Produktionsdisziplin während Sie wachsen. Dieser Leitfaden bietet einen konkreten Rahmen für jede Wachstumsphase: von Ihren ersten 25 Listungen bis zur Katalogreife bei 300 oder mehr Produkten. Sie lernen wie Sie Ihren Katalog systematisch erweitern, über mehrere Plattformen verteilen, Produkte für einen höheren durchschnittlichen Bestellwert bündeln, Ihren Produktions-Workflow optimieren und in mehrsprachige Märkte expandieren. Jede Strategie verbindet sich direkt mit den Arbeitsblatt-Generator-Werkzeugen die über die kostenlose Testversion mit Wasserzeichen verfügbar sind, sodass Sie Skalierungstaktiken umsetzen können während Sie sie lesen.',
+    description: 'Vom Nebenverdienst zum Vollzeit-Printable-Business skalieren erfordert grundlegend andere Fähigkeiten als der Start — Prozessoptimierung und datengestützte Entscheidungen ersetzen sporadische Kreativität. Dieser Leitfaden bietet einen konkreten, meilensteinbasierten Wachstumsrahmen für jede Phase: von den ersten 25 Listungen über die Wachstumsphase bei 50 bis 150 Produkten bis zur Katalogreife bei 300+ Produkten mit stabilen Einnahmen. Sie lernen, wie Sie systematisch über thematische und Schwierigkeitsachsen erweitern, Produkte gleichzeitig über Etsy, Amazon KDP und Gumroad verteilen, für höhere Bestellwerte strategisch bündeln, Ihren Produktions-Workflow durch Batch-Verfahren optimieren und in mehrsprachige Märkte expandieren, um den DACH-Raum und internationale Käufer zu erreichen. Jede Strategie verbindet sich direkt mit den Generator-Werkzeugen, die über die kostenlose Testversion mit Wasserzeichen verfügbar sind.',
   },
 
   introduction: 'Die meisten Druckvorlagen-Verkäufer erreichen ein Plateau. Sie eröffnen einen Shop, listen ihre ersten Dutzend Produkte, generieren einige erste Verkäufe und beobachten dann wie ihr Wachstum stagniert. Der Grund ist fast immer derselbe: Sie führen weiterhin Startaktivitäten durch, obwohl sie Skalierungsaktivitäten durchführen sollten. Ein Druckvorlagen-Geschäft zu starten bedeutet, Ihr erstes Produkt zu erstellen und es zu listen. Ein Druckvorlagen-Geschäft zu skalieren bedeutet, Systeme aufzubauen die Produkte effizient über Plattformen und Märkte hinweg produzieren, verteilen und optimieren.\n\nDer Wechsel vom Nebenerwerb zum skalierbaren Geschäft bedeutet nicht, mehr Stunden zu arbeiten. Es bedeutet, anders zu arbeiten. Ein Nebenerwerbs-Verkäufer erstellt ein Produkt pro Sitzung, listet es auf einer Plattform und hofft auf Verkäufe. Ein skalierender Verkäufer produziert zehn Produkte pro Sitzung im Batch-Verfahren, verteilt über vier Plattformen, rotiert saisonale Keywords monatlich und nutzt Analysen um bei dem zu verdoppeln was konvertiert. Gleiche Anzahl an Stunden, dramatisch unterschiedliche Ergebnisse.\n\nDieser Leitfaden bietet einen meilensteinbasierten Wachstumsrahmen statt vager Ermutigung. Jede Wachstumsphase — von der ersten Validierung bis zur Vollzeit-Rentabilität — hat spezifische operative Prioritäten, unterschiedliche Herausforderungen und verschiedene Kennzahlen die wichtig sind. Der Rahmen ist speziell für Druckvorlagen-Arbeitsblatt-Geschäfte konzipiert und verwendet die Werkzeuge und Plattformen die für diese Produktkategorie am relevantesten sind.\n\nSkalierung erfordert auch Investitionsentscheidungen. Worin Sie Einnahmen reinvestieren und in welcher Reihenfolge bestimmt, ob Ihr Geschäft effizient wächst oder Geld in Aktivitäten mit geringer Rendite verliert. Der Reinvestitionsrahmen in diesem Leitfaden priorisiert zuerst Produktionskapazität, zweitens Optimierung und zuletzt bezahlte Akquise — entsprechend dem tatsächlichen Wachstumsmuster erfolgreicher Druckvorlagen-Geschäfte. Jede Empfehlung verbindet sich mit Werkzeugen die über die kostenlose Testversion mit Wasserzeichen verfügbar sind, sodass Sie sofort mit der Umsetzung beginnen können.',

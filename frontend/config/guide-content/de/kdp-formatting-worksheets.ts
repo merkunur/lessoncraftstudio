@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP Formatierung Arbeitsblätter',
+    primaryKeyword: 'KDP Formatierung für Arbeitsblatt-Bücher Anleitung',
     secondaryKeywords: [
-      'KDP Formatierungsanleitung für Arbeitsblatt-Bücher',
-      'Amazon KDP Manuskript-Formatierungsspezifikationen',
-      'KDP Beschnittgröße Seitenränder Beschnitt Arbeitsblatt-Bücher',
-      'druckfertige PDF-Erstellung KDP Aktivitätsbücher',
+      'Amazon KDP Manuskript Beschnittgröße Seitenränder',
+      'druckfertige PDF erstellen KDP Aktivitätsbücher',
+      'KDP Cover-Maße Buchrückenbreite berechnen',
+      'KDP Upload-Fehler beheben Ablehnung vermeiden',
     ],
     lsiKeywords: [
-      'KDP Beschnittgröße 8,5x11 6x9 8x10 Arbeitsblatt Innenteil Layout',
-      'Manuskript Seitenränder Bundsteg Bindung Sicherheitszone Beschnittzugabe',
-      'PDF-Export 300 DPI Schriften einbetten Graustufen CMYK',
-      'KDP Cover-Maße Buchrückenbreite Barcode-Platzierung Rechner',
-      'Seitennummerierung Titelei Nachspann Inhaltsverzeichnis',
-      'KDP Upload-Fehler Ablehnung Fehlerbehebung Vorschau Probeexemplar',
+      'Beschnittgröße 8,5x11 6x9 Innenteil Layout',
+      'PDF-Export 300 DPI Schriften einbetten Graustufen',
+      'Seitennummerierung Titelei Lösungsteil Zusammenstellung',
     ],
-    titleTag: 'KDP Formatierung Arbeitsblätter — Vollständige Anleitung',
-    metaDescription: 'KDP-Formatierung für Arbeitsblätter: Beschnittgrößen, Seitenränder, PDF-Export bei 300 DPI und Cover-Maße. Upload-Fehlerbehebung für KDP-Aktivitätsbücher.',
+    titleTag: 'KDP Formatierung für Arbeitsheft-Bücher | LCS',
+    metaDescription: 'KDP Formatierung für Arbeitsheft-Bücher: Beschnittgrößen, Seitenränder, PDF-Export bei 300 DPI, Cover-Maße und Fehlerbehebung bei Upload-Ablehnungen erklärt.',
   },
 
   hero: {
-    title: 'KDP Formatierungsanleitung für Arbeitsblatt-Bücher',
+    title: 'KDP Formatierung für Arbeitsheft-Bücher — Anleitung',
     tagline: 'Die definitive technische Referenz für die Formatierung von Arbeitsblatt- und Aktivitätsbüchern für Amazon KDP — mit Beschnittgrößenwahl für verschiedene Aktivitätstypen, Seitenrand- und Bundsteg-Berechnungen für komfortablen Schreibraum, Beschnitt- versus Nicht-Beschnitt-Konfiguration, druckfertigem PDF-Export bei 300 DPI mit eingebetteten Schriften, Cover-Maßberechnungen einschließlich Buchrückenbreite und Barcode-Zonen, vollständiger Manuskript-Zusammenstellung von der Titelei bis zum Lösungsteil, und Fehlerbehebung der häufigsten KDP-Upload-Ablehnungen und Formatierungsfehler',
-    description: 'Ein perfekt gestaltetes Arbeitsblatt-Buch ist wertlos, wenn KDP das Manuskript ablehnt oder das gedruckte Ergebnis Text hat, der in die Bindung verschwindet, Ränder, die zu schmal zum Schreiben sind, oder unscharfe Bilder durch niedrig aufgelösten Export. Diese Anleitung behandelt die technischen Formatierungsspezifikationen, die eine professionelle KDP-Veröffentlichung von einer amateurhaften unterscheiden — die exakten Maße, Einstellungen und Exportverfahren, die sicherstellen, dass Ihre Arbeitsblatt- und Aktivitätsbücher jedes Mal korrekt gedruckt werden. Für Strategien zur Inhaltserstellung und Geschäftsplanung verweisen wir auf unsere anderen KDP-Leitfäden. Diese Anleitung ist rein technisch: Manuskript-Spezifikationen, Seitenlayout, PDF-Vorbereitung, Cover-Design-Maße und Upload-Fehlerbehebung.',
+    description: 'KDP Formatierung für Arbeitsblatt-Bücher — diese Anleitung liefert Ihnen die exakten technischen Spezifikationen, damit Ihr Manuskript beim ersten Upload akzeptiert wird. Ein perfekt gestaltetes Arbeitsheft ist wertlos, wenn KDP das Manuskript ablehnt oder das Druckergebnis Text zeigt, der in die Bindung verschwindet. Sie erfahren, welche Beschnittgrößen für verschiedene Aktivitätstypen passen — 8,5 x 11 Zoll für Mathe-Arbeitshefte, 8 x 10 für Ausmalbücher, 6 x 9 für Reise-Rätselbücher — und wie Sie Seitenränder und Bundsteg für komfortablen Schreibraum berechnen. Der Leitfaden behandelt den druckfertigen PDF-Export bei 300 DPI mit eingebetteten Schriften, Cover-Maße inklusive Buchrückenbreite und Barcode-Zonen sowie die vollständige Manuskript-Zusammenstellung von der Titelei bis zum Lösungsteil. Außerdem finden Sie eine systematische Fehlerbehebung für die häufigsten KDP-Upload-Ablehnungen, die gerade bei Erstveröffentlichungen wertvolle Stunden spart.',
   },
 
   introduction: 'Formatierung ist der Punkt, an dem die meisten KDP-Erstlinge Stunden mit vermeidbaren Fehlern verlieren. Sie entwerfen wunderschöne Arbeitsblattseiten in ihrem bevorzugten Layout-Programm, laden bei KDP hoch und stellen fest, dass die Ränder zu klein sind, die PDF-Auflösung unzureichend ist, die Cover-Maße falsch sind oder die Seitenzahl außerhalb des von KDP akzeptierten Bereichs liegt. Jede Ablehnung bedeutet eine weitere Runde von Korrekturen, erneutem Export und erneutem Upload — Verzögerungen, die sich summieren, wenn Sie einen Katalog effizient aufbauen wollen.\n\nArbeitsblatt- und Aktivitätsbücher haben strengere Formatierungsanforderungen als Standard-Textbücher. Ein Roman braucht ausreichende Ränder für komfortables Lesen. Ein Arbeitsblatt-Buch braucht ausreichende Ränder für komfortables Schreiben — Kinder, die Stifte greifen, Erwachsene, die Wörter in Rätseln einkreisen, Nutzer, die Matheaufgaben in vorgesehenen Antwortfeldern lösen. Die Randanforderungen sind größer, die Layoutpräzision ist wichtiger, und die Konsequenzen falscher Formatierung sind im gedruckten Produkt sofort sichtbar.\n\nDiese Anleitung liefert die exakten Spezifikationen, die Sie in jeder Phase des Formatierungsprozesses benötigen. Die Beschnittgrößenwahl kommt zuerst, weil sie jedes nachfolgende Maß bestimmt. Seitenränder und Sicherheitszonen folgen als zweites, weil sie Ihren nutzbaren Inhaltsbereich definieren. Das Seitenlayout für verschiedene Aktivitätstypen kommt als drittes, weil Arbeitsblätter, Rätsel und Ausmalseiten jeweils eigene Abstandsanforderungen haben. Beschnittkonfiguration, PDF-Exporteinstellungen, Cover-Maße, Manuskript-Zusammenstellung und Upload-Fehlerbehebung vervollständigen den Arbeitsablauf.\n\nFür Anleitungen zur Inhaltserstellung — welche Arten von Arbeitsblättern Sie erstellen sollten, wie Sie den Schwierigkeitsverlauf strukturieren, welche Themen sich am besten verkaufen — lesen Sie den Leitfaden für Mathe-Aktivitätsbücher auf KDP. Für Geschäftsstrategien — Preisgestaltung, Katalogplanung, Umsatzoptimierung — siehe den Leitfaden zum Geld verdienen mit KDP-Aktivitätsbüchern. Für rätselspezifische Inhaltsplanung konsultieren Sie die Leitfäden für Rätsel- und Wortsuchbücher. Diese Anleitung setzt voraus, dass Sie Inhalte bereit haben, und konzentriert sich ausschließlich darauf, diese korrekt für die KDP-Druckproduktion zu formatieren.',

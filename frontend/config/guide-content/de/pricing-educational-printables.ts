@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Preisstrategien für Lernmaterial-Druckvorlagen',
+    primaryKeyword: 'Preisstrategien für Lern-Druckvorlagen',
     secondaryKeywords: [
-      'Druckvorlagen-Arbeitsblätter Preise festlegen',
-      'Preisgestaltung Lernmaterial-Druckvorlagen Leitfaden',
-      'Arbeitsblatt-Preisstrategie',
-      'Druckvorlagen-Produkt Preisgestaltung',
+      'Arbeitsblatt-Preise richtig kalkulieren',
+      'Druckvorlagen Gewinnmarge optimieren',
+      'wertbasierte Preisgestaltung Printables',
+      'Preispsychologie für Etsy-Verkäufer',
     ],
     lsiKeywords: [
-      'Preispunkt wahrgenommener Wert Wettbewerbspreise wertbasierte Preisgestaltung Kostenaufschlag',
-      'Preisankerung Paketpreise Stufenpreise Preistests Plattformgebühren Gewinnmarge',
-      'Preispsychologie Rabattstrategie Premium-Preisgestaltung Preiselastizität Konversionsrate',
-      'Plattformgebühren Nettoerlös Preisstufen Preisvergleich Kostenanalyse Umsatzoptimierung',
-      'saisonale Preisgestaltung Preisanpassung Marktforschung Zahlungsbereitschaft Preismodell',
-      'Preisframework Preispositionierung Unterbepreisung Überbepreisung nachhaltige Preisgestaltung',
+      'Preisankerung Paketpreise Stufenpreise Plattformgebühren Nettoerlös Konversionsrate',
+      'Kostenaufschlag wertbasierte Preisgestaltung Premium-Positionierung Zahlungsbereitschaft',
+      'Preistests Marktforschung Unterbepreisung nachhaltige Preisgestaltung Umsatzoptimierung',
     ],
-    titleTag: 'Preisstrategien für Lernmaterial-Druckvorlagen — Leitfaden',
-    metaDescription: 'Bewährte Preisstrategien für Lernmaterial-Druckvorlagen. Umfasst Preispsychologie, Wettbewerbsanalyse, Plattformgebühren, Gewinnmargen und Preistests.',
+    titleTag: 'Preisstrategien für Lern-Druckvorlagen | LCS',
+    metaDescription: 'Preisstrategien für Lern-Druckvorlagen: Preispsychologie, Wettbewerbsanalyse, Plattformgebühren und Gewinnmargen-Optimierung für Etsy, KDP und Gumroad.',
   },
 
   hero: {
-    title: 'Preisstrategien für Lernmaterial-Druckvorlagen',
+    title: 'Lern-Druckvorlagen richtig bepreisen für maximalen Gewinn',
     tagline: 'Ein vollständiger Leitfaden zur Preisgestaltung von Lernmaterial-Druckvorlagen für maximalen Umsatz und nachhaltiges Wachstum — von Marktforschung und Wettbewerbsanalyse über Kostenberechnung und Gewinnmargenplanung, Preismodelle für verschiedene Produkttypen, Preispsychologie und Konversionsoptimierung, plattformspezifische Preisüberlegungen bis hin zu systematischen Preistests für kontinuierliche Verbesserung',
-    description: 'Die Preisgestaltung ist die einzelne Entscheidung mit dem größten Hebel in Ihrem Druckvorlagen-Geschäft. Eine Preiserhöhung von 3 $ über Ihren gesamten Katalog kann Ihre Gewinnmarge über Nacht verdoppeln, während eine Unterbepreisung von nur wenigen Dollar jedes Jahr Tausende von Dollar auf dem Tisch liegen lässt. Dennoch setzen die meisten Druckvorlagen-Verkäufer ihre Preise nach Bauchgefühl fest oder kopieren Wettbewerber, ohne zu verstehen, warum diese Wettbewerber ihre Preise gewählt haben. Dieser Leitfaden behandelt ein vollständiges Preis-Framework, das auf Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica und jeder anderen Plattform funktioniert, auf der Sie Lernmaterial-Druckvorlagen verkaufen.',
+    description: 'Preisstrategien für Lern-Druckvorlagen entscheiden über die Rentabilität Ihres gesamten Geschäfts. Eine Preiserhöhung von nur 3 € über Ihren Katalog kann Ihre Gewinnmarge über Nacht verdoppeln, während Unterbepreisung jährlich Tausende Euro verschenkt. Viele Verkäufer kopieren Wettbewerberpreise, ohne deren Fehler zu erkennen — und wiederholen damit dieselben Margenprobleme. Sie erfahren in diesem Leitfaden, wie Sie Ihre tatsächlichen Kosten inklusive aller Plattformgebühren exakt berechnen, wertbasierte Preisgestaltung anwenden und Preispsychologie gezielt für höhere Konversionsraten nutzen. Außerdem lernen Sie systematische Preistests, die Ihnen zeigen, welche Preispunkte auf Etsy, Amazon KDP und Gumroad am besten funktionieren, damit Sie datenbasiert statt nach Bauchgefühl entscheiden und Ihre Preise kontinuierlich an Marktveränderungen anpassen.',
   },
 
   introduction: 'Preisfehler sind die teuersten Fehler, die ein Druckvorlagen-Verkäufer machen kann, und die häufigsten. Die Mehrheit der neuen Verkäufer bepreist ihre Produkte dramatisch zu niedrig — nicht weil ihre Arbeit keinen Wert hat, sondern weil ihnen das Selbstvertrauen fehlt, sie befürchten, dass höhere Preise Käufer abschrecken, oder sie einfach die niedrigsten Preise auf ihrer Plattform kopieren, ohne zu verstehen, warum diese Produkte so bepreist sind.\n\nUnterbepreisung erzeugt einen Teufelskreis, aus dem man nur schwer entkommen kann. Niedrige Preise ziehen preissensible Käufer an, die weniger Bewertungen hinterlassen und weniger Loyalität zeigen. Niedrige Margen bedeuten, dass Sie sich keine Werbung leisten können, nicht in bessere Tools investieren können und den Zeitaufwand für qualitativ hochwertige Inhalte nicht rechtfertigen können. Die Frustration, hart zu arbeiten und nur minimale Rendite zu erzielen, bringt viele talentierte Verkäufer dazu aufzugeben, bevor ihr Geschäft an Fahrt gewinnt — nicht weil die Nachfrage nach ihren Produkten gering war, sondern weil ihre Preisgestaltung das Geschäft nicht tragfähig machte.\n\nÜberbepreisung birgt ihre eigenen Risiken, obwohl sie weniger schwerwiegend sind, als die meisten Verkäufer befürchten. Ein zu hoch bepreistes Produkt generiert einfach weniger Verkäufe, was Ihnen ein klares Signal gibt, nach unten anzupassen. Die Daten sind sofort verfügbar und umsetzbar. Unterbepreisung hingegen kann Monate oder Jahre bestehen bleiben, weil das Produkt sich weiterhin verkauft — Sie merken nur nie, wie viel Umsatz Ihnen entgeht, weil Sie nie einen höheren Preis getestet haben.\n\nDer richtige Preis für Ihre Lernmaterial-Druckvorlagen ist keine einzelne Zahl, sondern eine Spanne, die durch Ihre Kosten, Ihren Markt, Ihre Produktqualität und die Plattform bestimmt wird, auf der Sie verkaufen. Dieser Leitfaden führt Sie durch ein systematisches Preis-Framework: Recherche Ihrer Wettbewerbslandschaft, Berechnung Ihrer tatsächlichen Kosten, Wahl des richtigen Preismodells, Anwendung von Preispsychologie, Anpassung an verschiedene Plattformen und Preistests im Laufe der Zeit. Das Ziel ist nicht, einen perfekten Preis zu finden, sondern ein Preissystem aufzubauen, das den Umsatz maximiert und gleichzeitig wettbewerbsfähig und nachhaltig bleibt.\n\nPreisgestaltung ist auch keine einmalige Entscheidung. Märkte verschieben sich, der Wettbewerb ändert sich, Plattformgebühren werden angepasst, und Ihre eigene Produktqualität verbessert sich im Laufe der Zeit. Die Verkäufer, die am meisten mit ihrem Druckvorlagen-Geschäft verdienen, sind nicht diejenigen, die am ersten Tag den perfekten Preis gefunden haben — es sind diejenigen, die eine Gewohnheit der systematischen Preisbewertung und -anpassung auf Basis realer Daten statt Annahmen aufgebaut haben.',

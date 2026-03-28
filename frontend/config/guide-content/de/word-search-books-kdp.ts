@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'wortsuchbücher für amazon kdp erstellen',
+    primaryKeyword: 'Suchsel-Bücher für Amazon KDP erstellen',
     secondaryKeywords: [
-      'Wortsuchbücher für Amazon KDP erstellen Anleitung',
-      'Wortsuche-Rätselbuch Veröffentlichung Leitfaden',
-      'Großdruck-Wortsuchbücher Amazon erstellen',
-      'thematische Wortsuchbücher KDP veröffentlichen',
+      'Wortsuchbuch KDP veröffentlichen Anleitung',
+      'Großdruck-Wortsuche Amazon Senioren erstellen',
+      'thematische Wortsuchbücher KDP Serienstrategie',
+      'Wortsuche-Rätselbuch Gittergröße formatieren',
     ],
     lsiKeywords: [
-      'Wortsuche Gittergröße Buchstabenabstand Schwierigkeitsgrad',
-      'thematische Wortlisten Vokabular Kuration altersgerechte Wörter',
-      'Großdruck Wortsuche Senioren Erwachsene barrierefreies Format',
-      'Wortsuchbuch Amazon Keywords Kategorien Optimierung',
+      'thematische Wortlisten Vokabular Kuration altersgerecht',
+      'Großdruck Wortsuche Senioren barrierefreies Format',
       'Wortsuchbuch-Serie Bände Wiederholungskauf Katalog',
-      'Erwachsene Kinder Wortsuche Markt Zielgruppe Gitterformatierung',
     ],
-    titleTag: 'Wortsuchbücher für Amazon KDP erstellen — Leitfaden',
-    metaDescription: 'Wortsuchbücher für KDP erstellen mit thematischen Wortlisten, Großdruck-Formaten und Serienstrategie. Gittergröße, Zielgruppen und Amazon-Optimierung.',
+    titleTag: 'Suchsel-Bücher für Amazon KDP erstellen | LCS',
+    metaDescription: 'Suchsel-Bücher für Amazon KDP erstellen: Thematische Wortlisten kuratieren, Gittergrößen wählen, Großdruck-Formate und mehrbändige Serien für mehr Einnahmen.',
   },
 
   hero: {
-    title: 'Wortsuchbücher für Amazon KDP erstellen',
+    title: 'Suchsel-Bücher für Amazon KDP erstellen — Anleitung',
     tagline: 'Ein fokussierter Leitfaden zum Erstellen und Veröffentlichen von Wortsuchbüchern auf Amazon KDP — der mit Abstand beliebtesten Rätselbuch-Unterkategorie auf Amazon, mit thematischer Wortlisten-Kuration für zusammenhängende, ansprechende Inhalte, Gittergrößenstrategie von 12×12 Leicht bis 20×20 Experte, der Großdruck-Wortsuche-Unterkategorie mit Premium-Preisen und treuer Käuferschaft, Positionierung im Erwachsenen- versus Kindermarkt, Vokabularauswahl die professionelle Wortsuchbücher von Amateurkompilationen unterscheidet, wortsuchspezifischer Amazon-Keyword-Optimierung und der bandbasierten Serienstrategie die ein einzelnes Wortsuchbuch in einen Katalog mit planbaren monatlichen Einnahmen verwandelt',
-    description: 'Wortsuchbücher dominieren die Amazon-KDP-Rätselbuch-Verkäufe nach Stückzahl und übertreffen Kreuzworträtsel, Sudoku und alle anderen Rätseltypen zusammen. Die Kategorie bedient ein riesiges Publikum — Erwachsene, die Entspannung und Gehirntraining suchen, Senioren, die Großdruck-Formate bevorzugen, Reisende, die Offline-Unterhaltung wünschen, und Eltern, die ansprechende bildschirmfreie Aktivitäten für Kinder kaufen. Dieser Leitfaden konzentriert sich speziell auf das, was die Veröffentlichung von Wortsuchbüchern einzigartig macht: thematische Wortlisten kuratieren, die zusammenhängende und ansprechende Inhalte schaffen, Gittergrößen wählen, die zur Zielgruppe passen, für die stark nachgefragte Großdruck-Unterkategorie formatieren und einen mehrbändigen Wortsuch-Katalog aufbauen, der durch Wiederholungskäufe wachsende Einnahmen generiert.',
+    description: 'Suchsel-Bücher für Amazon KDP erstellen — dieser Leitfaden zeigt Ihnen, wie Sie die beliebteste und umsatzstärkste Rätselbuch-Kategorie auf Amazon professionell bedienen. Wortsuchbücher übertreffen Kreuzworträtsel, Sudoku und alle anderen Rätseltypen nach Stückzahl, weil jeder Lesefähige ein Wortsuchrätsel lösen kann — von Grundschulkindern bis zu Senioren in ihren Neunzigern. Sie erfahren, wie Sie thematische Wortlisten kuratieren, die zusammenhängende und lohnende Inhalte schaffen, Gittergrößen von 12×12 Leicht bis 20×20 Experte für verschiedene Zielgruppen wählen und für die lukrative Großdruck-Unterkategorie mit Premium-Preisen formatieren. Der Leitfaden behandelt professionelle Vokabularauswahl, wortsuchspezifische Amazon-Keyword-Optimierung und die bandbasierte Serienstrategie, die ein einzelnes Buch in einen Katalog mit planbaren monatlichen Einnahmen verwandelt.',
   },
 
   introduction: 'Wortsuche ist der unbestrittene Stückzahl-Marktführer unter den Rätselbüchern auf Amazon KDP. Jeden Monat werden Tausende neuer Wortsuch-Titel veröffentlicht, und die Verkaufsschlager in dieser Kategorie erzielen das ganze Jahr über stabile Verkäufe mit saisonalen Spitzen während der Feiertage und Geschenk-Einkaufszeiten. Der Grund, warum Wortsuchbücher andere Rätseltypen in den Verkaufszahlen übertreffen, ist die Zugänglichkeit — jeder, der lesen kann, kann ein Wortsuchrätsel lösen, unabhängig von Alter, Bildung oder Rätselerfahrung. Diese universelle Zugänglichkeit schafft einen Käuferkreis, der jede Altersgruppe von Grundschulkindern bis zu Senioren in ihren Neunzigern umfasst.\n\nDer Wortsuchbuch-Markt teilt sich in mehrere unterschiedliche Segmente auf, jedes mit verschiedenen Käufererwartungen und Wettbewerbsdynamiken. Allgemeine Wortsuchbücher für Erwachsene sind das volumenstärkste Segment und werden zur täglichen Unterhaltung, zum Stressabbau und als kognitives Training gekauft. Großdruck-Wortsuchbücher bedienen Erwachsene und Senioren, die größere Buchstabengrößen für komfortables Lesen und Einkreisen benötigen — diese Unterkategorie erzielt Premium-Preise und zieht außergewöhnlich treue Wiederholungskäufer an, die mehrere Bände pro Monat konsumieren. Kinder-Wortsuchbücher richten sich an Eltern und Käufer, die nach ansprechenden Vokabel-Lernaktivitäten suchen. Thematische Wortsuch-Sammlungen (Tiere, Reisen, Feiertage, Essen) erfassen interessenbasierte und saisonale Suchanfragen, die generische Sammlungen nicht erreichen.\n\nWas ein professionelles Wortsuchbuch von einer Amateurkompilation unterscheidet, ist die Qualität der Wortlisten-Kuration. Zufällige Wortsammlungen wirken zusammenhanglos und unbefriedigend beim Lösen. Thematische Wortlisten — bei denen jedes Rätsel in einem Abschnitt um ein kohärentes Thema wie Meeresleben, Welthauptstädte oder Kochbegriffe kreist — schaffen ein Löseerlebnis, das durchdacht und lohnend wirkt. Käufer bemerken diesen Unterschied sofort, und er zeigt sich in den Bewertungen. Bücher mit durchdacht kuratierten thematischen Inhalten erhalten durchgehend höhere Bewertungen als Bücher mit willkürlicher Wortauswahl.\n\nDieser Leitfaden konzentriert sich ausschließlich auf das, was die Veröffentlichung von Wortsuchbüchern von der allgemeinen Rätselbuch-Veröffentlichung unterscheidet. Für KDP-Grundlagen wie Manuskript-Formatierungsspezifikationen, Cover-Maße, Tantiemenberechnung und allgemeine Amazon-Listing-Praktiken verweisen wir auf den Leitfaden für Mathe-Aktivitätsbücher auf KDP. Für eine übergreifende Rätselbuch-Strategie mit mehreren Rätseltypen, Variety-Buchformaten und kategoriübergreifender Katalogplanung verweisen wir auf den Leitfaden Rätselbücher auf KDP veröffentlichen. Hier konzentrieren wir uns vollständig auf wortsuchspezifische Inhaltsstrategie, Gittergrößen, den Großdruck-Markt, thematische Wortlistenentwicklung und den bandbasierten Katalogansatz, der die Wortsuch-Veröffentlichung zu einem der zuverlässigsten Einnahmeströme auf KDP macht.',

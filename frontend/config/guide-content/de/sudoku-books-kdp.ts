@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Sudoku-Bücher KDP',
+    primaryKeyword: 'Sudoku-Bücher für Amazon KDP erstellen',
     secondaryKeywords: [
-      'Sudoku-Bücher für Amazon KDP erstellen',
-      'Bilder-Sudoku-Bücher für Kinder KDP',
-      'Sudoku-Rätselbuch Veröffentlichungsleitfaden',
-      'Sudoku-Buchserie Amazon Selbstverlag',
+      'Bilder-Sudoku Kinder KDP veröffentlichen',
+      'Zahlen-Sudoku Erwachsene Rätselbuch Amazon',
+      'Sudoku-Buchserie KDP Wiederholungskauf aufbauen',
+      'Sudoku Schwierigkeitsprogression Rasterformatierung',
     ],
     lsiKeywords: [
-      'Sudoku Raster Schwierigkeit leicht mittel schwer Experte Progression',
-      'Bilder-Sudoku Kinder Logikrätsel Vorschule Kindergarten',
-      'Zahlen-Sudoku Erwachsene Gehirntraining kognitive Übung',
-      'Sudoku-Buch Formatierung Rastergröße Druckqualität KDP',
-      'Sudoku-Serie Bände Wiederholungskauf treue Löser Katalog',
-      'Sudoku Rätselzählung Seitenlayout Lösungsschlüssel Druck Beschnitt',
+      'Bilder-Sudoku Logikrätsel Vorschule Kindergarten',
+      'Sudoku-Serie Bände treue Löser Katalog',
+      'Rasterformatierung Seitenlayout Lösungsschlüssel Druck',
     ],
-    titleTag: 'Sudoku-Bücher KDP — Veröffentlichungsleitfaden',
-    metaDescription: 'Sudoku-Bücher für KDP erstellen. Bilder-Sudoku für Kinder und Zahlen-Sudoku für Erwachsene, Schwierigkeitsprogression, Rasterformatierung und Serienaufbau.',
+    titleTag: 'Sudoku-Bücher für Amazon KDP erstellen | LCS',
+    metaDescription: 'Sudoku-Bücher für Amazon KDP erstellen: Bilder-Sudoku für Kinder, Zahlen-Sudoku für Erwachsene, Schwierigkeitsprogression und Serienaufbau für treue Käufer.',
   },
 
   hero: {
-    title: 'Sudoku-Bücher für Amazon KDP erstellen',
+    title: 'Sudoku-Bücher für Amazon KDP erstellen und veröffentlichen',
     tagline: 'Ein fokussierter Leitfaden zur Erstellung und Veröffentlichung von Sudoku-Rätselbüchern auf Amazon KDP — der den Doppelmarkt von Bilder-Sudoku für kleine Kinder und Zahlen-Sudoku für Erwachsene abdeckt, Schwierigkeitsprogressionsstrategien, die Löser von leicht bis Experte bei der Stange halten, Sudoku-spezifische Rasterformatierung für saubere Druckausgabe, Seitenlayout- und Lösungsschlüssel-Konventionen speziell für Sudoku-Bücher, den Serienaufbau-Ansatz, der das außergewöhnlich starke Wiederholungskaufverhalten von Sudoku-Lösern nutzt, und den Expansionspfad von einem Sudoku-Katalog in die breitere Rätselbuch-Veröffentlichung',
-    description: 'Sudoku nimmt eine einzigartige Position unter KDP-Rätselbüchern ein. Anders als die meisten Rätselarten, die ein einzelnes Publikum bedienen, teilt sich Sudoku in zwei grundlegend verschiedene Produkte: Bilder-Sudoku für Kinder im Alter von 3 bis 7 Jahren, das frühe Logikfähigkeiten mit Bildern statt Zahlen entwickelt, und Zahlen-Sudoku für Erwachsene, das von entspannenden leichten Rastern bis zu anspruchsvollen Experten-Herausforderungen reicht. Jedes Format hat sein eigenes Publikum, eigene Suchbegriffe, Cover-Design-Konventionen und Wettbewerbslandschaft. Dieser Leitfaden konzentriert sich speziell darauf, was Sudoku-Buchveröffentlichung von allgemeiner Rätselbuch-Veröffentlichung unterscheidet: die Doppelmarkt-Chance, Schwierigkeitsprogression, die für Sudoku wichtiger ist als für jeden anderen Rätseltyp, Sudoku-spezifische Formatierungsanforderungen für den Druck und die Wiederholungskauf-Ökonomie, die Sudoku zu einer der zuverlässigsten Katalogaufbau-Kategorien auf KDP macht.',
+    description: 'Sudoku-Bücher für Amazon KDP erstellen — dieser Leitfaden behandelt den Doppelmarkt, der Sudoku als KDP-Kategorie einzigartig profitabel macht. Bilder-Sudoku für Kinder von 3 bis 7 Jahren entwickelt frühe Logikfähigkeiten mit Bildern statt Zahlen in vereinfachten 4×4- und 6×6-Rastern, während Zahlen-Sudoku für Erwachsene von entspannenden leichten Rastern bis zu anspruchsvollen Experten-Herausforderungen reicht. Die lukrative Großdruck-Unterkategorie verdient besondere Aufmerksamkeit wegen ihrer Premium-Preise und außergewöhnlich treuen Käuferschaft, die Band für Band kauft. Sie erfahren, wie Sie Schwierigkeitsprogressionen sinnvoll staffeln, Sudoku-spezifische Rasterformatierung für sauberen Druck umsetzen und eine Buchserie aufbauen, die das starke Wiederholungskaufverhalten von Sudoku-Lösern nutzt. Der Leitfaden enthält Seitenlayout-Konventionen und den Expansionspfad in die breitere Rätselbuch-Veröffentlichung.',
   },
 
   introduction: 'Sudoku ist eines der bekanntesten Rätselformate der Welt, und dieses eingebaute Bewusstsein übersetzt sich direkt in konsistentes Amazon-Suchvolumen. Käufer, die nach Sudoku-Büchern suchen, verstehen das Rätselformat bereits und wissen, was sie wollen — sie stöbern nicht beiläufig, sondern suchen aktiv nach ihrem nächsten Buch mit Rätseln zum Lösen. Dieses absichtsorientierte Suchverhalten macht Sudoku-Bücher zu einer der konversionsfreundlichsten Kategorien auf KDP.\n\nDer Sudoku-Buchmarkt teilt sich in zwei verschiedene Segmente, die fast als separate Kategorien funktionieren. Zahlen-Sudoku für Erwachsene ist das größere Segment und bedient Löser, die von gelegentlichen täglichen Rätslern bis zu engagierten Enthusiasten reichen, die Dutzende von Rastern pro Woche lösen. Dieses Publikum kauft basierend auf Schwierigkeitsgrad, Rätselzählung, Rasterformatierungsqualität und Serienkontinuität. Bilder-Sudoku für Kinder ist ein kleineres, aber deutlich weniger wettbewerbsintensives Segment, das Eltern und Frühkäufer anspricht, die logikfördernde Aktivitäten für Kinder im Alter von 3 bis 7 Jahren suchen. Bilder-Sudoku ersetzt Zahlen durch Bilder in vereinfachten 4×4- oder 6×6-Rastern und macht die grundlegende Sudoku-Logik für Kinder zugänglich, die noch nicht mit Zahlen arbeiten können. Diese beiden Märkte teilen den Sudoku-Namen, erfordern aber völlig unterschiedliche Inhalte, Formatierung, Positionierung und Keyword-Strategien.\n\nWas Sudoku-Veröffentlichung besonders attraktiv macht, ist die Wiederholungskauf-Dynamik. Ein abgeschlossenes Sudoku-Buch hat null Wiederspielwert — jedes Raster wurde gelöst, jede Antwort eingetragen. Der Löser muss ein neues Buch für frische Inhalte kaufen. Sudoku-Löser, die einen Verlag finden, dessen Formatierung, Schwierigkeitskalibrierung und Druckqualität ihren Standards entsprechen, werden bemerkenswert treue Wiederholungskäufer. Viele Top-Sudoku-Verleger berichten, dass ihr neuester Band sofortige Verkäufe von Käufern generiert, die jeden vorherigen Band der Serie gekauft haben. Dieser Verbrauchs-und-Neukauf-Zyklus ist der wirtschaftliche Motor der Sudoku-Buchveröffentlichung.\n\nSchwierigkeitsprogression ist für Sudoku wichtiger als für die meisten anderen Rätselarten. Ein Wortsuch-Löser kann Rätsel auf ungefähr demselben Schwierigkeitsgrad unbegrenzt genießen. Ein Sudoku-Löser verbessert sich aktiv durch Übung — Raster, die letzten Monat herausfordernd waren, werden zur Routine. Diese Progression bedeutet, dass Sudoku-Bücher sorgfältig kalibrierte Schwierigkeitsabschnitte brauchen, und Serien müssen eskalierende Herausforderungen über Bände hinweg bieten, oder riskieren, Löser zu verlieren, die über das Schwierigkeitsniveau hinauswachsen. Das Verstehen und Bedienen dieser Progressionsdynamik ist die Schlüsselfähigkeit, die Sudoku-Verleger, die dauerhafte Kataloge aufbauen, von jenen trennt, deren Bücher nach den ersten Verkäufen stagnieren.\n\nDieser Leitfaden konzentriert sich auf das, was Sudoku-Buchveröffentlichung speziell von allgemeiner Rätselbuch-Veröffentlichung unterscheidet. Für KDP-Grundlagen wie Manuskriptformatierungsspezifikationen, Cover-Abmessungen, Tantiemenberechnungen und allgemeine Listing-Praktiken verweisen wir auf den KDP-Formatierungsleitfaden. Für umfassende Rätselbuch-Strategie, die mehrere Typen und Mischbuch-Formate abdeckt, verweisen wir auf den Rätselbücher-KDP-Leitfaden. Hier konzentrieren wir uns ausschließlich auf Sudoku-spezifische Inhaltsstrategie, den Doppelmarkt Kinder-und-Erwachsene, Schwierigkeitsprogressions-Design und den Serienansatz, der Sudoku zu einer der zuverlässigsten Umsatzkategorien auf KDP macht.',

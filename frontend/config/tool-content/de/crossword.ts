@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Kreuzworträtsel für die Produkterstellung erstellen',
+    primaryKeyword: 'kostenloser Kreuzworträtsel-Generator mit Bildern',
     secondaryKeywords: [
-      'Kreuzworträtsel-Ersteller für Verkäufer',
-      'Bild-Kreuzworträtsel für Kinder',
-      'druckbare Kreuzworträtsel für die Schule',
-      'Vokabel-Kreuzworträtsel für Nutzer',
+      'Kreuzworträtsel-Generator kostenlos online',
+      'Bilderkreuzworträtsel erstellen ohne Anmeldung',
+      'Kreuzworträtsel Ersteller sofort nutzen',
+      'kostenloses Kreuzworträtsel mit Bildern generieren',
     ],
     lsiKeywords: [
-      'Bild-Hinweis-Kreuzworträtsel für Vokabelübung',
-      'lokalisierter Kreuzworträtsel-Generator für die Klasse',
+      'Bilderkreuzworträtsel Vokabelübung druckfertig',
+      'sprachabhängiger Kreuzworträtsel-Generator',
       'automatischer Lösungsschlüssel Kreuzworträtsel',
     ],
-    titleTag: 'Kreuzworträtsel Erstellen — Für die Produkterstellung',
-    metaDescription: 'Bilderkreuzworträtsel für die Produkterstellung erstellen. 15x15-Raster, vier Eingabemethoden, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Kreuzworträtsel-Generator | LCS',
+    metaDescription: 'Kostenloser Kreuzworträtsel-Generator — Bilderkreuzworträtsel online erstellen, ohne Anmeldung oder Download. Testversion mit Wasserzeichen verfügbar.',
     },
 
   hero: {
-    title: 'Bilderkreuzworträtsel-Ersteller',
+    title: 'Kreuzworträtsel-Generator — Bilderrätsel kostenlos erstellen',
     tagline: 'Bilderkreuzworträtsel-Generator mit Bildhinweisen auf festem 15×15-Raster, vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste mit Hinweisen und Eigene Bilder hochladen), automatisch generiertem Lösungsschlüssel mit ausgefülltem Raster über Dual-Canvas-System, sprachabhängigen Kreuzwortwörtern in 11 Sprachen über das Bildvokabular-System und lokalisiertem blauen Header (#5B9BD5) mit Fredoka-Titel und Quicksand-Beschreibung über 104 thematische Bildsammlungen',
-    description: 'Erstellen Sie professionelle Bilderkreuzworträtsel, bei denen farbenfrohe Bilder die traditionellen Text-Hinweise ersetzen. Acht Bilder erzeugen acht Wörter auf einem festen 15×15-Raster — der Platzierungsalgorithmus extrahiert Wörter aus Bildnamen, entfernt Leerzeichen, wandelt in Großbuchstaben um, mischt und sortiert nach Länge (längste zuerst) und platziert Wörter mit optimaler Kreuzung an gemeinsamen Buchstaben. Nummerierte Hinweispositionen markieren den Anfang jedes Wortes, und Bildhinweise erscheinen neben dem Raster mit passenden Nummern. Wählen Sie aus vier Eingabemethoden für unterschiedliche Erstellungsbedürfnisse. Schnelle Themen-Generierung wählt automatisch 8 zufällige Bilder aus einer der 104 thematischen Sammlungen und generiert sofort — der schnellste Weg zum fertigen Rätsel. Manuelle Bildnamen-Bearbeitung lässt Sie einzelne Bilder anklicken und deren Anzeigenamen vor der Generierung umbenennen, was präzise Kontrolle über die Wörter im Raster gibt. Benutzerdefinierte Wortliste mit Hinweisen wechselt zu traditionellen Text-Hinweis-Kreuzworträtseln im WORT: Hinweis-Format für fachspezifische Vokabel-Rätsel ohne Bilder. Eigene Bilder hochladen ermöglicht das Hinzufügen eigener JPEG-, PNG-, GIF- oder WebP-Dateien neben Bibliotheksinhalten. Der Bilderkreuzworträtsel-Ersteller ist sprachabhängig: Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen über das Bildvokabular-System. Ein Sprachwechsel ändert die tatsächlichen Kreuzwortwörter — ein Katzenbild erzeugt \"KATZE\" auf Deutsch, \"CAT\" auf Englisch, \"CHAT\" auf Französisch und \"GATTO\" auf Italienisch, was völlig verschiedene Kreuzworträtsel aus denselben Bildern entstehen lässt. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen für lokalisierte Kreuzwortwörter frei. Das Dual-Canvas-System generiert sowohl ein Rätsel-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das ausgefüllte Raster mit allen korrekten Antworten in den Zellen sichtbar. Jedes Rätsel enthält einen automatisch generierten lokalisierten Header mit blauem Hintergrund (#5B9BD5), weißer Kapsel, Fredoka-Titel mit dynamischer Größenanpassung (48px für kurze Titel bis 28px für längere Übersetzungen) und Quicksand-Beschreibung. Hochformat zeigt einen ganzseitigen Header (220px Höhe); Querformat verwendet ein kompaktes zentriertes Layout (145px Höhe). Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene Bilder hoch. Wenden Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern an. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI (6× Multiplikator) in Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder benutzerdefinierten Maßen. Graustufen-Schalter für tintenschonende Ausgabe. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+        description: 'Unser kostenloser Kreuzworträtsel-Generator erstellt professionelle Bilderkreuzworträtsel — direkt im Browser, ohne Anmeldung und ohne Installation. Farbenfrohe Bilder ersetzen die traditionellen Text-Hinweise: Acht Bilder erzeugen acht Wörter auf einem festen 15x15-Raster mit optimaler Kreuzung an gemeinsamen Buchstaben. Wählen Sie aus vier Eingabemethoden: Schnelle Themen-Generierung für sofortige Rätsel, manuelle Bildnamen-Bearbeitung für präzise Kontrolle, benutzerdefinierte Wortliste mit Hinweisen für Text-Kreuzworträtsel oder eigene Bilder hochladen. Das Tool ist sprachabhängig — ein Katzenbild erzeugt KATZE auf Deutsch, CAT auf Englisch, CHAT auf Französisch. Das Dual-Canvas-System generiert sowohl Rätsel als auch ausgefüllten Lösungsschlüssel. Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen. Exportieren Sie als PDF oder JPEG in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

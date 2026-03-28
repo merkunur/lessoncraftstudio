@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tpt materialien erstellen und verkaufen',
+    primaryKeyword: 'Unterrichtsmaterial auf Eduki verkaufen Anleitung',
     secondaryKeywords: [
-      'wie auf Gumroad verkaufen',
-      'Gumroad Druckprodukte für Käufer erstellen',
-      'Gumroad Verkäufer Leitfaden für druckbare Arbeitsblätter',
-      'Gumroad Shop einrichten',
+      'Eduki Verkäuferkonto einrichten Lehrmittel',
+      'druckbare Arbeitsblätter auf Eduki einstellen',
+      'Eduki Listing-Optimierung Preisstrategie',
+      'Lernmaterialien auf Eduki verkaufen Anfänger',
     ],
     lsiKeywords: [
-      'Gumroad Druckprodukte digitaler Download Lehrmittel',
-      'Gumroad Verkäuferkonto Premium-Plan Provisionssatz Tantieme Auszahlungsstruktur',
-      'Lernstandards Altersgruppe Fachbereich Ressourcentyp Kategorisierung',
-      'Produktvorschau Miniaturansicht Deckblatt Nutzungsbedingungen Lösungsschlüssel',
-      'Gumroad Suchalgorithmus Tags Titel Beschreibung Auffindbarkeit Ranking',
-      'Arbeitsblatt-Paket Produktkatalog-Einheit Aktivitätspaket Preisstrategie',
+      'Eduki Bildungsmarktplatz digitaler Download Lehrmittel',
+      'Lernstandards Altersgruppe Fachbereich Kategorisierung',
+      'Produktvorschau Miniaturansicht Deckblatt Lösungsschlüssel',
     ],
-    titleTag: 'Gumroad Materialien erstellen und verkaufen — Leitfaden',
-    metaDescription: 'Gumroad-Materialien erstellen und verkaufen. Kontoeinrichtung, Materialformatierung, Listing-Optimierung und Preisstrategie für den Gumroad erklärt.',
+    titleTag: 'Unterrichtsmaterial auf Eduki verkaufen | LCS',
+    metaDescription: 'Unterrichtsmaterial auf Eduki verkaufen: Konto einrichten, Materialien formatieren, Listings optimieren und Preisstrategien für den Bildungsmarktplatz Eduki.',
   },
 
   hero: {
-    title: 'Gumroad Materialien erstellen und verkaufen',
+    title: 'Unterrichtsmaterial auf Eduki erstellen und verkaufen',
     tagline: 'Ein vollständiger Leitfaden zum Verkauf von Druckprodukte auf Gumroad — von Kontoeinrichtung und Shop-Konfiguration über die Erstellung Gumroad-gerechter Materialien mit korrekter Formatierung, das Verpacken von Dateien für den Upload, das Schreiben von Listings die in Käufersuchen ranken, die Erstellung effektiver Vorschauen und Miniaturansichten, Preisstrategien für den Gumroad bis hin zur Veröffentlichung Ihrer ersten Materialien zum Aufbau von Shop-Dynamik und konstanten Einnahmen',
-    description: 'Gumroad (Gumroad) ist ein Käufer-zu-Käufer-Marktplatz, auf dem Käufer originale Druckprodukte kaufen und verkaufen. Im Gegensatz zu allgemeinen Marktplätzen wie Etsy oder Print-on-Demand-Plattformen wie Amazon KDP ist jeder Käufer auf Gumroad ein Käufer, der aktiv nach sofort einsetzbaren Materialien sucht. Das schafft eine einzigartig zielgerichtete Zielgruppe mit spezifischen Anforderungen: standardkonforme Inhalte, altersgruppengerechte Aktivitäten und Materialien, die mit minimalem Vorbereitungsaufwand im echten Produkterstellung funktionieren. Dieser Leitfaden begleitet Sie durch den gesamten Weg von der Einrichtung Ihres Gumroad-Verkäuferkontos bis zur Veröffentlichung Ihrer ersten Materialien und dem Aufbau der Dynamik, die einen neuen Shop in eine konstante Einnahmequelle verwandelt.',
+    description: 'Unterrichtsmaterial auf Eduki verkaufen — dieser Leitfaden begleitet Sie Schritt für Schritt durch den gesamten Prozess, vom ersten Verkäuferkonto bis zu konstanten monatlichen Einnahmen. Eduki ist der führende deutsche Bildungsmarktplatz, auf dem Lehrkräfte und Bildungsanbieter originale Druckprodukte kaufen und verkaufen. Anders als auf allgemeinen Marktplätzen wie Etsy sucht jeder Käufer auf Eduki aktiv nach sofort einsetzbaren Materialien mit spezifischen Anforderungen: standardkonforme Inhalte, altersgruppengerechte Aktivitäten und Materialien, die mit minimalem Vorbereitungsaufwand funktionieren. Für Druckvorlagen-Unternehmer im DACH-Raum bietet Eduki direkten Zugang zu einer kaufbereiten Zielgruppe ohne die Konkurrenz internationaler Marktplätze. Sie erfahren, wie Sie Ihr Verkäuferkonto einrichten, Materialien professionell formatieren, Listings mit Vorschaubildern und Kategorie-Tags optimieren und eine Preisstrategie zwischen Basic- und Premium-Plan entwickeln, die Ihre Margen maximiert.',
   },
 
   introduction: 'Gumroad hebt sich von jeder anderen Plattform für den Verkauf druckbarer Lernmaterialien ab. Auf Etsy sind Ihre Käufer eine Mischung aus Eltern, Homeschoolern, Käufern und Geschenkekäufern, die einen riesigen allgemeinen Marktplatz durchstöbern. Auf Amazon KDP kaufen Verbraucher physische Bücher. Auf Gumroad sind Ihre Käufer fast ausschließlich Käufer, Schulverwaltungen, Produktkatalogspezialisten und Homeschool-Käufer — Menschen, die genau wissen, was sie brauchen, und Materialien durch eine professionelle Brille bewerten.\n\nDiese Unterscheidung beeinflusst alles daran, wie Sie Ihre Materialien auf Gumroad erstellen, verpacken, bepreisen und vermarkten. Käufer, die auf Gumroad suchen, filtern nach Altersgruppe, Fachbereich, Ressourcentyp und Lernstandards. Sie erwarten professionelle Formatierung mit klaren Lernzielen, vollständigen Lösungsschlüsseln und Anleitungen zur Umsetzung im Produkterstellung. Sie bewerten Materialien über die Vorschaufunktion und lesen Beispielseiten vor dem Kauf durch. Und sie teilen Empfehlungen mit Kollegen — das erzeugt Mund-zu-Mund-Dynamik, die keine SEO-Optimierung replizieren kann.\n\nDie Gumroad-Gebührenstruktur belohnt engagierte Verkäufer. Der kostenlose Basic-Plan lässt Sie 45 % jedes Verkaufs behalten — Gumroad nimmt eine 55-%-Provision. Der Premium-Plan kostet $59,95 pro Jahr, erhöht aber Ihren Anteil auf 80 % jedes Verkaufs, wobei Gumroad nur 20 % behält. Für jeden Verkäufer, der mehr als etwa $150 Jahresumsatz erwartet, amortisiert sich Premium schnell und verbessert Ihre Margen bei jedem weiteren Verkauf dramatisch.\n\nGumroad bietet auch eingebaute Funktionen, die andere Plattformen für Bildungsverkäufer nicht haben. Sie können Materialien mit bestimmten Lernstandards taggen (Common Core, staatliche Standards, NGSS), detaillierte Altersgruppenbereiche zuweisen, nach Fachbereich und Ressourcentyp kategorisieren und benutzerdefinierte Pakete anbieten, die Käufern ermöglichen, mehrere Materialien mit Rabatt auszuwählen. Diese Funktionen bedeuten, dass Käufer genau das finden können, was sie brauchen — durch präzise Filterung statt Keyword-Raten — und Ihre Materialien automatisch in relevanten Suchen erscheinen, wenn sie korrekt kategorisiert sind.\n\nDieser Leitfaden deckt den vollständigen Prozess des Gumroad-Verkäuferwerdens ab: Kontoeinrichtung, Materialerstellung, Dateiverpackung, Listing-Optimierung, Vorschauerstellung, Preisstrategie und Starttaktiken. Für Verkäufer, die bereits auf Etsy oder KDP aktiv sind, konzentriert sich dieser Leitfaden auf das, was Gumroad anders macht — die plattformspezifischen Anforderungen, plattformeigenen Funktionen und Erwartungen der Käufer-Zielgruppe, die einen Gumroad-spezifischen Ansatz erfordern, anstatt einfach Ihre bestehenden Listings von anderen Plattformen zu replizieren.',

@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Mathe-Arbeitsblatt-Paket',
+    primaryKeyword: 'Mathe-Arbeitsblatt-Generatoren-Bundle für Etsy',
     secondaryKeywords: [
       'Mathe-Arbeitsblätter-Paket für Verkäufer',
       'Mathe-Arbeitsblatt-Generator-Paket kommerzielle Nutzung',
@@ -15,14 +15,14 @@ const content: BundleContent = {
       'kommerzielle Lizenz Mathe-Arbeitsblätter',
       'Mathe-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Paket — 6 Mathe-Generatoren',
-    metaDescription: '6 Mathe-Generatoren im Paket: Addition, Subtraktion, Code-Rätsel, Vergleich, Puzzle und Algebra. Verkaufen auf Etsy, KDP und Gumroad mit Lizenz.',
+    titleTag: 'Mathe-Arbeitsblatt-Bundle für Etsy | LCS',
+    metaDescription: 'Mathe-Arbeitsblatt-Generatoren-Bundle mit 6 Apps für Etsy und KDP. Addition, Subtraktion, Code-Rätsel, Vergleich, Puzzle und Algebra — druckfertige PDFs.',
   },
 
   hero: {
-    title: 'Mathematik-Meister-Paket',
+    title: 'Mathe-Arbeitsblatt-Generatoren-Bundle für Etsy-Verkäufer',
     tagline: 'Sechs professionelle Mathe-Arbeitsblatt-Generatoren in einem vergünstigten Paket',
-    description: 'Bauen Sie eine komplette Mathe-Produktlinie auf, ohne zwischen verschiedenen Werkzeugen wechseln zu müssen. Das Mathematik-Meister-Paket vereint sechs spezialisierte Arbeitsblatt-Generatoren, die Addition, Subtraktion, kryptarithmetische Code-Knacker-Rätsel, Größer-Kleiner-Vergleiche, Puzzle-Raster-Mathe-Rätsel und visuelle Bildalgebra-Gleichungen abdecken. Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien mit automatischen Lösungsschlüsseln, einstellbarem Schwierigkeitsgrad und thematischen Bildbibliotheken. Fünf der sechs Apps sind rein visuell — die erstellten Arbeitsblätter funktionieren in jeder Sprache, da sie auf Bilder und Zahlen statt auf Text setzen. Die sechste, Bilder-Addition, bietet einen sprachsensitiven Wort-Enthüllungsmodus, der alle 11 Oberflächensprachen unterstützt. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene PNG- und JPEG-Dateien für markenspezifische, nischenorientierte Produkte hoch. Ob Sie auf Etsy.de, Amazon KDP oder Gumroad verkaufen — dieses Paket bietet Ihnen die Vielfalt, die Käufer erwarten, und die Geschwindigkeit, die Verkäufer brauchen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
+    description: 'Dieses Mathe-Arbeitsblatt-Generatoren-Bundle vereint sechs spezialisierte Apps, mit denen Sie eine komplette Mathe-Produktlinie für Etsy, Amazon KDP und Gumroad aufbauen. Sie erhalten Generatoren für Addition, Subtraktion, kryptarithmetische Code-Knacker-Rätsel, Größer-Kleiner-Vergleiche, Puzzle-Raster-Mathe-Rätsel und visuelle Bildalgebra-Gleichungen. Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien mit automatischen Lösungsschlüsseln, einstellbarem Schwierigkeitsgrad und thematischen Bildbibliotheken. Fünf der sechs Apps sind rein visuell — die erstellten Arbeitsblätter funktionieren in jeder Sprache, da sie auf Bilder und Zahlen statt auf Text setzen. Die sechste, Bilder-Addition, bietet einen sprachsensitiven Wort-Enthüllungsmodus, der alle 11 Oberflächensprachen unterstützt. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene PNG- und JPEG-Dateien für markenspezifische, nischenorientierte Produkte hoch. Ob Sie auf Etsy.de, Amazon KDP oder Gumroad verkaufen — dieses Bundle bietet Ihnen die Vielfalt, die Käufer erwarten, und die Geschwindigkeit, die Verkäufer brauchen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
   },
 
   appsIncluded: [

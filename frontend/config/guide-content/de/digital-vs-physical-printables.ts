@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitale oder physische Druckvorlagen',
+    primaryKeyword: 'Digitale vs physische Druckvorlagen Vergleich',
     secondaryKeywords: [
-      'digitales Druckvorlagen-Geschäftsmodell',
-      'Print-on-Demand oder digitaler Download',
-      'physische Druckprodukte verkaufen',
-      'digitaler Download Druckvorlagen-Strategie',
+      'Print-on-Demand oder digitaler Download wählen',
+      'Gewinnmarge digitale Printables vergleichen',
+      'Hybridmodell Druckvorlagen-Business aufbauen',
+      'Formatwahl Printable-Geschäft Skalierbarkeit',
     ],
     lsiKeywords: [
-      'digitaler Download physisches Produkt Print-on-Demand Fulfillment-Modell',
-      'Versandkosten Gewinnmarge Vergleich Bestandsverwaltung Skalierbarkeit',
-      'Produktionskosten Liefermethode Kundenerfahrung Produktformat',
-      'Hybridmodell digitaler Marktplatz physische Kunsthandwerksmärkte Gemeinkosten',
-      'passive Einnahmen Druckkosten Verpackung Produktqualitätskontrolle',
-      'Formatauswahl Geschäftsmodell-Vergleich Verkäuferstrategie Wachstumspfad',
+      'digitaler Download physisches Produkt Print-on-Demand Fulfillment Skalierbarkeit',
+      'Versandkosten Gewinnmarge Bestandsverwaltung Produktionskosten Kundenerfahrung',
+      'Hybridmodell Formatauswahl Geschäftsmodell-Vergleich passive Einnahmen Wachstumspfad',
     ],
-    titleTag: 'Digitale oder physische Druckvorlagen — Verkäufer-Leitfaden',
-    metaDescription: 'Digitale vs. physische Druckvorlagen im Vergleich für Verkäufer: Gewinnmargen, Skalierbarkeit, Auftragsabwicklung und die richtige Formatwahl für Ihr.',
+    titleTag: 'Digital vs Physisch: Druckvorlagen | LCS',
+    metaDescription: 'Digitale vs physische Druckvorlagen im Vergleich: Gewinnmargen, Skalierbarkeit, Auftragsabwicklung und die richtige Formatwahl für Ihr Printable-Business.',
   },
 
   hero: {
-    title: 'Digitale oder physische Druckprodukte',
+    title: 'Digitale vs physische Druckvorlagen: der Vergleich',
     tagline: 'Ein umfassender Leitfaden zu digitalen vs. physischen Druckvorlagen — mit Vergleich der Gewinnmargen, Bewertung der Skalierbarkeit, Analyse der Kundenerwartungen, Auswahl der richtigen Plattformen für jedes Format, Implementierung eines Hybridmodells, Planung von Produktionsworkflows und Strategien für den Formatwechsel im Laufe Ihres Geschäftswachstums',
-    description: 'Jeder Druckvorlagen-Verkäufer steht vor einer grundlegenden Geschäftsmodell-Entscheidung: digitale Downloads verkaufen, die Käufer selbst ausdrucken, vorgedruckte physische Produkte versenden oder beide Formate anbieten. Jeder Ansatz bringt unterschiedliche Margenstrukturen, betriebliche Anforderungen, Skalierungseigenschaften und Kundenerwartungen mit sich. Dieser Leitfaden bietet ein gründliches Vergleichsrahmenwerk, das Ihnen hilft, beide Formate zu bewerten und den Ansatz zu wählen, der zu Ihren Ressourcen, Zielen und Ihrem Zielmarkt passt.',
+    description: 'Der Vergleich digitale vs physische Druckvorlagen ist eine der folgenreichsten Entscheidungen für Ihr Printable-Business und beeinflusst Ihre Gewinnmargen, Skalierbarkeit und täglichen Arbeitsabläufe. Digitale Downloads bieten maximale Skalierbarkeit ohne Versandlogistik bei nahezu null Grenzkosten pro Verkauf, während physische Produkte über Amazon KDP oder eigenen Versand höhere Stückpreise erzielen. Sie erfahren in diesem Leitfaden, wie sich Gewinnmargen, betriebliche Anforderungen und Kundenerwartungen bei beiden Formaten konkret unterscheiden — mit realen Kalkulationsbeispielen für den DACH-Markt. Außerdem lernen Sie, ob ein Hybridmodell für Ihre Situation sinnvoll ist, wie Print-on-Demand-Dienste die Logistik vereinfachen und welche Plattformen — Etsy für digitale Downloads, KDP für gebundene Bücher, Eduki für den Bildungsmarkt — für welches Format die besten Ergebnisse liefern.',
   },
 
   introduction: 'Die Frage \"digital oder physisch" ist eine der folgenreichsten Geschäftsentscheidungen, die ein Druckvorlagen-Verkäufer trifft, doch viele Verkäufer entscheiden sich standardmäßig für ein Format, ohne die damit verbundenen Kompromisse vollständig zu verstehen. Rein digitale Verkäufer lassen manchmal erhebliche Einnahmen liegen, weil sie Käufer ignorieren, die professionell gedruckte, sofort verwendbare Produkte wünschen. Rein physische Verkäufer erschöpfen sich manchmal mit Produktion, Verpackung und Versand, obwohl ihr Produktkatalog als digitale Downloads weitaus effizienter skalieren würde. Die Verkäufer, die die widerstandsfähigsten Geschäfte aufbauen, sind diejenigen, die beide Modelle tiefgreifend verstehen und ihre Formatstrategie auf Daten, Ressourcen und Marktpositionierung stützen — nicht auf Gewohnheit oder Annahmen.\n\nDigitale Druckvorlagen sind Dateien — typischerweise PDFs, PNGs oder JPEGs — die Käufer herunterladen und zu Hause oder in einem lokalen Druckshop ausdrucken. Der Verkäufer erstellt die Datei einmal und verkauft unbegrenzte Kopien ohne marginale Produktionskosten pro Verkauf. Es gibt keine Versandverzögerungen, keinen Bestand zu verwalten, keine Verpackungsmaterialien zu kaufen und keine Wege zur Post. Der Kompromiss besteht darin, dass digitale Produkte typischerweise zu niedrigeren Preisen verkauft werden, weil Käufer die Verantwortung für das Drucken übernehmen und der wahrgenommene Wert einer digitalen Datei generell niedriger ist als der eines greifbaren Produkts, das sie in den Händen halten können.\n\nPhysische Druckprodukte sind dieselben Designs, aber der Verkäufer übernimmt Druck, Qualitätskontrolle, Verpackung und Versand. Der Käufer erhält ein greifbares, sofort verwendbares Produkt, das professionell auf hochwertigem Papier gedruckt und oft gebunden oder attraktiv verpackt ankommt. Physische Produkte erzielen höhere Einzelhandelspreise, weil Käufer sowohl für das Design als auch für die Produktionsbequemlichkeit bezahlen. Der Kompromiss ist, dass jeder Verkauf Materialkosten, Produktionszeit und Auftragsabwicklung erfordert, was die Margen reduziert und die Geschwindigkeit begrenzt, mit der das Geschäft ohne zusätzliche Infrastruktur oder Personal skalieren kann.\n\nPrint-on-Demand-Dienste wie Amazon KDP nehmen eine Mittelstellung ein: Der Verkäufer lädt digitale Dateien hoch, und die Plattform übernimmt Druck und Versand, wenn Bestellungen eingehen. Dies eliminiert das Bestandsrisiko und die Versandlogistik, während dem Käufer dennoch ein physisches Produkt geliefert wird. Die Margen sind niedriger als bei selbst abgewickelten physischen Produkten, aber die betriebliche Einfachheit nähert sich der von digitalen Downloads.\n\nDie richtige Wahl hängt von Ihrer spezifischen Situation ab: Ihrer verfügbaren Zeit, dem Startkapital, Ihrer Zielkundschaft, dem Produkttyp und Ihren langfristigen Geschäftszielen. Manche Produkte verkaufen sich in einem Format dramatisch besser als im anderen. Manche Märkte bevorzugen stark physische Produkte, während andere überwiegend digital kaufen. Dieser Leitfaden geht jeden Faktor durch, der Ihre Formatentscheidung beeinflussen sollte, und bietet ein Rahmenwerk, das Sie auf Ihren eigenen Produktkatalog und Ihre Geschäftsumstände anwenden können.',

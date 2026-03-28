@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lernmaterialien verkaufen auf creative fabrica',
+    primaryKeyword: 'Unterrichtsmaterial auf Creative Fabrica verkaufen',
     secondaryKeywords: [
-      'wie auf Creative Fabrica verkaufen',
-      'Creative Fabrica für Käufer',
-      'Druckvorlagen auf Creative Fabrica verkaufen',
-      'Creative Fabrica Classroom Ressourcen',
+      'Creative Fabrica Designer-Konto Lernmaterialien',
+      'Druckvorlagen auf Creative Fabrica einstellen',
+      'Creative Fabrica Abonnement-Einnahmen Bildungsbereich',
+      'Craft-Bildung-Crossover Creative Fabrica Marktplatz',
     ],
     lsiKeywords: [
-      'Design-Marktplatz Craft-Publikum Abonnement-Modell digitale Downloads Lernmaterialien',
-      'Creative Fabrica Bildungsmarkt-Bereich Käuferressourcen Arbeitsblatt-Upload Produktlisting',
-      'Abonnement-Pool Einnahmen individuelle Verkäufe duales Einkommensmodell Designer-Konto',
-      'Craft-Bildung Crossover druckbare Aktivitäten thematische Arbeitsblätter Malvorlagen Rätsel',
-      'Produkt-Tags Kategorien Suchoptimierung Titelbilder Beschreibungsformatierung',
-      'Katalog-Skalierung Pakete kategorieübergreifende Werbung Schriftarten Grafiken Lernressourcen',
+      'Design-Marktplatz Abonnement-Pool duales Einkommensmodell',
+      'Bildungsmarkt-Bereich Arbeitsblatt-Upload Suchoptimierung',
+      'Katalog-Skalierung Bastler Designer Lernressourcen',
     ],
-    titleTag: 'Lernmaterialien verkaufen auf Creative Fabrica — Leitfaden',
-    metaDescription: 'Lernmaterialien auf Creative Fabrica verkaufen. Einnahmen aus Abonnements und Einzelverkäufen, Craft- und Käufer-Publikum im Bildungsmarkt-Bereich.',
+    titleTag: 'Unterrichtsmaterial auf Creative Fabrica | LCS',
+    metaDescription: 'Unterrichtsmaterial auf Creative Fabrica verkaufen: Abonnement- und Einzelverkauf-Einnahmen, Craft-Bildung-Crossover und Katalogaufbau im Bildungsmarkt-Bereich.',
   },
 
   hero: {
-    title: 'Lernmaterialien auf Creative Fabrica verkaufen',
+    title: 'Unterrichtsmaterial auf Creative Fabrica verkaufen',
     tagline: 'Ein kompletter Leitfaden zum Verkauf druckbarer Arbeitsblätter und Lernmaterialien auf Creative Fabrica — mit Designer-Konto-Einrichtung, Produkterstellung für den CF-Bildungsmarkt-Bereich, dualen Einnahmen aus Einzelverkäufen und Abo-Downloads, Suchoptimierung für einen Design-fokussierten Marktplatz, Ansprache des einzigartigen Craft-Bildung-Crossover-Publikums, Marketingstrategien zur Abhebung unter Designern und Skalierung Ihres Katalogs über Bildungs- und Kreativkategorien hinweg',
-    description: 'Creative Fabrica kombiniert Marktplatz-Auffindbarkeit mit einem Abonnement-Einnahmemodell und bietet Verkäufern von Lernmaterialien zwei Einkommensströme aus jedem Produkt. Dieser Leitfaden führt Sie durch die Einrichtung Ihres Designer-Shops, die Erstellung von Listings, die für CFs Such- und Kategoriesystem optimiert sind, die Preisgestaltung für Einzelkäufer und Abonnement-Pool-Einnahmen sowie den Aufbau eines Katalogs, der Creative Fabricas einzigartige Mischung aus Bastlern, Designern und Käufer anspricht.',
+    description: 'Unterrichtsmaterial auf Creative Fabrica verkaufen — dieser Leitfaden zeigt Ihnen, wie Sie die Plattform als profitablen Einnahmekanal für Ihr Druckvorlagen-Geschäft nutzen. Creative Fabrica kombiniert Marktplatz-Auffindbarkeit mit einem Abonnement-Modell und bietet Ihnen zwei Einkommensströme aus jedem hochgeladenen Produkt: Einzelverkäufe zu Ihrem festgelegten Preis und Abonnement-Pool-Einnahmen aus Downloads durch Abo-Mitglieder. Sie erfahren, wie Sie Ihr Designer-Konto einrichten, Listings für CFs Such- und Kategoriesystem optimieren und das einzigartige Craft-Bildung-Crossover-Publikum ansprechen, das Bastler und Eltern verbindet. Der Wettbewerb im Bildungsbereich ist deutlich geringer als auf Etsy oder Gumroad — ideale Bedingungen für frühe Teilnehmer, die mit minimaler Konkurrenz Sichtbarkeit und Bewertungen aufbauen möchten, bevor die Kategorie wächst.',
   },
 
   introduction: 'Creative Fabrica nimmt eine besondere Position in der Landschaft digitaler Marktplätze ein. Während Etsy ein allgemeines Publikum bedient, Gumroad sich ausschließlich auf Käufer konzentriert, Amazon KDP die Buchveröffentlichung abwickelt und Gumroad den Schöpfer-Direktverkauf ermöglicht, ist Creative Fabrica ein Design-fokussierter Marktplatz, auf dem Bastler, Grafikdesigner und Käufer zusammenkommen. Ursprünglich rund um Schriftarten, Grafiken und SVG-Dateien für die Craft- und Design-Community aufgebaut, hat Creative Fabrica einen dedizierten Bildungsmarkt-Bereich speziell für Lernressourcen erweitert — Arbeitsblätter, Aktivitäten, Produkterstellungspläne und druckbare Lernmaterialien.\n\nDiese Erweiterung schafft eine einzigartige Chance für Verkäufer von Lernmaterialien. Creative Fabricas Kernpublikum von Bastlern und Designern schätzt bereits hochwertige druckbare Inhalte. Eltern, die Creative Fabrica für Bastelprojekte besuchen, entdecken Lernarbeitsblätter im Bildungsmarkt-Bereich. Käufer, die nach Bildungsmarktdekoration suchen, finden thematische Arbeitsblatt-Pakete neben den Design-Assets, nach denen sie ursprünglich gesucht haben. Das Publikum der Plattform wechselt auf natürliche Weise zwischen kreativen und praktischen Inhalten — auf eine Art, die andere Marktplätze nicht nachbilden können.\n\nCreative Fabricas Einnahmemodell hebt die Plattform wirklich ab. Anders als bei Marktplätzen, auf denen Sie nur bei Direktkäufen verdienen, betreibt Creative Fabrica ein Abonnement-Programm, bei dem Mitglieder eine monatliche Gebühr für den Zugang zu einer umfangreichen Inhaltsbibliothek zahlen. Wenn Abonnenten Ihre Produkte herunterladen, verdienen Sie einen Anteil aus dem Abonnement-Pool basierend auf dem Download-Volumen. Das bedeutet, Ihre Produkte können Einnahmen aus zwei separaten Strömen generieren: Einzelkäufer, die zu Ihrem festgelegten Preis kaufen, und Abonnement-Mitglieder, die Ihre Inhalte als Teil ihrer Mitgliedschaft herunterladen. Beide Einnahmeströme funktionieren gleichzeitig auf denselben Produktlistings.\n\nDer Wettbewerb um Lernressourcen auf Creative Fabrica ist deutlich geringer als auf etablierten Bildungsplattformen. Gumroad hat Hunderttausende von Käufer-Verkäufern. Etsys Kategorie für praktische Druckvorlagen ist zunehmend gesättigt. Creative Fabricas Bildungsmarkt-Bereich ist vergleichsweise neu, was bedeutet, dass frühe Teilnehmer Sichtbarkeit aufbauen und Bewertungen sammeln können, bevor die Kategorie überfüllt wird. Für Verkäufer, die bereits Lernmaterialien erstellen, erfordert das Hinzufügen von Creative Fabrica als Vertriebskanal minimalen zusätzlichen Aufwand, da dieselben PDF-Dateien plattformübergreifend funktionieren.\n\nDieser Leitfaden behandelt alles von der Erstellung Ihres Designer-Kontos bis zur Skalierung eines kategorieübergreifenden Creative Fabrica-Geschäfts. Ob Sie ein etablierter Verkäufer auf anderen Plattformen sind, der diversifizieren möchte, oder ein neuer Druckvorlagen-Ersteller, der seinen ersten Marktplatz wählt — Creative Fabricas Kombination aus designfokussierter Auffindbarkeit, Abonnement-Einnahmen und geringerem Wettbewerb macht es zu einer überzeugenden Plattform für Lernressourcen.',

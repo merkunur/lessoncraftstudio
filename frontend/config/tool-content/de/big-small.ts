@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Größenvergleich-Arbeitsblätter für Kinder',
+    primaryKeyword: 'kostenloser Größenvergleich-Generator',
     secondaryKeywords: [
-      'groß und klein Arbeitsblätter für Vorschule',
-      'Größenvergleich-Ersteller für die Klasse',
-      'druckbare Größenanordnung für Kinder',
-      'groß klein mittel Arbeitsblätter für Kindergarten',
+      'Größenvergleich-Arbeitsblätter kostenlos erstellen',
+      'Groß-Klein-Generator online ohne Anmeldung',
+      'kostenloser Größenanordnung-Ersteller für Kinder',
+      'Größenvergleich-Übungen online erstellen und drucken',
     ],
     lsiKeywords: [
-      'visuelle Größenunterscheidung Arbeitsblatt',
+      'visuelle Größenunterscheidung zum Ausdrucken',
       'textfreie Größenvergleich-Arbeitsblätter',
-      'groß klein Anordnung Aktivität für Vorschule',
+      'groß klein mittel Sortierübungen für Vorschule',
     ],
-    titleTag: 'Größenvergleich Arbeitsblätter — Für Kinder',
-    metaDescription: 'Größenvergleich-Arbeitsblätter für Kindergarten und Vorschule erstellen. Fünf Fragetypen, textfreie Ausgabe, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Größenvergleich-Generator | LCS',
+    metaDescription: 'Kostenloser Größenvergleich-Generator mit fünf Fragetypen und zwei Bildmodi. Textfrei, 104 Themen, ohne Anmeldung. Lizenz für kommerziellen Verkauf verfügbar.',
     },
 
   hero: {
-    title: 'Groß-Klein-Arbeitsblatt-Generator',
+    title: 'Größenvergleich-Arbeitsblätter kostenlos erstellen online',
     tagline: 'Größenvergleich-Arbeitsblätter mit fünf Fragetypen, zwei Bildmodi und vollständig visueller textfreier Ausgabe erstellen — weltweit verkaufbar ohne Übersetzung',
-    description: 'Erstellen Sie professionelle Größenvergleich-Arbeitsblätter, bei denen Nutzer größere, kleinere und mittelgroße Bilder identifizieren oder nach Größe sortieren. Fünf Fragetypen decken jede Größenunterscheidungs-Fähigkeit ab: Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummeriere 1–2–3 Klein nach Groß und Nummeriere 1–2–3 Groß nach Klein. Zwei Bildmodi erzeugen grundsätzlich verschiedene Übungen aus demselben Tool: Der Identische-Bilder-Modus zeigt dasselbe Bild in verschiedenen Größen für reine Größenwahrnehmung, während der Verschiedene-Bilder-Modus unterschiedliche Objekte in verschiedenen Größen zeigt für relatives Größendenken. Stellen Sie 1–10 Übungen pro Seite mit 2 oder 3 Bildern pro Übung ein — zwei Bilder für einfache Größer/Kleiner-Vergleiche, drei Bilder für die Mittlere-Option und anspruchsvollere Sortieraufgaben. Jedes Arbeitsblatt ist vollständig visuell mit null Text auf der Ausgabe. Keine Wörter erscheinen auf der generierten Seite — nur Bilder und visuelle Indikatoren. Das macht Ihre Arbeitsblätter universell einsetzbar unabhängig von Sprache, Lesestufe oder Alphabetisierungsgrad und universell verkaufbar ohne Übersetzung. Ein Produktangebot bedient jeden Markt weltweit. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Der automatisch generierte Lösungsschlüssel hebt die richtigen Antworten hervor und kreist sie ein zur sofortigen Überprüfung. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Das Tool ist nicht sprachabhängig — die rein visuelle Ausgabe ändert sich nicht je nach Sprache; nur die Oberflächenbeschriftungen werden übersetzt. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Größenvergleich-Arbeitsblätter mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Software-Download. Fünf Fragetypen decken jede Größenunterscheidungs-Fähigkeit ab: Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummeriere Klein nach Groß und Nummeriere Groß nach Klein. Zwei Bildmodi erzeugen verschiedene Übungen: Identische Bilder in verschiedenen Größen für reine Größenwahrnehmung und verschiedene Bilder für relatives Größendenken. Stellen Sie 1–10 Übungen pro Seite ein. Die Arbeitsblätter sind vollständig visuell mit null Text auf der Ausgabe. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen. Ein automatisch generierter Lösungsschlüssel hebt die richtigen Antworten hervor. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

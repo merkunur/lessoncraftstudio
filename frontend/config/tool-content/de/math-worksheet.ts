@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mathe-generator',
+    primaryKeyword: 'kostenloser Mathe-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Algebra-Bilderrätsel-Ersteller für Verkäufer',
-      'Algebra-Puzzle-Arbeitsblätter online erstellen',
-      'druckbare Mathe-Rätsel-Arbeitsblätter mit Bildern',
-      'Gleichungsrätsel-Generator für KDP',
+      'Mathe-Arbeitsblatt Generator kostenlos online',
+      'Algebra-Bilderrätsel erstellen ohne Anmeldung',
+      'Mathe-Rätsel-Arbeitsblätter sofort nutzen',
+      'kostenlose Algebra-Bilderrätsel mit Variablen',
     ],
     lsiKeywords: [
-      'visuelle Algebra-Druckvorlagen für Etsy',
-      'Bildsymbol-Gleichungs-Arbeitsblatt-Tool',
-      'Bildvariablen-Mathe-Aktivitäten Generator',
+      'visuelle Algebra-Gleichungs-Arbeitsblätter',
+      'Bildsymbol-Variablen Mathe-Rätsel',
+      'Bildvariablen-Gleichungssysteme Generator',
     ],
-    titleTag: 'Mathe-Generator | Algebra-Bilderrätsel erstellen',
-    metaDescription: 'Algebra-Bilderrätsel mit Bildsymbolen als Variablen erstellen. Vier Schwierigkeitsstufen, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Mathe-Arbeitsblatt Generator | LCS',
+    metaDescription: 'Kostenloser Mathe-Arbeitsblatt Generator — Algebra-Bilderrätsel mit Bildsymbolen als Variablen online erstellen. Testversion mit Wasserzeichen verfügbar.',
   },
 
   hero: {
-    title: 'Mathe-Arbeitsblatt-Generator',
+    title: 'Mathe-Arbeitsblatt Generator — Algebra-Bilderrätsel erstellen',
     tagline: 'Visuelle Algebra-Bilderrätsel mit Bildsymbolen als Variablen in unter 60 Sekunden erstellen',
-    description: 'Gehen Sie über Standard-Rechenaufgaben hinaus mit Algebra-Bilderrätseln, die Nutzer zum Denken in Gleichungssystemen herausfordern. Jedes Arbeitsblatt präsentiert verknüpfte Gleichungen, in denen Bilder unbekannte Variablen ersetzen — Nutzer müssen den numerischen Wert bestimmen, den jedes Bild darstellt. Vier Schwierigkeitsstufen skalieren von zwei Symbolen mit einfacher Addition bis zu vier simultanen Unbekannten mit gemischten Rechenarten. Ein integrierter algebraischer Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat — keine Mehrdeutigkeit, kein Raten. Wählen Sie Nur Addition für gezieltes Üben oder Addition & Subtraktion für fortgeschrittenes Problemlösen. Legen Sie den Zahlenbereich fest, aktivieren Sie negative Ergebnisse für ältere Lernende und steuern Sie die Rätsel pro Seite von 1 bis 6 mit automatischem Layout. Wählen Sie Bilder einzeln aus, laden Sie ein komplettes Themenset oder laden Sie eigene PNG- oder JPEG-Dateien für markentypische Puzzles hoch. Da Rätsel ausschließlich Bilder und Zahlen verwenden, funktionieren sie identisch in jeder Sprache — verkaufen Sie dasselbe PDF weltweit ohne Übersetzung. Download als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Unser kostenloser Mathe-Arbeitsblatt Generator erstellt Algebra-Bilderrätsel mit Bildsymbolen als Variablen — direkt im Browser, ohne Anmeldung und ohne Installation. Jedes Arbeitsblatt präsentiert verknüpfte Gleichungen, in denen Bilder unbekannte Variablen ersetzen — Nutzer müssen den numerischen Wert bestimmen, den jedes Bild darstellt. Vier Schwierigkeitsstufen skalieren von zwei Symbolen mit einfacher Addition bis zu vier simultanen Unbekannten mit gemischten Rechenarten. Ein integrierter algebraischer Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat. Wählen Sie Nur Addition für gezieltes Üben oder Addition und Subtraktion für fortgeschrittenes Problemlösen. Legen Sie den Zahlenbereich fest, aktivieren Sie negative Ergebnisse und steuern Sie die Rätsel pro Seite von 1 bis 6 mit automatischem Layout. Da Rätsel ausschließlich Bilder und Zahlen verwenden, funktionieren sie identisch in jeder Sprache. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {

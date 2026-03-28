@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fehlende-puzzleteile-generator',
+    primaryKeyword: 'Fehlende-Teile-Rätsel KDP Beschäftigungsbücher',
     secondaryKeywords: [
-      'druckbarer Puzzleteil-Rätsel-Generator für Etsy-Verkäufer',
-      'Fehlende-Teile-Arbeitsblatt-Generator für KDP-Verleger',
-      'visueller Puzzle-Ersteller kommerzielle Lizenz',
-      'Puzzleteil-Rätsel auf Gumroad verkaufen',
+      'Puzzleteil-Rätsel-Generator für Etsy-Verkäufer',
+      'Fehlende-Puzzleteile Druckvorlagen erstellen KDP',
+      'Jigsaw-Puzzle-Arbeitsblätter verkaufen kommerzielle Lizenz',
+      'visueller Puzzle-Ersteller mit Lösungsschlüssel',
     ],
     lsiKeywords: [
-      'digitale Puzzle-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Fehlende-Puzzleteile-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft visuelle Rätsel Werkzeuge',
+      'Printable-Business Puzzle-Rätsel Druckvorlagen erstellen',
+      'Fehlende-Teile Arbeitsblatt verkaufen Etsy KDP',
+      'Beschäftigungsbuch Puzzleteile Generator',
     ],
-    titleTag: 'Fehlende-Puzzleteile-Generator | Puzzle-Rätsel',
-    metaDescription: 'Fehlende-Puzzleteile-Rätsel erstellen und auf Etsy, KDP verkaufen. 6 Teilformen, 1–5 fehlende Teile, 104 Themen. Kostenlos testen mit Wasserzeichen verfügbar.',
+    titleTag: 'Fehlende-Teile-Rätsel für KDP erstellen | LCS',
+    metaDescription: 'Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher erstellen. 6 Teilformen, bis zu 5 fehlende Teile, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Fehlende-Puzzleteile-Generator für Jigsaw-Puzzle-Rätsel',
+    title: 'Fehlende-Teile-Rätsel-Generator für KDP-Beschäftigungsbücher',
     tagline: 'Erstellen Sie Puzzle-Rätsel im Jigsaw-Stil, bei denen Teile aus Bildern ausgeschnitten werden und die korrekte nummerierte Option identifiziert werden muss — mit 6 Teilformen, 1–5 fehlenden Teilen, 2–6 Lösungsoptionen inklusive Distraktoren, automatisch generierten Lösungsschlüsseln und rein visuellem Design, das in jeder Sprache funktioniert.',
     description:
-      'Erstellen Sie professionelle Puzzleteil-Rätsel, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Teileextraktions-Algorithmus findet visuell unterscheidbare Bereiche mit ausreichender Farbvarianz und stellt sicher, dass jedes Rätsel lösbar und ansprechend ist. Wählen Sie aus 6 Teilformen — Quadrat, Kreis, Rechteck Hochformat, Rechteck Querformat, Ellipse Hochformat und Ellipse Querformat — und konfigurieren Sie den Schwierigkeitsgrad mit 1–5 fehlenden Teilen und 2–6 Lösungsoptionen, die Ablenkungsteile enthalten, um die visuelle Unterscheidungsfähigkeit zu fordern. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen innerhalb jedes Lochs, die die korrekte Option anzeigen. Der automatisch generierte Header rendert \"Fehlende Puzzleteile\" in Türkis (#06B6D4) mit einer rosafarbenen Beschreibung (#DB2777) über ein Doppelrahmen-System — blaugrüner äußerer Rahmen (#14B8A6, 8px) und pinkfarbener innerer Rahmen (#EC4899, 3px) — lokalisiert in allen 11 unterstützten Sprachen. Fehlende Puzzleteile ist NICHT sprachabhängig: Die Rätsel sind rein visuell ohne sprachabhängige Inhalte, sodass jedes Rätsel weltweit identisch funktioniert — ideal für den globalen Marktplatz-Verkauf ohne Übersetzungsaufwand. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Puzzle-Arbeitsbücher für Amazon KDP zusammenstellen oder Rätsel-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Puzzleteil-Rätsel in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher oder als Etsy-Druckvorlagen erstellen? Dieser Generator erzeugt Puzzle-Rätsel, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Algorithmus findet visuell unterscheidbare Bereiche mit ausreichender Farbvarianz. Wählen Sie aus 6 Teilformen — Quadrat, Kreis, Rechteck und Ellipse in Hoch- und Querformat — und konfigurieren Sie den Schwierigkeitsgrad mit 1–5 fehlenden Teilen und 2–6 Lösungsoptionen inklusive Ablenkungsteilen. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen. Die rein visuelle Ausgabe ohne sprachabhängige Inhalte ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

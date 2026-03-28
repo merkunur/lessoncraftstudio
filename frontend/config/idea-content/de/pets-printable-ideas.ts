@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'haustiere-druckvorlagen-ideen',
+    primaryKeyword: 'Haustier-Druckvorlagen auf Etsy verkaufen',
     secondaryKeywords: [
       'Hunde-Katzen-Arbeitsblätter auf Etsy erstellen',
       'Haustier-Druckvorlagen auf KDP verkaufen',
@@ -14,12 +14,12 @@ const content: IdeaContent = {
       'Hund-Katze-Bildungsthema Arbeitsblätter',
       'Tierliebe Ganzjahres-Nische Etsy-Verkauf',
     ],
-    titleTag: 'Haustiere-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Haustier-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Hunde-, Katzen- und Kleintier-Produktkonzepte mit Plattformstrategien für Druckvorlagen-Verkäufer.',
+    titleTag: 'Haustier-Druckvorlagen für Etsy | LCS',
+    metaDescription: 'Haustier-Druckvorlagen auf Etsy verkaufen — Hunde, Katzen und Kleintiere als profitable Nische. Produktideen, Plattformstrategien und Preistipps für Verkäufer.',
   },
   hero: {
-    title: 'Haustier-Druckvorlagen: Geschäftsideen für Verkäufer',
-    description: 'Haustiere nehmen eine einzigartig starke Position im Markt für lehrreiche Druckvorlagen ein, denn nahezu jedes Kind hat eine persönliche Verbindung zu Tieren im eigenen Zuhause. Ob eine Familie einen Hund, eine Katze, einen Hamster oder einen Goldfisch besitzt — Kinder fühlen sich ganz natürlich zu Lernmaterialien hingezogen, die vertraute Geschöpfe zeigen, die sie täglich sehen und mit denen sie interagieren. Diese emotionale Bindung erzeugt eine starke Kaufbereitschaft bei Eltern, die die Begeisterung ihres Kindes für Haustiere mit strukturiertem Lernen verbinden möchten. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad bietet das Haustier-Thema massive ganzjährige Nachfrage, vielfältige Artenvariation für Produktdifferenzierung und altersübergreifende Attraktivität von Kleinkindern bis zur Grundschule. Dieser Leitfaden liefert konkrete Produktideen, Plattformstrategien und Nischen-Positionierungshinweise, um mit unseren Arbeitsblatt-Generator-Werkzeugen ein profitables Haustier-Druckvorlagen-Geschäft aufzubauen.',
+    title: 'Haustier-Druckvorlagen auf Etsy verkaufen',
+    description: 'Haustier-Druckvorlagen auf Etsy verkaufen bietet eine einzigartig starke Position im Markt für lehrreiche Druckvorlagen, denn nahezu jedes Kind hat eine persönliche Verbindung zu Tieren im eigenen Zuhause. Ob eine Familie einen Hund, eine Katze, einen Hamster oder einen Goldfisch besitzt — Kinder fühlen sich ganz natürlich zu Lernmaterialien hingezogen, die vertraute Geschöpfe zeigen, die sie täglich sehen und mit denen sie interagieren. Diese emotionale Bindung erzeugt eine starke Kaufbereitschaft bei Eltern, die die Begeisterung ihres Kindes für Haustiere mit strukturiertem Lernen verbinden möchten. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad bietet das Haustier-Thema massive ganzjährige Nachfrage, vielfältige Artenvariation für Produktdifferenzierung und altersübergreifende Attraktivität von Kleinkindern bis zur Grundschule. Dieser Leitfaden liefert konkrete Produktideen, Plattformstrategien und Nischen-Positionierungshinweise, um mit unseren Arbeitsblatt-Generator-Werkzeugen ein profitables Haustier-Druckvorlagen-Geschäft aufzubauen.',
   },
   marketOverview: `Die Nische der Haustier-Druckvorlagen profitiert von einer einfachen, aber wirkungsvollen Marktdynamik: Haustiere sind das persönlich relevanteste Tierthema für Kinder. Während Bauernhoftiere und Meerestiere interessant sind, sind Haustiere die Tiere, mit denen Kinder tatsächlich zusammenleben, die sie versorgen und die sie lieben. Diese persönliche Verbindung verwandelt die Arbeitsblattzeit von einer abstrakten Übung in eine Aktivität mit ihren liebsten Begleitern — und genau das ist der Grund, warum Eltern und Käufer gezielt nach haustier-thematischen Lernmaterialien suchen.
 

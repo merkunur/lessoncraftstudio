@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'raster-puzzle-ersteller',
+    primaryKeyword: 'kostenloser Gitter-Zuordnungsrätsel Ersteller',
     secondaryKeywords: [
-      'Raster-Puzzle-Ersteller für Verkäufer',
-      'Bilder-Rasterpuzzle online erstellen und verkaufen',
-      'druckbare Kachel-Zuordnungs-Arbeitsblätter kommerziell erstellen',
-      'Raster-Puzzle-Generator mit konfigurierbarem Raster und automatischem Lösungsschlüssel für KDP',
+      'Gitter-Zuordnungsrätsel kostenlos erstellen',
+      'Raster-Puzzle-Generator online ohne Anmeldung',
+      'kostenlose Kachel-Zuordnungs-Arbeitsblätter erstellen',
+      'Gitter-Zuordnung Ersteller mit Lösungsschlüssel kostenlos',
     ],
     lsiKeywords: [
-      'Einzelbild-Raster-Kachel-Zuordnungs-Tool',
-      'Auto-Lösungsschlüssel nummerierte Kreis-Overlays Generator',
-      'konfigurierbarer Hinweiszellen-Schwierigkeitsgrad Raster-Ersteller',
+      'Raster-Puzzle Kachel-Zuordnung Arbeitsblätter',
+      'Hinweiszellen räumliches Denken Rätsel',
+      'Einzelbild-Raster-Puzzle Generator',
     ],
-    titleTag: 'Raster-Puzzle-Ersteller | Bilder-Rasterpuzzle',
-    metaDescription: 'Raster-Puzzle-Arbeitsblätter mit Raster 2×2 bis 4×4 und Hinweiszellen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Gitter-Zuordnung Generator | LCS',
+    metaDescription: 'Kostenloser Gitter-Zuordnung Generator: Raster-Puzzle mit 2×2 bis 4×4 und Lösungsschlüssel online erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Raster-Puzzle-Ersteller',
+    title: 'Gitter-Zuordnungsrätsel kostenlos erstellen online',
     tagline: 'Einzelbild-Raster-Puzzle-Generator mit konfigurierbaren Rastergrößen von 2×2 bis 4×4, einstellbaren Hinweiszellen für skalierbare Schwierigkeit, Fisher-Yates-Kachel-Zufallsverteilung, automatisch generierten Lösungsschlüsseln mit nummerierten Kreis-Overlays und 104 thematischen Bildsammlungen für Raster-Puzzle-Arbeitsblätter, die weltweit verkaufen',
-    description: 'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter, bei denen ein einzelnes Bild in ein Raster von Kacheln geteilt wird und Lernende nummerierte Kacheln ihren richtigen Positionen zuordnen — ein räumliches Denkpuzzle aus einem einzigen Bild. Konfigurieren Sie das Raster von 2×2 bis 4×4 (2–4 Zeilen × 2–4 Spalten, Standard 3×3) für Puzzles von 4 bis 16 Kacheln. Stellen Sie 1–5 Hinweiszellen ein (Standard 1), die auf dem Arbeitsblatt sichtbar bleiben als Hinweise — weniger Hinweise bedeuten schwierigere Puzzles, mehr Hinweise erzeugen zugängliche Aufgaben für Einsteiger. Die App mischt versteckte Kacheln per Fisher-Yates-Zufallsverteilung und zeigt sie in einer nummerierten Palette neben oder unter dem Raster an, sodass jede Generierung eine andere Kachelanordnung erzeugt, selbst bei gleichem Bild und gleichen Einstellungen. Lernende untersuchen die sichtbaren Hinweiszellen, studieren die nummerierten Kacheln in der Palette und bestimmen, welche Nummer in jede leere Rasterposition gehört. Das Doppel-Canvas-System generiert gleichzeitig ein Arbeitsblatt-Tab und ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das vollständige ungeschnittene Bild mit nummerierten Kreisen überlagert auf jeder Rasterzelle (gelber Hintergrund #ffffe0, schwarzer Umriss, Fredoka-Schrift), die genau anzeigen, welche Palettennummer zu welcher Position gehört. Das responsive Layout passt sich automatisch an: Hochformat-Seiten platzieren das Raster oben (45 % Höhe) mit der Palette darunter; Querformat-Seiten positionieren das Raster links (48 % Breite) mit der Palette rechts. Eine gestaltete Kopfzeile erscheint mit cyanfarbenem Hintergrund (#00BCD4), dunkellila Titel (#6A1B9A) und orangem Rahmen (#FF8C42) mit der Anzeige \"Raster-Puzzle\" und Anweisungen in der gewählten Sprache. Raster-Puzzle ist NICHT sprachabhängig — die Puzzle-Ausgabe ist rein visuell ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst, was jedes Arbeitsblatt universell verkaufbar über alle Märkte macht ohne Übersetzung. Durchstöbern Sie 104 Themensammlungen mit über 3.100 Illustrationen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder für personalisierte Raster-Puzzles hoch. Wenden Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schritt 0,05) an. Exportieren Sie vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI. Wählen Sie Letter, A4 oder benutzerdefinierte Seitengrößen mit Graustufen-Umschaltung für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit 7 Schriftarten, Textumriss 0–10, Ausrichtungswerkzeugen, Ebenen, Sperren/Entsperren, Zoom 25 %–300 % und Rückgängig/Wiederherstellen bis zu 20 Zustände. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Gitter-Zuordnungsrätsel kostenlos mit unserem Gitter-Zuordnung Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Ein einzelnes Bild wird in ein konfigurierbares Raster von 2×2 bis 4×4 Kacheln geteilt, und die Aufgabe besteht darin, nummerierte Kacheln ihren richtigen Positionen zuzuordnen. Stellen Sie 1–5 Hinweiszellen ein, die sichtbar bleiben — weniger Hinweise bedeuten schwierigere Puzzles. Die Fisher-Yates-Zufallsverteilung erzeugt bei jeder Generierung eine andere Kachelanordnung. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit nummerierten Kreis-Overlays. Die Puzzles sind rein visuell und universell einsetzbar ohne Übersetzung. Über 3.100 Illustrationen aus 104 Themen stehen zur Verfügung. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Rätsel zu verkaufen.',
   },
 
   tutorial: {

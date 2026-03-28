@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'algebra-bilderrätsel-generator',
+    primaryKeyword: 'Mathe-Arbeitsblatt-Generator für Etsy und KDP Verkäufer',
     secondaryKeywords: [
-      'druckbare Gleichungsrätsel-Arbeitsblätter für Etsy',
-      'Algebra-Puzzle-Generator für KDP-Verleger',
-      'Bilder-Algebra-Arbeitsblätter auf Gumroad verkaufen',
-      'Algebra-Rätsel-Druckvorlagen kommerzielle Lizenz',
-      'Gleichungssystem-Arbeitsblätter mit Bildern erstellen',
+      'Algebra-Bilderrätsel für Etsy-Shop erstellen',
+      'Gleichungsrätsel-Arbeitsblätter für Amazon KDP',
+      'Mathe-Druckvorlagen gewerbliche Lizenz',
+      'Bilderrätsel-Mathe-Generator für Eduki verkaufen',
+      'Rechenaufgaben-Arbeitsblätter für Online-Verkauf',
     ],
     lsiKeywords: [
-      'digitale Algebra-Rätsel-Produkte skalierbares Einkommen',
-      'Gleichungsrätsel-Arbeitsblatt-Geschäft Druckvorlagen',
-      'kommerzieller Algebra-Bilderätsel-Generator',
+      'Algebra-Bilderrätsel Gleichungssystem druckfertig',
+      'Mathe-Arbeitsblattgenerator DACH-Markt',
+      'Lösungsschlüssel Schwierigkeitsstufen kommerzielle Nutzung',
     ],
-    titleTag: 'Algebra-Bilderrätsel-Generator | Gleichungen',
-    metaDescription: 'Algebra-Bilderrätsel erstellen und auf Etsy, KDP verkaufen. Bilder als Variablen, 4 Schwierigkeitsstufen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mathe-Arbeitsblatt-Generator für Verkäufer | LCS',
+    metaDescription: 'Erstellen Sie Mathe-Arbeitsblätter mit Bilderrätsel-Gleichungen zum Verkauf auf Etsy & KDP. 4 Schwierigkeitsstufen, gewerbliche Lizenz. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Algebra-Bilderätsel-Arbeitsblatt-Generator für bildbasiertes Gleichungslösen',
+    title: 'Mathe-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen',
     tagline: 'Verwandeln Sie frühe Algebra in ein visuelles Abenteuer — Bilder werden zu Variablen in verknüpften Gleichungen, und jedes Rätsel hat garantiert genau eine korrekte Lösung.',
     description:
-      'Erstellen Sie fesselnde algebraische Bilderätsel-Arbeitsblätter, bei denen Bilder als unbekannte Variablen in verknüpften Gleichungssystemen dienen. Die Nutzer analysieren ein System aus mehreren Gleichungen, um den numerischen Wert jedes Bildsymbols zu ermitteln — so wird abstrakte Algebra zu einem greifbaren, visuellen Erlebnis. Wählen Sie aus vier Schwierigkeitsstufen: Sehr Leicht und Leicht verwenden zwei Bildsymbole, Mittel führt drei ein, und Schwer fordert die Nutzer mit vier gleichzeitigen Unbekannten heraus. Entscheiden Sie sich für reine Additions-Aufgaben oder mischen Sie Addition und Subtraktion für fortgeschrittenes Üben, und passen Sie den Zahlenbereich von 0 bis 20 an — mit optionalem Schalter für negative Ergebnisse. Der integrierte algebraische Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat — keine Mehrdeutigkeit, kein Raten. Durchstöbern Sie über 3.100 kuratierte Illustrationen in 104 Themen wie Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier und Feiertage, die als algebraische Symbole in Ihren Gleichungen dienen, oder laden Sie eigene PNG- oder JPEG-Bilder für einen markenspezifischen Look hoch. Platzieren Sie 1 bis 6 Rätsel pro Seite mit automatischer Hoch- oder Querformat-Optimierung für perfekte Raumnutzung. Jedes Arbeitsblatt generiert automatisch einen Lösungsschlüssel, der den numerischen Wert jedes Bildsymbols enthüllt, und Sie können ihn als separate Datei neben dem Nutzer-Arbeitsblatt herunterladen. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen — mit optionalem Graustufen-Modus für tintenfreundliche Versionen. Ob Sie thematische Rätsel-Pakete auf Etsy.de verkaufen, progressive Algebra-Aktivitätsbücher für Amazon KDP zusammenstellen, gestufte Mathe-Stationen auf Gumroad anbieten oder individuelle Rätsel für Ihre Ihr Geschäftschüler erstellen — der Algebra-Bilderätsel-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Als Mathe-Arbeitsblatt-Generator für Etsy und KDP Verkäufer liefert dieses Tool ein Produktformat, das sich deutlich von gewöhnlichen Rechenübungen abhebt: Bilder ersetzen Variablen in verknüpften Gleichungssystemen, und Käufer ermitteln durch logisches Denken den Wert jedes Symbols. Vier Schwierigkeitsstufen — von zwei bis vier gleichzeitigen Unbekannten — ermöglichen progressive Arbeitsblatt-Pakete und gestufte Aktivitätsbücher für Amazon KDP. Wählen Sie aus über 3.100 Illustrationen in 104 Themen, platzieren Sie 1 bis 6 Rätsel pro Seite und exportieren Sie druckfertige PDFs mit über 400 DPI inklusive automatischem Lösungsschlüssel. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf auf Etsy, KDP, Gumroad und Eduki — ideal für den wachsenden DACH-Markt für hochwertige Mathe-Druckvorlagen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'mathe-aktivitätsbücher für kdp erstellen',
+    primaryKeyword: 'Mathe-Übungshefte für Amazon KDP erstellen',
     secondaryKeywords: [
-      'Mathe-Aktivitätsbücher für Amazon KDP erstellen Anleitung',
-      'KDP Mathe-Arbeitsbuch Veröffentlichungs-Leitfaden',
-      'Mathe-Aktivitätsbücher auf Amazon veröffentlichen',
-      'Amazon KDP Mathe-Arbeitsblatt-Buch',
+      'KDP Mathe-Arbeitsbuch veröffentlichen Anleitung',
+      'Mathe-Aktivitätsbücher auf Amazon drucken lassen',
+      'Amazon KDP Mathe-Arbeitsblatt-Buch Tantiemen',
+      'Mathe-Übungsheft Print-on-Demand erstellen',
     ],
     lsiKeywords: [
-      'KDP Manuskript Formatierung Beschnittgröße Aktivitätsbuch Innenseiten',
-      'Amazon Buchcover Design Rückenbreite Rechner Vorlage',
-      'KDP Keyword Optimierung Browse-Kategorien Mathe-Bücher',
+      'KDP Manuskript Formatierung Beschnittgröße Innenseiten',
+      'Buchcover Design Rückenbreite Rechner Amazon',
       'Print-on-Demand Tantiemen Preisstrategie Aktivitätsbücher',
-      'Mathe-Arbeitsbuch Seitenzahl Schwierigkeitssteigerung Lösungsschlüssel',
-      'KDP Veröffentlichung Überprüfungsprozess Korrekturexemplar Autorenexemplare',
     ],
-    titleTag: 'Mathe-Aktivitätsbücher für KDP erstellen — Leitfaden',
-    metaDescription: 'Erfahren Sie, wie Sie Mathe-Aktivitätsbücher für KDP erstellen und Tantiemen verdienen. Manuskript-Formatierung, Cover-Design und Amazon-Keyword-Optimierung.',
+    titleTag: 'Mathe-Übungshefte für Amazon KDP | LCS',
+    metaDescription: 'Mathe-Übungshefte für Amazon KDP erstellen: Manuskript-Formatierung, Cover-Design, Keyword-Optimierung und Preisstrategien für maximale Tantiemen pro Verkauf.',
   },
 
   hero: {
-    title: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen',
+    title: 'Mathe-Übungshefte für Amazon KDP erstellen und verkaufen',
     tagline: 'Ein vollständiger Veröffentlichungs-Leitfaden zum Erstellen und Verkaufen von Mathe-Aktivitätsbüchern auf Amazon KDP — einschließlich Manuskript-Formatierung mit korrekten Beschnittgrößen und Rändern, Buchcover-Design mit Rückenbreitenberechnung, Amazon-Keyword-Optimierung über alle 7 Keyword-Felder, Browse-Kategorie-Auswahl für maximale Auffindbarkeit, Tantiemen-Preisstrategie bei der 35-Prozent- und 60-Prozent-Stufe, Inhaltsplanung mit Schwierigkeitssteigerung über 40 bis 80 Innenseiten, Lösungsschlüssel-Platzierung, Print-on-Demand-Wirtschaftlichkeit, Korrekturexemplar-Bestellung und Aufbau einer Serie verwandter Mathe-Arbeitsbücher, die sich gegenseitig auf Amazon bewerben',
-    description: 'Amazon KDP ermöglicht es Ihnen, Print-on-Demand-Mathe-Aktivitätsbücher ohne Vorabdruckkosten und ohne Lagerverwaltung zu veröffentlichen. Dieser Leitfaden führt Sie durch jeden Schritt der Erstellung eines professionellen Mathe-Arbeitsbuchs — vom Generieren vielfältiger Mathe-Inhalte mit 5 spezialisierten Arbeitsblatt-Generatoren über Manuskript-Formatierung und Cover-Design bis zur Optimierung Ihres Amazon-Angebots für Suchauffindbarkeit und Preisgestaltung zur Maximierung Ihrer Tantiemen. Ob Sie Ihr erstes Aktivitätsbuch veröffentlichen oder einen bestehenden Katalog erweitern — dieser Leitfaden behandelt die KDP-spezifischen Arbeitsabläufe, die sich grundlegend vom Verkauf einzelner digitaler Downloads auf Marktplätzen wie Etsy unterscheiden.',
+    description: 'Mathe-Übungshefte für Amazon KDP erstellen — dieser Leitfaden führt Sie durch den kompletten Veröffentlichungsprozess von der ersten Inhaltsplanung bis zum optimierten Amazon-Listing. Amazon KDP ermöglicht Ihnen, Print-on-Demand-Aktivitätsbücher ohne Vorabdruckkosten und ohne Lagerverwaltung zu veröffentlichen, wobei Amazon den gesamten Druck- und Versandprozess übernimmt. Sie erfahren, wie Sie mit 5 verschiedenen Mathe-Generatoren vielfältige Inhalte erstellen — von Addition und Subtraktion über Multiplikation bis zu Zahlenrätseln — und diese Manuskripte nach KDP-Spezifikationen mit korrekten Beschnittgrößen und Seitenrändern formatieren. Der Leitfaden behandelt professionelles Cover-Design mit Rückenbreitenberechnung, Amazon-Keyword-Optimierung über alle 7 Backend-Felder, Tantiemen-Berechnung bei verschiedenen Preispunkten und den strategischen Aufbau einer Mathe-Buchserie, die sich über Amazons Empfehlungsfunktionen gegenseitig bewirbt.',
   },
 
   introduction: 'Mathe-Aktivitätsbücher gehören zu den beständigsten Verkaufsschlagern auf Amazon KDP. Eltern suchen täglich auf Amazon nach Arbeitsbüchern, die Produkterstellungsinhalte festigen, und Käufer kaufen Aktivitätsbücher für zusätzliches Übungsmaterial. Anders als beim Verkauf einzelner Arbeitsblatt-PDFs auf Etsy bedeutet KDP-Veröffentlichung, ein gebundenes Buch zu erstellen, das Amazon bei jeder Bestellung auf Abruf druckt und versendet. Sie halten nie Lagerbestand, zahlen nie vorab Druckkosten und kümmern sich nie um den Versand — Amazon verwaltet den gesamten Fulfillment-Prozess, während Sie bei jedem Verkauf Tantiemen verdienen.\n\nDie Wirtschaftlichkeit funktioniert anders als bei digitalen Download-Marktplätzen. Auf Etsy legen Sie einen Preis fest und behalten den Großteil nach geringen Angebots- und Transaktionsgebühren. Bei KDP berechnet Amazon Ihre Tantiemen, indem die Druckkosten vom Listenpreis abgezogen werden und dann entweder ein 60-Prozent- oder 35-Prozent-Tantiemsatz angewendet wird, abhängig von Ihrer Preis- und Vertriebswahl. Ein gut kalkuliertes Mathe-Aktivitätsbuch mit 50 bis 60 Innenseiten kann zwischen 2 und 5 Dollar pro Verkauf bei der 60-Prozent-Tantiemenstufe einbringen — und da Amazon den gesamten Fulfillment-Prozess übernimmt, sind diese Tantiemen fast vollständig Gewinn.\n\nDer eigentliche Vorteil von KDP ist Skalierung und Auffindbarkeit. Amazon ist die erste Anlaufstelle für die meisten Eltern und Käufer bei der Suche nach Druckprodukte. Ihr Mathe-Aktivitätsbuch erscheint neben traditionell veröffentlichten Arbeitsbüchern in den Suchergebnissen, und Amazons Empfehlungsalgorithmus kann Ihr Buch Käufern anzeigen, die ähnliche Titel gekauft haben. Der Aufbau eines Katalogs verwandter Mathe-Bücher erzeugt einen Schwungradeffekt, bei dem jeder Titel die anderen durch Amazons Funktionen \"Kunden kauften auch" und \"Wird oft zusammen gekauft" fördert.\n\nDieser Leitfaden behandelt den kompletten Arbeitsablauf von der Inhaltserstellung bis zur Veröffentlichung, unter Verwendung von 5 Arbeitsblatt-Generatoren, die vielfältige Mathe-Aktivitäten für das gebundene Buchformat produzieren. Sie erfahren, wie Sie Seitenzahlen planen, Manuskripte nach KDP-Spezifikationen formatieren, Cover entwerfen, die Amazons Anforderungen erfüllen, Angebote für die Amazon-Suche optimieren und Ihre Bücher für maximale Tantiemen bepreisen. Jeder in diesem Leitfaden erwähnte Generator ist als kostenlose Testversion mit Wasserzeichen verfügbar, sodass Sie alle Funktionen testen können, bevor Sie eine Lizenz erwerben.',

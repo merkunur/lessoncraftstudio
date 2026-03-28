@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'linien-ziehen-generator',
+    primaryKeyword: 'Schwungübungen-Generator Etsy Druckvorlagen',
     secondaryKeywords: [
-      'druckbarer Linienverfolgung-Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Linien-Ziehen-Generator mit SVG-Vorlagen für KDP-Verleger',
-      'Schwungübungen-Arbeitsblätter auf Gumroad verkaufen',
-      'Linienverfolgung-Druckvorlagen kommerzielle Lizenz',
+      'Linien-Ziehen-Arbeitsblätter erstellen und verkaufen',
+      'Feinmotorik-Übungen Generator für KDP-Bücher',
+      'Schwungübungen-Druckvorlagen kommerzielle Lizenz',
+      'Linienverfolgung-Arbeitsblatt-Generator Etsy-Shop',
     ],
     lsiKeywords: [
-      'digitale Linienverfolgung-Druckvorlagen skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Feinmotorik-Schwungübungen',
-      'kommerzieller Linien-Ziehen-Arbeitsblatt-Generator',
+      'Printable-Business Vorschulübungen Feinmotorik',
+      'SVG-Linienvorlagen Schwungübungen verkaufen',
+      'Schreibvorbereitung Druckvorlagen Einkommensquelle',
     ],
-    titleTag: 'Linien-Ziehen-Generator | Schwungübungen',
-    metaDescription: 'Linien-Ziehen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Acht SVG-Vorlagen mit Bildpaar-Zuordnung, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Schwungübungen-Generator für Druckvorlagen | LCS',
+    metaDescription: 'Schwungübungen-Generator für Etsy-Druckvorlagen. 8 SVG-Linienvorlagen, 4 Linientypen für Feinmotorik, 104 Bildthemen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Linien-Ziehen-Arbeitsblatt-Generator für Linienverfolgung und Schwungübungen',
+    title: 'Schwungübungen-Generator — Druckvorlagen für Etsy erstellen',
     tagline: 'Acht SVG-Linienvorlagen — Kurven, Diagonalen, Horizontal und Vertikal — mit 4–5 Bildpaaren pro Seite für Feinmotorik-Entwicklung durch geführtes Linienziehen.',
     description:
-      'Erstellen Sie professionelle Linien-Ziehen-Arbeitsblätter, bei denen Lernende entlang geführter Pfade zeichnen, um zusammengehörige Bildpaare zu verbinden. Acht SVG-basierte Vorlagen decken vier Linientypen ab: Vier Kurvenvorlagen erzeugen fließende Schwungbewegungen, zwei Diagonalvorlagen fördern schräge Strichführung, eine Horizontalvorlage übt geradliniges Links-nach-Rechts-Ziehen und eine Vertikalvorlage trainiert Abwärtsstriche von oben nach unten. Jede Vorlage platziert 4 oder 5 zusammengehörige Bildpaare auf gegenüberliegenden Seiten des Linienpfades, sodass Lernende ein visuelles Ziel an jedem Ende sehen. Die Auto-Füll-Funktion weist zufällig Bildpaare aus dem gewählten Thema oder über alle Themen hinweg zu und befüllt sofort jeden Paarplatz auf der Vorlage. Die Inhalte stammen aus der integrierten Bildbibliothek mit über 3.100 farbigen Illustrationen in 104 Themen — Tiere, Fahrzeuge, Lebensmittel, Natur und Dutzende mehr. Jedes Arbeitsblatt ist rein visuell mit null Text auf der Ausgabe, wodurch es universell einsetzbar ist, unabhängig von Sprache oder Leseniveau. Die Vorlagenauswahl steuert die Seitenausrichtung automatisch: Kurvenvorlagen verwenden Querformat für weitläufige Schwungbewegungen, während Diagonal-, Horizontal- und Vertikalvorlagen Hochformat für fokussierte Übungen nutzen. Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Wichtig: Der Linien-Ziehen-Generator ist nicht sprachabhängig — Arbeitsblätter enthalten ausschließlich Bilder, SVG-Linienpfade und dekorative Rahmen mit null Text auf der Ausgabe, sodass dasselbe Produkt weltweit ohne Übersetzung verkauft werden kann. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsprache, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 farbige Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Für Verkäufer bieten die acht SVG-Vorlagen mit vier Linientypen und automatischer Orientierungsumschaltung ein einzigartiges Produktformat, das sich deutlich von einfachen Mal- oder Nachzeichnungsblättern abhebt. Die vier Kurvenvorlagen erzeugen jeweils unterschiedliche Schwungformen für visuelle Abwechslung. Die verschiedenen Linientypen ermöglichen progressive Schwierigkeitspakete: Beginnen Sie mit geraden Horizontallinien, steigern Sie sich zu Kurven und enden Sie mit Diagonalen für ein vollständiges Feinmotorik-Produktkatalog. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand — ein einziger Erstellungsworkflow bedient jeden Markt weltweit. Ob Sie Linienverfolgung-Pakete auf Etsy.de verkaufen, Feinmotorik-Übungshefte für Amazon KDP zusammenstellen oder Schreibvorbereitung-Lernstationen für den Gumroad erstellen — der Linien-Ziehen-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Schwungübungen als Druckvorlagen auf Etsy oder Amazon KDP verkaufen? Dieser Generator erstellt professionelle Linien-Ziehen-Arbeitsblätter mit acht SVG-basierten Vorlagen in vier Linientypen: Kurven für fließende Schwungbewegungen, Diagonalen für schräge Strichführung, Horizontallinien für Links-nach-Rechts-Übungen und Vertikallinien für Abwärtsstriche. Jede Vorlage platziert 4 oder 5 zusammengehörige Bildpaare auf gegenüberliegenden Seiten des Linienpfades. Die Auto-Füll-Funktion befüllt Paarplätze sofort aus über 3.100 Illustrationen in 104 Themen. Die Vorlagenauswahl steuert die Seitenausrichtung automatisch — Kurven im Querformat, Geraden im Hochformat. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

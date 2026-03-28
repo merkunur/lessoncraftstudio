@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'labyrinth-generator',
+    primaryKeyword: 'Bilder-Labyrinth-Generator Etsy Druckvorlagen',
     secondaryKeywords: [
-      'druckbarer Bilderpfad-Generator für Etsy-Verkäufer',
-      'Labyrinth-Rätsel-Ersteller für KDP-Verleger',
-      'Bilderpfad-Arbeitsblatt-Generator kommerzielle Lizenz',
-      'Labyrinth-Aktivitäten auf Etsy.de und Amazon verkaufen',
+      'Bilderpfad-Arbeitsblätter erstellen und verkaufen',
+      'Labyrinth-Rätsel Generator für KDP-Bücher',
+      'Maze-Druckvorlagen verkaufen kommerzielle Lizenz',
+      'Labyrinth-Aktivitäten Generator mit Lösungspfad',
     ],
     lsiKeywords: [
-      'digitale Labyrinth-Druckvorlagen skalierbares Einkommen',
-      'kommerzieller Bilderpfad-Rätsel-Generator mit Lösungsschlüssel',
-      'Druckvorlagen-Geschäft räumliches Denken Werkzeuge',
+      'Printable-Business Labyrinth-Rätsel Druckvorlagen',
+      'Bilderpfad Arbeitsblatt verkaufen Etsy KDP',
+      'räumliches Denken Druckvorlagen Einkommensquelle',
     ],
-    titleTag: 'Labyrinth-Generator | Bilderpfad-Arbeitsblätter',
-    metaDescription: 'Labyrinth-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 3 Spielmodi, LPF-Algorithmus, 104 Themen, Lösungspfad. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Bilder-Labyrinth-Generator für Druckvorlagen | LCS',
+    metaDescription: 'Bilder-Labyrinth-Generator für Etsy-Druckvorlagen. 3 Spielmodi mit LPF-Algorithmus, automatischer Lösungspfad, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Bilderpfad-Labyrinth-Generator für Pfad- und Labyrinth-Aktivitäten',
+    title: 'Bilder-Labyrinth-Generator — Druckvorlagen für Etsy erstellen',
     tagline: 'Drei Spielmodi in einem Generator — Bilderpfad, Klassisches Labyrinth und Wähle den richtigen Weg — angetrieben vom LPF-Algorithmus (Longest Path First) mit automatisch generierten Lösungsschlüsseln, Wandanpassung und rein visuellem Design, das weltweit ohne Übersetzung funktioniert.',
     description:
-      'Erstellen Sie professionelle Labyrinth- und Bilderpfad-Arbeitsblätter mit drei verschiedenen Spielmodi. Der Bilderpfad-Modus erstellt ein Raster aus Bildern, in dem die korrekte Route vom Start zum Ziel über Pfadbilder zwischen Ablenkungsbildern verfolgt wird. Das Klassische Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus (Longest Path First) und verteilten Sammelbildern — konfigurieren Sie Rastergrößen von 15×15 bis 20×20, setzen Sie 1 bis 3 Pfade mit Sackgassenblockierung und passen Sie Wandfarbe, Wandstärke (1–10px) und Deckkraft (10–100%) an. Wähle den richtigen Weg präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen (unten-nach-oben, oben-nach-unten, links-nach-rechts, rechts-nach-links), bei denen der einzig korrekte Pfad unter Lockvarianten identifiziert werden muss. Jeder Modus generiert einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab — Lösungspfade werden mit rosa Kreisen entlang der korrekten Route hervorgehoben, und der Wähle-den-richtigen-Weg-Modus fügt ein \"✓ KORREKTER WEG\"-Label hinzu. Weisen Sie Bildern fünf verschiedene Rollen zu: Startbild, Zielbild, Pfadbilder, Ablenkungsbilder und Dekoration. Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene Bilder hoch. Der automatisch generierte \"Bilderpfad\"-Header mit orangefarbenem Rahmen zeigt lokalisierte Titel und Anweisungen in allen 11 unterstützten Sprachen. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, aktivieren Sie Namens- und Datumsfelder und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Bilderpfad ist vollständig visuell — Labyrinthe erfordern kein Lesen oder Sprachverständnis, wodurch jedes Arbeitsblatt sofort in jedem Markt weltweit verkaufbar ist. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Ob Sie thematische Labyrinth-Pakete auf Etsy.de verkaufen, Labyrinth-Arbeitsbücher für Amazon KDP zusammenstellen oder räumliches Denken-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Labyrinth-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Sie möchten Labyrinth-Arbeitsblätter als Druckvorlagen auf Etsy oder in KDP-Arbeitsbüchern verkaufen? Dieser Generator bietet drei Spielmodi: Der Bilderpfad-Modus erstellt ein Raster, in dem die korrekte Route über Pfadbilder zwischen Ablenkungsbildern verfolgt wird. Das Klassische Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus und konfigurierbaren Rastergrößen von 15×15 bis 20×20. Der Wähle-den-richtigen-Weg-Modus präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen. Jeder Modus generiert automatisch einen Lösungsschlüssel mit rosa Kreisen entlang der korrekten Route. Weisen Sie Bildern fünf Rollen zu — Start, Ziel, Pfad, Ablenkung und Dekoration — und durchsuchen Sie über 3.100 Illustrationen in 104 Themen. Das rein visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

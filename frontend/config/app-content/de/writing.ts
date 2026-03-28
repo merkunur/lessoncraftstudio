@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schreibübungen-generator',
+    primaryKeyword: 'Schreibübungen-Generator für Etsy-Verkäufer',
     secondaryKeywords: [
-      'druckbare Handschrift-Übungsblätter-Generator für Etsy-Verkäufer',
-      'Schreibübungen-Arbeitsblatt-Generator für KDP-Verleger',
-      'Handschrift-Übungsblätter auf Gumroad verkaufen',
-      'Schreibübungen-Druckvorlagen kommerzielle Lizenz',
+      'Handschrift-Übungsblätter für Etsy-Shop erstellen',
+      'Schreibübungen-Hefte für Amazon KDP',
+      'Buchstaben-Nachspur-Druckvorlagen gewerbliche Lizenz',
+      'Schreibübungen-Arbeitsblätter für Eduki verkaufen',
     ],
     lsiKeywords: [
-      'digitale Handschrift-Übungsprodukte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Buchstaben-Nachspuren-Arbeitsblätter',
-      'kommerzieller Schreibübungen-Generator mit Strichrichtungspfeilen',
+      'Handschrift Strichrichtungspfeile druckfertig 300 DPI',
+      'Schreibübungen-Generator DACH-Markt',
+      'Nachspuren Schreibschrift kommerzielle Nutzung',
     ],
-    titleTag: 'Schreibübungen-Generator | Handschrift-Übungen',
-    metaDescription: 'Schreibübungen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Drei Übungsmodi, fünf Schriftarten, Strichpfeile. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Schreibübungen-Generator für Etsy-Verkäufer | LCS',
+    metaDescription: 'Schreibübungen erstellen und auf Etsy & KDP verkaufen. Drei Übungsmodi, Strichrichtungspfeile, gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Schreibübungen-Arbeitsblatt-Generator für Handschrift-Übungsblätter',
+    title: 'Schreibübungen erstellen und auf Etsy & KDP verkaufen',
     tagline: 'Drei progressive Übungsmodi mit nummerierten Strichrichtungspfeilen und verblassender Buchstabenführung — von vollständigem Nachspuren bis zum eigenständigen Schreiben auf einem einzigen Arbeitsblatt.',
     description:
-      'Erstellen Sie professionelle Schreibübungen-Arbeitsblätter mit drei verschiedenen Übungsmodi, die einen natürlichen Lernfortschritt ermöglichen: Der Nachspur-Modus bietet durchgezogene Buchstabenumrisse, denen Lernende direkt folgen können. Der Verblassende-Nachspur-Modus reduziert die Sichtbarkeit der Buchstaben schrittweise über die Zeile hinweg, um wachsende Eigenständigkeit zu fördern. Der Geführte-Abschrift-Modus zeigt nur einen blassen Umriss für nahezu eigenständiges Schreiben mit minimaler visueller Unterstützung. Wählen Sie aus fünf Schriftarten — Print Regular für Standardbuchstaben, Print Regular Arrow mit nummerierten Strichrichtungspfeilen, Print Tracing für gepunktete Umrisse zum Nachspuren, Print Tracing Arrow mit gepunkteten Umrissen und Strichrichtungspfeilen kombiniert, und Cursive (Great Vibes) für Schreibschriftübungen. Die Strichrichtungspfeile zeigen mit nummerierten Richtungspfeilen exakt, wie jeder Buchstabe geformt wird — Pfeil 1 markiert den Startpunkt, Pfeil 2 den nächsten Strich und so weiter. Diese Pfeilführung unterscheidet ein reines Nachspurblatt von einem echten Lehrmittel für korrekte Buchstabenbildung. Jede Zeile auf dem Arbeitsblatt ist unabhängig konfigurierbar: Mischen Sie Nachspur-Modus für neue Buchstaben, Verblassenden Nachspur-Modus für geübte Buchstaben und Geführte Abschrift zur Wiederholung — alles auf derselben Seite. Vorübungen zur Feinmotorik (senkrechte Linien, waagerechte Linien, Kreise und Zickzack-Linien) bereiten die Hand auf die Buchstabenbildung vor und stärken die grundlegenden motorischen Fähigkeiten. Die Inhaltsquellen sind vielfältig: Die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen bietet den Anfangsbuchstaben-Modus (erster Buchstabe des Bildnamens) und den Ganzer-Name-Modus (vollständiges Wort), oder geben Sie beliebigen eigenen Text ein, oder wählen Sie leere Linien für freies Schreiben. Das Dreizeilen-Führungssystem (Oberlinie, gestrichelte Mittellinie, Grundlinie) hält die Buchstabenproportionen korrekt. Die Vollzugriff-Lizenz schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Wichtig: Der Schreibübungen-Generator ist nicht sprachabhängig — Buchstabenformen, Strichrichtungspfeile und Übungsmodi ändern sich nicht je nach Sprache. Nur die Oberflächenbeschriftung wird übersetzt, und die Bildbibliothek liefert lokalisierte Bildnamen als Inhaltsquellen. Die kommerzielle Lizenz umfasst 10 farbige Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Exportieren Sie druckfertige PDFs und JPEGs mit ca. 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Handschriftübungen erfordern keinen Lösungsschlüssel — die Übungsmodi selbst dienen als Führung. Ob Sie Schreibübungs-Pakete auf Etsy.de verkaufen, Handschrift-Übungshefte für Amazon KDP zusammenstellen oder gestufte Schreibstationen für den Gumroad erstellen — der Schreibübungen-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Der Schreibübungen-Generator für Etsy-Verkäufer erstellt professionelle Handschrift-Arbeitsblätter mit drei progressiven Übungsmodi — Nachspuren, Verblassendes Nachspuren und Geführte Abschrift — die auf einem einzigen Blatt einen vollständigen Lernfortschritt abbilden. Nummerierte Strichrichtungspfeile zeigen exakt, wie jeder Buchstabe geformt wird, und heben Ihre Produkte von einfachen Nachspurblättern ab, die den Markt überschwemmen. Fünf wählbare Schriftarten, darunter Druck- und Schreibschrift, ermöglichen Ihnen die Erstellung vielfältiger Produktlinien für verschiedene Altersgruppen und Lernstufen. Vorübungen zur Feinmotorik — senkrechte Linien, Kreise und Zickzack-Muster — ergänzen Ihre Pakete um eine zusätzliche Produktkategorie, die auf Etsy.de und Amazon KDP separat verkaufbar ist. Die gewerbliche Lizenz und 104 thematische Bildsammlungen mit über 3.100 Illustrationen liefern Ihnen nahezu unbegrenztes Material für Ihr Printable-Business. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Urheberrecht Druckvorlagen-Verkäufer',
+    primaryKeyword: 'Urheberrecht für Druckvorlagen-Verkäufer',
     secondaryKeywords: [
-      'Urheberrechtsschutz Arbeitsblätter',
-      'Druckvorlagen-Geschäft Urheberrecht',
-      'Arbeitsblätter vor Kopieren schützen',
-      'Urheberrecht digitale Produkte',
+      'Arbeitsblätter vor Kopieren schützen Etsy',
+      'schutzfähige Elemente Printable-Produkte',
+      'DMCA-Verfahren Druckvorlagen-Business',
+      'Urheberrechtsverletzung digitale Produkte melden',
     ],
     lsiKeywords: [
-      'geistiges Eigentum Originalwerk Schutz Urheberrechtsregistrierung DMCA Abmahnung',
-      'Fair Use Bildungsmaterial Gemeinfreiheit Urheberrechtsverletzung abgeleitete Werke',
-      'Urheberrechtsvermerk kreative Ausdrucksform schutzfähige Elemente Arbeitsblattdesign Schutz',
-      'originelle Gestaltung digitaler Produktdiebstahl Content-Scraping Marktplatz IP-Schutz',
-      'Urheberrechtsinhaberschaft automatischer Schutz Registrierungsvorteile gesetzliche Schadensersatzansprüche',
-      'kreative Entscheidungen Ausdruck versus Ideen Fakten Standardmethoden Bildungsinhalte',
+      'geistiges Eigentum Originalwerk Registrierung Urheberrechtsvermerk automatischer Schutz',
+      'Fair Use Gemeinfreiheit abgeleitete Werke schutzfähige Elemente kreative Ausdrucksform',
+      'Marktplatz IP-Schutz Content-Scraping Urheberrechtsbewusstsein Konformität',
     ],
-    titleTag: 'Urheberrecht Druckvorlagen-Verkäufer — Grundlagen-Leitfaden',
-    metaDescription: 'Was Druckvorlagen-Verkäufer über Urheberrecht wissen müssen: schutzfähige Elemente, Registrierung, Durchsetzung und Vermeidung von Urheberrechtsverletzungen.',
+    titleTag: 'Urheberrecht für Printable-Verkäufer | LCS',
+    metaDescription: 'Urheberrecht für Druckvorlagen-Verkäufer: schutzfähige Elemente, Registrierung, DMCA-Durchsetzung und Vermeidung von Urheberrechtsverletzungen im Business.',
   },
 
   hero: {
-    title: 'Urheberrechts-Grundlagen für Druckvorlagen-Verkäufer',
+    title: 'Urheberrecht für Druckvorlagen-Verkäufer verstehen',
     tagline: 'Ein vollständiger Leitfaden zum Verständnis des Urheberrechts als Druckvorlagen-Unternehmer — behandelt, was das Urheberrecht bei Arbeitsblättern schützt, was in Bildungsprodukten schutzfähig ist und was nicht, den Schutz Ihrer Originalentwürfe, das Verständnis von Fair Use, die Nutzung gemeinfreier Ressourcen, den Umgang mit Urheberrechtsverletzungen, die Vermeidung von Urheberrechtsfehlern und den Aufbau eines Urheberrechtsbewusstseins in Ihrem Geschäftsbetrieb',
-    description: 'Das Urheberrecht ist der rechtliche Rahmen, der Ihre originelle kreative Arbeit schützt und definiert, was Sie von anderen verwenden dürfen und was nicht. Als Druckvorlagen-Verkäufer ist das Verständnis der Urheberrechts-Grundlagen aus zwei Gründen unverzichtbar: zum Schutz der Arbeitsblätter und Designs, die Sie erstellen, vor unbefugtem Kopieren, und um sicherzustellen, dass Ihre eigenen Produkte nicht die Rechte anderer verletzen. Dieser Leitfaden vermittelt praktisches Urheberrechtswissen speziell für Druckvorlagen-Verkäufer — welche Elemente Ihrer Arbeitsblätter schutzfähig sind, wie Sie Ihre Rechtsposition stärken, was zu tun ist, wenn jemand Ihre Arbeit kopiert, und wie Sie häufige Urheberrechtsfehler vermeiden, die zu Marktplatz-Löschungen oder rechtlicher Haftung führen könnten. Hinweis: Dieser Leitfaden dient der allgemeinen Information und stellt keine Rechtsberatung dar. Konsultieren Sie einen qualifizierten Anwalt für die Beratung in konkreten Einzelfällen.',
+    description: 'Urheberrecht für Druckvorlagen-Verkäufer ist aus zwei Gründen unverzichtbar: zum Schutz Ihrer eigenen Arbeitsblätter vor unbefugtem Kopieren und um sicherzustellen, dass Ihre Produkte nicht die Rechte anderer verletzen. Gerade auf Marktplätzen wie Etsy, Amazon KDP und Eduki, wo das Kopieren digitaler Produkte technisch einfach ist, brauchen Sie fundiertes Urheberrechtswissen als Geschäftsgrundlage. Sie erfahren in diesem Leitfaden, welche Elemente Ihrer Arbeitsblätter schutzfähig sind, wie Sie Ihre Rechtsposition durch Registrierung stärken und was Sie bei Urheberrechtsverletzungen über das DMCA-Verfahren tun können. Außerdem lernen Sie den Unterschied zwischen Ideen und schutzfähiger Ausdrucksform, die sichere Nutzung gemeinfreier Ressourcen und wie Sie häufige Fehler vermeiden, die zu Marktplatz-Löschungen und Kontosperrungen führen. Hinweis: Dieser Leitfaden dient der allgemeinen Information und stellt keine Rechtsberatung dar.',
   },
 
   introduction: 'Viele Druckvorlagen-Verkäufer agieren mit nur einem vagen Verständnis des Urheberrechts, was zwei erhebliche Risiken mit sich bringt. Das erste Risiko ist unzureichender Schutz: Es werden grundlegende Schritte versäumt, die Ihre Rechtsposition stärken würden, wenn jemand unweigerlich Ihre Produkte kopiert. Das zweite Risiko ist übermäßiges Vertrauen: die Annahme, dass alles, was Sie erstellen, automatisch gegen jede Form des Kopierens geschützt ist, oder dass das Hinzufügen eines Copyright-Symbols zu einem Arbeitsblatt jedes Element davon rechtlich unangreifbar macht.\n\nDie Realität des Urheberrechts für Druckvorlagen-Verkäufer ist gestufter als beide Extreme. Das Urheberrecht schützt tatsächlich originelle kreative Ausdrucksformen automatisch ab dem Zeitpunkt der Schöpfung — Sie müssen nichts registrieren oder einreichen, damit ein grundlegender Urheberrechtsschutz besteht. Aber das Urheberrecht schützt keine Ideen, Fakten, Standardmethoden oder übliche Gestaltungen. Ein bestimmtes Arbeitsblatt-Layout mit originellen Illustrationen und kreativem Anleitungstext ist urheberrechtlich schutzfähig. Die zugrunde liegenden mathematischen Fakten, alphabetischen Reihenfolgen oder praktischen Konzepte auf diesem Arbeitsblatt sind es nicht. Das Verständnis dieser Unterscheidung ist die Grundlage des praktischen Urheberrechtswissens für Druckvorlagen-Verkäufer.\n\nDiese Unterscheidung ist auf dem Markt für praktische Druckvorlagen von enormer Bedeutung, da ein Großteil des Inhalts von Arbeitsblättern in die nicht schutzfähige Kategorie fällt. Die Tatsache, dass 2 + 3 = 5 ist, kann von niemandem urheberrechtlich geschützt werden. Das Konzept eines Wortsuche-Rätsels kann nicht beansprucht werden. Die Idee, Tierbilder zum Vokabellernen zu verwenden, steht jedem zur Verfügung. Was urheberrechtlich geschützt werden kann, ist Ihre spezifische kreative Ausdrucksform: die besondere Art, wie Sie Elemente auf einer Seite anordnen, die originellen Illustrationen, die Sie erstellen oder lizenzieren, den einzigartigen Anleitungstext, den Sie verfassen, und die kreativen Entscheidungen, die Sie bei der Zusammenstellung und Präsentation von Bildungsinhalten treffen.\n\nFür Druckvorlagen-Verkäufer dient das Urheberrechtswissen drei praktischen Zwecken. Erstens hilft es Ihnen zu verstehen, welche Aspekte Ihrer Arbeit Schutz verdienen und welche Schritte diesen Schutz stärken. Zweitens befähigt es Sie, effektiv zu reagieren, wenn jemand Ihre Produkte kopiert — zu wissen, ob jemand Ihre kreative Ausdrucksform kopiert hat (verfolgbare Verletzung) oder ein ähnliches Arbeitsblatt zum gleichen Thema erstellt hat (keine Verletzung), bewahrt Sie davor, Zeit mit aussichtslosen Streitigkeiten zu verschwenden. Drittens verhindert es, dass Sie unbeabsichtigt die Urheberrechte anderer verletzen, was zu Marktplatz-Löschungen, Kontowarnungen oder rechtlicher Haftung führen kann.\n\nDieser Leitfaden behandelt das praktische Urheberrechtswissen, das Druckvorlagen-Verkäufer am meisten benötigen: was schutzfähig ist und was nicht, wie Sie Ihre Urheberrechtsposition stärken, was bei Urheberrechtsverletzungen zu tun ist, wie Sie gemeinfreie und lizenzierte Ressourcen sicher nutzen und wie Sie Urheberrechtsbewusstsein in Ihren täglichen Geschäftsbetrieb integrieren. Das Ziel ist nicht, Sie zu einem Urheberrechtsanwalt zu machen, sondern Ihnen ausreichendes Verständnis zu vermitteln, um Ihre Arbeit zu schützen, die Rechte anderer zu respektieren und fundierte Entscheidungen über die urheberrechtlichen Aspekte Ihres Druckvorlagen-Geschäfts zu treffen.',

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO Lernmaterial Druckvorlagen',
+    primaryKeyword: 'Etsy SEO für Arbeitsblätter und Druckvorlagen',
     secondaryKeywords: [
-      'Etsy SEO für druckbare Arbeitsblätter',
-      'Etsy Keyword-Recherche praktische Produkte',
-      'Etsy Angebotsoptimierung Druckvorlagen-Verkäufer',
-      'Etsy Tags Strategie für Arbeitsblätter',
+      'Etsy Keyword-Recherche Druckvorlagen Verkäufer',
+      'Etsy 13 Tags Strategie Arbeitsblätter optimieren',
+      'Etsy Titeloptimierung druckbare Lernmaterialien',
+      'Etsy Suchalgorithmus Ranking digitale Downloads',
     ],
     lsiKeywords: [
-      'Etsy Suchalgorithmus Rankingfaktoren für digitale Downloads',
-      'Etsy Titeloptimierung Keyword-Platzierung Druckvorlagen-Angebote',
-      'Etsy 13 Tags Strategie praktische Arbeitsblatt-Verkäufer',
-      'Etsy Angebotsbeschreibung SEO-Struktur für Druckvorlagen',
-      'Etsy Stats Suchbegriffe-Bericht Keyword-Optimierung',
-      'Etsy Kategorie-Attribute für praktische digitale Produkte',
+      'Keyword-Platzierung Angebotstitel Druckvorlagen',
+      'Etsy Stats Suchbegriffe-Bericht Optimierung',
+      'Kategorie-Attribute digitale Arbeitsblatt-Produkte',
     ],
-    titleTag: 'Etsy SEO Lernmaterial Druckvorlagen — Leitfaden',
-    metaDescription: 'Etsy-SEO für Lernmaterial-Druckvorlagen. Keyword-Recherche, Titeloptimierung, alle 13 Tags nutzen und Beschreibungen optimieren.',
+    titleTag: 'Etsy SEO für Arbeitsblätter (2026) | LCS',
+    metaDescription: 'Etsy SEO für Arbeitsblätter und Druckvorlagen: Keyword-Recherche, Titeloptimierung, alle 13 Tags strategisch nutzen und Beschreibungen für mehr Sichtbarkeit.',
   },
 
   hero: {
-    title: 'Etsy SEO für praktische Druckvorlagen',
+    title: 'Etsy SEO für Arbeitsblätter und Druckvorlagen (2026)',
     tagline: 'Ein umfassender Etsy-Suchoptimierungs-Leitfaden für Verkäufer praktischer Druckvorlagen — einschließlich Keyword-Recherche-Methodik mit Etsy-Autovervollständigung und Wettbewerberanalyse, Titeloptimierungsformeln die Suchranking mit Klickrate ausbalancieren, strategischem Einsatz aller 13 Angebots-Tags für maximale Suchreichweite, Beschreibungsstruktur mit SEO-optimierten ersten 160 Zeichen, Etsy-Suchalgorithmus-Rankingfaktoren speziell für digitale Produkte, Kategorie- und Attributauswahl, kategoriespezifische Keyword-Sammlungen für Mathe-, Lese-, Rätsel-, Mal-, Zuordnungs- und Such-Arbeitsblätter, saisonales Keyword-Timing für Schuljahresbeginn und Ferienspitzen sowie fortlaufende Optimierung mit Etsy Stats Suchbegriff-Berichten',
-    description: 'Die Etsy-Suche ist die wichtigste Besucherquelle für Verkäufer praktischer Druckvorlagen. Dieser Leitfaden vermittelt Ihnen den vollständigen Etsy SEO Arbeitsablauf — von der Recherche der Suchbegriffe Ihrer Käufer bis zur Optimierung jedes Elements Ihres Angebots für maximale Sichtbarkeit. Sie lernen die exakte Titelstruktur, Tag-Strategie und das Beschreibungsformat, die dazu beitragen, dass Ihre Lernmaterial-Angebote in den Etsy-Suchergebnissen erscheinen.',
+    description: 'Etsy SEO für Arbeitsblätter und Druckvorlagen — dieser Leitfaden vermittelt Ihnen den vollständigen Optimierungs-Arbeitsablauf für 2026. Die Etsy-Suche ist die wichtigste Besucherquelle für Druckvorlagen-Verkäufer, und systematische Optimierung entscheidet über Sichtbarkeit oder Unsichtbarkeit in den Suchergebnissen. Sie erfahren, wie Sie die Suchbegriffe Ihrer Käufer mit der Etsy-Autovervollständigung und Wettbewerberanalyse recherchieren, Angebotstitel für Ranking und Klickrate gleichzeitig strukturieren und alle 13 Tags strategisch über verschiedene Keyword-Varianten verteilen. Der Leitfaden behandelt auch die optimale Beschreibungsstruktur mit SEO-optimierten ersten 160 Zeichen, die Besucher in Käufer verwandeln. Sie finden kategoriespezifische Keyword-Sammlungen für Mathe, Rätsel, Malvorlagen, Zuordnungs- und Sucharbeitsblätter sowie Strategien für saisonales Keyword-Timing bei Schulanfangs- und Ferienspitzen.',
   },
 
   introduction: 'Für Verkäufer praktischer Druckvorlagen auf Etsy bringt die organische Suche den Großteil des Shop-Traffics. Im Gegensatz zu Social-Media-Beiträgen, die innerhalb von Stunden verblassen, oder bezahlter Werbung, die aufhört, wenn Ihr Budget erschöpft ist, zieht ein gut optimiertes Angebot Monat für Monat weiterhin Käufer an. Etsy SEO — die Praxis der Optimierung Ihrer Angebote für Etsys interne Suchmaschine — ist die einzelne Maßnahme mit dem höchsten Ertrag, in die Sie als Druckvorlagen-Verkäufer Ihre Zeit investieren können.\n\nEtsys Suchmaschine gleicht Käuferanfragen mit Angebotstitel, Tags, Kategorien und Attributen ab. Angebote, die gut übereinstimmen und starke Interaktionssignale aufweisen (Klicks, Favoriten, Käufe), ranken im Laufe der Zeit höher. Dies erzeugt einen Zinseszinseffekt: bessere Optimierung führt zu mehr Sichtbarkeit, was zu mehr Verkäufen führt, was Ihr Ranking weiter verbessert.\n\nDie Herausforderung für Verkäufer praktischer Druckvorlagen besteht darin, dass der Markt wettbewerbsintensiv ist. Tausende Verkäufer bieten Mathe-Arbeitsblätter, Malvorlagen und Leseaktivitäten an. Generische Optimierung — Ihren Titel mit Keywords vollstopfen und auf Ergebnisse hoffen — funktioniert selten. Stattdessen brauchen Sie einen systematischen Ansatz: die genauen Begriffe recherchieren, die Käufer verwenden, Ihre Titel sowohl für Suchmaschinen als auch für menschliche Leser strukturieren, alle 13 Tags strategisch nutzen, um ein breites Suchnetz aufzuspannen, und Beschreibungen schreiben, die Besucher in Käufer verwandeln.\n\nDieser Leitfaden behandelt jedes Element von Etsy SEO speziell für praktische Druckvorlagen-Produkte. Ob Sie Mathe-Arbeitsblätter, Wortsuche-Rätsel, Malvorlagen oder Aktivitätsblätter verkaufen — die Prinzipien und Strategien hier gelten direkt für Ihre Angebote. Jeder Abschnitt baut auf dem vorherigen auf und gibt Ihnen einen vollständigen Optimierungs-Arbeitsablauf, den Sie auf jedes Angebot in Ihrem Shop anwenden können. Jeder in diesem Leitfaden erwähnte Generator ist als kostenlose Testversion mit Wasserzeichen verfügbar, sodass Sie Musterprodukte erstellen und Ihre SEO-Strategie testen können, bevor Sie sich für eine Lizenz entscheiden.',

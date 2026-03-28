@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bilderpfad-ersteller',
+    primaryKeyword: 'kostenloser Bilderpfad-Generator',
     secondaryKeywords: [
-      'Bilderpfad-Ersteller für Verkäufer',
-      'Labyrinth-Rätsel online erstellen und verkaufen',
-      'druckbare Labyrinth-Aktivitäten kommerziell erstellen',
-      'Labyrinth-Generator mit drei Spielmodi und automatischem Lösungsschlüssel für KDP',
+      'Bilderpfad-Arbeitsblätter kostenlos erstellen',
+      'Labyrinth-Generator online ohne Anmeldung',
+      'kostenlose Labyrinth-Rätsel mit Lösungsschlüssel',
+      'Bilderpfad-Ersteller mit drei Spielmodi kostenlos',
     ],
     lsiKeywords: [
-      'drei Spielmodi Bilderpfad Klassisches Labyrinth Wähle den richtigen Weg',
-      'LPF Longest Path First Algorithmus wandbasierter Labyrinth-Ersteller',
-      'automatischer Lösungsschlüssel rosa Kreis-Lösungspfad Labyrinth-Generator',
+      'Labyrinth Bilderpfad Pfadverfolgung Rätsel',
+      'LPF-Algorithmus wandbasiertes Labyrinth',
+      'Wähle den richtigen Weg Richtungslabyrinth',
     ],
-    titleTag: 'Bilderpfad-Ersteller | Labyrinth-Generator',
-    metaDescription: 'Labyrinth-Arbeitsblätter mit drei Spielmodi und LPF-Algorithmus erstellen. Lösungsschlüssel, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Bilderpfad-Generator | LCS',
+    metaDescription: 'Kostenloser Bilderpfad-Generator: Labyrinth-Arbeitsblätter mit drei Spielmodi und LPF-Algorithmus erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Bilderpfad-Labyrinth-Generator',
+    title: 'Bilderpfad-Labyrinthe kostenlos erstellen online',
     tagline: 'Drei-Modus-Labyrinth-Arbeitsblatt-Generator mit Bilderpfad (Bildraster-Pfadverfolgung), Klassischem Labyrinth (LPF-wandbasierter Algorithmus mit Sammelobjekten und Sackgassen-Blockierung) und Wähle den richtigen Weg (Drei-Pfad-Richtungslabyrinth), fünf Bildrollen (Startbild, Zielbild, Pfadbilder, Ablenkungsbilder, Dekoration), anpassbares Wanddesign mit Farb-/Dicke-/Deckkraft-Steuerung, automatisch generierte Lösungsschlüssel mit rosa Kreis-Lösungshervorhebung und Sammelobjekt-Legenden sowie rein visuelle Labyrinthe, die weltweit ohne Übersetzung verkauft werden können',
-    description: 'Erstellen Sie professionelle Labyrinth- und Pfad-Arbeitsblätter mit drei verschiedenen Spielmodi in einem einzigen Generator. Bilderpfad erstellt ein Raster aus Bildern, in dem Nutzer den korrekten Pfad vom Start zum Ziel verfolgen, indem sie Pfadbilder unter Ablenkungsbildern identifizieren — ideal für jüngere Lernende und visuelle Unterscheidungsaufgaben. Klassisches Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus (Longest Path First) mit einem Korridor-Zellen-System und dynamischer Wandplatzierung. Qualitätsbewertung evaluiert Kurven, Länge und Blockaden, um herausfordernde aber lösbare Labyrinthe sicherzustellen. Konfigurieren Sie Rastergrößen von 15×15 bis 20×20, setzen Sie 1 bis 3 Pfade mit automatischer Sackgassen-Blockierung und passen Sie Wandfarbe (beliebige Farbe über Farbwähler), Wanddicke (1–10px, Standard 3px) und Wanddeckkraft (10–100%, Standard 100%) an. Sammelobjekt-Bilder verteilen sich in den Korridoren des Klassischen Labyrinths — konfigurieren Sie 1–4 Sammelobjekt-Bildtypen, 1–3 Mindestkopien und 1–10 Maximalkopien pro Typ. Wähle den richtigen Weg präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen (unten-nach-oben, oben-nach-unten, links-nach-rechts, rechts-nach-links), bei denen Nutzer die einzige korrekte Route unter Täuschungen identifizieren. Weisen Sie Bilder fünf verschiedenen Rollen zu: Startbild (Einstiegspunkt), Zielbild (Ziel — 1 für Bilderpfad/Labyrinth, 3 für Wähle den Weg), Pfadbilder (korrekte Routenmarkierungen oder Sammelobjekte), Ablenkungsbilder (Nicht-Pfad-Füllung) und Dekoration (freie Canvas-Platzierung). Jeder Modus generiert einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab — Lösungspfade werden mit rosa Kreisen entlang der korrekten Route hervorgehoben. Wähle den richtigen Weg fügt ein \"✓ CORRECT PATH\"-Label hinzu, das die Gewinnerroute identifiziert. Klassisches Labyrinth enthält eine Sammelobjekt-Legende, die jedes Bild und seine Anzahl entlang des Lösungspfads zeigt. Der automatisch generierte \"Bilderpfad\"-Header zeigt einen orangefarbenen Außenrahmen (8px Strichstärke) mit 34px Abständen, lokalisierten Titel und \"Follge dem Pfad\"-Anweisungen über alle 11 unterstützten Sprachen. Hochformat-Arbeitsblätter zeigen einen 240px-Header; Querformat nutzt ein kompaktes 165px-Layout. Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Wenden Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern an (0–1, Schrittweite 0,05). Fügen Sie benutzerdefinierten Text mit 7 Schriftoptionen hinzu (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) und Textumriss 0–10. Schalten Sie Name- und Datumsfelder für Nutzeridentifikation um. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI (6× Multiplikator) in Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder benutzerdefinierten Maßen. Graustufen-Schalter für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit 6 Ausrichtungsoptionen plus Auf-Seite-Zentrieren, Ebenensteuerung, Sperren/Entsperren, Zoom 25%–300% in 25%-Schritten und Rückgängig/Wiederholen mit 20 Zuständen. Bilderpfad-Labyrinthe sind vollständig visuell — kein Lesen oder Sprachverständnis erforderlich, wodurch jedes Arbeitsblatt sofort in jedem Markt weltweit verkaufbar ist. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Bilderpfad-Labyrinthe kostenlos mit unserem Bilderpfad-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Drei Spielmodi bieten vielseitige Labyrinth-Erlebnisse: Bilderpfad erstellt ein Bildraster, in dem Sie den korrekten Pfad vom Start zum Ziel verfolgen. Klassisches Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus und konfigurierbaren Rastergrößen von 15×15 bis 20×20. Wähle den richtigen Weg präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen. Weisen Sie Bilder fünf verschiedenen Rollen zu und passen Sie Wandfarbe, Dicke und Deckkraft individuell an. Jeder Modus generiert automatisch einen Lösungsschlüssel mit rosa Pfad-Hervorhebung. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Die Labyrinthe sind rein visuell und universell einsetzbar. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Labyrinthe zu verkaufen.',
   },
 
   tutorial: {

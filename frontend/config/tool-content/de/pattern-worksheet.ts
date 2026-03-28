@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'muster-generator',
+    primaryKeyword: 'kostenloser Mustererkennungs-Generator',
     secondaryKeywords: [
-      'Muster-Arbeitsblatt-Ersteller für Verkäufer',
-      'Mustererkennungs-Raster-Arbeitsblätter online erstellen',
-      'druckbare Mustervervollständigungs-Übungen kommerziell',
-      'rasterbasierter Muster-Generator mit Multiple-Choice für KDP',
+      'Mustererkennungs-Arbeitsblätter kostenlos erstellen',
+      'Muster-Generator online ohne Anmeldung',
+      'kostenloser Mustervervollständigungs-Ersteller',
+      'Muster-Arbeitsblätter online erstellen und drucken',
     ],
     lsiKeywords: [
-      'visuelle Mustererkennung-Raster-Druckvorlagen für Etsy',
-      'textfreier Mustervervollständigungs-Arbeitsblatt-Generator',
-      'AB ABC ABCD Muster-Raster-Arbeitsblatt-Ersteller',
+      'AB ABC ABCD Musterfolge-Übungen',
+      'textfreie Mustervervollständigungs-Arbeitsblätter',
+      'Lückenfeld und Multiple-Choice Musterübungen',
     ],
-    titleTag: 'Muster-Generator | Muster-Arbeitsblätter',
-    metaDescription: 'Mustervervollständigungs-Arbeitsblätter mit neun Mustertypen und zwei Fragemodi erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kostenloser Mustererkennungs-Generator | LCS',
+    metaDescription: 'Kostenloser Mustererkennungs-Generator mit neun Mustertypen und zwei Fragemodi. Textfrei, 104 Bildthemen, ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Muster-Arbeitsblatt-Ersteller',
+    title: 'Mustererkennungs-Arbeitsblätter kostenlos erstellen online',
     tagline: 'Rasterbasierte Mustervervollständigungs-Arbeitsblätter mit neun Mustertypen, zwei Fragemodi, unabhängiger Pro-Übung-Konfiguration und vollständig visueller textfreier Ausgabe erstellen — weltweit verkaufbar ohne Übersetzung',
-    description: 'Erstellen Sie professionelle Mustervervollständigungs-Arbeitsblätter, bei denen Lernende sich wiederholende Bildfolgen erkennen und das fehlende Element einsetzen oder die korrekte Antwort aus Multiple-Choice-Optionen wählen. Neun verschiedene Mustertypen decken das breiteste Spektrum an Sequenzkomplexität ab: AB wechselt zwei Elemente ab, AAB und ABB führen asymmetrische Gruppierungen ein, ABC rotiert drei verschiedene Elemente, AABB paart je zwei jedes Elements, ABBC und AABC erzeugen Drei-Bild-asymmetrische Variationen, ABCC erweitert mit verdoppeltem Ende, und ABCD rotiert vier verschiedene Elemente für maximale Herausforderung. Zwei Fragemodi erzeugen grundsätzlich verschiedene Übungen aus jedem Mustertyp: Lückenfeld ersetzt ein Element durch ein leeres Kästchen für offenes Denken, während Multiple-Choice die Lücke plus drei Antwortoptionen mit einer korrekten und zwei Ablenkern präsentiert. Konfigurieren Sie 1–8 Übungen pro Seite, wobei jede Übung unabhängig für Mustertyp, Fragemodus und Thema eingestellt wird — eine Seite kann eine AB-Lückenfeld-Aufwärmübung mit einer ABCD-Multiple-Choice-Herausforderung kombinieren. Aktivieren Sie Zufälliger Start, um Muster mitten im Zyklus beginnen zu lassen, und Zufällige Lückenposition, um das fehlende Element an beliebiger Stelle in der Sequenz zu platzieren. Das standardmäßige rasterbasierte Zeilen-und-Spalten-Layout ordnet Übungen übersichtlich für bewertungsbereite Ausgabe an. Jedes Arbeitsblatt ist vollständig visuell mit ausschließlich Bildern und null Text auf der Ausgabe — keine Wörter erscheinen auf der generierten Seite, was Ihre Produkte universell verkaufbar ohne Übersetzung macht. Ein Produktangebot bedient jeden Markt weltweit. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Ein separater Lösungsschlüssel-Tab zeigt alle Lücken mit den korrekten Musterelementen ausgefüllt. Exportieren Sie druckfertige PDFs und JPEGs bei hoher DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Der Generator ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht den Arbeitsblatt-Inhalt. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie kostenlos Mustererkennungs-Arbeitsblätter mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Installation. Neun verschiedene Mustertypen von AB bis ABCD decken das breiteste Spektrum an Sequenzkomplexität ab. Zwei Fragemodi erzeugen verschiedene Übungen: Lückenfeld für offenes Denken und Multiple-Choice mit drei Antwortoptionen. Konfigurieren Sie 1–8 Übungen pro Seite, wobei jede Übung unabhängig für Mustertyp, Fragemodus und Thema eingestellt wird. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Die Arbeitsblätter sind vollständig visuell mit null Text auf der Ausgabe. Ein separater Lösungsschlüssel-Tab zeigt alle Lücken ausgefüllt. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {

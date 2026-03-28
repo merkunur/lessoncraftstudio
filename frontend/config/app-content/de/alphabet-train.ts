@@ -2,28 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet-zug-generator',
+    primaryKeyword: 'Alphabet-Arbeitsblätter erstellen für Etsy und KDP',
     secondaryKeywords: [
-      'druckbare Buchstabenzug-Arbeitsblätter für Etsy',
-      'Buchstabenerkennung-Generator für KDP-Verleger',
-      'mehrsprachige Alphabet-Arbeitsblätter auf Gumroad verkaufen',
-      'Alphabet-Zug-Druckvorlagen kommerzielle Lizenz',
-      'Buchstaben-Bild-Zuordnung Arbeitsblatt-Generator',
+      'Alphabet-Arbeitsblätter erstellen für Etsy verkaufen',
+      'Buchstabenzug-Generator für KDP-Lernbücher',
+      'mehrsprachige ABC-Arbeitsblätter Printable-Business',
+      'Buchstabe-Bild-Zuordnung Druckvorlagen Etsy-Shop',
     ],
     lsiKeywords: [
-      'digitale Lese-Lern-Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Buchstabenerkennung',
-      'kommerzieller Alphabet-Arbeitsblatt-Generator mehrsprachig',
+      'ABC-Lernbücher Amazon KDP veröffentlichen Einkommen',
+      'Druckvorlagen-Geschäft Buchstabenerkennung Alphabet',
+      'mehrsprachige Alphabet-Druckvorlagen 11 Sprachen',
     ],
-    titleTag: 'Alphabet-Zug-Generator | Buchstaben-Druckvorlagen',
-    metaDescription: 'Alphabet-Zug-Arbeitsblätter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. 104 Themen, native Alphabete. Kostenlos testen mit Wasserzeichen verfügbar.',
+    titleTag: 'Alphabet-Arbeitsblätter erstellen für Etsy | LCS',
+    metaDescription: 'Alphabet-Arbeitsblätter erstellen für Etsy und KDP — Buchstabe-Bild-Zuordnung in 11 Sprachen mit nativen Alphabeten. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Alphabet-Zug-Arbeitsblatt-Generator für Buchstabenerkennung und Laut-Buchstabe-Zuordnung',
+    title: 'Alphabet-Zug-Generator mit Buchstabe-Bild-Zuordnung in 11 Sprachen',
     tagline: 'Jeder Waggon trägt einen Buchstaben und ein passendes Bild — Buchstabenerkennung lernen, ein Zugwaggon nach dem anderen. 11 Sprachen mit nativen Alphabeten für maximale Marktabdeckung.',
     description:
-      'Gestalten Sie auffällige Alphabet-Zug-Arbeitsblätter, bei denen 11 farbenfrohe Waggons über die Seite rollen — jeder beladen mit einem Buchstaben und einer passenden Illustration, deren Name mit diesem Buchstaben beginnt. Das Zugformat erzeugt einen natürlichen Links-nach-rechts-Lesefluss, der die Leserichtung widerspiegelt und Buchstabenerkennung spielerisch vermittelt. Wählen Sie den Auto-Erstellen-Modus für sofortige zufällige Buchstabenauswahl oder den Manuellen Modus, um gezielt 11 Buchstaben aus dem Alphabet auszuwählen — Vokale, Konsonantengruppen, schwierige Buchstabenpaare wie b/d und p/q, oder jede beliebige Kombination für gezielte Übungseinheiten. Fügen Sie 3 bis 11 konfigurierbare Hinweise pro Arbeitsblatt hinzu — Bildhinweise, die Lernende dem richtigen Buchstaben-Waggon zuordnen müssen — und verwandeln Sie passive Buchstabenerkennung in eine aktive Problemlösungsübung. Weniger Hinweise eignen sich für Vorschulkinder, die gerade erst Buchstaben kennenlernen; die vollen 11 Hinweise fordern Erstklasslernende heraus, jeden Waggon korrekt zuzuordnen. Durchstöbern Sie über 3.100 kuratierte Illustrationen in 104 Themen — von Bauernhoftieren und Meerestieren über Fahrzeuge und Weltraum bis hin zu Essen, Dinosauriern und Feiertagen — um für jeden Buchstaben das perfekte Bild zu finden. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen mit ihren nativen Alphabeten frei — Deutsch mit Ä/Ö/Ü für 29 Buchstaben, Schwedisch mit Å/Ä/Ö für 29, Spanisch mit Ñ für 27, Finnisch mit Ä/Ö für 28, Dänisch und Norwegisch mit Æ/Ø/Å für 29 — und vervielfacht Ihren Produktkatalog um das Elffache mit einem einzigen Arbeitsablauf. Da Bildbezeichnungen in jede Sprache übersetzt sind, bleibt die Buchstabe-Bild-Zuordnung in jeder Sprache linguistisch korrekt: Ein Hundebild paart sich im Englischen mit D, im Deutschen mit H. Jedes Arbeitsblatt generiert automatisch einen Lösungsschlüssel, und Sie können druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder Quadrat exportieren. Aktivieren Sie den Graustufen-Export für tintenfreundliche Versionen, die sich ideal für Shopdruck und Schwarz-Weiß-Aktivitätsbücher eignen. Ob Sie thematische Alphabet-Pakete auf Etsy.de verkaufen, progressive Lese-Lern-Bücher für Amazon KDP zusammenstellen oder gestufte Buchstaben-Stationen für Gumroad erstellen — der Alphabet-Zug-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Alphabet-Arbeitsblätter mit dem Alphabet-Zug-Generator und verkaufen Sie diese auf Etsy, Amazon KDP oder Gumroad. Jeder der 11 Zugwaggons trägt einen Buchstaben und ein passendes Bild — die Buchstabe-Bild-Zuordnung ist in 11 Sprachen mit nativen Alphabeten linguistisch korrekt. Wählen Sie Auto-Erstellen für schnelle Serienproduktion oder den Manuellen Modus für gezielte Buchstabenauswahl. Konfigurierbare Hinweise von 3 bis 11 steuern die Schwierigkeit, und über 3.100 Illustrationen in 104 Themen liefern vielseitige Inhalte. Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit Sonderbuchstaben frei — Deutsch (Ä/Ö/Ü), Schwedisch (Å/Ä/Ö), Spanisch (Ñ) und mehr — und vervielfacht Ihren Produktkatalog um das Elffache. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder Quadrat. Graustufen-Export liefert tintenfreundliche Versionen für Schwarz-Weiß-Bücher. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

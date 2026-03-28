@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Puzzle-Arbeitsblätter fehlende Teile',
+    primaryKeyword: 'Fehlende-Teile-Rätsel zum Verkaufen erstellen',
     secondaryKeywords: [
-      'Fehlende-Teile-Rätsel zum Verkaufen erstellen',
-      'Puzzle-Arbeitsblatt-Generator kommerzielle Nutzung',
-      'druckbare Fehlende-Teile-Ersteller für Etsy und KDP',
-      'visuelle Puzzle-Arbeitsblätter mit Lösungsschlüsseln',
+      'Puzzle-Arbeitsblätter für Etsy produzieren',
+      'Fehlende-Teile-Rätsel kommerziell auf KDP verkaufen',
+      'druckbare Puzzle-Arbeitsblätter für Printable-Business',
+      'Fehlende-Teile-Generator für Arbeitsblatt-Verkäufer',
     ],
     lsiKeywords: [
-      'intelligenter Extraktionsalgorithmus Helligkeitsvarianz Puzzle-Generator',
-      'sechs Puzzleteil-Formen Arbeitsblatt-Ersteller mit Ablenkungsteilen',
-      'automatischer Lösungsschlüssel gelbe Hervorhebung Fehlende-Teile-Ersteller',
-      'Fehlende-Teile-Rätsel auf Etsy verkaufen',
-      'Amazon KDP Puzzle-Arbeitsbücher',
-      'kommerzielle Lizenz Fehlende-Teile-Tool',
+      'rein visuelles Puzzle weltweiter Verkauf Etsy',
+      'intelligenter Extraktionsalgorithmus Puzzle Nische',
+      'KDP Puzzle-Arbeitsbuch veröffentlichen',
     ],
-    titleTag: 'Puzzle-Arbeitsblätter fehlende Teile erstellen — Anleitung',
-    metaDescription: 'Puzzle-Arbeitsblätter mit fehlenden Teilen erstellen. 6 Teilformen, Ablenkungsteile und automatische Lösungsschlüssel. Druckvorlagen für den Verkauf auf Etsy.',
+    titleTag: 'Fehlende-Teile-Rätsel zum Verkauf | LCS',
+    metaDescription: 'Fehlende-Teile-Rätsel zum Verkaufen erstellen. 6 Teilformen, Ablenkungsteile und automatische Lösungsschlüssel. Rein visuelles Format für Etsy und KDP.',
   },
 
   hero: {
-    title: 'So erstellen Sie Fehlende-Teile-Rätsel',
+    title: 'Fehlende-Teile-Rätsel erstellen und verkaufen',
     tagline: 'Eine Schritt-für-Schritt-Anleitung zur Erstellung von Puzzle-Arbeitsblättern mit sechs Puzzleteil-Formen, intelligenter Stückextraktion mittels Helligkeitsvarianz-Erkennung, Ablenkungsteilen für echte Herausforderung, zwei unabhängigen Schwierigkeitssteuerungen, automatisch erstellten Lösungsschlüsseln mit gelber Hervorhebung und rein visuellen Rätseln, die Sie weltweit auf Etsy, Amazon KDP und Gumroad verkaufen können',
-    description: 'Fehlende-Teile-Rätsel sind eine einzigartig fesselnde visuelle Aktivität, bei der Nutzer ein Bild mit herausgeschnittenen Löchern untersuchen und identifizieren, welche nummerierte Option jede Lücke füllt. Das Format kombiniert räumliches Denken mit visueller Unterscheidung — Nutzer müssen Farben, Muster und Details analysieren, um Teile ihren korrekten Positionen zuzuordnen. Da die Arbeitsblatt-Ausgabe nur Bilder, Löcher und nummerierte Optionen ohne sprachspezifischen Text enthält, ist jedes erstellte Rätsel sofort weltweit ohne Übersetzung verkaufbar. Eltern nutzen sie für kognitive Entwicklungsaktivitäten zu Hause. Käufer nutzen sie für visuelle Wahrnehmungsübungen und Aufwärmübungen zum kritischen Denken. Selbststudiumzentren nutzen sie für räumliches Denktraining. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Fehlende-Teile-Arbeitsblatt-Generator — von der Auswahl der Puzzleteil-Formen und der Konfiguration dualer Schwierigkeitssteuerungen über das Verständnis des intelligenten Extraktionsalgorithmus, die Generierung von Ablenkungsteilen, die Überprüfung automatischer Lösungsschlüssel mit gelber Hervorhebung bis zum Export produktionsfertiger Dateien. Ob Sie Ihr erstes Puzzle-Produkt erstellen oder einen bestehenden visuellen Arbeitsblattkatalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt, das Sie sofort listen können.',
+    description: 'Fehlende-Teile-Rätsel zum Verkaufen erstellen nutzt den strukturellen Vorteil des rein visuellen Formats: Jedes erstellte Rätsel ist sofort weltweit ohne Übersetzung verkaufbar, da die Ausgabe nur Bilder, Löcher und nummerierte Optionen enthält. Nutzer untersuchen ein Bild mit herausgeschnittenen Löchern und identifizieren, welche nummerierte Option jede Lücke füllt — eine fesselnde Aktivität, die räumliches Denken mit visueller Unterscheidung kombiniert. Diese Anleitung führt Sie durch den Erstellungsprozess mit dem Fehlende-Teile-Generator: Sie wählen aus sechs Puzzleteil-Formen, konfigurieren zwei unabhängige Schwierigkeitssteuerungen — ein bis fünf fehlende Teile und zwei bis sechs Lösungsoptionen — und verstehen den intelligenten Extraktionsalgorithmus, der Teile mit ausreichender Helligkeitsvarianz findet. Ablenkungsteile aus nicht-extrahierten Bereichen verhindern triviales Lösen durch Ausschlussverfahren. Der automatische Lösungsschlüssel mit gelber Hervorhebung wird gleichzeitig generiert. Ob Sie Ihr erstes Puzzle-Produkt auf Etsy listen oder einen bestehenden Katalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt zum Einstellen bereit.',
   },
 
   introduction: 'Räumliches Denken und Teil-Ganzes-Analyse sind grundlegende kognitive Fähigkeiten, die sich während der frühen Kindheit und der Grundschulbildung entwickeln. Bevor Kinder komplexe visuelle Probleme lösen können, müssen sie lernen zu analysieren, wie einzelne Teile mit einem vollständigen Bild zusammenhängen — zu erkennen, wohin ein Fragment gehört, basierend auf Farbkontinuität, Musterausrichtung und kontextuellen Hinweisen. Fehlende-Teile-Rätsel trainieren diese Fähigkeiten direkt, indem sie ein Bild mit Löchern präsentieren und die Nutzer auffordern zu identifizieren, welche nummerierte Option jede Lücke füllt. Dies macht Puzzle-Arbeitsblätter zu einem stark nachgefragten Produkt mit Anwendungen von der Vorschulvorbereitung bis zur Grundschulanreicherung.\n\nWas Fehlende-Teile-Rätsel als druckbares Produkt besonders leistungsstark macht, ist das rein visuelle Format. Anders als Vokabelarbeitsblätter, Leseverständnisseiten oder Mathematikaufgaben, die sprachspezifischen Text erfordern, enthalten Puzzle-Arbeitsblätter nur Bilder, Löcher und nummerierte Lösungsoptionen. Keine Wörter zum Übersetzen, keine Anweisungen zum Lokalisieren, keine Sprachbarriere jeglicher Art. Ein in einer Sitzung erstelltes Arbeitsblatt verkauft sich identisch auf jedem internationalen Marktplatz ohne Änderung. Diese globale Reichweite ohne Aufwand pro Sprache ist ein erheblicher Wettbewerbsvorteil, den die meisten Verkäufer völlig übersehen.\n\nDer Fehlende-Teile-Arbeitsblatt-Generator bewältigt die Komplexität der Erstellung dieser Aktivitäten durch ein ausgefeiltes intelligentes Extraktionssystem. Der Algorithmus versucht bis zu einhundertfünfzig Platzierungsversuche, um Teile mit ausreichender Helligkeitsvarianz zu finden (Mindestschwelle von fünfzehn), wobei mindestens zweihundertfünfzig Pixel Abstand zwischen extrahierten Teilen eingehalten wird, um Häufungen zu vermeiden. Sechs Puzzleteil-Formen — Quadrat, Kreis, Rechteck Hochformat, Rechteck Querformat, Ellipse Hochformat und Ellipse Querformat — erzeugen jeweils visuell unterschiedliche Rätsel aus demselben Quellbild. Zwei unabhängige Schwierigkeitssteuerungen ermöglichen es Ihnen, ein bis fünf fehlende Teile und zwei bis sechs Lösungsoptionen separat einzustellen, wodurch eine Schwierigkeitsmatrix von einfacher Einzelteil-Identifikation bis zu komplexer Mehrfachteil-Unterscheidung mit Ablenkungsteilen entsteht. Ablenkungsteile werden aus nicht-extrahierten Bereichen desselben Bildes gewonnen, sodass Nutzer nicht durch Ausschlussverfahren lösen können und echten visuellen Vergleich durchführen müssen. Das Doppel-Leinwand-System generiert gleichzeitig sowohl ein Arbeitsblatt als auch einen Lösungsschlüssel, wobei gelb hervorgehobene Nummernbeschriftungen in jedem Loch platziert werden und den korrekten Optionsindex anzeigen.\n\nAlle in dieser Anleitung genannten Funktionen sind in der kostenlosen Testversion mit Wasserzeichen verfügbar. Sie können Puzzle-Arbeitsblätter erstellen, alle sechs Puzzleteil-Formen testen, mit Schwierigkeitskombinationen experimentieren, den intelligenten Extraktionsalgorithmus bewerten und die Lösungsschlüssel-Qualität überprüfen, bevor Sie eine kommerzielle Lizenz erwerben.',

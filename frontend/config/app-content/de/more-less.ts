@@ -2,28 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mehr-oder-weniger-generator',
+    primaryKeyword: 'Größer-Kleiner-Arbeitsblätter Generator für Etsy',
     secondaryKeywords: [
-      'druckbare Mehr-oder-Weniger-Arbeitsblätter für Etsy',
-      'Größer-Kleiner-Arbeitsblatt-Generator für KDP',
-      'Mengenvergleich-Arbeitsblätter auf Gumroad verkaufen',
-      'Vergleichs-Druckvorlagen kommerzielle Lizenz',
-      'Zahlenvergleich-Übungsblätter Generator',
+      'Größer-Kleiner-Arbeitsblätter erstellen für Etsy',
+      'Mengenvergleich-Generator für KDP-Übungshefte',
+      'Mehr-oder-Weniger-Druckvorlagen Printable-Business',
+      'Vergleichs-Arbeitsblätter Etsy-Shop verkaufen',
     ],
     lsiKeywords: [
-      'digitale Mengenvergleich-Produkte skalierbares Einkommen',
-      'Druckvorlagen-Geschäft Vergleichsübungen',
-      'kommerzieller Vergleichs-Arbeitsblatt-Generator',
+      'Mathe-Übungshefte Amazon KDP Mengenvergleich',
+      'Druckvorlagen-Geschäft Vergleichsübungen Einnahmen',
+      'drei Vergleichsmodi Check-und-Cross Lösungsschlüssel',
     ],
-    titleTag: 'Mehr-oder-Weniger-Generator | Vergleichsübungen',
-    metaDescription: 'Vergleichs-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 3 Vergleichsmodi, Check-und-Cross, 104 Themen, 400+ DPI. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Größer-Kleiner-Arbeitsblätter Generator | LCS',
+    metaDescription: 'Größer-Kleiner-Arbeitsblätter für Etsy erstellen — drei Vergleichsmodi mit Check-und-Cross, 104 Themen und Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Mehr-oder-Weniger-Arbeitsblatt-Generator für visuellen Mengenvergleich',
+    title: 'Größer-Kleiner-Arbeitsblätter erstellen für Ihr Etsy-Business',
     tagline: 'Verwandeln Sie Zahlenvergleiche in ein visuelles Entdeckungsabenteuer mit bildbasierten Größer-Kleiner-Arbeitsblättern.',
     description:
-      'Erstellen Sie ansprechende Vergleichs-Arbeitsblätter, die Nutzern beibringen, welche Gruppe mehr hat, welche weniger und wann zwei Gruppen gleich sind. Wählen Sie aus drei verschiedenen Übungsmodi — Bild zu Bild, Bild zu Zahl und den einzigartigen Ankreuzen-und-Durchstreichen-Modus, bei dem Nutzer gemischte Bilderboxen analysieren, um die Mehrheitsgruppe zu finden. Im Bild-zu-Bild-Modus sehen Nutzer zwei Bildergruppen nebeneinander und entscheiden, welche Seite mehr Elemente enthält — perfekt für den Einstieg in den Mengenvergleich. Der Bild-zu-Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer und baut so die Brücke zwischen konkretem Zählen und abstraktem Zahlenverständnis. Der Ankreuzen-und-Durchstreichen-Modus präsentiert eine Box mit 8–20 gemischten Bildern aus zwei Kategorien, die Nutzer visuell sortieren, zählen und markieren müssen. Wechseln Sie zwischen gleichen und verschiedenen Bildern für die Vergleiche, wählen Sie zwischen farbenfrohen Illustrations-Symbolen und Standard-Mathematiksymbolen und greifen Sie auf über 3.100 kuratierte Bilder in 104 Themen zu. Legen Sie den Zahlenbereich pro Gruppe von 1 bis 10 fest, um den Schwierigkeitsgrad präzise zu steuern. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Da die Arbeitsblätter rein bildbasiert sind, funktionieren sie sprachunabhängig in jedem Land und Shop weltweit. Ob Sie thematische Pakete auf Etsy.de verkaufen, Vergleichs-Aktivitätsbücher für Amazon KDP zusammenstellen, gestufte Materialien auf Gumroad anbieten oder Arbeitsblätter für Ihren eigenen Ihr Geschäftunterricht erstellen — der Mehr-oder-Weniger-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie Größer-Kleiner-Arbeitsblätter mit dem Mehr-oder-Weniger-Generator und verkaufen Sie professionelle Vergleichs-Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Drei Übungsmodi bieten maximale Produktvielfalt: Bild-zu-Bild zeigt zwei Bildergruppen nebeneinander, Bild-zu-Zahl verbindet Zählen mit abstraktem Zahlenverständnis, und der Ankreuzen-und-Durchstreichen-Modus präsentiert gemischte Bilderboxen mit 8 bis 20 Elementen aus zwei Kategorien. Wechseln Sie zwischen gleichen und verschiedenen Bildern, wählen Sie Illustrations- oder Mathematiksymbole und legen Sie den Zahlenbereich von 1 bis 10 fest. Über 3.100 kuratierte Bilder in 104 Themen liefern abwechslungsreiche Inhalte für jede Nische. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel. Das rein bildbasierte Format funktioniert sprachunabhängig in jedem Land weltweit. Exportieren Sie druckfertige PDFs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {

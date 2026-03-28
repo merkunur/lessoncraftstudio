@@ -7,6 +7,7 @@ import { portugueseImages } from '@/config/portuguese-showcase-images';
 import { italianImages } from '@/config/italian-showcase-images';
 import { dutchImages } from '@/config/dutch-showcase-images';
 import { swedishImages } from '@/config/swedish-showcase-images';
+import { danishImages } from '@/config/danish-showcase-images';
 
 export interface ToolShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -3806,6 +3807,13 @@ const toolAltTemplates: Record<string, {
     gallery: (label) => `${label} — Professionellt arbetsblad`,
     answerKey: (label) => `${label} — Facit`,
   },
+  da: {
+    sample: (name, n) => `${name} — Arbejdsark eksempel ${n}`,
+    tier: (name, tierName) => `${name} — ${tierName} arbejdsark`,
+    spotlight: (name) => `${name} — Udvalgt arbejdsark`,
+    gallery: (label) => `${label} — Professionelt arbejdsark`,
+    answerKey: (label) => `${label} — Facit`,
+  },
 };
 
 function localizeToolShowcase(
@@ -3886,6 +3894,17 @@ export function getToolShowcaseConfig(toolId: string, locale: string = 'en'): To
   if (locale === 'it') return localizeToolShowcase(enConfig, toolId, italianImages, itToolText, 'it');
   if (locale === 'nl') return localizeToolShowcase(enConfig, toolId, dutchImages, nlToolText, 'nl');
   if (locale === 'sv') return localizeToolShowcase(enConfig, toolId, swedishImages, svToolText, 'sv') ?? enConfig;
+  if (locale === 'da' || locale === 'no' || locale === 'fi') {
+    // Use Danish images + English text (auto-translated via t() in daStringTable)
+    // The localizeToolShowcase function translates UI strings via t(string, locale)
+    // so daStringTable handles badges, tier names, pill labels, etc.
+    // Tool-specific headings fall back to English until daToolText is created.
+    const imgs = locale === 'da' ? danishImages : {};
+    if (Object.keys(imgs).length > 0) {
+      return localizeToolShowcase(enConfig, toolId, imgs, {}, 'da') ?? enConfig;
+    }
+    return enConfig;
+  }
   return enConfig;
 }
 

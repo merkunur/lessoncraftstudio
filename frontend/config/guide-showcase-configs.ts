@@ -21,6 +21,7 @@ import { portugueseImages } from '@/config/portuguese-showcase-images';
 import { italianImages } from '@/config/italian-showcase-images';
 import { dutchImages } from '@/config/dutch-showcase-images';
 import { swedishImages } from '@/config/swedish-showcase-images';
+import { danishImages } from '@/config/danish-showcase-images';
 
 export interface PageShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -42,6 +43,7 @@ function localizedImg(appFolder: string, filename: string, locale: string) {
   if (locale === 'it') return imgUrl(appFolder, filename, 'it');
   if (locale === 'nl') return imgUrl(appFolder, filename, 'nl');
   if (locale === 'sv') return imgUrl(appFolder, filename, 'sv');
+  if (locale === 'da') return imgUrl(appFolder, filename, 'da');
   return img(appFolder, filename);
 }
 
@@ -916,6 +918,75 @@ function getNlAppData(key: string): AppVisualData {
   };
 }
 
+// ── Danish labels ──
+const daLabels: Record<string, string> = {
+  addition: 'Addition', subtraction: 'Subtraktion', 'code-addition': 'Kodeaddition', 'more-less': 'Mere eller Mindre',
+  'math-puzzle': 'Matematikpuslespil', 'math-worksheet': 'Matematikopgave', 'alphabet-train': 'Alfabettog',
+  prepositions: 'Præpositioner', 'word-guess': 'Gæt Ordet', 'word-scramble': 'Bogstavrod',
+  wordsearch: 'Ordsøgning', cryptogram: 'Kryptogram', writing: 'Skrivning',
+  'big-small': 'Stor & Lille', 'pattern-train': 'Mønstertoget', 'pattern-worksheet': 'Mønstergåder',
+  'draw-and-color': 'Tegn & Farvlæg', 'drawing-lines': 'Linjetegning', coloring: 'Farvelægning',
+  'chart-count': 'Billediagram', matching: 'Find Parrene', 'grid-match': 'Gitterpuslespil',
+  'shadow-match': 'Skyggematching', bingo: 'Bingo', 'picture-sort': 'Sortering',
+  'missing-pieces': 'Manglende Dele', 'odd-one-out': 'Find den Ulige', sudoku: 'Sudoku',
+  'picture-path': 'Billedsti', 'find-and-count': 'Søg & Tæl', 'find-objects': 'Find Objekter',
+  crossword: 'Krydsord', 'treasure-hunt': 'Skattejagt',
+};
+
+const daTierDescs: Record<string, [string, string, string]> = {
+  addition: ['Simpel tælling (1-5)', 'Blandede billeder til 10', 'Avanceret til 20'],
+  subtraction: ['Overstrygning (1-5)', 'Billed-tal til 10', 'Blandet til 20'],
+  'code-addition': ['Simple koder (1-5)', 'Større summer', 'Flertrins koder'],
+  'more-less': ['Grupper at sammenligne (1-5)', 'Temagrupper til 10', 'Større/mindre/lig med'],
+  'math-puzzle': ['Simple puslespil', 'Mellemsvære puslespil', 'Udfordrende puslespil'],
+  'math-worksheet': ['Grundlæggende øvelser', 'Mellemsvære øvelser', 'Avancerede øvelser'],
+  'alphabet-train': ['Store bogstaver', 'Små bogstaver at koble', 'Komplet alfabetøvelse'],
+  prepositions: ['Grundlæggende positioner', 'Udvidede positioner', 'Komplekse beskrivelser'],
+  'word-guess': ['Simple ord', 'Længere ord', 'Udfordrende ord'],
+  'word-scramble': ['Korte ord (3-4)', 'Mellemsvære (5-6)', 'Lange (7+)'],
+  wordsearch: ['Lille gitter (6 ord)', 'Mellemstort (10 ord)', 'Stort (15+ ord)'],
+  cryptogram: ['Simpel erstatning', 'Mere komplekse koder', 'Mesterudfordringer'],
+  writing: ['Linjer at spore', 'Bogstaver at forme', 'Ord at skrive'],
+  'big-small': ['Tydelige forskelle', 'Subtile sammenligninger', 'Kompleks ordning'],
+  'pattern-train': ['AB-mønstre', 'ABC-mønstre', 'AABB-mønstre'],
+  'pattern-worksheet': ['Simple mønstre', 'Mellemsvære mønstre', 'Komplekse mønstre'],
+  'draw-and-color': ['Simple former', 'Mere detaljeret', 'Kreative skabelser'],
+  'drawing-lines': ['Lige linjer', 'Buede linjer', 'Komplekse mønstre'],
+  coloring: ['Store områder', 'Detaljeret', 'Fine detaljer'],
+  'chart-count': ['Simple diagrammer', 'Flere kategorier', 'Kompleks analyse'],
+  matching: ['Simple par (3)', 'Mellemsvært (5 par)', 'Avanceret (8+ par)'],
+  'grid-match': ['Simpelt 2×2', 'Mellemsvært 3×3', 'Avanceret 4×4'],
+  'shadow-match': ['Simple skygger', 'Roterede skygger', 'Komplekse puslespil'],
+  bingo: ['Simpelt 3×3', 'Billedbingo 4×4', 'Komplet 5×5'],
+  'picture-sort': ['2 kategorier', '3 kategorier', '4+ kategorier'],
+  'missing-pieces': ['Simple manglende dele', 'Flerdele puslespil', 'Komplekse visuelle puslespil'],
+  'odd-one-out': ['Simple grupper (3)', 'Mellemsvært (4)', 'Avanceret (6+)'],
+  sudoku: ['Simpelt 4×4', 'Mellemsvært 6×6', 'Svært 9×9'],
+  'picture-path': ['Lige veje', 'Forgrenede veje', 'Komplekse labyrinter'],
+  'find-and-count': ['3-5 objekter at finde', 'Tæl til 10', 'Avancerede scener'],
+  'find-objects': ['Simple objekter', 'Mellemsvære scener', 'Komplekse søgebilleder'],
+  'treasure-hunt': ['Simple gitterkort', 'Retningskort', 'Flertrins jagter'],
+  crossword: ['Mini-krydsord (5 ord)', 'Mellemkrydsord (10 ord)', 'Stort krydsord (15+ ord)'],
+};
+
+function getDaAppData(key: string): AppVisualData {
+  const en = appData[key];
+  if (!en) return appData.addition;
+  const di = danishImages[key];
+  if (!di) return en;
+
+  return {
+    ...en,
+    label: daLabels[key] || en.label,
+    imgs: di.imgs,
+    answerKey: di.answerKey,
+    pills: tPills(en.pills, 'da'),
+    spotPills: tStringPills(en.spotPills, 'da'),
+    galleryPills: tStringPills(en.galleryPills, 'da'),
+    tierDesc: daTierDescs[key] || en.tierDesc,
+  };
+}
+
 // ─── Config generator ───
 // Builds a full ShowcaseConfig from 4 app IDs (primary + 3 supporting).
 // The primary app provides hero images + spotlight; supporting apps fill tiered/gallery.
@@ -934,7 +1005,8 @@ function buildConfig(
   const isIt = locale === 'it';
   const isNl = locale === 'nl';
   const isSv = locale === 'sv';
-  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : isIt ? getItAppData : isNl ? getNlAppData : isSv ? getSvAppData : (k: string) => appData[k] || appData.addition;
+  const isDa = locale === 'da';
+  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : isIt ? getItAppData : isNl ? getNlAppData : isSv ? getSvAppData : isDa ? getDaAppData : (k: string) => appData[k] || appData.addition;
   const d1 = getData(a1);
   const d2 = getData(a2);
   const d3 = getData(a3);
@@ -945,7 +1017,7 @@ function buildConfig(
     hero: {
       gradient: heroGradients[seed % heroGradients.length],
       accentColor: d1.accent,
-      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : isPt ? 'Imprimíveis profissionais' : isIt ? 'Stampabili professionali' : isNl ? 'Professionele Werkbladen' : isSv ? 'Professionella Arbetsblad' : 'Professional Printables',
+      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : isPt ? 'Imprimíveis profissionais' : isIt ? 'Stampabili professionali' : isNl ? 'Professionele Werkbladen' : isSv ? 'Professionella Arbetsblad' : isDa ? 'Professionelle Arbejdsark' : 'Professional Printables',
       heading: pageTitle,
       subheading: isDe
         ? `Erstellen Sie beeindruckende ${d1.label}-Arbeitsblätter, die Ihre Kunden lieben werden`
@@ -961,44 +1033,46 @@ function buildConfig(
         ? `Maak prachtige ${d1.label.toLowerCase()} werkbladen waar je klanten van houden`
         : isSv
         ? `Skapa fantastiska ${d1.label.toLowerCase()} arbetsblad som dina kunder kommer att älska`
+        : isDa
+        ? `Skab fantastiske ${d1.label.toLowerCase()} arbejdsark som dine kunder vil elske`
         : `Create stunning ${d1.label.toLowerCase()} worksheets your customers will love`,
       images: [
-        { src: imgFn(d1.folder, d1.imgs[0]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 1` : isFr ? `Fiche ${d1.label} exemple 1` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 1` : isPt ? `Folha de trabalho ${d1.label} exemplo 1` : isIt ? `Scheda di ${d1.label} esempio 1` : isNl ? `${d1.label} werkblad voorbeeld 1` : isSv ? `${d1.label} arbetsblad exempel 1` : `${d1.label} worksheet sample 1` },
-        { src: imgFn(d1.folder, d1.imgs[1]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 2` : isFr ? `Fiche ${d1.label} exemple 2` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 2` : isPt ? `Folha de trabalho ${d1.label} exemplo 2` : isIt ? `Scheda di ${d1.label} esempio 2` : isNl ? `${d1.label} werkblad voorbeeld 2` : isSv ? `${d1.label} arbetsblad exempel 2` : `${d1.label} worksheet sample 2` },
-        { src: imgFn(d1.folder, d1.imgs[2]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 3` : isFr ? `Fiche ${d1.label} exemple 3` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 3` : isPt ? `Folha de trabalho ${d1.label} exemplo 3` : isIt ? `Scheda di ${d1.label} esempio 3` : isNl ? `${d1.label} werkblad voorbeeld 3` : isSv ? `${d1.label} arbetsblad exempel 3` : `${d1.label} worksheet sample 3` },
+        { src: imgFn(d1.folder, d1.imgs[0]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 1` : isFr ? `Fiche ${d1.label} exemple 1` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 1` : isPt ? `Folha de trabalho ${d1.label} exemplo 1` : isIt ? `Scheda di ${d1.label} esempio 1` : isNl ? `${d1.label} werkblad voorbeeld 1` : isSv ? `${d1.label} arbetsblad exempel 1` : isDa ? `${d1.label} arbejdsark eksempel 1` : `${d1.label} worksheet sample 1` },
+        { src: imgFn(d1.folder, d1.imgs[1]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 2` : isFr ? `Fiche ${d1.label} exemple 2` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 2` : isPt ? `Folha de trabalho ${d1.label} exemplo 2` : isIt ? `Scheda di ${d1.label} esempio 2` : isNl ? `${d1.label} werkblad voorbeeld 2` : isSv ? `${d1.label} arbetsblad exempel 2` : isDa ? `${d1.label} arbejdsark eksempel 2` : `${d1.label} worksheet sample 2` },
+        { src: imgFn(d1.folder, d1.imgs[2]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 3` : isFr ? `Fiche ${d1.label} exemple 3` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 3` : isPt ? `Folha de trabalho ${d1.label} exemplo 3` : isIt ? `Scheda di ${d1.label} esempio 3` : isNl ? `${d1.label} werkblad voorbeeld 3` : isSv ? `${d1.label} arbetsblad exempel 3` : isDa ? `${d1.label} arbejdsark eksempel 3` : `${d1.label} worksheet sample 3` },
       ],
       pills: d1.pills,
       decorativeSymbol: d1.symbol,
     },
     tiered: {
       gradient: tieredGradients[seed % tieredGradients.length],
-      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : isPt ? 'Níveis de habilidade' : isIt ? 'Livelli di abilità' : isNl ? 'Vaardigheidsniveaus' : isSv ? 'Färdighetsnivåer' : 'Skill Levels',
-      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : isPt ? 'Folhas de trabalho para cada nível' : isIt ? 'Schede per ogni livello' : isNl ? 'Werkbladen voor elk niveau' : isSv ? 'Arbetsblad för varje nivå' : 'Worksheets for Every Level',
-      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : isPt ? 'Três níveis de dificuldade para conteúdo diferenciado' : isIt ? 'Tre livelli di difficoltà per contenuti differenziati' : isNl ? 'Drie moeilijkheidsniveaus voor gedifferentieerde inhoud' : isSv ? 'Tre svårighetsnivåer för differentierat innehåll' : 'Three difficulty tiers for differentiated content',
+      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : isPt ? 'Níveis de habilidade' : isIt ? 'Livelli di abilità' : isNl ? 'Vaardigheidsniveaus' : isSv ? 'Färdighetsnivåer' : isDa ? 'Færdighedsniveauer' : 'Skill Levels',
+      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : isPt ? 'Folhas de trabalho para cada nível' : isIt ? 'Schede per ogni livello' : isNl ? 'Werkbladen voor elk niveau' : isSv ? 'Arbetsblad för varje nivå' : isDa ? 'Arbejdsark for hvert niveau' : 'Worksheets for Every Level',
+      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : isPt ? 'Três níveis de dificuldade para conteúdo diferenciado' : isIt ? 'Tre livelli di difficoltà per contenuti differenziati' : isNl ? 'Drie moeilijkheidsniveaus voor gedifferentieerde inhoud' : isSv ? 'Tre svårighetsnivåer för differentierat innehåll' : isDa ? 'Tre sværhedstrin for differentieret indhold' : 'Three difficulty tiers for differentiated content',
       tiers: [
         {
-          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : isPt ? 'Iniciante' : isIt ? 'Principiante' : isNl ? 'Beginner' : isSv ? 'Nybörjare' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
-          image: { src: imgFn(d2.folder, d2.imgs[0]), alt: isDe ? `${d2.label} Anfänger-Arbeitsblatt` : isFr ? `Fiche ${d2.label} débutant` : isEs ? `Hoja de ${d2.label} principiante` : isPt ? `Folha de ${d2.label} iniciante` : isIt ? `Scheda di ${d2.label} principiante` : isNl ? `${d2.label} beginner werkblad` : isSv ? `${d2.label} nybörjararbetsblad` : `${d2.label} beginner worksheet` },
+          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : isPt ? 'Iniciante' : isIt ? 'Principiante' : isNl ? 'Beginner' : isSv ? 'Nybörjare' : isDa ? 'Begynder' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
+          image: { src: imgFn(d2.folder, d2.imgs[0]), alt: isDe ? `${d2.label} Anfänger-Arbeitsblatt` : isFr ? `Fiche ${d2.label} débutant` : isEs ? `Hoja de ${d2.label} principiante` : isPt ? `Folha de ${d2.label} iniciante` : isIt ? `Scheda di ${d2.label} principiante` : isNl ? `${d2.label} beginner werkblad` : isSv ? `${d2.label} nybörjararbetsblad` : isDa ? `${d2.label} begynderarbejdsark` : `${d2.label} beginner worksheet` },
           desc: d2.tierDesc[0],
         },
         {
-          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : isPt ? 'Explorador' : isIt ? 'Esploratore' : isNl ? 'Ontdekker' : isSv ? 'Utforskare' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
-          image: { src: imgFn(d3.folder, d3.imgs[1]), alt: isDe ? `${d3.label} Fortgeschrittenen-Arbeitsblatt` : isFr ? `Fiche ${d3.label} intermédiaire` : isEs ? `Hoja de ${d3.label} intermedio` : isPt ? `Folha de ${d3.label} intermédio` : isIt ? `Scheda di ${d3.label} intermedio` : isNl ? `${d3.label} gemiddeld werkblad` : isSv ? `${d3.label} mellanivåarbetsblad` : `${d3.label} intermediate worksheet` },
+          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : isPt ? 'Explorador' : isIt ? 'Esploratore' : isNl ? 'Ontdekker' : isSv ? 'Utforskare' : isDa ? 'Opdager' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
+          image: { src: imgFn(d3.folder, d3.imgs[1]), alt: isDe ? `${d3.label} Fortgeschrittenen-Arbeitsblatt` : isFr ? `Fiche ${d3.label} intermédiaire` : isEs ? `Hoja de ${d3.label} intermedio` : isPt ? `Folha de ${d3.label} intermédio` : isIt ? `Scheda di ${d3.label} intermedio` : isNl ? `${d3.label} gemiddeld werkblad` : isSv ? `${d3.label} mellanivåarbetsblad` : isDa ? `${d3.label} mellemarbejdsark` : `${d3.label} intermediate worksheet` },
           desc: d3.tierDesc[1],
         },
         {
-          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : isPt ? 'Especialista' : isIt ? 'Esperto' : isNl ? 'Expert' : isSv ? 'Expert' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
-          image: { src: imgFn(d4.folder, d4.imgs[2]), alt: isDe ? `${d4.label} Experten-Arbeitsblatt` : isFr ? `Fiche ${d4.label} avancé` : isEs ? `Hoja de ${d4.label} avanzado` : isPt ? `Folha de ${d4.label} avançado` : isIt ? `Scheda di ${d4.label} avanzato` : isNl ? `${d4.label} gevorderd werkblad` : isSv ? `${d4.label} avancerat arbetsblad` : `${d4.label} advanced worksheet` },
+          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : isPt ? 'Especialista' : isIt ? 'Esperto' : isNl ? 'Expert' : isSv ? 'Expert' : isDa ? 'Ekspert' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
+          image: { src: imgFn(d4.folder, d4.imgs[2]), alt: isDe ? `${d4.label} Experten-Arbeitsblatt` : isFr ? `Fiche ${d4.label} avancé` : isEs ? `Hoja de ${d4.label} avanzado` : isPt ? `Folha de ${d4.label} avançado` : isIt ? `Scheda di ${d4.label} avanzato` : isNl ? `${d4.label} gevorderd werkblad` : isSv ? `${d4.label} avancerat arbetsblad` : isDa ? `${d4.label} avanceret arbejdsark` : `${d4.label} advanced worksheet` },
           desc: d4.tierDesc[2],
         },
       ],
-      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : isPt ? 'Qualidade profissional em cada nível de dificuldade' : isIt ? 'Qualità professionale ad ogni livello di difficoltà' : isNl ? 'Professionele kwaliteit op elk moeilijkheidsniveau' : isSv ? 'Professionell kvalitet på varje svårighetsnivå' : 'Professional quality at every difficulty level',
+      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : isPt ? 'Qualidade profissional em cada nível de dificuldade' : isIt ? 'Qualità professionale ad ogni livello di difficoltà' : isNl ? 'Professionele kwaliteit op elk moeilijkheidsniveau' : isSv ? 'Professionell kvalitet på varje svårighetsnivå' : isDa ? 'Professionel kvalitet på hvert sværhedsniveau' : 'Professional quality at every difficulty level',
     },
     spotlight: {
       gradient: spotlightGradients[seed % spotlightGradients.length],
-      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : isPt ? `Mostra de ${d1.label}` : isIt ? `Vetrina ${d1.label}` : isNl ? `${d1.label}-Etalage` : isSv ? `${d1.label} Utställning` : `${d1.label} Showcase`,
-      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : isPt ? 'Veja o que pode criar!' : isIt ? 'Scopri cosa puoi creare!' : isNl ? 'Bekijk wat je kunt maken!' : isSv ? 'Se vad du kan skapa!' : 'See What You Can Create!',
-      image: { src: imgFn(d1.folder, d1.imgs[3]), alt: isDe ? `Hervorgehobenes ${d1.label}-Arbeitsblatt` : isFr ? `Fiche ${d1.label.toLowerCase()} en vedette` : isEs ? `Hoja de ${d1.label.toLowerCase()} destacada` : isPt ? `Folha de ${d1.label.toLowerCase()} em destaque` : isIt ? `Scheda di ${d1.label.toLowerCase()} in evidenza` : isNl ? `Uitgelicht ${d1.label.toLowerCase()} werkblad` : isSv ? `Utvalt ${d1.label.toLowerCase()} arbetsblad` : `Featured ${d1.label.toLowerCase()} worksheet` },
+      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : isPt ? `Mostra de ${d1.label}` : isIt ? `Vetrina ${d1.label}` : isNl ? `${d1.label}-Etalage` : isSv ? `${d1.label} Utställning` : isDa ? `${d1.label} Udstilling` : `${d1.label} Showcase`,
+      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : isPt ? 'Veja o que pode criar!' : isIt ? 'Scopri cosa puoi creare!' : isNl ? 'Bekijk wat je kunt maken!' : isSv ? 'Se vad du kan skapa!' : isDa ? 'Se hvad du kan skabe!' : 'See What You Can Create!',
+      image: { src: imgFn(d1.folder, d1.imgs[3]), alt: isDe ? `Hervorgehobenes ${d1.label}-Arbeitsblatt` : isFr ? `Fiche ${d1.label.toLowerCase()} en vedette` : isEs ? `Hoja de ${d1.label.toLowerCase()} destacada` : isPt ? `Folha de ${d1.label.toLowerCase()} em destaque` : isIt ? `Scheda di ${d1.label.toLowerCase()} in evidenza` : isNl ? `Uitgelicht ${d1.label.toLowerCase()} werkblad` : isSv ? `Utvalt ${d1.label.toLowerCase()} arbetsblad` : isDa ? `Udvalgt ${d1.label.toLowerCase()} arbejdsark` : `Featured ${d1.label.toLowerCase()} worksheet` },
       pills: d1.spotPills,
       hasBunting: seed % 2 === 0,
       hasConfetti: true,
@@ -1006,12 +1080,12 @@ function buildConfig(
     },
     gallery: {
       gradient: galleryGradient,
-      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : isPt ? 'Galeria profissional de folhas de trabalho' : isIt ? 'Galleria professionale di schede' : isNl ? 'Professionele Werkblad Galerij' : isSv ? 'Professionellt Arbetsbladsgalleri' : 'Professional Worksheet Gallery',
-      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : isPt ? 'Layouts limpos e profissionais prontos para o seu negócio' : isIt ? 'Layout puliti e professionali pronti per il tuo business' : isNl ? 'Strakke, professionele layouts klaar voor je bedrijf' : isSv ? 'Rena, professionella layouter redo för ditt företag' : 'Clean, polished layouts ready for your business',
+      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : isPt ? 'Galeria profissional de folhas de trabalho' : isIt ? 'Galleria professionale di schede' : isNl ? 'Professionele Werkblad Galerij' : isSv ? 'Professionellt Arbetsbladsgalleri' : isDa ? 'Professionelt Arbejdsarkgalleri' : 'Professional Worksheet Gallery',
+      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : isPt ? 'Layouts limpos e profissionais prontos para o seu negócio' : isIt ? 'Layout puliti e professionali pronti per il tuo business' : isNl ? 'Strakke, professionele layouts klaar voor je bedrijf' : isSv ? 'Rena, professionella layouter redo för ditt företag' : isDa ? 'Rene, professionelle layouts klar til din forretning' : 'Clean, polished layouts ready for your business',
       items: [
-        { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: isDe ? `${d2.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d2.label} professionnelle` : isEs ? `Hoja de ${d2.label} profesional` : isPt ? `Folha de ${d2.label} profissional` : isIt ? `Scheda di ${d2.label} professionale` : isNl ? `${d2.label} professioneel werkblad` : isSv ? `${d2.label} professionellt arbetsblad` : `${d2.label} professional worksheet` }, label: d2.label },
-        { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: isDe ? `${d3.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d3.label} professionnelle` : isEs ? `Hoja de ${d3.label} profesional` : isPt ? `Folha de ${d3.label} profissional` : isIt ? `Scheda di ${d3.label} professionale` : isNl ? `${d3.label} professioneel werkblad` : isSv ? `${d3.label} professionellt arbetsblad` : `${d3.label} professional worksheet` }, label: d3.label },
-        { image: { src: imgFn(d4.folder, d4.imgs[0]), alt: isDe ? `${d4.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d4.label} professionnelle` : isEs ? `Hoja de ${d4.label} profesional` : isPt ? `Folha de ${d4.label} profissional` : isIt ? `Scheda di ${d4.label} professionale` : isNl ? `${d4.label} professioneel werkblad` : isSv ? `${d4.label} professionellt arbetsblad` : `${d4.label} professional worksheet` }, label: d4.label },
+        { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: isDe ? `${d2.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d2.label} professionnelle` : isEs ? `Hoja de ${d2.label} profesional` : isPt ? `Folha de ${d2.label} profissional` : isIt ? `Scheda di ${d2.label} professionale` : isNl ? `${d2.label} professioneel werkblad` : isSv ? `${d2.label} professionellt arbetsblad` : isDa ? `${d2.label} professionelt arbejdsark` : `${d2.label} professional worksheet` }, label: d2.label },
+        { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: isDe ? `${d3.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d3.label} professionnelle` : isEs ? `Hoja de ${d3.label} profesional` : isPt ? `Folha de ${d3.label} profissional` : isIt ? `Scheda di ${d3.label} professionale` : isNl ? `${d3.label} professioneel werkblad` : isSv ? `${d3.label} professionellt arbetsblad` : isDa ? `${d3.label} professionelt arbejdsark` : `${d3.label} professional worksheet` }, label: d3.label },
+        { image: { src: imgFn(d4.folder, d4.imgs[0]), alt: isDe ? `${d4.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d4.label} professionnelle` : isEs ? `Hoja de ${d4.label} profesional` : isPt ? `Folha de ${d4.label} profissional` : isIt ? `Scheda di ${d4.label} professionale` : isNl ? `${d4.label} professioneel werkblad` : isSv ? `${d4.label} professionellt arbetsblad` : isDa ? `${d4.label} professionelt arbejdsark` : `${d4.label} professional worksheet` }, label: d4.label },
       ],
       pills: isDe
         ? ['Druckfertig', 'Professionelle Qualität', 'Verschiedene Formate', 'Lösungsschlüssel']
@@ -1027,6 +1101,8 @@ function buildConfig(
         ? ['Printklaar', 'Professionele kwaliteit', 'Meerdere formaten', 'Antwoordsleutels']
         : isSv
         ? ['Utskriftsredo', 'Professionell kvalitet', 'Flera format', 'Facit']
+        : isDa
+        ? ['Printklart', 'Professionel kvalitet', 'Flere formater', 'Facit']
         : ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
       frameColor: d1.frameColor,
     },
@@ -1192,6 +1268,7 @@ const ptConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const itConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const nlConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const svConfigMap = new Map<PageKey, PageShowcaseConfig>();
+const daConfigMap = new Map<PageKey, PageShowcaseConfig>();
 
 pages.forEach((p, i) => {
   const key = `${p.type}:${p.id}` as PageKey;
@@ -1203,6 +1280,7 @@ pages.forEach((p, i) => {
   itConfigMap.set(key, buildConfig(p.apps, p.title, i, 'it'));
   nlConfigMap.set(key, buildConfig(p.apps, p.title, i, 'nl'));
   svConfigMap.set(key, buildConfig(p.apps, p.title, i, 'sv'));
+  daConfigMap.set(key, buildConfig(p.apps, p.title, i, 'da'));
 });
 
 // ─── Public API ───
@@ -1219,5 +1297,6 @@ export function getPageShowcaseConfig(
   if (locale === 'it') return itConfigMap.get(key) ?? null;
   if (locale === 'nl') return nlConfigMap.get(key) ?? null;
   if (locale === 'sv') return svConfigMap.get(key) ?? null;
+  if (locale === 'da') return daConfigMap.get(key) ?? null;
   return enConfigMap.get(key) ?? null;
 }

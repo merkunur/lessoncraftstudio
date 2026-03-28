@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'ESL Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover ESL printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Niche strategies for sellers targeting buyers, tutors, and language learners worldwide.',
+    titleTag: 'ESL Printable Business Ideas for Etsy | LCS',
+    metaDescription: 'ESL printable business ideas for Etsy & KDP. Language learning product concepts and strategies for ESL and ELL printable sellers.',
 
-    primaryKeyword: 'ESL printable ideas',
+    primaryKeyword: 'ESL printable business ideas Etsy',
     secondaryKeywords: [
-      'ESL worksheets to sell',
-      'ESL printable business ideas',
-      'English learner activity sheets',
-      'sell ESL printables on Gumroad',
+      'ESL worksheets for Etsy sellers',
+      'ESL activity books for Amazon KDP',
+      'sell ESL printables online',
+      'English learner printable products',
     ],
     lsiKeywords: [
-      'English language learner worksheets',
-      'multilingual educational printables',
-      'TESOL educational activity resources',
+      'ESL printable niche',
+      'English learner products',
+      'language learning worksheet business',
     ],
   },
   hero: {
-    title: 'ESL Printable Business Ideas for Sellers',
-    description: 'ESL printables represent a large and growing global market where ESL and ELL product buyers, TESOL professionals, private tutors, language schools, community organizations, and immigrant and refugee families purchase vocabulary building worksheets, visual-support activities, scaffolded practice materials, and conversation-starter resources throughout the entire calendar year. English language learner populations are expanding in school districts worldwide as immigration patterns create new communities of users who need supplemental materials designed specifically for non-native English speakers learning academic and conversational English simultaneously. ESL instruction spans K-12 product line pullout and push-in programs, adult education centers, community literacy programs, private tutoring sessions, and international language schools, with each setting purchasing different types of materials tailored to their specific learner demographics and instructional approaches. The buyer base is uniquely international because ESL and ELL purchasers come from dozens of countries around the world, creating demand across time zones and seasons that insulates this niche from the calendar-driven purchasing patterns that limit many educational printable categories. ESL enrollment happens continuously throughout the school year as families relocate and new arrivals enter school systems, generating steady demand for newcomer materials, vocabulary building resources, and scaffolded practice activities that buyers need immediately rather than at predictable product planning intervals. Visual-heavy and vocabulary-focused materials command strong pricing in this niche because language learners at all proficiency levels need picture-supported resources, labeled activities, and comprehension scaffolds that general education printable sellers almost never include in their standard worksheet designs. The market remains profoundly underserved relative to its actual size because the majority of printable sellers focus exclusively on native English speaker materials, leaving ESL professionals and families searching for resources that incorporate simplified English instructions, visual supports, bilingual-friendly layouts, and progressive language difficulty suitable for beginning through advanced English proficiency levels. For printable sellers and entrepreneurs building product lines on Etsy, Amazon KDP, Gumroad, and direct sales platforms, the ESL niche combines growing global demand with an underserved buyer population, year-round purchasing patterns, international market reach, and strong professional community networks in TESOL and English language teaching organizations that drive discovery when products genuinely address the specialized needs that general education printables consistently fail to meet. This guide covers specific product ideas built around our worksheet generator tools, platform strategies for reaching ESL buyers worldwide, and niche positioning approaches to help you build a profitable ESL printable product line.',
+    title: 'ESL Printable Business Ideas for Etsy Sellers',
+    description: 'ESL and language learning printables are one of the fastest-growing niches on Etsy — the global demand for English learning materials is enormous and year-round. This niche guide covers the ESL opportunity: which formats work best for English learners, how our 11-language support creates unique ESL products, and strategies for targeting tutors, language schools, and immigrant families. ESL printables command premium prices because buyers need specialized materials they can\'t find in generic educational products.',
   },
   marketOverview: `The ESL printable market represents a substantial and expanding revenue opportunity because English language learner populations are growing rapidly across English-speaking countries while international demand from language schools and tutors in non-English-speaking countries adds a global buyer dimension that most educational printable niches lack entirely. School districts across the United States, Canada, the United Kingdom, and Australia report increasing ELL enrollment as immigration and refugee resettlement patterns bring families whose children enter school systems needing intensive English language support alongside their academic instruction. Adult ESL programs are simultaneously expanding as community colleges, workforce development organizations, refugee resettlement agencies, and community literacy programs serve growing populations of adult English learners who need practical vocabulary, workplace English, and daily living language skills. This combination of K-12 institutional demand, adult education purchasing, and international buyer reach creates multiple overlapping market segments that printable sellers can target with tiered product lines.
 
@@ -145,44 +145,19 @@ The competitive landscape in ESL printables favors specialists over generalists.
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'prepositions-worksheets',
+      anchorText: 'Preposition generator for ESL activities',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'special-education-printable-ideas',
-      anchorText: 'Special Education Printable Business Ideas',
+      slug: 'homeschool-printable-ideas',
+      anchorText: 'Homeschool printable ideas',
     },
   ],
 

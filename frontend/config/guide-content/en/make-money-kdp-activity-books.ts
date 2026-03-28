@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'make money KDP activity books',
+    primaryKeyword: 'make money with KDP activity books 2026',
     secondaryKeywords: [
-      'how to make money with KDP activity books',
-      'KDP activity book income strategies',
-      'Amazon KDP activity book revenue optimization',
-      'profitable activity book publishing KDP',
+      'KDP activity book income guide 2026',
+      'earn money publishing activity books Amazon',
+      'profitable KDP activity book business',
+      'Amazon KDP activity book revenue strategies',
     ],
     lsiKeywords: [
-      'KDP royalty calculation printing cost price strategy',
-      'activity book catalog compounding revenue monthly earnings',
-      'seasonal publishing holiday Christmas summer back-to-school',
-      'Amazon Best Seller badge keyword category ranking',
-      'multi-platform Etsy Gumroad digital printable expansion',
-      'KDP reports performance tracking revenue per title analysis',
+      'KDP passive income activity books',
+      'Amazon self-publishing revenue',
+      'activity book business model',
     ],
-    titleTag: 'Make Money KDP Activity Books — Revenue Guide',
-    metaDescription: 'How to make money with KDP activity books. Covers pricing, catalog building, royalty calculations, seasonal publishing, and multi-platform scaling strategies.',
+    titleTag: 'Make Money with KDP Activity Books (2026) | LCS',
+    metaDescription: 'How to make money with KDP activity books in 2026. Revenue strategies, niche selection, pricing, and scaling tactics for activity book publishers.',
   },
 
   hero: {
-    title: 'How to Make Money with KDP Activity Books',
+    title: 'Make Money with KDP Activity Books in 2026',
     tagline: 'A comprehensive revenue guide for Amazon KDP activity book publishers — covering royalty math and pricing sweet spots, catalog economics that compound monthly income, seasonal publishing strategies for holiday revenue spikes, Amazon keyword optimization for maximum sales, production scaling across multiple activity book types, performance tracking to double down on winners, and multi-platform expansion to Etsy and Gumroad for additional income streams',
-    description: 'Publishing activity books on Amazon KDP is straightforward. Making consistent, growing income from them requires a deliberate business strategy. This guide is not about how to create activity books — our other KDP guides cover math activity books, puzzle books, word search books, and formatting in detail. This guide is about the money: how KDP royalties actually work for activity books, how to price for maximum profit rather than maximum sales, why a catalog of 10 books earns far more than 10 times what a single book earns, and how to build a publishing business that generates compounding monthly revenue rather than one-time sales.',
+    description: 'Amazon KDP activity books generate passive income with zero inventory, zero shipping, and global reach — but most publishers fail because they choose saturated niches and generic content. This guide reveals which activity book niches are actually profitable in 2026, how to price for maximum royalties, and how to scale from your first book to a full catalog. You\'ll learn how to use our 33 generators to produce unique content that competitors can\'t easily replicate, giving you a sustainable competitive advantage.',
   },
 
   introduction: 'Activity books are among the most reliable income categories on Amazon KDP because they combine two powerful business dynamics: steady year-round demand and a built-in consumption cycle. Unlike novels or reference books that a buyer reads once and keeps forever, activity books get used up. A child finishes a math workbook, a puzzle enthusiast completes a word search collection, a parent works through a coloring book with their toddler — and then they need another one. This repeat-purchase behavior is the foundation of activity book publishing economics.\n\nThe KDP activity book market spans dozens of subcategories: math workbooks, word search collections, crossword puzzles, sudoku books, coloring books, drawing prompts, letter tracing, mazes, and more. Each subcategory has its own demand curve, competitive density, and pricing dynamics. But the underlying business model is the same across all of them: low per-sale royalties that add up through volume, catalog depth, and time.\n\nMost new KDP publishers make two fundamental mistakes. First, they focus entirely on creating one excellent book rather than planning a catalog strategy. A single activity book, no matter how good, has a revenue ceiling. Second, they price based on what feels right rather than calculating the actual royalty math at different price points and page counts. The difference between pricing a 60-page math workbook at 6.99 dollars and 8.99 dollars can mean the difference between earning 0.20 dollars per sale and 1.40 dollars per sale — a 7x royalty increase from a 2-dollar price change.\n\nThis guide focuses exclusively on the business and revenue side of KDP activity book publishing. For detailed instructions on creating specific activity book types, refer to the math activity books KDP guide, the puzzle books guide, and the word search books guide. For formatting specifications, see the KDP formatting guide. Here we cover what none of those guides address: the economics, pricing strategy, catalog planning, seasonal timing, performance optimization, and multi-platform expansion that transform activity book publishing from a hobby into an income stream.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'How to Create Word Search Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'How to Create Sudoku Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'How to Create Etsy Worksheet Bundles' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Worksheet Generator — Full Details' },
+    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Best KDP activity book niches in 2026' },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Create math activity books for KDP' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP activity book business guide' },
   ],
 
   toolsRecommended: [

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create subtraction worksheets',
+    primaryKeyword: 'how to create subtraction worksheets to sell',
     secondaryKeywords: [
-      'make subtraction worksheets for kids',
-      'subtraction worksheet generator',
-      'printable subtraction worksheets to sell',
-      'custom subtraction practice sheets',
+      'create subtraction worksheets for Etsy',
+      'make subtraction printables for KDP',
+      'subtraction worksheet creation guide',
+      'sell subtraction worksheets online',
     ],
     lsiKeywords: [
-      'crossed-out image subtraction worksheets',
-      'visual subtraction for kindergarten',
-      'first grade subtraction practice',
-      'sell subtraction worksheets on Etsy',
-      'Amazon KDP subtraction activity books',
-      'commercial license worksheet tool',
+      'subtraction printable business',
+      'math worksheet product creation',
+      'sellable subtraction products',
     ],
-    titleTag: 'Create Subtraction Worksheets — Step-by-Step Guide',
-    metaDescription: 'Create subtraction worksheets for kids with crossed-out images, themed visuals, and auto answer keys. Step-by-step guide to selling on Etsy, KDP, and Gumroad.',
+    titleTag: 'Create Subtraction Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating subtraction worksheets to sell on Etsy & KDP. Cross-out mode, difficulty tiers, bundle strategies, and listing optimization tips.',
   },
 
   hero: {
-    title: 'How to Create Subtraction Worksheets for Kids',
+    title: 'Create Subtraction Worksheets to Sell on Etsy & KDP',
     tagline: 'A step-by-step tutorial for creating themed subtraction worksheets with crossed-out images, configurable difficulty, and print-ready exports you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Subtraction worksheets are the natural second step in every math content library. Once children master addition, subtraction follows immediately — and so does the demand for practice materials. Parents, buyers, and tutors all need subtraction resources that match the difficulty level their solvers are ready for. This guide walks you through the entire creation process using the Subtraction Worksheet Generator — from setting the Max Minuend and choosing a visual theme to exporting polished, print-ready PDFs with automatic answer keys. The subtraction generator\'s signature feature is the crossed-out image exercise mode, where children see a group of themed pictures with some visually crossed out and must determine how many remain. Whether you are adding subtraction products to an existing math worksheet line or creating your first printable product, you will have a finished worksheet ready to list by the end of this tutorial.',
+    description: 'Subtraction worksheets pair naturally with addition to create complete math bundles that command premium prices on Etsy. This guide covers creating professional subtraction worksheets with the unique cross-out visualization that makes your products stand out from generic drill sheets. You\'ll learn how to build difficulty tiers from simple take-away counting through advanced problems, create themed bundles that attract specific buyer segments, and optimize your listings for Etsy and Amazon KDP.',
   },
 
   introduction: 'Subtraction is the second arithmetic operation children learn, and it follows addition in every content library worldwide. That sequencing creates a reliable demand pattern: wherever addition worksheets sell, subtraction worksheets sell right behind them. Buyers who purchase your addition products will actively search for matching subtraction materials, making this a natural catalog expansion with a built-in audience.\n\nWhat makes subtraction worksheets distinctive as a printable product is the visual element. While addition worksheets show two groups being combined, subtraction worksheets show items being removed — typically through crossed-out images. This visual representation of "taking away" is how children first understand subtraction conceptually, and it makes subtraction worksheets immediately recognizable and appealing in marketplace thumbnails.\n\nThe Subtraction Worksheet Generator handles all the technical complexity of creating these visuals. It places themed images on the canvas, marks the correct number as crossed out, generates the corresponding equation, and produces an automatic answer key. The generator supports four exercise modes — Cross Out, Image – Number, Find Subtrahend, and Mixed — each serving different learning stages and buyer needs. Difficulty is controlled through the Max Minuend setting, which determines the largest number children subtract from.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample worksheets, test every configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Try the Subtraction Worksheet Maker' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction worksheet generator' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Create addition worksheets to sell' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to sell math worksheets on Etsy' },
   ],
 
   toolsRecommended: [

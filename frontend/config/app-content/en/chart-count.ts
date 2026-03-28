@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture graph generator',
+    primaryKeyword: 'counting chart worksheet maker for Etsy shop',
     secondaryKeywords: [
-      'printable pictograph worksheet maker for Etsy sellers',
-      'chart count worksheet generator for KDP publishers',
-      'sell picture graph activities on printable marketplaces',
-      'data graphing worksheet creator commercial license',
+      'picture graph worksheets to sell online',
+      'counting and graphing printables for KDP',
+      'data graphing worksheets for printable business',
+      'create picture chart worksheets for TPT',
     ],
     lsiKeywords: [
-      'digital pictograph printables online business',
-      'printable data representation worksheet business',
-      'commercial use picture graph generator',
+      'STEM printable niche low competition',
+      'early learning data skills worksheets',
+      'sell graphing activities online',
     ],
-    titleTag: 'Picture Graph Generator | Create Chart Worksheets',
-    metaDescription: 'Create picture graph worksheets to sell on Etsy, KDP & Gumroad. Auto answer key with highlights, 104 themes, 6 image types per sheet.',
+    titleTag: 'Counting Chart Worksheets — Sell on Etsy | LCS',
+    metaDescription: 'Create picture graph & counting chart worksheets to sell on Etsy, KDP & TPT. Themed images, auto answer keys, commercial license. Try free in 3 minutes.',
   },
 
   hero: {
-    title: 'Picture Graph Worksheet Generator for Printable Chart Count Activities',
+    title: 'Create Counting & Chart Worksheets to Sell on Etsy & KDP',
     tagline: 'Dual-canvas pictograph maker — generate scattered image grids with 6 image types, auto-filled bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets.',
     description:
-      'Turn visual counting into a complete data skills activity with the only worksheet generator built specifically for picture graphs. Each worksheet features a scattered image grid with 20 icons from 6 different types arranged in a 4×5 layout — count how many of each type appear, then color the corresponding cells in the bar chart below. The app simultaneously generates an answer key with yellow-highlighted cells showing the correct counts, so the answer key provides instant verification. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown, or manually pick exactly 6 images from the browsable Image Library with 3,100+ illustrations across 104 collections. Every worksheet includes an auto-generated header with a localized \"Picture Graph\" title and counting instructions — the header adapts to all 11 supported languages automatically. Add name and date fields with a single checkbox, apply background and border themes with independent opacity controls, and customize with text tools and freehand canvas editing. The Chart Count Generator is not language-sensitive — visual counting uses universal numbers and images, so worksheets work identically in every language. Full Access unlocks all 104 themes and all 11 UI languages. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Download all four files — worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — with a single session. Whether you sell picture graph bundles on Etsy, compile data skills workbooks for Amazon KDP, or list graphing products on Gumroad, the Chart Count Generator delivers print-ready results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Graphing and data worksheets are an underserved niche on Etsy — most sellers focus on basic math, leaving counting chart printables as a low-competition opportunity. This generator creates picture graph and chart count worksheets using themed images where students count, tally, and compare data visually. Export as 300 DPI print-ready PDFs with automatic answer keys and sell them on Etsy, compile them into Amazon KDP data and graphing workbooks, or list on TPT for classroom use. The commercial license covers all platforms with zero restrictions. Tap into the growing demand for STEM-focused early learning printables with a product format that few competing sellers offer. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Picture Graph Worksheets in 5 Steps',
+    title: 'How the Chart Count Generator Works',
     steps: [
       {
         title: 'Set Your Page Layout and Identification Fields',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Chart Count Worksheet Generator',
+    title: 'Why Data & Graphing Worksheets Are an Underserved Niche',
     features: [
       {
         title: 'Picture Graph Worksheet Generator with Scattered Image Grid and Bar Chart',
@@ -80,7 +80,7 @@ const content: AppContent = {
           'Every generated worksheet includes an auto-generated header with a yellow pill background (#FFD93D), white inner pill, and orange border frame (outer #FF8C42, inner #FFD6A5). The header displays a localized title — \"Picture Graph\" in English, \"Bilddiagramm\" in German, \"Graphique en Images\" in French, and equivalent translations in all 11 supported languages. Below the title, localized counting instructions explain the activity. The header adapts automatically when you switch the UI language, making worksheets print-ready in any locale without manual text editing.',
       },
       {
-        title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
+        title: 'Choose from 3,000+ Themed Images for Chart Exercises',
         description:
           'Browse 104 themed image collections covering animals, food, vehicles, nature, professions, holidays, sports, seasons, and dozens more. Each theme provides a coordinated set of colorful illustrations perfect for picture graph worksheets. Use the theme dropdown to filter by category or search for specific images by keyword. In automatic mode, the app selects 6 images from your chosen theme; in manual mode, you pick exactly 6 from any combination of themes. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes for maximum variety across worksheet bundles.',
       },
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Graph Worksheets Online',
+    title: 'Export and List on Etsy, KDP & TPT',
     cases: [
       {
         title: 'Themed Picture Graph Bundles on Etsy',
@@ -112,7 +112,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Data Skills Workbooks on Amazon KDP',
+        title: 'Create Graphing Activity Books for Amazon KDP',
         description:
           'Compile 60–100 picture graph worksheets into a printed data skills workbook formatted for Amazon KDP. Structure chapters by theme: Chapter 1 covers animal counting, Chapter 2 food graphs, Chapter 3 vehicle data, and so on. Toggle grayscale export for ink-friendly pages ready for black-and-white book interiors. Include answer key pages at the back of each chapter as reference pages. The dual-canvas generation produces both worksheet and answer key automatically, so building a 100-page workbook with complete solutions takes a fraction of the time compared to manual creation.',
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -130,7 +130,7 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
-        title: 'Seasonal Counting and Graphing Collections',
+        title: 'Bundle with Math Worksheets for Complete STEM Packages',
         description:
           'The 104 themed image collections cover every seasonal and holiday occasion — Christmas ornaments, Halloween icons, Easter items, Valentine\'s hearts, back-to-school supplies, summer activities, and winter scenes. Create time-limited picture graph collections that align with peak shopping periods. Release Halloween counting bundles in September, Christmas graphing packs in October, and Valentine\'s data activities in January. Include answer keys with every set for complete product packages. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Find and count worksheets for complementary counting products',
     },
     {
       pageType: 'app',
-      slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'pattern-worksheets',
-      anchorText: 'Pattern Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'drawing-lines-worksheets',
-      anchorText: 'Drawing Lines Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'coloring-worksheets',
-      anchorText: 'Coloring Page Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'visual-learning-bundle',
-      anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids Activities',
-    },
-    {
-      pageType: 'idea',
-      slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-business',
-      anchorText: 'Build Your Etsy Printable Business',
+      slug: 'math-worksheets',
+      anchorText: 'Math drill worksheets for complete math bundles',
     },
     {
       pageType: 'guide',
       slug: 'create-chart-count-worksheets',
-      anchorText: 'How to Create Chart & Count Worksheets',
+      anchorText: 'Tutorial for creating counting worksheets',
     },
   ],
 

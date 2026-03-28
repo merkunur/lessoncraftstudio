@@ -14,9 +14,9 @@ import { encodeImagePath } from '@/lib/encode-image-path';
 // ============================================================
 const appsMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
-    title: '33 Printable Generators | Etsy & KDP Tools',
-    description: 'Browse all 33 professional printable generators. Create word searches, math worksheets, coloring pages, puzzles & more. Try free with watermark. Sell on Etsy, Amazon KDP.',
-    keywords: 'printable generator, Etsy printables, KDP worksheets, sell printables online, word search generator, math worksheet maker, coloring page creator, crossword puzzle generator, printable business tools, create and sell printables',
+    title: '33 Printable Generators — Sell on Etsy & KDP | LCS',
+    description: '33 professional printable generators to create worksheets, puzzles & coloring pages to sell on Etsy & KDP. Commercial license included. Try free with watermark.',
+    keywords: 'printable generators to create and sell worksheets, Etsy printable tools, KDP worksheet generators, sell printables online, commercial license generators, printable business tools',
   },
   de: {
     title: '33 Druckvorlagen-Generatoren | Etsy & KDP Tools',

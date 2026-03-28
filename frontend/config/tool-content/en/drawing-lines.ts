@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'line tracing worksheet',
+    primaryKeyword: 'free tracing worksheet maker',
     secondaryKeywords: [
-      'line tracing worksheet maker for sellers',
-      'create drawing lines worksheets to sell',
-      'printable line tracing worksheets commercial use',
-      'drawing lines worksheet generator for KDP',
+      'make tracing worksheets free online',
+      'line drawing generator no signup',
+      'free fine motor worksheet maker',
+      'tracing worksheets free trial',
     ],
     lsiKeywords: [
-      'fine motor skills worksheet tool for Etsy',
-      'SVG line template worksheet generator',
-      'image pair matching line tracing printables',
+      'free tracing tool online',
+      'instant line tracing maker',
+      'try before you buy tracing tools',
     ],
-    titleTag: 'Line Tracing Worksheet Maker — Drawing Lines Generator',
-    metaDescription: 'Create line tracing worksheets with eight SVG templates, 3,100+ illustrations across 104 themes, and auto-fill image pairs. Try free — license available.',
+    titleTag: 'Free Tracing Worksheet Maker Online | LCS',
+    metaDescription: 'Make tracing worksheets free online with watermark — no signup. 8 SVG line templates, themed image pairs, fine motor skills. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Drawing Lines Worksheet Maker',
+    title: 'Make Tracing Worksheets Free Online — No Signup Needed',
     tagline: 'Eight SVG line templates with image pair matching, auto-fill from 104 colorful themes, and template-driven page orientation for professional line tracing worksheets that sell worldwide',
-    description: 'Create professional line tracing worksheets where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover a complete fine motor progression: one horizontal template for straight left-to-right tracing (easiest), one vertical template for top-to-bottom strokes, four curve templates for flowing wrist movements, and two diagonal templates for cross-body coordination (hardest). Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving users a visual goal at each end. Template selection automatically drives page orientation — curves default to landscape for sweeping arcs, while diagonal, horizontal, and vertical templates use portrait for focused practice. Auto-fill instantly populates every pair slot with random images from any selected theme or across all 104 themes at once, making batch creation fast. Content draws from 3,100+ colorful illustrations across 104 themed collections — animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making products universally sellable without translation. No answer key is needed because the line path itself guides the user — a self-checking activity by design. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create line tracing worksheets right now — free, instant, no account required. Eight SVG-based templates cover curves, diagonals, horizontal, and vertical lines with 4-5 themed image pairs per page. Auto-fill randomly assigns matching images from any of 104 themed collections. Every worksheet is purely visual with zero text, making them universally usable. Every feature is unlocked in the free trial including all templates and 300 DPI export. Downloads include a small watermark. Want to sell tracing worksheets on Etsy or compile fine motor workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Line Tracing Worksheets in 8 Steps',
+    title: 'How to Make Tracing Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Drawing Lines Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Drawing Lines Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big & Small Worksheet Maker' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Free coloring page maker' },
+    { pageType: 'guide', slug: 'create-drawing-worksheets', anchorText: 'How to create drawing worksheets to sell' },
   ],
 
   visuals: {

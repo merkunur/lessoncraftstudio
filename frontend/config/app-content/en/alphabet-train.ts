@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet train generator',
+    primaryKeyword: 'alphabet worksheet generator for Etsy KDP sellers',
     secondaryKeywords: [
-      'printable alphabet train maker for Etsy sellers',
-      'letter recognition worksheet generator for KDP publishers',
-      'sell alphabet worksheets on Gumroad',
-      'alphabet train printables commercial license',
+      'create alphabet train worksheets for Etsy shop',
+      'letter learning printables for Amazon KDP',
+      'alphabet worksheets with commercial license',
+      'sell alphabet activities online',
     ],
     lsiKeywords: [
-      'digital letter recognition products online business',
-      'printable alphabet worksheet business',
-      'commercial use alphabet train generator',
+      'alphabet printable niche Etsy KDP',
+      'sell letter learning worksheets commercially',
+      'literacy worksheet products',
     ],
-    titleTag: 'Alphabet Train Generator | Create Literacy Printables',
-    metaDescription: 'Create alphabet train worksheets to sell on Etsy, KDP & Gumroad. Train-car letter-image matching across 11 languages, 104 themes. Try free — license available.',
+    titleTag: 'Alphabet Worksheet Generator for Etsy & KDP | LCS',
+    metaDescription: 'Create alphabet worksheets to sell on Etsy & KDP. Train-car letter learning, themed images, 11 languages, commercial license. Try free — no signup needed.',
   },
 
   hero: {
-    title: 'Alphabet Train Worksheet Generator for Letter Recognition Practice',
+    title: 'Create Alphabet Worksheets to Sell on Etsy & Amazon KDP',
     tagline: 'Every wagon carries a letter and a matching image — building letter recognition one train car at a time.',
     description:
-      'Design eye-catching alphabet train worksheets where 11 colorful wagons roll across the page, each carrying a letter paired with a matching illustration. Choose Auto Create mode for instant random letter selections or Manual mode to hand-pick exactly 11 letters from the alphabet for targeted practice. Add 3 to 11 configurable clues per worksheet — image hints that users match to the correct letter wagon — turning passive letter recognition into an active problem-solving exercise. Browse over 3,100 curated illustrations across 104 themes to find the perfect image for every letter. Full Access unlocks all 11 supported languages with their native alphabets — German with Ä/Ö/Ü, Swedish with Å/Ä/Ö, Spanish with Ñ, and more — multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or Square sizes. Whether you sell themed alphabet bundles on Etsy, compile progressive literacy books for Amazon KDP, or create tiered letter-recognition packs for Gumroad, the Alphabet Train Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Alphabet worksheets are one of the highest-demand printable products on Etsy — parents, homeschool families, and teachers buy letter learning materials year-round. This generator creates unique train-themed alphabet activities where each letter rides in its own train car with a themed image, making letter learning visual and engaging. Choose from 3,000+ illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. The 11-language support generates different alphabet content per locale, including accented characters for German, French, Spanish, and more — each language is a separate sellable product. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Alphabet Train Worksheets in 5 Steps',
+    title: 'How to Create Alphabet Train Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Alphabet Train Worksheet Generator',
+    title: 'Why Alphabet Worksheets Are High-Demand Printables',
     features: [
       {
         title: 'Train-Car Worksheet Format with Letter-Image Pairing',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Alphabet Train Worksheets Online',
+    title: 'Sell Alphabet Workbooks on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Alphabet Train Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'prepositions-worksheets',
-      anchorText: 'Prepositions Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
+      slug: 'writing-worksheets',
+      anchorText: 'Handwriting worksheets for complementary literacy bundles',
     },
     {
       pageType: 'app',
       slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'literacy-language-bundle',
-      anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Alphabet Worksheets on Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Sellers',
+      anchorText: 'Word search puzzles for vocabulary learning products',
     },
     {
       pageType: 'guide',
       slug: 'create-alphabet-worksheets',
-      anchorText: 'How to Create Alphabet Worksheets',
+      anchorText: 'Guide to creating alphabet worksheets that sell',
     },
   ],
 

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Food & Cooking Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover food and cooking printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Recipe-themed product concepts, platform strategies, and tips for sellers.',
+    titleTag: 'Food Themed Printables to Sell | LCS',
+    metaDescription: 'Food themed printable business ideas for Etsy & KDP. Kitchen and cooking product concepts and strategies for food-themed printable sellers.',
 
-    primaryKeyword: 'food & cooking printable ideas',
+    primaryKeyword: 'food themed printables to sell on Etsy',
     secondaryKeywords: [
-      'food themed worksheets to sell',
-      'cooking printable business ideas',
-      'kitchen activity sheets for sellers',
-      'sell food printables on Etsy',
+      'food worksheets for Etsy sellers',
+      'cooking activity books for Amazon KDP',
+      'sell food printables online',
+      'kitchen themed printable business',
     ],
     lsiKeywords: [
-      'culinary themed educational worksheets',
-      'nutrition activities for kids',
-      'recipe themed product line printables',
+      'food printable niche',
+      'cooking themed worksheets',
+      'kitchen themed products',
     ],
   },
   hero: {
-    title: 'Food & Cooking Printable Business Ideas for Sellers',
-    description: 'Food and cooking is one of the most universally engaging themes for children of all ages, making it an exceptional evergreen niche for printable entrepreneurs seeking consistent year-round revenue with broad cross-curricular appeal. The food and cooking theme offers remarkable sub-theme depth including fruits, vegetables, pizza, cookies, cake, bread, kitchen utensils, baking, grocery shopping, healthy eating, nutrition, farm to table concepts, and international foods, giving sellers a vast visual vocabulary that connects to every child\'s daily experience with meals, snacks, and kitchen exploration. Cross-curricular versatility makes food printables especially valuable because cooking connects naturally to math through measuring and counting ingredients, literacy through recipe reading and food vocabulary, science through nutrition and plant growth, and life skills through healthy eating habits and kitchen safety awareness. For printable sellers on Etsy, Amazon KDP, and Gumroad, the food and cooking niche combines strong year-round demand with universal relatability that resonates with preschool and kindergarten buyers running nutrition units, homeschool families exploring cooking themes, and parents looking for engaging learning activities that connect product line skills to everyday kitchen experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable food and cooking printable product line using our worksheet generator tools.',
+    title: 'Food Themed Printables to Sell on Etsy',
+    description: 'Food and cooking themes resonate with families who value nutrition education and kitchen activities -- fruits, vegetables, baking, and meals provide rich visual content for printable products. This niche guide covers the commercial opportunity: which food-themed formats sell best, how to create seasonal food bundles tied to holidays, and strategies for targeting health-conscious and homeschool buyer segments. Food images are colorful and instantly recognizable, making them excellent for early learning activities.',
   },
   marketOverview: `The food and cooking printable niche holds a uniquely powerful position for printable sellers because every child has a direct, personal connection to food through daily meals, snack times, grocery shopping trips, and kitchen experiences with family. Unlike niche themes that depend on a child developing a specific interest, food is universally relevant from infancy onward, ensuring that food-themed educational materials appeal to the broadest possible audience of parents, buyers, and homeschool families. This universal relevance translates into consistent buyer demand across all twelve months because nutrition education, healthy eating awareness, and cooking-themed learning activities are never out of season.
 
@@ -143,19 +143,19 @@ Cultural inclusivity through international foods represents a valuable different
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Matching generator for food activities',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'pets-printable-ideas',
+      anchorText: 'Pet themed printable ideas',
     },
     {
       pageType: 'guide',

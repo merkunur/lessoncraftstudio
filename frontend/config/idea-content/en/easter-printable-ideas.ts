@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Easter Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover Easter printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Spring holiday product concepts, seasonal strategies, and platform tips for sellers.',
+    titleTag: 'Easter Printables to Sell on Etsy | LCS',
+    metaDescription: 'Easter printable business ideas for Etsy & KDP. Product concepts, release timing, and strategies for the spring holiday printable market.',
 
-    primaryKeyword: 'easter printable ideas',
+    primaryKeyword: 'Easter printables to sell on Etsy',
     secondaryKeywords: [
-      'Easter worksheets to sell',
-      'Easter themed printable business',
-      'Easter activity sheets for sellers',
-      'sell Easter printables on Etsy',
+      'Easter worksheets for Etsy sellers',
+      'Easter activity packs for Amazon KDP',
+      'sell Easter printables online',
+      'spring holiday printable products',
     ],
     lsiKeywords: [
-      'spring holiday educational worksheets',
-      'egg hunt themed activity pages',
-      'seasonal Easter printable resources',
+      'Easter printable niche',
+      'spring holiday products',
+      'Easter themed worksheets',
     ],
   },
   hero: {
-    title: 'Easter Printable Business Ideas for Sellers',
-    description: 'Easter creates a vibrant spring selling window for printable entrepreneurs, with demand climbing from February through April as buyers plan spring educational activities and parents search for educational Easter basket fillers and egg hunt supplements. The niche offers delightful sub-theme variety including bunnies, decorated eggs, chicks, lambs, baskets, spring flowers, tulips, carrots, and egg hunts, providing sellers with a cheerful visual vocabulary that resonates strongly with younger buyers and their families. Church groups and community organizations add another buyer segment, seeking printable activities for Easter events and spring celebrations. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Easter niche combines predictable annual demand with a festive spring aesthetic that photographs beautifully for product listings and marketing materials. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable Easter printable product line using our worksheet generator tools.',
+    title: 'Easter Printables to Sell on Etsy',
+    description: 'Easter is the second-largest seasonal printable opportunity after Christmas — parents search for egg hunts, bunny-themed activities, and spring worksheets starting in February. This niche guide covers the Easter printable market: which product formats sell best, how to time your releases for the spring demand window, and specific product ideas across counting, coloring, matching, and puzzle activities. Start listing in January to capture early shoppers and build listing authority before peak demand hits.',
   },
   marketOverview: `The Easter printable niche occupies a prime position in the spring selling calendar, delivering concentrated seasonal demand during a period when few other holidays compete for buyer attention. buyers begin planning spring educational activities and pre-Easter celebrations in February and early March, searching for themed worksheets that blend holiday charm with genuine educational outcomes. Parents seek age-appropriate Easter activities that serve double duty as Easter basket inserts and educational entertainment during the excitement-filled days leading up to the holiday. Church groups, Sunday school coordinators, and community event organizers purchase themed activity sheets for Easter egg hunts, spring festivals, and family-friendly celebrations that need structured activities for young participants.
 
@@ -143,44 +143,19 @@ To capture maximum Easter revenue, develop products across multiple sub-themes a
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Treasure hunt generator for Easter egg hunts',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
-      slug: 'halloween-printable-ideas',
-      anchorText: 'Halloween Printable Business Ideas',
+      slug: 'spring-printable-ideas',
+      anchorText: 'Spring printable business ideas',
     },
   ],
 

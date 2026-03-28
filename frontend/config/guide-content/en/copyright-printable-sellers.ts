@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'copyright printable sellers',
+    primaryKeyword: 'copyright basics for printable sellers',
     secondaryKeywords: [
-      'copyright protection worksheets',
-      'printable business copyright law',
-      'protect worksheets from copying',
-      'copyright for digital products',
+      'copyright for printable business owners',
+      'printable seller copyright guide',
+      'protect your printable designs legally',
+      'copyright law for digital product sellers',
     ],
     lsiKeywords: [
-      'intellectual property original work protection copyright registration DMCA takedown',
-      'fair use educational public domain resources copyright infringement derivative works',
-      'copyright notice creative expression copyrightable elements worksheet design protection',
-      'original arrangement digital product theft content scraping marketplace IP protection',
-      'copyright ownership automatic protection registration benefits statutory damages',
-      'creative choices expression versus ideas facts standard methods educational content',
+      'printable copyright protection',
+      'intellectual property printables',
+      'legal basics for sellers',
     ],
-    titleTag: 'Copyright Printable Sellers — Basics Guide',
-    metaDescription: 'Understand the copyright printable sellers need to know: what worksheet elements are protectable, registration benefits, enforcement, and avoiding.',
+    titleTag: 'Copyright Basics for Printable Sellers | LCS',
+    metaDescription: 'Copyright basics for printable sellers. Protect your designs, understand your rights, and avoid infringement in your printable business.',
   },
 
   hero: {
     title: 'Copyright Basics for Printable Sellers',
     tagline: 'A complete guide to understanding copyright as a printable business owner — covering what copyright protects in worksheets, what is and is not copyrightable in educational products, protecting your original designs, understanding fair use, using public domain resources, handling infringement, avoiding copyright mistakes, and building copyright awareness into your operations',
-    description: 'Copyright is the legal framework that protects your original creative work and defines what you can and cannot use from others. As a printable seller, understanding copyright basics is essential for two reasons: protecting the worksheets and designs you create from unauthorized copying, and ensuring that your own products do not infringe on someone else\'s rights. This guide provides practical copyright knowledge specifically for printable sellers — what elements of your worksheets are protectable, how to strengthen your legal position, what to do when someone copies your work, and how to avoid common copyright mistakes that could result in marketplace takedowns or legal liability. Note: this guide is educational information, not legal advice. Consult a qualified attorney for guidance on specific situations.',
+    description: 'Understanding copyright is essential for protecting your work and avoiding legal problems in your printable business. This guide covers the copyright basics every printable seller needs: what protection you automatically have, how to handle potential infringement of your designs, what you can and can\'t legally do with commercial licenses, and how copyright applies across Etsy, KDP, and other platforms. You\'ll leave with a clear understanding of your rights and responsibilities as a printable creator and seller.',
   },
 
   introduction: 'Many printable sellers operate with only a vague understanding of copyright, which creates two significant risks. The first risk is under-protection: failing to take basic steps that would strengthen your legal position when someone inevitably copies your products. The second risk is over-confidence: assuming that everything you create is automatically protected against any form of copying, or that adding a copyright symbol to a worksheet makes every element of it legally untouchable.\n\nThe reality of copyright for printable sellers is more nuanced than either extreme. Copyright does protect original creative expression automatically upon creation — you do not need to register or file anything for basic copyright protection to exist. But copyright does not protect ideas, facts, standard methods, or common arrangements. A specific worksheet layout with original illustrations and creative instructional text is copyrightable. The underlying math facts, alphabetical sequences, or educational concepts on that worksheet are not. Understanding this distinction is the foundation of practical copyright knowledge for printable sellers.\n\nThis distinction matters enormously in the educational printable market because so much of what worksheets contain falls into the unprotectable category. The fact that 2 + 3 = 5 cannot be copyrighted by anyone. The concept of a word search puzzle cannot be owned. The idea of using animal images to teach vocabulary is available to everyone. What can be copyrighted is your specific creative expression: the particular way you arrange elements on a page, the original illustrations you create or license, the unique instructional text you write, and the creative choices you make in combining and presenting educational content.\n\nFor printable sellers, copyright knowledge serves three practical purposes. First, it helps you understand what aspects of your work deserve protection and what steps strengthen that protection. Second, it equips you to respond effectively when someone copies your products — knowing the difference between someone copying your creative expression (actionable infringement) and someone creating a similar worksheet on the same topic (not infringement) saves you from wasting time on unwinnable disputes. Third, it prevents you from inadvertently infringing on others copyrights, which can result in marketplace listing removals, account warnings, or legal liability.\n\nThis guide covers the practical copyright knowledge that printable sellers need most: what is and is not protectable, how to strengthen your copyright position, what to do when infringement occurs, how to use public domain and licensed resources safely, and how to build copyright awareness into your daily business operations. The goal is not to make you a copyright lawyer, but to give you sufficient understanding to protect your work, respect others rights, and make informed decisions about the intellectual property aspects of your printable business.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Understanding Commercial Use Licenses' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Commercial license for printable sellers' },
+    { pageType: 'start', slug: 'printable-business-legal', anchorText: 'Printable business taxes and legal basics' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

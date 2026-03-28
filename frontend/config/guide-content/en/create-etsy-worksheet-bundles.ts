@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy worksheet bundles',
+    primaryKeyword: 'how to create worksheet bundles for Etsy',
     secondaryKeywords: [
-      'how to create Etsy worksheet bundles',
-      'Etsy printable bundle listing strategy',
-      'sell worksheet bundles on Etsy',
-      'Etsy digital download bundle creation',
+      'Etsy worksheet bundle creation guide',
+      'bundle printable worksheets for Etsy sales',
+      'worksheet bundle pricing strategy Etsy',
+      'create themed worksheet packs for Etsy',
     ],
     lsiKeywords: [
-      'Etsy bundle listing optimization file organization strategy',
-      'worksheet bundle pricing anchor discount value stacking',
-      'Etsy bundle preview images thumbnail mockup layout',
-      'subject grade theme seasonal bundle types educational printables',
-      'Etsy digital delivery multiple files bundle structure',
-      'bundle vs individual listing cannibalization Etsy shop strategy',
+      'Etsy bundle strategy printables',
+      'digital product bundling',
+      'worksheet pack creation',
     ],
-    titleTag: 'Create Etsy Worksheet Bundles — Guide',
-    metaDescription: 'Create Etsy worksheet bundles that increase average order value. Bundle types, file organization, preview images, listing optimization, and pricing strategy.',
+    titleTag: 'How to Create Worksheet Bundles for Etsy | LCS',
+    metaDescription: 'Guide to creating worksheet bundles that sell on Etsy. Theme selection, bundle sizing, pricing tiers, and listing optimization for printable bundle sellers.',
   },
 
   hero: {
-    title: 'How to Create Etsy Worksheet Bundles',
+    title: 'How to Create Worksheet Bundles That Sell on Etsy',
     tagline: 'A complete guide to creating, structuring, listing, and optimizing worksheet bundles for Etsy — covering bundle type selection across subject, grade, theme, seasonal, and format categories, product selection for maximum perceived value, file organization within Etsy\'s delivery limits, bundle-specific preview images and thumbnail design, listing titles and tags optimized for bundle search terms, value-stacking pricing strategies with anchor discounts, and performance tracking to identify your highest-performing bundle combinations',
-    description: 'Worksheet bundles are among the highest-revenue listings on Etsy for educational printable sellers. This guide walks you through the complete bundle creation workflow — from choosing which products to combine to writing listings that communicate bundle value to tracking performance over time.',
+    description: 'Bundles consistently outperform individual worksheets on Etsy — buyers perceive more value, your average order value increases, and you rank for more search terms with a single listing. This guide shows you how to create themed worksheet bundles that maximize sales: choosing themes, determining optimal bundle sizes, structuring pricing tiers, and writing bundle listings that convert. You\'ll learn which bundle formats sell best and how to use our generators to produce complete bundles in a single session.',
   },
 
   introduction: 'Bundles are one of the most effective strategies for increasing revenue from an Etsy printable shop. A well-constructed worksheet bundle offers buyers more value per purchase while giving you a higher average order value than individual listings alone. The economics are straightforward: if a single worksheet sells for $3 and a bundle of eight related worksheets sells for $12, you earn four times the revenue per transaction with minimal additional production cost.\n\nBeyond the direct revenue benefit, bundles compete differently in Etsy search. Buyers searching for \"math worksheet bundle kindergarten\" have stronger purchase intent than those searching for individual worksheets — they have already decided they want multiple products and are looking for the best collection. Bundle keywords also face less competition than individual product keywords in many educational printable categories.\n\nBundles also reduce the decision fatigue that causes buyers to leave without purchasing. Instead of choosing between six individual listings, a buyer can purchase one bundle that includes everything they need. For sellers buying group materials or parents assembling homeschool resources, bundles solve the \"which ones should I get?\" problem.\n\nThe challenge is that creating effective bundles requires deliberate planning. Random collections of worksheets packaged together underperform compared to thoughtfully curated bundles with clear themes, consistent quality, and professional presentation. This guide covers every aspect of the bundle creation process: selecting the right bundle type for your catalog, choosing which products to include, organizing files for professional delivery, creating preview images that communicate value, writing bundle-specific listings optimized for Etsy search, pricing for maximum revenue, and tracking performance to refine your strategy over time. Every generator mentioned in this guide is available as a free trial with watermark, so you can create sample bundle content and test your approach before committing to a license.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'How to Sell Educational Printables on Etsy' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to price printable worksheets on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math Mastery Bundle — example bundle product' },
   ],
 
   toolsRecommended: [

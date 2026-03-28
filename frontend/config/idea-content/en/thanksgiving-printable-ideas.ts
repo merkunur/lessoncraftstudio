@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Thanksgiving Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover Thanksgiving printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Harvest-themed product concepts, seasonal strategies, and platform tips for.',
+    titleTag: 'Thanksgiving Printables to Sell | LCS',
+    metaDescription: 'Thanksgiving printable business ideas for Etsy & KDP. Product concepts, November timing, and strategies for fall holiday printable sellers.',
 
-    primaryKeyword: 'thanksgiving printable ideas',
+    primaryKeyword: 'Thanksgiving printables to sell on Etsy',
     secondaryKeywords: [
-      'Thanksgiving worksheets to sell',
-      'Thanksgiving printable business ideas',
-      'Thanksgiving activity sheets for sellers',
-      'sell Thanksgiving printables on Etsy',
+      'Thanksgiving worksheets for Etsy sellers',
+      'Thanksgiving activity books for KDP',
+      'sell Thanksgiving printables online',
+      'fall holiday printable products',
     ],
     lsiKeywords: [
-      'harvest and gratitude educational worksheets',
-      'November themed activity pages',
-      'turkey and pilgrim themed printables',
+      'Thanksgiving printable niche',
+      'November printable demand',
+      'fall themed products',
     ],
   },
   hero: {
-    title: 'Thanksgiving Printable Business Ideas for Sellers',
-    description: 'Thanksgiving opens a focused and highly profitable selling window for printable entrepreneurs, with demand building through October and peaking in the first three weeks of November as buyers prepare harvest-themed group activities and families plan educational entertainment for holiday gatherings. The niche offers rich sub-theme variety including turkeys, pumpkins, pilgrims, harvest scenes, cornucopias, autumn leaves, pies, acorns, and gratitude activities, giving sellers a warm visual vocabulary that resonates with early learners and their families during one of the most anticipated celebrations of the year. Homeschool families and daycare programs add significant buyer depth, seeking Thanksgiving crafts and activities that blend holiday excitement with genuine learning outcomes. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Thanksgiving niche delivers concentrated seasonal demand with a cozy autumn aesthetic that photographs beautifully for product listings and social media marketing. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable Thanksgiving printable product line using our worksheet generator tools.',
+    title: 'Thanksgiving Printables to Sell on Etsy & KDP',
+    description: 'Thanksgiving is an underserved holiday niche compared to Christmas and Halloween — meaning less competition for sellers who create quality turkey-themed products. This niche guide covers the Thanksgiving opportunity: which product formats sell during the November window, how to create gratitude-themed and fall harvest bundles, and specific product ideas across math, word puzzles, coloring, and matching activities. List in September and October to build ranking authority before the brief but intense Thanksgiving demand spike.',
   },
   marketOverview: `The Thanksgiving printable niche commands a prime position in the autumn selling calendar, generating concentrated demand during October and November when buyers, parents, and homeschool families actively seek harvest-themed educational materials. Buyers begin planning November group activities and Thanksgiving celebrations in early October, searching for themed worksheets that blend holiday warmth with genuine educational outcomes across math, literacy, and critical thinking skills. Parents seek age-appropriate Thanksgiving activities that serve multiple purposes: keeping children engaged during holiday preparation, providing educational entertainment during family travel, and creating structured learning moments during the extended Thanksgiving weekend when screen-free activities are especially valued.
 
@@ -145,44 +145,19 @@ To capture maximum Thanksgiving revenue, develop products across multiple sub-th
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Word search generator for Thanksgiving vocabulary',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Business Ideas',
+      anchorText: 'Christmas printable ideas',
     },
   ],
 

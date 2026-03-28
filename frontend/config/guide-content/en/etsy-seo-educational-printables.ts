@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO educational printables',
+    primaryKeyword: 'Etsy SEO for printable worksheets 2026',
     secondaryKeywords: [
-      'Etsy SEO for printable worksheets',
-      'Etsy keyword research educational products',
-      'Etsy listing optimization printable sellers',
-      'Etsy tags strategy for worksheets',
+      'Etsy SEO tips for educational printables',
+      'optimize Etsy listings for worksheet sales',
+      'Etsy search ranking for printable sellers',
+      'Etsy tags and titles for worksheets 2026',
     ],
     lsiKeywords: [
-      'Etsy search algorithm ranking factors for digital downloads',
-      'Etsy title optimization keyword placement printable listings',
-      'Etsy 13 tags strategy educational worksheet sellers',
-      'Etsy listing description SEO structure for printables',
-      'Etsy Stats search terms report keyword optimization',
-      'Etsy category attributes for educational digital products',
+      'Etsy algorithm educational products',
+      'Etsy listing optimization printables',
+      'Etsy search ranking factors',
     ],
-    titleTag: 'Etsy SEO Educational Printables — Guide',
-    metaDescription: 'Etsy SEO educational printables guide. Keyword research, title optimization, all 13 tags, listing descriptions, and ranking factors for printable sellers.',
+    titleTag: 'Etsy SEO for Printable Worksheets (2026) | LCS',
+    metaDescription: 'Master Etsy SEO for printable worksheets in 2026. Tags, titles, descriptions, and ranking strategies that drive organic traffic to your worksheet listings.',
   },
 
   hero: {
-    title: 'Etsy SEO for Educational Printables',
+    title: 'Etsy SEO for Printable Worksheets in 2026',
     tagline: 'A comprehensive Etsy search optimization guide for educational printable sellers — covering keyword research methodology using Etsy autocomplete and competitor analysis, title optimization formulas that balance search ranking with click-through rate, strategic use of all 13 listing tags for maximum search coverage, description structure with SEO-optimized first 160 characters, Etsy search algorithm ranking factors specific to digital products, category and attribute selection, category-specific keyword banks for math, literacy, puzzles, coloring, matching, and search-and-find worksheets, seasonal keyword timing for back-to-school and holiday peaks, and ongoing optimization using Etsy Stats search term reports',
-    description: 'Etsy search is the primary traffic source for educational printable sellers. This guide teaches you the complete Etsy SEO workflow — from researching buyer search terms to optimizing every element of your listing for maximum visibility. You will learn the exact title structure, tag strategy, and description format that help educational printable listings appear in Etsy search results.',
+    description: 'Etsy SEO determines whether your printable worksheets get found or buried — and the algorithm changes constantly. This guide breaks down the current ranking factors for educational printables in 2026: how to write titles and tags that match buyer search intent, optimize descriptions for Etsy\'s search algorithm, use listing photos that improve click-through rates, and build shop authority that compounds over time. If your listings aren\'t getting views, this is where you fix it.',
   },
 
   introduction: 'For educational printable sellers on Etsy, organic search drives the majority of shop traffic. Unlike social media posts that fade within hours or paid advertising that stops when your budget runs out, a well-optimized listing continues attracting buyers month after month. Etsy SEO — the practice of optimizing your listings for Etsy\'s internal search engine — is the single highest-return activity you can invest time in as a printable seller.\n\nEtsy\'s search engine matches buyer queries against listing titles, tags, categories, and attributes. Listings that match well and have strong engagement signals (clicks, favorites, purchases) rank higher over time. This creates a compounding effect: better optimization leads to more visibility, which leads to more sales, which further improves your ranking.\n\nThe challenge for educational printable sellers is that the market is competitive. Thousands of sellers offer math worksheets, coloring pages, and literacy activities. Generic optimization — stuffing your title with keywords and hoping for results — rarely works. Instead, you need a systematic approach: researching the exact terms buyers use, structuring your titles for both search engines and human readers, using all 13 tags strategically to cast a wide search net, and writing descriptions that convert visitors into buyers.\n\nThis guide covers every element of Etsy SEO specifically for educational printable products. Whether you sell math worksheets, word search puzzles, coloring pages, or activity sheets, the principles and strategies here apply directly to your listings. Each section builds on the previous one, giving you a complete optimization workflow you can apply to every listing in your shop. Every generator mentioned in this guide is available as a free trial with watermark, so you can create sample products and test your SEO strategy before committing to a license.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'How to Sell Educational Printables on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create Etsy Coloring Pages That Sell' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Sell math worksheets on Etsy' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to price printable worksheets on Etsy' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy printable business masterclass' },
   ],
 
   toolsRecommended: [

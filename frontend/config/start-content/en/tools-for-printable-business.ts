@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'best tools for printable sellers',
+    primaryKeyword: 'essential tools for printable business owners',
     secondaryKeywords: [
-      'printable business tools checklist',
-      'worksheet generator tools for sellers',
-      'tools for selling printables online',
-      'printable production toolkit',
+      'best tools for printable sellers',
+      'printable business tools guide',
+      'software for printable product creators',
+      'essential resources for worksheet sellers',
     ],
     lsiKeywords: [
-      'etsy seller tools for digital downloads',
-      'amazon kdp activity book production tools',
-      'worksheet creation software for entrepreneurs',
-      'printable business workflow automation',
-      'multilingual worksheet generator tools',
-      'commercial license worksheet production',
+      'printable business tools',
+      'digital product creation software',
+      'seller toolkit resources',
     ],
-    titleTag: 'Best Tools for Printable Sellers — Complete Guide',
-    metaDescription: 'Best tools for printable sellers: worksheet generators, design tools, platform utilities, and workflows for a professional printable business toolkit.',
+    titleTag: 'Essential Tools for Printable Business | LCS',
+    metaDescription: 'Essential tools for printable business owners. Generators, design software, platforms, and resources every printable seller needs to succeed.',
   },
 
   hero: {
-    title: 'Essential Tools for Printable Business Owners',
+    title: 'Essential Tools for Your Printable Business',
     tagline: 'The complete toolkit guide for printable entrepreneurs — from content creation to platform management, every tool you need to produce, package, and sell professional worksheets',
-    description: 'Building a printable business requires the right tools at every stage: content creation, design, formatting, listing, and analytics. Most sellers overcomplicate their tech stack, spending money on tools they do not need while missing the ones that actually accelerate production. This guide cuts through the noise. It covers the essential toolkit for printable business owners — starting with the most important category (worksheet generators that produce print-ready 300 DPI PDFs), then expanding to complementary design tools, platform-specific utilities, and workflow strategies. Whether you sell on Etsy, Amazon KDP, or Gumroad, the production toolkit is the same. The platforms differ, but the need for fast, high-quality content creation does not. The free trial with watermark lets you test every generator before investing, so you can evaluate each tool against your specific production needs.',
+    description: 'The right tools make the difference between spending hours on each product and generating professional output in minutes. This guide covers every essential tool for printable business owners: our 33 worksheet generators for content creation, design tools for mockups and listing photos, platform options for selling, analytics tools for tracking performance, and automation resources for scaling. You\'ll learn which tools are must-haves from day one and which to add as your business grows.',
   },
 
   introduction: 'Every printable business runs on tools. The quality of your output, the speed of your production, and the variety of your catalog all depend on the tools you choose. Yet most guides about selling printables skip the toolkit conversation entirely, jumping straight to marketing advice without addressing the fundamental question: what do you actually use to create the products?\n\nThis guide answers that question comprehensively. It covers three categories of tools that every printable seller needs: content creation tools (the generators that produce your actual worksheets), design and formatting tools (for covers, mockups, and bundling), and platform management tools (for listing optimization, keyword research, and analytics). Each category has essential tools and optional ones. Knowing the difference saves you money and time.\n\nThe single most important tool in any printable business is the content generator. Everything else — cover design, listing images, SEO optimization — is secondary to having high-quality, print-ready content to sell. A beautifully designed Etsy listing with mediocre worksheets inside generates refunds and one-star reviews. A simple listing with professional, accurate, 300 DPI worksheets generates repeat buyers and five-star reviews. The tool that creates your content determines your product quality, and product quality determines your business trajectory.\n\nThis guide is practical and tool-focused. It explains what each category of tool does, how it fits into your production workflow, and when you actually need it. No theory without application. Every tool recommendation connects directly to a production task you will perform as a printable seller. The free trial with watermark on every worksheet generator lets you build hands-on experience with the most critical tools before spending a dollar.',
@@ -203,18 +200,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'start', slug: 'create-multilingual-worksheets', anchorText: 'How to Create Worksheets in 11 Languages' },
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Try the Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Create worksheets that sell' },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'How to automate your printable business' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete guide to starting a printable business' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search generator — most popular tool' },
   ],
 
   visuals: {

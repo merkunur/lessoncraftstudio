@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word guess generator',
+    primaryKeyword: 'word guess puzzle creator for Etsy printable shop',
     secondaryKeywords: [
-      'printable word guessing worksheets for Etsy sellers',
-      'hangman-style vocabulary worksheet maker for KDP publishers',
-      'sell word guess activities on Gumroad',
-      'word guess printables commercial license',
+      'create hangman-style worksheets for Etsy',
+      'word guess printables for Amazon KDP books',
+      'vocabulary puzzle generator with commercial license',
+      'sell word deduction puzzles online',
     ],
     lsiKeywords: [
-      'digital vocabulary puzzle products online business',
-      'printable word deduction worksheet business',
-      'commercial use word guess generator',
+      'hangman worksheet printable niche',
+      'sell vocabulary puzzles commercially',
+      'educational word game products',
     ],
-    titleTag: 'Word Guess Generator | Create Vocabulary Puzzles',
-    metaDescription: 'Create word guess worksheets to sell on Etsy, KDP & Gumroad. Image clues, 4 difficulty levels, 3 content sources, 11 languages. Try free — license available.',
+    titleTag: 'Word Guess Puzzle Creator for Etsy Sellers | LCS',
+    metaDescription: 'Create word guess puzzles to sell on Etsy & KDP. Hangman-style format, image clues, 4 difficulty levels, commercial license. Try free — no signup required.',
   },
 
   hero: {
-    title: 'Word Guess Worksheet Generator for Image-Clue Vocabulary Puzzles',
+    title: 'Create Word Guess Puzzles to Sell on Etsy & Amazon KDP',
     tagline: 'Hangman-style deduction meets image clues — four difficulty levels turn every word into a satisfying puzzle.',
     description:
-      'Design professional word guess worksheets where solvers see an image clue and deduce the hidden word by filling in blank letter cells — a hangman-style puzzle that builds spelling, vocabulary, and deductive reasoning simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using any vocabulary you type. Four difficulty levels control how many letters are pre-revealed as clues — from no clues at all to easy mode showing half the letters — creating natural scaffolding from beginner to advanced. Place 1 to 10 puzzles per worksheet and toggle uppercase or lowercase letter grids. Full Access unlocks all 11 supported languages where the target word changes by language (\"dog\" in English becomes \"Hund\" in German, \"chien\" in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed vocabulary bundles on Etsy, compile word puzzle books for Amazon KDP, or list language-learning packs on Gumroad, the Word Guess Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Hangman-style word guess puzzles are a unique format that stands out in crowded Etsy search results — and this creator generates professional vocabulary worksheets for your printable shop in under 3 minutes. Each puzzle shows an image clue and a row of blank letter cells, challenging solvers to deduce the hidden word one letter at a time. Four difficulty levels control how many letters are pre-revealed, creating natural product tiers from beginner to advanced. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic answer keys. The commercial license covers Etsy, Amazon KDP, TPT, and any marketplace. Built-in 11-language support generates different target words per locale, so a single tool creates sellable products across multiple markets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Word Guess Worksheets in 5 Steps',
+    title: 'How to Generate Word Guess Puzzles Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Word Guess Worksheet Generator',
+    title: 'Why Hangman-Style Puzzles Sell on Etsy & KDP',
     features: [
       {
         title: 'Image-Clue Word Guessing with Blank Letter Grid',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Word Guess Worksheets Online',
+    title: 'Build a Vocabulary Puzzle Business on Etsy & KDP',
     cases: [
       {
         title: 'Themed Word Guess Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'prepositions-worksheets',
-      anchorText: 'Preposition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
+      anchorText: 'Word scramble puzzles for complementary vocabulary products',
     },
     {
       pageType: 'app',
       slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'literacy-language-bundle',
-      anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Language Worksheets on Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Sellers',
+      anchorText: 'Cryptogram puzzles for advanced word game bundles',
     },
     {
       pageType: 'guide',
       slug: 'create-word-search-puzzles',
-      anchorText: 'How to Create Word Puzzles That Sell',
+      anchorText: 'Guide to creating word puzzles that sell',
     },
   ],
 

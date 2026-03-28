@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaur Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore profitable dinosaur printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Product concepts, platform strategies, and niche tips for printable sellers.',
+    titleTag: 'Dinosaur Printable Business Ideas | LCS',
+    metaDescription: 'Dinosaur printable business ideas for Etsy & KDP. Product concepts, bundle strategies, and market analysis for dino-themed printable sellers.',
 
-    primaryKeyword: 'dinosaur printable ideas',
+    primaryKeyword: 'dinosaur printable business ideas for Etsy',
     secondaryKeywords: [
-      'dinosaur worksheets to sell',
-      'dinosaur themed printable business',
-      'dinosaur activity sheets for sellers',
-      'sell dinosaur printables on Etsy',
+      'dinosaur worksheets for Etsy sellers',
+      'dinosaur activity books for Amazon KDP',
+      'sell dinosaur printables online',
+      'dino theme printable products',
     ],
     lsiKeywords: [
-      'prehistoric themed educational worksheets',
-      'paleontology activities for kids',
-      'Jurassic themed product line printables',
+      'dinosaur printable niche',
+      'prehistoric theme worksheets',
+      'dino themed products Etsy',
     ],
   },
   hero: {
-    title: 'Dinosaur Printable Business Ideas for Sellers',
-    description: 'Dinosaurs captivate children like few other subjects. The combination of massive creatures, mysterious extinction, and endless species variety creates a fascination that drives consistent demand for dinosaur-themed educational products. For printable sellers, this translates into a niche with powerful emotional appeal, strong parent and buyer interest, and year-round purchasing behavior. Unlike seasonal themes that fade after a few weeks, dinosaur enthusiasm persists across every month of the calendar. Whether you sell on Etsy, Amazon KDP, or Gumroad, dinosaur printables offer substantial room for product differentiation thanks to the sheer diversity of species, eras, and learning angles available. This guide covers specific product ideas, platform-specific strategies, and practical approaches to building a profitable dinosaur-themed printable product line using our worksheet generator tools.',
+    title: 'Dinosaur Printable Business Ideas for Etsy & KDP',
+    description: 'Dinosaurs are a perennially popular theme with kids — and dinosaur printables sell consistently on Etsy without seasonal dependency. This niche guide explores the commercial opportunity: which dino-themed products generate the most revenue, how to create progressive activity bundles from simple coloring to advanced puzzles, and strategies for targeting the dinosaur-obsessed buyer segment. You\'ll find specific product ideas across math, literacy, puzzles, and art activities using our themed image collections.',
   },
   marketOverview: `The dinosaur printable niche thrives on a simple truth: children are obsessed with dinosaurs. This obsession crosses gender lines, cultural boundaries, and age groups in ways that few other themes achieve. Parents recognize this passion and actively seek educational materials that channel dinosaur enthusiasm into productive learning. buyers leverage dinosaur fascination to teach vocabulary, counting, science concepts, and reading skills, knowing that engagement levels spike when prehistoric creatures are involved.
 
@@ -149,44 +149,19 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Addition generator for dino math worksheets',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'pets-printable-ideas',
-      anchorText: 'Pets Printable Business Ideas',
+      slug: 'safari-animals-printable-ideas',
+      anchorText: 'Safari animal printable ideas',
     },
   ],
 

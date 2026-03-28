@@ -2,28 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'worksheet quality standards sellers',
+    primaryKeyword: 'quality standards for worksheets that sell',
     secondaryKeywords: [
-      'printable quality checklist',
+      'worksheet quality checklist for sellers',
       'professional worksheet design standards',
-      'worksheet quality control selling',
-      'print-ready worksheet formatting',
+      'printable quality guide for Etsy sellers',
+      'what makes a worksheet sell on Etsy',
     ],
     lsiKeywords: [
-      'print quality resolution DPI settings margin alignment font readability',
-      'color consistency PDF formatting page layout answer key accuracy',
-      'proofing workflow customer expectations professional output file format',
-      'bleed settings paper size compatibility visual consistency brand standards',
-      'review ratings buyer trust production checklist quality assurance',
+      'worksheet quality benchmarks',
+      'professional printable design',
+      'product quality for digital sellers',
     ],
-    titleTag: 'Worksheet Quality Standards Sellers Need — Checklist',
-    metaDescription: 'Worksheet quality standards sellers need for professional output. Covers resolution, margins, typography, answer keys, and print testing for marketplaces.',
+    titleTag: 'Quality Standards for Worksheets That Sell | LCS',
+    metaDescription: 'Quality standards for worksheets that sell. Design checklist, professional standards, and quality benchmarks for Etsy and KDP printable sellers.',
   },
 
   hero: {
-    title: 'Quality Standards for Worksheets',
+    title: 'Quality Standards for Worksheets That Sell',
     tagline: 'A complete guide to worksheet quality standards sellers need for professional output — covering resolution and file format standards, page layout and margin requirements, typography and readability rules, color and visual consistency, answer key verification, pre-publication quality control checklists, cross-printer testing, and catalog-wide quality maintenance',
-    description: 'Quality is the single factor that separates worksheet sellers who build sustainable businesses from those who struggle with poor reviews, refund requests, and declining sales. A worksheet that looks professional on screen but prints with cut-off margins, blurry text, or misaligned elements creates a negative buyer experience that damages your shop reputation permanently. This guide provides a complete quality standards checklist designed specifically for printable worksheet sellers — from resolution and formatting standards through typography, answer key accuracy, print testing, and maintaining quality as your catalog scales.',
+    description: 'Quality is the silent differentiator between printable sellers who struggle and those who build sustainable businesses — buyers notice margins, spacing, image clarity, and answer key accuracy even if they can\'t articulate it. This guide defines the specific quality standards that separate sellable worksheets from amateur ones: DPI requirements, layout consistency, answer key accuracy, file format expectations, and design elements that signal professionalism. You\'ll learn the quality checklist that top-selling printable sellers follow for every product.',
   },
 
   introduction: 'Every printable worksheet a buyer downloads represents a promise: that the product will print correctly, look professional, function as described, and deliver the educational value shown in the listing images. When that promise is met consistently, buyers leave positive reviews, recommend the seller to colleagues, return for repeat purchases, and willingly pay premium prices. When quality falls short, the consequences compound rapidly. A single worksheet with misaligned margins or an incorrect answer key generates a negative review visible to every future potential buyer. That review lowers conversion rates on all your listings, not just the problematic product, because buyers evaluate seller reliability based on overall shop feedback.\n\nThe challenge for printable sellers is that quality failures often go undetected during the creation process. A worksheet that displays perfectly on a high-resolution monitor may reveal alignment issues when printed on standard home printers. Colors that appear vibrant on screen may print as muddy, washed-out tones on consumer inkjet printers. Font sizes that seem readable in a design application become straining when printed on standard paper and held at a typical reading distance. Answer keys that appear correct during creation may contain errors that only become apparent when a parent or buyer works through the problems. These invisible quality issues become visible only after the buyer has downloaded, printed, and attempted to use the product — at which point the damage to your reputation is already done.\n\nProfessional worksheet sellers address this gap by implementing systematic quality standards that catch problems before products reach buyers. Rather than relying on visual inspection alone, they follow documented checklists that verify every quality dimension: resolution, margins, typography, color accuracy, content correctness, print compatibility, and file format compliance. These standards are not arbitrary preferences — they are specific, measurable requirements derived from the technical constraints of home printing, the readability needs of different age groups, and the file format expectations of each marketplace platform.\n\nQuality standards also create efficiency as your catalog grows. Without documented standards, every new product requires ad-hoc quality decisions: What font size should this worksheet use? How wide should the margins be? What resolution should the images be? With established standards, these decisions are already made, allowing you to focus creative energy on content rather than repeatedly solving technical questions. Standards also ensure consistency across your product line, which builds brand recognition and buyer confidence — customers who purchase one worksheet and find it professionally formatted expect the same quality from every product in your shop.\n\nThis guide walks through eight quality standard categories that cover the complete production pipeline from initial file setup through final pre-publication verification. Each section provides specific, measurable standards rather than vague guidance, giving you a concrete checklist to apply to every worksheet before listing it for sale.',
@@ -136,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'digital-vs-physical-printables', anchorText: 'Digital vs Physical Printable Products' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Customer Support for Digital Products' },
-    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Copyright Guide for Printable Sellers' },
-    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'How to Get Reviews for Printable Products' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'How to Automate Your Printable Business' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Customer support for digital products' },
+    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'How to get reviews for printable products' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Create worksheets that sell' },
   ],
 
   toolsRecommended: [

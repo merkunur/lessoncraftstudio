@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'handwriting worksheet generator',
+    primaryKeyword: 'free handwriting worksheet maker',
     secondaryKeywords: [
-      'handwriting practice worksheet maker for sellers',
-      'create letter tracing worksheets to sell',
-      'printable handwriting worksheets commercial use',
-      'handwriting worksheet generator for KDP',
+      'make handwriting worksheets free online',
+      'letter tracing generator no signup',
+      'free handwriting practice sheet maker',
+      'handwriting worksheets free trial',
     ],
     lsiKeywords: [
-      'stroke-order arrow handwriting printables for Etsy',
-      'fading trace letter practice worksheet tool',
-      'cursive and print handwriting generator',
+      'free tracing tool online',
+      'instant handwriting maker',
+      'try before you buy writing tools',
     ],
-    titleTag: 'Handwriting Worksheet Generator | Create & Sell',
-    metaDescription: 'Generate handwriting worksheets with three practice modes, five font styles, arrow stroke order, fading guides, 104 themes. Try free — license available.',
+    titleTag: 'Free Handwriting Worksheet Maker Online | LCS',
+    metaDescription: 'Make handwriting worksheets free online with watermark — no signup. 3 practice modes, 5 font styles, stroke guides. Upgrade for commercial license to sell.',
   },
 
   hero: {
-    title: 'Handwriting Worksheet Generator',
+    title: 'Make Handwriting Worksheets Free Online — No Signup',
     tagline: 'Create letter practice sheets with three progressive modes, arrow-guided stroke order, and fading letter guides that build handwriting fluency from full tracing to independent writing',
-    description: 'Design professional handwriting practice worksheets built on a three-mode progression system: Trace mode provides solid letter outlines for beginners to follow directly, Fading Trace progressively reduces letter opacity across the row so learners transition from supported tracing to independent recall within a single line, and Guided Copy offers a faint outline for near-independent writing with minimal visual support. Five font styles give you complete control over letter presentation — Print Regular for standard block letters, Print Regular Arrow with numbered directional arrows showing exact stroke-order formation, Print Tracing for dotted-outline letters designed for tracing exercises, Print Tracing Arrow combining dotted outlines with stroke-order arrows, and Cursive (Great Vibes) for flowing script practice. The arrow-guided stroke order is the standout feature: numbered directional arrows on each letter show learners precisely how to form every stroke in the correct sequence, transforming a basic tracing page into an instructional tool. Every row on the worksheet is independently configurable — its own practice mode, font style, content source, and case setting — so a single page can mix Trace mode for new letters, Fading Trace for practiced letters, and Guided Copy for review. Content sources include the Image Library with 3,100+ illustrations across 104 themed collections (Beginning Letter or Whole File Name modes), Custom Text for any word or phrase, and Empty for blank ruled lines. Pre-writing stroke exercises (vertical lines, horizontal lines, circles, zigzag lines) build fine motor foundations before letter formation. Export print-ready PDFs and JPEGs at ~300 DPI with a 6x rendering multiplier in Letter, A4, or custom sizes. Choose from 7 fonts for text overlays, toggle grayscale for ink-friendly output, and use the full Fabric.js canvas to reposition every element. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional handwriting practice sheets right now — free, instant, no account required. Three progressive modes — Trace, Fading Trace, and Guided Copy — build writing skills from full tracing to independent letter formation. Choose from five font styles including arrow-guided stroke order, and draw content from 104 themed image collections or type any custom text. Every feature is unlocked in the free trial including pre-writing exercises and 300 DPI export. Downloads include a small watermark. Want to sell handwriting worksheets on Etsy or compile workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Handwriting Worksheets in 8 Easy Steps',
+    title: 'How to Make Handwriting Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Handwriting Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
-    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
-    { pageType: 'tool', slug: 'drawing-lines-maker', anchorText: 'Drawing Lines Maker' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Free alphabet worksheet maker' },
+    { pageType: 'guide', slug: 'create-handwriting-sheets', anchorText: 'How to create handwriting sheets to sell' },
   ],
 
   visuals: {

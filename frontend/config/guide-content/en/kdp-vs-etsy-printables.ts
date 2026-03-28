@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP vs Etsy printables',
+    primaryKeyword: 'Amazon KDP vs Etsy for selling printables',
     secondaryKeywords: [
-      'Amazon KDP vs Etsy for selling printables',
-      'where to sell printable worksheets online',
-      'KDP or Etsy which platform is better for printables',
-      'sell printables on multiple platforms strategy',
+      'KDP vs Etsy comparison printable sellers',
+      'where to sell printables KDP or Etsy',
+      'Etsy vs Amazon KDP for worksheets',
+      'best platform for selling printables 2026',
     ],
     lsiKeywords: [
-      'digital download marketplace print-on-demand publishing platform comparison',
-      'Etsy listing fees transaction fees KDP royalty printing costs',
-      'Etsy SEO tags algorithm Amazon A9 backend keywords categories',
-      'digital PDF printable physical printed book format conversion',
-      'multi-platform selling strategy cross-platform printable business',
-      'printable worksheet activity book coloring page puzzle book marketplace',
+      'platform comparison printable business',
+      'KDP Etsy revenue comparison',
+      'multi-platform printable selling',
     ],
-    titleTag: 'KDP vs Etsy Printables — Comparison Guide',
-    metaDescription: 'KDP vs Etsy for printable sellers. Compare fee structures, product formats, traffic mechanics, and learn multi-platform strategies for your printable.',
+    titleTag: 'Amazon KDP vs Etsy: Where to Sell Printables | LCS',
+    metaDescription: 'KDP vs Etsy for selling printables — honest comparison. Revenue models, traffic, fees, and which platform is best for your printable business in 2026.',
   },
 
   hero: {
-    title: 'Amazon KDP vs Etsy: Where to Sell Printables',
+    title: 'Amazon KDP vs Etsy: Where Should You Sell Printables?',
     tagline: 'A head-to-head comparison of the two dominant platforms for printable sellers — covering the fundamental difference between digital downloads and print-on-demand, fee structures and real-world profit margins, traffic and discoverability mechanics, which product types belong on which platform, listing and publishing workflows, buyer behavior patterns, the multi-platform strategy that maximizes revenue, and a decision framework for choosing where to start based on your content type, volume, and business goals',
-    description: 'Etsy and Amazon KDP are the two largest platforms for selling printable content, but they serve fundamentally different markets with different economics. Etsy sells digital PDF downloads that buyers print at home. KDP sells physical printed books that Amazon manufactures and ships. Same educational content, completely different product formats, buyer experiences, and revenue models. This guide provides a systematic comparison across every dimension that matters — fees, traffic, product fit, workflow, and buyer behavior — so you can make an informed decision about where to sell your printables and how to build a multi-platform strategy that captures revenue from both marketplaces.',
+    description: 'Should you sell printables on Etsy, Amazon KDP, or both? Each platform has fundamentally different revenue models, traffic sources, and buyer expectations — and the right choice depends on your product type and business goals. This guide compares both platforms side by side: fees, royalty structures, traffic potential, SEO differences, and the type of products that perform best on each. You\'ll leave with a clear framework for deciding where to focus your effort and how to leverage both platforms together.',
   },
 
   introduction: 'Every printable seller faces the same strategic question: should you sell on Etsy, Amazon KDP, or both? The answer depends on what you create, how much content you have, and what kind of business you want to build. But making this decision without understanding the fundamental differences between these platforms leads to wasted effort, mismatched product formats, and missed revenue.\n\nEtsy and Amazon KDP appear similar on the surface — both let you sell educational and creative content to a global audience. But the similarities end there. Etsy is a digital download marketplace where buyers purchase PDF files and print them at home or at a local print shop. KDP is a print-on-demand publishing platform where Amazon physically prints, binds, and ships books to buyers. This distinction shapes everything: your content format, pricing strategy, profit margins, production workflow, and the type of buyer who discovers your products.\n\nThe fee structures differ substantially. Etsy charges listing fees, transaction fees, and payment processing fees on every sale. KDP deducts printing costs from the list price and pays you a percentage of the remainder as royalty. Neither model is universally better — the economics favor different product types at different price points. A $3 single-page printable generates reasonable margins on Etsy but would be impossible to publish profitably on KDP. A 120-page activity book earns strong royalties on KDP but would be difficult to price competitively as an Etsy digital download.\n\nTraffic and discoverability work differently on each platform. Etsy uses a search algorithm that weighs listing quality, relevance, and recency, with optional paid advertising through Etsy Ads. Amazon uses the A9 search algorithm with backend keyword fields, category browsing, and powerful recommendation features like "Customers who bought this also bought." The buyer intent differs too — Etsy shoppers browse for unique handmade items and often make impulse purchases, while Amazon buyers search for specific products and comparison-shop before buying.\n\nThis guide compares Etsy and KDP systematically across every factor that affects your printable business. Rather than declaring one platform superior, we present the objective trade-offs so you can match your specific content, goals, and situation to the right platform strategy. For detailed platform-specific tactics, this guide references the dedicated Etsy selling guides and KDP publishing guides throughout — here we focus exclusively on the comparison and decision-making framework that helps you choose where and how to sell.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'How to Create Etsy Worksheet Bundles' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to start an Etsy printable shop' },
+    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'Make money with KDP activity books' },
+    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable business blueprint' },
   ],
 
   toolsRecommended: [

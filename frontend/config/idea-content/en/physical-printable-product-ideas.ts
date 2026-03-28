@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Physical Printable Product Ideas to Sell — Guide',
-    metaDescription: 'Physical printable product ideas for Etsy and craft fair sellers. Build a premium business printing, laminating, and shipping tangible worksheet products.',
+    titleTag: 'Physical Printable Product Ideas | LCS',
+    metaDescription: 'Physical printable product business ideas. Strategies for selling printed worksheets, activity books, and physical educational products.',
 
-    primaryKeyword: 'physical printable product ideas',
+    primaryKeyword: 'physical printable product business ideas',
     secondaryKeywords: [
-      'printed worksheet product business',
-      'physical printable products to sell',
-      'tangible printable business ideas',
-      'sell printed worksheets offline',
+      'sell physical printed worksheets',
+      'printed activity book business ideas',
+      'physical worksheet product business',
+      'print and ship educational products',
     ],
     lsiKeywords: [
-      'print-and-ship educational products',
-      'physical workbook publishing',
-      'tangible printed resource sales',
+      'physical printable business model',
+      'printed worksheet products',
+      'physical product selling',
     ],
   },
   hero: {
-    title: 'Physical Printable Product Business Ideas for Sellers',
-    description: 'Physical printable products represent the premium tier of the educational worksheet business where sellers print, laminate, cut, bind, and package worksheet materials into tangible products that command significantly higher prices than digital downloads because buyers pay for the convenience of receiving ready-to-use, professionally finished educational materials they can put to work immediately without any printing or assembly on their end. The physical product model requires more per-unit effort in production and fulfillment but generates higher per-sale revenue and attracts buyers who strongly prefer tangible materials over digital files, including institutional purchasers like schools, daycares, and tutoring centers that have established budgets for physical learning supplies but may lack processes for purchasing and distributing digital downloads to staff. This business model works through multiple sales channels including Etsy where handmade and artisan educational products thrive, craft fairs and educational markets where face-to-face selling converts browsers into buyers at remarkably high rates, Amazon Handmade which connects artisan sellers with the massive Amazon buyer base, and direct institutional sales where institutional quantity orders generate the highest per-transaction revenue of any channel. The tactile quality and professional presentation of physical products create strong perceived value that digital files cannot match because buyers can feel the weight of quality card stock, see the glossy finish of professional lamination, and appreciate the organized packaging that signals a premium product worth every dollar of the higher price point. Daycare centers, parents, tutoring businesses, homeschool co-ops, and educational therapy practices are the primary buyer segments for physical educational products, and many of these buyers specifically search for tangible materials because their workflow, setup, or personal preference makes physical products far more practical than printing digital downloads themselves. For printable sellers and entrepreneurs building educational product businesses, this guide covers specific physical product ideas built around worksheet generator tools, platform strategies for selling tangible educational materials across multiple channels, and business approaches that help you build a profitable physical product line with strong margins and loyal repeat customers.',
+    title: 'Physical Printable Product Business Ideas',
+    description: 'Physical printed products command higher prices and lower refund rates than digital downloads — parents and teachers value the tangible format and are willing to pay a premium for ready-to-use printed materials. This niche guide covers the physical product opportunity: which formats justify physical production, how to price printed products for healthy margins, fulfillment options from print-on-demand to bulk printing, and strategies for testing demand before investing in inventory. You\'ll learn how to leverage our generators\' high-DPI output for professional print quality.',
   },
   marketOverview: `The physical printable product market occupies a premium pricing tier within the educational materials industry because tangible products create stronger perceived value than digital files and buyers willingly pay more for the convenience, professional finish, and saved time that ready-to-use physical materials provide. A laminated worksheet set priced at fifteen to twenty-five dollars delivers the same educational content as a three to five dollar digital download, but the physical version arrives ready for immediate home or group use without requiring the buyer to own a printer, purchase ink and paper, spend time printing pages, or invest in laminating equipment and supplies. This price premium reflects genuine value because buyers are purchasing not just the educational content but also the professional production quality, the time savings of not printing and assembling materials themselves, and the durability of professionally finished products that withstand repeated handling throughout an entire school year or beyond.
 
@@ -142,43 +142,18 @@ Physical products also serve the gift market in ways that digital downloads cann
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      slug: 'digital-vs-physical-printables',
+      anchorText: 'Digital vs physical printable products',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      slug: 'kdp-formatting-worksheets',
+      anchorText: 'KDP formatting for worksheet books',
     },
     {
       pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digital Download Printable Business Ideas',
+      slug: 'print-on-demand-printable-ideas',
+      anchorText: 'Print on demand worksheet business',
     },
   ],
 

@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'puzzle worksheet bundle',
+    primaryKeyword: 'logic puzzle generators for KDP puzzle books',
     secondaryKeywords: [
-      'puzzle worksheet generator bundle for sellers',
-      'printable logic puzzle toolkit commercial use',
-      'maze sudoku worksheet bundle for Etsy',
-      'puzzle activity generators for KDP sellers',
+      'puzzle printable bundle for sellers',
+      'logic puzzle generator pack commercial use',
+      'all puzzle generators in one bundle',
+      'puzzle worksheet toolkit for KDP',
     ],
     lsiKeywords: [
-      'missing pieces sudoku maze worksheet pack',
-      'odd one out logic printable collection',
-      'commercial license puzzle worksheets',
-      'bulk puzzle worksheet creation tool',
+      'puzzle printable business bundle',
+      'complete logic generator package',
+      'puzzle book seller toolkit',
     ],
-    titleTag: 'Puzzle Worksheet Bundle — 4 Logic & Puzzle Generators',
-    metaDescription: 'Puzzle worksheet bundle with 4 generators: missing pieces, odd one out, picture sudoku, and mazes. Sell on Etsy, KDP, and Gumroad. Commercial license included.',
+    titleTag: 'Logic Puzzle Bundle for KDP Books | LCS',
+    metaDescription: 'Get all 4 logic puzzle generators in one bundle. Missing pieces, odd one out, sudoku & picture path. Commercial license for Etsy & KDP puzzle sellers.',
   },
 
   hero: {
-    title: 'Puzzles & Logic Bundle',
+    title: 'Logic Puzzle Bundle — 4 Generators for KDP Puzzle Books',
     tagline: 'Four visual-only puzzle generators — spatial reasoning, logical deduction, and problem-solving in every worksheet',
-    description: 'The Puzzles & Logic Bundle is the only bundle where every single app produces purely visual worksheets. No text, no language dependency, no translation needed — every worksheet works in any country, any language, any market. This bundle combines four specialized puzzle generators that target higher-order cognitive skills: spatial reasoning with Missing Pieces grid puzzles, visual discrimination with Odd One Out challenges, logical deduction with 4x4 Picture Sudoku, and problem-solving with Picture Path mazes. All four generators produce automatic answer keys — the only bundle with 100% answer key coverage across every app. Each generator outputs print-ready PDF and high-resolution JPEG files with configurable difficulty settings and themed image libraries. The puzzle and logic worksheet category is one of the fastest-growing segments on Etsy and Amazon KDP because these activities appeal to a wider age range than basic skill-building worksheets — from the early-learner niche through third grade and beyond. Missing Pieces splits images into grid segments and removes pieces for solvers to identify. Odd One Out presents rows of images where one item differs from the rest. Picture Sudoku uses a 4x4 grid with themed images instead of numbers, making classic Sudoku accessible to younger audiences who cannot yet work with digits. Picture Path offers three distinct maze modes: pathway navigation, classic maze solving, and choose-the-correct-path challenges. Choose from over 100 themed image sets or upload your own PNG and JPEG files for branded, niche-specific products. Whether you sell puzzle books on Amazon KDP, list activity packs on Etsy, or create logic bundles for Gumroad or your own store, this bundle gives you four distinct puzzle types that buyers search for independently. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Build a complete logic puzzle product line with all 4 generators in one discounted bundle — missing pieces, odd one out, picture sudoku, and picture path. Each tool comes with full commercial license for Etsy, Amazon KDP, or any marketplace. Puzzle books are a booming category on Amazon KDP, and this bundle gives you four distinct puzzle formats to fill entire books with unique content. The purely visual format means every puzzle works worldwide without translation.',
   },
 
   appsIncluded: [
@@ -182,14 +181,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing Pieces Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Generator — Full Details' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Generator — Full Details' },
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Path Maze Generator — Full Details' },
-    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'How to Create Crossword Puzzles That Sell' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Publish Activity Books on Amazon KDP' },
-    { pageType: 'idea', slug: 'first-grade-printable-ideas', anchorText: 'First Grade Printable Ideas for Sellers' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture sudoku generator' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing pieces puzzle generator' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on Amazon KDP' },
+    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Best KDP activity book niches' },
   ],
 
   visuals: {

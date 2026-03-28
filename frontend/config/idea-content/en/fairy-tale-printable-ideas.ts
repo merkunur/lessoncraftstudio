@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fairy Tale Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover fairy tale printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Storybook-themed product concepts, platform tips, and strategies for sellers.',
+    titleTag: 'Fairy Tale Printables to Sell | LCS',
+    metaDescription: 'Fairy tale printable business ideas for Etsy & KDP. Storybook themed product concepts and strategies for fairy tale printable sellers.',
 
-    primaryKeyword: 'fairy tale printable ideas',
+    primaryKeyword: 'fairy tale printables to sell on Etsy',
     secondaryKeywords: [
-      'fairy tale worksheets to sell',
-      'storybook themed printable business',
-      'fairy tale activity sheets for sellers',
+      'fairy tale worksheets for Etsy sellers',
+      'storybook activity books for KDP',
       'sell fairy tale printables online',
+      'princess castle themed products',
     ],
     lsiKeywords: [
-      'storybook themed educational worksheets',
-      'classic tale literacy activities',
-      'fantasy themed group printables',
+      'fairy tale printable niche',
+      'storybook themed worksheets',
+      'fantasy themed products',
     ],
   },
   hero: {
-    title: 'Fairy Tale Printable Business Ideas for Sellers',
-    description: 'Fairy tales represent one of the most universally beloved storytelling themes for children, making this an exceptional evergreen niche for printable entrepreneurs seeking reliable year-round revenue driven by the timeless magic of princesses, castles, dragons, and enchanted adventures that captivate young imaginations across every culture and age group. The fairy tale theme offers extraordinary sub-theme depth including princess, prince, castle, dragon, unicorn, knight, wizard, witch, fairy, wand, magic mirror, crown, tower, enchanted forest, frog, queen, king, wolf, cottage, beanstalk, and gingerbread, giving sellers a vast visual vocabulary that connects to children\'s natural love of storytelling, magical worlds, and character-driven narratives that parents and seller actively encourage as vehicles for literacy development and moral reasoning. Cross-curricular versatility makes fairy tale printables especially valuable because storybook concepts connect naturally to literacy through story comprehension, vocabulary building, character analysis, and story sequencing, math through counting magical items, gold coins, and enchanted objects, creative writing through story retelling, alternate endings, and character journaling, and social-emotional learning through exploring morals, lessons, and character motivation that fairy tales naturally convey. For printable sellers on Etsy, Amazon KDP, and Gumroad, the fairy tale niche combines strong year-round demand with universal child appeal that resonates with literacy-focused buyers planning reading comprehension and creative writing units, group seller integrating narrative themes across subjects, homeschool families exploring classic literature and storytelling traditions, and parents looking for educational materials that channel their child\'s natural fascination with magical kingdoms and storybook adventures into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable fairy tale printable product line using our worksheet generator tools.',
+    title: 'Fairy Tale Printables to Sell on Etsy',
+    description: 'Fairy tales and storybook themes resonate deeply with young children -- princesses, castles, dragons, and magical creatures drive strong emotional engagement that translates into printable sales. This niche guide covers the commercial opportunity: which fairy tale formats sell on Etsy, how to create themed bundles around specific stories and characters, and strategies for targeting the preschool and kindergarten buyer segment. Fairy tale themes work across coloring, matching, word puzzles, and counting activities.',
   },
   marketOverview: `The fairy tale printable niche occupies a uniquely powerful position for printable sellers because virtually every young child experiences a deep, imaginative fascination with magical kingdoms, enchanted forests, and the timeless characters who populate storybook adventures from Cinderella and Rapunzel to Jack and the Beanstalk and The Three Little Pigs. Unlike seasonal themes that concentrate demand into narrow calendar windows, the fairy tale niche benefits from genuine year-round relevance: children engage with fairy tale stories during every season, storybook-themed media and toys maintain constant popularity, and the narrative traditions that drive fairy tale fascination operate independently of weather or calendar events. This consistent demand pattern makes fairy tale printables a reliable revenue source without the feast-or-famine cycles that challenge sellers in more seasonal niches.
 
@@ -143,19 +143,19 @@ The princess and knight birthday party crossover market represents a particularl
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Coloring generator for fairy tale themes',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'pirates-printable-ideas',
+      anchorText: 'Pirate printable business ideas',
     },
     {
       pageType: 'guide',

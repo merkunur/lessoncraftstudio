@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'matching worksheet generator',
+    primaryKeyword: 'free matching worksheet maker',
     secondaryKeywords: [
-      'matching worksheet maker for sellers',
-      'create draw-a-line matching worksheets to sell',
-      'printable matching activity generator commercial use',
-      'picture matching worksheet maker for KDP and Etsy',
+      'make matching worksheets free online',
+      'matching activity generator no signup',
+      'free draw-a-line matching maker',
+      'matching worksheets free trial',
     ],
     lsiKeywords: [
-      'four-mode draw-a-line matching worksheet tool',
-      'auto answer key matching activity generator',
-      'beginning letter image word matching maker',
+      'free matching tool online',
+      'instant matching worksheet maker',
+      'try before you buy matching tools',
     ],
-    titleTag: 'Matching Worksheet Generator — Draw-a-Line Maker',
-    metaDescription: 'Create matching worksheets with 4 modes, auto answer key with connecting lines, configurable pairs, 11 languages, 104 themes. Try free — license available.',
+    titleTag: 'Free Matching Worksheet Maker Online | LCS',
+    metaDescription: 'Make matching worksheets free online with watermark — no signup. 4 matching modes, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
   },
 
   hero: {
-    title: 'Matching Worksheet Maker',
+    title: 'Make Matching Worksheets Free Online — No Signup Needed',
     tagline: 'Four-mode draw-a-line matching worksheet generator with Beginning Letter, Image+Word, Mixed, and Custom Word modes, auto-generated answer keys with connecting lines, configurable pair counts, localized Match Up header in 11 languages, and 104 themed image collections for matching activities that sell worldwide',
-    description: 'Create professional draw-a-line matching worksheets where users connect pairs by drawing lines between two columns — with four distinct matching modes in a single generator. Beginning Letter mode places images on the left and their first letters on the right, with three sub-modes: Random Theme & Images picks a theme and images automatically, Random from Chosen Theme lets you pick the theme, and Select Specific Images gives you manual control over every image. Toggle uppercase or lowercase letter display for age-appropriate worksheets. Image+Word mode shows labeled image pairs on both sides for vocabulary reinforcement. Image/Word Mixed mode uses per-row dropdown selectors so each side can independently display an image or a word, creating varied difficulty within a single worksheet. Custom Word mode pairs images with your own typed matching terms for spelling practice, vocabulary quizzes, or foreign language exercises. Configure 4, 5, or 6 pairs per worksheet (default 6) to control difficulty and visual density. Toggle item numbers (default ON) to add numerals before each pair and show bullets/dots (default ON) for decorative formatting — both independently controllable. Every worksheet includes an auto-generated localized \"Match Up!\" header with a yellow pill background (#FFD700), coral border frame (#FF7F50, 8px stroke), title in Fredoka (700) and description in Quicksand (500), automatically translated into all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously — the answer key draws horizontal connecting lines (#555, stroke width 2) between correct matches so you never create it manually. This generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Browse 104 themed collections with 3,100+ illustrations. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add name and date fields with a single checkbox. Export four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI. Choose Letter, A4, Square (1200×1200), or custom page sizes with a grayscale toggle for ink-friendly output. Edit everything on the Fabric.js canvas with 7 fonts, text outline 0–10, alignment tools, layers, lock/unlock, zoom 25%–300%, and undo/redo 20 states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create draw-a-line matching worksheets right now — free, instant, no account required. Choose from four matching modes: Image to Beginning Letter, Image+Word pairs, mixed Image/Word rows, and custom word matching. Configure 4-6 pairs per worksheet and get automatic answer keys that draw connecting lines between correct matches. Choose from 104 themed image collections with 11-language support for localized word content. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell matching worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Matching Worksheets in 8 Steps',
+    title: 'How to Make Matching Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Matching Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Bingo Card Maker' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Picture Sort Maker' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Free shadow matching maker' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'How to create matching worksheets to sell' },
   ],
 
   visuals: {

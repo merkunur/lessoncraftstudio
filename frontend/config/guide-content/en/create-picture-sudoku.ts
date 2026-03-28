@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create picture sudoku',
+    primaryKeyword: 'create picture sudoku for kids to sell',
     secondaryKeywords: [
-      'picture sudoku for kids',
-      'image sudoku worksheet generator',
-      'printable picture sudoku to sell',
-      'visual sudoku puzzles for preschool',
+      'make picture sudoku puzzles for Etsy',
+      'create visual sudoku books for KDP',
+      'picture sudoku creation guide',
+      'sell picture sudoku printables online',
     ],
     lsiKeywords: [
-      'image-based logic puzzles for kids',
-      'visual sudoku for the younger audience',
-      'preschool logic worksheet maker',
-      'sell sudoku worksheets on Etsy',
-      'Amazon KDP puzzle activity books',
-      'commercial license puzzle tool',
+      'picture sudoku product creation',
+      'kids puzzle business',
+      'sellable visual sudoku products',
     ],
-    titleTag: 'How to Create Picture Sudoku Worksheets — Guide',
-    metaDescription: 'Create picture sudoku for the younger audience. 4x4 image grids, 3 difficulty levels, themed images, answer keys, and print-ready PDFs to sell on Etsy and KDP.',
+    titleTag: 'Create Picture Sudoku for Kids to Sell | LCS',
+    metaDescription: 'Guide to creating picture sudoku puzzles for kids to sell. Difficulty levels, themes, and strategies for Etsy and KDP picture sudoku book sellers.',
   },
 
   hero: {
-    title: 'How to Create Picture Sudoku for Young Learners',
+    title: 'Create Picture Sudoku for Kids to Sell Online',
     tagline: 'A step-by-step tutorial for creating image-based 4x4 sudoku puzzles you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Picture sudoku replaces numbers with images, making logic puzzles accessible to children as young as three. Instead of filling a grid with digits, children place themed pictures — animals, fruits, vehicles, or any image set you choose — so that each row and column contains every image exactly once. This guide walks you through the entire creation process using the Picture Sudoku Maker — from selecting your difficulty level and theme to exporting a polished, print-ready PDF with an automatic answer key. Whether you are building your first printable puzzle product or expanding an existing early-learning catalog, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Picture sudoku for kids fills a gap that standard 9x9 number sudoku doesn\'t serve — younger solvers need visual puzzles with smaller grids. This guide shows you how to create 4x4 picture sudoku puzzles designed to sell: building three-level difficulty progressions, choosing themes that attract parents, and formatting puzzle books for Amazon KDP. You\'ll learn how the purely visual format makes your products sellable worldwide without translation, and how to position picture sudoku as a premium logic activity in the kids\' printable market.',
   },
 
   introduction: 'Sudoku is one of the most recognized puzzle formats in the world, but standard 9x9 number grids are far too complex for the younger audience. Picture sudoku solves this by using a 4x4 grid with four themed images instead of nine digits. The rules stay the same — each row and column must contain every image exactly once — but the reduced grid size and visual format make it appropriate for children ages 3 to 7.\n\nWhat makes picture sudoku particularly strong as a printable product is that it teaches logic, not math. Parents searching for "logic puzzles for preschool" or "critical thinking worksheets for kindergarten" find picture sudoku because it develops spatial reasoning and deductive thinking without requiring any number skills. This positions your products in the logic and puzzle category rather than competing directly with the saturated math worksheet market.\n\nThe visual nature of picture sudoku also makes it language-independent for the puzzle content itself. A child solving a grid with animal images does not need to read any text — the puzzle is entirely visual. This means a single worksheet design works for buyers in any country, dramatically expanding your potential market. The header and instructions are locale-aware with 11 languages built in, but the actual puzzle needs no translation.\n\nThe Picture Sudoku Maker handles all the puzzle generation for you. It creates valid 4x4 sudoku grids, removes the correct number of cells based on your chosen difficulty level, generates a cutout area where children find the missing images, and produces automatic answer keys. You focus on product strategy — which themes to use, which difficulty levels to target, how to bundle and price — while the generator handles puzzle logic, layout, and print formatting.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample puzzles, test every configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Generator — Full Details' },
-    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Pattern Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Try the Picture Sudoku Maker' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture sudoku generator' },
+    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'Create sudoku books for Amazon KDP' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on KDP' },
   ],
 
   toolsRecommended: [

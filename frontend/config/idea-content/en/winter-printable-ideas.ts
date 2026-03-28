@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Winter Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover winter printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Cold-weather product concepts with strong November-February demand for worksheet.',
+    titleTag: 'Winter Printables to Sell on Etsy | LCS',
+    metaDescription: 'Winter printable business ideas for Etsy & KDP. Snowflake themes, indoor activities, and strategies for the winter season printable market.',
 
-    primaryKeyword: 'winter printable ideas',
+    primaryKeyword: 'winter printables to sell on Etsy',
     secondaryKeywords: [
-      'winter worksheets to sell',
-      'winter themed printable business',
-      'winter activity sheets for sellers',
-      'sell winter printables on Etsy',
+      'winter worksheets for Etsy sellers',
+      'winter activity books for Amazon KDP',
+      'sell winter printables online',
+      'snowflake themed printable business',
     ],
     lsiKeywords: [
-      'snow and ice educational worksheets',
-      'cold weather activity pages',
-      'seasonal winter themed printables',
+      'winter printable niche',
+      'cold weather products',
+      'snow themed worksheets',
     ],
   },
   hero: {
-    title: 'Winter Printable Business Ideas for Sellers',
-    description: 'Winter opens a broad selling window from November through February as buyers seek post-holiday seasonal themes, parents search for indoor learning activities during cold months, and homeschool families look for seasonal variety beyond the December holiday rush. The winter niche offers rich sub-theme diversity including snowflakes, snowmen, penguins, mittens, igloos, polar bears, sleds, hot cocoa, icicles, and frost, giving sellers a visually distinctive vocabulary that stands apart from Christmas-specific products. Daycares and after-school programs need structured indoor activities when outdoor play becomes limited, creating steady demand throughout the coldest months. For printable sellers on Etsy, Amazon KDP, and Gumroad, winter represents a non-denominational seasonal niche with predictable annual demand and cozy cold-weather imagery that resonates with buyers across diverse backgrounds. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable winter printable product line using our worksheet generator tools.',
+    title: 'Winter Printables to Sell on Etsy',
+    description: 'Winter drives strong indoor activity demand — parents need screen-free entertainment during cold weather months, making winter-themed printables a reliable seller from November through February. This niche guide covers the winter opportunity: which product formats sell best during the cold season, how to differentiate winter themes from Christmas-specific products, and specific product ideas across puzzles, coloring, math, and matching activities. Winter is broad enough to sell for four months straight while Christmas products peak and decline within weeks.',
   },
   marketOverview: `The winter printable niche occupies a uniquely advantageous position in the seasonal selling calendar because it delivers sustained demand across a four-month window without the intense competition that clusters around specific holidays like Christmas or Valentine\'s Day. Buyers return from winter break in January needing fresh seasonal themes that maintain engagement during the long stretch before spring, and winter imagery provides a natural, market-friendly option that works in every school setting regardless of cultural or religious considerations. Parents facing weeks of cold weather and limited outdoor play actively seek educational indoor activities that keep children learning and entertained, making winter worksheets a practical purchase rather than a seasonal luxury.
 
@@ -149,44 +149,19 @@ The competitive advantage in winter printables comes from visual quality and the
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'I Spy generator for winter scenes',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Business Ideas',
+      anchorText: 'Christmas printable ideas',
     },
   ],
 

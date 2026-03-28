@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create handwriting practice sheets',
+    primaryKeyword: 'create handwriting practice sheets to sell',
     secondaryKeywords: [
-      'make handwriting worksheets for kids',
-      'handwriting worksheet generator',
-      'printable handwriting practice to sell',
-      'custom letter tracing worksheets',
+      'make handwriting worksheets for Etsy',
+      'create tracing worksheets for KDP books',
+      'handwriting sheet creation guide',
+      'sell handwriting printables online',
     ],
     lsiKeywords: [
-      'trace letters worksheet maker',
-      'cursive handwriting practice sheets',
-      'stroke order letter formation',
-      'pre-writing strokes for preschool',
-      'sell handwriting worksheets on Etsy',
-      'Amazon KDP handwriting workbooks',
+      'handwriting product creation',
+      'tracing worksheet business',
+      'sellable handwriting products',
     ],
-    titleTag: 'Create Handwriting Practice Sheets — Step-by-Step Guide',
-    metaDescription: 'Create handwriting practice sheets with trace, fading trace, and guided copy modes. Stroke-order arrows, five font styles, and PDF export for Etsy and KDP.',
+    titleTag: 'Create Handwriting Sheets to Sell Online | LCS',
+    metaDescription: 'Guide to creating handwriting practice sheets to sell. Three practice modes, font styles, and strategies for Etsy and KDP handwriting workbook sellers.',
   },
 
   hero: {
-    title: 'How to Create Handwriting Practice Sheets',
+    title: 'Create Handwriting Practice Sheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating professional handwriting worksheets with progressive practice modes, stroke-order arrows, and print-ready export for Etsy, Amazon KDP, and Gumroad',
-    description: 'Handwriting practice is one of the most enduring categories in educational printables. Every child learning to hold a pencil, every kindergartner forming their first letters, and every first grader transitioning to cursive needs structured practice sheets. Parents search for them at home. Buyers need group sets every week. Occupational therapists use them in fine motor therapy. This guide walks you through the entire creation process using the Handwriting Worksheet Generator — from choosing practice modes and font styles to building progressive multi-row worksheets and exporting print-ready PDFs with professional formatting. Whether you are launching your first printable product or expanding a literacy worksheet catalog, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Handwriting worksheets are evergreen sellers — parents and homeschool families purchase practice sheets year-round as kids develop writing skills. This guide covers creating professional handwriting sheets designed to sell: leveraging three progressive practice modes for difficulty tiers, choosing font styles that match curriculum standards, and building themed workbooks for Amazon KDP. You\'ll learn how to create complete handwriting product lines from letter tracing through independent writing, all from a single generator session.',
   },
 
   introduction: 'Handwriting instruction follows a universal developmental sequence: children progress from pre-writing strokes (lines and circles) to tracing letters, then to copying letters independently, and finally to writing from memory. Every child goes through these stages, and every stage requires dedicated practice materials. That developmental reality creates sustained, year-round demand for handwriting worksheets across multiple age groups and skill levels.\n\nWhat makes handwriting practice sheets particularly strong as a printable product is the sheer volume buyers need. A single worksheet provides five to ten minutes of practice. Buyers need fresh sheets daily. Parents working through letter formation need one sheet per letter — that is 26 sheets minimum for the uppercase alphabet alone, and another 26 for lowercase. Add in number formation, sight words, and cursive practice, and a single buyer can easily purchase hundreds of pages over one school year.\n\nThe Handwriting Worksheet Generator handles the technical complexity of creating professional practice sheets. It offers three progressive practice modes — Trace, Fading Trace, and Guided Copy — that mirror the developmental sequence children actually follow. Five font styles include standard print, dotted tracing outlines, and stroke-order arrows that show children exactly how to form each letter. Each row on the worksheet is independently configurable, so you can build worksheets that progress from tracing to independent writing on a single page.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample worksheets, test every practice mode and font combination, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet Train Generator — Full Details' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Try the Handwriting Worksheet Maker' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting worksheet generator' },
+    { pageType: 'guide', slug: 'create-alphabet-worksheets', anchorText: 'Create alphabet worksheets to sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

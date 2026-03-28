@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'First Grade Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover first grade printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Product concepts and niche strategies for sellers targeting first grade academics.',
+    titleTag: 'First Grade Printables to Sell | LCS',
+    metaDescription: 'First grade printable ideas for Etsy & KDP. Grade-specific product concepts and strategies for primary school printable sellers.',
 
-    primaryKeyword: 'first grade printable ideas',
+    primaryKeyword: 'first grade printables to sell on Etsy',
     secondaryKeywords: [
-      'first grade worksheets to sell',
-      'grade 1 printable business ideas',
-      'first grade activity sheets for sellers',
-      'sell first grade printables on Gumroad',
+      'first grade worksheets for Etsy sellers',
+      'grade 1 activity books for Amazon KDP',
+      'sell first grade printables online',
+      'ages 6-7 printable business',
     ],
     lsiKeywords: [
-      'early elementary educational worksheets',
-      'grade 1 product catalog printables',
-      'age 6-7 learning activity pages',
+      'first grade printable niche',
+      'grade 1 educational products',
+      'primary school worksheet business',
     ],
   },
   hero: {
-    title: 'First Grade Printable Business Ideas for Sellers',
-    description: 'First grade printables represent one of the highest-demand and most academically intensive niches in the educational printable marketplace because first grade is the pivotal year where children transition from foundational readiness skills to genuine academic mastery, creating extraordinary demand from buyers who need multi-level practice materials for product lines with wide skill ranges and parents who invest heavily in supplementary resources because first grade is where reading fluency, math fact automaticity, and written communication are expected to reach measurable benchmarks. The academic skills that define first grade product catalog span a critical range of competencies including addition and subtraction within twenty, place value understanding with tens and ones, sight word fluency across expanded word lists, CVC and CVCe word decoding, consonant blends and digraphs, reading comprehension of simple passages, writing complete sentences with proper grammar and punctuation, telling time to the hour and half hour, identifying and counting coins, measurement comparisons, and data collection with simple graphing. This academic intensity creates a powerful dual buyer base where buyers on Gumroad spend heavily on supplementary materials because the jump from kindergarten expectations to first grade benchmarks requires extensive multi-level practice across every skill strand, and parents on Etsy and Amazon actively purchase home practice worksheets because first grade report cards, standardized assessments, and reading level evaluations make academic progress highly visible and actionable for families. For printable sellers and entrepreneurs, the first grade niche combines massive year-round institutional demand with strong parent purchasing motivation, creating multiple revenue streams across every major marketplace platform. This guide covers specific product ideas built around our worksheet generator tools, platform-specific strategies for reaching first grade buyers, and niche positioning approaches to help you build a profitable first grade printable product line.',
+    title: 'First Grade Printables to Sell on Etsy',
+    description: 'First grade marks the transition to structured academics — parents and teachers need practice materials for reading, math facts, and word skills. This niche guide covers the first grade opportunity: which formats serve emerging readers and early math learners, how to create grade-specific bundles for the 6-7 age group, and strategies for targeting both homeschool families and classroom supplement buyers. First grade products span the widest range of our generators, from addition drills to word searches to pattern recognition.',
   },
   marketOverview: `The first grade printable niche occupies a premium position in the educational marketplace because it serves the grade level where academic expectations increase most dramatically, driving the highest per-buyer spending on supplementary materials of any primary grade. Unlike kindergarten where learning goals focus on exposure and readiness, first grade product catalog demands measurable mastery of specific skills including reading fluency at defined words-per-minute benchmarks, addition and subtraction fact automaticity within twenty, and written sentence construction with correct capitalization and punctuation. This mastery orientation means sellers and buyers purchase printable practice materials with clear academic purpose and urgency that translates directly into motivated buying behavior across every marketplace.
 
@@ -139,44 +139,19 @@ The competitive landscape in first grade printables rewards sellers who understa
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Word search generator for grade 1 vocabulary',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Business Ideas',
+      slug: 'second-grade-printable-ideas',
+      anchorText: 'Second grade printable ideas',
     },
   ],
 

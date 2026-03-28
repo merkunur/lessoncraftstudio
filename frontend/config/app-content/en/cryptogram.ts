@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'cryptogram generator',
+    primaryKeyword: 'cryptogram puzzle generator to sell on Etsy',
     secondaryKeywords: [
-      'printable picture cryptogram puzzle maker for Etsy sellers',
-      'custom cryptogram worksheet generator for KDP publishers',
-      'sell cryptogram cipher puzzles on Gumroad or your own store',
-      'cryptogram printables commercial license',
+      'create cipher puzzles for Etsy shop',
+      'cryptogram puzzle books for Amazon KDP',
+      'picture cipher worksheets with commercial license',
+      'sell code-breaking puzzles online',
     ],
     lsiKeywords: [
-      'digital picture cipher puzzle products online business',
-      'printable code-breaking worksheet business',
-      'commercial use cryptogram generator',
+      'unique puzzle format printable niche',
+      'cipher puzzle business',
+      'sell decoder worksheets online',
     ],
-    titleTag: 'Cryptogram Generator | Create & Sell Cipher Puzzles',
-    metaDescription: 'Create cryptogram worksheets to sell on Etsy, KDP & Gumroad. Picture cipher encoding, Letters to Reveal difficulty, 104 themes. Try free — license available.',
+    titleTag: 'Cryptogram Puzzle Generator — Sell on Etsy | LCS',
+    metaDescription: 'Generate picture cryptogram puzzles to sell on Etsy & KDP. Cipher encoding, adjustable difficulty, 11 languages, commercial license. Try free with watermark.',
   },
 
   hero: {
-    title: 'Cryptogram Worksheet Generator for Picture Cipher Puzzles',
+    title: 'Create Cryptogram Cipher Puzzles to Sell on Etsy & KDP',
     tagline: 'Map alphabet letters to images and encode entire phrases into visual cipher puzzles — adjustable difficulty from zero hints to heavily scaffolded with Letters to Reveal.',
     description:
-      'Turn any phrase or sentence into a picture cryptogram puzzle where every alphabet letter is replaced by an image, and solvers crack the code by deducing which image represents which letter. Each puzzle encodes a complete readable message — not just a single word — giving solvers the satisfaction of revealing an entire sentence through pattern recognition and deduction. The Letters to Reveal slider (0–10) controls how many letter-to-image mappings are pre-solved as hints, creating a smooth difficulty gradient from zero-hint expert challenges to heavily-scaffolded beginner puzzles. Auto-Assign pulls random images from any of 104 themed collections (3,100+ illustrations) to fill unassigned letters instantly, or use Manual Assignment to hand-pick specific images for specific letters with a full visual preview of all mappings. The answer key includes a complete letter legend showing every alphabet letter paired with its assigned image in sorted order — the definitive reference for checking solutions. Full Access unlocks all 11 supported languages where both the secret message text and the available alphabet set change by locale: German cryptograms encode German phrases with ä, ö, ü in the alphabet; French cryptograms encode French phrases with é, è, ç, à — each language version is a genuinely different cipher product. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed cipher bundles on Etsy, compile cryptogram puzzle books for Amazon KDP, or list code-breaking puzzle packs on Gumroad, the Cryptogram Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Cryptogram cipher puzzles are one of the most unique and low-competition formats you can sell on Etsy and Amazon KDP. This generator turns any phrase into a picture cipher where every letter maps to an image — solvers crack the code through pattern recognition and deduction. Adjust difficulty with the Letters to Reveal slider, choose from 3,000+ themed illustrations, and generate complete puzzles with answer keys in under 3 minutes. The 11-language support creates genuinely different cipher products per locale — German with umlauts, French with accented characters — opening markets most sellers ignore entirely. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Cryptogram Worksheets in 5 Steps',
+    title: 'How to Create Cipher Puzzles in Under 3 Minutes',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Cryptogram Worksheet Generator',
+    title: 'Why Cryptogram Puzzles Are a Low-Competition Niche',
     features: [
       {
         title: 'Picture Cipher with Image-to-Letter Mapping',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Cryptogram Worksheets Online',
+    title: 'Sell Cipher Puzzle Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Cryptogram Bundles on Etsy',
@@ -204,58 +204,23 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'prepositions-worksheets',
-      anchorText: 'Preposition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
+      slug: 'code-addition-worksheets',
+      anchorText: 'Code addition puzzles for more cipher-style products',
     },
     {
       pageType: 'app',
       slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'literacy-language-bundle',
-      anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Language Worksheets on Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Sellers',
+      anchorText: 'Word search puzzles for vocabulary bundle variety',
     },
     {
       pageType: 'guide',
       slug: 'create-cryptogram-puzzles',
-      anchorText: 'How to Create Cryptogram Puzzles',
+      anchorText: 'Step-by-step guide to creating cryptogram puzzles',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'literacy-language-bundle',
+      anchorText: 'Literacy & Language Bundle with all word generators',
     },
   ],
 

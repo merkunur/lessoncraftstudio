@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pets Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore profitable pets printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Cat, dog, and small pet product concepts with platform strategies for sellers.',
+    titleTag: 'Pet Themed Printables to Sell on Etsy | LCS',
+    metaDescription: 'Pet themed printable business ideas for Etsy & KDP. Product concepts and strategies for dog, cat, and pet-themed printable sellers.',
 
-    primaryKeyword: 'pets printable ideas',
+    primaryKeyword: 'pet themed printables to sell on Etsy',
     secondaryKeywords: [
-      'pet themed worksheets to sell',
-      'pets printable business ideas',
-      'pet activity sheets for sellers',
-      'sell pet printables on Etsy',
+      'pet worksheets for Etsy sellers',
+      'dog and cat activity books for KDP',
+      'sell pet printables online',
+      'pet theme printable business ideas',
     ],
     lsiKeywords: [
-      'domestic animal educational worksheets',
-      'cat and dog themed activity pages',
-      'pet care themed printables',
+      'pet printable niche',
+      'domestic animal worksheets',
+      'cat dog themed products',
     ],
   },
   hero: {
-    title: 'Pets Printable Business Ideas for Sellers',
-    description: 'Pets occupy a uniquely powerful position in the educational printable market because nearly every child has a personal connection to household animals. Whether a family owns a dog, a cat, a hamster, or a goldfish, children are naturally drawn to learning materials featuring familiar creatures they see and interact with daily. This emotional bond drives strong purchase intent from parents who want to combine their child\'s enthusiasm for pets with structured learning. For printable sellers on Etsy, Amazon KDP, and Gumroad, the pet theme offers massive evergreen demand, diverse species variety for product differentiation, and cross-age appeal from toddlers through early elementary. This guide provides specific product ideas, platform strategies, and niche positioning advice to help you build a profitable pet-themed printable business using our worksheet generator tools.',
+    title: 'Pet Themed Printables to Sell on Etsy',
+    description: 'Pets are one of the most emotionally resonant themes in children\'s printables — kids who love their dogs, cats, and hamsters want to see those animals on everything they do. This niche guide explores the commercial potential: which pet-themed products drive the most sales on Etsy, how to create breed-specific bundles that target dedicated buyer segments, and pricing strategies for the pet printable market. You\'ll discover product ideas spanning math, word puzzles, matching, and coloring activities.',
   },
   marketOverview: `The pets printable niche benefits from a simple but powerful market dynamic: pets are the most personally relevant animal theme for children. While farm animals and ocean creatures are interesting, pets are the animals children actually live with, care for, and love. This personal connection transforms worksheet time from an abstract exercise into an activity featuring their favorite companions, which is exactly why parents and buyers seek out pet-themed educational materials.
 
@@ -147,44 +147,19 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Word search generator for pet vocabulary',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'safari-animals-printable-ideas',
-      anchorText: 'Safari Animals Printable Business Ideas',
+      slug: 'farm-animals-printable-ideas',
+      anchorText: 'Farm animal printable ideas',
     },
   ],
 

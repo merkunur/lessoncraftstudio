@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Camping Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover camping printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Outdoor-themed product concepts, platform strategies, and niche tips for sellers.',
+    titleTag: 'Camping Printable Business Ideas | LCS',
+    metaDescription: 'Camping printable business ideas for Etsy & KDP. Outdoor and nature product concepts and strategies for camping-themed printable sellers.',
 
-    primaryKeyword: 'camping printable ideas',
+    primaryKeyword: 'camping printable business ideas',
     secondaryKeywords: [
-      'camping worksheets to sell',
-      'camping activity sheets for sellers',
-      'outdoor themed printable business',
-      'sell camping printables on Etsy',
+      'camping worksheets for Etsy sellers',
+      'outdoor activity books for Amazon KDP',
+      'sell camping printables online',
+      'nature outdoor themed products',
     ],
     lsiKeywords: [
-      'outdoor adventure educational worksheets',
-      'nature themed activity pages',
-      'summer camp printable resources',
+      'camping printable niche',
+      'outdoor themed worksheets',
+      'nature adventure products',
     ],
   },
   hero: {
     title: 'Camping Printable Business Ideas for Sellers',
-    description: 'Camping represents one of the strongest seasonal-plus-evergreen niches for printable entrepreneurs because it combines powerful spring and summer demand peaks with genuine year-round outdoor education relevance that keeps sales flowing through every quarter of the academic and calendar year. The universal child fascination with campfires, tents, hiking adventures, and nature exploration creates an emotional connection that drives consistent parent and buyer purchasing behavior across multiple buyer segments. The camping theme offers extraordinary sub-theme depth including tent, campfire, marshmallow, flashlight, compass, backpack, sleeping bag, hiking, trail, lantern, s\'mores, canoe, fishing rod, binoculars, pine tree, mountain, lake, bear, deer, owl, stars, moon, canteen, and water bottle, giving sellers a rich visual vocabulary that connects to children\'s natural love of outdoor adventures, wilderness discovery, and the cozy excitement of sleeping under the stars. Cross-curricular versatility makes camping printables especially valuable because outdoor concepts connect naturally to science through nature observation, wildlife identification, and ecology exploration, math through counting outdoor items, campsite measuring, and trail distance activities, literacy through camping vocabulary building, nature journaling, and adventure story comprehension, and geography through map reading, compass direction exercises, and trail navigation activities. For printable sellers on Etsy, Amazon KDP, and Gumroad, the camping niche combines strong seasonal peaks with year-round outdoor education demand that resonates with buyers planning nature and science units, outdoor education coordinators building content resources, homeschool families exploring ecology and earth science topics, summer camp directors preparing activity materials, and parents looking for educational printables that channel their child\'s natural excitement about campfires, tent adventures, and wildlife encounters into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable camping printable product line using our worksheet generator tools.',
+    description: 'Camping and outdoor themes peak during summer but sell year-round to homeschool families and nature-focused educators. This niche guide covers the commercial opportunity: which camping-themed formats sell on Etsy, how to create seasonal outdoor bundles timed for summer demand, and strategies for combining camping with nature science themes for broader appeal. Camping printables work especially well with I Spy, treasure hunt, and word search generators for adventure-themed activities.',
   },
   marketOverview: `The camping printable niche occupies a uniquely advantageous position for printable sellers because it delivers the best of both worlds: powerful seasonal demand peaks during spring and summer months when families actively prepare for camping trips and outdoor adventures, combined with genuine year-round relevance through outdoor education curriculum, nature science units, and the enduring child fascination with campfires, tents, and wilderness exploration that operates independently of actual camping season timing. This dual demand pattern creates a revenue model where strong seasonal surges layer on top of a reliable baseline, giving camping printable sellers more predictable income than purely seasonal niches while still benefiting from concentrated high-volume purchasing periods.
 
@@ -143,19 +143,19 @@ The summer camp preparation market represents a particularly valuable audience t
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Treasure hunt generator for camping activities',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'seasonal-marketing-printables',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'summer-printable-ideas',
+      anchorText: 'Summer printable business ideas',
     },
     {
       pageType: 'guide',

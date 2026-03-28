@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'bingo card maker for sellers',
+    primaryKeyword: 'free bingo card maker with pictures',
     secondaryKeywords: [
-      'picture bingo card creator commercial use',
-      'bingo game maker to sell online',
-      'printable bingo cards for Etsy and KDP',
-      'custom bingo card generator for printable business',
+      'make bingo cards free online',
+      'picture bingo generator no signup',
+      'free bingo card creator with images',
+      'bingo cards free trial with watermark',
     ],
     lsiKeywords: [
-      'batch bingo card generator for product bundles',
-      'image and word bingo card maker',
-      'call-out sheet bingo worksheet creator',
+      'free bingo tool online',
+      'instant bingo card maker',
+      'try before you buy bingo tools',
     ],
-    titleTag: 'Bingo Card Maker — Sell Picture Bingo Cards Online',
-    metaDescription: 'Create picture bingo cards with grids from 3x3 to 5x5, batch unique cards, call-out sheets, 104 themes. Try free — license available.',
+    titleTag: 'Free Bingo Card Maker with Pictures | LCS',
+    metaDescription: 'Make picture bingo cards free online with watermark — no signup. Themed images, unique randomized cards, caller sheets. Upgrade for commercial license.',
     },
 
   hero: {
-    title: 'Bingo Card Maker',
-    tagline: 'Picture bingo card generator with configurable grids from 3×3 to 5×5, batch generation of 1–10 unique cards per set, ZIP export of all cards in one download, dual fill modes for cells and circular chips independently, dedicated call-out sheet with dynamic word grid, custom call-out selection with live counter, and 104 themed image collections for picture bingo cards that sell worldwide',
-    description: 'Create professional picture bingo cards where every player gets a unique card with different images in different positions — essential for bingo to work as a game. Configure rows from 3 to 5 and columns from 3 to 5 independently, creating grids from 3×3 (9 cells) up to 5×5 (25 cells) with a default of 4×4 (16 cells). Generate 1 to 10 unique bingo cards per batch, each drawing a different random image selection from the pool so no two cards share the same layout. Export all generated cards as individual JPEGs in a single bingo_cards.zip file using JSZip compression — one click downloads an entire bingo card set ready for packaging into marketplace products. Choose Image or Word fill independently for both card cells and circular chips, creating four distinct bingo card styles from one generator. Image fill displays themed illustrations; Word fill displays localized image names from the Image Library, making the Bingo Card Maker language-sensitive — switching languages changes words on cards, chips, and the call-out sheet. Circular chips feature dashed borders (#666, strokeDashArray [5,5]) and are shuffled using Fisher-Yates ordering so they never mirror the card grid layout, ensuring authentic bingo play where chips serve as a matching reference rather than a positional giveaway. A dedicated call-out sheet on a separate tab displays a dynamic word grid for the caller — columns calculated based on longest word length (2–6 columns) with uniform font sizing across all entries for clean readability. Enable custom call-out selection to hand-pick specific images for the call-out pool with a live counter showing your selection count, giving you precise curriculum alignment control over which items appear in the game. Browse 104 themed collections with 3,100+ illustrations or upload your own PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export worksheet JPEG, call-out JPEG, worksheet PDF, and call-out PDF at 300 DPI (6× multiplier, JPEG quality 1.0), plus the ZIP batch export for all cards. Choose Letter, A4, Square (1200×1200), or custom page sizes with a grayscale toggle for ink-friendly output. The grid area uses 60% of available canvas height (capped at 500px) for optimal card proportions. Edit everything on the Fabric.js canvas with alignment tools, layers, lock/unlock, zoom 50%–200% in 10% increments, and undo/redo 20 states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    title: 'Make Bingo Cards with Pictures Free Online — No Signup',
+    tagline: 'Picture bingo card generator with configurable grids from 3x3 to 5x5, batch generation of 1–10 unique cards per set, ZIP export of all cards in one download, dual fill modes for cells and circular chips independently, dedicated call-out sheet with dynamic word grid, custom call-out selection with live counter, and 104 themed image collections for picture bingo cards that sell worldwide',
+    description: 'Create picture bingo cards right now — free, instant, no account required. Each bingo set generates unique randomized cards with themed images so no two cards are alike — perfect for parties, classrooms, or family game nights. Automatic caller sheets are included with every set. Choose from 104 themed collections covering holidays, animals, seasons, and dozens more. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell bingo cards on Etsy or compile party game packs for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Picture Bingo Cards in 8 Steps',
+    title: 'How to Make Picture Bingo Cards Free in 8 Steps',
     steps: [
       {
         title: 'Open the Bingo Card Maker',
@@ -204,14 +204,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Picture Bingo Cards — Full Product Details' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Picture Sort Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet maker' },
+    { pageType: 'guide', slug: 'create-bingo-cards', anchorText: 'How to create bingo cards to sell' },
   ],
 
   visuals: {

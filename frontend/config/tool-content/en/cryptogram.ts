@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'cryptogram worksheet generator',
+    primaryKeyword: 'free cryptogram puzzle maker',
     secondaryKeywords: [
-      'picture cipher puzzle maker for sellers',
-      'create cryptogram worksheets to sell',
-      'printable cryptogram puzzles commercial use',
-      'cryptogram generator for KDP',
+      'make cryptogram puzzles free online',
+      'cipher puzzle generator no signup',
+      'free picture cryptogram maker',
+      'cryptogram worksheets free trial',
     ],
     lsiKeywords: [
-      'image-to-letter cipher printables for Etsy',
-      'code-breaking worksheet generator tool',
-      'multilingual picture cryptogram maker',
+      'free cipher puzzle tool online',
+      'instant cryptogram maker',
+      'try before you buy puzzle generators',
     ],
-    titleTag: 'Cryptogram Worksheet Generator | Create & Sell Puzzles',
-    metaDescription: 'Generate cryptogram worksheets with picture cipher encoding, difficulty slider, auto-assign mode, answer keys across 11 languages.',
+    titleTag: 'Free Cryptogram Puzzle Maker Online | LCS',
+    metaDescription: 'Make cryptogram puzzles free online with watermark — no signup. Picture cipher encoding, adjustable difficulty, 11 languages. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Cryptogram Worksheet Generator',
+    title: 'Make Cryptogram Puzzles Free Online — No Signup Needed',
     tagline: 'Create picture cipher puzzles where every letter maps to an image and solvers decode entire secret phrases through pattern recognition',
-    description: 'Design professional cryptogram worksheets built on a picture cipher mechanic: every alphabet letter is mapped to a unique image, and your secret phrase is rendered as a sequence of images that solvers must decode back into readable text. Unlike word searches or scrambles that work with individual words, the Cryptogram generator encodes entire sentences and phrases — solvers crack the cipher by deducing which image represents which letter, using contextual clues from common words like \"the,\" \"and,\" and \"is\" to accelerate their code-breaking. The Letters to Reveal slider (0–10) is the primary difficulty control: set it to zero for a pure code-breaking challenge with no starting information, or slide it up to ten for heavy scaffolding where many letter-to-image mappings are pre-solved as hints. Auto-Assign pulls random images from any of 104 themed collections (3,100+ illustrations) to fill the entire cipher with one click, while Manual Assignment lets you hand-pick specific images for specific letters with a full visual preview of all mappings. Upload custom images for complete creative control. The answer key includes a letter legend showing every alphabet letter paired with its assigned image in sorted order — the definitive solution reference. Language sensitivity is built in: switch languages and both the secret message text and the alphabet change. German cryptograms encode German phrases with ä, ö, ü, ß in the alphabet; French cryptograms use é, è, ç, à. Each language version is a genuinely different cipher product. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Choose from 5 fonts, toggle grayscale for ink-friendly output, and use the full Fabric.js canvas to reposition every element. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create picture cryptogram puzzles right now — free, instant, no account required. Turn any phrase into a visual cipher where every letter maps to a themed image, and solvers crack the code through pattern recognition and deduction. The Letters to Reveal slider adjusts difficulty from zero-hint expert challenges to heavily-scaffolded beginner puzzles. All 11 supported languages generate locale-specific alphabets with accented characters. Every feature is unlocked in the free trial including answer key legends and 300 DPI export. Downloads include a small watermark. Want to sell cipher puzzles on Etsy or compile cryptogram books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Cryptogram Worksheets in 8 Easy Steps',
+    title: 'How to Make Cryptogram Puzzles Free in 8 Steps',
     steps: [
       {
         title: 'Open the Cryptogram Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Cryptogram Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
-    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Free word search maker' },
+    { pageType: 'guide', slug: 'create-cryptogram-puzzles', anchorText: 'How to create cryptogram puzzles to sell' },
   ],
 
   visuals: {

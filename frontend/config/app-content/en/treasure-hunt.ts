@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'treasure hunt generator',
+    primaryKeyword: 'treasure hunt printable generator for Etsy and KDP',
     secondaryKeywords: [
-      'printable treasure hunt path-finding maker for Etsy sellers',
-      'directional puzzle worksheet generator for KDP publishers',
-      'coordinate grid treasure hunt creator commercial license',
-      'sell treasure hunt worksheets on Gumroad',
+      'create treasure hunt worksheets for Etsy shop',
+      'directional puzzle printables for Amazon KDP',
+      'treasure hunt worksheets with commercial license',
+      'sell path-finding activities online',
     ],
     lsiKeywords: [
-      'digital treasure hunt printables online business',
-      'commercial use directional worksheet generator',
-      'printable path-finding puzzle business tools',
+      'adventure puzzle printable niche',
+      'sell treasure hunt worksheets commercially',
+      'coordinate grid worksheet products',
     ],
-    titleTag: 'Treasure Hunt Generator | Create Path Worksheets',
-    metaDescription: 'Create treasure hunt worksheets to sell on Etsy, KDP & Gumroad. 5x5 coordinate grid, two direction types, auto answer key, 104 themes.',
+    titleTag: 'Treasure Hunt Generator — Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create treasure hunt worksheets to sell on Etsy & KDP. Directional puzzles on coordinate grids, 11 languages, answer keys, commercial license. Try free.',
   },
 
   hero: {
-    title: 'Treasure Hunt Worksheet Generator for Path-Finding Direction Puzzles',
+    title: 'Create Treasure Hunt Worksheets to Sell on Etsy & KDP',
     tagline: 'Generate directional path-finding puzzles on a 5×5 coordinate grid — two direction vocabularies (Basic: up/down/left/right and Cardinal: north/south/east/west), fully localized directional clues in 11 languages, auto-generated answer key with highlighted treasure location, and treasure-themed headers across 104 image collections.',
     description:
-      'Build professional treasure hunt worksheets where solvers follow sequential movement clues to locate hidden treasure on a 5×5 letter-number coordinate grid (A–E rows, 1–5 columns). Every puzzle scatters 6 themed images across the grid as landmarks, then generates a start position and exactly 4 directional moves that lead to the treasure cell. Choose between two direction vocabularies: Basic mode uses up, down, left, and right for the younger audience, while Cardinal mode uses north, south, east, and west for more advanced spatial reasoning. The Treasure Hunt Generator is language-sensitive: switching languages changes both the directional instruction text and the image content, with all directions fully translated into 11 supported languages. Every puzzle includes an auto-generated localized header with a teal background (#2C8C7C), golden title (#D4A017) in Fredoka font, and sandy description in Quicksand — displaying \"Treasure Hunt\" and \"Follow the clues and find the treasure!\" in the selected language. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key highlights the final treasure cell in pale yellow so you never have to mark it manually. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized directions and images. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Whether you sell treasure hunt bundles on Etsy, compile directional skills workbooks for Amazon KDP, or create coordinate grid products for your own store, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Treasure hunt worksheets combine adventure excitement with directional skills -- a unique printable format that stands out on Etsy and makes engaging Amazon KDP activity books. This generator creates professional path-finding puzzles on a coordinate grid where solvers follow directional clues to locate hidden treasure among themed image landmarks. Choose Basic (up/down/left/right) or Cardinal (north/south/east/west) direction modes, pick from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic answer keys. The 11-language support translates all directional clues, creating distinct products per locale. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Treasure Hunt Worksheets in 5 Steps',
+    title: 'How to Create Treasure Hunt Puzzles Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Treasure Hunt Worksheet Generator',
+    title: 'Why Treasure Hunt Worksheets Are a Unique Niche',
     features: [
       {
         title: 'Path-Finding Treasure Hunt Puzzles on a 5×5 Coordinate Grid',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Treasure Hunt Worksheets Online',
+    title: 'Sell Adventure Puzzle Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Treasure Hunt Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'find-and-count-worksheets',
-      anchorText: 'Find & Count Worksheet Generator',
+      slug: 'picture-path-worksheets',
+      anchorText: 'Picture path mazes for adventure-themed bundles',
     },
     {
       pageType: 'app',
       slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'crossword-worksheets',
-      anchorText: 'Crossword Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-path-worksheets',
-      anchorText: 'Picture Path Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'prepositions-worksheets',
-      anchorText: 'Prepositions Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'math-puzzle-worksheets',
-      anchorText: 'Math Puzzle Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'search-find-bundle',
-      anchorText: 'Search & Find Bundle — All Search Apps in One Package',
+      anchorText: 'I Spy worksheets for complementary search activities',
     },
     {
       pageType: 'guide',
       slug: 'create-treasure-hunt-worksheets',
-      anchorText: 'How to Create Treasure Hunt Worksheets That Sell',
-    },
-    {
-      pageType: 'idea',
-      slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: 'Guide to creating treasure hunt worksheets',
     },
   ],
 

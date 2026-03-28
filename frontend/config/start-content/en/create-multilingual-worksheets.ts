@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'multilingual worksheet generator',
+    primaryKeyword: 'create multilingual worksheets to sell on Etsy',
     secondaryKeywords: [
-      'create worksheets in multiple languages',
-      'multilingual printable worksheets',
-      'sell worksheets in german french spanish',
-      'multilingual activity book generator',
+      'multilingual worksheet creation guide',
+      'make worksheets in 11 languages',
+      'sell multilingual printables online',
+      'multi-language worksheet business',
     ],
     lsiKeywords: [
-      'language-sensitive worksheet generator',
-      'create worksheets in 11 languages',
-      'non-english printable market etsy',
-      'multilingual word search generator',
-      'international printable business',
-      'sell worksheets on etsy.de etsy.fr',
+      'multilingual worksheet production',
+      'international printable market',
+      'multi-language product strategy',
     ],
-    titleTag: 'Multilingual Worksheet Generator — 11 Languages',
-    metaDescription: 'Create and sell worksheets in 11 languages with a multilingual generator. Reach German, French, and Spanish buyers on Etsy, Amazon KDP, and global markets.',
+    titleTag: 'Create Multilingual Worksheets to Sell | LCS',
+    metaDescription: 'How to create worksheets in multiple languages to sell. 11-language support, locale-specific content, and strategies for international markets.',
   },
 
   hero: {
-    title: 'How to Create Worksheets in 11 Languages',
+    title: 'Create Multilingual Worksheets to Sell Online',
     tagline: 'Reach international buyers on Etsy and Amazon KDP with professionally localized worksheet content — no translation skills required',
-    description: 'Most printable sellers compete exclusively in the English-language market, ignoring millions of buyers who search in German, French, Spanish, Portuguese, Italian, and other languages. This guide shows you how to use multilingual worksheet generators to create authentic, language-specific content for 11 languages and sell it across international marketplaces. You will learn the critical distinction between language-sensitive and visual-only generators, understand the market opportunity in each supported language, and build a systematic strategy for expanding your printable business internationally.',
+    description: 'Most printable sellers compete only in English — but our generators support 11 languages with locale-specific content, giving you access to German, French, Spanish, and 8 more markets where competition is a fraction of what it is in English. This guide covers creating and selling multilingual worksheets: which generators produce language-specific content vs universal visual formats, how to list multilingual products on international Etsy shops and KDP marketplaces, and strategies for multiplying your catalog without multiplying your workload.',
   },
 
   introduction: 'The English-language printable market on Etsy and Amazon KDP is crowded. Thousands of sellers compete for the same keywords, driving down prices and making visibility increasingly difficult. Meanwhile, the German, French, Spanish, Portuguese, and Italian markets have a fraction of that competition — and millions of active buyers searching for educational worksheets, puzzle books, and activity pages in their native language.\n\nThis is not a hypothetical opportunity. Amazon.de, Amazon.fr, Amazon.es, Amazon.it, Etsy.de, and Etsy.fr are established marketplaces where buyers actively search for localized educational content. The sellers who offer authentic multilingual worksheets — not machine-translated afterthoughts — dominate these markets because so few competitors bother to serve them.\n\nThe challenge has always been production. Creating worksheets in a language you do not speak requires either expensive translation services or unreliable automated translation. Worksheet generators that support multiple languages eliminate this barrier entirely. The translations are built into the system — vocabulary, word lists, clues, and labels in all 11 supported languages — so you create professional multilingual content with the same workflow you already use for English.\n\nThis guide covers every aspect of the multilingual printable business: which generator types produce language-specific content, which markets offer the strongest opportunities, how to list and sell internationally on Etsy and Amazon KDP, and how to build a multi-language catalog strategy that compounds over time.\n\nEvery generator mentioned in this guide offers a free trial with watermark, so you can test multilingual output in any supported language before purchasing a commercial license.',
@@ -203,17 +200,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Crossword Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Try the Crossword Maker' },
+    { pageType: 'guide', slug: 'multilingual-printable-business', anchorText: 'Build a multilingual printable business' },
+    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'Create worksheets in multiple languages' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
+    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Scale your printable business' },
   ],
 
   visuals: {

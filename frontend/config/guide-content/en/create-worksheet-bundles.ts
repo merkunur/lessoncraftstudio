@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create worksheet bundles that sell',
+    primaryKeyword: 'how to create worksheet bundles that sell',
     secondaryKeywords: [
-      'worksheet bundle strategy',
-      'printable bundle creation',
-      'how to bundle worksheets for selling',
-      'worksheet bundle pricing',
+      'create printable worksheet bundles guide',
+      'bundle strategy for Etsy worksheet sellers',
+      'worksheet bundle pricing and packaging',
+      'sell worksheet bundles on Etsy and KDP',
     ],
     lsiKeywords: [
-      'bundle types subject grade theme seasonal format mega perceived value',
-      'value stacking itemized savings bonus materials cover page table of contents',
-      'anchor pricing discount psychology tiered bundle pricing price testing',
-      'complementary products variety consistency filler avoidance quality standards',
-      'bundle packaging mockup preview branding file organization naming conventions',
-      'multi-platform bundle listings universal strategy cross-platform selling',
+      'printable bundling strategy',
+      'digital product packaging',
+      'increase average order value printables',
     ],
-    titleTag: 'Create Worksheet Bundles That Sell — Guide',
-    metaDescription: 'How to create worksheet bundles that sell across any platform. Bundle types, pricing psychology, value stacking, and professional packaging for more revenue.',
+    titleTag: 'Create Worksheet Bundles That Sell | LCS',
+    metaDescription: 'How to create worksheet bundles that sell. Bundle sizing, theme selection, pricing tiers, and packaging strategies for Etsy and KDP printable sellers.',
   },
 
   hero: {
-    title: 'How to Create Worksheet Bundles That Sell',
+    title: 'Create Worksheet Bundles That Sell',
     tagline: 'A complete guide to creating high-value worksheet bundles that increase revenue per transaction across every selling platform — covering bundle types and structures, product selection for compelling combinations, value stacking and perceived value psychology, professional bundle packaging and presentation, anchor pricing and discount strategies, platform-agnostic listing optimization, and performance tracking for continuous improvement',
-    description: 'Bundling worksheets is the single most effective way to increase your average order value without creating new content. A well-structured bundle transforms individual products worth $8 to $12 each into a $35 to $65 package that buyers perceive as a better deal — even though you earn significantly more per transaction. This guide covers universal bundling strategy that works across Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica, and any other platform where you sell printable worksheets.',
+    description: 'Bundles consistently outperform individual worksheets — buyers perceive more value, your average order value increases, and you rank for more search terms per listing. This guide covers the complete bundle creation process: choosing themes that justify bundling, determining optimal worksheet counts per bundle, structuring pricing tiers from starter to mega-bundle, and writing listings that communicate value. You\'ll learn which bundle formats sell best on Etsy vs KDP and how to use our generators to produce complete bundles in a single session.',
   },
 
   introduction: 'Selling individual worksheets puts a hard ceiling on your revenue per customer. A buyer visits your store, purchases one $10 product, and leaves. Even if your worksheets are exceptional, most one-product buyers never return. Bundles break this pattern by offering buyers more value per purchase while dramatically increasing your earnings per transaction.\n\nThe psychology behind bundle purchasing is well-documented: buyers perceive bundled products as higher value than the sum of their parts, particularly when the bundle offers a clear discount over individual purchase. A parent looking for math practice sheets sees a single 20-page addition pack for $10 or a complete first-grade math bundle with 100 pages covering addition, subtraction, number sense, and word problems for $32. The bundle costs more, but the per-page value and the convenience of a comprehensive solution make it the obvious choice for most buyers.\n\nBundles also solve a critical business problem: customer acquisition cost. Whether you pay for advertising, spend time on SEO, or build a social media following, every visitor to your store represents effort and sometimes direct cost. A bundle converts that same visitor into a $35 buyer instead of a $10 buyer, tripling your return on every marketing dollar and hour invested. Over time, this compounds dramatically — sellers who emphasize bundles consistently report that bundles account for 40% to 60% of their total revenue despite representing a small fraction of their total listings.\n\nThis guide covers platform-agnostic bundling strategy: what to bundle, how to structure bundles for maximum perceived value, pricing psychology that drives higher conversion, and professional packaging that builds buyer confidence. The principles work identically whether you sell on Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica, or your own website. For platform-specific listing tactics, reference the dedicated platform guides linked throughout.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'How to Create Etsy Worksheet Bundles' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'How to Sell Printables on Gumroad' },
-    { pageType: 'guide', slug: 'sell-creative-fabrica', anchorText: 'How to Sell Educational Resources on Creative Fabrica' },
-    { pageType: 'guide', slug: 'create-sell-Gumroad-resources', anchorText: 'How to Create and Sell Gumroad Resources' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'How to Create Matching Worksheets for Preschool' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to price printable worksheets on Etsy' },
+    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'Create worksheet bundles for Etsy' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math Mastery Bundle — example bundle product' },
   ],
 
   toolsRecommended: [

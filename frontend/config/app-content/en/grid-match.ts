@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'grid match puzzle generator',
+    primaryKeyword: 'grid matching puzzle generator for printable business',
     secondaryKeywords: [
-      'printable grid puzzle maker for Etsy sellers',
-      'picture tile matching worksheet generator for KDP publishers',
-      'grid match puzzle creator commercial license',
-      'sell grid picture puzzles on Etsy and Gumroad',
+      'create grid match puzzles for Etsy shop',
+      'picture tile puzzles for Amazon KDP books',
+      'grid matching worksheets with commercial license',
+      'sell visual puzzles online',
     ],
     lsiKeywords: [
-      'digital tile matching printables online business',
-      'commercial use grid puzzle worksheet generator',
-      'printable picture puzzle business tools',
+      'picture puzzle printable niche',
+      'sell grid puzzles commercially',
+      'visual perception worksheet products',
     ],
-    titleTag: 'Grid Match Puzzle Generator | Create & Sell Puzzles',
-    metaDescription: 'Create grid match puzzles to sell on Etsy, KDP & Gumroad. Configurable grid size, adjustable clue cells, auto answer key, 104 themes.',
+    titleTag: 'Grid Matching Puzzle Generator for Sellers | LCS',
+    metaDescription: 'Create grid matching puzzles to sell on Etsy & KDP. Configurable grids, clue cells, auto answer keys, commercial license. Try free with watermark.',
   },
 
   hero: {
-    title: 'Grid Match Puzzle Generator for Picture Tile Matching Activities',
+    title: 'Create Grid Matching Puzzles to Sell on Etsy & Amazon KDP',
     tagline: 'Turn any image into a grid-based picture puzzle — divide it into tiles, reveal configurable clue cells, shuffle remaining tiles into a numbered palette, and auto-generate an answer key with numbered circle overlays across 104 themed image collections.',
     description:
-      'Build professional grid match puzzles where a single image is divided into a grid of tiles and solvers match numbered tiles back to their correct positions. Configure the grid from 2×2 up to 4×4 (2–4 rows × 2–4 columns) and set 1–5 clue cells that remain visible as hints — fewer clues mean harder puzzles. The app shuffles remaining tiles using Fisher-Yates randomization and displays them in a numbered palette beside or below the grid. Solvers study the revealed clue cells, examine the numbered tiles, and write which number belongs in each empty cell. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key displays the complete image with numbered circles overlaid on each cell showing the correct tile placement, so you never create answer keys manually. Grid Match is NOT language-sensitive: the puzzle output is purely visual with no localized word content on the worksheet itself. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for the app interface. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell picture puzzle bundles on Etsy, compile visual perception workbooks for Amazon KDP, or create quick-finish puzzle activities for Gumroad, this generator delivers production-ready grid puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Grid matching puzzles offer a unique visual format that stands out from standard worksheets on Etsy — solvers match numbered tiles back to their correct positions in a divided image grid, combining spatial reasoning with observation skills. This generator creates professional grid match puzzles for your printable business with configurable grids from 2x2 to 4x4, adjustable clue cells for difficulty control, and automatic answer keys with numbered overlays. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. The purely visual format means every puzzle works worldwide without translation. Build themed bundles for Etsy or compile visual perception workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Grid Match Puzzles in 5 Steps',
+    title: 'How to Create Grid Match Puzzles Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Grid Match Puzzle Generator',
+    title: 'Why Grid Puzzles Stand Out in the Printable Market',
     features: [
       {
         title: 'Single-Image Grid Puzzle with Configurable Rows and Columns (2–4 × 2–4)',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Grid Match Puzzles Online',
+    title: 'Sell Grid Puzzle Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Grid Puzzle Bundles on Etsy',
@@ -205,57 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'matching-worksheets',
-      anchorText: 'Matching Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-bingo-worksheets',
-      anchorText: 'Picture Bingo Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
+      anchorText: 'Matching worksheets for complementary matching bundles',
     },
     {
       pageType: 'app',
       slug: 'missing-pieces-worksheets',
-      anchorText: 'Missing Pieces Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'matching-sorting-bundle',
-      anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'printable-business-blueprint',
-      anchorText: 'Your Printable Business Blueprint',
+      anchorText: 'Missing pieces puzzles for visual puzzle variety',
     },
     {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
-      anchorText: 'How to Create Matching & Grid Worksheets',
+      anchorText: 'Guide to creating matching and grid worksheets',
     },
   ],
 

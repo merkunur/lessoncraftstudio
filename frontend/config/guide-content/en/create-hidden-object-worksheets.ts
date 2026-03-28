@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create hidden object worksheets',
+    primaryKeyword: 'create hidden object worksheets to sell',
     secondaryKeywords: [
-      'hidden object scene generator',
-      'I Spy worksheets for kids',
-      'odd one out printable worksheets',
-      'make hidden object puzzles to sell',
+      'make I Spy worksheets for Etsy',
+      'create hidden object books for KDP',
+      'I Spy worksheet creation guide',
+      'sell hidden object printables online',
     ],
     lsiKeywords: [
-      'visual search worksheets for preschool',
-      'find the hidden picture activity sheets',
-      'seek and find printable pages',
-      'sell hidden object worksheets on Etsy',
-      'Amazon KDP search and find activity books',
-      'commercial license hidden object maker',
+      'I Spy product creation',
+      'hidden object business',
+      'sellable visual search products',
     ],
-    titleTag: 'Create Hidden Object Worksheets — Step-by-Step Guide',
-    metaDescription: 'How to create hidden object worksheets with 2 game modes: I Spy and Odd One Out. Build themed scenes, generate answer keys, and sell on Etsy and Amazon KDP.',
+    titleTag: 'Create Hidden Object Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating hidden object and I Spy worksheets to sell. Two activity modes, themes, and strategies for Etsy and KDP I Spy book sellers.',
   },
 
   hero: {
-    title: 'How to Create Hidden Object Scene Worksheets',
+    title: 'Create Hidden Object Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating I Spy and Odd One Out scene worksheets you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Hidden object worksheets are among the most engaging printable products you can create. Children love the challenge of searching a scene for specific items, and parents and buyers love the focused attention these activities demand. This guide walks you through creating professional hidden object scene worksheets using the Find Objects generator — from choosing between I Spy and Odd One Out game modes to building custom scenes with layered images, generating automatic answer keys, and exporting print-ready files. Whether you are launching your first printable product or adding a new category to an existing shop, you will have finished worksheets ready to list by the end of this tutorial.',
+    description: 'I Spy and hidden object worksheets are a booming niche — parents love them for screen-free entertainment, and the format works perfectly as Amazon KDP activity books. This guide covers creating professional hidden object worksheets designed to sell: using the zero-overlap algorithm for professional scatter scenes, choosing themes that match trending search terms, and building complete I Spy books for KDP. You\'ll learn how to mix I Spy and Odd One Out modes for product variety and how to position your worksheets for maximum visibility on Etsy.',
   },
 
   introduction: 'Hidden object activities tap into a fundamental human instinct: the drive to search and find. Children as young as three engage naturally with seek-and-find tasks, making hidden object worksheets one of the broadest-appeal printable products you can create. The audience spans preschool through elementary school, crosses every curriculum, and works equally well at home and in the group.\n\nWhat sets hidden object worksheets apart from other printable products is their visual-first nature. These worksheets contain no text that needs translation, no math problems tied to a specific curriculum, and no language-dependent instructions. A hidden object scene worksheet created with English UI labels works identically for a buyer in Germany, Brazil, or Japan. This makes your products universally sellable across international marketplaces without any modification.\n\nThe Find Objects generator gives you two distinct game modes that create fundamentally different products. I Spy mode challenges children to find specific hidden objects within a busy scene of distractor images. Odd One Out mode asks children to identify the image that does not have a matching pair. Each mode serves different developmental skills — visual discrimination, attention to detail, pattern recognition — and each creates a separate product line for your catalog.\n\nUnlike grid-based worksheet generators, the Find Objects tool uses a freeform canvas where you position images individually. You control layering, alignment, and placement to create scenes with genuine visual complexity. Combined with custom image uploads, background themes, and border decorations, this gives you complete creative control over every scene you build.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can build complete scenes, test both game modes, and evaluate export quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Find Objects Scene Generator — Full Details' },
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Path Maze Generator — Full Details' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Try the Hidden Object Scene Maker' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Hidden object worksheet generator' },
+    { pageType: 'guide', slug: 'create-counting-worksheets', anchorText: 'Create counting worksheets to sell' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on KDP' },
   ],
 
   toolsRecommended: [

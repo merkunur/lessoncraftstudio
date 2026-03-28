@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'code breaker math worksheet maker',
+    primaryKeyword: 'free code math puzzle maker',
     secondaryKeywords: [
-      'crack the code math worksheets for Etsy sellers',
-      'code breaker puzzles to sell online',
-      'printable cipher math worksheets for commercial use',
-      'secret code addition worksheet creator',
+      'make code math puzzles free online',
+      'crack the code worksheet generator no signup',
+      'free math cipher puzzle maker',
+      'code addition worksheets free trial',
     ],
     lsiKeywords: [
-      'image cipher math puzzle for printable business',
-      'word reveal code-cracking worksheet',
-      'number code math activity for sellers',
+      'free puzzle generator online',
+      'instant code math maker',
+      'try before you buy puzzle tools',
     ],
-    titleTag: 'Code Breaker Math Maker — Worksheets to Sell Online',
-    metaDescription: 'Create code-cracking math worksheets to sell on Etsy & KDP. Image cipher puzzles with addition, Word Reveal mode, 11 languages. Try with watermark — no signup.',
+    titleTag: 'Free Code Math Puzzle Maker Online | LCS',
+    metaDescription: 'Make crack-the-code math puzzles free online with watermark — no signup. Word Reveal mode, 11 languages, answer keys. Upgrade for commercial license.',
     },
 
   hero: {
-    title: 'Code Breaker Math Worksheet Maker',
+    title: 'Make Code Math Puzzles Free Online — No Signup Needed',
     tagline: 'Create cryptarithmetic puzzles where solvers crack secret codes through addition',
-    description: 'This is not another addition worksheet — it is a code-cracking challenge. Each puzzle hides numbers behind image symbols, and solvers must complete addition equations to figure out which number belongs to which picture. In Regular Mode, every symbol stands for a unique digit. Switch to Word Reveal Mode and each solved equation uncovers a letter of a secret word, with distractor letters keeping solvers guessing. Choose from over 100 image themes, adjust symbol count and addend complexity, and download print-ready PDFs or JPEGs. Supports 11 languages with locale-aware alphabets. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create crack-the-code math puzzles right now — free, instant, no account required. Each puzzle turns addition into a detective mission where images hide secret numbers and solvers crack the code through deduction. Switch to Word Reveal mode to embed secret words that solvers decode by solving equations. All features are unlocked in the free trial including 11-language alphabets, answer key overlays, and 300 DPI export. Downloads include a small watermark. Want to sell your puzzles on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and sell with full commercial rights.',
   },
 
   tutorial: {
-    title: 'How to Create Code Breaker Worksheets in 8 Easy Steps',
+    title: 'How to Make Code Math Puzzles Free in 8 Steps',
     steps: [
       {
         title: 'Open the Worksheet Generator',
@@ -196,14 +196,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Free math puzzle maker' },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Create math activity books for Amazon KDP' },
   ],
 
   visuals: {

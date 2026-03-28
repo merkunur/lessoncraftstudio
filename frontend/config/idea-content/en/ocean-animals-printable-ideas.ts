@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ocean Animals Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore ocean animals printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Sea-themed product concepts, platform strategies, and tips for printable sellers.',
+    titleTag: 'Ocean Animal Printable Business Ideas | LCS',
+    metaDescription: 'Ocean animal printable business ideas for Etsy & KDP. Product concepts, bundling strategies, and market analysis for marine-themed printable sellers.',
 
-    primaryKeyword: 'ocean animals printable ideas',
+    primaryKeyword: 'ocean animal printable business ideas',
     secondaryKeywords: [
-      'ocean animal worksheets to sell',
-      'sea creature printable business ideas',
-      'ocean activity sheets for sellers',
-      'sell ocean printables on Etsy',
+      'ocean themed worksheets for Etsy sellers',
+      'sea creature activity books for KDP',
+      'sell ocean printables online',
+      'marine theme printable products',
     ],
     lsiKeywords: [
-      'marine life educational worksheets',
-      'underwater themed activity pages',
-      'sea creature group printables',
+      'ocean animal printable niche',
+      'marine theme worksheets',
+      'sea creature printable products',
     ],
   },
   hero: {
-    title: 'Ocean Animals Printable Business Ideas for Sellers',
-    description: 'Ocean animals captivate children across every age group, making marine life one of the most versatile themes in the educational printable market. From toddlers matching colorful fish to second graders solving whale-themed math problems, the underwater world sparks curiosity and engagement that drives consistent buyer demand. For printable sellers, the ocean niche offers year-round baseline sales with a powerful summer seasonal peak when beach vacations, aquarium visits, and marine science camps dominate family activities. The theme also aligns naturally with science curriculum units on habitats, ecosystems, and animal classification, giving sellers a strong foothold with buyers. Whether you specialize in math worksheets, literacy activities, or creative arts printables, ocean animals provide rich visual material and diverse vocabulary that translate into compelling products across every platform. This guide details specific product ideas, platform strategies, and niche positioning approaches to help you build a thriving ocean-themed printable business using our worksheet generator tools.',
+    title: 'Ocean Animal Printable Business Ideas for Sellers',
+    description: 'Ocean and marine themes captivate children\'s imaginations and drive consistent printable sales — from sea creature counting worksheets to underwater word searches. This niche guide explores the commercial potential of ocean animal printables: which product formats perform best, how to create themed bundles across multiple activity types, and how to position your products for summer demand peaks. You\'ll find specific product ideas that leverage dolphins, whales, fish, and sea creatures across our 33 generators.',
   },
   marketOverview: `The ocean animals printable niche benefits from a unique combination of educational relevance, visual appeal, and emotional fascination that few other themes can match. Children are naturally drawn to marine creatures because of their exotic shapes, vibrant colors, and the mystery of underwater environments. This intrinsic interest means parents and buyers do not need to convince reluctant learners to engage with ocean-themed materials, which translates directly into positive reviews and repeat purchases for sellers who deliver quality products.
 
@@ -147,44 +147,19 @@ Science education connections make ocean animal printables particularly valuable
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Find and count generator for ocean scenes',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Business Ideas',
+      slug: 'underwater-printable-ideas',
+      anchorText: 'Underwater themed printable ideas',
     },
   ],
 

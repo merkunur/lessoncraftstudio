@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'picture sudoku maker',
+    primaryKeyword: 'free picture sudoku maker for kids',
     secondaryKeywords: [
-      'picture sudoku maker for sellers',
-      'create image sudoku puzzles to sell',
-      'printable picture sudoku generator commercial use',
-      'picture sudoku worksheet maker for KDP and Etsy',
+      'make picture sudoku free online',
+      'image sudoku generator no signup',
+      'free visual sudoku maker',
+      'picture sudoku free trial',
     ],
     lsiKeywords: [
-      '4x4 grid image logic puzzle maker',
-      'three difficulty levels easy medium hard sudoku creator',
-      'auto answer key complete filled grid sudoku generator',
+      'free sudoku tool online',
+      'instant picture sudoku maker',
+      'try before you buy logic tools',
     ],
-    titleTag: 'Picture Sudoku Maker — Sell Picture Sudoku Puzzles Online',
-    metaDescription: 'Create picture sudoku with 4x4 image grids, three difficulty levels, auto answer keys, and 104 themed collections. Try free — license available.',
+    titleTag: 'Free Picture Sudoku Maker for Kids | LCS',
+    metaDescription: 'Make picture sudoku free online with watermark — no signup. 4x4 image grids, 3 difficulty levels, auto answer keys. Upgrade for commercial license to sell.',
   },
 
   hero: {
-    title: 'Picture Sudoku Maker',
+    title: 'Make Picture Sudoku for Kids Free Online — No Signup',
     tagline: '4×4 image-based sudoku puzzle generator with three difficulty levels (Easy 4 blanks, Medium 6 blanks, Hard 8 blanks), auto-generated answer keys showing complete filled grids, theme-based and manual image selection across 104 collections with 3,100+ illustrations, premium grid design with alternating block colors and multi-layered shadows, and purely visual puzzles that sell worldwide without translation',
-    description: 'Create professional picture sudoku puzzles where solvers fill blank cells with the correct images using row-and-column logic on a 4×4 grid. Each puzzle uses exactly 4 unique images that must appear once in every row and once in every column — the same rules as classic sudoku, but with colorful illustrations instead of numbers. Three difficulty levels control the challenge: Easy removes 4 cells, Medium removes 6, and Hard removes 8 — half the grid. Select images through theme-based auto-selection that randomly picks 4 images from any of 104 themed collections, or manually browse, search, and upload to choose exactly 4 images yourself. The premium grid design features alternating 2×2 block colors in light blue (#F8F9FC) and light pink (#FFF5F7), bold center dividers (#7C8DB5, 3px stroke), lighter inner lines (#D1D9E6, 1.5px), an indigo outer border (#667EEA) with 18px rounded corners, and three multi-layered shadows for depth. Images display at 65% of cell size for clear visual separation. Every puzzle generates a styled "Picture Sudoku" header with a purple background (#5E35B1) and localized title text across all 11 supported languages. The dual-canvas system simultaneously creates a worksheet tab and an answer key tab — the answer key shows the complete filled 4×4 grid with all 16 cells populated. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, or custom dimensions — no Square page size for this app. Toggle grayscale for ink-friendly output. Edit everything on the Fabric.js canvas with 6 alignment options plus center-on-page, layers, lock/unlock, zoom 25%–300% in 25% increments, and undo/redo 50 states. Because picture sudoku is entirely visual — no words appear on the puzzle grid — every worksheet works identically in all 11 languages, making your products sellable worldwide. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create 4x4 picture sudoku puzzles right now — free, instant, no account required. Each puzzle uses four themed images that must appear once in every row and column — the same rules as classic sudoku, but with colorful illustrations instead of numbers. Three difficulty levels remove 4 to 8 cells for progressive challenge. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell sudoku puzzles on Etsy or compile logic puzzle books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Picture Sudoku Worksheets in 8 Steps',
+    title: 'How to Make Picture Sudoku Free in 8 Steps',
     steps: [
       {
         title: 'Open the Picture Sudoku Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Puzzles — Full Product Details' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Puzzle Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Picture Path Maze Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Free math puzzle maker' },
+    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'How to create sudoku books for Amazon KDP' },
   ],
 
   visuals: {

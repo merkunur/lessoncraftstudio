@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'sell printables on etsy',
+    primaryKeyword: 'Etsy printable business masterclass 2026',
     secondaryKeywords: [
-      'etsy printable business',
-      'etsy shop for printable worksheets',
-      'how to sell worksheets on etsy',
-      'etsy digital downloads business',
+      'Etsy printable business guide 2026',
+      'build Etsy printable shop masterclass',
+      'Etsy digital product business complete guide',
+      'master Etsy printable selling',
     ],
     lsiKeywords: [
-      'etsy seo for printable sellers',
-      'etsy listing optimization worksheets',
-      'etsy shop setup digital products',
-      'etsy tags for printable worksheets',
-      'worksheet generator for etsy sellers',
-      'etsy printable pricing strategy',
+      'Etsy printable masterclass',
+      'Etsy digital product business',
+      'complete Etsy selling guide',
     ],
-    titleTag: 'Sell Printables on Etsy — Business Masterclass',
-    metaDescription: 'How to sell printables on Etsy step by step. Covers shop setup, Etsy SEO, listing optimization, pricing strategy, and scaling with worksheet generators.',
+    titleTag: 'Etsy Printable Business Masterclass | LCS',
+    metaDescription: 'Etsy printable business masterclass for 2026. Complete guide to building a profitable Etsy shop selling educational printables and worksheets.',
   },
 
   hero: {
     title: 'Etsy Printable Business Masterclass',
     tagline: 'The platform-specific guide to building a profitable printable worksheet shop on Etsy',
-    description: 'Etsy is the single largest marketplace for printable digital downloads. This masterclass covers everything you need to build a profitable printable worksheet shop on the platform — from initial shop setup and Etsy-specific SEO to listing optimization, pricing strategy, advertising, and scaling beyond your first 50 products. Every strategy in this guide is tailored specifically to how Etsy works, not generic advice that applies to any marketplace.',
+    description: 'Etsy is the single best platform for new printable sellers — built-in buyer traffic, trusted payment processing, and a search algorithm that rewards quality listings. This masterclass covers everything you need to build a profitable Etsy printable business: shop setup and branding, product creation strategy, SEO-optimized listings, pricing psychology, customer service systems, and scaling from your first sale to consistent monthly revenue. Every lesson is specific to educational printables and the strategies that work on Etsy in 2026.',
   },
 
   introduction: 'Etsy processes billions of dollars in digital download sales every year, and printable worksheets are one of the platform\'s fastest-growing categories. Unlike selling on your own website where you must generate every visitor yourself, Etsy delivers buyers who are already searching for exactly what you create. Parents type "printable addition worksheets" into Etsy search. Buyers search for "kindergarten coloring pages bundle." Homeschool families look for "first grade math practice sheets." Your job is to be the shop they find.\n\nBut Etsy is also crowded. Thousands of sellers list printable worksheets, and the platform\'s search algorithm decides who gets visibility and who gets buried. Succeeding on Etsy requires understanding how the platform\'s search works, what makes buyers click on your listing instead of a competitor\'s, and how to structure your shop for maximum discoverability.\n\nThis masterclass is Etsy-specific from start to finish. Generic printable business advice appears in our Complete Guide to Starting a Printable Business. This guide assumes you have decided Etsy is your platform and you want the tactical, platform-level knowledge to make it work.\n\nOne note before we dive in: every worksheet generator mentioned in this guide offers a free trial with watermark. You can create sample products, test Etsy listings, and validate your niche before purchasing a commercial license.',
@@ -207,17 +204,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Try the Find & Count Maker' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Start an Etsy printable shop from scratch' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for printable worksheets' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to price printable worksheets on Etsy' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Create worksheets that sell' },
   ],
 
   visuals: {

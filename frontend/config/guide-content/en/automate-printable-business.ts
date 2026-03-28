@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automate printable business',
+    primaryKeyword: 'how to automate your printable business',
     secondaryKeywords: [
-      'printable business automation',
-      'automate worksheet creation',
-      'digital product workflow automation',
-      'printable seller efficiency',
+      'automate printable business guide',
+      'printable business automation tools',
+      'save time selling printables',
+      'streamline printable product creation',
     ],
     lsiKeywords: [
-      'batch production workflow optimization template systems product creation speed',
-      'listing automation bulk processing time management production pipeline',
-      'systematic creation repeatable processes tool efficiency content batching',
-      'listing templates description templates file organization production scheduling',
-      'streamlined workflow process standardization operational efficiency task batching',
-      'production systems scalable processes catalog management workflow design',
+      'printable business automation',
+      'digital product workflow optimization',
+      'efficient printable production',
     ],
-    titleTag: 'Automate Printable Business — Efficiency Guide',
-    metaDescription: 'How to automate your printable business with batch production, template systems, and systematic workflows. Save hours weekly and scale output across.',
+    titleTag: 'How to Automate Your Printable Business | LCS',
+    metaDescription: 'How to automate your printable business. Production workflows, listing tools, and time-saving strategies for efficient printable sellers.',
   },
 
   hero: {
     title: 'How to Automate Your Printable Business',
     tagline: 'A complete guide to streamlining your printable business — covering how to identify automation opportunities, build template systems, batch production tasks, standardize listings, organize files systematically, automate file processing, create production schedules, and scale through systematic variation',
-    description: 'The most successful printable sellers are not necessarily the most creative or talented designers. They are the most systematic. They have built workflows that eliminate redundant effort, template systems that prevent starting from scratch, and production processes that turn hours of work into minutes. This guide shows you how to automate your printable business through practical, implementable strategies — from batch production and template systems to standardized listings and systematic catalog expansion.',
+    description: 'The difference between a printable business that earns passive income and one that feels like a full-time job is automation. This guide covers automating every stage of your printable business: batch production workflows with generators, listing template systems for faster uploads, scheduled social media promotion, and automated customer communication. You\'ll learn how to reduce the time spent per product from hours to minutes while maintaining quality that keeps your ratings high.',
   },
 
   introduction: 'Most printable sellers spend the majority of their working hours on tasks that could be dramatically faster with the right systems in place. They create each worksheet from a blank canvas, write every product description from scratch, organize files inconsistently across folders, and make listing decisions reactively rather than following a planned production calendar. The result is a business where the seller is the bottleneck — output is limited by the number of hours they can personally invest, and every hour feels fully consumed by repetitive manual work.\n\nAutomation in a printable business does not require expensive software or technical programming skills. The most impactful automation comes from building systems: template files that eliminate blank-canvas starts, batch production sessions that group similar tasks together, standardized naming conventions that prevent file chaos, listing templates that reduce description writing from thirty minutes to five, and production calendars that replace daily decision-making with a predetermined schedule. These are process automations — ways of structuring your work so that each repetitive task is handled by a system rather than by manual effort every single time.\n\nThe difference in output between a systematic seller and an ad hoc seller is dramatic. A seller who creates worksheets one at a time, writes each listing individually, and organizes files reactively might produce 3 to 5 finished, listed products per week. A seller with batch production workflows, description templates, and standardized file systems can produce 15 to 25 finished, listed products in the same number of working hours. The quality is identical — both sellers use the same tools and create the same types of products. The difference is entirely in how the work is structured.\n\nWorksheet generators are a foundational automation tool for printable sellers because they replace the most time-intensive step in the production process: creating the actual worksheet content and layout. Instead of manually placing text, drawing lines, positioning images, and formatting pages, you configure settings and generate professional, print-ready output in minutes. This frees your time for the strategic work that generators cannot automate: choosing profitable themes, writing compelling descriptions, optimizing listing keywords, and planning your catalog growth.\n\nThis guide walks you through a complete automation framework for your printable business. Each step addresses a specific area where systematic processes replace manual effort, from identifying your biggest time sinks to building production systems that scale your output without proportionally scaling your working hours. The goal is a business where your systems handle the repetitive work and your personal time is spent on the decisions and strategies that actually grow your revenue.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Customer Support for Digital Product Businesses' },
-    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Creating Recurring Revenue with Worksheets' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to scale your printable business' },
+    { pageType: 'start', slug: 'tools-for-printable-business', anchorText: 'Essential tools for printable business' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Create a printable product line' },
   ],
 
   toolsRecommended: [

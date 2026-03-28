@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Birds Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore bird-themed printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Product concepts, platform strategies, and niche positioning tips for sellers.',
+    titleTag: 'Bird Themed Printables to Sell Online | LCS',
+    metaDescription: 'Bird themed printable business ideas. Product concepts and strategies for creating and selling bird-themed educational printables on Etsy & KDP.',
 
-    primaryKeyword: 'birds printable ideas',
+    primaryKeyword: 'bird themed printables to sell',
     secondaryKeywords: [
-      'bird themed worksheets to sell',
-      'bird printable business ideas',
-      'sell bird activity sheets online',
-      'bird worksheet niche for sellers',
+      'bird worksheets for Etsy sellers',
+      'bird activity books for Amazon KDP',
+      'sell bird printables online',
+      'bird theme printable business',
     ],
     lsiKeywords: [
-      'wildlife themed educational printables',
-      'nature observation worksheets',
-      'ornithology activities for kids',
+      'bird printable niche',
+      'avian theme worksheets',
+      'bird themed products',
     ],
   },
   hero: {
-    title: 'Birds Printable Business Ideas for Sellers',
-    description: 'Birds offer one of the most visually diverse and universally appealing themes in the educational printable market. From owls and eagles to parrots and penguins, the sheer variety of bird species gives printable sellers an enormous creative canvas for product differentiation. Children are naturally fascinated by birds because they fly, sing, and come in vivid colors, making bird-themed worksheets inherently engaging for the younger audience. For sellers on Etsy, Amazon KDP, and Gumroad, the bird niche benefits from strong ties to science topics around habitats, migration, and life cycles. Seasonal interest peaks during spring nesting season and fall migration periods, while birdwatching hobby crossover brings adult buyers into the market alongside parents and sellers. This guide provides specific product ideas, platform strategies, and pricing approaches to help you build a profitable bird-themed printable product line using our worksheet generator tools.',
+    title: 'Bird Themed Printables to Sell Online',
+    description: 'Bird themes appeal to a broad audience — from toddlers learning animal names to homeschool families studying nature and habitats. This niche guide explores the commercial potential: which bird-themed products sell well on Etsy, how to combine bird printables with seasonal themes for strategic releases, and strategies for building a nature-focused printable product line. You\'ll discover product ideas across counting, word puzzles, matching, and coloring formats using our bird image collections.',
   },
   marketOverview: `The bird printable niche occupies a unique position where educational content meets nature appreciation, creating demand from multiple buyer segments. Parents search for bird-themed worksheets to complement backyard birdwatching activities, nature walks, and science curiosity their children express naturally. Buyers need resources for ornithology units, habitat studies, and seasonal migration lessons that appear in early childhood and elementary content libraries. Homeschoolers frequently build multi-week bird study units that require diverse printable materials across skill areas.
 
@@ -149,44 +149,19 @@ The birds niche also offers strong differentiation opportunities through regiona
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'I Spy generator for bird-themed scenes',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaur Printable Business Ideas',
+      slug: 'insects-printable-ideas',
+      anchorText: 'Insect themed printable ideas',
     },
   ],
 

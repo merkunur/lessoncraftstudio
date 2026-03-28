@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'category sorting worksheets',
+    primaryKeyword: 'create sorting worksheets to sell',
     secondaryKeywords: [
-      'create sorting worksheets for kids',
-      'picture sort worksheet generator',
-      'printable sorting activities to sell',
-      'two-category classification worksheets',
+      'make category sorting worksheets for Etsy',
+      'create sorting activity printables for KDP',
+      'sorting worksheet creation guide',
+      'sell sorting printables online',
     ],
     lsiKeywords: [
-      'cut-and-sort worksheets for preschool',
-      'image classification activity maker',
-      'sorting worksheets with answer key',
-      'sell sorting worksheets on Etsy',
-      'Amazon KDP classification workbooks',
-      'commercial license sorting tool',
+      'sorting product creation',
+      'classification worksheet business',
+      'sellable sorting products',
     ],
-    titleTag: 'Category Sorting Worksheets — Guide',
-    metaDescription: 'Create sorting worksheets with two-category theme mode, 4-12 images, shuffled cutout grids, and auto answer keys. Step-by-step guide to sell on Etsy & KDP.',
+    titleTag: 'Create Category Sorting Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating sorting worksheets to sell. Category sorting with themed images and strategies for Etsy and KDP early learning sellers.',
   },
 
   hero: {
-    title: 'How to Create Category Sorting Worksheets',
+    title: 'Create Category Sorting Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating two-category cut-and-sort worksheets with theme and manual selection modes, auto-generated answer keys, and multilingual support you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Category sorting is one of the earliest cognitive skills children develop, and sorting worksheets remain in high demand across every educational marketplace. Parents need them for hands-on learning at home. Buyers need them for classification activities and sorting centers. Tutoring centers use them for visual categorization practice. This guide walks you through the entire creation process using the Picture Sort Worksheet Generator — from choosing your selection mode and configuring image counts to generating shuffled cutout grids with automatic answer keys. Whether you are creating your first sorting product or expanding an existing classification worksheet catalog, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Sorting worksheets teach classification skills that are fundamental to early learning — parents and preschool teachers buy them for developing logical thinking and categorization abilities. This guide covers creating professional sorting worksheets designed to sell: configuring sorting categories for different age groups, choosing themes that attract specific buyer segments, and building themed bundles that pair naturally with matching and pattern worksheets. You\'ll learn how to position sorting activities in the early learning niche for maximum visibility on Etsy and KDP.',
   },
 
   introduction: 'Classification is one of the foundational cognitive skills in early childhood education. Before children can read, write, or do arithmetic, they learn to sort — grouping objects by shared attributes like color, shape, function, or category. This makes sorting worksheets a universally relevant product with sustained demand from preschool through elementary school.\n\nWhat makes sorting worksheets particularly effective as a printable product is the cut-and-sort format. Solvers physically cut out images from a shuffled grid and place them into the correct category frame. This hands-on interaction creates deeper engagement than circle-or-draw-a-line activities because it requires motor skills, spatial reasoning, and active decision-making. Buyers actively seek cut-and-sort formats because they keep children engaged longer and produce a tangible finished product.\n\nThe Picture Sort Worksheet Generator handles the technical complexity of creating these activities. It offers two selection modes: theme mode auto-populates categories from the built-in image library for rapid production, while manual mode lets you hand-select individual images for content-aligned precision. The generator produces two-category sorting layouts with shuffled cutout grids, auto-generated answer keys with images displayed at six times the grid cell size, and a styled localized header in eleven languages. You focus on product strategy — which category pairings to target, which difficulty levels to create, how to bundle and price — while the generator handles layout, shuffling, and answer key creation.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample sorting worksheets, test both selection modes, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Picture Sort Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Try the Picture Sort Worksheet Maker' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sorting worksheet generator' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Create matching worksheets to sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

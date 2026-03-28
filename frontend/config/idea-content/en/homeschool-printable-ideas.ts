@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Homeschool Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover homeschool printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Niche strategies for sellers targeting parents who build homeschool curricula.',
+    titleTag: 'Homeschool Printables to Sell on Etsy | LCS',
+    metaDescription: 'Homeschool printable ideas for Etsy & KDP. Curriculum supplement concepts and strategies for the homeschool printable market.',
 
-    primaryKeyword: 'homeschool printable ideas',
+    primaryKeyword: 'homeschool printables to sell on Etsy',
     secondaryKeywords: [
-      'homeschool worksheets to sell',
-      'homeschool printable business ideas',
-      'homeschool activity sheets for sellers',
+      'homeschool worksheets for Etsy sellers',
+      'homeschool curriculum printables for KDP',
       'sell homeschool printables online',
+      'home education printable business',
     ],
     lsiKeywords: [
-      'home education learning worksheets',
-      'parent-led learning printable resources',
-      'homeschool co-op activity pages',
+      'homeschool printable niche',
+      'home education products',
+      'homeschool curriculum supplements',
     ],
   },
   hero: {
-    title: 'Homeschool Printable Business Ideas for Sellers',
-    description: 'Homeschool printables represent one of the most lucrative niches in the educational marketplace because homeschool families purchase printable learning supplements, practice worksheets, activity-based learning resources, and unit study materials at significantly higher per-family rates than traditional school parents. The fundamental reason is straightforward: homeschool parents are the sole content decision-makers who build entire educational programs from purchased resources rather than relying on district-provided textbooks and workbooks. This purchasing dynamic creates a buyer who spends across every subject area and every grade level simultaneously, especially in multi-grade households where siblings spanning preschool through middle school all need age-appropriate materials for every instructional block throughout the year. The homeschool population has expanded dramatically over the past decade, creating a large and dedicated buyer base that continues growing as families discover the flexibility and personalization that home-based education provides. Unlike traditional school purchasing which follows rigid academic calendars with predictable summer drop-offs, homeschool families purchase year-round because many follow flexible or year-round schedules where learning continues through summer months, holiday breaks, and non-traditional calendar arrangements that keep demand consistent across all twelve months. The diversity of homeschool methodologies including classical education, Charlotte Mason, Montessori-inspired, unschooling, eclectic, and unit study approaches creates demand for varied product styles because each philosophy emphasizes different learning formats, assessment methods, and instructional priorities that require distinct printable designs rather than one-size-fits-all worksheet templates. Homeschool co-ops and community groups create powerful word-of-mouth distribution channels where a single recommendation from a trusted homeschool parent can drive dozens of purchases from group members who share learning resources and activity ideas. The homeschool buyer is typically sophisticated, research-driven, and exceptionally loyal to sellers who demonstrate genuine understanding of homeschool needs, creating repeat purchase relationships that compound revenue over time as families return for new materials across subjects and grade levels. For printable sellers and entrepreneurs, the homeschool niche combines high per-family spending with year-round demand, strong community-driven discovery, and a growing population base, creating diversified revenue opportunities across Etsy, Amazon KDP, Gumroad, and direct sales platforms. This guide covers specific product ideas built around our worksheet generator tools, platform strategies for reaching homeschool buyers, and niche positioning approaches to help you build a profitable homeschool printable product line.',
+    title: 'Homeschool Printables to Sell on Etsy',
+    description: 'Homeschool families are the highest-value buyer segment for educational printables — they purchase regularly, buy in larger quantities, and actively seek comprehensive curriculum-aligned materials. This niche guide covers the homeschool opportunity: which product formats homeschool parents prefer, how to create grade-spanning bundles that serve multi-age households, and strategies for building a product line that becomes a trusted curriculum resource. Homeschool buyers are willing to pay premium prices for quality and completeness.',
   },
   marketOverview: `The homeschool printable market represents a premium revenue opportunity because homeschool families function as complete institutional buyers who must source every educational resource independently rather than supplementing materials already provided by a school district. While a traditional school parent might purchase occasional practice worksheets to reinforce daily instruction, a homeschool parent purchases the entire learning foundation including core skill practice, enrichment activities, assessment materials, and creative learning resources across every subject area for every child in the household. This fundamental purchasing difference means homeschool families spend substantially more per household on educational printables than any other buyer segment in the marketplace, with multi-grade households multiplying that spending across two, three, or more children at different developmental levels who all need age-appropriate materials simultaneously.
 
@@ -139,44 +139,19 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Addition generator for homeschool math',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'third-grade-printable-ideas',
-      anchorText: 'Third Grade Printable Business Ideas',
+      slug: 'preschool-printable-ideas',
+      anchorText: 'Preschool printable ideas',
     },
   ],
 

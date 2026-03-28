@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP formatting worksheets',
+    primaryKeyword: 'KDP formatting guide for worksheet books',
     secondaryKeywords: [
-      'KDP formatting guide for worksheet books',
-      'Amazon KDP manuscript formatting specifications',
-      'KDP trim size margins bleed worksheet books',
-      'print-ready PDF export KDP activity books',
+      'format worksheets for Amazon KDP printing',
+      'KDP interior formatting activity books',
+      'Amazon KDP worksheet book specifications',
+      'KDP trim size and margin guide worksheets',
     ],
     lsiKeywords: [
-      'KDP trim size 8.5x11 6x9 8x10 worksheet interior layout',
-      'manuscript margins gutter binding safe zone bleed area',
-      'PDF export 300 DPI font embedding grayscale CMYK',
-      'KDP cover dimensions spine width barcode placement calculator',
-      'page numbering front matter back matter table of contents',
-      'KDP upload errors rejection troubleshooting previewer proof',
+      'KDP formatting requirements',
+      'activity book interior setup',
+      'self-publishing format guide',
     ],
-    titleTag: 'KDP Formatting Worksheets — Complete Guide',
-    metaDescription: 'KDP formatting guide covering trim sizes, margins, bleed settings, PDF export at 300 DPI, cover dimensions, and upload troubleshooting for activity books.',
+    titleTag: 'KDP Formatting Guide for Worksheet Books | LCS',
+    metaDescription: 'KDP formatting guide for worksheet books. Trim sizes, margins, bleed settings, and page setup for publishing professional activity books on Amazon KDP.',
   },
 
   hero: {
     title: 'KDP Formatting Guide for Worksheet Books',
     tagline: 'The definitive technical reference for formatting worksheet and activity books for Amazon KDP — covering trim size selection for different activity types, margin and gutter calculations for comfortable writing space, bleed versus no-bleed configuration, print-ready PDF export at 300 DPI with embedded fonts, cover dimension calculations including spine width and barcode zones, complete manuscript assembly from front matter through solutions sections, and troubleshooting the most common KDP upload rejections and formatting errors',
-    description: 'A perfectly designed worksheet book means nothing if KDP rejects the manuscript or the printed result has text disappearing into the binding, margins too narrow for children to write in, or blurry images from low-resolution export. This guide covers the technical formatting specifications that separate a professional KDP publication from an amateur one — the exact measurements, settings, and export procedures that ensure your worksheet and activity books print correctly every time. For content creation strategies and business planning, refer to our other KDP guides. This guide is purely technical: manuscript specs, page layout, PDF preparation, cover design dimensions, and upload troubleshooting.',
+    description: 'Getting KDP formatting wrong means rejected manuscripts, blurry prints, and poor reviews — getting it right means professional books that sell. This guide covers every formatting detail for publishing worksheet and activity books on Amazon KDP: trim sizes, margins, bleed settings, interior page setup, and file export specifications. You\'ll learn how to export worksheets from our generators at the correct DPI and page dimensions for KDP, avoiding the common mistakes that trip up first-time publishers.',
   },
 
   introduction: 'Formatting is where most first-time KDP publishers lose hours to avoidable mistakes. They design beautiful worksheet pages in their favorite layout tool, upload to KDP, and discover that margins are too small, the PDF resolution is insufficient, the cover dimensions are wrong, or the page count falls outside KDP\'s accepted range. Each rejection means another round of corrections, re-export, and re-upload — delays that compound when you are trying to build a catalog efficiently.\n\nWorksheet and activity books have stricter formatting demands than standard text books. A novel needs adequate margins for comfortable reading. A worksheet book needs adequate margins for comfortable writing — children gripping pencils, adults circling words in puzzle grids, solvers solving math problems in designated answer spaces. The margin requirements are larger, the layout precision matters more, and the consequences of getting it wrong are immediately visible in the printed product.\n\nThis guide provides the exact specifications you need at every stage of the formatting process. Trim size selection comes first because it determines every subsequent measurement. Margins and safe zones come second because they define your usable content area. Page layout for different activity types comes third because worksheets, puzzles, and coloring pages each have unique spacing requirements. Bleed configuration, PDF export settings, cover dimensions, manuscript assembly, and upload troubleshooting complete the workflow.\n\nFor content creation guidance — what types of worksheets to create, how to structure difficulty progression, what themes sell best — refer to the math activity books KDP guide. For business strategy — pricing, catalog planning, revenue optimization — see the make money with KDP activity books guide. For puzzle-specific content planning, consult the puzzle books and word search books guides. This guide assumes you have content ready and focuses exclusively on getting it formatted correctly for KDP print production.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'How to Create Word Search Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'How to Create Sudoku Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets for Kids' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Create math activity books for KDP' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to publish puzzle books on KDP' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP activity book business guide' },
   ],
 
   toolsRecommended: [

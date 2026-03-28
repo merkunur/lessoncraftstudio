@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'preposition worksheet generator',
+    primaryKeyword: 'preposition worksheet generator for ESL Etsy sellers',
     secondaryKeywords: [
-      'printable preposition worksheets for Etsy sellers',
-      'spatial language worksheet maker for KDP publishers',
-      'sell preposition activities on Gumroad or your own store',
-      'preposition printables commercial license',
+      'create preposition worksheets for ESL Etsy shop',
+      'ESL grammar printables for Amazon KDP',
+      'preposition worksheets with commercial license',
+      'sell ESL worksheets online',
     ],
     lsiKeywords: [
-      'digital spatial vocabulary products online business',
-      'printable preposition worksheet business',
-      'commercial use language worksheet generator',
+      'ESL worksheet printable niche',
+      'sell grammar activities commercially',
+      'language learning worksheet products',
     ],
-    titleTag: 'Preposition Worksheet Generator | Sell Printables',
-    metaDescription: 'Create preposition worksheets to sell on Etsy, KDP & Gumroad. 8 spatial prepositions, fill-in-the-blank and multiple choice. Try free — license available.',
+    titleTag: 'Preposition Worksheet Generator for ESL Sellers | LCS',
+    metaDescription: 'Create preposition worksheets to sell on Etsy & KDP. Visual grammar activities for ESL learners, 11 languages, commercial license. Try free — no signup.',
   },
 
   hero: {
-    title: 'Preposition Worksheet Generator for Spatial Language Practice',
+    title: 'Create Preposition Worksheets for ESL Sellers on Etsy & KDP',
     tagline: 'Eight spatial prepositions meet image-and-shape exercises — building spatial vocabulary one sentence at a time.',
     description:
-      'Design professional preposition worksheets that teach spatial relationships through hands-on image-and-shape exercises. Users practice eight core prepositions — in, on top of, under, next to, behind, between, above, and in front of — using two distinct exercise modes: Fill-in-the-Blank sentences where they supply the missing preposition, and Multiple Choice questions where they identify the image matching a spatial description. Select which prepositions to include from the built-in checklist and configure 1 to 8 exercises per worksheet. Browse over 3,100 curated illustrations across 104 themes for the positioned items, and choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Full Access unlocks all 11 supported languages with grammatically correct prepositions — German with dative contractions like \"im\" and \"am\", French with elision rules for \"l\'\" before vowels, Spanish with gendered articles — multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed preposition bundles on Etsy, compile spatial vocabulary books for Amazon KDP, or list leveled language packs on Gumroad, the Preposition Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Preposition worksheets target the massive ESL and language learning market on Etsy — a niche with consistent demand from teachers, tutors, and parents worldwide. This generator creates professional visual preposition activities where learners identify spatial relationships using themed images. The 11-language support produces genuinely different content per locale, so each language is a distinct sellable product for ESL markets. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. ESL printables are one of the fastest-growing niches on Etsy, and preposition worksheets fill a specific gap most sellers overlook. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Preposition Worksheets in 5 Steps',
+    title: 'How to Create Preposition Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Preposition Worksheet Generator',
+    title: 'Why ESL Preposition Worksheets Are a Growing Niche',
     features: [
       {
         title: '8 Spatial Prepositions with Fill-in-the-Blank and Multiple Choice Modes',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Preposition Worksheets Online',
+    title: 'Sell ESL Grammar Worksheets on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Preposition Worksheet Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
+      slug: 'word-search-worksheets',
+      anchorText: 'Word search puzzles for ESL vocabulary bundles',
     },
     {
       pageType: 'app',
       slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'literacy-language-bundle',
-      anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Language Worksheets on Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Sellers',
+      anchorText: 'Word scramble worksheets for spelling practice products',
     },
     {
       pageType: 'guide',
       slug: 'create-preposition-worksheets',
-      anchorText: 'How to Create Preposition Worksheets',
+      anchorText: 'Guide to creating preposition worksheets for ESL',
     },
   ],
 

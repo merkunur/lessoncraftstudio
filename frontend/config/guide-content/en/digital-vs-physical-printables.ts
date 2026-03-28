@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digital vs physical printables',
+    primaryKeyword: 'digital vs physical printable products comparison',
     secondaryKeywords: [
-      'digital printable business model',
-      'print on demand vs digital download',
-      'physical printable product selling',
-      'digital download printable strategy',
+      'digital vs physical printables for sellers',
+      'sell digital or physical printable products',
+      'print on demand vs digital download printables',
+      'digital vs physical product business model',
     ],
     lsiKeywords: [
-      'digital download physical product print-on-demand fulfillment model',
-      'shipping costs profit margin comparison inventory management scalability',
-      'production costs delivery method customer experience product format',
-      'hybrid model digital marketplace physical craft fairs overhead costs',
-      'passive revenue printing costs packaging product quality control',
-      'format selection business model comparison seller strategy growth path',
+      'printable business model comparison',
+      'digital download vs physical print',
+      'product format decision',
     ],
-    titleTag: 'Digital vs Physical Printables — Seller Guide',
-    metaDescription: 'Digital vs physical printables comparison for sellers covering profit margins, scalability, fulfillment, and choosing the right format for your business.',
+    titleTag: 'Digital vs Physical Printable Products | LCS',
+    metaDescription: 'Digital vs physical printable products comparison. Revenue models, margins, logistics, and which format is best for your printable business.',
   },
 
   hero: {
     title: 'Digital vs Physical Printable Products',
     tagline: 'A complete guide to digital vs physical printables — covering how to compare profit margins, evaluate scalability, understand customer expectations, choose the right platforms for each format, implement a hybrid model, plan production workflows, and transition between formats as your business grows',
-    description: 'Every printable seller faces a fundamental business model decision: sell digital downloads that buyers print themselves, sell pre-printed physical products that ship to buyers, or offer both formats. Each approach carries different margin structures, operational requirements, scalability characteristics, and customer expectations. This guide provides a thorough comparison framework to help you evaluate both formats and choose the approach that matches your resources, goals, and target market.',
+    description: 'Should you sell digital downloads, physical printed products, or both? The answer depends on your margins, time investment, and business goals. This guide compares digital and physical printable product models side by side: revenue potential, profit margins, production costs, shipping logistics, and customer expectations. You\'ll learn which format works best for different product types and business stages, and how to expand from digital-only to physical products when the time is right.',
   },
 
   introduction: 'The digital-versus-physical question is one of the most consequential business decisions a printable seller makes, yet many sellers default to one format without fully understanding the tradeoffs involved. Digital-only sellers sometimes leave significant revenue on the table by ignoring buyers who want professionally printed, ready-to-use products. Physical-only sellers sometimes exhaust themselves with production, packaging, and shipping when their product catalog would scale far more efficiently as digital downloads. The sellers who build the most resilient businesses are those who understand both models deeply and choose their format strategy based on data, resources, and market positioning rather than habit or assumption.\n\nDigital printable products are files — typically PDFs, PNGs, or JPEGs — that buyers download and print at home or at a local print shop. The seller creates the file once and sells unlimited copies with zero marginal production cost per sale. There are no shipping delays, no inventory to manage, no packaging materials to purchase, and no trips to the post office. The tradeoff is that digital products typically sell at lower price points because buyers assume responsibility for printing, and the perceived value of a digital file is generally lower than a tangible product they can hold in their hands.\n\nPhysical printable products are the same designs, but the seller handles printing, quality control, packaging, and shipping. The buyer receives a tangible, ready-to-use product that arrives professionally printed on quality paper stock, often bound or packaged attractively. Physical products command higher retail prices because buyers are paying for both the design and the production convenience. The tradeoff is that every sale requires material costs, production time, and fulfillment labor, which reduces margins and limits how quickly the business can scale without additional infrastructure or staff.\n\nPrint-on-demand services like Amazon KDP occupy a middle ground: the seller uploads digital files, and the platform handles printing and fulfillment when orders arrive. This eliminates inventory risk and shipping logistics while still delivering a physical product to the buyer. The margins are lower than self-fulfilled physical products but the operational simplicity approaches that of digital downloads.\n\nThe right choice depends on your specific situation: your available time, startup capital, target customer, product type, and long-term business goals. Some products sell dramatically better in one format than the other. Some markets strongly prefer physical products while others overwhelmingly purchase digital. This guide walks through every factor that should influence your format decision, providing a framework you can apply to your own product catalog and business circumstances.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP vs Etsy for Printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Customer Support for Digital Products' },
-    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Copyright Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing strategies for printables' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy for selling printables' },
+    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable business blueprint' },
   ],
 
   toolsRecommended: [

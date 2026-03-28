@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'start Etsy printable shop',
+    primaryKeyword: 'how to start an Etsy printable shop from scratch',
     secondaryKeywords: [
-      'how to start an Etsy printable shop',
-      'Etsy printable shop setup from scratch',
-      'start selling printables on Etsy',
-      'Etsy digital download shop for beginners',
+      'start Etsy printable shop step by step',
+      'open Etsy digital download shop guide',
+      'Etsy printable business for beginners 2026',
+      'launch Etsy worksheet shop from zero',
     ],
     lsiKeywords: [
-      'Etsy seller account setup digital downloads printable worksheets',
-      'printable shop branding Etsy listing optimization new sellers',
-      'Etsy fees pricing strategy educational printable products',
-      'Etsy SEO tags titles descriptions printable worksheet listings',
-      'digital download shop policies refund terms Etsy sellers',
-      'Etsy printable shop launch strategy first 30 days growth plan',
+      'Etsy shop setup printable sellers',
+      'digital product business Etsy',
+      'first Etsy printable listing guide',
     ],
-    titleTag: 'How to Start Etsy Printable Shop from Scratch — Guide',
-    metaDescription: 'Learn how to start Etsy printable shop from scratch with 33 generators. Shop setup, branding, listing optimization, pricing, Etsy fees, and 30-day launch.',
+    titleTag: 'Start an Etsy Printable Shop from Scratch | LCS',
+    metaDescription: 'Complete beginner guide to starting an Etsy printable shop from scratch. Shop setup, first listings, SEO basics, and pricing for new printable sellers.',
   },
 
   hero: {
-    title: 'How to Start an Etsy Printable Shop from Scratch',
+    title: 'Start an Etsy Printable Shop from Scratch',
     tagline: 'A complete shop-level startup guide for launching a profitable Etsy printable business using 33 worksheet and activity generators across 6 product categories — covering Etsy seller account creation, shop branding and digital download policies, building your first product inventory from multiple generator categories, writing optimized listings with all 13 tags, understanding Etsy fees and setting sustainable pricing, creating listing photos for digital products, launching with enough listings to gain search traction, and executing a 30-day growth plan that builds reviews, expands your catalog, and establishes your shop as a category authority in the printable worksheet marketplace',
-    description: 'Starting an Etsy shop for printable worksheets and educational activities is one of the lowest-barrier entries into digital product selling. Unlike physical product businesses that require inventory, shipping logistics, and upfront manufacturing costs, a printable shop needs only your generator toolkit and a structured launch plan. This guide walks you through every step from creating your Etsy seller account to executing your first 30 days of shop operations — covering the shop-level decisions that product-specific guides assume you have already made. Whether you plan to sell math worksheets, word search puzzles, coloring pages, or a mix across all 6 generator categories, the shop setup fundamentals covered here apply to every printable product type.',
+    description: 'Starting a printable shop on Etsy is one of the lowest-cost, highest-margin business models available — no inventory, no shipping, and customers receive their files instantly. This guide takes you from zero to your first sale: setting up your Etsy account, choosing a profitable niche, creating your first product with our generators, writing listings that rank in Etsy search, and pricing for profit from day one. Every step includes specific actions you can take today to get your shop live and generating revenue.',
   },
 
   introduction: 'The printable worksheet market on Etsy has grown into a substantial digital product category, driven by homeschool parents, tutoring centers, activity directors, and families seeking educational offline activities. Etsy\'s marketplace structure is uniquely suited to printable sellers because the platform handles payment processing, digital file delivery, buyer communication, and search-driven product discovery — allowing you to focus on product creation and listing optimization rather than building your own e-commerce infrastructure.\n\nWhat makes printable worksheets particularly attractive as an Etsy business is the inventory model. Physical product sellers must manufacture, store, and ship inventory. Printable sellers create a product once and sell it an unlimited number of times with zero marginal cost per sale. A single well-optimized listing can generate sales for months or years without additional production effort. This means your initial product creation time is an investment that compounds — every new listing you add increases your shop\'s total search surface area and revenue potential permanently.\n\nThe 33 generators across 6 product categories — Activity Worksheets, Math and Number, Letters and Words, Drawing and Art, Puzzles and Games, and Pattern and Logic — give you access to the broadest possible printable product range from a single toolkit. Most Etsy printable sellers are limited to one or two product types because they create everything manually. Having generators that produce professional, print-ready output across 33 distinct formats means you can launch with product diversity that would take manual creators months to build. Each generator offers a free trial with watermark so you can evaluate the output quality before committing.\n\nThis guide is intentionally shop-level rather than product-specific. It covers the decisions and setup steps that apply regardless of which generators you use — your Etsy account configuration, shop branding, digital download policies, pricing framework, listing optimization principles, and launch strategy. For deep dives into selling specific product types, refer to the product-specific platform guides for math worksheets, word search puzzles, and other formats. Those guides build on the shop foundation you establish here.\n\nEtsy charges relatively modest fees compared to the infrastructure it provides. A $0.20 listing fee per item (renewed every 4 months or upon sale), a 6.5% transaction fee, and payment processing fees are your primary costs. There is no monthly subscription required to operate an Etsy shop, which means your startup cost is essentially zero beyond the listing fees for your initial products. This low-barrier entry makes Etsy the ideal testing ground for printable sellers who want to validate product-market fit before investing in additional sales channels.\n\nThe most common mistake new printable sellers make is launching with too few listings, inconsistent branding, and no optimization strategy. This guide provides the structured approach that separates shops that gain traction within their first month from shops that sit dormant with zero views. Every section is designed to be actionable — you can follow the steps sequentially from account creation through your 30-day launch plan.',
@@ -137,14 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Start with the addition worksheet generator' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'How to choose a profitable printable niche' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to price your Etsy printables' },
   ],
 
   toolsRecommended: [

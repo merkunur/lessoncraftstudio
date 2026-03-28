@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'greater than less than worksheets',
+    primaryKeyword: 'free greater than less than worksheet maker',
     secondaryKeywords: [
-      'greater than less than worksheet maker for sellers',
-      'create comparison worksheets to sell',
-      'printable number comparison worksheets commercial use',
-      'more or less math worksheet generator for KDP',
+      'make comparison worksheets free online',
+      'more or less generator no signup',
+      'free number comparison worksheet maker',
+      'greater less than worksheets free trial',
     ],
     lsiKeywords: [
-      'visual comparison printables for Etsy',
-      'quantity comparison worksheet tool',
-      'check and cross math activity generator',
+      'free comparison tool online',
+      'instant more less maker',
+      'try before you buy math tools',
     ],
-    titleTag: 'Greater Than Less Than Worksheets | Sell Online',
-    metaDescription: 'Create visual greater than, less than, and equal to worksheets with images in seconds. Three modes including unique Check & Cross. Sell on Etsy, KDP, and Gumroad.',
+    titleTag: 'Free Greater Than Less Than Maker | LCS',
+    metaDescription: 'Make greater than less than worksheets free online with watermark — no signup. 3 comparison modes, themed images, answer keys. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Greater Than Less Than Worksheet Maker',
+    title: 'Make Greater Than Less Than Worksheets Free Online',
     tagline: 'Create visual comparison worksheets with three exercise modes in under 60 seconds',
-    description: 'Teach greater than, less than, and equal to with picture-based comparison worksheets that make abstract concepts concrete. This tool generates three distinct exercise types: Image to Image (compare two picture groups side by side), Image to Number (bridge visual counting with written numerals), and the unique Check & Cross Groups mode where solvers sort a mixed box of shuffled images into majority and minority categories. Choose from over 100 image themes, set your number range, pick between illustrated or standard comparison symbols, and download print-ready PDFs or high-resolution JPEGs. Because worksheets use images, numbers, and symbols only, they work identically in all 11 supported languages — create once and sell to buyers worldwide. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create number comparison worksheets right now — free, instant, no account required. Three exercise modes cover visual and numeric comparison: Image to Image compares picture groups, Image to Number bridges visual and abstract, and Check & Cross Groups mode challenges solvers to find the majority in mixed-image boxes. Toggle between same-image and different-image comparisons and choose illustration-style or standard math symbols. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell math worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Comparison Worksheets in 8 Easy Steps',
+    title: 'How to Make Comparison Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Worksheet Generator',
@@ -196,14 +196,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'More or Less Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big and Small Worksheet Maker' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Free size comparison worksheet maker' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to sell math worksheets on Etsy' },
   ],
 
   visuals: {

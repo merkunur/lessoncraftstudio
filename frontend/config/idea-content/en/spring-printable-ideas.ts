@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Spring Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover spring printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Seasonal product concepts, March-May strategies, and platform tips for printable.',
+    titleTag: 'Spring Printable Business Ideas | LCS',
+    metaDescription: 'Spring printable business ideas for Etsy & KDP. Flower themes, nature activities, and strategies for the spring season printable market.',
 
-    primaryKeyword: 'spring printable ideas',
+    primaryKeyword: 'spring printable business ideas',
     secondaryKeywords: [
-      'spring worksheets to sell',
-      'spring themed printable business',
-      'spring activity sheets for sellers',
-      'sell spring printables on Etsy',
+      'spring worksheets for Etsy sellers',
+      'spring activity books for Amazon KDP',
+      'sell spring printables online',
+      'flower themed printable products',
     ],
     lsiKeywords: [
-      'flower and garden educational worksheets',
-      'seasonal nature activity pages',
-      'springtime themed printable resources',
+      'spring printable niche',
+      'spring learning products',
+      'nature themed spring worksheets',
     ],
   },
   hero: {
     title: 'Spring Printable Business Ideas for Sellers',
-    description: 'Spring opens a generous selling window from March through May as stores transition to nature-centered themes and families embrace outdoor learning after months of winter routines. The niche spans a rich variety of sub-themes including butterflies, flowers, gardens, rainbows, caterpillars, ladybugs, birds, nests, rain, and umbrellas, giving sellers an expansive visual vocabulary that connects naturally with science content catalog, outdoor exploration, and the universal sense of renewal that defines the season. Buyers actively seek fresh spring materials to boost engagement during the second half of the school year, while homeschool families and daycare providers look for seasonal variety that bridges indoor and outdoor learning experiences. For printable entrepreneurs selling on Etsy, Amazon KDP, and Gumroad, spring offers a broad non-holiday category with extended relevance that avoids the narrow demand spikes of single-day holidays. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable spring printable product line using our worksheet generator tools.',
+    description: 'Spring brings renewed buyer interest in printable activities — parents look for nature-themed worksheets, Easter alternatives, and outdoor learning materials as the weather warms. This niche guide covers the spring opportunity: which product formats sell best from March through May, how to combine spring themes with Earth Day and nature science concepts, and specific product ideas across counting, matching, coloring, and puzzle activities. Spring products bridge the gap between winter indoor activities and summer learning, keeping your revenue consistent.',
   },
   marketOverview: `The spring printable niche occupies a uniquely advantageous position in the educational marketplace calendar because it functions as a broad seasonal category rather than a single-day holiday, giving sellers an extended three-month demand window that stretches from early March through late May. Buyers emerging from the winter doldrums actively search for fresh, nature-themed materials that re-engage children who have grown tired of indoor-only themes, and spring imagery provides the perfect transition as stores shift toward science-integrated content covering life cycles, weather patterns, plant growth, and animal habitats. This natural alignment between spring themes and core content areas means buyers can justify spring purchases as educational investments rather than purely decorative seasonal additions.
 
@@ -143,44 +143,19 @@ To maximize spring revenue, begin publishing your complete spring catalog by lat
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'pattern-worksheets',
+      anchorText: 'Pattern generator for spring themes',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
-      slug: 'winter-printable-ideas',
-      anchorText: 'Winter Printable Business Ideas',
+      slug: 'easter-printable-ideas',
+      anchorText: 'Easter printable ideas',
     },
   ],
 

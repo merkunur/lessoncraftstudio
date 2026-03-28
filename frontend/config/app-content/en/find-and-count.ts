@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'I spy worksheet generator',
+    primaryKeyword: 'search and count worksheet creator for Etsy shop',
     secondaryKeywords: [
-      'printable find and count worksheet maker for Etsy sellers',
-      'hidden object I spy activity generator for KDP publishers',
-      'I spy worksheet creator with commercial license',
-      'sell find and count worksheets on Gumroad',
+      'create find and count worksheets for Etsy',
+      'I Spy counting books for Amazon KDP',
+      'find and count printables with commercial license',
+      'sell search and count activities online',
     ],
     lsiKeywords: [
-      'digital I spy printables online business',
-      'commercial use hidden object worksheet generator',
-      'printable counting activity business tools',
+      'I Spy counting printable niche',
+      'sell find and count commercially',
+      'visual counting worksheet products',
     ],
-    titleTag: 'I Spy Worksheet Generator | Create Count Printables',
-    metaDescription: 'Create I Spy counting worksheets to sell on Etsy, KDP & Gumroad. 4 task types, Letter Spotting mode, auto answer key, 104 themes. Try free — license available.',
+    titleTag: 'Find and Count Worksheet Creator for Etsy | LCS',
+    metaDescription: 'Create find-and-count worksheets to sell on Etsy & KDP. I Spy + Letter Spotting modes, auto answer keys, 104 themes, commercial license. Try free.',
   },
 
   hero: {
-    title: 'I Spy Worksheet Generator for Find and Count Activities',
+    title: 'Create Search and Count Worksheets to Sell on Etsy & KDP',
     tagline: 'Two activity modes in one generator — Hidden Object I Spy and Letter Spotting — with four mixable task types (circle, square, cross out, count), locale-specific alphabets with accented letters, localized image name labels in 11 languages, and auto-generated answer keys with visual annotations.',
     description:
-      'Build professional I Spy and find-and-count worksheets where solvers search a scattered image scene to find, circle, cross out, or count specific objects. Choose between two activity modes: Hidden Object mode scatters images across a configurable grid (5–10 rows × 5–10 columns) and lets you assign up to 4 target objects with individual task types — circle the object, put a square around it, cross it out, or count how many appear. Letter Spotting mode displays a locale-specific alphabet grid with accented letters (German ÄÖÜ, Spanish Ñ, Swedish ÅÄÖ, Danish/Norwegian ÆØÅ) and generates I Spy scenes using images that start with the selected letter. Every worksheet includes an auto-generated header — \"I Spy\" or \"Letter Spotting\" — localized in all 11 supported languages with a blue border (#2196F3). The dual-canvas system generates both a worksheet tab and an answer key tab with red circle, square, and cross annotations plus quantity count displays. The Find & Count Generator is language-sensitive: image name labels on the worksheet are rendered in the selected language via the Image Vocabulary system. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized labels. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Whether you sell I Spy activity bundles on Etsy, compile hidden object workbooks for Amazon KDP, or create counting activities for your own store, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Find-and-count worksheets combine the appeal of I Spy with counting practice — a format that sells consistently on Etsy and makes excellent Amazon KDP activity books. This creator generates professional search-and-count worksheets where solvers find specific objects in a scattered scene and complete tasks like circling, counting, or crossing out items. The Letter Spotting mode adds alphabet learning with locale-specific characters including German umlauts and French accents. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic annotated answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The 11-language support with localized image labels creates distinct products per locale. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create I Spy Worksheets in 5 Steps',
+    title: 'How to Generate Find and Count Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Find & Count Worksheet Generator',
+    title: 'Why Search and Count Worksheets Sell on Etsy & KDP',
     features: [
       {
         title: 'Two Activity Modes: Hidden Object I Spy and Letter Spotting',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell I Spy Worksheets Online',
+    title: 'Build an I Spy Counting Business on Etsy & KDP',
     cases: [
       {
         title: 'Themed I Spy Activity Bundles on Etsy',
@@ -205,62 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'crossword-worksheets',
-      anchorText: 'Crossword Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
-      anchorText: 'Treasure Hunt Worksheet Generator',
+      anchorText: 'Hidden object worksheets for complementary I Spy bundles',
     },
     {
       pageType: 'app',
       slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-path-worksheets',
-      anchorText: 'Picture Path Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'search-find-bundle',
-      anchorText: 'Search & Find Bundle — All Search Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'How to Create I Spy Books for Amazon KDP',
-    },
-    {
-      pageType: 'idea',
-      slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: 'Chart count worksheets for complete counting products',
     },
     {
       pageType: 'guide',
       slug: 'create-counting-worksheets',
-      anchorText: 'How to Create Find & Count Worksheets',
+      anchorText: 'Guide to creating find and count worksheets',
     },
   ],
 

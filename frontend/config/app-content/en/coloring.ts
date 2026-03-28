@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'coloring page generator',
+    primaryKeyword: 'coloring page generator to sell on Etsy and KDP',
     secondaryKeywords: [
-      'printable coloring page maker for Etsy sellers',
-      'custom coloring worksheet generator for KDP publishers',
-      'sell coloring pages on Gumroad or your own store',
-      'coloring page creator commercial license',
+      'create coloring pages for Etsy shop',
+      'coloring books for Amazon KDP sellers',
+      'printable coloring pages with commercial license',
+      'sell coloring printables online',
     ],
     lsiKeywords: [
-      'digital coloring printables online business',
-      'printable coloring book business tools',
-      'commercial use coloring page generator',
+      'coloring book niche Etsy KDP',
+      'sell coloring pages commercially',
+      'printable coloring products',
     ],
-    titleTag: 'Coloring Page Generator | Create & Sell Printables',
-    metaDescription: 'Create custom coloring pages to sell on Etsy, KDP & Gumroad. Free-form canvas, 104 themes, freehand drawing, grayscale export. Try free — license available.',
+    titleTag: 'Coloring Page Generator — Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create coloring pages to sell on Etsy & KDP. Themed images, outline conversion, 104 collections, commercial license. Try free — no design skills needed.',
   },
 
   hero: {
-    title: 'Coloring Page Generator for Custom Printable Coloring Worksheets',
+    title: 'Create Coloring Pages to Sell on Etsy & Amazon KDP',
     tagline: 'Free-form canvas coloring page designer — browse 104 themed image collections, add freehand drawings, include layout helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
     description:
-      'Design professional coloring pages on a free-form canvas where you place images exactly where you want them — no grids, no templates, pure creative freedom. Browse the built-in Image Library with 3,100+ colorful illustrations across 104 themed collections, click any image to add it to your canvas, then arrange, resize, rotate, and layer elements until your page looks perfect. The freehand drawing tool lets you sketch custom illustrations directly on the canvas with adjustable brush color and size. Layout helpers add a name field and handwriting practice lines with a single click — turning coloring pages into ready-to-use printable activities. When you are finished, toggle the grayscale export option to convert your colorful composition into ink-friendly coloring pages perfect for print. Add decorative border themes, custom text with outline effects, and upload your own images alongside library content. The Coloring Page Generator is not language-sensitive — output is purely visual, so worksheets look identical in every language. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell coloring page bundles on Etsy, compile coloring books for Amazon KDP, or list coloring activities on Gumroad, the Coloring Page Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Coloring pages are the single best-selling printable category on Etsy and one of the top KDP niches — and this generator lets you create professional coloring pages to sell without any drawing skills. Convert themed images into clean outlines ready for coloring, choose from 3,000+ illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. Build themed coloring books for Amazon KDP or seasonal coloring bundles for Etsy in minutes instead of hours. The 104 theme collections cover animals, holidays, vehicles, food, nature, and dozens more — giving you endless product variety for year-round sales. Every coloring page works worldwide without translation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Custom Coloring Pages in 5 Steps',
+    title: 'How to Create Coloring Pages in Under 3 Minutes',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Coloring Page Generator',
+    title: 'Why Coloring Pages Are the Best-Selling Printable Niche',
     features: [
       {
         title: 'Free-Form Canvas Coloring Page Designer',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Custom Coloring Pages Online',
+    title: 'Sell Coloring Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Coloring Page Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'pattern-worksheets',
-      anchorText: 'Pattern Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'drawing-lines-worksheets',
-      anchorText: 'Drawing Lines Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'visual-learning-bundle',
-      anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids Activities',
-    },
-    {
-      pageType: 'idea',
-      slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-business',
-      anchorText: 'Build Your Etsy Printable Business',
+      anchorText: 'Draw and color worksheets for art activity bundles',
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'How to Create Coloring Pages That Sell',
+      anchorText: 'Complete guide to creating coloring pages that sell',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-etsy-coloring-pages',
+      anchorText: 'How to create Etsy coloring pages that sell',
     },
   ],
 

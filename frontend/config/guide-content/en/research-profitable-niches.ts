@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'research profitable printable niches',
+    primaryKeyword: 'how to research profitable printable niches',
     secondaryKeywords: [
       'printable niche research methods',
-      'find profitable worksheet niches',
-      'printable market research',
-      'niche demand analysis printables',
+      'find profitable niches for Etsy printables',
+      'niche validation for printable sellers',
+      'research competition in printable markets',
     ],
     lsiKeywords: [
-      'marketplace data keyword research search volume competition level demand signals',
-      'buyer intent trending niches underserved markets niche validation market gaps',
-      'seasonal demand evergreen demand audience research pricing analysis competitor analysis',
-      'product-market fit search trends marketplace analytics niche profitability scoring',
-      'demand quantification market saturation analysis keyword tools data-driven decisions',
-      'minimum viable product testing research workflow niche discovery systematic process',
+      'printable market research',
+      'niche profitability analysis',
+      'demand validation printables',
     ],
-    titleTag: 'Research Profitable Printable Niches — Methods Guide',
-    metaDescription: 'How to research profitable printable niches using marketplace data, keyword analysis, competitor research, demand signals, and systematic validation methods.',
+    titleTag: 'Research Profitable Printable Niches | LCS',
+    metaDescription: 'How to research profitable printable niches. Market analysis, competition research, and demand validation methods for Etsy and KDP printable sellers.',
   },
 
   hero: {
-    title: 'How to Research Profitable Printable Niches',
+    title: 'Research Profitable Printable Niches',
     tagline: 'A complete research methodology guide — covering marketplace search analysis, keyword demand quantification, competitor product research, identifying underserved market gaps, evaluating niche profitability, testing demand with minimum viable products, tracking seasonal and trending patterns, and building an ongoing niche discovery system',
-    description: 'The difference between sellers who consistently find profitable niches and those who guess wrong is not luck or intuition — it is methodology. Successful sellers use specific research techniques to identify niches where buyer demand is strong, competition is manageable, and pricing supports healthy margins. This guide teaches you the actual research processes, data sources, and analytical frameworks for discovering profitable printable niches systematically rather than relying on gut feelings or copying what others are already selling.',
+    description: 'Profitable niches aren\'t found by guessing — they\'re discovered through systematic research. This guide teaches you practical methods for researching printable niches: analyzing Etsy search volume, evaluating competitor listings, validating demand with real data, and identifying market gaps where new sellers can gain traction. You\'ll learn a repeatable research process that helps you choose niches with proven demand and manageable competition, so you invest your production time where it generates the best return.',
   },
 
   introduction: 'Most printable sellers choose their niches based on personal preference, casual observation, or by copying what appears popular on marketplace front pages. While these approaches occasionally produce results, they fail far more often than they succeed because they skip the critical step of verifying whether genuine buyer demand exists for the specific products being created. A seller who spends weeks building an elaborate collection of space-themed cursive handwriting worksheets may discover that virtually nobody searches for that specific combination, while a less exciting niche like basic sight word practice sheets generates thousands of monthly searches with far fewer competing products.\n\nNiche research is the discipline of replacing assumptions with data. Instead of guessing what buyers want, you examine what they actually search for, purchase, and review. Instead of assuming a niche is profitable because it sounds appealing, you quantify the demand, assess the competition, analyze pricing patterns, and calculate whether the economics justify the product creation investment. This data-driven approach does not guarantee every niche will succeed, but it dramatically increases your hit rate by filtering out niches with insufficient demand or overwhelming competition before you invest creation time.\n\nThe research techniques in this guide work across all major printable marketplaces — Etsy, Amazon KDP, Gumroad, and direct sales platforms. While each marketplace has unique search behaviors and competitive dynamics, the fundamental research principles remain consistent: identify what buyers search for, assess how well existing products serve that demand, find gaps where demand exceeds supply, and validate your findings with real marketplace data before committing to full-scale production.\n\nWorksheet generators make niche research particularly powerful because they dramatically reduce the cost of testing. Traditional product creation requires hours of manual design work per product, making it expensive to test multiple niches. With generators, you can produce professional-quality test products in minutes, allowing you to validate niche viability with real marketplace data rather than theoretical analysis alone. This speed advantage means you can research, test, and pivot across multiple niches in the time it would take to manually create products for a single one.\n\nThis guide walks you through the complete research methodology from initial niche discovery through profitability validation and ongoing monitoring. Each step builds on the previous one, creating a systematic process you can repeat whenever you want to identify new profitable niches for your printable business.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Creating Recurring Revenue with Worksheets' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selection for printable business' },
+    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Best KDP activity book niches' },
+    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable business blueprint' },
   ],
 
   toolsRecommended: [

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Construction Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover construction printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Vehicle and tool themed product concepts, platform tips, and strategies for.',
+    titleTag: 'Construction Printables to Sell | LCS',
+    metaDescription: 'Construction themed printable business ideas. Building and vehicle product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'construction printable ideas',
+    primaryKeyword: 'construction themed printables to sell',
     secondaryKeywords: [
-      'construction worksheets to sell',
-      'building themed printable business',
-      'construction activity sheets for sellers',
+      'construction worksheets for Etsy sellers',
+      'building activity books for Amazon KDP',
       'sell construction printables online',
+      'vehicle tool themed products',
     ],
     lsiKeywords: [
-      'building site themed worksheets',
-      'STEM construction activities for kids',
-      'vehicle and machinery educational printables',
+      'construction printable niche',
+      'building themed worksheets',
+      'construction vehicle products',
     ],
   },
   hero: {
-    title: 'Construction Printable Business Ideas for Sellers',
-    description: 'Construction is one of the most universally captivating themes for young children, making it an outstanding evergreen niche for printable entrepreneurs seeking reliable year-round revenue driven by powerful STEM connections and the magnetic fascination that excavators, cranes, and building sites hold for kids of every background. The construction theme offers extraordinary sub-theme depth including excavator, crane, bulldozer, dump truck, cement mixer, hard hat, tools, hammer, wrench, nails, screws, blueprint, building blocks, bricks, construction site, scaffolding, safety vest, traffic cone, jackhammer, and wrecking ball, giving sellers a rich visual vocabulary that connects to nearly every child\'s daily observations of building projects in their neighborhoods, road work on their commutes, and construction play with toy vehicles and building block sets. Cross-curricular versatility makes construction printables especially valuable because building concepts connect naturally to math through measurement, counting, and geometric shapes in structures, literacy through construction vocabulary, tool identification, and job description comprehension, STEM learning through engineering principles, structural design, and problem-solving challenges, and fine motor development through building activities and construction-themed tracing exercises. For printable sellers on Etsy, Amazon KDP, and Gumroad, the construction niche combines strong year-round demand with universal child appeal that resonates with buyers planning community helpers and careers units, STEM-focused sellers integrating engineering concepts, homeschool families exploring building and construction topics, and parents looking for educational materials that channel their child\'s natural fascination with big machines and building projects into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable construction printable product line using our worksheet generator tools.',
+    title: 'Construction Themed Printables to Sell Online',
+    description: 'Construction themes captivate young builders -- diggers, cranes, trucks, and tools are among the most requested themes from parents of preschool boys. This niche guide covers the commercial opportunity: which construction-themed formats sell well, how to combine construction with counting and sorting activities, and strategies for building a product line that appeals to the strong preschool buyer segment. Construction is an underserved niche with enthusiastic, repeat-buying customers.',
   },
   marketOverview: `The construction printable niche occupies a uniquely powerful position for printable sellers because virtually every young child has a direct, visceral fascination with construction vehicles, building sites, and the visible transformation of structures taking shape in their neighborhoods and communities. Unlike seasonal themes that concentrate demand into narrow calendar windows, the construction niche benefits from genuine year-round relevance: building projects operate continuously regardless of season, children encounter construction equipment during daily routines, and construction play with toy vehicles and building blocks remains a perennial favorite activity that transcends weather and calendar events. This consistent demand pattern makes construction printables a reliable revenue source without the feast-or-famine cycles that challenge sellers in more seasonal niches.
 
@@ -143,19 +143,19 @@ The construction toy crossover market represents a particularly valuable audienc
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'picture-sort-worksheets',
+      anchorText: 'Sorting generator for construction categories',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'transportation-printable-ideas',
+      anchorText: 'Transportation printable ideas',
     },
     {
       pageType: 'guide',

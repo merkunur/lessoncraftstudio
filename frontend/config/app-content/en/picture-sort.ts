@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture sort generator',
+    primaryKeyword: 'sorting worksheet maker for printable business Etsy',
     secondaryKeywords: [
-      'printable sorting activity maker for Etsy sellers',
-      'two-category sorting worksheet generator for KDP publishers',
-      'picture classification worksheet creator commercial license',
-      'sell sorting worksheets on Gumroad',
+      'create sorting worksheets for Etsy shop',
+      'category sorting printables for Amazon KDP',
+      'picture sort worksheets with commercial license',
+      'sell sorting activities online',
     ],
     lsiKeywords: [
-      'digital sorting printables online business',
-      'commercial use classification worksheet generator',
-      'printable category sorting activity business tools',
+      'categorization worksheet printable niche',
+      'sell sorting worksheets commercially',
+      'early learning classification products',
     ],
-    titleTag: 'Picture Sort Generator | Create Sorting Worksheets',
-    metaDescription: 'Create picture sorting worksheets to sell on Etsy, KDP & Gumroad. Two-category sorting, auto answer key, 104 themes, 4-12 images. Try free — license available.',
+    titleTag: 'Sorting Worksheet Maker for Etsy Sellers | LCS',
+    metaDescription: 'Create sorting worksheets to sell on Etsy & KDP. Category sorting with themed images, auto answer keys, 104 themes, commercial license. Try free.',
   },
 
   hero: {
-    title: 'Picture Sort Worksheet Generator for Two-Category Sorting Activities',
+    title: 'Create Sorting Worksheets to Sell on Etsy & Amazon KDP',
     tagline: 'Two-category sorting in one powerful generator — theme-based or manual image selection — with auto-generated answer keys, 4–12 configurable images, a localized \"Picture Sort\" header in 11 languages, and 104 themed image collections.',
     description:
-      'Build professional sorting worksheets where users classify images into two categories by sorting cut-out pictures into the correct left or right group. Choose theme mode to auto-populate categories from the image library — select a left theme and a right theme, and the app pulls 4–6 random images per theme — or switch to manual mode to hand-select individual images and assign each to a category. Every worksheet features two dashed-border category frames at the top for sorting destinations and a shuffled cutout grid below with mixed images ready to be cut and sorted. The dual-canvas system generates both a worksheet tab and an answer key tab with 6× larger images organized into category boxes, so you never create answer keys manually. The Picture Sort Generator is language-sensitive: category labels use localized image names, so switching languages changes the text on the worksheet. A localized \"Picture Sort\" header with mint green background and teal title renders automatically in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized category labels. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell sorting activity bundles on Etsy, compile classification workbooks for Amazon KDP, or create sorting products for your own store, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Sorting and categorization worksheets are essential early learning products that sell consistently on Etsy — parents and teachers use them to teach classification skills from preschool through first grade. This maker creates professional picture sorting activities where solvers place images into correct categories using themed illustrations. Choose from 3,000+ images across 104 collections, configure sorting categories, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual format works worldwide without translation, and sorting worksheets pair naturally with matching and pattern activities for comprehensive early learning bundles. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Picture Sort Worksheets in 5 Steps',
+    title: 'How to Create Sorting Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Picture Sort Worksheet Generator',
+    title: 'Why Sorting Worksheets Sell in the Early Learning Niche',
     features: [
       {
         title: 'Two-Category Sorting with Theme-Based or Manual Image Selection',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Sort Worksheets Online',
+    title: 'Sell Sorting Activity Bundles on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Sorting Worksheet Bundles on Etsy',
@@ -205,57 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'matching-worksheets',
-      anchorText: 'Matching Worksheet Generator',
+      anchorText: 'Matching worksheets for complementary sorting bundles',
     },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
-      anchorText: 'Grid Match Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-bingo-worksheets',
-      anchorText: 'Picture Bingo Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-and-count-worksheets',
-      anchorText: 'Find and Count Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'coloring-worksheets',
-      anchorText: 'Coloring Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'matching-sorting-bundle',
-      anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
+      slug: 'big-small-worksheets',
+      anchorText: 'Size comparison worksheets for classification variety',
     },
     {
       pageType: 'guide',
       slug: 'create-sorting-worksheets',
-      anchorText: 'How to Create Sorting Worksheets That Sell',
-    },
-    {
-      pageType: 'idea',
-      slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: 'Guide to creating sorting worksheets that sell',
     },
   ],
 

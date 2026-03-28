@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'code addition generator',
+    primaryKeyword: 'secret code math puzzle generator for Etsy',
     secondaryKeywords: [
-      'printable math puzzle worksheets for Etsy',
-      'crack the code printables for Amazon KDP',
-      'math puzzle maker for printable sellers',
-      'code breaking worksheet commercial license',
+      'code addition worksheets to sell online',
+      'crack the code math printables for KDP',
+      'math puzzle with secret message commercial license',
+      'unique math worksheet generator for Etsy sellers',
     ],
     lsiKeywords: [
-      'printable puzzle business ideas',
-      'sell educational puzzles online',
-      'math puzzle book creator for entrepreneurs',
+      'low-competition math printable niche',
+      'code-breaking worksheet business',
+      'sell unique puzzle formats online',
     ],
-    titleTag: 'Code Addition Generator | Create Math Cipher Puzzles',
+    titleTag: 'Secret Code Math Puzzles — Sell on Etsy & KDP | LCS',
     metaDescription:
-      'Create code-breaking addition puzzles to sell on Etsy, Amazon KDP, and Gumroad. Word Reveal mode, 104 themes, 11 languages, answer keys, 400+ DPI. Free to try.',
+      'Generate unique crack-the-code math puzzles to sell on Etsy & KDP. Arithmetic + decoding = a niche product few competitors offer. Try free with watermark.',
   },
 
   hero: {
-    title: 'Code Addition Worksheet Generator — Crack-the-Code Math Puzzles',
+    title: 'Create Secret Code Math Puzzles That Stand Out on Etsy & KDP',
     tagline: 'Turn addition practice into a detective mission where every image hides a secret number.',
     description:
-      'Create cryptarithmetic addition worksheets that challenge solvers to crack a visual code. Each image on the worksheet represents a hidden number — solvers work through addition equations to deduce which number belongs to which picture, combining math fluency with logical reasoning in a single exercise. Switch to Word Reveal mode and the stakes rise: enter a secret word of up to ten letters, and each correctly solved equation reveals one letter of the answer while three distractor letters with wrong sums keep solvers guessing. The generator supports eleven language-specific alphabets, so Word Reveal works natively in English, German, French, Spanish, and seven more locales — a feature no other worksheet maker offers. Choose from over 3,100 images across 104 visual themes, set number ranges from 1 to 20 with two to five code symbols per sheet, and export print-ready PDFs or JPEGs at 400+ DPI with automatic answer keys that overlay the hidden number on each image. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Most Etsy math printable shops sell the same addition drills everyone else offers. Code addition worksheets give you a competitive edge — they combine arithmetic with secret message decoding, creating a puzzle format that few sellers offer and buyers love. Students solve math problems to decode hidden words, making these worksheets both educational and genuinely fun. Generate unique crack-the-code math puzzles in under 3 minutes, export as 300 DPI print-ready PDFs with answer keys, and list them on Etsy, Amazon KDP, or TPT with the included commercial license. This is one of the lowest-competition niches in the educational printable market, and the combination format lets you price higher than standard math worksheets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Code Addition Worksheets in 5 Steps',
+    title: 'How the Secret Code Generator Works',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Code Addition Worksheet Generator',
+    title: 'Why Code Math Puzzles Are a Low-Competition Etsy Goldmine',
     features: [
       {
         title: 'Code-Breaking Mechanic — Images as Hidden Numbers',
@@ -76,7 +76,7 @@ const content: AppContent = {
           'Word Reveal mode is fully locale-aware. When set to German, the alphabet includes Ä, Ö, Ü, and ß. French adds à, â, ç, è, é, and more. Each of the eleven supported languages — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish — uses its own correct alphabet so that secret words with accented characters work naturally. This makes Code Addition the only worksheet generator on the market that produces multilingual code-cracking puzzles, opening a massive opportunity for sellers targeting non-English markets.',
       },
       {
-        title: 'Configurable Number Ranges and Symbol Count',
+        title: 'Customize Difficulty for Different Age Groups',
         description:
           'Set minimum and maximum addend values anywhere from 1 to 20 to control problem difficulty. Choose between two and five unique image symbols per worksheet to adjust the complexity of the deduction challenge — two symbols creates an accessible puzzle for beginner-level products, while five symbols demands careful tracking across many equations. The combination of number range and symbol count gives you fine-grained control over difficulty, letting you create progressive worksheet sets from easy to expert in minutes.',
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Code Addition Worksheets Online',
+    title: 'Pricing Unique Puzzle Formats Higher Than Standard Worksheets',
     cases: [
       {
         title: 'Code-Breaker Math Puzzle Bundles on Etsy',
@@ -113,7 +113,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Puzzle Activity Books on Amazon KDP',
+        title: 'Create Crack-the-Code Activity Books for Amazon KDP',
         description:
           'Compile 50–100 code addition puzzles into a printed activity book formatted for Amazon KDP. Structure the book with progressive difficulty: start with two symbols and low number ranges (1–5), advance to five symbols with ranges up to 20, and finish with Word Reveal challenges. Add a title page, how-to-solve instructions, and a complete answer key section at the back. Code-cracking math books occupy a niche with less competition than standard addition workbooks, and the puzzle format appeals to parents looking for engaging alternatives to rote drill.',
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -131,7 +131,7 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Build a Niche Puzzle Brand with Code-Breaking Products',
+        title: 'Combine with Other Math Generators for Complete Bundles',
         description:
           'Use code addition worksheets as the foundation of a niche puzzle brand. Create Regular Mode puzzles as standalone products and Word Reveal mode puzzles that encode vocabulary words, fun facts, or motivational messages solvers uncover by solving all the equations. The puzzle format turns a routine practice sheet into a mystery activity that keeps solvers focused and engaged. Automatic answer keys add perceived value, and the configurable difficulty means one generator covers beginner through advanced difficulty tiers — giving you an entire product line from a single tool.',
         platform: 'Etsy / Gumroad / Your Own Store',
@@ -209,53 +209,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
-      anchorText: 'Addition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'subtraction-worksheets',
-      anchorText: 'Subtraction Worksheet Generator',
+      slug: 'cryptogram-worksheets',
+      anchorText: 'Cryptogram puzzles for more decoder-style products',
     },
     {
       pageType: 'app',
       slug: 'math-puzzle-worksheets',
-      anchorText: 'Math Puzzle Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'math-mastery-bundle',
-      anchorText: 'Math Mastery Bundle — All Math Apps in One Package',
+      anchorText: 'Grid-based math puzzles for variety',
     },
     {
       pageType: 'guide',
-      slug: 'create-addition-worksheets',
-      anchorText: 'How to Create Addition Worksheets That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sell-math-worksheets-etsy',
-      anchorText: 'Guide to Selling Math Worksheets on Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'space-printable-ideas',
-      anchorText: 'Space Printable Ideas for Educational Worksheets',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back-to-School Printable Ideas That Sell',
-    },
-    {
-      pageType: 'start',
-      slug: 'create-worksheets-that-sell',
-      anchorText: 'How to Create Worksheets That Sell',
+      slug: 'math-activity-books-kdp',
+      anchorText: 'Guide to creating math activity books for KDP',
     },
   ],
 

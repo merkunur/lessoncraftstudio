@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kindergarten Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore kindergarten printable ideas to sell on Etsy, Amazon KDP, and Gumroad. K-level product concepts and niche strategies for printable sellers worldwide.',
+    titleTag: 'Kindergarten Printable Business Ideas | LCS',
+    metaDescription: 'Kindergarten printable business ideas for Etsy & KDP. Age-specific product concepts and strategies for K-grade printable sellers.',
 
-    primaryKeyword: 'kindergarten printable ideas',
+    primaryKeyword: 'kindergarten printable business ideas',
     secondaryKeywords: [
-      'kindergarten worksheets to sell',
-      'K-level printable business ideas',
-      'kindergarten activity sheets for sellers',
-      'sell kindergarten printables on Gumroad',
+      'kindergarten worksheets for Etsy sellers',
+      'K-grade activity books for Amazon KDP',
+      'sell kindergarten printables online',
+      'ages 5-6 printable products',
     ],
     lsiKeywords: [
-      'pre-K and K educational worksheets',
-      'early childhood learning printables',
-      'age 5-6 group activity pages',
+      'kindergarten printable niche',
+      'K-grade educational products',
+      'kindergarten readiness worksheets',
     ],
   },
   hero: {
-    title: 'Kindergarten Printable Business Ideas for Sellers',
-    description: 'Kindergarten printables occupy one of the most powerful and consistently profitable niches in the educational printable marketplace because kindergarten represents the universal transition year where every child in the country enters formal schooling, creating an enormous dual buyer base of buyers who need supplementary materials for increasingly rigorous academic standards and parents who want to support their child\'s learning at home during this critical foundational year. The academic skills that define kindergarten curriculum span a remarkable breadth of competencies including sight word recognition, number sense from one to one hundred, addition and subtraction within ten, CVC word decoding, beginning phonics and blending, letter formation and handwriting practice, measurement concepts, shape identification and attributes, sorting and classifying by multiple criteria, comparing quantities using greater than and less than, and early reading comprehension strategies that build the bridge between decoding individual words and understanding simple sentences. This bridge year between play-based preschool and structured first grade academics creates unique demand because kindergarten buyers face the challenge of meeting children at vastly different readiness levels while advancing all learners toward rigorous end-of-year benchmarks, driving consistent need for differentiated practice materials across every skill strand throughout the entire academic year. For printable sellers on Etsy, Amazon KDP, and Gumroad, the kindergarten niche combines massive year-round demand with the broadest possible institutional buyer base because kindergarten is compulsory or near-universal in every state, meaning virtually every elementary school employs kindergarten buyers who purchase supplementary supplementary materials, every family with a five or six year old seeks home practice resources, homeschool families building complete kindergarten programs purchase extensively across all skill areas, and tutoring centers serving struggling early readers need structured intervention worksheets. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable kindergarten printable product line using our worksheet generator tools.',
+    title: 'Kindergarten Printable Business Ideas',
+    description: 'Kindergarten is a critical transition year where parents supplement school with at-home practice — creating consistent demand for K-level worksheets on Etsy. This niche guide covers the kindergarten opportunity: which formats bridge preschool and first-grade skills, how to create grade-specific bundles that target this precise buyer segment, and strategies for positioning your products as kindergarten-ready. You\'ll discover product ideas across math, literacy, puzzles, and art that match kindergarten developmental milestones.',
   },
   marketOverview: `The kindergarten printable niche holds a uniquely dominant position in the educational marketplace because it serves the second-largest age-group buyer segment with the most academically intensive and standards-driven skill set of any early childhood grade level. Unlike preschool where learning goals are developmental and flexible, kindergarten curriculum is defined by state standards and Common Core benchmarks that create specific, measurable skill targets every buyer must address and every parent can understand, making kindergarten printables inherently more targeted and easier to position for search-driven sales on every marketplace.
 
@@ -145,44 +145,19 @@ The kindergarten buyer segment also includes a substantial proportion of first-y
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Addition generator for kindergarten math',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Business Ideas',
+      slug: 'first-grade-printable-ideas',
+      anchorText: 'First grade printable ideas',
     },
   ],
 

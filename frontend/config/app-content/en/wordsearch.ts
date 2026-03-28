@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word search generator',
+    primaryKeyword: 'word search puzzle generator to sell on Etsy and KDP',
     secondaryKeywords: [
-      'printable word search puzzle maker for Etsy sellers',
-      'custom word search worksheet generator for KDP publishers',
-      'sell word search puzzles on Gumroad and Etsy',
-      'word search printables commercial license',
+      'create word search puzzles for Etsy shop',
+      'word search books for Amazon KDP sellers',
+      'printable word search with commercial license',
+      'custom word search maker for printable business',
     ],
     lsiKeywords: [
-      'digital word search puzzle products online business',
-      'printable hidden-word grid worksheet business',
-      'commercial use word search generator',
+      'puzzle book niche Etsy KDP',
+      'word puzzle printable products',
+      'sell vocabulary activities online',
     ],
-    titleTag: 'Word Search Generator | Create & Sell Worksheets',
-    metaDescription: 'Create word search worksheets to sell on Etsy, KDP & Gumroad. Adjustable grid size 5-30, direction controls, locale-aware fillers. Try free — license available.',
+    titleTag: 'Word Search Generator — Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create custom word search puzzles to sell on Etsy & KDP. Adjustable grids, 104 themes, 11 languages, answer keys, commercial license. Try free — no signup.',
   },
 
   hero: {
-    title: 'Word Search Worksheet Generator for Hidden-Word Grid Puzzles',
+    title: 'Create Word Search Puzzles to Sell on Etsy & Amazon KDP',
     tagline: 'Adjustable grids from 5×5 to 30×30 with diagonal and reverse direction controls — build the perfect difficulty for every audience.',
     description:
-      'Design professional word search worksheets where hidden words are embedded in a grid of random filler letters and solvers scan rows, columns, and diagonals to find them — the classic puzzle format that never goes out of style. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize display names, or Custom Word List mode for text-only puzzles using up to 8 words you type directly. Adjust the grid from 5×5 for quick warm-ups to 30×30 for serious challenges, and toggle diagonal words and reverse (backwards) words on or off to fine-tune difficulty across four to eight possible placement directions. Three display modes — words plus images, images only, or words only — control how clues appear alongside the grid. Full Access unlocks all 11 supported languages where both the hidden words and the grid filler letters change by language: German grids include ä, ö, ü at natural frequency weights, French grids include é, è, ç, à, and every other locale uses its authentic character set. A color-coded answer key highlights each found word in one of six cycling colors for instant visual verification. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile word search books for Amazon KDP, or build a niche word puzzle store on Gumroad, the Word Search Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Word search puzzles are one of the best-selling printable formats on Etsy and Amazon KDP — and this generator lets you create professional word search worksheets to sell in under 3 minutes. Adjust grid sizes from 5x5 to 30x30, toggle diagonal and reverse word directions, and choose from 3,000+ themed images across 104 collections to build puzzles buyers actually want. Each worksheet generates a color-coded answer key automatically. The built-in 11-language support means you can create word search books in German, French, Spanish, and more — each with locale-correct filler letters — multiplying your addressable market without extra effort. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license included. Whether you sell themed bundles on Etsy, compile puzzle books for KDP, or list on your own store, this tool replaces hours of manual puzzle creation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Word Search Worksheets in 5 Steps',
+    title: 'How to Generate Word Search Puzzles in Under 3 Minutes',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Word Search Worksheet Generator',
+    title: 'Why Word Search Puzzles Are Top Sellers on Etsy & KDP',
     features: [
       {
         title: 'Hidden-Word Grid Puzzle with Image Clues',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Word Search Worksheets Online',
+    title: 'Build a Word Search Puzzle Business on Etsy & KDP',
     cases: [
       {
         title: 'Themed Word Search Bundles on Etsy',
@@ -204,58 +204,23 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'prepositions-worksheets',
-      anchorText: 'Preposition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'literacy-language-bundle',
-      anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
+      slug: 'crossword-worksheets',
+      anchorText: 'Crossword puzzles for more word puzzle variety',
     },
     {
       pageType: 'guide',
       slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Language Worksheets on Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Parents & Sellers',
+      anchorText: 'Complete guide to selling word search puzzles on Etsy',
     },
     {
       pageType: 'guide',
-      slug: 'create-word-search-puzzles',
-      anchorText: 'How to Create Word Search Puzzles That Sell',
+      slug: 'word-search-books-kdp',
+      anchorText: 'How to create word search books for Amazon KDP',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'literacy-language-bundle',
+      anchorText: 'Literacy & Language Bundle with all 7 word generators',
     },
   ],
 

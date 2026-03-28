@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'handwriting worksheet generator',
+    primaryKeyword: 'handwriting worksheet generator for Etsy sellers',
     secondaryKeywords: [
-      'printable handwriting practice worksheet maker for Etsy sellers',
-      'custom handwriting worksheet generator for KDP publishers',
-      'sell handwriting practice sheets on Gumroad',
-      'handwriting worksheets commercial license',
+      'create handwriting practice sheets for Etsy',
+      'tracing worksheets for Amazon KDP books',
+      'handwriting printables with commercial license',
+      'sell letter practice worksheets online',
     ],
     lsiKeywords: [
-      'digital handwriting practice products online business',
-      'printable letter tracing worksheet business',
-      'commercial use writing practice generator',
+      'handwriting practice printable niche',
+      'sell tracing worksheets commercially',
+      'letter formation worksheet products',
     ],
-    titleTag: 'Handwriting Worksheet Generator | Sell Printables',
-    metaDescription: 'Create handwriting worksheets to sell on Etsy, KDP & Gumroad. Three practice modes, five font styles, arrow stroke guides, fading traces. Try free — license.',
+    titleTag: 'Handwriting Worksheet Generator for Etsy | LCS',
+    metaDescription: 'Create handwriting worksheets to sell on Etsy & KDP. 3 practice modes, stroke guides, fading traces, commercial license. Try free — no signup needed.',
   },
 
   hero: {
-    title: 'Handwriting Worksheet Generator for Letter Practice Sheets',
+    title: 'Create Handwriting Worksheets to Sell on Etsy & Amazon KDP',
     tagline: 'Three progressive practice modes with arrow-guided stroke order and fading letter guides — build handwriting fluency from full tracing to independent writing on a single worksheet.',
     description:
-      'Design professional handwriting practice worksheets with three distinct modes that create a natural learning progression: Trace mode provides solid letter guides for beginners to follow, Fading Trace progressively reduces letter visibility across the row to build confidence, and Guided Copy offers a faint outline for near-independent writing. Choose from five font styles — Print Regular, Print Regular Arrow with numbered stroke-order directions, Print Tracing, Print Tracing Arrow combining tracing outlines with stroke arrows, and Cursive (Great Vibes) — to match any handwriting curriculum. Every row on the worksheet is independently configurable: mix Trace mode for new letters, Fading Trace for practiced letters, and Guided Copy for review, all on the same page. Pre-writing stroke exercises (vertical lines, horizontal lines, circles, and zigzag lines) add fine motor warm-ups that prepare hands for letter formation. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes: use Beginning Letter mode to practice the first letter of each image name, Whole File Name mode to write complete words, or type any Custom Text. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at ~300 DPI in Letter, A4, or custom sizes. Whether you sell handwriting practice bundles on Etsy, compile writing workbooks for Amazon KDP, or list tiered writing sets on Gumroad, the Writing Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Handwriting worksheets are evergreen sellers on Etsy and Amazon KDP — parents and homeschool families buy them year-round. This generator creates professional letter practice sheets with three progressive modes: Trace for beginners, Fading Trace that builds confidence, and Guided Copy for near-independent writing. Choose from five font styles including arrow-guided stroke order, and draw content from 3,000+ themed images or type any custom text. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license — no attribution, no royalties, no restrictions. Build complete handwriting workbooks for Amazon KDP or themed practice bundles for Etsy in a fraction of the time manual creation takes. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Handwriting Worksheets in 5 Steps',
+    title: 'How to Create Handwriting Sheets in Under 3 Minutes',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Handwriting Worksheet Generator',
+    title: 'Why Handwriting Worksheets Are Evergreen Sellers',
     features: [
       {
         title: 'Three Progressive Practice Modes: Trace, Fading Trace, and Guided Copy',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Handwriting Worksheets Online',
+    title: 'Sell Handwriting Workbooks on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Handwriting Practice Bundles on Etsy',
@@ -205,57 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
+      anchorText: 'Alphabet worksheets for complementary literacy bundles',
     },
     {
       pageType: 'app',
-      slug: 'prepositions-worksheets',
-      anchorText: 'Preposition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'literacy-language-bundle',
-      anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Sellers',
+      slug: 'drawing-lines-worksheets',
+      anchorText: 'Line tracing worksheets for fine motor skill products',
     },
     {
       pageType: 'guide',
       slug: 'create-handwriting-sheets',
-      anchorText: 'How to Create Handwriting Practice Sheets',
+      anchorText: 'Guide to creating handwriting sheets that sell',
     },
   ],
 

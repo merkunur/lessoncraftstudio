@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to market printable worksheets',
+    primaryKeyword: 'how to market your printable business online',
     secondaryKeywords: [
-      'marketing strategies for printable sellers',
-      'promote printable worksheets online',
-      'printable business marketing plan',
-      'sell more worksheets on etsy',
+      'printable business marketing guide',
+      'market worksheets online strategies',
+      'promote printable products guide',
+      'printable seller marketing plan',
     ],
     lsiKeywords: [
-      'etsy seo for digital downloads',
-      'pinterest marketing for printable products',
-      'email marketing for worksheet sellers',
-      'seasonal marketing calendar for printables',
-      'marketplace optimization for activity books',
-      'content marketing for printable business owners',
+      'printable business marketing',
+      'digital product promotion',
+      'online marketing printable sellers',
     ],
-    titleTag: 'How to Market Printable Worksheets — Seller Guide',
-    metaDescription: 'How to market printable worksheets online: platform SEO, Pinterest strategy, email marketing, seasonal timing, and brand building for printable business.',
+    titleTag: 'Market Your Printable Business Online | LCS',
+    metaDescription: 'How to market your printable business online. SEO, social media, email, Pinterest, and paid advertising strategies for printable sellers.',
   },
 
   hero: {
-    title: 'Marketing Your Printable Business Online',
+    title: 'How to Market Your Printable Business Online',
     tagline: 'Proven marketing strategies for printable sellers — from platform SEO and Pinterest to email marketing and seasonal timing, every channel you need to drive traffic and sales',
-    description: 'Great worksheets do not sell themselves. The gap between creating professional printable products and generating consistent sales is bridged by marketing — the deliberate, repeatable process of putting your products in front of the buyers who need them. This guide covers every marketing channel relevant to printable business owners: platform SEO that captures existing buyer intent, Pinterest strategies that drive long-term traffic, email marketing that builds repeat customers, content marketing that establishes authority, and seasonal timing that aligns your catalog with buyer demand cycles. Each strategy is actionable without requiring expensive marketing tools. The free trial with watermark on every worksheet generator gives you products to market immediately, so you can implement these strategies as you read them.',
+    description: 'Creating great products is only half the battle — marketing determines whether anyone actually sees and buys them. This guide covers every marketing channel available to printable sellers: marketplace SEO (Etsy, KDP), social media strategies (Pinterest, Instagram, TikTok), email marketing for repeat purchases, content marketing for organic traffic, and when paid advertising makes sense. You\'ll learn which channels deliver the best ROI at each business stage and how to build a marketing system that drives consistent traffic to your listings.',
   },
 
   introduction: 'Most printable sellers invest heavily in product creation and then wonder why sales remain flat. The answer is almost always the same: they skipped marketing. Creating high-quality worksheets is necessary but insufficient. Marketplace algorithms, buyer search behavior, and platform visibility rules all require deliberate effort to navigate. Products that are never found generate zero revenue regardless of their quality.\n\nMarketing for printable businesses is different from marketing for physical products or services. You are selling digital files on platforms with their own search engines, their own ranking algorithms, and their own buyer discovery mechanisms. Generic marketing advice — run Facebook ads, start a TikTok account, hire an influencer — misses the mark entirely. Printable sellers need platform-specific strategies that work within the ecosystems where their buyers actually shop.\n\nThis guide focuses on the marketing channels that deliver measurable results for printable worksheet sellers. Platform SEO is the foundation because it captures buyers who are already searching for what you sell. Pinterest is the most effective social channel because printable products are inherently visual and Pinterest users are in a buying mindset. Email marketing builds the only audience you fully own, independent of any platform algorithm. Seasonal marketing aligns your effort with predictable demand cycles that repeat every year.\n\nEvery strategy in this guide can be implemented without paid advertising, without a marketing budget, and without specialized marketing software. The highest-return marketing activities for printable sellers are all organic: better titles, better tags, better images, better timing. Paid advertising has a role for established sellers optimizing proven products, but it is not where beginners should start. Start with organic marketing that compounds over time, and add paid channels only after you understand which products and keywords convert.',
@@ -207,18 +204,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'start', slug: 'tools-for-printable-business', anchorText: 'Essential Tools for Printable Business Owners' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo Card Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Try the Bingo Card Maker' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest marketing for worksheet business' },
+    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social media marketing for printable sellers' },
+    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'Email marketing for printable sellers' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for printable worksheets' },
   ],
 
   visuals: {

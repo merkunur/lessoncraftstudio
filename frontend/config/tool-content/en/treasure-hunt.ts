@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'treasure hunt worksheet',
+    primaryKeyword: 'free treasure hunt worksheet maker',
     secondaryKeywords: [
-      'treasure hunt worksheet maker for sellers',
-      'create directional path-finding puzzles to sell',
-      'printable treasure hunt generator commercial use',
-      'treasure hunt puzzle maker for KDP and Etsy',
+      'make treasure hunt worksheets free online',
+      'directional puzzle generator no signup',
+      'free coordinate grid worksheet maker',
+      'treasure hunt worksheets free trial',
     ],
     lsiKeywords: [
-      'two direction types basic cardinal coordinate grid maker',
-      'language-sensitive localized directional clues 11 languages',
-      'auto answer key highlighted treasure cell dual-canvas creator',
+      'free treasure hunt tool online',
+      'instant directional puzzle maker',
+      'try before you buy adventure tools',
     ],
-    titleTag: 'Treasure Hunt Maker — Treasure Hunt Worksheet Generator',
-    metaDescription: 'Create treasure hunt worksheets on a 5x5 grid with two direction types, themed landmarks, auto answer keys, and 104 image sets. Try free — license available.',
+    titleTag: 'Free Treasure Hunt Worksheet Maker | LCS',
+    metaDescription: 'Make treasure hunt worksheets free online with watermark — no signup. Coordinate grid puzzles, 2 direction modes, 11 languages. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Treasure Hunt Maker',
+    title: 'Make Treasure Hunt Worksheets Free Online — No Signup',
     tagline: 'Path-finding treasure hunt worksheet generator with a fixed 5×5 coordinate grid (A–E rows, 1–5 columns), two direction types (Basic: up/down/left/right for pre-K through 1st grade, and Cardinal: north/south/east/west for 2nd grade+), 6 themed landmark images, exactly 4 directional moves per puzzle, auto-generated answer key with pale yellow highlighted treasure cell via dual-canvas system, fully localized directional clues in 11 languages, and a treasure-themed teal header (#2C8C7C) with golden Fredoka title across 104 themed image collections',
-    description: 'Create professional treasure hunt worksheets where solvers follow sequential directional clues to locate hidden treasure on a 5×5 coordinate grid labeled with letter rows (A–E) and number columns (1–5). Every puzzle scatters 6 themed images across the grid as visual landmarks, then generates a start position and exactly 4 directional moves that lead to the treasure cell. The worksheet displays 5 instruction lines: "Start at [cell]" followed by 4 "Move [direction] [number] square(s)" clues, ending with "Where is the treasure?" Choose between two direction types that serve different age groups and learning objectives. Basic mode uses up, down, left, and right for pre-K through 1st grade learners building foundational spatial vocabulary. Cardinal mode uses north, south, east, and west for 2nd grade and above, introducing compass directions and map-reading skills. Both direction types produce the same 4-move puzzle structure on the same 5×5 grid, letting you create progressive difficulty sets within a single bundle. The Treasure Hunt Maker is language-sensitive in two ways: directional clue text and image content both change when you switch languages. All directions are fully translated into 11 supported languages — "Start at," "Move," "square(s)," and "Where is the treasure?" all localize along with Basic and Cardinal direction vocabulary. This produces authentic native-language treasure hunt worksheets, not English puzzles with translated headers. The dual-canvas system generates both a worksheet tab and an answer key tab. The answer key reproduces the exact puzzle layout and highlights the final treasure cell in pale yellow (rgba(255, 250, 205, 0.8)) with a dark gray stroke — no manual marking required. Every puzzle includes a treasure-themed auto-generated header with a teal background (#2C8C7C), amber outer border (#D4A574), sandy beige inner border (#F4E4C1), and golden title (#D4A017) in Fredoka font (weight 700, adaptive 36–48px sizing). The description renders in dark brown (#5C4033) Quicksand (weight 500). Portrait mode displays a full header (100px height); landscape mode uses a compact layout (70px height). Header text translates automatically into all 11 languages. Browse 104 themed collections with 3,100+ illustrations or upload custom images via three input methods: Generate from Theme (auto-selects 6), Manual Image Selection (browse and click), and Upload Custom Images (JPEG/PNG/GIF/WebP). Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Export print-ready PDFs (3× multiplier) and JPEGs (6× multiplier) at 300 DPI in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or custom dimensions. Toggle grayscale for ink-friendly output. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create treasure hunt worksheets right now — free, instant, no account required. Each puzzle places themed image landmarks on a coordinate grid, then generates directional clues that lead solvers to hidden treasure. Choose Basic (up/down/left/right) or Cardinal (north/south/east/west) direction modes. The 11-language support translates all directional clues for each locale. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell treasure hunt worksheets on Etsy or compile adventure activity books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Treasure Hunt Worksheets in 8 Steps',
+    title: 'How to Make Treasure Hunt Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Treasure Hunt Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Treasure Hunt Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Crossword Puzzle Maker' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Find & Count Maker' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Hidden Object Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Picture Path Maze Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Free picture path worksheet maker' },
+    { pageType: 'guide', slug: 'create-treasure-hunt-worksheets', anchorText: 'How to create treasure hunt worksheets to sell' },
   ],
 
   visuals: {

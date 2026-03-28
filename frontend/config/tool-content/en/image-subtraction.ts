@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet generator',
+    primaryKeyword: 'free subtraction worksheet maker online',
     secondaryKeywords: [
-      'subtraction worksheet maker for Etsy sellers',
-      'create subtraction worksheets to sell',
-      'printable subtraction worksheets commercial use',
-      'image subtraction worksheets for KDP',
+      'make subtraction worksheets free online',
+      'subtraction worksheet generator no signup',
+      'free math worksheet maker with images',
+      'printable subtraction worksheets free trial',
     ],
     lsiKeywords: [
-      'visual subtraction printables for sellers',
-      'cross-out math worksheet tool',
-      'take-away worksheet generator',
+      'free worksheet tool online',
+      'instant worksheet maker no account',
+      'try before you buy math tools',
     ],
-    titleTag: 'Subtraction Worksheet Generator | Math Printables',
-    metaDescription: 'Create subtraction worksheets with cross-out visuals in seconds. 104 themes, adjustable difficulty, print-ready PDF export. Try free — license available.',
+    titleTag: 'Free Subtraction Worksheet Maker Online | LCS',
+    metaDescription: 'Make subtraction worksheets free online with watermark — no signup needed. Cross-out mode, 104 themes, answer keys. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Subtraction Worksheet Generator',
+    title: 'Make Subtraction Worksheets Free Online — No Signup',
     tagline: 'Create visual cross-out subtraction worksheets in under 60 seconds',
-    description: 'Make subtraction click with cross-out visuals that children intuitively understand. This tool generates image-based subtraction worksheets where solvers cross out pictures to find the answer — the most natural way to learn take-away math. Choose from over 100 image themes, set your minuend range, pick from four exercise modes including the unique Cross Out format, and download print-ready PDFs or high-resolution JPEGs. Perfect for Etsy sellers building differentiated math product lines, shop owners creating printable product lines, and KDP publishers compiling subtraction workbooks. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create image-based subtraction worksheets right now — free, instant, no account required. The unique cross-out visualization shows diagonal X marks through subtracted items, making take-away math concrete and visual. Choose from four exercise modes, 104 themed image collections, and adjustable difficulty from 2 to 20. Every feature is unlocked in the free trial including grayscale export, answer keys, and 300 DPI output. Downloads include a small watermark. Want to sell your worksheets on Etsy, Amazon KDP, or TPT? Upgrade to a commercial license to remove the watermark and sell with zero restrictions.',
   },
 
   tutorial: {
-    title: 'How to Create Subtraction Worksheets in 8 Easy Steps',
+    title: 'How to Make Subtraction Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Worksheet Generator',
@@ -195,14 +195,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet maker' },
+    { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'How to create subtraction worksheets to sell' },
   ],
 
   visuals: {

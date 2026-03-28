@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'math worksheet generator',
+    primaryKeyword: 'free math worksheet generator online',
     secondaryKeywords: [
-      'math worksheet maker for sellers',
-      'create algebra puzzle worksheets to sell',
-      'printable math puzzle worksheets commercial use',
-      'algebra picture puzzle generator for KDP',
+      'make math worksheets free online',
+      'math problem generator no signup',
+      'free algebra puzzle worksheet maker',
+      'printable math worksheets free trial',
     ],
     lsiKeywords: [
-      'visual algebra printables for Etsy',
-      'picture equation worksheet tool',
-      'image variable math activity generator',
+      'free math tool online',
+      'instant worksheet generator no account',
+      'try before you buy math worksheets',
     ],
-    titleTag: 'Math Worksheet Generator | Visual Algebra Puzzles',
-    metaDescription: 'Generate algebra picture puzzles where images represent variables in linked equations. Four difficulty levels, unique solutions. Try free — license available.',
+    titleTag: 'Free Math Worksheet Generator Online | LCS',
+    metaDescription: 'Generate math worksheets free online with watermark — no signup needed. All operations, auto answer keys, 300 DPI export. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Math Worksheet Generator',
+    title: 'Generate Math Worksheets Free Online — No Signup Needed',
     tagline: 'Create visual algebra puzzles with images as variables in under 60 seconds',
-    description: 'Move beyond standard arithmetic drills with algebra picture puzzles that challenge solvers to think in systems of equations. Each worksheet presents a set of linked equations where images replace unknown variables — solvers must determine the numeric value each picture represents. Four difficulty levels scale from two symbols with simple addition to four simultaneous unknowns with mixed operations. A built-in algebraic solver guarantees every puzzle has exactly one correct solution — no ambiguity, no guesswork. Choose Addition Only for focused practice or Addition & Subtraction for advanced problem-solving. Set the number range, toggle negative results for older learners, and control puzzles per page from 1 to 6 with automatic layout. Select images individually, load an entire theme set, or upload your own PNG or JPEG for branded puzzles. Since puzzles use only images and numbers, they work identically in every language — sell the same PDF worldwide without translation. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create custom math worksheets right now — free, instant, no account required. Configure any combination of operations including addition, subtraction, and picture algebra, set number ranges for precise difficulty control, and generate professional layouts with automatic answer keys. Every feature is unlocked in the free trial including all difficulty levels, 300 DPI PDF export, and the full image library. Downloads include a small watermark. Want to sell your worksheets on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and gain unlimited selling rights.',
   },
 
   tutorial: {
-    title: 'How to Create Math Worksheets in 8 Easy Steps',
+    title: 'How to Generate Math Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Worksheet Generator',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Maker' },
+    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet maker' },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
   ],
 
   visuals: {

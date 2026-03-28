@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'recurring revenue worksheets',
+    primaryKeyword: 'passive income with worksheets 2026',
     secondaryKeywords: [
-      'worksheet business income',
-      'earn money selling worksheets',
-      'printable worksheet revenue',
-      'ongoing income from printables',
+      'earn passive income selling worksheets',
+      'worksheet passive income guide 2026',
+      'make money selling worksheets online',
+      'passive income printable business',
     ],
     lsiKeywords: [
-      'revenue stream digital product income evergreen products sales automation',
-      'multiple revenue channels royalty income print-on-demand digital download income',
-      'product lifecycle long-tail revenue catalog monetization evergreen content',
-      'repeat sales compounding returns product portfolio income sustainable income',
-      'revenue multiplication catalog effects organic discovery ongoing sales',
-      'scalable revenue model worksheet income streams multi-platform revenue',
+      'passive income digital products',
+      'recurring revenue worksheets',
+      'worksheet business income potential',
     ],
-    titleTag: 'Recurring Revenue Worksheets — Income Guide',
-    metaDescription: 'Build recurring revenue worksheets income through evergreen catalogs, multi-platform distribution, language expansion, and catalog compounding strategies.',
+    titleTag: 'Passive Income with Worksheets (2026) | LCS',
+    metaDescription: 'How to build passive income with worksheets in 2026. Revenue models, content strategies, and realistic income expectations for printable sellers.',
   },
 
   hero: {
-    title: 'Creating Recurring Revenue with Worksheets',
+    title: 'Build Passive Income with Worksheets in 2026',
     tagline: 'A complete guide to building sustainable worksheet income — covering why worksheets generate ongoing revenue, building evergreen product catalogs, diversifying across revenue channels, creating products with year-round demand, leveraging bundles for higher transaction value, expanding into multiple languages, optimizing for organic discovery, and building compounding catalog effects',
-    description: 'The most powerful aspect of a worksheet business is that every product you create continues generating revenue long after the creation effort is complete. Unlike services where you trade hours for dollars, a single worksheet pack can sell hundreds or thousands of times across multiple platforms, languages, and years without requiring additional production time. This guide shows you how to build a worksheet business designed specifically for recurring, compounding revenue — where every new product strengthens the earning potential of your entire catalog.',
+    description: 'Worksheets are one of the most accessible paths to passive income — create once, sell repeatedly with zero inventory, shipping, or per-sale production costs. This guide covers building a sustainable worksheet income stream: choosing formats with the highest revenue-per-hour, building a catalog that compounds over time, and diversifying across platforms for stability. You\'ll learn realistic income expectations at each growth stage and the specific strategies that separate sellers earning hundreds from those earning thousands per month.',
   },
 
   introduction: 'Most people who start selling worksheets think about individual product sales. They create a worksheet pack, list it on a marketplace, and hope for a sale. When one comes in, they celebrate the $5 or $10 earned and move on to creating the next product. This product-by-product mindset severely limits earning potential because it treats each product as an isolated transaction rather than as a building block in a revenue-generating system.\n\nThe sellers who build substantial worksheet income approach their business differently. They think in terms of revenue systems rather than individual sales. Every product they create is designed to earn repeatedly — across multiple platforms, in multiple languages, bundled with complementary products, and discoverable through search engines year after year. A single worksheet concept, executed strategically, can generate dozens of individual product listings, each earning independently and reinforcing the visibility of the others.\n\nWorksheets are uniquely suited to this kind of recurring revenue model. The demand is evergreen — buyers need addition worksheets every school year, parents search for educational activities every week, and homeschoolers continuously seek new resources. Unlike trend-dependent products that spike and fade, a well-made math worksheet or word search puzzle remains relevant and sellable for years. The marginal cost of each additional sale is zero because digital delivery happens automatically. And the creation tools available today make it possible to produce professional-quality worksheets in minutes rather than hours, so the upfront investment per product is remarkably low relative to its lifetime earning potential.\n\nThis guide walks you through the complete framework for building a worksheet business that generates ongoing, compounding revenue. You will learn how to create products that sell year after year, distribute them across multiple platforms for maximum reach, multiply your catalog through language expansion, and build the catalog effects that make each new product more valuable than the last. The goal is not just more sales — it is a revenue system where your catalog works for you continuously, generating income whether you are creating new products, optimizing existing ones, or taking a well-earned break.\n\nThe difference between a worksheet seller earning $200 per month and one earning $2,000 per month is rarely product quality. Both may create equally good worksheets. The difference is almost always in how strategically the catalog is built, how broadly the products are distributed, and how effectively the seller leverages the compounding nature of an evergreen digital product catalog.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to scale your printable business' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing strategies for printables' },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: 'How much can you make selling printables' },
   ],
 
   toolsRecommended: [

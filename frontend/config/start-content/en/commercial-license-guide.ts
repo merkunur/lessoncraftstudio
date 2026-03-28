@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'commercial use printable license',
+    primaryKeyword: 'commercial license guide for printable business',
     secondaryKeywords: [
-      'commercial license for printable worksheets',
-      'sell worksheets commercially etsy amazon',
-      'printable business licensing guide',
-      'worksheet generator commercial rights',
+      'commercial license printable business guide',
+      'what does commercial license cover for sellers',
+      'printable selling rights explained',
+      'commercial use license for Etsy sellers',
     ],
     lsiKeywords: [
-      'commercial use license for digital downloads',
-      'printable seller licensing requirements',
-      'etsy digital download commercial license',
-      'amazon kdp activity book licensing',
-      'worksheet generator license tiers',
-      'commercial vs personal use printables',
+      'commercial license printable',
+      'selling rights digital products',
+      'commercial use explained',
     ],
-    titleTag: 'Commercial Use Printable License Guide for Sellers',
-    metaDescription: 'Understand commercial use printable licenses for selling worksheets on Etsy, Amazon KDP, and other platforms. Two tiers explained with clear rights and.',
+    titleTag: 'Commercial License Guide for Sellers | LCS',
+    metaDescription: 'Commercial license guide for printable sellers. What it covers, selling rights, and how licensing works for Etsy, KDP, and direct-sale sellers.',
   },
 
   hero: {
-    title: 'The Commercial License Guide for Printable Sellers',
+    title: 'Commercial License Guide for Printable Sellers',
     tagline: 'Everything you need to know about commercial licensing for worksheet generators — what you can sell, where you can sell it, and which tier fits your business',
-    description: 'Commercial licensing is the most misunderstood topic in the printable business. Sellers worry about whether they have the right to sell generated worksheets, which platforms are covered, and whether they need separate licenses for each product or listing. This guide eliminates that confusion entirely. You will learn exactly what a commercial license covers, what the two pricing tiers include, how the license applies to every major selling platform, and how the free trial with watermark lets you evaluate everything before purchasing. Whether you sell on Etsy, publish on Amazon KDP, or use any other marketplace, this guide gives you complete clarity on your commercial rights.',
+    description: 'Understanding your commercial license is essential before selling any printable products — it defines what you can sell, where you can sell it, and what restrictions apply. This guide explains everything printable sellers need to know: what our commercial license covers, the difference between personal and commercial use tiers, how licensing works across Etsy, Amazon KDP, and other platforms, and how to communicate licensing to your buyers. Clear licensing builds buyer confidence and protects your business.',
   },
 
   introduction: 'Licensing confusion kills more printable businesses than bad products ever do. Not because the rules are complicated — they are not — but because sellers either never check their license terms or assume restrictions that do not exist. Both mistakes cost money.\n\nSellers who skip licensing research risk building a product catalog on tools they cannot legally use for commercial purposes. One takedown notice from a rights holder can wipe out months of work — delisted products, lost reviews, and damaged seller reputation. Sellers who assume overly strict limitations, on the other hand, leave money on the table by not creating products they are fully entitled to sell.\n\nThe printable worksheet market is particularly prone to licensing confusion because so many different tools exist with wildly different terms. Some clip-art libraries allow personal use only. Some worksheet templates require attribution. Some generators restrict the number of products you can create or the platforms where you can sell them. Every tool has its own terms, and sellers who use multiple tools need to understand each one.\n\nThis guide focuses specifically on LessonCraftStudio worksheet generator licenses — what they cover, what they cost, and how they apply to real selling scenarios on Etsy, Amazon KDP, Gumroad, Gumroad, and other platforms. The goal is to give you complete confidence in your commercial rights so you can focus on building products instead of worrying about legal exposure.\n\nEvery generator offers a free trial with watermark, giving you full access to all features before you spend anything. The trial lets you evaluate output quality, test different themes and settings, and confirm the generators meet your production needs — all before making a licensing decision.',
@@ -199,17 +196,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'create-multilingual-worksheets', anchorText: 'How to Create Worksheets in 11 Languages' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Maker' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Commercial license for printable sellers explained' },
+    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Copyright basics for printable sellers' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete guide to starting a printable business' },
   ],
 
   visuals: {

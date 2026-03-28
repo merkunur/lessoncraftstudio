@@ -2,28 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seasonal marketing printables',
+    primaryKeyword: 'seasonal marketing calendar for printable sellers',
     secondaryKeywords: [
-      'seasonal printable business strategy',
-      'holiday worksheet marketing',
-      'back to school printable sales',
-      'seasonal product calendar sellers',
+      'seasonal printable marketing strategy',
+      'holiday marketing for Etsy printable sellers',
+      'printable release calendar by season',
+      'seasonal demand planning for worksheets',
     ],
     lsiKeywords: [
-      'holiday demand cycle seasonal product planning peak selling periods',
-      'back-to-school season holiday worksheets summer learning New Year resources',
-      'Valentine activities Easter printables Halloween worksheets Christmas worksheets',
-      'Thanksgiving activities seasonal trends demand forecasting production calendar',
-      'release timing seasonal keywords trend analysis content calendar quarterly planning',
+      'seasonal printable strategy',
+      'holiday marketing printables',
+      'printable release timing',
     ],
-    titleTag: 'Seasonal Marketing Printables — Seller Calendar',
-    metaDescription: 'Plan seasonal marketing printables campaigns aligned with demand cycles. A seller calendar covering production timing, keywords, and peak selling strategies.',
+    titleTag: 'Seasonal Marketing for Printable Sellers | LCS',
+    metaDescription: 'Seasonal marketing calendar for printable sellers. Month-by-month release timing, holiday strategies, and demand planning for Etsy and KDP sellers.',
   },
 
   hero: {
     title: 'Seasonal Marketing Calendar for Printable Sellers',
     tagline: 'A complete guide to seasonal marketing printables — covering how to map annual demand cycles, build production calendars aligned with peak periods, optimize listings for seasonal search, create themed product variations efficiently, plan seasonal bundles, schedule marketing campaigns, analyze year-over-year performance, and balance seasonal releases with evergreen catalog depth',
-    description: 'Timing determines whether a printable product launches into peak demand or arrives after buyers have already purchased from competitors. A Halloween worksheet pack listed in October competes against hundreds of established listings that have been accumulating sales since August. A back-to-school math bundle created in September misses the purchasing window that started in July. This guide provides a complete seasonal marketing calendar framework designed specifically for printable sellers — from annual demand mapping and production scheduling to seasonal keyword optimization and year-over-year performance refinement.',
+    description: 'Seasonal timing can triple your printable sales — Halloween, Christmas, back-to-school, and Valentine\'s Day drive massive spikes in buyer demand. This guide provides a complete month-by-month marketing calendar for printable sellers: when to create seasonal products, when to list them for maximum visibility, and how to capture demand before it peaks. You\'ll learn the optimal lead times for each major holiday and season, and how to build a year-round content calendar that keeps your revenue consistent.',
   },
 
   introduction: 'Printable product demand is not evenly distributed across the calendar year. It follows predictable seasonal cycles driven by school calendars, holidays, and cultural events that repeat annually with remarkable consistency. Back-to-school season creates a massive demand spike for grade-specific worksheets and back-to-school materials. The holiday season drives purchases of themed activity packs from Halloween through Christmas. Summer brings parents seeking learning-loss prevention resources. Each of these demand peaks represents a concentrated buying window where sellers with prepared, indexed, and visible products capture disproportionate revenue compared to sellers who react to demand after it arrives.\n\nThe fundamental challenge of seasonal marketing for printable sellers is lead time. Marketplace search algorithms need weeks to index and rank new listings. Products need time to accumulate initial sales velocity and reviews that push them higher in search results. Buyers in many categories begin searching and purchasing 4-8 weeks before the actual holiday or season begins — buyers planning October content start shopping in August, parents preparing holiday activity packs start browsing in early November, and homeschool families planning summer learning packets begin researching in April. A seller who creates products during the demand peak is competing against sellers who prepared months earlier and already have established, well-ranked listings.\n\nThe sellers who consistently earn the highest seasonal revenue are not necessarily the ones with the largest catalogs or the most creative designs. They are the ones who plan production and marketing around the annual demand calendar with disciplined consistency. They create Halloween products in July, back-to-school resources in May, and Christmas activity packs in September. Their listings are indexed, optimized, and accumulating early sales before the majority of buyers even begin searching. This advance preparation creates a compounding advantage: early sales generate reviews, reviews improve search ranking, higher ranking generates more sales, and the cycle accelerates through the peak demand period.\n\nSeasonal marketing is not only about holiday-themed products. Every month of the year has demand patterns that informed sellers can leverage. January brings New Year goal-setting activities and fresh-start curriculum resources. February drives Valentine-themed worksheets and Presidents\' Day educational content. March and April create demand for spring testing preparation materials. The sellers who map and prepare for these monthly demand patterns maintain consistent revenue throughout the year rather than experiencing feast-and-famine cycles that make business planning difficult.\n\nThis guide walks through a complete seasonal marketing calendar framework for printable sellers. Each step addresses a specific aspect of seasonal planning, from mapping the annual demand cycle and building a production calendar to optimizing seasonal keywords, creating efficient product variations, and analyzing year-over-year performance. The goal is a systematic approach that ensures your products are created, listed, optimized, and visible before each demand peak arrives — not a reactive scramble to create seasonal products after the buying window has already opened.',
@@ -136,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social Media Marketing for Printable Sellers' },
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest Marketing for Worksheet Businesses' },
-    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'Email Marketing for Printable Product Sellers' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'Create Etsy coloring pages that sell' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest marketing for worksheet business' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

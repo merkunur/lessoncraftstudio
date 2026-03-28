@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'I spy worksheet generator',
+    primaryKeyword: 'free find and count worksheet maker',
     secondaryKeywords: [
-      'I spy worksheet generator for sellers',
-      'create find and count worksheets to sell',
-      'printable I spy activity maker commercial use',
-      'hidden object worksheet generator for KDP and Etsy',
+      'make find and count worksheets free online',
+      'I Spy counting generator no signup',
+      'free search and count worksheet maker',
+      'find and count worksheets free trial',
     ],
     lsiKeywords: [
-      'hidden object letter spotting dual activity mode maker',
-      'four task types circle square cross count mixable worksheet',
-      'locale-specific alphabet accented letters I spy generator',
+      'free counting activity tool online',
+      'instant I Spy counting maker',
+      'try before you buy counting tools',
     ],
-    titleTag: 'Find & Count Maker — I Spy Worksheet Generator for Sellers',
-    metaDescription: 'Create I Spy worksheets with Hidden Object and Letter Spotting modes, four task types, locale-specific alphabets, 104 themes. Try free — license available.',
+    titleTag: 'Free Find and Count Worksheet Maker | LCS',
+    metaDescription: 'Make find-and-count worksheets free online with watermark — no signup. I Spy + Letter Spotting modes, auto answer keys. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Find & Count Maker',
+    title: 'Make Find and Count Worksheets Free Online — No Signup',
     tagline: 'Dual-mode I Spy worksheet generator with Hidden Object mode (scattered image grid with up to 4 target objects) and Letter Spotting mode (locale-specific alphabet grid with accented letters), four mixable task types (circle, square, cross out, count) assignable per target object, localized image name labels in 11 languages via Image Vocabulary system, configurable grid density from 5×5 to 10×10, auto-generated answer keys with red circle/square/cross annotations and quantity count displays, and language-sensitive worksheets where image labels change per locale',
-    description: 'Create professional I Spy and find-and-count worksheets where solvers search a scattered image scene to find, circle, cross out, or count specific objects. The generator offers two distinct activity modes in a single tool. Hidden Object mode scatters images across a configurable grid (5–10 rows × 5–10 columns, default 6×6) and lets you assign up to 4 target objects with individual task types — circle the object, put a square around it, cross it out, or count how many appear. Each cell displays one image at a maximum size of 80px. Target objects are distributed randomly with 1–5 instances each, and remaining cells fill with distractor images from the theme. Letter Spotting mode displays a locale-specific alphabet grid with accented letters — English A–Z (26 letters), German A–Z + ÄÖÜ (29 letters), Spanish A–Z + Ñ (27 letters), Swedish/Finnish A–Z + ÅÄÖ (29 letters), Danish/Norwegian A–Z + ÆØÅ (29 letters) — rendered in 7 columns with automatic row adjustment. Select a letter, and the generator creates an I Spy scene using images that start with that letter in the selected language. The Find & Count Generator is language-sensitive: image name labels on the worksheet are rendered in the selected language via the Image Vocabulary system. "Cat" displays as "Katze" in German, "Chat" in French, "Gato" in Spanish — and Letter Spotting first letters update accordingly. The Commercial tier includes English only; Full Access unlocks all 11 languages for localized labels. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously. The answer key reproduces the exact worksheet layout and overlays red visual annotations: circles around circle-task objects, squares around square-task objects, crosses over cross-task objects, and quantity count displays for count-task objects. An auto-generated header renders "I Spy" or "Letter Spotting" (mode-dependent) with a blue border (#2196F3), yellow inner accent, and localized title and instructions in Fredoka and Quicksand fonts across all 11 supported languages. The app auto-generates on page load with the animals theme, 4 random images, random task types, and a 6×6 grid for an instant preview. Browse 104 themed collections with 3,100+ illustrations or upload custom images. Apply background themes and border themes with independent opacity sliders. Add custom text with 7 font options and text outline 0–10. Toggle name and date fields. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Default (800×1000), Letter, A4, Square (1200×1200), or custom dimensions. Toggle grayscale for ink-friendly output. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create I Spy counting worksheets right now — free, instant, no account required. Choose between Hidden Object mode with configurable grids and four task types (circle, square, cross out, count), or Letter Spotting mode with locale-specific alphabets including accented characters. Every worksheet generates automatic annotated answer keys. Choose from 104 themed collections with 3,000+ images and 11-language localized labels. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell find-and-count worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create I Spy Worksheets in 8 Steps',
+    title: 'How to Make Find and Count Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Find & Count Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'I Spy Find & Count Activities — Full Product Details' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Hidden Object Maker' },
-    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Crossword Puzzle Maker' },
-    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Treasure Hunt Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Picture Path Maze Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Free I Spy worksheet maker' },
+    { pageType: 'guide', slug: 'create-counting-worksheets', anchorText: 'How to create counting worksheets to sell' },
   ],
 
   visuals: {

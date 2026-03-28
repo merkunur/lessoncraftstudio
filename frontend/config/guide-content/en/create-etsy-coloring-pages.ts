@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create Etsy coloring pages',
+    primaryKeyword: 'create coloring pages that sell on Etsy',
     secondaryKeywords: [
-      'how to sell coloring pages on Etsy',
-      'Etsy coloring page shop setup',
-      'printable coloring pages Etsy business',
-      'sell coloring sheets on Etsy',
+      'make coloring pages for Etsy shop',
+      'Etsy coloring page business guide',
+      'sell coloring pages on Etsy tips',
+      'coloring page listing optimization Etsy',
     ],
     lsiKeywords: [
-      'Etsy digital download coloring page listing optimization',
-      'coloring page bundle pricing strategy Etsy sellers',
-      'Etsy SEO tags for printable coloring page products',
-      'sell themed coloring sheets Etsy shop kids adults',
-      'holiday seasonal coloring page printable Etsy demand',
-      'Etsy listing photos mockups for coloring page products',
+      'Etsy coloring niche strategy',
+      'digital coloring products',
+      'coloring book business Etsy',
     ],
-    titleTag: 'Create Etsy Coloring Pages That Sell — Guide',
-    metaDescription: 'Create Etsy coloring pages from 104 image themes. B&W and grayscale exports, listing optimization, pricing for themed packs, and seasonal selling strategies.',
+    titleTag: 'Create Etsy Coloring Pages That Sell | LCS',
+    metaDescription: 'Learn to create coloring pages that sell on Etsy. Theme selection, listing optimization, seasonal timing, and pricing strategies for coloring page sellers.',
   },
 
   hero: {
-    title: 'How to Create Etsy Coloring Pages That Sell',
+    title: 'Create Coloring Pages That Actually Sell on Etsy',
     tagline: 'A complete platform guide for building a profitable Etsy shop selling coloring pages created from 104 themed image libraries — covering Etsy shop setup, SEO optimization with all 13 tags, listing titles and descriptions that rank for coloring page buyer search terms, product photography showing B&W line art and themed variety, pricing strategies for individual pages and themed collections, seasonal timing for holiday and back-to-school demand peaks, catalog planning across kids and adult coloring demographics, KDP coloring book crossover opportunities, and ongoing shop optimization using Etsy Stats and search analytics',
-    description: 'Coloring pages are one of the highest-demand and most evergreen printable product categories on Etsy, purchased by parents, buyers, therapists, senior activity coordinators, and adult coloring enthusiasts. This guide walks you through every step of building an Etsy shop that sells coloring pages — from researching buyer demand across kids and adult demographics, through generating inventory from 104 themed image libraries, to writing optimized listings, creating listing photos that showcase line art effectively, setting pricing for individual pages and themed collections, and launching your shop. You will learn how coloring pages differ from other printable categories in their universal visual appeal, broad buyer demographics, seasonal demand patterns, and significant Amazon KDP crossover potential.',
+    description: 'Coloring pages are the single best-selling printable category on Etsy — but most sellers create generic designs that get buried in search results. This guide shows you how to create themed coloring pages that stand out, optimize your listings for Etsy SEO, time releases around seasonal demand peaks, and price your products for maximum profit. You\'ll learn how to use our coloring page generator to build a catalog of unique themed products without any drawing skills.',
   },
 
   introduction: 'Coloring pages occupy a privileged position in the Etsy printable marketplace. Unlike math worksheets that target specific grade levels or word search puzzles that require language-specific vocabulary, coloring pages are purely visual products. The content on a coloring page — line art of animals, vehicles, food, nature scenes — transcends language barriers entirely. A coloring page featuring a cat works equally well for a child in Ohio, a retiree in Manchester, or a therapy patient in Munich. This visual universality creates an unusually broad addressable market from a single product.\n\nThe demand for printable coloring pages on Etsy spans an exceptionally wide buyer demographic. Parents purchase themed coloring page packs for rainy days, road trips, restaurant waiting, and offline activities that replace screen time. Buyers purchase group sets for morning warm-ups, reward activities, and themed holiday celebrations. Homeschool families use coloring pages as fine motor skill development and as calm-down activities between focused lessons. Occupational therapists purchase coloring sheets for hand strength and coordination exercises. Senior activity coordinators buy large-image coloring pages for cognitive engagement programs. Adult coloring enthusiasts purchase intricate, detailed designs for personal relaxation and mindfulness practice. Each of these buyer segments searches using different keywords, creating multiple entry points into your shop.\n\nThe coloring page niche has a structural advantage that many sellers overlook: production speed. Because coloring pages do not require answer keys, difficulty calibration, or curriculum alignment, you can create finished products significantly faster than most other printable categories. The Coloring Page Maker converts themed images into print-ready B&W or grayscale coloring pages with a single toggle. This production efficiency means you can build a substantial catalog quickly — a critical advantage on Etsy where listing volume directly correlates with shop visibility.\n\nEtsy rewards shops that demonstrate category depth through consistent, related listings. A dedicated coloring page shop with 30 to 50 themed listings signals deep niche specialization to the algorithm. This category focus improves your shop quality score and helps Etsy recommend your products to buyers browsing similar coloring page listings from competitors. Combined with proper tag usage across all 13 available slots, a focused coloring page shop can achieve strong organic visibility within weeks of launch.\n\nColoring pages also have exceptional Amazon KDP crossover potential. The same coloring page designs that sell as individual digital downloads on Etsy can be compiled into themed coloring books for KDP publishing. Many successful coloring page sellers operate on both platforms simultaneously — Etsy for individual themed downloads and KDP for compiled coloring books. This dual-platform approach maximizes the revenue from every coloring page you create.\n\nEvery feature described in this guide is available in the free trial with watermark. You can design complete coloring pages, test the grayscale toggle, experiment with all canvas tools, and evaluate output quality before purchasing a commercial license.',
@@ -150,14 +147,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator — Full Details' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring page generator for creating your products' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for printable worksheets' },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Seasonal marketing calendar for printable sellers' },
   ],
 
   toolsRecommended: [

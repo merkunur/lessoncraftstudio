@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'hidden object worksheet',
+    primaryKeyword: 'free I Spy worksheet maker',
     secondaryKeywords: [
-      'hidden object worksheet maker for sellers',
-      'create I spy hidden object worksheets to sell',
-      'printable hidden object generator commercial use',
-      'hidden object puzzle maker for KDP and Etsy',
+      'make I Spy worksheets free online',
+      'hidden object generator no signup',
+      'free find objects worksheet maker',
+      'I Spy worksheets free trial',
     ],
     lsiKeywords: [
-      'I spy odd one out dual activity mode maker',
-      'zero-overlap scene generation adaptive sizing algorithm',
-      'auto answer key red circle annotations hidden object creator',
+      'free hidden object tool online',
+      'instant I Spy maker',
+      'try before you buy search tools',
     ],
-    titleTag: 'Hidden Object Maker — Hidden Object Worksheet Generator',
-    metaDescription: 'Create hidden object worksheets with I Spy and Odd One Out modes, zero-overlap scenes, auto answer keys, and 104 themed images. Try free — license available.',
+    titleTag: 'Free I Spy Worksheet Maker Online | LCS',
+    metaDescription: 'Make I Spy worksheets free online with watermark — no signup. Two activity modes, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
   },
 
   hero: {
-    title: 'Hidden Object Maker',
+    title: 'Make I Spy Worksheets Free Online — No Signup Needed',
     tagline: 'Dual-mode hidden object worksheet generator with I Spy mode (zero-overlap scattered scenes with 1–5 hidden objects among 8–12 distractors and bottom legend) and Odd One Out mode (8–12 paired images with 1–5 unpaired items rendered 50% larger), adaptive image sizing algorithm trying 50 positions per image, auto-generated answer keys with red circle annotations, and visual-only puzzles that sell worldwide without translation',
-    description: 'Create professional hidden object worksheets where users search a visual scene to find and circle specific objects. The generator offers two distinct activity modes that produce fundamentally different cognitive challenges. I Spy mode uses a zero-overlap placement algorithm to scatter 1–5 hidden objects among 8–12 distractors across the page — no grid, no rows and columns, just a cohesive visual scene. The findBestPosition() algorithm tries 50 random positions per image and selects the placement with the least overlap, adaptively reducing image size when space gets tight. A legend at the bottom of the worksheet (120px margin) shows users exactly which objects to find, making worksheets accessible to pre-readers without written instructions. Odd One Out mode arranges 8–12 paired images with 1–5 unpaired items mixed in — users identify the images that do not have a matching partner. Images in Odd One Out mode render 50% larger than I Spy mode for clear visual comparison. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously. The answer key reproduces the exact worksheet layout and draws red circles around hidden objects (I Spy mode) or unpaired items (Odd One Out mode), sized 3–5px larger than the object for clear visibility. An auto-generated header renders your title in Fredoka font with auto-sizing — 32px for short titles scaling down to 18px for longer text — with decorative white pill containers and shadows. Toggle name and date fields for accountability. The Hidden Object Maker is NOT language-sensitive: puzzles are entirely visual with no localized image names on the worksheet content itself, making every puzzle universally sellable across all markets without translation. Browse 104 themed collections with 3,100+ illustrations or upload custom PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders. Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or custom dimensions. Toggle grayscale for ink-friendly output. Edit everything on the Fabric.js canvas with drag, resize, rotate, layers, lock/unlock, 6 alignment options plus center-on-page, zoom 25%–300%, and 20 undo/redo states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create I Spy and hidden object worksheets right now — free, instant, no account required. Choose between two modes: I Spy mode scatters hidden objects among distractors with a zero-overlap placement algorithm, while Odd One Out mode arranges paired images with unpaired items to identify. Every worksheet generates automatic answer keys with red circle annotations. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell I Spy worksheets on Etsy or compile activity books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Hidden Object Worksheets in 8 Steps',
+    title: 'How to Make I Spy Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Hidden Object Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Hidden Object Activities — Full Product Details' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Find & Count Maker' },
-    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Crossword Puzzle Maker' },
-    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Treasure Hunt Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Free find and count maker' },
+    { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'How to create hidden object worksheets to sell' },
   ],
 
   visuals: {

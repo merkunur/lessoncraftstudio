@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math puzzle generator',
+    primaryKeyword: 'math puzzle printable generator for Etsy sellers',
     secondaryKeywords: [
-      'printable math puzzle maker for Etsy sellers',
-      'picture puzzle worksheet generator for KDP publishers',
-      'sell math puzzle worksheets on online marketplaces',
-      'math puzzle printables commercial license',
+      'create math puzzles to sell on Amazon KDP',
+      'picture math puzzle worksheets commercial license',
+      'grid-based math challenge generator for selling',
+      'unique math printables for Etsy shop',
     ],
     lsiKeywords: [
-      'digital math puzzle products online business',
-      'printable puzzle worksheet business',
-      'commercial use math puzzle generator',
+      'premium math puzzle products',
+      'KDP puzzle book niche',
+      'sell unique math formats online',
     ],
-    titleTag: 'Math Puzzle Generator | Create & Sell Printables',
-    metaDescription: 'Create math puzzle worksheets to sell on Etsy, KDP & Gumroad. Picture puzzles with addition and subtraction, configurable grids. Try free — license available.',
+    titleTag: 'Math Puzzle Generator — Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create grid-based math puzzles to sell on Etsy & KDP. Unique format with themed images, answer keys & commercial license. Try free — generate in 3 min.',
   },
 
   hero: {
-    title: 'Math Puzzle Worksheet Generator for Picture-Based Problem Solving',
+    title: 'Generate Unique Math Puzzles to Sell on Etsy & Amazon KDP',
     tagline: 'Merge math practice with puzzle-solving excitement — every piece holds a problem, every solution reveals the picture.',
     description:
-      'Build captivating math puzzle worksheets where a full image is split into a grid of pieces, each containing an addition or subtraction problem. Solvers work through the math, then match numbered answers to the scrambled puzzle pieces shown below the grid — turning routine arithmetic into a visual mystery. Configure grid sizes from 2×2 up to 4×4 to create puzzles with 4 to 16 pieces, and choose addition, subtraction, or mixed operations to match any skill level. Draw from over 3,100 curated illustrations across 104 themes like farm animals, space, dinosaurs, and holidays to make every puzzle unique. Each worksheet generates an automatic answer key showing the solved grid alongside the complete image. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive activity books for Amazon KDP, or build a niche puzzle brand on your own store, the Math Puzzle Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Stand out in the math printable market with grid-based picture puzzles that combine calculation with logic — a format most Etsy sellers don\'t offer. This generator creates math puzzle worksheets where students solve arithmetic within visual grids using themed images, producing a distinctive product that catches buyers\' attention and commands higher prices than standard math drills. Generate complete puzzles in under 3 minutes with 300 DPI export, automatic answer keys, and full commercial licensing for Etsy, Amazon KDP, TPT, or any marketplace. Math puzzle books are a growing niche on KDP because they offer something beyond basic practice — and this generator lets you fill that niche without graphic design skills. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Math Puzzle Worksheets in 5 Steps',
+    title: 'How the Grid Math Puzzle Generator Works',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -39,7 +39,7 @@ const content: AppContent = {
           'Open the Puzzle Configuration panel and set the number of rows (2–4) and columns (2–4) to determine how many pieces make up the puzzle — from a simple 2×2 with 4 pieces up to a challenging 4×4 with 16. Then select the math operation: Addition generates problems where two numbers sum to the piece\'s solution value, Subtraction creates problems where one number minus another equals the solution, and Addition & Subtraction mixed mode randomizes both across the grid. Solutions are a shuffled sequence from 2 to N (where N equals total pieces), ensuring every answer is unique.',
       },
       {
-        title: 'Choose an Image from the Theme Library',
+        title: 'Choose Themes from 3,000+ Images to Match Any Niche',
         description:
           'Open the Image Library panel and browse 104 themes — from animals and food to vehicles and holidays. Use the search bar to find specific images instantly. Select the image you want as your puzzle picture; the generator automatically splits it into the grid cells you configured. You can also upload your own custom images for completely unique puzzles that match your brand, niche theme, or seasonal product line.',
       },
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Math Puzzle Worksheet Generator',
+    title: 'Why Math Puzzles Outperform Basic Worksheets on Etsy',
     features: [
       {
         title: 'Picture Puzzle Format with Math Problems',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Math Puzzle Worksheets Online',
+    title: 'Price Math Puzzles as Premium Printable Products',
     cases: [
       {
         title: 'Themed Math Puzzle Bundles on Etsy',
@@ -112,7 +112,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Math Puzzle Activity Books on Amazon KDP',
+        title: 'Create Math Puzzle Activity Books for Amazon KDP',
         description:
           'Compile 50–100 math puzzle worksheets into a printed activity book formatted for Amazon KDP. Use progressive difficulty — start with 2×2 addition-only puzzles and advance to 4×4 mixed-operation grids — to create a structured path that keeps solvers engaged across dozens of pages. Add a title page, instructions explaining the puzzle format, and an answer key section at the back. Math puzzle books occupy a less crowded niche than standard worksheet books, giving you a competitive edge. Consider publishing separate volumes for each difficulty tier or operation type, as focused titles rank better in Amazon search results and let you capture buyers looking for targeted skill practice.',
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -130,7 +130,7 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Build a Niche Puzzle Book Brand on Your Own Store',
+        title: 'Bundle with Other Math Formats for Complete Listings',
         description:
           'Launch a dedicated math puzzle brand on Gumroad, Shopify, or Payhip. Generate puzzles at every difficulty tier — simple 2×2 addition for the early-learner niche and complex 4×4 mixed-operation grids for advanced difficulty products — all in the same session. The puzzle-reveal mechanic increases completion rates and adds perceived value that justifies premium pricing. Use Pinterest pins linking to your store as a free traffic funnel, and build an email list with a free sample pack to drive repeat purchases.',
         platform: 'Gumroad / Shopify / Payhip',
@@ -204,53 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
-      anchorText: 'Addition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'subtraction-worksheets',
-      anchorText: 'Subtraction Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'code-addition-worksheets',
-      anchorText: 'Code Addition Worksheet Generator',
+      anchorText: 'Code addition puzzles for more unique math products',
     },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
-      anchorText: 'More or Less Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'math-mastery-bundle',
-      anchorText: 'Math Mastery Bundle — All Math Apps in One Package',
+      slug: 'sudoku-worksheets',
+      anchorText: 'Picture sudoku for logic puzzle variety',
     },
     {
       pageType: 'guide',
-      slug: 'sell-math-worksheets-etsy',
-      anchorText: 'Guide to Selling Math Worksheets on Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back-to-School Printable Ideas That Sell',
-    },
-    {
-      pageType: 'start',
-      slug: 'create-worksheets-that-sell',
-      anchorText: 'How to Create Worksheets That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-math-puzzle-worksheets',
-      anchorText: 'How to Create Math Puzzle Worksheets',
+      slug: 'publish-puzzle-books-kdp',
+      anchorText: 'Guide to publishing puzzle books on KDP',
     },
   ],
 

@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'size comparison worksheet maker',
+    primaryKeyword: 'free size comparison worksheet maker',
     secondaryKeywords: [
-      'big and small worksheets to sell',
-      'size comparison creator for Etsy sellers',
-      'printable size ordering worksheets commercial use',
-      'big small medium worksheets for KDP and Etsy',
+      'make size comparison worksheets free online',
+      'big and small generator no signup',
+      'free visual discrimination worksheet maker',
+      'size comparison worksheets free trial',
     ],
     lsiKeywords: [
-      'visual size discrimination worksheet generator',
-      'zero-text size comparison printable',
-      'big small ordering activity maker',
+      'free size comparison tool online',
+      'instant big small maker',
+      'try before you buy size tools',
     ],
-    titleTag: 'Size Comparison Worksheet Maker — Sell on Etsy & KDP',
-    metaDescription: 'Create size comparison worksheets with five question types, identical and different image modes, 104 themes. Try free — license available.',
+    titleTag: 'Free Size Comparison Worksheet Maker | LCS',
+    metaDescription: 'Make size comparison worksheets free online with watermark — no signup. 5 question types, themed images, answer keys. Upgrade for commercial license to sell.',
     },
 
   hero: {
-    title: 'Big & Small Worksheet Maker',
+    title: 'Make Size Comparison Worksheets Free Online — No Signup',
     tagline: 'Generate size comparison worksheets with five question types, two image modes, and fully visual zero-text output that sells worldwide without translation',
-    description: 'Create professional size comparison worksheets where solvers identify bigger, smaller, and medium-sized images or number them in size order. Five question types cover every size discrimination skill: Circle the Big One, Circle the Small One, Circle the Medium One, Number 1–2–3 Small to Big, and Number 1–2–3 Big to Small. Two image modes create fundamentally different exercises from the same tool: Identical Images shows the same picture at different sizes for pure size perception, while Different Images shows distinct objects at different sizes for relative size reasoning. Set 1–10 exercises per page with 2 or 3 images per exercise — two images for straightforward bigger/smaller comparisons, three images to introduce the medium option and enable ordering challenges. Every worksheet is fully visual with zero text on the output. No words appear on the generated page — only images and visual indicators. This makes your worksheets universally usable regardless of language, reading level, or literacy status, and universally sellable without translation. One product listing serves every market worldwide. Draw from 3,100+ illustrations across 104 themed collections or upload your own images. The auto-generated answer key highlights and circles correct answers for instant verification. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create big-and-small worksheets right now — free, instant, no account required. Five question types cover every size discrimination skill: circle the big one, circle the small one, circle the medium, and number ordering in both directions. Two image modes — identical and different — create fundamentally different exercises. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell size comparison worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Size Comparison Worksheets in 8 Easy Steps',
+    title: 'How to Make Size Comparison Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Big & Small Worksheet Maker',
@@ -200,14 +200,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Big & Small Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
-    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Pattern Worksheet Maker' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'drawing-lines-maker', anchorText: 'Drawing Lines Maker' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'Free greater than less than maker' },
+    { pageType: 'guide', slug: 'create-size-comparison-worksheets', anchorText: 'How to create size comparison worksheets to sell' },
   ],
 
   visuals: {

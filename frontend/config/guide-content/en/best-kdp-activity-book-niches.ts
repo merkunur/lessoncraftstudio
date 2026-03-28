@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP activity book niches',
+    primaryKeyword: 'best KDP activity book niches 2026',
     secondaryKeywords: [
-      'top KDP activity book niches for publishers',
-      'profitable activity book categories Amazon KDP',
+      'profitable KDP activity book niches',
+      'low competition KDP niches 2026',
+      'best selling activity book categories Amazon',
       'KDP niche research activity books',
-      'underserved activity book niches KDP',
     ],
     lsiKeywords: [
-      'Amazon BSR best seller rank competition analysis demand',
-      'activity book subcategory math puzzle coloring word search',
-      'audience segmentation preschool kids adults seniors large print',
-      'seasonal niche holiday back-to-school summer evergreen',
-      'niche validation test title 90-day sales catalog strategy',
-      'cross-category hybrid themed activity book sub-niche',
+      'KDP niche analysis',
+      'Amazon activity book market',
+      'profitable self-publishing niches',
     ],
-    titleTag: 'KDP Activity Book Niches — Top Picks Guide',
-    metaDescription: 'Discover the top KDP activity book niches for publishers. Covers demand analysis, competition evaluation, underserved categories, and seasonal timing.',
+    titleTag: 'Best KDP Activity Book Niches (2026) | LCS',
+    metaDescription: 'Discover the best KDP activity book niches in 2026. Low-competition, high-demand categories with revenue potential and content creation strategies.',
   },
 
   hero: {
-    title: 'Top KDP Activity Book Niches for Publishers',
+    title: 'Best KDP Activity Book Niches in 2026',
     tagline: 'A niche research guide for Amazon KDP activity book publishers — covering demand-to-competition analysis for every major activity book category, audience segmentation strategies that multiply niche opportunities, Amazon BSR and review data interpretation for niche validation, underserved sub-niches with strong buyer demand and thin competition, seasonal versus evergreen niche timing for catalog planning, cross-category hybrid niches that reach multiple buyer pools, and multi-niche portfolio strategies that balance depth with diversification',
-    description: 'Choosing the right niche determines whether your KDP activity books earn consistent revenue or disappear into Amazon\'s catalog. This guide is not about how to create activity books — our other KDP guides cover math activity books, puzzle books, word search books, formatting, and revenue strategy in detail. This guide focuses on the decision that comes before all of those: which activity book categories should you target, how do you evaluate whether a niche has enough demand to justify your effort, and how do you identify the specific sub-niches where a new publisher can compete against established titles.',
+    description: 'Choosing the right niche is the difference between a KDP book that sells 5 copies and one that generates consistent monthly revenue. This guide analyzes the most profitable activity book niches on Amazon KDP in 2026: which categories have growing demand, where competition is still low enough to rank, and how to validate a niche before investing time in content creation. You\'ll learn how to use our generators to quickly test niches by producing sample pages and evaluating market fit.',
   },
 
   introduction: 'Every activity book published on Amazon KDP competes within a specific niche — a combination of content type, target audience, and buyer intent that determines which search results the book appears in, who sees it, and whether they buy. The difference between choosing the right niche and the wrong one is not marginal. A well-chosen niche can generate 200 to 500 dollars per month from a single title. A poorly chosen niche can leave an equally good book earning 5 dollars per month indefinitely, regardless of content quality or cover design.\n\nThe KDP activity book market contains dozens of distinct niches, each with its own demand curve, competitive density, and profit potential. Math workbooks, word search collections, sudoku puzzles, coloring books, handwriting practice, mazes, drawing prompts, crossword puzzles — each category has subcategories, and each subcategory has audience segments. A \"word search book\" is not one niche; it is a dozen niches: word search for kids ages 4-6, word search for adults, large-print word search for seniors, themed word search (animals, travel, holidays), word search in specific languages, and more. Each variation targets different Amazon searches, faces different competition, and generates different revenue.\n\nMost new KDP publishers skip niche research entirely. They create the type of activity book they personally enjoy, publish it, and hope Amazon\'s algorithm finds buyers for it. This product-first approach occasionally works by luck, but it fails far more often than it succeeds. The niche-first approach reverses the process: identify where buyer demand exists but competition is thin, then create content specifically for that gap. This does not mean chasing trends or gaming the system — it means making informed decisions about where your publishing effort will generate the highest return.\n\nThis guide walks through the complete niche research and validation process for KDP activity books. For instructions on creating content once you have chosen your niche, see the math activity books KDP guide, the puzzle books guide, or the word search books guide. For formatting specifications, see the KDP formatting guide. For revenue and pricing strategy, see the KDP revenue guide. Here we cover the foundational question those guides assume you have already answered: which niches should you target?',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'How to Create Word Search Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'How to Create Sudoku Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
+    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'Make money with KDP activity books' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to publish puzzle books on KDP' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP activity book business guide' },
   ],
 
   toolsRecommended: [

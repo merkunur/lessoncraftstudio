@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'multilingual printable business',
+    primaryKeyword: 'build a multilingual printable business',
     secondaryKeywords: [
-      'sell printables multiple languages',
-      'international printable market',
-      'multilingual worksheet business',
-      'expand printables globally',
+      'multilingual printable business guide',
+      'sell printables in multiple languages',
+      'international printable market expansion',
+      'multilingual worksheet business strategy',
     ],
     lsiKeywords: [
-      'language expansion international markets localization strategy European printable markets',
-      'German educational market French worksheet demand Spanish printable buyers',
-      'multi-language catalog revenue multiplication market diversification cross-border selling',
-      'translation workflow global education market language-specific marketplaces international SEO',
-      'multilingual product portfolio language coverage competitive advantage underserved markets',
-      'cross-language revenue streams platform internationalization multi-market distribution',
+      'multilingual digital products',
+      'international printable markets',
+      'multi-language product strategy',
     ],
-    titleTag: 'Multilingual Printable Business — Strategy Guide',
-    metaDescription: 'Build a multilingual printable business by expanding into international markets. Learn which languages to target, translation workflows, and revenue.',
+    titleTag: 'Build a Multilingual Printable Business | LCS',
+    metaDescription: 'How to build a multilingual printable business. International market expansion, language strategy, and tools for selling printables in 11 languages.',
   },
 
   hero: {
-    title: 'Building a Multilingual Printable Business',
+    title: 'Build a Multilingual Printable Business',
     tagline: 'A complete guide to expanding your printable business internationally — covering why multilingual expansion is the most underutilized growth strategy, which language markets offer the highest returns, how to structure your business for multi-language operations, analyzing international marketplace opportunities, building competitive advantage through language coverage, developing a revenue multiplication framework, planning phased language expansion, and optimizing multi-language portfolio performance',
-    description: 'Most printable sellers compete exclusively in English, ignoring massive demand in German, French, Spanish, and other language markets. This guide shows you how to build a multilingual printable business that multiplies revenue by reaching underserved international buyers across multiple platforms and languages.',
+    description: 'Most printable sellers compete only in English — ignoring German, French, Spanish, and other markets where demand is high and competition is a fraction of what it is in English. This guide shows you how to build a multilingual printable business: identifying which languages offer the best opportunity, using our generators\' 11-language support to create locale-specific products, and listing on international marketplaces. You\'ll learn how to multiply your product catalog and revenue without creating entirely new content — the generators do the translation work for you.',
   },
 
   introduction: 'The educational printable market extends far beyond English-speaking countries, yet the vast majority of sellers create products in English only. This creates a remarkable business opportunity: millions of buyers, and sellers worldwide actively search for printable worksheets in their native language and find very few results. Consider the math. A worksheet competing against 5,000 similar English products might face only 50 competitors in German or 30 in French. That dramatic difference in competition directly translates to visibility, sales, and revenue potential. Building a multilingual printable business is not simply about translating your existing products. It requires understanding which language markets justify investment, how international marketplaces operate differently, where buyers in each language actually shop, and how to structure your operations so that language expansion becomes a scalable growth engine rather than a resource drain. This guide walks through the complete business strategy for multilingual expansion — from market analysis and language prioritization to revenue multiplication frameworks and long-term portfolio optimization. Whether you are launching your first printable products or looking to grow an established catalog, understanding the multilingual opportunity helps you make informed decisions about where to invest your production time for maximum returns.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Creating Recurring Revenue with Worksheets' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'Create worksheets in multiple languages' },
+    { pageType: 'start', slug: 'create-multilingual-worksheets', anchorText: 'Create multilingual worksheets to sell' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to scale your printable business' },
   ],
 
   toolsRecommended: [

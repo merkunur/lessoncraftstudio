@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'odd one out worksheets',
+    primaryKeyword: 'create odd one out puzzles to sell',
     secondaryKeywords: [
-      'create odd one out puzzles to sell',
-      'visual discrimination worksheet generator',
-      'printable odd one out maker commercial use',
-      'find the different puzzles for Etsy and KDP',
+      'make odd one out worksheets for Etsy',
+      'create find the different puzzles for KDP',
+      'odd one out creation guide for sellers',
+      'sell visual discrimination puzzles online',
     ],
     lsiKeywords: [
-      'dual-mode identical similar odd one out generator',
-      'per-exercise mode override visual puzzles',
-      'auto answer key red circle worksheet maker',
-      'sell odd one out worksheets on Etsy',
-      'Amazon KDP visual discrimination workbooks',
-      'commercial license odd one out tool',
+      'odd one out product creation',
+      'visual puzzle business',
+      'sellable discrimination products',
     ],
-    titleTag: 'Odd One Out Worksheets — Guide',
-    metaDescription: 'Create odd one out worksheets with Identical and Similar modes, per-exercise overrides, and auto answer keys. Step-by-step guide for Etsy and KDP sellers.',
+    titleTag: 'Create Odd One Out Puzzles to Sell Online | LCS',
+    metaDescription: 'Guide to creating odd one out puzzles to sell. Two puzzle modes, themes, and strategies for Etsy and KDP visual puzzle activity book sellers.',
   },
 
   hero: {
-    title: 'How to Create Odd One Out Puzzles',
+    title: 'Create Odd One Out Puzzles to Sell Online',
     tagline: 'A step-by-step tutorial for creating visual discrimination worksheets with dual generation modes, per-exercise overrides, auto-generated answer keys with red circle markers, and purely visual puzzles you can sell worldwide on Etsy, Amazon KDP, and Gumroad',
-    description: 'Odd one out puzzles are among the most universally accessible educational activities because they require no reading, no language comprehension, and no math skills. Solvers look at four images and identify the one that does not belong. This purely visual format makes odd one out worksheets sellable in every country without translation. Parents use them for visual perception practice at home. Sellers list them for critical thinking warm-ups and classification activities. Tutoring centers use them for cognitive development exercises. This guide walks you through the entire creation process using the Odd One Out Worksheet Generator — from choosing between Identical and Similar generation modes to configuring per-exercise overrides, generating auto answer keys with red circle markers, and exporting production-ready files. Whether you are creating your first visual puzzle product or expanding an existing worksheet catalog, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Odd one out puzzles are universally appealing — the format is instantly understood by solvers of all ages, making it a versatile product for Etsy sellers and KDP publishers. This guide covers creating professional find-the-different worksheets designed to sell: mixing Identical and Similar modes for difficulty variety, choosing themes that maximize visual impact, and building progressive puzzle sets from easy to challenging. You\'ll learn how to package odd one out puzzles into themed bundles and activity books that compete in the visual puzzle niche.',
   },
 
   introduction: 'Visual discrimination is one of the core cognitive skills in early childhood development. Before children learn to read, they must first learn to observe differences — distinguishing one shape from another, one letter from a similar letter, one object from a group. Odd one out puzzles train this skill directly by presenting four images and asking solvers to identify the one that does not match the others. This makes odd one out worksheets a foundational product with demand spanning preschool through elementary school.\n\nWhat makes odd one out worksheets particularly powerful as a printable product is the purely visual format. Unlike vocabulary worksheets, reading comprehension pages, or math problems that require language-specific text, odd one out puzzles contain only images. Four pictures in a row, three that belong together and one that does not. No words, no numbers, no language barrier. A worksheet created in one session sells identically across every international marketplace without translation or localization. This global reach without per-locale effort is a significant competitive advantage for sellers.\n\nThe Odd One Out Worksheet Generator handles the complexity of creating these activities through two distinct generation modes. Identical mode places three clones of the exact same image alongside one different image from the same theme — solvers spot the non-duplicate by comparing fine visual details. Similar mode draws three images from Theme A and one image from Theme B — solvers identify the thematic outlier by recognizing categorical differences. Each mode targets a different cognitive skill, and the per-exercise mode override lets you mix both modes on a single worksheet for progressive difficulty. The generator produces auto answer keys with red circle markers scaled to image size, handles adaptive column layout for five to ten exercises per page, and exports four production-ready files per session. You focus on product strategy — which mode combinations to use, which theme pairings to target, how to bundle and price — while the generator handles layout, shuffling, and answer key creation.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample odd one out worksheets, test both generation modes, experiment with per-exercise overrides, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow Match Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Try the Odd One Out Worksheet Maker' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd one out puzzle generator' },
+    { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'Create hidden object worksheets to sell' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on KDP' },
   ],
 
   toolsRecommended: [

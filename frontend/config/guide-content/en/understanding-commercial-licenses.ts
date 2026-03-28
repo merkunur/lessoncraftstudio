@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'commercial use license printables',
+    primaryKeyword: 'commercial license for printable sellers explained',
     secondaryKeywords: [
+      'commercial use license printables guide',
+      'what does commercial license mean for sellers',
       'printable commercial license explained',
-      'sell worksheets legally',
-      'commercial rights digital products',
-      'licensing for printable sellers',
+      'commercial rights for digital products',
     ],
     lsiKeywords: [
-      'intellectual property usage rights personal vs commercial use license tiers',
-      'royalty-free resale rights derivative works sublicensing copyright compliance',
-      'license terms digital product rights clip art licensing template licensing',
-      'commercial output rights license agreement license verification compliance system',
-      'licensing mistakes platform restrictions attribution requirements exclusivity clauses',
-      'license records license documentation multi-platform licensing competitive advantage',
+      'commercial license printable business',
+      'selling rights digital products',
+      'license types for printable sellers',
     ],
-    titleTag: 'Commercial Use License Printables — Seller Guide',
-    metaDescription: 'Understand commercial use licenses for printables before selling. Learn licensing types, common mistakes, and how proper licensing protects your business.',
+    titleTag: 'Commercial License for Printable Sellers | LCS',
+    metaDescription: 'Commercial license for printable sellers explained. What it covers, what you can sell, and how licensing works for Etsy, KDP, and direct-sale sellers.',
   },
 
   hero: {
-    title: 'Understanding Commercial Use Licenses',
+    title: 'Commercial License for Printable Sellers Explained',
     tagline: 'A complete guide to commercial licensing for printable sellers — covering the difference between personal and commercial use, what requires a commercial license, how to evaluate license terms, common license models in the printable industry, licensing mistakes to avoid, building a compliance system, handling multi-platform licensing, and using licensing knowledge as a competitive advantage',
-    description: 'Every resource you use to create printable products — worksheet generators, clip art, fonts, templates, and image libraries — comes with license terms that determine whether you can legally sell the output. Most printable sellers skip this step entirely, assuming that purchasing a tool automatically grants commercial rights. That assumption leads to product takedowns, account suspensions, and lost revenue. This guide explains how commercial licensing works across the printable industry, what to look for in license agreements, and how to build a compliance system that protects your business as it grows.',
+    description: 'Understanding commercial licenses is essential for every printable seller — it determines what you can legally sell, where you can sell it, and what restrictions apply. This guide explains how commercial licensing works for printable products: what our license covers, the difference between personal and commercial use, how licensing works across Etsy, Amazon KDP, and other platforms, and common licensing questions sellers ask. You\'ll leave with complete clarity on your rights and how to communicate licensing to your buyers.',
   },
 
   introduction: 'Commercial licensing is the legal foundation of every printable business, yet it remains one of the most misunderstood aspects of selling digital products. The confusion is understandable: licensing terms vary dramatically between tools, platforms, and resource providers. One clip art library grants unlimited commercial use with a single purchase. Another restricts output to 500 units. A third allows commercial use on Etsy but prohibits Amazon KDP. Without understanding these distinctions, sellers unknowingly build businesses on uncertain legal ground.\n\nThe consequences of licensing mistakes range from inconvenient to devastating. At the mild end, a seller receives a takedown notice for a single listing and removes it. At the severe end, a seller builds an entire product line around resources they do not have commercial rights to use, and a rights holder issues takedown notices across all platforms simultaneously. Months of work and accumulated reviews disappear overnight. The seller must start over with properly licensed resources, having lost both the products and the marketplace credibility that took months to build.\n\nThe irony is that proper commercial licensing is neither difficult nor expensive. Most professional-grade worksheet generators and resource libraries offer clear commercial license options at reasonable one-time prices. The challenge is not the cost — it is the knowledge gap. Sellers who understand commercial licensing make confident decisions about which tools to purchase, which resources to use, and how to document their rights. They expand across platforms without fear of takedowns because they know exactly what their licenses permit.\n\nThis guide covers commercial licensing from the perspective of a printable seller building a real business. You will learn how to distinguish between personal and commercial use rights, identify which resources in your production pipeline require commercial licenses, evaluate license terms before purchasing tools, understand the most common license models in the printable industry, avoid the mistakes that catch unprepared sellers, build a compliance system that scales with your business, manage licensing across multiple selling platforms, and use licensing knowledge as a genuine competitive advantage.\n\nThe goal is not to make you a licensing attorney — it is to give you the practical knowledge to make informed decisions, avoid preventable problems, and build a printable business on a solid legal foundation. Sellers who invest a few hours understanding licensing protect themselves from risks that can derail months of work and thousands of dollars in potential revenue.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Creating Recurring Revenue with Worksheets' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
+    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Copyright basics for printable sellers' },
+    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial license guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

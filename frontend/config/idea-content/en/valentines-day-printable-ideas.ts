@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentine Printable Ideas to Sell — Niche Guide',
-    metaDescription: "Explore Valentine\'s Day printable ideas to sell on Etsy, KDP, and Gumroad. Love-themed product concepts, seasonal timing strategies, and tips for sellers.",
-    primaryKeyword: 'valentine printable ideas',
+    titleTag: 'Valentine\'s Day Printables to Sell | LCS',
+    metaDescription: 'Valentine\'s Day printable business ideas. Product concepts, timing strategies, and opportunities for heart-themed printable sellers on Etsy & KDP.',
+    primaryKeyword: 'Valentine\'s Day printables to sell',
     secondaryKeywords: [
-      'Valentine\'s Day worksheets to sell',
-      'Valentine printable business ideas',
-      'Valentine activity sheets for sellers',
-      'sell Valentine printables on Etsy',
+      'Valentine worksheets for Etsy sellers',
+      'Valentine activity packs for KDP',
+      'sell Valentine printables online',
+      'heart themed printable business',
     ],
     lsiKeywords: [
-      'heart themed educational worksheets',
-      'February themed activity pages',
-      'love and friendship themed printables',
+      'Valentine printable niche',
+      'February printable demand',
+      'heart themed products',
     ],
   },
   hero: {
-    title: 'Valentine\'s Day Printable Business Ideas for Sellers',
-    description: 'Valentine\'s Day opens a powerful winter selling window for printable entrepreneurs, with demand building through January and peaking in early February as buyers prepare Valentine exchanges and parents search for educational love-themed activities and Valentine card alternatives. The niche offers charming sub-theme variety including hearts, cupid, friendship, roses, candy, mailboxes, love letters, and Valentine exchanges, giving sellers a warm visual vocabulary that appeals to children, families, and buyers alike. Daycare providers and homeschooling families add another buyer segment, seeking structured Valentine activities that blend holiday excitement with genuine skill-building. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Valentine\'s Day niche combines reliable annual demand with a universally appealing love-and-friendship aesthetic that photographs beautifully for product listings and social media marketing. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable Valentine printable product line using our worksheet generator tools.',
+    title: 'Valentine\'s Day Printables to Sell on Etsy & KDP',
+    description: 'Valentine\'s Day printables drive a sharp demand spike in January and February — parents search for heart-themed classroom activities, party games, and educational worksheets. This niche guide covers the Valentine\'s Day opportunity: which product formats convert best during the love season, optimal release timing for maximum visibility, and specific product ideas across math, word puzzles, matching, and coloring activities. The heart and love theme translates across all age groups and activity types, making it one of the most versatile holiday niches.',
   },
   marketOverview: `The Valentine\'s Day printable niche commands a prime position in the winter selling calendar, delivering concentrated seasonal demand during a period when post-holiday shopping energy redirects toward fresh creative projects and celebrations. Buyers begin planning Valentine party activities and February themed enhancements in early January, searching for themed worksheets that transform the excitement of Valentine exchanges into structured learning opportunities. Parents seek age-appropriate Valentine activities that serve as creative alternatives to store-bought Valentine cards and provide educational entertainment during the love-themed holiday week. Daycare providers, homeschooling families, and after-school program coordinators purchase themed activity sheets for Valentine parties, friendship-focused learning sessions, and February celebration events that need engaging materials for young participants.
 
@@ -152,44 +152,19 @@ The Valentine\'s Day keyword landscape reveals several underserved sub-niches wo
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Matching generator for Valentine activities',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
       slug: 'easter-printable-ideas',
-      anchorText: 'Easter Printable Business Ideas',
+      anchorText: 'Easter printable ideas',
     },
   ],
 

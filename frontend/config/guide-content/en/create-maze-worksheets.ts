@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create maze worksheets',
+    primaryKeyword: 'create maze worksheets to sell on Etsy',
     secondaryKeywords: [
-      'maze worksheet generator',
-      'printable maze activity sheets',
-      'maze puzzles for kids to sell',
-      'custom maze worksheets with answer keys',
+      'make picture path mazes for Etsy',
+      'create maze activity books for KDP',
+      'maze worksheet creation guide',
+      'sell maze printables online',
     ],
     lsiKeywords: [
-      'picture pathway worksheets',
-      'spatial reasoning activities for kids',
-      'printable puzzle worksheets Etsy',
-      'Amazon KDP maze activity books',
-      'maze worksheets with themed images',
-      'commercial license maze generator',
+      'maze product creation',
+      'path puzzle business',
+      'sellable maze products',
     ],
-    titleTag: 'How to Create Maze Worksheets — Step-by-Step Guide',
-    metaDescription: 'How to create maze worksheets with 3 game modes, themed images, and answer keys. Generate printable maze activity sheets to sell on Etsy and Amazon KDP.',
+    titleTag: 'Create Maze Worksheets to Sell on Etsy | LCS',
+    metaDescription: 'Guide to creating maze worksheets to sell on Etsy. Picture path format, themes, and strategies for Etsy and KDP maze activity book sellers.',
   },
 
   hero: {
-    title: 'How to Create Maze Worksheets and Activity Sheets',
+    title: 'Create Maze Worksheets to Sell on Etsy & KDP',
     tagline: 'A step-by-step tutorial for creating themed maze worksheets across three distinct game modes — ready to sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Mazes are one of the most universally appealing puzzle formats for children. They build spatial reasoning, problem-solving skills, and patience — and they sell consistently across every printable marketplace. This guide walks you through the entire creation process using the Picture Path Maze Generator, which offers three fundamentally different game modes: Picture Pathway for visual path-following, Classic Maze for wall-based navigation with collectible counting, and Choose the Right Path for directional decision-making. Each mode produces a distinct product type from a single tool. You will learn how to configure grid sizes, assign themed image roles, customize wall appearance, and export print-ready PDFs with automatic answer keys. Whether you are building your first maze product or expanding a puzzle worksheet catalog, this tutorial covers every setting and strategy you need.',
+    description: 'Maze activity books are a proven category on Amazon KDP, and picture path mazes add visual appeal that standard line mazes lack — making your products stand out in search results. This guide covers creating professional maze worksheets designed to sell: choosing themes that match seasonal demand, building difficulty progressions, and packaging mazes into themed bundles for Etsy and activity books for KDP. You\'ll learn how themed image destinations make your mazes more engaging and marketable than generic path puzzles.',
   },
 
   introduction: 'Mazes tap into something fundamental about how children learn. Following a path from start to finish requires spatial awareness, forward planning, and the ability to recover from wrong turns — skills that transfer directly to math, reading comprehension, and real-world navigation. That educational depth makes maze worksheets a strong product category with year-round demand from parents, buyers, and tutoring centers.\n\nWhat sets the Picture Path Maze Generator apart from basic maze tools is its three distinct game modes. Picture Pathway creates visual path-following activities where children trace a route between themed images. Classic Maze generates traditional wall-based mazes with collectible images scattered throughout — combining navigation skills with counting practice. Choose the Right Path presents directional mazes with multiple route options where only one leads to the correct destination. Each mode creates a fundamentally different product, giving you three times the catalog variety from a single generator.\n\nBeyond mode selection, the generator offers extensive customization: six grid sizes from 15x15 to 20x20, configurable path counts and lengths, wall color and thickness controls, five distinct image roles (Start, End, Path, Distractor, Decoration), and 100+ themed image sets. The result is a tool that can produce thousands of unique maze variations — each one a potential product.\n\nEvery feature described in this guide is available in the free trial with watermark. You can create sample mazes in all three modes, test every configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Path Maze Generator — Full Details' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Generator — Full Details' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Try the Picture Path Maze Maker' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture path maze generator' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on KDP' },
+    { pageType: 'guide', slug: 'create-treasure-hunt-worksheets', anchorText: 'Create treasure hunt worksheets' },
   ],
 
   toolsRecommended: [

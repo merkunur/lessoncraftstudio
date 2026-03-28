@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sell educational printables on Etsy',
+    primaryKeyword: 'sell educational printables on Etsy beginner',
     secondaryKeywords: [
       'how to sell educational printables on Etsy',
-      'Etsy educational printable shop strategy',
-      'printable worksheets Etsy business multi-category',
-      'sell worksheets and activities on Etsy',
+      'Etsy educational printable shop setup',
+      'beginner guide to selling worksheets on Etsy',
+      'educational printable business Etsy 2026',
     ],
     lsiKeywords: [
-      'Etsy digital download educational activities listing optimization',
-      'multi-category printable shop pricing strategy Etsy sellers',
-      'Etsy SEO tags for educational worksheet and puzzle products',
-      'sell math literacy puzzle printables Etsy shop diversified',
-      'cross-category educational printable bundling Etsy strategy',
-      'Etsy listing photos mockups for educational printable products',
+      'Etsy education niche beginners',
+      'digital educational products',
+      'worksheet business Etsy startup',
     ],
-    titleTag: 'Sell Educational Printables on Etsy — Guide',
-    metaDescription: 'Sell educational printables on Etsy with 33 generators across 6 categories. Shop strategy, Etsy SEO, cross-category bundling, and pricing for sellers.',
+    titleTag: 'Sell Educational Printables on Etsy (Beginner) | LCS',
+    metaDescription: 'Beginner guide to selling educational printables on Etsy. Niche selection, product creation, listing optimization, and first-sale strategies for new sellers.',
   },
 
   hero: {
-    title: 'How to Sell Educational Printables on Etsy',
+    title: 'Sell Educational Printables on Etsy — Beginner Guide',
     tagline: 'A complete platform guide for building a diversified Etsy shop selling educational printables created with 33 specialized generators across 6 categories — covering multi-category shop strategy, category-specific Etsy SEO optimization with all 13 tags, cross-category bundling and pricing, listing photography for different product types, seasonal product rotation across math worksheets, literacy activities, visual learning pages, matching exercises, puzzles, and search-and-find games, and scaling from a single category to a full educational printable storefront',
-    description: 'Educational printables are one of the most consistently searched digital product categories on Etsy. Parents, buyers, homeschoolers, and tutoring centers search for math worksheets, word search puzzles, coloring pages, matching activities, sudoku books, and dozens of other educational formats every single day. This guide shows you how to build a diversified Etsy shop that spans all 6 educational printable categories using 33 specialized generators — creating a competitive advantage that single-category shops cannot match. Whether you are launching your first educational printable or expanding an existing shop into new categories, you will have a complete multi-category strategy by the end of this guide.',
+    description: 'Educational printables are one of Etsy\'s fastest-growing digital product categories — parents, homeschool families, and teachers spend billions annually on learning materials. This beginner guide walks you through choosing your first niche, creating professional worksheets with our 33 generators, writing listings that Etsy\'s algorithm rewards, and making your first sale. No design skills or teaching background required — the generators handle the product creation while you focus on building a business.',
   },
 
   introduction: 'The educational printable market on Etsy is enormous, but most sellers compete in a single narrow category. A shop that only sells addition worksheets competes with every other addition worksheet seller. A shop that only sells word searches competes with every other word search seller. The sellers who build sustainable businesses are the ones who diversify across multiple educational printable categories — capturing different buyer segments, different seasonal peaks, and different search terms that a single-category shop could never reach.\n\nThis is where a multi-category approach becomes a genuine competitive advantage. With 33 generators organized across 6 educational categories — Math Mastery, Literacy and Language, Visual Learning, Matching and Sorting, Puzzles and Logic, and Search and Find — you can build a shop with hundreds of unique products covering every age group from preschool through elementary school and every subject area parents and homeschoolers search for.\n\nThe six categories serve fundamentally different buyer needs. Math worksheets target arithmetic practice. Literacy products target reading and vocabulary. Visual learning pages target creative development. Matching activities target early childhood cognitive skills. Puzzles target critical thinking. Search-and-find activities target attention and observation. A single buyer — a parent, a buyer, a homeschooler — often needs products from multiple categories, and a shop that carries all of them captures that entire purchase instead of losing the buyer to a competitor for their second product.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample products from all 33 generators, test every configuration, and evaluate output quality before purchasing a commercial license for the categories you want to sell.',
@@ -155,16 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create Etsy Coloring Pages That Sell' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search generator — the easiest product to start with' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to start an Etsy printable shop from scratch' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selection for printable business' },
   ],
 
   toolsRecommended: [

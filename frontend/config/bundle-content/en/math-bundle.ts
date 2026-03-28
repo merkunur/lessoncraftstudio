@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'math worksheet bundle',
+    primaryKeyword: 'math worksheet generators bundle for Etsy sellers',
     secondaryKeywords: [
-      'math printable bundle for sellers',
+      'math printable bundle for Etsy business',
       'math worksheet generator pack commercial use',
-      'printable math activities bundle for Etsy',
+      'all math generators in one bundle',
       'math worksheet toolkit for KDP sellers',
     ],
     lsiKeywords: [
-      'addition subtraction worksheet pack',
-      'math puzzle printable collection',
-      'commercial license math worksheets',
-      'bulk math worksheet creation tool',
+      'math printable business bundle',
+      'complete math generator package',
+      'math worksheet seller toolkit',
     ],
-    titleTag: 'Math Worksheet Bundle — 6 Generators | Math Mastery',
-    metaDescription: 'Get 6 math worksheet generators in one bundle. Create addition, subtraction, code puzzles, comparison, and algebra worksheets to sell on Etsy, KDP & Gumroad.',
+    titleTag: 'Math Worksheet Bundle for Etsy Sellers | LCS',
+    metaDescription: 'Get all 6 math worksheet generators in one bundle. Create addition, subtraction, puzzles & more to sell on Etsy & KDP. Commercial license included.',
   },
 
   hero: {
-    title: 'Math Mastery Bundle',
+    title: 'Math Worksheet Bundle — All 6 Math Generators for Sellers',
     tagline: 'Six professional math worksheet generators in one discounted package',
-    description: 'Build a complete math printable product line without switching between separate tools. The Math Mastery Bundle combines six specialized worksheet generators that cover addition, subtraction, cryptarithmetic code puzzles, greater-than and less-than comparison, jigsaw-grid math puzzles, and visual algebra picture equations. Each generator produces print-ready PDF and high-resolution JPEG files with automatic answer keys, configurable difficulty, and themed image libraries. Five of the six apps are fully visual — the worksheets they produce work in any language because they rely on images and numbers rather than text. The sixth, Code Addition, adds a language-sensitive Word Reveal mode that supports all 11 interface languages. Choose from over 100 themed image sets or upload your own PNG and JPEG files for branded, niche-specific products. Whether you sell on Etsy, Amazon KDP, or your own store, this bundle gives you the variety buyers expect and the speed sellers need. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Build a complete math printable product line with all 6 math generators in one discounted bundle — addition, subtraction, code addition, more or less, math puzzle, and math worksheet generators. Each tool comes with full commercial license, giving you unlimited rights to sell everything you create on Etsy, Amazon KDP, or any marketplace. Create themed math bundles, progressive difficulty workbooks, and comprehensive activity books from a single toolkit. The math niche is one of the most consistent sellers in the educational printable market, and this bundle gives you every format you need to dominate it.',
   },
 
   appsIncluded: [
@@ -201,16 +200,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'More or Less Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Publish Math Activity Books on Amazon KDP' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Worksheets That Sell' },
-    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Math Facts Printable Ideas for Sellers' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition worksheet generator' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math puzzle worksheet generator' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to sell math worksheets on Etsy' },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Create math activity books for KDP' },
   ],
 
   visuals: {

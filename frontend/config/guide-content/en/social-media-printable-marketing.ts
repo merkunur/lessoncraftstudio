@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'social media printable marketing',
+    primaryKeyword: 'social media marketing for printable sellers',
     secondaryKeywords: [
-      'social media for printable sellers',
+      'social media for printable business',
       'promote printables on social media',
-      'printable business social strategy',
-      'market worksheets online',
+      'Instagram marketing for Etsy printable sellers',
+      'social media strategy for worksheet sellers',
     ],
     lsiKeywords: [
-      'content marketing product promotion visual marketing platform strategy',
-      'audience building engagement brand awareness product showcasing',
-      'organic reach content calendar visual content shareable products',
-      'product photography social proof community building follower growth',
-      'Instagram marketing Pinterest strategy Facebook groups seller promotion',
-      'hashtag strategy posting schedule engagement rate profile optimization',
+      'printable social media promotion',
+      'digital product marketing',
+      'social media for Etsy sellers',
     ],
-    titleTag: 'Social Media Printable Marketing — Seller Guide',
-    metaDescription: 'Social media printable marketing strategies for sellers covering platform selection, visual content, audience building, and engagement that drives shop.',
+    titleTag: 'Social Media Marketing for Printable Sellers | LCS',
+    metaDescription: 'Social media marketing guide for printable sellers. Platform strategies, content ideas, and promotion tactics for growing your printable business.',
   },
 
   hero: {
     title: 'Social Media Marketing for Printable Sellers',
     tagline: 'A complete guide to social media printable marketing — covering how to choose the right platforms, create compelling visual content, balance promotion with value, align posts with selling seasons, optimize profiles for discovery, use hashtags strategically, build authentic community engagement, and track results to refine your strategy',
-    description: 'Printable products are inherently visual, which makes social media one of the most natural and effective marketing channels for worksheet sellers. A well-photographed worksheet flat lay, a short video showing a generator producing a themed activity pack, or a carousel of colorful coloring pages can stop a scrolling parent or buyer mid-feed and send them directly to your shop. This guide provides a complete social media marketing framework designed specifically for printable sellers — from platform selection and content creation to audience building and performance tracking.',
+    description: 'Social media drives free traffic to your printable listings — but most sellers waste time posting without a strategy. This guide covers effective social media marketing specifically for printable sellers: which platforms deliver the best ROI for educational printables, what content formats drive clicks to your shop, how to showcase worksheet products visually, and how to build an audience that converts into buyers. You\'ll learn platform-specific strategies for Instagram, Facebook, TikTok, and Pinterest.',
   },
 
   introduction: 'Most printable sellers know they should be using social media to promote their products, but few have a structured strategy that consistently drives traffic and sales. They post sporadically when they remember, share product links without context, and wonder why their follower count stays flat and their shop traffic from social channels remains negligible. The problem is not that social media does not work for printable businesses — it is that most sellers approach it without a plan, without understanding what content performs on each platform, and without the consistency that algorithms require to reward accounts with visibility.\n\nSocial media marketing for printable sellers has a significant built-in advantage that many digital product categories lack: printable products are inherently photogenic. A math worksheet with animal illustrations, a colorful bingo card, a themed word search puzzle, or an illustrated coloring page creates visually appealing content that performs naturally on image-driven platforms. You are not trying to make an abstract digital service look interesting — you are showcasing tangible, colorful, visually engaging products that photograph beautifully and attract organic engagement from parents, homeschoolers, and educational content enthusiasts.\n\nThe challenge for printable sellers is not creating attractive content — it is developing a sustainable strategy that balances product promotion with value-driven content, aligns posting schedules with seasonal demand cycles, and converts casual followers into paying customers. A seller who posts nothing but product links will struggle to build an audience. A seller who posts only educational tips without ever showcasing products will build followers who never visit their shop. The effective approach combines both: value content that builds the audience and establishes expertise, paired with strategic product showcasing that converts that audience into buyers.\n\nPlatform selection matters enormously for printable sellers because not every social platform serves this product category equally well. Instagram and Pinterest are the strongest channels because they are image-first platforms where worksheet previews, flat-lay photography, and product mockups display naturally in user feeds. Facebook groups provide community-based selling opportunities where direct engagement with parents and homeschoolers leads to product discovery. Other platforms may have large user bases but lack the visual format or audience demographics that align with educational printable buyers.\n\nThis guide walks through a complete social media marketing framework tailored to printable businesses. Each step addresses a specific aspect of social media strategy, from choosing your platforms and creating compelling content to building engagement systems and tracking performance. The goal is a sustainable, manageable social media presence that consistently drives qualified traffic to your shop — not a time-consuming obligation that pulls you away from product creation without measurable return.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest Marketing for Worksheet Businesses' },
-    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'Email Marketing for Printable Product Sellers' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'How to Automate Your Printable Business' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest marketing for worksheet business' },
+    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'Email marketing for printable sellers' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Market your printable business online' },
   ],
 
   toolsRecommended: [

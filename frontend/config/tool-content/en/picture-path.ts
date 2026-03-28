@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'maze worksheet generator',
+    primaryKeyword: 'free picture path worksheet maker',
     secondaryKeywords: [
-      'maze worksheet generator for sellers',
-      'create picture path maze worksheets to sell',
-      'printable maze puzzle maker commercial use',
-      'maze activity worksheet maker for KDP and Etsy',
+      'make picture path worksheets free online',
+      'maze worksheet generator no signup',
+      'free path puzzle maker for kids',
+      'picture path worksheets free trial',
     ],
     lsiKeywords: [
-      'three game modes picture pathway classic maze choose path',
-      'LPF longest path first algorithm wall-based maze creator',
-      'auto answer key pink circle solution path maze generator',
+      'free maze tool online',
+      'instant path worksheet maker',
+      'try before you buy maze tools',
     ],
-    titleTag: 'Picture Path Maker — Maze Worksheet Generator for Sellers',
-    metaDescription: 'Create maze worksheets with Picture Pathway, Classic Maze, and Choose the Right Path modes, collectibles, and auto answer keys. Try free — license available.',
+    titleTag: 'Free Picture Path Worksheet Maker | LCS',
+    metaDescription: 'Make picture path worksheets free online with watermark — no signup. Themed image destinations, auto answer keys, 104 themes. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Picture Path Maze Maker',
+    title: 'Make Picture Path Worksheets Free Online — No Signup',
     tagline: 'Three-mode maze worksheet generator with Picture Pathway (image grid path-following), Classic Maze (LPF wall-based algorithm with collectibles and dead-end blocking), and Choose the Right Path (three-path directional mazes), five image roles (Start, End, Path, Distractor, Decoration), customizable wall design with color/thickness/opacity controls, auto-generated answer keys with pink circle solution highlighting and collectible legends, and entirely visual mazes that sell worldwide without translation',
-    description: 'Create professional maze and pathway worksheets with three distinct game modes in a single generator. Picture Pathway creates a grid of images where users follow the correct path from start to finish by identifying path images among distractors — ideal for younger learners and visual discrimination tasks. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with a corridor-cell system and dynamic wall placement. Quality scoring evaluates turns, length, and blockages to ensure challenging but solvable mazes. Configure grid sizes from 15×15 to 20×20, set 1 to 3 paths with automatic dead-end blocking, and customize wall color (any color via picker), thickness (1–10px, default 3px), and opacity (10–100%, default 100%). Collectible images scatter throughout Classic Maze corridors — configure 1–4 collectible image types, 1–3 minimum copies, and 1–10 maximum copies per type. Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where users identify the single correct route among decoys. Assign images to five distinct roles: Start Image (entry point), End Image (destination — 1 for Pathway/Maze, 3 for Choose Path), Path Images (correct route markers or collectibles), Distractor Images (non-path filler), and Decoration (free canvas placement). Every mode generates a companion answer key on a separate canvas tab — solution paths are highlighted with pink circles along the correct route. Choose Path mode adds a "✓ CORRECT PATH" label identifying the winning route. Classic Maze includes a collectible legend showing each image and its count along the solution path. The auto-generated "Picture Pathway" header renders an orange outer border (8px stroke) with 34px margins, localized title and "Follow the path" instructions across all 11 supported languages. Portrait worksheets display a 240px header; landscape uses a compact 165px layout. Browse 104 themed collections with 3,100+ illustrations or upload custom PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Toggle name and date fields for identification. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or custom dimensions. Toggle grayscale for ink-friendly output. Edit on the Fabric.js canvas with 6 alignment options plus center-on-page, layers, lock/unlock, zoom 25%–300% in 25% increments, and undo/redo 20 states. Picture Path mazes are entirely visual — no reading or language comprehension required, making every worksheet instantly sellable in any market worldwide. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create picture path maze worksheets right now — free, instant, no account required. Each worksheet features paths that solvers navigate to reach themed image destinations, combining maze-solving fun with visual engagement. Choose from 104 themed collections with 3,000+ images to match any niche or seasonal trend. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell maze worksheets on Etsy or compile activity books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Maze Worksheets in 8 Steps',
+    title: 'How to Make Picture Path Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Picture Path Maze Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Path Maze Puzzles — Full Product Details' },
-    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Picture Sudoku Maker' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Puzzle Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Find & Count Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Free treasure hunt worksheet maker' },
+    { pageType: 'guide', slug: 'create-maze-worksheets', anchorText: 'How to create maze worksheets to sell' },
   ],
 
   visuals: {

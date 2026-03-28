@@ -10,7 +10,7 @@ import { getBundleContent } from '@/config/bundle-content';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const bundlesKeywords: Record<string, string[]> = {
-  en: ['printable bundles', 'worksheet bundle deal', 'Etsy printable packs', 'KDP activity book bundle', 'commercial license bundle', 'printable category pack'],
+  en: ['printable generator bundles with commercial license', 'worksheet bundle deal for Etsy sellers', 'Etsy printable generator packs', 'KDP activity book generator bundle', 'commercial license printable bundles', 'category bundle for printable sellers'],
   de: ['Druckvorlagen-Pakete', 'Arbeitsblatt-Bundle', 'Etsy Druckvorlagen-Pack', 'KDP Aktivitätsbuch-Paket', 'kommerzielle Lizenz Paket', 'Kategorie-Paket'],
   fr: ['packs imprimables', 'lot de fiches', 'packs Etsy imprimables', 'lot livres activités KDP', 'licence commerciale pack', 'pack par catégorie'],
   es: ['packs de imprimibles', 'lote de fichas', 'packs Etsy imprimibles', 'lote libros actividades KDP', 'licencia comercial pack', 'pack por categoría'],
@@ -44,10 +44,10 @@ const bundlesContent: Record<string, {
   pricePurchase: string;
 }> = {
   en: {
-    heroTitle: 'Generator Bundles',
-    heroDescription: 'Save with category bundles. Get all generators in a category with a commercial license at a bundled price.',
-    metaTitle: 'Printable Generator Bundles | Save with Category Packs | LessonCraftStudio',
-    metaDescription: 'Get all generators in a category at a bundled price. 6 bundles covering math, literacy, visual, matching, puzzles, and search. One-time purchase with commercial license.',
+    heroTitle: 'Generator Bundles with Commercial License',
+    heroDescription: 'Save with category bundles. Get all generators in a category with commercial license to sell on Etsy, KDP & more.',
+    metaTitle: 'Generator Bundles with Commercial License | LCS',
+    metaDescription: '6 printable generator bundles with commercial license. Math, literacy, visual, matching, puzzles & search. One-time purchase — sell on Etsy, KDP & more.',
     ctaTitle: 'Try Before You Buy',
     ctaDescription: 'All generators are free to try with watermark. See the quality before purchasing a bundle.',
     ctaButton: 'Try Free Generators',

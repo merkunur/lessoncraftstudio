@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create pattern worksheets',
+    primaryKeyword: 'create pattern recognition worksheets to sell',
     secondaryKeywords: [
-      'pattern recognition worksheets for kids',
-      'pattern worksheet generator',
-      'printable pattern worksheets to sell',
-      'visual pattern activities for preschool',
+      'make pattern worksheets for Etsy',
+      'create sequence worksheets for KDP',
+      'pattern worksheet creation guide',
+      'sell pattern printables online',
     ],
     lsiKeywords: [
-      'AB pattern worksheets preschool',
-      'image-based pattern recognition activities',
-      'kindergarten pattern completion sheets',
-      'sell pattern worksheets on Etsy',
-      'Amazon KDP pattern activity books',
-      'commercial license worksheet tool',
+      'pattern product creation',
+      'early math worksheet business',
+      'sellable pattern products',
     ],
-    titleTag: 'How to Create Pattern Worksheets — Step-by-Step Guide',
-    metaDescription: 'Create pattern worksheets with 9 types, themed images, auto answer keys, and 2 question formats. Export print-ready PDFs to sell on Etsy, Amazon KDP, and Gumroad.',
+    titleTag: 'Create Pattern Worksheets to Sell Online | LCS',
+    metaDescription: 'Guide to creating pattern recognition worksheets to sell. Sequence activities, themes, and strategies for Etsy and KDP pattern worksheet sellers.',
   },
 
   hero: {
-    title: 'How to Create Pattern Recognition Worksheets',
+    title: 'Create Pattern Recognition Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating themed, print-ready pattern recognition worksheets you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Pattern recognition is one of the most fundamental pre-math skills children develop, and worksheets that teach it are in constant demand from parents, buyers, and tutoring programs. This guide walks you through the entire creation process using the Pattern Worksheet Maker — from selecting pattern types and question formats to exporting polished, print-ready PDFs with automatic answer keys. With 9 distinct pattern types ranging from simple AB sequences to complex ABCD patterns, you can create products for every age group from preschool through early elementary. Whether you are launching your first printable product or expanding an existing educational worksheet catalog, you will have finished products ready to list by the end of this tutorial.',
+    description: 'Pattern recognition is a foundational cognitive skill that parents and educators prioritize — making pattern worksheets a reliable seller on Etsy and Amazon KDP year-round. This guide covers creating professional pattern worksheets designed to sell: configuring pattern complexity for different age groups, choosing themes that attract buyers, and building progressive difficulty sets that cover preschool through early elementary. You\'ll learn how to pair pattern train and pattern recognition formats for comprehensive bundles that command premium prices.',
   },
 
   introduction: 'Pattern recognition is the cognitive skill that underpins all mathematical thinking. Before children learn to add, subtract, or count with purpose, they learn to identify patterns — what comes next, what is missing, what repeats. This skill transfers directly to algebra, number sequences, geometry, and logical reasoning. That foundational importance creates sustained demand for pattern worksheets across every age group from preschool through second grade.\n\nWhat makes pattern worksheets particularly strong as a printable product is their universal visual nature. Unlike worksheets that depend on language-specific content, pattern recognition activities use images exclusively. A child in Germany works through the same AB pattern of cats and dogs as a child in Brazil. This means a single product serves buyers in every market without translation or localization — a significant advantage for sellers building international catalogs.\n\nThe Pattern Worksheet Maker handles the complexity for you. It supports 9 pattern types from simple 2-image AB sequences to advanced 4-image ABCD patterns, offers two question formats (open-ended blank box and multiple choice), randomizes blank positions and start elements for variety, and generates automatic answer keys. You focus on product strategy — which pattern types to target, which themes to use, how to bundle by difficulty — while the generator handles layout, pattern accuracy, and print formatting.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample worksheets, test every pattern type and configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Pattern Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Pattern Train Generator — Full Details' },
-    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Try the Pattern Worksheet Maker' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Pattern recognition worksheet generator' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Pattern train generator for variety' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

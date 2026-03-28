@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'math puzzle maker to sell online',
+    primaryKeyword: 'free math puzzle maker for kids',
     secondaryKeywords: [
-      'jigsaw math worksheets for Etsy sellers',
-      'math puzzle creator for printable business',
-      'picture math puzzles to sell online',
-      'printable math puzzle worksheets for commercial use',
+      'make math puzzles free online',
+      'math puzzle generator no signup',
+      'free picture puzzle worksheet maker',
+      'printable math puzzles free trial',
     ],
     lsiKeywords: [
-      'image grid math puzzle for sellers',
-      'jigsaw-style math activity printable',
-      'configurable math puzzle worksheet creator',
+      'free puzzle tool online',
+      'instant math puzzle maker',
+      'try before you buy puzzle tools',
     ],
-    titleTag: 'Math Puzzle Maker — Jigsaw Worksheets to Sell Online',
-    metaDescription: 'Create jigsaw-style math puzzles to sell on Etsy & KDP. Image grid puzzles with addition and subtraction, configurable grids, answer keys. Try with watermark.',
+    titleTag: 'Free Math Puzzle Maker for Kids Online | LCS',
+    metaDescription: 'Make math puzzles free online with watermark — no signup. Grid-based picture puzzles, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
     },
 
   hero: {
-    title: 'Math Puzzle Worksheet Generator',
+    title: 'Make Math Puzzles for Kids Free Online — No Signup',
     tagline: 'Create jigsaw-style image puzzles with math equations in under 60 seconds',
-    description: 'Turn math practice into an engaging visual puzzle that looks nothing like a standard worksheet. This tool splits a chosen image into a grid of cells, each containing a math equation. Scrambled puzzle pieces with answer numbers appear below — solvers complete each equation and match the correct piece to reconstruct the picture. Choose from three operation modes: Addition, Subtraction, or Mixed (both operations randomly combined). Adjust grid size from 2×2 (4 pieces, easiest) up to 4×4 (16 pieces, hardest) to match any skill level. Upload your own PNG or JPEG images for branded, seasonal, or niche puzzles, or browse the built-in library of 3,100+ images across 104 themes. The jigsaw format creates an instantly recognizable product that stands out in marketplace search results — buyers scrolling through rows of identical worksheets will stop at a colorful image puzzle. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create grid-based math puzzles right now — free, instant, no account required. Each puzzle splits a themed image into a configurable grid where every cell contains an arithmetic problem. Solvers match numbered answers to scrambled pieces, turning basic math into an engaging visual challenge. Configure grid sizes from 2x2 to 4x4 and choose addition, subtraction, or mixed operations. Every feature is unlocked in the free trial including answer keys, 300 DPI export, and all 104 image themes. Downloads include a small watermark. Want to sell your puzzles on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Math Puzzles in 8 Easy Steps',
+    title: 'How to Make Math Puzzles Free in 8 Easy Steps',
     steps: [
       {
         title: 'Open the Puzzle Generator',
@@ -196,14 +196,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Maker' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet maker' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to publish puzzle books on Amazon KDP' },
   ],
 
   visuals: {

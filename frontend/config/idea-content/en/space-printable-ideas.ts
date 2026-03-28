@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Space Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover space printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Outer space product concepts, STEM strategies, and platform tips for printable sellers.',
+    titleTag: 'Space Themed Printables to Sell | LCS',
+    metaDescription: 'Space themed printable business ideas for Etsy & KDP. Product concepts and strategies for outer space and astronomy printable sellers.',
 
-    primaryKeyword: 'space printable ideas',
+    primaryKeyword: 'space themed printables to sell on Etsy',
     secondaryKeywords: [
-      'space themed worksheets to sell',
-      'space printable business ideas',
-      'space activity sheets for sellers',
-      'sell space printables on Etsy',
+      'space worksheets for Etsy sellers',
+      'space activity books for Amazon KDP',
+      'sell space printables online',
+      'outer space printable business',
     ],
     lsiKeywords: [
-      'astronomy educational worksheets',
-      'planet and rocket activity pages',
-      'solar system themed printables',
+      'space printable niche',
+      'astronomy themed worksheets',
+      'rocket planet printable products',
     ],
   },
   hero: {
-    title: 'Space Printable Business Ideas for Sellers',
-    description: 'Outer space is one of the most universally captivating themes for children, making it a powerful evergreen niche for printable entrepreneurs who want consistent year-round sales without seasonal dependency. The space theme offers extraordinary sub-theme variety including planets, rockets, astronauts, stars, the moon, solar system models, galaxies, aliens, spacecraft, constellations, comets, telescopes, and space stations, giving sellers a deep visual vocabulary that sparks imagination and curiosity in the younger audience. STEM education alignment makes space printables especially valuable for sellers integrating science concepts into math, literacy, and art activities across the content library. For printable sellers on Etsy, Amazon KDP, and Gumroad, the space niche combines strong year-round demand with cross-category educational appeal that resonates with both buyers and homeschool families investing in science-rich learning materials. This guide covers specific product ideas, platform strategies, and positioning approaches to help you build a profitable space printable product line using our worksheet generator tools.',
+    title: 'Space Themed Printables to Sell on Etsy & KDP',
+    description: 'Space and astronomy themes captivate kids across every age group -- rockets, planets, stars, and astronauts drive consistent printable sales without seasonal dependency. This niche guide explores the commercial opportunity: which space-themed products sell best, how to create progressive bundles from simple counting to advanced puzzles, and strategies for positioning your products in the STEM education market. Space printables appeal to both the educational and entertainment buyer segments simultaneously.',
   },
   marketOverview: `The space printable niche occupies a uniquely advantageous position for printable sellers because it delivers consistent year-round demand without the boom-and-bust cycles that characterize seasonal niches. Children\'s fascination with outer space is deeply universal, cutting across age groups, cultures, and educational philosophies. The preschool-age market are captivated by rockets and stars, the kindergarten-age market love learning planet names and astronaut adventures, and elementary users dive eagerly into solar system facts, constellation identification, and space exploration history. This broad age appeal means sellers can create products targeting multiple grade levels from a single theme, multiplying their catalog depth without switching subject matter.
 
@@ -143,19 +143,19 @@ To maximize your space printable revenue, develop products across multiple sub-t
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'I Spy generator for space scenes',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'transportation-printable-ideas',
+      anchorText: 'Transportation printable ideas',
     },
     {
       pageType: 'guide',

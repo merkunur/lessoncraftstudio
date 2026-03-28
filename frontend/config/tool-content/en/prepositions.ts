@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'prepositions worksheet generator',
+    primaryKeyword: 'free prepositions worksheet maker',
     secondaryKeywords: [
-      'prepositions worksheet maker for sellers',
-      'create prepositions worksheets to sell',
-      'printable spatial prepositions worksheets commercial use',
-      'prepositions generator for KDP',
+      'make preposition worksheets free online',
+      'prepositions generator no signup',
+      'free ESL grammar worksheet maker',
+      'prepositions worksheets free trial',
     ],
     lsiKeywords: [
-      'spatial preposition printables for Etsy',
-      'position words worksheet tool',
-      'multilingual prepositions activity generator',
+      'free grammar tool online',
+      'instant prepositions maker',
+      'try before you buy ESL tools',
     ],
-    titleTag: 'Prepositions Worksheet Generator | Sell Printables',
-    metaDescription: 'Generate preposition worksheets with fill-in-the-blank and multiple choice modes, shape replacement, 104 themes, 11 languages. Try free — license available.',
+    titleTag: 'Free Prepositions Worksheet Maker | LCS',
+    metaDescription: 'Make preposition worksheets free online with watermark — no signup. Visual grammar activities, 11 languages, auto answer keys. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Prepositions Worksheet Generator',
+    title: 'Make Prepositions Worksheets Free Online — No Signup',
     tagline: 'Create spatial preposition worksheets with two exercise modes in 11 languages',
-    description: 'Build position-word exercises that engage solvers through image-based scenes. This tool generates prepositions worksheets where learners identify spatial relationships — on, under, above, beside, between, inside, outside — by studying image scenes and filling in or selecting the correct preposition. Choose between two exercise modes: Fill-in-the-Blank, where solvers write the correct preposition themselves, or Multiple Choice, where they pick from a set of options with a customizable instruction line. Set 1–8 exercises per worksheet and select exactly which prepositions to include using the checkbox grid. The tool\'s standout feature is Shape Replacement — a separate image layer lets you swap scene shapes independently, creating far more visual combinations than a single image set could offer. Language sensitivity is built in: switch from English to any of the 11 supported languages and every preposition word updates to its native equivalent. German uses \"auf, unter, über, neben, zwischen, drinnen, draußen\"; French uses \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". One worksheet design becomes 11 unique language products. Browse 3,100+ images across 104 themes, upload your own PNG or JPEG for branded designs, and choose from multiple templates and 7 font families. Export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create visual preposition worksheets right now — free, instant, no account required. Each worksheet presents themed images in spatial relationships, and learners identify the correct preposition — perfect for ESL learners, preschoolers, and language arts practice. The 11-language support produces genuinely different preposition content per locale. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell ESL worksheets on Etsy or compile grammar workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Prepositions Worksheets in 8 Easy Steps',
+    title: 'How to Make Prepositions Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Prepositions Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Prepositions Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
-    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Free word search maker' },
+    { pageType: 'guide', slug: 'create-preposition-worksheets', anchorText: 'How to create preposition worksheets for ESL' },
   ],
 
   visuals: {

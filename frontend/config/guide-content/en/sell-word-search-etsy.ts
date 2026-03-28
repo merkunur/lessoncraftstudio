@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sell word search puzzles on Etsy',
+    primaryKeyword: 'sell word search puzzles on Etsy guide',
     secondaryKeywords: [
       'how to sell word search puzzles on Etsy',
-      'Etsy word search puzzle shop setup',
-      'printable word search puzzles Etsy business',
-      'sell puzzle printables on Etsy',
+      'Etsy word search puzzle shop tips',
+      'word search bundle pricing for Etsy',
+      'list word puzzles on Etsy for profit',
     ],
     lsiKeywords: [
-      'Etsy digital download word search puzzle listing optimization',
-      'word search puzzle bundle pricing strategy Etsy sellers',
-      'Etsy SEO tags for printable puzzle worksheets',
-      'sell crossword word scramble puzzles Etsy shop',
-      'holiday themed word search printable Etsy seasonal strategy',
-      'Etsy listing photos mockups for word search puzzle products',
+      'Etsy word puzzle niche strategy',
+      'digital word search products',
+      'Etsy SEO for puzzle sellers',
     ],
-    titleTag: 'Sell Word Search Puzzles on Etsy — Guide',
-    metaDescription: 'Sell word search puzzles on Etsy with 4 puzzle generators. Etsy SEO, listing optimization, pricing, bundling with crosswords and scrambles, and seasonal.',
+    titleTag: 'How to Sell Word Search Puzzles on Etsy | LCS',
+    metaDescription: 'Complete guide to selling word search puzzles on Etsy. Listing optimization, themed bundles, pricing, and SEO strategies for puzzle sellers.',
   },
 
   hero: {
     title: 'How to Sell Word Search Puzzles on Etsy',
     tagline: 'A complete platform guide for building a profitable Etsy shop selling word search puzzles and complementary language puzzle formats — covering Etsy shop setup, SEO optimization with all 13 tags, listing titles and descriptions that rank for puzzle buyer search terms, product photography showing puzzle grids and answer keys, pricing strategies for individual puzzles and themed bundles, seasonal timing for holiday and learning environment peaks, catalog planning across word search, crossword, word scramble, and cryptogram formats, language-specific product opportunities in multilingual markets, and ongoing shop optimization using Etsy Stats and search analytics',
-    description: 'Word search puzzles are among the highest-demand printable puzzle formats on Etsy, purchased by parents, homeschoolers, activity directors, and adult puzzle enthusiasts. This guide walks you through every step of building an Etsy shop that sells word search puzzles alongside complementary puzzle formats — from researching buyer demand and planning your product catalog, through generating inventory with 4 puzzle tools, to writing optimized listings, creating listing photos, setting pricing, and launching your shop. You will learn how word search puzzles differ from other printable categories in terms of language sensitivity, buyer demographics, cross-selling opportunities, and Amazon KDP crossover potential.',
+    description: 'Word search puzzles are among the top-selling printable formats on Etsy — buyers search for themed puzzle packs, holiday collections, and classroom bundles year-round. This guide covers everything from choosing profitable themes and creating eye-catching listings to optimizing your Etsy SEO and pricing your bundles for maximum profit. You\'ll learn how to use the word search generator to build a catalog of themed puzzle packs that stand out in Etsy search results and convert browsers into buyers.',
   },
 
   introduction: 'Word search puzzles occupy a unique position in the Etsy printable marketplace. Unlike math worksheets or coloring pages that are purely visual, word search content is language-driven — the words embedded in the grid change based on the language, theme, and vocabulary level. This language sensitivity creates both a product differentiation opportunity and a competitive moat that many sellers overlook.\n\nThe demand for printable word search puzzles on Etsy spans an unusually broad buyer demographic. Buyers purchase themed word search worksheets for vocabulary reinforcement and spelling practice. Parents buy them as screen-free activities for road trips, rainy days, and quiet time. Homeschool families use word search puzzles as engaging alternatives to traditional vocabulary drills. Activity directors at senior centers and care facilities purchase large-print word searches for cognitive engagement. Adult puzzle enthusiasts buy themed collections for personal entertainment. This breadth of demand means your word search products can rank for search terms across multiple buyer categories.\n\nThe puzzle printable niche on Etsy has a key advantage over other printable categories: natural cross-selling. Buyers who purchase word search puzzles frequently buy crosswords, word scrambles, and cryptograms from the same shop. A puzzle shop that carries all four formats captures significantly more revenue per customer than a shop selling only one puzzle type. The 4 puzzle generators — Word Search, Crossword, Word Scramble, and Cryptogram — produce complementary formats that share themes and vocabulary, making multi-format product creation efficient.\n\nEtsy\'s algorithm rewards shops that demonstrate category expertise through consistent, related listings. A dedicated puzzle shop with 20 to 30 word search listings supplemented by crossword, scramble, and cryptogram products signals deep niche specialization. This category focus improves your shop\'s quality score and helps Etsy recommend your products to buyers browsing similar puzzle listings from competitors.\n\nWord search puzzles also have significant Amazon KDP crossover potential. The same puzzle content that sells as individual digital downloads on Etsy can be compiled into puzzle books for KDP publishing. Many successful puzzle sellers operate on both platforms simultaneously, using Etsy for individual themed downloads and KDP for compiled puzzle books. This dual-platform approach maximizes the revenue from every puzzle you create.\n\nAnother competitive advantage specific to word search puzzles is multilingual market opportunity. Because word search content is language-dependent, creating puzzles in languages beyond English — Spanish, French, German, and others — opens market segments with dramatically less competition. Most Etsy word search sellers offer English-only products, so a shop with multilingual puzzle listings faces fewer competitors while accessing underserved buyer pools.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles' },
-    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'How to Create Crossword Puzzles' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search generator for creating your puzzles' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for printable worksheets' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to create word search puzzles with images' },
   ],
 
   toolsRecommended: [

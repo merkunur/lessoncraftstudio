@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'algebra puzzle generator',
+    primaryKeyword: 'math worksheet maker for Etsy and KDP sellers',
     secondaryKeywords: [
-      'printable algebra picture puzzles for Etsy sellers',
-      'algebraic equation worksheet maker for KDP publishers',
-      'sell picture algebra worksheets on Gumroad',
-      'algebra puzzle printables commercial license',
+      'custom math problem generator with commercial license',
+      'create math drill worksheets to sell online',
+      'math worksheet generator for printable business',
+      'print-ready math worksheets for Amazon KDP',
     ],
     lsiKeywords: [
-      'digital algebra worksheet products online business',
-      'printable equation puzzle business',
-      'commercial use algebraic worksheet generator',
+      'evergreen math printable products',
+      'grade-level math worksheet business',
+      'sell math workbooks online',
     ],
-    titleTag: 'Algebra Puzzle Generator | Create Math Worksheets',
-    metaDescription: 'Create algebra puzzle worksheets to sell on Etsy, KDP & Gumroad. Images as variables, 4 difficulty levels, unique solutions. Try free — license available.',
+    titleTag: 'Math Worksheet Maker for Etsy & KDP Sellers | LCS',
+    metaDescription: 'Create custom math drill worksheets to sell on Etsy & Amazon KDP. All operations, auto answer keys, commercial license. Generate in under 3 minutes.',
   },
 
   hero: {
-    title: 'Algebra Puzzle Worksheet Generator for Picture-Based Equation Solving',
+    title: 'Create Custom Math Worksheets to Sell on Etsy & Amazon KDP',
     tagline: 'Transform early algebra into a visual adventure — images become variables, and every puzzle has exactly one solution.',
     description:
-      'Create captivating algebraic picture-puzzle worksheets where images stand in for unknown variables in multi-equation systems. Solvers work through linked equations to determine the value each image represents — turning abstract algebra into a concrete, visual experience. Choose from four difficulty levels: Very Easy and Easy use two symbols, Medium introduces three, and Hard challenges with four simultaneous unknowns. Select addition-only problems or mix in subtraction for advanced practice, and fine-tune number ranges from 0 to 20 with an optional toggle for negative results. The built-in algebraic solver guarantees every puzzle has exactly one correct solution — no ambiguity, no guessing. Browse over 3,100 curated illustrations across 104 themes to use as your algebraic symbols, or upload custom images for a branded look. Each worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive algebra books for Amazon KDP, or create tiered math bundles for your own store, the Math Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build a catalog of math drill worksheets and sell them across Etsy, Amazon KDP, and Teachers Pay Teachers — all from one generator designed for printable sellers. Configure any combination of operations (addition, subtraction, multiplication, division), set number ranges for precise difficulty targeting, and generate clean, professional layouts that export as 300 DPI PDFs with automatic answer keys. Unlike image-based math generators, this tool produces focused number-only practice sheets that appeal to parents wanting homework supplements and homeschool families building curriculum. Every worksheet includes a commercial license, making this ideal for building KDP math workbooks or Etsy digital download bundles that target specific grade levels. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Algebra Puzzle Worksheets in 5 Steps',
+    title: 'Configure Operations, Ranges & Difficulty in Seconds',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Algebra Puzzle Worksheet Generator',
+    title: 'Why Math Drill Worksheets Are Evergreen Sellers',
     features: [
       {
         title: 'Algebraic Picture Puzzle Format',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Algebra Puzzle Worksheets Online',
+    title: 'Target Grade-Level Niches for Better Etsy Visibility',
     cases: [
       {
         title: 'Themed Algebra Puzzle Bundles on Etsy',
@@ -112,13 +112,13 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Algebra Puzzle Activity Books on Amazon KDP',
+        title: 'Build Complete KDP Math Workbooks from Generated Sheets',
         description:
           'Compile 50–100 algebra puzzles into a printed activity book formatted for Amazon KDP. Use progressive difficulty — start with Very Easy two-symbol addition puzzles and advance to Hard four-symbol mixed-operation systems — to create a structured learning path. Add a title page, instructions explaining the picture-algebra format, and an answer key section at the back. Picture-algebra books occupy a less crowded niche than standard math workbooks, giving you a competitive edge in search results.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Tiered Algebra Puzzle Bundles on Gumroad',
+        title: 'Export, Customize & Upload to Any Marketplace',
         description:
           'Build leveled algebra puzzle sets using the four difficulty levels: Level 1 (Very Easy, 2 symbols, addition), Level 2 (Easy, 2 symbols, mixed operations), Level 3 (Medium, 3 symbols), and Level 4 (Hard, 4 symbols). Package each level with answer keys and a progress tracking sheet. Buyers pay premium prices for tiered resources that introduce algebraic reasoning without abstract notation — and the four-level structure gives you multiple distinct SKUs from one generator session.',
         platform: 'Gumroad (gumroad.com)',
@@ -130,7 +130,7 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Pinterest Funnel to Your Niche Store',
+        title: 'Bundle Strategies: Combine Drills with Visual Math Worksheets',
         description:
           'Pin visually striking algebra puzzle samples on Pinterest to drive traffic to your Gumroad or Shopify store. The picture-algebra format is inherently eye-catching — colorful images inside equation grids stop scrollers mid-feed. Create free sample pins at Very Easy level and link to paid bundles covering all four difficulty tiers. The automatic answer key adds perceived value to every listing, and the four-level structure gives you a natural upsell path from single sheets to complete algebra puzzle collections.',
         platform: 'Pinterest + Gumroad / Shopify',
@@ -205,52 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'addition-worksheets',
-      anchorText: 'Addition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'subtraction-worksheets',
-      anchorText: 'Subtraction Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'code-addition-worksheets',
-      anchorText: 'Code Addition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'more-less-worksheets',
-      anchorText: 'More or Less Worksheet Generator',
+      anchorText: 'Image-based addition worksheets for younger age groups',
     },
     {
       pageType: 'app',
       slug: 'math-puzzle-worksheets',
-      anchorText: 'Math Puzzle Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'math-mastery-bundle',
-      anchorText: 'Math Mastery Bundle — All Math Apps in One Package',
+      anchorText: 'Math puzzle worksheets for variety in your bundles',
     },
     {
       pageType: 'guide',
-      slug: 'sell-math-worksheets-etsy',
-      anchorText: 'Guide to Selling Math Worksheets on Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back-to-School Printable Ideas That Sell',
-    },
-    {
-      pageType: 'start',
-      slug: 'create-worksheets-that-sell',
-      anchorText: 'How to Create Worksheets That Sell',
+      slug: 'kdp-formatting-worksheets',
+      anchorText: 'KDP formatting guide for worksheet books',
     },
   ],
 

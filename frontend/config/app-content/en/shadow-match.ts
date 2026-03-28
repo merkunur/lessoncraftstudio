@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'shadow match generator',
+    primaryKeyword: 'shadow matching worksheet maker for Etsy printables',
     secondaryKeywords: [
-      'printable silhouette matching activity maker for Etsy sellers',
-      'picture shadow puzzle worksheet generator for KDP publishers',
-      'shadow match worksheet creator commercial license',
-      'sell shadow matching worksheets on Gumroad',
+      'create shadow matching worksheets for Etsy shop',
+      'silhouette matching printables for Amazon KDP',
+      'shadow match worksheets with commercial license',
+      'sell shadow matching activities online',
     ],
     lsiKeywords: [
-      'digital silhouette matching printables online business',
-      'commercial use shadow puzzle worksheet generator',
-      'printable visual matching activity business tools',
+      'silhouette puzzle printable niche',
+      'sell matching worksheets commercially',
+      'visual discrimination worksheet products',
     ],
-    titleTag: 'Shadow Match Generator | Create Silhouette Puzzles',
-    metaDescription: 'Create shadow matching worksheets to sell on Etsy, KDP & Gumroad. Shadow match and make-it-whole modes, auto silhouettes, 104 themes.',
+    titleTag: 'Shadow Matching Worksheet Maker for Etsy | LCS',
+    metaDescription: 'Create shadow matching worksheets to sell on Etsy & KDP. Silhouette puzzles, auto answer keys, 104 themes, commercial license. Try free — no signup needed.',
   },
 
   hero: {
-    title: 'Shadow Match Worksheet Generator for Silhouette and Split-Image Matching Activities',
+    title: 'Create Shadow Matching Worksheets to Sell on Etsy & KDP',
     tagline: 'Two matching modes in one generator — Shadow Match creates auto-generated black silhouettes from any image, Make It Whole splits images into halves — both with Fisher-Yates derangement ensuring no trivial matches, auto-generated answer keys, and 104 themed image collections.',
     description:
-      'Build professional shadow matching worksheets where users match colored images to their silhouettes or reconnect split image halves. Shadow Match mode places 4 colored images labeled A, B, C, D in the top row and 4 auto-generated black silhouettes labeled 1, 2, 3, 4 in the bottom row — silhouettes are created through pixel-level image processing that converts every pixel with alpha > 10 to pure black, producing accurate outlines that preserve each image\'s exact transparency profile. Make It Whole mode splits images into halves with horizontal or vertical cut direction, labels first halves A–D and second halves 1–4, and adapts layout based on orientation. Both modes use Fisher-Yates derangement to guarantee no item appears in its original position, creating genuine matching challenges every time. Toggle show/hide labels for the A/B/C/D and 1/2/3/4 identifiers, add optional name and date fields, and generate auto-answer keys that display each correct letter-to-number pairing. The Shadow Match Worksheet Generator is NOT language-sensitive: the output is purely visual with no localized word content on the worksheet itself. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for the app interface. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Whether you sell shadow puzzle bundles on Etsy, compile visual perception workbooks for Amazon KDP, or list products on your own store, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Shadow matching worksheets are a visually striking format that catches buyer attention on Etsy — solvers match colorful images to their silhouettes, building visual discrimination skills preschool parents actively search for. This maker creates professional shadow matching activities with themed illustrations and automatic answer keys in under 3 minutes. Choose from 3,000+ images across 104 collections, configure the number of matching pairs, and export 300 DPI print-ready PDFs with full commercial license. The silhouette format is purely visual and works worldwide without translation. Shadow matching is an underserved niche in the preschool printable market, giving you low competition and strong demand. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Shadow Match Worksheets in 5 Steps',
+    title: 'How to Create Shadow Matching Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Shadow Match Worksheet Generator',
+    title: 'Why Shadow Matching Is an Underserved Preschool Niche',
     features: [
       {
         title: 'Auto-Generated Silhouettes via Pixel-Level Image Processing',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Shadow Match Worksheets Online',
+    title: 'Sell Shadow Matching Bundles on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Shadow Matching Bundles on Etsy',
@@ -205,57 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'matching-worksheets',
-      anchorText: 'Matching Worksheet Generator',
+      anchorText: 'Matching worksheets for complementary matching bundles',
     },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
-      anchorText: 'Grid Match Puzzle Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-bingo-worksheets',
-      anchorText: 'Picture Bingo Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'coloring-worksheets',
-      anchorText: 'Coloring Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'matching-sorting-bundle',
-      anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'printable-business-blueprint',
-      anchorText: 'Your Printable Business Blueprint',
+      slug: 'big-small-worksheets',
+      anchorText: 'Size comparison worksheets for visual learning variety',
     },
     {
       pageType: 'guide',
       slug: 'create-shadow-matching-worksheets',
-      anchorText: 'How to Create Shadow Matching Worksheets',
+      anchorText: 'Guide to creating shadow matching worksheets',
     },
   ],
 

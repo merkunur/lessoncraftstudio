@@ -2,31 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'addition worksheet generator',
+    primaryKeyword: 'create addition worksheets to sell on Etsy',
     secondaryKeywords: [
-      'printable addition worksheets for Etsy',
-      'math worksheet maker for KDP publishers',
-      'addition printables for online marketplace sellers',
-      'addition printables commercial license',
+      'addition worksheet generator for Etsy sellers',
+      'make addition worksheets for Amazon KDP',
+      'printable addition activities commercial license',
+      'image-based math worksheets to sell online',
+      'kindergarten addition printables for your Etsy shop',
     ],
     lsiKeywords: [
-      'digital math products online business',
-      'printable worksheet business',
-      'commercial use worksheet generator',
+      'printable math business Etsy KDP',
+      'commercial license worksheet generator',
+      'sell educational printables online',
     ],
-    titleTag: 'Addition Worksheet Generator | Create & Sell Printables',
-    metaDescription: 'Create addition worksheets to sell on Etsy & Amazon KDP. 104 themes, 4 exercise modes, answer keys included, 400+ DPI export. Try free — license available.',
+    titleTag: 'Create Addition Worksheets to Sell on Etsy | LCS',
+    metaDescription: 'Generate professional addition worksheets with themed images to sell on Etsy & KDP. Commercial license included. Try free with watermark — no signup.',
   },
 
   hero: {
-    title: 'Addition Worksheet Generator for Visual Math Practice',
+    title: 'Create and Sell Professional Addition Worksheets on Etsy & KDP',
     tagline: 'Turn addition into a hands-on adventure with picture-based math worksheets.',
     description:
-      'Create stunning image-based addition worksheets that make early math tangible and fun. Choose from four distinct exercise modes — Image + Image, Image + Number, Find the Addend, and Mixed — to match every skill level from preschool through second grade. Browse over 3,100 curated illustrations across 104 themes like farm animals, vehicles, and food to bring each problem to life. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell on Etsy, publish activity books on Amazon KDP, or build a printable product line on your own store, the Addition Worksheet Generator gives you professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Create addition worksheets to sell on Etsy, Amazon KDP, or Teachers Pay Teachers — and generate them in under 3 minutes. This generator builds visual addition problems using themed images that kids love and parents buy. Choose from 3,000+ illustrations organized by theme, set your difficulty level, and export print-ready 300 DPI PDFs with answer keys automatically included. Every worksheet you create comes with a full commercial license — no attribution required, no royalty fees, no restrictions on where you sell. Whether you\'re launching your first Etsy printable shop or expanding an existing KDP activity book catalog, this tool replaces hours of manual design work with professional output that stands out in crowded marketplaces. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Addition Worksheets in 5 Steps',
+    title: 'How to Generate Addition Printables in Under 3 Minutes',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -44,12 +45,12 @@ const content: AppContent = {
           'Open the Image Library panel and browse 104 themes — from animals and food to vehicles and holidays. Use the search bar to find specific images instantly. Click to select the images you want on your worksheet; each exercise pulls from your selections. You can also upload your own custom images for a completely unique look that matches your brand or seasonal product line. Sellers who curate cohesive image sets within a single theme consistently report stronger buyer engagement, because themed consistency signals professional quality and justifies premium pricing on marketplaces like Etsy and Amazon KDP.',
       },
       {
-        title: 'Add Text, Titles, and Custom Touches',
+        title: 'Customize Every Element with the Built-In Canvas Editor',
         description:
           'Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven readable fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Adjust font size, color, and outline for maximum readability. Toggle exercise numbers, the plus sign between image groups, and the guided answer box on or off to match your style.',
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: 'Export Print-Ready PDFs for Etsy, KDP & TPT',
         description:
           'Switch to the Answer Key tab and click Generate Answer Key to create a completed version of your worksheet automatically. Then open the Download menu and export both the worksheet and its answer key as high-resolution JPEG or print-ready PDF. Every export renders at 400+ DPI so your worksheets look crisp whether printed at home, sent to a professional printer, or uploaded as a digital product on Etsy or Amazon KDP.',
       },
@@ -57,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Addition Worksheet Generator',
+    title: 'Why Addition Worksheets Sell Year-Round on Etsy',
     features: [
       {
         title: 'Four Distinct Exercise Modes',
@@ -70,7 +71,7 @@ const content: AppContent = {
           'Set the minimum and maximum number of items per group anywhere from 1 to 10, giving you full control over problem difficulty. Create gentle 1+1 through 3+3 worksheets for the preschool-age niche, standard 1–10 practice for the kindergarten market, or challenging near-ten problems for the K-2 product tier. Adjusting the range takes a single click, so you can produce tiered product bundles in minutes. This granular control over number ranges means you can create precisely targeted products for each difficulty tier, from early counting through multi-digit addition mastery. Buyers on Etsy and Amazon KDP actively search for age-specific worksheets, so matching your product to an exact difficulty level improves search ranking and conversion rates.',
       },
       {
-        title: '104 Visual Themes with 3,100+ Images',
+        title: 'Stand Out with 11 Languages and 3,000+ Images',
         description:
           'Browse a curated library of over 3,100 hand-picked illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is high-resolution and designed for clear printing at any size. Because the images carry the math content — not text — your worksheets work perfectly in any language and sell worldwide without translation.',
       },
@@ -103,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Addition Worksheets Online',
+    title: 'Pricing Your Addition Worksheets for Maximum Profit',
     cases: [
       {
         title: 'Themed Addition Worksheet Bundles on Etsy',
@@ -112,7 +113,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Math Activity Books on Amazon KDP',
+        title: 'Create Addition Activity Books for Amazon KDP',
         description:
           'Compile 50–100 addition worksheets into a printed activity book formatted for Amazon KDP. Use progressive difficulty — start with Image + Image mode at low number ranges and advance to Mixed Mode near 10 — to create a structured learning path. Add a title page, instructions, and answer key section at the back. KDP math activity books for ages 3–7 sell consistently year-round with minimal advertising spend.',
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -205,47 +206,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'subtraction-worksheets',
-      anchorText: 'Subtraction Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'code-addition-worksheets',
-      anchorText: 'Code Addition Worksheet Generator',
+      anchorText: 'Pair with subtraction worksheets for complete math bundles',
     },
     {
       pageType: 'app',
       slug: 'math-puzzle-worksheets',
-      anchorText: 'Math Puzzle Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'math-mastery-bundle',
-      anchorText: 'Math Mastery Bundle — All Math Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-addition-worksheets',
-      anchorText: 'How to Create Addition Worksheets That Sell',
+      anchorText: 'Math puzzle worksheets for activity book variety',
     },
     {
       pageType: 'guide',
       slug: 'sell-math-worksheets-etsy',
-      anchorText: 'Guide to Selling Math Worksheets on Etsy',
+      anchorText: 'Complete guide to selling math worksheets on Etsy',
     },
     {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back-to-School Printable Ideas That Sell',
-    },
-    {
-      pageType: 'start',
-      slug: 'create-worksheets-that-sell',
-      anchorText: 'How to Create Worksheets That Sell',
+      pageType: 'bundle',
+      slug: 'math-mastery-bundle',
+      anchorText: 'Math Mastery Bundle for all 6 math generators',
     },
   ],
 

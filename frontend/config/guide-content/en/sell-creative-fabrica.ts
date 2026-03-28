@@ -4,27 +4,24 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'sell educational resources on Creative Fabrica',
     secondaryKeywords: [
-      'how to sell on Creative Fabrica',
-      'Creative Fabrica for buyers',
-      'sell printables on Creative Fabrica',
-      'Creative Fabrica Learning resources',
+      'Creative Fabrica seller guide printables',
+      'sell worksheets on Creative Fabrica',
+      'Creative Fabrica for educational printable sellers',
+      'Creative Fabrica vs Etsy for printables',
     ],
     lsiKeywords: [
-      'design marketplace craft audience subscription model digital downloads educational printables',
-      'Creative Fabrica Learning section printable resources worksheet upload product listing',
-      'subscription pool revenue individual sales dual income model designer account',
-      'craft education crossover printable activities themed worksheets coloring pages puzzles',
-      'product tags categories search optimization cover images description formatting',
-      'catalog scaling bundles cross-category promotion fonts graphics educational resources',
+      'Creative Fabrica marketplace',
+      'digital product platform comparison',
+      'alternative printable marketplaces',
     ],
-    titleTag: 'Sell Educational Resources on Creative Fabrica — Guide',
-    metaDescription: 'Sell educational resources on Creative Fabrica. Earn from subscriptions and individual sales, reach craft and buyer audiences in the Learning section.',
+    titleTag: 'Sell Educational Resources on Creative Fabrica | LCS',
+    metaDescription: 'Guide to selling educational resources on Creative Fabrica. Platform setup, product listing, pricing, and strategies for printable sellers on CF.',
   },
 
   hero: {
-    title: 'How to Sell Educational Resources on Creative Fabrica',
+    title: 'Sell Educational Resources on Creative Fabrica',
     tagline: 'A complete guide to selling printable worksheets and educational resources on Creative Fabrica — covering designer account setup, product creation for the CF Learning section, dual revenue from individual sales and subscription downloads, search optimization for a design-centric marketplace, reaching the unique craft-education crossover audience, marketing strategies for standing out among designers, and scaling your catalog across educational and creative categories',
-    description: 'Creative Fabrica combines marketplace discovery with a subscription revenue model, giving educational printable sellers two income streams from every product. This guide walks you through setting up your designer shop, creating listings optimized for CF\'s search and category system, pricing for both individual buyers and subscription pool earnings, and building a catalog that appeals to Creative Fabrica\'s unique blend of crafters, designers, and buyers.',
+    description: 'Creative Fabrica is an underutilized marketplace for educational printable sellers — most focus exclusively on Etsy and ignore platforms with less competition and eager buyers. This guide shows you how to set up your Creative Fabrica seller account, list educational worksheets and activity packs, optimize your products for CF\'s search algorithm, and price for the platform\'s unique buyer expectations. Adding Creative Fabrica to your sales channels diversifies your revenue and reaches buyers who never search on Etsy.',
   },
 
   introduction: 'Creative Fabrica occupies a distinct position in the digital marketplace landscape. While Etsy serves a general audience, Gumroad focuses exclusively on buyers, Amazon KDP handles book publishing, and Gumroad offers creator-direct selling, Creative Fabrica is a design-centric marketplace where crafters, graphic designers, and buyers converge. Originally built around fonts, graphics, and SVG files for the craft and design community, Creative Fabrica has expanded to include a dedicated Learning section specifically for educational resources — worksheets, activities, lesson plans, and printable learning materials.\n\nThis expansion creates a unique opportunity for educational printable sellers. Creative Fabrica\'s core audience of crafters and designers already values high-quality printable content. Parents who visit Creative Fabrica for craft projects discover educational worksheets in the Learning section. Buyers searching for themed printable decorations find themed worksheet packs alongside the design assets they originally came for. The platform\'s audience naturally crosses between creative and educational content in ways that other marketplaces do not replicate.\n\nCreative Fabrica\'s revenue model is what truly sets it apart. Unlike marketplaces where you earn only from direct purchases, Creative Fabrica operates a subscription program where members pay a monthly fee for access to a vast library of content. When subscribers download your products, you earn a share from the subscription pool based on download volume. This means your products can generate revenue from two separate streams: individual buyers who purchase at your set price, and subscription members who download your content as part of their membership. Both revenue streams operate simultaneously on the same product listings.\n\nCompetition for educational resources on Creative Fabrica is substantially lower than on established educational platforms. Gumroad has hundreds of thousands of sellers. Etsy\'s educational printable category is increasingly saturated. Creative Fabrica\'s Learning section is comparatively new, meaning early entrants can establish visibility and accumulate reviews before the category becomes crowded. For sellers already creating educational printables, adding Creative Fabrica as a sales channel requires minimal additional effort since the same PDF files work across platforms.\n\nThis guide covers everything from creating your designer account to scaling a multi-category Creative Fabrica business. Whether you are an established seller on other platforms looking to diversify, or a new printable creator choosing your first marketplace, Creative Fabrica\'s combination of design-focused discovery, subscription revenue, and lower competition makes it a compelling platform for educational resources.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'How to Sell Printables on Gumroad' },
-    { pageType: 'guide', slug: 'create-sell-tpt-resources', anchorText: 'How to Create and Sell Gumroad Resources' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'How to Create Matching Worksheets for Preschool' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Also sell educational printables on Etsy' },
+    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'How to sell printables on Gumroad' },
+    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Scale your printable business across platforms' },
   ],
 
   toolsRecommended: [

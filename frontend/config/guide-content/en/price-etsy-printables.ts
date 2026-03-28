@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'price Etsy printable worksheets',
+    primaryKeyword: 'how to price printable worksheets on Etsy',
     secondaryKeywords: [
-      'how to price printable worksheets on Etsy',
-      'Etsy printable pricing strategy',
-      'pricing digital downloads Etsy sellers',
-      'Etsy worksheet bundle pricing',
+      'Etsy printable pricing strategy guide',
+      'price digital downloads on Etsy',
+      'worksheet pricing for maximum profit Etsy',
+      'how much to charge for printables on Etsy',
     ],
     lsiKeywords: [
-      'Etsy fee calculation digital products net revenue breakdown',
-      'three-tier pricing structure educational printable bundles',
-      'bundle pricing psychology perceived value multiplier worksheets',
-      'Etsy coupon strategy seasonal pricing adjustments sellers',
-      'price testing Etsy Stats conversion rate optimization',
-      'international pricing currency Etsy digital downloads A4 Letter',
+      'Etsy pricing psychology printables',
+      'digital product pricing strategy',
+      'printable bundle pricing',
     ],
-    titleTag: 'Price Etsy Printable Worksheets — Pricing Guide',
-    metaDescription: 'Price Etsy printable worksheets with fee math, three-tier pricing, bundle strategies, and seasonal adjustments. Complete pricing guide for worksheet sellers.',
+    titleTag: 'How to Price Printable Worksheets on Etsy | LCS',
+    metaDescription: 'Pricing guide for printable worksheets on Etsy. Individual vs bundle pricing, competitive analysis, and profit-maximizing strategies for printable sellers.',
   },
 
   hero: {
-    title: 'How to Price Your Etsy Printable Worksheets',
+    title: 'How to Price Your Printable Worksheets on Etsy',
     tagline: 'A complete pricing strategy guide for Etsy printable worksheet sellers — covering competitor research, Etsy fee math and net revenue calculations, base price benchmarks by product type and page count, three-tier pricing structures that increase average order value, cross-category and grade-level bundle pricing, strategic use of Etsy sales and coupons, international pricing adjustments for global buyers, and price testing methodology using Etsy Stats conversion data',
-    description: 'Pricing is the single highest-leverage decision in your Etsy printable worksheet business. Price too low and Etsy fees consume your margins. Price too high without communicating value and buyers scroll past. This guide gives you the complete pricing framework — from calculating your actual net revenue after all Etsy fees, to building a three-tier pricing structure that naturally increases average order value, to pricing cross-category bundles that command premium prices. Whether you are listing your first worksheet pack or optimizing prices across an established catalog, you will have a data-driven pricing strategy by the end of this guide.',
+    description: 'Pricing is the single biggest lever in your printable business — price too low and you leave money on the table, price too high and buyers scroll past. This guide covers everything from competitive analysis to bundle pricing psychology, giving you a concrete framework for pricing individual worksheets, themed packs, and mega-bundles on Etsy. You\'ll learn the price points that convert best in the educational printable category and how to structure tiered pricing that maximizes revenue per customer.',
   },
 
   introduction: 'Most Etsy printable sellers get pricing wrong, and the mistake almost always goes in the same direction: underpricing. New sellers look at competitor listings, see worksheets priced at $1.99 or $2.49, and match those prices without understanding what happens after Etsy takes its fees. A $1.99 digital download generates roughly $1.40 in actual revenue after the listing fee, transaction fee, and payment processing fee. At that margin, you need hundreds of sales per month to generate meaningful income.\n\nThe sellers who build sustainable printable businesses approach pricing differently. They understand that Etsy buyers are not searching for the cheapest worksheet — they are searching for the right worksheet. A parent looking for "first grade addition worksheets" cares about quality, page count, answer key inclusion, and theme variety far more than a one-dollar price difference. A buyer searching for a "math activity pack" values comprehensiveness and quality over saving a dollar or two.\n\nPricing strategy for printable worksheets is not about finding one magic number. It is about building a pricing structure — entry-level products that attract buyers into your shop, mid-tier bundles that capture the majority of revenue, and premium collections that maximize per-transaction value. Each tier serves a different buyer mindset and a different stage of the purchase journey.\n\nThis guide covers the complete pricing framework: how to research competitor pricing systematically, how to calculate your actual net revenue after all Etsy fees, how to set base prices by product type and page count, how to build a three-tier structure, how to price bundles for maximum perceived value, how to use Etsy sales and coupons without eroding your margins, how to handle international pricing, and how to test and optimize prices over time using real conversion data.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample products from all generators, test every configuration, and evaluate output quality before purchasing a commercial license for the products you want to sell.',
@@ -155,16 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'How to Sell Educational Printables on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create Etsy Coloring Pages That Sell' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Beginner guide to selling educational printables' },
+    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'How to create worksheet bundles for Etsy' },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: 'How much can you make selling printables' },
   ],
 
   toolsRecommended: [

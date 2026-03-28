@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern train generator',
+    primaryKeyword: 'pattern activity generator for printable business',
     secondaryKeywords: [
-      'printable pattern sequence worksheet maker for Etsy sellers',
-      'custom train pattern worksheet generator for KDP publishers',
-      'sell pattern recognition worksheets on Gumroad',
-      'pattern train worksheets commercial license',
+      'create pattern worksheets for Etsy shop',
+      'sequence completion printables for Amazon KDP',
+      'pattern train worksheets with commercial license',
+      'sell pattern activities online',
     ],
     lsiKeywords: [
-      'digital pattern completion printables online business',
-      'printable visual pattern sequence worksheet business',
-      'commercial use pattern train worksheet generator',
+      'pattern recognition printable niche',
+      'sell sequence worksheets commercially',
+      'early math worksheet products',
     ],
-    titleTag: 'Pattern Train Generator | Create Sequence Worksheets',
-    metaDescription: 'Create pattern train worksheets to sell on Etsy, KDP & Gumroad. Five pattern types, 11 themed train wagons, adjustable clue count. Try free — license available.',
+    titleTag: 'Pattern Activity Generator for Sellers | LCS',
+    metaDescription: 'Create pattern train worksheets to sell on Etsy & KDP. Sequence completion activities, themed images, 104 collections, commercial license. Try free.',
   },
 
   hero: {
-    title: 'Pattern Train Worksheet Generator for Repeating Sequence Exercises',
+    title: 'Create Pattern Train Activities to Sell on Etsy & KDP',
     tagline: 'Five pattern types — AB, AAB, ABB, ABC, AABB — displayed across 11 themed train wagons with adjustable clue count from 4 to 10 for precise difficulty control.',
     description:
-      'Design professional pattern recognition worksheets where solvers identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank — the solver identifies the pattern and determines the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only on train cars and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build a niche store on Gumroad, the Pattern Train Worksheet Generator delivers unique train-format products in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Pattern recognition worksheets are essential early math products that sell consistently on Etsy -- parents and teachers use them to teach sequencing skills from preschool through first grade. This generator creates unique train-themed pattern activities where each train car displays an image in a repeating sequence, and solvers identify and continue the pattern. Choose from 3,000+ themed illustrations across 104 collections, configure pattern complexity, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual train format makes pattern practice engaging and visually distinctive in Etsy search results. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Pattern Train Worksheets in 5 Steps',
+    title: 'How to Create Pattern Train Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Pattern Train Worksheet Generator',
+    title: 'Why Pattern Worksheets Sell in the Early Math Niche',
     features: [
       {
         title: 'Train Car Visual Format with 11 Themed Wagons',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Pattern Train Worksheets Online',
+    title: 'Sell Pattern Activity Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Pattern Recognition Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'pattern-worksheets',
-      anchorText: 'Pattern Worksheet Generator',
+      anchorText: 'Pattern recognition worksheets for comprehensive pattern bundles',
     },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'drawing-lines-worksheets',
-      anchorText: 'Drawing Lines Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'coloring-worksheets',
-      anchorText: 'Coloring Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'visual-learning-bundle',
-      anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Ideas for Primary Education',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Ideas for Growing Learners',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activity-books',
-      anchorText: 'Publish Activity Books on Amazon KDP',
+      slug: 'matching-worksheets',
+      anchorText: 'Matching worksheets for early learning variety',
     },
     {
       pageType: 'guide',
       slug: 'create-pattern-worksheets',
-      anchorText: 'How to Create Pattern Worksheets',
+      anchorText: 'Guide to creating pattern worksheets that sell',
     },
   ],
 

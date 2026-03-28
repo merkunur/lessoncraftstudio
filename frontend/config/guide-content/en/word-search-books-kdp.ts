@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'word search books KDP',
+    primaryKeyword: 'create word search books for Amazon KDP',
     secondaryKeywords: [
-      'how to create word search books for Amazon KDP',
-      'word search puzzle book publishing guide',
-      'large print word search books Amazon',
-      'themed word search books KDP publishing',
+      'word search book publishing KDP guide',
+      'publish word search puzzle books Amazon',
+      'KDP word search book creation step by step',
+      'Amazon word search book business',
     ],
     lsiKeywords: [
-      'word search grid size letter spacing puzzle difficulty',
-      'themed word lists vocabulary curation age-appropriate words',
-      'large print word search seniors adults accessibility format',
-      'word find book Amazon keywords categories optimization',
-      'word search book series volumes repeat purchase catalog',
-      'adult kids word search market audience grid formatting',
+      'KDP word search niche',
+      'Amazon word puzzle publishing',
+      'self-publish word search books',
     ],
-    titleTag: 'How to Create Word Search Books KDP — Guide',
-    metaDescription: 'Create word search books KDP with themed word lists, large print formats, and series strategy. Grid sizing, audience targeting, and Amazon optimization.',
+    titleTag: 'Create Word Search Books for Amazon KDP | LCS',
+    metaDescription: 'Guide to creating word search books for Amazon KDP. Theme selection, difficulty progression, formatting, and publishing strategies for word search authors.',
   },
 
   hero: {
-    title: 'How to Create Word Search Books for Amazon KDP',
+    title: 'Create Word Search Books for Amazon KDP',
     tagline: 'A focused guide to creating and publishing word search books on Amazon KDP — the single most popular puzzle book subcategory on Amazon, covering themed word list curation for cohesive engaging content, grid size strategy across 12x12 easy through 20x20 expert formats, the large-print word search subcategory that commands premium prices and fierce buyer loyalty, adult versus kids word search market positioning, vocabulary selection that separates professional word search books from amateur compilations, word search-specific Amazon keyword optimization, and the volume-based series strategy that turns a single word search book into a catalog generating predictable monthly revenue',
-    description: 'Word search books dominate Amazon KDP puzzle sales by volume, outselling crossword, sudoku, and all other puzzle types combined. The category serves a massive audience — adults seeking relaxation and brain exercise, seniors who prefer large-print formats, travelers wanting offline entertainment, and parents buying engaging unplugged activities for kids. This guide focuses specifically on what makes word search book publishing unique: curating themed word lists that create cohesive and engaging content, choosing grid sizes that match your target audience, formatting for the high-demand large-print subcategory, and building a multi-volume word search catalog that generates compounding revenue through repeat purchases.',
+    description: 'Word search books are one of the highest-volume KDP categories — buyers purchase them for road trips, waiting rooms, classrooms, and quiet evenings. This guide shows you how to create themed word search books that stand out from generic competitors: choosing profitable themes, building difficulty progression, formatting pages for KDP print, and marketing your books for Amazon visibility. Our word search generator produces professional puzzles with image clues in 11 languages, giving you a competitive edge most publishers can\'t match.',
   },
 
   introduction: 'Word search is the undisputed volume leader among puzzle books on Amazon KDP. Thousands of new word search titles are published every month, and the top sellers in this category maintain steady sales year-round with seasonal peaks during holidays and gift-buying periods. The reason word search books outsell other puzzle types is accessibility — anyone who can read can solve a word search puzzle, regardless of age, education, or puzzle experience. This universal accessibility creates a buyer pool that spans every demographic from elementary school children to seniors in their nineties.\n\nThe word search book market splits into several distinct segments, each with different buyer expectations and competitive dynamics. Adult general word search books are the highest-volume segment, purchased for daily entertainment, stress relief, and cognitive exercise. Large-print word search books serve adults and seniors who need larger letter sizes for comfortable reading and circling — this subcategory commands premium prices and attracts exceptionally loyal repeat buyers who consume multiple volumes per month. Kids word search books target parents who want engaging vocabulary-building activities. Themed word search collections (animals, travel, holidays, food) capture interest-based and seasonal search traffic that generic collections miss.\n\nWhat distinguishes a professional word search book from an amateur compilation is the quality of word list curation. Random word collections feel disjointed and unsatisfying to solve. Themed word lists — where every puzzle in a section revolves around a coherent topic like ocean life, world capitals, or cooking terms — create a solving experience that feels intentional and rewarding. Buyers notice this difference immediately, and it shows in reviews. Books with thoughtfully curated themed content consistently earn higher ratings than books filled with arbitrary word selections.\n\nThis guide concentrates exclusively on what makes word search book publishing distinct from general puzzle book publishing. For KDP fundamentals like manuscript formatting specifications, cover dimensions, royalty calculations, and general Amazon listing practices, refer to the math activity books KDP guide. For broad puzzle book strategy covering multiple puzzle types, variety book formats, and cross-type catalog planning, refer to the puzzle books KDP guide. Here we focus entirely on word search-specific content strategy, grid sizing, the large-print market, themed word list development, and the volume-based catalog approach that makes word search publishing one of the most reliable revenue streams on KDP.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'How to Create Sudoku Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Worksheet Generator — Full Details' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search generator for book pages' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to publish puzzle books on Amazon KDP' },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
   ],
 
   toolsRecommended: [

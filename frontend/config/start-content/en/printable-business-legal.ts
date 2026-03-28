@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'selling printables tax requirements',
+    primaryKeyword: 'printable business taxes and legal basics',
     secondaryKeywords: [
-      'printable business legal basics',
-      'tax obligations digital products',
-      'business structure for printable sellers',
-      'intellectual property printable worksheets',
+      'printable business legal guide',
+      'taxes for printable sellers',
+      'legal requirements for selling printables',
+      'printable business tax basics',
     ],
     lsiKeywords: [
-      'sales tax digital downloads by state',
-      'LLC for printable business',
-      'record keeping for etsy sellers',
-      'platform terms of service compliance',
-      'cross-border tax digital goods',
-      'deductible expenses printable business',
+      'printable business legal',
+      'digital product tax requirements',
+      'seller legal basics',
     ],
-    titleTag: 'Selling Printables Tax Requirements — Legal Guide',
-    metaDescription: 'Selling printables tax requirements explained. Business structure, deductible expenses, intellectual property, and platform compliance for printable sellers.',
+    titleTag: 'Printable Business Taxes & Legal Basics | LCS',
+    metaDescription: 'Printable business taxes and legal basics. Business structure, sales tax, income reporting, and compliance for printable sellers.',
   },
 
   hero: {
     title: 'Printable Business Taxes and Legal Basics',
     tagline: 'Essential tax and legal information for printable sellers — business structure, tax obligations for digital goods, deductible expenses, intellectual property, platform compliance, and when to get professional help',
-    description: 'Running a printable business means running a real business, and real businesses have tax obligations, legal requirements, and compliance responsibilities. Many printable sellers launch their shops without understanding the legal landscape, which can lead to unpleasant surprises at tax time or worse. This guide covers the essential topics every printable seller should understand: business structure options, tax obligations for digital product sales, deductible business expenses, intellectual property basics, platform terms of service compliance, record-keeping requirements, and when to seek professional legal or tax advice. Every section includes a clear disclaimer: this is educational information to help you ask the right questions, not professional advice for your specific situation. Use this guide to identify the topics you need to discuss with a qualified tax professional or attorney.',
+    description: 'Understanding the legal and tax requirements for your printable business protects you from costly mistakes — and it\'s simpler than most new sellers expect. This guide covers the essentials: choosing a business structure, understanding sales tax obligations for digital products, income reporting basics, platform-specific tax handling (Etsy collects sales tax automatically in most states), and when to consult a professional. You\'ll learn the minimum legal foundation every printable seller needs from day one.',
   },
 
   introduction: 'Tax season catches many printable sellers off guard. They spent the year creating worksheets, listing products, and generating revenue across platforms — but never set aside money for taxes, never tracked deductible expenses, and never registered their business properly. The result is stress, penalties, and sometimes a significant tax bill that could have been reduced with proper planning.\n\nThe legal side of running a printable business is not optional, and it is not as complicated as it seems once you understand the basics. You do not need a law degree to sell worksheets on Etsy. But you do need to understand your tax obligations, protect your intellectual property, comply with platform terms of service, and keep records that will make tax filing straightforward rather than chaotic.\n\nThis guide is organized around the questions printable sellers most commonly ask: What business structure do I need? Do I have to charge sales tax? What expenses can I deduct? How do I protect my designs? What happens if I sell internationally? When do I need a professional? Each section provides educational context to help you understand the topic and identify what you need to discuss with your own tax professional or attorney.\n\nA critical disclaimer before we begin: this guide provides general educational information only. It is not legal advice, tax advice, or professional counsel of any kind. Tax laws and legal requirements vary by country, state, province, and municipality. They change frequently. Your specific situation — including your location, revenue level, business structure, and selling platforms — determines your actual obligations. Always consult a qualified tax professional or attorney for decisions affecting your business.',
@@ -203,18 +200,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Scaling from Side Hustle to Full-Time Printable Business' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Writing Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Try the Handwriting Worksheet Maker' },
+    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Copyright basics for printable sellers' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Commercial license explained' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete guide to starting a printable business' },
   ],
 
   visuals: {

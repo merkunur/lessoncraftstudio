@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Summer Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover summer printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Beach and sun-themed product concepts, seasonal strategies, and platform tips for.',
+    titleTag: 'Summer Printable Business Ideas | LCS',
+    metaDescription: 'Summer printable business ideas for Etsy & KDP. Vacation themes, summer learning concepts, and strategies for the summer demand season.',
 
-    primaryKeyword: 'summer printable ideas',
+    primaryKeyword: 'summer printable business ideas',
     secondaryKeywords: [
-      'summer themed worksheets to sell',
-      'summer printable business ideas',
-      'summer activity sheets for sellers',
-      'sell summer printables on Etsy',
+      'summer worksheets for Etsy sellers',
+      'summer activity books for Amazon KDP',
+      'sell summer printables online',
+      'summer themed printable products',
     ],
     lsiKeywords: [
-      'beach and sun educational worksheets',
-      'warm weather activity pages',
-      'vacation themed printables for sellers',
+      'summer printable niche',
+      'summer learning products',
+      'vacation themed worksheets',
     ],
   },
   hero: {
     title: 'Summer Printable Business Ideas for Sellers',
-    description: 'Summer opens the longest sustained selling window in the seasonal printable calendar, with demand building from May through August as parents search for structured activities to combat summer learning loss, camps and daycares stock up on themed worksheets, and families prepare travel entertainment for vacation road trips. The niche offers an expansive range of sub-themes including beach scenes, sunshine, ice cream, watermelon, sandcastles, sunflowers, swimming pools, starfish, seashells, and flip-flops, giving sellers a vibrant visual vocabulary that captures the energy and excitement children associate with the warmest months. Homeschool families continuing education through summer months add consistent demand throughout the entire window, while vacation Bible schools and community recreation programs create additional buyer segments seeking bulk activity resources. For printable sellers on Etsy, Amazon KDP, and Gumroad, the summer niche combines extended seasonal demand with universally appealing imagery that photographs beautifully for product listings. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable summer printable product line using our worksheet generator tools.',
+    description: 'Summer drives strong printable demand from two angles — parents seeking summer learning activities to prevent academic slide, and families wanting vacation-themed entertainment for road trips and rainy days. This niche guide covers the summer opportunity: which product formats sell best during June through August, how to create summer-themed bundles that serve both markets, and specific product ideas across math review, puzzles, coloring, and travel activities. Position your listings in April and May to build authority before summer demand peaks.',
   },
   marketOverview: `The summer printable niche stands apart from other seasonal categories because of its sheer duration and the intensity of parent demand for structured children\'s activities. While most holiday niches deliver concentrated two to four week selling windows, summer stretches across four full months of active buying from May through August, with early-bird buyers and camp coordinators beginning their searches in April. This extended timeline means summer printable listings have more time to accumulate reviews, climb search rankings, and generate compounding organic traffic throughout the season. Parents become the dominant buyer segment during summer months as school routines dissolve and the reality of keeping children engaged, entertained, and learning for weeks on end drives urgent searches for printable activities that provide structure without the rigidity of formal content catalog.
 
@@ -143,44 +143,19 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Coloring generator for summer themes',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
       slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back to School Printable Business Ideas',
+      anchorText: 'Back to school printable ideas',
     },
   ],
 

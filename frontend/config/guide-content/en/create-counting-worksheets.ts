@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'counting and graphing worksheets',
+    primaryKeyword: 'create counting worksheets to sell on Etsy',
     secondaryKeywords: [
-      'picture graph worksheet generator',
-      'create counting and graphing worksheets',
-      'printable picture graph worksheets to sell',
-      'bar chart counting worksheet maker',
+      'make counting worksheets for Etsy shop',
+      'create graphing worksheets for KDP',
+      'counting worksheet creation guide',
+      'sell picture graph printables online',
     ],
     lsiKeywords: [
-      'scattered image grid counting activity',
-      'auto answer key graphing worksheet',
-      'dual-canvas data representation tool',
-      'sell graphing worksheets on Etsy',
-      'Amazon KDP data skills workbooks',
-      'commercial license picture graph maker',
+      'counting product creation',
+      'data skills worksheet business',
+      'sellable graphing products',
     ],
-    titleTag: 'Counting and Graphing Worksheets — Guide',
-    metaDescription: 'How to create counting worksheets with picture graphs, auto answer keys, and 104 themes. Step-by-step guide to selling printables on Etsy, KDP, and Gumroad.',
+    titleTag: 'Create Counting Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating counting and graphing worksheets to sell. Picture graphs, data skills, and strategies for Etsy and KDP early math sellers.',
   },
 
   hero: {
-    title: 'How to Create Counting and Graphing Worksheets',
+    title: 'Create Counting Worksheets to Sell on Etsy & KDP',
     tagline: 'A step-by-step tutorial for creating picture graph worksheets with scattered image grids, auto-generated answer keys, and bar charts you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Counting and graphing worksheets teach two foundational math skills in a single activity: data collection (counting scattered images) and data representation (filling in a bar chart). This dual-skill format is a curriculum standard in early elementary groups worldwide, creating sustained year-round demand across every marketplace. This guide walks you through the entire creation process using the Chart Count Worksheet Maker — from choosing images and generating the scattered grid to reviewing the auto-generated answer key and exporting print-ready files. Whether you are launching your first data skills product or expanding an existing math worksheet catalog, you will have a finished picture graph worksheet with its matching answer key ready to list by the end of this tutorial.',
+    description: 'Counting and graphing worksheets tap into the growing demand for STEM-focused early learning printables — and the data skills niche has far less competition than basic math on Etsy. This guide covers creating professional picture graph worksheets designed to sell: using themed image collections for visual appeal, building data representation activities that teach counting and graphing simultaneously, and packaging worksheets into themed bundles for Etsy and workbooks for KDP. You\'ll learn how this underserved niche offers low competition with strong demand.',
   },
 
   introduction: 'Picture graphs are one of the earliest data representation skills children learn. Starting in kindergarten, solvers practice counting objects and recording their findings in simple charts — a skill reinforced through second grade and beyond. That multi-year curriculum window creates sustained marketplace demand for picture graph and counting worksheets across multiple grade levels.\n\nWhat makes counting and graphing worksheets particularly strong as a printable product is their dual-skill nature. Each worksheet requires solvers to count scattered images (data collection) and then fill in a bar chart (data representation). Buyers value activities that cover two learning objectives simultaneously because they maximize instructional time. Parents and tutors appreciate the visual, hands-on format that makes abstract math concepts concrete.\n\nThe Chart Count Worksheet Maker handles the technical complexity for you. It generates a 4×5 scattered image grid containing 20 icons from 6 different image types, each appearing 1–5 times in a random distribution that makes every generation unique. Below the grid, a structured 6-column × 5-row bar chart gives solvers a clear place to record their counts. The app simultaneously produces an answer key on a separate canvas tab with yellow-highlighted cells showing the correct counts — no manual counting, no separate creation step.\n\nYou focus on product strategy — which themes to use, how to bundle, which marketplaces to target — while the generator handles layout, distribution logic, answer key accuracy, and print formatting. Every feature mentioned in this guide is available in the free trial with watermark. You can create sample worksheets, test every configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Chart Count Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'chart-count-maker', anchorText: 'Try the Chart Count Worksheet Maker' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Chart count worksheet generator' },
+    { pageType: 'guide', slug: 'create-chart-count-worksheets', anchorText: 'Create picture graph worksheets' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Sell math worksheets on Etsy' },
   ],
 
   toolsRecommended: [

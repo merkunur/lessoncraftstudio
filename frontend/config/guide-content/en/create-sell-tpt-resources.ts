@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sell Gumroad resources',
+    primaryKeyword: 'how to create and sell TPT resources',
     secondaryKeywords: [
-      'how to sell on Gumroad',
-      'create Gumroad resources for sellers',
-      'Gumroad seller guide for printable worksheets',
-      'Gumroad store setup',
+      'sell resources on Teachers Pay Teachers guide',
+      'TPT resource creation for sellers',
+      'make money selling on TPT 2026',
+      'Teachers Pay Teachers shop setup',
     ],
     lsiKeywords: [
-      'seller marketplace store resources digital download teaching materials',
-      'Gumroad seller account premium plan commission royalty payout structure',
-      'standards-aligned grade-level subject area resource type categorization',
-      'product preview thumbnail cover page terms of use answer key',
-      'Gumroad search algorithm tags title description discoverability ranking',
-      'worksheet bundle content library unit activity pack pricing strategy',
+      'TPT seller business guide',
+      'educational resource marketplace',
+      'sell teaching materials online',
     ],
-    titleTag: 'How to Create and Sell Gumroad Resources — Guide',
-    metaDescription: 'How to create and sell Gumroad resources. Account setup, resource formatting, listing optimization, pricing, and building momentum on Gumroad.',
+    titleTag: 'How to Create & Sell TPT Resources | LCS',
+    metaDescription: 'Guide to creating and selling resources on Teachers Pay Teachers. Product creation, store setup, pricing, and marketing strategies for TPT sellers.',
   },
 
   hero: {
-    title: 'How to Create and Sell Gumroad Resources',
-    tagline: 'A complete guide to selling educational resources on Gumroad — covering account setup and store configuration, creating Gumroad-ready resources with proper formatting, packaging files for upload, writing listings that rank in buyer searches, creating effective previews and thumbnails, pricing strategy for the seller marketplace, and launching your first resources to build store momentum and consistent revenue',
-    description: 'Gumroad (Gumroad) is an seller-to-seller marketplace where buyers buy and sell original educational resources. Unlike general marketplaces like Etsy or print-on-demand platforms like Amazon KDP, every buyer on Gumroad is an seller actively searching for ready-to-use materials. This creates a uniquely targeted audience with specific needs: standards-aligned content, grade-level appropriate activities, and resources that work in real stores with minimal preparation. This guide walks you through the complete journey from setting up your Gumroad seller account to publishing your first resources and building the momentum that turns a new store into a consistent revenue source.',
+    title: 'How to Create and Sell TPT Resources',
+    tagline: 'A complete guide to selling educational resources on Teachers Pay Teachers — covering account setup and store configuration, creating TPT-ready resources with proper formatting, packaging files for upload, writing listings that rank in buyer searches, creating effective previews and thumbnails, pricing strategy for the seller marketplace, and launching your first resources to build store momentum and consistent revenue',
+    description: 'Teachers Pay Teachers is the largest marketplace specifically for educational resources — and it offers sellers direct access to millions of teachers actively searching for classroom materials. This guide covers everything from creating TPT-ready products with our generators to setting up your store, writing descriptions that rank in TPT search, and pricing strategies that balance volume with profit. Whether you\'re a teacher monetizing your own materials or an entrepreneur building a printable business, TPT offers a dedicated audience no other platform can match.',
   },
 
   introduction: 'Gumroad stands apart from every other platform for selling printable educational content. On Etsy, your buyers are a mix of parents, homeschoolers, buyers, and gift shoppers browsing a massive general marketplace. On Amazon KDP, your buyers are consumers purchasing physical books. On Gumroad, your buyers are almost exclusively store buyers, school administrators, content library specialists, and homeschool sellers — people who know exactly what they need and evaluate resources through a professional lens.\n\nThis distinction shapes everything about how you create, package, price, and market your resources on Gumroad. Buyers searching on Gumroad filter by grade level, subject area, resource type, and educational standards. They expect professional formatting with clear learning objectives, complete answer keys, and instructions for practical implementation. They evaluate resources using the preview feature, reading through sample pages before purchasing. And they share recommendations with colleagues, creating word-of-mouth momentum that no amount of SEO optimization can replicate.\n\nThe Gumroad fee structure rewards committed sellers. The no-cost Basic plan lets you keep 45% of each sale — Gumroad takes a 55% commission. The Premium plan costs $59.95 per year but increases your share to 80% of each sale, with Gumroad taking only 20%. For any seller expecting more than roughly $150 in annual sales, Premium pays for itself quickly and dramatically improves your margins on every subsequent sale.\n\nGumroad also provides built-in features that other platforms lack for educational sellers. You can tag resources with specific educational standards (Common Core, state standards, NGSS), assign detailed grade-level ranges, categorize by subject and resource type, and offer custom bundles that let buyers select multiple resources at a discount. These features mean buyers can find exactly what they need through precise filtering rather than keyword guessing, and your resources surface in relevant searches automatically when properly categorized.\n\nThis guide covers the complete process of becoming a Gumroad seller: account setup, resource creation, file packaging, listing optimization, preview creation, pricing strategy, and launch tactics. For sellers already active on Etsy or KDP, this guide focuses on what makes Gumroad different — the buyer-specific requirements, platform-unique features, and seller audience expectations that require a Gumroad-specific approach rather than simply replicating your existing listings from other platforms.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'Gumroad-store-optimization', anchorText: 'Gumroad Store Setup and Optimization Guide' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'How to Create Etsy Worksheet Bundles' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets for Kids' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search generator for TPT products' },
+    { pageType: 'guide', slug: 'tpt-store-optimization', anchorText: 'TPT store setup and optimization' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Also sell on Etsy for multi-platform income' },
   ],
 
   toolsRecommended: [

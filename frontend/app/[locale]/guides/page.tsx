@@ -10,7 +10,7 @@ import { getGuideContent } from '@/config/guide-content';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const guidesKeywords: Record<string, string[]> = {
-  en: ['printable business guides', 'how to sell worksheets', 'Etsy printable tutorial', 'KDP publishing guide', 'create and sell printables', 'printable seller tips'],
+  en: ['printable business how-to guides', 'how to sell worksheets on Etsy', 'Etsy printable seller guides', 'KDP publishing guides for sellers', 'create and sell printables guide', 'printable seller strategies'],
   de: ['Druckvorlagen-Business Anleitungen', 'Arbeitsblätter verkaufen', 'Etsy Druckvorlagen Tutorial', 'KDP Veröffentlichungsanleitung', 'Druckvorlagen erstellen und verkaufen', 'Tipps für Druckvorlagen-Verkäufer'],
   fr: ['guides business imprimables', 'comment vendre des fiches', 'tutoriel Etsy imprimables', 'guide publication KDP', 'créer et vendre imprimables', 'conseils vendeur imprimables'],
   es: ['guías negocio imprimibles', 'cómo vender fichas', 'tutorial Etsy imprimibles', 'guía publicación KDP', 'crear y vender imprimibles', 'consejos vendedor imprimibles'],
@@ -83,10 +83,10 @@ const guidesContent: Record<string, {
   subcatDescriptions: Record<string, string>;
 }> = {
   en: {
-    heroTitle: 'How-To Guides',
-    heroDescription: 'Step-by-step guides for creating and selling printable products. From platform tutorials to business strategies.',
-    metaTitle: 'How-To Guides | Create & Sell Printables | LessonCraftStudio',
-    metaDescription: '65 step-by-step guides for creating and selling printable products. Platform guides, product creation tutorials, and business strategies for Etsy, KDP, TPT sellers.',
+    heroTitle: 'How-To Guides for Printable Sellers',
+    heroDescription: '65 step-by-step guides for creating, listing, and selling printable products on Etsy, Amazon KDP, TPT, and more.',
+    metaTitle: 'How-To Guides for Printable Sellers | LCS',
+    metaDescription: '65 how-to guides for printable sellers. Platform guides for Etsy, KDP & TPT. Product creation tutorials. Business strategies for pricing, marketing & scaling.',
     ctaTitle: 'Start Creating Today',
     ctaDescription: 'Try all 33 printable generators free with watermark. No signup required.',
     ctaButton: 'Try Free Generators',

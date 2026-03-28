@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'drawing worksheet generator',
+    primaryKeyword: 'free draw and color worksheet maker',
     secondaryKeywords: [
-      'grid drawing worksheet maker for sellers',
-      'create draw and color worksheets to sell',
-      'printable grid reproduction worksheets commercial use',
-      'cell-by-cell drawing worksheet generator for KDP',
+      'make draw and color worksheets free online',
+      'grid drawing generator no signup',
+      'free art activity worksheet maker',
+      'draw and color worksheets free trial',
     ],
     lsiKeywords: [
-      'dual grid drawing printables for Etsy',
-      'adjustable clue percentage worksheet tool',
-      'symmetry mirror mode drawing worksheet maker',
+      'free drawing tool online',
+      'instant draw and color maker',
+      'try before you buy art tools',
     ],
-    titleTag: 'Drawing Worksheet Generator — Grid Drawing Maker | Sell',
-    metaDescription: 'Generate grid drawing worksheets with dual grids, adjustable clue percentage, three symmetry modes, and themed image sets. Try free — license available.',
+    titleTag: 'Free Draw and Color Worksheet Maker | LCS',
+    metaDescription: 'Make draw and color worksheets free online with watermark — no signup. Grid drawing activities, themed images, 300 DPI export. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Draw & Color Worksheet Maker',
+    title: 'Make Draw and Color Worksheets Free Online — No Signup',
     tagline: 'Generate dual-grid drawing worksheets with adjustable clue percentage, three symmetry modes, and purely visual zero-text output that sells worldwide without translation',
-    description: 'Create professional grid drawing worksheets where users reproduce a reference image by copying it cell-by-cell from a clue grid into a blank practice grid. Two grids appear per selected image: a Practice Grid with empty cells where users draw, and a Clue Grid showing a configurable percentage of the reference image as visual hints. Adjust the clue percentage from 10% to 75% to control difficulty — fewer clues mean harder exercises that demand sharper observation. Configure grid dimensions from 3×3 (9 cells) to 10×10 (100 cells), with rows and columns adjustable independently. Three symmetry modes add a spatial reasoning dimension: Random scatters clues in arbitrary positions, Horizontal mirrors clues left-to-right, and Vertical mirrors clues top-to-bottom, each with a part-to-reveal selector controlling which half is shown. Content draws from the built-in B&W outline theme library with 100+ collections featuring 3,000+ black & white illustrations specifically designed for drawing and coloring — clean outlines that users reproduce and then color in, not colorful themes. This is a purely visual app: worksheets contain only grid images with zero text, making them universally sellable without translation. No separate answer key exists because the clue grid itself serves as the reference solution. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create grid-based draw and color worksheets right now — free, instant, no account required. Each worksheet presents a themed image as a reference alongside an empty grid, challenging learners to copy the image cell by cell and then color their creation. Choose from 104 themed collections with 3,000+ illustrations. Every feature is unlocked in the free trial including 300 DPI export and all page sizes. Downloads include a small watermark. Want to sell art activity worksheets on Etsy or compile drawing workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Grid Drawing Worksheets in 8 Steps',
+    title: 'How to Make Draw and Color Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Draw & Color Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw & Color Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
-    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Pattern Worksheet Maker' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big & Small Worksheet Maker' },
-    { pageType: 'tool', slug: 'drawing-lines-maker', anchorText: 'Drawing Lines Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Free coloring page maker' },
+    { pageType: 'guide', slug: 'create-drawing-worksheets', anchorText: 'How to create drawing worksheets to sell' },
   ],
 
   visuals: {

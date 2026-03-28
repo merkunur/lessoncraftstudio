@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pinterest marketing worksheets',
+    primaryKeyword: 'Pinterest marketing for worksheet businesses',
     secondaryKeywords: [
-      'pinterest for printable sellers',
-      'sell worksheets with pinterest',
-      'pinterest printable business strategy',
-      'pinterest traffic for worksheet shops',
+      'Pinterest strategy for printable sellers',
+      'promote worksheets on Pinterest',
+      'Pinterest SEO for printable products',
+      'drive Etsy traffic with Pinterest',
     ],
     lsiKeywords: [
-      'visual search engine pin design board optimization keyword-rich descriptions',
-      'evergreen traffic pin scheduling click-through rate organic discovery',
-      'product pins idea pins Pinterest analytics Pinterest SEO rich pins',
-      'pin impressions repinning strategy seasonal pinning board strategy',
-      'pin optimization vertical format Pinterest algorithm fresh pins',
-      'search ranking save rate outbound clicks audience insights pin templates',
+      'Pinterest printable marketing',
+      'visual marketing printable business',
+      'Pinterest traffic for Etsy shops',
     ],
-    titleTag: 'Pinterest Marketing Worksheets — Seller Strategy',
-    metaDescription: 'Pinterest marketing worksheets strategy for printable sellers. Drive long-term traffic through pin optimization, board strategy, and keyword-rich content.',
+    titleTag: 'Pinterest Marketing for Worksheet Business | LCS',
+    metaDescription: 'Pinterest marketing guide for worksheet sellers. Pin strategies, SEO, boards, and traffic tactics that drive sales to your Etsy and Gumroad shops.',
   },
 
   hero: {
-    title: 'Pinterest Marketing for Worksheet Businesses',
+    title: 'Pinterest Marketing for Your Worksheet Business',
     tagline: 'A complete guide to Pinterest marketing for worksheet sellers — covering how to set up a business account, structure boards for discoverability, design high-converting pins, write keyword-rich descriptions, develop a pinning schedule, optimize for Pinterest SEO, leverage seasonal content cycles, and analyze performance data',
-    description: 'Pinterest is not a social media platform. It is a visual search engine where users actively search for products and ideas to buy. For printable worksheet sellers, this distinction is critical — Pinterest users are discovering, saving, and clicking through to purchase educational resources months after a pin is published. This guide provides a complete Pinterest marketing framework built specifically for worksheet businesses, from profile optimization and board strategy to pin design, keyword integration, seasonal planning, and analytics-driven refinement.',
+    description: 'Pinterest is the highest-converting free traffic source for printable sellers — users come to the platform looking for ideas and ready to buy. This guide covers Pinterest marketing specifically for worksheet businesses: creating pins that drive clicks, optimizing for Pinterest SEO, building boards that attract your target audience, and converting Pinterest traffic into Etsy and Gumroad sales. You\'ll learn how to create a sustainable Pinterest content system that drives traffic to your listings month after month.',
   },
 
   introduction: 'Most printable sellers treat Pinterest as an afterthought — occasionally sharing a product image with a link and hoping for traffic. This approach produces minimal results because it ignores the fundamental mechanics that make Pinterest uniquely powerful for worksheet businesses. Pinterest functions as a visual search engine, not a social feed. Content is discovered through keyword-based search and algorithmic recommendation, not through follower timelines. A pin published today can drive traffic to your shop for years, compounding in reach as it accumulates saves and engagement. No other platform offers this kind of evergreen discoverability for visual products.\n\nThe opportunity for worksheet sellers on Pinterest is substantial and underutilized. Educational printables are among the most-searched product categories on Pinterest, with parents, homeschoolers, and buyers actively searching for worksheets, activity pages, and learning resources. These searchers have buyer intent — they are not casually scrolling but actively looking for specific products to download, print, and use. A well-optimized pin that appears in these searches connects your product directly to a motivated buyer at the exact moment they are looking for what you sell.\n\nWhat makes Pinterest particularly effective for worksheet businesses is the visual nature of the product. Worksheets, coloring pages, puzzles, and activity sheets are inherently visual products that display beautifully in Pinterest\'s image-first format. A colorful, well-designed pin showing a worksheet preview immediately communicates what the product is, who it is for, and what makes it appealing — all without the buyer reading a single word of text. This visual self-explanation reduces friction in the discovery-to-click journey and produces higher click-through rates than text-heavy product listings on other platforms.\n\nThe compounding nature of Pinterest traffic is what separates it from every other marketing channel available to printable sellers. On Instagram or Facebook, a post reaches its maximum audience within 24 to 48 hours and then effectively disappears from discovery. On Pinterest, a pin gains momentum over weeks and months as the algorithm indexes it, surfaces it in search results, and recommends it to users with matching interests. Top-performing pins can drive consistent traffic for 6 to 12 months or longer. This means every pin you create is an investment that continues generating returns long after you publish it, building a traffic engine that grows with every new pin added.\n\nWorksheet generators accelerate your Pinterest strategy by solving the production bottleneck that limits most sellers\' pin volume. Creating enough unique, high-quality worksheet products to maintain a consistent pinning schedule requires efficient production tools. Generators let you produce professional, print-ready worksheets across multiple themes, subjects, and languages — giving you a deep product catalog to pin from. You can try any generator as a free trial with watermark to see how it fits into your Pinterest-driven production workflow.\n\nThis guide walks you through a complete Pinterest marketing system designed specifically for worksheet businesses. Each step builds on the previous one, creating a systematic approach that transforms Pinterest from an occasional afterthought into your primary traffic and discovery channel.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social Media Marketing for Printable Sellers' },
-    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'Email Marketing for Printable Product Sellers' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Seasonal Marketing Calendar for Printable Sellers' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'How to Automate Your Printable Business' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social media marketing for printable sellers' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Market your printable business online' },
   ],
 
   toolsRecommended: [

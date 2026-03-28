@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'drawing lines generator',
+    primaryKeyword: 'tracing line worksheet generator for Etsy sellers',
     secondaryKeywords: [
-      'printable line tracing worksheet maker for Etsy sellers',
-      'custom drawing lines worksheet generator for KDP publishers',
-      'sell line drawing worksheets on Gumroad or your own store',
-      'drawing lines worksheets commercial license',
+      'create line tracing worksheets for Etsy shop',
+      'fine motor worksheets for Amazon KDP books',
+      'tracing printables with commercial license',
+      'sell drawing lines worksheets online',
     ],
     lsiKeywords: [
-      'digital line tracing printables online business',
-      'printable fine motor skills worksheet business',
-      'commercial use drawing lines worksheet generator',
+      'fine motor skills printable niche',
+      'sell tracing worksheets commercially',
+      'pre-writing worksheet products',
     ],
-    titleTag: 'Drawing Lines Generator | Create Tracing Worksheets',
-    metaDescription: 'Create line tracing worksheets to sell on Etsy, KDP & Gumroad. Eight SVG templates, image pair matching, 104 themed collections. Try free — license available.',
+    titleTag: 'Tracing Line Worksheet Generator for Etsy | LCS',
+    metaDescription: 'Create line tracing worksheets to sell on Etsy & KDP. 8 SVG templates, themed image pairs, fine motor activities, commercial license. Try free with watermark.',
   },
 
   hero: {
-    title: 'Drawing Lines Worksheet Generator for Line Tracing Exercises',
+    title: 'Create Tracing Line Worksheets to Sell on Etsy & Amazon KDP',
     tagline: 'Eight SVG line templates — curves, diagonals, horizontal, and vertical — with 4–5 image pairs per page for fine motor skill development through guided line tracing.',
     description:
-      'Build professional line tracing worksheets where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover four line types: four curved line templates for flowing movements, two diagonal templates for angled strokes, one horizontal template for straight-across tracing, and one vertical template for top-to-bottom practice. Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving a visual goal at each end. Auto-fill randomly assigns image pairs from any selected theme or across all themes at once. Content draws from the built-in Image Library with 3,100+ colorful illustrations across 104 themes — animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making them universally usable regardless of language or reading level. Template selection drives page orientation automatically: curve templates default to landscape for sweeping movements, while diagonal, horizontal, and vertical templates use portrait for focused top-to-bottom practice. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell line tracing bundles on Etsy, compile fine motor workbooks for Amazon KDP, or list handwriting readiness products on Gumroad, the Drawing Lines Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Tracing line worksheets tap into the huge pre-writing and fine motor skills niche on Etsy — parents and therapists buy them for toddlers and preschoolers year-round. This generator creates professional line tracing activities where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover curves, diagonals, horizontal, and vertical lines with 4-5 themed image pairs per page. Choose from 3,000+ illustrations across 104 themed collections to create products that match any seasonal trend or interest niche. Every worksheet is purely visual with zero text, making them universally sellable worldwide. Export 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Drawing Lines Worksheets in 5 Steps',
+    title: 'How to Create Tracing Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Drawing Lines Worksheet Generator',
+    title: 'Why Fine Motor Worksheets Sell in the Preschool Niche',
     features: [
       {
         title: 'Eight SVG Line Templates: Curves, Diagonals, Horizontal, and Vertical',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Drawing Lines Worksheets Online',
+    title: 'Sell Tracing Workbooks on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Line Tracing Activity Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'pattern-worksheets',
-      anchorText: 'Pattern Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
+      slug: 'writing-worksheets',
+      anchorText: 'Handwriting worksheets for complementary literacy bundles',
     },
     {
       pageType: 'app',
       slug: 'coloring-worksheets',
-      anchorText: 'Coloring Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'visual-learning-bundle',
-      anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids Activities',
-    },
-    {
-      pageType: 'idea',
-      slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-business',
-      anchorText: 'Build Your Etsy Printable Business',
+      anchorText: 'Coloring pages for visual learning variety',
     },
     {
       pageType: 'guide',
       slug: 'create-drawing-worksheets',
-      anchorText: 'How to Create Drawing & Tracing Worksheets',
+      anchorText: 'Guide to creating drawing and tracing worksheets',
     },
   ],
 

@@ -9,7 +9,7 @@ import { getSectionLabel } from '@/config/section-labels';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const ideasKeywords: Record<string, string[]> = {
-  en: ['printable niche ideas', 'profitable printable niches', 'Etsy niche research', 'KDP niche ideas', 'what printables sell best', 'printable business ideas'],
+  en: ['profitable printable niche ideas for Etsy', 'best printable niches to sell', 'Etsy niche research printables', 'KDP niche ideas for activity books', 'what printables sell best on Etsy', 'printable business niche ideas'],
   de: ['Druckvorlagen-Nischen-Ideen', 'profitable Druckvorlagen-Nischen', 'Etsy Nischenrecherche', 'KDP Nischen-Ideen', 'welche Druckvorlagen verkaufen sich am besten', 'Druckvorlagen-Geschäftsideen'],
   fr: ['idées de niches imprimables', 'niches imprimables rentables', 'recherche de niche Etsy', 'idées niche KDP', 'quels imprimables se vendent le mieux', 'idées business imprimables'],
   es: ['ideas de nichos imprimibles', 'nichos imprimibles rentables', 'investigación de nicho Etsy', 'ideas nicho KDP', 'qué imprimibles se venden mejor', 'ideas negocio imprimibles'],
@@ -34,10 +34,10 @@ const ideasContent: Record<string, {
   subcatDescriptions: Record<string, string>;
 }> = {
   en: {
-    heroTitle: 'Printable Business Niche Ideas',
-    heroDescription: 'Find your perfect printable niche. 45 profitable ideas with product suggestions, platform tips, and pricing strategies.',
-    metaTitle: 'Printable Business Niche Ideas | 45 Profitable Niches | LessonCraftStudio',
-    metaDescription: 'Discover 45 profitable printable business niches. Product ideas organized by age group, subject, season, theme, and format. Find your perfect niche for Etsy and KDP.',
+    heroTitle: '45 Profitable Printable Niche Ideas',
+    heroDescription: 'Find your perfect printable niche. 45 profitable ideas with product suggestions, platform tips, and pricing strategies for Etsy and KDP sellers.',
+    metaTitle: '45 Profitable Printable Niche Ideas | LCS',
+    metaDescription: 'Discover 45 profitable printable niches for Etsy, KDP & TPT. Theme, seasonal, age-group & format ideas with product suggestions and pricing strategies.',
     ctaTitle: 'Ready to Start Your Niche?',
     ctaDescription: 'Try all 33 printable generators free with watermark. No signup required.',
     ctaButton: 'Try Free Generators',

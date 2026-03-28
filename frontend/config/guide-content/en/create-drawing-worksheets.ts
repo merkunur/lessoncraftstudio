@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'drawing and symmetry worksheets',
+    primaryKeyword: 'create drawing worksheets to sell online',
     secondaryKeywords: [
-      'grid drawing worksheets for kids',
-      'symmetry worksheet generator',
-      'printable drawing worksheets to sell',
-      'cell-by-cell reproduction worksheets',
+      'make drawing worksheets for Etsy',
+      'create art activity printables for KDP',
+      'drawing worksheet creation guide',
+      'sell drawing printables online',
     ],
     lsiKeywords: [
-      'dual grid drawing printables',
-      'adjustable clue percentage worksheets',
-      'mirror mode symmetry exercises',
-      'sell drawing worksheets on Etsy',
-      'Amazon KDP drawing activity books',
-      'B&W outline worksheet tool',
+      'drawing product creation',
+      'art activity business',
+      'sellable drawing products',
     ],
-    titleTag: 'Drawing and Symmetry Worksheets — Guide',
-    metaDescription: 'Create drawing and symmetry worksheets with dual-grid system, adjustable clue percentage, three symmetry modes, and B&W outlines. Sell on Etsy and KDP.',
+    titleTag: 'Create Drawing Worksheets to Sell Online | LCS',
+    metaDescription: 'Guide to creating drawing worksheets to sell online. Grid drawing, tracing activities, and strategies for Etsy and KDP art activity sellers.',
   },
 
   hero: {
-    title: 'How to Create Drawing and Symmetry Worksheets',
+    title: 'Create Drawing Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating grid drawing worksheets with adjustable difficulty, symmetry modes, and B&W outline themes you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Grid drawing worksheets combine two high-demand skills in a single page: spatial reproduction and symmetry recognition. Solvers copy a reference image cell-by-cell from a partially revealed clue grid into a blank practice grid, developing fine motor control, observation accuracy, and spatial reasoning with every exercise. This guide walks you through the entire creation process using the Draw & Color Worksheet Maker — from configuring grid dimensions and clue percentages to choosing symmetry modes and exporting print-ready PDFs. The dual-grid format, zero-text output, and B&W outline style make these worksheets universally sellable without translation. Whether you are launching your first drawing worksheet product or expanding an existing visual activity catalog, you will have finished products ready to list by the end of this tutorial.',
+    description: 'Drawing and tracing worksheets appeal to parents seeking screen-free creative activities — a growing market on Etsy and Amazon KDP. This guide covers creating professional drawing worksheets designed to sell: combining grid-based drawing activities with line tracing exercises for varied product lines, choosing themes that match seasonal demand, and packaging art workbooks for KDP. You\'ll learn how to use both the draw-and-color and drawing-lines generators to build comprehensive art activity bundles that cover fine motor skills through creative expression.',
   },
 
   introduction: 'Grid drawing is one of the most effective methods for developing spatial awareness and fine motor control in children. Unlike freehand drawing, grid-based reproduction gives solvers a structured framework: they observe reference cells, identify shapes and lines, and recreate them in corresponding blank cells. This cell-by-cell approach builds observation accuracy, hand-eye coordination, and the spatial reasoning skills that underpin geometry and design thinking.\n\nWhat makes grid drawing worksheets particularly strong as a printable product is the dual-grid system. Every worksheet features two companion grids per image: a Practice Grid with empty cells where solvers draw, and a Clue Grid showing a configurable percentage of the reference image as visual hints. This format is fundamentally different from coloring pages or freehand drawing prompts because it provides structured guidance that scales with difficulty. Lower the clue percentage for harder exercises, raise it for easier ones — the same image becomes dozens of distinct products.\n\nThe Draw & Color Worksheet Maker handles the technical complexity. It generates dual-grid layouts automatically, offers three symmetry modes (Random, Horizontal mirror, Vertical mirror) for spatial reasoning exercises, and draws from a library of 100+ B&W outline theme collections with 3,000+ illustrations specifically designed for drawing reproduction and coloring afterward. Two independent difficulty axes — grid size (3×3 to 10×10) and clue percentage (10% to 75%) — create dozens of unique difficulty combinations from a single theme image. The output contains zero text, making every worksheet universally sellable without translation across all international marketplaces.\n\nEvery feature described in this guide is available in the free trial with watermark. You can create sample worksheets, test every grid size, clue percentage, and symmetry mode, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw & Color Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Drawing Lines Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Try the Draw & Color Worksheet Maker' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw and color worksheet generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Line tracing worksheet generator' },
+    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Create coloring pages to sell' },
   ],
 
   toolsRecommended: [

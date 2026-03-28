@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'niche selection for printable businesses',
+    primaryKeyword: 'niche selection for printable business 2026',
     secondaryKeywords: [
-      'printable niche research',
-      'profitable printable niches',
-      'how to choose a printable niche',
-      'worksheet niche strategy',
+      'choose profitable printable niche guide',
+      'printable business niche research 2026',
+      'best niches for selling printables',
+      'niche selection strategy for Etsy sellers',
     ],
     lsiKeywords: [
-      'market demand niche profitability target audience niche validation',
-      'evergreen niches seasonal niches underserved markets competition analysis',
-      'niche expansion adjacent niches grade-level expansion subject expansion',
-      'audience needs buyer personas customer segments niche positioning',
-      'niche stacking multi-niche strategy niche depth product-market fit',
-      'keyword demand search volume marketplace trends buyer intent signals',
+      'printable niche analysis',
+      'market research printable business',
+      'profitable niche identification',
     ],
-    titleTag: 'Niche Selection for Printable Businesses — Guide',
-    metaDescription: 'Niche selection for printable businesses: research demand, analyze competition, evaluate profitability, validate before committing, and plan expansion.',
+    titleTag: 'Niche Selection for Printable Business | LCS',
+    metaDescription: 'How to choose a profitable niche for your printable business in 2026. Market research, competition analysis, and demand validation for new sellers.',
   },
 
   hero: {
-    title: 'Niche Selection Guide for Printable Businesses',
+    title: 'Niche Selection for Your Printable Business',
     tagline: 'A complete framework for choosing, validating, and planning around the right niche for your printable business — covering why niche selection determines success, identifying your starting advantages, researching market demand, analyzing competition, evaluating profitability, validating before committing, choosing between evergreen and seasonal niches, and planning your expansion strategy',
-    description: 'The difference between printable sellers who build sustainable businesses and those who struggle for years often comes down to a single early decision: niche selection. Choosing the right niche determines your audience, your pricing power, your competition level, and your long-term growth potential. This guide provides a systematic framework for evaluating, choosing, and validating a printable niche — whether you sell on Etsy, Amazon KDP, Gumroad, Gumroad, or any other platform.',
+    description: 'Choosing the right niche is the single most important decision in your printable business — it determines your competition level, pricing power, and long-term growth potential. This guide walks you through a systematic niche selection process: analyzing market demand, evaluating competition on Etsy and KDP, validating profitability before investing time, and identifying underserved sub-niches where new sellers can gain traction. You\'ll learn how to avoid saturated niches and find the sweet spots where demand is high but competition hasn\'t caught up yet.',
   },
 
   introduction: 'Most printable sellers skip niche selection entirely. They create whatever comes to mind — a coloring page here, a math worksheet there, a holiday activity next week — and hope something sticks. This scattered approach produces a store with no identity, no repeat buyers, and no search engine authority. Every product competes independently because nothing in the catalog reinforces anything else.\n\nFocused sellers take the opposite approach. They choose a specific niche, understand the buyers within it, and create products that serve those buyers comprehensively. A seller who focuses on first-grade math worksheets becomes the go-to source for first-grade math. Their products cross-promote each other, their store builds authority in search algorithms, their reviews compound around a single topic, and their buyers return because they know exactly what to expect. The specialist consistently outperforms the generalist in crowded marketplaces — not because their products are inherently better, but because their positioning is clearer.\n\nNiche selection is not just about picking a topic. It is a strategic decision that affects every aspect of your business: which buyers you attract, what you can charge, how you market, which platforms favor your content, and how fast you can grow. A well-chosen niche has sufficient demand to sustain a business, manageable competition that allows a new seller to gain traction, pricing that supports your revenue goals, and expansion potential that prevents you from hitting a ceiling after six months.\n\nThis guide walks through a systematic niche selection process — from identifying your starting advantages through market research, competition analysis, profitability evaluation, validation, and expansion planning. The framework is platform-agnostic: the principles apply whether you sell on Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica, or your own website. For platform-specific tactics, reference the dedicated platform guides linked throughout.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create and Sell Coloring Pages on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'How to Sell Printables on Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'Research profitable printable niches' },
+    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Best KDP activity book niches' },
+    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable business blueprint' },
   ],
 
   toolsRecommended: [

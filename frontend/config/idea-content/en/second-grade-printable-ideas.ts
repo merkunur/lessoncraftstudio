@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Second Grade Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore second grade printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Product concepts and niche strategies for sellers targeting second grade academics.',
+    titleTag: 'Second Grade Printable Business Ideas | LCS',
+    metaDescription: 'Second grade printable business ideas for Etsy & KDP. Grade-specific product concepts and strategies for grade 2 printable sellers.',
 
-    primaryKeyword: 'second grade printable ideas',
+    primaryKeyword: 'second grade printable business ideas',
     secondaryKeywords: [
-      'second grade worksheets to sell',
-      'grade 2 printable business ideas',
-      'second grade activity sheets for sellers',
-      'sell second grade printables on Gumroad',
+      'second grade worksheets for Etsy sellers',
+      'grade 2 activity books for Amazon KDP',
+      'sell second grade printables online',
+      'ages 7-8 printable products',
     ],
     lsiKeywords: [
-      'elementary math and reading worksheets',
-      'grade 2 printable resources for sellers',
-      'age 7-8 learning activity pages',
+      'second grade printable niche',
+      'grade 2 educational products',
+      'elementary worksheet business',
     ],
   },
   hero: {
-    title: 'Second Grade Printable Business Ideas for Sellers',
-    description: 'Second grade printables occupy a uniquely profitable position in the educational marketplace because second grade is the year where academic complexity accelerates dramatically across every subject area, with math expanding from single-digit operations to multi-digit addition and subtraction with regrouping, reading shifting from decoding to genuine comprehension and fluency, and writing advancing from simple sentences to organized paragraphs with topic sentences and supporting details. This academic leap creates intense demand from buyers who need tiered materials at multiple skill levels because the readiness gap between users widens significantly in second grade as cumulative learning differences from kindergarten and first grade compound into measurable performance spreads that require targeted intervention and enrichment resources across every instructional block. Parents become increasingly motivated purchasers during second grade because standardized testing intensifies with more formal assessments, report cards display specific grade-level proficiency metrics rather than developmental milestones, and the academic stakes become tangible as families recognize that foundational skills mastered or missed during second grade directly impact third grade readiness where reading comprehension becomes the vehicle for learning across all content areas. The content scope of second grade spans an extraordinary range of skills including two-digit and three-digit addition and subtraction with regrouping, place value understanding through hundreds with expanded form and number comparisons, telling time to five-minute intervals, counting money with multiple coin and bill combinations, measurement using standard and nonstandard units, data collection with bar graphs and picture graphs, reading fluency at increasingly complex text levels, comprehension strategies including main idea and supporting details, vocabulary development with prefixes and suffixes, grammar conventions including nouns, verbs, adjectives, and proper sentence structure, and paragraph writing with organizational elements. For printable sellers and entrepreneurs, the second grade niche combines massive institutional demand from buyers seeking tiered product collections with strong parent purchasing driven by visible academic accountability, creating diversified revenue opportunities across Etsy, Amazon KDP, Gumroad, and direct sales platforms. This guide covers specific product ideas built around our worksheet generator tools, platform strategies for reaching second grade buyers, and niche positioning approaches to help you build a profitable second grade printable product line.',
+    title: 'Second Grade Printable Business Ideas',
+    description: 'Second graders tackle more complex math and reading — creating demand for challenging worksheets that bridge early learning and intermediate skills. This niche guide covers the second grade opportunity: which formats serve 7-8 year olds best, how to increase difficulty while maintaining engagement, and strategies for creating grade-specific bundles on Etsy. Math puzzles, word searches, and cryptogram activities hit the sweet spot for second graders who need challenge without frustration.',
   },
   marketOverview: `The second grade printable market represents one of the strongest revenue opportunities in the educational niche because second grade sits at the critical intersection where academic expectations intensify while skill gaps widen, creating dual purchasing pressure from sellers who must create tiered product bundles across increasingly diverse stores and parents who face heightened accountability for their child\'s academic progress through more formal assessment reporting and grade-level proficiency standards. The math content catalog alone drives enormous printable demand because second grade math transitions from the single-digit operations mastered in first grade to multi-digit computation requiring regrouping strategies, place value understanding extending through hundreds, and problem-solving applications involving time, money, measurement, and data analysis that collectively represent the most significant mathematical complexity increase in the primary grades.
 
@@ -139,44 +139,19 @@ The parent buyer segment grows significantly during second grade because the shi
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'math-puzzle-worksheets',
+      anchorText: 'Math puzzle generator for grade 2',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Business Ideas',
+      slug: 'third-grade-printable-ideas',
+      anchorText: 'Third grade printable ideas',
     },
   ],
 

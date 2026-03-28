@@ -2,31 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet generator',
+    primaryKeyword: 'subtraction worksheet generator for selling printables',
     secondaryKeywords: [
-      'subtraction printables for Etsy sellers',
-      'create subtraction activity books for Amazon KDP',
-      'sell subtraction worksheets online marketplace',
-      'printable subtraction sheets commercial use',
+      'create subtraction worksheets for Etsy shop',
+      'subtraction printables for Amazon KDP books',
+      'visual subtraction worksheets with commercial license',
+      'make subtraction activities to sell on TPT',
+      'printable subtraction problems to sell online',
     ],
     lsiKeywords: [
-      'digital printable products for entrepreneurs',
-      'math printable business ideas',
-      'worksheet creator for online sellers',
+      'printable math products Etsy business',
+      'sell subtraction worksheets commercially',
+      'math printable entrepreneurship',
     ],
-    titleTag: 'Subtraction Worksheet Generator | Sell Printables',
-    metaDescription: 'Create subtraction worksheets to sell on Etsy, KDP & Gumroad. 5 exercise modes, 104 visual themes, auto answer keys, 400+ DPI export.',
+    titleTag: 'Subtraction Worksheet Generator — Sell on Etsy | LCS',
+    metaDescription: 'Generate visual subtraction worksheets to sell on Etsy, KDP & TPT. Themed images, answer keys, commercial license. Try free — no design skills needed.',
   },
 
   hero: {
-    title: 'Subtraction Worksheet Generator with Cross-Out Visualization',
+    title: 'Generate Subtraction Worksheets to Sell on Etsy, KDP & TPT',
     tagline: 'Make subtraction click with picture-based worksheets where solvers cross out images to find the answer.',
     description:
-      'Create engaging image-based subtraction worksheets that teach take-away math through a powerful visual method: crossed-out images. Solvers see a group of pictures, then watch diagonal X marks drawn through the subtracted items — making the abstract concept of \"taking away\" concrete and intuitive. Choose from four exercise modes — Cross Out, Image − Number, Find the Subtrahend, and Mixed — covering difficulty tiers from beginner through advanced. Browse over 3,100 curated illustrations across 104 themes like dinosaurs, ocean life, and vehicles. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. A built-in grayscale toggle lets you create ink-friendly black-and-white versions with one click. Whether you sell themed bundles on Etsy, publish activity books on Amazon KDP, or build a niche store on Gumroad, the Subtraction Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Turn subtraction into a sellable product with a generator built for printable entrepreneurs. Create image-based subtraction worksheets featuring themed illustrations — animals, vehicles, food, nature, and dozens more — that make math engaging and your listings irresistible. Each worksheet exports as a 300 DPI print-ready PDF with an automatic answer key, ready to upload as a digital download on Etsy, compile into an Amazon KDP activity book, or list on Teachers Pay Teachers. Commercial license is included with every worksheet, so you keep 100% of your revenue with zero attribution required. Sellers who bundle addition and subtraction worksheets together consistently report higher average order values — and you can create both formats in under 3 minutes each. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Subtraction Worksheets in 5 Steps',
+    title: 'Generate Professional Subtraction Printables Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -49,7 +50,7 @@ const content: AppContent = {
           'Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from three readable fonts — Lexend Deca, Baloo 2, and Nunito — and adjust font size, color, and style for maximum readability. Toggle exercise numbers on or off, enable the guided answer box for a structured writing area, and fine-tune element placement on the canvas with drag-and-drop positioning, alignment tools, and lock/unlock controls.',
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: 'Customize Difficulty, Theme & Layout with Canvas Editing',
         description:
           'Switch to the Answer Key tab and click Generate Answer Key to create a completed version of your worksheet with all correct differences filled in. Then open the Download menu and export both the worksheet and its answer key as high-resolution JPEG or print-ready PDF. Check the Grayscale box in the download dropdown to produce ink-friendly black-and-white versions — perfect for high-volume printing or low-cost activity book production. Every export renders at a 6x multiplier (400+ DPI) so your worksheets look crisp whether printed at home, sent to a professional printer, or uploaded as a digital product on Etsy or Amazon KDP.',
       },
@@ -57,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Subtraction Worksheet Generator',
+    title: 'Why Subtraction Worksheets Are a Printable Business Staple',
     features: [
       {
         title: 'Cross-Out Visualization',
@@ -103,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Subtraction Worksheets Online',
+    title: 'Export, Price & List Your Subtraction Worksheets',
     cases: [
       {
-        title: 'Themed Subtraction Worksheet Bundles on Etsy',
+        title: 'Bundle Addition and Subtraction for Higher Etsy Sales',
         description:
           'Create sets of 10–20 subtraction worksheets grouped by theme — dinosaurs, farm animals, ocean creatures, holidays — and list them as instant-download bundles on Etsy. Include the answer key and both color and grayscale versions as bonus files to increase perceived value. The cross-out visualization is a visual selling point in thumbnail previews, catching buyer attention in search results. Price individual themes at $3–$5 and mega-bundles combining multiple themes at $12–$18 for strong average order value.',
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Math Activity Books on Amazon KDP',
+        title: 'Create Subtraction Activity Books for Amazon KDP',
         description:
           'Compile 50–100 subtraction worksheets into a printed activity book formatted for Amazon KDP. Structure the book with progressive difficulty: start with Cross Out mode at a low max minuend of 5, advance through Image − Number at 10, and finish with Mixed Mode up to 20. Use the grayscale export option for print-friendly interiors. Add a title page, simple instructions, and an answer key section at the back. KDP math activity books for ages 4–8 sell consistently year-round with minimal advertising spend.',
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -205,47 +206,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'addition-worksheets',
-      anchorText: 'Addition Worksheet Generator',
+      anchorText: 'Addition worksheet generator for math bundles',
     },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
-      anchorText: 'Code Addition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'math-puzzle-worksheets',
-      anchorText: 'Math Puzzle Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'math-mastery-bundle',
-      anchorText: 'Math Mastery Bundle — All Math Apps in One Package',
+      slug: 'math-worksheets',
+      anchorText: 'Number-only math worksheets for older students',
     },
     {
       pageType: 'guide',
       slug: 'create-subtraction-worksheets',
-      anchorText: 'How to Create Subtraction Worksheets That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sell-math-worksheets-etsy',
-      anchorText: 'Guide to Selling Math Worksheets on Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back-to-School Printable Ideas That Sell',
-    },
-    {
-      pageType: 'start',
-      slug: 'create-worksheets-that-sell',
-      anchorText: 'How to Create Worksheets That Sell',
+      anchorText: 'Step-by-step subtraction worksheet tutorial',
     },
   ],
 

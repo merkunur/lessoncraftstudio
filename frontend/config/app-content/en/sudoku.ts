@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture sudoku generator',
+    primaryKeyword: 'picture sudoku generator for KDP puzzle books',
     secondaryKeywords: [
-      'printable picture sudoku maker for Etsy sellers',
-      'image sudoku puzzle generator for KDP publishers',
-      'picture sudoku worksheet creator commercial license',
-      'sell sudoku puzzle worksheets on Gumroad',
+      'create picture sudoku puzzles for Etsy',
+      'sudoku puzzle books for Amazon KDP sellers',
+      'picture sudoku worksheets with commercial license',
+      'sell visual sudoku printables online',
     ],
     lsiKeywords: [
-      'digital sudoku printables online business',
-      'commercial use picture puzzle generator',
-      'printable logic puzzle business tools',
+      'sudoku puzzle book niche KDP',
+      'sell logic puzzles commercially',
+      'visual sudoku worksheet products',
     ],
-    titleTag: 'Picture Sudoku Generator | Create & Sell Worksheets',
-    metaDescription: 'Create picture sudoku worksheets to sell on Etsy, KDP & Gumroad. 4x4 grid, three difficulty levels, auto answer key, 104 themes. Try free — license available.',
+    titleTag: 'Picture Sudoku Generator for KDP Puzzle Books | LCS',
+    metaDescription: 'Create picture sudoku puzzles to sell on Etsy & KDP. 4x4 image grids, 3 difficulty levels, auto answer keys, commercial license. Try free with watermark.',
   },
 
   hero: {
-    title: 'Picture Sudoku Worksheet Generator for 4×4 Image Logic Puzzles',
+    title: 'Create Picture Sudoku Puzzles for KDP Puzzle Books & Etsy',
     tagline: 'Visual-only 4×4 sudoku puzzles using images instead of numbers — three difficulty levels from 4 to 8 blank cells, auto-generated answer keys with complete filled grids, and theme-based image selection across 104 collections for puzzles that sell worldwide without translation.',
     description:
-      'Build professional 4×4 picture sudoku worksheets where solvers fill blank cells with the correct images using row-and-column logic. Each puzzle uses exactly 4 unique images that must appear once in every row and once in every column — the same rules as classic sudoku, but with colorful illustrations instead of numbers. Choose from three difficulty levels: Easy removes 4 cells, Medium removes 6, and Hard removes 8 — half the grid. Select images through theme-based auto-selection that randomly picks 4 images from any of 104 themed collections, or manually choose exactly 4 images from the library, search, or your own uploads. The premium grid design features alternating 2×2 block colors in light blue and light pink, multi-layered shadows, and an indigo outer border with rounded corners. Every puzzle includes an auto-generated \"Picture Sudoku\" header localized in all 11 languages and a dual-canvas answer key showing the complete filled grid with all 16 cells populated. Add background themes and border themes with independent opacity controls, then export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Because picture sudoku is entirely visual — no words appear on the puzzle grid — every worksheet works identically in all 11 languages, making your products sellable worldwide without any modification. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Whether you sell themed sudoku bundles on Etsy, compile logic workbooks for Amazon KDP, or list reasoning activities on Gumroad, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Sudoku books are a proven top-seller on Amazon KDP -- and picture sudoku adds visual appeal that standard number versions lack. This generator creates professional 4x4 picture sudoku puzzles where solvers fill blank cells with themed images using row-and-column logic. Three difficulty levels from 4 to 8 blank cells let you build progressive puzzle books from easy to challenging. Choose from 3,000+ themed illustrations across 104 collections to match any niche. Every puzzle exports as a 300 DPI print-ready PDF with automatic answer keys and full commercial license. The purely visual format works worldwide without translation, and the 4x4 grid is perfect for younger solvers -- an audience standard 9x9 sudoku doesn\'t serve. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Picture Sudoku Worksheets in 5 Steps',
+    title: 'How to Create Picture Sudoku Puzzles Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Picture Sudoku Generator',
+    title: 'Why Picture Sudoku Books Sell on Amazon KDP',
     features: [
       {
         title: '4×4 Picture Sudoku with Images Instead of Numbers',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Sudoku Worksheets Online',
+    title: 'Sell Sudoku Puzzle Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Picture Sudoku Bundles on Etsy',
@@ -204,63 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'missing-pieces-worksheets',
-      anchorText: 'Missing Pieces Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'odd-one-out-worksheets',
-      anchorText: 'Odd One Out Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-path-worksheets',
-      anchorText: 'Picture Path Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'math-puzzle-worksheets',
-      anchorText: 'Math Puzzle Worksheet Generator',
+      anchorText: 'Math puzzles for complementary logic puzzle bundles',
     },
     {
       pageType: 'app',
-      slug: 'pattern-worksheets',
-      anchorText: 'Pattern Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'puzzles-logic-bundle',
-      anchorText: 'Puzzles & Logic Bundle — All Puzzle Apps in One Package',
+      slug: 'missing-pieces-worksheets',
+      anchorText: 'Missing pieces puzzles for visual puzzle variety',
     },
     {
       pageType: 'guide',
       slug: 'sudoku-books-kdp',
-      anchorText: 'How to Create and Sell Sudoku Books on Amazon KDP',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Logic Puzzle Printable Ideas for Worksheets',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Ideas for Primary Education',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Ideas for Growing Learners',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activity-books',
-      anchorText: 'Publish Activity Books on Amazon KDP',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-picture-sudoku',
-      anchorText: 'How to Create Picture Sudoku for Kids',
+      anchorText: 'Guide to creating sudoku books for Amazon KDP',
     },
   ],
 

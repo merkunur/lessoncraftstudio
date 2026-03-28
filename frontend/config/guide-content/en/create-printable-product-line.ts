@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create a printable product line',
+    primaryKeyword: 'how to create a printable product line',
     secondaryKeywords: [
-      'printable product line strategy',
-      'build a worksheet product line',
-      'how to build a printable catalog',
-      'product line for printable business',
+      'build printable product line guide',
+      'printable product line strategy Etsy',
+      'create cohesive worksheet product line',
+      'product line planning for printable sellers',
     ],
     lsiKeywords: [
-      'product catalog product consistency brand cohesion product progression catalog strategy',
-      'product roadmap product templates visual branding naming conventions catalog depth',
-      'product series design language layout patterns brand recognition store identity',
-      'systematic expansion grade extension format variation theme consistency product grid',
-      'cross-selling catalog navigation store organization product sequencing market coverage',
-      'visual identity product hierarchy complementary products product ecosystem line cohesion',
+      'printable product line strategy',
+      'product catalog planning',
+      'cohesive product branding',
     ],
-    titleTag: 'How to Create a Printable Product Line — Guide',
-    metaDescription: 'Learn how to create a printable product line with consistent branding, strategic product sequencing, and systematic expansion to build a cohesive catalog.',
+    titleTag: 'How to Create a Printable Product Line | LCS',
+    metaDescription: 'Guide to creating a cohesive printable product line. Product planning, catalog structure, and cross-selling strategies for Etsy and KDP sellers.',
   },
 
   hero: {
     title: 'How to Create a Printable Product Line',
     tagline: 'A complete guide to building a cohesive printable product line that drives brand recognition and repeat purchases — covering product line identity and structure, visual consistency across your catalog, naming conventions that build recognition, strategic product sequencing, catalog organization for easy navigation, and systematic expansion methods for long-term growth',
-    description: 'A product line transforms a random collection of printable worksheets into a recognizable brand that buyers return to again and again. Instead of creating isolated products that compete with thousands of similar listings, a cohesive product line builds catalog depth, visual consistency, and buyer trust that compounds over time. This guide covers the complete framework for planning, building, and expanding a printable product line that works across Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica, and any other platform where you sell educational resources.',
+    description: 'A cohesive product line sells more than scattered individual listings — buyers who find one product they like want to see what else you offer. This guide covers building a printable product line from the ground up: planning your catalog structure, creating consistent visual branding across products, building cross-selling paths between listings, and expanding strategically into adjacent niches. You\'ll learn how to use our 33 generators to build a complete, interconnected product catalog that drives repeat purchases and higher lifetime customer value.',
   },
 
   introduction: 'Most printable sellers start the same way: they create a worksheet, list it, then create another unrelated worksheet and list that too. Over months, their store accumulates dozens of products with different visual styles, inconsistent naming, and no logical relationship between them. Each product stands alone, competing individually against thousands of similar listings. Every new product launch starts from zero because nothing in the catalog reinforces anything else.\n\nA product line takes the opposite approach. Every product you create fits into a deliberate structure — unified by visual design, connected through consistent naming, organized by clear categories, and sequenced to build on what came before. When a buyer discovers one product in your line and likes the quality, they can immediately see ten more products that match the same standard, cover related topics, and look like they belong together. That visual and structural consistency is what turns one-time buyers into repeat customers.\n\nThe business impact of a product line versus a random catalog is substantial. Sellers with cohesive product lines report higher average order values because buyers purchase multiple related products in a single session. They see stronger organic search performance because product titles and descriptions reinforce each other with consistent keyword patterns. They experience lower customer acquisition costs because each satisfied buyer returns for additional products without additional marketing spend. And they build genuine brand recognition — buyers learn to look specifically for their products rather than browsing generic search results.\n\nThis guide covers the complete framework for building a printable product line from the ground up: defining your line\'s identity, planning its structure, establishing visual consistency, creating naming conventions, sequencing products strategically, organizing your catalog for navigation, and expanding systematically over time. The principles apply whether you sell on a single platform or across multiple marketplaces. For platform-specific listing tactics, reference the dedicated platform guides linked throughout.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create and Sell Coloring Pages on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'How to Create Matching Worksheets for Preschool' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selection for printable business' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Create worksheet bundles that sell' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Create worksheets that sell' },
   ],
 
   toolsRecommended: [

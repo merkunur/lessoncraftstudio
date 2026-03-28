@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'pattern recognition worksheet',
+    primaryKeyword: 'free pattern recognition worksheet maker',
     secondaryKeywords: [
-      'pattern worksheet maker for sellers',
-      'create pattern completion worksheets to sell',
-      'printable pattern sequence worksheets commercial use',
-      'grid-based pattern worksheet generator for KDP',
+      'make pattern recognition worksheets free online',
+      'visual pattern generator no signup',
+      'free sequence worksheet maker',
+      'pattern worksheets free trial',
     ],
     lsiKeywords: [
-      'visual pattern recognition printables for Etsy',
-      'zero-text pattern completion worksheet tool',
-      'AB ABC ABCD pattern sequence worksheet maker',
+      'free pattern recognition tool online',
+      'instant pattern maker',
+      'try before you buy sequence tools',
     ],
-    titleTag: 'Pattern Recognition Worksheet Maker | Create & Sell',
-    metaDescription: 'Generate pattern worksheets with nine types, two question modes, per-exercise config, auto answer keys, and 104 themed images. Try free — license available.',
+    titleTag: 'Free Pattern Recognition Worksheet Maker | LCS',
+    metaDescription: 'Make pattern recognition worksheets free online with watermark — no signup. Visual sequences, themed images, answer keys. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Pattern Worksheet Maker',
+    title: 'Make Pattern Recognition Worksheets Free Online',
     tagline: 'Generate grid-based pattern recognition worksheets with nine pattern types, two question modes, per-exercise independent configuration, and fully visual zero-text output that sells worldwide without translation',
-    description: 'Create professional pattern completion worksheets where solvers identify repeating sequences and fill in the missing item or choose the correct answer from multiple-choice options. Nine distinct pattern types cover the widest range of sequence complexity available: AB alternates two items, AAB and ABB introduce asymmetric groupings, ABC rotates three different items, AABB pairs two of each, ABBC and AABC add three-image asymmetric patterns, ABCC extends with doubled endings, and ABCD rotates four different items for maximum challenge. Two question modes create fundamentally different exercises from every pattern type: Blank Box replaces one item with an empty space for open-ended reasoning, while Choose from Options presents the blank plus three answer choices with one correct and two distractors. Configure 1–8 exercises per page with each exercise independently set for pattern type, question mode, and theme — one page can mix an AB fill-in warm-up with an ABCD multiple-choice challenge. Enable Random Start to begin patterns mid-cycle and Random Blank Position to place the missing item anywhere in the sequence. The standard grid-based rows-and-columns layout arranges exercises cleanly for assessment-ready output. Every worksheet is fully visual with images only and zero text on the output — no words appear on the generated page, making your products universally sellable without translation. One listing serves every market worldwide. Draw from 3,100+ illustrations across 104 themed collections or upload your own images. A separate answer key tab shows all blanks filled with the correct pattern items. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create visual pattern recognition worksheets right now — free, instant, no account required. Each worksheet presents image sequences where learners identify, extend, and complete patterns using themed illustrations. Configure pattern complexity and length to target different age groups and skill levels. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell pattern worksheets on Etsy or compile cognitive skills workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Pattern Recognition Worksheets in 8 Steps',
+    title: 'How to Make Pattern Recognition Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Pattern Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Pattern Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big & Small Worksheet Maker' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Free pattern train worksheet maker' },
+    { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'How to create pattern worksheets to sell' },
   ],
 
   visuals: {

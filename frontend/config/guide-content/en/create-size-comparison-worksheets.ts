@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create size comparison worksheets',
+    primaryKeyword: 'create size comparison worksheets to sell',
     secondaryKeywords: [
-      'big and small worksheets for kids',
-      'size discrimination worksheet generator',
-      'printable size comparison worksheets to sell',
-      'size ordering worksheets for preschool',
+      'make big and small worksheets for Etsy',
+      'create size discrimination printables for KDP',
+      'size comparison creation guide',
+      'sell visual discrimination worksheets online',
     ],
     lsiKeywords: [
-      'visual size discrimination activities',
-      'zero-text worksheets for international sales',
-      'circle the big one worksheets',
-      'sell size comparison worksheets on Etsy',
-      'Amazon KDP size ordering activity books',
-      'commercial license size worksheet tool',
+      'size comparison product creation',
+      'early learning worksheet business',
+      'sellable visual discrimination products',
     ],
-    titleTag: 'Create Size Comparison Worksheets — Step-by-Step Guide',
-    metaDescription: 'How to create size comparison worksheets with 5 question types and 2 image modes. Zero-text output sells worldwide. Step-by-step guide for Etsy, KDP, and Gumroad.',
+    titleTag: 'Create Size Comparison Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating size comparison worksheets to sell. Five question types, themes, and strategies for Etsy and KDP early learning sellers.',
   },
 
   hero: {
-    title: 'How to Create Size Comparison Worksheets',
+    title: 'Create Size Comparison Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating size discrimination worksheets with five question types and zero-text output you can sell worldwide on Etsy, Amazon KDP, and Gumroad',
-    description: 'Size comparison is one of the earliest visual skills children develop, and worksheets that practice this skill have year-round demand from buyers, and early learning centers. This guide walks you through the entire creation process using the Big & Small Worksheet Maker — from choosing among five question types and two image modes to configuring exercise density, generating automatic answer keys, and exporting print-ready files. The tool produces fully visual worksheets with zero text on the output, meaning your products sell to buyers in any country without translation. Whether you are creating your first printable product or expanding an existing early learning catalog, you will have finished worksheets ready to list by the end of this tutorial.',
+    description: 'Size comparison worksheets target the massive early learning market — parents and preschool teachers use them to build visual discrimination and classification skills. This guide shows you how to create professional big-and-small worksheets designed to sell: leveraging five question types for product variety, using identical vs different image modes for distinct difficulty tiers, and building themed bundles that cover the preschool through kindergarten age range. You\'ll learn how the purely visual format makes your products sellable worldwide without translation.',
   },
 
   introduction: 'Size discrimination is a foundational visual-cognitive skill that children begin developing before they can read, write, or count. Recognizing that one object is bigger than another, ordering items from smallest to largest, and identifying the medium-sized option in a group — these skills underpin mathematical reasoning, spatial awareness, and everyday problem-solving. That developmental importance translates into sustained marketplace demand for size comparison worksheets across preschool, kindergarten, and early elementary age groups.\n\nWhat makes size comparison worksheets exceptionally strong as a printable product is their zero-text output. The Big & Small Worksheet Maker generates worksheets that contain only images and visual indicators — no words appear on the finished page. This means a worksheet created in one session sells identically to buyers in every country, every language, and every literacy level. You do not need separate product versions for English, German, French, or Spanish markets. One listing, one file, universal sellability. This is a concrete competitive advantage over text-based worksheet generators where every product requires translation and separate marketplace listings.\n\nThe tool offers five distinct question types that create a natural difficulty progression. Circle the Big One is the simplest identification task. Circle the Small One requires slightly more careful comparison. Circle the Medium One introduces a third size level and elimination reasoning. Number 1–2–3 Small to Big and Big to Small shift from identification to multi-step sequencing. Each question type targets a different cognitive skill, and each creates a separate product you can list on marketplaces.\n\nTwo image modes double your product variety from the same tool. Identical Images mode shows the same picture at different sizes, isolating pure size perception. Different Images mode shows distinct objects at different sizes, requiring relative size reasoning. These modes create fundamentally different exercises that appeal to different buyer needs.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can test all five question types, both image modes, every theme, and the full export pipeline before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Big & Small Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'More or Less Comparison Generator — Full Details' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Try the Big & Small Worksheet Maker' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Size comparison worksheet generator' },
+    { pageType: 'guide', slug: 'create-sorting-worksheets', anchorText: 'Create sorting worksheets to sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

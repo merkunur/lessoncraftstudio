@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'draw & color generator',
+    primaryKeyword: 'draw and color activity maker for Etsy printable shop',
     secondaryKeywords: [
-      'printable grid drawing worksheet maker for Etsy sellers',
-      'custom draw and color worksheet generator for KDP publishers',
-      'sell grid-based drawing worksheets on Gumroad or your own store',
-      'draw and color worksheets commercial license',
+      'create draw and color worksheets for Etsy',
+      'grid drawing printables for Amazon KDP',
+      'draw and color worksheets with commercial license',
+      'sell art activity worksheets online',
     ],
     lsiKeywords: [
-      'digital grid drawing printables online business',
-      'printable cell-by-cell reproduction worksheet business',
-      'commercial use draw and color worksheet generator',
+      'art activity printable niche',
+      'sell drawing worksheets commercially',
+      'creative worksheet products Etsy',
     ],
-    titleTag: 'Draw & Color Generator | Create Grid Art Worksheets',
-    metaDescription: 'Create grid drawing worksheets to sell on Etsy, KDP & Gumroad. Dual grid system, adjustable clue percentage, symmetry modes. Try free — license available.',
+    titleTag: 'Draw and Color Activity Maker for Etsy | LCS',
+    metaDescription: 'Create draw and color worksheets to sell on Etsy & KDP. Grid drawing activities, themed images, 104 collections, commercial license. Try free with watermark.',
   },
 
   hero: {
-    title: 'Draw & Color Worksheet Generator for Grid-Based Drawing Exercises',
+    title: 'Create Draw and Color Worksheets to Sell on Etsy & KDP',
     tagline: 'Dual grid system — practice grid and clue grid side by side — with adjustable clue percentage from 10% to 75%, horizontal and vertical symmetry modes, and 100+ black & white outline themes for drawing and coloring activities.',
     description:
-      'Design professional grid drawing worksheets where users reproduce a reference image by copying it cell-by-cell from a clue grid into a blank practice grid. Two grids appear per selected image: a Practice Grid with empty cells for drawing, and a Clue Grid showing a configurable percentage of the reference image as visual hints. Adjust the clue percentage from 10% to 75% to control difficulty — fewer clues mean harder exercises that demand sharper observation. Configure grid dimensions from 3x3 (9 cells) to 10x10 (100 cells), with rows and columns adjustable independently from 3 to 10. Three symmetry modes add a spatial reasoning dimension: Random places clues in scattered positions, Horizontal mirrors clues left-to-right, and Vertical mirrors clues top-to-bottom, each with a part-to-reveal selector. Content draws from the built-in B&W outline theme library with 100+ collections featuring 3,000+ black & white illustrations specifically designed for drawing and coloring — not colorful themes, but clean outlines that users reproduce and then color in. This is a purely visual app: worksheets contain only grid images with no text, making them universally usable regardless of language. No answer key is needed because the clue grid itself serves as the reference solution. Full Access unlocks all 100+ B&W themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell grid drawing bundles on Etsy, compile drawing skills workbooks for Amazon KDP, or list spatial reasoning products on Gumroad, the Draw & Color Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Draw and color worksheets combine two activities kids love — drawing and coloring — into a single product format that stands out on Etsy. This maker creates professional grid-based drawing activities where learners copy images cell by cell, then color their creation. Choose from 3,000+ themed illustrations across 104 collections as drawing reference images. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. Art activity printables are a growing niche with strong demand from parents seeking screen-free creative activities. Build themed drawing bundles for Etsy or compile art workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Grid Drawing Worksheets in 5 Steps',
+    title: 'How to Create Draw and Color Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Draw & Color Worksheet Generator',
+    title: 'Why Art Activity Worksheets Sell on Etsy & KDP',
     features: [
       {
         title: 'Dual Grid System: Practice Grid and Clue Grid',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Grid Drawing Worksheets Online',
+    title: 'Sell Drawing Activity Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Grid Drawing Activity Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'pattern-worksheets',
-      anchorText: 'Pattern Worksheet Generator',
+      slug: 'coloring-worksheets',
+      anchorText: 'Coloring pages for complementary art bundles',
     },
     {
       pageType: 'app',
       slug: 'drawing-lines-worksheets',
-      anchorText: 'Drawing Lines Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'coloring-worksheets',
-      anchorText: 'Coloring Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'visual-learning-bundle',
-      anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids Activities',
-    },
-    {
-      pageType: 'idea',
-      slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-business',
-      anchorText: 'Build Your Etsy Printable Business',
+      anchorText: 'Line tracing worksheets for fine motor skill products',
     },
     {
       pageType: 'guide',
       slug: 'create-drawing-worksheets',
-      anchorText: 'How to Create Drawing Worksheets',
+      anchorText: 'Guide to creating drawing worksheets that sell',
     },
   ],
 

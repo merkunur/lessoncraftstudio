@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'scale printable business',
+    primaryKeyword: 'scale from side hustle to full-time printables',
     secondaryKeywords: [
-      'grow printable business full time',
-      'scaling etsy printable shop',
-      'printable business expansion strategy',
-      'side hustle to full time printables',
+      'scale printable business guide',
+      'grow worksheet business full-time',
+      'printable business scaling roadmap',
+      'side hustle to full-time printable income',
     ],
     lsiKeywords: [
-      'catalog expansion for printable sellers',
-      'multi-platform distribution for worksheets',
-      'bundling strategy for digital downloads',
-      'production workflow optimization printables',
-      'multilingual market expansion printables',
-      'reinvestment strategy for printable business',
+      'printable business scaling',
+      'full-time digital product income',
+      'grow printable business',
     ],
-    titleTag: 'Scale Printable Business — Side Hustle to Full-Time',
-    metaDescription: 'How to scale your printable business from side hustle to full-time. Covers catalog expansion, multi-platform distribution, bundling, and workflow automation.',
+    titleTag: 'Scale to Full-Time Printable Business | LCS',
+    metaDescription: 'How to scale from side hustle to full-time printable business. Growth milestones, automation, multi-platform expansion, and revenue strategies.',
   },
 
   hero: {
-    title: 'Scaling from Side Hustle to Full-Time Printable Business',
+    title: 'Scale from Side Hustle to Full-Time Printable Business',
     tagline: 'Strategic growth framework for printable sellers — from catalog expansion and multi-platform distribution to bundling strategy and workflow optimization, the operational playbook for scaling beyond a side project',
-    description: 'Starting a printable business and scaling a printable business require fundamentally different skills. The creativity and enthusiasm that launch your first products give way to systems thinking, data-driven decisions, and production discipline as you grow. This guide provides a concrete framework for each growth phase: from your first 25 listings through catalog maturity at 300 or more products. You will learn how to expand your catalog systematically, distribute across multiple platforms, bundle products for higher average order value, optimize your production workflow, and expand into multilingual markets. Every strategy connects directly to the worksheet generator tools available through the free trial with watermark, so you can implement scaling tactics as you read them.',
+    description: 'The leap from side hustle to full-time printable business requires more than just creating more products — it requires systems, automation, and strategic expansion. This guide maps the scaling journey: revenue milestones that signal readiness to go full-time, automation strategies that multiply output without multiplying hours, multi-platform expansion tactics, and the mindset shifts that separate six-figure sellers from hobbyists. You\'ll learn the specific actions at each growth stage that build sustainable, scalable revenue.',
   },
 
   introduction: 'Most printable sellers hit a plateau. They launch a shop, list their first dozen products, generate some initial sales, and then watch their growth flatten. The reason is almost always the same: they keep doing starting activities when they should be doing scaling activities. Starting a printable business means creating your first product and getting it listed. Scaling a printable business means building systems that produce, distribute, and optimize products efficiently across platforms and markets.\n\nThe shift from side hustle to scalable business is not about working more hours. It is about working differently. A side hustle seller creates one product per session, lists it on one platform, and hopes for sales. A scaling seller batch-produces ten products per session, distributes across four platforms, rotates seasonal keywords monthly, and uses analytics to double down on what converts. Same number of hours, dramatically different output and results.\n\nThis guide provides a milestone-based growth framework rather than vague encouragement. Each growth phase — from initial validation through full-time viability — has specific operational priorities, different challenges, and distinct metrics that matter. The framework is built around printable worksheet businesses specifically, using the tools and platforms most relevant to this product category.\n\nScaling also requires investment decisions. What to reinvest revenue into, and in what order, determines whether your business grows efficiently or bleeds money into low-return activities. The reinvestment framework in this guide prioritizes production capacity first, optimization second, and paid acquisition last — matching how successful printable businesses actually grow. Every recommendation connects to tools available through the free trial with watermark, so you can start implementing immediately.',
@@ -207,18 +204,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing Your Printable Business Online' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'start', slug: 'tools-for-printable-business', anchorText: 'Essential Tools for Printable Business Owners' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw & Color Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Try the Draw & Color Maker' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to scale your printable business' },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'Automate your printable business' },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: 'How much can you make selling printables' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Market your printable business online' },
   ],
 
   visuals: {

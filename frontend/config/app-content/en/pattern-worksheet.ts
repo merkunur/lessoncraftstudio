@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern worksheet generator',
+    primaryKeyword: 'pattern recognition worksheet maker for Etsy sellers',
     secondaryKeywords: [
-      'printable pattern completion worksheet maker for Etsy sellers',
-      'custom pattern recognition worksheet generator for KDP publishers',
-      'sell pattern sequence worksheets on Gumroad',
-      'pattern worksheets commercial license',
+      'create pattern recognition worksheets for Etsy',
+      'visual pattern printables for Amazon KDP',
+      'pattern worksheets with commercial license',
+      'sell pattern activities online',
     ],
     lsiKeywords: [
-      'digital pattern completion printables online business',
-      'printable visual pattern worksheet business',
-      'commercial use pattern recognition worksheet generator',
+      'visual pattern printable niche',
+      'sell pattern worksheets commercially',
+      'cognitive skills worksheet products',
     ],
-    titleTag: 'Pattern Worksheet Generator | Create & Sell Online',
-    metaDescription: 'Create pattern worksheets to sell on Etsy, KDP & Gumroad. Nine pattern types, two question modes, per-exercise config, 104 themes. Try free — license available.',
+    titleTag: 'Pattern Recognition Worksheet Maker for Etsy | LCS',
+    metaDescription: 'Create pattern recognition worksheets to sell on Etsy & KDP. Visual sequence activities, themed images, auto answer keys, commercial license. Try free.',
   },
 
   hero: {
-    title: 'Pattern Worksheet Generator for Grid-Based Pattern Completion Exercises',
+    title: 'Create Pattern Recognition Worksheets to Sell on Etsy & KDP',
     tagline: 'Nine pattern types from AB to ABCD — two question modes (fill-in-the-blank and multiple choice) — with per-exercise independent configuration for pattern type, question mode, and theme on every page.',
     description:
-      'Design professional pattern completion worksheets where solvers identify repeating sequences and fill in the missing item — or choose the correct answer from multiple-choice options. Nine distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB and ABB introduce asymmetric groupings, ABC rotates three items, AABB pairs two of each, ABBC and AABC add three-image asymmetric patterns, ABCC extends with doubled endings, and ABCD rotates four different items for maximum challenge. Two question modes create fundamentally different exercises from every pattern type: Blank Box replaces one item with an empty space to fill in, while Choose from Options presents the blank plus three answer choices with one correct and two distractors. Configure 1–8 exercises per page with each exercise independently set for pattern type, question mode, and theme — one page can mix an AB blank-box exercise with an ABCD multiple-choice exercise. Enable Random Start to begin patterns mid-cycle and Random Blank Position to place the missing item anywhere in the sequence for added difficulty. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all blanks filled with the correct pattern items for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only in grid rows and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build a niche store on Gumroad, the Pattern Worksheet Generator delivers the widest variety of pattern exercises available — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Pattern recognition worksheets build critical thinking skills that parents and educators actively seek -- making them a reliable seller on Etsy and Amazon KDP year-round. This maker creates professional visual pattern activities where learners identify, extend, and complete image sequences using themed illustrations. Choose from 3,000+ images across 104 collections, configure pattern complexity and length, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Pattern worksheets pair naturally with other early learning formats for comprehensive bundles that command premium prices. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Pattern Worksheets in 5 Steps',
+    title: 'How to Create Pattern Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Pattern Worksheet Generator',
+    title: 'Why Pattern Recognition Worksheets Sell Year-Round',
     features: [
       {
         title: 'Nine Pattern Types from Simple AB to Complex ABCD',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Pattern Worksheets Online',
+    title: 'Sell Pattern Workbooks on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Pattern Completion Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
+      anchorText: 'Pattern train activities for complementary pattern bundles',
     },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'drawing-lines-worksheets',
-      anchorText: 'Drawing Lines Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'coloring-worksheets',
-      anchorText: 'Coloring Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'visual-learning-bundle',
-      anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Ideas for Primary Education',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Ideas for Growing Learners',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activity-books',
-      anchorText: 'Publish Activity Books on Amazon KDP',
+      slug: 'big-small-worksheets',
+      anchorText: 'Size comparison worksheets for cognitive skill variety',
     },
     {
       pageType: 'guide',
       slug: 'create-pattern-worksheets',
-      anchorText: 'How to Create Pattern Recognition Worksheets',
+      anchorText: 'Guide to creating pattern worksheets that sell',
     },
   ],
 

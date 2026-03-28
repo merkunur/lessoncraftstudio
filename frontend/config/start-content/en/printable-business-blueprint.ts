@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printable business ideas',
+    primaryKeyword: 'printable business blueprint from idea to income',
     secondaryKeywords: [
-      'printable business blueprint',
-      'printable business plan for sellers',
-      'profitable printable product ideas',
-      'start a printable product line',
+      'printable business roadmap guide',
+      'idea to income printable plan',
+      'printable business step by step blueprint',
+      'build printable business from scratch',
     ],
     lsiKeywords: [
-      'Etsy printable shop planning',
-      'Amazon KDP product strategy',
-      'worksheet business revenue goals',
-      'printable catalog expansion',
-      'product line mapping for sellers',
-      'printable business launch checklist',
+      'printable business planning',
+      'digital product roadmap',
+      'printable income blueprint',
     ],
-    titleTag: 'Printable Business Ideas — Blueprint to Income',
-    metaDescription: 'Turn printable business ideas into a structured blueprint. Plan your product line, choose platforms, set pricing, and launch with worksheet generators.',
+    titleTag: 'Printable Business Blueprint: Idea to Income | LCS',
+    metaDescription: 'Your printable business blueprint from idea to income. Step-by-step roadmap covering niche selection, product creation, launch, and scaling strategies.',
   },
 
   hero: {
-    title: 'The Printable Business Blueprint: From Idea to Income',
+    title: 'Printable Business Blueprint: From Idea to Income',
     tagline: 'A structured plan that turns scattered printable business ideas into a focused, revenue-generating product line',
-    description: 'Most printable businesses fail not because the seller lacked ideas, but because they lacked a plan. This blueprint walks you through every planning stage: validating your printable business idea, mapping your product line, choosing the right platforms, setting realistic revenue goals, and launching with a clear action plan. Whether you are starting from scratch or restructuring an underperforming shop, this guide gives you the strategic framework that separates sellers who build sustainable income from those who create random products and hope for the best.',
+    description: 'This blueprint maps the complete journey from your first product idea to consistent printable income — every decision point, every milestone, and every pitfall to avoid along the way. You\'ll learn how to validate a niche before investing time, create products that meet market demand, launch on the right platform, and scale beyond your first sales. Unlike general business advice, every strategy in this blueprint is specific to printable products and the marketplaces where they sell.',
   },
 
   introduction: 'The internet is full of printable business ideas. Browse any entrepreneur forum and you will find lists of "50 printables you can sell today" or "best digital products for Etsy." The ideas are not the problem. The problem is that most sellers skip the planning stage entirely.\n\nThey pick a random idea, create a handful of products, list them on Etsy, and wonder why nothing sells after two weeks. Then they pick a different idea and repeat the same cycle. Six months later, they have a scattered shop with 15 unrelated products, no clear brand, and zero momentum.\n\nThe sellers who build real income from printables approach it differently. They start with a blueprint — a structured plan that maps their niche, product line, platform strategy, pricing, and growth milestones before they create a single product. That plan does not need to be complex, but it does need to exist.\n\nThis guide is that blueprint. By the end, you will have a concrete plan covering your first 50 products, your platform strategy, your pricing structure, and your 90-day launch timeline. Every worksheet generator mentioned offers a free trial with watermark, so you can test product creation as part of your planning process without any upfront cost.',
@@ -207,17 +204,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Try the Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete guide to starting a printable business' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selection for printable business' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing strategies for printables' },
+    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Scale to full-time printable business' },
   ],
 
   visuals: {

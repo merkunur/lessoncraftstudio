@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Math Facts Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover math facts printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Niche strategies for sellers targeting buyers and parents who need practice.',
+    titleTag: 'Math Facts Printable Business Ideas | LCS',
+    metaDescription: 'Math facts printable business ideas for Etsy & KDP. Drill format concepts and strategies for math fluency printable sellers.',
 
-    primaryKeyword: 'math facts printable ideas',
+    primaryKeyword: 'math facts printable business ideas',
     secondaryKeywords: [
-      'math fact worksheets to sell',
-      'math drill printable business ideas',
-      'arithmetic activity sheets for sellers',
-      'sell math facts printables on Gumroad',
+      'math facts worksheets for Etsy sellers',
+      'math drill books for Amazon KDP',
+      'sell math facts printables online',
+      'arithmetic practice printable products',
     ],
     lsiKeywords: [
-      'number fluency practice worksheets',
-      'timed math drill printable pages',
-      'basic arithmetic educational resources',
+      'math facts printable niche',
+      'arithmetic drill business',
+      'math fluency products',
     ],
   },
   hero: {
     title: 'Math Facts Printable Business Ideas for Sellers',
-    description: 'Math facts printables represent an evergreen, year-round, high-volume market where buyers, parents, tutors, homeschool families, and math intervention specialists purchase math fact fluency worksheets, timed practice drills, computational mastery materials, and fact family activities across all four operations including addition, subtraction, multiplication, and division. Math fact fluency is a universal educational priority from kindergarten through fifth grade creating massive sustained demand that never diminishes regardless of season, curriculum changes, or educational trends because the fundamental requirement for learners to achieve computational automaticity remains constant across every school system, tutoring program, and homeschool curriculum worldwide. The niche is uniquely repeatable because learners need ongoing daily practice creating consumable demand where worksheets are used once and discarded, meaning the same families and buyers return repeatedly for fresh practice materials throughout the entire school year rather than making a single purchase that satisfies their needs permanently. Every school, tutoring center, learning center, after-school program, and homeschool family worldwide needs math fact practice materials, making this one of the largest addressable markets in the educational printable space with demand spanning every geographic region, language, and educational system because arithmetic operations are universal across cultures and curricula. The simplicity of math fact worksheet formats makes them exceptionally efficient to produce at scale compared to more complex educational content that requires extensive research, subject expertise, or elaborate design work, meaning sellers can build comprehensive product catalogs quickly covering every operation, difficulty level, and grade range that buyers search for on marketplace platforms. Each of the four fundamental operations represents a distinct product category with its own buyer search terms, difficulty progressions, and grade-level alignment, effectively giving sellers four parallel product lines within a single niche that compound together to create comprehensive catalogs attractive to buyers and parents seeking one-stop solutions for complete math fact fluency programs. Addition facts serve kindergarten through second grade learners building foundational computational skills, subtraction facts target first through third grade learners developing inverse operation understanding, multiplication facts address the massive third through fifth grade market where times tables mastery is a universal curriculum milestone every learner must achieve, and division facts complete the operational fluency sequence for upper elementary learners preparing for fraction and decimal work. Timed tests and mad minute formats create particularly strong demand because buyers universally use speed-based assessment to measure computational fluency, and these timed practice worksheets are consumed daily in learning settings worldwide creating enormous recurring demand from professional sellers who need fresh assessment materials continuously throughout the school year. Fact family worksheets connecting related operations build conceptual understanding alongside procedural fluency, and parents and tutors specifically search for materials that develop both speed and comprehension rather than rote memorization alone, creating a product differentiation opportunity for sellers who provide conceptually rich materials alongside traditional drill formats. The math facts niche requires no specialized subject knowledge beyond basic arithmetic, no seasonal timing strategies, no trend monitoring, and no complex design skills, making it one of the most accessible and low-barrier niches for new printable sellers while simultaneously maintaining enough demand volume that experienced sellers with large catalogs continue generating consistent sales indefinitely. For printable sellers and entrepreneurs building product lines on Etsy, Amazon KDP, Gumroad, and direct sales platforms, the math facts niche combines massive evergreen demand with efficient production, clear product differentiation by operation and grade level, multiple buyer segments spanning buyers through individual parents, and the reliable year-round purchasing patterns that create stable predictable revenue rather than seasonal spikes requiring careful timing and advance preparation. This guide covers specific product ideas built around our worksheet generator tools, platform strategies for capturing math fact fluency demand across every marketplace, and niche positioning approaches to help you build a profitable product line in one of the most consistently high-volume educational printable categories available to digital product entrepreneurs.',
+    description: 'Math facts drills are the single most searched educational printable category — parents and teachers need fluency practice for addition, subtraction, multiplication, and division year-round. This niche guide covers the math facts opportunity: which drill formats sell best, how to create grade-level fact family bundles, and strategies for competing in this high-demand category. Our math generators produce professional drills with answer keys in seconds, letting you build comprehensive fact practice catalogs that cover every operation and difficulty level.',
   },
   marketOverview: `The math facts printable market is one of the highest-volume educational printable niches because math fact fluency is a foundational skill that every learner must master regardless of curriculum, teaching philosophy, geographic location, or educational system. Unlike trendy educational topics that rise and fall with changing pedagogical approaches, the requirement for learners to achieve computational automaticity with basic addition, subtraction, multiplication, and division facts has remained constant for decades and shows no indication of diminishing even as technology transforms other aspects of education. Parents assign daily math fact practice creating consumable repeat demand where worksheets are completed once and discarded, meaning the same settings and families need continuous fresh materials throughout the entire academic year rather than making a single purchase that satisfies their ongoing needs. This consumable nature of math fact practice materials creates a purchasing cycle fundamentally different from most educational content and particularly favorable for sellers because every completed worksheet generates implicit demand for the next one.
 
@@ -143,44 +143,19 @@ Competition exists in the math facts niche but demand is so consistently large t
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Addition generator for math fact drills',
+    },
+    {
+      pageType: 'app',
+      slug: 'math-worksheets',
+      anchorText: 'Math worksheet generator for all operations',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
-    },
-    {
-      pageType: 'idea',
-      slug: 'summer-learning-printable-ideas',
-      anchorText: 'Summer Learning Printable Business Ideas',
+      slug: 'sell-math-worksheets-etsy',
+      anchorText: 'Sell math worksheets on Etsy',
     },
   ],
 

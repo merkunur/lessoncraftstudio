@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create crossword puzzles',
+    primaryKeyword: 'how to create crossword puzzles for selling',
     secondaryKeywords: [
-      'crossword puzzle generator for kids',
-      'printable crossword maker',
-      'crossword puzzles to sell',
-      'custom crossword with image clues',
+      'create picture crossword puzzles for Etsy',
+      'make crossword puzzle books for KDP',
+      'crossword creation guide for sellers',
+      'sell crossword printables online',
     ],
     lsiKeywords: [
-      'image-clue crossword worksheets',
-      'multilingual crossword puzzles',
-      'vocabulary crossword for children',
-      'sell crossword books on KDP',
-      'Etsy crossword printables',
-      'commercial license puzzle tool',
+      'crossword product creation',
+      'puzzle selling business',
+      'sellable crossword products',
     ],
-    titleTag: 'Create Crossword Puzzles — Step-by-Step Guide',
-    metaDescription: 'How to create crossword puzzles for children with image clues. Choose themes, generate intersecting grids, numbered clues, answer keys, sell on Etsy and KDP.',
+    titleTag: 'How to Create Crossword Puzzles for Selling | LCS',
+    metaDescription: 'Guide to creating crossword puzzles for selling on Etsy & KDP. Picture clues, theme selection, and strategies for crossword puzzle sellers.',
   },
 
   hero: {
-    title: 'How to Create Crossword Puzzles for Children',
+    title: 'How to Create Crossword Puzzles for Selling Online',
     tagline: 'A step-by-step tutorial for creating themed crossword puzzles with image clues that you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Crossword puzzles are one of the most recognized and beloved puzzle formats in the world — and the children\'s crossword market is growing fast. Sellers list them for vocabulary reinforcement. Parents use them for spelling practice. Tutors use them to make word study feel like a game rather than a drill. This guide walks you through the entire creation process using the Crossword Puzzle Generator — from choosing between image-based clues and custom word lists to configuring grid layout, reviewing numbered clues, and exporting print-ready PDFs with answer keys. The generator supports 11 languages, making multilingual crossword products a realistic and differentiated niche. Whether you are building your first puzzle product or expanding into crossword books for Amazon KDP, you will have a finished, professional crossword puzzle ready to list by the end of this tutorial.',
+    description: 'Picture crossword puzzles combine the classic crossword format with colorful image clues — creating a unique product that stands out from text-only competitors on Etsy and Amazon KDP. This guide covers creating professional crossword puzzles designed to sell: choosing themes that attract buyers, configuring the four input methods for different product types, and packaging puzzles into themed bundles and activity books. You\'ll learn how the 11-language feature creates genuinely different crossword words per locale, giving you products for multiple international markets from a single tool.',
   },
 
   introduction: 'Crossword puzzles hold a unique position in the educational printable market. Unlike word searches where children scan for hidden words, crosswords require active recall and letter-by-letter spelling accuracy. A child solving a crossword must identify each image clue, recall the correct word, and write every letter in sequence into intersecting grid squares. That combination of visual recognition, vocabulary recall, and spelling precision makes crosswords one of the strongest vocabulary-building tools available in printable format.\n\nThe children\'s crossword category also benefits from strong brand recognition. Adults grew up solving crosswords in newspapers and magazines, so parents and buyers instinctively recognize the format and trust its educational value. That built-in familiarity means less convincing required in your product listings — buyers already know what a crossword is and why it works.\n\nWhat makes this generator particularly powerful is the image-clue format. Traditional crosswords use text-based clue descriptions, which require reading ability that younger children may not have. Image-based crosswords replace text clues with pictures — a child sees a picture of a cat and writes C-A-T into the grid. This makes crosswords accessible to children as young as kindergarten age, dramatically expanding your potential buyer audience compared to text-only crossword products.\n\nThe Crossword Puzzle Generator handles the complex algorithmic work for you. It places 8 words in an intersecting grid where words share common letters at crossing points, assigns numbered positions to each word, generates image clues that match grid numbers, and produces a complete answer key. Two creation modes — theme-based image selection and custom word list with text clues — give you flexibility for both visual products targeting young children and text-clue products for older solvers.\n\nLanguage support is a major differentiator. Because the crossword answers ARE the words, switching languages changes every answer in the grid. A German crossword for an animals theme uses entirely different vocabulary than an English one. This opens multilingual product lines that most competitors never attempt.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample puzzles, test both clue modes, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Crossword Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Puzzle Generator — Full Details' },
-    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Try the Crossword Puzzle Maker' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Crossword puzzle generator' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to publish puzzle books on KDP' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Create word search puzzles with images' },
   ],
 
   toolsRecommended: [

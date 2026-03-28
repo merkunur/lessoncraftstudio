@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'odd one out generator',
+    primaryKeyword: 'odd one out puzzle maker for selling on Etsy and KDP',
     secondaryKeywords: [
-      'printable odd one out puzzle maker for Etsy sellers',
-      'find the different picture worksheet generator for KDP publishers',
-      'odd one out activity creator commercial license',
-      'sell odd one out puzzles on Gumroad',
+      'create odd one out worksheets for Etsy shop',
+      'find the different puzzles for Amazon KDP books',
+      'odd one out printables with commercial license',
+      'sell visual discrimination puzzles online',
     ],
     lsiKeywords: [
-      'digital odd one out printables online business',
-      'commercial use visual discrimination worksheet generator',
-      'printable find the different puzzle business tools',
+      'odd one out printable niche',
+      'sell find the different puzzles commercially',
+      'critical thinking worksheet products',
     ],
-    titleTag: 'Odd One Out Generator | Create & Sell Worksheets',
-    metaDescription: 'Create odd one out worksheets to sell on Etsy, KDP & Gumroad. Two puzzle modes, auto answer key with red circles, 104 themes. Try free — license available.',
+    titleTag: 'Odd One Out Puzzle Maker — Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create odd one out puzzles to sell on Etsy & KDP. Two puzzle modes, auto answer keys with red circles, 104 themes, commercial license. Try free.',
   },
 
   hero: {
-    title: 'Odd One Out Worksheet Generator for Find-the-Different Puzzles',
+    title: 'Create Odd One Out Puzzles to Sell on Etsy & Amazon KDP',
     tagline: 'Two generation modes — Identical and Similar — with per-exercise difficulty override, 5–10 configurable exercises, auto-generated answer keys with red circle markers, and visual-only puzzles that work across all 11 languages without translation.',
     description:
-      'Build professional find-the-different worksheets where solvers identify and circle the odd item in each row of four pictures. Choose between two generation modes: Identical mode places three clones of the same image alongside one different image from the same theme for spot-the-difference challenges, while Similar mode draws three images from Theme A and one image from Theme B for cross-theme discrimination puzzles. Override the mode per exercise to mix difficulty levels within a single worksheet. Configure 5 to 10 exercises per page with the default set to 6, and toggle optional name and date fields and exercise numbers for polished formatting. Every worksheet generates a companion answer key on a separate canvas tab — the answer key draws a red circle around the odd item in each row so you never mark answers manually. The auto-generated header features a coral outer border, amber inner border, and turquoise background with the localized title \"Find the Odd One Out\" rendered in Fredoka and instructions in Quicksand across all 11 languages. Because the puzzles are entirely visual — no words appear on the worksheet itself — they are not language-sensitive and work identically in every locale. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile critical thinking workbooks for Amazon KDP, or list products on Gumroad, this generator delivers production-ready odd one out worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Odd one out puzzles are a universally appealing format that sells well on Etsy and in Amazon KDP activity books — solvers spot the different item in each row, building critical thinking and visual discrimination skills. This maker creates professional find-the-different worksheets with two generation modes: Identical mode for spot-the-difference challenges and Similar mode for cross-theme discrimination puzzles. Configure 5-10 exercises per page and mix difficulty levels within a single worksheet. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys that circle the odd item in red. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Odd One Out Worksheets in 5 Steps',
+    title: 'How to Create Odd One Out Puzzles Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Odd One Out Worksheet Generator',
+    title: 'Why Odd One Out Puzzles Sell on Etsy & KDP',
     features: [
       {
         title: 'Find the Odd One Out Puzzles with Two Generation Modes',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Odd One Out Worksheets Online',
+    title: 'Sell Visual Puzzle Activity Books on Etsy & KDP',
     cases: [
       {
         title: 'Themed Odd One Out Puzzle Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'I Spy worksheets for visual puzzle variety',
+    },
+    {
+      pageType: 'app',
       slug: 'missing-pieces-worksheets',
-      anchorText: 'Missing Pieces Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sudoku-worksheets',
-      anchorText: 'Sudoku Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-path-worksheets',
-      anchorText: 'Picture Path Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-and-count-worksheets',
-      anchorText: 'Find and Count Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'puzzles-logic-bundle',
-      anchorText: 'Puzzles & Logic Toolkit — All 4 Puzzle Generators in One Package',
+      anchorText: 'Missing pieces puzzles for observation skill bundles',
     },
     {
       pageType: 'guide',
       slug: 'create-odd-one-out-puzzles',
-      anchorText: 'How to Create Odd One Out Puzzles That Sell',
-    },
-    {
-      pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Visual Discrimination Printable Ideas for Worksheets',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Ideas for Primary Education',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Ideas for Growing Learners',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activity-books',
-      anchorText: 'Publish Activity Books on Amazon KDP',
+      anchorText: 'Guide to creating odd one out puzzles that sell',
     },
   ],
 

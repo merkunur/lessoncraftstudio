@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create bingo cards',
+    primaryKeyword: 'create bingo cards with images to sell',
     secondaryKeywords: [
-      'make bingo cards with pictures',
-      'bingo card generator for kids',
-      'printable bingo cards to sell',
-      'custom picture bingo maker',
+      'make picture bingo cards for Etsy',
+      'create bingo card sets for KDP',
+      'bingo card creation guide for sellers',
+      'sell bingo printables online',
     ],
     lsiKeywords: [
-      'themed bingo cards for groups',
-      'party bingo printable activities',
-      'sell bingo cards on Etsy',
-      'Amazon KDP bingo activity books',
-      'commercial license bingo tool',
-      'multiple unique bingo cards generator',
+      'bingo product creation',
+      'party game printable business',
+      'sellable bingo products',
     ],
-    titleTag: 'Create Bingo Cards with Themed Images — Guide',
-    metaDescription: 'How to create bingo cards with themed images. Choose grid sizes, generate unique cards with call-out sheets, and export print-ready PDFs to sell on Etsy &.',
+    titleTag: 'Create Bingo Cards with Images to Sell | LCS',
+    metaDescription: 'Guide to creating bingo cards with themed images to sell. Randomized cards, caller sheets, and strategies for Etsy and KDP bingo card sellers.',
   },
 
   hero: {
-    title: 'How to Create Bingo Cards with Themed Images',
+    title: 'Create Bingo Cards with Images to Sell Online',
     tagline: 'A step-by-step tutorial for creating themed, print-ready bingo cards with caller cards you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Bingo cards are one of the most versatile printable products you can create. Sellers list them for vocabulary review and reward activities. Parents use them for birthday parties and family game nights. Event planners use them for baby showers, holiday gatherings, and team-building activities. This guide walks you through the entire creation process using the Bingo Card Maker — from choosing your grid size and theme to generating multiple unique cards with caller cards and exporting everything as print-ready PDFs. Whether you are building your first printable game product or expanding into the high-demand party and group activity market, you will have a complete bingo card set ready to list by the end of this tutorial.',
+    description: 'Bingo cards are among the most versatile printable products — they sell for parties, classrooms, holidays, and family game nights year-round. This guide covers creating professional picture bingo sets designed to sell: choosing themes that match seasonal demand, generating unique randomized cards that ensure no two are alike, and packaging complete sets with caller sheets. You\'ll learn how to use the bingo card generator to produce themed sets for every holiday and occasion, building a catalog that generates repeat sales throughout the year.',
   },
 
   introduction: 'Bingo is one of the few printable products that serves three completely different buyer segments simultaneously. Buyers need themed bingo sets for vocabulary reinforcement, reward activities, and indoor recess. Parents and party planners need custom bingo cards for birthday parties, baby showers, holiday celebrations, and family game nights. And printable sellers need bingo products because they rank among the highest-converting game-format printables on every major marketplace.\n\nWhat makes bingo cards uniquely powerful as a printable product is the built-in requirement for multiple unique cards. Unlike a worksheet where every player gets the same page, bingo requires every player to have a different card. A single bingo game needs 10, 20, or even 30 unique cards — all sharing the same image pool but with randomized placement. This structural requirement means every bingo product is inherently a bundle, which commands higher prices than single-page printables.\n\nThe Bingo Card Maker handles the complexity that makes bingo cards difficult to create manually. It generates multiple unique cards per session, each with randomized image placement from your chosen theme. It produces dedicated caller cards showing every image used across all cards. It supports configurable grid sizes from 3×3 through 5×5, image-only or image-with-word-label display modes, and exports everything as multi-page PDFs or individual JPEGs in a ZIP archive.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample bingo card sets, test every configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Picture Bingo Generator — Full Details' },
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Try the Bingo Card Maker' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo card generator' },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Seasonal marketing for printable sellers' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Create matching worksheets to sell' },
   ],
 
   toolsRecommended: [

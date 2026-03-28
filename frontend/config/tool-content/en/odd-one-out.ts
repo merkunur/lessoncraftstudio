@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'odd one out worksheet',
+    primaryKeyword: 'free odd one out worksheet maker',
     secondaryKeywords: [
-      'odd one out worksheet maker for sellers',
-      'create find the different puzzles to sell',
-      'printable odd one out generator commercial use',
-      'odd one out puzzle maker for KDP and Etsy',
+      'make odd one out worksheets free online',
+      'find the different generator no signup',
+      'free visual discrimination puzzle maker',
+      'odd one out worksheets free trial',
     ],
     lsiKeywords: [
-      'dual-mode identical similar visual discrimination maker',
-      'per-exercise mode override odd one out generator',
-      'auto answer key red circle odd item worksheet creator',
+      'free odd one out tool online',
+      'instant find the different maker',
+      'try before you buy puzzle tools',
     ],
-    titleTag: 'Odd One Out Maker — Odd One Out Worksheet Generator',
-    metaDescription: 'Create odd one out worksheets with Identical and Similar modes, per-exercise overrides, auto answer keys with red circles. Try free — license available.',
+    titleTag: 'Free Odd One Out Worksheet Maker | LCS',
+    metaDescription: 'Make odd one out worksheets free online with watermark — no signup. Two puzzle modes, auto answer keys with red circles, 104 themes. Upgrade for commercial use.',
   },
 
   hero: {
-    title: 'Odd One Out Maker',
+    title: 'Make Odd One Out Worksheets Free Online — No Signup',
     tagline: 'Dual-mode odd one out worksheet generator with Identical mode (3 clones + 1 different from same theme) and Similar mode (3 from Theme A + 1 from Theme B), per-exercise mode override with Clear Selections reset, 5–10 configurable exercises with adaptive 2-column layout, auto-generated answer keys with red circle markers scaled to image size, two-theme system across 104 themed collections, and purely visual puzzles that sell worldwide without translation',
-    description: 'Create professional odd one out worksheets where solvers identify and circle the image that does not belong in each row of four pictures. The generator offers two distinct modes that produce fundamentally different cognitive challenges. Identical mode places three clones of the exact same image alongside one different image from the same theme — solvers spot the non-duplicate by comparing visual details within a single theme. Similar mode draws three images from Theme A and one image from Theme B — solvers identify the thematic outlier by recognizing categorical differences across two themes. Each exercise row includes its own mode dropdown selector, letting you override the global mode on a per-exercise basis. Start with easy Identical exercises at the top and transition to harder Similar exercises toward the bottom, or alternate modes throughout for varied challenge. A "Clear Selections" button resets all per-exercise overrides back to the global setting. Configure 5–10 exercises per worksheet (default 6) using the Exercise Configuration panel. Each exercise always contains exactly 4 images — 3 common items and 1 odd item — with the odd item\'s position randomly shuffled within the row. The layout automatically adapts: portrait pages with 7 or more exercises switch to a 2-column layout, and landscape pages always use 2 columns for optimal spacing. The two-theme system makes cross-category discrimination puzzles effortless — select Theme A from the dropdown for the three common images and Theme B for the single odd item. Pair animals with food, vehicles with nature, professions with sports — any combination from the 104 available themed collections with 3,100+ illustrations. In Identical mode, only one theme is needed since both the common clones and the odd image come from the same collection. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously. The answer key reproduces the exact worksheet layout and draws a red circle outline around the odd item in each exercise row. The circle\'s stroke width scales dynamically with image size — calculated as the maximum of imageSize × 0.04 or 3 pixels — ensuring consistent visibility across all page sizes and exercise counts. An auto-generated header renders "Find the Odd One Out" with a coral outer border (#FF6B6B, 8px stroke), amber inner border (#FFB84D, 3px stroke), and turquoise background (#4ECDC4). The title appears in dark teal Fredoka (#1A535C) and instructions in red Quicksand (#E63946), localized across all 11 supported languages. Odd One Out is NOT language-sensitive — puzzles are entirely visual with no words on the worksheet content itself, making every puzzle universally sellable across all markets without translation. Toggle optional name and date fields for personalization and exercise numbers (25px width, 15px gap from card content) for easy reference during review. Browse 104 themed collections or upload your own PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI (6× multiplier, JPEG quality 1.0). Choose Letter, A4, Square (1200×1200), or custom page sizes with a grayscale toggle for ink-friendly output. Edit everything on the Fabric.js canvas with 6 alignment options plus center-on-page, layers, lock/unlock, zoom 25%–300%, and undo/redo 20 states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create find-the-different worksheets right now — free, instant, no account required. Two generation modes cover different challenge types: Identical mode places three clones alongside one different image for spot-the-difference, while Similar mode draws from two themes for cross-category discrimination. Configure 5-10 exercises per page and mix modes within a single worksheet. Every worksheet generates automatic answer keys with red circles. Choose from 104 themed collections. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Odd One Out Worksheets in 8 Steps',
+    title: 'How to Make Odd One Out Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Odd One Out Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Puzzles — Full Product Details' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Puzzle Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Picture Sort Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Free I Spy worksheet maker' },
+    { pageType: 'guide', slug: 'create-odd-one-out-puzzles', anchorText: 'How to create odd one out puzzles to sell' },
   ],
 
   visuals: {

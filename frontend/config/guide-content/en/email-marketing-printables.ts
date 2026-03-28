@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing printables',
+    primaryKeyword: 'email marketing for printable product sellers',
     secondaryKeywords: [
-      'email list printable sellers',
-      'newsletter for worksheet business',
-      'email marketing digital products',
-      'printable business email strategy',
+      'email marketing for printable business',
+      'build email list for Etsy printable shop',
+      'email strategy for worksheet sellers',
+      'newsletter marketing for digital products',
     ],
     lsiKeywords: [
-      'subscriber list lead magnet opt-in freebie welcome sequence email automation',
-      'open rate click-through rate segmentation broadcast emails drip campaign',
-      'email service provider landing page conversion rate unsubscribe rate',
-      'subject line optimization email deliverability subscriber engagement',
-      'automated sequences re-engagement campaign list hygiene sender reputation',
-      'content calendar email analytics A/B testing personalization tags',
+      'email marketing digital products',
+      'printable seller email list',
+      'customer retention email strategy',
     ],
-    titleTag: 'Email Marketing Printables — Seller Strategy',
-    metaDescription: 'Email marketing strategies for printable sellers. Build your subscriber list, create lead magnets, automate sequences, and drive repeat sales across.',
+    titleTag: 'Email Marketing for Printable Sellers | LCS',
+    metaDescription: 'Email marketing guide for printable sellers. List building, automation, and email strategies that drive repeat purchases for your printable business.',
   },
 
   hero: {
     title: 'Email Marketing for Printable Product Sellers',
     tagline: 'A complete guide to email marketing for printable sellers — covering how to choose an email service provider, create compelling lead magnets, build high-converting landing pages, design welcome sequences, develop broadcast content strategies, segment your subscriber list, automate seasonal campaigns, and track metrics for continuous optimization',
-    description: 'Email is the only marketing channel you fully own and control. Social media algorithms change, marketplace search rankings fluctuate, and advertising costs rise — but your email list belongs to you. Every subscriber represents a direct line to a potential buyer who has already expressed interest in your products. For printable sellers, email marketing transforms one-time marketplace customers into repeat buyers who purchase directly, recommend your products, and engage with every new release you announce.',
+    description: 'An email list is the only marketing asset you fully own — unlike Etsy search or social media algorithms, you control who sees your messages and when. This guide covers email marketing for printable sellers: building your list from buyers and website visitors, creating automated sequences that drive repeat purchases, and writing newsletters that announce new products without feeling spammy. You\'ll learn how to turn one-time Etsy buyers into loyal customers who purchase every new release.',
   },
 
   introduction: 'Most printable sellers rely entirely on marketplace search traffic and social media algorithms to reach potential buyers. When Etsy changes its search algorithm, their visibility drops overnight. When Pinterest adjusts its feed, their traffic evaporates. When a social media platform deprioritizes business content, their reach shrinks to a fraction of their follower count. These sellers have built their businesses on rented land — platforms they do not control and that can change the rules at any time without warning or recourse.\n\nEmail marketing solves this fundamental vulnerability by creating a direct communication channel between you and your audience that no algorithm can restrict. When you send an email, it arrives in your subscriber\'s inbox regardless of what any platform decides to prioritize that week. Your message reaches 100% of the people you send it to (minus the small percentage filtered by spam systems), compared to social media posts that typically reach 2% to 10% of your followers. This reach reliability makes email dramatically more effective for driving consistent, predictable sales than any algorithm-dependent channel.\n\nThe economics of email marketing are compelling for printable sellers specifically. Digital products have no inventory costs, no shipping logistics, and no fulfillment delays — which means every email-driven sale converts at maximum margin. A subscriber who clicks through from your email and purchases a worksheet bundle generates pure profit beyond the negligible cost of sending the email itself. Unlike advertising where you pay per click regardless of conversion, email marketing costs are fixed per subscriber count, not per message sent. A list of 2,000 engaged subscribers costs the same to email whether you send one broadcast or ten per month.\n\nEmail also excels at the specific sales pattern that printable businesses depend on: repeat purchases from the same customer base. A buyer who buys your addition worksheets likely needs subtraction, multiplication, and word problem worksheets too. A parent who purchases your kindergarten readiness pack will need first grade resources next year. A homeschool family using your science worksheets will want new themes as they move through their content library. Email gives you a direct channel to notify these existing buyers about new products that match their demonstrated interests — something marketplace algorithms cannot reliably do even when the customer has purchased from you before.\n\nThis guide walks you through building a complete email marketing system for your printable business. Each step addresses a specific component of the system, from choosing the right tools and creating lead magnets that attract your target buyers through designing automated sequences and optimizing based on performance data. The goal is a marketing channel that generates consistent sales independent of any marketplace or social media platform, giving your business resilience against the algorithm changes that inevitably affect every seller who relies solely on third-party traffic.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social Media Marketing for Printable Sellers' },
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest Marketing for Worksheet Businesses' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Seasonal Marketing Calendar for Printable Sellers' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'How to Automate Your Printable Business' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social media marketing for printable sellers' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest marketing for worksheet business' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Market your printable business online' },
   ],
 
   toolsRecommended: [

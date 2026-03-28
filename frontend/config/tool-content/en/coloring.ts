@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'custom coloring page maker',
+    primaryKeyword: 'free coloring page maker with images',
     secondaryKeywords: [
-      'coloring page maker for sellers',
-      'custom coloring worksheets to sell online',
-      'coloring page creator for Etsy sellers',
-      'printable coloring pages commercial use',
+      'make coloring pages free online',
+      'coloring page generator no signup',
+      'free printable coloring page creator',
+      'coloring pages free trial with watermark',
     ],
     lsiKeywords: [
-      'coloring page designer for printable business',
-      'grayscale coloring worksheet for printing',
-      'freehand drawing coloring activity maker',
+      'free coloring tool online',
+      'instant coloring page maker',
+      'try before you buy coloring tools',
     ],
-    titleTag: 'Custom Coloring Page Maker — Create Pages Online',
-    metaDescription: 'Create custom coloring pages to sell on Etsy and KDP. Free-form canvas, 3,100+ illustrations, 104 themes, freehand drawing, grayscale export.',
+    titleTag: 'Free Coloring Page Maker with Images | LCS',
+    metaDescription: 'Make coloring pages free online with watermark — no signup. Themed image outlines, 104 collections, 300 DPI export. Upgrade for commercial license to sell.',
     },
 
   hero: {
-    title: 'Coloring Page Maker',
+    title: 'Make Coloring Pages with Images Free Online — No Signup',
     tagline: 'Free-form canvas coloring page generator with freehand drawing, grayscale export, name and date helpers, and 104 themed image collections for professional coloring pages that sell worldwide without translation',
-    description: 'Design professional coloring pages on a completely open canvas where you place images exactly where you want them — no grids, no templates, no slots, pure creative freedom. This free-form approach is the core differentiator: every coloring page you create is unique and impossible to replicate with template-based tools. Browse 104 themed image collections with 3,100+ colorful illustrations, click to add images, then arrange, resize, rotate, and layer elements anywhere on the canvas. The freehand drawing tool lets you sketch original illustrations directly alongside library images with adjustable brush color and size (1–50 pixels), creating hybrid coloring pages that blend curated artwork with your own drawings. One-click name and date helpers add a name field (\"Name: ____\") and handwriting practice lines (solid, dashed, solid) — turning coloring pages into structured activity sheets that sell on Etsy and Gumroad. When finished, toggle grayscale export to convert your colorful composition into ink-friendly coloring pages perfect for KDP interiors and bulk printing. Add decorative border themes from the border library, custom text with outline effects using fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, and upload your own PNG, JPG, or GIF images. This is a purely visual app — output contains no text, making coloring pages universally sellable without translation. No answer key exists because coloring is a creative activity with no correct answer. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create printable coloring pages right now — free, instant, no account required. Convert themed images into clean outlines ready for coloring with a single click. Choose from 104 themed collections covering animals, holidays, vehicles, food, nature, and dozens more. Every feature is unlocked in the free trial including 300 DPI export and all page sizes. Downloads include a small watermark so you can evaluate quality before purchasing. Want to sell coloring pages on Etsy or compile coloring books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights — zero royalties, zero restrictions.',
   },
 
   tutorial: {
-    title: 'How to Create Custom Coloring Pages in 8 Steps',
+    title: 'How to Make Coloring Pages Free in 8 Steps',
     steps: [
       {
         title: 'Open the Coloring Page Maker',
@@ -200,14 +200,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Pages — Full Product Details' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },
-    { pageType: 'tool', slug: 'drawing-lines-maker', anchorText: 'Drawing Lines Maker' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big & Small Worksheet Maker' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Free draw and color worksheet maker' },
+    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to create coloring pages to sell' },
   ],
 
   visuals: {

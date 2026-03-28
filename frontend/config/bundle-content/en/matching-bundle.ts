@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matching worksheet bundle',
+    primaryKeyword: 'matching sorting worksheet bundle for Etsy',
     secondaryKeywords: [
-      'matching sorting worksheet generator bundle for sellers',
-      'printable matching activity toolkit commercial use',
-      'bingo card generator bundle for Etsy',
-      'sorting worksheet generators for KDP sellers',
+      'matching printable bundle for sellers',
+      'sorting and matching generator pack commercial use',
+      'all matching generators in one bundle',
+      'matching worksheet toolkit for sellers',
     ],
     lsiKeywords: [
-      'matching sorting bingo worksheet pack',
-      'shadow match grid match printable collection',
-      'commercial license matching worksheets',
-      'bulk matching worksheet creation tool',
+      'matching printable business bundle',
+      'complete sorting generator package',
+      'matching worksheet seller toolkit',
     ],
-    titleTag: 'Matching Worksheet Bundle — 5 Sorting & Matching Generators',
-    metaDescription: 'Get 5 matching worksheet generators in one bundle. Create matching, grid match, shadow match, bingo, and sorting worksheets to sell on Etsy, KDP & Gumroad.',
+    titleTag: 'Matching & Sorting Bundle for Etsy | LCS',
+    metaDescription: 'Get all 5 matching and sorting generators in one bundle. Matching, shadow match, grid match, bingo & more. Commercial license for Etsy & KDP sellers.',
   },
 
   hero: {
-    title: 'Matching & Sorting Bundle',
+    title: 'Matching & Sorting Bundle — 5 Generators for Sellers',
     tagline: 'Five matching and sorting generators — from visual pair matching to batch bingo card exports',
-    description: 'The Matching & Sorting Bundle brings together five specialized generators that cover the full range of matching, pairing, and categorization activities. This is a hybrid bundle — three of the five apps are language-sensitive, producing worksheets with vocabulary labels in any of 11 supported languages, while two are purely visual and work worldwide without translation. Matching offers four distinct modes including letter matching, image-name pairing, and custom content. Grid Match creates coordinate-based matching puzzles on structured grids. Shadow Match generates silhouette-pairing worksheets where solvers draw lines connecting objects to their shadows. Bingo produces batch exports of multiple unique cards in a single ZIP download — the only app across all bundles with this capability, designed specifically for group and event use. Picture Sort builds two-category sorting worksheets where users classify themed images into left and right groups. Four of the five generators produce automatic answer keys. Bingo is the exception — as a game card generator, there is no single correct answer. Each generator outputs print-ready PDF and high-resolution JPEG files. Choose from over 100 themed image sets or upload your own PNG and JPEG files for branded, niche-specific products. Whether you sell matching activity packs on Etsy, publish sorting workbooks on Amazon KDP, or create bingo card sets for Gumroad or your own store, this bundle gives you the variety and production speed sellers need. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Build a complete matching and sorting product line with all 5 generators in one discounted bundle — matching, shadow match, grid match, bingo, and picture sort. Each tool comes with full commercial license for Etsy, Amazon KDP, or any marketplace. Matching activities are a staple of the preschool and kindergarten printable market, with consistent year-round demand from parents and early childhood educators. This bundle gives you every matching format to build comprehensive early learning bundles.',
   },
 
   appsIncluded: [
@@ -190,15 +189,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Grid Match Generator — Full Details' },
-    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow Match Generator — Full Details' },
-    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo Card Generator — Full Details' },
-    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Picture Sort Generator — Full Details' },
-    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'How to Create Matching Worksheets' },
-    { pageType: 'guide', slug: 'create-shadow-matching-worksheets', anchorText: 'How to Create Shadow Matching Worksheets' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Your Printable Business Blueprint' },
-    { pageType: 'idea', slug: 'preschool-printable-ideas', anchorText: 'Preschool Printable Ideas for Sellers' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching worksheet generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow matching generator' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Create matching worksheets to sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   visuals: {

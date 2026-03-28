@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture crossword generator',
+    primaryKeyword: 'crossword puzzle maker for selling on Etsy and KDP',
     secondaryKeywords: [
-      'printable picture crossword maker for Etsy sellers',
-      'image crossword puzzle generator for KDP publishers',
-      'picture crossword worksheet creator commercial license',
-      'sell crossword puzzles on Gumroad',
+      'create picture crossword puzzles for Etsy',
+      'crossword puzzle books for Amazon KDP',
+      'printable crossword generator with commercial license',
+      'image crossword maker for printable sellers',
     ],
     lsiKeywords: [
-      'digital crossword printables online business',
-      'commercial use crossword puzzle generator',
-      'printable picture crossword business tools',
+      'vocabulary puzzle niche Etsy',
+      'sell crossword printables online',
+      'educational puzzle products',
     ],
-    titleTag: 'Picture Crossword Generator | Create & Sell Puzzles',
-    metaDescription: 'Create picture crossword puzzles to sell on Etsy, KDP & Gumroad. Image clues on a 15x15 grid, 4 input methods, auto answer key. Try free — license available.',
+    titleTag: 'Crossword Puzzle Maker — Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create picture crossword puzzles to sell on Etsy & KDP. Image clues, auto answer keys, 104 themes, commercial license. Try free — no design skills needed.',
   },
 
   hero: {
-    title: 'Picture Crossword Generator for Image-Based Crossword Puzzles',
+    title: 'Create Crossword Puzzles to Sell on Etsy, KDP & TPT',
     tagline: 'Replace traditional text clues with image clues on a 15×15 crossword grid — four input methods (theme auto-select, manual image editing, custom word list, and image upload), auto-generated answer key with filled grid, and a localized \"Picture Crossword\" header across 104 themed image collections.',
     description:
-      'Build professional picture crossword puzzles where colorful images replace the text clues found in traditional crosswords. Eight images generate eight words on a fixed 15×15 grid — the algorithm extracts words from image names, sorts by length for optimal placement, and fills the grid with numbered clue positions. Choose from four input methods: Quick Theme Generation auto-selects 8 random images from any theme and generates instantly; Manual Image Name Editing lets you click individual images and rename them before generation; Custom Word List with Clues switches to traditional text-clue crosswords using a WORD: clue format; and Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library content. The Picture Crossword Generator is language-sensitive: puzzle words come from localized image names via the Image Vocabulary system, so switching languages changes the actual crossword words. The dual-canvas system generates both a puzzle tab and an answer key tab — the answer key shows the filled grid with all answers visible. Every puzzle includes an auto-generated localized header with a blue background (#5B9BD5), Fredoka title, and Quicksand description rendered in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized puzzle words. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell picture crossword bundles on Etsy, compile crossword workbooks for Amazon KDP, or list vocabulary crossword activities on Gumroad, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Picture crossword puzzles stand out from every other printable format on Etsy — colorful image clues replace boring text definitions, making your listings visually distinctive and irresistible to buyers. This crossword puzzle maker generates professional crossword grids with themed images as clues, automatic answer keys, and 300 DPI print-ready exports — all in under 3 minutes. Choose from 3,000+ illustrations across 104 themes, or upload your own images for branded puzzles. The built-in 11-language support generates genuinely different crossword words per locale, so a single tool creates products for English, German, French, Spanish, and seven more markets. Every crossword you create comes with a full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Crossword puzzle books are a proven niche on KDP with consistent demand — and this generator lets you fill pages fast. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Picture Crossword Puzzles in 5 Steps',
+    title: 'How to Generate Crossword Puzzles in Under 3 Minutes',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Picture Crossword Generator',
+    title: 'Why Picture Crosswords Outsell Text-Only Formats on Etsy',
     features: [
       {
         title: 'Picture Crossword Puzzles with Image Clues on a Fixed 15×15 Grid',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Crossword Puzzles Online',
+    title: 'Create Crossword Puzzle Books for Amazon KDP',
     cases: [
       {
         title: 'Themed Picture Crossword Bundles on Etsy',
@@ -204,63 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'find-and-count-worksheets',
-      anchorText: 'Find & Count Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
-      anchorText: 'Treasure Hunt Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'search-find-bundle',
-      anchorText: 'Search & Find Bundle — All Search Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Ideas for Primary Education',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Ideas for Growing Learners',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activity-books',
-      anchorText: 'Publish Activity Books on Amazon KDP',
+      anchorText: 'Word search puzzles for complementary puzzle bundles',
     },
     {
       pageType: 'guide',
       slug: 'create-crossword-puzzles',
-      anchorText: 'How to Create Crossword Puzzles That Sell',
+      anchorText: 'Step-by-step guide to creating crossword puzzles that sell',
+    },
+    {
+      pageType: 'guide',
+      slug: 'publish-puzzle-books-kdp',
+      anchorText: 'How to publish puzzle books on Amazon KDP',
     },
   ],
 

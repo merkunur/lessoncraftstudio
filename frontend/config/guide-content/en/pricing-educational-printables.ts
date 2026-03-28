@@ -4,27 +4,24 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'pricing strategies for educational printables',
     secondaryKeywords: [
-      'how to price printable worksheets',
-      'educational printable pricing guide',
-      'worksheet pricing strategy',
-      'printable product pricing',
+      'price educational printables guide',
+      'worksheet pricing strategy for sellers',
+      'printable pricing tiers and bundles',
+      'how to price digital educational products',
     ],
     lsiKeywords: [
-      'price point perceived value competitive pricing value-based pricing cost-plus pricing',
-      'price anchoring bundle pricing tiered pricing price testing marketplace fees profit margin',
-      'price psychology discount strategy premium pricing price elasticity conversion rate',
-      'platform fees net revenue pricing tiers price comparison cost analysis revenue optimization',
-      'seasonal pricing price adjustment market research buyer willingness to pay pricing model',
-      'pricing framework price positioning underpricing overpricing sustainable pricing',
+      'printable pricing psychology',
+      'digital product pricing strategy',
+      'educational product pricing',
     ],
-    titleTag: 'Pricing Strategies for Educational Printables — Guide',
-    metaDescription: 'Proven pricing strategies for educational printables. Covers pricing psychology, competitive analysis, platform fees, profit margins, and price testing.',
+    titleTag: 'Pricing Strategies for Printables | LCS',
+    metaDescription: 'Pricing strategies for educational printables. Individual, bundle, and tiered pricing frameworks for Etsy, KDP, and direct-sale printable sellers.',
   },
 
   hero: {
     title: 'Pricing Strategies for Educational Printables',
     tagline: 'A complete guide to pricing educational printables for maximum revenue and sustainable growth — covering market research and competitive analysis, cost calculation and profit margin planning, pricing models for different product types, price psychology and conversion optimization, platform-specific pricing considerations, and systematic price testing for continuous improvement',
-    description: 'Pricing is the single highest-leverage decision in your printable business. A $3 price increase across your catalog can double your profit margin overnight, while underpricing by even a few dollars leaves thousands of dollars on the table every year. Yet most printable sellers set prices based on gut feeling or by copying competitors without understanding why those competitors chose their prices. This guide covers a complete pricing framework that works across Etsy, Amazon KDP, Gumroad, Creative Fabrica, and any other platform where you sell educational printables.',
+    description: 'Pricing determines whether your printable business generates pocket change or real income — and most sellers price too low because they undervalue digital products. This guide provides concrete pricing frameworks for educational printables: individual worksheet pricing, bundle tiers, KDP royalty optimization, and psychological pricing techniques that maximize perceived value. You\'ll learn the specific price points that convert best across Etsy, Amazon KDP, and direct-sale platforms, with strategies for raising prices without losing sales.',
   },
 
   introduction: 'Pricing mistakes are the most expensive errors a printable seller can make, and the most common. The majority of new sellers underprice their products dramatically — not because their work lacks value, but because they lack confidence, fear that higher prices will scare buyers away, or simply copy the lowest prices they see on their platform without understanding why those products are priced that way.\n\nUnderpricing creates a vicious cycle that is difficult to escape. Low prices attract price-sensitive buyers who leave fewer reviews and show less loyalty. Low margins mean you cannot afford advertising, cannot invest in better tools, and cannot justify the time spent creating quality content. The frustration of working hard for minimal return leads many talented sellers to quit before their business gains traction — not because demand for their products was low, but because their pricing made the business unsustainable.\n\nOverpricing carries its own risks, though they are less severe than most sellers fear. A product priced too high simply generates fewer sales, which gives you a clear signal to adjust downward. The data is immediate and actionable. Underpricing, by contrast, can persist for months or years because the product still sells — you just never realize how much revenue you are leaving behind because you never tested a higher price.\n\nThe right price for your educational printables is not a single number but a range determined by your costs, your market, your product quality, and the platform you sell on. This guide walks you through a systematic pricing framework: researching your competitive landscape, calculating your true costs, choosing the right pricing model, applying price psychology, adapting to different platforms, and testing prices over time. The goal is not to find one perfect price but to build a pricing system that maximizes revenue while remaining competitive and sustainable.\n\nPricing is also not a one-time decision. Markets shift, competition changes, platform fees adjust, and your own product quality improves over time. The sellers who earn the most from their printable businesses are not the ones who found the perfect price on day one — they are the ones who built a habit of systematic price evaluation and adjustment based on real data rather than assumptions.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to price printable worksheets on Etsy' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Create worksheet bundles that sell' },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: 'How much can you make selling printables' },
   ],
 
   toolsRecommended: [

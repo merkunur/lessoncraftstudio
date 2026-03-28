@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sell math worksheets on Etsy',
+    primaryKeyword: 'how to sell math worksheets on Etsy 2026',
     secondaryKeywords: [
-      'how to sell math worksheets on Etsy',
-      'Etsy math worksheet shop setup',
-      'printable math worksheets Etsy business',
-      'sell educational printables on Etsy',
+      'sell math printables on Etsy step by step',
+      'Etsy math worksheet shop setup guide',
+      'math worksheet pricing strategy for Etsy',
+      'list math worksheets on Etsy for beginners',
     ],
     lsiKeywords: [
-      'Etsy digital download math activities listing optimization',
-      'math worksheet bundle pricing strategy Etsy sellers',
-      'Etsy SEO tags for educational printable worksheets',
-      'sell addition subtraction worksheets Etsy shop',
-      'back-to-school math printable Etsy seasonal strategy',
-      'Etsy listing photos mockups for math worksheet products',
+      'Etsy printable business math niche',
+      'digital download math products Etsy',
+      'Etsy SEO for math worksheets',
     ],
-    titleTag: 'Sell Math Worksheets on Etsy — Guide',
-    metaDescription: 'Sell math worksheets on Etsy with 6 generators. Etsy SEO, listing optimization, pricing, bundling strategies, and seasonal timing for printable sellers.',
+    titleTag: 'How to Sell Math Worksheets on Etsy (2026) | LCS',
+    metaDescription: 'Step-by-step guide to selling math worksheets on Etsy in 2026. SEO, pricing, bundling strategies, and seasonal timing for printable math sellers.',
   },
 
   hero: {
-    title: 'How to Sell Math Worksheets on Etsy',
+    title: 'How to Sell Math Worksheets on Etsy in 2026',
     tagline: 'A complete platform guide for building a profitable Etsy shop selling math worksheets created with 6 specialized generators — covering Etsy shop setup, SEO optimization with all 13 tags, listing titles and descriptions that rank for buyer search terms, product photography and mockups, pricing strategies for individual worksheets and bundles, seasonal timing for back-to-school and holiday peaks, catalog planning across addition, subtraction, code puzzles, comparison, grid puzzles, and number drills, and ongoing shop optimization using Etsy Stats and search analytics',
-    description: 'Math worksheets are among the highest-demand educational printables on Etsy. Parents searching for homework supplements, buyers looking for ready-to-print activities, and homeschool families building curriculum resources all turn to Etsy for downloadable math materials. This guide shows you how to build an Etsy shop that serves all three buyer segments using worksheets created with our 6 math generators: Addition, Subtraction, Code Addition, More or Less, Math Puzzle, and Math Worksheet.\n\nUnlike product creation guides that teach you how to use a specific app, this platform guide focuses on Etsy-specific selling strategies. You will learn how to research math worksheet demand on Etsy, plan a product catalog that covers multiple math skills and difficulty levels, write listings that rank in Etsy search, create listing photos that convert browsers into buyers, set pricing that balances competitiveness with profitability, and optimize your shop over time using Etsy\'s built-in analytics.\n\nEach of the 6 math generators produces a different type of worksheet, giving you product variety that most single-tool sellers cannot match. Addition and Subtraction generators create image-based problems where users count themed illustrations. Code Addition produces secret code math puzzles that combine arithmetic with decoding. More or Less generates comparison worksheets for greater-than and less-than concepts. Math Puzzle creates grid-based challenges that develop logical thinking alongside calculation skills. Math Worksheet produces number-only drills for users who need focused arithmetic practice. Together, these 6 tools let you build a comprehensive math worksheet catalog from a single toolkit.\n\nEvery feature in all 6 generators is available in the free trial with watermark so you can create complete worksheets, evaluate output quality, and plan your product catalog before purchasing commercial licenses. The commercial license removes watermarks and grants full rights to sell generated worksheets on Etsy and any other marketplace.',
+    description: 'Math worksheets are one of the most consistent sellers in Etsy\'s educational printable category — demand is year-round, and parents actively search for age-specific practice sheets. This guide walks you through every step: researching demand, planning your product catalog across 6 math generator types, writing Etsy listings that rank, creating listing photos that convert, and setting pricing strategies that maximize revenue. Whether you\'re opening your first Etsy shop or expanding an existing printable business into the math niche, you\'ll leave with a concrete action plan and the tools to execute it immediately.',
   },
 
   introduction: 'Etsy\'s educational printables category has grown consistently because the platform\'s search algorithm actively surfaces digital downloads to buyers who search for specific worksheet types. When a parent searches \"addition worksheets for first grade\" or a buyer searches \"math puzzle worksheets with answer keys,\" Etsy\'s algorithm matches those queries against listing titles, tags, descriptions, and attributes. Sellers who understand Etsy\'s search mechanics and optimize their listings accordingly capture steady organic traffic without paid advertising.\n\nMath worksheets have a structural advantage over most printable categories on Etsy: demand is genuinely evergreen. Unlike seasonal crafts or trending design templates, math practice is a year-round need. Addition, subtraction, comparison, and number drills are foundational skills that every completed works on from kindergarten through elementary school. This means your listings generate sales consistently rather than spiking and crashing with trends. Back-to-school season (July through September) and New Year resolution periods (January) create predictable demand peaks on top of the steady baseline.\n\nThe competitive advantage of using 6 specialized math generators rather than a single tool is significant on Etsy because the algorithm rewards shops that list more products in related categories. Each new listing is a new entry point for Etsy search. A shop with 50 math worksheet listings across 6 different math formats captures far more search traffic than a shop with 50 listings of only one format. The variety also signals to Etsy\'s algorithm that your shop is a serious, comprehensive educational resource — which improves your shop\'s overall search ranking.\n\nHere is what each generator brings to your Etsy catalog. The Addition Worksheet Generator creates image-based addition problems where users count themed illustrations and write sums — visually engaging worksheets that photograph beautifully for Etsy listing images. The Subtraction Worksheet Generator produces the natural complement, and buyers who purchase addition worksheets frequently purchase subtraction worksheets from the same shop. The Code Addition Generator creates secret code math puzzles that combine arithmetic with letter decoding — a unique format that stands out in Etsy search because few competitors offer it. The More or Less Generator produces comparison worksheets for greater-than and less-than concepts, targeting a specific curriculum skill that parents and homeschoolers search for directly. The Math Puzzle Generator creates grid-based challenges that develop logical thinking alongside calculation — another distinctive format with less competition than standard worksheets. The Math Worksheet Generator produces clean number-only drills for older users who need focused arithmetic practice without visual distractions.\n\nAll 6 generators share common features that streamline Etsy product creation: 300 DPI exports in both PDF and JPEG format, multiple page sizes (Letter for North American buyers, A4 for international buyers), answer key generation, themed image collections, background and border decorations, and grayscale toggle for ink-friendly variants. These shared capabilities mean you learn the production workflow once and apply it across all 6 math formats.\n\nThis guide walks through the complete process of turning those generated worksheets into optimized Etsy listings that rank in search, convert browsers into buyers, and generate consistent revenue. Each step focuses on Etsy-specific mechanics — the platform\'s tag system, attribute fields, listing quality score, and shop analytics — rather than worksheet creation details. For step-by-step app tutorials, see the linked product creation guides for each individual generator.\n\nEvery generator offers a free trial with watermark so you can create complete sample worksheets and plan your entire product catalog before purchasing commercial licenses.',
@@ -155,14 +152,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'How to Create Subtraction Worksheets' },
-    { pageType: 'guide', slug: 'create-math-puzzle-worksheets', anchorText: 'How to Create Math Puzzle Worksheets' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition worksheet generator for your math products' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math puzzle generator for unique listings' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for printable worksheets' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math Mastery Bundle — all 6 math generators' },
   ],
 
   toolsRecommended: [

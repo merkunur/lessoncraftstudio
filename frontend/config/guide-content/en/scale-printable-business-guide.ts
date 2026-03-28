@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'scale printable business',
+    primaryKeyword: 'how to scale your printable business',
     secondaryKeywords: [
-      'how to scale a printable business',
-      'grow printable worksheet business',
-      'printable business growth strategy',
-      'scale educational printable sales',
+      'scale printable business guide',
+      'grow worksheet business from side hustle',
+      'printable business scaling strategies',
+      'expand printable business to full-time',
     ],
     lsiKeywords: [
-      'business growth revenue scaling automation outsourcing product catalog expansion',
-      'multi-platform selling workflow optimization batch production systems thinking',
-      'time management delegation product diversification market expansion brand building',
-      'customer lifetime value operational efficiency process documentation standard operating procedures',
-      'catalog growth revenue per product platform diversification scaling bottleneck',
-      'business systems repeatable processes production pipeline content multiplication',
+      'printable business growth',
+      'scale digital product business',
+      'full-time printable income',
     ],
-    titleTag: 'Scale Printable Business — Growth Strategy Guide',
-    metaDescription: 'How to scale your printable business with batch production, multi-platform expansion, catalog growth, multi-language markets, and automation strategies.',
+    titleTag: 'How to Scale Your Printable Business | LCS',
+    metaDescription: 'How to scale your printable business from side hustle to full-time income. Multi-platform expansion, automation, and growth strategies for sellers.',
   },
 
   hero: {
     title: 'How to Scale Your Printable Business',
     tagline: 'A complete guide to scaling your printable business beyond side-project revenue — covering scaling readiness assessment and bottleneck identification, batch production systems for consistent output, multi-platform expansion strategy, catalog growth through product line extensions, multi-language market expansion, automation for repetitive tasks, and growth metrics that drive strategic decisions',
-    description: 'The difference between a printable side project and a scalable printable business is not talent, luck, or working harder. It is systems. Every seller who has grown from a handful of products earning sporadic sales to a catalog generating consistent monthly revenue did so by replacing manual effort with repeatable processes, expanding strategically across platforms and markets, and building a production pipeline that multiplies output without multiplying hours worked. This guide walks you through the complete scaling framework — from recognizing when your business is ready to scale, through building the systems that make growth sustainable.',
+    description: 'Scaling from a side hustle to a full-time printable business requires different strategies than getting your first sale — you need systems, automation, and multi-platform distribution. This guide covers the proven scaling path: expanding to multiple marketplaces, automating production with generators, building seasonal content calendars, and developing pricing strategies that increase revenue without proportionally increasing workload. You\'ll learn how successful printable sellers transition from one-product shops to six-figure catalog businesses.',
   },
 
   introduction: 'Most printable sellers hit a plateau. The first 5 to 10 products come together through sheer effort and enthusiasm. Sales trickle in, maybe a few hundred dollars per month, and the business feels promising. Then progress stalls. Creating each new product takes the same amount of time as the first one. Listing on a new platform means starting from scratch. Marketing eats hours without a clear return. The seller works harder but revenue stays flat, and eventually the business starts to feel like a demanding hobby rather than a growing enterprise.\n\nThis plateau is not a failure of the seller — it is a failure of approach. Scaling a printable business requires a fundamentally different strategy than starting one. Starting is about creating individual products and getting them listed. Scaling is about building systems that multiply your output, expanding into new markets and platforms strategically, and automating the repetitive tasks that consume your productive hours without generating new revenue.\n\nThe sellers who break through the plateau share common traits. They batch their production instead of creating products one at a time. They expand to multiple selling platforms instead of depending on a single marketplace. They build product lines that leverage existing work rather than starting from scratch with every new product. They use tools that dramatically reduce production time per product, freeing hours for strategic work like market research and platform optimization. And they track metrics that tell them where to invest their available time for maximum return.\n\nScaling does not mean working more hours. In fact, the most successfully scaled printable businesses often require fewer hours per week than they did during the hustle phase — the difference is that every hour spent produces substantially more output and revenue. A seller who creates one worksheet pack in three hours using manual methods earns the same per-hour rate whether they work 10 hours per week or 40. A seller who uses worksheet generators to produce the same quality output in 20 minutes per pack, then spends the remaining time on strategic catalog expansion and multi-platform listing, earns dramatically more per hour because their systems multiply the value of their time.\n\nThis guide is not about growth hacks or shortcuts. It is about building the operational foundation that transforms a printable side project into a business that grows systematically — adding products, platforms, languages, and revenue streams in ways that compound over time rather than requiring proportionally more effort for each increment of growth.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'How to automate your printable business' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Create a printable product line' },
+    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Scale to full-time printable business' },
   ],
 
   toolsRecommended: [

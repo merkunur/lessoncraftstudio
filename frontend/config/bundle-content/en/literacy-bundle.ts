@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'literacy worksheet bundle',
+    primaryKeyword: 'word puzzle generators bundle for Etsy KDP',
     secondaryKeywords: [
-      'language worksheet generator bundle for sellers',
-      'literacy printable toolkit commercial use',
-      'word puzzle worksheet bundle for Etsy',
-      'multilingual worksheet generators for KDP sellers',
+      'literacy printable bundle for sellers',
+      'word puzzle generator pack commercial use',
+      'all word generators in one bundle',
+      'literacy worksheet toolkit for sellers',
     ],
     lsiKeywords: [
-      'alphabet handwriting word search pack',
-      'word scramble cryptogram printable collection',
-      'commercial license literacy worksheets',
-      'bulk language worksheet creation tool',
+      'literacy printable business bundle',
+      'complete word puzzle package',
+      'language worksheet seller toolkit',
     ],
-    titleTag: 'Literacy Worksheet Bundle — 7 Language & Word Generators',
-    metaDescription: 'Get 7 literacy worksheet generators in one bundle. Create alphabet, word search, cryptogram, prepositions, and handwriting worksheets in 11 languages.',
+    titleTag: 'Word Puzzle Generator Bundle — Sell on Etsy | LCS',
+    metaDescription: 'Get all 7 word and literacy generators in one bundle. Word search, crossword, cryptogram & more to sell on Etsy & KDP. Commercial license included.',
   },
 
   hero: {
-    title: 'Literacy & Language Bundle',
+    title: 'Word Puzzle Bundle — All 7 Literacy Generators for Sellers',
     tagline: 'Seven language-powered worksheet generators — multiply your product line across 11 languages',
-    description: 'Every generator in this bundle is language-aware. That single fact transforms your product catalog: one worksheet design becomes 11 distinct products when you switch between English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The Literacy & Language Bundle combines seven specialized generators covering alphabet recognition, spatial prepositions, word guessing with image clues, letter unscrambling, word search grids, sentence-to-image cryptogram ciphers, and guided handwriting practice. Six of the seven generators produce language-specific content — the words, letters, and vocabulary on every worksheet change to match the selected language, with correct diacritics, native alphabets, and grammatically accurate phrasing. The seventh, Writing, focuses on handwriting stroke practice with minimal language dependency. Each generator outputs print-ready PDF and high-resolution JPEG files. Six of seven include automatic answer keys. Choose from over 100 themed image sets or upload your own artwork for branded, niche-specific products. Whether you sell literacy printables on Etsy, publish language workbooks on Amazon KDP, or distribute resources on Gumroad, this bundle gives you the variety and language reach that single-language competitors cannot match. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Build a complete word puzzle product line with all 7 literacy generators in one discounted bundle — word search, crossword, cryptogram, word scramble, word guess, handwriting, and alphabet train. Each tool comes with full commercial license and 11-language support, letting you create products for English and international markets simultaneously. Word puzzles are among the top-selling printable categories on both Etsy and Amazon KDP, and this bundle gives you every format needed to build a comprehensive literacy product catalog.',
   },
 
   appsIncluded: [
@@ -198,17 +197,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet Train Generator — Full Details' },
-    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Prepositions Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Word Guess Generator — Full Details' },
-    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Word Scramble Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Cryptogram Generator — Full Details' },
-    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Writing Worksheet Generator — Full Details' },
-    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles That Sell' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'The Complete Guide to Starting a Printable Business' },
-    { pageType: 'idea', slug: 'esl-printable-ideas', anchorText: 'ESL Printable Ideas for Language Learning' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search puzzle generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Crossword puzzle generator' },
+    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'Sell word search puzzles on Etsy' },
+    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'Create word search books for KDP' },
   ],
 
   visuals: {

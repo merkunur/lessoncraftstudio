@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matching worksheet generator',
+    primaryKeyword: 'matching worksheet maker for Etsy printable business',
     secondaryKeywords: [
-      'printable matching activity maker for Etsy sellers',
-      'draw-a-line matching worksheet generator for KDP publishers',
-      'picture matching worksheet creator commercial license',
-      'sell matching worksheets on Gumroad and your own store',
+      'create matching activities for Etsy shop',
+      'preschool matching printables for Amazon KDP',
+      'draw-a-line matching worksheets commercial license',
+      'sell matching worksheets online',
     ],
     lsiKeywords: [
-      'digital matching printables online business',
-      'commercial use matching worksheet generator',
-      'printable matching activity business tools',
+      'early learning printable niche',
+      'sell matching activities commercially',
+      'preschool worksheet products Etsy',
     ],
-    titleTag: 'Matching Worksheet Generator | Create & Sell Online',
-    metaDescription: 'Create matching worksheets to sell on Etsy, KDP & Gumroad. 4 matching modes, auto answer key, 104 themes, configurable pairs. Try free — license available.',
+    titleTag: 'Matching Worksheet Maker for Etsy Sellers | LCS',
+    metaDescription: 'Create matching worksheets to sell on Etsy & KDP. 4 matching modes, auto answer keys, 104 themes, commercial license. Try free — no signup required.',
   },
 
   hero: {
-    title: 'Matching Worksheet Generator for Draw-a-Line Matching Activities',
+    title: 'Create Matching Worksheets to Sell on Etsy & Amazon KDP',
     tagline: 'Four matching modes in one generator — Beginning Letter, Image+Word, Image/Word Mixed, and Custom Word — with auto-generated answer keys, configurable pair counts, and a localized \"Match Up!\" header across 104 themed image collections.',
     description:
-      'Build professional draw-a-line matching worksheets where solvers connect pairs by drawing lines between two columns. Choose from four distinct matching modes: Image ↔ Beginning Letter matches images to their first letter, Image+Word ↔ Image+Word pairs labeled images on both sides, Image/Word ↔ Image/Word mixes images and words per row with dropdown controls, and Image ↔ Custom Word lets you type your own matching terms. Configure 4, 5, or 6 pairs per worksheet and toggle item numbers and decorative bullet dots for clean formatting. Every worksheet includes an auto-generated localized \"Match Up!\" header with title and instructions rendered in all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key draws connecting lines between correct matches so you never have to create it manually. The Matching Worksheet Generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell matching activity bundles on Etsy, compile early literacy workbooks for Amazon KDP, or list matching center activities on Gumroad, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Matching worksheets are a staple of the preschool and kindergarten printable market on Etsy — and this maker lets you create professional draw-a-line matching activities for your printable business in minutes. Choose from four matching modes: Image to Beginning Letter, Image+Word pairs, mixed Image/Word rows, and custom word matching. Configure 4-6 pairs per worksheet and export 300 DPI print-ready PDFs with automatic answer keys that draw connecting lines between correct matches. The 11-language support generates localized word content, so each language is a distinct sellable product. Every worksheet comes with full commercial license for Etsy, Amazon KDP, TPT, or any marketplace — no attribution required. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Matching Worksheets in 5 Steps',
+    title: 'How to Generate Matching Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Matching Worksheet Generator',
+    title: 'Why Matching Activities Sell in the Preschool Niche',
     features: [
       {
         title: 'Four Matching Modes: Beginning Letter, Image+Word, Image/Word Mixed, and Custom Word',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Matching Worksheets Online',
+    title: 'Build a Matching Worksheet Business on Etsy & KDP',
     cases: [
       {
         title: 'Themed Matching Worksheet Bundles on Etsy',
@@ -204,58 +204,23 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
-      anchorText: 'Grid Match Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
+      anchorText: 'Shadow matching for complementary matching bundles',
     },
     {
       pageType: 'app',
-      slug: 'picture-bingo-worksheets',
-      anchorText: 'Picture Bingo Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'matching-sorting-bundle',
-      anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'printable-business-blueprint',
-      anchorText: 'Your Printable Business Blueprint',
+      slug: 'grid-match-worksheets',
+      anchorText: 'Grid match puzzles for visual matching variety',
     },
     {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
-      anchorText: 'How to Create Matching Worksheets',
+      anchorText: 'Guide to creating matching worksheets that sell',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'matching-sorting-bundle',
+      anchorText: 'Matching & Sorting Bundle with all 5 matching generators',
     },
   ],
 

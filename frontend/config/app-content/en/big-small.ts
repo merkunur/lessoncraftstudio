@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'big & small worksheet generator',
+    primaryKeyword: 'size comparison worksheet maker for Etsy printables',
     secondaryKeywords: [
-      'printable big and small worksheet maker for Etsy sellers',
-      'custom size comparison worksheet generator for KDP publishers',
-      'sell size discrimination worksheets on Gumroad',
-      'big and small worksheets commercial license',
+      'create big and small worksheets for Etsy shop',
+      'size discrimination printables for Amazon KDP',
+      'size comparison worksheets with commercial license',
+      'sell visual discrimination worksheets online',
     ],
     lsiKeywords: [
-      'digital size comparison printables online business',
-      'printable visual discrimination worksheet business',
-      'commercial use big small worksheet generator',
+      'size comparison printable niche',
+      'sell visual discrimination worksheets commercially',
+      'early learning classification products',
     ],
-    titleTag: 'Big & Small Worksheet Generator | Sell Printables',
-    metaDescription: 'Create size comparison worksheets to sell on Etsy, KDP & Gumroad. Five question types, identical and different modes, 104 themes. Try free — license available.',
+    titleTag: 'Size Comparison Worksheet Maker for Etsy | LCS',
+    metaDescription: 'Create size comparison worksheets to sell on Etsy & KDP. Five question types, themed images, auto answer keys, commercial license. Try free -- no signup.',
   },
 
   hero: {
-    title: 'Big & Small Worksheet Generator for Size Comparison Exercises',
+    title: 'Create Size Comparison Worksheets to Sell on Etsy & KDP',
     tagline: 'Five question types — circle the big one, circle the small one, circle the medium, number ascending, number descending — with identical and different image modes for visual size discrimination.',
     description:
-      'Design professional size comparison worksheets where solvers look at themed images displayed at different sizes and identify which is bigger, smaller, or medium-sized, or number them in order from smallest to largest or largest to smallest. Five distinct question types cover every size discrimination skill: Circle the Big One, Circle the Small One, Circle the Medium One, Number 1–2–3 Small to Big, and Number 1–2–3 Big to Small. Two image modes create fundamentally different exercises: Identical Images shows the same picture at different sizes for pure size perception, while Different Images shows distinct objects for relative size reasoning. Configure 1–10 exercises per page with 2 or 3 images per exercise — two images for simpler comparisons, three for harder ones that include a medium option. Every worksheet is fully visual with zero text on the output, making them universally usable regardless of language or reading level. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. An auto-generated answer key highlights correct answers for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell size comparison bundles on Etsy, compile early learning workbooks for Amazon KDP, or create tiered visual activity packs for your own store, the Big & Small Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Size comparison worksheets are an essential early learning format that sells consistently on Etsy -- parents and preschool teachers use them to build visual discrimination skills. This maker creates professional big-and-small activities with five question types: circle the big one, circle the small one, circle the medium, and number ordering in both directions. Two image modes create distinct product variants: identical images for pure size perception and different images for relative reasoning. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Size Comparison Worksheets in 5 Steps',
+    title: 'How to Create Size Comparison Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Big & Small Worksheet Generator',
+    title: 'Why Size Comparison Worksheets Sell in the Preschool Niche',
     features: [
       {
         title: 'Five Size Comparison Question Types',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Size Comparison Worksheets Online',
+    title: 'Sell Visual Learning Bundles on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Size Comparison Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
+      slug: 'shadow-match-worksheets',
+      anchorText: 'Shadow matching for visual discrimination bundles',
     },
     {
       pageType: 'app',
       slug: 'pattern-worksheets',
-      anchorText: 'Pattern Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'drawing-lines-worksheets',
-      anchorText: 'Drawing Lines Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'coloring-worksheets',
-      anchorText: 'Coloring Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'visual-learning-bundle',
-      anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
-    },
-    {
-      pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Ideas for Early Learners',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'printable-business-blueprint',
-      anchorText: 'Your Printable Business Blueprint',
+      anchorText: 'Pattern worksheets for cognitive skill variety',
     },
     {
       pageType: 'guide',
       slug: 'create-size-comparison-worksheets',
-      anchorText: 'How to Create Size Comparison Worksheets',
+      anchorText: 'Guide to creating size comparison worksheets',
     },
   ],
 

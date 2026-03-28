@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create worksheets multiple languages',
+    primaryKeyword: 'create worksheets in multiple languages to sell',
     secondaryKeywords: [
-      'multilingual worksheet creation',
-      'translate worksheets for selling',
-      'multi-language printable production',
-      'international worksheet design',
+      'multilingual worksheet creation guide',
+      'make worksheets in different languages',
+      'sell worksheets in multiple languages',
+      'multi-language worksheet generator',
     ],
     lsiKeywords: [
-      'language-specific formatting character sets diacritics font selection for languages',
-      'German umlauts French accents Spanish characters accented characters special characters',
-      'production workflow multilingual batch translation native speaker review quality assurance',
-      'localized listing copy international printable workflow multi-language content tools',
-      'RTL layout text length variation compound words cultural adaptation worksheet localization',
-      'batch production multi-language content generation automated translation tools vocabulary databases',
+      'multilingual worksheet production',
+      'language-specific printable products',
+      'international worksheet sales',
     ],
-    titleTag: 'Create Worksheets Multiple Languages — Guide',
-    metaDescription: 'How to create worksheets in multiple languages with production workflows, character handling, font selection, quality assurance, and listing adaptation.',
+    titleTag: 'Create Worksheets in Multiple Languages | LCS',
+    metaDescription: 'How to create worksheets in multiple languages to sell. 11-language support, locale-specific content, and strategies for international printable sellers.',
   },
 
   hero: {
-    title: 'How to Create Worksheets in Multiple Languages',
+    title: 'Create Worksheets in Multiple Languages to Sell',
     tagline: 'A practical guide to multi-language worksheet production — covering how to choose language-appropriate worksheet types, set up a multi-language workspace, handle special characters and fonts, adapt content naturally for each market, implement translation quality assurance, use automated multi-language tools, build efficient batch production workflows, and optimize marketplace listings for international buyers',
-    description: 'Creating worksheets in multiple languages is not simply a matter of running text through a translator. Professional multi-language production requires understanding character sets, font compatibility, text length variations, cultural context, and quality assurance processes that ensure every language version meets the same standard as your original. This guide walks through the complete production methodology for creating worksheets that look and read professionally in every target language.',
+    description: 'Creating worksheets in multiple languages multiplies your addressable market without multiplying your workload — our generators produce locale-specific content in 11 languages automatically. This guide covers the practical process: which generators produce language-specific content vs universal visual formats, how to list multilingual products on Etsy and KDP, and which language markets offer the best opportunity for printable sellers. You\'ll learn how to turn a single product concept into 11 sellable variations with minimal additional effort.',
   },
 
   introduction: 'The difference between a multi-language worksheet that sells and one that sits ignored on a marketplace is production quality. Buyers in every language market can immediately detect worksheets that were carelessly translated or produced without attention to language-specific formatting requirements. A German worksheet with missing umlauts, a French worksheet with incorrect accent marks, or a Spanish worksheet with awkward phrasing all signal amateur quality — and buyers pass them over in favor of products that demonstrate genuine language competence.\n\nThis production quality gap is actually an opportunity. Because so many sellers produce multi-language worksheets poorly, the bar for standing out is surprisingly achievable. You do not need to be a native speaker in every language to produce professional-quality worksheets. What you need is a systematic production methodology that addresses the specific technical and linguistic challenges of each target language, combined with tools and processes that catch errors before your products reach buyers.\n\nThe practical challenges of multi-language worksheet production fall into several categories. First, there are character set requirements — different languages use different alphabets, diacritical marks, and special characters that must render correctly in your chosen fonts. Second, there are formatting challenges — German compound words are significantly longer than their English equivalents, which affects text box sizing and layout. Third, there are linguistic quality issues — direct translations often produce awkward phrasing that native speakers immediately notice. And fourth, there are marketplace challenges — each language market has its own search terms, buyer expectations, and listing conventions.\n\nThis guide addresses each of these challenges with specific, actionable production workflows. You will learn how to select worksheet types that match your language capabilities, set up an organized multi-language workspace, handle the character sets and fonts required by each language, adapt content so it reads naturally rather than like a translation, implement quality assurance processes that catch errors before listing, leverage tools that generate multi-language content automatically, build efficient batch production systems, and create marketplace listings that resonate with buyers in each language market. The goal is a repeatable production system that lets you consistently create professional-quality worksheets in any target language.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'multilingual-printable-business', anchorText: 'Building a Multilingual Printable Business' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles' },
-    { pageType: 'guide', slug: 'create-alphabet-worksheets', anchorText: 'How to Create Alphabet Learning Worksheets' },
-    { pageType: 'guide', slug: 'create-preposition-worksheets', anchorText: 'How to Create Preposition Worksheets for ESL' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'multilingual-printable-business', anchorText: 'Build a multilingual printable business' },
+    { pageType: 'start', slug: 'create-multilingual-worksheets', anchorText: 'Create multilingual worksheets guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Custom Worksheet Service Business Ideas to Sell — Guide',
-    metaDescription: 'Custom worksheet service business ideas for Etsy and freelance sellers. Offer made-to-order educational printables with premium per-order pricing strategies.',
+    titleTag: 'Custom Worksheet Service Business Ideas | LCS',
+    metaDescription: 'Custom worksheet service business ideas. Service models, pricing, and strategies for offering made-to-order printable creation services.',
 
-    primaryKeyword: 'custom worksheet service',
+    primaryKeyword: 'custom worksheet service business ideas',
     secondaryKeywords: [
-      'custom worksheet business ideas',
-      'bespoke printable creation service',
+      'custom worksheet creation service',
+      'bespoke printable design business',
+      'custom worksheet freelance service',
       'made-to-order worksheet business',
-      'sell custom worksheets online',
     ],
     lsiKeywords: [
-      'personalized educational printables',
-      'on-demand worksheet creation',
-      'freelance printable design service',
+      'custom worksheet service model',
+      'bespoke printable business',
+      'freelance worksheet creation',
     ],
   },
   hero: {
-    title: 'Custom Worksheet Service Business Ideas for Sellers',
-    description: 'Custom worksheet services represent a premium business model where sellers offer personalized, made-to-order worksheet creation services and clients request specific themes, subjects, names, school branding, or content-aligned content while the seller produces custom worksheets using generator tools to fulfill each order with precision and professional quality. This service model commands premium per-order pricing because clients pay for personalization and specificity rather than purchasing generic pre-made products from crowded marketplace categories where thousands of similar listings compete on price alone. The service approach builds recurring client relationships because buyers, tutoring centers, and organizations return repeatedly for ongoing custom content needs throughout each academic term, creating predictable revenue streams that grow as satisfied clients expand their ordering patterns and refer colleagues who need similar personalized materials. Custom services differentiate sellers from the commodity marketplace of identical pre-made printables by offering something no pre-made product can match: materials created specifically for each client\'s unique specific context, user population, content requirements, and branding preferences. Generator tools dramatically reduce production time for custom orders because sellers use established worksheet creation workflows to rapidly produce client-specified materials rather than designing each page from scratch, making custom services profitable at scale where traditional manual design approaches would be too slow to sustain viable per-hour earnings. For printable sellers and entrepreneurs exploring custom worksheet service models, this guide covers specific service offerings built around our worksheet generator tools, platform strategies for reaching and serving custom order clients across major marketplaces and freelance channels, and business approaches that help you build a sustainable custom worksheet creation service with strong client retention and premium pricing that reflects the personalization value you deliver.',
+    title: 'Custom Worksheet Service Business Ideas',
+    description: 'Custom worksheet creation services let you charge premium prices for made-to-order products — teachers, schools, and tutoring companies pay significantly more for personalized materials than off-the-shelf downloads. This niche guide covers the custom service opportunity: how to structure a worksheet creation service, pricing strategies for custom vs template work, client acquisition channels, and how to use our generators to fulfill custom orders in a fraction of the time hand-creation takes. This business model offers the highest per-project revenue in the printable industry.',
   },
   marketOverview: `The custom worksheet service model addresses a fundamental gap in the educational printable marketplace where buyers, tutoring centers, and organizations need materials specifically tailored to their unique requirements but cannot find exactly what they need among generic pre-made products, creating consistent demand for service providers who bridge the gap between mass-produced printables and the personalized materials that buyers actually want for their specific needs, content themes, and user populations. Buyers frequently need worksheets aligned with their particular content scope and sequence documents, featuring vocabulary from their current content units, calibrated to the specific skill levels of their users, and formatted to match their routines and assessment structures in ways that no pre-made product can anticipate or accommodate.
 
@@ -142,43 +142,18 @@ The custom service model works alongside a pre-made product catalog rather than 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      slug: 'pricing-educational-printables',
+      anchorText: 'Pricing strategies for printables',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      slug: 'scale-printable-business-guide',
+      anchorText: 'How to scale your printable business',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
-    },
-    {
-      pageType: 'idea',
-      slug: 'party-supply-printable-ideas',
-      anchorText: 'Printable Party Supply Business Ideas',
+      slug: 'tools-for-printable-business',
+      anchorText: 'Essential tools for printable business',
     },
   ],
 

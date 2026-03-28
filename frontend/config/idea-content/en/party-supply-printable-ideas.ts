@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printable Party Supply Business Ideas to Sell — Guide',
-    metaDescription: 'Printable party supply business ideas for Etsy sellers. Create themed party packs, birthday games, celebration worksheets, and seasonal event printables.',
+    titleTag: 'Party Supply Printable Business Ideas | LCS',
+    metaDescription: 'Party supply printable business ideas. Party games, decorations, and activity concepts for Etsy and celebration-focused printable sellers.',
 
-    primaryKeyword: 'printable party supply',
+    primaryKeyword: 'party supply printable business ideas',
     secondaryKeywords: [
-      'printable party supplies to sell',
-      'party decoration printable business',
-      'birthday party printable ideas',
-      'sell party supply printables on Etsy',
+      'printable party supplies for Etsy',
+      'party game printables for sellers',
+      'sell party printables online',
+      'birthday party printable products',
     ],
     lsiKeywords: [
-      'celebration themed printable products',
-      'party invitation and banner templates',
-      'event decoration digital downloads',
+      'party supply printable niche',
+      'celebration printable products',
+      'party game business',
     ],
   },
   hero: {
-    title: 'Printable Party Supply Business Ideas for Sellers',
-    description: 'Party supply printables represent a uniquely profitable niche where sellers create themed activity packs, party games, coloring pages, and educational entertainment materials for birthday celebrations, group parties, holiday events, and family gatherings, reaching buyers who would never search for traditional worksheet products but actively seek engaging party activities and coordinated celebration materials. The party supply niche benefits from constant year-round demand because birthdays happen every single day and seasonal celebrations like Halloween, Valentine\'s Day, Christmas, Easter, and end-of-school parties create predictable purchasing peaks that experienced sellers plan their production schedules around months in advance. Parents planning birthday parties, buyers organizing group celebrations, event coordinators managing community gatherings, daycare providers filling activity time during holiday weeks, and party planners assembling themed celebration packages represent the primary buyer segments who purchase printable party materials in quantities that drive substantial per-order revenue. Themed party packs command premium prices compared to individual worksheets because buyers purchase complete coordinated activity sets rather than single sheets, bundling word searches, bingo cards, coloring pages, matching games, and drawing activities into comprehensive party entertainment packages that justify higher price points through the convenience and thematic consistency they provide. The party printable niche crosses over between educational and entertainment markets, positioning sellers to reach an entirely different customer segment than traditional worksheet businesses while using the same generator tools and production workflows that educational printable sellers already know. Party buyers exhibit strong repeat purchase behavior because parents with multiple children buy for each child\'s birthday celebration throughout the year, buyers purchase group party packs for every seasonal celebration during the academic calendar, and event coordinators return to trusted sellers whenever they plan new gatherings. For printable sellers and entrepreneurs building party supply product lines, this guide covers specific party-themed product ideas built around our worksheet generator tools, platform strategies for reaching party supply buyers across major marketplaces and marketing channels, and business approaches that help you build a profitable party printable business with predictable seasonal demand cycles and strong average order values.',
+    title: 'Party Supply Printable Business Ideas',
+    description: 'Party supply printables are a high-demand niche driven by birthdays, holidays, and celebrations year-round — parents search for themed bingo cards, scavenger hunts, and activity sheets for every party. This niche guide covers the party supply opportunity: which formats sell best for celebrations, how to create themed party packs combining multiple activity types, and strategies for timing releases around peak party seasons. Bingo cards, treasure hunts, and coloring pages are especially strong sellers in the party printable category.',
   },
   marketOverview: `The party supply printable market operates on fundamentally different demand patterns than traditional educational worksheet markets because party purchases are driven by celebration schedules rather than academic calendars, creating a year-round demand cycle where birthday parties generate consistent baseline sales every day of the year while seasonal celebrations produce dramatic purchasing peaks that sellers can forecast and prepare for months in advance. Birthday parties alone create an enormous addressable market because every child celebrates a birthday annually, parents increasingly plan themed celebrations requiring coordinated activity materials, and the trend toward DIY party planning has shifted purchasing from expensive professional party planners toward affordable printable materials that parents customize and produce themselves at home.
 
@@ -141,44 +141,19 @@ Party printables have strong gift-giving and viral marketing potential because s
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'picture-bingo-worksheets',
+      anchorText: 'Bingo card generator for party games',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Treasure hunt generator for party activities',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
-    },
-    {
-      pageType: 'idea',
-      slug: 'physical-printable-product-ideas',
-      anchorText: 'Physical Printable Product Business Ideas',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
   ],
 

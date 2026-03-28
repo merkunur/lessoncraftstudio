@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'picture crossword maker',
+    primaryKeyword: 'free crossword puzzle maker with pictures',
     secondaryKeywords: [
-      'crossword puzzle creator for sellers',
-      'image crossword worksheets to sell',
-      'printable crossword puzzles commercial use',
-      'vocabulary crossword maker for KDP and Etsy',
+      'make crossword puzzles free online with images',
+      'picture crossword generator no signup',
+      'free crossword maker with image clues',
+      'printable crossword puzzles free trial',
     ],
     lsiKeywords: [
-      'image-clue crossword puzzle vocabulary worksheet maker',
-      'localized crossword word generator multilingual',
-      'auto answer key crossword worksheet creator',
+      'free crossword tool online',
+      'instant crossword maker',
+      'try before you buy crossword generators',
     ],
-    titleTag: 'Picture Crossword Maker — Sell Crossword Puzzles Online',
-    metaDescription: 'Create picture crossword puzzles with image clues on a 15x15 grid, 4 input methods, auto answer key. Try free — license available.',
+    titleTag: 'Free Crossword Maker with Pictures | LCS',
+    metaDescription: 'Make picture crossword puzzles free online with watermark — no signup. Image clues, 15x15 grid, auto answer keys, 104 themes. Upgrade for commercial license.',
     },
 
   hero: {
-    title: 'Crossword Maker',
+    title: 'Make Crossword Puzzles with Pictures Free Online',
     tagline: 'Picture crossword puzzle generator with image clues on a fixed 15×15 grid, four input methods (quick theme generation, manual image name editing, custom word list with clues, and upload custom images), auto-generated answer key with filled grid via dual-canvas system, language-sensitive puzzle words in 11 languages through Image Vocabulary, and a localized blue header (#5B9BD5) with Fredoka title and Quicksand description across 104 themed image collections',
-    description: 'Create professional picture crossword puzzles where colorful images replace traditional text clues. Eight images generate eight words on a fixed 15×15 grid — the algorithm extracts words from image names, removes spaces, converts to uppercase, shuffles, sorts by length (longest first), and places words with optimal crossing at shared letters. Numbered clue positions mark the start of each word, and image clues appear alongside the grid with matching numbers. Choose from four input methods that serve different crossword creation needs. Quick Theme Generation auto-selects 8 random images from any of the 104 themed collections and generates instantly — the fastest path to a finished puzzle. Manual Image Name Editing lets you click individual images and rename them before generation, giving precise control over the words that appear in the grid. Custom Word List with Clues switches to traditional text-clue crosswords using a WORD: clue format for subject-specific vocabulary puzzles without images. Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library content. The Crossword Maker is language-sensitive: puzzle words come from localized image names via the Image Vocabulary system. Switching the content language changes the actual crossword words — a cat image generates "CAT" in English but "KATZE" in German, "CHAT" in French, and "GATTO" in Italian, producing entirely different crossword puzzles from the same images. The Commercial tier includes English content; Full Access unlocks all 11 languages for localized puzzle words. The dual-canvas system generates both a puzzle tab and an answer key tab — the answer key shows the filled grid with all correct answers visible in the cells. Every puzzle includes an auto-generated localized header with a blue background (#5B9BD5), white pill, Fredoka title with dynamic sizing (48px for short titles down to 28px for longer translations), and Quicksand description. Portrait mode displays a full-width header (220px height); landscape mode uses a compact centered layout (145px height). Browse 104 themed collections with 3,100+ illustrations or upload custom images. Apply background themes and border themes with independent opacity controls. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, or custom dimensions. Toggle grayscale for ink-friendly output. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create picture crossword puzzles right now — free, instant, no account required. This maker replaces traditional text clues with colorful images, generating 8-word crosswords on a 15x15 grid automatically. Choose from four input methods: auto-select from 104 themed collections, manually edit image names, enter custom word lists, or upload your own images. The 11-language support generates different crossword words per locale. Every feature is unlocked in the free trial including auto-generated answer keys and 300 DPI export. Downloads include a small watermark. Want to sell your crossword puzzles on Etsy or compile puzzle books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Picture Crossword Puzzles in 8 Steps',
+    title: 'How to Make Picture Crossword Puzzles Free in 8 Steps',
     steps: [
       {
         title: 'Open the Crossword Maker',
@@ -200,14 +200,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Picture Crossword Puzzles — Full Product Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
-    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
-    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Treasure Hunt Maker' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Find & Count Maker' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Hidden Object Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Free word search maker' },
+    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'How to create crossword puzzles for selling' },
   ],
 
   visuals: {

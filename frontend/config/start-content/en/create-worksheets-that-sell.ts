@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to create worksheets to sell',
+    primaryKeyword: 'how to create worksheets that sell',
     secondaryKeywords: [
-      'create professional worksheets',
+      'create professional worksheets guide',
       'make worksheets to sell on Etsy',
       'worksheet creation for sellers',
       'printable worksheet design tips',
     ],
     lsiKeywords: [
       'worksheet quality standards',
-      'answer key generation',
-      'printable product creation workflow',
-      'worksheet bundle strategy',
-      'themed worksheet images',
-      'print-ready PDF worksheets',
+      'professional printable creation',
+      'sellable worksheet design',
     ],
-    titleTag: 'How to Create Worksheets to Sell — Professional Guide',
-    metaDescription: 'How to create worksheets that sell on Etsy, Amazon KDP, and Gumroad. Step-by-step guide covering themed images, answer keys, pricing, and listing optimization.',
+    titleTag: 'Create Professional Worksheets That Sell | LCS',
+    metaDescription: 'How to create worksheets that sell on Etsy, KDP & Gumroad. Quality standards, themed images, answer keys, pricing, and listing optimization.',
   },
 
   hero: {
     title: 'How to Create Professional Worksheets That Sell',
     tagline: 'The product-creation playbook that separates worksheets buyers choose from worksheets buyers scroll past',
-    description: 'This guide covers every step of creating printable worksheets that meet professional standards and sell consistently. You will learn what makes a worksheet look professional, how to use generators to eliminate design barriers, how to build bundles that maximize revenue, and how to test your products before listing. Whether you sell on Etsy, Amazon KDP, Gumroad, or Gumroad, the quality of your worksheets determines whether buyers click "add to cart" or keep scrolling.',
+    description: 'The difference between worksheets that sell and worksheets that sit unsold is professional quality — margins, spacing, image clarity, answer keys, and print resolution all signal value to buyers before they even read your description. This guide covers the complete worksheet creation process: choosing formats with the highest revenue potential, using themed images for visual appeal, generating automatic answer keys, exporting at print-ready DPI, and optimizing your listings to convert browsers into buyers. You\'ll learn how to use our 33 generators to produce sellable products in minutes.',
   },
 
   introduction: 'The printable worksheet market is competitive. Thousands of sellers list new products every week. Yet the majority of those products share the same problem: they look amateur. Inconsistent spacing, missing answer keys, bland layouts, and generic clip art signal low effort — and buyers notice.\n\nThe sellers who earn consistent income from worksheets are the ones who treat product creation as a craft. Their worksheets have clean layouts, accurate answer keys, visually appealing themes, and professional print formatting. These are not design geniuses — they are sellers who understand what buyers evaluate before purchasing and who use the right tools to meet those standards efficiently.\n\nThis guide is about bridging that quality gap. You will learn exactly what makes a worksheet "professional" in the eyes of buyers, how worksheet generators handle the technical complexity so you can focus on product strategy, and the specific creation workflow that produces sellable products in minutes rather than hours.\n\nOne important note: every worksheet generator mentioned in this guide offers a free trial with watermark. You can test the full creation process, evaluate output quality, and create sample worksheets before purchasing a commercial license. There is zero risk in following along.',
@@ -207,17 +204,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete guide to starting a printable business' },
+    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'Quality standards for worksheets' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition worksheet generator' },
   ],
 
   visuals: {

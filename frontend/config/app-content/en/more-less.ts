@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'more or less generator',
+    primaryKeyword: 'greater than less than worksheet creator for Etsy',
     secondaryKeywords: [
-      'printable more or less worksheets for Etsy',
-      'number comparison worksheet maker for KDP publishers',
-      'sell greater than less than worksheets on Gumroad',
-      'comparison printables commercial license',
+      'create more or less worksheets for Etsy shop',
+      'number comparison printables for Amazon KDP',
+      'greater than less than worksheets commercial license',
+      'sell comparison worksheets online',
     ],
     lsiKeywords: [
-      'digital math comparison products online business',
-      'printable number sense worksheet business',
-      'commercial use comparison generator',
+      'number comparison printable niche',
+      'sell math comparison worksheets commercially',
+      'early math concepts worksheet products',
     ],
-    titleTag: 'More or Less Generator | Comparison Worksheets',
-    metaDescription: 'Create number comparison worksheets to sell on Etsy, KDP & Gumroad. 3 comparison modes, 104 themes, answer keys, 400+ DPI export. Try free — license available.',
+    titleTag: 'Greater Than Less Than Worksheet Creator | LCS',
+    metaDescription: 'Create greater than less than worksheets to sell on Etsy & KDP. Visual number comparison, 3 modes, answer keys, commercial license. Try free — no signup.',
   },
 
   hero: {
-    title: 'More or Less Worksheet Generator for Visual Number Comparison',
+    title: 'Create Greater Than Less Than Worksheets to Sell on Etsy',
     tagline: 'Transform number comparison into a visual discovery with picture-based greater-than and less-than worksheets.',
     description:
-      'Build eye-catching comparison worksheets where users identify which group has more, which has less, and when two groups are equal. Choose from three distinct exercise modes — Image to Image, Image to Number, and the unique Check & Cross Groups mode where solvers analyze mixed-image boxes to find the majority group. Toggle between same-image and different-image comparisons, pick illustration-style or standard math symbols, and draw from over 3,100 curated images across 104 themes. Every worksheet generates an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell themed bundles on Etsy, compile comparison activity books for Amazon KDP, or build a niche comparison product line on your own store, the More or Less Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Greater than and less than worksheets are a foundational math product that sells year-round on Etsy — parents, homeschool families, and teachers need them at every early grade level. This creator generates professional visual number comparison worksheets with three distinct modes: Image to Image, Image to Number, and the unique Check & Cross Groups format. Toggle between same-image and different-image comparisons, choose illustration-style or standard math symbols, and pick from 3,000+ themed images across 104 collections. Every worksheet exports as a 300 DPI print-ready PDF with automatic answer keys and full commercial license for Etsy, Amazon KDP, or any marketplace. Build comparison activity books for KDP or themed math bundles for Etsy. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Comparison Worksheets in 5 Steps',
+    title: 'How to Create Comparison Worksheets Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the More or Less Worksheet Generator',
+    title: 'Why Number Comparison Worksheets Sell Year-Round',
     features: [
       {
         title: 'Three Comparison Exercise Modes',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Number Comparison Worksheets Online',
+    title: 'Sell Math Comparison Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Comparison Worksheet Bundles on Etsy',
@@ -205,52 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'addition-worksheets',
-      anchorText: 'Addition Worksheet Generator',
+      anchorText: 'Addition worksheets for complete math bundles',
     },
     {
       pageType: 'app',
-      slug: 'subtraction-worksheets',
-      anchorText: 'Subtraction Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'math-puzzle-worksheets',
-      anchorText: 'Math Puzzle Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'math-mastery-bundle',
-      anchorText: 'Math Mastery Bundle — All Math Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-size-comparison-worksheets',
-      anchorText: 'How to Create Comparison Worksheets That Sell',
+      slug: 'big-small-worksheets',
+      anchorText: 'Size comparison worksheets for visual learning variety',
     },
     {
       pageType: 'guide',
       slug: 'sell-math-worksheets-etsy',
-      anchorText: 'Guide to Selling Math Worksheets on Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Sellers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back-to-School Printable Ideas That Sell',
-    },
-    {
-      pageType: 'start',
-      slug: 'create-worksheets-that-sell',
-      anchorText: 'How to Create Worksheets That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-counting-worksheets',
-      anchorText: 'How to Create Counting & Comparison Worksheets',
+      anchorText: 'Guide to selling math worksheets on Etsy',
     },
   ],
 

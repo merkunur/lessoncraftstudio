@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Transportation Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore transportation printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Vehicle-themed product concepts, platform strategies, and tips for sellers.',
+    titleTag: 'Transportation Printable Business Ideas | LCS',
+    metaDescription: 'Transportation printable business ideas. Vehicle-themed product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'transportation printable ideas',
+    primaryKeyword: 'transportation printable business ideas',
     secondaryKeywords: [
-      'transportation worksheets to sell',
-      'vehicle themed printable business',
-      'transportation activity sheets for sellers',
-      'sell transportation printables on Etsy',
+      'vehicle worksheets for Etsy sellers',
+      'transportation activity books for KDP',
+      'sell vehicle printables online',
+      'car truck plane printable products',
     ],
     lsiKeywords: [
-      'car and truck educational worksheets',
-      'vehicle themed activity pages',
-      'travel and transport themed printables',
+      'transportation printable niche',
+      'vehicle themed worksheets',
+      'transport themed products',
     ],
   },
   hero: {
-    title: 'Transportation Printable Business Ideas for Sellers',
-    description: 'Transportation is one of the most universally beloved themes for young children, making it an outstanding evergreen niche for printable entrepreneurs seeking consistent year-round revenue without seasonal dependency. The transportation theme offers remarkable sub-theme depth including cars, trucks, trains, planes, buses, boats, helicopters, fire trucks, ambulances, tractors, motorcycles, construction vehicles, ships, and submarines, giving sellers a vast visual vocabulary that captivates children who are endlessly fascinated by things that move. Cross-curricular versatility makes transportation printables especially valuable because vehicles connect naturally to math counting exercises, literacy vocabulary building, social studies community helper units, and science concepts about motion and energy. For printable sellers on Etsy, Amazon KDP, and Gumroad, the transportation niche combines strong year-round demand with broad educational appeal that resonates with preschool and kindergarten buyers running transportation units, homeschool families exploring vehicle themes, and parents looking for engaging learning activities for vehicle-obsessed children. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable transportation printable product line using our worksheet generator tools.',
+    title: 'Transportation Printable Business Ideas',
+    description: 'Cars, trucks, planes, and trains are among the most popular themes for children\'s products -- and transportation printables sell year-round without seasonal peaks or valleys. This niche guide explores the commercial opportunity: which vehicle-themed formats drive the most sales, how to segment by vehicle type for targeted buyer appeal, and strategies for creating progressive bundles. Transportation themes work across every activity type from counting to coloring, making this one of the most versatile niches.',
   },
   marketOverview: `The transportation printable niche holds a uniquely powerful position for printable sellers because children\'s fascination with vehicles is among the most intense and sustained interests in early childhood development. From the moment toddlers point excitedly at passing trucks, fire engines, and airplanes overhead, the transportation obsession takes hold and persists throughout the preschool and early elementary years. This deep, intrinsic motivation means children eagerly engage with transportation-themed worksheets without the coaxing that generic educational materials sometimes require, which makes vehicle-themed printables exceptionally attractive to both buyers seeking engagement and parents wanting productive screen-free activities.
 
@@ -143,19 +143,19 @@ Gender-neutral positioning is an important strategic consideration for transport
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Addition generator for vehicle math',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'space-printable-ideas',
+      anchorText: 'Space themed printable ideas',
     },
     {
       pageType: 'guide',

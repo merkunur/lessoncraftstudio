@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Preschool Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover preschool printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Pre-K product concepts and niche strategies for printable sellers and entrepreneurs.',
+    titleTag: 'Preschool Printables to Sell on Etsy | LCS',
+    metaDescription: 'Preschool printable ideas for Etsy & KDP. Age-appropriate product concepts and strategies for the preschool educational printable market.',
 
-    primaryKeyword: 'preschool printable ideas',
+    primaryKeyword: 'preschool printables to sell on Etsy',
     secondaryKeywords: [
-      'preschool worksheets to sell',
-      'pre-K printable business ideas',
-      'preschool activity sheets for sellers',
-      'sell preschool printables on Gumroad',
+      'preschool worksheets for Etsy sellers',
+      'preschool activity books for Amazon KDP',
+      'sell preschool printables online',
+      'ages 3-4 printable business',
     ],
     lsiKeywords: [
-      'early childhood educational worksheets',
-      'toddler learning activity pages',
-      'age 3-5 group printable resources',
+      'preschool printable niche',
+      'early learning products',
+      'pre-K worksheet business',
     ],
   },
   hero: {
-    title: 'Preschool Printable Business Ideas for Sellers',
-    description: 'Preschool printables represent the single largest and most reliable niche in the entire educational printable marketplace because every child on the planet passes through the ages three to five developmental window, creating an enormous and perpetually renewing buyer base of parents, buyers, daycare providers, and homeschool families who actively seek structured learning materials for early education. The foundational skills that define preschool learning span an extraordinary breadth of developmental domains including shapes, colors, numbers one through twenty, uppercase and lowercase letter recognition, tracing, cutting, fine motor coordination, sorting, matching, counting, visual discrimination, pattern recognition, and early phonics awareness, giving printable sellers a massive catalog-building opportunity where each skill area supports dozens of distinct product concepts. Cross-curricular versatility makes preschool printables especially valuable because early learning concepts connect naturally to math through counting, number recognition, and simple addition with manipulatives, literacy through alphabet tracing, letter matching, and sight word introduction, science through sorting and categorizing animals, seasons, and natural objects, and art through coloring, guided drawing, and creative expression activities that develop the fine motor control children need for writing readiness. For printable sellers on Etsy, Amazon KDP, and Gumroad, the preschool niche combines unmatched year-round demand with the broadest possible buyer base because parents of three to five year olds represent every demographic, buyers at thousands of programs need affordable supplementary materials, daycare centers require fresh activity rotations on tight budgets, homeschool families building complete pre-kindergarten programs purchase extensively, and grandparents and family members buy educational printables as developmental gifts throughout every season and holiday. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable preschool printable product line using our worksheet generator tools.',
+    title: 'Preschool Printables to Sell on Etsy',
+    description: 'Preschool is the single largest buyer segment for educational printables — parents of 3-4 year olds actively invest in early learning materials, and the market renews annually as each class ages up. This niche guide covers the preschool opportunity: which activity types sell best for the youngest learners, how to create age-appropriate products using our generators, and strategies for building a preschool product line that covers fine motor, counting, matching, and letter recognition. Preschool printables command premium prices because parents prioritize quality at this developmental stage.',
   },
   marketOverview: `The preschool printable niche occupies a uniquely dominant position in the educational marketplace because it serves the largest single age-group buyer segment with the most universally needed skill set. Unlike theme-based niches that depend on children having specific interests, every preschool-aged child needs to learn shapes, colors, numbers, letters, and foundational motor skills regardless of their individual preferences or personality. This universal need creates demand that transcends cultural backgrounds, geographic regions, and family circumstances, making preschool printables one of the most stable and predictable revenue generators available to printable entrepreneurs building sustainable businesses on any marketplace.
 
@@ -141,44 +141,19 @@ Pricing in the preschool niche follows standard educational printable convention
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Matching generator for preschool activities',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'underwater-printable-ideas',
-      anchorText: 'Underwater Printable Business Ideas',
+      slug: 'kindergarten-printable-ideas',
+      anchorText: 'Kindergarten printable ideas',
     },
   ],
 

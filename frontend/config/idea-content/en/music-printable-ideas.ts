@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Music Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore music printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Instrument-themed product concepts, platform tips, and niche strategies for sellers.',
+    titleTag: 'Music Themed Printables to Sell | LCS',
+    metaDescription: 'Music themed printable business ideas. Instrument and music product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'music printable ideas',
+    primaryKeyword: 'music themed printables to sell',
     secondaryKeywords: [
-      'music themed worksheets to sell',
-      'music printable business ideas',
-      'music activity sheets for sellers',
-      'sell music printables on Etsy',
+      'music worksheets for Etsy sellers',
+      'music activity books for Amazon KDP',
+      'sell music printables online',
+      'instrument themed printable products',
     ],
     lsiKeywords: [
-      'instrument themed educational worksheets',
-      'rhythm and note activities for kids',
-      'music theory themed printables',
+      'music printable niche',
+      'instrument themed worksheets',
+      'music education products',
     ],
   },
   hero: {
-    title: 'Music Printable Business Ideas for Sellers',
-    description: 'Music is one of the most universally captivating themes for children of all ages, making it an outstanding evergreen niche for printable entrepreneurs seeking consistent year-round revenue driven by strong cross-topic connections and boundless creative engagement. The music theme offers extraordinary sub-theme depth including piano, guitar, drums, violin, trumpet, flute, ukulele, xylophone, tambourine, maracas, musical notes, rhythm patterns, melody concepts, orchestra instruments, band equipment, singing activities, and dancing imagery, giving sellers a rich visual vocabulary that connects to nearly every child\'s daily experiences whether they take formal music lessons, sing along to favorite songs, or bang on pots and pans in the kitchen. Cross-curricular versatility makes music printables especially valuable because musical concepts connect naturally to math through rhythm counting, beat patterns, and time signatures, literacy through music vocabulary, instrument spelling, and song lyric comprehension, fine motor development through instrument play and notation practice, and social-emotional learning through creative expression and ensemble cooperation. For printable sellers on Etsy, Amazon KDP, and Gumroad, the music niche combines strong year-round demand with universal relatability that resonates with sellers planning themed content, buyers integrating arts-themed learning, homeschool families exploring musical concepts, and parents looking for educational materials that channel their child\'s natural love of sound and rhythm into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable music printable product line using our worksheet generator tools.',
+    title: 'Music Themed Printables to Sell Online',
+    description: 'Music themes serve a dedicated buyer segment -- music teachers, parents of young musicians, and arts-focused homeschool families seek instrument-themed activities that combine education with musical interests. This niche guide covers the commercial opportunity: which music-themed formats sell on Etsy, how to create instrument recognition and music vocabulary products, and strategies for targeting both the educational and arts-and-crafts buyer segments. Music is an underserved theme with loyal buyers who search specifically for it.',
   },
   marketOverview: `The music printable niche occupies a uniquely powerful position for printable sellers because virtually every child has a direct, personal connection to music through singing, clapping, dancing, playing group instruments, watching musical performances, or listening to favorite songs during car rides and bedtime routines. Unlike seasonal themes that concentrate demand into narrow calendar windows, the music niche benefits from genuine year-round relevance: music education runs continuously throughout the academic year, children engage with music daily regardless of season, and cultural celebrations featuring music occur in every month across diverse communities worldwide. This consistent demand pattern makes music printables a reliable revenue source without the feast-or-famine cycles that challenge sellers in more seasonal niches.
 
@@ -143,19 +143,19 @@ The music-focused buyer segment represents a particularly valuable audience that
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Matching generator for instrument activities',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'sports-printable-ideas',
+      anchorText: 'Sports printable business ideas',
     },
     {
       pageType: 'guide',

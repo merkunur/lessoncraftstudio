@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sell printables on Gumroad',
+    primaryKeyword: 'how to sell printables on Gumroad',
     secondaryKeywords: [
-      'how to sell printables on Gumroad',
-      'Gumroad printable business setup',
+      'Gumroad printable shop setup guide',
       'sell digital downloads on Gumroad',
-      'Gumroad for printable sellers',
+      'Gumroad vs Etsy for printable sellers',
+      'launch printable business on Gumroad',
     ],
     lsiKeywords: [
-      'creator-direct sales platform digital downloads instant delivery email list',
-      'Gumroad storefront branding product page cover image description optimization',
-      'pay-what-you-want pricing discount codes offer links tiered pricing',
-      'email marketing audience building follower list product updates newsletters',
-      'social media traffic Pinterest Instagram blog content SEO promotion',
-      'product bundles memberships subscriptions recurring revenue catalog scaling',
+      'Gumroad digital product selling',
+      'Gumroad printable business',
+      'direct-to-consumer printable sales',
     ],
-    titleTag: 'How to Sell Printables on Gumroad — Guide',
-    metaDescription: 'How to sell printables on Gumroad with zero monthly fees. Storefront setup, pricing strategies, email marketing, and building direct customer relationships.',
+    titleTag: 'How to Sell Printables on Gumroad | LCS',
+    metaDescription: 'Guide to selling printables on Gumroad. Store setup, pricing, payment processing, and marketing strategies for printable sellers going direct-to-consumer.',
   },
 
   hero: {
     title: 'How to Sell Printables on Gumroad',
     tagline: 'A complete guide to selling printable worksheets and educational resources directly to buyers through Gumroad — covering storefront setup, product creation, flexible pricing options including pay-what-you-want, built-in email marketing for audience building, traffic generation strategies for a creator-direct platform, product page optimization for higher conversion, and scaling with bundles and memberships for recurring revenue',
-    description: 'Gumroad is fundamentally different from marketplace platforms like Etsy, Amazon KDP, or Gumroad. On those platforms, built-in search drives discovery — buyers browse the marketplace and find your products through algorithms. On Gumroad, you are the marketplace. You bring your own audience, own the customer relationship, and keep buyer email addresses for direct marketing. This guide covers everything you need to sell printables on Gumroad successfully, from initial storefront setup through scaling with bundles and memberships.',
+    description: 'Gumroad gives printable sellers something Etsy and TPT can\'t — direct customer relationships, zero listing fees, and complete control over your brand. This guide covers setting up your Gumroad store, pricing printable products for direct sales, building an email list from buyers, and driving traffic without marketplace algorithms. If you want to own your customer base and keep more of every sale, Gumroad is the platform to master.',
   },
 
   introduction: 'Most printable sellers start on marketplace platforms where built-in search traffic does the heavy lifting. Etsy has millions of active shoppers browsing for digital downloads. Amazon KDP surfaces your activity books to readers through its recommendation engine. Gumroad connects your resources to buyers actively searching by grade and subject. These marketplaces provide discovery, but they also control the customer relationship, take significant commission cuts, and can change their algorithms or policies at any time.\n\nGumroad operates on a completely different model. There is no marketplace search, no algorithm ranking your products against competitors, and no platform-controlled discovery mechanism. Instead, Gumroad gives you a clean, customizable storefront where you sell directly to buyers you bring through your own marketing efforts. The trade-off is straightforward: you do more work to drive traffic, but you keep more control over your business and your customer relationships.\n\nThis trade-off is worth serious consideration for printable sellers at any stage. Gumroad charges zero monthly fees — you pay a flat 10% fee only when you make a sale. Compare that to Etsy\'s listing fees, transaction fees, payment processing fees, and advertising costs that can consume 20% to 30% of your revenue. Compare it to Amazon KDP\'s 40% to 65% royalty cuts on activity books. On Gumroad, you keep 90% of every sale after payment processing, and you know exactly what your costs are before you price a single product.\n\nBut the financial advantage is not even Gumroad\'s biggest selling point for printable sellers building a long-term business. The real value is customer data. When someone buys your printable on Etsy, Etsy owns that customer relationship. You cannot email that buyer about your new products, offer them a discount on a related resource, or build any direct connection. On Gumroad, you get the buyer\'s email address with every purchase. You can email your customers about new releases, offer exclusive discount codes to repeat buyers, and build an audience that no platform change can take away from you.\n\nGumroad also offers pricing flexibility that marketplace platforms cannot match. You can set fixed prices, offer pay-what-you-want pricing with a minimum, create tiered pricing for different license types, generate unique discount codes for promotions, and use offer links that apply discounts automatically. This flexibility lets you experiment with pricing strategies that are impossible on platforms with rigid pricing structures.\n\nThis guide is designed for printable sellers who want to add Gumroad as a sales channel or build their primary business on the platform. Whether you are already selling on Etsy or Gumroad and want to diversify, or you are starting fresh and prefer the creator-direct model, the strategies below will take you from account setup through building a scalable Gumroad printable business. If you are comparing platforms to decide where to sell, our guide on Amazon KDP vs Etsy covers the marketplace comparison in detail — adding Gumroad as a direct-sales channel complements either marketplace approach.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-creative-fabrica', anchorText: 'How to Sell Educational Resources on Creative Fabrica' },
-    { pageType: 'guide', slug: 'create-sell-tpt-resources', anchorText: 'How to Create and Sell Gumroad Resources' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets for Kids' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to Create Coloring Pages from Themed Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Compare KDP vs Etsy for selling printables' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Also sell on Etsy for marketplace traffic' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Market your printable business online' },
   ],
 
   toolsRecommended: [

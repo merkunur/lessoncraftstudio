@@ -9,7 +9,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const startKeywords: Record<string, string[]> = {
-  en: ['start printable business', 'printable business for beginners', 'how to sell printables', 'Etsy seller guide', 'KDP beginner guide', 'passive income printables'],
+  en: ['start and grow printable business', 'printable business guides for beginners', 'how to sell printables on Etsy KDP', 'Etsy printable seller guide', 'KDP activity book beginner guide', 'passive income with printables'],
   de: ['Druckvorlagen-Geschäft starten', 'Druckvorlagen-Business für Anfänger', 'Druckvorlagen verkaufen', 'Etsy Verkäufer Leitfaden', 'KDP Anfänger Anleitung', 'passives Einkommen Druckvorlagen'],
   fr: ['lancer business imprimables', 'business imprimables débutants', 'comment vendre imprimables', 'guide vendeur Etsy', 'guide débutant KDP', 'revenus passifs imprimables'],
   es: ['iniciar negocio imprimibles', 'negocio imprimibles principiantes', 'cómo vender imprimibles', 'guía vendedor Etsy', 'guía principiante KDP', 'ingresos pasivos imprimibles'],
@@ -32,10 +32,10 @@ const startPageContent: Record<string, {
   ctaButton: string;
 }> = {
   en: {
-    heroTitle: 'Printable Business Guides',
-    heroDescription: 'Everything you need to start and grow a profitable printable business. From choosing a niche to scaling your sales.',
-    metaTitle: 'Printable Business Guides | Start & Grow Your Business | LessonCraftStudio',
-    metaDescription: 'Comprehensive guides for starting and growing a printable business. Learn to sell on Etsy, Amazon KDP, TPT. Pricing, marketing, and niche selection strategies.',
+    heroTitle: 'Start & Grow a Printable Business',
+    heroDescription: 'Everything you need to start and grow a profitable printable business. From first product to full-time income.',
+    metaTitle: 'Start & Grow a Printable Business — Guides | LCS',
+    metaDescription: 'Everything to start and grow a printable business. Guides for Etsy, KDP, marketing, pricing, scaling & legal. From first product to full-time income.',
     ctaTitle: 'Ready to Create?',
     ctaDescription: 'Try all 33 printable generators free with watermark. No signup required.',
     ctaButton: 'Try Free Generators',

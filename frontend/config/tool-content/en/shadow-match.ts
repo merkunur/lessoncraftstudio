@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'shadow matching worksheet',
+    primaryKeyword: 'free shadow matching worksheet maker',
     secondaryKeywords: [
-      'shadow matching worksheet maker for sellers',
-      'create silhouette matching worksheets to sell',
-      'printable shadow puzzle generator commercial use',
-      'shadow match worksheet maker for KDP and Etsy',
+      'make shadow matching worksheets free online',
+      'silhouette matching generator no signup',
+      'free shadow match worksheet maker',
+      'shadow matching worksheets free trial',
     ],
     lsiKeywords: [
-      'dual-mode silhouette and split-image matching tool',
-      'pixel-level shadow generation derangement algorithm maker',
-      'auto answer key shadow puzzle worksheet generator',
+      'free silhouette puzzle tool online',
+      'instant shadow matching maker',
+      'try before you buy matching tools',
     ],
-    titleTag: 'Shadow Match Maker — Shadow Matching Worksheet Generator',
-    metaDescription: 'Create shadow matching worksheets with pixel-level silhouettes and Make It Whole image splitting, auto answer keys, 104 themes. Try free — license available.',
+    titleTag: 'Free Shadow Matching Worksheet Maker | LCS',
+    metaDescription: 'Make shadow matching worksheets free online with watermark — no signup. Silhouette puzzles, auto answer keys, 104 themes. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Shadow Match Maker',
+    title: 'Make Shadow Matching Worksheets Free Online — No Signup',
     tagline: 'Dual-mode shadow matching worksheet generator with pixel-level silhouette creation, Make It Whole split-image halves with horizontal and vertical cut directions, Fisher-Yates derangement guaranteeing no trivial matches, auto-generated answer keys with letter-to-number labels, toggleable A/B/C/D and 1/2/3/4 identifiers, and 104 themed image collections for shadow matching worksheets that sell worldwide',
-    description: 'Create professional shadow matching worksheets with two distinct exercise modes in a single generator. Shadow Match mode places 4 colored images labeled A, B, C, D in the top row and 4 auto-generated black silhouettes labeled 1, 2, 3, 4 in the bottom row — silhouettes are created through pixel-level image processing that converts every pixel with alpha > 10 to pure black (R=0, G=0, B=0, A=255), producing accurate outlines that preserve each image\'s exact transparency profile. This is real pixel processing, not CSS filters or pre-made shadow assets. Make It Whole mode splits 4 images into halves — choose horizontal cut direction (top/bottom halves) or vertical cut direction (left/right halves) — labels first halves A–D and second halves 1–4, and users reconnect the pieces to complete each picture. Both modes use a Fisher-Yates derangement algorithm that guarantees no item appears in its original position, eliminating trivial matches and ensuring every worksheet presents a genuine matching challenge. The derangement recalculates on every generation, producing different arrangements from the same image set. Toggle show/hide labels for the A/B/C/D and 1/2/3/4 identifiers — labels ON provides letter-number scaffolding for beginners, labels OFF creates a pure visual matching challenge ideal for puzzle books and advanced activities. Add optional name and date fields for accountability. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously — the answer key displays each correct letter-to-number pairing (A → 2, B → 4, etc.) alongside the original images and their silhouettes or complete images, so you never create answer keys manually. The layout adapts automatically: landscape pages arrange items in 2 rows × 4 items, portrait pages use 2 columns × 4 items. A styled header appears with an amber background (#FFC107), white pill container, and 3px amber border displaying \"Shadow Match\" and instructions in the selected language. Shadow Match is NOT language-sensitive — the puzzle output is purely visual with no localized word content on the worksheet itself, making every worksheet universally sellable across all markets without translation. Browse 104 themed collections with 3,100+ illustrations or upload your own PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI (6× multiplier, JPEG quality 1.0). Choose Letter, A4, Square (1200×1200), or custom page sizes with a grayscale toggle for ink-friendly output. Edit everything on the Fabric.js canvas with alignment tools, layers, lock/unlock, zoom 25%–300%, and undo/redo 20 states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create shadow matching worksheets right now — free, instant, no account required. Each worksheet presents colorful themed images alongside their silhouettes, and solvers match each image to its correct shadow. This visually striking format builds visual discrimination skills that preschool parents actively seek. Choose from 104 themed collections with 3,000+ images and configure the number of matching pairs. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell shadow matching worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Shadow Matching Worksheets in 8 Steps',
+    title: 'How to Make Shadow Matching Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Shadow Match Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow Match Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Bingo Card Maker' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Puzzle Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Picture Sort Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet maker' },
+    { pageType: 'guide', slug: 'create-shadow-matching-worksheets', anchorText: 'How to create shadow matching worksheets to sell' },
   ],
 
   visuals: {

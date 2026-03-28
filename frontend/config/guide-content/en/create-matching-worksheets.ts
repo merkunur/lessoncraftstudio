@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create matching worksheets',
+    primaryKeyword: 'create matching worksheets for preschool to sell',
     secondaryKeywords: [
-      'matching worksheets for preschool',
-      'matching worksheet generator',
-      'printable matching activities to sell',
-      'draw a line matching worksheets',
+      'make matching activities for Etsy shop',
+      'create matching worksheets for KDP books',
+      'matching worksheet creation guide',
+      'sell matching printables online',
     ],
     lsiKeywords: [
-      'image matching worksheets preschool',
-      'letter matching activities kindergarten',
-      'visual discrimination worksheets',
-      'sell matching worksheets on Etsy',
-      'Amazon KDP matching activity books',
-      'commercial license worksheet tool',
+      'matching product creation',
+      'preschool worksheet business',
+      'sellable matching products',
     ],
-    titleTag: 'Create Matching Worksheets for Preschool — Guide',
-    metaDescription: 'How to create matching worksheets for preschool. Use 4 modes, themed images, auto answer keys with connecting lines, and export PDFs to sell on Etsy and KDP.',
+    titleTag: 'Create Matching Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating matching worksheets for preschool to sell. Four matching modes, themes, and strategies for Etsy and KDP matching worksheet sellers.',
   },
 
   hero: {
-    title: 'How to Create Matching Worksheets for Preschool',
+    title: 'Create Matching Worksheets to Sell on Etsy & KDP',
     tagline: 'A step-by-step tutorial for creating themed, draw-a-line matching worksheets with automatic answer keys you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Matching worksheets are among the most versatile preschool printable products you can create. They teach visual discrimination, letter recognition, vocabulary, and logical pairing — all through the simple act of drawing a line between two columns. This guide walks you through the entire creation process using the Matching Worksheet Maker — from choosing your matching mode and theme to exporting print-ready PDFs with automatic answer keys. The generator offers four distinct matching modes (Letter, Image+Name, Image-or-Name, and Custom), making it one of the most flexible tools for building a diverse product catalog. Whether you are launching your first preschool printable or expanding into matching activities, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Matching worksheets are a staple of the preschool and kindergarten printable market — parents and teachers buy draw-a-line matching activities for letter recognition, vocabulary building, and visual discrimination practice. This guide shows you how to create professional matching worksheets designed to sell: leveraging four matching modes for product variety, choosing themes that attract specific buyer segments, and building difficulty tiers that cover multiple age groups. You\'ll learn how the 11-language support creates distinct products for international markets.',
   },
 
   introduction: 'Matching is one of the earliest cognitive skills children develop, and worksheets that practice this skill remain in high demand from preschool through early elementary. The draw-a-line format is immediately intuitive — children see two columns and connect related pairs. No reading fluency required. No complex instructions. Just look, think, and draw.\n\nWhat makes matching worksheets particularly strong as a printable product is their range of learning applications. A single matching worksheet generator can produce letter recognition activities, vocabulary practice sheets, visual discrimination exercises, and custom spelling drills. Each application targets a different buyer need and a different search query on marketplaces.\n\nThe Matching Worksheet Maker handles the layout complexity for you. It arranges items into two shuffled columns, connects them with alignment dots, generates automatic answer keys with horizontal connecting lines, and exports everything at print-ready resolution. You choose the matching mode, select a theme, set the number of pairs, and the generator builds a professional worksheet in seconds.\n\nThe generator is language-sensitive — Letter mode produces beginning letters appropriate for the selected language, and Image+Word mode generates localized word labels. This means you can create matching products for multiple language markets without manually translating content.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample worksheets, test every matching mode, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Picture Bingo Generator — Full Details' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Try the Matching Worksheet Maker' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching worksheet generator' },
+    { pageType: 'guide', slug: 'create-shadow-matching-worksheets', anchorText: 'Create shadow matching worksheets to sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

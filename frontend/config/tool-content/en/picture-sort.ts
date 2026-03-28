@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'sorting worksheet generator',
+    primaryKeyword: 'free sorting worksheet maker for kids',
     secondaryKeywords: [
-      'sorting worksheet generator for sellers',
-      'create sorting worksheets to sell on Etsy',
-      'printable sorting activity maker commercial use',
-      'picture sort worksheet generator for KDP and Etsy',
+      'make sorting worksheets free online',
+      'category sorting generator no signup',
+      'free picture sort worksheet maker',
+      'sorting worksheets free trial',
     ],
     lsiKeywords: [
-      'two-category sorting worksheet maker with answer key',
-      'theme-based manual mode picture classification generator',
-      'shuffled cutout grid sorting activity creator tool',
+      'free sorting tool online',
+      'instant sorting worksheet maker',
+      'try before you buy sorting tools',
     ],
-    titleTag: 'Picture Sort Maker — Sorting Worksheet Generator',
-    metaDescription: 'Create sorting worksheets with two-category theme mode, shuffled cutout grids, auto answer keys, and 104 themed image collections.',
+    titleTag: 'Free Sorting Worksheet Maker for Kids | LCS',
+    metaDescription: 'Make sorting worksheets free online with watermark — no signup. Category sorting with themed images, auto answer keys, 104 themes. Upgrade for commercial use.',
   },
 
   hero: {
-    title: 'Picture Sort Maker',
+    title: 'Make Sorting Worksheets for Kids Free Online — No Signup',
     tagline: 'Two-category sorting worksheet generator with theme-based and manual image selection modes, shuffled cutout grids of 4–12 images in 3–4 auto-adjusting columns, dashed-border category frames for left and right sorting destinations, auto-generated answer keys with 6× larger images in category boxes, localized Picture Sort header in 11 languages, and 104 themed image collections for sorting worksheets that sell worldwide',
-    description: 'Create professional sorting worksheets where solvers cut images from a shuffled grid and classify them into two categories — left and right. Choose theme mode to auto-populate categories from the image library: select a left theme and a right theme, and the app pulls 4–6 random images per theme. Or switch to manual mode to hand-select individual images and assign each to the left or right category. Every worksheet features two side-by-side dashed-border category frames at the top with #FAFAFA fill for sorting destinations and a shuffled cutout grid below with white cells, dashed #666 borders, 4px rounded corners, and 3–4 columns based on total image count. Each image fills 85% of its cell. Configure 4–12 total images with 2–10 per category — fewer images create simpler sorting tasks for the beginner tier, more images increase difficulty and content density. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously. The answer key displays images at 6× the size of cutout grid cells, organized into category boxes with a maximum of 2 columns per box, #FAFAFA fill, #444 stroke, and 12px border radius — no manual answer key creation needed. The Picture Sort Maker is language-sensitive: category labels use localized image names from the Image Library, so switching languages changes the text on the worksheet. A localized header renders automatically with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold, and orange description (#FF7043) in Quicksand. Portrait worksheets display a 100px header with 28–48px title; landscape worksheets use a 70px header with 24–36px title. A teal outer border (#26A69A, 8px stroke, 12px radius) frames the entire page. Browse 104 themed collections with 3,100+ illustrations or upload your own PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add name and date fields for personalization. Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI (6× multiplier, JPEG quality 1.0). Choose Letter, A4, Square (1200×1200), or custom page sizes with a grayscale toggle for ink-friendly output. Edit everything on the Fabric.js canvas with 6 alignment options plus center-on-page, layers, lock/unlock, zoom 25%–300%, and undo/redo 20 states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create category sorting worksheets right now — free, instant, no account required. Each worksheet presents themed images that solvers sort into correct categories, building classification and critical thinking skills. Choose from 104 themed collections with 3,000+ images and configure sorting categories for different difficulty levels. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell sorting worksheets on Etsy or compile early learning workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Sorting Worksheets in 8 Steps',
+    title: 'How to Make Sorting Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Picture Sort Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Picture Sort Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Bingo Card Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet maker' },
+    { pageType: 'guide', slug: 'create-sorting-worksheets', anchorText: 'How to create sorting worksheets to sell' },
   ],
 
   visuals: {

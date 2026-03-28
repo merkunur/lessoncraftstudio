@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insects Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover insect-themed printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Bug and butterfly product concepts, platform strategies, and niche seller tips.',
+    titleTag: 'Insect Printable Business Ideas | LCS',
+    metaDescription: 'Insect themed printable business ideas. Product concepts and strategies for bug and insect-themed educational printables on Etsy & KDP.',
 
-    primaryKeyword: 'insects printable ideas',
+    primaryKeyword: 'insect themed printable business ideas',
     secondaryKeywords: [
-      'insect themed worksheets to sell',
-      'bug printable business ideas',
-      'insect activity sheets for sellers',
-      'sell insect printables on Etsy',
+      'insect worksheets for Etsy sellers',
+      'bug activity books for Amazon KDP',
+      'sell insect printables online',
+      'bug theme printable products',
     ],
     lsiKeywords: [
-      'entomology activities for kids',
-      'bug themed educational worksheets',
-      'creepy crawly themed printables',
+      'insect printable niche',
+      'bug theme worksheets',
+      'creepy crawly printable products',
     ],
   },
   hero: {
-    title: 'Insects Printable Business Ideas for Sellers',
-    description: 'Insects offer printable sellers one of the most universally fascinating animal themes with deep ties to science education and seasonal demand patterns. Children are naturally captivated by butterflies, ladybugs, ants, and bees, turning everyday backyard encounters into learning opportunities that parents eagerly support with worksheet purchases. The insect niche benefits from strong alignment with elementary science topics covering life cycles, habitats, metamorphosis, and ecosystems. With over a million known species, the creative possibilities for product differentiation are virtually limitless. Spring and summer drive peak demand as children study butterflies, gardens buzz with activity, and families explore nature together. For sellers on Etsy, Amazon KDP, and Gumroad, insect-themed printables represent a niche where educational relevance meets childhood curiosity to create reliable year-round sales potential. This guide provides specific product ideas, platform strategies, and pricing approaches to help you build a profitable insect-themed printable product line using our worksheet generator tools.',
+    title: 'Insect Themed Printable Business Ideas',
+    description: 'Insects and bugs fascinate young learners — butterflies, ladybugs, ants, and bees are perennial favorites in early education materials. This niche guide explores the commercial opportunity: which insect-themed products sell on Etsy, how to pair bug themes with spring and summer seasonal releases, and strategies for creating nature-science bundles. You\'ll find specific product ideas across counting, patterns, matching, and coloring activities using our themed image collections.',
   },
   marketOverview: `The insect printable niche sits at the intersection of science education and childhood fascination, creating demand from parents and homeschoolers who all recognize the educational value of bug-themed learning materials. Children encounter insects daily in their gardens, parks, and backyards, making these creatures immediately relatable and endlessly interesting to children. Parents search for insect worksheets to channel this natural curiosity into structured learning activities, while buyers need resources for entomology units, life cycle studies, and habitat explorations that appear throughout early childhood and elementary learning.
 
@@ -149,44 +149,19 @@ Science education alignment gives insect printables particular value on marketpl
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'pattern-worksheets',
+      anchorText: 'Pattern generator for insect-themed activities',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
       slug: 'birds-printable-ideas',
-      anchorText: 'Birds Printable Business Ideas',
+      anchorText: 'Bird themed printable ideas',
     },
   ],
 

@@ -4,27 +4,24 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'how much can you make selling printables',
     secondaryKeywords: [
-      'printable business income expectations',
-      'realistic printable selling income',
-      'selling worksheets online income',
-      'printable business revenue factors',
+      'printable business income potential',
+      'selling printables income guide',
+      'realistic printable business earnings',
+      'how much do printable sellers earn',
     ],
     lsiKeywords: [
-      'etsy printable seller earnings factors',
-      'amazon kdp activity book revenue variables',
-      'worksheet business catalog size income',
-      'printable pricing strategy marketplace fees',
-      'digital download business time investment',
-      'multiple revenue streams printable products',
+      'printable income expectations',
+      'digital product revenue potential',
+      'printable seller earnings',
     ],
-    titleTag: 'How Much Can You Make Selling Printables?',
-    metaDescription: 'How much can you make selling printables? Realistic income expectations, platform fee structures, pricing strategies, and the variables that determine.',
+    titleTag: 'How Much Can You Make Selling Printables | LCS',
+    metaDescription: 'How much can you make selling printables? Realistic income expectations, revenue models, and growth milestones for printable business owners.',
   },
 
   hero: {
-    title: 'Printable Business Income: Realistic Expectations',
+    title: 'How Much Can You Make Selling Printables?',
     tagline: 'An honest breakdown of the variables that determine printable business earnings — no hype, no fabricated numbers, just the factors you actually control',
-    description: 'Every printable business search eventually leads to the same question: how much can you make? The internet is full of vague promises and unverifiable claims. This guide takes a different approach. Instead of offering a number that would be meaningless without context, it breaks down the specific variables that determine printable business income — catalog size, product quality, pricing strategy, platform economics, marketing effort, and time investment. These are the factors within your control, and understanding them is far more valuable than any dollar figure. Whether you sell on Etsy, publish on Amazon KDP, or use other marketplaces, the same fundamental economics apply. The free trial with watermark lets you test every generator before investing, so you can evaluate product quality and production speed firsthand.',
+    description: 'The income potential from selling printables ranges from a few hundred dollars a month to six figures annually — and the difference comes down to niche selection, product volume, and platform strategy. This guide provides realistic income expectations at each growth stage: what to expect in your first 3 months, the milestones that mark real traction, and the strategies that separate part-time side hustlers from full-time printable entrepreneurs. No hype, no fake promises — just data-informed projections based on actual marketplace dynamics.',
   },
 
   introduction: 'How much can you make selling printables? It is the most searched question in the printable business space, and almost every answer you find online is misleading. Blog posts promise specific monthly income figures. YouTube thumbnails display impressive revenue screenshots. Course sellers cite earnings that conveniently match their asking price. The problem is not that making money selling printables is impossible — it is that the question itself is framed wrong.\n\nAsking "how much can you make" assumes there is a fixed answer. There is not. Printable business income depends on a combination of variables: how many products you list, how well you price them, which platforms you sell on, how much traffic your listings receive, and how consistently you invest time in growing your catalog. Two sellers using identical tools can produce dramatically different results based on effort, strategy, and persistence.\n\nThis guide will not give you a number. It will give you something more useful: a clear understanding of every variable that determines printable business income, the actual economics of the platforms where printables sell, realistic timelines for what the first months look like, and a framework for setting goals that are within your control. Armed with this understanding, you can make informed decisions about whether a printable business fits your situation and how to approach it strategically.\n\nThe worksheet generators covered in this guide offer a free trial with watermark so you can test production speed and output quality before committing any money. That hands-on experience will tell you more about your earning potential than any income claim ever could.',
@@ -203,17 +200,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'create-multilingual-worksheets', anchorText: 'How to Create Worksheets in 11 Languages' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Try the Math Worksheet Maker' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete guide to starting a printable business' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing strategies for printables' },
+    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Scale to full-time printable business' },
+    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Passive income with worksheets' },
   ],
 
   visuals: {

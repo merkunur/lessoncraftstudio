@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safari Animals Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover profitable safari animals printable ideas to sell on Etsy, Amazon KDP, and Gumroad. African wildlife product concepts and platform tips for sellers.',
+    titleTag: 'Safari Animal Printables to Sell | LCS',
+    metaDescription: 'Safari animal printable business ideas. Product concepts, themed bundle strategies, and market opportunities for wild animal printable sellers.',
 
-    primaryKeyword: 'safari animals printable ideas',
+    primaryKeyword: 'safari animal printables to sell',
     secondaryKeywords: [
-      'safari animal worksheets to sell',
-      'safari themed printable business',
-      'jungle activity sheets for sellers',
-      'sell safari printables on Etsy',
+      'safari themed worksheets for Etsy',
+      'wild animal activity books for KDP',
+      'sell safari printables online',
+      'safari theme printable business',
     ],
     lsiKeywords: [
-      'African wildlife educational worksheets',
-      'jungle and savanna activity pages',
-      'exotic animal themed printables',
+      'safari animal printable niche',
+      'wild animal theme worksheets',
+      'jungle animal printable products',
     ],
   },
   hero: {
-    title: 'Safari Animals Printable Business Ideas for Sellers',
-    description: 'Safari animals hold a special place in children\'s imaginations, making African wildlife one of the most visually compelling and commercially rewarding themes in the educational printable market. From toddlers learning to identify lions and elephants to first graders exploring giraffe patterns and zebra stripes, the safari theme sparks curiosity that spans every age group and learning stage. For printable sellers, safari animals offer a powerful combination of evergreen appeal, cross-learning programsr relevance spanning geography and science, and strong visual recognition that drives high click-through rates on marketplace listings. Zoo visits, wildlife documentaries, and animal conservation awareness keep safari themes in constant demand among parents and homeschoolers. Whether you sell on Etsy, Amazon KDP, or Gumroad, safari animal printables represent a proven niche with room for creative differentiation and premium pricing. This guide walks you through specific product ideas, platform strategies, and positioning approaches to help you build a profitable safari-themed printable product line using our worksheet generator tools.',
+    title: 'Safari Animal Printables to Sell on Etsy & KDP',
+    description: 'Safari and wild animal themes tap into children\'s fascination with exotic creatures — lions, elephants, giraffes, and zebras drive strong printable sales year-round. This niche guide covers the commercial opportunity: which safari products sell best on Etsy, how to create progressive difficulty bundles using themed generators, and strategies for combining safari with other animal sub-themes for comprehensive wildlife bundles. You\'ll find specific product ideas across counting, matching, puzzles, and coloring formats.',
   },
   marketOverview: `The safari animals printable niche occupies a unique position in the educational market because it combines two powerful forces: children\'s fascination with exotic wildlife and the educational richness of African geography and animal science. Unlike domestic animal themes that feel familiar, safari animals carry an element of adventure and wonder that naturally elevates engagement. When a child works on a worksheet featuring lions, elephants, giraffes, or zebras, the activity feels more like exploration than schoolwork, which is precisely why parents and buyers seek out these materials.
 
@@ -147,44 +147,19 @@ The safari theme also performs exceptionally well in the nursery and early child
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Coloring page generator for safari themes',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
-      slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Business Ideas',
+      slug: 'forest-animals-printable-ideas',
+      anchorText: 'Forest animal printable ideas',
     },
   ],
 

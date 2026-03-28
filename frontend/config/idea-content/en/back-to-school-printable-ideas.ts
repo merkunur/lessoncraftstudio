@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Back to School Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover back to school printable ideas to sell on Etsy, KDP, and Gumroad. product line product concepts, July-September strategies, and platform tips for sellers.',
+    titleTag: 'Back to School Printables to Sell | LCS',
+    metaDescription: 'Back to school printable ideas for Etsy & KDP. Product concepts, July-September timing, and strategies for the biggest educational demand window.',
 
-    primaryKeyword: 'back to school printable ideas',
+    primaryKeyword: 'back to school printables to sell on Etsy',
     secondaryKeywords: [
-      'back to school worksheets to sell',
-      'school printable business ideas',
-      'back to school activity sheets',
-      'sell back to school printables online',
+      'back to school worksheets for Etsy sellers',
+      'school themed activity books for KDP',
+      'sell back to school printables',
+      'school supply themed printable business',
     ],
     lsiKeywords: [
-      'product line worksheet bundles',
-      'seller resource printables',
-      'school supply themed activities',
+      'back to school printable niche',
+      'August September demand spike',
+      'school themed products',
     ],
   },
   hero: {
-    title: 'Back to School Printable Business Ideas for Sellers',
-    description: 'Back to school creates one of the largest and most reliable seasonal demand windows in the printable business calendar, with buyer activity surging from July through September as buyers prepare new product needs and parents seek educational activities for school readiness. The niche offers rich sub-theme variety including school supplies, pencils, crayons, backpacks, school buses, apples, notebooks, rulers, chalkboards, and school-themed scenes, giving sellers a familiar visual vocabulary that resonates with families and sellers during the transition from summer to structured learning. Homeschool families planning their new academic year add another motivated buyer segment, often purchasing larger bundles and comprehensive resource packs. For printable sellers on Etsy, Amazon KDP, and Gumroad, the back-to-school niche combines massive predictable demand with a universally recognized theme that drives strong listing engagement and repeat annual purchases. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable back-to-school printable product line using our worksheet generator tools.',
+    title: 'Back to School Printables to Sell on Etsy',
+    description: 'Back to school is the largest seasonal demand window for educational printables — parents and teachers start shopping in July and buying peaks through September. This niche guide covers the back-to-school opportunity: which product formats sell best during the school shopping season, how to create grade-specific bundles that target precise buyer segments, and specific product ideas across math, literacy, puzzles, and organization activities. Start creating in June to have your listings indexed and reviewed before the rush begins.',
   },
   marketOverview: `The back-to-school printable niche commands one of the highest seasonal traffic volumes in the educational marketplace, delivering sustained demand across a wide July-through-September selling window that gives sellers meaningful time to capture revenue. buyers begin preparing for their new product needs in mid-July, purchasing product planning materials, first-week icebreaker activities, and supplemental products that help them hit the ground running when the school year begins. Parents search for school readiness worksheets, educational activities to bridge the summer learning gap, and engaging printables that ease the transition from vacation mode back into structured daily routines. Homeschool families, who plan their entire academic year during the summer months, represent a particularly valuable buyer segment because they purchase comprehensive resource collections rather than individual worksheets.
 
@@ -155,44 +155,19 @@ From a keyword research perspective, back-to-school printable searches split int
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Word search generator for school vocabulary',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
-      slug: 'valentines-day-printable-ideas',
-      anchorText: "Valentine\'s Day Printable Business Ideas",
+      slug: 'first-grade-printable-ideas',
+      anchorText: 'First grade printable ideas',
     },
   ],
 

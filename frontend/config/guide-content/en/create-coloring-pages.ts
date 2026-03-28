@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create coloring pages',
+    primaryKeyword: 'create coloring pages to sell on Etsy and KDP',
     secondaryKeywords: [
-      'coloring page maker from images',
-      'printable coloring pages to sell',
-      'grayscale coloring page generator',
-      'custom coloring sheets for kids',
+      'make coloring pages for Etsy shop',
+      'create coloring books for Amazon KDP',
+      'coloring page creation guide for sellers',
+      'sell coloring printables online',
     ],
     lsiKeywords: [
-      'themed coloring pages for Etsy',
-      'coloring book pages for Amazon KDP',
-      'free-form coloring page designer',
-      'convert images to coloring pages',
-      'group coloring activity sheets',
-      'commercial license coloring tool',
+      'coloring product creation',
+      'coloring book business',
+      'sellable coloring page products',
     ],
-    titleTag: 'Create Coloring Pages from Themed Images — Guide',
-    metaDescription: 'How to create coloring pages from 3,100+ themed images. Free-form canvas with grayscale export, freehand drawing, and group helpers. Sell on Etsy and KDP.',
+    titleTag: 'Create Coloring Pages to Sell on Etsy & KDP | LCS',
+    metaDescription: 'Guide to creating coloring pages to sell on Etsy & KDP. Theme selection, seasonal timing, and strategies for coloring page and coloring book sellers.',
   },
 
   hero: {
-    title: 'How to Create Coloring Pages from Themed Images',
+    title: 'Create Coloring Pages to Sell on Etsy and Amazon KDP',
     tagline: 'A step-by-step tutorial for designing custom coloring pages using a free-form canvas, 3,100+ themed images, freehand drawing, and one-click grayscale export',
-    description: 'Coloring pages are one of the most searched and purchased printable products on every major marketplace. Parents want them for offline, unplugged activities. Sellers list them as group warm-ups and reward sheets. Etsy sellers build entire shops around themed coloring page bundles. This guide walks you through the full creation process using the Coloring Page Maker — from placing themed images on a free-form canvas to enabling the grayscale toggle that converts your colorful design into a clean, print-ready coloring page. Whether you are creating your first coloring product or expanding an existing printable catalog, you will have a finished coloring page ready to list by the end of this tutorial.',
+    description: 'Coloring pages dominate Etsy\'s printable category and rank among the top-selling KDP book niches — but success requires more than generic designs. This guide shows you how to create themed coloring pages that attract specific buyer segments: choosing themes with proven demand, timing seasonal releases for peak traffic, and packaging coloring books for Amazon KDP. You\'ll learn how to use our coloring page generator to convert themed images into professional outlines without any drawing skills, and how to build a coloring product catalog that generates consistent revenue.',
   },
 
   introduction: 'Coloring pages hold a unique position in the printable market. Unlike worksheets that target specific age groups or skill levels, coloring pages appeal to virtually everyone — toddlers, school-age children, teens, and even adults. That universal appeal translates to massive, year-round demand on Etsy, Amazon KDP, and Gumroad.\n\nWhat makes coloring pages especially attractive as a product is their simplicity. There are no answer keys to generate, no difficulty levels to configure, and no curriculum alignment to worry about. A well-designed coloring page with appealing imagery sells on its own visual merit. The barrier to entry is low, but the sellers who succeed are the ones with distinctive designs that stand out from generic clip art collections.\n\nThe Coloring Page Maker takes a fundamentally different approach from traditional coloring page tools. Instead of working with pre-made templates or tracing outlines by hand, you work on a free-form canvas where you place themed images from a library of over 3,100 illustrations across 104 themes. You drag, resize, and rotate images freely to create original compositions. Then the grayscale export toggle converts your colorful design into clean black-and-white outlines ready for coloring.\n\nThe tool also includes a freehand drawing tool for adding hand-drawn details, text tools for titles and instructions, and group helpers like name fields and handwriting lines. This combination lets you create everything from simple single-image coloring pages to complex themed activity sheets.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can design complete coloring pages, test the grayscale toggle, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator — Full Details' },
-    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw & Color Generator — Full Details' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring page generator' },
+    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'Create Etsy coloring pages that sell' },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Seasonal marketing for printable sellers' },
   ],
 
   toolsRecommended: [

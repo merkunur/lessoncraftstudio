@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingo card generator',
+    primaryKeyword: 'bingo card maker for selling printables on Etsy',
     secondaryKeywords: [
-      'printable bingo card maker for Etsy sellers',
-      'picture bingo worksheet generator for KDP publishers',
-      'bingo card creator with commercial license',
-      'sell printable bingo cards on Gumroad',
+      'create bingo cards for Etsy shop',
+      'picture bingo printables for Amazon KDP',
+      'bingo card generator with commercial license',
+      'sell bingo cards online',
     ],
     lsiKeywords: [
-      'digital bingo printables online business',
-      'commercial use bingo card generator',
-      'printable picture bingo business tools',
+      'bingo printable niche Etsy',
+      'sell bingo cards commercially',
+      'party game printable products',
     ],
-    titleTag: 'Bingo Card Generator | Create & Sell Bingo Printables',
-    metaDescription: 'Create picture bingo cards to sell on Etsy, KDP & Gumroad. Batch-generate unique cards, ZIP export, call-out sheets, 104 themes. Try free — license available.',
+    titleTag: 'Bingo Card Maker — Sell Printables on Etsy | LCS',
+    metaDescription: 'Create picture bingo cards to sell on Etsy & KDP. Themed images, unique randomized cards, auto caller sheets, commercial license. Try free -- no signup.',
   },
 
   hero: {
-    title: 'Picture Bingo Card Generator for Printable Bingo Activities',
+    title: 'Create Bingo Cards to Sell as Printables on Etsy & KDP',
     tagline: 'Generate 1–10 unique bingo cards per batch with configurable grids from 3×3 to 5×5 — image or word fill for both card cells and circular chips, a dedicated call-out sheet for the caller, ZIP batch export of all cards, and 104 themed image collections.',
     description:
-      'Build professional picture bingo cards where players mark matching images or words on their unique card grids. Configure rows from 3 to 5 and columns from 3 to 5 independently, creating grids from 3×3 (9 cells) up to 5×5 (25 cells) with a default of 4×4 (16 cells). Choose image fill or word fill independently for both card cells and circular chips — chips feature dashed borders and shuffled Fisher-Yates ordering for authentic bingo play. Generate 1–10 unique bingo cards per batch, each with a different random image selection from the pool. A dedicated call-out sheet on a separate tab displays a dynamic word grid for the caller, with columns calculated based on longest word length and uniform font sizing. Hand-pick specific images for custom call-out selection or let the app choose from your theme. The Picture Bingo Card Generator is language-sensitive: word fill uses localized image names from the Image Library, so switching languages changes the words on cards, chips, and the call-out sheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Batch export all generated cards as individual JPEGs in a single ZIP file. Whether you sell bingo card bundles on Etsy, compile bingo activity books for Amazon KDP, or list bingo sets on Gumroad, this generator delivers production-ready bingo cards in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Bingo cards are one of the most versatile printable products on Etsy -- they sell for parties, classrooms, holidays, and family game nights year-round. This maker creates professional picture bingo cards with themed images, unique randomized layouts for every card, and automatic caller sheets in under 3 minutes. Choose from 3,000+ illustrations across 104 collections to match any seasonal trend, holiday, or interest niche. Every bingo set exports as 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Themed bingo bundles -- Halloween, Christmas, farm animals, ocean life -- consistently rank among top-selling party printables on Etsy. The visual format works worldwide without translation. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Picture Bingo Cards in 5 Steps',
+    title: 'How to Create Bingo Cards in Under 3 Minutes',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Picture Bingo Card Generator',
+    title: 'Why Bingo Cards Are Top-Selling Printables on Etsy',
     features: [
       {
         title: 'Configurable Bingo Grid from 3×3 to 5×5 with Independent Row and Column Controls',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Bingo Cards Online',
+    title: 'Sell Themed Bingo Bundles on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Bingo Card Bundles on Etsy',
@@ -205,57 +205,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'matching-worksheets',
-      anchorText: 'Matching Worksheet Generator',
+      anchorText: 'Matching worksheets for complementary game bundles',
     },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
-      anchorText: 'Grid Match Puzzle Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-search-worksheets',
-      anchorText: 'Word Search Puzzle Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'matching-sorting-bundle',
-      anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Treasure hunt worksheets for party activity packs',
     },
     {
       pageType: 'guide',
       slug: 'create-bingo-cards',
-      anchorText: 'How to Create and Sell Bingo Cards Online',
-    },
-    {
-      pageType: 'idea',
-      slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: 'Guide to creating bingo cards that sell',
     },
   ],
 

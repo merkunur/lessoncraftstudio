@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create word search puzzles',
+    primaryKeyword: 'create word search puzzles with images to sell',
     secondaryKeywords: [
-      'word search puzzle generator',
-      'printable word search maker',
-      'word search puzzles to sell',
-      'custom word search with images',
+      'make word search puzzles for Etsy',
+      'create themed word search books for KDP',
+      'word search puzzle creation guide',
+      'sell word search printables online',
     ],
     lsiKeywords: [
-      'image-based word search worksheets',
-      'multilingual word search puzzles',
-      'vocabulary word search for kids',
-      'sell word search books on KDP',
-      'Etsy word search printables',
-      'commercial license puzzle tool',
+      'word search product creation',
+      'puzzle business guide',
+      'sellable word puzzle products',
     ],
-    titleTag: 'Create Word Search Puzzles — Step-by-Step Guide',
-    metaDescription: 'How to create word search puzzles with image clues. Choose themes, set grid size, configure directions, generate answer keys, and sell on Etsy and KDP.',
+    titleTag: 'Create Word Search Puzzles with Images | LCS',
+    metaDescription: 'Guide to creating word search puzzles with themed images to sell. Grid sizes, difficulty, themes, and strategies for Etsy and KDP word search sellers.',
   },
 
   hero: {
-    title: 'How to Create Word Search Puzzles with Images',
+    title: 'Create Word Search Puzzles with Images to Sell',
     tagline: 'A step-by-step tutorial for creating themed, image-clue word search puzzles you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Word search puzzles are one of the highest-volume printable categories on every major marketplace. They appeal to children learning vocabulary, solvers practicing spelling, language learners building word recognition, and adults who enjoy puzzle books for relaxation. This guide walks you through the entire creation process using the Word Search Puzzle Generator — from choosing between vocabulary mode and custom word lists to configuring grid size, search directions, and difficulty levels. The generator supports 11 languages, making multilingual word search products a realistic and profitable niche. Whether you are creating your first puzzle product or building a word search book empire on Amazon KDP, you will have a finished, print-ready puzzle with a color-coded answer key by the end of this tutorial.',
+    description: 'Word search puzzles with themed images sell better than text-only versions because the visual clues make listings stand out in crowded marketplace search results. This guide shows you how to create professional word search puzzles designed to sell: choosing profitable themes, configuring grid sizes and word directions for different difficulty tiers, and packaging your puzzles into themed bundles and KDP books. You\'ll learn how to use the word search generator\'s 11-language support to multiply your product catalog across international markets.',
   },
 
   introduction: 'Word search puzzles occupy a unique position in the printable product market. Unlike worksheets that serve a single age group, word searches span the entire age spectrum — from kindergartners finding three-letter animal names in a small grid to adults working through complex themed puzzles in a 400-page book. That universal appeal means enormous, sustained demand across every sales channel.\n\nWhat makes word search particularly strong as a product category is the sheer volume of the book market. On Amazon KDP, word search books consistently rank among the top-selling activity book categories. A single well-optimized word search book with 100 puzzles and answer keys can generate steady royalties for years. The barrier to entry is low, but sellers who produce themed, visually engaging puzzles with image clues stand out dramatically from the generic text-only competition.\n\nThe Word Search Puzzle Generator handles the technical complexity of puzzle creation for you. It places words in a grid with configurable directions (horizontal, vertical, diagonal, reverse), fills remaining cells with random letters, generates color-coded answer keys where each word gets a distinct highlight color, and supports image clues that make puzzles visually engaging and educational. Two creation modes — Vocabulary Mode and Custom Word List Mode — give you flexibility for both themed image-based products and text-only custom puzzles.\n\nA major differentiator is language support. The generator works in 11 languages, and because word search puzzles ARE the words, language changes everything. A Spanish word search uses entirely different vocabulary than an English one for the same theme. This opens the door to multilingual product lines that most competitors ignore entirely.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample puzzles, test every configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Crossword Puzzle Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Puzzle Maker' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search puzzle generator' },
+    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to sell word search puzzles on Etsy' },
+    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'Create word search books for KDP' },
   ],
 
   toolsRecommended: [

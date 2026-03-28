@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to start a printable business',
+    primaryKeyword: 'how to start a printable business 2026',
     secondaryKeywords: [
-      'printable business for beginners',
-      'sell printable worksheets online',
-      'start a printable worksheet shop',
-      'printable business startup guide',
+      'start printable business from scratch guide',
+      'printable business for beginners 2026',
+      'how to sell printables online step by step',
+      'launch printable business guide',
     ],
     lsiKeywords: [
-      'digital download business model',
-      'worksheet generator for sellers',
-      'Etsy printable shop setup',
-      'Amazon KDP activity books',
-      'Gumroad worksheets',
-      'commercial license printable tools',
+      'printable business startup guide',
+      'digital product business 2026',
+      'sell printables from scratch',
     ],
-    titleTag: 'How to Start a Printable Business — Complete Guide',
-    metaDescription: 'How to start a printable business from scratch. Step-by-step guide for Etsy, Amazon KDP, and Gumroad sellers using worksheet generators to create and sell.',
+    titleTag: 'How to Start a Printable Business (2026) | LCS',
+    metaDescription: 'Complete guide to starting a printable business in 2026. From choosing a niche to making your first sale on Etsy, KDP, or your own store.',
   },
 
   hero: {
-    title: 'The Complete Guide to Starting a Printable Business',
+    title: 'How to Start a Printable Business in 2026',
     tagline: 'From zero to your first sale — everything you need to know about building a printable worksheet business',
-    description: 'This guide walks you through every step of launching a printable worksheet business. You will learn how to choose a profitable niche, create professional products without design skills, list on the right platforms, price for profit, and build a catalog that generates consistent sales. Whether you plan to sell on Etsy, Amazon KDP, Gumroad, or your own website, this is the starting point.',
+    description: 'Starting a printable business is one of the most accessible paths to online income — zero inventory, zero shipping, and customers receive their files instantly. This comprehensive guide covers every step from choosing your first niche to making your first sale: market research, product creation with our 33 generators, platform selection (Etsy, KDP, Gumroad), listing optimization, pricing strategies, and scaling beyond your first products. Whether you want a side hustle or a full-time business, this is the roadmap that takes you from idea to income.',
   },
 
   introduction: 'The printable worksheet market has grown steadily because the demand never stops. Parents homeschool. Buyers supplement curricula. Tutors need fresh materials every week. Seasonal themes rotate but the core need — structured, engaging, print-ready learning activities — remains constant year after year.\n\nStarting a printable business does not require a teaching degree, graphic design experience, or a large upfront investment. What it does require is a clear understanding of what buyers actually want, the right tools to create professional products efficiently, and a willingness to treat this as a real business rather than a side experiment.\n\nThis guide covers the complete path. By the end, you will have a concrete action plan: your niche selected, your first product created, your shop listed, and your pricing strategy set. No vague advice, no hype — just the practical steps that move you from idea to income.\n\nOne important note before we begin: every worksheet generator mentioned in this guide offers a free trial with watermark. You can test every feature, create sample worksheets, and evaluate quality before purchasing a commercial license. There is zero risk in getting started.',
@@ -207,16 +204,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Try the Matching Worksheet Maker' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
+    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable business blueprint: idea to income' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy printable business masterclass' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selection for printable business' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Start an Etsy printable shop from scratch' },
   ],
 
   visuals: {

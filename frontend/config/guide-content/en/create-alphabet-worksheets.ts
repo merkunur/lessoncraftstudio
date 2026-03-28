@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'alphabet train worksheets',
+    primaryKeyword: 'create alphabet worksheets to sell on Etsy',
     secondaryKeywords: [
-      'create alphabet train worksheets to sell',
-      'alphabet train worksheet generator commercial use',
-      'printable letter recognition train maker for Etsy and KDP',
-      'language-sensitive alphabet matching worksheets with answer keys',
+      'make alphabet worksheets for Etsy shop',
+      'create letter learning printables for KDP',
+      'alphabet worksheet creation guide',
+      'sell alphabet printables online',
     ],
     lsiKeywords: [
-      'eleven colorful train wagons letter-image matching worksheet maker',
-      'auto create manual selection two creation modes alphabet generator',
-      'configurable three to eleven clue count difficulty scaling creator',
-      'sell alphabet train worksheets on Etsy',
-      'Amazon KDP letter recognition train workbooks',
-      'commercial license alphabet train tool',
+      'alphabet product creation',
+      'literacy worksheet business',
+      'sellable letter learning products',
     ],
-    titleTag: 'Alphabet Train Worksheets — Guide',
-    metaDescription: 'How to create alphabet train worksheets with train wagons, two creation modes, configurable difficulty, and 104 themed images. Sell on Etsy, KDP & Gumroad.',
+    titleTag: 'Create Alphabet Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating alphabet worksheets to sell on Etsy. Train-car format, themes, languages, and strategies for literacy printable sellers.',
   },
 
   hero: {
-    title: 'How to Create Alphabet Train Worksheets',
+    title: 'Create Alphabet Worksheets to Sell on Etsy & KDP',
     tagline: 'A step-by-step tutorial for creating letter-recognition worksheets with 11 colorful train wagons carrying letters and matching illustrations, two creation modes (Auto Create for random generation and Manual Selection for curriculum-aligned letter groups), configurable clue count from 3 to 11 for built-in difficulty scaling, language-sensitive letter matching across 11 native alphabets where the same image pairs with different letters per language, and auto-generated answer keys you can sell worldwide on Etsy, Amazon KDP, and Gumroad',
-    description: 'Alphabet train worksheets are a visually distinctive letter-recognition activity where solvers match scattered clue images to the correct train wagon based on which letter each image starts with. Unlike flat letter-tracing sheets that blend together in marketplace listings, the colorful 11-wagon train layout is instantly recognizable and scroll-stopping. The Alphabet Train Maker offers two creation modes — Auto Create for rapid batch production and Manual Selection for hand-picked letter groups — plus a configurable clue count slider from 3 to 11 that creates natural difficulty tiers within a single tool. The real competitive advantage is language-sensitive letter matching: the same image pairs with different letters depending on the selected language, so a dog image matches D in English but H in German (Hund), C in French (Chien), and P in Spanish (Perro). This means one design session produces genuinely different puzzle content across 11 languages, not just translated headers. Parents use alphabet trains for playful letter practice at home. Sellers use them for targeted phonics and initial-sound activities. Tutoring centers use them for differentiated letter-recognition assessments. This guide walks you through the entire creation process — from choosing a creation mode and configuring clue count to leveraging language-sensitive matching for multilingual product lines and exporting production-ready files. Whether you are building your first literacy product or expanding an existing worksheet catalog with a visually unique format, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Alphabet worksheets are one of the highest-demand printable products — parents, homeschool families, and teachers buy letter learning materials year-round across every age from toddler through early elementary. This guide covers creating professional alphabet train worksheets designed to sell: using themed images for visual engagement, leveraging 11-language support for international market expansion, and building progressive literacy bundles from letter recognition through word formation. You\'ll learn how to pair alphabet worksheets with handwriting and word activities for comprehensive literacy bundles.',
   },
 
   introduction: 'Letter recognition is the foundational literacy skill that everything else builds upon. Before children can read words, decode sentences, or write stories, they must reliably identify individual letters and associate them with their sounds. Alphabet worksheets are among the highest-demand printable products because every child needs this skill and every parent, buyer, and tutor searches for engaging ways to practice it. The challenge for sellers is differentiation — the market is saturated with identical letter-tracing sheets that all look the same in search results. Alphabet train worksheets solve this problem with a visually distinctive format: 11 colorful train wagons carrying letters and matching illustrations arranged across the page, with scattered clue images that solvers must match to the correct wagon.\n\nWhat makes the Alphabet Train Maker particularly powerful as a product creation tool is its two creation modes that serve different seller workflows. Auto Create mode randomly picks 11 letters from the selected language\'s alphabet and automatically assigns matching images from the chosen theme — ideal for rapid batch production where you need dozens of unique worksheets quickly. Manual Selection mode displays the full alphabet grid for the selected language and lets you hand-pick exactly 11 letters, then assign each image individually. This mode is essential for curriculum-aligned products targeting specific letter groups: vowels only, consonants only, letters covered in a particular week of instruction, or letters learners commonly confuse (b/d, p/q). The two modes together mean you can produce both variety packs (Auto Create, many unique worksheets fast) and precision packs (Manual Selection, carefully curated letter sets) from the same tool.\n\nThe configurable clue count slider adds a built-in difficulty system that creates natural product tiers without requiring separate tools or manual editing. Setting 3 clues means only 3 of the 11 wagons have a matching image task — the easiest level, where most wagons display letters without a matching challenge. Setting 5 to 7 clues provides intermediate difficulty. Setting 9 to 11 clues means nearly every wagon requires a match, creating the hardest version. This single slider lets you produce easy, medium, and hard versions of the same themed worksheet in seconds, which translates directly into differentiated product sets that buyers pay premium prices for.\n\nThe most significant competitive advantage is language-sensitive letter matching. Unlike purely visual worksheets where the same output works in any language, alphabet train worksheets are inherently language-dependent because each image pairs with the letter it starts with in the selected language. A dog image matches D in English, H in German (Hund), C in French (Chien), and P in Spanish (Perro). The same cat image matches C in English but K in German (Katze). This means switching languages does not just translate the UI — it produces genuinely different puzzle content where different wagons carry different letters and different clue-wagon pairings appear. The tool supports 11 native alphabets with correct character sets: English with 26 letters, German with 30 letters including Ä, Ö, Ü, and ß, Swedish with 29 letters including Å, Ä, and Ö, Spanish with Ñ, and seven more European languages. One design session becomes 11 sellable products with authentically different puzzle content in each language.\n\nThe Alphabet Train Maker handles all the complexity of creating these activities through automated generation. Choose a theme from 104 collections with over 3,100 illustrations, set your creation mode, adjust the clue count, and the tool builds the complete worksheet with 11 colorful train wagons, scattered clue images, and an auto-generated answer key showing each clue connected to its correct wagon. Both worksheet and answer key export as JPEG and PDF at 300 DPI, producing 4 files per session ready for marketplace listing.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample alphabet train worksheets, test both creation modes, experiment with all clue count levels, evaluate language-sensitive matching across all 11 languages, review answer key quality, and verify print output before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet Train Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Try the Alphabet Train Worksheet Maker' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet train worksheet generator' },
+    { pageType: 'guide', slug: 'create-handwriting-sheets', anchorText: 'Create handwriting sheets to sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

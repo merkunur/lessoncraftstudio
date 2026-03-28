@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visual learning worksheet bundle',
+    primaryKeyword: 'visual worksheet generators for printable business',
     secondaryKeywords: [
-      'coloring drawing worksheet generator bundle for sellers',
-      'visual activity printable toolkit commercial use',
-      'pattern recognition worksheet bundle for Etsy',
-      'drawing coloring worksheet generators for KDP sellers',
+      'visual learning bundle for Etsy sellers',
+      'art and visual generator pack commercial use',
+      'all visual generators in one bundle',
+      'visual worksheet toolkit for sellers',
     ],
     lsiKeywords: [
-      'coloring page drawing worksheet pack',
-      'pattern recognition chart counting printable collection',
-      'commercial license visual activity worksheets',
-      'bulk visual worksheet creation tool',
+      'visual printable business bundle',
+      'complete art generator package',
+      'visual worksheet seller toolkit',
     ],
-    titleTag: 'Visual Learning Worksheet Bundle — 7 Activity Generators',
-    metaDescription: 'Get 7 visual learning generators in one bundle. Create coloring, drawing, pattern, size comparison, charts, and line tracing worksheets to sell online.',
+    titleTag: 'Visual Worksheet Bundle for Sellers | LCS',
+    metaDescription: 'Get all 7 visual and art generators in one bundle. Coloring, drawing, patterns, charts & more to sell on Etsy & KDP. Commercial license included.',
   },
 
   hero: {
-    title: 'Visual Learning Bundle',
+    title: 'Visual Worksheet Bundle — All 7 Visual Generators',
     tagline: 'Seven visual-only worksheet generators — worksheets that work in any language worldwide',
-    description: 'Every generator in this bundle produces worksheets made entirely of images, shapes, colors, and numbers. No text appears on the finished page beyond optional UI labels. That means every worksheet you create works for buyers in any country, any language, any school system — without translation, without adaptation, without localization effort. The Visual Learning Bundle combines seven specialized generators covering size comparison, train-car pattern sequences, fill-in-the-blank pattern worksheets, reference-image drawing with symmetry mode, line tracing between paired objects, coloring page creation from image outlines, and bar chart counting activities. Two of the seven generators — Draw & Color and Coloring — feature dedicated black-and-white outline themes designed specifically for coloring in, giving you access to both colorful and B&W product styles from a single toolkit. Three generators include automatic answer keys where applicable: Big & Small, Pattern Worksheet, and Chart Count. The other four are creative or practice activities where answer keys do not apply. Each generator outputs print-ready PDF and high-resolution JPEG files. Choose from over 100 themed image sets or upload your own artwork for branded, niche-specific products. Whether you sell coloring pages on Etsy, publish activity books on Amazon KDP, or distribute preschool packs on Gumroad, this bundle gives you the visual variety and universal market reach that text-dependent competitors cannot match. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Build a complete visual learning product line with all 7 generators in one discounted bundle — coloring pages, draw and color, drawing lines, pattern train, pattern recognition, chart count, and big & small. Each tool comes with full commercial license for Etsy, Amazon KDP, or any marketplace. Visual and art activities are among the highest-demand printable categories, appealing to parents seeking screen-free creative entertainment and educators building early learning curricula.',
   },
 
   appsIncluded: [
@@ -198,17 +197,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Big & Small Generator — Full Details' },
-    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Pattern Train Generator — Full Details' },
-    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Pattern Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw & Color Generator — Full Details' },
-    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Drawing Lines Generator — Full Details' },
-    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator — Full Details' },
-    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Chart Count Generator — Full Details' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create & Sell Coloring Pages on Etsy' },
-    { pageType: 'guide', slug: 'create-drawing-worksheets', anchorText: 'How to Create Drawing Worksheets' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Build Your Etsy Printable Business' },
-    { pageType: 'idea', slug: 'summer-printable-ideas', anchorText: 'Summer Printable Ideas for Sellers' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring page generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Pattern recognition generator' },
+    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Create coloring pages to sell' },
+    { pageType: 'guide', slug: 'create-drawing-worksheets', anchorText: 'Create drawing worksheets to sell' },
   ],
 
   visuals: {

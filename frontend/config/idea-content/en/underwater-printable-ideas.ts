@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Underwater Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover underwater printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Ocean-themed product concepts, deep-sea worksheets, and niche tips for sellers.',
+    titleTag: 'Underwater Printables to Sell | LCS',
+    metaDescription: 'Underwater themed printable business ideas. Deep sea and marine product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'underwater printable ideas',
+    primaryKeyword: 'underwater themed printables to sell',
     secondaryKeywords: [
-      'underwater worksheets to sell',
-      'deep sea printable business ideas',
-      'underwater activity sheets for sellers',
-      'sell underwater printables on Etsy',
+      'underwater worksheets for Etsy sellers',
+      'sea life activity books for Amazon KDP',
+      'sell underwater printables online',
+      'deep sea themed printable products',
     ],
     lsiKeywords: [
-      'deep sea creature educational worksheets',
-      'coral reef activity pages',
-      'aquatic themed printables',
+      'underwater printable niche',
+      'marine life worksheets',
+      'aquatic themed products',
     ],
   },
   hero: {
-    title: 'Underwater Printable Business Ideas for Sellers',
-    description: 'Underwater themes represent one of the most visually rich and reliably evergreen niches for printable entrepreneurs because children maintain a deep, enduring fascination with ocean life, marine creatures, and the mysterious world beneath the waves that drives consistent purchasing behavior across every season and calendar quarter. The extraordinary diversity of sea creatures and underwater environments creates an emotional connection that captivates children and motivates parents and buyers to seek out ocean-themed educational materials for home learning, homeschool content libraries, and home learning enrichment. The underwater theme offers remarkable sub-theme depth including fish, shark, dolphin, whale, octopus, jellyfish, seahorse, starfish, coral reef, turtle, crab, lobster, stingray, submarine, seaweed, anchor, shipwreck, treasure chest, pearl, oyster, clam, squid, eel, and anemone, giving sellers a visual vocabulary of unmatched variety that connects to children\'s natural curiosity about what lives beneath the ocean surface and the colorful ecosystems that thrive in coral reefs, deep sea trenches, and coastal tide pools. Cross-curricular versatility makes underwater printables especially valuable because marine concepts connect naturally to science through marine biology, ocean ecosystems, habitats, and animal classification, math through counting sea creatures, grouping marine animals by category, and ocean measurement activities, literacy through ocean vocabulary building, marine life descriptions, and underwater adventure story comprehension, and geography through ocean mapping, underwater exploration concepts, and understanding marine habitats around the world. For printable sellers on Etsy, Amazon KDP, and Gumroad, the underwater niche combines strong year-round demand with extraordinary visual diversity that resonates with science-focused buyers planning marine biology and ocean habitat units, buyers integrating nature and animal studies, homeschool families exploring ocean science and marine ecology topics, aquarium education programs building complementary activity materials, and parents looking for educational printables that channel their child\'s natural wonder about dolphins, sharks, whales, and the colorful creatures of the coral reef into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable underwater printable product line using our worksheet generator tools.',
+    title: 'Underwater Themed Printables to Sell Online',
+    description: 'Underwater and deep sea themes offer a visually stunning niche -- colorful fish, coral reefs, submarines, and sea creatures create printable products that pop in marketplace thumbnails. This niche guide covers the commercial opportunity: which underwater formats drive sales, how to differentiate underwater from ocean animal themes for distinct product lines, and strategies for combining aquatic themes with summer seasonal releases. Underwater printables appeal to the science-curious buyer segment and pair well with I Spy and counting activities.',
   },
   marketOverview: `The underwater printable niche occupies a uniquely powerful position for printable sellers because children\'s fascination with ocean life and marine creatures operates as a genuine year-round evergreen interest that never depends on weather, holidays, or calendar timing. Unlike seasonal themes that concentrate demand into narrow windows, the underwater niche benefits from the simple reality that children are captivated by sharks, dolphins, whales, octopuses, and the colorful world of coral reefs during every month of the year. Aquarium visits, ocean documentaries, marine animal toys, and underwater-themed media maintain a constant stream of engagement that translates directly into parent and buyer demand for ocean-themed educational materials. This consistent demand pattern makes underwater printables a reliable revenue foundation without the feast-or-famine cycles that challenge sellers in more seasonal niches.
 
@@ -143,19 +143,19 @@ The aquarium visit connection represents a particularly valuable audience driver
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Find and count for underwater scenes',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'ocean-animals-printable-ideas',
+      anchorText: 'Ocean animal printable ideas',
     },
     {
       pageType: 'guide',

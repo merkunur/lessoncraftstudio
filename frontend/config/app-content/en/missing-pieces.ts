@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'missing pieces generator',
+    primaryKeyword: 'missing piece puzzle generator for KDP activity books',
     secondaryKeywords: [
-      'printable jigsaw puzzle maker for Etsy sellers',
-      'missing piece worksheet generator for KDP publishers',
-      'visual puzzle creator commercial license',
-      'sell missing pieces worksheets on Gumroad',
+      'create missing pieces puzzles for Etsy',
+      'visual puzzle worksheets for Amazon KDP sellers',
+      'missing pieces printables with commercial license',
+      'sell missing piece activities online',
     ],
     lsiKeywords: [
-      'digital puzzle printables online business',
-      'commercial use visual puzzle generator',
-      'printable jigsaw activity business tools',
+      'visual perception puzzle niche',
+      'KDP activity book business',
+      'sell observation worksheets online',
     ],
-    titleTag: 'Missing Pieces Generator | Create Visual Puzzles',
-    metaDescription: 'Create missing pieces puzzles to sell on Etsy, KDP & Gumroad. 6 piece shapes, configurable difficulty, auto answer key, 104 themes. Try free — license available.',
+    titleTag: 'Missing Piece Puzzle Generator for KDP Books | LCS',
+    metaDescription: 'Create missing piece puzzles to sell on Etsy & KDP. Visual observation format, auto answer keys, 104 themes, commercial license. Try free with watermark.',
   },
 
   hero: {
-    title: 'Missing Pieces Puzzle Generator for Jigsaw-Style Visual Puzzles',
+    title: 'Create Missing Piece Puzzles for KDP Activity Books & Etsy',
     tagline: 'Generate jigsaw-style puzzles where pieces are cut from images and solvers identify the correct numbered option — with 6 piece shapes, 1–5 missing pieces, 2–6 solution options including distractors, auto-generated answer keys, and visual-only design that works in every language.',
     description:
-      'Build professional missing piece puzzles where an image has holes cut out and solvers identify which numbered option fills each gap. The smart piece extraction algorithm finds visually distinct areas with sufficient color variance, ensuring every puzzle is solvable and engaging. Choose from 6 piece shapes — square, circle, rectangle portrait, rectangle landscape, ellipse portrait, and ellipse landscape — and configure difficulty with 1–5 missing pieces and 2–6 solution options that include distractor pieces to challenge visual discrimination skills. Every puzzle includes an auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option. The auto-generated header renders \"Missing Pieces\" in turquoise (#06B6D4) with a rose pink description (#DB2777) across a dual border system — teal outer (#14B8A6, 8px) and hot pink inner (#EC4899, 3px) — localized in all 11 supported languages. Missing Pieces is NOT language-sensitive: puzzles are purely visual with no locale-dependent content, so every puzzle works identically worldwide. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile puzzle workbooks for Amazon KDP, or list products on your own store, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Missing piece puzzles are a distinctive format for Amazon KDP activity books — solvers identify which piece completes an image, building observation and visual discrimination skills that parents actively seek. This generator creates professional missing pieces worksheets with configurable grid sizes and automatic answer keys in under 3 minutes. Choose from 3,000+ themed illustrations across 104 collections to match any niche or seasonal trend. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation, and the unique puzzle type faces far less competition than standard worksheets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Missing Pieces Puzzles in 5 Steps',
+    title: 'How to Create Missing Piece Puzzles Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Missing Pieces Puzzle Generator',
+    title: 'Why Missing Piece Puzzles Stand Out on Etsy & KDP',
     features: [
       {
         title: 'Jigsaw-Style Missing Piece Puzzles with Configurable Difficulty',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Missing Pieces Puzzles Online',
+    title: 'Sell Visual Puzzle Activity Books on Etsy & KDP',
     cases: [
       {
         title: 'Themed Missing Piece Puzzle Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
+      slug: 'grid-match-worksheets',
+      anchorText: 'Grid match puzzles for complementary visual puzzle bundles',
+    },
+    {
+      pageType: 'app',
       slug: 'odd-one-out-worksheets',
-      anchorText: 'Odd One Out Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sudoku-worksheets',
-      anchorText: 'Sudoku Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'picture-path-worksheets',
-      anchorText: 'Picture Path Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-and-count-worksheets',
-      anchorText: 'Find and Count Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'puzzles-logic-bundle',
-      anchorText: 'Puzzles & Logic Bundle — All Puzzle Apps in One Package',
+      anchorText: 'Odd one out puzzles for observation skill variety',
     },
     {
       pageType: 'guide',
       slug: 'create-missing-pieces-puzzles',
-      anchorText: 'How to Create and Sell Puzzle Worksheets Online',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Ideas for Primary Education',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Ideas for Growing Learners',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activity-books',
-      anchorText: 'Publish Activity Books on Amazon KDP',
+      anchorText: 'Guide to creating missing pieces puzzles that sell',
     },
   ],
 

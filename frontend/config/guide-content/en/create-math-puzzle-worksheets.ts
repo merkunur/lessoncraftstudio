@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create math puzzle worksheets',
+    primaryKeyword: 'create math puzzle worksheets to sell online',
     secondaryKeywords: [
-      'math puzzle worksheet generator',
-      'image reconstruction math puzzles',
-      'printable math puzzle worksheets to sell',
-      'grid-based math puzzles for kids',
+      'make math puzzles for Etsy shop',
+      'create grid math puzzles for KDP',
+      'math puzzle creation guide for sellers',
+      'sell math puzzle printables online',
     ],
     lsiKeywords: [
-      'picture puzzle math activity',
-      'solve equations reassemble image',
-      'visual math puzzles preschool kindergarten',
-      'sell math puzzles on Etsy',
-      'Amazon KDP math puzzle books',
-      'commercial license puzzle maker',
+      'math puzzle product creation',
+      'puzzle worksheet business',
+      'sellable math puzzle products',
     ],
-    titleTag: 'Create Math Puzzle Worksheets — Step-by-Step Guide',
-    metaDescription: 'How to create math puzzle worksheets where kids solve equations to reassemble images. Grid sizes, operations, answer keys, and tips for selling on Etsy.',
+    titleTag: 'Create Math Puzzle Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating math puzzle worksheets to sell online. Grid sizes, operations, themes, and strategies for Etsy and KDP math puzzle sellers.',
   },
 
   hero: {
-    title: 'How to Create Math Puzzle Worksheets',
+    title: 'Create Math Puzzle Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating image reconstruction math puzzles where children solve equations to reassemble pictures — ready to sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Math puzzle worksheets combine math practice with the thrill of solving a visual puzzle. A single image is divided into grid pieces, each piece gets a math equation, and children solve the equations to figure out where each piece belongs and reassemble the picture. This format transforms routine math drill into an engaging game that children actually want to complete. This guide walks you through creating math puzzle worksheets using the Math Puzzle Generator — from choosing themes and grid sizes to exporting print-ready PDFs with automatic answer keys. Whether you are launching your first printable product or adding a unique format to an existing math worksheet catalog, you will have finished puzzles ready to list by the end of this tutorial.',
+    description: 'Grid-based math puzzles outperform standard drill sheets on Etsy because the puzzle-reveal mechanic keeps solvers engaged and makes your listings visually distinctive. This guide shows you how to create math puzzle worksheets designed to sell: configuring grid sizes for different difficulty tiers, choosing operations that match target age groups, and packaging puzzles into themed bundles and KDP activity books. You\'ll learn how to price unique puzzle formats higher than standard worksheets and position your products in the growing math puzzle niche.',
   },
 
   introduction: 'Standard addition and subtraction worksheets are essential, but they all follow the same format: a list of equations on a page. Math puzzle worksheets break that pattern entirely. Instead of rows of problems, children see a grid of scrambled image pieces alongside math expressions. Solving each equation reveals a number that tells the child where that piece belongs in the reconstructed image. The reward is not just a correct answer — it is a completed picture.\n\nThis format taps into something powerful: children who resist traditional math drills will eagerly work through the same equations when a puzzle is involved. The visual payoff of seeing the image come together creates intrinsic motivation that plain worksheets cannot match. For printable sellers, this translates directly into marketplace differentiation. Buyers scrolling through pages of identical-looking math worksheets stop when they see a product that looks fundamentally different.\n\nThe Math Puzzle Generator handles all the technical complexity. It divides any themed image into grid pieces (2x2, 3x3, or 4x4), generates appropriate math equations for each cell, scrambles the pieces with numbered labels, and produces both the puzzle worksheet and a complete answer key. You configure the grid size, math operation, and theme — the generator handles layout, equation accuracy, and print formatting.\n\nBecause math puzzles use numbers and images rather than words, the puzzle content itself is language-independent. Numbers are universal. This means a single puzzle product works for buyers in any country without translation, simplifying international sales significantly.\n\nEvery feature described in this guide is available in the free trial with watermark. You can create sample puzzles, test every grid size and operation combination, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Try the Math Puzzle Maker' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math puzzle worksheet generator' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on Amazon KDP' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Sell math worksheets on Etsy' },
   ],
 
   toolsRecommended: [

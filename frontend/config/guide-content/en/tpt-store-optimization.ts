@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gumroad store optimization',
+    primaryKeyword: 'TPT store setup and optimization guide',
     secondaryKeywords: [
-      'how to optimize your Gumroad store',
-      'Gumroad search algorithm ranking factors',
-      'increase Gumroad sales with store optimization',
-      'Gumroad store growth strategy',
+      'optimize TPT store for more sales',
+      'Teachers Pay Teachers store setup tips',
+      'TPT listing optimization for sellers',
+      'improve TPT shop rankings 2026',
     ],
     lsiKeywords: [
-      'Gumroad search ranking conversion rate product visibility seller marketplace',
-      'store branding profile banner cohesive visual identity subject specialty',
-      'product preview thumbnail description copywriting listing optimization',
-      'review generation social proof buyer trust star rating feedback',
-      'store sections categories navigation browse-friendly organization',
-      'Gumroad analytics seasonal planning data-driven catalog scaling strategy',
+      'TPT store optimization',
+      'TPT search algorithm',
+      'TPT seller success strategies',
     ],
-    titleTag: 'Gumroad Store Optimization Guide — Sell More Resources',
-    metaDescription: 'Gumroad store optimization strategies for higher search rankings and more sales. Covers preview conversion, product bundling, review building, and catalog.',
+    titleTag: 'TPT Store Setup & Optimization Guide | LCS',
+    metaDescription: 'Optimize your TPT store for more sales. Store setup, listing optimization, SEO strategies, and conversion tips for Teachers Pay Teachers sellers.',
   },
 
   hero: {
-    title: 'Gumroad Store Setup and Optimization Guide',
-    tagline: 'Advanced strategies for optimizing an existing Gumroad store — covering search algorithm ranking factors, high-converting product descriptions and previews, review generation tactics, store organization for browse-friendly navigation, Gumroad promotional event strategy, and data-driven catalog scaling to turn an active Gumroad store into a consistent and growing revenue channel',
-    description: 'Setting up a Gumroad store and publishing your first resources is only the beginning. The difference between a store that generates occasional sales and one that produces consistent monthly revenue comes down to optimization — how well your listings rank in Gumroad search, how effectively your previews convert browsers into buyers, how your store organization encourages multi-product purchases, and how strategically you expand your catalog based on actual performance data. This guide covers the optimization strategies that move a Gumroad store from the initial setup phase into sustained growth, building on the foundation covered in our guide on how to create and sell Gumroad resources.',
+    title: 'TPT Store Setup and Optimization Guide',
+    tagline: 'Advanced strategies for optimizing an existing TPT store — covering search algorithm ranking factors, high-converting product descriptions and previews, review generation tactics, store organization for browse-friendly navigation, TPT promotional event strategy, and data-driven catalog scaling to turn an active TPT store into a consistent and growing revenue channel',
+    description: 'A well-optimized TPT store can generate consistent passive income from millions of teacher buyers — but most sellers never optimize beyond their first listing. This guide covers everything from store branding and banner design to listing SEO, preview file optimization, and pricing psychology. You\'ll learn the specific ranking factors TPT uses to surface products in search and how to structure your store for maximum discoverability and conversion rates.',
   },
 
   introduction: 'Most Gumroad sellers hit the same plateau. They set up their store, publish 10 to 20 resources, generate a handful of sales per month, and then stall. Their resources are solid — well-formatted, standards-aligned, genuinely useful for buyers. But solid resources alone do not guarantee consistent revenue on Gumroad. The platform hosts millions of resources, and visibility is earned through deliberate optimization, not just content quality.\n\nThe sellers who break through the plateau and build stores generating $500, $1,000, or more per month are not necessarily creating better content than everyone else. They are optimizing every element of their Gumroad presence: writing titles that rank higher in search results, crafting previews that convert browsers into buyers at higher rates, structuring their stores so visiting buyers discover multiple relevant resources in a single session, building review momentum that compounds their credibility over time, and using their sales data to guide what they create next rather than guessing.\n\nGumroad search algorithm is not a black box — sellers who study how it works and optimize accordingly gain measurable advantages over those who ignore it. The algorithm weighs specific factors: title keyword relevance, sales velocity, conversion rates, review scores, listing completeness, and recency signals. Each of these factors is something you can influence through deliberate optimization choices. A resource with a strategically written title, a compelling preview, complete categorization, and strong reviews will outrank a comparable resource that neglects these elements, even if the underlying content quality is identical.\n\nThis guide assumes you already have a Gumroad store with at least a few published resources. If you are starting from zero, read our guide on how to create and sell Gumroad resources first, then return here when you are ready to optimize for growth. The strategies below build on that foundation and focus specifically on the optimization levers that transform an active Gumroad store into a consistently growing revenue channel.\n\nEvery recommendation in this guide is actionable on your existing catalog. You do not need to create new resources to benefit from optimization — many of the highest-impact changes involve updating titles, rewriting descriptions, improving previews, and reorganizing your existing store. Start with your current resources and apply these strategies systematically.',
@@ -155,18 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-sell-tpt-resources', anchorText: 'How to Create and Sell Gumroad Resources' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'How to Create Etsy Worksheet Bundles' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to Create Addition Worksheets for Kids' },
-    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'How to Create Crossword Puzzles for Children' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'create-sell-tpt-resources', anchorText: 'How to create and sell TPT resources' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO strategies that also apply to TPT' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Market your printable business online' },
   ],
 
   toolsRecommended: [

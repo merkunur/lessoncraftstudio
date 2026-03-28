@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'word scramble worksheet generator',
+    primaryKeyword: 'free word scramble generator',
     secondaryKeywords: [
-      'word scramble worksheet maker for sellers',
-      'create letter rearrangement puzzles to sell',
-      'printable word unscramble worksheets commercial use',
-      'word scramble generator for KDP',
+      'make word scramble worksheets free online',
+      'word unscramble generator no signup',
+      'free letter rearrangement puzzle maker',
+      'word scramble worksheets free trial',
     ],
     lsiKeywords: [
-      'shuffled letter tile printables for Etsy',
-      'image-based word scramble worksheet tool',
-      'multilingual spelling puzzle generator',
+      'free spelling puzzle tool online',
+      'instant word scramble maker',
+      'try before you buy literacy tools',
     ],
-    titleTag: 'Word Scramble Worksheet Generator | Create & Sell',
-    metaDescription: 'Generate word scramble worksheets with shuffled letter tiles, image clues, vowel color coding, 4 difficulty levels, 11 languages.',
+    titleTag: 'Free Word Scramble Generator Online | LCS',
+    metaDescription: 'Make word scramble worksheets free online with watermark — no signup. Image clues, shuffled letters, 4 difficulty levels. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Word Scramble Worksheet Generator',
+    title: 'Make Word Scramble Worksheets Free Online — No Signup',
     tagline: 'Create shuffled-letter-tile spelling puzzles with image clues, color coding, and 4 difficulty levels in 11 languages',
-    description: 'Turn vocabulary practice into a hands-on spelling puzzle solvers complete by rearranging shuffled letter tiles. This tool generates word scramble worksheets where an image clue is paired with a set of scrambled tiles — solvers study the picture, identify what it depicts, and drag the letters into the correct order. Unlike fill-in-the-blank exercises, word scramble gives solvers ALL the letters but in the wrong order, making it a letter-rearrangement challenge that builds spelling accuracy through active manipulation. The standout feature is vowel-consonant color coding: toggle it on to display vowels in one color and consonants in another, adding a visual phonics dimension that helps solvers identify letter types while they unscramble. Four difficulty levels control how many letters are pre-placed in their correct positions: No Clues shuffles every letter for maximum challenge, Easy pre-places half for scaffolded beginners, Normal places a quarter for balanced practice, and Tough places just one-sixth for confident spellers. Choose between three content sources: Image Library mode draws from 3,100+ illustrations across 104 themed collections, Manual Edit Mode lets you select images then customize display names, and Custom Word List mode lets you type up to 8 words directly for text-only puzzles. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different target word with different letters and a completely different scrambled arrangement. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One design becomes 11 unique products. Set 1–10 puzzles per page, toggle uppercase or lowercase tiles, add exercise numbering, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with automatic answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create word scramble worksheets right now — free, instant, no account required. Each puzzle pairs an image clue with shuffled letter tiles that solvers rearrange to spell the correct word. Four difficulty levels control how many letters are pre-placed, and the unique vowel-consonant color coding adds a phonics dimension. Choose from 104 themed image collections and generate in 11 languages. Every feature is unlocked in the free trial including answer keys and 300 DPI export. Downloads include a small watermark. Want to sell your spelling worksheets on Etsy, Amazon KDP, or TPT? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Word Scramble Worksheets in 8 Easy Steps',
+    title: 'How to Make Word Scramble Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Word Scramble Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Word Scramble Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Free word guess puzzle maker' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to create word puzzles that sell' },
   ],
 
   visuals: {

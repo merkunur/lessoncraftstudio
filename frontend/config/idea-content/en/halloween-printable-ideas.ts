@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Explore Halloween printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Spooky-themed product concepts, seasonal strategies, and tips for printable sellers.',
+    titleTag: 'Halloween Printable Business Ideas | LCS',
+    metaDescription: 'Halloween printable business ideas for Etsy & KDP. Spooky product concepts, release timing, and strategies for the October demand spike.',
 
-    primaryKeyword: 'halloween printable ideas',
+    primaryKeyword: 'Halloween printable business ideas Etsy',
     secondaryKeywords: [
-      'Halloween worksheets to sell',
-      'Halloween themed printable business',
-      'Halloween activity sheets for sellers',
-      'sell Halloween printables on Etsy',
+      'Halloween worksheets for Etsy sellers',
+      'Halloween activity books for KDP',
+      'sell Halloween printables online',
+      'spooky themed printable products',
     ],
     lsiKeywords: [
-      'spooky themed educational worksheets',
-      'October themed printable activity pages',
-      'costume and pumpkin themed printables',
+      'Halloween printable niche',
+      'October printable demand',
+      'spooky season products',
     ],
   },
   hero: {
-    title: 'Halloween Printable Business Ideas for Sellers',
-    description: 'Halloween delivers one of the most powerful seasonal demand surges in the printable marketplace, with search interest climbing sharply from late August through October as buyers and party planners seek spooky-themed educational content. The niche offers extraordinary sub-theme diversity including pumpkins, ghosts, witches, bats, spiders, skeletons, vampires, monsters, haunted houses, and jack-o-lanterns, giving sellers a rich visual palette for creating distinct products within a single holiday. Buyers plan October activities and Halloween parties weeks in advance, while parents look for age-appropriate spooky fun that keeps learning front and center. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Halloween niche rewards early preparation with a concentrated but highly profitable sales window that returns predictably every year. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a thriving Halloween printable product line using our worksheet generator tools.',
+    title: 'Halloween Printable Business Ideas for Etsy',
+    description: 'Halloween drives one of the biggest printable demand spikes of the year — parents search for spooky-themed activities, party games, and classroom worksheets starting in September. This niche guide covers the Halloween printable opportunity: which formats sell best during spooky season, how to time your releases for maximum visibility, and specific product ideas across puzzles, coloring, bingo, and math activities. The Halloween theme works across every age group and activity type, making it one of the most versatile seasonal niches.',
   },
   marketOverview: `The Halloween printable niche ranks as the second most valuable seasonal opportunity for educational product sellers, trailing only Christmas in total demand volume but offering a shorter, more concentrated sales window that makes timing especially important. Buyers begin planning October activities and Halloween parties in late August and early September, searching for themed worksheets that balance spooky fun with genuine educational value. Parents seek age-appropriate Halloween activities that transform screen time into creative learning experiences during the weeks of costume excitement and trick-or-treat anticipation. Party planners and event organizers purchase themed activity sheets for community events, trunk-or-treat gatherings, and family Halloween celebrations.
 
@@ -143,44 +143,19 @@ To capture maximum Halloween revenue, develop products across multiple sub-theme
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'picture-bingo-worksheets',
+      anchorText: 'Bingo card generator for Halloween games',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Business Ideas',
+      anchorText: 'Christmas printable ideas',
     },
   ],
 

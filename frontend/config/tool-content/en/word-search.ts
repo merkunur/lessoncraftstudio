@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'word search worksheet generator',
+    primaryKeyword: 'free word search maker with images',
     secondaryKeywords: [
-      'word search puzzle maker for sellers',
-      'create hidden-word grid worksheets to sell',
-      'printable word search worksheets commercial use',
-      'word search generator for KDP',
+      'make word search puzzles free online',
+      'word search generator no signup',
+      'free word search creator with pictures',
+      'printable word search free trial',
     ],
     lsiKeywords: [
-      'hidden-word grid puzzle printables for Etsy',
-      'locale-aware word search worksheet tool',
-      'multilingual word search puzzle generator',
+      'free word puzzle tool online',
+      'instant word search maker',
+      'try before you buy puzzle generators',
     ],
-    titleTag: 'Word Search Worksheet Generator | Create & Sell Grid Puzzles',
-    metaDescription: 'Generate word search worksheets with adjustable grids from 5x5 to 30x30, direction controls, locale-aware fillers, 11 languages. Try free — license available.',
+    titleTag: 'Free Word Search Maker with Images | LCS',
+    metaDescription: 'Make word search puzzles free online with watermark — no signup. Themed images, adjustable grids 5-30, 11 languages. Upgrade for commercial license to sell.',
   },
 
   hero: {
-    title: 'Word Search Worksheet Generator',
+    title: 'Make Word Search Puzzles with Images Free Online',
     tagline: 'Create hidden-word grid puzzles with adjustable sizes, direction controls, and locale-aware fillers in 11 languages',
-    description: 'Design professional word search worksheets where hidden words are embedded inside a grid of random filler letters and solvers scan rows, columns, and diagonals to find them — the classic puzzle format that never goes out of style. This tool gives you precise control over difficulty through two independent axes: grid size (adjustable from 5×5 to 30×30 with rows and columns set independently) and word direction toggles (diagonal words on or off, reverse words on or off) creating anywhere from two to eight possible placement directions. Choose from three content sources: Image Library mode draws from 3,100+ illustrations across 104 themed collections, Manual Edit Mode lets you select images then customize display names, and Custom Word List mode lets you type up to 8 words directly for text-only puzzles. Three display modes — Words + Images, Images Only, and Words Only — control what appears as clues alongside the grid. The standout feature is locale-aware alphabet filler: when you switch languages, the grid filler letters change to match that language\'s character set with weighted frequency distributions. German grids include ä, ö, ü, and ß at natural frequencies. French grids include é, è, ç, à. Swedish grids include å, ä, ö. Every locale gets authentic filler characters, making puzzles linguistically genuine rather than obviously English-generated. A color-coded answer key highlights each found word in one of six cycling colors — pink, blue, green, gold, coral, and lavender — for instant visual verification. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Choose from 7 font families, add name and date fields, toggle grayscale for ink-friendly output, and use the full Fabric.js canvas to reposition every element. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create custom word search puzzles right now — free, instant, no account required. This maker embeds hidden words in letter grids with themed image clues from 104 collections. Adjust grids from 5x5 to 30x30, toggle diagonal and reverse directions, and choose from three display modes. The 11-language support generates locale-correct filler letters for German, French, Spanish, and more. Every feature is unlocked in the free trial including color-coded answer keys and 300 DPI export. Downloads include a small watermark. Want to sell your word search puzzles on Etsy or compile puzzle books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Word Search Worksheets in 8 Easy Steps',
+    title: 'How to Make Word Search Puzzles Free in 8 Steps',
     steps: [
       {
         title: 'Open the Word Search Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
-    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Free crossword puzzle maker' },
+    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to sell word search puzzles on Etsy' },
   ],
 
   visuals: {

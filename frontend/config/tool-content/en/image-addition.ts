@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'addition worksheet maker to sell online',
+    primaryKeyword: 'free addition worksheet maker online',
     secondaryKeywords: [
-      'addition worksheet creator for Etsy sellers',
-      'math addition worksheets for printable business',
-      'printable addition practice sheets',
-      'image addition worksheets for the early-learner niche',
+      'make addition worksheets free online',
+      'addition worksheet generator no signup',
+      'free math worksheet maker for kids',
+      'printable addition worksheets free trial',
     ],
     lsiKeywords: [
-      'visual math worksheets to sell online',
-      'picture-based addition practice printables',
-      'early-learner math printables for sellers',
+      'free worksheet generator online',
+      'no signup worksheet maker',
+      'try before you buy printable tools',
     ],
-    titleTag: 'Addition Worksheet Maker — Math Sheets to Sell Online',
-    metaDescription: 'Create addition worksheets with themed images to sell on Etsy & KDP. 104 themes, 4 exercise modes, answer keys, print-ready PDFs. Try with watermark — no signup.',
+    titleTag: 'Free Addition Worksheet Maker Online | LCS',
+    metaDescription: 'Make addition worksheets free online with watermark — no signup needed. 104 themes, 4 exercise modes, answer keys. Upgrade for commercial license to sell.',
     },
 
   hero: {
-    title: 'Addition Worksheet Generator',
+    title: 'Make Addition Worksheets Free Online — No Signup Needed',
     tagline: 'Create beautiful, image-based addition worksheets in under 60 seconds',
-    description: 'Turn math practice into a visual adventure. This tool lets you create custom addition worksheets featuring themed images that children actually want to complete. Choose from over 100 image themes, set your difficulty range, pick your page layout, and download print-ready PDFs or high-resolution JPEGs. Perfect for Etsy sellers creating printable math products, KDP publishers building activity books, and entrepreneurs launching a printable business. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Make custom addition worksheets right now — free, instant, no account required. Choose from four exercise modes, 104 themed image collections, and configurable difficulty to create professional math worksheets in your browser. Every feature is unlocked in the free trial including answer key generation, 300 DPI export, and all page sizes. Downloads include a small watermark so you can fully evaluate the quality before purchasing. Want to sell your worksheets on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and gain full selling rights with zero royalties or restrictions.',
   },
 
   tutorial: {
-    title: 'How to Create Addition Worksheets in 8 Easy Steps',
+    title: 'How to Make Addition Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Worksheet Generator',
@@ -194,14 +194,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Find and Count Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Free subtraction worksheet maker' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to create addition worksheets to sell' },
   ],
 
   visuals: {

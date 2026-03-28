@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Parents Day Printable Ideas to Sell — Niche Guide',
-    metaDescription: "Discover Mother\'s Day and Father\'s Day printable ideas to sell on Etsy, KDP, and Gumroad. Parent appreciation product concepts and platform tips for sellers.",
-    primaryKeyword: 'parents day printable ideas',
+    titleTag: 'Parents Day Printables to Sell | LCS',
+    metaDescription: 'Parents Day printable ideas for Etsy & KDP. Product concepts for Mother\'s Day, Father\'s Day, and family-themed printable sellers.',
+    primaryKeyword: 'Parents Day printable ideas to sell',
     secondaryKeywords: [
-      'Mother\'s Day worksheets to sell',
-      'Father\'s Day printable business ideas',
-      'parents day activity sheets for sellers',
-      'sell parents day printables on Etsy',
+      'Mother\'s Day Father\'s Day worksheets Etsy',
+      'parents day activity printables for KDP',
+      'sell parents day printables online',
+      'family themed printable products',
     ],
     lsiKeywords: [
-      'family celebration educational worksheets',
-      'parent appreciation activity pages',
-      'seasonal family themed printables',
+      'parents day printable niche',
+      'family celebration products',
+      'parent appreciation worksheets',
     ],
   },
   hero: {
-    title: 'Mother\'s & Father\'s Day Printable Business Ideas for Sellers',
-    description: 'Mother\'s Day and Father\'s Day together create one of the most emotionally driven dual-holiday selling windows in the printable calendar, with demand climbing through April for Mother\'s Day in May and continuing into June for Father\'s Day. The niche offers heartfelt sub-theme variety including hearts, flowers, ties, greeting cards, gift certificates, appreciation coupons, family portraits, trophies, crowns, and "best mom" or "best dad" award ribbons, providing sellers with a warm visual vocabulary that resonates with parents and children across age groups. Buyers plan gift-making projects weeks in advance, searching for printable activities that let children create personalized appreciation gifts during class time. Homeschool families and daycare programs add buyer depth, seeking parent appreciation crafts that combine heartfelt sentiment with genuine learning outcomes. For printable sellers on Etsy, Amazon KDP, and Gumroad, this niche delivers two distinct revenue peaks from a single product line, with a celebration-centered aesthetic that drives emotional purchases and strong conversion rates. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable parent appreciation printable product line using our worksheet generator tools.',
+    title: 'Parents Day Printables to Sell on Etsy & KDP',
+    description: 'Mother\'s Day and Father\'s Day create two distinct demand windows for family-themed printables — May and June respectively. This niche guide covers the parents day opportunity: which product formats sell best for family celebrations, how to create craft-focused and card-making bundles, and specific product ideas across coloring, drawing, and creative activities. The emotional appeal of parent appreciation products drives strong conversion rates, and the two separate holidays give you two listing opportunities from a single theme set.',
   },
   marketOverview: `The parent appreciation printable niche occupies a uniquely powerful position in the spring selling calendar because it delivers two concentrated demand peaks from one product line. Mother\'s Day in May and Father\'s Day in June create back-to-back selling windows that reward sellers who prepare a cohesive family appreciation catalog. Buyers begin planning May gift-making projects in early April, searching for printable activities that let children create personalized appreciation gifts, cards, and keepsake booklets during class time. Parents and homeschool families seek age-appropriate crafting activities that help children express gratitude meaningfully, and daycare providers need structured appreciation projects for their youngest learners.
 
@@ -144,44 +144,19 @@ To capture maximum revenue from both holidays, develop products across multiple 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      pageType: 'app',
+      slug: 'draw-and-color-worksheets',
+      anchorText: 'Draw and color generator for family crafts',
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Seasonal marketing for printable sellers',
     },
     {
       pageType: 'idea',
-      slug: 'thanksgiving-printable-ideas',
-      anchorText: 'Thanksgiving Printable Business Ideas',
+      slug: 'summer-printable-ideas',
+      anchorText: 'Summer printable business ideas',
     },
   ],
 

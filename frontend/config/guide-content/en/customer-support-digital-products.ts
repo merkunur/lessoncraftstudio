@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'customer support digital products',
+    primaryKeyword: 'customer support for digital product businesses',
     secondaryKeywords: [
-      'digital product customer service',
-      'printable business support',
-      'handle customer complaints worksheets',
-      'digital download support',
+      'customer support for printable sellers',
+      'handle digital product customer issues',
+      'Etsy customer service for printable shops',
+      'digital product refund and support policy',
     ],
     lsiKeywords: [
-      'support ticket management refund handling FAQ page buyer communication response templates',
-      'customer satisfaction download troubleshooting file format support printing instructions',
-      'marketplace messaging support automation proactive documentation self-service support',
-      'customer retention review management product descriptions clarity expectation setting',
-      'support prevention common issues resolution time professional communication',
-      'scalable support systems template libraries pattern tracking feedback loops',
+      'digital product customer service',
+      'printable business support',
+      'customer satisfaction digital products',
     ],
-    titleTag: 'Customer Support Digital Products — Guide',
-    metaDescription: 'Customer support strategies for digital product sellers. Covers issue prevention, response templates, refund handling, review management, and scalable.',
+    titleTag: 'Customer Support for Digital Products | LCS',
+    metaDescription: 'Customer support guide for digital product sellers. Handle common issues, build policies, and maintain high ratings for your printable business.',
   },
 
   hero: {
     title: 'Customer Support for Digital Product Businesses',
     tagline: 'A complete guide to building effective support systems for your printable business — covering the most common digital product support issues, preventing support requests through better documentation, building self-service FAQ systems, creating response templates, handling refunds professionally, turning support into business improvements, managing reviews constructively, and scaling support as your catalog grows',
-    description: 'Customer support for digital products is fundamentally different from physical product support. There are no shipping delays, no damaged packages, and no sizing issues. Instead, digital product sellers handle download problems, file format confusion, printing questions, and expectation mismatches. The good news is that most digital product support issues are preventable — with clear product descriptions, comprehensive FAQs, and proactive documentation, you can eliminate the majority of support requests before they happen. This guide provides a practical customer support framework specifically for printable sellers, covering prevention strategies, response systems, and scalable processes that maintain quality as your catalog grows.',
+    description: 'Great customer support turns one-time buyers into repeat customers and protects your seller ratings — but most printable sellers handle support reactively instead of proactively. This guide covers building a customer support system for your digital product business: creating FAQ documents that prevent common issues, handling download problems and refund requests professionally, and maintaining high ratings across Etsy and other platforms. You\'ll learn how to minimize support time while maximizing customer satisfaction.',
   },
 
   introduction: 'Customer support is one of the most underestimated aspects of running a digital product business. Many printable sellers focus entirely on product creation and marketing, treating support as an afterthought that they will figure out when questions arrive. This reactive approach leads to inconsistent responses, wasted time, frustrated buyers, and negative reviews that could have been prevented.\n\nThe reality is that customer support directly impacts every important business metric for digital product sellers. Reviews are the most visible effect — a single negative review from a support failure can reduce sales more than dozens of positive reviews increase them. Buyers who receive excellent support become repeat customers and leave positive reviews. Buyers who struggle with unresolved issues leave negative reviews that persist on your listings indefinitely. On platforms like Etsy and Gumroad, your seller rating and review profile are primary factors in both search ranking and buyer trust.\n\nDigital products create a specific set of support challenges that differ from physical products. Buyers cannot examine a digital product before purchase the way they can handle a physical item in a store. They rely entirely on your product descriptions, preview images, and other buyers reviews to set expectations. When those expectations do not match the actual product — even if the product is excellent — a support interaction results. Download delivery adds another layer: buyers may not know how to access files, open specific formats, or handle large downloads. Printing creates additional questions about paper size, color settings, and scaling options that do not exist for physical products.\n\nThe most effective customer support strategy for digital product businesses is prevention. Every support request you prevent through better documentation, clearer descriptions, and proactive guidance saves time you can spend creating products. Prevention also improves the buyer experience — a buyer who finds clear answers without needing to contact you is more satisfied than a buyer who needed to ask a question and wait for a response, even if that response was helpful and prompt.\n\nThis guide covers a complete customer support framework for printable sellers: understanding common issues, preventing support requests through better product documentation, building self-service systems, creating response templates for efficiency, handling refunds strategically, using support data to improve your business, managing reviews professionally, and scaling your support processes as your product catalog grows. The goal is to build a support system that increases customer satisfaction while decreasing the time you spend on individual support interactions.',
@@ -137,18 +134,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Understanding Commercial Use Licenses' },
-    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Copyright Basics for Printable Sellers' },
-    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'How to Get Reviews for Printable Products' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
+    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'How to get reviews for printable products' },
+    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'Quality standards for worksheets that sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

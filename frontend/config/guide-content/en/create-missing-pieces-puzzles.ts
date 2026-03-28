@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'jigsaw puzzle worksheets',
+    primaryKeyword: 'create missing pieces puzzles to sell',
     secondaryKeywords: [
-      'create missing pieces puzzles to sell',
-      'jigsaw puzzle worksheet generator commercial use',
-      'printable missing pieces maker for Etsy and KDP',
-      'visual puzzle worksheets with answer keys',
+      'make missing pieces worksheets for Etsy',
+      'create visual puzzles for KDP books',
+      'missing pieces creation guide',
+      'sell observation puzzles online',
     ],
     lsiKeywords: [
-      'smart piece extraction color variance puzzle generator',
-      'six shape jigsaw puzzle worksheet maker with distractor pieces',
-      'auto answer key yellow highlighting missing pieces creator',
-      'sell missing pieces puzzles on Etsy',
-      'Amazon KDP jigsaw puzzle workbooks',
-      'commercial license missing pieces tool',
+      'missing pieces product creation',
+      'visual puzzle business',
+      'sellable observation products',
     ],
-    titleTag: 'Jigsaw Puzzle Worksheets — Guide',
-    metaDescription: 'Create jigsaw puzzle worksheets with 6 piece shapes, smart extraction, distractor pieces, and auto answer keys. Step-by-step selling guide for Etsy & KDP.',
+    titleTag: 'Create Missing Pieces Puzzles to Sell | LCS',
+    metaDescription: 'Guide to creating missing pieces puzzles to sell. Visual observation format, themes, and strategies for Etsy and KDP activity book sellers.',
   },
 
   hero: {
-    title: 'How to Create Missing Pieces Puzzles',
+    title: 'Create Missing Pieces Puzzles to Sell Online',
     tagline: 'A step-by-step tutorial for creating jigsaw puzzle worksheets with six piece shapes, smart piece extraction using brightness variance detection, distractor pieces for genuine challenge, two independent difficulty controls, auto-generated answer keys with yellow highlighting, and purely visual puzzles you can sell worldwide on Etsy, Amazon KDP, and Gumroad',
-    description: 'Missing pieces puzzles are a uniquely engaging visual activity where solvers examine an image with holes cut out and identify which numbered option fills each gap. The format combines spatial reasoning with visual discrimination — solvers must analyze colors, patterns, and details to match pieces to their correct locations. Because the worksheet output contains only images, holes, and numbered options with no language-specific text, every puzzle you create is instantly sellable worldwide without translation. Parents use them for cognitive development activities at home. Sellers list them for visual perception exercises and critical thinking warm-ups. Tutoring centers use them for spatial reasoning practice. This guide walks you through the entire creation process using the Missing Pieces Worksheet Generator — from selecting piece shapes and configuring dual difficulty controls to understanding the smart extraction algorithm, generating distractor pieces, reviewing auto answer keys with yellow highlighting, and exporting production-ready files. Whether you are building your first jigsaw puzzle product or expanding an existing visual worksheet catalog, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Missing pieces puzzles offer a unique visual format that has far less competition than standard worksheets on Etsy — solvers identify which piece completes an image, building observation and spatial reasoning skills. This guide covers creating professional missing pieces worksheets designed to sell: configuring grid sizes for different difficulty tiers, choosing themes with strong visual detail, and packaging puzzles into themed bundles and KDP activity books. You\'ll learn how to position this distinctive format as a premium product in the visual puzzle niche.',
   },
 
   introduction: 'Spatial reasoning and part-to-whole analysis are foundational cognitive skills that develop throughout early childhood and elementary education. Before children can solve complex visual problems, they must learn to analyze how individual pieces relate to a complete image — recognizing where a fragment belongs based on color continuity, pattern alignment, and contextual clues. Missing pieces puzzles train these skills directly by presenting an image with holes and asking solvers to identify which numbered option fills each gap. This makes jigsaw puzzle worksheets a high-demand product with applications spanning preschool readiness through elementary enrichment.\n\nWhat makes missing pieces puzzles particularly powerful as a printable product is the purely visual format. Unlike vocabulary worksheets, reading comprehension pages, or math problems that require language-specific text, jigsaw puzzle worksheets contain only images, holes, and numbered solution options. No words to translate, no instructions to localize, no language barrier of any kind. A worksheet created in one session sells identically across every international marketplace without modification. This global reach without per-locale effort is a significant competitive advantage that most sellers overlook entirely.\n\nThe Missing Pieces Worksheet Generator handles the complexity of creating these activities through a sophisticated smart extraction system. The algorithm tries up to one hundred fifty placement attempts to find pieces with sufficient brightness variance (minimum threshold of fifteen), maintaining at least two hundred fifty pixels of distance between extracted pieces to prevent clustering. Six piece shapes — square, circle, rectangle portrait, rectangle landscape, ellipse portrait, and ellipse landscape — each produce visually distinct puzzles from the same source image. Two independent difficulty controls let you set one to five missing pieces and two to six solution options separately, creating a difficulty matrix from simple single-piece identification to complex multi-piece discrimination with distractor pieces. Distractors are extracted from non-extracted regions of the same image, preventing solvers from solving by elimination and forcing genuine visual comparison. The dual-canvas system generates both a worksheet and an answer key simultaneously, with yellow-highlighted number labels placed inside each hole showing the correct option index.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample jigsaw puzzle worksheets, test all six piece shapes, experiment with difficulty combinations, evaluate the smart extraction algorithm, and review answer key quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing Pieces Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Try the Missing Pieces Worksheet Maker' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing pieces puzzle generator' },
+    { pageType: 'guide', slug: 'create-odd-one-out-puzzles', anchorText: 'Create odd one out puzzles to sell' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on KDP' },
   ],
 
   toolsRecommended: [

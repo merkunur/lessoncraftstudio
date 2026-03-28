@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'maze worksheet generator',
+    primaryKeyword: 'picture path maze generator for selling on Etsy',
     secondaryKeywords: [
-      'printable maze activity maker for Etsy sellers',
-      'picture path worksheet generator for KDP publishers',
-      'maze worksheet creator commercial license',
-      'sell pathway puzzle worksheets on Etsy and Amazon',
+      'create picture path worksheets for Etsy shop',
+      'maze activity printables for Amazon KDP books',
+      'picture path puzzles with commercial license',
+      'sell maze worksheets online',
     ],
     lsiKeywords: [
-      'digital maze printables online business',
-      'commercial use pathway worksheet generator',
-      'printable puzzle activity business tools',
+      'maze printable niche Etsy KDP',
+      'sell path worksheets commercially',
+      'visual navigation puzzle products',
     ],
-    titleTag: 'Maze Worksheet Generator | Create Path Printables',
-    metaDescription: 'Create maze worksheets to sell on Etsy, KDP & Gumroad. 3 game modes, LPF algorithm, auto answer key, 104 themes, print-ready PDFs. Try free — license available.',
+    titleTag: 'Picture Path Maze Generator — Sell on Etsy | LCS',
+    metaDescription: 'Create picture path maze worksheets to sell on Etsy & KDP. Themed image destinations, auto answer keys, 104 themes, commercial license. Try free.',
   },
 
   hero: {
-    title: 'Picture Path Maze Worksheet Generator for Pathway and Maze Activities',
+    title: 'Create Picture Path Mazes to Sell on Etsy & Amazon KDP',
     tagline: 'Three game modes in one generator — Picture Pathway, Classic Maze, and Choose the Right Path — powered by an LPF (Longest Path First) maze algorithm with auto-generated answer keys, wall customization, and visual-only design that works globally without translation.',
     description:
-      'Build professional maze and pathway worksheets with three distinct game modes. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with collectible images scattered throughout — configure grid sizes from 15×15 to 20×20, set 1 to 3 paths with dead-end blocking, and customize wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where solvers identify the single correct path among decoys. Every mode generates a companion answer key on a separate canvas tab — solution paths are highlighted with pink circles along the correct route, and Choose Path mode adds a \"✓ CORRECT PATH\" label. Assign images to five distinct roles: Start, End, Path, Distractor, and Decoration. Browse 104 themed collections with 3,100+ illustrations or upload your own. The auto-generated \"Picture Pathway\" header with orange border renders localized titles and instructions in all 11 supported languages. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Picture Path is completely visual — mazes require no reading or language comprehension, making every worksheet instantly sellable in any market worldwide. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Picture path mazes combine the timeless appeal of maze puzzles with themed images — solvers navigate paths to reach specific destinations, creating an engaging format that sells well on Etsy and in Amazon KDP activity books. This generator creates professional picture path worksheets with themed image destinations and automatic answer keys in under 3 minutes. Choose from 3,000+ illustrations across 104 collections to match any seasonal trend or interest niche. Every maze exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. Maze activity books are a proven KDP category with consistent demand, and the picture path format adds visual appeal that standard line mazes lack. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Maze Worksheets in 5 Steps',
+    title: 'How to Create Picture Path Mazes Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Picture Path Maze Generator',
+    title: 'Why Picture Path Mazes Sell on Etsy & Amazon KDP',
     features: [
       {
         title: 'Three Game Modes: Picture Pathway, Classic Maze, and Choose the Right Path',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Maze Worksheets Online',
+    title: 'Sell Maze Activity Books on Etsy & Amazon KDP',
     cases: [
       {
         title: 'Themed Maze Activity Bundles on Etsy',
@@ -204,63 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'missing-pieces-worksheets',
-      anchorText: 'Missing Pieces Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'odd-one-out-worksheets',
-      anchorText: 'Odd One Out Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sudoku-worksheets',
-      anchorText: 'Picture Sudoku Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'find-and-count-worksheets',
-      anchorText: 'Find and Count Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'treasure-hunt-worksheets',
-      anchorText: 'Treasure Hunt Worksheet Generator',
+      anchorText: 'Treasure hunt worksheets for adventure-themed bundles',
     },
     {
-      pageType: 'bundle',
-      slug: 'puzzles-logic-bundle',
-      anchorText: 'Puzzles & Logic Bundle — All Puzzle Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'publish-puzzle-books-kdp',
-      anchorText: 'How to Create and Sell Maze Books on Amazon KDP',
-    },
-    {
-      pageType: 'idea',
-      slug: 'summer-learning-printable-ideas',
-      anchorText: 'Maze and Pathway Printable Ideas for Worksheets',
-    },
-    {
-      pageType: 'idea',
-      slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'I Spy worksheets for complementary search activities',
     },
     {
       pageType: 'guide',
       slug: 'create-maze-worksheets',
-      anchorText: 'How to Create Maze & Path Worksheets',
+      anchorText: 'Guide to creating maze worksheets that sell',
     },
   ],
 

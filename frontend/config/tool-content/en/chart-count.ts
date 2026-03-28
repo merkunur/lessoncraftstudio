@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'picture graph worksheet maker to sell online',
+    primaryKeyword: 'free counting chart worksheet maker',
     secondaryKeywords: [
-      'pictograph worksheet creator for Etsy sellers',
-      'chart count worksheets for printable business',
-      'printable data graph worksheets for commercial use',
-      'picture graph activity maker for sellers',
+      'make picture graph worksheets free online',
+      'counting chart generator no signup',
+      'free data graphing worksheet maker',
+      'picture graph worksheets free trial',
     ],
     lsiKeywords: [
-      'scattered image grid counting worksheet',
-      'auto answer key picture graph creator',
-      'data representation worksheet for online stores',
+      'free graphing tool online',
+      'instant chart worksheet maker',
+      'try before you buy counting tools',
     ],
-    titleTag: 'Picture Graph Worksheet Maker — Sell on Etsy & KDP',
-    metaDescription: 'Create picture graph worksheets to sell on Etsy & KDP. Scattered 4x5 grids, 6 image types, auto answer keys, 11 languages, 104 themes. Try with watermark.',
+    titleTag: 'Free Counting Chart Worksheet Maker | LCS',
+    metaDescription: 'Make picture graph worksheets free online with watermark — no signup needed. 6 image types, auto answer keys, 104 themes. Upgrade for commercial license.',
     },
 
   hero: {
-    title: 'Chart Count Worksheet Maker',
+    title: 'Make Counting Chart Worksheets Free Online — No Signup',
     tagline: 'Picture graph worksheet generator with scattered image grids, auto-generated bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets that sell worldwide',
-    description: 'Create professional picture graph worksheets where solvers count scattered images and fill in a bar chart below — teaching data collection and data representation in a single activity. Each worksheet features a 4×5 grid containing 20 icons from 6 different image types, each type appearing 1–5 times in a random distribution that makes every generation unique. Below the grid, a 6-column × 5-row bar chart with columns labeled by image type and rows numbered 1–5 gives solvers a structured place to record their counts. The app simultaneously generates an answer key on a separate canvas tab with yellow (#FFC857) highlighted cells showing the correct counts, so sellers verify output instantly without manual counting. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown — the app randomly picks 6 images from that collection — or manually browse the Image Library with 3,100+ illustrations across 104 themed collections and click exactly 6 images with a preview strip. Every worksheet includes an auto-generated header with a localized \"Picture Graph\" title and counting instructions displayed in a styled yellow pill (#FFD93D) with orange border frame, adapting automatically to all 11 supported languages. Add name and date fields with a single checkbox (Fredoka 18px #333). Apply both background themes and border themes with independent opacity sliders (0–1, step 0.05). The Chart Count Generator is not language-sensitive — visual counting uses universal numbers and images, making worksheets identically usable in every language without modification. Download four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI. Export in Letter, A4, Square (1200×1200), or custom sizes with a grayscale toggle for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, text outline width 0–10 with 0.5-step granularity, undo/redo up to 20 states, and zoom from 25% to 300%. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create picture graph and counting chart worksheets right now — free, instant, no account required. Each worksheet generates a scattered image grid with 6 themed image types and a bar chart where solvers count and record data visually. The dual-canvas system produces both worksheet and answer key automatically. Choose from 104 themed image collections and export 300 DPI print-ready PDFs. Every feature is unlocked in the free trial. Downloads include a small watermark. Want to sell your worksheets on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and gain full selling rights.',
   },
 
   tutorial: {
-    title: 'How to Create Picture Graph Worksheets in 8 Steps',
+    title: 'How to Make Counting Chart Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Chart Count Worksheet Maker',
@@ -200,14 +200,9 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Chart Count Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big & Small Worksheet Maker' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },
-    { pageType: 'tool', slug: 'drawing-lines-maker', anchorText: 'Drawing Lines Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Free find and count worksheet maker' },
+    { pageType: 'guide', slug: 'create-counting-worksheets', anchorText: 'How to create counting worksheets to sell' },
   ],
 
   visuals: {

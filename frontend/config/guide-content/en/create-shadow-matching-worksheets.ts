@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'shadow matching worksheets',
+    primaryKeyword: 'create shadow matching worksheets to sell',
     secondaryKeywords: [
-      'create shadow matching worksheets to sell',
-      'silhouette matching worksheet generator',
-      'printable shadow puzzles for Etsy and KDP',
-      'make it whole split-image worksheets',
+      'make shadow matching worksheets for Etsy',
+      'create silhouette matching printables for KDP',
+      'shadow matching creation guide',
+      'sell shadow matching printables online',
     ],
     lsiKeywords: [
-      'pixel-level silhouette generation for worksheets',
-      'visual perception matching activity maker',
-      'shadow match worksheets with auto answer key',
-      'sell shadow puzzles on Etsy',
-      'Amazon KDP visual perception workbooks',
-      'commercial license shadow matching tool',
+      'shadow matching product creation',
+      'visual discrimination business',
+      'sellable silhouette products',
     ],
-    titleTag: 'Shadow Matching Worksheets — Guide',
-    metaDescription: 'Create shadow matching worksheets with two modes: Shadow Match for silhouettes and Make It Whole for split images. Step-by-step guide to sell on Etsy & KDP.',
+    titleTag: 'Create Shadow Matching Worksheets to Sell | LCS',
+    metaDescription: 'Guide to creating shadow matching worksheets to sell. Silhouette puzzles, themes, and strategies for Etsy and KDP preschool printable sellers.',
   },
 
   hero: {
-    title: 'How to Create Shadow Matching Worksheets',
+    title: 'Create Shadow Matching Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating dual-mode shadow matching worksheets with pixel-level silhouette generation, Make It Whole split-image halves, Fisher-Yates derangement, toggleable labels, auto-generated answer keys, and purely visual output you can sell worldwide on Etsy, Amazon KDP, and Gumroad',
-    description: 'Shadow matching is a core visual perception skill that children develop before they can read or do arithmetic, and shadow matching worksheets remain in high demand across educational marketplaces. Parents need them for visual discrimination practice at home. Buyers need them for perception centers and enrichment activities. Occupational therapists use them for visual processing assessments. This guide walks you through the entire creation process using the Shadow Match Maker — from choosing between Shadow Match and Make It Whole exercise modes to configuring labels, generating pixel-level silhouettes, and exporting production-ready files with auto-generated answer keys. Whether you are creating your first shadow matching product or expanding an existing visual perception catalog, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Shadow matching worksheets are visually striking products that catch buyer attention on Etsy — the silhouette format is instantly recognizable in search results and appeals to the preschool parent market. This guide covers creating professional shadow matching activities designed to sell: choosing themes with strong visual contrast for clear silhouettes, building themed bundles for seasonal releases, and packaging worksheets for both Etsy digital downloads and KDP workbooks. You\'ll learn how this underserved format offers low competition with strong demand in the preschool niche.',
   },
 
   introduction: 'Visual perception is one of the foundational cognitive skills in early childhood development. Before children can read words, solve equations, or navigate physical spaces confidently, they develop the ability to recognize shapes, distinguish outlines, and mentally reconstruct partial images. This makes shadow matching and split-image activities universally relevant products with sustained demand from preschool through early elementary.\n\nWhat makes shadow matching worksheets particularly effective as a printable product is the purely visual format. Unlike letter tracing or math worksheets that require language-specific text, shadow matching puzzles consist entirely of images, silhouettes, and split halves. There is no text to translate, no language barrier to cross, and no locale-specific content to maintain. A single shadow matching worksheet sells identically in every country, on every marketplace, without modification. This global portability gives shadow matching products a structural advantage over text-heavy worksheet categories where sellers must create separate versions for each language.\n\nThe Shadow Match Maker handles the technical complexity of creating these activities. It offers two distinct exercise modes in a single tool. Shadow Match mode auto-generates pixel-level black silhouettes from your selected images — every pixel with alpha greater than ten is converted to pure black, producing accurate outlines that preserve fine details like animal ears, vehicle profiles, and object contours. Make It Whole mode splits images into halves along horizontal or vertical cut directions, creating spatial reasoning puzzles where solvers reconnect the pieces. Both modes use a Fisher-Yates derangement algorithm that guarantees no item appears in its original position, eliminating trivial position-based matches and ensuring every worksheet presents a genuine matching challenge.\n\nToggleable labels add another dimension of product variety. With labels on, images display A, B, C, D identifiers and silhouettes or halves display 1, 2, 3, 4 identifiers, providing structured scaffolding for younger learners who write letter-number pairs as answers. With labels off, the worksheet becomes a pure visual matching challenge without alphanumeric cues, ideal for puzzle books and advanced activities. This single toggle creates two distinct difficulty tiers from identical content.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample shadow matching worksheets, test both exercise modes, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow Match Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Try the Shadow Match Worksheet Maker' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow matching worksheet generator' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Create matching worksheets to sell' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
   ],
 
   toolsRecommended: [

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publish puzzle books KDP',
+    primaryKeyword: 'how to publish puzzle books on Amazon KDP',
     secondaryKeywords: [
-      'how to publish puzzle books on Amazon KDP',
-      'KDP puzzle book publishing guide',
-      'create word search books for Amazon',
-      'Amazon KDP crossword sudoku puzzle books',
+      'publish puzzle books KDP step by step',
+      'Amazon KDP puzzle book guide',
+      'self-publish puzzle activity books KDP',
+      'KDP puzzle book formatting and publishing',
     ],
     lsiKeywords: [
-      'word search crossword sudoku puzzle book interior pages',
-      'puzzle book page count difficulty progression solutions section',
-      'KDP variety puzzle book mixed puzzle types formatting',
-      'Amazon puzzle book keywords categories adult kids market',
-      'print-on-demand puzzle catalog series volumes numbering',
-      'puzzle grid spacing trim size answer keys back matter',
+      'KDP puzzle book niche',
+      'Amazon puzzle publishing',
+      'self-publish activity books',
     ],
-    titleTag: 'How to Publish Puzzle Books KDP — Guide',
-    metaDescription: 'How to publish puzzle books on KDP with word search, crossword, and sudoku. Covers formatting, variety books, series strategy, and Amazon listing.',
+    titleTag: 'How to Publish Puzzle Books on Amazon KDP | LCS',
+    metaDescription: 'Complete guide to publishing puzzle books on Amazon KDP. Formatting, content variety, pricing, and marketing strategies for puzzle book publishers.',
   },
 
   hero: {
     title: 'How to Publish Puzzle Books on Amazon KDP',
     tagline: 'A complete guide to creating and publishing puzzle books on Amazon KDP — covering word search, crossword, sudoku, math puzzles, and visual puzzle types, how to structure single-type and variety puzzle books, puzzle-specific formatting for print with adequate grid spacing and solutions sections, the dual market of adult and kids puzzle books, Amazon keyword optimization for puzzle searches, difficulty progression across easy medium and hard sections, building multi-volume puzzle book series, and catalog strategies that leverage Amazon cross-promotion to grow sales across your entire puzzle book lineup',
-    description: 'Puzzle books are one of the largest and most consistently profitable categories on Amazon KDP. Unlike math activity books that primarily target parents of young children, puzzle books serve a massive dual market — adults who enjoy word search, crossword, and sudoku books as daily entertainment, plus kids who engage with visual puzzles, picture paths, and themed word finds. This guide walks you through creating professional puzzle books from content generation through Amazon publication, with specific attention to what makes puzzle books different from other activity book categories: higher page counts, the choice between single-type and variety formats, puzzle-specific formatting requirements, and the volume-based catalog strategy that drives long-term KDP revenue.',
+    description: 'Puzzle books are a booming category on Amazon KDP — from word search and sudoku to crossword and maze collections, buyers purchase puzzle books for entertainment, education, and gifts year-round. This guide walks you through every step of publishing puzzle books on KDP: content planning, page formatting, cover design, and launch strategies. You\'ll learn how to use our puzzle generators to fill entire books with unique, professional puzzles and how to position your titles for Amazon search visibility.',
   },
 
   introduction: 'Puzzle books consistently rank among the top-selling categories on Amazon KDP. The word search category alone generates thousands of new titles every month, and crossword, sudoku, and variety puzzle books maintain steady demand year-round. What makes puzzle books particularly attractive for KDP publishers is the dual audience — adults buy puzzle books for personal entertainment, relaxation, and cognitive exercise, while parents buy them for children\'s learning and engagement. This means your potential customer base is dramatically larger than categories that only serve one audience.\n\nThe economics of puzzle books differ from other KDP activity book categories in important ways. Puzzle books typically have higher page counts — 60 to 120 pages is standard compared to 40 to 80 for math activity books — because buyers expect a substantial number of puzzles per book. Each puzzle occupies a full page for usability, so a 100-puzzle word search book needs at least 100 activity pages plus front matter, instructions, and a solutions section. Higher page counts increase printing costs, but they also justify higher retail prices that can yield strong per-sale royalties when priced strategically.\n\nPuzzle books also lend themselves naturally to volume-based publishing. A word search enthusiast who finishes Volume 1 is a ready buyer for Volume 2, Volume 3, and beyond. This repeat-purchase dynamic is stronger in puzzle books than almost any other KDP category because puzzles are single-use in print — once solved, a puzzle cannot be redone. This built-in consumption cycle means your catalog grows more valuable with each new title as returning customers purchase multiple volumes.\n\nThis guide focuses specifically on what makes puzzle book publishing unique. For KDP fundamentals like manuscript formatting specifications, cover dimension calculations, royalty rate tiers, and general Amazon listing practices, refer to the math activity books KDP guide which covers those foundational topics in detail. Here we concentrate on puzzle-specific content strategy, the choice between single-type and variety formats, formatting considerations unique to puzzle grids, and the catalog-building approach that maximizes long-term revenue from puzzle book publishing.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'How to Create Word Search Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'How to Create Sudoku Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Try the Crossword Puzzle Maker' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word search generator for puzzle book pages' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture sudoku generator for variety' },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
   ],
 
   toolsRecommended: [

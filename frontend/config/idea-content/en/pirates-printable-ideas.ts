@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pirates Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover pirate-themed printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Pirate product concepts, adventure worksheets, and niche strategies for sellers.',
+    titleTag: 'Pirate Printable Business Ideas | LCS',
+    metaDescription: 'Pirate themed printable business ideas. Adventure and treasure product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'pirates printable ideas',
+    primaryKeyword: 'pirate themed printable business ideas',
     secondaryKeywords: [
-      'pirate themed worksheets to sell',
-      'pirate printable business ideas',
-      'pirate activity sheets for sellers',
-      'sell pirate printables on Etsy',
+      'pirate worksheets for Etsy sellers',
+      'pirate activity books for Amazon KDP',
+      'sell pirate printables online',
+      'adventure themed printable products',
     ],
     lsiKeywords: [
-      'treasure hunt educational worksheets',
-      'nautical adventure activity pages',
-      'swashbuckler themed themed printables',
+      'pirate printable niche',
+      'adventure themed worksheets',
+      'treasure themed products',
     ],
   },
   hero: {
-    title: 'Pirates Printable Business Ideas for Sellers',
-    description: 'Pirates represent one of the most universally captivating adventure themes for children, making this an outstanding evergreen niche for printable entrepreneurs seeking reliable year-round revenue driven by imagination-fueled engagement and the timeless fascination that treasure hunts, pirate ships, and swashbuckling adventures hold for kids across every age group and background. The pirate theme offers extraordinary sub-theme depth including pirate ship, treasure chest, treasure map, skull and crossbones, parrot, eye patch, hook, sword, cannon, anchor, compass, jolly roger, island, palm tree, gold coins, telescope, pirate flag, plank, mermaid, and kraken, giving sellers a rich visual vocabulary that connects to children\'s natural love of imaginative play, adventure storytelling, and treasure-seeking exploration that parents consistently encourage as a vehicle for learning. Cross-topic versatility makes pirate printables especially valuable because adventure concepts connect naturally to math through treasure counting, gold coin values, and map coordinate grids, literacy through pirate vocabulary, map legend reading, and adventure story comprehension, geography through ocean exploration, island mapping, and compass direction activities, and creative writing through adventure storytelling, captain\'s log journaling, and treasure hunt narrative prompts. For printable sellers on Etsy, Amazon KDP, and Gumroad, the pirate niche combines strong year-round demand with universal child appeal that resonates with buyers planning imaginative play and adventure learning units, literacy-focused buyers integrating narrative themes, homeschool families exploring ocean geography and historical exploration topics, and parents looking for educational materials that channel their child\'s natural fascination with treasure hunts and pirate adventures into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable pirate printable product line using our worksheet generator tools.',
+    title: 'Pirate Themed Printable Business Ideas',
+    description: 'Pirate themes tap into adventure and imagination -- treasure maps, skull-and-crossbones, and pirate ships appeal to kids who love action and exploration. This niche guide covers the commercial opportunity: which pirate-themed formats sell on Etsy, how to combine pirate themes with treasure hunts and map activities for unique products, and strategies for creating adventure-themed bundles. Pirates work especially well with maze, treasure hunt, and word puzzle generators for genuinely engaging products.',
   },
   marketOverview: `The pirate printable niche occupies a uniquely powerful position for printable sellers because virtually every young child experiences a deep, imaginative fascination with treasure hunts, pirate ships, and the adventurous possibilities of exploring mysterious islands and discovering hidden gold. Unlike seasonal themes that concentrate demand into narrow calendar windows, the pirate niche benefits from genuine year-round relevance: children engage with pirate play during every season, pirate-themed media and toys maintain constant popularity, and the adventure narrative that drives pirate fascination operates independently of weather or calendar events. This consistent demand pattern makes pirate printables a reliable revenue source without the feast-or-famine cycles that challenge sellers in more seasonal niches.
 
@@ -143,19 +143,19 @@ The pirate birthday party crossover market represents a particularly valuable au
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Treasure hunt generator for pirate activities',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: 'niche-selection-printables',
+      anchorText: 'Niche selection for printable business',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'idea',
+      slug: 'camping-printable-ideas',
+      anchorText: 'Camping printable ideas',
     },
     {
       pageType: 'guide',

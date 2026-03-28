@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Farm Animals Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover profitable farm animals printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Product concepts, pricing strategies, and platform tips for sellers.',
+    titleTag: 'Farm Animal Printables to Sell on Etsy | LCS',
+    metaDescription: 'Farm animal printable business ideas for Etsy & KDP sellers. Product concepts, pricing strategies, and seasonal timing for farm-themed printable products.',
 
-    primaryKeyword: 'farm animals printable ideas',
+    primaryKeyword: 'farm animal printables to sell on Etsy',
     secondaryKeywords: [
-      'farm animal worksheets to sell',
-      'farm themed printable business',
-      'farm activity sheets for sellers',
-      'sell farm printables on Etsy',
+      'farm themed worksheets for Etsy sellers',
+      'farm animal activity books for KDP',
+      'sell farm printables online',
+      'farm theme printable business ideas',
     ],
     lsiKeywords: [
-      'barnyard themed educational worksheets',
-      'agriculture activities for kids',
-      'livestock themed group printables',
+      'farm animal printable niche',
+      'agricultural theme worksheets',
+      'barnyard printable products',
     ],
   },
   hero: {
-    title: 'Farm Animals Printable Business Ideas for Sellers',
-    description: 'Farm animals remain one of the most reliable themes in the educational printable market. From toddlers learning to count barnyard animals to early learners tracing the word "chicken," this niche attracts parents, buyers, and homeschoolers year-round. For printable sellers, the farm theme offers a rare combination of evergreen demand, broad age appeal, and strong seasonal peaks during spring and fall harvest. Whether you sell on Etsy, Amazon KDP, or Gumroad, farm animal printables represent a proven niche with room for creative differentiation. This guide walks you through specific product ideas, platform strategies, and pricing approaches to help you build a profitable farm-themed printable product line using our worksheet generator tools.',
+    title: 'Farm Animal Printables to Sell on Etsy',
+    description: 'Farm animals are one of the most universally popular themes for children\'s printables — parents, teachers, and homeschool families search for barnyard-themed activities year-round. This niche guide explores the commercial opportunity: which farm animal products sell best, how to create themed bundles using our generators, pricing strategies for the farm theme market, and seasonal timing tips. You\'ll discover specific product ideas across math, literacy, puzzles, and art activities that leverage our 104 themed image collections.',
   },
   marketOverview: `The farm animals printable niche sits at the intersection of two powerful buyer motivations: educational value and thematic appeal. Parents searching for farm-themed worksheets are typically looking for engaging ways to teach foundational skills like counting, letter recognition, vocabulary building, and fine motor development. Buyers seek group-ready resources that align with common early childhood units on farms and food production.
 
@@ -153,44 +153,19 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Matching worksheet generator for farm activities',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
-    },
-    {
-      pageType: 'idea',
-      slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Business Ideas',
+      slug: 'sell-educational-printables-etsy',
+      anchorText: 'Sell educational printables on Etsy',
     },
   ],
 

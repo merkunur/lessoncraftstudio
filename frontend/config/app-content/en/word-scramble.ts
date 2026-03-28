@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word scramble generator',
+    primaryKeyword: 'word scramble worksheet maker for Etsy sellers',
     secondaryKeywords: [
-      'printable word unscramble worksheets for Etsy sellers',
-      'letter rearrangement puzzle maker for KDP publishers',
-      'sell word scramble activities on Gumroad',
-      'word scramble printables commercial license',
+      'create word scramble puzzles for Etsy shop',
+      'letter unscramble printables for Amazon KDP',
+      'word scramble generator with commercial license',
+      'sell spelling puzzle worksheets online',
     ],
     lsiKeywords: [
-      'digital spelling puzzle products online business',
-      'printable letter unscramble worksheet business',
-      'commercial use word scramble generator',
+      'literacy puzzle printable business',
+      'sell spelling activities online',
+      'vocabulary worksheet products Etsy',
     ],
-    titleTag: 'Word Scramble Generator | Create Spelling Puzzles',
-    metaDescription: 'Create word scramble worksheets to sell on Etsy, KDP & Gumroad. Image clues, shuffled letter tiles, vowel color coding, 11 languages.',
+    titleTag: 'Word Scramble Maker for Etsy Sellers | LCS',
+    metaDescription: 'Create word scramble worksheets to sell on Etsy & KDP. Image clues, 4 difficulty levels, 11 languages, commercial license. Try free — no signup needed.',
   },
 
   hero: {
-    title: 'Word Scramble Worksheet Generator for Letter-Rearrangement Spelling Puzzles',
+    title: 'Create Word Scramble Worksheets to Sell on Etsy & KDP',
     tagline: 'Shuffled letter tiles meet image clues — four difficulty levels and vowel-consonant color coding turn every word into a hands-on spelling puzzle.',
     description:
-      'Design professional word scramble worksheets where solvers see an image clue and rearrange shuffled letter tiles to spell the correct word — a letter-rearrangement puzzle that builds spelling accuracy, word recognition, and phonics awareness simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using up to 8 words you type directly. Four difficulty levels control how many clue letters are pre-placed in the correct position — from no clues at all to easy mode placing half the letters — creating natural scaffolding from beginner to advanced. The vowel-consonant color coding feature is unique to Word Scramble: toggle colored tiles where vowels appear in one color and consonants in another, adding a visual phonics dimension that helps solvers identify letter types while unscrambling. Place 1 to 10 puzzles per worksheet and choose uppercase or lowercase letter tiles. Full Access unlocks all 11 supported languages where the target word changes by language (\"dog\" in English becomes \"Hund\" in German, \"chien\" in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 300+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed spelling bundles on Etsy, compile word puzzle books for Amazon KDP, or list leveled literacy products on Gumroad, the Word Scramble Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Word scramble worksheets are a proven seller in the literacy printable niche — and this maker lets Etsy sellers create professional letter-rearrangement puzzles in minutes. Each worksheet pairs an image clue with shuffled letter tiles that solvers rearrange to spell the correct word. Four difficulty levels control how many letters are pre-placed, creating natural product tiers from beginner to advanced. The unique vowel-consonant color coding adds a phonics dimension no other generator offers. Choose from 3,000+ themed images and export 300 DPI print-ready PDFs with automatic answer keys and full commercial license. Built-in 11-language support means each locale generates different words — one tool produces sellable products for English, German, French, and more. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
-    title: 'How to Create Word Scramble Worksheets in 5 Steps',
+    title: 'How to Generate Word Scramble Puzzles Step by Step',
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Word Scramble Worksheet Generator',
+    title: 'Why Word Scramble Worksheets Sell on Etsy & KDP',
     features: [
       {
         title: 'Shuffled Letter Tiles with Image Clues',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Word Scramble Worksheets Online',
+    title: 'Build a Spelling Puzzle Business on Etsy & KDP',
     cases: [
       {
         title: 'Themed Word Scramble Bundles on Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'prepositions-worksheets',
-      anchorText: 'Preposition Worksheet Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
+      anchorText: 'Word guess puzzles for complementary vocabulary products',
     },
     {
       pageType: 'app',
       slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'literacy-language-bundle',
-      anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Language Worksheets on Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Sellers',
+      anchorText: 'Word search puzzles for vocabulary bundle variety',
     },
     {
       pageType: 'guide',
       slug: 'create-word-search-puzzles',
-      anchorText: 'How to Create Word Puzzles That Sell',
+      anchorText: 'Guide to creating word puzzles that sell',
     },
   ],
 

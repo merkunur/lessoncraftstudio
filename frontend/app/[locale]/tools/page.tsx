@@ -24,7 +24,7 @@ const toolToWpApp: Record<string, string> = {
 };
 
 const toolsKeywords: Record<string, string[]> = {
-  en: ['free printable generators', 'online worksheet maker', 'try printable tools free', 'word search generator free', 'math worksheet generator', 'coloring page maker online'],
+  en: ['free printable generators online no signup', 'free worksheet maker online', 'try printable tools free with watermark', 'free word search generator', 'free math worksheet maker', 'free coloring page generator'],
   de: ['kostenlose Druckvorlagen-Generatoren', 'Online-Arbeitsblatt-Ersteller', 'Druckvorlagen-Tools gratis testen', 'Wortsuche-Generator kostenlos', 'Mathe-Arbeitsblatt-Generator', 'Ausmalbilder-Ersteller online'],
   fr: ['générateurs imprimables gratuits', 'créateur de fiches en ligne', 'outils imprimables essai gratuit', 'générateur mots cachés gratuit', 'générateur fiches maths', 'créateur coloriages en ligne'],
   es: ['generadores imprimibles gratis', 'creador de fichas online', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas', 'creador colorear online'],
@@ -39,8 +39,8 @@ const toolsKeywords: Record<string, string[]> = {
 
 const toolsMetadata: Record<string, { title: string; description: string }> = {
   en: {
-    title: 'Free Printable Generators | Try All 33 Tools | LessonCraftStudio',
-    description: 'Try all 33 printable worksheet generators free online. No signup required. Create word searches, math worksheets, coloring pages, puzzles and more with watermark.',
+    title: '33 Free Printable Generators — Try Online | LCS',
+    description: 'Try all 33 printable generators free online with watermark — no signup needed. Word searches, math worksheets, coloring pages, puzzles & more. Upgrade to sell.',
   },
   de: {
     title: 'Kostenlose Druckvorlagen-Generatoren | 33 Tools testen | LessonCraftStudio',

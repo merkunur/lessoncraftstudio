@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudoku books KDP',
+    primaryKeyword: 'create sudoku books for Amazon KDP',
     secondaryKeywords: [
-      'how to create sudoku books for Amazon KDP',
-      'picture sudoku books for kids KDP',
-      'sudoku puzzle book publishing guide',
-      'sudoku book series Amazon self-publishing',
+      'publish picture sudoku books KDP',
+      'Amazon KDP sudoku book guide',
+      'sudoku puzzle book creation for KDP',
+      'self-publish sudoku activity books',
     ],
     lsiKeywords: [
-      'sudoku grid difficulty easy medium hard expert progression',
-      'picture sudoku kids logic puzzles preschool kindergarten',
-      'number sudoku adults brain training cognitive exercise',
-      'sudoku book formatting grid sizing print quality KDP',
-      'sudoku series volumes repeat purchase loyal solvers catalog',
-      'sudoku puzzle count page layout answer keys print trim',
+      'KDP sudoku niche',
+      'Amazon puzzle book publishing',
+      'picture sudoku for kids books',
     ],
-    titleTag: 'Sudoku Books KDP — Publishing Guide',
-    metaDescription: 'Create sudoku books KDP with picture sudoku for kids and number sudoku for adults. Difficulty progression, grid formatting, and series-building strategy.',
+    titleTag: 'Create Sudoku Books for Amazon KDP | LCS',
+    metaDescription: 'Guide to creating sudoku books for Amazon KDP. Picture sudoku for kids, difficulty progression, formatting, and publishing strategies for puzzle authors.',
   },
 
   hero: {
-    title: 'How to Create Sudoku Books for Amazon KDP',
+    title: 'Create Sudoku Books for Amazon KDP',
     tagline: 'A focused guide to creating and publishing sudoku puzzle books on Amazon KDP — covering the dual market of picture sudoku for young children and number sudoku for adults, difficulty progression strategies that keep solvers engaged across easy through expert sections, sudoku-specific grid formatting for clean print output, page layout and answer key conventions unique to sudoku books, the series-building approach that leverages sudoku solvers\' exceptionally strong repeat-purchase behavior, and the expansion path from a sudoku catalog into broader puzzle book publishing',
-    description: 'Sudoku occupies a unique position among KDP puzzle books. Unlike most puzzle types that serve a single audience, sudoku splits into two fundamentally different products: picture sudoku for children ages 3 to 7 that develops early logic skills using images instead of numbers, and number sudoku for adults that ranges from relaxing easy grids to demanding expert-level challenges. Each format has its own audience, search terms, cover design conventions, and competitive landscape. This guide focuses specifically on what makes sudoku book publishing distinct from general puzzle book publishing: the dual-market opportunity, difficulty progression that matters more for sudoku than any other puzzle type, sudoku-specific formatting requirements for print, and the repeat-purchase economics that make sudoku one of the most reliable catalog-building categories on KDP.',
+    description: 'Sudoku books are a perennial bestseller on Amazon — but the market for picture sudoku aimed at younger solvers is far less crowded than standard 9x9 number sudoku. This guide shows you how to create themed picture sudoku books for Amazon KDP: planning difficulty progression across three levels, formatting pages for KDP print specifications, and positioning your books for Amazon search visibility. Our picture sudoku generator produces 4x4 visual puzzles with themed images that appeal to the kids\' activity book market — a niche most sudoku publishers completely ignore.',
   },
 
   introduction: 'Sudoku is one of the most recognized puzzle formats in the world, and that built-in awareness translates directly into consistent Amazon search volume. Buyers searching for sudoku books already understand the puzzle format and know what they want — they are not browsing casually but actively seeking their next book of puzzles to solve. This intent-driven search behavior makes sudoku books one of the most conversion-friendly categories on KDP.\n\nThe sudoku book market divides into two distinct segments that function almost as separate categories. Number sudoku for adults is the larger segment, serving solvers who range from casual daily puzzlers to dedicated enthusiasts who solve dozens of grids per week. This audience buys based on difficulty level, puzzle count, grid formatting quality, and series continuity. Picture sudoku for kids is a smaller but meaningfully less competitive segment, targeting parents who want logic-building activities for children ages 3 to 7. Picture sudoku replaces numbers with images in simplified 4x4 or 6x6 grids, making the core sudoku logic accessible to children who cannot yet work with numbers. These two markets share the sudoku name but require completely different content, formatting, positioning, and keyword strategies.\n\nWhat makes sudoku publishing particularly attractive is the repeat-purchase dynamic. A completed sudoku book has zero replay value — every grid has been solved, every answer filled in. The solver must buy a new book for fresh content. Sudoku solvers who find a publisher whose formatting, difficulty calibration, and print quality meet their standards become remarkably loyal repeat buyers. Many top-selling sudoku publishers report that their most recent volume generates immediate sales from buyers who purchased every previous volume in the series. This consumption-and-repurchase cycle is the economic engine of sudoku book publishing.\n\nDifficulty progression matters more for sudoku than for most other puzzle types. A word search solver can enjoy puzzles at roughly the same difficulty level indefinitely. A sudoku solver actively improves with practice — grids that were challenging last month become routine. This progression means sudoku books need carefully calibrated difficulty sections, and series need to offer escalating challenge across volumes, or risk losing solvers who outgrow the difficulty level. Understanding and serving this progression dynamic is the key skill that separates sudoku publishers who build lasting catalogs from those whose books stall after initial sales.\n\nThis guide concentrates on what makes sudoku book publishing specifically different from general puzzle book publishing. For KDP fundamentals like manuscript formatting specifications, cover dimensions, royalty calculations, and general listing practices, refer to the KDP formatting guide. For broad puzzle book strategy covering multiple types and variety book formats, refer to the puzzle books KDP guide. Here we focus entirely on sudoku-specific content strategy, the dual kids-and-adults market, difficulty progression design, and the series approach that makes sudoku one of KDP\'s most reliable revenue categories.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'How to Create Word Search Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'create-picture-sudoku', anchorText: 'How to Create Picture Sudoku for Young Learners' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Sudoku Puzzle Generator — Full Details' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture sudoku generator for book pages' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to publish puzzle books on KDP' },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
   ],
 
   toolsRecommended: [

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'math activity books KDP',
+    primaryKeyword: 'create math activity books for Amazon KDP',
     secondaryKeywords: [
-      'how to create math activity books for Amazon KDP',
-      'KDP math workbook publishing guide',
-      'publish math activity books on Amazon',
-      'Amazon KDP math worksheet book',
+      'math activity book publishing KDP guide',
+      'publish math worksheet books on Amazon KDP',
+      'KDP math workbook creation step by step',
+      'Amazon KDP math printable business',
     ],
     lsiKeywords: [
-      'KDP manuscript formatting trim size activity book interior pages',
-      'Amazon book cover design spine width calculator template',
-      'KDP keyword optimization browse categories math books',
-      'print-on-demand royalty pricing strategy activity books',
-      'math workbook page count difficulty progression answer keys',
-      'KDP publishing review process proof copy author copies',
+      'KDP activity book publishing',
+      'Amazon math workbook niche',
+      'self-publish math worksheets',
     ],
-    titleTag: 'How to Create Math Activity Books KDP — Guide',
-    metaDescription: 'Learn how to create math activity books KDP publishers use to earn royalties. Covers manuscript formatting, cover design, and Amazon keyword optimization.',
+    titleTag: 'Create Math Activity Books for Amazon KDP | LCS',
+    metaDescription: 'Step-by-step guide to creating math activity books for Amazon KDP. Formatting, content planning, and publishing strategies for math workbook sellers.',
   },
 
   hero: {
-    title: 'How to Create Math Activity Books for Amazon KDP',
+    title: 'Create Math Activity Books for Amazon KDP',
     tagline: 'A complete publishing guide for creating and selling math activity books on Amazon KDP — covering manuscript formatting with proper trim sizes and margins, book cover design with spine width calculations, Amazon keyword field optimization across all 7 keyword slots, browse category selection for maximum discoverability, royalty pricing strategy at both the 35 percent and 60 percent tiers, content planning with difficulty progression across 40 to 80 interior pages, answer key placement, print-on-demand economics, proof ordering, and building a series of related math workbooks that cross-promote each other on Amazon',
-    description: 'Amazon KDP lets you publish print-on-demand math activity books with no upfront printing costs and no inventory management. This guide walks you through every step of creating a professional math workbook — from generating diverse math content using 5 specialized worksheet generators, through manuscript formatting and cover design, to optimizing your Amazon listing for search visibility and setting prices that maximize your royalties. Whether you are publishing your first activity book or expanding an existing catalog, this guide covers the KDP-specific workflows that differ fundamentally from selling individual digital downloads on marketplaces like Etsy.',
+    description: 'Math activity books are one of the most consistent sellers on Amazon KDP — parents search for age-specific practice workbooks year-round, and the format requires no ongoing inventory or shipping. This guide covers everything from content planning and difficulty progression to KDP formatting requirements and pricing. You\'ll learn how to use our 6 math generators to produce 50-100 page workbooks in a fraction of the time manual creation takes, and how to position your books for maximum visibility in Amazon search.',
   },
 
   introduction: 'Math activity books are one of the most consistent sellers on Amazon KDP. Parents search Amazon daily for workbooks that reinforce store skills, and buyers buy activity books for supplemental practice. Unlike selling individual worksheet PDFs on Etsy, KDP publishing means creating a bound book that Amazon prints and ships on demand every time a customer orders. You never hold inventory, never pay upfront printing costs, and never handle shipping — Amazon manages the entire fulfillment process while you earn royalties on every sale.\n\nThe economics work differently from digital download marketplaces. On Etsy, you set a price and keep most of it after small listing and transaction fees. On KDP, Amazon calculates your royalty by subtracting the printing cost from your list price, then applying either a 60 percent or 35 percent royalty rate depending on your pricing and distribution choices. A well-priced math activity book with 50 to 60 interior pages can earn between 2 and 5 dollars per sale at the 60 percent royalty tier — and with Amazon handling all fulfillment, those royalties are almost entirely profit.\n\nThe real advantage of KDP is scale and discoverability. Amazon is where most sellers go first when searching for educational materials. Your math activity book appears alongside traditionally published workbooks in search results, and Amazon\'s recommendation engine can surface your book to buyers who purchased similar titles. Building a catalog of related math books creates a flywheel effect where each title promotes the others through Amazon\'s \"Customers also bought\" and \"Frequently bought together\" features.\n\nThis guide covers the complete workflow from content creation through publishing, using 5 worksheet generators that produce diverse math activities suitable for bound book format. You will learn how to plan page counts, format manuscripts to KDP specifications, design covers that meet Amazon\'s requirements, write listings optimized for Amazon search, and price your books for maximum royalties.',
@@ -155,17 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'How to Create Word Search Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition worksheet generator for book pages' },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
+    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Best KDP activity book niches' },
   ],
 
   toolsRecommended: [

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'grid matching worksheet',
+    primaryKeyword: 'free grid matching puzzle maker',
     secondaryKeywords: [
-      'grid matching worksheet maker for sellers',
-      'create grid match puzzles to sell',
-      'printable grid puzzle generator commercial use',
-      'picture tile matching worksheet maker for KDP and Etsy',
+      'make grid match puzzles free online',
+      'tile matching generator no signup',
+      'free picture grid puzzle maker',
+      'grid matching worksheets free trial',
     ],
     lsiKeywords: [
-      'single-image grid puzzle tile matching tool',
-      'auto answer key numbered circle overlay generator',
-      'configurable clue cell difficulty grid maker',
+      'free grid puzzle tool online',
+      'instant tile matching maker',
+      'try before you buy puzzle tools',
     ],
-    titleTag: 'Grid Match Maker — Grid Matching Worksheet Generator',
-    metaDescription: 'Create grid matching worksheets with configurable grid size, adjustable clue cells, Fisher-Yates shuffling, and 104 themed images.',
+    titleTag: 'Free Grid Matching Puzzle Maker | LCS',
+    metaDescription: 'Make grid matching puzzles free online with watermark — no signup. Configurable grids, clue cells, auto answer keys, 104 themes. Upgrade for commercial use.',
   },
 
   hero: {
-    title: 'Grid Match Maker',
+    title: 'Make Grid Matching Puzzles Free Online — No Signup',
     tagline: 'Single-image grid puzzle generator with configurable grid sizes from 2×2 to 4×4, adjustable clue cells for scalable difficulty, Fisher-Yates tile randomization, auto-generated answer keys with numbered circle overlays, and 104 themed image collections for grid matching worksheets that sell worldwide',
-    description: 'Create professional grid matching worksheets where a single image is divided into a grid of tiles and users match numbered tiles back to their correct positions — a spatial reasoning puzzle built from one picture. Configure the grid from 2×2 up to 4×4 (2–4 rows × 2–4 columns, default 3×3) to create puzzles ranging from 4 tiles to 16 tiles. Set 1–5 clue cells (default 1) that remain visible on the worksheet as hints — fewer clues mean harder puzzles, more clues create accessible warm-ups. The app shuffles hidden tiles using Fisher-Yates randomization and displays them in a numbered palette beside or below the grid, so every generation produces a different tile order even from the same image and settings. Solvers study the revealed clue cells, examine the numbered tiles in the palette, and write which number belongs in each empty cell. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously — the answer key displays the complete uncut image with numbered circles overlaid on each grid cell (yellow background #ffffe0, black outline, Fredoka font), showing exactly which palette number belongs in each position. The responsive layout adapts automatically: portrait pages place the grid on top (45% height) with the palette below; landscape pages position the grid on the left (48% width) with the palette on the right. A styled header appears with a cyan background (#00BCD4), deep purple title (#6A1B9A), and orange border frame (#FF8C42) displaying \"Grid Match\" and instructions in the selected language. Grid Match is NOT language-sensitive — the puzzle output is purely visual with no localized word content on the worksheet itself, making every worksheet universally sellable across all markets without translation. Browse 104 themed collections with 3,100+ illustrations or upload your own PNG, JPG, or GIF images for personalized grid puzzles. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Export four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI. Choose Letter, A4, or custom page sizes with a grayscale toggle for ink-friendly output. Edit everything on the Fabric.js canvas with 7 fonts, text outline 0–10, alignment tools, layers, lock/unlock, zoom 25%–300%, and undo/redo 20 states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create grid matching puzzles right now — free, instant, no account required. Each puzzle divides a themed image into a grid of tiles, reveals configurable clue cells as hints, and shuffles remaining tiles into a numbered palette for solvers to match back. Configure grids from 2x2 to 4x4 and set 1-5 clue cells to control difficulty. The dual-canvas system generates both worksheet and answer key automatically. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell grid puzzles on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Grid Matching Worksheets in 8 Steps',
+    title: 'How to Make Grid Match Puzzles Free in 8 Steps',
     steps: [
       {
         title: 'Open the Grid Match Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Grid Match Puzzles — Full Product Details' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Bingo Card Maker' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Puzzle Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Picture Sort Maker' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Free missing pieces puzzle maker' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'How to create matching worksheets to sell' },
   ],
 
   visuals: {

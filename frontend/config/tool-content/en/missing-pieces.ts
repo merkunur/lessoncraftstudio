@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'jigsaw puzzle worksheet',
+    primaryKeyword: 'free missing pieces puzzle maker',
     secondaryKeywords: [
-      'jigsaw puzzle worksheet maker for sellers',
-      'create missing pieces puzzles to sell',
-      'printable jigsaw puzzle generator commercial use',
-      'missing piece puzzle maker for KDP and Etsy',
+      'make missing pieces puzzles free online',
+      'visual puzzle generator no signup',
+      'free jigsaw piece worksheet maker',
+      'missing pieces worksheets free trial',
     ],
     lsiKeywords: [
-      'smart piece extraction color variance puzzle generator',
-      'six shape missing piece worksheet maker with answer key',
-      'distractor piece jigsaw puzzle worksheet creator tool',
+      'free visual puzzle tool online',
+      'instant missing pieces maker',
+      'try before you buy puzzle tools',
     ],
-    titleTag: 'Missing Pieces Maker — Jigsaw Puzzle Worksheet Generator',
-    metaDescription: 'Create jigsaw puzzle worksheets with 6 piece shapes, configurable difficulty, smart extraction with distractor pieces, 104 themes.',
+    titleTag: 'Free Missing Pieces Puzzle Maker | LCS',
+    metaDescription: 'Make missing pieces puzzles free online with watermark — no signup. Visual observation format, auto answer keys, 104 themes. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Missing Pieces Maker',
+    title: 'Make Missing Pieces Puzzles Free Online — No Signup',
     tagline: 'Jigsaw puzzle worksheet generator with 6 piece shapes (square, circle, rectangle portrait/landscape, ellipse portrait/landscape), 1–5 missing pieces with 2–6 solution options including distractors, smart piece extraction using color variance detection and 250px minimum spacing, auto-generated answer keys with yellow-highlighted number labels, dual border framing in teal and hot pink, and 104 themed image collections for jigsaw puzzle worksheets that sell worldwide',
-    description: 'Create professional jigsaw puzzle worksheets where an image has holes cut out and users identify which numbered option fills each gap. The smart piece extraction algorithm tries up to 150 placement attempts to find pieces with sufficient color variance (minimum brightness variance of 15), maintaining at least 250 pixels of distance between pieces to prevent overlap. Piece size is calculated as 12% of the image width with a minimum of 50 pixels. Choose from 6 piece shapes that change the visual character of every puzzle: square (default) and circle offer clean geometric cuts, rectangle portrait (80% width, 100% height) and rectangle landscape (100% width, 80% height) create elongated holes, and ellipse portrait and ellipse landscape provide softer curved cuts with the same dimensional ratios. Configure difficulty with two independent controls: set 1–5 missing pieces to control how many holes appear in the image, and set 2–6 solution options to control how many numbered choices users evaluate. When solution options exceed missing pieces, the extra options are distractor pieces — extracted from non-overlapping areas of the same image using up to 200 placement attempts each. Distractors prevent solving by elimination alone, forcing careful visual comparison of colors, patterns, and details. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously. The answer key displays the same puzzle image with holes and places yellow-highlighted number labels (rgba(255,255,0,0.7)) inside each hole showing the correct 1-based option index. Font size scales to 60% of the piece size for clear readability. An auto-generated header renders \"Missing Pieces\" in turquoise (#06B6D4) with a rose pink description (#DB2777) across a dual border system — teal outer border (#14B8A6, 8px stroke, 34px margins, 12px radius) and hot pink inner border (#EC4899, 3px stroke, 46.5px margins, 8px radius, 2px right and 3px down offset). Missing Pieces is NOT language-sensitive — puzzles are purely visual with no locale-dependent content on the worksheet itself, making every puzzle universally sellable across all markets without translation. The only localized element is the header text, translated into all 11 supported languages. Portrait layouts place the puzzle image on top with options below in a horizontal row (75% of max size); landscape layouts split the view 50/50 with options on the right side. Browse 104 themed collections with 3,100+ colorful illustrations or upload your own PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI (6× multiplier, JPEG quality 1.0). Choose Letter, A4, Square (1200×1200), or custom page sizes with a grayscale toggle for ink-friendly output. Edit everything on the Fabric.js canvas with 6 alignment options plus center-on-page, layers, lock/unlock, zoom 25%–300% in 25% increments, and undo/redo 50 states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create missing pieces puzzles right now — free, instant, no account required. Each puzzle displays a themed image with sections removed, and solvers identify which piece completes the picture from a set of options. This visual observation format builds spatial reasoning and attention to detail. Configure grid sizes and difficulty, and choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell visual puzzles on Etsy or compile activity books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Jigsaw Puzzle Worksheets in 8 Steps',
+    title: 'How to Make Missing Pieces Puzzles Free in 8 Steps',
     steps: [
       {
         title: 'Open the Missing Pieces Maker',
@@ -205,14 +205,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing Pieces Puzzles — Full Product Details' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Grid Match Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Picture Sort Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Free grid matching puzzle maker' },
+    { pageType: 'guide', slug: 'create-missing-pieces-puzzles', anchorText: 'How to create missing pieces puzzles to sell' },
   ],
 
   visuals: {

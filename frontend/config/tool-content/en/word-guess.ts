@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'word guess worksheet generator',
+    primaryKeyword: 'free word guess puzzle maker',
     secondaryKeywords: [
-      'word guess worksheet maker for sellers',
-      'create spelling guess worksheets to sell',
-      'printable word building worksheets commercial use',
-      'word guess generator for KDP',
+      'make word guess puzzles free online',
+      'hangman puzzle generator no signup',
+      'free vocabulary puzzle maker',
+      'word guess worksheets free trial',
     ],
     lsiKeywords: [
-      'visual spelling printables for Etsy',
-      'image-based word building worksheet tool',
-      'multilingual spelling activity generator',
+      'free word game tool online',
+      'instant word guess maker',
+      'try before you buy vocabulary tools',
     ],
-    titleTag: 'Word Guess Worksheet Generator | Sell Printables',
-    metaDescription: 'Generate word guess worksheets with 4 difficulty levels, dual input modes, exclude letters, 11 languages, and 104 themed images. Try free — license available.',
+    titleTag: 'Free Word Guess Puzzle Maker Online | LCS',
+    metaDescription: 'Make word guess puzzles free online with watermark — no signup. Hangman-style format, image clues, 4 difficulty levels. Upgrade for commercial license.',
   },
 
   hero: {
-    title: 'Word Guess Worksheet Generator',
+    title: 'Make Word Guess Puzzles Free Online — No Signup Needed',
     tagline: 'Create image-based spelling worksheets with 4 clue levels in 11 languages',
-    description: 'Turn vocabulary practice into a visual puzzle solvers love completing. This tool generates word guess worksheets where an image clue is paired with a letter grid containing blanks — solvers study the picture and fill in the missing letters to spell the word it represents. The standout feature is a 4-level progressive clue system: No Clues reveals zero letters for pure recall, Easy reveals half the letters for scaffolded beginners, Normal reveals a quarter for balanced challenge, and Tough reveals just one-sixth for confident spellers. Choose between two input modes: Image Clue mode pulls vocabulary from 3,100+ images across 104 themed collections with automatic letter grid generation, or Custom Word List mode lets you type any words directly for targeted vocabulary practice without images. The Exclude Letters feature removes specific letters from grids — exclude vowels for phonics-focused exercises or exclude common letters for a tougher challenge. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One worksheet design becomes 11 unique language products with genuinely different answers. Set uppercase or lowercase output, toggle exercise numbering, add custom text overlays, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with optional answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create hangman-style word guess puzzles right now — free, instant, no account required. Each puzzle shows an image clue and a row of blank letter cells, challenging solvers to deduce the hidden word. Four difficulty levels control how many letters are pre-revealed as hints, creating natural scaffolding from beginner to advanced. Choose from 104 themed image collections and generate in 11 languages where each locale produces different target words. Every feature is unlocked in the free trial including answer keys and 300 DPI export. Downloads include a small watermark. Want to sell vocabulary worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
-    title: 'How to Create Word Guess Worksheets in 8 Easy Steps',
+    title: 'How to Make Word Guess Puzzles Free in 8 Steps',
     steps: [
       {
         title: 'Open the Word Guess Worksheet Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Word Guess Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
-    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Free word scramble generator' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to create word puzzles that sell' },
   ],
 
   visuals: {

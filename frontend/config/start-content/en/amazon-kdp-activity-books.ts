@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to sell activity books on amazon',
+    primaryKeyword: 'Amazon KDP activity book business guide',
     secondaryKeywords: [
-      'amazon kdp activity books',
-      'sell puzzle books on kdp',
-      'kdp activity book business',
-      'publish activity books amazon',
+      'KDP activity book business complete guide',
+      'publish activity books on Amazon KDP',
+      'KDP publishing business for beginners',
+      'Amazon KDP worksheet book guide',
     ],
     lsiKeywords: [
-      'kindle direct publishing activity books',
-      'kdp interior formatting worksheets',
-      'kdp cover design activity books',
-      'amazon backend keywords puzzle books',
-      'kdp royalty calculator activity books',
-      'print on demand activity book business',
+      'KDP activity book publishing',
+      'Amazon self-publishing business',
+      'KDP worksheet book business',
     ],
-    titleTag: 'How to Sell Activity Books on Amazon KDP — Guide',
-    metaDescription: 'How to sell activity books on Amazon KDP. Covers interior formatting, cover design, keyword research, pricing strategy, and scaling your KDP book business.',
+    titleTag: 'Amazon KDP Activity Book Business Guide | LCS',
+    metaDescription: 'Complete guide to building an Amazon KDP activity book business. Publishing, formatting, niche selection, and scaling strategies for KDP sellers.',
   },
 
   hero: {
     title: 'Amazon KDP Activity Book Business Guide',
     tagline: 'Publish and sell professional activity books on Amazon using print-on-demand — no inventory, no upfront costs',
-    description: 'Amazon KDP gives you access to the largest book marketplace on the planet with zero inventory risk. This guide covers every step of building a profitable activity book business on KDP — from interior formatting and cover design to keyword research, pricing strategy, category selection, and scaling your catalog. Whether you are publishing your first puzzle book or expanding an existing printable business to Amazon, this is your KDP-specific playbook.',
+    description: 'Amazon KDP gives printable creators access to the world\'s largest book marketplace with zero upfront costs — you publish, Amazon prints and ships, and you collect royalties on every sale. This guide covers building a profitable KDP activity book business: choosing niches with proven demand, formatting interiors for KDP print specifications, creating cover designs that attract clicks, and scaling from your first book to a complete catalog. Our generators produce print-ready pages at the exact DPI and dimensions KDP requires.',
   },
 
   introduction: 'Amazon sells more books than any other retailer in the world, and activity books are one of the fastest-growing categories in its children\'s and puzzle book sections. Unlike Etsy where you sell individual digital downloads, Amazon KDP prints physical books on demand and ships them directly to customers. You upload a PDF interior and a cover file, set your price, and Amazon handles printing, shipping, customer service, and returns.\n\nThis print-on-demand model eliminates the two biggest barriers to traditional book publishing: upfront printing costs and inventory risk. You never pay to print a single copy. Amazon prints each book only after a customer orders it. Your profit is the difference between your list price and Amazon\'s printing cost, multiplied by your chosen royalty rate.\n\nThis guide is KDP-specific from start to finish. General printable business strategy appears in our Complete Guide to Starting a Printable Business, and Etsy-specific tactics are covered in the Etsy Printable Business Masterclass. Here, every recommendation is tailored to Amazon\'s platform, algorithm, and buyer behavior.\n\nOne important note: every worksheet generator mentioned in this guide offers a free trial with watermark. You can create sample activity book pages, test formatting, and evaluate quality before purchasing a commercial license for publishing on KDP.',
@@ -207,17 +204,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Sudoku Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Try the Sudoku Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Try the Math Puzzle Maker' },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Create math activity books for KDP' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on Amazon KDP' },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
+    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Best KDP activity book niches' },
   ],
 
   visuals: {

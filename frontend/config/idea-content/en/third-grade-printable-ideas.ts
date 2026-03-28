@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Third Grade Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover third grade printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Niche strategies for sellers targeting the pivotal 3rd grade academic year.',
+    titleTag: 'Third Grade Printables to Sell | LCS',
+    metaDescription: 'Third grade printable ideas for Etsy & KDP. Grade-specific product concepts and strategies for upper elementary printable sellers.',
 
-    primaryKeyword: 'third grade printable ideas',
+    primaryKeyword: 'third grade printables to sell',
     secondaryKeywords: [
-      'third grade worksheets to sell',
-      'grade 3 printable business ideas',
-      'third grade activity sheets for sellers',
-      'sell third grade printables on Gumroad',
+      'third grade worksheets for Etsy sellers',
+      'grade 3 activity books for Amazon KDP',
+      'sell third grade printables online',
+      'ages 8-9 printable products',
     ],
     lsiKeywords: [
-      'upper elementary educational worksheets',
-      'grade 3 printable resources for sellers',
-      'age 8-9 learning activity pages',
+      'third grade printable niche',
+      'grade 3 educational products',
+      'upper elementary worksheet business',
     ],
   },
   hero: {
-    title: 'Third Grade Printable Business Ideas for Sellers',
-    description: 'Third grade printables occupy an exceptionally lucrative position in the educational marketplace because third grade is the pivotal academic year where multiplication and division are formally introduced as the dominant math operations, reading comprehension replaces decoding as the primary learning vehicle across every content area, writing advances to multi-paragraph compositions requiring opinion and narrative structures with organized supporting evidence, and standardized testing reaches its first high-stakes milestone with retention policies in many states tying promotion directly to third grade assessment outcomes. This convergence of intensified academic demands and heightened accountability creates the strongest purchasing pressure in the primary grades from sellers who must create tiered product bundles across the widest performance gap in elementary education because cumulative learning differences from kindergarten through second grade compound into a three-to-four-year skill span within a single store requiring targeted materials at multiple complexity tiers for every instructional block. Parent purchasing intensifies dramatically during third grade because assessment results carry real consequences including intervention placement decisions, academic trajectory assignments, and promotion determinations that make the stakes tangible and urgent for families recognizing that skills mastered or missed during third grade directly shape whether users enter fourth grade as confident independent learners or struggling readers requiring intensive support. The content scope of third grade spans an extraordinary breadth including multiplication facts through ten-times-ten, division as the inverse of multiplication, multi-digit addition and subtraction with regrouping across multiple place values, place value understanding through thousands, fractions on number lines with equivalence and comparison, area and perimeter measurement, data analysis with scaled bar graphs and picture graphs, reading comprehension requiring inference and main idea identification from informational and literary texts, text feature analysis across genres, vocabulary development with Greek and Latin roots, grammar conventions including complex sentence structures, cursive handwriting in many districts, and opinion and narrative writing with organized paragraph structures. For printable sellers and entrepreneurs, the third grade niche combines the highest institutional spending per buyer on supplementary materials with the most motivated parent purchasing driven by visible high-stakes accountability, creating diversified revenue opportunities across Etsy, Amazon KDP, Gumroad, and direct sales platforms. This guide covers specific product ideas built around our worksheet generator tools, platform strategies for reaching third grade buyers, and niche positioning approaches to help you build a profitable third grade printable product line.',
+    title: 'Third Grade Printables to Sell on Etsy & KDP',
+    description: 'Third grade introduces multiplication, more complex reading, and logic challenges — creating a market for printable products that most sellers underserve. This niche guide covers the third grade opportunity: which formats challenge 8-9 year olds without overwhelming them, how to create grade-specific math and word puzzle bundles, and strategies for targeting parents seeking homework supplements. Crosswords, cryptograms, and algebra picture puzzles are especially strong sellers for this age group.',
   },
   marketOverview: `The third grade printable market represents the premium revenue opportunity in the educational niche because third grade sits at the critical academic pivot point where every major subject area undergoes its most significant complexity increase in the primary grades, creating unprecedented purchasing pressure from sellers who face the most demanding tiered difficulty challenge in elementary education and parents confronting the first high-stakes assessment outcomes that carry real consequences for their child\'s academic future. The math content catalog alone drives enormous printable demand because third grade introduces multiplication and division as entirely new operation domains requiring mastery of facts through ten-times-ten, conceptual understanding of equal groups and arrays, fluency development through progressive fact practice, and application through multi-step word problems that represent the single largest new mathematical skill acquisition since addition was introduced in first grade.
 
@@ -139,44 +139,19 @@ The parent buyer segment reaches its peak motivation during third grade because 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
-    },
-    {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      pageType: 'app',
+      slug: 'crossword-worksheets',
+      anchorText: 'Crossword generator for grade 3 vocabulary',
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
-    },
-    {
-      pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Commercial License Guide',
+      anchorText: 'Niche selection for printable business',
     },
     {
       pageType: 'idea',
       slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Business Ideas',
+      anchorText: 'Second grade printable ideas',
     },
   ],
 

@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'search and find worksheet bundle',
+    primaryKeyword: 'search and find worksheet bundle for sellers',
     secondaryKeywords: [
-      'search and find worksheet generator bundle for sellers',
-      'I Spy hidden object printable toolkit commercial use',
-      'crossword treasure hunt worksheet bundle for Etsy',
-      'find and count activity generators for KDP sellers',
+      'search printable bundle for Etsy sellers',
+      'find worksheet generator pack commercial use',
+      'all search generators in one bundle',
+      'search and find toolkit for sellers',
     ],
     lsiKeywords: [
-      'hidden object I Spy crossword treasure hunt worksheet pack',
-      'multilingual search activity printable collection',
-      'commercial license discovery worksheets',
-      'bulk search and find worksheet creation tool',
+      'search printable business bundle',
+      'complete find generator package',
+      'I Spy seller toolkit',
     ],
-    titleTag: 'Search and Find Worksheet Bundle — 4 Generators',
-    metaDescription: 'Search and find worksheet bundle with 4 generators: I Spy, hidden objects, crosswords, and treasure hunts. Sell on Etsy, KDP, Gumroad. Commercial license.',
+    titleTag: 'Search & Find Bundle for Sellers | LCS',
+    metaDescription: 'Get all 4 search and find generators in one bundle. I Spy, find & count, crossword & treasure hunt. Commercial license for Etsy & KDP sellers.',
   },
 
   hero: {
-    title: 'Search & Find Bundle',
+    title: 'Search & Find Bundle — 4 Generators for Sellers',
     tagline: 'Four discovery-focused generators — I Spy scenes, hidden objects, crossword puzzles, and treasure hunts in every worksheet',
-    description: 'The Search & Find Bundle is the most language-rich bundle in the collection. Three of four apps produce language-sensitive worksheets — image labels and locale-specific alphabets in Find & Count, translated puzzle words in Crossword, and fully localized directional clues in Treasure Hunt. This multilingual depth is a genuine competitive advantage for sellers targeting non-English markets, because every translated worksheet becomes a unique product listing with virtually zero competition. The bundle unites four genuinely different activity formats under one "search and discover" theme: I Spy hidden object scenes where solvers locate and count specific items, visual hidden object worksheets with zero-overlap scene generation, 15x15 crossword grids with image-based clues instead of text definitions, and coordinate-grid treasure hunts with sequential directional moves. All four generators produce automatic answer keys — 100% answer key coverage across the entire bundle. Find & Count offers two search modes: Hidden Object I Spy scenes with configurable grid sizes from 5x5 to 10x10, and a Letter Spotting mode that uses locale-specific alphabets including German umlauts, Spanish accented characters, and Scandinavian special letters. Find Objects provides purely visual hidden object worksheets with intelligent zero-overlap scene placement and adaptive image sizing. Crossword supports four input methods — theme auto-select, manual word editing, custom word lists, and image upload — all rendered on a 15x15 grid with 8 image clues replacing traditional text definitions. Treasure Hunt places landmarks on a 5x5 coordinate grid labeled A through E and 1 through 5, with exactly 4 sequential directional moves in either Basic mode using up, down, left, and right or Cardinal mode using north, south, east, and west — all fully translated across 11 languages. Choose from over 100 themed image sets or upload your own PNG and JPEG files for branded, niche-specific products. Whether you sell I Spy books on Amazon KDP, list crossword packs on Etsy, or create treasure hunt activities for Gumroad or your own store, this bundle gives you four high-demand search activity types that buyers look for by name. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Build a complete search and find product line with all 4 generators in one discounted bundle — find objects (I Spy), find and count, crossword, and treasure hunt. Each tool comes with full commercial license for Etsy, Amazon KDP, or any marketplace. I Spy and search activities are among the top-selling printable formats, especially popular as KDP activity books and Etsy themed bundles. This bundle covers every search-and-find format for a comprehensive product catalog.',
   },
 
   appsIncluded: [
@@ -184,14 +183,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'I Spy Find & Count Generator — Full Details' },
-    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Hidden Object Generator — Full Details' },
-    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Picture Crossword Generator — Full Details' },
-    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Treasure Hunt Generator — Full Details' },
-    { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'How to Create Hidden Object Worksheets' },
-    { pageType: 'guide', slug: 'create-treasure-hunt-worksheets', anchorText: 'How to Create Treasure Hunt Worksheets' },
-    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing Your Printable Business' },
-    { pageType: 'idea', slug: 'camping-printable-ideas', anchorText: 'Camping Printable Ideas for Sellers' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'I Spy worksheet generator' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Treasure hunt generator' },
+    { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'Create hidden object worksheets' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publish puzzle books on KDP' },
   ],
 
   visuals: {

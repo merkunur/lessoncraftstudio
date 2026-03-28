@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'pattern worksheet generator',
+    primaryKeyword: 'free pattern worksheet maker',
     secondaryKeywords: [
-      'pattern train worksheet maker for sellers',
-      'create repeating pattern worksheets to sell',
-      'printable pattern sequence worksheets commercial use',
-      'train pattern worksheet generator for KDP',
+      'make pattern worksheets free online',
+      'pattern sequence generator no signup',
+      'free pattern train worksheet maker',
+      'pattern worksheets free trial',
     ],
     lsiKeywords: [
-      'visual pattern recognition printables for Etsy',
-      'zero-text train car pattern worksheet tool',
-      'AB ABC pattern sequence worksheet maker',
+      'free pattern tool online',
+      'instant pattern worksheet maker',
+      'try before you buy pattern tools',
     ],
-    titleTag: 'Pattern Worksheet Generator — Train Maker | Sell',
-    metaDescription: 'Generate pattern train worksheets with five pattern types, 11 themed train wagons, adjustable clue count, and auto answer keys. Try free — license available.',
+    titleTag: 'Free Pattern Worksheet Maker for Kids | LCS',
+    metaDescription: 'Make pattern worksheets free online with watermark — no signup. Train-car sequences, themed images, auto answer keys. Upgrade for commercial license to sell.',
   },
 
   hero: {
-    title: 'Pattern Train Maker',
+    title: 'Make Pattern Worksheets for Kids Free Online — No Signup',
     tagline: 'Generate repeating pattern worksheets displayed across 11 themed train wagons with five pattern types, adjustable clue count, and fully visual zero-text output that sells worldwide without translation',
-    description: 'Create professional pattern recognition worksheets where solvers identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank — solvers identify the pattern and determine the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. The distinctive train car layout is a visual differentiator from standard grid worksheets — buyers browsing Etsy or Gumroad immediately see something different from typical rows-and-columns pattern exercises. Draw from 3,100+ illustrations across 104 themed collections or upload your own images. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Every worksheet is fully visual with images only on train cars and zero text on the output. No words appear on the generated page — only images. This makes your worksheets universally sellable without translation: one product listing serves every market worldwide. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create pattern train worksheets right now — free, instant, no account required. Each worksheet presents a train-car sequence of themed images with a repeating pattern for solvers to identify and continue. Choose from 104 themed collections with 3,000+ illustrations, configure pattern complexity, and get automatic answer keys with every generation. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell pattern worksheets on Etsy or compile early learning workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
 
   tutorial: {
-    title: 'How to Create Pattern Train Worksheets in 8 Steps',
+    title: 'How to Make Pattern Train Worksheets Free in 8 Steps',
     steps: [
       {
         title: 'Open the Pattern Train Maker',
@@ -201,14 +201,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Pattern Train Worksheets — Full Product Details' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big & Small Worksheet Maker' },
-    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Pattern Worksheet Maker' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Odd One Out Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Shadow Match Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Remove watermark and sell commercially' },
+    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Free pattern recognition worksheet maker' },
+    { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'How to create pattern worksheets to sell' },
   ],
 
   visuals: {

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create addition worksheets',
+    primaryKeyword: 'how to create addition worksheets to sell',
     secondaryKeywords: [
-      'make addition worksheets for kids',
-      'addition worksheet generator',
-      'printable addition worksheets to sell',
-      'custom addition practice sheets',
+      'create addition worksheets for Etsy',
+      'make addition printables for KDP',
+      'addition worksheet creation guide',
+      'sell addition worksheets online step by step',
     ],
     lsiKeywords: [
-      'image-based math worksheets',
-      'visual addition for preschool',
-      'kindergarten math practice sheets',
-      'sell math worksheets on Etsy',
-      'Amazon KDP math activity books',
-      'commercial license worksheet tool',
+      'addition printable product creation',
+      'math worksheet business guide',
+      'create sellable math products',
     ],
-    titleTag: 'Create Addition Worksheets — Step-by-Step Guide',
-    metaDescription: 'How to create addition worksheets for kids. Step-by-step guide: choose themes, set difficulty, generate answer keys, and export PDFs to sell on Etsy and KDP.',
+    titleTag: 'How to Create Addition Worksheets to Sell | LCS',
+    metaDescription: 'Step-by-step guide to creating addition worksheets to sell on Etsy & KDP. Theme selection, difficulty tiers, bundling strategies, and listing tips.',
   },
 
   hero: {
-    title: 'How to Create Addition Worksheets for Kids',
+    title: 'How to Create Addition Worksheets to Sell Online',
     tagline: 'A step-by-step tutorial for creating themed, print-ready addition worksheets you can sell on Etsy, Amazon KDP, and Gumroad',
-    description: 'Addition worksheets are one of the most consistently searched printable products across every major marketplace. Parents need them for practice at home. Buyers need them for daily drills and homework. Tutoring centers need fresh sets every week. This guide walks you through the entire creation process using the Addition Worksheet Generator — from choosing your target age group and theme to exporting a polished, print-ready PDF with an automatic answer key. Whether you are building your first printable product or expanding an existing math worksheet catalog, you will have a finished product ready to list by the end of this tutorial.',
+    description: 'Addition worksheets are one of the most reliable sellers in the math printable market — parents search for them year-round, and the demand spans preschool through second grade. This guide walks you through creating professional addition worksheets designed to sell: choosing themes that attract buyers, setting difficulty tiers that cover multiple age groups, bundling strategies that increase average order value, and listing optimization that converts browsers into customers. You\'ll learn how to use the addition worksheet generator to produce entire product lines in a single session.',
   },
 
   introduction: 'Addition is the first math operation children learn, and it stays relevant from preschool through second grade and beyond. That long learning window means sustained demand for addition worksheets across multiple age groups — each requiring different difficulty levels, visual styles, and problem formats.\n\nWhat makes addition worksheets particularly strong as a printable product is their universality. Every curriculum in every country teaches addition. Every parent who homeschools needs addition practice materials. Every tutor working with learners reaches for addition drills. This is not a seasonal product or a niche trend — it is a foundational educational resource with year-round demand.\n\nThe Addition Worksheet Generator handles the technical complexity for you. It generates image-based addition problems with themed visuals, configures difficulty by adjusting number ranges, supports four distinct exercise modes, and produces automatic answer keys. You focus on product strategy — which age groups to target, which themes to use, how to bundle and price — while the generator handles layout, math accuracy, and print formatting.\n\nEvery feature mentioned in this guide is available in the free trial with watermark. You can create sample worksheets, test every configuration, and evaluate output quality before purchasing a commercial license.',
@@ -155,14 +152,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition worksheet generator' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to sell math worksheets on Etsy' },
+    { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'Create subtraction worksheets to sell' },
   ],
 
   toolsRecommended: [

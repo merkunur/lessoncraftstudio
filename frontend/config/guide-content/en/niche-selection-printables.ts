@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'niche selection for printable business 2026',
+    primaryKeyword: 'niche selection for printable business',
     secondaryKeywords: [
+      'niche selection for printable business 2026',
       'choose profitable printable niche guide',
       'printable business niche research 2026',
       'best niches for selling printables',

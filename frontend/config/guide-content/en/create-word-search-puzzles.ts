@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create word search puzzles with images to sell',
+    primaryKeyword: 'create word search puzzles with images',
     secondaryKeywords: [
+      'create word search puzzles with images to sell',
       'make word search puzzles for Etsy',
       'create themed word search books for KDP',
       'word search puzzle creation guide',

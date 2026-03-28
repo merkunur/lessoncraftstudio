@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'missing piece puzzle generator for KDP activity books',
+    primaryKeyword: 'missing piece puzzle generator for KDP books',
     secondaryKeywords: [
+      'missing piece puzzle generator for KDP activity books',
       'create missing pieces puzzles for Etsy',
       'visual puzzle worksheets for Amazon KDP sellers',
       'missing pieces printables with commercial license',

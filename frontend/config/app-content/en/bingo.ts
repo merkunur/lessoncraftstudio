@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingo card maker for selling printables on Etsy',
+    primaryKeyword: 'bingo card maker',
     secondaryKeywords: [
+      'bingo card maker for selling printables on Etsy',
       'create bingo cards for Etsy shop',
       'picture bingo printables for Amazon KDP',
       'bingo card generator with commercial license',

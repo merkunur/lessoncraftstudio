@@ -191,7 +191,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
+    {
+      question: 'What can I create with the free version?',
+      answer:
+        'The free version gives you complete access to every feature — all three operations, all grid sizes, the full image library with 104 themed collections, answer key generation, all page sizes, and all export formats. There are no locked features, no registration requirements, and no usage limits. The only difference is a small watermark on downloaded files. This means you can fully evaluate puzzle quality, test different grid configurations and operations, preview print output across multiple themes, and compare difficulty levels before deciding whether to purchase a commercial license for selling your math puzzles on Etsy, Amazon KDP, or any other marketplace.',
     },
   ],
 

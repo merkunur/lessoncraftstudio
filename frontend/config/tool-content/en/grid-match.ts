@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy puzzle tools',
     ],
     titleTag: 'Free Grid Matching Puzzle Maker | LCS',
-    metaDescription: 'Make grid matching puzzles free online with watermark — no signup. Configurable grids, clue cells, auto answer keys, 104 themes. Upgrade for commercial use.',
+    metaDescription: 'Make grid matching puzzles free online with watermark — no signup. Configurable grids, clue cells, auto answer keys, 104 themes. Upgrade for commercial use',
   },
 
   hero: {

@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Halloween Printable Business Ideas | LCS',
     metaDescription: 'Halloween printable business ideas for Etsy & KDP. Spooky product concepts, release timing, and strategies for the October demand spike.',
 
-    primaryKeyword: 'Halloween printable business ideas Etsy',
+    primaryKeyword: 'Halloween printable business ideas',
     secondaryKeywords: [
+      'Halloween printable business ideas Etsy',
       'Halloween worksheets for Etsy sellers',
       'Halloween activity books for KDP',
       'sell Halloween printables online',

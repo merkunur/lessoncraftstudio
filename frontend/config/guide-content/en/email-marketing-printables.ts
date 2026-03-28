@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing for printable product sellers',
+    primaryKeyword: 'email marketing for printable sellers',
     secondaryKeywords: [
+      'email marketing for printable product sellers',
       'email marketing for printable business',
       'build email list for Etsy printable shop',
       'email strategy for worksheet sellers',

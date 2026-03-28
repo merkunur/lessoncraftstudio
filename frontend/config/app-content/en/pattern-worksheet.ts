@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern recognition worksheet maker for Etsy sellers',
+    primaryKeyword: 'pattern recognition worksheet maker for Etsy',
     secondaryKeywords: [
+      'pattern recognition worksheet maker for Etsy sellers',
       'create pattern recognition worksheets for Etsy',
       'visual pattern printables for Amazon KDP',
       'pattern worksheets with commercial license',

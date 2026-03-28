@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create counting worksheets to sell on Etsy',
+    primaryKeyword: 'create counting worksheets to sell',
     secondaryKeywords: [
+      'create counting worksheets to sell on Etsy',
       'make counting worksheets for Etsy shop',
       'create graphing worksheets for KDP',
       'counting worksheet creation guide',

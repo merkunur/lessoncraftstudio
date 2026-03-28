@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create preposition worksheets for ESL to sell',
+    primaryKeyword: 'create preposition worksheets for ESL',
     secondaryKeywords: [
+      'create preposition worksheets for ESL to sell',
       'make preposition worksheets for Etsy',
       'create ESL grammar printables for KDP',
       'preposition worksheet creation guide',

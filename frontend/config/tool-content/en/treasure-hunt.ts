@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy adventure tools',
     ],
     titleTag: 'Free Treasure Hunt Worksheet Maker | LCS',
-    metaDescription: 'Make treasure hunt worksheets free online with watermark — no signup. Coordinate grid puzzles, 2 direction modes, 11 languages. Upgrade for commercial license.',
+    metaDescription: 'Make treasure hunt worksheets free online with watermark — no signup. Coordinate grid puzzles, 2 direction modes, 11 languages. Upgrade to sell.',
   },
 
   hero: {

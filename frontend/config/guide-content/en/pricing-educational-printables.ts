@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pricing strategies for educational printables',
+    primaryKeyword: 'pricing strategies for printables',
     secondaryKeywords: [
+      'pricing strategies for educational printables',
       'price educational printables guide',
       'worksheet pricing strategy for sellers',
       'printable pricing tiers and bundles',

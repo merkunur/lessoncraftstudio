@@ -2,8 +2,9 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'word puzzle generators bundle for Etsy KDP',
+    primaryKeyword: 'word puzzle generator bundle',
     secondaryKeywords: [
+      'word puzzle generators bundle for Etsy KDP',
       'literacy printable bundle for sellers',
       'word puzzle generator pack commercial use',
       'all word generators in one bundle',

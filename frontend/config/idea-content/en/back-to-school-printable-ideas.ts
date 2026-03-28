@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Back to School Printables to Sell | LCS',
     metaDescription: 'Back to school printable ideas for Etsy & KDP. Product concepts, July-September timing, and strategies for the biggest educational demand window.',
 
-    primaryKeyword: 'back to school printables to sell on Etsy',
+    primaryKeyword: 'back to school printables to sell',
     secondaryKeywords: [
+      'back to school printables to sell on Etsy',
       'back to school worksheets for Etsy sellers',
       'school themed activity books for KDP',
       'sell back to school printables',

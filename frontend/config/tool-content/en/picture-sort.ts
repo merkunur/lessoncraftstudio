@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy sorting tools',
     ],
     titleTag: 'Free Sorting Worksheet Maker for Kids | LCS',
-    metaDescription: 'Make sorting worksheets free online with watermark — no signup. Category sorting with themed images, auto answer keys, 104 themes. Upgrade for commercial use.',
+    metaDescription: 'Make sorting sheets free online with watermark — no signup. Category sorting with themed images, auto answer keys, 104 themes. Upgrade for commercial use.',
   },
 
   hero: {

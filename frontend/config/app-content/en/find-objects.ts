@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'I Spy printable maker for selling on Etsy and KDP',
+    primaryKeyword: 'I Spy printable maker',
     secondaryKeywords: [
+      'I Spy printable maker for selling on Etsy and KDP',
       'create I Spy worksheets for Etsy shop',
       'hidden object activity books for Amazon KDP',
       'I Spy printables with commercial license',

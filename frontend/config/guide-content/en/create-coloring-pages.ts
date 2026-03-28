@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create coloring pages to sell on Etsy and KDP',
+    primaryKeyword: 'create coloring pages to sell on Etsy',
     secondaryKeywords: [
+      'create coloring pages to sell on Etsy and KDP',
       'make coloring pages for Etsy shop',
       'create coloring books for Amazon KDP',
       'coloring page creation guide for sellers',

@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create handwriting practice sheets to sell',
+    primaryKeyword: 'create handwriting sheets to sell',
     secondaryKeywords: [
+      'create handwriting practice sheets to sell',
       'make handwriting worksheets for Etsy',
       'create tracing worksheets for KDP books',
       'handwriting sheet creation guide',

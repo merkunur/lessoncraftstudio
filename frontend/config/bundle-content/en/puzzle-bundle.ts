@@ -2,8 +2,9 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'logic puzzle generators for KDP puzzle books',
+    primaryKeyword: 'logic puzzle bundle for KDP books',
     secondaryKeywords: [
+      'logic puzzle generators for KDP puzzle books',
       'puzzle printable bundle for sellers',
       'logic puzzle generator pack commercial use',
       'all puzzle generators in one bundle',

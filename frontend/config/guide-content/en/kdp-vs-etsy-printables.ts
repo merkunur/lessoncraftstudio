@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP vs Etsy for selling printables',
+    primaryKeyword: 'Amazon KDP vs Etsy',
     secondaryKeywords: [
+      'Amazon KDP vs Etsy for selling printables',
       'KDP vs Etsy comparison printable sellers',
       'where to sell printables KDP or Etsy',
       'Etsy vs Amazon KDP for worksheets',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free greater than less than worksheet maker',
+    primaryKeyword: 'free greater than less than maker',
     secondaryKeywords: [
       'make comparison worksheets free online',
       'more or less generator no signup',
@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy math tools',
     ],
     titleTag: 'Free Greater Than Less Than Maker | LCS',
-    metaDescription: 'Make greater than less than worksheets free online with watermark — no signup. 3 comparison modes, themed images, answer keys. Upgrade for commercial license.',
+    metaDescription: 'Make greater than less than worksheets free online with watermark — no signup. 3 comparison modes, themed images, answer keys. Upgrade to sell.',
   },
 
   hero: {
@@ -191,7 +191,11 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',    },
+    {
+      question: 'What can I create with the free version?',
+      answer:
+        'The free version gives you complete access to every feature — all comparison modes, configurable number ranges, the full image library with 104 themed collections, answer key generation, all page sizes, and all export formats. There are no locked features, no registration requirements, and no usage limits. The only difference is a small watermark on downloaded files. This means you can fully evaluate worksheet quality, test different number ranges, preview output across themes, and compare configurations before deciding whether to purchase a commercial license for selling your comparison worksheets on Etsy, Amazon KDP, or any other marketplace.',
     },
   ],
 

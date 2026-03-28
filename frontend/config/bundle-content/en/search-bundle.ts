@@ -2,8 +2,9 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'search and find worksheet bundle for sellers',
+    primaryKeyword: 'search & find bundle for sellers',
     secondaryKeywords: [
+      'search and find worksheet bundle for sellers',
       'search printable bundle for Etsy sellers',
       'find worksheet generator pack commercial use',
       'all search generators in one bundle',

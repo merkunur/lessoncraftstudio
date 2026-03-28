@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy puzzle generators',
     ],
     titleTag: 'Free Word Search Maker with Images | LCS',
-    metaDescription: 'Make word search puzzles free online with watermark — no signup. Themed images, adjustable grids 5-30, 11 languages. Upgrade for commercial license to sell.',
+    metaDescription: 'Make word search puzzles free online with watermark — no signup. Themed images, adjustable grids 5-30, 11 languages. Upgrade to sell.',
   },
 
   hero: {

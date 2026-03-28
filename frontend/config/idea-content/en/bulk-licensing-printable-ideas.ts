@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Bulk Licensing Printable Business | LCS',
     metaDescription: 'Bulk licensing printable business ideas. Institutional sales, site licenses, and wholesale strategies for printable product sellers.',
 
-    primaryKeyword: 'bulk licensing printable business ideas',
+    primaryKeyword: 'bulk licensing printable business',
     secondaryKeywords: [
+      'bulk licensing printable business ideas',
       'bulk license printable products',
       'school district printable licensing',
       'wholesale printable business model',

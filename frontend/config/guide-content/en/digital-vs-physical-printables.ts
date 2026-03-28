@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digital vs physical printable products comparison',
+    primaryKeyword: 'digital vs physical printable products',
     secondaryKeywords: [
+      'digital vs physical printable products comparison',
       'digital vs physical printables for sellers',
       'sell digital or physical printable products',
       'print on demand vs digital download printables',

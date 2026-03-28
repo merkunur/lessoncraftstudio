@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word guess puzzle creator for Etsy printable shop',
+    primaryKeyword: 'word guess puzzle creator for Etsy sellers',
     secondaryKeywords: [
+      'word guess puzzle creator for Etsy printable shop',
       'create hangman-style worksheets for Etsy',
       'word guess printables for Amazon KDP books',
       'vocabulary puzzle generator with commercial license',
@@ -192,12 +193,16 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your word guess worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The image-clue puzzle format and multilingual capability give you strong differentiation in crowded marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your word guess worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The image-clue puzzle format and multilingual capability give you strong differentiation in crowded marketplace categories. Word guess puzzles fill a unique niche between word search and crossword formats, giving you product variety that most competing sellers overlook. Sellers who create themed bundles organized by difficulty level or vocabulary category build product lines with strong repeat purchase potential. The visual clue format appeals to both literacy learners and puzzle enthusiasts, expanding your addressable buyer audience beyond the educational printable market.',
     },
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },
+    {
+      question: 'Do I need design skills to use this tool?',
+      answer:
+        'No design skills are required. The generator handles all puzzle construction, blanking patterns, image clue placement, and visual formatting automatically. You choose a theme, select images, and the generator produces a complete word guess puzzle with properly blanked words and visual clues. The built-in canvas editor lets you customize fonts, colors, and element positioning, but the default layout is already professional and print-ready. Sellers without any graphic design experience can produce puzzles that look polished and marketplace-ready, because the generator enforces consistent formatting, alignment, and visual hierarchy throughout every puzzle page it creates.',
     },
   ],
 

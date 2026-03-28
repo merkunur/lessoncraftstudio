@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'best KDP activity book niches 2026',
+    primaryKeyword: 'best KDP activity book niches',
     secondaryKeywords: [
+      'best KDP activity book niches 2026',
       'profitable KDP activity book niches',
       'low competition KDP niches 2026',
       'best selling activity book categories Amazon',

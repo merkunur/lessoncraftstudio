@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy ESL tools',
     ],
     titleTag: 'Free Prepositions Worksheet Maker | LCS',
-    metaDescription: 'Make preposition worksheets free online with watermark — no signup. Visual grammar activities, 11 languages, auto answer keys. Upgrade for commercial license.',
+    metaDescription: 'Make preposition worksheets free online with watermark — no signup. Visual grammar activities, 11 languages, auto answer keys. Upgrade to sell.',
   },
 
   hero: {
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Is there a free trial?',
-      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
+      answer: 'Yes. The Preposition Worksheet Generator offers a complete free trial with every feature unlocked — both exercise modes, all preposition options, the full image library with 104 themed collections, scene composition tools, and all export formats including 300 DPI PDF. No signup, no credit card, no usage limits. Create, preview, and download as many preposition worksheets as you want to evaluate layout quality and test different spatial relationship configurations. Free trial downloads include a small watermark to identify them as evaluation copies. When you are ready to sell your ESL worksheets commercially on Etsy, Amazon KDP, Gumroad, or any other marketplace, purchase a commercial license to remove the watermark and gain full selling rights with no per-sale royalties or attribution requirements.',
     },
     {
       question: 'How do the two exercise modes work?',
@@ -196,7 +196,11 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',    },
+    {
+      question: 'What can I create with the free version?',
+      answer:
+        'The free version gives you complete access to every feature — both exercise modes, all preposition options, the full image library with 104 themed collections, answer key generation, all page sizes, and all export formats. There are no locked features, no registration requirements, and no usage limits. The only difference is a small watermark on downloaded files. This means you can fully evaluate worksheet quality, test different preposition configurations, preview scene layouts across multiple themes, and compare exercise modes before deciding whether to purchase a commercial license for selling preposition worksheets on Etsy, Amazon KDP, or any other marketplace.',
     },
   ],
 

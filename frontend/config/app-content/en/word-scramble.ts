@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word scramble worksheet maker for Etsy sellers',
+    primaryKeyword: 'word scramble maker for Etsy sellers',
     secondaryKeywords: [
+      'word scramble worksheet maker for Etsy sellers',
       'create word scramble puzzles for Etsy shop',
       'letter unscramble printables for Amazon KDP',
       'word scramble generator with commercial license',
@@ -197,7 +198,11 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, color coding options, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, color coding options, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },
+    {
+      question: 'Do I need design skills to use this tool?',
+      answer:
+        'No design skills are required. The generator handles all word scrambling, layout formatting, image placement, and visual composition automatically. You choose a theme, select images, and the generator scrambles the corresponding words into a professional puzzle layout. The built-in canvas editor lets you customize fonts, colors, and element positioning, but the default output is already print-ready. Sellers without graphic design experience can produce word scramble puzzles that look polished and marketplace-quality, because the generator enforces consistent formatting and visual hierarchy across every puzzle page it creates.',
     },
   ],
 

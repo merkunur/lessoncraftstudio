@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'greater than less than worksheet creator for Etsy',
+    primaryKeyword: 'greater than less than worksheet creator',
     secondaryKeywords: [
+      'greater than less than worksheet creator for Etsy',
       'create more or less worksheets for Etsy shop',
       'number comparison printables for Amazon KDP',
       'greater than less than worksheets commercial license',
@@ -197,7 +198,11 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. We recommend creating several complete worksheets during your free trial, reviewing the print quality and layout options, and confirming the output meets your marketplace listing standards before committing to the commercial license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. We recommend creating several complete worksheets during your free trial, reviewing the print quality and layout options, and confirming the output meets your marketplace listing standards before committing to the commercial license.',    },
+    {
+      question: 'Do I need design skills to use this tool?',
+      answer:
+        'No design skills are required. The generator handles all comparison layout, image placement, and visual formatting automatically. You choose a theme, set the number range, and the generator produces professional worksheets with the greater-than, less-than, and equal symbols correctly positioned. The canvas editor allows customization, but default output is already print-ready and marketplace-quality. Sellers without design experience can produce polished comparison worksheets immediately.',
     },
   ],
 

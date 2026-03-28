@@ -1,7 +1,7 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'free crossword puzzle maker with pictures',
+    primaryKeyword: 'free crossword maker with pictures',
     secondaryKeywords: [
       'make crossword puzzles free online with images',
       'picture crossword generator no signup',
@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'try before you buy crossword generators',
     ],
     titleTag: 'Free Crossword Maker with Pictures | LCS',
-    metaDescription: 'Make picture crossword puzzles free online with watermark — no signup. Image clues, 15x15 grid, auto answer keys, 104 themes. Upgrade for commercial license.',
+    metaDescription: 'Make picture crossword puzzles free online with watermark — no signup. Image clues, 15x15 grid, auto answer keys, 104 themes. Upgrade to sell.',
     },
 
   hero: {

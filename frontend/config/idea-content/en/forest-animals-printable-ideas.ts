@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Forest Animal Printables to Sell | LCS',
     metaDescription: 'Forest animal printable business ideas for Etsy & KDP. Woodland theme product concepts, bundling strategies, and market opportunities for sellers.',
 
-    primaryKeyword: 'forest animal printables to sell on Etsy',
+    primaryKeyword: 'forest animal printables to sell',
     secondaryKeywords: [
+      'forest animal printables to sell on Etsy',
       'woodland worksheets for Etsy sellers',
       'forest animal activity books for KDP',
       'sell forest printables online',

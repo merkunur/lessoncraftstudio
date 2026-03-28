@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sorting worksheet maker for printable business Etsy',
+    primaryKeyword: 'sorting worksheet maker for Etsy sellers',
     secondaryKeywords: [
+      'sorting worksheet maker for printable business Etsy',
       'create sorting worksheets for Etsy shop',
       'category sorting printables for Amazon KDP',
       'picture sort worksheets with commercial license',

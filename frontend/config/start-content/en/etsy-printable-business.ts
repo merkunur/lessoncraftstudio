@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Etsy printable business masterclass 2026',
+    primaryKeyword: 'Etsy printable business masterclass',
     secondaryKeywords: [
+      'Etsy printable business masterclass 2026',
       'Etsy printable business guide 2026',
       'build Etsy printable shop masterclass',
       'Etsy digital product business complete guide',

@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'How many images and themes are available?',
       answer:
-        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork. Because all images are high-resolution and high-resolution, they reproduce crisply on both home inkjet printers and professional print services, ensuring your finished products meet the quality expectations of marketplace buyers.',
+        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork. Because all images are high-resolution and professionally curated, they reproduce crisply on both home inkjet printers and professional print services, ensuring your finished products meet the quality expectations of marketplace buyers.',
     },
     {
       question: 'Does the generator create answer keys automatically?',

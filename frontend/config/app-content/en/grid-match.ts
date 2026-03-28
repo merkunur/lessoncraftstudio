@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'grid matching puzzle generator for printable business',
+    primaryKeyword: 'grid matching puzzle generator for sellers',
     secondaryKeywords: [
+      'grid matching puzzle generator for printable business',
       'create grid match puzzles for Etsy shop',
       'picture tile puzzles for Amazon KDP books',
       'grid matching worksheets with commercial license',

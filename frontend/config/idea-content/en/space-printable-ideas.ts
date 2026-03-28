@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Space Themed Printables to Sell | LCS',
     metaDescription: 'Space themed printable business ideas for Etsy & KDP. Product concepts and strategies for outer space and astronomy printable sellers.',
 
-    primaryKeyword: 'space themed printables to sell on Etsy',
+    primaryKeyword: 'space themed printables to sell',
     secondaryKeywords: [
+      'space themed printables to sell on Etsy',
       'space worksheets for Etsy sellers',
       'space activity books for Amazon KDP',
       'sell space printables online',

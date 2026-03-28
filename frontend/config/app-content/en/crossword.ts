@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crossword puzzle maker for selling on Etsy and KDP',
+    primaryKeyword: 'crossword puzzle maker',
     secondaryKeywords: [
+      'crossword puzzle maker for selling on Etsy and KDP',
       'create picture crossword puzzles for Etsy',
       'crossword puzzle books for Amazon KDP',
       'printable crossword generator with commercial license',

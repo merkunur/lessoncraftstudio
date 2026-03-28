@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to sell math worksheets on Etsy 2026',
+    primaryKeyword: 'sell math worksheets on Etsy',
     secondaryKeywords: [
+      'how to sell math worksheets on Etsy 2026',
       'sell math printables on Etsy step by step',
       'Etsy math worksheet shop setup guide',
       'math worksheet pricing strategy for Etsy',

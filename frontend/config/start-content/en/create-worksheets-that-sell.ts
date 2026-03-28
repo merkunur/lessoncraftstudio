@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to create worksheets that sell',
+    primaryKeyword: 'create professional worksheets that sell',
     secondaryKeywords: [
+      'how to create worksheets that sell',
       'create professional worksheets guide',
       'make worksheets to sell on Etsy',
       'worksheet creation for sellers',

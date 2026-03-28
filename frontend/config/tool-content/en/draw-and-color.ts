@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy art tools',
     ],
     titleTag: 'Free Draw and Color Worksheet Maker | LCS',
-    metaDescription: 'Make draw and color worksheets free online with watermark — no signup. Grid drawing activities, themed images, 300 DPI export. Upgrade for commercial license.',
+    metaDescription: 'Make draw and color worksheets free online with watermark — no signup. Grid drawing activities, themed images, 300 DPI export. Upgrade to sell.',
   },
 
   hero: {

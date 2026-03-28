@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to create subtraction worksheets to sell',
+    primaryKeyword: 'create subtraction worksheets to sell',
     secondaryKeywords: [
+      'how to create subtraction worksheets to sell',
       'create subtraction worksheets for Etsy',
       'make subtraction printables for KDP',
       'subtraction worksheet creation guide',

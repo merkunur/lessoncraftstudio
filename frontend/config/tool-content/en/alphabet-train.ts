@@ -155,7 +155,7 @@ const content: ToolContent = {  seo: {
   faq: [
     {
       question: 'Is there a free trial?',
-      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
+      answer: 'Yes. The Alphabet Train Generator offers a complete free trial with every feature unlocked — both creation modes, all five font styles, the full image library with 104 themed collections, and all export formats. No signup, no credit card, no time limit. Create, preview, and download as many alphabet worksheets as you want to evaluate quality and explore configurations. Free trial downloads include a small watermark to identify them as evaluation copies. When you are ready to sell your worksheets commercially on Etsy, Amazon KDP, Gumroad, or any other marketplace, purchase a commercial license to remove the watermark and gain full selling rights with no per-sale royalties or attribution requirements.',
     },
     {
       question: 'How does the alphabet train format work?',
@@ -195,7 +195,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
+    {
+      question: 'What can I create with the free version?',
+      answer:
+        'The free version gives you complete access to every feature — both creation modes (Theme and Custom Text), all five font styles, the full image library with 104 themed collections, answer key generation, all page sizes, and all export formats. There are no locked features, no registration walls, and no usage limits. The only difference between the free version and the commercial license is a small watermark on downloaded files. This means you can fully evaluate every aspect of the tool, test different alphabet configurations, preview print quality, and compare output across multiple themes before deciding whether to purchase a commercial license for selling your worksheets on Etsy, Amazon KDP, or any other marketplace.',
     },
   ],
 

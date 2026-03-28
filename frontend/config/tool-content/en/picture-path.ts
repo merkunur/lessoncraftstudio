@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy maze tools',
     ],
     titleTag: 'Free Picture Path Worksheet Maker | LCS',
-    metaDescription: 'Make picture path worksheets free online with watermark — no signup. Themed image destinations, auto answer keys, 104 themes. Upgrade for commercial license.',
+    metaDescription: 'Make picture path worksheets free online with watermark — no signup. Themed image destinations, auto answer keys, 104 themes. Upgrade to sell.',
   },
 
   hero: {

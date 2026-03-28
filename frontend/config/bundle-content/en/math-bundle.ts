@@ -2,8 +2,9 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'math worksheet generators bundle for Etsy sellers',
+    primaryKeyword: 'math worksheet bundle for Etsy sellers',
     secondaryKeywords: [
+      'math worksheet generators bundle for Etsy sellers',
       'math printable bundle for Etsy business',
       'math worksheet generator pack commercial use',
       'all math generators in one bundle',

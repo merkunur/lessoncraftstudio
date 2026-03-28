@@ -266,6 +266,8 @@ function validateFile(filePath) {
 
   // 10. Banned phrases
   for (const phrase of BANNED_PHRASES) {
+    // Allow "passive income" in the guide whose topic IS passive income
+    if (phrase === 'passive income' && filePath.includes('passive-income')) continue;
     if (content.toLowerCase().includes(phrase)) {
       errors.push(`Banned phrase found: "${phrase}"`);
     }

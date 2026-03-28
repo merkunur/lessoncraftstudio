@@ -4,8 +4,9 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Parents Day Printables to Sell | LCS',
     metaDescription: 'Parents Day printable ideas for Etsy & KDP. Product concepts for Mother\'s Day, Father\'s Day, and family-themed printable sellers.',
-    primaryKeyword: 'Parents Day printable ideas to sell',
+    primaryKeyword: 'Parents Day printables to sell',
     secondaryKeywords: [
+      'Parents Day printable ideas to sell',
       'Mother\'s Day Father\'s Day worksheets Etsy',
       'parents day activity printables for KDP',
       'sell parents day printables online',

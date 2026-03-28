@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy pattern tools',
     ],
     titleTag: 'Free Pattern Worksheet Maker for Kids | LCS',
-    metaDescription: 'Make pattern worksheets free online with watermark — no signup. Train-car sequences, themed images, auto answer keys. Upgrade for commercial license to sell.',
+    metaDescription: 'Make pattern worksheets free online with watermark — no signup. Train-car sequences, themed images, auto answer keys. Upgrade to sell.',
   },
 
   hero: {

@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'First Grade Printables to Sell | LCS',
     metaDescription: 'First grade printable ideas for Etsy & KDP. Grade-specific product concepts and strategies for primary school printable sellers.',
 
-    primaryKeyword: 'first grade printables to sell on Etsy',
+    primaryKeyword: 'first grade printables to sell',
     secondaryKeywords: [
+      'first grade printables to sell on Etsy',
       'first grade worksheets for Etsy sellers',
       'grade 1 activity books for Amazon KDP',
       'sell first grade printables online',

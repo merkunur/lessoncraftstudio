@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy tracing tools',
     ],
     titleTag: 'Free Tracing Worksheet Maker Online | LCS',
-    metaDescription: 'Make tracing worksheets free online with watermark — no signup. 8 SVG line templates, themed image pairs, fine motor skills. Upgrade for commercial license.',
+    metaDescription: 'Make tracing worksheets free online with watermark — no signup. 8 SVG line templates, themed image pairs, fine motor skills. Upgrade to sell.',
   },
 
   hero: {

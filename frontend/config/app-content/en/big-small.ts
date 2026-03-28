@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'size comparison worksheet maker for Etsy printables',
+    primaryKeyword: 'size comparison worksheet maker for Etsy',
     secondaryKeywords: [
+      'size comparison worksheet maker for Etsy printables',
       'create big and small worksheets for Etsy shop',
       'size discrimination printables for Amazon KDP',
       'size comparison worksheets with commercial license',

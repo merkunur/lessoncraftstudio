@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Print on Demand Worksheet Business | LCS',
     metaDescription: 'Print on demand worksheet business ideas. POD models, platforms, and strategies for selling physical printed worksheet products.',
 
-    primaryKeyword: 'print on demand worksheet business ideas',
+    primaryKeyword: 'print on demand worksheet business',
     secondaryKeywords: [
+      'print on demand worksheet business ideas',
       'print on demand printable business',
       'POD worksheet products guide',
       'sell physical printed worksheets',

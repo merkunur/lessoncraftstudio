@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'try before you buy size tools',
     ],
     titleTag: 'Free Size Comparison Worksheet Maker | LCS',
-    metaDescription: 'Make size comparison worksheets free online with watermark — no signup. 5 question types, themed images, answer keys. Upgrade for commercial license to sell.',
+    metaDescription: 'Make size comparison worksheets free online with watermark — no signup. 5 question types, themed images, answer keys. Upgrade to sell.',
     },
 
   hero: {

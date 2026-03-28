@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to start an Etsy printable shop from scratch',
+    primaryKeyword: 'start an Etsy printable shop',
     secondaryKeywords: [
+      'how to start an Etsy printable shop from scratch',
       'start Etsy printable shop step by step',
       'open Etsy digital download shop guide',
       'Etsy printable business for beginners 2026',

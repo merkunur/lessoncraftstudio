@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'essential tools for printable business owners',
+    primaryKeyword: 'essential tools for printable business',
     secondaryKeywords: [
+      'essential tools for printable business owners',
       'best tools for printable sellers',
       'printable business tools guide',
       'software for printable product creators',

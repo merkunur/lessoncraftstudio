@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'counting chart worksheet maker for Etsy shop',
+    primaryKeyword: 'counting chart worksheets',
     secondaryKeywords: [
+      'counting chart worksheet maker for Etsy shop',
       'picture graph worksheets to sell online',
       'counting and graphing printables for KDP',
       'data graphing worksheets for printable business',

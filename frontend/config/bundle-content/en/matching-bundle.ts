@@ -2,8 +2,9 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matching sorting worksheet bundle for Etsy',
+    primaryKeyword: 'matching & sorting bundle for Etsy',
     secondaryKeywords: [
+      'matching sorting worksheet bundle for Etsy',
       'matching printable bundle for sellers',
       'sorting and matching generator pack commercial use',
       'all matching generators in one bundle',

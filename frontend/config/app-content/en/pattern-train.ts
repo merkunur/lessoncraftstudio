@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern activity generator for printable business',
+    primaryKeyword: 'pattern activity generator for sellers',
     secondaryKeywords: [
+      'pattern activity generator for printable business',
       'create pattern worksheets for Etsy shop',
       'sequence completion printables for Amazon KDP',
       'pattern train worksheets with commercial license',

@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printable business blueprint from idea to income',
+    primaryKeyword: 'printable business blueprint',
     secondaryKeywords: [
+      'printable business blueprint from idea to income',
       'printable business roadmap guide',
       'idea to income printable plan',
       'printable business step by step blueprint',

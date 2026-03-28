@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'create multilingual worksheets to sell on Etsy',
+    primaryKeyword: 'create multilingual worksheets to sell',
     secondaryKeywords: [
+      'create multilingual worksheets to sell on Etsy',
       'multilingual worksheet creation guide',
       'make worksheets in 11 languages',
       'sell multilingual printables online',

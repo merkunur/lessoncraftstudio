@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'commercial license for printable sellers explained',
+    primaryKeyword: 'commercial license for printable sellers',
     secondaryKeywords: [
+      'commercial license for printable sellers explained',
       'commercial use license printables guide',
       'what does commercial license mean for sellers',
       'printable commercial license explained',

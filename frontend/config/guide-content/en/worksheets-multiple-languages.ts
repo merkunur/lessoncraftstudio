@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create worksheets in multiple languages to sell',
+    primaryKeyword: 'create worksheets in multiple languages',
     secondaryKeywords: [
+      'create worksheets in multiple languages to sell',
       'multilingual worksheet creation guide',
       'make worksheets in different languages',
       'sell worksheets in multiple languages',

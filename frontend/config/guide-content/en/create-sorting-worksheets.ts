@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create sorting worksheets to sell',
+    primaryKeyword: 'category sorting worksheets to sell',
     secondaryKeywords: [
+      'create sorting worksheets to sell',
       'make category sorting worksheets for Etsy',
       'create sorting activity printables for KDP',
       'sorting worksheet creation guide',

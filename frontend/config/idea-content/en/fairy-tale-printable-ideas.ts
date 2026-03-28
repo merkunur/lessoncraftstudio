@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Fairy Tale Printables to Sell | LCS',
     metaDescription: 'Fairy tale printable business ideas for Etsy & KDP. Storybook themed product concepts and strategies for fairy tale printable sellers.',
 
-    primaryKeyword: 'fairy tale printables to sell on Etsy',
+    primaryKeyword: 'fairy tale printables to sell',
     secondaryKeywords: [
+      'fairy tale printables to sell on Etsy',
       'fairy tale worksheets for Etsy sellers',
       'storybook activity books for KDP',
       'sell fairy tale printables online',

@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Construction Printables to Sell | LCS',
     metaDescription: 'Construction themed printable business ideas. Building and vehicle product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'construction themed printables to sell',
+    primaryKeyword: 'construction printables to sell',
     secondaryKeywords: [
+      'construction themed printables to sell',
       'construction worksheets for Etsy sellers',
       'building activity books for Amazon KDP',
       'sell construction printables online',

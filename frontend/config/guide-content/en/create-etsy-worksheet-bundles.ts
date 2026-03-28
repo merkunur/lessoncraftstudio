@@ -15,7 +15,7 @@ const content: GuideContent = {
       'worksheet pack creation',
     ],
     titleTag: 'How to Create Worksheet Bundles for Etsy | LCS',
-    metaDescription: 'Guide to creating worksheet bundles that sell on Etsy. Theme selection, bundle sizing, pricing tiers, and listing optimization for printable bundle sellers.',
+    metaDescription: 'Guide to creating worksheet bundles that sell on Etsy. Theme selection, bundle sizing, pricing tiers, and listing optimization for printable bundle sellers',
   },
 
   hero: {

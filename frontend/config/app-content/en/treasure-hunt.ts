@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'treasure hunt printable generator for Etsy and KDP',
+    primaryKeyword: 'treasure hunt generator',
     secondaryKeywords: [
+      'treasure hunt printable generator for Etsy and KDP',
       'create treasure hunt worksheets for Etsy shop',
       'directional puzzle printables for Amazon KDP',
       'treasure hunt worksheets with commercial license',

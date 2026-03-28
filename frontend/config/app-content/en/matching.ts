@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matching worksheet maker for Etsy printable business',
+    primaryKeyword: 'matching worksheet maker for Etsy sellers',
     secondaryKeywords: [
+      'matching worksheet maker for Etsy printable business',
       'create matching activities for Etsy shop',
       'preschool matching printables for Amazon KDP',
       'draw-a-line matching worksheets commercial license',

@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sell educational printables on Etsy beginner',
+    primaryKeyword: 'sell educational printables on Etsy',
     secondaryKeywords: [
+      'sell educational printables on Etsy beginner',
       'how to sell educational printables on Etsy',
       'Etsy educational printable shop setup',
       'beginner guide to selling worksheets on Etsy',
@@ -15,7 +16,7 @@ const content: GuideContent = {
       'worksheet business Etsy startup',
     ],
     titleTag: 'Sell Educational Printables on Etsy (Beginner) | LCS',
-    metaDescription: 'Beginner guide to selling educational printables on Etsy. Niche selection, product creation, listing optimization, and first-sale strategies for new sellers.',
+    metaDescription: 'Beginner guide to selling educational printables on Etsy. Niche selection, product creation, listing optimization, and first-sale strategies for new sel...',
   },
 
   hero: {

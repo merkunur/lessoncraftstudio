@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'shadow matching worksheet maker for Etsy printables',
+    primaryKeyword: 'shadow matching worksheet maker for Etsy',
     secondaryKeywords: [
+      'shadow matching worksheet maker for Etsy printables',
       'create shadow matching worksheets for Etsy shop',
       'silhouette matching printables for Amazon KDP',
       'shadow match worksheets with commercial license',

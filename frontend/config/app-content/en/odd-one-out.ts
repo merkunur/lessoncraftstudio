@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'odd one out puzzle maker for selling on Etsy and KDP',
+    primaryKeyword: 'odd one out puzzle maker',
     secondaryKeywords: [
+      'odd one out puzzle maker for selling on Etsy and KDP',
       'create odd one out worksheets for Etsy shop',
       'find the different puzzles for Amazon KDP books',
       'odd one out printables with commercial license',

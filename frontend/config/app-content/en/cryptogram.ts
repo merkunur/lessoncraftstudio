@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'cryptogram puzzle generator to sell on Etsy',
+    primaryKeyword: 'cryptogram puzzle generator',
     secondaryKeywords: [
+      'cryptogram puzzle generator to sell on Etsy',
       'create cipher puzzles for Etsy shop',
       'cryptogram puzzle books for Amazon KDP',
       'picture cipher worksheets with commercial license',
@@ -15,7 +16,7 @@ const content: AppContent = {
       'sell decoder worksheets online',
     ],
     titleTag: 'Cryptogram Puzzle Generator — Sell on Etsy | LCS',
-    metaDescription: 'Generate picture cryptogram puzzles to sell on Etsy & KDP. Cipher encoding, adjustable difficulty, 11 languages, commercial license. Try free with watermark.',
+    metaDescription: 'Generate picture cryptogram puzzles to sell on Etsy & KDP. Cipher encoding, adjustable difficulty, 11 languages, license. Try free.',
   },
 
   hero: {
@@ -197,7 +198,11 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test Auto-Assign, Manual Assignment, Letters to Reveal, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test Auto-Assign, Manual Assignment, Letters to Reveal, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },
+    {
+      question: 'Do I need design skills to use this tool?',
+      answer:
+        'No design skills are required. The generator handles all puzzle construction, letter substitution, layout, and visual formatting automatically. You type or select a phrase, choose a theme, and the generator produces a complete cryptogram with hint letters, numbered blanks, and a cipher key. The built-in canvas editor lets you customize colors, fonts, and positioning, but the default layout is already professional and print-ready. Sellers without any graphic design experience can produce puzzles that look just as polished as those made by professional designers, because the generator enforces consistent formatting and visual hierarchy throughout every puzzle it creates.',
     },
   ],
 

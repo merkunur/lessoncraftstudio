@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Food Themed Printables to Sell | LCS',
     metaDescription: 'Food themed printable business ideas for Etsy & KDP. Kitchen and cooking product concepts and strategies for food-themed printable sellers.',
 
-    primaryKeyword: 'food themed printables to sell on Etsy',
+    primaryKeyword: 'food themed printables to sell',
     secondaryKeywords: [
+      'food themed printables to sell on Etsy',
       'food worksheets for Etsy sellers',
       'cooking activity books for Amazon KDP',
       'sell food printables online',

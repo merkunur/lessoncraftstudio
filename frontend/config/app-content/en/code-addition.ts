@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'secret code math puzzle generator for Etsy',
+    primaryKeyword: 'secret code math puzzles',
     secondaryKeywords: [
+      'secret code math puzzle generator for Etsy',
       'code addition worksheets to sell online',
       'crack the code math printables for KDP',
       'math puzzle with secret message commercial license',

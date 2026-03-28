@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO for printable worksheets 2026',
+    primaryKeyword: 'Etsy SEO for printable worksheets',
     secondaryKeywords: [
+      'Etsy SEO for printable worksheets 2026',
       'Etsy SEO tips for educational printables',
       'optimize Etsy listings for worksheet sales',
       'Etsy search ranking for printable sellers',

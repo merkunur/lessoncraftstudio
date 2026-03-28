@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet worksheet generator for Etsy KDP sellers',
+    primaryKeyword: 'alphabet worksheet generator for Etsy',
     secondaryKeywords: [
+      'alphabet worksheet generator for Etsy KDP sellers',
       'create alphabet train worksheets for Etsy shop',
       'letter learning printables for Amazon KDP',
       'alphabet worksheets with commercial license',
@@ -192,12 +193,16 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your alphabet train worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The unique train format and multilingual capability give you strong differentiation in crowded marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your alphabet train worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The unique train format and multilingual capability give you strong differentiation in crowded marketplace categories. Alphabet worksheets have strong year-round demand because they target foundational literacy skills that every learner needs. Sellers who combine uppercase and lowercase sets with themed imagery report strong seasonal performance during back-to-school periods and holiday gift-giving seasons. Building a catalog of 10-20 themed alphabet sets gives you consistent passive revenue from a single product category.',
     },
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both creation modes, every clue setting, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both creation modes, every clue setting, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
+    {
+      question: 'Do I need design skills to use this tool?',
+      answer:
+        'No design skills are needed. The generator handles all layout, spacing, and visual composition automatically. You choose a creation mode (Theme or Custom Text), select images or type your content, pick a theme and font style, and the generator produces a professional worksheet. The built-in canvas editor lets you drag, resize, and reposition elements if you want to customize further, but the default output is already print-ready. Sellers who have never used design software can produce polished alphabet worksheets that compete with products made by professional graphic designers, because the generator enforces consistent spacing, alignment, and visual hierarchy throughout every worksheet it creates.',
     },
   ],
 

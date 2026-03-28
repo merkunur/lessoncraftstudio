@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'handwriting worksheet generator for Etsy sellers',
+    primaryKeyword: 'handwriting worksheet generator for Etsy',
     secondaryKeywords: [
+      'handwriting worksheet generator for Etsy sellers',
       'create handwriting practice sheets for Etsy',
       'tracing worksheets for Amazon KDP books',
       'handwriting printables with commercial license',

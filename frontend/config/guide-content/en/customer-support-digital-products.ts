@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'customer support for digital product businesses',
+    primaryKeyword: 'customer support for digital products',
     secondaryKeywords: [
+      'customer support for digital product businesses',
       'customer support for printable sellers',
       'handle digital product customer issues',
       'Etsy customer service for printable shops',

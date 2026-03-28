@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet generator for selling printables',
+    primaryKeyword: 'subtraction worksheet generator',
     secondaryKeywords: [
+      'subtraction worksheet generator for selling printables',
       'create subtraction worksheets for Etsy shop',
       'subtraction printables for Amazon KDP books',
       'visual subtraction worksheets with commercial license',
@@ -188,7 +189,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your subtraction worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue.',
+        'Yes. With a commercial license, you have full rights to sell your subtraction worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue. Subtraction worksheets pair naturally with addition products, and sellers who offer both as a combined bundle consistently achieve higher average order values. Building themed bundles across multiple difficulty levels creates a product catalog with strong internal cross-selling potential. The visual format with themed images appeals to both parents buying for home practice and tutoring professionals seeking engaging materials for their sessions.',
     },
     {
       question: 'What is the refund policy?',
@@ -198,7 +199,7 @@ const content: AppContent = {
     {
       question: 'Do I need to install any software?',
       answer:
-        'No. The Subtraction Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating.',
+        'No. The Subtraction Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating. Because everything runs client-side, your worksheet designs stay private on your own device and are never uploaded to external servers, which gives sellers full confidence that their product layouts and creative choices remain protected. The browser-based architecture means you can create worksheets from any computer with internet access, and session data persists in your browser tab so you can experiment with different exercise modes, preview results, and refine your designs without losing progress between iterations.',
     },
   ],
 

@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seasonal marketing calendar for printable sellers',
+    primaryKeyword: 'seasonal marketing for printable sellers',
     secondaryKeywords: [
+      'seasonal marketing calendar for printable sellers',
       'seasonal printable marketing strategy',
       'holiday marketing for Etsy printable sellers',
       'printable release calendar by season',

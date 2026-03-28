@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create alphabet worksheets to sell on Etsy',
+    primaryKeyword: 'create alphabet worksheets to sell',
     secondaryKeywords: [
+      'create alphabet worksheets to sell on Etsy',
       'make alphabet worksheets for Etsy shop',
       'create letter learning printables for KDP',
       'alphabet worksheet creation guide',

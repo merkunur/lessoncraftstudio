@@ -203,7 +203,7 @@ const content: StartContent = {
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete guide to starting a printable business' },
     { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing strategies for printables' },
     { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Scale to full-time printable business' },
-    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Passive income with worksheets' },
+    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Recurring revenue with worksheets' },
   ],
 
   visuals: {

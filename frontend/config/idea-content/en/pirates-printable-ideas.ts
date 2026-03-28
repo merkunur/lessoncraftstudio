@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Pirate Printable Business Ideas | LCS',
     metaDescription: 'Pirate themed printable business ideas. Adventure and treasure product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'pirate themed printable business ideas',
+    primaryKeyword: 'pirate printable business ideas',
     secondaryKeywords: [
+      'pirate themed printable business ideas',
       'pirate worksheets for Etsy sellers',
       'pirate activity books for Amazon KDP',
       'sell pirate printables online',

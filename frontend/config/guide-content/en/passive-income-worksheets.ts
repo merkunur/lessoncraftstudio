@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'passive income with worksheets 2026',
+    primaryKeyword: 'passive income with worksheets',
     secondaryKeywords: [
+      'passive income with worksheets 2026',
       'earn passive income selling worksheets',
       'worksheet passive income guide 2026',
       'make money selling worksheets online',

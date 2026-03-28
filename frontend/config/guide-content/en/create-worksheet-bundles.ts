@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to create worksheet bundles that sell',
+    primaryKeyword: 'create worksheet bundles that sell',
     secondaryKeywords: [
+      'how to create worksheet bundles that sell',
       'create printable worksheet bundles guide',
       'bundle strategy for Etsy worksheet sellers',
       'worksheet bundle pricing and packaging',

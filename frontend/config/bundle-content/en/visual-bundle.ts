@@ -2,8 +2,9 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visual worksheet generators for printable business',
+    primaryKeyword: 'visual worksheet bundle for sellers',
     secondaryKeywords: [
+      'visual worksheet generators for printable business',
       'visual learning bundle for Etsy sellers',
       'art and visual generator pack commercial use',
       'all visual generators in one bundle',

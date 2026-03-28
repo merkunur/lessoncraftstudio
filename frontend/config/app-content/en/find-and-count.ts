@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'search and count worksheet creator for Etsy shop',
+    primaryKeyword: 'find and count worksheet creator for Etsy',
     secondaryKeywords: [
+      'search and count worksheet creator for Etsy shop',
       'create find and count worksheets for Etsy',
       'I Spy counting books for Amazon KDP',
       'find and count printables with commercial license',

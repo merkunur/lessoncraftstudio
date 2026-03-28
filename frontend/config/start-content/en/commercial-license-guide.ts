@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'commercial license guide for printable business',
+    primaryKeyword: 'commercial license guide for sellers',
     secondaryKeywords: [
+      'commercial license guide for printable business',
       'commercial license printable business guide',
       'what does commercial license cover for sellers',
       'printable selling rights explained',

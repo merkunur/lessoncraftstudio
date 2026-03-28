@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math puzzle printable generator for Etsy sellers',
+    primaryKeyword: 'math puzzle generator',
     secondaryKeywords: [
+      'math puzzle printable generator for Etsy sellers',
       'create math puzzles to sell on Amazon KDP',
       'picture math puzzle worksheets commercial license',
       'grid-based math challenge generator for selling',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every operation, every grid size, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
+    },
+    {
+      question: 'Can I use my own images instead of the built-in library?',
+      answer:
+        'Yes. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images appear alongside library selections and work with all three operation modes. This capability is especially valuable for sellers who purchase commercial clipart sets or create their own illustrations and want to build a distinctive brand identity across multiple products. Custom images integrate seamlessly with the grid layout and answer key generation, so your personalized puzzles export with the same professional quality as those using the built-in library.',
     },
   ],
 

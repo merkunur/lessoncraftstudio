@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'ESL Printable Business Ideas for Etsy | LCS',
     metaDescription: 'ESL printable business ideas for Etsy & KDP. Language learning product concepts and strategies for ESL and ELL printable sellers.',
 
-    primaryKeyword: 'ESL printable business ideas Etsy',
+    primaryKeyword: 'ESL printable business ideas',
     secondaryKeywords: [
+      'ESL printable business ideas Etsy',
       'ESL worksheets for Etsy sellers',
       'ESL activity books for Amazon KDP',
       'sell ESL printables online',

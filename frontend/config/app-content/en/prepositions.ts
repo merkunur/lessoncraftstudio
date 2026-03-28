@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'preposition worksheet generator for ESL Etsy sellers',
+    primaryKeyword: 'preposition worksheet generator for ESL sellers',
     secondaryKeywords: [
+      'preposition worksheet generator for ESL Etsy sellers',
       'create preposition worksheets for ESL Etsy shop',
       'ESL grammar printables for Amazon KDP',
       'preposition worksheets with commercial license',
@@ -192,12 +193,16 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your preposition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The image-and-shape format and multilingual capability give you strong differentiation in crowded marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your preposition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The image-and-shape format and multilingual capability give you strong differentiation in crowded marketplace categories. Preposition worksheets serve a specialized ESL and early literacy market with less competition than general math or reading categories. Sellers who create themed bundles organized by preposition groups — spatial prepositions, temporal prepositions, directional prepositions — build comprehensive product lines that attract both individual buyers and institutional purchasers looking for complete curriculum-aligned resources.',
     },
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both exercise modes, every preposition, every theme, every shape, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both exercise modes, every preposition, every theme, every shape, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
+    {
+      question: 'Do I need design skills to use this tool?',
+      answer:
+        'No design skills are required. The generator handles all scene composition, preposition labeling, image placement, and visual formatting automatically. You select a theme, choose which prepositions to practice, and the generator produces a complete worksheet with scenes illustrating spatial relationships. The built-in canvas editor lets you customize fonts, colors, and element positioning, but the default layout is already professional and print-ready. ESL content creators without graphic design experience can produce worksheets that look just as polished as those from professional educational publishers, because the generator enforces consistent formatting and visual hierarchy throughout every page it creates.',
     },
   ],
 

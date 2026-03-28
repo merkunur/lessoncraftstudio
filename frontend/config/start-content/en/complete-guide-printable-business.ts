@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to start a printable business 2026',
+    primaryKeyword: 'start a printable business',
     secondaryKeywords: [
+      'how to start a printable business 2026',
       'start printable business from scratch guide',
       'printable business for beginners 2026',
       'how to sell printables online step by step',

@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Insect Printable Business Ideas | LCS',
     metaDescription: 'Insect themed printable business ideas. Product concepts and strategies for bug and insect-themed educational printables on Etsy & KDP.',
 
-    primaryKeyword: 'insect themed printable business ideas',
+    primaryKeyword: 'insect printable business ideas',
     secondaryKeywords: [
+      'insect themed printable business ideas',
       'insect worksheets for Etsy sellers',
       'bug activity books for Amazon KDP',
       'sell insect printables online',

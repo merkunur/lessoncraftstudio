@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest marketing for worksheet businesses',
+    primaryKeyword: 'Pinterest marketing for worksheet business',
     secondaryKeywords: [
+      'Pinterest marketing for worksheet businesses',
       'Pinterest strategy for printable sellers',
       'promote worksheets on Pinterest',
       'Pinterest SEO for printable products',

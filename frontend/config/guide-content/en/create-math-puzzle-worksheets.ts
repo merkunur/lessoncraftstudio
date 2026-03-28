@@ -2,8 +2,9 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create math puzzle worksheets to sell online',
+    primaryKeyword: 'create math puzzle worksheets to sell',
     secondaryKeywords: [
+      'create math puzzle worksheets to sell online',
       'make math puzzles for Etsy shop',
       'create grid math puzzles for KDP',
       'math puzzle creation guide for sellers',

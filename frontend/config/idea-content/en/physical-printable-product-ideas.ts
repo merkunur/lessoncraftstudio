@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Physical Printable Product Ideas | LCS',
     metaDescription: 'Physical printable product business ideas. Strategies for selling printed worksheets, activity books, and physical educational products.',
 
-    primaryKeyword: 'physical printable product business ideas',
+    primaryKeyword: 'physical printable product ideas',
     secondaryKeywords: [
+      'physical printable product business ideas',
       'sell physical printed worksheets',
       'printed activity book business ideas',
       'physical worksheet product business',

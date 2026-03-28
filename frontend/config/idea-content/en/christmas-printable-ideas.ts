@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Christmas Printables to Sell on Etsy | LCS',
     metaDescription: 'Christmas printable business ideas for Etsy & KDP. Product concepts, release timing, and strategies for the biggest selling season of the year.',
 
-    primaryKeyword: 'Christmas printables to sell on Etsy 2026',
+    primaryKeyword: 'Christmas printables to sell on Etsy',
     secondaryKeywords: [
+      'Christmas printables to sell on Etsy 2026',
       'Christmas worksheet ideas for Etsy sellers',
       'holiday printable business Christmas',
       'sell Christmas printables on Etsy',

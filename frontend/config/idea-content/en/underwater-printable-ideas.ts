@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Underwater Printables to Sell | LCS',
     metaDescription: 'Underwater themed printable business ideas. Deep sea and marine product concepts and strategies for Etsy & KDP printable sellers.',
 
-    primaryKeyword: 'underwater themed printables to sell',
+    primaryKeyword: 'underwater printables to sell',
     secondaryKeywords: [
+      'underwater themed printables to sell',
       'underwater worksheets for Etsy sellers',
       'sea life activity books for Amazon KDP',
       'sell underwater printables online',

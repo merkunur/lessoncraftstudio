@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Thanksgiving Printables to Sell | LCS',
     metaDescription: 'Thanksgiving printable business ideas for Etsy & KDP. Product concepts, November timing, and strategies for fall holiday printable sellers.',
 
-    primaryKeyword: 'Thanksgiving printables to sell on Etsy',
+    primaryKeyword: 'Thanksgiving printables to sell',
     secondaryKeywords: [
+      'Thanksgiving printables to sell on Etsy',
       'Thanksgiving worksheets for Etsy sellers',
       'Thanksgiving activity books for KDP',
       'sell Thanksgiving printables online',

@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'draw and color activity maker for Etsy printable shop',
+    primaryKeyword: 'draw and color activity maker for Etsy',
     secondaryKeywords: [
+      'draw and color activity maker for Etsy printable shop',
       'create draw and color worksheets for Etsy',
       'grid drawing printables for Amazon KDP',
       'draw and color worksheets with commercial license',
@@ -15,7 +16,7 @@ const content: AppContent = {
       'creative worksheet products Etsy',
     ],
     titleTag: 'Draw and Color Activity Maker for Etsy | LCS',
-    metaDescription: 'Create draw and color worksheets to sell on Etsy & KDP. Grid drawing activities, themed images, 104 collections, commercial license. Try free with watermark.',
+    metaDescription: 'Create draw and color worksheets to sell on Etsy & KDP. Grid drawing activities, themed images, 104 collections, license. Try free.',
   },
 
   hero: {

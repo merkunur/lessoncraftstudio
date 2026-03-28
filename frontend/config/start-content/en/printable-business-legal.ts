@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printable business taxes and legal basics',
+    primaryKeyword: 'printable business taxes',
     secondaryKeywords: [
+      'printable business taxes and legal basics',
       'printable business legal guide',
       'taxes for printable sellers',
       'legal requirements for selling printables',

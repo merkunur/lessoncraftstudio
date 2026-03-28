@@ -2,8 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture path maze generator for selling on Etsy',
+    primaryKeyword: 'picture path maze generator',
     secondaryKeywords: [
+      'picture path maze generator for selling on Etsy',
       'create picture path worksheets for Etsy shop',
       'maze activity printables for Amazon KDP books',
       'picture path puzzles with commercial license',

@@ -5,8 +5,9 @@ const content: IdeaContent = {
     titleTag: 'Dinosaur Printable Business Ideas | LCS',
     metaDescription: 'Dinosaur printable business ideas for Etsy & KDP. Product concepts, bundle strategies, and market analysis for dino-themed printable sellers.',
 
-    primaryKeyword: 'dinosaur printable business ideas for Etsy',
+    primaryKeyword: 'dinosaur printable business ideas',
     secondaryKeywords: [
+      'dinosaur printable business ideas for Etsy',
       'dinosaur worksheets for Etsy sellers',
       'dinosaur activity books for Amazon KDP',
       'sell dinosaur printables online',

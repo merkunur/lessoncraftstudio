@@ -2,8 +2,9 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'scale from side hustle to full-time printables',
+    primaryKeyword: 'scale to full-time printable business',
     secondaryKeywords: [
+      'scale from side hustle to full-time printables',
       'scale printable business guide',
       'grow worksheet business full-time',
       'printable business scaling roadmap',

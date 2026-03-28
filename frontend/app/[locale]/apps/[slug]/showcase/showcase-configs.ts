@@ -3721,6 +3721,42 @@ const nlAppText: Record<string, DeTextTuple> = {
 // Format: [heroH, heroSub, tieredH, tieredSub, t1, t2, t3, trophy, spotH, spotTag, galH, galSub]
 // ═══════════════════════════════════════════════════════════════════
 
+const daAppText: Record<string, DeTextTuple> = {
+  addition: ['Regn med billeder!', 'Professionelle additionsopgaver som dine elever vil elske', 'Differentieret læring for hvert barn', 'Tre sværhedsgrader der vokser med dine elever', 'Simpel billedtælling (1-5)', 'Blandede billeder med summer til 10', 'Avancerede opgaver til 20', 'Hvert barn kan lykkes i sit eget tempo', 'Additionssjov!', 'Matematik med glæde!', 'Professionelle opgaveark', 'Opgaveark skabt med omhu og præcision'],
+  subtraction: ['Subtraktion med billeder!', 'Professionelle subtraktionsopgaver der gør matematik sjovt', 'Differentieret læring for hvert barn', 'Tre sværhedsgrader der vokser med dine elever', 'Simpel billedsubtraktion (1-5)', 'Blandede billeder med tal til 10', 'Avancerede opgaver til 20', 'Hvert barn kan lykkes i sit eget tempo', 'Subtraktionssjov!', 'Matematik med glæde!', 'Professionelle opgaveark', 'Opgaveark skabt med omhu og præcision'],
+  'code-addition': ['Knæk koden med addition!', 'Spændende kodeadditionsopgaver der kombinerer matematik og sjov', 'Tre spændende niveauer', 'Fra begynder til udfordring — altid sjovt', 'Enkle koder med tal til 5', 'Mellemsvære koder med tal til 10', 'Avancerede koder med tal til 20', 'Børn elsker at knække hemmelige koder', 'Hemmelig kode!', 'Matematik bliver et eventyr!', 'Kreative opgaveark', 'Når matematik møder mysterier'],
+  'more-less': ['Mere eller mindre?', 'Professionelle sammenligningsopgaver der styrker talforståelsen', 'Tre niveauer af sammenligning', 'Fra enkle til avancerede sammenligninger', 'Sammenlign mængder til 5', 'Sammenlign tal og mængder til 10', 'Avancerede sammenligninger til 20', 'At forstå mængder er grundlaget for matematik', 'Sammenlign og lær!', 'Tal bliver sjove!', 'Professionelle opgaveark', 'Opgaveark der styrker talforståelsen'],
+  'math-puzzle': ['Matematikpuslespil!', 'Professionelle mattepuslespil der gør læring til en leg', 'Tre sjove niveauer', 'Puslespil der udfordrer og motiverer', 'Enkle puslespil med tal til 5', 'Mellemsvære puslespil med tal til 10', 'Avancerede puslespil med tal til 20', 'Problemløsning er en superkraft', 'Puslespilstid!', 'Tænk, løs, smil!', 'Kreative puslespil', 'Matematik der føles som en leg'],
+  'math-worksheet': ['Matematikopgaver med billeder!', 'Professionelle matematikopgaver der dækker alle grundlæggende færdigheder', 'Tre sværhedsgrader', 'Fra grundlæggende til avanceret matematik', 'Grundlæggende regning (1-5)', 'Blandet regning med tal til 10', 'Avanceret regning med tal til 20', 'Stærke regnefærdigheder bygges skridt for skridt', 'Matematiksjov!', 'Tal og opgaver!', 'Professionelle opgaveark', 'Omhyggeligt designede matematikopgaver'],
+  'alphabet-train': ['Alle ombord på alfabettoget!', 'Professionelle bogstavopgaver der gør læsning sjov', 'Tre spor til læring', 'Fra genkendelse til mestring', 'Genkend og farvelæg bogstaver', 'Skriv store og små bogstaver', 'Bogstavrækkefølge og ordstart', 'Bogstaver er nøglen til hele verden', 'Bogstavsjov!', 'Alfabetet kalder!', 'Professionelle opgaveark', 'Opgaveark der gør bogstaver levende'],
+  prepositions: ['Lær præpositioner med billeder!', 'Professionelle opgaver der styrker sprogforståelsen', 'Tre niveauer af sprogøvelser', 'Fra enkle til avancerede præpositioner', 'Grundlæggende præpositioner (på, i, under)', 'Flere præpositioner med billedstøtte', 'Avancerede sætninger med præpositioner', 'Sprog åbner døre til forståelse', 'Sproglig sjov!', 'Ord og billeder!', 'Professionelle opgaveark', 'Opgaveark der styrker sproget'],
+  'word-guess': ['Gæt ordet!', 'Spændende ordgætningsopgaver der styrker ordforrådet', 'Tre niveauer af ordsjov', 'Fra enkle til udfordrende ord', 'Korte ord med billedhjælp', 'Mellemlange ord med færre hints', 'Lange ord med minimal hjælp', 'Hvert nyt ord er en lille sejr', 'Gæt og lær!', 'Ord er magi!', 'Kreative opgaveark', 'Opgaveark der gør ord til et eventyr'],
+  'word-scramble': ['Bland bogstaverne!', 'Sjove bogstavrodsopgaver der udfordrer og lærer', 'Tre niveauer af udfordring', 'Fra enkle til avancerede ord', 'Korte ord med 3-4 bogstaver', 'Mellemlange ord med 5-6 bogstaver', 'Lange ord med 7+ bogstaver', 'At rode med bogstaver er læring i forklædning', 'Bogstavrod!', 'Ord i uorden!', 'Kreative opgaveark', 'Opgaveark der sætter hjernen i gang'],
+  wordsearch: ['Find ordene!', 'Professionelle ordsøgningsopgaver der styrker læsefærdigheder', 'Tre søgeniveauer', 'Fra enkle til udfordrende ordgitter', 'Enkle gitter med korte ord', 'Mellemstore gitter med flere ord', 'Store gitter med skjulte ord', 'Ordsøgning skærper koncentrationen', 'Ordsøgning!', 'Find dem alle!', 'Professionelle opgaveark', 'Opgaveark der træner øje og hjerne'],
+  cryptogram: ['Knæk billedkoden!', 'Spændende kryptogrammer der kombinerer billeder og bogstaver', 'Tre kodeniveauer', 'Fra enkle til avancerede kryptogrammer', 'Enkle koder med få symboler', 'Mellemsvære koder med flere symboler', 'Avancerede koder med fuldt alfabet', 'At knække koder er ægte detektivarbejde', 'Kryptogramsjov!', 'Billeder bliver til ord!', 'Kreative opgaveark', 'Opgaveark der udfordrer og begejstrer'],
+  writing: ['Skriv og lær!', 'Professionelle skriveøvelser der styrker finmotorikken', 'Tre skriveniveauer', 'Fra streger til flydende skrift', 'Følg stregerne og formerne', 'Skriv bogstaver og tal', 'Skriv ord og sætninger', 'God håndskrift starter med øvelse', 'Skriveøvelser!', 'Pen og papir!', 'Professionelle opgaveark', 'Opgaveark der gør skrivning til en glæde'],
+  'big-small': ['Stort eller lille?', 'Professionelle størrelsesopgaver der træner visuel forståelse', 'Tre niveauer af sammenligning', 'Fra tydelige til subtile forskelle', 'Store forskelle — let at se', 'Mellemstore forskelle', 'Små forskelle — kig godt efter', 'At sammenligne størrelser styrker logisk tænkning', 'Størrelsessjov!', 'Stort og småt!', 'Professionelle opgaveark', 'Opgaveark der skærper blikket'],
+  'pattern-train': ['Mønstertoget kører!', 'Professionelle mønsteropgaver der styrker logisk tænkning', 'Tre mønsterniveauer', 'Fra enkle til komplekse mønstre', 'Enkle gentagelsesmønstre', 'Mønstre med tre elementer', 'Komplekse mønstre med variation', 'At genkende mønstre er grundlag for matematik', 'Mønstersjov!', 'Find mønsteret!', 'Professionelle opgaveark', 'Opgaveark der træner den logiske hjerne'],
+  'pattern-worksheet': ['Find mønsteret!', 'Professionelle mønstergåder der udfordrer og lærer', 'Tre sværhedsgrader', 'Fra enkle til avancerede mønstergåder', 'Enkle farvemønstre', 'Form- og farvemønstre', 'Komplekse mønstersekvenser', 'Mønstergenkendelse er en superkraft', 'Mønstergåder!', 'Tænk og find!', 'Kreative opgaveark', 'Opgaveark der styrker analytisk tænkning'],
+  'draw-and-color': ['Tegn og farvelæg!', 'Kreative tegne- og farvelægningsopgaver der inspirerer', 'Tre kreative niveauer', 'Fra guidet tegning til fri kreativitet', 'Følg stregerne og farvelæg', 'Tegn med guide og tilføj farver', 'Fri tegning med kreative opgaver', 'Kreativitet blomstrer med øvelse', 'Tegnesjov!', 'Farver og fantasi!', 'Kreative opgaveark', 'Opgaveark der frigør kreativiteten'],
+  'drawing-lines': ['Tegn linjer og former!', 'Professionelle linjetegningsøvelser der styrker finmotorikken', 'Tre niveauer af linjetegning', 'Fra rette linjer til komplekse former', 'Rette og buede linjer', 'Zigzag og bølgelinjer', 'Komplekse former og mønstre', 'Stærk finmotorik starter med linjer', 'Linjesjov!', 'Streg for streg!', 'Professionelle opgaveark', 'Opgaveark der styrker håndens kontrol'],
+  coloring: ['Farvelæg med glæde!', 'Professionelle farvelægningsopgaver med tematiske billeder', 'Tre farvelægningsniveauer', 'Fra enkle til detaljerede billeder', 'Store former — let at farvelægge', 'Mellemdetaljerede billeder', 'Detaljerede billeder med mange elementer', 'Farvelægning udvikler koncentration og kreativitet', 'Farvelægning!', 'En verden af farver!', 'Professionelle opgaveark', 'Smukke opgaveark til kreative sjæle'],
+  'chart-count': ['Tæl og diagram!', 'Professionelle billeddiagramopgaver der styrker dataforståelse', 'Tre niveauer af diagrammer', 'Fra enkle til avancerede billeddiagrammer', 'Enkle diagrammer med få kategorier', 'Diagrammer med flere kategorier', 'Avancerede diagrammer med spørgsmål', 'At læse diagrammer er en vigtig livsfærdighed', 'Diagramsjov!', 'Tal og billeder!', 'Professionelle opgaveark', 'Opgaveark der gør data forståeligt'],
+  matching: ['Find parrene!', 'Professionelle parringsopgaver der træner hukommelsen', 'Tre parringsniveauer', 'Fra enkle til udfordrende parringer', 'Match identiske billeder', 'Match billeder med ord', 'Match relaterede koncepter', 'At finde par skærper opmærksomheden', 'Parringssjov!', 'Find din makker!', 'Professionelle opgaveark', 'Opgaveark der træner øje og hukommelse'],
+  'grid-match': ['Gitterpuslespil!', 'Professionelle gitterpuslespil der styrker rumlig forståelse', 'Tre gitterniveauer', 'Fra enkle til komplekse gittere', 'Små gittere med få elementer', 'Mellemstore gittere', 'Store gittere med mange elementer', 'Gitterpuslespil styrker logisk tænkning', 'Gittersjov!', 'Find pladserne!', 'Professionelle opgaveark', 'Opgaveark der udfordrer hjernen'],
+  'shadow-match': ['Match skyggerne!', 'Professionelle skyggematchingsopgaver der træner visuel genkendelse', 'Tre niveauer af skyggematching', 'Fra tydelige til subtile skygger', 'Enkle skygger med tydelige former', 'Mellemsvære skygger', 'Detaljerede skygger med fine forskelle', 'Skyggematching styrker visuel perception', 'Skyggesjov!', 'Find skyggen!', 'Professionelle opgaveark', 'Opgaveark der skærper det visuelle blik'],
+  bingo: ['Billedbingo!', 'Professionelle bingoplader der gør læring til en fest', 'Tre bingovarianter', 'Fra enkle til avancerede bingoplader', 'Enkle plader med få felter', 'Mellemstore plader med tematiske billeder', 'Store plader med mange variationer', 'Bingo gør læring til en social oplevelse', 'Bingosjov!', 'Bingo, bingo!', 'Professionelle bingoplader', 'Bingoplader der gør enhver time sjov'],
+  'picture-sort': ['Sorter billederne!', 'Professionelle sorteringsopgaver der styrker kategorisering', 'Tre sorteringsniveauer', 'Fra enkle til avancerede kategorier', 'Sorter efter farve eller form', 'Sorter efter kategori', 'Avanceret sortering med flere kriterier', 'At sortere er grundlaget for logisk tænkning', 'Sorteringssjov!', 'Hvor hører det til?', 'Professionelle opgaveark', 'Opgaveark der organiserer tankerne'],
+  'missing-pieces': ['Find de manglende dele!', 'Professionelle puslespilsopgaver der styrker opmærksomheden', 'Tre niveauer af puslespil', 'Fra enkle til udfordrende opgaver', 'Enkle billeder med en manglende del', 'Billeder med flere manglende dele', 'Komplekse billeder med subtile detaljer', 'At finde manglende dele skærper blikket', 'Puslespilstid!', 'Hvad mangler?', 'Professionelle opgaveark', 'Opgaveark der træner detaljeøjet'],
+  'odd-one-out': ['Find den ulige!', 'Professionelle opgaver der styrker analytisk tænkning', 'Tre niveauer af udfordring', 'Fra tydelige til subtile forskelle', 'En skiller sig tydeligt ud', 'Mindre tydelige forskelle', 'Subtile forskelle — tænk godt efter', 'At finde forskelle styrker kritisk tænkning', 'Hvem skiller sig ud?', 'Find den anderledes!', 'Professionelle opgaveark', 'Opgaveark der skærper den analytiske sans'],
+  sudoku: ['Billede-Sudoku!', 'Professionelle sudokuopgaver med billeder i stedet for tal', 'Tre sudokuniveauer', 'Fra begynder til udfordrer', 'Enkle 4x4 gittere', 'Mellemsvære 6x6 gittere', 'Avancerede 9x9 gittere', 'Sudoku træner logisk tænkning og tålmodighed', 'Sudokusjov!', 'Tænk og placer!', 'Professionelle opgaveark', 'Opgaveark der udfordrer den logiske hjerne'],
+  'picture-path': ['Følg billedstien!', 'Professionelle labyrintopgaver med billeder og temaer', 'Tre stiniveauer', 'Fra enkle til komplekse stier', 'Enkle stier med få sving', 'Mellemsvære stier med flere valg', 'Komplekse stier med blindgyder', 'At finde vej styrker problemløsning', 'Stisjov!', 'Find vejen!', 'Professionelle opgaveark', 'Opgaveark der guider vejen frem'],
+  'find-and-count': ['Find og tæl!', 'Professionelle tælle- og søgeopgaver der skærper opmærksomheden', 'Tre niveauer af søgning', 'Fra enkle til detaljerede billeder', 'Tæl synlige objekter', 'Find og tæl skjulte objekter', 'Detaljerede scener med mange elementer', 'At tælle og søge træner koncentrationen', 'Tællesjov!', 'Hvor mange kan du finde?', 'Professionelle opgaveark', 'Opgaveark der gør tælling til et eventyr'],
+  'find-objects': ['Find de skjulte objekter!', 'Spændende søgeopgaver der træner visuel scanning', 'Tre søgeniveauer', 'Fra enkle til udfordrende scener', 'Få skjulte objekter i enkle scener', 'Flere objekter i detaljerede scener', 'Mange objekter i komplekse scener', 'At finde skjulte ting er ægte detektivarbejde', 'Søgesjov!', 'Kan du finde dem alle?', 'Professionelle opgaveark', 'Opgaveark der gør dig til detektiv'],
+  crossword: ['Billedkrydsord!', 'Professionelle krydsord med billeder i stedet for spørgsmål', 'Tre krydsordsniveauer', 'Fra enkle til avancerede krydsord', 'Enkle krydsord med få ord', 'Mellemstore krydsord med tematiske ord', 'Store krydsord med mange ord', 'Krydsord styrker ordforråd og stavning', 'Krydsordsjov!', 'Ord og billeder!', 'Professionelle opgaveark', 'Opgaveark der gør ordlæring sjov'],
+  'treasure-hunt': ['Skattejagt!', 'Spændende skattejagtsopgaver der kombinerer læring og eventyr', 'Tre eventyrsniveauer', 'Fra enkle til episke skattejagter', 'Enkle jagter med få spor', 'Mellemsvære jagter med gåder', 'Avancerede jagter med mange udfordringer', 'Hver skattejagt er et læringseventyr', 'Skattejagtstid!', 'Find skatten!', 'Kreative opgaveark', 'Opgaveark der gør læring til et eventyr'],
+};
+
 const svAppText: Record<string, DeTextTuple> = {
   addition: ['Räkna med bilder!', 'Professionella additionsarbetsblad som dina elever kommer att älska', 'Differentierat lärande för varje barn', 'Tre svårighetsnivåer som växer med dina elever', 'Enkelt bildräknande (1-5)', 'Blandade bilder med summor till 10', 'Avancerade uppgifter till 20', 'Varje barn kan lyckas i sin egen takt', 'Additionskul!', 'Matte med glädje!', 'Professionella arbetsblad', 'Arbetsblad skapade med omsorg och precision'],
   subtraction: ['Visuell subtraktion på ett enkelt sätt!', 'Stryk över, jämför och lös med tematiska bilder', 'Steg för steg behärska subtraktion', 'Tre svårighetsnivåer från enkelt till utmanande', 'Stryk över bilder (1-5)', 'Bild-tal subtraktion till 10', 'Blandade lägen till 20', 'Med varje löst uppgift växer självförtroendet', 'Subtraktionskul!', 'Subtraktion blir roligt!', 'Professionella subtraktionsarbetsblad', 'Tydliga layouter för unga elever'],
@@ -3840,54 +3876,6 @@ export function getLocalizedShowcaseConfig(appId: string, locale: string): Showc
   if (locale === 'it') return localizeShowcase(enConfig, appId, italianImages, itAppText, 'it');
   if (locale === 'nl') return localizeShowcase(enConfig, appId, dutchImages, nlAppText, 'nl');
   if (locale === 'sv') return localizeShowcase(enConfig, appId, swedishImages, svAppText, 'sv') ?? enConfig;
-  if (locale === 'da') {
-    // Use Danish images with English text auto-translated via t(string, 'da')
-    // Badges, tier names, pill labels are translated via daStringTable
-    // App-specific headings/descriptions fall back to English until daAppText is created
-    const gi = danishImages[appId];
-    if (!gi || !gi.imgs.length) return enConfig;
-    const di = (filename: string) => imgUrl(gi.folder, filename, 'da');
-    return {
-      hero: {
-        ...enConfig.hero,
-        badge: t(enConfig.hero.badge, 'da'),
-        images: [
-          { src: di(gi.imgs[0]), alt: enConfig.hero.images[0]?.alt || '' },
-          { src: di(gi.imgs[1]), alt: enConfig.hero.images[1]?.alt || '' },
-          { src: di(gi.imgs[2]), alt: enConfig.hero.images[2]?.alt || '' },
-        ],
-        pills: tPills(enConfig.hero.pills, 'da'),
-      },
-      tiered: {
-        ...enConfig.tiered,
-        badge: t(enConfig.tiered.badge, 'da'),
-        heading: t(enConfig.tiered.heading, 'da'),
-        subheading: t(enConfig.tiered.subheading, 'da'),
-        tiers: enConfig.tiered.tiers.map((tier, i) => ({
-          ...tier,
-          name: t(tier.name, 'da'),
-          image: { src: di(gi.imgs[i]), alt: tier.image.alt },
-          desc: t(tier.desc, 'da'),
-        })) as [typeof enConfig.tiered.tiers[0], typeof enConfig.tiered.tiers[1], typeof enConfig.tiered.tiers[2]],
-        trophyText: t(enConfig.tiered.trophyText, 'da'),
-      },
-      spotlight: {
-        ...enConfig.spotlight,
-        image: { src: di(gi.imgs[3]), alt: enConfig.spotlight.image.alt },
-        pills: tStringPills(enConfig.spotlight.pills, 'da'),
-      },
-      gallery: {
-        ...enConfig.gallery,
-        heading: t(enConfig.gallery.heading, 'da'),
-        subheading: t(enConfig.gallery.subheading, 'da'),
-        items: [
-          { image: { src: di(gi.imgs[4]), alt: enConfig.gallery.items[0]?.image.alt || '' }, label: t(enConfig.gallery.items[0]?.label || '', 'da') },
-          { image: { src: di(gi.imgs[5] || gi.imgs[0]), alt: enConfig.gallery.items[1]?.image.alt || '' }, label: t(enConfig.gallery.items[1]?.label || '', 'da') },
-          { image: { src: di(gi.answerKey), alt: enConfig.gallery.items[2]?.image.alt || '' }, label: t('Answer Key', 'da') },
-        ],
-        pills: tStringPills(enConfig.gallery.pills, 'da'),
-      },
-    };
-  }
+  if (locale === 'da') return localizeShowcase(enConfig, appId, danishImages, daAppText, 'da') ?? enConfig;
   return enConfig;
 }

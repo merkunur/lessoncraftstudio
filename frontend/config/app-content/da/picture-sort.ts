@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20sort/Sorter%20Billeder%201.jpeg',
+      primary: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp',
       primaryAlt: 'Tokategori billedsorteringsarbejdsark med tematiske kategorirammer, blandet udklipsgitter og lokaliseret Sorter billeder-overskrift',
     },
     sampleGallery: [

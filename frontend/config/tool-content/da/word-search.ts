@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.jpeg',
+      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
       primaryAlt: 'Ordsøgning arbejdsark med skjulte ord indlejret i et bogstavgitter og tematiske billedledetråde til ordforråds­puslespil',
     },
     sampleGallery: [

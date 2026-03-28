@@ -209,7 +209,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.jpeg',
+      primary: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
       primaryAlt: 'Kodeadditions arbejdsark, der viser kryptaritmetikpuslespil med billedsymboler, der gemmer hemmelige cifre',
     },
     sampleGallery: [

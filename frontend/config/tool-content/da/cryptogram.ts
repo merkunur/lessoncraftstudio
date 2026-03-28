@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/cryptogram/Billed-Kryptogram%201.jpeg',
+      primary: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp',
       primaryAlt: 'Kryptogram arbejdsark med billedchiffer, der viser tematiske billeder mappet til alfabetsbogstaver, som koder en hemmelig sætning',
     },
     sampleGallery: [

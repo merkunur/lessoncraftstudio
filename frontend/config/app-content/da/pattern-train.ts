@@ -257,7 +257,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.jpeg',
+      primary: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.webp',
       primaryAlt: 'Mønstertog-arbejdsark med tematiske togvogne, der viser AB gentagne mønster med en manglende vogn, som brugerne skal fuldende',
     },
     sampleGallery: [

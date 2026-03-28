@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.jpeg',
+      primary: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp',
       primaryAlt: 'Skyggematchnings arbejdsark med farvede billeder i øvre række og automatisk genererede sorte silhuetter i nedre række med ravgul overskrift',
     },
     sampleGallery: [

@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/coloring/coloring%20portrait%201.png',
+      primary: '/samples/danish/coloring/coloring%20portrait%201.webp',
       primaryAlt: 'Tilpasset malebillede med tematiske billeder arrangeret på frit lærred med dekorativ ramme og produktlinjesnavnefelt',
     },
     sampleGallery: [

@@ -257,7 +257,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/prepositions/Pr%C3%A6positioner%201.jpeg',
+      primary: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp',
       primaryAlt: 'Præpositioner arbejdsark med farverige billeder, der viser rumlige relationer mellem genstande og geometriske former',
     },
     sampleGallery: [

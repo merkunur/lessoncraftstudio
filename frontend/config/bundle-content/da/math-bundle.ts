@@ -215,7 +215,7 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/addition/Sjov%20Addition%201.jpeg',
+      primary: '/samples/danish/addition/Sjov%20Addition%201.webp',
       primaryAlt: 'Additionsarbejdsark med tematiske billeder, der viser visuelle tælleopgaver',
     },
     sampleGallery: [

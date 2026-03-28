@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/alphabet%20train/Alfabettog%201.jpeg',
+      primary: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
       primaryAlt: 'Alfabettog arbejdsark, der viser 11 farverige vogne med bogstaver og matchende ledetrådsbilleder til bogstavgenkendelse',
     },
     sampleGallery: [

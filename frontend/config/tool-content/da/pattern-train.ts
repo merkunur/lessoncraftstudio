@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.jpeg',
+      primary: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.webp',
       primaryAlt: 'Mønstertog arbejdsark med tematiske togvogne, der viser gentagende mønstersekvens med en manglende vogn for brugerne at fuldende',
     },
     sampleGallery: [

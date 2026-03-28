@@ -247,7 +247,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/addition/Sjov%20Addition%201.jpeg',
+      primary: '/samples/danish/addition/Sjov%20Addition%201.webp',
       primaryAlt: 'Additionsarbejdsark med farverige dyrebilleder i tilstanden Billede + Billede',
     },
     sampleGallery: [

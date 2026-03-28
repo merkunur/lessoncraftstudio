@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.jpeg',
+      primary: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.webp',
       primaryAlt: 'Linjesporing arbejdsark med SVG-kurveskabelon, der forbinder matchede farverige billedpar i liggende format',
     },
     sampleGallery: [

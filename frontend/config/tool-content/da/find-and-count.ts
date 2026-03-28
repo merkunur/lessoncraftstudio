@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.jpeg',
+      primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
       primaryAlt: 'Find og tæl søgearbejdsark med spredte billeder på et konfigurerbart gitter med blå overskriftramme og fire opgaveinstruktioner',
     },
     sampleGallery: [

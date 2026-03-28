@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.jpeg',
+      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
       primaryAlt: 'Ordsøgningsarbejdsark med skjulte ord i et bogstavsgitter og billedledetråde, der viser ordforråds­puslespil',
     },
     sampleGallery: [

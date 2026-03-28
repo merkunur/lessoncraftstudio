@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/sudoku/Billede-Sudoku%201.jpeg',
+      primary: '/samples/danish/sudoku/Billede-Sudoku%201.webp',
       primaryAlt: '4×4 billedsudoku arbejdsark med tematiske billeder i et premiumgitter med alternerende blå og rosa blokfarver, fede midtdelere og indigoblå ydre ramme med afrundede hjørner',
     },
     sampleGallery: [

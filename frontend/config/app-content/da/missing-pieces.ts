@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.jpeg',
+      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
       primaryAlt: 'Manglende brikker puslespilsarbejdsark med huller klippet ud af et billede og nummererede løsningsalternativer inkl. distraktorer',
     },
     sampleGallery: [

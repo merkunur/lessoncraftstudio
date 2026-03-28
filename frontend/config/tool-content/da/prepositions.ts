@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/prepositions/Pr%C3%A6positioner%201.jpeg',
+      primary: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp',
       primaryAlt: 'Præpositioner arbejdsark, der viser billedscener med rumlige relationsøvelser til stedordsøvelse',
     },
     sampleGallery: [

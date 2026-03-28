@@ -257,7 +257,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20worksheet/Matematikopgave%201.jpeg',
+      primary: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
       primaryAlt: 'Algebraisk billedpuslespil arbejdsark med billeder, der forestiller ukendte variabler i et system af ligninger',
     },
     sampleGallery: [

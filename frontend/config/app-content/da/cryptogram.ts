@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/cryptogram/Billed-Kryptogram%201.jpeg',
+      primary: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp',
       primaryAlt: 'Kryptogramarbejdsark med billedchiffer, der viser billeder mappet til alfabetets bogstaver, som koder en hemmelig frase',
     },
     sampleGallery: [

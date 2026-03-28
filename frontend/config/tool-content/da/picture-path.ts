@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20path/Billedsti%201.jpeg',
+      primary: '/samples/danish/picture%20path/Billedsti%201.webp',
       primaryAlt: 'Billedsti labyrintarbejdsark med tematiske billeder i et gitter med orange overskriftramme og automatisk genereret Billedsti-overskrift med lokaliseret titel',
     },
     sampleGallery: [

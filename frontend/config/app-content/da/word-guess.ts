@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/word%20guess/G%C3%A6t%20Ordet%201.jpeg',
+      primary: '/samples/danish/word%20guess/G%C3%A6t%20Ordet%201.webp',
       primaryAlt: 'Gæt ordet-arbejdsark med billedledetråde og tomme bogstavsgitre i galgelegstil',
     },
     sampleGallery: [

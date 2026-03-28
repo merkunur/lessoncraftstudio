@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.jpeg',
+      primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp',
       primaryAlt: 'Gitterritningsarbejdsark med dobbelt gittersystem, der viser øvelsesgitter og ledetrådsgitter med sort-hvidt konturtema',
     },
     sampleGallery: [

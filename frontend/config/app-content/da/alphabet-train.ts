@@ -257,7 +257,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/alphabet%20train/Alfabettog%201.jpeg',
+      primary: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
       primaryAlt: 'Alfabettog arbejdsark med farverige togvogne, der bærer bogstaver og matchende dyrebilleder',
     },
     sampleGallery: [

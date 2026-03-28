@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/treasure%20hunt/Skattejagt%201.jpeg',
+      primary: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
       primaryAlt: 'Skattejagt vejfinding arbejdsark med 5 gange 5 koordinatgitter, spredte billeder, retningsanvisninger og skattejagt-tematiseret overskrift',
     },
     sampleGallery: [

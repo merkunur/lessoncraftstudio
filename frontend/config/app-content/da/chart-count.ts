@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/chart%20count/Billediagram%201.jpeg',
+      primary: '/samples/danish/chart%20count/Billediagram%201.webp',
       primaryAlt: 'Billeddiagram arbejdsark med spredt billedgitter og søjlediagram, hvor brugerne tæller og diagrammerer 6 billedtyper',
     },
     sampleGallery: [

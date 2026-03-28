@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.jpeg',
+      primary: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp',
       primaryAlt: 'Mønsterfuldendelsesarbejdsark med gitterbaserede øvelser, der viser gentagne billedmønstre med tomme felter og flervalgsposter',
     },
     sampleGallery: [

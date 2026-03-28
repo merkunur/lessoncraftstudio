@@ -207,7 +207,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/addition/Sjov%20Addition%201.jpeg',
+      primary: '/samples/danish/addition/Sjov%20Addition%201.webp',
       primaryAlt: 'Additions arbejdsark med dyrebilleder, der viser billedbaserede matematikøvelser',
     },
     sampleGallery: [

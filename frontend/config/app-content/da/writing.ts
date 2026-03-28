@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/writing/writing.jpeg',
+      primary: '/samples/danish/writing/writing.webp',
       primaryAlt: 'Skriveøvelsesarbejdsark med spor, tonende sporing og guidet kopiering tilstande, der viser pilguided stregrækkefølge',
     },
     sampleGallery: [

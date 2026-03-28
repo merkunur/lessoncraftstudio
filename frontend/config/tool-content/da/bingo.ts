@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/bingo/Billedbingo%201.jpeg',
+      primary: '/samples/danish/bingo/Billedbingo%201.webp',
       primaryAlt: 'Billedbingokort med tematiske billeder i et konfigurerbart gitter og cirkulære brikker med stiplede kanter nedenunder til matchning under bingospil',
     },
     sampleGallery: [

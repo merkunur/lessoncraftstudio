@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.jpeg',
+      primary: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
       primaryAlt: 'Skjulte objekter søgearbejdsark med spredte billeder placeret med nul-overlapningsalgoritme, legende i bunden med objekter at finde og dekorativ Fredoka-overskrift',
     },
     sampleGallery: [

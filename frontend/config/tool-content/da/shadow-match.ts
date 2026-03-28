@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.jpeg',
+      primary: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp',
       primaryAlt: 'Skyggematchning arbejdsark med farvede billeder i øverste række og automatisk genererede sorte silhuetter i nederste række med ravgul overskrift og bogstav-nummer-etiketter',
     },
     sampleGallery: [

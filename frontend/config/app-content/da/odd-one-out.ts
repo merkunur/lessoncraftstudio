@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.jpeg',
+      primary: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
       primaryAlt: 'Find den ulige arbejdsark med fire billeder per øvelsesrække, farverige tematiske illustrationer og lokaliseret overskrift',
     },
     sampleGallery: [

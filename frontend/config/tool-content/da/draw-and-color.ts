@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.jpeg',
+      primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp',
       primaryAlt: 'Tegn og farvelæg gittertegning arbejdsark med dobbeltgittersystem, der viser tomt øvelsesgitter og delvist afsløret ledetrådsgitter med sort-hvidt konturtema',
     },
     sampleGallery: [

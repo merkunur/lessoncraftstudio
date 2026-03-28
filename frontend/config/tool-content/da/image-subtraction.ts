@@ -207,7 +207,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/subtraction/Sjov%20Subtraktion%201.jpeg',
+      primary: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
       primaryAlt: 'Subtraktions arbejdsark med overstregnings billeder, der viser visuelle fjerne-matematikøvelser',
     },
     sampleGallery: [

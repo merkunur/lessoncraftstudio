@@ -267,7 +267,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/crossword/Billedkrydsord%201.jpeg',
+      primary: '/samples/danish/crossword/Billedkrydsord%201.webp',
       primaryAlt: 'Billedkrydsordspuslespil med billedledetråde på et 15 gange 15 gitter med lokaliseret Billedkrydsord-overskrift og nummererede ledetrådspositioner',
     },
     sampleGallery: [

@@ -252,7 +252,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/subtraction/Sjov%20Subtraktion%201.jpeg',
+      primary: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
       primaryAlt: 'Subtraktionsarbejdsark med overstregede billeder, der viser den fjernede mængde',
     },
     sampleGallery: [

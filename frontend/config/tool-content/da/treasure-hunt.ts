@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/treasure%20hunt/Skattejagt%201.jpeg',
+      primary: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
       primaryAlt: 'Skattejagt vejfindende arbejdsark med 5 gange 5 koordinatgitter, 6 spredte tematiske billeder som landemærker, retningsledetråde og skattejagt-tematiseret tealoverskrift med gylden titel',
     },
     sampleGallery: [

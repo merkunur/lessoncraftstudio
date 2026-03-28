@@ -196,7 +196,7 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.jpeg',
+      primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
       primaryAlt: 'I Spy find og tæl arbejdsark med tematiske billeder spredt over et gitter for visuel scanning og tælling',
     },
     sampleGallery: [

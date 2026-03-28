@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/chart%20count/Billediagram%201.jpeg',
+      primary: '/samples/danish/chart%20count/Billediagram%201.webp',
       primaryAlt: 'Billeddiagram arbejdsark med spredt 4×5 billedgitter, der viser 20 ikoner fra 6 typer og tomt søjlediagram for brugerne at tælle og diagrammere data',
     },
     sampleGallery: [

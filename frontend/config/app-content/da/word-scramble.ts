@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/word%20scramble/Bogstavrod%201.jpeg',
+      primary: '/samples/danish/word%20scramble/Bogstavrod%201.webp',
       primaryAlt: 'Bogstavrod-arbejdsark med billedledetråde og blandede bogstavsfliser, der viser bogstavsomflytning stavningspuslespil',
     },
     sampleGallery: [

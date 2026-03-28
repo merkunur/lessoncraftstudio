@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.jpeg',
+      primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
       primaryAlt: 'Stor og lille størrelsessammenligning arbejdsark med tematiske billeder i forskellige størrelser, der viser sæt ring om den store øvelse',
     },
     sampleGallery: [

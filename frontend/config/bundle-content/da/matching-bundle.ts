@@ -203,7 +203,7 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/matching/Find%20Parrene%201.jpeg',
+      primary: '/samples/danish/matching/Find%20Parrene%201.webp',
       primaryAlt: 'Matchningsarbejdsark med tematiske billeder der viser parmatchningsøvelse',
     },
     sampleGallery: [

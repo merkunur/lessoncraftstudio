@@ -257,7 +257,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/matching/Find%20Parrene%201.jpeg',
+      primary: '/samples/danish/matching/Find%20Parrene%201.webp',
       primaryAlt: 'Træk-en-streg matchnings arbejdsark med tematiske billeder arrangeret i to kolonner med lokaliseret Find Parrene-overskrift og artikelnumre',
     },
     sampleGallery: [

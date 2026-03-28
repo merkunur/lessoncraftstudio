@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.jpeg',
+      primary: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
       primaryAlt: 'Find den ulige arbejdsark med fire billeder per øvelsesrække, der viser tre almindelige objekter og ét uligt objekt med koral-ravgul-turkis overskrift',
     },
     sampleGallery: [

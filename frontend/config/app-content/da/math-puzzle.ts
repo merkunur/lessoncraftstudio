@@ -252,7 +252,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20puzzle/Mattepuslespil%201.jpeg',
+      primary: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
       primaryAlt: 'Mattepuslespil arbejdsark med et farverigt billede opdelt i gitterbrikker, hver med en additionsopgave',
     },
     sampleGallery: [

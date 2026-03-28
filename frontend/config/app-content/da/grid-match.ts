@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/grid%20match/Gitterpuslespil%201.jpeg',
+      primary: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
       primaryAlt: 'Gittermatchning billedpuslespil arbejdsark med billedfliser opdelt i et gitter, ledetrådsceller synlige og nummereret flisepalette til matchning',
     },
     sampleGallery: [

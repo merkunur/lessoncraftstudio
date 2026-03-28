@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.jpeg',
+      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
       primaryAlt: 'Puslespilarbejdsark med huller klippet ud fra en farverig illustration og nummererede løsningsalternativer inklusive distraktorer med turkis Manglende Brikker-overskrift og blågrøn-pink dobbelt ramme',
     },
     sampleGallery: [

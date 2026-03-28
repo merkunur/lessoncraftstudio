@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/writing/writing.jpeg',
+      primary: '/samples/danish/writing/writing.webp',
       primaryAlt: 'Skriveøvelser arbejdsark med sporings-, tonende sporings- og guidet kopieringstilstande, der viser pilguidede stregrækkefølgebogstaver',
     },
     sampleGallery: [

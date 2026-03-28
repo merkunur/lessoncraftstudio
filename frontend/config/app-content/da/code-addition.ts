@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.jpeg',
+      primary: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
       primaryAlt: 'Kodeadditions arbejdsark med dyrebilleder, der skjuler hemmelige numre i et kodeknækningspuslespil',
     },
     sampleGallery: [

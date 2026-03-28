@@ -257,7 +257,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.jpeg',
+      primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
       primaryAlt: 'Stort og lille størrelsessammenlignings­arbejdsark med tematiske billeder i forskellige størrelser, der viser ring om den store øvelse',
     },
     sampleGallery: [

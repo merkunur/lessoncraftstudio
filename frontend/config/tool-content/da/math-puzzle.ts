@@ -209,7 +209,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20puzzle/Mattepuslespil%201.jpeg',
+      primary: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
       primaryAlt: 'Mattepuslespil arbejdsark, der viser et puslespilsstil billedgitter med additionsligninger og blandede svarsbrikker',
     },
     sampleGallery: [

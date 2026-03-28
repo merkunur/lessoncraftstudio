@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/word%20scramble/Bogstavrod%201.jpeg',
+      primary: '/samples/danish/word%20scramble/Bogstavrod%201.webp',
       primaryAlt: 'Bogstavblanding arbejdsark med billedledetråde og blandede bogstavbrikker til bogstavomstilling stavepuslespil',
     },
     sampleGallery: [

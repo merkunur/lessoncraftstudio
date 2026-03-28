@@ -194,7 +194,7 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.jpeg',
+      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
       primaryAlt: 'Manglende brikker puslespilarbejdsark med gittersegmenter fjernet for rumlig ræsonnementudfordring',
     },
     sampleGallery: [

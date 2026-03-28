@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/bingo/Billedbingo%201.jpeg',
+      primary: '/samples/danish/bingo/Billedbingo%201.webp',
       primaryAlt: 'Billedbingokort med tematiske billeder i et gitter og cirkulære brikker med stiplede kanter nedenfor',
     },
     sampleGallery: [

@@ -213,7 +213,7 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.jpeg',
+      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
       primaryAlt: 'Ordsøgningsarbejdsark med tematisk ordforråds gitter og farvekodede facit',
     },
     sampleGallery: [

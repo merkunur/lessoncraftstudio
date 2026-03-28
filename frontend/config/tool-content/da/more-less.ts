@@ -208,7 +208,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/more%20less/Mere%20Mindre%201.jpeg',
+      primary: '/samples/danish/more%20less/Mere%20Mindre%201.webp',
       primaryAlt: 'Mere eller mindre arbejdsark med billedsammenligningsgrupper, der viser større end og mindre end øvelser',
     },
     sampleGallery: [

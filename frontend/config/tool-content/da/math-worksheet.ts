@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20worksheet/Matematikopgave%201.jpeg',
+      primary: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
       primaryAlt: 'Algebra billedpuslespil arbejdsark med billedsymboler som ukendte variabler i koblede ligninger',
     },
     sampleGallery: [

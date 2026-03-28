@@ -267,7 +267,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20path/Billedsti%201.jpeg',
+      primary: '/samples/danish/picture%20path/Billedsti%201.webp',
       primaryAlt: 'Billedsti labyrintarbejdsark med tematiske billeder i et gitter med orange overskriftsramme og automatisk genereret Billedsti-overskrift',
     },
     sampleGallery: [

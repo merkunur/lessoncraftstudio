@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.jpeg',
+      primary: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
       primaryAlt: 'Skjulte objekter søgearbejdsark med spredte billeder placeret med nul-overlapalgoritme, legende nederst der viser objekter at finde og dekorativ overskrift',
     },
     sampleGallery: [

@@ -257,7 +257,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/more%20less/Mere%20Mindre%201.jpeg',
+      primary: '/samples/danish/more%20less/Mere%20Mindre%201.webp',
       primaryAlt: 'Mere eller Mindre arbejdsark med farverige dyrebilleder i tilstanden Billede til Billede',
     },
     sampleGallery: [

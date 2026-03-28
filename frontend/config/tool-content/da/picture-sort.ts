@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20sort/Sorter%20Billeder%201.jpeg',
+      primary: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp',
       primaryAlt: 'Tokategori billedsortering arbejdsark med stiplede kategorirammer øverst og blandet udklipsgitter nedenunder med lokaliseret mintgrøn Sortér billeder-overskrift',
     },
     sampleGallery: [

@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/crossword/Billedkrydsord%201.jpeg',
+      primary: '/samples/danish/crossword/Billedkrydsord%201.webp',
       primaryAlt: 'Billedkrydsord med billedledetråde ved siden af et 15 gange 15 krydsordsgitter med nummererede ledetrådpositioner og lokaliseret blå overskrift',
     },
     sampleGallery: [

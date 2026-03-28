@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.jpeg',
+      primary: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp',
       primaryAlt: 'Mønstergenkendelse arbejdsark med gitterbaserede øvelser, der viser gentagende billedmønstre med tomme ruder og flervalsmuligheder for brugerne at fuldende',
     },
     sampleGallery: [

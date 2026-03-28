@@ -262,7 +262,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.jpeg',
+      primary: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.webp',
       primaryAlt: 'Linjesporingsarbejdsark med kurvet linjeskabelon, der forbinder matchende dyrebilledpar i liggende format',
     },
     sampleGallery: [

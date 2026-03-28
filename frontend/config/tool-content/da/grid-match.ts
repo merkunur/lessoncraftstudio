@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/grid%20match/Gitterpuslespil%201.jpeg',
+      primary: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
       primaryAlt: 'Gittermatchning arbejdsark med enkelt billede opdelt i fliser, ledetrådsceller synlige og nummereret flisepalet for rumligt ræsonnementpuslespil',
     },
     sampleGallery: [

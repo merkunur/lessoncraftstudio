@@ -213,7 +213,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/coloring/coloring%20portrait%201.png',
+      primary: '/samples/danish/coloring/coloring%20portrait%201.webp',
       primaryAlt: 'Tilpasset farvelægningsside lavet på frit arbejdsområde med farverige tematiske illustrationer arrangeret i en original komposition med dekorativ ramme',
     },
     sampleGallery: [

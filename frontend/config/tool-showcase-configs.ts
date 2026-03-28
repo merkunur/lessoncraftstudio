@@ -3894,16 +3894,53 @@ export function getToolShowcaseConfig(toolId: string, locale: string = 'en'): To
   if (locale === 'it') return localizeToolShowcase(enConfig, toolId, italianImages, itToolText, 'it');
   if (locale === 'nl') return localizeToolShowcase(enConfig, toolId, dutchImages, nlToolText, 'nl');
   if (locale === 'sv') return localizeToolShowcase(enConfig, toolId, swedishImages, svToolText, 'sv') ?? enConfig;
-  if (locale === 'da' || locale === 'no' || locale === 'fi') {
-    // Use Danish images + English text (auto-translated via t() in daStringTable)
-    // The localizeToolShowcase function translates UI strings via t(string, locale)
-    // so daStringTable handles badges, tier names, pill labels, etc.
-    // Tool-specific headings fall back to English until daToolText is created.
-    const imgs = locale === 'da' ? danishImages : {};
-    if (Object.keys(imgs).length > 0) {
-      return localizeToolShowcase(enConfig, toolId, imgs, {}, 'da') ?? enConfig;
-    }
-    return enConfig;
+  if (locale === 'da') {
+    const appKey = resolveAppKey(toolId);
+    const gi = danishImages[appKey];
+    if (!gi || !gi.imgs.length) return enConfig;
+    const di = (filename: string) => imgUrl(gi.folder, filename, 'da');
+    const alt = toolAltTemplates['da'];
+    return {
+      hero: {
+        ...enConfig.hero,
+        badge: t(enConfig.hero.badge, 'da'),
+        images: [
+          { src: di(gi.imgs[0]), alt: alt ? alt.sample(enConfig.hero.heading, 1) : enConfig.hero.images[0]?.alt || '' },
+          { src: di(gi.imgs[1]), alt: alt ? alt.sample(enConfig.hero.heading, 2) : enConfig.hero.images[1]?.alt || '' },
+          { src: di(gi.imgs[2]), alt: alt ? alt.sample(enConfig.hero.heading, 3) : enConfig.hero.images[2]?.alt || '' },
+        ],
+        pills: tPills(enConfig.hero.pills, 'da'),
+      },
+      tiered: {
+        ...enConfig.tiered,
+        badge: t(enConfig.tiered.badge, 'da'),
+        heading: t(enConfig.tiered.heading, 'da'),
+        subheading: t(enConfig.tiered.subheading, 'da'),
+        tiers: enConfig.tiered.tiers.map((tier, i) => ({
+          ...tier,
+          name: t(tier.name, 'da'),
+          image: { src: di(gi.imgs[i]), alt: alt ? alt.tier(enConfig.hero.heading, t(tier.name, 'da')) : tier.image.alt },
+          desc: t(tier.desc, 'da'),
+        })) as [typeof enConfig.tiered.tiers[0], typeof enConfig.tiered.tiers[1], typeof enConfig.tiered.tiers[2]],
+        trophyText: t(enConfig.tiered.trophyText, 'da'),
+      },
+      spotlight: {
+        ...enConfig.spotlight,
+        image: { src: di(gi.imgs[3]), alt: alt ? alt.spotlight(enConfig.hero.heading) : enConfig.spotlight.image.alt },
+        pills: tStringPills(enConfig.spotlight.pills, 'da'),
+      },
+      gallery: {
+        ...enConfig.gallery,
+        heading: t(enConfig.gallery.heading, 'da'),
+        subheading: t(enConfig.gallery.subheading, 'da'),
+        items: [
+          { image: { src: di(gi.imgs[4]), alt: alt ? alt.gallery(enConfig.gallery.items[0]?.label || '') : '' }, label: t(enConfig.gallery.items[0]?.label || '', 'da') },
+          { image: { src: di(gi.imgs[5] || gi.imgs[0]), alt: alt ? alt.gallery(enConfig.gallery.items[1]?.label || '') : '' }, label: t(enConfig.gallery.items[1]?.label || '', 'da') },
+          { image: { src: di(gi.answerKey), alt: alt ? alt.answerKey(enConfig.gallery.items[0]?.label || '') : '' }, label: t('Answer Key', 'da') },
+        ],
+        pills: tStringPills(enConfig.gallery.pills, 'da'),
+      },
+    };
   }
   return enConfig;
 }

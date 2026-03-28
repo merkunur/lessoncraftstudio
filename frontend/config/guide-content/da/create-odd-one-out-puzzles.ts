@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp', alt: 'Find den forkerte-arbejdsark med fire billeder per øvelsesrække der viser tre fælles elementer og ét forkert element med koral-ambra-turkis overskrift' },
     samples: [
-      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.webp', alt: 'Find den forkerte-arbejdsark der viser øvelseskort med fire billeder per række og stilet Find den forkerte overskrift', caption: 'Find den forkerte-arbejdsark med fire-billeders øvelsesrækker og adaptivt kolonnelayout' },
-      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%203.webp', alt: 'Automatisk genereret facit med røde cirkelomrids tegnet rundt om det forkerte element i hver øvelsesrække', caption: 'Automatisk genereret facit med røde cirkelmarkører der identificerer det forkerte element i hver række' },
+      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp', alt: 'Find den Ulige — dansk eksempelarbejdsark', caption: 'Find den Ulige eksempel 1' },
+      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.webp', alt: 'Find den Ulige — dansk eksempel 2', caption: 'Find den Ulige eksempel 2' },
+      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%203.webp', alt: 'Find den Ulige — dansk eksempel 3', caption: 'Find den Ulige eksempel 3' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Sådan skaber du find den forkerte-puslespil — Komplet vejledning',

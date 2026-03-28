@@ -176,25 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
+      src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
       alt: 'Ordsoegnings-arbejdsark der demonstrerer flersproget printable-virksomhedspotentiale på tværs af internationale markeder',
     },
     samples: [
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
-        alt: 'Ordsoegning der viser flersproget evne til internationalt printable-salg',
-        caption: 'Ordsoegning kan genereres på 11 sprog, der gør dem ideelle til flersproget udvidelse',
-      },
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
-        alt: 'Matchingsarbejdsark med visuelle temaer der fungerer på tværs af sprogmarkeder',
-        caption: 'Visuelle matchingsarbejdsark bruger billeder der oversættes universelt på tværs af sprog',
-      },
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
-        alt: 'Additions matematik-arbejdsark der demonstrerer universel appel på tværs af sprogbarrierer',
-        caption: 'Matematikarbejdsark krydser sprogbarrierer naturligt da tal er universelle på tværs af markeder',
-      },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog — dansk eksempelarbejdsark', caption: 'Alfabettog eksempel 1' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%202.webp', alt: 'Alfabettog — dansk eksempel 2', caption: 'Alfabettog eksempel 2' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%203.webp', alt: 'Alfabettog — dansk eksempel 3', caption: 'Alfabettog eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du flersprogede ordsoegnings-arbejdsark til internationale markeder',

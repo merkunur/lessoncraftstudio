@@ -179,21 +179,9 @@ const content: GuideContent = {
       alt: 'Bingokort-arbejdsark der demonstrerer et sæsonbestemt printbart produkt ideelt til feriemarkedsføringskampagner',
     },
     samples: [
-      {
-        src: '/samples/danish/bingo/Billedbingo%202.webp',
-        alt: 'Bingokort der viser et sæsonbestemt printbart produkt til feriebegivenheder og fejringer',
-        caption: 'Bingokort tilpasser sig til ethvert sæsontema, hvilket gør dem til ideelle produkter til helårs sæsonmarkedsføring',
-      },
-      {
-        src: '/samples/danish/bingo/Billedbingo%203.webp',
-        alt: 'Farvelægningsside der demonstrerer sæsonbestemt printbart indhold til feriemarkedspladslistninger',
-        caption: 'Sæsonbestemte farvelægningssider er konsistente topsælgere under ferieefterspørgselstoppe på alle printable markedspladser',
-      },
-      {
-        src: '/samples/danish/bingo/Billedbingo%201.webp',
-        alt: 'Ordsøgningspuslespil der viser sæsonbestemt ordforrådsopbygning for feriemarkedsføring',
-        caption: 'Tematiske ordsøgninger kombinerer sæsonbestemt appel med pædagogisk værdi for stærk sæsonbestemt markedspladspræstation',
-      },
+      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
+      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
+      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Sådan planlægger du sæsonbestemt markedsføring for din printbare forretning',

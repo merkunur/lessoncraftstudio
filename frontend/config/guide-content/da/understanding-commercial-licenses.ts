@@ -176,25 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
+      src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
       alt: 'Professionelt ordsoegnings-arbejdsark der demonstrerer kommercielt licenseret printable-output',
     },
     samples: [
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
-        alt: 'Ordsoegning skabt med kommerciel licens til multi-platform salg',
-        caption: 'Ordsoegning skabt under kommerciel licens kan sælges på enhver platform',
-      },
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
-        alt: 'Additionsarbejdsark genereret med royaltyfri kommerciel licens',
-        caption: 'Én kommerciel licens dækker ubegrænset additionsarbejdsark-generering uden per-produkt gebyrer',
-      },
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
-        alt: 'Farvelægningsside med korrekt licenseret tematisk billedmateriale til kommercielt salg',
-        caption: 'Kommercielle licenser der inkluderer indlejret billedmateriale forenkler overholdelse for visuelle produkter',
-      },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsoegning med kommerciel licens',

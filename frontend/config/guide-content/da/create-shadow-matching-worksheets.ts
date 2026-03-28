@@ -189,10 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%201.webp', alt: 'Skyggematchnings-arbejdsark med farvede billeder og automatisk genererede pixel-niveau sorte silhuetter til visuel perceptions matchningsaktivitet' },
+    heroImage: { src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp', alt: 'Skyggematchnings-arbejdsark med farvede billeder og automatisk genererede pixel-niveau sorte silhuetter til visuel perceptions matchningsaktivitet' },
     samples: [
-      { src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%202.webp', alt: 'Skyggematch-arbejdsark der viser fire farvede billeder matchet til fire pixel-niveau sorte silhuetter med bogstav- og taletiketter', caption: 'Skyggematch-tilstand med fire farvede billeder og deres automatisk genererede sorte silhuetter' },
-      { src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%203.webp', alt: 'Automatisk genereret facit der viser originale billeder ved siden af silhuetter med korrekte bogstav-til-tal match-etiketter', caption: 'Automatisk genereret facit med bogstav-til-tal parringer til hurtig verifikation' },
+      { src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp', alt: 'Skyggematching — dansk eksempelarbejdsark', caption: 'Skyggematching eksempel 1' },
+      { src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%202.webp', alt: 'Skyggematching — dansk eksempel 2', caption: 'Skyggematching eksempel 2' },
+      { src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%203.webp', alt: 'Skyggematching — dansk eksempel 3', caption: 'Skyggematching eksempel 3' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Sådan skaber du skyggematchnings-arbejdsark — Komplet vejledning',

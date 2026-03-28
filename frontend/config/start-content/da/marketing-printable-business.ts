@@ -216,10 +216,9 @@ const content: StartContent = {
   visuals: {
     heroImage: { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Bingokort der viser meget delbart printbart produktdesign' },
     samples: [
-      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Bingokort der viser eventdrevet markedsfoeringpotentiale for fester og produktlinjer', caption: 'Bingo — meget delbar for events og hojtider' },
-      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Ordsoegningspuslespil der viser staerk markedsplads-SEO-potentiale', caption: 'Ordsoegning — mest soegte puslespiltype' },
-      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Malebilleder der viser visuel attraktion for Pinterest-markedsfoering', caption: 'Farvelaegning — Pinterest-klar visuelt indhold' },
-      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Matchningsarbejdsark der viser tematiseret saesonsmarkedsfoering', caption: 'Matchning — alsidig saesonsmarkedsfoering' },
+      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
+      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
+      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Saadan laver du bingokort til din printbare forretning — LessonCraftStudio demo',

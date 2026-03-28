@@ -180,21 +180,9 @@ const content: GuideContent = {
       alt: 'Professionelt matchingsarbejdsark der demonstrerer tydeligt produktdesign der forebygger kundesupportproblemer',
     },
     samples: [
-      {
-        src: '/samples/danish/matching/Find%20Parrene%202.webp',
-        alt: 'Matchingsarbejdsark der viser tydeligt layout og instruktioner der reducerer køberspørgsmål',
-        caption: 'Tydeligt arbejdsarkdesign og omfattende produktbeskrivelser forebygger almindelige supportforespørgsler',
-      },
-      {
-        src: '/samples/danish/matching/Find%20Parrene%203.webp',
-        alt: 'Additionsarbejdsark med professionel formatering der sætter nøjagtige køberforventninger',
-        caption: 'Professionel formatering og detaljerede specifikationer eliminerer forventningsforskels-problemer',
-      },
-      {
-        src: '/samples/danish/matching/Find%20Parrene%201.webp',
-        alt: 'Ordsøgningspuslespil med tematisk indhold der demonstrerer produktklarhed for købere',
-        caption: 'Indholdsrige produkter drager mest fordel af omfattende dokumentation og selvbetjeningssupport',
-      },
+      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
+      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
+      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Kundesupport for digitale produktvirksomheder',

@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Matchingsarbejdsark der demonstrerer konsistent produktformat til en printbar produktlinje' },
     samples: [
-      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Matchingsarbejdsark der viser konsistent format på tværs af temaer til produktlinjeopbygning', caption: 'Matchingsarbejdsark opretholder det samme professionelle format på tværs af ethvert tema — fundamentet for en visuelt konsistent produktlinje' },
-      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Additionsarbejdsark der repræsenterer matematikproduktlinje med progressive sværhedsgrader', caption: 'Matematikarbejdsark ved flere sværhedsgrader skaber progressiv dybde inden for din produktlinje — enkeltcifret til avancerede operationer' },
-      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Farvelægningsside der viser visuel konsistens på tværs af tematiske produktvariationer', caption: 'Farvelægningssider på tværs af forskellige temaer demonstrerer hvordan en produktlinje opretholder visuel sammenhæng mens den tilbyder variation til købere' },
+      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
+      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
+      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Sådan skaber du matchingsarbejdsark til en konsistent printbar produktlinje',

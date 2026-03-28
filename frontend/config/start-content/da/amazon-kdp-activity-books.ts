@@ -223,10 +223,9 @@ const content: StartContent = {
   visuals: {
     heroImage: { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Sudoku-puslespil arbejdsark eksempel for Amazon KDP aktivitetsbog-publicering' },
     samples: [
-      { src: '/samples/danish/sudoku/Billede-Sudoku%202.webp', alt: 'Sudoku-puslespil arbejdsark til KDP aktivitetsbog-interior', caption: 'Sudoku — top KDP-puslespilkategori' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%203.webp', alt: 'Ordsoegningspuslespil til Amazon KDP aktivitetsbog', caption: 'Ordsoegning — KDP bestsaellerkategori' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Matematikpuslespil arbejdsark til KDP arbejdsbog-interior', caption: 'Matematikpuslespil — stedsgroen KDP-niche' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%202.webp', alt: 'Krydsordspuslespil arbejdsark til KDP aktivitetsbog', caption: 'Krydsord — klassisk aktivitetsbogformat' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempelarbejdsark', caption: 'Billede-Sudoku eksempel 1' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%202.webp', alt: 'Billede-Sudoku — dansk eksempel 2', caption: 'Billede-Sudoku eksempel 2' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%203.webp', alt: 'Billede-Sudoku — dansk eksempel 3', caption: 'Billede-Sudoku eksempel 3' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Saadan laver du Sudoku-puslespil arbejdsark — LessonCraftStudio demo',

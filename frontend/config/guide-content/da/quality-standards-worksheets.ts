@@ -175,25 +175,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
+      src: '/samples/danish/crossword/Billedkrydsord%201.webp',
       alt: 'Ordsøgningsarbejdsark der demonstrerer professionelle kvalitetsstandarder med rent layout og præcis formatering',
     },
     samples: [
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
-        alt: 'Ordsøgningspuslespil der viser professionel trykklart formatering og kvalitetsgitterjustering',
-        caption: 'Professionelt ordsøgningsoutput demonstrerer rent layout, læsbar typografi og præcis gitterjustering',
-      },
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
-        alt: 'Additionsarbejdsark der viser kvalitetsstandarder for taljustering og facitnøjagtighed',
-        caption: 'Matematikarbejdsark kræver præcis justering, klar typografi og verificerede facit for professionel kvalitet',
-      },
-      {
-        src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
-        alt: 'Farvelægningsside der demonstrerer visuelle kvalitetsstandarder med konsistente linjetykkelser og udskriftsoptimering',
-        caption: 'Visuelle produkter kræver konsistente linjetykkelser, gråtoneoptimering og professionel udskriftskvalitet',
-      },
+      { src: '/samples/danish/crossword/Billedkrydsord%201.webp', alt: 'Billedkrydsord — dansk eksempelarbejdsark', caption: 'Billedkrydsord eksempel 1' },
+      { src: '/samples/danish/crossword/Billedkrydsord%202.webp', alt: 'Billedkrydsord — dansk eksempel 2', caption: 'Billedkrydsord eksempel 2' },
+      { src: '/samples/danish/crossword/Billedkrydsord%203.webp', alt: 'Billedkrydsord — dansk eksempel 3', caption: 'Billedkrydsord eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan opretholder du kvalitetsstandarder for printbare arbejdsark',

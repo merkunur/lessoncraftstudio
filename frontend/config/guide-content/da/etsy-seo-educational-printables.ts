@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser multi-nøgleord pædagogisk printable-produkt til Etsy SEO-optimering' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser multi-nøgleord pædagogisk printable-produkt til Etsy SEO-optimering' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Dyretema ordsøgningspuslespil-arbejdsark der demonstrerer temabaseret Etsy nøgleordsmålretning', caption: 'Ordsøgning med dyretema — hver sprog- og temavariering retter sig mod forskellige Etsy-søgenøgleord' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Dyretema additionsarbejdsark der retter sig mod højvolumen Etsy matematik-printable nøgleord', caption: 'Additionsarbejdsark med dyretema — retter sig mod højvolumen matematik-printable nøgleord på Etsy' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Dyre-farvelægningsside der viser temadrevet Etsy nøgleordsstrategi for printable-sælgere', caption: 'Farvelægningsside med dyretema — temaspecifikke nøgleord driver målrettet Etsy-søgetrafik' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningsarbejdsark til Etsy SEO — Multi-nøgleord produktstrategi',

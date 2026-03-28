@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Ordsøgningspuslespil der demonstrerer en bred KDP aktivitetsbog-niche for udgivere' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgningspuslespil der demonstrerer en bred KDP aktivitetsbog-niche for udgivere' },
     samples: [
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Ordsøgningsindhold der repræsenterer en af de største KDP aktivitetsbog-nicher', caption: 'Ordsøgningsbøger — en massiv KDP-niche med tematiske variationer der reducerer konkurrence' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikarbejdsark der viser klassetrins-målgruppesegmentering', caption: 'Matematikarbejdsbøger — målgruppesegmentering efter klassetrin og operationstype skaber dusinvis af distinkte undernicher' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Sudokupuslespil der demonstrerer en dedikeret puslespilsbogs-niche', caption: 'Sudoku — en dedikeret puslespilsniche med loyale købere og lavere konkurrence end ordsøgning eller malebog' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hvordan du skaber matematikarbejdsark for KDP aktivitetsboger — nicheindhold skabelsesguide',

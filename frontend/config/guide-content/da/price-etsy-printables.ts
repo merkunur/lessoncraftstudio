@@ -193,9 +193,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Pædagogisk printbart arbejdsark til demonstration af prisstrategi på Etsy' },
     samples: [
-      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Dyretema additionsarbejdsark der viser indgangsniveau prisprodukt til Etsy', caption: 'Additionsarbejdsark med dyretema — et typisk indgangsniveauprodukt prissat til $3,99 for en 10-siders pakke' },
-      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Ordsøgningspuslespil-arbejdsark der demonstrerer premiumprissætning for sprogspecifikke produkter', caption: 'Ordsøgningspuslespil — sprogversioner kræver premiumprissætning med mindre konkurrence på ikke-engelske markeder' },
-      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Sudoku-puslespil-arbejdsark der viser lagdelt sværhedsgrad prisstrategi', caption: 'Sudoku-puslespil — sværhedsbaseret lagdeling understøtter progressiv prissætning inden for en enkelt produktkategori' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du printbare arbejdsark til salg på Etsy — Forståelse af produktværdi og prissætning',

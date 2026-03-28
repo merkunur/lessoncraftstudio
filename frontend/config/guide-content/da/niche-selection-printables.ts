@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordsoegning der demonstrerer tematisk nicheindhold til printable-virksomheder' },
+    heroImage: { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp', alt: 'Ordsoegning der demonstrerer tematisk nicheindhold til printable-virksomheder' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Tematisk ordsoegning der viser nicheapplkation på tværs af emner', caption: 'Ordsoegning tilpasser sig til ethvert nichetema — dyr, ferier, fag og sæsonbetonede emner fungerer alle med det samme produktformat' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Farvelægningsside der demonstrerer visuel nicheprodukts alsidighed', caption: 'Farvelægningssider er blandt de mest alsidige nicheprodukter, der appellerer på tværs af aldersintervaller og anvendes på stort set ethvert visuelt tema' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Matchingsarbejdsark der viser pædagogisk nicheproduktsvariation', caption: 'Matchingsaktiviteter fungerer på tværs af pædagogiske nicher fra vokabular til matematik — en enkelt produkttype der validerer nicheefterspørgsel hurtigt' },
+      { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempelarbejdsark', caption: 'Jeg Ser, Jeg Ser eksempel 1' },
+      { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel 2', caption: 'Jeg Ser, Jeg Ser eksempel 2' },
+      { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel 3', caption: 'Jeg Ser, Jeg Ser eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsoegning til ethvert nichetema',

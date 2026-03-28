@@ -191,9 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog-arbejdsark med 11 farverige togvogne med bogstaver og matchende ledetrådbilleder' },
     samples: [
-      { src: '/samples/danish/alphabet%20train/Alfabettog%202.webp', alt: 'Farverigt alfabettog-arbejdsark med 11 vogne og bogstav-billede matchning', caption: 'Alfabettog-arbejdsark med 11 farverige vogne og bogstav-billede matchningsopgaver' },
-      { src: '/samples/danish/alphabet%20train/Alfabettog%203.webp', alt: 'Alfabettog med tematiske billeder og flere matchningsopgaver ved mellemniveau', caption: 'Tematisk alfabettog med konfigurerbart ledetrådantal for sværhedsskalering' },
-      { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Avanceret alfabettog med 11 ledetråde for maksimal sværhedsgrad', caption: 'Fuld 11-ledetråds-sværhedsgrad for avanceret bogstavgenkendelsesøvelse' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog — dansk eksempelarbejdsark', caption: 'Alfabettog eksempel 1' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%202.webp', alt: 'Alfabettog — dansk eksempel 2', caption: 'Alfabettog eksempel 2' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%203.webp', alt: 'Alfabettog — dansk eksempel 3', caption: 'Alfabettog eksempel 3' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Sådan skaber du alfabettog-arbejdsark — Komplet guide',

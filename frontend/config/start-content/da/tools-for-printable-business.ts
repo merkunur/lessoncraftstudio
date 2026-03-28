@@ -216,10 +216,9 @@ const content: StartContent = {
   visuals: {
     heroImage: { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Matchningsarbejdsark der viser vaerktojsalssidiggjed og tematiseret billedbiblioteksoutput' },
     samples: [
-      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Matchningsarbejdsark med billede-til-ord-matchning med tematiserede illustrationer', caption: 'Matchning — alsidigt vaerktoej med flere tilstande' },
-      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Ordsoegningspuslespil der viser sprogfoelsom generering', caption: 'Ordsoegning — mest populaere puslespilgenerator' },
-      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Malebilleder der viser designkvalitet uden sprogafhaengighed', caption: 'Farvelaegning — universelt visuelt indhold' },
-      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Krydsordspuslespil der viser flersprogede genereringsmuligheder', caption: 'Krydsord — flersproget puslespilvaerktoej' },
+      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
+      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
+      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Saadan laver du matchningsarbejdsark til din printbare forretning — LessonCraftStudio demo',

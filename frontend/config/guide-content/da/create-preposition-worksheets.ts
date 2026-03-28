@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/prepositions/Præpositioner%201.webp', alt: 'Præpositionsarbejdsark der viser billedscener med rumlige relationsøvelser til positionsords-øvelse' },
+    heroImage: { src: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp', alt: 'Præpositionsarbejdsark der viser billedscener med rumlige relationsøvelser til positionsords-øvelse' },
     samples: [
-      { src: '/samples/danish/prepositions/Præpositioner%202.webp', alt: 'Præpositionsarbejdsark med udfyld-den-blanke øvelser der bruger farverige billedscener der viser rumlige relationer', caption: 'Udfyld-den-blanke præpositionsøvelser med billedscener' },
-      { src: '/samples/danish/prepositions/Præpositioner%203.webp', alt: 'Præpositionsarbejdsark med flervalgs rumlige relationsøvelser til stilladseret øvelse', caption: 'Flervalg-tilstand til stilladseret begyndervenlig øvelse' },
-      { src: '/samples/danish/prepositions/Præpositioner%201.webp', alt: 'Avanceret præpositionsarbejdsark med formudskiftning der skaber unikke scenekombinationer', caption: 'Formudskiftning multiplicerer visuelle kombinationer til produktvariation' },
+      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp', alt: 'Præpositionsarbejdsark — dansk eksempelarbejdsark', caption: 'Præpositionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%202.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 2', caption: 'Præpositionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%203.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 3', caption: 'Præpositionsarbejdsark eksempel 3' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Sådan skaber du præpositionsarbejdsark — Komplet vejledning',

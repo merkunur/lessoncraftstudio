@@ -217,12 +217,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordsoegningspuslespil der demonstrerer flersproget arbejdsarksgenerering paa 11 sprog' },
+    heroImage: { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Ordsoegningspuslespil der demonstrerer flersproget arbejdsarksgenerering paa 11 sprog' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Ordsoegningspuslespil med sprogfoelsomt ordforraad', caption: 'Ordsoegning — Bedste flersprogede demo' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Krydsordspuslespil med lokaliserede ledetraade og svar', caption: 'Krydsord — Fuldt lokaliserede puslespil' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Bogstavblandings arbejdsark med sprogtilpasset ordforraad', caption: 'Bogstavblanding — Sprogfoelsomt output' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Alfabet tog arbejdsark der viser sprogspecifikke bogstavsaet', caption: 'Alfabet Tog — Tilpassede bogstavsaet' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog — dansk eksempelarbejdsark', caption: 'Alfabettog eksempel 1' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%202.webp', alt: 'Alfabettog — dansk eksempel 2', caption: 'Alfabettog eksempel 2' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%203.webp', alt: 'Alfabettog — dansk eksempel 3', caption: 'Alfabettog eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Saadan laver du ordsoegningspuslespil paa flere sprog — LessonCraftStudio Demo',

@@ -194,9 +194,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark der viser en kernekomponent af pædagogiske printable-pakker til Etsy-sælgere' },
     samples: [
-      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Dyretema additionsarbejdsark som en matematik-pakkekomponent til Etsy', caption: 'Additionsarbejdsark med dyretema — en kernekomponent til matematik-emnepakker på Etsy' },
-      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Dyretema subtraktionsarbejdsark der komplementerer addition i Etsy matematikpakker', caption: 'Subtraktionsarbejdsark med dyretema — parrer med additionsarbejdsark til komplette matematikpakker' },
-      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Dyre-ordsøgningspuslespil der tilføjer tværkategori variation til Etsy arbejdsark-pakker', caption: 'Ordsøgningspuslespil med dyretema — tilføjer læsefærdighedsværdi til tværkategori temapakker' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du additionsarbejdsark til Etsy-pakker — Multi-produkt pakkestrategi',

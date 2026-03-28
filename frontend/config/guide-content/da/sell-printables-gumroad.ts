@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside printable-produkt klar til salg på Gumroad butiksfront' },
+    heroImage: { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp', alt: 'Farvelægningsside printable-produkt klar til salg på Gumroad butiksfront' },
     samples: [
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Printbar farvelægningsside til Gumroad digitalt produktsalg', caption: 'Farvelægningssider skaber visuelt overbevisende produktbilleder der driver social medie-trafik til din Gumroad butik' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Ordsøgningspuslespil printable til Gumroad butikskatalog', caption: 'Ordsøgningspuslespil har bred appel på tværs af forældre og sælgerpublikummer — en alsidig Gumroad produkttype' },
-      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Matchingarbejdsark-aktivitet til Gumroad printable-forretning', caption: 'Matchingaktiviteter er højefterspørgsel pædagogiske printables der fungerer godt som individuelle produkter og i pakker' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp', alt: 'Tegn og Farvlæg — dansk eksempelarbejdsark', caption: 'Tegn og Farvlæg eksempel 1' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%202.webp', alt: 'Tegn og Farvlæg — dansk eksempel 2', caption: 'Tegn og Farvlæg eksempel 2' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%203.webp', alt: 'Tegn og Farvlæg — dansk eksempel 3', caption: 'Tegn og Farvlæg eksempel 3' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Sådan skaber du farvelægningssider til din Gumroad printable butik',

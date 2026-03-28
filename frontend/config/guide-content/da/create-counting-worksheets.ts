@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billedgraf-arbejdsark med spredt 4×5 billedgitter og søjlediagram til tælle- og graføvelse' },
     samples: [
-      { src: '/samples/danish/chart%20count/Billediagram%202.webp', alt: 'Billedgraf-arbejdsark med 20 spredte ikoner i et 4×5 gitter og 6-kolonners søjlediagram nedenfor', caption: 'Komplet billedgraf-arbejdsark med spredt billedgitter og søjlediagram til bruger-tælleøvelse' },
-      { src: '/samples/danish/chart%20count/Billediagram%203.webp', alt: 'Billedgraf facit med gul-fremhævede celler der viser korrekte tællinger', caption: 'Automatisk genereret facit med gul-fremhævede celler (#FFC857) der viser den korrekte tælling for hver billedtype' },
+      { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billediagram — dansk eksempelarbejdsark', caption: 'Billediagram eksempel 1' },
+      { src: '/samples/danish/chart%20count/Billediagram%202.webp', alt: 'Billediagram — dansk eksempel 2', caption: 'Billediagram eksempel 2' },
+      { src: '/samples/danish/chart%20count/Billediagram%203.webp', alt: 'Billediagram — dansk eksempel 3', caption: 'Billediagram eksempel 3' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Sådan skaber du tælle- og grafarbejdsark — Komplet vejledning',

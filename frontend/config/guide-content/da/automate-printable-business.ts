@@ -180,21 +180,9 @@ const content: GuideContent = {
       alt: 'Professionelt matematikarbejdsark der demonstrerer hurtig automatiseret skabelse for printbar forretningseffektivitet',
     },
     samples: [
-      {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
-        alt: 'Matematikarbejdsark der viser kvaliteten af automatiseret produktion',
-        caption: 'Arbejdsarkgeneratorer automatiserer det mest tidskrævende trin i printbar produktion',
-      },
-      {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
-        alt: 'Additionsarbejdsark der demonstrerer batchproduktion med temavariationer',
-        caption: 'Batchproduktion af temavariationer multiplicerer katalogproduktionen effektivt',
-      },
-      {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
-        alt: 'Ordsøgningspuslespil der viser systematisk indholdsoprettelse på tværs af temaer',
-        caption: 'Systematisk variation på tværs af temaer og sprog skalerer katalogvækst',
-      },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikopgave — dansk eksempelarbejdsark', caption: 'Matematikopgave eksempel 1' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikopgave — dansk eksempel 2', caption: 'Matematikopgave eksempel 2' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Sådan automatiserer du arbejdsarkskabelse for din printbare forretning',

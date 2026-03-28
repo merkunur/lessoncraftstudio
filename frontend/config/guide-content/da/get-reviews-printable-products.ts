@@ -180,21 +180,9 @@ const content: GuideContent = {
       alt: 'Professionelt matchingsarbejdsark der demonstrerer den produktkvalitet der tjener positive køberanmeldelser',
     },
     samples: [
-      {
-        src: '/samples/danish/matching/Find%20Parrene%202.webp',
-        alt: 'Matchingsarbejdsark der fremviser visuel kvalitet der driver positive køberanmeldelser',
-        caption: 'Højkvalitets matchingsarbejdsark tjener naturligt positive anmeldelser gennem visuel appel og pædagogisk værdi',
-      },
-      {
-        src: '/samples/danish/matching/Find%20Parrene%203.webp',
-        alt: 'Farvelægningsside der demonstrerer professionel designkvalitet der motiverer køberfeedback',
-        caption: 'Professionelle farvelægningssider genererer anmeldelser fordi købere øjeblikkeligt kan se og værdsætte designkvaliteten',
-      },
-      {
-        src: '/samples/danish/matching/Find%20Parrene%201.webp',
-        alt: 'Ordsøgningspuslespil der viser det populære produktformat der genererer høj anmeldelsesvolumen',
-        caption: 'Ordsøgninger genererer høj salgsvolumen og konsekvent positive anmeldelsesrater på tværs af aldersgrupper',
-      },
+      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
+      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
+      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Sådan får du anmeldelser af dine printbare produkter',

@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/crossword/Billedkrydsord%201.webp', alt: 'Krydsordspuslespil til børn med billedledetråde der viser tematisk ordforråd i et krydsende gitter' },
     samples: [
-      { src: '/samples/danish/crossword/Billedkrydsord%202.webp', alt: 'Børnekrydsordspuslespil med dyretema der viser nummereret gitter og billedledetråde', caption: 'Dyretemaet krydsordspuslespil med billedledetråde til børnehaveklasse og 1. klasse ordforrådsøvelse' },
-      { src: '/samples/danish/crossword/Billedkrydsord%203.webp', alt: 'Krydsordspuslespil facit der viser udfyldt gitter med alle bogstaver', caption: 'Automatisk facit genereret sammen med hvert krydsordspuslespil' },
+      { src: '/samples/danish/crossword/Billedkrydsord%201.webp', alt: 'Billedkrydsord — dansk eksempelarbejdsark', caption: 'Billedkrydsord eksempel 1' },
+      { src: '/samples/danish/crossword/Billedkrydsord%202.webp', alt: 'Billedkrydsord — dansk eksempel 2', caption: 'Billedkrydsord eksempel 2' },
+      { src: '/samples/danish/crossword/Billedkrydsord%203.webp', alt: 'Billedkrydsord — dansk eksempel 3', caption: 'Billedkrydsord eksempel 3' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Sådan skaber du krydsordspuslespil til børn — Komplet vejledning',

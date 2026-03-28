@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Tematiske billedbingokort der viser farverigt illustreret gitter med opråbskort til børn' },
     samples: [
-      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Billedbingokort med dyretema der viser 4x4 gitterlayout til gruppebrug', caption: 'Et 4×4 billedbingokort med dyretema i kun-billede visningstilstand' },
-      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Bingo opråbskort der viser alle tematiske billeder brugt på tværs af kortsættet', caption: 'Opråbsreferencekort der viser alle billeder brugt på tværs af bingokortsættet' },
+      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
+      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
+      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Sådan skaber du bingokort med tematiske billeder — Komplet vejledning',

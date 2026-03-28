@@ -213,16 +213,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
       primaryAlt: 'Malebillede arbejdsark med sort-hvid kontur klar til farvelægning',
     },
     sampleGallery: [
-      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Størrelsessammenligningsarbejdsark med tematiske billeder til at sætte ring om det største og mindste', caption: 'Stor og Lille Arbejdsark' },
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Mønstergenkendelsesarbejdsark med udfyldningssekvenser', caption: 'Mønster Arbejdsark' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Referencebillede tegnearbejdsark med gitter til at genskabe billedet', caption: 'Tegn og Farvelæg Arbejdsark' },
-      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Linjesporingsarbejdsark med parrede objekter og buede linjestier', caption: 'Tegne Linjer Arbejdsark' },
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Malebillede med sort-hvid kontur konverteret fra tematisk billede', caption: 'Malebillede' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Søjlediagram tællearbejdsark med tematiske billeddatapunkter', caption: 'Diagramtælling Arbejdsark' },
+      { src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp', alt: 'Stort eller Lille — dansk eksempel', caption: 'Stort eller Lille' },
+      { src: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.webp', alt: 'Mønstertoget — dansk eksempel', caption: 'Mønstertoget' },
+      { src: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp', alt: 'Mønstergåder — dansk eksempel', caption: 'Mønstergåder' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp', alt: 'Tegn og Farvlæg — dansk eksempel', caption: 'Tegn og Farvlæg' },
+      { src: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.webp', alt: 'Linjetegningsøvelse — dansk eksempel', caption: 'Linjetegningsøvelse' },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempel', caption: 'Farvelægningsside' },
+      { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billediagram — dansk eksempel', caption: 'Billediagram' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuel Indlæring-pakke — Se alle 7 generatorer i aktion',

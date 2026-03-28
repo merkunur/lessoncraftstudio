@@ -180,21 +180,9 @@ const content: GuideContent = {
       alt: 'Professionel farvelægningsside-arbejdsark der demonstrerer visuelt slående Pinterest pin-indhold for printable sælgere',
     },
     samples: [
-      {
-        src: '/samples/danish/coloring/coloring%20portrait%202.webp',
-        alt: 'Farvelægningsside-arbejdsark der viser visuel gennemslagskraft til Pinterest pin-design',
-        caption: 'Visuelt slående arbejdsark skaber naturligt overbevisende Pinterest pin-billeder',
-      },
-      {
-        src: '/samples/danish/coloring/coloring%20landscape%201.webp',
-        alt: 'Bingokort-arbejdsark der demonstrerer farverige pin-værdige produktdesigns',
-        caption: 'Farverige, tematiske produkter genererer højere gemningsrater og klikrater på Pinterest',
-      },
-      {
-        src: '/samples/danish/coloring/coloring%20portrait%201.webp',
-        alt: 'Ordsøgningspuslespil der viser alsidig produkttype til Pinterest-markedsføring',
-        caption: 'Alsidige produkttyper understøtter flere pin-varianter for bredere søgedækning',
-      },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
+      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Pinterest-markedsføringsstrategi for printbare arbejdsarksforretninger',

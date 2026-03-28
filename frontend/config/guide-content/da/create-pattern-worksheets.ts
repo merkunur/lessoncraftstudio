@@ -189,10 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/pattern%20worksheet/Mønstergåder%201.webp', alt: 'Mønstergenkendelsesarbejdsark med tematiske billeder der viser visuelle mønsterfuldførelsesøvelser til børn' },
+    heroImage: { src: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp', alt: 'Mønstergenkendelsesarbejdsark med tematiske billeder der viser visuelle mønsterfuldførelsesøvelser til børn' },
     samples: [
-      { src: '/samples/danish/pattern%20worksheet/Mønstergåder%202.webp', alt: 'Mønstergenkendelsesarbejdsark med dyretema der viser AB og ABC mønsterøvelser', caption: 'Mønstergenkendelsesarbejdsark med tematiske billeder med flere mønstertyper og automatisk facit' },
-      { src: '/samples/danish/pattern%20worksheet/Mønstergåder%203.webp', alt: 'Mønsterarbejdsark facit der viser fuldførte mønstre med korrekte billeder udfyldt', caption: 'Automatisk facit genereret sammen med hvert mønsterarbejdsark til hurtig rettelse' },
+      { src: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp', alt: 'Mønstergåder — dansk eksempelarbejdsark', caption: 'Mønstergåder eksempel 1' },
+      { src: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%202.webp', alt: 'Mønstergåder — dansk eksempel 2', caption: 'Mønstergåder eksempel 2' },
+      { src: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%203.webp', alt: 'Mønstergåder — dansk eksempel 3', caption: 'Mønstergåder eksempel 3' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Sådan skaber du mønstergenkendelsesarbejdsark — Komplet vejledning',

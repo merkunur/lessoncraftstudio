@@ -191,9 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark med tematiske illustrationer der viser billedbaserede matematikopgaver til salg på Etsy' },
     samples: [
-      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Dyretema additionsarbejdsark skabt til Etsy digital download listning', caption: 'Additionsarbejdsark med dyretema — billedbaserede matematikopgaver der skaber iøjnefaldende Etsy-listningsbilleder' },
-      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Subtraktionsarbejdsark der komplementerer additionsprodukter i en Etsy matematikarbejdsark-butik', caption: 'Subtraktionsarbejdsark — naturlig krydssalgsfølgesvend til additionslistninger i din Etsy-butik' },
-      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Matematikpuslespil gitterarbejdsark der viser unikt format der differentierer Etsy-listninger', caption: 'Matematikpuslespil gitter — unikt format med mindre Etsy-konkurrence end standardarbejdsark' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du additionsarbejdsark til salg på Etsy — Trin-for-trin vejledning',

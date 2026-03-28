@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordsøgningspuslespil med tematisk ordforråd gitter der viser skjulte ord til salg på Etsy' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgningspuslespil med tematisk ordforråd gitter der viser skjulte ord til salg på Etsy' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Dyretema ordsøgningspuslespil skabt til Etsy digital download listning', caption: 'Ordsøgningspuslespil med dyreordforråd-tema — gitterbaseret format der skaber iøjnefaldende Etsy-listningsbilleder' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Krydsordspuslespil der komplementerer ordsøgningsprodukter i en Etsy-puslespilbutik', caption: 'Krydsordspuslespil — naturlig krydssalgsfølgesvend til ordsøgningslistninger i din Etsy-butik' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordblandingspuslespil der viser komplementært format til Etsy puslespilpakker', caption: 'Ordblandingspuslespil — hurtig ordforrådsaktivitet der tilføjer variation til multi-format pakker' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningspuslespil til salg på Etsy — Trin-for-trin vejledning',

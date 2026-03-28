@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside printable til salg af pædagogiske ressourcer på Creative Fabrica markedsplads' },
     samples: [
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Printbar farvelægningsside til Creative Fabrica Learning-sektion', caption: 'Farvelægningssider bygger bro mellem håndværk og uddannelse på Creative Fabrica — appellerer til både designer- og sælgerpublikummer' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Matchingarbejdsark-aktivitet til Creative Fabrica pædagogiske produkter', caption: 'Tematiske matchingaktiviteter er højefterspørgsels-ressourcer i Creative Fabricas Learning-sektion' },
-      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Ordsøgningspuslespil printable til Creative Fabrica markedsplads', caption: 'Ordsøgningspuslespil tiltrækker abonnementsdownloads fra begge købersegmenter på Creative Fabrica' },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
+      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du pædagogiske arbejdsark til Creative Fabrica',

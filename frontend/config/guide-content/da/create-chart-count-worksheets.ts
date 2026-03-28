@@ -191,9 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billedgraf-arbejdsark med spredt 4×5 billedgitter der viser 20 ikoner fra 6 typer og søjlediagram hvor brugere tæller og grafer data' },
     samples: [
-      { src: '/samples/danish/chart%20count/Billediagram%202.webp', alt: 'Dyretema billedgraf-arbejdsark med 20 spredte dyreikoner i et 4×5 gitter og 6-kolonners søjlediagram til tælleøvelse', caption: 'Dyretema billedgraf — 6 dyretyper spredt hen over gitteret med søjlediagram nedenfor til datarepræsentationsøvelse' },
-      { src: '/samples/danish/chart%20count/Billediagram%203.webp', alt: 'Billedgraf facit med gul-fremhævede celler der viser korrekte tællinger for hver af de 6 billedtyper', caption: 'Automatisk genereret facit — gul-udfyldte celler (#FFC857) viser den korrekte tælling for hver billedtype' },
-      { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billedgraf-arbejdsark med dekorative baggrunds- og rammetemaer anvendt til poleret markedsplads-præsentation', caption: 'Dekoreret billedgraf — baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller til professionel styling' },
+      { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billediagram — dansk eksempelarbejdsark', caption: 'Billediagram eksempel 1' },
+      { src: '/samples/danish/chart%20count/Billediagram%202.webp', alt: 'Billediagram — dansk eksempel 2', caption: 'Billediagram eksempel 2' },
+      { src: '/samples/danish/chart%20count/Billediagram%203.webp', alt: 'Billediagram — dansk eksempel 3', caption: 'Billediagram eksempel 3' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Sådan skaber du billedgraf-arbejdsark med automatisk facit og spredte billedgittere — Trin-for-trin vejledning',

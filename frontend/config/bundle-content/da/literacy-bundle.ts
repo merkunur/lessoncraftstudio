@@ -213,17 +213,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+      primary: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
       primaryAlt: 'Ordsøgningsarbejdsark med tematisk ordforråds gitter og farvekodede facit',
     },
     sampleGallery: [
-      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Alfabet tog arbejdsark med bogstav-billede-matchende vogne', caption: 'Alfabet Tog Arbejdsark' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Forholdsords arbejdsark der viser rumlige relationer med billeder', caption: 'Forholdsord Arbejdsark' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Gæt ordet arbejdsark med billedledetråde og bogstavpladser', caption: 'Gæt Ordet Arbejdsark' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Bogstavblanding arbejdsark med farvekodede bogstavbrikker', caption: 'Bogstavblanding Arbejdsark' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Ordsøgningsgitter med skjulte ordforrådsord', caption: 'Ordsøgning Arbejdsark' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Kryptogrampuslespil med billedchifferkodning', caption: 'Kryptogram Arbejdsark' },
-      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Håndskriftsøvelse arbejdsark med guidede bogstavstreger', caption: 'Skriveøvelse Arbejdsark' },
+      { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog — dansk eksempel', caption: 'Alfabettog' },
+      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp', alt: 'Præpositionsarbejdsark — dansk eksempel', caption: 'Præpositionsarbejdsark' },
+      { src: '/samples/danish/word%20guess/G%C3%A6t%20Ordet%201.webp', alt: 'Gæt Ordet — dansk eksempel', caption: 'Gæt Ordet' },
+      { src: '/samples/danish/word%20scramble/Bogstavrod%201.webp', alt: 'Bogstavrod — dansk eksempel', caption: 'Bogstavrod' },
+      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgning — dansk eksempel', caption: 'Ordsøgning' },
+      { src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp', alt: 'Billed-Kryptogram — dansk eksempel', caption: 'Billed-Kryptogram' },
+      { src: '/samples/danish/writing/writing.webp', alt: 'Skriveøvelse — dansk eksempel', caption: 'Skriveøvelse' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Læsning & Sprog-pakke — Se alle 7 generatorer i aktion',

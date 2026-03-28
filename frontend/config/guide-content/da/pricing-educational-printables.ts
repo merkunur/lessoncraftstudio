@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den kvalitet der understøtter premiumprissætningsstrategier' },
     samples: [
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Additionsarbejdsark med tematiske billeder der understøtter premiumprissætning', caption: 'Professionel formatering og tematiske billeder retfærdiggør højere prispunkter — købere betaler mere for kvalitet og visuel appel' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Ordsoegning der demonstrerer funktionsdifferentiering til prissætning', caption: 'Ordsoegning med tematiske billeder retfærdiggør højere priser end basale tekst-kun versioner på alle platforme' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Farvelægningsside der viser kvalitet der understøtter konkurrencedygtig prissætning', caption: 'Højkvalitets farvelægningssider demonstrerer hvordan produktkvalitet direkte muliggør premiumprissætning i konkurrenceprægede kategorier' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikopgave — dansk eksempelarbejdsark', caption: 'Matematikopgave eksempel 1' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikopgave — dansk eksempel 2', caption: 'Matematikopgave eksempel 2' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Sådan skaber du matematikarbejdsark hurtigt — Effektiv produktion til bedre profitmarginer',

@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside skabt fra tematiske billeder der viser gråtone-konvertering til trykklare farvelægningsark' },
     samples: [
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Tematisk farvelægningsside med dyreillustrationer arrangeret på et frit lærred', caption: 'Farvelægningsside skabt med tematiske billeder fra biblioteket med frit lærreds-placering' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Gråtone-farvelægningsside klar til print med rene sort-hvide omrids', caption: 'Gråtone-eksport konverterer farverige designs til trykklare farvelægningssider' },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
+      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Sådan skaber du farvelægningssider fra tematiske billeder — Komplet vejledning',

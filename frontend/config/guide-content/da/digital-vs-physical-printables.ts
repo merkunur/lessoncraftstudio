@@ -180,21 +180,9 @@ const content: GuideContent = {
       alt: 'Professionelt additionsarbejdsark der demonstrerer digital printbar produktskabelse for både digital download og fysisk udskrivningsformat',
     },
     samples: [
-      {
-        src: '/samples/danish/addition/Sjov%20Addition%202.webp',
-        alt: 'Additionsarbejdsark der viser digitalt printbart produkt egnet til både download og fysisk udskrivning',
-        caption: 'Matematikarbejdsark fungerer godt som digitale downloads og som sider i trykte arbejdsbøger',
-      },
-      {
-        src: '/samples/danish/addition/Sjov%20Addition%203.webp',
-        alt: 'Farvelægningsside der demonstrerer produkttype populær i både digitalt og fysisk format',
-        caption: 'Farvelægningssider er topsælgere i både digital download og print-on-demand bogformater',
-      },
-      {
-        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
-        alt: 'Ordsøgningspuslespil der viser produkt ideelt til hybrid digitalt og fysisk salg',
-        caption: 'Ordsøgninger sælger individuelt som digitale downloads og samlet i fysiske puslespilsbøger',
-      },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du digitale og fysiske printbare produkter',

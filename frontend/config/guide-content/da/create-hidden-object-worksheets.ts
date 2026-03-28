@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp', alt: 'Skjulte genstande scene-arbejdsark der viser tematiske billeder arrangeret for børn til at finde specifikke genstande' },
     samples: [
-      { src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.webp', alt: 'I Spy skjulte genstande-arbejdsark med tematisk scene til visuel søge-aktivitet', caption: 'I Spy skjulte genstande-scene med tematiske billeder og distraktor-objekter til visuel søge-øvelse' },
-      { src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%203.webp', alt: 'Skjulte genstande-arbejdsark facit der fremhæver placeringerne af skjulte elementer', caption: 'Automatisk facit genereret til hvert skjulte genstande scene-arbejdsark' },
+      { src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp', alt: 'Find de Skjulte Objekter — dansk eksempelarbejdsark', caption: 'Find de Skjulte Objekter eksempel 1' },
+      { src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.webp', alt: 'Find de Skjulte Objekter — dansk eksempel 2', caption: 'Find de Skjulte Objekter eksempel 2' },
+      { src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%203.webp', alt: 'Find de Skjulte Objekter — dansk eksempel 3', caption: 'Find de Skjulte Objekter eksempel 3' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Sådan skaber du skjulte genstande scene-arbejdsark — Komplet vejledning',

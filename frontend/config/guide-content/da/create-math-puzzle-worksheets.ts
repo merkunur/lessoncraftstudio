@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp', alt: 'Matematikpuslespil-arbejdsark der viser omrokkerede billedstykker med matematikligninger for børn at løse og samle' },
     samples: [
-      { src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp', alt: 'Matematikpuslespil-arbejdsark med dyretema der viser gitterligninger og nummererede billedfragmenter', caption: 'Matematikpuslespil-arbejdsark — børn løser ligninger for at bestemme hvor hvert nummereret billedstykke hører til i gitteret' },
-      { src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp', alt: 'Matematikpuslespil facit der viser rekonstrueret billede med løste ligninger', caption: 'Automatisk facit der viser det rekonstruerede billede ved 30% opacitet med komplette løste ligninger' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp', alt: 'Matematikpuslespil — dansk eksempelarbejdsark', caption: 'Matematikpuslespil eksempel 1' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp', alt: 'Matematikpuslespil — dansk eksempel 2', caption: 'Matematikpuslespil eksempel 2' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp', alt: 'Matematikpuslespil — dansk eksempel 3', caption: 'Matematikpuslespil eksempel 3' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Sådan skaber du matematikpuslespil-arbejdsark — Komplet vejledning',

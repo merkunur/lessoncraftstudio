@@ -223,10 +223,9 @@ const content: StartContent = {
   visuals: {
     heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikarbejdsark der viser professionel outputkvalitet fra arbejdsarksgeneratorer' },
     samples: [
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikarbejdsark med professionelt layout og 300 DPI trykkvalitet', caption: 'Matematikarbejdsark — alsidig indtaegtsbygger' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Ordsoegningspuslespil til salg paa Etsy og Amazon KDP', caption: 'Ordsoegning — topsaelgende puslespilkategori' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Malebilleder til publicering af KDP-aktivitetsboeger', caption: 'Farvelaegning — hoejvolumenkategori paa KDP' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Sudoku-puslespil med universel international attraktion', caption: 'Sudoku — universel markedsattraktion' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikopgave — dansk eksempelarbejdsark', caption: 'Matematikopgave eksempel 1' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikopgave — dansk eksempel 2', caption: 'Matematikopgave eksempel 2' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Saadan laver du matematikarbejdsark til din printbare forretning — LessonCraftStudio demo',

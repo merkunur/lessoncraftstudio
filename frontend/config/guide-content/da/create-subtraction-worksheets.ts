@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp', alt: 'Subtraktionsarbejdsark med overkrydsede tematiske billeder der viser fratagningsøvelser til børn' },
     samples: [
-      { src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.webp', alt: 'Billedbaseret subtraktionsarbejdsark med overkrydsede dyr til børnehaveklasse', caption: 'Børnehaveklasse subtraktionsarbejdsark med Overstregning-øvelsestilstanden og tematiske billeder' },
-      { src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.webp', alt: 'Subtraktionsarbejdsark med facit der viser korrekte løsninger', caption: 'Automatisk facit genereret sammen med hvert subtraktionsarbejdsark' },
+      { src: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp', alt: 'Subtraktionsarbejdsark — dansk eksempelarbejdsark', caption: 'Subtraktionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.webp', alt: 'Subtraktionsarbejdsark — dansk eksempel 2', caption: 'Subtraktionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.webp', alt: 'Subtraktionsarbejdsark — dansk eksempel 3', caption: 'Subtraktionsarbejdsark eksempel 3' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Sådan skaber du subtraktionsarbejdsark — Komplet vejledning',

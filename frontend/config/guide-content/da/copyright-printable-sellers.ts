@@ -180,21 +180,9 @@ const content: GuideContent = {
       alt: 'Professionelt skrivearbejdsark der demonstrerer originale kreative designelementer der er ophavsretsbeskyttelige',
     },
     samples: [
-      {
-        src: '/samples/danish/writing/writing%20custom.webp',
-        alt: 'Skrivearbejdsark med original instruktionstekst og kreative layoutvalg',
-        caption: 'Skrivearbejdsark indeholder betydeligt originalt kreativt udtryk i deres instruktionstekst og design',
-      },
-      {
-        src: '/samples/danish/writing/writing%20beginning%20letter.webp',
-        alt: 'Ordsøgningspuslespil med tematisk billedmateriale der demonstrerer kreativt arrangement af pædagogisk indhold',
-        caption: 'Ordsøgningspuslespil demonstrerer ophavsretsbeskyttet kreativt arrangement af ordforrådslementer',
-      },
-      {
-        src: '/samples/danish/writing/writing.webp',
-        alt: 'Farvelægningsside med original tematiseret illustrationsdesign',
-        caption: 'Farvelægningssider har stærke ophavsretspositioner takket være den visuelle originalitet i deres designs',
-      },
+      { src: '/samples/danish/writing/writing.webp', alt: 'Skriveøvelse — dansk eksempelarbejdsark', caption: 'Skriveøvelse eksempel 1' },
+      { src: '/samples/danish/writing/writing%20custom.webp', alt: 'Skriveøvelse — dansk eksempel 2', caption: 'Skriveøvelse eksempel 2' },
+      { src: '/samples/danish/writing/writing%20beginning%20letter.webp', alt: 'Skriveøvelse — dansk eksempel 3', caption: 'Skriveøvelse eksempel 3' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Ophavsretsgrundlag for sælgere af printbare produkter',

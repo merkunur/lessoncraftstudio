@@ -176,25 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/matching/Find%20Parrene%201.webp',
+      src: '/samples/danish/bingo/Billedbingo%201.webp',
       alt: 'Matchingsarbejdsark der viser tema-alsidighed til profitabel nicheudforskning på tværs af pædagogiske emner',
     },
     samples: [
-      {
-        src: '/samples/danish/matching/Find%20Parrene%202.webp',
-        alt: 'Tematisk matchingsarbejdsark der demonstrerer nichediversitet på tværs af pædagogiske printable-emner',
-        caption: 'Matchingsarbejdsark spænder over snesevis af temaer, der lader dig udforske og teste flere nicher hurtigt',
-      },
-      {
-        src: '/samples/danish/matching/Find%20Parrene%203.webp',
-        alt: 'Ordsoegning der viser tværfags nichetestpotentiale på flere sprog',
-        caption: 'Ordsoegning validerer nicheefterspørgsel på tværs af fag og sprog med minimal produktionstid',
-      },
-      {
-        src: '/samples/danish/matching/Find%20Parrene%201.webp',
-        alt: 'Tematisk farvelægningsside der demonstrerer hvordan visuelle nicher oversættes til salgbare printable-produkter',
-        caption: 'Farvelægningssider afslører hvilke visuelle temaer der tiltrækker køberinteresse på tværs af forskellige markedssegmenter',
-      },
+      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
+      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
+      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Sådan undersøger du profitable printable-nicher med arbejdsarkgeneratorer',

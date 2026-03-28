@@ -176,25 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/bingo/Billedbingo%201.webp',
+      src: '/samples/danish/coloring/coloring%20portrait%201.webp',
       alt: 'Professionelt bingokort-arbejdsark der demonstrerer visuelt tiltalende printbare produkter ideelle til markedsføring på sociale medier',
     },
     samples: [
-      {
-        src: '/samples/danish/bingo/Billedbingo%202.webp',
-        alt: 'Bingokort der viser meget deleligt printbart produkt til indhold på sociale medier',
-        caption: 'Visuelt tiltalende produkter som bingokort skaber overbevisende indhold til sociale medier der driver engagement',
-      },
-      {
-        src: '/samples/danish/bingo/Billedbingo%203.webp',
-        alt: 'Farvelægningsside der demonstrerer fotogent printbart produkt til Instagram og Pinterest',
-        caption: 'Farvelægningssider fotograferer smukt til flatlayout-produktfremvisninger på visuelle platforme',
-      },
-      {
-        src: '/samples/danish/bingo/Billedbingo%201.webp',
-        alt: 'Ordsøgningspuslespil der viser populær printbar produkttype med stærk appel på sociale medier',
-        caption: 'Ordsøgninger tiltrækker bredt publikumsengagement og præsterer godt på tværs af sociale medieplatforme',
-      },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
+      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Sådan markedsfører du printbare arbejdsark på sociale medier',

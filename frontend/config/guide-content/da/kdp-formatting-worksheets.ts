@@ -199,9 +199,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikarbejdsark der viser gitterlayout og afstand formateret til Amazon KDP trykspecifikationer' },
     samples: [
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikarbejdsark med præcis gitterafstand der demonstrerer KDP margen- og layoutkrav', caption: 'Matematikarbejdsark layout — gitterbaseret formatering med tilstrækkelig cellestørrelse til komfortabel håndskrift inden for KDP margenspecifikationer' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Ordsøgningspuslespil-gitter der viser bogstavafstand formateret til KDP tryk', caption: 'Ordsøgningsgitter — konsekvent bogstavafstand ved 0,3-tommer celler sikrer komfortabel omringsling og læsbarhed i KDP-trykte bøger' },
-      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Additionsarbejdsark der demonstrerer rent enkeltside KDP layout', caption: 'Additionsarbejdsark — rent enkeltoperations-layout med tydelige svarfelter der demonstrerer professionel KDP interiørformatering' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikopgave — dansk eksempelarbejdsark', caption: 'Matematikopgave eksempel 1' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikopgave — dansk eksempel 2', caption: 'Matematikopgave eksempel 2' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Sådan skaber du trykklare matematikarbejdsark til Amazon KDP — Formateringsvejledning',

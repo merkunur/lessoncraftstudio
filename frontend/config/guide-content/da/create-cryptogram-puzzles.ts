@@ -191,9 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp', alt: 'Kryptogram-arbejdsark med billedchiffer der viser tematiske billeder mappet til bogstaver i alfabetet der koder en hemmelig sætning' },
     samples: [
-      { src: '/samples/danish/cryptogram/Billed-Kryptogram%202.webp', alt: 'Kryptogram-arbejdsark med tematiske billeder der erstatter bogstaver i en kodet hemmelig sætning', caption: 'Billedchiffer-puslespil — afkod den hemmelige besked ved at identificere hvilket billede der repræsenterer hvilket bogstav' },
-      { src: '/samples/danish/cryptogram/Billed-Kryptogram%203.webp', alt: 'Kryptogram-arbejdsark med tematiske billeder og Bogstaver at afsløre hints til stilladseret sværhedsgrad', caption: 'Tematisk chiffer med Bogstaver at afsløre — forudløste mappinger giver stilladsering til begyndere' },
-      { src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp', alt: 'Kryptogram facit med komplet bogstavlegende der viser alle alfabet-til-billede mappinger i sorteret rækkefølge', caption: 'Bogstavlegende-facit — hvert bogstav i alfabetet parret med dets tildelte billede til definitiv løsningsreference' },
+      { src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp', alt: 'Billed-Kryptogram — dansk eksempelarbejdsark', caption: 'Billed-Kryptogram eksempel 1' },
+      { src: '/samples/danish/cryptogram/Billed-Kryptogram%202.webp', alt: 'Billed-Kryptogram — dansk eksempel 2', caption: 'Billed-Kryptogram eksempel 2' },
+      { src: '/samples/danish/cryptogram/Billed-Kryptogram%203.webp', alt: 'Billed-Kryptogram — dansk eksempel 3', caption: 'Billed-Kryptogram eksempel 3' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Sådan skaber du billedkryptogram chiffer-puslespil — Trin-for-trin vejledning',

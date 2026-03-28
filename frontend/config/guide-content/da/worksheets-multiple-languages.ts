@@ -176,25 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
+      src: '/samples/danish/word%20scramble/Bogstavrod%201.webp',
       alt: 'Ordsoegnings-arbejdsark der demonstrerer flersproget indholdsgenerering med korrekt tegnhåndtering',
     },
     samples: [
-      {
-        src: '/samples/danish/alphabet%20train/Alfabettog%202.webp',
-        alt: 'Ordsoegningspuslespil der viser vokabularbaseret indhold der kræver korrekt flersproget tegnsupport',
-        caption: 'Ordsoegnings-arbejdsark demonstrerer vigtigheden af korrekt tegnhåndtering på tværs af sprog',
-      },
-      {
-        src: '/samples/danish/alphabet%20train/Alfabettog%203.webp',
-        alt: 'Alfabet-tog arbejdsark der viser sprogspecifik bogstav- og tegngenerering',
-        caption: 'Alfabetarbejdsark kræver sprogspecifikke tegn inklusive omlydstegn og accentbogstaver',
-      },
-      {
-        src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
-        alt: 'Matchingsarbejdsark der viser flersproget produktion med visuelle og tekstelementer',
-        caption: 'Matchingsarbejdsark kombinerer visuelle elementer med sprogspecifikt vokabular til internationale markeder',
-      },
+      { src: '/samples/danish/word%20scramble/Bogstavrod%201.webp', alt: 'Bogstavrod — dansk eksempelarbejdsark', caption: 'Bogstavrod eksempel 1' },
+      { src: '/samples/danish/word%20scramble/Bogstavrod%202.webp', alt: 'Bogstavrod — dansk eksempel 2', caption: 'Bogstavrod eksempel 2' },
+      { src: '/samples/danish/word%20scramble/Bogstavrod%203.webp', alt: 'Bogstavrod — dansk eksempel 3', caption: 'Bogstavrod eksempel 3' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Sådan skaber du flersprogede alfabetarbejdsark',

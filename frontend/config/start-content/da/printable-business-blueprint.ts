@@ -223,10 +223,9 @@ const content: StartContent = {
   visuals: {
     heroImage: { src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp', alt: 'Matematikpuslespilarbejdsark lavet med LessonCraftStudio-generator' },
     samples: [
-      { src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp', alt: 'Matematikpuslespilarbejdsark der viser konfigurerbar outputvariation', caption: 'Matematikpuslespil — Konfigurerbar svaarhed' },
-      { src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp', alt: 'Ordsoegningsarbejdsark med tematiseret ordliste', caption: 'Ordsoegning — Tematiseret puslespil' },
-      { src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp', alt: 'Malebilledearbejdsark med tematiserede illustrationer', caption: 'Malebillede — Visuel attraktion' },
-      { src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp', alt: 'Matchningsarbejdsark der demonstrerer visuelt internationalt format', caption: 'Matchning — Fungerer paa alle sprog' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp', alt: 'Matematikpuslespil — dansk eksempelarbejdsark', caption: 'Matematikpuslespil eksempel 1' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp', alt: 'Matematikpuslespil — dansk eksempel 2', caption: 'Matematikpuslespil eksempel 2' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp', alt: 'Matematikpuslespil — dansk eksempel 3', caption: 'Matematikpuslespil eksempel 3' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Saadan laver du matematikpuslespilarbejdsark — LessonCraftStudio-demo',

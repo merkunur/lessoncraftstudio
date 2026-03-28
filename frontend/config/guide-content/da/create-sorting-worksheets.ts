@@ -191,8 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp', alt: 'To-kategori sorteringsarbejdsark med stiplede kategorirammer og blandet udklipsgitter til klassifikationsaktiviteter' },
     samples: [
-      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.webp', alt: 'Billedsorteringsarbejdsark der viser to side-om-side kategorirammer og blandet udklipsgitter nedenfor', caption: 'To-kategori sorteringsarbejdsark med side-om-side kategorirammer og blandet udklipsgitter' },
-      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%203.webp', alt: 'Automatisk genereret facit med forstørrede billeder sorteret i korrekte kategoribokse', caption: 'Automatisk genereret facit med billeder vist i seks gange udklipsgitter-cellestørrelsen' },
+      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp', alt: 'Sorter Billeder — dansk eksempelarbejdsark', caption: 'Sorter Billeder eksempel 1' },
+      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.webp', alt: 'Sorter Billeder — dansk eksempel 2', caption: 'Sorter Billeder eksempel 2' },
+      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%203.webp', alt: 'Sorter Billeder — dansk eksempel 3', caption: 'Sorter Billeder eksempel 3' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Sådan skaber du kategorisorteringsarbejdsark — Komplet vejledning',

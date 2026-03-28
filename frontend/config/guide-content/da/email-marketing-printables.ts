@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+      src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
       alt: 'Professionelt ordsøgningsarbejdsark der demonstrerer leadmagnetkvalitet til e-mail-markedsføringskampagner',
     },
     samples: [
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%202.webp',
         alt: 'Ordsøgningsarbejdsark ideel til e-mail-leadmagneter der tiltrækker printable købere',
         caption: 'Ordsøgninger gør overbevisende leadmagneter der tiltrækker dit målkøberpublikum',
       },
       {
-        src: '/samples/danish/coloring/Farvel%C3%A6gning%20portræt%201.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%203.webp',
         alt: 'Farvelægningsside der viser visuelt tiltalende produkt til e-mail-kampagnepromovering',
         caption: 'Visuelt slående produkter driver højere klikrater i e-mail-kampagner',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
         alt: 'Additionsarbejdsark der demonstrerer stedsegrønt indhold til automatiserede e-mail-sekvenser',
         caption: 'Stedsegrønt matematikindhold driver automatiserede sæsonbestemte e-mail-kampagner året rundt',
       },

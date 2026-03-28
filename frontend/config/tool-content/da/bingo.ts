@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/bingo/Billedbingo%201.jpeg',
+        src: '/samples/danish/bingo/Billedbingo%201.webp',
         alt: 'Billedbingokort med billedfyldning, der viser farverige tematiske illustrationer i gitterceller og cirkulære billedbrikker med stiplede kanter',
         caption: 'Billedfyldningstilstand — farverige illustrationer i både kortceller og cirkulære brikker for visuelt bingo',
       },
       {
-        src: '/samples/danish/bingo/Billedbingo%202.jpeg',
+        src: '/samples/danish/bingo/Billedbingo%202.webp',
         alt: 'Billedbingokort med ordfyldning, der viser lokaliserede billednavne i gitterceller og ordbrikker til ordforråds bingo',
         caption: 'Ordfyldningstilstand — lokaliserede billednavne til ordforrådsbaserede flersprogede bingoprodukter',
       },
       {
-        src: '/samples/danish/bingo/Billedbingo%201%20callout.jpeg',
+        src: '/samples/danish/bingo/Billedbingo%203.webp',
         alt: 'Bingo opråbsliste med dynamisk ordgitter, der viser alle spilobjekter organiseret i kolonner for spillelederen',
         caption: 'Opråbsliste — dynamisk ordgitter med beregnede kolonner og ensartet skriftstørrelse for spillelederen',
       },

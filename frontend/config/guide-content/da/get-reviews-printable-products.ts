@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/matching/Matchende%20portræt.webp',
+      src: '/samples/danish/matching/Find%20Parrene%201.webp',
       alt: 'Professionelt matchingsarbejdsark der demonstrerer den produktkvalitet der tjener positive køberanmeldelser',
     },
     samples: [
       {
-        src: '/samples/danish/matching/Matchende%20portræt.webp',
+        src: '/samples/danish/matching/Find%20Parrene%202.webp',
         alt: 'Matchingsarbejdsark der fremviser visuel kvalitet der driver positive køberanmeldelser',
         caption: 'Højkvalitets matchingsarbejdsark tjener naturligt positive anmeldelser gennem visuel appel og pædagogisk værdi',
       },
       {
-        src: '/samples/danish/coloring/Farvel%C3%A6gning%20portræt%201.webp',
+        src: '/samples/danish/matching/Find%20Parrene%203.webp',
         alt: 'Farvelægningsside der demonstrerer professionel designkvalitet der motiverer køberfeedback',
         caption: 'Professionelle farvelægningssider genererer anmeldelser fordi købere øjeblikkeligt kan se og værdsætte designkvaliteten',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/matching/Find%20Parrene%201.webp',
         alt: 'Ordsøgningspuslespil der viser det populære produktformat der genererer høj anmeldelsesvolumen',
         caption: 'Ordsøgninger genererer høj salgsvolumen og konsekvent positive anmeldelsesrater på tværs af aldersgrupper',
       },

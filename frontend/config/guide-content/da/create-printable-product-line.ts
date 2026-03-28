@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbejdsark der demonstrerer konsistent produktformat til en printbar produktlinje' },
+    heroImage: { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Matchingsarbejdsark der demonstrerer konsistent produktformat til en printbar produktlinje' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbejdsark der viser konsistent format på tværs af temaer til produktlinjeopbygning', caption: 'Matchingsarbejdsark opretholder det samme professionelle format på tværs af ethvert tema — fundamentet for en visuelt konsistent produktlinje' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbejdsark der repræsenterer matematikproduktlinje med progressive sværhedsgrader', caption: 'Matematikarbejdsark ved flere sværhedsgrader skaber progressiv dybde inden for din produktlinje — enkeltcifret til avancerede operationer' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Farvelægningsside der viser visuel konsistens på tværs af tematiske produktvariationer', caption: 'Farvelægningssider på tværs af forskellige temaer demonstrerer hvordan en produktlinje opretholder visuel sammenhæng mens den tilbyder variation til købere' },
+      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Matchingsarbejdsark der viser konsistent format på tværs af temaer til produktlinjeopbygning', caption: 'Matchingsarbejdsark opretholder det samme professionelle format på tværs af ethvert tema — fundamentet for en visuelt konsistent produktlinje' },
+      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Additionsarbejdsark der repræsenterer matematikproduktlinje med progressive sværhedsgrader', caption: 'Matematikarbejdsark ved flere sværhedsgrader skaber progressiv dybde inden for din produktlinje — enkeltcifret til avancerede operationer' },
+      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Farvelægningsside der viser visuel konsistens på tværs af tematiske produktvariationer', caption: 'Farvelægningssider på tværs af forskellige temaer demonstrerer hvordan en produktlinje opretholder visuel sammenhæng mens den tilbyder variation til købere' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Sådan skaber du matchingsarbejdsark til en konsistent printbar produktlinje',

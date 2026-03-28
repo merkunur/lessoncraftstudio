@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/crossword/Billedkrydsord%201.jpeg',
+        src: '/samples/danish/crossword/Billedkrydsord%201.webp',
         alt: 'Billedkrydsord arbejdsark med tematiske billedledetråde og 15 gange 15 krydsordsgitter',
         caption: 'Tematisk billedkrydsord — billeder som ledetråde med nummererede gitterpositioner',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%202.jpeg',
+        src: '/samples/danish/crossword/Billedkrydsord%202.webp',
         alt: 'Billedkrydsord puslespil med farverige illustrationer og krydsende ord i gitteret',
         caption: 'Billedledetråde — farverige illustrationer erstatter traditionelle tekstledetråde',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%201%20answer_key.jpeg',
+        src: '/samples/danish/crossword/Billedkrydsord%203.webp',
         alt: 'Billedkrydsord facit med alle korrekte bogstaver udfyldt i 15 gange 15 gitteret',
         caption: 'Automatisk facit — udfyldt gitter viser alle korrekte svar til selvkontrol',
       },

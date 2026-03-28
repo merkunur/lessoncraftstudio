@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgnings-arbejdsark-ressource optimeret til Gumroad butikssynlighed og salg' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsøgnings-arbejdsark-ressource optimeret til Gumroad butikssynlighed og salg' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil optimeret til Gumroad butik katalogvækst', caption: 'Ordsøgningspuslespil er blandt de mest alsidige Gumroad ressourcer — skab tematiske sæsonvariationer til hurtig katalogudvidelse' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Matematikpuslespil-arbejdsark til Gumroad butiksdifferentiering', caption: 'Unikke matematikpuslespil-formater møder lavere konkurrence på Gumroad end standardarbejdsark — en differentieringsstrategi for overfyldte kategorier' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Krydsordspuslespil-aktivitet til Gumroad ordforrådsressourcer', caption: 'Krydsordspuslespil er højefterspørgsel ordforrådsaktiviteter som købere søger efter fag og klassetrin på Gumroad' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Ordsøgningspuslespil optimeret til Gumroad butik katalogvækst', caption: 'Ordsøgningspuslespil er blandt de mest alsidige Gumroad ressourcer — skab tematiske sæsonvariationer til hurtig katalogudvidelse' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Matematikpuslespil-arbejdsark til Gumroad butiksdifferentiering', caption: 'Unikke matematikpuslespil-formater møder lavere konkurrence på Gumroad end standardarbejdsark — en differentieringsstrategi for overfyldte kategorier' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Krydsordspuslespil-aktivitet til Gumroad ordforrådsressourcer', caption: 'Krydsordspuslespil er højefterspørgsel ordforrådsaktiviteter som købere søger efter fag og klassetrin på Gumroad' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningspuslespil til din Gumroad butik — Optimeringsvejledning',

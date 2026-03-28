@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Puslespils-arbejdsark med huller skåret fra en farverig illustration og nummererede løsningsmuligheder inklusive distraktorer nedenfor med turkis Manglende brikker overskrift og blågrøn-pink dobbelt kantindraming' },
+    heroImage: { src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp', alt: 'Puslespils-arbejdsark med huller skåret fra en farverig illustration og nummererede løsningsmuligheder inklusive distraktorer nedenfor med turkis Manglende brikker overskrift og blågrøn-pink dobbelt kantindraming' },
     samples: [
-      { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Manglende brikker puslespils-arbejdsark der viser et billede med udskårne huller og nummererede løsningsmuligheder vist nedenfor med dobbelt kant-overskrift', caption: 'Puslespils-arbejdsark med smart-udtrukne brikker og nummererede løsningsmuligheder inklusive distraktorer' },
-      { src: '/samples/english/missing pieces/Missing Pieces answer_key.webp', alt: 'Automatisk genereret facit med gul-fremhævede taletiketter placeret inde i hvert hul der viser det korrekte muligheds-indeks', caption: 'Automatisk genereret facit med gul-fremhævede etiketter der viser korrekt mulighed for hvert hul' },
+      { src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.webp', alt: 'Manglende brikker puslespils-arbejdsark der viser et billede med udskårne huller og nummererede løsningsmuligheder vist nedenfor med dobbelt kant-overskrift', caption: 'Puslespils-arbejdsark med smart-udtrukne brikker og nummererede løsningsmuligheder inklusive distraktorer' },
+      { src: '/samples/danish/missing%20pieces/Manglende%20Dele%203.webp', alt: 'Automatisk genereret facit med gul-fremhævede taletiketter placeret inde i hvert hul der viser det korrekte muligheds-indeks', caption: 'Automatisk genereret facit med gul-fremhævede etiketter der viser korrekt mulighed for hvert hul' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Sådan skaber du manglende brikker-puslespil — Komplet vejledning',

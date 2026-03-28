@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den produktkvalitet der understøtter skalerbar printable virksomhedsvækst' },
+    heroImage: { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%201.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den produktkvalitet der understøtter skalerbar printable virksomhedsvækst' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbejdsark med tematiske billeder der viser produktdiversitet til katalogskalering', caption: 'Tematiske arbejdsarkvariationer demonstrerer hvordan ét produktkoncept skalerer til flere listninger på tværs af temaer, klassetrin og sprog' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegning der viser flersproget skaleringspotentiale', caption: 'Ordsoegning skabt på 11 sprog multiplicerer dit katalog uden at multiplicere kreativ indsats — det samme koncept når internationale markeder' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbejdsark der demonstrerer systematisk katalogudvidelse gennem temavariationer', caption: 'Matchingsarbejdsark på tværs af temaer viser systematisk produktlinjeudvidelse — hvert nyt tema tilføjer produkter med beviste formater og eksisterende billedaktiver' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%202.webp', alt: 'Additionsarbejdsark med tematiske billeder der viser produktdiversitet til katalogskalering', caption: 'Tematiske arbejdsarkvariationer demonstrerer hvordan ét produktkoncept skalerer til flere listninger på tværs af temaer, klassetrin og sprog' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%203.webp', alt: 'Ordsoegning der viser flersproget skaleringspotentiale', caption: 'Ordsoegning skabt på 11 sprog multiplicerer dit katalog uden at multiplicere kreativ indsats — det samme koncept når internationale markeder' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%201.webp', alt: 'Matchingsarbejdsark der demonstrerer systematisk katalogudvidelse gennem temavariationer', caption: 'Matchingsarbejdsark på tværs af temaer viser systematisk produktlinjeudvidelse — hvert nyt tema tilføjer produkter med beviste formater og eksisterende billedaktiver' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Sådan skaber du farvelægningssider med tegn og farvelæg — Demonstration af kreativt udvalg til katalogskalering',

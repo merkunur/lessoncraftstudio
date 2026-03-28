@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.jpeg',
+        src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
         alt: 'Manglende brikker puslespil med firkantede huller klippet ud og nummererede løsningsalternativer for visuel identifikation',
         caption: 'Firkantede brikker — rene geometriske klip med nummererede løsningsalternativer inklusive distraktorer',
       },
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.jpeg',
+        src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.webp',
         alt: 'Manglende brikker puslespil med cirkulære huller og nummererede løsningsalternativer inklusive distraktor-brikker',
         caption: 'Cirkulære brikker — afrundede klip med distraktorer, der forhindrer eliminering',
       },
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%201%20answer_key.jpeg',
+        src: '/samples/danish/missing%20pieces/Manglende%20Dele%203.webp',
         alt: 'Manglende brikker puslespil facit med gulmarkerede nummertiketter placeret inde i hvert hul, der viser det korrekte alternativindeks',
         caption: 'Automatisk genereret facit — gulmarkerede etiketter (rgba(255,255,0,0.7)) viser korrekt alternativ for hvert hul',
       },

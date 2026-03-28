@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Eksempel paa malebillede lavet med LessonCraftStudio-generatoren for Etsy-saelgere' },
+    heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Eksempel paa malebillede lavet med LessonCraftStudio-generatoren for Etsy-saelgere' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malebillede til Etsy printbar butik', caption: 'Malebilleder — Etsy topkategori' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil printbart arbejdsark til Etsy-annonce', caption: 'Ordsoegning — Hoej soegevolumen' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbejdsark med billedbaserede matematikopgaver', caption: 'Addition — Stedsgroen matematikkategori' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbejdsark for internationale Etsy-koebere', caption: 'Matchning — Tekstfri visuel aktivitet' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Malebillede til Etsy printbar butik', caption: 'Malebilleder — Etsy topkategori' },
+      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Ordsoegningspuslespil printbart arbejdsark til Etsy-annonce', caption: 'Ordsoegning — Hoej soegevolumen' },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Additionsarbejdsark med billedbaserede matematikopgaver', caption: 'Addition — Stedsgroen matematikkategori' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Matchningsarbejdsark for internationale Etsy-koebere', caption: 'Matchning — Tekstfri visuel aktivitet' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Saadan laver du malebilleder — LessonCraftStudio demo',

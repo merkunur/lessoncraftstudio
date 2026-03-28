@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Håndskriftsøvelsesarbejdsark der viser progressiv sporing-til-kopiering bogstavdannelsesøvelser til børn' },
+    heroImage: { src: '/samples/danish/writing/writing.webp', alt: 'Håndskriftsøvelsesarbejdsark der viser progressiv sporing-til-kopiering bogstavdannelsesøvelser til børn' },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Håndskriftsøvelsesark med sporingsrækker og stregrækkefølge-pile til bogstavdannelse', caption: 'Progressivt håndskriftsarbejdsark med sporings-, falmende sporings- og guidet kopieringsrækker til bogstavøvelse' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Håndskriftsarbejdsark med tematiske billeder parret med bogstavsporingsøvelse', caption: 'Tematisk håndskriftsøvelsesark der parrer bogstavsporing med billedbibliotekvisuelle elementer' },
+      { src: '/samples/danish/writing/writing%20custom.webp', alt: 'Håndskriftsøvelsesark med sporingsrækker og stregrækkefølge-pile til bogstavdannelse', caption: 'Progressivt håndskriftsarbejdsark med sporings-, falmende sporings- og guidet kopieringsrækker til bogstavøvelse' },
+      { src: '/samples/danish/writing/writing%20beginning%20letter.webp', alt: 'Håndskriftsarbejdsark med tematiske billeder parret med bogstavsporingsøvelse', caption: 'Tematisk håndskriftsøvelsesark der parrer bogstavsporing med billedbibliotekvisuelle elementer' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Sådan skaber du håndskriftsøvelsesark — Komplet vejledning',

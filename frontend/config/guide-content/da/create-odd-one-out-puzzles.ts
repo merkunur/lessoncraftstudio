@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Find den forkerte-arbejdsark med fire billeder per øvelsesrække der viser tre fælles elementer og ét forkert element med koral-ambra-turkis overskrift' },
+    heroImage: { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp', alt: 'Find den forkerte-arbejdsark med fire billeder per øvelsesrække der viser tre fælles elementer og ét forkert element med koral-ambra-turkis overskrift' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Find den forkerte-arbejdsark der viser øvelseskort med fire billeder per række og stilet Find den forkerte overskrift', caption: 'Find den forkerte-arbejdsark med fire-billeders øvelsesrækker og adaptivt kolonnelayout' },
-      { src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp', alt: 'Automatisk genereret facit med røde cirkelomrids tegnet rundt om det forkerte element i hver øvelsesrække', caption: 'Automatisk genereret facit med røde cirkelmarkører der identificerer det forkerte element i hver række' },
+      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.webp', alt: 'Find den forkerte-arbejdsark der viser øvelseskort med fire billeder per række og stilet Find den forkerte overskrift', caption: 'Find den forkerte-arbejdsark med fire-billeders øvelsesrækker og adaptivt kolonnelayout' },
+      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%203.webp', alt: 'Automatisk genereret facit med røde cirkelomrids tegnet rundt om det forkerte element i hver øvelsesrække', caption: 'Automatisk genereret facit med røde cirkelmarkører der identificerer det forkerte element i hver række' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Sådan skaber du find den forkerte-puslespil — Komplet vejledning',

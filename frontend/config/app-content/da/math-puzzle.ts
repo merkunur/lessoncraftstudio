@@ -257,17 +257,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%202.jpeg',
+        src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
         alt: 'Mattepuslespil arbejdsark med 3×3 additionsgitter og dyretema',
         caption: 'Additionstilstand — 3×3 gitter med 9 puslespilsbrikker og blandede svar nedenfor',
       },
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%203.jpeg',
+        src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp',
         alt: 'Mattepuslespil arbejdsark med 2×3 subtraktionsgitter og naturtema',
         caption: 'Subtraktionstilstand — 2×3 gitter for en hurtig puslespilsudfordring med 6 brikker',
       },
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%204.jpeg',
+        src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp',
         alt: 'Mattepuslespil arbejdsark med 4×4 blandet operationsgitter og køretøjstema',
         caption: 'Blandet tilstand — 4×4 gitter med 16 brikker for avanceret matematikøvelse',
       },

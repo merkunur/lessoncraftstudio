@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Billedsudoku puslespil-arbejdsark der viser tematisk billedgitter egnet til Amazon KDP sudokubog interiørsider' },
+    heroImage: { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Billedsudoku puslespil-arbejdsark der viser tematisk billedgitter egnet til Amazon KDP sudokubog interiørsider' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Dyretema billedsudoku puslespil formateret til KDP børne-sudokubog', caption: 'Billedsudoku med dyretema — billedbaserede gitter gør sudokulogik tilgængelig for børn i alderen 3 til 7 der endnu ikke har lært tal' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Billedsudoku puslespil-arbejdsark til KDP bog interiør', caption: 'Billedsudoku-arbejdsark — 4x4 gitter med klare billeder og generøs cellestørrelse til komfortabel løsning af små børn' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Matematikpuslespil-arbejdsark til ledsager KDP puslespilkatalog', caption: 'Matematikpuslespil — talbaserede logikpuslespil komplementerer sudoku naturligt i variety puslespilbøger og krydspromoverer gennem din forfatterside' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%202.webp', alt: 'Dyretema billedsudoku puslespil formateret til KDP børne-sudokubog', caption: 'Billedsudoku med dyretema — billedbaserede gitter gør sudokulogik tilgængelig for børn i alderen 3 til 7 der endnu ikke har lært tal' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%203.webp', alt: 'Billedsudoku puslespil-arbejdsark til KDP bog interiør', caption: 'Billedsudoku-arbejdsark — 4x4 gitter med klare billeder og generøs cellestørrelse til komfortabel løsning af små børn' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Matematikpuslespil-arbejdsark til ledsager KDP puslespilkatalog', caption: 'Matematikpuslespil — talbaserede logikpuslespil komplementerer sudoku naturligt i variety puslespilbøger og krydspromoverer gennem din forfatterside' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sådan skaber du billedsudoku-puslespil til Amazon KDP-bøger — Trin-for-trin vejledning',

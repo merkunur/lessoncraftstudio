@@ -212,17 +212,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/subtraction/Sjov%20Subtraktion%201.jpeg',
+        src: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
         alt: 'Overstregnings subtraktions arbejdsark med dyretema, der viser overstregede billeder',
         caption: 'Overstregnings-tilstand med dyretema',
       },
       {
-        src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.jpeg',
+        src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.webp',
         alt: 'Subtraktions arbejdsark med Billede minus Tal-tilstand og tematiske billeder',
         caption: 'Billede − Tal-tilstand med tematiske billeder',
       },
       {
-        src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.jpeg',
+        src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.webp',
         alt: 'Find Subtrahenden arbejdsark med dekorativ ramme',
         caption: 'Find Subtrahenden-tilstand med dekorativ ramme',
       },

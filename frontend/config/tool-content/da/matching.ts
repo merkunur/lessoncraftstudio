@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/matching/Find%20Parrene%201.jpeg',
+        src: '/samples/danish/matching/Find%20Parrene%201.webp',
         alt: 'Begyndelsesbogstav matchnings arbejdsark med billeder til venstre og deres første bogstaver til højre for foniksøvelse',
         caption: 'Begyndelsesbogstav-tilstand — brugerne matcher billeder med deres første bogstaver med store eller små bogstaver',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%202.jpeg',
+        src: '/samples/danish/matching/Find%20Parrene%202.webp',
         alt: 'Billede og ord matchnings arbejdsark med mærkede par på begge sider for ordforrådsforstærkningsaktiviteter',
         caption: 'Billede+Ord-tilstand — mærkede billedpar på begge sider til ordforråds matchning og ordgenkendelse',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%201%20answer_key.jpeg',
+        src: '/samples/danish/matching/Find%20Parrene%203.webp',
         alt: 'Matchnings arbejdsark facit med horisontale forbindelseslinjer tegnet mellem korrekte par for øjeblikkelig svarverifikation',
         caption: 'Automatisk genereret facit — forbindelseslinjer (#555) mellem korrekte par for øjeblikkelig verifikation',
       },

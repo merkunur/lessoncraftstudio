@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil med tematisk ordforråd gitter der viser skjulte ord til salg på Etsy' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsøgningspuslespil med tematisk ordforråd gitter der viser skjulte ord til salg på Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Dyretema ordsøgningspuslespil skabt til Etsy digital download listning', caption: 'Ordsøgningspuslespil med dyreordforråd-tema — gitterbaseret format der skaber iøjnefaldende Etsy-listningsbilleder' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Krydsordspuslespil der komplementerer ordsøgningsprodukter i en Etsy-puslespilbutik', caption: 'Krydsordspuslespil — naturlig krydssalgsfølgesvend til ordsøgningslistninger i din Etsy-butik' },
-      { src: '/samples/english/word scramble/Word Scramble 1.webp', alt: 'Ordblandingspuslespil der viser komplementært format til Etsy puslespilpakker', caption: 'Ordblandingspuslespil — hurtig ordforrådsaktivitet der tilføjer variation til multi-format pakker' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Dyretema ordsøgningspuslespil skabt til Etsy digital download listning', caption: 'Ordsøgningspuslespil med dyreordforråd-tema — gitterbaseret format der skaber iøjnefaldende Etsy-listningsbilleder' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Krydsordspuslespil der komplementerer ordsøgningsprodukter i en Etsy-puslespilbutik', caption: 'Krydsordspuslespil — naturlig krydssalgsfølgesvend til ordsøgningslistninger i din Etsy-butik' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordblandingspuslespil der viser komplementært format til Etsy puslespilpakker', caption: 'Ordblandingspuslespil — hurtig ordforrådsaktivitet der tilføjer variation til multi-format pakker' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningspuslespil til salg på Etsy — Trin-for-trin vejledning',

@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.jpeg',
+        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
         alt: 'Lignende tilstands find den ulige arbejdsark med tre billeder fra Tema A og en tematisk afviger fra Tema B per øvelsesrække',
         caption: 'Lignende tilstand — tre billeder fra Tema A og ét uligt objekt fra Tema B for krydsende temaskelnelse',
       },
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.jpeg',
+        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.webp',
         alt: 'Identisk tilstands find den ulige arbejdsark med tre kloner af det samme billede og ét anderledes billede per række',
         caption: 'Identisk tilstand — tre kloner af det samme billede og ét anderledes billede for find-dubletten udfordringer',
       },
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201%20answer-key.jpeg',
+        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%203.webp',
         alt: 'Find den ulige facit med røde cirkelkonturer tegnet rundt om det ulige objekt i hver øvelsesrække med stregbredde skaleret til billedstørrelse',
         caption: 'Automatisk genereret facit — røde cirkelmarkeringer (streg = max(imageSize × 0,04, 3px)) identificerer det ulige objekt',
       },

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Skattejagt stifølgnings-arbejdsark med 5 gange 5 koordinatgitter, 6 spredte tematiske billeder som landemærker, retningsledetråde og skattejagt-tematiseret blågrøn overskrift med gylden Fredoka titel' },
+    heroImage: { src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp', alt: 'Skattejagt stifølgnings-arbejdsark med 5 gange 5 koordinatgitter, 6 spredte tematiske billeder som landemærker, retningsledetråde og skattejagt-tematiseret blågrøn overskrift med gylden Fredoka titel' },
     samples: [
-      { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Skattejagt-arbejdsark der viser 5 gange 5 koordinatgitter med spredte tematiske billeder og retningsledetråds-instruktioner under den skattejagt-tematiserede overskrift', caption: 'Skattejagt-arbejdsark med Basis-retningsledetråde på et 5 gange 5 koordinatgitter med 6 tematiske landemærkebilleder' },
-      { src: '/samples/english/treasure hunt/north south.webp', alt: 'Skattejagt-arbejdsark med Kardinal-retningsledetråde der bruger nord syd øst og vest på 5 gange 5 koordinatgitteret', caption: 'Kardinal-retningstilstand der bruger kompasvokabular til avanceret rumlig ræsonnering og kortlæsningsfærdigheder' },
-      { src: '/samples/english/treasure hunt/Treasure Hunt 1 answer_key.webp', alt: 'Automatisk genereret facit med endelig skattecelle fremhævet i lysegul på 5 gange 5 koordinatgitteret', caption: 'Automatisk genereret facit med lysegult fremhævet skattecelle til øjeblikkelig verifikation' },
+      { src: '/samples/danish/treasure%20hunt/Skattejagt%202.webp', alt: 'Skattejagt-arbejdsark der viser 5 gange 5 koordinatgitter med spredte tematiske billeder og retningsledetråds-instruktioner under den skattejagt-tematiserede overskrift', caption: 'Skattejagt-arbejdsark med Basis-retningsledetråde på et 5 gange 5 koordinatgitter med 6 tematiske landemærkebilleder' },
+      { src: '/samples/danish/treasure%20hunt/Skattejagt%203.webp', alt: 'Skattejagt-arbejdsark med Kardinal-retningsledetråde der bruger nord syd øst og vest på 5 gange 5 koordinatgitteret', caption: 'Kardinal-retningstilstand der bruger kompasvokabular til avanceret rumlig ræsonnering og kortlæsningsfærdigheder' },
+      { src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp', alt: 'Automatisk genereret facit med endelig skattecelle fremhævet i lysegul på 5 gange 5 koordinatgitteret', caption: 'Automatisk genereret facit med lysegult fremhævet skattecelle til øjeblikkelig verifikation' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Sådan skaber du skattejagt-arbejdsark — Komplet vejledning',

@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Matematikarbejdsark der viser gitterlayout og afstand formateret til Amazon KDP trykspecifikationer' },
+    heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikarbejdsark der viser gitterlayout og afstand formateret til Amazon KDP trykspecifikationer' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Matematikarbejdsark med præcis gitterafstand der demonstrerer KDP margen- og layoutkrav', caption: 'Matematikarbejdsark layout — gitterbaseret formatering med tilstrækkelig cellestørrelse til komfortabel håndskrift inden for KDP margenspecifikationer' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil-gitter der viser bogstavafstand formateret til KDP tryk', caption: 'Ordsøgningsgitter — konsekvent bogstavafstand ved 0,3-tommer celler sikrer komfortabel omringsling og læsbarhed i KDP-trykte bøger' },
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Additionsarbejdsark der demonstrerer rent enkeltside KDP layout', caption: 'Additionsarbejdsark — rent enkeltoperations-layout med tydelige svarfelter der demonstrerer professionel KDP interiørformatering' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikarbejdsark med præcis gitterafstand der demonstrerer KDP margen- og layoutkrav', caption: 'Matematikarbejdsark layout — gitterbaseret formatering med tilstrækkelig cellestørrelse til komfortabel håndskrift inden for KDP margenspecifikationer' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Ordsøgningspuslespil-gitter der viser bogstavafstand formateret til KDP tryk', caption: 'Ordsøgningsgitter — konsekvent bogstavafstand ved 0,3-tommer celler sikrer komfortabel omringsling og læsbarhed i KDP-trykte bøger' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Additionsarbejdsark der demonstrerer rent enkeltside KDP layout', caption: 'Additionsarbejdsark — rent enkeltoperations-layout med tydelige svarfelter der demonstrerer professionel KDP interiørformatering' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Sådan skaber du trykklare matematikarbejdsark til Amazon KDP — Formateringsvejledning',

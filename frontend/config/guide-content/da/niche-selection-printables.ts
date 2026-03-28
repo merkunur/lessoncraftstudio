@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegning der demonstrerer tematisk nicheindhold til printable-virksomheder' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsoegning der demonstrerer tematisk nicheindhold til printable-virksomheder' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Tematisk ordsoegning der viser nicheapplkation på tværs af emner', caption: 'Ordsoegning tilpasser sig til ethvert nichetema — dyr, ferier, fag og sæsonbetonede emner fungerer alle med det samme produktformat' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Farvelægningsside der demonstrerer visuel nicheprodukts alsidighed', caption: 'Farvelægningssider er blandt de mest alsidige nicheprodukter, der appellerer på tværs af aldersintervaller og anvendes på stort set ethvert visuelt tema' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbejdsark der viser pædagogisk nicheproduktsvariation', caption: 'Matchingsaktiviteter fungerer på tværs af pædagogiske nicher fra vokabular til matematik — en enkelt produkttype der validerer nicheefterspørgsel hurtigt' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Tematisk ordsoegning der viser nicheapplkation på tværs af emner', caption: 'Ordsoegning tilpasser sig til ethvert nichetema — dyr, ferier, fag og sæsonbetonede emner fungerer alle med det samme produktformat' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Farvelægningsside der demonstrerer visuel nicheprodukts alsidighed', caption: 'Farvelægningssider er blandt de mest alsidige nicheprodukter, der appellerer på tværs af aldersintervaller og anvendes på stort set ethvert visuelt tema' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Matchingsarbejdsark der viser pædagogisk nicheproduktsvariation', caption: 'Matchingsaktiviteter fungerer på tværs af pædagogiske nicher fra vokabular til matematik — en enkelt produkttype der validerer nicheefterspørgsel hurtigt' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsoegning til ethvert nichetema',

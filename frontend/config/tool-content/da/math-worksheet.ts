@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%201.jpeg',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
         alt: 'Visuelt algebrapuslespil med to billedsymboler og additionsligninger for begyndere',
         caption: 'Meget Let-tilstand — to symboler med simpel addition',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%202.jpeg',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
         alt: 'Middel sværhed algebra billedpuslespil med tre billedvariabler i koblede ligninger',
         caption: 'Middel sværhed — tre ukendte i koblede ligninger',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%203.jpeg',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
         alt: 'Svært algebrapuslespil arbejdsark med fire simultane ukendte og blandede operationer',
         caption: 'Svær-tilstand — fire variabler med addition og subtraktion',
       },

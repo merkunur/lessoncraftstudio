@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/chart%20count/Billediagram%201.jpeg',
+        src: '/samples/danish/chart%20count/Billediagram%201.webp',
         alt: 'Dyretema billeddiagram arbejdsark med 20 spredte dyreikoner og tomt søjlediagram',
         caption: 'Dyretema billeddiagram — 6 dyretyper spredt over gitteret med søjlediagram nedenfor',
       },
       {
-        src: '/samples/danish/chart%20count/Billediagram%202.jpeg',
+        src: '/samples/danish/chart%20count/Billediagram%202.webp',
         alt: 'Billeddiagram arbejdsark med et andet tema og farverige illustrationer',
         caption: 'Tematisk billeddiagram — 104 temaer giver unikke tælleudfordringer for hvert arbejdsark',
       },
       {
-        src: '/samples/danish/chart%20count/Billediagram%201%20answer_key.jpeg',
+        src: '/samples/danish/chart%20count/Billediagram%203.webp',
         alt: 'Billeddiagram facit med gulmarkerede celler, der viser korrekte antal for hver billedtype',
         caption: 'Automatisk genereret facit — gulfyldte celler viser det korrekte antal for hver billedtype',
       },

@@ -213,17 +213,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/more%20less/Mere%20Mindre%201.jpeg',
+        src: '/samples/danish/more%20less/Mere%20Mindre%201.webp',
         alt: 'Billede mod Billede sammenligningsarbejdsark med dyretema, der viser to billedgrupper side om side',
         caption: 'Billede mod Billede-tilstand med dyretema',
       },
       {
-        src: '/samples/danish/more%20less/Mere%20Mindre%202.jpeg',
+        src: '/samples/danish/more%20less/Mere%20Mindre%202.webp',
         alt: 'Billede mod Tal sammenligningsarbejdsark, der brobygger visuel tælling med skrevne tal',
         caption: 'Billede mod Tal-tilstand — brobygger billeder og tal',
       },
       {
-        src: '/samples/danish/more%20less/Mere%20Mindre%203.jpeg',
+        src: '/samples/danish/more%20less/Mere%20Mindre%203.webp',
         alt: 'Tjek og Kryds Grupper arbejdsark med blandede omflyttede billeder til sortering og sammenligning',
         caption: 'Tjek og Kryds Grupper — unik sorterings- og sammenligningstilatand',
       },

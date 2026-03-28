@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp', alt: 'Gittertegnings-arbejdsark med dobbelt-gitter system der viser tomt øvelsesgitter og delvist afsløret ledetrådsgitter med sort-hvid omridstema' },
+    heroImage: { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%201.webp', alt: 'Gittertegnings-arbejdsark med dobbelt-gitter system der viser tomt øvelsesgitter og delvist afsløret ledetrådsgitter med sort-hvid omridstema' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp', alt: 'Gittertegnings-arbejdsark der viser dobbelt-gitter system med øvelsesgitter og ledetrådsgitter til celle-for-celle reproduktion', caption: 'Dobbelt-gitter format: tomt øvelsesgitter øverst og ledetrådsgitter med delvis reference nedenfor til strukturerede tegneøvelser' },
-      { src: '/samples/english/draw and color/grid-drawing_worksheet (1).webp', alt: 'Dyretema gittertegnings-arbejdsark med sort-hvid omrids ved moderat ledetråds-procent', caption: 'Dyr sort-hvid omridstema ved 25% ledetråde — brugere reproducerer omridset fra spredte gitterhints og farvelægger derefter deres tegning' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%202.webp', alt: 'Gittertegnings-arbejdsark der viser dobbelt-gitter system med øvelsesgitter og ledetrådsgitter til celle-for-celle reproduktion', caption: 'Dobbelt-gitter format: tomt øvelsesgitter øverst og ledetrådsgitter med delvis reference nedenfor til strukturerede tegneøvelser' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%203.webp', alt: 'Dyretema gittertegnings-arbejdsark med sort-hvid omrids ved moderat ledetråds-procent', caption: 'Dyr sort-hvid omridstema ved 25% ledetråde — brugere reproducerer omridset fra spredte gitterhints og farvelægger derefter deres tegning' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Sådan skaber du tegne- og symmetriarbejdsark — Komplet vejledning',

@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.jpeg',
+        src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
         alt: 'Ordsøgningsarbejdsark i stående format med 12×12 bogstavsgitter og tematiske billedledetråde',
         caption: 'Stående format — 12×12-gitter med tematiske billedledetråde og ordliste',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%202.jpeg',
+        src: '/samples/danish/wordsearch/Ords%F8gning%202.webp',
         alt: 'Ordsøgningsarbejdsark med større gitter og diagonale ord aktiveret',
         caption: 'Større gitter — med diagonal- og baglæns ord aktiveret for øget udfordring',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201%20answer_key.jpeg',
+        src: '/samples/danish/wordsearch/Ords%F8gning%203.webp',
         alt: 'Ordsøgning farvekodet facitliste med seks markeringsfarver, der viser fundne ord',
         caption: 'Farvekodet facit — hvert ord markeret i en unik farve for nem verifikation',
       },

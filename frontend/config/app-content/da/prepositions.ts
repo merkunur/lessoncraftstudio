@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/prepositions/Pr%C3%A6positioner%202.jpeg',
+        src: '/samples/danish/prepositions/Pr%E6positioner%201.webp',
         alt: 'Udfyldningsøvelse præpositioner arbejdsark med dyretema og geometriske former',
         caption: 'Udfyldningsøvelse — brugerne udfylder sætninger med den korrekte præposition',
       },
       {
-        src: '/samples/danish/prepositions/Pr%C3%A6positioner%203.jpeg',
+        src: '/samples/danish/prepositions/Pr%E6positioner%202.webp',
         alt: 'Flervalgsspørgsmål præpositioner arbejdsark med køretøjstema og rumlige beskrivelser',
         caption: 'Flervalgsspørgsmål — brugerne identificerer billedet, der matcher den rumlige beskrivelse',
       },
       {
-        src: '/samples/danish/prepositions/Pr%C3%A6positioner%204.jpeg',
+        src: '/samples/danish/prepositions/Pr%E6positioner%203.webp',
         alt: 'Præpositioner arbejdsark med alle otte rumlige præpositioner og facit',
         caption: 'Komplet arbejdsark med 8 øvelser — omfattende gennemgang af alle rumlige præpositioner',
       },

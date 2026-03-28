@@ -179,11 +179,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Farvelægningsside med tematiske illustrationer der viser sort-hvid stregtegning til salg på Etsy' },
+    heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside med tematiske illustrationer der viser sort-hvid stregtegning til salg på Etsy' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Dyretema farvelægningsside skabt til Etsy digital download listning', caption: 'Dyre-farvelægningsside fra det tematiske billedbibliotek — ren sort-hvid stregtegning der skaber iøjnefaldende Etsy-listningsbilleder' },
-      { src: '/samples/english/coloring/coloring portrait 4.webp', alt: 'Naturtema farvelægningsside der viser detaljerede kompositioner til voksen- og børnemarkeder', caption: 'Natur-farvelægningsside — alsidigt tema der appellerer til både børn og voksne farvelægningskøbere på Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 3.webp', alt: 'Ferietema farvelægningsside der demonstrerer sæsonprodukt til Etsy-efterspørgselstoppe', caption: 'Ferie-farvelægningsside — sæsonbetonede temaer driver store efterspørgselstoppe på Etsy hele året' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Dyretema farvelægningsside skabt til Etsy digital download listning', caption: 'Dyre-farvelægningsside fra det tematiske billedbibliotek — ren sort-hvid stregtegning der skaber iøjnefaldende Etsy-listningsbilleder' },
+      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Naturtema farvelægningsside der viser detaljerede kompositioner til voksen- og børnemarkeder', caption: 'Natur-farvelægningsside — alsidigt tema der appellerer til både børn og voksne farvelægningskøbere på Etsy' },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Ferietema farvelægningsside der demonstrerer sæsonprodukt til Etsy-efterspørgselstoppe', caption: 'Ferie-farvelægningsside — sæsonbetonede temaer driver store efterspørgselstoppe på Etsy hele året' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Sådan skaber du farvelægningssider til salg på Etsy — Trin-for-trin vejledning',

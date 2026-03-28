@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/big%20small/Stort%20eller%20Lille%202.jpeg',
+        src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
         alt: 'Størrelsessammenlignings­arbejdsark med forskellige billeder-tilstand, der viser distinkte objekter i forskellige størrelser',
         caption: 'Forskellige Billeder-tilstand — brugerne sammenligner distinkte objekter til relativ størrelses­bedømmelse',
       },
       {
-        src: '/samples/danish/big%20small/Stort%20eller%20Lille%203.jpeg',
+        src: '/samples/danish/big%20small/Stort%20eller%20Lille%202.webp',
         alt: 'Størrelsessammenlignings­arbejdsark med tre identiske billeder i forskellige størrelser til mellemstor-identifikation',
         caption: '3 Identiske Billeder — tre kopier i forskellige størrelser muliggør ring om den mellemstore øvelse',
       },
       {
-        src: '/samples/danish/big%20small/Stort%20eller%20Lille%201%20answer_key.jpeg',
+        src: '/samples/danish/big%20small/Stort%20eller%20Lille%203.webp',
         alt: 'Størrelsessammenligning facit med markerede korrekte svar og indrammede billeder',
         caption: 'Facit — korrekte svar markeret og ringet om til øjeblikkelig visuel verifikation',
       },

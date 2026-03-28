@@ -181,17 +181,17 @@ const content: GuideContent = {
     },
     samples: [
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
         alt: 'Matematikarbejdsark der viser kvaliteten af automatiseret produktion',
         caption: 'Arbejdsarkgeneratorer automatiserer det mest tidskrævende trin i printbar produktion',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
         alt: 'Additionsarbejdsark der demonstrerer batchproduktion med temavariationer',
         caption: 'Batchproduktion af temavariationer multiplicerer katalogproduktionen effektivt',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
         alt: 'Ordsøgningspuslespil der viser systematisk indholdsoprettelse på tværs af temaer',
         caption: 'Systematisk variation på tværs af temaer og sprog skalerer katalogvækst',
       },

@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/matching/Find%20Parrene%201.jpeg',
+        src: '/samples/danish/matching/Find%20Parrene%201.webp',
         alt: 'Begyndelsesbogstav matchnings arbejdsark med billeder til venstre og første bogstaver til højre',
         caption: 'Begyndelsesbogstav-tilstand — brugerne matcher billeder med deres første bogstaver',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%202.jpeg',
+        src: '/samples/danish/matching/Find%20Parrene%202.webp',
         alt: 'Billede og ord matchnings arbejdsark med mærkede par på begge sider',
         caption: 'Billede+Ord-tilstand — mærkede billedpar til ordforrådsmatchning',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%201%20answer_key.jpeg',
+        src: '/samples/danish/matching/Find%20Parrene%203.webp',
         alt: 'Matchnings arbejdsark facit med forbindelseslinjer tegnet mellem korrekte par',
         caption: 'Automatisk genereret facit — forbindelseslinjer viser korrekte matchninger',
       },

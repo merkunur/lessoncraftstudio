@@ -181,17 +181,17 @@ const content: GuideContent = {
     },
     samples: [
       {
-        src: '/samples/danish/matching/Find%20Parrene%201.webp',
+        src: '/samples/danish/matching/Find%20Parrene%202.webp',
         alt: 'Matchingsarbejdsark der viser tydeligt layout og instruktioner der reducerer køberspørgsmål',
         caption: 'Tydeligt arbejdsarkdesign og omfattende produktbeskrivelser forebygger almindelige supportforespørgsler',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
+        src: '/samples/danish/matching/Find%20Parrene%203.webp',
         alt: 'Additionsarbejdsark med professionel formatering der sætter nøjagtige køberforventninger',
         caption: 'Professionel formatering og detaljerede specifikationer eliminerer forventningsforskels-problemer',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/matching/Find%20Parrene%201.webp',
         alt: 'Ordsøgningspuslespil med tematisk indhold der demonstrerer produktklarhed for købere',
         caption: 'Indholdsrige produkter drager mest fordel af omfattende dokumentation og selvbetjeningssupport',
       },

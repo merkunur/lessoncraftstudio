@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.jpeg',
+        src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
         alt: 'Manglende brikker-puslespil med firkantede huller klippet ud af en farverig illustration',
         caption: 'Firkantede brikker — rene geometriske udklip for tydelig visuel identifikation',
       },
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.jpeg',
+        src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.webp',
         alt: 'Manglende brikker-puslespil med cirkulære huller og nummererede løsningsalternativer',
         caption: 'Cirkulære brikker — afrundede udklip med distraktora­lternativer for øget udfordring',
       },
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%201%20answer_key.jpeg',
+        src: '/samples/danish/missing%20pieces/Manglende%20Dele%203.webp',
         alt: 'Manglende brikker puslespil facit med gulmarkerede numre inde i hvert hul',
         caption: 'Automatisk genereret facit — gule etiketter viser korrekt alternativ for hvert hul',
       },

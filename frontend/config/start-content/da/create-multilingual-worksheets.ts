@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil der demonstrerer flersproget arbejdsarksgenerering paa 11 sprog' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsoegningspuslespil der demonstrerer flersproget arbejdsarksgenerering paa 11 sprog' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil med sprogfoelsomt ordforraad', caption: 'Ordsoegning — Bedste flersprogede demo' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Krydsordspuslespil med lokaliserede ledetraade og svar', caption: 'Krydsord — Fuldt lokaliserede puslespil' },
-      { src: '/samples/english/word scramble/word scramble portrait.webp', alt: 'Bogstavblandings arbejdsark med sprogtilpasset ordforraad', caption: 'Bogstavblanding — Sprogfoelsomt output' },
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Alfabet tog arbejdsark der viser sprogspecifikke bogstavsaet', caption: 'Alfabet Tog — Tilpassede bogstavsaet' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Ordsoegningspuslespil med sprogfoelsomt ordforraad', caption: 'Ordsoegning — Bedste flersprogede demo' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Krydsordspuslespil med lokaliserede ledetraade og svar', caption: 'Krydsord — Fuldt lokaliserede puslespil' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Bogstavblandings arbejdsark med sprogtilpasset ordforraad', caption: 'Bogstavblanding — Sprogfoelsomt output' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Alfabet tog arbejdsark der viser sprogspecifikke bogstavsaet', caption: 'Alfabet Tog — Tilpassede bogstavsaet' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Saadan laver du ordsoegningspuslespil paa flere sprog — LessonCraftStudio Demo',

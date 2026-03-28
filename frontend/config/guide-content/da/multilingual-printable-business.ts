@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
       alt: 'Ordsoegnings-arbejdsark der demonstrerer flersproget printable-virksomhedspotentiale på tværs af internationale markeder',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%202.webp',
         alt: 'Ordsoegning der viser flersproget evne til internationalt printable-salg',
         caption: 'Ordsoegning kan genereres på 11 sprog, der gør dem ideelle til flersproget udvidelse',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%203.webp',
         alt: 'Matchingsarbejdsark med visuelle temaer der fungerer på tværs af sprogmarkeder',
         caption: 'Visuelle matchingsarbejdsark bruger billeder der oversættes universelt på tværs af sprog',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
         alt: 'Additions matematik-arbejdsark der demonstrerer universel appel på tværs af sprogbarrierer',
         caption: 'Matematikarbejdsark krydser sprogbarrierer naturligt da tal er universelle på tværs af markeder',
       },

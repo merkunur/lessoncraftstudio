@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Labyrint-arbejdsark der viser en tematisk billedsti-aktivitet med start- og slutbilleder for børn' },
+    heroImage: { src: '/samples/danish/picture%20path/Billedsti%201.webp', alt: 'Labyrint-arbejdsark der viser en tematisk billedsti-aktivitet med start- og slutbilleder for børn' },
     samples: [
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Billedsti labyrint-arbejdsark med tematiske billeder til førskole og børnehaveklasse', caption: 'Billedsti-tilstand: børn følger en visuel sti fra startbillede til slutbillede gennem tematiske dekorationer' },
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Klassisk labyrint-arbejdsark med samleobjekt-tælling og facit', caption: 'Klassisk labyrint-tilstand med samleobjekt-billeder og automatisk facit der viser løsningssti og tællinger' },
+      { src: '/samples/danish/picture%20path/Billedsti%202.webp', alt: 'Billedsti labyrint-arbejdsark med tematiske billeder til førskole og børnehaveklasse', caption: 'Billedsti-tilstand: børn følger en visuel sti fra startbillede til slutbillede gennem tematiske dekorationer' },
+      { src: '/samples/danish/picture%20path/Billedsti%203.webp', alt: 'Klassisk labyrint-arbejdsark med samleobjekt-tælling og facit', caption: 'Klassisk labyrint-tilstand med samleobjekt-billeder og automatisk facit der viser løsningssti og tællinger' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Sådan skaber du labyrint-arbejdsark — Komplet vejledning',

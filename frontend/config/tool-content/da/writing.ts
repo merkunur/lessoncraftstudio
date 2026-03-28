@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/writing/writing.jpeg',
+        src: '/samples/danish/writing/writing.webp',
         alt: 'Skriveøvelser arbejdsark med tre progressive øvelsestilstande og tematisk billedintegrering',
         caption: 'Tre øvelsestilstande på ét arbejdsark — Sporing, Tonende Sporing og Guidet Kopiering med per-række-uafhængighed',
       },
       {
-        src: '/samples/danish/writing/writing%20beginning%20letter.jpeg',
+        src: '/samples/danish/writing/writing%20custom.webp',
         alt: 'Skriveøvelser arbejdsark i sporingstilstand med tryk pil-skrifttype, der viser nummererede stregrækkefølgeretninger',
         caption: 'Pilguided stregrækkefølge — nummererede retningspile viser præcis bogstavformationssekvens',
       },
       {
-        src: '/samples/danish/writing/writing%20custom.jpeg',
+        src: '/samples/danish/writing/writing%20beginning%20letter.webp',
         alt: 'Skriveøvelser arbejdsark i tonende sporingstilstand med bogstaver, der progressivt toner ud hen over hver række',
         caption: 'Tonende Sporingstilstand — bogstaver toner progressivt ud for at bygge selvstændig skrivetillid',
       },

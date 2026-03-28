@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20scramble/Bogstavrod%201.jpeg',
+        src: '/samples/danish/word%20scramble/Bogstavrod%201.webp',
         alt: 'Bogstavrod-arbejdsark i stående format med billedledetråde og blandede bogstavsfliser',
         caption: 'Stående format — professionelt bogstavrod-arbejdsark med billedledetråde',
       },
       {
-        src: '/samples/danish/word%20scramble/Bogstavrod%202.jpeg',
+        src: '/samples/danish/word%20scramble/Bogstavrod%202.webp',
         alt: 'Bogstavrod-arbejdsark med tematiske illustrationer og farvekodede bogstavsfliser',
         caption: 'Farvekodning — vokaler og konsonanter i forskellige farver for fonikstøtte',
       },
       {
-        src: '/samples/danish/word%20scramble/Bogstavrod%201%20answer-key.jpeg',
+        src: '/samples/danish/word%20scramble/Bogstavrod%203.webp',
         alt: 'Bogstavrod facit med alle bogstaver korrekt omflyttet',
         caption: 'Facit — korrekt omflyttede ord for nem rettelse og selvkontrol',
       },

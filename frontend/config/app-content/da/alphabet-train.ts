@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%202.jpeg',
+        src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
         alt: 'Alfabettog arbejdsark med dyretema og 11 bogstavsvogne med ledetrådsbilleder',
         caption: 'Automatisk Oprettelse — 11 tilfældige bogstavsvogne med dyretema ledetråde',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%203.jpeg',
+        src: '/samples/danish/alphabet%20train/Alfabettog%202.webp',
         alt: 'Alfabettog arbejdsark med madtema og 5 ledetrådsbilleder til kobling',
         caption: 'Manuel tilstand — håndvalgte bogstaver med madtema og 5 ledetråde for enklere kobling',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%204.jpeg',
+        src: '/samples/danish/alphabet%20train/Alfabettog%203.webp',
         alt: 'Alfabettog arbejdsark med køretøjstema og alle 11 ledetråde for avanceret øvelse',
         caption: 'Fuld ledetrådsudfordring — 11 ledetråde for komplet bogstav-billedkobling øvelse',
       },

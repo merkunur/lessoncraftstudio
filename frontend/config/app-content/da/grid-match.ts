@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%201.jpeg',
+        src: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
         alt: 'Tre gange tre gittermatchningspuslespil med én ledetrådscelle og otte nummererede fliser i paletten',
         caption: '3×3 gitterpuslespil — én ledetrådscelle synlig, otte fliser at matche fra nummereret palette',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%202.jpeg',
+        src: '/samples/danish/grid%20match/Gitterpuslespil%202.webp',
         alt: 'Gittermatchningspuslespil med et andet tema og varieret gitterstørrelse',
         caption: 'Tematisk gitterpuslespil — 104 temaer giver unikke visuelle perceptionsudfordringer',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%201%20answer_key.jpeg',
+        src: '/samples/danish/grid%20match/Gitterpuslespil%203.webp',
         alt: 'Gittermatchning facit, der viser komplet billede med nummererede cirkler overlejret på hver gittercelle',
         caption: 'Automatisk genereret facit — nummererede cirkler viser korrekt fliseplacering på komplet billede',
       },

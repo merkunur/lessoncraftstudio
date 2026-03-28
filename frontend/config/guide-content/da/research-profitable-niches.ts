@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/matching portrait.webp',
+      src: '/samples/danish/matching/Find%20Parrene%201.webp',
       alt: 'Matchingsarbejdsark der viser tema-alsidighed til profitabel nicheudforskning på tværs af pædagogiske emner',
     },
     samples: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/danish/matching/Find%20Parrene%202.webp',
         alt: 'Tematisk matchingsarbejdsark der demonstrerer nichediversitet på tværs af pædagogiske printable-emner',
         caption: 'Matchingsarbejdsark spænder over snesevis af temaer, der lader dig udforske og teste flere nicher hurtigt',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/danish/matching/Find%20Parrene%203.webp',
         alt: 'Ordsoegning der viser tværfags nichetestpotentiale på flere sprog',
         caption: 'Ordsoegning validerer nicheefterspørgsel på tværs af fag og sprog med minimal produktionstid',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/danish/matching/Find%20Parrene%201.webp',
         alt: 'Tematisk farvelægningsside der demonstrerer hvordan visuelle nicher oversættes til salgbare printable-produkter',
         caption: 'Farvelægningssider afslører hvilke visuelle temaer der tiltrækker køberinteresse på tværs af forskellige markedssegmenter',
       },

@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningsarbejdsark der viser outputkvaliteten af kommerciel licens for saelgere af printbare produkter' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsoegningsarbejdsark der viser outputkvaliteten af kommerciel licens for saelgere af printbare produkter' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil klar til kommercielt salg', caption: 'Ordsoegning — topsaelgende kommercielt produkt' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsmatematikarbejdsark med kommerciel licens', caption: 'Addition — stedsgroen matematikprodukt' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malebilledearbejdsark til KDP-aktivitetsboeger', caption: 'Farvelaegning — hoejvolumenkategori paa KDP' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Krydsordspuslespil der viser flersproget kommerciel vaerdi', caption: 'Krydsord — flersproget licensvaerdi' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Ordsoegningspuslespil klar til kommercielt salg', caption: 'Ordsoegning — topsaelgende kommercielt produkt' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Additionsmatematikarbejdsark med kommerciel licens', caption: 'Addition — stedsgroen matematikprodukt' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Malebilledearbejdsark til KDP-aktivitetsboeger', caption: 'Farvelaegning — hoejvolumenkategori paa KDP' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Krydsordspuslespil der viser flersproget kommerciel vaerdi', caption: 'Krydsord — flersproget licensvaerdi' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Saadan laver du ordsoegningsarbejdsark til kommercielt salg — LessonCraftStudio demo',

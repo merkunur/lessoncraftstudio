@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbejdsark-ressource egnet til salg på Gumroad markedsplads' },
+    heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark-ressource egnet til salg på Gumroad markedsplads' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Matematik additionsarbejdsark til Gumroad butiksressource', caption: 'Matematikarbejdsark er blandt de mest søgte ressourcetyper på Gumroad — købere har brug for standardtilpasset øvelse til enhver færdighed' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil-aktivitet til Gumroad butikslistning', caption: 'Ordsøgningspuslespil fungerer på tværs af alle klassetrin på Gumroad som ordforrådsopbyggere, centreaktiviteter og tidlig afslutter-arbejde' },
-      { src: '/samples/english/matching/image and word.webp', alt: 'Matchingaktivitets-arbejdsark til Gumroad sælgere', caption: 'Matchingaktiviteter er alsidige Gumroad-ressourcer som købere bruger til vurdering, øvelse og repetition på tværs af flere fag' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Matematik additionsarbejdsark til Gumroad butiksressource', caption: 'Matematikarbejdsark er blandt de mest søgte ressourcetyper på Gumroad — købere har brug for standardtilpasset øvelse til enhver færdighed' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Ordsøgningspuslespil-aktivitet til Gumroad butikslistning', caption: 'Ordsøgningspuslespil fungerer på tværs af alle klassetrin på Gumroad som ordforrådsopbyggere, centreaktiviteter og tidlig afslutter-arbejde' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Matchingaktivitets-arbejdsark til Gumroad sælgere', caption: 'Matchingaktiviteter er alsidige Gumroad-ressourcer som købere bruger til vurdering, øvelse og repetition på tværs af flere fag' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du pædagogiske arbejdsark til Gumroad — Trin-for-trin vejledning',

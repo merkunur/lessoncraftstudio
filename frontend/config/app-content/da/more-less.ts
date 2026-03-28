@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/more%20less/Mere%20Mindre%202.jpeg',
+        src: '/samples/danish/more%20less/Mere%20Mindre%201.webp',
         alt: 'Sammenligningsarbejdsark med tilstanden Billede til Billede og dyretema',
         caption: 'Billede til Billede — brugerne tæller to grupper billeder og sammenligner mængder',
       },
       {
-        src: '/samples/danish/more%20less/Mere%20Mindre%203.jpeg',
+        src: '/samples/danish/more%20less/Mere%20Mindre%202.webp',
         alt: 'Sammenligningsarbejdsark med tilstanden Billede til Tal og madtema',
         caption: 'Billede til Tal — kombinerer grupper af billeder med tal for at koble færdigheder sammen',
       },
       {
-        src: '/samples/danish/more%20less/Mere%20Mindre%204.jpeg',
+        src: '/samples/danish/more%20less/Mere%20Mindre%203.webp',
         alt: 'Tjek og Kryds Grupper arbejdsark med blandede billeder til visuel sortering',
         caption: 'Tjek og Kryds Grupper — brugerne finder majoritetsgruppen i en kasse med blandede billeder',
       },

@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/treasure%20hunt/Skattejagt%201.jpeg',
+        src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
         alt: 'Skattejagtpuslespil arbejdsark med 6 tematiske billeder på et 5 gange 5 gitter og Grundlæggende retningsanvisninger',
         caption: 'Grundlæggende retningstilstand — følg op, ned, venstre og højre anvisninger for at finde skatten',
       },
       {
-        src: '/samples/danish/treasure%20hunt/Skattejagt%202.jpeg',
+        src: '/samples/danish/treasure%20hunt/Skattejagt%202.webp',
         alt: 'Skattejagtpuslespil arbejdsark med et andet tema og Kompas-retningsanvisninger',
         caption: 'Kompas-retningstilstand — kompasretninger for avanceret rumligt ræsonnement',
       },
       {
-        src: '/samples/danish/treasure%20hunt/Skattejagt%201%20answer_key.jpeg',
+        src: '/samples/danish/treasure%20hunt/Skattejagt%203.webp',
         alt: 'Skattejagt facit med endelig skattecelle markeret i bleggu på koordinatgitteret',
         caption: 'Automatisk genereret facit — bleggu markering viser skattens destination',
       },

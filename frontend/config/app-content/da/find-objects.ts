@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.jpeg',
+        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
         alt: 'Søgning skjulte objekter-scene med spredte billeder og legende, der viser målobjekter nederst',
         caption: 'Søgnings-tilstand — fri skjulte objekter-scene med legendevisning',
       },
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.jpeg',
+        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.webp',
         alt: 'Skjulte objekter arbejdsark med et andet tema og varieret objektantal',
         caption: 'Tematisk søgescene — 104 temaer giver unikke skjulte objekter-udfordringer',
       },
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201%20answer_key.jpeg',
+        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%203.webp',
         alt: 'Skjulte objekter arbejdsark facit med røde cirkler tegnet rundt målobjekter',
         caption: 'Automatisk genereret facit — røde cirkler markerer skjulte og uparrede objekter',
       },

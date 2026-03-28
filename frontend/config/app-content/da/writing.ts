@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/writing/writing.jpeg',
+        src: '/samples/danish/writing/writing.webp',
         alt: 'Skriveøvelsesarbejdsark i spor-tilstand med print pil-skrifttype, der viser nummererede stregrækkefølgeretninger',
         caption: 'Spor-tilstand med pil-stregrækkefølge — nummererede retningspilar viser præcis bogstavsformningssekvens',
       },
       {
-        src: '/samples/danish/writing/writing%20beginning%20letter.jpeg',
+        src: '/samples/danish/writing/writing%20custom.webp',
         alt: 'Skriveøvelsesarbejdsark i tonende sporing-tilstand med bogstaver, der progressivt tones ud over hver række',
         caption: 'Tonende Sporing-tilstand — bogstaver tones progressivt ud for at opbygge selvstændig skrivning',
       },
       {
-        src: '/samples/danish/writing/writing%20custom.jpeg',
+        src: '/samples/danish/writing/writing%20beginning%20letter.webp',
         alt: 'Skriveøvelsesarbejdsark i guidet kopiering-tilstand med kursiv skrifttypestil på trelinjes-guider',
         caption: 'Kursiv Guidet Kopiering — svage kursive konturer på trelinjesystem til flydende skriveskriftsøvelse',
       },

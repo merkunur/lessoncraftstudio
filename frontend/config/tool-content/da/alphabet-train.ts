@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%201.jpeg',
+        src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
         alt: 'Farverigt alfabettog arbejdsark med bogstav-billede matchningsaktivitet for unge brugere',
         caption: 'Togvognsformat med bogstav-billede matchning',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%202.jpeg',
+        src: '/samples/danish/alphabet%20train/Alfabettog%202.webp',
         alt: 'Alfabettog arbejdsark med tematiske billeder og flere ledetrådsmatchningsopgaver',
         caption: 'Tematiske billeder med konfigurerbart ledetrådsantal',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%203.jpeg',
+        src: '/samples/danish/alphabet%20train/Alfabettog%203.webp',
         alt: 'Avanceret alfabettog arbejdsark med 11 ledetråde for maksimal sværhed bogstavgenkendelse',
         caption: 'Komplet 11-ledetråds sværhed for avancerede brugere',
       },

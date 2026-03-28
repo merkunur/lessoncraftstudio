@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Additionsarbejdsark med tematiske billeder der viser visuelle tælleøvelser for børn' },
+    heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark med tematiske billeder der viser visuelle tælleøvelser for børn' },
     samples: [
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Billedbaseret additionsarbejdsark med dyretema for børnehaveklasse', caption: 'Børnehaveklasse additionsarbejdsark med bondegårdsdyr-tema i Billede + Billede-øvelsestilstand' },
-      { src: '/samples/swedish/addition/bild%20tal.jpeg', alt: 'Additionsarbejdsark med facit der viser korrekte løsninger', caption: 'Automatisk facit genereres sammen med hvert additionsarbejdsark' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Billedbaseret additionsarbejdsark med dyretema for børnehaveklasse', caption: 'Børnehaveklasse additionsarbejdsark med bondegårdsdyr-tema i Billede + Billede-øvelsestilstand' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Additionsarbejdsark med facit der viser korrekte løsninger', caption: 'Automatisk facit genereres sammen med hvert additionsarbejdsark' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du additionsarbejdsark — Komplet guide',

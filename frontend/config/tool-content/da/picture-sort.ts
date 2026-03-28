@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.jpeg',
+        src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp',
         alt: 'Tematilstands sorteringsarbejdsark med automatisk udfyldte venstre og højre kategorier fra billedbiblioteket med blandet udklipsgitter',
         caption: 'Tematilstand — autoudfyldte kategorier fra billedbiblioteket med tilfældigt udklipsgitter',
       },
       {
-        src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.jpeg',
+        src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.webp',
         alt: 'Manuel tilstands sorteringsarbejdsark med håndvalgte billeder tildelt til venstre og højre kategorier',
         caption: 'Manuel tilstand — håndvælg billeder og tildel hver til venstre eller højre kategori',
       },
       {
-        src: '/samples/danish/picture%20sort/Sorter%20Billeder%201%20answer_key.jpeg',
+        src: '/samples/danish/picture%20sort/Sorter%20Billeder%203.webp',
         alt: 'Billedsortering facit med 6x større billeder organiseret i korrekte kategorikasser med stiplede rammer',
         caption: 'Automatisk genereret facit — 6× større billeder i kategorikasser med max 2 kolonner per kasse',
       },

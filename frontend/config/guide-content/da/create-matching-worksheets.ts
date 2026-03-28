@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingarbejdsark med tematiske billeder der viser tegn-en-linje par til førskole' },
+    heroImage: { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Matchingarbejdsark med tematiske billeder der viser tegn-en-linje par til førskole' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Tegn-en-linje matchingarbejdsark med dyretema til førskole', caption: 'Førskole matchingarbejdsark med dyretema i Bogstavmatchingtilstand og 5 par' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingarbejdsark facit der viser forbindelseslinjer mellem korrekte par', caption: 'Automatisk facit med vandrette forbindelseslinjer mellem matchede par' },
+      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Tegn-en-linje matchingarbejdsark med dyretema til førskole', caption: 'Førskole matchingarbejdsark med dyretema i Bogstavmatchingtilstand og 5 par' },
+      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Matchingarbejdsark facit der viser forbindelseslinjer mellem korrekte par', caption: 'Automatisk facit med vandrette forbindelseslinjer mellem matchede par' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Sådan skaber du matchingarbejdsark — Komplet vejledning',

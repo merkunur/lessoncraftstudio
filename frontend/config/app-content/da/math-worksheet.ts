@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%202.jpeg',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
         alt: 'Meget Let algebrapuslespil arbejdsark med to billedsymboler og kun additionsligninger',
         caption: 'Meget Let niveau — to billedsymboler i et enkelt ligningssystem med kun addition',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%203.jpeg',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
         alt: 'Middel algebrapuslespil arbejdsark med tre billedsymboler og blandede operationer',
         caption: 'Middel niveau — tre symboler i koblede ligninger med addition og subtraktion',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%204.jpeg',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
         alt: 'Svært algebrapuslespil arbejdsark med fire billedsymboler i et system af fire ligninger',
         caption: 'Svær niveau — fire simultane ukendte for avanceret algebraisk problemløsning',
       },

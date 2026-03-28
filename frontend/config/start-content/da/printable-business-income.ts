@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Matematikarbejdsark der viser professionel outputkvalitet fra arbejdsarksgeneratorer' },
+    heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Matematikarbejdsark der viser professionel outputkvalitet fra arbejdsarksgeneratorer' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Matematikarbejdsark med professionelt layout og 300 DPI trykkvalitet', caption: 'Matematikarbejdsark — alsidig indtaegtsbygger' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil til salg paa Etsy og Amazon KDP', caption: 'Ordsoegning — topsaelgende puslespilkategori' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malebilleder til publicering af KDP-aktivitetsboeger', caption: 'Farvelaegning — hoejvolumenkategori paa KDP' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-puslespil med universel international attraktion', caption: 'Sudoku — universel markedsattraktion' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Matematikarbejdsark med professionelt layout og 300 DPI trykkvalitet', caption: 'Matematikarbejdsark — alsidig indtaegtsbygger' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Ordsoegningspuslespil til salg paa Etsy og Amazon KDP', caption: 'Ordsoegning — topsaelgende puslespilkategori' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Malebilleder til publicering af KDP-aktivitetsboeger', caption: 'Farvelaegning — hoejvolumenkategori paa KDP' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Sudoku-puslespil med universel international attraktion', caption: 'Sudoku — universel markedsattraktion' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Saadan laver du matematikarbejdsark til din printbare forretning — LessonCraftStudio demo',

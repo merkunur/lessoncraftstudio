@@ -272,17 +272,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/picture%20path/Billedsti%201.jpeg',
+        src: '/samples/danish/picture%20path/Billedsti%201.webp',
         alt: 'Billedsti-tilstand arbejdsark med billeder arrangeret i et gitter, der viser den korrekte vej fra start til mål',
         caption: 'Billedsti-tilstand — brugerne følger den korrekte billedvej fra start til mål',
       },
       {
-        src: '/samples/danish/picture%20path/Billedsti%202.jpeg',
+        src: '/samples/danish/picture%20path/Billedsti%202.webp',
         alt: 'Klassisk Labyrint-tilstand arbejdsark med vægbaserede korridorer og samlingsbilleder spredt gennem labyrinten',
         caption: 'Klassisk Labyrint-tilstand — LPF-algoritmen genererer vægbaserede labyrinter med samlingsbilleder',
       },
       {
-        src: '/samples/danish/picture%20path/Billedsti%201%20answer_key.jpeg',
+        src: '/samples/danish/picture%20path/Billedsti%203.webp',
         alt: 'Billedsti labyrint facit med løsningsvej markeret med rosa cirkler langs den korrekte rute',
         caption: 'Automatisk genereret facit — løsningsvej markeret med rosa cirkler',
       },

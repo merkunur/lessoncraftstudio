@@ -214,12 +214,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort der viser meget delbart printbart produktdesign' },
+    heroImage: { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Bingokort der viser meget delbart printbart produktdesign' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort der viser eventdrevet markedsfoeringpotentiale for fester og produktlinjer', caption: 'Bingo — meget delbar for events og hojtider' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil der viser staerk markedsplads-SEO-potentiale', caption: 'Ordsoegning — mest soegte puslespiltype' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malebilleder der viser visuel attraktion for Pinterest-markedsfoering', caption: 'Farvelaegning — Pinterest-klar visuelt indhold' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbejdsark der viser tematiseret saesonsmarkedsfoering', caption: 'Matchning — alsidig saesonsmarkedsfoering' },
+      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Bingokort der viser eventdrevet markedsfoeringpotentiale for fester og produktlinjer', caption: 'Bingo — meget delbar for events og hojtider' },
+      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Ordsoegningspuslespil der viser staerk markedsplads-SEO-potentiale', caption: 'Ordsoegning — mest soegte puslespiltype' },
+      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Malebilleder der viser visuel attraktion for Pinterest-markedsfoering', caption: 'Farvelaegning — Pinterest-klar visuelt indhold' },
+      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Matchningsarbejdsark der viser tematiseret saesonsmarkedsfoering', caption: 'Matchning — alsidig saesonsmarkedsfoering' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Saadan laver du bingokort til din printbare forretning — LessonCraftStudio demo',

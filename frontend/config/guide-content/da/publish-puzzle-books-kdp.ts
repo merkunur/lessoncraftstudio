@@ -202,11 +202,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser tematisk ordgitter egnet til Amazon KDP puslespilbog interiørsider' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser tematisk ordgitter egnet til Amazon KDP puslespilbog interiørsider' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Dyretema ordsøgningspuslespil formateret til KDP puslespilbog', caption: 'Ordsøgning med dyretema — den mest populære puslespiltype til KDP-bøger rettet mod både voksen- og børnemarkeder' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Krydsordspuslespil med tematiske ledetråde til KDP puslespilbog', caption: 'Krydsordspuslespil — tilføjer substantiel engagementsværdi til puslespilbøger og variety-samlinger på Amazon' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Billedsudoku-puslespil til børnevariety puslespilbog på KDP', caption: 'Billedsudoku — visuelle logikpuslespil der gør børnevariety puslespilbøger mere diverse og engagerende' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Dyretema ordsøgningspuslespil formateret til KDP puslespilbog', caption: 'Ordsøgning med dyretema — den mest populære puslespiltype til KDP-bøger rettet mod både voksen- og børnemarkeder' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Krydsordspuslespil med tematiske ledetråde til KDP puslespilbog', caption: 'Krydsordspuslespil — tilføjer substantiel engagementsværdi til puslespilbøger og variety-samlinger på Amazon' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Billedsudoku-puslespil til børnevariety puslespilbog på KDP', caption: 'Billedsudoku — visuelle logikpuslespil der gør børnevariety puslespilbøger mere diverse og engagerende' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningspuslespil til Amazon KDP puslespilbøger — Trin-for-trin vejledning',

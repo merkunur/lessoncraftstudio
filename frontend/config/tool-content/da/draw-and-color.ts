@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.jpeg',
+        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%201.webp',
         alt: 'Gittertegning arbejdsark med dyr sort-hvidt konturtema, der viser øvelsesgitter og ledetrådsgitter side om side',
         caption: 'Dyretema — brugerne reproducerer konturen fra gitterledetråde og farvelægger derefter deres tegning',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%203.jpeg',
+        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%202.webp',
         alt: 'Gittertegning arbejdsark med horisontal symmetri spejltilstand med ledetrådsceller afsløret på den venstre halvdel for rumlig vurdering',
         caption: 'Horisontal symmetritilstand — ledetrådsceller spejler venstre-højre for rumlig vurdering og bilateral symmetriøvelse',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%205.jpeg',
+        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%203.webp',
         alt: 'Gittertegning arbejdsark med lav ledetrådsprocent, der viser minimale referenceceller i et stort gitter for ekspertniveau reproduktionsudfordring',
         caption: 'Lav ledetrådsprocent ekspertudfordring — minimale referenceceller kræver præcis observation og rumlig vurdering',
       },

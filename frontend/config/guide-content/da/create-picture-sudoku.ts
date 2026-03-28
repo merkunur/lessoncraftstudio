@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Billedsudoku-arbejdsark med tematiske billeder der viser et 4x4 logikpuslespil til det yngre publikum' },
+    heroImage: { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Billedsudoku-arbejdsark med tematiske billeder der viser et 4x4 logikpuslespil til det yngre publikum' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Billedbaseret 4x4 sudoku-puslespil med dyretema til førskolebørn', caption: 'Let sværhedsgrad billedsudoku med bondegårdsdyr-tema og fire blanke celler' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Billedsudoku facit der viser det udfyldte 4x4 gitter med alle billeder', caption: 'Automatisk facit genereret sammen med hvert billedsudoku-puslespil' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%202.webp', alt: 'Billedbaseret 4x4 sudoku-puslespil med dyretema til førskolebørn', caption: 'Let sværhedsgrad billedsudoku med bondegårdsdyr-tema og fire blanke celler' },
+      { src: '/samples/danish/sudoku/Billede-Sudoku%203.webp', alt: 'Billedsudoku facit der viser det udfyldte 4x4 gitter med alle billeder', caption: 'Automatisk facit genereret sammen med hvert billedsudoku-puslespil' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sådan skaber du billedsudoku — Komplet vejledning',

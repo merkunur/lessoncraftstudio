@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Farvelægningsside printable-produkt klar til salg på Gumroad butiksfront' },
+    heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside printable-produkt klar til salg på Gumroad butiksfront' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printbar farvelægningsside til Gumroad digitalt produktsalg', caption: 'Farvelægningssider skaber visuelt overbevisende produktbilleder der driver social medie-trafik til din Gumroad butik' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil printable til Gumroad butikskatalog', caption: 'Ordsøgningspuslespil har bred appel på tværs af forældre og sælgerpublikummer — en alsidig Gumroad produkttype' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingarbejdsark-aktivitet til Gumroad printable-forretning', caption: 'Matchingaktiviteter er højefterspørgsel pædagogiske printables der fungerer godt som individuelle produkter og i pakker' },
+      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Printbar farvelægningsside til Gumroad digitalt produktsalg', caption: 'Farvelægningssider skaber visuelt overbevisende produktbilleder der driver social medie-trafik til din Gumroad butik' },
+      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Ordsøgningspuslespil printable til Gumroad butikskatalog', caption: 'Ordsøgningspuslespil har bred appel på tværs af forældre og sælgerpublikummer — en alsidig Gumroad produkttype' },
+      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Matchingarbejdsark-aktivitet til Gumroad printable-forretning', caption: 'Matchingaktiviteter er højefterspørgsel pædagogiske printables der fungerer godt som individuelle produkter og i pakker' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Sådan skaber du farvelægningssider til din Gumroad printable butik',

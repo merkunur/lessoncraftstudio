@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.jpeg',
+        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
         alt: 'Søgning skjulte objekter-scene med spredte billeder og legende der viser målobjekter i bunden af arbejdsarket',
         caption: 'Søgning-tilstand — fri skjulte objekter-scene med nul-overlapning placering og bundlegende',
       },
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.jpeg',
+        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.webp',
         alt: 'Find den Underlige arbejdsark med parrede billeder i rækker og uparrede objekter at identificere gengivet 50 procent større',
         caption: 'Find den Underlige-tilstand — parrede billeder med uparrede objekter til visuelle skelnelsesaktiviteter',
       },
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201%20answer_key.jpeg',
+        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%203.webp',
         alt: 'Skjulte objekter arbejdsark facit med røde cirkler tegnet rundt om målobjekter dimensioneret 3 til 5 pixels større',
         caption: 'Automatisk genereret facit — røde cirkelannoteringer markerer skjulte og uparrede objekter til selvkontrol',
       },

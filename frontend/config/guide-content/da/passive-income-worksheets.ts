@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
       alt: 'Professionelt additionsarbejdsark der demonstrerer evergreen pædagogisk indhold til tilbagevendende omsætning',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
         alt: 'Additionsarbejdsark der viser professionel kvalitetsformatering til markedspladssalg',
         caption: 'Matematikarbejdsark genererer konsekvent helårsomsætning som evergreen pædagogiske produkter',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
         alt: 'Ordsoegning tilgængelig på flere sprog til udvidet markedsrækkevidde',
         caption: 'Flersprogede ordsoegning multiplicerer omsætning ved at nå underbetjente internationale markeder',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
         alt: 'Tematisk matchningsarbejdsark der demonstrerer katalogdybde gennem tema-alsidighed',
         caption: 'Tematiske matchningsaktiviteter bygger katalogdybde der driver sammensatte opdagbarhed',
       },

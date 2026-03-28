@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
       alt: 'Professionelt ordsoegnings-arbejdsark der demonstrerer kommercielt licenseret printable-output',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%202.webp',
         alt: 'Ordsoegning skabt med kommerciel licens til multi-platform salg',
         caption: 'Ordsoegning skabt under kommerciel licens kan sælges på enhver platform',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%203.webp',
         alt: 'Additionsarbejdsark genereret med royaltyfri kommerciel licens',
         caption: 'Én kommerciel licens dækker ubegrænset additionsarbejdsark-generering uden per-produkt gebyrer',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
         alt: 'Farvelægningsside med korrekt licenseret tematisk billedmateriale til kommercielt salg',
         caption: 'Kommercielle licenser der inkluderer indlejret billedmateriale forenkler overholdelse for visuelle produkter',
       },

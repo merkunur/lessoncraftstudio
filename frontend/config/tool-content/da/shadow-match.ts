@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.jpeg',
+        src: '/samples/danish/shadow%20match/G%F8r%20Billederne%20Hele%201.webp',
         alt: 'Skyggematchning arbejdsark, der viser fire farvede billeder matchet med fire pixelniveau sorte silhuetter med A B C D og 1 2 3 4 etiketter',
         caption: 'Skyggematchning-tilstand — brugerne matcher billeder med deres automatisk genererede pixelniveau silhuetter',
       },
       {
-        src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%202.jpeg',
+        src: '/samples/danish/shadow%20match/G%F8r%20Billederne%20Hele%202.webp',
         alt: 'Gør billedet helt arbejdsark med delte billedhalvdele, som brugerne kobler sammen ved at matche første og anden halvdele mærket A til D og 1 til 4',
         caption: 'Gør Billedet Helt-tilstand — brugerne matcher delte billedhalvdele for at fuldende billeder med horisontale eller vertikale klip',
       },
       {
-        src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201%20answer-key.jpeg',
+        src: '/samples/danish/shadow%20match/G%F8r%20Billederne%20Hele%203.webp',
         alt: 'Skyggematchning facit, der viser originalbilleder ved siden af silhuetter med korrekte bogstav-til-nummer matchningsetiketter som A til 2',
         caption: 'Automatisk genereret facit — bogstav-til-nummer etiketter viser korrekte matchninger for begge øvelsestilstande',
       },

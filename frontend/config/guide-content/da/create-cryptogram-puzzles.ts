@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Kryptogram-arbejdsark med billedchiffer der viser tematiske billeder mappet til bogstaver i alfabetet der koder en hemmelig sætning' },
+    heroImage: { src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp', alt: 'Kryptogram-arbejdsark med billedchiffer der viser tematiske billeder mappet til bogstaver i alfabetet der koder en hemmelig sætning' },
     samples: [
-      { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Kryptogram-arbejdsark med tematiske billeder der erstatter bogstaver i en kodet hemmelig sætning', caption: 'Billedchiffer-puslespil — afkod den hemmelige besked ved at identificere hvilket billede der repræsenterer hvilket bogstav' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp', alt: 'Kryptogram-arbejdsark med tematiske billeder og Bogstaver at afsløre hints til stilladseret sværhedsgrad', caption: 'Tematisk chiffer med Bogstaver at afsløre — forudløste mappinger giver stilladsering til begyndere' },
-      { src: '/samples/english/cryptogram/cryptogram_answer_key.webp', alt: 'Kryptogram facit med komplet bogstavlegende der viser alle alfabet-til-billede mappinger i sorteret rækkefølge', caption: 'Bogstavlegende-facit — hvert bogstav i alfabetet parret med dets tildelte billede til definitiv løsningsreference' },
+      { src: '/samples/danish/cryptogram/Billed-Kryptogram%202.webp', alt: 'Kryptogram-arbejdsark med tematiske billeder der erstatter bogstaver i en kodet hemmelig sætning', caption: 'Billedchiffer-puslespil — afkod den hemmelige besked ved at identificere hvilket billede der repræsenterer hvilket bogstav' },
+      { src: '/samples/danish/cryptogram/Billed-Kryptogram%203.webp', alt: 'Kryptogram-arbejdsark med tematiske billeder og Bogstaver at afsløre hints til stilladseret sværhedsgrad', caption: 'Tematisk chiffer med Bogstaver at afsløre — forudløste mappinger giver stilladsering til begyndere' },
+      { src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp', alt: 'Kryptogram facit med komplet bogstavlegende der viser alle alfabet-til-billede mappinger i sorteret rækkefølge', caption: 'Bogstavlegende-facit — hvert bogstav i alfabetet parret med dets tildelte billede til definitiv løsningsreference' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Sådan skaber du billedkryptogram chiffer-puslespil — Trin-for-trin vejledning',

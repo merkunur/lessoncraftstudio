@@ -177,22 +177,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/danish/addition/Sjov%20Addition%201.webp',
       alt: 'Professionelle additionsarbejdsark skabt med additionsarbejdsark-generatoren, der repræsenterer den printable-produktkvalitet opnåelig på tværs af alle 33 generatorer',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/danish/addition/Sjov%20Addition%202.webp',
         alt: 'Additionsarbejdsark der viser matematik og tal-kategoriens printable-produkter til Etsy-butikker',
         caption: 'Matematik og tal-kategori: Additionsarbejdsark med facit klar til Etsy digital download-listninger',
       },
       {
-        src: '/samples/english/wordsearch/custom word list.webp',
+        src: '/samples/danish/addition/Sjov%20Addition%203.webp',
         alt: 'Ordsøgningspuslespil der viser bogstaver og ord-kategoriens printable-produkter til Etsy-butikker',
         caption: 'Bogstaver og ord-kategori: Ordsøgningspuslespil med tematisk ordforråd til bred køberappel',
       },
       {
-        src: '/samples/english/coloring/coloring landscape 1.webp',
+        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
         alt: 'Farvelægningssider der viser tegning og kunst-kategoriens printable-produkter til Etsy-butikker',
         caption: 'Tegning og kunst-kategori: Farvelægningssider med tematiske illustrationer til den bredeste aldersdemografi',
       },

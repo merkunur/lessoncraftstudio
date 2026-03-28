@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
       alt: 'Ordsoegnings-arbejdsark der demonstrerer flersproget indholdsgenerering med korrekt tegnhåndtering',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/danish/alphabet%20train/Alfabettog%202.webp',
         alt: 'Ordsoegningspuslespil der viser vokabularbaseret indhold der kræver korrekt flersproget tegnsupport',
         caption: 'Ordsoegnings-arbejdsark demonstrerer vigtigheden af korrekt tegnhåndtering på tværs af sprog',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 1.webp',
+        src: '/samples/danish/alphabet%20train/Alfabettog%203.webp',
         alt: 'Alfabet-tog arbejdsark der viser sprogspecifik bogstav- og tegngenerering',
         caption: 'Alfabetarbejdsark kræver sprogspecifikke tegn inklusive omlydstegn og accentbogstaver',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
         alt: 'Matchingsarbejdsark der viser flersproget produktion med visuelle og tekstelementer',
         caption: 'Matchingsarbejdsark kombinerer visuelle elementer med sprogspecifikt vokabular til internationale markeder',
       },

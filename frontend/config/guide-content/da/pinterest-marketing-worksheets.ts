@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/coloring/Farvel%C3%A6gning%20portræt%201.webp',
+      src: '/samples/danish/coloring/coloring%20portrait%201.webp',
       alt: 'Professionel farvelægningsside-arbejdsark der demonstrerer visuelt slående Pinterest pin-indhold for printable sælgere',
     },
     samples: [
       {
-        src: '/samples/danish/coloring/Farvel%C3%A6gning%20portræt%201.webp',
+        src: '/samples/danish/coloring/coloring%20portrait%202.webp',
         alt: 'Farvelægningsside-arbejdsark der viser visuel gennemslagskraft til Pinterest pin-design',
         caption: 'Visuelt slående arbejdsark skaber naturligt overbevisende Pinterest pin-billeder',
       },
       {
-        src: '/samples/danish/bingo/Bingokort.webp',
+        src: '/samples/danish/coloring/coloring%20landscape%201.webp',
         alt: 'Bingokort-arbejdsark der demonstrerer farverige pin-værdige produktdesigns',
         caption: 'Farverige, tematiske produkter genererer højere gemningsrater og klikrater på Pinterest',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/coloring/coloring%20portrait%201.webp',
         alt: 'Ordsøgningspuslespil der viser alsidig produkttype til Pinterest-markedsføring',
         caption: 'Alsidige produkttyper understøtter flere pin-varianter for bredere søgedækning',
       },

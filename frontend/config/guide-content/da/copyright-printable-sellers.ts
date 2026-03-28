@@ -181,17 +181,17 @@ const content: GuideContent = {
     },
     samples: [
       {
-        src: '/samples/danish/writing/writing.webp',
+        src: '/samples/danish/writing/writing%20custom.webp',
         alt: 'Skrivearbejdsark med original instruktionstekst og kreative layoutvalg',
         caption: 'Skrivearbejdsark indeholder betydeligt originalt kreativt udtryk i deres instruktionstekst og design',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/writing/writing%20beginning%20letter.webp',
         alt: 'Ordsøgningspuslespil med tematisk billedmateriale der demonstrerer kreativt arrangement af pædagogisk indhold',
         caption: 'Ordsøgningspuslespil demonstrerer ophavsretsbeskyttet kreativt arrangement af ordforrådslementer',
       },
       {
-        src: '/samples/danish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/danish/writing/writing.webp',
         alt: 'Farvelægningsside med original tematiseret illustrationsdesign',
         caption: 'Farvelægningssider har stærke ophavsretspositioner takket være den visuelle originalitet i deres designs',
       },

@@ -181,17 +181,17 @@ const content: GuideContent = {
     },
     samples: [
       {
-        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
+        src: '/samples/danish/addition/Sjov%20Addition%202.webp',
         alt: 'Additionsarbejdsark der viser digitalt printbart produkt egnet til både download og fysisk udskrivning',
         caption: 'Matematikarbejdsark fungerer godt som digitale downloads og som sider i trykte arbejdsbøger',
       },
       {
-        src: '/samples/danish/coloring/Farvel%C3%A6gning%20portræt%201.webp',
+        src: '/samples/danish/addition/Sjov%20Addition%203.webp',
         alt: 'Farvelægningsside der demonstrerer produkttype populær i både digitalt og fysisk format',
         caption: 'Farvelægningssider er topsælgere i både digital download og print-on-demand bogformater',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
         alt: 'Ordsøgningspuslespil der viser produkt ideelt til hybrid digitalt og fysisk salg',
         caption: 'Ordsøgninger sælger individuelt som digitale downloads og samlet i fysiske puslespilsbøger',
       },

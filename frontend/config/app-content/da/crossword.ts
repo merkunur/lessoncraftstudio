@@ -272,17 +272,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/crossword/Billedkrydsord%201.jpeg',
+        src: '/samples/danish/crossword/Billedkrydsord%201.webp',
         alt: 'Billedkrydsordspuslespil med tematiske billedledetråde ved siden af et 15 gange 15 krydsordsgitter',
         caption: 'Billedkrydsord — billedledetråde erstatter traditionelle tekstledetråde på et 15×15 gitter',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%202.jpeg',
+        src: '/samples/danish/crossword/Billedkrydsord%202.webp',
         alt: 'Billedkrydsordspuslespil med et andet tema og varierede billedledetråde',
         caption: 'Tematisk billedkrydsord — 104 temaer giver unikke krydsordspuslespil for hvert sæt',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%201%20answer_key.jpeg',
+        src: '/samples/danish/crossword/Billedkrydsord%203.webp',
         alt: 'Krydsordspuslespil facit med alle korrekte bogstaver udfyldt i gitteret',
         caption: 'Automatisk genereret facit — udfyldt gitter viser alle korrekte svar',
       },

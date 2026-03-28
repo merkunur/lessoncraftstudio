@@ -272,17 +272,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/sudoku/Billede-Sudoku%201.jpeg',
+        src: '/samples/danish/sudoku/Billede-Sudoku%201.webp',
         alt: 'Let sværhed billedsudoku med 4 tomme celler og 12 udfyldte celler i et 4×4-gitter',
         caption: 'Let sværhed — 4 tomme celler for begyndere, der lærer række-og-kolonne-logik',
       },
       {
-        src: '/samples/danish/sudoku/Billede-Sudoku%202.jpeg',
+        src: '/samples/danish/sudoku/Billede-Sudoku%202.webp',
         alt: 'Billedsudoku med et andet tema og middelsværhed',
         caption: 'Tematisk billedsudoku — 104 temaer giver unikke puslespilsoplevelser for hvert sæt',
       },
       {
-        src: '/samples/danish/sudoku/Billede-Sudoku%201%20answer_key.jpeg',
+        src: '/samples/danish/sudoku/Billede-Sudoku%203.webp',
         alt: 'Billedsudoku facit, der viser komplet udfyldt 4×4-gitter med alle 16 celler udfyldt',
         caption: 'Automatisk genereret facit — komplet udfyldt gitter med alle billeder placeret',
       },

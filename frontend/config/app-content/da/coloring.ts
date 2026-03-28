@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/coloring/coloring%20portrait%202.png',
+        src: '/samples/danish/coloring/coloring%20portrait%201.webp',
         alt: 'Dyretema malebillede med farverige illustrationer arrangeret frit på lærredet',
         caption: 'Dyretema malebillede — farverige illustrationer arrangeret frit på lærredet',
       },
       {
-        src: '/samples/danish/coloring/coloring%20portrait%203.png',
+        src: '/samples/danish/coloring/coloring%20portrait%202.webp',
         alt: 'Malebillede med skriveøvelseslinjer og navnefelt til produktlinjebrug',
         caption: 'Produktlinjefærdigt malebillede — navnefelt og skriveøvelseslinjer inkluderet',
       },
       {
-        src: '/samples/danish/coloring/coloring%20landscape%201.png',
+        src: '/samples/danish/coloring/coloring%20landscape%201.webp',
         alt: 'Gråtone malebillede med dekorativ ramme klar til blækvenlig udskrift',
         caption: 'Gråtoneeksport — blækvenligt malebillede med dekorativt rammetema',
       },

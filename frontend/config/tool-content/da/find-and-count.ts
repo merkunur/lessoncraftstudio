@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.jpeg',
+        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
         alt: 'Søgearbejdsark med spredte tematiske billeder og fire opgavetyper inklusive ring om, firkant, kryds over og tæl',
         caption: 'Skjulte Objekter-tilstand — klassisk søgning med ring om, firkant, kryds over og tæl-opgaver på et spredt billedgitter',
       },
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.jpeg',
+        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp',
         alt: 'Søgearbejdsark i liggende tilstand med bredere gitterlayout og spredte tematiske billeder blandt distraktorobjekter',
         caption: 'Liggende layout — bredere gitter med blandede opgavetyper for varieret visuel søgeudfordring',
       },
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201%20answer_key.jpeg',
+        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp',
         alt: 'Find og tæl facit med røde cirkel-, firkant- og krydsannoteringer over korrekte målobjekter og kvantitetsvisninger',
         caption: 'Automatisk genereret facit — røde annoteringer markerer cirkler, firkanter, kryds og tællesummer for hvert målobjekt',
       },

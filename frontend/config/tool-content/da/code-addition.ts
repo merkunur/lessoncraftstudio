@@ -214,17 +214,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.jpeg',
+        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
         alt: 'Kodeknækker matematikpuslespil med dyresymboler i Normal Tilstand',
         caption: 'Normal Tilstand med dyretema — hvert symbol gemmer en unik ciffer',
       },
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%202.jpeg',
+        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%202.webp',
         alt: 'Kodeadditions arbejdsark med Ord Afsløring-tilstand og tematiske billeder',
         caption: 'Ord Afsløring-tilstand — løs ligninger for at stave et hemmeligt ord',
       },
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%203.jpeg',
+        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%203.webp',
         alt: 'Kryptaritmetik puslespilsarbejdsark med blandede addender og dekorativ ramme',
         caption: 'Blandede addender med rammedekoration for produktklar output',
       },

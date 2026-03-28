@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser tematisk ordgitter egnet til Amazon KDP ordsøgningsbog interiørsider' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser tematisk ordgitter egnet til Amazon KDP ordsøgningsbog interiørsider' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Dyretema ordsøgningspuslespil formateret til KDP ordsøgningsbog', caption: 'Tematisk dyre-ordsøgningspuslespil — tematiske ordlister skaber engagerende indhold der udkonkurrerer tilfældige ordsamlinger i køberanmeldelser' },
-      { src: '/samples/english/wordsearch/custom word list.webp', alt: 'Madtema ordsøgningspuslespil til KDP-bog', caption: 'Madtemaet ordsøgning — tematiske sektioner tilføjer redaktionel struktur der adskiller professionelle ordsøgningsbøger fra amatørkompilationer' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Krydsordspuslespil til ledsager KDP puslespilkatalog', caption: 'Krydsordspuslespil — ledsagerpuslespiltype til katalogdiversificering og krydspromovering med ordsøgningstitler' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Dyretema ordsøgningspuslespil formateret til KDP ordsøgningsbog', caption: 'Tematisk dyre-ordsøgningspuslespil — tematiske ordlister skaber engagerende indhold der udkonkurrerer tilfældige ordsamlinger i køberanmeldelser' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Madtema ordsøgningspuslespil til KDP-bog', caption: 'Madtemaet ordsøgning — tematiske sektioner tilføjer redaktionel struktur der adskiller professionelle ordsøgningsbøger fra amatørkompilationer' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Krydsordspuslespil til ledsager KDP puslespilkatalog', caption: 'Krydsordspuslespil — ledsagerpuslespiltype til katalogdiversificering og krydspromovering med ordsøgningstitler' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningspuslespil til Amazon KDP-bøger — Trin-for-trin vejledning',

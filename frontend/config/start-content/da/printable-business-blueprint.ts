@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Matematikpuslespilarbejdsark lavet med LessonCraftStudio-generator' },
+    heroImage: { src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp', alt: 'Matematikpuslespilarbejdsark lavet med LessonCraftStudio-generator' },
     samples: [
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Matematikpuslespilarbejdsark der viser konfigurerbar outputvariation', caption: 'Matematikpuslespil — Konfigurerbar svaarhed' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningsarbejdsark med tematiseret ordliste', caption: 'Ordsoegning — Tematiseret puslespil' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malebilledearbejdsark med tematiserede illustrationer', caption: 'Malebillede — Visuel attraktion' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbejdsark der demonstrerer visuelt internationalt format', caption: 'Matchning — Fungerer paa alle sprog' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp', alt: 'Matematikpuslespilarbejdsark der viser konfigurerbar outputvariation', caption: 'Matematikpuslespil — Konfigurerbar svaarhed' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp', alt: 'Ordsoegningsarbejdsark med tematiseret ordliste', caption: 'Ordsoegning — Tematiseret puslespil' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp', alt: 'Malebilledearbejdsark med tematiserede illustrationer', caption: 'Malebillede — Visuel attraktion' },
+      { src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp', alt: 'Matchningsarbejdsark der demonstrerer visuelt internationalt format', caption: 'Matchning — Fungerer paa alle sprog' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Saadan laver du matematikpuslespilarbejdsark — LessonCraftStudio-demo',

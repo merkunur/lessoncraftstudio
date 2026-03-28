@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/bingo/Bingokort.webp',
+      src: '/samples/danish/bingo/Billedbingo%201.webp',
       alt: 'Professionelt bingokort-arbejdsark der demonstrerer visuelt tiltalende printbare produkter ideelle til markedsføring på sociale medier',
     },
     samples: [
       {
-        src: '/samples/danish/bingo/Bingokort.webp',
+        src: '/samples/danish/bingo/Billedbingo%202.webp',
         alt: 'Bingokort der viser meget deleligt printbart produkt til indhold på sociale medier',
         caption: 'Visuelt tiltalende produkter som bingokort skaber overbevisende indhold til sociale medier der driver engagement',
       },
       {
-        src: '/samples/danish/coloring/Farvel%C3%A6gning%20portræt%201.webp',
+        src: '/samples/danish/bingo/Billedbingo%203.webp',
         alt: 'Farvelægningsside der demonstrerer fotogent printbart produkt til Instagram og Pinterest',
         caption: 'Farvelægningssider fotograferer smukt til flatlayout-produktfremvisninger på visuelle platforme',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+        src: '/samples/danish/bingo/Billedbingo%201.webp',
         alt: 'Ordsøgningspuslespil der viser populær printbar produkttype med stærk appel på sociale medier',
         caption: 'Ordsøgninger tiltrækker bredt publikumsengagement og præsterer godt på tværs af sociale medieplatforme',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den kvalitet der understøtter premiumprissætningsstrategier' },
+    heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den kvalitet der understøtter premiumprissætningsstrategier' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbejdsark med tematiske billeder der understøtter premiumprissætning', caption: 'Professionel formatering og tematiske billeder retfærdiggør højere prispunkter — købere betaler mere for kvalitet og visuel appel' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegning der demonstrerer funktionsdifferentiering til prissætning', caption: 'Ordsoegning med tematiske billeder retfærdiggør højere priser end basale tekst-kun versioner på alle platforme' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Farvelægningsside der viser kvalitet der understøtter konkurrencedygtig prissætning', caption: 'Højkvalitets farvelægningssider demonstrerer hvordan produktkvalitet direkte muliggør premiumprissætning i konkurrenceprægede kategorier' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Additionsarbejdsark med tematiske billeder der understøtter premiumprissætning', caption: 'Professionel formatering og tematiske billeder retfærdiggør højere prispunkter — købere betaler mere for kvalitet og visuel appel' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Ordsoegning der demonstrerer funktionsdifferentiering til prissætning', caption: 'Ordsoegning med tematiske billeder retfærdiggør højere priser end basale tekst-kun versioner på alle platforme' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Farvelægningsside der viser kvalitet der understøtter konkurrencedygtig prissætning', caption: 'Højkvalitets farvelægningssider demonstrerer hvordan produktkvalitet direkte muliggør premiumprissætning i konkurrenceprægede kategorier' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Sådan skaber du matematikarbejdsark hurtigt — Effektiv produktion til bedre profitmarginer',

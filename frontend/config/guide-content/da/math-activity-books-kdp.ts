@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Additionsarbejdsark der viser billedbaserede matematikopgaver egnet til Amazon KDP aktivitetsbog interiørsider' },
+    heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Additionsarbejdsark der viser billedbaserede matematikopgaver egnet til Amazon KDP aktivitetsbog interiørsider' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Dyretema additionsarbejdsark formateret til KDP matematik aktivitetsbog', caption: 'Additionsarbejdsark med dyretema — billedbaserede matematikopgaver der skaber engagerende KDP aktivitetsbog sider' },
-      { src: '/samples/english/subtraction/cross out.webp', alt: 'Subtraktionsarbejdsark til multi-operations KDP matematik-arbejdsbog', caption: 'Subtraktionsarbejdsark — parrer med additionssider til at skabe omfattende matematik aktivitetsbøger på Amazon' },
-      { src: '/samples/english/math puzzle/Math Puzzles (1).webp', alt: 'Matematikpuslespil-gitterarbejdsark der tilføjer variation til KDP aktivitetsbøger', caption: 'Matematikpuslespil-gitter — tilføjer engagerende variation til aktivitetsbogsider ud over standard arbejdsark-drilleopgaver' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Dyretema additionsarbejdsark formateret til KDP matematik aktivitetsbog', caption: 'Additionsarbejdsark med dyretema — billedbaserede matematikopgaver der skaber engagerende KDP aktivitetsbog sider' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Subtraktionsarbejdsark til multi-operations KDP matematik-arbejdsbog', caption: 'Subtraktionsarbejdsark — parrer med additionssider til at skabe omfattende matematik aktivitetsbøger på Amazon' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Matematikpuslespil-gitterarbejdsark der tilføjer variation til KDP aktivitetsbøger', caption: 'Matematikpuslespil-gitter — tilføjer engagerende variation til aktivitetsbogsider ud over standard arbejdsark-drilleopgaver' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du matematikarbejdsark til Amazon KDP aktivitetsbøger — Trin-for-trin vejledning',

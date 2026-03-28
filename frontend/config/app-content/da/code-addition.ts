@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%202.jpeg',
+        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
         alt: 'Kodeadditions arbejdsark i Klassisk Tilstand med tematiske dyrebilleder som kodesymboler',
         caption: 'Klassisk Tilstand — brugerne knækker koden ved at finde ud af, hvilket nummer hvert billede forestiller',
       },
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%203.jpeg',
+        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%202.webp',
         alt: 'Kodeadditions arbejdsark med andet visuelt tema, der viser kryptaritmetiske ligninger med billeder',
         caption: 'Flersymbolsudfordring — flere billeder øger kompleksiteten i deduktionen',
       },
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%204.jpeg',
+        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%203.webp',
         alt: 'Kodeadditionspuslespil med farverige tematiske billeder og ligninger',
         caption: 'Tematiske puslespil — 104 visuelle temaer gør hvert arbejdsark unikt og engagerende',
       },

@@ -214,17 +214,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%201.jpeg',
+        src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
         alt: 'Puslespil matematikarbejdsark med additionsligninger i et farverigt billedgitter',
         caption: 'Additionstilstand med tematisk billedpuslespil',
       },
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%202.jpeg',
+        src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp',
         alt: 'Matematikarbejdsark med subtraktionsligninger og blandede cifferbrikker under gitteret',
         caption: 'Subtraktionstilstand — løs ligninger for at rekonstruere billedet',
       },
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%203.jpeg',
+        src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp',
         alt: 'Blandet additions- og subtraktions mattepuslespil med større gitter for avancerede brugere',
         caption: 'Blandede operationer — addition og subtraktion i ét puslespil',
       },

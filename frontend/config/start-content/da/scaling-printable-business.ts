@@ -214,12 +214,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Tegn og farvelaeg-arbejdsark der demonstrerer kreativt udbud for skalering af printbar forretning' },
+    heroImage: { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%201.webp', alt: 'Tegn og farvelaeg-arbejdsark der demonstrerer kreativt udbud for skalering af printbar forretning' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Tegn og farvelaeg-arbejdsark der viser temavariation for katalogudvidelse', caption: 'Tegn og farvelaeg — kreativt udbud for katalogdybde' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil der demonstrerer hoejvolumenskalerbarhed paa tvaers af temaer', caption: 'Ordsoegning — hoejeste volumenpotentiale for skalering' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malebilleder der viser sproguafhaengig international skalerbarhed', caption: 'Malebilleder — international skalering uden oversaettelse' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudokupuslespil der demonstrerer platformsuafhaengig produktdistribution', caption: 'Sudoku — platformsuafhaengig distribution' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%202.webp', alt: 'Tegn og farvelaeg-arbejdsark der viser temavariation for katalogudvidelse', caption: 'Tegn og farvelaeg — kreativt udbud for katalogdybde' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%203.webp', alt: 'Ordsoegningspuslespil der demonstrerer hoejvolumenskalerbarhed paa tvaers af temaer', caption: 'Ordsoegning — hoejeste volumenpotentiale for skalering' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%201.webp', alt: 'Malebilleder der viser sproguafhaengig international skalerbarhed', caption: 'Malebilleder — international skalering uden oversaettelse' },
+      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%202.webp', alt: 'Sudokupuslespil der demonstrerer platformsuafhaengig produktdistribution', caption: 'Sudoku — platformsuafhaengig distribution' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Saadan laver du tegn og farvelaeg-arbejdsark til din printbare forretning — LessonCraftStudio demo',

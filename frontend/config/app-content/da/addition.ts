@@ -252,17 +252,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/addition/Sjov%20Addition%202.jpeg',
+        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
         alt: 'Stående additionsarbejdsark i tilstanden Billede + Tal med dyretema',
         caption: 'Billede + Tal tilstand — brugerne kombinerer billedgrupper med tal for overgangsfærdigheder',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%203.jpeg',
+        src: '/samples/danish/addition/Sjov%20Addition%202.webp',
         alt: 'Liggende additionsarbejdsark i Blandet Tilstand med madtema',
         caption: 'Blandet Tilstand — kombinerer alle øvelsestyper for varieret, engagerende matematikøvelse',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%204.jpeg',
+        src: '/samples/danish/addition/Sjov%20Addition%203.webp',
         alt: 'Additionsarbejdsark i tilstanden Find Leddet med køretøjstema',
         caption: 'Find Leddet tilstand — brugerne opdager den manglende gruppe for tidlig algebraisk tænkning',
       },

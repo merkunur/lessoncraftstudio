@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Professionelt additionsarbejdsark lavet med LessonCraftStudio-generator' },
+    heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Professionelt additionsarbejdsark lavet med LessonCraftStudio-generator' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbejdsark med tematiske billedbaserede matematikopgaver', caption: 'Addition — Billedbaserede opgaver' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Subtraktionsarbejdsark med visuelle talopgaver', caption: 'Subtraktion — Visuel matematikoevsele' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil-arbejdsark med tematisk ordliste', caption: 'Ordsoegning — Tematisk puslespil' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malebillede-arbejdsark med tematiske illustrationer', caption: 'Malebillede — Tematiske illustrationer' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Additionsarbejdsark med tematiske billedbaserede matematikopgaver', caption: 'Addition — Billedbaserede opgaver' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Subtraktionsarbejdsark med visuelle talopgaver', caption: 'Subtraktion — Visuel matematikoevsele' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Ordsoegningspuslespil-arbejdsark med tematisk ordliste', caption: 'Ordsoegning — Tematisk puslespil' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Malebillede-arbejdsark med tematiske illustrationer', caption: 'Malebillede — Tematiske illustrationer' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Saadan laver du additionsarbejdsark — LessonCraftStudio demo',

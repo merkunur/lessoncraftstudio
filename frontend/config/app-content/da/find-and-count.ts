@@ -272,17 +272,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.jpeg',
+        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
         alt: 'Skjulte objekter søgearbejdsark i stående tilstand med spredte dyrebilleder og opgaveinstruktioner',
         caption: 'Skjulte Objekter-tilstand — klassisk søgning med ring om, firkant, streg over og tæl-opgaver',
       },
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.jpeg',
+        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp',
         alt: 'Find og tæl søgearbejdsark med et andet tema og varieret gittertæthed',
         caption: 'Tematisk søgearbejdsark — 104 temaer giver unikke søgescener for hvert arbejdsark',
       },
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201%20answer_key.jpeg',
+        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp',
         alt: 'Find og tæl facit med røde cirkel-, firkant- og korsannoteringer over korrekte objekter',
         caption: 'Automatisk genereret facit — røde annoteringer og mængdevisninger markerer korrekte svar',
       },

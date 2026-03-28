@@ -214,12 +214,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Skrivearbejdsark der demonstrerer kommercielt licenserbart paedagogisk indhold for saelgere af printbare produkter' },
+    heroImage: { src: '/samples/danish/writing/writing.webp', alt: 'Skrivearbejdsark der demonstrerer kommercielt licenserbart paedagogisk indhold for saelgere af printbare produkter' },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Skrivearbejdsark der viser kommercielt licenserbart paedagogisk indhold', caption: 'Skriveoevselse — kommercielt licenserbart paedagogisk indhold' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegningspuslespil der demonstrerer potentiale for kommercielle hoejvolumenprodukter', caption: 'Ordsoegning — mest populaere kommercielle puslespiltype' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Krydsordspuslespil der viser flersproget kommerciel produktkapacitet', caption: 'Krydsord — flersprogede kommercielle produkter' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Matematikarbejdsark der demonstrerer tidslos kommerciel produktgenerering', caption: 'Matematik — tidslos kommerciel produktgenerering' },
+      { src: '/samples/danish/writing/writing%20custom.webp', alt: 'Skrivearbejdsark der viser kommercielt licenserbart paedagogisk indhold', caption: 'Skriveoevselse — kommercielt licenserbart paedagogisk indhold' },
+      { src: '/samples/danish/writing/writing%20beginning%20letter.webp', alt: 'Ordsoegningspuslespil der demonstrerer potentiale for kommercielle hoejvolumenprodukter', caption: 'Ordsoegning — mest populaere kommercielle puslespiltype' },
+      { src: '/samples/danish/writing/writing.webp', alt: 'Krydsordspuslespil der viser flersproget kommerciel produktkapacitet', caption: 'Krydsord — flersprogede kommercielle produkter' },
+      { src: '/samples/danish/writing/writing%20custom.webp', alt: 'Matematikarbejdsark der demonstrerer tidslos kommerciel produktgenerering', caption: 'Matematik — tidslos kommerciel produktgenerering' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Saadan laver du skrivearbejdsark til din printbare forretning — LessonCraftStudio demo',

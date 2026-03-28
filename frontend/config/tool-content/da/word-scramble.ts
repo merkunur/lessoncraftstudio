@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20scramble/Bogstavrod%201.jpeg',
+        src: '/samples/danish/word%20scramble/Bogstavrod%201.webp',
         alt: 'Bogstavblanding arbejdsark med billedledetråde og blandede bogstavbrikker ved Let sværhed',
         caption: 'Let sværhed — halvdelen af bogstaverne forudplaceret som ledetråde for tidlige stavere',
       },
       {
-        src: '/samples/danish/word%20scramble/Bogstavrod%202.jpeg',
+        src: '/samples/danish/word%20scramble/Bogstavrod%202.webp',
         alt: 'Bogstavblanding arbejdsark med vokal-konsonant farvekodning, der viser farvede bogstavbrikker',
         caption: 'Farvekodede tilstand — vokaler og konsonanter i forskellige farver for foniksbevidsthed',
       },
       {
-        src: '/samples/danish/word%20scramble/Bogstavrod%201%20answer-key.jpeg',
+        src: '/samples/danish/word%20scramble/Bogstavrod%203.webp',
         alt: 'Bogstavblanding facit med alle bogstaver korrekt omarrangeret',
         caption: 'Facit — korrekt omarrangerede ord til nem bedømmelse og selvkontrol',
       },

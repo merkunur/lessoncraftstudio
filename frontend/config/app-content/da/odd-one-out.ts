@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.jpeg',
+        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
         alt: 'Lignende tilstand find den ulige arbejdsark med tre dyr og ét madobjekt per række',
         caption: 'Lignende tilstand — tre billeder fra Tema A og ét uligt objekt fra Tema B',
       },
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.jpeg',
+        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.webp',
         alt: 'Identisk tilstand find den ulige arbejdsark med tre identiske billeder og ét anderledes billede per række',
         caption: 'Identisk tilstand — tre kloner af det samme billede og ét anderledes billede',
       },
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201%20answer-key.jpeg',
+        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%203.webp',
         alt: 'Find den ulige facit med røde cirkler tegnet rundt det ulige objekt i hver øvelsesrække',
         caption: 'Automatisk genereret facit — røde cirkler markerer det ulige objekt i hver række',
       },

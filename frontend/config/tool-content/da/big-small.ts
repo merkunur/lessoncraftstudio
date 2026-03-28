@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/big%20small/Stort%20eller%20Lille%202.jpeg',
+        src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
         alt: 'Størrelsessammenligning arbejdsark i sæt ring om den store-tilstand med tematiske dyrebilleder i forskellige størrelser',
         caption: 'Sæt Ring om den Store-tilstand — brugerne identificerer det største billede i hver øvelse',
       },
       {
-        src: '/samples/danish/big%20small/Stort%20eller%20Lille%203.jpeg',
+        src: '/samples/danish/big%20small/Stort%20eller%20Lille%202.webp',
         alt: 'Størrelsesordning arbejdsark med tre billeder nummereret fra mindste til største',
         caption: 'Nummerer 1–2–3 Lille til Stor — brugerne ordner billeder efter størrelse',
       },
       {
-        src: '/samples/danish/big%20small/Stort%20eller%20Lille%201%20answer_key.jpeg',
+        src: '/samples/danish/big%20small/Stort%20eller%20Lille%203.webp',
         alt: 'Størrelsessammenligning facit med korrekte svar markeret og cirklet for øjeblikkelig verifikation',
         caption: 'Facit — korrekte svar markeret og cirklet for øjeblikkelig visuel verifikation',
       },

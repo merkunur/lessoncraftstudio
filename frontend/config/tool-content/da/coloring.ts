@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/coloring/coloring%20portrait%202.png',
+        src: '/samples/danish/coloring/coloring%20portrait%201.webp',
         alt: 'Dyretema farvelægningsside med flere illustrationer arrangeret på frit arbejdsområde, der viser kreative layoutmuligheder',
         caption: 'Dyretema farvelægningsside — frit arbejdsområdelayout med flere illustrationer arrangeret i en unik komposition',
       },
       {
-        src: '/samples/danish/coloring/coloring%20portrait%203.png',
+        src: '/samples/danish/coloring/coloring%20portrait%202.webp',
         alt: 'Produktlinjefærdig farvelægningsside med navnefelt og skriveøvelseslinjer tilføjet med étkliksproduktlinjehjælpere',
         caption: 'Produktlinjeaktivitetsark — navnefelt og skriveøvelseslinjer forvandler farvelægningssider til strukturerede indlæringsaktiviteter',
       },
       {
-        src: '/samples/danish/coloring/coloring%20landscape%201.png',
+        src: '/samples/danish/coloring/coloring%20landscape%201.webp',
         alt: 'Gråtone farvelægningsside-eksport, der viser blækvenlig konvertering fra farverig komposition til KDP-interiører og massetryk',
         caption: 'Gråtoneeksport — farverige kompositioner konverteres til blækvenlige farvelægningssider til KDP-interiører og massetryk',
       },

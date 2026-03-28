@@ -257,17 +257,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.jpeg',
+        src: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
         alt: 'Subtraktionsarbejdsark i Overstregning tilstand med diagonale kryds over fjernede billeder',
         caption: 'Overstregning tilstand — diagonale kryds viser, hvilke elementer der subtraheres',
       },
       {
-        src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.jpeg',
+        src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.webp',
         alt: 'Subtraktionsarbejdsark i Billede minus Tal tilstand med grupper af billeder og tal',
         caption: 'Billede − Tal tilstand — kombinerer grupper af billeder med tal for overgangsfærdigheder',
       },
       {
-        src: '/samples/danish/subtraction/Sjov%20Subtraktion%204.jpeg',
+        src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.webp',
         alt: 'Subtraktionsarbejdsark i Find Subtrahenden tilstand, der udfordrer brugerne til at finde den manglende værdi',
         caption: 'Find Subtrahenden tilstand — brugerne bestemmer, hvor mange der er fjernet',
       },

@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/chart%20count/Billediagram%201.jpeg',
+        src: '/samples/danish/chart%20count/Billediagram%201.webp',
         alt: 'Dyretema billeddiagram arbejdsark med 20 spredte dyreikoner i et 4×5-gitter og 6-kolonne søjlediagram nedenfor til tælleøvelse',
         caption: 'Dyretema billeddiagram — 6 dyretyper spredt i gitteret med søjlediagram nedenfor til datarepræsentationsøvelse',
       },
       {
-        src: '/samples/danish/chart%20count/Billediagram%202.jpeg',
+        src: '/samples/danish/chart%20count/Billediagram%202.webp',
         alt: 'Billeddiagram arbejdsark med dekorativt baggrunds- og rammetema anvendt med uafhængige gennemsigtighedskontroller',
         caption: 'Dekoreret billeddiagram — baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller for professionel produktstyling',
       },
       {
-        src: '/samples/danish/chart%20count/Billediagram%201%20answer_key.jpeg',
+        src: '/samples/danish/chart%20count/Billediagram%203.webp',
         alt: 'Billeddiagram facit med gulmarkerede celler, der viser korrekte antal for hver af de 6 billedtyper i søjlediagrammet',
         caption: 'Automatisk genereret facit — guludfyldte celler (#FFC857) viser det korrekte antal for hver billedtype',
       },

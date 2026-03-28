@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.jpeg',
+        src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp',
         alt: 'Tematilstand sorteringsarbejdsark med dyr til venstre og mad til højre kategorier',
         caption: 'Tematilstand — automatisk udfyldte kategorier fra billedbiblioteket',
       },
       {
-        src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.jpeg',
+        src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.webp',
         alt: 'Sorteringsarbejdsark med et andet temapar og varieret billedantal',
         caption: 'Tematisk sortering — 104 temaer giver uendelige kategoripar-kombinationer',
       },
       {
-        src: '/samples/danish/picture%20sort/Sorter%20Billeder%201%20answer_key.jpeg',
+        src: '/samples/danish/picture%20sort/Sorter%20Billeder%203.webp',
         alt: 'Billedsortering facit med 6x større billeder organiseret i korrekte kategorifelter',
         caption: 'Automatisk genereret facit — 6× større billeder i kategorifelter',
       },

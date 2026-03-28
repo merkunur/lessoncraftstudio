@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser multi-nøgleord pædagogisk printable-produkt til Etsy SEO-optimering' },
+    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser multi-nøgleord pædagogisk printable-produkt til Etsy SEO-optimering' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Dyretema ordsøgningspuslespil-arbejdsark der demonstrerer temabaseret Etsy nøgleordsmålretning', caption: 'Ordsøgning med dyretema — hver sprog- og temavariering retter sig mod forskellige Etsy-søgenøgleord' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Dyretema additionsarbejdsark der retter sig mod højvolumen Etsy matematik-printable nøgleord', caption: 'Additionsarbejdsark med dyretema — retter sig mod højvolumen matematik-printable nøgleord på Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Dyre-farvelægningsside der viser temadrevet Etsy nøgleordsstrategi for printable-sælgere', caption: 'Farvelægningsside med dyretema — temaspecifikke nøgleord driver målrettet Etsy-søgetrafik' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Dyretema ordsøgningspuslespil-arbejdsark der demonstrerer temabaseret Etsy nøgleordsmålretning', caption: 'Ordsøgning med dyretema — hver sprog- og temavariering retter sig mod forskellige Etsy-søgenøgleord' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Dyretema additionsarbejdsark der retter sig mod højvolumen Etsy matematik-printable nøgleord', caption: 'Additionsarbejdsark med dyretema — retter sig mod højvolumen matematik-printable nøgleord på Etsy' },
+      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Dyre-farvelægningsside der viser temadrevet Etsy nøgleordsstrategi for printable-sælgere', caption: 'Farvelægningsside med dyretema — temaspecifikke nøgleord driver målrettet Etsy-søgetrafik' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningsarbejdsark til Etsy SEO — Multi-nøgleord produktstrategi',

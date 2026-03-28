@@ -201,11 +201,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Pædagogisk printable-arbejdsark der viser billedbaserede matematikopgaver til salg på Etsy på tværs af flere kategorier' },
+    heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Pædagogisk printable-arbejdsark der viser billedbaserede matematikopgaver til salg på Etsy på tværs af flere kategorier' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Dyretema additionsarbejdsark til en diversificeret pædagogisk printable Etsy-butik', caption: 'Additionsarbejdsark med dyretema — ét af dusinvis af matematikprodukter du kan skabe til din Etsy-butik' },
-      { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser sprogbaseret pædagogisk printable til Etsy', caption: 'Ordsøgningspuslespil — sprogfølsomt format der multiplicerer på tværs af 11 sprogmarkeder på Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 5.webp', alt: 'Farvelægningsside printable der viser visuel læring-produkt til Etsy pædagogisk butik', caption: 'Farvelægningsside — bredeste køberdemografi af enhver pædagogisk printable-kategori på Etsy' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Dyretema additionsarbejdsark til en diversificeret pædagogisk printable Etsy-butik', caption: 'Additionsarbejdsark med dyretema — ét af dusinvis af matematikprodukter du kan skabe til din Etsy-butik' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser sprogbaseret pædagogisk printable til Etsy', caption: 'Ordsøgningspuslespil — sprogfølsomt format der multiplicerer på tværs af 11 sprogmarkeder på Etsy' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Farvelægningsside printable der viser visuel læring-produkt til Etsy pædagogisk butik', caption: 'Farvelægningsside — bredeste køberdemografi af enhver pædagogisk printable-kategori på Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du pædagogiske printables til salg på Etsy — Multi-kategori butiksstrategi',

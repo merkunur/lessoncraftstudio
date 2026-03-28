@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Matematikarbejdsark klar til pakking til en højværdi arbejdsarksamling' },
+    heroImage: { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Matematikarbejdsark klar til pakking til en højværdi arbejdsarksamling' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbejdsark til matematik arbejdsarkpakke-skabelse', caption: 'Matematikarbejdsark er blandt de mest populære produkter til pakkeskabelse — kombinér addition, subtraktion og talsans til omfattende pakker' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoegning til tematisk arbejdsarkpakke', caption: 'Ordsoegning tilføjer variation til tematiske pakker og fungerer på tværs af fag-, klassetrins- og sæsonbetonede pakketyper' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbejdsark aktivitet til printbar pakkesamling', caption: 'Matchingsaktiviteter komplementerer andre arbejdsarktyper i formatpakker — variation holder brugere engagerede på tværs af flere sessioner' },
+      { src: '/samples/danish/addition/Sjov%20Addition%202.webp', alt: 'Additionsarbejdsark til matematik arbejdsarkpakke-skabelse', caption: 'Matematikarbejdsark er blandt de mest populære produkter til pakkeskabelse — kombinér addition, subtraktion og talsans til omfattende pakker' },
+      { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Ordsoegning til tematisk arbejdsarkpakke', caption: 'Ordsoegning tilføjer variation til tematiske pakker og fungerer på tværs af fag-, klassetrins- og sæsonbetonede pakketyper' },
+      { src: '/samples/danish/addition/Sjov%20Addition%201.webp', alt: 'Matchingsarbejdsark aktivitet til printbar pakkesamling', caption: 'Matchingsaktiviteter komplementerer andre arbejdsarktyper i formatpakker — variation holder brugere engagerede på tværs af flere sessioner' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan skaber du additionsarbejdsark til pakking i højværdi-samlinger',

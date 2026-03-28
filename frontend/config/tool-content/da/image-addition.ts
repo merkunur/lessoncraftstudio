@@ -212,17 +212,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/addition/Sjov%20Addition%201.jpeg',
+        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
         alt: 'Billedadditions arbejdsark med dyretema, der viser Billede + Billede-tilstand',
         caption: 'Billede + Billede-tilstand med dyretema',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%202.jpeg',
+        src: '/samples/danish/addition/Sjov%20Addition%202.webp',
         alt: 'Additions arbejdsark med Billede + Tal-tilstand og tematiske billeder',
         caption: 'Billede + Tal-tilstand med tematiske billeder',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%203.jpeg',
+        src: '/samples/danish/addition/Sjov%20Addition%203.webp',
         alt: 'Blandet tilstand additions arbejdsark med dekorativ ramme',
         caption: 'Blandet tilstand med dekorativ ramme',
       },

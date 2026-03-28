@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%201.jpeg',
+        src: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
         alt: 'Tre gange tre gittermatchningspuslespil med én ledetrådscelle synlig og otte nummererede fliser i blandet palet til matchning',
         caption: '3×3 gitterpuslespil — én ledetrådscelle synlig, otte fliser at matche fra nummereret palet',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%202.jpeg',
+        src: '/samples/danish/grid%20match/Gitterpuslespil%202.webp',
         alt: 'Fire gange fire avanceret gittermatchningspuslespil med seksten fliser og minimale ledetråde for udfordrende visuel perceptionsaktivitet',
         caption: '4×4 avanceret puslespil — maksimal gitterstørrelse med 16 fliser for udfordrende rumligt ræsonnement',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%201%20answer_key.jpeg',
+        src: '/samples/danish/grid%20match/Gitterpuslespil%203.webp',
         alt: 'Gittermatchning facit, der viser komplet billede med nummererede gule cirkler overlejret på hver gittercelle, der angiver korrekt flisplacering',
         caption: 'Automatisk genereret facit — nummererede cirkler (#ffffe0) viser korrekt flisplacering på komplet billede',
       },

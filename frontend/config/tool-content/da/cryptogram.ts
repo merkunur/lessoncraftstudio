@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/cryptogram/Billed-Kryptogram%201.jpeg',
+        src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp',
         alt: 'Kryptogram arbejdsark med tematiske billeder, der erstatter bogstaver i en kodet hemmelig sætning',
         caption: 'Billedchiffer puslespil — afkod den hemmelige besked ved at identificere, hvilket billede der repræsenterer hvilket bogstav',
       },
       {
-        src: '/samples/danish/cryptogram/Billed-Kryptogram%202.jpeg',
+        src: '/samples/danish/cryptogram/Billed-Kryptogram%202.webp',
         alt: 'Kryptogram arbejdsark med dyretema billeder og Bogstaver at Afsløre tips for støttet sværhed',
         caption: 'Tematisk chiffer med Bogstaver at Afsløre — forudafslørede tilknytninger giver støttning for begyndere',
       },
       {
-        src: '/samples/danish/cryptogram/Billed-Kryptogram%201%20answer_key.jpeg',
+        src: '/samples/danish/cryptogram/Billed-Kryptogram%203.webp',
         alt: 'Kryptogram facit med komplet bogstavlegende, der viser alle alfabet-til-billede-tilknytninger i sorteret rækkefølge',
         caption: 'Bogstavlegende facit — hvert alfabetsbogstav parret med sit tildelte billede for definitiv løsningsreference',
       },

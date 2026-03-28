@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/big small/big-small-worksheet_worksheet.webp', alt: 'Størrelsessammenlignings-arbejdsark med tematiske billeder i forskellige størrelser der viser cirkel den store øvelse til førskole' },
+    heroImage: { src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp', alt: 'Størrelsessammenlignings-arbejdsark med tematiske billeder i forskellige størrelser der viser cirkel den store øvelse til førskole' },
     samples: [
-      { src: '/samples/english/big small/big-small-worksheet_worksheet.webp', alt: 'Stor og lille størrelsessammenlignings-arbejdsark med tematiske billeder der viser fem spørgsmålstyper', caption: 'Størrelsessammenlignings-arbejdsark med tematiske billeder og automatisk genererede svarindikatorer' },
-      { src: '/samples/english/big small/big-small-different images.webp', alt: 'Cirkel den store arbejdsark med identiske dyrebilleder i forskellige størrelser', caption: 'Cirkel den store-tilstand med tematiske billeder til visuel størrelses-diskriminations-øvelse' },
+      { src: '/samples/danish/big%20small/Stort%20eller%20Lille%202.webp', alt: 'Stor og lille størrelsessammenlignings-arbejdsark med tematiske billeder der viser fem spørgsmålstyper', caption: 'Størrelsessammenlignings-arbejdsark med tematiske billeder og automatisk genererede svarindikatorer' },
+      { src: '/samples/danish/big%20small/Stort%20eller%20Lille%203.webp', alt: 'Cirkel den store arbejdsark med identiske dyrebilleder i forskellige størrelser', caption: 'Cirkel den store-tilstand med tematiske billeder til visuel størrelses-diskriminations-øvelse' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Sådan skaber du størrelsessammenlignings-arbejdsark — Komplet vejledning',

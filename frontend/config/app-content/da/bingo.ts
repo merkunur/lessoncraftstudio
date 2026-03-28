@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/bingo/Billedbingo%201.jpeg',
+        src: '/samples/danish/bingo/Billedbingo%201.webp',
         alt: 'Billedbingokort med billedudfyldning, der viser farverige tematiske illustrationer i gitterceller og cirkulære billedbrikker',
         caption: 'Billedudfyldningstilstand — farverige illustrationer i både kortceller og cirkulære brikker',
       },
       {
-        src: '/samples/danish/bingo/Billedbingo%202.jpeg',
+        src: '/samples/danish/bingo/Billedbingo%202.webp',
         alt: 'Billedbingokort med et andet tema og varieret gitterstørrelse',
         caption: 'Tematisk bingokort — 104 temaer giver unikke bingooplevelser for hvert sæt',
       },
       {
-        src: '/samples/danish/bingo/Billedbingo%201%20callout.jpeg',
+        src: '/samples/danish/bingo/Billedbingo%203.webp',
         alt: 'Bingo opråbsliste med dynamisk ordgitter, der viser alle spillobjekter til spillederen',
         caption: 'Opråbsliste — dynamisk ordgitter til personen, der leder bingospillet',
       },

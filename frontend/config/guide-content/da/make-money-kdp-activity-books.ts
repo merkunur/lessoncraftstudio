@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-puslespil-arbejdsark der demonstrerer KDP aktivitetsbogindhold til omsætningsgenerering' },
+    heroImage: { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Sudoku-puslespil-arbejdsark der demonstrerer KDP aktivitetsbogindhold til omsætningsgenerering' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-puslespil formateret til KDP aktivitetsbog interiørsider', caption: 'Sudoku-puslespil — en konsekvent profitabel aktivitetsbogkategori på Amazon KDP med loyale genkøbere' },
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Matematikarbejdsark formateret til KDP-arbejdsbog interiørsider', caption: 'Matematik-arbejdsbøger — højefterspørgsels KDP-kategori med naturlige klassetrins-katalogudvidelsesmuligheder' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøgningspuslespil til KDP puslespilbog katalogdiversificering', caption: 'Ordsøgningsbøger — den største puslespilbogkategori på Amazon med stærkt potentiale for flervolumen serie-omsætning' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp', alt: 'Sudoku-puslespil formateret til KDP aktivitetsbog interiørsider', caption: 'Sudoku-puslespil — en konsekvent profitabel aktivitetsbogkategori på Amazon KDP med loyale genkøbere' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikarbejdsark formateret til KDP-arbejdsbog interiørsider', caption: 'Matematik-arbejdsbøger — højefterspørgsels KDP-kategori med naturlige klassetrins-katalogudvidelsesmuligheder' },
+      { src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp', alt: 'Ordsøgningspuslespil til KDP puslespilbog katalogdiversificering', caption: 'Ordsøgningsbøger — den største puslespilbogkategori på Amazon med stærkt potentiale for flervolumen serie-omsætning' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sådan skaber du sudoku-aktivitetsbøger til Amazon KDP — Omsætningsopbyggende vejledning',

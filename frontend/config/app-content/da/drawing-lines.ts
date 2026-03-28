@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/drawing%20lines/Linjetegnings%F8velse%201.webp',
+        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%201.webp',
         alt: 'Linjesporingsarbejdsark med kurveskabelon, der forbinder matchende billedpar i liggende orientering',
         caption: 'Kurveskabelon — brugerne sporer flydende kurvede linjer for at forbinde matchende billedpar',
       },
       {
-        src: '/samples/danish/drawing%20lines/Linjetegnings%F8velse%202.webp',
+        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%202.webp',
         alt: 'Linjesporingsarbejdsark med diagonalskabelon, der forbinder fem billedpar i stående orientering',
         caption: 'Diagonalskabelon — vinklede linjer med 5 billedpar til tværsidig koordinationsøvelse',
       },
       {
-        src: '/samples/danish/drawing%20lines/Linjetegnings%F8velse%204.webp',
+        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%204.webp',
         alt: 'Linjesporingsarbejdsark med horisontal skabelon, der forbinder billedpar med lige linjer i stående format',
         caption: 'Horisontal skabelon — lige venstre-til-højre-linjer med tematiske billeder',
       },

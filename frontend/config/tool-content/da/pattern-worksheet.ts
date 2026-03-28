@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20worksheet/M%F8nsterg%E5der%201.webp',
+        src: '/samples/danish/pattern%20worksheet/Mønstergåder%201.webp',
         alt: 'Mønsterarbejdsark med AB udfyldningsøvelser med dyrebilleder i gitterlayout med tomme ruder for brugerne at fuldende',
         caption: 'AB tom-rude øvelser med dyretema — brugerne identificerer det alternerende mønster og udfylder det manglende billede',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/M%F8nsterg%E5der%202.webp',
+        src: '/samples/danish/pattern%20worksheet/Mønstergåder%202.webp',
         alt: 'Mønsterarbejdsark med ABC flervalsøvelser med tematiske billeder og tre svarmuligheder per øvelse',
         caption: 'ABC flervalsøvelser — brugerne vælger det korrekte manglende objekt blandt tre alternativer',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/M%F8nsterg%E5der%203.webp',
+        src: '/samples/danish/pattern%20worksheet/Mønstergåder%203.webp',
         alt: 'Mønsterarbejdsark facit, der viser alle huller udfyldt med det rigtige mønsterobjekt for verifikation',
         caption: 'Facitvisning — alle huller udfyldt med korrekte mønsterobjekter for verifikation',
       },

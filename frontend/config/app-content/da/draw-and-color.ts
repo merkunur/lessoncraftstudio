@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%201.webp',
+        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%201.webp',
         alt: 'Gitterritningsarbejdsark med dyr sort-hvidt konturtema, der viser øvelsesgitter og ledetrådsgitter',
         caption: 'Dyretema — brugerne reproducerer konturen celle-for-celle fra ledetrådsgitterets ledetråde',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%202.webp',
+        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%202.webp',
         alt: 'Gitterritningsarbejdsark med horisontalt symmetrispejltilstand og ledetrådsceller spejlet venstre-til-højre',
         caption: 'Horisontal symmetritilstand — ledetrådsceller spejles venstre-til-højre for rumligt ræsonnement',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%E6g%203.webp',
+        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%203.webp',
         alt: 'Gitterritningsarbejdsark med lav ledetrådsprocent, der viser minimale referenceceller for ekspertudfordring',
         caption: 'Lav ledetrådsprocent — minimale referenceceller for ekspertniveau gitterreproduktion',
       },

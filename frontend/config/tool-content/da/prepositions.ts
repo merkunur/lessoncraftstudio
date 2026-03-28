@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/prepositions/Pr%E6positioner%201.webp',
+        src: '/samples/danish/prepositions/Præpositioner%201.webp',
         alt: 'Præpositioner arbejdsark med udfyldningsøvelser med farverige billedscener',
         caption: 'Udfyldning præpositionsøvelser med billedscener',
       },
       {
-        src: '/samples/danish/prepositions/Pr%E6positioner%202.webp',
+        src: '/samples/danish/prepositions/Præpositioner%202.webp',
         alt: 'Præpositioner arbejdsark med flervalgs rumlige relationsøvelser',
         caption: 'Flervalgs-tilstand for begyndervenlig øvelse',
       },
       {
-        src: '/samples/danish/prepositions/Pr%E6positioner%203.webp',
+        src: '/samples/danish/prepositions/Præpositioner%203.webp',
         alt: 'Avanceret præpositioner arbejdsark med formerstatning og flere øvelser per side',
         caption: 'Formerstatning opretter unikke scenekombinationer',
       },

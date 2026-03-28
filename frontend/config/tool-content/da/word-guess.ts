@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20guess/G%E6t%20Ordet%201.webp',
+        src: '/samples/danish/word%20guess/Gæt%20Ordet%201.webp',
         alt: 'Gæt ordet arbejdsark med billedledetråde og delvist udfyldte bogstavsgitre til stavningsøvelse',
         caption: 'Billedbaserede gæt ordet øvelser med progressive ledetrådsniveauer',
       },
       {
-        src: '/samples/danish/word%20guess/G%E6t%20Ordet%202.webp',
+        src: '/samples/danish/word%20guess/Gæt%20Ordet%202.webp',
         alt: 'Gæt ordet arbejdsark, der viser flere sværhedsgrader med forskellige mængder afslørede bogstaver',
         caption: 'Justerbar ledetrådssværhed fra Let til Ingen Ledetråde',
       },
       {
-        src: '/samples/danish/word%20guess/G%E6t%20Ordet%203.webp',
+        src: '/samples/danish/word%20guess/Gæt%20Ordet%203.webp',
         alt: 'Gæt ordet facit med alle korrekte bogstaver udfyldt',
         caption: 'Automatisk genereret facit med alle korrekte stavninger',
       },

@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20train/M%F8nstertoget%201.webp',
+        src: '/samples/danish/pattern%20train/Mønstertoget%201.webp',
         alt: 'Mønstertog-arbejdsark med AB alternerende mønster og dyrebilleder over 11 tematiske togvogne',
         caption: 'AB-mønster med dyretema — brugerne identificerer den alternerende sekvens og udfylder den manglende vogn',
       },
       {
-        src: '/samples/danish/pattern%20train/M%F8nstertoget%202.webp',
+        src: '/samples/danish/pattern%20train/Mønstertoget%202.webp',
         alt: 'Mønstertog-arbejdsark med ABC treelement-mønster og tematiske billeder over togvogne',
         caption: 'ABC-mønster — tre roterende elementer skaber en mere kompleks gentagen sekvens',
       },
       {
-        src: '/samples/danish/pattern%20train/M%F8nstertoget%203.webp',
+        src: '/samples/danish/pattern%20train/Mønstertoget%203.webp',
         alt: 'Mønstertog facit, der viser alle 11 vogne udfyldt med den korrekte mønstersekvens',
         caption: 'Facit — alle 11 vogne udfyldt med det korrekte mønster til lærerveri­fikation',
       },

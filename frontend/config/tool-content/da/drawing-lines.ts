@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/drawing%20lines/Linjetegnings%F8velse%201.webp',
+        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%201.webp',
         alt: 'Linjesporing arbejdsark med kurveskabelon, der forbinder matchede dyrebilledpar i liggende orientering',
         caption: 'Kurveskabelon — flydende linjestier med 4 farverige billedpar i liggende orientering',
       },
       {
-        src: '/samples/danish/drawing%20lines/Linjetegnings%F8velse%202.webp',
+        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%202.webp',
         alt: 'Linjesporing arbejdsark med diagonal skabelon, der forbinder fem billedpar i stående orientering',
         caption: 'Diagonal skabelon — vinklede linjer med 5 billedpar for krydsende kropskoordineringsøvelse',
       },
       {
-        src: '/samples/danish/drawing%20lines/Linjetegnings%F8velse%204.webp',
+        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%204.webp',
         alt: 'Linjesporing arbejdsark med vertikal skabelon, der forbinder naturtema billedpar i stående format',
         caption: 'Vertikal skabelon — oppefra-og-ned linjer for begynder finmotorisk øvelse',
       },

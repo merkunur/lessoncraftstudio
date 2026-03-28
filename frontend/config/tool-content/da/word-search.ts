@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
+        src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
         alt: 'Ordsøgning arbejdsark i stående layout med 12×12 bogstavgitter og tematiske billedledetråde',
         caption: 'Stående layout — 12×12 gitter med tematiske billedledetråde og ordliste',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%F8gning%202.webp',
+        src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
         alt: 'Ordsøgning arbejdsark med større gitter og diagonale ord aktiveret',
         caption: 'Større gitter — med diagonale og baglæns ord aktiveret for øget sværhed',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%F8gning%203.webp',
+        src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
         alt: 'Ordsøgning facit med farvekodede markeringer, der viser hvert fundet ord',
         caption: 'Farvekodede facit — seks cyklende farver til øjeblikkelig visuel verifikation',
       },

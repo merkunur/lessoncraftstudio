@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsøgningspuslespil med tematiske billedledetråde der viser ordforrådsord skjult i et bogstavgitter' },
+    heroImage: { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordsøgningspuslespil med tematiske billedledetråde der viser ordforrådsord skjult i et bogstavgitter' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Ordsøgningspuslespil med dyretema billedledetråde til børn', caption: 'Tematisk ordsøgningspuslespil med ordforråds-tilstand og dyrebilledledetråde og konfigurerbar gitterstørrelse' },
-      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Ordsøgning facit med farvekodet ordfremhævning', caption: 'Farvekodet facit hvor hvert skjult ord er fremhævet i en distinkt farve til nem rettelse' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Ordsøgningspuslespil med dyretema billedledetråde til børn', caption: 'Tematisk ordsøgningspuslespil med ordforråds-tilstand og dyrebilledledetråde og konfigurerbar gitterstørrelse' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Ordsøgning facit med farvekodet ordfremhævning', caption: 'Farvekodet facit hvor hvert skjult ord er fremhævet i en distinkt farve til nem rettelse' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du ordsøgningspuslespil — Komplet vejledning',

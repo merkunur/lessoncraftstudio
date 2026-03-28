@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
+      src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
       alt: 'Ordsøgningsarbejdsark der demonstrerer professionelle kvalitetsstandarder med rent layout og præcis formatering',
     },
     samples: [
       {
-        src: '/samples/danish/wordsearch/Ords%F8gning%202.webp',
+        src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
         alt: 'Ordsøgningspuslespil der viser professionel trykklart formatering og kvalitetsgitterjustering',
         caption: 'Professionelt ordsøgningsoutput demonstrerer rent layout, læsbar typografi og præcis gitterjustering',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%F8gning%203.webp',
+        src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
         alt: 'Additionsarbejdsark der viser kvalitetsstandarder for taljustering og facitnøjagtighed',
         caption: 'Matematikarbejdsark kræver præcis justering, klar typografi og verificerede facit for professionel kvalitet',
       },
       {
-        src: '/samples/danish/wordsearch/Ords%F8gning%201.webp',
+        src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
         alt: 'Farvelægningsside der demonstrerer visuelle kvalitetsstandarder med konsistente linjetykkelser og udskriftsoptimering',
         caption: 'Visuelle produkter kræver konsistente linjetykkelser, gråtoneoptimering og professionel udskriftskvalitet',
       },

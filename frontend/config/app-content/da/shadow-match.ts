@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/shadow%20match/G%F8r%20Billederne%20Hele%201.webp',
+        src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%201.webp',
         alt: 'Skyggematchnings arbejdsark, der viser fire farvede billeder matchet med fire sorte silhuetter med bogstav- og nummeretiketter',
         caption: 'Skyggematchning-tilstand — brugerne matcher billeder med deres automatisk genererede silhuetter',
       },
       {
-        src: '/samples/danish/shadow%20match/G%F8r%20Billederne%20Hele%202.webp',
+        src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%202.webp',
         alt: 'Gør den hel arbejdsark med delte billedhalvdele, som brugerne kobler sammen ved at matche første og anden halvdele',
         caption: 'Gør Den Hel-tilstand — brugerne matcher delte billedhalvdele for at fuldende billederne',
       },
       {
-        src: '/samples/danish/shadow%20match/G%F8r%20Billederne%20Hele%203.webp',
+        src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%203.webp',
         alt: 'Skyggematchning facit, der viser originalbilleder med silhuetter og korrekte bogstav-til-nummer matchningsetiketter',
         caption: 'Automatisk genereret facit — bogstav-til-nummer etiketter viser korrekte matchninger',
       },

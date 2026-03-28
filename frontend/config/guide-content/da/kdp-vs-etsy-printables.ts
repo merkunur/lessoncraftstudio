@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark egnet til salg som Etsy digital download eller kompilering til Amazon KDP puslespilbog' },
+    heroImage: { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark egnet til salg som Etsy digital download eller kompilering til Amazon KDP puslespilbog' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Dyretema ordsøgningspuslespil til Etsy og KDP', caption: 'Ordsøgningspuslespil sælger på begge platforme — som individuelle digitale downloads på Etsy og kompileret til puslespilbøger på KDP' },
-      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Additionsarbejdsark til Etsy digital download eller KDP aktivitetsbog', caption: 'Matematikarbejdsark fungerer som Etsy enkeltark og små pakker eller kompileret til KDP matematik aktivitetsbøger' },
-      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Farvelægningsside til salg på både Etsy og KDP', caption: 'Farvelægningssider er en topkategori på begge platforme — individuelle downloads på Etsy og malebøger på KDP' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Dyretema ordsøgningspuslespil til Etsy og KDP', caption: 'Ordsøgningspuslespil sælger på begge platforme — som individuelle digitale downloads på Etsy og kompileret til puslespilbøger på KDP' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Additionsarbejdsark til Etsy digital download eller KDP aktivitetsbog', caption: 'Matematikarbejdsark fungerer som Etsy enkeltark og små pakker eller kompileret til KDP matematik aktivitetsbøger' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Farvelægningsside til salg på både Etsy og KDP', caption: 'Farvelægningssider er en topkategori på begge platforme — individuelle downloads på Etsy og malebøger på KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan skaber du printbare arbejdsark til Etsy og Amazon KDP — Trin-for-trin vejledning',

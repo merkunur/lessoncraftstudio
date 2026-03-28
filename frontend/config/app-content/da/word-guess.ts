@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20guess/G%E6t%20Ordet%201.webp',
+        src: '/samples/danish/word%20guess/Gæt%20Ordet%201.webp',
         alt: 'Gæt ordet-arbejdsark med billedledetråde på Let sværhedsgrad med halvdelen af bogstaverne afsløret',
         caption: 'Let sværhedsgrad — halvdelen af bogstaverne vises som ledetråde for begyndende læsere',
       },
       {
-        src: '/samples/danish/word%20guess/G%E6t%20Ordet%202.webp',
+        src: '/samples/danish/word%20guess/Gæt%20Ordet%202.webp',
         alt: 'Gæt ordet-arbejdsark på Svær sværhedsgrad med minimale ledetrådsbogstaver og dyretema',
         caption: 'Svær sværhedsgrad — kun en sjettedel af bogstaverne afsløret for avancerede stavere',
       },
       {
-        src: '/samples/danish/word%20guess/G%E6t%20Ordet%203.webp',
+        src: '/samples/danish/word%20guess/Gæt%20Ordet%203.webp',
         alt: 'Gæt ordet-facit med alle bogstaver udfyldt og ingen tomme celler',
         caption: 'Facit — alle bogstaver afsløret for nem rettelse og selvkontrol',
       },

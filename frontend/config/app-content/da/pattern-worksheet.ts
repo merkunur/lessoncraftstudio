@@ -267,17 +267,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20worksheet/M%F8nsterg%E5der%201.webp',
+        src: '/samples/danish/pattern%20worksheet/Mønstergåder%201.webp',
         alt: 'Mønsterarbejdsark med AB udfyld-feltet-øvelser og dyrebilleder i gitterlayout med tomme felter, som brugerne skal fuldende',
         caption: 'AB tomt-felt-øvelser med dyretema — brugerne identificerer det alternerende mønster og udfylder det manglende billede',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/M%F8nsterg%E5der%202.webp',
+        src: '/samples/danish/pattern%20worksheet/Mønstergåder%202.webp',
         alt: 'Mønsterarbejdsark med ABC flervalgsøvelser med tematiske billeder og tre svaralternativer per øvelse',
         caption: 'ABC flervalgsøvelser — brugerne vælger det korrekte manglende element blandt tre alternativer',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/M%F8nsterg%E5der%203.webp',
+        src: '/samples/danish/pattern%20worksheet/Mønstergåder%203.webp',
         alt: 'Mønsterarbejdsark facit, der viser alle tomme positioner udfyldt med de korrekte mønsterelementer',
         caption: 'Facit — alle tomme felter udfyldt med korrekte mønsterelementer til lærerverifikation',
       },

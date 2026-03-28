@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20train/M%F8nstertoget%201.webp',
+        src: '/samples/danish/pattern%20train/Mønstertoget%201.webp',
         alt: 'Mønstertog arbejdsark i AB alternerende mønstertilstand med dyrebilleder på 11 tematiske togvogne',
         caption: 'AB-mønster med dyretema — brugerne identificerer den alternerende sekvens og udfylder den manglende vogn',
       },
       {
-        src: '/samples/danish/pattern%20train/M%F8nstertoget%202.webp',
+        src: '/samples/danish/pattern%20train/Mønstertoget%202.webp',
         alt: 'Mønstertog arbejdsark i ABC treelementsmønster med tematiske billeder på togvogne',
         caption: 'ABC-mønster — tre roterende objekter skaber en mere kompleks gentagende sekvens',
       },
       {
-        src: '/samples/danish/pattern%20train/M%F8nstertoget%203.webp',
+        src: '/samples/danish/pattern%20train/Mønstertoget%203.webp',
         alt: 'Mønstertog facit, der viser alle 11 vogne udfyldt med den korrekte mønstersekvens',
         caption: 'Facitvisning — alle 11 vogne udfyldt med det korrekte mønster for verifikation',
       },

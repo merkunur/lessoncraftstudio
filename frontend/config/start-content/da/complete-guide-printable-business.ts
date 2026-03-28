@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Ordsoegningsarbejdsark lavet med LessonCraftStudio-generator' },
+    heroImage: { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Ordsoegningsarbejdsark lavet med LessonCraftStudio-generator' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Printbart ordsoegningsarbejdsark med dyretema', caption: 'Ordsoegning — Dyretema' },
-      { src: '/samples/danish/wordsearch/Ords%F8gning%203.webp', alt: 'Additionsarbejdsark med billedbaserede matematikopgaver', caption: 'Addition — Billedbaserede opgaver' },
-      { src: '/samples/danish/wordsearch/Ords%F8gning%201.webp', alt: 'Malebilledearbejdsark med tematiske illustrationer', caption: 'Malebillede — Tematiske illustrationer' },
-      { src: '/samples/danish/wordsearch/Ords%F8gning%202.webp', alt: 'Matchningsarbejdsark med visuelle paraktiviteter', caption: 'Matchning — Visuel paraktivitet' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Printbart ordsoegningsarbejdsark med dyretema', caption: 'Ordsoegning — Dyretema' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%203.webp', alt: 'Additionsarbejdsark med billedbaserede matematikopgaver', caption: 'Addition — Billedbaserede opgaver' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%201.webp', alt: 'Malebilledearbejdsark med tematiske illustrationer', caption: 'Malebillede — Tematiske illustrationer' },
+      { src: '/samples/danish/wordsearch/Ordsøgning%202.webp', alt: 'Matchningsarbejdsark med visuelle paraktiviteter', caption: 'Matchning — Visuel paraktivitet' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Saadan laver du ordsoegningsarbejdsark — LessonCraftStudio demo',

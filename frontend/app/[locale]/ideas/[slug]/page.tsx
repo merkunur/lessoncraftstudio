@@ -273,7 +273,7 @@ export default async function IdeaPage({
   const content = await getIdeaContent(config.ideaId, locale);
 
   // Look up visual showcase config (EN + DE + FR + ES + PT)
-  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl' || locale === 'sv')
+  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl' || locale === 'sv' || locale === 'da' || locale === 'no' || locale === 'fi')
     ? getPageShowcaseConfig('idea', config.ideaId, locale)
     : null;
 

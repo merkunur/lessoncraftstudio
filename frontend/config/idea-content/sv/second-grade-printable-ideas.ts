@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Årskurs 2 utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables årskurs 2 — Verksamhet | LessonCraftStudio',
     metaDescription: 'Utforska utskriftsbara idéer för årskurs 2 att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept och nischstrategier för säljare av utskriftsbara produkter.',
 
-    primaryKeyword: 'årskurs 2 utskriftsbara idéer',
+    primaryKeyword: 'printables årskurs 2 idéer verksamhet',
     secondaryKeywords: [
       'årskurs 2 arbetsblad att sälja',
       'utskriftsbart företag idéer för lågstadiet årskurs 2',

@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safaridjur utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables safaridjur att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck lönsamma safaridjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Afrikanskt vilt djurliv produktkoncept och plattformstips för.',
 
-    primaryKeyword: 'safaridjur utskriftsbara idéer',
+    primaryKeyword: 'printables safaridjur att sälja',
     secondaryKeywords: [
       'safaridjur arbetsblad att sälja',
       'safaritema utskriftsbart företag',

@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skogsdjur utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables skogsdjur för Etsy | LessonCraftStudio',
     metaDescription: 'Utforska skogsdjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Skogstema produktkoncept, plattformstips och nischstrategier för säljare.',
 
-    primaryKeyword: 'skogsdjur utskriftsbara idéer',
+    primaryKeyword: 'printables skogsdjur för Etsy',
     secondaryKeywords: [
       'skogsdjur arbetsblad att sälja',
       'skogstema utskriftsbart företag',

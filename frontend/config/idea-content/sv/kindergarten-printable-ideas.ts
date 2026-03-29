@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Förskoleklass utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables förskoleklass | LessonCraftStudio',
     metaDescription: 'Upptäck förskoleklass utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept och nischstrategier för säljare av utskriftsbara produkter.',
 
-    primaryKeyword: 'förskoleklass utskriftsbara idéer',
+    primaryKeyword: 'printables förskoleklass idéer verksamhet',
     secondaryKeywords: [
       'förskoleklass arbetsblad att sälja',
       'utskriftsbart företag idéer för förskoleklass',

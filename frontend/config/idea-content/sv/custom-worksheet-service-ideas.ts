@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skräddarsydd arbetsblad-tjänst affärsidéer — guide',
+    titleTag: 'Skräddarsydda arbetsblad — Tjänst | LessonCraftStudio',
     metaDescription: 'Skräddarsydda arbetsblad-tjänstidéer för Etsy- och frilansförsäljare. Erbjud beställningstillverkade pedagogiska utskriftsbara produkter med premium per-order-p',
 
-    primaryKeyword: 'skräddarsydd arbetsblad-tjänst',
+    primaryKeyword: 'skräddarsydda arbetsblad tjänst',
     secondaryKeywords: [
       'skräddarsydd arbetsblad affärsidéer',
       'beställningstillverkad utskriftsbar skapandetjänst',

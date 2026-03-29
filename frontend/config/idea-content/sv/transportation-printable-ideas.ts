@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fordon utskriftsbara idéer att sälja — nischguide | Online',
+    titleTag: 'Printables fordon — Verksamhet | LessonCraftStudio',
     metaDescription: 'Utforska fordon utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Fordonstema produktkoncept, plattformsstrategier och tips för säljare. Prova.',
 
-    primaryKeyword: 'fordon utskriftsbara idéer',
+    primaryKeyword: 'printables fordon idéer verksamhet',
     secondaryKeywords: [
       'fordon arbetsblad att sälja',
       'fordonstema utskriftsbart företag',

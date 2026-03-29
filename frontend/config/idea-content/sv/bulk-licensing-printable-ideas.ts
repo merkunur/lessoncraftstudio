@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Volymlicensiering utskriftsbara affärsidéer — guide',
+    titleTag: 'Volymlicens printables | LessonCraftStudio',
     metaDescription: 'Volymlicensiering utskriftsbara affärsidéer för försäljning av arbetsbladssamlingar till skolor, kommuner och organisationer. Volymlicensieringsstrategier för.',
 
-    primaryKeyword: 'volymlicensiering utskriftsbara',
+    primaryKeyword: 'volymlicens printables idéer',
     secondaryKeywords: [
       'volymlicens arbetsblad företag',
       'skolkommunal utskriftsbar licensiering',

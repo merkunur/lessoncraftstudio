@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Undervattens utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables undervattensvärlden | LessonCraftStudio',
     metaDescription: 'Utforska undervattens utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Havstema produktkoncept, djuphavs arbetsblad och nischtips för säljare.',
 
-    primaryKeyword: 'undervattens utskriftsbara idéer',
+    primaryKeyword: 'printables undervattensvärld att sälja',
     secondaryKeywords: [
       'undervattens arbetsblad att sälja',
       'djuphavs utskriftsbart företag idéer',

@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Hemundervisning utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables hemundervisning | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för hemundervisning att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot föräldrar som bygger.',
 
-    primaryKeyword: 'hemundervisning utskriftsbara idéer',
+    primaryKeyword: 'printables hemundervisning att sälja',
     secondaryKeywords: [
       'hemundervisning arbetsblad att sälja',
       'utskriftsbart företag idéer för hemundervisning',

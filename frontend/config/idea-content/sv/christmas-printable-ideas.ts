@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Jul utskriftsbara idéer att sälja — nischguide — Säljguide',
+    titleTag: 'Printables jul & lucia för Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck jul utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Julproduktkoncept, säsongsstrategier och plattformstips för säljare. Prova.',
 
-    primaryKeyword: 'jul utskriftsbara idéer',
+    primaryKeyword: 'printables jul och lucia att sälja Etsy',
     secondaryKeywords: [
       'jularbetsblad att sälja',
       'helgdag utskriftsbart företag idéer',

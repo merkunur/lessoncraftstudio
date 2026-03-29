@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bondgårdsdjur utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables bondgårdsdjur för Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck lönsamma bondgårdsdjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept, prissättningsstrategier och plattformstips för.',
 
-    primaryKeyword: 'bondgårdsdjur utskriftsbara idéer',
+    primaryKeyword: 'printables bondgårdsdjur att sälja',
     secondaryKeywords: [
       'bondgårdsdjur arbetsblad att sälja',
       'bondgårdstema utskriftsbart företag',

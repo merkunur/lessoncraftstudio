@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Havsdjur utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables havsdjur — Verksamhet | LessonCraftStudio',
     metaDescription: 'Utforska havsdjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Havstema produktkoncept, plattformsstrategier och tips för säljare. Prova.',
 
-    primaryKeyword: 'havsdjur utskriftsbara idéer',
+    primaryKeyword: 'printables havsdjur idéer verksamhet',
     secondaryKeywords: [
       'havsdjur arbetsblad att sälja',
       'havsvarelser utskriftsbart företag idéer',

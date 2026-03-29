@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Specialpedagogik utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables särskola att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för specialpedagogik att sälja på Etsy, KDP och Gumroad. Produktkoncept för säljare som riktar sig mot specialpedagoger och.',
 
-    primaryKeyword: 'specialpedagogik utskriftsbara idéer',
+    primaryKeyword: 'printables särskola anpassad grundskola sälja',
     secondaryKeywords: [
       'specialpedagogik arbetsblad att sälja',
       'utskriftsbart företag idéer för specialpedagogik',

@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Tacksägelse utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables tacksamhet att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck tacksägelse utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Skördetema produktkoncept, säsongsstrategier och plattformstips för säljare.',
 
-    primaryKeyword: 'tacksägelse utskriftsbara idéer',
+    primaryKeyword: 'printables tacksamhet tema att sälja',
     secondaryKeywords: [
       'tacksägelse arbetsblad att sälja',
       'tacksägelse utskriftsbart företag idéer',

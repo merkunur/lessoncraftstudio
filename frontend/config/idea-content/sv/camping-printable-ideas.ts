@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Camping utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables camping — Verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck campingtematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Friluftsinspirerade produktkoncept, plattformsstrategier och.',
 
-    primaryKeyword: 'camping utskriftsbara idéer',
+    primaryKeyword: 'printables camping idéer verksamhet',
     secondaryKeywords: [
       'camping arbetsblad att sälja',
       'camping aktivitetsblad för säljare',

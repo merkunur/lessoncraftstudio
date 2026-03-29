@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Husdjur utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables husdjur för Etsy | LessonCraftStudio',
     metaDescription: 'Utforska lönsamma husdjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Katt-, hund- och smådjurskoncept med plattformsstrategier för säljare.',
 
-    primaryKeyword: 'husdjur utskriftsbara idéer',
+    primaryKeyword: 'printables husdjur för Etsy',
     secondaryKeywords: [
       'husdjurstema arbetsblad att sälja',
       'husdjur utskriftsbart företag idéer',

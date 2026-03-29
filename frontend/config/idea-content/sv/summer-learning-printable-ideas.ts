@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sommarlärande utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Sommarlov arbetsblad att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för sommarlärande att sälja på Etsy, Amazon KDP och Gumroad. Säsongsbetonade produktkoncept för föräldrar, lärare och sommaraktivite',
 
-    primaryKeyword: 'sommarlärande utskriftsbara idéer',
+    primaryKeyword: 'sommarlov arbetsblad att sälja',
     secondaryKeywords: [
       'sommarlärande arbetsblad att sälja',
       'sommarövning utskriftsbart företag',

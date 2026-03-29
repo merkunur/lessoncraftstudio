@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fysiska utskriftsbara produkt idéer att sälja — guide',
+    titleTag: 'Fysiskt tryckta produkter | LessonCraftStudio',
     metaDescription: 'Fysiska utskriftsbara produktidéer för Etsy- och hantverksmarknadssäljare. Bygg ett premiumföretag genom att trycka, laminera och leverera handgripliga.',
 
-    primaryKeyword: 'fysiska utskriftsbara produkt idéer',
+    primaryKeyword: 'fysiskt tryckta produkter idéer',
     secondaryKeywords: [
       'tryckta arbetsblad produktföretag',
       'fysiska utskriftsbara produkter att sälja',

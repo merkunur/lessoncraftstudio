@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Rymden utskriftsbara idéer att sälja — nischguide | Online',
+    titleTag: 'Printables rymden för Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck rymden utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Rymdtema produktkoncept, STEM-strategier och plattformstips för säljare.',
 
-    primaryKeyword: 'rymden utskriftsbara idéer',
+    primaryKeyword: 'printables rymden att sälja på Etsy',
     secondaryKeywords: [
       'rymdtema arbetsblad att sälja',
       'rymden utskriftsbart företag idéer',

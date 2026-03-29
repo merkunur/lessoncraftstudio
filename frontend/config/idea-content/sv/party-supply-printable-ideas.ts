@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Festartiklar utskriftsbara affärsidéer att sälja — guide',
+    titleTag: 'Printables kalas — Verksamhet | LessonCraftStudio',
     metaDescription: 'Utskriftsbara festartiklar-affärsidéer för Etsy-säljare. Skapa tematiska festpaket, födelsedagsspel, firande-arbetsblad och säsongsbetonade evenemang-utskriftsb',
 
-    primaryKeyword: 'utskriftsbara festartiklar',
+    primaryKeyword: 'printables kalas idéer verksamhet',
     secondaryKeywords: [
       'utskriftsbara festartiklar att sälja',
       'festdekoration utskriftsbart företag',

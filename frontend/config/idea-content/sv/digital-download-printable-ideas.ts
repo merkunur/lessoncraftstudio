@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digital nedladdning arbetsblad idéer att sälja — guide',
+    titleTag: 'Digitala nedladdningar verksamhet | LessonCraftStudio',
     metaDescription: 'Digitala nedladdningsbara arbetsbladsidéer för Etsy, Gumroad och Shopify-säljare. Bygg ett lagerfritt utskriftsbart företag med direktlevererade pedagogiska.',
 
-    primaryKeyword: 'digital nedladdning arbetsblad idéer',
+    primaryKeyword: 'digitala nedladdningar printables idéer',
     secondaryKeywords: [
       'digital nedladdning utskriftsbart företag',
       'sälja digitala arbetsblad online',

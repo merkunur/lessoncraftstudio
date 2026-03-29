@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skolstart utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables skolstart för Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck skolstart utskriftsbara idéer att sälja på Etsy, KDP och Gumroad. Skoltemaproduktkoncept, juli-september-strategier och plattformstips för säljare.',
 
-    primaryKeyword: 'skolstart utskriftsbara idéer',
+    primaryKeyword: 'printables skolstart att sälja Etsy',
     secondaryKeywords: [
       'skolstart arbetsblad att sälja',
       'skoltema utskriftsbart företag idéer',

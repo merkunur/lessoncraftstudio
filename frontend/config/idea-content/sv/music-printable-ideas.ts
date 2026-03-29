@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Musik utskriftsbara idéer att sälja — nischguide — Säljguide',
+    titleTag: 'Printables musik att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck musik utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Instrumenttema produktkoncept, plattformsstrategier och nischstrategier för.',
 
-    primaryKeyword: 'musik utskriftsbara idéer',
+    primaryKeyword: 'printables musik att sälja',
     secondaryKeywords: [
       'musiktema arbetsblad att sälja',
       'musik utskriftsbart företag idéer',

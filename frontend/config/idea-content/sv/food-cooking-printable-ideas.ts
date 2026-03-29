@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mat och matlagning utskriftsbara idéer att sälja —',
+    titleTag: 'Printables mat och hälsa Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck mat och matlagning utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Recepttema produktkoncept, plattformsstrategier och tips för säljare.',
 
-    primaryKeyword: 'mat och matlagning utskriftsbara idéer',
+    primaryKeyword: 'printables mat och hälsa för Etsy',
     secondaryKeywords: [
       'mattema arbetsblad att sälja',
       'matlagning utskriftsbart företag idéer',

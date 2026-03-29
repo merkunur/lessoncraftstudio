@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaurier utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables dinosaurier — Verksamhet | LessonCraftStudio',
     metaDescription: 'Utforska lönsamma dinosaurier utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept, plattformsstrategier och nischtips för säljare.',
 
-    primaryKeyword: 'dinosaurier utskriftsbara idéer',
+    primaryKeyword: 'printables dinosaurier idéer verksamhet',
     secondaryKeywords: [
       'dinosaurie arbetsblad att sälja',
       'dinosaurietema utskriftsbart företag',

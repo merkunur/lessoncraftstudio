@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sport utskriftsbara idéer att sälja — nischguide — Säljguide',
+    titleTag: 'Printables sport — Verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck sport utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Atletiktema produktkoncept, plattformsstrategier och tips för helårsförsäljning.',
 
-    primaryKeyword: 'sport utskriftsbara idéer',
+    primaryKeyword: 'printables sport idéer verksamhet',
     secondaryKeywords: [
       'sporttema arbetsblad att sälja',
       'sport utskriftsbart företag idéer',

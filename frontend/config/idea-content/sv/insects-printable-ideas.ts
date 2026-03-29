@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insekter utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables insekter — Verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck insektstematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kryp- och fjärilskoncept, plattformsstrategier och nischtips för.',
 
-    primaryKeyword: 'insekter utskriftsbara idéer',
+    primaryKeyword: 'printables insekter idéer verksamhet',
     secondaryKeywords: [
       'insektstematiserade arbetsblad att sälja',
       'kryp utskriftsbart företag idéer',

@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print-on-demand arbetsblad idéer att sälja — guide',
+    titleTag: 'Print-on-demand arbetsblad | LessonCraftStudio',
     metaDescription: 'Print-on-demand arbetsbladsidéer för Etsy, KDP och Shopify-säljare. Bygg ett lagerfritt utskriftsbart företag med arbetsböcker, aktivitetspaket och pussel.',
 
-    primaryKeyword: 'print-on-demand arbetsblad idéer',
+    primaryKeyword: 'print-on-demand arbetsblad verksamhet',
     secondaryKeywords: [
       'POD utskriftsbart företag idéer',
       'print-on-demand pedagogiska produkter',

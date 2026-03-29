@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables halloween — Verksamhet | LessonCraftStudio',
     metaDescription: 'Utforska halloween utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kusliga produktkoncept, säsongsstrategier och tips för säljare. Prova.',
 
-    primaryKeyword: 'halloween utskriftsbara idéer',
+    primaryKeyword: 'printables halloween idéer verksamhet',
     secondaryKeywords: [
       'halloween arbetsblad att sälja',
       'halloween tematiserat utskriftsbart företag',

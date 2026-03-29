@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Saga utskriftsbara idéer att sälja — nischguide — Säljguide',
+    titleTag: 'Printables sagor för Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck sagatematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Sagobokstematiserade produktkoncept, plattformstips och strategier för.',
 
-    primaryKeyword: 'saga utskriftsbara idéer',
+    primaryKeyword: 'printables sagor att sälja Etsy',
     secondaryKeywords: [
       'saga arbetsblad att sälja',
       'sagobokstematiserat utskriftsbart företag',

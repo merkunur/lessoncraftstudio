@@ -2,9 +2,9 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Alla hjärtans dag utskriftsbara idéer att sälja — nischguide',
+    titleTag: 'Printables alla hjärtans dag | LessonCraftStudio',
     metaDescription: 'Utforska alla hjärtans dag utskriftsbara idéer att sälja på Etsy, KDP och Gumroad. Kärlekstema produktkoncept, säsongsstrategier och tips för säljare.',
-    primaryKeyword: 'alla hjärtans dag utskriftsbara idéer',
+    primaryKeyword: 'printables alla hjärtans dag att sälja',
     secondaryKeywords: [
       'alla hjärtans dag arbetsblad att sälja',
       'alla hjärtans dag utskriftsbart företag idéer',

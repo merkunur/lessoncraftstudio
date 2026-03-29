@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bygg utskriftsbara idéer att sälja — nischguide — Säljguide',
+    titleTag: 'Printables bygg att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck bygg utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Fordons- och verktygstematiserade produktkoncept, plattformstips och strategier för.',
 
-    primaryKeyword: 'bygg utskriftsbara idéer',
+    primaryKeyword: 'printables bygg att sälja',
     secondaryKeywords: [
       'byggtema arbetsblad att sälja',
       'bygg utskriftsbart företag idéer',

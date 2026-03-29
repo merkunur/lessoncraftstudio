@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pirat utskriftsbara idéer att sälja — nischguide — Säljguide',
+    titleTag: 'Printables pirater — Verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck pirattematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Piratproduktkoncept, äventyrsarbetsblad och nischstrategier för.',
 
-    primaryKeyword: 'pirat utskriftsbara idéer',
+    primaryKeyword: 'printables pirater idéer verksamhet',
     secondaryKeywords: [
       'pirattema arbetsblad att sälja',
       'pirat utskriftsbart företag idéer',

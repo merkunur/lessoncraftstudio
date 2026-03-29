@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Svenska som andraspråk utskriftsbara idéer — nischguide',
+    titleTag: 'Printables SFI — Idéer verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för svenska som andraspråk att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot SvA-lärare och.',
 
-    primaryKeyword: 'svenska som andraspråk utskriftsbara idéer',
+    primaryKeyword: 'printables SFI svenska som andraspråk verksamhet',
     secondaryKeywords: [
       'SvA arbetsblad att sälja',
       'andraspråk utskriftsbart företag idéer',

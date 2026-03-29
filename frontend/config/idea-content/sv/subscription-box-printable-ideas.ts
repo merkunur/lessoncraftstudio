@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Prenumerationsbox utskriftsbara idéer att sälja — guide',
+    titleTag: 'Prenumeration printables | LessonCraftStudio',
     metaDescription: 'Utskriftsbara prenumerationsbox-idéer att sälja på Etsy, Gumroad och Patreon. Bygg återkommande intäkter med månatliga kurerade arbetsbladspaket och tematiska.',
 
-    primaryKeyword: 'prenumerationsbox utskriftsbara idéer',
+    primaryKeyword: 'prenumeration printables idéer',
     secondaryKeywords: [
       'utskriftsbar prenumerationsbox företag',
       'månatlig arbetsblad prenumerationsmodell',

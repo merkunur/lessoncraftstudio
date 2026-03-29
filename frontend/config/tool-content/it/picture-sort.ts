@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede negozificazione immagini',
+    primaryKeyword: 'generatore schede di classificazione gratis',
     secondaryKeywords: [
-      'generatore schede negozificazione per venditori',
-      'creare schede di negozificazione da vendere su Etsy',
-      'creatore attività negozificazione stampabili uso commerciale',
-      'generatore schede negozificazione immagini per KDP e Etsy',
+      'creare schede di classificazione gratis online',
+      'schede classificazione immagini stampabili gratis',
+      'generatore classificazione senza registrazione',
+      'schede classificazione due categorie gratis PDF',
+      'generatore attività classificazione gratuito online',
     ],
     lsiKeywords: [
-      'creatore schede negozificazione due categorie con chiave di risposta',
-      'generatore negozificazione immagini modalità tema e manuale',
-      'creatore attività negozificazione con griglia ritaglio mescolata',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore negozificazione Immagini — Schede Gratis',
-    metaDescription: 'Crea schede di negozificazione a due categorie con modalità tema, griglie di ritaglio mescolate e chiavi di risposta automatiche.',
+    titleTag: 'Schede di classificazione gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede di classificazione gratis online, senza registrazione. Due categorie, griglie mescolate, chiavi di risposta automatiche. Licenza commerciale.',
   },
 
   hero: {
-    title: 'Generatore negozificazione Immagini',
+    title: 'Crea Schede di Classificazione Gratis Online',
     tagline: 'Generatore di schede di negozificazione a due categorie con modalità di selezione basata su tema e manuale, griglie di ritaglio mescolate da 4 a 12 immagini in 3–4 colonne auto-regolanti, cornici categoria con bordi tratteggiati per destinazioni di negozificazione sinistra e destra, chiavi di risposta generate automaticamente con immagini 6× più grandi nelle caselle categoria, intestazione negozificazione Immagini localizzata in 11 lingue e 104 collezioni tematiche di immagini per schede di negozificazione che vendono in tutto il mondo',
-    description: 'Crea schede di negozificazione professionali dove gli utenti ritagliano immagini da una griglia mescolata e i negozificano in due categorie — sinistra e destra. Scegli la modalità tema per popolare automaticamente le categorie dalla libreria di immagini: seleziona un tema per la categoria sinistra e un tema diverso per quella destra, e l\'app seleziona 4–6 immagini casuali per tema. Oppure passa alla modalità manuale per selezionare singole immagini e assegnarle alla categoria sinistra o destra. Ogni scheda presenta due cornici categoria affiancate con bordi tratteggiati nella parte superiore con riempimento #FAFAFA per le destinazioni di negozificazione e una griglia di ritaglio mescolata sotto con celle bianche, bordi tratteggiati #666, angoli arrotondati di 4px e 3–4 colonne in base al numero totale di immagini. Ogni immagine riempie l\'85% della sua cella. Configura da 4 a 12 immagini totali con 2–10 per categoria — meno immagini creano attività di negozificazione più semplici per i più piccoli, più immagini aumentano la difficoltà e la densità del contenuto. Il sistema a doppio canvas genera contemporaneamente sia una scheda lavoro che una chiave di risposta. La chiave di risposta mostra le immagini a 6× la dimensione delle celle della griglia di ritaglio, organizzate in caselle categoria con un massimo di 2 colonne per casella, riempimento #FAFAFA, bordo #444 e raggio di 12px — nessuna creazione manuale della chiave di risposta necessaria. Il Generatore negozificazione Immagini è sensibile alla lingua: le etichette delle categorie usano nomi di immagini localizzati dalla Libreria Immagini, quindi cambiando lingua cambia il testo sulla scheda. Un\'intestazione localizzata si genera automaticamente con sfondo verde menta (#4DB6AC), contenitore bianco a pillola, titolo verde acqua (#00796B) in Fredoka Bold e descrizione arancione (#FF7043) in Quicksand. Le schede verticali mostrano un\'intestazione di 100px con titolo 28–48px; le schede orizzontali usano un\'intestazione di 70px con titolo 24–36px. Un bordo esterno verde acqua (#26A69A, tratto 8px, raggio 12px) incornicia l\'intera pagina. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica le tue immagini PNG, JPG o GIF. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Aggiungi campi nome e data per la responsabilità online. Aggiungi testo personalizzato con 7 opzioni di carattere (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Esporta quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Scegli tra Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate con opzione scala di grigi per stampa economica. Modifica tutto sul canvas Fabric.js con 6 opzioni di allineamento più centra-sulla-pagina, livelli, blocco/sblocco, zoom 25%–300% e annulla/ripeti 20 stati. La prova gratuita include ogni funzione con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede di classificazione gratis, direttamente nel browser, senza registrazione e senza installare nulla. Gli utenti ritagliano immagini da una griglia mescolata e le classificano in due categorie. Scegli la modalità tema per popolare automaticamente le categorie da 104 temi con oltre 3.100 illustrazioni, oppure la modalità manuale per selezionare immagini singole. Configura da 4 a 12 immagini totali per regolare la difficoltà. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con immagini ingrandite nelle caselle categoria. Il generatore è sensibile alla lingua — le etichette cambiano automaticamente in 11 lingue. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

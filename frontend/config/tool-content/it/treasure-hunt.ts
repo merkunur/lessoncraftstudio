@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'caccia al tesoro stampabile',
+    primaryKeyword: 'generatore caccia al tesoro gratis',
     secondaryKeywords: [
-      'generatore caccia al tesoro per venditori',
-      'creare puzzle caccia al tesoro da vendere',
-      'generatore caccia al tesoro stampabile uso commerciale',
-      'creatore caccia al tesoro per KDP e Etsy',
+      'caccia al tesoro gratis online senza registrazione',
+      'generatore caccia al tesoro gratis PDF stampabile',
+      'creare caccia al tesoro gratis bambini',
+      'schede caccia al tesoro gratis con griglia',
+      'puzzle caccia al tesoro gratis prova gratuita',
     ],
     lsiKeywords: [
-      'due tipi di direzione base cardinale griglia coordinate creatore',
-      'indizi direzionali localizzati sensibile alla lingua 11 lingue',
-      'chiave di risposta automatica cella tesoro evidenziata sistema doppio canvas',
+      'caccia al tesoro gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore puzzle griglia coordinate gratis',
     ],
-    titleTag: 'Generatore Caccia al Tesoro Stampabile | Prova Gratuita',
-    metaDescription: 'Crea schede caccia al tesoro su griglia 5×5 con due tipi di direzione, punti di riferimento tematici e chiavi di risposta automatiche. Prova gratuita.',
+    titleTag: 'Caccia al tesoro gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede caccia al tesoro gratis online, senza registrazione. Griglia 5×5, due tipi di direzione, risposte automatiche. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Caccia al Tesoro',
+    title: 'Crea Caccia al Tesoro Gratis Online',
     tagline: 'Generatore di schede caccia al tesoro con griglia fissa 5×5 di coordinate (righe A–E, colonne 1–5), due tipi di direzione (Base: su/giù/sinistra/destra per prescuola fino alla 1ª classe, e Cardinale: nord/sud/est/ovest per la 2ª classe in su), 6 immagini tematiche come punti di riferimento, esattamente 4 mosse direzionali per puzzle, chiave di risposta generata automaticamente con cella tesoro evidenziata in giallo pallido tramite sistema doppio canvas, indizi direzionali completamente localizzati in 11 lingue e intestazione a tema tesoro teal (#2C8C7C) con titolo dorato Fredoka su 104 collezioni tematiche',
-    description: 'Crea schede caccia al tesoro professionali dove gli utenti seguono indizi direzionali sequenziali per localizzare il tesoro nascosto su una griglia 5×5 di coordinate etichettata con righe di lettere (A–E) e colonne di numeri (1–5). Ogni puzzle disperde 6 immagini tematiche sulla griglia come punti di riferimento visivi, poi genera una posizione di partenza e esattamente 4 mosse direzionali che conducono alla cella del tesoro. La scheda visualizza 5 righe di istruzioni: \'Inizia alla cella [cella]\' seguito da 4 \'Muovi [direzione] [numero] casella/e\', terminando con \'Dov\'\u00e8 il tesoro?\' Scegli tra due tipi di direzione che servono diverse fasce d\'età e obiettivi didattici. La modalità Base usa su, giù, sinistra e destra — parole direzionali familiari ideali per la prescuola fino alla 1ª classe per costruire il vocabolario spaziale fondamentale. La modalità Cardinale usa nord, sud, est e ovest — direzioni della bussola adatte alla 2ª classe e oltre, introducendo competenze di lettura delle mappe e orientamento geografico. Entrambi i tipi di direzione producono la stessa struttura puzzle a 4 mosse sulla stessa griglia 5×5, permettendoti di creare set a difficoltà progressiva all\'interno di un singolo pacchetto. Il Generatore Caccia al Tesoro è sensibile alla lingua in due modi: il testo degli indizi direzionali e il contenuto delle immagini cambiano entrambi quando cambi lingua. Tutte le direzioni sono completamente tradotte nelle 11 lingue supportate — \'Inizia a,\' \'Muovi,\' \'casella/e\' e \'Dov\'\u00e8 il tesoro?\' si localizzano insieme al vocabolario direzionale Base e Cardinale. Questo produce autentiche schede caccia al tesoro in lingua madre, non puzzle in inglese con intestazioni tradotte. Il sistema doppio canvas genera sia una scheda foglio di lavoro che una scheda chiave di risposta. La chiave di risposta riproduce l\'esatto layout del puzzle ed evidenzia la cella del tesoro finale in giallo pallido (rgba(255, 250, 205, 0.8)) con un contorno grigio scuro — nessuna marcatura manuale necessaria. Ogni puzzle include un\'intestazione a tema tesoro generata automaticamente con sfondo teal (#2C8C7C), bordo esterno ambra (#D4A574), bordo interno beige sabbia (#F4E4C1) e titolo dorato (#D4A017) in font Fredoka (peso 700, dimensionamento adattivo 36–48px). La descrizione viene renderizzata in marrone scuro (#5C4033) in Quicksand (peso 500). La modalità verticale mostra un\'intestazione completa (altezza 100px); la modalità orizzontale usa un layout compatto (altezza 70px). Il testo dell\'intestazione si traduce automaticamente in tutte le 11 lingue. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica immagini personalizzate tramite tre metodi di input: Genera per Tema (seleziona automaticamente 6), Selezione Manuale Immagini (sfoglia e clicca) e Carica Immagini Personalizzate (JPEG/PNG/GIF/WebP). Applica temi di sfondo e bordo con cursori di opacità indipendenti (0–1, passo 0,05). Esporta PDF pronti per la stampa (moltiplicatore 3×) e JPEG (moltiplicatore 6×) a 300 DPI in Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per output ottimizzato per l\'inchiostro. La prova gratuita include tutte le funzionalità con filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede caccia al tesoro gratis direttamente nel browser, senza registrazione e senza installare nulla. Ogni puzzle disperde 6 immagini tematiche su una griglia 5×5 di coordinate (A–E, 1–5), genera una posizione di partenza e 4 mosse direzionali verso il tesoro. Due tipi di direzione: Base (su/giù/sinistra/destra) e Cardinale (nord/sud/est/ovest). Indizi completamente tradotti in 11 lingue. Chiave di risposta automatica con cella tesoro evidenziata. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'libri cerca parole KDP',
+    primaryKeyword: 'creare libri di crucipuzzle per KDP',
     secondaryKeywords: [
-      'come creare libri cerca parole per Amazon KDP',
-      'guida pubblicazione libri cerca parole KDP',
-      'libri cerca parole caratteri grandi Amazon',
-      'libri cerca parole a tema pubblicazione KDP',
+      'libri crucipuzzle caratteri grandi Amazon KDP anziani',
+      'pubblicare libri cerca parole a tema KDP guida',
+      'strategia serie multi-volume crucipuzzle Amazon',
+      'liste parole tematiche curate libri puzzle KDP',
+      'formattazione griglie crucipuzzle stampa KDP',
     ],
     lsiKeywords: [
-      'cerca parole dimensione griglia spaziatura lettere difficoltà puzzle',
-      'liste parole a tema vocabolario curato parole adatte all\'àet',
-      'cerca parole caratteri grandi anziani adulti formato accessibile',
-      'libro trova parole Amazon parole chiave categorie ottimizzazione',
-      'serie libri cerca parole volumi acquisto ripetuto catalogo',
-      'adulti bambini cerca parole mercato pubblico formattazione griglia',
+      'dimensione griglia spaziatura lettere difficoltà puzzle',
+      'vocabolario curato parole adatte all\'età',
+      'mercato adulti bambini crucipuzzle Amazon',
+      'acquisto ripetuto catalogo serie volumi KDP',
     ],
-    titleTag: 'Creare Libri Cerca Parole per Amazon KDP | Guida Pratica',
-    metaDescription: 'Crea libri cerca parole per Amazon KDP con liste di parole a tema, formati caratteri grandi e strategia di serie. Griglie, pubblico e ottimizzazione Amazon.',
+    titleTag: 'Libri di crucipuzzle per Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Crea libri di crucipuzzle per Amazon KDP: liste tematiche, formati caratteri grandi e strategia serie. Guida completa per editori italiani.',
   },
 
   hero: {
-    title: 'Come Creare Libri Cerca Parole per Amazon KDP',
+    title: 'Libri di crucipuzzle per Amazon KDP: guida completa',
     tagline: 'Una guida completa alla creazione e pubblicazione di libri cerca parole su Amazon KDP — la sottocategoria di libri puzzle più popolare su Amazon, dalla curazione di liste di parole a tema per contenuti coesi e coinvolgenti, alla strategia di dimensione griglia dai formati 12x12 facili fino ai 20x20 esperti, la sottocategoria cerca parole caratteri grandi che comanda prezzi premium e forte fedeltà degli acquirenti, il posizionamento nel mercato cerca parole per adulti rispetto a quello per bambini, la selezione del vocabolario che distingue i libri cerca parole professionali dalle compilazioni amatoriali, l\'ottimizzazione delle parole chiave Amazon specifica per cerca parole, e la strategia di serie basata sui volumi che trasforma un singolo libro cerca parole in un catalogo che genera entrate mensili prevedibili',
-    description: 'I libri cerca parole dominano le vendite di libri puzzle su Amazon KDP per volume, superando cruciverba, sudoku e tutti gli altri tipi di puzzle combinati. La categoria serve un pubblico enorme — adulti che cercano relax e esercizio cerebrale, anziani che preferiscono i formati caratteri grandi, viaggiatori che desiderano intrattenimento offline, e genitori che acquistano attività coinvolgenti senza schermo per i bambini. Questa guida si concentra specificamente su ciò che rende unica la pubblicazione di libri cerca parole: curare liste di parole a tema che creano contenuti coesi e coinvolgenti, scegliere dimensioni della griglia adatte al pubblico target, formattare per la sottocategoria ad alta domanda dei caratteri grandi, e costruire un catalogo multi-volume di cerca parole che genera entrate crescenti attraverso acquisti ripetuti.',
+    description: 'I libri di crucipuzzle dominano le vendite di libri puzzle su Amazon KDP, superando cruciverba, sudoku e tutti gli altri formati combinati. Il mercato italiano e internazionale offre un pubblico enorme: adulti che cercano relax e allenamento mentale, anziani che preferiscono i formati a caratteri grandi, e genitori che acquistano attività senza schermo per i bambini. Questa guida si concentra su ciò che rende unica la pubblicazione di crucipuzzle: curare liste di parole tematiche che creano contenuti coesi, scegliere dimensioni della griglia adatte al pubblico target, formattare per la sottocategoria ad alta domanda dei caratteri grandi e costruire un catalogo multi-volume che genera entrate crescenti attraverso acquisti ripetuti.',
   },
 
   introduction: 'Il cerca parole è il leader indiscusso per volume tra i libri puzzle su Amazon KDP. Migliaia di nuovi titoli cerca parole vengono pubblicati ogni mese, e i best seller in questa categoria mantengono vendite costanti tutto l\'anno con picchi stagionali durante le festività e i periodi di acquisto regali. La ragione per cui i libri cerca parole superano gli altri tipi di puzzle è l\'accessibilità — chiunque sappia leggere può risolvere un puzzle cerca parole, indipendentemente da età, istruzione o esperienza con i puzzle. Questa accessibilità universale crea un bacino di acquirenti che copre ogni fascia demografica, dai bambini della scuola elementare agli anziani over novanta.\n\nIl mercato dei libri cerca parole si divide in diversi segmenti distinti, ciascuno con aspettative diverse degli acquirenti e dinamiche competitive differenti. I libri cerca parole generali per adulti sono il segmento a più alto volume, acquistati per intrattenimento quotidiano, riduzione dello stress e esercizio cognitivo. I libri cerca parole a caratteri grandi servono adulti e anziani che necessitano di lettere più grandi per una lettura e cerchiatura confortevole — questa sottocategoria comanda prezzi premium e attrae acquirenti abituali eccezionalmente fedeli che consumano più volumi al mese. I libri cerca parole per bambini si rivolgono a genitori e venditori che desiderano attività coinvolgenti per arricchire il vocabolario. Le collezioni cerca parole a tema (animali, viaggi, festività, cibo) catturano traffico di ricerca basato su interessi e stagionale che le collezioni generiche non raggiungono.\n\nCiò che distingue un libro cerca parole professionale da una compilazione amatoriale è la qualità della curazione delle liste di parole. Collezioni di parole casuali risultano sconnesse e insoddisfacenti da risolvere. Liste di parole a tema — dove ogni puzzle in una sezione ruota attorno a un argomento coerente come la vita marina, le capitali del mondo o i termini culinari — creano un\'esperienza di risoluzione che risulta intenzionale e gratificante. Gli acquirenti notano immediatamente questa differenza, e si riflette nelle recensioni. I libri con contenuti a tema curati con cura ottengono costantemente valutazioni più alte rispetto ai libri pieni di selezioni di parole casuali.\n\nQuesta guida si concentra esclusivamente su ciò che rende la pubblicazione di libri cerca parole diversa dalla pubblicazione generale di libri puzzle. Per i fondamentali KDP come le specifiche di formattazione del manoscritto, le dimensioni della copertina, i calcoli delle royalty e le pratiche generali di inserzione su Amazon, consulta la guida ai libri di attività matematica KDP. Per la strategia generale dei libri puzzle che copre più tipi di puzzle, formati varietà e pianificazione di catalogo multi-tipo, consulta la guida ai libri puzzle KDP. Qui ci concentriamo interamente sulla strategia di contenuto specifica per cerca parole, il dimensionamento delle griglie, il mercato dei caratteri grandi, lo sviluppo di liste di parole a tema e l\'approccio di catalogo basato sui volumi che rende la pubblicazione di cerca parole uno dei flussi di entrate più affidabili su KDP.',

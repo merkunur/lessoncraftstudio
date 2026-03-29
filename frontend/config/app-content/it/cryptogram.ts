@@ -2,28 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede crittogramma',
+    primaryKeyword: 'generatore di crittogrammi da vendere su Etsy',
     secondaryKeywords: [
-      'schede crittogramma con immagini stampabili per venditori Etsy',
-      'generatore puzzle crittogramma cifrato per Amazon KDP',
-      'vendere schede crittogramma su Gumroad',
-      'schede crittogramma con legenda lettere licenza commerciale',
+      'crittogrammi con immagini stampabili per negozio Etsy',
+      'creare libri di crittogrammi per Amazon KDP',
+      'puzzle cifrati stampabili licenza commerciale',
+      'generatore crittogramma per venditori di stampabili',
+      'schede crittogramma da vendere online',
     ],
     lsiKeywords: [
-      'prodotti digitali puzzle cifra per immagini per imprenditori',
-      'attività di decrittazione stampabili per business online',
-      'generatore schede crittogramma uso commerciale',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'crittogramma',
+      'cifra per immagini',
+      'reddito passivo',
+      'download digitale',
+      'business di stampabili',
     ],
-    titleTag: 'Generatore Schede Crittogramma | Crea e Vendi Online',
+    titleTag: 'Crittogrammi da vendere su Etsy e KDP | LCS',
     metaDescription:
-      'Crea schede crittogramma per Etsy, KDP e Gumroad. Cifra per immagini, Lettere da Rivelare 0–10, 104 temi, foglio risposte in PDF. Prova gratuita con filigrana.',
+      'Crea crittogrammi con immagini da vendere su Etsy e KDP. Cifra per immagini, difficoltà regolabile, 104 temi, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede Crittogramma per Puzzle con Cifra per Immagini',
+    title: 'Genera crittogrammi con immagini da vendere su Etsy e KDP',
     tagline: 'Associa ogni lettera dell\'alfabeto a un\'immagine e codifica frasi intere in puzzle visivi cifrati — difficoltà regolabile da zero indizi a guida intensiva con Lettere da Rivelare.',
     description:
-      'Trasforma qualsiasi frase o periodo in un puzzle crittogramma con immagini dove ogni lettera dell\'alfabeto è sostituita da un\'immagine, e gli utenti decifrano il codice deducendo quale immagine rappresenta quale lettera. Ogni puzzle codifica un messaggio completo e leggibile — non una singola parola isolata — offrendo ai risolutori la soddisfazione di rivelare un\'intera frase attraverso il riconoscimento di schemi e la deduzione. Il controllo Lettere da Rivelare (0–10) determina quante corrispondenze lettera-immagine sono pre-risolte come indizi, creando un gradiente di difficoltà progressivo che va da sfide da esperto senza indizi a puzzle altamente guidati per principianti. L\'Assegnazione Automatica estrae immagini casuali da una qualsiasi delle 104 collezioni tematiche (oltre 3100 illustrazioni) per completare le lettere non assegnate istantaneamente, oppure usa l\'Assegnazione Manuale per selezionare manualmente immagini specifiche per lettere specifiche con un\'anteprima visiva completa di tutte le corrispondenze. Il foglio risposte include una legenda delle lettere completa che mostra ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata in ordine alfabetico — il riferimento definitivo per verificare le soluzioni. L\'Accesso Completo sblocca tutte le 11 lingue supportate dove sia il testo del messaggio segreto CHE il set di lettere dell\'alfabeto cambiano in base alla lingua: i crittogrammi in tedesco codificano frasi tedesche con ä, ö, ü, ß nell\'alfabeto; i crittogrammi in francese codificano frasi francesi con é, è, ç, à; i crittogrammi in italiano codificano frasi italiane con à, è, é, ì, ò, ù — ogni versione linguistica è un prodotto cifrato genuinamente diverso. Esporta PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Letter, A4 o dimensioni personalizzate. Che tu venda pacchetti di puzzle cifrati tematici su Etsy, compili libri di crittogrammi per Amazon KDP o crei centri di decrittazione differenziati per Gumroad, il Generatore di Schede Crittogramma produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Genera crittogrammi con immagini da vendere su Etsy e Amazon KDP — un formato esclusivo dove ogni lettera dell\'alfabeto è sostituita da un\'immagine e gli utenti decifrano frasi intere. Il controllo Lettere da Rivelare (0–10) crea difficoltà progressive — da sfide esperte senza indizi a puzzle guidati per principianti. Oltre 3.100 illustrazioni in 104 temi, assegnazione automatica o manuale delle immagini alle lettere. I crittogrammi in italiano codificano frasi con à, è, é, ì, ò, ù nell\'alfabeto — ogni lingua produce un prodotto genuinamente diverso. Foglio risposte con legenda completa, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. I crittogrammi sono una nicchia redditizia e sotto-servita: su Etsy.it non esistono crittogrammi con immagini in italiano. Su Amazon KDP, i libri di crittogrammi si vendono bene tutto l\'anno. Entra in un mercato senza concorrenza con un prodotto unico. Prova gratis con filigrana.',
   },
 
   howItWorks: {

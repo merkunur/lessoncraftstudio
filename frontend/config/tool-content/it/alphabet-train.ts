@@ -1,26 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede treno alfabeto per bambini',
+    primaryKeyword: 'generatore schede alfabeto gratis',
     secondaryKeywords: [
-      'creatore di treno alfabeto per il negozio',
-      'schede riconoscimento lettere per bambini',
-      'treno alfabeto stampabile per scuola materna',
-      'creatore abbinamento lettera-immagine per venditori',
+      'schede alfabeto gratis online senza registrazione',
+      'generatore treno alfabeto gratis PDF stampabile',
+      'schede riconoscimento lettere gratis bambini',
+      'creare schede alfabeto gratis con immagini',
+      'treno dell\'alfabeto gratis prova gratuita',
     ],
     lsiKeywords: [
-      'scheda treno abbinamento lettera-immagine per bambini',
-      'attività alfabeto multilingue per il negozio',
-      'treno alfabeto colorato stampabile',
+      'schede alfabeto gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'abbinamento lettera-immagine gratis online',
     ],
-    titleTag: 'Schede Treno Alfabeto — Lettere per Bambini',
-    metaDescription: 'Crea schede treno dell\'alfabeto per il riconoscimento lettere. 11 vagoni colorati, abbinamento lettera-immagine, 11 lingue. Prova gratuita con filigrana.',
+    titleTag: 'Schede alfabeto gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede alfabeto gratis online, senza registrazione. 11 vagoni colorati, abbinamento lettera-immagine, 11 lingue. Licenza commerciale disponibile.',
     },
 
   hero: {
-    title: 'Generatore Treno dell\'Alfabeto',
+    title: 'Crea Schede Alfabeto Gratis con il Treno',
     tagline: 'Crea schede colorate con treno e lettere con abbinamento immagine-lettera in 11 lingue',
-    description: 'Costruisci schede per l\'alfabeto completamente diverse dai negoziche pagine di ricalco lettere. Questo strumento dispone 11 vagoni colorati lungo la pagina, ciascuno con una lettera e un\'illustrazione corrispondente. Immagini indizio sparse appaiono accanto al treno — gli utenti identificano con quale lettera inizia ogni immagine e la abbinano al vagone corretto. Scegli tra la modalità Creazione Automatica (lo strumento sceglie casualmente 11 lettere e assegna immagini corrispondenti) o Selezione Manuale (scegli ogni lettera dalla griglia alfabetica completa e assegni ciascuna immagine tu stesso). Regola la difficoltà con il cursore del numero di indizi: 3 indizi per principianti, 5–7 per livello intermedio e 9–11 per utenti avanzati che devono abbinare quasi ogni vagone. La vera forza è la sensibilità linguistica — seleziona tra 11 alfabeti nativi inclusi tedesco (Ä/Ö/Ü), svedese (Å/Ä/Ö), spagnolo (Ñ) e altri. La stessa immagine si abbina a lettere diverse in ogni lingua: "cane" corrisponde a C in italiano ma D in inglese (Dog) e H in tedesco (Hund). Un modello di scheda diventa 11 prodotti unici. Sfoglia oltre 3.100 immagini in 104 temi, oppure carica le tue per design personalizzati. Scegli tra 7 famiglie di font ed esporta in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede alfabeto gratis direttamente nel browser, senza registrazione e senza installare nulla. Lo strumento dispone 11 vagoni colorati lungo la pagina, ciascuno con una lettera e un\'illustrazione corrispondente. Modalità Creazione Automatica o Selezione Manuale, cursore difficoltà da 3 a 11 indizi, 11 alfabeti nativi con abbinamento lettera-immagine sensibile alla lingua. Sfoglia oltre 3.100 immagini in 104 temi, scegli tra 7 famiglie di font ed esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è disponibile nella prova gratuita senza limiti. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e usare i file per scopi commerciali.',
   },
 
   tutorial: {

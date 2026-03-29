@@ -2,28 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede grafico a immagini',
+    primaryKeyword: 'schede di conteggio e grafici per negozio Etsy',
     secondaryKeywords: [
-      'generatore di schede grafico pictórico per venditori Etsy',
-      'creatore di schede pittogramma per editori Amazon KDP',
-      'vendere attività di grafico a immagini su Gumroad',
-      'generatore di schede rappresentazione dati licenza commerciale',
+      'generatore schede grafico a immagini per venditori Etsy',
+      'schede di conteggio stampabili per Amazon KDP',
+      'creare quaderni di grafici per KDP',
+      'schede pittogramma licenza commerciale',
+      'attività di rappresentazione dati da vendere online',
     ],
     lsiKeywords: [
-      'prodotti digitali grafico a immagini per imprenditori',
-      'schede di rappresentazione dati stampabili uso commerciale',
-      'generatore di pittogrammi con chiave di valore percepito automatica',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'grafico a immagini',
+      'pittogramma',
+      'reddito passivo',
+      'download digitale',
+      'business di stampabili',
+      'scuola primaria',
     ],
-    titleTag: 'Generatore Schede Grafico a Immagini | Crea e Vendi',
+    titleTag: 'Schede di conteggio e grafici per Etsy | LCS',
     metaDescription:
-      'Crea schede grafico a immagini per Etsy, KDP e Gumroad. verifica automatica, 104 temi, 6 tipi di immagini per scheda in PDF. Prova gratuita con filigrana.',
+      'Crea schede di conteggio con grafici a immagini da vendere su Etsy e KDP. 104 temi, 6 tipi per scheda, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede Grafico a Immagini per Attività di Conteggio Stampabili',
+    title: 'Crea e vendi schede di conteggio e grafici su Etsy e KDP',
     tagline: 'Generatore di pittogrammi con canvas doppio — crea griglie di immagini sparse con 6 tipi di immagini, chiavi di valore percepito con grafico a barre generate automaticamente, intestazioni localizzate in 11 lingue e 104 collezioni di immagini tematiche per schede di rappresentazione dati.',
     description:
-      'Trasforma il conteggio visivo in un\'attività completa di competenze sui dati con l\'unico generatore di schede progettato specificamente per grafici a immagini. Ogni scheda presenta una griglia di immagini sparse con 20 icone di 6 tipi diversi disposti in un formato 4×5 — gli utenti contano quanti di ogni tipo compaiono e poi colorano le celle corrispondenti nel grafico a barre sottostante. L\'applicazione genera simultaneamente una chiave di valore percepito con celle evidenziate in giallo che mostra i conteggi corretti, permettendo ai venditori di verificare il lavoro degli utenti istantaneamente. Scegli le immagini automaticamente selezionando un tema dal menu a discesa Fonte Immagini della Scheda, oppure seleziona manualmente esattamente 6 immagini dalla Libreria di Immagini con oltre 3100 illustrazioni in 104 collezioni. Ogni scheda include un\'intestazione auto-generata con un titolo localizzato \"Grafico con Immagini\" e istruzioni di conteggio — l\'intestazione si adatta automaticamente alle 11 lingue supportate. Aggiungi campi nome e data dell\'utente con una singola casella di spunta, applica temi di sfondo e bordo con controlli di opacità indipendenti, e personalizza con strumenti di testo e modifica diretta sul canvas. Il Generatore di Grafici di Conteggio non è sensibile alla lingua — il conteggio visivo utilizza numeri e immagini universali, quindi le schede funzionano in modo identico in tutte le lingue. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate. Scarica i quattro file — scheda JPEG, scheda PDF, chiave di valore percepito JPEG e chiave di valore percepito PDF — in una singola sessione. Che tu venda pacchetti di grafici a immagini su Etsy, compili quaderni di competenze sui dati per Amazon KDP o crei attività per centri di matematica su Gumroad, il Generatore di Grafici di Conteggio offre risultati pronti per il negozio in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede di conteggio e grafici a immagini da vendere su Etsy, Amazon KDP o Eduki — l\'unico generatore progettato specificamente per pittogrammi e grafici a barre. Ogni scheda presenta una griglia con 20 immagini di 6 tipi diversi: gli utenti contano e colorano il grafico a barre sottostante. Soluzioni con conteggi corretti generate automaticamente. Scegli tra oltre 3.100 illustrazioni in 104 temi o seleziona manualmente le immagini. Intestazioni localizzate in italiano e altre 10 lingue, campi nome e data, temi di sfondo personalizzabili. Esporta PDF a 300 DPI con licenza commerciale inclusa — scheda e soluzioni in un\'unica sessione. Le schede di conteggio sono un prodotto evergreen che si vende tutto l\'anno — e il mercato italiano su Etsy è completamente vuoto. Nessun venditore offre grafici a immagini in italiano. Posizionati in questa nicchia prima che arrivi la concorrenza. Prova gratis con filigrana.',
   },
 
   howItWorks: {

@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing stampabili',
+    primaryKeyword: 'email marketing per venditori stampabili',
     secondaryKeywords: [
-      'lista email venditori stampabili',
-      'newsletter per business di schede',
-      'email marketing prodotti digitali',
-      'strategia email business stampabili',
+      'costruire lista email per business di schede',
+      'lead magnet efficaci per venditori educativi',
+      'sequenze email automatizzate prodotti digitali',
+      'segmentazione iscritti venditori stampabili',
+      'generare vendite ricorrenti con newsletter',
     ],
     lsiKeywords: [
-      'lista iscritti lead magnet omaggio opt-in sequenza di benvenuto automazione email',
-      'tasso di apertura tasso di clic segmentazione email broadcast campagna drip',
-      'provider di servizi email landing page tasso di conversione tasso di disiscrizione',
-      'ottimizzazione oggetto email deliverability coinvolgimento iscritti',
-      'sequenze automatizzate campagna di riattivazione igiene lista reputazione mittente',
-      'calendario contenuti analisi email A/B testing personalizzazione tag',
+      'tasso apertura clic conversione email',
+      'landing page opt-in lead magnet',
+      'automazione sequenze benvenuto lancio',
+      'deliverability reputazione mittente A/B test',
     ],
-    titleTag: 'Email Marketing Stampabili — Strategia per Venditori',
-    metaDescription: 'Email marketing per venditori di stampabili. Costruisci la lista iscritti, crea lead magnet, automatizza le sequenze e genera vendite ricorrenti online.',
+    titleTag: 'Email marketing per venditori | LessonCraftStudio',
+    metaDescription: 'Email marketing per venditori di stampabili: costruisci la lista, crea lead magnet e automatizza le sequenze per vendite ricorrenti. Guida passo passo.',
   },
 
   hero: {
-    title: 'Email Marketing per Venditori di Prodotti Stampabili',
+    title: 'Email Marketing per Chi Vende Stampabili Online',
     tagline: 'Una guida completa all\'email marketing per venditori di stampabili — come scegliere un provider di servizi email, creare lead magnet efficaci, costruire landing page ad alta conversione, progettare sequenze di benvenuto, sviluppare strategie di contenuto per le email broadcast, segmentare la lista iscritti, automatizzare campagne stagionali e monitorare le metriche per un\'ottimizzazione continua',
-    description: 'L\'email è l\'unico canale di marketing che possiedi e controlli completamente. Gli algoritmi dei social media cambiano, i posizionamenti nei risultati di ricerca dei marketplace fluttuano e i costi pubblicitari aumentano — ma la tua lista email ti appartiene. Ogni iscritto rappresenta una linea diretta verso un potenziale acquirente che ha già espresso interesse per i tuoi prodotti. Per i venditori di stampabili, l\'email marketing trasforma i clienti occasionali dei marketplace in acquirenti abituali che acquistano direttamente, raccomandano i tuoi prodotti e interagiscono con ogni nuovo lancio che annunci.',
+    description: 'La tua lista email è l\'unico asset di marketing che possiedi completamente. Gli algoritmi cambiano, i posizionamenti nei marketplace fluttuano, ma i tuoi iscritti restano. Per i venditori italiani di stampabili, l\'email marketing è la strategia più sottovalutata per costruire un business resiliente nel 2026. Ogni iscritto è una linea diretta verso un acquirente interessato che ha già dimostrato fiducia nei tuoi prodotti. Questa guida ti mostra come costruire la lista da zero, creare lead magnet irresistibili, automatizzare le sequenze di benvenuto e lancio, e trasformare clienti occasionali dei marketplace in acquirenti abituali che tornano ad ogni nuovo prodotto.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili si affida interamente al traffico organico dei marketplace e agli algoritmi dei social media per raggiungere potenziali acquirenti. Quando Etsy modifica il suo algoritmo di ricerca, la loro visibilità crolla da un giorno all\'altro. Quando Pinterest aggiorna il suo feed, il loro traffico svanisce. Quando una piattaforma social deprioritizza i contenuti commerciali, la loro portata si riduce a una frazione del numero di follower. Questi venditori hanno costruito le loro attività su terreno in affitto — piattaforme che non controllano e che possono cambiare le regole in qualsiasi momento senza preavviso né possibilità di appello.\n\nL\'email marketing risolve questa vulnerabilità fondamentale creando un canale di comunicazione diretto tra te e il tuo pubblico che nessun algoritmo può limitare. Quando invii un\'email, arriva nella casella di posta del tuo iscritto indipendentemente da ciò che una qualsiasi piattaforma decide di promuovere quella settimana. Il tuo messaggio raggiunge il 100% delle persone a cui lo invii (meno la piccola percentuale filtrata dai sistemi antispam), rispetto ai post sui social media che tipicamente raggiungono dal 2% al 10% dei tuoi follower. Questa affidabilità di copertura rende l\'email drasticamente più efficace per generare vendite costanti e prevedibili rispetto a qualsiasi canale dipendente da algoritmi.\n\nL\'economia dell\'email marketing è particolarmente vantaggiosa per i venditori di stampabili. I prodotti digitali non hanno costi di inventario, nessuna logistica di spedizione e nessun ritardo nell\'evasione — il che significa che ogni vendita generata via email converte al massimo margine. Un iscritto che clicca dalla tua email e acquista un bundle di schede genera profitto puro oltre al costo trascurabile dell\'invio dell\'email stessa. A differenza della pubblicità dove paghi per ogni clic indipendentemente dalla conversione, i costi dell\'email marketing sono fissi per numero di iscritti, non per messaggio inviato. Una lista di 2.000 iscritti attivi costa lo stesso da contattare via email sia che tu invii una broadcast o dieci al mese.\n\nL\'email eccelle anche nel pattern di vendita specifico da cui dipendono le attività di stampabili: acquisti ripetuti dalla stessa base clienti. un venditore che compra le tue schede di addizione probabilmente avrà bisogno anche di schede di sottrazione, moltiplicazione e problemi. Un genitore che acquista il tuo pacchetto di preparazione alla scuola materna avrà bisogno di risorse per la prima elementare l\'anno prossimo. Una famiglia che fa homeschooling usando le tue schede di scienze vorrà nuovi temi man mano che procede nel programma. L\'email ti dà un canale diretto per notificare questi acquirenti esistenti riguardo a nuovi prodotti che corrispondono ai loro interessi dimostrati — qualcosa che gli algoritmi dei marketplace non riescono a fare in modo affidabile nemmeno quando il cliente ha già acquistato da te.\n\nQuesta guida ti accompagna nella costruzione di un sistema completo di email marketing per la tua attività di stampabili. Ogni passaggio affronta un componente specifico del sistema, dalla scelta degli strumenti giusti e la creazione di lead magnet che attraggano i tuoi acquirenti target, alla progettazione di sequenze automatizzate e all\'ottimizzazione basata sui dati di performance. L\'obiettivo è un canale di marketing che generi vendite costanti indipendentemente da qualsiasi marketplace o piattaforma social, dando alla tua attività resilienza contro i cambiamenti algoritmici che inevitabilmente colpiscono ogni venditore che si affida esclusivamente al traffico di terze parti.',

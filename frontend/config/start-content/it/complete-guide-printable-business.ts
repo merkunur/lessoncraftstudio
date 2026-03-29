@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'come avviare un\'attività di stampabili',
+    primaryKeyword: 'come avviare un business di stampabili 2026',
     secondaryKeywords: [
-      'attività stampabili per principianti',
-      'vendere schede didattiche stampabili online',
-      'aprire un negozio di schede stampabili',
-      'guida all\'avvio di un\'attività di stampabili',
+      'aprire negozio stampabili Etsy Italia',
+      'vendere schede didattiche online guida completa',
+      'business download digitali per principianti',
+      'creare e vendere stampabili su Amazon KDP',
+      'guida passo-passo attività stampabili da casa',
     ],
     lsiKeywords: [
-      'modello di business per download digitali',
-      'generatore di schede per venditori',
-      'configurazione negozio Etsy stampabili',
-      'libri di attività Amazon KDP',
-      'schede didattiche Gumroad',
-      'strumenti stampabili con licenza commerciale',
+      'generatore di schede con licenza commerciale',
+      'prodotti digitali reddito passivo',
+      'catalogo stampabili Etsy KDP Gumroad',
+      'nicchia redditizia schede didattiche',
     ],
-    titleTag: 'Come Avviare un\'Attività di Stampabili — Guida Completa',
-    metaDescription: 'Come avviare un\'attività di stampabili da zero. Guida passo-passo per venditori Etsy, Amazon KDP e Gumroad con generatori di schede per creare e vendere prodotti.',
+    titleTag: 'Avviare business stampabili (2026) | LessonCraftStudio',
+    metaDescription: 'Avviare un business di stampabili nel 2026: scelta della nicchia, creazione prodotti, piattaforme e prezzi. Prova gratuita con filigrana inclusa.',
   },
 
   hero: {
-    title: 'La Guida Completa per Avviare un\'Attività di Stampabili',
+    title: 'Avviare un Business di Stampabili nel 2026: Guida Completa',
     tagline: 'Da zero alla prima vendita — tutto ciò che devi sapere per costruire un\'attività di schede didattiche stampabili',
-    description: 'Questa guida ti accompagna passo dopo passo nel lancio di un\'attività di schede didattiche stampabili. Imparerai come scegliere una nicchia redditizia, creare prodotti professionali senza competenze di design, pubblicare sulle piattaforme giuste, stabilire i prezzi per il profitto e costruire un catalogo che generi vendite costanti. Che tu voglia vendere su Etsy, Amazon KDP, Gumroad o il tuo sito web, questo è il punto di partenza.',
+    description: 'Il mercato italiano dei prodotti educativi stampabili è in forte crescita su Etsy.it, Amazon.it e Gumroad. Questa guida ti accompagna in ogni fase del lancio: dalla scelta di una nicchia redditizia alla creazione di schede professionali con generatori automatici, dalla pubblicazione sulle piattaforme giuste alla strategia di prezzo che massimizza il profitto. Scoprirai come costruire un catalogo che genera vendite ricorrenti senza competenze di design grafico. Ogni generatore offre una prova gratuita con filigrana per testare la qualità dell\'output prima di investire in una licenza commerciale.',
   },
 
   introduction: 'Il mercato delle schede didattiche stampabili è cresciuto costantemente perché la domanda non si ferma mai. I genitori fanno istruzione domiciliare. i venditori integrano i cataloghi prodotti. I tutor hanno bisogno di materiali nuovi ogni settimana. I temi stagionali ruotano ma l\'esigenza fondamentale — attività di apprendimento strutturate, coinvolgenti e pronte da stampare — rimane costante anno dopo anno.\n\nAvviare un\'attività di stampabili non richiede una laurea in pedagogia, esperienza di design grafico o un grande investimento iniziale. Ciò che serve è una chiara comprensione di ciò che gli acquirenti vogliono realmente, gli strumenti giusti per creare prodotti professionali in modo efficiente e la volontà di trattare questo come un vero business piuttosto che un esperimento secondario.\n\nQuesta guida copre il percorso completo. Alla fine, avrai un piano d\'azione concreto: la tua nicchia selezionata, il tuo primo prodotto creato, il tuo negozio pubblicato e la tua strategia di prezzo definita. Niente consigli vaghi, niente esagerazioni — solo i passaggi pratici che ti portano dall\'idea al reddito.\n\nUna nota importante prima di iniziare: ogni generatore di schede menzionato in questa guida offre una prova gratuita con filigrana. Puoi testare ogni funzionalità, creare schede di esempio e valutare la qualità prima di acquistare una licenza commerciale. Non c\'è alcun rischio nell\'iniziare.',

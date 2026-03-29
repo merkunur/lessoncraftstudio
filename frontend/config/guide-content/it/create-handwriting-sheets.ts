@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede esercizio scrittura',
+    primaryKeyword: 'creare schede di scrittura da vendere',
     secondaryKeywords: [
-      'generatore schede scrittura per bambini',
-      'schede scrittura lettere stampabili da vendere',
-      'generatore schede calligrafia',
-      'schede tracciamento lettere personalizzate',
+      'schede scrittura stampabili per Etsy e KDP',
+      'generatore schede calligrafia uso commerciale',
+      'vendere quaderni di scrittura su Amazon KDP',
+      'creare schede tracciamento lettere con licenza commerciale',
+      'schede prescrittura da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'generatore schede tracciamento lettere',
-      'schede esercizio corsivo stampabili',
-      'frecce ordine tratti formazione lettere',
-      'tratti di prescrittura per età prescolare',
-      'vendere schede scrittura su Etsy',
-      'quaderni scrittura Amazon KDP',
+      'tracciamento lettere con frecce ordine tratti',
+      'prodotti stampabili scrittura per venditori',
+      'quaderni scrittura prescolare marketplace',
+      'schede corsivo e stampatello pronte per la stampa',
     ],
-    titleTag: 'Creare Schede di Scrittura a Mano | Guida Passo Passo',
-    metaDescription: 'Crea schede di esercizio di scrittura con tracciamento, tracciamento sfumato e copia guidata. Frecce ordine tratti, cinque stili font e PDF per Etsy e KDP.',
+    titleTag: 'Schede di scrittura da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di scrittura con tracciamento progressivo, frecce ordine tratti e 5 stili font. Esporta PDF professionali per vendere su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di Esercizio di Scrittura',
+    title: 'Schede di scrittura da vendere: guida completa',
     tagline: 'Tutorial passo passo per creare schede di scrittura professionali con modalità di esercizio progressivo, frecce dell\'ordine dei tratti ed esportazione pronta per la stampa per Etsy, Amazon KDP e Gumroad',
-    description: 'L\'esercizio di scrittura è una delle categorie più durature nei stampabili educativi. Ogni bambino in età prescolare che impara a tenere la matita, ogni bambino della scuola dell\'infanzia che forma le prime lettere e ogni utente di prima elementare che passa al corsivo ha bisogno di schede di esercizio strutturate. I genitori le cercano per casa. i venditori hanno bisogno di set per il negozio ogni settimana. I terapisti occupazionali le usano nella terapia delle abilità motorie fini. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore di Schede di Scrittura — dalla scelta delle modalità di esercizio e degli stili di font alla costruzione di schede progressive multi-riga e all\'esportazione di PDF pronti per la stampa con formattazione professionale. Che tu stia lanciando il tuo primo prodotto stampabile o espandendo un catalogo di schede di alfabetizzazione, avrai un prodotto finito pronto per la pubblicazione entro la fine di questo tutorial.',
+    description: 'Le schede di scrittura sono tra i prodotti stampabili più richiesti e con la domanda più costante su ogni marketplace. In Italia, genitori e scuole cercano attivamente materiali per l\'esercizio della scrittura — dal prescolare al corsivo in prima elementare — creando un\'opportunità redditizia per i venditori di stampabili. Il volume di acquisto è altissimo: un singolo acquirente può comprare centinaia di pagine in un anno scolastico, una scheda per ogni lettera. Questa guida ti mostra come usare il Generatore di Schede di Scrittura per creare prodotti professionali con tre modalità progressive (Tracciamento, Tracciamento Sfumato e Copia Guidata), cinque stili di font con frecce dell\'ordine dei tratti e configurazione multi-riga. Ogni riga è configurabile indipendentemente, permettendoti di creare schede che progrediscono dal tracciamento alla scrittura indipendente su una singola pagina. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo di alfabetizzazione, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'L\'insegnamento della scrittura segue una sequenza di sviluppo universale: i bambini progrediscono dai tratti di prescrittura (linee e cerchi) al tracciamento delle lettere, poi alla copia indipendente delle lettere e infine alla scrittura a memoria. Ogni bambino attraversa queste fasi, e ogni fase richiede materiali di esercizio dedicati. Questa realtà di sviluppo crea una domanda costante e durante tutto l\'anno per schede di scrittura attraverso molteplici fasce d\'età e livelli di abilità.\n\nCiò che rende le schede di esercizio di scrittura particolarmente forti come prodotto stampabile è il volume di cui gli acquirenti hanno bisogno. Una singola scheda fornisce cinque-dieci minuti di esercizio. i venditori hanno bisogno di schede nuove ogni giorno. I genitori che lavorano sulla formazione delle lettere hanno bisogno di una scheda per lettera — sono almeno 26 schede solo per l\'alfabeto maiuscolo, e altre 26 per il minuscolo. Aggiungi la formazione dei numeri, le parole ad alta frequenza e l\'esercizio corsivo, e un singolo acquirente può facilmente acquistare centinaia di pagine in un anno scolastico.\n\nIl Generatore di Schede di Scrittura gestisce la complessità tecnica della creazione di schede professionali. Offre tre modalità di esercizio progressivo — Tracciamento, Tracciamento Sfumato e Copia Guidata — che rispecchiano la sequenza di sviluppo che i bambini effettivamente seguono. Cinque stili di font includono stampatello standard, contorni tratteggiati e frecce dell\'ordine dei tratti che mostrano ai bambini esattamente come formare ogni lettera. Ogni riga sulla scheda è configurabile indipendentemente, così puoi creare schede che progrediscono dal tracciamento alla scrittura indipendente su una singola pagina.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede di esempio, testare ogni modalità di esercizio e combinazione di font, e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

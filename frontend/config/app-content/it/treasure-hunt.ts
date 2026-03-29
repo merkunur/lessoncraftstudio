@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore caccia al tesoro schede',
+    primaryKeyword: 'generatore caccia al tesoro da vendere su Etsy e KDP',
     secondaryKeywords: [
-      'creatore schede caccia al tesoro stampabili per venditori Etsy',
-      'generatore puzzle direzionali con percorso per editori KDP',
-      'creatore caccia al tesoro con griglia coordinate licenza commerciale',
-      'vendere schede caccia al tesoro su Gumroad',
+      'creare schede caccia al tesoro stampabili per Amazon KDP',
+      'vendere puzzle direzionali su Etsy Italia',
+      'schede caccia al tesoro licenza commerciale stampabili',
+      'generatore puzzle percorso per business di stampabili',
     ],
     lsiKeywords: [
-      'stampabili caccia al tesoro digitali business online',
-      'generatore schede direzionali uso commerciale',
-      'strumenti business puzzle percorso stampabili',
+      'prodotti digitali caccia al tesoro mercato italiano',
+      'nicchia puzzle direzionali venditori Etsy e KDP',
+      'stampabili caccia al tesoro uso commerciale Italia',
     ],
-    titleTag: 'Generatore Caccia al Tesoro | Crea Schede Percorso',
-    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy, KDP e Gumroad. Griglia coordinate 5×5, due tipi di direzioni, chiave risposte automatica, 104 temi.',
+    titleTag: 'Caccia al Tesoro da Vendere su Etsy e KDP | Generatore',
+    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy e Amazon KDP. Griglia 5×5, due tipi di direzioni, risposte automatiche. Licenza commerciale inclusa.',
   },
 
   hero: {
-    title: 'Generatore di Schede Caccia al Tesoro per Puzzle Direzionali con Percorso',
+    title: 'Generatore Caccia al Tesoro da Vendere su Etsy e KDP',
     tagline: 'Genera puzzle direzionali con percorso su una griglia di coordinate 5×5 — due vocabolari direzionali (Base: su/giù/sinistra/destra e Cardinale: nord/sud/est/ovest), indizi direzionali completamente localizzati in 11 lingue, chiave di risposta auto-generata con posizione del tesoro evidenziata e intestazioni a tema tesoro su 104 collezioni di immagini.',
     description:
-      'Crea schede professionali di caccia al tesoro dove gli utenti seguono indizi di movimento sequenziali per localizzare un tesoro nascosto su una griglia di coordinate 5×5 con lettere e numeri (righe A–E, colonne 1–5). Ogni puzzle disperde 6 immagini tematiche sulla griglia come punti di riferimento, poi genera una posizione di partenza e esattamente 4 mosse direzionali che conducono alla cella del tesoro. Scegli tra due vocabolari direzionali: la modalità Base usa su, giù, sinistra e destra per i più piccoli, mentre la modalità Cardinale usa nord, sud, est e ovest per un ragionamento spaziale più avanzato. Il Generatore di Caccia al Tesoro è sensibile alla lingua: cambiare lingua modifica sia il testo delle istruzioni direzionali che il contenuto delle immagini, con tutte le direzioni completamente tradotte in 11 lingue supportate. Ogni puzzle include un\'intestazione auto-generata localizzata con sfondo verde acqua (#2C8C7C), titolo dorato (#D4A017) nel font Fredoka e descrizione color sabbia in Quicksand — mostrando "Caccia al Tesoro" e "Segui gli indizi e trova il tesoro!" nella lingua selezionata. Il sistema a doppio canvas genera sia una scheda attività che una scheda chiave di risposta — la chiave di risposta evidenzia la cella finale del tesoro in giallo pallido così non devi mai segnarla manualmente. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per direzioni e immagini localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di caccia al tesoro su Etsy, compili quaderni di competenze direzionali per Amazon KDP o crei attività con griglia di coordinate per Gumroad, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'La caccia al tesoro è un formato coinvolgente che piace a genitori e bambini in tutto il mondo, e il mercato italiano su Etsy e Amazon KDP è ancora un oceano blu per i venditori di stampabili. Con questo generatore crei puzzle direzionali professionali su una griglia 5×5 dove gli utenti seguono indizi di movimento per localizzare un tesoro nascosto. Ogni puzzle posiziona 6 immagini tematiche come punti di riferimento e genera 4 mosse direzionali. Due vocabolari disponibili: modalità Base (su, giù, sinistra, destra) e Cardinale (nord, sud, est, ovest). Le direzioni sono completamente tradotte in 11 lingue, quindi ogni cambio di lingua produce un prodotto diverso. Il sistema a doppio canvas genera sia la scheda attività che la chiave di risposta automatica. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. Aggiungi sfondi e bordi decorativi ed esporta PDF e JPEG a 300 DPI nei formati A4, Lettera, Quadrato o personalizzato. Vendi pacchetti tematici su Etsy, compila quaderni per Amazon KDP, o distribuisci su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

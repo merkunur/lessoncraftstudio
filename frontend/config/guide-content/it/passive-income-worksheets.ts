@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ricavi ricorrenti schede didattiche',
+    primaryKeyword: 'reddito passivo con schede didattiche 2026',
     secondaryKeywords: [
-      'business schede reddito passivo',
-      'guadagnare vendendo schede didattiche',
-      'ricavi stampabili educativi',
-      'reddito continuativo da stampabili',
+      'guadagnare vendendo schede stampabili online',
+      'ricavi ricorrenti prodotti digitali educativi',
+      'catalogo evergreen stampabili multi-piattaforma',
+      'business schede didattiche reddito passivo',
+      'monetizzare schede su Etsy KDP e Gumroad',
     ],
     lsiKeywords: [
-      'flusso di ricavi prodotti digitali reddito sempreverde automazione vendite prodotti evergreen',
-      'canali di ricavo multipli reddito royalty print-on-demand download digitale reddito',
-      'ciclo di vita prodotto ricavi a lungo termine monetizzazione catalogo contenuti evergreen',
-      'vendite ripetute rendimenti compositi portfolio prodotti reddito sostenibile',
-      'moltiplicazione ricavi effetti catalogo scoperta organica vendite continuative',
-      'modello ricavi scalabile flussi di reddito schede ricavi multi-piattaforma',
+      'rendimenti compositi catalogo digitale',
+      'moltiplicazione ricavi espansione linguistica',
+      'vendite automatiche prodotti evergreen',
+      'flussi reddito multi-piattaforma',
     ],
-    titleTag: 'Ricavi Ricorrenti con le Schede — Guida al Reddito',
-    metaDescription: 'Costruisci ricavi ricorrenti con le schede didattiche: cataloghi evergreen, distribuzione multi-piattaforma, espansione linguistica e crescita composta.',
+    titleTag: 'Reddito passivo con schede (2026) | LessonCraftStudio',
+    metaDescription: 'Come costruire un reddito passivo con schede didattiche nel 2026. Cataloghi evergreen, multi-piattaforma e crescita composta. Scopri il framework completo.',
   },
 
   hero: {
-    title: 'Creare Ricavi Ricorrenti con le Schede Didattiche',
+    title: 'Reddito Passivo con le Schede Didattiche nel 2026',
     tagline: 'Una guida completa per costruire un reddito sostenibile con le schede — perché le schede generano ricavi continuativi, costruire cataloghi di prodotti evergreen, diversificare tra canali di ricavo, creare prodotti con domanda tutto l\'anno, sfruttare i bundle per un valore di transazione più alto, espandersi in più lingue, ottimizzare per la scoperta organica e costruire l\'effetto composito del catalogo',
-    description: 'L\'aspetto più potente di un business di schede didattiche è che ogni prodotto che crei continua a generare ricavi molto tempo dopo il completamento dello sforzo creativo. A differenza dei servizi dove scambi ore per denaro, un singolo pacchetto di schede può vendere centinaia o migliaia di volte su più piattaforme, lingue e anni senza richiedere tempo di produzione aggiuntivo. Questa guida ti mostra come costruire un business di schede progettato specificamente per ricavi ricorrenti e compositi — dove ogni nuovo prodotto rafforza il potenziale di guadagno dell\'intero catalogo.',
+    description: 'Ogni scheda che crei oggi può generare ricavi per anni senza ulteriore lavoro: questa è la promessa del reddito passivo con i prodotti digitali educativi. Nel 2026, il mercato italiano e internazionale dei stampabili offre un\'opportunità straordinaria per chi costruisce cataloghi strategici anziché vendere prodotti isolati. Un singolo pacchetto di schede può vendere migliaia di copie su Etsy, Amazon KDP e Gumroad in più lingue, senza costi di produzione aggiuntivi per ogni vendita. Questa guida ti mostra come progettare un business di schede per ricavi compositi, dove ogni nuovo prodotto moltiplica il potenziale dell\'intero catalogo e il tuo reddito cresce anche quando non stai lavorando.',
   },
 
   introduction: 'La maggior parte delle persone che inizia a vendere schede didattiche ragiona in termini di vendite singole. Crea un pacchetto di schede, lo pubblica su un marketplace e spera in una vendita. Quando ne arriva una, festeggia i 5 o 10 euro guadagnati e passa a creare il prodotto successivo. Questa mentalità prodotto-per-prodotto limita gravemente il potenziale di guadagno perché tratta ogni prodotto come una transazione isolata anziché come un elemento di un sistema generatore di ricavi.\n\nI venditori che costruiscono un reddito sostanziale dalle schede approcciano il business in modo diverso. Ragionano in termini di sistemi di ricavo anziché di vendite singole. Ogni prodotto che creano è progettato per guadagnare ripetutamente — su più piattaforme, in più lingue, aggregato con prodotti complementari e scopribile attraverso i motori di ricerca anno dopo anno. Un singolo concetto di scheda, eseguito strategicamente, può generare decine di inserzioni di prodotto individuali, ciascuna che guadagna indipendentemente e rafforza la visibilità delle altre.\n\nLe schede didattiche sono unicamente adatte a questo tipo di modello di ricavi ricorrenti. La domanda è evergreen — i venditori hanno bisogno di schede di addizione ogni anno scolastico, i genitori cercano attività educative ogni settimana e chi fa homeschooling cerca continuamente nuove risorse. A differenza dei prodotti dipendenti dalle tendenze che hanno un picco e poi svaniscono, una scheda di matematica o un puzzle di parole intrecciate ben fatto rimane rilevante e vendibile per anni. Il costo marginale di ogni vendita aggiuntiva è zero perché la consegna digitale avviene automaticamente. E gli strumenti di creazione disponibili oggi rendono possibile produrre schede di qualità professionale in minuti anziché ore, quindi l\'investimento iniziale per prodotto è notevolmente basso rispetto al suo potenziale di guadagno nel tempo.\n\nQuesta guida ti accompagna attraverso il framework completo per costruire un business di schede che genera ricavi continuativi e compositi. Imparerai come creare prodotti che vendono anno dopo anno, distribuirli su più piattaforme per la massima copertura, moltiplicare il catalogo attraverso l\'espansione linguistica e costruire gli effetti catalogo che rendono ogni nuovo prodotto più prezioso del precedente. L\'obiettivo non è semplicemente più vendite — è un sistema di ricavi dove il tuo catalogo lavora per te continuamente, generando reddito sia che tu stia creando nuovi prodotti, ottimizzando quelli esistenti o prendendoti una meritata pausa.\n\nLa differenza tra un venditore di schede che guadagna 200 euro al mese e uno che ne guadagna 2.000 raramente sta nella qualità del prodotto. Entrambi possono creare schede ugualmente buone. La differenza è quasi sempre nel modo in cui il catalogo è costruito strategicamente, in quanto ampiamente i prodotti sono distribuiti e in quanto efficacemente il venditore sfrutta la natura composita di un catalogo di prodotti digitali evergreen.',

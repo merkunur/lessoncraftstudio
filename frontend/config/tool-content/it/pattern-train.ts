@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede sequenze treno',
+    primaryKeyword: 'generatore schede sequenze gratis',
     secondaryKeywords: [
-      'generatore treno sequenze per venditori',
-      'creare schede sequenze ripetitive da vendere',
-      'stampabili riconoscimento schemi uso commerciale',
-      'generatore treno sequenze per KDP',
+      'schede sequenze gratis online senza registrazione',
+      'generatore treno sequenze gratis PDF stampabile',
+      'schede riconoscimento schemi gratis bambini',
+      'creare schede sequenze ripetitive gratis',
+      'schede pattern treno gratis prova gratuita',
     ],
     lsiKeywords: [
-      'stampabili riconoscimento schemi visivi per Etsy',
-      'strumento schede treno sequenze zero testo',
-      'generatore schede sequenze AB ABC per vendere',
+      'schede sequenze gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore sequenze AB ABC gratis online',
     ],
-    titleTag: 'Generatore Treno delle Sequenze | Vendi Stampabili Online',
-    metaDescription: 'Genera schede treno delle sequenze: cinque tipi di schema, 11 vagoni tematici, conteggio indizi regolabile e chiave di risposta automatica per ogni scheda.',
+    titleTag: 'Schede sequenze gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede sequenze gratis online, senza registrazione. Cinque tipi di schema, 11 vagoni tematici, risposte automatiche. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Treno delle Sequenze',
+    title: 'Crea Schede Sequenze Gratis con il Treno',
     tagline: 'Genera schede con sequenze ripetitive disposte su 11 vagoni tematici del treno con cinque tipi di schema, conteggio indizi regolabile e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali per il riconoscimento di sequenze in cui gli utenti identificano e completano schemi ripetitivi visualizzati come immagini su un treno tematico con 11 vagoni. Cinque tipi distinti di schema coprono ogni livello di complessità delle sequenze: AB alterna due elementi, AAB raggruppa due di un tipo seguiti da uno di un altro, ABB inverte quel raggruppamento, ABC ruota tre elementi diversi e AABB accoppia due di ciascuno prima di ripetere. Il treno dispone 11 vagoni su tre righe (5 + 3 + 3), con ogni vagone che contiene un\'immagine dalla sequenza ripetitiva. Un vagone è lasciato vuoto — gli utenti identificano lo schema e determinano l\'elemento mancante. Regola il conteggio degli indizi da 4 a 10 per controllare la difficoltà: mostrare 10 indizi rende lo schema evidente, mentre mostrarne solo 4 richiede un vero ragionamento sulle sequenze poiché i primi 3 vagoni sono sempre visibili. Il distintivo formato a vagoni del treno è un differenziatore visivo rispetto ai negoziche schede a griglia — gli acquirenti che sfogliano Etsy o Gumroad vedono immediatamente qualcosa di diverso dai tipici esercizi a righe e colonne. Scegli tra oltre 3.100 illustrazioni in 104 collezioni tematiche o carica le tue immagini. Una scheda chiave di risposta separata mostra tutti gli 11 vagoni completati con la sequenza corretta per la verifica istantanea. Ogni scheda è completamente visiva con solo immagini sui vagoni del treno e zero testo sull\'output. Nessuna parola appare sulla pagina generata — solo immagini. Questo rende le tue schede vendibili universalmente senza traduzione: un singolo annuncio serve ogni mercato nel mondo. Esporta PDF pronti per la stampa e JPEG ad alta risoluzione in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per un output ottimizzato per l\'inchiostro. Modifica tutto sul canvas completo Fabric.js con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede sequenze gratis direttamente nel browser, senza registrazione e senza installare nulla. Cinque tipi di schema (AB, AAB, ABB, ABC, AABB) su un treno tematico con 11 vagoni disposti su tre righe. Regola il conteggio indizi da 4 a 10 per controllare la difficoltà. Il formato a vagoni del treno è un differenziatore visivo unico rispetto alle comuni schede a griglia. Sfoglia oltre 3.100 illustrazioni in 104 collezioni tematiche, chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita senza limiti. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

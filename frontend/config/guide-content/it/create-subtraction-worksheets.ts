@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di sottrazione',
+    primaryKeyword: 'creare schede di sottrazione da vendere',
     secondaryKeywords: [
-      'creare schede sottrazione per bambini',
-      'generatore schede sottrazione',
-      'schede sottrazione stampabili da vendere',
-      'schede esercizi sottrazione personalizzate',
+      'schede sottrazione stampabili per Etsy e KDP',
+      'generatore schede sottrazione uso commerciale',
+      'vendere schede sottrazione con immagini barrate',
+      'creare PDF sottrazione con licenza commerciale',
+      'schede sottrazione tematiche da vendere online',
     ],
     lsiKeywords: [
-      'schede sottrazione con immagini barrate',
-      'sottrazione visiva per scuola dell\'infanzia',
-      'esercizi sottrazione prima elementare',
-      'vendere schede sottrazione su Etsy',
-      'libri attività sottrazione Amazon KDP',
-      'strumento schede licenza commerciale',
+      'sottrazione visiva con immagini barrate tematiche',
+      'prodotti stampabili sottrazione per venditori',
+      'esportazione PDF schede sottrazione pronte per la stampa',
+      'catalogo schede matematica sottrazione marketplace',
     ],
-    titleTag: 'Creare Schede di Sottrazione | Guida Passo Passo per KDP',
-    metaDescription: 'Come creare schede di sottrazione per bambini con immagini barrate, temi visivi e fogli risposte automatici. Guida passo passo per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Schede di sottrazione da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di sottrazione con immagini barrate, temi visivi e fogli risposte automatici. Guida per vendere prodotti stampabili su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di Sottrazione per Bambini',
+    title: 'Schede di sottrazione da vendere: guida completa',
     tagline: 'Tutorial passo passo per creare schede di sottrazione tematiche con immagini barrate, difficoltà configurabile ed esportazioni pronte per la stampa da vendere su Etsy, Amazon KDP e Gumroad',
-    description: 'Le schede di sottrazione sono il secondo passo naturale in ogni programma di matematica. Una volta che i bambini padroneggiano l\'addizione, la sottrazione segue immediatamente — e così la domanda di materiali per esercitarsi. Genitori, venditori e tutor hanno tutti bisogno di risorse di sottrazione adatte al livello di difficoltà dei loro utenti. Questa guida ti accompagna attraverso l\'intero processo di creazione usando il Generatore di Schede di Sottrazione — dall\'impostazione del Minuendo Massimo e dalla scelta del tema visivo all\'esportazione di PDF pronti per la stampa con fogli risposte automatici. La caratteristica distintiva del generatore di sottrazione è la modalità Barra, dove i bambini vedono un gruppo di immagini tematiche con alcune visivamente barrate e devono determinare quante ne restano. Che tu stia aggiungendo prodotti di sottrazione a una linea esistente di schede matematiche o creando il tuo primo prodotto stampabile, avrai una scheda finita pronta da pubblicare entro la fine di questo tutorial.',
+    description: 'Le schede di sottrazione rappresentano un\'espansione naturale per chi vende già prodotti di addizione. Ogni acquirente che compra schede di addizione cercherà materiali di sottrazione corrispondenti, creando un pubblico già pronto. Il mercato italiano dei stampabili educativi è in crescita costante, con poca concorrenza per le schede di sottrazione visive con immagini barrate e temi accattivanti. Questa guida ti mostra come usare il Generatore di Schede di Sottrazione per creare prodotti professionali — dalla configurazione del Minuendo Massimo e la scelta della modalità Barra all\'esportazione di PDF pronti per la stampa con fogli risposte automatici. La modalità Barra, dove i bambini vedono immagini tematiche con alcune barrate, è la caratteristica distintiva che rende i tuoi prodotti immediatamente riconoscibili nelle miniature dei marketplace. Che tu stia lanciando la tua prima linea di schede o ampliando un catalogo esistente, avrai prodotti finiti pronti per la pubblicazione.',
   },
 
   introduction: 'La sottrazione è la seconda operazione aritmetica che i bambini imparano, e segue l\'addizione in ogni catalogo prodotti al mondo. Questa sequenza crea un modello di domanda affidabile: ovunque le schede di addizione vendano, le schede di sottrazione vendono subito dopo. Gli acquirenti che acquistano i tuoi prodotti di addizione cercheranno attivamente materiali di sottrazione corrispondenti, rendendo questa un\'espansione naturale del catalogo con un pubblico già integrato.\n\nCiò che rende le schede di sottrazione distintive come prodotto stampabile è l\'elemento visivo. Mentre le schede di addizione mostrano due gruppi che si combinano, le schede di sottrazione mostrano elementi che vengono rimossi — tipicamente attraverso immagini barrate. Questa rappresentazione visiva del \"togliere\" è il modo in cui i bambini comprendono per la prima volta la sottrazione concettualmente, e rende le schede di sottrazione immediatamente riconoscibili e attraenti nelle miniature dei marketplace.\n\nIl Generatore di Schede di Sottrazione gestisce tutta la complessità tecnica della creazione di questi elementi visivi. Posiziona le immagini tematiche sul canvas, contrassegna il numero corretto come barrato, genera l\'equazione corrispondente e produce un foglio risposte automatico. Il generatore supporta quattro modalità di esercizio — Barra, Immagine – Numero, Trova il Sottraendo e Modalità Mista — ognuna dedicata a diverse fasi di apprendimento ed esigenze degli acquirenti. La difficoltà è controllata attraverso l\'impostazione del Minuendo Massimo, che determina il numero più grande da cui i bambini sottraggono.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede di esempio, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

@@ -2,27 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede cerca e conta',
+    primaryKeyword: 'schede cerca e conta da vendere su Etsy',
     secondaryKeywords: [
-      'creatore schede trova e conta stampabili per venditori Etsy',
-      'generatore attività cerca e trova per editori KDP',
-      'creatore schede cerca oggetti nascosti licenza commerciale',
-      'vendere schede cerca e conta su Gumroad',
+      'creare schede trova e conta stampabili per negozio Etsy',
+      'generatore attività cerca e conta per quaderni Amazon KDP',
+      'schede cerca e trova licenza commerciale',
+      'vendere attività di conteggio immagini su Eduki',
+      'business stampabili schede cerca oggetti nascosti',
     ],
     lsiKeywords: [
-      'stampabili cerca e trova digitali business online',
-      'generatore schede conteggio oggetti uso commerciale',
-      'strumenti business attività cerca e conta stampabili',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'cerca e conta',
+      'cerca lettere',
+      'business di stampabili',
+      'chiave di risposta automatica',
     ],
-    titleTag: 'Generatore Schede Cerca e Conta | Crea e Vendi Online',
-    metaDescription: 'Crea schede Cerca e Conta da vendere su Etsy, KDP e Gumroad. 4 tipi di attività, modalità Cerca Lettere, chiave di risposta automatica, 104 temi. Prova gratuita.',
+    titleTag: 'Schede cerca e conta da vendere su Etsy | LCS',
+    metaDescription:
+      'Crea schede cerca e conta da vendere su Etsy e KDP. 4 tipi di attività, risposte automatiche, licenza commerciale inclusa. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede Cerca e Conta per Attività di Ricerca e Conteggio',
+    title: 'Genera schede cerca e conta da vendere su Etsy e KDP',
     tagline: 'Due modalità di attività in un unico generatore — Cerca Oggetti Nascosti e Cerca Lettere — con quattro tipi di compito mescolabili (cerchia, riquadra, barra, conta), alfabeti specifici per lingua con lettere accentate, etichette immagine localizzate in 11 lingue e chiavi di risposta auto-generate con annotazioni visive.',
     description:
-      'Crea schede professionali Cerca e Conta dove gli utenti esplorano una scena di immagini sparse per trovare, cerchiare, barrare o contare oggetti specifici. Scegli tra due modalità di attività: la modalità Oggetti Nascosti disperde immagini su una griglia configurabile (5–10 righe × 5–10 colonne) e ti permette di assegnare fino a 4 oggetti bersaglio con tipi di compito individuali — cerchia l\'oggetto, metti un riquadro attorno, barralo o conta quanti ne appaiono. La modalità Cerca Lettere visualizza una griglia alfabetica specifica per lingua con lettere accentate (tedesco ÄÖÜ, spagnolo Ñ, svedese ÅÄÖ, danese/norvegese ÆØÅ) e genera scene usando immagini che iniziano con la lettera selezionata. Ogni scheda include un\'intestazione auto-generata — "Cerca e Trova" o "Cerca Lettere" — localizzata in tutte le 11 lingue supportate con un bordo blu (#2196F3). Il sistema a doppio canvas genera sia una scheda attività che una chiave di risposta con annotazioni rosse di cerchi, riquadri, croci e conteggi. Il Generatore Cerca e Conta è sensibile alla lingua: le etichette con i nomi delle immagini sulla scheda vengono renderizzate nella lingua selezionata tramite il sistema Vocabolario Immagini. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per etichette localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di attività Cerca e Trova su Etsy, compili quaderni di oggetti nascosti per Amazon KDP o crei attività di conteggio per Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le attività "cerca e conta" combinano il fascino del cerca e trova con esercizi di conteggio, creando un prodotto stampabile perfetto per Etsy e Amazon KDP. Il mercato italiano è ancora quasi vuoto, offrendoti un vantaggio competitivo enorme. Con questo generatore crei schede professionali in pochi minuti: la modalità Oggetti Nascosti sparge immagini su una griglia configurabile con quattro tipi di compito (cerchia, riquadra, barra, conta), mentre la modalità Cerca Lettere genera scene basate sull\'alfabeto italiano con accenti. La chiave di risposta viene generata automaticamente con annotazioni visive precise. Le etichette sono localizzate in 11 lingue, permettendoti di moltiplicare il catalogo per i mercati internazionali. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale e 104 temi con oltre 3100 illustrazioni. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

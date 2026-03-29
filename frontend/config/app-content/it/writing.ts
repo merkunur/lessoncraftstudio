@@ -2,28 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede scrittura',
+    primaryKeyword: 'generatore di schede di scrittura da vendere su Etsy e KDP',
     secondaryKeywords: [
-      'schede calligrafia stampabili per venditori Etsy',
-      'generatore schede scrittura a mano per Amazon KDP',
-      'vendere schede pratica scrittura su Gumroad',
-      'generatore schede calligrafia licenza commerciale',
+      'creare schede di calligrafia stampabili per Etsy',
+      'schede di scrittura a mano per quaderni Amazon KDP',
+      'generatore pregrafismo licenza commerciale',
+      'vendere schede di pratica scrittura su Eduki',
+      'business stampabili schede tracciamento lettere',
     ],
     lsiKeywords: [
-      'prodotti digitali schede scrittura a mano per imprenditori',
-      'business schede tracciamento lettere stampabili online',
-      'generatore esercizi calligrafia con frecce ordine tratti',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'pregrafismo',
+      'scrittura a mano',
+      'business di stampabili',
+      'tracciamento progressivo',
+      'frecce ordine tratti',
     ],
-    titleTag: 'Generatore Schede di Scrittura | Crea e Vendi Online',
+    titleTag: 'Schede di scrittura da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede scrittura per Etsy, KDP e Gumroad. 3 modalità di pratica, 5 font, frecce ordine tratti, tracciamento progressivo, 104 temi.',
+      'Crea schede di scrittura professionali da vendere su Etsy e KDP. 3 modalità, 5 font, licenza commerciale inclusa. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Scrittura per Pratica di Calligrafia',
+    title: 'Genera schede di scrittura da vendere su Etsy, KDP e oltre',
     tagline: 'Tre modalità di pratica progressive con ordine dei tratti guidato da frecce e guide delle lettere a opacità decrescente — sviluppa la fluidità di scrittura dal tracciamento completo alla scrittura autonoma in un\'unica scheda.',
     description:
-      'Crea schede professionali di pratica della scrittura a mano con tre modalità distinte che creano una progressione di apprendimento naturale: la modalità Tracciamento fornisce guide delle lettere solide che i principianti seguono direttamente, il Tracciamento Progressivo riduce progressivamente la visibilità delle lettere lungo la riga per rafforzare la sicurezza, e la Copia Guidata offre un contorno tenue per una scrittura quasi autonoma. Scegli tra cinque stili di font — Stampatello Normale per lettere in stampatello standard, Stampatello Normale con Frecce con frecce numerate che indicano l\'ordine dei tratti, Stampatello Tratteggiato per contorni punteggiati progettati per il tracciamento, Stampatello Tratteggiato con Frecce che combina contorni punteggiati con frecce dell\'ordine dei tratti, e Corsivo (Great Vibes) per la pratica della scrittura corsiva. Ogni riga della scheda è configurabile in modo indipendente: combina la modalità Tracciamento per lettere nuove, il Tracciamento Progressivo per lettere già praticate e la Copia Guidata per il ripasso, tutto nella stessa pagina. Gli esercizi di tratti di pre-scrittura (linee verticali, linee orizzontali, cerchi e linee a zigzag) aggiungono riscaldamenti di motricità fine che preparano le mani alla formazione delle lettere. Il contenuto proviene dalla Libreria di Immagini integrata con oltre 3100 illustrazioni in 104 temi: usa la modalità Lettera Iniziale per praticare la prima lettera di ogni nome di immagine, la modalità Nome Completo per scrivere parole intere, oppure scrivi qualsiasi Testo Personalizzato. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF pronti per la stampa e JPEG a ~300 DPI nei formati Letter, A4 o dimensioni personalizzate. Che tu venda pacchetti di pratica di scrittura su Etsy, compili quaderni di calligrafia per Amazon KDP o crei centri di scrittura differenziati per Gumroad, il Generatore di Schede di Scrittura produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Il mercato italiano dei stampabili educativi su Etsy e Amazon KDP è ancora un oceano blu: pochissimi venditori offrono schede di scrittura professionali in italiano, mentre la domanda di materiali di pregrafismo e calligrafia cresce ogni anno. Con questo generatore crei schede di scrittura pronte per la vendita in pochi minuti, senza competenze grafiche. Tre modalità di pratica — Tracciamento, Tracciamento Progressivo e Copia Guidata — ti permettono di costruire set differenziati per ogni livello. Cinque stili di font, frecce per l\'ordine dei tratti ed esercizi di pregrafismo moltiplicano le varianti di prodotto. Esporta in PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni KDP o listini Eduki. La licenza commerciale è inclusa nell\'Accesso Completo, che sblocca anche 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

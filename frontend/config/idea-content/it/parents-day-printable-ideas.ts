@@ -2,24 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili Festa Mamma e Papà da Vendere | Guida Nicchia',
-    metaDescription: 'Idee di stampabili per la Festa della Mamma e del Papà su Etsy, Amazon KDP e Gumroad. Prodotti per l\'apprezzamento dei genitori e consigli per venditori online.',
-    primaryKeyword: 'idee stampabili Festa della Mamma e del Papà',
+    titleTag: 'Stampabili festa mamma/papà | LessonCraftStudio',
+    metaDescription: 'Crea stampabili Festa della Mamma e del Papà da vendere su Etsy e KDP. Tre finestre di vendita: San Giuseppe, maggio e giugno. Idee prodotto e strumenti.',
+    primaryKeyword: 'stampabili festa della mamma papà vendere',
     secondaryKeywords: [
-      'schede Festa della Mamma da vendere',
-      'idee business stampabili Festa del Papà',
-      'schede attività apprezzamento genitori per venditori',
-      'vendere stampabili festa genitori su Etsy',
+      'vendere stampabili festa mamma su Etsy',
+      'business stampabili festa del papà KDP',
+      'creare stampabili San Giuseppe 19 marzo',
+      'nicchia stampabili apprezzamento genitori',
+      'idee prodotto stampabili famiglia bambini',
     ],
     lsiKeywords: [
-      'schede educative celebrazione famiglia',
-      'pagine di attività apprezzamento genitori',
-      'stampabili a tema familiare stagionali',
+      'mercato stampabili festa genitori Italia',
+      'generatore schede tema famiglia mamma papà',
+      'vendere stampabili digitali festa mamma',
+      'stampabili lavoretti festa papà bambini',
     ],
   },
   hero: {
-    title: 'Idee di Business con Stampabili per la Festa della Mamma e del Papà per Venditori',
-    description: 'La Festa della Mamma e la Festa del Papà insieme creano una delle finestre di vendita più emotivamente coinvolgenti nel calendario dei stampabili, con una domanda che cresce durante aprile per la Festa della Mamma a maggio e che continua fino a giugno per la Festa del Papà negli Stati Uniti. La nicchia offre una varietà di sotto-temi affettuosi tra cui cuori, fiori, cravatte, biglietti d\'auguri, buoni regalo, coupon di apprezzamento, ritratti di famiglia, trofei, corone e nastri premio per il "miglior papà" o la "miglior mamma", offrendo ai venditori un caldo vocabolario visivo che risuona con venditori, genitori e bambini di tutte le età. i venditori pianificano progetti di creazione di regali online con settimane di anticipo, cercando attività stampabili che permettano agli utenti di creare regali di apprezzamento personalizzati durante le ore di lezione. Le famiglie che praticano l\'istruzione domestica e i programmi per l\'infanzia aggiungono profondità al mercato degli acquirenti, cercando lavoretti di apprezzamento per i genitori che combinino sentimento affettuoso con risultati di apprendimento genuini. Per i venditori di stampabili su Etsy, Amazon KDP e Gumroad, questa nicchia offre due distinti picchi di entrate da un\'unica linea di prodotti, con un\'estetica incentrata sulla celebrazione che genera acquisti emotivi e tassi di conversione elevati. Per i venditori italiani, c\'è un\'opportunità aggiuntiva: la Festa del Papà in Italia cade il 19 marzo (San Giuseppe), creando una terza finestra di vendita per prodotti localizzati. Questa guida copre idee di prodotto specifiche, strategie per piattaforma e approcci di tempistica per aiutarti a costruire una linea redditizia di stampabili per l\'apprezzamento dei genitori utilizzando i nostri strumenti generatori di schede didattiche.',
+    title: 'Stampabili Festa Mamma e Papà: Tre Finestre di Vendita',
+    description: 'La Festa della Mamma e la Festa del Papà offrono un\'opportunità unica per i venditori italiani di stampabili: tre distinte finestre di vendita da un\'unica linea di prodotti. In Italia, la Festa del Papà cade il 19 marzo (San Giuseppe) — quasi tre mesi prima della versione americana — creando un primo picco di domanda a inizio anno. La Festa della Mamma a maggio genera il secondo picco, e il Father\'s Day americano a giugno il terzo, per chi vende al mercato internazionale su Etsy. Le scuole italiane dedicano grande attenzione ai lavoretti per mamma e papà, con i bambini che creano biglietti, libretti e regali personalizzati durante le ore scolastiche. Per gli imprenditori digitali, questa nicchia combina motivazione d\'acquisto emotiva — che riduce la sensibilità al prezzo — con domanda prevedibile. Con i nostri generatori puoi creare stampabili da vendere su Etsy, Amazon KDP e Gumroad.',
   },
   marketOverview: `La nicchia dei stampabili per l\'apprezzamento dei genitori occupa una posizione particolarmente potente nel calendario delle vendite primaverili perché offre due picchi di domanda concentrati da un\'unica linea di prodotti. La Festa della Mamma a maggio e la Festa del Papà a giugno negli Stati Uniti creano finestre di vendita consecutive che premiano i venditori che preparano un catalogo coerente di apprezzamento familiare. i venditori iniziano a pianificare i progetti di creazione di regali online per maggio già a inizio aprile, cercando attività stampabili che permettano agli utenti di creare regali di apprezzamento personalizzati, biglietti e libretti ricordo durante le ore di lezione. I genitori e le famiglie che praticano l\'istruzione domestica cercano attività creative adatte all\'età che aiutino i bambini a esprimere gratitudine in modo significativo, e i programmi per l\'infanzia hanno bisogno di progetti di apprezzamento strutturati per i loro utenti più piccoli.
 

@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'scalare attività stampabili',
+    primaryKeyword: 'da guadagno extra a business stampabili a tempo pieno',
     secondaryKeywords: [
-      'crescita attività stampabili a tempo pieno',
-      'scalare negozio stampabili Etsy',
-      'strategia espansione attività stampabili',
-      'da lavoretto secondario a stampabili a tempo pieno',
+      'scalare negozio stampabili Etsy oltre 300 prodotti',
+      'framework crescita business download digitali',
+      'distribuzione multi-piattaforma schede didattiche',
+      'strategia bundling per massimizzare ricavi',
+      'espansione mercati multilingue per venditori',
     ],
     lsiKeywords: [
-      'espansione catalogo per venditori di stampabili',
-      'distribuzione multi-piattaforma per schede',
-      'strategia bundling per download digitali',
-      'ottimizzazione flusso di lavoro produzione stampabili',
-      'espansione mercati multilingue stampabili',
-      'strategia reinvestimento per attività stampabili',
+      'ottimizzazione flusso di lavoro produzione batch',
+      'reinvestimento ricavi business stampabili',
+      'traguardi crescita da validazione a tempo pieno',
+      'catalogo 300 inserzioni strategie operative',
     ],
-    titleTag: 'Scalare Attività Stampabili — Da Hobby a Full-Time',
-    metaDescription: 'Come scalare la tua attività di stampabili da lavoretto secondario a tempo pieno. Espansione catalogo, distribuzione multi-piattaforma, bundling e.',
+    titleTag: 'Da guadagno extra a business pieno | LessonCraftStudio',
+    metaDescription: 'Come scalare il tuo business di stampabili da guadagno extra a tempo pieno. Espansione catalogo, multi-piattaforma, bundling e mercati multilingue.',
   },
 
   hero: {
-    title: 'Da Lavoretto Secondario ad Attività di Stampabili a Tempo Pieno',
-    tagline: 'Framework di crescita strategica per venditori di stampabili — dall\'­espansione del catalogo e distribuzione multi-piattaforma alla strategia di bundling e ottimizzazione del flusso di lavoro, il manuale operativo per scalare oltre un progetto secondario',
-    description: 'Avviare un\'­attività di stampabili e scalare un\'­attività di stampabili richiedono competenze fondamentalmente diverse. La creatività e l\'­entusiasmo che lanciano i tuoi primi prodotti lasciano il posto al pensiero sistemico, alle decisioni basate sui dati e alla disciplina produttiva man mano che cresci. Questa guida fornisce un framework concreto per ogni fase di crescita: dalle prime 25 inserzioni fino alla maturità del catalogo con 300 o più prodotti. Imparerai come espandere il tuo catalogo sistematicamente, distribuire su più piattaforme, creare bundle per un valore medio dell\'­ordine più alto, ottimizzare il tuo flusso di lavoro produttivo ed espanderti nei mercati multilingue. Ogni strategia si collega direttamente agli strumenti generatori di schede disponibili tramite la prova gratuita con filigrana, così puoi implementare le tattiche di scalata mentre le leggi.',
+    title: 'Da Guadagno Extra a Business di Stampabili a Tempo Pieno',
+    tagline: 'Framework di crescita strategica per venditori di stampabili — dall\'espansione del catalogo e distribuzione multi-piattaforma alla strategia di bundling e ottimizzazione del flusso di lavoro, il manuale operativo per scalare oltre un progetto secondario',
+    description: 'Avviare un\'attività di stampabili e scalarla richiedono competenze diverse. Il pensiero sistemico e la disciplina produttiva sostituiscono la creatività iniziale man mano che cresci. Questa guida fornisce un framework concreto per venditori italiani in ogni fase: dalle prime 25 inserzioni su Etsy.it fino alla maturità del catalogo con 300 o più prodotti distribuiti su più piattaforme. Imparerai come produrre in batch, creare bundle per ordini medi più alti, espanderti nei mercati multilingue europei e ottimizzare il flusso di lavoro. Prova gratuita con filigrana per implementare le tattiche di scalata immediatamente.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili raggiunge un plateau. Lanciano un negozio, pubblicano la prima dozzina di prodotti, generano alcune vendite iniziali e poi osservano la crescita appiattirsi. Il motivo è quasi sempre lo stesso: continuano a fare attività da principianti quando dovrebbero fare attività di scalata. Avviare un\'­attività di stampabili significa creare il primo prodotto e pubblicarlo. Scalare un\'­attività di stampabili significa costruire sistemi che producono, distribuiscono e ottimizzano i prodotti in modo efficiente su più piattaforme e mercati.\n\nIl passaggio da lavoretto secondario a business scalabile non riguarda il lavorare più ore. Riguarda il lavorare in modo diverso. Un venditore con lavoretto secondario crea un prodotto per sessione, lo pubblica su una piattaforma e spera nelle vendite. Un venditore in fase di scalata produce in batch dieci prodotti per sessione, distribuisce su quattro piattaforme, ruota le parole chiave stagionali mensilmente e usa le analisi per raddoppiare ciò che converte. Stesso numero di ore, output e risultati drasticamente diversi.\n\nQuesta guida fornisce un framework di crescita basato su traguardi piuttosto che incoraggiamenti vaghi. Ogni fase di crescita — dalla validazione iniziale alla fattibilità a tempo pieno — ha priorità operative specifiche, sfide diverse e metriche distinte che contano. Il framework è costruito specificamente attorno alle attività di schede stampabili, utilizzando gli strumenti e le piattaforme più rilevanti per questa categoria di prodotti.\n\nScalare richiede anche decisioni di investimento. Cosa reinvestire dei ricavi, e in quale ordine, determina se la tua attività cresce in modo efficiente o dissipa denaro in attività a basso rendimento. Il framework di reinvestimento in questa guida dà priorità alla capacità produttiva prima, all\'­ottimizzazione seconda e all\'­acquisizione a pagamento per ultima — rispecchiando il modo in cui le attività di stampabili di successo crescono realmente. Ogni raccomandazione si collega a strumenti disponibili tramite la prova gratuita con filigrana, così puoi iniziare a implementare immediatamente.',

@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'come promuovere schede stampabili',
+    primaryKeyword: 'promuovere il business stampabili online',
     secondaryKeywords: [
-      'strategie di marketing per venditori di stampabili',
-      'promuovere schede stampabili online',
-      'piano marketing attività stampabili',
-      'vendere più schede su Etsy',
+      'marketing organico per venditori stampabili',
+      'SEO Etsy per schede didattiche download digitali',
+      'strategia Pinterest per prodotti stampabili',
+      'email marketing per venditori di schede educative',
+      'calendario marketing stagionale stampabili Italia',
     ],
     lsiKeywords: [
-      'SEO Etsy per download digitali',
-      'marketing Pinterest per prodotti stampabili',
-      'email marketing per venditori di schede',
-      'calendario marketing stagionale per stampabili',
-      'ottimizzazione marketplace per libri di attività',
-      'content marketing per imprenditori di stampabili',
+      'ottimizzazione inserzioni marketplace',
+      'content marketing imprenditori stampabili',
+      'brand building venditori download digitali',
+      'tempistiche stagionali domanda acquirenti',
     ],
-    titleTag: 'Come Promuovere Schede Stampabili Online | Guida Pratica',
-    metaDescription: 'Come promuovere schede stampabili online: SEO della piattaforma, strategia Pinterest, email marketing, tempistiche stagionali e brand building per venditori.',
+    titleTag: 'Promuovere business stampabili online | LessonCraftStudio',
+    metaDescription: 'Come promuovere il tuo business di stampabili online: SEO piattaforma, Pinterest, email marketing e tempistiche stagionali. Strategie gratuite e attuabili.',
   },
 
   hero: {
-    title: 'Marketing della Tua Attività di Stampabili Online',
+    title: 'Promuovere il Tuo Business di Stampabili Online',
     tagline: 'Strategie di marketing collaudate per venditori di stampabili — dal SEO della piattaforma e Pinterest all\'email marketing e alle tempistiche stagionali, ogni canale necessario per generare traffico e vendite',
-    description: 'Le schede eccellenti non si vendono da sole. Il divario tra creare prodotti stampabili professionali e generare vendite costanti è colmato dal marketing — il processo deliberato e ripetibile di mettere i tuoi prodotti davanti agli acquirenti che ne hanno bisogno. Questa guida copre ogni canale di marketing rilevante per gli imprenditori di stampabili: SEO della piattaforma che cattura l\'intento d\'acquisto esistente, strategie Pinterest che generano traffico a lungo termine, email marketing che costruisce clienti abituali, content marketing che stabilisce autorità e tempistiche stagionali che allineano il tuo catalogo con i cicli di domanda degli acquirenti. Ogni strategia è attuabile senza richiedere strumenti di marketing costosi. La prova gratuita con filigrana su ogni generatore di schede ti dà prodotti da promuovere immediatamente, così puoi implementare queste strategie mentre le leggi.',
+    description: 'Le schede eccellenti non si vendono da sole. Il divario tra prodotti professionali e vendite costanti è colmato dal marketing: il processo deliberato di mettere i tuoi stampabili davanti agli acquirenti italiani e internazionali che ne hanno bisogno. Questa guida copre ogni canale rilevante: SEO della piattaforma che cattura l\'intento d\'acquisto su Etsy.it, strategie Pinterest per traffico organico a lungo termine, email marketing per costruire clienti abituali e tempistiche stagionali allineate ai cicli di domanda del mercato italiano. Ogni strategia è attuabile senza strumenti costosi. La prova gratuita con filigrana ti dà prodotti da promuovere immediatamente.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili investe molto nella creazione dei prodotti e poi si chiede perché le vendite restano piatte. La risposta è quasi sempre la stessa: hanno saltato il marketing. Creare schede di alta qualità è necessario ma insufficiente. Gli algoritmi dei marketplace, il comportamento di ricerca degli acquirenti e le regole di visibilità delle piattaforme richiedono tutti uno sforzo deliberato per essere navigati. I prodotti che non vengono mai trovati generano zero ricavi indipendentemente dalla loro qualità.\n\nIl marketing per le attività di stampabili è diverso dal marketing per prodotti fisici o servizi. Stai vendendo file digitali su piattaforme con i propri motori di ricerca, i propri algoritmi di negozificazione e i propri meccanismi di scoperta degli acquirenti. I consigli di marketing generici — fai pubblicità su Facebook, apri un account TikTok, assumi un influencer — mancano completamente il bersaglio. I venditori di stampabili hanno bisogno di strategie specifiche per piattaforma che funzionino all\'interno degli ecosistemi dove i loro acquirenti fanno effettivamente acquisti.\n\nQuesta guida si concentra sui canali di marketing che producono risultati misurabili per i venditori di schede stampabili. Il SEO della piattaforma è la base perché cattura gli acquirenti che stanno già cercando ciò che vendi. Pinterest è il canale social più efficace perché i prodotti stampabili sono intrinsecamente visivi e gli utenti Pinterest sono in una mentalità d\'acquisto. L\'email marketing costruisce l\'unico pubblico che possiedi completamente, indipendente da qualsiasi algoritmo di piattaforma. Il marketing stagionale allinea il tuo sforzo con cicli di domanda prevedibili che si ripetono ogni anno.\n\nOgni strategia in questa guida può essere implementata senza pubblicità a pagamento, senza un budget di marketing e senza software di marketing specializzato. Le attività di marketing con il rendimento più alto per i venditori di stampabili sono tutte organiche: titoli migliori, tag migliori, immagini migliori, tempistiche migliori. La pubblicità a pagamento ha un ruolo per i venditori affermati che ottimizzano prodotti collaudati, ma non è dove i principianti dovrebbero iniziare. Parti con il marketing organico che si accumula nel tempo e aggiungi canali a pagamento solo dopo aver capito quali prodotti e parole chiave convertono.',

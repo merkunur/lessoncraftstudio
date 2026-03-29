@@ -1,26 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare cartelle bingo per il negozio',
+    primaryKeyword: 'generatore di cartelle tombola gratis immagini',
     secondaryKeywords: [
-      'creatore di bingo illustrato per il negozio',
-      'creatore di giochi bingo per bambini',
-      'cartelle bingo stampabili per la scuola',
-      'generatore di cartelle bingo per venditori',
+      'cartelle tombola gratis online senza registrazione',
+      'generatore tombola illustrata gratis PDF stampabile',
+      'creare cartelle tombola gratis con immagini bambini',
+      'tombola natale gratis generatore cartelle',
+      'cartelle bingo gratis stampabili prova gratuita',
     ],
     lsiKeywords: [
-      'generatore batch di cartelle bingo per il negozio',
-      'creatore di bingo con immagini e parole',
-      'foglio di richiamo bingo creatore',
+      'tombola gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore cartelle tombola immagini gratis online',
     ],
-    titleTag: 'Creare Cartelle Bingo — Bingo per il negozio',
-    metaDescription: 'Crea cartelle bingo illustrate per il negozio. Griglie da 3x3 a 5x5, generazione batch, foglio di richiamo, 104 temi. Prova gratuita con filigrana.',
+    titleTag: 'Cartelle tombola gratis con immagini | LessonCraftStudio',
+    metaDescription: 'Crea cartelle tombola gratis online, senza registrazione. Griglie da 3x3 a 5x5, generazione batch, foglio di richiamo. Licenza commerciale disponibile.',
     },
 
   hero: {
-    title: 'Generatore di Cartelle Bingo',
+    title: 'Crea Cartelle Tombola Gratis con Immagini',
     tagline: 'Generatore di cartelle bingo illustrate con griglie configurabili da 3×3 a 5×5, generazione batch di 1–10 cartelle uniche per set, esportazione ZIP di tutte le cartelle in un unico download, doppia modalità di riempimento per celle e gettoni circolari in modo indipendente, foglio di richiamo dedicato con griglia di parole dinamica, selezione personalizzata del richiamo con contatore in tempo reale e 104 collezioni tematiche di immagini per cartelle bingo illustrate vendibili in tutto il mondo',
-    description: 'Crea cartelle bingo illustrate professionali dove ogni giocatore riceve una cartella unica con immagini diverse in posizioni diverse — essenziale perché il bingo funzioni come gioco. Configura le righe da 3 a 5 e le colonne da 3 a 5 in modo indipendente, creando griglie da 3×3 (9 celle) fino a 5×5 (25 celle) con un predefinito di 4×4 (16 celle). Genera da 1 a 10 cartelle bingo uniche per batch, ciascuna con una selezione casuale diversa dal pool di immagini così nessuna cartella condivide lo stesso layout. Esporta tutte le cartelle generate come JPEG individuali in un unico file bingo_cards.zip usando la compressione JSZip — un clic scarica un intero set di cartelle bingo pronto per il confezionamento in prodotti per i marketplace. Scegli il riempimento Immagine o Parola indipendentemente sia per le celle della cartella che per i gettoni circolari, creando quattro stili distinti di cartelle bingo da un unico generatore. Il riempimento Immagine mostra illustrazioni tematiche; il riempimento Parola mostra i nomi localizzati delle immagini dalla Libreria di Immagini, rendendo il Generatore di Cartelle Bingo sensibile alla lingua — cambiando lingua cambiano le parole sulle cartelle, sui gettoni e sul foglio di richiamo. I gettoni circolari presentano bordi tratteggiati (#666, strokeDashArray [5,5]) e sono mescolati usando l\'ordinamento Fisher-Yates così non rispecchiano mai il layout della griglia della cartella, garantendo un gioco di bingo autentico dove i gettoni servono come riferimento per l\'abbinamento piuttosto che come suggerimento posizionale. Un foglio di richiamo dedicato su una scheda separata mostra una griglia di parole dinamica per chi conduce il gioco — le colonne sono calcolate in base alla lunghezza della parola più lunga (2–6 colonne) con dimensione del carattere uniforme per tutte le voci per una leggibilità pulita. Attiva la selezione personalizzata del richiamo per scegliere manualmente immagini specifiche per il pool di richiamo con un contatore in tempo reale che mostra il conteggio della selezione, dandoti un controllo preciso sull\'allineamento curricolare degli elementi che appaiono nel gioco. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica le tue immagini PNG, JPG o GIF. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Aggiungi testo personalizzato con 7 opzioni di font (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Esporta scheda JPEG, foglio di richiamo JPEG, scheda PDF e foglio di richiamo PDF a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0), più l\'esportazione batch ZIP per tutte le cartelle. Scegli formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate con l\'opzione scala di grigi per stampe a risparmio d\'inchiostro. L\'area della griglia usa il 60% dell\'altezza disponibile del canvas (massimo 500px) per proporzioni ottimali della cartella. Modifica tutto sul canvas Fabric.js con strumenti di allineamento, livelli, blocca/sblocca, zoom 50%–200% con incrementi del 10% e annulla/ripeti 20 stati. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea cartelle tombola gratis direttamente nel browser, senza registrazione e senza installare nulla. Configura griglie da 3×3 a 5×5, genera da 1 a 10 cartelle uniche per batch ed esporta in ZIP con un clic. Scegli riempimento Immagine o Parola per celle e gettoni indipendentemente, creando quattro stili diversi. Foglio di richiamo dedicato con griglia di parole dinamica per chi conduce il gioco. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita senza limiti. Vuoi vendere le tue cartelle tombola su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

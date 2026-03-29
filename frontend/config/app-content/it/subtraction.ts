@@ -2,28 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede sottrazione',
+    primaryKeyword: 'generatore di schede di sottrazione da vendere su Etsy',
     secondaryKeywords: [
-      'schede sottrazione stampabili per Etsy',
-      'generatore schede sottrazione per Amazon KDP',
-      'vendere schede sottrazione su Gumroad',
-      'schede sottrazione licenza commerciale',
+      'creare schede di sottrazione per negozio Etsy',
+      'esercizi di sottrazione per Amazon KDP',
+      'schede di sottrazione illustrate licenza commerciale',
+      'schede di calcolo per vendere su Eduki',
     ],
     lsiKeywords: [
-      'prodotti digitali stampabili per imprenditori',
-      'business schede di matematica online',
-      'generatore schede sottrazione uso commerciale',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'immagini tematiche',
+      'reddito passivo',
+      'download digitale',
+      'barratura visiva',
+      'business di stampabili',
+      'scuola primaria',
+      'guadagno extra',
     ],
-    titleTag: 'Generatore Schede di Sottrazione | Crea e Vendi Online',
+    titleTag: 'Schede di sottrazione — Vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede di sottrazione da vendere su Etsy, KDP e Gumroad. 4 modalità con barratura visiva, 104 temi, soluzioni, scala di grigi, export 400+ DPI.',
+      'Crea schede di sottrazione da vendere su Etsy e KDP. Immagini tematiche, soluzioni, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Sottrazione con Visualizzazione a Barratura',
+    title: 'Genera schede di sottrazione da vendere su Etsy, KDP e oltre',
     tagline: 'Rendi la sottrazione intuitiva con schede dove i bambini barrano le immagini per trovare la risposta.',
     description:
-      'Crea schede di sottrazione basate su immagini che insegnano il concetto di \"togliere\" attraverso un metodo visivo potente: la barratura. gli utenti vedono un gruppo di immagini e osservano croci diagonali tracciate sugli elementi sottratti — trasformando il concetto astratto della sottrazione in qualcosa di concreto e intuitivo. Scegli tra quattro modalità di esercizio — Barratura, Immagine − Numero, Trova il Sottraendo e Modalità Mista — per accompagnare l\'apprendimento dalla scuola dell\'infanzia alla seconda elementare. Esplora oltre 3100 illustrazioni selezionate in 104 temi come dinosauri, vita marina e veicoli. Ogni scheda include un foglio soluzioni automatico, e puoi esportare PDF pronti per la stampa in formato Letter, A4 o personalizzato a oltre 400 DPI. Una modalità scala di grigi integrata permette di creare versioni in bianco e nero con un solo clic. Che tu venda pacchetti tematici su Etsy, pubblichi libri di attività su Amazon KDP o stampi schede di pratica per i tuoi utenti, il Generatore di Schede di Sottrazione produce risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Trasforma la sottrazione in un prodotto vendibile con un generatore progettato per imprenditori di stampabili. Crea schede di sottrazione illustrate con immagini tematiche da oltre 100 categorie — animali, veicoli, cibo, natura — che rendono la matematica coinvolgente e le tue inserzioni irresistibili. Ogni scheda si esporta in PDF 300 DPI pronto per la stampa con soluzioni automatiche, pronta per essere caricata su Etsy, inserita in un quaderno di attività Amazon KDP, o proposta su Eduki. La licenza commerciale è inclusa con ogni scheda. Strategia redditizia: combina addizione e sottrazione in pacchetti — i venditori riportano carrelli medi significativamente più alti con offerte matematiche combinate. Il mercato italiano offre potenziale enorme con concorrenza minima.',
   },
 
   howItWorks: {

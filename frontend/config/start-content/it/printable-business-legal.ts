@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'obblighi fiscali vendita stampabili',
+    primaryKeyword: 'aspetti legali business stampabili Italia',
     secondaryKeywords: [
-      'aspetti legali attività stampabili',
-      'obblighi fiscali prodotti digitali',
-      'struttura aziendale per venditori di stampabili',
-      'proprietà intellettuale schede stampabili',
+      'partita IVA vendita stampabili online Italia',
+      'regime forfettario venditori prodotti digitali',
+      'IVA 22% download digitali obblighi fiscali',
+      'fatturazione elettronica vendita stampabili Etsy',
+      'proprietà intellettuale schede stampabili tutela',
     ],
     lsiKeywords: [
-      'IVA download digitali per paese',
-      'SRL per attività di stampabili',
-      'conservazione documenti per venditori Etsy',
-      'conformità termini di servizio piattaforma',
-      'imposte transfrontaliere beni digitali',
-      'spese deducibili attività stampabili',
+      'prestazione occasionale sotto 5000 euro',
+      'commercialista per venditori digitali',
+      'spese deducibili attività stampabili Italia',
+      'conformità termini servizio piattaforma',
     ],
-    titleTag: 'Obblighi Fiscali Vendita Stampabili — Guida Legale',
-    metaDescription: 'Obblighi fiscali per venditori di stampabili. Struttura aziendale, spese deducibili, proprietà intellettuale e conformità piattaforma per la tua attività.',
+    titleTag: 'Business stampabili: aspetti legali IT | LessonCraftStudio',
+    metaDescription: 'Aspetti legali per venditori di stampabili in Italia: partita IVA, regime forfettario, IVA al 22%, fatturazione elettronica e tutela IP.',
   },
 
   hero: {
-    title: 'Tasse e Aspetti Legali dell\'Attività di Stampabili',
+    title: 'Aspetti Legali e Fiscali del Business Stampabili in Italia',
     tagline: 'Informazioni fiscali e legali essenziali per venditori di stampabili — struttura aziendale, obblighi fiscali per beni digitali, spese deducibili, proprietà intellettuale, conformità piattaforma e quando rivolgersi a un professionista',
-    description: 'Gestire un\'attività di stampabili significa gestire un\'attività reale, e le attività reali hanno obblighi fiscali, requisiti legali e responsabilità di conformità. Molti venditori di stampabili aprono i loro negozi senza comprendere il panorama legale, il che può portare a spiacevoli sorprese al momento della dichiarazione dei redditi o peggio. Questa guida copre gli argomenti essenziali che ogni venditore di stampabili dovrebbe comprendere: opzioni di struttura aziendale, obblighi fiscali per la vendita di prodotti digitali, spese aziendali deducibili, nozioni di proprietà intellettuale, conformità ai termini di servizio delle piattaforme, requisiti di conservazione dei documenti e quando cercare consulenza legale o fiscale professionale. Ogni sezione include un chiaro disclaimer: queste sono informazioni educative per aiutarti a porre le domande giuste, non consulenza professionale per la tua situazione specifica. Usa questa guida per identificare gli argomenti di cui devi discutere con un consulente fiscale o un avvocato qualificato.',
+    description: 'Vendere stampabili in Italia comporta obblighi specifici: partita IVA obbligatoria sopra i 5.000 euro annui di prestazione occasionale, regime forfettario con soglia a 85.000 euro e aliquote del 5% o 15%, IVA al 22% sui prodotti digitali e fatturazione elettronica obbligatoria. Questa guida copre il quadro normativo italiano per venditori di prodotti digitali su Etsy, Amazon KDP e Gumroad: struttura aziendale, spese deducibili, proprietà intellettuale e conformità alle piattaforme. Attenzione: queste sono informazioni educative generali, non consulenza fiscale o legale. Si raccomanda di consultare un commercialista qualificato per la propria situazione specifica.',
   },
 
   introduction: 'La stagione fiscale coglie di sorpresa molti venditori di stampabili. Hanno passato l\'anno a creare schede, pubblicare prodotti e generare ricavi su più piattaforme — ma non hanno mai accantonato denaro per le tasse, non hanno mai tracciato le spese deducibili e non hanno mai registrato correttamente la loro attività. Il risultato è stress, sanzioni e talvolta una fattura fiscale significativa che avrebbe potuto essere ridotta con una pianificazione adeguata.\n\nL\'aspetto legale della gestione di un\'attività di stampabili non è facoltativo, e non è così complicato come sembra una volta compresi i fondamenti. Non serve una laurea in giurisprudenza per vendere schede su Etsy. Ma è necessario comprendere i propri obblighi fiscali, proteggere la propria proprietà intellettuale, rispettare i termini di servizio delle piattaforme e tenere registri che rendano la dichiarazione dei redditi semplice piuttosto che caotica.\n\nQuesta guida è organizzata attorno alle domande che i venditori di stampabili pongono più frequentemente: Quale struttura aziendale mi serve? Devo applicare l\'imposta sulle vendite? Quali spese posso dedurre? Come proteggo i miei design? Cosa succede se vendo a livello internazionale? Quando mi serve un professionista? Ogni sezione fornisce un contesto educativo per aiutarti a comprendere l\'argomento e identificare ciò di cui devi discutere con il tuo consulente fiscale o avvocato.\n\nUn disclaimer fondamentale prima di iniziare: questa guida fornisce esclusivamente informazioni educative generali. Non costituisce consulenza legale, consulenza fiscale o parere professionale di alcun tipo. Le leggi fiscali e i requisiti legali variano per paese, stato, provincia e comune. Cambiano frequentemente. La tua situazione specifica — inclusa la tua posizione, il livello di ricavi, la struttura aziendale e le piattaforme di vendita — determina i tuoi obblighi effettivi. Consulta sempre un consulente fiscale o un avvocato qualificato per le decisioni che riguardano la tua attività.',

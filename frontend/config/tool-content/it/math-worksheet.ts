@@ -2,26 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore esercizi matematica stampabili',
+    primaryKeyword: 'generatore di schede di matematica gratis',
     secondaryKeywords: [
-      'generatore schede algebra visuale per venditori',
-      'creare puzzle algebra con immagini da vendere',
-      'stampabili equazioni con variabili immagine uso commerciale',
-      'generatore algebra illustrata per KDP',
+      'creare schede matematica gratis online',
+      'schede algebra visuale stampabili gratis',
+      'generatore esercizi matematica senza registrazione',
+      'puzzle matematici con immagini gratis PDF',
+      'schede equazioni con variabili gratis',
     ],
     lsiKeywords: [
-      'stampabili algebra visuale per Etsy',
-      'generatore equazioni con immagini variabili',
-      'strumento puzzle algebra con figure',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Generatore Esercizi di Matematica | Algebra Visuale Maker',
-    metaDescription: 'Crea puzzle di algebra visuale dove le immagini sostituiscono le variabili in equazioni collegate. Quattro livelli di difficoltà, soluzione unica garantita.',
+    titleTag: 'Schede di matematica gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di matematica gratis online, senza registrazione. Algebra visuale, 4 livelli di difficoltà, PDF istantaneo. Licenza commerciale per vendere.',
   },
 
   hero: {
-    title: 'Generatore Esercizi Matematica',
+    title: 'Crea Schede di Matematica Gratis Online',
     tagline: 'Crea puzzle di algebra visuale con immagini come variabili in meno di 60 secondi',
-    description: 'Vai oltre i negozici esercizi di aritmetica con puzzle di algebra illustrata che sfidano gli utenti a ragionare per sistemi di equazioni. Ogni scheda presenta un insieme di equazioni collegate dove le immagini sostituiscono le incognite — gli utenti devono determinare il valore numerico che ogni figura rappresenta. Quattro livelli di difficoltà scalano da due simboli con addizione semplice fino a quattro incognite simultanee con operazioni miste. Un risolutore algebrico integrato garantisce che ogni puzzle abbia esattamente una soluzione corretta — nessuna ambiguità, nessuna approssimazione. Scegli Solo Addizione per pratica focalizzata o Addizione e Sottrazione per problem-solving avanzato. Imposta l\'intervallo numerico, attiva i risultati negativi per utenti più grandi e controlla i puzzle per pagina da 1 a 6 con layout automatico. Seleziona immagini singolarmente, carica un intero set tematico o carica le tue PNG o JPEG per puzzle personalizzati. Poiché i puzzle usano solo immagini e numeri, funzionano in modo identico in ogni lingua — vendi lo stesso PDF in tutto il mondo senza traduzione. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede di matematica gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento genera puzzle di algebra visuale dove le immagini sostituiscono le incognite in sistemi di equazioni collegate. Quattro livelli di difficoltà scalano da due simboli con addizione semplice fino a quattro incognite simultanee con operazioni miste. Un risolutore algebrico integrato garantisce che ogni puzzle abbia esattamente una soluzione corretta. Scegli Solo Addizione o Addizione e Sottrazione, imposta l\'intervallo numerico e controlla i puzzle per pagina da 1 a 6 con layout automatico. Seleziona tra oltre 3.100 immagini in 104 temi o carica le tue PNG e JPEG. Scarica PDF pronti per la stampa o JPEG ad alta risoluzione con chiave di risposta automatica. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

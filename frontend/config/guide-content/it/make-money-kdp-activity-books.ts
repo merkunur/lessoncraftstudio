@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'guadagnare libri attività KDP',
+    primaryKeyword: 'guadagnare con quaderni di attività KDP',
     secondaryKeywords: [
-      'come guadagnare con libri attività KDP',
-      'strategie reddito libri attività Amazon KDP',
-      'ottimizzazione entrate libri attività KDP',
-      'pubblicazione redditizia libri attività KDP',
+      'come guadagnare con libri attività Amazon KDP',
+      'calcolo royalty KDP libri attività strategia prezzi',
+      'costruzione catalogo libri attività entrate mensili KDP',
+      'pubblicazione stagionale KDP Natale rientro a scuola',
+      'espansione multi-piattaforma Etsy Gumroad KDP',
     ],
     lsiKeywords: [
-      'calcolo royalty KDP costo stampa strategia prezzi',
-      'catalogo libri attività compounding entrate guadagni mensili',
-      'pubblicazione stagionale Natale estate rientro a scuola',
-      'Amazon badge best seller parole chiave negozifica categorie',
-      'multi-piattaforma Etsy Gumroad download digitale espansione',
-      'report KDP monitoraggio performance analisi entrate per titolo',
+      'costo stampa KDP royalty per vendita margini',
+      'compounding entrate catalogo libri attività',
+      'badge best seller Amazon categorie parole chiave',
+      'monitoraggio performance analisi entrate per titolo',
     ],
-    titleTag: 'Guadagnare con Libri di Attività KDP | Guida Completa',
-    metaDescription: 'Come guadagnare con i libri di attività su Amazon KDP. Prezzi, costruzione catalogo, calcolo royalty, pubblicazione stagionale e scaling multi-piattaforma.',
+    titleTag: 'Guadagnare con quaderni KDP | LessonCraftStudio',
+    metaDescription: 'Come guadagnare con quaderni di attività su Amazon KDP: calcolo royalty, strategia prezzi, catalogo e pubblicazione stagionale. Guida per editori italiani.',
   },
 
   hero: {
-    title: 'Come Guadagnare con i Libri di Attività su Amazon KDP',
+    title: 'Guadagnare con quaderni di attività KDP: guida pratica',
     tagline: 'Una guida completa alle entrate per editori di libri di attività su Amazon KDP — matematica delle royalty e fasce di prezzo ottimali, economia del catalogo che moltiplica il reddito mensile, strategie di pubblicazione stagionale per picchi di vendita durante le festività, ottimizzazione delle parole chiave Amazon per massimizzare le vendite, scalabilità della produzione su più tipi di libri di attività, monitoraggio delle performance per investire sui titoli vincenti, e espansione multi-piattaforma su Etsy e Gumroad per flussi di reddito aggiuntivi',
-    description: 'Pubblicare libri di attività su Amazon KDP è semplice. Generare un reddito costante e crescente richiede una strategia aziendale deliberata. Questa guida non spiega come creare libri di attività — le nostre altre guide KDP coprono libri di attività matematica, libri di puzzle, libri di cerca parole e formattazione in dettaglio. Questa guida parla di soldi: come funzionano realmente le royalty KDP per i libri di attività, come prezzare per il massimo profitto anziché per il massimo volume di vendite, perché un catalogo di 10 libri guadagna molto più di 10 volte ciò che guadagna un singolo libro, e come costruire un\'attività editoriale che genera entrate mensili composte anziché vendite una tantum.',
+    description: 'Pubblicare quaderni di attività su Amazon KDP è accessibile a chiunque. Generare un reddito costante e crescente richiede invece una strategia aziendale deliberata. Questa guida si concentra esclusivamente sul lato economico: come funzionano le royalty KDP per i libri di attività, come prezzare per il massimo profitto anziché il massimo volume, perché un catalogo di 10 titoli guadagna molto più di 10 volte un singolo libro e come sfruttare la pubblicazione stagionale per catturare i picchi di domanda in Italia e nel mondo. Imparerai anche come espandere su più piattaforme come Etsy e Gumroad per diversificare i flussi di reddito.',
   },
 
   introduction: 'I libri di attività sono tra le categorie di reddito più affidabili su Amazon KDP perché combinano due potenti dinamiche commerciali: domanda costante tutto l\'anno e un ciclo di consumo integrato. A differenza dei romanzi o dei libri di consultazione che un acquirente legge una volta e conserva per sempre, i libri di attività si esauriscono. Un bambino finisce un quaderno di matematica, un appassionato di puzzle completa una raccolta di cerca parole, un genitore lavora con il suo bambino su un libro da colorare — e poi ne servono altri. Questo comportamento di acquisto ripetuto è il fondamento dell\'economia editoriale dei libri di attività.\n\nIl mercato dei libri di attività su KDP copre dozzine di sottocategorie: quaderni di matematica, raccolte di cerca parole, cruciverba, libri di sudoku, libri da colorare, spunti di disegno, tracciamento lettere, labirinti e altro ancora. Ogni sottocategoria ha la propria curva di domanda, densità competitiva e dinamiche di prezzo. Ma il modello di business sottostante è lo stesso per tutte: basse royalty per vendita che si accumulano attraverso volume, profondità del catalogo e tempo.\n\nLa maggior parte dei nuovi editori KDP commette due errori fondamentali. Primo, si concentrano interamente sulla creazione di un singolo libro eccellente piuttosto che pianificare una strategia di catalogo. Un singolo libro di attività, per quanto buono, ha un tetto di entrate. Secondo, prezzano in base a ciò che sembra giusto piuttosto che calcolare la matematica reale delle royalty a diversi punti di prezzo e conteggi pagine. La differenza tra prezzare un quaderno di matematica da 60 pagine a 6,99 dollari e 8,99 dollari può significare la differenza tra guadagnare 0,20 dollari per vendita e 1,40 dollari per vendita — un aumento delle royalty di 7 volte con un cambiamento di prezzo di 2 dollari.\n\nQuesta guida si concentra esclusivamente sul lato commerciale e delle entrate della pubblicazione di libri di attività su KDP. Per istruzioni dettagliate sulla creazione di tipi specifici di libri di attività, consulta la guida ai libri di attività matematica KDP, la guida ai libri di puzzle e la guida ai libri di cerca parole. Per le specifiche di formattazione, vedi la guida alla formattazione KDP. Qui copriamo ciò che nessuna di quelle guide affronta: l\'economia, la strategia di prezzo, la pianificazione del catalogo, il timing stagionale, l\'ottimizzazione delle performance e l\'espansione multi-piattaforma che trasformano la pubblicazione di libri di attività da un hobby a un flusso di reddito.',

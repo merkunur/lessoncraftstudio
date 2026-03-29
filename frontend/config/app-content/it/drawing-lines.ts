@@ -2,28 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede pregrafismo',
+    primaryKeyword: 'schede di pregrafismo da vendere su Etsy e KDP',
     secondaryKeywords: [
-      'generatore di schede pregrafismo stampabili per venditori Etsy',
-      'creatore di schede di tracciamento linee per editori Amazon KDP',
-      'vendere schede pregrafismo su Gumroad',
-      'generatore di schede pregrafismo con licenza commerciale',
+      'creare schede pregrafismo stampabili per negozio Etsy',
+      'generatore tracciamento linee per quaderni Amazon KDP',
+      'schede motricità fine licenza commerciale',
+      'vendere attività di pregrafismo su Eduki',
+      'business stampabili schede tracciamento linee',
     ],
     lsiKeywords: [
-      'prodotti digitali schede pregrafismo per imprenditori',
-      'schede motricità fine stampabili uso commerciale',
-      'generatore schede pregrafismo con modelli SVG',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'pregrafismo',
+      'motricità fine',
+      'business di stampabili',
+      'modelli SVG',
+      'tracciamento linee',
     ],
-    titleTag: 'Generatore Schede di Pregrafismo | Crea e Vendi Online',
+    titleTag: 'Schede di pregrafismo da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede pregrafismo professionali per Etsy, KDP e Gumroad. Otto modelli linee SVG, abbinamento immagini, 104 raccolte tematiche. Prova gratuita con filigrana.',
+      'Crea schede di pregrafismo professionali da vendere su Etsy e KDP. 8 modelli SVG, 104 temi, licenza commerciale inclusa. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede Pregrafismo per Esercizi di Tracciamento Linee',
+    title: 'Genera schede di pregrafismo da vendere su Etsy e KDP',
     tagline: 'Otto modelli di linee SVG — curve, diagonali, orizzontale e verticale — con 4 a 5 coppie di immagini per pagina per lo sviluppo della motricità fine attraverso il tracciamento guidato di linee.',
     description:
-      'Crea schede professionali di pregrafismo dove gli utenti tracciano lungo percorsi guidati per collegare coppie di immagini abbinate. Otto modelli basati su SVG coprono quattro tipi di linee: quattro modelli di curve per movimenti fluidi, due modelli di diagonali per tratti angolati, un modello orizzontale per il tracciamento da sinistra a destra e un modello verticale per la pratica dall\'alto verso il basso. Ogni modello posiziona 4 o 5 coppie di immagini abbinate su ciascun lato del percorso della linea, offrendo agli utenti un obiettivo visivo a ogni estremità. Il riempimento automatico assegna casualmente coppie di immagini da qualsiasi tema selezionato o da tutti i temi contemporaneamente. Il contenuto proviene dalla Libreria Immagini integrata con oltre 3100 illustrazioni colorate in 104 temi — animali, veicoli, cibo, natura e decine di altri. Ogni scheda è puramente visiva con zero testo nell\'output, rendendole universalmente utilizzabili indipendentemente dalla lingua o dal livello di lettura. La selezione del modello determina automaticamente l\'orientamento della pagina: i modelli di curve passano all\'orizzontale per movimenti ampi, mentre i modelli di diagonali, orizzontale e verticale usano il verticale per una pratica concentrata dall\'alto verso il basso. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4 o dimensioni personalizzate. Che tu venda pacchetti di tracciamento linee su Etsy, compili quaderni di motricità fine per Amazon KDP o crei centri di preparazione alla scrittura per Gumroad, il Generatore di Schede Pregrafismo offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede di pregrafismo rappresentano uno dei prodotti stampabili più richiesti dai genitori italiani, ma l\'offerta su Etsy in italiano è ancora minima. Questo generatore ti permette di creare schede professionali di tracciamento linee in pochi minuti, senza bisogno di software grafico. Otto modelli SVG — curve, diagonali, linee orizzontali e verticali — coprono tutte le competenze di motricità fine, e le immagini abbinate su ogni lato del percorso rendono ogni scheda visivamente accattivante. Il contenuto è puramente visivo, quindi ogni scheda funziona in qualsiasi lingua senza modifiche: perfetto per vendere su mercati internazionali. Scegli tra 104 temi con oltre 3100 illustrazioni ed esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni Amazon KDP o listini Eduki. L\'Accesso Completo include la licenza commerciale e 11 lingue di interfaccia. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

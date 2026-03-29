@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere schede di matematica su Etsy',
+    primaryKeyword: 'vendere schede di matematica su Etsy guida',
     secondaryKeywords: [
-      'come vendere schede di matematica su Etsy',
-      'configurazione negozio Etsy schede matematica',
-      'attività di schede matematica stampabili su Etsy',
-      'vendere stampabili educativi su Etsy',
+      'come aprire un negozio Etsy di schede matematica',
+      'ottimizzazione inserzioni Etsy schede matematica stampabili',
+      'strategie di bundle schede matematica Etsy venditori',
+      'prezzi schede matematica download digitale Etsy',
+      'SEO Etsy tag titoli schede matematica',
     ],
     lsiKeywords: [
-      'Etsy download digitale attività matematiche ottimizzazione inserzioni',
-      'strategia prezzi pacchetti schede matematica venditori Etsy',
-      'tag SEO Etsy per schede stampabili educative',
-      'vendere schede addizione sottrazione negozio Etsy',
-      'strategia stagionale stampabili matematica ritorno a scuola Etsy',
-      'foto inserzioni Etsy mockup per prodotti schede matematica',
+      'download digitale attività matematiche Etsy inserzioni',
+      'tempistica stagionale ritorno a scuola schede matematica',
+      'mockup foto inserzioni Etsy prodotti educativi',
+      'negozio Etsy schede addizione sottrazione puzzle',
     ],
-    titleTag: 'Vendere Schede di Matematica su Etsy | Guida Completa',
-    metaDescription: 'Vendi schede di matematica su Etsy con 6 generatori. SEO Etsy, ottimizzazione inserzioni, prezzi, strategie di bundle e tempistica stagionale per venditori.',
+    titleTag: 'Vendere schede di matematica su Etsy | LessonCraftStudio',
+    metaDescription: 'Guida completa per vendere schede di matematica su Etsy: SEO, inserzioni ottimizzate, prezzi e bundle. Inizia oggi con 6 generatori specializzati.',
   },
 
   hero: {
-    title: 'Come Vendere Schede di Matematica su Etsy',
+    title: 'Vendere schede di matematica su Etsy: guida pratica',
     tagline: 'Una guida completa alla piattaforma per costruire un negozio Etsy redditizio vendendo schede di matematica create con 6 generatori specializzati — che copre configurazione del negozio Etsy, ottimizzazione SEO con tutti i 13 tag, titoli e descrizioni delle inserzioni che si posizionano per i termini di ricerca degli acquirenti, fotografia dei prodotti e mockup, strategie di prezzo per schede singole e pacchetti, tempistica stagionale per i picchi del ritorno a scuola e delle festività, pianificazione del catalogo tra addizione, sottrazione, puzzle con codici, confronto, puzzle a griglia e esercizi numerici, e ottimizzazione continua del negozio usando le statistiche Etsy e l\'analitica di ricerca',
-    description: 'Etsy è la piattaforma principale per la vendita di schede di matematica stampabili. Oltre 90 milioni di acquirenti attivi cercano prodotti educativi su Etsy, e le schede stampabili sono una delle categorie di download digitale in più rapida crescita. Questa guida copre tutto ciò di cui hai bisogno per trasformare i tuoi 6 generatori di matematica in un negozio Etsy redditizio. Imparerai esattamente come ricercare la domanda, pianificare il tuo catalogo per la massima copertura di ricerca, creare inventario con tempi di produzione efficienti, formattare i prodotti per il successo dei download digitali di Etsy, scrivere inserzioni che si posizionano nel motore di ricerca di Etsy, creare foto delle inserzioni che convertono le visualizzazioni in vendite, e lanciare e ottimizzare il tuo negozio nel tempo. Ogni sezione include strategie specifiche per Etsy che non troverai nelle guide generali sui stampabili — perché vendere su Etsy ha le proprie regole SEO, strutture tariffarie e modelli stagionali unici.',
+    description: 'Il mercato italiano su Etsy offre opportunità concrete per chi vende schede di matematica stampabili. Con milioni di acquirenti attivi che cercano prodotti educativi ogni giorno, le schede di matematica rappresentano una delle categorie di download digitale in più rapida crescita. Questa guida ti accompagna passo dopo passo nella creazione di un negozio Etsy redditizio usando 6 generatori specializzati di matematica. Imparerai come ricercare la domanda, ottimizzare le inserzioni per il motore di ricerca interno di Etsy, costruire bundle strategici e pianificare il catalogo per massimizzare la copertura delle ricerche degli acquirenti italiani e internazionali. Ogni sezione include strategie specifiche per Etsy con tempistiche stagionali e strutture tariffarie aggiornate.',
   },
 
   introduction: 'Vendere schede di matematica su Etsy combina la forte domanda di stampabili educativi con gli strumenti di ricerca e scoperta unici della piattaforma. A differenza di altre piattaforme dove il marketing guida le vendite, il motore di ricerca di Etsy connette direttamente gli acquirenti che cercano schede di matematica con i venditori che le creano — il che significa che l\'ottimizzazione delle inserzioni è più importante della pubblicità a pagamento per la maggior parte dei venditori.\n\nI tuoi 6 generatori di schede di matematica — Addizione, Sottrazione, Addizione con Codici, Confronto Maggiore/Minore, Puzzle Matematici a Griglia e Schede di Esercizi Matematici — ti danno un vantaggio significativo su Etsy. Mentre la maggior parte dei venditori offre un solo tipo di schede di matematica, tu puoi creare prodotti su 6 formati diversi, ciascuno rivolto a diverse query di ricerca e segmenti di acquirenti. Questa diversità di catalogo è esattamente ciò che l\'algoritmo di Etsy premia: più inserzioni che corrispondono a diversi termini di ricerca significano più visibilità per il tuo negozio.\n\nQuesta guida è organizzata come un tutorial passo-passo che ti porta dalla ricerca di mercato al lancio del negozio. Ogni sezione si concentra su strategie specifiche per Etsy piuttosto che su consigli generali per i stampabili. Imparerai come funziona l\'algoritmo di ricerca di Etsy, quali strutture di inserzione convertono meglio per le schede di matematica, come stabilire prezzi che bilancino competitività e redditività, e come cronometrare i lanci dei tuoi prodotti per catturare i picchi stagionali. Se stai avviando il tuo primo negozio Etsy o espandendo un negozio esistente nella categoria delle schede di matematica, questa guida ti dà il quadro specifico per la piattaforma di cui hai bisogno.',

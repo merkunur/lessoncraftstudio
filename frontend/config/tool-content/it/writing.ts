@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede scrittura a mano stampabile',
+    primaryKeyword: 'generatore di schede di scrittura gratis',
     secondaryKeywords: [
-      'generatore schede calligrafia per venditori',
-      'creare schede tracciatura lettere da vendere',
-      'stampabili scrittura a mano uso commerciale',
-      'generatore schede scrittura per KDP',
+      'creare schede di scrittura gratis online',
+      'schede scrittura a mano stampabili gratis',
+      'generatore schede calligrafia senza registrazione',
+      'schede tracciatura lettere gratis PDF',
+      'generatore scrittura a mano gratuito online',
     ],
     lsiKeywords: [
-      'stampabili frecce ordine tratti calligrafia per Etsy',
-      'strumento schede traccia sfumata pratica lettere',
-      'generatore calligrafia corsivo e stampatello',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Schede di Scrittura | Crea e Vendi Online',
-    metaDescription: 'Genera schede scrittura a mano con tre modalità progressive, cinque stili font, frecce ordine tratti, guide sfumate, 104 temi. Prova gratuita — licenza.',
+    titleTag: 'Schede di scrittura gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di scrittura gratis online, senza registrazione. Tre modalità progressive, frecce ordine tratti, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Schede Scrittura a Mano',
+    title: 'Crea Schede di Scrittura a Mano Gratis Online',
     tagline: 'Crea schede di pratica lettere con tre modalità progressive, ordine tratti guidato da frecce e guide sfumate che sviluppano la fluidità dalla tracciatura completa alla scrittura autonoma',
-    description: 'Progetta schede di pratica scrittura a mano professionali basate su un sistema a tre modalità progressive: la modalità Traccia fornisce contorni solidi delle lettere che i principianti seguono direttamente, la Traccia Sfumata riduce progressivamente l\'opacità delle lettere lungo la riga così gli utenti passano dalla tracciatura guidata al richiamo autonomo all\'interno di una singola linea, e la Copia Guidata offre un contorno sfumato per una scrittura quasi autonoma con supporto visivo minimo. Cinque stili di font ti danno il controllo completo sulla presentazione delle lettere — Stampatello Regolare per lettere a blocchi standard, Stampatello con Frecce con frecce direzionali numerate che mostrano l\'esatta sequenza di formazione dei tratti, Tracciatura Stampatello per lettere con contorni punteggiati progettate per esercizi di tracciatura, Tracciatura con Frecce che combina contorni punteggiati con frecce per l\'ordine dei tratti, e Corsivo (Great Vibes) per la pratica della scrittura in corsivo. L\'ordine dei tratti guidato da frecce è la caratteristica distintiva: frecce direzionali numerate su ogni lettera mostrano agli utenti esattamente come formare ogni tratto nella sequenza corretta, trasformando una semplice pagina di tracciatura in uno strumento didattico. Ogni riga della scheda è configurabile indipendentemente — modalità di pratica, stile font, fonte del contenuto e impostazione maiuscole/minuscole propri — così una singola pagina può mescolare modalità Traccia per nuove lettere, Traccia Sfumata per lettere già praticate e Copia Guidata per il ripasso. Le fonti del contenuto includono la Libreria Immagini con oltre 3.100 illustrazioni in 104 collezioni tematiche (modalità Lettera Iniziale o Nome File Completo), Testo Personalizzato per qualsiasi parola o frase, e Vuoto per righe guida senza lettere. Esercizi di tratti pre-scrittura (linee verticali, linee orizzontali, cerchi, linee a zigzag) sviluppano le basi motorie prima della formazione delle lettere. Esporta PDF pronti per la stampa e JPEG a circa 300 DPI con moltiplicatore di rendering 6x in formato Letter, A4 o dimensioni personalizzate. Scegli tra 7 font per sovrapposizioni di testo, attiva la scala di grigi per output ottimizzato per l\'inchiostro e usa il canvas Fabric.js completo per riposizionare ogni elemento. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede di scrittura a mano gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre tre modalità progressive — Traccia con contorni solidi, Traccia Sfumata con opacità decrescente e Copia Guidata per la scrittura quasi autonoma. Cinque stili di font includono Stampatello con Frecce direzionali numerate per l\'ordine dei tratti e Corsivo per la pratica della scrittura fluida. Ogni riga è configurabile indipendentemente: modalità, font, contenuto e maiuscole/minuscole. Scegli tra oltre 3.100 illustrazioni in 104 temi o inserisci testo personalizzato. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4 o personalizzato — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

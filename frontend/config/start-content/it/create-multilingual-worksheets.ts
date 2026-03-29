@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'generatore di schede multilingue',
+    primaryKeyword: 'creare schede multilingue da vendere',
     secondaryKeywords: [
-      'creare schede in più lingue',
-      'schede stampabili multilingue',
-      'vendere schede in tedesco francese spagnolo',
-      'generatore di libri di attività multilingue',
+      'generatore schede multilingue 11 lingue',
+      'vendere stampabili in tedesco francese spagnolo',
+      'schede didattiche multilingue Etsy Amazon KDP',
+      'espandere catalogo stampabili mercati internazionali',
     ],
     lsiKeywords: [
-      'generatore di schede sensibile alla lingua',
-      'creare schede in 11 lingue',
-      'mercato stampabili non inglesi Etsy',
-      'generatore multilingue cerca parole',
-      'attività stampabili internazionali',
-      'vendere schede su etsy.de etsy.fr',
+      'generatore sensibile alla lingua vs solo visivo',
+      'mercato stampabili non anglofono opportunità',
+      'vocabolario tradotto professionalmente per schede',
+      'vendere schede su etsy.de etsy.fr amazon.it',
+      'catalogo multilingue moltiplicare ricavi',
     ],
-    titleTag: 'Generatore Schede Multilingue in 11 Lingue | Guida Pratica',
-    metaDescription: 'Crea e vendi schede in 11 lingue con un generatore multilingue. Raggiungi acquirenti tedeschi, francesi e spagnoli su Etsy, Amazon KDP e mercati globali.',
+    titleTag: 'Schede multilingue da vendere | LessonCraftStudio',
+    metaDescription: 'Crea e vendi schede in 11 lingue con generatori multilingue. Raggiungi mercati poco serviti su Etsy, Amazon KDP e marketplace globali. Prova gratuita.',
   },
 
   hero: {
-    title: 'Come Creare Schede in 11 Lingue',
+    title: 'Creare e Vendere Schede Multilingue in 11 Lingue',
     tagline: 'Raggiungi acquirenti internazionali su Etsy e Amazon KDP con contenuti professionalmente localizzati — nessuna competenza linguistica richiesta',
-    description: 'La maggior parte dei venditori di stampabili compete esclusivamente nel mercato anglofono, ignorando milioni di acquirenti che cercano in tedesco, francese, spagnolo, portoghese, italiano e altre lingue. Questa guida ti mostra come usare i generatori di schede multilingue per creare contenuti autentici e specifici per lingua in 11 lingue e venderli nei marketplace internazionali. Imparerai la distinzione fondamentale tra generatori sensibili alla lingua e solo visuali, capirai le opportunità di mercato in ogni lingua supportata e costruirai una strategia sistematica per espandere la tua attività di stampabili a livello internazionale.',
+    description: 'I mercati tedesco, francese, spagnolo e italiano hanno milioni di acquirenti attivi ma una frazione della concorrenza del mercato anglofono. Come venditore italiano hai un vantaggio naturale: conosci già il mercato locale e puoi espanderti in altre lingue europee con generatori che includono traduzioni professionali integrate in 11 lingue. Questa guida ti mostra la distinzione tra generatori sensibili alla lingua e solo visuali, le opportunità specifiche per ogni mercato e la strategia sistematica per moltiplicare il tuo catalogo a livello internazionale. Prova gratuita con filigrana per testare l\'output multilingue.',
   },
 
   introduction: 'Il mercato anglofono dei stampabili su Etsy e Amazon KDP è saturo. Migliaia di venditori competono per le stesse parole chiave, abbassando i prezzi e rendendo la visibilità sempre più difficile. Nel frattempo, i mercati tedesco, francese, spagnolo, portoghese e italiano hanno una frazione di quella concorrenza — e milioni di acquirenti attivi che cercano schede didattiche, libri di puzzle e pagine di attività nella loro lingua madre.\n\nQuesta non è un\'opportunità ipotetica. Amazon.de, Amazon.fr, Amazon.es, Amazon.it, Etsy.de e Etsy.fr sono marketplace consolidati dove genitori e venditori cercano attivamente contenuti educativi localizzati. I venditori che offrono schede multilingue autentiche — non traduzioni automatiche approssimative — dominano questi mercati perché pochissimi concorrenti si impegnano a servirli.\n\nLa sfida è sempre stata la produzione. Creare schede in una lingua che non parli richiede servizi di traduzione costosi o traduzioni automatiche inaffidabili. I generatori di schede che supportano più lingue eliminano completamente questa barriera. Le traduzioni sono integrate nel sistema — vocabolario, liste di parole, indizi ed etichette in tutte le 11 lingue supportate — quindi crei contenuti multilingue professionali con lo stesso flusso di lavoro che usi già per l\'inglese.\n\nQuesta guida copre ogni aspetto dell\'attività di stampabili multilingue: quali tipi di generatore producono contenuti specifici per lingua, quali mercati offrono le migliori opportunità, come pubblicare e vendere a livello internazionale su Etsy e Amazon KDP, e come costruire una strategia di catalogo multilingue che si moltiplica nel tempo.\n\nOgni generatore menzionato in questa guida offre una prova gratuita con filigrana, così puoi testare l\'output multilingue in qualsiasi lingua supportata prima di acquistare una licenza commerciale.',

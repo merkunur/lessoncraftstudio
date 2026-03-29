@@ -1,26 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede grafico con immagini per il negozio',
+    primaryKeyword: 'schede di conteggio e grafici gratis',
     secondaryKeywords: [
-      'creatore di pittogrammi per il negozio',
-      'schede conteggio e grafico per bambini',
-      'schede grafici dati per la scuola',
-      'attività grafico con immagini per venditori',
+      'creare schede conteggio gratis online',
+      'generatore pittogrammi stampabili gratis',
+      'schede grafico con immagini senza registrazione',
+      'esercizi conteggio e grafici gratis PDF',
+      'schede rappresentazione dati da stampare gratis',
     ],
     lsiKeywords: [
-      'griglia immagini sparse per contare',
-      'chiave di risposta automatica grafico pittorico',
-      'scheda rappresentazione dati per il negozio',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Schede Grafico con Immagini — per il negozio',
-    metaDescription: 'Crea schede grafico con immagini per il negozio. Griglia 4x5, 6 tipi di icone, chiave di risposta automatica, 11 lingue. Prova gratuita con filigrana.',
+    titleTag: 'Schede di conteggio gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede conteggio e grafici gratis online, senza registrazione. Griglia 4×5, risposte automatiche, 11 lingue, PDF istantaneo. Licenza per vendere.',
     },
 
   hero: {
-    title: 'Creatore di Schede Grafico con Immagini',
+    title: 'Crea Schede di Conteggio e Grafici Gratis',
     tagline: 'Generatore di schede grafico con immagini con griglie di icone sparse, chiave di risposta automatica con grafico a barre, intestazioni localizzate in 11 lingue e 104 collezioni tematiche per schede di rappresentazione dati vendibili in tutto il mondo',
-    description: 'Crea schede professionali con grafico a immagini dove gli utenti contano icone sparse e compilano un grafico a barre sottostante — insegnando raccolta dati e rappresentazione dati in un\'unica attività. Ogni scheda presenta una griglia 4×5 contenente 20 icone di 6 diversi tipi di immagini, ciascun tipo presente da 1 a 5 volte con distribuzione casuale che rende ogni generazione unica. Sotto la griglia, un grafico a barre con 6 colonne × 5 righe etichettate per tipo di immagine e numerate da 1 a 5 offre agli utenti uno spazio strutturato per registrare i conteggi. L\'app genera simultaneamente una chiave di risposta su una scheda canvas separata con celle evidenziate in giallo (#FFC857) che mostrano i conteggi corretti, così i venditori verificano il lavoro degli utenti istantaneamente senza conteggio manuale. Scegli le immagini automaticamente selezionando un tema dal menu a tendina Fonte Immagini — l\'app seleziona casualmente 6 immagini dalla collezione — oppure manualmente sfogliando la Libreria Immagini con oltre 3.100 illustrazioni in 104 collezioni tematiche e cliccando esattamente 6 immagini con striscia di anteprima. Ogni scheda include un\'intestazione auto-generata con titolo localizzato "Grafico con Immagini" e istruzioni di conteggio visualizzate in una pillola gialla stilizzata (#FFD93D) con cornice arancione, adattandosi automaticamente a tutte le 11 lingue supportate. Aggiungi campi nome e data utente con una singola casella di spunta (Fredoka 18px #333). Applica sia temi di sfondo che temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Il Generatore Grafici con Immagini non è sensibile alla lingua — il conteggio visivo utilizza numeri e immagini universali, rendendo le schede identicamente utilizzabili in ogni lingua senza modifiche. Scarica quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI. Esporta in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate con opzione scala di grigi per stampa a risparmio d\'inchiostro. Modifica tutto sul canvas Fabric.js completo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana, larghezza contorno testo 0–10 con granularità a passi di 0,5, annulla/ripristina fino a 20 stati e zoom dal 25% al 300%. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede di conteggio e grafici gratis direttamente nel browser — nessuna registrazione, nessun download. Ogni scheda presenta una griglia 4×5 con 20 icone di 6 tipi diversi sparse casualmente. Sotto la griglia, un grafico a barre con 6 colonne e 5 righe offre spazio strutturato per registrare i conteggi. La chiave di risposta automatica evidenzia le celle corrette in giallo. Scegli le immagini automaticamente da 104 collezioni tematiche o manualmente dalla libreria con oltre 3.100 illustrazioni. Intestazione localizzata in 11 lingue, campi nome e data, sfondi e cornici personalizzabili. Scarica PDF e JPEG a 300 DPI in formato Letter, A4 o quadrato. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

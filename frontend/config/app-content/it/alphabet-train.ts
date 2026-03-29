@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore treno dell\'alfabeto',
+    primaryKeyword: 'schede dell\'alfabeto da vendere su Etsy e KDP',
     secondaryKeywords: [
-      'schede treno dell\'alfabeto stampabili per Etsy',
-      'generatore schede riconoscimento lettere per Amazon KDP',
-      'vendere schede alfabeto su Gumroad',
-      'schede treno dell\'alfabeto licenza commerciale',
+      'creare schede treno dell\'alfabeto per Amazon KDP',
+      'generatore schede lettere stampabili licenza commerciale',
+      'vendere attività alfabeto su Etsy Italia',
+      'schede riconoscimento lettere per business di stampabili',
     ],
     lsiKeywords: [
-      'prodotti digitali di alfabetizzazione per imprenditori',
-      'attività di lettere stampabili per business online',
-      'generatore schede alfabeto per uso commerciale',
+      'prodotti digitali alfabeto mercato italiano Etsy',
+      'nicchia schede lettere per venditori KDP',
+      'stampabili alfabetizzazione uso commerciale Italia',
     ],
-    titleTag: 'Generatore Treno dell\'Alfabeto | Crea e Vendi Schede',
+    titleTag: 'Schede Alfabeto da Vendere su Etsy e KDP | Generatore',
     metaDescription:
-      'Crea schede treno dell\'alfabeto da vendere su Etsy, KDP e Gumroad. Vagoni con lettere e immagini, 11 lingue, 104 temi in PDF. Prova gratuita con filigrana.',
+      'Crea schede dell\'alfabeto da vendere su Etsy e Amazon KDP. Vagoni con lettere, 11 lingue, 104 temi. Licenza commerciale inclusa. Prova gratis.',
   },
 
   hero: {
-    title: 'Generatore di Schede Treno dell\'Alfabeto per la Pratica del Riconoscimento delle Lettere',
+    title: 'Schede dell\'Alfabeto da Vendere su Etsy e Amazon KDP',
     tagline: 'Ogni vagone trasporta una lettera e un\'immagine corrispondente — costruendo il riconoscimento delle lettere vagone dopo vagone.',
     description:
-      'Crea schede treno dell\'alfabeto visivamente accattivanti dove 11 vagoni colorati attraversano la pagina, ciascuno con una lettera abbinata a un\'illustrazione corrispondente. Scegli la modalità Creazione Automatica per una selezione casuale istantanea di lettere oppure la Modalità Manuale per selezionare esattamente 11 lettere dell\'alfabeto per una pratica mirata. Aggiungi da 3 a 11 indizi configurabili per scheda — immagini-indizio che gli utenti abbinano al vagone-lettera corretto — trasformando il riconoscimento passivo delle lettere in un esercizio attivo di problem solving. Esplora oltre 3100 illustrazioni curate in 104 temi per trovare l\'immagine perfetta per ogni lettera. L\'Accesso Completo sblocca tutte le 11 lingue con i rispettivi alfabeti nativi — il tedesco con Ä/Ö/Ü, lo svedese con Å/Ä/Ö, lo spagnolo con la Ñ per 27 lettere e altro ancora — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. L\'alfabeto italiano ha 21 lettere, perfette per schede mirate e compatte. Ogni scheda genera automaticamente un foglio delle risposte, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4 o Quadrato. Che tu venda pacchetti di alfabeto tematici su Etsy, compili libri di alfabetizzazione progressivi per Amazon KDP o crei centri di lettere differenziati per Gumroad, il Generatore Treno dell\'Alfabeto offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede dell\'alfabeto sono tra i prodotti stampabili più venduti su Etsy e Amazon KDP, e il mercato italiano rappresenta un\'opportunità ancora poco sfruttata. Con questo generatore crei schede treno dove 11 vagoni colorati trasportano lettere abbinate a illustrazioni tematiche. L\'alfabeto italiano ha 21 lettere — perfette per schede compatte e mirate che si distinguono dalla concorrenza. Scegli tra creazione automatica o manuale, aggiungi da 3 a 11 indizi configurabili e trasforma il riconoscimento delle lettere in un esercizio attivo. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. L\'Accesso Completo sblocca 11 lingue con alfabeti nativi — tedesco con Ä/Ö/Ü, spagnolo con Ñ — moltiplicando il catalogo per undici da un unico flusso di lavoro. Ogni scheda genera un foglio risposte automatico. Esporta PDF e JPEG a oltre 400 DPI nei formati A4, Lettera o Quadrato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

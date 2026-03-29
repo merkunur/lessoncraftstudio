@@ -2,28 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore di addizione codificata',
+    primaryKeyword: 'creare enigmi matematici con codice segreto da vendere su Etsy',
     secondaryKeywords: [
-      'schede di puzzle matematici stampabili per Etsy',
-      'schede di decifrare codice addizione per Amazon KDP',
-      'generatore di puzzle matematici per venditori Gumroad',
-      'schede di addizione codificata licenza commerciale',
+      'schede addizione codificata per venditori Etsy',
+      'puzzle matematici con codice per Amazon KDP',
+      'enigmi di matematica stampabili licenza commerciale',
+      'generatore addizione codificata per business stampabili',
+      'creare quaderni di enigmi matematici per KDP',
     ],
     lsiKeywords: [
-      'idee di business puzzle educativi stampabili',
-      'vendere puzzle educativi online',
-      'generatore di quaderni di puzzle matematici',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'codice segreto',
+      'parola rivelata',
+      'reddito passivo',
+      'download digitale',
+      'business di stampabili',
+      'scuola primaria',
     ],
-    titleTag: 'Generatore Addizione Codificata | Puzzle Matematici',
+    titleTag: 'Enigmi matematici codificati da vendere | LCS',
     metaDescription:
-      'Crea puzzle di addizione codificata per Etsy, KDP e Gumroad. Parola Rivelata, 104 temi, 11 lingue, chiavi di valore percepito, 400+ DPI. Prova gratuita con filigrana.',
+      'Crea enigmi di addizione codificata da vendere su Etsy e KDP. Modalità Parola Rivelata, 104 temi, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Addizione Codificata — Puzzle Matematici da Decifrare',
+    title: 'Crea e vendi enigmi matematici con codice segreto su Etsy e KDP',
     tagline: 'Trasforma l\'addizione in una missione da detective dove ogni immagine nasconde un numero segreto.',
     description:
-      'Crea schede di addizione di tipo crittaritmetico che sfidano gli utenti a decifrare un codice visivo. Ogni immagine nella scheda rappresenta segretamente un numero specifico — gli utenti risolvono equazioni di addizione per dedurre quale numero corrisponde a ciascuna immagine, combinando fluidità matematica e ragionamento logico in un unico esercizio. Passa alla modalità Parola Rivelata e la sfida si intensifica: scrivi una parola segreta fino a dieci lettere, e ogni equazione risolta correttamente rivela una lettera della risposta, mentre tre lettere distratrici con somme errate mantengono la suspense. Il generatore supporta undici alfabeti specifici per ogni lingua, perciò la modalità Parola Rivelata funziona nativamente in italiano, inglese, tedesco, francese e altre sette lingue — una funzionalità che nessun altro generatore di schede offre. L\'alfabeto italiano include à, è, é, ì, ò, ù e altri caratteri accentati, garantendo che le parole segrete con accenti funzionino in modo naturale. Scegli tra oltre 3100 immagini in 104 temi, configura intervalli numerici da 1 a 20 con da due a cinque simboli-codice per scheda, ed esporta PDF o JPEG pronti per la stampa a oltre 400 DPI con chiavi di valore percepito automatiche. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea enigmi matematici con codice segreto da vendere su Etsy, Amazon KDP o Eduki — un formato unico che nessun altro generatore offre. Ogni immagine nasconde un numero: gli utenti risolvono equazioni di addizione per decifrare il codice visivo, combinando matematica e logica. La modalità Parola Rivelata intensifica la sfida — ogni equazione risolta rivela una lettera della parola segreta, con supporto nativo per l\'alfabeto italiano (à, è, é, ì, ò, ù). Scegli tra oltre 3.100 immagini in 104 temi, configura intervalli numerici da 1 a 20 ed esporta PDF a oltre 400 DPI con soluzioni automatiche e licenza commerciale inclusa. Il mercato italiano degli stampabili educativi su Etsy è praticamente vergine — i puzzle con codice segreto sono una nicchia inesplorata con forte appeal sia per genitori che per insegnanti. Chi entra ora domina una categoria vuota.',
   },
 
   howItWorks: {

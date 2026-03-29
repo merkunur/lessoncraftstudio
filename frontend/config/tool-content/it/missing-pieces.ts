@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schede puzzle pezzi mancanti',
+    primaryKeyword: 'generatore pezzi mancanti gratis',
     secondaryKeywords: [
-      'generatore schede puzzle pezzi mancanti per venditori',
-      'creare puzzle pezzi mancanti da vendere',
-      'generatore puzzle stampabili uso commerciale',
-      'creatore puzzle pezzi mancanti per KDP e Etsy',
+      'creare puzzle pezzi mancanti gratis online',
+      'schede pezzi mancanti stampabili gratis',
+      'generatore puzzle pezzi mancanti senza registrazione',
+      'schede puzzle visivi gratis PDF',
+      'generatore pezzi mancanti gratuito online',
     ],
     lsiKeywords: [
-      'generatore puzzle estrazione intelligente varianza colore',
-      'creatore schede sei forme pezzi mancanti con chiave di risposta',
-      'strumento puzzle pezzi distrattori schede puzzle',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Pezzi Mancanti — Crea Schede Puzzle Visivi',
-    metaDescription: 'Crea schede puzzle pezzi mancanti con 6 forme di pezzo, difficoltà configurabile, estrazione intelligente con pezzi distrattori e 104 temi. Prova gratuita.',
+    titleTag: 'Pezzi mancanti gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede puzzle pezzi mancanti gratis online, senza registrazione. 6 forme, difficoltà configurabile, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Pezzi Mancanti',
+    title: 'Crea Schede Pezzi Mancanti Gratis Online',
     tagline: 'Generatore di schede puzzle con 6 forme di pezzo (quadrato, cerchio, rettangolo verticale/orizzontale, ellisse verticale/orizzontale), 1–5 pezzi mancanti con 2–6 opzioni di risposta inclusi distrattori, estrazione intelligente dei pezzi tramite rilevamento della varianza cromatica e spaziatura minima di 250px, chiavi di risposta auto-generate con etichette numerate evidenziate in giallo, doppia cornice decorativa in verde acqua e rosa acceso, e 104 collezioni di immagini tematiche per schede puzzle pezzi mancanti vendibili in tutto il mondo',
-    description: 'Crea schede puzzle professionali dove un\'immagine presenta buchi ritagliati e gli utenti identificano quale opzione numerata riempie ogni spazio vuoto. L\'algoritmo di estrazione intelligente dei pezzi effettua fino a 150 tentativi di posizionamento per trovare pezzi con sufficiente varianza cromatica (varianza minima di luminosità di 15), mantenendo almeno 250 pixel di distanza tra i pezzi per prevenire sovrapposizioni. La dimensione del pezzo è calcolata come il 12% della larghezza dell\'immagine con un minimo di 50 pixel. Scegli tra 6 forme di pezzo che cambiano il carattere visivo di ogni puzzle: quadrato (predefinito) e cerchio offrono tagli geometrici puliti, rettangolo verticale (80% larghezza, 100% altezza) e rettangolo orizzontale (100% larghezza, 80% altezza) creano buchi allungati, mentre ellisse verticale e ellisse orizzontale forniscono tagli curvi più morbidi con le stesse proporzioni dimensionali. Configura la difficoltà con due controlli indipendenti: imposta 1–5 pezzi mancanti per controllare quanti buchi appaiono nell\'immagine, e imposta 2–6 opzioni di risposta per controllare quante scelte numerate gli utenti valutano. Quando le opzioni superano i pezzi mancanti, le opzioni extra sono pezzi distrattori — estratti da aree non sovrapposte della stessa immagine con fino a 200 tentativi di posizionamento ciascuno. I distrattori impediscono agli utenti di risolvere per eliminazione, forzando un\'attenta comparazione visiva di colori, motivi e dettagli. Il sistema a doppio canvas genera simultaneamente sia una scheda di lavoro che una chiave di risposta. La chiave di risposta mostra la stessa immagine puzzle con i buchi e posiziona etichette numerate evidenziate in giallo (rgba(255,255,0,0.7)) all\'interno di ogni buco indicando l\'indice corretto dell\'opzione (basato su 1). La dimensione del carattere scala al 60% della dimensione del pezzo per una chiara leggibilità. Un\'intestazione auto-generata mostra "Pezzi Mancanti" in turchese (#06B6D4) con una descrizione in rosa (#DB2777) attraverso un sistema a doppia cornice — cornice esterna in verde acqua (#14B8A6, tratto 8px, margini 34px, raggio 12px) e cornice interna in rosa acceso (#EC4899, tratto 3px, margini 46.5px, raggio 8px, offset 2px a destra e 3px in basso). Pezzi Mancanti NON è sensibile alla lingua — i puzzle sono puramente visivi senza contenuto dipendente dalla lingua nella scheda stessa, rendendo ogni puzzle vendibile universalmente in tutti i mercati senza traduzione. L\'unico elemento localizzato è il testo dell\'intestazione, tradotto in tutte le 11 lingue supportate. I layout verticali posizionano l\'immagine puzzle in alto con le opzioni sotto in una riga orizzontale (75% della dimensione massima); i layout orizzontali dividono la vista 50/50 con le opzioni sul lato destro. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni colorate oppure carica le tue immagini PNG, JPG o GIF. Applica temi di sfondo e temi di cornice con cursori di opacità indipendenti (0–1, passo 0,05). Aggiungi testo personalizzato con 7 opzioni di carattere (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Esporta quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Scegli tra Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate con un\'opzione scala di grigi per stampe economiche. Modifica tutto sul canvas Fabric.js con 6 opzioni di allineamento più centratura sulla pagina, livelli, blocco/sblocco, zoom 25%–300% in incrementi del 25%, e annulla/ripristina fino a 50 stati. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede puzzle pezzi mancanti gratis, direttamente nel browser, senza registrazione e senza installare nulla. Un\'immagine presenta buchi ritagliati e gli utenti identificano quale opzione numerata riempie ogni spazio vuoto. Scegli tra 6 forme di pezzo (quadrato, cerchio, rettangolo, ellisse) e configura la difficoltà con 1–5 pezzi mancanti e 2–6 opzioni di risposta inclusi pezzi distrattori. L\'algoritmo di estrazione intelligente trova pezzi con sufficiente varianza cromatica. Il doppio canvas genera simultaneamente la scheda e la chiave di risposta. I puzzle sono puramente visivi — vendibili universalmente senza traduzione. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere i tuoi puzzle su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

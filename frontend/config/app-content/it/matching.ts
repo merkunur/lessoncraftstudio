@@ -2,28 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede di abbinamento',
+    primaryKeyword: 'schede di abbinamento da creare e vendere su Etsy',
     secondaryKeywords: [
-      'generatore di schede di abbinamento stampabili per venditori Etsy',
-      'creatore di schede collega con linee per editori Amazon KDP',
-      'generatore di schede di abbinamento con licenza commerciale',
-      'vendere schede di abbinamento stampabili su Gumroad',
+      'generatore schede collega con linee per negozio Etsy',
+      'creare schede di abbinamento per quaderni Amazon KDP',
+      'schede di abbinamento stampabili licenza commerciale',
+      'vendere attività di collegamento su Eduki',
+      'business schede matching stampabili online',
     ],
     lsiKeywords: [
-      'prodotti digitali schede di abbinamento per imprenditori',
-      'generatore di schede di abbinamento uso commerciale',
-      'attività di abbinamento stampabili per business online',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'foglio risposte automatico',
+      'abbinamento immagini',
+      'business di stampabili',
+      'collega con linee',
     ],
-    titleTag: 'Generatore Schede di Abbinamento | Crea e Vendi Online',
+    titleTag: 'Schede di abbinamento da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede di abbinamento per Etsy, KDP e Gumroad. Quattro modalità di abbinamento, foglio risposte automatico, 104 temi, coppie configurabili. Prova gratuita.',
+      'Crea schede di abbinamento professionali da vendere su Etsy e KDP. 4 modalità, risposte automatiche, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Abbinamento per Attività di Collegamento con Linee',
+    title: 'Crea schede di abbinamento da vendere su Etsy e KDP',
     tagline: 'Quattro modalità di abbinamento in un unico generatore — Lettera Iniziale, Immagine+Parola, Immagine/Parola Misto e Parola Personalizzata — con fogli risposte generati automaticamente, numero di coppie configurabile e intestazione localizzata \"Collega!\" in 104 collezioni di immagini tematiche.',
     description:
-      'Crea schede di abbinamento professionali dove gli utenti collegano le coppie tracciando linee tra due colonne. Scegli tra quattro modalità di abbinamento distinte: Immagine ↔ Lettera Iniziale abbina le immagini con la loro prima lettera, Immagine+Parola ↔ Immagine+Parola accoppia immagini con didascalia su entrambi i lati, Immagine/Parola ↔ Immagine/Parola Misto mescola immagini e parole per riga con menu a tendina, e Immagine ↔ Parola Personalizzata ti permette di scrivere i tuoi termini di abbinamento. Configura 4, 5 o 6 coppie per scheda e attiva o disattiva i numeri degli elementi e i punti decorativi per una formattazione pulita. Ogni scheda include un\'intestazione localizzata \"Collega!\" generata automaticamente, con titolo e istruzioni nelle 11 lingue supportate. Il sistema a doppio canvas genera sia una scheda di lavoro sia un foglio risposte — il foglio risposte traccia linee di collegamento tra le corrispondenze corrette, senza alcun lavoro manuale da parte tua. Il Generatore di Schede di Abbinamento è sensibile alla lingua: le modalità Lettera Iniziale e Immagine+Parola usano i nomi localizzati delle immagini, quindi cambiare lingua modifica le parole e le prime lettere nella scheda. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia per contenuti testuali localizzati. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi campi nome e data, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti di attività di abbinamento su Etsy, compili quaderni di alfabetizzazione iniziale per Amazon KDP o crei schede per centri di abbinamento su Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede di abbinamento sono tra i prodotti stampabili più venduti su Etsy, eppure il mercato italiano è ancora quasi vuoto: un\'opportunità concreta per chi vuole avviare un business di stampabili educativi. Questo generatore ti permette di creare schede di abbinamento professionali in pochi minuti, pronte per la vendita. Quattro modalità — Lettera Iniziale, Immagine+Parola, Misto e Parola Personalizzata — ti consentono di costruire varianti infinite per ogni tema e fascia d\'età. Il foglio risposte viene generato automaticamente, risparmiandoti ore di lavoro manuale. Configura 4, 5 o 6 coppie, personalizza sfondo e bordi, ed esporta in PDF a 300 DPI nei formati Letter, A4 o personalizzati. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue per moltiplicare il tuo catalogo. Ideale per Etsy, Amazon KDP ed Eduki. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

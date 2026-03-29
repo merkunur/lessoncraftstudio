@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede di sequenze pattern',
+    primaryKeyword: 'schede riconoscimento pattern per venditori Etsy',
     secondaryKeywords: [
-      'generatore di schede di pattern stampabili per venditori Etsy',
-      'creatore di schede di riconoscimento sequenze per Amazon KDP',
-      'vendere schede di completamento pattern su Gumroad',
-      'generatore di schede di pattern licenza commerciale',
+      'creare schede completamento sequenze da vendere su KDP',
+      'generatore schede pattern stampabili licenza commerciale',
+      'vendere schede di logica visiva su Etsy Italia',
+      'schede sequenze a griglia per business online stampabili',
     ],
     lsiKeywords: [
-      'prodotti digitali schede di sequenze logiche per imprenditori',
-      'schede di riconoscimento pattern stampabili uso commerciale',
-      'generatore di schede di pattern nove tipi di sequenze',
+      'prodotti digitali schede pattern mercato italiano',
+      'nicchia schede logica visiva venditori Etsy e KDP',
+      'stampabili completamento sequenze uso commerciale',
     ],
-    titleTag: 'Generatore Schede di Sequenze Pattern | Crea e Vendi',
+    titleTag: 'Schede Pattern per Venditori Etsy | Crea e Vendi',
     metaDescription:
-      'Crea schede di pattern per Etsy, KDP e Gumroad. Nove tipi di pattern, due modalità di domanda, config per esercizio, 104 temi. Prova gratuita con filigrana.',
+      'Crea schede di riconoscimento pattern da vendere su Etsy e KDP. 9 tipi di sequenze, scelta multipla, 104 temi. Licenza commerciale. Prova gratis.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Pattern per Esercizi di Completamento Sequenze a Griglia',
+    title: 'Schede di Riconoscimento Pattern per Venditori Etsy e KDP',
     tagline: 'Nove tipi di pattern da AB ad ABCD — due modalità di domanda (casella vuota e scelta multipla) — con configurazione indipendente per esercizio per il tipo di pattern, la modalità di domanda e il tema in ogni pagina.',
     description:
-      'Crea schede professionali di completamento pattern dove gli utenti identificano sequenze ripetitive e completano l\'elemento mancante — oppure scelgono la risposta corretta tra opzioni multiple. Nove tipi di pattern distinti coprono tutti i livelli di complessità delle sequenze: AB alterna due elementi, AAB e ABB introducono raggruppamenti asimmetrici, ABC ruota tre elementi, AABB accoppia due di ciascuno, ABBC e AABC aggiungono pattern asimmetrici di tre immagini, ABCC estende con terminazioni doppie, e ABCD ruota quattro elementi diversi per la massima sfida. Due modalità di domanda creano esercizi fondamentalmente diversi da ogni tipo di pattern: Casella Vuota sostituisce un elemento con uno spazio vuoto che gli utenti devono riempire, mentre Scelta Multipla presenta lo spazio vuoto accompagnato da tre risposte possibili con una corretta e due distrattori. Configura da 1 a 8 esercizi per pagina con ogni esercizio parametrizzato indipendentemente per tipo di pattern, modalità di domanda e tema — una stessa pagina può combinare un esercizio AB in casella vuota con un esercizio ABCD in scelta multipla. Attiva l\'Inizio Casuale per iniziare i pattern a metà ciclo e la Posizione Casuale dello Spazio Vuoto per collocare l\'elemento mancante in qualsiasi punto della sequenza per maggiore difficoltà. Il contenuto proviene dalla Libreria Immagini integrata con oltre 3100 illustrazioni in 104 temi. Una scheda risposte separata mostra tutte le caselle vuote riempite con gli elementi corretti del pattern per la verifica istantanea. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF e JPEG pronti per la stampa in alta risoluzione nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Ogni scheda è completamente visiva con solo immagini in righe a griglia e zero testo nell\'output, rendendo i prodotti universalmente vendibili senza traduzione. Che tu crei pacchetti di riconoscimento pattern su Etsy, compili quaderni di apprendimento precoce per Amazon KDP o costruisca centri visivi differenziati per Gumroad, il Generatore di Schede di Pattern offre la maggiore varietà di esercizi di pattern disponibile — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Il riconoscimento di pattern è una competenza fondamentale molto richiesta da genitori e scuole, ma su Etsy e Amazon KDP il mercato italiano è quasi inesplorato. Con questo generatore crei schede professionali con nove tipi di sequenze — da AB semplice ad ABCD avanzato — e due modalità di domanda: casella vuota per il completamento e scelta multipla con distrattori. Ogni esercizio è configurabile indipendentemente per tipo di pattern, modalità e tema, permettendo di creare prodotti differenziati con infinite varianti. Configura da 1 a 8 esercizi per pagina e attiva l\'inizio casuale o la posizione casuale dello spazio vuoto per aumentare la difficoltà. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. Ogni scheda include un foglio risposte e l\'output è puramente visivo — vendibile in tutto il mondo senza traduzione. Esporta PDF e JPEG in alta risoluzione nei formati A4, Lettera o personalizzato. Vendi pacchetti di pattern su Etsy, compila quaderni di logica per Amazon KDP, o distribuisci su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

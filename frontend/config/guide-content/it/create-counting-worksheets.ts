@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede conteggio e grafici',
+    primaryKeyword: 'creare schede di conteggio da vendere su Etsy',
     secondaryKeywords: [
-      'generatore schede grafici per immagini',
-      'creare schede conteggio e grafici stampabili',
-      'schede stampabili grafici per immagini da vendere',
-      'generatore schede conteggio con grafici a barre',
+      'schede conteggio e grafici stampabili per Etsy e KDP',
+      'generatore schede grafici per immagini uso commerciale',
+      'vendere schede conteggio con grafici a barre online',
+      'creare schede rappresentazione dati con licenza commerciale',
+      'schede grafici per immagini da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'attività conteggio su griglia di immagini sparse',
-      'scheda grafici con chiave di risposta automatica',
-      'strumento rappresentazione dati doppio canvas',
-      'vendere schede grafici su Etsy',
-      'quaderni competenze dati Amazon KDP',
-      'generatore grafici per immagini con licenza commerciale',
+      'griglia 4x5 immagini sparse con grafici a barre',
+      'chiavi di risposta automatiche doppio canvas',
+      'prodotti stampabili competenze dati per venditori',
+      'schede conteggio indipendenti dalla lingua marketplace',
     ],
-    titleTag: 'Creare Schede di Conteggio e Grafici | Guida Completa',
-    metaDescription: 'Come creare schede di conteggio con grafici per immagini, chiavi di risposta automatiche e 104 temi. Guida passo passo per vendere stampabili su Etsy e KDP.',
+    titleTag: 'Schede di conteggio da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di conteggio con grafici per immagini, chiavi di risposta automatiche e 104 temi. Esporta PDF per vendere su Etsy, Amazon KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di Conteggio e Grafici',
+    title: 'Schede di conteggio e grafici da vendere online',
     tagline: 'Tutorial passo passo per creare schede di grafici per immagini con griglie di immagini sparse, chiavi di risposta auto-generate e grafici a barre — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
-    description: 'Le schede di conteggio e grafici insegnano due competenze matematiche fondamentali in un\'unica attività: la raccolta dati (contare immagini sparse) e la rappresentazione dei dati (compilare un grafico a barre). Questo formato a doppia competenza è uno standard curricolare nei negozi elementari di tutto il mondo, creando una domanda costante tutto l\'anno su ogni marketplace. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore Schede Grafici e Conteggio — dalla scelta delle immagini e la generazione della griglia sparsa alla revisione della chiave di risposta auto-generata e l\'esportazione di file pronti per la stampa. Che tu stia lanciando il tuo primo prodotto di competenze dati o espandendo un catalogo esistente di schede matematiche, avrai una scheda di grafici per immagini finita con la sua chiave di risposta corrispondente pronta per la pubblicazione alla fine di questo tutorial.',
+    description: 'Le schede di conteggio con grafici per immagini insegnano due competenze matematiche fondamentali in un\'unica attività: raccolta dati (contare immagini sparse) e rappresentazione dati (compilare un grafico a barre). Questo formato a doppia competenza è uno standard curricolare nelle scuole elementari di tutto il mondo, con una domanda costante e sostenuta. Il grande vantaggio per i venditori è che il conteggio visivo usa numeri e immagini universali — gli stessi file si vendono in qualsiasi paese senza traduzione. Il sistema a doppio canvas genera automaticamente scheda e chiave di risposta simultaneamente, eliminando il passaggio più dispendioso nella produzione di bundle. Con 104 temi disponibili e una distribuzione casuale che rende ogni generazione unica, puoi produrre centinaia di schede diverse rapidamente. Questa guida ti mostra come usare il Generatore Schede Grafici e Conteggio per creare prodotti professionali pronti per Etsy, Amazon KDP e Gumroad. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite con chiavi di risposta pronte per la pubblicazione.',
   },
 
   introduction: 'I grafici per immagini sono una delle prime competenze di rappresentazione dati che i bambini imparano. A partire dalla scuola dell\'infanzia, gli utenti si esercitano a contare oggetti e registrare i risultati in semplici grafici — una competenza che viene rinforzata fino alla seconda elementare e oltre. Questa finestra curricolare pluriennale crea una domanda costante sul mercato per schede di grafici per immagini e conteggio su più livelli scolastici.\n\nCiò che rende le schede di conteggio e grafici particolarmente forti come prodotto stampabile è la loro natura a doppia competenza. Ogni scheda richiede agli utenti di contare immagini sparse (raccolta dati) e poi compilare un grafico a barre (rappresentazione dei dati). i venditori apprezzano le attività che coprono due obiettivi di apprendimento contemporaneamente perché massimizzano il tempo didattico. Genitori e tutor apprezzano il formato visivo e pratico che rende concreti i concetti matematici astratti.\n\nIl Generatore Schede Grafici e Conteggio gestisce la complessità tecnica al posto tuo. Genera una griglia 4×5 di immagini sparse contenente 20 icone da 6 tipi diversi di immagini, ciascuno che appare da 1 a 5 volte in una distribuzione casuale che rende ogni generazione unica. Sotto la griglia, un grafico a barre strutturato a 6 colonne × 5 righe offre agli utenti uno spazio chiaro per registrare i loro conteggi. L\'app produce simultaneamente una chiave di risposta su una scheda canvas separata con celle evidenziate in giallo che mostrano i conteggi corretti — nessun conteggio manuale, nessun passaggio di creazione separato.\n\nTu ti concentri sulla strategia di prodotto — quali temi usare, come creare bundle, quali marketplace targettizzare — mentre il generatore gestisce layout, logica di distribuzione, accuratezza della chiave di risposta e formattazione per la stampa. Tutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede campione, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore più o meno',
+    primaryKeyword: 'schede maggiore e minore da vendere su Etsy',
     secondaryKeywords: [
-      'schede più o meno stampabili per Etsy',
-      'generatore schede confronto quantità per Amazon KDP',
-      'vendere schede maggiore minore su Gumroad',
-      'schede di confronto licenza commerciale',
+      'creare schede più o meno per Amazon KDP',
+      'vendere schede confronto quantità su Etsy Italia',
+      'generatore schede maggiore minore licenza commerciale',
+      'schede più o meno per business di stampabili online',
     ],
     lsiKeywords: [
-      'prodotti digitali confronto quantità',
-      'business schede stampabili senso numerico',
-      'generatore schede confronto uso commerciale',
+      'prodotti digitali schede confronto mercato italiano',
+      'nicchia schede senso numerico venditori Etsy e KDP',
+      'stampabili maggiore minore uso commerciale Italia',
     ],
-    titleTag: 'Generatore Schede Più o Meno | Crea e Vendi Stampabili',
+    titleTag: 'Schede Maggiore e Minore per Etsy | Crea e Vendi',
     metaDescription:
-      'Crea schede di confronto quantità da vendere su Etsy, KDP e Gumroad. 3 modalità di esercizio, 104 temi, soluzioni incluse, 400+ DPI. Prova gratuita con filigrana.',
+      'Crea schede maggiore e minore da vendere su Etsy e KDP. 3 modalità di esercizio, 104 temi, soluzioni incluse, 400+ DPI. Licenza commerciale. Prova gratis.',
   },
 
   hero: {
-    title: 'Generatore di Schede Più o Meno per il Confronto Visivo dei Numeri',
+    title: 'Schede Maggiore e Minore da Vendere su Etsy e KDP',
     tagline: 'Trasforma il confronto dei numeri in una scoperta visiva con schede illustrate di maggiore e minore.',
     description:
-      'Crea schede di confronto accattivanti che insegnano agli utenti a identificare quale gruppo ha di più, quale ha di meno e quando due gruppi sono uguali. Scegli tra tre modalità di esercizio distinte — Immagine contro Immagine, Immagine contro Numero e l\'esclusiva modalità Segna e Cancella Gruppi, dove gli utenti analizzano riquadri di immagini miste per trovare il gruppo maggioritario. Alterna tra confronti con immagini uguali e diverse, scegli tra simboli illustrati e simboli matematici standard, e seleziona tra oltre 3100 immagini in 104 temi. Ogni scheda genera una soluzione automatica, e puoi esportare PDF pronti per la stampa in formato Letter, A4 o personalizzato a oltre 400 DPI. Che tu venda pacchetti tematici su Etsy, compili libri di attività di confronto su Amazon KDP o crei centri differenziati per il tuo catalogo, il Generatore Più o Meno produce risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede di confronto maggiore e minore sono essenziali per lo sviluppo del senso numerico, e il mercato italiano su Etsy e Amazon KDP è ancora un terreno vergine per i venditori di stampabili. Con questo generatore crei schede professionali con tre modalità di esercizio: Immagine contro Immagine, Immagine contro Numero e l\'esclusiva modalità Segna e Cancella Gruppi, dove gli utenti analizzano riquadri misti per trovare il gruppo maggioritario. Alterna tra immagini uguali e diverse, scegli tra simboli illustrati e matematici standard, e seleziona tra oltre 3100 illustrazioni in 104 temi. Ogni scheda genera automaticamente un foglio soluzioni. La varietà di modalità permette di creare pacchetti differenziati che si distinguono dalla concorrenza. Esporta PDF e JPEG a oltre 400 DPI nei formati A4, Lettera o personalizzato. Crea pacchetti tematici per Etsy, compila libri di attività per Amazon KDP, o vendi su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

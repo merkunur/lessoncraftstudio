@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede labirinto con immagini',
+    primaryKeyword: 'generatore labirinti illustrati gratis',
     secondaryKeywords: [
-      'generatore labirinti con immagini per venditori',
-      'creare schede percorso con immagini da vendere',
-      'creatore labirinti stampabili uso commerciale',
-      'generatore schede labirinto per KDP ed Etsy',
+      'creare labirinti con immagini gratis online',
+      'schede labirinto stampabili gratis',
+      'generatore percorso immagini senza registrazione',
+      'labirinti illustrati gratis PDF',
+      'generatore schede labirinto gratuito online',
     ],
     lsiKeywords: [
-      'tre modalità di gioco percorso immagini labirinto negozico scegli il percorso',
-      'algoritmo LPF percorso più lungo per primo creatore labirinti con muri',
-      'chiave di risposta automatica cerchi rosa percorso soluzione labirinto',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Percorso Immagini | Schede Labirinto Maker',
-    metaDescription: 'Crea schede labirinto con tre modalità di gioco, cinque ruoli immagine, collezionabili e chiavi di risposta con cerchi rosa. Prova gratuita con filigrana.',
+    titleTag: 'Labirinti illustrati gratis online | LessonCraftStudio',
+    metaDescription: 'Crea labirinti illustrati gratis online, senza registrazione. Tre modalità di gioco, cinque ruoli immagine, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Percorso con Immagini',
+    title: 'Crea Labirinti Illustrati Gratis Online',
     tagline: 'Generatore di schede labirinto con tre modalità: Percorso con Immagini (griglia di immagini da seguire), Labirinto negozico (algoritmo LPF con muri, collezionabili e blocco dei vicoli ciechi) e Scegli il Percorso Giusto (labirinti direzionali a tre percorsi), cinque ruoli immagine (Inizio, Fine, Percorso, Distrattore, Decorazione), design dei muri personalizzabile con controlli colore/spessore/opacità, chiavi di risposta generate automaticamente con cerchi rosa lungo il percorso soluzione e legende dei collezionabili, e labirinti interamente visivi vendibili in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali di labirinti e percorsi con tre modalità di gioco distinte in un unico generatore. Percorso con Immagini crea una griglia di immagini dove gli utenti seguono il percorso corretto dall\'inizio alla fine identificando le immagini del percorso tra i distrattori — ideale per i più piccoli e per attività di discriminazione visiva. Labirinto negozico genera labirinti con muri utilizzando l\'algoritmo LPF (Percorso Più Lungo Per Primo) con un sistema di corridoi-celle e posizionamento dinamico dei muri. Il punteggio di qualità valuta curve, lunghezza e blocchi per garantire labirinti impegnativi ma risolvibili. Configura le dimensioni della griglia da 15×15 a 20×20, imposta da 1 a 3 percorsi con blocco automatico dei vicoli ciechi, e personalizza colore dei muri (qualsiasi colore tramite selettore), spessore (1–10px, predefinito 3px) e opacità (10–100%, predefinito 100%). Immagini collezionabili disseminate nei corridoi del Labirinto negozico — configura 1–4 tipi di immagini collezionabili, 1–3 copie minime e 1–10 copie massime per tipo. Scegli il Percorso Giusto presenta labirinti a tre percorsi con quattro opzioni direzionali (dal basso verso l\'alto, dall\'alto verso il basso, da sinistra a destra, da destra a sinistra) dove gli utenti identificano l\'unica rotta corretta tra le alternative. Assegna immagini a cinque ruoli distinti: Immagine Inizio (punto di partenza), Immagine Fine (destinazione — 1 per Percorso/Labirinto, 3 per Scegli il Percorso), Immagini Percorso (indicatori del percorso corretto o collezionabili), Immagini Distrattore (riempimento celle non-percorso) e Decorazione (posizionamento libero sulla tela). Ogni modalità genera una chiave di risposta su una scheda separata — i percorsi soluzione sono evidenziati con cerchi rosa lungo la rotta corretta. La modalità Scegli il Percorso aggiunge un\'etichetta "✓ PERCORSO CORRETTO" che identifica la rotta vincente. Il Labirinto negozico include una legenda dei collezionabili con ogni immagine e il suo conteggio lungo il percorso soluzione. L\'intestazione "Percorso con Immagini" generata automaticamente presenta un bordo esterno arancione (tratto 8px) con margini di 34px, titolo localizzato e istruzioni "Segui il percorso" in tutte le 11 lingue supportate. Le schede in formato verticale mostrano un\'intestazione di 240px; il formato orizzontale usa un layout compatto di 165px. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica immagini personalizzate PNG, JPG o GIF. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, intervallo 0,05). Aggiungi testo personalizzato con 7 opzioni di carattere (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Attiva i campi nome e data per l\'identificazione degli utenti. Esporta PDF e JPEG pronti per la stampa a 300 DPI (moltiplicatore 6×) nei formati Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per stampe a risparmio d\'inchiostro. Modifica sulla tela Fabric.js con 6 opzioni di allineamento più centratura nella pagina, livelli, blocco/sblocco, zoom 25%–300% con incrementi del 25% e annulla/ripristina 20 stati. I labirinti con percorso di immagini sono interamente visivi — non richiedono lettura né comprensione linguistica, rendendo ogni scheda vendibile istantaneamente in qualsiasi mercato nel mondo. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea labirinti illustrati gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre tre modalità: Percorso con Immagini per griglie visive, Labirinto classico con algoritmo LPF e muri personalizzabili, e Scegli il Percorso Giusto con tre alternative direzionali. Assegna immagini a cinque ruoli (inizio, fine, percorso, distrattore, decorazione) e configura collezionabili nei corridoi del labirinto. Ogni modalità genera automaticamente la chiave di risposta con cerchi rosa lungo la soluzione. I labirinti sono interamente visivi — vendibili universalmente senza traduzione. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

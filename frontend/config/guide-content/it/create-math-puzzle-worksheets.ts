@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede puzzle matematici',
+    primaryKeyword: 'creare puzzle di matematica da vendere',
     secondaryKeywords: [
-      'generatore puzzle matematici per bambini',
-      'puzzle matematici ricostruzione immagine stampabili',
-      'schede puzzle matematici da vendere',
-      'puzzle matematici a griglia per bambini',
+      'puzzle matematici stampabili per Etsy e KDP',
+      'generatore puzzle matematici uso commerciale',
+      'vendere schede puzzle matematici con immagini',
+      'creare puzzle ricostruzione immagine da vendere',
+      'schede puzzle matematici tematici per Gumroad',
     ],
     lsiKeywords: [
-      'puzzle immagine attività matematica',
-      'risolvere equazioni ricomporre immagine',
-      'puzzle matematici visivi età prescolare scuola dell\'infanzia',
-      'vendere puzzle matematici su Etsy',
-      'libri puzzle matematici Amazon KDP',
-      'generatore puzzle licenza commerciale',
+      'puzzle immagine ricostruzione con equazioni',
+      'prodotti stampabili puzzle matematica per venditori',
+      'griglie 2x2 3x3 4x4 puzzle matematici',
+      'schede matematica formato innovativo marketplace',
     ],
-    titleTag: 'Creare Schede Puzzle Matematici — Guida Passo Passo',
-    metaDescription: 'Come creare schede puzzle matematici dove i bambini risolvono equazioni per ricomporre immagini. Griglie, operazioni e consigli per vendere su Etsy e KDP.',
+    titleTag: 'Puzzle di matematica da vendere | LessonCraftStudio',
+    metaDescription: 'Crea puzzle matematici dove si risolvono equazioni per ricomporre immagini. Griglie configurabili e PDF pronti per vendere su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede Puzzle Matematici',
+    title: 'Puzzle di matematica da vendere: guida completa',
     tagline: 'Tutorial passo passo per creare puzzle matematici con ricostruzione dell\'immagine dove i bambini risolvono equazioni per ricomporre figure — pronti per la vendita su Etsy, Amazon KDP e Gumroad',
-    description: 'Le schede puzzle matematici combinano l\'esercizio di matematica con il brivido di risolvere un puzzle visivo. Una singola immagine viene divisa in pezzi della griglia, ogni pezzo riceve un\'equazione matematica, e i bambini risolvono le equazioni per capire dove va ogni pezzo e ricomporre l\'immagine. Questo formato trasforma il noioso esercizio di matematica in un gioco coinvolgente che i bambini vogliono davvero completare. Questa guida ti accompagna nella creazione di schede puzzle matematici usando il Generatore di Puzzle Matematici — dalla scelta dei temi e delle dimensioni della griglia all\'esportazione di PDF pronti per la stampa con fogli risposte automatici. Che tu stia lanciando il tuo primo prodotto stampabile o aggiungendo un formato unico a un catalogo esistente di schede di matematica, avrai puzzle finiti pronti per la pubblicazione entro la fine di questo tutorial.',
+    description: 'I puzzle matematici con ricostruzione dell\'immagine offrono un formato innovativo che si distingue immediatamente dalle schede tradizionali nei risultati di ricerca dei marketplace. Il mercato italiano dei stampabili educativi cerca prodotti che combinino esercizio matematico e coinvolgimento visivo, e questo formato risponde perfettamente a quella domanda. Un\'immagine viene divisa in pezzi, ogni pezzo riceve un\'equazione, e risolvendo le equazioni si ricompone l\'immagine. Questa guida ti mostra come usare il Generatore di Puzzle Matematici per creare prodotti professionali — dalla scelta dei temi e delle dimensioni della griglia (2x2, 3x3, 4x4) alla configurazione delle operazioni e all\'esportazione di PDF con fogli risposte automatici. Poiché i puzzle usano numeri e immagini senza testo, ogni prodotto funziona per acquirenti di qualsiasi paese senza traduzione. Che tu stia lanciando il tuo primo prodotto o diversificando un catalogo esistente, avrai puzzle finiti pronti per la pubblicazione.',
   },
 
   introduction: 'Le schede standard di addizione e sottrazione sono essenziali, ma seguono tutte lo stesso formato: una lista di equazioni su una pagina. Le schede puzzle matematici rompono completamente quello schema. Invece di righe di problemi, i bambini vedono una griglia di pezzi di immagine mescolati insieme a espressioni matematiche. Risolvere ogni equazione rivela un numero che indica al bambino dove quel pezzo appartiene nell\'immagine ricostruita. La ricompensa non è solo una risposta corretta — è un\'immagine completata.\n\nQuesto formato sfrutta qualcosa di potente: i bambini che resistono ai tradizionali esercizi di matematica lavoreranno con entusiasmo sulle stesse equazioni quando c\'è un puzzle coinvolto. La soddisfazione visiva di vedere l\'immagine prendere forma crea una motivazione intrinseca che le semplici schede non possono eguagliare. Per i venditori di stampabili, questo si traduce direttamente in differenziazione sul marketplace. Gli acquirenti che scorrono pagine di schede di matematica identiche si fermano quando vedono un prodotto che appare fondamentalmente diverso.\n\nIl Generatore di Puzzle Matematici gestisce tutta la complessità tecnica. Divide qualsiasi immagine tematica in pezzi della griglia (2x2, 3x3 o 4x4), genera equazioni matematiche appropriate per ogni cella, mescola i pezzi con etichette numerate e produce sia la scheda puzzle che un foglio risposte completo. Tu configuri la dimensione della griglia, l\'operazione matematica e il tema — il generatore gestisce layout, accuratezza delle equazioni e formattazione per la stampa.\n\nPoiché i puzzle matematici usano numeri e immagini piuttosto che parole, il contenuto del puzzle è indipendente dalla lingua. I numeri sono universali. Questo significa che un singolo prodotto puzzle funziona per acquirenti in qualsiasi paese senza traduzione, semplificando significativamente le vendite internazionali.\n\nTutte le funzionalità descritte in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare puzzle di esempio, testare ogni combinazione di dimensione griglia e operazione, e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

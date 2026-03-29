@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede trova l\'intruso',
+    primaryKeyword: 'schede trova l\'intruso da vendere su Etsy e KDP',
     secondaryKeywords: [
-      'creatore di schede trova il diverso stampabili per venditori Etsy',
-      'generatore di schede di discriminazione visiva per editori Amazon KDP',
-      'creatore di puzzle trova l\'intruso con licenza commerciale',
-      'vendere schede trova l\'intruso su Gumroad',
+      'creare puzzle trova il diverso per Amazon KDP',
+      'vendere schede discriminazione visiva su Etsy Italia',
+      'generatore trova l\'intruso licenza commerciale stampabili',
+      'schede trova l\'intruso per business di stampabili online',
     ],
     lsiKeywords: [
-      'prodotti digitali di schede trova l\'intruso per imprenditori',
-      'generatore di schede di discriminazione visiva uso commerciale',
-      'puzzle trova il diverso stampabili per business online',
+      'prodotti digitali trova l\'intruso mercato italiano',
+      'nicchia puzzle visivi venditori Etsy e KDP Italia',
+      'stampabili trova il diverso uso commerciale',
     ],
-    titleTag: 'Generatore Schede Trova l\'Intruso | Creare e Vendere',
-    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy, KDP e Gumroad. Due modalità, foglio risposte con cerchi rossi, 104 temi illustrati. Prova gratuita con filigrana.',
+    titleTag: 'Trova l\'Intruso da Vendere su Etsy e KDP | Generatore',
+    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy e KDP. Due modalità, risposte con cerchi rossi, 104 temi. Licenza commerciale inclusa. Prova gratis.',
   },
 
   hero: {
-    title: 'Generatore di Schede Trova l\'Intruso per Puzzle di Discriminazione Visiva',
+    title: 'Schede Trova l\'Intruso da Vendere su Etsy e Amazon KDP',
     tagline: 'Due modalità di generazione — Identica e Simile — con sostituzione per esercizio, da 3 a 8 esercizi configurabili, fogli risposte autogenerati con marcatori a cerchio rosso e puzzle puramente visivi che funzionano in tutte le 11 lingue senza traduzione.',
     description:
-      'Crea schede professionali trova il diverso dove gli utenti identificano e cerchiano l\'elemento intruso in ogni riga di quattro immagini. Scegli tra due modalità di generazione: la modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema per sfide di individuazione della differenza, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B per puzzle di discriminazione tra categorie. Sostituisci la modalità per esercizio per mescolare livelli di difficoltà in un\'unica scheda. Configura da 3 a 8 esercizi per pagina con un valore predefinito di 6, e attiva o disattiva i campi opzionali di nome e data e i numeri di esercizio per un formato pronto per il negozio. Ogni scheda genera un foglio risposte complementare in una scheda canvas separata — il foglio risposte traccia un cerchio rosso attorno all\'elemento intruso in ogni riga così non devi mai segnare le risposte manualmente. L\'intestazione autogenerata presenta un bordo esterno corallo, un bordo interno ambra e uno sfondo turchese con il titolo localizzato \"Trova l\'Intruso\" in Fredoka e le istruzioni in Quicksand nelle 11 lingue. Poiché i puzzle sono interamente visivi — non compare alcuna parola sulla scheda stessa — non dipendono dalla lingua e funzionano in modo identico in qualsiasi localizzazione. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di pensiero critico per Amazon KDP o crei attività per il negozio su Gumroad, questo generatore produce schede trova l\'intruso pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede trova l\'intruso sono un formato molto amato dai genitori italiani e rappresentano una nicchia ancora poco presidiata su Etsy e Amazon KDP in lingua italiana. Con questo generatore crei schede professionali dove gli utenti identificano l\'elemento diverso in ogni riga di quattro immagini. Due modalità di generazione — Identica (tre cloni più un intruso dallo stesso tema) e Simile (tre immagini dal Tema A e una dal Tema B) — offrono livelli di difficoltà diversi, combinabili nella stessa scheda. Configura da 3 a 8 esercizi per pagina e personalizza con campi nome, data e numeri di esercizio. Ogni scheda genera un foglio risposte con cerchi rossi automatici sull\'elemento intruso. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. I puzzle sono interamente visivi — funzionano in tutte le 11 lingue senza traduzione. Aggiungi sfondi e bordi decorativi, esporta PDF e JPEG a 300 DPI nei formati A4, Lettera, Quadrato o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

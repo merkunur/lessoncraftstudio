@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'puzzle a griglia stampabile',
+    primaryKeyword: 'creare griglie di abbinamento gratis',
     secondaryKeywords: [
-      'generatore puzzle a griglia per venditori',
-      'creare puzzle griglia da vendere',
-      'generatore puzzle tessere stampabili uso commerciale',
-      'creatore schede puzzle griglia per KDP e Etsy',
+      'generatore puzzle a griglia gratis online',
+      'griglie di abbinamento stampabili gratis',
+      'generatore puzzle griglia senza registrazione',
+      'schede puzzle tessere gratis PDF',
+      'creare puzzle griglia gratuito online',
     ],
     lsiKeywords: [
-      'strumento puzzle tessere griglia immagine singola',
-      'generatore chiave di risposta con cerchi numerati',
-      'creatore griglia con celle indizio e difficoltà regolabile',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Puzzle a Griglia — Generatore Schede Puzzle Griglia',
-    metaDescription: 'Crea puzzle a griglia con dimensioni configurabili, celle indizio regolabili, randomizzazione Fisher-Yates e 104 temi illustrati.',
+    titleTag: 'Griglie di abbinamento gratis | LessonCraftStudio',
+    metaDescription: 'Crea griglie di abbinamento gratis online, senza registrazione. Dimensioni configurabili, celle indizio, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Puzzle a Griglia',
+    title: 'Crea Griglie di Abbinamento Gratis Online',
     tagline: 'Generatore di puzzle a griglia con immagine singola, dimensioni configurabili da 2×2 a 4×4, celle indizio regolabili per difficoltà scalabile, randomizzazione Fisher-Yates delle tessere, chiavi di risposta automatiche con cerchi numerati sovrapposti, e 104 collezioni tematiche di immagini per schede puzzle a griglia vendibili in tutto il mondo',
-    description: 'Crea schede professionali di puzzle a griglia dove un\'immagine singola viene divisa in una griglia di tessere e gli utenti abbinano le tessere numerate alle posizioni corrette — un puzzle di ragionamento spaziale costruito da una sola immagine. Configura la griglia da 2×2 fino a 4×4 (2–4 righe × 2–4 colonne, predefinito 3×3) per creare puzzle da 4 a 16 tessere. Imposta da 1 a 5 celle indizio (predefinito 1) che rimangono visibili sulla scheda come suggerimenti — meno indizi significano puzzle più difficili, più indizi creano riscaldamenti accessibili. L\'app mescola le tessere nascoste usando la randomizzazione Fisher-Yates e le visualizza in una tavolozza numerata accanto o sotto la griglia, così ogni generazione produce un ordine diverso delle tessere anche dalla stessa immagine e impostazioni. gli utenti studiano le celle indizio rivelate, esaminano le tessere numerate nella tavolozza e scrivono quale numero appartiene a ciascuna cella vuota. Il sistema a doppio canvas genera simultaneamente sia una scheda lavoro che una chiave di risposta — la chiave di risposta mostra l\'immagine completa non tagliata con cerchi numerati sovrapposti su ogni cella della griglia (sfondo giallo #ffffe0, contorno nero, font Fredoka), indicando esattamente quale tessera della tavolozza appartiene a ciascuna posizione. Il layout reattivo si adatta automaticamente: le pagine verticali posizionano la griglia in alto (45% dell\'altezza) con la tavolozza sotto; le pagine orizzontali posizionano la griglia a sinistra (48% della larghezza) con la tavolozza a destra. Un\'intestazione stilizzata appare con sfondo ciano (#00BCD4), titolo viola scuro (#6A1B9A) e cornice arancione (#FF8C42) che mostra "Grid Match" e le istruzioni nella lingua selezionata. Grid Match NON è sensibile alla lingua — l\'output del puzzle è puramente visivo senza contenuto testuale localizzato sulla scheda stessa, rendendo ogni scheda vendibile universalmente in tutti i mercati senza traduzione. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica le tue immagini PNG, JPG o GIF per puzzle a griglia personalizzati. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Esporta quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI. Scegli formato Letter, A4 o dimensioni personalizzate con alternanza scala di grigi per stampe economiche. Modifica tutto sul canvas Fabric.js con 7 font, contorno testo 0–10, strumenti di allineamento, livelli, blocca/sblocca, zoom 25%–300% e annulla/ripristina 20 stati. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea griglie di abbinamento gratis, direttamente nel browser, senza registrazione e senza installare nulla. Un\'immagine viene divisa in una griglia di tessere configurabile da 2×2 a 4×4 — gli utenti abbinano le tessere numerate alle posizioni corrette. Imposta da 1 a 5 celle indizio per regolare la difficoltà. La randomizzazione Fisher-Yates mescola le tessere a ogni generazione. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con cerchi numerati. Sfoglia 104 temi con oltre 3.100 illustrazioni o carica le tue immagini. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4 o personalizzato — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere i tuoi puzzle su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

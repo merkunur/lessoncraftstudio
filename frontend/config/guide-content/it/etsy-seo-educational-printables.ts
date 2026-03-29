@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy stampabili educativi',
+    primaryKeyword: 'SEO Etsy per schede didattiche 2026',
     secondaryKeywords: [
-      'SEO Etsy per schede stampabili didattiche',
-      'ricerca parole chiave Etsy prodotti educativi',
-      'ottimizzazione inserzioni Etsy venditori stampabili',
-      'strategia tag Etsy per schede didattiche',
+      'ricerca parole chiave Etsy stampabili educativi',
+      'ottimizzazione titoli inserzioni Etsy schede didattiche',
+      'strategia 13 tag Etsy venditori stampabili',
+      'algoritmo ricerca Etsy fattori posizionamento 2026',
+      'Etsy Stats termini ricerca ottimizzazione venditori',
     ],
     lsiKeywords: [
-      'algoritmo ricerca Etsy fattori posizionamento download digitali',
-      'ottimizzazione titolo Etsy posizionamento parole chiave inserzioni stampabili',
-      'strategia 13 tag Etsy venditori schede educative',
-      'struttura descrizione inserzione Etsy SEO per stampabili',
-      'Etsy Stats termini ricerca report ottimizzazione parole chiave',
-      'categorie attributi Etsy per prodotti digitali educativi',
+      'posizionamento inserzioni Etsy download digitali',
+      'struttura descrizione inserzione SEO stampabili',
+      'categorie attributi Etsy prodotti educativi',
+      'autocompletamento Etsy analisi concorrenti parole chiave',
     ],
-    titleTag: 'SEO Etsy per Stampabili Educativi | Guida per Venditori',
-    metaDescription: 'Guida SEO Etsy per stampabili educativi. Ricerca parole chiave, ottimizzazione titoli, tutti i 13 tag, descrizioni inserzioni e fattori di posizionamento.',
+    titleTag: 'SEO Etsy per schede didattiche (2026) | LessonCraftStudio',
+    metaDescription: 'Guida SEO Etsy 2026 per schede didattiche: ricerca parole chiave, ottimizzazione titoli, tutti i 13 tag e fattori di posizionamento. Aumenta le vendite.',
   },
 
   hero: {
-    title: 'SEO Etsy per Stampabili Educativi',
+    title: 'SEO Etsy per schede didattiche: guida aggiornata 2026',
     tagline: 'Una guida completa all\'ottimizzazione della ricerca Etsy per venditori di stampabili educativi — metodologia di ricerca parole chiave con autocompletamento Etsy e analisi concorrenti, formule di ottimizzazione titoli che bilanciano posizionamento e tasso di clic, uso strategico di tutti i 13 tag per massima copertura di ricerca, struttura descrizione con i primi 160 caratteri ottimizzati per SEO, fattori di posizionamento dell\'algoritmo Etsy specifici per prodotti digitali, selezione categorie e attributi, banche parole chiave per categoria per matematica, alfabetizzazione, puzzle, disegno, abbinamento e schede trova-e-conta, tempistica parole chiave stagionali per rientro a scuola e festività, e ottimizzazione continua con report termini di ricerca Etsy Stats',
-    description: 'La ricerca Etsy è la principale fonte di traffico per i venditori di stampabili educativi. Questa guida ti insegna il flusso di lavoro SEO Etsy completo — dalla ricerca dei termini usati dagli acquirenti all\'ottimizzazione di ogni elemento della tua inserzione per massima visibilità. Imparerai la struttura esatta del titolo, la strategia dei tag e il formato della descrizione che aiutano le inserzioni di stampabili educativi ad apparire nei risultati di ricerca Etsy.',
+    description: 'La ricerca organica su Etsy è la principale fonte di traffico per i venditori di stampabili educativi in Italia e nel mondo. Questa guida aggiornata al 2026 ti insegna il flusso di lavoro SEO completo per Etsy: dalla ricerca delle parole chiave usate dagli acquirenti all\'ottimizzazione di titoli, tag e descrizioni. Imparerai come funziona l\'algoritmo di ricerca di Etsy, come usare tutti i 13 slot dei tag in modo strategico e come strutturare le inserzioni per massimizzare sia il posizionamento sia il tasso di conversione. Include banche di parole chiave specifiche per matematica, puzzle, disegno e altre categorie educative.',
   },
 
   introduction: 'Per i venditori di stampabili educativi su Etsy, la ricerca organica genera la maggior parte del traffico del negozio. A differenza dei post sui social media che svaniscono in poche ore o della pubblicità a pagamento che si ferma quando il budget si esaurisce, un\'inserzione ben ottimizzata continua ad attrarre acquirenti mese dopo mese. La SEO Etsy — la pratica di ottimizzare le inserzioni per il motore di ricerca interno di Etsy — è l\'attività con il ritorno più alto in cui puoi investire tempo come venditore di stampabili.\n\nIl motore di ricerca di Etsy confronta le query degli acquirenti con titoli, tag, categorie e attributi delle inserzioni. Le inserzioni che corrispondono bene e hanno forti segnali di coinvolgimento (clic, preferiti, acquisti) si posizionano più in alto nel tempo. Questo crea un effetto composto: una migliore ottimizzazione porta a più visibilità, che porta a più vendite, che migliora ulteriormente il tuo posizionamento.\n\nLa sfida per i venditori di stampabili educativi è che il mercato è competitivo. Migliaia di venditori offrono schede di matematica, pagine da colorare e attività di alfabetizzazione. Un\'ottimizzazione generica — riempire il titolo di parole chiave e sperare nei risultati — raramente funziona. Serve invece un approccio sistematico: ricercare i termini esatti usati dagli acquirenti, strutturare i titoli sia per i motori di ricerca che per i lettori umani, usare tutti i 13 tag strategicamente per coprire un\'ampia rete di ricerca, e scrivere descrizioni che convertano i visitatori in acquirenti.\n\nQuesta guida copre ogni elemento della SEO Etsy specificamente per prodotti stampabili educativi. Che tu venda schede di matematica, puzzle cerca parole, pagine da colorare o fogli di attività, i principi e le strategie qui presentati si applicano direttamente alle tue inserzioni. Ogni sezione si basa sulla precedente, offrendoti un flusso di lavoro di ottimizzazione completo applicabile a ogni inserzione del tuo negozio. Ogni generatore menzionato in questa guida è disponibile come prova gratuita con filigrana, così puoi creare prodotti campione e testare la tua strategia SEO prima di acquistare una licenza.',

@@ -2,26 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede parole mescolate stampabile',
+    primaryKeyword: 'generatore di anagrammi gratis online',
     secondaryKeywords: [
-      'generatore schede parole mescolate per venditori',
-      'creare puzzle lettere mescolate da vendere',
-      'stampabili anagrammi lettere uso commerciale',
-      'generatore parole mescolate per KDP',
+      'creare anagrammi gratis online',
+      'generatore parole mescolate stampabile gratis',
+      'anagrammi con immagini senza registrazione',
+      'puzzle lettere mescolate gratis PDF',
+      'generatore anagrammi da stampare gratis',
     ],
     lsiKeywords: [
-      'stampabili tessere lettere mescolate per Etsy',
-      'strumento schede parole mescolate con immagini',
-      'generatore puzzle spelling multilingue',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Generatore Schede Parole Mescolate | Crea Stampabili',
-    metaDescription: 'Genera schede parole mescolate con tessere lettere, indizi immagine, codifica vocali-consonanti, quattro livelli di difficoltà e supporto per 11 lingue.',
+    titleTag: 'Generatore di anagrammi gratis | LessonCraftStudio',
+    metaDescription: 'Crea anagrammi con tessere lettere gratis online, senza registrazione. Codifica vocali-consonanti, 4 livelli, 11 lingue. Licenza commerciale per vendere.',
   },
 
   hero: {
-    title: 'Generatore Schede Parole Mescolate',
+    title: 'Generatore di Anagrammi Gratis Online',
     tagline: 'Crea puzzle di spelling con tessere lettere mescolate, indizi immagine, codifica colore e 4 livelli di difficoltà in 11 lingue',
-    description: 'Trasforma la pratica del vocabolario in un puzzle di spelling pratico che gli utenti risolvono riordinando tessere lettere mescolate. Questo strumento genera schede parole mescolate dove un indizio immagine è abbinato a un set di tessere mescolate — gli utenti osservano l\'immagine, identificano ciò che rappresenta, e riordinano le lettere nell\'ordine corretto. A differenza degli esercizi con spazi vuoti, le parole mescolate danno agli utenti TUTTE le lettere ma nell\'ordine sbagliato, rendendolo una sfida di riordino lettere che costruisce precisione nello spelling attraverso la manipolazione attiva. La caratteristica distintiva è la codifica colore vocali-consonanti: attivala per mostrare le vocali in un colore e le consonanti in un altro, aggiungendo una dimensione fonetica visiva che aiuta gli utenti a identificare i tipi di lettere mentre risolvono l\'anagramma. Quattro livelli di difficoltà controllano quante lettere sono pre-posizionate nelle posizioni corrette: Nessun Indizio mescola ogni lettera per la sfida massima, Facile pre-posiziona metà delle lettere per principianti guidati, Normale posiziona un quarto per pratica equilibrata, e Difficile posiziona solo un sesto per utenti sicuri. Scegli tra tre fonti di contenuto: la modalità Libreria Immagini attinge da oltre 3.100 illustrazioni in 104 collezioni tematiche, la Modalità Modifica Manuale ti permette di selezionare immagini e personalizzare i nomi visualizzati, e la modalità Lista Parole Personalizzata ti permette di digitare fino a 8 parole direttamente per puzzle solo testo. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e la stessa immagine produce una parola target diversa con lettere diverse e un arrangiamento mescolato completamente diverso. Un\'immagine di cane genera "CANE" in italiano, "DOG" in inglese, "HUND" in tedesco, "CHIEN" in francese, "PERRO" in spagnolo. Un design diventa 11 prodotti unici. Imposta 1–10 puzzle per pagina, alterna tra tessere maiuscole e minuscole, aggiungi numerazione degli esercizi e scegli tra 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione con generazione automatica del foglio risposte. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea anagrammi gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento genera schede con tessere lettere mescolate abbinate a indizi immagine — gli utenti osservano l\'immagine e riordinano le lettere nell\'ordine corretto. La codifica colore vocali-consonanti aggiunge una dimensione fonetica visiva unica. Quattro livelli di difficoltà controllano quante lettere sono pre-posizionate: da Nessun Indizio (sfida massima) a Facile (metà pre-posizionate). Scegli tra tre fonti di contenuto: Libreria Immagini con oltre 3.100 illustrazioni in 104 temi, Modifica Manuale o Lista Parole Personalizzata. La stessa immagine genera parole diverse in ciascuna delle 11 lingue supportate. Esporta PDF e JPEG con foglio risposte automatico. Vuoi vendere i tuoi anagrammi su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

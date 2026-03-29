@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'come vendere libri di attività su Amazon KDP',
+    primaryKeyword: 'business quaderni attività Amazon KDP',
     secondaryKeywords: [
-      'libri di attività Amazon KDP',
-      'vendere libri di puzzle su KDP',
-      'attività editoriale libri su KDP',
-      'pubblicare libri di attività su Amazon',
+      'pubblicare libri di attività su Amazon.it KDP',
+      'vendere quaderni puzzle KDP stampa su richiesta',
+      'formattazione interni KDP schede didattiche',
+      'guida completa Amazon KDP libri educativi',
+      'scalare catalogo libri attività KDP',
     ],
     lsiKeywords: [
-      'Kindle Direct Publishing libri di attività',
-      'formattazione interni KDP schede didattiche',
-      'design copertina KDP libri di attività',
-      'parole chiave backend Amazon libri di puzzle',
-      'calcolatore royalty KDP libri di attività',
-      'stampa su richiesta attività editoriale libri',
+      'royalty KDP libri di attività calcolo',
+      'design copertina Amazon libri puzzle',
+      'parole chiave backend Amazon KDP',
+      'stampa su richiesta senza inventario',
     ],
-    titleTag: 'Come Vendere Libri di Attività su Amazon KDP — Guida',
-    metaDescription: 'Come vendere libri di attività su Amazon KDP. Copre formattazione interni, design copertina, ricerca parole chiave, strategia di pricing e scalabilità.',
+    titleTag: 'Business quaderni attività KDP | LessonCraftStudio',
+    metaDescription: 'Costruisci un business di quaderni attività su Amazon KDP: formattazione interni, copertina, parole chiave, pricing e scalabilità. Prova gratuita.',
   },
 
   hero: {
-    title: 'Guida Attività Editoriale Libri su Amazon KDP',
+    title: 'Business di Quaderni Attività su Amazon KDP',
     tagline: 'Pubblica e vendi libri di attività professionali su Amazon con la stampa su richiesta — nessun inventario, nessun costo iniziale',
-    description: 'Amazon KDP ti dà accesso al più grande marketplace di libri del pianeta senza alcun rischio di inventario. Questa guida copre ogni fase della costruzione di un\'attività redditizia di libri di attività su KDP — dalla formattazione degli interni e il design della copertina alla ricerca delle parole chiave, strategia di pricing, selezione delle categorie e scalabilità del catalogo. Che tu stia pubblicando il tuo primo libro di puzzle o espandendo un\'attività di stampabili esistente su Amazon, questo è il tuo manuale specifico per KDP.',
+    description: 'Amazon KDP ti dà accesso al più grande marketplace di libri al mondo — incluso Amazon.it — senza rischio di inventario. Questa guida copre ogni fase per costruire un\'attività redditizia di quaderni di attività su KDP: dalla formattazione degli interni conformi alle specifiche Amazon al design della copertina che converte, dalla ricerca delle parole chiave backend alla strategia di pricing che massimizza le royalty. Che tu stia pubblicando il tuo primo libro di puzzle o espandendo un catalogo esistente, questo è il manuale specifico per KDP. Prova gratuita con filigrana per creare pagine di esempio.',
   },
 
   introduction: 'Amazon vende più libri di qualsiasi altro rivenditore al mondo, e i libri di attività sono una delle categorie in più rapida crescita nelle sezioni bambini e libri di puzzle. A differenza di Etsy dove vendi singoli download digitali, Amazon KDP stampa libri fisici su richiesta e li spedisce direttamente ai clienti. Carichi un PDF degli interni e un file di copertina, imposti il prezzo, e Amazon gestisce stampa, spedizione, servizio clienti e resi.\n\nQuesto modello di stampa su richiesta elimina le due barriere più grandi dell\'editoria tradizionale: i costi di stampa iniziali e il rischio di inventario. Non paghi mai per stampare una singola copia. Amazon stampa ogni libro solo dopo che un cliente lo ordina. Il tuo profitto è la differenza tra il prezzo di listino e il costo di stampa di Amazon, moltiplicato per il tasso di royalty scelto.\n\nQuesta guida è specifica per KDP dall\'inizio alla fine. La strategia generale per attività di stampabili si trova nella nostra Guida Completa per Avviare un\'Attività di Stampabili, e le tattiche specifiche per Etsy sono trattate nella Masterclass Attività Stampabili su Etsy. Qui, ogni raccomandazione è pensata per la piattaforma, l\'algoritmo e il comportamento degli acquirenti di Amazon.\n\nUna nota importante: ogni generatore di schede menzionato in questa guida offre una prova gratuita con filigrana. Puoi creare pagine di esempio per libri di attività, testare la formattazione e valutare la qualità prima di acquistare una licenza commerciale per la pubblicazione su KDP.',

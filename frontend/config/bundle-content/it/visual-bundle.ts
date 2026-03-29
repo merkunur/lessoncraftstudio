@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacchetto schede apprendimento visivo',
+    primaryKeyword: 'pacchetto schede visive per venditori',
     secondaryKeywords: [
-      'pacchetto generatori schede visive per venditori',
-      'toolkit stampabili attività visive uso commerciale',
-      'pacchetto schede disegno colorare per Etsy',
-      'generatori schede visive per venditori KDP',
+      'bundle generatori colorare disegno sequenze Etsy',
+      'toolkit schede visive universali licenza commerciale',
+      'creare pagine da colorare e pregrafismo da vendere',
+      'pacchetto 7 generatori schede senza testo KDP',
     ],
     lsiKeywords: [
-      'pacchetto schede colorare disegno sequenze',
-      'collezione stampabili grafici pregrafismo',
-      'licenza commerciale schede attività visive',
-      'strumento creazione schede visive in blocco',
+      'schede esclusivamente visive mercato globale',
+      'prodotti senza traduzione vendibili ovunque',
+      'grafici immagini confronto dimensioni pregrafismo',
+      'temi bianco e nero per libri da colorare',
     ],
-    titleTag: 'Pacchetto Apprendimento Visivo — 7 Generatori Schede',
-    metaDescription: 'Ottieni 7 generatori di schede visive in un pacchetto. Crea schede di colorare, disegno, sequenze, confronto dimensioni, grafici e pregrafismo da vendere.',
+    titleTag: 'Pacchetto schede visive per venditori | LessonCraftStudio',
+    metaDescription: 'Pacchetto con 7 generatori schede visive: colorare, disegno, sequenze, pregrafismo e grafici. Schede senza testo vendibili ovunque. Prova gratuita.',
   },
 
   hero: {
-    title: 'Pacchetto Apprendimento Visivo',
+    title: 'Pacchetto Schede Visive: 7 Generatori Universali',
     tagline: 'Sette generatori di schede esclusivamente visive — schede che funzionano in qualsiasi lingua del mondo',
-    description: 'Ogni generatore di questo pacchetto produce schede composte interamente da immagini, forme, colori e numeri. Nessun testo appare sulla pagina finita oltre alle etichette opzionali dell\'interfaccia. Questo significa che ogni scheda che crei funziona per acquirenti di qualsiasi paese, qualsiasi lingua, qualsiasi sistema scolastico — senza traduzione, senza adattamento, senza sforzo di localizzazione. Il Pacchetto Apprendimento Visivo combina sette generatori specializzati che coprono confronto dimensioni, sequenze a vagoni del treno, schede di sequenze a riempimento, disegno con immagine di riferimento e modalità simmetria, pregrafismo tra oggetti accoppiati, creazione di pagine da colorare da contorni di immagini e attività di conteggio con grafici a barre. Due dei sette generatori — Disegno Griglia e Colorare — dispongono di temi dedicati in bianco e nero progettati specificamente per colorare, dandoti accesso a prodotti sia colorati che in B&N da un singolo toolkit. Tre generatori includono chiavi di risposta automatiche dove applicabile: Grande e Piccolo, Schede Sequenze e Grafici con Immagini. Gli altri quattro sono attività creative o di pratica dove le chiavi di risposta non sono applicabili. Ogni generatore produce file PDF pronti per la stampa e JPEG ad alta risoluzione. Scegli tra oltre 100 set di immagini tematiche o carica le tue illustrazioni per prodotti personalizzati e specifici per la tua nicchia. Che tu venda pagine da colorare su Etsy, pubblichi libri di attività su Amazon KDP o distribuisca pacchetti per la scuola materna su Gumroad, questo pacchetto ti offre la varietà visiva e la copertura di mercato universale che i concorrenti dipendenti dal testo non possono eguagliare. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
+    description: 'Ogni generatore di questo pacchetto produce schede composte interamente da immagini, forme, colori e numeri. Nessun testo appare sulla pagina finita oltre alle etichette opzionali dell\'interfaccia. Questo significa che ogni scheda che crei funziona per acquirenti di qualsiasi paese, qualsiasi lingua, qualsiasi sistema scolastico — senza traduzione, senza adattamento, senza sforzo di localizzazione. Il Pacchetto Schede Visive combina sette generatori specializzati che coprono confronto dimensioni, sequenze a vagoni del treno, schede di sequenze a riempimento, disegno con immagine di riferimento e modalità simmetria, pregrafismo tra oggetti accoppiati, creazione di pagine da colorare da contorni di immagini e attività di conteggio con grafici a barre. Due dei sette generatori — Disegno Griglia e Colorare — dispongono di temi dedicati in bianco e nero progettati specificamente per colorare, dandoti accesso a prodotti sia colorati che in B&N da un singolo toolkit. Tre generatori includono chiavi di risposta automatiche dove applicabile: Grande e Piccolo, Schede Sequenze e Grafici con Immagini. Gli altri quattro sono attività creative o di pratica dove le chiavi di risposta non sono applicabili. Ogni generatore produce file PDF pronti per la stampa e JPEG ad alta risoluzione. Scegli tra oltre 100 set di immagini tematiche o carica le tue illustrazioni per prodotti personalizzati e specifici per la tua nicchia. Che tu venda pagine da colorare su Etsy, pubblichi libri di attività su Amazon KDP o distribuisca pacchetti per la scuola materna su Gumroad, questo pacchetto ti offre la varietà visiva e la copertura di mercato universale che i concorrenti dipendenti dal testo non possono eguagliare. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
   },
 
   appsIncluded: [

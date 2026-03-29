@@ -1,26 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede grande piccolo per bambini',
+    primaryKeyword: 'schede confronto dimensioni gratis',
     secondaryKeywords: [
-      'schede grande e piccolo per scuola materna',
-      'creatore confronto dimensioni per il negozio',
-      'schede ordinamento per dimensione per bambini',
-      'schede grande piccolo medio per asilo',
+      'schede grande piccolo gratis online senza registrazione',
+      'generatore confronto dimensioni gratis PDF stampabile',
+      'schede ordinamento dimensioni gratis bambini',
+      'creare schede grande piccolo medio gratis',
+      'schede confronto dimensioni gratis prova gratuita',
     ],
     lsiKeywords: [
-      'discriminazione visiva dimensioni per bambini',
-      'scheda confronto dimensioni senza testo',
-      'attività ordinamento grande piccolo per materna',
+      'schede grande piccolo gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore confronto dimensioni gratis online',
     ],
-    titleTag: 'Schede Grande e Piccolo — Per Bambini',
-    metaDescription: 'Crea schede di confronto dimensioni per bambini. Cinque tipi di domanda, modalità immagini identiche e diverse, 104 temi. Prova gratuita con filigrana.',
+    titleTag: 'Confronto dimensioni gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede confronto dimensioni gratis online, senza registrazione. Cinque tipi di domanda, due modalità immagine. Licenza commerciale disponibile.',
     },
 
   hero: {
-    title: 'Generatore Schede Grande e Piccolo',
+    title: 'Crea Schede Confronto Dimensioni Gratis',
     tagline: 'Genera schede di confronto dimensioni con cinque tipi di domanda, due modalità immagine e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali di confronto dimensioni dove gli utenti identificano immagini più grandi, più piccole e di dimensione media o le numerano in ordine di grandezza. Cinque tipi di domanda coprono ogni abilità di discriminazione dimensionale: Cerchia il Grande, Cerchia il Piccolo, Cerchia il Medio, Numera 1–2–3 dal Piccolo al Grande e Numera 1–2–3 dal Grande al Piccolo. Due modalità immagine creano esercizi fondamentalmente diversi dallo stesso strumento: Immagini Identiche mostra la stessa immagine a dimensioni diverse per la pura percezione dimensionale, mentre Immagini Diverse mostra oggetti distinti a dimensioni diverse per il ragionamento sulle dimensioni relative. Imposta da 1 a 10 esercizi per pagina con 2 o 3 immagini per esercizio — due immagini per confronti diretti più grande/più piccolo, tre immagini per introdurre l\'opzione media e abilitare sfide di ordinamento. Ogni scheda è completamente visiva con zero testo sull\'output. Nessuna parola appare sulla pagina generata — solo immagini e indicatori visivi. Questo rende le tue schede universalmente utilizzabili indipendentemente dalla lingua, livello di lettura o stato di alfabetizzazione, e universalmente vendibili senza traduzione. Un singolo annuncio serve ogni mercato nel mondo. Scegli tra oltre 3.100 illustrazioni in 104 collezioni tematiche o carica le tue immagini. La chiave di risposta auto-generata evidenzia e cerchia le risposte corrette per una verifica istantanea. Esporta PDF pronti per la stampa e JPEG a 300 DPI in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per output ottimizzato per l\'inchiostro. Modifica tutto sul canvas Fabric.js completo con font tra cui Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. La prova gratuita include ogni funzione con filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede confronto dimensioni gratis direttamente nel browser, senza registrazione e senza installare nulla. Cinque tipi di domanda: Cerchia il Grande, Cerchia il Piccolo, Cerchia il Medio, Numera dal Piccolo al Grande e dal Grande al Piccolo. Due modalità immagine: Identiche (stessa immagine a dimensioni diverse) e Diverse (oggetti distinti a dimensioni diverse). Da 1 a 10 esercizi per pagina con 2 o 3 immagini ciascuno. Oltre 3.100 illustrazioni in 104 collezioni tematiche, chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

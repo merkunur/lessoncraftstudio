@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prezzi stampabili Etsy schede didattiche',
+    primaryKeyword: 'come fissare il prezzo degli stampabili su Etsy',
     secondaryKeywords: [
-      'come stabilire prezzi schede stampabili su Etsy',
-      'strategia prezzi stampabili digitali Etsy',
-      'prezzi download digitali Etsy venditori',
-      'prezzi bundle schede Etsy',
+      'strategia prezzi stampabili digitali Etsy venditori',
+      'calcolo commissioni Etsy ricavo netto stampabili',
+      'prezzi bundle schede educative Etsy',
+      'struttura prezzi tre livelli Etsy stampabili',
+      'aggiustamenti prezzi stagionali Etsy venditori',
     ],
     lsiKeywords: [
-      'calcolo commissioni Etsy prodotti digitali ricavo netto ripartizione',
-      'struttura prezzi tre livelli bundle stampabili educativi',
-      'psicologia prezzi bundle valore percepito moltiplicatore schede',
-      'strategia coupon Etsy aggiustamenti prezzi stagionali venditori',
-      'test prezzi Etsy Stats tasso conversione ottimizzazione',
-      'prezzi internazionali valuta Etsy download digitali A4 Letter',
+      'commissioni Etsy transazione elaborazione pagamento',
+      'psicologia prezzi valore percepito bundle',
+      'test conversione Etsy Stats ottimizzazione',
+      'prezzi internazionali valuta download digitali',
     ],
-    titleTag: 'Prezzi Stampabili Etsy | Guida alla Strategia dei Prezzi',
-    metaDescription: 'Stabilisci i prezzi degli stampabili su Etsy con calcolo commissioni, prezzi a tre livelli, strategie bundle e aggiustamenti stagionali. Guida per venditori.',
+    titleTag: 'Prezzi degli stampabili su Etsy | LessonCraftStudio',
+    metaDescription: 'Come fissare il prezzo degli stampabili su Etsy: calcolo commissioni, struttura a tre livelli, bundle strategici e test di conversione. Guida pratica.',
   },
 
   hero: {
-    title: 'Come Stabilire i Prezzi dei Tuoi Stampabili su Etsy',
+    title: 'Prezzi degli stampabili su Etsy: strategia completa',
     tagline: 'Una guida completa alla strategia dei prezzi per venditori di schede stampabili su Etsy — ricerca concorrenza, calcolo commissioni Etsy e ricavo netto, benchmark prezzi base per tipo di prodotto e numero di pagine, struttura prezzi a tre livelli che aumenta il valore medio dell\'ordine, prezzi bundle cross-categoria e per livello scolastico, uso strategico di saldi e coupon Etsy, aggiustamenti prezzi internazionali per acquirenti globali, e metodologia test prezzi usando dati conversione Etsy Stats',
-    description: 'Il prezzo è la decisione con il maggior impatto nel tuo business di stampabili su Etsy. Prezzi troppo bassi e le commissioni Etsy consumano i tuoi margini. Prezzi troppo alti senza comunicare valore e gli acquirenti scorrono oltre. Questa guida ti fornisce il framework completo dei prezzi — dal calcolo del tuo ricavo netto effettivo dopo tutte le commissioni Etsy, alla costruzione di una struttura a tre livelli che aumenta naturalmente il valore medio dell\'ordine, fino ai prezzi dei bundle cross-categoria che richiedono prezzi premium. Che tu stia inserendo il tuo primo pacchetto di schede o ottimizzando i prezzi di un catalogo già avviato, avrai una strategia di prezzi basata sui dati alla fine di questa guida.',
+    description: 'Il prezzo è la decisione più importante per chi vende stampabili su Etsy in Italia e nel mondo. Prezzi troppo bassi e le commissioni Etsy divorano i margini. Prezzi troppo alti senza comunicare valore e gli acquirenti passano oltre. Questa guida ti fornisce il framework completo: calcolo del ricavo netto reale dopo tutte le commissioni, struttura a tre livelli che aumenta il valore medio dell\'ordine e strategie di bundle cross-categoria che giustificano prezzi premium. Imparerai anche come usare coupon e saldi Etsy senza erodere i margini, e come testare i prezzi con i dati di conversione di Etsy Stats per ottimizzare nel tempo.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili su Etsy sbaglia i prezzi, e l\'errore va quasi sempre nella stessa direzione: prezzi troppo bassi. I nuovi venditori guardano le inserzioni della concorrenza, vedono schede a 1,99€ o 2,49€, e si adeguano a quei prezzi senza capire cosa succede dopo che Etsy prende le sue commissioni. Un download digitale a 1,99€ genera circa 1,40€ di ricavo effettivo dopo la commissione di inserzione, la commissione di transazione e la commissione di elaborazione pagamento. Con quel margine, servono centinaia di vendite al mese per generare un reddito significativo.\n\nI venditori che costruiscono business di stampabili sostenibili affrontano i prezzi in modo diverso. Capiscono che gli acquirenti Etsy non cercano la scheda più economica — cercano la scheda giusta. Un genitore che cerca \"schede addizione prima elementare\" si preoccupa di qualità, numero di pagine, inclusione delle soluzioni e varietà di temi molto più che di una differenza di un euro nel prezzo. un venditore che cerca \"pacchetto attività matematica per il negozio\" sta spendendo un budget scolastico, non un budget personale, e valuta la completezza più del risparmio.\n\nLa strategia dei prezzi per le schede stampabili non consiste nel trovare un unico numero magico. Si tratta di costruire una struttura di prezzi — prodotti entry-level che attirano acquirenti nel tuo negozio, bundle di fascia media che catturano la maggior parte del fatturato, e collezioni premium che massimizzano il valore per transazione. Ogni livello serve un diverso tipo di acquirente e una diversa fase del percorso di acquisto.\n\nQuesta guida copre il framework completo dei prezzi: come ricercare sistematicamente i prezzi della concorrenza, come calcolare il tuo ricavo netto effettivo dopo tutte le commissioni Etsy, come impostare i prezzi base per tipo di prodotto e numero di pagine, come costruire una struttura a tre livelli, come prezzare i bundle per il massimo valore percepito, come usare saldi e coupon Etsy senza erodere i margini, come gestire i prezzi internazionali, e come testare e ottimizzare i prezzi nel tempo usando dati reali di conversione.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare prodotti di esempio da tutti i generatori, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale per i prodotti che vuoi vendere.',

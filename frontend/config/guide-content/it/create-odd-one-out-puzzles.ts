@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schede trova l\'intruso puzzle visivi',
+    primaryKeyword: 'creare trova l\'intruso da vendere',
     secondaryKeywords: [
-      'creare puzzle trova l\'intruso da vendere',
-      'generatore schede discriminazione visiva intruso',
-      'schede stampabili trova l\'intruso per Etsy e KDP',
-      'puzzle trova il diverso per venditori Etsy e KDP',
+      'schede trova l\'intruso stampabili per Etsy e KDP',
+      'generatore puzzle trova il diverso uso commerciale',
+      'vendere puzzle discriminazione visiva online',
+      'creare schede trova l\'intruso con licenza commerciale',
+      'puzzle trova l\'intruso da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'generatore trova l\'intruso doppia modalità identico simile',
-      'override modalità per esercizio puzzle visivi',
-      'chiave di risposta automatica cerchio rosso schede',
-      'vendere schede trova l\'intruso su Etsy',
-      'quaderni discriminazione visiva Amazon KDP',
-      'strumento trova l\'intruso con licenza commerciale',
+      'doppia modalità identico e simile per puzzle',
+      'output puramente visivo per vendite globali',
+      'chiavi di risposta automatiche con cerchio rosso',
+      'prodotti stampabili trova l\'intruso per venditori',
     ],
-    titleTag: 'Creare Schede Trova l\'Intruso | Guida Creazione Etsy',
-    metaDescription: 'Crea schede trova l\'intruso con modalità Identico e Simile, override per esercizio e chiavi di risposta automatiche. Guida passo passo per Etsy e KDP.',
+    titleTag: 'Trova l\'intruso da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede trova l\'intruso con modalità Identico e Simile, override per esercizio e chiavi di risposta automatiche. Vendi su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Puzzle Trova l\'Intruso',
+    title: 'Trova l\'intruso da vendere: guida alla creazione',
     tagline: 'Tutorial passo passo per creare schede di discriminazione visiva con doppia modalità di generazione, override per esercizio, chiavi di risposta auto-generate con marcatori cerchio rosso e puzzle puramente visivi da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
-    description: 'I puzzle trova l\'intruso sono tra le attività educative più universalmente accessibili perché non richiedono lettura, comprensione linguistica o competenze matematiche. gli utenti osservano quattro immagini e identificano quella che non appartiene al gruppo. Questo formato puramente visivo rende le schede trova l\'intruso vendibili in ogni paese senza traduzione. I genitori le usano per la pratica di percezione visiva a casa. i venditori le usano per riscaldamenti di pensiero critico e attività di negozificazione. I centri di tutoraggio le usano per esercizi di sviluppo cognitivo. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore Schede Trova l\'Intruso — dalla scelta tra le modalità di generazione Identico e Simile alla configurazione degli override per esercizio, generazione di chiavi di risposta automatiche con marcatori cerchio rosso e esportazione di file pronti per la produzione. Che tu stia creando il tuo primo prodotto di puzzle visivi o espandendo un catalogo esistente di schede, avrai un prodotto finito pronto per la pubblicazione alla fine di questo tutorial.',
+    description: 'I puzzle trova l\'intruso sono tra le attività educative più universalmente accessibili e vendibili: non richiedono lettura, comprensione linguistica o competenze matematiche. Quattro immagini, una che non appartiene — il formato puramente visivo rende ogni scheda vendibile in qualsiasi paese del mondo senza traduzione. Per i venditori italiani che vogliono espandersi a livello internazionale, questa è un\'opportunità concreta con barriere d\'ingresso minime. Il Generatore Schede Trova l\'Intruso offre due modalità distinte — Identico (tre cloni più un diverso) e Simile (tre dallo stesso tema più uno da un altro) — con override per esercizio che permette di mescolare entrambe le modalità sulla stessa scheda. Le chiavi di risposta automatiche con marcatori cerchio rosso completano prodotti professionali in pochi minuti. Questa guida ti mostra ogni passaggio dalla configurazione all\'esportazione di file pronti per la produzione. Che tu stia creando il tuo primo prodotto di puzzle visivi o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'La discriminazione visiva è una delle competenze cognitive fondamentali nello sviluppo della prima infanzia. Prima che i bambini imparino a leggere, devono prima imparare a osservare le differenze — distinguere una forma da un\'altra, una lettera da una simile, un oggetto da un gruppo. I puzzle trova l\'intruso allenano questa competenza direttamente presentando quattro immagini e chiedendo agli utenti di identificare quella che non corrisponde alle altre. Questo rende le schede trova l\'intruso un prodotto fondamentale con domanda che va dall\'età prescolare alla scuola elementare.\n\nCiò che rende le schede trova l\'intruso particolarmente efficaci come prodotto stampabile è il formato puramente visivo. A differenza delle schede di vocabolario, pagine di comprensione della lettura o problemi di matematica che richiedono testo specifico per lingua, i puzzle trova l\'intruso contengono solo immagini. Quattro figure in una riga, tre che appartengono insieme e una che non appartiene. Nessuna parola, nessun numero, nessuna barriera linguistica. Una scheda creata in una singola sessione si vende identicamente su ogni marketplace internazionale senza traduzione o localizzazione. Questa portabilità globale senza sforzo per ogni lingua è un vantaggio competitivo significativo per i venditori.\n\nIl Generatore Schede Trova l\'Intruso gestisce la complessità della creazione di queste attività attraverso due modalità di generazione distinte. La modalità Identico posiziona tre cloni della stessa identica immagine accanto a un\'immagine diversa dello stesso tema — gli utenti individuano il non-duplicato confrontando dettagli visivi fini. La modalità Simile preleva tre immagini dal Tema A e un\'immagine dal Tema B — gli utenti identificano l\'intruso tematico riconoscendo differenze categoriali. Ogni modalità si rivolge a una competenza cognitiva diversa, e l\'override modalità per esercizio ti permette di mescolare entrambe le modalità su una singola scheda per difficoltà progressiva. Il generatore produce chiavi di risposta automatiche con marcatori cerchio rosso dimensionati rispetto all\'immagine, gestisce il layout a colonne adattivo per cinque-dieci esercizi per pagina e esporta quattro file pronti per la produzione per sessione. Tu ti concentri sulla strategia di prodotto — quali combinazioni di modalità usare, quali abbinamenti tematici targettizzare, come bundlare e prezzare — mentre il generatore gestisce layout, mescolamento e creazione della chiave di risposta.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede trova l\'intruso campione, testare entrambe le modalità di generazione, sperimentare con gli override per esercizio e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

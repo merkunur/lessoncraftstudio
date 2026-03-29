@@ -155,8 +155,8 @@ const guidesContent: Record<string, {
   it: {
     heroTitle: 'Guide pratiche',
     heroDescription: 'Guide passo dopo passo per creare e vendere stampabili. Dai tutorial sulle piattaforme alle strategie di business.',
-    metaTitle: 'Guide pratiche | Creare e vendere stampabili | LessonCraftStudio',
-    metaDescription: '65 guide passo dopo passo per creare e vendere stampabili. Guide sulle piattaforme, tutorial di creazione e strategie di business per Etsy, KDP, TPT.',
+    metaTitle: 'Guide per venditori di stampabili | LessonCraftStudio',
+    metaDescription: '65 guide per creare e vendere stampabili su Etsy, KDP e Eduki. Piattaforme, creazione prodotti e strategie di business per il mercato italiano.',
     ctaTitle: 'Inizia a creare oggi',
     ctaDescription: 'Prova tutti i 33 generatori gratis con filigrana. Senza registrazione.',
     ctaButton: 'Prova i generatori gratis',

@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'selezione della nicchia per attività di stampabili',
+    primaryKeyword: 'scegliere la nicchia per business stampabili 2026',
     secondaryKeywords: [
-      'ricerca nicchia stampabili',
-      'nicchie stampabili redditizie',
-      'come scegliere una nicchia per stampabili',
-      'strategia nicchia schede esercizi',
+      'nicchie redditizie stampabili educativi',
+      'come validare una nicchia per stampabili',
+      'analisi concorrenza mercato stampabili',
+      'strategia nicchia schede Etsy e KDP',
+      'trovare nicchie sottovalutate stampabili',
     ],
     lsiKeywords: [
-      'domanda di mercato redditività della nicchia pubblico target validazione della nicchia',
-      'nicchie sempreverdi nicchie stagionali mercati poco serviti analisi della concorrenza',
-      'espansione della nicchia nicchie adiacenti espansione per livello scolastico espansione per materia',
-      'esigenze del pubblico buyer personas segmenti clienti posizionamento della nicchia',
-      'sovrapposizione di nicchie strategia multi-nicchia profondità della nicchia product-market fit',
-      'domanda di keyword volume di ricerca tendenze marketplace segnali di intenzione d\'acquisto',
+      'domanda di mercato validazione nicchia',
+      'buyer personas segmenti acquirenti',
+      'nicchie evergreen vs stagionali',
+      'product-market fit stampabili',
+      'volume di ricerca parole chiave',
     ],
-    titleTag: 'Selezione della Nicchia per Venditori di Stampabili',
-    metaDescription: 'Selezione della nicchia per attività di stampabili: ricerca della domanda, analisi della concorrenza, valutazione redditività e strategia di espansione.',
+    titleTag: 'Scegliere la nicchia di stampabili | LessonCraftStudio',
+    metaDescription: 'Come scegliere la nicchia giusta per il tuo business di stampabili nel 2026. Framework di validazione, analisi concorrenza e strategie di espansione.',
   },
 
   hero: {
-    title: 'Guida alla Selezione della Nicchia per Attività di Stampabili',
+    title: 'Come Scegliere la Nicchia Giusta per Stampabili',
     tagline: 'Un framework completo per scegliere, validare e pianificare la nicchia giusta per la tua attività di stampabili — coprendo perché la selezione della nicchia determina il successo, identificare i tuoi vantaggi iniziali, ricercare la domanda di mercato, analizzare la concorrenza, valutare la redditività, validare prima di impegnarsi, scegliere tra nicchie sempreverdi e stagionali e pianificare la strategia di espansione',
-    description: 'La differenza tra venditori di stampabili che costruiscono attività sostenibili e quelli che lottano per anni spesso si riduce a una singola decisione iniziale: la selezione della nicchia. Scegliere la nicchia giusta determina il tuo pubblico, il tuo potere di prezzo, il tuo livello di concorrenza e il tuo potenziale di crescita a lungo termine. Questa guida fornisce un framework sistematico per valutare, scegliere e validare una nicchia di stampabili — che tu venda su Etsy, Amazon KDP, Gumroad, Gumroad o qualsiasi altra piattaforma.',
+    description: 'Nel mercato italiano dei stampabili educativi, la scelta della nicchia è la decisione che separa i venditori di successo da chi fatica per anni senza risultati. Con la domanda in crescita su Etsy, Amazon KDP e Gumroad nel 2026, le opportunità per chi si posiziona nella nicchia giusta sono enormi — ma solo se sai valutare la domanda reale, analizzare la concorrenza e validare la redditività prima di investire tempo nella creazione. Questa guida ti offre un framework sistematico per scegliere, testare e far crescere la tua nicchia di stampabili, evitando gli errori più comuni che bloccano i nuovi venditori. Scopri come trovare il punto d\'incontro tra le tue competenze e le esigenze del mercato.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili salta completamente la selezione della nicchia. Creano qualsiasi cosa gli venga in mente — una pagina da colorare qui, una scheda di matematica lì, un\'attività per le festività la settimana prossima — e sperano che qualcosa funzioni. Questo approccio dispersivo produce un negozio senza identità, senza acquirenti abituali e senza autorità nei motori di ricerca. Ogni prodotto compete indipendentemente perché nulla nel catalogo rafforza nient\'altro.\n\nI venditori focalizzati adottano l\'approccio opposto. Scelgono una nicchia specifica, comprendono gli acquirenti al suo interno e creano prodotti che servono quegli acquirenti in modo completo. Un venditore che si concentra sulle schede di matematica per la prima elementare diventa il punto di riferimento per la matematica di prima elementare. I suoi prodotti si promuovono a vicenda, il suo negozio acquisisce autorità negli algoritmi di ricerca, le sue recensioni si accumulano attorno a un singolo argomento e i suoi acquirenti tornano perché sanno esattamente cosa aspettarsi. Lo specialista supera costantemente il generalista nei marketplace affollati — non perché i suoi prodotti siano intrinsecamente migliori, ma perché il suo posizionamento è più chiaro.\n\nLa selezione della nicchia non riguarda solo la scelta di un argomento. È una decisione strategica che influenza ogni aspetto della tua attività: quali acquirenti attrai, quanto puoi far pagare, come fai marketing, quali piattaforme favoriscono i tuoi contenuti e quanto velocemente puoi crescere. Una nicchia ben scelta ha domanda sufficiente per sostenere un\'attività, concorrenza gestibile che permette a un nuovo venditore di guadagnare trazione, prezzi che supportano i tuoi obiettivi di fatturato e potenziale di espansione che impedisce di raggiungere un tetto dopo sei mesi.\n\nQuesta guida accompagna attraverso un processo sistematico di selezione della nicchia — dall\'identificazione dei tuoi vantaggi iniziali attraverso la ricerca di mercato, l\'analisi della concorrenza, la valutazione della redditività, la validazione e la pianificazione dell\'espansione. Il framework è indipendente dalla piattaforma: i principi si applicano che tu venda su Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica o il tuo sito web. Per tattiche specifiche per piattaforma, consulta le guide dedicate alle piattaforme collegate in questa pagina.',

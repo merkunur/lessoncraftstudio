@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere risorse Gumroad',
+    primaryKeyword: 'vendere materiale didattico su Eduki e Edudoro',
     secondaryKeywords: [
-      'come vendere su Gumroad',
-      'creare risorse Gumroad per venditori',
-      'guida venditore Gumroad per schede stampabili',
-      'configurazione negozio Gumroad',
+      'come vendere risorse educative su Eduki Italia',
+      'Edudoro marketplace materiale didattico venditori',
+      'configurazione negozio Eduki risorse stampabili',
+      'Freeed marketplace emergente risorse educative Italia',
+      'vendere schede didattiche piattaforme educative italiane',
     ],
     lsiKeywords: [
-      'marketplace imprenditori risorse per il negozio download digitale prodotti stampabili',
-      'account venditore Gumroad piano Premium commissione pagamento struttura',
-      'allineato agli standard livello scolastico area disciplinare tipo di risorsa categorizzazione',
-      'anteprima prodotto miniatura pagina di copertina termini d\'uso chiave delle risposte',
-      'algoritmo di ricerca Gumroad tag titolo descrizione scopribilità posizionamento',
-      'bundle schede unità curricolare pacchetto attività strategia di prezzo',
+      'marketplace insegnanti risorse didattiche download digitale',
+      'account venditore Eduki commissione pagamento struttura',
+      'livello scolastico area disciplinare categorizzazione risorse',
+      'anteprima prodotto miniatura scopribilità posizionamento',
     ],
-    titleTag: 'Creare e Vendere Risorse su Gumroad | Guida per Venditori',
-    metaDescription: 'Come creare e vendere risorse su Gumroad. Configurazione account, formattazione risorse, ottimizzazione inserzioni, prezzi e lancio su Gumroad.',
+    titleTag: 'Vendere su Eduki e Edudoro | LessonCraftStudio',
+    metaDescription: 'Come vendere materiale didattico su Eduki, Edudoro e Freeed in Italia. Configurazione negozio, ottimizzazione inserzioni e strategie per venditori.',
   },
 
   hero: {
-    title: 'Come Creare e Vendere Risorse su Gumroad',
+    title: 'Vendere materiale didattico su Eduki e Edudoro',
     tagline: 'Una guida completa alla vendita di risorse educative su Gumroad — che copre configurazione dell\'account e impostazione del negozio, creazione di risorse pronte per Gumroad con formattazione corretta, preparazione dei file per il caricamento, scrittura di inserzioni che si posizionano nelle ricerche dei venditori, creazione di anteprime e miniature efficaci, strategia di prezzo per il marketplace educativo e lancio delle prime risorse per costruire slancio nel negozio e ricavi costanti',
-    description: 'Gumroad (Gumroad) è un marketplace da imprenditore a imprenditore dove i venditori comprano e vendono risorse educative originali. A differenza dei marketplace generici come Etsy o delle piattaforme print-on-demand come Amazon KDP, ogni acquirente su Gumroad è un imprenditore che cerca attivamente materiali pronti per il negozio. Questo crea un pubblico mirato in modo unico con esigenze specifiche: contenuti allineati agli standard, attività appropriate al livello scolastico e risorse che funzionano nei negozi reali con una preparazione minima. Questa guida ti accompagna nel percorso completo dalla configurazione del tuo account venditore Gumroad alla pubblicazione delle tue prime risorse e alla costruzione dello slancio che trasforma un nuovo negozio in una fonte di ricavi costante.',
+    description: 'In Italia, le piattaforme principali per vendere materiale didattico sono Eduki (con una sezione italiana in rapida crescita), Edudoro (piattaforma polacca espansa in Italia) e Freeed come marketplace emergente. A differenza di Etsy o Amazon KDP, questi marketplace sono frequentati da insegnanti che cercano attivamente risorse pronte per la classe: schede allineate ai programmi scolastici, attività appropriate al livello e materiali che funzionano in aula con preparazione minima. Questa guida ti accompagna dalla configurazione del tuo account venditore alla pubblicazione delle prime risorse, con strategie specifiche per il mercato educativo italiano e consigli per massimizzare la visibilità su ciascuna piattaforma.',
   },
 
   introduction: 'Gumroad si distingue da ogni altra piattaforma per la vendita di contenuti educativi stampabili. Su Etsy, i tuoi acquirenti sono un mix di genitori, homeschooler, venditori e acquirenti di regali che navigano in un enorme marketplace generalista. Su Amazon KDP, i tuoi acquirenti sono consumatori che acquistano libri fisici. Su Gumroad, i tuoi acquirenti sono quasi esclusivamente venditori professionali, amministratori scolastici, specialisti del catalogo prodotti e imprenditori homeschool — persone che sanno esattamente ciò di cui hanno bisogno e valutano le risorse con un occhio professionale.\n\nQuesta distinzione modella tutto su come crei, confezzioni, fissi i prezzi e promuovi le tue risorse su Gumroad. i venditori che cercano su Gumroad filtrano per livello scolastico, area disciplinare, tipo di risorsa e standard educativi. Si aspettano una formattazione professionale con obiettivi di apprendimento chiari, chiavi delle risposte complete e istruzioni per l\'implementazione online. Valutano le risorse usando la funzione di anteprima, esaminando le pagine di esempio prima dell\'acquisto. E condividono raccomandazioni con i colleghi, creando un passaparola che nessuna ottimizzazione SEO può replicare.\n\nLa struttura delle commissioni Gumroad premia i venditori impegnati. Il piano Base gratuito ti permette di trattenere il 45% di ogni vendita — Gumroad prende una commissione del 55%. Il piano Premium costa $59.95 all\'anno ma aumenta la tua quota all\'80% di ogni vendita, con Gumroad che trattiene solo il 20%. Per qualsiasi venditore che prevede più di circa $150 di vendite annuali, il piano Premium si ripaga rapidamente e migliora drasticamente i tuoi margini su ogni vendita successiva.\n\nGumroad fornisce anche funzionalità integrate che altre piattaforme non offrono per i venditori educativi. Puoi taggare le risorse con standard educativi specifici (Common Core, standard statali, NGSS), assegnare intervalli di livello scolastico dettagliati, categorizzare per materia e tipo di risorsa, e offrire bundle personalizzati che permettono agli acquirenti di selezionare più risorse con uno sconto. Queste funzionalità significano che gli acquirenti possono trovare esattamente ciò di cui hanno bisogno attraverso filtri precisi piuttosto che indovinare le parole chiave, e le tue risorse appaiono automaticamente nelle ricerche pertinenti quando sono correttamente categorizzate.\n\nQuesta guida copre il processo completo per diventare un venditore Gumroad: configurazione dell\'account, creazione delle risorse, preparazione dei file, ottimizzazione delle inserzioni, creazione delle anteprime, strategia di prezzo e tattiche di lancio. Per i venditori già attivi su Etsy o KDP, questa guida si concentra su ciò che rende Gumroad diverso — i requisiti specifici per i venditori, le funzionalità uniche della piattaforma e le aspettative del pubblico educativo che richiedono un approccio specifico per Gumroad piuttosto che semplicemente replicare le tue inserzioni esistenti da altre piattaforme.',

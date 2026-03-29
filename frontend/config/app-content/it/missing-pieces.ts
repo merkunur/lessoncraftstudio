@@ -2,27 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore puzzle pezzi mancanti',
+    primaryKeyword: 'puzzle pezzi mancanti per quaderni KDP',
     secondaryKeywords: [
-      'creatore di puzzle pezzi mancanti stampabili per venditori Etsy',
-      'generatore di schede puzzle visivi per editori Amazon KDP',
-      'creatore di puzzle pezzi mancanti licenza commerciale Gumroad',
-      'vendere schede di pezzi mancanti stampabili su Gumroad',
+      'creare puzzle pezzi mancanti stampabili per Etsy',
+      'generatore puzzle visivi per libri Amazon KDP',
+      'puzzle jigsaw stampabili licenza commerciale',
+      'vendere schede pezzi mancanti su Eduki',
+      'business stampabili puzzle visivi immagini',
     ],
     lsiKeywords: [
-      'prodotti digitali di puzzle visivi per imprenditori',
-      'generatore di puzzle pezzi mancanti uso commerciale',
-      'attività di puzzle stampabili per business online',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'pezzi mancanti',
+      'puzzle visivi',
+      'business di stampabili',
+      'foglio risposte automatico',
     ],
-    titleTag: 'Generatore Puzzle Pezzi Mancanti | Creare e Vendere',
-    metaDescription: 'Crea puzzle di pezzi mancanti da vendere su Etsy, KDP e Gumroad. 6 forme di pezzo, difficoltà configurabile, foglio risposte automatico. Prova gratuita filigrana.',
+    titleTag: 'Puzzle pezzi mancanti per KDP e Etsy | LCS',
+    metaDescription:
+      'Crea puzzle di pezzi mancanti da vendere su Amazon KDP e Etsy. 6 forme, difficoltà configurabile, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Puzzle Pezzi Mancanti per Puzzle Visivi Stile Jigsaw',
+    title: 'Crea puzzle pezzi mancanti da vendere su KDP e Etsy',
     tagline: 'Genera puzzle stile jigsaw dove i pezzi vengono ritagliati dalle immagini e gli utenti identificano l\'opzione numerata corretta — con 6 forme di pezzo, 1–5 pezzi mancanti, 2–6 opzioni di soluzione con pezzi distrattori, fogli risposte autogenerati e design puramente visivo che funziona in qualsiasi lingua.',
     description:
-      'Crea puzzle professionali di pezzi mancanti dove un\'immagine presenta lacune ritagliate e gli utenti identificano quale opzione numerata riempie ciascuno spazio. L\'algoritmo intelligente di estrazione dei pezzi individua aree visivamente distinte con sufficiente varianza di colore, garantendo che ogni puzzle sia risolvibile e coinvolgente. Scegli tra 6 forme di pezzo — quadrato, cerchio, rettangolo verticale, rettangolo orizzontale, ellisse verticale e ellisse orizzontale — e configura la difficoltà con 1–5 pezzi mancanti e 2–6 opzioni di soluzione che includono pezzi distrattori per stimolare le capacità di discriminazione visiva. Ogni puzzle include un foglio risposte generato automaticamente con etichette numerate evidenziate in giallo posizionate all\'interno di ogni lacuna per indicare l\'opzione corretta. L\'intestazione autogenerata mostra \"Pezzi Mancanti\" in turchese (#06B6D4) con una descrizione in rosa (#DB2777) all\'interno di un sistema a doppio bordo — bordo esterno verde acqua (#14B8A6, 8px) e bordo interno rosa intenso (#EC4899, 3px) — localizzata in tutte le 11 lingue supportate. Pezzi Mancanti NON è sensibile alla lingua: i puzzle sono puramente visivi senza contenuto dipendente dalla lingua, quindi ogni puzzle funziona in modo identico in tutto il mondo. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di puzzle per Amazon KDP o crei attività di pensiero critico per Gumroad, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'I puzzle di pezzi mancanti sono un formato perfetto per i quaderni di attività su Amazon KDP e per le inserzioni su Etsy: coinvolgenti, facili da capire e adatti a tutte le età. Il mercato italiano è ancora un oceano blu con pochissimi concorrenti. Questo generatore crea puzzle professionali in cui un\'immagine viene ritagliata e gli utenti devono identificare il pezzo corretto tra diverse opzioni. Sei forme di pezzo, da 1 a 5 lacune e da 2 a 6 opzioni di soluzione ti permettono di costruire set progressivi di difficoltà crescente per un catalogo ampio e differenziato. Il foglio risposte viene generato automaticamente, risparmiandoti ore di lavoro. Ogni puzzle è puramente visivo e funziona in qualsiasi lingua, ideale per i mercati internazionali. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per KDP, Etsy ed Eduki. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede labirinti',
+    primaryKeyword: 'creare labirinti da vendere su Etsy',
     secondaryKeywords: [
-      'generatore schede labirinti',
-      'schede labirinti stampabili per bambini',
-      'labirinti puzzle da vendere',
-      'schede labirinti personalizzate con chiavi di risposta',
+      'labirinti stampabili per Etsy e Amazon KDP',
+      'generatore labirinti uso commerciale',
+      'vendere libri di labirinti per bambini online',
+      'creare schede labirinti con licenza commerciale',
+      'labirinti tematici da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'schede percorso illustrato',
-      'attività ragionamento spaziale per bambini',
-      'schede puzzle stampabili Etsy',
-      'libri attività labirinti Amazon KDP',
-      'schede labirinti con immagini tematiche',
-      'generatore labirinti con licenza commerciale',
+      'tre modalità gioco percorso illustrato classico direzionale',
+      'prodotti stampabili labirinti per venditori',
+      'libri labirinti Amazon KDP nicchia puzzle',
+      'schede ragionamento spaziale con chiavi di risposta',
     ],
-    titleTag: 'Creare Schede Labirinti per Bambini | Guida Completa',
-    metaDescription: 'Come creare schede labirinti con 3 modalità di gioco, immagini tematiche e chiavi di risposta. Genera schede stampabili da vendere su Etsy e Amazon KDP.',
+    titleTag: 'Labirinti da vendere su Etsy | LessonCraftStudio',
+    metaDescription: 'Crea labirinti con 3 modalità di gioco, immagini tematiche e chiavi di risposta automatiche. Genera schede stampabili per vendere su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede Labirinti e Fogli di Attività',
+    title: 'Labirinti da vendere su Etsy: guida alla creazione',
     tagline: 'Tutorial passo passo per creare schede labirinti tematiche in tre modalità di gioco distinte — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
-    description: 'I labirinti sono uno dei formati di puzzle più universalmente amati dai bambini. Sviluppano il ragionamento spaziale, la risoluzione dei problemi e la pazienza — e si vendono costantemente su ogni marketplace di stampabili. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore di Labirinti con Percorso Illustrato, che offre tre modalità di gioco fondamentalmente diverse: Percorso Illustrato per il tracciamento visivo del percorso, Labirinto negozico per la navigazione basata su pareti con conteggio dei collezionabili, e Scegli il Percorso Giusto per le decisioni direzionali. Ogni modalità produce un tipo di prodotto distinto da un singolo strumento. Imparerai come configurare le dimensioni della griglia, assegnare ruoli alle immagini tematiche, personalizzare l\'aspetto delle pareti e esportare PDF pronti per la stampa con chiavi di risposta automatiche. Che tu stia creando il tuo primo prodotto labirinto o espandendo un catalogo di schede puzzle, questo tutorial copre ogni impostazione e strategia necessaria.',
+    description: 'I labirinti sono tra i formati puzzle più amati e venduti su ogni marketplace di stampabili, con una domanda costante tutto l\'anno. Il mercato italiano offre un\'opportunità concreta per i venditori che vogliono differenziarsi: mentre la concorrenza si concentra su labirinti generici, il Generatore di Labirinti con Percorso Illustrato offre tre modalità di gioco fondamentalmente diverse — Percorso Illustrato, Labirinto Classico con collezionabili e Scegli il Percorso Giusto. Ogni modalità produce un tipo di prodotto distinto, triplicando la varietà del tuo catalogo da un singolo strumento. Con sei dimensioni di griglia, cinque ruoli per le immagini tematiche e oltre 100 set di immagini, puoi creare migliaia di variazioni uniche. Questa guida ti mostra come configurare ogni impostazione, assegnare ruoli alle immagini ed esportare PDF pronti per la stampa con chiavi di risposta automatiche. Che tu stia creando il tuo primo prodotto labirinto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'I labirinti toccano qualcosa di fondamentale nel modo in cui i bambini imparano. Seguire un percorso dall\'inizio alla fine richiede consapevolezza spaziale, pianificazione anticipata e la capacità di riprendersi dagli sbagli — competenze che si trasferiscono direttamente alla matematica, alla comprensione della lettura e alla navigazione nel mondo reale. Questa profondità educativa rende le schede labirinti una forte categoria di prodotto con domanda costante tutto l\'anno da genitori, venditori e centri di tutoraggio.\n\nCiò che distingue il Generatore di Labirinti con Percorso Illustrato dagli strumenti base è la presenza di tre modalità di gioco distinte. Percorso Illustrato crea attività di tracciamento visivo del percorso dove i bambini seguono un tragitto tra immagini tematiche. Labirinto negozico genera labirinti tradizionali basati su pareti con immagini collezionabili sparse lungo il percorso — combinando competenze di navigazione con pratica di conteggio. Scegli il Percorso Giusto presenta labirinti direzionali con opzioni di percorso multiple dove solo uno conduce alla destinazione corretta. Ogni modalità crea un prodotto fondamentalmente diverso, dandoti tre volte la varietà di catalogo da un singolo generatore.\n\nOltre alla selezione della modalità, il generatore offre personalizzazione estesa: sei dimensioni di griglia da 15x15 a 20x20, numero e lunghezza dei percorsi configurabili, controlli per colore e spessore delle pareti, cinque ruoli distinti per le immagini (Partenza, Arrivo, Percorso, Distrattori, Decorazioni) e oltre 100 set di immagini tematiche. Il risultato è uno strumento che può produrre migliaia di variazioni uniche di labirinti — ognuna un potenziale prodotto.\n\nTutte le funzionalità descritte in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare labirinti di esempio in tutte e tre le modalità, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

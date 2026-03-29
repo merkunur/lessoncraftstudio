@@ -2,27 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede cerca oggetti',
+    primaryKeyword: 'creare cerca e trova da vendere su Etsy e KDP',
     secondaryKeywords: [
-      'creatore schede cerca e trova stampabili per venditori Etsy',
-      'generatore attività trova oggetti nascosti per editori KDP',
-      'creatore schede cerca oggetti licenza commerciale',
-      'vendere schede trova l\'intruso su Gumroad',
+      'generatore schede cerca oggetti per negozio Etsy',
+      'creare attività trova l\'intruso per quaderni Amazon KDP',
+      'schede cerca e trova stampabili licenza commerciale',
+      'vendere schede di ricerca visiva su Eduki',
+      'business stampabili attività cerca oggetti nascosti',
     ],
     lsiKeywords: [
-      'stampabili cerca oggetti nascosti digitali business online',
-      'generatore schede cerca e trova uso commerciale',
-      'strumenti business attività ricerca visiva stampabili',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'cerca e trova',
+      'trova l\'intruso',
+      'business di stampabili',
+      'chiave di risposta automatica',
     ],
-    titleTag: 'Generatore Schede Cerca Oggetti | Crea e Vendi Online',
-    metaDescription: 'Crea schede Cerca Oggetti da vendere su Etsy, KDP e Gumroad. Modalità Cerca e Trova e Trova l\'Intruso, chiave di risposta automatica.',
+    titleTag: 'Schede cerca e trova da vendere su Etsy | LCS',
+    metaDescription:
+      'Crea schede cerca e trova professionali da vendere su Etsy e KDP. Due modalità, risposte automatiche, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede Cerca Oggetti per Attività Cerca e Trova e Trova l\'Intruso',
+    title: 'Crea schede cerca e trova da vendere su Etsy e KDP',
     tagline: 'Due modalità di attività in un unico generatore — scene Cerca e Trova con posizionamento senza sovrapposizioni e Trova l\'Intruso con immagini appaiate in righe — con chiavi di risposta auto-generate, dimensionamento adattivo delle immagini, campi nome e data e una legenda che mostra gli oggetti da trovare.',
     description:
-      'Crea schede professionali di ricerca oggetti dove gli utenti esplorano una scena di immagini in formato libero per trovare e cerchiare oggetti specifici. Scegli tra due modalità di attività: la modalità Cerca e Trova usa un algoritmo di posizionamento senza sovrapposizioni per distribuire 1–5 oggetti nascosti tra 8–12 distrattori sulla pagina — nessuna griglia, nessuna riga e colonna, solo una scena visiva coerente generata dall\'algoritmo findBestPosition() che prova 50 posizioni casuali per immagine e riduce adattivamente le dimensioni quando lo spazio è limitato. Una legenda in fondo alla scheda mostra agli utenti esattamente quali oggetti cercare. La modalità Trova l\'Intruso dispone 8–12 immagini appaiate in righe con 1–5 elementi spaiati mescolati — gli utenti identificano le immagini che non hanno un partner corrispondente. Il sistema a doppio canvas genera sia una scheda attività che una chiave di risposta — la chiave di risposta disegna cerchi rossi attorno agli oggetti nascosti (Cerca e Trova) o agli elementi spaiati (Trova l\'Intruso) così non devi mai segnarli manualmente. Il Generatore Cerca Oggetti è solo visivo: la lingua influisce sulle etichette dell\'interfaccia ma NON sul contenuto delle schede, quindi ogni scheda funziona in qualsiasi lingua senza nomi di immagini localizzati. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per l\'interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, attiva/disattiva i campi nome e data, personalizza l\'intestazione auto-dimensionata con 6 scelte di font ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4 o dimensioni personalizzate. Che tu venda pacchetti di attività Cerca e Trova su Etsy, compili quaderni di oggetti nascosti per Amazon KDP o crei attività di discriminazione visiva per Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'I libri di oggetti nascosti e le attività "cerca e trova" sono tra i best seller su Amazon KDP, e il mercato italiano è ancora un oceano blu con pochissima concorrenza. Con questo generatore crei schede professionali di cerca e trova in pochi minuti. Due modalità distinte — Cerca e Trova con posizionamento intelligente senza sovrapposizioni e Trova l\'Intruso con immagini appaiate — ti permettono di costruire un catalogo di prodotti ampio e differenziato. La chiave di risposta viene generata automaticamente, eliminando ore di lavoro manuale. Ogni scheda è puramente visiva e funziona in qualsiasi lingua, perfetta per vendere su mercati internazionali. Scegli tra 104 temi con oltre 3100 illustrazioni ed esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati. L\'Accesso Completo include la licenza commerciale e 11 lingue di interfaccia per Etsy, Amazon KDP ed Eduki. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

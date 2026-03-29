@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede disegno e simmetria',
+    primaryKeyword: 'creare schede di disegno da vendere',
     secondaryKeywords: [
-      'generatore schede disegno su griglia per bambini',
-      'generatore schede simmetria stampabili',
-      'schede stampabili disegno su griglia da vendere',
-      'schede riproduzione cella per cella',
+      'schede disegno su griglia stampabili per Etsy e KDP',
+      'generatore schede simmetria uso commerciale',
+      'vendere schede riproduzione cella per cella online',
+      'creare schede disegno e simmetria con licenza commerciale',
+      'schede disegno su griglia da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'stampabili disegno a doppia griglia',
-      'schede percentuale indizi regolabile',
-      'esercizi simmetria modalità specchio',
-      'vendere schede disegno su Etsy',
-      'quaderni attività disegno Amazon KDP',
-      'strumento schede contorno bianco e nero',
+      'sistema doppia griglia con percentuale indizi regolabile',
+      'tre modalità simmetria per prodotti diversificati',
+      'output senza testo per vendite internazionali',
+      'contorni bianco e nero per libri KDP',
     ],
-    titleTag: 'Creare Schede Disegno e Simmetria | Guida per Venditori',
-    metaDescription: 'Crea schede di disegno e simmetria con sistema a doppia griglia, percentuale di indizi regolabile, tre modalità simmetria e contorni B&W. Vendi su Etsy e KDP.',
+    titleTag: 'Schede di disegno da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di disegno su griglia con doppia griglia, indizi regolabili e 3 modalità simmetria. Output senza testo per vendere su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di Disegno e Simmetria',
+    title: 'Schede di disegno e simmetria da vendere online',
     tagline: 'Tutorial passo passo per creare schede di disegno su griglia con difficoltà regolabile, modalità simmetria e temi di contorno in bianco e nero da vendere su Etsy, Amazon KDP e Gumroad',
-    description: 'Le schede di disegno su griglia combinano due competenze molto richieste in un\'unica pagina: riproduzione spaziale e riconoscimento della simmetria. gli utenti copiano un\'immagine di riferimento cella per cella da una griglia degli indizi parzialmente rivelata in una griglia di pratica vuota, sviluppando motricità fine, accuratezza nell\'osservazione e ragionamento spaziale con ogni esercizio. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore Schede Disegno e Colorazione — dalla configurazione delle dimensioni della griglia e delle percentuali di indizi alla scelta delle modalità simmetria e all\'esportazione di PDF pronti per la stampa. Il formato a doppia griglia, l\'output senza testo e lo stile con contorno in bianco e nero rendono queste schede vendibili universalmente senza traduzione. Che tu stia lanciando il tuo primo prodotto di schede disegno o espandendo un catalogo esistente di attività visive, avrai prodotti finiti pronti per la pubblicazione alla fine di questo tutorial.',
+    description: 'Le schede di disegno su griglia sono un formato innovativo che combina riproduzione spaziale e riconoscimento della simmetria in un\'unica pagina, distinguendosi immediatamente dalla concorrenza sui marketplace. Il sistema a doppia griglia con percentuale di indizi regolabile crea decine di combinazioni di difficoltà da una singola immagine, moltiplicando il tuo catalogo senza sforzo aggiuntivo. L\'output completamente senza testo e lo stile con contorno in bianco e nero rendono ogni scheda vendibile universalmente in qualsiasi paese senza traduzione — un vantaggio competitivo enorme per i venditori italiani che vogliono raggiungere mercati internazionali. Tre modalità simmetria (Casuale, Specchio Orizzontale, Specchio Verticale) e dimensioni della griglia da 3x3 a 10x10 creano una gamma completa di prodotti per ogni fascia d\'età. Questa guida ti mostra come usare il Generatore Schede Disegno e Colorazione per creare prodotti professionali con oltre 3.000 contorni tematici. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'Il disegno su griglia è uno dei metodi più efficaci per sviluppare la consapevolezza spaziale e la motricità fine nei bambini. A differenza del disegno a mano libera, la riproduzione basata sulla griglia offre agli utenti un quadro strutturato: osservano le celle di riferimento, identificano forme e linee, e le ricreano nelle celle vuote corrispondenti. Questo approccio cella per cella costruisce accuratezza nell\'osservazione, coordinazione occhio-mano e le capacità di ragionamento spaziale che sono alla base del pensiero geometrico e del design.\n\nCiò che rende le schede di disegno su griglia particolarmente forti come prodotto stampabile è il sistema a doppia griglia. Ogni scheda presenta due griglie complementari per immagine: una Griglia di Pratica con celle vuote dove gli utenti disegnano, e una Griglia degli Indizi che mostra una percentuale configurabile dell\'immagine di riferimento come suggerimenti visivi. Questo formato è fondamentalmente diverso dalle pagine da colorare o dai suggerimenti di disegno a mano libera perché fornisce una guida strutturata che si adatta alla difficoltà. Abbassa la percentuale di indizi per esercizi più difficili, alzala per quelli più facili — la stessa immagine diventa decine di prodotti distinti.\n\nIl Generatore Schede Disegno e Colorazione gestisce la complessità tecnica. Genera layout a doppia griglia automaticamente, offre tre modalità simmetria (Casuale, Specchio Orizzontale, Specchio Verticale) per esercizi di ragionamento spaziale, e attinge da una libreria di oltre 100 collezioni di contorni in bianco e nero con più di 3.000 illustrazioni progettate specificamente per la riproduzione a disegno e la colorazione successiva. Due assi di difficoltà indipendenti — dimensione della griglia (da 3×3 a 10×10) e percentuale di indizi (dal 10% al 75%) — creano decine di combinazioni di difficoltà uniche da una singola immagine tematica. L\'output non contiene testo, rendendo ogni scheda vendibile universalmente senza traduzione su tutti i marketplace internazionali.\n\nTutte le funzionalità descritte in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede campione, testare ogni dimensione di griglia, percentuale di indizi e modalità simmetria, e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

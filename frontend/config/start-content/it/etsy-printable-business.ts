@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'vendere stampabili su Etsy',
+    primaryKeyword: 'masterclass business Etsy stampabili',
     secondaryKeywords: [
-      'attività stampabili Etsy',
-      'negozio Etsy per schede didattiche stampabili',
-      'come vendere schede su Etsy',
-      'attività download digitali Etsy',
+      'vendere schede stampabili su Etsy Italia',
+      'SEO Etsy per download digitali educativi',
+      'configurare negozio Etsy stampabili passo-passo',
+      'ottimizzare inserzioni Etsy schede didattiche',
+      'scalare vendite stampabili Etsy oltre 50 prodotti',
     ],
     lsiKeywords: [
-      'SEO Etsy per venditori di stampabili',
-      'ottimizzazione inserzioni Etsy schede',
-      'configurazione negozio Etsy prodotti digitali',
-      'tag Etsy per schede didattiche stampabili',
-      'generatore di schede per venditori Etsy',
-      'strategia di pricing stampabili Etsy',
+      'tag Etsy per schede stampabili',
+      'strategia pricing prodotti digitali Etsy',
+      'generatore schede per venditori Etsy',
+      'miniature inserzioni Etsy che convertono',
     ],
-    titleTag: 'Vendere Stampabili su Etsy | Masterclass Guida Completa',
-    metaDescription: 'Come vendere stampabili su Etsy passo dopo passo. Configurazione negozio, SEO Etsy, ottimizzazione inserzioni, pricing e scalabilità con i generatori.',
+    titleTag: 'Masterclass Etsy stampabili | LessonCraftStudio',
+    metaDescription: 'Masterclass per vendere stampabili su Etsy: configurazione negozio, SEO, inserzioni ottimizzate, pricing e scalabilità. Prova gratuita con filigrana.',
   },
 
   hero: {
-    title: 'Masterclass Attività Stampabili su Etsy',
+    title: 'Masterclass: Vendere Stampabili su Etsy con Successo',
     tagline: 'La guida specifica per costruire un negozio di schede didattiche stampabili redditizio su Etsy',
-    description: 'Etsy è il più grande marketplace per download digitali stampabili. Questa masterclass copre tutto ciò che serve per costruire un negozio di schede didattiche stampabili redditizio sulla piattaforma — dalla configurazione iniziale del negozio e SEO specifico per Etsy all\'ottimizzazione delle inserzioni, strategia di pricing, pubblicità e scalabilità oltre i primi 50 prodotti. Ogni strategia in questa guida è pensata specificamente per il funzionamento di Etsy, non consigli generici applicabili a qualsiasi marketplace.',
+    description: 'Etsy è il marketplace più grande per download digitali stampabili, e il mercato italiano su Etsy.it è in crescita costante. Questa masterclass copre ogni aspetto tattico per costruire un negozio redditizio: dalla configurazione iniziale e SEO specifico per Etsy all\'ottimizzazione delle inserzioni che convertono, dalla strategia di pricing alla scalabilità oltre i primi 50 prodotti. Ogni strategia è pensata specificamente per il funzionamento dell\'algoritmo Etsy. Prova gratuita con filigrana per creare prodotti di esempio e validare la tua nicchia prima di acquistare.',
   },
 
   introduction: 'Etsy elabora miliardi di dollari in vendite di download digitali ogni anno, e le schede didattiche stampabili sono una delle categorie in più rapida crescita della piattaforma. A differenza della vendita sul proprio sito web dove devi generare ogni visitatore da solo, Etsy ti porta acquirenti che stanno già cercando esattamente ciò che crei. I genitori digitano \"schede di addizione stampabili\" nella ricerca Etsy. i venditori cercano \"bundle pagine da colorare per la scuola dell\'infanzia\". Le famiglie homeschool cercano \"schede di pratica matematica prima elementare\". Il tuo compito è essere il negozio che trovano.\n\nMa Etsy è anche affollato. Migliaia di venditori pubblicano schede didattiche stampabili, e l\'algoritmo di ricerca della piattaforma decide chi ottiene visibilità e chi resta sepolto. Avere successo su Etsy richiede la comprensione di come funziona la ricerca della piattaforma, cosa spinge gli acquirenti a cliccare sulla tua inserzione invece che su quella di un concorrente, e come strutturare il tuo negozio per la massima scopribilità.\n\nQuesta masterclass è specifica per Etsy dall\'inizio alla fine. I consigli generici per attività di stampabili si trovano nella nostra Guida Completa per Avviare un\'Attività di Stampabili. Questa guida presume che tu abbia scelto Etsy come piattaforma e che desideri le conoscenze tattiche e specifiche per farla funzionare.\n\nUna nota prima di iniziare: ogni generatore di schede menzionato in questa guida offre una prova gratuita con filigrana. Puoi creare prodotti di esempio, testare inserzioni Etsy e validare la tua nicchia prima di acquistare una licenza commerciale.',

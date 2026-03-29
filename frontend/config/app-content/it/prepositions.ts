@@ -2,28 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede preposizioni',
+    primaryKeyword: 'schede di preposizioni per italiano L2 da vendere su Eduki',
     secondaryKeywords: [
-      'schede di preposizioni stampabili per Etsy',
-      'generatore schede vocabolario spaziale per Amazon KDP',
-      'vendere schede di preposizioni su Gumroad',
-      'schede di preposizioni spaziali licenza commerciale',
+      'creare schede preposizioni italiano per stranieri',
+      'generatore esercizi preposizioni per certificazione CILS',
+      'schede vocabolario spaziale italiano L2 licenza commerciale',
+      'vendere materiali italiano per stranieri su Etsy',
+      'business stampabili preposizioni CELI PLIDA',
     ],
     lsiKeywords: [
-      'prodotti digitali di vocabolario spaziale per imprenditori',
-      'attività di preposizioni stampabili business online',
-      'generatore schede linguaggio spaziale uso commerciale',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'italiano L2',
+      'CILS',
+      'CELI',
+      'PLIDA',
+      'preposizioni articolate',
+      'business di stampabili',
     ],
-    titleTag: 'Generatore Schede Preposizioni | Crea e Vendi Online',
+    titleTag: 'Schede preposizioni italiano L2 per Eduki | LCS',
     metaDescription:
-      'Crea schede di preposizioni da vendere su Etsy, KDP e Gumroad. 8 preposizioni spaziali, completa la frase e scelta multipla. Prova gratuita con filigrana.',
+      'Crea schede di preposizioni per italiano L2 da vendere su Eduki e Etsy. 8 preposizioni, CILS/CELI/PLIDA, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Preposizioni per la Pratica del Vocabolario Spaziale',
+    title: 'Schede preposizioni italiano L2 da vendere su Eduki',
     tagline: 'Otto preposizioni spaziali combinate con esercizi di immagini e forme — costruendo il vocabolario spaziale frase dopo frase.',
     description:
-      'Crea schede di preposizioni professionali che insegnano le relazioni spaziali attraverso esercizi pratici con immagini e forme. gli utenti praticano otto preposizioni fondamentali — in/dentro, su/sopra, sotto, accanto a, dietro, tra/fra, sopra e davanti a — attraverso due modalità di esercizio distinte: Completa la Frase, dove gli utenti scrivono la preposizione mancante, e Scelta Multipla, dove identificano l\'immagine che corrisponde a una descrizione spaziale. Seleziona quali preposizioni includere dalla lista integrata e configura da 1 a 8 esercizi per scheda. Esplora oltre 3100 illustrazioni selezionate in 104 temi per gli oggetti posizionati, e scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. L\'Accesso Completo sblocca tutte le 11 lingue supportate con preposizioni grammaticalmente corrette — tedesco con le preposizioni articolate come \"im" e \"am", francese con le regole di elisione per \" l\' \" davanti a vocali, italiano con le preposizioni articolate (nel, nella, sul, sulla, nello, nell\') — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. Ogni scheda genera una chiave di risposta automatica, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di preposizioni su Etsy, compili libri di vocabolario spaziale per Amazon KDP o crei centri linguistici differenziati per il Gumroad, il Generatore di Schede di Preposizioni offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'L\'italiano è studiato da oltre 2,5 milioni di persone nel mondo, e la domanda di materiali per le certificazioni CILS, CELI e PLIDA cresce ogni anno. Su Eduki e Etsy i materiali di italiano L2 sono ancora pochissimi, creando un\'opportunità unica per venditori di stampabili. Questo generatore crea schede di preposizioni professionali con otto relazioni spaziali — in, su, sotto, accanto a, dietro, tra, sopra, davanti a — attraverso due modalità: Completa la Frase e Scelta Multipla. Le preposizioni articolate italiane (nel, nella, sul, sulla, nello, nell\') vengono generate correttamente, un vantaggio rispetto ai materiali generici. Configura da 1 a 8 esercizi per scheda e scegli tra 104 temi con oltre 3100 illustrazioni. La chiave di risposta è automatica. L\'Accesso Completo include la licenza commerciale e 11 lingue per vendere su mercati internazionali. Esporta PDF a oltre 400 DPI per Eduki, Etsy e Amazon KDP. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

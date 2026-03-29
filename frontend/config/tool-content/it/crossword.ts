@@ -1,26 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare cruciverba con immagini per il negozio',
+    primaryKeyword: 'generatore di cruciverba gratis con immagini',
     secondaryKeywords: [
-      'creatore di cruciverba per venditori',
-      'cruciverba con immagini per bambini',
-      'cruciverba stampabili per la scuola',
-      'cruciverba di vocabolario per utenti',
+      'creare cruciverba gratis online',
+      'generatore cruciverba stampabile gratis',
+      'cruciverba con immagini senza registrazione',
+      'cruciverba da stampare gratis PDF',
+      'generatore cruciverba multilingue gratis',
     ],
     lsiKeywords: [
-      'cruciverba con indizi visivi per il vocabolario',
-      'generatore di cruciverba localizzato per il negozio',
-      'chiave di risposta automatica cruciverba',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Creare Cruciverba con Immagini — per il negozio',
-    metaDescription: 'Crea cruciverba con immagini per il negozio. Griglia 15x15, quattro metodi di input, chiave di risposta automatica. Prova gratuita con filigrana.',
+    titleTag: 'Generatore di cruciverba gratis | LessonCraftStudio',
+    metaDescription: 'Crea cruciverba con immagini gratis online, senza registrazione. Griglia 15×15, 4 metodi di input, chiave di risposta, 11 lingue. Licenza per vendere.',
     },
 
   hero: {
-    title: 'Generatore di Cruciverba',
+    title: 'Generatore di Cruciverba Gratis Online',
     tagline: 'Generatore di cruciverba con immagini su griglia fissa 15×15, quattro metodi di input (generazione rapida per tema, modifica manuale dei nomi, lista parole personalizzata con indizi e caricamento immagini personalizzate), chiave di risposta automatica con griglia compilata tramite sistema doppio canvas, parole multilingue in 11 lingue tramite Vocabolario Immagini e intestazione localizzata blu (#5B9BD5) con titolo Fredoka e descrizione Quicksand su 104 collezioni tematiche',
-    description: 'Crea cruciverba professionali con immagini dove illustrazioni colorate sostituiscono gli indizi di testo tradizionali. Otto immagini generano otto parole su una griglia fissa 15×15 — l\'algoritmo estrae le parole dai nomi delle immagini, rimuove gli spazi, converte in maiuscolo, mescola, ordina per lunghezza (le più lunghe prima) e posiziona le parole con incroci ottimali alle lettere condivise. Le posizioni degli indizi numerate segnano l\'inizio di ogni parola e gli indizi immagine appaiono accanto alla griglia con numeri corrispondenti. Scegli tra quattro metodi di input che servono diverse esigenze di creazione. La Generazione Rapida per Tema seleziona automaticamente 8 immagini casuali da una qualsiasi delle 104 collezioni tematiche e genera istantaneamente — il modo più veloce per ottenere un cruciverba completo. La Modifica Manuale dei Nomi ti permette di cliccare sulle singole immagini e rinominarle prima della generazione, dando un controllo preciso sulle parole che appariranno nella griglia. La Lista Parole Personalizzata con Indizi passa ai cruciverba tradizionali con indizi di testo nel formato PAROLA: indizio per cruciverba di vocabolario specifico senza immagini. Il Caricamento Immagini Personalizzate ti permette di aggiungere i tuoi file JPEG, PNG, GIF o WebP insieme al contenuto della libreria. Il Generatore di Cruciverba è sensibile alla lingua: le parole del puzzle provengono dai nomi localizzati delle immagini tramite il sistema Vocabolario Immagini. Cambiando la lingua del contenuto cambiano le parole effettive del cruciverba — un\'immagine di gatto genera "CAT" in inglese ma "KATZE" in tedesco, "CHAT" in francese e "GATTO" in italiano, producendo cruciverba completamente diversi dalle stesse immagini. Il livello Commerciale include il contenuto in inglese; l\'Accesso Completo sblocca tutte le 11 lingue per le parole localizzate. Il sistema doppio canvas genera sia una scheda puzzle che una scheda chiave di risposta — la chiave di risposta mostra la griglia compilata con tutte le risposte corrette visibili nelle celle. Ogni cruciverba include un\'intestazione localizzata generata automaticamente con sfondo blu (#5B9BD5), pillola bianca, titolo Fredoka con dimensionamento dinamico (48px per titoli brevi fino a 28px per traduzioni lunghe) e descrizione Quicksand. La modalità verticale mostra un\'intestazione a larghezza piena (altezza 220px); la modalità orizzontale usa un layout centrato compatto (altezza 145px). Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica immagini personalizzate. Applica temi di sfondo e bordo con controlli di opacità indipendenti. Esporta PDF e JPEG pronti per la stampa a 300 DPI (moltiplicatore 6×) in Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale o dimensioni personalizzate. Attiva la scala di grigi per un output ottimizzato per l\'inchiostro. La prova gratuita include tutte le funzionalità con filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea cruciverba con immagini gratis direttamente nel browser — nessuna registrazione, nessun download. Otto immagini generano otto parole su una griglia fissa 15×15 con incroci ottimali alle lettere condivise. Scegli tra quattro metodi di input: Generazione Rapida per Tema, Modifica Manuale dei Nomi, Lista Parole Personalizzata con Indizi o Caricamento Immagini Personalizzate. Il generatore è sensibile alla lingua — la stessa immagine genera parole diverse in ciascuna delle 11 lingue supportate. La chiave di risposta automatica mostra la griglia compilata con tutte le soluzioni. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni, applica sfondi e cornici personalizzabili ed esporta PDF e JPEG a 300 DPI. Vuoi vendere i tuoi cruciverba su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

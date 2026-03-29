@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schede abbinamento ombre stampabili',
+    primaryKeyword: 'generatore schede ombre gratis',
     secondaryKeywords: [
-      'generatore schede abbinamento ombre per venditori',
-      'creare schede abbinamento silhouette da vendere',
-      'generatore puzzle ombre stampabili uso commerciale',
-      'creatore schede abbinamento ombre per KDP e Etsy',
+      'creare schede abbinamento ombre gratis online',
+      'schede ombre stampabili gratis',
+      'generatore abbinamento silhouette senza registrazione',
+      'schede abbinamento ombre gratis PDF',
+      'generatore puzzle ombre gratuito online',
     ],
     lsiKeywords: [
-      'strumento doppia modalità silhouette e immagini divise',
-      'generatore silhouette pixel-level con algoritmo derangement',
-      'chiave di risposta automatica puzzle abbinamento ombre',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Abbinamento Ombre — Generatore Schede Ombre Stampabili',
-    metaDescription: 'Crea schede di abbinamento ombre con silhouette pixel-level e modalità Completa, chiavi di risposta automatiche e 104 temi illustrati. Prova con filigrana.',
+    titleTag: 'Schede ombre gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di abbinamento ombre gratis online, senza registrazione. Silhouette pixel-level, modalità Completa, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Abbinamento Ombre',
+    title: 'Crea Schede Abbinamento Ombre Gratis Online',
     tagline: 'Generatore di schede abbinamento ombre a doppia modalità con creazione silhouette pixel-level, modalità Completa l\'Immagine con tagli orizzontali e verticali, algoritmo di derangement Fisher-Yates che garantisce nessun abbinamento banale, chiavi di risposta automatiche con etichette lettera-numero, identificatori A/B/C/D e 1/2/3/4 attivabili e disattivabili, e 104 collezioni tematiche di immagini per schede abbinamento ombre vendibili in tutto il mondo',
-    description: 'Crea schede professionali di abbinamento ombre con due modalità di esercizio distinte in un unico generatore. La modalità Abbinamento Ombre posiziona 4 immagini colorate etichettate A, B, C, D nella riga superiore e 4 silhouette nere generate automaticamente etichettate 1, 2, 3, 4 nella riga inferiore — le silhouette vengono create attraverso elaborazione pixel-level che converte ogni pixel con alpha > 10 in nero puro (R=0, G=0, B=0, A=255), producendo contorni accurati che preservano il profilo di trasparenza esatto di ogni immagine. Questa è vera elaborazione pixel, non filtri CSS o risorse shadow pre-create. La modalità Completa l\'Immagine divide 4 immagini in metà — scegli il taglio orizzontale (metà superiore/inferiore) o verticale (metà sinistra/destra) — etichetta le prime metà A–D e le seconde metà 1–4, e gli utenti ricollegano i pezzi per completare ogni immagine. Entrambe le modalità utilizzano un algoritmo di derangement Fisher-Yates che garantisce che nessun elemento appaia nella sua posizione originale, eliminando gli abbinamenti banali e assicurando che ogni scheda presenti una sfida di abbinamento genuina. Il derangement si ricalcola a ogni generazione, producendo arrangiamenti diversi dallo stesso set di immagini. Attiva/disattiva la visualizzazione delle etichette per gli identificatori A/B/C/D e 1/2/3/4 — etichette ATTIVE forniscono supporto lettera-numero per i più piccoli, etichette DISATTIVE creano una sfida di abbinamento puramente visiva ideale per libri di puzzle e attività avanzate. Aggiungi campi opzionali nome e data per la responsabilità online. Il sistema a doppio canvas genera simultaneamente sia una scheda lavoro che una scheda chiave di risposta — la chiave di risposta mostra ogni abbinamento corretto lettera-numero (A → 2, B → 4, ecc.) accanto alle immagini originali e alle relative silhouette o immagini complete, così non crei mai le chiavi di risposta manualmente. Il layout si adatta automaticamente: le pagine orizzontali dispongono gli elementi in 2 righe × 4 elementi, le pagine verticali usano 2 colonne × 4 elementi. Un\'intestazione stilizzata appare con sfondo ambra (#FFC107), contenitore bianco a pillola e bordo ambra di 3px che mostra "Shadow Match" e le istruzioni nella lingua selezionata. Abbinamento Ombre NON è sensibile alla lingua — l\'output del puzzle è puramente visivo senza contenuto testuale localizzato sulla scheda stessa, rendendo ogni scheda vendibile universalmente in tutti i mercati senza traduzione. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica le tue immagini PNG, JPG o GIF. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Aggiungi testo personalizzato con 7 opzioni di font (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Esporta quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Scegli formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate con alternanza scala di grigi per stampe economiche. Modifica tutto sul canvas Fabric.js con strumenti di allineamento, livelli, blocca/sblocca, zoom 25%–300% e annulla/ripristina 20 stati. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede di abbinamento ombre gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre due modalità: Abbinamento Ombre con silhouette nere generate pixel-level da 4 immagini colorate, e Completa l\'Immagine con tagli orizzontali o verticali. L\'algoritmo di derangement Fisher-Yates garantisce che nessun elemento appaia nella posizione originale, creando sfide genuine a ogni generazione. Attiva o disattiva le etichette A/B/C/D per adattare la difficoltà. Il doppio canvas genera simultaneamente la scheda e la chiave di risposta. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

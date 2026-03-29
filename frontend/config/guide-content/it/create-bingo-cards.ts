@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare cartelle bingo',
+    primaryKeyword: 'creare cartelle tombola con immagini da vendere',
     secondaryKeywords: [
-      'creare cartelle bingo con immagini',
-      'generatore cartelle bingo per bambini',
-      'cartelle bingo stampabili da vendere',
-      'generatore bingo con immagini personalizzate',
+      'cartelle tombola stampabili per Etsy e KDP',
+      'generatore tombola con immagini uso commerciale',
+      'vendere set tombola tematici online',
+      'creare cartelle bingo con licenza commerciale',
+      'tombola per bambini da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'cartelle bingo tematiche per il negozio',
-      'bingo stampabile per feste e attività',
-      'vendere cartelle bingo su Etsy',
-      'libri attività bingo per Amazon KDP',
-      'strumento bingo con licenza commerciale',
-      'generatore cartelle bingo uniche multiple',
+      'cartelle tombola uniche con schede del conduttore',
+      'prodotti stampabili tombola per venditori',
+      'tombola tematica feste compleanno Natale',
+      'generatore cartelle multiple con posizionamento casuale',
     ],
-    titleTag: 'Creare Cartelle Bingo con Immagini | Guida Passo Passo',
-    metaDescription: 'Come creare cartelle bingo con immagini tematiche. Scegli dimensioni griglia, genera cartelle uniche con schede del conduttore ed esporta PDF per la stampa.',
+    titleTag: 'Cartelle tombola da vendere | LessonCraftStudio',
+    metaDescription: 'Crea cartelle tombola con immagini tematiche, griglie configurabili e schede del conduttore. Genera set unici pronti per vendere su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Cartelle Bingo con Immagini Tematiche',
+    title: 'Cartelle tombola da vendere: guida alla creazione',
     tagline: 'Tutorial passo passo per creare cartelle bingo tematiche e pronte per la stampa con schede del conduttore da vendere su Etsy, Amazon KDP e Gumroad',
-    description: 'Le cartelle bingo sono tra i prodotti stampabili più versatili che puoi creare. i venditori le usano per il ripasso del vocabolario e come attività premio online. I genitori le usano per feste di compleanno e serate di giochi in famiglia. Gli organizzatori di eventi le usano per baby shower, feste natalizie e attività di team building. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore di Cartelle Bingo — dalla scelta della dimensione della griglia e del tema alla generazione di cartelle uniche multiple con schede del conduttore e all\'esportazione di tutto come PDF pronti per la stampa. Che tu stia costruendo il tuo primo prodotto di gioco stampabile o espandendo nel mercato ad alta domanda delle attività per feste e negozi, avrai un set completo di cartelle bingo pronto per la pubblicazione entro la fine di questo tutorial.',
+    description: 'La tombola è una tradizione profondamente radicata nella cultura italiana, specialmente durante il periodo natalizio, e le cartelle tombola con immagini tematiche sono tra i prodotti stampabili più versatili e richiesti. Genitori, insegnanti e organizzatori di eventi cercano costantemente set personalizzati per feste di compleanno, serate in famiglia e attività scolastiche. A differenza di una scheda singola, ogni set di tombola richiede cartelle uniche multiple — il che giustifica prezzi premium e crea un prodotto intrinsecamente più ricco. Questa guida ti mostra come usare il Generatore di Cartelle Bingo per creare set professionali con griglie configurabili (da 3x3 a 5x5), schede del conduttore dedicate e cartelle con posizionamento casuale delle immagini. Puoi esportare tutto come PDF multipagina o JPEG individuali in archivio ZIP. Il mercato italiano offre un vantaggio competitivo unico: il termine "tombola" ha un forte valore culturale che i venditori internazionali non possono replicare. Che tu stia creando il tuo primo prodotto di gioco o espandendo un catalogo esistente, avrai set completi pronti per la pubblicazione.',
   },
 
   introduction: 'Il bingo è uno dei pochi prodotti stampabili che serve tre segmenti di acquirenti completamente diversi contemporaneamente. i venditori hanno bisogno di set bingo tematici per il ripasso del vocabolario, attività premio e pause al chiuso. I genitori e gli organizzatori di feste hanno bisogno di cartelle bingo personalizzate per feste di compleanno, baby shower, celebrazioni natalizie e serate di giochi in famiglia. E i venditori di stampabili hanno bisogno di prodotti bingo perché si negozificano tra i prodotti stampabili in formato gioco con il più alto tasso di conversione su ogni principale marketplace.\n\nCiò che rende le cartelle bingo particolarmente potenti come prodotto stampabile è il requisito intrinseco di cartelle uniche multiple. A differenza di una scheda dove ogni utente riceve la stessa pagina, il bingo richiede che ogni giocatore abbia una cartella diversa. Una singola partita di bingo necessita di 10, 20 o anche 30 cartelle uniche — tutte che condividono lo stesso pool di immagini ma con posizionamento casuale. Questo requisito strutturale significa che ogni prodotto bingo è intrinsecamente un bundle, il che giustifica prezzi più alti rispetto ai stampabili a pagina singola.\n\nIl Generatore di Cartelle Bingo gestisce la complessità che rende le cartelle bingo difficili da creare manualmente. Genera cartelle uniche multiple per sessione, ciascuna con posizionamento casuale delle immagini dal tema scelto. Produce schede del conduttore dedicate che mostrano ogni immagine utilizzata in tutte le cartelle. Supporta dimensioni della griglia configurabili da 3×3 a 5×5, modalità solo immagini o immagini con etichette parola, e esporta tutto come PDF multipagina o JPEG individuali in un archivio ZIP.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare set di cartelle bingo di esempio, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

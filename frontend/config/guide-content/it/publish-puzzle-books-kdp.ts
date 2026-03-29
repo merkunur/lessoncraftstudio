@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pubblicare libri puzzle KDP',
+    primaryKeyword: 'pubblicare libri di giochi su Amazon KDP',
     secondaryKeywords: [
-      'come pubblicare libri puzzle su Amazon KDP',
-      'guida pubblicazione libri puzzle KDP',
-      'creare libri cerca parole per Amazon',
-      'Amazon KDP libri cruciverba sudoku puzzle',
+      'come creare libri puzzle per Amazon KDP guida',
+      'libri crucipuzzle cruciverba sudoku KDP formattazione',
+      'strategia serie multi-volume libri puzzle Amazon',
+      'libri puzzle varietà adulti bambini KDP mercato',
+      'conteggio pagine progressione difficoltà libri giochi',
     ],
     lsiKeywords: [
-      'cerca parole cruciverba sudoku pagine interne libro puzzle',
-      'libro puzzle conteggio pagine progressione difficoltà sezione soluzioni',
-      'KDP libro puzzle misto varietà formattazione tipi diversi',
-      'Amazon libro puzzle parole chiave categorie mercato adulti bambini',
-      'print-on-demand catalogo puzzle serie volumi numerazione',
-      'griglia puzzle spaziatura formato ritaglio chiavi risposta materiale finale',
+      'griglia puzzle spaziatura formato ritaglio KDP',
+      'sezione soluzioni chiavi risposta libro puzzle',
+      'print-on-demand catalogo puzzle serie volumi',
+      'parole chiave Amazon categorie libri giochi',
     ],
-    titleTag: 'Pubblicare Libri di Puzzle su Amazon KDP | Guida Pratica',
-    metaDescription: 'Scopri come pubblicare libri puzzle su Amazon KDP con cerca parole, cruciverba e sudoku. Formattazione, libri varietà, strategia serie e ottimizzazione.',
+    titleTag: 'Pubblicare libri di giochi su KDP | LessonCraftStudio',
+    metaDescription: 'Pubblica libri di giochi su Amazon KDP con crucipuzzle, cruciverba e sudoku. Formattazione, strategia serie e ottimizzazione per il mercato italiano.',
   },
 
   hero: {
-    title: 'Come Pubblicare Libri Puzzle su Amazon KDP',
+    title: 'Pubblicare libri di giochi su Amazon KDP: guida pratica',
     tagline: 'Una guida completa alla creazione e pubblicazione di libri puzzle su Amazon KDP — cerca parole, cruciverba, sudoku, puzzle matematici e puzzle visivi, come strutturare libri a tipo singolo e varietà, formattazione specifica per puzzle in stampa con spaziatura griglia adeguata e sezioni soluzioni, il doppio mercato dei libri puzzle per adulti e bambini, ottimizzazione parole chiave Amazon per ricerche puzzle, progressione difficoltà su sezioni facile medio e difficile, costruzione di serie multi-volume di libri puzzle, e strategie di catalogo che sfruttano la promozione incrociata Amazon per aumentare le vendite su tutta la tua linea di libri puzzle',
-    description: 'I libri puzzle sono una delle categorie più grandi e costantemente redditizie su Amazon KDP. A differenza dei libri di attività matematica che si rivolgono principalmente a genitori e venditori di bambini piccoli, i libri puzzle servono un enorme doppio mercato — adulti che apprezzano cerca parole, cruciverba e sudoku come intrattenimento quotidiano, più bambini che si cimentano con puzzle visivi, percorsi illustrati e cerca parole a tema. Questa guida ti accompagna nella creazione di libri puzzle professionali dalla generazione dei contenuti alla pubblicazione su Amazon, con attenzione specifica a ciò che rende i libri puzzle diversi da altre categorie: conteggi pagine più alti, la scelta tra formati a tipo singolo e varietà, requisiti di formattazione specifici per i puzzle, e la strategia di catalogo basata sui volumi che genera entrate a lungo termine su KDP.',
+    description: 'I libri di giochi sono tra le categorie più redditizie su Amazon KDP, con un doppio mercato che include adulti appassionati di crucipuzzle, cruciverba e sudoku e bambini che si cimentano con puzzle visivi e tematici. Per gli editori italiani, questa nicchia offre opportunità significative grazie alla domanda costante tutto l\'anno. Questa guida ti accompagna dalla generazione dei contenuti alla pubblicazione su Amazon, con attenzione specifica a ciò che distingue i libri puzzle: conteggi pagine più alti, la scelta tra formati a tipo singolo e varietà, requisiti di formattazione specifici per le griglie e la strategia di serie multi-volume che genera entrate ricorrenti su KDP.',
   },
 
   introduction: 'I libri puzzle si posizionano costantemente tra le categorie più vendute su Amazon KDP. La sola categoria cerca parole genera migliaia di nuovi titoli ogni mese, e cruciverba, sudoku e libri puzzle varietà mantengono una domanda costante tutto l\'anno. Ciò che rende i libri puzzle particolarmente attraenti per gli editori KDP è il doppio pubblico — gli adulti acquistano libri puzzle per intrattenimento personale, relax e esercizio cognitivo, mentre genitori e venditori li acquistano per l\'apprendimento e il coinvolgimento dei bambini. Questo significa che la tua base di clienti potenziali è drammaticamente più ampia rispetto alle categorie che servono un solo pubblico.\n\nL\'economia dei libri puzzle differisce dalle altre categorie di libri di attività KDP in modi importanti. I libri puzzle hanno tipicamente conteggi pagine più alti — da 60 a 120 pagine è lo standard rispetto a 40–80 per i libri di attività matematica — perché gli acquirenti si aspettano un numero sostanziale di puzzle per libro. Ogni puzzle occupa una pagina intera per usabilità, quindi un libro di cerca parole da 100 puzzle richiede almeno 100 pagine di attività più pagine preliminari, istruzioni e una sezione soluzioni. Conteggi pagine più alti aumentano i costi di stampa, ma giustificano anche prezzi al dettaglio più alti che possono generare forti royalty per vendita quando prezzati strategicamente.\n\nI libri puzzle si prestano naturalmente anche alla pubblicazione basata sui volumi. Un appassionato di cerca parole che finisce il Volume 1 è un acquirente pronto per il Volume 2, Volume 3 e oltre. Questa dinamica di acquisto ripetuto è più forte nei libri puzzle che in quasi ogni altra categoria KDP perché i puzzle nella stampa sono monouso — una volta risolto, un puzzle non può essere rifatto. Questo ciclo di consumo integrato significa che il tuo catalogo acquista più valore con ogni nuovo titolo man mano che i clienti abituali acquistano più volumi.\n\nQuesta guida si concentra specificamente su ciò che rende unica la pubblicazione di libri puzzle. Per i fondamentali KDP come le specifiche di formattazione del manoscritto, i calcoli delle dimensioni della copertina, i livelli di royalty e le pratiche generali di inserzione su Amazon, consulta la guida ai libri di attività matematica KDP che copre questi argomenti fondamentali in dettaglio. Qui ci concentriamo sulla strategia di contenuti specifica per i puzzle, la scelta tra formati a tipo singolo e varietà, le considerazioni di formattazione uniche per le griglie puzzle, e l\'approccio di costruzione catalogo che massimizza le entrate a lungo termine dalla pubblicazione di libri puzzle.',

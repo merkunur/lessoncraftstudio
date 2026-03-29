@@ -1,26 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare puzzle matematici per il negozio',
+    primaryKeyword: 'creare puzzle di matematica gratis',
     secondaryKeywords: [
-      'puzzle matematici jigsaw per venditori',
-      'creatore di puzzle matematici per bambini',
-      'puzzle di matematica con immagini per il negozio',
-      'schede puzzle matematici per utenti',
+      'puzzle matematici gratis online',
+      'generatore puzzle matematici stampabili gratis',
+      'creare puzzle jigsaw matematica senza registrazione',
+      'puzzle matematici con immagini gratis PDF',
+      'schede puzzle matematici da stampare gratis',
     ],
     lsiKeywords: [
-      'puzzle matematico con griglia per il negozio',
-      'attività puzzle matematico per bambini',
-      'creatore di puzzle matematici configurabile',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Creare Puzzle Matematici — Per venditori',
-    metaDescription: 'Crea puzzle matematici con griglie di immagini per il negozio. Tre modalità operative, chiave di risposta automatica. Prova gratuita con filigrana.',
+    titleTag: 'Puzzle di matematica gratis online | LessonCraftStudio',
+    metaDescription: 'Crea puzzle matematici gratis online, senza registrazione. Griglia jigsaw, 3 modalità, chiave di risposta, PDF istantaneo. Licenza commerciale per vendere.',
     },
 
   hero: {
-    title: 'Generatore Puzzle Matematici',
+    title: 'Crea Puzzle di Matematica Gratis Online',
     tagline: 'Crea puzzle jigsaw con immagini ed equazioni matematiche in meno di 60 secondi',
-    description: 'Trasforma la pratica matematica in un coinvolgente puzzle visivo che non assomiglia a nessuna scheda tradizionale. Questo strumento divide un\'immagine scelta in una griglia di celle, ciascuna contenente un\'equazione matematica. Sotto appaiono i pezzi del puzzle mescolati con i numeri delle risposte — gli utenti risolvono ogni equazione e abbinano il pezzo corretto per ricostruire l\'immagine. Scegli tra tre modalità operative: Addizione, Sottrazione o Mista (entrambe le operazioni combinate casualmente). Regola la dimensione della griglia da 2×2 (4 pezzi, più facile) fino a 4×4 (16 pezzi, più difficile) per adattarla a qualsiasi livello di competenza. Carica le tue immagini PNG o JPEG per puzzle personalizzati, stagionali o di nicchia, oppure sfoglia la libreria integrata con oltre 3.100 immagini in 104 temi. Il formato jigsaw crea un prodotto immediatamente riconoscibile che si distingue nei risultati di ricerca dei marketplace — gli acquirenti che scorrono file di schede identiche si fermeranno davanti a un puzzle colorato con immagini. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni.',
+    description: 'Crea puzzle di matematica gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento divide un\'immagine in una griglia di celle con equazioni matematiche. Sotto appaiono i pezzi del puzzle mescolati con le risposte — gli utenti risolvono ogni equazione e abbinano il pezzo corretto per ricostruire l\'immagine. Scegli tra tre modalità operative: Addizione, Sottrazione o Mista. Regola la dimensione della griglia da 2×2 fino a 4×4 per adattarla a qualsiasi livello. Carica le tue immagini PNG o JPEG oppure sfoglia la libreria integrata con oltre 3.100 immagini in 104 temi. Scarica PDF pronti per la stampa o JPEG ad alta risoluzione con foglio soluzioni automatico. Vuoi vendere i tuoi puzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

@@ -1,26 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede addizione per il negozio',
+    primaryKeyword: 'generatore di schede di addizione gratis online',
     secondaryKeywords: [
-      'creatore di schede addizione per venditori',
-      'schede addizione matematica per bambini',
-      'esercizi di addizione stampabili',
-      'schede addizione con immagini per la scuola materna',
+      'creare schede addizione gratis online',
+      'schede addizione stampabili gratis',
+      'generatore addizione senza registrazione',
+      'esercizi addizione con immagini gratis PDF',
+      'schede addizione da stampare gratis',
     ],
     lsiKeywords: [
-      'schede matematiche visive per il negozio',
-      'esercizi di addizione con immagini per bambini',
-      'schede matematiche scuola materna per venditori',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Creare Schede Addizione — Per venditori',
-    metaDescription: 'Crea schede di addizione con immagini tematiche per il negozio. 104 temi, 4 modalità, chiave di valore percepito e PDF stampabili. Prova gratuita con filigrana.',
+    titleTag: 'Schede di addizione gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di addizione gratis online, senza registrazione. 104 temi illustrati, 4 modalità, PDF istantaneo. Licenza commerciale per vendere.',
     },
 
   hero: {
-    title: 'Generatore di Schede di Addizione',
+    title: 'Crea Schede di Addizione Gratis Online',
     tagline: 'Crea schede di addizione illustrate e professionali in meno di 60 secondi',
-    description: 'Trasforma gli esercizi di matematica in un\'avventura visuale che entusiasma i bambini e genera entrate solide per i venditori. Con questo potente strumento crei schede di addizione personalizzate con immagini tematiche che i bambini vogliono davvero completare. Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta il livello di difficoltà attraverso quattro modalità di esercizio, definisci il layout della pagina in ogni dettaglio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano prodotti stampabili di matematica, editori Amazon KDP che compilano libri di attività e venditori che necessitano di materiali differenziati per vari livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
+    description: 'Crea schede di addizione gratis con immagini tematiche direttamente nel browser — nessuna registrazione, nessun download. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, imposta il livello di difficoltà attraverso quattro modalità di esercizio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione in pochi secondi. Il generatore supporta formati Letter, A4 e quadrato con sfondi decorativi, cornici, font personalizzabili e chiave di risposta automatica. Ideale per creare materiali di matematica visuale con conteggio per immagini, addendi misti e layout professionali. Ogni scheda è unica grazie alla generazione casuale degli esercizi. La prova gratuita include tutte le funzionalità con filigrana sui download. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

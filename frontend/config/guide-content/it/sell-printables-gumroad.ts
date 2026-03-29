@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere stampabili su Gumroad',
+    primaryKeyword: 'vendere stampabili su Gumroad guida',
     secondaryKeywords: [
-      'come vendere stampabili su Gumroad',
-      'configurazione attività stampabili Gumroad',
-      'vendere download digitali su Gumroad',
-      'Gumroad per venditori di stampabili',
+      'come vendere download digitali su Gumroad Italia',
+      'configurazione vetrina Gumroad stampabili educativi',
+      'Gumroad prezzi paga-quanto-vuoi stampabili venditori',
+      'email marketing Gumroad costruzione pubblico venditori',
+      'bundle abbonamenti stampabili Gumroad entrate ricorrenti',
     ],
     lsiKeywords: [
-      'piattaforma vendita diretta al creatore download digitali consegna istantanea lista email',
-      'vetrina Gumroad branding pagina prodotto immagine copertina ottimizzazione descrizione',
-      'prezzi paga-quanto-vuoi codici sconto link d\'offerta prezzi a livelli',
-      'email marketing costruzione pubblico lista follower aggiornamenti prodotto newsletter',
-      'traffico social media Pinterest Instagram contenuti blog promozione SEO',
-      'bundle prodotti abbonamenti entrate ricorrenti scalabilità catalogo',
+      'vendita diretta al creatore download digitali Gumroad',
+      'pagina prodotto branding ottimizzazione descrizione',
+      'traffico social media Pinterest Instagram promozione',
+      'codici sconto link d\'offerta prezzi a livelli',
     ],
-    titleTag: 'Come Vendere Stampabili su Gumroad | Guida per Venditori',
-    metaDescription: 'Come vendere stampabili su Gumroad senza canoni mensili. Configurazione vetrina, strategie di prezzo, email marketing e relazioni dirette con i clienti.',
+    titleTag: 'Vendere stampabili su Gumroad | LessonCraftStudio',
+    metaDescription: 'Guida per vendere stampabili su Gumroad: configurazione vetrina, prezzi flessibili, email marketing e relazioni dirette con i clienti. Inizia senza canoni.',
   },
 
   hero: {
-    title: 'Come Vendere Stampabili su Gumroad',
+    title: 'Vendere stampabili su Gumroad: guida per venditori',
     tagline: 'Una guida completa alla vendita di schede stampabili e risorse educative direttamente agli acquirenti tramite Gumroad — che copre configurazione della vetrina, creazione prodotti, opzioni di prezzo flessibili incluso paga-quanto-vuoi, email marketing integrato per la costruzione del pubblico, strategie di generazione traffico per una piattaforma di vendita diretta al creatore, ottimizzazione delle pagine prodotto per una conversione più alta e scalabilità con bundle e abbonamenti per entrate ricorrenti',
-    description: 'Gumroad è fondamentalmente diverso dalle piattaforme marketplace come Etsy, Amazon KDP o Gumroad. Su quelle piattaforme, la ricerca integrata guida la scoperta — gli acquirenti navigano il marketplace e trovano i tuoi prodotti attraverso gli algoritmi. Su Gumroad, tu sei il marketplace. Porti il tuo pubblico, possiedi la relazione con il cliente e mantieni gli indirizzi email degli acquirenti per il marketing diretto. Questa guida copre tutto ciò che serve per vendere stampabili su Gumroad con successo, dalla configurazione iniziale della vetrina alla scalabilità con bundle e abbonamenti.',
+    description: 'Gumroad offre ai venditori italiani di stampabili un modello fondamentalmente diverso dai marketplace come Etsy o Amazon KDP. Su Gumroad tu sei il marketplace: porti il tuo pubblico, possiedi la relazione con il cliente e mantieni gli indirizzi email per il marketing diretto, il tutto con una commissione fissa del 10% e nessun canone mensile. Questa guida copre tutto ciò che serve per vendere stampabili su Gumroad: dalla configurazione della vetrina personalizzata alle strategie di prezzo flessibili come il paga-quanto-vuoi, dall\'email marketing integrato alla scalabilità con bundle e abbonamenti per entrate ricorrenti.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili inizia su piattaforme marketplace dove il traffico di ricerca integrato fa il lavoro pesante. Etsy ha milioni di acquirenti attivi che cercano download digitali. Amazon KDP presenta i tuoi libri di attività ai lettori attraverso il suo motore di raccomandazione. Gumroad collega le tue risorse ai venditori che cercano attivamente per livello scolastico e materia. Questi marketplace forniscono scoperta, ma controllano anche la relazione con il cliente, prendono commissioni significative e possono cambiare i loro algoritmi o politiche in qualsiasi momento.\n\nGumroad opera su un modello completamente diverso. Non c\'\u00e8 ricerca marketplace, nessun algoritmo che negozifica i tuoi prodotti contro i concorrenti e nessun meccanismo di scoperta controllato dalla piattaforma. Invece, Gumroad ti offre una vetrina pulita e personalizzabile dove vendi direttamente agli acquirenti che porti attraverso i tuoi sforzi di marketing. Il compromesso \u00e8 chiaro: fai pi\u00f9 lavoro per generare traffico, ma mantieni pi\u00f9 controllo sulla tua attivit\u00e0 e sulle relazioni con i clienti.\n\nQuesto compromesso merita seria considerazione per i venditori di stampabili a qualsiasi stadio. Gumroad non ha canoni mensili — paghi una commissione fissa del 10% solo quando effettui una vendita. Confrontalo con le tariffe di inserzione di Etsy, le commissioni di transazione, le spese di elaborazione pagamenti e i costi pubblicitari che possono consumare dal 20% al 30% dei tuoi ricavi. Confrontalo con i tagli sulle royalty del 40% al 65% di Amazon KDP sui libri di attività. Su Gumroad, tieni il 90% di ogni vendita dopo l\'elaborazione del pagamento, e sai esattamente quali sono i tuoi costi prima di fissare il prezzo di un singolo prodotto.\n\nMa il vantaggio finanziario non \u00e8 nemmeno il pi\u00f9 grande punto di forza di Gumroad per i venditori di stampabili che costruiscono un\'attività a lungo termine. Il vero valore sono i dati dei clienti. Quando qualcuno compra il tuo stampabile su Etsy, Etsy possiede quella relazione con il cliente. Non puoi inviare email a quell\'acquirente sui tuoi nuovi prodotti, offrirgli uno sconto su una risorsa correlata o costruire alcuna connessione diretta. Su Gumroad, ottieni l\'indirizzo email dell\'acquirente con ogni acquisto. Puoi inviare email ai tuoi clienti sulle nuove uscite, offrire codici sconto esclusivi agli acquirenti abituali e costruire un pubblico che nessun cambiamento di piattaforma può portarti via.\n\nGumroad offre anche flessibilità di prezzo che le piattaforme marketplace non possono eguagliare. Puoi impostare prezzi fissi, offrire prezzi paga-quanto-vuoi con un minimo, creare prezzi a livelli per diversi tipi di licenza, generare codici sconto unici per le promozioni e usare link d\'offerta che applicano sconti automaticamente. Questa flessibilità ti permette di sperimentare strategie di prezzo impossibili su piattaforme con strutture di prezzo rigide.\n\nQuesta guida \u00e8 progettata per venditori di stampabili che vogliono aggiungere Gumroad come canale di vendita o costruire la loro attività principale sulla piattaforma. Che tu stia già vendendo su Etsy o Gumroad e voglia diversificare, o che tu stia iniziando da zero e preferisca il modello di vendita diretta al creatore, le strategie seguenti ti porteranno dalla configurazione dell\'account alla costruzione di un\'attività di stampabili Gumroad scalabile. Se stai confrontando piattaforme per decidere dove vendere, la nostra guida su Amazon KDP vs Etsy copre il confronto marketplace in dettaglio — aggiungere Gumroad come canale di vendita diretta complementa entrambi gli approcci marketplace.',

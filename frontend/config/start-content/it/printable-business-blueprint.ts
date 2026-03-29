@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'idee per attività di stampabili',
+    primaryKeyword: 'piano d\'azione business stampabili',
     secondaryKeywords: [
-      'piano d\'affari per stampabili',
-      'blueprint attività stampabili per venditori',
-      'idee redditizie per prodotti stampabili',
-      'avviare una linea di prodotti stampabili',
+      'blueprint attività stampabili passo-passo',
+      'pianificare linea prodotti stampabili Etsy',
+      'strategia lancio negozio stampabili 90 giorni',
+      'mappatura catalogo schede didattiche da vendere',
+      'piano d\'affari download digitali educativi',
     ],
     lsiKeywords: [
-      'pianificazione negozio stampabili Etsy',
-      'strategia prodotti Amazon KDP',
-      'obiettivi di fatturato schede didattiche',
-      'espansione catalogo stampabili',
-      'mappatura linea prodotti per venditori',
-      'checklist lancio attività stampabili',
+      'validazione nicchia stampabili',
+      'obiettivi fatturato realistici venditori',
+      'espansione catalogo prodotti digitali',
+      'timeline lancio stampabili Etsy KDP',
     ],
-    titleTag: 'Blueprint per Guadagnare con Stampabili | Idee e Guida',
-    metaDescription: 'Trasforma le idee per stampabili in un piano strutturato. Pianifica la linea prodotti, scegli le piattaforme, imposta i prezzi e lancia il tuo business.',
+    titleTag: 'Piano d\'azione: business stampabili | LessonCraftStudio',
+    metaDescription: 'Trasforma le tue idee in un piano d\'azione concreto per stampabili. Nicchia, linea prodotti, piattaforme, prezzi e timeline a 90 giorni. Prova gratuita.',
   },
 
   hero: {
-    title: 'Il Blueprint per Stampabili: Dall\'Idea al Guadagno',
+    title: 'Piano d\'Azione per il Tuo Business di Stampabili',
     tagline: 'Un piano strutturato che trasforma idee sparse per stampabili in una linea di prodotti focalizzata e redditizia',
-    description: 'La maggior parte delle attività di stampabili fallisce non perché al venditore mancavano le idee, ma perché mancava un piano. Questo blueprint ti guida attraverso ogni fase della pianificazione: validare la tua idea, mappare la linea prodotti, scegliere le piattaforme giuste, fissare obiettivi di fatturato realistici e lanciare con un piano d\'azione chiaro. Che tu parta da zero o ristrutturi un negozio che non performa, questa guida ti offre il framework strategico che separa i venditori che costruiscono un reddito sostenibile da quelli che creano prodotti casuali sperando nel meglio.',
+    description: 'La maggior parte delle attività di stampabili fallisce non per mancanza di idee, ma per mancanza di un piano. Questo blueprint ti guida dalla validazione dell\'idea alla mappatura della linea prodotti, dalla scelta delle piattaforme italiane e internazionali alla definizione di obiettivi di fatturato realistici. In 90 giorni avrai un catalogo strutturato di 50 prodotti, una strategia di prezzo testata e un programma di produzione settimanale. Ogni generatore offre una prova gratuita con filigrana per testare la creazione dei prodotti come parte del tuo processo di pianificazione.',
   },
 
   introduction: 'Internet è pieno di idee per attività di stampabili. Sfoglia qualsiasi forum per imprenditori e troverai liste di \"50 stampabili che puoi vendere oggi\" o \"migliori prodotti digitali per Etsy\". Le idee non sono il problema. Il problema è che la maggior parte dei venditori salta completamente la fase di pianificazione.\n\nScelgono un\'idea a caso, creano una manciata di prodotti, li pubblicano su Etsy e si chiedono perché non vende nulla dopo due settimane. Poi scelgono un\'idea diversa e ripetono lo stesso ciclo. Sei mesi dopo, hanno un negozio disordinato con 15 prodotti non correlati, nessun brand chiaro e zero slancio.\n\nI venditori che costruiscono un reddito reale dai stampabili approcciano la cosa in modo diverso. Iniziano con un blueprint — un piano strutturato che mappa la loro nicchia, la linea prodotti, la strategia per le piattaforme, i prezzi e le milestone di crescita prima di creare un singolo prodotto. Quel piano non deve essere complesso, ma deve esistere.\n\nQuesta guida è quel blueprint. Alla fine, avrai un piano concreto che copre i tuoi primi 50 prodotti, la tua strategia per le piattaforme, la tua struttura dei prezzi e la tua timeline di lancio a 90 giorni. Ogni generatore di schede menzionato offre una prova gratuita con filigrana, così puoi testare la creazione dei prodotti come parte del tuo processo di pianificazione senza alcun costo iniziale.',

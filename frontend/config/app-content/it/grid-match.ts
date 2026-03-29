@@ -2,28 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore puzzle a griglia',
+    primaryKeyword: 'puzzle di abbinamento su griglia per business stampabili',
     secondaryKeywords: [
-      'generatore di puzzle a griglia stampabili per venditori Etsy',
-      'creatore di puzzle a pezzi di immagini per editori Amazon KDP',
-      'generatore di puzzle a griglia con licenza commerciale',
-      'vendere puzzle a griglia di immagini su Gumroad',
+      'creare puzzle a griglia stampabili per negozio Etsy',
+      'generatore puzzle pezzi immagine per quaderni Amazon KDP',
+      'puzzle griglia licenza commerciale da vendere',
+      'vendere attività di percezione visiva su Eduki',
+      'business stampabili puzzle immagini a griglia',
     ],
     lsiKeywords: [
-      'prodotti digitali di puzzle a griglia per imprenditori',
-      'generatore di puzzle a pezzi di immagini uso commerciale',
-      'attività di percezione visiva stampabili per business online',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'puzzle a griglia',
+      'percezione visiva',
+      'business di stampabili',
+      'foglio risposte automatico',
     ],
-    titleTag: 'Generatore Puzzle a Griglia | Crea e Vendi Stampabili',
+    titleTag: 'Puzzle a griglia da vendere su Etsy e KDP | LCS',
     metaDescription:
-      'Crea puzzle a griglia da vendere su Etsy, KDP e Gumroad. Griglia configurabile, caselle-indizio, risposte automatiche, 104 temi. Prova gratuita con filigrana.',
+      'Crea puzzle a griglia professionali da vendere su Etsy e KDP. Griglia configurabile, risposte automatiche, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Puzzle a Griglia per Attività di Abbinamento Pezzi di Immagini',
+    title: 'Crea puzzle a griglia da vendere su Etsy, KDP e oltre',
     tagline: 'Trasforma qualsiasi immagine in un puzzle basato su griglia — dividila in pezzi, rivela caselle-indizio configurabili, mescola i pezzi rimanenti in una palette numerata e genera automaticamente un foglio risposte con cerchi numerati sovrapposti su 104 collezioni di immagini tematiche.',
     description:
-      'Crea puzzle a griglia professionali dove un\'unica immagine viene divisa in una griglia di pezzi e gli utenti abbinano i pezzi numerati alle posizioni corrette. Configura la griglia da 2×2 a 4×4 (2–4 righe × 2–4 colonne) e imposta 1–5 caselle-indizio che rimangono visibili come suggerimenti — meno indizi significa un puzzle più difficile. L\'app mescola i pezzi rimanenti usando l\'algoritmo Fisher-Yates e li presenta in una palette numerata accanto o sotto la griglia. gli utenti studiano le caselle-indizio rivelate, esaminano i pezzi numerati e scrivono quale numero corrisponde a ciascuna cella vuota. Il sistema a doppio canvas genera sia una scheda di lavoro che un foglio risposte — il foglio risposte mostra l\'immagine completa con cerchi numerati sovrapposti su ogni cella indicando il posizionamento corretto dei pezzi, senza necessità di creare risposte manualmente. Il Puzzle a Griglia NON è sensibile alla lingua: il risultato del puzzle è puramente visivo, senza contenuto testuale localizzato nella scheda. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi testo personalizzato con sette opzioni di font, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4 o dimensioni personalizzate. Che tu venda pacchetti di puzzle di immagini su Etsy, compili quaderni di percezione visiva per Amazon KDP o crei attività di puzzle rapidi per Gumroad, questo generatore produce puzzle a griglia pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'I puzzle a griglia con immagini sono un formato di prodotto stampabile altamente vendibile su Etsy e Amazon KDP, eppure in italiano la concorrenza è quasi inesistente. Questo generatore ti permette di creare puzzle professionali in cui un\'immagine viene divisa in pezzi e gli utenti devono abbinarli alla posizione corretta. Configura la griglia da 2x2 a 4x4, imposta 1-5 caselle-indizio per regolare la difficoltà e genera set progressivi per costruire un catalogo completo. Il foglio risposte viene creato automaticamente con cerchi numerati, eliminando il lavoro manuale. Ogni puzzle è puramente visivo e funziona in qualsiasi lingua, ideale per vendere su mercati internazionali. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni KDP o listini Eduki. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

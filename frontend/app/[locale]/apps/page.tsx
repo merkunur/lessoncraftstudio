@@ -34,9 +34,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'generadores imprimibles vender Etsy, fichas KDP Hotmart, sopas letras generador, fichas matemáticas crear, negocio imprimibles hispano, generador colorear vender',
   },
   it: {
-    title: '33 Generatori di Stampabili | Strumenti Etsy & KDP',
-    description: 'Scopri 33 generatori di stampabili professionali. Cerca parole, schede matematica, disegni da colorare, puzzle e altro. Prova gratis con filigrana. Vendi su Etsy e Amazon KDP.',
-    keywords: 'generatore stampabili, Etsy stampabili, KDP schede, vendere stampabili online, generatore cerca parole, creatore schede matematica, generatore disegni colorare, business stampabili',
+    title: '33 generatori di stampabili — Vendi su Etsy | LessonCraftStudio',
+    description: 'Crea e vendi stampabili con 33 generatori professionali. Crucipuzzle, matematica, colorare, puzzle. Licenza commerciale inclusa. Prova gratis con filigrana.',
+    keywords: 'generatori di stampabili per creare e vendere, generatore stampabili Etsy, KDP schede vendere, business stampabili italiano, generatore crucipuzzle, creatore schede matematica vendere',
   },
   pt: {
     title: '33 Geradores de Imprimir | Ferramentas Etsy & KDP',

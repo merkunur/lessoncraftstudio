@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'migliori strumenti per venditori di stampabili',
+    primaryKeyword: 'strumenti essenziali business stampabili',
     secondaryKeywords: [
-      'checklist strumenti attività stampabili',
-      'strumenti generatore schede per venditori',
-      'strumenti per vendere stampabili online',
-      'toolkit produzione stampabili',
+      'toolkit produzione schede stampabili per venditori',
+      'generatori di schede PDF 300 DPI commerciale',
+      'strumenti creazione contenuti stampabili Etsy KDP',
+      'software per vendere download digitali educativi',
     ],
     lsiKeywords: [
-      'strumenti venditori Etsy per download digitali',
-      'strumenti produzione libri attività Amazon KDP',
-      'software creazione schede per imprenditori',
-      'automazione flusso di lavoro attività stampabili',
-      'strumenti generatore schede multilingue',
-      'produzione schede con licenza commerciale',
+      'automazione flusso di lavoro stampabili',
+      'strumenti design copertina e mockup',
+      'utilità gestione piattaforma venditori',
+      'generatore schede multilingue licenza commerciale',
+      'produzione batch schede professionali',
     ],
-    titleTag: 'Strumenti per Venditori di Stampabili | Guida Completa',
-    metaDescription: 'I migliori strumenti per venditori di stampabili: generatori di schede, strumenti di design, utilità per piattaforme e workflow per un toolkit professionale.',
+    titleTag: 'Strumenti per business stampabili | LessonCraftStudio',
+    metaDescription: 'Gli strumenti essenziali per venditori di stampabili: generatori di schede, design, formattazione e gestione piattaforma. Prova gratuita con filigrana.',
   },
 
   hero: {
-    title: 'Strumenti Essenziali per Imprenditori di Stampabili',
+    title: 'Strumenti Essenziali per il Tuo Business di Stampabili',
     tagline: 'La guida completa al toolkit per imprenditori di stampabili — dalla creazione dei contenuti alla gestione delle piattaforme, ogni strumento necessario per produrre, confezionare e vendere schede professionali',
-    description: 'Costruire un\'­attività di stampabili richiede gli strumenti giusti in ogni fase: creazione dei contenuti, design, formattazione, inserzione e analisi. La maggior parte dei venditori complica eccessivamente il proprio stack tecnologico, spendendo soldi per strumenti di cui non ha bisogno e perdendo quelli che accelerano davvero la produzione. Questa guida taglia il rumore. Copre il toolkit essenziale per gli imprenditori di stampabili — partendo dalla categoria più importante (generatori di schede che producono PDF pronti per la stampa a 300 DPI), per poi espandersi a strumenti di design complementari, utilità specifiche per piattaforma e strategie di flusso di lavoro. Che tu venda su Etsy, Amazon KDP o Gumroad, il toolkit di produzione è lo stesso. Le piattaforme differiscono, ma la necessità di creare contenuti veloci e di alta qualità no. La prova gratuita con filigrana ti permette di testare ogni generatore prima di investire, così puoi valutare ogni strumento rispetto alle tue esigenze specifiche di produzione.',
+    description: 'La qualità dell\'output, la velocità di produzione e la varietà del catalogo dipendono dagli strumenti che scegli. Questa guida copre il toolkit essenziale per venditori di stampabili in Italia e nel mondo: generatori di schede che producono PDF a 300 DPI pronti per la stampa, strumenti di design per copertine e mockup, e utilità specifiche per Etsy.it e Amazon.it KDP. Imparerai l\'ordine giusto di investimento per evitare di spendere in strumenti superflui. Ogni generatore offre una prova gratuita con filigrana per valutare velocità e qualità prima di acquistare una licenza commerciale.',
   },
 
   introduction: 'Ogni attività di stampabili si basa sugli strumenti. La qualità del tuo output, la velocità della tua produzione e la varietà del tuo catalogo dipendono tutti dagli strumenti che scegli. Eppure la maggior parte delle guide sulla vendita di stampabili salta completamente la conversazione sul toolkit, passando direttamente ai consigli di marketing senza affrontare la domanda fondamentale: cosa usi effettivamente per creare i prodotti?\n\nQuesta guida risponde a quella domanda in modo completo. Copre tre categorie di strumenti di cui ogni venditore di stampabili ha bisogno: strumenti di creazione contenuti (i generatori che producono le tue schede effettive), strumenti di design e formattazione (per copertine, mockup e bundle), e strumenti di gestione piattaforma (per ottimizzazione inserzioni, ricerca parole chiave e analisi). Ogni categoria ha strumenti essenziali e opzionali. Conoscere la differenza ti fa risparmiare tempo e denaro.\n\nLo strumento più importante in qualsiasi attività di stampabili è il generatore di contenuti. Tutto il resto — design della copertina, immagini per le inserzioni, ottimizzazione SEO — è secondario rispetto ad avere contenuti di alta qualità, pronti per la stampa, da vendere. Un\'­inserzione Etsy splendidamente progettata con schede mediocri al suo interno genera rimborsi e recensioni da una stella. Un\'­inserzione semplice con schede professionali, accurate, a 300 DPI genera acquirenti abituali e recensioni a cinque stelle. Lo strumento che crea i tuoi contenuti determina la qualità del prodotto, e la qualità del prodotto determina la traiettoria della tua attività.\n\nQuesta guida è pratica e focalizzata sugli strumenti. Spiega cosa fa ogni categoria di strumenti, come si inserisce nel tuo flusso di lavoro produttivo e quando ne hai effettivamente bisogno. Nessuna teoria senza applicazione. Ogni raccomandazione di strumento si collega direttamente a un compito produttivo che svolgerai come venditore di stampabili. La prova gratuita con filigrana su ogni generatore di schede ti permette di acquisire esperienza pratica con gli strumenti più critici prima di spendere un centesimo.',

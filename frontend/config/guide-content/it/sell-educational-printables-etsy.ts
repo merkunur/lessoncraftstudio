@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere stampabili didattici su Etsy',
+    primaryKeyword: 'vendere schede educative su Etsy principiante',
     secondaryKeywords: [
-      'come vendere stampabili educativi su Etsy',
-      'strategia negozio Etsy stampabili didattici multi-categoria',
-      'schede stampabili business Etsy multi-categoria',
-      'vendere schede e attività didattiche su Etsy',
+      'come vendere stampabili didattici su Etsy multi-categoria',
+      'negozio Etsy stampabili educativi 33 generatori strategia',
+      'bundling cross-categoria schede matematica puzzle Etsy',
+      'ottimizzazione inserzioni Etsy stampabili educativi venditori',
+      'prezzi schede didattiche download digitale Etsy',
     ],
     lsiKeywords: [
-      'ottimizzazione inserzioni Etsy download digitale attività didattiche',
-      'strategia prezzi negozio stampabili multi-categoria venditori Etsy',
-      'tag SEO Etsy per prodotti schede e puzzle educativi stampabili',
-      'vendere stampabili matematica alfabetizzazione puzzle negozio Etsy diversificato',
-      'bundling cross-categoria stampabili educativi strategia Etsy',
-      'foto inserzioni Etsy mockup per prodotti stampabili educativi',
+      'negozio Etsy diversificato stampabili 6 categorie',
+      'tag SEO Etsy schede puzzle pagine da colorare',
+      'rotazione prodotti stagionale stampabili educativi',
+      'strategia espansione catalogo stampabili Etsy',
     ],
-    titleTag: 'Vendere Stampabili Didattici su Etsy | Guida Completa',
-    metaDescription: 'Vendi stampabili didattici su Etsy con 33 generatori specializzati in 6 categorie. Strategia negozio, SEO Etsy, bundling cross-categoria e prezzi venditori.',
+    titleTag: 'Vendere schede educative su Etsy | LessonCraftStudio',
+    metaDescription: 'Guida per principianti: vendi schede educative su Etsy con 33 generatori in 6 categorie. SEO, bundling cross-categoria e strategia multi-prodotto.',
   },
 
   hero: {
-    title: 'Come Vendere Stampabili Didattici su Etsy',
+    title: 'Vendere schede educative su Etsy: guida per principianti',
     tagline: 'Una guida completa per costruire un negozio Etsy diversificato vendendo stampabili educativi creati con 33 generatori specializzati in 6 categorie — strategia negozio multi-categoria, ottimizzazione SEO Etsy specifica per categoria con tutti i 13 tag, bundling e prezzi cross-categoria, fotografia inserzioni per diversi tipi di prodotto, rotazione prodotti stagionale tra schede di matematica, attività di alfabetizzazione, pagine di apprendimento visivo, esercizi di abbinamento, puzzle e giochi cerca e trova, e scalare da una singola categoria a un negozio completo di stampabili educativi',
-    description: 'Gli stampabili didattici sono una delle categorie di prodotti digitali più ricercate su Etsy. Genitori, venditori, famiglie che fanno homeschooling e centri di tutoraggio cercano schede di matematica, puzzle di cerca parole, pagine da colorare, attività di abbinamento, sudoku e decine di altri formati educativi ogni singolo giorno. Questa guida ti mostra come costruire un negozio Etsy diversificato che copre tutte e 6 le categorie di stampabili educativi usando 33 generatori specializzati — creando un vantaggio competitivo che i negozi mono-categoria non possono eguagliare. Che tu stia lanciando il tuo primo stampabile educativo o espandendo un negozio esistente in nuove categorie, avrai una strategia multi-categoria completa alla fine di questa guida.',
+    description: 'Le schede educative stampabili sono tra i prodotti digitali più ricercati su Etsy, con una domanda costante da parte di genitori, famiglie homeschooler e centri di tutoraggio in Italia e nel mondo. Con 33 generatori specializzati in 6 categorie — matematica, lettere, disegno, puzzle, cerca e trova, logica — puoi costruire un negozio diversificato che cattura traffico da decine di ricerche diverse. Questa guida ti mostra la strategia completa per un negozio multi-categoria: dalla scelta della nicchia iniziale all\'espansione progressiva, dall\'ottimizzazione SEO Etsy al bundling cross-categoria che aumenta il valore medio dell\'ordine. Ideale sia per chi parte da zero sia per chi vuole espandere un negozio esistente.',
   },
 
   introduction: 'Il mercato degli stampabili educativi su Etsy è enorme, ma la maggior parte dei venditori compete in una singola categoria ristretta. Un negozio che vende solo schede di addizione compete con tutti gli altri venditori di schede di addizione. Un negozio che vende solo cerca parole compete con tutti gli altri venditori di cerca parole. I venditori che costruiscono attività sostenibili sono quelli che diversificano su più categorie di stampabili educativi — catturando diversi segmenti di acquirenti, diversi picchi stagionali e diversi termini di ricerca che un negozio mono-categoria non potrebbe mai raggiungere.\n\nQui è dove un approccio multi-categoria diventa un genuino vantaggio competitivo. Con 33 generatori organizzati in 6 categorie educative — Matematica e Numeri, Lettere e Parole, Disegno e Arte, Cerca e Trova, Puzzle e Giochi e Logica e Schemi — puoi costruire un negozio con centinaia di prodotti unici che coprono ogni fascia d\'età dalla prescuola alla scuola primaria e ogni area tematica cercata da genitori e venditori.\n\nLe sei categorie servono esigenze fondamentalmente diverse degli acquirenti. Le schede di matematica mirano alla pratica aritmetica. I prodotti di alfabetizzazione mirano alla lettura e al vocabolario. Le pagine di apprendimento visivo mirano allo sviluppo creativo. Le attività di abbinamento mirano alle competenze cognitive della prima infanzia. I puzzle mirano al pensiero critico. Le attività cerca e trova mirano all\'attenzione e all\'osservazione. Un singolo acquirente — un genitore, un venditore, una famiglia homeschooling — spesso ha bisogno di prodotti da più categorie, e un negozio che li offre tutti cattura l\'intero acquisto invece di perdere il compratore a favore di un concorrente per il secondo prodotto.\n\nOgni funzionalità menzionata in questa guida è disponibile nella prova gratuita con filigrana. Puoi creare prodotti campione da tutti i 33 generatori, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale per le categorie che vuoi vendere.',

@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schede oggetti nascosti',
+    primaryKeyword: 'generatore di cerca e trova gratis',
     secondaryKeywords: [
-      'generatore schede oggetti nascosti per venditori',
-      'creare schede cerca e trova oggetti nascosti da vendere',
-      'generatore oggetti nascosti stampabile uso commerciale',
-      'creatore puzzle oggetti nascosti per KDP e Etsy',
+      'creare schede cerca e trova gratis online',
+      'schede oggetti nascosti stampabili gratis',
+      'generatore cerca e trova senza registrazione',
+      'schede Vedo Vedo gratis PDF',
+      'generatore oggetti nascosti gratuito online',
     ],
     lsiKeywords: [
-      'doppia modalità Vedo Vedo Trova il Diverso generatore',
-      'algoritmo zero-sovrapposizione dimensionamento adattivo generatore',
-      'chiave di risposta automatica cerchi rossi annotazioni oggetti nascosti',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Oggetti Nascosti — Schede Cerca e Trova',
-    metaDescription: 'Crea schede oggetti nascosti con modalità Vedo Vedo e Trova il Diverso, scene zero-sovrapposizione, chiavi di risposta con cerchi rossi. Prova gratuita.',
+    titleTag: 'Cerca e trova gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede cerca e trova gratis online, senza registrazione. Modalità Vedo Vedo e Trova il Diverso, chiavi di risposta automatiche. Licenza commerciale.',
   },
 
   hero: {
-    title: 'Generatore Oggetti Nascosti',
+    title: 'Crea Schede Cerca e Trova Gratis Online',
     tagline: 'Generatore di schede oggetti nascosti a doppia modalità con modalità Vedo Vedo (scene a dispersione zero-sovrapposizione con 1–5 oggetti nascosti tra 8–12 distrattori e legenda in basso) e modalità Trova il Diverso (8–12 immagini abbinate con 1–5 elementi spaiati resi al 50% più grandi), algoritmo di dimensionamento adattivo che prova 50 posizioni per immagine, chiavi di risposta auto-generate con annotazioni cerchi rossi e puzzle puramente visivi vendibili in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali di oggetti nascosti in cui gli utenti cercano una scena visiva per trovare e cerchiare oggetti specifici. Il generatore offre due modalità di attività distinte che producono sfide cognitive fondamentalmente diverse. La modalità Vedo Vedo utilizza un algoritmo di posizionamento zero-sovrapposizione per disperdere 1–5 oggetti nascosti tra 8–12 distrattori sulla pagina — nessuna griglia, nessuna riga e colonna, solo una scena visiva coesa. L\'algoritmo findBestPosition() prova 50 posizioni casuali per immagine e seleziona il posizionamento con la minor sovrapposizione, riducendo adattivamente la dimensione dell\'immagine quando lo spazio diventa limitato. Una legenda nella parte inferiore della scheda (margine di 120px) mostra agli utenti esattamente quali oggetti trovare, rendendo le schede accessibili ai pre-lettori senza istruzioni scritte. La modalità Trova il Diverso dispone 8–12 immagini abbinate con 1–5 elementi spaiati mescolati — gli utenti identificano le immagini che non hanno un partner corrispondente. Le immagini nella modalità Trova il Diverso sono rese al 50% più grandi rispetto alla modalità Vedo Vedo per un chiaro confronto visivo. Il sistema a doppio canvas genera simultaneamente sia una scheda di lavoro che una chiave di risposta. La chiave di risposta riproduce l\'esatto layout della scheda e disegna cerchi rossi attorno agli oggetti corretti: bersagli nascosti nella modalità Vedo Vedo ed elementi spaiati nella modalità Trova il Diverso, dimensionati 3–5px più grandi dell\'oggetto per una chiara visibilità. Un\'intestazione auto-generata mostra il tuo titolo in font Fredoka con ridimensionamento automatico — 32px per titoli brevi che scala fino a 18px per testi più lunghi — con contenitori decorativi a pillola bianchi e ombre. Attiva i campi nome e data per la responsabilità online. Il Generatore Oggetti Nascosti NON è sensibile alla lingua: i puzzle sono interamente visivi senza nomi localizzati sulle immagini nel contenuto della scheda, rendendo ogni puzzle universalmente vendibile in tutti i mercati senza traduzione. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica le tue immagini PNG, JPG o GIF. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti. Aggiungi testo personalizzato con 7 opzioni di font (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Esporta PDF e JPEG pronti per la stampa a 300 DPI (moltiplicatore 6×) in Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per un output ottimizzato per il risparmio di inchiostro. Modifica tutto sul canvas Fabric.js con trascinamento, ridimensionamento, rotazione, livelli, blocca/sblocca, 6 opzioni di allineamento più centra-su-pagina, zoom 25%–300% e 20 stati annulla/ripristina. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede cerca e trova gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre due modalità: Vedo Vedo con algoritmo zero-sovrapposizione che disperde 1–5 oggetti nascosti tra 8–12 distrattori, e Trova il Diverso con 8–12 immagini abbinate e 1–5 elementi spaiati. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con cerchi rossi automatici. I puzzle sono interamente visivi — nessun testo sulla scheda, vendibili universalmente senza traduzione. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore pagine da colorare',
+    primaryKeyword: 'generatore disegni da colorare da vendere su Etsy',
     secondaryKeywords: [
-      'generatore di pagine da colorare stampabili per venditori Etsy',
-      'creatore di schede da colorare per editori Amazon KDP',
-      'vendere pagine da colorare su Gumroad',
-      'generatore di pagine da colorare licenza commerciale',
+      'creare pagine da colorare per Amazon KDP',
+      'generatore di disegni da colorare stampabili licenza commerciale',
+      'vendere libri da colorare su Etsy Italia',
+      'creare schede da colorare per business di stampabili',
     ],
     lsiKeywords: [
-      'prodotti digitali pagine da colorare per imprenditori',
-      'libri da colorare stampabili uso commerciale',
-      'generatore di pagine da colorare con canvas libero e disegno a mano libera',
+      'prodotti digitali pagine da colorare per venditori italiani',
+      'nicchia libri da colorare KDP mercato italiano',
+      'stampabili da colorare canvas libero uso commerciale',
     ],
-    titleTag: 'Generatore Pagine da Colorare | Crea e Vendi Stampabili',
+    titleTag: 'Generatore Disegni da Colorare | Vendere su Etsy e KDP',
     metaDescription:
-      'Crea pagine da colorare per Etsy, KDP e Gumroad. Canvas a forma libera, 104 temi, disegno a mano libera, esportazione scala di grigi.',
+      'Crea disegni da colorare professionali da vendere su Etsy e Amazon KDP. Canvas libero, 104 temi, scala di grigi. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Pagine da Colorare per Schede da Colorare Personalizzate',
+    title: 'Generatore di Disegni da Colorare da Vendere su Etsy e KDP',
     tagline: 'Designer di pagine da colorare su canvas a forma libera — esplora 104 collezioni di immagini tematiche, aggiungi disegni a mano libera, includi strumenti per il negozio come campi nome e righe di scrittura, e attiva l\'esportazione in scala di grigi per pagine da colorare economiche in inchiostro.',
     description:
-      'Crea pagine da colorare professionali su un canvas a forma libera dove posizioni le immagini esattamente dove vuoi — nessuna griglia, nessun modello, libertà creativa totale. Esplora la Libreria di Immagini integrata con oltre 3100 illustrazioni a colori in 104 collezioni tematiche, clicca su qualsiasi immagine per aggiungerla al tuo canvas, poi organizza, ridimensiona, ruota e sovrapponi gli elementi finché la tua pagina non è perfetta. Lo strumento di disegno a mano libera ti permette di disegnare illustrazioni personalizzate direttamente sul canvas con colore e dimensione del pennello regolabili. Gli strumenti per il negozio aggiungono un campo nome e righe di pratica di scrittura con un solo clic — trasformando le pagine da colorare in attività pronte per il negozio. Quando hai finito, attiva l\'opzione di esportazione in scala di grigi per convertire la tua composizione a colori in pagine da colorare economiche in inchiostro, perfette per la stampa. Aggiungi temi di cornici decorative, testo personalizzato con effetti di contorno e carica le tue immagini insieme al contenuto della libreria. Il Generatore di Pagine da Colorare non è sensibile alla lingua — l\'output è puramente visivo, quindi le schede sono identiche in tutte le lingue. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti di pagine da colorare su Etsy, compili libri da colorare per Amazon KDP o crei attività da colorare per il negozio su Gumroad, il Generatore di Pagine da Colorare offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Il mercato italiano dei disegni da colorare su Etsy e Amazon KDP è una nicchia ancora poco sfruttata, con una domanda in costante crescita da parte di genitori e famiglie. Con questo generatore crei pagine da colorare professionali su un canvas libero dove posizioni le immagini esattamente dove vuoi, senza griglie né modelli. La libreria integrata offre oltre 3100 illustrazioni in 104 temi: animali, stagioni, festività italiane e molto altro. Aggiungi disegni a mano libera, testo personalizzato e cornici decorative per differenziare i tuoi prodotti dalla concorrenza. L\'esportazione in scala di grigi converte le composizioni in pagine economiche in inchiostro, perfette per libri KDP. Esporta PDF e JPEG a 300 DPI in formato A4, Lettera o personalizzato. Il contenuto è puramente visivo, quindi ogni pagina funziona in tutte le 11 lingue supportate — moltiplica il tuo catalogo senza tradurre nulla. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

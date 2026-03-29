@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'nicchie libri attività KDP',
+    primaryKeyword: 'migliori nicchie quaderni attività KDP 2026',
     secondaryKeywords: [
-      'migliori nicchie libri attività KDP per editori',
-      'categorie libri attività redditizie Amazon KDP',
-      'ricerca nicchie KDP libri attività',
-      'sotto-nicchie libri attività KDP poco servite',
+      'categorie libri attività redditizie Amazon KDP 2026',
+      'ricerca nicchie KDP libri attività domanda concorrenza',
+      'sotto-nicchie poco servite quaderni KDP editori',
+      'validazione nicchia KDP test vendite strategia catalogo',
+      'nicchie stagionali vs evergreen libri attività Amazon',
     ],
     lsiKeywords: [
-      'Amazon BSR negozifica best seller analisi concorrenza domanda',
-      'sottocategoria libri attività matematica puzzle colorare cerca parole',
-      'segmentazione pubblico prescuola bambini adulti anziani grande stampa',
-      'nicchia stagionale festività ritorno a scuola estate evergreen',
-      'validazione nicchia titolo test vendite 90 giorni strategia catalogo',
-      'ibrido cross-categoria libro attività tematico sotto-nicchia',
+      'Amazon BSR best seller analisi concorrenza domanda',
+      'segmentazione pubblico prescuola bambini adulti anziani',
+      'sottocategoria matematica puzzle colorare crucipuzzle',
+      'nicchia ibrida cross-categoria tematica sotto-nicchia',
     ],
-    titleTag: 'Migliori Nicchie Libri Attività KDP | Guida Completa',
-    metaDescription: 'Scopri le migliori nicchie per libri di attività KDP. Analisi della domanda, valutazione della concorrenza, categorie poco servite e tempistica stagionale.',
+    titleTag: 'Migliori nicchie quaderni KDP (2026) | LessonCraftStudio',
+    metaDescription: 'Le migliori nicchie per quaderni di attività KDP nel 2026: analisi domanda, concorrenza, categorie poco servite e strategie di validazione per editori.',
   },
 
   hero: {
-    title: 'Le Migliori Nicchie per Libri di Attività KDP',
+    title: 'Migliori nicchie quaderni attività KDP nel 2026',
     tagline: 'Una guida alla ricerca di nicchie per editori di libri di attività su Amazon KDP — analisi domanda-concorrenza per ogni principale categoria di libri di attività, strategie di segmentazione del pubblico che moltiplicano le opportunità, interpretazione dei dati BSR e recensioni di Amazon per la validazione delle nicchie, sotto-nicchie poco servite con forte domanda e scarsa concorrenza, tempistica nicchie stagionali versus evergreen per la pianificazione del catalogo, nicchie ibride cross-categoria che raggiungono più gruppi di acquirenti, e strategie di portafoglio multi-nicchia che bilanciano profondità e diversificazione',
-    description: 'Scegliere la nicchia giusta determina se i tuoi libri di attività KDP generano entrate costanti o scompaiono nel catalogo di Amazon. Questa guida non spiega come creare libri di attività — le nostre altre guide KDP coprono libri di attività di matematica, libri di puzzle, libri di cerca parole, formattazione e strategia di ricavi in dettaglio. Questa guida si concentra sulla decisione che viene prima di tutto: quali categorie di libri di attività dovresti puntare, come valutare se una nicchia ha abbastanza domanda per giustificare il tuo impegno, e come identificare le sotto-nicchie specifiche dove un nuovo editore può competere contro titoli affermati.',
+    description: 'La scelta della nicchia determina il successo o il fallimento dei tuoi quaderni di attività su Amazon KDP. Per gli editori italiani che si affacciano su questo mercato nel 2026, identificare le categorie con domanda forte e concorrenza gestibile è il primo passo strategico. Questa guida ti mostra come analizzare il BSR di Amazon, interpretare i dati di recensioni e vendite, valutare la densità competitiva e individuare le sotto-nicchie poco servite dove un nuovo editore può posizionarsi con successo. Imparerai anche a distinguere tra nicchie evergreen e stagionali e a costruire un portafoglio multi-nicchia bilanciato.',
   },
 
   introduction: 'Ogni libro di attività pubblicato su Amazon KDP compete all\'interno di una nicchia specifica — una combinazione di tipo di contenuto, pubblico target e intenzione dell\'acquirente che determina in quali risultati di ricerca appare il libro, chi lo vede e se lo acquista. La differenza tra scegliere la nicchia giusta e quella sbagliata non è marginale. Una nicchia ben scelta può generare da 200 a 500 dollari al mese da un singolo titolo. Una nicchia scelta male può lasciare un libro altrettanto buono a guadagnare 5 dollari al mese a tempo indeterminato, indipendentemente dalla qualità del contenuto o del design della copertina.\n\nIl mercato dei libri di attività KDP contiene dozzine di nicchie distinte, ciascuna con la propria curva di domanda, densità competitiva e potenziale di profitto. Quaderni di matematica, raccolte di cerca parole, puzzle sudoku, libri da colorare, esercizi di calligrafia, labirinti, suggerimenti per il disegno, cruciverba — ogni categoria ha sottocategorie, e ogni sottocategoria ha segmenti di pubblico. Un \"libro di cerca parole\" non è una sola nicchia; è una dozzina di nicchie: cerca parole per bambini 4-6 anni, cerca parole per adulti, cerca parole a grande stampa per anziani, cerca parole tematici (animali, viaggi, festività), cerca parole in lingue specifiche e altro. Ogni variazione si rivolge a ricerche Amazon diverse, affronta concorrenza diversa e genera entrate diverse.\n\nLa maggior parte dei nuovi editori KDP salta completamente la ricerca di nicchia. Creano il tipo di libro di attività che a loro piace personalmente, lo pubblicano e sperano che l\'algoritmo di Amazon trovi acquirenti. Questo approccio prodotto-prima funziona occasionalmente per fortuna, ma fallisce molto più spesso di quanto abbia successo. L\'approccio nicchia-prima inverte il processo: identifica dove esiste domanda degli acquirenti ma la concorrenza è scarsa, poi crea contenuti specificamente per quel vuoto. Questo non significa inseguire tendenze o manipolare il sistema — significa prendere decisioni informate su dove il tuo impegno editoriale genererà il rendimento più alto.\n\nQuesta guida illustra il processo completo di ricerca e validazione delle nicchie per libri di attività KDP. Per istruzioni sulla creazione di contenuti una volta scelta la nicchia, consulta la guida ai libri di attività di matematica KDP, la guida ai libri di puzzle o la guida ai libri di cerca parole. Per le specifiche di formattazione, consulta la guida alla formattazione KDP. Per la strategia di ricavi e prezzi, consulta la guida ai ricavi KDP. Qui copriamo la domanda fondamentale che quelle guide presuppongono tu abbia già risposto: quali nicchie dovresti puntare?',

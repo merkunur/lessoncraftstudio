@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'licenza commerciale stampabili',
+    primaryKeyword: 'licenza commerciale per venditori di stampabili',
     secondaryKeywords: [
-      'licenza uso commerciale stampabili spiegata',
-      'vendere schede legalmente con licenza',
-      'diritti commerciali prodotti digitali',
-      'licenze per venditori di stampabili',
+      'uso commerciale vs personale stampabili spiegato',
+      'vendere schede legalmente con licenza corretta',
+      'errori licenza comuni venditori digitali',
+      'conformità licenze multi-piattaforma Etsy KDP',
+      'diritti output commerciale clip art e font',
     ],
     lsiKeywords: [
-      'proprietà intellettuale diritti di utilizzo uso personale vs commerciale livelli di licenza',
-      'royalty-free diritti di rivendita opere derivate sublicenza conformità copyright',
-      'termini di licenza diritti prodotti digitali licenza clip art licenza modelli',
-      'diritti output commerciale contratto di licenza verifica licenza sistema di conformità',
-      'errori di licenza restrizioni piattaforma requisiti di attribuzione clausole di esclusività',
-      'registri di licenza documentazione licenze licenze multi-piattaforma vantaggio competitivo',
+      'proprietà intellettuale diritti rivendita',
+      'royalty-free opere derivate sublicenza',
+      'verifica licenza sistema conformità',
+      'restrizioni piattaforma attribuzione',
     ],
-    titleTag: 'Licenza Commerciale Stampabili — Guida per Venditori',
-    metaDescription: 'Le licenze commerciali per stampabili spiegate. Tipi di licenza, errori comuni e come una licenza corretta protegge la tua attività di vendita online.',
+    titleTag: 'Licenza commerciale per venditori | LessonCraftStudio',
+    metaDescription: 'Licenze commerciali per venditori di stampabili: tipi di licenza, errori da evitare e come proteggere il tuo business. Guida pratica con checklist.',
   },
 
   hero: {
-    title: 'Comprendere le Licenze Commerciali',
+    title: 'Licenze Commerciali per Venditori di Stampabili',
     tagline: 'Una guida completa alle licenze commerciali per venditori di stampabili — la differenza tra uso personale e commerciale, cosa richiede una licenza commerciale, come valutare i termini di licenza, i modelli di licenza più comuni nel settore dei stampabili, gli errori da evitare, come costruire un sistema di conformità, gestire le licenze multi-piattaforma e usare la conoscenza delle licenze come vantaggio competitivo',
-    description: 'Ogni risorsa che utilizzi per creare prodotti stampabili — generatori di schede, clip art, font, modelli e librerie di immagini — viene fornita con termini di licenza che determinano se puoi legalmente vendere il risultato. La maggior parte dei venditori di stampabili salta completamente questo passaggio, presumendo che l\'acquisto di uno strumento conceda automaticamente i diritti commerciali. Questa supposizione porta a rimozioni di prodotti, sospensioni di account e perdita di entrate. Questa guida spiega come funzionano le licenze commerciali nel settore dei stampabili, cosa cercare nei contratti di licenza e come costruire un sistema di conformità che protegga la tua attività mentre cresce.',
+    description: 'Ogni risorsa che usi per creare stampabili — generatori, clip art, font, modelli e immagini — ha termini di licenza che determinano se puoi vendere legalmente il risultato. Nel mercato italiano, dove sempre più venditori lanciano business di stampabili su Etsy e Amazon KDP, la comprensione delle licenze è il fondamento legale che protegge la tua attività. Saltare questo passaggio porta a rimozioni di prodotti, sospensioni di account e mesi di lavoro persi. Questa guida spiega come funzionano le licenze commerciali, cosa verificare prima di acquistare strumenti, e come costruire un sistema di conformità che scala con il tuo catalogo su più piattaforme.',
   },
 
   introduction: 'Le licenze commerciali sono il fondamento legale di ogni attività di stampabili, eppure rimangono uno degli aspetti più fraintesi della vendita di prodotti digitali. La confusione è comprensibile: i termini di licenza variano drasticamente tra strumenti, piattaforme e fornitori di risorse. Una libreria di clip art concede un uso commerciale illimitato con un singolo acquisto. Un\'altra limita il risultato a 500 unità. Una terza consente l\'uso commerciale su Etsy ma proibisce Amazon KDP. Senza comprendere queste distinzioni, i venditori costruiscono inconsapevolmente attività su basi legali incerte.\n\nLe conseguenze degli errori di licenza vanno dall\'inconveniente al devastante. Nel caso più lieve, un venditore riceve un avviso di rimozione per una singola inserzione e la elimina. Nel caso più grave, un venditore costruisce un\'intera linea di prodotti attorno a risorse per le quali non possiede i diritti commerciali, e il titolare dei diritti emette avvisi di rimozione su tutte le piattaforme simultaneamente. Mesi di lavoro e recensioni accumulate scompaiono da un giorno all\'altro. Il venditore deve ricominciare da capo con risorse correttamente licenziate, avendo perso sia i prodotti sia la credibilità sul marketplace che ha impiegato mesi a costruire.\n\nL\'ironia è che una corretta licenza commerciale non è né difficile né costosa. La maggior parte dei generatori di schede e delle librerie di risorse di livello professionale offre opzioni di licenza commerciale chiare a prezzi una tantum ragionevoli. La sfida non è il costo — è la lacuna di conoscenza. I venditori che comprendono le licenze commerciali prendono decisioni sicure su quali strumenti acquistare, quali risorse utilizzare e come documentare i propri diritti. Si espandono su più piattaforme senza timore di rimozioni perché sanno esattamente cosa permettono le loro licenze.\n\nQuesta guida copre le licenze commerciali dal punto di vista di un venditore di stampabili che costruisce un\'attività reale. Imparerai a distinguere tra diritti d\'uso personale e commerciale, identificare quali risorse nella tua catena produttiva richiedono licenze commerciali, valutare i termini di licenza prima dell\'acquisto, comprendere i modelli di licenza più comuni nel settore dei stampabili, evitare gli errori che colgono impreparati i venditori, costruire un sistema di conformità che scala con la tua attività, gestire le licenze su più piattaforme di vendita e usare la conoscenza delle licenze come un autentico vantaggio competitivo.\n\nL\'obiettivo non è trasformarti in un avvocato specializzato in licenze — è darti la conoscenza pratica per prendere decisioni informate, evitare problemi prevenibili e costruire un\'attività di stampabili su solide basi legali. I venditori che investono qualche ora nella comprensione delle licenze si proteggono da rischi che possono far deragliare mesi di lavoro e migliaia di dollari di potenziali entrate.',

@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore cartelle bingo con immagini',
+    primaryKeyword: 'creatore cartelle tombola da vendere su Etsy',
     secondaryKeywords: [
-      'generatore di cartelle di bingo stampabili per venditori Etsy',
-      'creatore di cartelle di bingo con immagini per editori Amazon KDP',
-      'generatore di cartelle di bingo con licenza commerciale',
-      'vendere cartelle di bingo stampabili su Gumroad',
+      'generatore cartelle tombola stampabili per Amazon KDP',
+      'creare gioco tombola di Natale da vendere online',
+      'cartelle tombola con immagini licenza commerciale',
+      'vendere cartelle tombola su Etsy Italia',
     ],
     lsiKeywords: [
-      'prodotti digitali di cartelle di bingo per imprenditori',
-      'generatore di cartelle di bingo uso commerciale',
-      'attività di bingo stampabili per business online',
+      'prodotti digitali tombola mercato italiano Etsy',
+      'nicchia giochi tombola stampabili venditori online',
+      'stampabili tombola natalizia uso commerciale Italia',
     ],
-    titleTag: 'Generatore Cartelle Bingo con Immagini | Crea e Vendi',
+    titleTag: 'Generatore Cartelle Tombola | Crea e Vendi su Etsy',
     metaDescription:
-      'Crea cartelle bingo con immagini da vendere su Etsy, KDP e Gumroad. Lotti di cartelle uniche, export ZIP, fogli di richiamo. Prova gratuita con filigrana.',
+      'Crea cartelle tombola con immagini da vendere su Etsy e KDP. Lotti unici, export ZIP, foglio richiamo. Licenza commerciale inclusa. Prova gratis.',
   },
 
   hero: {
-    title: 'Generatore di Cartelle di Bingo con Immagini per Attività di Bingo Stampabili',
+    title: 'Creatore di Cartelle Tombola da Vendere su Etsy e KDP',
     tagline: 'Genera da 1 a 10 cartelle di bingo uniche per lotto con griglie configurabili da 3×3 a 5×5 — riempimento immagini o parole per le celle e le fiches circolari, un foglio di richiamo dedicato per il conduttore, esportazione ZIP in lotto di tutte le cartelle, e 104 collezioni di immagini tematiche.',
     description:
-      'Crea cartelle di bingo professionali dove i giocatori contrassegnano le immagini o le parole corrispondenti sulle loro griglie uniche. Configura le righe da 3 a 5 e le colonne da 3 a 5 in modo indipendente, creando griglie da 3×3 (9 celle) fino a 5×5 (25 celle) con un valore predefinito di 4×4 (16 celle). Scegli il riempimento immagini o parole in modo indipendente per le celle della cartella e le fiches circolari — le fiches presentano bordi tratteggiati e un ordinamento Fisher-Yates per un gioco di bingo autentico. Genera da 1 a 10 cartelle di bingo uniche per lotto, ciascuna con una selezione casuale diversa dal pool di immagini. Un foglio di richiamo dedicato in una scheda separata presenta una griglia dinamica di parole per il conduttore, con colonne calcolate in base alla lunghezza della parola più lunga e una dimensione di font uniforme. Seleziona manualmente le immagini specifiche per la selezione personalizzata di richiamo o lascia che l\'app scelga dal tuo tema. Il Generatore di Cartelle di Bingo con Immagini è sensibile alla lingua: il riempimento parole utilizza i nomi localizzati delle immagini dalla Libreria Immagini, quindi cambiare lingua modifica le parole sulle cartelle, sulle fiches e sul foglio di richiamo. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia per contenuto testuale localizzato. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi testo personalizzato con sette opzioni di font, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate. Esporta in lotto tutte le cartelle generate come file JPEG individuali in un unico file ZIP. Che tu venda pacchetti di cartelle di bingo su Etsy, compili quaderni di attività di bingo per Amazon KDP o crei set di bingo per il negozio su Gumroad, questo generatore produce cartelle di bingo pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'La tombola è una tradizione italiana profondamente radicata, giocata in famiglia soprattutto durante il periodo natalizio — e su Etsy la nicchia delle cartelle tombola stampabili in italiano è praticamente vuota. Con questo generatore crei cartelle tombola professionali con immagini o parole, configurando griglie da 3×3 a 5×5. Genera da 1 a 10 cartelle uniche per lotto, ciascuna con selezione casuale diversa dal pool di immagini, più un foglio di richiamo per il conduttore. L\'export ZIP in lotto esporta tutte le cartelle come file individuali. Le cartelle con parole sono sensibili alla lingua: cambiare lingua modifica automaticamente i nomi sulle cartelle e sulle fiches. La libreria integrata offre oltre 3100 illustrazioni in 104 temi — animali, Natale, stagioni e molto altro. Aggiungi sfondi, bordi decorativi e testo personalizzato. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

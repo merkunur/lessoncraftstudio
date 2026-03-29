@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'sudoku con immagini per bambini',
+    primaryKeyword: 'generatore sudoku immagini gratis bambini',
     secondaryKeywords: [
-      'generatore sudoku con immagini per venditori',
-      'creare puzzle sudoku con immagini da vendere',
-      'generatore sudoku con immagini stampabile uso commerciale',
-      'creatore sudoku con immagini per KDP e Etsy',
+      'sudoku con immagini gratis online senza registrazione',
+      'generatore sudoku bambini gratis PDF stampabile',
+      'sudoku immagini 4x4 gratis bambini',
+      'creare sudoku con figure gratis',
+      'puzzle sudoku immagini gratis prova gratuita',
     ],
     lsiKeywords: [
-      'griglia 4×4 puzzle logico con immagini generatore',
-      'tre livelli di difficoltà facile medio difficile creatore sudoku',
-      'chiave di risposta automatica griglia completa generatore sudoku',
+      'sudoku immagini gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore sudoku 4x4 gratis online',
     ],
-    titleTag: 'Generatore Sudoku con Immagini — Sudoku Bambini Maker',
-    metaDescription: 'Crea sudoku con immagini 4×4 per bambini: tre difficoltà, chiavi di risposta automatiche, 104 temi con 3.100+ illustrazioni. Prova gratuita — licenza.',
+    titleTag: 'Sudoku immagini gratis bambini | LessonCraftStudio',
+    metaDescription: 'Crea sudoku con immagini gratis online, senza registrazione. Griglia 4×4, tre difficoltà, risposte automatiche. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Sudoku con Immagini',
+    title: 'Crea Sudoku con Immagini Gratis per Bambini',
     tagline: 'Generatore di sudoku con immagini su griglia 4×4 con tre livelli di difficoltà (Facile 4 celle vuote, Medio 6 celle vuote, Difficile 8 celle vuote), chiavi di risposta auto-generate con griglia completa, selezione immagini basata su tema e manuale tra 104 collezioni con oltre 3.100 illustrazioni, design griglia premium con colori blocco alternati e ombre multi-livello, e puzzle puramente visivi vendibili in tutto il mondo senza traduzione',
-    description: 'Crea sudoku con immagini professionali per bambini in cui gli utenti riempiono le celle vuote con le immagini corrette usando la logica riga-e-colonna su una griglia 4×4. Ogni puzzle utilizza esattamente 4 immagini uniche che devono apparire una volta in ogni riga e una volta in ogni colonna — le stesse regole del sudoku negozico, ma con illustrazioni colorate al posto dei numeri. Tre livelli di difficoltà controllano la sfida: Facile rimuove 4 celle, Medio rimuove 6, e Difficile rimuove 8 — metà della griglia. Seleziona le immagini tramite selezione automatica basata su tema che sceglie casualmente 4 immagini da qualsiasi delle 104 collezioni tematiche, oppure sfoglia manualmente, cerca e carica per scegliere esattamente 4 immagini. Il design griglia premium presenta colori blocco alternati 2×2 in azzurro chiaro (#F8F9FC) e rosa chiaro (#FFF5F7), divisori centrali in grassetto (#7C8DB5, tratto 3px), linee interne più sottili (#D1D9E6, 1.5px), un bordo esterno indaco (#667EEA) con angoli arrotondati 18px e tre ombre multi-livello per profondità. Le immagini vengono visualizzate al 65% della dimensione della cella per una chiara separazione visiva. Ogni puzzle genera un\'intestazione stilizzata \"Sudoku con Immagini\" con sfondo viola (#5E35B1) e testo del titolo localizzato in tutte le 11 lingue supportate. Il sistema a doppio canvas crea simultaneamente una scheda di lavoro e una scheda chiave di risposta — la chiave di risposta mostra la griglia 4×4 completa con tutte le 16 celle riempite. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Aggiungi testo personalizzato con 7 opzioni di font (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Esporta PDF e JPEG pronti per la stampa a 300 DPI (moltiplicatore 6×) in Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale o dimensioni personalizzate — nessuna dimensione Quadrato per questa app. Attiva la scala di grigi per output economico. Modifica tutto sul canvas Fabric.js con 6 opzioni di allineamento più centra-su-pagina, livelli, blocca/sblocca, zoom 25%–300% con incrementi del 25%, e annulla/ripristina 50 stati. Poiché il sudoku con immagini è interamente visivo — nessuna parola appare sulla griglia del puzzle — ogni scheda funziona identicamente in tutte le 11 lingue, rendendo i tuoi prodotti vendibili in tutto il mondo. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea sudoku con immagini gratis direttamente nel browser, senza registrazione e senza installare nulla. Griglia 4×4 con 4 immagini uniche che devono apparire una volta per riga e una volta per colonna. Tre livelli di difficoltà: Facile (4 celle vuote), Medio (6) e Difficile (8). Selezione automatica per tema o manuale tra 104 collezioni con oltre 3.100 illustrazioni. Design griglia premium con colori blocco alternati e ombre multi-livello. Chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4 o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere i tuoi puzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

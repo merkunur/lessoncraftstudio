@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede cerca e conta',
+    primaryKeyword: 'generatore cerca e conta gratis',
     secondaryKeywords: [
-      'generatore schede Vedo Vedo per venditori',
-      'creare schede cerca e conta da vendere',
-      'generatore attività Vedo Vedo stampabile uso commerciale',
-      'creatore schede oggetti nascosti per KDP e Etsy',
+      'creare schede cerca e conta gratis online',
+      'schede Vedo Vedo stampabili gratis',
+      'generatore cerca e conta senza registrazione',
+      'schede oggetti nascosti e conta gratis PDF',
+      'generatore Vedo Vedo gratuito online',
     ],
     lsiKeywords: [
-      'doppia modalità oggetti nascosti trova le lettere generatore',
-      'quattro tipi attività cerchia quadrato barra conta schede',
-      'alfabeti specifici per lingua lettere accentate generatore Vedo Vedo',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Cerca e Conta | Schede Vedo Vedo Stampabili',
-    metaDescription: 'Crea schede Vedo Vedo con modalità Oggetti Nascosti e Trova le Lettere, quattro tipi di attività, alfabeti localizzati, 104 temi. Prova gratuita disponibile.',
+    titleTag: 'Cerca e conta gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede cerca e conta gratis online, senza registrazione. Modalità Oggetti Nascosti e Trova le Lettere, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Schede Cerca e Conta',
+    title: 'Crea Schede Cerca e Conta Gratis Online',
     tagline: 'Generatore di schede Vedo Vedo a doppia modalità con Oggetti Nascosti (griglia di immagini sparse con fino a 4 oggetti bersaglio) e Trova le Lettere (griglia alfabetica specifica per lingua con lettere accentate), quattro tipi di attività combinabili (cerchia, quadrato, barra, conta) assegnabili per oggetto bersaglio, etichette immagini localizzate in 11 lingue tramite il sistema Vocabolario Immagini, densità griglia configurabile da 5×5 a 10×10, chiavi di risposta auto-generate con annotazioni rosse cerchio/quadrato/croce e conteggi quantità, e schede sensibili alla lingua dove le etichette cambiano per ogni lingua',
-    description: 'Crea schede professionali Vedo Vedo e cerca-e-conta in cui gli utenti cercano in una scena di immagini sparse per trovare, cerchiare, barrare o contare oggetti specifici. Il generatore offre due modalità distinte in un unico strumento. La modalità Oggetti Nascosti disperde immagini su una griglia configurabile (5–10 righe × 5–10 colonne, predefinita 6×6) e ti permette di assegnare fino a 4 oggetti bersaglio con tipi di attività individuali — cerchia l\'oggetto, metti un quadrato attorno, barralo o conta quanti ne appaiono. Ogni cella mostra un\'immagine alla dimensione massima di 80px. Gli oggetti bersaglio vengono distribuiti casualmente con 1–5 istanze ciascuno, e le celle rimanenti si riempiono con immagini distrattore dal tema. La modalità Trova le Lettere visualizza una griglia alfabetica specifica per lingua con lettere accentate — italiano A–Z (26 lettere), tedesco A–Z + ÄÖÜ (29 lettere), spagnolo A–Z + Ñ (27 lettere), svedese/finlandese A–Z + ÅÄÖ (29 lettere), danese/norvegese A–Z + ÆØÅ (29 lettere) — visualizzata in 7 colonne con adattamento automatico delle righe. gli utenti selezionano una lettera, e il generatore crea una scena Vedo Vedo usando immagini che iniziano con quella lettera nella lingua selezionata. Il Generatore Cerca e Conta è sensibile alla lingua: le etichette dei nomi delle immagini sulla scheda vengono visualizzate nella lingua selezionata tramite il sistema Vocabolario Immagini. "Cat" diventa "Gatto" in italiano, "Katze" in tedesco, "Chat" in francese — e le iniziali del Trova le Lettere si aggiornano di conseguenza. Il livello Commerciale include solo l\'inglese; l\'Accesso Completo sblocca tutte le 11 lingue per etichette localizzate. Il sistema a doppio canvas genera simultaneamente sia una scheda di lavoro che una chiave di risposta. La chiave di risposta riproduce l\'esatto layout della scheda e sovrappone annotazioni visive rosse: cerchi attorno agli oggetti cerchia, quadrati attorno agli oggetti quadrato, croci sugli oggetti barra, e conteggi quantità per gli oggetti conta. Un\'intestazione auto-generata mostra "Vedo Vedo" o "Trova le Lettere" (in base alla modalità) con bordo blu (#2196F3), accento interno giallo, titolo e istruzioni localizzati in font Fredoka e Quicksand in tutte le 11 lingue supportate. L\'app genera automaticamente al caricamento con il tema animali, 4 immagini casuali, tipi di attività casuali e una griglia 6×6 per un\'anteprima istantanea. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni o carica immagini personalizzate. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti. Aggiungi testo personalizzato con 7 opzioni font e contorno testo 0–10. Attiva campi nome e data per l\'identificazione degli utenti. Esporta PDF e JPEG pronti per la stampa a 300 DPI (moltiplicatore 6×) in Predefinito (800×1000), Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per un output economico. La prova gratuita include tutte le funzionalità con filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede cerca e conta gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre due modalità: Oggetti Nascosti con griglia configurabile da 5×5 a 10×10 e fino a 4 bersagli con tipi di attività individuali (cerchia, quadrato, barra, conta), e Trova le Lettere con griglia alfabetica specifica per lingua con lettere accentate. Il sistema è sensibile alla lingua — le etichette cambiano automaticamente in 11 lingue. Il doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con annotazioni rosse. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

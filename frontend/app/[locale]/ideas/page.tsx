@@ -116,8 +116,8 @@ const ideasContent: Record<string, {
   it: {
     heroTitle: 'Idee di nicchie per stampabili',
     heroDescription: 'Trova la tua nicchia perfetta. 45 idee redditizie con suggerimenti di prodotti, consigli sulle piattaforme e strategie di prezzo.',
-    metaTitle: 'Idee di nicchie per stampabili | 45 nicchie redditizie | LessonCraftStudio',
-    metaDescription: 'Scopri 45 nicchie redditizie di stampabili. Idee organizzate per età, tema, stagione e formato. Trova la tua nicchia per Etsy e KDP.',
+    metaTitle: '45 nicchie redditizie di stampabili | LessonCraftStudio',
+    metaDescription: 'Scopri 45 nicchie redditizie per vendere stampabili su Etsy, KDP e Eduki. Temi, stagioni, fasce d\'età e formati con idee e strategie.',
     ctaTitle: 'Pronto a iniziare la tua nicchia?',
     ctaDescription: 'Prova tutti i 33 generatori gratis con filigrana. Senza registrazione.',
     ctaButton: 'Prova i generatori gratis',

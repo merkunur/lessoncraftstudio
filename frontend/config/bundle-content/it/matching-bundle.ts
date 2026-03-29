@@ -2,26 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacchetto schede abbinamento negozificazione',
+    primaryKeyword: 'pacchetto abbinamento classificazione Etsy',
     secondaryKeywords: [
-      'pacchetto generatori schede abbinamento per venditori',
-      'toolkit stampabili attività abbinamento uso commerciale',
-      'pacchetto generatore cartelle bingo per Etsy',
-      'generatori schede negozificazione per venditori KDP',
+      'bundle generatori abbinamento bingo ombre per venditori',
+      'toolkit schede classificazione licenza commerciale KDP',
+      'creare schede abbinamento e ordinamento da vendere',
+      'pacchetto 5 generatori abbinamento multilingue',
+      'cartelle bingo esportazione batch per Etsy Gumroad',
     ],
     lsiKeywords: [
-      'pacchetto schede abbinamento bingo negozificazione',
-      'collezione stampabili griglia ombre abbinamento',
-      'licenza commerciale schede abbinamento',
-      'strumento creazione schede abbinamento in blocco',
+      'abbinamento visivo griglia ombre bingo',
+      'schede ibrido lingua e visive',
+      'prodotti abbinamento mercato italiano e globale',
+      'classificazione immagini attività scuola materna',
     ],
-    titleTag: 'Pacchetto Abbinamento — 5 Generatori Schede Abbinamento',
-    metaDescription: 'Ottieni 5 generatori di schede abbinamento in un pacchetto. Crea schede di abbinamento, griglia, ombre, bingo e negozificazione da vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Pacchetto abbinamento e classificazione | LessonCraftStudio',
+    metaDescription: 'Pacchetto con 5 generatori: abbinamento, griglia, ombre, bingo e classificazione. 3 app multilingue + 2 visive universali. Licenza commerciale inclusa.',
   },
 
   hero: {
-    title: 'Pacchetto Abbinamento e negozificazione',
-    tagline: 'Cinque generatori di abbinamento e negozificazione — dall\'abbinamento visivo a coppie all\'esportazione batch di cartelle bingo',
+    title: 'Pacchetto Abbinamento e Classificazione: 5 Generatori',
+    tagline: 'Cinque generatori di abbinamento e classificazione — dall\'abbinamento visivo a coppie all\'esportazione batch di cartelle bingo',
     description: 'Il Pacchetto Abbinamento e negozificazione riunisce cinque generatori specializzati che coprono l\'intera gamma di attività di abbinamento, accoppiamento e categorizzazione. Questo è un pacchetto ibrido — tre delle cinque app sono sensibili alla lingua e producono schede con etichette di vocabolario in una qualsiasi delle 11 lingue supportate, mentre due sono puramente visive e funzionano in tutto il mondo senza traduzione. Abbinamento offre quattro modalità distinte tra cui abbinamento di lettere, accoppiamento immagine-nome e contenuto personalizzato. Griglia Abbinamento crea puzzle di abbinamento basati su coordinate su griglie strutturate. Abbinamento Ombre genera schede di accoppiamento silhouette dove gli utenti tracciano linee collegando gli oggetti alle loro ombre. Bingo produce esportazioni batch di più cartelle uniche in un singolo download ZIP — l\'unica app tra tutti i pacchetti con questa funzionalità, progettata specificamente per l\'uso online e in gruppo. negozificazione Immagini costruisce schede di negozificazione a due categorie dove gli utenti negozificano immagini tematiche nei gruppi sinistro e destro. Quattro dei cinque generatori producono chiavi di risposta automatiche. Bingo è l\'eccezione — in quanto generatore di cartelle da gioco, non esiste una singola risposta corretta. Ogni generatore produce file PDF pronti per la stampa e JPEG ad alta risoluzione. Scegli tra oltre 100 set di immagini tematiche o carica i tuoi file PNG e JPEG per prodotti personalizzati e specifici per la tua nicchia. Che tu venda pacchetti di attività di abbinamento su Etsy, pubblichi quaderni di negozificazione su Amazon KDP o crei set di cartelle bingo per Gumroad, questo pacchetto ti offre la varietà e la velocità di produzione di cui i venditori hanno bisogno. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
   },
 

@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'scalare business stampabili',
+    primaryKeyword: 'far crescere il business di stampabili',
     secondaryKeywords: [
-      'come scalare un business di stampabili',
-      'crescita business schede stampabili',
-      'strategia di crescita business stampabili',
-      'scalare vendite stampabili educativi',
+      'scalare produzione stampabili con automazione',
+      'espansione multi-piattaforma venditori schede',
+      'crescita catalogo stampabili educativi',
+      'sistemi produzione batch per venditori',
+      'diversificazione mercati stampabili multilingue',
     ],
     lsiKeywords: [
-      'crescita business ricavi scalabilità automazione outsourcing espansione catalogo prodotti',
-      'vendita multi-piattaforma ottimizzazione flusso di lavoro produzione in batch pensiero sistemico',
-      'gestione del tempo delega diversificazione prodotti espansione mercato costruzione brand',
-      'valore lifetime cliente efficienza operativa documentazione processi procedure operative standard',
-      'crescita catalogo ricavo per prodotto diversificazione piattaforme collo di bottiglia scalabilità',
-      'sistemi aziendali processi ripetibili pipeline di produzione moltiplicazione contenuti',
+      'pipeline produzione scalabile',
+      'efficienza operativa venditori digitali',
+      'moltiplicazione contenuti multi-piattaforma',
+      'metriche crescita business stampabili',
     ],
-    titleTag: 'Scalare il Business di Stampabili | Guida alla Crescita',
-    metaDescription: 'Come scalare il tuo business di stampabili con produzione in batch, espansione multi-piattaforma, crescita del catalogo, mercati multilingue e automazione.',
+    titleTag: 'Far crescere il business stampabili | LessonCraftStudio',
+    metaDescription: 'Come far crescere il tuo business di stampabili: produzione batch, espansione multi-piattaforma e automazione per ricavi costanti. Inizia a scalare ora.',
   },
 
   hero: {
-    title: 'Come Scalare il Tuo Business di Stampabili',
+    title: 'Far Crescere il Tuo Business di Stampabili',
     tagline: 'Una guida completa per scalare il tuo business di stampabili oltre i ricavi da progetto secondario — valutazione della preparazione alla scalabilità e identificazione dei colli di bottiglia, sistemi di produzione in batch per un output costante, strategia di espansione multi-piattaforma, crescita del catalogo attraverso estensioni della linea di prodotti, espansione nei mercati multilingue, automazione delle attività ripetitive e metriche di crescita che guidano decisioni strategiche',
-    description: 'La differenza tra un progetto secondario di stampabili e un business scalabile di stampabili non è il talento, la fortuna o lavorare più duramente. Sono i sistemi. Ogni venditore che è cresciuto da una manciata di prodotti con vendite sporadiche a un catalogo che genera ricavi mensili costanti lo ha fatto sostituendo lo sforzo manuale con processi ripetibili, espandendosi strategicamente attraverso piattaforme e mercati, e costruendo una pipeline di produzione che moltiplica l\'output senza moltiplicare le ore lavorate. Questa guida ti accompagna attraverso il framework completo di scalabilità — dal riconoscere quando il tuo business è pronto a scalare, fino alla costruzione dei sistemi che rendono la crescita sostenibile.',
+    description: 'La differenza tra un hobby di stampabili e un business scalabile non è il talento: sono i sistemi. Nel mercato italiano, dove la concorrenza è ancora bassa rispetto al mercato anglofono, i venditori che adottano processi ripetibili oggi possono conquistare posizioni dominanti su Etsy, Amazon KDP e Gumroad. Questa guida ti mostra come passare da vendite sporadiche a ricavi mensili costanti attraverso la produzione batch, l\'espansione multi-piattaforma, la diversificazione linguistica e l\'automazione delle attività ripetitive. Scopri quando il tuo business è pronto a scalare e quali sistemi costruire per una crescita sostenibile senza moltiplicare le ore di lavoro.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili raggiunge un plateau. I primi 5-10 prodotti vengono realizzati con puro impegno ed entusiasmo. Le vendite arrivano a gocce, forse qualche centinaio di euro al mese, e il business sembra promettente. Poi i progressi si bloccano. Creare ogni nuovo prodotto richiede lo stesso tempo del primo. Pubblicare su una nuova piattaforma significa ricominciare da zero. Il marketing divora ore senza un ritorno chiaro. Il venditore lavora di più ma i ricavi restano piatti, e alla fine il business inizia a sembrare un hobby impegnativo piuttosto che un\'impresa in crescita.\n\nQuesto plateau non è un fallimento del venditore — è un fallimento dell\'approccio. Scalare un business di stampabili richiede una strategia fondamentalmente diversa dall\'avviarlo. Avviare significa creare singoli prodotti e pubblicarli. Scalare significa costruire sistemi che moltiplicano il tuo output, espandersi in nuovi mercati e piattaforme strategicamente, e automatizzare le attività ripetitive che consumano le tue ore produttive senza generare nuovi ricavi.\n\nI venditori che superano il plateau condividono tratti comuni. Producono in batch invece di creare prodotti uno alla volta. Si espandono su più piattaforme di vendita invece di dipendere da un singolo marketplace. Costruiscono linee di prodotti che sfruttano il lavoro esistente piuttosto che ricominciare da zero con ogni nuovo prodotto. Usano strumenti che riducono drasticamente il tempo di creazione per prodotto, liberando ore per il lavoro strategico come la ricerca di mercato e l\'ottimizzazione delle piattaforme. E monitorano metriche che indicano dove investire il tempo disponibile per il massimo rendimento.\n\nScalare non significa lavorare più ore. In realtà, i business di stampabili scalati con maggior successo spesso richiedono meno ore settimanali rispetto alla fase iniziale frenetica — la differenza è che ogni ora spesa produce sostanzialmente più output e ricavi. Un venditore che crea un pacchetto di schede in tre ore con metodi manuali guadagna lo stesso tasso orario sia che lavori 10 ore a settimana o 40. Un venditore che usa generatori di schede per produrre lo stesso output di qualità in 20 minuti per pacchetto, e poi dedica il tempo rimanente all\'espansione strategica del catalogo e alla pubblicazione multi-piattaforma, guadagna drasticamente di più per ora perché i suoi sistemi moltiplicano il valore del suo tempo.\n\nQuesta guida non riguarda trucchi di crescita o scorciatoie. Riguarda la costruzione delle fondamenta operative che trasformano un progetto secondario di stampabili in un business che cresce sistematicamente — aggiungendo prodotti, piattaforme, lingue e flussi di ricavi in modi che si accumulano nel tempo piuttosto che richiedere uno sforzo proporzionalmente maggiore per ogni incremento di crescita.',

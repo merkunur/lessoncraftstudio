@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede grande piccolo',
+    primaryKeyword: 'schede grande e piccolo per negozio Etsy',
     secondaryKeywords: [
-      'schede confronto dimensioni stampabili per venditori Etsy',
-      'generatore schede grande e piccolo personalizzate per Amazon KDP',
-      'vendere schede discriminazione visiva dimensioni su Gumroad',
-      'schede grande piccolo confronto dimensioni licenza commerciale',
+      'creare schede confronto dimensioni da vendere su Amazon KDP',
+      'vendere schede grande piccolo su Etsy Italia',
+      'generatore schede discriminazione visiva licenza commerciale',
+      'schede confronto dimensioni per business di stampabili',
     ],
     lsiKeywords: [
-      'prodotti digitali schede confronto dimensioni per imprenditori',
-      'attività discriminazione visiva dimensioni stampabili online',
-      'generatore schede grande piccolo uso commerciale',
+      'prodotti digitali schede dimensioni mercato italiano',
+      'nicchia schede grande piccolo venditori Etsy e KDP',
+      'stampabili confronto dimensioni uso commerciale Italia',
     ],
-    titleTag: 'Generatore Schede Grande e Piccolo | Crea Stampabili',
+    titleTag: 'Schede Grande e Piccolo per Etsy | Crea e Vendi',
     metaDescription:
-      'Crea schede di confronto dimensioni per Etsy, KDP e Gumroad. 5 tipi di domande, modalità immagini identiche e diverse, 104 temi. Prova gratuita con filigrana.',
+      'Crea schede grande e piccolo da vendere su Etsy e KDP. 5 tipi di domande, immagini identiche e diverse, 104 temi. Licenza commerciale. Prova gratis.',
   },
 
   hero: {
-    title: 'Generatore di Schede Grande e Piccolo per Esercizi di Confronto Dimensioni',
+    title: 'Schede Grande e Piccolo per il Tuo Negozio Etsy',
     tagline: 'Cinque tipi di domande — cerchiare il più grande, cerchiare il più piccolo, cerchiare il medio, numerare dal più piccolo al più grande, numerare dal più grande al più piccolo — con modalità immagini identiche e diverse per la discriminazione visiva delle dimensioni.',
     description:
-      'Crea schede professionali di confronto dimensioni dove gli utenti osservano immagini tematiche presentate in diverse dimensioni e identificano quale è più grande, più piccola o di dimensione media, oppure le numerano in ordine dal più piccolo al più grande o dal più grande al più piccolo. Cinque tipi di domande distinti coprono ogni competenza di discriminazione dimensionale: Cerchiare il più Grande, Cerchiare il più Piccolo, Cerchiare il Medio, Numerare 1–2–3 dal più Piccolo al più Grande e Numerare 1–2–3 dal più Grande al più Piccolo. Due modalità di immagini creano esercizi fondamentalmente diversi: le Immagini Identiche mostrano la stessa immagine in diverse dimensioni per una percezione pura della dimensione, mentre le Immagini Diverse mostrano oggetti distinti per un ragionamento sulla dimensione relativa. Configura da 1 a 10 esercizi per pagina con 2 o 3 immagini per esercizio — due immagini per confronti più semplici, tre per esercizi più difficili che includono l\'opzione media. Ogni scheda è completamente visiva con zero testo nell\'output, rendendola universalmente utilizzabile indipendentemente dalla lingua o dal livello di lettura. Il contenuto proviene dalla Libreria di Immagini integrata con oltre 3100 illustrazioni in 104 temi. Un foglio risposte generato automaticamente evidenzia le risposte corrette per una verifica istantanea. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF pronti per la stampa e JPEG a 300 DPI nei formati Lettera, A4 o dimensioni personalizzate. Che tu venda pacchetti di confronto dimensioni su Etsy, compili quaderni di apprendimento precoce per Amazon KDP o crei centri visivi differenziati per Gumroad, il Generatore di Schede Grande e Piccolo produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede di confronto dimensioni sono tra le attività più ricercate dai genitori italiani per i bambini in età prescolare, ma su Etsy e Amazon KDP la nicchia in italiano è ancora vuota — un\'occasione perfetta per chi vuole avviare un business di stampabili. Con questo generatore crei schede professionali con cinque tipi di domande: cerchiare il più grande, il più piccolo, il medio, e numerare in ordine crescente o decrescente. Due modalità di immagini — identiche per la percezione pura della dimensione, diverse per il ragionamento relativo — creano esercizi diversificati. Configura da 1 a 10 esercizi per pagina con 2 o 3 immagini ciascuno. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. L\'output è completamente visivo, senza testo — ogni scheda funziona in tutte le 11 lingue senza traduzione. Un foglio risposte automatico evidenzia le risposte corrette. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare pacchetti schede che vendono',
+    primaryKeyword: 'creare pacchetti di schede che vendono',
     secondaryKeywords: [
-      'strategia pacchetti schede esercizi',
-      'creazione bundle stampabili da vendere',
-      'come creare pacchetti schede per la vendita',
-      'prezzi pacchetti schede esercizi',
+      'strategia bundle schede stampabili per Etsy',
+      'come creare pacchetti schede redditizi',
+      'prezzi pacchetti schede per massimizzare ricavi',
+      'tipi di bundle stampabili che convertono',
+      'packaging professionale bundle schede',
     ],
     lsiKeywords: [
-      'tipi bundle materia livello tema stagionale formato mega valore percepito',
-      'accumulo valore risparmio dettagliato materiali bonus copertina indice sommario',
-      'prezzo di ancoraggio psicologia dello sconto prezzi a livelli test dei prezzi',
-      'prodotti complementari varietà coerenza evitare riempitivi standard qualità',
-      'packaging bundle mockup anteprima branding organizzazione file convenzioni nomi',
-      'inserzioni bundle multi-piattaforma strategia universale vendita cross-piattaforma',
+      'valore percepito bundle',
+      'psicologia prezzo ancoraggio',
+      'cross-selling catalogo stampabili',
+      'accumulo valore prodotti complementari',
     ],
-    titleTag: 'Creare Pacchetti di Schede Che Vendono | Guida Completa',
-    metaDescription: 'Come creare pacchetti di schede che vendono su ogni piattaforma. Tipi di bundle, psicologia dei prezzi, accumulo valore e packaging bundle professionale.',
+    titleTag: 'Creare pacchetti di schede che vendono | LessonCraftStudio',
+    metaDescription: 'Scopri come creare pacchetti di schede che vendono su Etsy, KDP e Gumroad. Tipi di bundle, prezzi e packaging per massimizzare i ricavi. Inizia ora.',
   },
 
   hero: {
-    title: 'Come Creare Pacchetti di Schede Che Vendono',
+    title: 'Pacchetti di Schede Che Vendono: Guida per Venditori',
     tagline: 'Una guida completa per creare pacchetti di schede ad alto valore che aumentano il ricavo per transazione su ogni piattaforma di vendita — coprendo tipi e strutture di bundle, selezione prodotti per combinazioni convincenti, accumulo di valore e psicologia del valore percepito, packaging e presentazione professionale del bundle, strategie di ancoraggio prezzi e sconti, ottimizzazione inserzioni indipendente dalla piattaforma e monitoraggio delle prestazioni per il miglioramento continuo',
-    description: 'Creare pacchetti di schede è il modo più efficace per aumentare il valore medio dell\'ordine senza creare nuovi contenuti. Un bundle ben strutturato trasforma prodotti individuali dal valore di $8–$12 ciascuno in un pacchetto da $35–$65 che gli acquirenti percepiscono come un affare migliore — anche se tu guadagni significativamente di più per transazione. Questa guida copre strategie di bundling universali che funzionano su Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica e qualsiasi altra piattaforma dove vendi schede stampabili.',
+    description: 'I pacchetti di schede rappresentano la strategia più redditizia per i venditori di stampabili nel mercato italiano e internazionale nel 2026. Un bundle ben strutturato trasforma prodotti individuali da $8–$12 in pacchetti da $35–$65 con un valore percepito nettamente superiore. In Italia, dove la domanda di risorse educative stampabili cresce costantemente, il bundling ti permette di distinguerti dalla concorrenza e triplicare il ricavo per transazione. Questa guida ti mostra come selezionare i prodotti giusti, strutturare pacchetti convincenti, applicare la psicologia dei prezzi e creare un packaging professionale che funziona su Etsy, Amazon KDP, Gumroad e Creative Fabrica. Inizia oggi a costruire bundle che convertono.',
   },
 
   introduction: 'Vendere schede individuali impone un tetto rigido al tuo ricavo per cliente. Un acquirente visita il tuo negozio, acquista un prodotto da $10 e se ne va. Anche se le tue schede sono eccezionali, la maggior parte degli acquirenti di un singolo prodotto non torna mai. I pacchetti rompono questo schema offrendo agli acquirenti più valore per acquisto mentre aumentano drasticamente i tuoi guadagni per transazione.\n\nLa psicologia dietro l\'acquisto di pacchetti è ben documentata: gli acquirenti percepiscono i prodotti in bundle come di valore superiore alla somma delle singole parti, in particolare quando il bundle offre uno sconto chiaro rispetto all\'acquisto individuale. Un genitore che cerca schede di pratica matematica vede un singolo fascicolo di addizioni da 20 pagine a $10 oppure un pacchetto completo di matematica per la prima elementare con 100 pagine che coprono addizione, sottrazione, senso numerico e problemi a parole per $32. Il bundle costa di più, ma il valore per pagina e la comodità di una soluzione completa lo rendono la scelta ovvia per la maggior parte degli acquirenti.\n\nI pacchetti risolvono anche un problema aziendale critico: il costo di acquisizione cliente. Che tu paghi per la pubblicità, investa tempo nella SEO o costruisca un seguito sui social media, ogni visitatore del tuo negozio rappresenta sforzo e a volte costi diretti. Un bundle converte lo stesso visitatore in un acquirente da $35 invece che da $10, triplicando il tuo ritorno su ogni euro e ora investiti nel marketing. Nel tempo, questo si moltiplica drasticamente — i venditori che puntano sui pacchetti riferiscono costantemente che i bundle rappresentano il 40%–60% del loro fatturato totale nonostante costituiscano una piccola frazione delle loro inserzioni totali.\n\nQuesta guida copre strategie di bundling indipendenti dalla piattaforma: cosa includere nel bundle, come strutturare i pacchetti per massimizzare il valore percepito, psicologia dei prezzi che favorisce conversioni più alte e packaging professionale che costruisce la fiducia dell\'acquirente. I principi funzionano in modo identico sia che tu venda su Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica o il tuo sito web. Per tattiche specifiche per piattaforma, consulta le guide dedicate collegate in questa pagina.',

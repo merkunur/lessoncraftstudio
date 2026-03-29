@@ -2,28 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede lettere mescolate',
+    primaryKeyword: 'creare anagrammi stampabili per business su Etsy',
     secondaryKeywords: [
-      'schede di lettere mescolate stampabili per venditori Etsy',
-      'generatore di puzzle riordino lettere per Amazon KDP',
-      'vendere schede di lettere mescolate su Gumroad',
-      'schede lettere mescolate con codice colori vocali licenza commerciale',
+      'schede di anagrammi stampabili per negozio Etsy',
+      'generatore lettere mescolate per Amazon KDP',
+      'puzzle di riordino lettere licenza commerciale',
+      'creare libri di anagrammi per KDP',
+      'schede lettere mescolate da vendere online',
     ],
     lsiKeywords: [
-      'prodotti digitali di puzzle ortografia per imprenditori',
-      'attività di riordino lettere stampabili business online',
-      'generatore di schede lettere mescolate uso commerciale',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'anagrammi',
+      'riordino lettere',
+      'reddito passivo',
+      'download digitale',
+      'business di stampabili',
+      'ortografia',
     ],
-    titleTag: 'Generatore Schede Lettere Mescolate | Crea e Vendi',
+    titleTag: 'Anagrammi stampabili da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede di lettere mescolate per Etsy, KDP e Gumroad. Indizi immagine, codice colori vocali-consonanti, 11 lingue supportate. Prova gratuita con filigrana.',
+      'Crea schede di anagrammi con immagini da vendere su Etsy e KDP. 4 livelli, codice colori vocali, 11 lingue, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Lettere Mescolate per Puzzle di Ortografia con Riordino Lettere',
+    title: 'Crea e vendi anagrammi stampabili su Etsy, KDP e oltre',
     tagline: 'Tessere di lettere mescolate incontrano indizi immagine — quattro livelli di difficoltà e un codice colori vocali-consonanti trasformano ogni parola in un puzzle di ortografia pratico.',
     description:
-      'Crea schede professionali di lettere mescolate dove gli utenti vedono un indizio immagine e riordinano tessere di lettere mescolate per comporre la parola corretta — un puzzle di riordino lettere che sviluppa simultaneamente la precisione ortografica, il riconoscimento delle parole e la consapevolezza fonetica. Scegli tra tre fonti di contenuto: la Libreria di Immagini integrata con oltre 3100 illustrazioni in 104 temi, la Modalità Modifica Manuale dove selezioni immagini e personalizzi i nomi di visualizzazione, o la modalità Lista di Parole Personalizzata per puzzle solo testo con fino a 8 parole inserite direttamente. Quattro livelli di difficoltà controllano quante lettere-indizio sono pre-posizionate nella posizione corretta — da Senza Indizi (nessuna lettera posizionata) alla modalità Facile che posiziona metà delle lettere — creando una progressione naturale dal principiante all\'avanzato. La funzione codice colori vocali-consonanti è esclusiva di Lettere Mescolate: attiva tessere colorate dove le vocali appaiono in un colore e le consonanti in un altro, aggiungendo una dimensione fonetica visiva che aiuta gli utenti a identificare i tipi di lettere mentre riordinano la parola. Inserisci da 1 a 10 puzzle per scheda e scegli tessere di lettere maiuscole o minuscole. L\'Accesso Completo sblocca tutte le 11 lingue supportate dove la parola obiettivo cambia in base alla lingua — \"dog\" in inglese diventa \"cane\" in italiano, \"Hund\" in tedesco, \"chien\" in francese — rendendo ogni lingua un prodotto distinto e commercializzabile. Ogni scheda genera un foglio risposte automatico, e puoi esportare PDF pronti per la stampa e JPEG a oltre 300 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di ortografia su Etsy, compili libri di puzzle di parole per Amazon KDP o crei centri di alfabetizzazione differenziati per Gumroad, il Generatore di Schede di Lettere Mescolate produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea anagrammi stampabili da vendere su Etsy e Amazon KDP — puzzle dove gli utenti vedono un indizio immagine e riordinano tessere di lettere mescolate per comporre la parola corretta. Quattro livelli di difficoltà controllano quante lettere sono pre-posizionate, creando una progressione dal principiante all\'avanzato. Funzione esclusiva: codice colori vocali-consonanti che aggiunge una dimensione fonetica visiva. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata. In italiano le parole obiettivo sono genuinamente localizzate — "cane", "gatto", "farfalla" — rendendo ogni lingua un prodotto distinto. Foglio risposte automatico, esportazione PDF a oltre 300 DPI e licenza commerciale inclusa. Gli anagrammi e i puzzle di parole sono tra i formati più richiesti su Etsy, ma in italiano la concorrenza è quasi nulla. Crea pacchetti tematici di ortografia o compila libri di puzzle per KDP. Prova gratis con filigrana.',
   },
 
   howItWorks: {

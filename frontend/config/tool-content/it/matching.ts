@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede di abbinamento',
+    primaryKeyword: 'generatore schede di abbinamento gratis',
     secondaryKeywords: [
-      'creatore schede di abbinamento per venditori',
-      'creare schede abbinamento traccia-una-linea da vendere',
-      'generatore attività di abbinamento stampabili uso commerciale',
-      'creatore schede abbinamento con immagini per KDP ed Etsy',
+      'creare schede di abbinamento gratis online',
+      'schede abbinamento stampabili gratis',
+      'generatore abbinamento traccia-una-linea senza registrazione',
+      'schede abbinamento immagini gratis PDF',
+      'generatore attività abbinamento gratuito',
     ],
     lsiKeywords: [
-      'strumento schede abbinamento traccia-una-linea quattro modalità',
-      'generatore attività abbinamento con chiave di risposta automatica',
-      'creatore abbinamento lettera iniziale immagine parola',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Schede Abbinamento | Traccia una Linea Maker',
-    metaDescription: 'Crea schede di abbinamento con 4 modalità, chiave di risposta automatica con linee di collegamento, coppie configurabili, 11 lingue, 104 temi. Prova gratuita.',
+    titleTag: 'Schede di abbinamento gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di abbinamento gratis online, senza registrazione. 4 modalità, chiave di risposta automatica, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Creatore di Schede di Abbinamento',
+    title: 'Crea Schede di Abbinamento Gratis Online',
     tagline: 'Generatore di schede di abbinamento traccia-una-linea con quattro modalità — Lettera Iniziale, Immagine+Parola, Misto e Parola Personalizzata — chiave di risposta automatica con linee di collegamento, coppie configurabili, intestazione localizzata "Trova le Coppie!" in 11 lingue e 104 collezioni tematiche per attività di abbinamento vendibili in tutto il mondo',
-    description: 'Crea schede di abbinamento professionali traccia-una-linea dove gli utenti collegano le coppie disegnando linee tra due colonne — con quattro modalità distinte in un unico generatore. La modalità Lettera Iniziale posiziona le immagini a sinistra e le loro lettere iniziali a destra, con tre sotto-modalità: Tema e Immagini Casuali sceglie un tema e le immagini automaticamente, Immagini Casuali dal Tema Scelto ti permette di scegliere il tema, e Seleziona Immagini Specifiche ti dà il controllo manuale su ogni immagine. Alterna tra visualizzazione maiuscola e minuscola per schede adatte all\'età. La modalità Immagine+Parola mostra coppie di immagini con etichette su entrambi i lati per il rinforzo del vocabolario. La modalità Immagine/Parola Misto usa selettori a tendina per ogni riga così ogni lato può mostrare indipendentemente un\'immagine o una parola, creando difficoltà variata all\'interno di una singola scheda. La modalità Parola Personalizzata abbina le immagini con i tuoi termini digitati per esercizi di ortografia, quiz di vocabolario o esercizi di lingua straniera. Configura 4, 5 o 6 coppie per scheda (predefinito 6) per controllare la difficoltà e la densità visiva. Attiva i numeri elemento (predefinito ON) per aggiungere numeri prima di ogni coppia e mostra punti/pallini (predefinito ON) per la formattazione decorativa — entrambi controllabili indipendentemente. Ogni scheda include un\'intestazione localizzata "Trova le Coppie!" generata automaticamente con sfondo a pillola gialla (#FFD700), cornice a bordo corallo (#FF7F50, tratto 8px), titolo in Fredoka (700) e descrizione in Quicksand (500), tradotta automaticamente in tutte le 11 lingue supportate. Il sistema a doppio canvas genera simultaneamente sia la scheda utente che la scheda con chiave di risposta — la chiave di risposta disegna linee di collegamento orizzontali (#555, larghezza tratto 2) tra le corrispondenze corrette così non devi mai crearla manualmente. Questo generatore è sensibile alla lingua: le modalità Lettera Iniziale e Immagine+Parola usano i nomi localizzati delle immagini, quindi cambiando lingua cambiano le parole e le lettere iniziali sulla scheda. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Aggiungi campi nome utente e data con una singola casella di controllo. Esporta quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI. Scegli formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate con l\'opzione scala di grigi per stampe a risparmio d\'inchiostro. Modifica tutto sul canvas Fabric.js con 7 font, contorno testo 0–10, strumenti di allineamento, livelli, blocca/sblocca, zoom 25%–300% e annulla/ripeti 20 stati. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede di abbinamento gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore traccia-una-linea offre quattro modalità distinte: Lettera Iniziale, Immagine+Parola, Misto e Parola Personalizzata. Configura 4, 5 o 6 coppie per scheda e personalizza ogni dettaglio — numeri, punti decorativi, intestazione localizzata in 11 lingue. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con linee di collegamento automatiche. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4 o personalizzato — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

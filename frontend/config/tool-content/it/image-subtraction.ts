@@ -2,26 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede sottrazione',
+    primaryKeyword: 'generatore schede di sottrazione gratis',
     secondaryKeywords: [
-      'creare schede sottrazione online',
-      'generatore esercizi sottrazione con immagini',
-      'schede sottrazione stampabili cancella e conta',
-      'creare fogli di lavoro sottrazione illustrati',
+      'creare schede sottrazione gratis online',
+      'schede sottrazione stampabili gratis',
+      'generatore sottrazione senza registrazione',
+      'esercizi sottrazione con immagini gratis PDF',
+      'schede sottrazione cancella e conta gratis',
     ],
     lsiKeywords: [
-      'esercizi cancella e conta stampabili',
-      'sottrazione visuale con immagini prescolare',
-      'schede operative sottrazione infanzia',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Generatore Schede Sottrazione Visiva | Cancella e Conta',
-    metaDescription: 'Crea schede di sottrazione con modalità Cancella in pochi secondi. 104 temi, 4 modalità, chiave di valore percepito e PDF stampabili. Prova gratuita con filigrana.',
+    titleTag: 'Schede di sottrazione gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di sottrazione gratis online, senza registrazione. Modalità Cancella, 104 temi, PDF istantaneo. Licenza commerciale per vendere.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Sottrazione',
+    title: 'Crea Schede di Sottrazione Gratis Online',
     tagline: 'Crea schede di sottrazione con modalità Cancella in meno di 60 secondi',
-    description: 'Rendi la sottrazione concreta con la modalità Cancella che i bambini capiscono istintivamente. Questo strumento genera schede di sottrazione basate su immagini in cui gli utenti barrano le figure per trovare la risposta — il modo più naturale per imparare il concetto di \"togliere\". Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta l\'intervallo del minuendo massimo, seleziona una delle quattro modalità di esercizio inclusa l\'esclusiva modalità Cancella e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano linee di prodotti matematici differenziati, editori Amazon KDP che compilano libri di attività sulla sottrazione e venditori che necessitano di materiali visivi per diversi livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
+    description: 'Crea schede di sottrazione gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento genera esercizi basati su immagini con l\'esclusiva modalità Cancella in cui gli utenti barrano le figure per trovare la risposta. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, imposta il minuendo massimo, seleziona una delle quattro modalità di esercizio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Supporta formati Letter, A4 e quadrato con sfondi decorativi, cornici personalizzabili e chiave di risposta automatica. Perfetto per creare materiali di sottrazione visuale con conteggio per immagini e layout professionali. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

@@ -59,8 +59,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Experimente os 33 geradores de fichas gr\átis online. Sem registo. Ca\ça-palavras, matem\ática, colorir, puzzles e mais com marca d\’\água.',
   },
   it: {
-    title: 'Generatori di stampabili gratis | 33 strumenti | LessonCraftStudio',
-    description: 'Prova tutti i 33 generatori di schede gratis online. Senza registrazione. Cerca parole, matematica, disegni, puzzle e altro con filigrana.',
+    title: '33 generatori gratis — Prova online | LessonCraftStudio',
+    description: 'Prova 33 generatori di stampabili gratis online. Senza registrazione. Crucipuzzle, matematica, colorare, puzzle e altro. Download con filigrana.',
   },
   nl: {
     title: 'Gratis printbare generatoren | 33 tools | LessonCraftStudio',

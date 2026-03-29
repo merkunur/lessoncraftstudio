@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'formattazione KDP schede',
+    primaryKeyword: 'formattazione KDP per libri di esercizi guida',
     secondaryKeywords: [
-      'guida formattazione KDP per libri di schede',
-      'specifiche manoscritto formattazione Amazon KDP',
-      'KDP dimensioni ritaglio margini abbondanza libri schede',
-      'esportazione PDF pronto stampa libri attività KDP',
+      'specifiche manoscritto Amazon KDP dimensioni ritaglio margini',
+      'esportazione PDF 300 DPI pronto stampa KDP libri attività',
+      'dimensioni copertina KDP larghezza dorso calcolatore',
+      'errori caricamento KDP rifiuto risoluzione problemi',
+      'layout pagine interne libri schede KDP abbondanza',
     ],
     lsiKeywords: [
-      'KDP dimensioni ritaglio 8.5x11 6x9 8x10 layout interno schede',
-      'margini manoscritto rilegatura zona sicura area abbondanza',
-      'esportazione PDF 300 DPI incorporamento font scala di grigi CMYK',
-      'dimensioni copertina KDP larghezza dorso posizionamento codice a barre calcolatore',
-      'numerazione pagine pagine preliminari materiale finale indice',
-      'errori caricamento KDP rifiuto risoluzione problemi anteprima bozza',
+      'margini rilegatura zona sicura area abbondanza KDP',
+      'incorporamento font scala di grigi CMYK stampa',
+      'numerazione pagine preliminari materiale finale indice',
+      'anteprima bozza processo revisione KDP',
     ],
-    titleTag: 'Formattazione KDP per Schede Didattiche | Guida Completa',
-    metaDescription: 'Guida alla formattazione KDP: dimensioni ritaglio, margini, abbondanza, esportazione PDF 300 DPI, copertina e risoluzione problemi per libri di attività.',
+    titleTag: 'Formattazione KDP libri di esercizi | LessonCraftStudio',
+    metaDescription: 'Formattazione KDP per libri di esercizi: dimensioni, margini, esportazione PDF 300 DPI e copertina. Evita errori di rifiuto con le specifiche esatte.',
   },
 
   hero: {
-    title: 'Guida alla Formattazione KDP per Libri di Schede',
+    title: 'Formattazione KDP per libri di esercizi: guida tecnica',
     tagline: 'Il riferimento tecnico definitivo per la formattazione di libri di schede e attività per Amazon KDP — selezione delle dimensioni di ritaglio per diversi tipi di attività, calcolo dei margini e della rilegatura per uno spazio di scrittura confortevole, configurazione con e senza abbondanza, esportazione PDF pronto stampa a 300 DPI con font incorporati, calcolo delle dimensioni della copertina inclusa larghezza del dorso e zone del codice a barre, assemblaggio completo del manoscritto dalle pagine preliminari alla sezione soluzioni, e risoluzione dei problemi più comuni di rifiuto e errori di formattazione nel caricamento KDP',
-    description: 'Un libro di schede perfettamente progettato non serve a nulla se KDP rifiuta il manoscritto o il risultato stampato presenta testo che scompare nella rilegatura, margini troppo stretti per scrivere o immagini sfocate da un\'esportazione a bassa risoluzione. Questa guida copre le specifiche tecniche di formattazione che distinguono una pubblicazione KDP professionale da una amatoriale — le misure esatte, le impostazioni e le procedure di esportazione che garantiscono che i tuoi libri di schede e attività vengano stampati correttamente ogni volta. Per strategie di creazione contenuti e pianificazione aziendale, consulta le nostre altre guide KDP. Questa guida è puramente tecnica: specifiche del manoscritto, layout di pagina, preparazione PDF, dimensioni della copertina e risoluzione dei problemi di caricamento.',
+    description: 'Un libro di esercizi perfettamente progettato non serve a nulla se Amazon KDP rifiuta il manoscritto o il risultato stampato ha margini troppo stretti, testo nella rilegatura o immagini sfocate. Questa guida tecnica fornisce le specifiche esatte di formattazione per editori italiani che pubblicano su KDP: dimensioni di ritaglio, margini e zone sicure, configurazione dell\'abbondanza, esportazione PDF a 300 DPI con font incorporati e calcolo delle dimensioni della copertina. Imparerai anche come risolvere gli errori di caricamento più comuni e come assemblare il manoscritto completo dalle pagine preliminari alla sezione soluzioni. Una risorsa indispensabile da consultare ad ogni pubblicazione.',
   },
 
   introduction: 'La formattazione è dove la maggior parte degli editori KDP alle prime armi perde ore in errori evitabili. Progettano bellissime pagine di schede nel loro strumento di layout preferito, caricano su KDP e scoprono che i margini sono troppo piccoli, la risoluzione del PDF è insufficiente, le dimensioni della copertina sono sbagliate o il conteggio pagine cade fuori dall\'intervallo accettato da KDP. Ogni rifiuto significa un altro ciclo di correzioni, riesportazione e ricaricamento — ritardi che si accumulano quando si cerca di costruire un catalogo in modo efficiente.\n\nI libri di schede e attività hanno requisiti di formattazione più rigorosi dei libri di testo standard. Un romanzo ha bisogno di margini adeguati per una lettura confortevole. Un libro di schede ha bisogno di margini adeguati per una scrittura confortevole — bambini che impugnano matite, adulti che cerchiano parole nelle griglie dei puzzle, utenti che risolvono problemi di matematica negli spazi dedicati alle risposte. I requisiti dei margini sono più ampi, la precisione del layout conta di più e le conseguenze di un errore sono immediatamente visibili nel prodotto stampato.\n\nQuesta guida fornisce le specifiche esatte di cui hai bisogno in ogni fase del processo di formattazione. La selezione delle dimensioni di ritaglio viene prima perché determina ogni misura successiva. Margini e zone sicure vengono secondi perché definiscono l\'area di contenuto utilizzabile. Il layout di pagina per diversi tipi di attività viene terzo perché schede, puzzle e pagine da colorare hanno ciascuno requisiti di spaziatura unici. Configurazione dell\'abbondanza, impostazioni di esportazione PDF, dimensioni della copertina, assemblaggio del manoscritto e risoluzione dei problemi di caricamento completano il flusso di lavoro.\n\nPer istruzioni sulla creazione dei contenuti — quali tipi di schede creare, come strutturare la progressione di difficoltà, quali temi vendono meglio — consulta la guida ai libri di attività matematica KDP. Per la strategia aziendale — prezzi, pianificazione del catalogo, ottimizzazione delle entrate — vedi la guida su come guadagnare con i libri di attività KDP. Per la pianificazione di contenuti specifici per i puzzle, consulta le guide sui libri di puzzle e cerca parole. Questa guida presuppone che tu abbia i contenuti pronti e si concentra esclusivamente sulla formattazione corretta per la produzione di stampa KDP.',

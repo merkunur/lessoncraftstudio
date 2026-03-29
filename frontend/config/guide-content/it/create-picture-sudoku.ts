@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare sudoku con immagini',
+    primaryKeyword: 'creare sudoku con immagini da vendere',
     secondaryKeywords: [
-      'sudoku con immagini per bambini',
-      'generatore sudoku con immagini stampabili',
-      'sudoku con immagini stampabili da vendere',
-      'puzzle sudoku visivi per età prescolare',
+      'sudoku con immagini stampabili per Etsy e KDP',
+      'generatore sudoku visivo uso commerciale',
+      'vendere puzzle sudoku per bambini online',
+      'creare libri sudoku con immagini per Amazon KDP',
+      'sudoku tematici da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'puzzle logici con immagini per bambini',
-      'sudoku visivo per piccoli utenti',
-      'generatore schede logica età prescolare',
-      'vendere schede sudoku su Etsy',
-      'libri attività puzzle Amazon KDP',
-      'strumento puzzle con licenza commerciale',
+      'puzzle logici visivi per prima infanzia',
+      'prodotti stampabili sudoku per venditori',
+      'griglie 4x4 con immagini indipendenti dalla lingua',
+      'tre livelli difficoltà per catalogo diversificato',
     ],
-    titleTag: 'Creare Sudoku con Immagini per Bambini | Guida Vendita',
-    metaDescription: 'Crea sudoku con immagini per piccoli utenti. Griglie 4x4, 3 livelli di difficoltà, immagini tematiche, chiavi di risposta e PDF pronti per la stampa per.',
+    titleTag: 'Sudoku con immagini da vendere | LessonCraftStudio',
+    metaDescription: 'Crea sudoku con immagini su griglie 4x4, 3 livelli di difficoltà e chiavi di risposta automatiche. Vendi puzzle stampabili su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Sudoku con Immagini per Piccoli utenti',
+    title: 'Sudoku con immagini da vendere: guida pratica',
     tagline: 'Tutorial passo passo per creare puzzle sudoku 4x4 basati su immagini da vendere su Etsy, Amazon KDP e Gumroad',
-    description: 'Il sudoku con immagini sostituisce i numeri con immagini, rendendo i puzzle logici accessibili a bambini a partire dai tre anni. Invece di riempire una griglia con cifre, i bambini posizionano immagini tematiche — animali, frutta, veicoli o qualsiasi set di immagini a scelta — in modo che ogni riga e colonna contenga ogni immagine esattamente una volta. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore di Sudoku con Immagini — dalla selezione del livello di difficoltà e del tema all\'esportazione di un PDF curato e pronto per la stampa con chiave di risposta automatica. Che tu stia costruendo il tuo primo prodotto puzzle stampabile o espandendo un catalogo esistente di apprendimento precoce, avrai un prodotto finito pronto per la pubblicazione entro la fine di questo tutorial.',
+    description: 'Il sudoku con immagini è un formato puzzle unico che si posiziona nella nicchia logica e pensiero critico, evitando la concorrenza diretta con il saturato mercato delle schede matematiche tradizionali. Sostituendo i numeri con immagini tematiche su griglie 4x4, i puzzle diventano accessibili a bambini dai tre anni in su. Il contenuto del puzzle è interamente visivo e indipendente dalla lingua, il che significa che ogni prodotto si vende a livello globale senza traduzione — un vantaggio competitivo enorme per i venditori italiani che vogliono raggiungere mercati internazionali. Tre livelli di difficoltà integrati ti permettono di creare set graduati dallo stesso tema, moltiplicando il tuo catalogo senza sforzo aggiuntivo. Questa guida ti mostra come usare il Generatore di Sudoku con Immagini per creare prodotti professionali con chiavi di risposta automatiche e PDF pronti per la stampa. Che tu stia costruendo il tuo primo prodotto puzzle o espandendo un catalogo esistente, avrai puzzle finiti pronti per la pubblicazione.',
   },
 
   introduction: 'Il sudoku è uno dei formati di puzzle più riconosciuti al mondo, ma le griglie standard 9x9 con numeri sono troppo complesse per i piccoli utenti. Il sudoku con immagini risolve questo problema usando una griglia 4x4 con quattro immagini tematiche invece di nove cifre. Le regole restano le stesse — ogni riga e colonna deve contenere ogni immagine esattamente una volta — ma la dimensione ridotta della griglia e il formato visivo lo rendono appropriato per bambini dai 3 ai 7 anni.\n\nCiò che rende il sudoku con immagini particolarmente forte come prodotto stampabile è che insegna la logica, non la matematica. I genitori che cercano "puzzle logici per età prescolare" o "schede di pensiero critico per la scuola dell\'infanzia" trovano il sudoku con immagini perché sviluppa il ragionamento spaziale e il pensiero deduttivo senza richiedere alcuna competenza numerica. Questo posiziona i tuoi prodotti nella categoria logica e puzzle piuttosto che competere direttamente con il saturato mercato delle schede di matematica.\n\nLa natura visiva del sudoku con immagini lo rende anche indipendente dalla lingua per quanto riguarda il contenuto del puzzle stesso. Un bambino che risolve una griglia con immagini di animali non ha bisogno di leggere alcun testo — il puzzle è interamente visivo. Questo significa che un singolo design di scheda funziona per acquirenti in qualsiasi paese, espandendo drasticamente il tuo mercato potenziale. L\'intestazione e le istruzioni sono localizzabili in 11 lingue integrate, ma il puzzle stesso non necessita di traduzione.\n\nIl Generatore di Sudoku con Immagini gestisce tutta la generazione del puzzle per te. Crea griglie 4x4 valide, rimuove il numero corretto di caselle in base al livello di difficoltà scelto, genera un\'area di ritaglio dove i bambini trovano le immagini mancanti e produce chiavi di risposta automatiche. Tu ti concentri sulla strategia del prodotto — quali temi usare, quali livelli di difficoltà targettizzare, come creare bundle e stabilire i prezzi — mentre il generatore gestisce logica del puzzle, layout e formattazione di stampa.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare puzzle di esempio, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

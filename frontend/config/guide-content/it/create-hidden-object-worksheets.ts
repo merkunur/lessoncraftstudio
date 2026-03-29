@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede oggetti nascosti',
+    primaryKeyword: 'creare cerca e trova da vendere',
     secondaryKeywords: [
-      'generatore scene oggetti nascosti',
-      'schede Cerca e Trova per bambini',
-      'schede stampabili Trova l\'Intruso',
-      'creare puzzle oggetti nascosti da vendere',
+      'schede cerca e trova stampabili per Etsy e KDP',
+      'generatore oggetti nascosti uso commerciale',
+      'vendere libri cerca e trova per bambini',
+      'creare scene oggetti nascosti con licenza commerciale',
+      'schede trova l\'intruso da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'schede ricerca visiva per età prescolare',
-      'attività trova l\'immagine nascosta',
-      'pagine stampabili cerca e trova',
-      'vendere schede oggetti nascosti su Etsy',
-      'libri attività cerca e trova Amazon KDP',
-      'generatore oggetti nascosti con licenza commerciale',
+      'scene oggetti nascosti con canvas a mano libera',
+      'prodotti stampabili cerca e trova per venditori',
+      'schede discriminazione visiva indipendenti dalla lingua',
+      'due modalità gioco per catalogo diversificato',
     ],
-    titleTag: 'Creare Schede Oggetti Nascosti — Guida Passo Passo',
-    metaDescription: 'Come creare schede oggetti nascosti con 2 modalità di gioco: Cerca e Trova e Trova l\'Intruso. Costruisci scene tematiche e vendi su Etsy e Amazon KDP.',
+    titleTag: 'Cerca e trova da vendere online | LessonCraftStudio',
+    metaDescription: 'Crea schede cerca e trova con 2 modalità di gioco, scene tematiche e chiavi di risposta automatiche. Vendi prodotti stampabili su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede con Scene di Oggetti Nascosti',
+    title: 'Cerca e trova da vendere: guida alla creazione',
     tagline: 'Tutorial passo passo per creare schede Cerca e Trova e Trova l\'Intruso con scene tematiche — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
-    description: 'Le schede con oggetti nascosti sono tra i prodotti stampabili più coinvolgenti che puoi creare. I bambini amano la sfida di cercare oggetti specifici in una scena, e genitori e venditori apprezzano l\'attenzione focalizzata che queste attività richiedono. Questa guida ti accompagna nella creazione di schede professionali con scene di oggetti nascosti usando il Generatore Trova Oggetti — dalla scelta tra le modalità Cerca e Trova e Trova l\'Intruso, alla costruzione di scene personalizzate con immagini a livelli, alla generazione automatica delle chiavi di risposta e all\'esportazione di file pronti per la stampa. Che tu stia lanciando il tuo primo prodotto stampabile o aggiungendo una nuova categoria a un negozio esistente, avrai schede finite pronte per la pubblicazione alla fine di questo tutorial.',
+    description: 'Le schede cerca e trova sono tra i prodotti stampabili più coinvolgenti e ad alto tasso di conversione su ogni marketplace. Il loro grande vantaggio competitivo è la natura completamente visiva: nessun testo da tradurre, nessuna barriera linguistica. Un prodotto creato in una sessione si vende identicamente in ogni paese del mondo. Il mercato italiano dei libri di attività per bambini è in crescita, e le schede cerca e trova rispondono perfettamente alla domanda di attività che sviluppano attenzione e discriminazione visiva. Il Generatore Trova Oggetti offre due modalità distinte — Cerca e Trova per localizzare oggetti specifici in scene ricche, e Trova l\'Intruso per identificare l\'immagine senza coppia. Ogni modalità crea una linea di prodotti separata. Il canvas a mano libera ti dà il controllo creativo completo per costruire scene con genuina complessità visiva. Questa guida ti mostra ogni passaggio dalla costruzione delle scene all\'esportazione di file pronti per la stampa con chiavi di risposta automatiche. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'Le attività con oggetti nascosti sfruttano un istinto umano fondamentale: la spinta a cercare e trovare. I bambini a partire dai tre anni si impegnano naturalmente con attività di cerca e trova, rendendo le schede con oggetti nascosti uno dei prodotti stampabili con il più ampio appeal. Il pubblico spazia dall\'età prescolare alla scuola elementare, attraversa ogni curricolo e funziona ugualmente bene a casa e online.\n\nCiò che distingue le schede con oggetti nascosti dagli altri prodotti stampabili è la loro natura visiva. Queste schede non contengono testo da tradurre, problemi matematici legati a un curricolo specifico, né istruzioni dipendenti dalla lingua. Una scheda con scena di oggetti nascosti creata con l\'interfaccia in inglese funziona identicamente per un acquirente in Germania, Brasile o Giappone. Questo rende i tuoi prodotti universalmente vendibili sui marketplace internazionali senza alcuna modifica.\n\nIl Generatore Trova Oggetti offre due modalità di gioco distinte che creano prodotti fondamentalmente diversi. La modalità Cerca e Trova sfida i bambini a trovare oggetti nascosti specifici all\'interno di una scena ricca di immagini distrattori. La modalità Trova l\'Intruso chiede ai bambini di identificare l\'immagine che non ha una coppia corrispondente. Ogni modalità serve competenze di sviluppo diverse — discriminazione visiva, attenzione ai dettagli, riconoscimento dei pattern — e ognuna crea una linea di prodotti separata per il tuo catalogo.\n\nA differenza dei generatori di schede basati su griglia, lo strumento Trova Oggetti usa un canvas a mano libera dove posizioni le immagini individualmente. Controlli livelli, allineamento e posizionamento per creare scene con genuina complessità visiva. Combinato con il caricamento di immagini personalizzate, temi di sfondo e decorazioni per i bordi, questo ti dà il controllo creativo completo su ogni scena che costruisci.\n\nTutte le funzionalità descritte in questa guida sono disponibili nella prova gratuita con filigrana. Puoi costruire scene complete, testare entrambe le modalità di gioco e valutare la qualità dell\'esportazione prima di acquistare una licenza commerciale.',

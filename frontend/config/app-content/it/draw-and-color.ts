@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede disegno su griglia',
+    primaryKeyword: 'schede disegno e colore per negozio Etsy',
     secondaryKeywords: [
-      'generatore schede disegno su griglia stampabili per venditori Etsy',
-      'creatore schede riproduzione su griglia per Amazon KDP',
-      'vendere schede disegno su griglia su Gumroad',
-      'generatore schede disegna e colora licenza commerciale',
+      'creare schede disegno su griglia da vendere online',
+      'generatore schede riproduzione visiva per Amazon KDP',
+      'vendere schede disegna e colora su Etsy Italia',
+      'schede disegno su griglia licenza commerciale stampabili',
     ],
     lsiKeywords: [
-      'prodotti digitali schede disegno su griglia per imprenditori',
-      'schede riproduzione cella per cella stampabili uso commerciale',
-      'generatore schede disegno su griglia con modalità simmetria',
+      'prodotti digitali disegno su griglia mercato italiano',
+      'nicchia schede riproduzione visiva venditori Etsy',
+      'stampabili disegno e colorazione uso commerciale',
     ],
-    titleTag: 'Generatore Schede Disegno su Griglia | Crea e Vendi',
+    titleTag: 'Schede Disegno e Colore per Etsy | Crea e Vendi',
     metaDescription:
-      'Crea schede di disegno su griglia per Etsy, KDP e Gumroad. Griglia doppia, percentuale indizi regolabile, modalità simmetria. Prova gratuita con filigrana.',
+      'Crea schede disegno su griglia da vendere su Etsy e KDP. Griglia doppia, modalità simmetria, 104 temi. Licenza commerciale inclusa. Prova gratis.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Disegno su Griglia per Esercizi di Riproduzione Visiva',
+    title: 'Schede Disegno e Colore per il Tuo Negozio Etsy',
     tagline: 'Sistema a griglia doppia — griglia di pratica e griglia indizi affiancate — con percentuale indizi regolabile dal 10 % al 75 %, modalità simmetria orizzontale e verticale e oltre 100 collezioni di contorni in bianco e nero per attività di disegno e colorazione.',
     description:
-      'Crea schede professionali di disegno su griglia dove gli utenti riproducono un\'immagine di riferimento copiandola cella per cella da una griglia indizi a una griglia di pratica vuota. Due griglie appaiono per ogni immagine selezionata: una Griglia di Pratica con celle vuote dove gli utenti disegnano e una Griglia Indizi che mostra una percentuale configurabile dell\'immagine di riferimento come indizi visivi. Regola la percentuale indizi dal 10 % al 75 % per controllare la difficoltà — meno indizi significa esercizi più impegnativi che richiedono un\'osservazione più attenta. Configura le dimensioni della griglia da 3×3 (9 celle) a 10×10 (100 celle), con righe e colonne regolabili indipendentemente da 3 a 10. Tre modalità di simmetria aggiungono una dimensione di ragionamento spaziale: Casuale posiziona gli indizi in modo sparso, Orizzontale riflette gli indizi da sinistra a destra e Verticale riflette gli indizi dall\'alto verso il basso, ciascuna con un selettore della metà da rivelare. Il contenuto proviene dalla libreria di temi di contorni in bianco e nero integrata con oltre 100 collezioni che includono oltre 3000 illustrazioni in bianco e nero progettate specificamente per la riproduzione e la colorazione — non sono temi colorati, ma contorni puliti che gli utenti riproducono e poi colorano. Questa è un\'applicazione puramente visiva: le schede contengono solo immagini su griglia con zero testo nell\'output, rendendole universalmente utilizzabili indipendentemente dalla lingua. Non è necessario un foglio risposte separato perché la griglia indizi stessa funge da riferimento della soluzione. L\'Accesso Completo sblocca tutti gli oltre 100 temi di contorni in bianco e nero e le 11 lingue dell\'interfaccia. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4 o dimensioni personalizzate. Che tu venda pacchetti di disegno su griglia su Etsy, compili quaderni di competenze di disegno per Amazon KDP o crei centri di ragionamento spaziale per Gumroad, il Generatore di Schede di Disegno su Griglia produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede di disegno su griglia sono tra i prodotti stampabili più richiesti su Etsy e Amazon KDP, e il mercato italiano è ancora quasi vuoto — un\'opportunità concreta per i venditori che entrano adesso. Con questo generatore crei schede professionali dove gli utenti riproducono immagini cella per cella, con griglia indizi e griglia di pratica affiancate. Regola la percentuale di indizi dal 10 % al 75 % per controllare la difficoltà e configura griglie da 3×3 a 10×10. Tre modalità di simmetria aggiungono esercizi di ragionamento spaziale. La libreria integrata include oltre 3000 contorni in bianco e nero in più di 100 collezioni tematiche — ideali per la riproduzione e la colorazione. L\'output è puramente visivo, senza testo: ogni scheda funziona in tutte le 11 lingue senza traduzione, moltiplicando il tuo catalogo. Esporta PDF e JPEG a 300 DPI in formato A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

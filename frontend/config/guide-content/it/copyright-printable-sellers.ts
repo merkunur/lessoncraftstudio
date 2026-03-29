@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'copyright venditori stampabili',
+    primaryKeyword: 'diritti d\'autore per venditori di stampabili',
     secondaryKeywords: [
-      'protezione copyright schede',
-      'diritto autore business stampabili',
-      'proteggere schede dalla copia',
-      'copyright prodotti digitali',
+      'protezione copyright schede stampabili online',
+      'cosa è tutelabile nel design di schede educative',
+      'gestire violazioni copyright marketplace digitali',
+      'fair use e pubblico dominio per venditori',
+      'segnalazione DMCA Etsy Amazon per stampabili',
     ],
     lsiKeywords: [
-      'proprietà intellettuale opera originale protezione registrazione copyright segnalazione DMCA',
-      'fair use educativo pubblico dominio risorse violazione copyright opere derivate',
-      'avviso copyright espressione creativa elementi tutelabili design schede protezione',
-      'arrangiamento originale furto prodotti digitali scraping contenuti protezione IP marketplace',
-      'titolarità copyright protezione automatica registrazione benefici danni statutari',
-      'scelte creative espressione versus idee fatti metodi standard contenuti educativi',
+      'proprietà intellettuale espressione creativa',
+      'opere derivate elementi tutelabili',
+      'protezione automatica registrazione copyright',
+      'furto prodotti digitali scraping contenuti',
     ],
-    titleTag: 'Copyright per Venditori di Stampabili | Guida alle Basi',
-    metaDescription: 'Le basi del copyright per venditori di stampabili: elementi tutelabili, vantaggi registrazione, enforcement e come evitare violazioni nel tuo business.',
+    titleTag: 'Diritti d\'autore per venditori | LessonCraftStudio',
+    metaDescription: 'Diritti d\'autore per venditori di stampabili: cosa è tutelabile, come proteggere le tue schede e gestire le violazioni sui marketplace. Guida pratica.',
   },
 
   hero: {
-    title: 'Basi del Copyright per Venditori di Stampabili',
+    title: 'Diritti d\'Autore per Chi Vende Stampabili Online',
     tagline: 'Una guida completa per comprendere il copyright come titolare di un business di stampabili — cosa protegge il copyright nelle schede, cosa è e cosa non è tutelabile nei prodotti educativi, proteggere i tuoi design originali, comprendere il fair use, usare risorse di pubblico dominio, gestire le violazioni, evitare errori di copyright e integrare la consapevolezza del copyright nelle tue operazioni',
-    description: 'Il copyright è il quadro giuridico che protegge il tuo lavoro creativo originale e definisce cosa puoi e cosa non puoi usare da altri. Come venditore di stampabili, comprendere le basi del copyright è essenziale per due motivi: proteggere le schede e i design che crei dalla copia non autorizzata, e assicurarti che i tuoi stessi prodotti non violino i diritti di qualcun altro. Questa guida fornisce conoscenze pratiche sul copyright specificamente per venditori di stampabili — quali elementi delle tue schede sono tutelabili, come rafforzare la tua posizione legale, cosa fare quando qualcuno copia il tuo lavoro e come evitare errori comuni di copyright che potrebbero portare alla rimozione di inserzioni dai marketplace o a responsabilità legale. Nota: questa guida è a scopo informativo, non costituisce consulenza legale. Consulta un avvocato qualificato per indicazioni su situazioni specifiche.',
+    description: 'Come venditore di stampabili nel mercato italiano e internazionale, il copyright è il tuo scudo legale e la tua responsabilità. Devi proteggere le schede che crei dalla copia non autorizzata e, allo stesso tempo, assicurarti che i tuoi prodotti non violino i diritti altrui. Con la crescita del mercato dei stampabili digitali in Italia, le violazioni sono sempre più frequenti sui marketplace. Questa guida ti offre conoscenze pratiche: quali elementi delle tue schede sono tutelabili, come rafforzare la tua posizione legale, cosa fare quando qualcuno copia il tuo lavoro e come evitare gli errori di copyright che portano a rimozioni e sospensioni. Nota: questa guida è a scopo informativo, non costituisce consulenza legale.',
   },
 
   introduction: 'Molti venditori di stampabili operano con una comprensione solo vaga del copyright, il che crea due rischi significativi. Il primo rischio è la sotto-protezione: non prendere le misure di base che rafforzerebbero la propria posizione legale quando qualcuno inevitabilmente copia i tuoi prodotti. Il secondo rischio è l\'eccesso di fiducia: presumere che tutto ciò che crei sia automaticamente protetto contro qualsiasi forma di copia, o che aggiungere un simbolo di copyright a una scheda renda ogni suo elemento legalmente intoccabile.\n\nLa realtà del copyright per i venditori di stampabili è più sfumata di entrambi gli estremi. Il copyright protegge effettivamente l\'espressione creativa originale automaticamente al momento della creazione — non è necessario registrare o depositare nulla perché la protezione di base del copyright esista. Ma il copyright non protegge idee, fatti, metodi standard o arrangiamenti comuni. Un layout specifico di una scheda con illustrazioni originali e testo didattico creativo è tutelabile dal copyright. I fatti matematici sottostanti, le sequenze alfabetiche o i concetti educativi su quella scheda non lo sono. Comprendere questa distinzione è il fondamento della conoscenza pratica del copyright per i venditori di stampabili.\n\nQuesta distinzione è enormemente importante nel mercato dei stampabili educativi perché gran parte del contenuto delle schede rientra nella categoria non tutelabile. Il fatto che 2 + 3 = 5 non può essere protetto da copyright da nessuno. Il concetto di crucipuzzle non può essere di proprietà di nessuno. L\'idea di usare immagini di animali per insegnare il vocabolario è disponibile per tutti. Ciò che può essere protetto dal copyright è la tua specifica espressione creativa: il modo particolare in cui arrangi gli elementi su una pagina, le illustrazioni originali che crei o licenzi, il testo didattico unico che scrivi e le scelte creative che fai nel combinare e presentare contenuti educativi.\n\nPer i venditori di stampabili, la conoscenza del copyright serve a tre scopi pratici. Primo, ti aiuta a capire quali aspetti del tuo lavoro meritano protezione e quali passi rafforzano quella protezione. Secondo, ti prepara a rispondere efficacemente quando qualcuno copia i tuoi prodotti — sapere la differenza tra qualcuno che copia la tua espressione creativa (violazione perseguibile) e qualcuno che crea una scheda simile sullo stesso argomento (non è violazione) ti evita di sprecare tempo in dispute che non puoi vincere. Terzo, ti impedisce di violare inavvertitamente il copyright altrui, il che può portare alla rimozione di inserzioni dal marketplace, avvertimenti sull\'account o responsabilità legale.\n\nQuesta guida copre le conoscenze pratiche sul copyright di cui i venditori di stampabili hanno maggiormente bisogno: cosa è e cosa non è tutelabile, come rafforzare la tua posizione sul copyright, cosa fare quando si verifica una violazione, come usare in sicurezza risorse di pubblico dominio e con licenza, e come integrare la consapevolezza del copyright nelle operazioni quotidiane del tuo business. L\'obiettivo non è farti diventare un avvocato specializzato in copyright, ma darti una comprensione sufficiente per proteggere il tuo lavoro, rispettare i diritti altrui e prendere decisioni informate sugli aspetti di proprietà intellettuale del tuo business di stampabili.',

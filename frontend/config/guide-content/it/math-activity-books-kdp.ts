@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'libri attività matematica KDP',
+    primaryKeyword: 'creare quaderni di matematica per Amazon KDP',
     secondaryKeywords: [
-      'come creare libri attività matematica per Amazon KDP',
-      'guida pubblicazione quaderni matematica KDP',
-      'pubblicare libri attività matematica su Amazon',
-      'Amazon KDP libro schede matematica',
+      'pubblicare libri attività matematica KDP guida',
+      'quaderno matematica Amazon KDP formattazione manoscritto',
+      'royalty KDP libri attività matematica strategia prezzi',
+      'design copertina libro matematica Amazon KDP',
+      'ottimizzazione parole chiave KDP libri matematica bambini',
     ],
     lsiKeywords: [
-      'formattazione manoscritto KDP formato ritaglio pagine interne libro attività',
-      'design copertina Amazon larghezza dorso calcolatore modello',
-      'ottimizzazione parole chiave KDP categorie navigazione libri matematica',
-      'print-on-demand strategia prezzi royalty libri attività',
-      'quaderno matematica conteggio pagine progressione difficoltà chiavi risposta',
+      'formato ritaglio pagine interne libro attività KDP',
+      'print-on-demand Amazon quaderni educativi',
+      'progressione difficoltà chiavi risposta quaderni',
       'processo revisione KDP copia prova copie autore',
     ],
-    titleTag: 'Creare Libri di Attività Matematica per KDP | Guida',
-    metaDescription: 'Scopri come creare libri di attività matematica per Amazon KDP e guadagnare royalty. Formattazione manoscritto, design copertina e ottimizzazione parole.',
+    titleTag: 'Quaderni di matematica per Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Crea quaderni di matematica per Amazon KDP: formattazione manoscritto, copertina, parole chiave e royalty. Guida passo dopo passo per editori italiani.',
   },
 
   hero: {
-    title: 'Come Creare Libri di Attività Matematica per Amazon KDP',
+    title: 'Quaderni di matematica per Amazon KDP: guida completa',
     tagline: 'Una guida completa alla pubblicazione per creare e vendere libri di attività matematica su Amazon KDP — formattazione del manoscritto con formati di ritaglio e margini corretti, design della copertina con calcolo della larghezza del dorso, ottimizzazione dei campi parole chiave Amazon su tutti i 7 slot, selezione delle categorie di navigazione per massima scopribilità, strategia prezzi royalty sia al livello del 35 percento che del 60 percento, pianificazione contenuti con progressione di difficoltà su 40–80 pagine interne, posizionamento chiavi di risposta, economia del print-on-demand, ordine copie prova, e costruzione di una serie di quaderni matematica correlati che si promuovono reciprocamente su Amazon',
-    description: 'Amazon KDP ti permette di pubblicare libri di attività matematica print-on-demand senza costi di stampa anticipati e senza gestione dell\'inventario. Questa guida ti accompagna in ogni passaggio della creazione di un quaderno matematica professionale — dalla generazione di contenuti matematici diversificati usando 5 generatori di schede specializzati, attraverso la formattazione del manoscritto e il design della copertina, fino all\'ottimizzazione della tua inserzione Amazon per la visibilità nella ricerca e l\'impostazione dei prezzi per massimizzare le royalty. Che tu stia pubblicando il tuo primo libro di attività o espandendo un catalogo esistente, questa guida copre i flussi di lavoro specifici per KDP che differiscono fondamentalmente dalla vendita di singoli download digitali su marketplace come Etsy.',
+    description: 'Amazon KDP offre agli editori italiani la possibilità di pubblicare quaderni di matematica in print-on-demand senza costi di stampa anticipati e senza gestione dell\'inventario. Questa guida ti accompagna dalla generazione dei contenuti con 5 generatori specializzati fino alla pubblicazione su Amazon: formattazione del manoscritto secondo le specifiche KDP, design della copertina con calcolo del dorso, ottimizzazione delle parole chiave nei 7 slot Amazon e strategia prezzi per massimizzare le royalty. Il mercato dei quaderni educativi su Amazon cresce costantemente, con genitori e insegnanti che cercano risorse di matematica ogni giorno. Scopri come trasformare i tuoi generatori in un catalogo KDP redditizio.',
   },
 
   introduction: 'I libri di attività matematica sono tra i prodotti più costantemente venduti su Amazon KDP. I genitori cercano quotidianamente su Amazon quaderni che rinforzano le competenze scolastiche, e i venditori acquistano libri di attività per esercitazione supplementare. A differenza della vendita di singoli PDF di schede su Etsy, la pubblicazione su KDP significa creare un libro rilegato che Amazon stampa e spedisce su richiesta ogni volta che un cliente ordina. Non devi mai gestire l\'inventario, non paghi mai costi di stampa anticipati, e non ti occupi mai della spedizione — Amazon gestisce l\'intero processo di evasione mentre tu guadagni royalty su ogni vendita.\n\nL\'economia funziona diversamente dai marketplace di download digitali. Su Etsy, imposti un prezzo e trattieni la maggior parte dopo piccole commissioni di inserzione e transazione. Su KDP, Amazon calcola la tua royalty sottraendo il costo di stampa dal prezzo di listino, poi applicando un tasso di royalty del 60 percento o del 35 percento a seconda delle scelte di prezzo e distribuzione. Un libro di attività matematica ben prezzato con 50–60 pagine interne può guadagnare tra 2 e 5 dollari per vendita al livello di royalty del 60 percento — e con Amazon che gestisce tutta l\'evasione, quelle royalty sono quasi interamente profitto.\n\nIl vero vantaggio di KDP è la scala e la scopribilità. Amazon è il primo posto dove la maggior parte dei genitori e degli imprenditori va quando cerca prodotti stampabili. Il tuo libro di attività matematica appare accanto a quaderni pubblicati tradizionalmente nei risultati di ricerca, e il motore di raccomandazione di Amazon può mostrare il tuo libro agli acquirenti che hanno comprato titoli simili. Costruire un catalogo di libri di matematica correlati crea un effetto volano dove ogni titolo promuove gli altri attraverso le funzioni \"I clienti hanno acquistato anche\" e \"Acquistati spesso insieme\" di Amazon.\n\nQuesta guida copre il flusso di lavoro completo dalla creazione dei contenuti alla pubblicazione, usando 5 generatori di schede che producono attività matematiche diversificate adatte al formato libro rilegato. Imparerai come pianificare il conteggio pagine, formattare i manoscritti secondo le specifiche KDP, progettare copertine che soddisfano i requisiti Amazon, scrivere inserzioni ottimizzate per la ricerca Amazon, e prezzare i tuoi libri per massimizzare le royalty.',

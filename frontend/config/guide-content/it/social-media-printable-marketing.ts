@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing social media stampabili',
+    primaryKeyword: 'social media per venditori di stampabili',
     secondaryKeywords: [
-      'social media per venditori di stampabili',
-      'promuovere stampabili sui social media',
-      'strategia social business stampabili',
-      'vendere schede online con i social',
+      'strategia Instagram per business di schede',
+      'promuovere stampabili con contenuti visivi',
+      'costruire pubblico social per venditori educativi',
+      'calendario contenuti social venditori stampabili',
+      'convertire follower in acquirenti stampabili',
     ],
     lsiKeywords: [
-      'content marketing promozione prodotti marketing visivo strategia piattaforme',
-      'costruzione pubblico coinvolgimento brand awareness vetrina prodotti',
-      'portata organica calendario contenuti contenuti visivi prodotti condivisibili',
-      'fotografia prodotti prova sociale costruzione community crescita follower',
-      'marketing Instagram strategia Pinterest gruppi Facebook promozione venditori',
-      'strategia hashtag programmazione post tasso di coinvolgimento ottimizzazione profilo',
+      'marketing visivo fotografia prodotti flat lay',
+      'portata organica coinvolgimento community',
+      'strategia hashtag programmazione post',
+      'Pinterest gruppi Facebook promozione venditori',
     ],
-    titleTag: 'Marketing Social Media Stampabili — Guida per Venditori',
-    metaDescription: 'Marketing sui social media per venditori di stampabili: scelta delle piattaforme, contenuti visivi, costruzione del pubblico e coinvolgimento per il traffico.',
+    titleTag: 'Social media per venditori stampabili | LessonCraftStudio',
+    metaDescription: 'Social media per venditori di stampabili: scegli le piattaforme giuste, crea contenuti visivi efficaci e converti follower in acquirenti. Guida completa.',
   },
 
   hero: {
-    title: 'Marketing sui Social Media per Venditori di Stampabili',
+    title: 'Social Media per Chi Vende Stampabili Educativi',
     tagline: 'Una guida completa al marketing sui social media per stampabili — come scegliere le piattaforme giuste, creare contenuti visivi accattivanti, bilanciare promozione e valore, allineare i post alle stagioni di vendita, ottimizzare i profili per la scoperta, usare gli hashtag in modo strategico, costruire un coinvolgimento autentico della community e monitorare i risultati per perfezionare la strategia',
-    description: 'I prodotti stampabili sono intrinsecamente visivi, il che rende i social media uno dei canali di marketing più naturali ed efficaci per i venditori di schede. Una foto ben scattata in stile flat lay di una scheda, un breve video che mostra un generatore che produce un pacchetto di attività a tema, o un carousel di colorate pagine da colorare possono fermare un genitore o un venditore mentre scorre il feed e indirizzarlo direttamente al tuo negozio. Questa guida fornisce un framework completo di marketing sui social media progettato specificamente per i venditori di stampabili — dalla scelta delle piattaforme e la creazione dei contenuti fino alla costruzione del pubblico e al monitoraggio delle performance.',
+    description: 'I prodotti stampabili sono intrinsecamente fotogenici, e questo è il tuo vantaggio competitivo sui social media. Una foto flat lay di una scheda colorata, un video che mostra la creazione di un pacchetto a tema, o un carousel di pagine da colorare possono fermare lo scroll di genitori e imprenditori e indirizzarli al tuo negozio. Nel mercato italiano, dove pochi venditori di stampabili usano i social in modo strategico, c\'è un\'enorme opportunità per chi costruisce una presenza costante e mirata. Questa guida ti offre un framework completo: dalla scelta tra Instagram, Pinterest e gruppi Facebook alla creazione di contenuti che convertono, fino al monitoraggio delle performance per ottimizzare la strategia nel tempo.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili sa che dovrebbe usare i social media per promuovere i propri prodotti, ma pochi hanno una strategia strutturata che generi costantemente traffico e vendite. Pubblicano sporadicamente quando se ne ricordano, condividono link ai prodotti senza contesto e si chiedono perché il numero di follower rimane fermo e il traffico verso il negozio dai canali social resta trascurabile. Il problema non è che i social media non funzionino per le attività di stampabili — è che la maggior parte dei venditori li affronta senza un piano, senza capire quali contenuti funzionano su ciascuna piattaforma e senza la costanza che gli algoritmi richiedono per premiare gli account con visibilità.\n\nIl marketing sui social media per i venditori di stampabili ha un vantaggio intrinseco significativo che molte categorie di prodotti digitali non hanno: i prodotti stampabili sono intrinsecamente fotogenici. Una scheda di matematica con illustrazioni di animali, una colorata carta da bingo, un puzzle di parole intrecciate a tema o una pagina da colorare illustrata creano contenuti visivamente accattivanti che performano naturalmente sulle piattaforme basate sulle immagini. Non stai cercando di rendere interessante un servizio digitale astratto — stai mostrando prodotti tangibili, colorati e visivamente coinvolgenti che si fotografano magnificamente e attirano coinvolgimento organico da venditori, genitori e appassionati di contenuti educativi.\n\nLa sfida per i venditori di stampabili non è creare contenuti attraenti — è sviluppare una strategia sostenibile che bilanci la promozione dei prodotti con contenuti di valore, allinei i calendari di pubblicazione ai cicli della domanda stagionale e converta i follower occasionali in clienti paganti. Un venditore che pubblica solo link ai prodotti faticherà a costruire un pubblico. Un venditore che pubblica solo consigli educativi senza mai mostrare i prodotti costruirà follower che non visiteranno mai il suo negozio. L\'approccio efficace combina entrambi: contenuti di valore che costruiscono il pubblico e stabiliscono competenza, abbinati a una presentazione strategica dei prodotti che converte quel pubblico in acquirenti.\n\nLa scelta della piattaforma è enormemente importante per i venditori di stampabili perché non tutte le piattaforme social servono questa categoria di prodotto in modo uguale. Instagram e Pinterest sono i canali più forti perché sono piattaforme image-first dove le anteprime delle schede, la fotografia flat lay e i mockup dei prodotti si mostrano naturalmente nei feed degli utenti. I gruppi Facebook offrono opportunità di vendita basate sulla community dove il coinvolgimento diretto con venditori e genitori porta alla scoperta dei prodotti. Altre piattaforme possono avere ampie basi di utenti ma mancano del formato visivo o delle demografiche del pubblico che si allineano con gli acquirenti di stampabili educativi.\n\nQuesta guida presenta un framework completo di marketing sui social media pensato per le attività di stampabili. Ogni passaggio affronta un aspetto specifico della strategia social, dalla scelta delle piattaforme e la creazione di contenuti accattivanti alla costruzione di sistemi di coinvolgimento e al monitoraggio delle performance. L\'obiettivo è una presenza social sostenibile e gestibile che generi costantemente traffico qualificato verso il tuo negozio — non un obbligo che consuma tempo e ti allontana dalla creazione di prodotti senza un ritorno misurabile.',

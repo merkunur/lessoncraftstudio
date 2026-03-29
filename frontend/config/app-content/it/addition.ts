@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede addizione',
+    primaryKeyword: 'creare schede di addizione da vendere su Etsy',
     secondaryKeywords: [
-      'schede addizione stampabili per Etsy',
-      'generatore schede matematica per Amazon KDP',
-      'vendere schede addizione su Gumroad',
-      'schede addizione licenza commerciale',
+      'generatore di schede di matematica per venditori Etsy',
+      'schede di somma per Amazon KDP',
+      'esercizi di addizione stampabili con licenza commerciale',
+      'creare quaderni di matematica per KDP',
+      'schede didattiche di calcolo da vendere online',
     ],
     lsiKeywords: [
-      'prodotti digitali di matematica per imprenditori',
-      'attività stampabili business online',
-      'generatore schede uso commerciale',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'immagini tematiche',
+      'reddito passivo',
+      'download digitale',
+      'chiave di risposta',
+      'schede di calcolo',
+      'scuola dell\'infanzia',
+      'scuola primaria',
+      'business di stampabili',
+      'guadagno extra',
+      'classe prima',
     ],
-    titleTag: 'Generatore Schede di Addizione | Crea e Vendi Online',
+    titleTag: 'Schede di addizione da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede di addizione da vendere su Etsy, KDP e Gumroad. 104 temi, 4 modalità esercizio, soluzioni incluse, export 400+ DPI. Prova gratuita con filigrana.',
+      'Crea schede di addizione professionali da vendere su Etsy e KDP. Licenza commerciale inclusa. Prova gratis con filigrana — senza registrazione.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Addizione per la Pratica Visiva della Matematica',
+    title: 'Crea e vendi schede di addizione professionali su Etsy e KDP',
     tagline: 'Trasforma l\'addizione in un\'avventura pratica con schede di matematica basate su immagini.',
     description:
-      'Crea schede di addizione basate su immagini che rendono i primi concetti di matematica tangibili e divertenti. Scegli tra quattro modalità di esercizio distinte — Immagine + Immagine, Immagine + Numero, Trova l\'Addendo e Modalità Mista — per adattarti a ogni livello, dalla scuola dell\'infanzia alla seconda elementare. Esplora oltre 3100 illustrazioni selezionate in 104 temi come animali della fattoria, veicoli e alimenti per dare vita a ogni problema. Ogni scheda include un foglio soluzioni automatico, e puoi esportare PDF pronti per la stampa in formato Letter, A4 o personalizzato a oltre 400 DPI. Che tu venda su Etsy, pubblichi libri di attività su Amazon KDP o distribuisca schede ai tuoi utenti, il Generatore di Schede di Addizione offre risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede di addizione da vendere su Etsy, Amazon KDP o Eduki — e generale in meno di 3 minuti. Questo generatore crea esercizi di somma con immagini tematiche da oltre 3.000 illustrazioni colorate che attirano i bambini e convincono i genitori ad acquistare. Esporta PDF pronti per la stampa a 300 DPI con soluzioni automatiche e vendi con la licenza commerciale inclusa — senza attribuzione, senza limiti. Il mercato italiano dei materiali educativi stampabili su Etsy è praticamente vuoto: pochissimi venditori offrono schede di matematica in italiano. Questa è un\'opportunità unica per posizionarsi in un mercato con 59 milioni di potenziali clienti e concorrenza quasi inesistente. L\'Italia non ha ancora un marketplace consolidato per schede didattiche — chi arriva per primo domina.',
   },
 
   howItWorks: {

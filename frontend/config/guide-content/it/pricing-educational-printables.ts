@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'strategie di prezzo per stampabili didattici',
+    primaryKeyword: 'strategia di prezzo per schede educative',
     secondaryKeywords: [
-      'come stabilire il prezzo delle schede stampabili',
-      'guida ai prezzi dei stampabili educativi',
-      'strategia di prezzo per schede esercizi',
-      'prezzi dei prodotti stampabili',
+      'come stabilire il prezzo di stampabili su Etsy',
+      'psicologia dei prezzi per venditori di schede',
+      'margini di profitto stampabili educativi',
+      'test dei prezzi prodotti digitali marketplace',
+      'commissioni piattaforma e ricavo netto venditori',
     ],
     lsiKeywords: [
-      'fascia di prezzo valore percepito prezzi competitivi prezzi basati sul valore ricarico sui costi',
-      'ancoraggio del prezzo prezzo del bundle prezzi a livelli test dei prezzi commissioni piattaforma margine di profitto',
-      'psicologia dei prezzi strategia di sconto prezzo premium elasticità del prezzo tasso di conversione',
-      'commissioni piattaforma ricavo netto livelli di prezzo confronto prezzi analisi dei costi ottimizzazione dei ricavi',
-      'prezzi stagionali adeguamento prezzi ricerca di mercato disponibilità a pagare modello di prezzo',
-      'framework dei prezzi posizionamento del prezzo sottovalutazione sovrapprezzo prezzi sostenibili',
+      'ancoraggio prezzo valore percepito',
+      'prezzi a livelli bundle stampabili',
+      'analisi competitiva prezzi marketplace',
+      'ottimizzazione ricavi prodotti digitali',
     ],
-    titleTag: 'Strategie di Prezzo per Stampabili Didattici — Guida',
-    metaDescription: 'Strategie di prezzo comprovate per stampabili didattici. Psicologia dei prezzi, analisi competitiva, commissioni piattaforma, margini di profitto e test.',
+    titleTag: 'Prezzi per schede educative | LessonCraftStudio',
+    metaDescription: 'Strategie di prezzo per schede educative: psicologia dei prezzi, analisi competitiva e test sistematici per massimizzare i margini. Scopri il framework.',
   },
 
   hero: {
-    title: 'Strategie di Prezzo per Stampabili Didattici',
+    title: 'Come Stabilire i Prezzi delle Schede Educative',
     tagline: 'Una guida completa per stabilire i prezzi dei stampabili educativi per massimizzare i ricavi e garantire una crescita sostenibile — dalla ricerca di mercato e analisi competitiva, al calcolo dei costi e pianificazione dei margini di profitto, ai modelli di prezzo per diversi tipi di prodotto, alla psicologia dei prezzi e ottimizzazione delle conversioni, alle considerazioni specifiche per piattaforma, fino al test sistematico dei prezzi per un miglioramento continuo',
-    description: 'Il prezzo è la decisione con il maggiore impatto nella tua attività di stampabili. Un aumento di $3 su tutto il catalogo può raddoppiare il margine di profitto dall\'oggi al domani, mentre un prezzo troppo basso anche di pochi dollari ti fa perdere migliaia di dollari ogni anno. Eppure la maggior parte dei venditori di stampabili fissa i prezzi a intuito o copiando i concorrenti senza capire perché hanno scelto quei prezzi. Questa guida copre un framework completo per la definizione dei prezzi che funziona su Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica e qualsiasi altra piattaforma dove vendi stampabili educativi.',
+    description: 'Il prezzo è la leva più potente nel tuo business di stampabili educativi. Un aumento di soli $3 su tutto il catalogo può raddoppiare i margini di profitto, mentre la sottovalutazione ti costa migliaia di euro ogni anno senza che te ne accorga. Nel mercato italiano, dove molti venditori copiano i prezzi dei concorrenti senza una strategia, c\'è un\'enorme opportunità per chi applica un approccio sistematico. Questa guida ti offre un framework completo per definire i prezzi dei tuoi stampabili: dalla ricerca di mercato alla psicologia dei prezzi, dall\'analisi delle commissioni piattaforma ai test A/B. Funziona su Etsy, Amazon KDP, Gumroad e Creative Fabrica.',
   },
 
   introduction: 'Gli errori di prezzo sono gli errori più costosi che un venditore di stampabili possa commettere, e i più comuni. La maggior parte dei nuovi venditori sottovaluta drasticamente i propri prodotti — non perché il loro lavoro non abbia valore, ma perché mancano di sicurezza, temono che prezzi più alti spaventino gli acquirenti, o semplicemente copiano i prezzi più bassi che trovano sulla piattaforma senza capire perché quei prodotti hanno quel prezzo.\n\nLa sottovalutazione crea un circolo vizioso difficile da spezzare. Prezzi bassi attirano acquirenti sensibili al prezzo che lasciano meno recensioni e mostrano meno fedeltà. Margini bassi significano che non puoi permetterti la pubblicità, non puoi investire in strumenti migliori e non puoi giustificare il tempo speso a creare contenuti di qualità. La frustrazione di lavorare duramente per un ritorno minimo porta molti venditori di talento ad abbandonare prima che la loro attività prenda slancio — non perché la domanda per i loro prodotti fosse bassa, ma perché i prezzi rendevano l\'attività insostenibile.\n\nIl sovrapprezzo comporta i propri rischi, anche se sono meno gravi di quanto la maggior parte dei venditori tema. Un prodotto con un prezzo troppo alto genera semplicemente meno vendite, il che ti dà un segnale chiaro per aggiustare verso il basso. I dati sono immediati e utilizzabili. La sottovalutazione, al contrario, può persistere per mesi o anni perché il prodotto continua a vendere — semplicemente non ti rendi mai conto di quanti ricavi stai perdendo perché non hai mai testato un prezzo più alto.\n\nIl prezzo giusto per i tuoi stampabili educativi non è un singolo numero ma un intervallo determinato dai tuoi costi, dal tuo mercato, dalla qualità del prodotto e dalla piattaforma su cui vendi. Questa guida ti accompagna attraverso un framework sistematico: ricercare il panorama competitivo, calcolare i costi reali, scegliere il modello di prezzo giusto, applicare la psicologia dei prezzi, adattarsi alle diverse piattaforme e testare i prezzi nel tempo. L\'obiettivo non è trovare un unico prezzo perfetto ma costruire un sistema di pricing che massimizzi i ricavi rimanendo competitivo e sostenibile.\n\nLa determinazione del prezzo non è nemmeno una decisione una tantum. I mercati cambiano, la concorrenza evolve, le commissioni delle piattaforme si aggiornano e la qualità dei tuoi prodotti migliora nel tempo. I venditori che guadagnano di più dalla loro attività di stampabili non sono quelli che hanno trovato il prezzo perfetto il primo giorno — sono quelli che hanno costruito l\'abitudine di valutare e aggiustare sistematicamente i prezzi sulla base di dati reali anziché ipotesi.',

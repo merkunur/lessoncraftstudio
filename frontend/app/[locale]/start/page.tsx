@@ -79,8 +79,8 @@ const startPageContent: Record<string, {
   it: {
     heroTitle: 'Guide per il business di stampabili',
     heroDescription: 'Tutto ciò che serve per avviare e far crescere un business di stampabili redditizio. Dalla scelta della nicchia alla crescita delle vendite.',
-    metaTitle: 'Guide per il business di stampabili | Avviare e crescere | LessonCraftStudio',
-    metaDescription: 'Guide complete per avviare e far crescere un business di stampabili. Vendita su Etsy, Amazon KDP, TPT. Prezzi, marketing e strategie di nicchia.',
+    metaTitle: 'Creare e far crescere un business di stampabili | LessonCraftStudio',
+    metaDescription: 'Tutto per creare e far crescere il tuo business di stampabili. Guide Etsy, KDP, marketing, prezzi, crescita e aspetti legali per il mercato italiano.',
     ctaTitle: 'Pronto a creare?',
     ctaDescription: 'Prova tutti i 33 generatori gratis con filigrana. Senza registrazione.',
     ctaButton: 'Prova i generatori gratis',

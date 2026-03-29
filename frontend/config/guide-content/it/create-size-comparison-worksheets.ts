@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede confronto dimensioni',
+    primaryKeyword: 'creare schede di confronto da vendere',
     secondaryKeywords: [
-      'schede grande e piccolo per bambini',
-      'generatore schede discriminazione dimensionale',
-      'schede stampabili confronto dimensioni da vendere',
-      'schede ordinamento dimensioni per età prescolare',
+      'schede confronto dimensioni stampabili per Etsy e KDP',
+      'generatore schede grande e piccolo uso commerciale',
+      'vendere schede discriminazione dimensionale online',
+      'creare attività ordinamento dimensioni con licenza commerciale',
+      'schede confronto senza testo da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'attività discriminazione visiva delle dimensioni',
-      'schede senza testo per vendite internazionali',
-      'schede cerchia il più grande',
-      'vendere schede confronto dimensioni su Etsy',
-      'libri attività ordinamento dimensioni Amazon KDP',
-      'strumento schede dimensioni con licenza commerciale',
+      'cinque tipi domanda confronto dimensioni',
+      'output senza testo per vendite internazionali',
+      'prodotti stampabili prima infanzia per venditori',
+      'due modalità immagine per catalogo diversificato',
     ],
-    titleTag: 'Creare Schede Confronto Dimensioni — Guida Passo Passo',
-    metaDescription: 'Come creare schede confronto dimensioni con 5 tipi di domanda e 2 modalità immagine. Output senza testo per vendite mondiali. Guida per Etsy, KDP e Gumroad.',
+    titleTag: 'Schede di confronto da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di confronto dimensioni con 5 tipi di domanda e output senza testo per vendite globali. Esporta PDF per vendere su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di Confronto Dimensioni',
+    title: 'Schede di confronto dimensioni da vendere online',
     tagline: 'Tutorial passo passo per creare schede di discriminazione dimensionale con cinque tipi di domanda e output senza testo — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
-    description: 'Il confronto delle dimensioni è una delle prime competenze visive che i bambini sviluppano, e le schede che esercitano questa abilità hanno una domanda costante tutto l\'anno da parte di genitori, venditori e centri di apprendimento precoce. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore Schede Grande e Piccolo — dalla scelta tra cinque tipi di domanda e due modalità immagine alla configurazione della densità degli esercizi, alla generazione automatica delle chiavi di risposta e all\'esportazione di file pronti per la stampa. Lo strumento produce schede completamente visive con output senza testo, il che significa che i tuoi prodotti si vendono ad acquirenti di qualsiasi paese senza traduzione. Che tu stia creando il tuo primo prodotto stampabile o espandendo un catalogo esistente di apprendimento precoce, avrai schede finite pronte per la pubblicazione alla fine di questo tutorial.',
+    description: 'Le schede di confronto dimensioni sono tra i prodotti stampabili più richiesti per l\'apprendimento precoce, con una domanda costante da genitori, scuole dell\'infanzia e centri educativi. Il vantaggio competitivo decisivo di questa categoria è l\'output completamente senza testo: ogni scheda contiene solo immagini e indicatori visivi, il che significa che un singolo prodotto si vende identicamente in qualsiasi paese del mondo senza traduzione. Per i venditori italiani che vogliono espandersi su mercati internazionali, questa è un\'opportunità concreta. Il Generatore Schede Grande e Piccolo offre cinque tipi di domanda (Cerchia il Più Grande, il Più Piccolo, il Medio, Numera dal Piccolo al Grande e viceversa) e due modalità immagine che raddoppiano la varietà del catalogo. Questa guida ti mostra come configurare ogni impostazione, generare chiavi di risposta automatiche ed esportare file pronti per la stampa. Che tu stia creando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'La discriminazione dimensionale è una competenza visivo-cognitiva fondamentale che i bambini iniziano a sviluppare prima di saper leggere, scrivere o contare. Riconoscere che un oggetto è più grande di un altro, ordinare gli elementi dal più piccolo al più grande e identificare l\'opzione di dimensione media in un gruppo — queste competenze sono alla base del ragionamento matematico, della consapevolezza spaziale e della risoluzione di problemi quotidiani. Questa importanza nello sviluppo si traduce in una domanda costante sul mercato per le schede di confronto dimensioni nelle fasce d\'età prescolare, scuola dell\'infanzia e primi anni della scuola elementare.\n\nCiò che rende le schede di confronto dimensioni eccezionalmente forti come prodotto stampabile è il loro output senza testo. Il Generatore Schede Grande e Piccolo crea schede che contengono solo immagini e indicatori visivi — nessuna parola appare sulla pagina finale. Questo significa che una scheda creata in una sessione si vende identicamente ad acquirenti di ogni paese, ogni lingua e ogni livello di alfabetizzazione. Non hai bisogno di versioni separate del prodotto per i mercati inglese, tedesco, francese o spagnolo. Un\'inserzione, un file, vendibilità universale. Questo è un vantaggio competitivo concreto rispetto ai generatori di schede basati sul testo dove ogni prodotto richiede traduzione e inserzioni separate sui marketplace.\n\nLo strumento offre cinque tipi di domanda distinti che creano una progressione naturale di difficoltà. Cerchia il Più Grande è il compito di identificazione più semplice. Cerchia il Più Piccolo richiede un confronto leggermente più attento. Cerchia il Medio introduce un terzo livello dimensionale e il ragionamento per eliminazione. Numera 1–2–3 dal Piccolo al Grande e dal Grande al Piccolo passano dall\'identificazione al sequenziamento a più passaggi. Ogni tipo di domanda mira a una competenza cognitiva diversa, e ciascuno crea un prodotto separato che puoi pubblicare sui marketplace.\n\nDue modalità immagine raddoppiano la varietà dei tuoi prodotti dallo stesso strumento. La modalità Immagini Identiche mostra la stessa immagine a dimensioni diverse, isolando la pura percezione dimensionale. La modalità Immagini Diverse mostra oggetti distinti a dimensioni diverse, richiedendo un ragionamento sulle dimensioni relative. Queste modalità creano esercizi fondamentalmente diversi che attraggono esigenze diverse degli acquirenti.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi testare tutti e cinque i tipi di domanda, entrambe le modalità immagine, ogni tema e l\'intera pipeline di esportazione prima di acquistare una licenza commerciale.',

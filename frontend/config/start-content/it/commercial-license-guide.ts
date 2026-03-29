@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'licenza commerciale stampabili uso commerciale',
+    primaryKeyword: 'licenza commerciale per venditori stampabili',
     secondaryKeywords: [
-      'licenza commerciale per schede stampabili',
-      'vendere schede commercialmente Etsy Amazon',
-      'guida licenza attività stampabili',
-      'generatore di schede diritti commerciali',
+      'diritti commerciali schede didattiche Etsy KDP',
+      'licenza uso commerciale generatori di schede',
+      'vendere schede generate legalmente su marketplace',
+      'differenza licenza personale e commerciale stampabili',
+      'livelli licenza stampabili prezzi e copertura',
     ],
     lsiKeywords: [
-      'licenza uso commerciale download digitali',
-      'requisiti licenza venditori stampabili',
-      'licenza commerciale Etsy download digitali',
-      'licenza libri attività Amazon KDP',
-      'livelli licenza generatore di schede',
-      'uso commerciale vs personale stampabili',
+      'uso commerciale vs personale download digitali',
+      'licenza indipendente dalla piattaforma',
+      'prova gratuita con filigrana prima dell\'acquisto',
+      'diritti vendita illimitata schede generate',
     ],
-    titleTag: 'Guida Licenza Commerciale Stampabili per Venditori',
-    metaDescription: 'Scopri la licenza commerciale per vendere schede su Etsy, Amazon KDP e altre piattaforme. Due livelli spiegati con diritti chiari, prezzi e prova gratuita.',
+    titleTag: 'Licenza commerciale per venditori | LessonCraftStudio',
+    metaDescription: 'Guida completa alla licenza commerciale per vendere schede su Etsy, Amazon KDP e Gumroad. Due livelli, diritti chiari e prova gratuita con filigrana.',
   },
 
   hero: {
-    title: 'La Guida alla Licenza Commerciale per Venditori di Stampabili',
+    title: 'Licenza Commerciale per Venditori di Stampabili',
     tagline: 'Tutto ciò che devi sapere sulla licenza commerciale per i generatori di schede — cosa puoi vendere, dove puoi venderlo e quale livello si adatta alla tua attività',
-    description: 'La licenza commerciale è l\'argomento più frainteso nel business dei stampabili. I venditori si preoccupano di avere il diritto di vendere le schede generate, quali piattaforme sono coperte, e se servono licenze separate per ogni prodotto o inserzione. Questa guida elimina completamente quella confusione. Imparerai esattamente cosa copre una licenza commerciale, cosa includono i due livelli di prezzo, come la licenza si applica a ogni grande piattaforma di vendita, e come la prova gratuita con filigrana ti permette di valutare tutto prima dell\'acquisto. Che tu venda su Etsy, pubblichi su Amazon KDP o usi qualsiasi altro marketplace, questa guida ti dà completa chiarezza sui tuoi diritti commerciali.',
+    description: 'La confusione sulle licenze frena più venditori di stampabili di quanto facciano i prodotti scadenti. Quali piattaforme sono coperte? Servono licenze separate per ogni inserzione? Questa guida elimina ogni dubbio: scoprirai esattamente cosa copre la licenza commerciale, la differenza tra i due livelli di prezzo, come si applica a Etsy.it, Amazon.it KDP, Gumroad e ogni altro marketplace. La prova gratuita con filigrana ti permette di testare ogni generatore e valutare la qualità dell\'output prima di investire. Vendi con piena chiarezza sui tuoi diritti commerciali.',
   },
 
   introduction: 'La confusione sulle licenze uccide più attività di stampabili di quanto facciano i prodotti scadenti. Non perché le regole siano complicate — non lo sono — ma perché i venditori o non controllano mai i termini della licenza o presumono restrizioni che non esistono. Entrambi gli errori costano denaro.\n\nI venditori che saltano la ricerca sulle licenze rischiano di costruire un catalogo di prodotti su strumenti che non possono legalmente usare per scopi commerciali. Un singolo avviso di rimozione da parte di un titolare di diritti può cancellare mesi di lavoro — prodotti rimossi, recensioni perse e reputazione del venditore danneggiata. I venditori che presumono limitazioni eccessivamente rigide, d\'altra parte, perdono opportunità di guadagno non creando prodotti che hanno pieno diritto di vendere.\n\nIl mercato delle schede stampabili è particolarmente soggetto a confusione sulle licenze perché esistono molti strumenti diversi con condizioni molto differenti. Alcune librerie di clip-art consentono solo l\'uso personale. Alcuni template di schede richiedono l\'attribuzione. Alcuni generatori limitano il numero di prodotti che puoi creare o le piattaforme dove puoi venderli. Ogni strumento ha i propri termini, e i venditori che usano più strumenti devono comprendere ciascuno di essi.\n\nQuesta guida si concentra specificamente sulle licenze dei generatori di schede LessonCraftStudio — cosa coprono, quanto costano e come si applicano a scenari di vendita reali su Etsy, Amazon KDP, Gumroad, Gumroad e altre piattaforme. L\'obiettivo è darti completa fiducia nei tuoi diritti commerciali così puoi concentrarti sulla creazione di prodotti invece di preoccuparti dell\'esposizione legale.\n\nOgni generatore offre una prova gratuita con filigrana, dandoti accesso completo a tutte le funzionalità prima di spendere qualsiasi cosa. La prova ti permette di valutare la qualità dell\'output, testare diversi temi e impostazioni, e confermare che i generatori soddisfano le tue esigenze produttive — tutto prima di prendere una decisione sulla licenza.',

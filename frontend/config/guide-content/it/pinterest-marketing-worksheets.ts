@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing Pinterest schede didattiche',
+    primaryKeyword: 'marketing Pinterest per business schede',
     secondaryKeywords: [
-      'Pinterest per venditori di stampabili',
-      'vendere schede con Pinterest',
-      'strategia Pinterest business stampabili',
-      'traffico Pinterest per negozi di schede',
+      'strategia Pinterest per venditori stampabili',
+      'ottimizzazione pin schede educative traffico',
+      'SEO Pinterest per prodotti stampabili',
+      'bacheche Pinterest per negozio di schede',
+      'traffico evergreen Pinterest venditori digitali',
     ],
     lsiKeywords: [
-      'motore di ricerca visuale design pin ottimizzazione bacheche descrizioni ricche di parole chiave',
-      'traffico evergreen programmazione pin tasso di clic scoperta organica',
-      'pin prodotto idea pin Pinterest analytics SEO Pinterest rich pin',
-      'impressioni pin strategia repin pin stagionali strategia bacheche',
-      'ottimizzazione pin formato verticale algoritmo Pinterest pin freschi',
-      'posizionamento ricerca tasso di salvataggio clic in uscita audience insights modelli pin',
+      'motore ricerca visuale design pin verticali',
+      'rich pin programmazione contenuti stagionali',
+      'tasso clic salvataggio scoperta organica',
+      'algoritmo Pinterest parole chiave descrizioni',
     ],
-    titleTag: 'Marketing Pinterest per Schede — Strategia Venditori',
-    metaDescription: 'Marketing Pinterest per venditori di schede stampabili. Traffico a lungo termine con ottimizzazione pin, strategia bacheche e contenuti con parole chiave.',
+    titleTag: 'Pinterest per business di schede | LessonCraftStudio',
+    metaDescription: 'Marketing Pinterest per venditori di schede: ottimizzazione pin, strategia bacheche e SEO per traffico evergreen al tuo negozio. Framework completo.',
   },
 
   hero: {
-    title: 'Marketing su Pinterest per il Business delle Schede',
+    title: 'Pinterest per il Tuo Business di Schede Stampabili',
     tagline: 'Una guida completa al marketing su Pinterest per venditori di schede — come configurare un account business, strutturare le bacheche per la scopribilità, progettare pin ad alta conversione, scrivere descrizioni ricche di parole chiave, sviluppare un programma di pubblicazione, ottimizzare per la SEO su Pinterest, sfruttare i cicli di contenuti stagionali e analizzare i dati sulle performance',
-    description: 'Pinterest non è un social media. È un motore di ricerca visuale dove gli utenti cercano attivamente prodotti e idee da acquistare. Per i venditori di schede stampabili, questa distinzione è fondamentale — gli utenti di Pinterest scoprono, salvano e cliccano per acquistare risorse educative mesi dopo la pubblicazione di un pin. Questa guida fornisce un framework completo di marketing su Pinterest costruito specificamente per il business delle schede, dall\'ottimizzazione del profilo e la strategia delle bacheche al design dei pin, l\'integrazione delle parole chiave, la pianificazione stagionale e il perfezionamento basato sui dati.',
+    description: 'Pinterest non è un social media: è un motore di ricerca visuale dove gli utenti cercano attivamente prodotti da acquistare. Per i venditori italiani di schede stampabili, questa distinzione è fondamentale. Un pin pubblicato oggi può generare traffico e vendite per anni, costruendo un motore di scoperta che cresce con ogni contenuto aggiunto. Nel mercato italiano, dove pochissimi venditori di stampabili sfruttano Pinterest in modo strategico, l\'opportunità è enorme. Questa guida ti offre un framework completo: dall\'ottimizzazione del profilo alla strategia delle bacheche, dal design dei pin ad alta conversione alla SEO Pinterest, fino alla pianificazione stagionale e all\'analisi dei dati per perfezionare continuamente i risultati.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili tratta Pinterest come un ripensamento — condividendo occasionalmente un\'immagine del prodotto con un link e sperando nel traffico. Questo approccio produce risultati minimi perché ignora i meccanismi fondamentali che rendono Pinterest unicamente potente per il business delle schede. Pinterest funziona come un motore di ricerca visuale, non come un feed social. I contenuti vengono scoperti attraverso la ricerca per parole chiave e la raccomandazione algoritmica, non attraverso le timeline dei follower. Un pin pubblicato oggi può generare traffico verso il tuo negozio per anni, accumulando portata man mano che raccoglie salvataggi e coinvolgimento. Nessun\'altra piattaforma offre questo tipo di scopribilità evergreen per prodotti visivi.\n\nL\'opportunità per i venditori di schede su Pinterest è sostanziale e sottoutilizzata. Gli stampabili educativi sono tra le categorie di prodotti più cercate su Pinterest, con genitori, venditori e famiglie homeschooler che cercano attivamente schede, pagine di attività e prodotti stampabili. Questi utenti hanno un\'intenzione d\'acquisto — non stanno scorrendo casualmente ma cercano attivamente prodotti specifici da scaricare, stampare e usare. Un pin ben ottimizzato che appare in queste ricerche collega il tuo prodotto direttamente a un acquirente motivato nel momento esatto in cui sta cercando ciò che vendi.\n\nCiò che rende Pinterest particolarmente efficace per il business delle schede è la natura visiva del prodotto. Schede, pagine da colorare, puzzle e fogli di attività sono prodotti intrinsecamente visivi che si presentano magnificamente nel formato orientato alle immagini di Pinterest. Un pin colorato e ben progettato che mostra un\'anteprima della scheda comunica immediatamente cos\'è il prodotto, a chi è destinato e cosa lo rende attraente — tutto senza che l\'acquirente legga una singola parola di testo. Questa auto-spiegazione visiva riduce l\'attrito nel percorso dalla scoperta al clic e produce tassi di clic più alti rispetto alle inserzioni pesanti di testo su altre piattaforme.\n\nLa natura composita del traffico Pinterest è ciò che lo separa da ogni altro canale di marketing disponibile per i venditori di stampabili. Su Instagram o Facebook, un post raggiunge il suo pubblico massimo entro 24-48 ore e poi scompare effettivamente dalla scoperta. Su Pinterest, un pin guadagna slancio nel corso di settimane e mesi mentre l\'algoritmo lo indicizza, lo fa emergere nei risultati di ricerca e lo raccomanda a utenti con interessi simili. I pin più performanti possono generare traffico costante per 6-12 mesi o più. Questo significa che ogni pin che crei è un investimento che continua a generare rendimenti molto dopo la pubblicazione, costruendo un motore di traffico che cresce con ogni nuovo pin aggiunto.\n\nI generatori di schede accelerano la tua strategia Pinterest risolvendo il collo di bottiglia produttivo che limita il volume di pin della maggior parte dei venditori. Creare abbastanza prodotti unici e di alta qualità per mantenere un programma di pubblicazione costante richiede strumenti di produzione efficienti. I generatori ti permettono di produrre schede professionali e pronte per la stampa su temi, materie e lingue multipli — dandoti un catalogo di prodotti profondo da cui pinnare. Puoi provare qualsiasi generatore come prova gratuita con filigrana per vedere come si inserisce nel tuo flusso di lavoro di produzione orientato a Pinterest.\n\nQuesta guida ti accompagna attraverso un sistema completo di marketing Pinterest progettato specificamente per il business delle schede. Ogni passaggio si costruisce sul precedente, creando un approccio sistematico che trasforma Pinterest da un ripensamento occasionale nel tuo canale principale di traffico e scoperta.',

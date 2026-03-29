@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare pagine da colorare',
+    primaryKeyword: 'creare disegni da colorare per Etsy e KDP',
     secondaryKeywords: [
-      'generatore pagine da colorare da immagini',
-      'pagine da colorare stampabili da vendere',
-      'generatore pagine da colorare scala di grigi',
-      'schede da colorare personalizzate per bambini',
+      'pagine da colorare stampabili da vendere online',
+      'generatore disegni da colorare uso commerciale',
+      'vendere libri da colorare su Amazon KDP',
+      'creare pagine da colorare con licenza commerciale',
+      'disegni da colorare tematici per Etsy e Gumroad',
     ],
     lsiKeywords: [
-      'pagine da colorare tematiche per Etsy',
-      'pagine libri da colorare per Amazon KDP',
-      'designer pagine da colorare a composizione libera',
-      'convertire immagini in pagine da colorare',
-      'schede attività da colorare per il negozio',
-      'strumento per colorare con licenza commerciale',
+      'canvas composizione libera per pagine da colorare',
+      'esportazione scala di grigi per libri KDP',
+      'prodotti stampabili da colorare per venditori',
+      'oltre 3100 immagini tematiche per disegni',
     ],
-    titleTag: 'Creare Pagine da Colorare Stampabili | Guida per Etsy',
-    metaDescription: 'Come creare pagine da colorare da oltre 3.100 immagini tematiche. Canvas a composizione libera con esportazione in scala di grigi e disegno a mano libera.',
+    titleTag: 'Disegni da colorare per Etsy e KDP | LessonCraftStudio',
+    metaDescription: 'Crea pagine da colorare con oltre 3.100 immagini tematiche, canvas a composizione libera e scala di grigi. Vendi su Etsy, Amazon KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Pagine da Colorare da Immagini Tematiche',
+    title: 'Disegni da colorare per Etsy e KDP: guida pratica',
     tagline: 'Tutorial passo passo per progettare pagine da colorare personalizzate usando un canvas a composizione libera, oltre 3.100 immagini tematiche, disegno a mano libera ed esportazione in scala di grigi con un clic',
-    description: 'Le pagine da colorare sono uno dei prodotti stampabili pi\ù cercati e acquistati su ogni principale marketplace. I genitori le vogliono per attivit\à offline e senza schermi. i venditori le usano come attivit\à del mattino e schede premio online. I venditori Etsy costruiscono interi negozi attorno a bundle di pagine da colorare tematiche. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore di Pagine da Colorare \— dal posizionamento di immagini tematiche su un canvas a composizione libera all\'attivazione della scala di grigi che converte il tuo design colorato in una pagina da colorare pulita e pronta per la stampa. Che tu stia creando il tuo primo prodotto da colorare o espandendo un catalogo di stampabili esistente, avrai una pagina da colorare finita pronta per la pubblicazione entro la fine di questo tutorial.',
+    description: 'Le pagine da colorare sono tra i prodotti stampabili più venduti in assoluto su Etsy e Amazon KDP, con venditori che costruiscono interi negozi attorno a bundle tematici. Il mercato italiano offre un\'opportunità particolarmente interessante: la domanda di attività offline e senza schermi cresce costantemente, mentre la concorrenza per disegni da colorare di qualità in italiano resta bassa. Il Generatore di Pagine da Colorare ti permette di creare composizioni originali su un canvas a composizione libera con oltre 3.100 immagini tematiche in 104 categorie, strumenti di disegno a mano libera e conversione in scala di grigi con un clic. A differenza di strumenti generici, questo approccio ti dà il controllo creativo completo per prodotti visivamente distintivi. Questa guida ti mostra ogni passaggio dalla composizione all\'esportazione di PDF pronti per la stampa. Che tu stia lanciando il tuo primo prodotto da colorare o espandendo un catalogo esistente, avrai pagine finite pronte per la pubblicazione.',
   },
 
   introduction: 'Le pagine da colorare occupano una posizione unica nel mercato dei stampabili. A differenza delle schede che si rivolgono a gruppi di et\à o livelli di abilit\à specifici, le pagine da colorare attraggono praticamente tutti \— bambini piccoli, bambini in et\à scolare, adolescenti e persino adulti. Questo appeal universale si traduce in una domanda massiccia e durante tutto l\'anno su Etsy, Amazon KDP e Gumroad.\n\nCi\ò che rende le pagine da colorare particolarmente attraenti come prodotto \è la loro semplicit\à. Non ci sono chiavi di risposta da generare, nessun livello di difficolt\à da configurare e nessun allineamento curricolare di cui preoccuparsi. Una pagina da colorare ben progettata con immagini accattivanti si vende per il suo merito visivo. La barriera all\'ingresso \è bassa, ma i venditori che hanno successo sono quelli con design distintivi che si distinguono dalle collezioni generiche di clip art.\n\nIl Generatore di Pagine da Colorare adotta un approccio fondamentalmente diverso dagli strumenti tradizionali per pagine da colorare. Invece di lavorare con modelli prefabbricati o ricalcare contorni a mano, lavori su un canvas a composizione libera dove posizioni immagini tematiche da una libreria di oltre 3.100 illustrazioni in 104 temi. Trascini, ridimensioni e ruoti le immagini liberamente per creare composizioni originali. Poi l\'attivazione della scala di grigi converte il tuo design colorato in contorni in bianco e nero puliti pronti per essere colorati.\n\nLo strumento include anche uno strumento di disegno a mano libera per aggiungere dettagli disegnati a mano, strumenti di testo per titoli e istruzioni, e strumenti per il negozio come campi nome e righe di scrittura. Questa combinazione ti permette di creare tutto, dalle semplici pagine da colorare con una singola immagine a schede di attivit\à tematiche complesse.\n\nTutte le funzionalit\à menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi progettare pagine da colorare complete, testare l\'attivazione della scala di grigi e valutare la qualit\à dell\'output prima di acquistare una licenza commerciale.',

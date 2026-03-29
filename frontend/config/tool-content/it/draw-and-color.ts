@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede disegno su griglia',
+    primaryKeyword: 'creare schede disegno e colore gratis',
     secondaryKeywords: [
-      'creatore schede disegno griglia per venditori',
-      'creare schede disegno e colora da vendere',
-      'schede riproduzione su griglia stampabili uso commerciale',
-      'generatore schede disegno cella per cella per KDP',
+      'schede disegno su griglia gratis online',
+      'generatore schede disegno e colora gratis PDF',
+      'schede riproduzione griglia gratis senza registrazione',
+      'creare schede disegno cella per cella gratis stampabile',
+      'schede disegno griglia gratis prova gratuita',
     ],
     lsiKeywords: [
-      'stampabili disegno griglia duale per Etsy',
-      'strumento schede percentuale indizi regolabile',
-      'creatore schede disegno modalità simmetria specchio',
+      'schede disegno gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore griglia duale gratis online',
     ],
-    titleTag: 'Generatore Schede Disegno su Griglia | Crea e Vendi',
-    metaDescription: 'Genera schede disegno su griglia con griglia duale, percentuale indizi regolabile, tre modalità simmetria e temi in bianco e nero.',
+    titleTag: 'Schede disegno e colore gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede disegno e colore gratis online, senza registrazione. Griglia duale, indizi regolabili, tre modalità simmetria. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Creatore di Schede Disegno e Colora',
+    title: 'Crea Schede Disegno e Colore Gratis Online',
     tagline: 'Genera schede disegno con griglia duale, percentuale indizi regolabile, tre modalità simmetria e output puramente visivo a zero testo che si vende in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali di disegno su griglia dove gli utenti riproducono un\'immagine di riferimento copiandola cella per cella dalla griglia di indizi alla griglia di pratica vuota. Per ogni immagine selezionata appaiono due griglie: una Griglia di Pratica con celle vuote dove gli utenti disegnano, e una Griglia di Indizi che mostra una percentuale configurabile dell\'immagine di riferimento come suggerimenti visivi. Regola la percentuale di indizi dal 10% al 75% per controllare la difficoltà — meno indizi significano esercizi più impegnativi che richiedono un\'osservazione più attenta. Configura le dimensioni della griglia da 3×3 (9 celle) a 10×10 (100 celle), con righe e colonne regolabili indipendentemente. Tre modalità simmetria aggiungono una dimensione di ragionamento spaziale: Casuale disperde gli indizi in posizioni arbitrarie, Orizzontale specchia gli indizi da sinistra a destra, e Verticale specchia gli indizi dall\'alto in basso, ciascuna con un selettore della parte da rivelare che controlla quale metà viene mostrata. I contenuti provengono dalla libreria di temi con contorni in bianco e nero integrata, con oltre 100 collezioni e più di 3.000 illustrazioni in bianco e nero progettate specificamente per disegnare e colorare — contorni puliti che gli utenti riproducono e poi colorano, non temi colorati. Questa è un\'app puramente visiva: le schede contengono solo immagini di griglie con zero testo, rendendole vendibili universalmente senza traduzione. Non esiste una chiave di risposta separata perché la griglia di indizi stessa funge da soluzione di riferimento. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per un output ottimale per la stampa. Modifica tutto sul canvas Fabric.js completo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede disegno e colore gratis direttamente nel browser, senza registrazione e senza installare nulla. Lo strumento genera due griglie per ogni immagine: una Griglia di Pratica vuota e una Griglia di Indizi con percentuale configurabile dal 10% al 75%. Dimensioni griglia da 3×3 a 10×10, tre modalità simmetria (Casuale, Orizzontale, Verticale) e oltre 3.000 illustrazioni in bianco e nero in 100+ collezioni tematiche. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è disponibile nella prova gratuita senza limiti. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e usare i file per scopi commerciali.',
   },
 
   tutorial: {

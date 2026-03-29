@@ -2,29 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'come creare schede didattiche da vendere',
+    primaryKeyword: 'creare schede che si vendono',
     secondaryKeywords: [
-      'creare schede professionali per la vendita',
-      'fare schede da vendere su Etsy',
-      'creazione di schede per venditori',
-      'consigli per il design di schede stampabili',
+      'creare schede professionali per Etsy',
+      'design schede stampabili che convertono',
+      'qualità professionale schede didattiche vendita',
+      'generatore schede con chiavi di risposta automatiche',
     ],
     lsiKeywords: [
-      'standard di qualità delle schede',
-      'generazione chiavi di risposta',
-      'flusso di lavoro per la creazione di stampabili',
-      'strategia dei bundle di schede',
-      'immagini tematiche per schede',
-      'schede PDF pronte per la stampa',
+      'layout professionale schede PDF',
+      'bundle schede didattiche per marketplace',
+      'immagini tematiche 300 DPI',
+      'flusso di lavoro produzione stampabili veloce',
+      'schede pronte per la stampa vendere online',
     ],
-    titleTag: 'Come Creare Schede da Vendere \— Guida Professionale',
-    metaDescription: 'Come creare schede didattiche che vendono su Etsy, Amazon KDP e Gumroad. Guida passo-passo su immagini tematiche, chiavi di risposta, prezzi e ottimizzazione.',
+    titleTag: 'Creare schede che si vendono | LessonCraftStudio',
+    metaDescription: 'Come creare schede didattiche professionali che si vendono su Etsy e KDP. Layout, chiavi di risposta, bundle e test qualità. Prova gratuita con filigrana.',
   },
 
   hero: {
-    title: 'Come Creare Schede Didattiche Professionali Che Vendono',
+    title: 'Creare Schede Professionali Che Si Vendono Davvero',
     tagline: 'Il manuale di creazione prodotti che separa le schede scelte dagli acquirenti da quelle che vengono ignorate',
-    description: 'Questa guida copre ogni fase della creazione di schede didattiche stampabili che soddisfano standard professionali e si vendono costantemente. Imparerai cosa rende una scheda dall\'aspetto professionale, come usare i generatori per eliminare le barriere di design, come costruire bundle che massimizzano il fatturato e come testare i tuoi prodotti prima della pubblicazione. Che tu venda su Etsy, Amazon KDP, Gumroad o Gumroad, la qualità delle tue schede determina se gli acquirenti cliccano \\"aggiungi al carrello\\" o continuano a scorrere.',
+    description: 'La differenza tra una scheda che vende e una che viene ignorata sta nella qualità percepita: layout coerente, chiavi di risposta accurate, immagini tematiche ad alta risoluzione e formattazione professionale per la stampa. Questa guida ti mostra come creare schede che superano gli standard degli acquirenti su Etsy.it e Amazon.it, usando generatori automatici che eliminano le barriere di design. Imparerai a costruire bundle che massimizzano il fatturato, testare i prodotti prima della pubblicazione e stabilire un flusso di lavoro efficiente. Ogni generatore offre una prova gratuita con filigrana per valutare l\'output.',
   },
 
   introduction: 'Il mercato delle schede didattiche stampabili \è competitivo. Migliaia di venditori pubblicano nuovi prodotti ogni settimana. Eppure la maggior parte di quei prodotti condivide lo stesso problema: sembrano amatoriali. Spaziatura incoerente, chiavi di risposta mancanti, layout banali e clip art generiche segnalano scarso impegno \— e gli acquirenti lo notano.\n\nI venditori che guadagnano un reddito costante dalle schede sono quelli che trattano la creazione dei prodotti come un mestiere. Le loro schede hanno layout puliti, chiavi di risposta accurate, temi visivamente accattivanti e formattazione professionale per la stampa. Non sono geni del design \— sono venditori che capiscono cosa valutano gli acquirenti prima dell\'acquisto e che usano gli strumenti giusti per soddisfare quegli standard in modo efficiente.\n\nQuesta guida riguarda il colmare quel divario di qualità. Imparerai esattamente cosa rende una scheda \\"professionale\\" agli occhi degli acquirenti, come i generatori di schede gestiscono la complessità tecnica per permetterti di concentrarti sulla strategia di prodotto, e il flusso di lavoro specifico che produce prodotti vendibili in pochi minuti anzich\é in ore.\n\nUna nota importante: ogni generatore di schede menzionato in questa guida offre una prova gratuita con filigrana. Puoi testare l\'intero processo di creazione, valutare la qualità dell\'output e creare schede di esempio prima di acquistare una licenza commerciale. Non c\'\è alcun rischio nel seguire questa guida.',

@@ -2,26 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede cerca parole stampabile',
+    primaryKeyword: 'generatore di crucipuzzle gratis con immagini',
     secondaryKeywords: [
-      'generatore puzzle cerca parole per venditori',
-      'creare griglie parole nascoste da vendere',
-      'stampabili cerca parole uso commerciale',
-      'generatore cerca parole per KDP',
+      'creare crucipuzzle gratis online',
+      'generatore cerca parole stampabile gratis',
+      'crucipuzzle con immagini senza registrazione',
+      'puzzle parole nascoste gratis PDF',
+      'generatore cerca parole da stampare gratis',
     ],
     lsiKeywords: [
-      'stampabili puzzle griglia lettere per Etsy',
-      'strumento cerca parole con lettere riempitive localizzate',
-      'generatore puzzle cerca parole multilingue',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'prova gratuita con filigrana',
     ],
-    titleTag: 'Generatore Schede Cerca Parole | Crea e Vendi Puzzle',
-    metaDescription: 'Genera schede cerca parole con griglie da 5×5 a 30×30, direzioni diagonali e inverse, lettere riempitive localizzate, 11 lingue. Prova gratuita — licenza.',
+    titleTag: 'Generatore di crucipuzzle gratis | LessonCraftStudio',
+    metaDescription: 'Crea crucipuzzle gratis online, senza registrazione. Griglie da 5×5 a 30×30, lettere localizzate, 11 lingue. Licenza commerciale per vendere.',
   },
 
   hero: {
-    title: 'Generatore Schede Cerca Parole',
+    title: 'Generatore di Crucipuzzle Gratis Online',
     tagline: 'Crea puzzle con parole nascoste in griglie regolabili, controlli direzionali e lettere riempitive sensibili alla lingua in 11 lingue',
-    description: 'Progetta schede cerca parole professionali dove le parole nascoste sono incorporate in una griglia di lettere riempitive casuali e gli utenti esaminano righe, colonne e diagonali per trovarle — il formato puzzi negozico che non passa mai di moda. Questo strumento ti offre un controllo preciso sulla difficoltà attraverso due assi indipendenti: dimensione della griglia (regolabile da 5×5 a 30×30 con righe e colonne impostabili indipendentemente) e controlli di direzione delle parole (parole diagonali attivabili/disattivabili, parole inverse attivabili/disattivabili) creando da due a otto possibili direzioni di posizionamento. Scegli tra tre fonti di contenuto: la modalità Libreria Immagini attinge da oltre 3.100 illustrazioni in 104 collezioni tematiche, la Modalità Modifica Manuale ti permette di selezionare immagini e personalizzare i nomi visualizzati, e la modalità Lista Parole Personalizzata ti permette di digitare fino a 8 parole direttamente per puzzle solo testo. Tre modalità di visualizzazione — Parole + Immagini, Solo Immagini e Solo Parole — controllano cosa appare come indizio accanto alla griglia. La caratteristica distintiva sono le lettere riempitive sensibili alla lingua: quando cambi lingua, le lettere riempitive della griglia cambiano per corrispondere al set di caratteri di quella lingua con distribuzioni di frequenza ponderate. Le griglie tedesche includono ä, ö, ü e ß a frequenze naturali. Le griglie francesi includono é, è, ç, à. Le griglie svedesi includono å, ä, ö. Ogni lingua ottiene lettere riempitive autentiche, rendendo i puzzle linguisticamente genuini invece che ovviamente generati in inglese. Un foglio risposte codificato a colori evidenzia ogni parola trovata in uno di sei colori ciclici — rosa, blu, verde, oro, corallo e lavanda — per una verifica visiva istantanea. Esporta PDF pronti per la stampa e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Scegli tra 7 famiglie di font, aggiungi campi nome e data dell\'utente, attiva la scala di grigi per output ottimizzato per l\'inchiostro, e usa il canvas Fabric.js completo per riposizionare ogni elemento. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea crucipuzzle gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento offre controllo preciso sulla difficoltà: dimensione della griglia regolabile da 5×5 a 30×30 e direzioni delle parole configurabili (diagonali e inverse attivabili). Scegli tra tre fonti di contenuto: Libreria Immagini con oltre 3.100 illustrazioni in 104 temi, Modifica Manuale per personalizzare i nomi, o Lista Parole Personalizzata per puzzle solo testo. Le lettere riempitive sono sensibili alla lingua — le griglie italiane, tedesche, francesi e svedesi usano caratteri autentici con frequenze naturali. Un foglio risposte codificato a colori evidenzia ogni parola trovata. Esporta PDF e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Vuoi vendere i tuoi crucipuzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

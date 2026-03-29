@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schede puzzle pezzi mancanti',
+    primaryKeyword: 'creare puzzle pezzi mancanti da vendere',
     secondaryKeywords: [
-      'creare puzzle pezzi mancanti da vendere',
-      'generatore schede puzzle a incastro uso commerciale',
-      'schede stampabili pezzi mancanti per Etsy e KDP',
-      'puzzle visivi pezzi mancanti con chiavi di risposta',
+      'puzzle pezzi mancanti stampabili per Etsy e KDP',
+      'generatore puzzle a incastro uso commerciale',
+      'vendere schede puzzle visivi pezzi mancanti online',
+      'creare puzzle ragionamento spaziale con licenza commerciale',
+      'puzzle pezzi mancanti da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'estrazione intelligente pezzi varianza luminosità generatore puzzle',
-      'sei forme pezzo generatore puzzle a incastro con pezzi distrattori',
-      'chiave di risposta automatica evidenziazione gialla creatore pezzi mancanti',
-      'vendere puzzle pezzi mancanti su Etsy',
-      'quaderni puzzle a incastro Amazon KDP',
-      'strumento pezzi mancanti con licenza commerciale',
+      'sei forme pezzo con estrazione intelligente',
+      'output puramente visivo per vendite globali',
+      'pezzi distrattori per sfida autentica',
+      'chiavi di risposta automatiche con evidenziazione gialla',
     ],
-    titleTag: 'Creare Puzzle Pezzi Mancanti | Guida Passo Passo Etsy',
-    metaDescription: 'Crea schede puzzle pezzi mancanti con sei forme di pezzo, estrazione intelligente, pezzi distrattori e chiavi di risposta automatiche. Guida per Etsy e KDP.',
+    titleTag: 'Pezzi mancanti da vendere | LessonCraftStudio',
+    metaDescription: 'Crea puzzle pezzi mancanti con 6 forme di pezzo, estrazione intelligente e chiavi di risposta automatiche. Vendi stampabili su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Puzzle di Pezzi Mancanti',
+    title: 'Puzzle pezzi mancanti da vendere: guida completa',
     tagline: 'Tutorial passo passo per creare schede di puzzle a incastro con sei forme di pezzo, estrazione intelligente dei pezzi usando il rilevamento della varianza di luminosità, pezzi distrattori per una sfida autentica, due controlli di difficoltà indipendenti, chiavi di risposta auto-generate con evidenziazione gialla e puzzle puramente visivi da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
-    description: 'I puzzle di pezzi mancanti sono un\'attività visiva particolarmente coinvolgente in cui gli utenti esaminano un\'immagine con buchi ritagliati e identificano quale opzione numerata riempie ogni spazio. Il formato combina ragionamento spaziale con discriminazione visiva — gli utenti devono analizzare colori, pattern e dettagli per abbinare i pezzi alle loro posizioni corrette. Poiché l\'output della scheda contiene solo immagini, buchi e opzioni numerate senza testo specifico per lingua, ogni puzzle che crei è immediatamente vendibile in tutto il mondo senza traduzione. I genitori li usano per attività di sviluppo cognitivo a casa. i venditori li usano per esercizi di percezione visiva e riscaldamenti di pensiero critico. I centri di tutoraggio li usano per la pratica del ragionamento spaziale. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore Schede Pezzi Mancanti — dalla selezione delle forme dei pezzi e configurazione dei doppi controlli di difficoltà alla comprensione dell\'algoritmo di estrazione intelligente, generazione dei pezzi distrattori, revisione delle chiavi di risposta automatiche con evidenziazione gialla e esportazione di file pronti per la produzione. Che tu stia creando il tuo primo prodotto di puzzle a incastro o espandendo un catalogo esistente di schede visive, avrai un prodotto finito pronto per la pubblicazione alla fine di questo tutorial.',
+    description: 'I puzzle di pezzi mancanti offrono un formato visivamente coinvolgente dove gli utenti esaminano un\'immagine con buchi ritagliati e identificano quale opzione numerata riempie ogni spazio. Il formato puramente visivo — solo immagini, buchi e opzioni numerate — rende ogni puzzle vendibile in tutto il mondo senza traduzione, un vantaggio competitivo enorme per i venditori italiani che vogliono raggiungere mercati internazionali. L\'algoritmo di estrazione intelligente del Generatore Schede Pezzi Mancanti trova automaticamente pezzi con sufficiente varianza di dettaglio, mentre i pezzi distrattori impediscono la risoluzione per eliminazione e creano sfide autentiche. Sei forme di pezzo e due controlli di difficoltà indipendenti (numero pezzi mancanti e numero opzioni) creano una matrice di prodotti diversificata. Questa guida ti mostra ogni passaggio dalla selezione delle forme alla generazione di chiavi di risposta con evidenziazione gialla e all\'esportazione di file pronti per la produzione. Che tu stia creando il tuo primo prodotto puzzle o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'Il ragionamento spaziale e l\'analisi parte-tutto sono competenze cognitive fondamentali che si sviluppano durante la prima infanzia e la scuola elementare. Prima che i bambini possano risolvere problemi visivi complessi, devono imparare ad analizzare come i singoli pezzi si relazionano a un\'immagine completa — riconoscendo dove un frammento appartiene basandosi sulla continuità dei colori, l\'allineamento dei pattern e gli indizi contestuali. I puzzle di pezzi mancanti allenano queste competenze direttamente presentando un\'immagine con buchi e chiedendo agli utenti di identificare quale opzione numerata riempie ogni spazio. Questo rende le schede di puzzle a incastro un prodotto ad alta domanda con applicazioni che vanno dall\'età prescolare all\'arricchimento nella scuola elementare.\n\nCiò che rende i puzzle di pezzi mancanti particolarmente efficaci come prodotto stampabile è il formato puramente visivo. A differenza delle schede di vocabolario, pagine di comprensione della lettura o problemi di matematica che richiedono testo specifico per lingua, le schede di puzzle a incastro contengono solo immagini, buchi e opzioni di soluzione numerate. Nessuna parola da tradurre, nessuna istruzione da localizzare, nessuna barriera linguistica di alcun tipo. Una scheda creata in una singola sessione si vende identicamente su ogni marketplace internazionale senza modifiche. Questa portata globale senza sforzo per ogni lingua è un vantaggio competitivo significativo che la maggior parte dei venditori ignora completamente.\n\nIl Generatore Schede Pezzi Mancanti gestisce la complessità della creazione di queste attività attraverso un sofisticato sistema di estrazione intelligente. L\'algoritmo effettua fino a centocinquanta tentativi di posizionamento per trovare pezzi con sufficiente varianza di luminosità (soglia minima di quindici), mantenendo almeno duecentocinquanta pixel di distanza tra i pezzi estratti per prevenire il raggruppamento. Sei forme di pezzo — quadrato, cerchio, rettangolo verticale, rettangolo orizzontale, ellisse verticale e ellisse orizzontale — producono ciascuna puzzle visivamente distinti dalla stessa immagine sorgente. Due controlli di difficoltà indipendenti ti permettono di impostare da uno a cinque pezzi mancanti e da due a sei opzioni di soluzione separatamente, creando una matrice di difficoltà dall\'identificazione semplice di un singolo pezzo alla discriminazione complessa multi-pezzo con pezzi distrattori. I distrattori vengono estratti da regioni non estratte della stessa immagine, impedendo agli utenti di risolvere per eliminazione e forzando un genuino confronto visivo. Il sistema a doppio canvas genera sia una scheda che una chiave di risposta simultaneamente, con etichette numeriche con evidenziazione gialla posizionate all\'interno di ogni buco che mostrano l\'indice dell\'opzione corretta.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede di puzzle a incastro campione, testare tutte e sei le forme di pezzo, sperimentare con le combinazioni di difficoltà, valutare l\'algoritmo di estrazione intelligente e verificare la qualità della chiave di risposta prima di acquistare una licenza commerciale.',

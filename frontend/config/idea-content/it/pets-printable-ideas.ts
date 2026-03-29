@@ -2,25 +2,27 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili Animali Domestici da Vendere | Guida di Nicchia',
-    metaDescription: 'Idee di stampabili sugli animali domestici da vendere su Etsy, Amazon KDP e Gumroad. Prodotti su cani, gatti e piccoli animali con strategie per venditori online.',
+    titleTag: 'Stampabili animali domestici Etsy | LessonCraftStudio',
+    metaDescription: 'Crea e vendi stampabili animali domestici su Etsy e KDP. Idee prodotto su cani, gatti e piccoli animali per avviare un business di stampabili educativi.',
 
-    primaryKeyword: 'idee stampabili animali domestici',
+    primaryKeyword: 'stampabili animali domestici per Etsy',
     secondaryKeywords: [
-      'schede animali domestici da vendere',
-      'attività stampabili a tema animali da compagnia',
-      'schede didattiche animali domestici per venditori',
-      'vendere stampabili animali domestici su Etsy',
+      'vendere schede animali domestici online',
+      'business stampabili cani e gatti',
+      'creare stampabili animali da compagnia KDP',
+      'nicchia stampabili pet per Etsy',
+      'idee prodotto stampabili animali di casa',
     ],
     lsiKeywords: [
-      'schede didattiche educative su cani e gatti',
-      'attività a tema animali da compagnia per bambini',
-      'stampabili cura degli animali domestici per il negozio',
+      'mercato stampabili educativi animali domestici',
+      'generatore schede tema animali da compagnia',
+      'vendere stampabili digitali cani gatti',
+      'stampabili bambini animali familiari',
     ],
   },
   hero: {
-    title: 'Idee di Business con Stampabili sugli Animali Domestici per Venditori',
-    description: 'Gli animali domestici occupano una posizione particolarmente potente nel mercato dei stampabili educativi perché quasi ogni bambino ha un legame personale con gli animali di casa. Che una famiglia possieda un cane, un gatto, un criceto o un pesce rosso, i bambini sono naturalmente attratti da prodotti stampabili che presentano creature familiari che vedono e con cui interagiscono ogni giorno. Questo legame emotivo genera una forte intenzione d\'acquisto da parte dei genitori che desiderano combinare l\'entusiasmo dei loro figli per gli animali domestici con un apprendimento strutturato. Per i venditori di stampabili su Etsy, Amazon KDP e Gumroad, il tema degli animali domestici offre un\'enorme domanda sempreverde, una grande varietà di specie per la differenziazione del prodotto e un\'attrattiva trasversale a tutte le età, dai bambini piccoli fino alla scuola primaria. Questa guida fornisce idee di prodotto specifiche, strategie per piattaforma e consigli di posizionamento di nicchia per aiutarti a costruire un\'attività redditizia di stampabili a tema animali domestici utilizzando i nostri strumenti generatori di schede didattiche.',
+    title: 'Stampabili Animali Domestici: Idee di Prodotto per Etsy',
+    description: 'Gli animali domestici sono il tema animale con il legame emotivo più forte per i bambini, e questo si traduce direttamente in domanda d\'acquisto da parte dei genitori italiani. L\'Italia è uno dei paesi europei con il maggior numero di animali domestici per famiglia — cani, gatti, criceti e pesci rosso fanno parte della vita quotidiana — rendendo questa nicchia particolarmente risonante nel mercato italiano. Per chi vuole costruire un business di stampabili digitali, gli animali domestici offrono domanda sempreverde senza dipendenza stagionale, con un\'ampia varietà di specie per differenziare il catalogo. Utilizzando i nostri generatori di schede, puoi creare attività educative a tema pet da vendere su Etsy, Amazon KDP e Gumroad, sfruttando la connessione emotiva che ogni bambino ha con il proprio animale di casa per generare vendite costanti e recensioni positive.',
   },
   marketOverview: `La nicchia dei stampabili sugli animali domestici beneficia di una dinamica di mercato semplice ma potente: gli animali domestici sono il tema animale più personalmente rilevante per i bambini. Mentre gli animali della fattoria e le creature dell\'oceano sono interessanti, gli animali domestici sono quelli con cui i bambini vivono, di cui si prendono cura e che amano. Questa connessione personale trasforma il tempo dedicato alle schede da un esercizio astratto a un\'attività che presenta i loro compagni preferiti, ed è esattamente per questo che genitori e venditori cercano materiali educativi a tema animali domestici.
 

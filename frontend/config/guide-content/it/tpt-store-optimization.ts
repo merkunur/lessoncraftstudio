@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ottimizzazione negozio Gumroad',
+    primaryKeyword: 'ottimizzare negozio su Eduki guida',
     secondaryKeywords: [
-      'come ottimizzare il negozio Gumroad',
-      'fattori di posizionamento algoritmo di ricerca Gumroad',
-      'aumentare vendite Gumroad con ottimizzazione negozio',
-      'strategia crescita negozio Gumroad',
+      'come aumentare vendite su Eduki ottimizzazione negozio',
+      'algoritmo ricerca Eduki fattori posizionamento risorse',
+      'strategia crescita negozio Eduki venditori italiani',
+      'ottimizzazione inserzioni Eduki anteprime descrizioni',
+      'recensioni Eduki riprova sociale venditori educativi',
     ],
     lsiKeywords: [
-      'posizionamento ricerca Gumroad tasso di conversione visibilità prodotto marketplace venditori',
-      'branding negozio profilo banner identità visiva coerente specializzazione disciplinare',
-      'anteprima prodotto miniatura descrizione copywriting ottimizzazione inserzione',
-      'generazione recensioni riprova sociale fiducia acquirente valutazione stelle feedback',
-      'sezioni negozio categorie navigazione facile da navigare organizzazione',
-      'analisi Gumroad pianificazione stagionale strategia scalabilità catalogo basata sui dati',
+      'branding negozio Eduki identità visiva coerente',
+      'anteprima prodotto miniatura copywriting conversione',
+      'sezioni negozio categorie navigazione organizzazione',
+      'pianificazione stagionale scalabilità catalogo dati',
     ],
-    titleTag: 'Ottimizzazione del Negozio Gumroad | Vendi Più Risorse',
-    metaDescription: 'Strategie di ottimizzazione negozio Gumroad per posizionamenti migliori e più vendite. Conversione anteprime, bundle prodotti, recensioni e scalabilità catalogo.',
+    titleTag: 'Ottimizzare negozio su Eduki | LessonCraftStudio',
+    metaDescription: 'Guida per ottimizzare il tuo negozio su Eduki: posizionamento ricerca, anteprime efficaci, recensioni e scalabilità catalogo. Aumenta le vendite oggi.',
   },
 
   hero: {
-    title: 'Guida alla Configurazione e Ottimizzazione del Negozio Gumroad',
+    title: 'Ottimizzare il negozio su Eduki: guida per venditori',
     tagline: 'Strategie avanzate per ottimizzare un negozio Gumroad esistente — che copre fattori di posizionamento dell\'algoritmo di ricerca, descrizioni e anteprime prodotto ad alta conversione, tattiche per la generazione di recensioni, organizzazione del negozio per una navigazione intuitiva, strategia per eventi promozionali Gumroad e scalabilità del catalogo basata sui dati per trasformare un negozio Gumroad attivo in un canale di ricavi costante e in crescita',
-    description: 'Configurare un negozio Gumroad e pubblicare le prime risorse è solo l\'inizio. La differenza tra un negozio che genera vendite occasionali e uno che produce ricavi mensili costanti si riduce all\'ottimizzazione — quanto bene le tue inserzioni si posizionano nella ricerca Gumroad, quanto efficacemente le tue anteprime convertono i visitatori in acquirenti, come l\'organizzazione del negozio incoraggia acquisti multipli e quanto strategicamente espandi il catalogo basandoti sui dati di performance reali. Questa guida copre le strategie di ottimizzazione che portano un negozio Gumroad dalla fase di configurazione iniziale alla crescita sostenuta, costruendo sulle basi trattate nella nostra guida su come creare e vendere risorse Gumroad.',
+    description: 'Configurare un negozio su Eduki e pubblicare le prime risorse è solo l\'inizio. La differenza tra un negozio con vendite occasionali e uno che produce ricavi mensili costanti si riduce all\'ottimizzazione. Per i venditori italiani su Eduki, questo significa capire come funziona l\'algoritmo di ricerca della piattaforma, creare anteprime che convertono i visitatori in acquirenti, organizzare il negozio per facilitare acquisti multipli e espandere il catalogo in modo strategico basandosi sui dati reali. Questa guida copre le strategie avanzate di ottimizzazione specifiche per Eduki, con applicabilità anche su Edudoro e Freeed.',
   },
 
   introduction: 'La maggior parte dei venditori Gumroad raggiunge lo stesso plateau. Configurano il negozio, pubblicano 10-20 risorse, generano una manciata di vendite al mese e poi si bloccano. Le loro risorse sono solide — ben formattate, allineate agli standard, genuinamente utili per i venditori. Ma risorse solide da sole non garantiscono ricavi costanti su Gumroad. La piattaforma ospita milioni di risorse, e la visibilità si guadagna attraverso un\'ottimizzazione deliberata, non solo con la qualità dei contenuti.\n\nI venditori che superano il plateau e costruiscono negozi che generano $500, $1.000 o più al mese non creano necessariamente contenuti migliori di tutti gli altri. Stanno ottimizzando ogni elemento della loro presenza Gumroad: scrivendo titoli che si posizionano meglio nei risultati di ricerca, creando anteprime che convertono i visitatori in acquirenti a tassi più alti, strutturando i negozi in modo che i venditori in visita scoprano più risorse pertinenti in una singola sessione, costruendo slancio nelle recensioni che consolida la loro credibilità nel tempo, e usando i dati di vendita per guidare cosa creare dopo invece di tirare a indovinare.\n\nL\'algoritmo di ricerca Gumroad non è una scatola nera — i venditori che studiano come funziona e ottimizzano di conseguenza ottengono vantaggi misurabili rispetto a chi lo ignora. L\'algoritmo pesa fattori specifici: rilevanza delle parole chiave nel titolo, velocità di vendita, tassi di conversione, punteggi delle recensioni, completezza dell\'inserzione e segnali di recenza. Ognuno di questi fattori è qualcosa che puoi influenzare attraverso scelte di ottimizzazione deliberate. Una risorsa con un titolo scritto strategicamente, un\'anteprima convincente, categorizzazione completa e recensioni forti supererà nel posizionamento una risorsa comparabile che trascura questi elementi, anche se la qualità del contenuto sottostante è identica.\n\nQuesta guida presuppone che tu abbia già un negozio Gumroad con almeno alcune risorse pubblicate. Se parti da zero, leggi prima la nostra guida su come creare e vendere risorse Gumroad, poi torna qui quando sei pronto per ottimizzare per la crescita. Le strategie qui sotto costruiscono su quella base e si concentrano specificamente sulle leve di ottimizzazione che trasformano un negozio Gumroad attivo in un canale di ricavi in crescita costante.\n\nOgni raccomandazione in questa guida è applicabile al tuo catalogo esistente. Non hai bisogno di creare nuove risorse per beneficiare dell\'ottimizzazione — molte delle modifiche a più alto impatto riguardano l\'aggiornamento dei titoli, la riscrittura delle descrizioni, il miglioramento delle anteprime e la riorganizzazione del negozio esistente. Inizia con le risorse attuali e applica queste strategie sistematicamente.',

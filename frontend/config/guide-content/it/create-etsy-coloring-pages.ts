@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare pagine da colorare Etsy',
+    primaryKeyword: 'creare disegni da colorare che vendono su Etsy',
     secondaryKeywords: [
-      'come vendere pagine da colorare su Etsy',
-      'negozio Etsy pagine da colorare configurazione',
-      'pagine da colorare stampabili business Etsy',
-      'vendere fogli da colorare su Etsy',
+      'come vendere pagine da colorare stampabili su Etsy',
+      'negozio Etsy disegni da colorare bambini e adulti',
+      'bundle pagine da colorare tematiche Etsy venditori',
+      'strategia prezzi pagine da colorare download digitale',
+      'pagine da colorare 104 temi Etsy catalogo',
     ],
     lsiKeywords: [
-      'ottimizzazione inserzioni Etsy download digitale pagine da colorare',
-      'strategia prezzi bundle pagine da colorare venditori Etsy',
-      'tag SEO Etsy prodotti pagine da colorare stampabili',
-      'vendere fogli da colorare tematici negozio Etsy bambini adulti',
-      'pagine da colorare stampabili Etsy domanda stagionale festiva',
-      'foto inserzioni Etsy mockup prodotti pagine da colorare',
+      'line art bianco e nero esportazione stampa Etsy',
+      'domanda stagionale pagine da colorare festività',
+      'crossover Amazon KDP libri da colorare',
+      'mockup foto inserzioni Etsy prodotti colorare',
     ],
-    titleTag: 'Creare Pagine da Colorare Etsy che Vendono — Guida',
-    metaDescription: 'Crea pagine da colorare per Etsy da 104 temi. Esportazione bianco e nero, ottimizzazione inserzioni, prezzi pacchetti tematici e strategie stagionali.',
+    titleTag: 'Disegni da colorare che vendono su Etsy | LessonCraftStudio',
+    metaDescription: 'Crea disegni da colorare che vendono su Etsy con 104 temi. Ottimizzazione inserzioni, prezzi, bundle tematici e strategie stagionali per venditori.',
   },
 
   hero: {
-    title: 'Come Creare Pagine da Colorare per Etsy che Vendono',
+    title: 'Disegni da colorare per Etsy: come crearli e venderli',
     tagline: 'Una guida completa per costruire un negozio Etsy redditizio vendendo pagine da colorare create da 104 librerie di immagini tematiche — configurazione negozio Etsy, ottimizzazione SEO con tutti i 13 tag, titoli e descrizioni inserzioni che si posizionano per i termini di ricerca degli acquirenti di pagine da colorare, fotografia prodotti che mostra line art in bianco e nero e varietà tematica, strategie di prezzo per pagine singole e collezioni tematiche, tempistiche stagionali per picchi di domanda festivi e rientro a scuola, pianificazione catalogo per bambini e adulti, opportunità crossover libri da colorare KDP, e ottimizzazione continua del negozio usando Etsy Stats e analytics di ricerca',
-    description: 'Le pagine da colorare sono una delle categorie di prodotti stampabili più richieste e sempreverdi su Etsy, acquistate da genitori, venditori, terapisti, coordinatori di attività per anziani e appassionati di colorazione per adulti. Questa guida ti accompagna attraverso ogni passaggio per costruire un negozio Etsy che vende pagine da colorare — dalla ricerca della domanda degli acquirenti tra bambini e adulti, alla generazione dell\'inventario da 104 librerie di immagini tematiche, alla scrittura di inserzioni ottimizzate, alla creazione di foto inserzioni che mostrano efficacemente la line art, all\'impostazione dei prezzi per pagine singole e collezioni tematiche, fino al lancio del negozio. Imparerai come le pagine da colorare si distinguono dalle altre categorie di stampabili per il loro appeal visivo universale, la vasta demografia di acquirenti, i pattern di domanda stagionale e il significativo potenziale crossover con Amazon KDP.',
+    description: 'Le pagine da colorare rappresentano una delle categorie di stampabili più richieste e sempreverdi su Etsy, con un pubblico che spazia dai bambini agli adulti in tutto il mercato italiano e internazionale. Con 104 librerie di immagini tematiche a disposizione, puoi costruire un catalogo diversificato che copre animali, natura, festività e decine di altri temi. Questa guida ti mostra come generare pagine da colorare professionali in bianco e nero, scrivere inserzioni ottimizzate per il motore di ricerca di Etsy, creare bundle tematici che aumentano il valore per transazione e sfruttare i picchi stagionali di domanda. Imparerai anche come espandere il business con il crossover verso libri da colorare su Amazon KDP.',
   },
 
   introduction: 'Le pagine da colorare occupano una posizione privilegiata nel mercato dei stampabili su Etsy. A differenza delle schede di matematica che mirano a livelli scolastici specifici o dei puzzle cerca parole che richiedono vocabolario specifico per lingua, le pagine da colorare sono prodotti puramente visivi. Il contenuto di una pagina da colorare — line art di animali, veicoli, cibo, scene naturali — trascende completamente le barriere linguistiche. Una pagina da colorare con un gatto funziona ugualmente bene per un bambino in Italia, un pensionato a Londra o un paziente in terapia a Monaco. Questa universalità visiva crea un mercato potenziale insolitamente ampio da un singolo prodotto.\n\nLa domanda di pagine da colorare stampabili su Etsy copre una demografia di acquirenti eccezionalmente ampia. I genitori acquistano pacchetti tematici di pagine da colorare per i giorni di pioggia, i viaggi in auto, l\'attesa al ristorante e le attività offline che sostituiscono il tempo davanti allo schermo. i venditori comprano set per il negozio per i riscaldamenti mattutini, le attività premio e le celebrazioni tematiche delle feste. Le famiglie che praticano l\'homeschooling usano le pagine da colorare per lo sviluppo della motricità fine e come attività di calma tra le lezioni. I terapisti occupazionali acquistano fogli da colorare per esercizi di forza e coordinazione delle mani. I coordinatori di attività per anziani comprano pagine da colorare con immagini grandi per programmi di coinvolgimento cognitivo. Gli appassionati di colorazione per adulti acquistano design intricati e dettagliati per il rilassamento personale e la pratica di mindfulness. Ciascuno di questi segmenti di acquirenti cerca usando parole chiave diverse, creando molteplici punti di ingresso nel tuo negozio.\n\nLa nicchia delle pagine da colorare ha un vantaggio strutturale che molti venditori trascurano: la velocità di produzione. Poiché le pagine da colorare non richiedono chiavi di risposta, calibrazione della difficoltà o allineamento curriculare, puoi creare prodotti finiti significativamente più velocemente rispetto alla maggior parte delle altre categorie di stampabili. Il Generatore di Pagine da Colorare converte le immagini tematiche in pagine da colorare pronte per la stampa in bianco e nero o scala di grigi con un singolo toggle. Questa efficienza produttiva significa che puoi costruire un catalogo sostanziale rapidamente — un vantaggio critico su Etsy dove il volume delle inserzioni correla direttamente con la visibilità del negozio.\n\nEtsy premia i negozi che dimostrano profondità di categoria attraverso inserzioni coerenti e correlate. Un negozio dedicato alle pagine da colorare con 30–50 inserzioni tematiche segnala una profonda specializzazione di nicchia all\'algoritmo. Questa focalizzazione di categoria migliora il tuo punteggio di qualità del negozio e aiuta Etsy a raccomandare i tuoi prodotti agli acquirenti che navigano inserzioni simili di pagine da colorare dei concorrenti. Combinata con l\'uso corretto dei tag in tutti i 13 slot disponibili, un negozio focalizzato sulle pagine da colorare può raggiungere una forte visibilità organica entro poche settimane dal lancio.\n\nLe pagine da colorare hanno anche un eccezionale potenziale di crossover con Amazon KDP. Gli stessi design di pagine da colorare che vendi come download digitali individuali su Etsy possono essere compilati in libri da colorare tematici per la pubblicazione KDP. Molti venditori di pagine da colorare di successo operano su entrambe le piattaforme simultaneamente — Etsy per i download tematici individuali e KDP per i libri da colorare compilati. Questo approccio dual-platform massimizza il ricavo da ogni pagina da colorare che crei.\n\nOgni funzionalità descritta in questa guida è disponibile nella prova gratuita con filigrana. Puoi progettare pagine da colorare complete, testare il toggle scala di grigi, sperimentare con tutti gli strumenti del canvas e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

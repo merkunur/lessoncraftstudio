@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schede discriminazione visiva abbinamento ombre',
+    primaryKeyword: 'creare schede di ombre da vendere',
     secondaryKeywords: [
-      'creare schede abbinamento ombre da vendere',
-      'generatore schede sagome e silhouette',
-      'schede stampabili discriminazione visiva per Etsy e KDP',
-      'schede completa l\'immagine con immagini divise',
+      'schede abbinamento ombre stampabili per Etsy e KDP',
+      'generatore schede sagome e silhouette uso commerciale',
+      'vendere schede discriminazione visiva online',
+      'creare schede completa l\'immagine con licenza commerciale',
+      'schede percezione visiva da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'generazione sagome a livello di pixel per schede',
-      'generatore attività percezione visiva abbinamento',
-      'schede abbinamento ombre con chiave di risposta automatica',
-      'vendere schede sagome su Etsy',
-      'quaderni percezione visiva Amazon KDP',
-      'strumento abbinamento ombre con licenza commerciale',
+      'generazione sagome a livello di pixel automatica',
+      'due modalità ombre e immagini divise',
+      'output puramente visivo per vendite globali',
+      'prodotti stampabili percezione visiva per venditori',
     ],
-    titleTag: 'Creare Schede Discriminazione Visiva Ombre | Guida Etsy',
-    metaDescription: 'Crea schede di discriminazione visiva con due modalità: Abbinamento Ombre per sagome e Completa l\'Immagine per immagini divise.',
+    titleTag: 'Schede di ombre da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di discriminazione visiva con modalità Abbinamento Ombre e Completa l\'Immagine. Output visivo per vendere su Etsy, KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di Discriminazione Visiva con Ombre',
+    title: 'Schede di ombre e discriminazione visiva da vendere',
     tagline: 'Tutorial passo passo per creare schede di discriminazione visiva a doppia modalità con generazione di sagome a livello di pixel, metà di immagini divise Completa l\'Immagine, algoritmo di disordinamento Fisher-Yates, etichette attivabili/disattivabili, chiavi di risposta auto-generate e output puramente visivo da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
-    description: 'L\'abbinamento ombre è una competenza fondamentale di percezione visiva che i bambini sviluppano prima di saper leggere o fare aritmetica, e le schede di discriminazione visiva restano molto richieste su ogni marketplace educativo. I genitori ne hanno bisogno per la pratica di discriminazione visiva a casa. i venditori le utilizzano per centri di percezione e attività di arricchimento. I terapisti occupazionali le usano per valutazioni dell\'elaborazione visiva. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore Schede Discriminazione Visiva — dalla scelta tra le modalità Abbinamento Ombre e Completa l\'Immagine alla configurazione delle etichette, generazione di sagome a livello di pixel e esportazione di file pronti per la produzione con chiavi di risposta auto-generate. Che tu stia creando il tuo primo prodotto di discriminazione visiva o espandendo un catalogo esistente di percezione visiva, avrai un prodotto finito pronto per la pubblicazione alla fine di questo tutorial.',
+    description: 'Le schede di abbinamento ombre e discriminazione visiva sono tra i prodotti stampabili più richiesti per la prima infanzia, con applicazioni che vanno dalla pratica prescolare alle valutazioni di terapia occupazionale. Il formato puramente visivo rappresenta il vantaggio competitivo più forte di questa categoria: nessun testo da tradurre, nessuna barriera linguistica. Una singola scheda si vende identicamente in qualsiasi paese del mondo. Il Generatore Schede Discriminazione Visiva offre due modalità distinte — Abbinamento Ombre con generazione automatica di sagome a livello di pixel, e Completa l\'Immagine con metà divise per il ragionamento spaziale. L\'algoritmo Fisher-Yates garantisce che nessun elemento appaia nella posizione originale, creando sfide autentiche in ogni scheda. Etichette attivabili e disattivabili creano due livelli di difficoltà dallo stesso contenuto. Questa guida ti mostra come creare prodotti professionali con chiavi di risposta auto-generate e file pronti per la produzione. Che tu stia creando il tuo primo prodotto di discriminazione visiva o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'La percezione visiva è una delle competenze cognitive fondamentali nello sviluppo della prima infanzia. Prima che i bambini sappiano leggere parole, risolvere equazioni o orientarsi nello spazio fisico con sicurezza, sviluppano la capacità di riconoscere forme, distinguere contorni e ricostruire mentalmente immagini parziali. Questo rende le attività di abbinamento ombre e immagini divise prodotti universalmente rilevanti con domanda sostenuta dall\'età prescolare alla scuola elementare.\n\nCiò che rende le schede di discriminazione visiva particolarmente efficaci come prodotto stampabile è il formato puramente visivo. A differenza delle schede di ricalco lettere o schede di matematica che richiedono testo specifico per lingua, le schede di abbinamento ombre consistono interamente di immagini, sagome e metà divise. Non c\'è testo da tradurre, nessuna barriera linguistica da superare e nessun contenuto specifico per lingua da mantenere. Una singola scheda di discriminazione visiva si vende identicamente in ogni paese, su ogni marketplace, senza modifiche. Questa portabilità globale dà ai prodotti di discriminazione visiva un vantaggio strutturale rispetto alle categorie di schede con molto testo dove i venditori devono creare versioni separate per ogni lingua.\n\nIl Generatore Schede Discriminazione Visiva gestisce la complessità tecnica della creazione di queste attività. Offre due modalità di esercizio distinte in un singolo strumento. La modalità Abbinamento Ombre auto-genera sagome nere a livello di pixel dalle immagini selezionate — ogni pixel con alfa superiore a dieci viene convertito in nero puro, producendo contorni accurati che preservano dettagli fini come orecchie di animali, profili di veicoli e contorni di oggetti. La modalità Completa l\'Immagine divide le immagini a metà lungo direzioni di taglio orizzontali o verticali, creando puzzle di ragionamento spaziale dove gli utenti ricollegano i pezzi. Entrambe le modalità usano un algoritmo di disordinamento Fisher-Yates che garantisce che nessun elemento appaia nella sua posizione originale, eliminando gli abbinamenti banali basati sulla posizione e assicurando che ogni scheda presenti una vera sfida di abbinamento.\n\nLe etichette attivabili/disattivabili aggiungono un\'altra dimensione di varietà al prodotto. Con le etichette attive, le immagini mostrano identificativi A, B, C, D e le sagome o metà mostrano identificativi 1, 2, 3, 4, fornendo supporto guidato strutturato per i bambini più piccoli che scrivono coppie lettera-numero come risposte. Con le etichette disattivate, la scheda diventa una sfida di abbinamento puramente visivo senza indicazioni alfanumeriche, ideale per libri di puzzle e attività avanzate. Questo singolo interruttore crea due livelli di difficoltà distinti dallo stesso contenuto.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede di discriminazione visiva campione, testare entrambe le modalità di esercizio e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

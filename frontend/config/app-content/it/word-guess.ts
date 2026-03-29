@@ -2,28 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede indovina la parola',
+    primaryKeyword: 'gioco indovina la parola da vendere su Etsy',
     secondaryKeywords: [
-      'schede indovina la parola stampabili per venditori Etsy',
-      'generatore schede vocabolario stile impiccato per Amazon KDP',
-      'vendere schede indovina la parola su Gumroad',
-      'schede indovina la parola con indizi immagine licenza commerciale',
+      'schede indovina la parola per negozio Etsy',
+      'puzzle di vocabolario stampabili per Amazon KDP',
+      'generatore indovina parola licenza commerciale',
+      'creare libri di puzzle parole per KDP',
+      'schede deduzione parole da vendere online',
     ],
     lsiKeywords: [
-      'prodotti digitali puzzle vocabolario per imprenditori',
-      'attività di deduzione parole stampabili business online',
-      'generatore schede indovina la parola uso commerciale',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'indovina la parola',
+      'puzzle vocabolario',
+      'reddito passivo',
+      'download digitale',
+      'business di stampabili',
     ],
-    titleTag: 'Generatore Schede Indovina la Parola | Creare e Vendere',
+    titleTag: 'Indovina la parola da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede indovina la parola per Etsy, KDP e Gumroad. Indizi immagine, 4 livelli di difficoltà, 3 fonti di contenuto, 11 lingue. Prova gratuita con filigrana.',
+      'Crea schede indovina la parola da vendere su Etsy e KDP. Indizi immagine, 4 livelli, 11 lingue, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede Indovina la Parola per Puzzle di Vocabolario con Indizi Immagine',
+    title: 'Genera giochi indovina la parola da vendere su Etsy e KDP',
     tagline: 'La deduzione stile impiccato incontra gli indizi visivi — quattro livelli di difficoltà trasformano ogni parola in un puzzle gratificante.',
     description:
-      'Crea schede professionali indovina la parola dove gli utenti vedono un indizio immagine e deducono la parola nascosta riempiendo caselle di lettere vuote — un puzzle stile impiccato che sviluppa contemporaneamente ortografia, vocabolario e ragionamento deduttivo. Scegli tra tre fonti di contenuto: la Libreria di Immagini integrata con oltre 3100 illustrazioni in 104 temi, la Modalità Modifica Manuale dove selezioni immagini e personalizzi i nomi visualizzati, o la Lista di Parole Personalizzata per puzzle di solo testo con il vocabolario che preferisci. Quattro livelli di difficoltà controllano quante lettere vengono pre-rivelate come indizi — da Senza Indizi (nessuna lettera rivelata) alla modalità Facile che mostra metà delle lettere — creando una progressione naturale dal principiante all\'avanzato. Inserisci da 1 a 10 puzzle per scheda e alterna tra griglie di lettere in maiuscolo o minuscolo. L\'Accesso Completo sblocca tutte le 11 lingue supportate dove la parola-obiettivo cambia in base alla lingua — \"dog\" in inglese diventa \"cane\" in italiano, \"Hund\" in tedesco, \"chien\" in francese — rendendo ogni lingua un prodotto distinto e commercializzabile. Ogni scheda genera un foglio risposte automatico, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Letter, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di vocabolario su Etsy, compili libri di puzzle per Amazon KDP o crei centri di alfabetizzazione differenziati per Gumroad, il Generatore di Schede Indovina la Parola produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea giochi indovina la parola da vendere su Etsy e Amazon KDP — puzzle stile impiccato dove gli utenti vedono un indizio immagine e deducono la parola nascosta riempiendo caselle vuote. Quattro livelli di difficoltà controllano quante lettere sono pre-rivelate, da zero indizi alla modalità facile con metà delle lettere visibili. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata. Da 1 a 10 puzzle per scheda con lettere maiuscole o minuscole. Le parole in italiano sono genuinamente localizzate — "cane", "gatto", "casa" — rendendo ogni lingua un prodotto unico. Foglio risposte automatico, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. Il gioco indovina la parola è un formato universalmente amato, perfetto per pacchetti tematici di vocabolario su Etsy o libri di puzzle per KDP. In italiano la concorrenza su Etsy è minima — posizionati ora in questa nicchia. Prova gratis con filigrana.',
   },
 
   howItWorks: {

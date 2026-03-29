@@ -2,24 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili Giorno del Ringraziamento | Guida di Nicchia',
-    metaDescription: 'Idee di stampabili per il Giorno del Ringraziamento da vendere su Etsy, Amazon KDP e Gumroad. Prodotti a tema raccolto, strategie stagionali per i venditori.',
-    primaryKeyword: 'idee stampabili Giorno del Ringraziamento',
+    titleTag: 'Stampabili ringraziamento da vendere | LessonCraftStudio',
+    metaDescription: 'Crea stampabili sulla gratitudine e il raccolto da vendere su Etsy e KDP. Idee prodotto per il mercato USA e italiano con temi autunnali e festa dei nonni.',
+    primaryKeyword: 'stampabili ringraziamento da vendere',
     secondaryKeywords: [
-      'schede Thanksgiving da vendere',
-      'idee business stampabili Ringraziamento',
-      'schede attività Thanksgiving per venditori',
-      'vendere stampabili Ringraziamento su Etsy',
+      'vendere stampabili gratitudine su Etsy',
+      'business stampabili raccolto autunno KDP',
+      'creare stampabili festa dei nonni',
+      'nicchia stampabili gratitudine bambini',
+      'idee prodotto stampabili autunno zucche',
     ],
     lsiKeywords: [
-      'schede educative raccolto e gratitudine',
-      'pagine di attività a tema novembre per il negozio',
-      'stampabili a tema tacchino e pellegrino',
+      'mercato stampabili gratitudine Italia USA',
+      'generatore schede tema raccolto autunno',
+      'vendere stampabili digitali novembre',
+      'stampabili festa nonni ottobre bambini',
     ],
   },
   hero: {
-    title: 'Idee di Business con Stampabili per il Giorno del Ringraziamento per Venditori',
-    description: 'Il Giorno del Ringraziamento apre una finestra di vendita focalizzata e altamente redditizia per gli imprenditori di stampabili, con una domanda che cresce durante tutto ottobre e raggiunge il picco nelle prime tre settimane di novembre mentre i venditori preparano attività online a tema raccolto e le famiglie pianificano intrattenimento educativo per i raduni delle festività. La nicchia offre una ricca varietà di sotto-temi tra cui tacchini, zucche, pellegrini, scene del raccolto, cornucopie, foglie autunnali, torte, ghiande e attività sulla gratitudine, offrendo ai venditori un caldo vocabolario visivo che risuona con i primi apprendisti e le loro famiglie durante una delle celebrazioni più attese dell\'anno. Le famiglie che praticano l\'istruzione domestica e i programmi per l\'infanzia aggiungono una profondità significativa al mercato degli acquirenti, cercando lavoretti e attività per il Ringraziamento che uniscano l\'entusiasmo per la festività a risultati di apprendimento genuini. Per i venditori di stampabili su Etsy, Amazon KDP e Gumroad, la nicchia del Ringraziamento offre una domanda stagionale concentrata con un\'estetica autunnale accogliente che risulta perfetta nelle foto per le inserzioni dei prodotti e il marketing sui social media. Questa guida copre idee di prodotto specifiche, strategie per piattaforma e approcci di tempistica per aiutarti a costruire una linea di prodotti stampabili per il Ringraziamento redditizia utilizzando i nostri strumenti generatori di schede didattiche.',
+    title: 'Stampabili Gratitudine e Raccolto: Vendere in Autunno',
+    description: 'Il Thanksgiving americano non esiste in Italia, ma il tema della gratitudine e del raccolto autunnale offre opportunità straordinarie per i venditori di stampabili che servono sia il mercato USA sia quello italiano. Per il pubblico americano su Etsy — che rappresenta la maggioranza degli acquirenti — i stampabili del Ringraziamento generano domanda intensa da ottobre a novembre. Per il mercato italiano, puoi adattare questi temi alla Festa dei Nonni (2 ottobre), una ricorrenza molto sentita in Italia dove i bambini creano biglietti e lavoretti per i nonni. I sotto-temi autunnali — zucche, foglie, raccolto e ghiande — funzionano in entrambi i mercati. Per gli imprenditori digitali, questa doppia strategia massimizza le entrate. Con i nostri generatori di schede puoi creare stampabili a tema gratitudine da vendere su Etsy, Amazon KDP e Gumroad, servendo contemporaneamente il Thanksgiving USA e la Festa dei Nonni italiana.',
   },
   marketOverview: `La nicchia dei stampabili per il Giorno del Ringraziamento occupa una posizione privilegiata nel calendario delle vendite autunnali, generando una domanda concentrata durante ottobre e novembre quando venditori, genitori e famiglie che praticano l\'istruzione domestica cercano attivamente materiali educativi a tema raccolto. i venditori iniziano a pianificare le attività online di novembre e le celebrazioni del Ringraziamento a inizio ottobre, cercando schede tematiche che uniscano il calore della festività a risultati educativi genuini in matematica, alfabetizzazione e capacità di pensiero critico. I genitori cercano attività per il Ringraziamento adatte all\'età che servano a molteplici scopi: tenere occupati i bambini durante la preparazione delle festività, fornire intrattenimento educativo durante i viaggi in famiglia e creare momenti di apprendimento strutturato durante il lungo fine settimana del Ringraziamento quando le attività senza schermo sono particolarmente apprezzate.
 

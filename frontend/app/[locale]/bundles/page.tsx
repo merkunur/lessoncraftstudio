@@ -101,8 +101,8 @@ const bundlesContent: Record<string, {
   it: {
     heroTitle: 'Pacchetti di generatori',
     heroDescription: 'Risparmia con i pacchetti per categoria. Ottieni tutti i generatori di una categoria con licenza commerciale a prezzo pacchetto.',
-    metaTitle: 'Pacchetti di generatori di stampabili | Risparmia per categoria | LessonCraftStudio',
-    metaDescription: 'Tutti i generatori di una categoria a prezzo pacchetto. 6 pacchetti per matematica, lettere, disegno, abbinamento, puzzle e ricerca. Acquisto singolo con licenza commerciale.',
+    metaTitle: 'Pacchetti con licenza commerciale | LessonCraftStudio',
+    metaDescription: '6 pacchetti di generatori con licenza commerciale per vendere su Etsy e KDP. Matematica, lettere, disegno, abbinamento, puzzle e ricerca.',
     ctaTitle: 'Prova prima di acquistare',
     ctaDescription: 'Tutti i generatori sono gratis da provare con filigrana. Verifica la qualità prima dell’acquisto.',
     ctaButton: 'Prova i generatori gratis',

@@ -2,28 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede negozificazione immagini',
+    primaryKeyword: 'schede di classificazione per business su Etsy',
     secondaryKeywords: [
-      'generatore di schede di negozificazione stampabili per venditori Etsy',
-      'creatore di attività di negozificazione a due categorie per editori Amazon KDP',
-      'generatore di schede di negozificazione immagini con licenza commerciale',
-      'vendere schede di negozificazione stampabili su Gumroad',
+      'creare schede classificazione immagini per negozio Etsy',
+      'generatore attività di ordinamento per quaderni Amazon KDP',
+      'schede classificazione stampabili licenza commerciale',
+      'vendere attività di classificazione su Eduki',
+      'business stampabili schede ordinamento immagini',
     ],
     lsiKeywords: [
-      'prodotti digitali di negozificazione immagini per imprenditori',
-      'generatore di schede di negozificazione uso commerciale',
-      'attività di negozificazione stampabili per business online',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'classificazione immagini',
+      'ordinamento categorie',
+      'business di stampabili',
+      'foglio risposte automatico',
     ],
-    titleTag: 'Generatore Schede negozificazione Immagini | Creare',
+    titleTag: 'Schede di classificazione da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede di negozificazione immagini da vendere su Etsy, KDP e Gumroad. Due categorie, foglio risposte automatico, 104 temi, 4-12 immagini.',
+      'Crea schede di classificazione immagini da vendere su Etsy e KDP. Due categorie, risposte automatiche, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di negozificazione Immagini per Attività di negozificazione a Due Categorie',
+    title: 'Genera schede di classificazione da vendere su Etsy e KDP',
     tagline: 'negozificazione a due categorie in un unico generatore potente — modalità tema o selezione manuale delle immagini — con fogli risposte autogenerati, da 4 a 12 immagini configurabili, intestazione localizzata \"negozificazione Immagini\" in 11 lingue e 104 collezioni di immagini tematiche.',
     description:
-      'Crea schede di negozificazione professionali dove gli utenti negozificano le immagini in due categorie, collocando le immagini ritagliate nel gruppo corretto sinistro o destro. Scegli la modalità tema per popolare automaticamente le categorie dalla libreria immagini — seleziona un tema a sinistra e uno a destra, e l\'app genera 4–6 immagini casuali per tema — oppure passa alla modalità manuale per selezionare le immagini singolarmente e assegnare ciascuna a una categoria. Ogni scheda presenta due cornici di categoria con bordo tratteggiato nella parte superiore come destinazioni di negozificazione e una griglia di ritagli mescolata in basso con immagini miste pronte da ritagliare e negozificare. Il sistema a doppio canvas genera sia una scheda di lavoro che un foglio risposte con immagini 6× più grandi organizzate in riquadri di categoria, così non devi mai creare fogli risposte manualmente. Il Generatore di negozificazione Immagini è sensibile alla lingua: le etichette di categoria utilizzano i nomi localizzati delle immagini, quindi cambiare lingua modifica il testo sulla scheda. Un\'intestazione localizzata \"negozificazione Immagini\" con sfondo verde menta e titolo verde acqua appare automaticamente in tutte le 11 lingue supportate. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia per etichette di categoria localizzate. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi campi nome e data per la responsabilità online, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di attività di negozificazione su Etsy, compili quaderni di negozificazione per Amazon KDP o crei attività per centri di negozificazione su Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede di classificazione a due categorie sono un formato di prodotto stampabile molto richiesto su Etsy, perfetto per quaderni di attività su Amazon KDP. Il mercato italiano è ancora un oceano blu con pochissima concorrenza, offrendoti un vantaggio significativo. Questo generatore crea schede professionali dove gli utenti ritagliano immagini e le collocano nella categoria corretta. La modalità tema popola automaticamente le categorie dalla libreria immagini, mentre la modalità manuale ti dà il controllo completo. Il foglio risposte viene generato automaticamente con immagini organizzate nei riquadri corretti. Le etichette di categoria sono localizzate in 11 lingue, permettendoti di moltiplicare il catalogo per i mercati internazionali con un clic. Scegli tra 104 temi con oltre 3100 illustrazioni ed esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

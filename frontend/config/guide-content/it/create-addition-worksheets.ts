@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di addizione',
+    primaryKeyword: 'creare schede di addizione da vendere',
     secondaryKeywords: [
-      'creare schede addizione per bambini',
-      'generatore schede addizione',
-      'schede addizione stampabili da vendere',
-      'schede esercizi addizione personalizzate',
+      'schede addizione stampabili per Etsy e KDP',
+      'generatore schede addizione uso commerciale',
+      'vendere schede matematica addizione online',
+      'creare PDF addizione con licenza commerciale',
+      'schede addizione tematiche da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'schede matematica con immagini',
-      'addizione visiva per età prescolare',
-      'esercizi matematica scuola dell\'infanzia',
-      'vendere schede matematica su Etsy',
-      'libri attività matematica Amazon KDP',
-      'strumento schede licenza commerciale',
+      'addizione visiva con immagini tematiche',
+      'prodotti stampabili matematica per venditori',
+      'esportazione PDF schede addizione pronte per la stampa',
+      'catalogo schede matematica marketplace',
     ],
-    titleTag: 'Creare Schede di Addizione | Guida Passo Passo per KDP',
-    metaDescription: 'Crea schede di addizione per bambini. Guida passo passo: scegli temi, imposta la difficoltà, genera fogli risposte ed esporta PDF da vendere su Etsy e KDP.',
+    titleTag: 'Creare schede di addizione da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di addizione tematiche con fogli risposte automatici e PDF pronti per la stampa. Guida completa per vendere su Etsy, Amazon KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di Addizione per Bambini',
+    title: 'Schede di addizione da vendere: guida completa',
     tagline: 'Tutorial passo passo per creare schede di addizione tematiche pronte per la stampa da vendere su Etsy, Amazon KDP e Gumroad',
-    description: 'Le schede di addizione sono uno dei prodotti stampabili più ricercati su ogni grande marketplace. I genitori ne hanno bisogno per esercitarsi a casa. i venditori le usano per esercizi quotidiani e compiti. I centri di tutoring hanno bisogno di nuovi set ogni settimana. Questa guida ti accompagna attraverso l\'intero processo di creazione usando il Generatore di Schede di Addizione — dalla scelta del gruppo d\'età e del tema all\'esportazione di un PDF pronto per la stampa con foglio risposte automatico. Che tu stia creando il tuo primo prodotto stampabile o espandendo un catalogo esistente di schede matematiche, avrai un prodotto finito pronto da pubblicare entro la fine di questo tutorial.',
+    description: 'Le schede di addizione sono tra i prodotti stampabili più venduti su Etsy, Amazon KDP e Gumroad. Genitori, tutor e venditori cercano costantemente nuovi set con temi visivi accattivanti e livelli di difficoltà progressivi. Il mercato italiano offre un\'opportunità concreta: la concorrenza è ancora bassa rispetto al mercato anglofono, e la domanda di materiali educativi in italiano cresce ogni anno. Questa guida ti mostra come usare il Generatore di Schede di Addizione per creare prodotti professionali con immagini tematiche, fogli risposte automatici e PDF pronti per la stampa. Dalla scelta del gruppo d\'età alla configurazione del tema visivo, ogni passaggio è pensato per aiutarti a costruire un catalogo di schede matematiche redditizio. Che tu stia lanciando il tuo primo prodotto o espandendo una linea esistente, avrai schede finite pronte da pubblicare entro la fine di questo tutorial.',
   },
 
   introduction: 'L\'addizione è la prima operazione matematica che i bambini imparano, e resta rilevante dall\'età prescolare fino alla seconda elementare e oltre. Questa lunga finestra di apprendimento significa una domanda costante di schede di addizione per molteplici fasce d\'età — ognuna con diversi livelli di difficoltà, stili visivi e formati di esercizi.\n\nCiò che rende le schede di addizione particolarmente forti come prodotto stampabile è la loro universalità. Ogni catalogo prodotti in ogni paese insegna l\'addizione. Ogni genitore che fa homeschool ha bisogno di materiali per esercitarsi con l\'addizione. Ogni tutor che lavora con utenti in difficoltà ricorre a esercizi di addizione. Non si tratta di un prodotto stagionale o di una tendenza di nicchia — è una risorsa educativa fondamentale con domanda tutto l\'anno.\n\nIl Generatore di Schede di Addizione gestisce la complessità tecnica al posto tuo. Genera problemi di addizione basati su immagini con elementi visivi tematici, configura la difficoltà regolando gli intervalli numerici, supporta quattro modalità di esercizio distinte e produce fogli risposte automatici. Tu ti concentri sulla strategia di prodotto — quali fasce d\'età puntare, quali temi usare, come creare bundle e prezzi — mentre il generatore si occupa del layout, dell\'accuratezza matematica e della formattazione di stampa.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede di esempio, testare ogni configurazione e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

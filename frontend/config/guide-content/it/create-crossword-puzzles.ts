@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare cruciverba',
+    primaryKeyword: 'creare cruciverba da vendere online',
     secondaryKeywords: [
-      'generatore cruciverba per bambini',
-      'cruciverba stampabili da creare',
-      'cruciverba da vendere',
-      'cruciverba personalizzati con indizi immagini',
+      'cruciverba stampabili per Etsy e Amazon KDP',
+      'generatore cruciverba con immagini uso commerciale',
+      'vendere libri di cruciverba per bambini',
+      'creare cruciverba multilingue con licenza commerciale',
+      'cruciverba tematici da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'schede cruciverba con indizi con immagini',
-      'cruciverba multilingue per bambini',
-      'cruciverba vocabolario per bambini',
-      'vendere libri cruciverba su KDP',
-      'cruciverba stampabili Etsy',
-      'strumento puzzle licenza commerciale',
+      'cruciverba con indizi immagini per bambini',
+      'prodotti stampabili cruciverba per venditori',
+      'libri cruciverba Amazon KDP nicchia educativa',
+      'cruciverba vocabolario multilingue 11 lingue',
     ],
-    titleTag: 'Creare Cruciverba per Bambini | Guida Passo Passo Etsy',
-    metaDescription: 'Come creare cruciverba per bambini con indizi con immagini. Scegli temi, genera griglie a incroci, indizi numerati, fogli risposte e vendi su Etsy e KDP.',
+    titleTag: 'Cruciverba da vendere online | LessonCraftStudio',
+    metaDescription: 'Crea cruciverba con indizi visivi, griglie a incroci e fogli risposte automatici. Guida per vendere prodotti puzzle su Etsy, Amazon KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Cruciverba per Bambini',
+    title: 'Cruciverba da vendere online: guida alla creazione',
     tagline: 'Tutorial passo passo per creare cruciverba tematici con indizi con immagini da vendere su Etsy, Amazon KDP e Gumroad',
-    description: 'I cruciverba sono uno dei formati di puzzle più riconosciuti e amati al mondo — e il mercato dei cruciverba per bambini è in rapida crescita. i venditori li usano per il rinforzo del vocabolario. I genitori li usano per l\'ésercizio dell\'ortografia. I tutor li usano per rendere lo studio delle parole un gioco piuttosto che un esercizio noioso. Questa guida ti accompagna attraverso l\'intero processo di creazione usando il Generatore di Cruciverba — dalla scelta tra indizi basati su immagini e liste di parole personalizzate alla configurazione del layout della griglia, alla revisione degli indizi numerati e all\'esportazione di PDF pronti per la stampa con fogli risposte. Il generatore supporta 11 lingue, rendendo i prodotti cruciverba multilingue una nicchia realistica e differenziata. Che tu stia creando il tuo primo prodotto di puzzle o espandendoti nei libri di cruciverba per Amazon KDP, avrai un cruciverba finito e professionale pronto per la pubblicazione entro la fine di questo tutorial.',
+    description: 'I cruciverba sono tra i formati di puzzle più amati in Italia, con una tradizione che va dalla Settimana Enigmistica ai libri di attività per bambini. Il mercato dei cruciverba educativi per bambini è in rapida crescita su Etsy e Amazon KDP, con una domanda particolarmente forte per prodotti con indizi basati su immagini che rendono i puzzle accessibili anche ai più piccoli. Il Generatore di Cruciverba supporta 11 lingue, permettendoti di creare linee di prodotti multilingue che la concorrenza ignora. Questa guida ti accompagna dalla scelta tra indizi con immagini e liste personalizzate alla configurazione della griglia, alla revisione degli indizi numerati e all\'esportazione di PDF professionali con fogli risposte. Ogni combinazione tema-lingua produce un cruciverba strutturalmente diverso, moltiplicando il tuo catalogo senza lavoro creativo aggiuntivo. Che tu stia lanciando il tuo primo prodotto puzzle o espandendoti nei libri KDP, avrai cruciverba finiti pronti per la pubblicazione.',
   },
 
   introduction: 'I cruciverba occupano una posizione unica nel mercato dei stampabili educativi. A differenza dei cerca parole dove i bambini scansionano alla ricerca di parole nascoste, i cruciverba richiedono richiamo attivo e precisione ortografica lettera per lettera. Un bambino che risolve un cruciverba deve identificare ogni indizio con immagine, ricordare la parola corretta e scrivere ogni lettera in sequenza nelle caselle della griglia a incroci. Quella combinazione di riconoscimento visivo, richiamo del vocabolario e precisione ortografica rende i cruciverba uno dei più potenti strumenti di costruzione del vocabolario disponibili in formato stampabile.\n\nLa categoria dei cruciverba per bambini beneficia anche di un forte riconoscimento del formato. Gli adulti sono cresciuti risolvendo cruciverba su giornali e riviste, quindi genitori e venditori riconoscono istintivamente il formato e ne apprezzano il valore educativo. Quella familiarità innata significa meno convincimento necessario nelle tue inserzioni — gli acquirenti sanno già cos\'è un cruciverba e perché funziona.\n\nCiò che rende questo generatore particolarmente potente è il formato con indizi con immagini. I cruciverba tradizionali usano descrizioni testuali degli indizi, che richiedono capacità di lettura che i bambini più piccoli potrebbero non avere. I cruciverba basati su immagini sostituiscono gli indizi testuali con figure — un bambino vede l\'immagine di un gatto e scrive G-A-T-T-O nella griglia. Questo rende i cruciverba accessibili ai bambini fin dall\'età della scuola dell\'infanzia, ampliando drasticamente il tuo pubblico potenziale di acquirenti rispetto ai prodotti cruciverba con solo testo.\n\nIl Generatore di Cruciverba gestisce il lavoro algoritmico complesso per te. Posiziona 8 parole in una griglia a incroci dove le parole condividono lettere comuni nei punti di incrocio, assegna posizioni numerate a ogni parola, genera indizi con immagini che corrispondono ai numeri della griglia e produce un foglio risposte completo. Due modalità di creazione — selezione di immagini tematiche e lista di parole personalizzata con indizi testuali — ti danno flessibilità sia per prodotti visivi destinati ai bambini piccoli che per prodotti con indizi testuali per utenti più grandi.\n\nIl supporto linguistico è un importante fattore di differenziazione. Poiché le risposte del cruciverba SONO le parole, il cambio di lingua cambia ogni risposta nella griglia. Un cruciverba tedesco a tema animali usa un vocabolario completamente diverso da uno in inglese. Questo apre linee di prodotti multilingue che la maggior parte dei concorrenti non tenta mai.\n\nTutte le funzionalità menzionate in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare puzzle di esempio, testare entrambe le modalità di indizi e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

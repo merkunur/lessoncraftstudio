@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede preposizioni stampabile',
+    primaryKeyword: 'generatore schede preposizioni gratis',
     secondaryKeywords: [
-      'generatore schede preposizioni per venditori',
-      'creare schede preposizioni spaziali da vendere',
-      'stampabili relazioni spaziali uso commerciale',
-      'generatore preposizioni per KDP',
+      'creare schede preposizioni gratis online',
+      'schede preposizioni stampabili gratis',
+      'generatore preposizioni senza registrazione',
+      'schede preposizioni spaziali gratis PDF',
+      'generatore attività preposizioni gratuito online',
     ],
     lsiKeywords: [
-      'stampabili preposizioni spaziali per Etsy',
-      'strumento schede parole posizione',
-      'generatore attività preposizioni multilingue',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Schede Preposizioni | Vendi Stampabili Online',
-    metaDescription: 'Genera schede preposizioni con riempimento spazi e scelta multipla, sostituzione forme, 104 temi, 11 lingue. Prova gratuita — licenza commerciale disponibile.',
+    titleTag: 'Schede preposizioni gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede preposizioni gratis online, senza registrazione. Riempimento spazi e scelta multipla, 104 temi, 11 lingue. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Schede Preposizioni',
+    title: 'Crea Schede Preposizioni Gratis Online',
     tagline: 'Crea schede sulle preposizioni spaziali con due modalità di esercizio in 11 lingue',
-    description: 'Insegna le parole di posizione attraverso esercizi basati su immagini che gli utenti apprezzano davvero. Questo strumento genera schede sulle preposizioni dove gli utenti identificano le relazioni spaziali — su, sotto, sopra, accanto, tra, dentro, fuori — osservando scene illustrate e completando o selezionando la preposizione corretta. Scegli tra due modalità di esercizio: Riempimento Spazi Vuoti, dove gli utenti scrivono la preposizione corretta autonomamente, o Scelta Multipla, dove scelgono tra un gruppo di opzioni con una riga di istruzioni personalizzabile. Imposta da 1 a 8 esercizi per scheda e seleziona esattamente quali preposizioni includere usando la griglia con caselle di controllo. La funzione distintiva dello strumento è la Sostituzione Forme — un livello di immagini separato ti permette di sostituire le forme della scena in modo indipendente, creando molte più combinazioni visive di quanto un singolo set di immagini potrebbe offrire. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e ogni parola di preposizione si aggiorna al suo equivalente nativo. Il tedesco usa \"auf, unter, über, neben, zwischen, drinnen, draußen"; il francese usa \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Un design di scheda diventa 11 prodotti linguistici unici. Sfoglia oltre 3.100 immagini in 104 temi, carica le tue PNG o JPEG per design personalizzati e scegli tra diversi modelli e 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede preposizioni gratis, direttamente nel browser, senza registrazione e senza installare nulla. Gli utenti identificano relazioni spaziali — su, sotto, sopra, accanto, tra, dentro, fuori — osservando scene illustrate. Scegli tra Riempimento Spazi Vuoti e Scelta Multipla, imposta da 1 a 8 esercizi per scheda e seleziona quali preposizioni includere. La Sostituzione Forme ti permette di cambiare le immagini della scena indipendentemente, moltiplicando le combinazioni visive. La sensibilità linguistica è integrata: passa tra 11 lingue e ogni preposizione si aggiorna al suo equivalente nativo — un design diventa 11 prodotti linguistici. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

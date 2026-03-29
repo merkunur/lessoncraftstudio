@@ -2,26 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede pregrafismo linee',
+    primaryKeyword: 'generatore schede di pregrafismo gratis',
     secondaryKeywords: [
-      'creatore schede tracciamento linee per venditori',
-      'creare schede pregrafismo da vendere',
-      'schede tracciamento linee stampabili uso commerciale',
-      'generatore schede disegno linee per KDP',
+      'creare schede pregrafismo gratis online',
+      'schede tracciamento linee stampabili gratis',
+      'generatore pregrafismo senza registrazione',
+      'schede pregrafismo motricità fine gratis PDF',
+      'generatore schede disegno linee gratuito',
     ],
     lsiKeywords: [
-      'strumento schede motricità fine per Etsy',
-      'generatore schede modelli SVG linee',
-      'stampabili tracciamento linee coppie immagini abbinate',
+      'gratis',
+      'senza registrazione',
+      'stampabile',
+      'PDF',
+      'filigrana',
+      'prova gratuita',
     ],
-    titleTag: 'Generatore Schede Pregrafismo — Tracciamento Linee',
-    metaDescription: 'Crea schede di pregrafismo con otto modelli SVG, oltre 3.100 illustrazioni colorate in 104 temi e riempimento automatico delle coppie di immagini tematiche.',
+    titleTag: 'Schede di pregrafismo gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di pregrafismo gratis online, senza registrazione. Otto modelli SVG, 3.100 illustrazioni, 104 temi. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Creatore di Schede Pregrafismo — Tracciamento Linee',
+    title: 'Crea Schede Pregrafismo Gratis Online',
     tagline: 'Otto modelli SVG per tracciamento linee con coppie di immagini abbinate, riempimento automatico da 104 temi colorati e orientamento pagina automatico per schede pregrafismo professionali vendibili in tutto il mondo',
-    description: 'Crea schede professionali di tracciamento linee dove gli utenti disegnano lungo percorsi guidati per collegare coppie di immagini abbinate. Otto modelli basati su SVG coprono una progressione completa di motricità fine: un modello orizzontale per il tracciamento rettilineo da sinistra a destra (il più facile), un modello verticale per i tratti dall\'alto verso il basso, quattro modelli curva per movimenti fluidi del polso e due modelli diagonale per la coordinazione crociata (il più difficile). Ogni modello posiziona 4 o 5 coppie di immagini abbinate sui lati opposti del percorso della linea, dando agli utenti un obiettivo visivo a ciascuna estremità. La selezione del modello guida automaticamente l\'orientamento della pagina — le curve passano al formato orizzontale per archi ampi, mentre i modelli diagonale, orizzontale e verticale usano il formato verticale per la pratica focalizzata. Il riempimento automatico popola istantaneamente ogni slot di coppia con immagini casuali dal tema selezionato o da tutti i 104 temi contemporaneamente, rendendo la creazione in serie velocissima. I contenuti provengono da oltre 3.100 illustrazioni colorate in 104 collezioni tematiche — animali, veicoli, cibo, natura e decine di altri. Ogni scheda è puramente visiva con zero testo sul foglio stampato, rendendo i prodotti vendibili universalmente senza traduzione. Non è necessaria una chiave di risposta separata perché il percorso della linea stesso guida l\'utente — un\'attività autocorrettiva per natura. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Modifica tutto sul canvas Fabric.js completo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede di pregrafismo gratis, direttamente nel browser, senza registrazione e senza installare nulla. Otto modelli SVG coprono la progressione completa della motricità fine: orizzontale, verticale, quattro curve e due diagonali. Ogni modello posiziona 4 o 5 coppie di immagini abbinate con riempimento automatico da 104 temi e oltre 3.100 illustrazioni. L\'orientamento della pagina si adatta automaticamente al modello scelto. Le schede sono puramente visive — zero testo stampato, vendibili universalmente senza traduzione. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4 o personalizzato — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },
 
   tutorial: {

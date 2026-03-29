@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'aprire negozio Etsy stampabili',
+    primaryKeyword: 'aprire negozio Etsy di stampabili guida',
     secondaryKeywords: [
-      'come aprire un negozio Etsy di stampabili',
-      'configurazione negozio Etsy stampabili da zero',
-      'iniziare a vendere stampabili su Etsy',
-      'negozio Etsy download digitali per principianti',
+      'come iniziare a vendere stampabili su Etsy da zero',
+      'configurazione account venditore Etsy download digitali',
+      'branding negozio Etsy stampabili educativi principianti',
+      'piano lancio negozio Etsy stampabili 30 giorni',
+      'commissioni Etsy strategia prezzi stampabili',
     ],
     lsiKeywords: [
-      'account venditore Etsy configurazione download digitali schede stampabili',
-      'branding negozio stampabili ottimizzazione inserzioni Etsy nuovi venditori',
-      'commissioni Etsy strategia prezzi prodotti stampabili educativi',
-      'SEO Etsy tag titoli descrizioni inserzioni schede stampabili',
-      'politiche negozio download digitale rimborso venditori Etsy',
-      'strategia lancio negozio Etsy stampabili primi 30 giorni piano crescita',
+      'account venditore Etsy configurazione download digitali',
+      'ottimizzazione inserzioni SEO tag titoli Etsy',
+      'politiche negozio digitale rimborso venditori',
+      'strategia lancio primi 30 giorni crescita catalogo',
     ],
-    titleTag: 'Aprire un Negozio Etsy di Stampabili da Zero | Guida',
-    metaDescription: 'Aprire un negozio Etsy di stampabili da zero con 33 generatori. Branding, ottimizzazione inserzioni, prezzi, commissioni Etsy e piano lancio 30 giorni.',
+    titleTag: 'Aprire negozio Etsy di stampabili | LessonCraftStudio',
+    metaDescription: 'Guida completa per aprire un negozio Etsy di stampabili da zero: branding, inserzioni ottimizzate, prezzi e piano lancio 30 giorni. Inizia subito.',
   },
 
   hero: {
-    title: 'Come Aprire un Negozio Etsy di Stampabili da Zero',
+    title: 'Aprire un negozio Etsy di stampabili: guida completa',
     tagline: 'Una guida completa a livello di negozio per lanciare un\'attività redditizia di stampabili su Etsy usando 33 generatori di schede e attività in 6 categorie di prodotti — dalla creazione dell\'account venditore Etsy, branding del negozio e politiche per download digitali, alla creazione del primo inventario prodotti da più categorie di generatori, scrittura di inserzioni ottimizzate con tutti i 13 tag, comprensione delle commissioni Etsy e impostazione di prezzi sostenibili, creazione di foto per prodotti digitali, lancio con inserzioni sufficienti per ottenere visibilità nelle ricerche, ed esecuzione di un piano di crescita a 30 giorni che costruisce recensioni, espande il catalogo e afferma il tuo negozio come autorità nel mercato delle schede stampabili',
-    description: 'Aprire un negozio Etsy per schede stampabili e attività educative è uno degli ingressi a più bassa barriera nella vendita di prodotti digitali. A differenza delle attività con prodotti fisici che richiedono inventario, logistica di spedizione e costi di produzione anticipati, un negozio di stampabili necessita solo del tuo toolkit di generatori e un piano di lancio strutturato. Questa guida ti accompagna in ogni passaggio, dalla creazione del tuo account venditore Etsy all\'esecuzione dei primi 30 giorni di operazioni del negozio — coprendo le decisioni a livello di negozio che le guide specifiche per prodotto danno per scontate. Che tu voglia vendere schede di matematica, puzzle cerca parole, pagine da colorare o un mix di tutte le 6 categorie di generatori, i fondamenti della configurazione del negozio trattati qui si applicano a ogni tipo di prodotto stampabile.',
+    description: 'Aprire un negozio Etsy di stampabili è uno dei modi più accessibili per avviare un\'attività di prodotti digitali in Italia. Nessun inventario fisico, nessuna logistica di spedizione, nessun costo di produzione anticipato: ti servono solo i tuoi generatori di schede e un piano di lancio strutturato. Questa guida ti accompagna dalla creazione dell\'account venditore Etsy fino all\'esecuzione del piano operativo dei primi 30 giorni. Imparerai a configurare il branding del negozio, impostare le politiche per i download digitali, ottimizzare le inserzioni per il motore di ricerca di Etsy, definire una strategia di prezzi sostenibile e lanciare con un catalogo che genera visibilità fin dal primo giorno. I principi trattati qui si applicano a tutte le 6 categorie di stampabili.',
   },
 
   introduction: 'Il mercato delle schede stampabili su Etsy è cresciuto fino a diventare una categoria sostanziale di prodotti digitali, trainato da venditori, genitori che fanno homeschooling, centri di tutoraggio, direttori di attività e genitori alla ricerca di attività educative offline. La struttura del marketplace di Etsy è particolarmente adatta ai venditori di stampabili perché la piattaforma gestisce l\'elaborazione dei pagamenti, la consegna dei file digitali, la comunicazione con gli acquirenti e la scoperta dei prodotti tramite ricerca — permettendoti di concentrarti sulla creazione dei prodotti e sull\'ottimizzazione delle inserzioni anziché costruire la tua infrastruttura e-commerce.\n\nCiò che rende le schede stampabili particolarmente attraenti come attività su Etsy è il modello di inventario. I venditori di prodotti fisici devono produrre, immagazzinare e spedire l\'inventario. I venditori di stampabili creano un prodotto una volta e lo vendono un numero illimitato di volte con costo marginale zero per vendita. Una singola inserzione ben ottimizzata può generare vendite per mesi o anni senza ulteriore sforzo di produzione. Questo significa che il tempo iniziale di creazione del prodotto è un investimento che si moltiplica — ogni nuova inserzione che aggiungi aumenta permanentemente la superficie di ricerca totale e il potenziale di ricavo del tuo negozio.\n\nI 33 generatori in 6 categorie di prodotti — Cerca e Trova, Matematica e Numeri, Lettere e Parole, Disegno e Arte, Puzzle e Giochi, e Logica e Schemi — ti danno accesso alla gamma più ampia possibile di prodotti stampabili da un unico toolkit. La maggior parte dei venditori Etsy di stampabili è limitata a uno o due tipi di prodotto perché crea tutto manualmente. Avere generatori che producono output professionale e pronto per la stampa in 33 formati distinti significa che puoi lanciare con una diversità di prodotti che ai creatori manuali richiederebbe mesi. Ogni generatore offre una prova gratuita con filigrana così puoi valutare la qualità dell\'output prima di impegnarti.\n\nQuesta guida è intenzionalmente a livello di negozio piuttosto che specifica per prodotto. Copre le decisioni e i passaggi di configurazione che si applicano indipendentemente da quali generatori usi — la configurazione del tuo account Etsy, il branding del negozio, le politiche per i download digitali, il framework dei prezzi, i principi di ottimizzazione delle inserzioni e la strategia di lancio. Per approfondimenti sulla vendita di tipi di prodotto specifici, consulta le guide piattaforma specifiche per schede di matematica, puzzle cerca parole e altri formati. Quelle guide si basano sulle fondamenta del negozio che stabilisci qui.\n\nEtsy applica commissioni relativamente modeste rispetto all\'infrastruttura che fornisce. Una commissione di inserzione di 0,20\ $ per articolo (rinnovata ogni 4 mesi o alla vendita), una commissione di transazione del 6,5% e le commissioni di elaborazione dei pagamenti sono i tuoi costi principali. Non è richiesto alcun abbonamento mensile per gestire un negozio Etsy, il che significa che il tuo costo di avvio è essenzialmente zero oltre alle commissioni di inserzione per i tuoi prodotti iniziali. Questa bassa barriera d\'ingresso rende Etsy il terreno di test ideale per i venditori di stampabili che vogliono validare il product-market fit prima di investire in canali di vendita aggiuntivi.\n\nL\'errore più comune dei nuovi venditori di stampabili è lanciare con troppe poche inserzioni, branding incoerente e nessuna strategia di ottimizzazione. Questa guida fornisce l\'approccio strutturato che separa i negozi che guadagnano trazione nel primo mese da quelli che rimangono dormienti con zero visualizzazioni. Ogni sezione è progettata per essere attuabile — puoi seguire i passaggi in sequenza dalla creazione dell\'account al tuo piano di lancio a 30 giorni.',

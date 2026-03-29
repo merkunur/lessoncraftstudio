@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schede maggiore minore uguale',
+    primaryKeyword: 'schede maggiore minore gratis',
     secondaryKeywords: [
-      'generatore schede confronto quantità per venditori',
-      'creare schede confronto numeri da vendere',
-      'schede confronto visivo stampabili uso commerciale',
-      'generatore schede più o meno matematica per KDP',
+      'schede maggiore minore uguale gratis online senza registrazione',
+      'generatore confronto quantità gratis PDF stampabile',
+      'schede maggiore minore gratis bambini immagini',
+      'creare schede confronto numeri gratis',
+      'schede più o meno gratis prova gratuita',
     ],
     lsiKeywords: [
-      'stampabili confronto visivo per Etsy',
-      'generatore schede confronto quantità',
-      'generatore attività spunta e croce matematica',
+      'schede maggiore minore gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore confronto quantità gratis online',
     ],
-    titleTag: 'Schede Maggiore Minore Uguale | Vendi Stampabili Online',
-    metaDescription: 'Crea schede visive di maggiore, minore e uguale con immagini in pochi secondi. Tre modalità inclusa Spunta e Croce esclusiva. Vendi su Etsy, KDP e Gumroad.',
+    titleTag: 'Maggiore e minore gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede maggiore e minore gratis online, senza registrazione. Tre modalità inclusa Spunta e Croce, immagini colorate. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Schede Maggiore Minore Uguale',
+    title: 'Crea Schede Maggiore e Minore Gratis',
     tagline: 'Crea schede di confronto visivo con tre modalità di esercizio in meno di 60 secondi',
-    description: 'Insegna maggiore di, minore di e uguale a con schede di confronto basate su immagini che rendono concreti i concetti astratti. Questo strumento genera tre tipi distinti di esercizi: Immagine vs Immagine (confronta due gruppi di figure affiancati), Immagine vs Numero (collega il conteggio visivo con i numeri scritti) e la modalità unica Spunta e Croce in cui gli utenti negozificano un riquadro di immagini mischiate da due categorie, segnando con una spunta il gruppo maggioritario e con una croce quello minoritario. Scegli tra oltre 100 temi di immagini, imposta l\'intervallo numerico, scegli tra simboli illustrati o standard e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Poiché le schede utilizzano solo immagini, numeri e simboli, funzionano in modo identico in tutte le 11 lingue supportate — crea una volta e vendi in tutto il mondo. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni.',
+    description: 'Crea schede maggiore e minore gratis direttamente nel browser, senza registrazione e senza installare nulla. Tre modalità di esercizio: Immagine vs Immagine, Immagine vs Numero e l\'esclusiva Spunta e Croce dove gli utenti segnano il gruppo maggioritario e minoritario in un riquadro di immagini mischiate. Scegli tra oltre 100 temi di immagini, imposta l\'intervallo numerico (1–10), seleziona simboli illustrati o standard. Esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Le schede usano solo immagini, numeri e simboli, funzionando in tutte le 11 lingue. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere le tue creazioni su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

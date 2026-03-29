@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'libri sudoku KDP',
+    primaryKeyword: 'creare libri di sudoku per Amazon KDP',
     secondaryKeywords: [
-      'come creare libri di sudoku per Amazon KDP',
-      'libri sudoku illustrato per bambini KDP',
-      'guida pubblicazione libri puzzle sudoku',
-      'serie libri sudoku Amazon autopubblicazione',
+      'libri sudoku illustrato bambini KDP logica prescuola',
+      'sudoku numerico adulti Amazon KDP allenamento cerebrale',
+      'strategia serie multi-volume libri sudoku Amazon',
+      'formattazione griglie sudoku stampa KDP guida',
+      'progressione difficoltà sudoku facile esperto libri',
     ],
     lsiKeywords: [
-      'griglia sudoku difficoltà facile medio difficile esperto progressione',
-      'sudoku illustrato bambini logica puzzle prescuola scuola dell\'infanzia',
-      'sudoku numerico adulti allenamento cerebrale esercizio cognitivo',
-      'formattazione libro sudoku dimensione griglia qualità stampa KDP',
-      'serie sudoku volumi riacquisto risolutori fedeli catalogo',
-      'conteggio puzzle sudoku layout pagina chiave risposte stampa ritaglio',
+      'sudoku illustrato bambini logica puzzle prescuola',
+      'riacquisto risolutori fedeli catalogo serie volumi',
+      'conteggio puzzle layout pagina chiave risposte',
+      'doppio mercato bambini adulti sudoku Amazon',
     ],
-    titleTag: 'Libri Sudoku per Amazon KDP | Guida alla Pubblicazione',
-    metaDescription: 'Crea libri di sudoku per KDP con sudoku illustrato per bambini e sudoku numerico per adulti. Progressione difficoltà, formattazione griglie e strategia serie.',
+    titleTag: 'Libri di sudoku per Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Crea libri di sudoku per Amazon KDP: sudoku illustrato per bambini e numerico per adulti. Progressione difficoltà, griglie e strategia serie.',
   },
 
   hero: {
-    title: 'Come Creare Libri di Sudoku per Amazon KDP',
+    title: 'Libri di sudoku per Amazon KDP: guida alla pubblicazione',
     tagline: 'Una guida completa alla creazione e pubblicazione di libri di puzzle sudoku su Amazon KDP \u2014 coprendo il doppio mercato del sudoku illustrato per bambini piccoli e del sudoku numerico per adulti, strategie di progressione della difficoltà che mantengono i risolutori coinvolti dalle sezioni facili a quelle esperte, formattazione specifica delle griglie sudoku per una stampa pulita, layout delle pagine e convenzioni per le chiavi delle risposte uniche dei libri di sudoku, l\'approccio alla costruzione di serie che sfrutta il comportamento di riacquisto eccezionalmente forte dei risolutori di sudoku, e il percorso di espansione da un catalogo sudoku verso la pubblicazione più ampia di libri di puzzle',
-    description: 'Il sudoku occupa una posizione unica tra i libri di puzzle KDP. A differenza della maggior parte dei tipi di puzzle che servono un singolo pubblico, il sudoku si divide in due prodotti fondamentalmente diversi: il sudoku illustrato per bambini dai 3 ai 7 anni che sviluppa le prime capacità logiche usando immagini invece di numeri, e il sudoku numerico per adulti che spazia da griglie facili e rilassanti a sfide di livello esperto impegnative. Ogni formato ha il proprio pubblico, termini di ricerca, convenzioni di design della copertina e panorama competitivo. Questa guida si concentra specificamente su ciò che rende la pubblicazione di libri di sudoku distinta dalla pubblicazione generale di libri di puzzle: l\'opportunità del doppio mercato, la progressione della difficoltà che conta più per il sudoku che per qualsiasi altro tipo di puzzle, i requisiti di formattazione specifici del sudoku per la stampa, e l\'economia del riacquisto che rende il sudoku una delle categorie più affidabili per costruire un catalogo su KDP.',
+    description: 'Il sudoku offre un\'opportunità unica su Amazon KDP grazie al suo doppio mercato: sudoku illustrato per bambini dai 3 ai 7 anni che sviluppa le capacità logiche con immagini, e sudoku numerico per adulti con livelli da facile a esperto. Per gli editori italiani, questa nicchia è particolarmente interessante per il forte comportamento di riacquisto dei risolutori. Questa guida copre tutto ciò che rende la pubblicazione di libri di sudoku distinta: la progressione della difficoltà calibrata, i requisiti di formattazione specifici per le griglie, la strategia di serie multi-volume e il posizionamento nel mercato bambini vs adulti su Amazon.',
   },
 
   introduction: 'Il sudoku \u00e8 uno dei formati di puzzle più riconosciuti al mondo, e questa consapevolezza intrinseca si traduce direttamente in un volume di ricerca costante su Amazon. Gli acquirenti che cercano libri di sudoku comprendono già il formato del puzzle e sanno cosa vogliono \u2014 non stanno navigando casualmente ma cercano attivamente il loro prossimo libro di puzzle da risolvere. Questo comportamento di ricerca guidato dall\'intenzione rende i libri di sudoku una delle categorie con il tasso di conversione più alto su KDP.\n\nIl mercato dei libri di sudoku si divide in due segmenti distinti che funzionano quasi come categorie separate. Il sudoku numerico per adulti \u00e8 il segmento più grande, servendo risolutori che vanno da chi risolve casualmente un puzzle al giorno a entusiasti dedicati che risolvono dozzine di griglie a settimana. Questo pubblico acquista in base al livello di difficoltà, al conteggio dei puzzle, alla qualità della formattazione delle griglie e alla continuità della serie. Il sudoku illustrato per bambini \u00e8 un segmento più piccolo ma significativamente meno competitivo, rivolto a genitori ed imprenditori della prima infanzia che desiderano attività di costruzione della logica per bambini dai 3 ai 7 anni. Il sudoku illustrato sostituisce i numeri con immagini in griglie semplificate 4x4 o 6x6, rendendo la logica fondamentale del sudoku accessibile ai bambini che non sanno ancora lavorare con i numeri. Questi due mercati condividono il nome sudoku ma richiedono contenuti, formattazione, posizionamento e strategie di parole chiave completamente diversi.\n\nCiò che rende la pubblicazione di sudoku particolarmente attraente \u00e8 la dinamica del riacquisto. Un libro di sudoku completato ha zero valore di rigiocabilità \u2014 ogni griglia \u00e8 stata risolta, ogni risposta compilata. Il risolutore deve acquistare un nuovo libro per contenuti freschi. I risolutori di sudoku che trovano un editore la cui formattazione, calibrazione della difficoltà e qualità di stampa soddisfano i loro standard diventano acquirenti ripetuti straordinariamente fedeli. Molti editori di sudoku best-seller riferiscono che il loro volume più recente genera vendite immediate da acquirenti che hanno comprato ogni volume precedente della serie. Questo ciclo di consumo e riacquisto \u00e8 il motore economico della pubblicazione di libri di sudoku.\n\nLa progressione della difficoltà conta più per il sudoku che per la maggior parte degli altri tipi di puzzle. Un risolutore di cerca parole può godersi puzzle allo stesso livello di difficoltà indefinitamente. Un risolutore di sudoku migliora attivamente con la pratica \u2014 le griglie che erano impegnative il mese scorso diventano routine. Questa progressione significa che i libri di sudoku necessitano di sezioni di difficoltà attentamente calibrate, e le serie devono offrire sfide crescenti tra i volumi, o rischiare di perdere risolutori che superano il livello di difficoltà. Comprendere e servire questa dinamica di progressione \u00e8 la competenza chiave che separa gli editori di sudoku che costruiscono cataloghi duraturi da quelli i cui libri si fermano dopo le vendite iniziali.\n\nQuesta guida si concentra su ciò che rende la pubblicazione di libri di sudoku specificamente diversa dalla pubblicazione generale di libri di puzzle. Per i fondamentali KDP come specifiche di formattazione del manoscritto, dimensioni della copertina, calcolo delle royalty e pratiche generali di inserzione, consulta la guida alla formattazione KDP. Per una strategia ampia sui libri di puzzle che copre più tipi e formati di libri varietà, consulta la guida ai libri di puzzle KDP. Qui ci concentriamo interamente sulla strategia dei contenuti specifica per il sudoku, il doppio mercato bambini-adulti, il design della progressione della difficoltà e l\'approccio alle serie che rende il sudoku una delle categorie di entrate più affidabili su KDP.',

@@ -2,28 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede abbinamento ombre',
+    primaryKeyword: 'schede abbina le ombre per negozio Etsy',
     secondaryKeywords: [
-      'generatore di schede di abbinamento ombre stampabili per venditori Etsy',
-      'creatore di puzzle di silhouette per editori Amazon KDP',
-      'generatore di schede di discriminazione visiva con licenza commerciale',
-      'vendere schede di abbinamento ombre su Gumroad',
+      'creare schede abbinamento ombre stampabili per Etsy',
+      'generatore puzzle silhouette per quaderni Amazon KDP',
+      'schede discriminazione visiva licenza commerciale',
+      'vendere attività abbina le ombre su Eduki',
+      'business stampabili schede silhouette immagini',
     ],
     lsiKeywords: [
-      'prodotti digitali di discriminazione visiva per imprenditori',
-      'generatore di puzzle di silhouette uso commerciale',
-      'attività di percezione visiva stampabili per business online',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'abbinamento ombre',
+      'silhouette',
+      'business di stampabili',
+      'discriminazione visiva',
     ],
-    titleTag: 'Generatore Schede Abbinamento Ombre | Crea Stampabili',
+    titleTag: 'Schede abbina le ombre da vendere su Etsy | LCS',
     metaDescription:
-      'Crea schede di abbinamento ombre da vendere su Etsy, KDP e Gumroad. Modalità Ombra e Completa, silhouette automatiche, 104 temi, export PDF. Prova con filigrana.',
+      'Crea schede abbina le ombre professionali da vendere su Etsy e KDP. Silhouette automatiche, 104 temi, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Abbinamento Ombre per Attività di Corrispondenza Silhouette e Immagini Divise',
+    title: 'Genera schede abbina le ombre per il tuo negozio Etsy',
     tagline: 'Due modalità di corrispondenza in un solo generatore — Abbinamento Ombre crea silhouette nere generate automaticamente da qualsiasi immagine, Completa l\'Immagine divide le immagini in metà — entrambe con algoritmo di derangement Fisher-Yates che garantisce zero corrispondenze banali, risposte auto-generate e 104 collezioni di immagini tematiche.',
     description:
-      'Crea schede professionali di abbinamento ombre dove gli utenti associano immagini colorate alle loro silhouette o riconnettono metà di immagini separate. La modalità Abbinamento Ombre posiziona 4 immagini colorate etichettate A, B, C, D nella riga superiore e 4 silhouette nere auto-generate etichettate 1, 2, 3, 4 nella riga inferiore — le silhouette vengono create tramite elaborazione a livello di pixel che converte ogni pixel con alpha > 10 in nero puro, producendo contorni precisi che preservano il profilo di trasparenza esatto di ogni immagine. La modalità Completa l\'Immagine divide le immagini in metà con direzione di taglio orizzontale o verticale, etichetta le prime metà A–D e le seconde metà 1–4, e adatta il layout in base all\'orientamento. Entrambe le modalità utilizzano un algoritmo di derangement Fisher-Yates per garantire che nessun elemento appaia nella sua posizione originale, creando veri e propri esercizi di corrispondenza ogni volta. Attiva o disattiva le etichette A/B/C/D e 1/2/3/4, aggiungi campi opzionali nome e data per l\'uso online, e genera risposte automatiche che mostrano ogni abbinamento corretto lettera-numero. Il Generatore di Abbinamento Ombre NON è sensibile alla lingua: il risultato è puramente visivo, senza contenuto testuale localizzato nella scheda. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi testo personalizzato con sette opzioni di font, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di puzzle di silhouette su Etsy, compili quaderni di percezione visiva per Amazon KDP o crei attività rapide di fine lezione per Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Le schede "abbina le ombre" sono uno dei formati stampabili più apprezzati dai genitori su Etsy e perfetti per i quaderni di attività su Amazon KDP. Il mercato italiano offre ancora pochissima concorrenza, creando un\'opportunità concreta per il tuo business di stampabili. Questo generatore crea schede professionali con due modalità: Abbinamento Ombre genera silhouette nere automatiche da qualsiasi immagine, mentre Completa l\'Immagine divide le immagini in metà da ricomporre. L\'algoritmo garantisce che nessun elemento appaia nella posizione corretta, creando veri esercizi di corrispondenza ogni volta. Le risposte vengono generate automaticamente, eliminando il lavoro manuale. Ogni scheda è puramente visiva e vendibile su qualsiasi mercato internazionale senza modifiche. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {

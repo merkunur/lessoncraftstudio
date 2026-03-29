@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatizzare business stampabili',
+    primaryKeyword: 'automatizzare il business stampabili',
     secondaryKeywords: [
-      'automazione business stampabili',
-      'automatizzare creazione schede',
-      'automazione flusso lavoro prodotti digitali',
-      'efficienza venditori stampabili',
+      'produzione batch schede stampabili efficiente',
+      'sistemi template per venditori di stampabili',
+      'flussi di lavoro automatizzati creazione schede',
+      'standardizzare inserzioni multi-piattaforma',
+      'scalare produzione stampabili senza più ore',
     ],
     lsiKeywords: [
-      'flusso produzione batch ottimizzazione sistemi template velocità creazione prodotti',
-      'automazione inserzioni elaborazione batch gestione tempo pipeline produzione',
-      'creazione sistematica processi ripetibili efficienza strumenti batching contenuti',
-      'template inserzioni template descrizioni organizzazione file programmazione produzione',
-      'flusso lavoro ottimizzato standardizzazione processi efficienza operativa batching attività',
-      'sistemi produzione processi scalabili gestione catalogo progettazione flusso lavoro',
+      'pipeline produzione processi ripetibili',
+      'batching attività organizzazione file',
+      'template descrizioni calendario produzione',
+      'efficienza operativa venditori digitali',
     ],
-    titleTag: 'Automatizzare il Business di Stampabili | Guida Pratica',
-    metaDescription: 'Automatizza il tuo business di stampabili con produzione batch, sistemi di template e flussi di lavoro sistematici. Scala la produzione su più piattaforme.',
+    titleTag: 'Automatizzare business stampabili | LessonCraftStudio',
+    metaDescription: 'Come automatizzare il tuo business di stampabili: produzione batch, template e flussi sistematici per triplicare la produzione. Guida pratica passo passo.',
   },
 
   hero: {
-    title: 'Come Automatizzare il Tuo Business di Stampabili',
+    title: 'Automatizzare il Business di Stampabili: Guida Pratica',
     tagline: 'Una guida completa per ottimizzare il tuo business di stampabili — come identificare opportunità di automazione, costruire sistemi di template, raggruppare le attività di produzione, standardizzare le inserzioni, organizzare i file in modo sistematico, automatizzare l\'elaborazione dei file, creare calendari di produzione e scalare attraverso la variazione sistematica',
-    description: 'I venditori di stampabili di maggior successo non sono necessariamente i più creativi o i designer più talentuosi. Sono i più sistematici. Hanno costruito flussi di lavoro che eliminano lo sforzo ridondante, sistemi di template che impediscono di ricominciare da zero, e processi produttivi che trasformano ore di lavoro in minuti. Questa guida ti mostra come automatizzare il tuo business di stampabili attraverso strategie pratiche e implementabili — dalla produzione batch e i sistemi di template alle inserzioni standardizzate e all\'espansione sistematica del catalogo.',
+    description: 'I venditori italiani di stampabili che guadagnano di più non sono i più creativi — sono i più sistematici. Hanno costruito flussi di lavoro che eliminano lo sforzo ridondante e triplicano la produzione senza aumentare le ore di lavoro. Nel mercato italiano del 2026, dove la concorrenza cresce ma resta gestibile, chi automatizza oggi costruisce un vantaggio competitivo difficile da recuperare. Questa guida ti mostra come implementare la produzione batch, i sistemi di template, le inserzioni standardizzate e l\'espansione sistematica del catalogo per trasformare il tuo business da hobby a impresa scalabile su Etsy, Amazon KDP e Gumroad.',
   },
 
   introduction: 'La maggior parte dei venditori di stampabili trascorre la gran parte delle ore lavorative su attività che potrebbero essere drasticamente più veloci con i giusti sistemi. Creano ogni scheda da una tela bianca, scrivono ogni descrizione di prodotto da zero, organizzano i file in modo incoerente tra le cartelle, e prendono decisioni sulle inserzioni in modo reattivo anziché seguire un calendario di produzione pianificato. Il risultato è un business dove il venditore è il collo di bottiglia — la produzione è limitata dal numero di ore che può investire personalmente, e ogni ora è interamente consumata da lavoro manuale ripetitivo.\n\nL\'automazione in un business di stampabili non richiede software costosi o competenze di programmazione. L\'automazione più efficace deriva dalla costruzione di sistemi: file template che eliminano la partenza da zero, sessioni di produzione batch che raggruppano attività simili, convenzioni di denominazione standardizzate che prevengono il caos dei file, template per le descrizioni che riducono la scrittura da trenta minuti a cinque, e calendari di produzione che sostituiscono le decisioni quotidiane con un programma predeterminato. Sono automazioni di processo — modi di strutturare il lavoro in modo che ogni attività ripetitiva sia gestita da un sistema anziché da sforzo manuale ogni singola volta.\n\nLa differenza di produzione tra un venditore sistematico e uno che lavora ad hoc è drammatica. Un venditore che crea schede una alla volta, scrive ogni inserzione individualmente e organizza i file in modo reattivo può produrre da 3 a 5 prodotti finiti e pubblicati a settimana. Un venditore con flussi di produzione batch, template per le descrizioni e sistemi di file standardizzati può produrre da 15 a 25 prodotti finiti e pubblicati nelle stesse ore lavorative. La qualità è identica — entrambi i venditori usano gli stessi strumenti e creano gli stessi tipi di prodotti. La differenza sta interamente nel modo in cui il lavoro è strutturato.\n\nI generatori di schede sono uno strumento di automazione fondamentale per i venditori di stampabili perché sostituiscono il passaggio più dispendioso in termini di tempo nel processo produttivo: la creazione del contenuto e del layout della scheda. Invece di posizionare manualmente testo, tracciare linee, posizionare immagini e formattare pagine, configuri le impostazioni e generi un output professionale pronto per la stampa in pochi minuti. Questo libera il tuo tempo per il lavoro strategico che i generatori non possono automatizzare: scegliere temi redditizi, scrivere descrizioni convincenti, ottimizzare le parole chiave delle inserzioni e pianificare la crescita del catalogo.\n\nQuesta guida ti accompagna attraverso un framework completo di automazione per il tuo business di stampabili. Ogni passaggio affronta un\'area specifica dove i processi sistematici sostituiscono lo sforzo manuale, dall\'identificazione delle maggiori perdite di tempo alla costruzione di sistemi di produzione che scalano la tua produzione senza aumentare proporzionalmente le ore lavorative. L\'obiettivo è un business dove i tuoi sistemi gestiscono il lavoro ripetitivo e il tuo tempo personale è dedicato alle decisioni e strategie che effettivamente fanno crescere il fatturato.',

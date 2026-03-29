@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede sequenze griglia',
+    primaryKeyword: 'schede riconoscimento pattern gratis',
     secondaryKeywords: [
-      'generatore schede riconoscimento schemi per venditori',
-      'creare schede completamento sequenze da vendere',
-      'stampabili schede sequenze uso commerciale',
-      'generatore schede sequenze griglia per KDP',
+      'schede sequenze pattern gratis online senza registrazione',
+      'generatore schede completamento sequenze gratis PDF',
+      'schede riconoscimento schemi gratis stampabile',
+      'creare schede pattern gratis bambini',
+      'schede sequenze AB ABC ABCD gratis prova gratuita',
     ],
     lsiKeywords: [
-      'stampabili riconoscimento schemi visivi per Etsy',
-      'strumento schede completamento sequenze zero testo',
-      'generatore schede sequenze AB ABC ABCD da vendere',
+      'schede pattern gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore sequenze griglia gratis online',
     ],
-    titleTag: 'Generatore Schede Sequenze e Pattern | Crea e Vendi',
-    metaDescription: 'Genera schede sequenze con nove tipi di schema, due modalità di domanda, configurazione per esercizio, chiavi di risposta automatiche e 104 temi.',
+    titleTag: 'Riconoscimento pattern gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede pattern gratis online, senza registrazione. Nove tipi di schema, due modalità domanda, risposte automatiche. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Schede Sequenze',
+    title: 'Crea Schede Pattern e Sequenze Gratis',
     tagline: 'Genera schede di riconoscimento degli schemi con layout a griglia, nove tipi di schema, due modalità di domanda, configurazione indipendente per esercizio e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali per il completamento di sequenze in cui gli utenti identificano schemi ripetitivi e inseriscono l\'elemento mancante o scelgono la risposta corretta tra opzioni a scelta multipla. Nove tipi distinti di schema coprono la più ampia gamma di complessità disponibile: AB alterna due elementi, AAB e ABB introducono raggruppamenti asimmetrici, ABC ruota tre elementi diversi, AABB accoppia due di ciascuno, ABBC e AABC aggiungono schemi asimmetrici a tre immagini, ABCC estende con finali raddoppiati e ABCD ruota quattro elementi diversi per la massima sfida. Due modalità di domanda creano esercizi fondamentalmente diversi da ogni tipo di schema: Casella Vuota sostituisce un elemento con uno spazio vuoto per il ragionamento aperto, mentre Scelta tra Opzioni presenta lo spazio vuoto più tre risposte con una corretta e due distrattori. Configura da 1 a 8 esercizi per pagina con ogni esercizio impostato indipendentemente per tipo di schema, modalità di domanda e tema — una pagina può combinare un riscaldamento AB a casella vuota con una sfida ABCD a scelta multipla. Attiva Inizio Casuale per iniziare le sequenze a metà ciclo e Posizione Vuota Casuale per posizionare l\'elemento mancante ovunque nella sequenza. Il layout standard a griglia con righe e colonne dispone gli esercizi in modo ordinato per output pronti alla valutazione. Ogni scheda è completamente visiva con sole immagini e zero testo sull\'output — nessuna parola appare sulla pagina generata, rendendo i tuoi prodotti vendibili universalmente senza traduzione. Un singolo annuncio serve ogni mercato nel mondo. Attingi a oltre 3.100 illustrazioni in 104 collezioni tematiche o carica le tue immagini. Una scheda chiave di risposta separata mostra tutti gli spazi vuoti riempiti con gli elementi corretti. Esporta PDF pronti per la stampa e JPEG ad alta risoluzione in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per un output ottimizzato per l\'inchiostro. Modifica tutto sul canvas completo Fabric.js con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede riconoscimento pattern gratis direttamente nel browser, senza registrazione e senza installare nulla. Nove tipi di schema (AB, AAB, ABB, ABC, AABB, ABBC, AABC, ABCC, ABCD) con due modalità di domanda: Casella Vuota e Scelta tra Opzioni. Configura da 1 a 8 esercizi per pagina, ciascuno impostabile indipendentemente per tipo, modalità e tema. Oltre 3.100 illustrazioni in 104 collezioni tematiche, chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita senza limiti. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

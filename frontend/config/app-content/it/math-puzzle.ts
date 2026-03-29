@@ -2,28 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore di puzzle matematici',
+    primaryKeyword: 'generatore di puzzle matematici da vendere su Etsy',
     secondaryKeywords: [
-      'schede di puzzle matematici stampabili per Etsy',
-      'generatore di puzzle con immagini per Amazon KDP',
-      'vendere schede di puzzle matematici su Gumroad',
-      'schede di puzzle matematici licenza commerciale',
+      'puzzle matematici stampabili per negozio Etsy',
+      'schede puzzle con immagini per Amazon KDP',
+      'creare libri di puzzle matematici per KDP',
+      'puzzle di matematica licenza commerciale',
+      'generatore puzzle matematici per venditori',
     ],
     lsiKeywords: [
-      'prodotti digitali di puzzle matematici per imprenditori',
-      'attività di puzzle stampabili per vendita online',
-      'generatore di puzzle matematici uso commerciale',
+      'licenza commerciale',
+      '300 DPI',
+      'pronto per la stampa',
+      'puzzle con immagini',
+      'griglie regolabili',
+      'reddito passivo',
+      'download digitale',
+      'business di stampabili',
+      'scuola primaria',
     ],
-    titleTag: 'Generatore di Puzzle Matematici | Creare e Vendere',
+    titleTag: 'Puzzle matematici da vendere su Etsy e KDP | LCS',
     metaDescription:
-      'Crea schede di puzzle matematici per Etsy, KDP e Gumroad. Puzzle con immagini, addizione e sottrazione, griglie regolabili. Prova gratuita con filigrana inclusa.',
+      'Crea puzzle matematici con immagini da vendere su Etsy e KDP. Griglie da 2×2 a 4×4, 104 temi, licenza commerciale. Prova gratis con filigrana.',
   },
 
   hero: {
-    title: 'Generatore di Schede di Puzzle Matematici con Risoluzione Visiva',
+    title: 'Crea e vendi puzzle matematici professionali su Etsy e KDP',
     tagline: 'Combina la pratica matematica con il divertimento di risolvere puzzle — ogni pezzo contiene un problema, ogni soluzione rivela l\'immagine.',
     description:
-      'Crea schede di puzzle matematici coinvolgenti dove un\'immagine completa viene divisa in una griglia di pezzi, ciascuno con un problema di addizione o sottrazione. gli utenti risolvono le operazioni e poi abbinano le risposte numerate ai pezzi mescolati mostrati sotto la griglia — trasformando l\'aritmetica di routine in un mistero visivo. Configura griglie da 2×2 fino a 4×4 per creare puzzle da 4 a 16 pezzi e scegli addizione, sottrazione o operazioni miste per adattarti a qualsiasi livello. Seleziona tra oltre 3100 illustrazioni in 104 temi come animali della fattoria, spazio, dinosauri e festività per rendere ogni puzzle unico. Ogni scheda genera automaticamente un foglio delle soluzioni che mostra la griglia risolta accanto all\'immagine completa. Esporta PDF e JPEG pronti per la stampa a oltre 400 DPI in formato Lettera, A4 o personalizzato. Che tu venda pacchetti tematici di puzzle su Etsy, compili libri di attività progressivi per Amazon KDP o crei centri di matematica interattivi per il tuo catalogo, il Generatore di Puzzle Matematici produce risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea puzzle matematici da vendere su Etsy e Amazon KDP — un formato unico dove un\'immagine tematica viene divisa in pezzi, ciascuno con un problema di addizione o sottrazione da risolvere. I bambini calcolano e ricompongono l\'immagine, trasformando la matematica in un gioco coinvolgente. Griglie da 2×2 a 4×4 (da 4 a 16 pezzi) coprono ogni livello dalla scuola dell\'infanzia alla terza primaria. Oltre 3.100 illustrazioni in 104 temi — animali, spazio, dinosauri, festività — per creare centinaia di puzzle unici da vendere come inserzioni singole o compilare in libri di attività KDP. Soluzioni automatiche, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. Il mercato italiano dei puzzle matematici stampabili è un oceano blu: la concorrenza su Etsy.it è praticamente inesistente. Prova gratis con filigrana e valuta la qualità prima di investire.',
   },
 
   howItWorks: {

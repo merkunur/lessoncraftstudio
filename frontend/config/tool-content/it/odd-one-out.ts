@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schede trova l\'intruso',
+    primaryKeyword: 'generatore trova l\'intruso gratis',
     secondaryKeywords: [
-      'generatore schede trova l\'intruso per venditori',
-      'creare puzzle trova il diverso da vendere',
-      'generatore trova l\'intruso stampabile uso commerciale',
-      'creatore puzzle trova l\'intruso per KDP e Etsy',
+      'trova l\'intruso gratis online senza registrazione',
+      'generatore schede trova il diverso gratis PDF',
+      'schede trova l\'intruso gratis bambini stampabile',
+      'creare puzzle trova l\'intruso gratis',
+      'schede intruso gratis prova gratuita',
     ],
     lsiKeywords: [
-      'doppia modalità identico simile discriminazione visiva generatore',
-      'override per esercizio generatore trova l\'intruso',
-      'chiave di risposta automatica cerchi rossi schede trova l\'intruso',
+      'trova l\'intruso gratis senza registrazione',
+      'stampabile PDF gratis filigrana',
+      'prova gratuita licenza commerciale',
+      'generatore puzzle intruso gratis online',
     ],
-    titleTag: 'Generatore Schede Intruso | Trova l\'Intruso Stampabile',
-    metaDescription: 'Crea schede trova l\'intruso con modalità Identico e Simile, override per esercizio, chiavi di risposta con cerchi rossi. Prova gratuita — licenza disponibile.',
+    titleTag: 'Trova l\'intruso gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede trova l\'intruso gratis online, senza registrazione. Modalità Identico e Simile, risposte automatiche. Licenza commerciale disponibile.',
   },
 
   hero: {
-    title: 'Generatore Schede Trova l\'Intruso',
+    title: 'Crea Schede Trova l\'Intruso Gratis Online',
     tagline: 'Generatore di schede trova l\'intruso a doppia modalità con modalità Identico (3 cloni + 1 diverso dallo stesso tema) e modalità Simile (3 dal Tema A + 1 dal Tema B), override per esercizio con pulsante Cancella Selezioni, 5–10 esercizi configurabili con layout adattivo a 2 colonne, chiavi di risposta auto-generate con marcatori cerchio rosso scalati alla dimensione dell\'immagine, sistema a due temi con 104 collezioni tematiche e puzzle puramente visivi vendibili in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali trova l\'intruso in cui gli utenti identificano e cerchiano l\'immagine che non appartiene a ogni riga di quattro figure. Il generatore offre due modalità distinte che producono sfide cognitive fondamentalmente diverse. La modalità Identico posiziona tre cloni della stessa identica immagine accanto a un\'immagine diversa dello stesso tema — gli utenti individuano il non-duplicato confrontando i dettagli visivi all\'interno di un singolo tema. La modalità Simile prende tre immagini dal Tema A e un\'immagine dal Tema B — gli utenti identificano l\'intruso tematico riconoscendo differenze categoriali tra due temi. Ogni riga di esercizio include il proprio selettore a tendina della modalità, permettendoti di sovrascrivere la modalità globale su base per esercizio. Inizia con esercizi Identico facili in alto e passa a esercizi Simile più difficili verso il basso, oppure alterna le modalità per una sfida varia. Il pulsante \"Cancella Selezioni\" ripristina tutti gli override per esercizio alla impostazione globale. Configura da 5 a 10 esercizi per scheda (predefinito 6) usando il pannello Configurazione Esercizi. Ogni esercizio contiene sempre esattamente 4 immagini — 3 elementi comuni e 1 intruso — con la posizione dell\'intruso mescolata casualmente nella riga. Il layout si adatta automaticamente: le pagine in verticale con 7 o più esercizi passano a un layout a 2 colonne, e le pagine in orizzontale usano sempre 2 colonne per una spaziatura ottimale. Il sistema a due temi rende i puzzle di discriminazione tra categorie senza sforzo — seleziona il Tema A dal menu a tendina per le tre immagini comuni e il Tema B per il singolo intruso. Abbina animali con cibo, veicoli con natura, professioni con sport — qualsiasi combinazione dalle 104 collezioni tematiche disponibili con oltre 3.100 illustrazioni. Nella modalità Identico serve un solo tema poiché sia i cloni comuni che l\'immagine intrusa provengono dalla stessa collezione. Il sistema a doppio canvas genera simultaneamente sia una scheda di lavoro che una chiave di risposta. La chiave di risposta riproduce l\'esatto layout della scheda e disegna un contorno cerchio rosso attorno all\'intruso in ogni riga. Lo spessore del tratto del cerchio si scala dinamicamente con la dimensione dell\'immagine — calcolato come il massimo tra imageSize × 0,04 o 3 pixel — garantendo una visibilità costante su tutte le dimensioni di pagina e conteggi di esercizi. Un\'intestazione auto-generata mostra \"Trova l\'Intruso\" con un bordo esterno corallo (#FF6B6B, tratto 8px), bordo interno ambra (#FFB84D, tratto 3px) e sfondo turchese (#4ECDC4). Il titolo appare in teal scuro Fredoka (#1A535C) e le istruzioni in rosso Quicksand (#E63946), localizzate in tutte le 11 lingue supportate. Trova l\'Intruso NON è sensibile alla lingua — i puzzle sono interamente visivi senza parole sul contenuto della scheda, rendendo ogni puzzle universalmente vendibile in tutti i mercati senza traduzione. Attiva i campi opzionali nome e data per la responsabilità online e i numeri degli esercizi (larghezza 25px, gap 15px dal contenuto della scheda) per un facile riferimento durante la revisione. Sfoglia 104 collezioni tematiche o carica le tue immagini PNG, JPG o GIF. Applica temi di sfondo e temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Aggiungi testo personalizzato con 7 opzioni di font (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno testo 0–10. Esporta quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Scegli tra Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate con un\'opzione scala di grigi per una stampa economica. Modifica tutto sul canvas Fabric.js con 6 opzioni di allineamento più centra-su-pagina, livelli, blocca/sblocca, zoom 25%–300% e annulla/ripristina 20 stati. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede trova l\'intruso gratis direttamente nel browser, senza registrazione e senza installare nulla. Due modalità distinte: Identico (3 cloni + 1 diverso dallo stesso tema) e Simile (3 dal Tema A + 1 dal Tema B). Override per esercizio con difficoltà mista sulla stessa pagina. Da 5 a 10 esercizi per scheda, 4 immagini per riga con posizione dell\'intruso casuale. Sistema a due temi con 104 collezioni e oltre 3.100 illustrazioni. Chiave di risposta automatica con cerchi rossi. Esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere i tuoi puzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },
 
   tutorial: {

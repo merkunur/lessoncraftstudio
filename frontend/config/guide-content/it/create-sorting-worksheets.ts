@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schede negozificazione per categorie',
+    primaryKeyword: 'creare schede di classificazione da vendere',
     secondaryKeywords: [
-      'creare schede negozificazione per bambini',
-      'generatore schede negozificazione immagini',
-      'attività stampabili negozificazione da vendere',
-      'schede negozificazione a due categorie',
+      'schede classificazione stampabili per Etsy e KDP',
+      'generatore schede classificazione immagini uso commerciale',
+      'vendere attività ritaglia e classifica online',
+      'creare schede categorizzazione con licenza commerciale',
+      'schede classificazione per bambini da vendere su Gumroad',
     ],
     lsiKeywords: [
-      'schede ritaglia e negozifica per età prescolare',
-      'generatore attività negozificazione immagini',
-      'schede negozificazione con chiave di risposta',
-      'vendere schede negozificazione su Etsy',
-      'quaderni negozificazione Amazon KDP',
-      'strumento negozificazione con licenza commerciale',
+      'ritaglia e classifica a due categorie con immagini',
+      'prodotti stampabili classificazione per venditori',
+      'griglie ritaglio mescolate con chiavi di risposta',
+      'schede categorizzazione prescolare marketplace',
     ],
-    titleTag: 'Creare Schede negozificazione Categorie | Guida Completa',
-    metaDescription: 'Crea schede di negozificazione a due categorie con 4-12 immagini, griglie di ritaglio mescolate e chiavi di risposta automatiche. Guida per vendere su Etsy.',
+    titleTag: 'Schede di classificazione da vendere | LessonCraftStudio',
+    metaDescription: 'Crea schede di classificazione a due categorie con griglie di ritaglio mescolate e chiavi di risposta automatiche. Vendi su Etsy, Amazon KDP e Gumroad.',
   },
 
   hero: {
-    title: 'Come Creare Schede di negozificazione per Categorie',
+    title: 'Schede di classificazione da vendere online',
     tagline: 'Tutorial passo passo per creare schede ritaglia e negozifica a due categorie con modalità tema e selezione manuale, chiavi di risposta auto-generate e supporto multilingue da vendere su Etsy, Amazon KDP e Gumroad',
-    description: 'La negozificazione per categorie è una delle prime competenze cognitive che i bambini sviluppano, e le schede di negozificazione restano molto richieste su ogni marketplace educativo. I genitori ne hanno bisogno per l\'apprendimento pratico a casa. i venditori le utilizzano per attività di negozificazione e centri di smistamento. I centri di tutoraggio le usano per la pratica di categorizzazione visiva. Questa guida ti accompagna nell\'intero processo di creazione usando il Generatore Schede negozificazione Immagini — dalla scelta della modalità di selezione e configurazione del numero di immagini alla generazione di griglie di ritaglio mescolate con chiavi di risposta automatiche. Che tu stia creando il tuo primo prodotto di negozificazione o espandendo un catalogo esistente di schede di negozificazione, avrai un prodotto finito pronto per la pubblicazione alla fine di questo tutorial.',
+    description: 'Le schede di classificazione per categorie sono tra i prodotti stampabili più richiesti per l\'educazione della prima infanzia. Il formato ritaglia e classifica crea un coinvolgimento pratico che genitori e strutture educative cercano attivamente, con acquirenti disposti a pagare prezzi premium per set ben curati. Il mercato italiano offre un\'opportunità concreta: la domanda di materiali educativi di qualità per la classificazione visiva è alta, con poca concorrenza per prodotti professionali con griglie di ritaglio mescolate e chiavi di risposta. Il Generatore Schede Classificazione Immagini offre due modalità di selezione — modalità tema per produzione rapida e modalità manuale per precisione — con intestazioni localizzate in 11 lingue. Questa guida ti mostra come creare prodotti professionali con griglie di ritaglio mescolate, chiavi di risposta automatiche e PDF pronti per la stampa. Che tu stia creando il tuo primo prodotto di classificazione o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },
 
   introduction: 'La negozificazione è una delle competenze cognitive fondamentali nell\'educazione della prima infanzia. Prima che i bambini sappiano leggere, scrivere o fare aritmetica, imparano a negozificare — raggruppando oggetti per attributi condivisi come colore, forma, funzione o categoria. Questo rende le schede di negozificazione un prodotto universalmente rilevante con domanda sostenuta dall\'età prescolare alla scuola elementare.\n\nCiò che rende le schede di negozificazione particolarmente efficaci come prodotto stampabile è il formato ritaglia e negozifica. gli utenti ritagliano fisicamente le immagini da una griglia mescolata e le posizionano nella cornice della categoria corretta. Questa interazione pratica crea un coinvolgimento più profondo rispetto alle attività cerchia-o-traccia-una-linea perché richiede abilità motorie, ragionamento spaziale e processo decisionale attivo. venditori e genitori cercano attivamente i formati ritaglia e negozifica perché mantengono i bambini impegnati più a lungo e producono un prodotto finito tangibile.\n\nIl Generatore Schede negozificazione Immagini gestisce la complessità tecnica della creazione di queste attività. Offre due modalità di selezione: la modalità tema auto-popola le categorie dalla libreria di immagini integrata per una produzione rapida, mentre la modalità manuale ti permette di selezionare singole immagini per una precisione allineata al catalogo prodotti. Il generatore produce layout di negozificazione a due categorie con griglie di ritaglio mescolate, chiavi di risposta auto-generate con immagini visualizzate a sei volte la dimensione delle celle della griglia, e un\'intestazione localizzata stilizzata in undici lingue. Tu ti concentri sulla strategia di prodotto — quali abbinamenti di categorie targettizzare, quali livelli di difficoltà creare, come confezionare e prezzare — mentre il generatore gestisce layout, mescolamento e creazione delle chiavi di risposta.\n\nTutte le funzionalità descritte in questa guida sono disponibili nella prova gratuita con filigrana. Puoi creare schede di negozificazione campione, testare entrambe le modalità di selezione e valutare la qualità dell\'output prima di acquistare una licenza commerciale.',

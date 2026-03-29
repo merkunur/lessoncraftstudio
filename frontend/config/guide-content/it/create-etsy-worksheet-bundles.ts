@@ -2,29 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pacchetti schede Etsy',
+    primaryKeyword: 'creare pacchetti di schede per Etsy',
     secondaryKeywords: [
-      'come creare pacchetti schede per Etsy',
-      'strategia inserzione bundle stampabili Etsy',
-      'vendere pacchetti schede su Etsy',
-      'creazione bundle download digitali Etsy',
+      'come creare bundle stampabili educativi Etsy',
+      'strategia prezzi pacchetti schede Etsy venditori',
+      'bundle cross-categoria stampabili Etsy valore ordine',
+      'organizzazione file bundle Etsy download digitale',
+      'immagini anteprima bundle Etsy mockup inserzioni',
     ],
     lsiKeywords: [
-      'ottimizzazione inserzione bundle Etsy strategia organizzazione file',
-      'prezzi pacchetti schede sconto ancoraggio value stacking',
-      'immagini anteprima bundle Etsy miniatura mockup layout',
-      'tipi bundle materia livello tema stagionale stampabili educativi',
-      'consegna digitale Etsy file multipli struttura bundle',
-      'bundle vs inserzione singola cannibalizzazione strategia negozio Etsy',
+      'value stacking sconto ancoraggio prezzi bundle',
+      'tipi bundle materia livello tema stagionale',
+      'consegna digitale Etsy file multipli struttura',
+      'cannibalizzazione inserzione singola vs bundle strategia',
     ],
-    titleTag: 'Creare Pacchetti di Schede per Etsy | Guida per Venditori',
-    metaDescription: 'Crea pacchetti di schede per Etsy che aumentano il valore medio dell\'ordine. Tipi di bundle, organizzazione file, immagini anteprima e strategia prezzi.',
+    titleTag: 'Creare pacchetti di schede per Etsy | LessonCraftStudio',
+    metaDescription: 'Come creare pacchetti di schede per Etsy che aumentano il valore dell\'ordine: tipi di bundle, organizzazione file, prezzi e immagini anteprima efficaci.',
   },
 
   hero: {
-    title: 'Come Creare Pacchetti di Schede per Etsy',
+    title: 'Pacchetti di schede per Etsy: come crearli e venderli',
     tagline: 'Una guida completa alla creazione, strutturazione, pubblicazione e ottimizzazione di pacchetti di schede per Etsy — selezione del tipo di bundle tra materia, livello scolastico, tema, stagionale e formato, selezione prodotti per massimo valore percepito, organizzazione file entro i limiti di consegna Etsy, immagini anteprima e design miniature specifici per bundle, titoli e tag inserzione ottimizzati per termini di ricerca bundle, strategie di prezzo value-stacking con sconti ancoraggio, e monitoraggio prestazioni per identificare le combinazioni bundle più performanti',
-    description: 'I pacchetti di schede sono tra le inserzioni con il fatturato più alto su Etsy per i venditori di stampabili educativi. Questa guida ti accompagna nell\'intero flusso di lavoro per la creazione di bundle — dalla scelta dei prodotti da combinare alla scrittura di inserzioni che comunicano il valore del bundle, fino al monitoraggio delle prestazioni nel tempo.',
+    description: 'I pacchetti di schede sono tra le inserzioni più redditizie su Etsy per i venditori di stampabili educativi. In Italia e nel mercato globale, gli acquirenti preferiscono bundle completi che risolvono il problema del "quali scegliere" con un singolo acquisto. Questa guida ti accompagna nell\'intero flusso di lavoro: dalla scelta strategica dei prodotti da combinare alla creazione di immagini anteprima che comunicano valore, dalla definizione dei prezzi con tecniche di value stacking alla scrittura di inserzioni ottimizzate per i termini di ricerca bundle su Etsy. Imparerai anche come evitare la cannibalizzazione tra inserzioni singole e pacchetti.',
   },
 
   introduction: 'I bundle sono una delle strategie più efficaci per aumentare il fatturato di un negozio Etsy di stampabili. Un pacchetto di schede ben costruito offre agli acquirenti più valore per acquisto, garantendoti un valore medio dell\'ordine superiore rispetto alle singole inserzioni. L\'economia è semplice: se una singola scheda si vende a $3 e un pacchetto di otto schede correlate si vende a $12, guadagni quattro volte il fatturato per transazione con costi di produzione aggiuntivi minimi.\n\nOltre al beneficio diretto sul fatturato, i bundle competono diversamente nella ricerca Etsy. Gli acquirenti che cercano \"math worksheet bundle kindergarten\" hanno un\'intenzione d\'acquisto più forte rispetto a chi cerca schede singole — hanno già deciso di volere più prodotti e cercano la migliore raccolta. Le parole chiave bundle affrontano anche meno concorrenza rispetto alle parole chiave per prodotti singoli in molte categorie di stampabili educativi.\n\nI bundle riducono inoltre la fatica decisionale che porta gli acquirenti ad abbandonare senza acquistare. Invece di scegliere tra sei inserzioni singole, un acquirente può comprare un unico bundle che include tutto ciò di cui ha bisogno. per i venditori che acquistano materiali per il negozio o i genitori che preparano risorse per l\'homeschool, i bundle risolvono il problema del \"quali dovrei prendere?\".\n\nLa sfida è che creare bundle efficaci richiede una pianificazione deliberata. Raccolte casuali di schede impacchettate insieme hanno prestazioni inferiori rispetto a bundle curati con temi chiari, qualità coerente e presentazione professionale. Questa guida copre ogni aspetto del processo di creazione bundle: scegliere il tipo giusto per il tuo catalogo, selezionare quali prodotti includere, organizzare i file per una consegna professionale, creare immagini anteprima che comunicano valore, scrivere inserzioni specifiche per bundle ottimizzate per la ricerca Etsy, stabilire i prezzi per massimo fatturato e monitorare le prestazioni per affinare la strategia nel tempo. Ogni generatore menzionato in questa guida è disponibile come prova gratuita con filigrana, così puoi creare contenuti campione e testare il tuo approccio prima di acquistare una licenza.',

@@ -2,27 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacchetto schede matematica',
+    primaryKeyword: 'pacchetto generatori matematica per venditori Etsy',
     secondaryKeywords: [
-      'pacchetto schede matematica per venditori',
-      'generatore schede matematica uso commerciale',
-      'pacchetto attività matematica stampabile per Etsy',
-      'toolkit schede matematica per venditori KDP',
+      'bundle schede matematica licenza commerciale',
+      'generatori addizione sottrazione puzzle per Etsy KDP',
+      'toolkit matematica stampabile per venditori online',
+      'creare schede matematica in blocco da vendere',
+      'pacchetto 6 generatori schede matematica professionali',
     ],
     lsiKeywords: [
-      'pacchetto schede addizione sottrazione',
-      'collezione puzzle matematici stampabili',
-      'licenza commerciale schede matematica',
-      'strumento creazione schede matematica in blocco',
+      'schede visive universali senza testo',
+      'chiavi di risposta automatiche PDF 300 DPI',
+      'oltre 100 temi immagini configurabili',
+      'prodotti matematica per mercato italiano e globale',
     ],
-    titleTag: 'Pacchetto Schede Matematica — 6 Generatori | Padronanza',
-    metaDescription: 'Ottieni 6 generatori di schede matematiche in un unico pacchetto. Crea schede di addizione, sottrazione, puzzle, confronto e algebra per Etsy, KDP e Gumroad.',
+    titleTag: 'Pacchetto matematica per venditori | LessonCraftStudio',
+    metaDescription: 'Pacchetto con 6 generatori di schede matematiche per venditori Etsy e KDP. Addizione, sottrazione, puzzle e algebra. Licenza commerciale e prova gratuita.',
   },
 
   hero: {
-    title: 'Pacchetto Padronanza della Matematica',
+    title: 'Pacchetto Matematica: 6 Generatori per Venditori',
     tagline: 'Sei generatori professionali di schede matematiche in un unico pacchetto scontato',
-    description: 'Costruisci una linea completa di prodotti stampabili di matematica senza passare da uno strumento all\'altro. Il Pacchetto Padronanza della Matematica combina sei generatori specializzati che coprono addizione, sottrazione, puzzle crittaritmetici con codici, confronto maggiore-minore, puzzle matematici a griglia e equazioni algebriche con immagini. Ogni generatore produce file PDF pronti per la stampa e JPEG ad alta risoluzione con chiavi di risposta automatiche, difficoltà configurabile e librerie di immagini tematiche. Cinque dei sei generatori sono completamente visivi — le schede che producono funzionano in qualsiasi lingua perché si basano su immagini e numeri anziché sul testo. Il sesto, Addizione Codificata, aggiunge una modalità Scopri la Parola sensibile alla lingua che supporta tutte le 11 lingue dell\'interfaccia. Scegli tra oltre 100 set di immagini tematiche o carica i tuoi file PNG e JPEG per prodotti personalizzati e specifici per la tua nicchia. Che tu venda su Etsy, Amazon KDP o Gumroad, questo pacchetto ti offre la varietà che gli acquirenti si aspettano e la velocità di cui i venditori hanno bisogno. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
+    description: 'Costruisci una linea completa di prodotti stampabili di matematica senza passare da uno strumento all\'altro. Il Pacchetto Matematica combina sei generatori specializzati che coprono addizione, sottrazione, puzzle crittaritmetici con codici, confronto maggiore-minore, puzzle matematici a griglia e equazioni algebriche con immagini. Ogni generatore produce file PDF pronti per la stampa e JPEG ad alta risoluzione con chiavi di risposta automatiche, difficoltà configurabile e librerie di immagini tematiche. Cinque dei sei generatori sono completamente visivi — le schede che producono funzionano in qualsiasi lingua perché si basano su immagini e numeri anziché sul testo. Il sesto, Addizione Codificata, aggiunge una modalità Scopri la Parola sensibile alla lingua che supporta tutte le 11 lingue dell\'interfaccia. Scegli tra oltre 100 set di immagini tematiche o carica i tuoi file PNG e JPEG per prodotti personalizzati e specifici per la tua nicchia. Che tu venda su Etsy, Amazon KDP o Gumroad, questo pacchetto ti offre la varietà che gli acquirenti si aspettano e la velocità di cui i venditori hanno bisogno. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
   },
 
   appsIncluded: [

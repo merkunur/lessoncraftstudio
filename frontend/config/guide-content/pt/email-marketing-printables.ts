@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing imprimíveis',
+    primaryKeyword: 'email marketing para vendedores de imprimíveis',
     secondaryKeywords: [
-      'lista de correio vendedores de imprimíveis',
-      'newsletter para negócio de atividades',
-      'email marketing produtos digitais',
-      'estratégia email negócio imprimíveis',
+      'email marketing vendedor de imprimíveis',
+      'lista de emails para negócio digital',
+      'automação email Hotmart imprimíveis',
+      'como converter email em vendas imprimíveis',
     ],
     lsiKeywords: [
-      'lista de subscritores lead magnet oferta de subscrição sequência de boas-vindas automatização de email',
-      'taxa de abertura taxa de cliques segmentação emails de difusão campanha de gotejamento',
-      'fornecedor de serviços de email página de destino taxa de conversão taxa de cancelamento',
-      'otimização de linha de assunto entregabilidade de email envolvimento de subscritores',
-      'sequências automatizadas campanha de reativação higiene da lista reputação do remetente',
-      'calendário de conteúdo analíticas de email testes A/B etiquetas de personalização',
+      'email marketing',
+      'lista',
+      'automação',
+      'sequências',
+      'lead magnet',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'renda extra',
+      'conversão',
+      'ROI',
+      'vendedor',
     ],
-    titleTag: 'Email Marketing Imprimíveis — Estratégia Vendedor',
-    metaDescription: 'Estratégias de email marketing para vendedores de imprimíveis. Construa a sua lista de subscritores, crie lead magnets, automatize sequências e gere vendas.',
+    titleTag: 'Email marketing para vendedores | LCS',
+    metaDescription:
+      'Email marketing para vendedores de imprimíveis. Lista, automação, sequências e estratégias de conversão.',
   },
 
   hero: {
-    title: 'Email Marketing para Vendedores de Produtos Imprimíveis',
+    title: 'Email marketing para vendedores de imprimíveis — guia',
     tagline: 'Um guia completo de email marketing para vendedores de imprimíveis — que abrange como escolher um fornecedor de serviços de email, criar lead magnets atrativos, construir páginas de destino de alta conversão, desenhar sequências de boas-vindas, desenvolver estratégias de conteúdo para newsletters, segmentar a sua lista de subscritores, automatizar campanhas sazonais e acompanhar métricas para a otimização contínua',
-    description: 'O email marketing é o canal mais valioso e menos utilizado pelos vendedores de imprimíveis. Enquanto os marketplaces controlam a descoberta e os algoritmos de redes sociais mudam constantemente, a sua lista de subscritores pertence-lhe — sem intermediários, sem alterações de algoritmo, sem taxas de publicidade a corroer as suas margens. Um único email para uma lista envolvida de subscritores pode gerar mais vendas numa hora do que uma semana de visibilidade orgânica num marketplace. No entanto, a maioria dos vendedores de imprimíveis nunca constrói uma lista de email porque o processo parece complexo e os resultados não são imediatos. Este guia elimina a complexidade e mostra-lhe exatamente como construir, crescer e rentabilizar uma lista de email especificamente para um negócio de imprimíveis educativos — desde escolher o fornecedor de serviços de email correto até criar lead magnets que atraem o seu comprador ideal, desenhar sequências automatizadas que geram vendas enquanto dorme, e otimizar cada email para máximo envolvimento e receita.',
+    description: 'Aprenda a usar email marketing para aumentar vendas do seu negócio de imprimíveis educativos. Este guia cobre: como construir uma lista de emails, criar lead magnets com atividades grátis (com marca d\'água), montar sequências de automação, escrever emails que convertem e integrar com Hotmart, Kiwify e Etsy. O email marketing é o canal com maior ROI no marketing digital — e para vendedores de imprimíveis, a combinação de conteúdo grátis como isca e produtos pagos é extremamente eficaz. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Os vendedores de imprimíveis que dependem exclusivamente de marketplaces para as suas vendas estão construindo sobre areia. O Etsy pode alterar o seu algoritmo de pesquisa da noite para o dia, o Amazon KDP pode mudar as suas políticas de visibilidade, e qualquer plataforma pode aumentar as suas taxas ou restringir o alcance orgânico. Os vendedores que possuem uma lista de email possuem um canal de vendas direto que nenhuma plataforma pode retirar. Cada subscritor da sua lista é uma pessoa que demonstrou interesse nos seus produtos — e que lhe deu permissão explícita para lhe enviar mensagens diretamente na sua caixa de correio.\n\nO poder do email marketing para vendedores de imprimíveis vai além da simples promoção de produtos. Uma lista de subscritores bem construída permite-lhe lançar novos produtos com vendas imediatas em vez de esperar semanas pela visibilidade orgânica do marketplace. Permite-lhe testar conceitos de produtos pedindo feedback antes de investir tempo na criação. Permite-lhe construir relações genuínas com os seus compradores partilhando dicas de ensino, ideias de atividades e conteúdo de valor que os mantém envolvidos entre compras. E, criticamente, permite-lhe diversificar as suas fontes de receita — porque quando pode comunicar diretamente com os seus compradores, não está preso a nenhum marketplace específico.\n\nEste guia aborda cada aspecto do email marketing que é relevante para vendedores de imprimíveis. Irá aprender a escolher o fornecedor de serviços de email adequado às suas necessidades e orçamento, criar lead magnets que atraem subscritores qualificados (pessoas que realmente compram imprimíveis), construir páginas de destino que convertem visitantes em subscritores, desenhar sequências de boas-vindas que estabelecem confiança e geram primeiras vendas, desenvolver uma estratégia de conteúdo para newsletters que mantém os subscritores envolvidos a longo prazo, segmentar a sua lista para enviar ofertas relevantes a cada grupo, automatizar campanhas sazonais que geram vendas durante todo o ano, e acompanhar métricas que informam a otimização contínua.\n\nTodas as funcionalidades dos geradores descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades completas, testar todas as configurações, experimentar todos os temas de imagens e avaliar a qualidade de saída antes de adquirir uma licença comercial.',

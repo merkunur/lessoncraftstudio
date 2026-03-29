@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar pacotes de atividades que vendam',
+    primaryKeyword: 'criar pacotes de atividades que vendem',
     secondaryKeywords: [
-      'estratégia pacotes atividades exercícios',
-      'criação pacotes imprimíveis',
-      'como agrupar atividades para vender',
-      'preços pacotes atividades exercícios',
+      'estratégia de pacotes de atividades',
+      'como montar bundles educativos para vender',
+      'pacotes temáticos de imprimíveis Hotmart',
+      'bundling de atividades para Etsy e KDP',
     ],
     lsiKeywords: [
-      'tipos pacotes disciplina nível escolar tema sazonal formato mega valor percebido',
-      'empilhamento valor poupanças detalhadas bónus materiais página capa índice conteúdos',
-      'preço âncora psicologia descontos preços escalonados testes preços',
-      'produtos complementares variedade consistência evitar enchimento padrões qualidade',
-      'packaging pacote maqueta pré-visualização branding organização arquivos convenções nome',
-      'multi-plataforma anúncios pacotes estratégia universal venda multi-canal',
+      'pacotes',
+      'bundles',
+      'valor percebido',
+      'preços',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'vendedor',
     ],
-    titleTag: 'Criar pacotes de atividades que vendam — Guia',
-    metaDescription: 'Como criar pacotes de atividades que vendam em qualquer plataforma. Tipos de pacotes, psicologia de preços, empilhamento de valor e packaging profissional.',
+    titleTag: 'Criar pacotes de atividades que vendem | LCS',
+    metaDescription:
+      'Como criar pacotes de atividades que vendem. Estratégias de bundling, organização temática e preços para maximizar vendas.',
   },
 
   hero: {
-    title: 'Como criar pacotes de atividades de exercícios que vendam',
+    title: 'Como criar pacotes de atividades que realmente vendem',
     tagline: 'Um guia completo para criar pacotes de atividades de alto valor que aumentem as receitas por transação em qualquer plataforma de venda — abrangendo tipos e estruturas de pacotes, seleção de produtos para combinações atrativas, empilhamento de valor e psicologia do valor percebido, packaging e apresentação profissional de pacotes, estratégias de preço âncora e descontos, otimização de anúncios independente de plataforma e acompanhamento do desempenho para melhoria contínua',
-    description: 'Agrupar atividades em pacotes é a forma mais eficaz de aumentar o valor médio por encomenda sem criar conteúdo novo. Um pacote bem estruturado transforma produtos individuais de 8 a 12 € cada num conjunto de 35 a 65 € que os compradores consideram um melhor negócio — mesmo que gere receitas significativamente superiores por transação. Este guia abrange estratégias de pacotes universais que funcionam no Hotmart, Etsy, Amazon KDP, Hotmart, Creative Fabrica e qualquer outra plataforma onde venda atividades imprimíveis.',
+    description: 'Aprenda a criar pacotes de atividades que multiplicam suas vendas na Hotmart, Kiwify, Etsy e Amazon KDP. Pacotes são a estratégia mais eficaz para aumentar o valor médio por pedido — compradores preferem pacotes completos a atividades individuais. Este guia cobre: como agrupar por tema, série escolar e tipo de atividade, precificar para máxima atratividade, criar descrições que convertem e usar pacotes como funil de vendas. Com o LessonCraftStudio, você tem 33 geradores e 104 temas para criar material ilimitado. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Vender atividades individuais coloca um limite rígido nas receitas por cliente. Um comprador visita a sua loja, compra um produto de 10 € e sai. Mesmo que as suas atividades sejam excecionais, a maioria dos compradores de um único produto nunca volta. Os pacotes quebram este padrão ao oferecer mais valor por compra enquanto aumentam drasticamente os seus ganhos por transação.\n\nA psicologia por detrás da compra de pacotes está bem documentada: os compradores percebem produtos agrupados como tendo maior valor do que a soma das suas partes, particularmente quando o pacote oferece um desconto claro face à compra individual. Um pai à procura de atividades de prática de matemática vê um pacote individual de 20 páginas de adição por 10 € ou um pacote completo de matemática do primeiro ano com 100 páginas cobrindo adição, subtração, sentido numérico e problemas escritos por 32 €. O pacote custa mais, mas o valor por página e a conveniência de uma solução completa tornam-no a escolha óbvia para a maioria dos compradores.\n\nOs pacotes também resolvem um problema crítico do negócio: o custo de aquisição de clientes. Quer pague publicidade, invista tempo em SEO ou construa uma presença nas redes sociais, cada visitante da sua loja representa esforço e por vezes custo direto. Um pacote converte esse mesmo visitante num comprador de 35 € em vez de 10 €, triplicando o retorno sobre cada euro e hora investidos em marketing. Com o tempo, isto compõe-se dramaticamente — vendedores que enfatizam pacotes reportam consistentemente que os pacotes representam 40% a 60% das receitas totais apesar de serem uma fração pequena do total de anúncios.\n\nEste guia abrange estratégia de pacotes independente de plataforma: o que agrupar, como estruturar pacotes para máximo valor percebido, psicologia de preços que impulsiona maior conversão, e packaging profissional que gera confiança no comprador. Os princípios funcionam identicamente quer venda no Hotmart, Etsy, Amazon KDP, Hotmart, Creative Fabrica ou no seu próprio website. Para táticas específicas de anúncios por plataforma, consulte os guias dedicados de plataforma referenciados ao longo deste guia.',

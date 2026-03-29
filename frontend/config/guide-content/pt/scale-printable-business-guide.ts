@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'escalar negócio imprimíveis',
+    primaryKeyword: 'escalar seu negócio de imprimíveis',
     secondaryKeywords: [
-      'como escalar um negócio de imprimíveis',
-      'fazer crescer negócio de atividades imprimíveis',
-      'estratégia de crescimento negócio imprimíveis',
-      'escalar vendas de imprimíveis educativos',
+      'como crescer negócio de imprimíveis',
+      'escalar vendas de atividades educativas',
+      'de renda extra a negócio de imprimíveis',
+      'automação para vendedores de imprimíveis',
     ],
     lsiKeywords: [
-      'crescimento empresarial receitas escalabilidade automatização subcontratação expansão catálogo produtos',
-      'venda multiplataforma otimização fluxo trabalho produção em lote pensamento sistémico',
-      'gestão do tempo delegação diversificação produtos expansão mercado construção marca',
-      'valor vitalício cliente eficiência operacional documentação processos procedimentos operacionais padrão',
-      'crescimento catálogo receita por produto diversificação plataformas estrangulamento escalabilidade',
-      'sistemas empresariais processos repetíveis pipeline produção multiplicação conteúdo',
+      'escalar',
+      'crescimento',
+      'automação',
+      'catálogo',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'negócio',
+      'marketing',
+      'Brasil',
     ],
-    titleTag: 'Escalar negócio imprimíveis — Guia crescimento',
-    metaDescription: 'Como escalar o seu negócio de imprimíveis com produção em lote, expansão multiplataforma, crescimento do catálogo, mercados multilingues e automatização.',
+    titleTag: 'Escalar negócio de imprimíveis — guia | LCS',
+    metaDescription:
+      'Como escalar seu negócio de imprimíveis. De renda extra a negócio em tempo integral. Automação, catálogo e marketing.',
   },
 
   hero: {
-    title: 'Como escalar o seu negócio de imprimíveis',
+    title: 'Como escalar seu negócio de imprimíveis educativos',
     tagline: 'Um guia completo para escalar o seu negócio de imprimíveis para além das receitas de projeto secundário — abrangendo avaliação de prontidão para escalar e identificação de estrangulamentos, sistemas de produção em lote para uma produção consistente, estratégia de expansão multiplataforma, crescimento do catálogo através de extensões de linha de produtos, expansão para mercados multilingues, automatização de tarefas repetitivas e métricas de crescimento que impulsionam decisões estratégicas',
-    description: 'A diferença entre um projeto secundário de imprimíveis e um negócio de imprimíveis escalável não é o talento, a sorte ou trabalhar mais arduamente. São os sistemas. Cada vendedor que passou de um punhado de produtos com vendas esporádicas para um catálogo que gera receitas mensais consistentes conseguiu-o substituindo o esforço manual por processos repetíveis, expandindo-se estrategicamente por plataformas e mercados, e construindo um pipeline de produção que multiplica a produção sem multiplicar as horas de trabalho. Este guia conduz-o pelo enquadramento completo de escalabilidade — desde reconhecer quando o seu negócio está pronto para escalar, até construir os sistemas que tornam o crescimento sustentável.',
+    description: 'Aprenda a escalar seu negócio de imprimíveis de renda extra para renda principal na Hotmart, Kiwify, Etsy e Amazon KDP. Este guia cobre: como expandir seu catálogo sistematicamente, automatizar processos repetitivos, diversificar plataformas para reduzir risco, usar marketing orgânico e pago, e quando fazer a transição de renda extra para negócio em tempo integral. O mercado brasileiro de infoprodutos educativos é gigante e cresce a dois dígitos anualmente. Com o LessonCraftStudio, produção rápida permite escalamento acelerado. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A maioria dos vendedores de imprimíveis chega a um patamar. Os primeiros 5 a 10 produtos surgem pelo puro esforço e entusiasmo. As vendas chegam a conta-gotas, talvez algumas centenas de euros por mês, e o negócio parece promissor. Depois o progresso estagna. Criar cada novo produto demora o mesmo tempo que o primeiro. Listar numa nova plataforma significa começar do zero. O marketing consome horas sem um retorno claro. O vendedor trabalha mais arduamente, mas a receita fica estagnada e, eventualmente, o negócio começa a parecer mais um passatempo exigente do que uma empresa em crescimento.\n\nEste patamar não é uma falha do vendedor — é uma falha de abordagem. Escalar um negócio de imprimíveis requer uma estratégia fundamentalmente diferente de iniciar um. Iniciar trata de criar produtos individuais e publicá-los. Escalar trata de construir sistemas que multipliquem a sua produção, expandir-se para novos mercados e plataformas de forma estratégica, e automatizar as tarefas repetitivas que consomem as suas horas produtivas sem gerar novas receitas.\n\nOs vendedores que superam o patamar partilham características comuns. Produzem em lote em vez de criar produtos um de cada vez. Expandem para múltiplas plataformas de venda em vez de depender de um único mercado. Constroem linhas de produtos que aproveitam o trabalho existente em vez de começar do zero com cada novo produto. Utilizam ferramentas que reduzem drasticamente o tempo de produção por produto, libertando horas para trabalho estratégico como investigação de mercado e otimização de plataformas. E acompanham métricas que lhes dizem onde investir o tempo disponível para o máximo retorno.\n\nEscalar não significa trabalhar mais horas. Na verdade, os negócios de imprimíveis mais bem escalados exigem frequentemente menos horas por semana do que durante a fase de arranque — a diferença é que cada hora gasta produz substancialmente mais resultados e receitas. Um vendedor que cria um pacote de atividades em três horas usando métodos manuais ganha a mesma taxa por hora quer trabalhe 10 horas por semana quer trabalhe 40. Um vendedor que usa geradores de atividades para produzir a mesma qualidade de produção em 20 minutos por pacote, gastando o tempo restante na expansão estratégica do catálogo e na publicação multiplataforma, ganha dramaticamente mais por hora porque os seus sistemas multiplicam o valor do seu tempo.\n\nEste guia não trata de atalhos. Trata de construir a base operacional que transforma um projeto secundário de imprimíveis numa empresa que cresce sistematicamente — adicionando produtos, plataformas, idiomas e fluxos de receita de formas que se compõem ao longo do tempo em vez de exigirem um esforço proporcionalmente maior para cada incremento de crescimento.',

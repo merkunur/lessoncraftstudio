@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing redes sociais imprimíveis',
+    primaryKeyword: 'redes sociais para vendedores de imprimíveis',
     secondaryKeywords: [
-      'redes sociais para vendedores de imprimíveis',
-      'promover imprimíveis nas redes sociais',
-      'estratégia social negócio imprimíveis',
-      'comercializar atividades de exercícios online',
+      'marketing redes sociais imprimíveis',
+      'Instagram para vendedor de atividades',
+      'Pinterest para negócio de imprimíveis',
+      'TikTok para vendedores educativos',
     ],
     lsiKeywords: [
-      'marketing de conteúdo promoção de produtos marketing visual estratégia de plataformas',
-      'construção de audiência envolvimento notoriedade de marca apresentação de produtos',
-      'alcance orgânico calendário de conteúdo conteúdo visual produtos partilháveis',
-      'fotografia de produtos prova social comunidade crescimento de seguidores',
-      'marketing no Instagram estratégia Pinterest grupos Facebook promoção de vendedor',
-      'estratégia de hashtags calendário de publicações taxa de envolvimento otimização de perfil',
+      'redes sociais',
+      'Instagram',
+      'Pinterest',
+      'TikTok',
+      'marketing',
+      'orgânico',
+      'hashtags',
+      'Hotmart',
+      'Etsy',
+      'renda extra',
+      'negócio',
+      'conteúdo',
     ],
-    titleTag: 'Marketing Redes Sociais Imprimíveis — Guia Vendedor',
-    metaDescription: 'Estratégias de marketing nas redes sociais para imprimíveis: seleção de plataformas, conteúdo visual, construção de audiência e envolvimento que gera.',
+    titleTag: 'Redes sociais para vendedores | LCS',
+    metaDescription:
+      'Marketing em redes sociais para vendedores de imprimíveis. Instagram, Pinterest, TikTok e estratégias orgânicas.',
   },
 
   hero: {
-    title: 'Marketing nas Redes Sociais para Vendedores de Imprimíveis',
+    title: 'Redes sociais para vendedores de imprimíveis — guia',
     tagline: 'Um guia completo de marketing nas redes sociais para imprimíveis — que abrange como escolher as plataformas certas, criar conteúdo visual atrativo, equilibrar promoção com valor, alinhar publicações com as épocas de venda, otimizar perfis para descoberta, usar hashtags estrategicamente, construir envolvimento comunitário autêntico e acompanhar resultados para aperfeiçoar a sua estratégia',
-    description: 'Os produtos imprimíveis são inerentemente visuais, o que torna as redes sociais um dos canais de marketing mais naturais e eficazes para vendedores de atividades. Uma fotografia bem tirada de atividades dispostas, um vídeo curto a mostrar um gerador a produzir um pacote de atividades temático, ou um carrossel de páginas para colorir coloridas pode parar um pai ou vendedor a rolar o tela e enviá-lo diretamente para a sua loja. Este guia fornece um quadro completo de marketing nas redes sociais desenhado especificamente para vendedores de imprimíveis — desde a seleção de plataformas e criação de conteúdo até à construção de audiência e acompanhamento de desempenho.',
+    description: 'Domine o marketing em redes sociais para seu negócio de imprimíveis educativos. Este guia cobre: quais plataformas funcionam melhor para imprimíveis (Instagram, Pinterest, TikTok), como criar conteúdo que atrai compradores, estratégias de hashtags por plataforma, frequência ideal de publicação e como converter seguidores em clientes na Hotmart, Etsy e KDP. As redes sociais são o canal de marketing mais acessível para vendedores iniciantes — investimento zero com potencial de alcance orgânico enorme. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A maioria dos vendedores de imprimíveis sabe que deveria usar as redes sociais para promover os seus produtos, mas poucos têm uma estratégia estruturada que gere tráfego e vendas de forma consistente. Publicam esporadicamente quando se lembram, partilham ligações de produtos sem contexto, e perguntam-se porque é que o número de seguidores se mantém estagnado e o tráfego para a loja proveniente das redes sociais permanece insignificante. O problema não é que as redes sociais não funcionam para negócios de imprimíveis — é que a maioria dos vendedores as aborda sem um plano, sem compreender que tipo de conteúdo tem melhor desempenho em cada plataforma, e sem a consistência que os algoritmos exigem para recompensar as contas com visibilidade.\n\nO marketing nas redes sociais para vendedores de imprimíveis tem uma vantagem intrínseca significativa que muitas outras categorias de produtos digitais não possuem: os imprimíveis são inerentemente fotogénicos. Uma atividade de matemática com ilustrações de animais, um cartão de bingo colorido, uma sopa de letras temática, ou uma página para colorir ilustrada cria conteúdo visualmente atrativo que tem um desempenho natural nas plataformas orientadas para imagens. Não está tentando tornar um serviço digital abstrato interessante — está apresentando produtos tangíveis, coloridos e visualmente envolventes que fotografam belamente e atraem envolvimento orgânico de vendedores, pais e entusiastas de conteúdo educativo.\n\nO desafio para os vendedores de imprimíveis não é criar conteúdo atrativo — é desenvolver uma estratégia sustentável que equilibre a promoção de produtos com conteúdo de valor, alinhe os calendários de publicação com os ciclos de procura sazonal, e converta seguidores ocasionais em clientes pagantes. Um vendedor que publica apenas ligações de produtos terá dificuldade em construir uma audiência. Um vendedor que publica apenas dicas educativas sem nunca apresentar produtos irá construir seguidores que nunca visitam a sua loja. A abordagem eficaz combina ambos: conteúdo de valor que constrói a audiência e estabelece expertise, combinado com apresentação estratégica de produtos que converte essa audiência em compradores.\n\nA seleção de plataformas é muito importante para os vendedores de imprimíveis, porque nem todas as plataformas sociais servem igualmente bem esta categoria de produtos. O Instagram e o Pinterest são os canais mais fortes porque são plataformas que privilegiam as imagens, onde pré-visualizações de atividades, fotografias planas e maquetes de produtos se apresentam naturalmente nos feeds dos usuários. Os grupos do Facebook oferecem oportunidades de venda baseadas na comunidade, onde o envolvimento direto com vendedores e pais leva à descoberta de produtos. Outras plataformas podem ter bases de usuários grandes mas carecem do formato visual ou da demografia de audiência que se alinha com os compradores de imprimíveis educativos.\n\nEste guia percorre um quadro completo de marketing nas redes sociais adaptado a negócios de imprimíveis. Cada passo aborda um aspecto específico da estratégia de redes sociais, desde a escolha das plataformas e criação de conteúdo convincente até à construção de sistemas de envolvimento e acompanhamento do desempenho. O objetivo é uma presença sustentável e gerível nas redes sociais que gere consistentemente tráfego qualificado para a sua loja — não uma obrigação morosa que o afasta da criação de produtos sem retorno mensurável.',

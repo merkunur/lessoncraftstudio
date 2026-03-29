@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seleção de nicho para negócios de imprimíveis',
+    primaryKeyword: 'escolher nicho para negócio de imprimíveis 2026',
     secondaryKeywords: [
-      'pesquisa de nichos imprimíveis',
-      'nichos rentáveis de imprimíveis',
-      'como escolher um nicho de imprimíveis',
-      'estratégia de nicho atividades de exercícios',
+      'pesquisa de nicho imprimíveis 2026',
+      'nichos lucrativos imprimíveis Brasil',
+      'como validar nicho de imprimíveis',
+      'nicho de atividades educativas para vender',
     ],
     lsiKeywords: [
-      'procura mercado rentabilidade nicho público-alvo validação nicho',
-      'nichos perenes nichos sazonais mercados pouco explorados análise concorrência',
-      'expansão nicho nichos adjacentes expansão nível escolar expansão disciplina',
-      'necessidades audiência perfil comprador segmentos clientes posicionamento nicho',
-      'empilhamento nichos estratégia multi-nicho profundidade nicho ajuste produto-mercado',
-      'procura palavras-chave volume pesquisa tendências marketplace sinais intenção compra',
+      'nicho',
+      'demanda',
+      'competição',
+      'validação',
+      'pesquisa',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      '2026',
+      'Brasil',
     ],
-    titleTag: 'Seleção de nicho para negócios de imprimíveis — Guia',
-    metaDescription: 'Seleção de nicho para negócios de imprimíveis: pesquisar procura, analisar concorrência, avaliar rentabilidade, validar antes de se comprometer e expandir.',
+    titleTag: 'Escolher nicho de imprimíveis (2026) | LCS',
+    metaDescription:
+      'Como escolher o nicho certo para seu negócio de imprimíveis em 2026. Análise de demanda, competição e oportunidades.',
   },
 
   hero: {
-    title: 'Guia de seleção de nicho para negócios de imprimíveis',
+    title: 'Como escolher o nicho certo para imprimíveis em 2026',
     tagline: 'Um enquadramento completo para escolher, validar e planear em torno do nicho certo para o seu negócio de imprimíveis — abrangendo por que a seleção de nicho determina o sucesso, identificar as suas vantagens iniciais, pesquisar a procura do mercado, analisar a concorrência, avaliar a rentabilidade, validar antes de se comprometer, escolher entre nichos perenes e sazonais, e planear a sua estratégia de expansão',
-    description: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo. Este guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Hotmart, Etsy, Amazon KDP, Hotmart ou qualquer outra plataforma.',
+    description: 'Aprenda a escolher o nicho certo para seu negócio de imprimíveis em 2026. A escolha do nicho é a decisão mais importante — um bom nicho tem alta demanda e baixa competição. Este guia cobre: como pesquisar demanda no Google, Etsy e Hotmart, analisar competição, identificar nichos sazonais vs. perenes, validar antes de investir e nichos específicos para o mercado brasileiro em português. O mercado de imprimíveis educativos em português está em fase de crescimento acelerado com oportunidades enormes. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo.\n\nEste guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Hotmart, Etsy, Amazon KDP, Hotmart ou qualquer outra plataforma. Vai aprender a identificar as suas vantagens iniciais, pesquisar a procura do mercado, analisar a concorrência, avaliar a rentabilidade, validar antes de se comprometer e planear a sua estratégia de expansão.\n\nTodas as ferramentas mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de exemplo para múltiplos nichos, testar diferentes tipos de produtos e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

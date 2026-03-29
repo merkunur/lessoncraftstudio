@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar linha de produtos imprimíveis',
+    primaryKeyword: 'criar uma linha de produtos imprimíveis',
     secondaryKeywords: [
-      'estratégia linha produtos imprimíveis',
-      'construir linha atividades exercícios',
-      'como criar catálogo imprimíveis',
-      'linha produtos negócio imprimíveis',
+      'estratégia de catálogo imprimíveis',
+      'linha de produtos educativos para vender',
+      'como escalar catálogo de atividades',
+      'criar portfólio de imprimíveis',
     ],
     lsiKeywords: [
-      'catálogo produtos consistência produtos coesão marca progressão produtos estratégia catálogo',
-      'roteiro produtos modelos produtos branding visual convenções nomenclatura profundidade catálogo',
-      'série produtos linguagem design padrões layout reconhecimento marca identidade loja',
-      'expansão sistemática extensão níveis escolares variação formatos consistência temas grelha produtos',
-      'vendas cruzadas navegação catálogo organização loja sequenciação produtos cobertura mercado',
-      'identidade visual hierarquia produtos produtos complementares ecossistema produtos coesão linha',
+      'linha de produtos',
+      'catálogo',
+      'variações',
+      'escalamento',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'temas',
     ],
-    titleTag: 'Criar linha de produtos imprimíveis — Guia',
-    metaDescription: 'Crie uma linha de produtos imprimíveis com branding consistente, sequenciação estratégica e expansão sistemática para um catálogo profissional e vendedor.',
+    titleTag: 'Criar linha de produtos imprimíveis | LCS',
+    metaDescription:
+      'Como criar uma linha completa de produtos imprimíveis. Estratégia de catálogo, variações e escalamento.',
   },
 
   hero: {
-    title: 'Como criar uma linha de produtos imprimíveis',
+    title: 'Como criar uma linha de produtos imprimíveis completa',
     tagline: 'Um guia completo para construir uma linha coesa de produtos imprimíveis que impulsiona o reconhecimento de marca e as compras recorrentes — abrangendo identidade e estrutura da linha, consistência visual no seu catálogo, convenções de nomenclatura que constroem reconhecimento, sequenciação estratégica de produtos, organização do catálogo para navegação fácil e métodos de expansão sistemática para crescimento a longo prazo',
-    description: 'Uma linha de produtos transforma uma coleção aleatória de atividades imprimíveis numa marca reconhecível à qual os compradores regressam vezes sem conta. Em vez de criar produtos isolados que competem com milhares de listagens similares, uma linha de produtos coesa constrói profundidade de catálogo, consistência visual e confiança do comprador que se acumula com o tempo. Este guia abrange o enquadramento completo para planear, construir e expandir uma linha de produtos imprimíveis que funciona no Hotmart, Etsy, Amazon KDP, Hotmart, Creative Fabrica e qualquer outra plataforma onde venda recursos educativos.',
+    description: 'Aprenda a criar uma linha completa de produtos imprimíveis que gera vendas recorrentes na Hotmart, Kiwify, Etsy e Amazon KDP. Em vez de criar produtos avulsos, construa um catálogo estratégico com variações temáticas, progressão de dificuldade e pacotes escalonados. Este guia cobre: como planejar seu catálogo, criar variações sistemáticas a partir de cada gerador, usar temas sazonais para vendas previsíveis e escalar de uma linha para múltiplas. Com o LessonCraftStudio, 33 geradores e 104 temas permitem catálogos com centenas de produtos. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A maioria dos vendedores de imprimíveis começa da mesma forma: criam uma atividade de exercícios, publicam-na, depois criam outra atividade não relacionada e também a publicam. Com o passar dos meses, a sua loja acumula dezenas de produtos com diferentes estilos visuais, nomenclatura inconsistente e nenhuma relação lógica entre eles. Cada produto mantém-se sozinho, competindo individualmente contra milhares de listagens similares. Cada lançamento de produto novo parte do zero porque nada no catálogo reforça nada mais.\n\nUma linha de produtos adota a abordagem oposta. Cada produto que cria encaixa numa estrutura deliberada — unificado por design visual, conectado através de nomenclatura consistente, organizado por categorias claras e sequenciado para construir sobre o anterior. Quando um comprador descobre um produto na sua linha e gosta da qualidade, pode ver imediatamente dez produtos mais que correspondem ao mesmo padrão, cobrem temas relacionados e parecem pertencer juntos. Essa consistência visual e estrutural é o que converte compradores únicos em clientes recorrentes.\n\nO impacto comercial de uma linha de produtos face a um catálogo aleatório é substancial. Os vendedores com linhas de produtos coesas reportam valores médios de encomenda mais elevados porque os compradores adquirem múltiplos produtos relacionados numa única sessão. Veem um desempenho orgânico de pesquisa mais forte porque os títulos e descrições de produtos reforçam-se mutuamente com padrões de palavras-chave consistentes. Experimentam custos de aquisição de clientes mais baixos porque cada comprador satisfeito regressa por produtos adicionais sem despesa de marketing adicional. E constroem um reconhecimento de marca genuíno — os compradores aprendem a procurar especificamente os seus produtos em vez de navegar resultados de pesquisa genéricos.\n\nEste guia abrange o enquadramento completo para construir uma linha de produtos imprimíveis do zero: definir a identidade da sua linha, planear a sua estrutura, estabelecer consistência visual, criar convenções de nomenclatura, sequenciar produtos estrategicamente, organizar o seu catálogo para navegação e expandir sistematicamente com o tempo. Os princípios aplicam-se quer venda numa única plataforma ou em múltiplos marketplaces. Para táticas de listagem específicas de cada plataforma, consulte os guias dedicados ligados ao longo deste guia.',

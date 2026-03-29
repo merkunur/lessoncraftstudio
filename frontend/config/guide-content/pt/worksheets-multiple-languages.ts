@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades em vários idiomas',
+    primaryKeyword: 'criar atividades em vários idiomas para vender',
     secondaryKeywords: [
-      'criação atividades multilingues',
-      'traduzir atividades para vender',
-      'produção imprimíveis vários idiomas',
-      'design atividades internacionais',
+      'atividades multilíngues para Etsy',
+      'criar imprimíveis em 11 idiomas',
+      'como vender atividades em português e inglês',
+      'vantagem multilíngue vendedor imprimíveis',
     ],
     lsiKeywords: [
-      'formato específico conjuntos caracteres sinais diacríticos seleção fontes para idiomas',
-      'tremas alemães acentos franceses caracteres espanhóis caracteres acentuados caracteres especiais',
-      'fluxo produção multilingue tradução em lote revisão falante nativo controlo qualidade',
-      'texto anúncio localizado fluxo imprimíveis internacional ferramentas conteúdo vários idiomas',
-      'design RTL variação comprimento texto palavras compostas adaptação cultural localização atividades',
-      'produção em lote geração conteúdo vários idiomas ferramentas tradução automatizada bases vocabulário',
+      'vários idiomas',
+      '11 idiomas',
+      'caracteres nativos',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'português',
+      'inglês',
+      'mercados globais',
+      'licença comercial',
+      'vendedor',
     ],
-    titleTag: 'Criar atividades em vários idiomas — Guia prático',
-    metaDescription: 'Como criar atividades em vários idiomas: fluxos de produção, gestão de caracteres, seleção de fontes, controlo de qualidade e adaptação de anúncios para vender.',
+    titleTag: 'Atividades em vários idiomas para vender | LCS',
+    metaDescription:
+      'Como criar atividades em vários idiomas para vender. 11 idiomas nativos, caracteres autênticos e mercados globais.',
   },
 
   hero: {
-    title: 'Como criar atividades de exercícios em vários idiomas',
+    title: 'Criar atividades em vários idiomas para vender online',
     tagline: 'Um guia prático para a produção de atividades multilingues — cobrindo como escolher tipos de atividades adequados para cada idioma, configurar um espaço de trabalho multilingue, lidar com caracteres especiais e fontes, adaptar conteúdo de forma natural para cada mercado, implementar controlo de qualidade de traduções, utilizar ferramentas automatizadas multilingues, criar fluxos de produção em lote eficientes e otimizar anúncios em plataformas para compradores internacionais',
-    description: 'Criar atividades de exercícios em vários idiomas não é simplesmente passar o texto por um tradutor. A produção profissional multilingue requer compreender conjuntos de caracteres, compatibilidade de fontes, variações no comprimento do texto, contexto cultural e processos de controlo de qualidade que assegurem que cada versão linguística cumpre o mesmo padrão do original. Este guia percorre a metodologia de produção completa para criar atividades com aspecto e leitura profissionais em cada idioma de destino.',
+    description: 'Aprenda a criar atividades em vários idiomas para vender na Hotmart, Kiwify, Etsy e Amazon KDP. O LessonCraftStudio suporta 11 idiomas com caracteres nativos — grades em português incluem ã, õ, ç; alemão tem ä, ö, ü; francês tem é, è, ç. Este guia cobre: como usar a funcionalidade multilíngue para criar produtos em cada idioma, quais mercados são mais lucrativos por idioma, como adaptar listagens e como multiplicar seu catálogo. Uma única atividade gera 11 produtos únicos. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A diferença entre uma atividade multilingue que vende e uma que fica esquecida num marketplace é a qualidade de produção. Os compradores em cada mercado linguístico detetam imediatamente atividades traduzidas sem cuidado ou produzidas sem atenção aos requisitos de formatação específicos do idioma. Uma atividade em alemão com tremas em falta, uma atividade em francês com acentos incorretos ou uma atividade em espanhol com fraseado estranho sinalizam qualidade amadora — e os compradores passam-nas por alto em favor de produtos que demonstrem competência linguística genuína.\n\nEsta lacuna na qualidade de produção é, na verdade, uma oportunidade. Como tantos vendedores produzem atividades multilingues de forma deficiente, a fasquia para se destacar é surpreendentemente alcançável. Não precisa de ser falante nativo em cada idioma para produzir atividades de qualidade profissional. O que precisa é de uma metodologia de produção sistemática que aborde os desafios técnicos e linguísticos específicos de cada idioma-alvo, combinada com ferramentas e processos que detetem erros antes de os seus produtos chegarem aos compradores.\n\nOs desafios práticos da produção de atividades multilingues dividem-se em várias categorias. Primeiro, há os requisitos de conjuntos de caracteres — diferentes idiomas utilizam diferentes alfabetos, sinais diacríticos e caracteres especiais que devem ser renderizados corretamente nas fontes escolhidas. Segundo, há desafios de formatação — as palavras compostas alemãs são significativamente mais longas do que os equivalentes em inglês, o que afeta o dimensionamento de caixas de texto e a disposição. Terceiro, há questões de qualidade linguística — traduções diretas frequentemente produzem fraseado estranho que os falantes nativos notam de imediato. E quarto, há desafios de marketplace — cada mercado linguístico tem os seus próprios termos de pesquisa, expetativas dos compradores e convenções de anúncio.\n\nEste guia aborda cada um destes desafios com fluxos de trabalho de produção específicos e acionáveis. Aprenderá como selecionar tipos de atividades que correspondam às suas capacidades linguísticas, configurar um espaço de trabalho multilingue organizado, lidar com os conjuntos de caracteres e fontes exigidos por cada idioma, adaptar conteúdo para que soe natural em vez de traduzido, implementar processos de controlo de qualidade que detetem erros antes da publicação, aproveitar ferramentas que gerem conteúdo multilingue automaticamente, construir sistemas de produção em lote eficientes e criar anúncios de marketplace que ressoem junto dos compradores em cada mercado linguístico. O objetivo é um sistema de produção repetível que lhe permita criar consistentemente atividades de qualidade profissional em qualquer idioma de destino.',

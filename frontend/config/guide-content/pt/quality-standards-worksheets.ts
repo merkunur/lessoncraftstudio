@@ -2,28 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'padrões de qualidade para atividades',
+    primaryKeyword: 'padrões de qualidade para atividades vendáveis',
     secondaryKeywords: [
-      'lista verificação qualidade imprimíveis',
-      'padrões design profissional atividades exercícios',
-      'controlo qualidade atividades exercícios venda',
-      'formatação atividades exercícios prontas para imprimir',
+      'qualidade para imprimíveis que vendem',
+      'padrões profissionais atividades Etsy',
+      'resolução e formato para imprimíveis',
+      'checklist qualidade atividades educativas',
     ],
     lsiKeywords: [
-      'qualidade impressão resolução DPI definições margem alinhamento fonte legibilidade',
-      'consistência cor formatação PDF design página precisão grelha respostas',
-      'fluxo revisão expectativas cliente produção profissional formato arquivo',
-      'definições sangramento compatibilidade tamanho papel consistência visual padrões marca',
-      'avaliações críticas confiança comprador lista verificação produção garantia qualidade',
+      'qualidade',
+      'resolução',
+      '300 DPI',
+      'layout',
+      'gabarito',
+      'profissional',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'avaliações',
+      'padrões',
+      'vendedor',
     ],
-    titleTag: 'Padrões de Qualidade para Atividades — Lista de Verificação',
-    metaDescription: 'Padrões de qualidade que os vendedores de atividades de exercícios precisam para resultados profissionais. Resolução, margens, tipografia, grelhas de respostas.',
+    titleTag: 'Qualidade para atividades que vendem | LCS',
+    metaDescription:
+      'Padrões de qualidade para atividades que vendem. Resolução, layout, gabarito e o que compradores esperam.',
   },
 
   hero: {
-    title: 'Padrões de Qualidade para Atividades de Exercícios',
+    title: 'Padrões de qualidade para atividades que realmente vendem',
     tagline: 'Um guia completo sobre os padrões de qualidade que os vendedores de atividades precisam para resultados profissionais — abrangendo padrões de resolução e formato de arquivo, requisitos de design de página e margens, regras de tipografia e legibilidade, consistência de cor e visual, verificação de grelhas de respostas, listas de verificação de controlo de qualidade pré-publicação, testes de impressão em diferentes dispositivos e manutenção de qualidade em todo o catálogo',
-    description: 'A qualidade é o único fator que separa os vendedores de atividades de exercícios que constroem negócios sustentáveis daqueles que lutam com avaliações negativas, pedidos de reembolso e vendas em declínio. Uma atividade que parece profissional no tela mas imprime com margens cortadas, texto desfocado ou elementos desalinhados cria uma experiência negativa para o comprador que prejudica permanentemente a reputação da sua loja. Este guia fornece uma lista de verificação completa de padrões de qualidade concebida especificamente para vendedores de atividades de exercícios imprimíveis — desde padrões de resolução e formatação até tipografia, precisão de grelhas de respostas, testes de impressão e manutenção da qualidade à medida que o catálogo cresce.',
+    description: 'Aprenda os padrões de qualidade que separam atividades que vendem das que ficam paradas. Este guia cobre: resolução mínima (300 DPI), formatos de página corretos, layout profissional, inclusão de gabaritos, campos de nome e data, instruções claras e o que compradores na Hotmart, Etsy e KDP realmente esperam. Produtos de alta qualidade recebem melhores avaliações, geram vendas recorrentes e justificam preços premium. Com o LessonCraftStudio, suas atividades já saem em 300+ DPI com gabarito automático e layout profissional. Teste grátis com marca d\'água.',
   },
 
   introduction: 'Cada atividade de exercícios imprimível que um comprador baixa representa uma promessa: que o produto será impresso corretamente, terá aparência profissional, funcionará conforme descrito e entregará o valor educativo mostrado nas imagens do anúncio. Quando essa promessa é cumprida de forma consistente, os compradores deixam avaliações positivas, recomendam o vendedor a colegas, voltam para compras repetidas e pagam preços premium com satisfação. Quando a qualidade fica aquém, as consequências acumulam-se rapidamente. Uma única atividade com margens desalinhadas ou uma grelha de respostas incorreta gera uma avaliação negativa visível para cada futuro comprador potencial. Essa avaliação reduz as taxas de conversão em todos os seus anúncios, não apenas no produto problemático, porque os compradores avaliam a fiabilidade do vendedor com base nas críticas gerais da loja.\n\nO desafio para os vendedores de imprimíveis é que as falhas de qualidade passam frequentemente despercebidas durante o processo de criação. Uma atividade que é apresentada na perfeição num monitor de alta resolução pode revelar problemas de alinhamento quando impressa em impressoras domésticas padrão. As cores que parecem vibrantes no tela podem imprimir-se como tons baços e desbotados em impressoras de jacto de tinta de consumo. Os tamanhos de fonte que parecem legíveis numa aplicação de design tornam-se forçados quando impressos em papel padrão e visualizados à distância típica de leitura. As grelhas de respostas que parecem corretas durante a criação podem conter erros que só se tornam evidentes quando um vendedor ou pai resolve os problemas com uma criança. Estes problemas de qualidade invisíveis tornam-se visíveis apenas depois de o comprador ter baixado, impresso e tentado usar o produto — momento em que o dano à sua reputação já está feito.\n\nOs vendedores profissionais de atividades de exercícios abordam esta lacuna implementando padrões de qualidade sistemáticos que detetam problemas antes de os produtos chegarem aos compradores. Em vez de depender apenas da inspeção visual, seguem listas de verificação documentadas que verificam cada dimensão de qualidade: resolução, margens, tipografia, precisão de cor, correção do conteúdo, compatibilidade de impressão e conformidade do formato de arquivo. Estes padrões não são preferências arbitrárias — são requisitos específicos e mensuráveis derivados das restrições técnicas da impressão doméstica, das necessidades de legibilidade dos diferentes grupos etários e das expectativas de formato de arquivo de cada plataforma de mercado.\n\nOs padrões de qualidade também criam eficiência à medida que o catálogo cresce. Sem padrões documentados, cada novo produto requer decisões de qualidade ad hoc: Que tamanho de fonte deve esta atividade usar? Que largura devem ter as margens? Que resolução devem ter as imagens? Com padrões estabelecidos, estas decisões já estão tomadas, permitindo focar a energia criativa no conteúdo em vez de resolver repetidamente questões técnicas. Os padrões também garantem consistência em toda a linha de produtos, o que constrói reconhecimento de marca e confiança do comprador — os clientes que compram uma atividade e a encontram profissionalmente formatada esperam a mesma qualidade de cada produto na sua loja.\n\nEste guia percorre oito categorias de padrões de qualidade que cobrem todo o processo de produção, desde a configuração inicial do arquivo até à verificação final pré-publicação. Cada secção fornece padrões específicos e mensuráveis em vez de orientações vagas, dando-lhe uma lista de verificação concreta para aplicar a cada atividade antes de a colocar à venda.',

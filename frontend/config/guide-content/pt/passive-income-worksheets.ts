@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rendimento passivo com atividades de exercícios',
+    primaryKeyword: 'renda passiva com atividades educativas 2026',
     secondaryKeywords: [
-      'negócio atividades exercícios rendimento',
-      'ganhar dinheiro vendendo atividades exercícios',
-      'atividades imprimíveis rendimento',
-      'rendimento contínuo imprimíveis educativos',
+      'renda extra com atividades educativas',
+      'ganhar dinheiro vendendo imprimíveis 2026',
+      'renda passiva Hotmart atividades',
+      'negócio de imprimíveis renda extra Brasil',
     ],
     lsiKeywords: [
-      'fluxo rendimento produto digital rendimento produtos perenes automatização vendas',
-      'canais rendimento múltiplos rendimento royalties impressão por encomenda transferência digital rendimento',
-      'ciclo vida produto rendimento longo prazo monetização catálogo conteúdo perene',
-      'vendas repetidas rendimentos compostos portfólio produtos rendimento sustentável',
-      'multiplicação rendimento efeitos catálogo descoberta orgânica vendas contínuas',
-      'modelo rendimento escalável fluxos rendimento atividades multiplataforma rendimento',
+      'renda passiva',
+      'renda extra',
+      '2026',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'KDP',
+      'Brasil',
+      'infoprodutos',
+      'imprimíveis',
+      'atividades educativas',
+      'PIX',
     ],
-    titleTag: 'Rendimento Passivo com Atividades de Exercícios — Guia',
-    metaDescription: 'Construa rendimento passivo com atividades de exercícios: catálogos perenes, distribuição multiplataforma, expansão linguística e efeitos de catálogo composto.',
+    titleTag: 'Renda passiva com atividades (2026) | LCS',
+    metaDescription:
+      'Como gerar renda passiva com atividades educativas em 2026. Hotmart, Etsy, KDP e estratégias de renda recorrente.',
   },
 
   hero: {
-    title: 'Criar rendimento passivo com atividades de exercícios',
+    title: 'Renda passiva com atividades educativas em 2026',
     tagline: 'Um guia completo para construir rendimento sustentável com atividades de exercícios — por que as atividades geram rendimento contínuo, construção de catálogos de produtos perenes, diversificação de canais de rendimento, criação de produtos com procura durante todo o ano, uso de pacotes para maior valor por transação, expansão a múltiplos idiomas, otimização para descoberta orgânica e construção de efeitos de catálogo composto',
-    description: 'O aspecto mais poderoso de um negócio de atividades de exercícios é que cada produto que cria continua a gerar rendimento muito depois de o esforço de criação ter terminado. Ao contrário dos serviços onde troca horas por dinheiro, um único pacote de atividades pode vender-se centenas ou milhares de vezes em múltiplas plataformas, idiomas e anos sem exigir tempo de produção adicional. Este guia mostra-lhe como construir um negócio de atividades concebido especificamente para rendimento recorrente e composto — onde cada novo produto reforça o potencial de ganhos de todo o seu catálogo.',
+    description: 'Descubra como gerar renda passiva com atividades educativas em 2026 usando Hotmart, Kiwify, Etsy e Amazon KDP. A cultura de "renda extra" no Brasil é uma das mais fortes do mundo — e vender atividades educativas para imprimir é uma das oportunidades mais acessíveis. Este guia cobre: por que imprimíveis educativos geram renda passiva real, quais plataformas escolher para o mercado brasileiro, como construir um catálogo que vende no piloto automático e quanto é realista ganhar. Com o LessonCraftStudio, custo de produção praticamente zero. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A maioria das pessoas que começa a vender atividades de exercícios pensa em vendas individuais de produtos. Cria um pacote de atividades, publica-o num marketplace e espera uma venda. Quando chega, celebra os 5 ou 10 euros ganhos e passa a criar o produto seguinte. Esta mentalidade produto a produto limita severamente o potencial de ganhos porque trata cada produto como uma transação isolada em vez de como um bloco de construção num sistema gerador de rendimento.\n\nOs vendedores que constroem rendimento substancial com atividades de exercícios abordam o negócio de forma diferente. Pensam em termos de sistemas de rendimento em vez de vendas individuais. Cada produto que criam é concebido para gerar rendimento repetidamente — em múltiplas plataformas, em múltiplos idiomas, agrupado com produtos complementares e descobrível através de motores de pesquisa ano após ano. Um único conceito de atividade, executado estrategicamente, pode gerar dezenas de listagens de produtos individuais, cada uma gerando rendimento de forma independente e reforçando a visibilidade das restantes.\n\nAs atividades de exercícios são especialmente adequadas para este tipo de modelo de rendimento recorrente. A procura é perene — os vendedores precisam de atividades de adição todos os anos letivos, os pais procuram atividades educativas todas as semanas e as famílias que ensinam em casa procuram continuamente novos recursos. Ao contrário dos produtos dependentes de tendências que sobem e descem, uma atividade de matemática ou uma sopa de letras bem feita continua relevante e vendável durante anos. O custo marginal de cada venda adicional é zero porque a entrega digital é feita automaticamente. E as ferramentas de criação disponíveis hoje permitem produzir atividades de qualidade profissional em minutos em vez de horas, pelo que o investimento inicial por produto é notavelmente baixo em relação ao seu potencial de ganhos ao longo do tempo.\n\nEste guia leva-o através do enquadramento completo para construir um negócio de atividades de exercícios que gere rendimento contínuo e composto. Aprenderá como criar produtos que se vendam ano após ano, distribuí-los em múltiplas plataformas para alcance máximo, multiplicar o seu catálogo através da expansão linguística e construir os efeitos de catálogo que fazem com que cada novo produto seja mais valioso do que o anterior. O objetivo não é simplesmente mais vendas — é um sistema de rendimento onde o seu catálogo trabalha para si continuamente, gerando rendimento quer esteja a criar novos produtos, a otimizar os existentes ou a tirar uma pausa merecida.\n\nA diferença entre um vendedor de atividades que ganha 200 euros por mês e um que ganha 2.000 euros por mês raramente é a qualidade do produto. Ambos podem criar atividades igualmente boas. A diferença está quase sempre em quão estrategicamente se constrói o catálogo, quão amplamente se distribuem os produtos e quão efetivamente o vendedor aproveita a natureza composta de um catálogo de produtos digitais perenes.',

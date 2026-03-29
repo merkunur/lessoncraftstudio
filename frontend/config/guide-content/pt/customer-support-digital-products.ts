@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'suporte cliente produtos digitais',
+    primaryKeyword: 'atendimento ao cliente para produtos digitais',
     secondaryKeywords: [
-      'atendimento cliente produtos digitais',
-      'suporte negócio imprimíveis',
-      'gerir reclamações clientes atividades exercícios',
-      'suporte transferências digitais',
+      'suporte ao cliente vendedor digital',
+      'como responder compradores Etsy Hotmart',
+      'atendimento ao cliente imprimíveis',
+      'templates de resposta vendedor digital',
     ],
     lsiKeywords: [
-      'gestão tickets suporte reembolso FAQ comunicação comprador modelos resposta',
-      'satisfação cliente resolução problemas transferência formato arquivo suporte instruções impressão',
-      'mensagens marketplace automatização suporte documentação proativa suporte autoatendimento',
-      'retenção cliente gestão avaliações descrições produto clareza gestão expetativas',
-      'prevenção suporte problemas frequentes tempo resolução comunicação profissional',
-      'sistemas suporte escaláveis bibliotecas modelos rastreamento padrões ciclos retroalimentação',
+      'atendimento ao cliente',
+      'suporte',
+      'avaliações',
+      'reembolso',
+      'FAQ',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'fidelização',
+      'negócio digital',
+      'vendedor',
+      'templates',
     ],
-    titleTag: 'Suporte cliente produtos digitais — Guia',
-    metaDescription: 'Estratégias de suporte ao cliente para vendedores de produtos digitais. Prevenção de problemas, modelos de resposta, gestão de reembolsos e escalabilidade.',
+    titleTag: 'Atendimento ao cliente digital — guia | LCS',
+    metaDescription:
+      'Como fazer atendimento ao cliente para produtos digitais. Templates, FAQ, avaliações e fidelização.',
   },
 
   hero: {
-    title: 'Suporte ao cliente para negócios de produtos digitais',
+    title: 'Atendimento ao cliente para produtos digitais — guia',
     tagline: 'Um guia completo para construir sistemas eficazes de suporte para o seu negócio de imprimíveis — abrangendo os problemas mais comuns de suporte em produtos digitais, prevenção de pedidos de suporte através de melhor documentação, construção de sistemas FAQ de autoatendimento, criação de modelos de resposta, gestão profissional de reembolsos, conversão do suporte em melhorias do negócio, gestão construtiva de avaliações e escalamento do suporte à medida que o seu catálogo cresce',
-    description: 'O suporte ao cliente para produtos digitais é fundamentalmente diferente do suporte para produtos físicos. Não há atrasos de envio, nem embalagens danificadas, nem problemas de tamanhos. Em vez disso, os vendedores de produtos digitais gerem problemas de transferência, confusão com formatos de arquivo, questões sobre impressão e discrepâncias nas expetativas. A boa notícia é que a maioria dos problemas de suporte em produtos digitais são preveníveis — com descrições claras do produto, perguntas frequentes abrangentes e documentação proativa, pode eliminar a maioria dos pedidos de suporte antes de acontecerem. Este guia fornece um enquadramento prático de suporte ao cliente especificamente para vendedores de imprimíveis, abrangendo estratégias de prevenção, sistemas de resposta e processos escaláveis que mantêm a qualidade à medida que o seu catálogo cresce.',
+    description: 'Aprenda a fazer atendimento ao cliente eficiente para seu negócio de produtos digitais educativos. Este guia cobre: como criar templates de resposta para perguntas frequentes, lidar com pedidos de reembolso, converter reclamações em avaliações positivas, automatizar respostas na Hotmart e Etsy, e construir relacionamento com compradores recorrentes. Um bom atendimento é o que separa vendedores amadores de profissionais — e impacta diretamente suas avaliações e vendas futuras. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O suporte ao cliente é um dos aspetos mais subestimados de gerir um negócio de produtos digitais. Muitos vendedores de imprimíveis centram-se exclusivamente na criação de produtos e no marketing, tratando o suporte como algo secundário que resolverão quando as perguntas chegarem. Esta abordagem reativa leva a respostas inconsistentes, tempo desperdiçado, compradores frustrados e avaliações negativas que poderiam ter sido prevenidas.\n\nA realidade é que o suporte ao cliente impacta diretamente em todas as métricas importantes do negócio para vendedores de produtos digitais. As avaliações são o efeito mais visível — uma única avaliação negativa por uma falha no suporte pode reduzir as vendas mais do que dezenas de avaliações positivas as aumentam. Os compradores que recebem um excelente suporte tornam-se clientes recorrentes e deixam avaliações positivas. Os compradores que lutam com problemas não resolvidos deixam avaliações negativas que persistem nas suas listagens indefinidamente. Em plataformas como Etsy e Hotmart, a sua classificação como vendedor e o seu perfil de avaliações são fatores primários tanto no posicionamento em pesquisas como na confiança do comprador.\n\nOs produtos digitais criam um conjunto específico de desafios de suporte que diferem dos produtos físicos. Os compradores não podem examinar um produto digital antes da compra da mesma forma que podem manusear um artigo físico numa loja. Dependem inteiramente das suas descrições do produto, imagens de pré-visualização e avaliações de outros compradores para estabelecer expetativas. Quando essas expetativas não correspondem ao produto real — mesmo que o produto seja excelente — gera-se uma interação de suporte. A entrega por transferência acrescenta outra camada: os compradores podem não saber como aceder aos arquivos, abrir formatos específicos ou lidar com transferências grandes. A impressão cria questões adicionais sobre tamanho do papel, configuração de cor e opções de escala que não existem para produtos físicos.\n\nA estratégia de suporte ao cliente mais eficaz para negócios de produtos digitais é a prevenção. Cada pedido de suporte que previne através de melhor documentação, descrições mais claras e orientação proativa poupa tempo que pode dedicar a criar produtos. A prevenção também melhora a experiência do comprador — um comprador que encontra respostas claras sem necessidade de o contactar está mais satisfeito do que um comprador que precisou de fazer uma pergunta e esperar por uma resposta, mesmo que essa resposta tenha sido útil e rápida.\n\nEste guia abrange um enquadramento completo de suporte ao cliente para vendedores de imprimíveis: compreensão de problemas comuns, prevenção de pedidos de suporte através de melhor documentação do produto, construção de sistemas de autoatendimento, criação de modelos de resposta para eficiência, gestão estratégica de reembolsos, utilização de dados de suporte para melhorar o seu negócio, gestão profissional de avaliações e escalamento dos seus processos de suporte à medida que o seu catálogo de produtos cresce. O objetivo é construir um sistema de suporte que aumente a satisfação do cliente enquanto diminui o tempo que dedica a interações individuais de suporte.',

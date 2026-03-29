@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'licença comercial imprimíveis',
+    primaryKeyword: 'licença comercial para vendedores de imprimíveis',
     secondaryKeywords: [
-      'licença comercial imprimíveis explicada',
-      'vender atividades legalmente',
-      'direitos comerciais produtos digitais',
-      'licenciamento para vendedores de imprimíveis',
+      'como funciona licença comercial imprimíveis',
+      'licença comercial para Etsy e Hotmart',
+      'direitos de uso comercial atividades',
+      'licença para vender imprimíveis educativos',
     ],
     lsiKeywords: [
-      'propriedade intelectual direitos de uso uso pessoal vs comercial níveis de licença',
-      'livre de royalties direitos de revenda obras derivadas sublicenciamento conformidade direitos de autor',
-      'condições de licença direitos produtos digitais licença clip art licença modelos',
-      'direitos de produção comercial contrato de licença verificação de licença sistema de conformidade',
-      'erros de licenciamento restrições de plataforma requisitos de atribuição cláusulas de exclusividade',
-      'cadastros de licença documentação de licença licenciamento multiplataforma vantagem competitiva',
+      'licença comercial',
+      'uso comercial',
+      'direitos',
+      'atribuição',
+      'royalties',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'proteção legal',
+      'vendedor',
     ],
-    titleTag: 'Licença Comercial Imprimíveis — Guia do Vendedor',
-    metaDescription: 'Compreenda as licenças comerciais para imprimíveis antes de vender. Tipos de licença, erros comuns e como o licenciamento adequado protege o seu negócio.',
+    titleTag: 'Licença comercial para vendedores | LCS',
+    metaDescription:
+      'Entenda a licença comercial para vendedores de imprimíveis. O que permite, o que proíbe e como proteger seu negócio.',
   },
 
   hero: {
-    title: 'Compreender as licenças de uso comercial',
+    title: 'Licença comercial para vendedores de imprimíveis — guia',
     tagline: 'Um guia completo sobre licenciamento comercial para vendedores de imprimíveis — abrangendo a diferença entre uso pessoal e comercial, o que requer uma licença comercial, como avaliar as condições de licença, modelos de licença comuns na indústria de imprimíveis, erros de licenciamento a evitar, como construir um sistema de conformidade, gerir licenças em múltiplas plataformas e usar o conhecimento sobre licenças como vantagem competitiva',
-    description: 'Todos os recursos que utiliza para criar produtos imprimíveis — geradores de atividades, clip art, tipos de letra, modelos e bibliotecas de imagens — vêm com condições de licença que determinam se pode legalmente vender o resultado. A maioria dos vendedores de imprimíveis ignora este passo, assumindo que comprar uma ferramenta concede automaticamente direitos comerciais. Essa suposição conduz a remoções de produtos, suspensões de conta e perda de receitas. Este guia explica como funciona o licenciamento comercial na indústria de imprimíveis, o que procurar nos contratos de licença e como construir um sistema de conformidade que protege o seu negócio à medida que cresce.',
+    description: 'Entenda tudo sobre licença comercial para vendedores de imprimíveis educativos. Este guia cobre: o que uma licença comercial permite e proíbe, diferença entre uso pessoal e comercial, como a licença do LessonCraftStudio funciona (sem atribuição, sem royalties, sem limites), como documentar suas licenças e proteger seu negócio legalmente. A licença comercial é o que permite transformar atividades geradas em produtos vendáveis na Hotmart, Kiwify, Etsy e Amazon KDP. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O licenciamento comercial é a base legal de qualquer negócio de imprimíveis, mas continua a ser um dos aspetos mais incompreendidos da venda de produtos digitais. A confusão é compreensível: as condições de licença variam drasticamente entre ferramentas, plataformas e fornecedores de recursos. Uma biblioteca de clip art concede uso comercial ilimitado com uma única compra. Outra restringe o resultado a 500 unidades. Uma terceira permite uso comercial no Etsy mas proíbe no Amazon KDP. Sem compreender estas distinções, os vendedores constroem negócios sobre terreno legal incerto sem o saberem.\n\nAs consequências dos erros de licenciamento variam do inconveniente ao devastador. No extremo mais ligeiro, um vendedor recebe um aviso de remoção para um único anúncio e remove-o. No extremo mais grave, um vendedor constrói toda uma linha de produtos com base em recursos para os quais não tem direitos comerciais, e o titular dos direitos emite avisos de remoção em todas as plataformas simultaneamente. Meses de trabalho e avaliações acumuladas desaparecem de um dia para o outro. O vendedor tem de recomeçar com recursos devidamente licenciados, tendo perdido tanto os produtos como a credibilidade no marketplace que levou meses a construir.\n\nA ironia é que o licenciamento comercial adequado não é difícil nem dispendioso. A maioria dos geradores de atividades e bibliotecas de recursos de qualidade profissional oferece opções de licença comercial claras a preços únicos razoáveis. O desafio não é o custo — é a lacuna de conhecimento. Os vendedores que compreendem o licenciamento comercial tomam decisões confiantes sobre quais ferramentas comprar, quais recursos utilizar e como documentar os seus direitos. Expandem-se para outras plataformas sem receio de remoções porque sabem exatamente o que as suas licenças permitem.\n\nEste guia aborda o licenciamento comercial na perspetiva de um vendedor de imprimíveis que está construindo um negócio real. Vai aprender a distinguir entre direitos de uso pessoal e comercial, identificar quais recursos no seu processo de produção requerem licenças comerciais, avaliar condições de licença antes de comprar ferramentas, compreender os modelos de licença mais comuns na indústria de imprimíveis, evitar os erros que apanham vendedores desprevenidos, construir um sistema de conformidade que escala com o seu negócio, gerir o licenciamento em múltiplas plataformas de venda e usar o conhecimento sobre licenciamento como uma vantagem competitiva genuína.\n\nO objetivo não é torná-lo um advogado de licenciamento — é dar-lhe o conhecimento prático para tomar decisões informadas, evitar problemas preveníveis e construir um negócio de imprimíveis sobre uma base legal sólida. Os vendedores que investem algumas horas a compreender o licenciamento protegem-se de riscos que podem inviabilizar meses de trabalho e milhares de euros em receitas potenciais.',

@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digital ou físico imprimíveis',
+    primaryKeyword: 'imprimíveis digitais vs físicos comparação',
     secondaryKeywords: [
-      'modelo negócio imprimíveis digitais',
-      'impressão a pedido ou download digital',
-      'venda produtos imprimíveis físicos',
-      'estratégia download digital imprimíveis',
+      'digital vs físico para vendedores',
+      'vender imprimíveis digitais ou impressos',
+      'comparação modelos negócio imprimíveis',
+      'vantagens imprimíveis digitais',
     ],
     lsiKeywords: [
-      'download digital produto físico impressão a pedido modelo cumprimento encomendas',
-      'custos envio margem lucro comparação gestão inventário escalabilidade',
-      'custos produção método entrega experiência cliente formato produto',
-      'modelo híbrido mercado digital feiras artesanato despesas fixas',
-      'rendimento passivo custos impressão embalagem controlo qualidade produto',
-      'seleção formato comparação modelos negócio estratégia vendedor trajetória crescimento',
+      'digital',
+      'físico',
+      'comparação',
+      'margens',
+      'logística',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'KDP',
+      'escalamento',
+      'download',
+      'impressão sob demanda',
     ],
-    titleTag: 'Digital ou Físico Imprimíveis — Guia Vendedor',
-    metaDescription: 'Comparação digital vs físico para vendedores de imprimíveis: margens de lucro, escalabilidade, logística de envio e como escolher o formato ideal para si.',
+    titleTag: 'Digitais vs físicos: imprimíveis | LCS',
+    metaDescription:
+      'Imprimíveis digitais vs físicos: qual modelo escolher? Comparação de margens, logística, escalamento e público.',
   },
 
   hero: {
-    title: 'Produtos Imprimíveis Digitais vs Físicos',
+    title: 'Imprimíveis digitais vs físicos — qual modelo escolher',
     tagline: 'Um guia completo sobre imprimíveis digitais vs físicos — que abrange como comparar margens de lucro, avaliar a escalabilidade, compreender as expectativas do cliente, escolher as plataformas certas para cada formato, implementar um modelo híbrido, planear fluxos de trabalho de produção e fazer a transição entre formatos à medida que o seu negócio cresce',
-    description: 'Todo vendedor de imprimíveis enfrenta uma decisão fundamental de modelo de negócio: vender descargas digitais que os compradores imprimem por conta própria, vender produtos físicos pré-impressos que são enviados aos compradores, ou oferecer ambos os formatos. Cada abordagem implica estruturas de margem diferentes, requisitos operacionais, características de escalabilidade e expectativas do cliente. Este guia fornece um enquadramento de comparação completo para ajudá-lo a avaliar ambos os formatos e escolher a abordagem que melhor se adequa aos seus recursos, objetivos e mercado-alvo.',
+    description: 'Compare imprimíveis digitais e físicos para decidir qual modelo funciona melhor para seu negócio. Este guia analisa: margens de lucro (digitais vencem por ampla margem), logística e envio (digitais não têm), escalabilidade (digitais são infinitamente escaláveis), público-alvo de cada modelo e quando faz sentido oferecer ambos. Para o mercado brasileiro, digitais dominam: Hotmart e Kiwify são plataformas 100% digitais, e os compradores esperam entrega instantânea via download. Amazon KDP é a exceção — livros físicos impressos sob demanda. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A questão digital-versus-físico é uma das decisões de negócio mais consequentes que um vendedor de imprimíveis toma, no entanto muitos vendedores optam por um formato sem compreender completamente os compromissos envolvidos. Os vendedores exclusivamente digitais por vezes deixam receita significativa na mesa ao ignorar compradores que querem produtos profissionalmente impressos e prontos para usar. Os vendedores exclusivamente físicos por vezes esgotam-se com produção, embalagem e envio quando o seu catálogo escalaria muito mais eficientemente como descargas digitais. Os vendedores que constroem os negócios mais resilientes são aqueles que compreendem ambos os modelos profundamente e escolhem a sua estratégia de formato com base em dados, recursos e posicionamento de mercado em vez de hábito ou suposição.\n\nOs produtos imprimíveis digitais são arquivos — tipicamente PDFs, PNGs ou JPEGs — que os compradores baixam e imprimem em casa ou numa gráfica local. O vendedor cria o arquivo uma vez e vende cópias ilimitadas com custo marginal de produção zero por venda. Não há atrasos de envio, nenhum inventário para gerir, nenhum material de embalagem para comprar e nenhuma ida aos correios. O compromisso é que os produtos digitais tipicamente vendem-se a preços mais baixos porque os compradores assumem a responsabilidade pela impressão, e o valor percebido de um arquivo digital é geralmente inferior ao de um produto tangível que podem segurar nas mãos.\n\nOs produtos imprimíveis físicos são os mesmos designs, mas o vendedor trata da impressão, controlo de qualidade, embalagem e envio. O comprador recebe um produto tangível, pronto para usar, que chega profissionalmente impresso em papel de qualidade, frequentemente encadernado ou embalado de forma atrativa. Os produtos físicos permitem preços de retalho mais elevados porque os compradores estão pagando tanto pelo design como pela conveniência da produção. O compromisso é que cada venda requer custos de material, tempo de produção e trabalho de expedição, o que reduz as margens e limita a rapidez com que o negócio pode escalar sem infraestrutura adicional ou pessoal.\n\nOs serviços de impressão a pedido como o Amazon KDP ocupam um meio-termo: o vendedor carrega arquivos digitais e a plataforma trata da impressão e expedição quando chegam encomendas. Isto elimina o risco de inventário e a logística de envio enquanto continua a entregar um produto físico ao comprador. As margens são inferiores às dos produtos físicos autoexpedidos, mas a simplicidade operacional aproxima-se da das descargas digitais.\n\nA escolha certa depende da sua situação específica: o seu tempo disponível, capital inicial, cliente-alvo, tipo de produto e objetivos de negócio a longo prazo. Alguns produtos vendem dramaticamente melhor num formato do que no outro. Alguns mercados preferem fortemente produtos físicos enquanto outros compram predominantemente digitais. Este guia analisa todos os fatores que devem influenciar a sua decisão de formato, fornecendo um enquadramento que pode aplicar ao seu próprio catálogo de produtos e circunstâncias de negócio.',

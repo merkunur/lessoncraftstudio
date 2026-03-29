@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatizar negócio imprimíveis',
+    primaryKeyword: 'automatizar seu negócio de imprimíveis',
     secondaryKeywords: [
-      'automatização negócio imprimíveis',
-      'automatizar criação atividades exercícios',
-      'automatização fluxo trabalho produtos digitais',
-      'eficiência vendedores imprimíveis',
+      'automação para vendedor de imprimíveis',
+      'ferramentas automação negócio digital',
+      'como automatizar vendas Hotmart Etsy',
+      'processos automáticos imprimíveis educativos',
     ],
     lsiKeywords: [
-      'produção em lote fluxo trabalho otimização sistemas modelos velocidade criação',
-      'automatização anúncios processamento em massa gestão tempo pipeline produção',
-      'criação sistemática processos repetíveis eficiência ferramentas agrupamento conteúdo',
-      'modelos anúncios modelos descrições organização arquivos planeamento produção',
-      'fluxo trabalho racionalizado estandardização processos eficiência operativa agrupamento tarefas',
-      'sistemas produção processos escaláveis gestão catálogo desenho fluxo trabalho',
+      'automação',
+      'ferramentas',
+      'processos',
+      'escalamento',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'negócio',
+      'email marketing',
+      'produtividade',
     ],
-    titleTag: 'Automatizar negócio imprimíveis — Guia eficiência',
-    metaDescription: 'Como automatizar o seu negócio de imprimíveis com produção em lote, sistemas de modelos e fluxos de trabalho sistemáticos. Poupe horas e escale a sua loja.',
+    titleTag: 'Automatizar negócio de imprimíveis | LCS',
+    metaDescription:
+      'Como automatizar seu negócio de imprimíveis. Ferramentas, processos e estratégias para escalar com menos esforço.',
   },
 
   hero: {
-    title: 'Como automatizar o seu negócio de imprimíveis',
+    title: 'Como automatizar seu negócio de imprimíveis',
     tagline: 'Um guia completo para racionalizar o seu negócio de imprimíveis — cobrindo como identificar oportunidades de automatização, construir sistemas de modelos, agrupar tarefas de produção em lote, estandardizar anúncios, organizar arquivos sistematicamente, automatizar o processamento de arquivos, criar calendários de produção e escalar mediante variação sistemática',
-    description: 'Os vendedores de imprimíveis mais bem-sucedidos não são necessariamente os mais criativos ou talentosos. São os mais sistemáticos. Construíram fluxos de trabalho que eliminam o esforço redundante, sistemas de modelos que evitam começar do zero, e processos de produção que convertem horas de trabalho em minutos. Este guia mostra-lhe como automatizar o seu negócio de imprimíveis mediante estratégias práticas e implementáveis — desde a produção em lote e os sistemas de modelos até aos anúncios estandardizados e a expansão sistemática do catálogo.',
+    description: 'Aprenda a automatizar seu negócio de imprimíveis educativos e escalar com menos esforço. Este guia cobre: ferramentas de automação para Hotmart e Etsy, como criar processos repetíveis de criação de produtos, automação de e-mail marketing, agendamento de publicações, entrega automática de produtos e como reduzir o tempo gasto em tarefas operacionais. A automação é o que permite transformar renda extra em negócio escalável. Com o LessonCraftStudio, a criação de produtos já é automatizada — gere centenas de atividades em minutos. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A automatização não significa substituir o trabalho criativo por robots. Significa eliminar a repetição desnecessária para que o tempo criativo produza mais resultados. Cada atividade de exercícios que cria envolve tarefas criativas (selecionar conteúdo, escolher temas) e tarefas repetitivas (formatar páginas, escrever descrições, criar miniaturas, processar arquivos, publicar anúncios). A automatização visa as tarefas repetitivas — as que seguem padrões previsíveis e não beneficiam da variação. Ao sistematizar estas tarefas, liberta mais tempo para decisões criativas e de negócio que efetivamente impulsionam as vendas. Os vendedores que implementam mesmo automatizações básicas — modelos de descrição, geradores de atividades, convenções de nomenclatura de arquivos — tipicamente duplicam ou triplicam a sua produção por hora sem qualquer diminuição da qualidade do produto. Os vendedores que implementam sistemas abrangentes frequentemente reportam melhorias de 5 a 10 vezes na velocidade de produção enquanto mantêm ou melhoram a consistência da qualidade.',

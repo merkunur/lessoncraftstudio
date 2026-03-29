@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'negócio imprimíveis multilingue',
+    primaryKeyword: 'negócio de imprimíveis multilíngue',
     secondaryKeywords: [
-      'vender imprimíveis vários idiomas',
-      'mercado internacional de imprimíveis',
-      'negócio atividades exercícios multilingue',
-      'expandir imprimíveis globalmente',
+      'imprimíveis em vários idiomas para vender',
+      'negócio global de atividades educativas',
+      'como vender em múltiplos idiomas Etsy',
+      'estratégia multilíngue vendedor imprimíveis',
     ],
     lsiKeywords: [
-      'expansão linguística mercados internacionais estratégia localização mercados europeus imprimíveis',
-      'mercado educativo alemão procura atividades francesas compradores imprimíveis espanhóis',
-      'catálogo multilingue multiplicação receitas diversificação mercados venda transfronteiriça',
-      'fluxo trabalho tradução mercado educativo mundial marketplaces linguísticos SEO internacional',
-      'carteira produtos multilingue cobertura linguística vantagem competitiva mercados subexplorados',
-      'fluxos receitas multilingues internacionalização plataformas distribuição multi-mercado',
+      'multilíngue',
+      '11 idiomas',
+      'mercados globais',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'português',
+      'inglês',
+      'alemão',
+      'francês',
+      'espanhol',
     ],
-    titleTag: 'Negócio Imprimíveis Multilingue — Guia Estratégico',
-    metaDescription: 'Crie um negócio de imprimíveis multilingue expandindo-se a mercados internacionais. Idiomas prioritários, fluxos de tradução e estratégias de receitas.',
+    titleTag: 'Negócio de imprimíveis multilíngue | LCS',
+    metaDescription:
+      'Como criar um negócio de imprimíveis multilíngue. 11 idiomas, mercados globais e estratégia de expansão.',
   },
 
   hero: {
-    title: 'Como criar um negócio de imprimíveis multilingue',
+    title: 'Como criar um negócio de imprimíveis multilíngue',
     tagline: 'Um guia completo para expandir o seu negócio de imprimíveis a nível internacional — por que razão a expansão multilingue é a estratégia de crescimento mais subutilizada, quais os mercados linguísticos que oferecem os maiores retornos, como estruturar o seu negócio para operações em vários idiomas, analisar oportunidades em marketplaces internacionais, construir vantagem competitiva através da cobertura linguística, desenvolver um modelo de multiplicação de receitas, planear uma expansão linguística por fases e otimizar o desempenho de uma carteira multilingue',
-    description: 'A maioria dos vendedores de imprimíveis compete exclusivamente em inglês, ignorando a enorme procura nos mercados alemão, francês, espanhol e noutros idiomas. Este guia mostra-lhe como criar um negócio de imprimíveis multilingue que multiplica as suas receitas ao alcançar compradores internacionais subexplorados em múltiplas plataformas e idiomas.',
+    description: 'Aprenda a criar um negócio de imprimíveis multilíngue que alcança mercados globais com o LessonCraftStudio. Com suporte a 11 idiomas nativos (português, inglês, alemão, francês, espanhol e mais), cada atividade que você cria pode ser vendida em múltiplos mercados. Este guia cobre: como adaptar produtos para diferentes idiomas, precificar para mercados internacionais, gerenciar listagens em múltiplos marketplaces e usar a vantagem multilíngue para se destacar da concorrência. Multiplique seu mercado por 11 com o mesmo esforço. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O mercado de imprimíveis educativos estende-se muito além dos países de língua inglesa, mas a grande maioria dos vendedores cria produtos unicamente em inglês. Isto gera uma oportunidade de negócio extraordinária: milhões de pais, vendedores e vendedores em todo o mundo procuram ativamente atividades de exercícios imprimíveis na sua língua materna e encontram muito poucos resultados. Analise os números. Uma atividade que compete contra 5.000 produtos semelhantes em inglês poderia enfrentar apenas 50 concorrentes em alemão ou 30 em francês. Esta diferença radical na concorrência traduz-se diretamente em visibilidade, vendas e potencial de receitas. Criar um negócio de imprimíveis multilingue não é simplesmente traduzir os seus produtos existentes. Requer compreender quais os mercados linguísticos que justificam o investimento, como funcionam de forma diferente os marketplaces internacionais, onde compram realmente os compradores de cada idioma e como estruturar as suas operações para que a expansão linguística se torne um motor de crescimento escalável em vez de um sorvedouro de recursos. Este guia percorre a estratégia comercial completa para a expansão multilingue — desde a análise de mercado e a priorização de idiomas até aos modelos de multiplicação de receitas e à otimização a longo prazo da carteira. Quer esteja a lançar os seus primeiros produtos imprimíveis ou a procurar fazer crescer um catálogo estabelecido, compreender a oportunidade multilingue ajuda-o a tomar decisões informadas sobre onde investir o seu tempo de produção para obter os máximos retornos.',

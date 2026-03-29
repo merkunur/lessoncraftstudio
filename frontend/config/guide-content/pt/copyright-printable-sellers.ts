@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'direitos autor vendedores imprimíveis',
+    primaryKeyword: 'direitos autorais para vendedores de imprimíveis',
     secondaryKeywords: [
-      'proteção direitos autor atividades',
-      'direitos autor negócio imprimíveis',
-      'proteger atividades contra cópia',
-      'direitos autor produtos digitais',
+      'proteção de direitos autorais imprimíveis',
+      'copyright para vendedores Etsy',
+      'legislação direitos autorais Brasil imprimíveis',
+      'como proteger imprimíveis educativos',
     ],
     lsiKeywords: [
-      'propriedade intelectual obra original proteção cadastro direitos autor remoção DMCA',
-      'uso legítimo educativo domínio público recursos infração direitos autor obras derivadas',
-      'aviso direitos autor expressão criativa elementos protegíveis proteção design atividades',
-      'arranjo original roubo produtos digitais scraping conteúdo proteção PI marketplace',
-      'titularidade direitos autor proteção automática benefícios cadastro danos estatutários',
-      'escolhas criativas expressão versus ideias factos métodos padrão conteúdo educativo',
+      'direitos autorais',
+      'copyright',
+      'proteção',
+      'INPI',
+      'licença comercial',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'legislação',
+      'Brasil',
+      'vendedor',
+      'negócio',
     ],
-    titleTag: 'Direitos autor vendedores imprimíveis — Guia',
-    metaDescription: 'Direitos de autor para vendedores de imprimíveis: que elementos de atividades são protegíveis, cadastro, aplicação e como evitar a infração de direitos de autor.',
+    titleTag: 'Direitos autorais para vendedores | LCS',
+    metaDescription:
+      'Direitos autorais para vendedores de imprimíveis. O que você pode e não pode fazer, proteção e legislação.',
   },
 
   hero: {
-    title: 'Fundamentos de direitos de autor para vendedores de imprimíveis',
+    title: 'Direitos autorais para vendedores de imprimíveis — guia',
     tagline: 'Um guia completo para compreender os direitos de autor como proprietário de um negócio de imprimíveis — abrangendo o que os direitos de autor protegem nas atividades, o que é e o que não é protegível em produtos educativos, proteger os teus designs originais, compreender o uso legítimo (fair use), utilizar recursos do domínio público, lidar com a infração, evitar erros de direitos de autor e integrar a consciência sobre direitos de autor nas tuas operações',
-    description: 'Os direitos de autor são o enquadramento legal que protege o teu trabalho criativo original e define o que podes e o que não podes utilizar do trabalho de outros. Como vendedor de imprimíveis, compreender os fundamentos dos direitos de autor é essencial por duas razões: proteger as atividades e designs que crias da cópia não autorizada, e assegurar que os teus próprios produtos não infringem os direitos de outra pessoa. Este guia fornece conhecimentos práticos sobre direitos de autor especificamente para vendedores de imprimíveis — que elementos das tuas atividades são protegíveis, como fortalecer a tua posição legal, o que fazer quando alguém copia o teu trabalho e como evitar erros comuns de direitos de autor que possam resultar na remoção de listagens em plataformas ou responsabilidade legal. Nota: este guia é informação educativa, não aconselhamento jurídico. Consulta um advogado qualificado para orientação sobre situações específicas.',
+    description: 'Entenda os direitos autorais que afetam vendedores de imprimíveis educativos. Este guia cobre: o que é protegido por direitos autorais, como a licença comercial do LessonCraftStudio protege você, o que fazer se alguém copiar seu produto, como registrar seus direitos no Brasil (INPI) e dicas práticas para proteger seu trabalho na Hotmart, Etsy e KDP. Conhecer seus direitos é essencial para operar um negócio de imprimíveis com segurança jurídica. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Muitos vendedores de imprimíveis operam com apenas uma compreensão vaga dos direitos de autor, o que cria dois riscos significativos. O primeiro risco é a subproteção: não tomar medidas básicas que fortaleceriam a tua posição legal quando alguém inevitavelmente copiar os teus produtos. O segundo risco é o excesso de confiança: assumir que tudo o que crias está automaticamente protegido contra qualquer forma de cópia, ou que adicionar um símbolo de copyright a uma atividade torna cada elemento dela legalmente intocável.\n\nA realidade dos direitos de autor para vendedores de imprimíveis é mais matizada do que qualquer um dos extremos. Os direitos de autor protegem a expressão criativa original automaticamente no momento da criação — não precisas de registar nem apresentar nada para que exista a proteção básica de direitos de autor. Mas os direitos de autor não protegem ideias, factos, métodos padrão nem arranjos comuns. Um design específico de atividade com ilustrações originais e texto instrutivo criativo é protegível por direitos de autor. Os factos matemáticos subjacentes, as sequências alfabéticas ou os conceitos educativos nessa atividade não o são. Compreender esta distinção é a base do conhecimento prático de direitos de autor para vendedores de imprimíveis.\n\nEsta distinção importa enormemente no mercado de imprimíveis educativos porque grande parte do que as atividades contêm entra na categoria não protegível. O fato de que 2 + 3 = 5 não pode ser registado como propriedade intelectual por ninguém. O conceito de um puzzle de sopa de letras não pode ser propriedade de ninguém. A ideia de usar imagens de animais para ensinar vocabulário está disponível para todos. O que pode ser protegido com direitos de autor é a tua expressão criativa específica: a forma particular como organizas os elementos numa página, as ilustrações originais que crias ou licencias, o texto instrutivo que escreves e o design visual geral que torna o teu produto distinto. Compreender exatamente onde está a linha entre o conceito não protegível e a expressão protegível é o que transforma o conhecimento sobre direitos de autor de preocupação abstrata em estratégia de negócio prática.',

@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pesquisar nichos rentáveis de imprimíveis',
+    primaryKeyword: 'encontrar nichos lucrativos de imprimíveis',
     secondaryKeywords: [
-      'métodos de pesquisa de nichos imprimíveis',
-      'encontrar nichos de atividades de exercícios rentáveis',
-      'estudo de mercado imprimíveis educativos',
-      'análise de procura nichos imprimíveis',
+      'pesquisa de nicho imprimíveis educativos',
+      'como validar nicho de atividades',
+      'ferramentas pesquisa mercado imprimíveis',
+      'nichos de atividades com pouca competição',
     ],
     lsiKeywords: [
-      'dados marketplace pesquisa palavras-chave volume de pesquisa nível concorrência sinais procura',
-      'intenção de compra nichos em tendência mercados pouco explorados validação nicho lacunas mercado',
-      'procura sazonal procura perene pesquisa audiência análise preços análise concorrência',
-      'ajuste produto-mercado tendências pesquisa análise marketplace pontuação rentabilidade nicho',
-      'quantificação procura análise saturação mercado ferramentas palavras-chave decisões baseadas em dados',
-      'produto mínimo viável testes fluxo de pesquisa descoberta nichos processo sistemático',
+      'nichos',
+      'pesquisa',
+      'validação',
+      'mercado',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'competição',
+      'palavras-chave',
+      'Brasil',
+      'oportunidades',
     ],
-    titleTag: 'Pesquisar Nichos Rentáveis de Imprimíveis — Guia',
-    metaDescription: 'Como pesquisar nichos rentáveis de imprimíveis educativos com dados de marketplace, análise de palavras-chave, estudo de concorrência e validação de nicho.',
+    titleTag: 'Nichos lucrativos de imprimíveis — guia | LCS',
+    metaDescription:
+      'Como encontrar nichos lucrativos de imprimíveis. Pesquisa de mercado, validação e ferramentas para 2026.',
   },
 
   hero: {
-    title: 'Como pesquisar nichos rentáveis de imprimíveis',
+    title: 'Como encontrar nichos lucrativos de imprimíveis',
     tagline: 'Um guia completo de metodologia de pesquisa — que cobre a análise de pesquisas em marketplaces, a quantificação da procura por palavras-chave, o estudo de produtos da concorrência, a identificação de lacunas de mercado pouco exploradas, a avaliação da rentabilidade dos nichos, o teste da procura com produtos mínimos viáveis, o acompanhamento de padrões sazonais e tendências, e a construção de um sistema contínuo de descoberta de nichos',
-    description: 'A diferença entre os vendedores que encontram nichos rentáveis de forma consistente e os que adivinham mal não é sorte nem intuição — é metodologia. Os vendedores de imprimíveis bem-sucedidos tratam a seleção de nichos como um processo de pesquisa, não como uma corazonada. Recolhem dados de múltiplas fontes, analisam padrões de procura, estudam o panorama competitivo e validam a procura antes de investir tempo de produção. Este guia ensina todo o processo de pesquisa passo a passo, para que possa identificar nichos rentáveis de forma sistemática em vez de depender de tentativa e erro. Quer venda no Hotmart, Etsy, Amazon KDP ou Hotmart, estes métodos de pesquisa ajudá-lo-ão a tomar decisões baseadas em dados sobre onde concentrar o seu esforço criativo.',
+    description: 'Aprenda a encontrar nichos lucrativos de imprimíveis educativos usando pesquisa de mercado sistemática. Este guia cobre: ferramentas de pesquisa de palavras-chave, como analisar vendedores concorrentes na Hotmart, Etsy e Amazon, identificar lacunas de mercado em português, validar nichos antes de investir tempo e criar um mapa de oportunidades. O mercado brasileiro de imprimíveis educativos está em crescimento acelerado — quem encontra os nichos certos primeiro domina. Com o LessonCraftStudio, teste nichos rapidamente com 33 geradores. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A pesquisa de nichos é a base de todo negócio de imprimíveis bem-sucedido. Cada atividade de exercícios, caderno de atividades ou pacote educativo que cria concorre num mercado com dinâmicas de oferta e procura mensuráveis. Os vendedores que compreendem estas dinâmicas escolhem nichos onde a procura dos compradores supera a oferta disponível — criando oportunidades de venda mais fáceis e melhores margens de lucro.\n\nEsta abordagem baseada em dados contrasta com o método habitual de seleção de nichos: criar o que interessa pessoalmente e esperar que haja compradores. Embora o interesse pessoal possa ser um fator a considerar, nunca deve ser o único critério de decisão. Um nicho de imprimíveis bem pesquisado combina uma procura demonstrada dos compradores, um nível de concorrência gerível e uma rentabilidade sustentável.\n\nO processo de pesquisa abordado neste guia funciona em todas as plataformas de imprimíveis — Hotmart, Etsy, Amazon KDP e mercados de produtos digitais como o Hotmart. Os princípios básicos são universais: encontrar o que os compradores procuram, analisar o que já está disponível e identificar lacunas onde pode oferecer algo melhor ou diferente.\n\nComeçaremos pela análise de pesquisas em marketplaces — examinando os dados reais do que os compradores procuram ativamente. De seguida, passaremos à quantificação da procura por palavras-chave, que lhe dará números concretos para comparar nichos potenciais. Depois, analisaremos a pesquisa de produtos da concorrência para entender o que funciona em nichos estabelecidos e onde há margem de melhoria.\n\nAbordaremos como identificar lacunas de mercado pouco exploradas — as oportunidades onde a procura dos compradores não está bem servida pelos produtos existentes. Aprenderá a avaliar a rentabilidade dos nichos usando um sistema de pontuação que equilibra múltiplos fatores. Também veremos como testar a procura com produtos mínimos viáveis antes de comprometer recursos de produção completos.\n\nFinalmente, abordaremos os padrões sazonais e de tendência — entender quando os nichos atingem os seus picos de procura e como antecipar os ciclos. E construiremos um sistema contínuo de descoberta de nichos que gera um fluxo constante de novas oportunidades para explorar.\n\nCada secção inclui passos concretos que pode implementar imediatamente. Quando terminar este guia, terá um processo de pesquisa completo que pode aplicar repetidamente para encontrar nichos rentáveis.',

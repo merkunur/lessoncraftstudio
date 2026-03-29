@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'obter avaliações produtos imprimíveis',
+    primaryKeyword: 'conseguir avaliações para produtos imprimíveis',
     secondaryKeywords: [
-      'estratégia avaliações produtos imprimíveis',
-      'avaliações etsy produtos digitais',
-      'avaliações clientes negócio atividades',
-      'aumentar avaliações loja imprimíveis',
+      'como pedir avaliações Etsy Hotmart',
+      'estratégias de avaliação para vendedores',
+      'aumentar avaliações produtos digitais',
+      'reviews para imprimíveis educativos',
     ],
     lsiKeywords: [
-      'classificação por estrelas comentários comprador pedido de avaliação geração de avaliações prova social',
-      'satisfação do cliente seguimento de avaliações ciclo de feedback credibilidade de loja',
-      'taxa de conversão de avaliações avaliações positivas sinais de qualidade experiência do cliente',
-      'resposta a avaliações reputação de loja construção de confiança confiança de compra',
-      'avaliações orgânicas comentários autênticos volume de avaliações posicionamento marketplace',
-      'otimização de anúncio definição de expectativas comunicação com comprador experiência pós-compra',
+      'avaliações',
+      'reviews',
+      'follow-up',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'vendas',
+      'reputação',
+      'confiança',
+      'negócio',
+      'vendedor',
+      'produtos digitais',
     ],
-    titleTag: 'Obter Avaliações Produtos Imprimíveis — Guia',
-    metaDescription: 'Estratégias comprovadas para obter avaliações de produtos imprimíveis. Construa prova social, ganhe comentários autênticos e aumente a sua credibilidade.',
+    titleTag: 'Conseguir avaliações para imprimíveis | LCS',
+    metaDescription:
+      'Como conseguir avaliações para seus produtos imprimíveis. Estratégias éticas para Hotmart, Etsy e KDP.',
   },
 
   hero: {
-    title: 'Como Obter Avaliações para Produtos Imprimíveis',
+    title: 'Como conseguir avaliações para produtos imprimíveis',
     tagline: 'Um guia completo para obter avaliações autênticas de produtos imprimíveis — abrangendo como oferecer experiências de produto dignas de avaliação, otimizar a qualidade de download e utilização, incluir pedidos de avaliação profissionais, fazer seguimento com os compradores no momento certo, responder a todas as avaliações de forma construtiva, definir expectativas precisas nos anúncios, gerar volume de avaliações através do crescimento do catálogo e criar ciclos de feedback que melhorem os seus produtos ao longo do tempo',
-    description: 'As avaliações são o sinal de confiança mais poderoso nos marketplaces de produtos digitais. Para os vendedores de imprimíveis, onde os compradores não podem examinar fisicamente o produto antes de comprar, as avaliações servem como a evidência principal de que as suas atividades cumprem o que prometem. Um produto com 50 avaliações positivas vende mais do que um produto idêntico com zero avaliações porque os compradores usam a prova social para reduzir o risco percebido de comprar a um vendedor desconhecido. Este guia mostra-lhe como obter sistematicamente avaliações autênticas que construam credibilidade, melhorem a visibilidade no marketplace e gerem um crescimento constante de vendas.',
+    description: 'Aprenda a conseguir avaliações para seus produtos imprimíveis na Hotmart, Etsy e Amazon KDP. Avaliações são o fator mais importante para vendas — produtos com mais avaliações positivas vendem exponencialmente mais. Este guia cobre: estratégias éticas para solicitar avaliações, como incluir pedidos de avaliação nos PDFs entregues, timing ideal para follow-up, como lidar com avaliações negativas e transformá-las em oportunidades. Nunca compre ou fabrique avaliações — as estratégias aqui são 100% legítimas. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Os produtos imprimíveis enfrentam um desafio de confiança único que os produtos físicos não têm. Quando um comprador considera um produto físico, pode examinar fotografias de múltiplos ângulos, ler especificações detalhadas e confiar na sua experiência com artigos físicos semelhantes. Quando um comprador considera um imprimível digital, está comprando um arquivo que não pode inspecionar completamente de antemão — um PDF que irá baixar, imprimir e usar com os seus usuários ou filhos. As imagens de pré-visualização mostram uma representação, mas o comprador tem de confiar que o arquivo real corresponde à pré-visualização, se imprime corretamente, contém conteúdo preciso e oferece um valor educativo genuíno. As avaliações colmatam esta lacuna de confiança ao fornecer evidências de compradores reais que já completaram o ciclo de compra, download, impressão e utilização.\n\nO impacto das avaliações nas vendas de produtos imprimíveis é desproporcionadamente grande em comparação com muitas outras categorias de produtos. Os algoritmos de pesquisa de marketplaces em plataformas como Hotmart, Etsy e Amazon KDP consideram o número de avaliações e a classificação na visibilidade dos anúncios. Produtos com mais avaliações positivas aparecem mais acima nos resultados de pesquisa, o que gera mais visualizações, o que leva a mais vendas, o que produz mais avaliações — criando um ciclo composto onde o impulso inicial de avaliações acelera o crescimento a longo prazo. Pelo contrário, produtos com zero avaliações lutam pela visibilidade independentemente da sua qualidade real, porque o algoritmo não tem um sinal de qualidade validado por compradores com o qual trabalhar.\n\nO desafio das avaliações para os vendedores de imprimíveis é que as taxas de avaliação de produtos digitais são naturalmente mais baixas do que as de produtos físicos. Os compradores de produtos físicos recebem um artigo tangível que permanece na sua secretária ou loja, proporcionando um lembrete constante da compra e uma motivação natural para avaliar a experiência. Os compradores de produtos digitais baixam um arquivo e, a menos que o imprimam e usem imediatamente, a compra desaparece rapidamente da consciência ativa. Muitos compradores de imprimíveis baixam produtos e guardam-nos para usar mais tarde — o que significa que a experiência de realmente usar o produto, que motivaria uma avaliação, pode ocorrer dias ou semanas após a compra. Esta lacuna temporal entre a compra e a utilização é a razão principal pela qual os produtos digitais acumulam avaliações mais lentamente do que os físicos.\n\nCompreender esta lacuna temporal é essencial porque molda toda a estratégia eficaz de geração de avaliações. Não pode simplesmente criar um bom produto e esperar passivamente que os compradores deixem avaliações. Precisa de criar ativamente condições que tornem a avaliação fácil, oportuna e natural — sem nunca cruzar a linha da manipulação de avaliações, avaliações incentivadas ou qualquer prática que viole os termos de serviço do marketplace. Cada estratégia neste guia é concebida para obter avaliações autênticas através de meios legítimos: oferecer experiências de produto excecionais, comunicar profissionalmente com os compradores e construir uma reputação empresarial que motive naturalmente os clientes a partilhar as suas experiências positivas.\n\nEste guia leva-o através de um enquadramento completo de geração de avaliações para o seu negócio de imprimíveis. Cada passo aborda um fator específico que influencia se um comprador deixa uma avaliação e o que essa avaliação diz. As estratégias funcionam em conjunto como um sistema — a qualidade do produto cria a base, as expectativas claras previnem a deceção, o seguimento profissional cria lembretes oportunos para avaliar, e as respostas construtivas às avaliações demonstram o compromisso com o cliente que encoraja os futuros compradores a participar no ciclo de feedback.',

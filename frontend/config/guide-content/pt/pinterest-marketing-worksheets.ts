@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing pinterest atividades',
+    primaryKeyword: 'marketing no Pinterest para negócio de atividades',
     secondaryKeywords: [
-      'pinterest para vendedores de imprimíveis',
-      'vender atividades com pinterest',
-      'estratégia pinterest negócio imprimíveis',
-      'tráfego pinterest lojas de atividades',
+      'Pinterest para vendedor de imprimíveis',
+      'SEO Pinterest atividades educativas',
+      'como criar pins para imprimíveis',
+      'tráfego orgânico Pinterest para Etsy',
     ],
     lsiKeywords: [
-      'motor de pesquisa visual design de pins otimização de quadros descrições ricas em palavras-chave',
-      'tráfego perene programação de pins taxa de cliques descoberta orgânica',
-      'pins de produto pins de ideia Pinterest Analytics SEO no Pinterest pins enriquecidos',
-      'impressões de pins estratégia de repin publicação sazonal estratégia de quadros',
-      'otimização de pins formato vertical algoritmo do Pinterest pins novos',
-      'posicionamento em pesquisa taxa de guardado cliques de saída análise de audiência modelos de pins',
+      'Pinterest',
+      'pins',
+      'quadros',
+      'SEO',
+      'tráfego orgânico',
+      'visual',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'renda extra',
+      'marketing',
+      'imprimíveis',
     ],
-    titleTag: 'Marketing Pinterest Atividades — Estratégia Vendedor',
-    metaDescription: 'Estratégia de marketing no Pinterest para vender atividades imprimíveis. Gere tráfego orgânico a longo prazo com pins e quadros otimizados e conteúdo sazonal.',
+    titleTag: 'Pinterest para negócio de atividades | LCS',
+    metaDescription:
+      'Marketing no Pinterest para vendedores de atividades. Pins, quadros, SEO e estratégias de tráfego orgânico.',
   },
 
   hero: {
-    title: 'Marketing no Pinterest para Negócios de Atividades de Exercícios',
+    title: 'Marketing no Pinterest para negócio de atividades',
     tagline: 'Um guia completo de marketing no Pinterest para vendedores de atividades — que abrange como configurar uma conta de empresa, estruturar quadros para a descoberta, desenhar pins de alta conversão, escrever descrições ricas em palavras-chave, desenvolver um calendário de publicação de pins, otimizar para o SEO no Pinterest, aproveitar os ciclos de conteúdo sazonal e analisar dados de desempenho',
-    description: 'O Pinterest não é uma rede social. É um motor de pesquisa visual onde os usuários procuram ativamente produtos e ideias para comprar. Para os vendedores de atividades de exercícios imprimíveis, esta distinção é crucial — os usuários do Pinterest descobrem, guardam e clicam para comprar recursos educativos meses após a publicação de um pin. Este guia fornece um enquadramento completo de marketing no Pinterest concebido especificamente para negócios de atividades de exercícios, desde a otimização do perfil e a estratégia de quadros até ao design de pins, à integração de palavras-chave, ao planeamento sazonal e ao refinamento baseado em análises.',
+    description: 'Domine o Pinterest como canal de marketing para seu negócio de atividades educativas. O Pinterest é um motor de busca visual — e imprimíveis educativos são um dos conteúdos com melhor desempenho na plataforma. Este guia cobre: como criar pins que atraem cliques, otimizar quadros com palavras-chave, usar SEO do Pinterest para tráfego orgânico gratuito, agendar publicações e direcionar tráfego para suas lojas na Hotmart, Etsy e KDP. Um pin bem otimizado gera tráfego por meses ou anos. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A maioria dos vendedores de imprimíveis trata o Pinterest como algo secundário — partilhando ocasionalmente uma imagem do produto com uma hiperligação e esperando tráfego. Esta abordagem produz resultados mínimos porque ignora os mecanismos fundamentais que fazem do Pinterest uma ferramenta excecionalmente poderosa para negócios de atividades de exercícios. O Pinterest funciona como um motor de pesquisa visual, não como um feed social. O conteúdo é descoberto através de pesquisas baseadas em palavras-chave e recomendações algorítmicas, não através de cronologias de seguidores. Um pin publicado hoje pode gerar tráfego para a sua loja durante anos, acumulando alcance à medida que reúne guardados e envolvimento. Nenhuma outra plataforma oferece este tipo de descoberta perene para produtos visuais.\n\nA oportunidade para os vendedores de atividades no Pinterest é substancial e subaproveitada. Os imprimíveis educativos estão entre as categorias de produtos mais pesquisadas no Pinterest, com pais, vendedores e vendedores domésticos à procura de atividades de exercícios, páginas de atividades e recursos de aprendizagem. Estes usuários têm intenção de compra — não estão navegando casualmente, mas a procurar ativamente produtos específicos para baixar, imprimir e utilizar. Um pin bem otimizado que aparece nestas pesquisas liga o seu produto diretamente a um comprador motivado no momento exato em que procura o que vende.\n\nO que torna o Pinterest particularmente eficaz para negócios de atividades é a natureza visual do produto. As atividades de exercícios, as páginas para colorir, os puzzles e as folhas de atividades são produtos inerentemente visuais que se apresentam de forma atrativa no formato visual do Pinterest. Um pin colorido e bem desenhado que mostra uma pré-visualização da atividade comunica imediatamente o que é o produto, para quem é e o que o torna atrativo — tudo sem que o comprador leia uma única palavra de texto. Esta auto-explicação visual reduz a fricção no percurso da descoberta ao clique e produz taxas de cliques mais altas do que os anúncios de produtos com muito texto noutras plataformas.\n\nA natureza acumulativa do tráfego do Pinterest é o que o separa de qualquer outro canal de marketing disponível para vendedores de imprimíveis. No Instagram ou no Facebook, uma publicação atinge a sua audiência máxima em 24 a 48 horas e depois desaparece efetivamente da descoberta. No Pinterest, um pin ganha impulso durante semanas e meses à medida que o algoritmo o indexa, o apresenta nos resultados de pesquisa e o recomenda a usuários com interesses afins. Os pins de maior desempenho podem gerar tráfego constante durante 6 a 12 meses ou mais. Isto significa que cada pin que cria é um investimento que continua a gerar retornos muito depois de o publicar, construindo um motor de tráfego que cresce com cada novo pin adicionado.\n\nOs geradores de atividades aceleram a sua estratégia no Pinterest ao resolver o estrangulamento de produção que limita o volume de pins da maioria dos vendedores. Criar produtos de atividades únicos e de alta qualidade em número suficiente para manter um calendário de publicação consistente requer ferramentas de produção eficientes. Os geradores permitem-lhe produzir atividades profissionais prontas para imprimir em múltiplos temas, disciplinas e idiomas — dando-lhe um catálogo extenso de produtos a partir do qual criar pins. Pode experimentar qualquer gerador com o teste grátis com marca d\'água para ver como se encaixa no seu fluxo de trabalho de produção orientado para o Pinterest.\n\nEste guia conduz-lo através de um sistema completo de marketing no Pinterest concebido especificamente para negócios de atividades de exercícios. Cada passo assenta no anterior, criando uma abordagem sistemática que transforma o Pinterest de um pensamento ocasional no seu principal canal de tráfego e descoberta.',

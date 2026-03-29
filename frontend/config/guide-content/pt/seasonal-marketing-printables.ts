@@ -2,28 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing sazonal imprimíveis',
+    primaryKeyword: 'marketing sazonal para vendedores de imprimíveis',
     secondaryKeywords: [
-      'estratégia negócio imprimíveis sazonal',
-      'marketing atividades festividades',
-      'vendas imprimíveis regresso às aulas',
-      'calendário produtos sazonais vendedores',
+      'calendário sazonal vendedor imprimíveis Brasil',
+      'datas comemorativas para vendas imprimíveis',
+      'marketing festas brasileiras imprimíveis',
+      'planejar lançamentos sazonais atividades',
     ],
     lsiKeywords: [
-      'ciclo de procura festividades planeamento produtos sazonais períodos de venda máxima',
-      'regresso às aulas atividades festividades aprendizagem de verão recursos Ano Novo',
-      'atividades Dia dos Namorados imprimíveis Páscoa atividades Halloween atividades Natal',
-      'atividades Dia de Ação de Graças tendências sazonais previsão de procura calendário de produção',
-      'momento de lançamento palavras-chave sazonais análise de tendências calendário de conteúdo planeamento trimestral',
+      'sazonal',
+      'calendário',
+      'Carnaval',
+      'Festa Junina',
+      'volta às aulas',
+      'Natal',
+      'Hotmart',
+      'Etsy',
+      'KDP',
+      'Brasil',
+      'datas comemorativas',
+      'vendedor',
     ],
-    titleTag: 'Marketing Sazonal Imprimíveis — Calendário Vendedor',
-    metaDescription: 'Planeie campanhas de marketing sazonal para imprimíveis alinhadas com ciclos de procura. Calendário de vendedor com produção, palavras-chave e estratégias.',
+    titleTag: 'Marketing sazonal para imprimíveis | LCS',
+    metaDescription:
+      'Marketing sazonal para vendedores de imprimíveis. Calendário brasileiro, datas comemorativas e estratégias.',
   },
 
   hero: {
-    title: 'Calendário de Marketing Sazonal para Vendedores de Imprimíveis',
+    title: 'Marketing sazonal para vendedores de imprimíveis',
     tagline: 'Um guia completo sobre marketing sazonal de imprimíveis — que abrange como mapear os ciclos de procura anuais, construir calendários de produção alinhados com períodos de pico, otimizar anúncios para pesquisa sazonal, criar variações temáticas de produtos de forma eficiente, planear pacotes sazonais, programar campanhas de marketing, analisar o desempenho ano após ano e equilibrar lançamentos sazonais com a profundidade do catálogo perene',
-    description: 'O momento de lançamento determina se um produto imprimível chega à procura de pico ou surge depois de os compradores já terem adquirido os produtos dos concorrentes. Um pacote de atividades de Halloween listado em outubro compete contra centenas de anúncios estabelecidos que acumulam vendas desde agosto. Um pacote de matemática para regresso às aulas criado em setembro perde a janela de compra que começou em julho. Este guia apresenta um enquadramento completo de calendário de marketing sazonal concebido especificamente para vendedores de imprimíveis — desde o mapeamento anual da procura e o planeamento da produção até à otimização de palavras-chave sazonais e ao refinamento do desempenho ano após ano.',
+    description: 'Domine o marketing sazonal para seu negócio de imprimíveis educativos com foco no calendário brasileiro. No Brasil, as datas são diferentes: volta às aulas em fevereiro, Dia dos Namorados em 12 de junho, Festa Junina em junho, Dia das Crianças em 12 de outubro, Carnaval em fevereiro-março. Este guia cobre: como planejar seu calendário de lançamentos, criar produtos sazonais com antecedência, usar tendências sazonais para picos de vendas e adaptar para mercados internacionais via Etsy e KDP. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A procura de produtos imprimíveis não está distribuída uniformemente ao longo do ano. Segue ciclos sazonais previsíveis impulsionados por calendários escolares, festividades e eventos culturais que se repetem anualmente com notável consistência. O regresso às aulas cria um enorme pico de procura por atividades específicas de nível escolar e materiais de organização da loja. A época festiva impulsiona as compras de pacotes de atividades temáticas desde o Halloween ao Natal. O verão traz pais que procuram recursos de prevenção da perda de aprendizagem. Cada um destes picos de procura representa uma janela de compra concentrada em que os vendedores com produtos preparados, indexados e visíveis captam receitas desproporcionais em comparação com os vendedores que reagem à procura depois de esta surgir.\n\nO desafio fundamental do marketing sazonal para vendedores de imprimíveis é o tempo de antecedência. Os algoritmos de pesquisa de marketplaces precisam de semanas para indexar e classificar novos anúncios. Os produtos precisam de tempo para acumular velocidade de vendas inicial e avaliações que os empurrem para cima nos resultados de pesquisa. Os compradores em muitas categorias começam a pesquisar e a comprar 4 a 8 semanas antes da festividade ou época real — os vendedores a planear o catálogo de produtos de outubro começam a fazer compras em agosto, os pais a preparar pacotes de atividades festivas começam a navegar no início de novembro, e as famílias com ensino doméstico a planear pacotes de aprendizagem de verão começam a pesquisar em abril. Um vendedor que cria produtos durante o pico de procura está competindo contra vendedores que se prepararam meses antes e já têm anúncios estabelecidos e bem classificados.\n\nOs vendedores que consistentemente geram as maiores receitas sazonais não são necessariamente os que têm os catálogos mais extensos ou os designs mais criativos. São os que planeiam a produção e o marketing em torno do calendário anual de procura com consistência disciplinada. Criam produtos de Halloween em julho, recursos de regresso às aulas em maio, e pacotes de atividades de Natal em setembro. Os seus anúncios estão indexados, otimizados e a acumular vendas iniciais antes de a maioria dos compradores sequer começar a pesquisar. Esta preparação antecipada cria uma vantagem composta: as vendas iniciais geram avaliações, as avaliações melhoram a classificação na pesquisa, uma classificação mais elevada gera mais vendas, e o ciclo acelera durante o período de procura de pico.\n\nO marketing sazonal não diz respeito apenas a produtos com tema de festividades. Todos os meses do ano têm padrões de procura que os vendedores informados podem aproveitar. Janeiro traz atividades de definição de objetivos de Ano Novo e recursos de catálogo de produtos de novo começo. Fevereiro impulsiona atividades com tema do Dia dos Namorados e conteúdo educativo relacionado. Março e abril criam procura por materiais de preparação para testes de primavera. Os vendedores que mapeiam e se preparam para estes padrões mensais de procura mantêm receitas consistentes ao longo do ano em vez de experimentar ciclos de abundância e escassez que dificultam o planeamento empresarial.\n\nEste guia percorre um enquadramento completo de calendário de marketing sazonal para vendedores de imprimíveis. Cada etapa aborda um aspecto específico do planeamento sazonal, desde o mapeamento do ciclo anual de procura e a construção de um calendário de produção até à otimização de palavras-chave sazonais, criação eficiente de variações de produtos e análise do desempenho ano após ano. O objetivo é uma abordagem sistemática que garante que os seus produtos são criados, listados, otimizados e visíveis antes de cada pico de procura chegar — não uma corrida reativa para criar produtos sazonais depois de a janela de compra já ter aberto.',

@@ -30,29 +30,29 @@ const content: AppContent = {
     title: 'Crear fichas de resta profesionales paso a paso',
     steps: [
       {
-        title: 'Configura el diseño de página',
+        title: 'Configure el diseño de página',
         description:
-          'Abre el panel de Configuración de Página y selecciona un tamaño: Carta Vertical, Ficha Predeterminada (800×1000) o A4 Vertical. Elige un color de fondo o un tema decorativo de la biblioteca de imágenes y ajusta la opacidad para mantener los ejercicios legibles. Añade un marco de borde a juego para un aspecto profesional. Cada configuración se aplica tanto a la ficha como a la clave de respuesta, garantizando coherencia en el producto final.',
+          'Abra el panel de Configuración de Página y seleccione un tamaño: Carta Vertical, Ficha Predeterminada (800×1000) o A4 Vertical. Elija un color de fondo o un tema decorativo de la biblioteca de imágenes y ajuste la opacidad para mantener los ejercicios legibles. Añada un marco de borde a juego para un aspecto profesional. Cada configuración se aplica tanto a la ficha como a la clave de respuesta, garantizando coherencia en el producto final.',
       },
       {
-        title: 'Configura el modo de ejercicio y el rango de números',
+        title: 'Configure el modo de ejercicio y el rango de números',
         description:
-          'Abre la Configuración de Ejercicios y selecciona uno de los cuatro modos. El modo Tachar muestra un grupo completo de imágenes y traza cruces diagonales sobre los elementos restados — la visualización característica que hace tangible la resta para los más pequeños. El modo Imagen − Número asocia un grupo de imágenes con un número para usuarios en transición hacia la resta abstracta. El modo Encontrar el Sustraendo muestra el grupo inicial y el resultado, desafiando a los usuarios a determinar cuántos se quitaron. El Modo Mixto combina los tres para una práctica variada. Establece el minuendo máximo de 2 a 20 y elige cuántos ejercicios aparecen por página.',
+          'Abra la Configuración de Ejercicios y seleccione uno de los cuatro modos. El modo Tachar muestra un grupo completo de imágenes y traza cruces diagonales sobre los elementos restados — la visualización característica que hace tangible la resta para los más pequeños. El modo Imagen − Número asocia un grupo de imágenes con un número para usuarios en transición hacia la resta abstracta. El modo Encontrar el Sustraendo muestra el grupo inicial y el resultado, desafiando a los usuarios a determinar cuántos se quitaron. El Modo Mixto combine los tres para una práctica variada. Establezca el minuendo máximo de 2 a 20 y elija cuántos ejercicios aparecen por página.',
       },
       {
-        title: 'Elige imágenes de la biblioteca temática',
+        title: 'Elija imágenes de la biblioteca temática',
         description:
-          'Abre el panel de Biblioteca de Imágenes y explora 104 temas — desde animales de granja y comida hasta espacio y festividades. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Haz clic para seleccionar las imágenes deseadas; cada ejercicio selecciona aleatoriamente de tu selección para variar las páginas. También puedes subir tus propias imágenes para un look único que coincida con tu marca o tema de clase.',
+          'Abra el panel de Biblioteca de Imágenes y explore 104 temas — desde animales de granja y comida hasta espacio y festividades. Use la barra de búsqueda para encontrar imágenes específicas al instante. Haga clic para seleccionar las imágenes deseadas; cada ejercicio seleccione aleatoriamente de su selección para variar las páginas. También puede subir sus propias imágenes para un look único que coincida con su marca o tema de clase.',
       },
       {
-        title: 'Añade texto, títulos y opciones',
+        title: 'Añada texto, títulos y opciones',
         description:
-          'Usa el panel de Herramientas de Texto para añadir un título, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre tres fuentes claros — Lexend Deca, Baloo 2 y Nunito — y ajusta tamaño, color y estilo para una legibilidad óptima. Activa o desactiva los números de ejercicio, habilita la casilla de respuesta atractivo y ajusta la posición de los elementos en el lienzo con las herramientas de arrastrar y soltar.',
+          'Use el panel de Herramientas de Texto para añadir un título, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elija entre tres fuentes claros — Lexend Deca, Baloo 2 y Nunito — y ajuste tamaño, color y estilo para una legibilidad óptima. Active o desactive los números de ejercicio, habilita la casilla de respuesta atractivo y ajuste la posición de los elementos en el lienzo con las herramientas de arrastrar y soltar.',
       },
       {
-        title: 'Genera la clave de respuesta y descarga',
+        title: 'Genere la clave de respuesta y descargue',
         description:
-          'Ve a la pestaña de Clave de Respuesta y haz clic en Generar Clave de Respuesta para crear una versión completada con todas las diferencias correctas. Luego abre el menú de Descarga y exporta tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Marca la casilla de Escala de Grises para producir versiones en blanco y negro — perfectas para impresión en línea o producción de libros de actividades económicos. Cada exportación se renderiza a más de 400 DPI.',
+          'Vaya a la pestaña de Clave de Respuesta y haga clic en Generar Clave de Respuesta para crear una versión completada con todas las diferencias correctas. Luego abra el menú de Descargue y exporte tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Marca la casilla de Escala de Grises para producir versiones en blanco y negro — perfectas para impresión en línea o producción de libros de actividades económicos. Cada exportación se renderiza a más de 400 DPI.',
       },
     ],
   },
@@ -68,37 +68,37 @@ const content: AppContent = {
       {
         title: 'Cuatro modos de ejercicio distintos',
         description:
-          'Elige el modo que mejor se adapte al nivel de tus usuarios. El modo Tachar es ideal para principiantes — cuentan el grupo completo, los elementos tachados y escriben el número restante. El modo Imagen − Número asocia un grupo de imágenes con un número, conectando lo concreto con lo abstracto. El modo Encontrar el Sustraendo muestra el grupo original y el resultado, desarrollando el razonamiento algebraico temprano. El Modo Mixto combina los tres para una práctica variada sin repetición. Cambiar de modo requiere un solo clic.',
+          'Elija el modo que mejor se adapte al nivel de sus usuarios. El modo Tachar es ideal para principiantes — cuentan el grupo completo, los elementos tachados y escriben el número restante. El modo Imagen − Número asocia un grupo de imágenes con un número, conectando lo concreto con lo abstracto. El modo Encontrar el Sustraendo muestra el grupo original y el resultado, desarrollando el razonamiento algebraico temprano. El Modo Mixto combine los tres para una práctica variada sin repetición. Cambiar de modo requiere un solo clic.',
       },
       {
         title: 'Rangos de números configurables',
         description:
-          'Establece el minuendo máximo de 2 a 20, con control total sobre la dificultad. El generador garantiza que el sustraendo siempre sea menor que el minuendo, produciendo respuestas válidas y no negativas en todos los casos. Crea fichas sencillas con un máximo de 5 para preescolar, ejercicios estándar hasta 10 para infantil, o problemas más difíciles hasta 20 para primer y segundo grado. El ajuste se hace con un solo cambio, permitiéndote diferenciar la oferta para toda una clase en minutos.',
+          'Establezca el minuendo máximo de 2 a 20, con control total sobre la dificultad. El generador garantiza que el sustraendo siempre sea menor que el minuendo, produciendo respuestas válidas y no negativas en todos los casos. Cree fichas sencillas con un máximo de 5 para preescolar, ejercicios estándar hasta 10 para infantil, o problemas más difíciles hasta 20 para primer y segundo grado. El ajuste se hace con un solo cambio, permitiéndote diferenciar la oferta para toda una clase en minutos.',
       },
       {
         title: '104 temas visuales con más de 3100 imágenes',
         description:
-          'Explora una biblioteca de más de 3100 ilustraciones seleccionadas en 104 temas: animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Cada imagen es de alta resolución y diseñada para una impresión clara y atractivo. Como las imágenes llevan el contenido matemático — no el texto — tus fichas de resta funcionan perfectamente en cualquier idioma y en cualquier tienda del mundo, vendiéndose internacionalmente sin traducción.',
+          'Explore una biblioteca de más de 3100 ilustraciones seleccionadas en 104 temas: animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Cada imagen es de alta resolución y diseñada para una impresión clara y atractivo. Como las imágenes llevan el contenido matemático — no el texto — sus fichas de resta funcionan perfectamente en cualquier idioma y en cualquier tienda del mundo, vendiéndose internacionalmente sin traducción.',
       },
       {
         title: 'Generación automática de clave de respuesta',
         description:
-          'Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con todas las diferencias correctas. En el modo Tachar, la clave muestra las mismas imágenes tachadas más la respuesta escrita, permitiendo a los vendedores verificar de un vistazo. Exporta la clave como archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy.',
+          'Haga clic en un botón para generar una clave de respuesta completa que reproduce el diseño de su ficha con todas las diferencias correctas. En el modo Tachar, la clave muestra las mismas imágenes tachadas más la respuesta escrita, permitiendo a los vendedores verificar de un vistazo. Exporte la clave como archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy.',
       },
       {
         title: 'Exportación lista para imprimir a 400+ DPI con escala de grises',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza a más de 400 DPI en tamaños estándar. El modo de escala de grises integrado convierte toda tu ficha a blanco y negro con una sola casilla — ideal para impresión en línea, reducir costos de tinta o producir interiores de libros de actividades para Amazon KDP.',
+          'Descargue fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza a más de 400 DPI en tamaños estándar. El modo de escala de grises integrado convierte toda su ficha a blanco y negro con una sola casilla — ideal para impresión en línea, reducir costos de tinta o producir interiores de libros de actividades para Amazon KDP.',
       },
       {
-        title: 'Sube tus propias imágenes',
+        title: 'Suba sus propias imágenes',
         description:
-          'Ve más allá de la biblioteca integrada subiendo tus propias imágenes PNG o JPEG directamente en la aplicación. Ideal para fichas de marca, clipart personalizado, mascotas de clase o contenido estacional que diferencia tus productos de la competencia. Las imágenes subidas se integran con cada modo de ejercicio — incluyendo el modo Tachar, donde reciben la misma visualización de cruces diagonales — manteniendo un control creativo total.',
+          'Vaya más allá de la biblioteca integrada subiendo sus propias imágenes PNG o JPEG directamente en la aplicación. Ideal para fichas de marca, clipart personalizado, mascotas de clase o contenido estacional que diferencia sus productos de la competencia. Las imágenes subidas se integran con cada modo de ejercicio — incluyendo el modo Tachar, donde reciben la misma visualización de cruces diagonales — manteniendo un control creativo total.',
       },
       {
         title: 'Edición completa del lienzo con deshacer y rehacer',
         description:
-          'El lienzo Fabric.js integrado te permite arrastrar, redimensionar, rotar y reposicionar cada elemento de la página — texto, imágenes, bloques de ejercicio, bordes y fondos. Amplía para una colocación precisa y usa la pila de deshacer/rehacer de 20 estados para experimentar sin riesgo. Bloquea los elementos en su lugar o desbloquea todo para un rediseño espontáneo — la flexibilidad de una herramienta de diseño gráfico dentro de un generador de fichas.',
+          'El lienzo Fabric.js integrado le permite arrastrar, redimensionar, rotar y reposicionar cada elemento de la página — texto, imágenes, bloques de ejercicio, bordes y fondos. Amplía para una colocación precisa y use la pila de deshacer/rehacer de 20 estados para experimentar sin riesgo. Bloquea los elementos en su lugar o desbloquea todo para un rediseño espontáneo — la flexibilidad de una herramienta de diseño gráfico dentro de un generador de fichas.',
       },
     ],
   },
@@ -109,31 +109,31 @@ const content: AppContent = {
       {
         title: 'Paquetes temáticos de fichas de resta en Etsy',
         description:
-          'Crea conjuntos de 10 a 20 fichas de resta agrupadas por tema — dinosaurios, animales de granja, criaturas marinas, festividades — y ofrécelos como descarga instantánea en Etsy. Incluye la clave de respuesta y versiones en color y escala de grises como archivos extra para aumentar el valor percibido. La visualización de tachado es un argumento visual fuerte en las miniaturas, captando la atención de padres y vendedores en los resultados de búsqueda. Fija temas individuales entre $3–$5 y mega-paquetes combinando varios temas entre $12–$18.',
+          'Cree conjuntos de 10 a 20 fichas de resta agrupadas por tema — dinosaurios, animales de granja, criaturas marinas, festividades — y ofrécelos como descargue instantánea en Etsy. Incluya la clave de respuesta y versiones en color y escala de grises como archivos extra para aumentar el valor percibido. La visualización de tachado es un argumento visual fuerte en las miniaturas, captando la atención de padres y vendedores en los resultados de búsqueda. Fija temas individuales entre $3–$5 y mega-paquetes combinando varios temas entre $12–$18.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Libros de actividades de resta en Amazon KDP',
         description:
-          'Compila de 50 a 100 fichas de resta en un libro de actividades en formato Amazon KDP. Estructura el libro con dificultad progresiva: comienza con el modo Tachar con minuendo máximo de 5, avanza al modo Imagen − Número con 10 y termina con el Modo Mixto hasta 20. Usa la exportación en escala de grises para interiores aptos para impresión. Los libros de actividades de resta en KDP para niños de 4 a 8 años se venden consistentemente todo el año con gasto mínimo en publicidad.',
+          'Compila de 50 a 100 fichas de resta en un libro de actividades en formato Amazon KDP. Estructura el libro con dificultad progresiva: comience con el modo Tachar con minuendo máximo de 5, avanza al modo Imagen − Número con 10 y termina con el Modo Mixto hasta 20. Use la exportación en escala de grises para interiores aptos para impresión. Los libros de actividades de resta en KDP para niños de 4 a 8 años se venden consistentemente todo el año con gasto mínimo en publicidad.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: 'Centros de matemáticas diferenciados para Hotmart',
         description:
-          'Crea conjuntos de resta por niveles: Nivel 1 (Tachar, minuendo máximo 5), Nivel 2 (Imagen − Número, minuendo máximo 10), Nivel 3 (Encontrar el Sustraendo, minuendo máximo 15) y Nivel 4 (Mixto, minuendo máximo 20). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos diferenciados utilizables inmediatamente en múltiples grupos de nivel, y la visualización de tachado hace que tu listado destaque entre los competidores de solo texto.',
+          'Cree conjuntos de resta por niveles: Nivel 1 (Tachar, minuendo máximo 5), Nivel 2 (Imagen − Número, minuendo máximo 10), Nivel 3 (Encontrar el Sustraendo, minuendo máximo 15) y Nivel 4 (Mixto, minuendo máximo 20). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos diferenciados utilizables inmediatamente en múltiples grupos de nivel, y la visualización de tachado hace que su listado destaque entre los competidores de solo texto.',
         platform: 'Hotmart (hotmart.com)',
       },
       {
-        title: 'Contenido de suscripción para tu propia tienda',
+        title: 'Contenido de suscripción para su propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de fichas de resta y distribúyelos a través de Shopify, Hotmart o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Con cuatro modos, 104 temas y dificultad ajustable de 2 a 20, tienes suficientes combinaciones para años de contenido único sin repetirte.',
+          'Use el generador para producir paquetes semanales de fichas de resta y distribúyelos a través de Shopify, Hotmart o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genere ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Con cuatro modos, 104 temas y dificultad ajustable de 2 a 20, tiene suficientes combinaciones para años de contenido único sin repetirte.',
         platform: 'Hotmart / Shopify / Payhip',
       },
       {
         title: 'Fichas de práctica para venta en línea y tutoría',
         description:
-          'Genera fichas de resta personalizadas adaptadas al nivel de cada usuario. Imprime fichas en modo Tachar para principiantes que necesitan el apoyo visual, y fichas de Encontrar el Sustraendo para usuarios avanzados listos para el pensamiento algebraico — todo en la misma sesión. La clave de respuesta automática ahorra valor percibido, y el modo de escala de grises reduce los costos de impresión para uso intensivo en línea. Ya sea que dirijas un centro de tutoría, enseñes en infantil o eduques en casa, el generador reemplaza horas de creación manual por unos pocos clics.',
+          'Genere fichas de resta personalizadas adaptadas al nivel de cada usuario. Imprime fichas en modo Tachar para principiantes que necesitan el apoyo visual, y fichas de Encontrar el Sustraendo para usuarios avanzados listos para el pensamiento algebraico — todo en la misma sesión. La clave de respuesta automática ahorra valor percibido, y el modo de escala de grises reduce los costos de impresión para uso intensivo en línea. Ya sea que dirijas un centro de tutoría, enseñes en infantil o eduques en casa, el generador reemplaza horas de creación manual por unos pocos clics.',
         platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
@@ -153,52 +153,52 @@ const content: AppContent = {
     {
       question: '¿Qué rangos de números puedo configurar para los problemas de resta?',
       answer:
-        'Puedes establecer el minuendo máximo de 2 a 20. El generador se asegura automáticamente de que el sustraendo siempre sea menor que el minuendo, garantizando respuestas válidas y no negativas. Esto te permite crear problemas fáciles como 3 menos 1 para principiantes o problemas más difíciles como 18 menos 12 para usuarios avanzados.',
+        'Puede establecer el minuendo máximo de 2 a 20. El generador se asegura automáticamente de que el sustraendo siempre sea menor que el minuendo, garantizando respuestas válidas y no negativas. Esto le permite crear problemas fáciles como 3 menos 1 para principiantes o problemas más difíciles como 18 menos 12 para usuarios avanzados.',
     },
     {
       question: '¿Cuántas imágenes y temas hay disponibles?',
       answer:
-        'La biblioteca de imágenes integrada contiene más de 3100 ilustraciones organizadas en 104 temas, incluyendo animales, vehículos, comida, festividades, deportes, espacio, naturaleza y más. También puedes subir tus propias imágenes para gráficos personalizados o de temporada.',
+        'La biblioteca de imágenes integrada contiene más de 3100 ilustraciones organizadas en 104 temas, incluyendo animales, vehículos, comida, festividades, deportes, espacio, naturaleza y más. También puede subir sus propias imágenes para gráficos personalizados o de temporada.',
     },
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión completada de tu ficha con todas las diferencias correctas. En el modo Tachar, la clave conserva las imágenes tachadas y añade la respuesta escrita, facilitando la verificación para vendedores y padres. Descárgala como archivo JPEG o PDF separado junto con la ficha del usuario.',
+        'Sí. Haga clic en el botón Generar Clave de Respuesta para crear una versión completada de su ficha con todas las diferencias correctas. En el modo Tachar, la clave conserva las imágenes tachadas y añada la respuesta escrita, facilitando la verificación para vendedores y padres. Descárgala como archivo JPEG o PDF separado junto con la ficha del usuario.',
     },
     {
       question: '¿Las fichas de resta dependen del idioma?',
       answer:
-        'No. Las fichas de resta son puramente visuales — el contenido matemático usa imágenes, cruces y números, no palabras. Una ficha creada en un idioma funciona en todos los idiomas. La configuración de idioma solo cambia las etiquetas de la interfaz de la aplicación, no el contenido de la ficha, lo que hace que tus productos sean vendibles en todo el mundo sin traducción.',
+        'No. Las fichas de resta son puramente visuales — el contenido matemático use imágenes, cruces y números, no palabras. Una ficha creada en un idioma funciona en todos los idiomas. La configuración de idioma solo cambie las etiquetas de la interfaz de la aplicación, no el contenido de la ficha, lo que hace que sus productos sean vendibles en todo el mundo sin traducción.',
     },
     {
       question: '¿Qué es la opción de exportación en escala de grises?',
       answer:
-        'El menú de descarga incluye una casilla de Escala de Grises que convierte toda tu ficha y clave de respuesta a blanco y negro antes de exportar. Esto produce versiones económicas en tinta, perfectas para impresión en línea, producción de libros de actividades a bajo costo en Amazon KDP o cualquier situación donde la impresión a color no esté disponible o sea demasiado costosa.',
+        'El menú de descargue incluye una casilla de Escala de Grises que convierte toda su ficha y clave de respuesta a blanco y negro antes de exportar. Esto produce versiones económicas en tinta, perfectas para impresión en línea, producción de libros de actividades a bajo costo en Amazon KDP o cualquier situación donde la impresión a color no esté disponible o sea demasiado costosa.',
     },
     {
       question: '¿Hay una prueba gratuita?',
       answer:
-        'Sí. Puedes acceder a todas las funciones del generador — los cuatro modos de ejercicio, la biblioteca completa de imágenes, la generación de claves de respuesta, la exportación en escala de grises y todos los tamaños de página — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
+        'Sí. Puede acceder a todas las funciones del generador — los cuatro modos de ejercicio, la biblioteca completa de imágenes, la generación de claves de respuesta, la exportación en escala de grises y todos los tamaños de página — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Qué incluye la licencia comercial?',
+      question: '¿Qué incluya la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, su propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de resta como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
+        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de resta como descargue digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
       answer:
-        'Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar cada modo, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.',
+        'Como la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar cada modo, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',
     },
     {
       question: '¿Necesito instalar algún software?',
       answer:
-        'No. El Generador de Fichas de Resta funciona completamente en tu navegador web. No hay nada que descargar, instalar ni actualizar. Funciona en cualquier navegador de escritorio moderno, incluyendo Chrome, Firefox, Safari y Edge. Solo abre la página y empieza a crear.',
+        'No. El Generador de Fichas de Resta funciona completamente en su navegador web. No hay nada que descargar, instalar ni actualizar. Funciona en cualquier navegador de escritorio moderno, incluyendo Chrome, Firefox, Safari y Edge. Solo abra la página y empiece a crear.',
     },
   ],
 

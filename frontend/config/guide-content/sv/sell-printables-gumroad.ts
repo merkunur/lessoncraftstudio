@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja printables på Gumroad',
+    primaryKeyword: 'sälja printables på Gumroad guide',
     secondaryKeywords: [
       'hur man säljer printables på Gumroad',
       'Gumroad printable-företag uppstart',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sociala medier trafik Pinterest Instagram blogginnehåll SEO marknadsföring',
       'produktpaket medlemskap prenumerationer återkommande intäkt katalogskalning',
     ],
-    titleTag: 'Hur du säljer printables på Gumroad — Guide — Online Verktyg',
+    titleTag: 'Sälja printables på Gumroad | LessonCraftStudio',
     metaDescription: 'Hur du säljer printables på Gumroad med noll månadsavgifter. Butiksuppstart, prisstrategier, e-postmarknadsföring och att bygga direkta kundrelationer.',
   },
 

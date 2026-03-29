@@ -2,27 +2,24 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'starta Etsy utskriftsbutik',
+    primaryKeyword: 'öppna Etsy-shop för printables guide',
     secondaryKeywords: [
-      'hur man startar en Etsy utskriftsbutik',
-      'Etsy utskriftsbutik uppsättning från grunden',
-      'börja sälja utskrifter på Etsy',
-      'Etsy digital nedladdningsbutik för nybörjare',
+      'hur man öppnar Etsy-shop för printables',
+      'starta Etsy-butik sälja arbetsblad',
+      'Etsy printables-butik för nybörjare',
+      'öppna Etsy-shop pedagogiska produkter',
     ],
     lsiKeywords: [
-      'Etsy säljarkonto uppsättning digitala nedladdningar utskriftsbara arbetsblad',
-      'utskriftsbutik varumärkesbyggande Etsy annonsoptimering nya säljare',
-      'Etsy avgifter prisstrategi pedagogiska utskriftsprodukter',
-      'Etsy SEO taggar titlar beskrivningar utskriftsbara arbetsbladsannonser',
-      'digital nedladdningsbutik policyer återbetalningsvillkor Etsy-säljare',
-      'Etsy utskriftsbutik lanseringsstrategi första 30 dagarna tillväxtplan',
+      'Etsy butiksuppsättning digitala nedladdningar',
+      'printables-verksamhet Etsy steg för steg',
+      'Etsy avgifter och prissättning printables',
     ],
-    titleTag: 'Hur du startar Etsy utskriftsbutik från grunden — Guide',
-    metaDescription: 'Lär dig hur du startar en Etsy utskriftsbutik från grunden med 33 generatorer. Butiksuppsättning, varumärke, annonsoptimering, prissättning, Etsy-avgifter och.',
+    titleTag: 'Öppna Etsy-shop för printables | LessonCraftStudio',
+    metaDescription: 'Öppna din Etsy-shop för printables med 33 generatorer. Butiksuppsättning, annonsoptimering, prissättning och Etsy SEO. Steg-för-steg guide för nybörjare.',
   },
 
   hero: {
-    title: 'Hur du startar en Etsy utskriftsbutik från grunden',
+    title: 'Öppna en Etsy-shop för printables — steg-för-steg guide',
     tagline: 'En komplett butiksnivå startguide för att lansera en lönsam Etsy utskriftsverksamhet med 33 arbetsblads- och aktivitetsgeneratorer över 6 produktkategorier — täcker Etsy säljarkontoupprettande, butiksvarumärke och policyer för digitala nedladdningar, bygga ditt första produktlager från flera generatorkategorier, skriva optimerade annonser med alla 13 taggar, förstå Etsy-avgifter och sätta hållbar prissättning, skapa annonsfoton för digitala produkter, lansera med tillräckligt många annonser för söktäckning och genomföra en 30-dagars tillväxtplan som bygger recensioner, expanderar din katalog och etablerar din butik som en kategoriauktoritet på utskriftsmarknaden',
     description: 'Att starta en Etsy-butik för utskriftsbara arbetsblad och pedagogiska aktiviteter är en av de lägsta trösklarna för att börja sälja digitala produkter. Till skillnad från fysiska produktföretag som kräver lager, fraktlogistik och förskottstillverkningskostnader behöver en utskriftsbutik bara din generatorverktygslåda och en strukturerad lanseringsplan. Denna guide tar dig igenom varje steg från att skapa ditt Etsy-säljarkonto till att genomföra dina första 30 dagars butiksverksamhet — täcker de butiksnivå-beslut som produktspecifika guider antar att du redan har fattat. Oavsett om du planerar att sälja mattearbetsblad, ordsökningspussel, målarbilder eller en blandning över alla 6 generatorkategorier gäller butiksuppsättningens grunder som täcks här för varje utskriftsprodukttyp.',
   },

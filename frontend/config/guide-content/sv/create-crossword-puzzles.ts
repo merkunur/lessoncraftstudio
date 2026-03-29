@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa korsordspussel',
+    primaryKeyword: 'skapa korsord att sälja online',
     secondaryKeywords: [
       'korsordspussel generator för barn',
       'utskriftsbar korsord-skapare',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy korsord printables',
       'kommersiell licens pusselverktyg',
     ],
-    titleTag: 'Skapa korsordspussel — Steg-för-steg-guide — Online Verktyg',
+    titleTag: 'Korsord att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar korsordspussel för barn med bildledtrådar. Välj teman, generera korsande rutnät, numrerade ledtrådar, facit, sälj på Etsy och KDP. Prova.',
   },
 

@@ -2,27 +2,24 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälj pedagogiska utskrifter på Etsy',
+    primaryKeyword: 'sälja pedagogiska arbetsblad på Etsy',
     secondaryKeywords: [
-      'hur man säljer pedagogiska utskrifter på Etsy',
-      'Etsy pedagogisk utskriftsbutik strategi',
-      'utskriftsbara arbetsblad Etsy företag flerkategori',
-      'sälj arbetsblad och aktiviteter på Etsy',
+      'hur man säljer arbetsblad på Etsy',
+      'Etsy pedagogiska printables-butik',
+      'sälja utskrivbara arbetsblad Etsy-verksamhet',
+      'pedagogiska printables Etsy strategi',
     ],
     lsiKeywords: [
-      'Etsy digital nedladdning pedagogiska aktiviteter annonsoptimering',
-      'flerkategori utskriftsbutik prisstrategi Etsy-säljare',
-      'Etsy SEO-taggar för pedagogiska arbetsblad och pusselprodukter',
-      'sälj matte läs pussel utskrifter Etsy butik diversifierad',
-      'korskategori pedagogisk utskrift paketerings Etsy-strategi',
-      'Etsy annonsfoton mockups för pedagogiska utskriftsprodukter',
+      'Etsy printables-butik flerkategori strategi',
+      'korskategori paketering pedagogiska arbetsblad',
+      'printables-verksamhet arbetsblad svenska Etsy',
     ],
-    titleTag: 'Sälj pedagogiska Utskrifter på Etsy — Guide — Online Verktyg',
-    metaDescription: 'Sälj pedagogiska utskrifter på Etsy med 33 generatorer över 6 kategorier. Butiksstrategi, Etsy SEO, korskategori-paketering och prissättning för säljare.',
+    titleTag: 'Sälja arbetsblad på Etsy | LessonCraftStudio',
+    metaDescription: 'Sälj pedagogiska arbetsblad på Etsy med 33 generatorer. Butiksstrategi, Etsy SEO, paketering och prissättning. Guide för printables-säljare.',
   },
 
   hero: {
-    title: 'Hur du säljer pedagogiska utskrifter på Etsy',
+    title: 'Sälja pedagogiska arbetsblad på Etsy — komplett guide',
     tagline: 'En komplett plattformsguide för att bygga en diversifierad Etsy-butik som säljer pedagogiska utskrifter skapade med 33 specialiserade generatorer över 6 kategorier — täcker flerkategori-butiksstrategi, kategorispecifik Etsy SEO-optimering med alla 13 taggar, korskategori-paketering och prissättning, annonsfotografering för olika produkttyper, säsongsbetonad produktrotation över mattearbetsblad, läsaktiviteter, visuella lärande-sidor, matchningsövningar, pussel och sök-och-hitta-spel samt skalning från en enda kategori till en fullständig pedagogisk utskriftsbutik',
     description: 'pedagogiska utskrifter är en av de mest konsekvent sökta digitala produktkategorierna på Etsy. Föräldrar, säljare, hemundervisare och privatundervisningscentra söker efter mattearbetsblad, ordsökningspussel, målarbilder, matchningsaktiviteter, sudokuböcker och dussintals andra pedagogiska format varje dag. Denna guide visar dig hur du bygger en diversifierad Etsy-butik som spänner över alla 6 pedagogiska utskriftskategorier med 33 specialiserade generatorer — skapar en konkurrensfördel som enkelkategori-butiker inte kan matcha. Oavsett om du lanserar din första pedagogiska utskrift eller expanderar en befintlig butik till nya kategorier kommer du ha en komplett flerkategoristrategi vid slutet av denna guide.',
   },

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja pedagogiska resurser på Creative Fabrica',
+    primaryKeyword: 'sälja utbildningsresurser Creative Fabrica',
     secondaryKeywords: [
       'hur man säljer på Creative Fabrica',
       'Creative Fabrica för säljare',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'produkttaggar kategorier sökoptimering omslagsbilder beskrivningsformatering',
       'katalogskalning paket tvärkategori marknadsföring typsnitt grafik pedagogiska resurser',
     ],
-    titleTag: 'Sälj pedagogiska resurser på Creative Fabrica — Guide',
+    titleTag: 'Sälja på Creative Fabrica | LessonCraftStudio',
     metaDescription: 'Sälj pedagogiska resurser på Creative Fabrica. Tjäna från prenumerationer och enskilda försäljningar, nå hantverks- och säljarepublik i Classroom-sektionen.',
   },
 

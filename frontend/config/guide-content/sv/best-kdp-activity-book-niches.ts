@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP aktivitetsbok nischer',
+    primaryKeyword: 'bästa nischer aktivitetsböcker KDP 2026',
     secondaryKeywords: [
       'bästa KDP aktivitetsbok nischer för publicerare',
       'lönsamma aktivitetsbok kategorier Amazon KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'nischvalidering testtitel 90-dagars försäljning katalogstrategi',
       'tvärkategori hybrid tematisk aktivitetsbok undernisch',
     ],
-    titleTag: 'KDP aktivitetsbok nischer — Bästa valen guide — Säljguide',
+    titleTag: 'Bästa KDP-nischer böcker (2026) | LessonCraftStudio',
     metaDescription: 'Upptäck de bästa KDP aktivitetsbok-nischerna för publicerare. Täcker efterfrågeanalys, konkurrensutvärdering, underbetjänade kategorier och säsongsbetonad.',
   },
 

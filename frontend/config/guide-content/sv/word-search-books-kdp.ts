@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ordsökningsböcker KDP',
+    primaryKeyword: 'skapa ordpusselböcker för KDP',
     secondaryKeywords: [
       'hur man skapar ordsökningsböcker för Amazon KDP',
       'ordsökningspusselbok publiceringsguide',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'ordsökningsbok serie volymer upprepade köp katalog',
       'vuxna barn ordsökning marknad målgrupp rutnätsformatering',
     ],
-    titleTag: 'Hur du skapar ordsökningsböcker KDP — Guide — Online Verktyg',
+    titleTag: 'Ordpusselböcker för Amazon KDP | LessonCraftStudio',
     metaDescription: 'Skapa ordsökningsböcker KDP med tematiska ordlistor, storskriftsformat och seriestrategi. Rutnätsstorlek, målgruppsinriktning och Amazon-optimering. Prova.',
   },
 

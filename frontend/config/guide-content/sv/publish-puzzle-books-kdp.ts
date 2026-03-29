@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publicera pusselböcker KDP',
+    primaryKeyword: 'publicera pysselböcker på Amazon KDP',
     secondaryKeywords: [
       'hur man publicerar pusselböcker på Amazon KDP',
       'KDP pusselbok publiceringsguide',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'print-on-demand pusselkatalog serie volymnumrering',
       'pusselrutnät avstånd trimstorlek facit bakmaterial',
     ],
-    titleTag: 'Hur du publicerar pusselböcker KDP — Guide — Online Verktyg',
+    titleTag: 'Publicera pysselböcker på KDP | LessonCraftStudio',
     metaDescription: 'Hur du publicerar pusselböcker på KDP med ordsökning, korsord och sudoku. Täcker formatering, variationsböcker, seriestrategi och Amazon-annonsering. Prova.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'matte aktivitetsböcker KDP',
+    primaryKeyword: 'skapa mattepysselböcker för Amazon KDP',
     secondaryKeywords: [
       'hur man skapar matte aktivitetsböcker för Amazon KDP',
       'KDP matte arbetsbok publiceringsguide',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'matte arbetsbok sidantal svårighetsgradering facit',
       'KDP publiceringsgranskningsprocess provtryck författarkopior',
     ],
-    titleTag: 'Hur du skapar matte aktivitetsböcker KDP — Guide — Säljguide',
+    titleTag: 'Mattepysselböcker för Amazon KDP | LessonCraftStudio',
     metaDescription: 'Lär dig hur du skapar matte aktivitetsböcker för KDP. Täcker manuskriptformatering, omslagsdesign och Amazon nyckelordsoptimering. Ingen registrering.',
   },
 

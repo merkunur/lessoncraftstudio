@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP formatering arbetsblad',
+    primaryKeyword: 'KDP-formatering för arbetsböcker guide',
     secondaryKeywords: [
       'KDP formateringsguide för arbetsbladsböcker',
       'Amazon KDP manuskriptformatering specifikationer',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sidnumrering förmaterial bakmaterial innehållsförteckning',
       'KDP uppladdningsfel avvisning felsökning förhandsgranskning provtryck',
     ],
-    titleTag: 'KDP formatering arbetsblad — Komplett guide — Online Verktyg',
+    titleTag: 'KDP-formatering för arbetsböcker | LessonCraftStudio',
     metaDescription: 'KDP formateringsguide som täcker trimstorlekar, marginaler, utfallsinställningar, PDF-export vid 300 DPI, omslagsdimensioner och felsökning för aktivitetsböcker',
   },
 

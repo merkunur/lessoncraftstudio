@@ -2,27 +2,24 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa Etsy målarbilder',
+    primaryKeyword: 'skapa målarbilder som säljer på Etsy',
     secondaryKeywords: [
-      'hur man säljer målarbilder på Etsy',
-      'Etsy målarbilds-butik uppsättning',
-      'utskrivbara målarbilder Etsy företag',
-      'sälj färgläggningsblad på Etsy',
+      'hur man skapar målarbilder för Etsy',
+      'Etsy målarbilder som säljer',
+      'utskrivbara målarbilder Etsy-verksamhet',
+      'sälja färgläggningsblad på Etsy',
     ],
     lsiKeywords: [
-      'Etsy digital nedladdning målarbilder annonsoptimering',
-      'målarbilder paket prisstrategi Etsy-säljare',
-      'Etsy SEO-taggar för utskriftsbara målarbilder',
-      'sälj tematiska färgläggningsblad Etsy butik barn vuxna',
-      'högtids säsongsbetonade målarbilder utskrift Etsy efterfrågan',
-      'Etsy annonsfoton mockups för målarbild-produkter',
+      'Etsy målarbilder annonsoptimering',
+      'målarbilder paket prisstrategi Etsy',
+      'printables-verksamhet målarbilder svenska',
     ],
-    titleTag: 'Skapa Etsy Målarbilder som Säljer — Guide — Online Verktyg',
-    metaDescription: 'Skapa Etsy målarbilder från 104 bildteman. Svartvit och gråskaleexport, annonsoptimering, prissättning för tematiska paket och säsongsbetonade säljstrategier.',
+    titleTag: 'Målarbilder som säljer på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa målarbilder som säljer på Etsy. 104 bildteman, gråskaleexport, annonsoptimering och prissättning. Guide för printables-säljare.',
   },
 
   hero: {
-    title: 'Hur du skapar Etsy målarbilder som säljer',
+    title: 'Skapa målarbilder som säljer på Etsy — guide för säljare',
     tagline: 'En komplett plattformsguide för att bygga en lönsam Etsy-butik som säljer målarbilder skapade från 104 tematiska bildbibliotek — täcker Etsy butiksuppsättning, SEO-optimering med alla 13 taggar, annostitlar och beskrivningar som rankar för köpares söktermer, produktfotografering som visar svartvit linjekonst och tematisk variation, prisstrategier för enskilda sidor och tematiska samlingar, säsongstajming för högtids- och skolstartstoppar, katalogplanering över barn- och vuxenmålningsdemografi, KDP-målarbok korsningmöjligheter samt löpande butiksoptimering med Etsy Stats och sökanalys',
     description: 'Målarbilder är en av de mest efterfrågade och mest vintergröna utskriftsbara produktkategorierna på Etsy, köpta av föräldrar, säljare, terapeuter, aktivitetsledare för äldre och vuxna färgläggningsentusiaster. Denna guide tar dig igenom varje steg i att bygga en Etsy-butik som säljer målarbilder — från att researcha köparefterfrågan över barn- och vuxendemografi, genom att generera lager från 104 tematiska bildbibliotek, till att skriva optimerade annonser, skapa annonsfoton som visar linjekonst effektivt, sätta priser för enskilda sidor och tematiska samlingar samt lansera din butik. Du kommer att lära dig hur målarbilder skiljer sig från andra utskriftskategorier med sin universella visuella attraktion, breda köpardemografi, säsongsbetonade efterfrågemönster och betydande Amazon KDP-korsningspotential.',
   },

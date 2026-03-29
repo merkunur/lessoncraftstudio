@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy arbetsblad-paket',
+    primaryKeyword: 'skapa paket arbetsblad för Etsy',
     secondaryKeywords: [
       'hur man skapar Etsy arbetsblad-paket',
       'Etsy utskriftsbart paketannonsstrategi',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy digital leverans flera filer paketstruktur',
       'paket vs enskild annons kannibalisering Etsy butiksstrategi',
     ],
-    titleTag: 'Skapa Etsy Arbetsblad-paket — Guide — Steg-för-Steg Guide',
+    titleTag: 'Skapa paket arbetsblad för Etsy | LessonCraftStudio',
     metaDescription: 'Skapa Etsy arbetsblad-paket som ökar genomsnittligt ordervärde. Pakettyper, filorganisation, förhandsgranskningsbilder, annonsoptimering och prisstrategi.',
   },
 

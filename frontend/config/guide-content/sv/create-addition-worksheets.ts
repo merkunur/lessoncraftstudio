@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa additionsarbetsblad',
+    primaryKeyword: 'skapa additionsblad att sälja',
     secondaryKeywords: [
       'gör additionsarbetsblad för barn',
       'additions arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP matte aktivitetsböcker',
       'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Skapa additionsarbetsblad — Steg-för-steg-guide — Säljguide',
+    titleTag: 'Skapa additionsblad att sälja | LessonCraftStudio',
     metaDescription: 'Hur du skapar additionsarbetsblad för barn. Steg-för-steg-guide: välj teman, ställ in svårighet, generera facit och exportera PDF att sälja på Etsy och KDP.',
   },
 

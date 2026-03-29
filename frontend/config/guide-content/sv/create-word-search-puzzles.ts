@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa ordsökningspussel',
+    primaryKeyword: 'skapa ordpussel med bilder att sälja',
     secondaryKeywords: [
       'ordsökningspussel generator',
       'utskriftsbar ordsökning-skapare',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy ordsökningspussel utskriftsbart',
       'kommersiell licens pusselverktyg',
     ],
-    titleTag: 'Skapa ordsökningspussel — Steg-för-steg-guide — Säljguide',
+    titleTag: 'Ordpussel med bilder att sälja | LessonCraftStudio',
     metaDescription: 'Hur du skapar ordsökningspussel med bildledtrådar. Välj teman, ställ in rutnätsstorlek, konfigurera sökriktningar, generera facit och sälj på Etsy och KDP.',
   },
 

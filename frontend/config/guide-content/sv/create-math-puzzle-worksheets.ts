@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa mattepussel arbetsblad',
+    primaryKeyword: 'skapa mattepussel att sälja',
     secondaryKeywords: [
       'mattepussel arbetsblad generator',
       'bildåterställning mattepussel',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP mattepussel böcker',
       'kommersiell licens pussel-skapare',
     ],
-    titleTag: 'Skapa mattepussel arbetsblad — Steg-för-steg-guide',
+    titleTag: 'Mattepussel att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar mattepussel där barn löser ekvationer för att återställa bilder. Rutnätsstorlekar, operationer, facit och tips för att sälja på Etsy. Prova.',
   },
 

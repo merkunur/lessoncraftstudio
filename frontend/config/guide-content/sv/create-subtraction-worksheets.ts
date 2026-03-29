@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa subtraktionsarbetsblad',
+    primaryKeyword: 'skapa subtraktionsblad att sälja',
     secondaryKeywords: [
       'gör subtraktionsarbetsblad för barn',
       'subtraktionsarbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP subtraktionsaktivitetsböcker',
       'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Skapa subtraktionsarbetsblad — Steg-för-steg-guide',
+    titleTag: 'Subtraktionsblad att sälja | LessonCraftStudio',
     metaDescription: 'Skapa subtraktionsarbetsblad för barn med överkorsade bilder, tematiska visuella element och automatiska facit. Steg-för-steg-guide för Etsy, KDP och Gumroad.',
   },
 

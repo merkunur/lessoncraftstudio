@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudokuböcker KDP',
+    primaryKeyword: 'skapa sudokuböcker för Amazon KDP',
     secondaryKeywords: [
       'hur man skapar sudokuböcker för Amazon KDP',
       'bildsudoku böcker för barn KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sudoku serie volymer upprepade köp lojala lösare katalog',
       'sudoku pusselantal sidlayout facit trycktrim',
     ],
-    titleTag: 'Sudokuböcker KDP — Publiceringsguide — Steg-för-Steg Guide',
+    titleTag: 'Sudokuböcker för Amazon KDP | LessonCraftStudio',
     metaDescription: 'Skapa sudokuböcker KDP med bildsudoku för barn och siffersudoku för vuxna. Svårighetsgradering, rutnätsformatering och seriebyggande strategi. Online.',
   },
 

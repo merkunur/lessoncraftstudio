@@ -2,27 +2,24 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälj mattearbetsblad på Etsy',
+    primaryKeyword: 'sälja matteblad på Etsy guide',
     secondaryKeywords: [
       'hur man säljer mattearbetsblad på Etsy',
-      'Etsy mattearbetsblad butiksuppsättning',
-      'utskrivbara mattearbetsblad Etsy företag',
-      'sälj pedagogiska utskrifter på Etsy',
+      'Etsy matteblad butik steg för steg',
+      'matteblad Etsy-verksamhet för nybörjare',
+      'sälja pedagogiska matteblad på Etsy.se',
     ],
     lsiKeywords: [
-      'Etsy digital nedladdning matteaktiviteter annonsoptimering',
-      'mattearbetsblad paket prisstrategi Etsy-säljare',
-      'Etsy SEO-taggar för pedagogiska utskriftsbara arbetsblad',
-      'sälj additions subtraktions arbetsblad Etsy butik',
-      'skolstart matte utskrifter Etsy säsongsstrategi',
-      'Etsy annonsfoton mockups för mattearbetsblad produkter',
+      'Etsy SEO matteblad annonsoptimering',
+      'matteblad paket prisstrategi Etsy-säljare',
+      'printables-verksamhet matteblad svenska',
     ],
-    titleTag: 'Sälj Mattearbetsblad på Etsy — Guide — Steg-för-Steg Guide',
-    metaDescription: 'Sälj mattearbetsblad på Etsy med 6 generatorer. Etsy SEO, annonsoptimering, prissättning, paketstrategier och säsongstajming för utskriftssäljare. Prova.',
+    titleTag: 'Sälja matteblad på Etsy | LessonCraftStudio',
+    metaDescription: 'Lär dig sälja matteblad på Etsy med 6 generatorer. Etsy SEO, prissättning, paketstrategier och säsongstajming. Steg-för-steg guide för printables-säljare.',
   },
 
   hero: {
-    title: 'Hur du säljer mattearbetsblad på Etsy',
+    title: 'Så säljer du matteblad på Etsy — komplett guide för säljare',
     tagline: 'En komplett plattformsguide för att bygga en lönsam Etsy-butik som säljer mattearbetsblad skapade med 6 specialiserade generatorer — täcker Etsy butiksuppsättning, SEO-optimering med alla 13 taggar, annostitlar och beskrivningar som rankar för köpares söktermer, produktfotografering och mockups, prisstrategier för enskilda arbetsblad och paket, säsongstajming för skolstart och högtidstoppar, katalogplanering över addition, subtraktion, kodpussel, jämförelse, rutnätspussel och talövningar, samt löpande butiksoptimering med Etsy Stats och sökanalys',
     description: 'Mattearbetsblad är bland de mest efterfrågade pedagogiska utskrifterna på Etsy. Föräldrar som söker hemläxas-komplement, köpare som letar efter produktlinjesklara aktiviteter och hemundervisningsfamiljer som bygger produktkatalog vänder sig alla till Etsy för nedladdningsbara mattematerial. Denna guide visar dig hur du bygger en Etsy-butik som betjänar alla tre köparsegment med arbetsblad skapade med våra 6 mattegeneratorer: Addition, Subtraktion, Kodaddition, Mer eller Mindre, Mattepussel och Matematik Arbetsblad.\n\nTill skillnad från produktskapande-guider som lär dig hur du använder en specifik app, fokuserar denna plattformsguide på Etsy-specifika säljstrategier. Du kommer att lära dig hur du researchar efterfrågan på mattearbetsblad på Etsy, planerar en produktkatalog som täcker flera mattefärdigheter och svårighetsnivåer, skriver annonser som rankar i Etsy-sökning, skapar annonsfoton som konverterar besökare till köpare, sätter priser som balanserar konkurrenskraft med lönsamhet och optimerar din butik över tid med Etsys inbyggda analyser.\n\nVarje funktion i alla 6 generatorer finns tillgänglig i den kostnadsfria provversionen med vattenstämpel så att du kan skapa kompletta arbetsblad, utvärdera utskriftskvalitet och planera din produktkatalog innan du köper kommersiella licenser. Den kommersiella licensen tar bort vattenstämplar och ger fulla rättigheter att sälja genererade arbetsblad på Etsy och alla andra marknadsplatser.',
   },

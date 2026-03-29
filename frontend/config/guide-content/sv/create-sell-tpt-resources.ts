@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja Gumroad-resurser',
+    primaryKeyword: 'sälja lärarmaterial online Sverige',
     secondaryKeywords: [
       'hur man säljer på Gumroad',
       'skapa Gumroad-resurser för säljare',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Gumroad sökalgoritm taggar titel beskrivning upptäckbarhet rankning',
       'arbetsbladspaket produktkatalog enhet aktivitetspaket prisstrategi',
     ],
-    titleTag: 'Hur du skapar och säljer Gumroad-resurser — Guide | Online',
+    titleTag: 'Sälja lärarmaterial online | LessonCraftStudio',
     metaDescription: 'Hur du skapar och säljer Gumroad-resurser. Kontouppstart, resursformatering, listningsoptimering, prissättning och att bygga momentum på Gumroad. Prova.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gumroad butiksoptimering',
+    primaryKeyword: 'optimera försäljning lärmaterial online',
     secondaryKeywords: [
       'hur man optimerar sin Gumroad-butik',
       'Gumroad sökalgoritm rankningsfaktorer',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'butikssektioner kategorier navigering bläddringsvänlig organisation',
       'Gumroad analys säsongsplanering datadriven katalogskalningsstrategi',
     ],
-    titleTag: 'Gumroad butiksoptimering guide — Sälj fler resurser',
+    titleTag: 'Optimera försäljning lärmaterial | LessonCraftStudio',
     metaDescription: 'Gumroad butiksoptimeringsstrategier för högre sökrankningar och mer försäljning. Täcker förhandsgranskningskonvertering, produktpaketering, recensionsbyggande.',
   },
 

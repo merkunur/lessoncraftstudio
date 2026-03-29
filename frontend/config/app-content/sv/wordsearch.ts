@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ordletar generator',
+    primaryKeyword: 'ordpussel-generator att sälja på Etsy och KDP',
     secondaryKeywords: [
-      'ordletarpussel arbetsblad sälja på Etsy',
-      'ordletar generator för Amazon KDP utgivare',
-      'ordletarpussel arbetsblad kommersiell licens',
-      'utskrivbara ordletarpussel skapa för Gumroad',
+      'ordletar arbetsblad att sälja på Etsy',
+      'ordpussel med bilder för Amazon KDP-böcker',
+      'ordletarblad generator kommersiell licens',
+      'ordpusselbok att publicera på KDP',
+      'ordletar printables att sälja online',
     ],
     lsiKeywords: [
-      'digitala ordletarpussel produkter onlineföretag',
-      'utskrivbara gömda-ord rutnät arbetsblad företag',
-      'ordletar generator kommersiellt bruk',
+      'passiv inkomst ordpussel',
+      'printables-verksamhet ordsök',
+      'flerspråkiga ordletarpussel produktlinje',
+      'svenska marknaden ordpussel Etsy',
     ],
-    titleTag: 'Ordletar Generator | Skapa och Sälj Ordpussel — Säljguide',
+    titleTag: 'Ordpussel att sälja på Etsy och KDP | LessonCraftStudio',
     metaDescription:
-      'Skapa ordletararbetsblad att sälja på Etsy, KDP och Gumroad. Justerbart rutnät 5–30, riktningskontroller, språkmedvetna fyllnadsbokstäver. Gratis provversion.',
+      'Skapa ordpussel med bilder att sälja på Etsy och KDP. Justerbart rutnät 5–30, 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Ordletar Arbetsblad Generator för Gömda-Ord Rutnätspussel',
+    title: 'Skapa ordpussel med bilder att sälja på Etsy och Amazon KDP',
     tagline: 'Justerbara rutnät från 5×5 till 30×30 med diagonal- och bakåtriktningskontroller — bygg den perfekta svårighetsgraden för varje målgrupp.',
     description:
-      'Designa professionella ordletararbetsblad där gömda ord är inbäddade i ett rutnät av slumpmässiga fyllnadsbokstäver och användarna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska pusselformatet som aldrig går ur mode. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med upp till 8 egna ord. Justera rutnätet från 5×5 för snabba uppvärmningar till 30×30 för riktiga utmaningar, och växla diagonala ord samt bakåtvända ord på eller av för att finjustera svårigheten över fyra till åtta möjliga placeringsriktningar. Tre visningslägen — ord plus bilder, enbart bilder eller enbart ord — styr hur ledtrådarna visas bredvid rutnätet. Full Access låser upp alla 11 språk som stöds, där både de gömda orden och rutnätets fyllnadsbokstäver ändras efter språk: svenska rutnät inkluderar å, ä, ö vid naturliga frekvensvikter, tyska rutnät inkluderar ä, ö, ü och varje annat språk använder sin autentiska teckenuppsättning. Ett färgkodat facit markerar varje hittat ord i en av sex roterande färger för omedelbar visuell verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer tematiska pusselpaket på Etsy, sammanställer ordletarböcker för Amazon KDP eller skapar nivågrupperade ordförrådsstationer för Gumroad — Ordletar Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa ordpussel med bilder att sälja på Etsy eller sammanställa i ordpusselböcker för Amazon KDP — det klassiska formatet som aldrig går ur mode och säljer konsekvent året runt. Välj bland mer än 3 100 illustrationer i 104 teman som bildledtrådar, justera rutnätet från 5×5 till 30×30, och växla diagonaler och bakåtvända ord för att finjustera svårigheten. Svenska rutnät inkluderar å, ä och ö vid naturliga frekvensvikter — en funktion som inga konkurrenter erbjuder. Tre visningslägen styr hur ledtrådar visas: ord plus bilder, enbart bilder eller enbart ord. Stöd för 11 språk gör det möjligt att sälja samma produktformat på flera marknader. Färgkodat facit ingår automatiskt. Exportera tryckfärdiga PDF:er i 400+ DPI i Letter eller A4. Ordpussel på svenska för Etsy har i princip noll konkurrens — var först på denna marknad. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

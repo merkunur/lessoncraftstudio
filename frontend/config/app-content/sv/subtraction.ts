@@ -2,28 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraktions arbetsblad generator',
+    primaryKeyword: 'generator subtraktionsblad att sälja på Etsy',
     secondaryKeywords: [
-      'subtraktions arbetsblad sälja på Etsy',
-      'subtraktions arbetsblad generator för Amazon KDP',
-      'överstrykning arbetsblad kommersiell licens',
-      'utskrivbara subtraktionsarbetsblad skapa för Gumroad',
+      'skapa minusräkningsblad för Etsy-shop',
+      'subtraktionsövningar för Amazon KDP',
+      'matteblad minusräkning med kommersiell licens',
+      'arbetsblad matematik att sälja online',
     ],
     lsiKeywords: [
-      'digitala matteprodukter för entreprenörer',
-      'utskrivbara subtraktionsaktiviteter onlineföretag',
-      'subtraktions arbetsblad generator kommersiellt bruk',
+      'passiv inkomst subtraktionsblad',
+      'printables-verksamhet subtraktion',
+      'överstrykning pedagogiska printables',
+      'svenska marknaden mattearbetsblad',
     ],
-    titleTag: 'Subtraktions Arbetsblad Generator | Skapa och Sälj',
+    titleTag: 'Subtraktionsblad — Sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa subtraktionsarbetsblad att sälja på Etsy, KDP och Gumroad. 4 lägen med överstrykning, 104 teman, facit, gråskala, 400+ DPI. Gratis provversion med.',
+      'Skapa subtraktionsblad att sälja på Etsy och KDP. Tematiska bilder, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Subtraktions Arbetsblad Generator med Överstrykning',
+    title: 'Generera subtraktionsblad att sälja på Etsy, KDP och mer',
     tagline: 'Gör subtraktion konkret med arbetsblad där användarna stryker över bilder för att hitta svaret.',
     description:
-      'Skapa bildbaserade subtraktionsarbetsblad som gör konceptet \"ta bort\" synligt och begripligt genom en kraftfull visuell metod: överstrykning. användarna ser en grupp bilder och observerar diagonala kryss över de borttagna elementen — vilket gör det abstrakta konceptet subtraktion konkret och intuitivt. Välj mellan fyra övningslägen — Överstrykning, Bild − Tal, Hitta Subtrahenden och Blandat Läge — för att vägleda lärandet från förskola till årskurs 2. Utforska mer än 3 100 noggrant utvalda illustrationer i 104 teman som dinosaurier, havsdjur och fordon. Varje arbetsblad innehåller ett automatiskt genererat facit, och du kan exportera tryckfärdiga PDF:er i Letter-, Kort- (800×1000) eller A4-format med mer än 400 DPI. En inbyggd gråskaleknapp gör det möjligt att skapa bläckvänliga svartvita versioner med ett klick. Oavsett om du säljer temapaket på Etsy.se, publicerar aktivitetsböcker på Amazon KDP eller skriver ut övningsblad åt dina kunder — Subtraktions Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Gör subtraktion till en säljbar produkt med en generator skapad för printables-entreprenörer. Skapa illustrerade subtraktionsblad med tematiska bilder från över 100 kategorier — djur, fordon, mat, natur — som gör matematiken engagerande och dina Etsy-annonser oemotståndliga. Varje arbetsblad exporteras som utskriftsklar PDF i 400+ DPI med automatiskt facit, redo att laddas upp på Etsy, sammanställas i en aktivitetsbok för Amazon KDP, eller erbjudas via din egen webbshop. Den kommersiella licensen ingår med varje arbetsblad. Välj mellan fyra övningslägen — Överstrykning, Bild − Tal, Hitta Subtrahenden och Blandat Läge — för att vägleda lärandet från förskola till årskurs 2. Lönsamt tips: kombinera addition och subtraktion i paket — säljare rapporterar betydligt högre genomsnittliga ordervärden med kombinerade mattepaket. Den svenska marknaden erbjuder enorm potential med minimal konkurrens. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

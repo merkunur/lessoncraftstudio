@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'algebrapussel arbetsblad generator',
+    primaryKeyword: 'generator matteblad för Etsy- och KDP-säljare',
     secondaryKeywords: [
-      'utskrivbara algebrapussel med bilder för Etsy säljare',
-      'algebraiska ekvationsarbetsblad generator för Amazon KDP',
-      'algebrapussel med bilder sälja på Gumroad',
-      'algebrapussel printables kommersiell licens',
+      'algebrapussel arbetsblad att sälja på Etsy',
+      'mattearbetsblad generator för Amazon KDP-böcker',
+      'bildalgbrauppsättningar kommersiell licens',
+      'utskrivbara ekvationspussel att sälja online',
+      'matteblad med bilder för printables-verksamhet',
     ],
     lsiKeywords: [
-      'digitala algebraprodukter onlineföretag',
-      'utskrivbara ekvationspussel business',
-      'kommersiellt bruk algebraisk arbetsblad generator',
+      'passiv inkomst algebrapussel',
+      'printables-verksamhet mattearbetsblad',
+      'visuella ekvationer produktlinje',
+      'svenska marknaden matteblad Etsy',
     ],
-    titleTag: 'Algebrapussel Generator | Mattearbetsblad Skapare | Online',
+    titleTag: 'Matteblad att sälja på Etsy och KDP | LessonCraftStudio',
     metaDescription:
-      'Skapa algebrapussel arbetsblad att sälja på Etsy, KDP och Gumroad. Bilder som variabler, 4 svårighetsnivåer, unika lösningar. Gratis provversion med vattenstämp',
+      'Skapa algebrapussel matteblad att sälja på Etsy och KDP. 4 svårighetsnivåer, unika lösningar, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Algebrapussel Arbetsblad Generator för Visuella Ekvationer',
+    title: 'Skapa matteblad med algebrapussel att sälja på Etsy och KDP',
     tagline: 'Gör tidig algebra till ett visuellt äventyr — bilder blir variabler, och varje pussel har exakt en lösning.',
     description:
-      'Skapa engagerande algebraiska bildpussel arbetsblad där bilder fungerar som okända variabler i ett system av ekvationer. användarna löser kopplade ekvationer för att bestämma det numeriska värdet av varje bild — så förvandlas abstrakt algebra till en konkret, visuell tankeprocess. Välj bland fyra svårighetsnivåer: Mycket Lätt och Lätt använder två symboler, Medel introducerar tre symboler, och Svår utmanar användarna med fyra simultana okända. Välj uppgifter med enbart addition eller blanda addition och subtraktion för avancerad övning, och ställ in talintervallet exakt från 0 till 20 med en valfri omkopplare för negativa resultat. Den inbyggda algebraiska lösaren garanterar att varje pussel har exakt en korrekt lösning — ingen tvetydighet, ingen gissning. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman att använda som algebraiska symboler, eller ladda upp egna bilder för ett varumärkesanpassat utseende. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med 400+ DPI i Letter-, A4- eller anpassade format. Oavsett om du säljer tematiska pusselpaket på Etsy.se, sammanställer progressiva algebraböcker för Amazon KDP, eller skapar nivågrupperade mattestationer för ditt produktlinje — Mattearbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa algebrapussel arbetsblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Bilder fungerar som okända variabler i kopplade ekvationer — ett unikt format som sticker ut i sökresultat och lockar köpare som söker engagerande matteprodukter. Välj bland fyra svårighetsnivåer från Mycket Lätt till Svår, blanda addition och subtraktion, och ställ in talintervallet från 0 till 20. Den inbyggda algebraiska lösaren garanterar att varje pussel har exakt en korrekt lösning — ingen manuell kontroll behövs. Bläddra bland mer än 3 100 illustrationer i 104 teman att använda som algebraiska symboler, eller ladda upp egna bilder för ditt varumärke. Varje arbetsblad genererar automatiskt facit och exporteras i 400+ DPI. Den svenska marknaden för pedagogiska pussel på Etsy har i princip noll konkurrens — du kan vara först med algebrapussel på svenska. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

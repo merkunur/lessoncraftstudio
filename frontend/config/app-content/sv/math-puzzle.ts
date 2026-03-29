@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mattepussel arbetsblad generator',
+    primaryKeyword: 'generator mattepussel att sälja på Etsy',
     secondaryKeywords: [
-      'utskrivbara mattepussel arbetsblad för Etsy säljare',
-      'bildpussel arbetsblad generator för Amazon KDP',
-      'mattepussel arbetsblad sälja på Gumroad',
-      'mattepussel printables kommersiell licens',
+      'mattepussel arbetsblad för Etsy-säljare',
+      'bildpussel matte för Amazon KDP-böcker',
+      'mattepussel generator kommersiell licens',
+      'pusselblad matematik att sälja online',
+      'matteaktivitetsbok pussel för KDP',
     ],
     lsiKeywords: [
-      'digitala mattepussel produkter onlineföretag',
-      'utskrivbara pusselarbetsblad business',
-      'kommersiellt bruk mattepussel generator',
+      'passiv inkomst mattepussel',
+      'printables-verksamhet pusselblad',
+      'visuella matteutmaningar produktlinje',
+      'svenska marknaden mattepussel Etsy',
     ],
-    titleTag: 'Mattepussel Generator | Skapa och Sälj Printables | Online',
+    titleTag: 'Mattepussel att sälja på Etsy och KDP | LessonCraftStudio',
     metaDescription:
-      'Skapa mattepussel arbetsblad att sälja på Etsy, KDP och Gumroad. Bildpussel med addition och subtraktion, justerbara rutnät. Gratis provversion med vattenstämpe',
+      'Skapa mattepussel arbetsblad att sälja på Etsy och KDP. Bildpussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Mattepussel Arbetsblad Generator för Visuella Matteutmaningar',
+    title: 'Skapa mattepussel arbetsblad att sälja på Etsy och Amazon KDP',
     tagline: 'Kombinera matteövning med pusselglädje — varje bit innehåller en matteuppgift, varje lösning avslöjar bilden.',
     description:
-      'Skapa engagerande mattepussel arbetsblad där en bild delas upp i ett rutnät av bitar, var och en med en additions- eller subtraktionsuppgift. användarna löser uppgifterna och kopplar de numrerade svaren till de blandade pusselbitarna under rutnätet — så förvandlas rutinmässigt räknande till ett visuellt mysterium. Konfigurera rutnätsstorlekar från 2×2 till 4×4 för att skapa pussel med 4 till 16 bitar, och välj addition, subtraktion eller blandade operationer för att anpassa till varje färdighetsnivå. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman som bondgårdsdjur, rymden, dinosaurier och högtider för att göra varje pussel unikt. Varje arbetsblad genererar ett automatiskt facit med det lösta rutnätet bredvid den fullständigt sammansatta bilden. Exportera tryckfärdiga PDF:er och JPEG:er med 400+ DPI i Letter-, A4- eller anpassade format. Oavsett om du säljer tematiska pusselpaket på Etsy.se, sammanställer progressiva aktivitetsböcker för Amazon KDP, eller skapar praktiska mattestationer för ditt produktlinje — Mattepussel Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa mattepussel att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP — ett unikt format där en bild delas upp i pusselbitar med matteuppgifter. Köparna löser additions- och subtraktionsuppgifter för att sätta ihop bilden, vilket förvandlar rutinmässigt räknande till ett engagerande visuellt pussel. Konfigurera rutnätsstorlekar från 2×2 till 4×4, välj bland mer än 3 100 illustrationer i 104 teman, och exportera tryckfärdiga PDF:er i 400+ DPI med automatiskt facit. Mattepussel sticker ut i sökresultat på Etsy tack vare det unika formatet — köpare letar efter engagerande alternativ till vanliga räkneblad. Den svenska marknaden har i princip noll konkurrens för denna typ av produkt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ordmix generator',
+    primaryKeyword: 'blandade bokstäver-pussel att sälja på Etsy',
     secondaryKeywords: [
-      'ordmix arbetsblad sälja på Etsy',
+      'ordmix arbetsblad för Etsy-säljare',
       'bokstavspussel generator för Amazon KDP',
-      'ordmix arbetsblad kommersiell licens',
-      'utskrivbara stavningspussel skapa för Gumroad',
+      'stavningspussel med bilder kommersiell licens',
+      'ordmix printables att sälja online',
+      'bokstavsomflyttning pusselbok för KDP',
     ],
     lsiKeywords: [
-      'digitala stavningsprodukter för entreprenörer',
-      'utskrivbara bokstavsomflyttning onlineföretag',
-      'ordmix generator kommersiellt bruk',
+      'passiv inkomst stavningspussel',
+      'printables-verksamhet ordmix',
+      'flerspråkiga bokstavspussel produktlinje',
+      'svenska marknaden ordpussel Etsy',
     ],
-    titleTag: 'Ordmix Generator | Skapa och Sälj Stavningspussel | Online',
+    titleTag: 'Bokstavspussel att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa ordmix-arbetsblad att sälja på Etsy, KDP och Gumroad. Bildledtrådar, blandade bokstavsplattor, vokal-konsonant-färgkodning, 11 språk. Gratis provversion.',
+      'Skapa blandade bokstäver-pussel att sälja på Etsy och KDP. Bildledtrådar, 4 svårighetsnivåer, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Ordmix Arbetsblad Generator för Bokstavsomflyttning och Stavningspussel',
+    title: 'Skapa blandade bokstäver-pussel att sälja på Etsy och KDP',
     tagline: 'Blandade bokstavsplattor möter bildledtrådar — fyra svårighetsnivåer och vokal-konsonant-färgkodning förvandlar varje ord till ett praktiskt stavningspussel.',
     description:
-      'Designa professionella ordmix-arbetsblad där användarna ser en bildledtråd och ordnar om blandade bokstavsplattor för att stava det korrekta ordet — ett bokstavsomflyttningspussel som bygger stavningsprecision, ordigenkänning och fonologisk medvetenhet samtidigt. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med upp till 8 egna ord. Fyra svårighetsnivåer styr hur många ledtrådsbokstäver som redan placerats korrekt — från inga ledtrådar alls till enkelt läge som placerar hälften av bokstäverna — och skapar naturlig progression från nybörjare till avancerad. Vokal-konsonant-färgkodningen är unik för Ordmix: aktivera färgade plattor där vokaler visas i en färg och konsonanter i en annan, vilket lägger till en visuell fonikdimension som hjälper användarna att identifiera bokstavstyper medan de löser pusslet. Placera 1 till 10 pussel per arbetsblad och välj mellan versaler och gemener i bokstavsplattorna. Full Access låser upp alla 11 språk som stöds, och eftersom Ordmix är språkkänsligt ändras själva målordet efter språk — \"dog\" på engelska blir \"Hund\" på tyska, \"chien\" på franska och \"hund\" på svenska — vilket gör varje språkversion till en unik, säljbar produkt. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska stavningspaket på Etsy, sammanställer ordpusselböcker för Amazon KDP eller skapar nivågrupperade lässtationer för Gumroad — Ordmix Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa ordmix-pussel att sälja på Etsy eller sammanställa i ordpusselböcker för Amazon KDP. Köparna ser en bildledtråd och ordnar om blandade bokstavsplattor för att stava det korrekta ordet — ett engagerande format som bygger stavningsprecision och ordigenkänning. Fyra svårighetsnivåer styr hur många ledtrådsbokstäver som redan placerats — från inga ledtrådar till enkelt läge med hälften placerade. Vokal-konsonant-färgkodning är en unik funktion som särskiljer dina produkter. Eftersom Ordmix är språkkänsligt ändras målordet efter språk — \"dog\" blir \"hund\" på svenska — vilket gör varje språkversion till en unik produkt. Stöd för 11 språk, mer än 3 100 bilder i 104 teman, automatiskt facit och export i 400+ DPI. Den svenska marknaden för stavningspussel på Etsy har minimal konkurrens. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

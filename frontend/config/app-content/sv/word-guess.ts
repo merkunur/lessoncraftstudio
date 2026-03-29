@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gissa ordet generator',
+    primaryKeyword: 'ordgissningsspel att sälja på Etsy',
     secondaryKeywords: [
-      'gissa ordet arbetsblad sälja på Etsy',
-      'ordgissning arbetsblad generator för Amazon KDP',
-      'gissa ordet arbetsblad kommersiell licens',
-      'utskrivbara ordpussel skapa för Gumroad',
+      'gissa ordet arbetsblad för Etsy-säljare',
+      'ordgissningspussel generator för Amazon KDP',
+      'ordgissningsspel kommersiell licens',
+      'vokabulärpussel printables att sälja online',
+      'ordgissningsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala vokabulärprodukter för entreprenörer',
-      'utskrivbara ordgissningsaktiviteter onlineföretag',
-      'ordpussel generator kommersiellt bruk',
+      'passiv inkomst ordgissningspussel',
+      'printables-verksamhet vokabulärblad',
+      'flerspråkiga ordspel produktlinje',
+      'svenska marknaden ordpussel Etsy',
     ],
-    titleTag: 'Gissa Ordet Generator | Skapa och Sälj Ordpussel Online',
+    titleTag: 'Ordgissningsspel att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa gissa ordet-arbetsblad att sälja på Etsy, KDP och Gumroad. Bildledtrådar, 4 svårighetsnivåer, 3 innehållskällor, 11 språk. Gratis provversion med.',
+      'Skapa ordgissningsspel att sälja på Etsy och KDP. Bildledtrådar, 4 svårighetsnivåer, 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Gissa Ordet Arbetsblad Generator för Bildbaserade Vokabulärpussel',
+    title: 'Skapa ordgissningsspel att sälja på Etsy och Amazon KDP',
     tagline: 'Hänga gubbe-stil möter bildledtrådar — fyra svårighetsnivåer förvandlar varje ord till ett engagerande pussel.',
     description:
-      'Designa professionella gissa ordet-arbetsblad där användarna ser en bildledtråd och gissar det dolda ordet genom att fylla i tomma bokstavsceller — ett hänga gubbe-liknande pussel som bygger stavning, ordförråd och deduktivt tänkande samtidigt. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med valfritt ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga ledtrådar alls till enkelt läge som visar hälften av bokstäverna — och skapar naturlig progression från nybörjare till avancerad. Placera 1 till 10 pussel per arbetsblad och växla mellan versaler och gemener i bokstavsrutnätet. Full Access låser upp alla 11 språk som stöds, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk — \"dog\" på engelska blir \"Hund\" på tyska, \"chien\" på franska och \"hund\" på svenska — vilket gör varje språkversion till en unik, säljbar produkt. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska vokabulärpaket på Etsy.se, sammanställer ordpusselböcker för Amazon KDP eller skapar nivågrupperade lässtationar för Gumroad — Gissa Ordet Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa ordgissningsspel att sälja på Etsy eller sammanställa i vokabulärpusselböcker för Amazon KDP. Köparna ser en bildledtråd och fyller i tomma bokstavsceller för att gissa det dolda ordet — ett hänga gubbe-liknande format som bygger stavning och ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga alls till hälften. Eftersom Gissa Ordet är språkkänsligt ändras målordet efter språk — \"dog\" blir \"hund\" på svenska — vilket gör varje språkversion till en unik produkt. Välj bland mer än 3 100 illustrationer i 104 teman, placera 1 till 10 pussel per blad, och exportera i 400+ DPI med automatiskt facit. Stöd för 11 språk öppnar flera marknader med samma produktformat. Den svenska marknaden för ordgissningsspel på Etsy saknar konkurrenter. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

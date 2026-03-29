@@ -2,28 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kodadditions arbetsblad generator',
+    primaryKeyword: 'hemliga kodpussel matte att sälja på Etsy',
     secondaryKeywords: [
-      'utskrivbara mattepussel arbetsblad för Etsy',
-      'kodadditions arbetsblad för Amazon KDP',
-      'mattepussel generator för Gumroad säljare',
-      'kodadditions arbetsblad kommersiell licens',
+      'kodadditions arbetsblad generator för Etsy-säljare',
+      'mattepussel med hemlig kod för Amazon KDP',
+      'kodknäckningspussel matte kommersiell licens',
+      'Avslöja Ord mattepussel att sälja online',
     ],
     lsiKeywords: [
-      'pedagogiska pussel printables affärsidéer',
-      'mattepussel sälja online',
-      'mattepussel arbetsbok generator',
+      'kryptaritmetik arbetsblad printables',
+      'passiv inkomst mattepussel',
+      'flerspråkiga kodpussel verksamhet',
+      'svenska marknaden pusselblad',
     ],
-    titleTag: 'Kodaddition Generator | Mattepussel att Knäcka — Säljguide',
+    titleTag: 'Kodpussel matte att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa kodadditions arbetsblad för Etsy, KDP och Gumroad. Avslöja Ord läge, 104 teman, 11 språk, facit, 400+ DPI. Gratis provversion med vattenstämpel.',
+      'Skapa hemliga kodpussel med matte att sälja på Etsy och KDP. Avslöja Ord i 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Kodadditions Arbetsblad Generator — Mattepussel att Knäcka',
+    title: 'Skapa hemliga kodpussel med matte att sälja på Etsy och KDP',
     tagline: 'Förvandla addition till ett detektivuppdrag där varje bild döljer ett hemligt nummer.',
     description:
-      'Skapa kryptaritmetiska additions arbetsblad som utmanar användarna att knäcka en visuell kod. Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer — användarna löser additionsuppgifter för att ta reda på vilket nummer varje bild står för, där räknefärdighet och logiskt resonemang smälter samman i en och samma övning. Byt till Avslöja Ord läget och utmaningen växer: skriv ett hemligt ord på upp till tio bokstäver, och varje korrekt löst ekvation avslöjar en bokstav i svaret, medan tre vilseledande ekvationer med felaktiga summor höjer spänningen. Generatorn stöder elva språkspecifika alfabet, vilket gör att Avslöja Ord läget fungerar inbyggt på svenska, engelska, tyska, franska och sju andra språk — en funktion som ingen annan arbetsblad generator erbjuder. Det svenska alfabetet innehåller å, ä och ö, så hemliga ord med dessa bokstäver fungerar naturligt. Välj bland mer än 3 100 bilder i 104 teman, konfigurera talintervall från 1 till 20 med två till fem kodsymboler per arbetsblad, och exportera tryckfärdiga PDF:er eller JPEG:er med mer än 400 DPI med automatiska facit. Gratis provversion med alla funktioner — utan registrering, utan kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa kodknäckningspussel med matte att sälja på Etsy och Amazon KDP — ett unikt produktformat som sticker ut bland vanliga additionsblad. Varje bild på arbetsbladet döljer ett hemligt nummer, och köparna löser additionsuppgifter för att knäcka koden. Byt till Avslöja Ord läget för att dölja ett hemligt ord — varje löst ekvation avslöjar en bokstav, medan tre vilseledande ekvationer höjer spänningen. Generatorn stöder elva språkspecifika alfabet med å, ä och ö inbyggt för svenska. Välj bland mer än 3 100 bilder i 104 teman, konfigurera talintervall från 1 till 20 med två till fem kodsymboler per arbetsblad, och exportera tryckfärdiga PDF:er i 400+ DPI med automatiska facit. Kodknäckningsformatet är oemotståndligt i produktminiatyrer på Etsy och särskiljer dina produkter från alla konkurrenter. Den svenska marknaden för pedagogiska pussel på Etsy är i princip obefintlig — du kan vara först. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

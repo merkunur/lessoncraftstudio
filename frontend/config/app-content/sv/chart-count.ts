@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bilddiagram generator',
+    primaryKeyword: 'räkne- och diagramblad för Etsy-shop',
     secondaryKeywords: [
-      'utskrivbara bilddiagram arbetsblad sälja på Etsy',
-      'bilddiagram generator för Amazon KDP-publicerare',
-      'sälja bilddiagram aktiviteter på Gumroad',
-      'datarepresentation arbetsblad skapare kommersiell licens',
+      'bilddiagram arbetsblad att sälja på Etsy',
+      'diagramräkning generator för Amazon KDP',
+      'piktogram arbetsblad kommersiell licens',
+      'stapeldiagram aktiviteter att sälja online',
+      'räkneblad med diagram för printables-verksamhet',
     ],
     lsiKeywords: [
-      'digitala piktogram utskriftsbara produkter onlineföretag',
-      'utskrivbara diagramräkning arbetsblad affärsverktyg',
-      'kommersiellt bruk bilddiagram generator med facit',
+      'passiv inkomst diagramarbetsblad',
+      'printables-verksamhet dataövning',
+      'visuell räkning produktlinje',
+      'svenska marknaden diagramblad Etsy',
     ],
-    titleTag: 'Bilddiagram Generator | Skapa Diagramräkning Arbetsblad',
+    titleTag: 'Diagramblad att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa bilddiagram arbetsblad att sälja på Etsy, KDP och Gumroad. Automatiskt facit med markeringar, 104 teman, 6 bildtyper per blad. Gratis provversion med.',
+      'Skapa räkne- och diagramblad att sälja på Etsy och KDP. Bilddiagram med automatiskt facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Bilddiagram Arbetsblad Generator för Utskrivbara Diagramräkning Aktiviteter',
+    title: 'Skapa räkne- och diagramblad att sälja på Etsy och KDP',
     tagline: 'Dubbelarbetsyta piktogram-skapare — generera spridda bildsrutnät med 6 bildtyper, automatiskt ifyllda stapeldiagram-facit, lokaliserade rubriker på 11 språk och 104 tematiska bildsamlingar för datarepresentation arbetsblad.',
     description:
-      'Förvandla visuell räkning till en komplett datafärdighetsaktivitet med den enda arbetsblad-generatorn som är byggd specifikt för bilddiagram. Varje arbetsblad innehåller ett spritt bildsrutnät med 20 ikoner från 6 olika typer arrangerade i ett 4×5-layout — användarna räknar hur många av varje typ som finns, och färglägger sedan motsvarande celler i stapeldiagrammet nedanför. Appen genererar samtidigt ett facit med gulmarkerade celler som visar de korrekta antalen, så säljare kan verifiera ifyllda blad omedelbart. Välj bilder automatiskt genom att välja ett tema från dropdownmenyn Arbetsbladets bildkälla, eller välj manuellt exakt 6 bilder från det bläddringssbara Bildbiblioteket med mer än 3 100 illustrationer i 104 samlingar. Varje arbetsblad inkluderar en automatiskt genererad rubrik med en lokaliserad \"Bilddiagram\"-titel och räkningsinstruktioner — rubriken anpassas till alla 11 stödda språk automatiskt. Lägg till namn- och datumfält med en enda kryssruta, applicera bakgrunds- och ramteman med oberoende opacitetskontroller, och anpassa med textverktyg och frihands arbetsyteredigering. Diagramräkning Generatorn är inte språkkänslig — visuell räkning använder universella siffror och bilder, så arbetsbladen fungerar identiskt på varje språk. Samma bilddiagram arbetsblad kan användas globalt utan översättning — ett enda skapandeflöde betjänar varje marknad utan språkspecifika varianter. Språkbytet påverkar bara gränssnittsetiketterna i generatorn, den automatiskt genererade rubrikens titel och instruktioner, samt bildbiblioteksets innehållsetiketter, inte arbetsbladets resultat i sig. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI via 6× renderingsmultiplikator i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Ladda ner alla fyra filer — arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — i en enda session. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal variation över bilddiagram-paket. För säljare erbjuder kombinationen av dubbelarbetsyta-generering, automatiskt facit och 104 tematiska bildsamlingar ett unikt produktformat som tydligt skiljer sig från manuellt skapade räkneblad. Oavsett om du säljer bilddiagram-paket på Etsy, sammanställer datafärdighets-arbetsböcker för Amazon KDP eller skapar mattestationsaktiviteter för Gumroad — Diagramräkning Generatorn levererar produktlinjesfärdiga resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa professionella räkne- och diagramblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Varje arbetsblad innehåller ett spritt bildsrutnät med 20 ikoner från 6 olika typer — köparna räknar varje typ och fyller i stapeldiagrammet. Appen genererar automatiskt ett facit med gulmarkerade celler, så du slipper kontrollera manuellt. Välj bland mer än 3 100 illustrationer i 104 teman eller välj manuellt exakt 6 bilder. Bilddiagram är inte språkkänsliga — samma arbetsblad fungerar globalt utan översättning, vilket gör det möjligt att sälja samma produkt på alla marknader. Exportera tryckfärdiga PDF:er i Letter, A4 eller anpassade storlekar. Den svenska marknaden för pedagogiska diagramblad på Etsy saknar i princip konkurrenter — en outnyttjad nisch med hög potential. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

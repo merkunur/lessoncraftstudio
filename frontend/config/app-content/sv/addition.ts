@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'additions arbetsblad generator',
+    primaryKeyword: 'skapa additionsblad att sälja på Etsy',
     secondaryKeywords: [
-      'additions arbetsblad sälja på Etsy',
-      'mattearbetsblad generator för Amazon KDP',
-      'additions arbetsblad kommersiell licens',
-      'utskrivbara mattearbetsblad skapa för Gumroad',
+      'generator matteblad addition för Etsy-säljare',
+      'räkneblad addition för Amazon KDP',
+      'övningsblad plusräkning med kommersiell licens',
+      'skapa pysselbok med matte för KDP',
+      'matteblad att sälja online',
     ],
     lsiKeywords: [
-      'digitala matteprodukter för entreprenörer',
-      'utskrivbara aktiviteter onlineföretag',
-      'arbetsblad generator kommersiellt bruk',
+      'passiv inkomst mattearbetsblad',
+      'printables-verksamhet addition',
+      'utskrivbara matteprodukter kommersiellt bruk',
+      'svenska marknaden pedagogiska printables',
     ],
-    titleTag: 'Additions Arbetsblad Generator | Skapa och Sälj Online',
+    titleTag: 'Skapa additionsblad att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa additions arbetsblad att sälja på Etsy, KDP och Gumroad. 104 teman, 4 övningslägen, facit, export 400+ DPI. Gratis provversion med vattenstämpel.',
+      'Skapa professionella additionsblad att sälja på Etsy och KDP. Kommersiell licens ingår. Testa gratis med vattenmärke — inget konto krävs.',
   },
 
   hero: {
-    title: 'Additions Arbetsblad Generator för Visuell Matteövning',
+    title: 'Skapa och sälj professionella additionsblad på Etsy och Amazon KDP',
     tagline: 'Förvandla addition till ett visuellt äventyr med bildbaserade mattearbetsblad.',
     description:
-      'Skapa bildbaserade additions arbetsblad som gör tidiga mattekoncept konkreta och roliga för unga användare. Välj mellan fyra olika övningslägen — Bild + Bild, Bild + Tal, Hitta Termen och Blandat Läge — för att anpassa till varje nivå från förskola till årskurs 2. Utforska mer än 3 100 noggrant utvalda illustrationer i 104 teman som bondgårdsdjur, fordon och mat för att göra varje matteproblem levande. Varje arbetsblad innehåller ett automatiskt genererat facit, och du kan exportera tryckfärdiga PDF:er i Letter-, A4- eller anpassat format med mer än 400 DPI. Oavsett om du säljer på Etsy.se, publicerar aktivitetsböcker på Amazon KDP eller delar ut arbetsblad till dina kunder — Additions Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa arbetsblad med addition att sälja på Etsy eller Amazon KDP — och generera dem på under 3 minuter. Denna generator skapar övningsblad med tematiska bilder från ett bibliotek med över 3 000 illustrationer som tilltalar barn och övertygar föräldrar att köpa. Exportera utskriftsklara PDF:er i 400+ DPI med automatiskt genererat facit och sälj dem med den medföljande kommersiella licensen — ingen namnangivelse krävs, inga begränsningar. Välj mellan fyra olika övningslägen — Bild + Bild, Bild + Tal, Hitta Termen och Blandat Läge — för att anpassa till varje nivå från förskola till årskurs 2. Den svenskspråkiga marknaden för pedagogiska utskrivbara material på Etsy är i princip obefintlig: det finns knappt några säljare som erbjuder arbetsblad på svenska. Med 10,5 miljoner svenskar som är extremt digitalt vana och köpvilliga online är detta en unik möjlighet att vara först på en outnyttjad marknad med hög intäkt per kund. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

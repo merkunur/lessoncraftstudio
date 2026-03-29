@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'alfabetståg arbetsblad skapare för barn',
+    primaryKeyword: 'gratis alfabetsblad generator',
     secondaryKeywords: [
-      'alfabetståg skapare online',
-      'bokstavsigenkänning arbetsblad för barn',
-      'utskrivbart alfabetståg för förskolan',
-      'alfabet matchning arbetsblad skapare för säljare',
+      'alfabetsblad generator gratis online',
+      'alfabetståg arbetsblad skapa gratis',
+      'bokstavsövning skriva ut gratis',
+      'gratis alfabetståg med bilder',
     ],
     lsiKeywords: [
-      'bokstav-bild matchning tågarbetsblad för barn',
-      'flerspråkig alfabet aktivitet online',
-      'färgglatt alfabetståg utskriftsbart för förskolan',
+      'gratis bokstavsövning online',
+      'alfabetståg att skriva ut',
+      'bokstavsigenkänning gratis',
     ],
-    titleTag: 'Alfabetståg Skapare — Bokstavsövning för Barn — Säljguide',
-    metaDescription: 'Skapa alfabetståg arbetsblad för bokstavsigenkänning. 11 färgglada vagnar, bokstav-bild matchning, 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Alfabetsblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa alfabetsblad gratis online. 11 tågvagnar, bokstav-bild matchning, svenska ÅÄÖ, 11 språk, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Alfabetståg Arbetsblad Generator',
-    tagline: 'Skapa färgglada bokstavståg-arbetsblad med bild-till-bokstav matchning på 11 språk',
-    description: 'Bygg alfabet arbetsblad som inte ser ut som vanliga bokstavsspårningssidor. Detta verktyg arrangerar 11 livfulla tågvagnar över sidan, var och en med en bokstav och en matchande illustration. Spridda ledtrådsbilder visas bredvid tåget — användarna identifierar vilken bokstav varje bild börjar på och matchar den med rätt vagn. Välj mellan Autoskapa-läge (verktyget väljer slumpmässigt 11 bokstäver och tilldelar matchande bilder) eller Manuellt Val (handplocka varje bokstav från ett fullständigt alfabetsrutnät och tilldela varje bild själv). Justera svårigheten med ledtrådsräknaren: 3 ledtrådar för nybörjare, 5–7 för mellannivå, och 9–11 för avancerade användare som måste matcha nästan varje vagn. Den verkliga styrkan är språkkänslighet — välj bland 11 inhemska alfabet inklusive svenska (Å/Ä/Ö), tyska (Ä/Ö/Ü), spanska (Ñ) och fler. Samma bild paras med olika bokstäver på varje språk: \"hund\" matchar H på svenska men D på engelska (Dog). En arbetsbladsdesign blir 11 unika produkter. Bläddra bland mer än 3 100 bilder i 104 teman, eller ladda upp egna för varumärkta designer. Välj bland 7 typsnittsfamiljer och exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis alfabetsblad generator online',
+    tagline: 'Färgglada bokstavståg med bild-till-bokstav matchning på 11 språk — gratis provversion med vattenmärke',
+    description: 'Skapa alfabetståg — helt gratis att testa online. 11 färgglada tågvagnar med bokstav-bild matchning. Autoskapa eller manuellt val, 3–11 justerbara ledtrådar. Språkkänslig: svenska med ÅÄÖ, tyska med ÄÖÜ. Perfekt för föräldrar som söker bokstavsövningar att skriva ut för förskoleklass, och för Etsy-säljare som vill testa generatorn. Välj bland mer än 3 100 bilder i 104 teman. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

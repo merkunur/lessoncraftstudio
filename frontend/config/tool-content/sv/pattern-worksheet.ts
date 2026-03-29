@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mönsterigenkänning arbetsblad',
+    primaryKeyword: 'gratis mönsterigenkänning arbetsblad',
     secondaryKeywords: [
-      'mönster arbetsblad skapare för säljare',
-      'skapa mönsterkomplettering arbetsblad att sälja',
-      'utskrivbara mönstersekvens arbetsblad kommersiellt bruk',
-      'rutnätsbaserad mönster arbetsblad generator för KDP',
+      'mönsterigenkänning arbetsblad gratis online',
+      'mönsterkomplettering skapa gratis',
+      'mönsterarbetsblad skriva ut gratis',
+      'gratis mönsterövning med bilder',
     ],
     lsiKeywords: [
-      'visuell mönsterigenkänning utskriftsbara för Etsy',
-      'textfri mönsterkomplettering arbetsblad verktyg',
-      'AB ABC ABCD mönstersekvens arbetsblad skapare',
+      'gratis mönsterarbetsblad online',
+      'mönsterkomplettering att skriva ut',
+      'mönsterigenkänning gratis',
     ],
-    titleTag: 'Mönsterigenkänning Arbetsblad Skapare | Skapa och Sälj',
-    metaDescription: 'Generera mönsterarbetsblad med nio typer, två frågelägen, per-övning konfiguration, automatiska facit och 104 temabilder. Gratis provversion med vattenstämpel.',
+    titleTag: 'Mönsterigenkänning gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa mönsterarbetsblad gratis online. Nio mönstertyper, fyll-i-rutan och flerval, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Mönster Arbetsblad Skapare',
-    tagline: 'Generera rutnätsbaserade mönsterigenkännings arbetsblad med nio mönstertyper, två frågelägen, per-övning oberoende konfiguration och helt visuell textfri utmatning som säljer globalt utan översättning',
-    description: 'Skapa professionella mönsterkompletteringsarbetsblad där användarna identifierar upprepande sekvenser och fyller i det saknade objektet eller väljer rätt svar bland flervalsmöjligheter. Nio distinkta mönstertyper täcker det bredaste utbudet av sekvenskomplexitet: AB alternerar två objekt, AAB och ABB introducerar asymmetriska grupperingar, ABC roterar tre olika objekt, AABB parar två av varje, ABBC och AABC lägger till trebild asymmetriska mönster, ABCC utökar med fördubblat slut, och ABCD roterar fyra olika objekt för maximal utmaning. Två frågelägen skapar fundamentalt olika övningar: Tom Ruta ersätter ett objekt med ett tomt utrymme för öppet resonemang, medan Välj bland Alternativ presenterar luckan plus tre svarsval med ett korrekt och två distraktorer. Konfigurera 1–8 övningar per sida med varje övning oberoende inställd för mönstertyp, frågeläge och tema — en sida kan blanda en AB fyll-i uppvärmning med en ABCD flervals utmaning. Aktivera Slumpmässig Start för att börja mönster mitt i cykeln och Slumpmässig Lucka för att placera det saknade objektet var som helst i sekvensen. Varje arbetsblad är helt visuellt med enbart bilder och noll text på utmatningen — inga ord visas, vilket gör dina produkter universellt säljbara utan översättning. Hämta från mer än 3 100 illustrationer i 104 tematiska samlingar eller ladda upp egna bilder. En separat facitflik visar alla luckor fyllda med rätt mönsterobjekt. Exportera tryckfärdiga PDF:er och JPEG-bilder med hög DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis mönsterigenkänning arbetsblad online',
+    tagline: 'Nio mönstertyper med fyll-i-rutan och flerval, per-övning konfiguration — gratis provversion med vattenmärke',
+    description: 'Skapa mönsterkompletteringsblad — helt gratis att testa online. Nio mönstertyper från AB till ABCD med fyll-i-rutan och flerval. 1–8 övningar per sida med oberoende konfiguration. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker mönsterövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

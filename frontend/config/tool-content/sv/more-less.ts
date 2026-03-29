@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'större än mindre än arbetsblad',
+    primaryKeyword: 'gratis mer och mindre arbetsblad',
     secondaryKeywords: [
-      'större än mindre än arbetsblad skapare för säljare',
-      'skapa jämförelsearbetsblad att sälja',
-      'utskrivbara taljämförelse arbetsblad kommersiellt bruk',
-      'mer eller mindre matte arbetsblad generator för KDP',
+      'mer och mindre arbetsblad gratis online',
+      'jämförelsearbetsblad skapa gratis',
+      'större-än mindre-än skriva ut gratis',
+      'gratis jämförelseblad med bilder',
     ],
     lsiKeywords: [
-      'visuella jämförelse utskriftsbara för Etsy',
-      'kvantitetsjämförelse arbetsblad verktyg',
-      'pricka och kryssa matte aktivitet generator',
+      'gratis jämförelseblad online',
+      'mer och mindre att skriva ut',
+      'taljämförelse gratis',
     ],
-    titleTag: 'Större Än Mindre Än Arbetsblad | Sälj Online — Säljguide',
-    metaDescription: 'Skapa visuella större än, mindre än och lika med arbetsblad med bilder på sekunder. Tre lägen inklusive unikt Pricka och Kryssa. Sälj på Etsy, KDP och Gumroad.',
+    titleTag: 'Mer och mindre gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa mer och mindre arbetsblad gratis online. 3 jämförelselägen med bilder, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Större Än Mindre Än Arbetsblad Skapare',
-    tagline: 'Skapa visuella jämförelsearbetsblad med tre övningslägen på under 60 sekunder',
-    description: 'Lär ut större än, mindre än och lika med genom bildbaserade jämförelsearbetsblad som gör abstrakta begrepp konkreta. Detta verktyg genererar tre distinkta övningstyper: Bild mot Bild (jämför två bildgrupper sida vid sida), Bild mot Tal (överbrygga visuell räkning med skrivna siffror), och det unika Pricka och Kryssa Grupper-läget där användarna sorterar en blandad ruta med omflyttade bilder i majoritets- och minoritetskategorier. Välj bland mer än 100 bildteman, ställ in ditt talområde, välj mellan illustrerade eller vanliga jämförelsesymboler och ladda ner tryckfärdiga PDF:er eller högupplösta JPEG-bilder. Eftersom arbetsbladen bara använder bilder, siffror och symboler fungerar de identiskt på alla 11 stödda språk — skapa en gång och sälj till köpare världen över. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis mer och mindre arbetsblad online',
+    tagline: 'Tre visuella jämförelselägen med bilder — gratis provversion med vattenmärke',
+    description: 'Skapa jämförelsearbetsblad — helt gratis att testa online. Tre övningstyper: Bild mot Bild, Bild mot Tal och Pricka och Kryssa Grupper. Fungerar identiskt på alla 11 språk — universellt säljbart. Välj bland mer än 100 bildteman, ställ in talområde och välj jämförelsesymboler. Perfekt för föräldrar som söker matteblad att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

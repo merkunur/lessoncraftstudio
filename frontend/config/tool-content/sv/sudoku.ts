@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bildsudoku för barn',
+    primaryKeyword: 'gratis sudoku med bilder barn',
     secondaryKeywords: [
-      'bildsudoku skapare för säljare',
-      'skapa bildsudoku pussel att sälja',
-      'utskrivbar bildsudoku generator kommersiellt bruk',
-      'bildsudoku arbetsblad skapare för KDP och Etsy',
+      'sudoku med bilder gratis online',
+      'bildsudoku skapa gratis',
+      'bildsudoku skriva ut gratis',
+      'gratis sudoku med bilder för barn',
     ],
     lsiKeywords: [
-      '4x4 rutnät bildlogikpussel skapare',
-      'tre svårighetsnivåer lätt medel svår sudoku skapare',
-      'automatiskt facit komplett fyllt rutnät sudoku generator',
+      'gratis bildsudoku online',
+      'sudoku med bilder att skriva ut',
+      'bildsudoku barn gratis',
     ],
-    titleTag: 'Bildsudoku Skapare — Bildsudoku för Barn Generator',
-    metaDescription: 'Skapa bildsudoku för barn med 4×4 bildrutnät, tre svårighetsnivåer, automatiska facit och 104 tematiska samlingar. Gratis provversion med vattenstämpel.',
+    titleTag: 'Sudoku med bilder gratis barn | LessonCraftStudio',
+    metaDescription: 'Skapa sudoku med bilder gratis online. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Bildsudoku Skapare',
-    tagline: '4×4 bildbaserad sudoku pussel generator med tre svårighetsnivåer (Lätt 4 tomma, Medel 6 tomma, Svår 8 tomma), automatiskt genererade facit med kompletta fyllda rutnät, temabaserat och manuellt bildval över 104 samlingar med mer än 3 100 illustrationer, premiumrutnätsdesign med alternerande blockfärger och flerskiktsade skuggor, och rent visuella pussel som säljer globalt utan översättning',
-    description: 'Skapa professionella bildsudoku för barn där användarna fyller tomma celler med rätt bilder med rad-och-kolumn-logik på ett 4×4 rutnät. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6, Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från 104 tematiska samlingar, eller manuellt val. Premiumrutnätsdesignen har alternerande 2×2-blockfärger i ljusblått (#F8F9FC) och ljusrosa (#FFF5F7), feta mittdelare (#7C8DB5, 3px), lättare inre linjer (#D1D9E6, 1,5px), indigoblå yttre ram (#667EEA) med 18px rundade hörn, och tre flerskiktsade skuggor. Bilder visas med 65% av cellstorleken. Varje pussel genererar en stiliserad \"Bildsudoku\"-rubrik med lila bakgrund (#5E35B1). Dubbelarbetsyte-systemet skapar samtidigt arbetsblad och facit — facit visar det kompletta fyllda 4×4-rutnätet med alla 16 celler. Eftersom bildsudoku är helt visuellt — inga ord på pusselrutnätet — fungerar varje arbetsblad identiskt på alla språk, universellt säljbart. Exportera PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Växla gråskala. 50-stegs ångra/gör om. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    title: 'Gratis sudoku med bilder för barn online',
+    tagline: '4×4 bildsudoku med tre svårighetsnivåer och automatiskt facit — gratis provversion med vattenmärke',
+    description: 'Skapa bildsudoku — helt gratis att testa online. 4×4 rutnät med bilder istället för siffror. Tre svårighetsnivåer: Lätt (4 tomma), Medel (6), Svår (8). Helt visuellt — universellt säljbart utan översättning. Automatiskt facit med komplett fyllt rutnät ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker logikpussel för barn att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

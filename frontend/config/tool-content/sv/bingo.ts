@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bingokort skapare för säljare',
+    primaryKeyword: 'gratis bingo-brickor maker med bilder',
     secondaryKeywords: [
-      'bildbingo kort skapare online',
-      'bingospel skapare för barn',
-      'utskrivbara bingokort för skolan',
-      'anpassad bingokort generator för säljare',
+      'bingo-brickor maker gratis online',
+      'bingokort skapa gratis med bilder',
+      'bildbingo skriva ut gratis',
+      'gratis bingokort generator',
     ],
     lsiKeywords: [
-      'batch bingokort generator för produktlinjesspel',
-      'bild och ord bingokort skapare',
-      'uppropslista bingo arbetsblad skapare',
+      'gratis bingokort online',
+      'bingo-brickor att skriva ut',
+      'bildbingo gratis',
     ],
-    titleTag: 'Bingokort Skapare — Bildbingo online — Skapa Online Gratis',
-    metaDescription: 'Skapa bildbingokort för produktlinjesspel. Rutnät från 3×3 till 5×5, batch unika kort, uppropslistor, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Bingo-brickor gratis med bilder | LessonCraftStudio',
+    metaDescription: 'Skapa bingo-brickor med bilder gratis online. 3×3 till 5×5 rutnät, batch-generering, ZIP-export, uppropslista. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Bingokort Skapare',
-    tagline: 'Bildbingokort generator med konfigurerbara rutnät från 3×3 till 5×5, batch-generering av 1–10 unika kort per set, ZIP-export av alla kort i en nedladdning, dubbla fyllningslägen för celler och cirkulära brickor oberoende, dedikerad uppropslista med dynamiskt ordrutnät och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella bildbingokort där varje spelare får ett unikt kort med olika bilder i olika positioner — väsentligt för att bingo ska fungera som spel. Konfigurera rader 3–5 och kolumner 3–5 oberoende, standard 4×4 (16 celler). Generera 1–10 unika kort per batch, var och ett med annorlunda slumpmässigt bildurval. Exportera alla kort som individuella JPEG-bilder i en enda bingo_cards.zip-fil. Välj Bild- eller Ordfyllning oberoende för både kortceller och cirkulära brickor — skapar fyra distinkta bingokortsstilar. Ordfyllning visar lokaliserade bildnamn, vilket gör Bingokort Skaparen språkkänslig — att byta språk ändrar ord på kort, brickor och uppropslista. Cirkulära brickor har streckade kanter och Fisher-Yates-blandning. En dedikerad uppropslista visar ett dynamiskt ordrutnät för spelledaren. Aktivera anpassat uppropsurval för att handplocka specifika bilder med en levande räknare. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Exportera arbetsblad-JPEG, upprop-JPEG, arbetsblad-PDF, upprop-PDF med 300 DPI, plus ZIP batch-export. Välj Letter, A4, Kvadrat eller anpassade sidstorlekar med gråskaleväxling. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis bingo-brickor maker med bilder online',
+    tagline: 'Batch-generering av 1–10 unika bingokort med ZIP-export och uppropslista — gratis provversion med vattenmärke',
+    description: 'Skapa bildbingokort — helt gratis att testa online. Generera 1–10 unika kort per batch med konfigurerbara rutnät. ZIP-export laddar ner alla kort i en fil. Bild- eller ordfyllning, uppropslista ingår. Språkkänslig: lokaliserade ord på 11 språk. Perfekt för föräldrar och förskollärare som söker bingokort att skriva ut, och för Etsy-säljare som vill testa generatorn. Välj bland mer än 3 100 illustrationer i 104 teman. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

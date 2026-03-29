@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'storleksjämförelse arbetsblad skapare för barn',
+    primaryKeyword: 'gratis stor och liten arbetsblad',
     secondaryKeywords: [
-      'stor och liten arbetsblad för förskolan',
-      'storleksjämförelse skapare online',
-      'utskrivbara storleksordning arbetsblad för barn',
-      'stor liten medium arbetsblad för dagis',
+      'stor och liten arbetsblad gratis online',
+      'storleksjämförelse skapa gratis',
+      'storleksblad skriva ut gratis',
+      'gratis storleksövning med bilder',
     ],
     lsiKeywords: [
-      'visuell storleksdiskriminering arbetsblad för barn',
-      'textfri storleksjämförelse utskriftsbar',
-      'stor liten ordning aktivitet för förskolan',
+      'gratis storleksblad online',
+      'stor liten att skriva ut',
+      'storleksjämförelse gratis',
     ],
-    titleTag: 'Storleksjämförelse Arbetsblad Skapare — För Barn — Säljguide',
-    metaDescription: 'Skapa storleksjämförelse arbetsblad för förskolan och dagis. Fem frågetyper, identiska och olika bildlägen, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Stor och liten gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa stor och liten arbetsblad gratis online. Fem frågetyper, identiska och olika bilder, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Stor och Liten Arbetsblad Skapare',
-    tagline: 'Generera storleksjämförelse arbetsblad med fem frågetyper, två bildlägen och helt visuell textfri utmatning som säljer globalt utan översättning',
-    description: 'Skapa professionella storleksjämförelse arbetsblad där användarna identifierar större, mindre och mellanstora bilder eller numrerar dem i storleksordning. Fem frågetyper täcker varje storleksdiskrimineringsfärdighet: Ringa in den Stora, Ringa in den Lilla, Ringa in den Mellanstora, Numrera 1–2–3 Liten till Stor och Numrera 1–2–3 Stor till Liten. Två bildlägen skapar fundamentalt olika övningar från samma verktyg: Identiska Bilder visar samma bild i olika storlekar för ren storleksuppfattning, medan Olika Bilder visar distinkta objekt i olika storlekar för relativt storleksresonemang. Ställ in 1–10 övningar per sida med 2 eller 3 bilder per övning — två bilder för enkla större/mindre jämförelser, tre bilder för att introducera medium-alternativet och möjliggöra ordningsutmaningar. Varje arbetsblad är helt visuellt med noll text på utmatningen. Inga ord visas på den genererade sidan — bara bilder och visuella indikatorer. Detta gör dina arbetsblad universellt användbara oavsett språk, läsnivå eller litteracitetsstatus, och universellt säljbara utan översättning. En produktannons betjänar varje marknad i världen. Hämta från mer än 3 100 illustrationer i 104 tematiska samlingar eller ladda upp egna bilder. Det automatiskt genererade facit markerar och ringar in korrekta svar för omedelbar verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis stor och liten arbetsblad online',
+    tagline: 'Fem frågetyper med identiska och olika bildlägen — gratis provversion med vattenmärke',
+    description: 'Skapa storleksjämförelseblad — helt gratis att testa online. Fem frågetyper: ringa in den stora/lilla/mellanstora, numrera stigande och fallande. Två bildlägen. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker storleksövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mönster arbetsblad generator',
+    primaryKeyword: 'gratis mönsterblad generator',
     secondaryKeywords: [
-      'mönstertåg arbetsblad skapare för säljare',
-      'skapa upprepande mönster arbetsblad att sälja',
-      'utskrivbara mönstersekvens arbetsblad kommersiellt bruk',
-      'tågmönster arbetsblad generator för KDP',
+      'mönsterblad generator gratis online',
+      'mönstertåg arbetsblad skapa gratis',
+      'mönsterigenkänning skriva ut gratis',
+      'gratis mönsterövning med tågvagnar',
     ],
     lsiKeywords: [
-      'visuell mönsterigenkänning utskriftsbara för Etsy',
-      'textfri tågvagn mönster arbetsblad verktyg',
-      'AB ABC mönstersekvens arbetsblad skapare',
+      'gratis mönsterblad online',
+      'mönstertåg att skriva ut',
+      'mönsterigenkänning gratis',
     ],
-    titleTag: 'Mönster Arbetsblad Generator — Tågskapare | Sälj — Säljguide',
-    metaDescription: 'Generera mönstertåg arbetsblad med fem mönstertyper, 11 tematiska tågvagnar, justerbart ledtrådsantal och automatiska facit. Gratis provversion med vattenstämpe',
+    titleTag: 'Mönsterblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa mönsterblad gratis online. Fem mönstertyper, 11 tågvagnar, justerbar svårighet, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Mönstertåg Skapare',
-    tagline: 'Generera upprepande mönster arbetsblad visade på 11 tematiska tågvagnar med fem mönstertyper, justerbart ledtrådsantal och helt visuell textfri utmatning som säljer globalt utan översättning',
-    description: 'Skapa professionella mönsterigenkännings arbetsblad där användarna identifierar och slutför upprepande sekvenser visade som bilder på ett tematiskt tåg med 11 vagnar. Fem distinkta mönstertyper täcker varje nivå av sekvenskomplexitet: AB alternerar två objekt, AAB grupperar två av en följt av en av en annan, ABB vänder den grupperingen, ABC roterar tre olika objekt, och AABB parar två av varje innan upprepning. Tåglayouten arrangerar 11 vagnar över tre rader (5 + 3 + 3), med varje vagn som innehåller en bild från det upprepande mönstret. En vagn lämnas tom — användarna identifierar mönstret och bestämmer det saknade objektet. Justera ledtrådsantalet från 4 till 10 för att kontrollera svårigheten: att visa 10 ledtrådar gör mönstret uppenbart, medan att visa bara 4 kräver genuint mönsterresonemang. Den distinkta tågvagnslayouten är en visuell differentieringspunkt från vanliga rutnätsarbetsblad. Hämta från mer än 3 100 illustrationer i 104 tematiska samlingar eller ladda upp egna bilder. En separat facitflik visar alla 11 vagnar fyllda med den korrekta mönstersekvensen. Varje arbetsblad är helt visuellt med bara bilder på tågvagnar och noll text på utmatningen. Inga ord visas — bara bilder. Detta gör dina arbetsblad universellt säljbara utan översättning: en produktannons betjänar varje marknad i världen. Exportera tryckfärdiga PDF:er och JPEG-bilder med hög DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis mönsterblad generator online',
+    tagline: 'Fem mönstertyper på 11 tematiska tågvagnar med justerbar svårighet — gratis provversion med vattenmärke',
+    description: 'Skapa mönstertåg — helt gratis att testa online. 11 färgglada tågvagnar med upprepande sekvenser — fem mönstertyper från AB till AABB. Justera ledtrådar från 4 till 10. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker mönsterövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'anpassad målarsida skapare',
+    primaryKeyword: 'gratis målarbilder generator',
     secondaryKeywords: [
-      'målarsida skapare för säljare',
-      'anpassade målararbetsblad online',
-      'målarsida skapare för hemundervisning',
-      'utskrivbara målarsidor för barn online',
+      'målarbilder generator gratis online',
+      'målarsida skapa gratis',
+      'målarbilder skriva ut gratis',
+      'gratis målarbilder med teman',
     ],
     lsiKeywords: [
-      'produktlinjes målarsida designer online',
-      'gråskala målararbetsblad för utskrift',
-      'frihandsritning målaraktivitet skapare',
+      'gratis målarbilder online',
+      'målarsidor att skriva ut',
+      'målarbilder för barn gratis',
     ],
-    titleTag: 'Anpassad Målarsida Skapare — Skapa Sidor Online — Säljguide',
-    metaDescription: 'Skapa anpassade målarsidor för ditt produktlinje eller hemma. Fri arbetsyta, mer än 3 100 illustrationer, 104 teman, frihandsritning, gråskaleexport. Gratis.',
+    titleTag: 'Målarbilder generator gratis | LessonCraftStudio',
+    metaDescription: 'Skapa målarbilder gratis online. Fri arbetsyta, 104 teman, frihandsritning, gråskaleexport. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Målarsida Skapare',
-    tagline: 'Fri arbetsyta målarsida generator med frihandsritning, gråskaleexport, produktlinjeshjälpare och 104 tematiska bildsamlingar för professionella målarsidor som säljer globalt utan översättning',
-    description: 'Designa professionella målarsidor på en helt öppen arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, inga fack, ren kreativ frihet. Denna fria metod är kärndifferentiatorn: varje målarsida du skapar är unik och omöjlig att replikera med mallbaserade verktyg. Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 färgglada illustrationer, klicka för att lägga till bilder, arrangera sedan, ändra storlek, rotera och lagra element var som helst på arbetsytan. Frihandsritningsverktyget låter dig skissa originella illustrationer direkt bredvid biblioteksbilder med justerbar penselfärg och storlek (1–50 pixlar), vilket skapar hybridmålarsidor som blandar kurerat konstverk med dina egna ritningar. Ettklicks produktlinjeshjälpare lägger till ett namnfält (\"Namn: ____\") och skrivövningslinjer (heldragen, streckad, heldragen) — förvandlar målarsidor till produktlinjesfärdiga aktivitetsblad som säljer på Gumroad. Växla gråskaleexport för att konvertera din färgglada komposition till bläckvänliga målarsidor perfekta för KDP-interiörer och volymutskrift. Lägg till dekorativa ramteman, anpassad text med kontureffekter, och ladda upp egna PNG-, JPG- eller GIF-bilder. Detta är en helt visuell app — utmatningen innehåller ingen text, vilket gör målarsidor universellt säljbara utan översättning. Inget facit existerar eftersom färgläggning är en kreativ aktivitet utan korrekt svar. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis målarbilder generator online',
+    tagline: 'Fri arbetsyta med frihandsritning, gråskaleexport och 104 tematiska bildsamlingar — gratis provversion med vattenmärke',
+    description: 'Skapa målarbilder — helt gratis att testa online. Fri arbetsyta där du placerar bilder exakt var du vill. Bläddra bland mer än 3 100 illustrationer i 104 teman, lägg till frihandsritningar, och växla gråskaleexport för bläckvänliga målarsidor. Målarbilder för barn är en av de mest sökta printable-kategorierna i Sverige. Perfekt för föräldrar som söker målarbilder att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

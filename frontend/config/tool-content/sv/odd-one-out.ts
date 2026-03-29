@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'hitta udda bilden arbetsblad',
+    primaryKeyword: 'gratis vilken hör inte hemma generator',
     secondaryKeywords: [
-      'hitta udda bilden arbetsblad skapare för säljare',
-      'skapa hitta den annorlunda pussel att sälja',
-      'utskrivbar hitta udda bilden generator kommersiellt bruk',
-      'hitta udda bilden pussel skapare för KDP och Etsy',
+      'vilken hör inte hemma gratis online',
+      'hitta udda bilden skapa gratis',
+      'udda bilden pussel skriva ut gratis',
+      'gratis hitta den annorlunda med bilder',
     ],
     lsiKeywords: [
-      'dubbelläge identisk liknande visuell diskriminering skapare',
-      'per-övning lägesöverskridning hitta udda generator',
-      'automatiskt facit röd cirkel udda objekt arbetsblad skapare',
+      'gratis udda bilden online',
+      'vilken hör inte hemma att skriva ut',
+      'hitta den annorlunda gratis',
     ],
-    titleTag: 'Hitta Udda Bilden Skapare — Arbetsblad Generator — Säljguide',
-    metaDescription: 'Skapa hitta udda bilden arbetsblad med Identiskt och Liknande läge, per-övning överskridningar, automatiska facit med röda cirklar. Gratis provversion med.',
+    titleTag: 'Vilken hör inte hemma gratis | LessonCraftStudio',
+    metaDescription: 'Skapa vilken hör inte hemma-blad gratis online. Identiskt och Liknande läge, facit med röda cirklar, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Hitta Udda Bilden Skapare',
-    tagline: 'Dubbelläges hitta udda bilden arbetsblad generator med Identiskt läge (3 kloner + 1 annorlunda) och Liknande läge (3 från Tema A + 1 från Tema B), per-övning lägesöverskridning, 5–10 konfigurerbara övningar, automatiskt genererade facit med röda cirkelmarkeringar och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella hitta udda bilden arbetsblad där användarna identifierar och ringar in bilden som inte hör hemma i varje rad av fyra bilder. Två distinkta lägen: Identiskt läge placerar tre kloner bredvid en annorlunda bild från samma tema — användarna hittar den som inte är dubblett. Liknande läge hämtar tre bilder från Tema A och en från Tema B — användarna identifierar den tematiska avvikaren. Per-övning lägesöverskridning med dropdown på varje rad — blanda Identiska och Liknande övningar på ett enda arbetsblad för progressiv svårighet. \"Rensa Val\"-knapp återställer alla överskridningar. Konfigurera 5–10 övningar (standard 6) med 4 bilder per övning — den uddas position blandas slumpmässigt. Layouten anpassas automatiskt med 2-kolumner för liggande sidor och stående med 7+ övningar. Tvåtemasystem för korsande kategoridiskrimineringspussel. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit ritar röda cirkelkonturer runt det udda objektet med dynamiskt skalad streckbredd (max(imageSize × 0,04, 3px)). En stiliserad rubrik med korall yttre ram (#FF6B6B), bärnstensfärgad inre ram (#FFB84D) och turkos bakgrund (#4ECDC4) visar \"Hitta den som inte hör hemma\" lokaliserad på alla 11 språk. INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis vilken hör inte hemma generator online',
+    tagline: 'Identiskt och Liknande läge med facit med röda cirklar — gratis provversion med vattenmärke',
+    description: 'Skapa hitta den annorlunda-blad — helt gratis att testa online. Identiskt läge med 3 kloner + 1 annorlunda, och Liknande läge med temaövergripande diskriminering. 5–10 övningar per sida. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit med röda cirklar ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella pussel att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

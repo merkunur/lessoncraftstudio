@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skattjakt arbetsblad skapare för utskrift',
+    primaryKeyword: 'gratis skattjakt generator',
     secondaryKeywords: [
-      'skattjakt arbetsblad skapare för säljare',
-      'skapa riktningspussel att sälja',
-      'utskrivbar skattjakt generator kommersiell användning',
-      'skattjakt pussel skapare för KDP och Etsy',
+      'skattjakt generator gratis online',
+      'skattjakt arbetsblad skapa gratis',
+      'riktningspussel skriva ut gratis',
+      'gratis skattjakt med bilder',
     ],
     lsiKeywords: [
-      'två riktningstyper grundläggande kardinal koordinatrutnät skapare',
-      'språkberoende lokaliserade riktningsledtrådar 11 språk',
-      'automatiskt facit markerad skattcell dubbelt canvas-system',
+      'gratis skattjaktblad online',
+      'skattjakt att skriva ut',
+      'riktningspussel gratis',
     ],
-    titleTag: 'Skattjakt Skapare — Skattjakt Arbetsblad Generator',
-    metaDescription: 'Skapa skattjakt arbetsblad på 5×5 rutnät med två riktningstyper, tematiska landmärken, automatiskt facit och 104 bildsamlingar. Gratis provversion med.',
+    titleTag: 'Skattjakt gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa skattjakt gratis online. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Skattjakt Skapare',
-    tagline: 'Vägfinnande skattjakt arbetsblads-generator med fast 5×5 koordinatrutnät (A–E rader, 1–5 kolumner), två riktningstyper (Grundläggande: upp/ner/vänster/höger för förskola till årskurs 1, och Kardinal: norr/söder/öster/väster för årskurs 2+), 6 tematiska landmärkesbilder, exakt 4 riktningsrörelser per pussel, automatiskt genererat facit med ljusgul markerad skattcell via dubbelt canvas-system, fullt lokaliserade riktningsledtrådar på 11 språk och en skattjakt-tematiserad tealrubrik (#2C8C7C) med gyllene Fredoka-titel över 104 tematiska bildsamlingar',
-    description: 'Skapa professionella skattjakt arbetsblad där användare följer sekventiella riktningsledtrådar för att hitta gömd skatt på ett 5×5 koordinatrutnät märkt med bokstavsrader (A–E) och nummerkolumner (1–5). Varje pussel sprider 6 tematiska bilder över rutnätet som visuella landmärken, genererar sedan en startposition och exakt 4 riktningsrörelser som leder till skattcellen. Arbetsbladet visar 5 instruktionsrader: "Börja vid [cell]" följt av 4 "Flytta [riktning] [antal] ruta(or)" ledtrådar, avslutande med "Var är skatten?" Välj mellan två riktningstyper som passar olika åldersgrupper och lärandemål. Grundläggande läge använder upp, ner, vänster och höger för förskola till årskurs 1 som bygger grundläggande rumsligt ordförråd. Kardinalläge använder norr, söder, öster och väster för årskurs 2 och uppåt, och introducerar kompassriktningar och kartläsningsfärdigheter. Båda riktningstyper producerar samma 4-rörelses pusselstruktur på samma 5×5 rutnät, vilket låter dig skapa progressiva svårighetsset inom ett enda paket. Skattjakt Skaparen är språkberoende på två sätt: riktningstext och bildinnehåll ändras båda när du byter språk. Alla riktningar är fullständigt översatta till 11 språk som stöds — "Börja vid", "Flytta", "ruta(or)" och "Var är skatten?" lokaliseras alla tillsammans med grundläggande och kardinalt riktningsordförråd. Detta producerar autentiska skattjakt arbetsblad på modersmål, inte engelska pussel med översatta rubriker. Det dubbla canvas-systemet genererar både en arbetsblads-flik och en facit-flik. Facit återger den exakta pussellayouten och markerar den slutliga skattcellen i ljusgult (rgba(255, 250, 205, 0.8)) med en mörkgrå ram — ingen manuell markering krävs. Varje pussel inkluderar en skattjakt-tematiserad automatiskt genererad rubrik med teal bakgrund (#2C8C7C), bärnstens yttre ram (#D4A574), sandig beige inre ram (#F4E4C1) och gyllene titel (#D4A017) i Fredoka-typsnitt (vikt 700, adaptiv 36–48px storlek). Beskrivningen renderas i mörkbrun (#5C4033) Quicksand (vikt 500). Stående läge visar en fullständig rubrik (100px höjd); liggande läge använder en kompakt layout (70px höjd). Rubriktexten översätts automatiskt till alla 11 språk. Bläddra bland 104 temasamlingar med 3 100+ illustrationer eller ladda upp egna bilder via tre inmatningsmetoder: Generera från tema (auto-väljer 6), Manuellt bildval (bläddra och klicka) och Ladda upp egna bilder (JPEG/PNG/GIF/WebP). Applicera bakgrundsteman och ramteman med oberoende opacitetsreglage (0–1, steg 0,05). Exportera utskriftsklara PDF-filer (3× multiplikator) och JPEG-filer (6× multiplikator) i 300 DPI i Letter stående, Letter liggande, A4 stående, A4 liggande, Kvadrat (1200×1200) eller anpassade mått. Växla gråskala för bläckvänlig utskrift. Den kostnadsfria provversionen inkluderar alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis skattjakt generator online',
+    tagline: '5×5 koordinatrutnät med grundläggande och kompass-riktningar på 11 språk — gratis provversion med vattenmärke',
+    description: 'Skapa skattjaktblad — helt gratis att testa online. 5×5 koordinatrutnät med 6 tematiska landmärken. Grundläggande (upp/ner/vänster/höger) och Kompass (norr/söder/öster/väster). Språkkänslig: lokaliserade riktningar på 11 språk. Automatiskt facit med markerad skattcell ingår. Perfekt för föräldrar och barn som söker skattjaktblad att skriva ut. Välj bland mer än 3 100 illustrationer i 104 teman. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

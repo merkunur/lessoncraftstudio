@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ritning arbetsblad generator',
+    primaryKeyword: 'gratis rita och måla-blad',
     secondaryKeywords: [
-      'rutnätsritning arbetsblad skapare för säljare',
-      'skapa rita och färglägg arbetsblad att sälja',
-      'utskrivbara rutnätsreproduktion arbetsblad kommersiellt bruk',
-      'cell-för-cell ritning arbetsblad generator för KDP',
+      'rita och måla-blad gratis online',
+      'rutnätsritning arbetsblad skapa gratis',
+      'ritblad skriva ut gratis',
+      'gratis ritövningar med rutnät',
     ],
     lsiKeywords: [
-      'dubbelrutnät ritning utskriftsbara för Etsy',
-      'justerbar ledtrådsprocent arbetsblad verktyg',
-      'symmetri spegelläge ritning arbetsblad skapare',
+      'gratis ritblad online',
+      'rutnätsritning att skriva ut',
+      'rita och färglägg gratis',
     ],
-    titleTag: 'Ritning Arbetsblad Generator — Rutnätsritning Skapare | Sälj',
-    metaDescription: 'Generera rutnätsritning arbetsblad med dubbelrutnät, justerbar ledtrådsprocent, tre symmetrilägen och tematiska bildset. Gratis provversion med vattenstämpel.',
+    titleTag: 'Rita och måla-blad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa rita och måla-blad gratis online. Dubbelrutnät, justerbar ledtrådsprocent, tre symmetrilägen. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Rita och Färglägg Arbetsblad Skapare',
-    tagline: 'Generera dubbelrutnäts ritningsarbetsblad med justerbar ledtrådsprocent, tre symmetrilägen och helt visuell textfri utmatning som säljer globalt utan översättning',
-    description: 'Skapa professionella rutnätsritning arbetsblad där användarna reproducerar en referensbild genom att kopiera den cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät. Två rutnät visas per vald bild: ett Övningsrutnät med tomma celler där användarna ritar, och ett Ledtrådsrutnät som visar en konfigurerbar procentandel av referensbilden som visuella tips. Justera ledtrådsprocenten från 10% till 75% för att kontrollera svårigheten — färre ledtrådar innebär svårare övningar som kräver skarpare observation. Konfigurera rutnätsdimensioner från 3×3 (9 celler) till 10×10 (100 celler), med rader och kolumner justerbara oberoende. Tre symmetrilägen lägger till en rumslig resonemangdimension: Slumpmässig sprider ledtrådar i godtyckliga positioner, Horisontell speglar ledtrådar vänster-höger, och Vertikal speglar ledtrådar uppifrån-ner. Innehåll hämtas från det inbyggda svartvita konturbiblioteket med 100+ samlingar med mer än 3 000 svartvita illustrationer specifikt designade för ritning och färgläggning — rena konturer som användarna reproducerar och sedan färglägger. Detta är en helt visuell app: arbetsblad innehåller enbart rutnätsbilder med noll text, vilket gör dem universellt säljbara utan översättning. Inget separat facit existerar eftersom ledtrådsrutnätet i sig fungerar som referenslösningen. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis rita och måla-blad online',
+    tagline: 'Dubbelrutnät med justerbar ledtrådsprocent och tre symmetrilägen — gratis provversion med vattenmärke',
+    description: 'Skapa rutnätsritningsblad — helt gratis att testa online. Användarna kopierar en referensbild cell-för-cell med justerbar ledtrådsprocent (10–75%). Rutnät från 3×3 till 10×10 med tre symmetrilägen. 100+ svartvita konturteman. Helt visuellt — säljbart globalt utan översättning. Perfekt för föräldrar som söker ritövningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '8 modèles SVG paires d\'images 104 thèmes',
     ],
-    titleTag: 'Fiches de graphisme gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Fiches de graphisme gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches de graphisme gratuitement en ligne. 8 modèles de tracé, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 

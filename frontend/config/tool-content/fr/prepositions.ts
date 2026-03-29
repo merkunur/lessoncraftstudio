@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '8 prépositions texte à trous choix multiple',
     ],
-    titleTag: 'Fiches de prépositions gratuites | LessonCraftStudio',
+    titleTag: 'Fiches de prépositions gratuites | LCS',
     metaDescription: 'Créez des fiches de prépositions gratuitement. 8 prépositions, texte à trous, choix multiple, 11 langues, sans inscription. Licence commerciale disponible.',
   },
 

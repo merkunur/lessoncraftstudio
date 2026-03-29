@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Suites logiques pour business d\'imprimables | LCS',
     metaDescription:
-      'Créez des fiches de suites logiques à vendre sur Etsy & KDP. 5 types de motifs, wagons thématiques, licence commerciale. Testez gratuitement avec filigrane.',
+      'Créez des fiches de suites logiques à vendre sur Etsy & KDP. 5 types de motifs, wagons thématiques, licence commerciale. Essai gratuit avec filigrane.',
   },
 
   hero: {

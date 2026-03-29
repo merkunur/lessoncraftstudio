@@ -17,8 +17,8 @@ const content: GuideContent = {
       'mise en page RTL variation longueur texte mots composés adaptation culturelle localisation fiches',
       'production par lots génération contenu multi-langues outils traduction automatisée bases vocabulaire',
     ],
-    titleTag: 'Fiches en plusieurs langues à vendre | LessonCraftStudio',
-    metaDescription: 'Comment créer des fiches en plusieurs langues : flux de production, gestion des caractères, sélection polices, assurance qualité et adaptation des annonces.',
+    titleTag: 'Fiches en plusieurs langues à vendre | LCS',
+    metaDescription: 'Créez des fiches en plusieurs langues : flux de production, gestion des caractères, sélection polices, assurance qualité et adaptation des annonces.',
   },
 
   hero: {

@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       '11 wagons colorés alphabets natifs 104 thèmes',
     ],
-    titleTag: 'Fiches d\'alphabet gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Fiches d\'alphabet gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches d\'alphabet gratuitement en ligne. 11 wagons colorés, 11 langues, 104 thèmes, sans inscription. Licence commerciale disponible.',
     },
 

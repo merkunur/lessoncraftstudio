@@ -16,7 +16,7 @@ const content: GuideContent = {
       'réglages fond perdu compatibilité papier cohérence visuelle standards marque',
       'évaluations notes confiance acheteurs checklist production assurance qualité',
     ],
-    titleTag: 'Normes de qualité pour fiches vendables | LessonCraftStudio',
+    titleTag: 'Normes de qualité pour fiches vendables | LCS',
     metaDescription: 'Normes qualité pour vendeurs de fiches : résultat professionnel, résolution, marges, typographie, corrigés et tests impression. Vendez sur Etsy et KDP.',
   },
 

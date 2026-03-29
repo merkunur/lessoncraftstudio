@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'cases-indices configurables Fisher-Yates 104 thèmes',
     ],
-    titleTag: 'Grilles d\'appariement gratuites | LessonCraftStudio',
+    titleTag: 'Grilles d\'appariement gratuites | LCS',
     metaDescription: 'Créez des grilles d\'appariement gratuitement en ligne. Taille configurable, cases-indices, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 

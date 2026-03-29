@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '6 formes extraction intelligente distractrices 104 thèmes',
     ],
-    titleTag: 'Pièces manquantes gratuit en ligne | LessonCraftStudio',
+    titleTag: 'Pièces manquantes gratuit en ligne | LCS',
     metaDescription: 'Créez des puzzles pièces manquantes gratuitement. 6 formes, difficulté configurable, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 

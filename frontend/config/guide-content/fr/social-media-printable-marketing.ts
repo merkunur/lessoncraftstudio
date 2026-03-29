@@ -17,7 +17,7 @@ const content: GuideContent = {
       'marketing Instagram stratégie Pinterest groupes Facebook promotion vendeur',
       'stratégie hashtags calendrier publication taux engagement optimisation profil',
     ],
-    titleTag: 'Réseaux sociaux pour vendeurs | LessonCraftStudio',
+    titleTag: 'Réseaux sociaux pour vendeurs | LCS',
     metaDescription: 'Stratégies marketing réseaux sociaux pour imprimables : choix des plateformes, contenu visuel, construction d\'audience et engagement générant du trafic.',
   },
 

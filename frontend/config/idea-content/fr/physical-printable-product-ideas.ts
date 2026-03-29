@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Produits imprimés physiques — Business | LessonCraftStudio',
+    titleTag: 'Produits imprimés physiques — Business | LCS',
     metaDescription: 'Idées de produits imprimables physiques pour vendeurs Etsy et marchés artisanaux. Créez une activité premium en imprimant, plastifiant et expédiant des.',
 
     primaryKeyword: 'produits imprimés physiques business',

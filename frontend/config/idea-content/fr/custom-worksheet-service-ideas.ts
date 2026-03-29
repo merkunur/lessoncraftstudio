@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Service création de fiches — Business | LessonCraftStudio',
+    titleTag: 'Service création de fiches — Business | LCS',
     metaDescription: 'Idées de service de fiches personnalisées pour vendeurs Etsy et freelances. Proposez des imprimables éducatifs sur mesure avec une tarification premium.',
 
     primaryKeyword: 'service de création de fiches business',

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'fiches activité coloriage pour la boutique',
       'outil coloriage licence commerciale',
     ],
-    titleTag: 'Coloriages pour Etsy & KDP | LessonCraftStudio',
+    titleTag: 'Coloriages pour Etsy & KDP | LCS',
     metaDescription: 'Comment créer des pages de coloriage avec 3 100+ images thématiques. Canevas libre, export niveaux de gris et dessin à main levée. Vendez sur Etsy et KDP.',
   },
 

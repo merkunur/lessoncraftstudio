@@ -17,7 +17,7 @@ const content: GuideContent = {
       'regroupement imprimables éducatifs inter-catégories stratégie Etsy',
       'photos annonces Etsy mockups pour produits imprimables éducatifs',
     ],
-    titleTag: 'Vendre des fiches éducatives sur Etsy | LessonCraftStudio',
+    titleTag: 'Vendre des fiches éducatives sur Etsy | LCS',
     metaDescription: 'Vendez des imprimables éducatifs sur Etsy avec 33 générateurs répartis en 6 catégories. Stratégie de boutique, SEO Etsy, lots inter-catégories et.',
   },
 

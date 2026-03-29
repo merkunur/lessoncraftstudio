@@ -17,7 +17,7 @@ const content: GuideContent = {
       'mots croisés imprimables Etsy',
       'outil puzzles avec licence commerciale',
     ],
-    titleTag: 'Mots croisés à vendre en ligne | LessonCraftStudio',
+    titleTag: 'Mots croisés à vendre en ligne | LCS',
     metaDescription: 'Comment créer des mots croisés en images pour enfants. Thèmes, grilles 15×15 croisées, indices numérotés, corrigés automatiques et vente sur Etsy et KDP.',
   },
 

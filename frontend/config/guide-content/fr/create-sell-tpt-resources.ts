@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Gumroad algorithme recherche tags titre description visibilité classement',
       'pack fiches unité programme activités lot stratégie tarifaire',
     ],
-    titleTag: 'Vendre sur La Salle des Maîtres | LessonCraftStudio',
+    titleTag: 'Vendre sur La Salle des Maîtres | LCS',
     metaDescription: 'Vendez des ressources sur La Salle des Maîtres et Mieux Enseigner. Configuration, optimisation fiches, tarification. Guide vendeurs LSDM.',
   },
 

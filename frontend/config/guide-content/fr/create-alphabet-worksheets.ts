@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers reconnaissance lettres Amazon KDP',
       'outil train alphabet licence commerciale',
     ],
-    titleTag: 'Fiches d\'alphabet à vendre sur Etsy | LessonCraftStudio',
-    metaDescription: 'Comment créer des fiches train alphabet avec wagons colorés, deux modes de création, difficulté configurable et 104 thèmes. Vendez sur Etsy, KDP et Gumroad.',
+    titleTag: 'Fiches d\'alphabet à vendre sur Etsy | LCS',
+    metaDescription: 'Créez des fiches train alphabet avec wagons colorés, deux modes de création, difficulté configurable et 104 thèmes. Vendez sur Etsy, KDP et Gumroad.',
   },
 
   hero: {

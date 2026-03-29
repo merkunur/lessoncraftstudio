@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables dinosaures — Idées business | LessonCraftStudio',
-    metaDescription: 'Idées rentables d\'imprimables dinosaures à vendre sur Etsy, Amazon KDP et Gumroad. Concepts de produits, stratégies de plateformes et conseils de niche vendeurs.',
+    titleTag: 'Imprimables dinosaures — Idées business | LCS',
+    metaDescription: 'Idées rentables d\'imprimables dinosaures à vendre sur Etsy, KDP & Gumroad. Concepts de produits, stratégies de plateformes et conseils de niche vendeurs.',
 
     primaryKeyword: 'imprimables dinosaures idées business Etsy',
     secondaryKeywords: [

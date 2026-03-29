@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       '5 types de questions modes identiques et différents',
     ],
-    titleTag: 'Comparaison de tailles gratuit | LessonCraftStudio',
+    titleTag: 'Comparaison de tailles gratuit | LCS',
     metaDescription: 'Créez des fiches de comparaison de tailles gratuitement. 5 types de questions, 104 thèmes, sans inscription. Licence commerciale disponible.',
     },
 

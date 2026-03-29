@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Cahiers de vacances à vendre sur Etsy | LessonCraftStudio',
-    metaDescription: 'Découvrez des idées d\'imprimables révisions d\'été à vendre sur Etsy, KDP et Gumroad. Concepts produits pour parents, vendeurs et animateurs de stages estivaux.',
+    titleTag: 'Cahiers de vacances à vendre sur Etsy | LCS',
+    metaDescription: 'Idées d\'imprimables révisions d\'été à vendre sur Etsy, KDP et Gumroad. Concepts produits pour parents, vendeurs et animateurs de stages estivaux.',
 
     primaryKeyword: 'cahiers de vacances à vendre sur Etsy',
     secondaryKeywords: [

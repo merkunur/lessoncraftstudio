@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'grille 5×5 deux modes de direction corrigé auto',
     ],
-    titleTag: 'Chasse au trésor gratuit en ligne | LessonCraftStudio',
+    titleTag: 'Chasse au trésor gratuit en ligne | LCS',
     metaDescription: 'Créez des chasses au trésor gratuitement en ligne. Grille 5×5, deux modes de direction, 11 langues, sans inscription. Licence commerciale disponible.',
   },
 

@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       'grille 4×5 diagramme à barres 104 thèmes',
     ],
-    titleTag: 'Fiches de comptage gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Fiches de comptage gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches de comptage et graphiques gratuitement. 104 thèmes, corrigés, sans inscription. Passez à la licence commerciale pour vendre.',
     },
 

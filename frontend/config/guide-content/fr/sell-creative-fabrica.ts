@@ -17,7 +17,7 @@ const content: GuideContent = {
       'tags produit catégories optimisation recherche images couverture formatage description',
       'montée en charge catalogue lots promotion intercatégories polices graphiques ressources éducatives',
     ],
-    titleTag: 'Vendre sur Creative Fabrica | LessonCraftStudio',
+    titleTag: 'Vendre sur Creative Fabrica | LCS',
     metaDescription: 'Vendez des ressources éducatives sur Creative Fabrica. Revenus abonnements et ventes individuelles, public créatif et section Classroom pour entrepreneurs.',
   },
 

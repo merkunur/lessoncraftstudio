@@ -17,8 +17,8 @@ const content: GuideContent = {
       'labyrinthes thématiques avec images licence commerciale',
       'générateur labyrinthes licence commerciale',
     ],
-    titleTag: 'Labyrinthes à vendre sur Etsy | LessonCraftStudio',
-    metaDescription: 'Comment créer des fiches labyrinthes avec 3 modes de jeu, images thématiques et corrigés automatiques. Fiches labyrinthes imprimables pour Etsy et Amazon KDP.',
+    titleTag: 'Labyrinthes à vendre sur Etsy | LCS',
+    metaDescription: 'Créez des fiches labyrinthes avec 3 modes de jeu, images thématiques et corrigés automatiques. Vendez vos labyrinthes sur Etsy et Amazon KDP.',
   },
 
   hero: {

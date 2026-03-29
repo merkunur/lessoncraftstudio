@@ -17,7 +17,7 @@ const content: GuideContent = {
       'impression à la demande catalogue puzzles séries volumes numérotation',
       'grille puzzles espacement format livre corrigés annexes',
     ],
-    titleTag: 'Publier des livres de jeux sur KDP | LessonCraftStudio',
+    titleTag: 'Publier des livres de jeux sur KDP | LCS',
     metaDescription: 'Comment publier des livres de puzzles sur KDP avec mots cachés, mots croisés et sudoku. Mise en page, livres variés, stratégie de série et optimisation.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'séquences automatisées campagne réactivation hygiène liste réputation expéditeur',
       'calendrier contenu analytique email tests A/B personnalisation balises',
     ],
-    titleTag: 'Email marketing pour vendeurs | LessonCraftStudio',
+    titleTag: 'Email marketing pour vendeurs | LCS',
     metaDescription: 'Email marketing pour vendeurs d\'imprimables. Construisez votre liste d\'abonnés, créez des lead magnets et automatisez vos séquences pour des ventes.',
   },
 

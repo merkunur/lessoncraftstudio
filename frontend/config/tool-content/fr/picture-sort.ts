@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'tri à deux catégories grille découpée 104 thèmes',
     ],
-    titleTag: 'Fiches de tri gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Fiches de tri gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches de tri gratuitement en ligne. Tri à deux catégories, corrigé auto, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 

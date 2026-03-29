@@ -17,7 +17,7 @@ const content: GuideContent = {
       'titularité droit d\'auteur protection automatique avantages enregistrement dommages-intérêts légaux',
       'choix créatifs expression versus idées faits méthodes standard contenu éducatif',
     ],
-    titleTag: 'Droits d\'auteur pour vendeurs | LessonCraftStudio',
+    titleTag: 'Droits d\'auteur pour vendeurs | LCS',
     metaDescription: 'Droit d\'auteur pour vendeurs d\'imprimables : quels éléments de fiches sont protégeables, enregistrement, application et comment éviter la contrefaçon.',
   },
 

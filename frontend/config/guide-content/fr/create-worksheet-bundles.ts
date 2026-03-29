@@ -17,8 +17,8 @@ const content: GuideContent = {
       'packaging pack maquette aperçu branding organisation fichiers conventions nommage',
       'multi-plateforme annonces packs stratégie universelle vente multi-canaux',
     ],
-    titleTag: 'Créer des packs de fiches qui se vendent | LessonCraftStudio',
-    metaDescription: 'Comment créer des packs de fiches qui se vendent. Types de packs, psychologie des prix, empilement de valeur et packaging professionnel pour plus de revenus.',
+    titleTag: 'Créer des packs de fiches qui se vendent | LCS',
+    metaDescription: 'Créez des packs de fiches qui se vendent. Types de packs, psychologie des prix, empilement de valeur et packaging professionnel pour plus de revenus.',
   },
 
   hero: {

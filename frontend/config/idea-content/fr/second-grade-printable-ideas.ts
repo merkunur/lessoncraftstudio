@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables CE1 — Idées business | LessonCraftStudio',
-    metaDescription: 'Découvrez des idées d\'imprimables CE1 à vendre sur Etsy, KDP et Gumroad. Concepts de produits et stratégies de niche pour les vendeurs ciblant le programme du.',
+    titleTag: 'Imprimables CE1 — Idées business | LCS',
+    metaDescription: 'Idées d\'imprimables CE1 à vendre sur Etsy, KDP et Gumroad. Concepts de produits et stratégies de niche pour les vendeurs ciblant le programme du.',
 
     primaryKeyword: 'imprimables CE1 idées business',
     secondaryKeywords: [

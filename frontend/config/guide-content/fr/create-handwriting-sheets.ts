@@ -17,8 +17,8 @@ const content: GuideContent = {
       'vendre fiches écriture sur Etsy',
       'cahiers écriture Amazon KDP',
     ],
-    titleTag: 'Fiches d\'écriture à vendre en ligne | LessonCraftStudio',
-    metaDescription: 'Créez des fiches d\'écriture manuscrite avec modes tracé, progressif et copie guidée. Flèches d\'ordre des traits, cinq polices et export PDF pour Etsy et KDP.',
+    titleTag: 'Fiches d\'écriture à vendre en ligne | LCS',
+    metaDescription: 'Créez des fiches d\'écriture avec modes tracé, progressif et copie guidée. Flèches d\'ordre des traits, cinq polices et export PDF pour Etsy et KDP.',
   },
 
   hero: {

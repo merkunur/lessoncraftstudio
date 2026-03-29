@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '3 modes de comparaison Cocher et Barrer 104 thèmes',
     ],
-    titleTag: 'Plus grand plus petit gratuit en ligne | LessonCraftStudio',
+    titleTag: 'Plus grand plus petit gratuit en ligne | LCS',
     metaDescription: 'Créez des fiches plus grand plus petit gratuitement. 3 modes de comparaison, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 

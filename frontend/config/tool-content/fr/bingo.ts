@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       'lots de cartes uniques export ZIP 104 thèmes',
     ],
-    titleTag: 'Cartes de loto gratuites avec images | LessonCraftStudio',
+    titleTag: 'Cartes de loto gratuites avec images | LCS',
     metaDescription: 'Créez des cartes de loto gratuit avec images en ligne. Lots de cartes uniques, feuille d\'appel, sans inscription. Licence commerciale disponible.',
     },
 

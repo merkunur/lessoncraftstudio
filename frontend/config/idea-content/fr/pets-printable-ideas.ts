@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables animaux de compagnie Etsy | LessonCraftStudio',
-    metaDescription: 'Idées d\'imprimables animaux de compagnie à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits chats, chiens et petits animaux avec stratégies vendeurs.',
+    titleTag: 'Imprimables animaux de compagnie Etsy | LCS',
+    metaDescription: 'Idées d\'imprimables animaux de compagnie à vendre sur Etsy, KDP & Gumroad. Concepts produits chats, chiens et petits animaux avec stratégies vendeurs.',
 
     primaryKeyword: 'imprimables animaux domestiques Etsy',
     secondaryKeywords: [
@@ -20,7 +20,7 @@ const content: IdeaContent = {
   },
   hero: {
     title: 'Idées d\'Imprimables Animaux de Compagnie pour les Vendeurs',
-    description: 'Les animaux de compagnie occupent une position unique et puissante sur le marché des imprimables éducatifs car presque chaque enfant a un lien personnel avec les animaux domestiques. Qu\'une famille possède un chien, un chat, un hamster ou un poisson rouge, les enfants sont naturellement attirés par les supports d\'apprentissage présentant des créatures familières qu\'ils voient et côtoient au quotidien. Ce lien affectif génère une forte intention d\'achat chez les parents qui souhaitent combiner l\'enthousiasme de leur enfant pour les animaux avec un apprentissage structuré. Pour les vendeurs d\'imprimables sur Etsy, Amazon KDP et Gumroad, le thème des animaux de compagnie offre une demande permanente massive, une diversité d\'espèces pour la différenciation des produits, et un attrait multi-âges des tout-petits jusqu\'au début de l\'élémentaire. Ce guide fournit des idées de produits spécifiques, des stratégies par plateforme et des conseils de positionnement de niche pour vous aider à construire une activité d\'imprimables rentable sur le thème des animaux de compagnie à l\'aide de nos outils de génération de fiches.',
+    description: 'Les animaux de compagnie occupent une position unique et puissante sur le marché des imprimables éducatifs car presque chaque enfant a un lien personnel avec les animaux domestiques. Qu\'une famille possède un chien, un chat, un hamster ou un poisson rouge, les enfants sont naturellement attirés par les supports d\'apprentissage présentant des créatures familières qu\'ils voient et côtoient au quotidien. Ce lien affectif génère une forte intention d\'achat chez les parents qui souhaitent combiner l\'enthousiasme de leur enfant pour les animaux avec un apprentissage structuré. Pour les vendeurs d\'imprimables sur Etsy, KDP & Gumroad, le thème des animaux de compagnie offre une demande permanente massive, une diversité d\'espèces pour la différenciation des produits, et un attrait multi-âges des tout-petits jusqu\'au début de l\'élémentaire. Ce guide fournit des idées de produits spécifiques, des stratégies par plateforme et des conseils de positionnement de niche pour vous aider à construire une activité d\'imprimables rentable sur le thème des animaux de compagnie à l\'aide de nos outils de génération de fiches.',
   },
   marketOverview: `La niche des imprimables sur les animaux de compagnie bénéficie d\'une dynamique de marché simple mais puissante : les animaux de compagnie sont le thème animalier le plus personnellement pertinent pour les enfants. Si les animaux de la ferme et les créatures marines sont intéressants, les animaux de compagnie sont ceux avec lesquels les enfants vivent réellement, qu\'ils soignent et qu\'ils aiment. Ce lien personnel transforme le temps de travail sur fiches d\'un exercice abstrait en une activité mettant en scène leurs compagnons préférés, ce qui explique précisément pourquoi les parents et les vendeurs recherchent des supports éducatifs sur le thème des animaux de compagnie.
 

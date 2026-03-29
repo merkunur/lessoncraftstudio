@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       '104 thèmes images corrigés automatiques PDF',
     ],
-    titleTag: 'Générateur de fiches d\'addition gratuit | LessonCraftStudio',
+    titleTag: 'Générateur de fiches d\'addition gratuit | LCS',
     metaDescription: 'Créez des fiches d\'addition gratuitement en ligne. 104 thèmes, corrigés inclus, sans inscription. Passez à la licence commerciale pour vendre.',
     },
 

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '3 modes algorithme LPF corrigé automatique',
     ],
-    titleTag: 'Labyrinthes illustrés gratuits en ligne | LessonCraftStudio',
+    titleTag: 'Labyrinthes illustrés gratuits en ligne | LCS',
     metaDescription: 'Créez des labyrinthes illustrés gratuitement. 3 modes de jeu, 104 thèmes, corrigés auto, sans inscription. Licence commerciale disponible.',
   },
 

@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       'mode Mot Mystère 11 langues corrigés PDF',
     ],
-    titleTag: 'Énigmes maths codées gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Énigmes maths codées gratuites en ligne | LCS',
     metaDescription: 'Créez des énigmes maths codées gratuitement. Mode Mot Mystère, 11 langues, sans inscription. Passez à la licence commerciale pour vendre.',
     },
 

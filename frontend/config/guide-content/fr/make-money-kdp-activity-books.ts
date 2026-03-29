@@ -17,7 +17,7 @@ const content: GuideContent = {
       'multi-plateforme Etsy Gumroad numérique imprimable expansion',
       'KDP rapports suivi performance revenu par titre analyse',
     ],
-    titleTag: 'Gagner de l\'argent avec des cahiers KDP | LessonCraftStudio',
+    titleTag: 'Gagner de l\'argent avec des cahiers KDP | LCS',
     metaDescription: 'Comment gagner de l\'argent avec les livres d\'activités KDP. Tarification, catalogue, redevances, publication saisonnière et expansion multi-plateformes.',
   },
 

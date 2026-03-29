@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers puzzles jigsaw Amazon KDP',
       'outil pièces manquantes licence commerciale',
     ],
-    titleTag: 'Pièces manquantes à vendre en ligne | LessonCraftStudio',
-    metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes, extraction intelligente, distractrices et corrigés automatiques. Guide complet de vente pour Etsy et KDP.',
+    titleTag: 'Pièces manquantes à vendre en ligne | LCS',
+    metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes, extraction intelligente, distractrices et corrigés automatiques. Guide de vente pour Etsy et KDP.',
   },
 
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'numérotation pages liminaires pages de fin table des matières',
       'KDP erreurs téléversement rejet dépannage prévisualiseur épreuve',
     ],
-    titleTag: 'Mise en page KDP livres d\'exercices | LessonCraftStudio',
+    titleTag: 'Mise en page KDP livres d\'exercices | LCS',
     metaDescription: 'Guide formatage KDP : formats de coupe, marges, fond perdu, export PDF 300 DPI, dimensions de couverture et dépannage du téléversement pour livres.',
   },
 

@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       'grilles configurables addition soustraction corrigés',
     ],
-    titleTag: 'Puzzles de maths gratuits en ligne | LessonCraftStudio',
+    titleTag: 'Puzzles de maths gratuits en ligne | LCS',
     metaDescription: 'Créez des puzzles de maths gratuitement en ligne. Grilles d\'images, addition et soustraction, sans inscription. Licence commerciale disponible.',
     },
 

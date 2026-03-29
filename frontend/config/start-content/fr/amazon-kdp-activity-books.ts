@@ -17,8 +17,8 @@ const content: StartContent = {
       'calculateur de redevances KDP livres d\'activités',
       'impression à la demande activité cahiers d\'activités',
     ],
-    titleTag: 'Business cahiers d\'activités KDP | LessonCraftStudio',
-    metaDescription: 'Comment vendre des livres d\'activités sur Amazon KDP. Formatage intérieur, design couverture, mots-clés, tarification et mise à l\'échelle de votre activité.',
+    titleTag: 'Business cahiers d\'activités KDP | LCS',
+    metaDescription: 'Vendre des livres d\'activités sur Amazon KDP. Formatage intérieur, design couverture, mots-clés, tarification et mise à l\'échelle de votre activité.',
   },
 
   hero: {

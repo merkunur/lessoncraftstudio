@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches association',
       'outil création fiches association en masse',
     ],
-    titleTag: 'Pack appariement & tri pour Etsy | LessonCraftStudio',
+    titleTag: 'Pack appariement & tri pour Etsy | LCS',
     metaDescription: '5 générateurs de fiches d\'association en un pack. Créez fiches association, grille, bingo, tri et ombres à vendre sur Etsy, KDP et Gumroad. Essai gratuit.',
   },
 

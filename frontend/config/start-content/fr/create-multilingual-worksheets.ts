@@ -17,7 +17,7 @@ const content: StartContent = {
       'activité imprimable internationale',
       'vendre des fiches sur etsy.de etsy.fr',
     ],
-    titleTag: 'Fiches multilingues à vendre | LessonCraftStudio',
+    titleTag: 'Fiches multilingues à vendre | LCS',
     metaDescription: 'Créez et vendez des fiches dans 11 langues avec un générateur multilingue. Atteignez les acheteurs sur Etsy, Amazon KDP et les marchés internationaux.',
   },
 

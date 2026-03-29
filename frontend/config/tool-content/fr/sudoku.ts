@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'grille 4×4 trois niveaux 104 thèmes',
     ],
-    titleTag: 'Sudoku images gratuit pour enfants | LessonCraftStudio',
+    titleTag: 'Sudoku images gratuit pour enfants | LCS',
     metaDescription: 'Créez des sudoku images gratuitement en ligne. Grille 4×4, 3 niveaux, corrigé auto, sans inscription. Licence commerciale disponible.',
   },
 

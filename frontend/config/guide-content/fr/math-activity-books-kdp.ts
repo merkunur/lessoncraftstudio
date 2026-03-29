@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahier de maths nombre de pages progression de difficulté corrigés',
       'KDP publication processus de vérification épreuve exemplaires auteur',
     ],
-    titleTag: 'Cahiers de maths pour Amazon KDP | LessonCraftStudio',
+    titleTag: 'Cahiers de maths pour Amazon KDP | LCS',
     metaDescription: 'Créez des livres d\'activités maths KDP pour gagner des redevances. Formatage de manuscrit, design de couverture et optimisation des mots-clés sur Amazon.',
   },
 

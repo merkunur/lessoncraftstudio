@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers activités dessin Amazon KDP',
       'outil fiches contours N&B',
     ],
-    titleTag: 'Fiches de dessin à vendre en ligne | LessonCraftStudio',
-    metaDescription: 'Créez des fiches dessin et symétrie avec système double grille, pourcentage d\'indices réglable, trois modes symétrie et contours N&B. Vendez sur Etsy et KDP.',
+    titleTag: 'Fiches de dessin à vendre en ligne | LCS',
+    metaDescription: 'Créez des fiches dessin et symétrie avec double grille, pourcentage d\'indices réglable, trois modes symétrie et contours N&B. Vendez sur Etsy et KDP.',
   },
 
   hero: {

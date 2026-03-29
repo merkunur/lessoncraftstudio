@@ -17,7 +17,7 @@ const content: GuideContent = {
       'workflow rationalisé standardisation processus efficacité opérationnelle regroupement tâches',
       'systèmes production processus évolutifs gestion catalogue conception workflow',
     ],
-    titleTag: 'Automatiser son business d\'imprimables | LessonCraftStudio',
+    titleTag: 'Automatiser son business d\'imprimables | LCS',
     metaDescription: 'Comment automatiser votre business d\'imprimables avec la production par lots, les modèles et les workflows. Gagnez du temps et augmentez votre production.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sudoku série volumes achat répété joueurs fidèles catalogue',
       'sudoku nombre puzzles mise en page corrigés impression format',
     ],
-    titleTag: 'Livres de sudoku pour Amazon KDP | LessonCraftStudio',
+    titleTag: 'Livres de sudoku pour Amazon KDP | LCS',
     metaDescription: 'Créez des livres sudoku KDP avec sudoku images pour enfants et sudoku chiffres pour adultes. Difficulté progressive, formatage grilles et stratégie séries.',
   },
 

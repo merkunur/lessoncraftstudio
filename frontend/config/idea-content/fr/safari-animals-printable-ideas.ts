@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables safari à vendre en ligne | LessonCraftStudio',
-    metaDescription: 'Idées d\'imprimables animaux de safari à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits faune africaine, stratégies plateformes et conseils vendeurs.',
+    titleTag: 'Imprimables safari à vendre en ligne | LCS',
+    metaDescription: 'Idées d\'imprimables animaux de safari à vendre sur Etsy, KDP & Gumroad. Concepts produits faune africaine, stratégies plateformes et conseils vendeurs.',
 
     primaryKeyword: 'imprimables animaux safari à vendre',
     secondaryKeywords: [

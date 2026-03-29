@@ -17,7 +17,7 @@ const content: GuideContent = {
       'erreurs de licence restrictions de plateforme exigences d\'attribution clauses d\'exclusivité',
       'registres de licence documentation de licence licence multi-plateforme avantage concurrentiel',
     ],
-    titleTag: 'Licence commerciale pour vendeurs | LessonCraftStudio',
+    titleTag: 'Licence commerciale pour vendeurs | LCS',
     metaDescription: 'Licences commerciales pour imprimables avant de vendre. Types de licences, erreurs courantes et comment une licence appropriée protège votre activité.',
   },
 

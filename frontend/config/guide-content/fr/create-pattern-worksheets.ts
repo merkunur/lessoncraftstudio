@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers motifs visuels Amazon KDP',
       'outil suites logiques licence commerciale',
     ],
-    titleTag: 'Fiches de motifs à vendre en ligne | LessonCraftStudio',
+    titleTag: 'Fiches de motifs à vendre en ligne | LCS',
     metaDescription: 'Créez des fiches suites logiques avec 9 types de motifs, images thématiques, corrigés auto et 2 formats de questions. PDF pour Etsy, Amazon KDP et Gumroad.',
   },
 

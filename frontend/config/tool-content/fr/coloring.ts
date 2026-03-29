@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       'canevas libre dessin à main levée 104 thèmes',
     ],
-    titleTag: 'Générateur de coloriages gratuit | LessonCraftStudio',
+    titleTag: 'Générateur de coloriages gratuit | LCS',
     metaDescription: 'Créez des coloriages gratuit avec images en ligne. Canevas libre, 104 thèmes, niveaux de gris, sans inscription. Licence commerciale disponible.',
     },
 

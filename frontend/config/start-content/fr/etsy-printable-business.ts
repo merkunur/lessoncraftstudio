@@ -17,7 +17,7 @@ const content: StartContent = {
       'générateur de fiches pour vendeurs Etsy',
       'stratégie tarifaire imprimables Etsy',
     ],
-    titleTag: 'Masterclass Etsy imprimables | LessonCraftStudio',
+    titleTag: 'Masterclass Etsy imprimables | LCS',
     metaDescription: 'Comment vendre des imprimables sur Etsy étape par étape. Création de boutique, SEO Etsy, optimisation d\'annonces, tarification et générateurs de fiches.',
   },
 

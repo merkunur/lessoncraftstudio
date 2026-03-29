@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers compétences données Amazon KDP avec diagrammes barres',
       'outil fiches comptage graphique licence commerciale',
     ],
-    titleTag: 'Fiches graphiques à vendre en ligne | LessonCraftStudio',
-    metaDescription: 'Créez des fiches graphiques en images avec grilles 4×5, corrigés automatiques, distribution aléatoire et 104 thèmes. Guide étape par étape pour Etsy et KDP.',
+    titleTag: 'Fiches graphiques à vendre en ligne | LCS',
+    metaDescription: 'Créez des fiches graphiques en images avec grilles 4×5, corrigés automatiques, distribution aléatoire et 104 thèmes. Guide pour vendre sur Etsy et KDP.',
   },
 
   hero: {

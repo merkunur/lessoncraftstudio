@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quantification demande analyse saturation marché outils mots-clés décisions basées données',
       'test produit minimum viable workflow recherche découverte niches processus systématique',
     ],
-    titleTag: 'Niches rentables d\'imprimables | LessonCraftStudio',
+    titleTag: 'Niches rentables d\'imprimables | LCS',
     metaDescription: 'Comment rechercher des créneaux imprimables rentables avec données marketplace, analyse mots-clés, étude concurrence, signaux de demande et validation.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'empilement niches stratégie multi-niches profondeur niche adéquation produit-marché',
       'demande mots-clés volume recherche tendances marketplace signaux intention achat',
     ],
-    titleTag: 'Choisir sa niche d\'imprimables (2026) | LessonCraftStudio',
+    titleTag: 'Choisir sa niche d\'imprimables (2026) | LCS',
     metaDescription: 'Sélection de niche pour activités imprimables : rechercher la demande, analyser la concurrence, évaluer la rentabilité, valider et planifier l\'expansion.',
   },
 

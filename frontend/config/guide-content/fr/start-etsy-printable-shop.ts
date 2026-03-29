@@ -17,7 +17,7 @@ const content: GuideContent = {
       'boutique téléchargements numériques conditions de retour Etsy vendeurs',
       'Etsy boutique imprimables stratégie de lancement premiers 30 jours plan de croissance',
     ],
-    titleTag: 'Ouvrir une boutique Etsy d\'imprimables | LessonCraftStudio',
+    titleTag: 'Ouvrir une boutique Etsy d\'imprimables | LCS',
     metaDescription: 'Ouvrez votre boutique Etsy d\'imprimables avec 33 générateurs. Configuration, image de marque, optimisation annonces, tarification et plan de lancement.',
   },
 

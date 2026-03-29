@@ -17,7 +17,7 @@ const content: GuideContent = {
       'fêtes thématiques mots cachés imprimables stratégie saisonnière Etsy',
       'photos annonces Etsy mockups pour produits mots cachés',
     ],
-    titleTag: 'Vendre des mots mêlés sur Etsy | LessonCraftStudio',
+    titleTag: 'Vendre des mots mêlés sur Etsy | LCS',
     metaDescription: 'Vendez des mots cachés sur Etsy avec 4 générateurs. SEO Etsy, optimisation annonces, tarification, lots avec mots croisés et mots mélangés et timing.',
   },
 

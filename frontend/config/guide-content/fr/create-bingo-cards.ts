@@ -17,7 +17,7 @@ const content: GuideContent = {
       'outil bingo licence commerciale',
       'générateur cartes bingo uniques multiples',
     ],
-    titleTag: 'Cartes de loto à vendre en ligne | LessonCraftStudio',
+    titleTag: 'Cartes de loto à vendre en ligne | LCS',
     metaDescription: 'Comment créer des cartes bingo avec images thématiques. Taille de grille, cartes uniques avec cartes d\'appel et PDF prêts à imprimer pour Etsy et KDP.',
   },
 

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'modes Ombre et Reconstitue l\'Image 104 thèmes',
     ],
-    titleTag: 'Fiches d\'ombres gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Fiches d\'ombres gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches d\'ombres gratuitement en ligne. Modes Ombre et Reconstitue l\'Image, corrigés auto, sans inscription. Licence commerciale disponible.',
   },
 

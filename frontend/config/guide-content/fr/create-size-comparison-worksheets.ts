@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers classement par taille Amazon KDP',
       'outil fiches tailles licence commerciale',
     ],
-    titleTag: 'Fiches de comparaison à vendre | LessonCraftStudio',
+    titleTag: 'Fiches de comparaison à vendre | LCS',
     metaDescription: 'Créez des fiches comparaison de tailles avec 5 types de questions et 2 modes d\'image. Sortie sans texte vendable partout. Guide pour Etsy, KDP et Gumroad.',
   },
 

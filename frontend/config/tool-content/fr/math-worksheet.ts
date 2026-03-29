@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '4 niveaux solution unique images comme variables',
     ],
-    titleTag: 'Générateur de fiches de maths gratuit | LessonCraftStudio',
+    titleTag: 'Générateur de fiches de maths gratuit | LCS',
     metaDescription: 'Créez des fiches de maths gratuitement en ligne. Puzzles algébriques, 4 niveaux, sans inscription. Passez à la licence commerciale pour vendre.',
   },
 

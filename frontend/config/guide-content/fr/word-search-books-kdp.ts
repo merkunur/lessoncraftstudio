@@ -17,7 +17,7 @@ const content: GuideContent = {
       'série de livres de mots cachés volumes achat répété catalogue',
       'adultes enfants mots cachés marché public formatage de grille',
     ],
-    titleTag: 'Livres de mots mêlés pour Amazon KDP | LessonCraftStudio',
+    titleTag: 'Livres de mots mêlés pour Amazon KDP | LCS',
     metaDescription: 'Créez des livres mots cachés KDP avec listes de mots thématiques, formats gros caractères et stratégie de série. Taille de grille et optimisation Amazon.',
   },
 

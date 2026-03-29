@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '5 types de motifs 11 wagons indices ajustables',
     ],
-    titleTag: 'Suites logiques gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Suites logiques gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches de suites logiques gratuitement. 5 types de motifs, 11 wagons, corrigé auto, sans inscription. Licence commerciale disponible.',
   },
 

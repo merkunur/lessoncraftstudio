@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'licence commerciale pour vendeurs d\'imprimables',
+    primaryKeyword: 'comprendre la licence commerciale pour vendeurs',
     secondaryKeywords: [
       'licence commerciale pour vendre des fiches',
       'vendre des fiches commercialement Etsy Amazon',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'générateur fiches niveaux de licence',
       'utilisation commerciale vs personnelle imprimables',
     ],
-    titleTag: 'Licence commerciale pour vendeurs | LessonCraftStudio',
+    titleTag: 'Licence commerciale pour vendeurs | LCS',
     metaDescription: 'Comprendre les licences commerciales pour vendre des fiches sur Etsy, KDP et d\'autres plateformes. Deux niveaux expliqués avec droits et tarification.',
   },
 

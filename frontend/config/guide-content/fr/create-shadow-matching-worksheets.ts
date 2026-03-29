@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers perception visuelle Amazon KDP',
       'outil correspondance ombres licence commerciale',
     ],
-    titleTag: 'Fiches d\'ombres à vendre en ligne | LessonCraftStudio',
-    metaDescription: 'Créez des fiches discrimination visuelle avec deux modes : Ombres pour silhouettes et Reconstitution pour moitiés découpées. Guide complet pour Etsy et KDP.',
+    titleTag: 'Fiches d\'ombres à vendre en ligne | LCS',
+    metaDescription: 'Créez des fiches discrimination visuelle avec deux modes : Ombres et Reconstitution pour moitiés découpées. Guide complet pour Etsy et KDP.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'double quadrillage indices réglables modes symétrie',
     ],
-    titleTag: 'Fiches dessin et coloriage gratuites | LessonCraftStudio',
+    titleTag: 'Fiches dessin et coloriage gratuites | LCS',
     metaDescription: 'Créez des fiches dessin et coloriage gratuitement. Double quadrillage, indices réglables, modes symétrie, sans inscription. Licence commerciale disponible.',
   },
 

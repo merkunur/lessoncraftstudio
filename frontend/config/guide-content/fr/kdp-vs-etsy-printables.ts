@@ -17,7 +17,7 @@ const content: GuideContent = {
       'stratégie multi-plateforme vente croisée activité imprimables',
       'fiche imprimable livre activités coloriage livre puzzles marché',
     ],
-    titleTag: 'KDP vs Etsy : où vendre vos imprimables | LessonCraftStudio',
+    titleTag: 'KDP vs Etsy : où vendre vos imprimables | LCS',
     metaDescription: 'KDP ou Etsy pour vendeurs d\'imprimables. Comparez frais, formats, mécanismes de trafic et stratégies multi-plateformes pour votre activité d\'imprimables.',
   },
 

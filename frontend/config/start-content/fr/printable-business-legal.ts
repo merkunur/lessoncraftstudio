@@ -17,8 +17,8 @@ const content: StartContent = {
       'fiscalité transfrontalière produits numériques',
       'charges déductibles activité imprimables',
     ],
-    titleTag: 'Business d\'imprimables : statut juridique | LessonCraftStudio',
-    metaDescription: 'Obligations fiscales pour la vente d\'imprimables. Structure juridique, charges déductibles, propriété intellectuelle et conformité des plateformes de vente.',
+    titleTag: 'Business d\'imprimables : statut juridique | LCS',
+    metaDescription: 'Obligations fiscales pour la vente d\'imprimables. Structure juridique, charges déductibles, propriété intellectuelle et conformité des plateformes.',
   },
 
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers puzzles logiques Amazon KDP',
       'outil sudoku en images licence commerciale',
     ],
-    titleTag: 'Sudoku images à vendre en ligne | LessonCraftStudio',
+    titleTag: 'Sudoku images à vendre en ligne | LCS',
     metaDescription: 'Créez des sudoku en images pour enfants. Grilles 4×4, 3 niveaux de difficulté, images thématiques, corrigés auto et PDF prêts à imprimer pour Etsy et KDP.',
   },
 

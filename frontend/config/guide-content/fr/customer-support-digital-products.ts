@@ -17,8 +17,8 @@ const content: GuideContent = {
       'prévention support problèmes fréquents temps résolution communication professionnelle',
       'systèmes support évolutifs bibliothèques modèles suivi tendances boucles retour',
     ],
-    titleTag: 'Service client produits numériques | LessonCraftStudio',
-    metaDescription: 'Stratégies de support client pour vendeurs numériques. Prévention des problèmes, modèles de réponse, gestion des remboursements, avis et systèmes évolutifs.',
+    titleTag: 'Service client produits numériques | LCS',
+    metaDescription: 'Stratégies de support client pour vendeurs numériques. Prévention des problèmes, modèles de réponse, gestion des remboursements et systèmes évolutifs.',
   },
 
   hero: {

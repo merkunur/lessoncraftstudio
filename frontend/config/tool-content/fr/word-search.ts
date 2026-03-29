@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'grilles 5×5 à 30×30 lettres adaptées à la langue',
     ],
-    titleTag: 'Générateur de mots mêlés gratuit | LessonCraftStudio',
+    titleTag: 'Générateur de mots mêlés gratuit | LCS',
     metaDescription: 'Créez des mots mêlés gratuit avec images en ligne. Grilles 5×5 à 30×30, 11 langues, sans inscription. Licence commerciale disponible.',
   },
 

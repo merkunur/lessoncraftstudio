@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables animaux marins — Business | LessonCraftStudio',
-    metaDescription: 'Idées d\'imprimables animaux marins à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits océaniques, stratégies de plateformes et conseils pour vendeurs.',
+    titleTag: 'Imprimables animaux marins — Business | LCS',
+    metaDescription: 'Idées d\'imprimables animaux marins à vendre sur Etsy, KDP & Gumroad. Concepts produits océaniques, stratégies de plateformes et conseils pour vendeurs.',
 
     primaryKeyword: 'imprimables animaux marins idées business',
     secondaryKeywords: [

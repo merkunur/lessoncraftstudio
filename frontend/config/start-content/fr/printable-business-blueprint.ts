@@ -17,12 +17,12 @@ const content: StartContent = {
       'planification gamme produits vendeurs',
       'checklist lancement activité imprimables',
     ],
-    titleTag: 'Plan d\'action : business d\'imprimables | LessonCraftStudio',
-    metaDescription: 'Transformez vos idées d\'imprimables en plan d\'action. Planifiez votre gamme, choisissez vos plateformes, fixez vos prix et lancez-vous avec les générateurs.',
+    titleTag: 'Plan d\'action : business d\'imprimables | LCS',
+    metaDescription: 'Transformez vos idées d\'imprimables en plan d\'action. Planifiez votre gamme, choisissez vos plateformes, fixez vos prix et lancez avec les générateurs.',
   },
 
   hero: {
-    title: 'Le Plan d\'Action pour votre Activité d\'Imprimables : De l\'Idée au Revenu',
+    title: 'Le Plan d\'Action pour votre Business d\'Imprimables',
     tagline: 'Un plan structuré qui transforme des idées dispersées en une gamme de produits ciblée et génératrice de chiffre d\'affaires',
     description: 'La plupart des activités d\'imprimables échouent non pas parce que le vendeur manquait d\'idées, mais parce qu\'il manquait de plan. Ce guide vous accompagne à chaque étape de la planification : valider votre idée d\'activité, planifier votre gamme de produits, choisir les bonnes plateformes, fixer des objectifs de chiffre d\'affaires réalistes et lancer avec un plan d\'action clair. Que vous partiez de zéro ou restructuriez une boutique sous-performante, ce guide vous donne le cadre stratégique qui distingue les vendeurs qui construisent un revenu durable de ceux qui créent des produits au hasard en espérant le meilleur.',
   },

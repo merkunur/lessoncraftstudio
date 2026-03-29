@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables CE2/CM1 à vendre | LessonCraftStudio',
-    metaDescription: 'Découvrez des idées d\'imprimables CE2 à vendre sur Etsy, Amazon KDP et Gumroad. Stratégies de niche pour les vendeurs ciblant l\'année décisive du CE2.',
+    titleTag: 'Imprimables CE2/CM1 à vendre | LCS',
+    metaDescription: 'Idées d\'imprimables CE2 à vendre sur Etsy, KDP & Gumroad. Stratégies de niche pour les vendeurs ciblant l\'année décisive du CE2.',
 
     primaryKeyword: 'imprimables CE2 CM1 à vendre',
     secondaryKeywords: [

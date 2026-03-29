@@ -17,7 +17,7 @@ const content: GuideContent = {
       'mots cachés imprimables Etsy',
       'outil puzzles avec licence commerciale',
     ],
-    titleTag: 'Mots mêlés avec images à vendre | LessonCraftStudio',
+    titleTag: 'Mots mêlés avec images à vendre | LCS',
     metaDescription: 'Comment créer des mots cachés avec indices visuels. Choisissez thèmes, taille de grille, directions, générez les corrigés auto et vendez sur Etsy et KDP.',
   },
 

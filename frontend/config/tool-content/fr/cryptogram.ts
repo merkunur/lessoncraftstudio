@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'chiffre par images lettres à révéler 11 langues',
     ],
-    titleTag: 'Générateur de cryptogrammes gratuit | LessonCraftStudio',
+    titleTag: 'Générateur de cryptogrammes gratuit | LCS',
     metaDescription: 'Créez des cryptogrammes gratuitement en ligne. Chiffre par images, lettres à révéler, sans inscription. Licence commerciale disponible.',
   },
 

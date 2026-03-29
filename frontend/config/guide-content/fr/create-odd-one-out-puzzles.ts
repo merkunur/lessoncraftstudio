@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers discrimination visuelle Amazon KDP',
       'outil trouve l\'intrus licence commerciale',
     ],
-    titleTag: 'Jeux de l\'intrus à vendre | LessonCraftStudio',
+    titleTag: 'Jeux de l\'intrus à vendre | LCS',
     metaDescription: 'Créez des fiches trouve l\'intrus avec modes Identique et Similaire, remplacement par exercice et corrigés automatiques. Guide pour vendeurs Etsy et KDP.',
   },
 

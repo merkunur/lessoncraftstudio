@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '9 types de motifs choix multiple case vide',
     ],
-    titleTag: 'Reconnaissance de motifs gratuit | LessonCraftStudio',
+    titleTag: 'Reconnaissance de motifs gratuit | LCS',
     metaDescription: 'Créez des fiches de reconnaissance de motifs gratuitement. 9 types, choix multiple, case vide, sans inscription. Licence commerciale disponible.',
   },
 

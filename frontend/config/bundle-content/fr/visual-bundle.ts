@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches activités visuelles',
       'outil création fiches visuelles en masse',
     ],
-    titleTag: 'Pack visuels pour vendeurs d\'imprimables | LessonCraftStudio',
+    titleTag: 'Pack visuels pour vendeurs d\'imprimables | LCS',
     metaDescription: '7 générateurs d\'apprentissage visuel en un pack. Coloriage, dessin, motifs, tailles, graphiques et tracé de lignes à vendre sur Etsy, KDP et Gumroad.',
   },
 

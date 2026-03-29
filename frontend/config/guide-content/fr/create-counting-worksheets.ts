@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers compétences données Amazon KDP diagrammes barres',
       'licence commerciale créateur fiches graphiques en images',
     ],
-    titleTag: 'Fiches de comptage à vendre sur Etsy | LessonCraftStudio',
-    metaDescription: 'Comment créer des fiches de comptage avec graphiques en images, corrigés automatiques et 104 thèmes. Guide étape par étape pour vendre sur Etsy, KDP et Gumroad.',
+    titleTag: 'Fiches de comptage à vendre sur Etsy | LCS',
+    metaDescription: 'Créez des fiches de comptage avec graphiques en images, corrigés automatiques et 104 thèmes. Guide pour vendre sur Etsy, KDP et Gumroad.',
   },
 
   hero: {

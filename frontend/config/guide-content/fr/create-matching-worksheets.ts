@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers activités association Amazon KDP',
       'outil fiches association licence commerciale',
     ],
-    titleTag: 'Fiches d\'appariement à vendre | LessonCraftStudio',
+    titleTag: 'Fiches d\'appariement à vendre | LCS',
     metaDescription: 'Comment créer des fiches d\'association pour enfants. 4 modes, images thématiques, corrigés auto avec lignes de liaison et PDF prêts à imprimer pour Etsy.',
   },
 

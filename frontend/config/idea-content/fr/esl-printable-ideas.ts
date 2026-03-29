@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables FLE — Idées business | LessonCraftStudio',
+    titleTag: 'Imprimables FLE — Idées business | LCS',
     metaDescription: 'Idées d\'imprimables FLE/ESL à vendre sur Etsy, KDP et Gumroad. Stratégies de niche pour vendeurs ciblant vendeurs, tuteurs et apprenants d\'anglais dans le.',
 
     primaryKeyword: 'imprimables FLE français langue étrangère business',

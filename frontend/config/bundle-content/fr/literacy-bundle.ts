@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches de lecture',
       'outil création fiches de vocabulaire en masse',
     ],
-    titleTag: 'Pack jeux de mots — Vendre sur Etsy | LessonCraftStudio',
+    titleTag: 'Pack jeux de mots — Vendre sur Etsy | LCS',
     metaDescription: '7 générateurs de fiches de lecture et langage en un pack. Créez des fiches alphabet, mots cachés, cryptogramme, prépositions et écriture en 11 langues.',
   },
 

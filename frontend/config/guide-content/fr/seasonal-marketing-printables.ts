@@ -16,7 +16,7 @@ const content: GuideContent = {
       'activités Toussaint tendances saisonnières prévision demande calendrier production',
       'timing lancement mots-clés saisonniers analyse tendances calendrier contenu planification trimestrielle',
     ],
-    titleTag: 'Marketing saisonnier pour imprimables | LessonCraftStudio',
+    titleTag: 'Marketing saisonnier pour imprimables | LCS',
     metaDescription: 'Planifiez vos campagnes saisonnières pour imprimables selon les cycles de demande. Calendrier vendeur, timing de production, mots-clés et pics de vente.',
   },
 

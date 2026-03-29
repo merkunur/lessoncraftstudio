@@ -17,7 +17,7 @@ const content: GuideContent = {
       'validation niche titre test ventes 90 jours stratégie catalogue',
       'hybride inter-catégories livres activités thématiques sous-niche',
     ],
-    titleTag: 'Meilleures niches cahiers KDP (2026) | LessonCraftStudio',
+    titleTag: 'Meilleures niches cahiers KDP (2026) | LCS',
     metaDescription: 'Meilleures niches de livres d\'activités KDP pour éditeurs. Analyse de la demande, évaluation concurrence, catégories sous-exploitées et timing saisonnier.',
   },
 

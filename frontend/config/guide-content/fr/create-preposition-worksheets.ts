@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers activités langage spatial Amazon KDP',
       'outil fiches prépositions licence commerciale',
     ],
-    titleTag: 'Fiches de prépositions FLE à vendre | LessonCraftStudio',
-    metaDescription: 'Créez des fiches de prépositions avec deux modes d\'exercice, Remplacement de Formes, grille de 7 prépositions et mots natifs dans 11 langues. Vendez sur Etsy.',
+    titleTag: 'Fiches de prépositions FLE à vendre | LCS',
+    metaDescription: 'Créez des fiches de prépositions avec deux modes d\'exercice, Remplacement de Formes et grille de 7 prépositions en 11 langues. Vendez sur Etsy.',
   },
 
   hero: {

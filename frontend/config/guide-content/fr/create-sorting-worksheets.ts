@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers classification Amazon KDP activités tri',
       'outil fiches tri licence commerciale',
     ],
-    titleTag: 'Fiches de tri à vendre en ligne | LessonCraftStudio',
+    titleTag: 'Fiches de tri à vendre en ligne | LCS',
     metaDescription: 'Créez des fiches de tri avec mode thématique à deux catégories, 4–12 images, grilles découpées mélangées et corrigés automatiques. Guide pour Etsy et KDP.',
   },
 

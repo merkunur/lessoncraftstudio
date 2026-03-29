@@ -17,7 +17,7 @@ const content: StartContent = {
       'optimisation de marketplace pour livres d\'activités',
       'marketing de contenu pour entrepreneurs en imprimables',
     ],
-    titleTag: 'Promouvoir son business d\'imprimables | LessonCraftStudio',
+    titleTag: 'Promouvoir son business d\'imprimables | LCS',
     metaDescription: 'Comment commercialiser des fiches imprimables : SEO, stratégie Pinterest, e-mail marketing, timing saisonnier et construction de marque pour entrepreneurs.',
   },
 

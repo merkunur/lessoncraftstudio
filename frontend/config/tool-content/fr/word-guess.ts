@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'indices images 4 difficultés 11 langues',
     ],
-    titleTag: 'Jeux de devinettes gratuits en ligne | LessonCraftStudio',
+    titleTag: 'Jeux de devinettes gratuits en ligne | LCS',
     metaDescription: 'Créez des jeux de devinettes de mots gratuitement. Indices images, 4 difficultés, sans inscription. Licence commerciale disponible.',
   },
 

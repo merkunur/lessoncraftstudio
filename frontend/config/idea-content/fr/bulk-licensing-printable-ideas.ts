@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Licence en volume — Imprimables | LessonCraftStudio',
+    titleTag: 'Licence en volume — Imprimables | LCS',
     metaDescription: 'Idées de licences en gros d\'imprimables pour vendre des collections de fiches aux écoles et districts. Stratégies de licences en volume pour entrepreneurs.',
 
     primaryKeyword: 'licence en volume imprimables business',

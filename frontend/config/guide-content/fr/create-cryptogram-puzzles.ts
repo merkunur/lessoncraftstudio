@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers puzzles chiffré en images Amazon KDP',
       'licence commerciale outil fiches cryptogrammes',
     ],
-    titleTag: 'Cryptogrammes à vendre en ligne | LessonCraftStudio',
-    metaDescription: 'Créez des puzzles cryptogrammes avec chiffrement images, difficulté réglable, attribution automatique et alphabets adaptés. Guide pour vendeurs Etsy et KDP.',
+    titleTag: 'Cryptogrammes à vendre en ligne | LCS',
+    metaDescription: 'Créez des puzzles cryptogrammes avec chiffrement images, difficulté réglable, attribution automatique et alphabets adaptés. Vendez sur Etsy et KDP.',
   },
 
   hero: {

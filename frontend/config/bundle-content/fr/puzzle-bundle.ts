@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches puzzles',
       'outil création fiches puzzles en masse',
     ],
-    titleTag: 'Pack puzzles logiques pour KDP | LessonCraftStudio',
+    titleTag: 'Pack puzzles logiques pour KDP | LCS',
     metaDescription: 'Pack de fiches puzzles avec 4 générateurs : pièces manquantes, intrus, sudoku enfants et labyrinthes. Vendez sur Etsy, KDP et Gumroad.',
   },
 

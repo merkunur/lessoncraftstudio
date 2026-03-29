@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers activités maths Amazon KDP',
       'outil fiches avec licence commerciale',
     ],
-    titleTag: 'Créer des fiches d\'addition à vendre | LessonCraftStudio',
-    metaDescription: 'Comment créer des fiches d\'addition pour enfants. Guide : choisir les thèmes, régler la difficulté, générer les corrigés et exporter des PDF pour Etsy et KDP.',
+    titleTag: 'Créer des fiches d\'addition à vendre | LCS',
+    metaDescription: 'Comment créer des fiches d\'addition pour enfants. Choisir les thèmes, régler la difficulté, générer les corrigés et exporter en PDF pour Etsy et KDP.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'modes Cherche et Trouve l\'Intrus 104 thèmes',
     ],
-    titleTag: 'Cherche et trouve gratuit en ligne | LessonCraftStudio',
+    titleTag: 'Cherche et trouve gratuit en ligne | LCS',
     metaDescription: 'Créez des cherche et trouve gratuitement en ligne. Modes Je Vois et Trouve l\'Intrus, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'modes Identique et Similaire cercles rouges 104 thèmes',
     ],
-    titleTag: 'Trouve l\'intrus gratuit en ligne | LessonCraftStudio',
+    titleTag: 'Trouve l\'intrus gratuit en ligne | LCS',
     metaDescription: 'Créez des fiches trouve l\'intrus gratuitement en ligne. Modes Identique et Similaire, corrigé auto, sans inscription. Licence commerciale disponible.',
   },
 

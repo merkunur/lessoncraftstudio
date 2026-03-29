@@ -17,8 +17,8 @@ const content: GuideContent = {
       'trafic réseaux sociaux Pinterest Instagram blog contenu SEO promotion',
       'lots produits abonnements revenus récurrents catalogue croissance',
     ],
-    titleTag: 'Vendre des imprimables sur Gumroad | LessonCraftStudio',
-    metaDescription: 'Vendez des imprimables sur Gumroad sans frais mensuels. Configuration boutique, stratégies tarification, marketing par e-mail et relations directes clients.',
+    titleTag: 'Vendre des imprimables sur Gumroad | LCS',
+    metaDescription: 'Vendez des imprimables sur Gumroad sans frais mensuels. Configuration boutique, stratégies tarification, marketing e-mail et relations directes clients.',
   },
 
   hero: {

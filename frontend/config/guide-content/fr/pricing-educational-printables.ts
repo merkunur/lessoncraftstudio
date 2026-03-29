@@ -17,7 +17,7 @@ const content: GuideContent = {
       'tarification saisonnière ajustement des prix étude de marché disposition à payer modèle de tarification',
       'cadre de tarification positionnement tarifaire sous-tarification surtarification tarification durable',
     ],
-    titleTag: 'Stratégie de prix fiches éducatives | LessonCraftStudio',
+    titleTag: 'Stratégie de prix fiches éducatives | LCS',
     metaDescription: 'Stratégies de tarification pour imprimables éducatifs. Psychologie des prix, analyse concurrentielle, frais de plateforme, marges et tests pour vendeurs.',
   },
 

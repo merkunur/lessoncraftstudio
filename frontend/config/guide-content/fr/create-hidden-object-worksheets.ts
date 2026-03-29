@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers cherche et trouve Amazon KDP',
       'créateur scènes objets cachés licence commerciale',
     ],
-    titleTag: 'Cherche et trouve à vendre en ligne | LessonCraftStudio',
+    titleTag: 'Cherche et trouve à vendre en ligne | LCS',
     metaDescription: 'Créez des fiches objets cachés avec deux modes de jeu : Cherche et Trouve et Trouve l\'intrus. Scènes thématiques, corrigés auto et vente sur Etsy et KDP.',
   },
 

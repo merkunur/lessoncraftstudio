@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Stats rapport termes de recherche optimisation mots-clés',
       'catégorie attributs Etsy pour produits éducatifs numériques',
     ],
-    titleTag: 'SEO Etsy pour fiches pédagogiques (2026) | LessonCraftStudio',
+    titleTag: 'SEO Etsy pour fiches pédagogiques (2026) | LCS',
     metaDescription: 'Guide SEO Etsy pour produits imprimables imprimable. Recherche de mots-clés, optimisation des titres, 13 tags, descriptions et facteurs de classement.',
   },
 

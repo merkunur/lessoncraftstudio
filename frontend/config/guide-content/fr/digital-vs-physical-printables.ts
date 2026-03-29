@@ -17,7 +17,7 @@ const content: GuideContent = {
       'revenus récurrents coûts impression emballage contrôle qualité produit',
       'sélection format comparaison modèle commercial stratégie vendeur trajectoire croissance',
     ],
-    titleTag: 'Numérique vs physique : imprimables | LessonCraftStudio',
+    titleTag: 'Numérique vs physique : imprimables | LCS',
     metaDescription: 'Comparaison imprimables numériques vs physiques pour vendeurs : marges bénéficiaires, évolutivité, logistique et choix du bon format pour votre activité.',
   },
 

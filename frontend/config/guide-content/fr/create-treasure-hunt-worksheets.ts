@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers parcours fléché directionnels Amazon KDP',
       'outil chasse au trésor licence commerciale',
     ],
-    titleTag: 'Chasses au trésor à vendre en ligne | LessonCraftStudio',
+    titleTag: 'Chasses au trésor à vendre en ligne | LCS',
     metaDescription: 'Créez des fiches chasse au trésor sur grille 5×5 avec déplacements directionnels, images-repères et corrigés auto. Guide étape par étape pour Etsy et KDP.',
   },
 

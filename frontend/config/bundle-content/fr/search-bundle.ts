@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches de découverte',
       'outil création fiches cherche et trouve en masse',
     ],
-    titleTag: 'Pack cherche & trouve pour vendeurs | LessonCraftStudio',
+    titleTag: 'Pack cherche & trouve pour vendeurs | LCS',
     metaDescription: 'Pack cherche et trouve avec 4 générateurs : cherche et compte, objets cachés, mots croisés en images et chasse au trésor. Vendez sur Etsy, KDP et Gumroad.',
   },
 

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Business téléchargements numériques | LessonCraftStudio',
+    titleTag: 'Business téléchargements numériques | LCS',
     metaDescription: 'Idées de fiches téléchargeables pour vendeurs Etsy, Gumroad et Gumroad. Créez un business d\'imprimables sans stock avec des PDF éducatifs en livraison.',
 
     primaryKeyword: 'téléchargements numériques business idées',

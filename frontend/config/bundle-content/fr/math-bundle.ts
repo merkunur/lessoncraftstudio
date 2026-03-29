@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches de maths',
       'outil création fiches maths en masse',
     ],
-    titleTag: 'Pack Maths pour vendeurs Etsy | LessonCraftStudio',
+    titleTag: 'Pack Maths pour vendeurs Etsy | LCS',
     metaDescription: '6 générateurs de fiches de maths en un seul pack. Créez des fiches d\'addition, soustraction, code, comparaison, puzzle et algèbre à vendre sur Etsy, KDP.',
   },
 

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '3 modes 5 polices flèches ordre des traits',
     ],
-    titleTag: 'Fiches d\'écriture gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Fiches d\'écriture gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches d\'écriture gratuitement en ligne. 3 modes, 5 polices, flèches de tracé, sans inscription. Licence commerciale disponible.',
   },
 

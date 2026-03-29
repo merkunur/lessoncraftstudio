@@ -17,7 +17,7 @@ const content: GuideContent = {
       'rentrée scolaire fiches maths imprimables stratégie saisonnière Etsy',
       'photos annonces Etsy mockups pour produits fiches de maths',
     ],
-    titleTag: 'Vendre des fiches de maths sur Etsy | LessonCraftStudio',
+    titleTag: 'Vendre des fiches de maths sur Etsy | LCS',
     metaDescription: 'Vendez des fiches de maths sur Etsy avec nos 6 générateurs. SEO Etsy, optimisation des annonces, tarification, stratégies de lots et timing saisonnier.',
   },
 

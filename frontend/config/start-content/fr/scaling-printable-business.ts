@@ -17,12 +17,12 @@ const content: StartContent = {
       'expansion multilingue des marchés imprimables',
       'stratégie de réinvestissement pour activité imprimables',
     ],
-    titleTag: 'Du complément au business à temps plein | LessonCraftStudio',
+    titleTag: 'Du complément au business à temps plein | LCS',
     metaDescription: 'Développez votre activité d\'imprimables d\'activité secondaire à temps plein. Expansion du catalogue, multi-plateforme, regroupement et automatisation.',
   },
 
   hero: {
-    title: 'Passer d\'une activité secondaire à une activité d\'imprimables à temps plein',
+    title: 'Du Complément de Revenus au Business d\'Imprimables',
     tagline: 'Cadre de croissance stratégique pour vendeurs d\'imprimables — de l\'expansion du catalogue et la distribution multi-plateforme à la stratégie de regroupement et l\'optimisation du workflow, le guide opérationnel pour dépasser le stade de projet annexe',
     description: 'Démarrer une activité d\'imprimables et développer une activité d\'imprimables nécessitent des compétences fondamentalement différentes. La créativité et l\'enthousiasme qui lancent vos premiers produits cèdent la place à la pensée systémique, aux décisions basées sur les données et à la discipline de production à mesure que vous grandissez. Ce guide fournit un cadre concret pour chaque phase de croissance : de vos 25 premières annonces jusqu\'à la maturité du catalogue à 300 produits ou plus. Vous apprendrez à élargir votre catalogue de manière systématique, à distribuer sur plusieurs plateformes, à regrouper des produits pour un panier moyen plus élevé, à optimiser votre workflow de production et à vous développer sur les marchés multilingues. Chaque stratégie est directement liée aux outils de génération de fiches disponibles via l\'essai gratuit avec filigrane, pour que vous puissiez mettre en œuvre les tactiques de croissance au fil de votre lecture.',
   },

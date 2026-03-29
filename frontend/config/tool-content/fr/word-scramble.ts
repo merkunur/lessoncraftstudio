@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'tuiles lettres code couleur voyelles 11 langues',
     ],
-    titleTag: 'Générateur d\'anagrammes gratuit | LessonCraftStudio',
+    titleTag: 'Générateur d\'anagrammes gratuit | LCS',
     metaDescription: 'Créez des anagrammes gratuitement en ligne. Tuiles lettres, code couleur, 11 langues, sans inscription. Licence commerciale disponible.',
   },
 

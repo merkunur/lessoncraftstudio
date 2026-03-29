@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       '4 modes d\'association corrigé automatique 11 langues',
     ],
-    titleTag: 'Fiches d\'appariement gratuites en ligne | LessonCraftStudio',
+    titleTag: 'Fiches d\'appariement gratuites en ligne | LCS',
     metaDescription: 'Créez des fiches d\'appariement gratuitement en ligne. 4 modes, corrigé auto, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 

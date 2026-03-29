@@ -17,7 +17,7 @@ const content: GuideContent = {
       'croissance catalogue revenu par produit diversification plateformes goulot étranglement',
       'systèmes entreprise processus reproductibles pipeline production multiplication contenu',
     ],
-    titleTag: 'Développer son business d\'imprimables | LessonCraftStudio',
+    titleTag: 'Développer son business d\'imprimables | LCS',
     metaDescription: 'Comment développer votre activité d\'imprimables avec production par lots, expansion multiplateforme, catalogue, marchés multilingues et automatisation.',
   },
 

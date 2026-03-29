@@ -17,7 +17,7 @@ const content: GuideContent = {
       'optimisation épingles format vertical algorithme Pinterest épingles fraîches',
       'classement recherche taux enregistrement clics sortants données audience modèles épingles',
     ],
-    titleTag: 'Marketing Pinterest pour fiches | LessonCraftStudio',
+    titleTag: 'Marketing Pinterest pour fiches | LCS',
     metaDescription: 'Stratégie marketing Pinterest pour vendeurs de fiches imprimables. Trafic durable, optimisation des épingles, stratégie tableaux et contenu mots-clés.',
   },
 

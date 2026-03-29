@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Tables de multiplication — Business | LessonCraftStudio',
+    titleTag: 'Tables de multiplication — Business | LCS',
     metaDescription: 'Idées d\'imprimables calcul mental et tables de maths à vendre sur Etsy, KDP et Gumroad. Stratégies de niche et conseils pour vendeurs ciblant les vendeurs.',
 
     primaryKeyword: 'tables de multiplication imprimables business',

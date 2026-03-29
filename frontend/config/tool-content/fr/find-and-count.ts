@@ -14,7 +14,7 @@ const content: ToolContent = {
       'licence commerciale pour vendre sur Etsy',
       'modes Objets Cachés Repérage Lettres 4 tâches',
     ],
-    titleTag: 'Cherche et compte gratuit en ligne | LessonCraftStudio',
+    titleTag: 'Cherche et compte gratuit en ligne | LCS',
     metaDescription: 'Créez des fiches cherche et compte gratuitement. Modes Objets Cachés et Lettres, 4 types de tâches, sans inscription. Licence commerciale disponible.',
   },
 

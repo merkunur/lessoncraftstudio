@@ -17,8 +17,8 @@ const content: GuideContent = {
       'tests de prix Etsy Stats taux de conversion optimisation',
       'tarification internationale devises Etsy téléchargements numériques A4 Letter',
     ],
-    titleTag: 'Fixer le prix de vos imprimables Etsy | LessonCraftStudio',
-    metaDescription: 'Fixez les prix de vos fiches Etsy avec calcul des frais, tarification à trois paliers, les stratégies de lots et les ajustements saisonniers. Guide vendeurs.',
+    titleTag: 'Fixer le prix de vos imprimables Etsy | LCS',
+    metaDescription: 'Fixez les prix de vos fiches Etsy avec calcul des frais, tarification à trois paliers, stratégies de lots et ajustements saisonniers. Guide vendeurs.',
   },
 
   hero: {

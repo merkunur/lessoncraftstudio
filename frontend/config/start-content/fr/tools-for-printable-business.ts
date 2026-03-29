@@ -17,7 +17,7 @@ const content: StartContent = {
       'outils générateur fiches multilingues',
       'production fiches licence commerciale',
     ],
-    titleTag: 'Outils essentiels business imprimables | LessonCraftStudio',
+    titleTag: 'Outils essentiels business imprimables | LCS',
     metaDescription: 'Meilleurs outils pour vendeurs de fiches imprimables : générateurs de fiches, outils de design, utilitaires de plateforme et workflows d\'automatisation.',
   },
 

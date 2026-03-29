@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Box d\'imprimables par abonnement | LessonCraftStudio',
+    titleTag: 'Box d\'imprimables par abonnement | LCS',
     metaDescription: 'Idées de box d\'abonnement de fiches à vendre sur Etsy, Gumroad et Patreon. Créez des revenus récurrents avec des packs mensuels et des lots thématiques.',
 
     primaryKeyword: 'box d\'imprimables par abonnement idées',

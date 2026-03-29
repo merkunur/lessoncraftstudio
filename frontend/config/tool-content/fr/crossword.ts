@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'licence commerciale pour vendre sur Etsy',
       'grille 15×15 4 méthodes de saisie 104 thèmes',
     ],
-    titleTag: 'Générateur de mots croisés gratuit | LessonCraftStudio',
+    titleTag: 'Générateur de mots croisés gratuit | LCS',
     metaDescription: 'Créez des mots croisés gratuit avec images en ligne. Grille 15×15, 4 méthodes de saisie, sans inscription. Licence commerciale disponible.',
     },
 

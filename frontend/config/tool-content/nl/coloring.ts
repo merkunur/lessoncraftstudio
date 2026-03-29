@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kleurplaten maken online',
+    primaryKeyword: 'gratis kleurplaten generator met afbeeldingen',
     secondaryKeywords: [
-      'kleurplaten maker voor verkopers',
-      'aangepaste kleurplaten voor de winkel',
-      'kleurplaat generator voor kinderen',
-      'printbare kleurplaten voor school',
+      'kleurplaten online maken gratis',
+      'kleurplaat generator gratis proberen',
+      'aangepaste kleurplaten maker met thema\'s',
+      'printbare kleurplaten gratis proefversie',
     ],
     lsiKeywords: [
-      'kleurplaat ontwerper voor de winkel',
-      'grijstinten kleurplaat om te printen',
-      'vrij tekenen tool voor kleurplaten',
+      'kleurplaat ontwerper gratis online',
+      'grijstinten kleurplaat generator',
+      'vrij tekenen tool voor kleurplaten gratis',
     ],
-    titleTag: 'Kleurplaten Maken Online — voor verkopers',
-    metaDescription: 'Maak aangepaste kleurplaten voor de winkel of thuis. Vrij canvas, 3.100+ illustraties, 104 thema\'s, uit de vrije hand tekenen. Gratis met watermerk.',
+    titleTag: 'Kleurplaten generator gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis kleurplaten met afbeeldingen online. Vrij canvas, 3.100+ illustraties, 104 thema\'s, uit de vrije hand tekenen. Probeer nu gratis met watermerk.',
     },
 
   hero: {
-    title: 'Kleurplaten Maker',
-    tagline: 'Vrije-vorm canvas kleurplaten generator met uit de vrije hand tekenen, grijstintenexport, winkel hulpmiddelen, en 104 thematische beeldcollecties voor professionele kleurplaten die wereldwijd verkopen zonder vertaling',
-    description: 'Ontwerp professionele kleurplaten op een volledig open canvas waar je afbeeldingen precies plaatst waar je ze wilt — geen rasters, geen sjablonen, geen vakjes, pure creatieve vrijheid. Deze vrije-vorm aanpak is de kernonderscheider: elke kleurplaat die je maakt is uniek en onmogelijk na te maken met sjabloongebaseerde tools. Blader door 104 thematische beeldcollecties met meer dan 3.100 kleurrijke illustraties, klik om afbeeldingen toe te voegen, en schik, vergroot, verklein, roteer en laag elementen overal op het canvas. Het tekengereedschap voor uit de vrije hand laat je originele illustraties rechtstreeks naast bibliotheekafbeeldingen schetsen met instelbare penseelkleur en -grootte (1–50 pixels), waardoor hybride kleurplaten ontstaan die samengestelde illustraties combineren met je eigen tekeningen. winkel hulpmiddelen met één klik voegen een naamveld voor gebruikers ("Naam: ____") en schrijflijnen (doorlopend, stippellijn, doorlopend) toe — waardoor kleurplaten worden omgezet in kant-en-klare klasactiviteiten die verkopen op Gumroad. Schakel na voltooiing de grijstintenexport in om je kleurrijke compositie om te zetten naar inkvriendelijke kleurplaten die perfect zijn voor KDP-binnenwerken en het printen online. Voeg decoratieve randthema\'s toe uit de randenbibliotheek, aangepaste tekst met omtrekeffecten met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana, en upload je eigen PNG-, JPG- of GIF-afbeeldingen. Dit is een puur visuele app — de uitvoer bevat geen tekst, waardoor kleurplaten universeel verkoopbaar zijn zonder vertaling. Er bestaat geen antwoordblad omdat kleuren een creatieve activiteit is zonder correct antwoord. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis kleurplaten generator met afbeeldingen',
+    tagline: 'Maak aangepaste kleurplaten op een vrij canvas met 104 thema\'s — gratis online proefversie met watermerk',
+    description: 'Maak kleurplaten op een volledig open canvas waar u afbeeldingen precies plaatst waar u ze wilt — geen rasters, geen sjablonen, geen vakjes. Met deze gratis online tool ontwerpt u in enkele minuten unieke kleurplaten met kleurrijke illustraties uit 104 thematische beeldcollecties met meer dan 3.100 afbeeldingen. Klik om afbeeldingen toe te voegen, schik ze overal op het canvas, vergroot, verklein en roteer naar wens. Het tekengereedschap voor uit de vrije hand laat u originele schetsen toevoegen naast bibliotheekafbeeldingen met instelbare penseelgrootte (1–50 pixels). Voeg een naamveld en schrijflijnen toe met één klik voor klasklare activiteiten. Schakel grijstintenexport in voor inkvriendelijke kleurplaten die perfect zijn om te printen. Voeg decoratieve randen toe, aangepaste tekst en upload uw eigen afbeeldingen. De uitvoer is puur visueel zonder tekst, waardoor kleurplaten in elke taal bruikbaar zijn. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders die kleurplaten willen maken voor hun kinderen, leerkrachten die thematische klasactiviteiten zoeken, en iedereen die de tool wil uitproberen.',
   },
 
   tutorial: {
-    title: 'Aangepaste Kleurplaten Maken in 8 Stappen',
+    title: 'Aangepaste kleurplaten maken in 8 stappen',
     steps: [
       {
         title: 'Open de Kleurplaten Maker',
@@ -200,14 +200,14 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten — Volledig Productoverzicht' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
-    { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Werkblad Maker' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
-    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Werkblad Maker' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
+    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Gratis rastertekenen maker' },
+    { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Gratis lijnen trekken maker' },
+    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Gratis groot en klein maker' },
+    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Gratis patroontrein maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Gratis schaduw matching maker' },
+    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Gratis schrijfoefeningen maker' },
   ],
 
   visuals: {

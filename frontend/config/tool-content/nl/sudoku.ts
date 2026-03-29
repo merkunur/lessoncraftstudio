@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'plaatjes sudoku voor kinderen',
+    primaryKeyword: 'gratis sudoku met afbeeldingen kinderen',
     secondaryKeywords: [
-      'plaatjes sudoku maker voor verkopers',
-      'afbeelding sudoku puzzels maken om te verkopen',
-      'printbare plaatjes sudoku generator commercieel gebruik',
-      'plaatjes sudoku werkblad maker voor KDP en Etsy',
+      'plaatjes sudoku online maken kinderen',
+      'sudoku met plaatjes gratis printen',
+      'afbeelding sudoku puzzel 4x4 voor kinderen',
+      'gratis sudoku werkblad met afbeeldingen downloaden',
     ],
     lsiKeywords: [
-      '4×4 raster afbeelding logica puzzel maker',
-      'drie moeilijkheidsniveaus makkelijk gemiddeld moeilijk sudoku creator',
-      'automatisch antwoordblad volledig ingevuld raster sudoku generator',
+      '4×4 raster afbeelding logica puzzel',
+      'drie moeilijkheidsniveaus sudoku kinderen',
+      'automatisch antwoordblad sudoku generator',
     ],
-    titleTag: 'Plaatjes Sudoku Maker — Sudoku voor Kinderen Generator',
-    metaDescription: 'Maak plaatjes sudoku voor kinderen met 4×4 afbeeldingsrasters, drie moeilijkheidsniveaus, automatische antwoordbladen en 104 thematische collecties.',
+    titleTag: 'Sudoku afbeeldingen gratis kinderen | LessonCraftStudio',
+    metaDescription: 'Maak gratis sudoku met afbeeldingen voor kinderen. 4×4 rasters, drie moeilijkheidsniveaus, automatische antwoordbladen en 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Plaatjes Sudoku Maker',
-    tagline: '4×4 afbeeldingsgebaseerde sudoku puzzel generator met drie moeilijkheidsniveaus (Makkelijk 4 lege cellen, Gemiddeld 6, Moeilijk 8), automatisch gegenereerde antwoordbladen met volledig ingevulde rasters, themagebonden en handmatige beeldselectie over 104 collecties met meer dan 3.100 illustraties, premium rasterontwerp met afwisselende blokkleuren en meerlaagse schaduwen, en puur visuele puzzels die wereldwijd verkopen zonder vertaling',
-    description: 'Maak professionele plaatjes sudoku voor kinderen waarbij gebruikers lege cellen invullen met de juiste afbeeldingen op basis van rij-en-kolom logica op een 4×4 raster. Elke puzzel gebruikt precies 4 unieke afbeeldingen die elk exact één keer in elke rij en één keer in elke kolom moeten voorkomen — dezelfde regels als klassieke sudoku, maar met kleurrijke illustraties in plaats van cijfers. Drie moeilijkheidsniveaus regelen de uitdaging: Makkelijk verwijdert 4 cellen, Gemiddeld verwijdert 6 en Moeilijk verwijdert 8 — de helft van het raster. Selecteer afbeeldingen via themagebonden automatische selectie die willekeurig 4 afbeeldingen kiest uit een van de 104 thematische collecties, of blader handmatig, zoek en upload om precies 4 afbeeldingen zelf te kiezen. Het premium rasterontwerp bevat afwisselende 2×2 blokkleuren in lichtblauw (#F8F9FC) en lichtroos (#FFF5F7), vetgedrukte centrumlijnverdelers (#7C8DB5, 3px streek), lichtere binnenlijnen (#D1D9E6, 1,5px), een indigo buitenkader (#667EEA) met 18px afgeronde hoeken, en drie meerlaagse schaduwen voor diepte. Afbeeldingen worden weergegeven op 65% van de celgrootte voor duidelijke visuele scheiding. Elke puzzel genereert een gestileerde "Plaatjes Sudoku" koptekst met een paarse achtergrond (#5E35B1) en gelokaliseerde titeltekst in alle 11 ondersteunde talen. Het dubbele-canvassysteem creëert tegelijkertijd een werkblad-tabblad en een antwoordblad-tabblad — het antwoordblad toont het volledig ingevulde 4×4 raster met alle 16 cellen gevuld. Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties en tekstomlijning 0–10. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI (6× vermenigvuldiger) in Letter Staand, Letter Liggend, A4 Staand, A4 Liggend of aangepaste afmetingen — geen vierkant paginaformaat voor deze app. Schakel grijstinten in voor inktvriendelijke uitvoer. Omdat plaatjes sudoku volledig visueel is — er verschijnen geen woorden op het puzzelraster — werkt elk werkblad identiek in alle 11 talen, waardoor je producten wereldwijd verkoopbaar zijn. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis sudoku met afbeeldingen voor kinderen',
+    tagline: 'Maak gratis plaatjes sudoku puzzels met 4×4 rasters en drie moeilijkheidsniveaus',
+    description: 'Probeer onze gratis proefversie met watermerk om plaatjes sudoku voor kinderen te maken — direct in uw browser, zonder account of registratie. Kinderen vullen lege cellen in met de juiste afbeeldingen op basis van rij-en-kolom logica op een overzichtelijk 4×4 raster. Elke puzzel gebruikt precies 4 unieke afbeeldingen die elk exact één keer in elke rij en kolom moeten voorkomen — dezelfde regels als klassieke sudoku, maar met kleurrijke illustraties in plaats van cijfers. Kies uit drie moeilijkheidsniveaus: Makkelijk verwijdert 4 cellen, Gemiddeld verwijdert 6 en Moeilijk verwijdert 8. Selecteer afbeeldingen uit meer dan 104 thematische collecties met meer dan 3.100 illustraties, of upload uw eigen afbeeldingen. Het automatisch gegenereerde antwoordblad toont het volledig ingevulde raster. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 
   tutorial: {
-    title: 'Plaatjes Sudoku Werkbladen Maken in 8 Stappen',
+    title: 'Zo maakt u plaatjes sudoku werkbladen in 8 stappen',
     steps: [
       {
         title: 'Open de Plaatjes Sudoku Maker',
@@ -205,7 +205,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Puzzels — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Puzzel Maker' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
     { pageType: 'tool', slug: 'plaatjespad-maker', anchorText: 'Plaatjespad Doolhof Maker' },

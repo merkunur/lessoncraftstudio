@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'woordzoekpuzzels maken',
+    primaryKeyword: 'woordzoekers met afbeeldingen maken verkopen',
     secondaryKeywords: [
-      'woordzoeker generator werkbladen',
-      'printbare woordzoeker maker',
-      'woordzoekers verkopen Etsy KDP',
-      'woordzoeker met afbeeldingen maken',
+      'woordzoeker generator met plaatjes',
+      'printbare woordzoekers maken en verkopen',
+      'meertalige woordzoekpuzzels generator',
+      'woordzoeker boeken verkopen op Amazon KDP en Etsy',
     ],
     lsiKeywords: [
       'woordzoeker werkbladen met plaatjes',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Etsy woordzoeker printables verkopen',
       'commerciële licentie puzzeltools',
     ],
-    titleTag: 'Woordzoekpuzzels Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Leer woordzoekpuzzels maken met afbeeldingen als aanwijzingen. Kies thema\'s, stel rastergrootte in, configureer richtingen en verkoop op Etsy en Amazon KDP.',
+    titleTag: 'Woordzoekers maken om te verkopen | LessonCraftStudio',
+    metaDescription: 'Maak woordzoekpuzzels met afbeeldingen als aanwijzingen in 11 talen. Stel rastergrootte en richtingen in, en verkoop op Etsy, KDP of Bol.com.',
   },
 
   hero: {
-    title: 'Hoe Woordzoekpuzzels Maken met Afbeeldingen',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van thematische woordzoekpuzzels met beeldaanwijzingen die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Woordzoekpuzzels behoren tot de bestverkopende printable categorieën op elke grote marktplaats. Ze spreken kinderen aan die woordenschat leren, gebruikers die spelling oefenen, taalleerders die woordherkenning opbouwen en volwassenen die genieten van puzzelboeken voor ontspanning. Deze gids begeleidt je door het volledige creatieproces met de Woordzoeker Generator — van het kiezen tussen woordenschatmodus en aangepaste woordlijsten tot het instellen van rastergrootte, zoekrichtingen en moeilijkheidsniveaus. De generator ondersteunt 11 talen, waardoor meertalige woordzoekproducten een realistische en winstgevende niche zijn. Of je nu je eerste puzzelproduct maakt of een woordzoeker-boekenimperium opbouwt op Amazon KDP, aan het einde van deze handleiding heb je een afgewerkte, printklare puzzel met kleurgecodeerde antwoordsleutel.',
+    title: 'Woordzoekers met afbeeldingen maken en verkopen',
+    tagline: 'Thematische woordzoekpuzzels maken in 11 talen met de generator en verkopen op Etsy, Amazon KDP of Bol.com',
+    description: 'Woordzoekpuzzels behoren tot de bestverkopende printable categorieën op elke grote marktplaats. Deze gids begeleidt u door het volledige creatieproces met de Woordzoeker Generator: woordenschatmodus of aangepaste woordlijsten, rastergrootte instellen, zoekrichtingen configureren en moeilijkheidsniveaus bepalen. De generator ondersteunt 11 talen, waardoor meertalige woordzoekproducten een winstgevende niche zijn.',
   },
 
   introduction: 'Woordzoekpuzzels nemen een unieke positie in op de printable productmarkt. In tegenstelling tot werkbladen die gericht zijn op een specifieke leeftijdsgroep, bestrijken woordzoekers het volledige leeftijdsspectrum — van kleuters die drieletterdierennamen zoeken in een klein raster tot volwassenen die complexe thematische puzzels oplossen in een boek van 400 pagina\'s. Die universele aantrekkingskracht betekent enorme, aanhoudende vraag via elk verkoopkanaal.\n\nWat woordzoekers bijzonder sterk maakt als productcategorie is het enorme volume van de boekenmarkt. Op Amazon KDP scoren woordzoeker boeken consequent bij de bestverkopende activiteitenboek-categorieën. Een enkel goed geoptimaliseerd woordzoeker boek met 100 puzzels en antwoordsleutels kan jarenlang stabiele royalty\'s genereren. De drempel is laag, maar verkopers die thematische, visueel aantrekkelijke puzzels met beeldaanwijzingen produceren, onderscheiden zich dramatisch van de generieke tekst-only concurrentie.\n\nDe Woordzoeker Generator neemt de technische complexiteit van puzzelcreatie voor je uit handen. Het plaatst woorden in een raster met instelbare richtingen (horizontaal, verticaal, diagonaal, omgekeerd), vult resterende cellen met willekeurige letters, genereert kleurgecodeerde antwoordsleutels waarbij elk woord een eigen markeringkleur krijgt, en ondersteunt beeldaanwijzingen die puzzels visueel aantrekkelijk en educatief maken. Twee creatiemodi — Woordenschatmodus en Aangepaste Woordlijstmodus — geven je flexibiliteit voor zowel thematische beeldgebaseerde producten als tekst-only aangepaste puzzels.\n\nEen belangrijk onderscheidend kenmerk is taalondersteuning. De generator werkt in 11 talen, en omdat woordzoekpuzzels DE woorden ZIJN, verandert taal alles. Een Spaanse woordzoeker gebruikt volledig andere woordenschat dan een Engelse voor hetzelfde thema. Dit opent de deur naar meertalige productlijnen die de meeste concurrenten volledig negeren.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldpuzzels maken, elke configuratie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,15 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'kruiswoordpuzzels-maken', anchorText: 'Kruiswoordpuzzels Maken — Stap-voor-Stap Gids' },
-    { pageType: 'guide', slug: 'woordzoeker-boeken-kdp', anchorText: 'Woordzoeker Boeken Verkopen op Amazon KDP' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Woordzoekers Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Alle Details' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
+    { pageType: 'guide', slug: 'kruiswoordpuzzels-maken', anchorText: 'Kruiswoordpuzzels maken en verkopen' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'bundle', slug: 'zoeken-vinden-pakket', anchorText: 'Zoeken & Vinden Pakket' },
   ],
 
   toolsRecommended: [

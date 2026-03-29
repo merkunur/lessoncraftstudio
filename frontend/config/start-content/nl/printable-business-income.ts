@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hoeveel kun je verdienen met printables verkopen',
+    primaryKeyword: 'hoeveel verdienen met printables verkopen',
     secondaryKeywords: [
-      'printable bedrijf inkomensverwachtingen',
-      'realistische printable verkoop inkomsten',
-      'werkbladen online verkopen inkomen',
-      'printable bedrijf omzetfactoren',
+      'printable bedrijf inkomensverwachtingen realistisch',
+      'verdiensten printables verkopen Etsy KDP',
+      'werkbladen online verkopen inkomen Nederland',
+      'printable bedrijf omzetfactoren verkopers',
     ],
     lsiKeywords: [
-      'etsy printable verkoper verdiensten factoren',
-      'amazon kdp activiteitenboek omzet variabelen',
+      'Etsy printable verkoper verdiensten factoren',
+      'Amazon KDP activiteitenboek omzet variabelen',
       'werkblad bedrijf catalogusgrootte inkomen',
       'printable prijsstrategie marktplaats kosten',
-      'digitale download bedrijf tijdsinvestering',
+      'digitale download bedrijf tijdsinvestering ZZP',
       'meerdere inkomstenstromen printable producten',
     ],
-    titleTag: 'Hoeveel Kun Je Verdienen met Printables Verkopen?',
-    metaDescription: 'Hoeveel kun je verdienen met printables verkopen? Realistische inkomensverwachtingen, platformkostenstructuren, prijsstrategieën en de variabelen die je.',
+    titleTag: 'Hoeveel verdienen met printables | LessonCraftStudio',
+    metaDescription: 'Hoeveel kunt u verdienen met printables verkopen? Realistische inkomensvariabelen, platformkosten, prijsstrategieen en de factoren die u controleert.',
   },
 
   hero: {
-    title: 'Printable Bedrijf Inkomen: Realistische Verwachtingen',
-    tagline: 'Een eerlijke uiteenzetting van de variabelen die printable bedrijfsinkomsten bepalen — geen hype, geen verzonnen cijfers, alleen de factoren die je daadwerkelijk controleert',
-    description: 'Elke zoekopdracht over een printable bedrijf leidt uiteindelijk tot dezelfde vraag: hoeveel kun je verdienen? Het internet staat vol vage beloftes en onverifieerbare claims. Deze gids neemt een andere aanpak. In plaats van een getal te bieden dat betekenisloos zou zijn zonder context, worden de specifieke variabelen uiteengezet die printable bedrijfsinkomsten bepalen — catalogusgrootte, productkwaliteit, prijsstrategie, platformeconomie, marketinginspanning en tijdsinvestering. Dit zijn de factoren binnen jouw controle, en het begrijpen ervan is veel waardevoller dan welk bedrag dan ook.',
+    title: 'Hoeveel kunt u verdienen met printables verkopen?',
+    tagline: 'Eerlijke uiteenzetting van de variabelen die uw inkomen bepalen',
+    description: 'Elke zoekopdracht over een printable bedrijf leidt uiteindelijk tot dezelfde vraag: hoeveel kunt u verdienen? Het internet staat vol vage beloftes en onverifieerbare claims. Deze gids neemt een andere aanpak. In plaats van een getal te bieden dat betekenisloos zou zijn zonder context, worden de specifieke variabelen uiteengezet die printable bedrijfsinkomsten bepalen: catalogusgrootte, productkwaliteit, prijsstrategie, platformeconomie, marketinginspanning en tijdsinvestering. Als ZZP\'er in Nederland profiteert u bovendien van fiscale voordelen zoals de zelfstandigenaftrek en de MKB-winstvrijstelling, die uw netto-inkomen aanzienlijk kunnen verhogen. Dit zijn de factoren binnen uw controle, en het begrijpen ervan is veel waardevoller dan welk bedrag dan ook.',
   },
 
   introduction: 'Hoeveel kun je verdienen met printables verkopen? Het is de meest gezochte vraag in de printable bedrijfsruimte, en bijna elk antwoord dat je online vindt is misleidend. Blogposts beloven specifieke maandelijkse inkomenscijfers. YouTube-miniaturen tonen indrukwekkende omzetscreenshots. Cursusverkopers citeren verdiensten die handig overeenkomen met hun vraagprijs. Het probleem is niet dat geld verdienen met printables onmogelijk is — het is dat de vraag zelf verkeerd is geformuleerd.\n\nVragen "hoeveel kun je verdienen" veronderstelt dat er een vast antwoord is. Dat is er niet. Printable bedrijfsinkomsten hangen af van een combinatie van variabelen: hoeveel producten je vermeldt, hoe goed je ze prijst, op welke platforms je verkoopt, hoeveel verkeer je vermeldingen ontvangen, en hoe consistent je tijd investeert in het groeien van je catalogus. Twee verkopers die identieke tools gebruiken kunnen dramatisch verschillende resultaten produceren op basis van inspanning, strategie en doorzettingsvermogen.\n\nDeze gids geeft je geen getal. Het geeft je iets nuttigers: een helder begrip van elke variabele die printable bedrijfsinkomsten bepaalt, de werkelijke economie van de platforms waar printables verkopen, realistische tijdlijnen voor hoe de eerste maanden eruitzien, en een raamwerk voor het stellen van doelen die binnen je controle liggen.\n\nDe werkblad generators die in deze gids worden behandeld bieden een gratis proefversie met watermerk zodat je productiesnelheid en uitvoerkwaliteit kunt testen voordat je geld uitgeeft. Die praktijkervaring vertelt je meer over je verdienpotentieel dan welke inkomensclaim ooit zou kunnen.',
@@ -203,17 +203,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'meertalige-werkbladen-maken', anchorText: 'Hoe Werkbladen te Maken in 11 Talen' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: 'Rekenwerkblad Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Probeer de Rekenwerkblad Maker' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids printables-business starten' },
+    { pageType: 'start', slug: 'opschalen-printable-bedrijf', anchorText: 'Van bijverdienste naar voltijds opschalen' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Masterclass Etsy printables' },
   ],
 
   visuals: {

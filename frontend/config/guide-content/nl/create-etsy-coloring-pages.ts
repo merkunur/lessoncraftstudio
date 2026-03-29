@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy kleurplaten maken en verkopen',
+    primaryKeyword: 'kleurplaten maken die verkopen op Etsy',
     secondaryKeywords: [
       'kleurplaten verkopen op Etsy',
       'Etsy kleurplaat winkel opzetten',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'feestdagen seizoensgebonden kleurplaat printable Etsy vraag',
       'Etsy vermeldingsfoto mockups voor kleurplaatproducten',
     ],
-    titleTag: 'Etsy Kleurplaten Maken en Verkopen — Gids',
-    metaDescription: 'Etsy kleurplaten maken met 104 beeldthema\'s. Zwart-wit en grijswaarden exports, vermeldingsoptimalisatie, prijzen voor themapakketten en seizoenstips.',
+    titleTag: 'Kleurplaten die verkopen op Etsy | LessonCraftStudio',
+    metaDescription: 'Maak kleurplaten die verkopen op Etsy met 104 beeldthema\'s. Grijswaarden exports, SEO-optimalisatie, prijzen voor themapakketten en KDP-crossover.',
   },
 
   hero: {
-    title: 'Hoe Etsy Kleurplaten Maken Die Verkopen',
-    tagline: 'Een complete platformgids voor het opbouwen van een winstgevende Etsy-winkel die kleurplaten verkoopt gemaakt met 104 thematische beeldbibliotheken — inclusief Etsy-winkelinrichting, SEO-optimalisatie met alle 13 tags, vermeldingstitels en beschrijvingen die ranken voor zoektermen van kleurplaatkopers, productfotografie die zwart-wit lijntekeningen en themavariatie toont, prijsstrategieën voor individuele pagina\'s en thematische collecties, seizoenstiming voor feestdagen en terug-naar-schoolvraagpieken, catalogusplanning over kinder- en volwassenendoelgroepen, Amazon KDP kleurboek cross-over mogelijkheden en doorlopende winkeloptimalisatie met Etsy Stats en zoekanalyses',
-    description: 'Kleurplaten behoren tot de meest gevraagde en groenblijvende printable productcategorieën op Etsy, gekocht door ouders, verkopers, therapeuten, activiteitencoördinatoren in de ouderenzorg en volwassen kleurliefhebbers. Deze gids leidt je door elke stap van het opbouwen van een Etsy-winkel die kleurplaten verkoopt — van het onderzoeken van kopersvraag over kinder- en volwassenendoelgroepen, via het genereren van voorraad uit 104 thematische beeldbibliotheken, tot het schrijven van geoptimaliseerde vermeldingen, het maken van vermeldingsfoto\'s die lijntekeningen effectief tonen, het instellen van prijzen voor individuele pagina\'s en thematische collecties, en het lanceren van je winkel.\n\nJe leert hoe kleurplaten verschillen van andere printable categorieën in hun universele visuele aantrekkingskracht, brede kopersdemografie, seizoensgebonden vraagpatronen en aanzienlijk Amazon KDP cross-over potentieel. Elke functie beschreven in deze gids is beschikbaar in de gratis proefversie met watermerk. Je kunt complete kleurplaten ontwerpen, de grijswaardenschakelaar testen, experimenteren met alle canvastools en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
+    title: 'Kleurplaten maken die verkopen op Etsy',
+    tagline: 'Van 104 beeldthema\'s naar een winstgevende Etsy-kleurplaatwinkel',
+    description: 'Kleurplaten behoren tot de meest groenblijvende printable categorieën op Etsy, gekocht door ouders, therapeuten, activiteitencoördinatoren en volwassen kleurliefhebbers. Deze gids leidt u door elke stap: van het onderzoeken van kopersvraag over kinder- en volwassenendoelgroepen, via het genereren van voorraad uit 104 thematische beeldbibliotheken, tot het schrijven van geoptimaliseerde vermeldingen en het instellen van prijzen voor thematische collecties. U leert hoe kleurplaten verschillen van andere printables in visuele aantrekkingskracht, seizoensgebonden vraag en Amazon KDP-crossoverpotentieel. Elke functie is beschikbaar in de gratis proefversie met watermerk.',
   },
 
-  introduction: 'Kleurplaten nemen een bevoorrechte positie in op de Etsy printable marktplaats. Anders dan rekenwerkbladen die gericht zijn op specifieke niveaucategories of woordzoekpuzzels die taalspecifieke woordenschat vereisen, zijn kleurplaten puur visuele producten. De inhoud van een kleurplaat — lijntekeningen van dieren, voertuigen, voedsel, natuurtaferelen — overstijgt taalbarrières volledig. Een kleurplaat met een kat werkt even goed voor een kind in Amsterdam, een gepensioneerde in Antwerpen of een therapiepatiënt in München. Deze visuele universaliteit creëert een ongewoon breed bereikbaar publiek vanuit een enkel product.\n\nDe vraag naar printbare kleurplaten op Etsy bestrijkt een uitzonderlijk breed kopersspectrum. Ouders kopen thematische kleurplaatpakketten voor regenachtige dagen, autoritten, wachtmomenten in restaurants en offline activiteiten die schermtijd vervangen. verkopers kopen klassikale sets voor ochtendroutines, beloningsactiviteiten en thematische feestdagvieringen. Thuisonderwijsfamilies gebruiken kleurplaten voor fijne motoriek ontwikkeling en als rustactiviteiten tussen gerichte lessen. Ergotherapeuten kopen kleurbladen voor handkracht- en coördinatieoefeningen. Activiteitencoördinatoren in de ouderenzorg kopen kleurplaten met grote afbeeldingen voor cognitieve betrokkenheidsprogramma\'s. Volwassen kleurliefhebbers kopen gedetailleerde, ingewikkelde ontwerpen voor persoonlijke ontspanning en mindfulness. Elk van deze kopersegmenten zoekt met andere zoekwoorden, waardoor er meerdere toegangspunten tot je winkel ontstaan.\n\nDe kleurplaatniche heeft een structureel voordeel dat veel verkopers over het hoofd zien: productiesnelheid. Omdat kleurplaten geen antwoordsleutels, moeilijkheidskalibratie of productcatalogusafstemming vereisen, kun je afgewerkte producten aanzienlijk sneller maken dan de meeste andere printable categorieën. De Kleurplaat Maker zet thematische afbeeldingen om in printklare zwart-wit of grijswaarden kleurplaten met een enkele schakelaar. Deze productie-efficiëntie betekent dat je snel een substantiële catalogus kunt opbouwen — een cruciaal voordeel op Etsy waar vermeldingsvolume direct correleert met winkelzichtbaarheid.\n\nEtsy beloont winkels die categoriediepte tonen door consistente, gerelateerde vermeldingen. Een gespecialiseerde kleurplaatwinkel met 30 tot 50 thematische vermeldingen signaleert diepe nichespecialisatie aan het algoritme. Deze categoriefocus verbetert je winkelkwaliteitsscore en helpt Etsy je producten aan te bevelen aan kopers die vergelijkbare kleurplaatvermeldingen van concurrenten bekijken. Gecombineerd met correct taggebruik over alle 13 beschikbare slots kan een gerichte kleurplaatwinkel binnen weken na lancering sterke organische zichtbaarheid bereiken.\n\nKleurplaten hebben ook uitzonderlijk Amazon KDP cross-over potentieel. Dezelfde kleurplaatontwerpen die verkopen als individuele digitale downloads op Etsy kunnen worden samengesteld tot thematische kleurboeken voor KDP-publicatie. Veel succesvolle kleurplaatverkopers opereren tegelijkertijd op beide platforms — Etsy voor individuele thematische downloads en KDP voor samengestelde kleurboeken. Deze dubbele platformaanpak maximaliseert de opbrengst van elke kleurplaat die je maakt.\n\nElke functie beschreven in deze gids is beschikbaar in de gratis proefversie met watermerk. Je kunt complete kleurplaten ontwerpen, de grijswaardenschakelaar testen, experimenteren met alle canvastools en de uitvoerkwaliteit evalueren voordat je een commerciële licentie koopt.',
+  introduction: 'Kleurplaten zijn puur visuele producten die taalbarrières volledig overstijgen. Een kleurplaat met een kat werkt even goed voor een kind in Amsterdam als een therapiepatiënt in München. Deze universaliteit creëert een ongewoon breed bereikbaar publiek. De kleurplaatniche biedt bovendien een structureel voordeel: productiesnelheid. Omdat kleurplaten geen antwoordsleutels of moeilijkheidskalibratie vereisen, kunt u afgewerkte producten sneller maken dan bij de meeste andere printable categorieën. De Kleurplaat Maker zet thematische afbeeldingen om in printklare grijswaarden kleurplaten met een enkele schakelaar. Op Etsy correleert vermeldingsvolume direct met winkelzichtbaarheid, en dezelfde ontwerpen kunt u ook samenvoegen tot KDP-kleurboeken voor Amazon. Elke functie is beschikbaar in de gratis proefversie met watermerk.',
 
   tutorial: [
     {
@@ -150,13 +150,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'kleurplaten-maken', anchorText: 'Hoe Kleurplaten Maken vanuit Thema-Afbeeldingen' },
-    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Hoe Woordzoeker Werkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe Een Etsy Printable Winkel Starten Vanaf Nul' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator — Volledige Details' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator' },
+    { pageType: 'bundle', slug: 'visueel-leren-pakket', anchorText: 'Visueel Leren Pakket' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Verbindings Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaat Maker' },
   ],
 

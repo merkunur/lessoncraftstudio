@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Groep 5 Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende groep 5 printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Basisschool productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables groep 5-6 om te verkopen | LessonCraftStudio',
+    metaDescription: 'Ideeën voor printables groep 5-6 om te verkopen. Tafels, breuken, begrijpend lezen en deling — nichemateriaal dat leerkrachten en ouders kopen.',
 
-    primaryKeyword: 'groep 5 printable ideeën',
+    primaryKeyword: 'printables groep 5-6 om te verkopen',
     secondaryKeywords: [
-      'groep 5 werkbladen verkopen',
-      'bovenbouw printable business ideeën',
-      'groep 5 activiteiten voor verkopers',
-      'groep 5 printables verkopen op Gumroad',
+      'groep 5 werkbladen verkopen Etsy',
+      'tafels automatiseren printables business',
+      'breuken werkbladen groep 6 verkopen',
+      'groep 5-6 printable niche Gumroad',
     ],
     lsiKeywords: [
-      'middenbouw educatieve werkbladen',
-      'groep 5 productcatalogus printables',
-      'leeftijd 8-9 leeractiviteiten',
+      'vermenigvuldigen en delen oefenmateriaal',
+      'Cito-entreetoets voorbereiding werkbladen',
+      'begrijpend lezen middenbouw printables',
     ],
   },
   hero: {
-    title: 'Groep 5 Printable Businessideeën voor Verkopers',
-    description: 'Groep 5 printables bezetten een uitzonderlijk lucratieve positie op de educatieve markt omdat groep 5 het cruciale academische jaar is waarin vermenigvuldiging en deling formeel worden geïntroduceerd als de dominante rekenoperaties, begrijpend lezen decoderen vervangt als het primaire leervehikel over elk inhoudsgebied, en schrijven vordert naar meervoudige-alinea composities die gestructureerde opinie- en verhalende teksten vereisen met georganiseerde ondersteunende argumenten. Deze convergentie van geïntensiveerde academische eisen creëert de sterkste koopdruk in de basisschool van verkopers die hun instructie moeten differentiëren over het breedste prestatiebereik in het basisonderwijs — cumulatieve leerverschillen van groep 1 tot en met groep 4 stapelen zich op tot een drie-tot-vier-jarig vaardigheidsspanne binnen één klas. Oudervraag intensiveert dramatisch tijdens groep 5 omdat Cito-toetsresultaten concrete consequenties dragen inclusief interventieplaatsingsbeslissingen en trajecttoewijzingen die de academische inzet tastbaar en urgent maken voor gezinnen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables groep 5-6 verkopen: een premium niche',
+    description: 'Groep 5 en 6 vormen het academische zwaartepunt van de basisschool en daarmee de meest koopintensieve niche voor printable-verkopers. Leerkrachten moeten differentiëren over het breedste vaardigheidsbereik in het basisonderwijs: van leerlingen die nog met de tafels van twee worstelen tot leerlingen die al aan breuken werken. Met onze generators maakt u professioneel materiaal voor tafelautomatisering, deling, begrijpend lezen met inferentie en meercijferig rekenen. De Cito-entreetoets geeft voor het eerst een indicatie van het vervolgonderwijsniveau, wat ouders sterk motiveert om thuisoefenmateriaal aan te schaffen. Bied drieweg-gedifferentieerde pakketten aan (basis, gemiddeld, verrijking) en u heeft een concurrentievoordeel dat weinig verkopers evenaren. Verkoop via Etsy, Gumroad of Bol.com en profiteer van de jaarronde progressieve vraag. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De groep 5 printable-markt vertegenwoordigt de premium omzetkans in de educatieve niche omdat groep 5 zich bevindt op het kritische academische draaipunt waar elk belangrijk vakgebied zijn meest significante complexiteitstoename ondergaat in de basisschooljaren, wat ongekende koopdruk creëert van verkopers die de meest veeleisende getrapte productpakketten-uitdaging in het basisonderwijs het hoofd moeten bieden en ouders die geconfronteerd worden met de eerste hoge-inzet toetsuitkomsten die echte consequenties dragen voor de academische toekomst van hun kind. Het rekenproductcatalogus alleen al stimuleert enorme printable-vraag omdat groep 5 vermenigvuldiging en deling introduceert als geheel nieuwe operatiedomeinen die beheersing van de tafels vereisen, conceptueel begrip van gelijke groepen en rijen, vloeienheidsontwikkeling via progressieve tafeloefening, en toepassing via meerstaps-woordopgaven.
 
@@ -149,54 +149,19 @@ Het cross-promotionele potentieel van de groep-5-niche is bijzonder sterk omdat 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'rekenpuzzels-werkbladen',
+      anchorText: 'Rekenpuzzels voor tafelautomatisering groep 5',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kruiswoordpuzzel-werkbladen',
+      anchorText: 'Kruiswoordpuzzels voor woordenschat groep 5-6',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-math-puzzle-worksheets',
-      anchorText: 'Professionele rekenpuzzelwerkbladen maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Groep 4 printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Rekenfeiten printable businessideeën',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor de middenbouw',
     },
   ],
 

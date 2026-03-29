@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'plaatjesgrafiek werkbladen generator',
+    primaryKeyword: 'tel- en grafiekwerkbladen voor Etsy-shop',
     secondaryKeywords: [
-      'printbare telgrafiek werkbladen maker voor Etsy-verkopers',
-      'plaatjesgrafiek werkbladen generator voor Amazon KDP-uitgevers',
-      'telgrafieken activiteiten verkopen op Gumroad',
-      'data grafiek werkbladen maker commerciële licentie',
+      'telgrafieken generator Etsy',
+      'grafiek werkbladen voor KDP',
+      'tel-en-turfwerkbladen commerciële licentie',
+      'grafiekactiviteiten verkopen',
     ],
     lsiKeywords: [
       'digitale telgrafiek printables online bedrijf',
       'printbare gegevensrepresentatie werkbladen business',
       'commercieel gebruik plaatjesgrafiek generator',
     ],
-    titleTag: 'Telgrafiek Generator | Maak & Verkoop Werkbladen',
-    metaDescription: 'Maak telgrafiek werkbladen om te verkopen op Etsy, KDP en Gumroad. Automatisch antwoordblad met markeringen, 104 thema\'s, 6 afbeeldingstypen per blad.',
+    titleTag: 'Tel- en grafiekwerkbladen Etsy | LessonCraftStudio',
+    metaDescription: 'Maak tel- en grafiekwerkbladen voor uw Etsy-shop of KDP-werkboek. Automatisch antwoordblad, 104 thema\'s en 6 afbeeldingstypen per blad.',
   },
 
   hero: {
-    title: 'Telgrafiek Werkbladen Generator voor Printbare Plaatjesgrafiek Activiteiten',
-    tagline: 'Dubbel-canvas plaatjesgrafiek maker — genereer verstrooide afbeeldingsrasters met 6 afbeeldingstypen, automatisch ingevulde staafdiagram antwoordbladen, gelokaliseerde koppen in 11 talen, en 104 thematische beeldcollecties voor gegevensrepresentatie werkbladen.',
+    title: 'Tel- en grafiekwerkbladen voor uw Etsy-printables',
+    tagline: 'Gratis proefversie met watermerk — genereer plaatjesgrafieken met 6 afbeeldingstypen, automatische staafdiagram-antwoordbladen en 104 thema\'s.',
     description:
-      'Verander visueel tellen in een complete gegevensvaardighedenactiviteit met de enige werkbladgenerator die speciaal is gebouwd voor plaatjesgrafieken. Elk werkblad bevat een verstrooide afbeeldingsraster met 20 pictogrammen van 6 verschillende typen, gerangschikt in een 4×5 indeling — gebruikers tellen hoeveel van elk type er verschijnen en kleuren vervolgens de overeenkomstige cellen in het staafdiagram eronder. De app genereert tegelijkertijd een antwoordblad met geel gemarkeerde cellen die de juiste aantallen tonen, zodat verkopers het werk van gebruikers direct kunnen controleren. Kies afbeeldingen automatisch door een thema te selecteren uit het dropdown-menu Werkblad Afbeeldingsbron, of kies handmatig precies 6 afbeeldingen uit de doorzoekbare Afbeeldingenbibliotheek met 3.100+ illustraties verdeeld over 104 collecties. Elk werkblad bevat een automatisch gegenereerde kop met een gelokaliseerde "Plaatjesgrafiek" titel en telinstructies — de kop past zich automatisch aan alle 11 ondersteunde talen aan. Voeg naam- en datumvelden voor gebruikers toe met een enkel selectievakje, pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en pas aan met tekstgereedschappen en canvas bewerking uit de vrije hand. De Telgrafiek Generator is niet taalgevoelig — visueel tellen gebruikt universele cijfers en afbeeldingen, dus werkbladen werken identiek in elke taal. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Download alle vier bestanden — werkblad JPEG, werkblad PDF, antwoordblad JPEG en antwoordblad PDF — in één sessie. Of je nu plaatjesgrafiek bundels verkoopt op Etsy.nl, werkboeken voor gegevensvaardigheden samenstelt voor Amazon KDP, of rekenactiviteiten voor de winkel maakt voor Gumroad, de Telgrafiek Generator levert klasklare resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Combineer tellen en gegevensvisualisatie in werkbladen die populair zijn bij ouders van kinderen in groep 3 tot 5. Elk werkblad toont een verstrooide afbeeldingsraster met 20 pictogrammen van 6 verschillende typen in een 4×5 indeling — kinderen tellen hoeveel van elk type er verschijnen en kleuren de overeenkomstige cellen in het staafdiagram eronder. Het dubbele-canvassysteem genereert tegelijkertijd een antwoordblad met geel gemarkeerde cellen, zodat u bij grote bundels nooit handmatig hoeft na te tellen. Kies afbeeldingen automatisch door een thema te selecteren uit de bibliotheek met meer dan 3100 illustraties in 104 collecties, of kies handmatig precies 6 afbeeldingen. Voeg naam- en datumvelden toe, pas achtergrond- en kaderthema\'s aan met onafhankelijke dekkingsregelaars en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Visueel tellen werkt taalonafhankelijk — cijfers en afbeeldingen zijn universeel, dus dezelfde werkbladen functioneren in elke taal. Verkoop uw grafiekwerkbladen als downloads op Etsy, bundel ze tot werkboeken voor Amazon KDP of bied ze aan via Bol.com. De commerciële licentie geeft u volledige verkooprechten zonder royalty\'s.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Telgrafiek Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u tel- en grafiekwerkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling en gebruikervelden in',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Telgrafiek Werkbladen Generator',
+    title: 'Belangrijkste functies van de tel- en grafiekwerkbladen generator',
     features: [
       {
         title: 'Plaatjesgrafiek Generator met Verstrooide Afbeeldingsraster en Staafdiagram',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Plaatjesgrafiek Werkbladen Online',
+    title: 'Hoe verkoopt u tel- en grafiekwerkbladen online',
     cases: [
       {
         title: 'Thematische Plaatjesgrafiek Bundels op Etsy',
@@ -204,58 +204,13 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'groot-klein-werkbladen',
-      anchorText: 'Groot & Klein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patroontrein-werkbladen',
-      anchorText: 'Patroontrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patronen-werkbladen',
-      anchorText: 'Patronen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'rastertekenen-werkbladen',
-      anchorText: 'Rastertekenen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'lijnen-trekken-werkbladen',
-      anchorText: 'Lijnen Trekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Generator',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en Tel Werkbladen Generator',
     },
     {
       pageType: 'bundle',
-      slug: 'visueel-leren-pakket',
-      anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Één Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zomer-printable-ideen',
-      anchorText: 'Zomer printable ideeën voor kinderactiviteiten',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kerst-printable-ideen',
-      anchorText: 'Kerst printable ideeën voor seizoensverkoop',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-bedrijf',
-      anchorText: 'Bouw je Etsy printable bedrijf',
-    },
-    {
-      pageType: 'guide',
-      slug: 'telgrafiek-werkbladen-maken',
-      anchorText: 'Telgrafiek werkbladen maken',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde Meester Pakket — Alle Rekenapps in Eén Bundel',
     },
   ],
 

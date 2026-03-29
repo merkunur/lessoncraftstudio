@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'sorteer werkblad generator',
+    primaryKeyword: 'gratis sorteerwerkbladen generator',
     secondaryKeywords: [
-      'sorteer werkblad generator voor verkopers',
-      'sorteer werkbladen maken om te verkopen op Etsy',
-      'printbare sorteeractiviteit maker commercieel gebruik',
-      'afbeeldingen sorteren werkblad generator voor KDP en Etsy',
+      'sorteerwerkbladen online maken gratis',
+      'afbeeldingen sorteren werkblad generator',
+      'printbare sorteeractiviteit maker met antwoordblad',
+      'twee-categorieën sorteer werkblad tool online',
     ],
     lsiKeywords: [
-      'twee-categorieën sorteer werkblad maker met antwoordblad',
-      'themagestuurde handmatige modus afbeelding classificatie generator',
-      'geschud uitknipraster sorteeractiviteit creator tool',
+      'themagestuurde classificatie werkblad maker',
+      'uitknipraster sorteeractiviteit generator gratis',
+      'automatisch antwoordblad sorteer werkblad tool',
     ],
-    titleTag: 'Sorteer Werkblad Maker — Sorteer Werkblad Generator',
-    metaDescription: 'Maak sorteer werkbladen met twee-categorieën themamodus, geschudde uitkniprasters, automatische antwoordbladen en 104 thematische beeldcollecties.',
+    titleTag: 'Sorteerwerkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis sorteerwerkbladen online met twee-categorieën modus, geschudde uitkniprasters en automatische antwoordbladen. Probeer nu zonder account.',
   },
 
   hero: {
-    title: 'Sorteer Werkblad Maker',
-    tagline: 'Twee-categorieën sorteer werkblad generator met themagestuurde en handmatige beeldselectiemodi, geschudde uitkniprasters van 4–12 afbeeldingen in 3–4 auto-aanpassende kolommen, stippelrand categoriekaders voor linker- en rechtersortering, automatisch gegenereerde antwoordbladen met 6× grotere afbeeldingen in categorievakken, gelokaliseerde Afbeeldingen Sorteren koptekst in 11 talen, en 104 thematische beeldcollecties voor sorteer werkbladen die wereldwijd verkopen',
-    description: 'Maak professionele sorteer werkbladen waarbij gebruikers afbeeldingen uitknippen uit een geschud raster en classificeren in twee categorieën — links en rechts. Kies themamodus om categorieën automatisch te vullen vanuit de afbeeldingenbibliotheek: selecteer een linkerthema en een rechterthema, en de app haalt 4–6 willekeurige afbeeldingen per thema op. Of schakel naar handmatige modus om individuele afbeeldingen te selecteren en elk aan de linker- of rechtercategorie toe te wijzen. Elk werkblad bevat twee naast elkaar geplaatste categoriekaders met stippelrand bovenaan met #FAFAFA-vulling als sorteerbestemmingen en een geschud uitknipraster onderaan met witte cellen, stippel #666-randen, 4px afgeronde hoeken en 3–4 kolommen op basis van het totale aantal afbeeldingen. Elke afbeelding vult 85% van zijn cel. Configureer 4–12 totale afbeeldingen met 2–10 per categorie — minder afbeeldingen creëren eenvoudigere sorteertaken voor jongere gebruikers, meer afbeeldingen verhogen de moeilijkheid en inhoudsdichtheid. Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd. Het antwoordblad toont afbeeldingen op 6× de grootte van de uitkniprastercellen, georganiseerd in categorievakken met maximaal 2 kolommen per vak, #FAFAFA-vulling, #444-streek en 12px randstraal — geen handmatige antwoordbladcreatie nodig. De Sorteer Werkblad Maker is taalgevoelig: categorielabels gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de tekst op het werkblad. Een gelokaliseerde koptekst rendert automatisch met een mintgroene achtergrond (#4DB6AC), witte pilcontainer, groenblauwe titel (#00796B) in Fredoka Bold en oranje beschrijving (#FF7043) in Quicksand. Staande werkbladen tonen een 100px koptekst met 28–48px titel; liggende werkbladen gebruiken een 70px koptekst met 24–36px titel. Een groenblauw buitenkader (#26A69A, 8px streek, 12px straal) omlijst de gehele pagina. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload je eigen PNG-, JPG- of GIF-afbeeldingen. Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg naam- en datumvelden toe voor gebruikerverantwoording. Voeg aangepaste tekst toe met 7 lettertype-opties en tekstomlijning 0–10. Exporteer vier bestanden per sessie: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — allemaal op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0). Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis sorteerwerkbladen maken online',
+    tagline: 'Twee-categorieën sorteer werkblad generator met themagestuurde en handmatige beeldselectie, uitkniprasters en automatische antwoordbladen',
+    description: 'Met onze gratis sorteerwerkbladen generator maakt u in enkele minuten professionele sorteeractiviteiten voor kinderen. Kies uit twee modi: selecteer automatisch afbeeldingen per thema of kies handmatig welke afbeeldingen in welke categorie horen. Elk werkblad bevat een geschud uitknipraster met 4 tot 12 afbeeldingen en twee categoriekaders waar kinderen de plaatjes naartoe sorteren. Het automatisch gegenereerde antwoordblad bespaart u correctietijd. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s zoals dieren, voedsel en voertuigen, of upload uw eigen afbeeldingen. Pas het lettertype, de achtergrond en het paginaformaat aan naar wens. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Sorteer Werkbladen Maken in 8 Stappen',
+    title: 'Hoe maakt u gratis sorteerwerkbladen online?',
     steps: [
       {
         title: 'Open de Sorteer Werkblad Maker',
@@ -205,7 +205,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Sorteer Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },

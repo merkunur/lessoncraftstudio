@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digitale Download Printables Verkopen — Nichegids',
-    metaDescription: 'Digitale download werkblad ideeën voor Etsy, Gumroad en Gumroad verkopers. Bouw een voorraadrij printable business op met direct leverbare educatieve PDF\'s.',
+    titleTag: 'Business digitale downloads | LessonCraftStudio',
+    metaDescription: 'Digitale downloads printables ideeën voor Etsy en Gumroad. Bouw een passief-inkomen business op met werkblad-PDF\'s die onbeperkt verkopen zonder voorraad.',
 
-    primaryKeyword: 'digitale download printable ideeën',
+    primaryKeyword: 'digitale downloads printables ideeën business',
     secondaryKeywords: [
-      'digitale download printable business',
-      'digitale werkbladen verkopen online',
-      'digitale printable productideeën',
-      'downloadbare werkblad businessmodel',
+      'digitale werkbladen verkopen Etsy',
+      'PDF printables business starten',
+      'downloadbare werkbladen Gumroad verkopen',
+      'passief inkomen educatieve printables',
     ],
     lsiKeywords: [
-      'direct download educatieve producten',
-      'PDF werkblad marktplaats verkopen',
       'geautomatiseerde digitale productlevering',
+      'Etsy.nl digitale downloads werkbladen',
+      'onbeperkte schaalbaarheid printable verkoop',
     ],
   },
   hero: {
-    title: 'Digitale Download Werkblad Businessideeën voor Verkopers',
-    description: 'Digitale downloads vertegenwoordigen de zuiverste vorm van printable business waarin verkopers werkblad-PDF\'s eenmalig creëren en onbeperkte exemplaren verkopen via directe digitale levering met nul voorraad, nul verzendkosten en nul fulfilment-overhead, waardoor elke verkoop na de eerste in feite pure winst is omdat de productiekosten per extra exemplaar nihil zijn. Kopers ontvangen bestanden direct na aankoop en printen thuis, online of bij een lokale drukkerij, waardoor ze precies de materialen krijgen die ze nodig hebben binnen seconden na het afronden van hun bestelling in plaats van dagen te wachten op fysieke levering. Het digitale-downloadmodel biedt de hoogste winstmarges van elk printable businessformat omdat er geen drukkosten, verpakkingsmaterialen, verzendkosten of fulfilmentarbeid zijn die van elke verkoop worden afgetrokken. verkopers, ouders, thuisonderwijzende gezinnen, bijlescentra, kinderdagverblijven en educatieve therapeuten vertegenwoordigen de primaire koopsegmenten die actief marktplaatsplatforms doorzoeken naar downloadbare werkblad-PDF\'s. Het model werkt op elke grote digitale marktplaats inclusief Etsy, Gumroad, Gumroad en Shopify. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Digitale downloads printables: zuivere winstmarge',
+    description: 'Digitale downloads bieden de hoogste winstmarges van elk printable businessformat: nul voorraad, nul verzendkosten en nul fulfilmentarbeid. U creëert werkblad-PDF\'s eenmalig en verkoopt onbeperkte exemplaren via directe digitale levering op Etsy, Gumroad of Shopify. Met onze generators produceert u professionele werkbladen die kopers direct na aankoop ontvangen en thuis printen. De schaal is ongeëvenaard: honderd werkbladvermeldingen op Etsy genereren maandelijks honderden tot duizenden verkopen die automatisch worden afgeleverd. Nederlandse leerkrachten zoeken steeds actiever naar digitale werkbladen als aanvulling op standaard lesmethodes. Bied sets aan van vijf tot tien werkbladen per thema en moeilijkheidsniveau voor een prijspunt van twee tot vijf euro. Na aftrek van platformcommissies is vrijwel de volledige verkoopprijs winst. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De digitale-downloadmarkt voor educatieve werkbladen blijft uitbreiden naarmate meer verkopers, ouders en thuisonderwijzende gezinnen het gemak ontdekken van het kopen van direct toegankelijke PDF-werkbladpakketten die ze precies wanneer nodig kunnen printen, in precies de benodigde hoeveelheden, op hun voorkeurssoort papier en -formaat. Het directe-leveringsmodel voldoet aan de moderne kopersverwachtingen voor onmiddellijke toegang tot gekochte producten, waardoor de frustratie van wachten op fysieke zendingen wordt geëlimineerd wanneer gebruikers oefenmateriaal nodig hebben voor de les van morgen of het oefenmateriaal van vanavond. Digitale downloads zijn het standaardformat geworden voor educatieve printable-aankopen op grote marktplaatsplatforms omdat kopers hebben geleerd dat de combinatie van directe toegang, onbeperkte herprintmogelijkheid en lagere prijzen vergeleken met fysieke producten downloads de meest praktische en kosteneffectieve manier maakt om werkbladmateriaal te verwerven.
 
@@ -145,54 +145,19 @@ De schaalbaarheid van digitale downloads is ongeëvenaard in de educatieve produ
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten als digitale downloads verkopen',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen voor Etsy',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'price-etsy-printables',
-      anchorText: 'Hoe je Etsy printables juist prijst',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'print-on-demand-printable-ideas',
-      anchorText: 'Print-on-demand printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
-      anchorText: 'Abonnementbox printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'bulk-licensing-printable-ideas',
-      anchorText: 'Bulklicenties printable businessideeën',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren pakket als downloadbundel',
     },
   ],
 

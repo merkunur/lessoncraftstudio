@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Peuterspeelzaal Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende peuterspeelzaal printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Vroeg-leren productconcepten en nichetips voor verkopers.',
+    titleTag: 'Printables kleuters voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables voor kleuters groep 1-2 op Etsy en Gumroad. Vormen, kleuren en tellen productideeën voor uw printable business — grootste marktsegment.',
 
-    primaryKeyword: 'peuterspeelzaal printable ideeën',
+    primaryKeyword: 'printables kleuters groep 1-2 verkopen',
     secondaryKeywords: [
-      'peuterspeelzaal werkbladen verkopen',
-      'vroeg-leren printable business',
-      'peuter activiteiten voor verkopers',
-      'kleuter printables verkopen op Gumroad',
+      'kleuter werkbladen verkopen Etsy',
+      'groep 1-2 printable business ideeën',
+      'peuter leeractiviteiten producten verkopen',
+      'vroeg leren printables Gumroad KDP',
     ],
     lsiKeywords: [
-      'vroegkinderlijk educatieve werkbladen',
-      'peuter leeractiviteiten',
-      'leeftijd 3-5 printbare producten printables',
+      'vormen kleuren tellen werkbladen maken',
+      'kinderdagverblijf peuterspeelzaal materiaal',
+      'fijne motoriek letters printbare producten',
     ],
   },
   hero: {
-    title: 'Peuterspeelzaal Printable Businessideeën voor Verkopers',
-    description: 'Peuterspeelzaal printables vertegenwoordigen de grootste en meest betrouwbare niche op de gehele educatieve printable-markt omdat elk kind op de planeet door het ontwikkelingsvenster van drie tot vijf jaar gaat, waardoor een enorm en voortdurend vernieuwend kopersbestand ontstaat van ouders, peuterverkopers, kinderdagverblijfmedewerkers en thuisonderwijzende gezinnen die actief gestructureerd leermateriaal zoeken voor vroege educatie. De fundamentele vaardigheden die peuteronderwijs definiëren omvatten een buitengewone breedte van ontwikkelingsdomeinen waaronder vormen, kleuren, getallen een tot twintig, herkenning van hoofdletters en kleine letters, overtrekken, knippen, fijne motorische coördinatie, sorteren, koppelen, tellen, visuele discriminatie, patroonherkenning en vroege fonemische bewustwording, wat printable-verkopers een enorme catalogusopbouwmogelijkheid geeft waar elk vaardigheidsgebied tientallen onderscheidende productconcepten ondersteunt. Vakoverschrijdende veelzijdigheid maakt peuterprint ables bijzonder waardevol omdat vroege leerconcepten van nature aansluiten bij rekenen via tellen en getalherkenning, taalvaardigheid via alfabetovertrekken en lettermatching, wetenschap via sorteren en categoriseren, en kunst via kleuren en begeleid tekenen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables voor kleuters: grootste niche op de markt',
+    description: 'Printables voor kleuters (groep 1-2) vormen het grootste en meest betrouwbare segment op de educatieve printable-markt omdat elk kind door het ontwikkelingsvenster van drie tot vijf jaar gaat. Dit creëert een enorm en voortdurend vernieuwend kopersbestand van ouders, kinderdagverblijfmedewerkers, peuterspeelzaalleidsters en gastouders die actief gestructureerd leermateriaal zoeken. In Nederland gaan kinderen naar groep 1-2 van de basisschool of naar voorschoolse opvang, waar vormen, kleuren, getallen tot twintig, letterherkenning, overtrekken en fijne motoriek centraal staan. De breedte van ontwikkelingsdomeinen — sorteren, koppelen, visuele discriminatie, patroonherkenning en fonemisch bewustzijn — geeft verkopers een enorme catalogusopbouwmogelijkheid waarbij elk vaardigheidsgebied tientallen unieke producten ondersteunt. Op Etsy, Gumroad en Amazon KDP is de vraag naar kleutermateriaal constant het hele jaar door. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De peuterspeelzaal printable-niche neemt een uniek dominante positie in op de educatieve markt omdat het het grootste enkele leeftijdsgroepkoopsegment bedient met de meest universeel benodigde vaardighedenset. In tegenstelling tot themagebonden niches die afhankelijk zijn van kinderen met specifieke interesses, moet elk kind in de peuterleeftijd vormen, kleuren, getallen, letters en fundamentele motorische vaardigheden leren, ongeacht hun individuele voorkeuren of persoonlijkheid. Deze universele behoefte creëert vraag die culturele achtergronden, geografische regio\'s en gezinsomstandigheden overstijgt, waardoor peuterprintables een van de meest stabiele en voorspelbare omzetgeneratoren zijn die beschikbaar zijn voor printable-ondernemers die duurzame bedrijven opbouwen op elke marktplaats.
 
@@ -145,24 +145,19 @@ Het jaarronde karakter van de vraag naar peutermateriaal is een van de sterkste 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen voor kleuters maken',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten generator voor peuters en kleuters',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'matchen-sorteren-pakket',
+      anchorText: 'Matchen en sorteren pakket voor kleutermateriaal',
     },
     {
       pageType: 'guide',

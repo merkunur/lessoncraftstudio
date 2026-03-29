@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'klantenservice digitale producten',
     secondaryKeywords: [
-      'klantenservice printables',
-      'support werkbladen verkopen',
-      'klantondersteuning Etsy',
-      'digitale producten klantenservice',
+      'klantenservice printables Etsy',
+      'support werkbladen verkopen tips',
+      'klantondersteuning digitale downloads',
+      'retourbeleid digitale producten',
     ],
     lsiKeywords: [
       'supporttickets afhandeling retourbeleid FAQ-pagina koperscommunicatie antwoordsjablonen',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'support preventie veelvoorkomende problemen oplostijd professionele communicatie',
       'schaalbare supportsystemen sjabloonbibliotheken patroonherkenning feedbackloops',
     ],
-    titleTag: 'Klantenservice voor Digitale Producten — Gids',
-    metaDescription: 'Klantenservice strategieën voor digitale productverkopers. Behandelt probleempreventie, antwoordsjablonen, retourafhandeling, reviewbeheer en schaalbare.',
+    titleTag: 'Klantenservice digitale producten | LessonCraftStudio',
+    metaDescription: 'Klantenservice voor digitale producten: probleempreventie, antwoordsjablonen, retourafhandeling en reviewbeheer. Schaalbare strategieën voor verkopers.',
   },
 
   hero: {
-    title: 'Klantenservice voor Digitale Producten',
-    tagline: 'Een complete gids voor het opbouwen van effectieve supportsystemen voor je printable bedrijf — met de meest voorkomende supportproblemen bij digitale producten, het voorkomen van supportverzoeken door betere documentatie, het opbouwen van zelfservice FAQ-systemen, het maken van antwoordsjablonen, het professioneel afhandelen van retouren, het omzetten van support in bedrijfsverbeteringen, het constructief beheren van reviews, en het schalen van support naarmate je catalogus groeit',
-    description: 'Klantenservice voor digitale producten verschilt fundamenteel van fysieke productondersteuning. Er zijn geen verzendvertragingen, geen beschadigde pakketten en geen maatproblemen. In plaats daarvan behandelen verkopers van digitale producten downloadproblemen, verwarring over bestandsformaten, printvragen en verwachtingsmismatches. Het goede nieuws is dat de meeste supportproblemen bij digitale producten te voorkomen zijn — met duidelijke productomschrijvingen, uitgebreide FAQ\'s en proactieve documentatie kun je het merendeel van de supportverzoeken elimineren voordat ze ontstaan. Deze gids biedt een praktisch klantenserviceraamwerk specifiek voor verkopers van printables, met preventiestrategieën, antwoordsystemen en schaalbare processen die kwaliteit behouden naarmate je catalogus groeit. Alle werkbladgeneratoren bieden een gratis proefversie met watermerk zodat kopers de volledige functionaliteit kunnen evalueren voordat ze een commerciële licentie aanschaffen — deze transparantie vermindert supportverzoeken aanzienlijk doordat kopers precies weten wat ze kopen.',
+    title: 'Klantenservice opzetten voor digitale producten',
+    tagline: 'Een complete gids voor het opbouwen van effectieve supportsystemen voor uw printable bedrijf — met de meest voorkomende supportproblemen bij digitale producten, het voorkomen van supportverzoeken door betere documentatie, het opbouwen van zelfservice FAQ-systemen, het maken van antwoordsjablonen, het professioneel afhandelen van retouren, het omzetten van support in bedrijfsverbeteringen, het constructief beheren van reviews, en het schalen van support naarmate uw catalogus groeit',
+    description: 'Klantenservice voor digitale producten verschilt fundamenteel van fysieke productondersteuning. Er zijn geen verzendvertragingen, geen beschadigde pakketten en geen maatproblemen. In plaats daarvan behandelen verkopers van digitale producten downloadproblemen, verwarring over bestandsformaten, printvragen en verwachtingsmismatches. Het goede nieuws is dat de meeste supportproblemen bij digitale producten te voorkomen zijn — met duidelijke productomschrijvingen, uitgebreide FAQ\'s en proactieve documentatie kunt u het merendeel van de supportverzoeken elimineren voordat ze ontstaan. Deze gids biedt een praktisch klantenserviceraamwerk specifiek voor verkopers van printables, met preventiestrategieën, antwoordsystemen en schaalbare processen die kwaliteit behouden naarmate uw catalogus groeit. Alle werkbladgeneratoren bieden een gratis proefversie met watermerk zodat kopers de volledige functionaliteit kunnen evalueren voordat ze een commerciële licentie aanschaffen — deze transparantie vermindert supportverzoeken aanzienlijk doordat kopers precies weten wat ze kopen.',
   },
 
   introduction: 'Klantenservice is een van de meest onderschatte aspecten van het runnen van een digitaal productbedrijf. Veel verkopers van printables richten zich volledig op productcreatie en marketing, en behandelen support als een bijzaak die ze wel uitzoeken wanneer er vragen binnenkomen. Deze reactieve benadering leidt tot inconsistente antwoorden, verspilde tijd, gefrustreerde kopers en negatieve reviews die voorkomen hadden kunnen worden.\n\nDe realiteit is dat klantenservice direct invloed heeft op elke belangrijke bedrijfsmetriek voor verkopers van digitale producten. Reviews zijn het meest zichtbare effect — een enkele negatieve review door een supportfalen kan de verkoop meer verminderen dan tientallen positieve reviews de verkoop verhogen. Kopers die uitstekende ondersteuning ontvangen worden terugkerende klanten en laten positieve reviews achter. Kopers die worstelen met onopgeloste problemen laten negatieve reviews achter die permanent op je vermeldingen blijven staan. Op platforms zoals Etsy en Gumroad zijn je verkopersbeoordeling en reviewprofiel primaire factoren in zowel zoekrangschikking als kopersvertrouwen.\n\nDigitale producten creëren een specifieke reeks supportuitdagingen die verschillen van fysieke producten. Kopers kunnen een digitaal product niet voor aankoop bekijken zoals ze een fysiek artikel in een winkel kunnen vasthouden. Ze vertrouwen volledig op je productomschrijvingen, voorbeeldafbeeldingen en reviews van andere kopers om verwachtingen te vormen. Wanneer die verwachtingen niet overeenkomen met het daadwerkelijke product — zelfs als het product uitstekend is — ontstaat er een supportinteractie. Downloadlevering voegt een extra laag toe: kopers weten mogelijk niet hoe ze bestanden moeten openen, specifieke formaten moeten gebruiken of grote downloads moeten verwerken. Printen creëert extra vragen over papierformaat, kleurinstellingen en schaalopties die niet bestaan bij fysieke producten.\n\nDe meest effectieve klantenservicestrategie voor bedrijven met digitale producten is preventie. Elk supportverzoek dat je voorkomt door betere documentatie, duidelijkere omschrijvingen en proactieve begeleiding bespaart tijd die je kunt besteden aan het maken van producten. Preventie verbetert ook de koperservaring — een koper die duidelijke antwoorden vindt zonder contact op te hoeven nemen is meer tevreden dan een koper die een vraag moest stellen en moest wachten op een antwoord, zelfs als dat antwoord behulpzaam en snel was.\n\nDeze gids behandelt een compleet klantenserviceraamwerk voor verkopers van printables: het begrijpen van veelvoorkomende problemen, het voorkomen van supportverzoeken door betere productdocumentatie, het opbouwen van zelfservicesystemen, het maken van antwoordsjablonen voor efficiëntie, het strategisch afhandelen van retouren, het gebruiken van supportdata om je bedrijf te verbeteren, het professioneel beheren van reviews, en het schalen van je supportprocessen naarmate je productcatalogus groeit. Het doel is een supportsysteem te bouwen dat de klanttevredenheid verhoogt terwijl het de tijd vermindert die je aan individuele supportinteracties besteedt.',
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'Reviews krijgen voor je printable producten' },
-    { pageType: 'guide', slug: 'kwaliteitsnormen-werkbladen', anchorText: 'Kwaliteitsnormen voor werkbladen hanteren' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstelling voor educatieve printables bepalen' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Een Etsy printable bedrijf starten' },
-    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'niche-selectie-printables', anchorText: 'De juiste niche kiezen voor printables' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Woordzoekerpuzzels maken met de generator' },
-    { pageType: 'guide', slug: 'kleurplaten-maken', anchorText: 'Kleurplaten maken en verkopen' },
+    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'reviews krijgen voor uw printable producten' },
+    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'kwaliteitsnormen voor verkoopbare werkbladen' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'het wiskunde-meesterpakket bekijken' },
     { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids voor een printable bedrijf' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële licentie en gebruiksrechten' },
   ],

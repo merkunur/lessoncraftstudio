@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sorteerwerkbladen maken',
+    primaryKeyword: 'sorteerwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'sorteerwerkbladen maken voor kinderen',
-      'plaatjes sorteren werkbladgenerator',
-      'printbare sorteeractiviteiten verkopen',
-      'tweecategorie classificatiewerkbladen',
+      'classificatiewerkbladen verkopen op Etsy',
+      'sorteerwerkbladen Amazon KDP maken',
+      'knip-en-sorteer werkbladen verkopen Bol.com',
+      'sorteeractiviteiten printbaar verkopen',
     ],
     lsiKeywords: [
-      'knip-en-sorteer werkbladen voor kleuters',
-      'afbeelding classificatie activiteitenmaker',
-      'sorteerwerkbladen met antwoordsleutel',
-      'sorteerwerkbladen verkopen op Etsy',
-      'Amazon KDP classificatie werkboeken',
+      'sorteerwerkbladen bundels voor Etsy winkel',
+      'classificatie werkboek Brave New Books',
+      'sorteerwerkblad generator commercieel',
+      'tweecategorie werkbladen productlijn',
       'commerciële licentie sorteertool',
+      'sorteerwerkbladen catalogus opbouwen',
     ],
-    titleTag: 'Sorteerwerkbladen Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Maak sorteerwerkbladen met tweecategorie themamodus, 4–12 afbeeldingen, geschudde knipgrids en automatische antwoordsleutels. Gids voor verkoop op Etsy en.',
+    titleTag: 'Sorteerwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u sorteerwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Tweecategorie modus, knipgrids en automatische antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Maak Je Sorteerwerkbladen met Categorieën',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van tweecategorie knip-en-sorteer werkbladen met thema- en handmatige selectiemodi, automatisch gegenereerde antwoordsleutels en meertalige ondersteuning die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Categoriseren is een van de vroegste cognitieve vaardigheden die kinderen ontwikkelen, en sorteerwerkbladen blijven zeer gevraagd op elke educatieve marktplaats. Ouders hebben ze nodig voor praktisch leren thuis. verkopers gebruiken ze voor classificatieactiviteiten en sorteerhoeken. Bijlescentra zetten ze in voor visuele categorisatieoefeningen. Deze gids leidt je door het volledige creatieproces met de Plaatjes Sorteren Werkbladgenerator — van het kiezen van je selectiemodus en het configureren van aantallen afbeeldingen tot het genereren van geschudde knipgrids met automatische antwoordsleutels. Of je nu je eerste sorteerproduct maakt of een bestaande classificatiewerkbladcatalogus uitbreidt, aan het einde van deze handleiding heb je een afgewerkt product klaar om te vermelden.',
+    title: 'Sorteerwerkbladen maken en verkopen op marktplaatsen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare knip-en-sorteer werkbladen met automatische antwoordsleutels voor Etsy, Amazon KDP en Bol.com',
+    description: 'Categoriseren is een van de vroegste cognitieve vaardigheden die kinderen ontwikkelen, en sorteerwerkbladen blijven zeer gevraagd op elke educatieve marktplaats. Ouders hebben ze nodig voor praktisch leren thuis. verkopers gebruiken ze voor classificatieactiviteiten en sorteerhoeken. Bijlescentra zetten ze in voor visuele categorisatieoefeningen. Deze gids leidt u door het volledige creatieproces met de Plaatjes Sorteren Werkbladgenerator — van het kiezen van uw selectiemodus en het configureren van aantallen afbeeldingen tot het genereren van geschudde knipgrids met automatische antwoordsleutels. Of u nu uw eerste sorteerproduct maakt of een bestaande classificatiewerkbladcatalogus uitbreidt, aan het einde van deze handleiding hebt u een afgewerkt product klaar om te vermelden.',
   },
 
   introduction: 'Classificatie is een van de fundamentele cognitieve vaardigheden in het vroegkinderlijk onderwijs. Voordat kinderen kunnen lezen, schrijven of rekenen, leren ze sorteren — objecten groeperen op gedeelde kenmerken zoals kleur, vorm, functie of categorie. Dit maakt sorteerwerkbladen een universeel relevant product met aanhoudende vraag van kleuterschool tot en met groep 8 van de basisschool.\n\nWat sorteerwerkbladen bijzonder effectief maakt als printbaar product is het knip-en-sorteer formaat. gebruikers knippen afbeeldingen uit een geschud grid en plaatsen ze in het juiste categoriekader. Deze praktische interactie zorgt voor diepere betrokkenheid dan omcirkel- of trek-een-lijn-activiteiten, omdat het motorische vaardigheden, ruimtelijk inzicht en actieve besluitvorming vereist. verkopers en ouders zoeken actief naar knip-en-sorteer formaten omdat ze kinderen langer betrokken houden en een tastbaar eindresultaat opleveren.\n\nDe Plaatjes Sorteren Werkbladgenerator neemt de technische complexiteit van het maken van deze activiteiten uit handen. Het biedt twee selectiemodi: themamodus vult categorieën automatisch aan vanuit de ingebouwde beeldbibliotheek voor snelle productie, terwijl handmatige modus je individuele afbeeldingen laat selecteren voor productcatalogusgerichte precisie. De generator produceert tweecategorie sorteerlay-outs met geschudde knipgrids, automatisch gegenereerde antwoordsleutels met afbeeldingen op zes keer de gridcelgrootte, en een gestileerde gelokaliseerde koptekst in elf talen. Jij richt je op productstrategie — welke categorieparen je target, welke moeilijkheidsniveaus je maakt, hoe je bundelt en prijst — terwijl de generator de lay-out, het schudden en het maken van antwoordsleutels afhandelt.\n\nAlle functies die in deze gids worden genoemd zijn beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldsorteerwerkbladen maken, beide selectiemodi testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,13 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'koppel-werkbladen-maken', anchorText: 'Hoe Maak Je Koppelwerkbladen' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'picture-sort', anchorText: 'Plaatjes Sorteren Werkbladgenerator — Volledige Details' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Probeer de Plaatjes Sorteren Werkblad Maker' },
+    { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Sorteer Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Koppel Generator voor aanvullende classificatie' },
+    { pageType: 'bundle', slug: 'matchen-sorteren-pakket', anchorText: 'Matchen & Sorteren Pakket met sorteerwerkbladen' },
   ],
 
   toolsRecommended: [

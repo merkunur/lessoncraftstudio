@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print-on-Demand Werkbladen Verkopen — Nichegids',
-    metaDescription: 'Print-on-demand werkblad ideeën voor Etsy, KDP en Shopify verkopers. Bouw een voorraadrij printable business op met werkboeken en activiteitenpakketten.',
+    titleTag: 'Print-on-demand werkbladen | LessonCraftStudio',
+    metaDescription: 'Print-on-demand werkbladen ideeën voor KDP, Bol.com en Etsy. Bouw een voorraadrij business op met professioneel gebonden werkboeken zonder startkapitaal.',
 
-    primaryKeyword: 'print-on-demand werkblad ideeën',
+    primaryKeyword: 'print-on-demand werkbladen ideeën business',
     secondaryKeywords: [
-      'POD printable business ideeën',
-      'print-on-demand educatieve producten',
-      'werkbladen verkopen print-on-demand',
-      'POD werkblad businessmodel',
+      'POD werkboeken verkopen Amazon KDP',
+      'print-on-demand educatieve producten Etsy',
+      'voorraadrij werkblad business starten',
+      'werkboeken Bol.com print-on-demand',
     ],
     lsiKeywords: [
-      'geautomatiseerd printen en fulfilment',
-      'on-demand educatieve productverkoop',
-      'voorraadrij werkblad business',
+      'Printful Gelato Europese druklocaties',
+      'professioneel gebonden activiteitenboeken',
+      'fysieke werkboeken zonder voorraad',
     ],
   },
   hero: {
-    title: 'Print-on-Demand Werkblad Businessideeën voor Verkopers',
-    description: 'Print-on-demand transformeert digitale werkbladontwerpen in professioneel gedrukte fysieke producten zonder voorraadinvestering, vooraf drukkosten of fulfilmentbeheer, waardoor een businessmodel ontstaat waarin POD-diensten het printen, binden en verzenden afhandelen terwijl verkopers zich volledig kunnen richten op contentcreatie en marketingstrategie. Het POD-model overbrugt de kloof tussen digitale downloads en fysieke productmarkten en geeft printable-verkopers toegang tot kopers die sterk de voorkeur geven aan tastbare gedrukte materialen boven bestanden die ze zelf moeten printen op thuis- of kantoorapparatuur die vaak inferieure resultaten produceert vergeleken met professionele drukdiensten. verkopers, ouders, kinderdagverblijven, bijlesbedrijven en thuisonderwijzende gezinnen kopen professioneel gedrukte werkbladpakketten en gebonden werkboeken voor klas- en thuisgebruik vanwege het gemak van kant-en-klare materialen die de tijd, moeite en drukkosten elimineren die kopers anders zouden investeren. Het voorraadrije model elimineert financieel risico volledig omdat verkopers nooit vooraf voorraad kopen, nooit fysieke voorraad opslaan en nooit verzendlogistiek afhandelen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Print-on-demand werkbladen: voorraadrij verdienen',
+    description: 'Print-on-demand transformeert uw digitale werkbladen in professioneel gebonden werkboeken zonder voorraadinvestering of verzendlogistiek. POD-diensten als Amazon KDP, Printful en Gelato handelen het printen, binden en verzenden af terwijl u zich richt op contentcreatie. Met onze generators produceert u zestig tot honderd pagina\'s per werkboek en publiceert via KDP of een POD-partner. Nederlandse ouders kopen al generaties vakantiewerkboekjes en oefenboekjes — het POD-model laat u direct concurreren in dit segment via Amazon.nl en Bol.com. Fysieke werkboeken brengen zes tot twintig euro op met marges van twee tot acht euro per exemplaar. Converteer bestaande digitale werkbladen naar gebonden boeken en monetariseer dezelfde content via twee kanalen tegelijk. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De print-on-demand markt voor educatieve materialen ervaart substantiële groei naarmate meer kopers het gemak ontdekken van het kopen van professioneel gedrukte werkbladen, werkboeken en activiteitenpakketten die kant-en-klaar arriveren zonder dat er printen, knippen of montage aan hun kant nodig is. Scholen en institutionele kopers hebben vaak budgetten die specifiek zijn toegewezen aan fysieke printbare producten maar missen goedkeuringsprocessen of infrastructuur voor het aankopen en printen van digitale downloads, waardoor professioneel gedrukte POD-werkboeken het enige format zijn dat past in hun inkoopworkflows en klasmateriaalvereisten. Ouders geven steeds meer de voorkeur aan het kopen van gedrukte educatieve werkboeken boven digitale downloads omdat thuisprinten tijdrovend is, duur wanneer inkt- en papierkosten worden meegerekend, en resultaten produceert die minder professioneel en boeiend aanvoelen voor kinderen vergeleken met correct gedrukte en gebonden materialen van POD-diensten.
 
@@ -145,54 +145,19 @@ De conversie van bestaande digitale werkbladen naar POD-producten is een bijzond
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoeker puzzelboeken voor KDP',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'rekenpuzzels-werkbladen',
+      anchorText: 'Rekenpuzzels voor POD werkboeken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'kdp-formatting-worksheets',
-      anchorText: 'KDP opmaak voor werkbladen',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
-      anchorText: 'Abonnementbox printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'physical-printable-product-ideas',
-      anchorText: 'Fysieke printable product businessideeën',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor werkboeken',
     },
   ],
 

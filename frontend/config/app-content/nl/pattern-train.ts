@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'patroontrein werkbladen generator',
+    primaryKeyword: 'reeksen werkbladen voor printables-business',
     secondaryKeywords: [
-      'printbare patroonreeks werkbladen voor Etsy-verkopers',
-      'patroontrein werkbladen generator voor Amazon KDP-uitgevers',
-      'patronenherkenning werkbladen verkopen op Gumroad',
-      'patroontrein werkbladen commerciële licentie',
+      'patroontrein generator voor Etsy',
+      'reeksen herkennen werkbladen KDP',
+      'patroonwerkbladen commerciële licentie',
+      'logische reeksen verkopen',
     ],
     lsiKeywords: [
       'digitale patroonvoltooiing printables online bedrijf',
       'printbare visuele patroonreeks werkbladen business',
       'commercieel gebruik patroontrein werkbladen generator',
     ],
-    titleTag: 'Patroontrein Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak patroontrein werkbladen om te verkopen op Etsy, KDP en Gumroad. Vijf patroontypen, 11 thematische treinwagons, instelbaar aantal aanwijzingen.',
+    titleTag: 'Reeksen werkbladen voor verkopers | LessonCraftStudio',
+    metaDescription: 'Maak patroontrein werkbladen met commerciële licentie voor Etsy en KDP. Vijf patroontypen, instelbare moeilijkheid. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Patroontrein Werkbladen Generator voor Herhalende Reeksen Oefeningen',
-    tagline: 'Vijf patroontypen — AB, AAB, ABB, ABC, AABB — weergegeven over 11 thematische treinwagons met instelbaar aantal aanwijzingen van 4 tot 10 voor nauwkeurige moeilijkheidsregeling.',
+    title: 'Patroontrein werkbladen maken en verkopen als printables',
+    tagline: 'Vijf patroontypen op thematische treinwagons — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Ontwerp professionele patronenherkenning werkbladen waarbij gebruikers herhalende reeksen identificeren en voltooien, weergegeven als afbeeldingen op een thematische trein met 11 wagons. Vijf verschillende patroontypen dekken elk niveau van reekscomplexiteit: AB wisselt twee items af, AAB groepeert twee van het ene gevolgd door één van het andere, ABB keert die groepering om, ABC roteert drie verschillende items, en AABB koppelt twee van elk voordat het herhaalt. De treinindeling rangschikt 11 wagons over drie rijen (5 + 3 + 3), waarbij elke wagon één afbeelding uit het herhalende patroon bevat. Eén wagon wordt leeg gelaten — gebruikers identificeren het patroon en bepalen het ontbrekende item. Pas het aantal aanwijzingen aan van 4 tot 10 om de moeilijkheidsgraad te beheersen: 10 aanwijzingen tonen maakt het patroon duidelijk zichtbaar, terwijl slechts 4 aanwijzingen tonen echte patroonredenering vereist omdat de eerste 3 wagons altijd zichtbaar zijn. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema\'s. Een apart antwoordblad-tabblad toont alle 11 wagons gevuld met de juiste patroonreeks voor directe verificatie. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Elk werkblad is volledig visueel met uitsluitend afbeeldingen op treinwagons en nul tekst op de uitvoer, waardoor producten universeel verkoopbaar zijn zonder vertaling. Of je nu patronenherkenning bundels verkoopt op Etsy.nl, vroeg-leren werkboeken samenstelt voor Amazon KDP, of gedifferentieerde wiskundecentra maakt voor Gumroad, de Patroontrein Werkbladen Generator levert unieke treinformaat producten in enkele minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele patroontrein werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De generator toont herhalende reeksen op 11 thematische treinwagons — een uniek visueel formaat dat opvalt tussen standaard rastergebaseerde patroonwerkbladen in marktplaatsvermeldingen. Vijf patroontypen — AB, AAB, ABB, ABC en AABB — dekken het volledige spectrum van reekscomplexiteit en bieden u een ingebouwde getrapte productlijn van kleuters tot groep 4 van de Nederlandse basisschool. Het instelbare aantal aanwijzingen van 4 tot 10 geeft u een tweede moeilijkheidsas: combineer patroontype en aanwijzingenniveau voor tientallen unieke productvariaties vanuit één workflow. De werkbladen zijn volledig visueel — uitsluitend afbeeldingen op treinwagons, nul tekst op de uitvoer — waardoor hetzelfde product wereldwijd verkoopbaar is zonder vertaling. Meer dan 3.100 illustraties in 104 thema\'s zorgen voor eindeloze thematische bundelmogelijkheden per seizoen of onderwerp. Elk werkblad genereert automatisch een antwoordblad op een apart canvas. Logisch denken en patronenherkenning ontwikkelen is een populaire niche voor kleuters op de Nederlandse markt. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Patroontrein Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u patroontrein werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Patroontrein Werkbladen Generator',
+    title: 'Functies van de patroontrein generator voor verkopers',
     features: [
       {
         title: 'Treinwagon visueel formaat met 11 thematische wagons',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Patroontrein Werkbladen Online Verkoopt',
+    title: 'Patroontrein werkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Patronenherkenning bundels op Etsy',
@@ -204,58 +204,13 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'groot-klein-werkbladen',
-      anchorText: 'Groot & Klein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'patronen-werkbladen',
       anchorText: 'Patronen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'rastertekenen-werkbladen',
-      anchorText: 'Rastertekenen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'lijnen-trekken-werkbladen',
-      anchorText: 'Lijnen Trekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkbladen Generator',
     },
     {
       pageType: 'bundle',
       slug: 'visueel-leren-pakket',
       anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
-    },
-    {
-      pageType: 'guide',
-      slug: 'patronen-werkbladen-maken',
-      anchorText: 'Patronen werkbladen maken',
     },
   ],
 

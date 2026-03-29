@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'doolhof werkbladen maken',
+    primaryKeyword: 'doolhoven maken om te verkopen op Etsy',
     secondaryKeywords: [
-      'doolhof werkblad generator',
-      'printbare doolhof activiteitenbladen',
-      'doolhof puzzels voor kinderen verkopen',
-      'aangepaste doolhof werkbladen met antwoordsleutels',
+      'doolhof werkbladen verkopen op Etsy',
+      'doolhof activiteitenboek Amazon KDP maken',
+      'printbare doolhoven verkopen Bol.com',
+      'doolhof puzzels verkopen als printbaar product',
     ],
     lsiKeywords: [
-      'afbeeldingspad werkbladen',
-      'ruimtelijk inzicht activiteiten voor kinderen',
-      'printbare puzzel werkbladen Etsy',
-      'Amazon KDP doolhof activiteitenboeken',
-      'doolhof werkbladen met thematische afbeeldingen',
+      'afbeeldingspad doolhoven productlijn',
+      'doolhof activiteitenboek Brave New Books',
+      'ruimtelijk inzicht werkbladen verkopen',
+      'doolhof bundels voor Etsy winkel',
       'commerciële licentie doolhof generator',
+      'doolhof werkbladen catalogus opbouwen',
     ],
-    titleTag: 'Doolhof Werkbladen Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Doolhof werkbladen maken met 3 spelmodi, thematische afbeeldingen en antwoordsleutels. Genereer printbare doolhof activiteiten voor verkoop op Etsy en KDP.',
+    titleTag: 'Doolhoven maken voor Etsy | LessonCraftStudio',
+    metaDescription: 'Leer hoe u doolhoven maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 3 spelmodi, thematische afbeeldingen en automatische antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Doolhof Werkbladen en Activiteitenbladen Maken',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van thematische doolhof werkbladen in drie verschillende spelmodi — klaar om te verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Doolhoven behoren tot de meest universeel aansprekende puzzelformaten voor kinderen. Ze bouwen ruimtelijk inzicht, probleemoplossend vermogen en geduld op — en ze verkopen consistent op elke printable marktplaats. Deze gids leidt je door het volledige creatieproces met de Afbeeldingspad Doolhof Generator, die drie fundamenteel verschillende spelmodi biedt: Afbeeldingspad voor visueel pad-volgen, Klassiek Doolhof voor wandgebaseerde navigatie met tellen van verzamelobjecten, en Kies het Juiste Pad voor richtingsbeslissingen. Elke modus produceert een ander producttype vanuit één enkel gereedschap. Je leert hoe je rastergroottes configureert, thematische beeldrollen toewijst, het uiterlijk van wanden aanpast en printklare PDF\'s exporteert met automatische antwoordsleutels. Of je nu je eerste doolhofproduct maakt of een puzzel werkblad catalogus uitbreidt, deze handleiding behandelt elke instelling en strategie die je nodig hebt.',
+    title: 'Doolhoven maken en verkopen als printbaar product',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare doolhof werkbladen in drie spelmodi met antwoordsleutels voor Etsy en Amazon KDP',
+    description: 'Doolhoven behoren tot de meest universeel aansprekende puzzelformaten voor kinderen. Ze bouwen ruimtelijk inzicht, probleemoplossend vermogen en geduld op — en ze verkopen consistent op elke printable marktplaats. Deze gids leidt u door het volledige creatieproces met de Afbeeldingspad Doolhof Generator, die drie fundamenteel verschillende spelmodi biedt: Afbeeldingspad voor visueel pad-volgen, Klassiek Doolhof voor wandgebaseerde navigatie met tellen van verzamelobjecten, en Kies het Juiste Pad voor richtingsbeslissingen. Elke modus produceert een ander producttype vanuit een enkel gereedschap. U leert hoe u rastergroottes configureert, thematische beeldrollen toewijst, het uiterlijk van wanden aanpast en printklare PDF\'s exporteert met automatische antwoordsleutels. Of u nu uw eerste doolhofproduct maakt of een puzzel werkblad catalogus uitbreidt, deze handleiding behandelt elke instelling en strategie die u nodig hebt.',
   },
 
   introduction: 'Doolhoven spreken iets fundamenteels aan in hoe kinderen leren. Een pad volgen van begin tot einde vereist ruimtelijk bewustzijn, vooruit plannen en het vermogen om te herstellen van verkeerde afslagen — vaardigheden die direct overdraagbaar zijn naar rekenen, begrijpend lezen en navigatie in de echte wereld. Die educatieve diepgang maakt doolhof werkbladen een sterke productcategorie met het hele jaar door vraag van ouders, verkopers en bijlescentra.\n\nWat de Afbeeldingspad Doolhof Generator onderscheidt van basale doolhoftools zijn de drie verschillende spelmodi. Afbeeldingspad creëert visuele pad-volgactiviteiten waarbij kinderen een route volgen tussen thematische afbeeldingen. Klassiek Doolhof genereert traditionele wandgebaseerde doolhoven met verzamelobjecten verspreid door het doolhof — navigatievaardigheden combineren met teloefening. Kies het Juiste Pad presenteert richtingsdoolhoven met meerdere route-opties waarvan er maar één naar de juiste bestemming leidt. Elke modus creëert een fundamenteel ander product, waardoor je drie keer zoveel catalogusvariatie krijgt uit één enkele generator.\n\nNaast modusselectie biedt de generator uitgebreide aanpassing: zes rastergroottes van 15x15 tot 20x20, configureerbare padaantallen en -lengtes, wandkleur- en dikteregeling, vijf verschillende beeldrollen (Start, Einde, Pad, Afleidingsafbeelding, Decoratie), en meer dan 100 thematische beeldsets. Het resultaat is een gereedschap dat duizenden unieke doolhofvariaties kan produceren — elk een potentieel product.\n\nElke functie beschreven in deze gids is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeelddoolhoven maken in alle drie de modi, elke configuratie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboek Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'picture-path', anchorText: 'Afbeeldingspad Doolhof Generator — Volledige Details' },
-    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'picture-path', anchorText: 'Probeer de Afbeeldingspad Doolhof Maker' },
+    { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Doolhof Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjessudoku Generator voor logicapuzzels' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket met doolhoven en sudoku' },
   ],
 
   toolsRecommended: [

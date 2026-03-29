@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kleurplaten werkbladen generator',
+    primaryKeyword: 'kleurplaten generator om te verkopen op Etsy en KDP',
     secondaryKeywords: [
-      'printbare kleurplaten maker voor Etsy-verkopers',
-      'aangepaste kleurplaten generator voor Amazon KDP-uitgevers',
-      'kleurplaten verkopen op Gumroad',
-      'kleurplaten generator commerciële licentie',
+      'kleurplaten maken voor Etsy-shop',
+      'kleurboeken voor Amazon KDP',
+      'kleurplaten met thema-afbeeldingen commerciële licentie',
+      'kleurpagina\'s verkopen online',
     ],
     lsiKeywords: [
       'digitale kleurplaten printables online bedrijf',
       'printbare kleurboek business tools',
       'commercieel gebruik kleurplaten generator',
     ],
-    titleTag: 'Kleurplaten Generator | Maak & Verkoop Printables',
-    metaDescription: 'Maak aangepaste kleurplaten om te verkopen op Etsy, KDP en Gumroad. Vrij canvas, 104 thema\'s, uit de vrije hand tekenen, grijstintenexport.',
+    titleTag: 'Kleurplaten generator voor Etsy | LessonCraftStudio',
+    metaDescription: 'Maak kleurplaten met thema-afbeeldingen om te verkopen op Etsy en KDP. 104 thema\'s, 3.000+ illustraties. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Kleurplaten Generator voor Aangepaste Printbare Kleurwerkbladen',
-    tagline: 'Vrije-vorm canvas kleurplaten ontwerper — blader door 104 thematische beeldcollecties, voeg tekeningen uit de vrije hand toe, gebruik winkel hulpmiddelen zoals naamvelden en schrijflijnen, en schakel grijstintenexport in voor inkvriendelijke kleurplaten.',
+    title: 'Genereer kleurplaten om te verkopen op Etsy, Amazon KDP en Bol.com',
+    tagline: 'Vrije-vorm canvas met 3.000+ illustraties in 104 thema\'s — ontwerp unieke kleurplaten met commerciële licentie voor uw printables-business.',
     description:
-      'Ontwerp professionele kleurplaten op een vrije-vorm canvas waar je afbeeldingen precies plaatst waar je ze wilt — geen rasters, geen sjablonen, pure creatieve vrijheid. Blader door de ingebouwde Afbeeldingenbibliotheek met 3.100+ kleurrijke illustraties verdeeld over 104 thematische collecties, klik op een afbeelding om deze aan je canvas toe te voegen, en schik, vergroot, verklein, roteer en laag elementen totdat je pagina er perfect uitziet. Het tekengereedschap voor uit de vrije hand laat je aangepaste illustraties rechtstreeks op het canvas schetsen met instelbare penseelkleur en -grootte. winkel hulpmiddelen voegen met één klik een naamveld voor gebruikers en schrijflijnen voor schrijfoefening toe — waardoor kleurplaten worden omgezet in kant-en-klare klasactiviteiten. Als je klaar bent, schakel je de grijstintenexport in om je kleurrijke compositie om te zetten naar inkvriendelijke kleurplaten die perfect zijn voor afdrukken. Voeg decoratieve randthema\'s toe, aangepaste tekst met omtrekeffecten, en upload je eigen afbeeldingen naast bibliotheekinhoud. De Kleurplaten Generator is niet taalgevoelig — de uitvoer is puur visueel, dus werkbladen zien er in elke taal identiek uit. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Of je nu kleurplaten bundels verkoopt op Etsy.nl, kleurboeken samenstelt voor Amazon KDP, of kleuractiviteiten voor de winkel maakt voor Gumroad, de Kleurplaten Generator levert professionele resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Kleurplaten behoren tot de meest gezochte printable producten op Etsy en Amazon KDP. Met deze generator bouwt u een complete productlijn op een vrije-vorm canvas waar u afbeeldingen precies plaatst waar u ze wilt — geen rasters, geen sjablonen, pure creatieve vrijheid. Blader door 3.100+ kleurrijke illustraties verdeeld over 104 thematische collecties en maak in enkele minuten professionele kleurplaten die klaar zijn voor verkoop. Het tekengereedschap voor uit de vrije hand laat u originele illustraties toevoegen die uw producten onderscheiden van de concurrentie. De grijstintenexport zet uw kleurrijke composities om naar inkvriendelijke kleurplaten, essentieel voor Amazon KDP-boekbinnenwerken en Brave New Books-publicaties. Voeg naamvelden en schrijflijnen toe voor extra educatieve waarde die hogere prijzen rechtvaardigt. De Kleurplaten Generator is niet taalgevoelig — de uitvoer is puur visueel, dus werkbladen werken voor elke markt zonder vertaling. Seizoensgebonden thema\'s zoals Sinterklaas, Kerstmis en Pasen bieden piekverkoopkansen op Etsy.nl en Bol.com. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Aangepaste Kleurplaten in 5 Stappen',
+    title: 'Zo maakt u verkoopklare kleurplaten in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Kleurplaten Generator',
+    title: 'Functies die uw kleurplaten onderscheiden van de concurrentie',
     features: [
       {
         title: 'Vrije-vorm canvas kleurplaten ontwerper',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Aangepaste Kleurplaten Online Verkoopt',
+    title: 'Verkoopstrategieën voor kleurplaten op elke marktplaats',
     cases: [
       {
         title: 'Thematische kleurplaten bundels op Etsy',
@@ -204,58 +204,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'groot-klein-werkbladen',
-      anchorText: 'Groot & Klein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patroontrein-werkbladen',
-      anchorText: 'Patroontrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patronen-werkbladen',
-      anchorText: 'Patronen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'rastertekenen-werkbladen',
       anchorText: 'Rastertekenen Werkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'lijnen-trekken-werkbladen',
-      anchorText: 'Lijnen Trekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkbladen Generator',
+      pageType: 'guide',
+      slug: 'etsy-kleurplaten-maken',
+      anchorText: 'Gids: kleurplaten maken voor Etsy',
     },
     {
       pageType: 'bundle',
       slug: 'visueel-leren-pakket',
-      anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zomer-printable-ideen',
-      anchorText: 'Zomer printable ideeën voor kinderactiviteiten',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kerst-printable-ideen',
-      anchorText: 'Kerst printable ideeën voor seizoensverkoop',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-bedrijf',
-      anchorText: 'Bouw je Etsy printable bedrijf',
-    },
-    {
-      pageType: 'guide',
-      slug: 'kleurplaten-maken',
-      anchorText: 'Kleurplaten maken die verkopen',
+      anchorText: 'Visueel Leren Pakket — alle visuele apps in één pakket',
     },
   ],
 

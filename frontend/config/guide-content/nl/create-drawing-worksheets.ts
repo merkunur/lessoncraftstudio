@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'teken- en symmetrie werkbladen maken',
+    primaryKeyword: 'tekenwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'rastertekenwerkbladen voor kinderen',
-      'symmetrie werkblad generator',
-      'printbare tekenwerkbladen verkopen',
-      'cel-voor-cel reproductie werkbladen',
+      'rastertekenwerkbladen verkopen op Etsy',
+      'symmetrie werkbladen Amazon KDP maken',
+      'tekenwerkbladen verkopen op Bol.com',
+      'teken en kleur werkbladen productlijn',
     ],
     lsiKeywords: [
-      'dubbel raster tekenprintables',
-      'aanpasbaar aanwijzingspercentage werkbladen',
-      'spiegelmodus symmetrieoefeningen',
-      'tekenwerkbladen verkopen op Etsy',
-      'Amazon KDP tekenactiviteitenboeken',
-      'zwart-wit contour werkbladtool',
+      'dubbel raster tekenprintables bundels',
+      'symmetrieoefeningen activiteitenboek KDP',
+      'tekenwerkbladen generator commercieel',
+      'zwart-wit contour werkbladen Etsy winkel',
+      'tekenwerkbladen catalogus opbouwen',
+      'rastertekenwerkbladen Brave New Books',
     ],
-    titleTag: 'Teken- en Symmetriewerkbladen Maken — Gids',
-    metaDescription: 'Maak teken- en symmetriewerkbladen met dubbel rastersysteem, instelbaar hintspercentage, drie symmetriemodi en zwart-wit contouren. Verkoop op Etsy en KDP.',
+    titleTag: 'Tekenwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u tekenwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Dubbel rastersysteem, symmetriemodi en zwart-wit contouren.',
   },
 
   hero: {
-    title: 'Hoe Teken- en Symmetriewerkbladen Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van rastertekenwerkbladen met instelbare moeilijkheidsgraad, symmetriemodi en zwart-wit contourthema\'s die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Rastertekenwerkbladen combineren twee veelgevraagde vaardigheden op één pagina: ruimtelijke reproductie en symmetrieherkenning. gebruikers kopiëren een referentieafbeelding cel voor cel van een gedeeltelijk zichtbaar aanwijzingenraster naar een leeg oefenraster, waarbij ze fijne motoriek, observatienauwkeurigheid en ruimtelijk inzicht ontwikkelen bij elke oefening. Deze gids leidt je door het volledige creatieproces met de Tekenen & Kleuren Werkblad Maker — van het configureren van rasterafmetingen en aanwijzingspercentages tot het kiezen van symmetriemodi en het exporteren van printklare PDF\'s. Het dubbele rasterformaat, de tekstvrije uitvoer en de zwart-wit contourstijl maken deze werkbladen wereldwijd verkoopbaar zonder vertaling. Of je nu je eerste tekenwerkbladproduct lanceert of een bestaande visuele activiteitencatalogus uitbreidt, aan het einde van deze handleiding heb je afgewerkte producten klaar om te vermelden.',
+    title: 'Tekenwerkbladen maken en verkopen als printbaar product',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare rastertekenwerkbladen met symmetriemodi en zwart-wit contouren voor Etsy en Amazon KDP',
+    description: 'Rastertekenwerkbladen combineren twee veelgevraagde vaardigheden op een pagina: ruimtelijke reproductie en symmetrieherkenning. gebruikers kopieren een referentieafbeelding cel voor cel van een gedeeltelijk zichtbaar aanwijzingenraster naar een leeg oefenraster, waarbij ze fijne motoriek, observatienauwkeurigheid en ruimtelijk inzicht ontwikkelen bij elke oefening. Deze gids leidt u door het volledige creatieproces met de Tekenen & Kleuren Werkblad Maker — van het configureren van rasterafmetingen en aanwijzingspercentages tot het kiezen van symmetriemodi en het exporteren van printklare PDF\'s. Het dubbele rasterformaat, de tekstvrije uitvoer en de zwart-wit contourstijl maken deze werkbladen wereldwijd verkoopbaar zonder vertaling. Of u nu uw eerste tekenwerkbladproduct lanceert of een bestaande visuele activiteitencatalogus uitbreidt, aan het einde van deze handleiding hebt u afgewerkte producten klaar om te vermelden.',
   },
 
   introduction: 'Rastertekenen is een van de meest effectieve methoden om ruimtelijk bewustzijn en fijne motoriek te ontwikkelen bij kinderen. Anders dan vrij tekenen, biedt rastergebaseerde reproductie gebruikers een gestructureerd kader: ze observeren referentiecellen, identificeren vormen en lijnen, en recreëren deze in overeenkomstige lege cellen. Deze cel-voor-cel aanpak bouwt observatienauwkeurigheid, hand-oogcoördinatie en het ruimtelijk inzicht dat ten grondslag ligt aan meetkunde en ontwerpdenken.\n\nWat rastertekenwerkbladen bijzonder sterk maakt als printbaar product is het dubbele rastersysteem. Elk werkblad bevat twee begeleidende rasters per afbeelding: een Oefenraster met lege cellen waar gebruikers tekenen, en een Aanwijzingenraster dat een instelbaar percentage van de referentieafbeelding toont als visuele hints. Dit formaat verschilt fundamenteel van kleurplaten of vrijhandtekenopdrachten omdat het gestructureerde begeleiding biedt die meeschaalt met de moeilijkheidsgraad. Verlaag het aanwijzingspercentage voor moeilijkere oefeningen, verhoog het voor eenvoudigere — dezelfde afbeelding wordt tientallen verschillende producten.\n\nDe Tekenen & Kleuren Werkblad Maker handelt de technische complexiteit af. Het genereert automatisch dubbele rasterlay-outs, biedt drie symmetriemodi (Willekeurig, Horizontale spiegel, Verticale spiegel) voor ruimtelijke redeneeroefeningen, en put uit een bibliotheek van 100+ zwart-wit contourthemacollecties met 3.000+ illustraties speciaal ontworpen voor tekenreproductie en daarna inkleuren. Twee onafhankelijke moeilijkheidsassen — rastergrootte (3×3 tot 10×10) en aanwijzingspercentage (10% tot 75%) — creëren tientallen unieke moeilijkheidscombinaties vanuit een enkel thema-afbeelding. De uitvoer bevat nul tekst, waardoor elk werkblad wereldwijd verkoopbaar is zonder vertaling op alle internationale marktplaatsen.\n\nElke functie beschreven in deze gids is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldwerkbladen maken, elke rastergrootte, elk aanwijzingspercentage en elke symmetriemodus testen, en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken-activiteitenboeken voor Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'draw-and-color', anchorText: 'Tekenen & Kleuren Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'drawing-lines', anchorText: 'Tekenlijnen Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'draw-and-color', anchorText: 'Probeer de Tekenen & Kleuren Werkblad Maker' },
+    { pageType: 'app', slug: 'rastertekenen-werkbladen', anchorText: 'Tekenen & Kleuren Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'lijnen-trekken-werkbladen', anchorText: 'Lijnen Trekken Generator voor fijne motoriek' },
+    { pageType: 'bundle', slug: 'visueel-leren-pakket', anchorText: 'Visueel Leren Pakket met teken- en kleurwerkbladen' },
   ],
 
   toolsRecommended: [

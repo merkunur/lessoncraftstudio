@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bulklicenties Printables Verkopen — Nichegids',
-    metaDescription: 'Bulklicentie printable businessideeën voor het verkopen van werkbladcollecties aan scholen en organisaties. Volume-licentiestrategieën voor verkopers.',
+    titleTag: 'Bulklicentie printables — Business | LessonCraftStudio',
+    metaDescription: 'Bulklicentie printables ideeën voor het verkopen aan schoolbesturen en organisaties. Eén licentiegesprek levert meer op dan maanden marktplaatsverkoop.',
 
-    primaryKeyword: 'bulklicenties printable ideeën',
+    primaryKeyword: 'bulklicentie printables ideeën business',
     secondaryKeywords: [
-      'bulklicentie werkblad business',
-      'schooldistrict printable licenties',
-      'groothandel printable werkblad verkoop',
-      'bulk educatieve printable deals',
+      'schoolbestuur werkblad licenties verkopen',
+      'institutionele printable licentiemodel',
+      'schoolbrede werkblad pakketten verkopen',
+      'bulklicentie bijlesketens educatief',
     ],
     lsiKeywords: [
-      'volumelicenties digitale producten',
-      'institutionele printable overeenkomsten',
-      'schoolbrede werkblad pakketten',
+      'Nederlandse schoolbesturen INOS Flore',
+      'jaarlijkse licentieverneiuwing terugkerende omzet',
+      'passend onderwijs gecentraliseerde inkoop',
     ],
   },
   hero: {
-    title: 'Bulklicentie Printable Businessideeën voor Verkopers',
-    description: 'Bulklicenties vertegenwoordigen een premium businessmodel waarin verkopers volumelicentieovereenkomsten aanbieden aan scholen, schoolbesturen, bijlesketens en educatieve organisaties, waardoor institutionele toegang wordt geboden tot werkbladcollecties tegen onderhandelde bulkprijzen die hoge-waarde transacties genereren omdat institutionele kopers licenties kopen die hele organisaties dekken in plaats van individuele producten van marktplaatsvermeldingen. Dit model creëert langlopende omzetrelaties omdat instellingen licentieovereenkomsten jaarlijks vernieuwen terwijl ze doorlopend consistente educatieve materialen nodig hebben over productlijnen, niveaucategories en locaties gedurende elk academisch jaar. Licentieovereenkomsten differentiëren verkopers van per-eenheid marktplaatsconcurrenten door een inkoopstructuur te bieden die institutionele inkoopafdelingen verkiezen boven het beheren van honderden individuele producttransacties. Bulklicenties brengen premiumprijzen op omdat de per-licentie waarde organisatorische dekking, gebruiksrechten over meerdere productlijnen en medewerkers, en de administratieve eenvoud weerspiegelt die institutionele kopers waarderen. Generator tools maken snelle catalogusuitbreiding mogelijk om te voldoen aan institutionele inhoudsvolume-eisen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Bulklicentie printables: de hoogste transactiewaarde',
+    description: 'Bulklicenties leveren de hoogste per-transactie omzet in de gehele printable-markt. Eén schoolbestuurlicentie genereert duizend tot vijfduizend euro — meer dan maanden aan individuele marktplaatsverkoop. Nederlandse schoolbesturen als INOS, Stichting Flore en honderden anderen beheren elk tientallen scholen die allemaal consistente materialen nodig hebben. Via één verkoopgesprek bereikt u tientallen scholen tegelijkertijd. Met onze generators produceert u bibliotheken van honderd tot tweehonderd werkbladen per groep die alle leerdoelen dekken. Het passend onderwijsbeleid stimuleert gecentraliseerde aanschaf van gedifferentieerd materiaal. Licenties worden jaarlijks vernieuwd, wat voorspelbare terugkerende omzet oplevert. De primaire verkoopperiode is april tot augustus wanneer schoolbesturen budgetten toewijzen. Vrijwel geen individuele printable-verkopers bieden institutionele licenties aan, wat een opmerkelijke kans creëert. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `Het bulklicentiemodel adresseert een fundamentele inkoopbehoefte bij educatieve instellingen waar scholen, schoolbesturen, bijlesketens en programmanetwerken consistente materialen nodig hebben over meerdere productlijnen, locaties en medewerkers maar individuele per-product marktplaatsinkoop onpraktisch, duur en administratief belastend vinden wanneer geschaald naar organisatorische vereisten. Een enkele school met dertig verkopers die individuele werkbladproducten kopen creëert honderden afzonderlijke transacties, inconsistente materiaalkwaliteit over productlijnen, en geen gecentraliseerde controle over de educatieve content die door de instelling stroomt — problemen die bulklicenties oplossen door een enkele overeenkomst te bieden die de hele organisatie dekt.
 
@@ -147,54 +147,19 @@ De combinatie van het bulklicentiemodel met andere businessmodellen creëert een
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Rekenwerkblad bibliotheken voor schoollicenties',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoeker collecties voor schoolbesturen',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'price-etsy-printables',
-      anchorText: 'Hoe je Etsy printables juist prijst',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'custom-worksheet-service-ideas',
-      anchorText: 'Werkblad service op maat businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
-      anchorText: 'Abonnementbox printable businessideeën',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket als licentiebasis',
     },
   ],
 

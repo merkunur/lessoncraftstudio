@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende Halloween printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Griezelige productconcepten, seizoenstips en nichestrategieën.',
+    titleTag: 'Printables Halloween — Business | LessonCraftStudio',
+    metaDescription: 'Start een printable business met Halloween. Productideeën voor griezelige werkbladen en puzzels die van augustus tot oktober piekverkopen opleveren.',
 
-    primaryKeyword: 'halloween printable ideeën',
+    primaryKeyword: 'printables Halloween ideeën business',
     secondaryKeywords: [
-      'Halloween werkbladen verkopen',
-      'Halloween thema printable business',
-      'Halloween activiteiten voor verkopers',
-      'Halloween printables verkopen op Etsy',
+      'Halloween werkbladen Etsy verkopen',
+      'Halloween printable business starten',
+      'griezelige activiteitenboeken KDP',
+      'oktoberfeest printables niche verkopers',
     ],
     lsiKeywords: [
-      'griezelige educatieve werkbladen',
-      'oktober klasactiviteiten',
-      'pompoen en kostuum thema printables',
+      'pompoen werkbladen maken verkopen',
+      'spoken heksen kleurplaten Etsy',
+      'griezelige puzzels printbare producten',
     ],
   },
   hero: {
-    title: 'Halloween Printable Businessideeën voor Verkopers',
-    description: 'Halloween levert een van de krachtigste seizoensgebonden vraagsurges op de printable-markt, met zoekinteresse die scherp stijgt van eind augustus tot en met oktober terwijl verkopers, ouders en feestplanners griezelig-thema educatieve content zoeken. De niche biedt buitengewone subthemadiversiteit waaronder pompoenen, spoken, heksen, vleermuizen, spinnen, skeletten, vampieren, monsters, spookhuizen en jack-o-lanterns, wat verkopers een rijk visueel palet geeft voor het creëren van onderscheidende producten binnen één feestdag. verkopers plannen oktoberactiviteiten en Halloweenfeestjes online weken van tevoren, terwijl ouders zoeken naar leeftijdsgeschikte griezelige pret die leren centraal houdt. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad beloont de Halloweenniche vroege voorbereiding met een geconcentreerd maar zeer winstgevend verkoopvenster dat elk jaar voorspelbaar terugkeert. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Start uw printable business met Halloween',
+    description: 'Halloween levert een van de krachtigste seizoensgebonden vraagsurges op de printable-markt. Van eind augustus tot en met oktober zoeken ouders en feestplanners naar griezelig-thema werkbladen, kleurplaten en puzzels. De niche biedt buitengewone subthemadiversiteit met pompoenen, spoken, heksen, vleermuizen, spinnen en monsters — een rijk visueel palet voor onderscheidende producten. In Nederland groeit Halloween elk jaar in populariteit, vooral onder jonge gezinnen die verkleedfeestjes en huisversieringen organiseren. Voor ondernemers op Etsy, Amazon KDP en Gumroad beloont vroege voorbereiding zich met een geconcentreerd maar zeer winstgevend verkoopvenster dat elk jaar voorspelbaar terugkeert. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De Halloween printable-niche rangschikt als de op één na meest waardevolle seizoensgebonden kans voor verkopers van educatieve producten, alleen overtroffen door Kerst in totaal vraagvolume maar met een korter, meer geconcentreerd verkoopvenster dat timing bijzonder belangrijk maakt. verkopers beginnen al in augustus en september met het plannen van oktoberactiviteiten en Halloweenfeestjes online, op zoek naar thematische werkbladen die griezelige pret in balans brengen met echte educatieve waarde. Ouders zoeken leeftijdsgeschikte Halloweenactiviteiten die schermtijd transformeren in creatieve leerervaringen tijdens de weken van kostuumopwinding en trick-or-treat-anticipatie. Feestplanners en evenementenorganisatoren kopen thematische activiteitenbladen voor klasfeestjes, gemeenschapsevenementen en familie Halloweenvieringen.
 
@@ -147,19 +147,19 @@ De Halloweenniche biedt ook mogelijkheden voor premiumprijzen voor gespecialisee
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'doolhof-werkbladen',
+      anchorText: 'Halloweendoolhoven maken en verkopen',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kruiswoordpuzzel-werkbladen',
+      anchorText: 'Kruiswoordpuzzels met Halloweenthema',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor verkopers',
     },
     {
       pageType: 'guide',

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Winter Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende winter printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Koud-weer productconcepten en seizoenstips met november-februari vraag.',
+    titleTag: 'Printables winter voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables met winterthema op Etsy en KDP. Productideeën voor werkbladen met sneeuw, pinguïns en ijsberen die van november tot februari verkopen.',
 
-    primaryKeyword: 'winter printable ideeën',
+    primaryKeyword: 'printables winter om te verkopen op Etsy',
     secondaryKeywords: [
-      'winter werkbladen verkopen',
-      'winterthema printable business',
-      'winter activiteiten voor verkopers',
-      'winter printables verkopen op Etsy',
+      'winter werkbladen Etsy verkopen',
+      'winterthema printable business starten',
+      'sneeuw activiteitenboeken KDP niche',
+      'koud weer printables voor verkopers',
     ],
     lsiKeywords: [
-      'sneeuw en ijs educatieve werkbladen',
-      'koud weer activiteitenpagina\'s',
-      'seizoensgebonden winter printbare producten',
+      'sneeuwvlokken werkbladen maken',
+      'winterkleurplaten printable winkel',
+      'ijsberen pinguïns printbare producten',
     ],
   },
   hero: {
-    title: 'Winter Printable Businessideeën voor Verkopers',
-    description: 'De winter opent een breed verkoopvenster van november tot februari terwijl verkopers post-kerst merkthema\'s zoeken, ouders indoor leeractiviteiten zoeken tijdens koude maanden, en thuisonderwijzende gezinnen seizoensvariatie zoeken voorbij de decemberfeestdagendrukte. De niche biedt rijke subthemadiversiteit waaronder sneeuwvlokken, sneeuwpoppen, pinguïns, wanten, iglo\'s, ijsberen, sleden, warme chocolademelk, ijspegels en vorst, wat verkopers een visueel onderscheidend vocabulaire geeft dat losstaat van kerstspecifieke producten. Kinderdagverblijven en buitenschoolse opvang hebben gestructureerde binnenactiviteiten nodig wanneer buitenspel beperkt wordt, wat zorgt voor gestage vraag gedurende de koudste maanden. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad vertegenwoordigt winter een niet-denominatieve seizoensniche met voorspelbare jaarlijkse vraag en gezellige koud-weer beelden die resoneren bij kopers van diverse achtergronden. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables met winterthema verkopen op Etsy en KDP',
+    description: 'De winter opent een breed verkoopvenster van november tot februari voor printable-ondernemers. Sneeuwvlokken, sneeuwpoppen, pinguïns, wanten en ijsberen geven u een visueel onderscheidend vocabulaire dat losstaat van kerstspecifieke producten. Kinderdagverblijven en buitenschoolse opvang hebben gestructureerde binnenactiviteiten nodig wanneer buitenspel beperkt wordt door het Nederlandse winterweer. Ouders zoeken indoor leeractiviteiten tijdens de koude maanden, en thuisonderwijzende gezinnen zoeken seizoensvariatie voorbij de decemberfeestdagendrukte. Voor ondernemers op Etsy, Amazon KDP en Gumroad is winter een niet-denominatieve niche met voorspelbare jaarlijkse vraag en gezellige beelden die resoneren bij kopers van diverse achtergronden. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De winter printable-niche neemt een uniek voordelige positie in op de seizoensverkoopkalender omdat het aanhoudende vraag levert over een venster van vier maanden zonder de intense concurrentie die zich clustert rond specifieke feestdagen zoals Kerst of Valentijnsdag. verkopers keren in januari terug van de kerstvakantie en hebben frisse merkthema\'s nodig die de betrokkenheid van gebruikers behouden tijdens de lange periode voor de lente, en winterbeeldmateriaal biedt een natuurlijke, productcatalogus-vriendelijke optie die in elke schoolsetting werkt ongeacht culturele of religieuze overwegingen. Ouders die geconfronteerd worden met weken koud weer en beperkt buitenspel zoeken actief naar educatieve binnenactiviteiten die kinderen lerend en vermaakt houden, waardoor winterwerkbladen een praktische aankoop worden in plaats van een seizoensgebonden luxe.
 
@@ -149,19 +149,19 @@ Het concurrentievoordeel in winterprintables komt van visuele kwaliteit en thema
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'sudoku-werkbladen',
+      anchorText: 'Sudoku puzzels met winterthema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Winterwoordzoekers maken en verkopen',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor verkopers',
     },
     {
       pageType: 'guide',

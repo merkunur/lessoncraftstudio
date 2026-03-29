@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'verborgen voorwerp werkblad generator',
+    primaryKeyword: 'gratis zoek en vind generator',
     secondaryKeywords: [
-      'verborgen voorwerp werkblad maker voor verkopers',
-      'zoek voorwerpen werkbladen maken om te verkopen',
-      'printbare verborgen voorwerp generator commercieel gebruik',
-      'verborgen voorwerp puzzel maker voor KDP en Etsy',
+      'verborgen voorwerp werkbladen gratis online maken',
+      'gratis zoek voorwerpen werkblad generator',
+      'zoek en vind puzzels gratis maken zonder account',
+      'verborgen voorwerp activiteit online genereren',
     ],
     lsiKeywords: [
       'vind de verborgen voorwerpen vreemde eend dubbele activiteitsmodus maker',
       'nul-overlap scènegeneratie adaptieve grootte algoritme',
       'automatisch antwoordblad rode cirkel annotaties verborgen voorwerp creator',
     ],
-    titleTag: 'Zoek Voorwerpen Maker — Verborgen Voorwerp Generator',
-    metaDescription: 'Maak verborgen voorwerp werkbladen met Vind de Verborgen Voorwerpen en Vind de Vreemde Eend modi, nul-overlap scènes, automatische antwoordbladen, 104.',
+    titleTag: 'Zoek en vind gratis online maken | LessonCraftStudio',
+    metaDescription: 'Maak gratis verborgen voorwerp werkbladen online met twee zoek-en-vind modi, nul-overlap scènes, automatische antwoordbladen en 104 thema\'s. Geen account.',
   },
 
   hero: {
-    title: 'Zoek Voorwerpen Maker',
-    tagline: 'Dubbele-modus verborgen voorwerp werkblad generator met Vind de Verborgen Voorwerpen modus (nul-overlap verspreide scènes met 1–5 verborgen objecten tussen 8–12 afleiders en legenda onderaan) en Vind de Vreemde Eend modus (8–12 gekoppelde afbeeldingen met 1–5 ongekoppelde items 50% groter weergegeven), adaptief afbeeldingsgrootte-algoritme dat 50 posities per afbeelding probeert, automatisch gegenereerde antwoordbladen met rode cirkelannotaties, en puur visuele puzzels die wereldwijd verkopen zonder vertaling',
-    description: 'Maak professionele verborgen voorwerp werkbladen waarbij gebruikers een visuele scène doorzoeken om specifieke objecten te vinden en te omcirkelen. De generator biedt twee verschillende activiteitsmodi die fundamenteel andere cognitieve uitdagingen produceren. Vind de Verborgen Voorwerpen modus gebruikt een nul-overlap plaatsingsalgoritme om 1–5 verborgen objecten te verspreiden tussen 8–12 afleiders over de pagina — geen raster, geen rijen en kolommen, maar een samenhangende visuele scène. Het findBestPosition()-algoritme probeert 50 willekeurige posities per afbeelding en selecteert de plaatsing met de minste overlap, waarbij de afbeeldingsgrootte adaptief wordt verkleind wanneer de ruimte krap wordt. Een legenda onderaan het werkblad (120px marge) toont gebruikers precies welke objecten ze moeten vinden, waardoor werkbladen toegankelijk zijn voor niet-lezers zonder geschreven instructies. Vind de Vreemde Eend modus rangschikt 8–12 gekoppelde afbeeldingen met 1–5 ongekoppelde items ertussen — gebruikers identificeren de afbeeldingen die geen partner hebben. Afbeeldingen in Vind de Vreemde Eend modus worden 50% groter weergegeven dan in Vind de Verborgen Voorwerpen modus voor duidelijke visuele vergelijking. Het dubbele canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd. Het antwoordblad reproduceert de exacte werkbladindeling en tekent rode cirkels rond verborgen objecten (Vind de Verborgen Voorwerpen) of ongekoppelde items (Vind de Vreemde Eend), 3–5px groter dan het object voor duidelijke zichtbaarheid. Een automatisch gegenereerde koptekst rendert je titel in Fredoka-lettertype met automatische grootte — 32px voor korte titels afschalend naar 18px voor langere tekst — met decoratieve witte pilvormige containers en schaduwen. Schakel naam- en datumvelden in voor gebruikeridentificatie. De Zoek Voorwerpen Maker is NIET taalgebonden: puzzels zijn volledig visueel zonder gelokaliseerde afbeeldingsnamen op de werkbladinhoud zelf, waardoor elke puzzel universeel verkoopbaar is over alle markten zonder vertaling. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen PNG-, JPG- of GIF-afbeeldingen. Pas achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars. Voeg aangepaste tekst toe met 7 lettertype-opties (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) en tekstomlijning 0–10. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI (6× vermenigvuldiger) in Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk alles op het Fabric.js-canvas met slepen, schalen, roteren, laagbeheer, vergrendelen/ontgrendelen, 6 uitlijnopties plus centreren-op-pagina, zoom 25%–300% en 20 ongedaan maken/opnieuw uitvoeren statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis zoek en vind werkbladen online maken',
+    tagline: 'Maak verborgen voorwerp puzzels met twee activiteitsmodi, nul-overlap scènes en automatische antwoordbladen — direct in uw browser',
+    description: 'Maak verborgen voorwerp werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: Vind de Verborgen Voorwerpen modus verspreidt 1 tot 5 verborgen objecten tussen 8 tot 12 afleiders over de pagina met een nul-overlap plaatsingsalgoritme, en Vind de Vreemde Eend modus rangschikt gekoppelde afbeeldingen met ongekoppelde items ertussen. Een legenda onderaan toont welke objecten gevonden moeten worden, waardoor werkbladen ook zonder tekst bruikbaar zijn. Het dubbele canvassysteem genereert automatisch een antwoordblad met rode cirkelannotaties naast elk werkblad. Kies uit 104 thematische beeldcollecties met meer dan 3.100 illustraties of upload uw eigen afbeeldingen. Puzzels zijn puur visueel en daarom universeel verkoopbaar over alle markten zonder vertaling. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 
   tutorial: {
-    title: 'Verborgen Voorwerp Werkbladen Maken in 8 Stappen',
+    title: 'Zoek en vind werkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de Zoek Voorwerpen Maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'zoek-voorwerpen-werkbladen', anchorText: 'Zoek Voorwerpen Activiteiten — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'zoek-voorwerpen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek & Tel Maker' },
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Kruiswoordpuzzel Maker' },
     { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Maker' },

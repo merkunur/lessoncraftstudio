@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'puzzel werkbladen bundel',
+    primaryKeyword: 'puzzels en logica pakket voor KDP',
     secondaryKeywords: [
       'puzzel werkblad generator bundel voor verkopers',
-      'printbare logica puzzel toolkit commercieel gebruik',
-      'doolhof sudoku werkbladen bundel voor Etsy',
-      'puzzel activiteiten generators voor KDP verkopers',
+      'doolhof sudoku werkbladen bundel Etsy KDP',
+      'printbare logica puzzel toolkit commercieel',
+      'puzzelboek generators voor Amazon KDP',
     ],
     lsiKeywords: [
       'ontbrekende stukjes sudoku doolhof werkblad pakket',
-      'vreemde eend logica printbare collectie',
-      'commerciële licentie puzzel werkbladen',
-      'bulk puzzel werkblad creatie tool',
+      'vreemde eend logica printbare collectie Etsy',
+      'commercieel puzzelboek generators KDP',
+      'puur visuele puzzelwerkbladen wereldwijd verkopen',
     ],
-    titleTag: 'Puzzel Werkbladen Bundel — 4 Logica & Puzzel Generators',
-    metaDescription: 'Puzzel werkbladen bundel met 4 generators: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Verkoop op Etsy, KDP en Gumroad.',
+    titleTag: 'Puzzels en logica pakket voor KDP | LessonCraftStudio',
+    metaDescription: 'Vier puur visuele puzzelgenerators in een pakket: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Verkoop op Etsy, KDP en Bol.com.',
   },
 
   hero: {
-    title: 'Puzzels & Logica Pakket',
-    tagline: 'Vier puur visuele puzzel generators — ruimtelijk redeneren, logische deductie en probleemoplossing in elk werkblad',
-    description: 'Het Puzzels & Logica Pakket is de enige bundel waarbij elke app puur visuele werkbladen produceert. Geen tekst, geen taalafhankelijkheid, geen vertaling nodig — elk werkblad werkt in elk land, elke taal, elke markt. Deze bundel combineert vier gespecialiseerde puzzelgenerators die hogere-orde cognitieve vaardigheden richten: ruimtelijk redeneren met Ontbrekende Stukjes rasterpuzzels, visuele discriminatie met Welke Hoort Er Niet Bij uitdagingen, logische deductie met 4×4 Plaatjes Sudoku, en probleemoplossing met Afbeeldingspad doolhoven. Alle vier generators produceren automatische antwoordbladen — de enige bundel met 100% antwoordbladdekking over elke app. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden met instelbare moeilijkheid en thematische afbeeldingenbibliotheken. De puzzel- en logica werkbladcategorie is een van de snelst groeiende segmenten op Etsy en Amazon KDP omdat deze activiteiten een breder leeftijdsbereik aanspreken dan basisvaardigheden werkbladen — van kleuterniveau tot groep 5 en verder. Ontbrekende Stukjes splitst afbeeldingen in rastersegmenten en verwijdert stukken die gebruikers moeten identificeren. Welke Hoort Er Niet Bij presenteert rijen afbeeldingen waarvan één item verschilt van de rest. Plaatjes Sudoku gebruikt een 4×4 raster met thematische afbeeldingen in plaats van cijfers, waardoor klassieke Sudoku toegankelijk wordt voor jonge kinderen die nog niet met cijfers werken. Afbeeldingspad biedt drie verschillende doolhofmodi: padnavigatie, klassiek doolhof oplossen en kies-het-juiste-pad uitdagingen. Kies uit meer dan 100 thematische beeldsets of upload je eigen PNG- en JPEG-bestanden voor merkgebonden, nichespecifieke producten. Of je nu puzzelboeken verkoopt op Amazon KDP, activiteitenpakketten vermeldt op Etsy, of logicabundels maakt voor Gumroad, deze bundel geeft je vier verschillende puzzeltypen waar kopers onafhankelijk naar zoeken. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    title: 'Vier puzzelgenerators voor KDP en Etsy-verkopers',
+    tagline: 'Puur visuele puzzelwerkbladen die in elk land verkopen zonder vertaling',
+    description: 'Puzzelboeken zijn een van de best verkopende categorieen op Amazon KDP, en dit pakket geeft u vier gespecialiseerde generators om multi-formaat puzzelboeken te maken die opvallen ten opzichte van concurrenten met slechts een puzzeltype. Alle vier generators produceren puur visuele werkbladen: geen tekst, geen taalafhankelijkheid, geen vertaling nodig. Elk werkblad werkt in elk land en elke markt. De bundel richt zich op hogere-orde cognitieve vaardigheden: ruimtelijk redeneren met Ontbrekende Stukjes, visuele discriminatie met Welke Hoort Er Niet Bij, logische deductie met 4x4 Plaatjes Sudoku, en probleemoplossing met Afbeeldingspad doolhoven. Alle vier generators produceren automatische antwoordbladen, de enige bundel met 100% antwoordbladdekking. Kies uit meer dan 100 thematische beeldsets of upload uw eigen afbeeldingen voor merkgebonden producten. Of u nu puzzelboeken publiceert op Amazon KDP, activiteitenpakketten vermeldt op Etsy, of verkoopt via Bol.com en Brave New Books, dit pakket geeft u de variatie die kopers verwachten. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 
   appsIncluded: [
@@ -182,14 +182,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'ontbrekende-puzzelstukjes-werkbladen', anchorText: 'Ontbrekende Stukjes Puzzel Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'welke-hoort-niet-bij-werkbladen', anchorText: 'Welke Hoort Er Niet Bij Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Afbeeldingspad Doolhof Generator — Volledig Overzicht' },
-    { pageType: 'guide', slug: 'kruiswoordpuzzels-maken', anchorText: 'Kruiswoordpuzzels maken die verkopen' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken uitgeven op Amazon KDP' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjes sudoku generator bekijken' },
+    { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Doolhof generator bekijken' },
     { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Activiteitenboeken uitgeven op Amazon KDP' },
-    { pageType: 'idea', slug: 'groep-3-printable-ideen', anchorText: 'Groep 3 printable ideeën voor basisonderwijs' },
+    { pageType: 'bundle', slug: 'zoeken-vinden-pakket', anchorText: 'Bekijk ook het Zoeken & Vinden Pakket' },
   ],
 
   visuals: {

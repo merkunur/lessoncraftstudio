@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ontbrekende stukjes generator',
+    primaryKeyword: 'ontbrekende stukjes puzzels voor KDP-werkboeken',
     secondaryKeywords: [
-      'printbare puzzelstukjes maker voor Etsy verkopers',
-      'ontbrekende stukjes werkblad generator voor KDP uitgevers',
-      'visuele puzzel maker met commerciële licentie Gumroad',
-      'ontbrekende puzzelstukjes werkbladen verkopen op Gumroad',
+      'ontbrekende-stukjes generator Etsy',
+      'visuele puzzels voor KDP-boeken',
+      'ontbrekende puzzelstukjes commerciële licentie',
+      'visuele puzzels verkopen',
     ],
     lsiKeywords: [
       'digitale puzzel-printables online bedrijf',
       'commercieel gebruik visuele puzzel generator',
       'printbare legpuzzel activiteit business tools',
     ],
-    titleTag: 'Ontbrekende Stukjes Generator | Maak Visuele Puzzels',
+    titleTag: 'Ontbrekende stukjes puzzels KDP | LessonCraftStudio',
     metaDescription:
-      'Maak ontbrekende stukjes puzzels om te verkopen op Etsy, KDP & Gumroad. 6 stukvormen, instelbare moeilijkheid, automatisch antwoordblad, 104 thema\'s.',
+      'Maak ontbrekende stukjes puzzels voor KDP-activiteitenboeken en Etsy. 6 stukvormen, instelbare moeilijkheid, automatisch antwoordblad en 104 thema\'s.',
   },
 
   hero: {
-    title: 'Ontbrekende Stukjes Puzzel Generator voor Legpuzzel-Stijl Visuele Puzzels',
+    title: 'Ontbrekende stukjes puzzels voor KDP-werkboeken',
     tagline:
-      'Genereer legpuzzel-stijl puzzels waarbij stukjes uit afbeeldingen worden geknipt en gebruikers de juiste genummerde optie identificeren — met 6 stukvormen, 1–5 ontbrekende stukjes, 2–6 oplossingsopties inclusief afleiders, automatisch gegenereerde antwoordbladen en een puur visueel ontwerp dat in elke taal werkt.',
+      'Gratis proefversie met watermerk — 6 stukvormen, instelbare moeilijkheid met afleiders en automatische antwoordbladen voor verkoopklare puzzelproducten.',
     description:
-      'Maak professionele ontbrekende stukjes puzzels waarbij een afbeelding gaten bevat en gebruikers identificeren welk genummerd stukje in elke opening past. Het slimme stuk-extractie-algoritme vindt visueel onderscheidende gebieden met voldoende kleurvariantie, waardoor elke puzzel oplosbaar en boeiend is. Kies uit 6 stukvormen — vierkant, cirkel, rechthoek staand, rechthoek liggend, ellips staand en ellips liggend — en stel de moeilijkheid in met 1–5 ontbrekende stukjes en 2–6 oplossingsopties die afleidersstukjes bevatten om visuele discriminatievaardigheden uit te dagen. Elke puzzel bevat een automatisch gegenereerd antwoordblad met geel gemarkeerde nummerlabels in elk gat die de juiste optie tonen. De automatisch gegenereerde koptekst toont "Ontbrekende Stukjes" in turquoise (#06B6D4) met een roze-roze beschrijving (#DB2777) over een dubbel kadersysteem — groenblauw buitenkader (#14B8A6, 8px) en felroze binnenkader (#EC4899, 3px) — gelokaliseerd in alle 11 ondersteunde talen. Ontbrekende Stukjes is NIET taalgevoelig: puzzels zijn puur visueel zonder taalafhankelijke inhoud, dus elke puzzel werkt wereldwijd identiek. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu visuele puzzelbundels verkoopt op Etsy.nl, puzzelwerkboeken samenstelt voor Amazon KDP, of kritisch denken activiteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Genereer professionele ontbrekende stukjes puzzels die perfect passen in KDP-activiteitenboeken en Etsy-downloads. Kinderen bekijken een afbeelding met gaten en identificeren welk genummerd stukje in elke opening past — een activiteit die visuele waarneming en ruimtelijk redeneren traint. Het slimme extractie-algoritme selecteert automatisch gebieden met voldoende kleurvariantie, zodat elke puzzel oplosbaar en visueel aantrekkelijk is. Kies uit 6 stukvormen (vierkant, cirkel, rechthoek, ellips) en stel de moeilijkheid in via twee assen: 1 tot 5 ontbrekende stukjes en 2 tot 6 oplossingsopties inclusief afleiders. Het dubbele-canvassysteem genereert automatisch een antwoordblad met geel gemarkeerde nummerlabels, wat u uren handwerk bespaart bij grote bundels. Kies uit meer dan 3100 illustraties in 104 thema\'s of upload uw eigen afbeeldingen. Exporteer op 300 DPI als PDF of JPEG in Letter-, A4- of Vierkant-formaat. Verkoop uw puzzels op Etsy, bundel ze tot gedrukte werkboeken op Amazon KDP of bied ze aan via Bol.com — de commerciële licentie geeft u volledige verkooprechten.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Ontbrekende Stukjes Puzzels in 5 Stappen',
+    title: 'Hoe maakt u ontbrekende stukjes puzzels in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Ontbrekende Stukjes Puzzel Generator',
+    title: 'Belangrijkste functies van de ontbrekende stukjes generator',
     features: [
       {
         title: 'Legpuzzel-Stijl Ontbrekende Stukjes Puzzels met Instelbare Moeilijkheid',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Ontbrekende Stukjes Puzzels Online Verkoopt',
+    title: 'Hoe verkoopt u ontbrekende stukjes puzzels online',
     cases: [
       {
         title: 'Thematische Ontbrekende Stukjes Puzzelbundels op Etsy',
@@ -215,49 +215,9 @@ const content: AppContent = {
       anchorText: 'Sudoku Werkblad Generator',
     },
     {
-      pageType: 'app',
-      slug: 'doolhof-werkbladen',
-      anchorText: 'Doolhof Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Zoek en Tel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'schaduw-matching-werkbladen',
-      anchorText: 'Schaduw Matching Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkblad Generator',
-    },
-    {
       pageType: 'bundle',
       slug: 'puzzels-logica-pakket',
-      anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Pakket',
-    },
-    {
-      pageType: 'guide',
-      slug: 'ontbrekende-stukjes-puzzels-maken',
-      anchorText: 'Hoe Je Ontbrekende Stukjes Puzzels Maakt en Online Verkoopt',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
+      anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Bundel',
     },
   ],
 

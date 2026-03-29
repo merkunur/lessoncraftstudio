@@ -2,32 +2,38 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'aftrekken werkbladen generator',
+    primaryKeyword: 'generator aftrekwerkbladen om te verkopen op Etsy',
     secondaryKeywords: [
-      'aftrekken werkbladen verkopen op Etsy',
-      'aftrekken werkbladen generator voor Amazon KDP',
-      'doorstreep-werkbladen commerciële licentie',
-      'printbare aftrekwerkbladen maken voor Gumroad',
+      'minsommen werkbladen maken voor Etsy-shop',
+      'aftrekoefeningen voor Amazon KDP',
+      'aftrekwerkbladen met commerciële licentie',
+      'rekenbladen verkopen op Bol.com',
     ],
     lsiKeywords: [
-      'digitale wiskundeproducten voor ondernemers',
-      'printbare aftrekactiviteiten online bedrijf',
-      'aftrekken werkbladen generator commercieel gebruik',
+      'doorstreep-visualisatie',
+      'minsommen',
+      'printklaar',
+      'antwoordenblad',
+      'passief inkomen',
+      'printables-business',
+      'activiteitenboek',
+      'groep 3',
+      'Brave New Books',
     ],
-    titleTag: 'Aftrekken Werkbladen Generator | Maak en Verkoop Online',
+    titleTag: 'Aftrekwerkbladen — Verkopen op Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak aftrekwerkbladen om te verkopen op Etsy, KDP en Gumroad. 4 modi met doorstreep-visualisatie, 104 thema\'s, antwoordbladen, grijswaarden, 400+ DPI.',
+      'Maak aftrekwerkbladen om te verkopen op Etsy, KDP en Bol.com. Thema-afbeeldingen, antwoorden, commerciële licentie. Gratis proberen met watermerk.',
   },
 
   hero: {
-    title: 'Aftrekken Werkbladen Generator met Doorstreep-Visualisatie',
-    tagline: 'Maak aftrekken tastbaar met werkbladen waar gebruikers afbeeldingen doorstrepen om het antwoord te vinden.',
+    title: 'Genereer aftrekwerkbladen om te verkopen op Etsy, KDP en Bol.com',
+    tagline: 'Maak van aftrekken een verkoopbaar product met doorstreep-visualisatie — gratis proefversie met watermerk.',
     description:
-      'Maak op afbeeldingen gebaseerde aftrekwerkbladen die het concept van \"wegnemen\" zichtbaar en begrijpelijk maken door middel van een krachtige visuele methode: doorstrepen. gebruikers zien een groep afbeeldingen en observeren diagonale kruisen over de weggenomen elementen — waardoor het abstracte concept van aftrekken concreet en intuïtief wordt. Kies uit vier oefenmodi — Doorstrepen, Afbeelding − Getal, Vind de Aftrekker en Gemengde Modus — om het leerproces te begeleiden van kleuterniveau tot groep 4 van de basisschool. Ontdek meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s zoals dinosaurussen, zeedieren en voertuigen. Elk werkblad bevat een automatisch gegenereerd antwoordblad, en je kunt printklare PDF\'s exporteren in Letter-, Kaart- (800×1000) of A4-formaat op meer dan 400 DPI. Een ingebouwde grijswaardenmodus maakt het mogelijk om zwart-witversies te maken met één klik. Of je nu themapakketten verkoopt op Etsy.nl, activiteitenboeken publiceert op Amazon KDP of oefenwerkbladen uitdeelt aan je gebruikers — de Aftrekken Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak van aftrekken een verkoopbaar product met een generator die is ontworpen voor printables-ondernemers. Maak geïllustreerde aftrekwerkbladen met thema-afbeeldingen uit meer dan 100 categorieën — dieren, voertuigen, eten, natuur — die rekenen aantrekkelijk maken en uw Etsy-aanbiedingen onweerstaanbaar. Elk werkblad wordt geëxporteerd als printklare PDF op 300 DPI met automatisch antwoordenblad, klaar om te uploaden op Etsy, samen te voegen in een activiteitenboek voor Amazon KDP of Brave New Books, of aan te bieden op Samen Voor Onderwijs. De commerciële licentie is bij elk werkblad inbegrepen. Winstgevende tip: combineer optellen en aftrekken in bundels — verkopers melden aanzienlijk hogere gemiddelde bestellingen met gecombineerde rekenpakketten. Probeer alle functies met de gratis proefversie met watermerk — zonder account.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Aftrekwerkbladen in 5 Stappen',
+    title: 'Professionele aftrekwerkbladen stap voor stap maken',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +64,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Aftrekken Werkbladen Generator',
+    title: 'Optellen en aftrekken combineren voor meer omzet',
     features: [
       {
         title: 'Doorstreep-visualisatie',
@@ -104,7 +110,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Aftrekwerkbladen Online',
+    title: 'Exporteren, prijzen bepalen en verkopen op elk platform',
     cases: [
       {
         title: 'Themapakketten met aftrekwerkbladen op Etsy.nl',
@@ -201,52 +207,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'optellen-werkbladen',
-      anchorText: 'Optellen Werkbladen Generator',
+      anchorText: 'Optelwerkbladen-generator voor rekenpakketten',
     },
     {
       pageType: 'app',
-      slug: 'visuele-optelsommen-werkbladen',
-      anchorText: 'Visuele Optelsommen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzels Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'meer-minder-werkbladen',
-      anchorText: 'Meer of Minder Werkbladen Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'wiskunde-meester-pakket',
-      anchorText: 'Wiskunde Meester Pakket — Alle Rekentools',
+      slug: 'rekenen-werkbladen',
+      anchorText: 'Numerieke rekenbladen-generator',
     },
     {
       pageType: 'guide',
       slug: 'aftrekken-werkbladen-maken',
-      anchorText: 'Hoe Maak Je Aftrekwerkbladen die Verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'reken-werkbladen-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Rekenwerkbladen op Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'rekenfeiten-printable-ideen',
-      anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'terug-naar-school-printable-ideen',
-      anchorText: 'Terug-naar-school printable ideeën die verkopen',
-    },
-    {
-      pageType: 'start',
-      slug: 'werkbladen-maken-die-verkopen',
-      anchorText: 'Werkbladen maken die verkopen',
+      anchorText: 'Gids voor het maken van aftrekwerkbladen',
     },
   ],
 

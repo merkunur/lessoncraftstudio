@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sport Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende sport printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Sportthema productconcepten en platformstrategieën voor verkopers.',
+    titleTag: 'Printables sport — Business | LessonCraftStudio',
+    metaDescription: 'Verkoop sport printables op Etsy en Gumroad. Voetbal, zwemmen en atletiek productideeën voor uw printable business — jaarronde vraag door sportrotatie.',
 
-    primaryKeyword: 'sport printable ideeën',
+    primaryKeyword: 'printables sport ideeën business',
     secondaryKeywords: [
-      'sportthema werkbladen verkopen',
-      'sport printable business ideeën',
-      'sportactiviteiten voor verkopers',
-      'sport printables verkopen op Etsy',
+      'sportthema werkbladen verkopen Etsy',
+      'voetbal zwemmen printable business ideeën',
+      'schaatsen hockey printables verkopen',
+      'Olympische Spelen educatieve producten Gumroad',
     ],
     lsiKeywords: [
-      'teamsport educatieve werkbladen',
-      'balspel thema activiteitenpagina\'s',
-      'lichamelijke opvoeding printbare producten',
+      'teamsport gymnastiek werkbladen maken',
+      'lichamelijke opvoeding basisschool materiaal',
+      'sportdag atletiek printbare producten',
     ],
   },
   hero: {
-    title: 'Sport Printable Businessideeën voor Verkopers',
-    description: 'Sport is een van de meest universeel boeiende thema\'s voor kinderen van alle leeftijden, waardoor het een uitzonderlijke altijdgroene niche is voor printable-ondernemers die consistente jaarronde omzet zoeken aangedreven door seizoensgebonden sportrotatie en brede vakoverschrijdende aantrekkingskracht. Het sportthema biedt opmerkelijke subthemadiepte waaronder voetbal, basketbal, honkbal, tennis, hockey, volleybal, zwemmen, hardlopen, turnen, Olympische Spelen, balspellen, teamsporten en individuele sporten, wat verkopers een enorm visueel vocabulaire geeft dat aansluit bij de actieve interesses van vrijwel elk kind — of ze nu op georganiseerde teams spelen, achtertuinspelletjes doen, of hun favoriete atleten bekijken op televisie. Vakoverschrijdende veelzijdigheid maakt sportprintables bijzonder waardevol omdat atletiek van nature aansluit bij rekenen via scores en statistieken, taalvaardigheid via sportvocabulaire, lichamelijke opvoeding via bewegingsmotivatie, en sociale vaardigheden via teamwork en sportiviteit. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Sport printables verkopen: jaarronde niche met rotatie',
+    description: 'Sport biedt printable-ondernemers een unieke altijdgroene niche omdat natuurlijke seizoensrotatie het hele jaar door vraag genereert: voetbal domineert in Nederland het hele jaar, schaatsen en hockey stimuleren de wintervraag, tennis piekt rond Roland Garros en Wimbledon, en zwemmen en atletiek bereiken hun hoogtepunt in de zomer en tijdens Olympische jaren. Deze roterende cyclus zorgt ervoor dat sportthema printables nooit uit het seizoen raken. In Nederland heeft sport een bijzondere culturele positie — voetbal als nationale sport, de schaatstraditie, en de Koningsspelen als jaarlijks schoolsportevenement creëren directe vraag naar Nederlandstalig sportmateriaal. Vakoverschrijdende veelzijdigheid versterkt de waarde: sport sluit aan bij rekenen via scores en statistieken, taalvaardigheid via sportvocabulaire, en sociale vaardigheden via teamwork en sportiviteit. Op Etsy en Gumroad converteren gerichte producten zoals voetbal-telwerkbladen beter dan generieke sportopties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De sport printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk kind een directe, persoonlijke band heeft met sport via spelen in teams, wedstrijden kijken met het gezin, sportplaatjes verzamelen, teamshirts dragen, of deelnemen aan gymlessen en buitenspel. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de sportniche van natuurlijke seizoensrotatie: voetbal domineert het hele jaar in Nederland en Europa, basketbal en schaatsen stimuleren de wintervraag, tennis piekt rond Wimbledon en Roland Garros, en zwemmen en atletiek bereiken hun hoogtepunt tijdens de zomermaanden en Olympische jaren. Deze roterende cyclus zorgt ervoor dat sportthema educatief materiaal het hele jaar door consistent relevant blijft in plaats van afhankelijk te zijn van een enkel piekseizoen.
 
@@ -145,24 +145,19 @@ Genderinclusieve aantrekkingskracht vertegenwoordigt een waardevolle kracht van 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'plaatjes-bingo-werkbladen',
+      anchorText: 'Bingokaarten maker voor sportthema activiteiten',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen met sportscores en statistieken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket voor sportrekenwerkbladen',
     },
     {
       pageType: 'guide',

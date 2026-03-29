@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Boerderijdieren Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende boerderijdieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Productconcepten, prijsstrategieën en tips voor verkopers.',
+    titleTag: 'Printables boerderijdieren Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables met boerderijdieren op Etsy en KDP. Ontdek productideeën voor werkbladen met koeien, varkens en kippen die het hele jaar door verkopen.',
 
-    primaryKeyword: 'boerderijdieren printable ideeën',
+    primaryKeyword: 'printables boerderijdieren om te verkopen',
     secondaryKeywords: [
-      'boerderijdieren werkbladen verkopen',
-      'printable business boerderijthema',
-      'boerderij activiteiten voor verkopers',
-      'boerderij printables verkopen op Etsy',
+      'boerderijdieren werkbladen Etsy verkopen',
+      'printable business boerderijthema starten',
+      'boerderij activiteitenboeken KDP',
+      'educatieve boerderij printables niche',
     ],
     lsiKeywords: [
-      'educatieve werkbladen boerderijthema',
-      'landbouw activiteiten voor kinderen',
-      'veeteelt thema printbare producten',
+      'landbouwthema werkbladen maken',
+      'boerderijdieren kleurplaten verkopen',
+      'veeteelt printbare producten Etsy winkel',
     ],
   },
   hero: {
-    title: 'Boerderijdieren Printable Businessideeën voor Verkopers',
-    description: 'Boerderijdieren blijven een van de meest betrouwbare thema\'s op de markt voor educatieve printables. Van peuters die leren tellen met boerderijdieren tot kleuters die het woord "kip" overtrekken — deze niche trekt ouders, verkopers en thuisonderwijzers het hele jaar door aan. Voor printable-verkopers biedt het boerderijthema een zeldzame combinatie van altijdgroene vraag, brede leeftijdsaantrekkingskracht en sterke seizoenspieken tijdens de lente en de herfstoogst. Of je nu verkoopt op Etsy, Amazon KDP of Gumroad, boerderijdieren printables vertegenwoordigen een bewezen niche met ruimte voor creatieve getrapte productpakketten. Deze gids leidt je door specifieke productideeën, platformstrategieën en prijsbenaderingen om je te helpen een winstgevende productlijn met boerderijthema op te bouwen met onze werkblad-generator tools. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, geen creditcard, alle functies beschikbaar.',
+    title: 'Printables met boerderijdieren verkopen als ondernemer',
+    description: 'Boerderijdieren behoren tot de meest betrouwbare thema\'s voor printable-verkopers op Etsy, Amazon KDP en Gumroad. Koeien, varkens, kippen en paarden spreken kinderen van alle leeftijden aan, waardoor u het hele jaar door kunt verkopen met voorspelbare pieken in lente en herfst. Voor ondernemers biedt deze niche een zeldzame combinatie van altijdgroene vraag, brede leeftijdsaantrekkingskracht en uitstekende bundelingsmogelijkheden. Of u nu telwerkbladen, woordzoekers of complete activiteitenpakketten maakt — het boerderijthema levert consistente omzet op alle platforms. Met onze werkblad-generators maakt u professionele producten in minuten. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, geen creditcard, alle functies direct beschikbaar.',
   },
   marketOverview: `De niche van boerderijdieren printables bevindt zich op het kruispunt van twee krachtige koopersmotivaties: educatieve waarde en thematische aantrekkingskracht. Ouders die zoeken naar werkbladen met een boerderijthema zijn doorgaans op zoek naar boeiende manieren om basisvaardigheden te onderwijzen zoals tellen, letterherkenning, woordenschatopbouw en fijne motorische ontwikkeling. verkopers zoeken naar printbare producten dat aansluit bij veelvoorkomende lesthema\'s over boerderijen en voedselproductie in het basisonderwijs.
 
@@ -153,19 +153,19 @@ Seizoensgebonden marketingkansen in de boerderijniche reiken verder dan de voor 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen met boerderijdieren',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Boerderijdieren kleurplaten maken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket voor verkopers',
     },
     {
       pageType: 'guide',

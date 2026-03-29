@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'e-mail marketing printables',
+    primaryKeyword: 'e-mailmarketing voor printables-verkopers',
     secondaryKeywords: [
-      'e-maillijst opbouwen printable verkopers',
-      'nieuwsbrief strategie voor printables',
-      'e-mail automatisering printable bedrijf',
-      'leadmagneten voor werkblad verkopers',
+      'e-maillijst opbouwen printable bedrijf',
+      'nieuwsbrief strategie werkbladen verkopen',
+      'e-mail automatisering printables',
+      'leadmagneten voor werkblad-verkopers',
     ],
     lsiKeywords: [
       'e-maillijst abonnees opt-in formulier leadmagneet conversie autoresponder',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'A/B testen onderwerpregel e-mail template responsief ontwerp deliverability',
       'klantretentie herhaalaankopen upselling cross-selling productlancering aankondiging',
     ],
-    titleTag: 'E-mail Marketing voor Printable Verkopers — Gids',
-    metaDescription: 'Leer hoe je een e-maillijst opbouwt als printable verkoper. Leadmagneten maken, nieuwsbrieven schrijven die verkopen, automatisering instellen en je lijst.',
+    titleTag: 'E-mailmarketing voor verkopers | LessonCraftStudio',
+    metaDescription: 'E-mailmarketing voor printables-verkopers: e-maillijst opbouwen, leadmagneten maken, nieuwsbrieven die verkopen en geautomatiseerde funnels instellen.',
   },
 
   hero: {
-    title: 'E-mail Marketing voor Printable Verkopers',
-    tagline: 'Een complete gids voor het opbouwen van een winstgevende e-maillijst als printable verkoper — inclusief leadmagneten die abonnees trekken, nieuwsbrieven die werkbladen verkopen, geautomatiseerde e-mail funnels voor passief inkomen, lijstsegmentatie voor hogere conversie, platformkeuze voor beginners, A/B testen van onderwerpregels en meetstrategieën voor continue optimalisatie van je e-mail campagnes',
-    description: 'E-mail marketing is het krachtigste verkoopkanaal dat je als printable verkoper tot je beschikking hebt. Terwijl social media platforms hun algoritmen continu wijzigen en je organisch bereik steeds verder beperken, geeft een e-maillijst je directe toegang tot kopers die al interesse hebben getoond in je producten. Wanneer je een nieuwe reeks werkbladen lanceert, een seizoensgebonden bundel uitbrengt of een tijdelijke korting aanbiedt, kun je je volledige lijst binnen minuten bereiken zonder afhankelijk te zijn van een algoritme dat bepaalt wie je bericht ziet. Statistieken tonen consequent aan dat e-mail marketing een rendement op investering oplevert van gemiddeld 36 euro voor elke euro die je uitgeeft — aanzienlijk hoger dan welk social media kanaal dan ook. Voor printable verkopers die hun producten aanbieden via platformen zoals Etsy, Amazon KDP, Gumroad of Gumroad, vormt een goed onderhouden e-maillijst het verschil tussen afhankelijkheid van platformverkeer en een zelfstandig bedrijf met voorspelbare inkomsten. Deze gids behandelt elke stap van het e-mail marketing proces specifiek voor printable verkopers, van het kiezen van het juiste platform tot het meten en optimaliseren van je campagnes voor maximale omzet.',
+    title: 'E-mailmarketing opzetten voor uw printable bedrijf',
+    tagline: 'Een complete gids voor het opbouwen van een winstgevende e-maillijst als printable verkoper — inclusief leadmagneten die abonnees trekken, nieuwsbrieven die werkbladen verkopen, geautomatiseerde e-mail funnels voor passief inkomen, lijstsegmentatie voor hogere conversie, platformkeuze voor beginners, A/B testen van onderwerpregels en meetstrategieën voor continue optimalisatie van uw e-mail campagnes',
+    description: 'E-mail marketing is het krachtigste verkoopkanaal dat u als printable verkoper tot uw beschikking hebt. Terwijl social media platforms hun algoritmen continu wijzigen en uw organisch bereik steeds verder beperken, geeft een e-maillijst u directe toegang tot kopers die al interesse hebben getoond in uw producten. Wanneer u een nieuwe reeks werkbladen lanceert, een seizoensgebonden bundel uitbrengt of een tijdelijke korting aanbiedt, kunt u uw volledige lijst binnen minuten bereiken zonder afhankelijk te zijn van een algoritme dat bepaalt wie uw bericht ziet. Statistieken tonen consequent aan dat e-mail marketing een rendement op investering oplevert van gemiddeld 36 euro voor elke euro die u uitgeeft — aanzienlijk hoger dan welk social media kanaal dan ook. Voor printable verkopers die hun producten aanbieden via platformen zoals Etsy, Amazon KDP, Bol.com of Gumroad, vormt een goed onderhouden e-maillijst het verschil tussen afhankelijkheid van platformverkeer en een zelfstandig bedrijf met voorspelbare inkomsten. Deze gids behandelt elke stap van het e-mail marketing proces specifiek voor printable verkopers, van het kiezen van het juiste platform tot het meten en optimaliseren van uw campagnes voor maximale omzet.',
   },
 
   introduction: 'De meeste printable verkopers besteden het grootste deel van hun marketingtijd aan social media en platformoptimalisatie. Ze maken Pinterest pins, optimaliseren hun Etsy SEO, posten op Instagram en hopen dat het algoritme hun content aan de juiste mensen toont. Hoewel deze strategieën waardevol zijn, hebben ze allemaal één fundamenteel probleem: je bouwt op gehuurde grond. Elk social media platform kan zijn regels veranderen, je bereik beperken of zelfs je account verwijderen. Etsy kan zijn zoekalgoritme wijzigen waardoor je vermeldingen plotseling minder zichtbaar worden. Amazon KDP kan zijn royaltystructuur aanpassen. Je hebt geen controle over deze platformen.\n\nE-mail marketing lost dit probleem op door je een communicatiekanaal te geven dat volledig van jou is. Je e-maillijst is een bedrijfsmiddel dat niemand je kan afnemen. Wanneer je 5.000 abonnees hebt die geïnteresseerd zijn in educatieve printables, heb je 5.000 directe lijnen naar potentiële kopers — ongeacht wat er gebeurt met Etsy, Pinterest of Instagram. Dit is geen hypothetisch voordeel. Talloze printable verkopers hebben ervaren hoe een enkel algoritmewijziging hun verkeer halveerde, terwijl hun e-mailverkopen stabiel bleven omdat die niet afhankelijk zijn van externe platformen.\n\nDe kracht van e-mail marketing voor printable verkopers gaat verder dan alleen het hebben van een back-up verkoopkanaal. E-mail stelt je in staat om relaties op te bouwen met je kopers op een manier die onmogelijk is via marktplaatsplatformen. Op Etsy is je interactie met kopers beperkt tot de transactie zelf. Je kunt ze niet e-mailen over je nieuwe producten, geen tips delen over hoe ze je werkbladen het beste kunnen gebruiken, en geen community opbouwen rondom je merk. Via e-mail kun je dit allemaal wel. Je kunt een welkomstreeks sturen die nieuwe abonnees vertelt over je achtergrond en filosofie. Je kunt wekelijkse tips delen over educatieve activiteiten. Je kunt exclusieve kortingen aanbieden aan trouwe klanten. Elke e-mail versterkt de relatie en maakt de volgende aankoop waarschijnlijker.\n\nE-mail marketing biedt ook meetbaarheid die andere kanalen niet kunnen evenaren. Je weet precies hoeveel mensen je e-mail openen, hoeveel doorklikken naar je producten, en hoeveel daadwerkelijk kopen. Deze data stelt je in staat om je strategie continu te verfijnen: welke onderwerpregels werken het best, welke producttypen genereren de meeste klikken, op welke dagen en tijdstippen je lijst het meest actief is. Geen enkel social media platform geeft je dit niveau van inzicht in je publiek.\n\nDeze gids is specifiek geschreven voor verkopers van printbare werkbladen, educatief materiaal en digitale downloads. Of je nu werkbladen voor rekenen maakt, woordzoekers ontwerpt, kleurplaten verkoopt of complete educatieve pakketten aanbiedt — de principes zijn dezelfde, maar de voorbeelden en strategieën zijn afgestemd op de printable markt. We behandelen het volledige traject van het kiezen van een e-mail marketing platform tot het opzetten van geautomatiseerde verkoopfunnels die 24 uur per dag voor je werken.',
@@ -151,16 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'social media marketing voor printable verkopers' },
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest marketing voor werkbladen' },
-    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'seizoensgebonden marketing voor printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'een Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoekers maken en verkopen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'niche selectie voor printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'prijsstelling voor educatieve printables' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen op Gumroad' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest-marketing voor werkbladen-verkopers' },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'seizoensmarketing voor printables' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'het puzzels en logica-pakket als leadmagneet-inspiratie' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids voor een printable bedrijf' },
     { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'marketing voor je printable bedrijf' },
   ],

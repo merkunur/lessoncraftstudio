@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Piraten Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende piraten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Piratenthema productconcepten en avontuurstrategieën voor verkopers.',
+    titleTag: 'Printables piraten — Business | LessonCraftStudio',
+    metaDescription: 'Verkoop piraten printables op Etsy en Gumroad. Schattenjacht, piratenschepen en avontuur productideeën voor uw printable business — altijdgroene niche.',
 
-    primaryKeyword: 'piraten printable ideeën',
+    primaryKeyword: 'printables piraten ideeën business',
     secondaryKeywords: [
-      'piratenthema werkbladen verkopen',
-      'piraten printable business ideeën',
-      'piraat activiteiten voor verkopers',
-      'piraten printables verkopen op Etsy',
+      'piratenthema werkbladen verkopen Etsy',
+      'schattenjacht printable business ideeën',
+      'piratenschip avontuur producten verkopen',
+      'zeerovers educatieve printables Gumroad',
     ],
     lsiKeywords: [
-      'schattenjacht educatieve werkbladen',
-      'nautisch avontuur activiteiten',
-      'zeerovers thema printbare producten printables',
+      'schatkaart kompas werkbladen maken',
+      'piraat fantasiespel educatief materiaal',
+      'oceaan eiland avontuur printbare producten',
     ],
   },
   hero: {
-    title: 'Piraten Printable Businessideeën voor Verkopers',
-    description: 'Piraten vertegenwoordigen een van de meest universeel fascinerende avontuurthema\'s voor kinderen, waardoor dit een uitstekende altijdgroene niche is voor printable-ondernemers die betrouwbare jaarronde omzet zoeken aangedreven door verbeeldingsrijke betrokkenheid en de tijdloze fascinatie die schattenjachten, piratenschepen en zeeroveravonturen uitoefenen op kinderen van elke leeftijdsgroep en achtergrond. Het piratenthema biedt buitengewone subthemadiepte waaronder piratenschepen, schatkisten, schatkaarten, doodshoofd en gekruiste botten, papegaaien, ooglappen, haken, zwaarden, kanonnen, ankers, kompassen, piratenvlaggen, eilanden, palmbomen, gouden munten, telescopen en zeemeerminnen, wat verkopers een rijk visueel vocabulaire geeft dat aansluit bij de natuurlijke liefde van kinderen voor fantasiespel, avonturenverhalen en schatzoekverkenning. Vakoverschrijdende veelzijdigheid maakt piratenprintables bijzonder waardevol omdat avontuurconcepten van nature aansluiten bij rekenen via schatten tellen en kaartcoördinaten, taalvaardigheid via piratenvocabulaire en avonturenverhalen, aardrijkskunde via oceaanverkenning en eilandkartering, en creatief schrijven via kapiteinslogboek en schattenjachtverhaalopdrachten. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Piraten printables: avontuurlijke niche voor verkopers',
+    description: 'Piraten zijn een tijdloos avontuurthema dat kinderen van elke leeftijd boeit, waardoor het een betrouwbare altijdgroene niche vormt voor printable-ondernemers met constante jaarronde vraag. Schattenjachten, piratenschepen, schatkaarten, papegaaien, kompassen en gouden munten bieden een rijk visueel vocabulaire dat tientallen unieke producten ondersteunt zonder herhaling. De Nederlandse maritieme geschiedenis — van de VOC tot de Watergeuzen — geeft het piratenthema extra culturele diepgang die aansluit bij het aardrijkskunde- en geschiedenisonderwijs op basisscholen. Vakoverschrijdende veelzijdigheid versterkt de waarde: piraten sluiten aan bij rekenen via schatten tellen, taalvaardigheid via piratenvocabulaire, aardrijkskunde via oceaanverkenning en creatief schrijven via kapiteinslogboek-opdrachten. Op Etsy, Gumroad en Amazon KDP converteren gerichte producten zoals schattenjacht-telwerkbladen en piratenvocabulaire-woordzoekers beter dan generieke opties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De piraten printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk jong kind een diepe, verbeeldingsrijke fascinatie ervaart voor schattenjachten, piratenschepen en de avontuurlijke mogelijkheden van het verkennen van mysterieuze eilanden en het ontdekken van verborgen goud. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de piratenniche van echte jaarronde relevantie: kinderen zijn bezig met piratenspel in elk seizoen, piratenthema media en speelgoed behouden constante populariteit, en het avonturenverhaal dat de piratenfascinatie aandrijft functioneert onafhankelijk van weer of kalendergebeurtenissen. Dit consistente vraagpatroon maakt piratenprintables een betrouwbare inkomstenbron.
 
@@ -145,24 +145,19 @@ Het piratenverjaardagsfeestjesegment vertegenwoordigt een bijzonder waardevol ko
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'schattenjacht-werkbladen',
+      anchorText: 'Schattenjacht werkbladen met piratenthema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoeker generator voor piratenvocabulaire',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'zoeken-vinden-pakket',
+      anchorText: 'Zoeken en vinden pakket voor avontuurproducten',
     },
     {
       pageType: 'guide',

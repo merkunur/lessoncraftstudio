@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'woordzoeker werkblad generator',
+    primaryKeyword: 'gratis woordzoeker maker met afbeeldingen',
     secondaryKeywords: [
-      'woordzoeker puzzel maker voor verkopers',
-      'verborgen-woorden raster werkbladen maken om te verkopen',
-      'printbare woordzoeker werkbladen met commerciële licentie',
-      'woordzoeker generator voor KDP',
+      'woordzoeker online maken gratis',
+      'woordzoeker puzzel generator met plaatjes',
+      'verborgen woorden raster maker gratis proberen',
+      'woordzoeker werkblad maker met thema\'s',
     ],
     lsiKeywords: [
-      'verborgen-woorden rasterpuzzel printables voor Etsy',
-      'taalgebonden woordzoeker werkblad tool',
-      'meertalige woordzoeker puzzel generator',
+      'verborgen-woorden rasterpuzzel gratis online',
+      'taalgebonden woordzoeker generator',
+      'meertalige woordzoeker puzzel gratis proefversie',
     ],
-    titleTag: 'Woordzoeker Werkblad Maker | Maak & Verkoop Rasterpuzzels',
-    metaDescription: 'Genereer woordzoeker werkbladen met instelbare rasters van 5×5 tot 30×30, richtingsbesturing, taalgebonden vulletters, 11 talen.',
+    titleTag: 'Woordzoeker maker gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis woordzoekers met afbeeldingen online. Rasters van 5x5 tot 30x30, taalgebonden vulletters, 104 thema\'s, kleurgecodeerd antwoordblad. Probeer nu.',
   },
 
   hero: {
-    title: 'Woordzoeker Werkblad Maker',
-    tagline: 'Maak verborgen-woorden rasterpuzzels met instelbare formaten, richtingsbesturing en taalgebonden vulletters in 11 talen',
-    description: 'Ontwerp professionele woordzoeker werkbladen waarbij verborgen woorden zijn ingebed in een raster van willekeurige vulletters en gebruikers rijen, kolommen en diagonalen scannen om ze te vinden — het klassieke puzzelformaat dat nooit uit de mode raakt. Deze tool geeft je nauwkeurige controle over de moeilijkheid via twee onafhankelijke assen: rastergrootte (instelbaar van 5×5 tot 30×30 met rijen en kolommen apart ingesteld) en woordrichtingsschakelaars (diagonale woorden aan of uit, achterwaartse woorden aan of uit) die twee tot acht mogelijke plaatsingsrichtingen creëren. Kies uit drie inhoudsbronnen: Afbeeldingenbibliotheek haalt uit meer dan 3100 illustraties over 104 thematische collecties, Handmatige Bewerkingsmodus laat je afbeeldingen selecteren en weergavenamen aanpassen, en Aangepaste Woordenlijst laat je tot 8 woorden direct typen voor tekst-only puzzels. Drie weergavemodi — Woorden + Afbeeldingen, Alleen Afbeeldingen en Alleen Woorden — bepalen wat als aanwijzingen naast het raster verschijnt. De opvallende functie is taalgebonden alfabetvulling: wanneer je van taal wisselt, veranderen de rastervulletters om bij de tekenset van die taal te passen met gewogen frequentieverdelingen. Duitse rasters bevatten ä, ö, ü en ß op natuurlijke frequenties. Franse rasters bevatten é, è, ç, à. Nederlandse rasters gebruiken het volledige Nederlandse alfabet met correcte letterfrequenties. Elke taal krijgt authentieke vultekens, waardoor puzzels taalkundig echt zijn in plaats van duidelijk Engels-gegenereerd. Een kleurgecodeerd antwoordblad markeert elk gevonden woord in een van zes wisselende kleuren — roze, blauw, groen, goud, koraal en lavendel — voor directe visuele verificatie. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Kies uit 7 lettertypefamilies, voeg naam- en datumvelden toe, schakel grijstinten in voor inktbesparende uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis woordzoeker maker met afbeeldingen',
+    tagline: 'Maak verborgen-woorden rasterpuzzels met instelbare formaten en taalgebonden vulletters — gratis online',
+    description: 'Maak woordzoeker werkbladen waarbij verborgen woorden zijn ingebed in een raster van willekeurige vulletters. Woordzoekers zijn een van de populairste puzzelformaten voor kinderen en volwassenen — en met deze gratis online tool maakt u ze in enkele klikken. Stel de rastergrootte in van 5x5 tot 30x30, schakel diagonale en achterwaartse woorden in of uit voor precieze moeilijkheidsregeling, en kies uit drie inhoudsbronnen: Afbeeldingenbibliotheek met meer dan 3.100 illustraties over 104 thema\'s, Handmatige Bewerkingsmodus voor aangepaste woorden bij afbeeldingen, of Aangepaste Woordenlijst voor puur tekstgebaseerde puzzels. De unieke functie is taalgebonden alfabetvulling: Nederlandse rasters gebruiken het volledige Nederlandse alfabet met correcte letterfrequenties, Duitse rasters bevatten ä, ö, ü en ß, Franse rasters bevatten é, è, ç. Het kleurgecodeerde antwoordblad markeert elk woord in zes wisselende kleuren voor directe verificatie. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders, leerkrachten en puzzelliefhebbers die woordzoekers willen uitproberen.',
   },
 
   tutorial: {
-    title: 'Woordzoeker Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Woordzoeker werkbladen maken in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de woordzoeker werkblad maker',
@@ -201,14 +201,14 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Werkbladen — Volledige Productdetails' },
-    { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Raad het Woord Maker' },
-    { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
-    { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabettrein Maker' },
-    { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Voorzetsels Werkblad Maker' },
-    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
+    { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Gratis raad het woord maker' },
+    { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Gratis letterpuzzel maker' },
+    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Gratis cryptogram maker' },
+    { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Gratis alfabettrein maker' },
+    { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Gratis kruiswoordpuzzel maker' },
+    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Gratis schrijfoefeningen maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
   ],
 
   visuals: {

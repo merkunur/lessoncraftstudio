@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'zoek en vind werkbladen bundel',
+    primaryKeyword: 'zoek en vind pakket voor verkopers',
     secondaryKeywords: [
-      'zoek en vind werkblad generator bundel voor verkopers',
-      'ik zie ik zie verborgen voorwerp printable toolkit commercieel gebruik',
-      'kruiswoordpuzzel schattenjacht werkbladen bundel voor Etsy',
-      'zoek en tel activiteiten generators voor KDP verkopers',
+      'zoek en vind werkblad generator bundel verkopers',
+      'ik zie ik zie kruiswoordpuzzel bundel Etsy KDP',
+      'schattenjacht werkbladen bundel commercieel',
+      'zoek en tel activiteiten generators voor ondernemers',
     ],
     lsiKeywords: [
-      'verborgen voorwerp ik zie ik zie kruiswoordpuzzel schattenjacht werkblad pakket',
-      'meertalige zoekactiviteit printbare collectie',
-      'commerciële licentie ontdekkingswerkbladen',
-      'bulk zoek en vind werkblad creatie tool',
+      'verborgen voorwerp ik zie ik zie werkblad pakket',
+      'meertalige zoekactiviteit collectie verkopers',
+      'commercieel kruiswoordpuzzel schattenjacht bundel',
+      'zoek en vind werkbladen verkopen 11 talen',
     ],
-    titleTag: 'Zoeken en Vinden Werkbladen Bundel — 4 Generators',
-    metaDescription: 'Zoek en vind werkbladen bundel met 4 generators: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. Verkoop op Etsy, KDP, Gumroad.',
+    titleTag: 'Zoek en vind pakket voor verkopers | LessonCraftStudio',
+    metaDescription: 'Vier zoek- en ontdekkingsgenerators in een pakket: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. Verkoop op Etsy en KDP.',
   },
 
   hero: {
-    title: 'Zoeken & Vinden Pakket',
-    tagline: 'Vier ontdekkingsgerichte generators — ik zie ik zie scènes, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten in elk werkblad',
-    description: 'Het Zoeken & Vinden Pakket is de meest taalrijke bundel in de collectie. Drie van vier apps produceren taalgevoelige werkbladen — afbeeldingslabels en taalspecifieke alfabetten in Zoek & Tel, vertaalde puzzelwoorden in Kruiswoordpuzzel, en volledig gelokaliseerde richtingsaanwijzingen in Schattenjacht. Deze meertalige diepte is een oprecht concurrentievoordeel voor verkopers die niet-Engelstalige markten bedienen, omdat elk vertaald werkblad een unieke productvermelding wordt met vrijwel nul concurrentie. De bundel verenigt vier oprecht verschillende activiteitsformaten onder één "zoek en ontdek" thema: Ik Zie Ik Zie verborgen voorwerp scènes waarbij gebruikers specifieke items lokaliseren en tellen, visuele verborgen voorwerp werkbladen met nul-overlap scènegeneratie, 15×15 kruiswoordrasters met afbeeldingsgebaseerde aanwijzingen in plaats van tekstdefinities, en coördinatenraster schattenjachten met opeenvolgende richtingsbewegingen. Alle vier generators produceren automatische antwoordbladen — 100% antwoordbladdekking over de gehele bundel. Zoek & Tel biedt twee zoekmodi: Verborgen Voorwerp Ik Zie Ik Zie scènes met instelbare rastergroottes van 5×5 tot 10×10, en een Letterherkenning modus die taalspecifieke alfabetten gebruikt inclusief Duitse umlauts, Spaanse geaccentueerde tekens en Scandinavische speciale letters. Zoek Voorwerpen biedt puur visuele verborgen voorwerp werkbladen met intelligente nul-overlap scèneplaatsing en adaptieve afbeeldingsgrootte. Kruiswoordpuzzel ondersteunt vier invoermethoden — thema automatisch selecteren, handmatige woordbewerking, aangepaste woordenlijsten en afbeelding uploaden — allemaal gerenderd op een 15×15 raster met 8 afbeeldingsaanwijzingen die traditionele tekstdefinities vervangen. Schattenjacht plaatst oriëntatiepunten op een 5×5 coördinatenraster gelabeld A tot E en 1 tot 5, met precies 4 opeenvolgende richtingsbewegingen in Basismodus met omhoog, omlaag, links en rechts of Kompasmodus met noord, zuid, oost en west — allemaal volledig vertaald over 11 talen. Kies uit meer dan 100 thematische beeldsets of upload je eigen PNG- en JPEG-bestanden voor merkgebonden, nichespecifieke producten. Of je nu Ik Zie Ik Zie boeken verkoopt op Amazon KDP, kruiswoordpakketten vermeldt op Etsy, of schattenjacht activiteiten maakt voor Gumroad, deze bundel geeft je vier veelgevraagde zoekactiviteitstypen waar kopers op naam naar zoeken. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    title: 'Vier ontdekkingsgenerators voor Etsy en KDP',
+    tagline: 'De meest taalrijke bundel: drie van vier apps produceren werkbladen in 11 talen',
+    description: 'Als u zoek- en ontdekkingsactiviteiten verkoopt op Etsy, Amazon KDP of Bol.com, is dit de meest taalrijke bundel in de collectie. Drie van vier apps produceren taalgevoelige werkbladen: afbeeldingslabels en taalspecifieke alfabetten in Zoek & Tel, vertaalde puzzelwoorden in Kruiswoordpuzzel, en volledig gelokaliseerde richtingsaanwijzingen in Schattenjacht. Elk vertaald werkblad wordt een unieke productvermelding met vrijwel nul concurrentie op niet-Engelstalige markten. De bundel verenigt vier verschillende activiteitsformaten: Ik Zie Ik Zie scènes, visuele verborgen voorwerp werkbladen met nul-overlap scènegeneratie, 15x15 kruiswoordrasters met afbeeldingsaanwijzingen, en coördinatenraster schattenjachten met opeenvolgende richtingsbewegingen. Alle vier generators produceren automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen afbeeldingen. De Nederlandse markt biedt extra kansen via Bol.com, terwijl u met de Volledige Toegang tier ook de Duitse, Franse en Scandinavische markten bedient. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 
   appsIncluded: [
@@ -184,14 +184,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'zoek-en-tel-werkbladen', anchorText: 'Ik Zie Ik Zie Zoek & Tel Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'zoek-voorwerpen-werkbladen', anchorText: 'Zoek Voorwerpen Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Plaatjes Kruiswoordpuzzel Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'schattenjacht-werkbladen', anchorText: 'Schattenjacht Generator — Volledig Overzicht' },
-    { pageType: 'guide', slug: 'zoek-voorwerpen-werkbladen-maken', anchorText: 'Zoek-voorwerpen werkbladen maken' },
-    { pageType: 'guide', slug: 'schattenjacht-werkbladen-maken', anchorText: 'Schattenjacht werkbladen maken' },
-    { pageType: 'start', slug: 'marketing-printable-bedrijf', anchorText: 'Marketing voor je printable bedrijf' },
-    { pageType: 'idea', slug: 'kamperen-printable-ideen', anchorText: 'Camping printable ideeën voor buitenonderwijs' },
+    { pageType: 'app', slug: 'zoek-en-tel-werkbladen', anchorText: 'Zoek & Tel generator bekijken' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel generator bekijken' },
+    { pageType: 'bundle', slug: 'lezen-taal-pakket', anchorText: 'Bekijk ook het Lezen & Taal Pakket' },
+    { pageType: 'start', slug: 'meertalige-werkbladen-verkopen', anchorText: 'Meertalige werkbladen maken en verkopen' },
   ],
 
   visuals: {

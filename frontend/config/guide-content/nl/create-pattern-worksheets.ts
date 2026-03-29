@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'patroonwerkbladen maken',
+    primaryKeyword: 'patronenwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'patroonherkenning werkbladen voor kinderen',
-      'patroonwerkblad generator',
-      'printbare patroonwerkbladen verkopen',
-      'visuele patroonactiviteiten voor kleuters',
+      'patroonherkenning werkbladen verkopen Etsy',
+      'patroonwerkbladen maken voor webwinkels',
+      'AB patroonwerkbladen Amazon KDP',
+      'visuele patroonactiviteiten verkopen Bol.com',
     ],
     lsiKeywords: [
-      'AB patroonwerkbladen kleuterschool',
-      'beeldgebaseerde patroonherkenning activiteiten',
-      'groep 3 patroonvoltooiing werkbladen',
-      'patroonwerkbladen verkopen op Etsy',
-      'Amazon KDP patroon activiteitenboeken',
+      'patroonwerkbladen bundels voor Etsy winkel',
+      'patroonherkenning activiteitenboek KDP',
+      'pre-wiskundige werkbladen productlijn',
+      'patroonwerkblad generator commercieel',
       'commerciële licentie werkblad tool',
+      'patronen werkbladen catalogus opbouwen',
     ],
-    titleTag: 'Patroonwerkbladen Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Maak patroonwerkbladen met 9 typen, thema-afbeeldingen, automatische antwoordsleutels en 2 vraagformaten. Exporteer printklare PDF\'s voor Etsy en Amazon KDP.',
+    titleTag: 'Patronenwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u patronenwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 9 patroontypen, thema-afbeeldingen en automatische antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Maak Je Patroonherkenning Werkbladen',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van thematische, printklare patroonherkenning werkbladen die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Patroonherkenning is een van de meest fundamentele pre-wiskundige vaardigheden die kinderen ontwikkelen, en werkbladen die dit aanleren zijn constant in trek bij ouders, verkopers en bijlesprogramma\'s. Deze gids begeleidt je door het volledige creatieproces met de Patroonwerkblad Maker — van het selecteren van patroontypen en vraagformaten tot het exporteren van verzorgde, printklare PDF\'s met automatische antwoordsleutels. Met 9 verschillende patroontypen, variërend van eenvoudige AB-reeksen tot complexe ABCD-patronen, kun je producten maken voor elke leeftijdsgroep van kleuterschool tot en met groep 4. Of je nu je eerste printbaar product lanceert of een bestaande educatieve werkbladcatalogus uitbreidt, aan het eind van deze handleiding heb je afgewerkte producten klaar om te publiceren.',
+    title: 'Patronenwerkbladen maken en verkopen op marktplaatsen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare patroonherkenning werkbladen met 9 typen en automatische antwoordsleutels voor Etsy en KDP',
+    description: 'Patroonherkenning is een van de meest fundamentele pre-wiskundige vaardigheden die kinderen ontwikkelen, en werkbladen die dit aanleren zijn constant in trek bij ouders, verkopers en bijlesprogramma\'s. Deze gids begeleidt u door het volledige creatieproces met de Patroonwerkblad Maker — van het selecteren van patroontypen en vraagformaten tot het exporteren van verzorgde, printklare PDF\'s met automatische antwoordsleutels. Met 9 verschillende patroontypen, variërend van eenvoudige AB-reeksen tot complexe ABCD-patronen, kunt u producten maken voor elke leeftijdsgroep van kleuterschool tot en met groep 4. Of u nu uw eerste printbaar product lanceert of een bestaande educatieve werkbladcatalogus uitbreidt, aan het eind van deze handleiding hebt u afgewerkte producten klaar om te publiceren.',
   },
 
   introduction: 'Patroonherkenning is de cognitieve vaardigheid die aan de basis staat van al het wiskundig denken. Voordat kinderen leren optellen, aftrekken of doelgericht tellen, leren ze patronen herkennen — wat komt er daarna, wat ontbreekt, wat herhaalt zich. Deze vaardigheid vertaalt zich rechtstreeks naar algebra, getallenreeksen, meetkunde en logisch redeneren. Dat fundamentele belang creëert aanhoudende vraag naar patroonwerkbladen voor elke leeftijdsgroep van kleuterschool tot en met groep 4.\n\nWat patroonwerkbladen bijzonder sterk maakt als printbaar product is hun universeel visuele karakter. Anders dan werkbladen die afhankelijk zijn van taalspecifieke inhoud, gebruiken patroonherkenning activiteiten uitsluitend afbeeldingen. Een kind in Duitsland werkt hetzelfde AB-patroon van katten en honden door als een kind in Brazilië. Dit betekent dat één product kopers in elke markt bedient zonder vertaling of lokalisatie — een aanzienlijk voordeel voor verkopers die internationale catalogi opbouwen.\n\nDe Patroonwerkblad Maker doet het complexe werk voor je. Het ondersteunt 9 patroontypen van eenvoudige 2-beelden AB-reeksen tot geavanceerde 4-beelden ABCD-patronen, biedt twee vraagformaten (open invulvak en meerkeuzevragen), randomiseert lege posities en startelementen voor variatie, en genereert automatische antwoordsleutels. Jij focust op productstrategie — welke patroontypen je target, welke thema\'s je gebruikt, hoe je bundelt op moeilijkheid — terwijl de generator layout, patroonnauwkeurigheid en printopmaak afhandelt.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldwerkbladen maken, elk patroontype en elke configuratie testen, en de uitvoerkwaliteit beoordelen voordat je een commerciële licentie aanschaft.',
@@ -155,12 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'pattern-train', anchorText: 'Patroontreinen Generator — Alle Details' },
-    { pageType: 'tool', slug: 'pattern-worksheet', anchorText: 'Probeer de Patroonwerkblad Maker' },
+    { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Patroonwerkblad Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'patroontrein-werkbladen', anchorText: 'Patroontrein Generator voor extra patroonactiviteiten' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket met patroonwerkbladen' },
   ],
 
   toolsRecommended: [

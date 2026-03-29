@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy werkblad bundels',
+    primaryKeyword: 'bundels werkbladen maken voor Etsy',
     secondaryKeywords: [
       'hoe Etsy werkblad bundels maken',
       'Etsy printable bundel vermeldingsstrategie',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'Etsy digitale levering meerdere bestanden bundelstructuur',
       'bundel versus individuele vermelding kannibalisatie Etsy winkelstrategie',
     ],
-    titleTag: 'Etsy Werkblad Bundels Maken — Gids',
-    metaDescription: 'Etsy werkblad bundels maken die de bestelwaarde verhogen. Bundeltypes, bestandsorganisatie, preview-afbeeldingen, vermeldingsoptimalisatie en prijsstrategie.',
+    titleTag: 'Bundels werkbladen voor Etsy maken | LessonCraftStudio',
+    metaDescription: 'Maak werkbladbundels voor Etsy die uw bestelwaarde verhogen. Bundeltypes, bestandsorganisatie, preview-afbeeldingen en waardestapelingsprijzen.',
   },
 
   hero: {
-    title: 'Hoe Etsy Werkblad Bundels Maken',
-    tagline: 'Een complete gids voor het maken, structureren, vermelden en optimaliseren van werkbladbundels voor Etsy — inclusief bundeltypeselectie over vak-, niveaucategorie-, thema-, seizoens- en formaatcategorieën, productselectie voor maximale waargenomen waarde, bestandsorganisatie binnen Etsy\'s leveringslimieten, bundelspecifieke preview-afbeeldingen en miniatuurontwerp, vermeldingstitels en tags geoptimaliseerd voor bundelzoektermen, waardestapelingsprijsstrategieën met verankeringskortingen, en prestatietracking om je best presterende bundelcombinaties te identificeren',
-    description: 'Werkbladbundels behoren tot de vermeldingen met de hoogste omzet op Etsy voor educatieve printable verkopers. Deze gids doorloopt de complete bundelcreatie-workflow — van het kiezen welke producten te combineren tot het schrijven van vermeldingen die bundelwaarde communiceren tot het bijhouden van prestaties in de loop der tijd.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk, zodat je bundel-inhoud kunt maken en je aanpak kunt testen voordat je een licentie koopt.',
+    title: 'Bundels werkbladen maken voor Etsy-verkoop',
+    tagline: 'Bundeltypes, bestandsorganisatie en waardestapelingsprijzen',
+    description: 'Werkbladbundels behoren tot de vermeldingen met de hoogste omzet op Etsy voor printable verkopers. Deze gids doorloopt de complete bundelcreatie-workflow: van het kiezen welke producten te combineren, via bestandsorganisatie binnen Etsy\'s leveringslimieten en het maken van preview-afbeeldingen, tot het schrijven van geoptimaliseerde vermeldingen en het bijhouden van prestaties. Elke generator is beschikbaar als gratis proefversie met watermerk zodat u bundel-inhoud kunt maken voordat u een licentie koopt.',
   },
 
-  introduction: 'Bundels zijn een van de meest effectieve strategieën voor het verhogen van de omzet van een Etsy printable winkel. Een goed samengestelde werkbladbundel biedt kopers meer waarde per aankoop terwijl het jou een hogere gemiddelde bestelwaarde geeft dan alleen individuele vermeldingen. De economie is eenvoudig: als een enkel werkblad verkoopt voor €3 en een bundel van acht gerelateerde werkbladen verkoopt voor €12, verdien je vier keer de omzet per transactie met minimale extra productiekosten.\n\nNaast het directe omzetvoordeel concurreren bundels anders in Etsy-zoekresultaten. Kopers die zoeken naar "rekenwerkblad bundel groep 3" hebben sterkere aankoopintentie dan degenen die naar individuele werkbladen zoeken — ze hebben al besloten dat ze meerdere producten willen en zoeken de beste collectie. Bundelzoekwoorden hebben ook minder concurrentie dan individuele productzoekwoorden in veel educatieve printable categorieën.\n\nBundels verminderen ook de keuzestress die ertoe leidt dat kopers vertrekken zonder te kopen. In plaats van te kiezen tussen zes individuele vermeldingen, kan een koper één bundel kopen die alles bevat wat ze nodig hebben. voor verkopers die winkelmateriaal kopen of ouders die thuisonderwijsbronnen samenstellen, lossen bundels het probleem "welke moet ik nemen?" op.\n\nDe uitdaging is dat het maken van effectieve bundels doordachte planning vereist. Willekeurige verzamelingen werkbladen die samen zijn verpakt presteren slechter dan zorgvuldig samengestelde bundels met duidelijke thema\'s, consistente kwaliteit en professionele presentatie. Deze gids behandelt elk aspect van het bundelcreatieproces: het juiste bundeltype selecteren voor je catalogus, kiezen welke producten op te nemen, bestanden organiseren voor professionele levering, preview-afbeeldingen maken die waarde communiceren, bundelspecifieke vermeldingen schrijven geoptimaliseerd voor Etsy-zoekresultaten, prijzen voor maximale omzet, en prestaties bijhouden om je strategie in de loop der tijd te verfijnen. Elke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk, zodat je bundel-inhoud kunt maken en je aanpak kunt testen voordat je een licentie koopt.',
+  introduction: 'Bundels zijn een van de meest effectieve strategieën voor het verhogen van de omzet van een Etsy printable winkel. Een bundel van acht werkbladen voor 12 euro levert vier keer de omzet per transactie vergeleken met individuele verkopen van 3 euro, met minimale extra productiekosten. Kopers die naar bundels zoeken hebben bovendien sterkere aankoopintentie en bundelzoekwoorden hebben minder concurrentie. De uitdaging is dat effectieve bundels doordachte planning vereisen: duidelijke thema\'s, consistente kwaliteit en professionele presentatie. Deze gids behandelt elk aspect: bundeltype selecteren, producten kiezen, bestanden organiseren voor Etsy\'s leveringslimieten, preview-afbeeldingen maken, vermeldingen optimaliseren en prestaties bijhouden. Elke generator biedt een gratis proefversie met watermerk.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Hoe Woordzoeker Werkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Hoe Je Etsy Printable Werkbladen Prijst' },
-    { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'Etsy SEO voor Educatieve Printables' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe een Etsy Printable Shop Starten vanuit Niets' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Volledige Details' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels en Logica Pakket' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
     { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
   ],
 

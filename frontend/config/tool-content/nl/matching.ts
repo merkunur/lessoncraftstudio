@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'koppelwerkblad generator',
+    primaryKeyword: 'gratis koppelwerkbladen generator',
     secondaryKeywords: [
-      'koppelwerkblad maker voor verkopers',
-      'trek-een-lijn verbindingswerkbladen maken om te verkopen',
-      'printbare koppelactiviteit generator commercieel gebruik',
-      'afbeelding koppelwerkblad maker voor KDP en Etsy',
+      'koppelwerkbladen online maken gratis',
+      'trek-een-lijn verbindingswerkbladen gratis',
+      'koppelactiviteit generator gratis proberen',
+      'afbeelding koppelwerkblad maker met thema\'s',
     ],
     lsiKeywords: [
-      'vier-modus trek-een-lijn koppelwerkblad tool',
-      'automatisch antwoordblad koppelactiviteit generator',
-      'beginletter afbeelding woord koppelen maker',
+      'vier-modus koppelwerkblad maker gratis online',
+      'automatisch antwoordblad koppelactiviteit gratis',
+      'beginletter afbeelding woord koppelen gratis proefversie',
     ],
-    titleTag: 'Koppelwerkblad Generator — Trek-een-Lijn Maker',
-    metaDescription: 'Maak koppelwerkbladen met 4 modi, automatisch antwoordblad met verbindingslijnen, instelbare paren, 11 talen, 104 thema\'s. Gratis proefversie — licentie.',
+    titleTag: 'Koppelwerkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis koppelwerkbladen met afbeeldingen online. 4 modi, automatisch antwoordblad, instelbare paren, 104 thema\'s. Probeer nu gratis met watermerk.',
   },
 
   hero: {
-    title: 'Koppelwerkblad Maker',
-    tagline: 'Vier-modus trek-een-lijn koppelwerkblad generator met Beginletter, Afbeelding+Woord, Gemengd en Aangepast Woord modi, automatisch gegenereerde antwoordbladen met verbindingslijnen, instelbaar aantal paren, gelokaliseerde Zoek de Paren koptekst in 11 talen, en 104 thematische beeldcollecties voor koppelactiviteiten die wereldwijd verkopen',
-    description: 'Maak professionele trek-een-lijn koppelwerkbladen waarbij gebruikers paren verbinden door lijnen te trekken tussen twee kolommen — met vier verschillende koppelmodi in één generator. Beginletter modus plaatst afbeeldingen links en hun eerste letters rechts, met drie submodi: Willekeurig Thema & Afbeeldingen kiest een thema en afbeeldingen automatisch, Willekeurig uit Gekozen Thema laat je het thema kiezen, en Specifieke Afbeeldingen Selecteren geeft je handmatige controle over elke afbeelding. Schakel weergave in hoofdletters of kleine letters in voor leeftijdsgeschikte werkbladen. Afbeelding+Woord modus toont gelabelde afbeeldingsparen aan beide zijden voor woordenschatversterking. Afbeelding/Woord Gemengd modus gebruikt per-rij dropdown-keuzes zodat elke zijde onafhankelijk een afbeelding of woord toont, waardoor gevarieerde moeilijkheid binnen één werkblad ontstaat. Aangepast Woord modus koppelt afbeeldingen aan je eigen getypte termen voor spellingoefening, woordenschattoetsen of vreemde-taal oefeningen. Configureer 4, 5 of 6 paren per werkblad (standaard 6) om moeilijkheid en visuele dichtheid te regelen. Schakel itemnummers (standaard AAN) in om cijfers voor elk paar toe te voegen en opsommingstekens (standaard AAN) voor decoratieve opmaak — beide onafhankelijk regelbaar. Elk werkblad bevat een automatisch gegenereerde gelokaliseerde "Zoek de Paren!" koptekst met een gele pil-achtergrond (#FFD700), koraalrood kaderlijn (#FF7F50, 8px streek), titel in Fredoka (700) en beschrijving in Quicksand (500), automatisch vertaald in alle 11 ondersteunde talen. Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd — het antwoordblad tekent horizontale verbindingslijnen (#555, streekbreedte 2) tussen correcte paren zodat je deze nooit handmatig hoeft te maken. Deze generator is taalgevoelig: de modi Beginletter en Afbeelding+Woord gebruiken gelokaliseerde afbeeldingsnamen, dus het wisselen van taal verandert de woorden en eerste letters op het werkblad. Blader door 104 thematische collecties met meer dan 3.100 illustraties. Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg naam- en datumvelden toe met een enkel selectievakje. Exporteer vier bestanden per sessie: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — allemaal op 300 DPI. Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. Bewerk alles op het Fabric.js-canvas met 7 lettertypen, tekstomlijning 0–10, uitlijngereedschappen, laagbeheer, vergrendelen/ontgrendelen, zoom 25%–300% en ongedaan maken/opnieuw uitvoeren tot 20 statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis koppelwerkbladen online maken',
+    tagline: 'Maak trek-een-lijn koppelwerkbladen met vier modi en automatisch antwoordblad — gratis proefversie met watermerk',
+    description: 'Maak koppelwerkbladen waarbij kinderen paren verbinden door lijnen te trekken tussen twee kolommen. Met deze gratis online tool genereert u professionele trek-een-lijn werkbladen met vier koppelmodi in één generator. Beginletter modus plaatst afbeeldingen links en hun eerste letters rechts — ideaal voor kleuters die het alfabet leren. Afbeelding+Woord modus toont gelabelde paren voor woordenschatversterking. Gemengde Modus combineert afbeeldingen en woorden in gevarieerde patronen. Aangepast Woord modus koppelt afbeeldingen aan uw eigen termen voor spellingoefening. Kies uit 104 thematische collecties met meer dan 3.100 illustraties, stel 4, 5 of 6 paren per werkblad in, en schakel itemnummers en opsommingstekens naar wens in of uit. Het antwoordblad met verbindingslijnen wordt automatisch meegegenereerd. De tool ondersteunt 11 talen met gelokaliseerde afbeeldingsnamen. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders van kleuters, leerkrachten in de onderbouw, en iedereen die koppelwerkbladen wil uitproberen.',
   },
 
   tutorial: {
-    title: 'Koppelwerkbladen Maken in 8 Stappen',
+    title: 'Koppelwerkbladen maken in 8 stappen',
     steps: [
       {
         title: 'Open de Koppelwerkblad Maker',
@@ -197,14 +197,14 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Koppelwerkbladen — Volledig Productoverzicht' },
-    { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Plaatjesbingo Maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
-    { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabet Trein Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optelling Werkblad Maker' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
+    { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Gratis rasterpuzzel maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Gratis schaduw matching maker' },
+    { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Gratis plaatjesbingo maker' },
+    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Gratis sorteer werkblad maker' },
+    { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Gratis alfabettrein maker' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Gratis woordzoeker maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Gratis optelwerkbladen maker' },
   ],
 
   visuals: {

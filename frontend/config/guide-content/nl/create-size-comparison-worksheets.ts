@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'groottevergelijking werkbladen maken',
+    primaryKeyword: 'vergelijkingswerkbladen maken verkopen',
     secondaryKeywords: [
-      'groot en klein werkbladen voor kinderen',
-      'groottediscriminatie werkblad generator',
-      'printbare groottevergelijking werkbladen verkopen',
-      'grootte ordenen werkbladen kleuterschool',
+      'groot en klein werkbladen verkopen Etsy',
+      'groottevergelijking werkbladen Amazon KDP',
+      'grootte ordenen werkbladen verkopen Bol.com',
+      'tekstvrije werkbladen internationaal verkopen',
     ],
     lsiKeywords: [
-      'visuele groottediscriminatie activiteiten',
-      'tekstvrije werkbladen voor internationale verkoop',
-      'omcirkel de grote werkbladen',
-      'groottevergelijking werkbladen verkopen op Etsy',
-      'Amazon KDP grootte ordenen activiteitenboeken',
+      'groottediscriminatie werkbladen productlijn',
+      'grootte ordenen activiteitenboek Brave New Books',
+      'omcirkel de grote werkbladen bundels',
+      'vergelijkingswerkbladen generator commercieel',
       'commerciële licentie groottewerkblad tool',
+      'groottevergelijking catalogus opbouwen',
     ],
-    titleTag: 'Groottevergelijking Werkbladen Maken — Stappenplan',
-    metaDescription: 'Maak groottevergelijking werkbladen met 5 vraagtypes en 2 beeldmodi. Tekstvrije uitvoer verkoopt wereldwijd. Stap-voor-stap gids voor Etsy, KDP en Gumroad.',
+    titleTag: 'Vergelijkingswerkbladen verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u vergelijkingswerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 5 vraagtypes, tekstvrije uitvoer en wereldwijde verkoop.',
   },
 
   hero: {
-    title: 'Hoe Groottevergelijking Werkbladen Maken',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van groottediscriminatie werkbladen met vijf vraagtypes en tekstvrije uitvoer die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Groottevergelijking is een van de eerste visuele vaardigheden die kinderen ontwikkelen, en werkbladen die deze vaardigheid oefenen hebben het hele jaar door vraag van ouders, verkopers en voorschoolse opvangcentra. Deze gids begeleidt je door het volledige creatieproces met de Groot & Klein Werkblad Maker — van het kiezen tussen vijf vraagtypes en twee beeldmodi tot het configureren van de oefendichtheid, het genereren van automatische antwoordsleutels en het exporteren van printklare bestanden. De tool produceert volledig visuele werkbladen zonder tekst op de uitvoer, wat betekent dat je producten verkopen aan kopers in elk land zonder vertaling. Of je nu je eerste printbare product maakt of een bestaande catalogus voor jong leren uitbreidt, je hebt aan het einde van deze handleiding afgewerkte werkbladen klaar om te vermelden.',
+    title: 'Vergelijkingswerkbladen maken en wereldwijd verkopen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare groottevergelijking werkbladen met tekstvrije uitvoer voor Etsy, Amazon KDP en Bol.com',
+    description: 'Groottevergelijking is een van de eerste visuele vaardigheden die kinderen ontwikkelen, en werkbladen die deze vaardigheid oefenen hebben het hele jaar door vraag van ouders, verkopers en voorschoolse opvangcentra. Deze gids begeleidt u door het volledige creatieproces met de Groot & Klein Werkblad Maker — van het kiezen tussen vijf vraagtypes en twee beeldmodi tot het configureren van de oefendichtheid, het genereren van automatische antwoordsleutels en het exporteren van printklare bestanden. De tool produceert volledig visuele werkbladen zonder tekst op de uitvoer, wat betekent dat uw producten verkopen aan kopers in elk land zonder vertaling. Of u nu uw eerste printbare product maakt of een bestaande catalogus voor jong leren uitbreidt, u hebt aan het einde van deze handleiding afgewerkte werkbladen klaar om te vermelden.',
   },
 
   introduction: 'Groottediscriminatie is een fundamentele visueel-cognitieve vaardigheid die kinderen beginnen te ontwikkelen voordat ze kunnen lezen, schrijven of tellen. Herkennen dat het ene object groter is dan het andere, items ordenen van kleinst naar grootst, en de middelgrote optie in een groep identificeren — deze vaardigheden vormen de basis voor wiskundig redeneren, ruimtelijk bewustzijn en alledaags probleemoplossen. Dat ontwikkelingsbelang vertaalt zich in aanhoudende marktvraag naar groottevergelijking werkbladen voor kleuterschool, groep 1–2 en vroege basisschoolleeftijdsgroepen.\n\nWat groottevergelijking werkbladen uitzonderlijk sterk maakt als printbaar product is hun tekstvrije uitvoer. De Groot & Klein Werkblad Maker genereert werkbladen die alleen afbeeldingen en visuele indicatoren bevatten — er verschijnen geen woorden op de afgewerkte pagina. Dit betekent dat een werkblad dat je in één sessie maakt identiek verkoopt aan kopers in elk land, elke taal en elk leesniveau. Je hebt geen aparte productversies nodig voor Nederlandstalige, Duitse, Franse of Spaanse markten. Eén vermelding, één bestand, universele verkoopbaarheid. Dit is een concreet concurrentievoordeel ten opzichte van tekstgebaseerde werkbladgeneratoren waar elk product vertaling en aparte marktplaatsvermeldingen vereist.\n\nDe tool biedt vijf verschillende vraagtypes die een natuurlijke moeilijkheidsprogressie creëren. Omcirkel de Grote is de eenvoudigste identificatietaak. Omcirkel de Kleine vereist iets zorgvuldiger vergelijking. Omcirkel de Middelste introduceert een derde grootteniveau en eliminatieredenering. Nummer 1–2–3 Klein naar Groot en Groot naar Klein verschuiven van identificatie naar meerstapssequentiëring. Elk vraagtype richt zich op een andere cognitieve vaardigheid, en elk creëert een apart product dat je op marktplaatsen kunt vermelden.\n\nTwee beeldmodi verdubbelen je productvariatie vanuit dezelfde tool. Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten, wat pure grootteperceptie isoleert. Verschillende Afbeeldingen toont verschillende objecten op verschillende formaten, wat relatief grootteredeneren vereist. Deze modi creëren fundamenteel verschillende oefeningen die verschillende kopersbehoeften aanspreken.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt alle vijf vraagtypes, beide beeldmodi, elk thema en de volledige exportpijplijn testen voordat je een commerciële licentie aanschaft.',
@@ -155,13 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'optellen-werkbladen-maken', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'groot-klein-werkbladen', anchorText: 'Groot & Klein Werkblad Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'big-small', anchorText: 'Probeer de Groot & Klein Werkblad Maker' },
+    { pageType: 'app', slug: 'groot-klein-werkbladen', anchorText: 'Groot & Klein Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Sorteer Generator voor classificatiewerkbladen' },
+    { pageType: 'bundle', slug: 'matchen-sorteren-pakket', anchorText: 'Matchen & Sorteren Pakket met vergelijkingswerkbladen' },
   ],
 
   toolsRecommended: [

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'werkbladen meerdere talen maken',
+    primaryKeyword: 'werkbladen in meerdere talen maken verkopen',
     secondaryKeywords: [
       'meertalige werkbladen generator',
-      'werkbladen vertalen',
+      'werkbladen vertalen en verkopen',
       'educatieve printables meerdere talen',
-      'tweetalige werkbladen maken',
+      'tweetalige werkbladen produceren',
     ],
     lsiKeywords: [
       'taalspecifieke opmaak tekensets diakritische tekens lettertype selectie voor talen',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'tekstlengte variatie samengestelde woorden culturele aanpassing werkblad lokalisatie',
       'batchproductie meertalige contentgeneratie geautomatiseerde vertaaltools woordenschat databases',
     ],
-    titleTag: 'Werkbladen in Meerdere Talen Maken — Gids',
-    metaDescription: 'Leer werkbladen in meerdere talen maken met productie workflows, tekenverwerking, lettertypeselectie, kwaliteitsborging en vermeldingsoptimalisatie voor.',
+    titleTag: 'Werkbladen meerdere talen verkopen | LessonCraftStudio',
+    metaDescription: 'Leer werkbladen in meerdere talen maken en verkopen. Productie-workflows, tekenverwerking, kwaliteitsborging en vermeldingsoptimalisatie voor Etsy en KDP.',
   },
 
   hero: {
-    title: 'Werkbladen in Meerdere Talen Maken',
+    title: 'Werkbladen in meerdere talen maken en verkopen',
     tagline: 'Een praktische gids voor meertalige werkbladproductie — met taalgeschikte werkbladtypen kiezen, een meertalige werkruimte inrichten, speciale tekens en lettertypen verwerken, content natuurlijk aanpassen per markt, vertaalkwaliteitsborging implementeren, geautomatiseerde meertalige tools gebruiken, efficiënte batchproductie workflows opzetten en marktplaats vermeldingen optimaliseren voor internationale kopers',
-    description: 'Werkbladen in meerdere talen maken is veel meer dan tekst door een vertaalmachine halen. Professionele meertalige productie vereist begrip van tekensets, lettertypecompatibiliteit, tekstlengtevariaties, culturele context en kwaliteitsborgingsprocessen die ervoor zorgen dat elke taalversie dezelfde standaard haalt als je origineel. Deze gids behandelt de complete productiemethodologie voor het maken van werkbladen die er in elke doeltaal professioneel uitzien en natuurlijk lezen. Of je nu verkoopt op Etsy, Amazon KDP, Gumroad of een ander platform — meertalige werkbladen openen markten die de meeste verkopers volledig negeren, waardoor je concurrentievoordeel aanzienlijk toeneemt.',
+    description: 'Werkbladen in meerdere talen maken is veel meer dan tekst door een vertaalmachine halen. Professionele meertalige productie vereist begrip van tekensets, lettertypecompatibiliteit, tekstlengtevariaties, culturele context en kwaliteitsborgingsprocessen die ervoor zorgen dat elke taalversie dezelfde standaard haalt als uw origineel. Deze gids behandelt de complete productiemethodologie voor het maken van werkbladen die er in elke doeltaal professioneel uitzien en natuurlijk lezen. Of u nu verkoopt op Etsy, Amazon KDP, Bol.com of een ander platform — meertalige werkbladen openen markten die de meeste verkopers volledig negeren, waardoor uw concurrentievoordeel aanzienlijk toeneemt.',
   },
 
   introduction: 'Het verschil tussen een meertalig werkblad dat verkoopt en een dat onopgemerkt blijft op een marktplaats is productiekwaliteit. Kopers in elke taalmarkt herkennen onmiddellijk werkbladen die slordig vertaald zijn of geproduceerd zonder aandacht voor taalspecifieke opmaakeisen. Een Duits werkblad met ontbrekende umlauten, een Frans werkblad met incorrecte accenttekens of een Spaans werkblad met onnatuurlijke zinsbouw signaleren allemaal amateurkwaliteit — en kopers slaan ze over ten gunste van producten die echte taalcompetentie demonstreren.\n\nDit kwaliteitsverschil is eigenlijk een kans. Omdat zoveel verkopers meertalige werkbladen slecht produceren, is de lat om op te vallen verrassend haalbaar. Je hoeft geen moedertaalspreker te zijn in elke taal om professionele werkbladen te produceren. Wat je nodig hebt is een systematische productiemethodologie die de specifieke technische en taalkundige uitdagingen van elke doeltaal adresseert, gecombineerd met tools en processen die fouten opvangen voordat je producten kopers bereiken.\n\nDe praktische uitdagingen van meertalige werkbladproductie vallen in verschillende categorieën. Ten eerste zijn er tekenset-eisen — verschillende talen gebruiken verschillende alfabetten, diakritische tekens en speciale karakters die correct moeten worden weergegeven in je gekozen lettertypen. Ten tweede zijn er opmaakverschillen — Duitse samengestelde woorden zijn aanzienlijk langer dan hun Engelse equivalenten, wat invloed heeft op tekstvakformaten en lay-out. Ten derde zijn er taalkundige kwaliteitskwesties — directe vertalingen produceren vaak onnatuurlijke formuleringen die moedertaalsprekers onmiddellijk opmerken. En ten vierde zijn er marktplaatsuitdagingen — elke taalmarkt heeft zijn eigen zoektermen, kopersverwachtingen en vermeldingsconventies.\n\nDeze gids adresseert elk van deze uitdagingen met specifieke, uitvoerbare productie workflows. Je leert hoe je werkbladtypen selecteert die passen bij je taalvaardigheden, een georganiseerde meertalige werkruimte inricht, de tekensets en lettertypen verwerkt die elke taal vereist, content aanpast zodat het natuurlijk leest in plaats van als een vertaling, kwaliteitsborgingsprocessen implementeert die fouten opvangen voor publicatie, tools inzet die meertalige content automatisch genereren, efficiënte batchproductiesystemen opbouwt en marktplaatsvermeldingen creëert die resoneren met kopers in elke taalmarkt. Het doel is een herhaalbaar productiesysteem waarmee je consistent professionele werkbladen in elke doeltaal kunt maken. Met de werkbladgeneratoren van LessonCraftStudio kun je dit proces aanzienlijk versnellen — de gratis proefversie met watermerk laat je direct experimenteren met 11 talen voordat je investeert in een commerciële licentie.',
@@ -152,15 +152,8 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'multilingual-printable-business', anchorText: 'meertalig printable bedrijf opbouwen' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoeker puzzels maken in meerdere talen' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'optel werkbladen genereren' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'kleurplaten maken voor internationale markten' },
-    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'kruiswoordpuzzels in meerdere talen' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'niche selectie voor printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'prijsstrategie voor educatieve printables' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'kruiswoordpuzzels genereren in 11 talen' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'woordzoekers maken in meerdere talen' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
     { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'werkbladen in meerdere talen maken' },
   ],

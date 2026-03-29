@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'activiteitenboeken verkopen op amazon',
+    primaryKeyword: 'activiteitenboeken Amazon KDP business',
     secondaryKeywords: [
-      'amazon kdp activiteitenboeken',
-      'puzzelboeken verkopen op kdp',
-      'kdp activiteitenboek bedrijf',
-      'activiteitenboeken publiceren amazon',
+      'Amazon KDP activiteitenboeken publiceren',
+      'puzzelboeken verkopen op KDP Nederland',
+      'KDP activiteitenboek bedrijf starten',
+      'activiteitenboeken publiceren Amazon en Brave New Books',
     ],
     lsiKeywords: [
-      'kindle direct publishing activiteitenboeken',
-      'kdp binnenwerk opmaak werkbladen',
-      'kdp omslagontwerp activiteitenboeken',
-      'amazon backend zoekwoorden puzzelboeken',
-      'kdp royalty calculator activiteitenboeken',
-      'print on demand activiteitenboek bedrijf',
+      'Kindle Direct Publishing activiteitenboeken',
+      'KDP binnenwerk opmaak werkbladen',
+      'KDP omslagontwerp activiteitenboeken',
+      'Amazon backend zoekwoorden puzzelboeken',
+      'KDP royalty calculator activiteitenboeken',
+      'print on demand activiteitenboek bedrijf Nederland',
     ],
-    titleTag: 'Activiteitenboeken Verkopen op Amazon KDP — Gids',
-    metaDescription: 'Hoe activiteitenboeken verkopen op Amazon KDP. Behandelt binnenwerk opmaak, omslagontwerp, zoekwoordonderzoek, prijsstrategie en je KDP boekbedrijf opschalen.',
+    titleTag: 'Activiteitenboeken Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Hoe u activiteitenboeken publiceert op Amazon KDP. Binnenwerk opmaak, omslagontwerp, zoekwoordonderzoek, prijsstrategie en uw KDP boekbedrijf opschalen.',
   },
 
   hero: {
-    title: 'Amazon KDP Activiteitenboek Bedrijfsgids',
-    tagline: 'Publiceer en verkoop professionele activiteitenboeken op Amazon met print-on-demand — geen voorraad, geen voorafgaande kosten',
-    description: 'Amazon KDP geeft je toegang tot de grootste boekenmarktplaats ter wereld met nul voorraadrisico. Deze gids behandelt elke stap van het bouwen van een winstgevend activiteitenboek bedrijf op KDP — van binnenwerk opmaak en omslagontwerp tot zoekwoordonderzoek, prijsstrategie, categorieselectie en het opschalen van je catalogus. Of je nu je eerste puzzelboek publiceert of een bestaand printable bedrijf uitbreidt naar Amazon, dit is je KDP-specifieke draaiboek.',
+    title: 'Activiteitenboeken publiceren op Amazon KDP',
+    tagline: 'Print-on-demand publiceren zonder voorraad of voorafgaande kosten',
+    description: 'Amazon KDP geeft u toegang tot de grootste boekenmarktplaats ter wereld met nul voorraadrisico. Deze gids behandelt elke stap van het bouwen van een winstgevend activiteitenboek bedrijf op KDP: van binnenwerk opmaak en omslagontwerp tot zoekwoordonderzoek, prijsstrategie, categorieselectie en het opschalen van uw catalogus. Nederlandse uitgevers kunnen ook publiceren via Brave New Books voor de Nederlandstalige markt, en met werkblad generators die 11 talen ondersteunen publiceert u op Amazon.de, Amazon.fr en Amazon.es met minimale extra inspanning.',
   },
 
   introduction: 'Amazon verkoopt meer boeken dan enige andere retailer ter wereld, en activiteitenboeken zijn een van de snelst groeiende categorieën in de kinderen- en puzzelboek secties. In tegenstelling tot Etsy waar je individuele digitale downloads verkoopt, drukt Amazon KDP fysieke boeken on-demand en verzendt ze direct naar klanten. Je uploadt een PDF-binnenwerk en een omslagbestand, stelt je prijs in, en Amazon regelt het drukken, verzenden, klantenservice en retouren.\n\nDit print-on-demand model elimineert de twee grootste barrières voor traditioneel uitgeven: voorafgaande drukkosten en voorraadrisico. Je betaalt nooit om een enkel exemplaar te drukken. Amazon drukt elk boek pas nadat een klant het bestelt. Je winst is het verschil tussen je catalogusprijs en Amazon\'s drukkosten, vermenigvuldigd met je gekozen royaltypercentage.\n\nDeze gids is van begin tot eind KDP-specifiek. Algemene printable bedrijfsstrategie verschijnt in onze Complete Gids voor het Starten van een Printable Bedrijf, en Etsy-specifieke tactieken worden behandeld in de Etsy Printable Bedrijf Masterclass. Hier is elke aanbeveling afgestemd op Amazon\'s platform, algoritme en kopersgedrag.\n\nEén belangrijke opmerking: elke werkblad generator die in deze gids wordt genoemd biedt een gratis proefversie met watermerk. Je kunt voorbeeldpagina\'s voor activiteitenboeken maken, opmaak testen en kwaliteit evalueren voordat je een commerciële licentie aanschaft voor publicatie op KDP.',
@@ -207,17 +207,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Sudoku Puzzel Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'kinder-sudoku-maker', anchorText: 'Probeer de Sudoku Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Probeer de Rekenpuzzel Maker' },
+    { pageType: 'start', slug: 'meertalige-werkbladen-verkopen', anchorText: 'Meertalige werkbladen maken en verkopen' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels en logica pakket bekijken' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjes sudoku generator bekijken' },
   ],
 
   visuals: {

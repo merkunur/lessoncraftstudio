@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prijzen educatieve printables',
+    primaryKeyword: 'prijsstrategie educatieve werkbladen',
     secondaryKeywords: [
       'werkbladen prijzen bepalen',
       'Etsy printable prijsstrategie',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'concurrentieanalyse prijspunten digitale educatieve producten',
       'internationale prijsstelling valuta A4 Letter formaat werkbladen',
     ],
-    titleTag: 'Prijzen Bepalen voor Educatieve Printables — Gids',
-    metaDescription: 'Leer hoe je educatieve printables winstgevend prijst met kostenberekeningen, bundelstrategieën, psychologische prijstechnieken en seizoensaanpassingen.',
+    titleTag: 'Prijsstrategie educatieve werkbladen | LessonCraftStudio',
+    metaDescription: 'Ontdek de juiste prijsstrategie voor educatieve werkbladen op Etsy en Bol.com. Kostenberekening, bundelstrategieën en psychologische prijstechnieken.',
   },
 
   hero: {
-    title: 'Prijsstrategieën voor Educatieve Printables',
-    tagline: 'Beheers de kunst van het prijzen van educatieve printables voor maximale winst en klanttevredenheid. Van individuele werkbladen tot premium bundels — ontdek bewezen prijstechnieken die je omzet verhogen zonder klanten af te schrikken.',
+    title: 'Prijsstrategie voor educatieve werkbladen',
+    tagline: 'Beheers de kunst van het prijzen van educatieve printables voor de Nederlandse markt. Van individuele werkbladen tot premium bundels op Etsy en Bol.com.',
     description: 'Prijsstelling is de meest bepalende factor voor het succes van je printable bedrijf. Te laag prijzen en je marges verdwijnen na platformkosten. Te hoog prijzen zonder waarde te communiceren en kopers scrollen voorbij naar concurrenten. Deze gids geeft je het complete prijskader — van het berekenen van je werkelijke netto-omzet na alle marktplaatskosten, tot het opbouwen van een drielaags prijsstructuur die de gemiddelde bestelwaarde natuurlijk verhoogt, tot het prijzen van cross-categorie bundels die premiumprijzen rechtvaardigen.\n\nOf je nu je eerste werkbladpakket vermeldt op Etsy, je Amazon KDP activiteitenboek prijst, of je Gumroad winkel optimaliseert — aan het einde van deze gids heb je een datagestuurde prijsstrategie die past bij jouw niche en doelgroep. Elke functie in alle generatoren is beschikbaar in de gratis proefversie met watermerk zodat je voorbeeldproducten kunt maken, elke configuratie kunt testen en de uitvoerkwaliteit kunt evalueren voordat je een commerciële licentie koopt.',
   },
 
@@ -151,18 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkblad bundels maken die verkopen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selectie voor printable bedrijven' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'Etsy werkblad bundels maken' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'Etsy printables prijzen bepalen' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoeker puzzels maken' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten maken' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete gids printable bedrijf' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Gids commerciële licentie' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche kiezen voor uw printables-business' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Productlijn printables opbouwen' },
   ],
 
   toolsRecommended: [

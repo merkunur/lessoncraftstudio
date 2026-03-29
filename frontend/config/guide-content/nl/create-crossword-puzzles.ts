@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kruiswoordpuzzels maken',
+    primaryKeyword: 'kruiswoordpuzzels maken om online te verkopen',
     secondaryKeywords: [
-      'kruiswoordpuzzel generator voor kinderen',
-      'printbare kruiswoordpuzzel maker',
-      'kruiswoordpuzzels verkopen',
-      'kruiswoordpuzzel met beeldaanwijzingen',
+      'kruiswoordpuzzel generator met beeldaanwijzingen',
+      'printbare kruiswoordpuzzels verkopen Etsy KDP',
+      'meertalige kruiswoordpuzzels maken',
+      'kruiswoordpuzzel boeken maken voor Amazon KDP',
     ],
     lsiKeywords: [
       'kruiswoordpuzzel werkbladen met plaatjes',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Etsy kruiswoordpuzzel printables',
       'commerciële licentie puzzeltools',
     ],
-    titleTag: 'Kruiswoordpuzzels Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Leer kruiswoordpuzzels maken voor kinderen met beeldaanwijzingen. Kies thema\'s, genereer kruisende rasters, genummerde aanwijzingen en verkoop op Etsy en KDP.',
+    titleTag: 'Kruiswoordpuzzels maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Maak kruiswoordpuzzels met beeldaanwijzingen in 11 talen. Genereer kruisende rasters, genummerde aanwijzingen en verkoop op Etsy, KDP of Bol.com.',
   },
 
   hero: {
-    title: 'Hoe Kruiswoordpuzzels Maken voor Kinderen',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van thematische kruiswoordpuzzels met beeldaanwijzingen die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Kruiswoordpuzzels zijn een van de meest herkenbare en geliefde puzzelvormen ter wereld — en de markt voor kinderkruiswoordpuzzels groeit snel. verkopers gebruiken ze voor woordenschatversterking. Ouders gebruiken ze voor spellingoefening. Bijlesverkopers gebruiken ze om woordstudie als een spel te laten voelen in plaats van een saaie oefening. Deze gids begeleidt je door het volledige creatieproces met de Kruiswoordpuzzel Generator — van het kiezen tussen beeldaanwijzingen en aangepaste woordlijsten tot het configureren van de rasteropbouw, het controleren van genummerde aanwijzingen en het exporteren van printklare PDF\'s met antwoordsleutels. De generator ondersteunt 11 talen, waardoor meertalige kruiswoordproducten een realistische en onderscheidende niche vormen. Of je nu je eerste puzzelproduct maakt of uitbreidt naar kruiswoordboeken voor Amazon KDP, aan het einde van deze handleiding heb je een afgewerkte, professionele kruiswoordpuzzel klaar om te verkopen.',
+    title: 'Kruiswoordpuzzels maken en online verkopen',
+    tagline: 'Thematische kruiswoordpuzzels met beeldaanwijzingen maken in 11 talen en verkopen op Etsy, Amazon KDP of Bol.com',
+    description: 'Kruiswoordpuzzels zijn een van de meest herkenbare puzzelvormen ter wereld. Deze gids begeleidt u door het volledige creatieproces met de Kruiswoordpuzzel Generator: beeldaanwijzingen of aangepaste woordlijsten kiezen, rasteropbouw configureren en printklare PDF\'s exporteren met antwoordsleutels. De generator ondersteunt 11 talen, waardoor meertalige kruiswoordproducten een onderscheidende niche vormen.',
   },
 
   introduction: 'Kruiswoordpuzzels nemen een unieke positie in op de markt voor educatief printmateriaal. In tegenstelling tot woordzoekers waarbij kinderen zoeken naar verborgen woorden, vereisen kruiswoordpuzzels actief herinneren en letter-voor-letter spelnauwkeurigheid. Een kind dat een kruiswoordpuzzel oplost moet elke beeldaanwijzing herkennen, het juiste woord bedenken en elke letter in de juiste volgorde invullen in kruisende rastervakjes. Die combinatie van visuele herkenning, woordenschatherinnering en spellingsprecisie maakt kruiswoordpuzzels tot een van de sterkste woordenschat-opbouwtools die beschikbaar zijn in printbaar formaat.\n\nDe categorie kinderkruiswoordpuzzels profiteert ook van sterke naamsbekendheid. Volwassenen zijn opgegroeid met het oplossen van kruiswoordpuzzels in kranten en tijdschriften, waardoor ouders en verkopers het formaat instinctief herkennen en de educatieve waarde ervan vertrouwen. Die ingebouwde bekendheid betekent minder overtuigingskracht nodig in je productvermeldingen — kopers weten al wat een kruiswoordpuzzel is en waarom het werkt.\n\nWat deze generator bijzonder krachtig maakt is het beeldaanwijzingen-formaat. Traditionele kruiswoordpuzzels gebruiken tekstomschrijvingen als aanwijzingen, wat leesvaardigheid vereist die jongere kinderen mogelijk nog niet hebben. Beeldgebaseerde kruiswoordpuzzels vervangen tekstuele aanwijzingen door plaatjes — een kind ziet een plaatje van een kat en schrijft K-A-T in het raster. Dit maakt kruiswoordpuzzels toegankelijk voor kinderen vanaf de kleuterschool, wat je potentiële koperspubliek dramatisch vergroot vergeleken met kruiswoordproducten die alleen tekst gebruiken.\n\nDe Kruiswoordpuzzel Generator doet het complexe algoritmewerk voor je. Het plaatst 8 woorden in een kruisend raster waar woorden gemeenschappelijke letters delen op snijpunten, wijst genummerde posities toe aan elk woord, genereert beeldaanwijzingen die overeenkomen met rasternummers en produceert een complete antwoordsleutel. Twee creatiemodi — themagebonden beeldselectie en aangepaste woordlijst met tekstaanwijzingen — geven je flexibiliteit voor zowel visuele producten voor jonge kinderen als tekstaanwijzing-producten voor oudere gebruikers.\n\nTaalondersteuning is een belangrijk onderscheidend kenmerk. Omdat de kruiswoordantwoorden DE woorden ZIJN, verandert het wisselen van taal elk antwoord in het raster. Een Duitse kruiswoordpuzzel voor een dierenthema gebruikt volledig andere woordenschat dan een Engelse. Dit opent meertalige productlijnen die de meeste concurrenten nooit proberen.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldpuzzels maken, beide aanwijzingsmodi testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkbladpakketten Maken — Gids' },
-    { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'SEO voor Etsy Educatief Materiaal' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'image-crossword', anchorText: 'Kruiswoordpuzzel Generator — Alle Details' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Alle Details' },
-    { pageType: 'tool', slug: 'crossword', anchorText: 'Probeer de Kruiswoordpuzzel Maker' },
+    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Woordzoekers maken en verkopen' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket' },
   ],
 
   toolsRecommended: [

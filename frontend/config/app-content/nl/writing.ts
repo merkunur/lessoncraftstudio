@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schrijfoefeningen werkbladen generator',
+    primaryKeyword: 'schrijfwerkbladen generator om te verkopen op Etsy en KDP',
     secondaryKeywords: [
-      'printbare schrijfoefeningen werkbladmaker voor Etsy-verkopers',
-      'handschrift oefenwerkbladen generator voor KDP-uitgevers',
-      'schrijfoefeningen verkopen op Gumroad',
-      'schrijfoefeningen werkbladen commerciële licentie',
+      'schrijfoefeningen generator Etsy',
+      'handschriftwerkbladen voor KDP',
+      'schrijfwerkbladen commerciële licentie',
+      'schrijfactiviteiten verkopen online',
     ],
     lsiKeywords: [
       'digitale schrijfoefeningen producten online bedrijf',
       'printbare overtrek werkbladen bedrijf',
       'commercieel gebruik handschrift oefengenerator',
     ],
-    titleTag: 'Schrijfoefeningen Generator | Maak & Verkoop Printables',
+    titleTag: 'Schrijfwerkbladen generator voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak schrijfoefeningen werkbladen om te verkopen op Etsy, KDP en Gumroad. Drie oefenmodi, vijf lettertypes, pijlgeleide pennenstreek.',
+      'Maak schrijfwerkbladen met commerciële licentie voor Etsy en Amazon KDP. Drie oefenmodi, pijlgeleide pennenstreek. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Schrijfoefeningen Werkbladen Generator voor Handschrift Oefenbladen',
-    tagline: 'Drie progressieve oefenmodi met pijlgeleide pennenstreek en vervagend overtrekken — bouw schrijfvaardigheid op van volledig overtrekken naar zelfstandig schrijven op één werkblad.',
+    title: 'Schrijfwerkbladen maken en verkopen op Etsy en KDP',
+    tagline: 'Drie oefenmodi met pijlgeleide pennenstreek — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Ontwerp professionele schrijfoefeningen werkbladen met drie onderscheidende modi die een natuurlijke leervolgorde creëren: de Overtrekmodus biedt stevige letteromtrekken waar beginners overheen schrijven, Vervagend Overtrekken vermindert geleidelijk de zichtbaarheid van de letters over de rij heen om zelfvertrouwen op te bouwen, en Begeleid Kopiëren toont een vage omtrek voor bijna-zelfstandig schrijven. Kies uit vijf lettertypes — Print Standaard, Print Standaard Pijl met genummerde streekvolgordeaanwijzingen, Print Overtrek voor stippelomtrek oefeningen, Print Overtrek Pijl dat stippelomtrekken combineert met streekordepijlen, en Schoonschrift (Great Vibes) — om bij elk handschrift productcatalogus te passen. Elke rij op het werkblad is onafhankelijk instelbaar: combineer de Overtrekmodus voor nieuwe letters, Vervagend Overtrekken voor geoefende letters en Begeleid Kopiëren voor herhaling, allemaal op dezelfde pagina. Voorbereidende schrijfbewegingen (verticale lijnen, horizontale lijnen, cirkels en zigzaglijnen) voegen fijne motoriek opwarmingen toe die handen voorbereiden op lettervorming. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s: gebruik de modus Beginletter om de eerste letter van elke afbeeldingsnaam te oefenen, de modus Volledige Bestandsnaam om complete woorden te schrijven, of typ elke gewenste Eigen Tekst. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 UI-talen voor de interface. Exporteer printklare PDF\'s en JPEG\'s op ~300 DPI in Letter-, A4- of aangepast formaat. Of je nu schrijfoefeningen bundels verkoopt op Etsy.nl, handschrift werkboeken samenstelt voor Amazon KDP of gedifferentieerde schrijfcentra maakt voor Gumroad — de Schrijfoefeningen Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele schrijfwerkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De generator biedt drie progressieve oefenmodi — Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren — die een natuurlijke leervolgorde creëren van volledige ondersteuning naar zelfstandig schrijven. Vijf lettertypes inclusief pijlgeleide pennenstreek met genummerde streekvolgordeaanwijzingen maken deze werkbladen bijzonder geschikt voor aanvankelijk schrijven in groep 3 van de Nederlandse basisschool. Elke rij is onafhankelijk instelbaar: combineer modi en lettertypes op één werkblad voor een ingebouwde getrapte productlijn. Voorbereidende schrijfbewegingen — verticale lijnen, horizontale lijnen, cirkels en zigzaglijnen — vullen een aparte fijne motoriek niche op Etsy.nl. De Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema\'s biedt thematische bundelmogelijkheden per seizoen of onderwerp. Volledige Toegang ontgrendelt alle thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op circa 300 DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten voor Etsy, Amazon KDP, Bol.com en Brave New Books.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Schrijfoefeningen Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u schrijfwerkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Schrijfoefeningen Werkbladen Generator',
+    title: 'Functies van de schrijfwerkbladen generator voor verkopers',
     features: [
       {
         title: 'Drie Progressieve Oefenmodi: Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Schrijfoefeningen Werkbladen Online',
+    title: 'Schrijfwerkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Schrijfoefeningen bundels op Etsy.nl',
@@ -209,54 +209,14 @@ const content: AppContent = {
       anchorText: 'Alfabettrein Werkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'voorzetsels-werkbladen',
-      anchorText: 'Voorzetsels Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordraadsel-werkbladen',
-      anchorText: 'Woordraadsel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordkruisel-werkbladen',
-      anchorText: 'Woordkruisel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-werkbladen',
-      anchorText: 'Cryptogram Werkbladen Generator',
+      pageType: 'guide',
+      slug: 'schrijfoefeningen-maken',
+      anchorText: 'Schrijfwerkbladen maken die verkopen',
     },
     {
       pageType: 'bundle',
       slug: 'lezen-taal-pakket',
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
-      pageType: 'idea',
-      slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
-    },
-    {
-      pageType: 'guide',
-      slug: 'schrijfoefeningen-maken',
-      anchorText: 'Schrijfoefeningen maken',
     },
   ],
 

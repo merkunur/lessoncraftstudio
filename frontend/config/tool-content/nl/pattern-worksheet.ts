@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'patronenherkenning werkblad generator',
+    primaryKeyword: 'gratis patronen herkennen werkbladen',
     secondaryKeywords: [
-      'patronen werkblad maker voor verkopers',
-      'patroonvoltooiing werkbladen maken om te verkopen',
-      'printbare patroonreeks werkbladen commercieel gebruik',
-      'rastergebaseerde patronen werkblad generator voor KDP',
+      'patronen werkbladen online maken gratis',
+      'patroonvoltooiing werkbladen generator',
+      'patronenherkenning werkblad maker negen typen',
+      'rastergebaseerde patronen werkblad gratis proberen',
     ],
     lsiKeywords: [
-      'visuele patronenherkenning printables voor Etsy',
+      'visuele patronenherkenning werkbladen online',
       'nul-tekst patroonvoltooiing werkblad tool',
-      'AB ABC ABCD patroonreeks werkblad maker',
+      'AB ABC ABCD patroonreeks werkblad gratis',
     ],
-    titleTag: 'Patronenherkenning Werkblad Maker | Maak & Verkoop',
-    metaDescription: 'Genereer patronen werkbladen met negen typen, twee vraagmodi, per-oefening configuratie, automatische antwoordbladen en 104 thema\'s.',
+    titleTag: 'Patronen herkennen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak patronen werkbladen met negen patroontypen, twee vraagmodi en per-oefening configuratie. Probeer gratis met watermerk, geen registratie nodig.',
   },
 
   hero: {
-    title: 'Patronen Werkblad Maker',
-    tagline: 'Genereer rastergebaseerde patronenherkenning werkbladen met negen patroontypen, twee vraagmodi, per-oefening onafhankelijke configuratie en volledig visuele nul-tekst uitvoer die wereldwijd verkoopt zonder vertaling',
-    description: 'Maak professionele patroonvoltooiing werkbladen waarbij gebruikers herhalende reeksen identificeren en het ontbrekende item invullen of het juiste antwoord kiezen uit meerkeuze-opties. Negen verschillende patroontypen dekken het breedste scala aan reekscomplexiteit beschikbaar: AB wisselt twee items af, AAB en ABB introduceren asymmetrische groeperingen, ABC roteert drie verschillende items, AABB koppelt twee van elk, ABBC en AABC voegen drie-afbeelding asymmetrische patronen toe, ABCC verlengt met verdubbelde eindes, en ABCD roteert vier verschillende items voor maximale uitdaging. Twee vraagmodi creëren fundamenteel verschillende oefeningen vanuit elk patroontype: Leeg Vak vervangt één item door een lege ruimte voor open redeneeroefening, terwijl Kies uit Opties de lege plek presenteert naast drie antwoordkeuzes met één correct antwoord en twee afleidingsantwoorden. Configureer 1–8 oefeningen per pagina waarbij elke oefening onafhankelijk is ingesteld voor patroontype, vraagmodus en thema — één pagina kan een AB-invuloefening combineren met een ABCD-meerkeuzevraag. Schakel Willekeurig Startpunt in om patronen midden in de cyclus te laten beginnen en Willekeurige Lege Positie om het ontbrekende item overal in de reeks te plaatsen. De standaard rastergebaseerde rij-en-kolom indeling rangschikt oefeningen overzichtelijk voor toetsklare uitvoer. Elk werkblad is volledig visueel met uitsluitend afbeeldingen en nul tekst op de uitvoer — er verschijnen geen woorden op de gegenereerde pagina, waardoor je producten universeel verkoopbaar zijn zonder vertaling. Eén vermelding bedient elke markt wereldwijd. Kies uit meer dan 3.100 illustraties verdeeld over 104 thematische collecties of upload je eigen afbeeldingen. Een apart antwoordblad-tabblad toont alle lege posities gevuld met de juiste patroonitems. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis patronen herkennen werkbladen online',
+    tagline: 'Genereer rastergebaseerde patronenherkenning werkbladen met negen patroontypen, twee vraagmodi en per-oefening onafhankelijke configuratie',
+    description: 'Probeer onze patronen werkbladen generator gratis en maak direct patroonvoltooiing werkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: negen patroontypen van AB tot ABCD, twee vraagmodi (Leeg Vak en Kies uit Opties), en per-oefening onafhankelijke configuratie voor 1 tot 8 oefeningen per pagina. Schakel Willekeurig Startpunt en Willekeurige Lege Positie in voor extra variatie. Kies uit meer dan 3.100 illustraties over 104 thema\'s of upload eigen afbeeldingen. Elk werkblad is volledig visueel zonder tekst op de uitvoer, inclusief automatisch gegenereerd antwoordblad. Exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die patronen willen oefenen, leerkrachten die gedifferentieerde werkbladen nodig hebben, en iedereen die professionele patroonactiviteiten wil genereren.',
   },
 
   tutorial: {
-    title: 'Patronenherkenning Werkbladen Maken in 8 Stappen',
+    title: 'Patronen herkennen werkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de Patronen Werkblad Maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Patronen Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Maker' },
     { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
     { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },

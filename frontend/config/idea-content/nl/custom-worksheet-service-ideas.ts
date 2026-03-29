@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Werkblad Service op Maat Verkopen — Nichegids',
-    metaDescription: 'Werkblad service op maat businessideeën voor Etsy en freelance verkopers. Bied op maat gemaakte educatieve printables aan met premium per-opdracht prijzen.',
+    titleTag: 'Werkbladen-op-maat — Business | LessonCraftStudio',
+    metaDescription: 'Werkbladen-op-maat service ideeën voor freelance verkopers. Bied gepersonaliseerde werkbladen aan met premium prijzen van 25 tot 75 euro per set.',
 
-    primaryKeyword: 'werkblad service op maat ideeën',
+    primaryKeyword: 'werkbladen-op-maat service ideeën business',
     secondaryKeywords: [
-      'op maat werkblad business ideeën',
-      'gepersonaliseerde printable service',
-      'op bestelling werkblad business',
-      'op maat werkbladen verkopen online',
+      'op maat werkbladen verkopen Etsy',
+      'gepersonaliseerde printable service business',
+      'werkbladen op bestelling leerkrachten',
+      'maatwerk werkbladen bijlescentra',
     ],
     lsiKeywords: [
-      'gepersonaliseerde educatieve printables',
-      'on-demand werkblad creatie',
-      'freelance printable ontwerp service',
+      'passend onderwijs differentiatie materiaal',
+      'terugkerende klantrelaties printable service',
+      'generator tools productietijd verkorten',
     ],
   },
   hero: {
-    title: 'Werkblad Service op Maat Businessideeën voor Verkopers',
-    description: 'Werkblad services op maat vertegenwoordigen een premium businessmodel waarin verkopers gepersonaliseerde, op bestelling gemaakte werkbladcreatiediensten aanbieden en klanten specifieke thema\'s, vakgebieden, gebruikernamen, schoolbranding of productgerichte content aanvragen terwijl de verkoper op maat werkbladen produceert met generator tools om elke bestelling met precisie en professionele kwaliteit te vervullen. Dit servicemodel brengt premium per-opdracht prijzen op omdat klanten betalen voor personalisatie en specificiteit in plaats van het kopen van generieke kant-en-klare producten uit drukke marktplaatscategorieën waar duizenden vergelijkbare vermeldingen concurreren op prijs alleen. De servicebenadering bouwt terugkerende klantrelaties op omdat verkopers, bijlescentra en scholen herhaaldelijk terugkeren voor doorlopende behoefte aan op maat content gedurende elk academisch trimester, waardoor voorspelbare omzetstromen ontstaan die groeien naarmate tevreden klanten hun bestelpatronen uitbreiden en collega\'s doorverwijzen. Generator tools verminderen de productietijd voor op maat bestellingen drastisch omdat verkopers gevestigde werkbladcreatieprocessen gebruiken om snel klantspecifiek materiaal te produceren in plaats van elke pagina helemaal opnieuw te ontwerpen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Werkbladen-op-maat: premium servicemodel',
+    description: 'Een werkbladen-op-maat service levert de hoogste marges in de printable-markt: vijfentwintig tot vijfenzeventig euro per set, drie tot vijf keer meer dan kant-en-klare producten. Leerkrachten, bijlescentra en scholen hebben voortdurend materiaal nodig dat precies aansluit bij hun lesplanning, leerlingenniveaus en themaprojecten — materiaal dat standaard werkbladen niet bieden. Met onze generators produceert u op maat werkbladen in vijf tot vijftien minuten per pagina in plaats van dertig tot zestig minuten bij handmatig ontwerp. Het Nederlandse passend onderwijsbeleid vergroot de vraag: leerkrachten moeten differentiëren op meerdere niveaus maar de standaard methode biedt onvoldoende variatie. Tevreden klanten worden bijzonder loyaal en keren semester na semester terug. Maandelijkse servicecontracten met scholen genereren honderd tot vijfhonderd euro aan terugkerende omzet. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `Het werkblad-service-op-maat model adresseert een fundamenteel gat in de educatieve printable-marktplaats waar verkopers, bijlescentra en scholen materiaal nodig hebben dat specifiek is afgestemd op hun unieke vereisten maar niet precies vinden wat ze nodig hebben onder generieke kant-en-klare producten, waardoor consistente vraag ontstaat naar serviceverleners die de kloof overbruggen tussen massaproductie printables en de gepersonaliseerde materialen die ondernemers daadwerkelijk willen voor hun specifieke productlijnen, curricula en gebruikerspopulaties. verkopers hebben regelmatig werkbladen nodig die zijn afgestemd op hun specifieke productcatalogusplanning, met vocabulaire uit hun huidige lesunits, gekalibreerd op de specifieke vaardigheidsniveaus van hun gebruikers, en geformatteerd om overeen te komen met hun klasroutines en beoordelingsstructuren op manieren die geen kant-en-klaar product kan anticiperen of accommoderen.
 
@@ -145,54 +145,19 @@ Het jaarronde karakter van de vraag naar op maat werkblad services is bijzonder 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoekers op maat voor leerkrachten',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen op maat per lesniveau',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'price-etsy-printables',
-      anchorText: 'Hoe je Etsy printables juist prijst',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'bulk-licensing-printable-ideas',
-      anchorText: 'Bulklicenties printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'special-education-printable-ideas',
-      anchorText: 'speciale producten printable businessideeën',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket als servicebasis',
     },
   ],
 

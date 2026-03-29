@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rasterpuzzel werkblad generator',
+    primaryKeyword: 'raster-koppelpuzzels voor printables-business',
     secondaryKeywords: [
-      'printbare rasterpuzzel maker voor Etsy verkopers',
-      'tegelpuzzel werkbladen generator voor KDP uitgevers',
-      'rasterpuzzel maker commerciële licentie',
-      'rasterpuzzels verkopen op Gumroad',
+      'rastertekenen werkbladen generator Etsy',
+      'grid-match puzzels voor KDP',
+      'rasteractiviteiten commerciële licentie',
+      'rasterpuzzels verkopen online',
     ],
     lsiKeywords: [
       'digitale tegelpuzzel printables online bedrijf',
       'commercieel gebruik rasterpuzzel werkblad generator',
       'printbare beeldpuzzel business tools',
     ],
-    titleTag: 'Rasterpuzzel Werkblad Generator | Maak & Verkoop Online',
+    titleTag: 'Raster-koppelpuzzels voor verkopers | LessonCraftStudio',
     metaDescription:
-      'Maak rasterpuzzels om te verkopen op Etsy, KDP & Gumroad. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad, 104 thema\'s.',
+      'Maak raster-koppelpuzzels voor uw Etsy-shop of KDP-werkboek. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad en 104 thema\'s.',
   },
 
   hero: {
-    title: 'Rasterpuzzel Werkblad Generator voor Tegelpuzzel-Activiteiten',
+    title: 'Raster-koppelpuzzels maken en verkopen als printables',
     tagline:
-      'Maak van elke afbeelding een rasterpuzzel — verdeel het in tegels, toon instelbare aanwijzingscellen, schud de overige tegels in een genummerd palet, en genereer automatisch een antwoordblad met genummerde cirkeloverlays in 104 thematische beeldcollecties.',
+      'Gratis proefversie met watermerk — verdeel afbeeldingen in tegels, stel aanwijzingscellen in en genereer automatisch antwoordbladen met genummerde cirkeloverlays.',
     description:
-      'Maak professionele rasterpuzzels waarbij één afbeelding wordt verdeeld in een raster van tegels en gebruikers genummerde tegels terugkoppelen naar hun juiste posities. Configureer het raster van 2×2 tot 4×4 (2–4 rijen × 2–4 kolommen) en stel 1–5 aanwijzingscellen in die zichtbaar blijven als hints — minder aanwijzingen betekent moeilijkere puzzels. De app schudt de overige tegels met Fisher-Yates randomisatie en toont ze in een genummerd palet naast of onder het raster. gebruikers bestuderen de zichtbare aanwijzingscellen, bekijken de genummerde tegels en schrijven welk nummer in elke lege cel hoort. Het dubbele-canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad — het antwoordblad toont de volledige afbeelding met genummerde cirkels over elke cel die de correcte tegelplaatsing aangeeft, zodat je nooit handmatig antwoordbladen hoeft te maken. De Rasterpuzzel Generator is NIET taalgevoelig: de puzzeluitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor de app-interface. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu tegelpuzzel-bundels verkoopt op Etsy.nl, visuele waarnemingswerkboeken samenstelt voor Amazon KDP, of snelle puzzelactiviteiten maakt voor Gumroad — deze generator levert productieklare rasterpuzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Bouw een winstgevende productlijn op met raster-koppelpuzzels die kinderen uitdagen om patronen op een raster na te tekenen of tegels op de juiste positie terug te plaatsen. De generator verdeelt elke afbeelding in een instelbaar raster van 2×2 tot 4×4 en schudt de tegels met Fisher-Yates randomisatie, zodat u bij elke generatie een unieke puzzel krijgt. Stel 1 tot 5 aanwijzingscellen in als hints — minder hints betekent een moeilijkere puzzel, waardoor u gedifferentieerde bundels kunt samenstellen in meerdere moeilijkheidsgraden. Het dubbele-canvassysteem maakt tegelijkertijd een werkblad en een antwoordblad aan met genummerde cirkeloverlays, zodat u nooit handmatig antwoorden hoeft te maken. Kies uit meer dan 3100 illustraties in 104 thema\'s of upload uw eigen afbeeldingen voor merkgebonden puzzels. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Verkoop uw puzzels als digitale downloads op Etsy, als activiteitenboeken op Amazon KDP of via Bol.com — de commerciële licentie geeft u volledige verkooprechten zonder royalty\'s per verkoop.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Rasterpuzzels in 5 Stappen',
+    title: 'Hoe maakt u raster-koppelpuzzels in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Rasterpuzzel Generator',
+    title: 'Belangrijkste functies van de raster-koppelpuzzel generator',
     features: [
       {
         title: 'Raster van Één Afbeelding met Instelbare Rijen en Kolommen (2–4 × 2–4)',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Rasterpuzzels Online Verkoopt',
+    title: 'Hoe verkoopt u raster-koppelpuzzels online',
     cases: [
       {
         title: 'Thematische Rasterpuzzelbundels op Etsy.nl',
@@ -211,53 +211,13 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'schaduw-matching-werkbladen',
-      anchorText: 'Schaduw Matching Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'plaatjes-bingo-werkbladen',
-      anchorText: 'Plaatjes Bingo Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sorteer-werkbladen',
-      anchorText: 'Sorteer Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'ontbrekende-puzzelstukjes-werkbladen',
-      anchorText: 'Ontbrekende Stukjes Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'zoek-voorwerpen-werkbladen',
-      anchorText: 'Zoek de Voorwerpen Werkblad Generator',
+      slug: 'raster-puzzel-werkbladen',
+      anchorText: 'Rasterpuzzel Werkblad Generator',
     },
     {
       pageType: 'bundle',
       slug: 'matchen-sorteren-pakket',
-      anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-Apps in Één Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'peuterspeelzaal-printable-ideen',
-      anchorText: 'Peuteronderwijs printable ideeën voor vroege ontwikkeling',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kleuterschool-printable-ideen',
-      anchorText: 'Kleuterschool printable ideeën voor jonge gebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'blauwdruk-printable-bedrijf',
-      anchorText: 'Blauwdruk voor je printable bedrijf',
-    },
-    {
-      pageType: 'guide',
-      slug: 'koppel-werkbladen-maken',
-      anchorText: 'Koppel werkbladen maken',
+      anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-Apps in Één Bundel',
     },
   ],
 

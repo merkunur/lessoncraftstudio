@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'cryptogram puzzels maken',
+    primaryKeyword: 'cryptogrammen maken om te verkopen',
     secondaryKeywords: [
       'cryptogram puzzels maken om te verkopen',
       'plaatjescijfer puzzelgenerator commercieel gebruik',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'Amazon KDP plaatjescijfer puzzelboeken',
       'commerciële licentie cryptogram werkblad tool',
     ],
-    titleTag: 'Cryptogram Puzzels Maken — Gids',
-    metaDescription: 'Maak cryptogram puzzels met plaatjescijfer codering, instelbare moeilijkheid, automatische toewijzing en taalgevoelige alfabetten. Complete gids Etsy en KDP.',
+    titleTag: 'Cryptogrammen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer cryptogrammen maken en verkopen op Etsy, Bol.com en KDP. Plaatjescijfer codering, instelbare moeilijkheid en taalgevoelige alfabetten in 11 talen.',
   },
 
   hero: {
-    title: 'Hoe Cryptogram Puzzels Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van plaatjescijfer puzzels waarbij elke alfabetletter gekoppeld is aan een unieke afbeelding en gebruikers hele geheime zinnen ontcijferen door patroonherkenning, met een Letters Onthullen schuifregelaar (0–10) als primaire moeilijkheidsregeling, Automatisch Toewijzen voor batchproductie met één klik en Handmatig Toewijzen voor nauwkeurige selectie, taalgevoelige alfabetten die taalspecifieke tekens toevoegen zoals Duits ä/ö/ü/ß en Frans é/è/ç/à, Kleur- versus Z/W-filter voor dubbele productcreatie, letterlegenda antwoordsleutels, en 400+ DPI exports die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
+    title: 'Cryptogrammen maken en verkopen als printable',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopklare plaatjescijfer puzzels met instelbare moeilijkheid, taalgevoelige alfabetten en automatische letterlegenda antwoordsleutels.',
     description: 'De Cryptogram Maker genereert plaatjescijfer puzzels op basis van een uniek mechanisme: elke alfabetletter wordt gekoppeld aan een unieke afbeelding, en je geheime zin wordt weergegeven als een reeks afbeeldingen die gebruikers moeten decoderen naar leesbare tekst. Anders dan woordzoekers of woordscrambles die met individuele woorden werken, coderen cryptogram puzzels hele zinnen en frasen — gebruikers kraken de code door af te leiden welke afbeelding welke letter voorstelt, waarbij ze contextuele aanwijzingen uit veelvoorkomende woorden zoals "de," "en," en "is" gebruiken om het ontcijferen te versnellen. Deze zinscodering creëert oprecht deductie-enthousiasme doordat elke ontcijferde letter meer van het geheime bericht onthult, waardoor cryptogrammen een van de meest boeiende geletterdheidsformaten zijn.\n\nDe Letters Onthullen schuifregelaar (0–10) is de primaire moeilijkheidsregeling en de natuurlijke getrapte productpakketten-as voor gelaagde producten. Zet hem op nul voor een pure codebreekuitdaging zonder startinformatie. Zet hem op vijf voor een gebalanceerde uitdaging waarbij ongeveer de helft van de code vooraf is ontcijferd. Zet hem op tien voor zware ondersteuning waarbij veel letter-naar-afbeelding koppelingen vooraf zijn opgelost als hints. Deze enkele regelaar creëert een vloeiende moeilijkheidsgradatie die complete productlijnen per niveau mogelijk maakt.\n\nAutomatisch Toewijzen haalt willekeurige afbeeldingen uit een van de 104 thematische collecties (3.100+ illustraties) om het hele cijfer met één klik te vullen — de snelste weg naar batchproductie. Handmatig Toewijzen laat je zelf kiezen welke specifieke afbeelding welke specifieke letter vertegenwoordigt met een volledig visueel overzicht van alle huidige koppelingen. Je kunt beide benaderingen combineren: automatisch toewijzen voor het grootste deel, daarna handmatig specifieke letters verwisselen voor afbeeldingen die beter bij je thema passen. Upload eigen afbeeldingen voor volledige creatieve controle.\n\nTaalgevoeligheid is ingebouwd in het cijfer zelf. Wissel van taal en zowel de geheime zinstekst als het alfabet veranderen. Duitse cryptogrammen coderen Duitse zinnen met ä, ö, ü, ß in het alfabet. Franse cryptogrammen gebruiken é, è, ç, à. Elke taalversie is een daadwerkelijk ander cijferproduct met andere woorden, andere letterkoppelingen en een andere oplosservaring. Eén ontwerpsessie produceert 11 verschillende producten in alle ondersteunde talen.\n\nHet Kleur- versus Z/W-filter laat je twee productvarianten maken van elk ontwerp: volledig gekleurde illustraties voor levendige digitale downloads en Etsy-vermeldingen, en zwart-wit lijntekeningen voor inkvriendelijk printen online en KDP-puzzelboekinterieurs. De antwoordsleutel bevat een complete letterlegenda die elke alfabetletter toont gekoppeld aan de toegewezen afbeelding in alfabetische volgorde, plus de volledig ontcijferde zin als definitieve referentie.\n\nExporteer printklare PDF\'s en JPEG\'s op 400+ DPI met een 6x rendering-vermenigvuldiger. Kies uit 5 lettertypefamilies, schakel grijswaarden in voor inkvriendelijke uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren met uitlijntools, vergrendel/ontgrendelbesturing en onbeperkt ongedaan maken/opnieuw doen. Elke functie in deze gids is beschikbaar in de gratis proefversie met watermerk zodat je de tool volledig kunt evalueren voordat je een commerciële licentie aanschaft.',
   },
 
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Hoe Woordzoek Werkbladen Maken' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Werkblad Generator — Alle Details' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Probeer de Cryptogram Maker' },
+    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Generator bekijken' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekers maken met afbeeldingen' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket bekijken' },
   ],
 
   toolsRecommended: [

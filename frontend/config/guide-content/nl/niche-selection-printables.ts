@@ -2,15 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'niche selectie printable bedrijf',
+    primaryKeyword: 'niche kiezen voor printables-business 2026',
     secondaryKeywords: ['printable niche onderzoek', 'winstgevende printable niches', 'niche kiezen printables', 'werkblad niche strategie'],
     lsiKeywords: ['doelgroep analyse printables', 'marktonderzoek educatieve producten', 'concurrentie analyse Etsy printables', 'seizoensgebonden printable niches', 'evergreen werkblad categorieën', 'niche validatie digitale producten'],
-    titleTag: 'Niche Selectie voor Printable Bedrijven — Gids',
-    metaDescription: 'Ontdek hoe je de juiste niche kiest voor je printable bedrijf. Leer marktonderzoek, concurrentie-analyse en validatietechnieken om winstgevende printable.',
+    titleTag: 'Niche kiezen voor printables (2026) | LessonCraftStudio',
+    metaDescription: 'Kies de juiste niche voor uw printables-business in 2026. Marktonderzoek, concurrentie-analyse en validatietechnieken voor de Nederlandse en Vlaamse markt.',
   },
   hero: {
-    title: 'Niche Selectie Gids voor Printable Bedrijven',
-    tagline: 'De juiste niche kiezen is het verschil tussen een printable bedrijf dat groeit en een dat stagneert. Leer hoe je systematisch de meest winstgevende niches identificeert en valideert.',
+    title: 'Niche kiezen voor uw printables-business (2026)',
+    tagline: 'Leer hoe u systematisch de meest winstgevende niches identificeert en valideert voor Etsy, Bol.com en de Nederlandstalige markt.',
     description: 'Het starten van een printable bedrijf begint niet bij het ontwerpen van producten of het opzetten van een winkel. Het begint bij het kiezen van de juiste niche. De niche die je kiest bepaalt welke producten je maakt, wie je klanten zijn, hoe je je producten positioneert en uiteindelijk hoeveel je verdient. Veel beginnende printable verkopers maken de fout om meteen te beginnen met het maken van willekeurige werkbladen of kleurplaten zonder na te denken over hun doelmarkt. Ze maken een beetje van alles en hopen dat iets aanslaat. Dit leidt vrijwel altijd tot teleurstelling. De succesvolle printable ondernemers daarentegen beginnen met grondig niche-onderzoek. Ze analyseren de marktvraag, bestuderen de concurrentie, berekenen de potentiële winstgevendheid en valideren hun niche voordat ze ook maar één product maken. Deze gids leert je precies hoe je dat doet. Of je nu net begint of je bestaande printable bedrijf wilt herpositioneren, je vindt hier een stap-voor-stap aanpak om de perfecte niche te selecteren. We behandelen alles van het identificeren van niche-mogelijkheden tot het analyseren van concurrentie, van het evalueren van winstgevendheid tot het plannen van uitbreiding. Met tools zoals de Woordzoeker Generator, Kleurplaat Generator en andere werkblad generators kun je snel prototypes maken om je niche te testen. Je kunt deze tools uitproberen als gratis proefversie met watermerk om te zien welke niche producten het meeste potentieel hebben voordat je investeert in een commerciële licentie.',
   },
   introduction: `Het kiezen van een niche voor je printable bedrijf is waarschijnlijk de belangrijkste beslissing die je neemt als ondernemer in deze branche. Een goed gekozen niche geeft je focus, helpt je om expertise op te bouwen, maakt je marketing effectiever en zorgt ervoor dat je producten de juiste kopers bereiken. Een slecht gekozen niche daarentegen kan maanden van verspilde inspanning betekenen.
@@ -342,18 +342,9 @@ De belangrijkste les: ga niet breed, ga diep. Een micro-niche met honderd produc
     { slug: 'complete-guide-printable-business', title: 'Complete Gids voor een Printable Bedrijf Starten', description: 'Bekijk het volledige stappenplan voor het opzetten van een succesvol printable bedrijf, van niche selectie tot schaalbare groei.' },
   ],
   internalLinks: [
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'Winstgevende printable niches onderzoeken' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkblad bundels maken die verkopen' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Een printable productlijn maken' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor educatieve printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'Kleurplaten maken en verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoeker puzzels maken met afbeeldingen' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optellen werkbladen maken' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete gids voor een printable bedrijf starten' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Gids commerciële licentie' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Productlijn printables opbouwen' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategie voor educatieve werkbladen' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Printables-business laten groeien' },
   ],
   toolsRecommended: [
     { appId: 'wordsearch', title: 'Woordzoeker Werkblad Generator', description: 'Maak thematische woordzoeker puzzels voor elke niche. Kies uit meer dan 100 thema\'s met afbeeldingen en pas het moeilijkheidsniveau aan voor je doelgroep.' },

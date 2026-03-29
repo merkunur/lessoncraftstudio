@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Thanksgiving Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende Thanksgiving printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Oogstthema productconcepten en seizoenstips voor verkopers.',
+    titleTag: 'Printables dankbaarheid verkopen | LessonCraftStudio',
+    metaDescription: 'Verkoop printables rond dankbaarheid en Oogstfeest. Oogstthema werkbladen, herfstactiviteiten en dankbaarheidsproducten voor uw printable business.',
 
-    primaryKeyword: 'thanksgiving printable ideeën',
+    primaryKeyword: 'printables dankbaarheid thema verkopen',
     secondaryKeywords: [
-      'Thanksgiving werkbladen verkopen',
-      'Thanksgiving printable business ideeën',
-      'Thanksgiving activiteiten voor verkopers',
-      'Thanksgiving printables verkopen op Etsy',
+      'oogstfeest werkbladen verkopen Etsy',
+      'herfst dankbaarheid printable business',
+      'dankbaarheidsthema activiteiten verkopen',
+      'oogst printables Gumroad KDP',
     ],
     lsiKeywords: [
-      'oogst en dankbaarheid educatieve werkbladen',
-      'november klasactiviteiten',
-      'kalkoen en herfstthema printables',
+      'herfstbladeren pompoen educatieve werkbladen',
+      'Oogstfeest seizoensactiviteiten',
+      'dankbaarheid thema printbare producten maken',
     ],
   },
   hero: {
-    title: 'Thanksgiving Printable Businessideeën voor Verkopers',
-    description: 'Thanksgiving opent een gefocust en zeer winstgevend verkoopvenster voor printable-ondernemers, met opbouwende vraag in oktober die piekt in de eerste drie weken van november wanneer verkopers oogstthema klasactiviteiten voorbereiden en gezinnen educatief vermaak plannen voor feestdagenbijeenkomsten. De niche biedt rijke subthemavariatie waaronder kalkoenen, pompoenen, pelgrims, oogstscènes, hoorns des overvloeds, herfstbladeren, taarten, eikels en dankbaarheidsactiviteiten, wat verkopers een warm visueel vocabulaire geeft dat resoneert bij jonge gebruikers en hun gezinnen tijdens een van de meest verwachte vieringen van het jaar. Hoewel Thanksgiving een Amerikaans feest is, vertegenwoordigt het een enorme markt voor printable-verkopers wereldwijd — Etsy, Gumroad en KDP bedienen overwegend een Amerikaans koperspubliek, waardoor Nederlandse verkopers volledig kunnen profiteren van deze seizoensgebonden vraag. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables dankbaarheid en Oogstfeest verkopen',
+    description: 'Het thema dankbaarheid biedt printable-ondernemers een warme herfstniche die inspeelt op oogstfeesten, seizoensgebonden vieringen en het universele concept van dankbaar zijn. In Nederland kent men het Oogstfeest als herfsttraditie, terwijl het Amerikaanse Thanksgiving een enorme internationale markt vertegenwoordigt op Etsy, Gumroad en Amazon KDP. Door beide invalshoeken te combineren bedient u zowel het Nederlandstalige publiek als het internationale kopersbestand dat in oktober en november massaal zoekt naar oogstthema werkbladen. De niche omvat rijke subthema\'s: pompoenen, herfstbladeren, eikels, oogstscenes, hoorns des overvloeds en dankbaarheidsactiviteiten. Nederlandse verkopers profiteren van het tijdzoneverschil — terwijl Amerikaanse concurrenten druk zijn met hun eigen feestvoorbereidingen, optimaliseert u rustig uw catalogus. Voor basisscholen in Nederland past het dankbaarheidsthema bij projecten rond de herfst en seizoenswisselingen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De Thanksgiving printable-niche neemt een uitstekende positie in op de herfstverkoopkalender en genereert geconcentreerde vraag tijdens oktober en november wanneer verkopers, ouders en thuisonderwijzende gezinnen actief zoeken naar oogstthema educatief materiaal. verkopers beginnen in begin oktober met het plannen van novemberklasactiviteiten en Thanksgivingvieringen, op zoek naar thematische werkbladen die feestdagenwarmte combineren met echte educatieve uitkomsten in rekenen, taalvaardigheid en kritisch denken. Ouders zoeken leeftijdsgeschikte Thanksgivingactiviteiten die meerdere doelen dienen: kinderen betrokken houden tijdens feestdagenvoorbereiding, educatief vermaak bieden tijdens familiereizen, en gestructureerde leermomenten creëren tijdens het verlengde Thanksgivingweekend wanneer schermvrije activiteiten bijzonder gewaardeerd worden.
 
@@ -147,24 +147,19 @@ Om maximale Thanksgivingomzet te behalen, ontwikkel je producten over meerdere s
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoeker generator voor oogstvocabulaire',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met herfstthema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor seizoensproducten',
     },
     {
       pageType: 'guide',

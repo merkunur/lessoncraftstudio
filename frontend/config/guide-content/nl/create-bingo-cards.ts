@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bingokaarten maken',
+    primaryKeyword: 'bingokaarten met afbeeldingen maken verkopen',
     secondaryKeywords: [
-      'bingokaarten maken met afbeeldingen',
-      'bingo kaartgenerator voor kinderen',
-      'printbare bingokaarten verkopen',
-      'aangepaste plaatjesbingo maker',
+      'plaatjesbingo kaarten maken en verkopen',
+      'bingokaarten met thema-afbeeldingen Etsy',
+      'bingo activiteitenboek Amazon KDP',
+      'printbare bingosets verkopen op Bol.com',
     ],
     lsiKeywords: [
-      'thematische bingokaarten voor de winkel',
-      'feest bingo printbare activiteiten',
-      'bingokaarten verkopen op Etsy',
-      'Amazon KDP bingo activiteitenboeken',
+      'unieke bingokaarten generator meerdere sets',
+      'bingo belkaarten thematisch',
+      'bingokaarten bundels voor feestjes',
       'commerciële licentie bingo tool',
-      'meerdere unieke bingokaarten generator',
+      'bingokaarten productlijn opbouwen',
+      'plaatjesbingo verkopen op marktplaatsen',
     ],
-    titleTag: 'Bingokaarten Maken met Thema-Afbeeldingen — Gids',
-    metaDescription: 'Leer bingokaarten maken met thema-afbeeldingen. Kies rasterformaten, genereer unieke kaarten met belkaarten en exporteer printklare PDF\'s voor Etsy en KDP.',
+    titleTag: 'Bingokaarten maken om te verkopen | LessonCraftStudio',
+    metaDescription: 'Ontdek hoe u bingokaarten met afbeeldingen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Meerdere unieke kaarten, belkaarten en printklare PDF\'s.',
   },
 
   hero: {
-    title: 'Hoe Bingokaarten Maken met Thema-Afbeeldingen',
-    tagline: 'Een stapsgewijze handleiding voor het maken van thematische, printklare bingokaarten met belkaarten die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Bingokaarten zijn een van de meest veelzijdige printbare producten die je kunt maken. verkopers gebruiken ze voor woordenschattoetsen en beloningsactiviteiten online. Ouders gebruiken ze voor verjaardagsfeestjes en familiespelletjesavonden. Evenementenplanners gebruiken ze voor babyshowers, feestdagbijeenkomsten en teambuilding-activiteiten. Deze gids leidt je door het hele creatieproces met de Bingo Maker — van het kiezen van je rasterformaat en thema tot het genereren van meerdere unieke kaarten met belkaarten en het exporteren als printklare PDF\'s. Of je nu je eerste printbare spelproduct bouwt of uitbreidt naar de veelgevraagde feest- en klasactiviteitenmarkt, aan het einde van deze handleiding heb je een complete bingokaartset klaar om te publiceren.',
+    title: 'Bingokaarten met afbeeldingen maken en verkopen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare thematische bingokaarten met belkaarten voor Etsy, Amazon KDP en Bol.com',
+    description: 'Bingokaarten zijn een van de meest veelzijdige printbare producten die u kunt maken. verkopers gebruiken ze voor woordenschattoetsen en beloningsactiviteiten online. Ouders gebruiken ze voor verjaardagsfeestjes en familiespelletjesavonden. Evenementenplanners gebruiken ze voor babyshowers, feestdagbijeenkomsten en teambuilding-activiteiten. Deze gids leidt u door het hele creatieproces met de Bingo Maker — van het kiezen van uw rasterformaat en thema tot het genereren van meerdere unieke kaarten met belkaarten en het exporteren als printklare PDF\'s. Of u nu uw eerste printbare spelproduct bouwt of uitbreidt naar de veelgevraagde feest- en activiteitenmarkt, aan het einde van deze handleiding hebt u een complete bingokaartset klaar om te publiceren.',
   },
 
   introduction: 'Bingo is een van de weinige printbare producten die drie totaal verschillende kopersegmenten tegelijk bedient. verkopers hebben thematische bingosets nodig voor woordenschatversterking, beloningsactiviteiten en binnenspelen. Ouders en feestplanners hebben aangepaste bingokaarten nodig voor verjaardagsfeestjes, babyshowers, feestdagvieringen en familiespelletjesavonden. En printable-verkopers hebben bingokaarten nodig omdat ze tot de best converterende spelformat-printables behoren op elke grote marktplaats.\n\nWat bingokaarten bijzonder krachtig maakt als printbaar product is de ingebouwde behoefte aan meerdere unieke kaarten. In tegenstelling tot een werkblad waarbij elke gebruiker dezelfde pagina krijgt, vereist bingo dat elke speler een andere kaart heeft. Een enkel bingospel heeft 10, 20 of zelfs 30 unieke kaarten nodig — allemaal met dezelfde afbeeldingenpool maar met willekeurige plaatsing. Deze structurele vereiste betekent dat elk bingoproduct van nature een bundel is, wat hogere prijzen rechtvaardigt dan printables van één pagina.\n\nDe Bingo Maker lost de complexiteit op die bingokaarten moeilijk handmatig te maken maakt. Het genereert meerdere unieke kaarten per sessie, elk met willekeurige afbeeldingsplaatsing uit je gekozen thema. Het produceert speciale belkaarten die elke afbeelding tonen die over alle kaarten wordt gebruikt. Het ondersteunt instelbare rasterformaten van 3×3 tot en met 5×5, weergavemodi met alleen afbeeldingen of afbeeldingen met woordlabels, en exporteert alles als meerpagina-PDF\'s of individuele JPEG\'s in een ZIP-archief.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeld-bingokaartsets maken, elke configuratie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Gids Commerciële Licentie' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Hoe Woordzoekers Maken' },
-    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Hoe Zoek-de-Paren Werkbladen Maken' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'guide', slug: 'tpt-materialen-maken-verkopen', anchorText: 'Gumroad Materialen Maken en Verkopen' },
-    { pageType: 'app', slug: 'picture-bingo', anchorText: 'Bingo Generator — Alle Details' },
-    { pageType: 'tool', slug: 'bingo', anchorText: 'Probeer de Bingo Maker' },
+    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Plaatjes Bingo Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Zoek de Paren Generator voor koppelwerkbladen' },
+    { pageType: 'bundle', slug: 'zoeken-vinden-pakket', anchorText: 'Zoeken & Vinden Pakket met bingo en puzzels' },
   ],
 
   toolsRecommended: [

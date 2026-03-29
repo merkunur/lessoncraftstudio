@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'woordzoekerboeken KDP',
+    primaryKeyword: 'woordzoekerboeken maken voor KDP',
     secondaryKeywords: [
       'hoe woordzoekerboeken maken voor Amazon KDP',
       'woordzoeker puzzelboek uitgeversgids',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'woordzoekerboek serie delen herhaalaankoop catalogus',
       'volwassenen kinderen woordzoeker markt doelgroep rasteropmaak',
     ],
-    titleTag: 'Woordzoekerboeken Maken voor KDP — Gids',
-    metaDescription: 'Woordzoekerboeken maken voor Amazon KDP met thematische woordenlijsten, grote-letter formaten en seriestrategie. Rasterformaat, doelgroep en optimalisatie.',
+    titleTag: 'Woordzoekerboeken voor Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Maak woordzoekerboeken voor Amazon KDP. Thematische woordenlijsten, grote-letter formaten, seriestrategie en rasterformaat voor elke doelgroep.',
   },
 
   hero: {
-    title: 'Hoe Woordzoekerboeken Maken voor Amazon KDP',
-    tagline: 'Een gerichte gids voor het maken en uitgeven van woordzoekerboeken op Amazon KDP — de populairste puzzelboek subcategorie op Amazon, inclusief thematische woordenlijst samenstelling voor samenhangende boeiende inhoud, rasterformaatsstrategie van 12x12 makkelijk tot 20x20 expert, de grote-letter woordzoeker subcategorie die premiumprijzen en felle kopersloyaliteit beheerst, volwassenen- versus kinderwoordzoekermarkt positionering, woordenschatselectie die professionele woordzoekerboeken onderscheidt van amateurcompilaties, woordzoekerspecifieke Amazon zoekwoordoptimalisatie, en de volume-gebaseerde seriestrategie die één woordzoekerboek omzet in een catalogus die voorspelbare maandelijkse omzet genereert',
-    description: 'Woordzoekerboeken domineren Amazon KDP puzzelverkopen qua volume en overtreffen kruiswoord-, sudoku- en alle andere puzzeltypes gecombineerd. De categorie bedient een enorm publiek — volwassenen die ontspanning en hersengymnastiek zoeken, senioren die grote-letter formaten prefereren, reizigers die offline vermaak willen, en ouders die boeiende beeldschermvrije activiteiten voor kinderen kopen. Deze gids richt zich specifiek op wat woordzoekerboek uitgeven uniek maakt.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk, zodat je voorbeeldinhoud kunt maken en je aanpak kunt testen voordat je een licentie koopt.',
+    title: 'Woordzoekerboeken maken voor Amazon KDP',
+    tagline: 'Thematische woordenlijsten, grote-letter formaten en seriestrategie',
+    description: 'Woordzoekerboeken domineren Amazon KDP puzzelverkopen qua volume. De categorie bedient een enorm publiek: volwassenen die ontspanning zoeken, senioren die grote-letter formaten prefereren, reizigers die offline vermaak willen, en ouders die boeiende activiteiten voor kinderen kopen. Deze gids richt zich op wat woordzoekerboek uitgeven uniek maakt, inclusief thematische woordenlijstsamenstelling, rasterformaatsstrategie en de volume-gebaseerde seriestrategie die voorspelbare maandelijkse omzet genereert. Elke generator biedt een gratis proefversie met watermerk.',
   },
 
-  introduction: 'Woordzoekers zijn de onbetwiste volumeleider onder puzzelboeken op Amazon KDP. Duizenden nieuwe woordzoekertitels worden elke maand gepubliceerd, en de topverkopers in deze categorie handhaven gestage verkopen het hele jaar door met seizoenspieken tijdens feestdagen en cadeauperiodes. De reden dat woordzoekerboeken andere puzzeltypes in verkoop overtreffen is toegankelijkheid — iedereen die kan lezen kan een woordzoekerpuzzel oplossen, ongeacht leeftijd, opleiding of puzzelervaring. Deze universele toegankelijkheid creëert een koperspool die elke demografie omspant, van basisschoolkinderen tot senioren in hun negentiger jaren.\n\nDe woordzoekerboekmarkt splitst zich in verschillende aparte segmenten, elk met verschillende kopersverwachtingen en concurrentiedynamiek. Volwassen algemene woordzoekerboeken zijn het segment met het hoogste volume, gekocht voor dagelijks vermaak, stressverlichting en cognitieve oefening. Grote-letter woordzoekerboeken bedienen volwassenen en senioren die grotere letterformaten nodig hebben voor comfortabel lezen en omcirkelen — deze subcategorie beheerst premiumprijzen en trekt uitzonderlijk loyale terugkerende kopers aan die meerdere delen per maand consumeren. Kinderwoordzoekerboeken richten zich op ouders en verkopers die boeiende woordenschatopbouwende activiteiten willen. Thematische woordzoekercollecties (dieren, reizen, feestdagen, eten) vangen op interesse gebaseerd en seizoensgebonden zoekverkeer dat generieke collecties missen.\n\nWat een professioneel woordzoekerboek onderscheidt van een amateurcompilatie is de kwaliteit van de woordenlijst samenstelling. Willekeurige woordverzamelingen voelen onsamenhangend en onbevredigend om op te lossen. Thematische woordenlijsten — waar elke puzzel in een sectie draait om een samenhangend onderwerp zoals zeeleven, wereldhoofdsteden of kooktermen — creëren een oplossingservaring die opzettelijk en lonend aanvoelt. Kopers merken dit verschil onmiddellijk op, en het blijkt uit recensies. Boeken met doordacht samengestelde thematische inhoud verdienen consistent hogere waarderingen dan boeken gevuld met willekeurige woordselecties.\n\nDeze gids concentreert zich uitsluitend op wat woordzoekerboek uitgeven onderscheidt van algemeen puzzelboek uitgeven. Voor KDP-basisprincipes zoals manuscript opmaakspecificaties, omslagdimensies, royaltyberekeningen en algemene Amazon-vermeldingspraktijken, raadpleeg de gids over reken activiteitenboeken voor KDP. Voor brede puzzelboekstrategie over meerdere puzzeltypes, variatieformaten en cross-type catalogusplanning, raadpleeg de puzzelboeken KDP-gids. Hier richten we ons volledig op woordzoekerspecifieke inhoudstrategie, rasterformaat, de grote-letter markt, thematische woordenlijstontwikkeling, en de volume-gebaseerde catalogusaanpak die woordzoekeruitgeven tot een van de meest betrouwbare omzetstromen op KDP maakt.',
+  introduction: 'Woordzoekers zijn de onbetwiste volumeleider onder puzzelboeken op Amazon KDP. De universele toegankelijkheid — iedereen die kan lezen kan een woordzoeker oplossen — creëert een koperspool van basisschoolkinderen tot senioren. De markt splitst zich in aparte segmenten: volwassen algemene boeken voor dagelijks vermaak, grote-letter edities die premiumprijzen beheersen bij loyale terugkerende kopers, kinderboeken voor woordenschatontwikkeling, en thematische collecties die seizoensgebonden zoekverkeer vangen. Wat een professioneel woordzoekerboek onderscheidt is de kwaliteit van thematische woordenlijsten: samenhangende onderwerpen per puzzel in plaats van willekeurige woorden. Deze gids richt zich op woordzoekerspecifieke inhoudstrategie, rasterformaat, de grote-letter markt en de volume-gebaseerde catalogusaanpak die voorspelbare omzet genereert.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Hoe Reken Activiteitenboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Hoe Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Hoe Sudokuboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Hoe Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
-    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Top KDP Activiteitenboek Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Hoe Woordzoekerpuzzels Maken met Afbeeldingen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels en Logica Pakket' },
     { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Werkblad Generator — Volledige Details' },
   ],
 

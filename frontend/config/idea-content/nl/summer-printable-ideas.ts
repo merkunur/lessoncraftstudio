@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Zomer Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende zomer printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Strand- en zonthema productconcepten en seizoenstips voor verkopers.',
+    titleTag: 'Printables zomer — Business | LessonCraftStudio',
+    metaDescription: 'Start een printable business met zomerthema. Productideeën voor strand- en vakantieworkbladen die van mei tot augustus verkopen op Etsy en KDP.',
 
-    primaryKeyword: 'zomer printable ideeën',
+    primaryKeyword: 'printables zomer ideeën business',
     secondaryKeywords: [
-      'zomerthema werkbladen verkopen',
-      'zomer printable business ideeën',
-      'zomer activiteiten voor verkopers',
-      'zomer printables verkopen op Etsy',
+      'zomer werkbladen Etsy verkopen',
+      'zomerthema printable business starten',
+      'strand activiteitenboeken KDP niche',
+      'vakantie printables voor verkopers',
     ],
     lsiKeywords: [
-      'strand en zon educatieve werkbladen',
-      'warm weer activiteitenpagina\'s',
-      'vakantie thema printbare producten printables',
+      'strandthema werkbladen maken',
+      'zomer kleurplaten printable winkel',
+      'vakantie puzzels printbare producten',
     ],
   },
   hero: {
-    title: 'Zomer Printable Businessideeën voor Verkopers',
-    description: 'De zomer opent het langste aanhoudende verkoopvenster op de seizoensgebonden printable-kalender, met opbouwende vraag van mei tot augustus terwijl ouders zoeken naar gestructureerde activiteiten om zomers leerverlies tegen te gaan, kampen en kinderdagverblijven themawerkbladen inslaan, en gezinnen reisvermaak voorbereiden voor vakantie-autotrips. De niche biedt een uitgebreid scala aan subthema\'s waaronder strandscènes, zonneschijn, ijsjes, watermeloen, zandkastelen, zonnebloemen, zwembaden, zeesterren, schelpen en slippers, wat verkopers een levendig visueel vocabulaire geeft dat de energie en opwinding vastlegt die kinderen associëren met de warmste maanden. Thuisonderwijzende gezinnen die hun onderwijs voortzetten tijdens de zomermaanden voegen consistente vraag toe gedurende het hele venster. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad combineert de zomerniche verlengde seizoensgebonden vraag met universeel aantrekkelijk beeldmateriaal. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Start uw printable business met zomerthema',
+    description: 'De zomer opent het langste verkoopvenster op de seizoensgebonden printable-kalender, met opbouwende vraag van mei tot augustus. Ouders zoeken gestructureerde activiteiten om zomers leerverlies tegen te gaan, kampen hebben themawerkbladen nodig, en gezinnen bereiden reisvermaak voor tijdens vakantieritten. Strandscènes, ijsjes, watermeloen, zandkastelen en zonnebloemen geven u een levendig visueel vocabulaire dat de energie van de zomer vastlegt. In Nederland zorgt de zes weken zomervakantie voor een lange periode waarin ouders actief zoeken naar educatief vermaak. Voor ondernemers op Etsy, Amazon KDP en Gumroad combineert deze niche verlengde seizoensvraag met universeel aantrekkelijk beeldmateriaal. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De zomer printable-niche onderscheidt zich van andere seizoenscategorieën door de enorme duur en de intensiteit van de ouderlijke vraag naar gestructureerde kinderactiviteiten. Terwijl de meeste feestdagniches geconcentreerde verkoopvensters van twee tot vier weken leveren, strekt de zomer zich uit over vier volledige maanden van actief kopen van mei tot augustus, met vroege verkopers en kampcoördinatoren die al in april beginnen met zoeken. Deze verlengde tijdlijn betekent dat zomer printable-vermeldingen meer tijd hebben om beoordelingen te verzamelen, zoekrangschikkingen te beklimmen en samengesteld organisch verkeer te genereren gedurende het hele seizoen. Ouders worden het dominante koopsegment tijdens de zomermaanden wanneer schoolroutines oplossen en de realiteit van het wekenlang betrokken, vermaakt en lerend houden van kinderen dringende zoekopdrachten stimuleert naar printbare activiteiten die structuur bieden zonder de starheid van formeel productcatalogus.
 
@@ -147,19 +147,19 @@ Platformanalyses tonen consistent aan dat zomer printable-zoekopdrachten vanaf h
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Zomerkleurplaten maken en verkopen',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'doolhof-werkbladen',
+      anchorText: 'Zomerdoolhoven voor vakantiepakketten',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor verkopers',
     },
     {
       pageType: 'guide',

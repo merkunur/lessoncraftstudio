@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Terug naar School Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende terug-naar-school printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. merkthema productconcepten en seizoenstips voor verkopers.',
+    titleTag: 'Printables schoolstart voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables voor de schoolstart op Etsy en KDP. Productideeën voor werkbladen die van juli tot september piekverkopen opleveren.',
 
-    primaryKeyword: 'terug naar school printable ideeën',
+    primaryKeyword: 'printables schoolstart om te verkopen Etsy',
     secondaryKeywords: [
       'terug naar school werkbladen verkopen',
-      'school printable business ideeën',
-      'terug naar school activiteiten verkopers',
-      'school printables verkopen op Etsy',
+      'schoolstart printable business starten',
+      'schoolthema activiteitenboeken KDP',
+      'september printables niche verkopers',
     ],
     lsiKeywords: [
-      'winkel werkbladbundels',
-      'verkoper printbare producten printables',
-      'schoolspullen thema activiteiten',
+      'schoolspullen werkbladen maken',
+      'schoolstart kleurplaten Etsy winkel',
+      'nieuwe schooljaar printbare producten',
     ],
   },
   hero: {
-    title: 'Terug naar School Printable Businessideeën voor Verkopers',
-    description: 'Terug naar school creëert een van de grootste en meest betrouwbare seizoensgebonden vraagvensters op de printable businesskalender, met kopersactiviteit die stijgt van juli tot september terwijl verkopers nieuwe productlijnen voorbereiden en ouders educatieve activiteiten zoeken voor schoolgereedheid. De niche biedt rijke subthemavariatie waaronder schoolspullen, potloden, kleurpotloden, rugzakken, schoolbussen, appels, schriften, linialen, schoolborden en klasscènes, wat verkopers een vertrouwd visueel vocabulaire geeft dat resoneert bij gezinnen en ondernemers tijdens de overgang van zomer naar gestructureerd leren. Thuisonderwijzende gezinnen die hun nieuwe schooljaar plannen vormen een extra gemotiveerd koopsegment, dat vaak grotere bundels en uitgebreide lespakketten koopt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
+    title: 'Printables voor de schoolstart verkopen als ondernemer',
+    description: 'De schoolstart creëert een van de grootste seizoensgebonden vraagvensters op de printable-kalender, met kopersactiviteit die stijgt van juli tot september. In Nederland begint het nieuwe schooljaar eind augustus, en ouders zoeken educatieve activiteiten voor schoolgereedheid terwijl scholen behoefte hebben aan frisse thematische werkbladen. Schoolspullen, rugzakken, potloden en klasscènes geven u een vertrouwd visueel vocabulaire dat resoneert bij gezinnen en ondernemers. Thuisonderwijzende gezinnen die hun nieuwe jaar plannen kopen vaak grotere bundels en uitgebreide pakketten. Voor ondernemers op Etsy, Amazon KDP en Gumroad is dit een betrouwbaar jaarlijks venster met voorspelbare vraag. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De terug-naar-school printable-niche behaalt een van de hoogste seizoensgebonden verkeersvolumes op de educatieve markt, met aanhoudende vraag over een breed juli-tot-septemberverkoopvenster dat verkopers betekenisvolle tijd geeft om omzet vast te leggen. verkopers beginnen halverwege juli met het voorbereiden van hun nieuwe productlijnen, kopen klasopstellingsmateriaal, kennismakingsactiviteiten voor de eerste week en productcatalogussupplementen die hen helpen snel op gang te komen wanneer de gebruikers arriveren. Ouders zoeken naar werkbladen voor schoolgereedheid, educatieve activiteiten om de zomerleerkloof te overbruggen, en boeiende printables die de overgang vergemakkelijken van vakantiemodus terug naar gestructureerde dagelijkse routines. Thuisonderwijzende gezinnen, die hun hele schooljaar plannen tijdens de zomermaanden, vertegenwoordigen een bijzonder waardevol koopsegment omdat ze uitgebreide bronnencollecties kopen in plaats van individuele werkbladen.
 
@@ -149,19 +149,19 @@ Vanuit een zoekwoordenperspectief splitsen terug-naar-school printable-zoekopdra
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen voor de schoolstart',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoekers met schoolthema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'lezen-taal-pakket',
+      anchorText: 'Lezen en taal pakket voor verkopers',
     },
     {
       pageType: 'guide',

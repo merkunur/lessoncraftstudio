@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Eten & Koken Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende eten en koken printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Voedingsthema productconcepten en platformtips voor verkopers.',
+    titleTag: 'Printables voeding voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop eten en voeding printables op Etsy en Gumroad. Fruit, groenten en keukenthema productideeën voor uw printable business — altijdgroene niche.',
 
-    primaryKeyword: 'eten en koken printable ideeën',
+    primaryKeyword: 'printables eten en voeding voor Etsy',
     secondaryKeywords: [
-      'voedselthema werkbladen verkopen',
-      'koken printable business ideeën',
-      'keuken activiteiten voor verkopers',
-      'eten printables verkopen op Etsy',
+      'voedselthema werkbladen verkopen Etsy',
+      'koken keuken printable business ideeën',
+      'gezond eten educatieve producten verkopen',
+      'voeding fruit groenten printables Gumroad',
     ],
     lsiKeywords: [
-      'culinair thema educatieve werkbladen',
-      'voeding activiteiten voor kinderen',
-      'receptthema printbare producten printables',
+      'boodschappen recept werkbladen maken',
+      'Schijf van Vijf educatief materiaal',
+      'culinair thema printbare producten ondernemen',
     ],
   },
   hero: {
-    title: 'Eten & Koken Printable Businessideeën voor Verkopers',
-    description: 'Eten en koken is een van de meest universeel boeiende thema\'s voor kinderen van alle leeftijden, waardoor het een uitzonderlijke altijdgroene niche is voor printable-ondernemers die consistente jaarronde omzet zoeken met brede vakoverschrijdende aantrekkingskracht. Het eten-en-kokenthema biedt opmerkelijke subthemadiepte waaronder fruit, groenten, pizza, koekjes, taart, brood, keukengerei, bakken, boodschappen doen, gezond eten, voeding, van-boerderij-naar-bord concepten en internationaal eten, wat verkopers een enorm visueel vocabulaire geeft dat aansluit bij de dagelijkse ervaring van elk kind met maaltijden, snacks en keukenverkenning. Vakoverschrijdende veelzijdigheid maakt voedingsprintables bijzonder waardevol omdat koken van nature aansluit bij rekenen via meten en ingrediënten tellen, taalvaardigheid via recepten lezen en voedingsvocabulaire, wetenschap via voeding en plantengroei, en levensvaardigheden via gezonde eetgewoonten en keukenveiligheid. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Eten en voeding printables: niche voor Etsy verkopers',
+    description: 'Eten en voeding vormen een universeel thema dat elk kind dagelijks ervaart via maaltijden, snacks en keukenverkenning, waardoor het een uitzonderlijk stabiele altijdgroene niche is voor printable-ondernemers. Fruit, groenten, pizza, koekjes, bakken, boodschappen doen en gezond eten bieden een enorm visueel vocabulaire dat tientallen unieke producten ondersteunt. In Nederland sluit het voedingsthema aan bij de Schijf van Vijf en het groeiende bewustzijn rond gezonde voeding op basisscholen, wat directe vraag creëert naar educatief materiaal over eetgewoonten en voedingsgroepen. Vakoverschrijdende veelzijdigheid maakt deze niche bijzonder waardevol: koken sluit aan bij rekenen via meten en tellen, taalvaardigheid via receptvocabulaire, en wetenschap via voedingsleer en plantengroei. Op Etsy, Gumroad en Amazon KDP converteren gerichte producten zoals fruit-telwerkbladen en keukenvocabulaire-woordzoekers beter dan generieke opties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De niche van eten-en-koken printables neemt een uniek krachtige positie in voor printable-verkopers omdat elk kind een directe, persoonlijke band heeft met voedsel via dagelijkse maaltijden, snackmomenten, boodschappen doen en keukenervaringen met het gezin. In tegenstelling tot nichethema\'s die afhankelijk zijn van een kind dat een specifieke interesse ontwikkelt, is eten universeel relevant vanaf de babyleeftijd, wat ervoor zorgt dat voedingsthema educatief materiaal het breedst mogelijke publiek van ouders, verkopers en thuisonderwijzende gezinnen aanspreekt. Deze universele relevantie vertaalt zich in consistente kopersvraag over alle twaalf maanden omdat voedingseducatie, bewustzijn rond gezond eten en kookthema leeractiviteiten nooit uit het seizoen zijn.
 
@@ -145,24 +145,19 @@ Culturele inclusiviteit via internationale gerechten vertegenwoordigt een waarde
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen met voedingsthema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoeker generator voor keukenvocabulaire',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'zoeken-vinden-pakket',
+      anchorText: 'Zoeken en vinden pakket voor voedingsproducten',
     },
     {
       pageType: 'guide',

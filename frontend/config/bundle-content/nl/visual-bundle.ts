@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visueel leren werkbladen bundel',
+    primaryKeyword: 'visueel leerpakket voor verkopers',
     secondaryKeywords: [
-      'kleurplaten tekenen werkblad generator bundel voor verkopers',
-      'visuele activiteiten printable toolkit commercieel gebruik',
-      'patronenherkenning werkbladen bundel voor Etsy',
-      'teken en kleur werkblad generators voor KDP verkopers',
+      'kleurplaten tekenen werkblad generator bundel verkopers',
+      'visuele activiteiten printable toolkit commercieel',
+      'patronenherkenning werkbladen bundel Etsy KDP',
+      'teken en kleur generators voor printable bedrijf',
     ],
     lsiKeywords: [
-      'kleurplaat tekenwerkblad pakket',
-      'patronenherkenning telgrafiek printbare collectie',
-      'commerciële licentie visuele activiteit werkbladen',
-      'bulk visueel werkblad creatie tool',
+      'kleurplaat tekenwerkblad pakket Etsy',
+      'patronenherkenning telgrafiek collectie verkopers',
+      'commercieel kleurplaten bundel verkopen',
+      'visuele werkbladen wereldwijd verkopen zonder vertaling',
     ],
-    titleTag: 'Visueel Leren Werkbladen Bundel — 7 Activiteiten Generators',
-    metaDescription: 'Krijg 7 visueel leren generators in één bundel. Maak kleurplaten, tekenen, patronen, groottevergelijking, grafieken en lijntraceer werkbladen om online te.',
+    titleTag: 'Visueel leerpakket voor verkopers | LessonCraftStudio',
+    metaDescription: 'Zeven visuele werkblad generators in een pakket. Maak kleurplaten, tekenen, patronen en telgrafieken die in elke taal werken. Verkoop op Etsy en KDP.',
   },
 
   hero: {
-    title: 'Visueel Leren Pakket',
-    tagline: 'Zeven puur visuele werkblad generators — werkbladen die in elke taal wereldwijd werken',
-    description: 'Elke generator in deze bundel produceert werkbladen die volledig bestaan uit afbeeldingen, vormen, kleuren en cijfers. Er verschijnt geen tekst op de afgewerkte pagina buiten optionele UI-labels. Dat betekent dat elk werkblad dat je maakt werkt voor kopers in elk land, elke taal, elk schoolsysteem — zonder vertaling, zonder aanpassing, zonder lokalisatie-inspanning. Het Visueel Leren Pakket combineert zeven gespecialiseerde generators die groottevergelijking, treinwagon-patroonreeksen, invul-patroonwerkbladen, referentieafbeelding tekenen met symmetriemodus, lijntracering tussen gekoppelde objecten, kleurplaatcreatie vanuit afbeeldingscontouren, en staafdiagram telactiviteiten dekken. Twee van de zeven generators — Rastertekenen en Kleurplaten — bevatten speciale zwart-wit contourthema\'s ontworpen voor inkleuren, waardoor je toegang hebt tot zowel kleurrijke als zwart-wit productstijlen vanuit één toolkit. Drie generators bevatten automatische antwoordbladen waar van toepassing: Groot & Klein, Patronen Werkblad en Telgrafiek. De andere vier zijn creatieve of oefeningsactiviteiten waar antwoordbladen niet van toepassing zijn. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden. Kies uit meer dan 100 thematische beeldsets of upload je eigen illustraties voor merkgebonden, nichespecifieke producten. Of je nu kleurplaten verkoopt op Etsy, activiteitenboeken publiceert op Amazon KDP, of kleuterpakketten distribueert op Gumroad, deze bundel geeft je de visuele variatie en universeel marktbereik dat tekstafhankelijke concurrenten niet kunnen evenaren. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    title: 'Zeven visuele generators die wereldwijd verkopen',
+    tagline: 'Puur visuele werkbladen zonder tekst — verkoop dezelfde PDF aan kopers in elk land',
+    description: 'Als u printables verkoopt op Etsy, Amazon KDP of Bol.com, zijn puur visuele werkbladen uw snelste pad naar internationale verkoop. Elke generator in dit pakket produceert werkbladen die volledig bestaan uit afbeeldingen, vormen, kleuren en cijfers, zonder tekst op de afgewerkte pagina. Dat betekent dat elk werkblad dat u maakt werkt voor kopers in elk land, elke taal en elk schoolsysteem, zonder vertaling of aanpassing. Het Visueel Leren Pakket combineert zeven gespecialiseerde generators die groottevergelijking, treinwagon-patroonreeksen, invul-patroonwerkbladen, referentieafbeelding tekenen met symmetriemodus, lijntracering, kleurplaatcreatie vanuit afbeeldingscontouren en staafdiagram telactiviteiten dekken. Twee generators bevatten speciale zwart-wit contourthema\'s ontworpen voor inkleuren. Drie generators bevatten automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen illustraties voor merkgebonden producten. Kleurplaten zijn de best verkopende printable categorie op Etsy, en dit pakket geeft u zeven producttypen in plaats van een. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 
   appsIncluded: [
@@ -198,17 +198,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'groot-klein-werkbladen', anchorText: 'Groot & Klein Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'patroontrein-werkbladen', anchorText: 'Patroontrein Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Patronen Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'rastertekenen-werkbladen', anchorText: 'Rastertekenen Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'lijnen-trekken-werkbladen', anchorText: 'Lijnen Trekken Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'telgrafieken-werkbladen', anchorText: 'Telgrafiek Generator — Volledig Overzicht' },
-    { pageType: 'guide', slug: 'etsy-kleurplaten-maken', anchorText: 'Kleurplaten maken voor Etsy' },
-    { pageType: 'guide', slug: 'teken-werkbladen-maken', anchorText: 'Teken werkbladen maken' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Bouw je Etsy printable bedrijf' },
-    { pageType: 'idea', slug: 'zomer-printable-ideen', anchorText: 'Zomer printable ideeën voor kinderactiviteiten' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten generator bekijken' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Lijnen trekken generator bekijken' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Bekijk ook het Wiskunde Meester Pakket' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy printable bedrijf starten' },
   ],
 
   visuals: {

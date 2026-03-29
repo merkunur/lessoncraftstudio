@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schrijfoefeningen werkblad generator',
+    primaryKeyword: 'gratis schrijfwerkbladen generator',
     secondaryKeywords: [
-      'schrijfoefeningen werkblad maker voor verkopers',
-      'letter-overtrek werkbladen maken om te verkopen',
-      'printbare schrijfoefeningen met commerciële licentie',
-      'schrijfoefeningen generator voor KDP',
+      'schrijfoefeningen werkblad online maken',
+      'letter-overtrek werkbladen gratis proberen',
+      'schrijfwerkbladen generator met streekvolgorde',
+      'schrijfoefeningen maker drie oefenmodi',
     ],
     lsiKeywords: [
-      'pijl-streekorde schrijf-printables voor Etsy',
+      'pijl-streekorde schrijfwerkbladen online',
       'vervagende overtrek letteroefening werkblad tool',
-      'verbonden en blokschrift schrijfgenerator',
+      'verbonden en blokschrift schrijfgenerator gratis',
     ],
-    titleTag: 'Schrijfoefeningen Werkblad Maker | Maak & Verkoop',
-    metaDescription: 'Genereer schrijfoefeningen werkbladen met drie oefenmodi, vijf letterstijlen, pijl-streekorde, vervagende gidsen, 104 thema\'s. Gratis proefversie met.',
+    titleTag: 'Schrijfwerkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak schrijfwerkbladen met drie oefenmodi, vijf letterstijlen en pijlgeleide streekvolgorde. Probeer gratis met watermerk, geen registratie nodig.',
   },
 
   hero: {
-    title: 'Schrijfoefeningen Werkblad Maker',
-    tagline: 'Maak letteroefenbladen met drie progressieve modi, pijlgeleide streekorde en vervagende lettergidsen die schrijfvaardigheid opbouwen van volledig overtrekken naar zelfstandig schrijven',
-    description: 'Ontwerp professionele schrijfoefeningen werkbladen gebouwd op een drievoudig progressiesysteem: Overtrekmodus biedt solide letteromtrekken voor beginners om direct te volgen, Vervagend Overtrekken vermindert progressief de letterdekking over de rij zodat gebruikers overgaan van ondersteund overtrekken naar zelfstandig oproepen binnen één regel, en Begeleid Kopiëren biedt een vage omtrek voor bijna-zelfstandig schrijven met minimale visuele ondersteuning. Vijf letterstijlen geven je volledige controle over de letterpresentatie — Blokschrift Normaal voor standaard blokletters, Blokschrift Normaal Pijl met genummerde richtingspijlen die exacte streekvolgorde tonen, Blokschrift Overtrekken voor gestippelde-omtrek letters ontworpen voor overtrekenoefeningen, Blokschrift Overtrekken Pijl die gestippelde omtrekken combineert met streekvolgorde-pijlen, en Verbonden Schrift (Great Vibes) voor vloeiend lopend schrift. De pijlgeleide streekvolgorde is de opvallende functie: genummerde richtingspijlen op elke letter tonen gebruikers precies hoe ze elke streek in de juiste volgorde moeten vormen, waardoor een gewone overtrekpagina een instructief hulpmiddel wordt. Elke rij op het werkblad is onafhankelijk configureerbaar — eigen oefenmodus, letterstijl, inhoudsbron en hoofdletter-instelling — zodat één pagina Overtrekmodus voor nieuwe letters, Vervagend Overtrekken voor geoefende letters en Begeleid Kopiëren voor herhaling kan mengen. Inhoudsbronnen zijn de Afbeeldingenbibliotheek met meer dan 3100 illustraties over 104 thematische collecties (Beginletter of Hele Bestandsnaam modi), Aangepaste Tekst voor elk woord of elke zin, en Leeg voor blanco gelinieerde regels. Voorbereidende streekoefeningen (verticale lijnen, horizontale lijnen, cirkels, zigzaglijnen) bouwen fijne motoriek fundamenten vóór lettervorming. Exporteer printklare PDF\'s en JPEG\'s op ~300 DPI met een 6× renderingvermenigvuldiger in Letter-, A4- of aangepaste formaten. Kies uit 7 lettertypen voor tekstoverlays, schakel grijstinten in voor inktbesparende uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis schrijfwerkbladen online maken',
+    tagline: 'Maak letteroefenbladen met drie progressieve modi, pijlgeleide streekvolgorde en vervagende lettergidsen die schrijfvaardigheid opbouwen van volledig overtrekken naar zelfstandig schrijven',
+    description: 'Probeer onze schrijfwerkbladen generator gratis en maak direct professionele letteroefenbladen in uw browser. U krijgt toegang tot alle functies zonder registratie of download: drie oefenmodi (Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren), vijf letterstijlen inclusief pijlgeleide streekvolgorde, voorbereidende streekoefeningen voor fijne motoriek, en meer dan 3.100 thematische illustraties. Elke rij op het werkblad is onafhankelijk configureerbaar met een eigen oefenmodus, letterstijl en inhoudsbron. Exporteer als printklare PDF of hoge-resolutie JPEG op ongeveer 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren voordat u besluit een licentie aan te schaffen. Ideaal voor ouders die thuis oefenmateriaal willen maken, leerkrachten die gedifferentieerde werkbladen nodig hebben, en iedereen die professionele schrijfoefeningen wil genereren zonder ontwerpervaring.',
   },
 
   tutorial: {
-    title: 'Schrijfoefeningen Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Schrijfwerkbladen gratis maken in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de schrijfoefeningen werkblad maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'schrijfoefeningen-werkbladen', anchorText: 'Schrijfoefeningen Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'schrijfoefeningen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabettrein Maker' },
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Raad het Woord Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },

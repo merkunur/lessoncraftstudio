@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Onderwaterwereld Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende onderwaterwereld printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Oceaanthema productconcepten en nichetips voor verkopers.',
+    titleTag: 'Printables onderwaterwereld verkopen | LessonCraftStudio',
+    metaDescription: 'Verkoop onderwaterwereld printables op Etsy en Gumroad. Vissen, dolfijnen en koraalrif productideeën voor uw printable business — visueel rijke niche.',
 
-    primaryKeyword: 'onderwaterwereld printable ideeën',
+    primaryKeyword: 'printables onderwaterwereld om te verkopen',
     secondaryKeywords: [
-      'onderwaterwereld werkbladen verkopen',
-      'diepzee printable business ideeën',
-      'onderwater activiteiten voor verkopers',
-      'onderwater printables verkopen op Etsy',
+      'oceaanthema werkbladen verkopen Etsy',
+      'zeeleven printable business ideeën',
+      'dolfijn haai educatieve producten verkopen',
+      'onderwaterwereld printables Gumroad KDP',
     ],
     lsiKeywords: [
-      'diepzeewezens educatieve werkbladen',
-      'koraalrif activiteitenpagina\'s',
-      'aquatisch thema printbare producten printables',
+      'koraalrif zeepaardje werkbladen maken',
+      'aquarium zeeleven educatief materiaal',
+      'oceaan diepzee printbare producten ondernemen',
     ],
   },
   hero: {
-    title: 'Onderwaterwereld Printable Businessideeën voor Verkopers',
-    description: 'Onderwaterthema\'s vertegenwoordigen een van de meest visueel rijke en betrouwbaar altijdgroene niches voor printable-ondernemers omdat kinderen een diepe, duurzame fascinatie behouden voor het oceaanleven, zeewezens en de mysterieuze wereld onder de golven die consistent koopgedrag stimuleert over elk seizoen en elk kalenderkwartaal. De buitengewone diversiteit aan zeewezens en onderwateromgevingen creëert een emotionele verbinding die jonge gebruikers boeit en ouders en verkopers motiveert om oceanathema educatief materiaal te zoeken voor klasinstructie, thuisonderwijs en leerverrijking thuis. Het onderwaterthema biedt opmerkelijke subthemadiepte waaronder vissen, haaien, dolfijnen, walvissen, octopussen, kwallen, zeepaardjes, zeesterren, koraalriffen, schildpadden, krabben, kreeften, pijlstaartroggen, onderzeeërs, zeewier, ankers, scheepswrakken, schatkisten, parels, oesters, schelpen, inktvissen, paling en zeeanemonen, wat verkopers een visueel vocabulaire geeft van ongeëvenaarde variatie. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Onderwaterwereld printables: visueel rijke altijdgroene niche',
+    description: 'De onderwaterwereld is een van de meest visueel rijke niches voor printable-ondernemers omdat kinderen een duurzame fascinatie behouden voor haaien, dolfijnen, walvissen, octopussen en de kleurrijke wereld van koraalriffen — ongeacht het seizoen. De diversiteit aan zeewezens is ongeëvenaard: vissen, kwallen, zeepaardjes, zeesterren, schildpadden, krabben en onderzeeërs ondersteunen elk tientallen unieke producten zonder herhaling. In Nederland versterken Blijdorp Sea Aquarium, het Dolfinarium in Harderwijk en de Waddenzeebeleving de interesse van kinderen in het zeeleven, terwijl basisscholen natuur- en milieuonderwijs integreren met oceaanthema\'s rond watervervuiling en zeediërenbescherming. Vakoverschrijdende veelzijdigheid maakt deze niche waardevol: oceaan sluit aan bij rekenen via tellen, taalvaardigheid via zeediervocabulaire, en wetenschap via habitats en ecosystemen. Op Etsy en Gumroad converteren gerichte producten zoals zeedier-koppelwerkbladen beter dan generieke opties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De onderwaterwereld printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat de fascinatie van kinderen voor het oceaanleven en zeewezens functioneert als een echte jaarronde altijdgroene interesse die nooit afhankelijk is van weer, feestdagen of kalendertiming. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle vensters, profiteert de onderwaterniche van de eenvoudige realiteit dat kinderen gefascineerd zijn door haaien, dolfijnen, walvissen, octopussen en de kleurrijke wereld van koraalriffen in elke maand van het jaar. Aquariumbezoeken, oceaandocumentaires, zeedierspeelgoed en onderwaterthema media behouden een constante stroom van betrokkenheid die zich direct vertaalt in ouder- en verkopervraag naar oceaanthema educatief materiaal. Dit consistente vraagpatroon maakt onderwaterprintables een betrouwbare omzetbasis zonder de eet-of-vast cycli die verkopers in meer seizoensgebonden niches uitdagen.
 
@@ -147,24 +147,19 @@ Wetenschapseducatieverbindingen maken onderwaterprintables bijzonder waardevol v
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen met oceaanthema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met zeedierthema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren pakket voor onderwaterproducten',
     },
     {
       pageType: 'guide',

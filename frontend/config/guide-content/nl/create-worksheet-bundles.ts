@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'werkblad bundels maken die verkopen',
+    primaryKeyword: 'bundels werkbladen maken die verkopen',
     secondaryKeywords: [
       'werkblad bundel strategie',
       'printable pakket samenstellen',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'bundelverpakking mockup preview branding bestandsorganisatie naamconventies',
       'multiplatform bundelvermeldingen universele strategie platformoverschrijdend verkopen',
     ],
-    titleTag: 'Werkblad Bundels Maken Die Verkopen — Gids',
-    metaDescription: 'Leer werkblad bundels maken die verkopen op elk platform. Bundeltypen, prijspsychologie, waardestapeling en professionele verpakking voor maximale omzet.',
+    titleTag: 'Bundels werkbladen die verkopen | LessonCraftStudio',
+    metaDescription: 'Leer werkbladbundels maken die verkopen op Etsy, Bol.com en KDP. Bundeltypen, prijspsychologie, waardestapeling en verpakkingstips voor maximale omzet.',
   },
 
   hero: {
-    title: 'Hoe Werkblad Bundels Maken Die Verkopen',
-    tagline: 'Een complete gids voor het samenstellen van waardevolle werkblad bundels die je omzet per transactie verhogen op elk verkoopplatform — met bundeltypen en structuren, productselectie voor overtuigende combinaties, waardestapeling en psychologie van waardeperceptie, professionele bundelverpakking en presentatie, ankerprijzen en kortingsstrategieën, platformonafhankelijke vermeldingsoptimalisatie en prestatietracking voor continue verbetering',
+    title: 'Werkbladbundels maken die echt verkopen',
+    tagline: 'Complete gids voor het samenstellen van waardevolle werkbladbundels die uw omzet per transactie verhogen op Etsy, Bol.com, KDP en elk ander verkoopplatform.',
     description: 'Werkbladen bundelen is de meest effectieve manier om je gemiddelde bestelwaarde te verhogen zonder nieuwe content te maken. Een goed gestructureerde bundel transformeert individuele producten ter waarde van €8 tot €12 elk in een pakket van €35 tot €65 dat kopers als een betere deal ervaren — ook al verdien jij aanzienlijk meer per transactie. Deze gids behandelt universele bundelstrategie die werkt op Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica en elk ander platform waar je printbare werkbladen verkoopt.',
   },
 
@@ -155,18 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Etsy Printables Prijzen Bepalen' },
-    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables Verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'verkopen-creative-fabrica', anchorText: 'Educatief Materiaal Verkopen op Creative Fabrica' },
-    { pageType: 'guide', slug: 'tpt-materialen-maken-verkopen', anchorText: 'Gumroad Materialen Maken en Verkopen' },
-    { pageType: 'guide', slug: 'optellen-werkbladen-maken', anchorText: 'Optellen Werkbladen Maken' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Woordzoekers Maken met Afbeeldingen' },
-    { pageType: 'guide', slug: 'kleurplaten-maken', anchorText: 'Kleurplaten Maken van Thematische Afbeeldingen' },
-    { pageType: 'guide', slug: 'koppel-werkbladen-maken', anchorText: 'Koppelwerkbladen Maken voor Kleuters' },
-    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids Printable Bedrijf Starten' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategie voor educatieve werkbladen' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Productlijn printables opbouwen' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche kiezen voor uw printables-business' },
   ],
 
   toolsRecommended: [

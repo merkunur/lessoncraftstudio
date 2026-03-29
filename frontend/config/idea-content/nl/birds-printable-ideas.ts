@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vogels Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende vogel printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Productconcepten, platformstrategieën en nichetips voor verkopers.',
+    titleTag: 'Printables vogels om te verkopen | LessonCraftStudio',
+    metaDescription: 'Verkoop printables met vogels op Etsy en KDP. Productideeën voor werkbladen met uilen, papegaaien en pinguïns die seizoensgebonden pieken benutten.',
 
-    primaryKeyword: 'vogels printable ideeën',
+    primaryKeyword: 'printables vogels om te verkopen',
     secondaryKeywords: [
-      'vogelthema werkbladen verkopen',
-      'vogel printable business ideeën',
-      'vogel activiteiten verkopen online',
-      'vogel werkbladen niche voor verkopers',
+      'vogelthema werkbladen Etsy verkopen',
+      'vogel printable business starten',
+      'ornithologie activiteitenboeken KDP',
+      'vogelsoorten printables niche',
     ],
     lsiKeywords: [
-      'natuur educatieve printables',
-      'natuurobservatie werkbladen',
-      'ornithologie activiteiten voor kinderen',
+      'natuurobservatie werkbladen maken',
+      'vogelkleurplaten printable winkel',
+      'migratie en habitat printbare producten',
     ],
   },
   hero: {
-    title: 'Vogels Printable Businessideeën voor Verkopers',
-    description: 'Vogels bieden een van de meest visueel diverse en universeel aantrekkelijke thema\'s op de markt voor educatieve printables. Van uilen en arenden tot papegaaien en pinguïns — de enorme variatie aan vogelsoorten geeft printable-verkopers een enorm creatief canvas voor productgetrapte productpakketten. Kinderen zijn van nature gefascineerd door vogels omdat ze vliegen, zingen en in levendige kleuren voorkomen, waardoor werkbladen met vogelthema inherent boeiend zijn voor jonge gebruikers. Voor verkopers op Etsy, Amazon KDP en Gumroad profiteert de vogelniche van sterke banden met wetenschapsproductcatalogusstandaarden rond habitats, migratie en levenscycli. Seizoensgebonden interessepieken tijdens het lentebroe seizoen en de herfsttrek, terwijl de crossover met vogelspotten volwassen kopers naar de markt brengt naast ouders en verkopers. Deze gids biedt specifieke productideeën, platformstrategieën en prijsbenaderingen om je te helpen een winstgevende productlijn met vogelthema op te bouwen met onze werkblad-generator tools. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables met vogels verkopen als ondernemer',
+    description: 'Vogels bieden een van de meest visueel diverse thema\'s voor printable-verkopers. Van uilen en arenden tot papegaaien en pinguïns — de enorme soortvariatie geeft u een breed creatief canvas voor productbundeling en nicheuitbreiding. Kinderen zijn gefascineerd door vogels vanwege hun kleuren, zang en vliegvermogen, waardoor werkbladen met vogelthema inherent boeiend zijn. Voor ondernemers op Etsy, Amazon KDP en Gumroad profiteert deze niche van sterke banden met wetenschapsonderwijs rond habitats, migratie en levenscycli. Seizoenspieken tijdens het lentbroedseizoen en de herfsttrek zorgen voor voorspelbare vraagstijgingen bovenop de altijdgroene basisverkopen. Of u nu kleurplaten, woordzoekers of complete vogelpakketten maakt — dit thema levert betrouwbare omzet met premiumprijzen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De niche van vogel printables neemt een unieke positie in waar educatieve content samenkomt met natuurwaardering, waardoor vraag ontstaat vanuit meerdere koopsegmenten. Ouders zoeken werkbladen met vogelthema om achtertuin-vogelspotactiviteiten, natuurwandelingen en de wetenschappelijke nieuwsgierigheid van hun kinderen te complementeren. verkopers hebben printbare producten nodig voor ornithologielessen, habitatstudies en seizoensgebonden migratielessen die voorkomen in het productcatalogus voor jonge kinderen en de basisschool. Thuisonderwijzers bouwen regelmatig meerwekelijkse vogelstudieunits op die divers printbaar materiaal vereisen over meerdere vaardigheidsgebieden.
 
@@ -149,19 +149,19 @@ De vogelniche biedt ook sterke opties voor getrapte productpakketten door region
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Vogelkleurplaten maken en verkopen',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'zoek-voorwerpen-werkbladen',
+      anchorText: 'Zoek voorwerpen werkbladen met vogels',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren bundel voor verkopers',
     },
     {
       pageType: 'guide',

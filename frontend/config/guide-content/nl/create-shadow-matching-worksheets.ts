@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schaduw koppelen werkbladen maken',
+    primaryKeyword: 'schaduwwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'schaduw koppelen werkbladen maken om te verkopen',
-      'silhouet koppel werkblad generator',
-      'printbare schaduwpuzzels voor Etsy en KDP',
-      'maak het compleet gesplitste-afbeelding werkbladen',
+      'schaduw koppelen werkbladen verkopen Etsy',
+      'silhouetpuzzels Amazon KDP maken',
+      'schaduwwerkbladen verkopen op Bol.com',
+      'visuele waarneming werkbladen productlijn',
     ],
     lsiKeywords: [
-      'pixelniveau silhouetgeneratie voor werkbladen',
-      'visuele waarneming koppelactiviteit maker',
-      'schaduw koppelen werkbladen met automatische antwoordsleutel',
-      'schaduwpuzzels verkopen op Etsy',
-      'Amazon KDP visuele waarneming werkboeken',
+      'schaduwpuzzels bundels voor Etsy winkel',
+      'visuele waarneming werkboek Brave New Books',
+      'schaduw koppelen generator commercieel',
+      'silhouet werkbladen catalogus opbouwen',
       'commerciële licentie schaduw koppelen tool',
+      'Maak Het Compleet werkbladen verkopen',
     ],
-    titleTag: 'Schaduw Koppelen Werkbladen Maken — Gids',
-    metaDescription: 'Maak schaduw koppelen werkbladen met twee modi: Schaduw Koppelen voor silhouetten en Maak Het Compleet voor gesplitste afbeeldingen. Stapsgewijze gids.',
+    titleTag: 'Schaduwwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u schaduwwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Twee modi: Schaduw Koppelen en Maak Het Compleet met antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Schaduw Koppelen Werkbladen Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van tweemodus schaduw koppelen werkbladen met pixelniveau silhouetgeneratie, Maak Het Compleet gesplitste-afbeeldingshelften, Fisher-Yates derangement, schakelbare labels, automatisch gegenereerde antwoordsleutels en puur visuele uitvoer die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Schaduw koppelen is een kernvaardigheid voor visuele waarneming die kinderen ontwikkelen voordat ze kunnen lezen of rekenen, en schaduw koppelen werkbladen blijven zeer gevraagd op educatieve marktplaatsen. Ouders hebben ze nodig voor visuele discriminatieoefeningen thuis. verkopers hebben ze nodig voor waarnemingsactiviteiten en verrijkingsoefeningen. Ergotherapeuten gebruiken ze voor visuele verwerkingsbeoordelingen. Deze gids leidt je door het volledige creatieproces met de Schaduw Koppelen Maker — van het kiezen tussen Schaduw Koppelen en Maak Het Compleet oefenmodi tot het configureren van labels, genereren van pixelniveau silhouetten en exporteren van productie-klare bestanden met automatisch gegenereerde antwoordsleutels. Of je nu je eerste schaduw koppelen product maakt of een bestaande visuele waarnemingscatalogus uitbreidt, aan het einde van deze handleiding heb je een afgewerkt product klaar om te vermelden.',
+    title: 'Schaduwwerkbladen maken en verkopen op marktplaatsen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare schaduw koppelen werkbladen met silhouetten en automatische antwoordsleutels voor Etsy en KDP',
+    description: 'Schaduw koppelen is een kernvaardigheid voor visuele waarneming die kinderen ontwikkelen voordat ze kunnen lezen of rekenen, en schaduw koppelen werkbladen blijven zeer gevraagd op educatieve marktplaatsen. Ouders hebben ze nodig voor visuele discriminatieoefeningen thuis. verkopers hebben ze nodig voor waarnemingsactiviteiten en verrijkingsoefeningen. Ergotherapeuten gebruiken ze voor visuele verwerkingsbeoordelingen. Deze gids leidt u door het volledige creatieproces met de Schaduw Koppelen Maker — van het kiezen tussen Schaduw Koppelen en Maak Het Compleet oefenmodi tot het configureren van labels, genereren van pixelniveau silhouetten en exporteren van productieklare bestanden met automatisch gegenereerde antwoordsleutels. Of u nu uw eerste schaduw koppelen product maakt of een bestaande visuele waarnemingscatalogus uitbreidt, aan het einde van deze handleiding hebt u een afgewerkt product klaar om te vermelden.',
   },
 
   introduction: 'Visuele waarneming is een van de fundamentele cognitieve vaardigheden in de vroege kindertijd. Voordat kinderen woorden kunnen lezen, vergelijkingen kunnen oplossen of fysieke ruimtes met vertrouwen kunnen navigeren, ontwikkelen ze het vermogen om vormen te herkennen, contouren te onderscheiden en gedeeltelijke afbeeldingen mentaal te reconstrueren. Dit maakt schaduw koppelen en gesplitste-afbeelding activiteiten universeel relevante producten met aanhoudende vraag van kleuterschool tot en met groep 5.\n\nWat schaduw koppelen werkbladen bijzonder effectief maakt als printbaar product is het puur visuele formaat. Anders dan lettertraceerwerkbladen of rekenwerkbladen die taalspecifieke tekst vereisen, bestaan schaduw koppelen puzzels volledig uit afbeeldingen, silhouetten en gesplitste helften. Er is geen tekst om te vertalen, geen taalbarrière om te overbruggen en geen locatiespecifieke inhoud om te onderhouden. Een enkel schaduw koppelen werkblad verkoopt identiek in elk land, op elke marktplaats, zonder aanpassing. Deze wereldwijde draagbaarheid geeft schaduw koppelen producten een structureel voordeel ten opzichte van tekstzware werkbladcategorieën waar verkopers aparte versies voor elke taal moeten maken.\n\nDe Schaduw Koppelen Maker regelt de technische complexiteit van het maken van deze activiteiten. Het biedt twee verschillende oefenmodi in één tool. Schaduw Koppelen modus genereert automatisch pixelniveau zwarte silhouetten van je geselecteerde afbeeldingen — elke pixel met alfa groter dan tien wordt omgezet naar puur zwart, wat nauwkeurige contouren produceert die fijne details bewaren zoals dierenoren, voertuigprofielen en objectcontouren. Maak Het Compleet modus splitst afbeeldingen in helften langs horizontale of verticale snijrichtingen, waardoor ruimtelijk redeneren puzzels ontstaan waarbij gebruikers de stukken opnieuw samenvoegen. Beide modi gebruiken een Fisher-Yates derangement algoritme dat garandeert dat geen enkel item op zijn oorspronkelijke positie verschijnt, waardoor triviale positiegebaseerde koppelingen worden geëlimineerd en elk werkblad een echte koppeluitdaging presenteert.\n\nSchakelbare labels voegen een extra dimensie van productvariatie toe. Met labels aan tonen afbeeldingen A, B, C, D-identificatoren en silhouetten of helften tonen 1, 2, 3, 4-identificatoren, wat gestructureerde ondersteuning biedt voor jongere gebruikers die letter-cijfer paren als antwoorden schrijven. Met labels uit wordt het werkblad een puur visuele koppeluitdaging zonder alfanumerieke aanwijzingen, ideaal voor puzzelboeken en gevorderde activiteiten. Deze enkele schakelaar creëert twee verschillende moeilijkheidsniveaus vanuit identieke inhoud.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeld schaduw koppelen werkbladen maken, beide oefenmodi testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,13 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'shadow-match', anchorText: 'Schaduw Koppelen Werkblad Generator — Volledige Details' },
-    { pageType: 'guide', slug: 'koppel-werkbladen-maken', anchorText: 'Koppel Werkbladen Maker — Volledige Details' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Probeer de Schaduw Koppelen Werkblad Maker' },
+    { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Schaduw Koppelen Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Koppel Generator voor aanvullende koppelactiviteiten' },
+    { pageType: 'bundle', slug: 'matchen-sorteren-pakket', anchorText: 'Matchen & Sorteren Pakket met schaduwwerkbladen' },
   ],
 
   toolsRecommended: [

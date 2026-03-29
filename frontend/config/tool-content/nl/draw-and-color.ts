@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'rastertekenen werkblad generator',
+    primaryKeyword: 'gratis teken- en kleurwerkbladen maken',
     secondaryKeywords: [
-      'rasterteken werkblad maker voor verkopers',
-      'teken en kleur werkbladen maken om te verkopen',
-      'printbare rasterreproductie werkbladen commercieel gebruik',
-      'cel-voor-cel tekenwerk werkblad generator voor KDP',
+      'rastertekenen werkbladen online maken',
+      'teken en kleur werkbladen gratis proberen',
+      'rasterreproductie werkbladen generator gratis',
+      'cel-voor-cel tekenwerkblad maker online',
     ],
     lsiKeywords: [
-      'dubbel raster teken printables voor Etsy',
+      'dubbel raster teken werkbladen gratis online',
       'aanpasbaar aanwijzingspercentage werkblad tool',
-      'symmetrie spiegelmodus tekenwerkblad maker',
+      'symmetrie spiegelmodus tekenwerkblad gratis',
     ],
-    titleTag: 'Rastertekenen Werkblad Generator — Teken & Kleur Maker',
-    metaDescription: 'Genereer rasterteken werkbladen met dubbele rasters, aanpasbaar aanwijzingspercentage, drie symmetriemodi en thematische beeldsets.',
+    titleTag: 'Teken- en kleurwerkbladen gratis | LessonCraftStudio',
+    metaDescription: 'Maak rasterteken werkbladen met dubbele rasters, aanpasbaar aanwijzingspercentage en drie symmetriemodi. Probeer gratis met watermerk, geen registratie.',
   },
 
   hero: {
-    title: 'Rastertekenen Werkblad Maker',
-    tagline: 'Genereer dubbel-raster tekenwerkbladen met aanpasbaar aanwijzingspercentage, drie symmetriemodi en puur visuele nul-tekst uitvoer die wereldwijd verkoopt zonder vertaling',
-    description: 'Maak professionele rasterteken werkbladen waarbij gebruikers een referentieafbeelding reproduceren door deze cel-voor-cel over te tekenen van een hulpraster naar een leeg oefenraster. Twee rasters verschijnen per geselecteerde afbeelding: een Oefenraster met lege cellen waar gebruikers tekenen, en een Hulpraster dat een instelbaar percentage van de referentieafbeelding toont als visuele aanwijzingen. Pas het aanwijzingspercentage aan van 10% tot 75% om de moeilijkheid te regelen — minder aanwijzingen betekent moeilijkere oefeningen die scherpere observatie vereisen. Configureer rasterafmetingen van 3×3 (9 cellen) tot 10×10 (100 cellen), met rijen en kolommen onafhankelijk instelbaar. Drie symmetriemodi voegen een ruimtelijk redeneren dimensie toe: Willekeurig verspreidt aanwijzingscellen op willekeurige posities, Horizontale spiegeling spiegelt aanwijzingen links-rechts, en Verticale spiegeling spiegelt aanwijzingen boven-onder, elk met een deel-om-te-onthullen keuze die bepaalt welke helft wordt getoond. De inhoud komt uit de ingebouwde zwart-wit contourtekeningenbibliotheek met 100+ collecties met meer dan 3.000 zwart-wit illustraties die specifiek zijn ontworpen voor tekenen en kleuren — schone contourlijnen die gebruikers reproduceren en vervolgens inkleuren, geen kleurrijke thema\'s. Dit is een puur visuele app: werkbladen bevatten uitsluitend rasterafbeeldingen met nul tekst, waardoor ze universeel verkoopbaar zijn zonder vertaling. Er is geen apart antwoordblad nodig omdat het hulpraster zelf als referentieoplossing dient. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand en Fredoka. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis teken- en kleurwerkbladen online maken',
+    tagline: 'Genereer dubbel-raster tekenwerkbladen met aanpasbaar aanwijzingspercentage, drie symmetriemodi en puur visuele nul-tekst uitvoer',
+    description: 'Probeer onze rastertekenen werkbladen generator gratis en maak direct professionele teken- en kleurwerkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: dubbel rastersysteem met oefenraster en hulpraster, aanpasbaar aanwijzingspercentage van 10% tot 75%, rasterafmetingen van 3x3 tot 10x10, en drie symmetriemodi (Willekeurig, Horizontale spiegeling, Verticale spiegeling). Kies uit meer dan 3.000 zwart-wit contourillustraties over 100+ collecties of upload eigen afbeeldingen. Exporteer als printklare PDF of hoge-resolutie JPEG op 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die creatieve tekenactiviteiten zoeken, leerkrachten die visueel-ruimtelijke werkbladen nodig hebben, en iedereen die professionele rastertekenoefeningen wil genereren zonder ontwerpervaring.',
   },
 
   tutorial: {
-    title: 'Rasterteken Werkbladen Maken in 8 Stappen',
+    title: 'Teken- en kleurwerkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de Rastertekenen Werkblad Maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'rastertekenen-werkbladen', anchorText: 'Rastertekenen Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'rastertekenen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Maker' },
     { pageType: 'tool', slug: 'patronen-werkblad-maker', anchorText: 'Patronen Werkblad Maker' },
     { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },

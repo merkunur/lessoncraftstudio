@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'reken activiteitenboeken KDP',
+    primaryKeyword: 'rekenboeken maken voor Amazon KDP',
     secondaryKeywords: [
       'hoe reken activiteitenboeken maken voor Amazon KDP',
       'KDP rekenwerkboek uitgeven gids',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'rekenwerkboek pagina-aantal moeilijkheidsprogressie antwoordsleutels',
       'KDP publicatiebeoordelingsproces proefexemplaar auteurskopieën',
     ],
-    titleTag: 'Reken Activiteitenboeken Maken KDP — Gids',
-    metaDescription: 'Reken activiteitenboeken maken voor Amazon KDP. Manuscript opmaak, omslagontwerp, Amazon zoekwoordoptimalisatie en royalty-prijsstrategie voor uitgevers.',
+    titleTag: 'Rekenboeken voor Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Maak rekenboeken voor Amazon KDP met 5 generatoren. Manuscript opmaak, omslagontwerp, zoekwoordoptimalisatie en royalty-prijsstrategie voor uitgevers.',
   },
 
   hero: {
-    title: 'Hoe Reken Activiteitenboeken Maken voor Amazon KDP',
-    tagline: 'Een complete uitgeversgids voor het maken en verkopen van reken activiteitenboeken op Amazon KDP — inclusief manuscript opmaak met juiste trimformaten en marges, boekomslagontwerp met rugbreedteberekeningen, Amazon zoekwoordveldoptimalisatie over alle 7 zoekwoordslots, browse-categorieselectie voor maximale vindbaarheid, royalty-prijsstrategie op zowel het 35-procent als 60-procent niveau, inhoudsplanning met moeilijkheidsprogressie over 40 tot 80 binnenpagina\'s, antwoordsleutelplaatsing, print-on-demand economie, proefexemplaren bestellen, en het opbouwen van een serie gerelateerde rekenwerkboeken die elkaar cross-promoten op Amazon',
-    description: 'Amazon KDP laat je print-on-demand reken activiteitenboeken publiceren zonder vooraf drukkosten en zonder voorraadbeheer. Deze gids doorloopt elke stap van het maken van een professioneel rekenwerkboek — van het genereren van diverse rekeninhoud met 5 gespecialiseerde werkbladgeneratoren, via manuscript opmaak en omslagontwerp, tot het optimaliseren van je Amazon-vermelding voor zoekzichtbaarheid en het instellen van prijzen die je royalty\'s maximaliseren.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk, zodat je voorbeeldinhoud kunt maken en je aanpak kunt testen voordat je een licentie koopt.',
+    title: 'Rekenboeken maken voor Amazon KDP',
+    tagline: 'Van werkbladgeneratie tot publicatie en royalty-optimalisatie',
+    description: 'Amazon KDP laat u print-on-demand rekenboeken publiceren zonder vooraf drukkosten of voorraadbeheer. Deze gids doorloopt elke stap: van het genereren van diverse rekeninhoud met 5 werkbladgeneratoren, via manuscript opmaak en omslagontwerp, tot het optimaliseren van uw Amazon-vermelding en het instellen van prijzen die royalty\'s maximaliseren. Ook relevant voor de Nederlandse markt via Brave New Books of rechtstreeks via KDP. Elke generator biedt een gratis proefversie met watermerk.',
   },
 
-  introduction: 'Reken activiteitenboeken zijn een van de meest consistente verkopers op Amazon KDP. Ouders zoeken dagelijks op Amazon naar werkboeken die klasvaardigheden versterken, en verkopers kopen activiteitenboeken voor aanvullende oefening. In tegenstelling tot het verkopen van individuele werkblad-PDF\'s op Etsy, betekent KDP-publicatie het maken van een gebonden boek dat Amazon on demand drukt en verzendt elke keer dat een klant bestelt. Je houdt nooit voorraad aan, betaalt nooit vooraf drukkosten en handelt nooit verzending af — Amazon beheert het volledige leveringsproces terwijl jij royalty\'s verdient op elke verkoop.\n\nDe economie werkt anders dan bij digitale downloadmarktplaatsen. Op Etsy stel je een prijs in en houd je het grootste deel na kleine vermeldings- en transactiekosten. Op KDP berekent Amazon je royalty door de drukkosten af te trekken van je verkoopprijs en vervolgens een royalty-percentage van 60 of 35 procent toe te passen, afhankelijk van je prijs- en distributiekeuses. Een goed geprijsd reken activiteitenboek met 50 tot 60 binnenpagina\'s kan tussen 2 en 5 dollar per verkoop opleveren op het 60-procent royaltyniveau — en met Amazon die alle levering afhandelt, zijn die royalty\'s bijna volledig winst.\n\nHet echte voordeel van KDP is schaal en vindbaarheid. Amazon is waar de meeste ouders en onderwijzers als eerste zoeken naar educatief materiaal. Je reken activiteitenboek verschijnt naast traditioneel uitgegeven werkboeken in zoekresultaten, en Amazon\'s aanbevelingsengine kan je boek tonen aan kopers die vergelijkbare titels hebben gekocht. Het opbouwen van een catalogus van gerelateerde rekenboeken creëert een vliegwieleffect waarbij elke titel de andere promoot via Amazon\'s "Klanten kochten ook" en "Vaak samen gekocht" functies.\n\nDeze gids behandelt de complete workflow van inhoudcreatie tot publicatie, met 5 werkbladgeneratoren die diverse rekenactiviteiten produceren geschikt voor gebonden boekformaat. Je leert hoe je pagina-aantallen plant, manuscripten opmaakt volgens KDP-specificaties, omslagen ontwerpt die voldoen aan Amazon\'s vereisten, vermeldingen schrijft geoptimaliseerd voor Amazon-zoekresultaten, en je boeken prijst voor maximale royalty\'s.',
+  introduction: 'Rekenboeken zijn een van de meest consistente verkopers op Amazon KDP. Ouders en verkopers zoeken dagelijks naar werkboeken die rekenvaardigheden versterken. Amazon drukt en verzendt elk exemplaar on demand, zonder vooraf drukkosten of voorraadbeheer. Een goed geprijsd rekenboek met 50 tot 60 pagina\'s levert 2 tot 5 dollar royalty per verkoop op. Het grote voordeel is vindbaarheid: uw boek verschijnt naast traditioneel uitgegeven werkboeken, en Amazon\'s aanbevelingsengine promoot gerelateerde titels via \'Klanten kochten ook\'. Voor de Nederlandse markt kunt u ook via Brave New Books of Bol.com publiceren. Deze gids behandelt de complete workflow van inhoudcreatie tot publicatie met 5 werkbladgeneratoren. Elke generator biedt een gratis proefversie met watermerk.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Hoe Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'word-search-books-kdp', anchorText: 'Hoe Woordzoekerboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Hoe Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
-    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Top KDP Activiteitenboek Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Volledige Details' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator' },
     { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
   ],
 

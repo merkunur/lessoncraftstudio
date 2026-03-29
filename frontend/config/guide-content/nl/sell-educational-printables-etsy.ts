@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'educatieve printables verkopen op Etsy',
+    primaryKeyword: 'educatieve werkbladen verkopen op Etsy',
     secondaryKeywords: [
       'hoe educatieve printables verkopen op Etsy',
       'Etsy educatieve printable winkel strategie',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'cross-categorie educatieve printable bundeling Etsy strategie',
       'Etsy vermeldingsfoto mockups voor educatieve printable producten',
     ],
-    titleTag: 'Educatieve Printables Verkopen op Etsy — Gids',
-    metaDescription: 'Educatieve printables verkopen op Etsy met 33 generatoren in 6 categorieën. Winkelstrategie, Etsy-SEO, cross-categorie bundeling en prijsstelling voor.',
+    titleTag: 'Werkbladen verkopen op Etsy | LessonCraftStudio',
+    metaDescription: 'Educatieve werkbladen verkopen op Etsy met 33 generatoren in 6 categorieën. Multi-categorie winkelstrategie, Etsy-SEO en cross-categorie bundeling.',
   },
 
   hero: {
-    title: 'Hoe Educatieve Printables Verkopen op Etsy',
-    tagline: 'Een complete platformgids voor het opbouwen van een gediversifieerde Etsy-winkel die educatieve printables verkoopt gemaakt met 33 gespecialiseerde generatoren in 6 categorieën — inclusief multi-categorie winkelstrategie, categoriespecifieke Etsy-SEO-optimalisatie met alle 13 tags, cross-categorie bundeling en prijsstelling, vermeldingsfotografie voor verschillende producttypen, seizoensgebonden productrotatie over rekenwerkbladen, taalactiviteiten, visueel leren, zoekactiviteiten, puzzels en logica, en opschaling van één categorie naar een complete educatieve printable winkel',
-    description: 'Educatieve printables zijn een van de meest consistent gezochte digitale productcategorieën op Etsy. Ouders, verkopers, thuisonderwijsfamilies en bijlescentra zoeken elke dag naar rekenwerkbladen, woordzoekerpuzzels, kleurplaten, zoekactiviteiten, sudoku-boeken en tientallen andere educatieve formaten. Deze gids laat je zien hoe je een gediversifieerde Etsy-winkel opbouwt die alle 6 educatieve printable-categorieën bestrijkt met 33 gespecialiseerde generatoren — waardoor je een concurrentievoordeel creëert dat winkels met één categorie niet kunnen evenaren. Of je nu je eerste educatieve printable lanceert of een bestaande winkel uitbreidt naar nieuwe categorieën, aan het einde van deze gids heb je een complete multi-categorie strategie.\n\nElke functie in alle 33 generatoren is beschikbaar in de gratis proefversie met watermerk zodat je voorbeeldproducten kunt maken van elke generator, elke configuratie kunt testen en de uitvoerkwaliteit kunt evalueren voordat je een commerciële licentie koopt. De commerciële licentie verwijdert watermerken en verleent volledige rechten om gegenereerde werkbladen te verkopen op Etsy en elke andere marktplaats.',
+    title: 'Educatieve werkbladen verkopen op Etsy',
+    tagline: 'Gediversifieerde winkelstrategie met 33 generatoren in 6 categorieën',
+    description: 'Educatieve printables zijn een van de meest consistent gezochte categorieën op Etsy. Deze gids laat u zien hoe u een gediversifieerde winkel opbouwt die alle 6 categorieën bestrijkt met 33 generatoren, waardoor u een concurrentievoordeel creëert dat winkels met één categorie niet kunnen evenaren. U leert multi-categorie winkelstrategie, categoriespecifieke SEO-optimalisatie, cross-categorie bundeling en seizoensgebonden productrotatie. Elke generator biedt een gratis proefversie met watermerk zodat u voorbeeldproducten kunt maken en de uitvoerkwaliteit kunt evalueren voordat u een commerciële licentie koopt.',
   },
 
-  introduction: 'De markt voor educatieve printables op Etsy is enorm, maar de meeste verkopers concurreren in een enkele smalle categorie. Een winkel die alleen optelwerkbladen verkoopt concurreert met elke andere verkoper van optelwerkbladen. Een winkel die alleen woordzoekers verkoopt concurreert met elke andere woordzoekerverkoper. De verkopers die duurzame bedrijven opbouwen zijn degenen die diversifiëren over meerdere educatieve printable-categorieën — verschillende kopersegmenten bereiken, verschillende seizoenspieken benutten en verschillende zoektermen targeten die een winkel met één categorie nooit zou bereiken.\n\nDit is waar een multi-categorie aanpak een echt concurrentievoordeel wordt. Met 33 generatoren georganiseerd in 6 educatieve categorieën — Rekenen, Lezen en Taal, Visueel Leren, Zoeken en Vinden, Puzzels en Logica, en Matchen en Sorteren — kun je een winkel opbouwen met honderden unieke producten die elke leeftijdsgroep van kleuterschool tot en met groep 8 en elk vakgebied waar ouders en verkopers naar zoeken bestrijken.\n\nDe zes categorieën bedienen fundamenteel verschillende kopersbehoeften. Rekenwerkbladen richten zich op rekenoefening. Leesproducten richten zich op leesvaardigheid en woordenschat. Visueel leren richt zich op creatieve ontwikkeling. Zoekactiviteiten richten zich op aandacht en observatie. Puzzels richten zich op kritisch denken. Matchactiviteiten richten zich op cognitieve vaardigheden voor jonge kinderen. Een enkele koper — een ouder, een verkoper, een thuisonderwijzer — heeft vaak producten uit meerdere categorieën nodig, en een winkel die ze allemaal heeft vangt die hele aankoop in plaats van de koper te verliezen aan een concurrent voor hun tweede product.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldproducten maken van alle 33 generatoren, elke configuratie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie koopt voor de categorieën die je wilt verkopen.',
+  introduction: 'De markt voor educatieve printables op Etsy is enorm, maar de meeste verkopers concurreren in een enkele smalle categorie. De verkopers die duurzame bedrijven opbouwen diversifiëren over meerdere categorieën: verschillende kopersegmenten bereiken, verschillende seizoenspieken benutten en meer zoektermen targeten. Met 33 generatoren in 6 categorieën — Rekenen, Lezen en Taal, Visueel Leren, Zoeken en Vinden, Puzzels en Logica, en Matchen en Sorteren — bouwt u een winkel met honderden unieke producten. Een enkele koper heeft vaak producten uit meerdere categorieën nodig, en een winkel die ze allemaal heeft vangt die hele aankoop. Elke generator biedt een gratis proefversie met watermerk zodat u voorbeeldproducten kunt maken voordat u een commerciële licentie koopt.',
 
   tutorial: [
     {
@@ -155,16 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Hoe Woordzoeker Werkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-kleurplaten-maken', anchorText: 'Hoe Etsy Kleurplaten Maken die Verkopen' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe een Etsy Printable Shop Starten vanuit Niets' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Volledige Details' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket' },
+    { pageType: 'bundle', slug: 'lezen-taal-pakket', anchorText: 'Lezen en Taal Pakket' },
   ],
 
   toolsRecommended: [

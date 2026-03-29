@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'welke hoort er niet bij generator',
+    primaryKeyword: 'welke hoort er niet bij werkbladen voor Etsy en KDP',
     secondaryKeywords: [
-      'printbare vreemde eend puzzel maker voor Etsy verkopers',
-      'welke hoort er niet bij werkblad generator voor KDP uitgevers',
-      'visuele discriminatie werkblad maker commerciële licentie Gumroad',
-      'vind de vreemde eend puzzels verkopen op Gumroad',
+      'vreemde-eend generator Etsy',
+      'welke hoort er niet bij werkbladen KDP',
+      'vreemde eend commerciële licentie',
+      'logische puzzels verkopen',
     ],
     lsiKeywords: [
       'digitale welke hoort er niet bij printables online bedrijf',
       'commercieel gebruik visuele discriminatie werkblad generator',
       'printbare vind het verschil puzzel business tools',
     ],
-    titleTag: 'Welke Hoort Er Niet Bij Generator | Maak Werkbladen',
+    titleTag: 'Welke hoort er niet bij — Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy, KDP & Gumroad. Twee puzzelmodi, automatisch antwoordblad met rode cirkels, 104 thema\'s.',
+      'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy en Amazon KDP. Twee puzzelmodi, automatisch antwoordblad. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Welke Hoort Er Niet Bij Werkblad Generator voor Visuele Discriminatie Puzzels',
+    title: 'Welke hoort er niet bij werkbladen voor Etsy en KDP',
     tagline:
-      'Twee generatiemodi — Identiek en Vergelijkbaar — met per-oefening moeilijkheidsoverschrijving, 5–10 instelbare oefeningen, automatisch gegenereerde antwoordbladen met rode cirkelmarkeringen, en puur visuele puzzels die in alle 11 talen werken zonder vertaling.',
+      'Gratis proefversie met watermerk — twee generatiemodi met per-oefening moeilijkheidsoverschrijving, automatische antwoordbladen met rode cirkelmarkeringen en puur visuele puzzels.',
     description:
-      'Maak professionele vind-de-vreemde-eend werkbladen waarbij gebruikers het afwijkende item in elke rij van vier afbeeldingen identificeren en omcirkelen. Kies tussen twee generatiemodi: Identiek modus plaatst drie klonen van dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema voor zoek-het-verschil uitdagingen, terwijl Vergelijkbaar modus drie afbeeldingen uit Thema A en één afbeelding uit Thema B gebruikt voor cross-thema discriminatiepuzzels. Overschrijf de modus per oefening om moeilijkheidsniveaus te mixen binnen één werkblad. Configureer 5 tot 10 oefeningen per pagina met de standaard ingesteld op 6, en schakel optionele naam- en datumvelden en oefeningnummers in voor klasklare opmaak. Elk werkblad genereert een bijbehorend antwoordblad op een apart canvastabblad — het antwoordblad tekent een rode cirkel rond het vreemde item in elke rij zodat je nooit handmatig antwoorden markeert. De automatisch gegenereerde koptekst bevat een koraalrood buitenkader (#FF6B6B, 8px lijndikte), amberkleurig binnenkader (#FFB84D, 3px lijndikte) en turquoise achtergrond (#4ECDC4) met de gelokaliseerde titel "Vind de Vreemde Eend" in donker groenblauw Fredoka (#1A535C) en instructies in rood Quicksand (#E63946) in alle 11 talen. Omdat de puzzels volledig visueel zijn — er verschijnen geen woorden op het werkblad zelf — zijn ze niet taalgevoelig en werken ze identiek in elke taal. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu visuele puzzelbundels verkoopt op Etsy.nl, kritisch denken werkboeken samenstelt voor Amazon KDP, of klasactiviteiten maakt voor Gumroad — deze generator levert productieklare welke hoort er niet bij werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Start een winstgevende productlijn welke hoort er niet bij werkbladen voor uw Etsy-shop, Amazon KDP-portfolio of Bol.com-aanbod. Kinderen bekijken een rij van vier afbeeldingen en identificeren welk item er niet bij hoort — een klassieke logische puzzel die categorisatie en kritisch denken ontwikkelt. De generator biedt twee modi: Identiek modus met drie klonen en een afwijkend item, en Vergelijkbaar modus met cross-thema discriminatie. Per-oefening moeilijkheidsoverschrijving laat u beide typen mixen op een werkblad voor gedifferentieerde bundels die hogere prijzen rechtvaardigen. Met 104 thematische collecties en meer dan 3.100 illustraties produceert u eindeloze varianten voor seizoenspakketten en themabundels. De werkbladen zijn volledig visueel zonder tekst, waardoor hetzelfde product verkoopt op de Nederlandse, Duitse en internationale markt zonder vertaling. Automatisch gegenereerde antwoordbladen met rode cirkelmarkeringen maken uw producten direct verkoopklaar. Exporteer printklare PDF\'s op 300 DPI. De gratis proefversie met watermerk geeft u toegang tot alle functies — koop een licentie om het watermerk te verwijderen.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Welke Hoort Er Niet Bij Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u welke hoort er niet bij werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Welke Hoort Er Niet Bij Generator',
+    title: 'Belangrijkste functies van de welke hoort er niet bij generator',
     features: [
       {
         title: 'Vind de Vreemde Eend Puzzels met Twee Generatiemodi',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Welke Hoort Er Niet Bij Werkbladen Online Verkoopt',
+    title: 'Hoe u welke hoort er niet bij werkbladen verkoopt op Etsy en KDP',
     cases: [
       {
         title: 'Thematische Vind de Vreemde Eend Puzzelbundels op Etsy',
@@ -207,52 +207,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'ontbrekende-puzzelstukjes-werkbladen',
-      anchorText: 'Ontbrekende Stukjes Puzzel Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sudoku-werkbladen',
-      anchorText: 'Sudoku Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'doolhof-werkbladen',
-      anchorText: 'Doolhof Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'schaduw-matching-werkbladen',
-      anchorText: 'Schaduw Matching Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Zoek en Tel Werkblad Generator',
+      anchorText: 'Ontbrekende puzzelstukjes werkbladen generator',
     },
     {
       pageType: 'bundle',
       slug: 'puzzels-logica-pakket',
-      anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Pakket',
-    },
-    {
-      pageType: 'app',
-      slug: 'odd-one-out',
-      anchorText: 'Hoe Je Welke Hoort Er Niet Bij Puzzels Maakt die Verkopen',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
+      anchorText: 'Puzzels & Logica Pakket — alle puzzel-apps in een pakket',
     },
   ],
 

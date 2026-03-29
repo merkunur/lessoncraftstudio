@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'woordkruisel werkbladen generator',
+    primaryKeyword: 'woordpuzzel door-elkaar-woorden maken voor Etsy',
     secondaryKeywords: [
-      'printbare woordkruisel werkbladen voor Etsy-verkopers',
-      'letterpuzzel maker voor KDP-uitgevers',
-      'woordkruisel activiteiten verkopen op Gumroad',
-      'woordkruisel printables commerciële licentie',
+      'woordkruisel generator Etsy',
+      'door-elkaar-woorden werkbladen KDP',
+      'woordmix puzzels commerciële licentie',
+      'letterpuzzels verkopen online',
     ],
     lsiKeywords: [
       'digitale letterpuzzel producten online bedrijf',
       'printbare woordkruisel werkbladen bedrijf',
       'commercieel gebruik letterpuzzel generator',
     ],
-    titleTag: 'Woordkruisel Generator | Maak Letterpuzzel Werkbladen',
+    titleTag: 'Door-elkaar-woorden maker voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak woordkruisel werkbladen om te verkopen op Etsy, KDP en Gumroad. Gehusselde lettertegels, klinker-medeklinker kleuren, 4 niveaus, 11 talen.',
+      'Maak door-elkaar-woorden werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. 4 niveaus, 104 thema\'s, 11 talen.',
   },
 
   hero: {
-    title: 'Woordkruisel Werkbladen Generator voor Letterpuzzel Spellingoefeningen',
-    tagline: 'Gehusselde lettertegels ontmoeten afbeeldingsaanwijzingen — vier moeilijkheidsniveaus en klinker-medeklinker kleurcodering maken van elk woord een hands-on spellingpuzzel.',
+    title: 'Door-elkaar-woorden werkbladen maken en verkopen als printables',
+    tagline: 'Gehusselde lettertegels met afbeeldingsaanwijzingen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Ontwerp professionele woordkruisel werkbladen waarbij gebruikers een afbeeldingsaanwijzing zien en door elkaar gehusselde lettertegels herschikken om het juiste woord te spellen — een letterpuzzel die tegelijkertijd spellingnauwkeurigheid, woordherkenning en fonetisch bewustzijn opbouwt. In tegenstelling tot woordraadsel puzzels waarbij gebruikers lege vakjes invullen, geeft de woordkruisel gebruikers ALLE letters maar in de verkeerde volgorde — een actieve herschikkingoefening die spelling opbouwt door manipulatie in plaats van deductie. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s, de Handmatige Bewerkingsmodus waarbij je afbeeldingen selecteert en vervolgens hun weergavenamen aanpast, of de Aangepaste Woordenlijst modus voor tekst-only puzzels met maximaal 8 woorden die je zelf intypt. Vier moeilijkheidsniveaus bepalen hoeveel aanwijzingsletters vooraf op de juiste positie worden geplaatst — van Geen Aanwijzingen (alle letters gehusseld) tot de modus Makkelijk die de helft van de letters op de juiste plek plaatst — waardoor een natuurlijke opbouw ontstaat van beginner tot gevorderd. De klinker-medeklinker kleurcodering is uniek voor de Woordkruisel: schakel gekleurde tegels in waarbij klinkers in één kleur verschijnen en medeklinkers in een andere, wat een visuele fonetische dimensie toevoegt die gebruikers helpt lettertypes te herkennen tijdens het herschikken. Plaats 1 tot 10 puzzels per werkblad (standaard: 6) en kies tussen hoofdletters en kleine letters voor de lettertegels. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij het doelwoord verandert per taal — "hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans — waardoor elke taal een apart, verkoopbaar product wordt met andere letters, een ander aantal letters en compleet andere gehusselde arrangementen. Elk werkblad genereert automatisch een antwoordblad met de correct herschikt woorden, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 300 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische spellingbundels verkoopt op Etsy.nl, letterpuzzelboeken samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor Gumroad — de Woordkruisel Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele door-elkaar-woorden werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De woordkruisel generator husselt lettertegels die gebruikers herschikken tot het juiste woord, begeleid door afbeeldingsaanwijzingen uit meer dan 3.100 illustraties in 104 thema\'s. Vier moeilijkheidsniveaus — van Makkelijk met de helft van de letters op de juiste plek tot Geen Aanwijzingen waar alles gehusseld is — geven u een ingebouwde getrapte productlijn voor bundels op verschillende niveaus. De unieke klinker-medeklinker kleurcodering voegt een fonetische dimensie toe die premium prijzen rechtvaardigt. Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek, Handmatige Bewerking of Aangepaste Woordenlijst voor tekst-only puzzels. Volledige Toegang ontgrendelt alle 11 talen — elk met andere woorden, andere letters en compleet andere puzzels — waardoor u elf verkoopbare producten creëert vanuit één workflow. Exporteer printklare PDF\'s en JPEG\'s op meer dan 300 DPI met automatisch antwoordblad. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten voor de Nederlandse en internationale markt.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Woordkruisel Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u door-elkaar-woorden werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Woordkruisel Werkbladen Generator',
+    title: 'Functies van de door-elkaar-woorden generator voor verkopers',
     features: [
       {
         title: 'Gehusselde Lettertegels met Afbeeldingsaanwijzingen',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Woordkruisel Werkbladen Online',
+    title: 'Woordkruisel werkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Thematische woordkruisel bundels op Etsy.nl',
@@ -205,13 +205,8 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alfabet-trein-werkbladen',
-      anchorText: 'Alfabettrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'voorzetsels-werkbladen',
-      anchorText: 'Voorzetsels Werkbladen Generator',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoeker Werkbladen Generator',
     },
     {
       pageType: 'app',
@@ -219,44 +214,9 @@ const content: AppContent = {
       anchorText: 'Woordraadsel Werkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-werkbladen',
-      anchorText: 'Cryptogram Werkbladen Generator',
-    },
-    {
       pageType: 'bundle',
       slug: 'lezen-taal-pakket',
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
-    },
-    {
-      pageType: 'guide',
-      slug: 'educatief-materiaal-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Educatief Materiaal op Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
-      pageType: 'idea',
-      slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
-    },
-    {
-      pageType: 'guide',
-      slug: 'woordzoekers-maken',
-      anchorText: 'Woordzoekers maken die verkopen',
     },
   ],
 

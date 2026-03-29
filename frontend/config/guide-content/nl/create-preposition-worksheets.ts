@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'voorzetsels werkbladen maken',
+    primaryKeyword: 'voorzetsels werkbladen NT2 maken verkopen',
     secondaryKeywords: [
       'voorzetsels werkbladen maken om te verkopen',
       'voorzetsels werkblad generator commercieel gebruik',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'Amazon KDP ruimtelijke taal activiteitenboeken',
       'commerciële licentie voorzetsels werkblad tool',
     ],
-    titleTag: 'Voorzetsels Werkbladen Maken — Gids',
-    metaDescription: 'Maak voorzetsels werkbladen met twee oefenmodi, vormvervanging voor scènevariatie, 7 voorzetsels selectievakjes en moedertaal positiewoorden in 11 talen.',
+    titleTag: 'Voorzetsels werkbladen NT2 verkopen | LessonCraftStudio',
+    metaDescription: 'Maak voorzetsels werkbladen voor NT2 en verkoop ze op Etsy en Bol.com. Twee oefenmodi, vormvervanging, 7 positiewoorden en 11 talen met antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Voorzetsels Werkbladen Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van ruimtelijke taal werkbladen met twee oefenmodi (Invullen voor actieve herinnering en Meerkeuze voor begeleid oefenen), Vormvervanging die scènecombinatievermenigvuldigt via een aparte afbeeldingslaag, een voorzetsels selectievakjesraster om precies te kiezen welke positiewoorden worden opgenomen, instelbare 1 tot 8 oefeningen per pagina, taalspecifieke voorzetselwoorden die vertalen naar moedertaalequivalenten in 11 talen, en automatisch gegenereerde antwoordsleutels die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
+    title: 'Voorzetsels werkbladen voor NT2 maken en verkopen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopklare voorzetsels werkbladen met twee oefenmodi, vormvervanging, 7 positiewoorden en taalspecifieke vertalingen in 11 talen.',
     description: 'Voorzetsels werkbladen zijn een visueel aantrekkelijke ruimtelijke taalactiviteit waarbij gebruikers het juiste positiewoord identificeren door afbeeldingsscènes te bestuderen die objecten in ruimtelijke relaties tonen. In tegenstelling tot abstracte grammaticaoefeningen die alleen op invulzinnen vertrouwen, geeft het scènegebaseerde formaat gebruikers concrete visuele context — een kat die op een doos zit, een bal onder een tafel, een vogel boven een hek — waardoor het ruimtelijke concept direct begrijpelijk wordt. De Voorzetsels Werkbladen Maker biedt twee oefenmodi die verschillende leerniveaus bedienen: de Invulmodus toont een scène met een lege lijn waar gebruikers het juiste voorzetsel uit het geheugen schrijven, wat actieve herinnering test die geschikt is voor oudere gebruikers en gevorderde NT2-leerders. De Meerkeuzenmodus toont dezelfde scène met selecteerbare opties, wat begeleid oefenen biedt voor beginners en jongere gebruikers, met een aanpasbare instructieregel die verkopers kunnen bewerken naar hun onderwijsstijl. Het opvallendste kenmerk is Vormvervanging — een aparte afbeeldingslaag voor scènevormen (doos, tafel, plank, mand) die je onafhankelijk van de hoofdafbeeldingen kunt wisselen. Het combineren van 10 hoofdafbeeldingen met 10 verschillende vormen levert 100 unieke oefeningscènes op, wat je productvariatie vermenigvuldigt zonder extra bronafbeeldingen nodig te hebben. Het voorzetsels selectievakjesraster laat je precies kiezen welke van de 7 positiewoorden je wilt opnemen: op, onder, boven, naast, tussen, in en buiten. Selecteer alles voor uitgebreid oefenen of focus op een subset voor gerichte lessen over specifieke ruimtelijke concepten. Stel 1 tot 8 oefeningen per pagina in om de werkbladdichtheid te regelen, met minder oefeningen die elke scène meer visuele ruimte geven voor jongere gebruikers en meer oefeningen die dichtere werkbladen creëren voor getimed oefenen. Het echte concurrentievoordeel zijn de taalspecifieke voorzetselwoorden: van taal wisselen vertaalt niet alleen de interface — elk positiewoord op het werkblad wordt bijgewerkt naar het moedertaalequivalent. Engels "on" wordt Nederlands "op," Duits "auf," Frans "sur," Spaans "sobre" en Zweeds "på." Dit betekent dat één werkbladontwerp 11 echt verschillende taalproducten oplevert met authentiek gelokaliseerde positiewoorden. Ouders gebruiken voorzetsels werkbladen voor ruimtelijke woordenschatoefening thuis. verkopers gebruiken ze voor grammaticaonderwijs en ruimtelijke taalbeoordeling. NT2-programma\'s gebruiken ze als kernprintbare producten waarbij voorzetsels een notoir lastig onderwerp zijn voor taalleerders. Deze gids leidt je door het hele creatieproces — van het kiezen van een oefenmodus en het configureren van het voorzetselraster tot het benutten van Vormvervanging voor visuele variatie en het exporteren van productie-klare bestanden. Of je nu je eerste taalproduct bouwt of een bestaande grammatica werkbladen catalogus uitbreidt, je hebt een afgewerkt product klaar om te vermelden aan het einde van deze handleiding.',
   },
 
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'schrijfoefeningen-maken', anchorText: 'Hoe Professionele Schrijfoefeningen Maken' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'app', slug: 'voorzetsels-werkbladen', anchorText: 'Voorzetsels Werkblad Generator — Alle Details' },
-    { pageType: 'guide', slug: 'alfabet-werkbladen-maken', anchorText: 'Alfabettrein Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'prepositions', anchorText: 'Probeer de Voorzetsels Werkbladen Maker' },
+    { pageType: 'guide', slug: 'create-alphabet-worksheets', anchorText: 'Alfabet werkbladen maken voor Etsy' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
+    { pageType: 'bundle', slug: 'lezen-taal-pakket', anchorText: 'Lezen & Taal Pakket bekijken' },
   ],
 
   toolsRecommended: [

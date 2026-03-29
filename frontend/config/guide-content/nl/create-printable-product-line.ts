@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'printable productlijn maken',
+    primaryKeyword: 'productlijn printables opbouwen',
     secondaryKeywords: [
       'werkblad productlijn opbouwen',
       'printable collectie strategie',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'productlanceringsschema publicatiekalender contentplanning capaciteitsbalans markttiming',
       'klantreis herhaalaankoop levenslange klantwaarde merkbekendheid loyaliteitsopbouw',
     ],
-    titleTag: 'Printable Productlijn Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Leer een winstgevende printable productlijn opbouwen. Strategieën voor categoriestructuur, merkconsistentie, kruisverkoop en seizoensgebonden uitbreiding.',
+    titleTag: 'Productlijn printables opbouwen | LessonCraftStudio',
+    metaDescription: 'Leer een winstgevende productlijn van printables opbouwen. Categoriestructuur, merkconsistentie, kruisverkoop en seizoensplanning voor Etsy en Bol.com.',
   },
 
   hero: {
-    title: 'Een Printable Productlijn Maken',
-    tagline: 'Van losse producten naar een samenhangende, professionele productlijn die klanten steeds opnieuw laat terugkomen — met strategieën voor categoriestructuur, merkconsistentie, kruisverkoopmogelijkheden, seizoensgebonden uitbreiding en langetermijn catalogusplanning voor maximale omzet op elk verkoopplatform',
+    title: 'Een winstgevende productlijn van printables opbouwen',
+    tagline: 'Van losse producten naar een samenhangende productlijn die klanten steeds opnieuw laat terugkomen op Etsy, Bol.com en uw eigen webshop.',
     description: 'Een succesvolle printable business draait niet om het maken van zoveel mogelijk losse producten, maar om het bouwen van een samenhangende productlijn die als geheel meer waarde biedt dan de som der delen. Deze gids laat je stap voor stap zien hoe je een strategische productlijn opbouwt die herhaalaankopen stimuleert, kruisverkoopkansen maximaliseert en je merk positioneert als de go-to bron in je niche — of je nu verkoopt op Etsy, Amazon KDP, Gumroad, Gumroad of je eigen website.',
   },
 
@@ -143,18 +143,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkblad bundels maken die verkopen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selectie voor printable bedrijven' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor educatieve printables' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Printable bedrijf opschalen' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'Kleurplaten maken en verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoeker puzzels maken' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optellen werkbladen maken' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete gids printable bedrijf' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Gids commerciële licentie' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche kiezen voor uw printables-business' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategie voor educatieve werkbladen' },
   ],
 
   toolsRecommended: [

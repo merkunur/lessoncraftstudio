@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sorteer werkblad generator',
+    primaryKeyword: 'sorteerwerkbladen voor Etsy-business',
     secondaryKeywords: [
-      'printbare sorteeractiviteit maker voor Etsy verkopers',
-      'twee-categorieën sorteer werkblad generator voor KDP uitgevers',
-      'afbeeldingen sorteren werkblad maker met commerciële licentie',
-      'sorteer werkbladen verkopen op Gumroad',
+      'sorteer generator voor Etsy',
+      'categoriseer werkbladen KDP',
+      'sorteerwerkbladen commerciële licentie',
+      'sorteeractiviteiten verkopen',
     ],
     lsiKeywords: [
       'digitale sorteer-printables online bedrijf',
       'commercieel gebruik classificatie werkblad generator',
       'printbare categoriseer sorteeractiviteit business tools',
     ],
-    titleTag: 'Sorteer Werkblad Generator | Maak Sorteer-Printables',
+    titleTag: 'Sorteerwerkbladen voor Etsy-business | LessonCraftStudio',
     metaDescription:
-      'Maak sorteer werkbladen om te verkopen op Etsy, KDP & Gumroad. Twee-categorieën sorteren, automatisch antwoordblad, 104 thema\'s, 4–12 afbeeldingen.',
+      'Maak sorteerwerkbladen om te verkopen op Etsy en Amazon KDP. Twee-categorieën sorteren, automatisch antwoordblad, 104 thema\'s. Gratis proefversie.',
   },
 
   hero: {
-    title: 'Sorteer Werkblad Generator voor Twee-Categorieën Sorteeractiviteiten',
+    title: 'Sorteerwerkbladen maken en verkopen — generator voor Etsy',
     tagline:
-      'Twee-categorieën sorteren in één krachtige generator — themaselectie of handmatige beeldselectie — met automatisch gegenereerde antwoordbladen, 4–12 configureerbare afbeeldingen, een gelokaliseerde "Afbeeldingen Sorteren" koptekst in 11 talen en 104 thematische beeldcollecties.',
+      'Gratis proefversie met watermerk — twee-categorieën sorteren met themaselectie of handmatige beeldselectie, automatische antwoordbladen, 4–12 configureerbare afbeeldingen en 104 thematische beeldcollecties.',
     description:
-      'Maak professionele sorteer werkbladen waarbij gebruikers afbeeldingen classificeren in twee categorieën door uitgeknipte plaatjes in de juiste linker- of rechtergroep te sorteren. Kies themamodus om categorieën automatisch te vullen vanuit de afbeeldingenbibliotheek — selecteer een linkerthema en een rechterthema, en de app haalt 4–6 willekeurige afbeeldingen per thema op — of schakel naar handmatige modus om individuele afbeeldingen te selecteren en elk aan een categorie toe te wijzen. Elk werkblad bevat twee categoriekaders met stippelrand bovenaan als sorteerbestemmingen en een geschud uitknipraster onderaan met gemengde afbeeldingen klaar om uitgeknipt en gesorteerd te worden. Het dubbele canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad met 6× grotere afbeeldingen georganiseerd in categorievakken, zodat je nooit handmatig antwoordbladen hoeft te maken. De Sorteer Werkblad Generator is taalgevoelig: categorielabels gebruiken gelokaliseerde afbeeldingsnamen, dus het wisselen van taal verandert de tekst op het werkblad. Een gelokaliseerde "Afbeeldingen Sorteren" koptekst met mintgroene achtergrond en groenblauw titel wordt automatisch weergegeven in alle 11 ondersteunde talen. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde categorielabels. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg naam- en datumvelden toe voor verantwoording online, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu sorteerbundels verkoopt op Etsy.nl, classificatie-werkboeken samenstelt voor Amazon KDP, of sorteeractiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Bouw een winstgevende lijn sorteerwerkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen knippen plaatjes uit en sorteren ze in twee categorieën — een klassieke kleuteractiviteit die ouders en onderwijzers wereldwijd zoeken. De generator biedt themamodus met automatische beeldselectie uit 104 collecties en handmatige modus voor volledige controle over elke categorie. Automatisch gegenereerde antwoordbladen met 6× grotere afbeeldingen in categorievakken maken uw producten direct verkoopklaar. Sorteerwerkbladen zijn bijzonder populair voor kleuters en groep 1–2 in het Nederlandse onderwijs, en dankzij gelokaliseerde categorielabels in 11 talen kunt u dezelfde thema\'s verkopen op Etsy.nl, Bol.com en internationale markten. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. De gratis proefversie met watermerk geeft u toegang tot alle functies — geen registratie vereist. Koop een commerciële licentie om het watermerk te verwijderen en volledige verkooprechten te ontvangen.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Sorteer Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u sorteerwerkbladen voor uw Etsy-business in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Sorteer Werkblad Generator',
+    title: 'Belangrijkste functies van de sorteerwerkbladen generator',
     features: [
       {
         title: 'Twee-Categorieën Sorteren met Themagestuurde of Handmatige Beeldselectie',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Sorteer Werkbladen Online Verkoopt',
+    title: 'Hoe u sorteerwerkbladen online verkoopt op Etsy en KDP',
     cases: [
       {
         title: 'Thematische Sorteerbundels op Etsy.nl',
@@ -207,57 +207,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'verbindings-werkbladen',
-      anchorText: 'Verbindingswerkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'raster-puzzel-werkbladen',
-      anchorText: 'Rasterpuzzel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'schaduw-matching-werkbladen',
-      anchorText: 'Schaduw Koppelen Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'plaatjes-bingo-werkbladen',
-      anchorText: 'Plaatjesbingo Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Tel en Vind Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkblad Generator',
+      anchorText: 'Verbindingswerkbladen Generator',
     },
     {
       pageType: 'bundle',
       slug: 'matchen-sorteren-pakket',
-      anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-Apps in Één Pakket',
-    },
-    {
-      pageType: 'guide',
-      slug: 'sorteer-werkbladen-maken',
-      anchorText: 'Hoe Maak en Verkoop Je Sorteer Werkbladen Online',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kamperen-printable-ideen',
-      anchorText: 'Camping printable ideeën voor buitenonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zeedieren-printable-ideen',
-      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-bedrijf',
-      anchorText: 'Marketing voor je printable bedrijf',
+      anchorText: 'Matchen & Sorteren Pakket — alle koppel-apps in een pakket',
     },
   ],
 

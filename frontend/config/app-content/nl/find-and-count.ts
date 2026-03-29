@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ik zie ik zie werkblad generator',
+    primaryKeyword: 'zoek en tel werkbladen om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare zoek en tel werkblad maker voor Etsy verkopers',
-      'verborgen voorwerp ik zie ik zie activiteit generator voor KDP uitgevers',
-      'zoek en tel werkblad maker met commerciële licentie',
-      'ik zie ik zie werkbladen verkopen op Gumroad',
+      'zoek-en-tel generator voor Etsy-shop',
+      'telwerkbladen met afbeeldingen voor KDP',
+      'zoek en tel activiteiten commerciële licentie',
+      'telactiviteiten verkopen online',
     ],
     lsiKeywords: [
       'digitale ik zie ik zie printables online bedrijf',
       'commercieel gebruik verborgen voorwerp werkblad generator',
       'printbare telactiviteit business tools',
     ],
-    titleTag: 'Ik Zie Ik Zie Generator | Zoek en Tel Printables Maken',
+    titleTag: 'Zoek en tel werkbladen voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak ik zie ik zie telwerkbladen om te verkopen op Etsy, KDP & Gumroad. 4 taaktypen, letterherkenning, automatisch antwoordblad, 104 thema\'s, 11 talen.',
+      'Maak zoek-en-tel werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken en tellen thema-afbeeldingen. Commerciële licentie. Gratis proefversie.',
   },
 
   hero: {
-    title: 'Ik Zie Ik Zie Werkblad Generator voor Zoek en Tel Activiteiten',
+    title: 'Genereer zoek-en-tel werkbladen om te verkopen op Etsy en KDP',
     tagline:
-      'Twee activiteitsmodi in één generator — Verborgen Voorwerp Ik Zie Ik Zie en Letterherkenning — met vier mixbare taaktypen (omcirkel, vierkant, doorstrepen, tel), taalspecifieke alfabetten met accentletters, gelokaliseerde afbeeldingsnaamlabels in 11 talen, en automatisch gegenereerde antwoordbladen met visuele annotaties.',
+      'Twee activiteitsmodi in één generator — Verborgen Voorwerp en Letterherkenning — met vier taaktypen en gelokaliseerde labels in 11 talen. Gratis proefversie met watermerk.',
     description:
-      'Maak professionele ik zie ik zie en zoek-en-tel werkbladen waarbij gebruikers een verstrooide afbeeldingenscène doorzoeken om specifieke objecten te vinden, omcirkelen, doorstrepen of tellen. Kies tussen twee activiteitsmodi: Verborgen Voorwerp modus verstrooit afbeeldingen over een instelbaar raster (5–10 rijen × 5–10 kolommen) en laat je tot 4 doelobjecten toewijzen met individuele taaktypen — omcirkel het object, zet er een vierkant omheen, streep het door, of tel hoeveel er verschijnen. Letterherkenning modus toont een taalspecifiek alfabetraster met accentletters (Duits ÄÖÜ, Spaans Ñ, Zweeds/Fins ÅÄÖ, Deens/Noors ÆØÅ) en genereert ik zie ik zie scènes met afbeeldingen die beginnen met de geselecteerde letter. Elk werkblad bevat een automatisch gegenereerde koptekst — "Ik Zie Ik Zie" of "Letterherkenning" — gelokaliseerd in alle 11 ondersteunde talen met een blauw kader (#2196F3). Het dubbele canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad met rode cirkel-, vierkant- en kruisannotaties plus telweergaven. De Zoek en Tel Generator is taalgebonden: afbeeldingsnaamlabels op het werkblad worden weergegeven in de geselecteerde taal via het Beeldwoordenschat-systeem. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde labels. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu ik zie ik zie activiteitenbundels verkoopt op Etsy.nl, verborgen voorwerp werkboeken samenstelt voor Amazon KDP, of telactiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Zoek en Tel Werkbladen Generator maakt u professionele ik-zie-ik-zie werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Kleuters en kinderen in groep 1 tot en met 4 doorzoeken een verstrooide afbeeldingenscene om specifieke objecten te vinden, omcirkelen, doorstrepen of tellen. U kiest uit twee activiteitsmodi: Verborgen Voorwerp verstrooit afbeeldingen over een instelbaar raster met tot vier doelobjecten en individuele taaktypen. Letterherkenning toont een taalspecifiek alfabetraster en genereert scenes met afbeeldingen die beginnen met de geselecteerde letter. Selecteer uit meer dan 3100 illustraties in 104 thema\'s. Elk werkblad genereert automatisch een antwoordblad met rode annotaties. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. De Nederlandse markt op Etsy.nl en Bol.com biedt uitstekende kansen voor zoek-en-tel activiteiten in het Nederlands. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Ik Zie Ik Zie Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u zoek-en-tel werkbladen om te verkopen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Zoek en Tel Werkblad Generator',
+    title: 'Functies van de zoek-en-tel generator voor Etsy- en KDP-verkopers',
     features: [
       {
         title: 'Twee Activiteitsmodi: Verborgen Voorwerp Ik Zie Ik Zie en Letterherkenning',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Ik Zie Ik Zie Werkbladen Online Verkoopt',
+    title: 'Zoek-en-tel werkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Thematische Ik Zie Ik Zie Activiteitenbundels op Etsy',
@@ -207,57 +207,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'zoek-voorwerpen-werkbladen',
-      anchorText: 'Zoek Voorwerpen Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kruiswoordpuzzel-werkbladen',
-      anchorText: 'Kruiswoordpuzzel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'schattenjacht-werkbladen',
-      anchorText: 'Schattenjacht Werkblad Generator',
+      anchorText: 'Zoek voorwerpen werkbladen generator',
     },
     {
       pageType: 'app',
       slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'doolhof-werkbladen',
-      anchorText: 'Doolhof Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkblad Generator',
+      anchorText: 'Telgrafieken werkbladen generator',
     },
     {
       pageType: 'bundle',
       slug: 'zoeken-vinden-pakket',
-      anchorText: 'Zoeken & Vinden Pakket — Alle Zoek-Apps in Één Pakket',
-    },
-    {
-      pageType: 'guide',
-      slug: 'tel-werkbladen-maken',
-      anchorText: 'Hoe Je Telwerkbladen Maakt die Verkopen',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kamperen-printable-ideen',
-      anchorText: 'Camping printable ideeën voor buitenonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zeedieren-printable-ideen',
-      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-bedrijf',
-      anchorText: 'Marketing voor je printable bedrijf',
+      anchorText: 'Zoeken & Vinden Pakket — alle zoek-apps in één pakket',
     },
   ],
 

@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'algebra puzzel werkbladen generator',
+    primaryKeyword: 'generator rekenbladen voor Etsy- en KDP-verkopers',
     secondaryKeywords: [
-      'printbare algebra afbeeldingspuzzels voor Etsy verkopers',
-      'algebraïsche vergelijking werkbladen generator voor Amazon KDP',
-      'algebra plaatjespuzzels verkopen op Gumroad',
-      'algebra puzzel printables commerciële licentie',
+      'numerieke rekenwerkbladen maken voor Etsy',
+      'rekendrills generator Amazon KDP',
+      'sommenbladen met commerciële licentie',
+      'rekenbladen verkopen online',
     ],
     lsiKeywords: [
       'digitale algebra werkblad producten online bedrijf',
       'printbare vergelijkingspuzzel business',
       'commercieel gebruik algebraïsche werkblad generator',
     ],
-    titleTag: 'Algebra Puzzel Generator | Reken Werkbladen Maken',
+    titleTag: 'Rekenbladen generator voor verkopers | LessonCraftStudio',
     metaDescription:
-      'Maak algebra puzzel werkbladen om te verkopen op Etsy, KDP en Gumroad. Afbeeldingen als variabelen, 4 moeilijkheidsniveaus, unieke oplossingen.',
+      'Maak numerieke rekenbladen om te verkopen op Etsy, KDP en Bol.com. Optellen, aftrekken, vermenigvuldigen. Commerciële licentie. Gratis proefversie.',
   },
 
   hero: {
-    title: 'Algebra Puzzel Werkbladen Generator voor Visuele Vergelijkingen',
-    tagline: 'Maak van vroege algebra een visueel avontuur — afbeeldingen worden variabelen, en elke puzzel heeft precies één oplossing.',
+    title: 'Genereer numerieke rekenbladen voor Etsy-, KDP- en Bol.com-verkopers',
+    tagline: 'Professionele sommenbladen met commerciële licentie — gratis proefversie met watermerk.',
     description:
-      'Maak boeiende algebraïsche afbeeldingspuzzel werkbladen waarbij plaatjes de rol vervullen van onbekende variabelen in een stelsel van vergelijkingen. gebruikers lossen gekoppelde vergelijkingen op om de numerieke waarde van elk plaatje te bepalen — zo wordt abstracte algebra een concreet, visueel denkproces. Kies uit vier moeilijkheidsniveaus: Heel Makkelijk en Makkelijk gebruiken twee symbolen, Gemiddeld introduceert drie symbolen, en Moeilijk daagt gebruikers uit met vier gelijktijdige onbekenden. Selecteer opgaven met alleen optellen of mix optellen en aftrekken voor gevorderde oefening, en stel het getallenbereik nauwkeurig in van 0 tot 20 met een optionele schakelaar voor negatieve uitkomsten. De ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft — geen dubbelzinnigheid, geen gokken. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s om als algebraïsche symbolen te gebruiken, of upload eigen afbeeldingen voor een merkgerichte uitstraling. Elk werkblad genereert een automatisch antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op 400+ DPI in Letter-, A4- of aangepaste formaten. Of je nu thematische puzzelpakketten verkoopt op Etsy.nl, progressieve algebraboeken samenstelt voor Amazon KDP, of gedifferentieerde rekencentra maakt voor je winkel — de Reken Werkblad Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Genereer numerieke rekenbladen met optellen, aftrekken, vermenigvuldigen en delen — puur cijferwerk zonder afbeeldingen, perfect voor groep 4 tot en met 8. Tafels oefenen is een van de meest gezochte rekenthema\'s op de Nederlandse markt, en met deze generator maakt u in minuten professionele oefenbladen die u kunt verkopen op Etsy.nl, Amazon KDP en Bol.com. Configureer het getallenbereik, het aantal opgaven per pagina en de bewerkingstypen om werkbladen te produceren voor elk vaardigheidsniveau — van eenvoudige opteldrills voor beginners tot gemengde bewerkingen met grotere getallen voor gevorderden. Elk werkblad bevat een automatisch gegenereerd antwoordblad en wordt geëxporteerd als printklare PDF of JPEG op meer dan 400 DPI. De commerciële licentie verleent u volledige verkooprechten zonder royalty\'s. Probeer alle functies met de gratis proefversie — downloads bevatten een watermerk dat verdwijnt zodra u een licentie activeert.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Algebra Puzzel Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u numerieke rekenbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Algebra Puzzel Werkbladen Generator',
+    title: 'Belangrijkste functies van de rekenbladen generator',
     features: [
       {
         title: 'Algebraïsch afbeeldingspuzzelformaat',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Algebra Puzzel Werkbladen Online',
+    title: 'Hoe verkoopt u numerieke rekenbladen online',
     cases: [
       {
         title: 'Thematische algebra puzzelpakketten op Etsy.nl',
@@ -206,52 +206,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'optellen-werkbladen',
-      anchorText: 'Optellen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'aftrekken-werkbladen',
-      anchorText: 'Aftrekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'visuele-optelsommen-werkbladen',
-      anchorText: 'Visuele Optelsommen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'meer-minder-werkbladen',
-      anchorText: 'Meer of Minder Werkbladen Generator',
+      anchorText: 'Optellen werkbladen generator',
     },
     {
       pageType: 'app',
       slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzel Werkbladen Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'wiskunde-meester-pakket',
-      anchorText: 'Wiskunde Meester Pakket — Alle Reken-Apps in Één Pakket',
+      anchorText: 'Rekenpuzzels werkbladen generator',
     },
     {
       pageType: 'guide',
       slug: 'reken-werkbladen-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Rekenwerkbladen op Etsy',
+      anchorText: 'Gids: rekenwerkbladen verkopen op Etsy',
     },
     {
-      pageType: 'idea',
-      slug: 'rekenfeiten-printable-ideen',
-      anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'terug-naar-school-printable-ideen',
-      anchorText: 'Terug-naar-school printable ideeën die verkopen',
-    },
-    {
-      pageType: 'start',
-      slug: 'werkbladen-maken-die-verkopen',
-      anchorText: 'Werkbladen maken die verkopen',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde Meester Pakket — alle reken-apps in één pakket',
     },
   ],
 

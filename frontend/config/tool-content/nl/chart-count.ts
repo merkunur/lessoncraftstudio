@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'plaatjesgrafiek werkbladen maken voor de winkel',
+    primaryKeyword: 'gratis tel- en grafiekwerkbladen',
     secondaryKeywords: [
-      'pictogram werkblad maker voor de winkel',
-      'tel-en-grafiek werkbladen voor kinderen',
-      'printbare datagrafiek werkbladen voor school',
-      'plaatjesgrafiek activiteit voor verkopers',
+      'tel- en grafiekwerkbladen online maken gratis',
+      'plaatjesgrafiek werkblad generator',
+      'printbare telgrafiek maker met antwoordblad',
+      'datavisualisatie werkblad tool online',
     ],
     lsiKeywords: [
-      'verspreide afbeeldingraster tel werkblad',
-      'automatisch antwoordblad plaatjesgrafiek',
-      'datavisualisatie werkblad voor de winkel',
+      'verspreide afbeeldingraster tel werkblad gratis',
+      'automatisch antwoordblad staafdiagram generator',
+      'plaatjesgrafiek activiteit maker online',
     ],
-    titleTag: 'Plaatjesgrafiek Werkbladen — Voor de winkel',
-    metaDescription: 'Maak plaatjesgrafiek werkbladen voor de winkel. 4x5 rasters, automatische antwoordbladen, 11 talen, 104 thema\'s. Gratis proefversie met watermerk.',
+    titleTag: 'Tel- en grafiekwerkbladen gratis | LessonCraftStudio',
+    metaDescription: 'Maak gratis tel- en grafiekwerkbladen online met 4x5 rasters, automatische staafdiagram antwoordbladen en 104 thema\'s. Probeer nu zonder account.',
     },
 
   hero: {
-    title: 'Telgrafiek Werkblad Maker',
-    tagline: 'Plaatjesgrafiek werkblad generator met verstrooide afbeeldingsrasters, automatisch gegenereerde staafdiagram antwoordbladen, gelokaliseerde koppen in 11 talen, en 104 thematische beeldcollecties voor gegevensrepresentatie werkbladen die wereldwijd verkopen',
-    description: 'Maak professionele plaatjesgrafiek werkbladen waarbij gebruikers verstrooide afbeeldingen tellen en een staafdiagram eronder invullen — gegevensverzameling en gegevensrepresentatie in één enkele activiteit. Elk werkblad bevat een 4×5 raster met 20 pictogrammen van 6 verschillende afbeeldingstypen, elk type verschijnt 1–5 keer in een willekeurige verdeling die elke generatie uniek maakt. Onder het raster biedt een staafdiagram met 6 kolommen × 5 rijen — kolommen gelabeld per afbeeldingstype en rijen genummerd 1–5 — gebruikers een gestructureerde plek om hun telresultaten vast te leggen. De app genereert tegelijkertijd een antwoordblad op een apart canvas-tabblad met geel (#FFC857) gemarkeerde cellen die de juiste aantallen tonen, zodat verkopers het werk van gebruikers direct kunnen verifiëren zonder handmatig tellen. Kies afbeeldingen automatisch door een thema te selecteren uit het dropdown-menu Werkblad Afbeeldingsbron — de app kiest willekeurig 6 afbeeldingen uit die collectie — of blader handmatig door de Afbeeldingenbibliotheek met meer dan 3.100 illustraties over 104 thematische collecties en klik precies 6 afbeeldingen aan met een voorbeeldstrook. Elk werkblad bevat een automatisch gegenereerde kop met een gelokaliseerde "Plaatjesgrafiek" titel en telinstructies weergegeven in een gestileerde gele pil (#FFD93D) met oranje randkader, die zich automatisch aanpast aan alle 11 ondersteunde talen. Voeg naam- en datumvelden voor gebruikers toe met een enkel selectievakje (Fredoka 18px #333). Pas zowel achtergrondthema\'s als kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). De Telgrafiek Generator is niet taalgevoelig — visueel tellen gebruikt universele cijfers en afbeeldingen, waardoor werkbladen identiek bruikbaar zijn in elke taal zonder aanpassing. Download vier bestanden per sessie: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — allemaal op 300 DPI. Exporteer in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten met grijstintenmodus voor inktvriendelijke uitvoer. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana, tekstomlijning 0–10 met 0,5-stap nauwkeurigheid, ongedaan maken/opnieuw uitvoeren tot 20 statussen, en zoom van 25% tot 300%. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis tel- en grafiekwerkbladen maken',
+    tagline: 'Plaatjesgrafiek generator met verstrooide afbeeldingsrasters, automatische staafdiagram antwoordbladen en 104 thema\'s',
+    description: 'Met onze gratis tel- en grafiekwerkbladen generator maakt u direct professionele plaatjesgrafiek activiteiten. Kinderen tellen verstrooide afbeeldingen in een 4x5 raster en vullen een staafdiagram eronder in — gegevensverzameling en gegevensrepresentatie in een enkele oefening. Elk werkblad bevat 20 pictogrammen van 6 verschillende typen in een willekeurige verdeling die elke generatie uniek maakt. Het staafdiagram biedt 6 kolommen gelabeld per afbeeldingstype en 5 rijen genummerd 1 tot 5. Het automatisch gegenereerde antwoordblad markeert de juiste aantallen met gele cellen, zodat u het werk direct kunt controleren zonder handmatig tellen. Kies afbeeldingen automatisch per thema of selecteer handmatig precies 6 afbeeldingen uit de bibliotheek met meer dan 3.100 illustraties over 104 thema\'s. Elk werkblad bevat een gelokaliseerde koptekst in 11 talen. Exporteer als printklare PDF of JPEG op 300 DPI in Letter-, A4- of aangepaste formaten. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Plaatjesgrafiek Werkbladen Maken in 8 Stappen',
+    title: 'Hoe maakt u gratis tel- en grafiekwerkbladen online?',
     steps: [
       {
         title: 'Open de Telgrafiek Werkblad Maker',
@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'telgrafieken-werkbladen', anchorText: 'Telgrafiek Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'telgrafieken-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
     { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Maker' },
     { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },

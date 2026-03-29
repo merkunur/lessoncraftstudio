@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fysieke Printable Producten Verkopen — Nichegids',
-    metaDescription: 'Fysieke printable productideeën voor Etsy en marktverkopers. Bouw een premium business op met gedrukte, gelamineerde en gebonden werkblad producten en sets.',
+    titleTag: 'Fysieke gedrukte producten — Business | LessonCraftStudio',
+    metaDescription: 'Fysieke gedrukte printable producten verkopen op Etsy en markten. Ideeën voor gelamineerde werkbladsets en gebonden werkboeken met premium marges.',
 
-    primaryKeyword: 'fysieke printable product ideeën',
+    primaryKeyword: 'fysieke gedrukte producten ideeën business',
     secondaryKeywords: [
-      'gedrukte werkblad productbusiness',
-      'fysieke printable producten verkopen',
-      'tastbare printable business ideeën',
-      'gedrukte werkbladen verkopen offline',
+      'gelamineerde werkbladen verkopen Etsy',
+      'fysieke printable producten premium',
+      'gedrukte werkboeken verkopen markten',
+      'tastbaar educatief materiaal business',
     ],
     lsiKeywords: [
-      'print-en-verzend educatieve producten',
-      'fysiek werkboek uitgeven',
-      'tastbare printbare producten verkoop',
+      'NOT onderwijsbeurs fysieke producten',
+      'herbruikbaar gelamineerd klasmateriaal',
+      'institutionele kopers schoolbudgetten',
     ],
   },
   hero: {
-    title: 'Fysieke Printable Product Businessideeën voor Verkopers',
-    description: 'Fysieke printable producten vertegenwoordigen het premiumsegment van de educatieve werkbladbusiness waarin verkopers werkbladmateriaal printen, lamineren, snijden, binden en verpakken tot tastbare producten die aanzienlijk hogere prijzen opbrengen dan digitale downloads omdat kopers betalen voor het gemak van kant-en-klaar, professioneel afgewerkte educatieve materialen die ze direct kunnen inzetten zonder enig print- of montagewerk aan hun kant. Het fysieke-productmodel vereist meer per-eenheid inspanning in productie en fulfilment maar genereert hogere per-verkoop omzet en trekt kopers aan die sterk de voorkeur geven aan tastbare materialen boven digitale bestanden, inclusief institutionele kopers als scholen, kinderdagverblijven en bijlescentra die gevestigde budgetten hebben voor fysieke klasbenodigdheden maar mogelijk geen processen hebben voor het aankopen en distribueren van digitale downloads aan personeel. Dit businessmodel werkt via meerdere verkoopkanalen inclusief Etsy waar handgemaakte educatieve producten floreren, ambachts- en verkopersmarkten waar persoonlijke verkoop browsende bezoekers converteert, en directe schoolverkoop waar institutionele bestellingen de hoogste per-transactie omzet genereren. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Fysieke printable producten: premium prijzen',
+    description: 'Fysieke printable producten vormen het premiumsegment van de werkbladbusiness. Gelamineerde werkbladsets brengen vijftien tot vijfentwintig euro op — vijf keer meer dan een vergelijkbare digitale download. Scholen, kinderdagverblijven en bijlescentra kopen tastbaar materiaal omdat gelamineerde werkbladen herhaald gebruik doorstaan en hygiënisch zijn. Met onze generators produceert u werkbladen die u print, lamineert en bundelt tot professionele producten. De productiedrempel schrikt veel concurrenten af, wat een beschermd marktsegment creëert met hogere marges. In Nederland bieden de NOT (Nationale Onderwijstentoonstelling), kinderbeurzen en ambachtsmarkten directe face-to-face verkoopkansen met hoge conversiepercentages. Verkoop ook via Etsy.nl waar handgemaakte educatieve producten floreren. Institutionele bestellingen genereren honderd tot vijfhonderd euro per transactie. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De fysieke printable productmarkt bezet een premiumprijsniveau binnen de educatieve materialenindustrie omdat tastbare producten een sterkere waargenomen waarde creëren dan digitale bestanden en kopers bereidwillig meer betalen voor het gemak, de professionele afwerking en de bespaarde tijd die kant-en-klare fysieke materialen bieden. Een gelamineerde werkbladset geprijsd op vijftien tot vijfentwintig euro levert dezelfde educatieve inhoud als een digitale download van drie tot vijf euro, maar de fysieke versie arriveert klaar voor direct klas- of thuisgebruik zonder dat de koper een printer hoeft te bezitten, inkt en papier hoeft te kopen, tijd hoeft te besteden aan het printen van pagina\'s, of hoeft te investeren in lamineerappratuur en -benodigdheden. Deze prijspremie weerspiegelt echte waarde omdat kopers niet alleen de educatieve inhoud kopen maar ook de professionele productiekwaliteit, de tijdsbesparing van niet zelf printen en monteren, en de duurzaamheid van professioneel afgewerkte producten die herhaald gebruik door gebruikers doorstaan gedurende een heel schooljaar of langer.
 
@@ -143,54 +143,19 @@ Het jaarronde karakter van de vraag naar fysieke educatieve producten is sterk m
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Gelamineerde koppelkaarten sets maken',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten voor fysieke puzzelboekjes',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'print-on-demand-printable-ideas',
-      anchorText: 'Print-on-demand printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'party-supply-printable-ideas',
-      anchorText: 'Feestartikelen printable businessideeën',
+      pageType: 'bundle',
+      slug: 'matchen-sorteren-pakket',
+      anchorText: 'Matchen en sorteren pakket als fysiek product',
     },
   ],
 

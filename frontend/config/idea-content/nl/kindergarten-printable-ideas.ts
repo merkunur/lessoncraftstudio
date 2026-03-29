@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kleuterschool Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende kleuterschool printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Groep 1-2 productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables groep 2 — Business | LessonCraftStudio',
+    metaDescription: 'Verkoop printables voor groep 2 op Etsy en Gumroad. Tellen, letters en schrijfoefening productideeën voor uw printable business — krachtig marktsegment.',
 
-    primaryKeyword: 'kleuterschool printable ideeën',
+    primaryKeyword: 'printables groep 2 ideeën business',
     secondaryKeywords: [
-      'kleuterschool werkbladen verkopen',
-      'groep 1-2 printable business',
-      'kleuter activiteiten voor verkopers',
-      'kleuter printables verkopen op Gumroad',
+      'groep 2 werkbladen verkopen Etsy',
+      'kleuterschool printable business ideeën',
+      'begin lezen tellen producten verkopen',
+      'groep 2 educatieve printables Gumroad',
     ],
     lsiKeywords: [
-      'vroegkinderlijk educatieve werkbladen',
-      'kleuter leeractiviteiten',
-      'leeftijd 4-6 printbare producten printables',
+      'getalherkenning lettervorming werkbladen maken',
+      'basisschool groep 2 leermateriaal',
+      'optellen klanken printbare producten ondernemen',
     ],
   },
   hero: {
-    title: 'Kleuterschool Printable Businessideeën voor Verkopers',
-    description: 'Kleuterschool printables bezetten een van de krachtigste en meest consistent winstgevende niches op de educatieve printable-markt omdat de kleuterjaren het universele overgangsjaar vertegenwoordigen waarin elk kind formeel onderwijs betreedt, waardoor een enorm dubbel kopersbestand ontstaat van klasverkopers die aanvullend materiaal nodig hebben voor steeds rigoureuzere academische standaarden en ouders die het leren van hun kind thuis willen ondersteunen tijdens dit cruciale basisjaar. De academische vaardigheden die het kleuterproductcatalogus definiëren omvatten een opmerkelijke breedte van competenties waaronder getalherkenning, getalbegrip van een tot honderd, optellen en aftrekken tot tien, begin-lezen en klanken, lettervorming en schrijfoefening, meetconcepten, vormidentificatie, sorteren en classificeren, hoeveelheden vergelijken, en vroege leesbegripstrategieën die de brug bouwen tussen individuele woorden herkennen en eenvoudige zinnen begrijpen. Dit bruggjaar tussen spelgebaseerd peuteronderwijs en gestructureerd onderwijs in groep 3 creëert unieke vraag omdat kleuterverkopers de uitdaging hebben om kinderen op zeer uiteenlopende gereedheidsniveaus te ontmoeten terwijl alle gebruikers richting ambitieuze einddoelen van het schooljaar worden gebracht. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Groep 2 printables: krachtig segment voor verkopers',
+    description: 'Groep 2 is het cruciale overgangsjaar waarin kinderen de brug slaan tussen spelgebaseerd leren en formeel onderwijs in groep 3, waardoor printables voor deze leeftijdsgroep een van de krachtigste en meest winstgevende niches vormen. In Nederland gaan kinderen in groep 2 naar de basisschool waar getalherkenning tot honderd, optellen en aftrekken tot tien, lettervorming, begin-lezen met klanken en schrijfoefening centraal staan. Dit creëert een dubbel kopersbestand: leerkrachten die aanvullend materiaal nodig hebben voor de steeds hogere verwachtingen, en ouders die hun kind thuis willen ondersteunen bij dit belangrijke leerjaar. De breedte van competenties — meetconcepten, vormidentificatie, sorteren, hoeveelheden vergelijken en vroege leesbegripstrategieën — geeft verkopers een enorme catalogusopbouwmogelijkheid. Op Etsy, Gumroad en Amazon KDP is de vraag naar groep 2 materiaal constant het hele schooljaar door. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De kleuterschool printable-niche neemt een uniek dominante positie in op de educatieve markt omdat het het op één na grootste leeftijdsgroepkoopsegment bedient met de meest academisch intensieve en standaardgedreven vaardighedenset van elk vroegkinderlijk niveaucategorie. In tegenstelling tot de peuterspeelzaal waar productdoelen ontwikkelingsgericht en flexibel zijn, wordt het kleuterproductcatalogus gedefinieerd door productdoelen en productspecificaties die specifieke, meetbare vaardigheidsstandaarden creëren die elke verkoper moet behandelen en elke ouder kan begrijpen, waardoor kleuterprintables inherent gerichter en makkelijker positioneerbaar zijn voor zoekgedreven verkopen op elke marktplaats.
 
@@ -145,24 +145,19 @@ Het jaarronde karakter van de vraag naar kleutermateriaal is een van de sterkste
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen voor groep 2 leerlingen',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'schrijfoefeningen-werkbladen',
+      anchorText: 'Schrijfoefeningen generator voor lettervorming',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'lezen-taal-pakket',
+      anchorText: 'Lezen en taal pakket voor groep 2 materiaal',
     },
     {
       pageType: 'guide',

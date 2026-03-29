@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Zomerleren Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende zomerleren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Vakantie-oefenmateriaal en nichestrategieën voor verkopers.',
+    titleTag: 'Zomervakantie werkbladen verkopen | LessonCraftStudio',
+    metaDescription: 'Zomervakantie werkbladen om te verkopen op Etsy en KDP. Ideeën voor zomerbrug-pakketten per groepsovergang die ouders kopen tegen de zomerdip.',
 
-    primaryKeyword: 'zomerleren printable ideeën',
+    primaryKeyword: 'zomervakantie werkbladen om te verkopen',
     secondaryKeywords: [
-      'zomerleren werkbladen verkopen',
-      'vakantie-oefening printable business',
-      'zomerdip voorkomen activiteiten',
-      'zomerleren printables verkopen op Gumroad',
+      'zomerdip werkbladen verkopen Etsy',
+      'vakantiewerkboekjes printables business',
+      'zomerbrug groepsovergang werkbladen',
+      'zomerleren printables KDP verkopen',
     ],
     lsiKeywords: [
-      'zomervakantie leerverlies werkbladen',
-      'vakantie leeractiviteiten',
-      'vaardigheidsbehoud printable bronnen',
+      'gespreide zomervakantie drie regio\'s',
+      'vaardigheidsbehoud reken en lees oefening',
+      'vakantie activiteitenpakketten kinderen',
     ],
   },
   hero: {
-    title: 'Zomerleren Printable Businessideeën voor Verkopers',
-    description: 'Zomerleren printables vertegenwoordigen een veelgevraagde seizoensmarkt met een intense geconcentreerde koopperiode waarin ouders, verkopers, kampdirecteuren, zomerprogrammacoördinatoren en thuisonderwijzende gezinnen zomerbrug-werkbladen, vakantie-activiteitenpakketten, vaardigheidsbehoud-oefenmateriaal en schermvrije activiteiten kopen om zomers leerverlies te voorkomen gedurende een geconcentreerd mei-tot-augustusverkoopseizoen. Het welbekende fenomeen van de "zomerdip" stimuleert dringende ouderaankopen terwijl gezinnen gestructureerde educatieve activiteiten zoeken die kinderen academisch betrokken houden tijdens de verlengde onderbreking van formeel klasonderwijs, waardoor ouderlijke bezorgdheid over vaardigheidsachteruitgang een krachtige koopmotivator wordt die piekt tijdens de laatste weken van het schooljaar en doorloopt in de eerste helft van de zomer. Zomerkampen, bibliotheekleesprogramma\'s en gemeenschapsrecreatieprogramma\'s kopen gestructureerde activiteitenmaterialen voor hun programmering, wat een institutioneel koopsegment creëert naast individuele ouder- en verkoperkopers. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Zomervakantie werkbladen verkopen: seizoensniche',
+    description: 'De zomervakantie creëert een intense koopperiode van mei tot augustus waarin ouders actief zoeken naar materiaal tegen de zomerdip. In Nederland verlengt het drieregiosysteem (noord, midden, zuid) het verkoopvenster tot zes weken met drie opeenvolgende kopersgolven. Nederlandse ouders kennen een sterke traditie van vakantiewerkboekjes, wat de markt valideert voor digitale printable versies. Met onze generators maakt u zomerbrug-werkbladen per groepsovergang: van groep 3 naar groep 4, van groep 4 naar groep 5 enzovoort. Leerkrachten kopen eind april al einde-schooljaar uitdeelpakketten, ouders kopen van mei tot juni. Combineer zomerthema\'s met academische oefening voor maximale aantrekkingskracht. Verkoop via Etsy, Amazon KDP of Bol.com en publiceer uw catalogus vóór eind april voor maximale indexeringstijd. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De zomerleren printable-markt vertegenwoordigt een lucratieve seizoensniche gedreven door wijdverbreide ouderlijke bezorgdheid over de zomerdip — het welgedocumenteerde fenomeen waarbij gebruikers academische vaardigheden verliezen tijdens de verlengde onderbreking van formeel klasonderwijs. Onderzoek toont consistent aan dat gebruikers een tot drie maanden aan leerwinst kunnen verliezen tijdens de zomervakantie, waarbij rekenvaardigheden bijzonder kwetsbaar zijn voor achteruitgang. Dit bewustzijn is doorgedrongen tot het mainstream ouderschap tot het punt waarop preventie van zomers leerverlies een significante koopmotivator is geworden voor gezinnen over alle sociaaleconomische niveaus heen. Ouders beginnen al in april te zoeken naar zomerleermateriaal, met koopactiviteit die intensiveert in mei en juni wanneer het schooljaar eindigt en gezinnen geconfronteerd worden met de realiteit van zes tot acht weken zonder gestructureerde academische betrokkenheid.
 
@@ -145,54 +145,19 @@ De seizoensconcentratie van de zomerleermarkt maakt voorbereidende publicatie es
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen voor zomerbrug-pakketten',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoekers met zomerthema en schoolvocabulaire',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'summer-printable-ideas',
-      anchorText: 'Zomer printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Rekenfeiten printable businessideeën',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket voor zomeroefening',
     },
   ],
 

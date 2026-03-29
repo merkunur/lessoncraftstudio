@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'patroontrein werkblad generator',
+    primaryKeyword: 'gratis reeksen werkbladen generator',
     secondaryKeywords: [
-      'patroontrein werkblad maker voor verkopers',
-      'herhalende patroon werkbladen maken om te verkopen',
-      'printbare patroonreeks werkbladen commercieel gebruik',
-      'treinpatroon werkblad generator voor KDP',
+      'patroontrein werkbladen online maken',
+      'reeksen herkennen werkbladen gratis proberen',
+      'patroonreeks werkbladen generator treinformaat',
+      'herhalende patronen werkblad maker gratis',
     ],
     lsiKeywords: [
-      'visuele patronenherkenning printables voor Etsy',
+      'visuele patronenherkenning werkbladen online',
       'nul-tekst treinwagon patroonwerkblad tool',
-      'AB ABC patroonreeks werkblad maker',
+      'AB ABC patroonreeks werkblad gratis maken',
     ],
-    titleTag: 'Patroontrein Werkblad Generator — Trein Maker | Verkoop',
-    metaDescription: 'Genereer patroontrein werkbladen met vijf patroontypen, 11 thematische treinwagons, instelbaar aantal aanwijzingen en automatische antwoordbladen.',
+    titleTag: 'Reeksen werkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak patroontrein werkbladen met vijf patroontypen en 11 thematische treinwagons. Probeer gratis met watermerk, geen registratie of download nodig.',
   },
 
   hero: {
-    title: 'Patroontrein Maker',
-    tagline: 'Genereer herhalende patroonwerkbladen weergegeven over 11 thematische treinwagons met vijf patroontypen, instelbaar aantal aanwijzingen en volledig visuele nul-tekst uitvoer die wereldwijd verkoopt zonder vertaling',
-    description: 'Maak professionele patronenherkenning werkbladen waarbij gebruikers herhalende reeksen identificeren en voltooien, weergegeven als afbeeldingen op een thematische trein met 11 wagons. Vijf verschillende patroontypen dekken elk niveau van reekscomplexiteit: AB wisselt twee items af, AAB groepeert twee van het ene gevolgd door één van het andere, ABB keert die groepering om, ABC roteert drie verschillende items, en AABB koppelt twee van elk voordat het herhaalt. De treinindeling rangschikt 11 wagons over drie rijen (5 + 3 + 3), waarbij elke wagon één afbeelding uit het herhalende patroon bevat. Eén wagon wordt leeg gelaten — gebruikers identificeren het patroon en bepalen het ontbrekende item. Pas het aantal aanwijzingen aan van 4 tot 10 om de moeilijkheidsgraad te beheersen: 10 aanwijzingen tonen maakt het patroon duidelijk zichtbaar en ideaal voor beginners, terwijl slechts 4 tonen echte patroonredenering vereist aangezien de eerste 3 wagons altijd zichtbaar zijn. De opvallende treinwagon-indeling is een visuele onderscheider van standaard raster werkbladen — kopers die op Etsy of Gumroad browsen zien direct iets anders dan typische rij-en-kolom patroonoefeningen. Kies uit meer dan 3.100 illustraties verdeeld over 104 thematische collecties of upload je eigen afbeeldingen. Een apart antwoordblad-tabblad toont alle 11 wagons gevuld met de juiste patroonreeks voor directe verificatie. Elk werkblad is volledig visueel met uitsluitend afbeeldingen op treinwagons en nul tekst op de uitvoer. Er verschijnen geen woorden op de gegenereerde pagina — alleen afbeeldingen. Dit maakt je werkbladen universeel verkoopbaar zonder vertaling: één productvermelding bedient elke markt wereldwijd. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis reeksen werkbladen online maken',
+    tagline: 'Genereer herhalende patroonwerkbladen weergegeven over 11 thematische treinwagons met vijf patroontypen, instelbaar aantal aanwijzingen en volledig visuele nul-tekst uitvoer',
+    description: 'Probeer onze patroontrein werkbladen generator gratis en maak direct patronenherkenning werkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: vijf patroontypen (AB, AAB, ABB, ABC, AABB) weergegeven over 11 thematische treinwagons, instelbaar aantal aanwijzingen van 4 tot 10 voor moeilijkheidscontrole, en meer dan 3.100 illustraties over 104 thema\'s. De treinindeling rangschikt 11 wagons over drie rijen waarbij een wagon leeg wordt gelaten als puzzelopdracht. Elk werkblad is volledig visueel zonder tekst op de uitvoer, inclusief automatisch gegenereerd antwoordblad. Exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die reeksen willen oefenen, leerkrachten die gedifferentieerde patronen werkbladen zoeken, en iedereen die professionele patroonactiviteiten wil genereren.',
   },
 
   tutorial: {
-    title: 'Patroontrein Werkbladen Maken in 8 Stappen',
+    title: 'Reeksen werkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de Patroontrein Maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'patroontrein-werkbladen', anchorText: 'Patroontrein Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'patroontrein-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
     { pageType: 'tool', slug: 'patronen-werkblad-maker', anchorText: 'Patronen Werkblad Maker' },
     { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },

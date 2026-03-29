@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP vs Etsy printables verkopen',
+    primaryKeyword: 'Amazon KDP of Etsy voor printables verkopen',
     secondaryKeywords: [
-      'Amazon KDP vs Etsy voor printables verkopen',
+      'KDP vs Etsy vergelijking printable verkopers',
       'waar printbare werkbladen online verkopen',
-      'KDP of Etsy welk platform beter voor printables',
-      'printables verkopen op meerdere platforms strategie',
+      'multi-platform verkoopstrategie printables',
+      'Etsy of KDP beter voor werkbladen verkopen',
     ],
     lsiKeywords: [
       'digitale download marktplaats print-on-demand publicatieplatform vergelijking',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'multi-platform verkoopstrategie cross-platform printable bedrijf',
       'printbare werkbladen activiteitenboek kleurplaat puzzelboek marktplaats',
     ],
-    titleTag: 'KDP vs Etsy Printables — Vergelijkingsgids',
-    metaDescription: 'KDP vs Etsy voor printable verkopers. Vergelijk kostenstructuren, productformaten, verkeer en vindbaarheid, en leer multi-platformstrategieën voor je bedrijf.',
+    titleTag: 'KDP vs Etsy: waar printables verkopen | LessonCraftStudio',
+    metaDescription: 'KDP vs Etsy voor printable verkopers: vergelijk kosten, marges, verkeer en vindbaarheid. Ontdek welk platform past bij uw producten en bedrijfsdoelen.',
   },
 
   hero: {
-    title: 'Amazon KDP vs Etsy: Waar Printables Verkopen',
-    tagline: 'Een directe vergelijking van de twee dominante platforms voor printable verkopers — het fundamentele verschil tussen digitale downloads en print-on-demand, kostenstructuren en realistische winstmarges, verkeer en vindbaarheid, welke producttypes bij welk platform passen, vermeldings- en publicatieworkflows, kopersgedrag, de multi-platformstrategie die omzet maximaliseert, en een besliskader om te kiezen waar je begint op basis van je contenttype, volume en bedrijfsdoelen',
-    description: 'Etsy en Amazon KDP zijn de twee grootste platforms voor het verkopen van printbare content, maar ze bedienen fundamenteel verschillende markten met andere economische modellen. Etsy verkoopt digitale PDF-downloads die kopers thuis printen. KDP verkoopt fysiek gedrukte boeken die Amazon produceert en verstuurt. Dezelfde educatieve content, maar compleet verschillende productformaten, koperservaringen en verdienmodellen. Deze gids biedt een systematische vergelijking op elk relevant vlak — kosten, verkeer, productgeschiktheid, workflow en kopersgedrag — zodat je een weloverwogen beslissing kunt nemen over waar je je printables verkoopt en hoe je een multi-platformstrategie opbouwt die inkomsten van beide marktplaatsen benut.',
+    title: 'Amazon KDP of Etsy: het beste platform voor printables',
+    tagline: 'Vergelijk kosten, marges, verkeer en productformaten om te bepalen waar u uw printables het best kunt verkopen',
+    description: 'Etsy en Amazon KDP zijn de twee grootste platforms voor het verkopen van printbare content, maar ze bedienen fundamenteel verschillende markten. Etsy verkoopt digitale PDF-downloads; KDP verkoopt fysiek gedrukte boeken via print-on-demand. Deze gids biedt een systematische vergelijking op elk relevant vlak zodat u een weloverwogen beslissing kunt nemen en een multi-platformstrategie kunt opbouwen die inkomsten van beide marktplaatsen benut.',
   },
 
   introduction: 'Elke printable verkoper staat voor dezelfde strategische vraag: verkopen op Etsy, Amazon KDP, of beide? Het antwoord hangt af van wat je maakt, hoeveel content je hebt en wat voor bedrijf je wilt opbouwen. Maar deze beslissing nemen zonder de fundamentele verschillen tussen beide platforms te begrijpen leidt tot verspilde moeite, verkeerde productformaten en gemiste omzet.\n\nEtsy en Amazon KDP lijken oppervlakkig vergelijkbaar — beide laten je educatieve en creatieve content aan een wereldwijd publiek verkopen. Maar daar houdt de gelijkenis op. Etsy is een digitale download marktplaats waar kopers PDF-bestanden kopen en thuis of bij een copyshop uitprinten. KDP is een print-on-demand publicatieplatform waar Amazon fysiek boeken drukt, bindt en naar kopers verstuurt. Dit onderscheid bepaalt alles: je contentformaat, prijsstrategie, winstmarges, productieworkflow en het type koper dat je producten ontdekt.\n\nDe kostenstructuren verschillen aanzienlijk. Etsy rekent vermeldingskosten, transactiekosten en betalingsverwerkingskosten op elke verkoop. KDP trekt drukkosten af van de verkoopprijs en betaalt je een percentage van het restant als royalty. Geen van beide modellen is universeel beter — de economie begunstigt verschillende producttypes bij verschillende prijspunten. Een printable van €3 levert redelijke marges op via Etsy, maar zou onmogelijk winstgevend gepubliceerd kunnen worden op KDP. Een activiteitenboek van 120 pagina\'s levert sterke royalty\'s op via KDP, maar zou moeilijk competitief te prijzen zijn als Etsy digitale download.\n\nVerkeer en vindbaarheid werken anders op elk platform. Etsy gebruikt een zoekalgoritme dat vermeldingskwaliteit, relevantie en recentheid meeweegt, met optionele betaalde advertenties via Etsy Ads. Amazon gebruikt het A9 zoekalgoritme met backend-zoekwoordvelden, categoriebrowsing en krachtige aanbevelingsfuncties zoals "Klanten die dit kochten, kochten ook." De koopintentie verschilt eveneens — Etsy-shoppers bladeren door unieke handgemaakte producten en doen vaak impulsaankopen, terwijl Amazon-kopers gericht zoeken naar specifieke producten en vergelijken voor ze kopen.\n\nDeze gids vergelijkt Etsy en KDP systematisch op elke factor die je printable bedrijf beïnvloedt. In plaats van één platform superieur te verklaren, presenteren we de objectieve afwegingen zodat je je specifieke content, doelen en situatie kunt matchen aan de juiste platformstrategie. Voor gedetailleerde platformspecifieke tactieken verwijst deze gids door naar de aparte Etsy-verkoopgidsen en KDP-publicatiegidsen — hier richten we ons uitsluitend op de vergelijking en het besliskader dat je helpt kiezen waar en hoe je verkoopt.',
@@ -155,18 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Een Etsy Printable Winkel Starten vanuit Niets' },
-    { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'Etsy SEO voor Educatief Materiaal' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkbladpakketten Maken' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Rekenactiviteitenboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Beste KDP Activiteitenboek Niches' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Etsy Printables Prijzen Bepalen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentiegids' },
+    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Beste niches voor KDP-activiteitenboeken' },
+    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables verkopen op Gumroad' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator' },
   ],
 
   toolsRecommended: [

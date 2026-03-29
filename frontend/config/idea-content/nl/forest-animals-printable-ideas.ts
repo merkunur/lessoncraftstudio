@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bosdieren Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende bosdieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Bosthema productconcepten, platformtips en nichestrategieën.',
+    titleTag: 'Printables bosdieren voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables met bosdieren op Etsy en KDP. Productideeën voor werkbladen met vossen, herten en uilen die het hele jaar door verkopen.',
 
-    primaryKeyword: 'bosdieren printable ideeën',
+    primaryKeyword: 'printables bosdieren voor Etsy',
     secondaryKeywords: [
-      'bosdieren werkbladen verkopen',
-      'bosthema printable business',
-      'bos activiteiten voor verkopers',
-      'bosdieren printables verkopen online',
+      'bosdieren werkbladen Etsy verkopen',
+      'bosthema printable business starten',
+      'wildlife activiteitenboeken KDP niche',
+      'boswezens printables voor verkopers',
     ],
     lsiKeywords: [
-      'boswezens educatieve werkbladen',
-      'natuurhabitat activiteiten voor kinderen',
-      'wildlife thema printbare producten printables',
+      'bosthema werkbladen maken verkopen',
+      'vossen herten kleurplaten Etsy',
+      'natuurhabitat printbare producten winkel',
     ],
   },
   hero: {
-    title: 'Bosdieren Printable Businessideeën voor Verkopers',
-    description: 'Bosdieren vertegenwoordigen een van de meest blijvend populaire thema\'s in educatieve producten voor kinderen, waarbij de gezellige bosesthetiek die ouders waarderen wordt gecombineerd met de wetenschapsproductcatalogusverbindingen die verkopers nodig hebben. Beren, herten, vossen, uilen, konijnen, eekhoorns, wasbeertjes en egels vormen een geliefd cast van personages die kinderen tegenkomen in verhaaltjesboeken, kinderkamerinrichting en natuurdocumentaires vanaf hun eerste levensjaren. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad profiteert de bosdierenniche van jaarronde relevantie met sterke seizoenspieken tijdens de herfst en winter wanneer klaslessen zich richten op winterslaap, voedselketens en habitataanpassing. De bosesthetiek is een dominante trend geworden in kinderkamer- en klasinrichting, wat de vraag stimuleert naar bijpassend educatief materiaal met dezelfde visuele warmte. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
+    title: 'Printables met bosdieren verkopen op Etsy en KDP',
+    description: 'Bosdieren vertegenwoordigen een van de meest blijvend populaire thema\'s voor printable-verkopers. Vossen, herten, uilen, beren en egels vormen een geliefd cast dat kinderen tegenkomen in verhaaltjesboeken en kinderkamerinrichting. Voor ondernemers op Etsy, Amazon KDP en Gumroad profiteert deze niche van jaarronde relevantie met sterke pieken tijdens herfst en winter wanneer winterslaap, voedselketens en habitataanpassing centraal staan. De populaire bosesthetiek in kinderkamer- en klasinrichting stimuleert de vraag naar bijpassend educatief materiaal. Of u nu kleurplaten, koppelwerkbladen of complete bospakketten maakt — dit thema combineert visuele warmte met educatieve diepgang die kopers overtuigt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De niche van bosdieren printables bevindt zich op het kruispunt van natuureducatie, seizoensgebonden productcatalogusplanning en de enorm populaire bosthema kinderkamertrend, waardoor het hele jaar door vraag ontstaat vanuit meerdere koopsegmenten. Ouders die kinderkamers en speelkamers hebben ingericht met bosthema\'s zoeken actief naar bijpassend educatief materiaal met dezelfde beren, vossen, herten en uilen die de muren van hun kinderen sieren. verkopers die wetenschapsunits bouwen over boshabitats, winterslaap, voedselketens en seizoensgebonden dieraanpassingen hebben printbaar printbare producten nodig dat aansluit bij productcatalogusstandaarden terwijl het jonge gebruikers betrokken houdt.
 
@@ -153,19 +153,19 @@ Prijsanalyse toont aan dat bosdieren printable-producten een lichte premie opbre
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met bosdierenthema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'schaduw-matching-werkbladen',
+      anchorText: 'Schaduw matching werkbladen met bosdieren',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'matchen-sorteren-pakket',
+      anchorText: 'Matchen en sorteren bundel voor verkopers',
     },
     {
       pageType: 'guide',

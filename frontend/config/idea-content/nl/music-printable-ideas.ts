@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Muziek Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende muziek printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Instrumentthema productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables muziek om te verkopen | LessonCraftStudio',
+    metaDescription: 'Verkoop muziek printables op Etsy en Gumroad. Instrumenten, noten en ritme productideeën voor uw printable business — altijdgroene creatieve niche.',
 
-    primaryKeyword: 'muziek printable ideeën',
+    primaryKeyword: 'printables muziek om te verkopen',
     secondaryKeywords: [
-      'muziekthema werkbladen verkopen',
-      'muziek printable business ideeën',
-      'muziek activiteiten voor verkopers',
-      'muziek printables verkopen op Etsy',
+      'muziekthema werkbladen verkopen Etsy',
+      'instrumenten printable business ideeën',
+      'ritme noten educatieve producten verkopen',
+      'muziekonderwijs printables Gumroad KDP',
     ],
     lsiKeywords: [
-      'instrumentthema educatieve werkbladen',
-      'ritme en noten activiteiten',
-      'muziektheorie printbare producten printables',
+      'piano gitaar drums werkbladen maken',
+      'muziekles basisschool materiaal',
+      'orkest instrumentherkenning printbare producten',
     ],
   },
   hero: {
-    title: 'Muziek Printable Businessideeën voor Verkopers',
-    description: 'Muziek is een van de meest universeel fascinerende thema\'s voor kinderen van alle leeftijden, waardoor het een uitstekende altijdgroene niche is voor printable-ondernemers die consistente jaarronde omzet zoeken aangedreven door sterke vakoverschrijdende verbindingen en grenzeloze creatieve betrokkenheid. Het muziekthema biedt buitengewone subthemadiepte waaronder piano, gitaar, drums, viool, trompet, fluit, ukelele, xylofoon, tamboerijn, maracas, muzieknoten, ritmepatronen, melodieconcepten, orkestinstrumenten, banduitrusting, zangactiviteiten en dansbeelden, wat verkopers een rijk visueel vocabulaire geeft dat aansluit bij de dagelijkse ervaringen van vrijwel elk kind — of ze nu formele muzieklessen volgen, meezingen met favoriete liedjes, of op potten en pannen slaan in de keuken. Vakoverschrijdende veelzijdigheid maakt muziekprintables bijzonder waardevol omdat muzikale concepten van nature aansluiten bij rekenen via ritmetelling en maatsoorten, taalvaardigheid via muziekvocabulaire, fijne motoriek via instrumentspel en notatieoefen, en sociaal-emotioneel leren via creatieve expressie. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Muziek printables verkopen: creatieve altijdgroene niche',
+    description: 'Muziek is een universeel thema dat kinderen dagelijks ervaren via zingen, klappen, dansen en luisteren, waardoor het een betrouwbare altijdgroene niche vormt voor printable-ondernemers. Piano, gitaar, drums, xylofoon, muzieknoten, ritmepatronen en orkestinstrumenten bieden een rijk visueel vocabulaire dat tientallen unieke producten ondersteunt. In Nederland krijgen alle basisschoolkinderen muziekonderwijs en veel scholen werken samen met muziekverenigingen en harmonieorkesten, wat structurele vraag creëert naar Nederlandstalig muziekmateriaal. Vakoverschrijdende veelzijdigheid versterkt de waarde van deze niche: muziek sluit aan bij rekenen via ritmetelling en maatsoorten, taalvaardigheid via muziekvocabulaire, fijne motoriek via notatieoefen en sociaal-emotioneel leren via creatieve expressie. Op Etsy en Gumroad converteren gerichte producten zoals instrumentherkenning-koppelwerkbladen beter dan generieke muziekopties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De muziek printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk kind een directe, persoonlijke band heeft met muziek via zingen, klappen, dansen, klasconcert-instrumenten bespelen, muzikale voorstellingen bekijken, of luisteren naar favoriete liedjes tijdens autoritten en bedtijdroutines. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de muziekniche van echte jaarronde relevantie: muziekonderwijs loopt continu gedurende het hele schooljaar, kinderen zijn dagelijks bezig met muziek ongeacht het seizoen, en culturele vieringen met muziek vinden in elke maand plaats over diverse gemeenschappen wereldwijd. Dit consistente vraagpatroon maakt muziekprintables een betrouwbare inkomstenbron zonder de eet-of-vast cycli die verkopers in meer seizoensgebonden niches uitdagen.
 
@@ -145,24 +145,19 @@ Het muziekverkoper-koopsegment vertegenwoordigt een bijzonder waardevol publiek 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met instrumententhema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kruiswoordpuzzel-werkbladen',
+      anchorText: 'Kruiswoordpuzzels met muziekvocabulaire',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'matchen-sorteren-pakket',
+      anchorText: 'Matchen en sorteren pakket voor muziekproducten',
     },
     {
       pageType: 'guide',

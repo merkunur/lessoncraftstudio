@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seizoensmarketing printables',
+    primaryKeyword: 'seizoensmarketing voor printables-verkopers',
     secondaryKeywords: [
-      'seizoensgebonden printable strategie',
-      'feestdagen werkbladen marketing',
+      'seizoensgebonden printable strategie Nederland',
+      'Sinterklaas werkbladen marketing',
       'terug naar school printable verkoop',
-      'seizoensgebonden productkalender verkopers',
+      'seizoensgebonden productkalender Etsy',
     ],
     lsiKeywords: [
       'feestdagenvraag cyclus seizoensgebonden productplanning piekverkoopperioden',
@@ -16,14 +16,14 @@ const content: GuideContent = {
       'seizoenstrends vraagvoorspelling productiekalender kwartaalplanning',
       'releasetiming seizoenszoekwoorden trendanalyse contentkalender jaarplanning',
     ],
-    titleTag: 'Seizoensmarketing Printables — Verkoopkalender',
-    metaDescription: 'Plan seizoensmarketing printables campagnes afgestemd op vraagcycli. Een verkoopkalender met productietiming, zoekwoorden en piekverkoopstrategieën voor.',
+    titleTag: 'Seizoensmarketing voor printables | LessonCraftStudio',
+    metaDescription: 'Seizoensmarketing voor printables-verkopers: verkoopkalender met productietiming, seizoenszoekwoorden en piekstrategieën voor Sinterklaas, Kerst en meer.',
   },
 
   hero: {
-    title: 'Seizoensmarketing voor Printable Verkopers',
+    title: 'Seizoensmarketing: uw printables-verkoopkalender',
     tagline: 'Een complete gids voor seizoensmarketing van printables — van het in kaart brengen van jaarlijkse vraagcycli, het opbouwen van productiekalenders afgestemd op piekperioden, het optimaliseren van listings voor seizoensgebonden zoekopdrachten, het creëren van thematische productvariaties, het plannen van seizoensbundels, het inplannen van marketingcampagnes tot het analyseren van prestaties jaar na jaar',
-    description: 'Timing bepaalt of een printable product gelanceerd wordt in piekperiode of aankomt nadat kopers al bij concurrenten hebben gekocht. Een Halloween werkbladenpakket dat in oktober wordt aangeboden concurreert tegen honderden gevestigde listings die sinds augustus verkopen verzamelen. Een terug-naar-school rekenbundel die in september wordt gemaakt mist het inkoopvenster dat al in juli begon. Deze gids biedt een compleet seizoensmarketingkalender-framework speciaal ontworpen voor printable verkopers — van het in kaart brengen van de jaarlijkse vraag en productieplanning tot seizoensgebonden zoekwoordoptimalisatie en prestatieanalyse per jaar.',
+    description: 'Timing bepaalt of een printable product gelanceerd wordt in piekperiode of aankomt nadat kopers al bij concurrenten hebben gekocht. Een Sinterklaas-werkbladenpakket dat in december wordt aangeboden concurreert tegen honderden gevestigde listings die sinds oktober verkopen verzamelen. Een terug-naar-school rekenbundel die in september wordt gemaakt mist het inkoopvenster dat al in juli begon. Deze gids biedt een compleet seizoensmarketingkalender-framework speciaal ontworpen voor printable verkopers op de Nederlandse markt — van het in kaart brengen van de jaarlijkse vraag en productieplanning tot seizoensgebonden zoekwoordoptimalisatie en prestatieanalyse per jaar.',
   },
 
   introduction: 'De vraag naar printable producten is niet gelijkmatig verdeeld over het kalenderjaar. Het volgt voorspelbare seizoensgebonden cycli die worden aangestuurd door schoolkalenders, feestdagen en culturele evenementen die zich jaarlijks herhalen met opvallende consistentie. Het terug-naar-school seizoen creëert een enorme piek in de vraag naar leeftijdsgebonden werkbladen en winkelinrichtingsmaterialen. Het feestdagenseizoen stimuleert de aankoop van thematische activiteitenpakketten van Halloween tot en met Kerst. De zomer brengt ouders die op zoek zijn naar materialen om leerverlies tegen te gaan. Elk van deze vraagpieken vertegenwoordigt een geconcentreerd inkoopvenster waarin verkopers met voorbereide, geïndexeerde en zichtbare producten onevenredig veel omzet genereren vergeleken met verkopers die pas op de vraag reageren nadat deze er al is.\n\nDe fundamentele uitdaging van seizoensmarketing voor printable verkopers is doorlooptijd. Marktplaatszoekmachines hebben weken nodig om nieuwe listings te indexeren en te rangschikken. Producten hebben tijd nodig om een eerste verkoopsnelheid en beoordelingen op te bouwen die ze hoger in de zoekresultaten duwen. Kopers in veel categorieën beginnen 4-8 weken voor de daadwerkelijke feestdag of het seizoen met zoeken en kopen — verkopers die hun oktoberproductcatalogus plannen beginnen in augustus met winkelen, ouders die feestdagen-activiteitenpakketten voorbereiden beginnen in november te bladeren, en thuisonderwijsfamilies die zomerlespakketten plannen beginnen in april met onderzoek. Een verkoper die producten maakt tijdens de piekperiode concurreert tegen verkopers die maanden eerder zijn begonnen en al gevestigde, goed gerangschikte listings hebben.\n\nDe verkopers die consequent de hoogste seizoensomzet behalen zijn niet per se degenen met de grootste catalogi of de meest creatieve ontwerpen. Het zijn degenen die productie en marketing plannen rond de jaarlijkse vraagkalender met gedisciplineerde consistentie. Zij maken Halloween-producten in juli, terug-naar-school materialen in mei en Kerst-activiteitenpakketten in september. Hun listings zijn geïndexeerd, geoptimaliseerd en verzamelen vroege verkopen voordat het merendeel van de kopers zelfs maar begint met zoeken. Deze voorsprong creëert een samengesteld voordeel: vroege verkopen genereren beoordelingen, beoordelingen verbeteren de zoekrangschikking, hogere rangschikking genereert meer verkopen en de cyclus versnelt gedurende de piekvraagperiode.\n\nSeizoensmarketing gaat niet alleen over feestdagenproducten. Elke maand van het jaar heeft vraagpatronen die geïnformeerde verkopers kunnen benutten. Januari brengt Nieuwjaarsdoelstellingsactiviteiten en frisse-start productcatalogusmaterialen. Februari stimuleert Valentijnsdag werkbladen en educatieve content. Maart en april creëren vraag naar voorbereidingsmaterialen voor toetsen. De verkopers die deze maandelijkse vraagpatronen in kaart brengen en erop voorbereiden, behouden een consistente omzet gedurende het hele jaar in plaats van feest-en-honger cycli te ervaren die bedrijfsplanning bemoeilijken.\n\nDeze gids doorloopt een compleet seizoensmarketingkalender-framework voor printable verkopers. Elke stap behandelt een specifiek aspect van seizoensplanning, van het in kaart brengen van de jaarlijkse vraagcyclus en het opstellen van een productiekalender tot het optimaliseren van seizoenszoekwoorden, het efficiënt creëren van productvariaties en het analyseren van prestaties jaar na jaar. Het doel is een systematische aanpak die ervoor zorgt dat je producten zijn gemaakt, geplaatst, geoptimaliseerd en zichtbaar voordat elke piekperiode aanbreekt — geen reactieve haast om seizoensproducten te maken nadat het inkoopvenster al geopend is.',
@@ -150,16 +150,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social Media Marketing voor Printable Verkopers' },
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest Marketing voor Werkblad Bedrijven' },
-    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'E-mailmarketing voor Printable Productverkopers' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy Printable Winkel Starten' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten Maken voor Verkoop' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selectie Gids voor Printable Bedrijven' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategien voor Educatieve Printables' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekers Maken om te Verkopen' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest-marketing voor werkbladen-verkopers' },
+    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'e-mailmarketing voor printables-verkopers' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'seizoensgebonden kleurplaten genereren' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'het wiskunde-meesterpakket als seizoensbundel' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
     { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketinggids voor Printable Bedrijven' },
   ],

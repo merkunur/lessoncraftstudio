@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'koppelwerkbladen bundel',
+    primaryKeyword: 'koppel- en sorteerpakket Etsy',
     secondaryKeywords: [
-      'koppelen sorteren werkblad generator bundel voor verkopers',
-      'printbare koppelactiviteit toolkit commercieel gebruik',
-      'bingokaart generator bundel voor Etsy',
-      'sorteer werkblad generators voor KDP verkopers',
+      'koppelen sorteren werkblad generator bundel verkopers',
+      'bingokaart generator bundel Etsy KDP',
+      'printbare koppelactiviteit toolkit commercieel',
+      'sorteer werkblad generators voor printable bedrijf',
     ],
     lsiKeywords: [
-      'koppelen sorteren bingo werkblad pakket',
-      'schaduw koppelen rasterpuzzel printbare collectie',
-      'commerciële licentie koppelwerkbladen',
-      'bulk koppelwerkblad creatie tool',
+      'koppelen sorteren bingo werkblad pakket Etsy',
+      'schaduw koppelen rasterpuzzel collectie verkopers',
+      'commercieel koppelwerkbladen bundel verkopen',
+      'batch bingokaart export voor kleuters',
     ],
-    titleTag: 'Koppelwerkbladen Bundel — 5 Sorteren & Koppelen Generators',
-    metaDescription: 'Krijg 5 koppel werkblad generators in één bundel. Maak koppelen, rasterpuzzel, schaduw koppelen, bingo en sorteer werkbladen om te verkopen op Etsy, KDP &.',
+    titleTag: 'Koppel- en sorteerpakket voor Etsy | LessonCraftStudio',
+    metaDescription: 'Vijf koppel- en sorteergenerators in een pakket. Maak koppelwerkbladen, schaduw koppelen, rasterpuzzels, bingo en sorteer werkbladen voor Etsy en KDP.',
   },
 
   hero: {
-    title: 'Matchen & Sorteren Pakket',
-    tagline: 'Vijf koppel- en sorteergenerators — van visueel paar koppelen tot batch bingokaart exports',
-    description: 'Het Matchen & Sorteren Pakket brengt vijf gespecialiseerde generators samen die het volledige scala aan koppel-, paring- en categorisatieactiviteiten dekken. Dit is een hybride bundel — drie van de vijf apps zijn taalgevoelig en produceren werkbladen met woordenschatlabels in elk van de 11 ondersteunde talen, terwijl twee puur visueel zijn en wereldwijd werken zonder vertaling. Verbindingswerkblad biedt vier verschillende modi waaronder letterkoppeling, afbeelding-naam koppeling en aangepaste inhoud. Rasterpuzzel maakt coördinaatgebaseerde koppelpuzzels op gestructureerde rasters. Schaduw Koppelen genereert silhouet-koppelwerkbladen waarbij gebruikers lijnen trekken die objecten met hun schaduwen verbinden. Plaatjesbingo produceert batch-exports van meerdere unieke kaarten in één ZIP-download — de enige app over alle bundels met deze mogelijkheid, specifiek ontworpen voor klas- en groepsgebruik. Sorteer Werkblad bouwt twee-categorieën sorteerwerkbladen waarbij gebruikers thematische afbeeldingen classificeren in linker- en rechtergroepen. Vier van de vijf generators produceren automatische antwoordbladen. Plaatjesbingo is de uitzondering — als spelkaart-generator is er geen enkel correct antwoord. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden. Kies uit meer dan 100 thematische beeldsets of upload je eigen PNG- en JPEG-bestanden voor merkgebonden, nichespecifieke producten. Of je nu koppelactiviteitenpakketten verkoopt op Etsy, sorteerwerkboeken publiceert op Amazon KDP, of bingokaartsets maakt voor Gumroad, deze bundel geeft je de variatie en productiesnelheid die verkopers nodig hebben. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    title: 'Vijf koppel- en sorteergenerators in een pakket',
+    tagline: 'Van visueel paar koppelen tot batch bingokaart exports voor Etsy, KDP en Bol.com',
+    description: 'Als u koppel- en sorteeractiviteiten verkoopt op Etsy, Amazon KDP of Bol.com, geeft dit pakket u vijf gespecialiseerde generators die het volledige scala aan koppel-, paring- en categorisatieactiviteiten dekken. Drie van de vijf apps zijn taalgevoelig en produceren werkbladen met woordenschatlabels in elk van de 11 ondersteunde talen, terwijl twee puur visueel zijn en wereldwijd werken zonder vertaling. De Plaatjesbingo generator is uniek: het produceert batch-exports van meerdere unieke kaarten in een ZIP-download, specifiek ontworpen voor groepsgebruik. Kopers op Etsy betalen premiumprijzen voor kant-en-klare bingosets met 20 tot 50 unieke kaarten, en u genereert de hele set in seconden. Vier van de vijf generators produceren automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen afbeeldingen voor merkgebonden producten. De Nederlandse markt biedt extra kansen via Bol.com, terwijl de meertalige ondersteuning u ook toegang geeft tot de Duitse en Franse markten. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 
   appsIncluded: [
@@ -190,15 +190,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Verbindingswerkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'raster-puzzel-werkbladen', anchorText: 'Rasterpuzzel Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Schaduw Koppelen Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Plaatjesbingo Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Sorteer Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'guide', slug: 'koppel-werkbladen-maken', anchorText: 'Koppel werkbladen maken' },
-    { pageType: 'guide', slug: 'schaduw-koppelen-werkbladen-maken', anchorText: 'Schaduw-koppelen werkbladen maken' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk voor je printable bedrijf' },
-    { pageType: 'idea', slug: 'peuterspeelzaal-printable-ideen', anchorText: 'Peuteronderwijs printable ideeën voor vroege ontwikkeling' },
+    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Plaatjesbingo generator bekijken' },
+    { pageType: 'app', slug: 'schattenjacht-werkbladen', anchorText: 'Schattenjacht generator bekijken' },
+    { pageType: 'bundle', slug: 'zoeken-vinden-pakket', anchorText: 'Bekijk ook het Zoeken & Vinden Pakket' },
+    { pageType: 'start', slug: 'stappenplan-printable-bedrijf', anchorText: 'Stappenplan printables-business' },
   ],
 
   visuals: {

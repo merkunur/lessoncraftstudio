@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Abonnementbox Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek werkblad abonnementbox ideeën om te verkopen op Etsy, Gumroad en Patreon. Bouw terugkerende omzet op met maandelijkse werkbladpakketten en bundels.',
+    titleTag: 'Abonnement printables — Business | LessonCraftStudio',
+    metaDescription: 'Abonnement printables ideeën voor terugkerende omzet. Bouw een maandelijks werkbladpakket business via Patreon, Gumroad of Shopify met vaste inkomsten.',
 
-    primaryKeyword: 'abonnementbox printable ideeën',
+    primaryKeyword: 'abonnement printables ideeën business',
     secondaryKeywords: [
-      'printable abonnement business model',
-      'maandelijks werkblad abonnement',
-      'terugkerende printable leveringsservice',
-      'printable abonnementen verkopen online',
+      'maandelijks werkblad abonnement verkopen',
+      'printable abonnement terugkerende omzet',
+      'Patreon educatieve printables business',
+      'seizoensgebonden werkbladpakketten abonnement',
     ],
     lsiKeywords: [
-      'maandelijkse educatieve leveringsproducten',
-      'terugkerend werkblad omzetmodel',
-      'gecureerd printable pakketservice',
+      'iDEAL automatische incasso abonnement',
+      'levenslange klantwaarde printable business',
+      'gecureerde maandelijkse leercollecties',
     ],
   },
   hero: {
-    title: 'Werkblad Abonnementbox Businessideeën voor Verkopers',
-    description: 'Werkblad abonnementboxen vertegenwoordigen een transformatief businessmodel dat eenmalige printable-verkopen omzet in voorspelbare terugkerende omzet via maandelijks gecureerde werkbladpakketten, thematische activiteitenbundels en seizoensgebonden leercollecties die digitaal worden geleverd aan abonnees die de gemaksdienst waarderen van verse content die elke maand automatisch arriveert zonder de moeite van het zoeken naar individuele producten. Het abonnementsmodel creëert levenslange klantwaarde die individuele productverkopen ver overstijgt omdat een abonnee die twaalf maanden actief blijft twaalf keer de omzet genereert van een eenmalige koper terwijl er progressief minder wervingsinspanning nodig is naarmate de relatie rijpt en retentiestrategieën samengesteld effect krijgen. verkopers, ouders, thuisonderwijzende gezinnen, bijlescentra en kinderdagverblijven abonneren zich op doorlopende verse content waarop ze maand na maand kunnen vertrouwen. Digitale levering elimineert de verzendkosten en fysieke voorraaduitdagingen die traditionele abonnementboxen logistiek complex en marge-dun maken. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Abonnement printables: voorspelbare maandomzet',
+    description: 'Een printable abonnement transformeert eenmalige verkopen in voorspelbare terugkerende omzet. Abonnees ontvangen maandelijks verse werkbladpakketten zonder zelf te zoeken, terwijl u als verkoper een stabiele inkomstenstroom opbouwt die groeit met elk nieuw lid. In Nederland is het abonnementsmodel bijzonder kansrijk dankzij de sterke cultuur van automatische incasso en iDEAL. Met onze generators produceert u maandelijks verse content: seizoensgebonden thema\'s in september, herfst in oktober, kerst in december en zo verder. Bied niveaus aan per groep zodat abonnees het passende pakket selecteren. Platforms als Patreon, Gumroad en Shopify bieden de technische infrastructuur met minimale overhead. Een abonnee die acht maanden actief blijft genereert acht keer de omzet van een eenmalige koper, terwijl de marginale kosten per extra abonnee verwaarloosbaar zijn. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De abonnementseconomie ervaart opmerkelijke groei over alle digitale productcategorieën naarmate consumenten steeds meer de voorkeur geven aan het gemak, de curatie en de waarde van terugkerende lidmaatschappen boven individuele aankoopbeslissingen die herhaald browsen, evalueren en afrekenprocessen vereisen. Ouders en verkopers waarderen het gemak van gecureerde maandelijkse educatieve content die automatisch arriveert bijzonder omdat hun tijd beperkt is en de cognitieve belasting van continu zoeken op marktplaatsen naar leeftijdsgeschikte, productgerichte werkbladmaterialen een echte last vertegenwoordigt die ze graag betalen om te elimineren via abonnementsrelaties met vertrouwde contentmakers.
 
@@ -147,54 +147,19 @@ De schaalbaarheidsmogelijkheden van het abonnementsmodel zijn bijzonder aantrekk
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen voor maandelijkse pakketten',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoekers per thema voor abonnementen',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Rekenfeiten printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Thuisonderwijs printable businessideeën',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket als abonnementsbasis',
     },
   ],
 

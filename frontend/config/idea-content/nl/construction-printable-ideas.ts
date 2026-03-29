@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bouwplaats Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende bouwplaats printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Bouwvoertuig en gereedschap productconcepten en tips voor.',
+    titleTag: 'Printables bouw om te verkopen | LessonCraftStudio',
+    metaDescription: 'Verkoop bouwplaats printables op Etsy en Gumroad. Graafmachines, kranen en gereedschap productideeën voor uw printable business — STEM-niche het hele jaar.',
 
-    primaryKeyword: 'bouwplaats printable ideeën',
+    primaryKeyword: 'printables bouw om te verkopen',
     secondaryKeywords: [
-      'bouwplaats werkbladen verkopen',
-      'bouwthema printable business',
-      'constructie activiteiten voor verkopers',
-      'bouwplaats printables verkopen op Etsy',
+      'bouwplaats werkbladen verkopen Etsy',
+      'bouwvoertuigen printable business ideeën',
+      'STEM constructie educatieve producten',
+      'graafmachine kraan printables Gumroad',
     ],
     lsiKeywords: [
-      'bouwplaatsthema educatieve werkbladen',
-      'STEM bouwactiviteiten voor kinderen',
-      'voertuig en machines printbare producten',
+      'bulldozer kiepwagen werkbladen maken',
+      'bouwplaats gereedschap educatief materiaal',
+      'techniek en bouwen printbare producten',
     ],
   },
   hero: {
-    title: 'Bouwplaats Printable Businessideeën voor Verkopers',
-    description: 'De bouwplaats is een van de meest universeel fascinerende thema\'s voor jonge kinderen, waardoor het een uitstekende altijdgroene niche is voor printable-ondernemers die betrouwbare jaarronde omzet zoeken aangedreven door krachtige STEM-verbindingen en de magnetische fascinatie die graafmachines, kranen en bouwplaatsen uitoefenen op kinderen van elke achtergrond. Het bouwthema biedt buitengewone subthemadiepte waaronder graafmachines, kranen, bulldozers, kiepwagens, betonmixers, bouwhelmen, gereedschap, hamers, moersleutels, spijkers, schroeven, bouwtekeningen, bouwstenen, bakstenen, steigers, veiligheids vesten, verkeerskegels en sloopkogels, wat verkopers een rijk visueel vocabulaire geeft dat aansluit bij de dagelijkse observaties van vrijwel elk kind van bouwprojecten in hun buurt en wegwerkzaamheden op hun reisroutes. Vakoverschrijdende veelzijdigheid maakt bouwprintables bijzonder waardevol omdat bouwconcepten van nature aansluiten bij rekenen via meten en tellen, taalvaardigheid via bouwvocabulaire, STEM-leren via technische principes, en fijne motoriek via bouwactiviteiten. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Bouwplaats printables verkopen: STEM-niche met jaarronde vraag',
+    description: 'Graafmachines, kranen, bulldozers en bouwhelmen oefenen een magnetische fascinatie uit op jonge kinderen, waardoor de bouwplaats een krachtige altijdgroene niche is voor printable-ondernemers. Bouwprojecten lopen het hele jaar door en kinderen komen dagelijks bouwmaterieel tegen in hun buurt, wat zorgt voor constante vraag zonder seizoensafhankelijkheid. In Nederland is er volop bouwactiviteit en kinderen observeren wegwerkzaamheden, woningbouw en havenprojecten als onderdeel van hun dagelijkse omgeving. STEM-aansluiting geeft bouwprintables een premiumpositionering — technische principes rond meten, constructie en materialen sluiten aan bij het lesprogramma voor natuur en techniek. De subthemavariatie is uitgebreid: betonmixers, kiepwagens, gereedschap, bouwtekeningen en veiligheidsvesten ondersteunen elk unieke producten. Op Etsy en Gumroad converteren gerichte producten beter dan generieke bouwopties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De bouwplaats printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk jong kind een directe, viscerale fascinatie heeft voor bouwvoertuigen, bouwplaatsen en de zichtbare transformatie van gebouwen die vorm krijgen in hun buurten en gemeenschappen. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de bouwplaatsniche van echte jaarronde relevantie: bouwprojecten lopen continu ongeacht het seizoen, kinderen komen dagelijks bouwmaterieel tegen tijdens hun routines, en bouwspel met speelgoedvoertuigen en bouwblokken blijft een eeuwig favoriete activiteit die weer en kalendergebeurtenissen overstijgt. Dit consistente vraagpatroon maakt bouwprintables een betrouwbare inkomstenbron zonder de eet-of-vast cycli die verkopers in meer seizoensgebonden niches uitdagen.
 
@@ -145,24 +145,19 @@ De bouwspeelgoedcrossovermarkt vertegenwoordigt een bijzonder waardevol publiek.
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'zoek-voorwerpen-werkbladen',
+      anchorText: 'Zoek voorwerpen generator voor bouwplaatsscènes',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'doolhof-werkbladen',
+      anchorText: 'Doolhof werkbladen met bouwplaatsthema',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor STEM-producten',
     },
     {
       pageType: 'guide',

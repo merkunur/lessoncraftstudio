@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'speciale producten Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende speciale producten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Aangepast printbare producten en nichetips voor verkopers.',
+    titleTag: 'Printables SBO en speciaal onderwijs | LessonCraftStudio',
+    metaDescription: 'Printables voor SBO en speciaal onderwijs verkopen op Etsy. Ideeën voor aangepaste werkbladen met grotere lettertypen en gestaffelde niveaus.',
 
-    primaryKeyword: 'speciale producten printable ideeën',
+    primaryKeyword: 'printables SBO speciaal onderwijs verkopen',
     secondaryKeywords: [
-      'speciale producten werkbladen verkopen',
-      'aangepast printbare producten printable business',
-      'passend onderwijs activiteiten verkopers',
-      'speciale producten printables op Gumroad',
+      'speciaal onderwijs werkbladen Etsy',
+      'aangepaste printables passend onderwijs',
+      'SBO werkbladen verkopen Gumroad',
+      'printables handelingsplan doelen',
     ],
     lsiKeywords: [
-      'gedifferentieerd leren werkbladen',
-      'adaptief printbare producten printables',
-      'ontwikkelingsperspectief bronnen',
+      'visuele ondersteuning werkbladen leerlingen',
+      'gedifferentieerd materiaal cluster 3 en 4',
+      'logopedist ergotherapeut oefenmateriaal',
     ],
   },
   hero: {
-    title: 'speciale producten Printable Businessideeën voor Verkopers',
-    description: 'speciale producten printables vertegenwoordigen een van de meest onderbediende en premium-geprijsde niches op de educatieve markt omdat verkopers in het speciale producten, therapeuten, onderwijsassistenten en ouders aangepaste werkbladen, gemodificeerd oefenmateriaal, visuele ondersteuning en vereenvoudigde activiteitenpagina\'s kopen tegen hogere prijzen dan reguliere equivalenten. Standaard educatieve printables voldoen zelden aan de specifieke aanpassingen en modificaties die ontwikkelingsperspectiefplannen en individuele handelingsplannen vereisen. Het speciale productenpersoneel bedient gebruikers met uitzonderlijk brede vaardigheidsspannen, wat materiaal vereist op meerdere complexiteitsniveaus met grotere lettertypen, verminderde visuele drukte, vereenvoudigde instructies en gestaffelde moeilijkheidsprogressies die reguliere printable-verkopers bijna nooit bieden. Ouderaankopen in deze niche worden gedreven door therapiedoelen, handelingsplanbdoelstellingen en de wens om vaardigheden thuis te versterken met materiaal dat aansluit bij wat hun kind op school en in klinische settings gebruikt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables SBO en speciaal onderwijs: premium niche',
+    description: 'Het speciaal basisonderwijs (SBO) en speciaal onderwijs (SO) vormen een van de meest onderbediende en premium-geprijsde niches op de printable-markt. Leerkrachten, therapeuten en ouders zoeken aangepast materiaal met grotere lettertypen, minder visuele drukte en gestaffelde moeilijkheidsprogressies — aanpassingen die standaard werkbladen bijna nooit bieden. Het passend onderwijsbeleid in Nederland maakt reguliere scholen verantwoordelijk voor leerlingen met extra ondersteuningsbehoeften, wat de vraag naar gedifferentieerd materiaal sterk vergroot. Met onze generators past u lettergrootte, aantal items en complexiteit eenvoudig aan voor elk niveau. Logopedisten, ergotherapeuten en intern begeleiders betalen premium voor materiaal dat aansluit bij handelingsplannen. Deze niche kent geen seizoensdal omdat therapeutische doelen het hele jaar doorlopen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De speciale producten printable-markt vertegenwoordigt een premium omzetkans omdat professionals in het speciale producten functioneren als gespecialiseerde institutionele kopers die aangepast materiaal onafhankelijk moeten aanschaffen wanneer standaard productcataloguspakketten geen bronnen bevatten die geschikt zijn voor gebruikers met diverse leerbehoeften en beperkingsgerelateerde aanpassingen. Terwijl een reguliere verkoper af en toe aanvullende oefenwerkbladen koopt om de klasinstructie te versterken, koopt een verkoper in het speciale producten individueel aangepast materiaal voor gebruikers die op sterk uiteenlopende vaardigheidsniveaus werken binnen dezelfde klas of hulpklas, wat het volume van benodigde onderscheidende bronnen per instructieblok vermenigvuldigt. Dit fundamentele koopverschil betekent dat professionals in het speciale producten substantieel meer per persoon besteden aan educatieve printables dan reguliere verkopers.
 
@@ -145,54 +145,19 @@ Het jaarronde karakter van de vraag naar speciaal printbare producten is bijzond
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met aanpasbare complexiteit',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten met dikkere lijnen voor SBO',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-matching-worksheets',
-      anchorText: 'Professionele koppelwerkbladen maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Thuisonderwijs printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Peuterspeelzaal printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'esl-printable-ideas',
-      anchorText: 'NT2 printable businessideeën',
+      pageType: 'bundle',
+      slug: 'matchen-sorteren-pakket',
+      anchorText: 'Matchen en sorteren pakket voor therapeuten',
     },
   ],
 

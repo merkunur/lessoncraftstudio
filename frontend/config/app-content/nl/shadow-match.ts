@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schaduw koppelen werkblad generator',
+    primaryKeyword: 'schaduwwerkbladen om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare silhouet koppelactiviteit maker voor Etsy verkopers',
-      'schaduw matching puzzel werkblad generator voor KDP uitgevers',
-      'schaduw koppelen werkblad maker commerciële licentie',
-      'schaduw matching werkbladen verkopen op Gumroad',
+      'schaduw-matching generator Etsy',
+      'schaduwpuzzels voor KDP',
+      'schaduwwerkbladen commerciële licentie',
+      'schaduwherkenning verkopen',
     ],
     lsiKeywords: [
       'digitale silhouet koppel-printables online bedrijf',
       'commercieel gebruik schaduwpuzzel werkblad generator',
       'printbare visuele koppelactiviteit business tools',
     ],
-    titleTag: 'Schaduw Koppelen Generator | Maak & Verkoop Silhouetpuzzels',
+    titleTag: 'Schaduwwerkbladen voor Etsy verkopen | LessonCraftStudio',
     metaDescription:
-      'Maak schaduw koppelen werkbladen om te verkopen op Etsy, KDP & Gumroad. Schaduw-modus en maak-het-compleet-modus, automatische silhouetten, 104 thema\'s.',
+      'Maak schaduwwerkbladen om te verkopen op Etsy en Amazon KDP. Schaduw-modus en maak-het-compleet-modus, automatische silhouetten. Gratis proefversie.',
   },
 
   hero: {
-    title: 'Schaduw Koppelen Werkblad Generator voor Silhouet- en Gesplitste-Afbeelding-Koppelactiviteiten',
+    title: 'Schaduwwerkbladen genereren en verkopen op Etsy',
     tagline:
-      'Twee koppelmodi in één generator — Schaduw Koppelen maakt automatisch zwarte silhouetten van elke afbeelding, Maak het Compleet splitst afbeeldingen in helften — beide met Fisher-Yates derangement dat triviale koppelingen uitsluit, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties.',
+      'Gratis proefversie met watermerk — twee koppelmodi in een generator: schaduw koppelen met automatische silhouetten en maak-het-compleet met gesplitste afbeeldingen.',
     description:
-      'Maak professionele schaduw koppelen werkbladen waarbij gebruikers gekleurde afbeeldingen koppelen aan hun silhouetten of gesplitste afbeeldingshelften opnieuw samenvoegen. De Schaduw Koppelen-modus plaatst 4 gekleurde afbeeldingen gelabeld A, B, C, D in de bovenste rij en 4 automatisch gegenereerde zwarte silhouetten gelabeld 1, 2, 3, 4 in de onderste rij — silhouetten worden gemaakt door pixelniveau beeldverwerking die elke pixel met alpha > 10 omzet naar puur zwart, waardoor nauwkeurige omtrekken ontstaan die het exacte transparantieprofiel van elke afbeelding behouden. De Maak het Compleet-modus splitst afbeeldingen in helften met horizontale of verticale snijrichting, labelt eerste helften A–D en tweede helften 1–4, en past de indeling aan op basis van oriëntatie. Beide modi gebruiken Fisher-Yates derangement om te garanderen dat geen enkel item op zijn oorspronkelijke positie verschijnt, waardoor elke keer een echte koppeluitdaging ontstaat. Schakel labels tonen/verbergen in voor de A/B/C/D en 1/2/3/4 identificatoren, voeg optionele naam- en datumvelden toe voor gebruik online, en genereer automatische antwoordbladen die elke correcte letter-naar-nummer-koppeling weergeven. De Schaduw Koppelen Werkblad Generator is NIET taalgevoelig: de uitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor de app-interface. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu schaduwpuzzel-bundels verkoopt op Etsy.nl, visuele waarnemingswerkboeken samenstelt voor Amazon KDP, of snelle koppelactiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Bouw een populaire productlijn schaduwwerkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen koppelen gekleurde afbeeldingen aan hun zwarte silhouetten of voegen gesplitste afbeeldingshelften weer samen — een activiteit die visuele waarneming traint en bijzonder geliefd is bij ouders van kleuters en peuters. De generator maakt automatisch nauwkeurige silhouetten via pixelniveau beeldverwerking, wat u uren handwerk bespaart. De Maak het Compleet-modus splitst afbeeldingen in helften voor een tweede puzzeltype vanuit dezelfde tool. Beide modi gebruiken Fisher-Yates derangement dat triviale koppelingen uitsluit, waardoor elk werkblad een echte uitdaging biedt. Met 104 thematische collecties en meer dan 3.100 illustraties kunt u eindeloze varianten produceren voor seizoensbundels en themapakketten. De werkbladen zijn volledig visueel en verkopen daarom op elke markt zonder vertaling — ideaal voor Etsy.nl, Bol.com en internationale shops. Automatische antwoordbladen met letter-naar-nummer-koppelingslabels maken uw producten direct verkoopklaar. Exporteer printklare PDF\'s op 300 DPI. De gratis proefversie met watermerk geeft u toegang tot alle functies — koop een licentie om het watermerk te verwijderen.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Schaduw Koppelen Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u schaduwwerkbladen om te verkopen in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Schaduw Koppelen Generator',
+    title: 'Belangrijkste functies van de schaduwwerkbladen generator',
     features: [
       {
         title: 'Automatisch Gegenereerde Silhouetten via Pixelniveau Beeldverwerking',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Schaduw Koppelen Werkbladen Online Verkoopt',
+    title: 'Hoe u schaduwwerkbladen verkoopt op Etsy en Amazon KDP',
     cases: [
       {
         title: 'Thematische Schaduwkoppeling-Bundels op Etsy.nl',
@@ -207,57 +207,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'verbindings-werkbladen',
-      anchorText: 'Verbindingswerkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'raster-puzzel-werkbladen',
-      anchorText: 'Rasterpuzzel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'plaatjes-bingo-werkbladen',
-      anchorText: 'Plaatjes Bingo Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sorteer-werkbladen',
-      anchorText: 'Sorteer Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'zoek-voorwerpen-werkbladen',
-      anchorText: 'Zoek Voorwerpen Werkblad Generator',
+      anchorText: 'Verbindingswerkbladen Generator',
     },
     {
       pageType: 'bundle',
       slug: 'matchen-sorteren-pakket',
-      anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-Apps in Één Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'peuterspeelzaal-printable-ideen',
-      anchorText: 'Peuteronderwijs printable ideeën voor vroege ontwikkeling',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kleuterschool-printable-ideen',
-      anchorText: 'Kleuterschool printable ideeën voor jonge gebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'blauwdruk-printable-bedrijf',
-      anchorText: 'Blauwdruk voor je printable bedrijf',
-    },
-    {
-      pageType: 'guide',
-      slug: 'schaduw-koppelen-werkbladen-maken',
-      anchorText: 'Schaduw-koppelen werkbladen maken',
+      anchorText: 'Matchen & Sorteren Pakket — alle koppel-apps in een pakket',
     },
   ],
 

@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'voorzetsels werkbladen generator',
+    primaryKeyword: 'voorzetsels werkbladen voor NT2 op Etsy en Eduki',
     secondaryKeywords: [
-      'printbare voorzetsels werkbladen voor Etsy-verkopers',
-      'ruimtelijke taal werkbladen maker voor KDP-uitgevers',
-      'voorzetsels activiteiten verkopen op Gumroad',
-      'voorzetsels printables commerciële licentie',
+      'voorzetsels generator NT2 Etsy',
+      'voorzetsel werkbladen Nederlands tweede taal',
+      'voorzetsels werkbladen commerciële licentie',
+      'NT2 materiaal verkopen',
     ],
     lsiKeywords: [
       'digitale ruimtelijke woordenschat producten online bedrijf',
       'printbare voorzetsels werkbladen bedrijf',
       'commercieel gebruik taalwerkblad generator',
     ],
-    titleTag: 'Voorzetsels Werkbladen Generator | Maak Printables',
+    titleTag: 'Voorzetsels werkbladen NT2 — Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak voorzetsels werkbladen om te verkopen op Etsy, KDP en Gumroad. 8 ruimtelijke voorzetsels, invuloefeningen en meerkeuzevragen. Gratis proefversie met.',
+      'Maak voorzetsels werkbladen voor NT2 en inburgering. 8 voorzetsels, invuloefeningen en meerkeuzevragen. Verkoop op Etsy, Eduki of Samen Voor Onderwijs.',
   },
 
   hero: {
-    title: 'Voorzetsels Werkbladen Generator voor Ruimtelijke Taal Oefenen',
-    tagline: 'Acht ruimtelijke voorzetsels ontmoeten afbeelding-en-vorm oefeningen — ruimtelijke woordenschat opbouwen, zin voor zin.',
+    title: 'Voorzetsels werkbladen voor NT2 en inburgering',
+    tagline: 'Gratis proefversie met watermerk — 8 ruimtelijke voorzetsels, invuloefeningen en meerkeuzevragen voor verkoopklare NT2-werkbladen.',
     description:
-      'Ontwerp professionele voorzetsels werkbladen die ruimtelijke relaties aanleren via praktische afbeelding-en-vorm oefeningen. gebruikers oefenen acht kernvoorzetsels — in, op, onder, naast, achter, tussen, boven en voor — met twee verschillende oefenmodi: Invuloefeningen waarbij gebruikers het ontbrekende voorzetsel invullen, en Meerkeuzevragen waarbij gebruikers de afbeelding identificeren die bij een ruimtelijke beschrijving past. Selecteer welke voorzetsels je wilt opnemen via de ingebouwde checklist en configureer 1 tot 8 oefeningen per werkblad. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s voor de gepositioneerde voorwerpen, en kies uit 8 geometrische vormen (cirkel, kubus, cilinder, hart, zeshoek, vierkant, ster, driehoek) als ruimtelijke referentiepunten. Volledige Toegang ontgrendelt alle 11 ondersteunde talen met grammaticaal correcte voorzetsels — Duits met naamvalcontracties zoals \"im" en \"am", Frans met elisieregels voor \"l\'" vóór klinkers, Spaans met lidwoorden op basis van geslacht — waardoor je productcatalogus elfvoudig wordt vermenigvuldigd vanuit één workflow. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 400 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische voorzetselbundels verkoopt op Etsy.nl, boeken over ruimtelijke woordenschat samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor Gumroad — de Voorzetsels Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Betreed een van de minst concurrerende niches in de Nederlandse educatieve printables-markt: voorzetsels werkbladen voor NT2 (Nederlands als Tweede Taal). De structurele vraag vanuit inburgeringstrajecten zorgt voor een constant koperspubliek dat zoekt naar oefenmateriaal met ruimtelijke voorzetsels. Kinderen en volwassen taalleerders oefenen acht kernvoorzetsels — in, op, onder, naast, achter, tussen, boven en voor — via invuloefeningen en meerkeuzevragen met kleurrijke afbeeldingen en geometrische vormen. Selecteer welke voorzetsels u wilt opnemen via de checklist en stel 1 tot 8 oefeningen per werkblad in. Kies uit meer dan 3100 illustraties in 104 thema\'s en 8 geometrische vormen als referentiepunten. Elk werkblad genereert automatisch een antwoordblad. Exporteer op meer dan 400 DPI als PDF of JPEG. Verkoop uw werkbladen op Etsy, Eduki of Samen Voor Onderwijs, of bundel ze tot een KDP-werkboek. De meertalige licentie ontgrendelt alle 11 talen met grammaticaal correcte voorzetsels, waardoor u vanuit dezelfde workflow ook de Duitse, Franse en Spaanse markt bedient. Naast NT2 zijn de werkbladen ook geschikt voor regulier onderwijs in groep 3–4.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Voorzetsels Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u voorzetsels werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Voorzetsels Werkbladen Generator',
+    title: 'Belangrijkste functies van de voorzetsels werkbladen generator',
     features: [
       {
         title: '8 Ruimtelijke Voorzetsels met Invuloefening en Meerkeuzevragen Modi',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Voorzetsels Werkbladen Online',
+    title: 'Hoe verkoopt u voorzetsels werkbladen online',
     cases: [
       {
         title: 'Thematische voorzetsels werkblad bundels op Etsy.nl',
@@ -205,53 +205,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alfabet-trein-werkbladen',
-      anchorText: 'Alfabettrein Werkbladen Generator',
+      slug: 'schrijfoefeningen-werkbladen',
+      anchorText: 'Schrijfoefeningen Werkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'woordraadsel-werkbladen',
-      anchorText: 'Woordraadsel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordkruisel-werkbladen',
-      anchorText: 'Woordkruisel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-werkbladen',
-      anchorText: 'Cryptogram Werkbladen Generator',
+      pageType: 'guide',
+      slug: 'voorzetsels-werkbladen-maken',
+      anchorText: 'Gids voor het maken van voorzetsels werkbladen',
     },
     {
       pageType: 'bundle',
       slug: 'lezen-taal-pakket',
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
-    },
-    {
-      pageType: 'guide',
-      slug: 'voorzetsels-werkbladen-maken',
-      anchorText: 'Gids voor het Maken van Voorzetsels Werkbladen',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
-      pageType: 'idea',
-      slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
     },
   ],
 

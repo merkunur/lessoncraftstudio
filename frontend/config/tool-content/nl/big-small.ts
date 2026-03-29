@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'groot klein werkbladen maken voor kinderen',
+    primaryKeyword: 'gratis groot en klein werkbladen',
     secondaryKeywords: [
-      'groot en klein werkbladen voor kleuters',
-      'groottevergelijking maker voor de winkel',
-      'printbare grootte-ordening voor kinderen',
-      'groot klein medium werkbladen voor kleuterschool',
+      'groot klein werkbladen online maken gratis',
+      'groottevergelijking werkblad generator',
+      'printbare groot en klein oefeningen voor kleuters',
+      'grootte-ordening werkblad tool online',
     ],
     lsiKeywords: [
-      'visuele grootte-discriminatie werkblad',
-      'tekstvrije groottevergelijking werkbladen',
-      'groot klein ordenen activiteit voor kleuters',
+      'visuele grootte-discriminatie werkblad gratis',
+      'tekstvrije groottevergelijking generator',
+      'groot klein ordenen activiteit maker',
     ],
-    titleTag: 'Groot Klein Werkbladen — Voor Kinderen',
-    metaDescription: 'Maak groottevergelijking werkbladen voor kleuters. Vijf vraagtypen, identieke en verschillende afbeeldingsmodi, 104 thema\'s. Gratis met watermerk.',
+    titleTag: 'Groot en klein gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis groot en klein werkbladen online. Vijf vraagtypen, twee afbeeldingsmodi, 104 thema\'s en automatische antwoordbladen. Probeer nu zonder account.',
     },
 
   hero: {
-    title: 'Groot & Klein Werkblad Maker',
-    tagline: 'Genereer groottevergelijking werkbladen met vijf vraagtypen, twee afbeeldingsmodi en volledig visuele nul-tekst uitvoer die wereldwijd verkoopt zonder vertaling',
-    description: 'Maak professionele groottevergelijking werkbladen waarbij gebruikers grotere, kleinere en middelgrote afbeeldingen identificeren of ze op grootte nummeren. Vijf vraagtypen dekken elke groottediscriminatie vaardigheid: Omcirkel de Grote, Omcirkel de Kleine, Omcirkel de Middelste, Nummeren 1–2–3 Klein naar Groot, en Nummeren 1–2–3 Groot naar Klein. Twee afbeeldingsmodi creëren fundamenteel verschillende oefeningen vanuit dezelfde tool: Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten voor zuivere grootteperceptie, terwijl Verschillende Afbeeldingen onderscheidende objecten toont op verschillende formaten voor relatief grootteredeneren. Stel 1–10 oefeningen per pagina in met 2 of 3 afbeeldingen per oefening — twee afbeeldingen voor eenvoudige groter/kleiner vergelijkingen, drie afbeeldingen om de middelste optie te introduceren en ordeningsopdrachten uitdagender te maken. Elk werkblad is volledig visueel met nul tekst op de uitvoer. Er verschijnen geen woorden op de gegenereerde pagina — alleen afbeeldingen en visuele indicatoren. Dit maakt je werkbladen universeel bruikbaar ongeacht taal, leesniveau of geletterdheidsstatus, en universeel verkoopbaar zonder vertaling. Eén productvermelding bedient elke markt wereldwijd. Kies uit meer dan 3.100 illustraties verdeeld over 104 thematische collecties of upload je eigen afbeeldingen. Het automatisch gegenereerde antwoordblad markeert en omcirkelt de juiste antwoorden voor directe verificatie. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis groot en klein werkbladen maken',
+    tagline: 'Groottevergelijking werkbladen met vijf vraagtypen, twee afbeeldingsmodi en volledig visuele nul-tekst uitvoer',
+    description: 'Met onze gratis groot en klein werkbladen generator maakt u in enkele klikken professionele groottevergelijking oefeningen. Kies uit vijf vraagtypen: Omcirkel de Grote, Omcirkel de Kleine, Omcirkel de Middelste, of Nummeren van Klein naar Groot en Groot naar Klein. Twee afbeeldingsmodi bieden extra variatie — Identieke Afbeeldingen voor zuivere grootteperceptie of Verschillende Afbeeldingen voor relatief grootteredeneren. Stel 1 tot 10 oefeningen per pagina in met 2 of 3 afbeeldingen per oefening. Elk werkblad is volledig visueel zonder tekst op de uitvoer, waardoor het universeel bruikbaar is ongeacht taal of leesniveau. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Het automatisch gegenereerde antwoordblad bespaart u correctietijd. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Groottevergelijking Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Hoe maakt u gratis groot en klein werkbladen online?',
     steps: [
       {
         title: 'Open de Groot & Klein Werkblad Maker',
@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'groot-klein-werkbladen', anchorText: 'Groot & Klein Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'groot-klein-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Maker' },
     { pageType: 'tool', slug: 'patronen-werkblad-maker', anchorText: 'Patronen Werkblad Maker' },
     { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },

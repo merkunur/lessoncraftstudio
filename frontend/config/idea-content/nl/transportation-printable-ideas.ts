@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Voertuigen Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende voertuigen printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Transportthema productconcepten en platformtips voor verkopers.',
+    titleTag: 'Printables voertuigen — Business | LessonCraftStudio',
+    metaDescription: 'Verkoop voertuigen printables op Etsy en Gumroad. Auto\'s, treinen en vliegtuigen productideeën voor uw printable business — altijdgroene niche het hele jaar.',
 
-    primaryKeyword: 'voertuigen printable ideeën',
+    primaryKeyword: 'printables voertuigen ideeën business',
     secondaryKeywords: [
-      'voertuigen werkbladen verkopen',
-      'transportthema printable business',
-      'voertuig activiteiten voor verkopers',
-      'transport printables verkopen op Etsy',
+      'transport werkbladen verkopen Etsy',
+      'voertuigenthema printable business ideeën',
+      'hulpdienstvoertuigen printables verkopen',
+      'bouwvoertuigen educatieve producten Gumroad',
     ],
     lsiKeywords: [
-      'auto en vrachtwagen educatieve werkbladen',
-      'voertuigenthema activiteitenpagina\'s',
-      'verkeer en transport printbare producten',
+      'brandweerauto trein vliegtuig werkbladen maken',
+      'verkeersdeelname basisschool materiaal',
+      'fiets boot helikopter printbare producten',
     ],
   },
   hero: {
-    title: 'Voertuigen Printable Businessideeën voor Verkopers',
-    description: 'Transport is een van de meest universeel geliefde thema\'s voor jonge kinderen, waardoor het een uitstekende altijdgroene niche is voor printable-ondernemers die consistente jaarronde omzet zoeken zonder seizoensafhankelijkheid. Het transportthema biedt opmerkelijke subthemadiepte waaronder auto\'s, vrachtwagens, treinen, vliegtuigen, bussen, boten, helikopters, brandweerauto\'s, ambulances, tractoren, motorfietsen, bouwvoertuigen, schepen en onderzeeërs, wat verkopers een enorm visueel vocabulaire geeft dat kinderen boeit die eindeloos gefascineerd zijn door alles wat beweegt. Vakoverschrijdende veelzijdigheid maakt transportprintables bijzonder waardevol omdat voertuigen van nature aansluiten bij reken-teloefeningen, taalvaardigheid-woordenschatopbouw, maatschappijleer-units over hulpverleners, en wetenschapsconcepten over beweging en energie. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
+    title: 'Voertuigen printables: altijdgroene niche voor verkopers',
+    description: 'Transport is een van de meest universeel geliefde thema\'s bij jonge kinderen, waardoor voertuigen printables een altijdgroene niche vormen met consistente jaarronde vraag. Auto\'s, treinen, vliegtuigen, boten, brandweerauto\'s, ambulances en bouwvoertuigen bieden elk een onderscheidende visuele identiteit die tientallen unieke producten ondersteunt zonder herhaling. In Nederland heeft het transportthema extra culturele resonantie: fietsen zijn een integraal onderdeel van het dagelijks leven, Rotterdam is de grootste haven van Europa, Schiphol een internationale luchthaven, en basisscholen behandelen verkeersregels als vast onderdeel van het lesprogramma. Vakoverschrijdende veelzijdigheid maakt deze niche bijzonder waardevol — voertuigen sluiten aan bij rekenen via tellen, taalvaardigheid via transportvocabulaire, en maatschappijleer via hulpverleners. Op Etsy, Gumroad en Amazon KDP converteren gerichte producten zoals brandweerauto-telwerkbladen beter dan generieke opties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De voertuigen printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat de fascinatie van kinderen voor voertuigen een van de meest intense en langdurige interesses is in de vroegkinderlijke ontwikkeling. Vanaf het moment dat peuters opgewonden wijzen naar passerende vrachtwagens, brandweerauto\'s en vliegtuigen boven hun hoofd, neemt de transportobsessie bezit en houdt deze aan gedurende de peuter- en vroege basisschooljaren. Deze diepe, intrinsieke motivatie betekent dat kinderen gretig meedoen met werkbladen met transportthema zonder het aanmoedigen dat generiek educatief materiaal soms vereist, wat voertuigenthema printables uitzonderlijk aantrekkelijk maakt voor zowel verkopers die gebruikerbetrokkenheid zoeken als ouders die productieve schermvrije activiteiten willen.
 
@@ -145,24 +145,19 @@ Genderneutrale positionering is een belangrijke strategische overweging voor tra
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met voertuigenthema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'zoek-voorwerpen-werkbladen',
+      anchorText: 'Zoek voorwerpen generator voor transportscènes',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'matchen-sorteren-pakket',
+      anchorText: 'Matchen en sorteren pakket voor voertuigproducten',
     },
     {
       pageType: 'guide',

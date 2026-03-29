@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'optellen werkbladen maken voor de winkel',
+    primaryKeyword: 'gratis optelwerkbladen generator online',
     secondaryKeywords: [
-      'optellen werkblad maker voor verkopers',
-      'rekenwerkbladen optellen voor kinderen',
-      'printbare opteloefeningen',
-      'optellen werkbladen met afbeeldingen voor kleuters',
+      'optelwerkbladen online maken gratis',
+      'rekenwerkbladen optellen met afbeeldingen',
+      'printbare opteloefeningen gratis proberen',
+      'optellen werkbladen generator met thema\'s',
     ],
     lsiKeywords: [
-      'visuele rekenwerkbladen voor de winkel',
+      'visuele rekenwerkbladen online maken',
       'opteloefeningen met afbeeldingen voor kinderen',
-      'kleuterwiskunde werkbladen voor verkopers',
+      'kleuterwiskunde werkbladen gratis proefversie',
     ],
-    titleTag: 'Optellen Werkbladen Maken — voor verkopers',
-    metaDescription: 'Maak optelwerkbladen met thema-afbeeldingen voor de winkel. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF\'s. Gratis proefversie met watermerk.',
+    titleTag: 'Optelwerkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis optelwerkbladen met afbeeldingen online. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF\'s. Probeer nu gratis met watermerk.',
     },
 
   hero: {
-    title: 'Optellen Werkblad Maker',
-    tagline: 'Maak prachtige, beeldgebaseerde optelwerkbladen in minder dan 60 seconden',
-    description: 'Verander rekenoefen in een visueel avontuur dat kinderen daadwerkelijk willen maken en verkopers solide inkomsten oplevert. Met deze krachtige tool maak je aangepaste optelwerkbladen met thematische afbeeldingen die kinderen enthousiast houden. Kies uit meer dan 100 beeldthema\'s met meer dan 3100 handgeselecteerde illustraties, stel de moeilijkheidsgraad in via vier verschillende oefenmodi, bepaal je pagina-indeling tot in het kleinste detail en download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI. Ideaal voor Etsy.nl-verkopers die printbare rekenproducten maken en schaalbare inkomsten willen genereren, Amazon KDP-uitgevers die activiteitenboeken samenstellen, en Gumroad-aanbieders die gedifferentieerde oefenmaterialen nodig hebben voor verschillende niveaus. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en je werkbladen op elk platform commercieel te verkopen.',
+    title: 'Gratis optelwerkbladen online maken',
+    tagline: 'Maak beeldgebaseerde optelwerkbladen in minder dan 60 seconden — gratis proefversie met watermerk',
+    description: 'Maak optelwerkbladen met thematische afbeeldingen die kinderen graag willen oplossen. Met deze gratis online tool maakt u in enkele klikken professionele optelwerkbladen met kleurrijke illustraties. Kies uit meer dan 100 beeldthema\'s met meer dan 3.100 handgeselecteerde illustraties, waaronder dieren, voertuigen, voedsel en seizoensthema\'s. Stel de moeilijkheidsgraad in via vier oefenmodi: Afbeelding + Afbeelding, Afbeelding + Getal, Zoek de Opteller en Gemengde Modus. Bepaal het getallenbereik, het aantal opgaven per werkblad en de pagina-indeling tot in het kleinste detail. Download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI. Het antwoordblad wordt automatisch meegegenereerd. U kunt de tool direct in uw browser gebruiken — geen account aanmaken, geen software installeren, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders die thuis extra oefenmateriaal willen maken, leerkrachten die snel gedifferentieerde werkbladen nodig hebben, en iedereen die optelwerkbladen wil uitproberen voordat u een licentie overweegt.',
   },
 
   tutorial: {
-    title: 'Optelwerkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Optelwerkbladen maken in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de werkblad maker',
@@ -194,14 +194,14 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkbladen — Volledige Productdetails' },
-    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Reken Werkblad Maker' },
-    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Meer of Minder Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
-    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek en Tel Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
+    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Gratis aftrekwerkbladen maker' },
+    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Gratis rekenwerkbladen maker' },
+    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code optellen werkblad maker' },
+    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Meer of minder werkblad maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
+    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek en tel werkblad maker' },
+    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Gratis kleurplaten maker' },
   ],
 
   visuals: {

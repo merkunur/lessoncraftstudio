@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy printable shop starten',
+    primaryKeyword: 'Etsy-shop voor printables openen gids',
     secondaryKeywords: [
       'hoe Etsy printable shop starten',
       'Etsy printable winkel opzetten vanaf nul',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'digitale download winkelbeleid retourvoorwaarden Etsy verkopers',
       'Etsy printable winkel lanceringstrategie eerste 30 dagen groeiplan',
     ],
-    titleTag: 'Etsy Printable Shop Starten vanaf Nul — Gids',
-    metaDescription: 'Leer hoe je een Etsy printable shop start vanaf nul met 33 generatoren. Winkelinrichting, branding, vermeldingsoptimalisatie, prijsstelling, Etsy-kosten.',
+    titleTag: 'Etsy-shop voor printables openen | LessonCraftStudio',
+    metaDescription: 'Start uw Etsy-shop voor printables vanaf nul. Winkelinrichting, branding, 33 generatoren, vermeldingsoptimalisatie, prijsstelling en 30-dagengroeiplan.',
   },
 
   hero: {
-    title: 'Hoe een Etsy Printable Shop Starten vanaf Nul',
-    tagline: 'Een complete startgids op winkelniveau voor het lanceren van een winstgevend Etsy printable bedrijf met 33 werkblad- en activiteitengeneratoren over 6 productcategorieën — inclusief Etsy-verkopersaccount aanmaken, winkelbranding en digitale downloadbeleid, je eerste productvoorraad opbouwen vanuit meerdere generatorcategorieën, geoptimaliseerde vermeldingen schrijven met alle 13 tags, Etsy-kosten begrijpen en duurzame prijzen bepalen, vermeldingsfoto\'s maken voor digitale producten, lanceren met genoeg vermeldingen voor zoektractie, en het uitvoeren van een 30-dagengroeiplan dat recensies opbouwt, je catalogus uitbreidt en je winkel vestigt als categorie-autoriteit op de printable werkbladmarkt',
-    description: 'Een Etsy-winkel starten voor printbare werkbladen en educatieve activiteiten is een van de laagdrempeligste manieren om digitale producten te verkopen. In tegenstelling tot fysieke productbedrijven die voorraad, verzendlogistiek en productiekosten vooraf vereisen, heb je voor een printable winkel alleen je generatortoolkit en een gestructureerd lanceringsplan nodig. Deze gids leidt je door elke stap, van het aanmaken van je Etsy-verkopersaccount tot het uitvoeren van je eerste 30 dagen winkeloperaties — inclusief de beslissingen op winkelniveau die productspecifieke gidsen als vanzelfsprekend beschouwen. Of je nu rekenwerkbladen, woordzoekpuzzels, kleurplaten of een mix over alle 6 generatorcategorieën wilt verkopen, de hier behandelde basisprincipes gelden voor elk printable producttype.',
+    title: 'Etsy-shop voor printables openen: stappenplan',
+    tagline: 'Van verkopersaccount tot eerste verkopen in 30 dagen',
+    description: 'Een Etsy-winkel starten voor printbare werkbladen is een van de laagdrempeligste manieren om digitale producten te verkopen. Deze gids leidt u door elke stap: van het aanmaken van uw verkopersaccount en winkelbranding, via het opbouwen van uw eerste productvoorraad met 33 generatoren in 6 categorieën, tot het schrijven van geoptimaliseerde vermeldingen en het uitvoeren van een 30-dagengroeiplan. Of u nu rekenwerkbladen, woordzoekers, kleurplaten of een mix wilt verkopen, de hier behandelde basisprincipes gelden voor elk printable producttype. Elke generator biedt een gratis proefversie met watermerk.',
   },
 
-  introduction: 'De printable werkbladmarkt op Etsy is uitgegroeid tot een substantiële categorie digitale producten, gedreven door verkopers, thuisonderwijsouders, bijlescentra, activiteitenbegeleiders en ouders die educatieve offline activiteiten zoeken. De marktplaatsstructuur van Etsy is bijzonder geschikt voor printable verkopers omdat het platform betalingsverwerking, digitale bestandslevering, kopercommunicatie en zoekgestuurde productontdekking afhandelt — waardoor jij je kunt richten op productcreatie en vermeldingsoptimalisatie in plaats van je eigen e-commerce-infrastructuur op te bouwen.\n\nWat printbare werkbladen bijzonder aantrekkelijk maakt als Etsy-bedrijf is het voorraadmodel. Verkopers van fysieke producten moeten voorraad produceren, opslaan en verzenden. Printable verkopers maken een product eenmalig en verkopen het onbeperkt vaak met nul marginale kosten per verkoop. Een enkele goed geoptimaliseerde vermelding kan maanden of jaren verkopen genereren zonder extra productie-inspanning. Dit betekent dat je initiële productcreatietijd een investering is die rendeert — elke nieuwe vermelding die je toevoegt vergroot het totale zoekoppervlak en omzetpotentieel van je winkel permanent.\n\nDe 33 generatoren over 6 productcategorieën — Activiteiten Werkbladen, Rekenen en Getallen, Letters en Woorden, Tekenen en Kunst, Puzzels en Spelletjes, en Patronen en Logica — geven je toegang tot het breedst mogelijke printable productaanbod vanuit één toolkit. De meeste Etsy printable verkopers zijn beperkt tot één of twee producttypen omdat ze alles handmatig maken. Generatoren die professionele, drukklare output produceren over 33 verschillende formaten betekenen dat je kunt lanceren met productvariatie waarvoor handmatige makers maanden nodig zouden hebben. Elke generator biedt een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt evalueren voordat je koopt.\n\nDeze gids is opzettelijk op winkelniveau in plaats van productspecifiek. Het behandelt de beslissingen en inrichtingsstappen die gelden ongeacht welke generatoren je gebruikt — je Etsy-accountconfiguratie, winkelbranding, digitale downloadbeleid, prijskader, vermeldingsoptimalisatieprincipes en lanceringstrategie. Voor diepgaande informatie over het verkopen van specifieke producttypen raadpleeg je de productspecifieke platformgidsen voor rekenwerkbladen, woordzoekpuzzels en andere formaten. Die gidsen bouwen voort op de winkelbasis die je hier legt.\n\nEtsy rekent relatief bescheiden kosten vergeleken met de infrastructuur die het biedt. Een vermeldingstoeslag van $0,20 per artikel (vernieuwd elke 4 maanden of bij verkoop), een transactievergoeding van 6,5% en betalingsverwerkingskosten zijn je primaire kosten. Er is geen maandelijks abonnement vereist om een Etsy-winkel te exploiteren, wat betekent dat je opstartkosten in wezen nul zijn naast de vermeldingstoeslagen voor je initiële producten. Deze lage drempel maakt Etsy de ideale proeftuin voor printable verkopers die product-markt fit willen valideren voordat ze investeren in extra verkoopkanalen.\n\nDe meest voorkomende fout die nieuwe printable verkopers maken is lanceren met te weinig vermeldingen, inconsistente branding en geen optimalisatiestrategie. Deze gids biedt de gestructureerde aanpak die winkels die binnen hun eerste maand tractie krijgen onderscheidt van winkels die stilstaan met nul weergaven. Elke sectie is ontworpen om direct toepasbaar te zijn — je kunt de stappen sequentieel volgen van accountcreatie tot en met je 30-dagenplan.',
+  introduction: 'De printable werkbladmarkt op Etsy is uitgegroeid tot een substantiële categorie digitale producten. Etsy handelt betalingsverwerking, bestandslevering en zoekgestuurde productontdekking af, zodat u zich kunt richten op productcreatie en vermeldingsoptimalisatie. Het voorraadmodel is bijzonder aantrekkelijk: u maakt een product eenmalig en verkoopt het onbeperkt met nul marginale kosten per verkoop. Met 33 generatoren in 6 categorieën kunt u lanceren met productvariatie waarvoor handmatige makers maanden nodig hebben. Etsy rekent bescheiden kosten: $0,20 vermeldingstoeslag, 6,5% transactievergoeding en betalingsverwerkingskosten, zonder maandelijks abonnement. Deze gids behandelt de beslissingen op winkelniveau die gelden ongeacht welke generatoren u gebruikt: accountconfiguratie, winkelbranding, digitale downloadbeleid, prijskader en lanceringstrategie. Elke generator biedt een gratis proefversie met watermerk.',
 
   tutorial: [
     {
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Hoe Woordzoekers Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'optellen-werkbladen-maken', anchorText: 'Hoe Optelwerkbladen Maken' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator' },
   ],
 
   toolsRecommended: [

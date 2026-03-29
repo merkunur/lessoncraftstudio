@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP opmaak werkbladen',
+    primaryKeyword: 'KDP-opmaak voor werkboeken gids',
     secondaryKeywords: [
       'KDP opmaakgids voor werkbladboeken',
       'Amazon KDP manuscript opmaakspecificaties',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'paginanummering voorwerk nawerk inhoudsopgave',
       'KDP upload fouten afwijzing probleemoplossing previewer proefdruk',
     ],
-    titleTag: 'KDP Opmaak Werkbladen — Complete Gids',
-    metaDescription: 'KDP opmaakgids: trimformaten, marges, afloopinstellingen, PDF-export op 300 DPI, omslagdimensies en upload-probleemoplossing voor werkbladboeken op Amazon.',
+    titleTag: 'KDP-opmaak voor werkboeken | LessonCraftStudio',
+    metaDescription: 'KDP-opmaak voor werkboeken: trimformaten, marges, afloopinstellingen, 300 DPI PDF-export, omslagdimensies en upload-probleemoplossing stap voor stap.',
   },
 
   hero: {
-    title: 'KDP Opmaakgids voor Werkbladboeken',
-    tagline: 'De definitieve technische referentie voor het opmaken van werkblad- en activiteitenboeken voor Amazon KDP — inclusief trimformaatselectie voor verschillende activiteitentypen, marge- en naadberekeningen voor comfortabele schrijfruimte, afloop versus geen-afloop configuratie, drukklare PDF-export op 300 DPI met ingesloten lettertypen, omslagdimensieberekeningen inclusief rugbreedte en streepjescodezones, complete manuscriptassemblage van voorwerk tot oplossingensecties, en probleemoplossing voor de meest voorkomende KDP-uploadafwijzingen en opmaakfouten',
-    description: 'Een perfect ontworpen werkbladboek betekent niets als KDP het manuscript afwijst of het gedrukte resultaat tekst heeft die in de binding verdwijnt, marges te smal voor kinderen om in te schrijven, of wazige afbeeldingen door lage-resolutie export. Deze gids behandelt de technische opmaakspecificaties die een professionele KDP-publicatie onderscheiden van een amateuristische — de exacte afmetingen, instellingen en exportprocedures die ervoor zorgen dat je werkblad- en activiteitenboeken elke keer correct printen.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk.',
+    title: 'KDP-opmaak voor werkboeken: complete gids',
+    tagline: 'Trimformaten, marges, PDF-export en omslagdimensies',
+    description: 'Een perfect ontworpen werkbladboek betekent niets als KDP het manuscript afwijst of het gedrukte resultaat tekst heeft die in de binding verdwijnt. Deze gids behandelt de technische opmaakspecificaties die een professionele KDP-publicatie onderscheiden: exacte trimformaten, marge- en naadberekeningen, afloop versus geen-afloop configuratie, 300 DPI PDF-export met ingesloten lettertypen, omslagdimensies en probleemoplossing voor veelvoorkomende uploadafwijzingen. Elke generator biedt een gratis proefversie met watermerk.',
   },
 
-  introduction: 'Opmaak is waar de meeste beginnende KDP-uitgevers uren verliezen aan vermijdbare fouten. Ze ontwerpen prachtige werkbladpagina\'s in hun favoriete lay-out-tool, uploaden naar KDP, en ontdekken dat marges te klein zijn, de PDF-resolutie onvoldoende is, de omslagdimensies niet kloppen, of het pagina-aantal buiten KDP\'s geaccepteerde bereik valt. Elke afwijzing betekent nog een ronde correcties, opnieuw exporteren en opnieuw uploaden — vertragingen die zich opstapelen wanneer je probeert efficiënt een catalogus op te bouwen.\n\nWerkblad- en activiteitenboeken hebben strengere opmaakeisen dan standaard tekstboeken. Een roman heeft adequate marges nodig voor comfortabel lezen. Een werkbladboek heeft adequate marges nodig voor comfortabel schrijven — kinderen die potloden vasthouden, volwassenen die woorden omcirkelen in puzzelrasters, gebruikers die rekenopgaven oplossen in aangewezen antwoordruimtes. De margevereisten zijn groter, de lay-outprecisie is belangrijker, en de gevolgen van verkeerd opmaken zijn onmiddellijk zichtbaar in het gedrukte product.\n\nDeze gids biedt de exacte specificaties die je nodig hebt in elke fase van het opmaakproces. Trimformaatselectie komt eerst omdat het elke daaropvolgende afmeting bepaalt. Marges en veilige zones komen tweede omdat ze je bruikbare inhoudsgebied definiëren. Pagina-indeling voor verschillende activiteitentypen komt derde omdat werkbladen, puzzels en kleurplaten elk unieke afstandsvereisten hebben. Afloopconfiguratie, PDF-exportinstellingen, omslagdimensies, manuscriptassemblage en upload-probleemoplossing completeren de workflow.\n\nVoor inhoudcreatiegidsen — welke werkbladtypen te maken, hoe moeilijkheidsprogressie te structureren, welke thema\'s het best verkopen — raadpleeg de gids over reken activiteitenboeken voor KDP. Voor bedrijfsstrategie — prijsstelling, catalogusplanning, omzetoptimalisatie — zie de gids over geld verdienen met KDP activiteitenboeken. Deze gids gaat ervan uit dat je inhoud gereed hebt en richt zich uitsluitend op het correct opmaken ervan voor KDP-drukproductie.',
+  introduction: 'Opmaak is waar de meeste beginnende KDP-uitgevers uren verliezen aan vermijdbare fouten: te kleine marges, onvoldoende PDF-resolutie, onjuiste omslagdimensies of een ongeldig pagina-aantal. Werkbladboeken hebben strengere eisen dan standaard tekstboeken omdat gebruikers fysiek op de pagina\'s schrijven, woorden omcirkelen en rekenopgaven oplossen. Deze gids biedt de exacte specificaties per fase: trimformaatselectie, marge- en naadberekeningen, pagina-indeling per activiteitentype, afloopconfiguratie, 300 DPI PDF-export met ingesloten lettertypen, omslagdimensies inclusief rugbreedte, en probleemoplossing voor veelvoorkomende uploadafwijzingen. De gids gaat ervan uit dat uw inhoud gereed is en richt zich uitsluitend op correct opmaken voor KDP-drukproductie.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Hoe Reken Activiteitenboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Hoe Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'woordzoeker-boeken-kdp', anchorText: 'Hoe Woordzoekerboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Hoe Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Top KDP Activiteitenboek Niches' },
-    { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Hoe Sudokuboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'guide', slug: 'optellen-werkbladen-maken', anchorText: 'Hoe Optelwerkbladen Maken' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator' },
     { pageType: 'app', slug: 'math-worksheet', anchorText: 'Rekenwerkblad Generator — Volledige Details' },
   ],
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'meertalig printable bedrijf',
+    primaryKeyword: 'meertalige printables-business',
     secondaryKeywords: [
-      'meertalige werkbladen verkopen',
-      'printables in meerdere talen',
-      'internationaal printable bedrijf',
-      'werkbladen vertalen verkopen',
+      'meertalige werkbladen verkopen Etsy',
+      'internationaal printable bedrijf opbouwen',
+      'werkbladen vertalen en verkopen',
+      'printables meerdere talen omzet',
     ],
     lsiKeywords: [
       'taaluitbreiding internationale markten lokalisatiestrategie Europese printable markten',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'meertalig productportfolio taaldekking concurrentievoordeel onderbedeelde markten',
       'grensoverschrijdende inkomstenstromen platforminternationalisering multimartdistributie',
     ],
-    titleTag: 'Meertalig Printable Bedrijf Opbouwen — Gids',
-    metaDescription: 'Bouw een meertalig printable bedrijf door uit te breiden naar internationale markten. Leer welke talen je moet targeten, vertaalworkflows en.',
+    titleTag: 'Meertalige printables-business | LessonCraftStudio',
+    metaDescription: 'Bouw een meertalige printables-business op en vermenigvuldig uw omzet. Leer welke talen u moet targeten, vertaalworkflows en platformstrategie.',
   },
 
   hero: {
-    title: 'Een Meertalig Printable Bedrijf Opbouwen',
-    tagline: 'Een complete gids voor het internationaal uitbreiden van je printable bedrijf — waarom meertalige uitbreiding de meest onderbenutte groeistrategie is, welke taalmarkten het hoogste rendement bieden, hoe je je bedrijf structureert voor meertalige operaties, analyse van internationale marktplaatskansen, concurrentievoordeel opbouwen door taaldekking, een omzetvermenigvuldigingsraamwerk ontwikkelen, gefaseerde taaluitbreiding plannen en meertalige portfolioprestaties optimaliseren',
-    description: 'De meeste printable verkopers concurreren uitsluitend in het Engels en negeren de enorme vraag in Duits, Frans, Spaans en andere taalmarkten. Deze gids laat je zien hoe je een meertalig printable bedrijf opbouwt dat de omzet vermenigvuldigt door onderbedeelde internationale kopers te bereiken via meerdere platforms en talen. Met 33 generatoren die elk 11 talen ondersteunen, beschik je over de tools om snel content te produceren in elke taal zonder vertalers in te huren. Elke functie in alle 33 generatoren is beschikbaar in de gratis proefversie met watermerk zodat je voorbeeldproducten kunt maken in elke taal, elke configuratie kunt testen en de uitvoerkwaliteit kunt evalueren voordat je een commerciële licentie koopt. De commerciële licentie verwijdert watermerken en verleent volledige rechten om gegenereerde werkbladen te verkopen op Etsy, Amazon KDP en elke andere marktplaats.',
+    title: 'Meertalige printables-business opbouwen en opschalen',
+    tagline: 'Een complete gids voor het internationaal uitbreiden van uw printable bedrijf — waarom meertalige uitbreiding de meest onderbenutte groeistrategie is, welke taalmarkten het hoogste rendement bieden, hoe u uw bedrijf structureert voor meertalige operaties, analyse van internationale marktplaatskansen, concurrentievoordeel opbouwen door taaldekking, een omzetvermenigvuldigingsraamwerk ontwikkelen, gefaseerde taaluitbreiding plannen en meertalige portfolioprestaties optimaliseren',
+    description: 'De meeste printable verkopers concurreren uitsluitend in het Engels en negeren de enorme vraag in Duits, Frans, Spaans en andere taalmarkten. Deze gids laat u zien hoe u een meertalig printable bedrijf opbouwt dat de omzet vermenigvuldigt door onderbedeelde internationale kopers te bereiken via meerdere platforms en talen. Met 33 generatoren die elk 11 talen ondersteunen, beschikt u over de tools om snel content te produceren in elke taal zonder vertalers in te huren. Elke functie in alle 33 generatoren is beschikbaar in de gratis proefversie met watermerk zodat u voorbeeldproducten kunt maken in elke taal, elke configuratie kunt testen en de uitvoerkwaliteit kunt evalueren voordat u een commerciële licentie koopt. De commerciële licentie verwijdert watermerken en verleent volledige rechten om gegenereerde werkbladen te verkopen op Etsy, Amazon KDP, Bol.com en elke andere marktplaats.',
   },
 
   introduction: 'De educatieve printable markt strekt zich ver uit voorbij Engelstalige landen, maar de overgrote meerderheid van verkopers maakt producten uitsluitend in het Engels. Dit creëert een opmerkelijke zakelijke kans: miljoenen ouders, verkopers en ondernemers wereldwijd zoeken actief naar printbare werkbladen in hun moedertaal en vinden zeer weinig resultaten. Overweeg de wiskunde erachter. Een werkblad dat concurreert met 5.000 vergelijkbare Engelstalige producten heeft misschien slechts 50 concurrenten in het Duits of 30 in het Frans. Dat dramatische verschil in concurrentie vertaalt zich rechtstreeks in zichtbaarheid, verkopen en omzetpotentieel.\n\nHet opbouwen van een meertalig printable bedrijf gaat niet simpelweg over het vertalen van je bestaande producten. Het vereist begrip van welke taalmarkten investering rechtvaardigen, hoe internationale marktplaatsen anders functioneren, waar kopers in elke taal daadwerkelijk winkelen en hoe je je activiteiten zo structureert dat taaluitbreiding een schaalbare groeimotor wordt in plaats van een druk op je middelen. Deze gids behandelt de complete bedrijfsstrategie voor meertalige uitbreiding — van marktanalyse en taalprioritering tot omzetvermenigvuldigingsraamwerken en langetermijnportfolio-optimalisatie.\n\nOf je nu je eerste printable producten lanceert of een gevestigde catalogus wilt laten groeien, het begrijpen van de meertalige kans helpt je weloverwogen beslissingen te nemen over waar je je productietijd investeert voor maximaal rendement. Met LessonCraft Studio\'s 33 generatoren die elk 11 talen ondersteunen — Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins — heb je de infrastructuur om snel een meertalige catalogus op te bouwen. Elke functie is beschikbaar in de gratis proefversie met watermerk zodat je de meertalige uitvoer kunt evalueren voordat je investeert in een commerciële licentie.',
@@ -139,14 +139,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'Werkbladen maken in meerdere talen voor internationale markten' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Hoe je printable bedrijf opschalen naar meerdere taalmarkten' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nicheselectiegids voor meertalige printable bedrijven' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor educatieve printables in internationale markten' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy in meerdere talen' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy met meertalige vermeldingen' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy printable winkel starten voor internationale verkopers' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad voor meertalige markten' },
+    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'werkbladen maken in meerdere talen voor internationale markten' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'uw printable bedrijf opschalen naar meerdere taalmarkten' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'woordzoekers genereren in 11 talen' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekerpuzzels maken in 11 talen' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optelwerkbladen maken voor internationale educatieve markten' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete gids voor het starten van een printable bedrijf' },

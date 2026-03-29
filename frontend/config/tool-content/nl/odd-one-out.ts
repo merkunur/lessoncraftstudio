@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'welke hoort er niet bij werkblad',
+    primaryKeyword: 'gratis welke hoort er niet bij generator',
     secondaryKeywords: [
-      'welke hoort er niet bij werkblad maker voor verkopers',
-      'vreemde eend puzzels maken om te verkopen',
-      'printbare welke hoort er niet bij generator commercieel gebruik',
-      'vreemde eend puzzel maker voor KDP en Etsy',
+      'welke hoort er niet bij werkbladen online maken gratis',
+      'vreemde eend puzzel generator',
+      'printbare welke hoort er niet bij maker met antwoordblad',
+      'visuele discriminatie werkblad tool online',
     ],
     lsiKeywords: [
-      'dubbele-modus identiek vergelijkbaar visuele discriminatie maker',
-      'per-oefening modus overschrijving vreemde eend generator',
-      'automatisch antwoordblad rode cirkel vreemd item werkblad creator',
+      'identiek en vergelijkbaar modus vreemde eend maker',
+      'per-oefening overschrijving puzzel generator gratis',
+      'automatisch antwoordblad rode cirkel werkblad tool',
     ],
-    titleTag: 'Vreemde Eend Maker — Welke Hoort Er Niet Bij Generator',
-    metaDescription: 'Maak welke hoort er niet bij werkbladen met Identiek en Vergelijkbaar modi, per-oefening overschrijvingen, automatische antwoordbladen met rode cirkels.',
+    titleTag: 'Welke hoort er niet bij gratis | LessonCraftStudio',
+    metaDescription: 'Maak gratis welke hoort er niet bij werkbladen online met Identiek en Vergelijkbaar modi en automatische antwoordbladen. Probeer nu zonder account.',
   },
 
   hero: {
-    title: 'Welke Hoort Er Niet Bij Maker',
-    tagline: 'Dubbele-modus welke hoort er niet bij werkblad generator met Identiek modus (3 klonen + 1 ander uit hetzelfde thema) en Vergelijkbaar modus (3 uit Thema A + 1 uit Thema B), per-oefening modus overschrijving met Selecties Wissen reset, 5–10 instelbare oefeningen met adaptieve 2-koloms indeling, automatisch gegenereerde antwoordbladen met rode cirkelmarkeringen geschaald naar afbeeldingsgrootte, twee-thema systeem over 104 thematische collecties, en puur visuele puzzels die wereldwijd verkopen zonder vertaling',
-    description: 'Maak professionele welke hoort er niet bij werkbladen waarbij gebruikers het afwijkende item in elke rij van vier afbeeldingen identificeren en omcirkelen. De generator biedt twee verschillende modi die fundamenteel andere cognitieve uitdagingen produceren. Identiek modus plaatst drie klonen van exact dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema — gebruikers herkennen het niet-duplicaat door visuele details te vergelijken binnen één thema. Vergelijkbaar modus haalt drie afbeeldingen uit Thema A en één afbeelding uit Thema B — gebruikers identificeren de thematische buitenstaander door categorische verschillen te herkennen over twee thema\'s. Elke oefeningrij bevat een eigen modus-dropdown, waardoor je de globale modus per oefening kunt overschrijven. Begin met gemakkelijke Identieke oefeningen bovenaan en ga over naar moeilijkere Vergelijkbare oefeningen onderaan, of wissel modi af voor gevarieerde uitdaging. Een knop "Selecties Wissen" zet alle per-oefening overschrijvingen terug naar de globale instelling. Configureer 5–10 oefeningen per werkblad (standaard 6) via het paneel Oefeningconfiguratie. Elke oefening bevat altijd precies 4 afbeeldingen — 3 gemeenschappelijke items en 1 vreemd item — met de positie van het vreemde item willekeurig geschud binnen de rij. De indeling past zich automatisch aan: staande pagina\'s met 7 of meer oefeningen schakelen naar een 2-koloms indeling, en liggende pagina\'s gebruiken altijd 2 kolommen voor optimale ruimteverdeling. Het twee-thema systeem maakt cross-categorie discriminatiepuzzels moeiteloos — selecteer Thema A uit het dropdown voor de drie gemeenschappelijke afbeeldingen en Thema B voor het enkele vreemde item. Combineer dieren met eten, voertuigen met natuur, beroepen met sport — elke combinatie uit de 104 beschikbare thematische collecties met meer dan 3.100 illustraties. In Identiek modus is slechts één thema nodig aangezien zowel de gemeenschappelijke klonen als het vreemde item uit dezelfde collectie komen. Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd. Het antwoordblad reproduceert de exacte werkbladindeling en tekent een rode cirkelomtrek rond het vreemde item in elke oefeningrij. De streekbreedte van de cirkel schaalt dynamisch met de afbeeldingsgrootte — berekend als het maximum van imageSize × 0,04 of 3 pixels — waardoor consistente zichtbaarheid over alle paginaformaten en oefenaantallen wordt gegarandeerd. Een automatisch gegenereerde koptekst rendert "Vind de Vreemde Eend" met een koraalrood buitenkader (#FF6B6B, 8px streek), amberkleurig binnenkader (#FFB84D, 3px streek) en turquoise achtergrond (#4ECDC4). De titel verschijnt in donker groenblauw Fredoka (#1A535C) en instructies in rood Quicksand (#E63946), gelokaliseerd over alle 11 ondersteunde talen. Welke Hoort Er Niet Bij is NIET taalgevoelig — puzzels zijn volledig visueel zonder woorden op de werkbladinhoud zelf, waardoor elke puzzel universeel verkoopbaar is over alle markten zonder vertaling. Schakel optionele naam- en datumvelden in voor gebruikerverantwoording en oefeningnummers (25px breedte, 15px tussenruimte van kaartinhoud) voor gemakkelijke referentie tijdens bespreking. Blader door 104 thematische collecties of upload je eigen PNG-, JPG- of GIF-afbeeldingen. Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) en tekstomlijning 0–10. Exporteer vier bestanden per sessie: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — allemaal op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0). Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. Bewerk alles op het Fabric.js-canvas met 6 uitlijnopties plus centreren-op-pagina, laagbeheer, vergrendelen/ontgrendelen, zoom 25%–300% en ongedaan maken/opnieuw uitvoeren tot 20 statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis welke hoort er niet bij werkbladen',
+    tagline: 'Dubbele-modus vreemde eend generator met Identiek en Vergelijkbaar modi, per-oefening overschrijving en automatische antwoordbladen',
+    description: 'Met onze gratis welke hoort er niet bij generator maakt u direct visuele discriminatie werkbladen. Kinderen identificeren het afwijkende item in elke rij van vier afbeeldingen en omcirkelen het. Kies uit twee modi: Identiek modus plaatst drie klonen naast een ander item uit hetzelfde thema voor visuele detailvergelijking. Vergelijkbaar modus combineert drie afbeeldingen uit het ene thema met een afbeelding uit een ander thema voor categorische herkenning. U kunt de modus per oefening overschrijven voor geleidelijke moeilijkheidsopbouw. Stel 5 tot 10 oefeningen per werkblad in en combineer 104 thema\'s naar wens. Elk werkblad is volledig visueel zonder tekst, waardoor het universeel bruikbaar is ongeacht taal. Het automatisch gegenereerde antwoordblad markeert het vreemde item met een rode cirkel. Blader door meer dan 3.100 illustraties of upload uw eigen afbeeldingen. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Welke Hoort Er Niet Bij Werkbladen Maken in 8 Stappen',
+    title: 'Hoe maakt u gratis welke hoort er niet bij werkbladen?',
     steps: [
       {
         title: 'Open de Welke Hoort Er Niet Bij Maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'welke-hoort-niet-bij-werkbladen', anchorText: 'Welke Hoort Er Niet Bij Puzzels — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'welke-hoort-niet-bij-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Puzzel Maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },

@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'rekenpuzzels maken voor de winkel',
+    primaryKeyword: 'gratis rekenpuzzels maken',
     secondaryKeywords: [
-      'legpuzzel rekenwerkbladen voor verkopers',
-      'rekenpuzzel maker voor kinderen',
-      'rekenpuzzels met afbeeldingen voor de winkel',
-      'printbare rekenpuzzel werkbladen voor gebruikers',
+      'rekenpuzzels online gratis maken',
+      'gratis legpuzzel rekenwerkbladen',
+      'rekenpuzzel maker gratis downloaden',
+      'rekenpuzzels met afbeeldingen gratis printen',
     ],
     lsiKeywords: [
-      'afbeeldingraster rekenpuzzel voor de winkel',
-      'legpuzzel rekenactiviteit voor kinderen',
-      'configureerbare rekenpuzzel maker',
+      'afbeeldingraster rekenpuzzel online',
+      'legpuzzel rekenactiviteit gratis',
+      'configureerbare rekenpuzzel generator',
     ],
-    titleTag: 'Rekenpuzzels Maken — Puzzels voor de winkel',
-    metaDescription: 'Maak legpuzzel-stijl rekenpuzzels voor de winkel. Afbeeldingrasters, drie rekenmodi, antwoordblad. Gratis proefversie met watermerk.',
+    titleTag: 'Rekenpuzzels gratis online maken | LessonCraftStudio',
+    metaDescription: 'Maak gratis rekenpuzzels online met legpuzzel-stijl afbeeldingrasters. Drie rekenmodi, configureerbare rasters en antwoordbladen. Geen account nodig.',
     },
 
   hero: {
-    title: 'Rekenpuzzel Werkblad Maker',
-    tagline: 'Maak legpuzzel-stijl beeldpuzzels met rekensommen in minder dan 60 seconden',
-    description: 'Verander rekenoefening in een boeiende visuele puzzel die er totaal anders uitziet dan een standaard werkblad. Deze tool splitst een gekozen afbeelding in een raster van cellen, elk met een rekensom. Gehusselde puzzelstukjes met antwoordnummers verschijnen eronder — gebruikers lossen elke vergelijking op en koppelen het juiste stukje om het plaatje te reconstrueren. Kies uit drie rekenmodi: Optellen, Aftrekken of Gemengd (beide bewerkingen willekeurig gecombineerd). Pas de rastergrootte aan van 2×2 (4 stukjes, makkelijkst) tot 4×4 (16 stukjes, moeilijkst) voor elk vaardigheidsniveau. Upload je eigen PNG- of JPEG-afbeeldingen voor merkgebonden, seizoens- of nichepuzzels, of blader door de ingebouwde bibliotheek met meer dan 3100 afbeeldingen over 104 thema\'s. Het legpuzzelformaat creëert een direct herkenbaar product dat opvalt in marktplaats-zoekresultaten — kopers die door rijen identieke werkbladen scrollen stoppen bij een kleurrijke beeldpuzzel. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis rekenpuzzels maken met afbeeldingen',
+    tagline: 'Maak gratis legpuzzel-stijl rekenpuzzels met afbeeldingrasters online',
+    description: 'Probeer onze gratis proefversie met watermerk om rekenpuzzels te maken die rekenoefening veranderen in een boeiende visuele puzzel — direct in uw browser, zonder account of registratie. De tool splitst een gekozen afbeelding in een raster van cellen, elk met een rekensom. Gehusselde puzzelstukjes met antwoordnummers verschijnen eronder — gebruikers lossen elke vergelijking op en koppelen het juiste stukje om het plaatje te reconstrueren. Kies uit drie rekenmodi: Optellen, Aftrekken of Gemengd. Pas de rastergrootte aan van 2×2 (4 stukjes) tot 4×4 (16 stukjes) voor elk vaardigheidsniveau. Selecteer afbeeldingen uit meer dan 104 thematische collecties met meer dan 3.100 illustraties, of upload uw eigen PNG of JPEG. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 
   tutorial: {
-    title: 'Rekenpuzzels Maken in 8 Eenvoudige Stappen',
+    title: 'Zo maakt u rekenpuzzels in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de puzzel generator',
@@ -196,7 +196,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzels Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
     { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
     { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },

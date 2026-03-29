@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitale versus fysieke printables',
+    primaryKeyword: 'digitale vs fysieke printables vergelijking',
     secondaryKeywords: [
-      'digitaal of fysiek verkopen',
-      'printables digitaal versus afgedrukt',
-      'PDF versus gedrukt werkblad',
-      'digitale producten versus fysiek',
+      'digitaal of fysiek printables verkopen',
+      'print-on-demand versus digitale downloads',
+      'PDF vs gedrukt werkblad marges',
+      'hybride model printable bedrijf',
     ],
     lsiKeywords: [
       'digitale download fysiek product print-on-demand afhandelingsmodel',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'passief inkomen drukkosten verpakking productkwaliteitscontrole',
       'formaatselectie bedrijfsmodelvergelijking verkoopstrategie groeipad',
     ],
-    titleTag: 'Digitaal of Fysiek Printables Verkopen — Gids',
-    metaDescription: 'Digitale versus fysieke printables vergelijken voor verkopers. Behandelt winstmarges, schaalbaarheid, afhandeling en het kiezen van het juiste formaat.',
+    titleTag: 'Digitaal vs fysiek: printables | LessonCraftStudio',
+    metaDescription: 'Digitale vs fysieke printables vergelijken: winstmarges, schaalbaarheid, KDP print-on-demand en het hybride model. Kies het juiste formaat voor uw bedrijf.',
   },
 
   hero: {
-    title: 'Digitale versus Fysieke Printables Verkopen',
-    tagline: 'Een complete gids over digitale versus fysieke printables — winstmarges vergelijken, schaalbaarheid evalueren, klantverwachtingen begrijpen, de juiste platforms kiezen voor elk formaat, een hybride model implementeren, productieworkflows plannen en overstappen tussen formaten naarmate je bedrijf groeit',
-    description: 'Elke printable verkoper staat voor een fundamentele bedrijfsmodelbeslissing: digitale downloads verkopen die kopers zelf printen, voorgedrukte fysieke producten verkopen die naar kopers worden verzonden, of beide formaten aanbieden. Elke aanpak brengt andere margestructuren, operationele vereisten, schaalbaarheidskenmerken en klantverwachtingen met zich mee. Deze gids biedt een grondig vergelijkingskader om je te helpen beide formaten te evalueren en de aanpak te kiezen die past bij je middelen, doelen en doelmarkt. Of je nu net begint met je printable bedrijf of overweegt om je productaanbod uit te breiden, deze gids helpt je een weloverwogen beslissing te nemen op basis van echte cijfers en praktijkervaring in plaats van aannames.',
+    title: 'Digitaal vs fysiek: welk printable-formaat past bij u?',
+    tagline: 'Een complete gids over digitale versus fysieke printables — winstmarges vergelijken, schaalbaarheid evalueren, klantverwachtingen begrijpen, de juiste platforms kiezen voor elk formaat, een hybride model implementeren, productieworkflows plannen en overstappen tussen formaten naarmate uw bedrijf groeit',
+    description: 'Elke printable verkoper staat voor een fundamentele bedrijfsmodelbeslissing: digitale downloads verkopen die kopers zelf printen, voorgedrukte fysieke producten verkopen die naar kopers worden verzonden, of beide formaten aanbieden. Elke aanpak brengt andere margestructuren, operationele vereisten, schaalbaarheidskenmerken en klantverwachtingen met zich mee. Deze gids biedt een grondig vergelijkingskader om u te helpen beide formaten te evalueren en de aanpak te kiezen die past bij uw middelen, doelen en doelmarkt. Of u nu verkoopt via Etsy, Amazon KDP, Bol.com of Brave New Books — deze gids helpt u een weloverwogen beslissing te nemen op basis van echte cijfers en praktijkervaring.',
   },
 
   introduction: 'De vraag digitaal-versus-fysiek is een van de meest ingrijpende bedrijfsbeslissingen die een printable verkoper neemt, maar veel verkopers kiezen standaard voor één formaat zonder de afwegingen volledig te begrijpen. Verkopers die alleen digitaal werken laten soms aanzienlijke omzet liggen door kopers te negeren die professioneel gedrukte, gebruiksklare producten willen. Verkopers die alleen fysiek werken putten zichzelf soms uit met productie, verpakking en verzending terwijl hun productcatalogus veel efficiënter zou schalen als digitale downloads. De verkopers die de meest veerkrachtige bedrijven opbouwen zijn degenen die beide modellen diepgaand begrijpen en hun formaatstrategie kiezen op basis van data, middelen en marktpositionering in plaats van gewoonte of aanname.\n\nDigitale printable producten zijn bestanden — doorgaans PDF\'s, PNG\'s of JPEG\'s — die kopers downloaden en thuis of bij een copyshop printen. De verkoper maakt het bestand één keer en verkoopt onbeperkte kopiën met nul marginale productiekosten per verkoop. Er zijn geen verzendvertragingen, geen voorraad om te beheren, geen verpakkingsmaterialen om aan te schaffen en geen ritten naar het postkantoor. De afweging is dat digitale producten doorgaans tegen lagere prijspunten worden verkocht omdat kopers de verantwoordelijkheid voor het printen op zich nemen, en de waargenomen waarde van een digitaal bestand over het algemeen lager is dan een tastbaar product dat ze in hun handen kunnen houden.\n\nFysieke printable producten zijn dezelfde ontwerpen, maar de verkoper handelt het drukken, de kwaliteitscontrole, de verpakking en de verzending af. De koper ontvangt een tastbaar, gebruiksklaar product dat professioneel is gedrukt op kwaliteitspapier, vaak gebonden of aantrekkelijk verpakt. Fysieke producten brengen hogere detailhandelsprijzen op omdat kopers betalen voor zowel het ontwerp als het productiegemak. De afweging is dat elke verkoop materiaalkosten, productietijd en afhandelingsarbeid vereist, wat de marges verlaagt en beperkt hoe snel het bedrijf kan schalen zonder extra infrastructuur of personeel.\n\nPrint-on-demand diensten zoals Amazon KDP nemen een middenpositie in: de verkoper uploadt digitale bestanden en het platform handelt het drukken en de afhandeling af wanneer bestellingen binnenkomen. Dit elimineert voorraadrisico en verzendlogistiek terwijl er toch een fysiek product bij de koper wordt afgeleverd. De marges zijn lager dan bij zelf afgehandelde fysieke producten, maar de operationele eenvoud benadert die van digitale downloads.\n\nDe juiste keuze hangt af van je specifieke situatie: je beschikbare tijd, startkapitaal, doelklant, producttype en langetermijn bedrijfsdoelen. Sommige producten verkopen dramatisch beter in het ene formaat dan het andere. Sommige markten geven sterk de voorkeur aan fysieke producten terwijl andere overwegend digitaal kopen. Deze gids loopt door elke factor die je formaatbeslissing moet beïnvloeden en biedt een kader dat je kunt toepassen op je eigen productcatalogus en bedrijfsomstandigheden.',
@@ -151,16 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Een Etsy Printable Winkel Starten vanuit Niets' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Etsy Printables Prijzen Bepalen' },
-    { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'Etsy SEO voor Educatief Materiaal' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkbladpakketten Maken' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Rekenactiviteitenboeken op Amazon KDP' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladen' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables Verkopen via Gumroad' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'prijsstrategieën voor educatieve printables' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'werkblad bundels samenstellen voor KDP' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'sudoku-werkbladen maken voor print-on-demand' },
     { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentiegids' },
   ],

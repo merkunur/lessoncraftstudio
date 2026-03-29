@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kleurplaten maken',
+    primaryKeyword: 'kleurplaten maken voor Etsy en KDP',
     secondaryKeywords: [
-      'kleurplaat maker van afbeeldingen',
-      'printbare kleurplaten om te verkopen',
-      'grijswaarden kleurplaat generator',
-      'eigen kleurbladen voor kinderen',
+      'kleurplaten maken en verkopen',
+      'printbare kleurplaten Etsy winkel',
+      'kleurboek pagina\'s Amazon KDP',
+      'thematische kleurplaten verkopen op Bol.com',
     ],
     lsiKeywords: [
-      'thematische kleurplaten voor Etsy',
-      'kleurboekpagina\'s voor Amazon KDP',
+      'kleurplaten bundels voor Etsy',
+      'kleurboek interieur voor Brave New Books',
       'vrij canvas kleurplaat ontwerper',
-      'afbeeldingen omzetten naar kleurplaten',
-      'klassikale kleuractiviteiten werkbladen',
+      'grijswaarden export kleurplaten maken',
       'commerciële licentie kleurtool',
+      'kleurplaten productlijn opbouwen',
     ],
-    titleTag: 'Kleurplaten Maken van Thema-Afbeeldingen — Gids',
-    metaDescription: 'Ontdek hoe je kleurplaten maakt van 3.100+ thema-afbeeldingen. Vrij canvas met grijswaarden-export, vrijhandtekenen en klastools.',
+    titleTag: 'Kleurplaten voor Etsy en KDP | LessonCraftStudio',
+    metaDescription: 'Leer hoe u kleurplaten maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Vrij canvas, 3.100+ thema-afbeeldingen en grijswaarden-export.',
   },
 
   hero: {
-    title: 'Hoe Kleurplaten Maken van Thema-Afbeeldingen',
-    tagline: 'Een stapsgewijze handleiding voor het ontwerpen van eigen kleurplaten met een vrij canvas, 3.100+ thema-afbeeldingen, vrijhandtekenen en grijswaarden-export met één klik',
-    description: 'Kleurplaten behoren tot de meest gezochte en gekochte printbare producten op elke grote marktplaats. Ouders willen ze voor offline activiteiten zonder scherm. verkopers gebruiken ze als opwarmactiviteit en beloningsblad online. Etsy-verkopers bouwen complete winkels rond thematische kleurplaatbundels. Deze gids leidt je door het volledige creatieproces met de Kleurplaat Maker — van het plaatsen van thema-afbeeldingen op een vrij canvas tot het activeren van de grijswaardenschakelaar die je kleurrijke ontwerp omzet in een schone, printklare kleurplaat. Of je nu je eerste kleurproduct maakt of een bestaande printable catalogus uitbreidt, aan het einde van deze handleiding heb je een afgewerkte kleurplaat klaar om te publiceren.',
+    title: 'Kleurplaten maken en verkopen als printbaar product',
+    tagline: 'Stapsgewijze handleiding voor het ontwerpen van verkoopbare kleurplaten met een vrij canvas, 3.100+ thema-afbeeldingen en grijswaarden-export',
+    description: 'Kleurplaten behoren tot de meest gezochte en gekochte printbare producten op elke grote marktplaats. Ouders willen ze voor offline activiteiten zonder scherm. verkopers gebruiken ze als opwarmactiviteit en beloningsblad online. Etsy-verkopers bouwen complete winkels rond thematische kleurplaatbundels. Deze gids leidt u door het volledige creatieproces met de Kleurplaat Maker — van het plaatsen van thema-afbeeldingen op een vrij canvas tot het activeren van de grijswaardenschakelaar die uw kleurrijke ontwerp omzet in een schone, printklare kleurplaat. Of u nu uw eerste kleurproduct maakt of een bestaande printable catalogus uitbreidt, aan het einde van deze handleiding hebt u een afgewerkte kleurplaat klaar om te publiceren.',
   },
 
   introduction: 'Kleurplaten hebben een unieke positie op de printable markt. Anders dan werkbladen die gericht zijn op specifieke leeftijdsgroepen of vaardigheidsniveaus, spreken kleurplaten vrijwel iedereen aan — peuters, basisschoolkinderen, tieners en zelfs volwassenen. Die universele aantrekkingskracht vertaalt zich in enorme, jaarronde vraag op Etsy, Amazon KDP en Gumroad.\n\nWat kleurplaten bijzonder aantrekkelijk maakt als product is hun eenvoud. Er zijn geen antwoordsleutels om te genereren, geen moeilijkheidsgraden om in te stellen en geen productcatalogusafstemming om je zorgen over te maken. Een goed ontworpen kleurplaat met aansprekende afbeeldingen verkoopt puur op visuele aantrekkingskracht. De drempel om te beginnen is laag, maar de verkopers die slagen zijn degenen met onderscheidende ontwerpen die opvallen tussen generieke clipartcollecties.\n\nDe Kleurplaat Maker hanteert een fundamenteel andere aanpak dan traditionele kleurplaattools. In plaats van te werken met kant-en-klare sjablonen of contouren met de hand na te trekken, werk je op een vrij canvas waar je thema-afbeeldingen plaatst uit een bibliotheek van meer dan 3.100 illustraties verdeeld over 104 thema\'s. Je sleept, vergroot of verkleint en draait afbeeldingen vrij om originele composities te maken. Vervolgens zet de grijswaarden-export je kleurrijke ontwerp om in schone zwart-wit contouren, klaar om in te kleuren.\n\nDe tool bevat ook een vrijhandtekengereedschap voor het toevoegen van handgetekende details, teksttools voor titels en instructies, en klastools zoals naamvelden en schrijflijnen. Deze combinatie laat je alles maken, van eenvoudige kleurplaten met één afbeelding tot complexe thematische activiteitenbladen.\n\nElke functie die in deze gids wordt beschreven is beschikbaar in de gratis proefversie met watermerk. Je kunt complete kleurplaten ontwerpen, de grijswaardenschakelaar testen en de uitvoerkwaliteit beoordelen voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboek Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator — Alle Details' },
-    { pageType: 'app', slug: 'rastertekenen-werkbladen', anchorText: 'Teken & Kleur Generator — Alle Details' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaat Maker' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'rastertekenen-werkbladen', anchorText: 'Teken & Kleur Generator voor rastertekenwerkbladen' },
+    { pageType: 'bundle', slug: 'visueel-leren-pakket', anchorText: 'Visueel Leren Pakket met kleurplaten en tekenwerkbladen' },
   ],
 
   toolsRecommended: [

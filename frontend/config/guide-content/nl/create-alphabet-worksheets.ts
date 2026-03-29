@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'alfabettrein werkbladen maken',
+    primaryKeyword: 'alfabet werkbladen maken voor Etsy',
     secondaryKeywords: [
       'alfabettrein werkbladen maken om te verkopen',
       'alfabettrein werkbladgenerator commercieel gebruik',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'Amazon KDP letterherkenning trein werkboeken',
       'commerciële licentie alfabettrein tool',
     ],
-    titleTag: 'Alfabettrein Werkbladen Maken — Gids',
-    metaDescription: 'Leer alfabettrein werkbladen maken met 11 kleurrijke treinwagons, twee creatiemodi, instelbare moeilijkheid en 104 beeldthema\'s. Verkoop op Etsy, KDP en Gumroad.',
+    titleTag: 'Alfabet werkbladen voor Etsy | LessonCraftStudio',
+    metaDescription: 'Maak alfabet werkbladen voor Etsy en Bol.com. 11 treinwagons, twee creatiemodi, instelbare moeilijkheid en taalgevoelige letterkoppeling in 11 talen.',
   },
 
   hero: {
-    title: 'Hoe Alfabettrein Werkbladen Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van letterherkenningswerkbladen met 11 kleurrijke treinwagons die letters en bijpassende illustraties dragen, twee creatiemodi (Automatisch Maken voor willekeurige generatie en Handmatige Selectie voor productcatalogus-afgestemde lettergroepen), instelbaar aantal aanwijzingen van 3 tot 11 voor ingebouwde moeilijkheidsschaling, taalgevoelige letterkoppeling over 11 moedertaalalfabetten waarbij dezelfde afbeelding aan verschillende letters wordt gekoppeld per taal, en automatisch gegenereerde antwoordsleutels die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
+    title: 'Alfabet werkbladen maken en verkopen op Etsy',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopklare alfabettrein werkbladen met 11 kleurrijke treinwagons, twee creatiemodi, instelbare moeilijkheid en taalgevoelige letterkoppeling in 11 talen.',
     description: 'Alfabettrein werkbladen zijn een visueel onderscheidende letterherkenningsactiviteit waarbij gebruikers verspreide aanwijzingsafbeeldingen koppelen aan de juiste treinwagon op basis van de beginletter van elke afbeelding. In tegenstelling tot platte letteroverschrijfbladen die in marktplaatsvermeldingen op elkaar lijken, is de kleurrijke lay-out met 11 treinwagons direct herkenbaar en trekt de aandacht bij het scrollen. De Alfabettrein Maker biedt twee creatiemodi — Automatisch Maken voor snelle batchproductie en Handmatige Selectie voor zorgvuldig gekozen lettergroepen — plus een instelbare aanwijzingsschuifbalk van 3 tot 11 die natuurlijke moeilijkheidsniveaus creëert binnen één enkel hulpmiddel. Het echte concurrentievoordeel is taalgevoelige letterkoppeling: dezelfde afbeelding wordt gekoppeld aan verschillende letters afhankelijk van de geselecteerde taal, dus een hondenafbeelding komt overeen met H in Nederlands maar D in Engels (Dog), C in Frans (Chien) en P in Spaans (Perro). Dit betekent dat één ontwerpsessie echt verschillende puzzelinhoud oplevert in 11 talen, niet alleen vertaalde koppen. Ouders gebruiken alfabettreinen voor speelse letteroefening thuis. verkopers gebruiken ze voor gerichte fonetiek- en beginletteractiviteiten. Bijlescentra gebruiken ze voor gedifferentieerde letterherkenningstoetsen. Deze gids leidt je door het hele creatieproces — van het kiezen van een creatiemodus en het instellen van het aantal aanwijzingen tot het benutten van taalgevoelige koppeling voor meertalige productlijnen en het exporteren van productie-klare bestanden. Of je nu je eerste geletterdheidsproduct bouwt of een bestaande werkbladcatalogus uitbreidt met een visueel uniek formaat, je hebt aan het einde van deze handleiding een afgewerkt product klaar om te vermelden.',
   },
 
@@ -155,13 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'schrijfoefeningen-maken', anchorText: 'Hoe Professionele Schrijfoefeningen Maken' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'alphabet-train', anchorText: 'Alfabettrein Werkblad Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Probeer de Alfabettrein Werkblad Maker' },
+    { pageType: 'app', slug: 'alfabet-trein-werkbladen', anchorText: 'Alfabettrein Generator bekijken' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
+    { pageType: 'bundle', slug: 'lezen-taal-pakket', anchorText: 'Lezen & Taal Pakket bekijken' },
   ],
 
   toolsRecommended: [

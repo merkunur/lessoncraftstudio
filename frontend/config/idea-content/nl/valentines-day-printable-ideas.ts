@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentijnsdag Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende Valentijnsdag printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Hartthema productconcepten en seizoenstips voor verkopers.',
+    titleTag: 'Printables Valentijnsdag verkopen | LessonCraftStudio',
+    metaDescription: 'Verkoop printables voor Valentijnsdag op Etsy. Productideeën voor werkbladen met harten en vriendschapsthema die in januari en februari pieken.',
 
-    primaryKeyword: 'valentijnsdag printable ideeën',
+    primaryKeyword: 'printables Valentijnsdag om te verkopen',
     secondaryKeywords: [
-      'Valentijnsdag werkbladen verkopen',
-      'valentijn printable business ideeën',
-      'valentijn activiteiten voor verkopers',
-      'valentijn printables verkopen op Etsy',
+      'Valentijnsdag werkbladen Etsy verkopen',
+      'valentijn printable business starten',
+      'hartthema activiteitenboeken KDP',
+      'vriendschap printables niche verkopers',
     ],
     lsiKeywords: [
-      'hartthema educatieve werkbladen',
-      'februari klasactiviteiten',
-      'liefde en vriendschap thema printables',
+      'harten werkbladen maken verkopen',
+      'valentijn kleurplaten Etsy winkel',
+      'liefde vriendschap printbare producten',
     ],
   },
   hero: {
-    title: 'Valentijnsdag Printable Businessideeën voor Verkopers',
-    description: 'Valentijnsdag opent een krachtig winterverkoopvenster voor printable-ondernemers, met opbouwende vraag in januari die piekt in begin februari wanneer verkopers valentijnvieringen online voorbereiden en ouders zoeken naar educatieve activiteiten met liefde-thema en valentijnkaartalternatieven. De niche biedt charmante subthemavariatie waaronder harten, cupido, vriendschap, rozen, snoep, brievenbussen, liefdebrieven en valentijnkaarten uitwisselen online, wat verkopers een warm visueel vocabulaire geeft dat aanspreekt bij jonge gebruikers, gezinnen en ondernemers. Kinderdagverblijven en thuisonderwijzende gezinnen vormen een extra koopsegment, op zoek naar gestructureerde valentijnactiviteiten die feestdagenopwinding combineren met echte vaardigheidsopbouw. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad combineert de Valentijnsdagniche betrouwbare jaarlijkse vraag met een universeel aansprekende liefde-en-vriendschapsesthetiek. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables voor Valentijnsdag verkopen als ondernemer',
+    description: 'Valentijnsdag opent een krachtig winterverkoopvenster voor printable-ondernemers, met opbouwende vraag in januari die piekt in begin februari. Harten, cupido, vriendschap en rozen geven u een warm visueel vocabulaire dat universeel aanspreekt bij jonge gezinnen. In Nederland wordt Valentijnsdag steeds vaker gevierd op scholen en kinderdagverblijven met kaartjesuitwisseling en creatieve activiteiten. Ouders zoeken educatieve alternatieven voor kant-en-klare valentijnkaarten die leren combineren met feestplezier. Voor ondernemers op Etsy, Amazon KDP en Gumroad combineert deze niche betrouwbare jaarlijkse vraag met een liefde-en-vriendschapsesthetiek die prachtig werkt in productvermeldingen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies direct beschikbaar.',
   },
   marketOverview: `De Valentijnsdag printable-niche neemt een uitstekende positie in op de winterverkoopkalender en levert geconcentreerde seizoensgebonden vraag tijdens een periode waarin post-kerst koopenergie zich heroriënteert naar verse creatieve projecten en klasvieringen. verkopers beginnen in begin januari met het plannen van valentijnfeestactiviteiten en aanvullingen op het februariproductcatalogus, op zoek naar thematische werkbladen die de opwinding van valentijnkaarten uitwisselen transformeren in gestructureerde leermogelijkheden. Ouders zoeken leeftijdsgeschikte valentijnactiviteiten die dubbeldienst doen als creatieve alternatieven voor kant-en-klare valentijnkaarten en educatief vermaak bieden tijdens de liefde-thema feestdagenweek. Kinderdagverblijven, thuisonderwijzende gezinnen en buitenschoolse opvangcoördinatoren kopen thematische activiteitenbladen voor valentijnfeestjes, op vriendschap gerichte leersessies en februarivieringsevenementen die boeiend materiaal nodig hebben voor jonge deelnemers.
 
@@ -149,19 +149,19 @@ Cross-promotionele mogelijkheden maken de Valentijnsdagniche bijzonder strategis
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Valentijn kleurplaten maken en verkopen',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'rekenpuzzels-werkbladen',
+      anchorText: 'Rekenpuzzels met hartenthema',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket voor verkopers',
     },
     {
       pageType: 'guide',

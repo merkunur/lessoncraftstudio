@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rekenpuzzel werkbladen maken',
+    primaryKeyword: 'rekenpuzzels maken om te verkopen',
     secondaryKeywords: [
-      'rekenpuzzel werkblad generator',
-      'beeldreconstructie rekenpuzzels',
-      'printbare rekenpuzzel werkbladen verkopen',
-      'rastergebaseerde rekenpuzzels voor kinderen',
+      'rekenpuzzel werkblad generator plaatjes',
+      'beeldreconstructie rekenpuzzels verkopen',
+      'printbare rekenpuzzels maken voor Etsy KDP',
+      'rastergebaseerde rekenpuzzels voor kinderen maken',
     ],
     lsiKeywords: [
       'plaatjespuzzel rekenactiviteit',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Amazon KDP rekenpuzzel boeken',
       'commerciële licentie puzzelmaker',
     ],
-    titleTag: 'Rekenpuzzel Werkbladen Maken — Stap-voor-Stap',
-    metaDescription: 'Rekenpuzzel werkbladen maken waarbij kinderen sommen oplossen om afbeeldingen samen te stellen. Rastergroottes, bewerkingen en verkooptips voor Etsy en KDP.',
+    titleTag: 'Rekenpuzzels maken om te verkopen | LessonCraftStudio',
+    metaDescription: 'Maak rekenpuzzels waarbij kinderen sommen oplossen om afbeeldingen samen te stellen. Kies rastergroottes, bewerkingen en verkoop op Etsy of KDP.',
   },
 
   hero: {
-    title: 'Hoe Rekenpuzzel Werkbladen Maken',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van beeldreconstructie rekenpuzzels waarbij kinderen vergelijkingen oplossen om plaatjes samen te stellen — klaar om te verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Rekenpuzzel werkbladen combineren rekenoefeningen met de spanning van het oplossen van een visuele puzzel. Een enkele afbeelding wordt verdeeld in rasterstukken, elk stuk krijgt een rekenvergelijking, en kinderen lossen de vergelijkingen op om uit te zoeken waar elk stuk hoort en het plaatje samen te stellen. Dit format transformeert routinematig rekenwerk in een boeiend spel dat kinderen daadwerkelijk willen voltooien. Deze gids leidt je door het maken van rekenpuzzel werkbladen met de Rekenpuzzel Generator — van het kiezen van thema\'s en rastergroottes tot het exporteren van drukklare PDF\'s met automatische antwoordsleutels. Of je nu je eerste printbare product lanceert of een uniek format toevoegt aan een bestaande rekenwerkblad catalogus, aan het einde van deze handleiding heb je afgewerkte puzzels klaar om te vermelden.',
+    title: 'Rekenpuzzels maken en verkopen als printable',
+    tagline: 'Beeldreconstructie rekenpuzzels maken met de generator: kinderen lossen sommen op om plaatjes samen te stellen',
+    description: 'Rekenpuzzel werkbladen combineren rekenoefeningen met de spanning van een visuele puzzel. Een afbeelding wordt verdeeld in rasterstukken, elk stuk krijgt een vergelijking, en kinderen lossen de sommen op om het plaatje samen te stellen. Deze gids leidt u door het creatieproces met de Rekenpuzzel Generator: thema\'s kiezen, rastergroottes instellen en drukklare PDF\'s exporteren met automatische antwoordsleutels.',
   },
 
   introduction: 'Standaard optel- en aftrekwerkbladen zijn essentieel, maar ze volgen allemaal hetzelfde format: een lijst vergelijkingen op een pagina. Rekenpuzzel werkbladen doorbreken dat patroon volledig. In plaats van rijen sommen zien kinderen een raster van door elkaar gehusselde afbeeldingsstukken naast rekenuitdrukkingen. Het oplossen van elke vergelijking onthult een nummer dat het kind vertelt waar dat stuk hoort in de gereconstrueerde afbeelding. De beloning is niet alleen een juist antwoord — het is een voltooid plaatje.\n\nDit format maakt gebruik van iets krachtigs: kinderen die weerstand bieden tegen traditionele rekenrijtjes werken enthousiast dezelfde vergelijkingen door wanneer er een puzzel bij betrokken is. De visuele beloning van het zien samenkomen van de afbeelding creëert intrinsieke motivatie die gewone werkbladen niet kunnen evenaren. Voor printable verkopers vertaalt dit zich direct in marktplaatsgetrapte productpakketten. Kopers die door pagina\'s met identiek uitziende rekenwerkbladen scrollen, stoppen wanneer ze een product zien dat er fundamenteel anders uitziet.\n\nDe Rekenpuzzel Generator handelt alle technische complexiteit af. Het verdeelt elke thematische afbeelding in rasterstukken (2x2, 3x3 of 4x4), genereert passende rekenvergelijkingen voor elke cel, husselt de stukken door met genummerde labels, en produceert zowel het puzzelwerkblad als een complete antwoordsleutel. Je configureert de rastergrootte, rekenbewerking en thema — de generator regelt lay-out, nauwkeurigheid van vergelijkingen en printopmaak.\n\nOmdat rekenpuzzels cijfers en afbeeldingen gebruiken in plaats van woorden, is de puzzelinhoud zelf taalonafhankelijk. Cijfers zijn universeel. Dit betekent dat een enkel puzzelproduct werkt voor kopers in elk land zonder vertaling, wat internationale verkoop aanzienlijk vereenvoudigt.\n\nElke functie beschreven in deze gids is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldpuzzels maken, elke rastergrootte en bewerkingscombinatie testen, en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'math-puzzle', anchorText: 'Rekenpuzzel Generator — Volledige Details' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Probeer de Rekenpuzzel Maker' },
+    { pageType: 'guide', slug: 'optellen-werkbladen-maken', anchorText: 'Optelwerkbladen maken en verkopen' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket' },
   ],
 
   toolsRecommended: [

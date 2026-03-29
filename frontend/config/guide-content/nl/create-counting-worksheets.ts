@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tel- en grafiekwerkbladen maken',
+    primaryKeyword: 'telwerkbladen maken om te verkopen op Etsy',
     secondaryKeywords: [
-      'plaatjesgrafiek werkblad generator',
-      'tel- en grafiekwerkbladen maken voor verkoop',
-      'printbare plaatjesgrafieken verkopen',
-      'staafdiagram telwerkblad maker',
+      'plaatjesgrafiek werkbladen verkopen Etsy',
+      'tel- en grafiekwerkbladen Amazon KDP',
+      'telwerkbladen verkopen op Bol.com',
+      'staafdiagram werkbladen productlijn opbouwen',
     ],
     lsiKeywords: [
-      'verstrooide afbeeldingen raster teloefening',
+      'plaatjesgrafiek bundels voor Etsy winkel',
+      'datavaardigheden werkboek Brave New Books',
+      'telwerkblad generator commercieel gebruik',
       'automatische antwoordsleutel grafiekwerkblad',
-      'dubbel-canvas datarepresentatie tool',
-      'grafiekwerkbladen verkopen op Etsy',
-      'Amazon KDP datavaardigheden werkboeken',
       'commerciële licentie plaatjesgrafiek maker',
+      'tel- en grafiek catalogus opbouwen',
     ],
-    titleTag: 'Tel- en Grafiekwerkbladen Maken — Gids',
-    metaDescription: 'Leer tel- en grafiekwerkbladen maken met plaatjesgrafieken, automatische antwoordsleutels en 104 thema\'s. Stap-voor-stap gids voor verkoop op Etsy, KDP en.',
+    titleTag: 'Telwerkbladen maken voor Etsy | LessonCraftStudio',
+    metaDescription: 'Leer hoe u telwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Plaatjesgrafieken, automatische antwoordsleutels en 104 thema\'s.',
   },
 
   hero: {
-    title: 'Hoe Tel- en Grafiekwerkbladen Maken',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van plaatjesgrafiek werkbladen met verstrooide afbeeldingsrasters, automatische antwoordsleutels en staafdiagrammen die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Tel- en grafiekwerkbladen combineren twee fundamentele rekenvaardigheden in één activiteit: gegevensverzameling (verstrooide afbeeldingen tellen) en gegevensweergave (een staafdiagram invullen). Dit dubbele-vaardigheidsformaat is een productcatalogusstandaard in de onderbouw van basisscholen wereldwijd, wat zorgt voor aanhoudende vraag het hele jaar door op elke marktplaats. Deze gids leidt je door het volledige creatieproces met de Telgrafiek Werkblad Maker — van het kiezen van afbeeldingen en het genereren van het verstrooide raster tot het controleren van de automatische antwoordsleutel en het exporteren van printklare bestanden. Of je nu je eerste datavaardigheden-product lanceert of een bestaande rekenwerkblad-catalogus uitbreidt, aan het einde van deze handleiding heb je een afgewerkt plaatjesgrafiek werkblad met bijpassende antwoordsleutel klaar om te vermelden.',
+    title: 'Telwerkbladen maken en verkopen als printbaar product',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare plaatjesgrafiek werkbladen met antwoordsleutels en staafdiagrammen voor Etsy en Amazon KDP',
+    description: 'Tel- en grafiekwerkbladen combineren twee fundamentele rekenvaardigheden in een activiteit: gegevensverzameling (verstrooide afbeeldingen tellen) en gegevensweergave (een staafdiagram invullen). Dit dubbele-vaardigheidsformaat is een standaard in de onderbouw van basisscholen wereldwijd, wat zorgt voor aanhoudende vraag het hele jaar door op elke marktplaats. Deze gids leidt u door het volledige creatieproces met de Telgrafiek Werkblad Maker — van het kiezen van afbeeldingen en het genereren van het verstrooide raster tot het controleren van de automatische antwoordsleutel en het exporteren van printklare bestanden. Of u nu uw eerste datavaardigheden-product lanceert of een bestaande rekenwerkblad-catalogus uitbreidt, aan het einde van deze handleiding hebt u een afgewerkt plaatjesgrafiek werkblad met bijpassende antwoordsleutel klaar om te vermelden.',
   },
 
   introduction: 'Plaatjesgrafieken zijn een van de eerste dataweersgavevaardigheden die kinderen leren. Vanaf de kleuterschool oefenen gebruikers met het tellen van voorwerpen en het vastleggen van hun bevindingen in eenvoudige grafieken — een vaardigheid die wordt versterkt tot en met groep 5 en daarna. Dit meerjarige productcatalogusvenster zorgt voor aanhoudende marktplaatsvraag naar plaatjesgrafiek- en telwerkbladen over meerdere niveaucategories.\n\nWat tel- en grafiekwerkbladen bijzonder sterk maakt als printbaar product is hun dubbele-vaardigheidaard. Elk werkblad vereist dat gebruikers verstrooide afbeeldingen tellen (gegevensverzameling) en vervolgens een staafdiagram invullen (gegevensweergave). verkopers waarderen activiteiten die twee productdoelen tegelijk dekken omdat ze instructietijd maximaliseren. Ouders en bijlesverkopers waarderen het visuele, praktische formaat dat abstracte rekenconcepten tastbaar maakt.\n\nDe Telgrafiek Werkblad Maker handelt de technische complexiteit voor je af. Het genereert een 4×5 verstrooide afbeeldingsraster met 20 iconen van 6 verschillende afbeeldingstypen, elk 1–5 keer voorkomend in een willekeurige verdeling die elke generatie uniek maakt. Onder het raster biedt een gestructureerd 6-koloms × 5-rijen staafdiagram gebruikers een duidelijke plek om hun telresultaten vast te leggen. De app produceert gelijktijdig een antwoordsleutel op een apart canvastabblad met geel gemarkeerde cellen die de juiste tellingen tonen — geen handmatig tellen, geen aparte aanmaakstap.\n\nJij focust op productstrategie — welke thema\'s je gebruikt, hoe je bundelt, welke marktplaatsen je richt — terwijl de generator layout, verdelingslogica, antwoordsleutelnauwkeurigheid en printopmaak afhandelt. Elke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldwerkbladen maken, elke configuratie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen Maken die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Gids voor Commerciële Licenties' },
-    { pageType: 'app', slug: 'telgrafieken-werkbladen', anchorText: 'Telgrafiek Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'telgrafiek-werkblad-maker', anchorText: 'Probeer de Telgrafiek Werkblad Maker' },
+    { pageType: 'app', slug: 'telgrafieken-werkbladen', anchorText: 'Telgrafiek Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Generator voor rekenwerkbladen' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket met tel- en rekenwerkbladen' },
   ],
 
   toolsRecommended: [

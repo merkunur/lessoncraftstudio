@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP activiteitenboek niches',
+    primaryKeyword: 'beste niches activiteitenboeken KDP 2026',
     secondaryKeywords: [
-      'top KDP activiteitenboek niches voor uitgevers',
-      'winstgevende activiteitenboek categorieën Amazon KDP',
-      'KDP niche-onderzoek activiteitenboeken',
-      'onderbediende activiteitenboek niches KDP',
+      'winstgevende activiteitenboek niches Amazon KDP',
+      'onderbediende KDP niches voor werkboeken',
+      'niche-onderzoek activiteitenboeken zelfpublicatie',
+      'welke activiteitenboeken verkopen het best op KDP',
     ],
     lsiKeywords: [
       'Amazon BSR best seller rang concurrentieanalyse vraag',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'nichevalidatie testtitel 90-dagen verkoop catalogusstrategie',
       'cross-categorie hybride thematisch activiteitenboek sub-niche',
     ],
-    titleTag: 'KDP Activiteitenboek Niches — Top Keuzes Gids',
-    metaDescription: 'Ontdek de top KDP activiteitenboek niches voor uitgevers. Vraaganalyse, concurrentie-evaluatie, onderbediende categorieën, seizoenstiming en validatie.',
+    titleTag: 'Beste KDP-niches werkboeken (2026) | LessonCraftStudio',
+    metaDescription: 'Ontdek de beste niches voor activiteitenboeken op Amazon KDP in 2026. Vraaganalyse, concurrentie-evaluatie en validatiemethoden voor nieuwe uitgevers.',
   },
 
   hero: {
-    title: 'Top KDP Activiteitenboek Niches voor Uitgevers',
-    tagline: 'Een niche-onderzoeksgids voor Amazon KDP activiteitenboek uitgevers — inclusief vraag-concurrentieanalyse voor elke grote activiteitenboek categorie, doelgroepsegmentatiestrategieën die nichemogelijkheden vermenigvuldigen, Amazon BSR- en recensiedata-interpretatie voor nichevalidatie, onderbediende sub-niches met sterke kopersvraag en dunne concurrentie, seizoens- versus groenblijvende nichetiming voor catalogusplanning, cross-categorie hybride niches die meerdere koperspools bereiken, en multi-niche portfoliostrategieën die diepte balanceren met diversificatie',
-    description: 'De juiste niche kiezen bepaalt of je KDP activiteitenboeken consistente omzet verdienen of verdwijnen in Amazon\'s catalogus. Deze gids richt zich op de beslissing die vóór alles komt: welke activiteitenboek categorieën moet je targeten, hoe evalueer je of een niche genoeg vraag heeft om je inspanning te rechtvaardigen, en hoe identificeer je de specifieke sub-niches waar een nieuwe uitgever kan concurreren met gevestigde titels.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk.',
+    title: 'Beste niches voor activiteitenboeken op Amazon KDP',
+    tagline: 'Niche-onderzoek, vraaganalyse en validatie voor KDP-uitgevers die winstgevende activiteitenboek-categorieën willen vinden',
+    description: 'De juiste niche kiezen bepaalt of uw KDP-activiteitenboeken consistente omzet verdienen of verdwijnen in Amazon\'s catalogus. Deze gids richt zich op de beslissing die voor alles komt: welke categorieën moet u targeten, hoe evalueert u of een niche genoeg vraag heeft, en hoe identificeert u de specifieke sub-niches waar een nieuwe uitgever kan concurreren met gevestigde titels.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk.',
   },
 
   introduction: 'Elk activiteitenboek dat op Amazon KDP wordt gepubliceerd concurreert binnen een specifieke niche — een combinatie van inhoudstype, doelgroep en kopersintentie die bepaalt in welke zoekresultaten het boek verschijnt, wie het ziet en of ze kopen. Het verschil tussen de juiste niche kiezen en de verkeerde is niet marginaal. Een goed gekozen niche kan $200 tot $500 per maand genereren van een enkele titel. Een slecht gekozen niche kan een even goed boek oneindig $5 per maand laten verdienen, ongeacht inhoudskwaliteit of omslagontwerp.\n\nDe KDP activiteitenboekmarkt bevat tientallen aparte niches, elk met een eigen vraagcurve, concurrentiedichtheid en winstpotentieel. Rekenwerkboeken, woordzoekercollecties, sudokupuzzels, kleurboeken, schrijfoefening, doolhoven, tekenprompts, kruiswoordpuzzels — elke categorie heeft subcategorieën, en elke subcategorie heeft doelgroepsegmenten. Een "woordzoekerboek" is niet één niche; het is een tiental niches: woordzoekers voor kinderen leeftijd 4-6, woordzoekers voor volwassenen, grote-letter woordzoekers voor senioren, thematische woordzoekers (dieren, reizen, feestdagen), woordzoekers in specifieke talen, en meer. Elke variatie target andere Amazon-zoekopdrachten, staat tegenover andere concurrentie en genereert andere omzet.\n\nDe meeste nieuwe KDP-uitgevers slaan niche-onderzoek volledig over. Ze maken het type activiteitenboek dat ze persoonlijk leuk vinden, publiceren het en hopen dat Amazon\'s algoritme kopers vindt. Deze product-eerst benadering werkt af en toe door geluk, maar faalt veel vaker dan dat het slaagt. De niche-eerst benadering keert het proces om: identificeer waar kopersvraag bestaat maar concurrentie dun is, maak dan inhoud specifiek voor dat gat. Dit betekent niet trends najagen of het systeem bespelen — het betekent geïnformeerde beslissingen nemen over waar je uitgeefsinspanning het hoogste rendement genereert.\n\nDeze gids doorloopt het complete niche-onderzoek en validatieproces voor KDP activiteitenboeken. Voor instructies over het maken van inhoud zodra je je niche hebt gekozen, zie de gidsen over reken activiteitenboeken, puzzelboeken of woordzoekerboeken. Voor opmaakspecificaties zie de KDP-opmaakgids. Voor omzet- en prijsstrategie zie de KDP-omzetgids. Hier behandelen we de fundamentele vraag die die gidsen aannemen dat je al beantwoord hebt: welke niches moet je targeten?',
@@ -155,17 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Hoe Reken Activiteitenboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Hoe Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'woordzoeker-boeken-kdp', anchorText: 'Hoe Woordzoekerboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Hoe Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
-    { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Hoe Sudokuboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'guide', slug: 'kleurplaten-maken', anchorText: 'Hoe Kleurplaten Maken van Thematische Afbeeldingen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'math-worksheet', anchorText: 'Rekenwerkblad Generator — Volledige Details' },
+    { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Sudokuboeken maken voor Amazon KDP' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP vs Etsy: waar printables verkopen' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
   ],
 
   toolsRecommended: [

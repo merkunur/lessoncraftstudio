@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'zoek de paren werkbladen maken',
+    primaryKeyword: 'koppelwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'zoek de paren werkbladen kleuterschool',
-      'zoek de paren werkblad generator',
-      'printbare zoek de paren activiteiten verkopen',
-      'trek een lijn werkbladen kleuters',
+      'zoek de paren werkbladen verkopen Etsy',
+      'koppelwerkbladen kleuters maken',
+      'trek een lijn werkbladen Amazon KDP',
+      'koppelactiviteiten printbaar verkopen Bol.com',
     ],
     lsiKeywords: [
-      'afbeeldingen koppelen werkbladen kleuterschool',
-      'letterkoppeling activiteiten groep 2',
-      'visuele discriminatie werkbladen',
-      'zoek de paren werkbladen verkopen op Etsy',
-      'Amazon KDP koppelactiviteiten boeken',
+      'letterkoppeling werkbladen productlijn',
+      'visuele discriminatie werkbladen verkopen',
+      'koppelwerkblad generator commercieel',
+      'zoek de paren bundels voor Etsy winkel',
+      'koppelactiviteiten boeken Brave New Books',
       'commerciële licentie werkblad tool',
     ],
-    titleTag: 'Zoek de Paren Werkbladen Maken — Gids',
-    metaDescription: 'Zoek de paren werkbladen maken voor kleuters. 4 koppelmodi, thema-afbeeldingen, automatische antwoordsleutels met verbindingslijnen.',
+    titleTag: 'Koppelwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u koppelwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 4 koppelmodi, thema-afbeeldingen en automatische antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Zoek de Paren Werkbladen Maken voor Kleuters',
-    tagline: 'Een stapsgewijze handleiding voor het maken van thematische trek-een-lijn koppelwerkbladen met automatische antwoordsleutels die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Zoek de paren werkbladen behoren tot de meest veelzijdige printbare producten voor kleuters die je kunt maken. Ze oefenen visuele discriminatie, letterherkenning, woordenschat en logisch koppelen — allemaal door het simpele trekken van een lijn tussen twee kolommen. Deze gids begeleidt je door het volledige creatieproces met de Zoek de Paren Maker — van het kiezen van je koppelmodus en thema tot het exporteren van printklare PDF\'s met automatische antwoordsleutels. De generator biedt vier verschillende koppelmodi (Letter, Afbeelding+Naam, Afbeelding-of-Naam en Aangepast), waardoor het een van de meest flexibele tools is voor het opbouwen van een gevarieerde productcatalogus. Of je nu je eerste printbare kleuterproduct lanceert of je aanbod uitbreidt met koppelactiviteiten, aan het eind van deze handleiding heb je een afgewerkt product klaar om te vermelden.',
+    title: 'Koppelwerkbladen maken en verkopen als printbaar product',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare trek-een-lijn koppelwerkbladen met automatische antwoordsleutels voor Etsy, Amazon KDP en Bol.com',
+    description: 'Zoek de paren werkbladen behoren tot de meest veelzijdige printbare producten voor kleuters die u kunt maken. Ze oefenen visuele discriminatie, letterherkenning, woordenschat en logisch koppelen — allemaal door het simpele trekken van een lijn tussen twee kolommen. Deze gids begeleidt u door het volledige creatieproces met de Zoek de Paren Maker — van het kiezen van uw koppelmodus en thema tot het exporteren van printklare PDF\'s met automatische antwoordsleutels. De generator biedt vier verschillende koppelmodi (Letter, Afbeelding+Naam, Afbeelding-of-Naam en Aangepast), waardoor het een van de meest flexibele tools is voor het opbouwen van een gevarieerde productcatalogus. Of u nu uw eerste printbare kleuterproduct lanceert of uw aanbod uitbreidt met koppelactiviteiten, aan het eind van deze handleiding hebt u een afgewerkt product klaar om te vermelden.',
   },
 
   introduction: 'Koppelen is een van de vroegste cognitieve vaardigheden die kinderen ontwikkelen, en werkbladen die deze vaardigheid oefenen blijven zeer gevraagd van kleuterschool tot en met groep 4. Het trek-een-lijn formaat is direct intuïtief — kinderen zien twee kolommen en verbinden gerelateerde paren. Geen leesvaardigheid nodig. Geen ingewikkelde instructies. Gewoon kijken, nadenken en tekenen.\n\nWat koppelwerkbladen bijzonder sterk maakt als printbaar product is hun brede toepassingsgebied. Een enkele zoek de paren generator kan letterherkenningsactiviteiten, woordenschatoefeningen, visuele discriminatieopdrachten en aangepaste spellingoefeningen produceren. Elke toepassing richt zich op een andere kopersbehoefte en een ander zoekwoord op marktplaatsen.\n\nDe Zoek de Paren Maker regelt de lay-outcomplexiteit voor je. Het rangschikt items in twee geschudde kolommen, verbindt ze met uitlijnpunten, genereert automatische antwoordsleutels met horizontale verbindingslijnen en exporteert alles op printklare resolutie. Jij kiest de koppelmodus, selecteert een thema, stelt het aantal paren in en de generator bouwt een professioneel werkblad in seconden.\n\nDe generator is taalgevoelig — Lettermodus produceert beginletters die passen bij de geselecteerde taal, en Afbeelding+Woord modus genereert gelokaliseerde woordlabels. Dit betekent dat je koppelproducten kunt maken voor meerdere taalmarkten zonder handmatig inhoud te vertalen.\n\nElke functie die in deze gids wordt beschreven is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldwerkbladen maken, elke koppelmodus testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,12 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'matching-app', anchorText: 'Zoek de Paren Generator — Alle Details' },
-    { pageType: 'tool', slug: 'matching', anchorText: 'Probeer de Zoek de Paren Maker' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Zoek de Paren Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Schaduw Koppelen Generator voor visuele koppelactiviteiten' },
+    { pageType: 'bundle', slug: 'matchen-sorteren-pakket', anchorText: 'Matchen & Sorteren Pakket met koppelwerkbladen' },
   ],
 
   toolsRecommended: [

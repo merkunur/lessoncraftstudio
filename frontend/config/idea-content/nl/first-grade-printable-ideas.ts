@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Groep 3 Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende groep 3 printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Basisschool productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables groep 3 voor Etsy | LessonCraftStudio',
+    metaDescription: 'Winstgevende printables groep 3 voor Etsy en KDP. Ideeën voor aanvankelijk lezen, rekenen tot 20 en werkbladen die ouders en leerkrachten zoeken.',
 
-    primaryKeyword: 'groep 3 printable ideeën',
+    primaryKeyword: 'printables groep 3 om te verkopen op Etsy',
     secondaryKeywords: [
-      'groep 3 werkbladen verkopen',
-      'basisschool printable business',
-      'groep 3 activiteiten voor verkopers',
-      'groep 3 printables verkopen op Gumroad',
+      'groep 3 werkbladen verkopen Etsy',
+      'aanvankelijk lezen printables business',
+      'groep 3 rekenwerkbladen verkopers',
+      'printables basisschool groep 3 Gumroad',
     ],
     lsiKeywords: [
-      'vroege basisschool educatieve werkbladen',
-      'groep 3 productcatalogus printables',
-      'leeftijd 6-7 leeractiviteiten',
+      'Veilig Leren Lezen werkbladen',
+      'klank-letterkoppeling oefenmateriaal',
+      'optellen aftrekken tot twintig printables',
     ],
   },
   hero: {
-    title: 'Groep 3 Printable Businessideeën voor Verkopers',
-    description: 'Groep 3 printables vertegenwoordigen een van de meest gevraagde en academisch intensieve niches op de educatieve printable-markt omdat groep 3 het cruciale jaar is waarin kinderen de overgang maken van fundamentele gereedheidsvaardigheden naar echte academische beheersing, wat buitengewone vraag creëert van verkopers die gedifferentieerd oefenmateriaal nodig hebben voor productlijnen met brede vaardigheidsniveaus en ouders die zwaar investeren in aanvullende leermiddelen omdat groep 3 het jaar is waarin leesvloeiendheid, rekenautomatisering en schriftelijke communicatie meetbare ijkpunten moeten bereiken. De academische vaardigheden die het groep-3-productcatalogus definiëren omvatten een kritisch scala aan competenties waaronder optellen en aftrekken tot twintig, positiewaardebegrip met tientallen en eenheden, zichtwoordvloeiendheid, klank-letterkoppeling en woordopbouw, leesbegrip van eenvoudige teksten, complete zinnen schrijven met correct taalgebruik, klokkijken op het hele en halve uur, en meten en vergelijken. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables groep 3 verkopen: ideeën voor uw business',
+    description: 'Groep 3 is hét jaar van het leren lezen in Nederland en daarmee een van de meest winstgevende niches voor printable-verkopers. Ouders en leerkrachten zoeken massaal naar aanvullend oefenmateriaal voor aanvankelijk lezen, klank-letterkoppeling en rekenen tot twintig. Met onze generators maakt u professionele werkbladen die aansluiten bij methodes als Veilig Leren Lezen en Lijn 3. De Cito-toetsen in groep 3 meten voor het eerst formeel lees- en rekenvaardigheid, wat sterke ouderlijke koopintentie creëert voor thuisoefenmateriaal. Verkopers zoeken gedifferentieerd materiaal op meerdere niveaus. Combineer reken-, lees- en schrijfwerkbladen tot complete pakketten die het hele schooljaar meegaan. Verkoop via Etsy, Gumroad, Amazon KDP of Bol.com en bouw een stabiele omzetstroom op in deze altijd gevraagde niche. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De groep 3 printable-niche neemt een premiumpositie in op de educatieve markt omdat het het niveaucategorie bedient waar academische verwachtingen het meest dramatisch toenemen, wat de hoogste uitgaven per verkoper aan aanvullend materiaal stimuleert van elk basisschoolniveau. In tegenstelling tot de kleuterjaren waar productdoelen gericht zijn op blootstelling en gereedheid, vereist het groep 3 productcatalogus meetbare beheersing van specifieke vaardigheden waaronder leesvloeiendheid, rekenautomatisering bij optellen en aftrekken, en schrijfvaardigheid met correcte zinsopbouw. Deze beheersingsoriëntatie betekent dat verkopers en ouders printbare oefenmaterialen kopen met duidelijk academisch doel en urgentie die zich direct vertaalt in gemotiveerd koopgedrag op elke marktplaats.
 
@@ -145,54 +145,19 @@ Het jaarronde karakter van de vraag naar groep-3-materiaal is bijzonder sterk om
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen generator voor groep 3',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'alfabet-trein-werkbladen',
+      anchorText: 'Alfabet-trein werkbladen voor aanvankelijk lezen',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kleuterschool printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Groep 4 printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket voor rekenverkopers',
     },
   ],
 

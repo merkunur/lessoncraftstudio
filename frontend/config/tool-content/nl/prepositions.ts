@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'voorzetsels werkblad generator',
+    primaryKeyword: 'gratis voorzetsels werkbladen generator',
     secondaryKeywords: [
-      'voorzetsels werkblad maker voor verkopers',
-      'voorzetsels werkbladen maken om te verkopen',
-      'printbare ruimtelijke voorzetsels werkbladen met commerciële licentie',
-      'voorzetsels generator voor KDP',
+      'voorzetsels werkbladen online maken gratis',
+      'positiewoorden werkblad generator',
+      'printbare voorzetsels oefeningen maker met antwoordblad',
+      'NT2 voorzetsels werkblad tool online',
     ],
     lsiKeywords: [
-      'ruimtelijke voorzetsels printables voor Etsy',
-      'positiewoorden werkblad tool',
-      'meertalige voorzetsels activiteit generator',
+      'ruimtelijke voorzetsels werkblad maker gratis',
+      'invuloefening meerkeuze voorzetsels generator',
+      'meertalige positiewoorden werkblad tool',
     ],
-    titleTag: 'Voorzetsels Werkblad Maker | Verkoop Printables',
-    metaDescription: 'Genereer voorzetsels werkbladen met invul- en meerkeuzemodi, vormvervanging, 104 thema\'s, 11 talen. Gratis proefversie met watermerk — licentie beschikbaar.',
+    titleTag: 'Voorzetsels werkbladen gratis | LessonCraftStudio',
+    metaDescription: 'Maak gratis voorzetsels werkbladen online met invul- en meerkeuzemodi, vormvervanging, 11 talen en 104 thema\'s. Ideaal voor NT2 en inburgering.',
   },
 
   hero: {
-    title: 'Voorzetsels Werkblad Maker',
-    tagline: 'Maak ruimtelijke voorzetsels werkbladen met twee oefenmodi in 11 talen',
-    description: 'Leer positiewoorden door beeldgebaseerde oefeningen die gebruikers daadwerkelijk leuk vinden en verkopers solide inkomsten opleveren. Deze tool genereert voorzetsels werkbladen waarbij gebruikers ruimtelijke relaties identificeren — op, onder, boven, naast, tussen, binnen, buiten — door afbeeldingsscènes te bestuderen en het correcte voorzetsel in te vullen of te selecteren. Kies tussen twee oefenmodi: Invuloefening, waarbij gebruikers het correcte voorzetsel zelf schrijven, of Meerkeuze, waarbij ze kiezen uit opties met een aanpasbare instructieregel. Stel 1–8 oefeningen per werkblad in en selecteer precies welke voorzetsels je wilt opnemen via het selectievakjesraster. De opvallende functie van de tool is Vormvervanging — een aparte afbeeldingslaag laat je scènevormen onafhankelijk wisselen, waardoor veel meer visuele combinaties ontstaan dan een enkele afbeeldingenset zou bieden. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en elk voorzetsel wordt bijgewerkt naar het moedertaal-equivalent. Duits gebruikt \"auf, unter, über, neben, zwischen, drinnen, draußen"; Frans gebruikt \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Eén werkbladontwerp wordt 11 unieke taalproducten. Blader door meer dan 3100 afbeeldingen over 104 thema\'s, upload je eigen PNG of JPEG voor merkgebonden ontwerpen, en kies uit meerdere sjablonen en 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis voorzetsels werkbladen maken online',
+    tagline: 'Positiewoorden oefenen met twee modi in 11 talen — ideaal voor NT2 en inburgering',
+    description: 'Met onze gratis voorzetsels werkbladen generator maakt u direct oefeningen voor positiewoorden zoals op, onder, boven, naast en tussen. Kinderen en NT2-cursisten bestuderen afbeeldingsscenes en vullen het correcte voorzetsel in of selecteren het uit meerdere opties. Kies tussen Invuloefening voor actief oproepen of Meerkeuze voor beginnersvriendelijke ondersteuning. Stel 1 tot 8 oefeningen per werkblad in en selecteer precies welke voorzetsels u wilt opnemen. De unieke Vormvervanging functie wisselt scenevormen onafhankelijk, waardoor veel meer visuele combinaties ontstaan. Schakel tussen 11 talen en elk voorzetsel wordt automatisch bijgewerkt naar het moedertaal-equivalent — bijzonder waardevol voor NT2-onderwijs en inburgeringscursussen. Blader door meer dan 3.100 afbeeldingen verdeeld over 104 thema\'s of upload uw eigen illustraties. Het automatisch gegenereerde antwoordblad toont het juiste voorzetsel per oefening. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Voorzetsels Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Hoe maakt u gratis voorzetsels werkbladen online?',
     steps: [
       {
         title: 'Open de voorzetsels werkblad maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'voorzetsels-werkbladen', anchorText: 'Voorzetsels Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'voorzetsels-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabettrein Maker' },
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Woordraadsel Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },

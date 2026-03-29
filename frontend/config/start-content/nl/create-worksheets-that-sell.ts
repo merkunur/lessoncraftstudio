@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'werkbladen maken om te verkopen',
+    primaryKeyword: 'werkbladen maken die verkopen',
     secondaryKeywords: [
-      'professionele werkbladen maken',
+      'professionele werkbladen maken Etsy',
       'werkbladen maken om op Etsy te verkopen',
-      'werkblad creatie voor verkopers',
-      'printbare werkblad ontwerp tips',
+      'werkblad creatie voor printable verkopers',
+      'printbare werkblad ontwerp tips verkopers',
     ],
     lsiKeywords: [
-      'werkblad kwaliteitsnormen',
-      'antwoordblad generatie',
+      'werkblad kwaliteitsnormen Etsy KDP',
+      'antwoordblad generatie verkopers',
       'printbare product creatie workflow',
-      'werkblad bundel strategie',
+      'werkblad bundel strategie Bol.com',
       'thematische werkblad afbeeldingen',
-      'printklare PDF werkbladen',
+      'printklare PDF werkbladen verkopen',
     ],
-    titleTag: 'Werkbladen Maken om te Verkopen — Professionele Gids',
-    metaDescription: 'Hoe werkbladen te maken die verkopen op Etsy, Amazon KDP en Gumroad. Stapsgewijze gids over thematische afbeeldingen, antwoordbladen, prijzen en.',
+    titleTag: 'Werkbladen maken die verkopen | LessonCraftStudio',
+    metaDescription: 'Leer werkbladen maken die verkopen op Etsy, Amazon KDP en Bol.com. Stapsgewijze gids over thematische afbeeldingen, antwoordbladen, bundels en prijzen.',
   },
 
   hero: {
-    title: 'Hoe Professionele Werkbladen te Maken Die Verkopen',
-    tagline: 'Het productcreatie-draaiboek dat werkbladen die kopers kiezen scheidt van werkbladen waar kopers aan voorbij scrollen',
-    description: 'Deze gids behandelt elke stap van het maken van printbare werkbladen die voldoen aan professionele normen en consistent verkopen. Je leert wat een werkblad professioneel laat ogen, hoe generators ontwerpbarrières elimineren, hoe bundels te bouwen die omzet maximaliseren, en hoe je producten te testen voordat je ze vermeldt. Of je nu verkoopt op Etsy, Amazon KDP, Gumroad of Gumroad, de kwaliteit van je werkbladen bepaalt of kopers op "in winkelwagen" klikken of doorscrolling.',
+    title: 'Werkbladen maken die kopers daadwerkelijk kopen',
+    tagline: 'Het productcreatie-draaiboek voor Etsy, KDP en Bol.com verkopers',
+    description: 'Deze gids behandelt elke stap van het maken van printbare werkbladen die voldoen aan professionele normen en consistent verkopen. U leert wat een werkblad professioneel laat ogen in de ogen van kopers, hoe generators ontwerpbarrières elimineren, hoe bundels te bouwen die uw omzet maximaliseren, en hoe u producten test voordat u ze vermeldt. Of u nu verkoopt op Etsy, Amazon KDP, Bol.com of uw eigen website, de kwaliteit van uw werkbladen bepaalt of kopers op kopen klikken of doorscrolling. De Nederlandse markt biedt extra mogelijkheden via Bol.com en Brave New Books, en met meertalige ondersteuning bedient u ook de Duitse en Franse markten vanuit dezelfde toolkit.',
   },
 
   introduction: 'De printbare werkbladen markt is competitief. Duizenden verkopers vermelden elke week nieuwe producten. Toch delen de meerderheid van die producten hetzelfde probleem: ze zien er amateuristisch uit. Inconsistente spatiëring, ontbrekende antwoordbladen, saaie indelingen en generieke clipart signaleren lage inspanning — en kopers merken het op.\n\nDe verkopers die consistent inkomen verdienen met werkbladen zijn degenen die productcreatie als een ambacht behandelen. Hun werkbladen hebben schone indelingen, nauwkeurige antwoordbladen, visueel aantrekkelijke thema\'s en professionele printopmaak. Dit zijn geen ontwerpgenieën — het zijn verkopers die begrijpen wat kopers evalueren voor een aankoop en die de juiste tools gebruiken om efficiënt aan die normen te voldoen.\n\nDeze gids gaat over het overbruggen van die kwaliteitskloof. Je leert precies wat een werkblad "professioneel" maakt in de ogen van kopers, hoe werkblad generators de technische complexiteit verwerken zodat jij je kunt richten op productstrategie, en de specifieke creatieworkflow die verkoopbare producten produceert in minuten in plaats van uren.\n\nEén belangrijke opmerking: elke werkblad generator die in deze gids wordt genoemd biedt een gratis proefversie met watermerk. Je kunt het volledige creatieproces testen, de uitvoerkwaliteit evalueren en voorbeeldwerkbladen maken voordat je een commerciële licentie aanschaft. Er is nul risico om mee te doen.',
@@ -207,17 +207,10 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optelling Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optelling Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaten Maker' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids printables-business starten' },
+    { pageType: 'start', slug: 'stappenplan-printable-bedrijf', anchorText: 'Stappenplan printables-business' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker generator bekijken' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket bekijken' },
   ],
 
   visuals: {

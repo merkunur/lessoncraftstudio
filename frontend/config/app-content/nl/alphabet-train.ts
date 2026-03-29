@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alfabettrein werkbladen generator',
+    primaryKeyword: 'alfabet werkbladen om te verkopen op Etsy en KDP',
     secondaryKeywords: [
-      'printbare alfabettrein maker voor Etsy-verkopers',
-      'letterherkenning werkbladen generator voor KDP-uitgevers',
-      'alfabet werkbladen verkopen op Gumroad',
-      'alfabettrein printables commerciële licentie',
+      'alfabet-trein generator Etsy',
+      'letterwerkbladen voor Amazon KDP',
+      'alfabet activiteiten commerciële licentie',
+      'letterpuzzels verkopen online',
     ],
     lsiKeywords: [
       'digitale letterherkenning producten online bedrijf',
       'printbare alfabet werkbladen bedrijf',
       'commercieel gebruik alfabettrein generator',
     ],
-    titleTag: 'Alfabettrein Generator | Maak Taal-Printables',
+    titleTag: 'Alfabet werkbladen voor Etsy en KDP | LessonCraftStudio',
     metaDescription:
-      'Maak alfabettrein werkbladen om te verkopen op Etsy, KDP en Gumroad. Treinwagon letter-afbeelding koppeling in 11 talen, 104 thema\'s.',
+      'Maak alfabet-trein werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. 11 talen, 104 thema\'s, antwoordblad.',
   },
 
   hero: {
-    title: 'Alfabettrein Werkbladen Generator voor Letterherkenning Oefenen',
-    tagline: 'Elke wagon draagt een letter en een bijpassende afbeelding — letterherkenning opbouwen, treinwagon voor treinwagon.',
+    title: 'Alfabet-trein werkbladen maken en verkopen als printables',
+    tagline: 'Kleurrijke treinwagons met letter-afbeeldingskoppeling — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Ontwerp opvallende alfabettrein werkbladen waarin 11 kleurrijke wagons over de pagina rollen, elk met een letter gekoppeld aan een bijpassende illustratie. Kies de modus Automatisch Aanmaken voor directe willekeurige letterselecties of de Handmatige modus om precies 11 letters uit het alfabet te kiezen voor gerichte oefening. Voeg 3 tot 11 instelbare aanwijzingen per werkblad toe — afbeeldingshints die gebruikers koppelen aan de juiste letterwagon — waardoor passieve letterherkenning verandert in een actieve probleemoplossende oefening. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s om de perfecte afbeelding voor elke letter te vinden. Volledige Toegang ontgrendelt alle 11 ondersteunde talen met hun eigen alfabetten — Duits met Ä/Ö/Ü, Zweeds met Å/Ä/Ö, Spaans met Ñ, Nederlands met het eigen alfabet en meer — waardoor je productcatalogus elfvoudig wordt vermenigvuldigd vanuit één workflow. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 400 DPI in Letter-, A4- of Vierkant-formaat. Of je nu thematische alfabetbundels verkoopt op Etsy.nl, progressieve taalboeken samenstelt voor Amazon KDP of gedifferentieerde lettercentra maakt voor Gumroad — de Alfabettrein Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak professionele alfabet-trein werkbladen die u direct kunt verkopen op Etsy, Amazon KDP, Bol.com en Brave New Books. Elf kleurrijke treinwagons rollen over de pagina, elk met een letter gekoppeld aan een bijpassende illustratie — een formaat dat letterherkenning en lettervolgorde combineert in één visueel aantrekkelijk werkblad. De generator is bijzonder populair voor kleuters en groep 3 van de Nederlandse basisschool, waar kinderen hun eerste letters leren herkennen. Kies de modus Automatisch Aanmaken voor snelle batchproductie of de Handmatige modus om precies 11 letters te selecteren voor gerichte oefening met klinkers, lastige letterparen of specifieke alfabetdelen. Het instelbare aanwijzingensysteem van 3 tot 11 hints biedt u een ingebouwde moeilijkheidsschaal voor gedifferentieerde productbundels. Meer dan 3.100 illustraties in 104 thema\'s zorgen voor eindeloze thematische variatie — van boerderijdieren tot dinosaurussen. Volledige Toegang ontgrendelt alle 11 talen met hun eigen alfabetten en speciale letters, waardoor u elf verkoopbare producten creëert vanuit één workflow. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI met automatisch antwoordblad. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Alfabettrein Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u alfabet-trein werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Alfabettrein Werkbladen Generator',
+    title: 'Functies van de alfabet-trein generator voor verkopers',
     features: [
       {
         title: 'Treinwagon-werkbladformaat met letter-afbeeldingskoppeling',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Alfabettrein Werkbladen Online',
+    title: 'Alfabet werkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Thematische alfabettrein bundels op Etsy.nl',
@@ -205,53 +205,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'voorzetsels-werkbladen',
-      anchorText: 'Voorzetsels Werkbladen Generator',
+      slug: 'schrijfoefeningen-werkbladen',
+      anchorText: 'Schrijfwerkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'woordraadsel-werkbladen',
-      anchorText: 'Woordraadsel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordkruisel-werkbladen',
-      anchorText: 'Woordkruisel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-werkbladen',
-      anchorText: 'Cryptogram Werkbladen Generator',
+      pageType: 'guide',
+      slug: 'alfabet-werkbladen-maken',
+      anchorText: 'Alfabet werkbladen maken die verkopen',
     },
     {
       pageType: 'bundle',
       slug: 'lezen-taal-pakket',
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
-    },
-    {
-      pageType: 'guide',
-      slug: 'alfabet-werkbladen-maken',
-      anchorText: 'Gids voor het Maken van Alfabet Werkbladen',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
-      pageType: 'idea',
-      slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
     },
   ],
 

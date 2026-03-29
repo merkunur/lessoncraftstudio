@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rekenpuzzel werkbladen generator',
+    primaryKeyword: 'generator rekenpuzzels om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare rekenpuzzel werkbladen voor Etsy verkopers',
-      'plaatjespuzzel werkbladen generator voor Amazon KDP',
-      'rekenpuzzel werkbladen verkopen op Gumroad',
-      'rekenpuzzel printables commerciële licentie',
+      'rekenpuzzels met afbeeldingen maken Etsy',
+      'wiskundepuzzelboeken voor Amazon KDP',
+      'rekenpuzzel generator commerciële licentie',
+      'reken rasterpuzzels verkopen',
     ],
     lsiKeywords: [
       'digitale rekenpuzzel producten online bedrijf',
       'printbare puzzelwerkbladen business',
       'commercieel gebruik rekenpuzzel generator',
     ],
-    titleTag: 'Rekenpuzzel Generator | Maak en Verkoop Printables',
+    titleTag: 'Rekenpuzzels generator voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak rekenpuzzel werkbladen om te verkopen op Etsy, KDP en Gumroad. Plaatjespuzzels met optellen en aftrekken, instelbare rasters. Gratis proefversie met.',
+      'Maak rekenpuzzels om te verkopen op Etsy en KDP. Rasterpuzzels met logisch denken en rekenen. Commerciële licentie. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Rekenpuzzel Werkbladen Generator voor Visuele Rekenuitdagingen',
-    tagline: 'Combineer rekenpraktijk met puzzelplezier — elk stukje bevat een rekensom, elke oplossing onthult het plaatje.',
+    title: 'Maak rekenpuzzels om te verkopen op Etsy, KDP en Bol.com',
+    tagline: 'Unieke rasterpuzzels die rekenen en logisch denken combineren — gratis proefversie met watermerk.',
     description:
-      'Maak boeiende rekenpuzzel werkbladen waarbij een afbeelding wordt opgesplitst in een raster van stukjes, elk met een optel- of aftreksomsom. gebruikers lossen de sommen op en koppelen de genummerde antwoorden aan de door elkaar geschudde puzzelstukjes onder het raster — zo wordt routinematig rekenen een visueel mysterie. Configureer rastergroottes van 2×2 tot 4×4 om puzzels te maken met 4 tot 16 stukjes, en kies optellen, aftrekken of gemengde bewerkingen om elk vaardigheidsniveau aan te passen. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s zoals boerderijdieren, ruimte, dinosaurussen en feestdagen om elke puzzel uniek te maken. Elk werkblad genereert een automatisch antwoordblad met het opgeloste raster naast de volledig samengestelde afbeelding. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Of je nu themapuzzelpakketten verkoopt op Etsy.nl, progressieve activiteitenboeken samenstelt voor Amazon KDP, of hands-on rekencentra maakt voor je winkel — de Rekenpuzzel Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Genereer rekenpuzzels in rasterformaat die logisch denken combineren met rekenvaardigheid — een uniek puzzeltype met aanzienlijk minder concurrentie op Etsy dan standaard rekenbladen. Een afbeelding wordt opgesplitst in rasterstukjes die elk een optel- of aftreksomsom bevatten. Gebruikers lossen de sommen op en koppelen de antwoorden aan de door elkaar geschudde puzzelstukjes om het plaatje te onthullen. Configureer rasters van 2×2 tot 4×4 voor 4 tot 16 stukjes, kies optellen, aftrekken of gemengde bewerkingen, en selecteer uit meer dan 3100 illustraties in 104 thema\'s. Het visuele rasterformaat werkt taalonafhankelijk — uw puzzels zijn direct verkoopbaar op Etsy.nl, Amazon KDP, Bol.com en internationale marktplaatsen zonder vertaling. Elk werkblad bevat een automatisch antwoordblad. Exporteer als printklare PDF of JPEG op meer dan 400 DPI. De commerciële licentie verleent u volledige verkooprechten. Probeer alle functies met de gratis proefversie — downloads bevatten een watermerk dat verdwijnt met een licentie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Rekenpuzzel Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u rekenpuzzels om te verkopen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Rekenpuzzel Werkbladen Generator',
+    title: 'Belangrijkste functies van de rekenpuzzels generator',
     features: [
       {
         title: 'Plaatjespuzzelformaat met rekensommen',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Rekenpuzzel Werkbladen Online',
+    title: 'Hoe verkoopt u rekenpuzzels online',
     cases: [
       {
         title: 'Thematische rekenpuzzelpakketten op Etsy.nl',
@@ -205,48 +205,23 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
+      slug: 'rekenen-werkbladen',
+      anchorText: 'Rekenen werkbladen generator',
+    },
+    {
+      pageType: 'app',
       slug: 'optellen-werkbladen',
-      anchorText: 'Optellen Werkbladen Generator',
+      anchorText: 'Optellen werkbladen generator',
     },
     {
-      pageType: 'app',
-      slug: 'aftrekken-werkbladen',
-      anchorText: 'Aftrekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'visuele-optelsommen-werkbladen',
-      anchorText: 'Visuele Optelsommen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'meer-minder-werkbladen',
-      anchorText: 'Meer of Minder Werkbladen Generator',
+      pageType: 'guide',
+      slug: 'rekenpuzzels-maken',
+      anchorText: 'Gids: rekenpuzzels maken om te verkopen',
     },
     {
       pageType: 'bundle',
       slug: 'wiskunde-meester-pakket',
-      anchorText: 'Wiskunde Meester Pakket — Alle Reken-Apps in Één Pakket',
-    },
-    {
-      pageType: 'guide',
-      slug: 'reken-werkbladen-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Rekenwerkbladen op Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'rekenfeiten-printable-ideen',
-      anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'terug-naar-school-printable-ideen',
-      anchorText: 'Terug-naar-school printable ideeën die verkopen',
-    },
-    {
-      pageType: 'start',
-      slug: 'werkbladen-maken-die-verkopen',
-      anchorText: 'Werkbladen maken die verkopen',
+      anchorText: 'Wiskunde Meester Pakket — alle reken-apps in één pakket',
     },
   ],
 

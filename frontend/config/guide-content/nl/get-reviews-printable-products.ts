@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'reviews krijgen printable producten',
+    primaryKeyword: 'recensies krijgen voor printable producten',
     secondaryKeywords: [
-      'Etsy reviews werkbladen',
-      'klantbeoordelingen printables',
-      'reviews verzamelen digitale producten',
-      'positieve reviews strategie',
+      'Etsy reviews werkbladen strategie',
+      'klantbeoordelingen digitale producten',
+      'reviews verzamelen printables',
+      'sociale bewijskracht opbouwen Etsy',
     ],
     lsiKeywords: [
       'sterrenbeoordelingen kopersfeedback productreviews reviewverzoek sociale bewijskracht',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'organische reviews authentieke feedback reviewvolume marktplaatsrangschikking',
       'vermeldingsoptimalisatie verwachtingen stellen kopercommunicatie na-aankoop ervaring',
     ],
-    titleTag: 'Reviews Krijgen voor Printable Producten — Gids',
-    metaDescription: 'Bewezen strategieën om reviews te krijgen voor printable producten. Bouw sociale bewijskracht op, verdien authentieke kopersfeedback en versterk je Etsy.',
+    titleTag: 'Recensies voor printables krijgen | LessonCraftStudio',
+    metaDescription: 'Bewezen strategieën om recensies te krijgen voor printable producten. Bouw sociale bewijskracht op en versterk uw Etsy-winkel met authentieke feedback.',
   },
 
   hero: {
-    title: 'Reviews Krijgen voor Je Printable Producten',
-    tagline: 'Een complete gids voor het verdienen van authentieke reviews voor printable producten — van het leveren van uitstekende productervaring en het optimaliseren van downloadkwaliteit, tot het opnemen van professionele reviewverzoeken, het opvolgen op het juiste moment, het constructief reageren op alle reviews, het stellen van nauwkeurige verwachtingen in vermeldingen, het opbouwen van reviewvolume door catalogusgroei, en het creëren van feedbackloops die je producten continu verbeteren',
-    description: 'Reviews zijn het krachtigste vertrouwenssignaal op digitale productmarktplaatsen. Voor verkopers van printables — waar kopers het product niet fysiek kunnen bekijken voor aankoop — dienen reviews als het primaire bewijs dat je werkbladen leveren wat ze beloven. Een product met 50 positieve reviews verkoopt beter dan een identiek product zonder reviews, omdat kopers sociale bewijskracht gebruiken om het waargenomen risico van een onbekende verkoper te verkleinen. Deze gids laat je zien hoe je systematisch authentieke reviews verdient die geloofwaardigheid opbouwen, marktplaatszichtbaarheid verbeteren en consistente verkoopgroei stimuleren.\n\nElke werkbladgenerator biedt een gratis proefversie met watermerk waarmee je alle functies kunt testen, complete werkbladen kunt maken en de uitvoerkwaliteit kunt evalueren voordat je een commerciële licentie koopt. De commerciële licentie verwijdert het watermerk en verleent volledige rechten om gegenereerde werkbladen te verkopen op elke marktplaats. Dit geeft je de mogelijkheid om je volledige productlijn te plannen en testen voordat je investeert — en juist die productervaring van hoge kwaliteit is de basis voor het verdienen van positieve reviews.',
+    title: 'Recensies krijgen voor uw printable producten',
+    tagline: 'Een complete gids voor het verdienen van authentieke reviews voor printable producten — van het leveren van uitstekende productervaring en het optimaliseren van downloadkwaliteit, tot het opnemen van professionele reviewverzoeken, het opvolgen op het juiste moment, het constructief reageren op alle reviews, het stellen van nauwkeurige verwachtingen in vermeldingen, het opbouwen van reviewvolume door catalogusgroei, en het creëren van feedbackloops die uw producten continu verbeteren',
+    description: 'Reviews zijn het krachtigste vertrouwenssignaal op digitale productmarktplaatsen. Voor verkopers van printables — waar kopers het product niet fysiek kunnen bekijken voor aankoop — dienen reviews als het primaire bewijs dat uw werkbladen leveren wat ze beloven. Een product met 50 positieve reviews verkoopt beter dan een identiek product zonder reviews, omdat kopers sociale bewijskracht gebruiken om het waargenomen risico van een onbekende verkoper te verkleinen. Deze gids laat u zien hoe u systematisch authentieke reviews verdient die geloofwaardigheid opbouwen, marktplaatszichtbaarheid verbeteren en consistente verkoopgroei stimuleren.\n\nElke werkbladgenerator biedt een gratis proefversie met watermerk waarmee u alle functies kunt testen, complete werkbladen kunt maken en de uitvoerkwaliteit kunt evalueren voordat u een commerciële licentie koopt. De commerciële licentie verwijdert het watermerk en verleent volledige rechten om gegenereerde werkbladen te verkopen op elke marktplaats. Dit geeft u de mogelijkheid om uw volledige productlijn te plannen en testen voordat u investeert — en juist die productervaring van hoge kwaliteit is de basis voor het verdienen van positieve reviews.',
   },
 
   introduction: 'Printable producten staan voor een unieke vertrouwensuitdaging die fysieke producten niet hebben. Wanneer een koper een fysiek product overweegt, kan hij foto\'s vanuit meerdere hoeken bekijken, gedetailleerde specificaties lezen en vertrouwen op ervaring met vergelijkbare fysieke artikelen. Wanneer een koper een digitale printable overweegt, koopt hij een bestand dat hij niet volledig kan inspecteren — een PDF die hij zal downloaden, printen en gebruiken met gebruikers of kinderen. De voorbeeldafbeeldingen tonen een weergave, maar de koper moet erop vertrouwen dat het werkelijke bestand overeenkomt met de preview, correct print, nauwkeurige inhoud bevat en echte educatieve waarde levert. Reviews overbruggen deze vertrouwenskloof door bewijs te leveren van echte kopers die de volledige aankoop-, download-, print- en gebruikscyclus al hebben doorlopen.\n\nDe impact van reviews op de verkoop van printable producten is buitenproportioneel groot vergeleken met veel andere productcategorieën. Zoekalgoritmen van marktplaatsen zoals Etsy, Amazon KDP en Gumroad wegen reviewaantal en beoordeling mee in de zichtbaarheid van vermeldingen. Producten met meer positieve reviews verschijnen hoger in zoekresultaten, wat meer weergaven genereert, wat leidt tot meer verkopen, wat meer reviews oplevert — dit creëert een samengestelde cyclus waarbij vroeg reviewmomentum de langetermijngroei versnelt. Omgekeerd worstelen producten zonder reviews met zichtbaarheid, ongeacht hun werkelijke kwaliteit, omdat het algoritme geen door kopers gevalideerd kwaliteitssignaal heeft om mee te werken.\n\nDe reviewuitdaging voor verkopers van printables is dat digitale producten van nature lagere reviewpercentages hebben dan fysieke producten. Kopers van fysieke producten ontvangen een tastbaar artikel dat op hun bureau of in hun winkel ligt, wat een constante herinnering is aan de aankoop en een natuurlijke aanleiding om de ervaring te evalueren. Kopers van digitale producten downloaden een bestand, en tenzij ze het onmiddellijk printen en gebruiken, verdwijnt de aankoop snel uit het actieve bewustzijn. Veel kopers van printables downloaden producten en bewaren ze voor later gebruik — wat betekent dat de ervaring van het daadwerkelijk gebruiken van het product, die een review zou uitlokken, dagen of weken na aankoop kan plaatsvinden. Deze timing kloof tussen aankoop en gebruik is de voornaamste reden waarom digitale producten langzamer reviews verzamelen dan fysieke producten.\n\nHet begrijpen van deze timingkloof is essentieel omdat het elke effectieve reviewgeneratiestrategie vormgeeft. Je kunt niet simpelweg een goed product maken en passief hopen dat kopers reviews achterlaten. Je moet actief omstandigheden creëren die het achterlaten van reviews gemakkelijk, tijdig en natuurlijk maken — zonder ooit de grens te overschrijden naar reviewmanipulatie, geïncentiveerde reviews of welke praktijk dan ook die de servicevoorwaarden van marktplaatsen schendt. Elke strategie in deze gids is ontworpen om authentieke reviews te verdienen via legitieme middelen: het leveren van uitzonderlijke productervaringen, professioneel communiceren met kopers en het opbouwen van een bedrijfsreputatie die klanten op natuurlijke wijze motiveert om hun positieve ervaringen te delen.',
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Klantenservice voor Digitale Productbedrijven' },
-    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'Kwaliteitsnormen voor Professionele Werkbladen' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor Educatieve Printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy Printable Winkel Starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables Verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nicheselectie voor Printable Bedrijven' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekpuzzels Maken met de Generator' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten Maken met de Generator' },
+    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'klantenservice opzetten voor digitale producten' },
+    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'kwaliteitsnormen voor verkoopbare werkbladen' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'professionele optellen-werkbladen maken' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Gids voor een Printable Bedrijf Starten' },
     { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing voor Je Printable Bedrijf' },
   ],

@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'lijnen trekken werkbladen generator',
+    primaryKeyword: 'trekwerkbladen fijne motoriek om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare lijntraceerwerkbladen maker voor Etsy-verkopers',
-      'lijnen trekken werkbladen generator voor Amazon KDP-uitgevers',
-      'lijntekenen werkbladen verkopen op Gumroad',
-      'lijnen trekken werkbladen commerciële licentie',
+      'lijnen-trekken werkbladen generator Etsy',
+      'fijne motoriek werkbladen voor KDP',
+      'trekactiviteiten commerciële licentie',
+      'motoriekwerkbladen verkopen',
     ],
     lsiKeywords: [
       'digitale lijntraceer printables online bedrijf',
       'printbare fijne motoriek werkbladen business',
       'commercieel gebruik lijnen trekken werkbladen generator',
     ],
-    titleTag: 'Lijnen Trekken Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak lijntraceer werkbladen om te verkopen op Etsy, KDP en Gumroad. Acht SVG-lijnsjablonen, afbeeldingsparen, 104 kleurrijke thema\'s.',
+    titleTag: 'Trekwerkbladen fijne motoriek Etsy | LessonCraftStudio',
+    metaDescription: 'Maak fijne motoriek trekwerkbladen om te verkopen op Etsy en Amazon KDP. Acht lijnsjablonen, 104 thema\'s, voorbereidend schrijven, commerciële licentie.',
   },
 
   hero: {
-    title: 'Lijnen Trekken Werkbladen Generator voor Lijntraceer Oefeningen',
-    tagline: 'Acht SVG-lijnsjablonen — bochten, diagonalen, horizontaal en verticaal — met 4–5 afbeeldingsparen per pagina voor fijne motoriek ontwikkeling door begeleide lijntracering.',
+    title: 'Trekwerkbladen voor fijne motoriek verkopen op Etsy',
+    tagline: 'Gratis proefversie met watermerk — acht lijnsjablonen voor voorbereidend schrijven — 104 thema\'s met 3.100+ illustraties voor fijne motoriek werkbladen die het hele jaar door verkopen.',
     description:
-      'Ontwerp professionele lijntraceer werkbladen waarbij gebruikers langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-gebaseerde sjablonen dekken vier lijntypen: vier gebogen lijnsjablonen voor vloeiende bewegingen, twee diagonale sjablonen voor schuine streken, één horizontaal sjabloon voor horizontale tracering, en één verticaal sjabloon voor boven-naar-beneden oefening. Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, waardoor gebruikers aan elk uiteinde een visueel doel hebben. Automatisch vullen wijst willekeurig afbeeldingsparen toe uit elk geselecteerd thema of uit alle thema\'s tegelijk. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 kleurrijke illustraties verdeeld over 104 thema\'s — dieren, voertuigen, eten, natuur en tientallen meer. Elk werkblad is volledig visueel met nul tekst op de uitvoer, waardoor ze universeel bruikbaar zijn ongeacht de taal of het leesniveau. De sjabloonselectie bepaalt automatisch de pagina-oriëntatie: bochtensjablonen gebruiken standaard liggend formaat voor zwaaiende bewegingen, terwijl diagonale, horizontale en verticale sjablonen staand formaat gebruiken voor gerichte boven-naar-beneden oefening. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen voor de generator. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu lijntraceer bundels verkoopt op Etsy.nl, fijne motoriek werkboeken samenstelt voor Amazon KDP, of schrijfvoorbereiding centra maakt voor Gumroad, de Lijnen Trekken Werkbladen Generator levert professionele resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Fijne motoriek werkbladen zijn een van de meest gevraagde printables voor kleuters en jonge kinderen. Met deze generator maakt u professionele trekwerkbladen waarbij kinderen langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-lijnsjablonen dekken bochten, diagonalen, horizontale en verticale lijnen — elk gericht op een andere motorische vaardigheid die essentieel is voor voorbereidend schrijven. Elk sjabloon plaatst 4 of 5 afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, wat kinderen motiveert om de lijn af te maken. Kies uit 104 thematische collecties met meer dan 3.100 kleurrijke illustraties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Bijzonder populair op de Nederlandse markt voor ouders die werkbladen kopen voor kleuters en groep 1-2. Ideaal voor Etsy.nl, Bol.com en Amazon KDP fijne motoriek werkboeken. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Lijnen Trekken Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u trekwerkbladen voor fijne motoriek',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Lijnen Trekken Werkbladen Generator',
+    title: 'Waarom verkopers kiezen voor de trekwerkbladen generator',
     features: [
       {
         title: 'Acht SVG-lijnsjablonen: Bochten, Diagonalen, Horizontaal en Verticaal',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Lijnen Trekken Werkbladen Online',
+    title: 'Fijne motoriek werkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Lijntraceer Activiteitenbundels op Etsy',
@@ -204,18 +204,8 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'groot-klein-werkbladen',
-      anchorText: 'Groot & Klein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patroontrein-werkbladen',
-      anchorText: 'Patroontrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patronen-werkbladen',
-      anchorText: 'Patronen Werkbladen Generator',
+      slug: 'schrijfoefeningen-werkbladen',
+      anchorText: 'Schrijfoefeningen Werkbladen Generator',
     },
     {
       pageType: 'app',
@@ -223,39 +213,9 @@ const content: AppContent = {
       anchorText: 'Rastertekenen Werkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkbladen Generator',
-    },
-    {
       pageType: 'bundle',
       slug: 'visueel-leren-pakket',
       anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zomer-printable-ideen',
-      anchorText: 'Zomer printable ideeën voor kinderactiviteiten',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kerst-printable-ideen',
-      anchorText: 'Kerst printable ideeën voor seizoensverkoop',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-bedrijf',
-      anchorText: 'Bouw je Etsy printable bedrijf',
-    },
-    {
-      pageType: 'guide',
-      slug: 'teken-werkbladen-maken',
-      anchorText: 'Teken werkbladen maken',
     },
   ],
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'puzzelboeken uitgeven KDP',
+    primaryKeyword: 'puzzelboeken publiceren op Amazon KDP',
     secondaryKeywords: [
       'hoe puzzelboeken publiceren op Amazon KDP',
       'KDP puzzelboek uitgeversgids',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'print-on-demand puzzelcatalogus serie deelaanduiding',
       'puzzelraster afstand trimformaat antwoordsleutels nawerk',
     ],
-    titleTag: 'Puzzelboeken Uitgeven op KDP — Gids',
-    metaDescription: 'Puzzelboeken uitgeven op Amazon KDP met woordzoekers, kruiswoorden en sudoku. Opmaak, variatieboeken, seriestrategie en Amazon-vermeldingsoptimalisatie.',
+    titleTag: 'Puzzelboeken publiceren op KDP | LessonCraftStudio',
+    metaDescription: 'Publiceer puzzelboeken op Amazon KDP met woordzoekers, kruiswoorden en sudoku. Opmaak, variatieboeken, seriestrategie en zoekwoordoptimalisatie.',
   },
 
   hero: {
-    title: 'Hoe Puzzelboeken Uitgeven op Amazon KDP',
-    tagline: 'Een complete gids voor het maken en uitgeven van puzzelboeken op Amazon KDP — inclusief woordzoekers, kruiswoorden, sudoku, rekenpuzzels en visuele puzzeltypes, hoe je boeken met één type en variatiepuzzelboeken structureert, puzzelspecifieke opmaak voor druk met adequate rasterafstand en oplossingensecties, de dubbele markt van volwassenen- en kinderpuzzelboeken, Amazon-zoekwoordoptimalisatie voor puzzelzoekopdrachten, moeilijkheidsprogressie over makkelijk-gemiddeld-moeilijk secties, het opbouwen van meerdelige puzzelboekseries, en catalogusstrategieën die Amazon-crosspromotie benutten om verkopen te laten groeien over je hele puzzelboeklijn',
-    description: 'Puzzelboeken zijn een van de grootste en meest consistent winstgevende categorieën op Amazon KDP. In tegenstelling tot reken activiteitenboeken die voornamelijk gericht zijn op ouders en verkopers van jonge kinderen, bedienen puzzelboeken een enorme dubbele markt — volwassenen die genieten van woordzoekers, kruiswoorden en sudoku als dagelijks vermaak, plus kinderen die zich bezighouden met visuele puzzels, afbeeldingspaden en thematische woordzoekers. Deze gids doorloopt het maken van professionele puzzelboeken van inhoudgeneratie tot Amazon-publicatie.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk, zodat je puzzelinhoud kunt maken en je aanpak kunt testen voordat je een licentie koopt.',
+    title: 'Puzzelboeken publiceren op Amazon KDP',
+    tagline: 'Woordzoekers, kruiswoorden en sudoku voor de dubbele markt',
+    description: 'Puzzelboeken zijn een van de meest winstgevende categorieën op Amazon KDP, met een enorme dubbele markt: volwassenen die dagelijks puzzelen voor ontspanning, plus ouders die boeiende activiteiten kopen voor kinderen. Deze gids doorloopt het complete proces van inhoudgeneratie tot Amazon-publicatie, inclusief boeken met een type versus variatiepuzzelboeken, puzzelspecifieke opmaak en het opbouwen van meerdelige series. Ook relevant voor Nederlandse uitgevers via Bol.com en Brave New Books. Elke generator biedt een gratis proefversie met watermerk.',
   },
 
-  introduction: 'Puzzelboeken ranken consistent onder de best verkopende categorieën op Amazon KDP. De woordzoekercategorie alleen al genereert duizenden nieuwe titels per maand, en kruiswoord-, sudoku- en variatiepuzzelboeken handhaven gestage vraag het hele jaar door. Wat puzzelboeken bijzonder aantrekkelijk maakt voor KDP-uitgevers is het dubbele publiek — volwassenen kopen puzzelboeken voor persoonlijk vermaak, ontspanning en cognitieve oefening, terwijl ouders en verkopers ze kopen voor het leren en de betrokkenheid van kinderen. Dit betekent dat je potentiële klantenbestand dramatisch groter is dan categorieën die slechts één doelgroep bedienen.\n\nDe economie van puzzelboeken verschilt op belangrijke manieren van andere KDP activiteitenboek categorieën. Puzzelboeken hebben doorgaans hogere pagina-aantallen — 60 tot 120 pagina\'s is standaard vergeleken met 40 tot 80 voor reken activiteitenboeken — omdat kopers een substantieel aantal puzzels per boek verwachten. Elke puzzel neemt een volledige pagina in beslag voor bruikbaarheid, dus een woordzoekerboek met 100 puzzels heeft minstens 100 activiteitenpagina\'s nodig plus voorwerk, instructies en een oplossingensectie. Hogere pagina-aantallen verhogen drukkosten, maar ze rechtvaardigen ook hogere verkoopprijzen die sterke royalty\'s per verkoop kunnen opleveren wanneer strategisch geprijsd.\n\nPuzzelboeken lenen zich ook van nature voor volume-gebaseerd publiceren. Een woordzoekerliefhebber die Deel 1 uitleest is een klaarstaande koper voor Deel 2, Deel 3 en verder. Deze dynamiek van herhaalaankopen is sterker bij puzzelboeken dan bijna elke andere KDP-categorie omdat puzzels eenmalig gebruik zijn in druk — eenmaal opgelost kan een puzzel niet opnieuw worden gedaan. Deze ingebouwde consumptiecyclus betekent dat je catalogus waardevoller wordt met elke nieuwe titel naarmate terugkerende klanten meerdere delen kopen.\n\nDeze gids richt zich specifiek op wat puzzelboekuitgeven uniek maakt. Voor KDP-basisprincipes zoals manuscript opmaakspecificaties, omslagdimensieberekeningen, royalty-tariefniveaus en algemene Amazon-vermeldingspraktijken, raadpleeg de gids over reken activiteitenboeken voor KDP die deze fundamentele onderwerpen gedetailleerd behandelt. Hier concentreren we ons op puzzelspecifieke inhoudsstrategie, de keuze tussen één-type en variatieformaten, opmaakoveringwen uniek voor puzzelrasters, en de catalogusopbouwende aanpak die de langetermijnomzet uit puzzelboekuitgeven maximaliseert.',
+  introduction: 'Puzzelboeken ranken consistent onder de best verkopende KDP-categorieën. Het dubbele publiek maakt ze bijzonder aantrekkelijk: volwassenen kopen puzzelboeken voor ontspanning en cognitieve oefening, terwijl ouders ze kopen voor kinderen. Puzzelboeken hebben doorgaans 60 tot 120 pagina\'s, wat hogere verkoopprijzen en sterke royalty\'s mogelijk maakt. Bovendien lenen ze zich uitstekend voor volume-gebaseerd publiceren: een oplosser die Deel 1 uitleest is een directe koper voor Deel 2 en verder. Deze ingebouwde consumptiecyclus maakt uw catalogus progressief waardevoller. Deze gids richt zich op puzzelspecifieke inhoudsstrategie, de keuze tussen boeken met een type en variatieboeken, puzzelspecifieke opmaak en de catalogusaanpak die langetermijnomzet maximaliseert.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Hoe Reken Activiteitenboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'woordzoeker-boeken-kdp', anchorText: 'Hoe Woordzoekerboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Hoe Sudokuboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Hoe Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
-    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Top KDP Activiteitenboek Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Werkblad Generator — Volledige Details' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Sudoku Generator' },
     { pageType: 'tool', slug: 'crossword', anchorText: 'Probeer de Kruiswoord Puzzel Maker' },
   ],
 

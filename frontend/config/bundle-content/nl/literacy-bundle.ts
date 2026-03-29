@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'geletterdheid werkbladen bundel',
+    primaryKeyword: 'taal- en woordspelpakket Etsy KDP',
     secondaryKeywords: [
-      'taal werkblad generator bundel voor verkopers',
-      'geletterdheid printable toolkit commercieel gebruik',
-      'woordpuzzel werkblad bundel voor Etsy',
+      'taal werkblad generator bundel commercieel gebruik',
+      'woordpuzzel werkblad bundel verkopen Etsy',
       'meertalige werkblad generators voor KDP verkopers',
+      'geletterdheid printable toolkit voor ondernemers',
     ],
     lsiKeywords: [
       'alfabet schrijfoefeningen woordzoeker pakket',
-      'woordscramble cryptogram printbare collectie',
-      'commerciële licentie geletterdheid werkbladen',
-      'bulk taal werkblad creatie tool',
+      'woordscramble cryptogram printbare collectie verkopers',
+      'commercieel woordzoeker kruiswoord bundel',
+      'taalwerkbladen verkopen 11 talen',
     ],
-    titleTag: 'Geletterdheid Werkbladen Bundel — 7 Taal & Woord Generators',
-    metaDescription: 'Krijg 7 geletterdheid werkblad generators in één bundel. Maak alfabet, woordzoeker, cryptogram, voorzetsels en schrijfoefeningen werkbladen in 11 talen.',
+    titleTag: 'Taal- en woordspelpakket — Verkopen | LessonCraftStudio',
+    metaDescription: 'Zeven taalwerkblad generators in een pakket. Maak woordzoekers, kruiswoorden, cryptogrammen en meer in 11 talen om te verkopen op Etsy, KDP en Bol.com.',
   },
 
   hero: {
-    title: 'Lezen & Taal Pakket',
-    tagline: 'Zeven taalgestuurde werkblad generators — vermenigvuldig je productlijn over 11 talen',
-    description: 'Elke generator in deze bundel is taalbewust. Dat enkele feit transformeert je productcatalogus: één werkbladontwerp wordt 11 verschillende producten wanneer je wisselt tussen Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Het Lezen & Taal Pakket combineert zeven gespecialiseerde generators die alfabetherkenning, ruimtelijke voorzetsels, woordraden met afbeeldingsaanwijzingen, letterontscrambling, woordzoekrasters, zin-naar-afbeelding cryptogramcijfers en begeleide schrijfoefening dekken. Zes van de zeven generators produceren taalspecifieke inhoud — de woorden, letters en woordenschat op elk werkblad veranderen om bij de geselecteerde taal te passen, met correcte diakritische tekens, moedertaal-alfabetten en grammaticaal nauwkeurige formuleringen. De zevende, Schrijfoefeningen, richt zich op handschrift-streekpraktijk met minimale taalafhankelijkheid. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden. Zes van zeven bevatten automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload je eigen illustraties voor merkgebonden, nichespecifieke producten. Of je nu geletterdheid printables verkoopt op Etsy, taalwerkboeken publiceert op Amazon KDP, of materialen distribueert op Gumroad, deze bundel geeft je de variatie en het taalbereik dat eentalige concurrenten niet kunnen evenaren. Elke generator bevat een gratis proefversie met watermerk zodat je elke functie kunt testen voordat je een licentie aanschaft.',
+    title: 'Zeven taalgenerators die uw catalogus vermenigvuldigen',
+    tagline: 'Elk werkbladontwerp wordt 11 verkoopbare producten wanneer u van taal wisselt',
+    description: 'Als u taalwerkbladen verkoopt op Etsy, Amazon KDP of Bol.com, is meertaligheid uw grootste concurrentievoordeel. Het Lezen & Taal Pakket combineert zeven gespecialiseerde generators die alfabetherkenning, ruimtelijke voorzetsels, woordraden met afbeeldingsaanwijzingen, letterontscrambling, woordzoekrasters, zin-naar-afbeelding cryptogramcijfers en begeleide schrijfoefening dekken. Zes van de zeven generators produceren taalspecifieke inhoud: de woorden, letters en woordenschat op elk werkblad veranderen om bij de geselecteerde taal te passen, met correcte diakritische tekens, moedertaal-alfabetten en grammaticaal nauwkeurige formuleringen. Dat betekent dat een enkel ontwerp in het Nederlands ook een Duits, Frans, Spaans en Italiaans product oplevert. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden met automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen illustraties voor merkgebonden producten. De Nederlandse markt is bijzonder kansrijk via Bol.com en Brave New Books, terwijl u met dezelfde toolkit ook de Duitse, Franse en Scandinavische markten bedient. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 
   appsIncluded: [
@@ -198,17 +198,10 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'alfabet-trein-werkbladen', anchorText: 'Alfabet Trein Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'voorzetsels-werkbladen', anchorText: 'Voorzetsels Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordraadsel-werkbladen', anchorText: 'Woordraad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordkruisel-werkbladen', anchorText: 'Woordscramble Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'schrijfoefeningen-werkbladen', anchorText: 'Schrijfoefeningen Generator — Volledig Overzicht' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Woordzoekers verkopen op Etsy' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Woordzoekers maken die verkopen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'De complete gids voor je printable bedrijf' },
-    { pageType: 'idea', slug: 'nt2-printable-ideen', anchorText: 'ESL printable ideeën voor taalonderwijs' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker generator bekijken' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel generator bekijken' },
+    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram generator bekijken' },
+    { pageType: 'start', slug: 'meertalige-werkbladen-verkopen', anchorText: 'Meertalige werkbladen maken en verkopen' },
   ],
 
   visuals: {

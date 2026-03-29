@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ontbrekende stukjes puzzel werkblad',
+    primaryKeyword: 'gratis ontbrekende stukjes generator',
     secondaryKeywords: [
-      'ontbrekende stukjes werkblad maker voor verkopers',
-      'legpuzzel werkbladen maken om te verkopen',
-      'printbare ontbrekende stukjes generator commercieel gebruik',
-      'ontbrekende puzzelstukjes maker voor KDP en Etsy',
+      'ontbrekende stukjes puzzel online maken gratis',
+      'legpuzzel werkblad generator',
+      'printbare ontbrekende stukjes maker met antwoordblad',
+      'puzzelstukjes werkblad tool online',
     ],
     lsiKeywords: [
-      'slimme stuk-extractie kleurvariantie puzzel generator',
-      'zes stukvormen ontbrekende stukjes werkblad maker met antwoordblad',
-      'afleidersstukjes legpuzzel werkblad creator tool',
+      'zes stukvormen legpuzzel maker gratis',
+      'slimme stuk-extractie puzzel generator',
+      'automatisch antwoordblad ontbrekende stukjes tool',
     ],
-    titleTag: 'Ontbrekende Stukjes Maker — Legpuzzel Werkblad Generator',
-    metaDescription: 'Maak ontbrekende stukjes puzzels met 6 stukvormen, instelbare moeilijkheid, slimme extractie met afleiders, 104 thema\'s. Gratis proefversie — licentie.',
+    titleTag: 'Ontbrekende stukjes gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis ontbrekende stukjes puzzels online met 6 stukvormen, instelbare moeilijkheid, afleiders en 104 thema\'s. Probeer nu zonder account.',
   },
 
   hero: {
-    title: 'Ontbrekende Stukjes Maker',
-    tagline: 'Legpuzzel werkblad generator met 6 stukvormen (vierkant, cirkel, rechthoek staand/liggend, ellips staand/liggend), 1–5 ontbrekende stukjes met 2–6 oplossingsopties inclusief afleiders, slimme stuk-extractie met kleurvariantiedetectie en 250px minimale afstand, automatisch gegenereerde antwoordbladen met geel gemarkeerde nummerlabels, dubbel kadersysteem in groenblauw en felroze, en 104 thematische beeldcollecties voor legpuzzel werkbladen die wereldwijd verkopen',
-    description: 'Maak professionele ontbrekende stukjes puzzels waarbij een afbeelding gaten bevat en gebruikers identificeren welk genummerd stukje in elke opening past. Het slimme stuk-extractie-algoritme probeert tot 150 plaatsingspogingen om stukjes te vinden met voldoende kleurvariantie (minimale helderheidsvariantie van 15), met minstens 250 pixels afstand tussen stukjes om overlap te voorkomen. Stukgrootte wordt berekend als 12% van de afbeeldingsbreedte met een minimum van 50 pixels. Kies uit 6 stukvormen die het visuele karakter van elke puzzel veranderen: vierkant (standaard) en cirkel bieden schone geometrische uitsnijdingen, rechthoek staand (80% breedte, 100% hoogte) en rechthoek liggend (100% breedte, 80% hoogte) creëren langwerpige gaten, en ellips staand en ellips liggend bieden zachtere gebogen uitsnijdingen met dezelfde verhoudingen. Stel de moeilijkheid in met twee onafhankelijke regelaars: stel 1–5 ontbrekende stukjes in om te bepalen hoeveel gaten in de afbeelding verschijnen, en stel 2–6 oplossingsopties in om te bepalen hoeveel genummerde keuzes gebruikers evalueren. Wanneer oplossingsopties het aantal ontbrekende stukjes overschrijden, zijn de extra opties afleidersstukjes — geëxtraheerd uit niet-overlappende gebieden van dezelfde afbeelding met tot 200 plaatsingspogingen elk. Afleiders voorkomen dat gebruikers oplossen door eliminatie alleen, waardoor zorgvuldige visuele vergelijking van kleuren, patronen en details wordt afgedwongen. Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd. Het antwoordblad toont dezelfde puzzelafbeelding met gaten en plaatst geel gemarkeerde nummerlabels (rgba(255,255,0,0.7)) in elk gat die de correcte 1-gebaseerde optie-index tonen. Lettergrootte schaalt naar 60% van de stukgrootte voor duidelijke leesbaarheid. Een automatisch gegenereerde koptekst rendert "Ontbrekende Stukjes" in turquoise (#06B6D4) met een roze-roze beschrijving (#DB2777) over een dubbel kadersysteem — groenblauw buitenkader (#14B8A6, 8px streek, 34px marges, 12px straal) en felroze binnenkader (#EC4899, 3px streek, 46,5px marges, 8px straal, 2px rechts en 3px naar beneden offset). Ontbrekende Stukjes is NIET taalgevoelig — puzzels zijn puur visueel zonder taalafhankelijke inhoud op het werkblad zelf, waardoor elke puzzel universeel verkoopbaar is over alle markten zonder vertaling. Het enige gelokaliseerde element is de koptekst, vertaald in alle 11 ondersteunde talen. Staande indelingen plaatsen de puzzelafbeelding bovenaan met opties eronder in een horizontale rij (75% van maximale grootte); liggende indelingen verdelen de weergave 50/50 met opties aan de rechterkant. Blader door 104 thematische collecties met meer dan 3.100 kleurrijke illustraties of upload je eigen PNG-, JPG- of GIF-afbeeldingen. Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) en tekstomlijning 0–10. Exporteer vier bestanden per sessie: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — allemaal op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0). Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. Bewerk alles op het Fabric.js-canvas met 6 uitlijnopties plus centreren-op-pagina, laagbeheer, vergrendelen/ontgrendelen, zoom 25%–300% in stappen van 25% en ongedaan maken/opnieuw uitvoeren tot 50 statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis ontbrekende stukjes puzzels maken',
+    tagline: 'Legpuzzel generator met 6 stukvormen, instelbare moeilijkheid, afleidersstukjes en automatische antwoordbladen',
+    description: 'Met onze gratis ontbrekende stukjes generator maakt u direct leuke legpuzzels voor kinderen. Een kleurrijke afbeelding bevat gaten en kinderen identificeren welk genummerd stukje in elke opening past. Kies uit 6 stukvormen die het visuele karakter van de puzzel veranderen: vierkant, cirkel, rechthoek staand of liggend, en ellips staand of liggend. Stel de moeilijkheid in met twee regelaars: 1 tot 5 ontbrekende stukjes bepalen het aantal gaten, en 2 tot 6 oplossingsopties bepalen hoeveel keuzes kinderen evalueren. Extra opties zijn afleidersstukjes die oplossen door eliminatie voorkomen. Het automatisch gegenereerde antwoordblad markeert het juiste stukje per gat. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Elk werkblad is volledig visueel zonder tekst, waardoor het universeel bruikbaar is. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Ontbrekende Stukjes Puzzels Maken in 8 Stappen',
+    title: 'Hoe maakt u gratis ontbrekende stukjes puzzels online?',
     steps: [
       {
         title: 'Open de Ontbrekende Stukjes Maker',
@@ -205,7 +205,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'ontbrekende-puzzelstukjes-werkbladen', anchorText: 'Ontbrekende Stukjes Puzzels — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'ontbrekende-puzzelstukjes-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },

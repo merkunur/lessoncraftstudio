@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO educatieve printables',
+    primaryKeyword: 'Etsy SEO voor educatieve werkbladen 2026',
     secondaryKeywords: [
       'Etsy SEO voor printbare werkbladen',
       'Etsy zoekwoordenonderzoek educatieve producten',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'Etsy Stats zoektermen rapport zoekwoordoptimalisatie',
       'Etsy categorie attributen voor educatieve digitale producten',
     ],
-    titleTag: 'Etsy SEO Educatieve Printables — Gids',
-    metaDescription: 'Etsy SEO voor educatieve printables. Zoekwoordenonderzoek, titeloptimalisatie, alle 13 tags, beschrijvingsstructuur en rangschikkingsfactoren voor verkopers.',
+    titleTag: 'Etsy SEO voor werkbladen (2026) | LessonCraftStudio',
+    metaDescription: 'Etsy SEO voor educatieve werkbladen in 2026. Zoekwoordenonderzoek, titeloptimalisatie, alle 13 tags en rangschikkingsfactoren voor printable verkopers.',
   },
 
   hero: {
-    title: 'Etsy SEO voor Educatieve Printables',
-    tagline: 'Een uitgebreide Etsy-zoekoptimalisatiegids voor educatieve printable verkopers — inclusief zoekwoordenonderzoek met Etsy-autocomplete en concurrentieanalyse, titeloptimalisatieformules die zoekrangschikking balanceren met doorklikpercentage, strategisch gebruik van alle 13 vermeldingstags voor maximale zoekdekking, beschrijvingsstructuur met SEO-geoptimaliseerde eerste 160 tekens, Etsy-zoekalgoritme rangschikkingsfactoren specifiek voor digitale producten, categorie- en attributenselectie, categoriespecifieke zoekwoordbanken voor reken-, lees-, puzzel-, kleur-, match- en zoek-en-vind werkbladen, seizoensgebonden zoekwoordtiming voor terug-naar-school en feestdagenpieken, en doorlopende optimalisatie met Etsy Stats zoektermrapporten',
-    description: 'Etsy-zoekresultaten zijn de primaire verkeersbron voor educatieve printable verkopers. Deze gids leert je de complete Etsy-SEO workflow — van het onderzoeken van koperszoektermen tot het optimaliseren van elk element van je vermelding voor maximale zichtbaarheid. Je leert de exacte titelstructuur, tagstrategie en beschrijvingsformaat die educatieve printable vermeldingen helpen verschijnen in Etsy-zoekresultaten.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk, zodat je voorbeeldproducten kunt maken en je SEO-strategie kunt testen voordat je een licentie koopt.',
+    title: 'Etsy SEO voor educatieve werkbladen (2026)',
+    tagline: 'Zoekwoordenonderzoek, titeloptimalisatie en 13-tagstrategie',
+    description: 'Etsy-zoekresultaten zijn de primaire verkeersbron voor educatieve printable verkopers. Deze gids leert u de complete Etsy-SEO workflow: van het onderzoeken van koperszoektermen tot het optimaliseren van elk element van uw vermelding voor maximale zichtbaarheid. U leert de exacte titelstructuur, tagstrategie en beschrijvingsformaat die werkbladvermeldingen helpen verschijnen in Etsy-zoekresultaten. Elke generator is beschikbaar als gratis proefversie met watermerk zodat u voorbeeldproducten kunt maken en uw SEO-strategie kunt testen.',
   },
 
-  introduction: 'Voor educatieve printable verkopers op Etsy genereert organisch zoekverkeer het grootste deel van het winkelverkeer. In tegenstelling tot sociale media-berichten die binnen uren vervagen of betaalde advertenties die stoppen wanneer je budget op is, blijft een goed geoptimaliseerde vermelding maand na maand kopers aantrekken. Etsy-SEO — de praktijk van het optimaliseren van je vermeldingen voor Etsy\'s interne zoekmachine — is de activiteit met het hoogste rendement waar je als printable verkoper tijd in kunt investeren.\n\nEtsy\'s zoekmachine koppelt koperszoekacties aan vermeldingstitels, tags, categorieën en attributen. Vermeldingen die goed matchen en sterke betrokkenheidssignalen hebben (klikken, favorieten, aankopen) ranken na verloop van tijd hoger. Dit creëert een samengesteld effect: betere optimalisatie leidt tot meer zichtbaarheid, wat leidt tot meer verkopen, wat je rangschikking verder verbetert.\n\nDe uitdaging voor educatieve printable verkopers is dat de markt competitief is. Duizenden verkopers bieden rekenwerkbladen, kleurplaten en leesactiviteiten aan. Generieke optimalisatie — je titel volstoppen met zoekwoorden en hopen op resultaten — werkt zelden. In plaats daarvan heb je een systematische aanpak nodig: onderzoeken welke exacte termen kopers gebruiken, je titels structureren voor zowel zoekmachines als menselijke lezers, alle 13 tags strategisch gebruiken om een breed zoeknet uit te werpen, en beschrijvingen schrijven die bezoekers omzetten in kopers.\n\nDeze gids behandelt elk element van Etsy-SEO specifiek voor educatieve printable producten. Of je nu rekenwerkbladen, woordzoekerpuzzels, kleurplaten of activiteitenbladen verkoopt, de principes en strategieën hier zijn direct toepasbaar op je vermeldingen. Elk onderdeel bouwt voort op het vorige en geeft je een complete optimalisatieworkflow die je kunt toepassen op elke vermelding in je winkel. Elke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk, zodat je voorbeeldproducten kunt maken en je SEO-strategie kunt testen voordat je een licentie koopt.',
+  introduction: 'Organisch zoekverkeer genereert het grootste deel van het winkelverkeer voor educatieve printable verkopers op Etsy. Een goed geoptimaliseerde vermelding blijft maand na maand kopers aantrekken, wat Etsy-SEO de activiteit met het hoogste rendement maakt. Het zoekalgoritme koppelt koperszoekacties aan vermeldingstitels, tags, categorieën en attributen, en vermeldingen met sterke betrokkenheidssignalen ranken progressief hoger. De uitdaging is dat generieke optimalisatie zelden werkt in deze competitieve markt. U hebt een systematische aanpak nodig: exacte koperstermen onderzoeken, titels structureren voor zowel zoekmachines als lezers, alle 13 tags strategisch gebruiken, en beschrijvingen schrijven die bezoekers omzetten in kopers. Elke generator is beschikbaar als gratis proefversie met watermerk.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Hoe Woordzoeker Werkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe een Etsy Printable Shop Starten vanuit Niets' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Hoe Je Etsy Printable Werkbladen Prijst' },
-    { pageType: 'guide', slug: 'etsy-kleurplaten-maken', anchorText: 'Hoe Etsy Kleurplaten Maken die Verkopen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Volledige Details' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Sudoku Werkblad Generator' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
   ],
 

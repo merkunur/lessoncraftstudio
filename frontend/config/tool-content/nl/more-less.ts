@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'meer minder werkblad generator',
+    primaryKeyword: 'gratis meer en minder werkbladen',
     secondaryKeywords: [
-      'groter dan kleiner dan werkblad maker voor verkopers',
-      'vergelijkingswerkbladen maken om te verkopen',
-      'printbare meer of minder werkbladen met commerciële licentie',
-      'meer of minder rekenwerkblad generator voor KDP',
+      'groter dan kleiner dan werkbladen gratis online',
+      'meer of minder werkbladen gratis maken',
+      'gratis vergelijkingswerkbladen met afbeeldingen',
+      'meer en minder rekenwerkblad gratis printen',
     ],
     lsiKeywords: [
-      'visuele vergelijkings-printables voor Etsy',
-      'hoeveelheid vergelijken werkblad tool',
-      'vinkje en kruisje rekenactiviteit generator',
+      'visuele vergelijkingswerkbladen gratis online',
+      'hoeveelheid vergelijken werkblad generator',
+      'vinkje en kruisje rekenactiviteit gratis',
     ],
-    titleTag: 'Meer of Minder Werkblad Maker | Vergelijkingswerkbladen',
-    metaDescription: 'Maak visuele groter dan, kleiner dan en gelijk aan werkbladen met afbeeldingen in seconden. Drie modi inclusief unieke Vinkje & Kruisje.',
+    titleTag: 'Meer en minder werkbladen gratis | LessonCraftStudio',
+    metaDescription: 'Maak gratis meer en minder werkbladen online met afbeeldingen. Drie oefenmodi inclusief unieke Vinkje & Kruisje modus. Geen account nodig.',
   },
 
   hero: {
-    title: 'Meer of Minder Werkblad Maker',
-    tagline: 'Maak visuele vergelijkingswerkbladen met drie oefenmodi in minder dan 60 seconden',
-    description: 'Leer groter dan, kleiner dan en gelijk aan met beeldgebaseerde vergelijkingswerkbladen die abstracte concepten concreet maken en verkopers solide inkomsten opleveren. Deze tool genereert drie verschillende oefentypen: Afbeelding naar Afbeelding (vergelijk twee plaatjesgroepen naast elkaar), Afbeelding naar Getal (overbrugt visueel tellen met geschreven cijfers), en de unieke Vinkje & Kruisje Groepen modus waarbij gebruikers een gemengde doos met door elkaar gehusselde afbeeldingen sorteren in meerderheids- en minderheidscategorieën. Kies uit meer dan 100 beeldthema\'s, stel je getallenbereik in, kies tussen geïllustreerde of standaard vergelijkingssymbolen, en download printklare PDF\'s of hoge-resolutie JPEG\'s. Omdat werkbladen alleen afbeeldingen, getallen en symbolen gebruiken, werken ze identiek in alle 11 ondersteunde talen — maak eenmaal en verkoop aan kopers wereldwijd. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis meer en minder werkbladen online maken',
+    tagline: 'Maak gratis vergelijkingswerkbladen met afbeeldingen en drie oefenmodi',
+    description: 'Probeer onze gratis proefversie met watermerk om meer en minder werkbladen te maken — direct in uw browser, zonder account of registratie. Leer groter dan, kleiner dan en gelijk aan met beeldgebaseerde vergelijkingswerkbladen die abstracte concepten concreet maken. De tool genereert drie verschillende oefentypen: Afbeelding naar Afbeelding (vergelijk twee plaatjesgroepen naast elkaar), Afbeelding naar Getal (overbrugt visueel tellen met geschreven cijfers), en de unieke Vinkje & Kruisje Groepen modus waarbij gebruikers een gemengde doos met door elkaar gehusselde afbeeldingen sorteren. Kies uit meer dan 100 beeldthema\'s, stel uw getallenbereik in en kies tussen geïllustreerde of standaard vergelijkingssymbolen. Omdat werkbladen alleen afbeeldingen, getallen en symbolen gebruiken, werken ze in alle 11 talen. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 
   tutorial: {
-    title: 'Vergelijkingswerkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Zo maakt u vergelijkingswerkbladen in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de werkblad maker',
@@ -196,7 +196,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'meer-minder-werkbladen', anchorText: 'Meer of Minder Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'meer-minder-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
     { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
     { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },

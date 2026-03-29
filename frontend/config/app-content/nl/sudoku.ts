@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'plaatjes sudoku generator',
+    primaryKeyword: 'sudoku met afbeeldingen generator voor KDP-boeken',
     secondaryKeywords: [
-      'printbare plaatjes sudoku maker voor Etsy verkopers',
-      'afbeelding sudoku puzzel generator voor KDP uitgevers',
-      'plaatjes sudoku werkblad maker commerciële licentie Gumroad',
-      'sudoku puzzel werkbladen verkopen op Gumroad',
+      'sudoku puzzels met plaatjes maken KDP',
+      'sudokuboeken voor kinderen Amazon KDP',
+      'afbeelding-sudoku generator commerciële licentie',
+      'sudoku werkbladen verkopen Etsy',
     ],
     lsiKeywords: [
       'digitale sudoku printables online bedrijf',
       'commercieel gebruik plaatjes puzzel generator',
       'printbare logica puzzel business tools',
     ],
-    titleTag: 'Plaatjes Sudoku Generator | Maak & Verkoop Werkbladen',
+    titleTag: 'Sudoku met afbeeldingen voor KDP | LessonCraftStudio',
     metaDescription:
-      'Maak plaatjes sudoku werkbladen om te verkopen op Etsy, KDP & Gumroad. 4×4 raster, drie moeilijkheidsniveaus, automatisch antwoordblad, 104 thema\'s.',
+      'Maak sudoku-puzzels met afbeeldingen voor KDP-boeken en Etsy. Verschillende rastergroottes, thema\'s, antwoorden. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Plaatjes Sudoku Werkblad Generator voor 4×4 Logica Puzzels met Afbeeldingen',
+    title: 'Genereer sudoku met afbeeldingen voor KDP-boeken en Etsy-shop',
     tagline:
-      'Puur visuele 4×4 sudoku puzzels met afbeeldingen in plaats van cijfers — drie moeilijkheidsniveaus van 4 tot 8 lege cellen, automatisch gegenereerde antwoordbladen met volledig ingevulde rasters, en themagebonden beeldselectie uit 104 collecties voor puzzels die wereldwijd verkopen zonder vertaling.',
+      'Maak unieke sudoku-puzzels met plaatjes in plaats van cijfers — gratis proefversie met watermerk, commerciële licentie voor verkoop op alle platforms.',
     description:
-      'Maak professionele 4×4 plaatjes sudoku werkbladen waarbij gebruikers lege cellen invullen met de juiste afbeeldingen op basis van rij-en-kolom logica. Elke puzzel gebruikt precies 4 unieke afbeeldingen die elk exact één keer in elke rij en één keer in elke kolom moeten voorkomen — dezelfde regels als klassieke sudoku, maar met kleurrijke illustraties in plaats van cijfers. Kies uit drie moeilijkheidsniveaus: Makkelijk verwijdert 4 cellen, Gemiddeld verwijdert 6, en Moeilijk verwijdert 8 — de helft van het raster. Selecteer afbeeldingen via themagebonden automatische selectie die willekeurig 4 afbeeldingen kiest uit een van de 104 thematische collecties, of selecteer handmatig precies 4 afbeeldingen uit de bibliotheek, zoekfunctie of je eigen uploads. Het premium rasterontwerp bevat afwisselende 2×2 blokkleuren in lichtblauw en lichtroos, meerlaagse schaduwen en een indigo buitenkader met afgeronde hoeken. Elke puzzel bevat een automatisch gegenereerde "Plaatjes Sudoku" koptekst gelokaliseerd in alle 11 talen en een dubbel canvasantwoordblad met het volledig ingevulde raster met alle 16 cellen gevuld. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Omdat plaatjes sudoku volledig visueel is — er verschijnen geen woorden op het puzzelraster — werkt elk werkblad identiek in alle 11 talen, waardoor je producten wereldwijd verkoopbaar zijn zonder enige aanpassing. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Of je nu thematische sudoku-bundels verkoopt op Etsy.nl, logica-werkboeken samenstelt voor Amazon KDP, of redeneeractiviteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Sudoku met Afbeeldingen Generator maakt u professionele puzzelwerkbladen voor uw KDP-activiteitenboeken en Etsy-winkel. In plaats van traditionele cijfers gebruikt elke puzzel kleurrijke thematische illustraties, waardoor de sudoku\'s perfect geschikt zijn voor jonge kinderen die nog niet met getallen werken. Kies uit drie moeilijkheidsniveaus — Makkelijk, Gemiddeld en Moeilijk — en selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties. Omdat de puzzels puur visueel zijn, verkoopt u hetzelfde product wereldwijd zonder vertaalkosten. Elk werkblad genereert automatisch een antwoordblad, wat u uren bespaart bij het samenstellen van puzzelbundels. Het premium rasterontwerp met afwisselende blokkleuren en meerlaagse schaduwen onderscheidt uw producten van basale concurrenten op de markt. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten — direct klaar voor Amazon KDP-binnenwerken of digitale downloads op Etsy.nl. Nederlandse uitgevers kunnen ook publiceren via Brave New Books voor de lokale markt. De commerciële licentie verleent volledige verkooprechten op alle platforms. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Plaatjes Sudoku Werkbladen in 5 Stappen',
+    title: 'Zo maakt u sudoku met afbeeldingen voor verkoop in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Plaatjes Sudoku Generator',
+    title: 'Functies die uw sudoku-puzzels verkoopklaar maken',
     features: [
       {
         title: '4×4 Plaatjes Sudoku met Afbeeldingen in Plaats van Cijfers',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Plaatjes Sudoku Werkbladen Online Verkoopt',
+    title: 'Verdien met sudoku-puzzelboeken op KDP, Etsy en Bol.com',
     cases: [
       {
         title: 'Thematische Plaatjes Sudoku Bundels op Etsy',
@@ -206,58 +206,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'ontbrekende-puzzelstukjes-werkbladen',
-      anchorText: 'Ontbrekende Stukjes Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'welke-hoort-niet-bij-werkbladen',
-      anchorText: 'Welke Hoort Er Niet Bij Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'doolhof-werkbladen',
-      anchorText: 'Doolhof Werkblad Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patronen-werkbladen',
-      anchorText: 'Patronen Werkblad Generator',
+      anchorText: 'Rekenpuzzels maken en verkopen als printables',
     },
     {
       pageType: 'bundle',
       slug: 'puzzels-logica-pakket',
-      anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Pakket',
+      anchorText: 'Puzzels & Logica Pakket — alle puzzel-apps in één bundel',
     },
     {
       pageType: 'guide',
       slug: 'sudoku-boeken-kdp',
-      anchorText: 'Hoe Je Sudoku Boeken Maakt en Verkoopt op Amazon KDP',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
-    },
-    {
-      pageType: 'guide',
-      slug: 'plaatjes-sudoku-maken',
-      anchorText: 'Plaatjes sudoku voor kinderen maken',
+      anchorText: 'Gids: sudokuboeken maken en verkopen op Amazon KDP',
     },
   ],
 

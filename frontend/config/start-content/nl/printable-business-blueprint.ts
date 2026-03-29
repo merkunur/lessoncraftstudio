@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printable bedrijfsideeën',
+    primaryKeyword: 'stappenplan printables-business',
     secondaryKeywords: [
-      'printable bedrijf blauwdruk',
-      'printable bedrijfsplan voor verkopers',
-      'winstgevende printable product ideeën',
-      'een printable productlijn starten',
+      'printable bedrijf blauwdruk Nederland',
+      'printable bedrijfsplan voor Etsy verkopers',
+      'winstgevende printable productlijn plannen',
+      'printable business starten stappenplan',
     ],
     lsiKeywords: [
-      'Etsy printable winkel planning',
-      'Amazon KDP productstrategie',
-      'werkblad bedrijf omzetdoelen',
-      'printable catalogus uitbreiding',
-      'productlijn mapping voor verkopers',
-      'printable bedrijf lancering checklist',
+      'Etsy printable winkel planning Nederland',
+      'Amazon KDP productstrategie stappenplan',
+      'werkblad bedrijf omzetdoelen plannen',
+      'printable catalogus uitbreiding strategie',
+      'productlijn mapping voor printable verkopers',
+      'printable bedrijf lancering checklist 2026',
     ],
-    titleTag: 'Printable Bedrijfsideeën — Blauwdruk naar Inkomen',
-    metaDescription: 'Zet printable bedrijfsideeën om in een gestructureerde blauwdruk. Plan je productlijn, kies platforms, stel prijzen vast en lanceer met werkblad generators.',
+    titleTag: 'Stappenplan: printables-business | LessonCraftStudio',
+    metaDescription: 'Zet uw printable idee om in een gestructureerd stappenplan. Plan uw productlijn, kies platforms als Etsy, KDP of Bol.com, en lanceer met generators.',
   },
 
   hero: {
-    title: 'De Printable Bedrijf Blauwdruk: Van Idee naar Inkomen',
-    tagline: 'Een gestructureerd plan dat verspreide printable bedrijfsideeën omzet in een gerichte, omzetgenererende productlijn',
-    description: 'De meeste printable bedrijven falen niet omdat de verkoper ideeën miste, maar omdat ze een plan misten. Deze blauwdruk leidt je door elke planningsfase: het valideren van je printable bedrijfsidee, het in kaart brengen van je productlijn, het kiezen van de juiste platforms, het stellen van realistische omzetdoelen en het lanceren met een helder actieplan. Of je nu vanaf nul begint of een onderpresterende winkel herstructureert, deze gids geeft je het strategische raamwerk dat verkopers die duurzaam inkomen opbouwen scheidt van degenen die willekeurige producten maken en het beste hopen.',
+    title: 'Van idee naar inkomen: uw printable stappenplan',
+    tagline: 'Een gestructureerd plan dat verspreide ideeën omzet in een gerichte productlijn',
+    description: 'De meeste printable bedrijven falen niet door gebrek aan ideeën, maar door gebrek aan een plan. Dit stappenplan leidt u door elke planningsfase: het valideren van uw printable bedrijfsidee, het in kaart brengen van uw productlijn, het kiezen van de juiste platforms zoals Etsy, Amazon KDP of Bol.com, het stellen van realistische omzetdoelen en het lanceren met een helder actieplan. Als ZZP\'er in Nederland profiteert u van lage opstartkosten en de Kleinondernemersregeling bij een omzet onder 20.000 euro per jaar. Of u nu vanaf nul begint of een onderpresterende winkel herstructureert, deze gids geeft u het strategische raamwerk dat verkopers die duurzaam inkomen opbouwen scheidt van degenen die willekeurige producten maken en het beste hopen.',
   },
 
   introduction: 'Het internet staat vol printable bedrijfsideeën. Blader door elk ondernemersforum en je vindt lijsten met "50 printables die je vandaag kunt verkopen" of "beste digitale producten voor Etsy." De ideeën zijn niet het probleem. Het probleem is dat de meeste verkopers de planningsfase volledig overslaan.\n\nZe kiezen een willekeurig idee, maken een handvol producten, vermelden ze op Etsy en vragen zich af waarom er na twee weken niets verkoopt. Dan kiezen ze een ander idee en herhalen dezelfde cyclus. Zes maanden later hebben ze een verspreide winkel met 15 ongerelateerde producten, geen duidelijk merk en nul momentum.\n\nDe verkopers die echt inkomen opbouwen met printables pakken het anders aan. Ze beginnen met een blauwdruk — een gestructureerd plan dat hun niche, productlijn, platformstrategie, prijzen en groeimijlpalen in kaart brengt voordat ze een enkel product maken. Dat plan hoeft niet complex te zijn, maar het moet wél bestaan.\n\nDeze gids is die blauwdruk. Aan het eind heb je een concreet plan dat je eerste 50 producten dekt, je platformstrategie, je prijsstructuur en je 90-dagen lanceringstijdlijn. Elke werkblad generator die wordt genoemd biedt een gratis proefversie met watermerk, zodat je productcreatie kunt testen als onderdeel van je planningsproces zonder enige voorafgaande kosten.',
@@ -207,17 +207,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Probeer de Rekenpuzzel Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaten Maker' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids printables-business starten' },
+    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Werkbladen maken die verkopen' },
+    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Hoeveel verdienen met printables' },
   ],
 
   visuals: {

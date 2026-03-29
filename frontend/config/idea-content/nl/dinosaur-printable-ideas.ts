@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaurus Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende dinosaurus printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Productconcepten, platformstrategieën en nichetips voor verkopers.',
+    titleTag: 'Printables dinosaurussen — Business | LessonCraftStudio',
+    metaDescription: 'Start een printable business met dinosaurussen. Productideeën voor werkbladen met T-Rex, triceratops en stegosaurus die jaarrond verkopen.',
 
-    primaryKeyword: 'dinosaurus printable ideeën',
+    primaryKeyword: 'printables dinosaurussen ideeën business',
     secondaryKeywords: [
-      'dinosaurus werkbladen verkopen',
-      'dinosaurusthema printable business',
-      'dinosaurus activiteiten voor verkopers',
-      'dinosaurus printables verkopen op Etsy',
+      'dinosaurus werkbladen Etsy verkopen',
+      'dinosaurusthema printable business starten',
+      'prehistorische activiteitenboeken KDP',
+      'dino printables niche voor verkopers',
     ],
     lsiKeywords: [
-      'prehistorische educatieve werkbladen',
-      'paleontologie activiteiten voor kinderen',
-      'Jura-thema printbare producten printables',
+      'paleontologie werkbladen maken',
+      'dinosaurus kleurplaten verkopen online',
+      'Jura-thema printbare producten Etsy',
     ],
   },
   hero: {
-    title: 'Dinosaurus Printable Businessideeën voor Verkopers',
-    description: 'Dinosaurussen boeien kinderen als weinig andere onderwerpen. De combinatie van enorme wezens, mysterieuze uitsterving en eindeloze soortenvariatie creëert een fascinatie die zorgt voor consistente vraag naar educatieve producten met dinosaurusthema. Voor printable-verkopers vertaalt dit zich in een niche met krachtige emotionele aantrekkingskracht, sterke interesse van ouders en verkopers, en jaarrond koopgedrag. In tegenstelling tot seizoensgebonden thema\'s die na enkele weken vervagen, houdt het enthousiasme voor dinosaurussen aan in elke maand van het jaar. Of je nu verkoopt op Etsy, Amazon KDP of Gumroad, dinosaurus printables bieden aanzienlijke ruimte voor productgetrapte productpakketten dankzij de enorme diversiteit aan soorten, tijdperken en leerhoeken. Deze gids behandelt specifieke productideeën, platformspecifieke strategieën en praktische benaderingen voor het opbouwen van een winstgevende productlijn met dinosaurusthema met onze werkblad-generator tools. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Start uw printable business met dinosaurussen',
+    description: 'Dinosaurussen boeien kinderen als weinig andere thema\'s. De combinatie van enorme wezens, mysterieuze uitsterving en eindeloze soortenvariatie zorgt voor consistente vraag het hele jaar door. Voor printable-ondernemers op Etsy, Amazon KDP en Gumroad vertaalt dit zich in een niche met krachtige emotionele aantrekkingskracht en jaarrond koopgedrag zonder seizoensgebonden dalen. De enorme diversiteit aan soorten van T-Rex tot triceratops biedt u vrijwel onbeperkte mogelijkheden voor productbundeling en nicheuitbreiding. Of u nu telwerkbladen, woordzoekers of complete dinopakketten maakt — dit thema levert betrouwbare omzet op alle platforms. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De niche van dinosaurus printables gedijt op een eenvoudige waarheid: kinderen zijn geobsedeerd door dinosaurussen. Deze obsessie overschrijdt genderlijnen, culturele grenzen en leeftijdsgroepen op manieren die weinig andere thema\'s bereiken. Ouders herkennen deze passie en zoeken actief naar educatief materiaal dat het dinosaurusenthousiasme kanalisert in productief leren. verkopers benutten de dinosaurusfascinatie om woordenschat, tellen, wetenschapsconcepten en leesvaardigheden te onderwijzen, wetende dat de betrokkenheidsniveaus pieken wanneer prehistorische wezens erbij betrokken zijn.
 
@@ -149,19 +149,19 @@ Vanuit het oogpunt van productvariatie ondersteunt de dinosaurusniche een ongewo
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoekers met dinosaurusvocabulaire',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Dinosaurus kleurplaten generator',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor verkopers',
     },
     {
       pageType: 'guide',

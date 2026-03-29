@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schaduw koppelen werkblad generator',
+    primaryKeyword: 'gratis schaduwwerkbladen generator',
     secondaryKeywords: [
-      'schaduw koppelen werkblad maker voor verkopers',
-      'silhouet koppelwerkbladen maken om te verkopen',
-      'printbare schaduwpuzzel generator commercieel gebruik',
-      'schaduw matching werkblad maker voor KDP en Etsy',
+      'schaduw koppelen werkbladen online maken gratis',
+      'silhouet koppelwerkblad generator',
+      'printbare schaduwpuzzel maker met antwoordblad',
+      'schaduw matching werkblad tool online',
     ],
     lsiKeywords: [
-      'dubbele-modus silhouet en gesplitste-afbeelding koppel tool',
-      'pixelniveau schaduwgeneratie derangement algoritme maker',
-      'automatisch antwoordblad schaduwpuzzel werkblad generator',
+      'pixelniveau silhouet werkblad maker gratis',
+      'gesplitste-afbeelding koppelpuzzel generator',
+      'automatisch antwoordblad schaduwpuzzel tool',
     ],
-    titleTag: 'Schaduw Koppelen Maker — Schaduw Matching Werkblad Generator',
-    metaDescription: 'Maak schaduw koppelen werkbladen met pixelniveau silhouetten en Maak het Compleet beeldsplitsing, automatische antwoordbladen, 104 thema\'s.',
+    titleTag: 'Schaduwwerkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis schaduwwerkbladen online met pixelniveau silhouetten, Maak het Compleet modus en automatische antwoordbladen. Probeer nu zonder account.',
   },
 
   hero: {
-    title: 'Schaduw Koppelen Maker',
-    tagline: 'Dubbele-modus schaduw koppelen werkblad generator met pixelniveau silhouetcreatie, Maak het Compleet gesplitste-afbeelding helften met horizontale en verticale snijrichting, Fisher-Yates derangement dat triviale koppelingen garandeert uitsluit, automatisch gegenereerde antwoordbladen met letter-naar-nummer-labels, schakelbare A/B/C/D en 1/2/3/4 identificatoren, en 104 thematische beeldcollecties voor schaduw koppelen werkbladen die wereldwijd verkopen',
-    description: 'Maak professionele schaduw koppelen werkbladen met twee verschillende oefenmodi in één generator. Schaduw Koppelen-modus plaatst 4 gekleurde afbeeldingen gelabeld A, B, C, D in de bovenste rij en 4 automatisch gegenereerde zwarte silhouetten gelabeld 1, 2, 3, 4 in de onderste rij — silhouetten worden gemaakt door pixelniveau beeldverwerking die elke pixel met alpha > 10 omzet naar puur zwart (R=0, G=0, B=0, A=255), waardoor nauwkeurige omtrekken ontstaan die het exacte transparantieprofiel van elke afbeelding behouden. Dit is echte pixelverwerking, geen CSS-filters of vooraf gemaakte schaduwafbeeldingen. Maak het Compleet-modus splitst 4 afbeeldingen in helften — kies horizontale snijrichting (boven/onder helften) of verticale snijrichting (links/rechts helften) — labelt eerste helften A–D en tweede helften 1–4, en gebruikers voegen de stukken weer samen om elk plaatje te completeren. Beide modi gebruiken een Fisher-Yates derangement-algoritme dat garandeert dat geen enkel item op zijn oorspronkelijke positie verschijnt, waardoor triviale koppelingen worden uitgesloten en elk werkblad een echte koppeluitdaging presenteert. Het derangement herberekent bij elke generatie, waardoor verschillende schikkingen vanuit dezelfde afbeeldingenset ontstaan. Schakel labels tonen/verbergen in voor de A/B/C/D en 1/2/3/4 identificatoren — labels AAN biedt letter-nummer steun voor jongere gebruikers, labels UIT creëert een puur visuele koppeluitdaging ideaal voor puzzelboeken en gevorderde activiteiten. Voeg optionele naam- en datumvelden toe voor gebruikerverantwoording. Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd — het antwoordblad toont elke correcte letter-naar-nummer-koppeling (A → 2, B → 4, etc.) naast de originele afbeeldingen en hun silhouetten of complete afbeeldingen, zodat je nooit handmatig antwoordbladen maakt. De indeling past zich automatisch aan: liggende pagina\'s rangschikken items in 2 rijen × 4 items, staande pagina\'s gebruiken 2 kolommen × 4 items. Een gestileerde koptekst verschijnt met een amberkleurige achtergrond (#FFC107), witte pilcontainer en 3px amberen kaderlijn met "Schaduw Koppelen" en instructies in de geselecteerde taal. Schaduw Koppelen is NIET taalgevoelig — de puzzeluitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf, waardoor elk werkblad universeel verkoopbaar is over alle markten zonder vertaling. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload je eigen PNG-, JPG- of GIF-afbeeldingen. Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties en tekstomlijning 0–10. Exporteer vier bestanden per sessie: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — allemaal op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0). Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis schaduw koppelen werkbladen maken',
+    tagline: 'Dubbele-modus schaduwwerkblad generator met pixelniveau silhouetten, Maak het Compleet beeldsplitsing en automatische antwoordbladen',
+    description: 'Met onze gratis schaduwwerkbladen generator maakt u direct professionele schaduw koppelen activiteiten. Kies uit twee modi: Schaduw Koppelen plaatst gekleurde afbeeldingen naast automatisch gegenereerde zwarte silhouetten die kinderen aan elkaar koppelen. Maak het Compleet splitst afbeeldingen in helften die kinderen weer samenvoegen. De silhouetten worden gemaakt via echte pixelverwerking — geen vooraf gemaakte schaduwafbeeldingen. Elke generatie produceert een unieke schikking dankzij het derangement-algoritme dat triviale koppelingen uitsluit. Schakel labels aan voor letter-nummer steun bij jongere kinderen of uit voor een puur visuele uitdaging. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Het automatisch gegenereerde antwoordblad toont elke correcte koppeling. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Schaduw Koppelen Werkbladen Maken in 8 Stappen',
+    title: 'Hoe maakt u gratis schaduwwerkbladen online?',
     steps: [
       {
         title: 'Open de Schaduw Koppelen Maker',
@@ -205,7 +205,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Schaduw Koppelen Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Plaatjesbingo Maker' },

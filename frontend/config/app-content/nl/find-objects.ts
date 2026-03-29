@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'zoek voorwerpen werkblad generator',
+    primaryKeyword: 'zoek en vind werkbladen maken voor Etsy en KDP',
     secondaryKeywords: [
-      'printbare verborgen voorwerp werkblad maker voor Etsy verkopers',
-      'zoek voorwerpen activiteit generator voor KDP uitgevers',
-      'vind de verborgen voorwerpen werkblad maker met commerciële licentie',
-      'vind de vreemde eend werkbladen verkopen op Gumroad',
+      'zoek-en-vind generator voor printables-business',
+      'verborgen voorwerpen werkbladen voor KDP',
+      'zoek de afbeelding werkbladen commerciële licentie',
+      'zoekactiviteiten verkopen',
     ],
     lsiKeywords: [
       'digitale verborgen voorwerp printables online bedrijf',
       'commercieel gebruik zoek voorwerpen werkblad generator',
       'printbare visuele zoekactiviteit business tools',
     ],
-    titleTag: 'Zoek Voorwerpen Generator | Verborgen Voorwerp Werkbladen',
+    titleTag: 'Zoek en vind werkbladen voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak verborgen voorwerp werkbladen om te verkopen op Etsy, KDP & Gumroad. Vind de Verborgen Voorwerpen en Vind de Vreemde Eend modi, nul-overlap plaatsing.',
+      'Maak zoek-en-vind werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken verborgen voorwerpen tussen thema-afbeeldingen. Gratis proefversie.',
   },
 
   hero: {
-    title: 'Zoek Voorwerpen Werkblad Generator voor Vind de Verborgen Voorwerpen en Vind de Vreemde Eend Activiteiten',
+    title: 'Maak zoek-en-vind werkbladen om te verkopen op Etsy, KDP en Bol.com',
     tagline:
-      'Twee activiteitsmodi in één generator — Vind de Verborgen Voorwerpen met nul-overlap plaatsingsalgoritme voor vrij verspreide zoekscènes en Vind de Vreemde Eend met gekoppelde afbeeldingen in rijen — met automatisch gegenereerde antwoordbladen met rode cirkels, adaptieve afbeeldingsgrootte, naam- en datumvelden, en een legenda die toont welke objecten je moet vinden.',
+      'Twee activiteitsmodi — Vind de Verborgen Voorwerpen en Vind de Vreemde Eend — met nul-overlap plaatsing en automatische antwoordbladen. Gratis proefversie met watermerk.',
     description:
-      'Maak professionele verborgen voorwerp werkbladen waarbij gebruikers een vrij verspreide afbeeldingenscène doorzoeken om specifieke objecten te vinden en te omcirkelen. Kies tussen twee activiteitsmodi: Vind de Verborgen Voorwerpen modus (standaard) gebruikt een nul-overlap plaatsingsalgoritme om 1–5 verborgen doelafbeeldingen te verspreiden tussen 8–12 afleidingsafbeeldingen over de pagina — geen raster, geen rijen en kolommen, maar een samenhangende visuele scène gegenereerd door het findBestPosition()-algoritme dat 50 willekeurige posities per afbeelding probeert en adaptief de afbeeldingsgrootte verkleint wanneer de ruimte krap wordt. Een legenda onderaan het werkblad toont gebruikers precies welke objecten ze moeten vinden. Vind de Vreemde Eend modus rangschikt 8–12 gekoppelde afbeeldingen in rijen met 1–5 ongekoppelde items ertussen — gebruikers identificeren de afbeeldingen die geen partner hebben. Afbeeldingen in Vind de Vreemde Eend modus worden 50% groter weergegeven dan in Vind de Verborgen Voorwerpen modus voor duidelijkere visuele vergelijking. Het dubbele canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad — het antwoordblad tekent rode cirkels rond verborgen objecten (Vind de Verborgen Voorwerpen) of ongekoppelde items (Vind de Vreemde Eend), 3–5px groter dan het object voor duidelijke zichtbaarheid, zodat je ze nooit handmatig hoeft te markeren. De Zoek Voorwerpen Generator is puur visueel: taalinstellingen beïnvloeden UI-labels maar NIET de werkbladinhoud, dus elk werkblad werkt universeel in elke taal zonder gelokaliseerde tekst op de pagina. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, schakel naam- en datumvelden in of uit, pas de automatisch schaalbare koptekst aan met 6 lettertypekeuzes, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu verborgen voorwerp activiteitenbundels verkoopt op Etsy.nl, Vind de Verborgen Voorwerpen werkboeken samenstelt voor Amazon KDP, of visuele discriminatieactiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Zoek Voorwerpen Generator maakt u professionele verborgen voorwerp werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Jonge kinderen doorzoeken een vrij verspreide afbeeldingenscene om specifieke objecten te vinden en te omcirkelen. U kiest uit twee activiteitsmodi: Vind de Verborgen Voorwerpen verspreidt doelafbeeldingen tussen afleidingsafbeeldingen met een nul-overlap plaatsingsalgoritme voor natuurlijk ogende scenes. Vind de Vreemde Eend rangschikt gekoppelde afbeeldingen in rijen met ongekoppelde items ertussen. Het dubbele canvassysteem genereert automatisch een antwoordblad met rode cirkels. Selecteer uit meer dan 3100 illustraties in 104 thema\'s. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Werkbladen zijn puur visueel en werken in elke taal zonder aanpassing. De Nederlandse markt op Etsy.nl en Bol.com biedt sterke vraag naar zoek-en-vind activiteiten voor kleuters en basisschoolkinderen. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Verborgen Voorwerp Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u zoek-en-vind werkbladen om te verkopen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Zoek Voorwerpen Werkblad Generator',
+    title: 'Functies van de zoek-en-vind generator voor Etsy- en KDP-verkopers',
     features: [
       {
         title: 'Twee Activiteitsmodi: Vind de Verborgen Voorwerpen en Vind de Vreemde Eend',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Verborgen Voorwerp Werkbladen Online Verkoopt',
+    title: 'Zoek-en-vind werkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Thematische Verborgen Voorwerp Activiteitenbundels op Etsy',
@@ -207,57 +207,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Zoek en Tel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kruiswoordpuzzel-werkbladen',
-      anchorText: 'Kruiswoordpuzzel Werkblad Generator',
+      anchorText: 'Zoek en tel werkbladen generator',
     },
     {
       pageType: 'app',
       slug: 'schattenjacht-werkbladen',
-      anchorText: 'Schattenjacht Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sorteer-werkbladen',
-      anchorText: 'Sorteer Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'verbindings-werkbladen',
-      anchorText: 'Verbindings Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'welke-hoort-niet-bij-werkbladen',
-      anchorText: 'Welke Hoort Niet Bij Werkblad Generator',
+      anchorText: 'Schattenjacht werkbladen generator',
     },
     {
       pageType: 'bundle',
       slug: 'zoeken-vinden-pakket',
-      anchorText: 'Zoeken & Vinden Pakket — Alle Zoek-Apps in Één Pakket',
-    },
-    {
-      pageType: 'guide',
-      slug: 'zoek-voorwerpen-werkbladen-maken',
-      anchorText: 'Hoe Je Zoek Voorwerpen Werkbladen Maakt die Verkopen',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kamperen-printable-ideen',
-      anchorText: 'Camping printable ideeën voor buitenonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zeedieren-printable-ideen',
-      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-bedrijf',
-      anchorText: 'Marketing voor je printable bedrijf',
+      anchorText: 'Zoeken & Vinden Pakket — alle zoek-apps in één pakket',
     },
   ],
 

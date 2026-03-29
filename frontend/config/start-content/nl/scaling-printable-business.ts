@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printable bedrijf opschalen',
+    primaryKeyword: 'van bijverdienste naar voltijds printables-business',
     secondaryKeywords: [
-      'printable bedrijf voltijds laten groeien',
-      'etsy printable winkel opschalen',
-      'uitbreidingsstrategie printable bedrijf',
-      'bijverdienste naar voltijds printables',
+      'printable bedrijf opschalen strategie',
+      'Etsy printable winkel opschalen Nederland',
+      'uitbreidingsstrategie printables-business',
+      'voltijds printables verkopen als ZZP\'er',
     ],
     lsiKeywords: [
       'catalogusuitbreiding voor printable verkopers',
-      'multiplatform distributie voor werkbladen',
+      'multiplatform distributie werkbladen Etsy KDP',
       'bundelstrategie voor digitale downloads',
       'productie workflow optimalisatie printables',
-      'meertalige marktuitbreiding printables',
-      'herinvesteringsstrategie voor printable bedrijf',
+      'meertalige marktuitbreiding printables NL',
+      'herinvesteringsstrategie printable bedrijf ZZP',
     ],
-    titleTag: 'Printable Bedrijf Opschalen — Bijverdienste naar Voltijds',
-    metaDescription: 'Hoe je je printable bedrijf opschaalt van bijverdienste naar voltijds. Catalogusuitbreiding, multiplatform distributie, bundeling en workflow-automatisering.',
+    titleTag: 'Van bijverdienste naar voltijds | LessonCraftStudio',
+    metaDescription: 'Hoe u uw printables-business opschaalt van bijverdienste naar voltijds. Catalogusuitbreiding, multiplatform distributie en meertalige marktuitbreiding.',
   },
 
   hero: {
-    title: 'Van Bijverdienste naar Voltijds Printable Bedrijf Opschalen',
-    tagline: 'Strategisch groeiraamwerk voor printable verkopers — van catalogusuitbreiding en multiplatform distributie tot bundelstrategie en workflow-optimalisatie, het operationele draaiboek om voorbij een bijproject te groeien',
-    description: 'Een printable bedrijf starten en een printable bedrijf opschalen vereisen fundamenteel verschillende vaardigheden. De creativiteit en het enthousiasme waarmee je je eerste producten lanceert maken plaats voor systeemdenken, datagestuurde beslissingen en productiediscipline naarmate je groeit. Deze gids biedt een concreet raamwerk voor elke groeifase: van je eerste 25 vermeldingen tot catalogusvolwassenheid bij 300 of meer producten. Je leert hoe je je catalogus systematisch uitbreidt, over meerdere platforms distribueert, producten bundelt voor een hogere gemiddelde bestelwaarde, je productie-workflow optimaliseert en uitbreidt naar meertalige markten. Elke strategie is direct verbonden met de werkbladgeneratoren die beschikbaar zijn via de gratis proefversie met watermerk, zodat je opschalingstactieken kunt implementeren terwijl je ze leest.',
+    title: 'Van bijverdienste naar voltijds printable ondernemer',
+    tagline: 'Strategisch groeiraamwerk van 25 vermeldingen tot catalogusvolwassenheid',
+    description: 'Een printable bedrijf starten en een printable bedrijf opschalen vereisen fundamenteel verschillende vaardigheden. Deze gids biedt een concreet raamwerk voor elke groeifase: van uw eerste 25 vermeldingen tot catalogusvolwassenheid bij 300 of meer producten. U leert hoe u uw catalogus systematisch uitbreidt, over meerdere platforms distribueert inclusief Etsy, Amazon KDP en Bol.com, producten bundelt voor een hogere gemiddelde bestelwaarde, en uitbreidt naar meertalige markten. Nederlandse verkopers die de stap naar voltijds overwegen profiteren van de ZZP-voordelen: de zelfstandigenaftrek, startersaftrek en MKB-winstvrijstelling maken de overgang financieel aantrekkelijker. Elke strategie is direct verbonden met de werkbladgeneratoren die beschikbaar zijn via de gratis proefversie met watermerk.',
   },
 
   introduction: 'De meeste printable verkopers bereiken een plateau. Ze openen een winkel, plaatsen hun eerste dozijn producten, genereren wat initiële verkoop en kijken vervolgens toe hoe hun groei afvlakt. De reden is bijna altijd dezelfde: ze blijven startactiviteiten uitvoeren terwijl ze opschalingsactiviteiten zouden moeten doen. Een printable bedrijf starten betekent je eerste product maken en het vermeld krijgen. Een printable bedrijf opschalen betekent systemen bouwen die producten efficiënt produceren, distribueren en optimaliseren over platforms en markten heen.\n\nDe verschuiving van bijverdienste naar schaalbaar bedrijf gaat niet over meer uren werken. Het gaat over anders werken. Een bijverdienstverkoper maakt één product per sessie, vermeldt het op één platform en hoopt op verkoop. Een opschalende verkoper batchproduceert tien producten per sessie, distribueert over vier platforms, roteert seizoenszoekwoorden maandelijks en gebruikt analyses om te verdubbelen op wat converteert. Hetzelfde aantal uren, dramatisch andere output en resultaten.\n\nDeze gids biedt een op mijlpalen gebaseerd groeiraamwerk in plaats van vage aanmoediging. Elke groeifase — van initiële validatie tot voltijdse levensvatbaarheid — heeft specifieke operationele prioriteiten, verschillende uitdagingen en onderscheidende metrieken die ertoe doen. Het raamwerk is specifiek gebouwd rond printable werkbladbedrijven, met de tools en platforms die het meest relevant zijn voor deze productcategorie.\n\nOpschalen vereist ook investeringsbeslissingen. Waarin je omzet herinvesteert, en in welke volgorde, bepaalt of je bedrijf efficiënt groeit of geld verliest aan activiteiten met laag rendement. Het herinvesteringsraamwerk in deze gids geeft prioriteit aan productiecapaciteit eerst, optimalisatie als tweede en betaalde acquisitie als laatste — overeenkomend met hoe succesvolle printable bedrijven daadwerkelijk groeien. Elke aanbeveling is verbonden met tools die beschikbaar zijn via de gratis proefversie met watermerk, zodat je direct kunt beginnen met implementeren.',
@@ -207,18 +207,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'marketing-printable-bedrijf', anchorText: 'Marketing voor Je Printable Bedrijf Online' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'start', slug: 'tools-voor-printable-bedrijf', anchorText: 'Essentiële Tools voor Printable Ondernemers' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
-    { pageType: 'app', slug: 'rastertekenen-werkbladen', anchorText: 'Teken en Kleur Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Probeer de Teken en Kleur Maker' },
+    { pageType: 'start', slug: 'marketing-printable-bedrijf', anchorText: 'Printables-business promoten' },
+    { pageType: 'start', slug: 'meertalige-werkbladen-verkopen', anchorText: 'Meertalige werkbladen maken en verkopen' },
+    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Hoeveel verdienen met printables' },
   ],
 
   visuals: {

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kwaliteitsnormen werkbladen',
+    primaryKeyword: 'kwaliteitsnormen voor verkoopbare werkbladen',
     secondaryKeywords: [
-      'werkblad kwaliteit verbeteren',
-      'professionele printables maken',
-      'kwaliteitscontrole werkbladen',
-      'printable kwaliteitsstandaarden',
+      'werkblad kwaliteit verbeteren verkoop',
+      'professionele printables kwaliteitscontrole',
+      'kwaliteitsstandaarden digitale werkbladen',
+      'printable checklist voor publicatie',
     ],
     lsiKeywords: [
       'afdrukresolutie DPI instellingen marges uitlijning lettertype leesbaarheid',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'beoordelingen kopervertrouwen productiechecklist kwaliteitsborging',
       'correctielezen dubbelcontrole eindafwerking voorpublicatie verificatie printtest',
     ],
-    titleTag: 'Kwaliteitsnormen voor Werkbladen — Verkopersgids',
-    metaDescription: 'Kwaliteitsnormen die werkbladverkopers nodig hebben voor professionele uitvoer. Behandelt resolutie, marges, typografie, antwoordsleutels en printtests.',
+    titleTag: 'Kwaliteitsnormen voor werkbladen | LessonCraftStudio',
+    metaDescription: 'Kwaliteitsnormen voor verkoopbare werkbladen: resolutie, marges, typografie, antwoordsleutels en printtests. Complete checklist voor professionele uitvoer.',
   },
 
   hero: {
-    title: 'Kwaliteitsnormen voor Professionele Werkbladen',
+    title: 'Kwaliteitsnormen voor verkoopbare werkbladen',
     tagline: 'Een complete gids voor kwaliteitsnormen die werkbladverkopers nodig hebben voor professionele uitvoer — met resolutie- en bestandsformaatstandaarden, paginalay-out en marge-eisen, typografie en leesbaarheidsregels, kleur- en visuele consistentie, antwoordsleutelverificatie, voorpublicatie kwaliteitscontrolechecklists, cross-printer testen en catalogusbrede kwaliteitshandhaving',
-    description: 'Kwaliteit is de enige factor die werkbladverkopers met duurzame bedrijven onderscheidt van verkopers die worstelen met slechte beoordelingen, terugbetalingsverzoeken en dalende verkoopcijfers. Een werkblad dat er professioneel uitziet op het scherm maar afdrukt met afgesneden marges, wazige tekst of verkeerd uitgelijnde elementen creëert een negatieve koperservaring die je winkelreputatie permanent beschadigt. Deze gids biedt een complete kwaliteitsnormenchecklist specifiek ontworpen voor verkopers van printbare werkbladen — van resolutie- en opmaakstandaarden tot typografie, antwoordsleutelnauwkeurigheid, printtesten en het handhaven van kwaliteit naarmate je catalogus groeit. Met de werkbladgeneratoren van LessonCraftStudio kun je professionele werkbladen maken als gratis proefversie met watermerk om je workflow te testen voordat je investeert in een volledige licentie.',
+    description: 'Kwaliteit is de enige factor die werkbladverkopers met duurzame bedrijven onderscheidt van verkopers die worstelen met slechte beoordelingen, terugbetalingsverzoeken en dalende verkoopcijfers. Een werkblad dat er professioneel uitziet op het scherm maar afdrukt met afgesneden marges, wazige tekst of verkeerd uitgelijnde elementen creëert een negatieve koperservaring die uw winkelreputatie permanent beschadigt. Deze gids biedt een complete kwaliteitsnormenchecklist specifiek ontworpen voor verkopers van printbare werkbladen — van resolutie- en opmaakstandaarden tot typografie, antwoordsleutelnauwkeurigheid, printtesten en het handhaven van kwaliteit naarmate uw catalogus groeit. Met de werkbladgeneratoren van LessonCraftStudio kunt u professionele werkbladen maken als gratis proefversie met watermerk om uw workflow te testen voordat u investeert in een volledige licentie.',
   },
 
   introduction: 'Elk printbaar werkblad dat een koper downloadt vertegenwoordigt een belofte: dat het product correct zal afdrukken, er professioneel uit zal zien, zal functioneren zoals beschreven en de educatieve waarde zal leveren die in de vermeldingsafbeeldingen wordt getoond. Wanneer die belofte consequent wordt nagekomen, laten kopers positieve beoordelingen achter, bevelen ze de verkoper aan bij collega\'s, komen ze terug voor herhaalaankopen en betalen ze graag premiumprijzen. Wanneer de kwaliteit tekortschiet, stapelen de gevolgen zich snel op. Een enkel werkblad met verkeerd uitgelijnde marges of een foutieve antwoordsleutel genereert een negatieve beoordeling die zichtbaar is voor elke toekomstige potentiële koper. Die beoordeling verlaagt de conversieratio\'s op al je vermeldingen, niet alleen het problematische product, omdat kopers de betrouwbaarheid van verkopers beoordelen op basis van de algemene winkelfeedback.\n\nDe uitdaging voor printable-verkopers is dat kwaliteitsfouten vaak onopgemerkt blijven tijdens het creatieproces. Een werkblad dat perfect wordt weergegeven op een beeldscherm met hoge resolutie kan uitlijnproblemen onthullen wanneer het wordt afgedrukt op standaard thuisprinters. Kleuren die levendig lijken op het scherm kunnen afdrukken als troebele, vervaagde tinten op consumenteninkjetprinters. Lettergroottes die leesbaar lijken in een ontwerpprogramma worden vermoeiend wanneer ze worden afgedrukt op standaardpapier en op een normale leesafstand worden gehouden. Antwoordsleutels die correct lijken tijdens het maken kunnen fouten bevatten die pas duidelijk worden wanneer een verkoper of ouder de opgaven met een kind doorwerkt. Deze onzichtbare kwaliteitsproblemen worden pas zichtbaar nadat de koper heeft gedownload, afgedrukt en geprobeerd het product te gebruiken — op welk moment de schade aan je reputatie al is aangericht.\n\nProfessionele werkbladverkopers pakken deze kloof aan door systematische kwaliteitsnormen te implementeren die problemen opvangen voordat producten de kopers bereiken. In plaats van alleen op visuele inspectie te vertrouwen, volgen ze gedocumenteerde checklists die elke kwaliteitsdimensie verifiëren: resolutie, marges, typografie, kleurnauwkeurigheid, inhoudelijke correctheid, printcompatibiliteit en bestandsformaatcompliantie. Deze normen zijn geen willekeurige voorkeuren — het zijn specifieke, meetbare eisen die zijn afgeleid van de technische beperkingen van thuisafdrukken, de leesbaarheidseisen van verschillende leeftijdsgroepen en de bestandsformaatsverwachtingen van elk marktplaatsplatform.\n\nKwaliteitsnormen creëren ook efficiëntie naarmate je catalogus groeit. Zonder gedocumenteerde normen vereist elk nieuw product ad-hoc kwaliteitsbeslissingen: welke lettergrootte moet dit werkblad gebruiken? Hoe breed moeten de marges zijn? Welke resolutie moeten de afbeeldingen hebben? Met vastgestelde normen zijn deze beslissingen al genomen, zodat je je creatieve energie kunt richten op inhoud in plaats van herhaaldelijk technische vragen op te lossen. Normen zorgen ook voor consistentie in je productlijn, wat merkherkenning en kopervertrouwen opbouwt — klanten die één werkblad kopen en het professioneel opgemaakt vinden, verwachten dezelfde kwaliteit van elk product in je winkel.',
@@ -151,16 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Werkbladen maken met de generator' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optellen werkbladen maken' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekers maken' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten genereren' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkblad bundels samenstellen' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'Prijsstrategie voor Etsy printables' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO voor educatieve printables' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Reken activiteitenboeken voor KDP' },
+    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'recensies krijgen voor uw printable producten' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'professionele optellen-werkbladen genereren' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'woordzoekers maken met hoge kwaliteitsnormen' },
     { pageType: 'guide', slug: 'create-sell-tpt-resources', anchorText: 'Gumroad hulpbronnen maken en verkopen' },
     { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
   ],

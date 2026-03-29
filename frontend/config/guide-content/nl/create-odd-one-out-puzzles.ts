@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vreemde eend werkbladen maken',
+    primaryKeyword: 'welke hoort er niet bij maken verkopen',
     secondaryKeywords: [
-      'vreemde eend puzzels maken om te verkopen',
-      'visuele discriminatie werkblad generator',
-      'printbare vreemde eend maker commercieel gebruik',
-      'wat hoort er niet bij puzzels voor Etsy en KDP',
+      'vreemde eend werkbladen verkopen Etsy',
+      'welke hoort er niet bij puzzelboek KDP',
+      'visuele discriminatie werkbladen verkopen Bol.com',
+      'vreemde eend puzzels productlijn opbouwen',
     ],
     lsiKeywords: [
-      'dubbele modus identiek vergelijkbaar vreemde eend generator',
-      'per-oefening modus override visuele puzzels',
-      'automatische antwoordsleutel rode cirkel werkblad maker',
-      'vreemde eend werkbladen verkopen op Etsy',
-      'Amazon KDP visuele discriminatie werkboeken',
+      'vreemde eend bundels voor Etsy winkel',
+      'visuele discriminatie werkboek Brave New Books',
+      'vreemde eend generator commercieel gebruik',
+      'welke hoort er niet bij catalogus opbouwen',
       'commerciële licentie vreemde eend tool',
+      'Identiek en Vergelijkbaar modi verkopen',
     ],
-    titleTag: 'Vreemde Eend Werkbladen Maken — Gids',
-    metaDescription: 'Maak vreemde eend werkbladen met Identiek en Vergelijkbaar modi, per-oefening overrides en automatische antwoordsleutels. Stapsgewijze gids voor Etsy en KDP.',
+    titleTag: 'Welke hoort er niet bij verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u vreemde eend werkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Twee modi, per-oefening overrides en automatische antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Vreemde Eend Puzzels Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van visuele discriminatie werkbladen met twee generatiemodi, per-oefening overrides, automatisch gegenereerde antwoordsleutels met rode cirkelmarkeringen en puur visuele puzzels die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Vreemde eend puzzels behoren tot de meest universeel toegankelijke educatieve activiteiten omdat ze geen lezen, geen taalbegrip en geen rekenvaardigheden vereisen. gebruikers bekijken vier afbeeldingen en identificeren degene die er niet bij hoort. Dit puur visuele formaat maakt vreemde eend werkbladen verkoopbaar in elk land zonder vertaling. Ouders gebruiken ze voor visuele waarnemingsoefeningen thuis. verkopers gebruiken ze voor kritisch denken opwarmers en classificatie-activiteiten. Bijlesverkopers gebruiken ze voor cognitieve ontwikkelingsoefeningen. Deze gids leidt je door het volledige creatieproces met de Vreemde Eend Werkblad Generator — van het kiezen tussen Identiek en Vergelijkbaar generatiemodi tot het configureren van per-oefening overrides, genereren van automatische antwoordsleutels met rode cirkelmarkeringen en exporteren van productie-klare bestanden. Of je nu je eerste visuele puzzelproduct maakt of een bestaande werkbladcatalogus uitbreidt, aan het einde van deze handleiding heb je een afgewerkt product klaar om te vermelden.',
+    title: 'Vreemde eend puzzels maken en verkopen als product',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare visuele discriminatie werkbladen met twee modi en antwoordsleutels voor Etsy en Amazon KDP',
+    description: 'Vreemde eend puzzels behoren tot de meest universeel toegankelijke educatieve activiteiten omdat ze geen lezen, geen taalbegrip en geen rekenvaardigheden vereisen. gebruikers bekijken vier afbeeldingen en identificeren degene die er niet bij hoort. Dit puur visuele formaat maakt vreemde eend werkbladen verkoopbaar in elk land zonder vertaling. Ouders gebruiken ze voor visuele waarnemingsoefeningen thuis. verkopers gebruiken ze voor kritisch denken opwarmers en classificatie-activiteiten. Bijlesverkopers gebruiken ze voor cognitieve ontwikkelingsoefeningen. Deze gids leidt u door het volledige creatieproces met de Vreemde Eend Werkblad Generator — van het kiezen tussen Identiek en Vergelijkbaar generatiemodi tot het configureren van per-oefening overrides, genereren van automatische antwoordsleutels met rode cirkelmarkeringen en exporteren van productieklare bestanden. Of u nu uw eerste visuele puzzelproduct maakt of een bestaande werkbladcatalogus uitbreidt, aan het einde van deze handleiding hebt u een afgewerkt product klaar om te vermelden.',
   },
 
   introduction: 'Visuele discriminatie is een van de kernvaardigheden voor cognitieve ontwikkeling in de vroege kindertijd. Voordat kinderen leren lezen, moeten ze eerst leren observeren — het ene vorm van het andere onderscheiden, de ene letter van een vergelijkbare letter, het ene object van een groep. Vreemde eend puzzels trainen deze vaardigheid rechtstreeks door vier afbeeldingen te presenteren en gebruikers te vragen degene te identificeren die niet bij de anderen past. Dit maakt vreemde eend werkbladen een basisproduct met vraag van kleuterschool tot en met de basisschool.\n\nWat vreemde eend werkbladen bijzonder krachtig maakt als printbaar product is het puur visuele formaat. Anders dan woordenschatwerkbladen, begrijpend lezen pagina\'s of rekenproblemen die taalspecifieke tekst vereisen, bevatten vreemde eend puzzels alleen afbeeldingen. Vier plaatjes op een rij, drie die bij elkaar horen en één die er niet bij hoort. Geen woorden, geen cijfers, geen taalbarrière. Een werkblad dat in één sessie is gemaakt, verkoopt identiek op elke internationale marktplaats zonder vertaling of lokalisatie. Dit wereldwijde bereik zonder extra inspanning per taal is een aanzienlijk concurrentievoordeel voor verkopers.\n\nDe Vreemde Eend Werkblad Generator regelt de complexiteit van het maken van deze activiteiten via twee verschillende generatiemodi. Identiek modus plaatst drie klonen van exact dezelfde afbeelding naast één andere afbeelding uit hetzelfde thema — gebruikers herkennen de niet-duplicaat door fijne visuele details te vergelijken. Vergelijkbaar modus selecteert drie afbeeldingen uit Thema A en één afbeelding uit Thema B — gebruikers identificeren de thematische buitenstaander door categorische verschillen te herkennen. Elke modus richt zich op een andere cognitieve vaardigheid, en de per-oefening modus override laat je beide modi mixen op één werkblad voor progressieve moeilijkheid. De generator produceert automatische antwoordsleutels met rode cirkelmarkeringen geschaald naar afbeeldingsgrootte, regelt adaptieve kolomindeling voor vijf tot tien oefeningen per pagina en exporteert vier productie-klare bestanden per sessie. Jij richt je op productstrategie — welke moduscombinaties te gebruiken, welke themakoppelingen te targeten, hoe te bundelen en prijzen — terwijl de generator indeling, willekeurige volgorde en antwoordsleutelcreatie afhandelt.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeld vreemde eend werkbladen maken, beide generatiemodi testen, experimenteren met per-oefening overrides en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'odd-one-out', anchorText: 'Vreemde Eend Werkblad Generator — Volledige Details' },
-    { pageType: 'guide', slug: 'ontbrekende-stukjes-puzzels-maken', anchorText: 'Ontbrekende Stukjes Puzzels Maken' },
-    { pageType: 'tool', slug: 'odd-one-out', anchorText: 'Probeer de Vreemde Eend Werkblad Maker' },
+    { pageType: 'app', slug: 'welke-hoort-niet-bij-werkbladen', anchorText: 'Vreemde Eend Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'ontbrekende-puzzelstukjes-werkbladen', anchorText: 'Ontbrekende Stukjes Generator voor puzzelactiviteiten' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket met vreemde eend puzzels' },
   ],
 
   toolsRecommended: [

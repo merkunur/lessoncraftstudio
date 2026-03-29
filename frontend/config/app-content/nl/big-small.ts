@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'groot en klein werkbladen generator',
+    primaryKeyword: 'groot en klein werkbladen voor Etsy-shop',
     secondaryKeywords: [
-      'printbare groottevergelijking werkbladen voor Etsy-verkopers',
-      'groot klein werkbladen generator voor Amazon KDP-uitgevers',
-      'groottediscriminatie werkbladen verkopen op Gumroad',
-      'groot en klein werkbladen commerciële licentie',
+      'groot-klein vergelijken werkbladen Etsy',
+      'groottevergelijking werkbladen KDP',
+      'groot en klein commerciële licentie',
+      'vergelijkingswerkbladen verkopen',
     ],
     lsiKeywords: [
       'digitale groottevergelijking printables online bedrijf',
       'printbare visuele discriminatie werkbladen business',
       'commercieel gebruik groot klein werkbladen generator',
     ],
-    titleTag: 'Groot & Klein Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak groottevergelijking werkbladen om te verkopen op Etsy, KDP en Gumroad. Vijf vraagtypen, identieke en verschillende modi, 104 thema\'s.',
+    titleTag: 'Groot en klein werkbladen voor Etsy | LessonCraftStudio',
+    metaDescription: 'Maak groot en klein werkbladen om te verkopen op Etsy en Amazon KDP. Vijf vraagtypen, identieke en verschillende modi. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Groot & Klein Werkbladen Generator voor Groottevergelijking Oefeningen',
-    tagline: 'Vijf vraagtypen — omcirkel de grote, omcirkel de kleine, omcirkel de middelste, nummeren oplopend, nummeren aflopend — met identieke en verschillende afbeeldingsmodi voor visuele groottediscriminatie.',
+    title: 'Groot en klein werkbladen maken voor uw Etsy-shop',
+    tagline: 'Gratis proefversie met watermerk — vijf vraagtypen met identieke en verschillende afbeeldingsmodi voor groottevergelijking oefeningen die zich uitstekend verkopen.',
     description:
-      'Ontwerp professionele groottevergelijking werkbladen waarbij gebruikers naar thematische afbeeldingen op verschillende formaten kijken en bepalen welke groter, kleiner of middelgroot is, of ze op volgorde nummeren van klein naar groot of van groot naar klein. Vijf verschillende vraagtypen dekken elke groottediscriminatie vaardigheid: Omcirkel de Grote, Omcirkel de Kleine, Omcirkel de Middelste, Nummeren 1–2–3 Klein naar Groot, en Nummeren 1–2–3 Groot naar Klein. Twee afbeeldingsmodi creëren fundamenteel verschillende oefeningen: Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten voor zuivere grootteperceptie, terwijl Verschillende Afbeeldingen onderscheidende objecten toont voor relatief grootteredeneren. Configureer 1–10 oefeningen per pagina met 2 of 3 afbeeldingen per oefening — twee afbeeldingen voor eenvoudigere vergelijkingen, drie voor moeilijkere oefeningen met een middelste optie. Elk werkblad is volledig visueel met nul tekst op de uitvoer, waardoor ze universeel bruikbaar zijn ongeacht taal of leesniveau. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema\'s. Een automatisch gegenereerd antwoordblad markeert de juiste antwoorden voor directe verificatie. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu groottevergelijking bundels verkoopt op Etsy.nl, vroeg-leren werkboeken samenstelt voor Amazon KDP, of gedifferentieerde visuele oefencentra maakt voor Gumroad, de Groot & Klein Werkbladen Generator levert professionele resultaten in enkele minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Start een winstgevende productlijn groottevergelijking werkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen vergelijken formaten van afbeeldingen — omcirkel de grote, de kleine of de middelste, of nummeer van klein naar groot. Deze klassieke vroeg-leren activiteit is bijzonder populair bij ouders van kleuters en groep 1–2 in het Nederlandse onderwijs. De generator biedt vijf vraagtypen en twee afbeeldingsmodi die samen een breed scala aan moeilijkheidsniveaus afdekken, waardoor u gedifferentieerde bundels kunt samenstellen die hogere prijzen rechtvaardigen. Elk werkblad is volledig visueel zonder tekst, wat betekent dat hetzelfde product verkoopt op Etsy.nl, Bol.com en internationale markten zonder vertaling. De ingebouwde bibliotheek met meer dan 3.100 illustraties in 104 thema\'s levert eindeloze variatie. Automatisch gegenereerde antwoordbladen maken uw producten direct verkoopklaar. Exporteer printklare PDF\'s op 300 DPI. De gratis proefversie met watermerk geeft u toegang tot alle functies — koop een licentie om het watermerk te verwijderen.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Groottevergelijking Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u groot en klein werkbladen voor uw Etsy-shop in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Groot & Klein Werkbladen Generator',
+    title: 'Belangrijkste functies van de groot en klein werkbladen generator',
     features: [
       {
         title: 'Vijf groottevergelijking vraagtypen',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Groottevergelijking Werkbladen Online Verkoopt',
+    title: 'Hoe u groot en klein werkbladen verkoopt op Etsy en KDP',
     cases: [
       {
         title: 'Groottevergelijking bundels op Etsy',
@@ -204,58 +204,13 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'patroontrein-werkbladen',
-      anchorText: 'Patroontrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patronen-werkbladen',
-      anchorText: 'Patronen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'rastertekenen-werkbladen',
-      anchorText: 'Rastertekenen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'lijnen-trekken-werkbladen',
-      anchorText: 'Lijnen Trekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkbladen Generator',
+      slug: 'meer-minder-werkbladen',
+      anchorText: 'Meer en minder werkbladen generator',
     },
     {
       pageType: 'bundle',
       slug: 'visueel-leren-pakket',
-      anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'peuterspeelzaal-printable-ideen',
-      anchorText: 'Peuteronderwijs printable ideeën voor vroege ontwikkeling',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kleuterschool-printable-ideen',
-      anchorText: 'Kleuterschool printable ideeën voor jonge gebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'blauwdruk-printable-bedrijf',
-      anchorText: 'Blauwdruk voor je printable bedrijf',
-    },
-    {
-      pageType: 'guide',
-      slug: 'groottevergelijking-werkbladen-maken',
-      anchorText: 'Groottevergelijking werkbladen maken',
+      anchorText: 'Visueel Leren Pakket — alle visuele apps in een pakket',
     },
   ],
 

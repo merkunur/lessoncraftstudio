@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Groep 4 Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende groep 4 printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Basisschool productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables groep 4 — Business | LessonCraftStudio',
+    metaDescription: 'Ideeën voor printables groep 4 om te verkopen. Tafels oefenen, begrijpend lezen en spelling werkbladen die leerkrachten en ouders actief zoeken op Etsy.',
 
-    primaryKeyword: 'groep 4 printable ideeën',
+    primaryKeyword: 'printables groep 4 ideeën business',
     secondaryKeywords: [
-      'groep 4 werkbladen verkopen',
-      'basisschool printable business ideeën',
-      'groep 4 activiteiten voor verkopers',
-      'groep 4 printables verkopen op Gumroad',
+      'groep 4 werkbladen verkopen Etsy',
+      'tafels oefenen printables groep 4',
+      'begrijpend lezen werkbladen verkopen',
+      'groep 4 printable business Gumroad',
     ],
     lsiKeywords: [
-      'basisschool reken en taal werkbladen',
-      'groep 4 productcatalogus printables',
-      'leeftijd 7-8 leeractiviteiten',
+      'meercijferig optellen aftrekken werkbladen',
+      'Cito-toets groep 4 oefenmateriaal',
+      'lezen om te leren printables',
     ],
   },
   hero: {
-    title: 'Groep 4 Printable Businessideeën voor Verkopers',
-    description: 'Groep 4 printables bezetten een uniek winstgevende positie op de educatieve markt omdat groep 4 het jaar is waarin de academische complexiteit dramatisch versnelt over elk vakgebied, met rekenen dat uitbreidt van enkelvoudige bewerkingen naar meercijferige optelling en aftrekking, lezen dat verschuift van decoderen naar echt begrip en vloeiendheid, en schrijven dat vordert van eenvoudige zinnen naar georganiseerde alinea\'s met hoofdgedachte en ondersteunende details. Deze academische sprong creëert intense vraag van verkopers die gedifferentieerd materiaal nodig hebben op meerdere vaardigheidsniveaus omdat de gereedheidkloof tussen gebruikers aanzienlijk verbreedt in groep 4. Ouders worden steeds gemotiveerdere kopers omdat toetsresultaten intensiveren met meer formele beoordelingen en rapportcijfers specifieke niveaucategorieproficiëntie weergeven. Het productcatalogusbereik van groep 4 omvat een buitengewoon scala aan vaardigheden waaronder twee- en driecijferig optellen en aftrekken, positiewaardebegrip tot honderdtallen, klokkijken, geld tellen, meten, gegevens verzamelen met grafieken, leesvloeiendheid, begrijpend lezen, woordenschatontwikkeling, grammaticaconventies en alineaopbouw. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables groep 4: ideeën voor een winstgevende niche',
+    description: 'Groep 4 markeert de overgang van leren lezen naar lezen om te leren, waardoor de vraag naar aanvullend werkbladmateriaal sterk toeneemt. Leerkrachten introduceren de tafels van vermenigvuldiging, begrijpend lezen en spelling op een hoger niveau — vaardigheden die intensieve oefening vragen. Ouders worden gemotiveerde kopers zodra Cito-toetsresultaten achterblijven. Met onze generators maakt u professionele werkbladen voor meercijferig rekenen, tafeloefeningen en begrijpend lezen die aansluiten bij methodes als Wereld in Getallen en Estafette. Bied gedifferentieerd materiaal aan op drie niveaus (basis, gemiddeld, verrijking) en u bedient de complete groep-4-markt. Verkoop via Etsy, Gumroad of Amazon KDP en profiteer van de jaarronde vraag die elke maand nieuwe vaardigheidsdoelen introduceert. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De groep 4 printable-markt vertegenwoordigt een van de sterkste omzetkansen in de educatieve niche omdat groep 4 zich bevindt op het kritische kruispunt waar academische verwachtingen intensiveren terwijl vaardigheidskloven tussen gebruikers verbreden, wat dubbele koopdruk creëert van verkopers die hun instructie moeten differentiëren over steeds diversere productlijnen en ouders die geconfronteerd worden met verhoogde verantwoordelijkheid voor de academische voortgang van hun kind via meer formele toetsrapportages en niveaucategorieproficiëntiestandaarden. Het rekenproductcatalogus alleen al stimuleert enorme printable-vraag omdat groep-4-rekenen de overgang maakt van de enkelvoudige bewerkingen die in groep 3 werden beheerst naar meercijferige berekeningen die strategieën voor splitsen, lenen en positiewaardebegrip vereisen.
 
@@ -147,54 +147,19 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'rekenpuzzels-werkbladen',
+      anchorText: 'Rekenpuzzels generator voor groep 4',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoekers met spellingwoorden groep 4',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-subtraction-worksheets',
-      anchorText: 'Professionele aftrekwerkbladen maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'third-grade-printable-ideas',
-      anchorText: 'Groep 5 printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
-      anchorText: 'Rekenfeiten printable businessideeën',
+      pageType: 'bundle',
+      slug: 'lezen-taal-pakket',
+      anchorText: 'Lezen en taal pakket voor taalverkopers',
     },
   ],
 

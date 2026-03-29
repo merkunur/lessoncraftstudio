@@ -2,15 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'printable bedrijf opschalen',
+    primaryKeyword: 'printables-business laten groeien',
     secondaryKeywords: ['printable business groeistrategie', 'Etsy winkel opschalen', 'werkbladen bedrijf uitbreiden', 'passief inkomen printables opschalen'],
     lsiKeywords: ['omzetgroei productcatalogus marktuitbreiding schaalbare productie', 'multi-platform strategie herhaalaankopen klantenbestand uitbreiden', 'bundel strategie prijsoptimalisatie gemiddelde bestelwaarde verhogen', 'seizoensgebonden groei productlijn uitbreiding niche verbreding', 'automatisering workflow efficiëntie tijdsbesparing productiviteit', 'internationale verkoop meertalige producten wereldwijde markt'],
-    titleTag: 'Printable Bedrijf Opschalen — Groeigids',
-    metaDescription: 'Schaal je printable bedrijf op: vergroot je productcatalogus, breid uit naar meerdere platformen, verhoog je gemiddelde bestelwaarde en bouw duurzame.',
+    titleTag: 'Printables-business laten groeien | LessonCraftStudio',
+    metaDescription: 'Laat uw printables-business groeien. Vergroot uw catalogus, breid uit naar Etsy, Bol.com en KDP, en verhoog uw gemiddelde bestelwaarde systematisch.',
   },
   hero: {
-    title: 'Je Printable Bedrijf Opschalen',
-    tagline: 'Van eerste verkopen naar een duurzaam, groeiend printable bedrijf. Leer hoe je systematisch je catalogus uitbreidt, je bereik vergroot en je omzet vermenigvuldigt.',
+    title: 'Uw printables-business laten groeien in 2026',
+    tagline: 'Van eerste verkopen naar een duurzaam, groeiend printable bedrijf op Etsy, Bol.com en internationale markten.',
     description: 'Je hebt je eerste printable producten gemaakt en je eerste verkopen gerealiseerd. Nu is het tijd om op te schalen. Het vereist een strategische aanpak waarbij je systematisch je productaanbod uitbreidt, je verkoopkanalen diversifieert en je bedrijfsprocessen optimaliseert. Veel printable verkopers blijven steken op een plateau omdat ze niet weten hoe ze de overgang moeten maken van hobbyverkoper naar serieuze ondernemer. Deze gids leert je hoe je elk aspect van je printable bedrijf kunt opschalen, van het uitbreiden van je productcatalogus met werkblad generators die je als gratis proefversie met watermerk kunt uitproberen, tot het betreden van nieuwe markten en het automatiseren van je werkprocessen.',
   },
   introduction: 'Het verschil tussen printable verkopers die een duurzaam inkomen opbouwen en degenen die maanden ploeteren voor minimale resultaten ligt zelden in de kwaliteit van hun producten. Het ligt in hun vermogen om op te schalen. Opschalen betekent dat je meer waarde creëert zonder evenredig meer tijd te investeren.\n\nOpschalen is geen kwestie van harder werken. Het gaat om het identificeren van hefbomen in je bedrijf — de punten waar een kleine extra investering een disproportioneel groot effect heeft op je omzet. De werkblad generators op LessonCraftStudio zijn ontworpen met opschaling in gedachten. Je kunt ze uitproberen als gratis proefversie met watermerk om te zien hoe snel je professionele werkbladen kunt produceren. Met 33 verschillende generators en 104 thema\'s kun je in korte tijd een uitgebreide productcatalogus opbouwen.\n\nIn deze gids behandelen we zeven concrete strategieën om je printable bedrijf op te schalen, van het uitbreiden van je productcatalogus tot het betreden van internationale markten.',
@@ -52,18 +52,10 @@ const content: GuideContent = {
     { slug: 'complete-guide-printable-business', title: 'Complete Gids Printable Bedrijf', description: 'De complete gids voor het starten en laten groeien van een printable bedrijf.' },
   ],
   internalLinks: [
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'Printable bedrijf automatiseren' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selectie voor printable bedrijven' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieen voor educatieve printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkblad bundels maken' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Een printable productlijn maken' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoeker puzzels maken' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete gids printable bedrijf' },
-    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Printable bedrijf opschalen' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche kiezen voor uw printables-business' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategie voor educatieve werkbladen' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Productlijn printables opbouwen' },
+    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Passief inkomen met werkbladen' },
   ],
   toolsRecommended: [
     { appId: 'wordsearch', title: 'Woordzoeker Generator', description: 'Maak woordzoeker puzzels in 11 talen met 104 beeldthema\'s. Ideaal voor meertalige productcatalogi.' },

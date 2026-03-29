@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printables verkopen belastingverplichtingen',
+    primaryKeyword: 'juridische aspecten printables-business Nederland',
     secondaryKeywords: [
-      'juridische basis printable bedrijf',
-      'belastingverplichtingen digitale producten',
-      'bedrijfsstructuur voor printable verkopers',
-      'intellectueel eigendom printable werkbladen',
+      'belastingverplichtingen printables verkopen Nederland',
+      'ZZP\'er printable bedrijf KvK BTW',
+      'bedrijfsstructuur voor printable verkopers NL',
+      'Kleinondernemersregeling printables verkopen',
     ],
     lsiKeywords: [
-      'btw op digitale downloads nederland',
-      'eenmanszaak of bv voor printable bedrijf',
-      'administratie voor etsy verkopers',
-      'platformvoorwaarden naleving',
-      'grensoverschrijdende belasting digitale goederen',
-      'aftrekbare kosten printable bedrijf',
+      'BTW op digitale downloads Nederland 21%',
+      'eenmanszaak of BV voor printable bedrijf',
+      'KvK registratie Etsy verkopers Nederland',
+      'Kleinondernemersregeling KOR onder 20000 euro',
+      'grensoverschrijdende belasting digitale goederen EU',
+      'aftrekbare kosten printable bedrijf ZZP',
     ],
-    titleTag: 'Printable Bedrijf Belasting en Juridisch — Gids',
-    metaDescription: 'Belastingverplichtingen bij het verkopen van printables. Bedrijfsstructuur, aftrekbare kosten, intellectueel eigendom en platformnaleving voor verkopers.',
+    titleTag: 'Printables-business: juridische zaken | LessonCraftStudio',
+    metaDescription: 'Juridische aspecten van uw printables-business in Nederland: KvK-registratie, BTW, Kleinondernemersregeling, aftrekbare kosten en platformnaleving.',
   },
 
   hero: {
-    title: 'Belasting en Juridische Basis voor een Printable Bedrijf',
-    tagline: 'Essentiële belasting- en juridische informatie voor printable verkopers — bedrijfsstructuur, belastingverplichtingen voor digitale goederen, aftrekbare kosten, intellectueel eigendom, platformnaleving en wanneer professionele hulp in te schakelen',
-    description: 'Een printable bedrijf runnen betekent een echt bedrijf runnen, en echte bedrijven hebben belastingverplichtingen, juridische vereisten en nalevingsverantwoordelijkheden. Veel printable verkopers openen hun winkels zonder het juridische landschap te begrijpen, wat kan leiden tot onaangename verrassingen bij de belastingaangifte of erger. Deze gids behandelt de essentiële onderwerpen die elke printable verkoper moet begrijpen: opties voor bedrijfsstructuur, belastingverplichtingen voor de verkoop van digitale producten, aftrekbare bedrijfskosten, basisbeginselen van intellectueel eigendom, naleving van platformvoorwaarden, administratievereisten en wanneer professioneel juridisch of fiscaal advies in te winnen. Elke sectie bevat een duidelijke disclaimer: dit is educatieve informatie om je te helpen de juiste vragen te stellen, geen professioneel advies voor jouw specifieke situatie. Gebruik deze gids om de onderwerpen te identificeren die je met een gekwalificeerde belastingadviseur of advocaat moet bespreken.',
+    title: 'Juridische zaken voor uw printables-business',
+    tagline: 'KvK-registratie, BTW, Kleinondernemersregeling en platformnaleving',
+    description: 'Een printable bedrijf runnen in Nederland betekent een echt bedrijf runnen met belastingverplichtingen, juridische vereisten en nalevingsverantwoordelijkheden. Deze gids behandelt de essentiële juridische onderwerpen voor Nederlandse printable verkopers: inschrijving als ZZP\'er of eenmanszaak bij de Kamer van Koophandel (KvK), BTW-verplichtingen (21% op digitale producten), de Kleinondernemersregeling (KOR) bij een omzet onder 20.000 euro per jaar, aftrekbare bedrijfskosten, en naleving van platformvoorwaarden op Etsy en Amazon KDP. Voor Belgische verkopers gelden andere regels, waaronder de zelfstandige in bijberoep. Merk op dat Etsy-verkoop vanuit Nederland KvK-registratie vereist. Elke sectie bevat een duidelijke disclaimer: dit is educatieve informatie, geen professioneel advies. Raadpleeg altijd een gekwalificeerde belastingadviseur of advocaat voor uw specifieke situatie.',
   },
 
   introduction: 'Het belastingseizoen overvalt veel printable verkopers. Ze hebben het hele jaar werkbladen gemaakt, producten vermeld en omzet gegenereerd op verschillende platforms — maar nooit geld opzijgezet voor belastingen, nooit aftrekbare kosten bijgehouden en hun bedrijf nooit goed geregistreerd. Het resultaat is stress, boetes en soms een aanzienlijke belastingaanslag die met goede planning had kunnen worden verminderd.\n\nDe juridische kant van het runnen van een printable bedrijf is niet optioneel, en het is niet zo ingewikkeld als het lijkt zodra je de basis begrijpt. Je hebt geen rechtendiploma nodig om werkbladen te verkopen op Etsy. Maar je moet wel je belastingverplichtingen begrijpen, je intellectueel eigendom beschermen, voldoen aan platformvoorwaarden en een administratie bijhouden die de belastingaangifte eenvoudig maakt in plaats van chaotisch.\n\nDeze gids is georganiseerd rond de vragen die printable verkopers het vaakst stellen: Welke bedrijfsstructuur heb ik nodig? Moet ik btw in rekening brengen? Welke kosten kan ik aftrekken? Hoe bescherm ik mijn ontwerpen? Wat gebeurt er als ik internationaal verkoop? Wanneer heb ik een professional nodig? Elke sectie biedt educatieve context om je te helpen het onderwerp te begrijpen en te identificeren wat je met je eigen belastingadviseur of advocaat moet bespreken.\n\nEen belangrijke disclaimer voordat we beginnen: deze gids biedt uitsluitend algemene educatieve informatie. Het is geen juridisch advies, belastingadvies of professioneel advies van welke aard dan ook. Belastingwetten en juridische vereisten variëren per land, provincie en gemeente. Ze veranderen regelmatig. Jouw specifieke situatie — inclusief je locatie, omzetniveau, bedrijfsstructuur en verkoopplatforms — bepaalt je werkelijke verplichtingen. Raadpleeg altijd een gekwalificeerde belastingadviseur of advocaat voor beslissingen die je bedrijf beïnvloeden.',
@@ -203,18 +203,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'start', slug: 'printable-bedrijf-opschalen', anchorText: 'Van Bijverdienste naar Voltijds Printable Bedrijf Opschalen' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
-    { pageType: 'app', slug: 'schrijfoefeningen-werkbladen', anchorText: 'Schrijfwerkblad Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Probeer de Schrijfwerkblad Maker' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids printables-business starten' },
+    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële licentie voor verkopers' },
+    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Hoeveel verdienen met printables' },
   ],
 
   visuals: {

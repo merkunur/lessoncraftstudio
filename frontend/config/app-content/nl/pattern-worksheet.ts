@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'patronen werkbladen generator',
+    primaryKeyword: 'patronen herkennen werkbladen voor Etsy-verkopers',
     secondaryKeywords: [
-      'printbare patroonvoltooiing werkbladen voor Etsy-verkopers',
-      'patronenherkenning werkbladen generator voor Amazon KDP-uitgevers',
-      'patroonreeks werkbladen verkopen op Gumroad',
-      'patronen werkbladen commerciële licentie',
+      'patroonherkenning werkbladen generator Etsy',
+      'patronen werkbladen voor KDP',
+      'visuele patronen commerciële licentie',
+      'patroonactiviteiten verkopen',
     ],
     lsiKeywords: [
       'digitale patroonvoltooiing printables online bedrijf',
       'printbare visuele patronen werkbladen business',
       'commercieel gebruik patronenherkenning werkbladen generator',
     ],
-    titleTag: 'Patronen Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak patronen werkbladen om te verkopen op Etsy, KDP en Gumroad. Negen patroontypen, twee vraagmodi, per-oefening configuratie, 104 thema\'s.',
+    titleTag: 'Patronen werkbladen voor Etsy | LessonCraftStudio',
+    metaDescription: 'Maak patroonherkenning werkbladen om te verkopen op Etsy en Amazon KDP. Negen patroontypen, twee vraagmodi, 104 thema\'s en commerciële licentie.',
   },
 
   hero: {
-    title: 'Patronen Werkbladen Generator voor Rastergebaseerde Patroonvoltooiing Oefeningen',
-    tagline: 'Negen patroontypen van AB tot ABCD — twee vraagmodi (invuloefening en meerkeuze) — met per-oefening onafhankelijke configuratie voor patroontype, vraagmodus en thema op elke pagina.',
+    title: 'Patronen werkbladen maken en verkopen op Etsy en KDP',
+    tagline: 'Gratis proefversie met watermerk — negen patroontypen van AB tot ABCD — twee vraagmodi — per-oefening onafhankelijke configuratie voor patroontype, vraagmodus en thema op elke pagina.',
     description:
-      'Ontwerp professionele patroonvoltooiing werkbladen waarbij gebruikers herhalende reeksen identificeren en het ontbrekende item invullen — of het juiste antwoord kiezen uit meerkeuze-opties. Negen verschillende patroontypen dekken elk niveau van reekscomplexiteit: AB wisselt twee items af, AAB en ABB introduceren asymmetrische groeperingen, ABC roteert drie items, AABB koppelt twee van elk, ABBC en AABC voegen drie-afbeelding asymmetrische patronen toe, ABCC verlengt met een verdubbeld einde, en ABCD roteert vier verschillende items voor maximale uitdaging. Twee vraagmodi creëren fundamenteel verschillende oefeningen vanuit elk patroontype: Leeg Vak vervangt één item door een lege ruimte die gebruikers moeten invullen, terwijl Kies uit Opties de lege plek toont naast drie antwoordkeuzes met één correct antwoord en twee afleidingsantwoorden. Configureer 1–8 oefeningen per pagina waarbij elke oefening onafhankelijk is ingesteld voor patroontype, vraagmodus en thema — één pagina kan een AB-invuloefening combineren met een ABCD-meerkeuzevraag. Schakel Willekeurig Startpunt in om patronen midden in de cyclus te laten beginnen en Willekeurige Lege Positie om het ontbrekende item overal in de reeks te plaatsen voor extra moeilijkheid. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema\'s. Een apart antwoordblad-tabblad toont alle lege posities gevuld met de juiste patroonitems voor directe verificatie. Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Elk werkblad is volledig visueel met uitsluitend afbeeldingen in rasterrijen en nul tekst op de uitvoer, waardoor producten universeel verkoopbaar zijn zonder vertaling. Of je nu patroonvoltooiing bundels verkoopt op Etsy.nl, vroeg-leren werkboeken samenstelt voor Amazon KDP, of gedifferentieerde visuele centra maakt voor Gumroad, de Patronen Werkbladen Generator levert de breedste variatie aan patroonoefeningen beschikbaar — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Bouw een winstgevend assortiment patroonherkenning werkbladen voor uw Etsy-shop of Amazon KDP-uitgeverij. Kinderen identificeren herhalende reeksen en vullen het ontbrekende item in of kiezen het juiste antwoord uit meerkeuze-opties — een activiteit die wiskundig denken en logisch redeneren ontwikkelt. Negen patroontypen van eenvoudig AB tot complex ABCD bieden u een natuurlijke moeilijkheidsladder van kleuters tot en met groep 4. Twee vraagmodi verdubbelen uw productvariatie: invuloefeningen en meerkeuzevragen. Configureer 1 tot 8 oefeningen per pagina, elk met een eigen patroontype, vraagmodus en thema uit 104 collecties met meer dan 3.100 illustraties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Ideaal voor de Nederlandse markt via Etsy.nl en Bol.com, maar ook voor internationale Amazon KDP-marktplaatsen. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Patronen Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u patronen werkbladen om te verkopen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Patronen Werkbladen Generator',
+    title: 'Waarom verkopers kiezen voor de patronen werkbladen generator',
     features: [
       {
         title: 'Negen patroontypen van eenvoudig AB tot complex ABCD',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Patronen Werkbladen Online Verkoopt',
+    title: 'Patronen werkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Patroonvoltooiing bundels op Etsy',
@@ -204,33 +204,8 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'groot-klein-werkbladen',
-      anchorText: 'Groot & Klein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'patroontrein-werkbladen',
       anchorText: 'Patroontrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'rastertekenen-werkbladen',
-      anchorText: 'Rastertekenen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'lijnen-trekken-werkbladen',
-      anchorText: 'Lijnen Trekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkbladen Generator',
     },
     {
       pageType: 'bundle',
@@ -238,24 +213,9 @@ const content: AppContent = {
       anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
     },
     {
-      pageType: 'idea',
-      slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
-    },
-    {
       pageType: 'guide',
       slug: 'patronen-werkbladen-maken',
-      anchorText: 'Patronen werkbladen maken',
+      anchorText: 'Patronen werkbladen maken en verkopen',
     },
   ],
 

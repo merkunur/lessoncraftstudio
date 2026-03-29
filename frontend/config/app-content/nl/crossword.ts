@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'plaatjes kruiswoordpuzzel generator',
+    primaryKeyword: 'kruiswoordpuzzel maker om te verkopen op Etsy en KDP',
     secondaryKeywords: [
-      'printbare plaatjes kruiswoordpuzzel maker voor Etsy verkopers',
-      'afbeelding kruiswoordpuzzel generator voor KDP uitgevers',
-      'plaatjes kruiswoordpuzzel werkblad maker met commerciële licentie',
-      'kruiswoordpuzzels verkopen op Gumroad',
+      'kruiswoordpuzzels met afbeeldingen maker Etsy',
+      'kruiswoordraadsels voor Amazon KDP-boeken',
+      'kruiswoordpuzzel generator commerciële licentie',
+      'woordpuzzels verkopen online',
     ],
     lsiKeywords: [
       'digitale kruiswoordpuzzel printables online bedrijf',
       'commercieel gebruik kruiswoordpuzzel generator',
       'printbare plaatjes kruiswoordpuzzel business tools',
     ],
-    titleTag: 'Plaatjes Kruiswoordpuzzel Generator | Maak & Verkoop Puzzels',
+    titleTag: 'Kruiswoordpuzzel maker voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak plaatjes kruiswoordpuzzels om te verkopen op Etsy, KDP & Gumroad. Afbeeldingsaanwijzingen op een 15×15 raster, 4 invoermethoden, automatisch antwoordblad.',
+      'Maak kruiswoordpuzzels met afbeeldingen om te verkopen op Etsy en KDP. Thema-illustraties, automatische antwoorden. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Plaatjes Kruiswoordpuzzel Generator voor Kruiswoordpuzzels met Afbeeldingsaanwijzingen',
+    title: 'Maak kruiswoordpuzzels met afbeeldingen om te verkopen op Etsy en KDP',
     tagline:
-      'Vervang traditionele tekstaanwijzingen door afbeeldingsaanwijzingen op een 15×15 kruiswoordraster — vier invoermethoden (thema automatisch selecteren, handmatige afbeeldingsbewerking, aangepaste woordenlijst en afbeelding uploaden), automatisch gegenereerd antwoordblad met ingevuld raster, en een gelokaliseerde "Plaatjes Kruiswoordpuzzel" koptekst over 104 thematische beeldcollecties.',
+      'Uniek puzzelformaat: afbeeldingen als aanwijzingen in plaats van tekst — 104 thema\'s, automatisch antwoordblad en commerciële licentie voor uw printables-business.',
     description:
-      'Bouw professionele plaatjes kruiswoordpuzzels waarbij kleurrijke afbeeldingen de tekstaanwijzingen van traditionele kruiswoordpuzzels vervangen. Acht afbeeldingen genereren acht woorden op een vast 15×15 raster — het algoritme extraheert woorden uit afbeeldingsnamen, sorteert op lengte voor optimale plaatsing en vult het raster met genummerde aanwijzingsposities. Kies uit vier invoermethoden: Snel Thema Genereren selecteert automatisch 8 willekeurige afbeeldingen uit elk thema en genereert direct; Handmatige Afbeeldingsnaam Bewerking laat je individuele afbeeldingen aanklikken en hernoemen vóór generatie; Aangepaste Woordenlijst met Aanwijzingen schakelt over naar traditionele tekstaanwijzing-kruiswoordpuzzels met een WOORD: aanwijzing-formaat; en Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. De Plaatjes Kruiswoordpuzzel Generator is taalgebonden: puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen via het Beeldwoordenschat-systeem, dus het wisselen van taal verandert de daadwerkelijke kruiswoordwoorden. Het dubbele canvassysteem genereert zowel een puzzeltabblad als een antwoordbladtabblad — het antwoordblad toont het ingevulde raster met alle antwoorden zichtbaar. Elke puzzel bevat een automatisch gegenereerde gelokaliseerde koptekst met een blauwe achtergrond (#5B9BD5), Fredoka-titel en Quicksand-beschrijving gerenderd in alle 11 ondersteunde talen. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 talen voor gelokaliseerde puzzelwoorden. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu plaatjes kruiswoordpuzzelbundels verkoopt op Etsy.nl, kruiswoordpuzzelwerkboeken samenstelt voor Amazon KDP, of woordenschat-kruiswoordactiviteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Onderscheid uw puzzelproducten van de concurrentie met kruiswoordpuzzels die afbeeldingen gebruiken als aanwijzingen in plaats van traditionele tekstdefinities. Dit visuele formaat valt direct op in zoekresultaten van Etsy, Bol.com en Amazon KDP. Het algoritme plaatst 8 woorden op een vast 15×15 raster met genummerde posities die elke afbeelding verbinden met de startcel. Kies uit vier invoermethoden: thema automatisch selecteren voor snelle productie, handmatige bewerking voor precieze woordenschatcontrole, aangepaste woordenlijst voor traditionele tekstaanwijzingen, of upload uw eigen afbeeldingen. Met 3.100+ illustraties verdeeld over 104 thema\'s maakt u honderden unieke puzzels voor thematische bundels. De generator is taalgebonden: het wisselen van taal verandert de daadwerkelijke kruiswoordwoorden, waardoor u meertalige productlijnen kunt opbouwen vanuit dezelfde afbeeldingen. Het automatisch gegenereerde antwoordblad bespaart u enorm veel productietijd. Voor de Nederlandse markt biedt Brave New Books naast KDP een extra verkoopkanaal voor gedrukte puzzelboeken. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Plaatjes Kruiswoordpuzzels in 5 Stappen',
+    title: 'Zo maakt u verkoopklare kruiswoordpuzzels in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Plaatjes Kruiswoordpuzzel Generator',
+    title: 'Functies die uw kruiswoordpuzzels productieklaar maken',
     features: [
       {
         title: 'Plaatjes Kruiswoordpuzzels met Afbeeldingsaanwijzingen op een Vast 15×15 Raster',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Plaatjes Kruiswoordpuzzels Online Verkoopt',
+    title: 'Verkoopstrategieën voor kruiswoordpuzzels op elke marktplaats',
     cases: [
       {
         title: 'Thematische Plaatjes Kruiswoordpuzzelbundels op Etsy',
@@ -206,63 +206,23 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Zoek en Tel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'zoek-voorwerpen-werkbladen',
-      anchorText: 'Zoek Voorwerpen Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'schattenjacht-werkbladen',
-      anchorText: 'Schattenjacht Werkblad Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kruiswoordpuzzel-werkbladen',
-      anchorText: 'Woordpuzzel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordraadsel-werkbladen',
-      anchorText: 'Raad het Woord Werkblad Generator',
+      anchorText: 'Woordzoeker Werkbladen Generator',
     },
     {
       pageType: 'app',
       slug: 'cryptogram-werkbladen',
-      anchorText: 'Geheimschrift Werkblad Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'zoeken-vinden-pakket',
-      anchorText: 'Zoeken & Vinden Pakket — Alle Zoek-Apps in Één Pakket',
+      anchorText: 'Cryptogram Werkbladen Generator',
     },
     {
       pageType: 'guide',
       slug: 'kruiswoordpuzzels-maken',
-      anchorText: 'Hoe Je Kruiswoordpuzzels Maakt die Verkopen',
+      anchorText: 'Gids: kruiswoordpuzzels maken die verkopen',
     },
     {
-      pageType: 'idea',
-      slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'groep-4-printable-ideen',
-      anchorText: 'Groep 4 printable ideeën voor basisschoolgebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
+      pageType: 'bundle',
+      slug: 'lezen-taal-pakket',
+      anchorText: 'Lezen & Taal Pakket — alle taalapps in één bundel',
     },
   ],
 

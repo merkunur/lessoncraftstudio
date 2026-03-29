@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schattenjacht werkbladen',
+    primaryKeyword: 'speurtochten maken om te verkopen',
     secondaryKeywords: [
       'schattenjacht werkbladen maken om te verkopen',
       'schattenjacht werkblad generator commercieel gebruik',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'Amazon KDP richtingsgebaseerde pad-vind werkboeken',
       'commerciële licentie schattenjacht tool',
     ],
-    titleTag: 'Schattenjacht Werkbladen Maken — Handleiding',
-    metaDescription: 'Maak schattenjacht werkbladen op een 5×5 raster met richtingsaanwijzingen, thema-afbeeldingen en automatische antwoordsleutels.',
+    titleTag: 'Speurtochten maken om te verkopen | LessonCraftStudio',
+    metaDescription: 'Leer speurtocht werkbladen maken en verkopen op Etsy en KDP. 5×5 raster, twee richtingstypen, 11 talen en automatische antwoordsleutels inbegrepen.',
   },
 
   hero: {
-    title: 'Hoe Schattenjacht Werkbladen Maken',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van pad-vindende schattenjacht werkbladen op een 5×5 coördinaatrooster met twee richtingstypen (basis omhoog/omlaag/links/rechts en hoofdrichtingen noord/zuid/oost/west), precies 4 richtingsbewegingen per puzzel, 6 thematische oriëntatiepuntafbeeldingen, automatisch gegenereerde antwoordsleutels met lichtgeel gemarkeerde schatcel, en volledig gelokaliseerde richtingsaanwijzingen in 11 talen die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
+    title: 'Speurtocht werkbladen maken en verkopen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopklare schattenjacht werkbladen op een 5×5 coördinaatrooster met twee richtingstypen, thematische afbeeldingen en automatische antwoordsleutels in 11 talen.',
     description: 'Schattenjacht werkbladen zijn een uniek boeiende pad-vindactiviteit waarbij gebruikers sequentiële richtingsaanwijzingen volgen om verborgen schatten te lokaliseren op een 5×5 coördinaatrooster met rijlabels (A–E) en kolomnummers (1–5). Het formaat combineert coördinaatgeletterdheid met richtingswoordenschat — gebruikers lezen een startpositie, volgen precies 4 richtingsbewegingen over het raster en bepalen welke cel de schat bevat. Omdat de Schattenjacht Maker twee richtingstypen biedt — basis (omhoog/omlaag/links/rechts) voor jongere gebruikers en hoofdrichtingen (noord/zuid/oost/west) voor oudere gebruikers — differentieert elke puzzel natuurlijk naar leeftijdsgroep. Ouders gebruiken ze voor ruimtelijk redeneren thuis. verkopers gebruiken ze voor coördinaatrooster-introductie en richtingswoordenschatlessen. Bijlescentra gebruiken ze voor oefeningen in het volgen van sequentiële instructies. Deze gids leidt je door het volledige creatieproces met de Schattenjacht Maker — van het kiezen van een richtingstype en het vullen van het raster met 6 thematische afbeeldingen tot het beoordelen van de automatisch gegenereerde antwoordsleutel met lichtgeel gemarkeerde schatcel, het benutten van volledig gelokaliseerde richtingsaanwijzingen in 11 talen voor meertalige productlijnen, en het exporteren van drukklare bestanden. Of je nu je eerste pad-vindproduct bouwt of een bestaande werkbladcatalogus uitbreidt met coördinaatrooster-activiteiten, aan het einde van deze handleiding heb je een afgewerkt product klaar om te publiceren.',
   },
 
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen Maken die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'schattenjacht-werkbladen', anchorText: 'Schattenjacht Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'zoek-voorwerpen-werkbladen', anchorText: 'Zoek Voorwerpen Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Probeer de Schattenjacht Werkblad Maker' },
+    { pageType: 'app', slug: 'schattenjacht-werkbladen', anchorText: 'Schattenjacht Werkblad Generator bekijken' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
+    { pageType: 'bundle', slug: 'zoeken-vinden-pakket', anchorText: 'Zoeken & Vinden Pakket bekijken' },
   ],
 
   toolsRecommended: [

@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'plaatjessudoku maken',
+    primaryKeyword: 'sudoku met afbeeldingen maken verkopen',
     secondaryKeywords: [
-      'plaatjessudoku voor kinderen',
-      'afbeeldingssudoku werkblad generator',
-      'printbare plaatjessudoku verkopen',
-      'visuele sudokupuzzels voor kleuters',
+      'plaatjessudoku verkopen op Etsy',
+      'sudoku puzzelboek Amazon KDP maken',
+      'visuele sudoku werkbladen verkopen',
+      'logicapuzzels voor kinderen Bol.com',
     ],
     lsiKeywords: [
-      'beeldgebaseerde logicapuzzels voor kinderen',
-      'visuele sudoku voor jonge gebruikers',
-      'kleuterlogica werkblad maker',
-      'sudokuwerkbladen verkopen op Etsy',
-      'Amazon KDP puzzel activiteitenboeken',
+      'plaatjessudoku bundels voor Etsy winkel',
+      'sudoku activiteitenboek Brave New Books',
+      'beeldgebaseerde logicapuzzels productlijn',
+      'sudoku werkblad generator commercieel',
       'commerciële licentie puzzeltool',
+      'sudoku puzzels catalogus opbouwen',
     ],
-    titleTag: 'Plaatjessudoku Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Maak plaatjessudoku voor jonge gebruikers. 4x4 beeldrasters, 3 moeilijkheidsniveaus, thema-afbeeldingen, antwoordsleutels en printklare PDF\'s voor Etsy en.',
+    titleTag: 'Sudoku met afbeeldingen verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u plaatjessudoku maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 4x4 beeldrasters, 3 niveaus, thema-afbeeldingen en antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Plaatjessudoku Maken voor Jonge gebruikers',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van beeldgebaseerde 4x4 sudokupuzzels die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Plaatjessudoku vervangt cijfers door afbeeldingen, waardoor logicapuzzels toegankelijk worden voor kinderen vanaf drie jaar. In plaats van een raster met cijfers te vullen, plaatsen kinderen thema-afbeeldingen — dieren, fruit, voertuigen of elke afbeeldingenset die je kiest — zodat elke rij en kolom elke afbeelding exact één keer bevat. Deze gids begeleidt je door het volledige creatieproces met de Plaatjessudoku-maker — van het selecteren van je moeilijkheidsniveau en thema tot het exporteren van een gepolijste, printklare PDF met automatische antwoordsleutel. Of je nu je eerste printbare puzzelproduct maakt of een bestaande catalogus voor vroeg leren uitbreidt, je hebt aan het einde van deze handleiding een afgewerkt product klaar om te publiceren.',
+    title: 'Plaatjessudoku maken en verkopen als puzzelproduct',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare 4x4 plaatjessudoku met thema-afbeeldingen en antwoordsleutels voor Etsy en Amazon KDP',
+    description: 'Plaatjessudoku vervangt cijfers door afbeeldingen, waardoor logicapuzzels toegankelijk worden voor kinderen vanaf drie jaar. In plaats van een raster met cijfers te vullen, plaatsen kinderen thema-afbeeldingen — dieren, fruit, voertuigen of elke afbeeldingenset die u kiest — zodat elke rij en kolom elke afbeelding exact een keer bevat. Deze gids begeleidt u door het volledige creatieproces met de Plaatjessudoku-maker — van het selecteren van uw moeilijkheidsniveau en thema tot het exporteren van een gepolijste, printklare PDF met automatische antwoordsleutel. Of u nu uw eerste printbare puzzelproduct maakt of een bestaande catalogus voor vroeg leren uitbreidt, u hebt aan het einde van deze handleiding een afgewerkt product klaar om te publiceren.',
   },
 
   introduction: 'Sudoku is een van de meest herkenbare puzzelformaten ter wereld, maar standaard 9x9 cijferrasters zijn veel te complex voor jonge gebruikers. Plaatjessudoku lost dit op door een 4x4 raster met vier thema-afbeeldingen te gebruiken in plaats van negen cijfers. De regels blijven hetzelfde — elke rij en kolom moet elke afbeelding exact één keer bevatten — maar de kleinere rastergrootte en het visuele formaat maken het geschikt voor kinderen van 3 tot 7 jaar.\n\nWat plaatjessudoku bijzonder sterk maakt als printbaar product is dat het logica leert, geen rekenen. Ouders die zoeken naar "logicapuzzels voor kleuters" of "kritisch denken werkbladen voor groep 1-2" vinden plaatjessudoku omdat het ruimtelijk redeneren en deductief denken ontwikkelt zonder rekenvaardigheden te vereisen. Dit positioneert je producten in de logica- en puzzelcategorie in plaats van direct te concurreren met de verzadigde rekenwerkladenmarkt.\n\nDe visuele aard van plaatjessudoku maakt het ook taalonafhankelijk voor de puzzelinhoud zelf. Een kind dat een raster met dierenafbeeldingen oplost hoeft geen tekst te lezen — de puzzel is volledig visueel. Dit betekent dat één werkbladontwerp werkt voor kopers in elk land, wat je potentiële markt enorm vergroot. De koptekst en instructies zijn taalkundig aangepast met 11 ingebouwde talen, maar de eigenlijke puzzel heeft geen vertaling nodig.\n\nDe Plaatjessudoku-maker verzorgt alle puzzelgeneratie voor je. Het maakt geldige 4x4 sudokurasters, verwijdert het juiste aantal cellen op basis van je gekozen moeilijkheidsniveau, genereert een knipgebied waar kinderen de ontbrekende afbeeldingen vinden, en produceert automatische antwoordsleutels. Jij richt je op productstrategie — welke thema\'s te gebruiken, welke moeilijkheidsniveaus te kiezen, hoe te bundelen en prijzen — terwijl de generator de puzzellogica, lay-out en printopmaak afhandelt.\n\nAlle functies die in deze gids worden genoemd zijn beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldpuzzels maken, elke configuratie testen en de uitvoerkwaliteit beoordelen voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Sudokuboeken Maken voor Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjessudoku Generator — Alle Details' },
-    { pageType: 'guide', slug: 'patronen-werkbladen-maken', anchorText: 'Patroonwerkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Probeer de Plaatjessudoku-maker' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjessudoku Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Patroonwerkblad Generator voor logica-activiteiten' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket met sudoku en patronen' },
   ],
 
   toolsRecommended: [

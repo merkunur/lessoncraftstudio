@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insecten Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende insecten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Vlinder- en beestjesproductconcepten en platformtips voor verkopers.',
+    titleTag: 'Printables insecten — Business | LessonCraftStudio',
+    metaDescription: 'Start een printable business met insecten. Productideeën voor werkbladen met vlinders, bijen en lieveheersbeestjes die verkopen op Etsy en KDP.',
 
-    primaryKeyword: 'insecten printable ideeën',
+    primaryKeyword: 'printables insecten ideeën business',
     secondaryKeywords: [
-      'insectenthema werkbladen verkopen',
-      'beestjes printable business ideeën',
-      'insect activiteiten voor verkopers',
-      'insecten printables verkopen op Etsy',
+      'insecten werkbladen Etsy verkopen',
+      'beestjes printable business starten',
+      'vlinderthema activiteitenboeken KDP',
+      'insecten printables niche verkopers',
     ],
     lsiKeywords: [
-      'entomologie activiteiten voor kinderen',
-      'beestjesthema educatieve werkbladen',
-      'kriebelbeestjes printbare producten printables',
+      'levenscyclus werkbladen maken',
+      'beestjes kleurplaten printable winkel',
+      'entomologie printbare producten Etsy',
     ],
   },
   hero: {
-    title: 'Insecten Printable Businessideeën voor Verkopers',
-    description: 'Insecten bieden printable-verkopers een van de meest universeel fascinerende dierthema\'s met diepe banden met wetenschapsonderwijs en seizoensgebonden vraagpatronen. Kinderen zijn van nature gefascineerd door vlinders, lieveheersbeestjes, mieren en bijen, waardoor alledaagse achtertuinontmoetingen veranderen in leermogelijkheden die ouders en verkopers graag ondersteunen met werkbladaankopen. De insectenniche profiteert van sterke aansluiting bij productcatalogusstandaarden voor de basisschool rond levenscycli, habitats, metamorfose en ecosystemen. Met meer dan een miljoen bekende soorten zijn de creatieve mogelijkheden voor productgetrapte productpakketten vrijwel onbeperkt. Lente en zomer stimuleren de piekvraag wanneer productlijnen vlinders bestuderen, tuinen gonzen van activiteit en gezinnen samen de natuur verkennen. Voor verkopers op Etsy, Amazon KDP en Gumroad vertegenwoordigen insectenthema printables een niche waar productcatalogusrelevantie samenkomt met kinderlijke nieuwsgierigheid om betrouwbaar jaarrond verkooppotentieel te creëren. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Start uw printable business met insectenthema',
+    description: 'Insecten bieden printable-ondernemers een universeel fascinerend thema met diepe banden met wetenschapsonderwijs. Kinderen zijn van nature gefascineerd door vlinders, lieveheersbeestjes, mieren en bijen, waardoor alledaagse achtertuinontmoetingen veranderen in leermogelijkheden die ouders graag ondersteunen met werkbladaankopen. Voor verkopers op Etsy, Amazon KDP en Gumroad profiteert deze niche van sterke aansluiting bij het basisonderwijs rond levenscycli, metamorfose en ecosystemen. Lente en zomer stimuleren de piekvraag, terwijl het thema jaarrond basisverkopen behoudt. Met meer dan een miljoen bekende soorten zijn de mogelijkheden voor productbundeling vrijwel onbeperkt. Of u nu kleurplaten, telwerkbladen of complete insectenpakketten maakt — dit thema combineert educatieve relevantie met kinderlijke nieuwsgierigheid. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De niche van insecten printables bevindt zich op het kruispunt van wetenschapsonderwijs en kinderlijke fascinatie, waardoor vraag ontstaat vanuit ouders, verkopers en thuisonderwijzers die allemaal de educatieve waarde herkennen van leermateriaal met beestjesthema. Kinderen komen dagelijks insecten tegen in hun tuinen, parken en achtertuinen, waardoor deze wezens direct herkenbaar en eindeloos interessant zijn voor jonge gebruikers. Ouders zoeken insectenwerkbladen om deze natuurlijke nieuwsgierigheid te kanaliseren in gestructureerde leeractiviteiten, terwijl verkopers printbare producten nodig hebben voor entomologieunits, levenscyclusstudies en habitatverkenningen die voorkomen in het hele productcatalogus voor jonge kinderen en de basisschool.
 
@@ -149,19 +149,19 @@ Aansluiting bij het wetenschapsonderwijs geeft insecten printables bijzondere wa
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen met insecten',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'doolhof-werkbladen',
+      anchorText: 'Doolhoven met insectenthema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'zoeken-vinden-pakket',
+      anchorText: 'Zoeken en vinden bundel voor verkopers',
     },
     {
       pageType: 'guide',

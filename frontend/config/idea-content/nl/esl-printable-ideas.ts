@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'NT2 Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende NT2 en taalleren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Meertalig printbare producten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables NT2 — Ideeën business | LessonCraftStudio',
+    metaDescription: 'Printables voor NT2 en Nederlands als tweede taal verkopen. Ideeën voor visueel ondersteunde werkbladen die inburgeringsprogramma\'s en taalscholen inkopen.',
 
-    primaryKeyword: 'NT2 printable ideeën',
+    primaryKeyword: 'printables NT2 Nederlands tweede taal business',
     secondaryKeywords: [
-      'NT2 werkbladen verkopen',
-      'taalleren printable business ideeën',
-      'anderstaligen activiteiten verkopers',
-      'NT2 printables verkopen op Gumroad',
+      'NT2 werkbladen verkopen Etsy',
+      'inburgering printables business Nederland',
+      'taalonderwijs nieuwkomers werkbladen',
+      'ESL printables verkopen Gumroad',
     ],
     lsiKeywords: [
-      'Nederlands als tweede taal werkbladen',
-      'meertalig educatief printbare producten',
-      'taalonderwijs nieuwkomers printables',
+      'schakelklas taalondersteuning materiaal',
+      'visueel ondersteunde vocabulaire werkbladen',
+      'Wet inburgering 2021 lesmateriaal',
     ],
   },
   hero: {
-    title: 'NT2 Printable Businessideeën voor Verkopers',
-    description: 'NT2 printables (Nederlands als Tweede Taal) en ESL printables (English as a Second Language) vertegenwoordigen een grote en groeiende wereldwijde markt waar taalverkopers, NT2-verkopers, privétutors, taalscholen, gemeenschapsorganisaties en immigrant- en vluchtelingengezinnen het hele kalenderjaar door woordenschatopbouwwerkbladen, visueel ondersteunde activiteiten, gestaffelde oefenmaterialen en gespreksstartersbronnen kopen. De populaties van taalleerders breiden uit in schooldistricten wereldwijd naarmate migratiepatronen nieuwe gemeenschappen van gebruikers creëren die aanvullend materiaal nodig hebben dat specifiek is ontworpen voor niet-moedertaalsprekers. Het kopersbestand is uniek internationaal omdat NT2- en ESL-kopers uit tientallen landen komen, wat vraag creëert over tijdzones en seizoenen heen die deze niche isoleert van de kalendergedreven kooppatronen die veel educatieve printable-categorieën beperken. Visueel zwaar en vocabulairegericht materiaal brengt sterke prijzen op omdat taalleerders op alle vaardigheidsniveaus beeldondersteunde bronnen, gelabelde activiteiten en begripsteigers nodig hebben. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'NT2 printables verkopen: een gefinancierde niche',
+    description: 'De NT2-markt (Nederlands als Tweede Taal) is een van de best gefinancierde educatieve niches in Nederland dankzij de Wet inburgering 2021 en groeiende aantallen nieuwkomers. Gemeenten, taalscholen, ROC\'s en schakelklassen kopen structureel werkbladmateriaal voor volwassen en jeugdige taalleerders. Visueel ondersteunde werkbladen met woordlabels, vereenvoudigde instructies en progressieve taalmoeilijkheid brengen premium prijzen op. Met onze generators maakt u woordzoekers met dagelijkse-leven vocabulaire, koppelactiviteiten met beeldlabeling en telwerkbladen die getalherkenning combineren met woordenschatopbouw. Bied materiaal aan op meerdere taalniveaus (A1, A2, B1) en u bedient zowel de Nederlandse NT2-markt als het internationale ESL-segment. Het hele jaar door stromen nieuwe taalleerders in, waardoor seizoensdalen ontbreken. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De NT2/ESL printable-markt vertegenwoordigt een substantiële en groeiende omzetkans omdat populaties van taalleerders snel toenemen terwijl internationale vraag vanuit taalscholen en tutors een wereldwijde kopersdimensie toevoegt die de meeste educatieve printable-niches volledig missen. In Nederland groeit het aantal nieuwkomers en statushouders dat NT2-onderwijs ontvangt gestaag, en basisscholen met schakelproductlijnen en taalproductlijnen zoeken voortdurend naar aanvullend werkbladmateriaal voor anderstalige gebruikers. Volwassen NT2-programma\'s breiden gelijktijdig uit naarmate inburgeringstrajecten, ROC-taalcursussen en gemeenschapsliteracyprogramma\'s groeiende populaties van volwassen taalleerders bedienen die praktische vocabulaire, werkgerelateerd Nederlands en dagelijkse levenstaalvaardigheden nodig hebben. Internationaal bedienen ESL-programma\'s vergelijkbare populaties in het Engels, wat een enorm aanvullend marktsegment creëert voor Engelstalige producten.
 
@@ -147,54 +147,19 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoekers met NT2-vocabulaire maken',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen voor taalverwerving',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-word-search-puzzles',
-      anchorText: 'Professionele woordzoekpuzzels maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'special-education-printable-ideas',
-      anchorText: 'speciale producten printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'homeschool-printable-ideas',
-      anchorText: 'Thuisonderwijs printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'preschool-printable-ideas',
-      anchorText: 'Peuterspeelzaal printable businessideeën',
+      pageType: 'bundle',
+      slug: 'lezen-taal-pakket',
+      anchorText: 'Lezen en taal pakket voor taalonderwijs',
     },
   ],
 

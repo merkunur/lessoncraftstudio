@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'printables verkopen op Gumroad',
+    primaryKeyword: 'printables verkopen op Gumroad gids',
     secondaryKeywords: [
-      'hoe printables verkopen op Gumroad',
-      'Gumroad printable bedrijf opzetten',
-      'digitale downloads verkopen op Gumroad',
-      'Gumroad voor printable verkopers',
+      'hoe printables verkopen op Gumroad stap voor stap',
+      'Gumroad printable bedrijf opzetten Nederland',
+      'digitale werkbladen verkopen via Gumroad',
+      'Gumroad winkel maken voor educatieve printables',
     ],
     lsiKeywords: [
       'creator-direct verkoopplatform digitale downloads directe levering e-maillijst',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'social media verkeer Pinterest Instagram blogcontent SEO promotie',
       'productbundels lidmaatschappen abonnementen terugkerende inkomsten catalogusschaling',
     ],
-    titleTag: 'Printables Verkopen op Gumroad — Gids',
-    metaDescription: 'Printables verkopen op Gumroad zonder maandelijkse kosten. Winkelpagina opzetten, prijsstrategieën, e-mailmarketing en directe klantrelaties opbouwen.',
+    titleTag: 'Printables verkopen op Gumroad | LessonCraftStudio',
+    metaDescription: 'Verkoop printables op Gumroad zonder maandelijkse kosten. Winkel opzetten, prijsstrategie, e-mailmarketing en directe klantrelaties opbouwen.',
   },
 
   hero: {
-    title: 'Hoe Printables Verkopen op Gumroad',
-    tagline: 'Een complete gids voor het verkopen van printbare werkbladen en educatief materiaal rechtstreeks aan kopers via Gumroad — inclusief winkelinrichting, productcreatie, flexibele prijsopties waaronder pay-what-you-want, ingebouwde e-mailmarketing voor publiekopbouw, verkeergeneratiestrategieën voor een creator-direct platform, productpagina-optimalisatie voor hogere conversie en schalen met bundels en lidmaatschappen voor terugkerende inkomsten',
-    description: 'Gumroad is fundamenteel anders dan marktplaatsplatformen zoals Etsy, Amazon KDP of Gumroad. Op die platformen zorgt ingebouwde zoekfunctionaliteit voor ontdekking — kopers bladeren door de marktplaats en vinden je producten via algoritmen. Op Gumroad ben jij de marktplaats. Je brengt je eigen publiek mee, bezit de klantrelatie en behoudt e-mailadressen van kopers voor directe marketing. Deze gids behandelt alles wat je nodig hebt om printables succesvol op Gumroad te verkopen, van de eerste winkelinrichting tot schaling met bundels en lidmaatschappen.',
+    title: 'Printables verkopen op Gumroad: complete handleiding',
+    tagline: 'Winkel opzetten, prijsstrategie bepalen en een publiek opbouwen om printbare werkbladen direct aan kopers te verkopen via Gumroad',
+    description: 'Gumroad is fundamenteel anders dan marktplaatsplatformen zoals Etsy of Amazon KDP. Op Gumroad brengt u uw eigen publiek mee, bezit u de klantrelatie en behoudt u e-mailadressen voor directe marketing. Deze gids behandelt alles wat u nodig heeft om printables succesvol te verkopen: winkelinrichting, productcreatie, prijsstrategie en schaling met bundels en lidmaatschappen.',
   },
 
   introduction: 'De meeste printable verkopers beginnen op marktplaatsplatformen waar ingebouwd zoekverkeer het zware werk doet. Etsy heeft miljoenen actieve shoppers die naar digitale downloads zoeken. Amazon KDP toont je activiteitenboeken aan lezers via het aanbevelingssysteem. Gumroad verbindt je materialen met verkopers die actief zoeken op niveaucategorie en vak. Deze marktplaatsen bieden ontdekking, maar ze beheersen ook de klantrelatie, nemen aanzienlijke commissies en kunnen hun algoritmen of beleid op elk moment wijzigen.\n\nGumroad werkt op een volledig ander model. Er is geen marktplaatszoekfunctie, geen algoritme dat je producten rangschikt tegenover concurrenten en geen door het platform gestuurd ontdekkingsmechanisme. In plaats daarvan geeft Gumroad je een schone, aanpasbare winkelpagina waar je rechtstreeks verkoopt aan kopers die je via je eigen marketinginspanningen binnenbrengt. De afweging is eenvoudig: je doet meer werk om verkeer te genereren, maar je behoudt meer controle over je bedrijf en je klantrelaties.\n\nDeze afweging verdient serieuze overweging voor printable verkopers in elk stadium. Gumroad rekent nul maandelijkse kosten — je betaalt een vast tarief van 10% alleen wanneer je een verkoop maakt. Vergelijk dat met Etsy\'s vermeldingskosten, transactiekosten, betalingsverwerkingskosten en advertentiekosten die 20% tot 30% van je omzet kunnen opslokken. Vergelijk het met Amazon KDP\'s 40% tot 65% royalty-inhouding op activiteitenboeken. Op Gumroad houd je 90% van elke verkoop na betalingsverwerking, en je weet precies wat je kosten zijn voordat je een enkel product prijst.\n\nMaar het financiële voordeel is niet eens Gumroad\'s grootste pluspunt voor printable verkopers die een langetermijnbedrijf opbouwen. De echte waarde is klantdata. Wanneer iemand je printable op Etsy koopt, bezit Etsy die klantrelatie. Je kunt die koper niet e-mailen over je nieuwe producten, geen korting aanbieden op gerelateerd materiaal en geen directe verbinding opbouwen. Op Gumroad krijg je het e-mailadres van de koper bij elke aankoop. Je kunt je klanten e-mailen over nieuwe releases, exclusieve kortingscodes aanbieden aan terugkerende kopers en een publiek opbouwen dat geen platformwijziging je kan afnemen.\n\nGumroad biedt ook prijsflexibiliteit die marktplaatsplatformen niet kunnen evenaren. Je kunt vaste prijzen instellen, pay-what-you-want prijsstelling aanbieden met een minimum, gedifferentieerde prijzen creëren voor verschillende licentietypes, unieke kortingscodes genereren voor promoties en aanbiedingslinks gebruiken die kortingen automatisch toepassen. Deze flexibiliteit laat je experimenteren met prijsstrategieën die onmogelijk zijn op platformen met rigide prijsstructuren.\n\nDeze gids is ontworpen voor printable verkopers die Gumroad willen toevoegen als verkoopkanaal of hun primaire bedrijf op het platform willen bouwen. Of je nu al verkoopt op Etsy of Gumroad en wilt diversifiëren, of je begint helemaal opnieuw en geeft de voorkeur aan het creator-direct model, de onderstaande strategieën nemen je mee van accountregistratie tot het opbouwen van een schaalbaar Gumroad printable bedrijf. Als je platformen vergelijkt om te beslissen waar je wilt verkopen, behandelt onze gids over Amazon KDP versus Etsy de marktplaatsvergelijking in detail — Gumroad toevoegen als direct verkoopkanaal vult beide marktplaatsbenaderingen aan.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'verkopen-creative-fabrica', anchorText: 'Educatief Materiaal Verkopen op Creative Fabrica' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Een Etsy Printable Shop Starten' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Etsy Printables Prijzen Bepalen' },
-    { pageType: 'guide', slug: 'kdp-of-etsy-printables', anchorText: 'Amazon KDP of Etsy: Waar Printables Verkopen' },
     { pageType: 'guide', slug: 'verkopen-creative-fabrica', anchorText: 'Verkopen op Creative Fabrica' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP vs Etsy: waar printables verkopen' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator' },
   ],
 
   toolsRecommended: [

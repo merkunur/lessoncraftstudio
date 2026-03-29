@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'doolhof werkblad generator',
+    primaryKeyword: 'gratis doolhoven met afbeeldingen',
     secondaryKeywords: [
-      'doolhof werkblad generator voor verkopers',
-      'afbeeldingspad doolhof werkbladen maken om te verkopen',
-      'printbare doolhof puzzel maker commercieel gebruik',
-      'doolhof activiteit werkblad maker voor KDP en Etsy',
+      'doolhof werkbladen online maken gratis',
+      'afbeeldingspad doolhof generator gratis proberen',
+      'doolhof puzzel maker drie spelmodi',
+      'doolhoven met afbeeldingen werkblad gratis',
     ],
     lsiKeywords: [
-      'drie spelmodi afbeeldingspad klassiek doolhof kies het pad',
-      'LPF langste pad eerst algoritme wandgebaseerde doolhof creator',
-      'automatisch antwoordblad roze cirkel oplossingspad doolhof generator',
+      'drie spelmodi afbeeldingspad klassiek doolhof online',
+      'LPF langste pad eerst algoritme doolhof gratis',
+      'automatisch antwoordblad doolhof generator online',
     ],
-    titleTag: 'Plaatjespad Maker — Doolhof Werkblad Generator',
-    metaDescription: 'Maak doolhof werkbladen met Afbeeldingspad, Klassiek Doolhof en Kies het Juiste Pad modi, verzamelobjecten en automatische antwoordbladen.',
+    titleTag: 'Doolhoven gratis online maken | LessonCraftStudio',
+    metaDescription: 'Maak doolhof werkbladen met Afbeeldingspad, Klassiek Doolhof en Kies het Pad modi met automatische antwoordbladen. Gratis proberen, geen registratie.',
   },
 
   hero: {
-    title: 'Plaatjespad Doolhof Maker',
-    tagline: 'Drie-modi doolhof werkblad generator met Afbeeldingspad (afbeeldingsraster padvolgen), Klassiek Doolhof (LPF wandgebaseerd algoritme met verzamelobjecten en doodlopende-pad-blokkering) en Kies het Juiste Pad (driepad richtingsdoolhoven), vijf afbeeldingsrollen (Start, Einde, Pad, Afleiding, Decoratie), aanpasbaar wandontwerp met kleur/dikte/dekking regelaars, automatisch gegenereerde antwoordbladen met roze cirkel oplossingsmarkering en verzamelobject-legendes, en volledig visuele doolhoven die wereldwijd verkopen zonder vertaling',
-    description: 'Maak professionele doolhof- en padwerkbladen met drie verschillende spelmodi in één generator. Afbeeldingspad maakt een raster van afbeeldingen waarbij gebruikers het juiste pad volgen van start tot finish door padafbeeldingen te herkennen tussen afleidingen — ideaal voor jongere gebruikers en visuele discriminatietaken. Klassiek Doolhof genereert wandgebaseerde doolhoven met het LPF-algoritme (Langste Pad Eerst) met een gang-cel systeem en dynamische wandplaatsing. Kwaliteitsscoring evalueert bochten, lengte en blokkades om uitdagende maar oplosbare doolhoven te garanderen. Configureer rasterformaten van 15×15 tot 20×20, stel 1 tot 3 paden in met automatische doodlopende-pad-blokkering, en pas wandkleur (elke kleur via kleurkiezer), wanddikte (1–10px, standaard 3px) en wanddekking (10–100%, standaard 100%) aan. Verzamelobjecten verspreiden door Klassiek Doolhof gangen — configureer 1–4 verzamelobjecttypen, 1–3 minimale kopieën en 1–10 maximale kopieën per type. Kies het Juiste Pad presenteert driepad-doolhoven met vier richtingsopties (onder-naar-boven, boven-naar-onder, links-naar-rechts, rechts-naar-links) waarbij gebruikers de enige juiste route identificeren tussen afleidende routes. Wijs afbeeldingen toe aan vijf verschillende rollen: Startafbeelding (ingangspunt), Eindafbeelding (bestemming — 1 voor Afbeeldingspad/Doolhof, 3 voor Kies het Pad), Padafbeeldingen (juiste routemarkeringen of verzamelobjecten), Afleidingsafbeeldingen (niet-pad opvulling) en Decoratie (vrije canvasplaatsing). Elke modus genereert een bijbehorend antwoordblad op een apart canvas-tabblad — oplossingspaden worden gemarkeerd met roze cirkels langs de juiste route. Kies het Pad modus voegt een "✓ JUIST PAD"-label toe. Klassiek Doolhof bevat een verzamelobject-legende die elke afbeelding en het aantal langs het oplossingspad toont. De automatisch gegenereerde "Afbeeldingspad"-koptekst rendert een oranje buitenkader (8px streek) met 34px marges, gelokaliseerde titel en "Volg het pad" instructies in alle 11 ondersteunde talen. Staande werkbladen tonen een 240px koptekst; liggend gebruikt een compacte 165px indeling. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen PNG-, JPG- of GIF-afbeeldingen. Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) en tekstomlijning 0–10. Schakel naam- en datumvelden in voor gebruikeridentificatie. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI (6× vermenigvuldiger) in Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. Bewerk op het Fabric.js-canvas met 6 uitlijnopties plus centreren-op-pagina, laagbeheer, vergrendelen/ontgrendelen, zoom 25%–300% in stappen van 25% en ongedaan maken/opnieuw uitvoeren tot 20 statussen. Afbeeldingspad doolhoven zijn volledig visueel — geen lees- of taalvaardigheid vereist, waardoor elk werkblad direct verkoopbaar is op elke markt wereldwijd. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis doolhoven met afbeeldingen online maken',
+    tagline: 'Drie-modi doolhof werkblad generator met Afbeeldingspad, Klassiek Doolhof en Kies het Juiste Pad, vijf afbeeldingsrollen, aanpasbaar wandontwerp en automatische antwoordbladen',
+    description: 'Probeer onze doolhof werkbladen generator gratis en maak direct professionele doolhoven met afbeeldingen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: drie spelmodi (Afbeeldingspad, Klassiek Doolhof met LPF-algoritme en Kies het Juiste Pad), vijf afbeeldingsrollen, aanpasbaar wandontwerp met kleur-, dikte- en dekkingsregelaars, en verzamelobjecten voor extra uitdaging. Kies uit meer dan 3.100 illustraties over 104 thema\'s of upload eigen afbeeldingen. Elk werkblad bevat een automatisch gegenereerd antwoordblad met roze cirkel oplossingsmarkering. Exporteer als printklare PDF of hoge-resolutie JPEG op 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die puzzelactiviteiten zoeken, leerkrachten die visuele probleemoplossing werkbladen nodig hebben, en iedereen die professionele doolhoven wil genereren.',
   },
 
   tutorial: {
-    title: 'Doolhof Werkbladen Maken in 8 Stappen',
+    title: 'Doolhoven gratis online maken in 8 stappen',
     steps: [
       {
         title: 'Open de Plaatjespad Doolhof Maker',
@@ -205,7 +205,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Afbeeldingspad Doolhof Puzzels — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'kinder-sudoku-maker', anchorText: 'Plaatjes Sudoku Maker' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Puzzel Maker' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },

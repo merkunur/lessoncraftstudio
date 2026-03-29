@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'geld verdienen KDP activiteitenboeken',
+    primaryKeyword: 'geld verdienen met activiteitenboeken KDP',
     secondaryKeywords: [
       'hoe geld verdienen met KDP activiteitenboeken',
       'KDP activiteitenboek inkomensstrategieën',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'multi-platform Etsy Gumroad digitale printable uitbreiding',
       'KDP rapporten prestatietracking omzet per titel analyse',
     ],
-    titleTag: 'Geld Verdienen KDP Activiteitenboeken — Gids',
-    metaDescription: 'Geld verdienen met KDP activiteitenboeken. Prijsstelling, catalogusopbouw, royaltyberekeningen, seizoenspublicatie en multi-platform opschalingsstrategie.',
+    titleTag: 'Geld verdienen met KDP-boeken | LessonCraftStudio',
+    metaDescription: 'Verdien geld met KDP activiteitenboeken. Royaltyberekeningen, prijssweet spots, catalogusopbouw, seizoenspublicatie en multi-platform strategie.',
   },
 
   hero: {
-    title: 'Hoe Geld Verdienen met KDP Activiteitenboeken',
-    tagline: 'Een uitgebreide omzetgids voor Amazon KDP activiteitenboek uitgevers — inclusief royaltyberekening en prijssweet spots, cataloguseconomie die maandelijkse inkomsten samenstellen, seizoenspublicatiestrategieën voor feestdagenomzetpieken, Amazon zoekwoordoptimalisatie voor maximale verkopen, productieopschaling over meerdere activiteitenboektypes, prestatietracking om te verdubbelen op winnaars, en multi-platform uitbreiding naar Etsy en Gumroad voor extra inkomensstromen',
-    description: 'Activiteitenboeken publiceren op Amazon KDP is eenvoudig. Consistent groeiende inkomsten eruit halen vereist een bewuste bedrijfsstrategie. Deze gids gaat niet over hoe je activiteitenboeken maakt — onze andere KDP-gidsen behandelen reken activiteitenboeken, puzzelboeken, woordzoekerboeken en opmaak in detail. Deze gids gaat over het geld: hoe KDP-royalty\'s daadwerkelijk werken voor activiteitenboeken, hoe je prijst voor maximale winst in plaats van maximale verkopen, waarom een catalogus van 10 boeken veel meer verdient dan 10 keer wat één boek verdient, en hoe je een uitgeversbedrijf bouwt dat samengestelde maandelijkse omzet genereert in plaats van eenmalige verkopen.\n\nElke generator die in deze gids wordt genoemd is beschikbaar als gratis proefversie met watermerk.',
+    title: 'Geld verdienen met KDP activiteitenboeken',
+    tagline: 'Royaltyberekeningen, cataloguseconomie en seizoensstrategie',
+    description: 'Activiteitenboeken publiceren op Amazon KDP is eenvoudig. Consistent groeiende inkomsten eruit halen vereist een bewuste bedrijfsstrategie. Deze gids gaat over het geld: hoe KDP-royalty\'s werken, hoe u prijst voor maximale winst, waarom een catalogus van 10 boeken veel meer verdient dan 10 keer wat een boek verdient, en hoe u een uitgeversbedrijf bouwt dat samengestelde maandelijkse omzet genereert. Elke generator biedt een gratis proefversie met watermerk.',
   },
 
-  introduction: 'Activiteitenboeken behoren tot de meest betrouwbare inkomenscategorieën op Amazon KDP omdat ze twee krachtige bedrijfsdynamieken combineren: gestage vraag het hele jaar door en een ingebouwde consumptiecyclus. In tegenstelling tot romans of naslagwerken die een koper één keer leest en voor altijd bewaart, raken activiteitenboeken op. Een kind maakt een rekenwerkboek af, een puzzelliefhebber voltooit een woordzoekercollectie, een ouder werkt door een kleurboek met hun peuter — en dan hebben ze een nieuw nodig. Dit herhaalaankoopgedrag is de basis van de economie van activiteitenboekuitgeven.\n\nDe KDP activiteitenboekmarkt omspant tientallen subcategorieën: rekenwerkboeken, woordzoekercollecties, kruiswoordpuzzels, sudokuboeken, kleurboeken, tekenprompts, letters overtrekken, doolhoven en meer. Elke subcategorie heeft zijn eigen vraagcurve, concurrentiedichtheid en prijsdynamiek. Maar het onderliggende bedrijfsmodel is hetzelfde over allemaal: lage royalty\'s per verkoop die optellen via volume, catalogusdiepte en tijd.\n\nDe meeste nieuwe KDP-uitgevers maken twee fundamentele fouten. Ten eerste richten ze zich volledig op het maken van één uitstekend boek in plaats van een catalogusstrategie te plannen. Een enkel activiteitenboek, hoe goed ook, heeft een omzetplafond. Ten tweede prijzen ze op basis van wat goed voelt in plaats van de werkelijke royaltyberekening door te rekenen bij verschillende prijspunten en pagina-aantallen. Het verschil tussen het prijzen van een 60-pagina rekenwerkboek op $6,99 en $8,99 kan het verschil betekenen tussen $0,20 per verkoop en $1,40 per verkoop verdienen — een 7x royalty-toename van een $2 prijswijziging.\n\nDeze gids richt zich uitsluitend op de bedrijfs- en omzetkant van KDP activiteitenboek uitgeven. Voor gedetailleerde instructies over het maken van specifieke activiteitenboektypes raadpleeg de gidsen over reken activiteitenboeken, puzzelboeken en woordzoekerboeken. Hier behandelen we wat geen van die gidsen adresseert: de economie, prijsstrategie, catalogusplanning, seizoenstiming, prestatieoptimalisatie en multi-platform uitbreiding die activiteitenboekuitgeven transformeren van een hobby naar een inkomensstroom.',
+  introduction: 'Activiteitenboeken combineren twee krachtige bedrijfsdynamieken: gestage vraag het hele jaar door en een ingebouwde consumptiecyclus. Anders dan romans raken activiteitenboeken op: een kind maakt een werkboek af, een puzzelliefhebber voltooit een collectie, en dan hebben ze een nieuw nodig. De meeste nieuwe uitgevers maken twee fundamentele fouten: ze richten zich op een enkel boek in plaats van een catalogusstrategie, en ze prijzen op gevoel in plaats van de royaltyberekening door te rekenen. Het verschil tussen $6,99 en $8,99 voor een 60-pagina boek kan 7x meer royalty per verkoop betekenen. Deze gids behandelt de economie, prijsstrategie, catalogusplanning, seizoenstiming en multi-platform uitbreiding die activiteitenboekuitgeven transformeren van hobby naar inkomensstroom.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Hoe Reken Activiteitenboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Hoe Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'woordzoeker-boeken-kdp', anchorText: 'Hoe Woordzoekerboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
-    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Top KDP Activiteitenboek Niches' },
-    { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Hoe Sudokuboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Hoe Etsy Werkblad Bundels Maken' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Sudoku Generator' },
     { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Werkblad Generator — Volledige Details' },
   ],
 

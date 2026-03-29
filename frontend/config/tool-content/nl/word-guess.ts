@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'raad het woord werkblad generator',
+    primaryKeyword: 'gratis woordraadspel maken',
     secondaryKeywords: [
-      'raad het woord werkblad maker voor verkopers',
-      'spelling raadwerkbladen maken om te verkopen',
-      'printbare woordopbouw werkbladen met commerciële licentie',
-      'raad het woord generator voor KDP',
+      'raad het woord werkbladen gratis online maken',
+      'gratis woordraadsel werkblad generator',
+      'woordraadspel gratis genereren zonder account',
+      'raad het woord puzzel online maken',
     ],
     lsiKeywords: [
       'visuele spelling printables voor Etsy',
       'beeldgebaseerde woordopbouw werkblad tool',
       'meertalige spellingactiviteit generator',
     ],
-    titleTag: 'Raad het Woord Werkblad Maker | Verkoop Printables',
-    metaDescription: 'Genereer raad-het-woord werkbladen met 4 moeilijkheidsniveaus, twee invoermodi, letters uitsluiten, 11 talen en 104 thema\'s. Gratis proefversie met.',
+    titleTag: 'Woordraadspel gratis online maken | LessonCraftStudio',
+    metaDescription: 'Maak gratis raad-het-woord werkbladen online met 4 moeilijkheidsniveaus, twee invoermodi, 104 beeldthema\'s en antwoordbladen. Geen account nodig.',
   },
 
   hero: {
-    title: 'Raad het Woord Werkblad Maker',
-    tagline: 'Maak beeldgebaseerde spellingwerkbladen met 4 aanwijzingsniveaus in 11 talen',
-    description: 'Verander woordenschatoefening in een visuele puzzel die gebruikers graag oplossen en verkopers solide inkomsten oplevert. Deze tool genereert raad-het-woord werkbladen waarbij een afbeeldingsaanwijzing gekoppeld is aan een letterraster met lege plekken — gebruikers bestuderen het plaatje en vullen de ontbrekende letters in om het woord te spellen. De opvallende functie is een 4-niveaus progressief aanwijzingensysteem: Geen Aanwijzingen onthult nul letters voor puur geheugenwerk, Makkelijk onthult de helft van de letters voor ondersteunde beginners, Normaal onthult een kwart voor gebalanceerde uitdaging, en Moeilijk onthult slechts een zesde voor zelfverzekerde spellers. Kies tussen twee invoermodi: Afbeeldingsaanwijzing haalt woordenschat uit meer dan 3100 afbeeldingen over 104 thematische collecties met automatische letterrastergeneratie, of Aangepaste Woordenlijst laat je woorden direct typen voor gerichte woordenschatoefening zonder afbeeldingen. De functie Letters Uitsluiten verwijdert specifieke letters uit rasters — sluit klinkers uit voor fonetisch gerichte oefeningen of sluit veelvoorkomende letters uit voor een moeilijkere uitdaging. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en dezelfde afbeelding produceert een andere correcte spelling. Een hondafbeelding genereert "HOND" in het Nederlands, "DOG" in het Engels, "HUND" in het Duits, "CHIEN" in het Frans. Eén werkbladontwerp wordt 11 unieke taalproducten met oprecht verschillende antwoorden. Stel hoofdletters of kleine letters in, schakel oefeningnummering in, voeg aangepaste tekstoverlays toe en kies uit 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG met optionele antwoordbladgeneratie. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis raad het woord werkbladen online maken',
+    tagline: 'Maak beeldgebaseerde spellingpuzzels met 4 aanwijzingsniveaus, twee invoermodi en antwoordbladen — direct in uw browser',
+    description: 'Maak raad-het-woord werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: een afbeeldingsaanwijzing gekoppeld aan een letterraster met lege plekken, waarbij gebruikers de ontbrekende letters invullen om het woord te spellen. Het 4-niveaus aanwijzingensysteem regelt de moeilijkheid — van Geen Aanwijzingen (puur geheugenwerk) tot Makkelijk (helft van de letters onthuld). Kies tussen twee invoermodi: Afbeeldingsaanwijzing haalt woordenschat uit meer dan 3.100 afbeeldingen over 104 thematische collecties, of Aangepaste Woordenlijst laat u woorden direct typen. De functie Letters Uitsluiten verwijdert specifieke letters voor gerichte fonetische oefening. De tool is taalgebonden — dezelfde afbeelding produceert per taal een andere correcte spelling in 11 ondersteunde talen. Antwoordbladen worden automatisch gegenereerd. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 
   tutorial: {
-    title: 'Raad het Woord Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Woordraadspel werkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de raad het woord werkblad maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'woordraadsel-werkbladen', anchorText: 'Raad het Woord Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'woordraadsel-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabettrein Maker' },
     { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Voorzetsels Werkblad Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },

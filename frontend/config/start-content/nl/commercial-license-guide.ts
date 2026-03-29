@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'commercieel gebruik printable licentie',
+    primaryKeyword: 'commerciële licentie voor printables-verkopers',
     secondaryKeywords: [
-      'commerciële licentie voor printbare werkbladen',
-      'werkbladen commercieel verkopen etsy amazon',
-      'printable bedrijf licentiegids',
-      'werkblad generator commerciële rechten',
+      'commerciële licentie printbare werkbladen',
+      'werkbladen commercieel verkopen Etsy Amazon',
+      'printable bedrijf licentiegids Nederland',
+      'werkblad generator commerciële rechten verkopers',
     ],
     lsiKeywords: [
-      'commercieel gebruik licentie voor digitale downloads',
-      'printable verkoper licentievereisten',
-      'etsy digitale download commerciële licentie',
-      'amazon kdp activiteitenboek licentie',
-      'werkblad generator licentie niveaus',
+      'commercieel gebruik licentie digitale downloads',
+      'printable verkoper licentievereisten Etsy KDP',
+      'Etsy digitale download commerciële licentie',
+      'Amazon KDP activiteitenboek licentie',
+      'werkblad generator licentie twee niveaus',
       'commercieel versus persoonlijk gebruik printables',
     ],
-    titleTag: 'Commercieel Gebruik Printable Licentie Gids voor Verkopers',
-    metaDescription: 'Begrijp commercieel gebruik printable licenties voor het verkopen van werkbladen op Etsy, Amazon KDP en andere platforms. Twee niveaus uitgelegd met.',
+    titleTag: 'Commerciële licentie voor verkopers | LessonCraftStudio',
+    metaDescription: 'Begrijp commerciële licenties voor het verkopen van werkbladen op Etsy, Amazon KDP en Bol.com. Twee niveaus uitgelegd: wat u mag verkopen en waar.',
   },
 
   hero: {
-    title: 'De Commerciële Licentie Gids voor Printable Verkopers',
-    tagline: 'Alles wat je moet weten over commerciële licenties voor werkblad generators — wat je mag verkopen, waar je het mag verkopen, en welk niveau bij je bedrijf past',
-    description: 'Commerciële licenties zijn het meest misverstane onderwerp in het printable bedrijf. Verkopers maken zich zorgen of ze het recht hebben om gegenereerde werkbladen te verkopen, welke platforms gedekt zijn, en of ze aparte licenties nodig hebben voor elk product of elke vermelding. Deze gids elimineert die verwarring volledig. Je leert precies wat een commerciële licentie dekt, wat de twee prijsniveaus omvatten, hoe de licentie van toepassing is op elk groot verkoopplatform, en hoe de gratis proefversie met watermerk je alles laat evalueren voordat je aanschaft.',
+    title: 'Commerciële licentie: wat mag u verkopen en waar',
+    tagline: 'Alles over commerciële licenties voor werkblad generators',
+    description: 'Commerciële licenties zijn het meest misverstane onderwerp in het printable bedrijf. Verkopers maken zich zorgen of ze het recht hebben om gegenereerde werkbladen te verkopen, welke platforms gedekt zijn, en of ze aparte licenties nodig hebben voor elk product. Deze gids elimineert die verwarring volledig. U leert precies wat een commerciële licentie dekt, wat de twee prijsniveaus omvatten, hoe de licentie van toepassing is op elk groot verkoopplatform inclusief Etsy, Amazon KDP, Bol.com en uw eigen website, en hoe de gratis proefversie met watermerk u alles laat evalueren voordat u aanschaft. Beide niveaus bieden onbeperkte werkbladgeneratie en verkoop op elk platform.',
   },
 
   introduction: 'Licentieverwarring doodt meer printable bedrijven dan slechte producten ooit doen. Niet omdat de regels ingewikkeld zijn — dat zijn ze niet — maar omdat verkopers ofwel nooit hun licentievoorwaarden controleren of beperkingen aannemen die niet bestaan. Beide fouten kosten geld.\n\nVerkopers die licentieonderzoek overslaan riskeren een productcatalogus te bouwen op tools die ze niet legaal mogen gebruiken voor commerciële doeleinden. Eén verwijderingsmelding van een rechthebbende kan maanden werk tenietdoen — verwijderde producten, verloren beoordelingen en beschadigde verkopersreputatie. Verkopers die te strenge beperkingen aannemen laten daarentegen geld liggen door geen producten te maken die ze volledig gerechtigd zijn te verkopen.\n\nDeze gids richt zich specifiek op LessonCraftStudio werkblad generator licenties — wat ze dekken, wat ze kosten en hoe ze van toepassing zijn op werkelijke verkoopscenario\'s op Etsy, Amazon KDP, Gumroad, Gumroad en andere platforms. Het doel is je volledige zekerheid te geven over je commerciële rechten zodat je je kunt richten op het bouwen van producten in plaats van je zorgen te maken over juridische blootstelling.\n\nElke generator biedt een gratis proefversie met watermerk, waardoor je volledige toegang hebt tot alle functies voordat je iets uitgeeft. De proefversie laat je de uitvoerkwaliteit evalueren, verschillende thema\'s en instellingen testen en bevestigen dat de generators aan je productiebehoeften voldoen — allemaal voordat je een licentiebeslissing neemt.',
@@ -199,17 +199,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'meertalige-werkbladen-maken', anchorText: 'Hoe Werkbladen te Maken in 11 Talen' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optelling Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optelling Maker' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids printables-business starten' },
+    { pageType: 'start', slug: 'juridische-basis-printable-bedrijf', anchorText: 'Juridische zaken voor uw printables-business' },
+    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Hoeveel verdienen met printables' },
   ],
 
   visuals: {

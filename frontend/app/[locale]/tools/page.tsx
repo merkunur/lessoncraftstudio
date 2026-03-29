@@ -30,7 +30,7 @@ const toolsKeywords: Record<string, string[]> = {
   es: ['generadores imprimibles gratis', 'creador de fichas online gratis', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas gratis', 'creador colorear online gratis'],
   pt: ['geradores imprimíveis grátis', 'criador de fichas online', 'ferramentas imprimíveis teste grátis', 'gerador caça-palavras grátis', 'gerador fichas matemática', 'criador colorir online'],
   it: ['generatori stampabili gratis', 'creatore schede online', 'strumenti stampabili prova gratis', 'generatore cerca parole gratis', 'generatore schede matematica', 'creatore disegni colorare online'],
-  nl: ['gratis printbare generatoren', 'online werkbladmaker', 'printable tools gratis proberen', 'woordzoeker generator gratis', 'rekenwerkblad generator', 'kleurplaat maker online'],
+  nl: ['gratis printables-generators online', 'gratis werkblad maker', 'gratis woordzoeker generator', 'gratis rekenbladen maker', 'gratis kleurplaten generator', 'werkbladen online maken'],
   sv: ['gratis utskriftsgeneratorer', 'online arbetsbladsskapare', 'utskriftsverktyg prova gratis', 'ordsökningsgenerator gratis', 'mattearbetsbladsgenerator', 'målarbildsskapare online'],
   da: ['gratis printbare generatorer', 'online opgaveskaber', 'printable-værktøjer prøv gratis', 'ordsøgningsgenerator gratis', 'matematikopgave-generator', 'malebilledskaber online'],
   no: ['gratis utskriftsgeneratorer', 'online oppgaveskaper', 'utskriftsverktøy prøv gratis', 'ordsøkgenerator gratis', 'matteoppgave-generator', 'fargeleggingsskaper online'],
@@ -63,8 +63,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Prova 33 generatori di stampabili gratis online. Senza registrazione. Crucipuzzle, matematica, colorare, puzzle e altro. Download con filigrana.',
   },
   nl: {
-    title: 'Gratis printbare generatoren | 33 tools | LessonCraftStudio',
-    description: 'Probeer alle 33 werkbladgeneratoren gratis online. Geen registratie. Woordzoekers, rekenen, kleurplaten, puzzels en meer met watermerk.',
+    title: '33 gratis generators — Probeer online | LessonCraftStudio',
+    description: 'Probeer 33 gratis werkblad-generators online met watermerk. Woordzoekers, rekenbladen, kleurplaten, puzzels en meer. Geen account nodig — direct beginnen.',
   },
   sv: {
     title: 'Gratis utskriftsgeneratorer | 33 verktyg | LessonCraftStudio',
@@ -169,8 +169,8 @@ const toolsContent: Record<string, {
     categories: { math: 'Matematica', literacy: 'Lettura e Linguaggio', visual: 'Apprendimento Visivo', matching: 'Abbinamento', puzzle: 'Puzzle e Logica', search: 'Cerca e Trova' },
   },
   nl: {
-    heroTitle: 'Gratis printbare generatoren',
-    heroSubtitle: 'Probeer alle 33 generatoren gratis online. Geen registratie. Maak professionele werkbladen met watermerk.',
+    heroTitle: '33 gratis generators — probeer ze nu online',
+    heroSubtitle: 'Maak werkbladen, puzzels en kleurplaten gratis online met watermerk. Geen account nodig. Bekijk de kwaliteit voordat u een commerciële licentie koopt.',
     exploreMore: 'Meer ontdekken',
     howToGuides: 'Handleidingen',
     bundles: 'Bundels',

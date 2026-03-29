@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'social media marketing printables',
+    primaryKeyword: 'social media voor printables-verkopers',
     secondaryKeywords: [
-      'social media strategie voor printable verkopers',
-      'Instagram marketing educatieve printables Etsy',
-      'TikTok promotie digitale producten verkopen',
-      'Facebook groepen printable bedrijf klanten werven',
+      'Instagram marketing printables Etsy',
+      'TikTok promotie digitale producten',
+      'Facebook groepen printable bedrijf',
+      'social media strategie werkbladen verkopen',
     ],
     lsiKeywords: [
       'social media contentkalender printable producten visuele marketing',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Pinterest Instagram crossplatform strategie digitale producten',
       'social media analytics conversie optimalisatie printable verkoop',
     ],
-    titleTag: 'Social Media Marketing voor Printable Verkopers — Gids',
-    metaDescription: 'Social media marketing voor printable verkopers: Instagram, Facebook, TikTok strategieën. Leer hoe je werkbladen en educatieve printables promoot en meer.',
+    titleTag: 'Social media voor verkopers | LessonCraftStudio',
+    metaDescription: 'Social media voor printables-verkopers: Instagram, Facebook en TikTok strategieën om werkbladen te promoten en consistent meer te verkopen op Etsy en KDP.',
   },
 
   hero: {
-    title: 'Social Media Marketing voor Printable Verkopers',
-    tagline: 'Een complete gids voor het inzetten van Instagram, Facebook en TikTok om je printable producten te promoten en een loyaal koperspubliek op te bouwen. Leer hoe je met visuele content, community-engagement en slimme automatisering je Etsy-, KDP- en Gumroad-verkoop structureel verhoogt.',
-    description: 'Social media is een van de krachtigste gratis marketingkanalen voor printable verkopers, maar de meeste ondernemers gebruiken het verkeerd. Ze plaatsen willekeurige productfoto\'s, hopen op likes en raken gefrustreerd wanneer er geen verkoop volgt. Het verschil tussen verkopers die consistent klanten via social media werven en verkopers die hun tijd verspillen zit in strategie, niet in geluk.\n\nDeze gids behandelt een complete social media marketingstrategie specifiek voor printable verkopers — of je nu werkbladen, kleurplaten, woordzoekers, rekenpuzzels of educatieve bundels verkoopt op Etsy, Amazon KDP, Gumroad of Gumroad. Je leert welke platformen het meeste rendement opleveren voor visuele producten, hoe je content maakt die daadwerkelijk tot verkoop leidt, en hoe je je inspanning automatiseert zodat social media marketing niet je hele dag opslokt.\n\nElke functie in alle 33 generatoren is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldproducten maken, screenshots nemen voor je social media content en de kwaliteit evalueren voordat je een commerciële licentie koopt voor verkoop.',
+    title: 'Social media inzetten als printables-verkoper',
+    tagline: 'Een complete gids voor het inzetten van Instagram, Facebook en TikTok om uw printable producten te promoten en een loyaal koperspubliek op te bouwen. Leer hoe u met visuele content, community-engagement en slimme automatisering uw Etsy-, KDP- en Bol.com-verkoop structureel verhoogt.',
+    description: 'Social media is een van de krachtigste gratis marketingkanalen voor printable verkopers, maar de meeste ondernemers gebruiken het verkeerd. Ze plaatsen willekeurige productfoto\'s, hopen op likes en raken gefrustreerd wanneer er geen verkoop volgt. Het verschil tussen verkopers die consistent klanten via social media werven en verkopers die hun tijd verspillen zit in strategie, niet in geluk.\n\nDeze gids behandelt een complete social media marketingstrategie specifiek voor printable verkopers — of u nu werkbladen, kleurplaten, woordzoekers, rekenpuzzels of educatieve bundels verkoopt op Etsy, Amazon KDP, Bol.com of Gumroad. U leert welke platformen het meeste rendement opleveren voor visuele producten, hoe u content maakt die daadwerkelijk tot verkoop leidt, en hoe u uw inspanning automatiseert zodat social media marketing niet uw hele dag opslokt.\n\nElke functie in alle 33 generatoren is beschikbaar in de gratis proefversie met watermerk. U kunt voorbeeldproducten maken, screenshots nemen voor uw social media content en de kwaliteit evalueren voordat u een commerciële licentie koopt voor verkoop.',
   },
 
   introduction: 'Social media marketing voor printable producten verschilt fundamenteel van social media marketing voor fysieke producten of diensten. Printables zijn digitale producten die visueel aantrekkelijk moeten worden gepresenteerd in een feed vol afleidingen, en kopers moeten het concept begrijpen voordat ze klikken. Een ouder die door Instagram scrollt moet in één seconde zien wat je werkblad is, voor wie het bedoeld is en waarom het beter is dan de tientallen alternatieven.\n\nHet goede nieuws is dat printable producten zich uitstekend lenen voor social media. Werkbladen, kleurplaten en puzzels zijn van nature visueel. Een goed gefotografeerd optelwerkblad met kleurrijke dierenillustraties trekt meer aandacht dan een generieke productfoto. Een kort video waarin je laat zien hoe een kind een woordzoeker oplost genereert meer engagement dan een statische afbeelding. De visuele aard van educatieve printables is je grootste marketingvoordeel.\n\nToch maken de meeste printable verkopers drie cruciale fouten op social media. Ten eerste posten ze alleen productfoto\'s zonder context of verhaal. Ten tweede gebruiken ze elk platform op dezelfde manier terwijl elk platform een andere aanpak vereist. Ten derde zijn ze inconsistent — ze posten drie weken enthousiast en stoppen dan een maand, waardoor het algoritme hun bereik afstraft.\n\nDeze gids lost alle drie de problemen op. Je leert platform-specifieke strategieën voor Instagram, Facebook en TikTok — de drie platformen die het meeste directe verkoopverkeer genereren voor printable verkopers. Je leert een contentformule die verder gaat dan productfoto\'s en daadwerkelijk engagement en verkoop stimuleert. En je leert hoe je je social media inspanning automatiseert en plant zodat consistentie haalbaar wordt naast je productcreatie.\n\nOf je nu net begint met je printable bedrijf of al een gevestigde Etsy-winkel hebt die meer verkeer nodig heeft, deze strategieën werken voor elke schaal. De tools en technieken zijn dezelfde — alleen het volume schaalt mee met je groei.',
@@ -151,16 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest marketing voor werkbladen' },
-    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'E-mail marketing voor printables' },
-    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Seizoensmarketing voor printables' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selectie voor printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoeker puzzels maken' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten maken' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest-marketing voor werkbladen' },
+    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'e-mailmarketing voor printables-verkopers' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'kleurplaten maken voor social media content' },
     { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing voor printable bedrijven' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete gids printable bedrijf' },
   ],

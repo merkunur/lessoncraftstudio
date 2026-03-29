@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'alfabettrein werkbladen maken voor kinderen',
+    primaryKeyword: 'gratis alfabet werkbladen generator',
     secondaryKeywords: [
-      'alfabettrein maker voor de winkel',
-      'letterherkenning werkbladen voor kinderen',
-      'printbare alfabettrein voor kleuters',
-      'letter-afbeelding koppeling maker voor verkopers',
+      'alfabettrein werkbladen online maken',
+      'letterherkenning werkbladen gratis proberen',
+      'alfabet werkbladen generator meertalig',
+      'letter-afbeelding koppeling werkblad maker',
     ],
     lsiKeywords: [
-      'letter-afbeelding trein werkblad voor kinderen',
-      'meertalige alfabet activiteit voor de winkel',
-      'kleurrijke alfabettrein om te printen',
+      'letter-afbeelding trein werkblad gratis online',
+      'meertalige alfabet activiteit generator',
+      'kleurrijke alfabettrein werkbladen maken',
     ],
-    titleTag: 'Alfabettrein Werkbladen — Letteroefeningen',
-    metaDescription: 'Maak alfabettrein werkbladen voor letterherkenning. 11 kleurrijke wagons, letter-afbeelding koppeling, 11 talen, 104 thema\'s. Gratis met watermerk.',
+    titleTag: 'Alfabet werkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak alfabettrein werkbladen met 11 kleurrijke wagons en letter-afbeelding koppeling in 11 talen. Probeer gratis met watermerk, geen registratie nodig.',
     },
 
   hero: {
-    title: 'Alfabettrein Werkblad Maker',
+    title: 'Gratis alfabet werkbladen online maken',
     tagline: 'Maak kleurrijke letter-trein werkbladen met afbeelding-naar-letter koppeling in 11 talen',
-    description: 'Bouw alfabetwerkbladen die er totaal anders uitzien dan het standaard letter-overtrekblad. Deze tool rangschikt 11 levendige treinwagons over de pagina, elk met een letter en een bijpassende illustratie. Verspreide aanwijzingsafbeeldingen verschijnen naast de trein — gebruikers identificeren met welke letter elke afbeelding begint en koppelen deze aan de juiste wagon. Kies tussen Auto Aanmaken (de tool kiest willekeurig 11 letters en wijst bijpassende afbeeldingen toe) of Handmatige Selectie (kies elke letter uit een volledig alfabetraster en wijs elke afbeelding zelf toe). Pas de moeilijkheid aan met de aanwijzingenteller: 3 aanwijzingen voor beginners, 5–7 voor gemiddelde gebruikers en 9–11 voor gevorderde gebruikers die bijna elke wagon moeten koppelen. De echte kracht is taalgevoeligheid — selecteer uit 11 moedertaalalfabetten inclusief Duits (Ä/Ö/Ü), Zweeds (Å/Ä/Ö), Spaans (Ñ) en meer. Dezelfde afbeelding koppelt aan verschillende letters in elke taal: "hond" koppelt aan H in het Nederlands maar D in het Engels (Dog) en C in het Frans (Chien). Eén werkbladsjabloon wordt 11 unieke producten. Blader door meer dan 3100 afbeeldingen over 104 thema\'s, of upload je eigen voor merkgebonden ontwerpen. Kies uit 7 lettertypefamilies en exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    description: 'Probeer onze alfabettrein werkbladen generator gratis en maak direct kleurrijke letterherkenning werkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: 11 levendige treinwagons met letters en bijpassende illustraties, taalgevoelige afbeelding-naar-letter koppeling in 11 talen, en meer dan 3.100 afbeeldingen over 104 thema\'s. Kies tussen Auto Aanmaken voor snelle werkbladen of Handmatige Selectie voor volledige controle over lettergroepen. Pas de moeilijkheid aan met de aanwijzingenteller van 3 tot 11 voor elk niveau. Exporteer als printklare PDF of hoge-resolutie JPEG met automatisch gegenereerd antwoordblad. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die letterherkenning thuis willen oefenen, leerkrachten die gedifferentieerde werkbladen nodig hebben, en iedereen die professionele alfabetactiviteiten wil maken.',
   },
 
   tutorial: {
-    title: 'Alfabettrein Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Alfabet werkbladen gratis maken in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de alfabettrein maker',
@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'alfabet-trein-werkbladen', anchorText: 'Alfabettrein Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'alfabet-trein-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Voorzetsels Werkblad Maker' },
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Woordraadsel Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },

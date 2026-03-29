@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'plaatjesgrafiek werkbladen maken',
+    primaryKeyword: 'grafiekwerkbladen maken om te verkopen',
     secondaryKeywords: [
       'telgrafiek werkbladen maken om te verkopen',
       'grafiek tellen werkbladgenerator commercieel gebruik',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'Amazon KDP gegevensvaardigheden werkboeken met staafdiagrammen',
       'commerciële licentie grafiek tellen werkblad tool',
     ],
-    titleTag: 'Plaatjesgrafiek Werkbladen Maken — Gids',
-    metaDescription: 'Maak plaatjesgrafiek werkbladen met 4x5 rasters, automatische antwoordsleutels en willekeurige beeldverdeling uit 104 thema\'s. Handleiding voor Etsy & KDP.',
+    titleTag: 'Grafiekwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Maak grafiekwerkbladen met 4x5 rasters en automatische antwoordsleutels. Verkoop op Etsy, Bol.com en KDP. Taalonafhankelijk formaat voor de NL markt.',
   },
 
   hero: {
-    title: 'Hoe Plaatjesgrafiek en Telgrafiek Werkbladen Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van plaatjesgrafiek werkbladen waarbij gebruikers 20 verspreide afbeeldingen tellen in een 4×5 raster en tellingen noteren op een 6-koloms × 5-rijen staafdiagram, met een dual-canvas systeem dat automatisch antwoordsleutels genereert met geel gemarkeerde cellen (#FFC857) tegelijkertijd, willekeurige verdeling die elk van de 6 beeldtypes 1–5 keer toewijst voor unieke werkbladen bij elke generatie, drie beeldselectiemodi (automatisch thema, handmatig 6 kiezen, geen-thema willekeurig), gelokaliseerde "Plaatjesgrafiek" koppen in 11 talen, taalonafhankelijk visueel tellen dat wereldwijd verkoopt zonder vertaling, 7 lettertypefamilies waaronder Arial en Verdana, en 300 DPI exports die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
+    title: 'Grafiekwerkbladen maken en verkopen op Etsy',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopklare plaatjesgrafiek werkbladen met 4×5 rasters, automatische antwoordsleutels en taalonafhankelijk formaat voor wereldwijde verkoop.',
     description: 'De Grafiek Tellen Werkblad Maker genereert plaatjesgrafiek werkbladen die twee samenhangende gegevensvaardigheden leren in één activiteit: gegevensverzameling door het tellen van verspreide afbeeldingen, en gegevensrepresentatie door het invullen van staafdiagramcellen. Elk werkblad bevat een 4×5 raster met 20 iconen van 6 verschillende beeldtypes, waarbij elk type 1–5 keer verschijnt in een willekeurige verdeling die elke generatie uniek maakt, zelfs met dezelfde geselecteerde afbeeldingen. Onder het raster biedt een 6-koloms × 5-rijen staafdiagram gebruikers een gestructureerde plek om hun tellingen te noteren, met kolommen gelabeld per beeldtype en rijen genummerd van 1–5.\n\nHet dual-canvas systeem is het bepalende concurrentievoordeel. De app genereert tegelijkertijd een werkblad-tabblad en een antwoordsleutel-tabblad. De antwoordsleutel toont geel (#FFC857) gemarkeerde cellen met de juiste tellingen voor elk beeldtype — geen handmatig tellen, geen aparte aanmaakstap, geen kans op fouten. Elke generatiesessie produceert 4 bestanden: werkblad JPEG, werkblad PDF, antwoordsleutel JPEG en antwoordsleutel PDF. verkopers controleren gebruikerswerk direct door te vergelijken met de gemarkeerde antwoordsleutel.\n\nDrie beeldselectiemodi bedienen verschillende productiewerkstromen. Automatische modus selecteert een thema uit het dropdownmenu en de app kiest willekeurig 6 afbeeldingen uit die collectie. Handmatige modus laat je door de Beeldbibliotheek bladeren met 3.100+ illustraties verdeeld over 104 themacollecties en precies 6 afbeeldingen aanklikken met een voorbeeldstrip. Geen-thema modus haalt 6 willekeurige afbeeldingen uit alle beschikbare collecties. Upload eigen PNG-, JPG- of GIF-afbeeldingen voor volledige creatieve controle.\n\nPlaatjesgrafiek werkbladen zijn niet taalgevoelig — visueel tellen gebruikt universele getallen en afbeeldingen, waardoor dezelfde werkbladbestanden identiek werken in elk land zonder vertaling of aanpassing. Taal beïnvloedt alleen de automatisch gegenereerde kop, die een gelokaliseerde "Plaatjesgrafiek" titel en telinstructies weergeeft in een gestylede gele pil (#FFD93D) met oranje randkader, die automatisch aanpast aan alle 11 ondersteunde talen. Deze taalonafhankelijkheid betekent dat één aanmaaksessie een wereldwijd verkoopbaar product oplevert zonder extra inspanning.\n\nExporteer op 300 DPI in Letter, A4, Vierkant (1200×1200) of aangepaste paginaformaten. Kies uit 7 lettertypefamilies: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Pas achtergrondthema\'s en randthema\'s toe met onafhankelijke dekkingsschuifregelaars (0–1, stap 0,05). Schakel grijswaarden in voor inktvriendelijke uitvoer. Voeg naam- en datumvelden toe met een enkel selectievakje (Fredoka 18px #333). Bewerk alles op het volledige Fabric.js canvas met slepen, formaat wijzigen, roteren, lagen, vergrendelen/ontgrendelen, zoom 25–300% en ongedaan maken/opnieuw tot 20 staten. Elke functie beschreven in deze gids is beschikbaar in de gratis proefversie met watermerk zodat je het hulpmiddel volledig kunt evalueren voordat je een commerciële licentie aanschaft.',
   },
 
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'tel-werkbladen-maken', anchorText: 'Hoe Telwerkbladen Maken die Verkopen' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken Activiteitenboeken voor Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'chart-count-color', anchorText: 'Grafiek Tellen Werkblad Generator — Alle Details' },
-    { pageType: 'guide', slug: 'groottevergelijking-werkbladen-maken', anchorText: 'Groot & Klein Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'chart-count', anchorText: 'Probeer de Grafiek Tellen Maker' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optellen werkbladen maken' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket bekijken' },
   ],
 
   toolsRecommended: [

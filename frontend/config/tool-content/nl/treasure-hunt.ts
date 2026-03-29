@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schattenjacht werkblad generator',
+    primaryKeyword: 'gratis speurtocht generator',
     secondaryKeywords: [
-      'schattenjacht werkblad maker voor verkopers',
-      'richtingsgebaseerde padzoekpuzzels maken om te verkopen',
-      'printbare schattenjacht generator commercieel gebruik',
-      'schattenjacht puzzel maker voor KDP en Etsy',
+      'schattenjacht werkbladen gratis online maken',
+      'gratis speurtocht werkblad maker zonder account',
+      'schattenjacht puzzel gratis genereren',
+      'speurtocht activiteit online maken voor kinderen',
     ],
     lsiKeywords: [
       'twee richtingstypen basis kompas coördinatenraster maker',
       'taalgebonden gelokaliseerde richtingsaanwijzingen 11 talen',
       'automatisch antwoordblad gemarkeerde schatcel dubbel-canvas creator',
     ],
-    titleTag: 'Schattenjacht Maker — Schattenjacht Werkblad Generator',
-    metaDescription: 'Maak schattenjacht werkbladen op een 5×5 raster met twee richtingstypen, thematische oriëntatiepunten, automatische antwoordbladen en 104 beeldsets.',
+    titleTag: 'Speurtocht gratis online maken | LessonCraftStudio',
+    metaDescription: 'Maak gratis schattenjacht werkbladen online met twee richtingstypen, 5×5 coördinatenraster, automatische antwoordbladen en 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Schattenjacht Maker',
-    tagline: 'Padzoek schattenjacht werkblad generator met een vast 5×5 coördinatenraster (A–E rijen, 1–5 kolommen), twee richtingstypen (Basis: omhoog/omlaag/links/rechts voor kleuters tot groep 3, en Kompas: noord/zuid/oost/west voor groep 4+), 6 thematische oriëntatiepuntafbeeldingen, precies 4 richtingsbewegingen per puzzel, automatisch gegenereerd antwoordblad met lichtgeel gemarkeerde schatcel via dubbel-canvassysteem, volledig gelokaliseerde richtingsaanwijzingen in 11 talen, en een schattenjacht-thema blauwgroene koptekst (#2C8C7C) met gouden Fredoka-titel over 104 thematische beeldcollecties',
-    description: 'Maak professionele schattenjacht werkbladen waarbij gebruikers opeenvolgende richtingsaanwijzingen volgen om verborgen schatten te vinden op een 5×5 coördinatenraster gelabeld met letterrijen (A–E) en nummerkolommen (1–5). Elke puzzel verspreidt 6 thematische afbeeldingen over het raster als visuele oriëntatiepunten, genereert vervolgens een startpositie en precies 4 richtingsbewegingen die naar de schatcel leiden. Het werkblad toont 5 instructieregels: "Begin bij [cel]" gevolgd door 4 "Ga [richting] [aantal] vakje(s)" aanwijzingen, eindigend met "Waar is de schat?" Kies tussen twee richtingstypen die verschillende leeftijdsgroepen en productdoelen bedienen. Basismodus gebruikt omhoog, omlaag, links en rechts voor kleuters tot en met groep 3 die fundamentele ruimtelijke woordenschat opbouwen. Kompasmodus gebruikt noord, zuid, oost en west voor groep 4 en hoger, waarbij kompasrichtingen en kaartleesvaardigheden worden geïntroduceerd. Beide richtingstypen produceren dezelfde 4-beweging puzzelstructuur op hetzelfde 5×5 raster, waardoor je progressieve moeilijkheidssets kunt maken binnen één bundel. De Schattenjacht Maker is taalgebonden op twee manieren: richtingsaanwijzingstekst en afbeeldingsinhoud veranderen beide wanneer je van taal wisselt. Alle richtingen zijn volledig vertaald in 11 ondersteunde talen — "Begin bij", "Ga", "vakje(s)" en "Waar is de schat?" lokaliseren allemaal samen met Basis en Kompas richtingswoordenschat. Dit produceert authentieke Nederlandstalige schattenjacht werkbladen, geen Engelse puzzels met vertaalde kopteksten. Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad. Het antwoordblad reproduceert de exacte puzzelindeling en markeert de uiteindelijke schatcel in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze streek — geen handmatige markering nodig. Elke puzzel bevat een schattenjacht-thema automatisch gegenereerde koptekst met een blauwgroene achtergrond (#2C8C7C), amberkleurig buitenkader (#D4A574), zandkleurig binnenkader (#F4E4C1) en gouden titel (#D4A017) in Fredoka-lettertype (gewicht 700, adaptieve 36–48px grootte). De beschrijving rendert in donkerbruin (#5C4033) Quicksand (gewicht 500). Staande modus toont een volledige koptekst (100px hoogte); liggende modus gebruikt een compacte indeling (70px hoogte). Koptekst vertaalt automatisch in alle 11 talen. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen afbeeldingen via drie invoermethoden: Genereren vanuit Thema (selecteert automatisch 6), Handmatige Afbeeldingsselectie (bladeren en klikken), en Upload Aangepaste Afbeeldingen (JPEG/PNG/GIF/WebP). Pas achtergrond- en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Exporteer printklare PDF\'s (3× vermenigvuldiger) en JPEG\'s (6× vermenigvuldiger) op 300 DPI in Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis schattenjacht werkbladen online maken',
+    tagline: 'Maak speurtocht puzzels met twee richtingstypen, thematische afbeeldingen en automatische antwoordbladen — direct in uw browser',
+    description: 'Maak schattenjacht werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: een 5×5 coördinatenraster met letterrijen en nummerkolommen, 6 thematische oriëntatiepuntafbeeldingen en precies 4 richtingsbewegingen per puzzel. Kies tussen twee richtingstypen: Basismodus met omhoog, omlaag, links en rechts voor jongere kinderen, of Kompasmodus met noord, zuid, oost en west voor gevorderden. De tool is taalgebonden — alle richtingsaanwijzingen zijn volledig vertaald in 11 talen, waardoor u authentieke Nederlandstalige schattenjacht werkbladen genereert. Het dubbele canvassysteem maakt automatisch een antwoordblad met de schatcel gemarkeerd in lichtgeel. Kies uit 104 thematische beeldcollecties met meer dan 3.100 illustraties of upload uw eigen afbeeldingen. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 
   tutorial: {
-    title: 'Schattenjacht Werkbladen Maken in 8 Stappen',
+    title: 'Schattenjacht werkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de Schattenjacht Maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'schattenjacht-werkbladen', anchorText: 'Schattenjacht Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'schattenjacht-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Kruiswoordpuzzel Maker' },
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek & Tel Maker' },
     { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Zoek Voorwerpen Maker' },

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'aftrekken werkbladen maken',
+    primaryKeyword: 'aftrekwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'aftrekwerkbladen maken voor kinderen',
-      'aftrekken werkblad generator',
-      'printbare aftrekwerkbladen verkopen',
-      'aangepaste aftrekoefeningen maken',
+      'aftrekwerkbladen maken voor kinderen verkopen',
+      'printbare aftrekwerkbladen generator',
+      'doorgestreepte afbeeldingen aftrekwerkbladen maken',
+      'aftrekwerkbladen verkopen Etsy KDP',
     ],
     lsiKeywords: [
       'doorgestreepte afbeeldingen aftrekwerkbladen',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Amazon KDP aftrek activiteitenboeken',
       'commerciële licentie werkblad tool',
     ],
-    titleTag: 'Aftrekken Werkbladen Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Maak aftrekwerkbladen voor kinderen met doorgestreepte afbeeldingen, themavisuals en automatische antwoordsleutels. Gids voor verkoop op Etsy, KDP en Gumroad.',
+    titleTag: 'Aftrekwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Maak aftrekwerkbladen met doorgestreepte afbeeldingen, themavisuals en antwoordsleutels. Exporteer printklare PDF\'s om te verkopen op Etsy en KDP.',
   },
 
   hero: {
-    title: 'Hoe Maak Je Aftrekwerkbladen voor Kinderen',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van thematische aftrekwerkbladen met doorgestreepte afbeeldingen, instelbare moeilijkheidsgraad en printklare exports die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Aftrekwerkbladen zijn de logische tweede stap in elk rekenproductcatalogus. Zodra kinderen optellen beheersen, volgt aftrekken onmiddellijk — en daarmee ook de vraag naar oefenmateriaal. Ouders, verkopers en bijlesverkopers hebben allemaal aftrekmateriaal nodig dat past bij het niveau van hun gebruikers. Deze gids leidt je door het volledige creatieproces met de Aftrekken Werkblad Generator — van het instellen van het maximale aftrekgetal en het kiezen van een visueel thema tot het exporteren van gepolijste, printklare PDF\'s met automatische antwoordsleutels. Het kenmerkende onderdeel van de aftrekgenerator is de doorgestreepte-afbeeldingen oefenmodus, waarbij kinderen een groep thematische plaatjes zien waarvan er enkele visueel zijn doorgestreept en moeten bepalen hoeveel er overblijven. Of je nu aftrekproducten toevoegt aan een bestaande rekenwerkbladlijn of je eerste printbare product maakt, aan het einde van deze handleiding heb je een afgewerkt werkblad klaar om te vermelden.',
+    title: 'Aftrekwerkbladen maken en verkopen als printable',
+    tagline: 'Thematische aftrekwerkbladen met doorgestreepte afbeeldingen maken met de generator en verkopen op Etsy, Amazon KDP of Bol.com',
+    description: 'Aftrekwerkbladen zijn de logische tweede stap in elke rekenproductcatalogus. Deze gids leidt u door het volledige creatieproces met de Aftrekken Werkblad Generator: het maximale aftrekgetal instellen, een visueel thema kiezen en printklare PDF\'s exporteren met automatische antwoordsleutels. Het kenmerkende onderdeel is de doorgestreepte-afbeeldingen oefenmodus, waarbij kinderen bepalen hoeveel er overblijven.',
   },
 
   introduction: 'Aftrekken is de tweede rekenbewerking die kinderen leren en volgt op optellen in elk productcatalogus wereldwijd. Deze volgorde creëert een betrouwbaar vraagpatroon: overal waar optellen werkbladen verkopen, verkopen aftrekwerkbladen er direct achteraan. Kopers die je optelproducten aanschaffen, zoeken actief naar bijpassend aftrekmateriaal, waardoor dit een natuurlijke catalogusuitbreiding is met een ingebouwd publiek.\n\nWat aftrekwerkbladen als printbaar product onderscheidt, is het visuele element. Terwijl optellen werkbladen twee groepen tonen die worden samengevoegd, tonen aftrekwerkbladen items die worden weggehaald — doorgaans via doorgestreepte afbeeldingen. Deze visuele voorstelling van \'wegnemen\' is hoe kinderen aftrekken conceptueel voor het eerst begrijpen, en het maakt aftrekwerkbladen direct herkenbaar en aantrekkelijk in marktplaats-miniaturen.\n\nDe Aftrekken Werkblad Generator handelt alle technische complexiteit af van het maken van deze visuals. Het plaatst thematische afbeeldingen op het canvas, markeert het juiste aantal als doorgestreept, genereert de bijbehorende vergelijking en produceert een automatische antwoordsleutel. De generator ondersteunt vier oefenmodi — Doorstrepen, Afbeelding – Getal, Zoek het Aftrekgetal en Gemengd — die elk verschillende leerfasen en kopersbehoeften bedienen. De moeilijkheid wordt geregeld via de instelling Maximaal Aftrekgetal, die bepaalt van welk grootste getal kinderen aftrekken.\n\nElke functie die in deze gids wordt genoemd, is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldwerkbladen maken, elke configuratie testen en de uitvoerkwaliteit beoordelen voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'optellen-werkbladen-maken', anchorText: 'Hoe Optellen Werkbladen Maken' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken Activiteitenboeken voor Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Probeer de Aftrekken Werkblad Maker' },
+    { pageType: 'guide', slug: 'optellen-werkbladen-maken', anchorText: 'Optelwerkbladen maken en verkopen' },
+    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket' },
   ],
 
   toolsRecommended: [

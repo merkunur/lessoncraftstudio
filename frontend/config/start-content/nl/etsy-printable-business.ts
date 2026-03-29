@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printables verkopen op etsy',
+    primaryKeyword: 'masterclass Etsy printables-business',
     secondaryKeywords: [
-      'etsy printable bedrijf',
-      'etsy winkel voor printbare werkbladen',
-      'werkbladen verkopen op etsy',
-      'etsy digitale downloads bedrijf',
+      'printables verkopen op Etsy Nederland',
+      'Etsy winkel voor printbare werkbladen opzetten',
+      'werkbladen verkopen op Etsy stap voor stap',
+      'Etsy digitale downloads bedrijf starten',
     ],
     lsiKeywords: [
-      'etsy seo voor printable verkopers',
-      'etsy vermelding optimalisatie werkbladen',
-      'etsy winkel opzetten digitale producten',
-      'etsy tags voor printbare werkbladen',
-      'werkblad generator voor etsy verkopers',
-      'etsy printable prijsstrategie',
+      'Etsy SEO voor printable verkopers',
+      'Etsy vermelding optimalisatie werkbladen',
+      'Etsy winkel opzetten digitale producten NL',
+      'Etsy tags voor printbare werkbladen',
+      'werkblad generator voor Etsy verkopers',
+      'Etsy printable prijsstrategie Nederland',
     ],
-    titleTag: 'Printables Verkopen op Etsy — Bedrijf Masterclass',
-    metaDescription: 'Hoe printables verkopen op Etsy stap voor stap. Behandelt winkelopzet, Etsy SEO, vermeldingsoptimalisatie, prijsstrategie en opschalen met werkblad.',
+    titleTag: 'Masterclass Etsy printables | LessonCraftStudio',
+    metaDescription: 'Hoe u printables verkoopt op Etsy: winkelopzet, Etsy SEO, vermeldingsoptimalisatie, prijsstrategie en opschalen. Platformspecifieke gids voor verkopers.',
   },
 
   hero: {
-    title: 'Etsy Printable Bedrijf Masterclass',
-    tagline: 'De platformspecifieke gids voor het bouwen van een winstgevende printbare werkbladen winkel op Etsy',
-    description: 'Etsy is de grootste marktplaats voor printbare digitale downloads. Deze masterclass behandelt alles wat je nodig hebt om een winstgevende printbare werkbladen winkel op het platform te bouwen — van initiële winkelopzet en Etsy-specifieke SEO tot vermeldingsoptimalisatie, prijsstrategie, adverteren en opschalen voorbij je eerste 50 producten. Elke strategie in deze gids is specifiek afgestemd op hoe Etsy werkt, geen generiek advies dat op elke marktplaats van toepassing is.',
+    title: 'Masterclass: printables verkopen op Etsy',
+    tagline: 'De platformspecifieke gids voor een winstgevende werkbladen winkel op Etsy',
+    description: 'Etsy is de grootste marktplaats voor printbare digitale downloads, en deze masterclass behandelt alles wat u nodig hebt om een winstgevende werkbladen winkel op het platform te bouwen. Van initiële winkelopzet en Etsy-specifieke SEO tot vermeldingsoptimalisatie, prijsstrategie, adverteren en opschalen voorbij uw eerste 50 producten. Elke strategie is specifiek afgestemd op hoe Etsy werkt, geen generiek advies. Nederlandse verkopers profiteren van Etsy\'s internationale bereik: uw Nederlandse werkbladen bedienen de Nederlandstalige markt, terwijl meertalige en puur visuele werkbladen kopers in Duitsland, Frankrijk en de rest van de wereld bereiken.',
   },
 
   introduction: 'Etsy verwerkt jaarlijks miljarden dollars aan digitale downloadverkoop, en printbare werkbladen zijn een van de snelst groeiende categorieën van het platform. In tegenstelling tot verkopen op je eigen website waar je elke bezoeker zelf moet genereren, levert Etsy kopers die al zoeken naar precies wat jij maakt. Ouders typen "printbare optelwerkbladen" in de Etsy-zoekbalk. verkopers zoeken naar "kleuterschool kleurplaten bundel." Thuisonderwijsgezinnen zoeken naar "groep 3 rekenoefenbladen." Jouw taak is om de winkel te zijn die zij vinden.\n\nMaar Etsy is ook vol. Duizenden verkopers vermelden printbare werkbladen, en het zoekalgoritme van het platform beslist wie zichtbaarheid krijgt en wie begraven wordt. Slagen op Etsy vereist begrip van hoe de zoekmachine van het platform werkt, wat kopers ertoe brengt op jouw vermelding te klikken in plaats van die van een concurrent, en hoe je winkel te structureren voor maximale vindbaarheid.\n\nDeze masterclass is van begin tot eind Etsy-specifiek. Generiek printable bedrijfsadvies verschijnt in onze Complete Gids voor het Starten van een Printable Bedrijf. Deze gids gaat ervan uit dat je hebt besloten dat Etsy je platform is en je de tactische, platform-niveau kennis wilt om het te laten werken.\n\nEén opmerking voordat we beginnen: elke werkblad generator die in deze gids wordt genoemd biedt een gratis proefversie met watermerk. Je kunt voorbeeldproducten maken, Etsy-vermeldingen testen en je niche valideren voordat je een commerciële licentie aanschaft.',
@@ -207,17 +207,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaten Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Probeer de Zoek & Tel Maker' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids printables-business starten' },
+    { pageType: 'start', slug: 'marketing-printable-bedrijf', anchorText: 'Printables-business promoten' },
+    { pageType: 'start', slug: 'opschalen-printable-bedrijf', anchorText: 'Opschalen van bijverdienste naar voltijds' },
   ],
 
   visuals: {

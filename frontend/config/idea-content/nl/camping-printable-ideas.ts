@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kamperen Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende kampeer printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Buitenthema productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables kamperen — Business | LessonCraftStudio',
+    metaDescription: 'Verkoop kampeer printables op Etsy en Gumroad. Tenten, kampvuren en natuur productideeën voor uw printable business — seizoenspieken plus jaarronde vraag.',
 
-    primaryKeyword: 'kamperen printable ideeën',
+    primaryKeyword: 'printables kamperen ideeën business',
     secondaryKeywords: [
-      'kampeer werkbladen verkopen',
-      'kampeeractiviteiten voor verkopers',
-      'buitenthema printable business',
-      'kampeer printables verkopen op Etsy',
+      'kampeer werkbladen verkopen Etsy',
+      'buitenactiviteiten printable business ideeën',
+      'natuur wandelen printables verkopen',
+      'zomerkamp educatieve producten Gumroad',
     ],
     lsiKeywords: [
-      'buitenavontuur educatieve werkbladen',
-      'natuur thema activiteitenpagina\'s',
-      'zomerkamp printable printbare producten',
+      'tent kampvuur zaklamp werkbladen maken',
+      'Scouting natuur educatief materiaal',
+      'buitenleven avontuur printbare producten',
     ],
   },
   hero: {
-    title: 'Kamperen Printable Businessideeën voor Verkopers',
-    description: 'Kamperen vertegenwoordigt een van de sterkste seizoens-plus-altijdgroene niches voor printable-ondernemers omdat het krachtige lente- en zomervraagpieken combineert met echte jaarronde buiteneducatierelevantie die de verkopen door elk kwartaal van het academische en kalenderjaar laat stromen. De universele fascinatie van kinderen voor kampvuren, tenten, wandelavonturen en natuurverkenning creëert een emotionele verbinding die consistent koop- en koopgedrag stimuleert bij ouders en verkopers over meerdere koopsegmenten heen. Het kampeerthema biedt buitengewone subthemadiepte waaronder tenten, kampvuren, marshmallows, zaklampen, kompassen, rugzakken, slaapzakken, wandelen, paden, lantaarns, kano\'s, vishengels, verrekijkers, dennenomen, bergen, meren, beren, herten, uilen, sterren, maan en veldfles, wat verkopers een rijk visueel vocabulaire geeft dat aansluit bij de natuurlijke liefde van kinderen voor buitenavonturen, wildernisontdekking en de gezellige opwinding van slapen onder de sterren. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Kampeer printables verkopen: seizoen plus altijdgroen',
+    description: 'Kamperen combineert krachtige lente- en zomervraagpieken met jaarronde buiteneducatierelevantie, waardoor het een van de sterkste niches is voor printable-ondernemers. Tenten, kampvuren, marshmallows, kompassen, rugzakken en natuurverkenning bieden een rijk visueel vocabulaire voor tientallen unieke producten. In Nederland is kamperen bijzonder populair — de uitgebreide campingcultuur, Scouting Nederland en het dichte netwerk van natuurgebieden en nationale parken creëren een sterk cultureel fundament voor dit thema. De zes weken zomervakantie (juli-augustus, per regio verspreid) vormen de piekperiode, maar basisscholen gebruiken natuur- en buitenthema\'s het hele jaar door in hun lessen voor wereldoriëntatie. Vakoverschrijdende veelzijdigheid versterkt de waarde: kamperen sluit aan bij rekenen via kompasrichting en tellen, taalvaardigheid via natuurvocabulaire, en wetenschap via flora en fauna. Op Etsy en Gumroad converteren gerichte producten beter dan generieke buitenopties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De kampeer printable-niche neemt een uniek voordelige positie in voor printable-verkopers omdat het het beste van twee werelden levert: krachtige seizoensgebonden vraagpieken tijdens lente- en zomermaanden wanneer gezinnen actief campingreizen en buitenavonturen voorbereiden, gecombineerd met echte jaarronde relevantie via het buiteneducatieproductcatalogus, natuurwetenschapsunits en de duurzame fascinatie van kinderen voor kampvuren, tenten en wildernisverkenning die onafhankelijk van het werkelijke kampeerseizoen functioneert. Dit dubbele vraagpatroon creëert een omzetmodel waarin sterke seizoenspieken worden gelegd bovenop een betrouwbare basislijn, waardoor kampeer printable-verkopers voorspelbaarder inkomen hebben dan puur seizoensgebonden niches terwijl ze nog steeds profiteren van geconcentreerde koopperioden met hoog volume.
 
@@ -145,24 +145,19 @@ Het zomerkampsegment vertegenwoordigt een bijzonder waardevol institutioneel koo
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'doolhof-werkbladen',
+      anchorText: 'Doolhof werkbladen met kampeerthema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'zoek-voorwerpen-werkbladen',
+      anchorText: 'Zoek voorwerpen generator voor natuurscènes',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'zoeken-vinden-pakket',
+      anchorText: 'Zoeken en vinden pakket voor buitenavonturen',
     },
     {
       pageType: 'guide',

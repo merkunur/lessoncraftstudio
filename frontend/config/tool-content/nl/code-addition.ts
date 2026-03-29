@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'codekraker rekenwerkbladen maken voor de winkel',
+    primaryKeyword: 'gratis geheimschrift rekenpuzzels maken',
     secondaryKeywords: [
-      'geheime code rekenpuzzels voor verkopers',
-      'codekraker werkbladen voor de winkel',
-      'printbare cijfercode puzzels voor kinderen',
-      'optellen codekraker werkblad maker',
+      'geheime code rekenpuzzels gratis online',
+      'codekraker werkbladen gratis maken',
+      'gratis cijfercode puzzels voor kinderen',
+      'geheimschrift optellen werkblad gratis',
     ],
     lsiKeywords: [
-      'afbeelding cijferpuzzel voor de winkel',
+      'afbeelding cijferpuzzel gratis online',
       'woord onthullen codekraker werkblad',
-      'getalcode rekenactiviteit voor gebruikers',
+      'getalcode rekenactiviteit gratis maken',
     ],
-    titleTag: 'Codekraker Reken Werkbladen — Voor de winkel',
-    metaDescription: 'Maak codekraak-rekenpuzzels voor de winkel. Afbeeldingssymbolen, twee modi, 11 talen, 104 thema\'s. Gratis proefversie met watermerk.',
+    titleTag: 'Geheimschrift rekenpuzzels gratis | LessonCraftStudio',
+    metaDescription: 'Maak gratis geheimschrift rekenpuzzels online. Afbeeldingssymbolen, Normale en Woord Onthullen Modus, 11 talen en 104 thema\'s. Geen account nodig.',
     },
 
   hero: {
-    title: 'Geheime Code Reken Werkblad Maker',
-    tagline: 'Maak cryptarithmetische puzzels waarbij gebruikers geheime codes kraken door optellen',
-    description: 'Dit is geen gewoon optelwerkblad — het is een codekraak-uitdaging. Elke puzzel verbergt getallen achter afbeeldingssymbolen, en gebruikers moeten optelsom men oplossen om uit te vinden welk getal bij welk plaatje hoort. In de Normale Modus staat elk symbool voor een uniek cijfer. Schakel over naar Woord Onthullen Modus en elke opgeloste vergelijking onthult een letter van een geheim woord, met afleidingsletters die gebruikers aan het raden houden. Kies uit meer dan 100 beeldthema\'s, pas het aantal symbolen en de complexiteit van de optellers aan, en download printklare PDF\'s of JPEG\'s. Ondersteunt 11 talen met taalgebonden alfabetten — Nederlandse puzzels gebruiken het volledige Nederlandse alfabet en Nederlandse woordenschat. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis geheimschrift rekenpuzzels online maken',
+    tagline: 'Maak gratis codekraak-rekenpuzzels met afbeeldingssymbolen en geheime codes',
+    description: 'Probeer onze gratis proefversie met watermerk om geheimschrift rekenpuzzels te maken — direct in uw browser, zonder account of registratie. Elke puzzel verbergt getallen achter afbeeldingssymbolen, en gebruikers moeten optelsommen oplossen om uit te vinden welk getal bij welk plaatje hoort. In de Normale Modus staat elk symbool voor een uniek cijfer. Schakel over naar Woord Onthullen Modus en elke opgeloste vergelijking onthult een letter van een geheim woord, met afleidingsletters die gebruikers aan het raden houden. Kies uit meer dan 100 beeldthema\'s, pas het aantal symbolen en de complexiteit van de optellers aan. Ondersteunt 11 talen met taalgebonden alfabetten — Nederlandse puzzels gebruiken het volledige Nederlandse alfabet. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 
   tutorial: {
-    title: 'Hoe Maak Je Geheime Code Werkbladen in 8 Eenvoudige Stappen',
+    title: 'Zo maakt u geheime code werkbladen in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de werkblad maker',
@@ -196,7 +196,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'visuele-optelsommen-werkbladen', anchorText: 'Geheime Code Optellen Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'visuele-optelsommen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
     { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
     { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Maker' },

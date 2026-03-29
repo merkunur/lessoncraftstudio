@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'educatief materiaal verkopen op Creative Fabrica',
+    primaryKeyword: 'educatieve resources verkopen Creative Fabrica',
     secondaryKeywords: [
-      'hoe verkopen op Creative Fabrica',
-      'Creative Fabrica voor onderwijzers',
-      'printables verkopen op Creative Fabrica',
-      'Creative Fabrica Classroom materialen',
+      'hoe verkopen op Creative Fabrica Classroom',
+      'printables verkopen Creative Fabrica abonnementsmodel',
+      'Creative Fabrica ontwerperaccount educatief materiaal',
+      'werkbladen verkopen op Creative Fabrica Nederland',
     ],
     lsiKeywords: [
       'design marktplaats creatief publiek abonnementsmodel digitale downloads educatieve printables',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'producttags categorieën zoekoptimalisatie omslagafbeeldingen beschrijvingsopmaak',
       'catalogusschaling bundels cross-categorie promotie lettertypen afbeeldingen educatief materiaal',
     ],
-    titleTag: 'Educatief Materiaal Verkopen op Creative Fabrica',
-    metaDescription: 'Educatief materiaal verkopen op Creative Fabrica. Verdien via abonnementen en individuele verkoop, bereik creatieve en educatieve doelgroepen in de Classroom.',
+    titleTag: 'Verkopen op Creative Fabrica | LessonCraftStudio',
+    metaDescription: 'Verkoop educatief materiaal op Creative Fabrica. Verdien via abonnementen en individuele verkoop, en bereik het creatief-educatieve crossoverpubliek.',
   },
 
   hero: {
-    title: 'Hoe Educatief Materiaal Verkopen op Creative Fabrica',
-    tagline: 'Een complete gids voor het verkopen van printbare werkbladen en educatief materiaal op Creative Fabrica — inclusief het opzetten van een ontwerperaccount, productcreatie voor de CF Classroom-sectie, dubbele inkomsten uit individuele verkoop en abonnementsdownloads, zoekoptimalisatie voor een design-gerichte marktplaats, het bereiken van het unieke creatief-educatieve crossoverpubliek, marketingstrategieën om op te vallen tussen ontwerpers en het schalen van je catalogus over educatieve en creatieve categorieën',
-    description: 'Creative Fabrica combineert marktplaatsontdekking met een abonnementsinkomstenmodel, waardoor verkopers van educatieve printables twee inkomstenstromen krijgen uit elk product. Deze gids leidt je door het opzetten van je ontwerperswinkel, het maken van vermeldingen geoptimaliseerd voor CF\'s zoek- en categoriesysteem, prijsstelling voor zowel individuele kopers als abonnementspoolinkomsten, en het opbouwen van een catalogus die aanspreekt bij Creative Fabrica\'s unieke mix van hobbyisten, ontwerpers en onderwijzers.',
+    title: 'Educatief materiaal verkopen op Creative Fabrica',
+    tagline: 'Ontwerperaccount opzetten, vermeldingen optimaliseren en dubbel verdienen via individuele verkoop en abonnementsdownloads',
+    description: 'Creative Fabrica combineert marktplaatsontdekking met een abonnementsinkomstenmodel, waardoor u twee inkomstenstromen krijgt uit elk product. Deze gids leidt u door het opzetten van uw ontwerperswinkel, het optimaliseren van vermeldingen voor CF\'s zoek- en categoriesysteem, en het opbouwen van een catalogus die aanspreekt bij Creative Fabrica\'s unieke mix van hobbyisten, ontwerpers en onderwijzers.',
   },
 
   introduction: 'Creative Fabrica neemt een bijzondere positie in binnen het digitale marktplaatslandschap. Terwijl Etsy een breed publiek bedient, Gumroad zich uitsluitend richt op onderwijzers, Amazon KDP boekpublicatie afhandelt en Gumroad directe verkoop van creator naar koper biedt, is Creative Fabrica een design-gerichte marktplaats waar hobbyisten, grafisch ontwerpers en onderwijzers samenkomen. Oorspronkelijk gebouwd rond lettertypen, afbeeldingen en SVG-bestanden voor de creatieve gemeenschap, heeft Creative Fabrica uitgebreid met een speciale Classroom-sectie voor educatief materiaal — werkbladen, activiteiten, lesplannen en printbaar leermateriaal.\n\nDeze uitbreiding creëert een unieke kans voor verkopers van educatieve printables. Creative Fabrica\'s kernpubliek van hobbyisten en ontwerpers waardeert al kwalitatief hoogwaardige printbare content. Ouders die Creative Fabrica bezoeken voor knutselprojecten ontdekken educatieve werkbladen in de Classroom-sectie. verkopers die zoeken naar winkelversieringen vinden thematische werkbladpakketten naast de design-assets waarvoor ze oorspronkelijk kwamen. Het publiek van het platform kruist op natuurlijke wijze tussen creatieve en educatieve content op manieren die andere marktplaatsen niet kunnen repliceren.\n\nHet inkomstenmodel van Creative Fabrica onderscheidt het platform werkelijk. In tegenstelling tot marktplaatsen waar je alleen verdient aan directe aankopen, heeft Creative Fabrica een abonnementsprogramma waarbij leden een maandelijks bedrag betalen voor toegang tot een uitgebreide contentbibliotheek. Wanneer abonnees je producten downloaden, verdien je een aandeel uit de abonnementspool op basis van downloadvolume. Dit betekent dat je producten inkomsten kunnen genereren uit twee afzonderlijke stromen: individuele kopers die tegen jouw vastgestelde prijs kopen, en abonnementsleden die je content downloaden als onderdeel van hun lidmaatschap. Beide inkomstenstromen werken gelijktijdig op dezelfde productvermeldingen.\n\nDe concurrentie voor educatief materiaal op Creative Fabrica is aanzienlijk lager dan op gevestigde educatieve platformen. Gumroad heeft honderdduizenden verkoper-verkopers. Etsy\'s categorie voor educatieve printables raakt steeds meer verzadigd. De Classroom-sectie van Creative Fabrica is relatief nieuw, wat betekent dat vroege instappers zichtbaarheid kunnen opbouwen en beoordelingen kunnen verzamelen voordat de categorie drukbezet wordt. Voor verkopers die al educatieve printables maken, vereist het toevoegen van Creative Fabrica als verkoopkanaal minimale extra inspanning aangezien dezelfde PDF-bestanden op alle platformen werken.\n\nDeze gids behandelt alles, van het aanmaken van je ontwerperaccount tot het schalen van een multi-categorie Creative Fabrica-bedrijf. Of je nu een gevestigde verkoper bent op andere platformen die wil diversifiëren, of een nieuwe printable-creator die zijn eerste marktplaats kiest — Creative Fabrica\'s combinatie van design-gerichte ontdekking, abonnementsinkomsten en lagere concurrentie maakt het een aantrekkelijk platform voor educatief materiaal.',
@@ -155,13 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables Verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'tpt-materialen-maken-verkopen', anchorText: 'Gumroad Materialen Maken en Verkopen' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Een Etsy Printable Shop Starten' },
-    { pageType: 'guide', slug: 'kdp-of-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables verkopen op Gumroad' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP vs Etsy: waar printables verkopen' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaat Generator' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Koppelen Generator' },
   ],
 
   toolsRecommended: [

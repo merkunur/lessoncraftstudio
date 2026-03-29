@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schrijfoefeningen werkbladen maken',
+    primaryKeyword: 'schrijfwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'schrijfwerkbladen maken voor kinderen',
-      'schrijfoefening werkblad generator',
-      'printbare schrijfwerkbladen verkopen',
-      'aangepaste letter-overtrek werkbladen',
+      'schrijfoefeningen maken voor kinderen verkopen',
+      'schrijfwerkblad generator met streekrichting',
+      'printbare letter-overtrek werkbladen maken',
+      'schrijfwerkbladen verkopen Etsy KDP Bol.com',
     ],
     lsiKeywords: [
       'letters overtrekken werkblad maker',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'schrijfwerkbladen verkopen op Etsy',
       'Amazon KDP schrijfwerkboeken',
     ],
-    titleTag: 'Schrijfoefeningen Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Maak schrijfoefeningen met overtrek-, vervagend overtrek- en kopieerstand. Streekrichting-pijlen, vijf lettertypen en PDF-export voor Etsy en KDP verkoop.',
+    titleTag: 'Schrijfwerkbladen maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Maak schrijfwerkbladen met overtrek-, vervagend overtrek- en kopieerstand. Streekrichting-pijlen, vijf lettertypen en PDF-export voor Etsy en KDP.',
   },
 
   hero: {
-    title: 'Hoe Schrijfoefeningen Maken voor Kinderen',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van professionele schrijfwerkbladen met progressieve oefenstanden, streekrichting-pijlen en printklare export voor Etsy, Amazon KDP en Gumroad',
-    description: 'Schrijfoefeningen behoren tot de meest tijdloze categorieën in educatieve printables. Elke kleuter die leert een potlood vast te houden, elk kind in groep 3 dat zijn eerste letters vormt, en elke gebruiker in groep 4 die overgaat naar verbonden schrift heeft gestructureerde oefenbladen nodig. Ouders zoeken ze voor thuis. verkopers hebben elke week productlijnensets nodig. Logopedisten gebruiken ze bij fijne motoriek therapie. Deze gids begeleidt je door het volledige creatieproces met de Schrijfwerkblad Generator — van het kiezen van oefenstanden en lettertypen tot het opbouwen van progressieve werkbladen met meerdere rijen en het exporteren van printklare PDF\'s met professionele opmaak. Of je nu je eerste printbare product lanceert of een bestaande catalogus met taalwerkbladen uitbreidt, aan het einde van deze handleiding heb je een afgewerkt product klaar om te verkopen.',
+    title: 'Schrijfwerkbladen maken en verkopen als printable',
+    tagline: 'Professionele schrijfoefeningen maken met progressieve oefenstanden, streekrichting-pijlen en printklare export voor Etsy, KDP of Bol.com',
+    description: 'Schrijfoefeningen behoren tot de meest tijdloze categorieën in educatieve printables. Deze gids begeleidt u door het volledige creatieproces met de Schrijfwerkblad Generator: oefenstanden en lettertypen kiezen, progressieve werkbladen met meerdere rijen opbouwen en printklare PDF\'s exporteren. Aan het einde heeft u een afgewerkt product klaar om te verkopen.',
   },
 
   introduction: 'Schrijfonderwijs volgt een universele ontwikkelingsreeks: kinderen gaan van voorbereidende schrijfbewegingen (lijnen en cirkels) naar het overtrekken van letters, dan naar het zelfstandig kopiëren, en uiteindelijk naar het schrijven uit het geheugen. Elk kind doorloopt deze fasen, en elke fase vereist eigen oefenmateriaal. Die ontwikkelingsrealiteit zorgt voor aanhoudende, jaarronde vraag naar schrijfwerkbladen over meerdere leeftijdsgroepen en vaardigheidsniveaus.\n\nWat schrijfoefeningen bijzonder sterk maakt als printbaar product is het enorme volume dat kopers nodig hebben. Eén werkblad biedt vijf tot tien minuten oefening. verkopers hebben elke dag nieuwe bladen nodig. Ouders die aan lettervorming werken hebben één blad per letter nodig — dat is minimaal 26 bladen voor alleen het hoofdletteralfabet, en nog eens 26 voor kleine letters. Tel daar cijfervorming, veelgebruikte woorden en verbonden schrift bij op, en één koper kan gemakkelijk honderden pagina\'s aanschaffen in één schooljaar.\n\nDe Schrijfwerkblad Generator handelt de technische complexiteit af van het maken van professionele oefenbladen. Hij biedt drie progressieve oefenstanden — Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren — die de ontwikkelingsreeks volgen die kinderen daadwerkelijk doorlopen. Vijf lettertypen omvatten standaard drukletters, gestippelde overtrekcontouren en streekrichting-pijlen die kinderen precies laten zien hoe ze elke letter vormen. Elke rij op het werkblad is onafhankelijk instelbaar, zodat je werkbladen kunt maken die van overtrekken naar zelfstandig schrijven vorderen op één enkele pagina.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldwerkbladen maken, elke oefenstand en lettercombinatie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Gids voor Commerciële Licenties' },
-    { pageType: 'app', slug: 'schrijfoefeningen-werkbladen', anchorText: 'Schrijfwerkblad Generator — Volledige Details' },
-    { pageType: 'app', slug: 'alfabet-trein-werkbladen', anchorText: 'Alfabet Trein Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Probeer de Schrijfwerkblad Maker' },
+    { pageType: 'app', slug: 'schrijfoefeningen-werkbladen', anchorText: 'Schrijfwerkblad Generator' },
+    { pageType: 'app', slug: 'alfabet-trein-werkbladen', anchorText: 'Alfabet Trein Generator' },
+    { pageType: 'bundle', slug: 'lezen-taal-pakket', anchorText: 'Lezen & Taal Pakket' },
   ],
 
   toolsRecommended: [

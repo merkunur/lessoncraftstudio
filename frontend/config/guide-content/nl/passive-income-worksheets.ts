@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'passief inkomen werkbladen',
+    primaryKeyword: 'passief inkomen met werkbladen 2026',
     secondaryKeywords: [
       'passief inkomen printables',
       'werkbladen verkopen passief',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'e-mailmarketing automatisering verkoopfunnel klantenlijst herhaalaankopen',
       'bundelstrategie upselling cross-selling gemiddelde orderwaarde verhogen',
     ],
-    titleTag: 'Passief Inkomen met Werkbladen — Complete Gids',
-    metaDescription: 'Leer hoe je passief inkomen opbouwt met printbare werkbladen. Van productcreatie tot automatisering, ontdek bewezen strategieën voor duurzame digitale.',
+    titleTag: 'Passief inkomen met werkbladen (2026) | LessonCraftStudio',
+    metaDescription: 'Bouw passief inkomen op met printbare werkbladen in 2026. Van nichekeuze tot automatisering op Etsy, Bol.com en KDP. Bewezen strategieën stap voor stap.',
   },
 
   hero: {
-    title: 'Passief Inkomen Opbouwen met Werkbladen',
-    tagline: 'Een uitgebreide gids voor het creëren van duurzame inkomstenstromen met printbare werkbladen en educatief materiaal — van eerste productcreatie tot volledige automatisering van je digitale printable bedrijf, inclusief platformkeuze, bundelstrategieën, e-mailmarketingautomatisering, seizoensplanning voor stabiel jaarrond inkomen en schaalbare groeimodellen voor langetermijn financiële vrijheid',
+    title: 'Passief inkomen opbouwen met werkbladen (2026)',
+    tagline: 'Complete gids voor het creëren van duurzame inkomstenstromen met printbare werkbladen op Etsy, Bol.com en Amazon KDP.',
     description: 'Passief inkomen met printbare werkbladen is geen fantasie — het is een bewezen bedrijfsmodel dat duizenden ondernemers wereldwijd succesvol toepassen. Het concept is eenvoudig maar krachtig: je creëert één keer een hoogwaardig werkblad of educatief materiaal, publiceert het op één of meerdere verkoopplatformen, en verdient telkens opnieuw wanneer iemand het downloadt. Anders dan fysieke producten zijn er geen voorraadkosten, geen verzendlogistiek en geen productielimieten. Een PDF-werkblad dat je vandaag maakt kan over vijf jaar nog steeds dagelijks verkopen zonder dat je er iets aan hoeft te doen. Deze gids neemt je stap voor stap mee door het volledige proces: van het kiezen van je eerste niche en het maken van professionele werkbladen met onze generatoren (beschikbaar als gratis proefversie met watermerk), tot het opzetten van geautomatiseerde verkoopfunnels die 24 uur per dag, 7 dagen per week voor je werken. Of je nu een fulltime inkomen wilt opbouwen of een betrouwbare bijverdienste zoekt, printbare werkbladen bieden een van de meest toegankelijke wegen naar echt passief inkomen in de digitale economie.',
   },
 
@@ -151,18 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'je printable bedrijf automatiseren' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'je printable bedrijf opschalen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'nicheselectie voor printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'prijzen voor educatieve printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'werkbladbundels maken' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'je Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoeker puzzels maken' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'optelwerkbladen maken' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'printable bedrijf inkomsten' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Printables-business laten groeien' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche kiezen voor uw printables-business' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
   ],
 
   toolsRecommended: [

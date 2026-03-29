@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingokaart generator',
+    primaryKeyword: 'bingokaarten maker om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare bingokaart maker voor Etsy verkopers',
-      'plaatjesbingo werkblad generator voor KDP uitgevers',
-      'bingokaart maker met commerciële licentie',
-      'printbare bingokaarten verkopen op Gumroad',
+      'bingokaarten met afbeeldingen generator Etsy',
+      'bingo spel maken voor Amazon KDP',
+      'bingokaarten generator commerciële licentie',
+      'plaatjesbingo verkopen online',
     ],
     lsiKeywords: [
       'digitale bingo-printables online bedrijf',
       'commercieel gebruik bingokaart generator',
       'printbare plaatjesbingo business tools',
     ],
-    titleTag: 'Bingokaart Generator | Maak & Verkoop Bingo-Printables',
+    titleTag: 'Bingokaarten maker voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak plaatjesbingokaarten om te verkopen op Etsy, KDP & Gumroad. Batchgeneratie van unieke kaarten, ZIP-export, afroepbladen, 104 thema\'s.',
+      'Maak bingokaarten met afbeeldingen om te verkopen op Etsy en KDP. Unieke kaarten, thema\'s, commerciële licentie. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Plaatjesbingo Generator voor Printbare Bingo-Activiteiten',
+    title: 'Maak bingokaarten met afbeeldingen om te verkopen op Etsy en KDP',
     tagline:
-      'Genereer 1–10 unieke bingokaarten per batch met configureerbare rasters van 3×3 tot 5×5 — afbeeldings- of woordvulling voor zowel kaartvakjes als ronde fiches, een speciaal afroepblad voor de afroeper, ZIP-batchexport van alle kaarten en 104 thematische beeldcollecties.',
+      'Genereer unieke plaatjesbingokaarten in batch met afroepbladen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Maak professionele plaatjesbingokaarten waarbij spelers overeenkomende afbeeldingen of woorden markeren op hun unieke kaartrasters. Configureer rijen van 3 tot 5 en kolommen van 3 tot 5 onafhankelijk, waardoor rasters ontstaan van 3×3 (9 vakjes) tot 5×5 (25 vakjes) met een standaard van 4×4 (16 vakjes). Kies afbeeldingsvulling of woordvulling onafhankelijk voor zowel kaartvakjes als ronde fiches — fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening voor authentiek bingospel. Genereer 1–10 unieke bingokaarten per batch, elke kaart met een andere willekeurige selectie uit de pool. Een speciaal afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper, met kolommen berekend op basis van de langste woordlengte en uniforme lettergrootte. Selecteer handmatig specifieke afbeeldingen voor aangepaste afroepselectie of laat de app kiezen uit je thema. De Plaatjesbingo Generator is taalgevoelig: woordvulling gebruikt gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden op kaarten, fiches en het afroepblad. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde woordinhoud. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Batchexport alle gegenereerde kaarten als individuele JPEG\'s in een enkel ZIP-bestand. Of je nu bingobundels verkoopt op Etsy.nl, bingo-activiteitenboeken samenstelt voor Amazon KDP, of kant-en-klare bingosets maakt voor Gumroad — deze generator levert productieklare bingokaarten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Bingokaarten Maker genereert u in enkele minuten complete sets plaatjesbingokaarten voor uw printables-business op Etsy, Amazon KDP en Bol.com. Bingo is universeel populair bij feesten, familiebijeenkomsten en evenementen — van Sinterklaas tot Koningsdag, van verjaardagen tot babyshowers. Configureer rasters van 3x3 tot 5x5, kies tussen afbeeldings- of woordvulling, en genereer tot 10 unieke kaarten per batch. Elke kaart is gegarandeerd anders, zodat het bingospel eerlijk verloopt. De generator maakt automatisch een afroepblad bij elke set, compleet met alle spelitems in een overzichtelijk raster. Selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties en exporteer alles als ZIP-bestand met individuele JPEG\'s of als printklare PDF\'s op 300 DPI. Seizoensgebonden bingosets zijn bijzonder populair op Etsy.nl — denk aan Kerst-bingo, Halloween-bingo en Sinterklaas-bingo als unieke niche voor de Nederlandse en Belgische markt. De commerciële licentie verleent volledige verkooprechten op alle platforms, inclusief Etsy, Amazon KDP en Brave New Books. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard voordat u een licentie aanschaft.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Plaatjesbingokaarten in 5 Stappen',
+    title: 'Zo maakt u bingokaarten om te verkopen in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Plaatjesbingo Generator',
+    title: 'Functies die uw bingokaarten verkoopklaar maken',
     features: [
       {
         title: 'Configureerbaar Bingoraster van 3×3 tot 5×5 met Onafhankelijke Rij- en Kolombesturing',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Plaatjesbingokaarten Online Verkoopt',
+    title: 'Verdien met bingokaarten op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Thematische Bingokaart-Bundels op Etsy.nl',
@@ -207,62 +207,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'verbindings-werkbladen',
-      anchorText: 'Verbindingswerkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'raster-puzzel-werkbladen',
-      anchorText: 'Rasterpuzzel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'schaduw-matching-werkbladen',
-      anchorText: 'Schaduw Koppelen Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sorteer-werkbladen',
-      anchorText: 'Sorteer Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'zoek-voorwerpen-werkbladen',
-      anchorText: 'Zoek Voorwerpen Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Puzzel Generator',
+      anchorText: 'Koppelwerkbladen maken en verkopen als printables',
     },
     {
       pageType: 'bundle',
       slug: 'matchen-sorteren-pakket',
-      anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-Apps in Één Pakket',
+      anchorText: 'Matchen & Sorteren Pakket — alle koppel-apps in één bundel',
     },
     {
       pageType: 'guide',
       slug: 'bingokaarten-maken',
-      anchorText: 'Hoe Maak en Verkoop Je Bingokaarten Online',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kerst-printable-ideen',
-      anchorText: 'Kerst Printable Ideeën voor Werkbladen',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kamperen-printable-ideen',
-      anchorText: 'Camping printable ideeën voor buitenonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zeedieren-printable-ideen',
-      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-bedrijf',
-      anchorText: 'Marketing voor je printable bedrijf',
+      anchorText: 'Gids: bingokaarten maken en verkopen op Etsy',
     },
   ],
 

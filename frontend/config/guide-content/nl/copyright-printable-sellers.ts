@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'auteursrecht printable verkopers',
+    primaryKeyword: 'auteursrecht voor printables-verkopers',
     secondaryKeywords: [
-      'copyright werkbladen verkopen',
-      'auteursrecht digitale producten',
-      'printable intellectueel eigendom',
-      'licentie werkbladen',
+      'copyright werkbladen verkopen Nederland',
+      'auteursrecht digitale producten Etsy',
+      'printable intellectueel eigendom bescherming',
+      'licentie werkbladen DMCA',
     ],
     lsiKeywords: [
       'intellectueel eigendom bescherming origineel werk auteursrechtregistratie DMCA-melding',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'auteursrechteigendom automatische bescherming registratievoordelen wettelijke schadevergoeding',
       'creatieve keuzes expressie versus ideeën feiten standaardmethoden educatieve inhoud',
     ],
-    titleTag: 'Auteursrecht voor Printable Verkopers — Gids',
-    metaDescription: 'Begrijp het auteursrecht dat printable verkopers moeten kennen: welke werkbladelementen beschermbaar zijn, registratievoordelen, handhaving en.',
+    titleTag: 'Auteursrecht voor verkopers | LessonCraftStudio',
+    metaDescription: 'Auteursrecht voor printables-verkopers in Nederland: welke werkbladelementen beschermbaar zijn, registratie, DMCA-handhaving en veelgemaakte fouten.',
   },
 
   hero: {
-    title: 'Auteursrecht voor Printable Verkopers',
-    tagline: 'Een complete gids over auteursrecht als printable ondernemer — wat auteursrecht beschermt in werkbladen, wat wel en niet beschermbaar is in educatieve producten, je originele ontwerpen beschermen, fair use begrijpen, publiek domein bronnen gebruiken, omgaan met inbreuk, auteursrechtfouten vermijden en auteursrechtbewustzijn opbouwen in je bedrijfsvoering',
-    description: 'Auteursrecht is het juridische kader dat je originele creatieve werk beschermt en bepaalt wat je wel en niet mag gebruiken van anderen. Als printable verkoper is het begrijpen van auteursrechtbasiskennis om twee redenen essentieel: het beschermen van de werkbladen en ontwerpen die je maakt tegen ongeautoriseerd kopiëren, en het waarborgen dat je eigen producten geen inbreuk maken op andermans rechten. Deze gids biedt praktische auteursrechtkennis specifiek voor printable verkopers — welke elementen van je werkbladen beschermbaar zijn, hoe je je juridische positie versterkt, wat te doen wanneer iemand je werk kopieert, en hoe je veelvoorkomende auteursrechtfouten vermijdt die kunnen leiden tot marktplaatsverwijderingen of juridische aansprakelijkheid. Let op: deze gids is educatieve informatie, geen juridisch advies. Raadpleeg een gekwalificeerde advocaat voor begeleiding bij specifieke situaties.',
+    title: 'Auteursrecht voor printables-verkopers in Nederland',
+    tagline: 'Een complete gids over auteursrecht als printable ondernemer — wat auteursrecht beschermt in werkbladen, wat wel en niet beschermbaar is in educatieve producten, uw originele ontwerpen beschermen, fair use begrijpen, publiek domein bronnen gebruiken, omgaan met inbreuk, auteursrechtfouten vermijden en auteursrechtbewustzijn opbouwen in uw bedrijfsvoering',
+    description: 'Auteursrecht is het juridische kader dat uw originele creatieve werk beschermt en bepaalt wat u wel en niet mag gebruiken van anderen. Als printable verkoper is het begrijpen van auteursrechtbasiskennis om twee redenen essentieel: het beschermen van de werkbladen en ontwerpen die u maakt tegen ongeautoriseerd kopiëren, en het waarborgen dat uw eigen producten geen inbreuk maken op andermans rechten. Deze gids biedt praktische auteursrechtkennis specifiek voor printable verkopers — welke elementen van uw werkbladen beschermbaar zijn, hoe u uw juridische positie versterkt, wat te doen wanneer iemand uw werk kopieert, en hoe u veelvoorkomende auteursrechtfouten vermijdt die kunnen leiden tot marktplaatsverwijderingen of juridische aansprakelijkheid. Let op: deze gids is educatieve informatie, geen juridisch advies. Raadpleeg een gekwalificeerde advocaat voor begeleiding bij specifieke situaties.',
   },
 
   introduction: 'Veel printable verkopers werken met slechts een vaag begrip van auteursrecht, wat twee aanzienlijke risico\'s creëert. Het eerste risico is onderbescherming: het nalaten van basisstappen die je juridische positie zouden versterken wanneer iemand onvermijdelijk je producten kopieert. Het tweede risico is overmoed: aannemen dat alles wat je maakt automatisch beschermd is tegen elke vorm van kopiëren, of dat het toevoegen van een auteursrechtsymbool aan een werkblad elk element ervan juridisch onaantastbaar maakt.\n\nDe realiteit van auteursrecht voor printable verkopers is genuanceerder dan beide extremen. Auteursrecht beschermt inderdaad originele creatieve expressie automatisch bij creatie — je hoeft niets te registreren of in te dienen voor basisbescherming. Maar auteursrecht beschermt geen ideeën, feiten, standaardmethoden of gangbare rangschikkingen. Een specifieke werkbladlay-out met originele illustraties en creatieve instructietekst is auteursrechtelijk beschermd. De onderliggende rekenfeiten, alfabetische volgordes of educatieve concepten op dat werkblad zijn dat niet. Het begrijpen van dit onderscheid is de basis van praktische auteursrechtkennis voor printable verkopers.\n\nDit onderscheid is enorm belangrijk in de educatieve printable markt omdat zo veel van wat werkbladen bevatten in de onbeschermbare categorie valt. Het feit dat 2 + 3 = 5 kan door niemand worden geëigend. Het concept van een woordzoekpuzzel kan niet worden geclaimd. Het idee om dierenafbeeldingen te gebruiken om woordenschat te leren is voor iedereen beschikbaar. Wat wél auteursrechtelijk beschermd kan worden is je specifieke creatieve expressie: de bijzondere manier waarop je elementen op een pagina rangschikt, de originele illustraties die je maakt of licentieert, de unieke instructietekst die je schrijft, en de creatieve keuzes die je maakt bij het combineren en presenteren van educatieve inhoud.\n\nVoor printable verkopers dient auteursrechtkennis drie praktische doelen. Ten eerste helpt het je begrijpen welke aspecten van je werk bescherming verdienen en welke stappen die bescherming versterken. Ten tweede rust het je uit om effectief te reageren wanneer iemand je producten kopieert — het verschil kennen tussen iemand die je creatieve expressie kopieert (daadwerkelijke inbreuk) en iemand die een vergelijkbaar werkblad over hetzelfde onderwerp maakt (géén inbreuk) bespaart je tijd en energie in onwinbare geschillen. Ten derde voorkomt het dat je onbedoeld inbreuk maakt op andermans auteursrechten, wat kan leiden tot verwijdering van marktplaatsvermeldingen, accountwaarschuwingen of juridische aansprakelijkheid.\n\nDeze gids behandelt de praktische auteursrechtkennis die printable verkopers het meest nodig hebben: wat wel en niet beschermbaar is, hoe je je auteursrechtpositie versterkt, wat te doen bij inbreuk, hoe je publiek domein en gelicenseerde bronnen veilig gebruikt, en hoe je auteursrechtbewustzijn inbouwt in je dagelijkse bedrijfsvoering. Het doel is niet om je een auteursrechtadvocaat te maken, maar om je voldoende begrip te geven om je werk te beschermen, andermans rechten te respecteren en geïnformeerde beslissingen te nemen over de intellectuele eigendomsaspecten van je printable bedrijf.',
@@ -151,16 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Commerciële Gebruikslicenties Begrijpen' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Hoe een Printable Productlijn Te Maken' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nicheselectie Gids voor Printable Bedrijven' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor Educatieve Printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy Printable Winkel Starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables Verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekpuzzels Maken voor Verkoop' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten Maken van Thematische Afbeeldingen' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'commerciële gebruikslicenties begrijpen' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'een printable productlijn opzetten' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'kleurplaten maken met commerciële licentie' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commerciële Licentie Gids' },
   ],

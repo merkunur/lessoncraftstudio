@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kruiswoordpuzzel maken voor de winkel',
+    primaryKeyword: 'gratis kruiswoordpuzzel maker met afbeeldingen',
     secondaryKeywords: [
-      'kruiswoordpuzzel maker voor verkopers',
-      'plaatjes kruiswoordpuzzels voor kinderen',
-      'printbare kruiswoordpuzzels voor school',
-      'woordenschat kruiswoordpuzzel voor gebruikers',
+      'kruiswoordpuzzel online maken gratis',
+      'plaatjes kruiswoordpuzzel generator gratis',
+      'kruiswoordpuzzel met afbeeldingsaanwijzingen maken',
+      'woordenschat kruiswoordpuzzel gratis proberen',
     ],
     lsiKeywords: [
-      'kruiswoordpuzzel met visuele aanwijzingen',
-      'gelokaliseerde kruiswoordpuzzel generator voor de winkel',
-      'automatisch antwoordblad kruiswoordpuzzel',
+      'kruiswoordpuzzel met visuele aanwijzingen online',
+      'taalgebonden kruiswoordpuzzel generator gratis',
+      'automatisch antwoordblad kruiswoordpuzzel maker',
     ],
-    titleTag: 'Kruiswoordpuzzel Maken — Voor de winkel',
-    metaDescription: 'Maak plaatjes kruiswoordpuzzels voor de winkel. 15x15 raster, vier invoermethoden, automatisch antwoordblad. Gratis proefversie met watermerk.',
+    titleTag: 'Kruiswoordpuzzel maker gratis | LessonCraftStudio',
+    metaDescription: 'Maak gratis kruiswoordpuzzels met afbeeldingsaanwijzingen online. 15x15 raster, vier invoermethoden, automatisch antwoordblad, 104 thema\'s. Probeer nu.',
     },
 
   hero: {
-    title: 'Kruiswoordpuzzel Maker',
-    tagline: 'Plaatjes kruiswoordpuzzel generator met afbeeldingsaanwijzingen op een vast 15×15 raster, vier invoermethoden (snel thema genereren, handmatige afbeeldingsnaam bewerking, aangepaste woordenlijst met aanwijzingen, en eigen afbeeldingen uploaden), automatisch gegenereerd antwoordblad met ingevuld raster via dubbel-canvas systeem, taalgebonden puzzelwoorden in 11 talen via Beeldwoordenschat, en een gelokaliseerde blauwe koptekst (#5B9BD5) met Fredoka-titel en Quicksand-beschrijving over 104 thematische beeldcollecties',
-    description: 'Maak professionele plaatjes kruiswoordpuzzels waarbij kleurrijke afbeeldingen de traditionele tekstaanwijzingen vervangen. Acht afbeeldingen genereren acht woorden op een vast 15×15 raster — het algoritme extraheert woorden uit afbeeldingsnamen, verwijdert spaties, converteert naar hoofdletters, schudt, sorteert op lengte (langste eerst) en plaatst woorden met optimale kruising bij gedeelde letters. Genummerde aanwijzingsposities markeren het begin van elk woord, en afbeeldingsaanwijzingen verschijnen naast het raster met overeenkomende nummers. Kies uit vier invoermethoden die verschillende kruiswoordbehoeften bedienen. Snel Thema Genereren selecteert automatisch 8 willekeurige afbeeldingen uit elk van de 104 thematische collecties en genereert direct — de snelste weg naar een voltooide puzzel. Handmatige Afbeeldingsnaam Bewerking laat je individuele afbeeldingen aanklikken en hernoemen vóór generatie, waardoor je precieze controle hebt over de woorden in het raster. Aangepaste Woordenlijst met Aanwijzingen schakelt over naar traditionele tekstaanwijzing-kruiswoordpuzzels met een WOORD: aanwijzing-formaat voor vakspecifieke woordenschatpuzzels zonder afbeeldingen. Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. De Kruiswoordpuzzel Maker is taalgebonden: puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen via het Beeldwoordenschat-systeem. Het wisselen van inhoudstaal verandert de daadwerkelijke kruiswoordwoorden — een katafbeelding genereert "KAT" in het Nederlands maar "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans, waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit dezelfde afbeeldingen. Het Commerciële abonnement bevat Engelse inhoud; Volledige Toegang ontgrendelt alle 11 talen voor gelokaliseerde puzzelwoorden. Het dubbele canvassysteem genereert zowel een puzzeltabblad als een antwoordbladtabblad — het antwoordblad toont het ingevulde raster met alle correcte antwoorden zichtbaar in de cellen. Elke puzzel bevat een automatisch gegenereerde gelokaliseerde koptekst met een blauwe achtergrond (#5B9BD5), witte pil, Fredoka-titel met dynamische grootte (48px voor korte titels tot 28px voor langere vertalingen) en Quicksand-beschrijving. Staande modus toont een koptekst over de volle breedte (220px hoogte); liggende modus gebruikt een compacte gecentreerde indeling (145px hoogte). Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen afbeeldingen. Pas achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI (6× vermenigvuldiger) in Letter Staand, Letter Liggend, A4 Staand, A4 Liggend of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis kruiswoordpuzzel maker met afbeeldingen',
+    tagline: 'Maak plaatjes kruiswoordpuzzels met vier invoermethoden en automatisch antwoordblad — gratis online',
+    description: 'Maak kruiswoordpuzzels waarbij kleurrijke afbeeldingen de traditionele tekstaanwijzingen vervangen. Met deze gratis online tool genereert u professionele plaatjes kruiswoordpuzzels op een vast 15x15 raster. Acht afbeeldingen worden automatisch omgezet naar acht kruiswoordwoorden met optimale kruising bij gedeelde letters. Kies uit vier invoermethoden: Snel Thema Genereren selecteert automatisch afbeeldingen uit 104 thematische collecties met meer dan 3.100 illustraties. Handmatige Bewerkingsmodus geeft u controle over de woordkeuze. Aangepaste Woordenlijst laat u eigen woorden met tekstaanwijzingen invoeren. Upload Aangepaste Afbeeldingen voegt uw eigen bestanden toe. De tool is taalgebonden: een katafbeelding genereert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits en "CHAT" in het Frans. Het antwoordblad met ingevuld raster wordt automatisch meegegenereerd. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders, leerkrachten en puzzelliefhebbers die kruiswoordpuzzels met afbeeldingen willen uitproberen.',
   },
 
   tutorial: {
-    title: 'Plaatjes Kruiswoordpuzzels Maken in 8 Stappen',
+    title: 'Plaatjes kruiswoordpuzzels maken in 8 stappen',
     steps: [
       {
         title: 'Open de Kruiswoordpuzzel Maker',
@@ -196,14 +196,14 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Plaatjes Kruiswoordpuzzels — Volledig Productoverzicht' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
-    { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Woordscramble Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Woordraad Werkblad Maker' },
-    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Maker' },
-    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek & Tel Werkblad Maker' },
-    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Zoek Voorwerpen Werkblad Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Werkblad Maker' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Gratis woordzoeker maker' },
+    { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Gratis letterpuzzel maker' },
+    { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Gratis raad het woord maker' },
+    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Gratis schattenjacht maker' },
+    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Gratis zoek en tel maker' },
+    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Gratis zoek voorwerpen maker' },
+    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Gratis cryptogram maker' },
   ],
 
   visuals: {

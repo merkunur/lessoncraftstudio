@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schattenjacht werkblad generator',
+    primaryKeyword: 'speurtocht generator om te verkopen op Etsy en KDP',
     secondaryKeywords: [
-      'printbare schattenjacht padzoek-maker voor Etsy verkopers',
-      'richtingspuzzel werkblad generator voor KDP uitgevers',
-      'coördinatenraster schattenjacht maker met commerciële licentie',
-      'schattenjacht werkbladen verkopen op Gumroad',
+      'speurtocht werkbladen maken Etsy',
+      'schattenjacht generator voor KDP-boeken',
+      'speurtocht activiteiten commerciële licentie',
+      'speurtocht puzzels verkopen online',
     ],
     lsiKeywords: [
       'digitale schattenjacht printables online bedrijf',
       'commercieel gebruik richtingswerkblad generator',
       'printbare padzoekpuzzel business tools',
     ],
-    titleTag: 'Schattenjacht Generator | Maak & Verkoop Padzoekpuzzels',
+    titleTag: 'Speurtocht generator voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak schattenjacht werkbladen om te verkopen op Etsy, KDP & Gumroad. 5×5 coördinatenraster, twee richtingstypen, automatisch antwoordblad, 104 thema\'s.',
+      'Maak speurtocht-werkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, aanpasbare routes, commerciële licentie. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Schattenjacht Werkblad Generator voor Padzoek-Richtingspuzzels',
+    title: 'Genereer speurtocht-werkbladen om te verkopen op Etsy en KDP',
     tagline:
-      'Genereer richtingsgebaseerde padzoekpuzzels op een 5×5 coördinatenraster — twee richtingswoordenschatten (Basis: omhoog/omlaag/links/rechts en Kompas: noord/zuid/oost/west), volledig gelokaliseerde richtingsaanwijzingen in 11 talen, automatisch gegenereerd antwoordblad met gemarkeerde schatlocatie, en schattenjacht-thema kopteksten over 104 beeldcollecties.',
+      'Speurtocht-werkbladen met thema-afbeeldingen en aanwijzingen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Bouw professionele schattenjacht werkbladen waarbij gebruikers opeenvolgende bewegingsaanwijzingen volgen om verborgen schatten te vinden op een 5×5 letter-nummer coördinatenraster (A–E rijen, 1–5 kolommen). Elke puzzel verspreidt 6 thematische afbeeldingen over het raster als oriëntatiepunten, genereert vervolgens een startpositie en precies 4 richtingsbewegingen die naar de schatcel leiden. Kies tussen twee richtingswoordenschatten: Basismodus gebruikt omhoog, omlaag, links en rechts voor jonge gebruikers die fundamentele ruimtelijke woordenschat opbouwen, terwijl Kompasmodus noord, zuid, oost en west gebruikt voor gevorderde ruimtelijke oriëntatie. De Schattenjacht Generator is taalgebonden: het wisselen van taal verandert zowel de richtingsinstructietekst als de afbeeldingsinhoud, met alle richtingen volledig vertaald in 11 ondersteunde talen. Elke puzzel bevat een automatisch gegenereerde gelokaliseerde koptekst met een blauwgroene achtergrond (#2C8C7C), gouden titel (#D4A017) in Fredoka-lettertype en zandkleurige beschrijving in Quicksand — met "Schattenjacht" en "Volg de aanwijzingen en vind de schat!" in de geselecteerde taal. Het dubbele canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad — het antwoordblad markeert de uiteindelijke schatcel in lichtgeel zodat je deze nooit handmatig hoeft aan te duiden. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 talen voor gelokaliseerde richtingen en afbeeldingen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu schattenjacht bundels verkoopt op Etsy.nl, richtingsvaardigheden werkboeken samenstelt voor Amazon KDP, of coördinatenraster activiteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Speurtocht Generator maakt u professionele schattenjacht-werkbladen waarbij kinderen aanwijzingen volgen langs afbeeldingen om een verborgen schat te vinden op een 5×5 coördinatenraster. Elke puzzel bevat 6 thematische illustraties als oriëntatiepunten en 4 richtingsbewegingen die naar de schatlocatie leiden. Kies uit Basismodus (omhoog, omlaag, links, rechts) of Kompasmodus (noord, zuid, oost, west) en selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties. Speurtocht-werkbladen zijn ideaal voor kinderfeestjes, verjaardagsactiviteiten en seizoensgebonden evenementen. Sinterklaas-speurtochten zijn een uitstekende seizoensmogelijkheid voor de Nederlandse en Belgische markt — een niche met nauwelijks Engelstalige concurrentie. Verkoop uw werkbladen op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met automatisch gegenereerde antwoordbladen. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Schattenjacht Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u speurtocht-werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Schattenjacht Werkblad Generator',
+    title: 'Belangrijkste functies van de Speurtocht Generator',
     features: [
       {
         title: 'Padzoek-Schattenjacht Puzzels op een 5×5 Coördinatenraster',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Schattenjacht Werkbladen Online Verkoopt',
+    title: 'Hoe verkoopt u speurtocht-werkbladen online',
     cases: [
       {
         title: 'Thematische Schattenjacht Bundels op Etsy',
@@ -201,58 +201,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Zoek en Tel Werkblad Generator',
+      slug: 'doolhof-werkbladen',
+      anchorText: 'Doolhof Werkbladen Generator',
     },
     {
       pageType: 'app',
       slug: 'zoek-voorwerpen-werkbladen',
-      anchorText: 'Zoek Voorwerpen Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'kruiswoordpuzzel-werkbladen',
-      anchorText: 'Kruiswoordpuzzel Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'doolhof-werkbladen',
-      anchorText: 'Doolhof Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'voorzetsels-werkbladen',
-      anchorText: 'Voorzetsels Werkblad Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzels Werkblad Generator',
+      anchorText: 'Zoek Voorwerpen Werkbladen Generator',
     },
     {
       pageType: 'bundle',
       slug: 'zoeken-vinden-pakket',
-      anchorText: 'Zoeken & Vinden Pakket — Alle Zoek-Apps in Één Pakket',
-    },
-    {
-      pageType: 'guide',
-      slug: 'schattenjacht-werkbladen-maken',
-      anchorText: 'Hoe Je Schattenjacht Werkbladen Maakt die Verkopen',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kamperen-printable-ideen',
-      anchorText: 'Camping printable ideeën voor buitenonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zeedieren-printable-ideen',
-      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
-    },
-    {
-      pageType: 'start',
-      slug: 'marketing-printable-bedrijf',
-      anchorText: 'Marketing voor je printable bedrijf',
+      anchorText: 'Zoeken & Vinden Pakket — Alle Zoek-Apps in Eén Bundel',
     },
   ],
 

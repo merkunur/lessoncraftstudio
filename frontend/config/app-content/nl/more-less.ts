@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'meer of minder werkbladen generator',
+    primaryKeyword: 'meer en minder werkbladen om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare vergelijkingswerkbladen voor Etsy',
-      'meer minder werkbladen generator voor Amazon KDP',
-      'groter dan kleiner dan werkbladen verkopen op Gumroad',
-      'vergelijkingswerkbladen commerciële licentie',
+      'groter-dan kleiner-dan werkbladen generator Etsy',
+      'vergelijkingswerkbladen voor Amazon KDP',
+      'meer of minder werkbladen commerciële licentie',
+      'vergelijkingsoefeningen verkopen',
     ],
     lsiKeywords: [
       'digitale reken-vergelijkingsproducten online bedrijf',
       'printbare getalbegrip werkbladen business',
       'commercieel gebruik vergelijkingsgenerator',
     ],
-    titleTag: 'Meer of Minder Generator | Vergelijkingswerkbladen',
+    titleTag: 'Meer en minder werkbladen verkopen | LessonCraftStudio',
     metaDescription:
-      'Maak vergelijkingswerkbladen om te verkopen op Etsy, KDP en Gumroad. 3 vergelijkingsmodi, 104 thema\'s, antwoordbladen, 400+ DPI export.',
+      'Maak meer-en-minder vergelijkingswerkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, antwoorden, commerciële licentie. Gratis proefversie.',
   },
 
   hero: {
-    title: 'Meer of Minder Werkbladen Generator voor Visuele Getallenvergelijking',
-    tagline: 'Verander getallenvergelijking in een visuele ontdekkingstocht met op afbeeldingen gebaseerde groter-dan en kleiner-dan werkbladen.',
+    title: 'Maak meer-en-minder werkbladen om te verkopen op Etsy en KDP',
+    tagline: 'Groter-dan en kleiner-dan vergelijkingswerkbladen met thema-afbeeldingen. Gratis proefversie met watermerk — commerciële licentie voor onbeperkt verkopen.',
     description:
-      'Maak aansprekende vergelijkingswerkbladen waarmee gebruikers leren welke groep meer heeft, welke minder, en wanneer twee groepen gelijk zijn. Kies uit drie verschillende oefenmodi — Afbeelding naar Afbeelding, Afbeelding naar Getal en de unieke modus Controleer en Kruis Groepen waarbij gebruikers dozen met gemengde afbeeldingen analyseren om de meerderheidsgroep te vinden. Schakel tussen dezelfde afbeeldingen en verschillende afbeeldingen als vergelijking, kies illustratie-symbolen of standaard wiskundige tekens, en selecteer uit meer dan 3100 zorgvuldig geselecteerde afbeeldingen in 104 thema\'s. Elk werkblad genereert een automatisch antwoordblad, en je kunt printklare PDF\'s exporteren in Letter-, A4- of aangepast formaat op meer dan 400 DPI. Of je nu themapakketten verkoopt op Etsy.nl, vergelijkingsactiviteitenboeken samenstelt voor Amazon KDP of gedifferentieerde rekencentra maakt voor je winkel — de Meer of Minder Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Meer of Minder Werkbladen Generator maakt u professionele vergelijkingswerkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Kinderen in groep 1 tot en met 3 leren welke groep meer heeft, welke minder en wanneer twee groepen gelijk zijn. U kiest uit drie oefenmodi — Afbeelding naar Afbeelding, Afbeelding naar Getal en de unieke modus Controleer en Kruis Groepen. Selecteer uit meer dan 3100 illustraties in 104 thema\'s, schakel tussen dezelfde of verschillende afbeeldingen per vergelijking en kies illustratie-symbolen of standaard wiskundige tekens. Elk werkblad bevat een automatisch antwoordblad. Exporteer printklare PDF\'s op meer dan 400 DPI in Letter- of A4-formaat. De Nederlandse markt biedt kansen op Etsy.nl en Bol.com voor verkopers van educatieve printables. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten op elk platform.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Vergelijkingswerkbladen in 5 Stappen',
+    title: 'Hoe maakt u vergelijkingswerkbladen om te verkopen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Meer of Minder Werkbladen Generator',
+    title: 'Functies van de meer-en-minder werkbladen generator voor verkopers',
     features: [
       {
         title: 'Drie vergelijkingsmodi voor oefeningen',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Vergelijkingswerkbladen Online',
+    title: 'Vergelijkingswerkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Thematische vergelijkingswerkbladen pakketten op Etsy.nl',
@@ -206,52 +206,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'optellen-werkbladen',
-      anchorText: 'Optellen Werkbladen Generator',
+      anchorText: 'Optellen werkbladen generator',
     },
     {
       pageType: 'app',
-      slug: 'aftrekken-werkbladen',
-      anchorText: 'Aftrekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzels Werkbladen Generator',
+      slug: 'rekenen-werkbladen',
+      anchorText: 'Rekenen werkbladen generator',
     },
     {
       pageType: 'bundle',
       slug: 'wiskunde-meester-pakket',
-      anchorText: 'Wiskunde Meester Pakket — Alle Reken-Apps in Één Pakket',
-    },
-    {
-      pageType: 'guide',
-      slug: 'optellen-werkbladen-maken',
-      anchorText: 'Hoe Maak Je Rekenwerkbladen die Verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'reken-werkbladen-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Rekenwerkbladen op Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'rekenfeiten-printable-ideen',
-      anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'terug-naar-school-printable-ideen',
-      anchorText: 'Terug-naar-school printable ideeën die verkopen',
-    },
-    {
-      pageType: 'start',
-      slug: 'werkbladen-maken-die-verkopen',
-      anchorText: 'Werkbladen maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'tel-werkbladen-maken',
-      anchorText: 'Tel werkbladen maken',
+      anchorText: 'Wiskunde Meester Pakket — alle reken-apps in één pakket',
     },
   ],
 

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'cryptogram werkblad generator',
+    primaryKeyword: 'gratis cryptogram generator',
     secondaryKeywords: [
-      'plaatjes cijferpuzzel maker voor verkopers',
-      'cryptogram werkbladen maken om te verkopen',
-      'printbare cryptogram puzzels met commerciële licentie',
-      'cryptogram generator voor KDP',
+      'cryptogram puzzels gratis online maken',
+      'gratis cryptogram werkblad maker zonder account',
+      'cryptogram generator gratis met antwoordblad',
+      'plaatjes cryptogram online genereren',
     ],
     lsiKeywords: [
       'afbeelding-naar-letter cijfer printables voor Etsy',
       'codekraak werkblad generator tool',
       'meertalige plaatjes cryptogram maker',
     ],
-    titleTag: 'Cryptogram Werkblad Maker | Maak & Verkoop Puzzels',
-    metaDescription: 'Genereer cryptogram werkbladen met plaatjescijfer-codering, moeilijkheidsschuifregelaar, automatische toewijzing, antwoordbladen in 11 talen.',
+    titleTag: 'Cryptogram generator gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis cryptogram puzzels online met plaatjescijfer-codering, Letters Onthullen moeilijkheidsregelaar, antwoordbladen en 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Cryptogram Werkblad Maker',
-    tagline: 'Maak plaatjescijfer-puzzels waarbij elke letter aan een afbeelding is gekoppeld en gebruikers hele geheime zinnen ontcijferen door patroonherkenning',
-    description: 'Ontwerp professionele cryptogram werkbladen gebouwd op een plaatjescijfer-mechanisme: elke alfabetletter is gekoppeld aan een unieke afbeelding, en je geheime zin wordt weergegeven als een reeks afbeeldingen die gebruikers terug moeten decoderen naar leesbare tekst. In tegenstelling tot woordzoekers of letterpuzzels die met individuele woorden werken, codeert de Cryptogram generator hele zinnen en uitdrukkingen — gebruikers kraken de cijfercode door af te leiden welke afbeelding welke letter voorstelt, gebruikmakend van contextuele aanwijzingen uit veelvoorkomende woorden zoals "de", "en" en "is" om hun codekraakwerk te versnellen. De schuifregelaar Letters Onthullen (0–10) is de primaire moeilijkheidsregeling: stel deze in op nul voor een pure codekraak-uitdaging zonder startinformatie, of schuif naar tien voor zware ondersteuning waarbij veel letter-naar-afbeelding koppelingen vooraf als hints zijn opgelost. Automatische Toewijzing haalt willekeurige afbeeldingen uit een van de 104 thematische collecties (meer dan 3100 illustraties) om de hele cijfercode met één klik te vullen, terwijl Handmatige Toewijzing je specifieke afbeeldingen voor specifieke letters laat kiezen met een volledig visueel overzicht van alle koppelingen. Upload eigen afbeeldingen voor volledige creatieve controle. Het antwoordblad bevat een letterlegenda die elke alfabetletter toont gekoppeld aan de toegewezen afbeelding in gesorteerde volgorde — de definitieve oplossingsreferentie. Taalgevoeligheid is ingebouwd: schakel van taal en zowel de geheime boodschaptekst als het alfabet veranderen. Nederlandse cryptogrammen coderen Nederlandse zinnen met het volledige Nederlandse alfabet; Duitse cryptogrammen coderen Duitse zinnen met ä, ö, ü, ß in het alfabet; Franse cryptogrammen gebruiken é, è, ç, à. Elke taalversie is een oprecht ander cijferproduct. Exporteer printklare PDF\'s en JPEG\'s op 400+ DPI in Letter-, A4- of aangepaste formaten. Kies uit 5 lettertypen, schakel grijstinten in voor inktbesparende uitvoer, en gebruik het volledige Fabric.js canvas om elk element te herpositioneren. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis cryptogram puzzels online maken',
+    tagline: 'Maak plaatjescijfer-puzzels met instelbare moeilijkheid, automatische toewijzing en antwoordbladen — direct in uw browser',
+    description: 'Maak cryptogram werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: elke alfabetletter wordt gekoppeld aan een unieke afbeelding, en uw geheime zin verschijnt als een reeks afbeeldingen die terug gedecodeerd moeten worden naar leesbare tekst. De schuifregelaar Letters Onthullen regelt de moeilijkheid van 0 (pure codekraak-uitdaging) tot 10 (zware ondersteuning met vooraf opgeloste koppelingen). Automatische Toewijzing vult de hele cijfercode met één klik uit 104 thematische collecties met meer dan 3.100 illustraties, terwijl Handmatige Toewijzing u specifieke afbeeldingen per letter laat kiezen. Upload ook uw eigen afbeeldingen voor volledige creatieve controle. De tool is taalgebonden — schakel van taal en zowel de geheime boodschap als het alfabet veranderen, inclusief speciale tekens per taal. Het antwoordblad met letterlegenda wordt automatisch gegenereerd. Exporteer als printklare PDF of hoge-resolutie JPEG op 400+ DPI. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 
   tutorial: {
-    title: 'Cryptogram Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Cryptogram puzzels gratis maken in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de cryptogram werkblad maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Raad het Woord Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },

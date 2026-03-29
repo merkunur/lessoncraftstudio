@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy printable werkbladen prijzen',
+    primaryKeyword: 'prijzen bepalen voor printables op Etsy',
     secondaryKeywords: [
       'hoe printbare werkbladen prijzen op Etsy',
       'Etsy printable prijsstrategie',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'prijstesten Etsy Stats conversiepercentage optimalisatie',
       'internationale prijsstelling valuta Etsy digitale downloads A4 Letter',
     ],
-    titleTag: 'Etsy Printable Werkbladen Prijzen — Prijsgids',
-    metaDescription: 'Etsy printable werkbladen prijzen met kostenberekening, drielaags prijsstelling, bundelstrategieën en seizoensaanpassingen. Complete prijsgids voor verkopers.',
+    titleTag: 'Prijzen printables op Etsy bepalen | LessonCraftStudio',
+    metaDescription: 'Bepaal de juiste prijzen voor uw Etsy printables. Kostenberekening, drielaags prijsstructuur, bundelstrategieën en seizoensaanpassingen voor verkopers.',
   },
 
   hero: {
-    title: 'Hoe Je Etsy Printable Werkbladen Prijst',
-    tagline: 'Een complete prijsstrategiegids voor Etsy printable werkbladverkopers — inclusief concurrentieonderzoek, Etsy-kostenberekening en netto-omzetberekeningen, basisprijsbenchmarks per producttype en pagina-aantal, drielaags prijsstructuren die de gemiddelde bestelwaarde verhogen, cross-categorie en niveaucategorie bundelprijzen, strategisch gebruik van Etsy-kortingen en coupons, internationale prijsaanpassingen voor wereldwijde kopers, en prijstestmethodologie met Etsy Stats conversiedata',
-    description: 'Prijsstelling is de meest bepalende beslissing in je Etsy printable werkbladbedrijf. Prijs te laag en Etsy-kosten vreten je marges op. Prijs te hoog zonder waarde te communiceren en kopers scrollen voorbij. Deze gids geeft je het complete prijskader — van het berekenen van je werkelijke netto-omzet na alle Etsy-kosten, tot het opbouwen van een drielaags prijsstructuur die de gemiddelde bestelwaarde natuurlijk verhoogt, tot het prijzen van cross-categorie bundels die premiumprijzen beheersen. Of je nu je eerste werkbladpakket vermeldt of prijzen optimaliseert over een gevestigde catalogus, aan het einde van deze gids heb je een datagestuurde prijsstrategie.\n\nElke functie in alle generatoren is beschikbaar in de gratis proefversie met watermerk zodat je voorbeeldproducten kunt maken, elke configuratie kunt testen en de uitvoerkwaliteit kunt evalueren voordat je een commerciële licentie koopt.',
+    title: 'Prijzen bepalen voor printables op Etsy',
+    tagline: 'Kostenberekening, drielaags prijsstructuur en bundelstrategie',
+    description: 'Prijsstelling is de meest bepalende beslissing in uw Etsy printable bedrijf. Prijs te laag en Etsy-kosten vreten uw marges op. Prijs te hoog zonder waarde te communiceren en kopers scrollen voorbij. Deze gids geeft u het complete prijskader: van het berekenen van uw werkelijke netto-omzet na alle Etsy-kosten, tot het opbouwen van een drielaags structuur die de gemiddelde bestelwaarde verhoogt, tot het prijzen van cross-categorie bundels. Elke generator biedt een gratis proefversie met watermerk zodat u voorbeeldproducten kunt maken voordat u een licentie koopt.',
   },
 
-  introduction: 'De meeste Etsy printable verkopers maken fouten bij de prijsstelling, en de fout gaat bijna altijd dezelfde kant op: te laag prijzen. Nieuwe verkopers bekijken concurrentvermeldingen, zien werkbladen geprijsd op €1,99 of €2,49, en kopiëren die prijzen zonder te begrijpen wat er gebeurt nadat Etsy zijn kosten heeft afgetrokken. Een digitale download van €1,99 genereert ruwweg €1,40 aan werkelijke omzet na de vermeldingstoeslag, transactiekosten en betalingsverwerkingskosten. Met die marge heb je honderden verkopen per maand nodig om zinvolle inkomsten te genereren.\n\nDe verkopers die duurzame printable bedrijven opbouwen benaderen prijsstelling anders. Ze begrijpen dat Etsy-kopers niet zoeken naar het goedkoopste werkblad — ze zoeken naar het juiste werkblad. Een ouder die zoekt naar "optelwerkbladen groep 3" geeft meer om kwaliteit, pagina-aantal, aanwezigheid van antwoordsleutels en themavariatie dan om een prijsverschil van één euro. Een verkoper die zoekt naar "reken activiteitenpakket voor de winkel" besteedt een schoolbudget, geen persoonlijk budget, en waardeert volledigheid boven besparingen.\n\nPrijsstrategie voor printbare werkbladen gaat niet over het vinden van één magisch getal. Het gaat over het opbouwen van een prijsstructuur — instapproducten die kopers naar je winkel trekken, middenniveaubundels die het grootste deel van de omzet opvangen, en premiumcollecties die de waarde per transactie maximaliseren. Elk niveau bedient een andere kopersmentaliteit en een andere fase van het aankooptraject.\n\nDeze gids behandelt het complete prijskader: hoe je concurrentprijzen systematisch onderzoekt, hoe je je werkelijke netto-omzet berekent na alle Etsy-kosten, hoe je basisprijzen instelt per producttype en pagina-aantal, hoe je een drielaags structuur opbouwt, hoe je bundels prijst voor maximale waargenomen waarde, hoe je Etsy-kortingen en coupons gebruikt zonder je marges aan te tasten, hoe je internationale prijsstelling afhandelt, en hoe je prijzen test en optimaliseert in de loop der tijd met echte conversiedata.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldproducten maken van alle generatoren, elke configuratie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie koopt voor de producten die je wilt verkopen.',
+  introduction: 'De meeste Etsy printable verkopers prijzen te laag. Een digitale download van 1,99 euro genereert na alle Etsy-kosten slechts circa 1,40 euro werkelijke omzet. Succesvolle verkopers benaderen prijsstelling anders: zij bouwen een structuur op met instapproducten die kopers aantrekken, middenniveaubundels die het grootste deel van de omzet opvangen, en premiumcollecties die de waarde per transactie maximaliseren. Deze gids behandelt het complete prijskader: concurrentprijzen onderzoeken, netto-omzet berekenen na alle Etsy-kosten, basisprijzen per producttype instellen, een drielaags structuur opbouwen, bundels prijzen voor maximale waargenomen waarde, en prijzen testen met Etsy Stats conversiedata. Elke generator biedt een gratis proefversie met watermerk.',
 
   tutorial: [
     {
@@ -155,16 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Hoe Woordzoeker Werkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe een Etsy Printable Shop Starten vanuit Niets' },
-    { pageType: 'guide', slug: 'etsy-kleurplaten-maken', anchorText: 'Hoe Etsy Kleurplaten Maken die Verkopen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Volledige Details' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket' },
   ],
 
   toolsRecommended: [

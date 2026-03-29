@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'commerciële licenties begrijpen',
+    primaryKeyword: 'commerciële licentie voor printables-verkopers',
     secondaryKeywords: [
       'printable licentie uitleg',
       'commercieel gebruik werkbladen',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'licentiefouten platformbeperkingen toeschrijvingsvereisten exclusiviteitsclausules',
       'licentieadministratie licentiedocumentatie multiplatform licenties concurrentievoordeel',
     ],
-    titleTag: 'Commerciële Licenties Begrijpen — Gids',
-    metaDescription: 'Begrijp commerciële gebruikslicenties voor printables voordat je gaat verkopen. Leer licentietypen, veelgemaakte fouten en hoe goede licenties je bedrijf.',
+    titleTag: 'Commerciële licentie voor verkopers | LessonCraftStudio',
+    metaDescription: 'Begrijp commerciële licenties voor printable-verkopers voordat u gaat verkopen op Etsy of Bol.com. Licentietypen, veelgemaakte fouten en nalevingstips.',
   },
 
   hero: {
-    title: 'Commerciële Licenties voor Printables Begrijpen',
-    tagline: 'Een complete gids over commerciële licenties voor printable verkopers — met het verschil tussen persoonlijk en commercieel gebruik, wat een commerciële licentie vereist, hoe licentievoorwaarden te beoordelen, veelvoorkomende licentiemodellen in de printable-industrie, licentiefouten om te vermijden, een nalevingssysteem opbouwen, multiplatform licenties beheren en licentiekennis als concurrentievoordeel gebruiken',
+    title: 'Commerciële licenties voor printable-verkopers',
+    tagline: 'Alles wat u moet weten over commerciële licenties voordat u printables gaat verkopen op Etsy, Bol.com, Amazon KDP of uw eigen webshop.',
     description: 'Elk hulpmiddel dat je gebruikt om printable producten te maken — werkbladgeneratoren, clipart, lettertypen, sjablonen en afbeeldingenbibliotheken — komt met licentievoorwaarden die bepalen of je de uitvoer legaal mag verkopen. De meeste printable verkopers slaan deze stap volledig over en nemen aan dat het kopen van een tool automatisch commerciële rechten verleent. Die aanname leidt tot productverwijderingen, accountschorsingen en verloren omzet. Deze gids legt uit hoe commerciële licenties werken in de printable-industrie, waar je op moet letten in licentieovereenkomsten en hoe je een nalevingssysteem opbouwt dat je bedrijf beschermt naarmate het groeit. Of je nu verkoopt op Etsy, Amazon KDP, Gumroad, Gumroad of Creative Fabrica — licentiekennis is de fundering waarop elk succesvol printable bedrijf rust.',
   },
 
@@ -151,18 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'auteursrecht-printable-verkopers', anchorText: 'Auteursrechtgids voor Printable Verkopers' },
-    { pageType: 'guide', slug: 'printable-productlijn-maken', anchorText: 'Hoe een Printable Productlijn Opbouwen' },
-    { pageType: 'guide', slug: 'niche-selectie-printables', anchorText: 'Niche-Selectiegids voor Printable Bedrijven' },
-    { pageType: 'guide', slug: 'prijzen-educatief-materiaal', anchorText: 'Prijsstrategien voor Educatief Printable Materiaal' },
-    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe een Etsy Printable Winkel Starten vanuit Niets' },
-    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Hoe Printables Verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Hoe Woordzoekers Maken met Afbeeldingen' },
-    { pageType: 'guide', slug: 'kleurplaten-maken', anchorText: 'Hoe Kleurplaten Maken van Thematische Afbeeldingen' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Productlijn printables opbouwen' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche kiezen voor uw printables-business' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategie voor educatieve werkbladen' },
   ],
 
   toolsRecommended: [

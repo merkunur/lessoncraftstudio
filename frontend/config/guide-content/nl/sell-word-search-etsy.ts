@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'woordzoeker puzzels verkopen op Etsy',
+    primaryKeyword: 'woordzoekers verkopen op Etsy tips',
     secondaryKeywords: [
       'hoe woordzoeker puzzels verkopen op Etsy',
       'Etsy woordzoeker puzzel winkel opzetten',
@@ -17,17 +17,17 @@ const content: GuideContent = {
       'feestdag thema woordzoeker printable Etsy seizoensstrategie',
       'Etsy vermeldingsfoto mockups voor woordzoeker puzzelproducten',
     ],
-    titleTag: 'Woordzoekers Verkopen op Etsy — Gids',
-    metaDescription: 'Woordzoeker puzzels verkopen op Etsy met 4 puzzelgeneratoren. Etsy-SEO, vermeldingsoptimalisatie, prijsstelling, bundeling met kruiswoorden en seizoenstiming.',
+    titleTag: 'Woordzoekers verkopen op Etsy | LessonCraftStudio',
+    metaDescription: 'Woordzoekers verkopen op Etsy met 4 puzzelgeneratoren. Etsy-SEO, bundeling met kruiswoorden, prijsstelling en meertalige productmogelijkheden.',
   },
 
   hero: {
-    title: 'Hoe Woordzoeker Puzzels Verkopen op Etsy',
-    tagline: 'Een complete platformgids voor het opbouwen van een winstgevende Etsy-winkel die woordzoeker puzzels en aanvullende taalpuzzelformaten verkoopt — inclusief Etsy-winkelinrichting, SEO-optimalisatie met alle 13 tags, vermeldingstitels en beschrijvingen die ranken voor puzzelkoperszoektermen, productfotografie met puzzelrasters en antwoordsleutels, prijsstrategieën voor individuele puzzels en themabundels, seizoenstiming voor feestdagen- en winkelpieken, catalogusplanning over woordzoeker, kruiswoord, letterpuzzel en cryptogram formaten, taalspecifieke productmogelijkheden in meertalige markten, en doorlopende winkeloptimalisatie met Etsy Stats en zoekanalyses',
-    description: 'Woordzoeker puzzels behoren tot de meest gevraagde printbare puzzelformaten op Etsy, gekocht door verkopers, ouders, activiteitenbegeleiders en volwassen puzzelliefhebbers. Deze gids doorloopt elke stap van het opbouwen van een Etsy-winkel die woordzoeker puzzels verkoopt naast aanvullende puzzelformaten — van het onderzoeken van kopersvraag en het plannen van je productcatalogus, via het genereren van voorraad met 4 puzzeltools, tot het schrijven van geoptimaliseerde vermeldingen, het maken van vermeldingsfoto\'s, het instellen van prijzen en het lanceren van je winkel. Je leert hoe woordzoeker puzzels verschillen van andere printable categorieën op het gebied van taalgevoeligheid, kopersdemografie, cross-sellingmogelijkheden en Amazon KDP-crossoverpotentieel.',
+    title: 'Woordzoekers verkopen op Etsy: praktische tips',
+    tagline: 'Puzzelwinkel opbouwen met woordzoekers, kruiswoorden en cryptogrammen',
+    description: 'Woordzoekerpuzzels behoren tot de meest gevraagde printbare puzzelformaten op Etsy, gekocht door ouders, activiteitenbegeleiders en volwassen puzzelliefhebbers. Deze gids doorloopt elke stap van het opbouwen van een Etsy-puzzelwinkel: van het onderzoeken van kopersvraag en het plannen van uw productcatalogus, via het genereren van voorraad met 4 puzzeltools, tot het schrijven van geoptimaliseerde vermeldingen, prijzen instellen en seizoenstiming benutten. U leert hoe woordzoekers verschillen van andere printables qua taalgevoeligheid, cross-sellingmogelijkheden en Amazon KDP-crossoverpotentieel. Elke generator biedt een gratis proefversie met watermerk.',
   },
 
-  introduction: 'Woordzoeker puzzels nemen een unieke positie in op de Etsy printable marktplaats. In tegenstelling tot rekenwerkbladen of kleurplaten die puur visueel zijn, is woordzoekerinhoud taalgedreven — de woorden die in het raster zijn verborgen veranderen op basis van de taal, het thema en het woordenschatniveau. Deze taalgevoeligheid creëert zowel een productgetrapte productpakkettenmogelijkheid als een concurrentievoordeel dat veel verkopers over het hoofd zien.\n\nDe vraag naar printbare woordzoeker puzzels op Etsy bestrijkt een ongewoon breed koperspubliek. verkopers kopen thematische woordzoekerwerkbladen voor woordenschatversterking en spelloefening online. Ouders kopen ze als schermvrije activiteiten voor autoreizen, regenachtige dagen en rustige momenten. Thuisonderwijsfamilies gebruiken woordzoeker puzzels als boeiende alternatieven voor traditionele woordenschatoefeningen. Activiteitenbegeleiders in seniorencentra en zorgvoorzieningen kopen grootletterwoordzoekers voor cognitieve stimulatie. Volwassen puzzelliefhebbers kopen thematische collecties voor persoonlijk vermaak. Deze breedte aan vraag betekent dat je woordzoekerproducten kunnen ranken voor zoektermen over meerdere koperscategorieën.\n\nDe puzzel-printable niche op Etsy heeft een belangrijk voordeel ten opzichte van andere printable categorieën: natuurlijke cross-selling. Kopers die woordzoeker puzzels kopen schaffen vaak ook kruiswoordpuzzels, letterpuzzels en cryptogrammen aan uit dezelfde winkel. Een puzzelwinkel die alle vier formaten aanbiedt vangt aanzienlijk meer omzet per klant dan een winkel die slechts één puzzeltype verkoopt. De 4 puzzelgeneratoren — Woordzoeker, Kruiswoord, Letterpuzzel en Cryptogram — produceren aanvullende formaten die thema\'s en woordenschat delen, waardoor multi-formaat productcreatie efficiënt is.\n\nEtsy\'s algoritme beloont winkels die categorie-expertise demonstreren door consistente, gerelateerde vermeldingen. Een gespecialiseerde puzzelwinkel met 20 tot 30 woordzoekervermeldingen aangevuld met kruiswoord-, letterpuzzel- en cryptogramproducten signaleert diepe nichespecialisatie. Deze categorifocus verbetert de kwaliteitsscore van je winkel en helpt Etsy je producten aan te bevelen aan kopers die vergelijkbare puzzelvermeldingen van concurrenten bekijken.\n\nWoordzoeker puzzels hebben ook aanzienlijk Amazon KDP-crossoverpotentieel. Dezelfde puzzelinhoud die als individuele digitale downloads op Etsy verkoopt kan worden samengesteld in puzzelboeken voor KDP-publicatie. Veel succesvolle puzzelverkopers opereren gelijktijdig op beide platforms, met Etsy voor individuele thematische downloads en KDP voor samengestelde puzzelboeken. Deze dualplatformaanpak maximaliseert de omzet van elke puzzel die je maakt.\n\nEen ander concurrentievoordeel specifiek voor woordzoeker puzzels is de meertalige marktkans. Omdat woordzoekerinhoud taalafhankelijk is, opent het maken van puzzels in talen buiten het Nederlands — Duits, Engels, Frans, Spaans en andere — marktsegmenten met dramatisch minder concurrentie. De meeste Etsy-woordzoekerverkopers bieden alleen Engelstalige producten aan, dus een winkel met meertalige puzzelvermeldingen heeft minder concurrenten terwijl het onbediende koperspools bereikt.',
+  introduction: 'Woordzoekerpuzzels nemen een unieke positie in op de Etsy printable marktplaats. Anders dan rekenwerkbladen of kleurplaten is woordzoekerinhoud taalgedreven, wat zowel een productverbreding als een concurrentievoordeel oplevert. De vraag bestrijkt een ongewoon breed koperspubliek: ouders, thuisonderwijsfamilies, activiteitenbegeleiders in seniorencentra en volwassen puzzelliefhebbers. De puzzelniche biedt bovendien natuurlijke cross-selling — kopers die woordzoekers kopen schaffen vaak ook kruiswoorden, letterpuzzels en cryptogrammen aan. Met 4 puzzelgeneratoren bouwt u een gespecialiseerde winkel die Etsy\'s algoritme beloont met hogere zoekrangschikkingen. Woordzoekers hebben ook aanzienlijk Amazon KDP-crossoverpotentieel, en de meertalige marktkans (11 talen) opent segmenten met dramatisch minder concurrentie dan Nederlandstalige producten alleen.',
 
   tutorial: [
     {
@@ -155,13 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Hoe Woordzoeker Puzzels Maken' },
-    { pageType: 'guide', slug: 'kruiswoordpuzzels-maken', anchorText: 'Hoe Kruiswoordpuzzels Maken' },
-    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Werkblad Generator' },
+    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Werkblad Generator' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels en Logica Pakket' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
   ],
 

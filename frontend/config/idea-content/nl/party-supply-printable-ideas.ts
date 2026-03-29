@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Feestartikelen Printables Verkopen — Nichegids',
-    metaDescription: 'Feestartikelen printable businessideeën voor Etsy verkopers. Maak thematische feestpakketten, verjaardagsspelletjes en seizoensgebonden evenement printables.',
+    titleTag: 'Printables feestjes — Business | LessonCraftStudio',
+    metaDescription: 'Printables voor feestjes verkopen op Etsy. Ideeën voor thematische feestpakketten, verjaardagsspelletjes en Sinterklaas- en Koningsdagactiviteiten.',
 
-    primaryKeyword: 'feestartikelen printable ideeën',
+    primaryKeyword: 'printables feestjes ideeën business',
     secondaryKeywords: [
-      'printable feestartikelen verkopen',
-      'feestdecoratie printable business',
-      'verjaardagsfeest printable ideeën',
-      'feest printables verkopen op Etsy',
+      'feest printables verkopen Etsy',
+      'verjaardagsfeest activiteiten printables',
+      'Sinterklaas Koningsdag werkbladen verkopen',
+      'thematische feestpakketten business',
     ],
     lsiKeywords: [
-      'viering thema printable producten',
-      'feest uitnodiging en banner templates',
-      'evenement decoratie digitale downloads',
+      'DIY kinderfeestjes Pinterest printables',
+      'klasfeestjes seizoensvieringen werkbladen',
+      'feestbudget hogere bestelwaarde',
     ],
   },
   hero: {
-    title: 'Feestartikelen Printable Businessideeën voor Verkopers',
-    description: 'Feestartikelen printables vertegenwoordigen een uniek winstgevende niche waarin verkopers thematische activiteitenpakketten, feestspelletjes, kleurplaten en educatief vermaak materiaal creëren voor verjaardagsvieringen, klasfeestjes, feestdagenevenementen en familiebijeenkomsten, waarmee kopers worden bereikt die nooit naar traditionele werkbladproducten zouden zoeken maar actief op zoek zijn naar boeiende feestactiviteiten en gecoördineerde vieringsmateriaal. De feestartikelen-niche profiteert van constante jaarronde vraag omdat verjaardagen elke dag plaatsvinden en seizoensvieringen zoals Halloween, Valentijnsdag, Kerst, Pasen en einde-schooljaar feestjes voorspelbare kooppieken creëren waar ervaren verkopers hun productieschema\'s maanden van tevoren op plannen. Ouders die verjaardagsfeestjes plannen, verkopers die klasvieringen organiseren, evenementencoördinatoren die gemeenschapsbijeenkomsten beheren, kinderdagverblijven die activiteitentijd vullen en feestplanners die thematische vieringspakketten samenstellen vertegenwoordigen de primaire koopsegmenten. Thematische feestpakketten brengen premiumprijzen op vergeleken met individuele werkbladen omdat kopers complete gecoördineerde activiteitensets kopen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables voor feestjes: jaarronde vraag',
+    description: 'Feestprintables bereiken kopers die nooit naar traditionele werkbladen zouden zoeken maar actief feestactiviteiten kopen voor verjaardagen, klasfeestjes en seizoensvieringen. In Nederland is de verjaardagsfeestcultuur bijzonder sterk: ouders plannen uitgebreide themafeestjes met een programma van spelletjes en activiteiten. Met onze generators maakt u woordzoekers, bingospellen, kleurplaten en koppelactiviteiten rond elk feestthema — piraten, prinsessen, dinosaurussen of superhelden. Feestkopers zijn minder prijsgevoelig dan educatieve kopers omdat zij kopen binnen een feestbudget. Sinterklaas, Koningsdag, Pasen en Halloween creëren voorspelbare seizoenspieken. Bied complete activiteitenpakketten aan van acht tot vijftien euro — aanzienlijk meer dan individuele werkbladen. De DIY-kinderfeestjestrend op Pinterest en Instagram vergroot de markt voor printbare feestmaterialen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De feestartikelen printable-markt functioneert op fundamenteel andere vraagpatronen dan de traditionele educatieve werkbladmarkt omdat feestaankopen worden gedreven door vieringsschema\'s in plaats van academische kalenders, waardoor een jaarrond vraagcyclus ontstaat waar verjaardagsfeestjes consistente basislijnverkopen genereren elke dag van het jaar terwijl seizoensvieringen dramatische kooppieken produceren die verkopers maanden van tevoren kunnen voorspellen en voorbereiden. Verjaardagsfeestjes alleen al creëren een enorme adresseerbare markt omdat elk kind jaarlijks een verjaardag viert, ouders steeds vaker themafeestjes plannen die gecoördineerd activiteitenmateriaal vereisen, en de trend richting DIY-feestplanning de aankopen heeft verschoven van dure professionele feestplanners naar betaalbare printbare materialen die ouders thuis personaliseren en produceren.
 
@@ -151,54 +151,19 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'plaatjes-bingo-werkbladen',
+      anchorText: 'Bingospellen voor verjaardagsfeestjes',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Thematische feestkleurplaten generator',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-bingo-cards',
-      anchorText: 'Professionele bingokaarten maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'christmas-printable-ideas',
-      anchorText: 'Kerst printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'halloween-printable-ideas',
-      anchorText: 'Halloween printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'pirates-printable-ideas',
-      anchorText: 'Piraten printable businessideeën',
+      pageType: 'bundle',
+      slug: 'zoeken-vinden-pakket',
+      anchorText: 'Zoeken en vinden pakket voor feestactiviteiten',
     },
   ],
 

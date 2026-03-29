@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Moederdag & Vaderdag Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende Moederdag en Vaderdag printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Ouderwaardering productconcepten en tips voor verkopers.',
+    titleTag: 'Printables Moeder-/Vaderdag | LessonCraftStudio',
+    metaDescription: 'Verkoop Moederdag en Vaderdag printables op Etsy en Gumroad. Dubbele feestdag productideeën, waarderingsactiviteiten en tips voor uw printable business.',
 
-    primaryKeyword: 'moederdag vaderdag printable ideeën',
+    primaryKeyword: 'printables Moederdag Vaderdag verkopen',
     secondaryKeywords: [
-      'Moederdag werkbladen verkopen',
+      'Moederdag werkbladen verkopen Etsy',
       'Vaderdag printable business ideeën',
-      'ouderdag activiteiten voor verkopers',
-      'ouderdag printables verkopen op Etsy',
+      'ouderwaardering printables Gumroad',
+      'mei juni feestdag producten verkopen',
     ],
     lsiKeywords: [
-      'familieviering educatieve werkbladen',
-      'ouderwaardering activiteiten',
-      'seizoensgebonden familie thema printables',
+      'familieviering cadeau werkbladen maken',
+      'waarderingsactiviteiten basisschool',
+      'hartjes bloemen thema printbare producten',
     ],
   },
   hero: {
-    title: 'Moederdag & Vaderdag Printable Businessideeën voor Verkopers',
-    description: 'Moederdag en Vaderdag samen creëren een van de meest emotioneel gedreven dubbele-feestdag verkoopvensters op de printable-kalender, met stijgende vraag in april voor Moederdag in mei en doorlopend tot juni voor Vaderdag. De niche biedt hartelijke subthemavariatie waaronder harten, bloemen, stropdassen, wenskaarten, cadeaubonnen, waarderingscoupons, familieportretten, trofeeën, kronen en "beste mama" of "beste papa" prijslinten, wat verkopers een warm visueel vocabulaire geeft dat resoneert bij verkopers, ouders en kinderen van alle leeftijdsgroepen. verkopers plannen klasprojecten voor het maken van cadeaus weken van tevoren, op zoek naar printbare activiteiten waarmee gebruikers gepersonaliseerde waarderingscadeaus kunnen maken tijdens de les. Thuisonderwijzende gezinnen en kinderdagverblijven voegen kopersdiepte toe, op zoek naar ouderwaarderingsactiviteiten die oprecht sentiment combineren met echte leeruitkomsten. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Moederdag en Vaderdag printables voor uw webwinkel',
+    description: 'Moederdag (tweede zondag van mei) en Vaderdag (derde zondag van juni) vormen samen een emotioneel gedreven dubbel verkoopvenster dat printable-ondernemers twee geconcentreerde vraagpieken oplevert vanuit één productlijn. Nederlandse basisscholen besteden traditioneel aandacht aan beide feestdagen met knutselprojecten en het maken van cadeautjes, wat directe vraag creëert naar printbare activiteiten. De niche biedt hartelijke subthema\'s: harten, bloemen, stropdassen, trofeeën, kronen en waarderingscertificaten die kinderen personaliseren als cadeau. De emotionele koopmotivatie vermindert prijsgevoeligheid en verhoogt conversie — kopers zoeken het meest charmante project, niet de goedkoopste optie. Door genderneutrale basisproducten te combineren met mama- en papa-specifieke variaties verdubbelt u uw catalogus zonder extra productiewerk. Op Etsy, Gumroad en Amazon KDP bedient u zowel het Nederlandse als het internationale publiek. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De niche van ouderwaardering printables neemt een uniek krachtige positie in op de lenteverkoopkalender omdat het twee geconcentreerde vraagpieken levert vanuit één productlijn. Moederdag in mei en Vaderdag in juni creëren opeenvolgende verkoopvensters die verkopers belonen die een samenhangende familiewaarderingscatalogus voorbereiden. verkopers beginnen in begin april met het plannen van meiklasprojecten voor het maken van cadeaus, op zoek naar printbare activiteiten waarmee gebruikers gepersonaliseerde waarderingscadeaus, kaarten en aandenkenboekjes kunnen maken tijdens de les. Ouders en thuisonderwijzende gezinnen zoeken leeftijdsgeschikte knutselactiviteiten die kinderen helpen hun dankbaarheid op een betekenisvolle manier uit te drukken, en kinderdagverblijfmedewerkers hebben gestructureerde waarderingsprojecten nodig voor hun jongste gebruikers.
 
@@ -147,24 +147,19 @@ Om maximale omzet te behalen uit beide feestdagen, ontwikkel je producten over m
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten generator voor waarderingscadeaus',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'plaatjes-bingo-werkbladen',
+      anchorText: 'Bingokaarten maken voor familievieringen',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren pakket voor feestdagproducten',
     },
     {
       pageType: 'guide',

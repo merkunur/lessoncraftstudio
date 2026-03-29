@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'meertalige werkblad generator',
+    primaryKeyword: 'meertalige werkbladen maken om te verkopen',
     secondaryKeywords: [
-      'werkbladen maken in meerdere talen',
-      'meertalige printbare werkbladen',
-      'werkbladen verkopen in duits frans spaans',
-      'meertalig activiteitenboek generator',
+      'werkbladen maken in meerdere talen verkopen',
+      'meertalige printbare werkbladen Etsy KDP',
+      'werkbladen verkopen in Duits Frans Spaans',
+      'internationaal printable bedrijf opzetten',
     ],
     lsiKeywords: [
-      'taalgevoelige werkblad generator',
-      'werkbladen maken in 11 talen',
-      'niet-engelstalige printable markt etsy',
-      'meertalige woordzoeker generator',
-      'internationaal printable bedrijf',
-      'werkbladen verkopen op etsy.de etsy.fr',
+      'taalgevoelige werkblad generator 11 talen',
+      'niet-Engelstalige printable markt Etsy',
+      'meertalige woordzoeker generator verkopers',
+      'internationaal printable bedrijf Nederland',
+      'werkbladen verkopen op Etsy.de Etsy.fr',
+      'meertalig activiteitenboek generator KDP',
     ],
-    titleTag: 'Meertalige Werkblad Generator — 11 Talen',
-    metaDescription: 'Maak en verkoop werkbladen in 11 talen met een meertalige generator. Bereik Duitse, Franse en Spaanse kopers op Etsy, Amazon KDP en wereldwijde markten.',
+    titleTag: 'Meertalige werkbladen verkopen | LessonCraftStudio',
+    metaDescription: 'Maak en verkoop werkbladen in 11 talen. Bereik Duitse, Franse en Spaanse kopers op Etsy, Amazon KDP en Bol.com zonder vertaalvaardigheden.',
   },
 
   hero: {
-    title: 'Hoe Werkbladen te Maken in 11 Talen',
-    tagline: 'Bereik internationale kopers op Etsy en Amazon KDP met professioneel gelokaliseerde werkbladinhoud — geen vertaalvaardigheden vereist',
-    description: 'De meeste printable verkopers concurreren uitsluitend op de Engelstalige markt, terwijl ze miljoenen kopers negeren die zoeken in het Duits, Frans, Spaans, Portugees, Italiaans en andere talen. Deze gids toont je hoe meertalige werkblad generators te gebruiken om authentieke, taalspecifieke inhoud te maken voor 11 talen en deze te verkopen op internationale marktplaatsen. Je leert het cruciale onderscheid tussen taalgevoelige en puur visuele generators, begrijpt de marktkans in elke ondersteunde taal, en bouwt een systematische strategie voor het internationaal uitbreiden van je printable bedrijf.',
+    title: 'Werkbladen maken en verkopen in 11 talen',
+    tagline: 'Bereik internationale kopers zonder vertaalvaardigheden',
+    description: 'De meeste printable verkopers concurreren uitsluitend op de Engelstalige markt, terwijl ze miljoenen kopers negeren die zoeken in het Duits, Frans, Spaans en andere talen. Deze gids toont u hoe u meertalige werkblad generators gebruikt om authentieke, taalspecifieke inhoud te maken voor 11 talen en deze te verkopen op internationale marktplaatsen. U leert het cruciale onderscheid tussen taalgevoelige en puur visuele generators, begrijpt de marktkans in elke ondersteunde taal, en bouwt een systematische strategie voor internationaal uitbreiden. Als Nederlandstalige verkoper hebt u een uniek voordeel: u bedient de Nederlandse en Belgische markt via Bol.com, publiceert Nederlandstalige activiteitenboeken via Brave New Books, en breidt tegelijk uit naar Amazon.de, Amazon.fr en Etsy met professioneel gelokaliseerde werkbladen.',
   },
 
   introduction: 'De Engelstalige printable markt op Etsy en Amazon KDP is vol. Duizenden verkopers concurreren om dezelfde zoekwoorden, waardoor prijzen dalen en zichtbaarheid steeds moeilijker wordt. Ondertussen hebben de Duitse, Franse, Spaanse, Portugese en Italiaanse markten een fractie van die concurrentie — en miljoenen actieve kopers die zoeken naar educatieve werkbladen, puzzelboeken en activiteitenpagina\'s in hun moedertaal.\n\nDit is geen hypothetische kans. Amazon.de, Amazon.fr, Amazon.es, Amazon.it, Etsy.de en Etsy.fr zijn gevestigde marktplaatsen waar ouders en verkopers actief zoeken naar gelokaliseerde educatieve inhoud. De verkopers die authentieke meertalige werkbladen aanbieden — niet machinaal vertaalde bijzaken — domineren deze markten omdat zo weinig concurrenten de moeite nemen ze te bedienen.\n\nDe uitdaging is altijd productie geweest. Werkbladen maken in een taal die je niet spreekt vereist dure vertaaldiensten of onbetrouwbare automatische vertaling. Werkblad generators die meerdere talen ondersteunen elimineren deze barrière volledig. De vertalingen zijn ingebouwd in het systeem — woordenschat, woordenlijsten, aanwijzingen en labels in alle 11 ondersteunde talen — zodat je professionele meertalige inhoud maakt met dezelfde workflow die je al gebruikt voor het Nederlands.\n\nDeze gids behandelt elk aspect van het meertalige printable bedrijf: welke generatortypen taalspecifieke inhoud produceren, welke markten de sterkste kansen bieden, hoe internationaal te vermelden en verkopen op Etsy en Amazon KDP, en hoe een meertalige catalogusstrategie op te bouwen die in de loop der tijd samengesteld rendement oplevert.\n\nElke generator die in deze gids wordt genoemd biedt een gratis proefversie met watermerk, zodat je meertalige uitvoer kunt testen in elke ondersteunde taal voordat je een commerciële licentie aanschaft.',
@@ -203,17 +203,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Probeer de Kruiswoordpuzzel Maker' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Masterclass Etsy printables' },
+    { pageType: 'bundle', slug: 'lezen-taal-pakket', anchorText: 'Lezen & Taal Pakket bekijken' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker generator bekijken' },
   ],
 
   visuals: {

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'printable bedrijf automatiseren',
+    primaryKeyword: 'printables-business automatiseren',
     secondaryKeywords: [
-      'werkbladen automatisch verkopen',
-      'Etsy automatisering printables',
-      'passief inkomen automatisering',
-      'printable workflow automatiseren',
+      'werkbladen automatisch verkopen Etsy',
+      'batchproductie printables workflow',
+      'passief inkomen automatisering printables',
+      'printable bedrijf stroomlijnen',
     ],
     lsiKeywords: [
       'batchproductie workflow optimalisatie sjabloonsystemen productiesnelheid efficiëntie',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'gestroomlijnde workflow processtandardisatie operationele efficiëntie taakbatching',
       'productiesystemen schaalbare processen catalogusbeheer workflowontwerp automatisering',
     ],
-    titleTag: 'Printable Bedrijf Automatiseren — Efficiëntiegids',
-    metaDescription: 'Leer je printable bedrijf automatiseren met batchproductie, sjabloonsystemen en systematische workflows. Bespaar uren per week en schaal je output op alle.',
+    titleTag: 'Printables-business automatiseren | LessonCraftStudio',
+    metaDescription: 'Automatiseer uw printables-business met batchproductie, sjabloonsystemen en workflows. Bespaar uren per week en schaal uw output op Etsy, KDP en Bol.com.',
   },
 
   hero: {
-    title: 'Je Printable Bedrijf Automatiseren',
-    tagline: 'Een complete gids voor het stroomlijnen van je printable bedrijf — van het identificeren van automatiseringsmogelijkheden en het bouwen van sjabloonsystemen tot batchproductie, gestandaardiseerde vermeldingen, systematische bestandsorganisatie, geautomatiseerde bestandsverwerking, productieschema\'s en opschalen door systematische variatie.',
-    description: 'De meest succesvolle printable verkopers zijn niet per se de meest creatieve of getalenteerde ontwerpers. Ze zijn de meest systematische. Ze hebben workflows gebouwd die overbodig werk elimineren, sjabloonsystemen die voorkomen dat ze telkens opnieuw beginnen, en productieprocessen die uren werk in minuten omzetten. Deze gids laat je zien hoe je je printable bedrijf automatiseert door praktische, implementeerbare strategieën — van batchproductie en sjabloonsystemen tot gestandaardiseerde vermeldingen en systematische catalogusuitbreiding. Of je nu verkoopt op Etsy, Amazon KDP, Gumroad of Gumroad, deze automatiseringsaanpak werkt op elk platform waar je printbare werkbladen en activiteiten aanbiedt.',
+    title: 'Uw printables-business automatiseren en opschalen',
+    tagline: 'Een complete gids voor het stroomlijnen van uw printable bedrijf — van het identificeren van automatiseringsmogelijkheden en het bouwen van sjabloonsystemen tot batchproductie, gestandaardiseerde vermeldingen, systematische bestandsorganisatie, geautomatiseerde bestandsverwerking, productieschema\'s en opschalen door systematische variatie.',
+    description: 'De meest succesvolle printable verkopers zijn niet per se de meest creatieve of getalenteerde ontwerpers. Ze zijn de meest systematische. Ze hebben workflows gebouwd die overbodig werk elimineren, sjabloonsystemen die voorkomen dat ze telkens opnieuw beginnen, en productieprocessen die uren werk in minuten omzetten. Deze gids laat u zien hoe u uw printable bedrijf automatiseert door praktische, implementeerbare strategieën — van batchproductie en sjabloonsystemen tot gestandaardiseerde vermeldingen en systematische catalogusuitbreiding. Of u nu verkoopt op Etsy, Amazon KDP, Bol.com of Gumroad, deze automatiseringsaanpak werkt op elk platform waar u printbare werkbladen en activiteiten aanbiedt.',
   },
 
   introduction: 'De meeste printable verkopers besteden het grootste deel van hun werkuren aan taken die dramatisch sneller zouden kunnen met de juiste systemen. Ze maken elk werkblad vanaf een leeg canvas, schrijven elke productbeschrijving vanuit het niets, organiseren bestanden inconsistent over mappen en nemen vermeldingsbeslissingen reactief in plaats van een geplande productiekalender te volgen. Het resultaat is een bedrijf waarin de verkoper de bottleneck is — output is beperkt door het aantal uren dat ze persoonlijk kunnen investeren, en elk uur voelt volledig opgeslokt door repetitief handmatig werk.\n\nAutomatisering in een printable bedrijf vereist geen dure software of technische programmeervaardigheden. De meest impactvolle automatisering komt van het bouwen van systemen: sjabloonbestanden die het lege-canvas-probleem elimineren, batchproductiesessies die vergelijkbare taken groeperen, gestandaardiseerde naamgevingsconventies die bestandschaos voorkomen, vermeldingssjablonen die het schrijven van beschrijvingen van dertig minuten naar vijf terugbrengen, en productiekalenders die dagelijkse besluitvorming vervangen door een vooraf bepaald schema. Dit zijn procesautomatiseringen — manieren om je werk zo te structureren dat elke repetitieve taak door een systeem wordt afgehandeld in plaats van door handmatige inspanning.\n\nHet verschil in output tussen een systematische verkoper en een ad hoc verkoper is dramatisch. Een verkoper die werkbladen één voor één maakt, elke vermelding individueel schrijft en bestanden reactief organiseert, produceert misschien 3 tot 5 afgewerkte, gepubliceerde producten per week. Een verkoper met batchproductieworkflows, beschrijvingssjablonen en gestandaardiseerde bestandssystemen kan 15 tot 25 afgewerkte, gepubliceerde producten produceren in hetzelfde aantal werkuren. De kwaliteit is identiek — beide verkopers gebruiken dezelfde tools en maken dezelfde typen producten. Het verschil zit volledig in hoe het werk gestructureerd is.\n\nWerkbladgeneratoren zijn een fundamenteel automatiseringsgereedschap voor printable verkopers omdat ze de meest tijdintensieve stap in het productieproces vervangen: het creëren van de daadwerkelijke werkbladinhoud en lay-out. In plaats van handmatig tekst te plaatsen, lijnen te tekenen, afbeeldingen te positioneren en pagina\'s op te maken, configureer je instellingen en genereer je professionele, drukklare output in minuten. Met onze werkbladgeneratoren kun je dit gratis uitproberen met watermerk — zo ervaar je direct hoeveel tijd je bespaart. Dit maakt je tijd vrij voor het strategische werk dat generatoren niet kunnen automatiseren: het kiezen van winstgevende thema\'s, het schrijven van overtuigende beschrijvingen, het optimaliseren van vermeldingszoekwoorden en het plannen van je catalogusgroei.\n\nDeze gids leidt je door een compleet automatiseringsraamwerk voor je printable bedrijf. Elke stap behandelt een specifiek gebied waar systematische processen handmatig werk vervangen, van het identificeren van je grootste tijdverspillers tot het bouwen van productiesystemen die je output opschalen zonder evenredig je werkuren te verhogen. Het doel is een bedrijf waarin je systemen het repetitieve werk afhandelen en je persoonlijke tijd besteed wordt aan de beslissingen en strategieën die daadwerkelijk je omzet laten groeien.',
@@ -139,16 +139,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'gids over printable bedrijf opschalen' },
-    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'gids over passief inkomen met werkbladen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'gids over niche-selectie voor printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'gids over het prijzen van Etsy printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'gids over werkblad bundels maken' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'gids over rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'gids over een Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'gids over printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'gids over woordzoekpuzzels maken' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'gids over kleurplaten maken' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'uw printable bedrijf opschalen' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'werkblad bundels samenstellen' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'rekenpuzzels genereren voor batchproductie' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
     { pageType: 'start', slug: 'tools-for-printable-business', anchorText: 'gids over tools voor printable bedrijf' },
   ],

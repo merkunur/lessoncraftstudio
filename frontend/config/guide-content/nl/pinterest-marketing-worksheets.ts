@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest marketing werkbladen',
+    primaryKeyword: 'Pinterest-marketing voor werkbladen-business',
     secondaryKeywords: [
       'Pinterest strategie printables verkopen',
-      'Pinterest SEO voor werkbladen verkopers',
-      'pins maken voor educatieve producten',
-      'Pinterest verkeer naar Etsy shop',
+      'Pinterest SEO werkbladen Etsy',
+      'pins maken educatieve producten',
+      'Pinterest verkeer naar Etsy-shop',
     ],
     lsiKeywords: [
       'Pinterest bedrijfsaccount instellen',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Pinterest borden strategie niche',
       'Pinterest analytics optimalisatie',
     ],
-    titleTag: 'Pinterest Marketing voor Werkbladen Verkopers — Gids',
-    metaDescription: 'Leer hoe je Pinterest inzet om werkbladen en printables te verkopen. Ontdek pin-ontwerp, SEO-strategieën, bordplanning en analytics voor maximaal bereik.',
+    titleTag: 'Pinterest voor werkbladen-business | LessonCraftStudio',
+    metaDescription: 'Pinterest-marketing voor werkbladen-verkopers: pin-ontwerp, SEO-strategieën, bordplanning en analytics. Genereer consistent verkeer naar uw Etsy-shop.',
   },
 
   hero: {
-    title: 'Pinterest Marketing voor Werkbladen Verkopers',
-    tagline: 'Gebruik Pinterest als krachtige verkeersmotor om je werkbladen, puzzels en educatieve printables aan de juiste kopers te tonen en consistent verkopen te realiseren',
-    description: 'Pinterest is fundamenteel anders dan andere sociale media. Terwijl Instagram, Facebook en TikTok draaien om vluchtige content die binnen uren verdwijnt uit feeds, functioneert Pinterest als een visuele zoekmachine. Pins die je vandaag publiceert kunnen maanden — zelfs jaren — later nog steeds verkeer naar je Etsy-shop, Gumroad-pagina of eigen website sturen. Voor verkopers van werkbladen, puzzels en educatieve printables is dit een gamechanger. Ouders zoeken actief op Pinterest naar activiteiten voor hun kinderen. verkopers zoeken naar werkbladen voor hun klas. Thuisonderwijzers zoeken naar complete lespakketten. En ondernemers zoeken naar inspiratie voor hun eigen printable bedrijf. Al deze doelgroepen gebruiken Pinterest als hun primaire ontdekkingsplatform. In deze uitgebreide gids leer je hoe je een Pinterest-strategie opbouwt die specifiek is afgestemd op de printable markt. Van het optimaliseren van je bedrijfsaccount tot het maken van pins die klikken genereren, van zoekwoordstrategie tot het analyseren van je resultaten — elke stap is gericht op het maximaliseren van zichtbaarheid en verkopen voor jouw printable producten. Alle tools die in deze gids worden aanbevolen zijn beschikbaar als gratis proefversie met watermerk, zodat je direct kunt starten met het maken van prachtige voorbeeldafbeeldingen voor je pins.',
+    title: 'Pinterest-marketing voor uw werkbladen-business',
+    tagline: 'Gebruik Pinterest als krachtige verkeersmotor om uw werkbladen, puzzels en educatieve printables aan de juiste kopers te tonen en consistent verkopen te realiseren',
+    description: 'Pinterest is fundamenteel anders dan andere sociale media. Terwijl Instagram, Facebook en TikTok draaien om vluchtige content die binnen uren verdwijnt uit feeds, functioneert Pinterest als een visuele zoekmachine. Pins die u vandaag publiceert kunnen maanden — zelfs jaren — later nog steeds verkeer naar uw Etsy-shop, Bol.com-pagina of eigen website sturen. Voor verkopers van werkbladen, puzzels en educatieve printables is dit een gamechanger. Ouders zoeken actief op Pinterest naar activiteiten voor hun kinderen. Ondernemers zoeken naar inspiratie voor hun eigen printable bedrijf. In deze uitgebreide gids leert u hoe u een Pinterest-strategie opbouwt die specifiek is afgestemd op de printable markt. Van het optimaliseren van uw bedrijfsaccount tot het maken van pins die klikken genereren, van zoekwoordstrategie tot het analyseren van uw resultaten — elke stap is gericht op het maximaliseren van zichtbaarheid en verkopen voor uw printable producten. Alle tools die in deze gids worden aanbevolen zijn beschikbaar als gratis proefversie met watermerk, zodat u direct kunt starten met het maken van prachtige voorbeeldafbeeldingen voor uw pins.',
   },
 
   introduction: 'Pinterest heeft zich in de afgelopen jaren ontwikkeld van een simpel prikbord voor recepten en interieurideeën tot een volwaardig visueel zoekplatform met meer dan 450 miljoen maandelijks actieve gebruikers wereldwijd. Voor verkopers van educatieve printables en werkbladen is Pinterest niet zomaar een optioneel marketingkanaal — het is vaak de belangrijkste bron van organisch verkeer dat leidt tot daadwerkelijke aankopen.\n\nWat Pinterest uniek maakt ten opzichte van andere platforms is de intentie van de gebruikers. Mensen die op Pinterest zoeken naar \"werkbladen rekenen groep 3\" of \"woordzoekpuzzel thema dieren\" zijn actief op zoek naar precies dat product. Ze bevinden zich al in een koopbereidheid — ze willen iets vinden, downloaden of kopen. Dit staat in schril contrast met Instagram of Facebook, waar gebruikers passief door hun feed scrollen en marketing als ongewenste onderbreking ervaren.\n\nDe levensduur van content op Pinterest is een ander cruciaal voordeel. Een Instagram-post is binnen 24 uur onzichtbaar. Een Pinterest-pin kan zes maanden, een jaar of zelfs langer verkeer blijven genereren. Dit betekent dat elke pin die je maakt een langetermijninvestering is in je bedrijf. Honderd goed geoptimaliseerde pins vormen samen een permanente verkeersstroom die 24 uur per dag, 7 dagen per week werkt — ook wanneer je slaapt of aan nieuwe producten werkt.\n\nVoor de printable markt specifiek biedt Pinterest nog een bijzonder voordeel: het is een visueel platform en printables zijn visuele producten. Een mooi ontworpen werkblad, een kleurrijke woordzoekpuzzel of een aantrekkelijk kleurplaat spreekt Pinterest-gebruikers direct aan. Je product IS je marketingmateriaal. Je hoeft geen ingewikkelde campagnes te bedenken — toon je product in zijn beste licht en de juiste kopers vinden het via de zoekfunctie.\n\nDeze gids behandelt elk aspect van Pinterest marketing dat relevant is voor printable verkopers. Van het technisch instellen van je account tot het maken van pins die zowel mooi als SEO-geoptimaliseerd zijn, van een publicatieschema dat consistent bereik opbouwt tot het analyseren van statistieken die je vertellen welke producten het meest populair zijn. Of je nu net begint met je eerste werkbladen of al een gevestigd printable bedrijf hebt dat je wilt opschalen — Pinterest is het platform dat het verschil kan maken tussen incidentele en consistente verkopen.',
@@ -151,16 +151,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'social media marketing voor printables' },
-    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'e-mailmarketing strategieën voor printable verkopers' },
-    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'seizoensgebonden marketingstrategien voor printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'een Etsy printable shop starten' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoekpuzzels maken voor verkoop' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'kleurplaten maken en verkopen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'niche selectie voor printable producten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen via Gumroad' },
+    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'social media marketing voor printables-verkopers' },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'seizoensmarketing voor printables' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'kleurplaten maken voor aantrekkelijke pins' },
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids voor een printable bedrijf' },
     { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'marketing voor je printable bedrijf' },
   ],

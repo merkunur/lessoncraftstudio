@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'rasterpuzzel werkblad generator',
+    primaryKeyword: 'gratis raster-koppelpuzzel maken',
     secondaryKeywords: [
-      'rasterpuzzel werkblad maker voor verkopers',
-      'tegelpuzzel werkbladen maken om te verkopen',
-      'printbare rasterpuzzel generator commercieel gebruik',
-      'beeldtegel koppelwerkblad maker voor KDP en Etsy',
+      'rasterpuzzel werkbladen online maken gratis',
+      'tegelpuzzel werkblad generator',
+      'printbare raster-koppelpuzzel maker met antwoordblad',
+      'rasterpuzzel tool online voor kinderen',
     ],
     lsiKeywords: [
-      'enkele-afbeelding rasterpuzzel tegelkoppel tool',
-      'automatisch antwoordblad genummerde cirkel overlay generator',
-      'instelbare aanwijzingscellen moeilijkheid raster maker',
+      'instelbare rastergrootte puzzel maker gratis',
+      'aanwijzingscellen moeilijkheid tegelpuzzel generator',
+      'automatisch antwoordblad rasterpuzzel tool',
     ],
-    titleTag: 'Rasterpuzzel Maker — Rasterpuzzel Werkblad Generator',
-    metaDescription: 'Maak rasterpuzzels met instelbare rastergrootte, aanwijzingscellen, Fisher-Yates shuffling en 104 thematische afbeeldingen. Gratis proefversie — licentie.',
+    titleTag: 'Raster-koppelpuzzels gratis | LessonCraftStudio',
+    metaDescription: 'Maak gratis raster-koppelpuzzels online met instelbare rastergrootte, aanwijzingscellen en automatische antwoordbladen. Probeer nu zonder account.',
   },
 
   hero: {
-    title: 'Rasterpuzzel Maker',
-    tagline: 'Enkele-afbeelding rasterpuzzel generator met instelbare rastergroottes van 2×2 tot 4×4, aanpasbare aanwijzingscellen voor schaalbare moeilijkheid, Fisher-Yates tegelrandomisatie, automatisch gegenereerde antwoordbladen met genummerde cirkeloverlays, en 104 thematische beeldcollecties voor rasterpuzzel werkbladen die wereldwijd verkopen',
-    description: 'Maak professionele rasterpuzzels waarbij één afbeelding wordt verdeeld in een raster van tegels en gebruikers genummerde tegels terugkoppelen naar hun correcte posities — een ruimtelijk redeneerpuzzel gebouwd vanuit één afbeelding. Configureer het raster van 2×2 tot 4×4 (2–4 rijen × 2–4 kolommen, standaard 3×3) om puzzels te maken van 4 tegels tot 16 tegels. Stel 1–5 aanwijzingscellen in (standaard 1) die zichtbaar blijven op het werkblad als hints — minder aanwijzingen betekent moeilijkere puzzels, meer aanwijzingen creëren toegankelijke opwarmers. De app schudt verborgen tegels met Fisher-Yates randomisatie en toont ze in een genummerd palet naast of onder het raster, zodat elke generatie een andere tegelvolgorde produceert zelfs vanuit dezelfde afbeelding en instellingen. gebruikers bestuderen de zichtbare aanwijzingscellen, bekijken de genummerde tegels in het palet, en schrijven welk nummer in elke lege cel hoort. Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd — het antwoordblad toont de volledige onverdeelde afbeelding met genummerde cirkels over elke rastercel (gele achtergrond #ffffe0, zwarte omtrek, Fredoka-lettertype), die precies aangeeft welk paletnummer in elke positie thuishoort. De responsieve indeling past zich automatisch aan: staande pagina\'s plaatsen het raster bovenaan (45% hoogte) met het palet eronder; liggende pagina\'s positioneren het raster links (48% breedte) met het palet rechts. Een gestileerde koptekst verschijnt met een cyaankleurige achtergrond (#00BCD4), dieppurperen titel (#6A1B9A) en oranje kaderlijn (#FF8C42) met "Rasterpuzzel" en instructies in de geselecteerde taal. Rasterpuzzel is NIET taalgebonden — de puzzeluitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf, waardoor elk werkblad universeel verkoopbaar is over alle markten zonder vertaling. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload je eigen PNG-, JPG- of GIF-afbeeldingen voor gepersonaliseerde rasterpuzzels. Pas achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Exporteer vier bestanden per sessie: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — allemaal op 300 DPI. Kies Letter-, A4- of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. Bewerk alles op het Fabric.js-canvas met 7 lettertypen, tekstomlijning 0–10, uitlijngereedschappen, laagbeheer, vergrendelen/ontgrendelen, zoom 25%–300% en ongedaan maken/opnieuw uitvoeren tot 20 statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis raster-koppelpuzzels maken online',
+    tagline: 'Rasterpuzzel generator met instelbare rastergroottes, aanpasbare aanwijzingscellen en automatische antwoordbladen',
+    description: 'Met onze gratis raster-koppelpuzzel generator maakt u direct uitdagende tegelpuzzels voor kinderen. Een afbeelding wordt verdeeld in een raster van tegels die kinderen terugkoppelen naar de juiste positie — een leuke oefening in ruimtelijk redeneren. Configureer het raster van 2x2 tot 4x4 voor puzzels van 4 tot 16 tegels. Stel 1 tot 5 aanwijzingscellen in die zichtbaar blijven als hints — minder aanwijzingen maakt de puzzel moeilijker. Elke generatie produceert een unieke tegelvolgorde dankzij Fisher-Yates randomisatie. Het automatisch gegenereerde antwoordblad toont de volledige afbeelding met genummerde cirkels per rastercel. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Exporteer als printklare PDF of JPEG op 300 DPI in Letter-, A4- of aangepaste formaten. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 
   tutorial: {
-    title: 'Rasterpuzzels Maken in 8 Stappen',
+    title: 'Hoe maakt u gratis raster-koppelpuzzels online?',
     steps: [
       {
         title: 'Open de Rasterpuzzel Maker',
@@ -205,7 +205,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'raster-puzzel-werkbladen', anchorText: 'Rasterpuzzels — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'raster-puzzel-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Plaatjesbingo Maker' },

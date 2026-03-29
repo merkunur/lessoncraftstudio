@@ -2,32 +2,41 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'optellen werkbladen generator',
+    primaryKeyword: 'rekenbladen optellen maken om te verkopen op Etsy',
     secondaryKeywords: [
-      'optellen werkbladen verkopen op Etsy',
-      'rekenwerkbladen generator voor Amazon KDP',
-      'optellen werkbladen commerciële licentie',
-      'printbare rekenwerkbladen maken voor Gumroad',
+      'generator optelwerkbladen voor Etsy-verkopers',
+      'rekenbladen voor Amazon KDP',
+      'opteloefeningen printbaar met commerciële licentie',
+      'rekenwerkboek maken voor Bol.com',
+      'sommen werkbladen verkopen online',
     ],
     lsiKeywords: [
-      'digitale wiskundeproducten voor ondernemers',
-      'printbare activiteiten online bedrijf',
-      'werkbladen generator commercieel gebruik',
+      'commerciële licentie',
+      '300 DPI',
+      'printklaar',
+      'thematische afbeeldingen',
+      'passief inkomen',
+      'digitale download',
+      'antwoordenblad',
+      'rekenbladen',
+      'printables-business',
+      'groep 3',
+      'groep 4',
     ],
-    titleTag: 'Optellen Werkbladen Generator | Maak en Verkoop Online',
+    titleTag: 'Rekenbladen optellen maken en verkopen | LessonCraftStudio',
     metaDescription:
-      'Maak optellen werkbladen om te verkopen op Etsy, KDP en Gumroad. 104 thema\'s, 4 oefenmodi, antwoordbladen, export 400+ DPI. Gratis proefversie met watermerk.',
+      'Maak professionele rekenbladen om te verkopen op Etsy, KDP en Bol.com. Commerciële licentie inbegrepen. Gratis proberen met watermerk — zonder account.',
   },
 
   hero: {
-    title: 'Optellen Werkbladen Generator voor Visuele Rekenpraktijk',
-    tagline: 'Maak van optellen een visueel avontuur met op afbeeldingen gebaseerde rekenwerkbladen.',
+    title: 'Maak en verkoop professionele optelwerkbladen op Etsy, KDP en Bol.com',
+    tagline: 'Genereer verkoopklare rekenbladen met optelsommen in minder dan 3 minuten — gratis proefversie met watermerk.',
     description:
-      'Maak op afbeeldingen gebaseerde optellen werkbladen die de eerste rekenbegrippen tastbaar en leuk maken voor jonge gebruikers. Kies uit vier verschillende oefenmodi — Afbeelding + Afbeelding, Afbeelding + Getal, Vind de Optelterm en Gemengde Modus — om elk niveau aan te passen, van kleuterniveau tot groep 4 van de basisschool. Ontdek meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema\'s zoals boerderijdieren, voertuigen en voedsel om elk rekenprobleem tot leven te brengen. Elk werkblad bevat een automatisch gegenereerd antwoordblad, en je kunt printklare PDF\'s exporteren in Letter-, A4- of aangepast formaat op meer dan 400 DPI. Of je nu verkoopt op Etsy.nl, activiteitenboeken publiceert op Amazon KDP of werkbladen uitdeelt aan je gebruikers — de Optellen Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak rekenbladen met optelsommen om te verkopen op Etsy, Amazon KDP of via Brave New Books op Bol.com — en genereer ze in minder dan 3 minuten. Deze generator maakt opteloefeningen met thematische afbeeldingen uit een bibliotheek van meer dan 3.000 illustraties die kinderen aanspreken en ouders overtuigen om te kopen. Exporteer printklare PDF\'s op 300 DPI met automatisch gegenereerde antwoordenbladen en verkoop ze met de inbegrepen commerciële licentie — geen naamsvermelding vereist, geen beperkingen. De Nederlandstalige markt voor educatieve printables op Etsy is vrijwel onbestaand: er zijn nauwelijks verkopers die werkbladen in het Nederlands aanbieden. Met 28 miljoen Nederlandstaligen in Nederland, België en Suriname is dit een unieke kans om als eerste een onontgonnen markt te betreden. Probeer alle functies met de gratis proefversie met watermerk — zonder account.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Optellen Werkbladen in 5 Stappen',
+    title: 'Hoe u optelwerkbladen maakt in minder dan 3 minuten',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +67,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Optellen Werkbladen Generator',
+    title: 'Meer dan 3.000 thematische afbeeldingen voor aantrekkelijke werkbladen',
     features: [
       {
         title: 'Vier verschillende oefenmodi',
@@ -104,7 +113,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Optellen Werkbladen Online',
+    title: 'Exporteren en verkopen op Etsy, KDP, Bol.com en meer',
     cases: [
       {
         title: 'Themapakketten met optellen werkbladen op Etsy.nl',
@@ -201,47 +210,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'aftrekken-werkbladen',
-      anchorText: 'Aftrekken Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'visuele-optelsommen-werkbladen',
-      anchorText: 'Visuele Optelsommen Werkbladen Generator',
+      anchorText: 'Aftrekwerkbladen voor complete rekenpakketten',
     },
     {
       pageType: 'app',
       slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzels Werkbladen Generator',
-    },
-    {
-      pageType: 'bundle',
-      slug: 'wiskunde-meester-pakket',
-      anchorText: 'Wiskunde Meester Pakket — Alle Rekentools',
-    },
-    {
-      pageType: 'guide',
-      slug: 'optellen-werkbladen-maken',
-      anchorText: 'Hoe Maak Je Optellen Werkbladen die Verkopen',
+      anchorText: 'Rekenpuzzels voor variatie in uw catalogus',
     },
     {
       pageType: 'guide',
       slug: 'reken-werkbladen-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Rekenwerkbladen op Etsy',
+      anchorText: 'Gids voor het verkopen van rekenbladen op Etsy',
     },
     {
-      pageType: 'idea',
-      slug: 'rekenfeiten-printable-ideen',
-      anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'terug-naar-school-printable-ideen',
-      anchorText: 'Terug-naar-school printable ideeën die verkopen',
-    },
-    {
-      pageType: 'start',
-      slug: 'werkbladen-maken-die-verkopen',
-      anchorText: 'Werkbladen maken die verkopen',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Rekenpakket met alle 6 generators',
     },
   ],
 

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pasen Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende Pasen printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Lentefeest productconcepten, seizoensstrategieën en tips voor verkopers.',
+    titleTag: 'Printables Pasen voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables voor Pasen op Etsy en KDP. Productideeën voor werkbladen met konijntjes, eieren en lentethema die seizoenspieken benutten.',
 
-    primaryKeyword: 'pasen printable ideeën',
+    primaryKeyword: 'printables Pasen om te verkopen op Etsy',
     secondaryKeywords: [
-      'pasen werkbladen verkopen',
-      'pasenthema printable business',
-      'pasen activiteiten voor verkopers',
-      'pasen printables verkopen op Etsy',
+      'Pasen werkbladen Etsy verkopen',
+      'paasthema printable business starten',
+      'lente activiteitenboeken KDP niche',
+      'paaseieren printables voor verkopers',
     ],
     lsiKeywords: [
-      'lente feestdagen educatieve werkbladen',
-      'paaseieren zoeken activiteiten',
+      'paaskonijn werkbladen maken verkopen',
+      'lentethema kleurplaten Etsy winkel',
       'seizoensgebonden paas printbare producten',
     ],
   },
   hero: {
-    title: 'Pasen Printable Businessideeën voor Verkopers',
-    description: 'Pasen creëert een levendig lenteverkoopvenster voor printable-ondernemers, met stijgende vraag van februari tot april terwijl verkopers lente-klasactiviteiten plannen en ouders zoeken naar educatieve paasmandinvullers en eizoeksupplementen. De niche biedt verrukkelijke subthemavariatie waaronder konijntjes, versierde eieren, kuikens, lammetjes, mandjes, lentebloemen, tulpen, wortels en eierzoektochten, wat verkopers een vrolijk visueel vocabulaire geeft dat sterk resoneert bij jonge gebruikers en hun gezinnen. Kerkgroepen en gemeenschapsorganisaties vormen een extra koopsegment, op zoek naar printbare activiteiten voor paasevenementen en lentevieringen. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad combineert de paasniche voorspelbare jaarlijkse vraag met een feestelijke lente-esthetiek die prachtig fotografeert voor productvermeldingen en marketingmaterialen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
+    title: 'Printables voor Pasen verkopen op Etsy en KDP',
+    description: 'Pasen creëert een levendig lenteverkoopvenster voor printable-ondernemers, met stijgende vraag van februari tot april. Konijntjes, versierde eieren, kuikens, lammetjes en lentebloemen geven u een vrolijk visueel vocabulaire dat sterk resoneert bij jonge gezinnen. In Nederland is Pasen een belangrijk familiemoment met eierzoektochten, paasontbijtjes en creatieve activiteiten die ouders graag ondersteunen met educatief materiaal. Scholen en kinderdagverblijven hebben thematische werkbladen nodig voor hun lenteactiviteiten. Voor ondernemers op Etsy, Amazon KDP en Gumroad combineert de paasniche voorspelbare jaarlijkse vraag met een feestelijke esthetiek die prachtig werkt in productvermeldingen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De pasen printable-niche neemt een uitstekende positie in op de lenteverkoopkalender en levert geconcentreerde seizoensgebonden vraag tijdens een periode waarin weinig andere feestdagen concurreren om kopersaandacht. verkopers beginnen in februari en begin maart met het plannen van lente-klasactiviteiten en paas-voorbereidingen, op zoek naar thematische werkbladen die feestelijke charme combineren met echte educatieve uitkomsten. Ouders zoeken leeftijdsgeschikte paasactiviteiten die dubbeldienst doen als paasmandinserts en educatief vermaak tijdens de opwindende dagen in de aanloop naar het feest. Kerkgroepen, zondagsschoolcoördinatoren en gemeenschapsevenementenorganisatoren kopen thematische activiteitenbladen voor paaseierzoektochten, lentefestivals en gezinsvriendelijke vieringen die gestructureerde activiteiten nodig hebben voor jonge deelnemers.
 
@@ -147,19 +147,19 @@ De paasniche biedt ook mogelijkheden voor premiumprijzen voor gespecialiseerde p
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Paaskleurplaten maken en verkopen',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'schattenjacht-werkbladen',
+      anchorText: 'Schattenjacht werkbladen voor Pasen',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren bundel voor verkopers',
     },
     {
       pageType: 'guide',

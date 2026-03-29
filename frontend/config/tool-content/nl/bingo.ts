@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'bingokaarten maken voor de winkel',
+    primaryKeyword: 'gratis bingokaarten maker met afbeeldingen',
     secondaryKeywords: [
-      'plaatjesbingo maker voor de winkel',
-      'bingospel maker voor kinderen',
-      'printbare bingokaarten voor school',
-      'bingokaarten generator voor verkopers',
+      'plaatjesbingo kaarten gratis online maken',
+      'bingokaarten met afbeeldingen gratis printen',
+      'gratis bingo generator voor kinderen',
+      'bingokaarten maker gratis downloaden',
     ],
     lsiKeywords: [
-      'batch bingokaarten generator voor de winkel',
-      'beeld-en-woord bingo maker',
-      'afroepblad bingo werkblad maker',
+      'batch bingokaarten generator online',
+      'beeld-en-woord bingo maker gratis',
+      'afroepblad bingo werkblad generator',
     ],
-    titleTag: 'Bingokaarten Maken — Plaatjesbingo voor de winkel',
-    metaDescription: 'Maak plaatjesbingokaarten voor de winkel. Rasters van 3x3 tot 5x5, batchgeneratie, afroepbladen, 104 thema\'s. Gratis proefversie met watermerk.',
+    titleTag: 'Bingokaarten gratis met afbeeldingen | LessonCraftStudio',
+    metaDescription: 'Maak gratis bingokaarten met afbeeldingen. Rasters van 3×3 tot 5×5, batchgeneratie tot 10 unieke kaarten, afroepbladen en 104 thema\'s. Geen account nodig.',
     },
 
   hero: {
-    title: 'Plaatjesbingo Maker',
-    tagline: 'Plaatjesbingo kaart generator met configureerbare rasters van 3×3 tot 5×5, batchgeneratie van 1–10 unieke kaarten per set, ZIP-export van alle kaarten in één download, dubbele vulmodi voor vakjes en ronde fiches onafhankelijk, speciaal afroepblad met dynamisch woordraster, aangepaste afroepselectie met live teller, en 104 thematische beeldcollecties voor plaatjesbingokaarten die wereldwijd verkopen',
-    description: 'Maak professionele plaatjesbingokaarten waarbij elke speler een unieke kaart krijgt met verschillende afbeeldingen op verschillende posities — essentieel om bingo als spel te laten werken. Configureer rijen van 3 tot 5 en kolommen van 3 tot 5 onafhankelijk, waardoor rasters ontstaan van 3×3 (9 vakjes) tot 5×5 (25 vakjes) met een standaard van 4×4 (16 vakjes). Genereer 1 tot 10 unieke bingokaarten per batch, elk met een andere willekeurige afbeeldingsselectie uit de pool zodat geen twee kaarten dezelfde indeling delen. Exporteer alle gegenereerde kaarten als individuele JPEG\'s in een enkel bingo_cards.zip-bestand met JSZip-compressie — één klik downloadt een complete bingokaartset klaar om te verpakken in marktplaatsproducten. Kies Afbeelding of Woord als vulling onafhankelijk voor zowel kaartvakjes als ronde fiches, waardoor vier verschillende bingokaart-stijlen ontstaan vanuit één generator. Afbeeldingsvulling toont thematische illustraties; Woordvulling toont gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, waardoor de Plaatjesbingo Maker taalgevoelig is — het wisselen van taal verandert woorden op kaarten, fiches en het afroepblad. Ronde fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening zodat ze nooit de kaartindeling weerspiegelen, wat authentiek bingospel garandeert waarbij fiches als koppelreferentie dienen in plaats van positieaanwijzing. Een speciaal afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper — kolommen berekend op basis van de langste woordlengte (2–6 kolommen) met uniforme lettergrootte over alle items voor schone leesbaarheid. Schakel aangepaste afroepselectie in om handmatig specifieke afbeeldingen te kiezen voor de afroeppool met een live teller die je selectieaantal toont, waardoor je precieze controle hebt over welke items in het spel verschijnen. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload je eigen PNG-, JPG- of GIF-afbeeldingen. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) en tekstomlijning 0–10. Exporteer werkblad-JPEG, afroepblad-JPEG, werkblad-PDF en afroepblad-PDF op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0), plus de ZIP-batchexport voor alle kaarten. Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. Het rastergebied gebruikt 60% van de beschikbare canvashoogte (begrensd op 500px) voor optimale kaartproporties. Bewerk alles op het Fabric.js-canvas met uitlijngereedschappen, laagbeheer, vergrendelen/ontgrendelen, zoom 50%–200% in stappen van 10% en ongedaan maken/opnieuw uitvoeren tot 20 statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis bingokaarten maker met afbeeldingen',
+    tagline: 'Maak gratis plaatjesbingokaarten met unieke kaarten, afroepbladen en 104 thema\'s',
+    description: 'Probeer onze gratis proefversie met watermerk om plaatjesbingokaarten te maken — direct in uw browser, zonder account of registratie. Elke speler krijgt een unieke kaart met verschillende afbeeldingen op verschillende posities, zodat bingo als spel goed werkt. Configureer rasters van 3×3 tot 5×5 en genereer tot 10 unieke bingokaarten per batch. Kies uit meer dan 104 thematische collecties met meer dan 3.100 illustraties, of upload uw eigen afbeeldingen. Kies Afbeelding of Woord als vulling voor zowel kaartvakjes als ronde fiches — vier verschillende bingokaart-stijlen vanuit één generator. Het speciale afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper. Download als printklare PDF, hoge-resolutie JPEG of exporteer alle kaarten als ZIP. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 
   tutorial: {
-    title: 'Plaatjesbingokaarten Maken in 8 Stappen',
+    title: 'Zo maakt u plaatjesbingokaarten in 8 stappen',
     steps: [
       {
         title: 'Open de Plaatjesbingo Maker',
@@ -204,7 +204,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Plaatjesbingo Kaarten — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Werkblad Maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },

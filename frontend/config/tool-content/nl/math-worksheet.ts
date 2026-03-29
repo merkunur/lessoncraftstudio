@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'rekenwerkblad generator',
+    primaryKeyword: 'gratis rekenbladen generator online',
     secondaryKeywords: [
-      'rekenwerkblad maker voor verkopers',
-      'algebra beeldpuzzels maken om te verkopen',
-      'printbare rekenpuzzel werkbladen met commerciële licentie',
-      'algebra plaatjespuzzel generator voor KDP',
+      'rekenbladen online maken gratis',
+      'gratis algebra beeldpuzzels generator',
+      'rekenwerkblad maker gratis downloaden',
+      'visuele algebra puzzels gratis printen',
     ],
     lsiKeywords: [
-      'visuele algebra printables voor Etsy',
-      'beeldvergelijking werkblad tool',
-      'afbeeldingsvariabele rekenactiviteit generator',
+      'visuele algebra puzzel online maken',
+      'beeldvergelijking werkblad generator',
+      'afbeeldingsvariabele rekenactiviteit gratis',
     ],
-    titleTag: 'Rekenwerkblad Generator | Visuele Algebra Puzzels',
-    metaDescription: 'Genereer algebra beeldpuzzels waarbij afbeeldingen variabelen voorstellen in gekoppelde vergelijkingen. Vier moeilijkheidsniveaus, unieke oplossingen.',
+    titleTag: 'Rekenbladen gratis online maken | LessonCraftStudio',
+    metaDescription: 'Maak gratis rekenbladen online met visuele algebra puzzels. Vier moeilijkheidsniveaus, gegarandeerde unieke oplossingen en 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Rekenwerkblad Generator',
-    tagline: 'Maak visuele algebra puzzels met afbeeldingen als variabelen in minder dan 60 seconden',
-    description: 'Ga verder dan standaard rekenrijtjes met algebra beeldpuzzels die gebruikers uitdagen om in stelsels van vergelijkingen te denken. Elk werkblad presenteert een set gekoppelde vergelijkingen waarbij afbeeldingen onbekende variabelen vervangen — gebruikers moeten bepalen welke numerieke waarde elk plaatje voorstelt. Vier moeilijkheidsniveaus schalen van twee symbolen met eenvoudige optelling tot vier gelijktijdige onbekenden met gemengde bewerkingen. Een ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft — geen dubbelzinnigheid, geen giswerk. Kies Alleen Optellen voor gerichte oefening of Optellen & Aftrekken voor gevorderde probleemoplossing. Stel het getallenbereik in, schakel negatieve resultaten in voor oudere gebruikers, en bepaal het aantal puzzels per pagina van 1 tot 6 met automatische indeling. Selecteer afbeeldingen individueel, laad een heel themaset, of upload je eigen PNG of JPEG voor merkgebonden puzzels. Aangezien puzzels alleen afbeeldingen en getallen gebruiken, werken ze identiek in elke taal — verkoop dezelfde PDF wereldwijd zonder vertaling. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis rekenbladen online maken met algebra puzzels',
+    tagline: 'Maak gratis visuele algebra puzzels met afbeeldingen als variabelen',
+    description: 'Probeer onze gratis proefversie met watermerk om rekenbladen te maken met visuele algebra puzzels — direct in uw browser, zonder account of registratie. Elk werkblad presenteert een set gekoppelde vergelijkingen waarbij afbeeldingen onbekende variabelen vervangen. Gebruikers bepalen welke numerieke waarde elk plaatje voorstelt. Vier moeilijkheidsniveaus schalen van twee symbolen met eenvoudige optelling tot vier gelijktijdige onbekenden met gemengde bewerkingen. Een ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft. Kies Alleen Optellen of Optellen & Aftrekken, stel het getallenbereik in en bepaal het aantal puzzels per pagina van 1 tot 6. Selecteer afbeeldingen uit meer dan 104 thematische collecties of upload uw eigen PNG of JPEG. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 
   tutorial: {
-    title: 'Rekenwerkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Zo maakt u rekenbladen in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de werkblad generator',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: 'Rekenen Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
     { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
     { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },

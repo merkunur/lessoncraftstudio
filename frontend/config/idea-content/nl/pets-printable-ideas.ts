@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Huisdieren Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende huisdieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Honden, katten en kleine huisdieren productconcepten voor.',
+    titleTag: 'Printables huisdieren voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables met huisdieren op Etsy en KDP. Productideeën voor werkbladen met honden, katten en konijnen die altijdgroene omzet opleveren.',
 
-    primaryKeyword: 'huisdieren printable ideeën',
+    primaryKeyword: 'printables huisdieren voor Etsy',
     secondaryKeywords: [
-      'huisdierenthema werkbladen verkopen',
-      'huisdieren printable business',
-      'huisdier activiteiten voor verkopers',
-      'huisdieren printables verkopen op Etsy',
+      'huisdieren werkbladen Etsy verkopen',
+      'huisdierenthema printable business starten',
+      'honden katten activiteitenboeken KDP',
+      'dierenverzorging printables niche',
     ],
     lsiKeywords: [
-      'educatieve werkbladen huisdieren',
-      'katten en honden thema activiteiten',
-      'dierenverzorging printbare producten printables',
+      'huisdierenthema werkbladen maken',
+      'katten honden kleurplaten verkopen',
+      'dierenverzorging printbare producten winkel',
     ],
   },
   hero: {
-    title: 'Huisdieren Printable Businessideeën voor Verkopers',
-    description: 'Huisdieren nemen een uniek krachtige positie in op de markt voor educatieve printables omdat vrijwel elk kind een persoonlijke band heeft met huisdieren. Of een gezin nu een hond, een kat, een hamster of een goudvis heeft, kinderen worden van nature aangetrokken tot leermateriaal met vertrouwde dieren die ze dagelijks zien en waarmee ze omgaan. Deze emotionele band zorgt voor een sterke koopintentie bij ouders die het enthousiasme van hun kind voor huisdieren willen combineren met gestructureerd leren. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad biedt het huisdierenthema enorme altijdgroene vraag, diverse soortvariatie voor productgetrapte productpakketten en leeftijdsoverschrijdende aantrekkingskracht van peuters tot en met de vroege basisschool. Deze gids biedt specifieke productideeën, platformstrategieën en nichepositioneringsadvies om je te helpen een winstgevende printable business met huisdierenthema op te bouwen met onze werkblad-generator tools. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables met huisdieren verkopen op Etsy en KDP',
+    description: 'Huisdieren nemen een uniek krachtige positie in op de printable-markt omdat vrijwel elk kind een persoonlijke band heeft met honden, katten, konijnen of vissen. Deze emotionele connectie zorgt voor sterke koopintentie bij ouders die het enthousiasme van hun kind willen combineren met gestructureerd leren. Voor printable-ondernemers op Etsy, Amazon KDP en Gumroad biedt het huisdierenthema enorme altijdgroene vraag zonder seizoensgebonden dalen. De diverse soortvariatie van langoorige konijnen tot tropische vissen geeft u vrijwel onbeperkte mogelijkheden voor productbundeling en nicheuitbreiding. Of u nu kleurplaten, telwerkbladen of complete huisdierenpakketten maakt — dit thema levert consistente verkopen op alle platforms. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies direct beschikbaar.',
   },
   marketOverview: `De niche van huisdieren printables profiteert van een eenvoudige maar krachtige marktdynamiek: huisdieren zijn het meest persoonlijk relevante dierenthema voor kinderen. Terwijl boerderijdieren en oceaanwezens interessant zijn, zijn huisdieren de dieren waarmee kinderen daadwerkelijk samenleven, voor zorgen en van houden. Deze persoonlijke connectie transformeert werkbladtijd van een abstracte oefening in een activiteit met hun favoriete metgezellen, en dat is precies waarom ouders en verkopers op zoek zijn naar educatief materiaal met huisdierenthema.
 
@@ -147,19 +147,19 @@ De huisdierenniche biedt uitzonderlijke bundel- en cross-sellingmogelijkheden om
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met huisdierenthema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Huisdieren kleurplaten generator',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'matchen-sorteren-pakket',
+      anchorText: 'Matchen en sorteren bundel voor verkopers',
     },
     {
       pageType: 'guide',

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sprookjes Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende sprookjes printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Verhaalthema productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Printables sprookjes voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop sprookjes printables op Etsy en Gumroad. Prinsessen, kastelen en draken productideeën voor uw printable business — tijdloze altijdgroene niche.',
 
-    primaryKeyword: 'sprookjes printable ideeën',
+    primaryKeyword: 'printables sprookjes om te verkopen Etsy',
     secondaryKeywords: [
-      'sprookjesthema werkbladen verkopen',
-      'sprookjes printable business ideeën',
-      'sprookje activiteiten voor verkopers',
-      'sprookjes printables verkopen op Etsy',
+      'sprookjesthema werkbladen verkopen Etsy',
+      'kasteel prinses printable business ideeën',
+      'fantasie verhaal educatieve producten',
+      'sprookjes draken printables Gumroad',
     ],
     lsiKeywords: [
-      'verhalenboek educatieve werkbladen',
-      'klassieke verhalen taalactiviteiten',
-      'fantasiethema printbare producten printables',
+      'Roodkapje Hans Grietje werkbladen maken',
+      'verhalenboek taalactiviteiten basisschool',
+      'magisch koninkrijk printbare producten ondernemen',
     ],
   },
   hero: {
-    title: 'Sprookjes Printable Businessideeën voor Verkopers',
-    description: 'Sprookjes vertegenwoordigen een van de meest universeel geliefde verteltradities voor kinderen, waardoor dit een uitzonderlijke altijdgroene niche is voor printable-ondernemers die betrouwbare jaarronde omzet zoeken aangedreven door de tijdloze magie van prinsessen, kastelen, draken en betoverde avonturen die jonge verbeeldingen boeien over elke cultuur en leeftijdsgroep heen. Het sprookjesthema biedt buitengewone subthemadiepte waaronder prinsessen, prinsen, kastelen, draken, eenhoorns, ridders, tovenaars, heksen, feeën, toverstaven, magische spiegels, kronen, torens, betoverde bossen, kikkers, koninginnen, koningen, wolven, huisjes en bonenranken, wat verkopers een enorm visueel vocabulaire geeft dat aansluit bij de natuurlijke liefde van kinderen voor verhalen vertellen, magische werelden en karaktergedreven narratieven die ouders en ondernemers actief aanmoedigen als voertuigen voor taalontwikkeling en moreel redeneren. Vakoverschrijdende veelzijdigheid maakt sprookjesprintables bijzonder waardevol omdat verhalenboekconcepten van nature aansluiten bij taalvaardigheid via leesbegrip en verhaalvolgorde, rekenen via het tellen van magische voorwerpen, creatief schrijven via verhalen navertellen en alternatieve eindes, en sociaal-emotioneel leren via het verkennen van lessen en karaktermotivatie. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Sprookjes printables: tijdloze niche voor Etsy verkopers',
+    description: 'Sprookjes zijn een van de meest universeel geliefde verteltradities, waardoor prinsessen, kastelen, draken en betoverde bossen een tijdloze altijdgroene niche vormen voor printable-ondernemers met constante jaarronde vraag. De subthemavariatie is enorm: eenhoorns, ridders, tovenaars, feeën, kronen, magische spiegels en betoverde bossen ondersteunen elk tientallen unieke producten. In Nederland zijn sprookjes van de Gebroeders Grimm en eigen Nederlandse verhalen als Pluk van de Petteflet diep verankerd in de cultuur, en het Efteling-themapark houdt de fascinatie voor sprookjeswerelden levend bij jong en oud. Vakoverschrijdende veelzijdigheid maakt deze niche bijzonder waardevol: sprookjes sluiten aan bij taalvaardigheid via leesbegrip en verhaalvolgorde, rekenen via het tellen van magische voorwerpen, en creatief schrijven via verhalen navertellen met alternatieve eindes. Op Etsy en Gumroad converteren gerichte producten zoals kasteel-koppelwerkbladen en sprookjesvocabulaire-woordzoekers beter dan generieke opties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De sprookjes printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk jong kind een diepe, verbeeldingsrijke fascinatie ervaart voor magische koninkrijken, betoverde bossen en de tijdloze personages die verhalenboekavonturen bevolken van Assepoester en Rapunzel tot Hans en Grietje en De Drie Biggetjes. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de sprookjesniche van echte jaarronde relevantie: kinderen zijn bezig met sprookjesverhalen in elk seizoen, verhalenboekthema media en speelgoed behouden constante populariteit, en de verteltraditie die sprookjesfascinatie aandrijft functioneert onafhankelijk van weer of kalendergebeurtenissen.
 
@@ -145,24 +145,19 @@ Het sprookjesverjaardagsfeestjesegment vertegenwoordigt een extra winstgevend ko
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten generator voor sprookjesfiguren',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met sprookjesthema maken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren pakket voor fantasieproducten',
     },
     {
       pageType: 'guide',

@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printable werkbladen marketing strategie',
+    primaryKeyword: 'printables-business promoten online',
     secondaryKeywords: [
-      'marketingstrategieën voor printable verkopers',
-      'printable werkbladen online promoten',
-      'marketingplan voor printable bedrijf',
-      'meer werkbladen verkopen op etsy',
+      'marketingstrategieen voor printable verkopers',
+      'printable werkbladen online promoten Nederland',
+      'marketingplan voor printables-business',
+      'meer werkbladen verkopen op Etsy en KDP',
     ],
     lsiKeywords: [
-      'etsy seo voor digitale downloads',
-      'pinterest marketing voor printable producten',
+      'Etsy SEO voor digitale downloads',
+      'Pinterest marketing voor printable producten',
       'e-mailmarketing voor werkblad verkopers',
-      'seizoensgebonden marketing kalender voor printables',
-      'marktplaats optimalisatie voor activiteitenboeken',
-      'contentmarketing voor printable ondernemers',
+      'seizoensgebonden marketing kalender printables',
+      'marktplaats optimalisatie activiteitenboeken',
+      'contentmarketing voor printable ondernemers NL',
     ],
-    titleTag: 'Printable Werkbladen Marketing — Verkopers Gids',
-    metaDescription: 'Hoe je printable werkbladen online op de markt brengt: platform-SEO, Pinterest-strategie, e-mailmarketing, seizoenstiming en merkopbouw voor printable.',
+    titleTag: 'Printables-business promoten | LessonCraftStudio',
+    metaDescription: 'Hoe u uw printables-business promoot: platform-SEO, Pinterest-strategie, e-mailmarketing, seizoenstiming en merkopbouw voor Etsy, KDP en Bol.com verkopers.',
   },
 
   hero: {
-    title: 'Marketing voor Je Printable Bedrijf Online',
-    tagline: 'Bewezen marketingstrategieën voor printable verkopers — van platform-SEO en Pinterest tot e-mailmarketing en seizoenstiming, elk kanaal dat je nodig hebt om verkeer en verkoop te genereren',
-    description: 'Geweldige werkbladen verkopen zichzelf niet. De kloof tussen het maken van professionele printable producten en het genereren van consistente verkoop wordt overbrugd door marketing — het bewuste, herhaalbare proces om je producten voor de kopers te plaatsen die ze nodig hebben. Deze gids behandelt elk marketingkanaal dat relevant is voor printable ondernemers: platform-SEO die bestaande koopintentie vastlegt, Pinterest-strategieën die langdurig verkeer genereren, e-mailmarketing die terugkerende klanten opbouwt, contentmarketing die autoriteit vestigt, en seizoenstiming die je catalogus afstemt op koopgedragcycli. Elke strategie is uitvoerbaar zonder dure marketingtools. De gratis proefversie met watermerk op elke werkbladgenerator geeft je direct producten om te vermarkten, zodat je deze strategieën kunt implementeren terwijl je ze leest.',
+    title: 'Uw printables-business online promoten',
+    tagline: 'Van platform-SEO en Pinterest tot e-mailmarketing en seizoenstiming',
+    description: 'Geweldige werkbladen verkopen zichzelf niet. De kloof tussen het maken van professionele printable producten en het genereren van consistente verkoop wordt overbrugd door marketing. Deze gids behandelt elk marketingkanaal dat relevant is voor printable ondernemers: platform-SEO die bestaande koopintentie vastlegt op Etsy en Amazon KDP, Pinterest-strategieen die langdurig verkeer genereren, e-mailmarketing die terugkerende klanten opbouwt, contentmarketing die autoriteit vestigt, en seizoenstiming die uw catalogus afstemt op koopgedragcycli. Nederlandse verkopers profiteren van specifieke kansen: Bol.com heeft minder concurrentie voor printable producten, en meertalige werkbladen openen de Duitse en Franse markten met vrijwel nul concurrentie. Elke strategie is uitvoerbaar zonder dure marketingtools.',
   },
 
   introduction: 'De meeste printable verkopers investeren zwaar in productcreatie en vragen zich dan af waarom de verkoop vlak blijft. Het antwoord is bijna altijd hetzelfde: ze hebben de marketing overgeslagen. Het maken van werkbladen van hoge kwaliteit is noodzakelijk maar onvoldoende. Marktplaatsalgoritmen, zoekgedrag van kopers en platformzichtbaarheidsregels vereisen allemaal bewuste inspanning om te navigeren. Producten die nooit gevonden worden genereren nul omzet, ongeacht hun kwaliteit.\n\nMarketing voor printable bedrijven verschilt van marketing voor fysieke producten of diensten. Je verkoopt digitale bestanden op platforms met hun eigen zoekmachines, hun eigen rangschikkingsalgoritmen en hun eigen mechanismen voor koperontdekking. Generiek marketingadvies — draai Facebook-advertenties, start een TikTok-account, huur een influencer in — mist het doel volledig. Printable verkopers hebben platformspecifieke strategieën nodig die werken binnen de ecosystemen waar hun kopers daadwerkelijk winkelen.\n\nDeze gids richt zich op de marketingkanalen die meetbare resultaten opleveren voor printable werkbladverkopers. Platform-SEO is de basis omdat het kopers vastlegt die al zoeken naar wat je verkoopt. Pinterest is het meest effectieve sociale kanaal omdat printable producten inherent visueel zijn en Pinterest-gebruikers in een koopmentaliteit zitten. E-mailmarketing bouwt het enige publiek op dat je volledig bezit, onafhankelijk van elk platformalgoritme. Seizoensmarketing stemt je inspanning af op voorspelbare vraagcycli die elk jaar terugkeren.\n\nElke strategie in deze gids kan worden geïmplementeerd zonder betaalde reclame, zonder marketingbudget en zonder gespecialiseerde marketingsoftware. De marketingactiviteiten met het hoogste rendement voor printable verkopers zijn allemaal organisch: betere titels, betere tags, betere afbeeldingen, betere timing. Betaalde reclame heeft een rol voor gevestigde verkopers die bewezen producten optimaliseren, maar het is niet waar beginners moeten starten. Begin met organische marketing die zich na verloop van tijd opbouwt, en voeg pas betaalde kanalen toe nadat je begrijpt welke producten en zoekwoorden converteren.',
@@ -207,18 +207,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'start', slug: 'tools-voor-printable-bedrijf', anchorText: 'Essentiële Tools voor Printable Ondernemers' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
-    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Bingokaarten Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Probeer de Bingokaarten Maker' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Masterclass Etsy printables' },
+    { pageType: 'start', slug: 'opschalen-printable-bedrijf', anchorText: 'Van bijverdienste naar voltijds opschalen' },
+    { pageType: 'start', slug: 'tools-voor-printable-bedrijf', anchorText: 'Tools voor uw printables-business' },
   ],
 
   visuals: {

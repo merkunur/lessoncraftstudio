@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'woordraadsel werkbladen generator',
+    primaryKeyword: 'woordraadspel maken om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare woordraadsel werkbladen voor Etsy-verkopers',
-      'hangman-stijl woordenschat werkbladen maker voor KDP-uitgevers',
-      'woordraadsel activiteiten verkopen op Gumroad',
-      'woordraadsel printables commerciële licentie',
+      'woordraadsel generator voor Etsy-shop',
+      'woord raden werkbladen voor KDP',
+      'woordraadspel met afbeeldingen commerciële licentie',
+      'woordpuzzels verkopen online',
     ],
     lsiKeywords: [
       'digitale woordenschat puzzel producten online bedrijf',
       'printbare woordherkenning werkbladen bedrijf',
       'commercieel gebruik woordraadsel generator',
     ],
-    titleTag: 'Woordraadsel Generator | Maak Woordenschat Puzzels',
+    titleTag: 'Woordraadspel maker voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak woordraadsel werkbladen om te verkopen op Etsy, KDP en Gumroad. Afbeeldingsaanwijzingen, 4 moeilijkheidsniveaus, 3 inhoudsbronnen, 11 talen.',
+      'Maak woordraadspellen met afbeeldingen om te verkopen op Etsy en KDP. Woorden raden met hints. Commerciële licentie. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Woordraadsel Werkbladen Generator voor Afbeelding-Aanwijzing Woordenschat Puzzels',
-    tagline: 'Raad-het-woord ontmoet afbeeldingsaanwijzingen — vier moeilijkheidsniveaus maken van elk woord een uitdagende puzzel.',
+    title: 'Genereer woordraadspellen om te verkopen op Etsy, KDP en Bol.com',
+    tagline: 'Woord-raden werkbladen met afbeeldingshints — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Ontwerp professionele woordraadsel werkbladen waarbij gebruikers een afbeeldingsaanwijzing zien en het verborgen woord ontdekken door ontbrekende letters in te vullen in een lettervakjesraster — een raad-het-woord puzzel die tegelijkertijd spelling, woordenschat en logisch redeneren opbouwt. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s, de Handmatige Bewerkingsmodus waarbij je afbeeldingen selecteert en vervolgens hun weergavenamen aanpast, of de Aangepaste Woordenlijst modus voor puzzels zonder afbeeldingen met willekeurige woordenschat die je zelf intypt. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf worden onthuld als aanwijzingen — van geen aanwijzingen (alle vakjes leeg) tot de makkelijke modus die de helft van de letters toont — waardoor een natuurlijke opbouw ontstaat van beginner tot gevorderd. Plaats 1 tot 10 puzzels per werkblad en schakel tussen hoofdletters en kleine letters voor de letterrasters. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij het doelwoord verandert per taal — "hond" in het Nederlands wordt "dog" in het Engels, "Hund" in het Duits, "chien" in het Frans — waardoor elke taal een apart, verkoopbaar product wordt. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF\'s en JPEG\'s exporteren op meer dan 400 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische woordenschatbundels verkoopt op Etsy.nl, woordpuzzelboeken samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor Gumroad — de Woordraadsel Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Woordraadspel Generator maakt u professionele werkbladen waarbij kinderen een afbeelding bekijken en het verborgen woord ontdekken door ontbrekende letters in te vullen in een letterraster. Dit raad-het-woord format combineert visuele herkenning met spelling en woordenschat, waardoor het bijzonder geschikt is voor Nederlandse taalverwerving en NT2-materiaal. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties over 104 thema\'s, de Handmatige Bewerkingsmodus voor aangepaste woordenschat, of de Aangepaste Woordenlijst voor puzzels met eigen woorden zonder afbeeldingen. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf worden onthuld — van geen aanwijzingen tot de helft van de letters zichtbaar — ideaal voor gedifferentieerde bundels met oplopend niveau. Alle 11 talen beschikbaar: het doelwoord verandert per taal, waardoor elke taalversie een apart verkoopbaar product wordt. De NT2-markt in Nederland en Belgie biedt sterke verkoopkansen voor meertalige woordraadspellen. Verkoop uw werkbladen op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Woordraadsel Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u woordraadspel-werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Woordraadsel Werkbladen Generator',
+    title: 'Belangrijkste functies van de Woordraadspel Generator',
     features: [
       {
         title: 'Afbeelding-Aanwijzing Woordraden met Leeg Letterraster',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Woordraadsel Werkbladen Online',
+    title: 'Hoe verkoopt u woordraadspel-werkbladen online',
     cases: [
       {
         title: 'Thematische woordraadsel bundels op Etsy.nl',
@@ -205,13 +205,8 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alfabet-trein-werkbladen',
-      anchorText: 'Alfabettrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'voorzetsels-werkbladen',
-      anchorText: 'Voorzetsels Werkbladen Generator',
+      slug: 'woordzoeker-werkbladen',
+      anchorText: 'Woordzoeker Werkbladen Generator',
     },
     {
       pageType: 'app',
@@ -219,44 +214,9 @@ const content: AppContent = {
       anchorText: 'Woordkruisel Werkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'cryptogram-werkbladen',
-      anchorText: 'Cryptogram Werkbladen Generator',
-    },
-    {
       pageType: 'bundle',
       slug: 'lezen-taal-pakket',
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
-    },
-    {
-      pageType: 'guide',
-      slug: 'educatief-materiaal-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Educatief Materiaal op Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
-      pageType: 'idea',
-      slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
-    },
-    {
-      pageType: 'guide',
-      slug: 'woordzoekers-maken',
-      anchorText: 'Woordzoekers maken die verkopen',
     },
   ],
 

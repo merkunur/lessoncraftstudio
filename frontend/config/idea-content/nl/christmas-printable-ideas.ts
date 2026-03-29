@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kerst Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende kerst printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Feestdagenproductconcepten, seizoensstrategieën en tips voor verkopers.',
+    titleTag: 'Printables Kerst & Sint voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop printables voor Kerstmis en Sinterklaas op Etsy. Productideeën voor werkbladen die van oktober tot december piekverkopen opleveren.',
 
-    primaryKeyword: 'kerst printable ideeën',
+    primaryKeyword: 'printables Kerstmis en Sinterklaas verkopen',
     secondaryKeywords: [
-      'kerst werkbladen verkopen',
-      'feestdagen printable business ideeën',
-      'kerst activiteiten voor verkopers',
-      'kerst printables verkopen op Etsy',
+      'Kerst werkbladen Etsy verkopen',
+      'Sinterklaas printables business starten',
+      'feestdagen activiteitenboeken KDP',
+      'december printables niche verkopers',
     ],
     lsiKeywords: [
-      'seizoensgebonden feestdagen werkbladbundels',
-      'winter educatieve activiteiten',
-      'feestelijke printbare producten printables',
+      'Kerstman werkbladen maken verkopen',
+      'Sinterklaas kleurplaten Etsy winkel',
+      'feestelijke seizoensprintables december',
     ],
   },
   hero: {
-    title: 'Kerst Printable Businessideeën voor Verkopers',
-    description: 'Kerst vertegenwoordigt de krachtigste seizoensgebonden kans op de gehele printable-markt, met een vraagsurge van oktober tot december die elke andere feestdag ver overtreft. Het thema omvat een buitengewoon scala aan subonderwerpen waaronder de Kerstman, rendieren, sneeuwpoppen, peperkoek, zuurstokken, kerstballen, elfjes, kerstsokken, kransen en kerststallen, wat verkopers vrijwel onbeperkte productvariatie biedt binnen één samenhangende niche. verkopers plannen kerstfeestjes online en lesactiviteiten voor december, ouders zoeken schermvrij vermaak tijdens de kerstvakantie, en cadeaugevers ontdekken dat activiteitenboeken en werkbladpakketten ideale cadeautjes zijn. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad beloont de kerstniche vroege voorbereiding met jaar-op-jaar samengestelde rendementen naarmate vermeldingen zoekautoriteit en beoordelingen opbouwen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Printables voor Kerst en Sinterklaas verkopen',
+    description: 'De decemberperiode biedt de krachtigste seizoenskans op de printable-markt, en in Nederland heeft u een uniek dubbel voordeel: Sinterklaas (5 december) is het grootste kinderfeest van het jaar, direct gevolgd door Kerstmis. Deze twee feesten samen zorgen voor een vraagsurge van oktober tot en met december die elke andere periode overtreft. Van pepernoten en stoomboot tot kerstbomen en rendieren — de subthemavariatie is enorm. Ouders zoeken schermvrij vermaak, cadeaugevers ontdekken dat activiteitenboeken ideale cadeautjes zijn, en scholen hebben thematisch materiaal nodig voor beide feesten. Voor ondernemers op Etsy, Amazon KDP en Gumroad beloont vroege voorbereiding zich met samengestelde rendementen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De kerst printable-niche is de onbetwiste zwaargewicht van seizoensgebonden educatieve productverkopen, gedreven door convergerende vraag van verkopers, ouders, thuisonderwijzers en cadeaukopers tijdens het laatste kwartaal van elk jaar. verkopers beginnen al in september met het plannen van decemberactiviteiten voor de winkel, op zoek naar werkbladen met kerstthema die gebruikers betrokken houden tijdens de opwindende weken voor de kerstvakantie. Ouders zoeken educatieve activiteiten met kerstthema om kinderen bezig te houden tijdens reizen met de feestdagen, familiebijeenkomsten en de lange wintervakantie wanneer gestructureerd vermaak essentieel wordt. Cadeaukopers ontdekken dat printbare activiteitenboeken en werkbladpakketten doordachte, betaalbare cadeautjes zijn.
 
@@ -149,19 +149,19 @@ Mogelijkheden na kerst verlengen het feestdagenverkoopseizoen voor strategische 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kerstkleurplaten en Sinterklaas kleurplaten',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'plaatjes-bingo-werkbladen',
+      anchorText: 'Kerstbingo en Sinterklaasbingo maken',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'puzzels-logica-pakket',
+      anchorText: 'Puzzels en logica pakket voor verkopers',
     },
     {
       pageType: 'guide',

@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gecodeerde optellen werkbladen generator',
+    primaryKeyword: 'geheimschrift rekenpuzzels maken om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare rekenpuzzel werkbladen voor Etsy',
-      'gecodeerde optelsommen werkbladen voor Amazon KDP',
-      'rekenpuzzel generator voor Gumroad verkopers',
-      'gecodeerde optellen werkbladen commerciële licentie',
+      'code optellen werkbladen generator Etsy',
+      'geheime code rekenpuzzels voor KDP',
+      'geheimschrift rekenbladen commerciële licentie',
+      'decodeer rekenpuzzels verkopen',
     ],
     lsiKeywords: [
       'educatieve puzzel printables business ideeën',
       'rekenpuzzels online verkopen',
       'wiskundepuzzel werkboek generator',
     ],
-    titleTag: 'Gecodeerde Optellen Generator | Rekenpuzzels',
+    titleTag: 'Geheimschrift rekenpuzzels voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak gecodeerde optellen werkbladen voor Etsy, KDP en Gumroad. Onthuld Woord, 104 thema\'s, 11 talen, antwoordsleutels, 400+ DPI. Gratis proefversie met watermerk.',
+      'Maak geheimschrift rekenpuzzels om te verkopen op Etsy en KDP. Rekenen plus decoderen. Commerciële licentie inbegrepen. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Gecodeerde Optellen Werkbladen Generator — Rekenpuzzels om te Kraken',
-    tagline: 'Verander optellen in een detectivemissie waar elke afbeelding een geheim nummer verbergt.',
+    title: 'Genereer geheimschrift rekenpuzzels om te verkopen op Etsy en KDP',
+    tagline: 'Combineer rekenen met decoderen — een uniek puzzelformat met vrijwel geen concurrentie op Etsy.',
     description:
-      'Maak cryptaritmetische optellen werkbladen die gebruikers uitdagen om een visuele code te kraken. Elke afbeelding op het werkblad vertegenwoordigt in het geheim een specifiek nummer — gebruikers lossen opteloefeningen op om te achterhalen welk nummer bij elke afbeelding hoort, waarbij rekenvaardigheid en logisch redeneren naadloos samenkomen in één oefening. Schakel over naar de Onthuld Woord modus en de uitdaging wordt groter: typ een geheim woord van maximaal tien letters, en elke correct opgeloste vergelijking onthult een letter van het antwoord, terwijl drie afleidingsletters met foutieve sommen de spanning erin houden. De generator ondersteunt elf taalspecifieke alfabetten, waardoor de Onthuld Woord modus native werkt in het Nederlands, Engels, Duits, Frans en zeven andere talen — een functie die geen enkele andere werkbladgenerator biedt. Het Nederlandse alfabet bevat ë, ï, é, ü en andere diakritische tekens, zodat geheime woorden met accenten natuurlijk werken. Kies uit meer dan 3100 afbeeldingen in 104 thema\'s, configureer nummerbereiken van 1 tot 20 met twee tot vijf codesymbolen per werkblad, en exporteer print-klare PDF\'s of JPEG\'s op meer dan 400 DPI met automatische antwoordsleutels. Gratis proefversie met alle functies — zonder registratie, zonder creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Maak geheimschrift rekenpuzzels waarbij afbeeldingen geheime getallen verbergen die gebruikers moeten ontcijferen door optelsommen op te lossen. Dit unieke format combineert rekenvaardigheid met logisch decoderen en is vrijwel niet te vinden op Etsy — een enorme kans voor verkopers die zich willen onderscheiden. Schakel over naar de Onthuld Woord modus en gebruikers decoderen een geheim woord door elke som te koppelen aan een letter uit de decoderingstabel. De generator ondersteunt elf taalspecifieke alfabetten inclusief het Nederlandse met ë, ï, é en ü, waardoor geheime woorden met diakritische tekens correct werken. Kies uit meer dan 3100 afbeeldingen in 104 thema\'s als codesymbolen, configureer nummerbereiken van 1 tot 20 en exporteer printklare PDF\'s of JPEG\'s op meer dan 400 DPI met automatische antwoordsleutels. Verkoop uw puzzels op Etsy.nl, Amazon KDP, Bol.com of uw eigen webshop met de commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Gecodeerde Optellen Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u geheimschrift rekenpuzzels in 5 stappen',
     steps: [
       {
         title: 'Configureer de pagina-indeling',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Gecodeerde Optellen Generator',
+    title: 'Belangrijkste functies van de geheimschrift rekenpuzzels generator',
     features: [
       {
         title: 'Codekraak-mechanisme — afbeeldingen als verborgen nummers',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Gecodeerde Optellen Werkbladen Online',
+    title: 'Hoe verkoopt u geheimschrift rekenpuzzels online',
     cases: [
       {
         title: 'Codekraak-puzzelpakketten op Etsy.nl',
@@ -216,52 +216,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'optellen-werkbladen',
-      anchorText: 'Optellen Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'aftrekken-werkbladen',
-      anchorText: 'Aftrekken Werkbladen Generator',
+      anchorText: 'Optellen werkbladen generator',
     },
     {
       pageType: 'app',
       slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzels Werkbladen Generator',
+      anchorText: 'Rekenpuzzels werkbladen generator',
     },
     {
       pageType: 'bundle',
       slug: 'wiskunde-meester-pakket',
-      anchorText: 'Wiskunde Meester Pakket — Alle Reken-Apps',
-    },
-    {
-      pageType: 'guide',
-      slug: 'optellen-werkbladen-maken',
-      anchorText: 'Hoe Maak Je Optellen Werkbladen die Verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'reken-werkbladen-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Reken Werkbladen op Etsy',
-    },
-    {
-      pageType: 'idea',
-      slug: 'ruimte-printable-ideen',
-      anchorText: 'Ruimte Printable Ideeën voor Educatieve Werkbladen',
-    },
-    {
-      pageType: 'idea',
-      slug: 'rekenfeiten-printable-ideen',
-      anchorText: 'Reken-feiten printable ideeën voor verkopers en verkopers',
-    },
-    {
-      pageType: 'idea',
-      slug: 'terug-naar-school-printable-ideen',
-      anchorText: 'Terug-naar-school printable ideeën die verkopen',
-    },
-    {
-      pageType: 'start',
-      slug: 'werkbladen-maken-die-verkopen',
-      anchorText: 'Werkbladen maken die verkopen',
+      anchorText: 'Wiskunde Meester Pakket — alle reken-apps in één pakket',
     },
   ],
 

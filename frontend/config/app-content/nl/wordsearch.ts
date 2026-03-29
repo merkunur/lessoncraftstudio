@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'woordzoeker werkbladen generator',
+    primaryKeyword: 'woordzoekerpuzzel generator om te verkopen op Etsy en KDP',
     secondaryKeywords: [
-      'printbare woordzoeker puzzelmaker voor Etsy-verkopers',
-      'verborgen woorden werkbladen generator voor KDP-uitgevers',
-      'woordzoekers verkopen op Gumroad',
-      'woordzoeker printables commerciële licentie',
+      'woordzoekers met afbeeldingen maken voor Etsy-shop',
+      'woordpuzzelboeken voor Amazon KDP',
+      'woordzoekerpuzzels commerciële licentie',
+      'woordzoekermaker voor printables-business',
     ],
     lsiKeywords: [
       'digitale woordzoeker puzzelproducten online bedrijf',
       'printbare verborgen woorden werkbladen bedrijf',
       'commercieel gebruik woordzoeker generator',
     ],
-    titleTag: 'Woordzoeker Generator | Maak & Verkoop Werkbladen',
+    titleTag: 'Woordzoeker generator om te verkopen | LessonCraftStudio',
     metaDescription:
-      'Maak woordzoeker werkbladen om te verkopen op Etsy, KDP en Gumroad. Rastergrootte 5–30, richtingsbesturing, taalspecifieke opvulletters.',
+      'Maak woordzoekerpuzzels met afbeeldingen om te verkopen op Etsy, KDP en Bol.com. 104 thema\'s, commerciële licentie. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Woordzoeker Werkbladen Generator voor Verborgen-Woord Rasterpuzzels',
-    tagline: 'Instelbare rasters van 5×5 tot 30×30 met diagonale en omgekeerde richtingsbesturing — bouw het perfecte moeilijkheidsniveau voor elk publiek.',
+    title: 'Genereer woordzoekerpuzzels om te verkopen op Etsy, KDP en Bol.com',
+    tagline: 'Maak woordzoekers met afbeeldingen in 104 thema\'s — instelbare rasters van 5×5 tot 30×30, taalspecifieke opvulletters en kleurgecodeerde antwoordbladen voor uw printables-business.',
     description:
-      'Ontwerp professionele woordzoeker werkbladen waarbij verborgen woorden zijn ingebed in een raster van willekeurige opvulletters en gebruikers rijen, kolommen en diagonalen doorzoeken om ze te vinden — het klassieke puzzelformaat dat nooit uit de mode raakt. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties verdeeld over 104 thema\'s, de Handmatige Bewerkingsmodus waarbij je afbeeldingen selecteert en vervolgens hun weergavenamen aanpast, of de Aangepaste Woordenlijst modus voor tekst-only puzzels met maximaal 8 woorden die je zelf intypt. Stel het raster in van 5×5 voor snelle opwarmers tot 30×30 voor serieuze uitdagingen, en schakel diagonale woorden en omgekeerde (achterwaartse) woorden aan of uit om de moeilijkheidsgraad nauwkeurig af te stemmen over vier tot acht mogelijke plaatsingsrichtingen. Drie weergavemodi — woorden plus afbeeldingen, alleen afbeeldingen, of alleen woorden — bepalen hoe aanwijzingen naast het raster verschijnen. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij zowel de verborgen woorden als de opvulletters in het raster veranderen per taal: Duitse rasters bevatten ä, ö, ü op natuurlijke frequentiegewichten, Franse rasters bevatten é, è, ç, à, en elke andere taal gebruikt haar authentieke tekenset. Dit is de dubbele taalafhankelijkheid die uniek is voor de Woordzoeker — niet alleen veranderen de verborgen woorden (zoals bij andere taalgevoelige apps), maar het HELE raster van opvulletters past zich aan. "Hond" in een Nederlands raster wordt "Hund" in een Duits raster gevuld met ä, ö, ü, ß als opvulletters, "chien" in een Frans raster gevuld met é, è, ç, à — elk een compleet ander product met andere woorden EN andere achtergrondletters. Een kleurgecodeerd antwoordblad markeert elk gevonden woord in één van zes wisseling-kleuren voor directe visuele verificatie. Schakel grijswaarden-export in voor inkt-zuinige versies die ideaal zijn voor zwart-wit afdrukken of puzzelboeken. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI in Letter-, A4- of aangepast formaat. Of je nu thematische puzzelbundels verkoopt op Etsy.nl, woordzoeker-boeken samenstelt voor Amazon KDP of gedifferentieerde woordenschatcentra maakt voor Gumroad — de Woordzoeker Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Bouw een winstgevende productlijn van woordzoekerpuzzels voor uw Etsy-shop, Amazon KDP-boeken of Bol.com-winkel. Met meer dan 3.000 illustraties verdeeld over 104 thema\'s maakt u in enkele minuten professionele woordzoekers die klaar zijn voor verkoop. Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek voor thematische puzzels, de Handmatige Bewerkingsmodus voor op maat gemaakte woordenschat, of de Aangepaste Woordenlijst voor tekst-only puzzels. Stel rasters in van 5×5 tot 30×30, schakel diagonale en omgekeerde woorden aan of uit, en creëer bundels met oplopende moeilijkheid die hogere prijzen rechtvaardigen. De dubbele taalafhankelijkheid maakt deze generator uniek: niet alleen veranderen de verborgen woorden per taal, maar ook de opvulletters in het raster passen zich aan — Duitse rasters bevatten ä, ö, ü en Franse rasters é, è, ç, à. Met Volledige Toegang ontgrendelt u alle 11 talen en maakt u meertalige productlijnen vanuit één workflow. Voor de Nederlandse markt biedt Brave New Books een extra verkoopkanaal naast KDP. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI met commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Woordzoeker Werkbladen in 5 Stappen',
+    title: 'Zo maakt u verkoopklare woordzoekerpuzzels in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Woordzoeker Werkbladen Generator',
+    title: 'Functies die uw woordzoekerpuzzels onderscheiden van de concurrentie',
     features: [
       {
         title: 'Verborgen-Woord Rasterpuzzel met Afbeeldingsaanwijzingen',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Woordzoeker Werkbladen Online',
+    title: 'Verkoopstrategieën voor woordzoekerpuzzels op elke marktplaats',
     cases: [
       {
         title: 'Thematische woordzoeker bundels op Etsy.nl',
@@ -205,23 +205,8 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alfabet-trein-werkbladen',
-      anchorText: 'Alfabettrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'voorzetsels-werkbladen',
-      anchorText: 'Voorzetsels Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordraadsel-werkbladen',
-      anchorText: 'Woordraadsel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordkruisel-werkbladen',
-      anchorText: 'Woordkruisel Werkbladen Generator',
+      slug: 'kruiswoordpuzzel-werkbladen',
+      anchorText: 'Kruiswoordpuzzel Werkbladen Generator',
     },
     {
       pageType: 'app',
@@ -229,34 +214,14 @@ const content: AppContent = {
       anchorText: 'Cryptogram Werkbladen Generator',
     },
     {
-      pageType: 'bundle',
-      slug: 'lezen-taal-pakket',
-      anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
-    },
-    {
       pageType: 'guide',
       slug: 'woordzoekers-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Woordzoekers op Etsy',
+      anchorText: 'Gids: woordzoekers verkopen op Etsy',
     },
     {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
-      pageType: 'idea',
-      slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
-    },
-    {
-      pageType: 'guide',
-      slug: 'woordzoekers-maken',
-      anchorText: 'Woordzoekers maken die verkopen',
+      pageType: 'bundle',
+      slug: 'lezen-taal-pakket',
+      anchorText: 'Lezen & Taal Pakket — alle taalapps in één bundel',
     },
   ],
 

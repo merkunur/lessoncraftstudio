@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ontbrekende stukjes puzzels maken',
+    primaryKeyword: 'ontbrekende stukjes puzzels maken verkopen',
     secondaryKeywords: [
       'ontbrekende stukjes werkbladen maken om te verkopen',
       'legpuzzel werkblad generator commercieel gebruik',
@@ -17,13 +17,13 @@ const content: GuideContent = {
       'Amazon KDP legpuzzel werkboeken',
       'commerciële licentie ontbrekende stukjes tool',
     ],
-    titleTag: 'Ontbrekende Stukjes Puzzels Maken — Gids',
-    metaDescription: 'Ontbrekende stukjes puzzels maken met 6 stukvormen, slimme extractie, afleiderstukken en automatische antwoordsleutels. Stapsgewijze gids voor Etsy en KDP.',
+    titleTag: 'Ontbrekende stukjes maken verkopen | LessonCraftStudio',
+    metaDescription: 'Leer ontbrekende stukjes puzzels maken en verkopen op Etsy, Bol.com en KDP. 6 stukvormen, slimme extractie en automatische antwoordsleutels inbegrepen.',
   },
 
   hero: {
-    title: 'Hoe Ontbrekende Stukjes Puzzels Maken',
-    tagline: 'Een stapsgewijze handleiding voor het maken van legpuzzel werkbladen met zes stukvormen, slimme stukextractie via helderheidsvariantiedetectie, afleiderstukken voor een echte uitdaging, twee onafhankelijke moeilijkheidsregelaars, automatisch gegenereerde antwoordsleutels met gele markering en puur visuele puzzels die je wereldwijd kunt verkopen op Etsy, Amazon KDP en Gumroad',
+    title: 'Ontbrekende stukjes puzzels maken en verkopen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopklare legpuzzel werkbladen met zes stukvormen, afleiderstukken, dubbele moeilijkheidsregelaars en automatische antwoordsleutels.',
     description: 'Ontbrekende stukjes puzzels zijn een uniek boeiende visuele activiteit waarbij gebruikers een afbeelding met uitgesneden gaten bekijken en identificeren welk genummerd stuk in elke opening past. Het formaat combineert ruimtelijk inzicht met visuele discriminatie — gebruikers moeten kleuren, patronen en details analyseren om stukken aan de juiste locaties te koppelen. Omdat de werkbladuitvoer alleen afbeeldingen, gaten en genummerde opties bevat zonder taalspecifieke tekst, is elke puzzel die je maakt direct wereldwijd verkoopbaar zonder vertaling. Ouders gebruiken ze voor cognitieve ontwikkelingsactiviteiten thuis. verkopers gebruiken ze voor visuele waarnemingsoefeningen en oefeningen in kritisch denken. Bijlesinstituten gebruiken ze voor ruimtelijk redeneeroefeningen. Deze gids leidt je door het volledige creatieproces met de Ontbrekende Stukjes Werkblad Generator — van het selecteren van stukvormen en het configureren van dubbele moeilijkheidsregelaars tot het begrijpen van het slimme extractie-algoritme, het genereren van afleiderstukken, het bekijken van automatische antwoordsleutels met gele markering en het exporteren van productie-klare bestanden. Of je nu je eerste legpuzzelproduct bouwt of een bestaande visuele werkbladcatalogus uitbreidt, aan het einde van deze handleiding heb je een afgewerkt product klaar om te vermelden.',
   },
 
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'missing-pieces', anchorText: 'Ontbrekende Stukjes Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'odd-one-out', anchorText: 'Wat Hoort Er Niet Bij Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Probeer de Ontbrekende Stukjes Werkblad Maker' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkbladbundels maken die verkopen' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Commerciële licenties voor printable-verkopers' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket bekijken' },
   ],
 
   toolsRecommended: [

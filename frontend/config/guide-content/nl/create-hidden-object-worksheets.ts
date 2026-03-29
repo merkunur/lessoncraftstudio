@@ -2,29 +2,29 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'zoek voorwerpen werkbladen maken',
+    primaryKeyword: 'zoek en vind werkbladen maken verkopen',
     secondaryKeywords: [
-      'zoekplaatjes generator voor kinderen',
-      'I Spy werkbladen maken',
-      'vreemde eend werkbladen printbaar',
-      'zoekplaatjes verkopen op Etsy',
+      'I Spy werkbladen verkopen op Etsy',
+      'zoekplaatjes activiteitenboek Amazon KDP',
+      'zoek voorwerpen werkbladen verkopen Bol.com',
+      'zoek en vind printables verkopen als product',
     ],
     lsiKeywords: [
-      'visuele zoekwerkbladen voor kleuters',
-      'zoek de verborgen voorwerpen activiteitenbladen',
-      'zoek en vind printbare pagina\'s',
-      'zoekplaatjes werkbladen verkopen op Etsy',
-      'Amazon KDP zoek en vind activiteitenboeken',
+      'zoek voorwerpen bundels voor Etsy winkel',
+      'I Spy activiteitenboek Brave New Books',
+      'visuele zoekwerkbladen productlijn',
+      'zoekplaatjes generator commercieel gebruik',
       'commerciële licentie zoekplaatjes maker',
+      'zoek en vind catalogus opbouwen',
     ],
-    titleTag: 'Zoek Voorwerpen Werkbladen Maken — Stap-voor-Stap',
-    metaDescription: 'Zoek voorwerpen werkbladen maken met 2 spelmodi: I Spy en Vreemde Eend. Thematische scènes bouwen, antwoordsleutels genereren en verkopen op Etsy en.',
+    titleTag: 'Zoek en vind maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer hoe u zoek en vind werkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. I Spy en Vreemde Eend modi met automatische antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Zoek Voorwerpen Scène Werkbladen Maken',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van I Spy en Vreemde Eend scènewerkbladen die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Zoek voorwerpen werkbladen behoren tot de meest boeiende printable producten die je kunt maken. Kinderen houden van de uitdaging om een scène af te zoeken naar specifieke voorwerpen, en ouders en verkopers waarderen de geconcentreerde aandacht die deze activiteiten vereisen. Deze gids leidt je door het maken van professionele zoek voorwerpen scènewerkbladen met de Zoek Voorwerpen generator — van het kiezen tussen I Spy en Vreemde Eend spelmodi tot het bouwen van aangepaste scènes met gelaagde afbeeldingen, het genereren van automatische antwoordsleutels en het exporteren van printklare bestanden. Of je nu je eerste printable product lanceert of een nieuwe categorie toevoegt aan een bestaande winkel, aan het einde van deze handleiding heb je afgewerkte werkbladen klaar om te publiceren.',
+    title: 'Zoek en vind werkbladen maken en verkopen',
+    tagline: 'Stapsgewijze handleiding voor het maken van verkoopbare I Spy en Vreemde Eend werkbladen met antwoordsleutels voor Etsy, Amazon KDP en Bol.com',
+    description: 'Zoek voorwerpen werkbladen behoren tot de meest boeiende printable producten die u kunt maken. Kinderen houden van de uitdaging om een scene af te zoeken naar specifieke voorwerpen, en ouders en verkopers waarderen de geconcentreerde aandacht die deze activiteiten vereisen. Deze gids leidt u door het maken van professionele zoek voorwerpen scenewerkbladen met de Zoek Voorwerpen generator — van het kiezen tussen I Spy en Vreemde Eend spelmodi tot het bouwen van aangepaste scenes met gelaagde afbeeldingen, het genereren van automatische antwoordsleutels en het exporteren van printklare bestanden. Of u nu uw eerste printable product lanceert of een nieuwe categorie toevoegt aan een bestaande winkel, aan het einde van deze handleiding hebt u afgewerkte werkbladen klaar om te publiceren.',
   },
 
   introduction: 'Zoek voorwerpen activiteiten maken gebruik van een fundamenteel menselijk instinct: de drang om te zoeken en te vinden. Kinderen vanaf drie jaar gaan van nature op in zoek-en-vind taken, waardoor zoek voorwerpen werkbladen tot de printable producten met het breedste publieksbereik behoren. De doelgroep strekt zich uit van kleuterschool tot het einde van de basisschool, overstijgt elk productcatalogus en werkt even goed thuis als online.\n\nWat zoek voorwerpen werkbladen onderscheidt van andere printable producten is hun visuele karakter. Deze werkbladen bevatten geen tekst die vertaald moet worden, geen rekensommen gekoppeld aan een specifiek productcatalogus en geen taalafhankelijke instructies. Een zoek voorwerpen scènewerkblad gemaakt met Engelstalige UI-labels werkt identiek voor een koper in Duitsland, Brazilië of Japan. Dit maakt je producten universeel verkoopbaar op internationale marktplaatsen zonder enige aanpassing.\n\nDe Zoek Voorwerpen generator biedt twee verschillende spelmodi die fundamenteel verschillende producten creëren. I Spy modus daagt kinderen uit om specifieke verborgen voorwerpen te vinden in een drukke scène vol afleidingsafbeeldingen. Vreemde Eend modus vraagt kinderen om de afbeelding te identificeren die geen bijpassend paar heeft. Elke modus bedient andere ontwikkelingsvaardigheden — visuele discriminatie, aandacht voor detail, patroonherkenning — en elke modus creëert een aparte productlijn voor je catalogus.\n\nAnders dan rastergebaseerde werkbladgeneratoren gebruikt de Zoek Voorwerpen tool een vrij canvas waarop je afbeeldingen individueel plaatst. Je hebt controle over lagen, uitlijning en plaatsing om scènes met echte visuele complexiteit te creëren. Gecombineerd met aangepaste afbeeldingsuploads, achtergrondthema\'s en randdecoraties geeft dit je volledige creatieve controle over elke scène die je bouwt.\n\nElke functie genoemd in deze gids is beschikbaar in de gratis proefversie met watermerk. Je kunt complete scènes bouwen, beide spelmodi testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,14 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'find-objects', anchorText: 'Zoek Voorwerpen Scène Generator — Volledige Details' },
-    { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Afbeeldingspad Doolhof Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'find-objects', anchorText: 'Probeer de Zoek Voorwerpen Scène Maker' },
+    { pageType: 'app', slug: 'zoek-voorwerpen-werkbladen', anchorText: 'Zoek Voorwerpen Generator — alle functies bekijken' },
+    { pageType: 'app', slug: 'zoek-en-tel-werkbladen', anchorText: 'Zoek en Tel Generator voor telactiviteiten' },
+    { pageType: 'bundle', slug: 'zoeken-vinden-pakket', anchorText: 'Zoeken & Vinden Pakket met zoek-en-vind werkbladen' },
   ],
 
   toolsRecommended: [

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Lente Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende lente printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Seizoensproductconcepten, maart-mei strategieën en tips voor verkopers.',
+    titleTag: 'Printables lente — Business | LessonCraftStudio',
+    metaDescription: 'Verkoop lente printables op Etsy en Gumroad. Ontdek seizoensgebonden productideeën met vlinders, bloemen en tuinthema\'s voor uw printable business van maart tot mei.',
 
-    primaryKeyword: 'lente printable ideeën',
+    primaryKeyword: 'printables lente ideeën business',
     secondaryKeywords: [
-      'lente werkbladen verkopen',
-      'lentethema printable business',
-      'lente activiteiten voor verkopers',
-      'lente printables verkopen op Etsy',
+      'lente werkbladen verkopen Etsy',
+      'voorjaar printable business ideeën',
+      'seizoensgebonden printables maart mei',
+      'lentethema educatieve producten verkopen',
     ],
     lsiKeywords: [
-      'bloemen en tuin educatieve werkbladen',
-      'seizoensgebonden natuur activiteiten',
-      'voorjaar printbare producten printables',
+      'vlinder bloem tuin werkbladen maken',
+      'Koningsdag printables verkopen',
+      'natuur seizoen printbare producten ondernemen',
     ],
   },
   hero: {
-    title: 'Lente Printable Businessideeën voor Verkopers',
-    description: 'De lente opent een ruim verkoopvenster van maart tot mei terwijl productlijnen overgaan naar natuurgerichte thema\'s en gezinnen buitenleren omarmen na maanden van winterroutines. De niche omvat een rijke variatie aan subthema\'s waaronder vlinders, bloemen, tuinen, regenbogen, rupsen, lieveheersbeestjes, vogels, nesten, regen en paraplu\'s, wat verkopers een uitgebreid visueel vocabulaire geeft dat van nature aansluit bij het wetenschapsproductcatalogus, buitenverkenning en het universele gevoel van vernieuwing dat het seizoen definieert. verkopers zoeken actief naar vers lentemateriaal om gebruikers te re-energiseren tijdens de tweede helft van het schooljaar, terwijl thuisonderwijzende gezinnen en kinderdagverblijven seizoensvariatie zoeken die binnen- en buitenleerervaringen overbrugt. Voor printable-ondernemers op Etsy, Amazon KDP en Gumroad biedt de lente een brede niet-feestdagencategorie met verlengde relevantie die de smalle vraagpieken van eendaagse feestdagen vermijdt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Lente printables verkopen: seizoensideeën voor uw business',
+    description: 'De lente biedt printable-ondernemers een verlengd verkoopvenster van maart tot mei waarin vlinders, bloemen, tuinen, regenbogen en lieveheersbeestjes de visuele basis vormen voor tientallen unieke producten. In Nederland valt dit seizoen samen met Koningsdag, de meivakantie en het Keukenhof-seizoen, wat extra kansen creëert voor seizoensgebonden printables die internationale concurrenten niet kunnen evenaren met Nederlandstalig materiaal. Ouders zoeken vers natuur- en buitenmateriaal nadat de winterroutines achter de rug zijn, en basisscholen plannen projecten rond schooltuinen, vlinderprojecten en vogelhuisjes. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad is de lente een brede categorie die drie maanden vraag genereert zonder de smalle pieken van eendaagse feestdagen. Met subthema\'s als rupsen, vogels, paraplu\'s en tulpen bouwt u een diepe catalogus op die kopers gedurende het hele voorjaar aantrekt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De lente printable-niche neemt een uniek voordelige positie in op de educatieve marktkalender omdat het functioneert als een brede seizoenscategorie in plaats van een eendaagse feestdag, wat verkopers een verlengd vraagvenster van drie maanden geeft dat loopt van begin maart tot eind mei. verkopers die uit de winterdip komen zoeken actief naar vers, natuurthema materiaal dat gebruikers opnieuw betrekt die het moe zijn van alleen-binnen-thema\'s, en lentebeeldmateriaal biedt de perfecte overgang wanneer productlijnen verschuiven naar wetenschapsgeïntegreerde content over levenscycli, weerpatronen, plantengroei en dierhabitats. Deze natuurlijke aansluiting tussen lentethema\'s en kernvakgebieden betekent dat kopers lente-aankopen kunnen rechtvaardigen als educatieve investeringen in plaats van puur decoratieve seizoenstoevoegingen.
 
@@ -147,24 +147,19 @@ De breedte van lentesubthema\'s creëert uitzonderlijke productdiversificatiemog
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen met lentethema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten generator voor lenteproducten',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren pakket voor seizoensproducten',
     },
     {
       pageType: 'guide',

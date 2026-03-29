@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudokuboeken KDP',
+    primaryKeyword: 'sudoku boeken maken voor Amazon KDP',
     secondaryKeywords: [
-      'hoe sudokuboeken maken voor Amazon KDP',
       'plaatjessudoku boeken voor kinderen KDP',
-      'sudoku puzzelboek uitgeversgids',
-      'sudoku boekserie Amazon zelfpublicatie',
+      'sudoku puzzelboek uitgeven en verkopen',
+      'sudoku boekserie zelfpublicatie Amazon',
+      'sudokuboeken maken en verkopen online',
     ],
     lsiKeywords: [
       'sudoku raster moeilijkheid makkelijk gemiddeld moeilijk expert progressie',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'sudoku serie delen herhaalaankoop loyale puzzelaars catalogus',
       'sudoku puzzelaantal pagina-indeling antwoordsleutels druk trimformaat',
     ],
-    titleTag: 'Sudokuboeken KDP — Uitgeversgids',
-    metaDescription: 'Sudokuboeken maken voor KDP met plaatjessudoku voor kinderen en nummersudoku voor volwassenen. Moeilijkheidsprogressie, rasteropmaak en seriestrategie.',
+    titleTag: 'Sudokuboeken voor Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Leer hoe u sudokuboeken maakt voor Amazon KDP. Plaatjessudoku voor kinderen, nummersudoku voor volwassenen, rasteropmaak en seriestrategie.',
   },
 
   hero: {
-    title: 'Hoe Sudokuboeken Maken voor Amazon KDP',
-    tagline: 'Een gerichte gids voor het maken en uitgeven van sudoku-puzzelboeken op Amazon KDP — inclusief de dubbele markt van plaatjessudoku voor jonge kinderen en nummersudoku voor volwassenen, moeilijkheidsprogressiestrategieën die puzzelaars betrokken houden van makkelijk tot expert, sudoku-specifieke rasteropmaak voor scherpe drukresultaten, pagina-indeling en antwoordsleutelconventies uniek voor sudokuboeken, de serieopbouwende aanpak die profiteert van het uitzonderlijk sterke herhaalaankoopgedrag van sudoku-puzzelaars, en het uitbreidingspad van een sudokucatalogus naar bredere puzzelboekuitgeverij',
-    description: 'Sudoku neemt een unieke positie in onder KDP-puzzelboeken. In tegenstelling tot de meeste puzzeltypes die één doelgroep bedienen, splitst sudoku zich in twee fundamenteel verschillende producten: plaatjessudoku voor kinderen van 3 tot 7 jaar die vroege logische vaardigheden ontwikkelt met afbeeldingen in plaats van cijfers, en nummersudoku voor volwassenen die varieert van ontspannende makkelijke rasters tot veeleisende expert-niveau uitdagingen. Elk formaat heeft zijn eigen publiek, zoektermen, omslagontwerpconventies en concurrentielandschap. Deze gids richt zich specifiek op wat sudokuboekuitgeven onderscheidt van algemene puzzelboekuitgeverij: de dubbele-marktmogelijkheid, moeilijkheidsprogressie die belangrijker is voor sudoku dan voor elk ander puzzeltype, sudoku-specifieke opmaakeisen voor druk, en de herhaalaankoopeconomie die sudoku tot een van de betrouwbaarste catalogusopbouwende categorieën op KDP maakt.',
+    title: 'Sudokuboeken maken en uitgeven via Amazon KDP',
+    tagline: 'Plaatjessudoku voor kinderen en nummersudoku voor volwassenen: opmaak, moeilijkheidsprogressie en seriestrategie voor KDP-uitgevers',
+    description: 'Sudoku neemt een unieke positie in onder KDP-puzzelboeken. Het splitst zich in twee fundamenteel verschillende producten: plaatjessudoku voor kinderen van 3 tot 7 jaar en nummersudoku voor volwassenen. Deze gids richt zich op wat sudokuboekuitgeven onderscheidt van algemene puzzelboekuitgeverij: de dubbele-marktmogelijkheid, moeilijkheidsprogressie, sudoku-specifieke opmaakeisen en de herhaalaankoopeconomie die sudoku tot een van de betrouwbaarste cataloguscategorieën op KDP maakt.',
   },
 
   introduction: 'Sudoku is een van de meest herkenbare puzzelformaten ter wereld, en die ingebouwde bekendheid vertaalt zich direct in consistent Amazon-zoekvolume. Kopers die naar sudokuboeken zoeken begrijpen het puzzelformaat al en weten wat ze willen — ze browsen niet vrijblijvend maar zoeken actief naar hun volgende boek met puzzels om op te lossen. Dit intentiegestuurde zoekgedrag maakt sudokuboeken tot een van de conversievriendelijkste categorieën op KDP.\n\nDe sudokuboekmarkt verdeelt zich in twee aparte segmenten die bijna als afzonderlijke categorieën functioneren. Nummersudoku voor volwassenen is het grotere segment, dat puzzelaars bedient van informele dagelijkse puzzelaars tot toegewijde enthousiastelingen die tientallen rasters per week oplossen. Dit publiek koopt op basis van moeilijkheidsniveau, puzzelaantal, rasteropmaakkwaliteit en seriecontinuïteit. Plaatjessudoku voor kinderen is een kleiner maar aanzienlijk minder competitief segment, gericht op ouders en verkopers in het basisonderwijs die logica-opbouwende activiteiten willen voor kinderen van 3 tot 7 jaar. Plaatjessudoku vervangt cijfers door afbeeldingen in vereenvoudigde 4×4 of 6×6 rasters, waardoor de kern van de sudokulogica toegankelijk wordt voor kinderen die nog niet met cijfers kunnen werken. Deze twee markten delen de sudokunaam maar vereisen volledig andere inhoud, opmaak, positionering en zoekwoordstrategieën.\n\nWat sudoku-uitgeven bijzonder aantrekkelijk maakt is de herhaalaankoopdynamiek. Een voltooid sudokuboek heeft nul herhalingswaarde — elk raster is opgelost, elk antwoord ingevuld. De puzzelaar moet een nieuw boek kopen voor nieuwe inhoud. Sudoku-puzzelaars die een uitgever vinden wiens opmaak, moeilijkheidskalibratie en printkwaliteit aan hun standaarden voldoen, worden opmerkelijk loyale terugkerende kopers. Veel toppublicisten melden dat hun nieuwste deel onmiddellijk verkopen genereert van kopers die elk vorig deel in de serie kochten. Deze consumeer-en-koop-opnieuw-cyclus is de economische motor van sudokuboekuitgeven.\n\nMoeilijkheidsprogressie is bij sudoku belangrijker dan bij de meeste andere puzzeltypes. Een woordzoekerpuzzelaar kan puzzels op ongeveer hetzelfde moeilijkheidsniveau eindeloos blijven genieten. Een sudoku-puzzelaar verbetert actief met oefening — rasters die vorige maand uitdagend waren worden routine. Dit betekent dat sudokuboeken zorgvuldig gekalibreerde moeilijkheidssecties nodig hebben, en series moeten stijgende uitdaging bieden over delen, anders riskeer je puzzelaars te verliezen die het moeilijkheidsniveau ontgroeien. Het begrijpen en bedienen van deze progressiedynamiek is de sleutelvaardigheid die sudoku-uitgevers met duurzame catalogi onderscheidt van uitgevers wiens boeken na de eerste verkopen stagneren.\n\nDeze gids concentreert zich op wat sudokuboekuitgeven specifiek anders maakt dan algemene puzzelboekuitgeverij. Voor KDP-basisprincipes zoals manuscriptopmaakspecificaties, omslagdimensies, royaltyberekeningen en algemene vermeldingspraktijken, raadpleeg de KDP-opmaakgids. Voor brede puzzelboekstrategie over meerdere types en variatieboekformaten, raadpleeg de puzzelboeken KDP-gids. Hier richten we ons volledig op sudoku-specifieke inhoudsstrategieën, de dubbele kinderen-en-volwassenen-markt, moeilijkheidsprogressie-ontwerp, en de serie-aanpak die sudoku tot een van de meest betrouwbare omzetcategorieën op KDP maakt.',
@@ -155,17 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Hoe Puzzelboeken Uitgeven op Amazon KDP' },
-    { pageType: 'guide', slug: 'woordzoeker-boeken-kdp', anchorText: 'Hoe Woordzoekboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Hoe Reken-Activiteitenboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Hoe Geld Verdienen met KDP Activiteitenboeken' },
-    { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
-    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Top KDP Activiteitenboek Niches' },
-    { pageType: 'guide', slug: 'kdp-of-etsy-printables', anchorText: 'Amazon KDP of Etsy: Waar Printables Verkopen' },
-    { pageType: 'guide', slug: 'plaatjes-sudoku-maken', anchorText: 'Hoe Plaatjessudoku Maken voor Jonge gebruikers' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Gids Commerciële Licentie' },
-    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Sudoku Puzzelgenerator — Alle Details' },
+    { pageType: 'guide', slug: 'beste-kdp-activiteitenboek-niches', anchorText: 'Beste niches voor KDP-activiteitenboeken' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP vs Etsy: waar printables verkopen' },
+    { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Sudoku Generator' },
   ],
 
   toolsRecommended: [

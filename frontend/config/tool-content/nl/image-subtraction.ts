@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'aftrekken werkblad generator',
+    primaryKeyword: 'gratis aftrekwerkbladen generator',
     secondaryKeywords: [
-      'aftrekken werkblad maker voor Etsy verkopers',
-      'aftrekwerkbladen maken om te verkopen',
-      'printbare aftrekwerkbladen met commerciële licentie',
-      'beeldgebaseerde aftrekwerkbladen voor KDP',
+      'aftrekwerkbladen online maken gratis',
+      'doorstreep aftrekwerkbladen generator',
+      'min-sommen werkbladen met afbeeldingen',
+      'visuele aftrekwerkbladen gratis proberen',
     ],
     lsiKeywords: [
-      'visuele aftrek-printables voor verkopers',
-      'doorstreep rekenwerkblad tool',
-      'min-sommen werkblad generator',
+      'doorstreep-visualisatie rekenwerkbladen',
+      'aftrekoefeningen met afbeeldingen online',
+      'min-sommen werkblad gratis proefversie',
     ],
-    titleTag: 'Aftrekken Werkblad Maker | Rekenbladen met Afbeeldingen',
-    metaDescription: 'Maak aftrekwerkbladen met doorstreep-visuals in enkele seconden. 104 thema\'s, instelbare moeilijkheid, printklare PDF-export. Gratis proefversie met.',
+    titleTag: 'Aftrekwerkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis aftrekwerkbladen met doorstreep-visualisatie online. 104 thema\'s, instelbare moeilijkheid, antwoordblad, printklare PDF. Probeer nu gratis.',
   },
 
   hero: {
-    title: 'Aftrekken Werkblad Maker',
-    tagline: 'Maak visuele doorstreep-aftrekwerkbladen in minder dan 60 seconden',
-    description: 'Maak aftrekken tastbaar met doorstreep-visuals die kinderen intuïtief begrijpen en verkopers solide inkomsten opleveren. Deze tool genereert beeldgebaseerde aftrekwerkbladen waarbij gebruikers afbeeldingen doorstrepen om het antwoord te vinden — de meest natuurlijke manier om min-sommen te leren. Kies uit meer dan 100 beeldthema\'s met meer dan 3100 illustraties, stel je aftrekbereik in, kies uit vier oefenmodi inclusief het unieke Doorstrepen-formaat, en download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI. Ideaal voor Etsy-verkopers die gedifferentieerde rekenproductlijnen opbouwen, verkopers die winkel-pakketten maken, en KDP-uitgevers die aftrekwerkboeken samenstellen. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis aftrekwerkbladen online maken',
+    tagline: 'Maak visuele doorstreep-aftrekwerkbladen in minder dan 60 seconden — gratis proefversie met watermerk',
+    description: 'Maak aftrekken tastbaar met doorstreep-visualisatie: kinderen strepen afbeeldingen door en tellen wat overblijft. Met deze gratis online tool maakt u in enkele klikken professionele aftrekwerkbladen met kleurrijke illustraties. De unieke Doorstrepen-modus is de meest intuïtieve manier om min-sommen te leren — gebruikers zien een groep afbeeldingen, strepen er een aantal door en ontdekken het antwoord. Kies uit meer dan 100 beeldthema\'s met meer dan 3.100 illustraties, stel het aftrekbereik in via de schuifregelaar Maximaal Aftrekgetal (2–20), en kies uit vier oefenmodi: Doorstrepen, Afbeelding − Getal, Zoek de Aftrekker en Gemengde Modus. Download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI met automatisch gegenereerd antwoordblad. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders die thuis extra oefenmateriaal willen, leerkrachten die gedifferentieerde werkbladen zoeken, en iedereen die de tool wil uitproberen.',
   },
 
   tutorial: {
-    title: 'Aftrekwerkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Aftrekwerkbladen maken in 8 eenvoudige stappen',
     steps: [
       {
         title: 'Open de werkblad maker',
@@ -195,14 +195,14 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkbladen — Volledige Productdetails' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Meer of Minder Werkblad Maker' },
-    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Reken Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
+    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
+    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Gratis optelwerkbladen maker' },
+    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code optellen werkblad maker' },
+    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Meer of minder werkblad maker' },
+    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Gratis rekenpuzzel maker' },
+    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Gratis rekenwerkbladen maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
+    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Gratis kleurplaten maker' },
   ],
 
   visuals: {

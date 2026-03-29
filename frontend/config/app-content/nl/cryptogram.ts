@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'cryptogram werkbladen generator',
+    primaryKeyword: 'cryptogram generator om te verkopen op Etsy',
     secondaryKeywords: [
-      'printbare plaatjes cryptogram puzzelmaker voor Etsy-verkopers',
-      'beeldcijfer werkbladen generator voor KDP-uitgevers',
-      'cryptogram codepuzzels verkopen op Gumroad',
-      'cryptogram printables commerciële licentie',
+      'cryptogram puzzels maker voor Etsy-shop',
+      'geheimcode puzzels voor Amazon KDP',
+      'cryptogram werkbladen commerciële licentie',
+      'letterpuzzels verkopen online',
     ],
     lsiKeywords: [
       'digitale plaatjes cryptogram puzzelproducten online bedrijf',
       'printbare beeldcijfer werkbladen bedrijf',
       'commercieel gebruik cryptogram generator',
     ],
-    titleTag: 'Cryptogram Generator | Maak & Verkoop Codepuzzels',
+    titleTag: 'Cryptogram generator voor Etsy | LessonCraftStudio',
     metaDescription:
-      'Maak cryptogram werkbladen om te verkopen op Etsy, KDP en Gumroad. Beeldcijfer codering, Letters Onthullen moeilijkheidsgraad, 104 thema\'s.',
+      'Maak cryptogram-puzzels om te verkopen op Etsy en KDP. Geheimcode letterpuzzels met afbeeldingen. Commerciële licentie. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Cryptogram Werkbladen Generator voor Plaatjes Codepuzzels',
-    tagline: 'Koppel alfabetletters aan afbeeldingen en codeer volledige zinnen in visuele beeldcijfer puzzels — instelbare moeilijkheid van nul hints tot zwaar ondersteund met Letters Onthullen.',
+    title: 'Maak cryptogram-puzzels om te verkopen op Etsy, KDP en Bol.com',
+    tagline: 'Geheimcode letterpuzzels met afbeeldingen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Verander elke zin of uitdrukking in een plaatjes cryptogram puzzel waarbij elke alfabetletter wordt vervangen door een afbeelding, en gebruikers de code kraken door te achterhalen welk plaatje welke letter voorstelt. Elke puzzel codeert een volledige leesbare boodschap — niet slechts één woord — waardoor oplos-sers de voldoening ervaren van het onthullen van een hele zin door patroonherkenning en logisch redeneren. De schuifregelaar Letters Onthullen (0–10) bepaalt hoeveel letter-naar-afbeelding koppelingen vooraf zijn opgelost als hints, waardoor een vloeiende moeilijkheidsgradatie ontstaat van nul-hint expertuitdagingen tot zwaar ondersteunde beginners-puzzels. Automatisch Toewijzen haalt willekeurige afbeeldingen uit een van de 104 thematische collecties (meer dan 3100 illustraties) om niet-toegewezen letters in één klik te vullen, of gebruik Handmatige Toewijzing om specifieke afbeeldingen aan specifieke letters te koppelen met een volledig visueel overzicht van alle koppelingen. Je kunt ook eigen afbeeldingen uploaden en aan elke letter toewijzen. Het kleur- versus zwart-witfilter laat je kiezen tussen full-color illustraties en zwart-wit lijntekeningen voor inkt-zuinige werkbladen. Het antwoordblad bevat een complete letterlegende waarin elke alfabetletter gekoppeld is aan de toegewezen afbeelding in alfabetische volgorde — het definitieve naslagwerk voor het controleren van oplossingen. Volledige Toegang ontgrendelt alle 11 ondersteunde talen waarbij zowel de geheime boodschap als het beschikbare alfabet veranderen per taal: Duitse cryptogrammen coderen Duitse zinnen met ä, ö, ü in het alfabet; Franse cryptogrammen coderen Franse zinnen met é, è, ç, à — elke taalversie is een werkelijk ander beeldcijfer product. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI in Letter-, A4- of aangepast formaat. Of je nu thematische codepuzzelbundels verkoopt op Etsy.nl, cryptogram puzzelboeken samenstelt voor Amazon KDP of gedifferentieerde codebrekercentra maakt voor Gumroad — de Cryptogram Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Cryptogram Generator maakt u professionele geheimcode-puzzels waarbij kinderen letters ontcijferen aan de hand van afbeeldingsaanwijzingen. Elke alfabetletter wordt gekoppeld aan een unieke illustratie, en de geheime zin verschijnt als een reeks afbeeldingen die ontcijferd moeten worden. Dit unieke puzzelformaat kent zeer weinig concurrentie op Etsy en Amazon KDP, wat u een sterke positie geeft in een groeiende nichemarkt. De instelling Letters Onthullen (0–10) biedt een vloeiende moeilijkheidsgradatie — ideaal voor gedifferentieerde bundels met oplopend niveau. Kies uit 104 thematische collecties met meer dan 3100 illustraties of upload eigen afbeeldingen. Cryptogrammen zijn bijzonder geschikt voor Nederlandse woordenschatopbouw en NT2-materiaal, omdat kinderen woorden ontcijferen door logisch redeneren en patroonherkenning. Alle 11 talen beschikbaar met taalspecifieke alfabetten. Verkoop uw puzzels op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Cryptogram Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u cryptogram-werkbladen in 5 stappen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Cryptogram Werkbladen Generator',
+    title: 'Belangrijkste functies van de Cryptogram Generator',
     features: [
       {
         title: 'Beeldcijfer met Afbeelding-naar-Letter Koppeling',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Cryptogram Werkbladen Online',
+    title: 'Hoe verkoopt u cryptogram-werkbladen online',
     cases: [
       {
         title: 'Thematische cryptogram bundels op Etsy.nl',
@@ -205,58 +205,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'alfabet-trein-werkbladen',
-      anchorText: 'Alfabettrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'voorzetsels-werkbladen',
-      anchorText: 'Voorzetsels Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordraadsel-werkbladen',
-      anchorText: 'Woordraadsel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordkruisel-werkbladen',
-      anchorText: 'Woordkruisel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'woordzoeker-werkbladen',
       anchorText: 'Woordzoeker Werkbladen Generator',
+    },
+    {
+      pageType: 'app',
+      slug: 'kruiswoordpuzzel-werkbladen',
+      anchorText: 'Kruiswoordpuzzel Werkbladen Generator',
     },
     {
       pageType: 'bundle',
       slug: 'lezen-taal-pakket',
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
-    },
-    {
-      pageType: 'guide',
-      slug: 'educatief-materiaal-verkopen-etsy',
-      anchorText: 'Gids voor het Verkopen van Educatief Materiaal op Etsy',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
-      pageType: 'idea',
-      slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
-    },
-    {
-      pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
-      anchorText: 'Thuisonderwijs printable ideeën voor ouders en verkopers',
-    },
-    {
-      pageType: 'guide',
-      slug: 'cryptogrammen-maken',
-      anchorText: 'Cryptogrammen maken',
     },
   ],
 

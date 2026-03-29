@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safaridieren Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende safaridieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Afrikaanse wildlife productconcepten en tips voor verkopers.',
+    titleTag: 'Printables safari om te verkopen | LessonCraftStudio',
+    metaDescription: 'Verkoop printables met safaridieren op Etsy en KDP. Productideeën voor werkbladen met leeuwen, olifanten en giraffen die kopers overtuigen.',
 
-    primaryKeyword: 'safaridieren printable ideeën',
+    primaryKeyword: 'printables safaridieren om te verkopen',
     secondaryKeywords: [
-      'safaridieren werkbladen verkopen',
-      'safarithema printable business',
-      'jungle activiteiten voor verkopers',
-      'safari printables verkopen op Etsy',
+      'safaridieren werkbladen Etsy verkopen',
+      'Afrikaanse wildlife printable business',
+      'jungle activiteitenboeken KDP niche',
+      'safarithema printables voor verkopers',
     ],
     lsiKeywords: [
-      'Afrikaanse wildlife educatieve werkbladen',
-      'jungle en savanne activiteitenpagina\'s',
-      'exotische dieren printbare producten printables',
+      'savanne dieren werkbladen maken',
+      'wildlifethema kleurplaten verkopen',
+      'exotische dieren printbare producten Etsy',
     ],
   },
   hero: {
-    title: 'Safaridieren Printable Businessideeën voor Verkopers',
-    description: 'Safaridieren nemen een bijzondere plaats in de verbeelding van kinderen in, waardoor Afrikaanse wilde dieren een van de meest visueel aansprekende en commercieel belonende thema\'s zijn op de markt voor educatieve printables. Van peuters die leren leeuwen en olifanten te herkennen tot kinderen in groep 3 die giraffepatronen en zebrastrepen verkennen — het safarithema wekt nieuwsgierigheid die alle leeftijdsgroepen en leerstadia overspant. Voor printable-verkopers bieden safaridieren een krachtige combinatie van altijdgroene aantrekkingskracht, vakoverschrijdende relevantie op het gebied van aardrijkskunde en wetenschap, en sterke visuele herkenning die zorgt voor hoge doorklikpercentages op marktplaatsvermeldingen. Bezoeken aan de dierentuin, natuurdocumentaires en bewustzijn rond dierenbescherming houden safarithema\'s in constante vraag bij ouders, verkopers en thuisonderwijzers. Of je nu verkoopt op Etsy, Amazon KDP of Gumroad, safaridieren printables vertegenwoordigen een bewezen niche met ruimte voor creatieve getrapte productpakketten en premiumprijzen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
+    title: 'Verkoop printables met safaridieren als ondernemer',
+    description: 'Safaridieren nemen een bijzondere plaats in bij kinderen. Leeuwen, olifanten, giraffen en zebra\'s wekken nieuwsgierigheid die alle leeftijdsgroepen overspant, waardoor dit thema een van de meest visueel aansprekende niches is voor printable-verkopers. Voor ondernemers op Etsy, Amazon KDP en Gumroad bieden safaridieren een krachtige combinatie van altijdgroene aantrekkingskracht, vakoverschrijdende relevantie en sterke visuele herkenning die zorgt voor hoge doorklikpercentages op uw vermeldingen. Dierentuinbezoeken, natuurdocumentaires en bewustzijn rond dierenbescherming houden de vraag het hele jaar door op peil. Of u nu telwerkbladen, woordzoekers of complete safaripakketten maakt — deze niche biedt ruimte voor creatieve bundelingen en premiumprijzen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.',
   },
   marketOverview: `De niche van safaridieren printables neemt een unieke positie in op de educatieve markt omdat het twee krachtige krachten combineert: de fascinatie van kinderen voor exotische wilde dieren en de educatieve rijkdom van Afrikaanse aardrijkskunde en dierenwetenschappen. In tegenstelling tot huisdierthema\'s die vertrouwd aanvoelen, dragen safaridieren een element van avontuur en verwondering dat de betrokkenheid op natuurlijke wijze verhoogt. Wanneer een kind werkt aan een werkblad met leeuwen, olifanten, giraffen of zebra\'s, voelt de activiteit meer als ontdekking dan als schoolwerk, en dat is precies waarom ouders en verkopers deze materialen opzoeken.
 
@@ -147,19 +147,19 @@ Het safarithema presteert ook uitzonderlijk goed op de markt voor babykamer- en 
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Safaridieren kleurplaten maken',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'verbindings-werkbladen',
+      anchorText: 'Koppelwerkbladen met safarithema',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      pageType: 'bundle',
+      slug: 'visueel-leren-pakket',
+      anchorText: 'Visueel leren pakket voor verkopers',
     },
     {
       pageType: 'guide',

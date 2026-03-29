@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gumroad winkel optimalisatie',
+    primaryKeyword: 'lesmateriaal-winkel optimaliseren online',
     secondaryKeywords: [
       'Gumroad winkel optimaliseren voor meer verkoop',
-      'Gumroad zoekalgoritme rankingfactoren',
-      'meer verkopen op Gumroad met winkeloptimalisatie',
-      'Gumroad winkel groeistrategie',
+      'zoekalgoritme rankingfactoren educatieve marktplaats',
+      'meer lesmateriaal verkopen met winkeloptimalisatie',
+      'Gumroad winkel groeistrategie printables',
     ],
     lsiKeywords: [
       'Gumroad zoekranking conversieratio productzichtbaarheid verkopersmarktplaats',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'winkelsecties categorieën navigatie overzichtelijke organisatie',
       'Gumroad analytics seizoensplanning datagestuurde catalogusschaling strategie',
     ],
-    titleTag: 'Gumroad Winkel Optimalisatie Gids — Meer Verkopen',
-    metaDescription: 'Gumroad winkel optimalisatiestrategieën voor hogere zoekrankings en meer verkoop. Behandelt voorbeeldconversie, productbundeling, reviewopbouw en.',
+    titleTag: 'Lesmateriaal-winkel optimaliseren | LessonCraftStudio',
+    metaDescription: 'Optimaliseer uw lesmateriaal-winkel voor hogere zoekrankings en meer verkoop. Voorbeeldconversie, productbundeling, reviewopbouw en catalogusschaling.',
   },
 
   hero: {
-    title: 'Gumroad Winkel Inrichting en Optimalisatie Gids',
-    tagline: 'Geavanceerde strategieën voor het optimaliseren van een bestaande Gumroad winkel — inclusief zoekalgoritme rankingfactoren, converterende productbeschrijvingen en voorbeelden, reviewgeneratietactieken, winkelorganisatie voor overzichtelijke navigatie, Gumroad promotie-evenementstrategie en datagestuurde catalogusschaling om een actieve Gumroad-winkel om te vormen tot een consistent en groeiend inkomstenkanaal',
-    description: 'Een Gumroad-winkel opzetten en je eerste printbare producten publiceren is nog maar het begin. Het verschil tussen een winkel die af en toe verkoopt en een die consistent maandelijks omzet genereert, komt neer op optimalisatie — hoe goed je vermeldingen ranken in Gumroad-zoekresultaten, hoe effectief je voorbeelden bezoekers omzetten in kopers, hoe je winkelorganisatie meervoudige aankopen stimuleert, en hoe strategisch je je catalogus uitbreidt op basis van daadwerkelijke prestatiegegevens. Deze gids behandelt de optimalisatiestrategieën die een Gumroad-winkel van de initiële opstartfase naar duurzame groei brengen, voortbouwend op de basis die in onze gids over Gumroad-materialen maken en verkopen wordt behandeld.',
+    title: 'Uw lesmateriaal-winkel optimaliseren voor meer verkoop',
+    tagline: 'Zoekalgoritme-optimalisatie, voorbeeldconversie en reviewstrategie om van uw Gumroad-winkel een consistent inkomstenkanaal te maken',
+    description: 'Een winkel opzetten en uw eerste printbare producten publiceren is nog maar het begin. Het verschil tussen een winkel die af en toe verkoopt en een die consistent maandelijks omzet genereert, komt neer op optimalisatie. Deze gids behandelt de strategieën die uw winkel van de initiële opstartfase naar duurzame groei brengen: hogere zoekrankings, effectievere voorbeelden en datagestuurde catalogusuitbreiding.',
   },
 
   introduction: 'De meeste Gumroad-verkopers bereiken hetzelfde plateau. Ze richten hun winkel in, publiceren 10 tot 20 printbare producten, genereren een handvol verkopen per maand en lopen vervolgens vast. Hun materialen zijn degelijk — goed opgemaakt, afgestemd op productspecificaties, oprecht bruikbaar voor verkopers in het basisonderwijs. Maar degelijke materialen alleen garanderen geen consistente omzet op Gumroad. Het platform herbergt miljoenen printbare producten, en zichtbaarheid verdien je door bewuste optimalisatie, niet alleen door contentkwaliteit.\n\nDe verkopers die door het plateau breken en winkels opbouwen die €500, €1.000 of meer per maand genereren, maken niet per se betere content dan de rest. Ze optimaliseren elk element van hun Gumroad-aanwezigheid: titels schrijven die hoger ranken in zoekresultaten, voorbeelden maken die bezoekers met een hoger percentage omzetten in kopers, hun winkels zo structureren dat bezoekende verkopers meerdere relevante materialen ontdekken in één sessie, reviewmomentum opbouwen dat hun geloofwaardigheid in de loop der tijd versterkt, en hun verkoopgegevens gebruiken om te bepalen wat ze vervolgens maken in plaats van te gokken.\n\nHet Gumroad-zoekalgoritme is geen zwarte doos — verkopers die bestuderen hoe het werkt en daarop optimaliseren, behalen meetbare voordelen ten opzichte van degenen die het negeren. Het algoritme weegt specifieke factoren: titelzoekwoordrelevantie, verkoopsnelheid, conversieratio, reviewscores, volledigheid van de vermelding en recentiefactoren. Elk van deze factoren kun je beïnvloeden door bewuste optimalisatiekeuzes. Een materiaal met een strategisch geschreven titel, een overtuigend voorbeeld, volledige categorisering en sterke reviews zal hoger ranken dan een vergelijkbaar materiaal dat deze elementen verwaarloost, zelfs als de onderliggende contentkwaliteit identiek is.\n\nDeze gids gaat ervan uit dat je al een Gumroad-winkel hebt met minstens een paar gepubliceerde materialen. Als je vanaf nul begint, lees dan eerst onze gids over Gumroad-materialen maken en verkopen en keer hier terug wanneer je klaar bent om te optimaliseren voor groei. De strategieën hieronder bouwen voort op die basis en richten zich specifiek op de optimalisatiehefbomen die een actieve Gumroad-winkel omvormen tot een consistent groeiend inkomstenkanaal.\n\nElke aanbeveling in deze gids is direct toepasbaar op je bestaande catalogus. Je hoeft geen nieuw materiaal te maken om van optimalisatie te profiteren — veel van de meest impactvolle veranderingen betreffen het bijwerken van titels, het herschrijven van beschrijvingen, het verbeteren van voorbeelden en het reorganiseren van je bestaande winkel. Begin met je huidige materialen en pas deze strategieën systematisch toe.',
@@ -155,13 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'tpt-materialen-maken-verkopen', anchorText: 'Hoe Gumroad-Materialen Maken en Verkopen' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Hoe Etsy Printables Prijzen' },
-    { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'Etsy SEO voor Educatief Materiaal' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'guide', slug: 'tpt-materialen-maken-verkopen', anchorText: 'Lesmateriaal maken en verkopen' },
+    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables verkopen op Gumroad' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels & Logica Pakket' },
   ],
 
   toolsRecommended: [

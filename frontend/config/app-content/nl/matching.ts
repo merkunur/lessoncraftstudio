@@ -2,33 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'verbindingswerkblad generator',
+    primaryKeyword: 'koppelwerkbladen maken en verkopen op Etsy',
     secondaryKeywords: [
-      'printbare koppelwerkbladen maker voor Etsy verkopers',
-      'trek-een-lijn verbindingswerkbladen generator voor KDP uitgevers',
-      'koppelwerkbladen maker commerciële licentie',
-      'verbindingswerkbladen verkopen op Gumroad',
+      'koppelwerkbladen generator voor Etsy-verkopers',
+      'verbindingswerkbladen voor Amazon KDP',
+      'koppelactiviteiten commerciële licentie',
+      'koppelpuzzels voor printables-business',
     ],
     lsiKeywords: [
       'digitale koppelactiviteiten printables online bedrijf',
       'commercieel gebruik verbindingswerkbladen generator',
       'printbare koppelactiviteiten business tools',
     ],
-    titleTag: 'Verbindingswerkblad Generator | Maak & Verkoop Online',
+    titleTag: 'Koppelwerkbladen maken en verkopen | LessonCraftStudio',
     metaDescription:
-      'Maak verbindingswerkbladen om te verkopen op Etsy, KDP & Gumroad. 4 koppelmodi, automatisch antwoordblad, 104 thema\'s, instelbaar aantal paren.',
+      'Maak koppelwerkbladen met thema-afbeeldingen voor Etsy en KDP. Automatische antwoorden, commerciële licentie. Gratis proefversie met watermerk.',
   },
 
   hero: {
-    title: 'Verbindingswerkblad Generator voor Trek-een-Lijn Koppelactiviteiten',
+    title: 'Maak koppelwerkbladen om te verkopen op Etsy, KDP en Bol.com',
     tagline:
-      'Vier koppelmodi in één generator — Beginletter, Afbeelding+Woord, Afbeelding/Woord Gemengd en Aangepast Woord — met automatisch gegenereerde antwoordbladen, instelbaar aantal paren en een gelokaliseerde "Zoek de Paren!" koptekst in 104 thematische beeldcollecties.',
+      'Genereer professionele koppelwerkbladen met vier modi en automatische antwoordbladen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Maak professionele trek-een-lijn verbindingswerkbladen waarbij gebruikers paren verbinden door lijnen te trekken tussen twee kolommen. Kies uit vier verschillende koppelmodi: Afbeelding ↔ Beginletter koppelt afbeeldingen aan hun eerste letter, Afbeelding+Woord ↔ Afbeelding+Woord plaatst gelabelde afbeeldingen aan beide zijden, Afbeelding/Woord ↔ Afbeelding/Woord mixt afbeeldingen en woorden per rij met dropdown-bediening, en Afbeelding ↔ Aangepast Woord laat je eigen koppeltermen typen. Configureer 4, 5 of 6 paren per werkblad en schakel itemnummers en decoratieve opsommingstekens in of uit voor een nette opmaak. Elk werkblad bevat een automatisch gegenereerde gelokaliseerde "Zoek de Paren!" koptekst met titel en instructies weergegeven in alle 11 ondersteunde talen. Het dubbele-canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad — het antwoordblad tekent verbindingslijnen tussen correcte paren zodat je die nooit handmatig hoeft te maken. De Verbindingswerkblad Generator is taalgevoelig: de modi Beginletter en Afbeelding+Woord gebruiken gelokaliseerde afbeeldingsnamen, dus het wisselen van taal verandert de woorden en eerste letters op het werkblad. Volledige Toegang ontgrendelt alle 104 thema\'s met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde woordinhoud. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, neem naam- en datumvelden op, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, vierkant of aangepaste formaten. Of je nu koppelactiviteitenbundels verkoopt op Etsy.nl, geletterdheidsboeken samenstelt voor Amazon KDP, of koppelcentrum-activiteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Met de Koppelwerkbladen Generator maakt u in enkele minuten verkoopklare verbindingswerkbladen voor uw printables-business op Etsy, Amazon KDP en Bol.com. Kies uit vier koppelmodi — Beginletter, Afbeelding+Woord, Gemengd en Aangepast Woord — en stel 4, 5 of 6 paren per werkblad in voor verschillende moeilijkheidsgraden. De generator produceert automatisch een antwoordblad bij elk werkblad, wat u uren handmatig werk bespaart bij het samenstellen van bundels. Selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties, van dieren en voedsel tot seizoenen en feestdagen. Elk werkblad bevat een gelokaliseerde koptekst in 11 talen, waardoor u hetzelfde product op de Nederlandse, Duitse en internationale markt kunt verkopen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. De commerciële licentie verleent volledige verkooprechten op alle platforms, inclusief Etsy.nl, Amazon KDP en Brave New Books. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard voordat u een licentie aanschaft.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Verbindingswerkbladen in 5 Stappen',
+    title: 'Zo maakt u koppelwerkbladen om te verkopen in 5 stappen',
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -59,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Verbindingswerkblad Generator',
+    title: 'Functies die uw koppelwerkbladen verkoopklaar maken',
     features: [
       {
         title: 'Vier Koppelmodi: Beginletter, Afbeelding+Woord, Afbeelding/Woord Gemengd en Aangepast Woord',
@@ -105,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Verbindingswerkbladen Online',
+    title: 'Verdien met koppelwerkbladen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Thematische Koppelwerkblad Bundels op Etsy.nl',
@@ -206,58 +206,18 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'raster-puzzel-werkbladen',
-      anchorText: 'Raster Puzzel Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
       slug: 'schaduw-matching-werkbladen',
-      anchorText: 'Schaduw Matching Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'plaatjes-bingo-werkbladen',
-      anchorText: 'Plaatjes Bingo Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'sorteer-werkbladen',
-      anchorText: 'Sorteer Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'alfabet-trein-werkbladen',
-      anchorText: 'Alfabet Trein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkbladen Generator',
+      anchorText: 'Schaduw-koppelwerkbladen maken en verkopen',
     },
     {
       pageType: 'bundle',
       slug: 'matchen-sorteren-pakket',
-      anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-apps in Eén Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'peuterspeelzaal-printable-ideen',
-      anchorText: 'Peuteronderwijs printable ideeën voor vroege ontwikkeling',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kleuterschool-printable-ideen',
-      anchorText: 'Kleuterschool printable ideeën voor jonge gebruikers',
-    },
-    {
-      pageType: 'start',
-      slug: 'blauwdruk-printable-bedrijf',
-      anchorText: 'Blauwdruk voor je printable bedrijf',
+      anchorText: 'Matchen & Sorteren Pakket — alle koppel-apps in één bundel',
     },
     {
       pageType: 'guide',
       slug: 'koppel-werkbladen-maken',
-      anchorText: 'Koppel werkbladen maken',
+      anchorText: 'Gids: koppelwerkbladen maken voor uw printables-business',
     },
   ],
 

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'lijntraceer werkblad generator',
+    primaryKeyword: 'gratis trekwerkbladen fijne motoriek',
     secondaryKeywords: [
-      'lijntraceer werkblad maker voor verkopers',
-      'lijnen trekken werkbladen maken om te verkopen',
-      'printbare lijntraceer werkbladen commercieel gebruik',
-      'lijnen trekken werkblad generator voor KDP',
+      'lijnen trekken werkbladen online maken',
+      'trekwerkbladen fijne motoriek gratis proberen',
+      'lijntraceer werkbladen generator gratis online',
+      'fijne motoriek werkblad maker acht sjablonen',
     ],
     lsiKeywords: [
-      'fijne motoriek werkblad tool voor Etsy',
-      'SVG lijnsjabloon werkblad generator',
-      'afbeeldingspaar matching lijntraceer printables',
+      'fijne motoriek werkblad tool gratis online',
+      'SVG lijnsjabloon werkblad generator gratis',
+      'afbeeldingspaar matching lijntraceer werkbladen',
     ],
-    titleTag: 'Lijntraceer Werkblad Maker — Lijnen Trekken Generator',
-    metaDescription: 'Maak lijntraceer werkbladen met acht SVG-sjablonen, 3.100+ illustraties over 104 thema\'s en automatisch vullen van afbeeldingsparen.',
+    titleTag: 'Trekwerkbladen gratis online | LessonCraftStudio',
+    metaDescription: 'Maak lijntraceer werkbladen met acht SVG-sjablonen en 3.100+ illustraties over 104 thema\'s. Probeer gratis met watermerk, geen registratie nodig.',
   },
 
   hero: {
-    title: 'Lijnen Trekken Werkblad Maker',
-    tagline: 'Acht SVG-lijnsjablonen met afbeeldingspaar matching, automatisch vullen uit 104 kleurrijke thema\'s en sjabloongestuurde pagina-oriëntatie voor professionele lijntraceer werkbladen die wereldwijd verkopen',
-    description: 'Maak professionele lijntraceer werkbladen waarbij gebruikers langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-gebaseerde sjablonen dekken een complete fijne motoriek progressie: één horizontaal sjabloon voor rechte links-naar-rechts tracering (gemakkelijkst), één verticaal sjabloon voor boven-naar-beneden streken, vier bochtensjablonen voor vloeiende polsbewegingen, en twee diagonale sjablonen voor kruiscoördinatie (moeilijkst). Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, waardoor gebruikers aan elk uiteinde een visueel doel hebben. Sjabloonselectie stuurt automatisch de pagina-oriëntatie — bochten gebruiken standaard liggend formaat voor zwaaiende bogen, terwijl diagonale, horizontale en verticale sjablonen staand formaat gebruiken voor gerichte oefening. Automatisch vullen vult elke paarplaats direct met willekeurige afbeeldingen uit elk geselecteerd thema of uit alle 104 thema\'s tegelijk, waardoor batchcreatie snel gaat. De inhoud komt uit meer dan 3.100 kleurrijke illustraties verdeeld over 104 thematische collecties — dieren, voertuigen, eten, natuur en tientallen meer. Elk werkblad is puur visueel met nul tekst op de uitvoer, waardoor producten universeel verkoopbaar zijn zonder vertaling. Er is geen antwoordblad nodig omdat het lijnpad zelf de gebruiker begeleidt — een zelfcontrolerende activiteit van opzet. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Bewerk alles op het volledige Fabric.js-canvas met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand en Fredoka. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis trekwerkbladen fijne motoriek online',
+    tagline: 'Acht SVG-lijnsjablonen met afbeeldingspaar matching, automatisch vullen uit 104 kleurrijke thema\'s en sjabloongestuurde pagina-oriëntatie',
+    description: 'Probeer onze lijnen trekken werkbladen generator gratis en maak direct professionele fijne motoriek werkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: acht SVG-lijnsjablonen die een complete motorische progressie dekken van horizontale lijnen (gemakkelijkst) tot diagonalen (moeilijkst), automatisch vullen van afbeeldingsparen uit meer dan 3.100 kleurrijke illustraties over 104 thema\'s, en sjabloongestuurde pagina-oriëntatie die automatisch het beste formaat kiest. Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad. Exporteer als printklare PDF of hoge-resolutie JPEG op 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die fijne motoriek thuis willen oefenen, leerkrachten die schrijfvoorbereiding werkbladen zoeken, en iedereen die professionele lijntraceer activiteiten wil genereren.',
   },
 
   tutorial: {
-    title: 'Lijntraceer Werkbladen Maken in 8 Stappen',
+    title: 'Trekwerkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de Lijnen Trekken Werkblad Maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'lijnen-trekken-werkbladen', anchorText: 'Lijnen Trekken Werkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'lijnen-trekken-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
     { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },

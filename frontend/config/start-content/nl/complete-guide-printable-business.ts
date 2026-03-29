@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hoe een printable bedrijf starten',
+    primaryKeyword: 'printables-business starten complete gids 2026',
     secondaryKeywords: [
-      'printable bedrijf voor beginners',
-      'printbare werkbladen online verkopen',
-      'een printbare werkblad winkel starten',
-      'printable bedrijf opstart gids',
+      'printable bedrijf voor beginners Nederland',
+      'printbare werkbladen online verkopen Etsy KDP',
+      'printable winkel starten als ZZP\'er',
+      'digitale downloads verkopen stappenplan',
     ],
     lsiKeywords: [
-      'digitale download bedrijfsmodel',
+      'digitale download bedrijfsmodel ZZP',
       'werkblad generator voor verkopers',
-      'Etsy printable winkel opzetten',
-      'Amazon KDP activiteitenboeken',
-      'Gumroad werkbladen',
+      'Etsy printable winkel opzetten Nederland',
+      'Amazon KDP activiteitenboeken publiceren',
+      'Bol.com digitale producten verkopen',
       'commerciële licentie printable tools',
     ],
-    titleTag: 'Hoe Een Printable Bedrijf Starten — Complete Gids',
-    metaDescription: 'Hoe je een printable bedrijf start vanaf nul. Stapsgewijze gids voor Etsy, Amazon KDP en Gumroad verkopers die werkblad generators gebruiken om producten te.',
+    titleTag: 'Printables-business starten (2026) | LessonCraftStudio',
+    metaDescription: 'Start uw printables-business in 2026. Stapsgewijze gids voor Etsy, Amazon KDP en Bol.com verkopers die werkblad generators gebruiken om producten te maken.',
   },
 
   hero: {
-    title: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    tagline: 'Van nul naar je eerste verkoop — alles wat je moet weten over het opbouwen van een printbare werkbladen bedrijf',
-    description: 'Deze gids leidt je door elke stap van het lanceren van een printbaar werkbladen bedrijf. Je leert hoe je een winstgevende niche kiest, professionele producten maakt zonder ontwerpvaardigheden, op de juiste platforms vermeldt, prijst voor winst, en een catalogus opbouwt die consistente verkoop genereert. Of je nu van plan bent te verkopen op Etsy, Amazon KDP, Gumroad, of je eigen website, dit is het startpunt.',
+    title: 'Uw printables-business starten: de complete gids',
+    tagline: 'Van nul naar uw eerste verkoop op Etsy, Amazon KDP of Bol.com',
+    description: 'Deze gids leidt u door elke stap van het lanceren van een printables-business in 2026. U leert hoe u een winstgevende niche kiest, professionele producten maakt zonder ontwerpvaardigheden, op de juiste platforms vermeldt, prijst voor winst, en een catalogus opbouwt die consistente verkoop genereert. Of u nu verkoopt op Etsy, Amazon KDP, Bol.com, Brave New Books of uw eigen website, dit is uw startpunt. De Nederlandse markt biedt unieke kansen: registreer als ZZP\'er bij de KvK, profiteer van de Kleinondernemersregeling (KOR) bij een omzet onder 20.000 euro per jaar, en bedien zowel de Nederlandstalige als de internationale markt met werkbladen in 11 talen. Elke generator bevat een gratis proefversie met watermerk zodat u het volledige creatieproces kunt testen voordat u investeert.',
   },
 
   introduction: 'De printbare werkbladen markt groeit gestaag omdat de vraag nooit stopt. Ouders geven thuisonderwijs. verkopers vullen het productcatalogus aan. Bijlesverkopers hebben elke week verse materialen nodig. Seizoensthema\'s roteren maar de kernbehoefte — gestructureerde, boeiende, printklare leeractiviteiten — blijft jaar na jaar constant.\n\nEen printable bedrijf starten vereist geen onderwijsbevoegdheid, grafisch ontwerp ervaring, of een grote voorinvestering. Wat het wèl vereist is een helder begrip van wat kopers daadwerkelijk willen, de juiste tools om professionele producten efficiënt te maken, en de bereidheid om dit als een echt bedrijf te behandelen in plaats van een bijexperiment.\n\nDeze gids behandelt het complete pad. Aan het eind heb je een concreet actieplan: je niche geselecteerd, je eerste product gemaakt, je winkel aangemeld, en je prijsstrategie bepaald. Geen vaag advies, geen hype — alleen de praktische stappen die je van idee naar inkomen brengen.\n\nEén belangrijke opmerking voordat we beginnen: elke werkblad generator die in deze gids wordt genoemd biedt een gratis proefversie met watermerk. Je kunt elke functie testen, voorbeeldwerkbladen maken, en de kwaliteit evalueren voordat je een commerciële licentie aanschaft. Er is nul risico om te beginnen.',
@@ -207,16 +207,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optelling Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaten Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Probeer de Koppelwerkblad Maker' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
+    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Werkbladen maken die verkopen' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Masterclass Etsy printables' },
+    { pageType: 'start', slug: 'stappenplan-printable-bedrijf', anchorText: 'Stappenplan printables-business' },
   ],
 
   visuals: {

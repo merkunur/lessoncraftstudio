@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Rekenfeiten Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende rekenfeiten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Rekenoefening productconcepten en nichestrategieën voor verkopers.',
+    titleTag: 'Tafels oefenen — Ideeën business | LessonCraftStudio',
+    metaDescription: 'Tafels oefenen printables en rekenfeiten werkbladen verkopen. Ideeën voor de meest gezochte educatieve niche — verbruiksmateriaal dat herhaald verkoopt.',
 
-    primaryKeyword: 'rekenfeiten printable ideeën',
+    primaryKeyword: 'tafels oefenen printables ideeën business',
     secondaryKeywords: [
-      'rekenfeiten werkbladen verkopen',
-      'rekenoefening printable business',
-      'rekenautomatisering activiteiten',
-      'rekenfeiten printables verkopen Gumroad',
+      'tafels oefenen werkbladen verkopen Etsy',
+      'rekenfeiten printables business',
+      'sommen oefenen werkbladen KDP',
+      'rekenautomatisering printables Gumroad',
     ],
     lsiKeywords: [
-      'getallenvloeiendheid oefenwerkbladen',
-      'tafels en sommen oefenbladen',
-      'basisrekenen educatief printbare producten',
+      'optellen aftrekken automatiseren werkbladen',
+      'Cito rekenvloeiendheid oefenmateriaal',
+      'dagelijkse rekenoefening verbruiksmateriaal',
     ],
   },
   hero: {
-    title: 'Rekenfeiten Printable Businessideeën voor Verkopers',
-    description: 'Rekenfeiten printables vertegenwoordigen een altijdgroene, jaarronde, hoogvolumemarkt waar verkopers, ouders, bijlesverkopers, thuisonderwijzende gezinnen en rekeninterventiespecialisten rekenfeitenvloeiendheids werkbladen, getimede oefenopdrachten, berekeningsbeheersingsmateriaal en getallenfamilie-activiteiten kopen over alle vier de bewerkingen inclusief optellen, aftrekken, vermenigvuldigen en delen. Rekenfeitenvloeiendheid is een universele educatieve prioriteit van groep 1 tot en met groep 7 die enorme aanhoudende vraag creëert die nooit afneemt ongeacht seizoen, productcataloguswijzigingen of onderwijstrends, omdat de fundamentele eis dat gebruikers berekeningsautomaticiteit bereiken constant blijft over elk schoolsysteem, bijlesprogramma en thuisonderwijsproductcatalogus wereldwijd. De niche is uniek herhaalbaar omdat gebruikers voortdurende dagelijkse oefening nodig hebben, wat verbruiksvraag creëert waarbij werkbladen eenmalig worden gebruikt en weggegooid — dezelfde gezinnen en verkopers keren herhaaldelijk terug voor vers oefenmateriaal gedurende het hele schooljaar. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Tafels oefenen printables: de populairste niche',
+    description: 'Tafels oefenen is een van de meest gezochte educatieve termen in Nederland en daarmee een goudmijn voor printable-verkopers. Leerkrachten wijzen dagelijks rekenfeitenoefening toe van groep 3 tot en met groep 8, wat verbruiksvraag creëert: werkbladen worden eenmalig ingevuld en weggegooid, waarna dezelfde gezinnen en leerkrachten terugkeren voor vers materiaal. Met onze generators maakt u werkbladen voor alle vier de bewerkingen: optellen, aftrekken, vermenigvuldigen en delen. Bied materiaal aan per tafelgroep, per moeilijkheidsniveau en per groep voor maximale zoekwoorddekking. De landelijke aandacht voor basisvaardigheden in het Nederlandse onderwijs heeft de vraag naar rekenfeitenmateriaal extra vergroot. Combineer met thematische illustraties om ook op visuele aantrekkingskracht te concurreren. Verkoop via Etsy, Gumroad of Amazon KDP en bouw een catalogus op die het hele schooljaar door stabiel verkoopt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De rekenfeiten printable-markt is een van de hoogste-volume educatieve printable-niches omdat rekenfeitenvloeiendheid een basisvaardigheid is die elke gebruiker moet beheersen ongeacht productcatalogus, onderwijsfilosofie, geografische locatie of onderwijssysteem. In tegenstelling tot trendgevoelige educatieve onderwerpen die stijgen en dalen met veranderende pedagogische benaderingen, is de eis dat gebruikers berekeningsautomaticiteit bereiken met basis optellen, aftrekken, vermenigvuldigen en delen al decennialang constant gebleven en vertoont geen enkele indicatie van afname. verkopers wijzen dagelijks rekenfeitenoefening toe, wat verbruiksgerichte herhaalde vraag creëert waarbij werkbladen eenmalig worden ingevuld en weggegooid — dezelfde productlijnen en gezinnen hebben continu vers materiaal nodig gedurende het hele schooljaar. Dit verbruikskarakter van rekenfeitenoefenmateriaal creëert een koopcyclus die fundamenteel verschilt van de meeste educatieve content en bijzonder gunstig is voor verkopers.
 
@@ -147,54 +147,19 @@ De eenvoud van rekenfeiten werkbladformaten maakt ze uitzonderlijk efficiënt om
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'optellen-werkbladen',
+      anchorText: 'Optelwerkbladen voor rekenautomatisering',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'aftrekken-werkbladen',
+      anchorText: 'Aftrekwerkbladen voor dagelijkse oefening',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
-    },
-    {
-      pageType: 'guide',
-      slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete gids voor het starten van een printable business',
-    },
-    {
-      pageType: 'start',
-      slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
-    },
-    {
-      pageType: 'idea',
-      slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'second-grade-printable-ideas',
-      anchorText: 'Groep 4 printable businessideeën',
-    },
-    {
-      pageType: 'idea',
-      slug: 'third-grade-printable-ideas',
-      anchorText: 'Groep 5 printable businessideeën',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket voor alle bewerkingen',
     },
   ],
 

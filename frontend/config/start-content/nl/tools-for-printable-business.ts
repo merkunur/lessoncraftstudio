@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'beste tools voor printable verkopers',
+    primaryKeyword: 'essentiële tools voor printables-business',
     secondaryKeywords: [
-      'printable bedrijf tools checklist',
-      'werkblad generator tools voor verkopers',
-      'tools voor printables online verkopen',
-      'printable productie toolkit',
+      'printable bedrijf tools checklist verkopers',
+      'werkblad generator tools voor Etsy KDP',
+      'tools voor printables online verkopen Nederland',
+      'printable productie toolkit ondernemers',
     ],
     lsiKeywords: [
-      'etsy verkoper tools voor digitale downloads',
-      'amazon kdp activiteitenboek productie tools',
+      'Etsy verkoper tools voor digitale downloads',
+      'Amazon KDP activiteitenboek productie tools',
       'werkblad creatie software voor ondernemers',
       'printable bedrijf workflow automatisering',
-      'meertalige werkblad generator tools',
+      'meertalige werkblad generator tools 11 talen',
       'commerciële licentie werkblad productie',
     ],
-    titleTag: 'Beste Tools voor Printable Verkopers — Complete Gids',
-    metaDescription: 'Beste tools voor printable verkopers: werkblad generators, ontwerp tools, platform hulpmiddelen en workflows voor een professionele printable bedrijf toolkit.',
+    titleTag: 'Tools voor printables-business | LessonCraftStudio',
+    metaDescription: 'Essentiële tools voor uw printables-business: werkblad generators, ontwerp tools, platform hulpmiddelen en workflows voor Etsy, KDP en Bol.com verkopers.',
   },
 
   hero: {
-    title: 'Essentiële Tools voor Printable Bedrijfseigenaren',
-    tagline: 'De complete toolkit gids voor printable ondernemers — van inhoudscreatie tot platformbeheer, elke tool die je nodig hebt om professionele werkbladen te produceren, verpakken en verkopen',
-    description: 'Een printable bedrijf bouwen vereist de juiste tools in elke fase: inhoudscreatie, ontwerp, opmaak, vermelding en analyse. De meeste verkopers overcompliceren hun tech stack, geld uitgeven aan tools die ze niet nodig hebben terwijl ze degenen missen die de productie daadwerkelijk versnellen. Deze gids snijdt door de ruis heen. Het behandelt de essentiële toolkit voor printable bedrijfseigenaren — beginnend met de belangrijkste categorie (werkblad generators die printklare 300 DPI PDF\'s produceren), dan uitbreidend naar aanvullende ontwerp tools, platformspecifieke hulpmiddelen en workflowstrategieën. De gratis proefversie met watermerk laat je elke generator testen voordat je investeert.',
+    title: 'Essentiële tools voor uw printables-business',
+    tagline: 'De complete toolkit van inhoudscreatie tot platformbeheer',
+    description: 'Een printable bedrijf bouwen vereist de juiste tools in elke fase: inhoudscreatie, ontwerp, opmaak, vermelding en analyse. De meeste verkopers overcompliceren hun tech stack en geven geld uit aan tools die ze niet nodig hebben terwijl ze degenen missen die de productie daadwerkelijk versnellen. Deze gids snijdt door de ruis heen en behandelt de essentiële toolkit voor printable ondernemers, beginnend met werkblad generators die printklare 300 DPI PDF\'s produceren, aangevuld met ontwerp tools, platformspecifieke hulpmiddelen voor Etsy, Amazon KDP en Bol.com, en workflowstrategieen die uw productie versnellen. De gratis proefversie met watermerk laat u elke generator testen voordat u investeert.',
   },
 
   introduction: 'Elk printable bedrijf draait op tools. De kwaliteit van je uitvoer, de snelheid van je productie en de variatie van je catalogus hangen allemaal af van de tools die je kiest. Toch slaan de meeste gidsen over printables verkopen het toolkit-gesprek volledig over, direct springend naar marketingadvies zonder de fundamentele vraag te beantwoorden: wat gebruik je eigenlijk om de producten te maken?\n\nDeze gids beantwoordt die vraag uitgebreid. Het behandelt drie categorieën tools die elke printable verkoper nodig heeft: inhoudscreatie tools (de generators die je daadwerkelijke werkbladen produceren), ontwerp en opmaak tools (voor omslagen, mockups en bundeling), en platformbeheer tools (voor vermeldingsoptimalisatie, zoekwoordonderzoek en analyse). Elke categorie heeft essentiële tools en optionele. Het verschil kennen bespaart je geld en tijd.\n\nDe belangrijkste tool in elk printable bedrijf is de inhoudsgenerator. Al het andere — omslagontwerp, vermeldingsafbeeldingen, SEO-optimalisatie — is secundair aan het hebben van hoogwaardige, printklare inhoud om te verkopen. Een prachtig ontworpen Etsy-vermelding met middelmatige werkbladen erin genereert restituties en eenster beoordelingen. Een eenvoudige vermelding met professionele, nauwkeurige, 300 DPI werkbladen genereert terugkerende kopers en vijfster beoordelingen. De tool die je inhoud maakt bepaalt je productkwaliteit, en productkwaliteit bepaalt je bedrijfstraject.\n\nDe gratis proefversie met watermerk op elke werkblad generator laat je praktijkervaring opbouwen met de meest kritieke tools voordat je een euro uitgeeft.',
@@ -203,18 +203,9 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Hoe Professionele Werkbladen te Maken Die Verkopen' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids voor Printable Verkopers' },
-    { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: 'Printable Bedrijf Inkomen: Realistische Verwachtingen' },
-    { pageType: 'start', slug: 'meertalige-werkbladen-maken', anchorText: 'Hoe Werkbladen te Maken in 11 Talen' },
-    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Koppelwerkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Probeer de Koppelwerkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete gids printables-business starten' },
+    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Werkbladen maken die verkopen' },
+    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële licentie voor verkopers' },
   ],
 
   visuals: {

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ruimte Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende ruimte printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Ruimtethema productconcepten, STEM-strategieën en tips voor verkopers.',
+    titleTag: 'Printables ruimte voor Etsy | LessonCraftStudio',
+    metaDescription: 'Verkoop ruimte printables op Etsy, Gumroad en KDP. Planeten, raketten en astronauten ideeën met STEM-aansluiting voor uw printable business.',
 
-    primaryKeyword: 'ruimte printable ideeën',
+    primaryKeyword: 'printables ruimte om te verkopen op Etsy',
     secondaryKeywords: [
-      'ruimtethema werkbladen verkopen',
-      'ruimte printable business ideeën',
-      'ruimte activiteiten voor verkopers',
-      'ruimte printables verkopen op Etsy',
+      'ruimtethema werkbladen verkopen Etsy',
+      'STEM printable business planeten',
+      'astronaut raket printables Gumroad',
+      'zonnestelsel educatieve producten verkopen',
     ],
     lsiKeywords: [
-      'sterrenkunde educatieve werkbladen',
-      'planeten en raketten activiteiten',
-      'zonnestelsel printbare producten printables',
+      'sterrenkunde werkbladen kinderen maken',
+      'André Kuipers ruimtevaart educatie',
+      'planeten sterren printbare producten ondernemen',
     ],
   },
   hero: {
-    title: 'Ruimte Printable Businessideeën voor Verkopers',
-    description: 'De ruimte is een van de meest universeel fascinerende thema\'s voor kinderen, waardoor het een krachtige altijdgroene niche is voor printable-ondernemers die consistente jaarronde verkopen willen zonder seizoensafhankelijkheid. Het ruimtethema biedt buitengewone subthemavariatie waaronder planeten, raketten, astronauten, sterren, de maan, zonnestelselmodellen, melkwegen, buitenaardse wezens, ruimtevaartuigen, sterrenbeelden, kometen, telescopen en ruimtestations, wat verkopers een diep visueel vocabulaire geeft dat verbeelding en nieuwsgierigheid opwekt bij jonge gebruikers. STEM-onderwijsaansluiting maakt ruimteprintables bijzonder waardevol voor verkopers die wetenschapsconcepten integreren in reken-, taal- en kunstactiviteiten over het hele productcatalogus. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad combineert de ruimteniche sterke jaarronde vraag met vakoverschrijdende educatieve aantrekkingskracht die resoneert bij zowel klasverkopers als thuisonderwijzende gezinnen die investeren in wetenschapsrijk leermateriaal. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
+    title: 'Ruimte printables verkopen: STEM-niche voor Etsy',
+    description: 'De ruimte is een van de krachtigste altijdgroene niches voor printable-ondernemers omdat planeten, raketten, astronauten en sterren kinderen het hele jaar door boeien zonder seizoensafhankelijkheid. STEM-onderwijsaansluiting geeft ruimteprintables een premiumpositionering — scholen prioriteren steeds meer wetenschap en technologie, en ouders investeren graag in materiaal dat nieuwsgierigheid naar het zonnestelsel omzet in productief leren. In Nederland is ruimtevaart bijzonder aansprekend dankzij ESA-astronaut André Kuipers, het NEMO Science Museum en Space Expo in Noordwijk, die de interesse van kinderen aanwakkeren. De subthemavariatie is enorm: melkwegen, kometen, sterrenbeelden, ruimtestations en buitenaardse wezens ondersteunen elk tientallen unieke producten. Op Etsy, Amazon KDP en Gumroad converteren gerichte producten zoals zonnestelsel-telwerkbladen beter dan generieke opties. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.',
   },
   marketOverview: `De ruimte printable-niche neemt een uniek voordelige positie in voor printable-verkopers omdat het consistente jaarronde vraag levert zonder de hausse-en-baissecycli die seizoensniches kenmerken. De fascinatie van kinderen voor de ruimte is diep universeel en overschrijdt leeftijdsgroepen, culturen en onderwijsfilosofieën. Peuters zijn gefascineerd door raketten en sterren, kleuters houden van het leren van planetennamen en astronautenavonturen, en basisschoolgebruikers duiken gretig in feiten over het zonnestelsel, sterrenbeeldidentificatie en ruimteverkenningsgeschiedenis. Deze brede leeftijdsaantrekkingskracht betekent dat verkopers producten kunnen maken gericht op meerdere niveaucategories vanuit een enkel thema, waardoor hun catalogusdiepte wordt vermenigvuldigd zonder van onderwerp te wisselen.
 
@@ -145,24 +145,19 @@ In Nederland is ruimtevaart een bijzonder aansprekend thema dankzij de nationale
 
   internalLinks: [
     {
-      pageType: 'guide',
-      slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      pageType: 'app',
+      slug: 'zoek-en-tel-werkbladen',
+      anchorText: 'Zoek en tel werkbladen met ruimtethema',
     },
     {
-      pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      pageType: 'app',
+      slug: 'rekenpuzzels-werkbladen',
+      anchorText: 'Rekenpuzzels generator voor STEM-producten',
     },
     {
-      pageType: 'guide',
-      slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
-    },
-    {
-      pageType: 'guide',
-      slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      pageType: 'bundle',
+      slug: 'wiskunde-meester-pakket',
+      anchorText: 'Wiskunde meester pakket voor ruimte-reken bundels',
     },
     {
       pageType: 'guide',

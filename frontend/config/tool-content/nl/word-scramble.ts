@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'letterpuzzel werkblad generator',
+    primaryKeyword: 'gratis door-elkaar-woorden generator',
     secondaryKeywords: [
-      'letterpuzzel werkblad maker voor verkopers',
-      'door-elkaar-gehusselde-letters puzzels maken om te verkopen',
-      'printbare woordkruisel werkbladen met commerciële licentie',
-      'letterpuzzel generator voor KDP',
+      'letterpuzzel werkbladen gratis online maken',
+      'gratis woordkruisel werkblad generator',
+      'door-elkaar-woorden puzzel gratis maken zonder account',
+      'letterpuzzel online genereren met antwoordblad',
     ],
     lsiKeywords: [
       'gehusselde lettertegel printables voor Etsy',
       'beeldgebaseerde letterpuzzel werkblad tool',
       'meertalige spellingpuzzel generator',
     ],
-    titleTag: 'Letterpuzzel Werkblad Maker | Maak & Verkoop',
-    metaDescription: 'Genereer letterpuzzel werkbladen met gehusselde lettertegels, afbeeldingsaanwijzingen, klinker-kleurcodering, 4 moeilijkheidsniveaus, 11 talen.',
+    titleTag: 'Door-elkaar-woorden gratis online | LessonCraftStudio',
+    metaDescription: 'Maak gratis letterpuzzel werkbladen online met gehusselde lettertegels, klinker-kleurcodering, 4 moeilijkheidsniveaus en 11 talen. Geen account nodig.',
   },
 
   hero: {
-    title: 'Letterpuzzel Werkblad Maker',
-    tagline: 'Maak gehusselde-lettertegel spellingpuzzels met afbeeldingsaanwijzingen, kleurcodering en 4 moeilijkheidsniveaus in 11 talen',
-    description: 'Verander woordenschatoefening in een praktische spellingpuzzel die gebruikers oplossen door gehusselde lettertegels te herschikken. Deze tool genereert letterpuzzel werkbladen waarbij een afbeeldingsaanwijzing gekoppeld is aan een set door-elkaar-gehusselde tegels — gebruikers bestuderen het plaatje, identificeren wat het voorstelt, en slepen de letters in de juiste volgorde. Anders dan invuloefeningen geeft letterpuzzel gebruikers ALLE letters maar in de verkeerde volgorde, waardoor het een letterherschikkingsuitdaging wordt die spellingnauwkeurigheid opbouwt door actieve manipulatie. De opvallende functie is klinker-medeklinker kleurcodering: schakel het in om klinkers in één kleur en medeklinkers in een andere te tonen, wat een visuele fonetische dimensie toevoegt die gebruikers helpt lettertypes te identificeren terwijl ze ontwarren. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf op hun correcte positie zijn geplaatst: Geen Aanwijzingen husselt elke letter voor maximale uitdaging, Makkelijk plaatst de helft voor ondersteunde beginners, Normaal plaatst een kwart voor gebalanceerde oefening, en Moeilijk plaatst slechts een zesde voor zelfverzekerde spellers. Kies tussen drie inhoudsbronnen: Afbeeldingenbibliotheek haalt uit meer dan 3100 illustraties over 104 thematische collecties, Handmatige Bewerkingsmodus laat je afbeeldingen selecteren en weergavenamen aanpassen, en Aangepaste Woordenlijst laat je tot 8 woorden direct typen voor tekst-only puzzels. Taalgevoeligheid is ingebouwd: schakel van Nederlands naar een van de 11 ondersteunde talen en dezelfde afbeelding produceert een ander doelwoord met andere letters en een compleet andere gehusselde opstelling. Een hondafbeelding genereert "HOND" in het Nederlands, "DOG" in het Engels, "HUND" in het Duits, "CHIEN" in het Frans. Eén ontwerp wordt 11 unieke producten. Stel 1–10 puzzels per pagina in, schakel tussen hoofdletters en kleine letters, voeg oefeningnummering toe en kies uit 7 lettertypefamilies. Exporteer als printklare PDF of hoge-resolutie JPEG met automatische antwoordbladgeneratie. De gratis proefversie bevat een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
+    title: 'Gratis door-elkaar-woorden werkbladen online maken',
+    tagline: 'Maak letterpuzzel werkbladen met gehusselde tegels, klinker-kleurcodering en 4 moeilijkheidsniveaus — direct in uw browser',
+    description: 'Maak letterpuzzel werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: een afbeeldingsaanwijzing gekoppeld aan gehusselde lettertegels die gebruikers in de juiste volgorde herschikken. De unieke klinker-medeklinker kleurcodering toont klinkers en medeklinkers in verschillende kleuren voor visuele fonetische ondersteuning. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf correct zijn geplaatst — van Geen Aanwijzingen (elke letter gehusseld) tot Makkelijk (helft correct geplaatst). Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek met meer dan 3.100 illustraties over 104 thema\'s, Handmatige Bewerkingsmodus voor aangepaste weergavenamen, of Aangepaste Woordenlijst voor tekst-only puzzels. De tool is taalgebonden — dezelfde afbeelding produceert per taal een ander doelwoord met andere letters in 11 ondersteunde talen. Antwoordbladen worden automatisch gegenereerd. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 
   tutorial: {
-    title: 'Letterpuzzel Werkbladen Maken in 8 Eenvoudige Stappen',
+    title: 'Door-elkaar-woorden werkbladen gratis maken in 8 stappen',
     steps: [
       {
         title: 'Open de letterpuzzel werkblad maker',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'woordkruisel-werkbladen', anchorText: 'Letterpuzzel Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'woordkruisel-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Raad het Woord Maker' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabettrein Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },

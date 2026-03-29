@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rastertekenen werkbladen generator',
+    primaryKeyword: 'teken- en kleurwerkbladen voor Etsy-shop',
     secondaryKeywords: [
-      'printbare rasterteken werkbladen voor Etsy-verkopers',
-      'teken en kleur werkbladen generator voor Amazon KDP-uitgevers',
-      'rastergebaseerde tekenworksheets verkopen op Gumroad',
-      'rastertekenen werkbladen commerciële licentie',
+      'teken-en-kleur generator Etsy',
+      'tekenwerkbladen voor Amazon KDP',
+      'teken- en kleuractiviteiten commerciële licentie',
+      'creatieve werkbladen verkopen',
     ],
     lsiKeywords: [
       'digitale rastertekenen printables online bedrijf',
       'printbare cel-voor-cel reproductie werkbladen business',
       'commercieel gebruik teken en kleur werkbladen generator',
     ],
-    titleTag: 'Rastertekenen Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak rasterteken werkbladen om te verkopen op Etsy, KDP en Gumroad. Dubbel rastersysteem, aanpasbaar aanwijzingspercentage, symmetriemodi.',
+    titleTag: 'Teken- en kleurwerkbladen voor Etsy | LessonCraftStudio',
+    metaDescription: 'Maak teken- en kleurwerkbladen om te verkopen op Etsy, Amazon KDP en Bol.com. Dubbel rastersysteem, 100+ zwart-wit thema\'s, commerciële licentie.',
   },
 
   hero: {
-    title: 'Rastertekenen Werkbladen Generator voor Rastergebaseerde Tekenoefeningen',
-    tagline: 'Dubbel rastersysteem — oefenraster en hulpraster naast elkaar — met aanpasbaar aanwijzingspercentage van 10% tot 75%, horizontale en verticale symmetriemodi, en 100+ zwart-wit contourtekening collecties voor teken- en kleuractiviteiten.',
+    title: 'Teken- en kleurwerkbladen maken voor uw Etsy-shop',
+    tagline: 'Gratis proefversie met watermerk — dubbel rastersysteem met aanpasbaar aanwijzingspercentage — 100+ zwart-wit contourtekening collecties voor creatieve werkbladen die uitstekend verkopen.',
     description:
-      'Ontwerp professionele rasterteken werkbladen waarbij gebruikers een referentieafbeelding reproduceren door deze cel-voor-cel over te tekenen van een hulpraster naar een leeg oefenraster. Per geselecteerde afbeelding verschijnen twee rasters: een Oefenraster met lege cellen waar gebruikers tekenen, en een Hulpraster dat een instelbaar percentage van de referentieafbeelding toont als visuele aanwijzingen. Pas het aanwijzingspercentage aan van 10% tot 75% om de moeilijkheid te regelen — minder aanwijzingen betekent moeilijkere oefeningen die scherpere observatie vereisen. Configureer rasterafmetingen van 3×3 (9 cellen) tot 10×10 (100 cellen), met rijen en kolommen onafhankelijk instelbaar van 3 tot 10. Drie symmetriemodi voegen een ruimtelijk redeneren dimensie toe: Willekeurig plaatst aanwijzingscellen op verspreide posities, Horizontale spiegeling spiegelt aanwijzingen links-rechts, en Verticale spiegeling spiegelt aanwijzingen boven-onder, elk met een deel-om-te-onthullen keuze. De inhoud komt uit de ingebouwde zwart-wit contourtekeningenbibliotheek met 100+ collecties met meer dan 3.000 zwart-wit illustraties die specifiek ontworpen zijn voor tekenen en kleuren — geen kleurrijke thema\'s, maar schone contourlijnen die gebruikers natekenen en vervolgens inkleuren. Dit is een volledig visuele app: werkbladen bevatten uitsluitend rasterafbeeldingen zonder tekst, waardoor ze universeel bruikbaar zijn ongeacht de taal. Er is geen apart antwoordblad nodig omdat het hulpraster zelf als referentieoplossing dient. Volledige Toegang ontgrendelt alle 100+ zwart-wit thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Of je nu rasterteken bundels verkoopt op Etsy.nl, tekenvaardigheden werkboeken samenstelt voor Amazon KDP, of ruimtelijk redeneren centra maakt voor Gumroad, de Rastertekenen Werkbladen Generator levert professionele resultaten in minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.',
+      'Creatieve teken- en kleurwerkbladen behoren tot de bestverkopende printables voor jonge kinderen. Met deze generator maakt u professionele rasterteken werkbladen waarbij kinderen een referentieafbeelding cel-voor-cel natekenen en vervolgens inkleuren. Het dubbele rastersysteem — oefenraster en hulpraster naast elkaar — onderscheidt uw producten van gewone kleurplaten en rechtvaardigt hogere prijzen op Etsy, Bol.com en Amazon KDP. Pas het aanwijzingspercentage aan van 10% tot 75% om werkbladen te maken voor elk niveau, van kleuters tot volwassenen. Drie symmetriemodi voegen ruimtelijk redeneren toe als extra leerdimensie. Kies uit meer dan 3.000 zwart-wit contourillustraties in 100+ thematische collecties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Ideaal voor de Nederlandse markt maar ook internationaal inzetbaar. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Rasterteken Werkbladen in 5 Stappen',
+    title: 'Hoe maakt u teken- en kleurwerkbladen om te verkopen',
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Belangrijkste Functies van de Rastertekenen Werkbladen Generator',
+    title: 'Waarom verkopers kiezen voor de teken- en kleur generator',
     features: [
       {
         title: 'Dubbel rastersysteem: oefenraster en hulpraster',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Rasterteken Werkbladen Online Verkoopt',
+    title: 'Teken- en kleurwerkbladen verkopen op Etsy, KDP en Bol.com',
     cases: [
       {
         title: 'Rasterteken activiteitenbundels op Etsy',
@@ -204,18 +204,8 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'groot-klein-werkbladen',
-      anchorText: 'Groot & Klein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patroontrein-werkbladen',
-      anchorText: 'Patroontrein Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'patronen-werkbladen',
-      anchorText: 'Patronen Werkbladen Generator',
+      slug: 'kleurplaten-werkbladen',
+      anchorText: 'Kleurplaten Werkbladen Generator',
     },
     {
       pageType: 'app',
@@ -223,39 +213,9 @@ const content: AppContent = {
       anchorText: 'Lijnen Trekken Werkbladen Generator',
     },
     {
-      pageType: 'app',
-      slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkbladen Generator',
-    },
-    {
-      pageType: 'app',
-      slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkbladen Generator',
-    },
-    {
       pageType: 'bundle',
       slug: 'visueel-leren-pakket',
       anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
-    },
-    {
-      pageType: 'idea',
-      slug: 'zomer-printable-ideen',
-      anchorText: 'Zomer printable ideeën voor kinderactiviteiten',
-    },
-    {
-      pageType: 'idea',
-      slug: 'kerst-printable-ideen',
-      anchorText: 'Kerst printable ideeën voor seizoensverkoop',
-    },
-    {
-      pageType: 'start',
-      slug: 'etsy-printable-bedrijf',
-      anchorText: 'Bouw je Etsy printable bedrijf',
-    },
-    {
-      pageType: 'guide',
-      slug: 'teken-werkbladen-maken',
-      anchorText: 'Teken werkbladen maken',
     },
   ],
 

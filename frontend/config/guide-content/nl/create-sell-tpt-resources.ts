@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gumroad printbare producten verkopen',
+    primaryKeyword: 'lesmateriaal verkopen online Nederland',
     secondaryKeywords: [
-      'hoe verkopen op Gumroad',
-      'Gumroad printbare producten maken en verkopen',
-      'Gumroad winkel opzetten',
-      'printbare werkbladen verkopen op Gumroad',
+      'printbare werkbladen online verkopen Nederland',
+      'educatief materiaal verkopen als bijverdienste',
+      'hoe lesmateriaal maken en verkopen via Gumroad',
+      'digitale werkbladen verkopen Bol.com Gumroad',
     ],
     lsiKeywords: [
       'educatieve marktplaats printbare producten digitale download printbare producten',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Gumroad zoekalgoritme tags titel beschrijving vindbaarheid rangschikking',
       'werkblad bundel productcatalogus lespakket activiteitenpakket prijsstrategie',
     ],
-    titleTag: 'Gumroad printbare producten Maken en Verkopen — Gids',
-    metaDescription: 'Leer hoe je printbare producten maakt en verkoopt op Gumroad. Account instellen, werkbladen opmaken, vermeldingen optimaliseren en prijzen op Gumroad.',
+    titleTag: 'Lesmateriaal online verkopen | LessonCraftStudio',
+    metaDescription: 'Ontdek hoe u lesmateriaal online verkoopt in Nederland. Van werkbladen maken tot vermeldingen optimaliseren op Gumroad, Etsy en andere platforms.',
   },
 
   hero: {
-    title: 'Hoe Gumroad printbare producten Maken en Verkopen',
-    tagline: 'Een complete gids voor het verkopen van educatief materiaal op Gumroad — van account aanmaken en winkelconfiguratie, het maken van verkoopklaar printbare producten met juiste opmaak, bestanden verpakken voor upload, vermeldingen schrijven die ranken in zoekresultaten van verkopers, effectieve voorbeelden en miniaturen maken, prijsstrategie voor de educatieve marktplaats, tot het lanceren van je eerste materialen om winkelmomentum en consistente inkomsten op te bouwen',
-    description: 'Gumroad (Gumroad) is een marktplaats van verkoper tot koper waar verkopers origineel printbare producten kopen en verkopen. Anders dan algemene marktplaatsen zoals Etsy of print-on-demand platforms zoals Amazon KDP, is elke koper op Gumroad een verkoper die actief zoekt naar verkoopklaar materiaal. Dit creëert een uniek gericht publiek met specifieke behoeften: materiaal dat aansluit bij productspecificaties, activiteiten op het juiste niveaucategorie, en bronnen die direct inzetbaar zijn online met minimale voorbereiding. Deze gids leidt je door het complete traject van het opzetten van je Gumroad-verkopersaccount tot het publiceren van je eerste materialen en het opbouwen van het momentum dat een nieuwe winkel omzet in een consistente inkomstenbron.',
+    title: 'Lesmateriaal maken en online verkopen in Nederland',
+    tagline: 'Van werkbladen maken tot een consistente inkomstenstroom opbouwen via Gumroad, Etsy en andere educatieve marktplaatsen',
+    description: 'Gumroad is een marktplaats waar verkopers origineel printbaar lesmateriaal kopen en verkopen. Anders dan algemene marktplaatsen zoals Etsy of print-on-demand platforms zoals Amazon KDP, zoekt elke koper op Gumroad actief naar verkoopklaar materiaal. Deze gids leidt u door het complete traject van account opzetten tot het publiceren van uw eerste materialen en het opbouwen van een consistente inkomstenbron.',
   },
 
   introduction: 'Gumroad onderscheidt zich van elk ander platform voor het verkopen van printbaar educatief materiaal. Op Etsy zijn je kopers een mix van ouders, thuisonderwijzers, verkopers en cadeauzoekers op een enorme algemene marktplaats. Op Amazon KDP kopen consumenten fysieke boeken. Op Gumroad zijn je kopers vrijwel uitsluitend verkopers, schooldirecteuren, productspecialisten en thuisonderwijzers — mensen die precies weten wat ze nodig hebben en materiaal beoordelen door een professionele bril.\n\nDit onderscheid bepaalt alles over hoe je materiaal maakt, verpakt, prijst en promoot op Gumroad. verkopers die op Gumroad zoeken filteren op niveaucategorie, vakgebied, materiaaltype en productdoelen. Ze verwachten professionele opmaak met duidelijke productdoelen, volledige antwoordsleutels en instructies voor gebruik online. Ze beoordelen materiaal via de voorbeeldfunctie en bekijken voorbeeldpagina\'s voordat ze kopen. En ze delen aanbevelingen met collega\'s, waardoor mond-tot-mondreclame ontstaat die geen enkele SEO-optimalisatie kan evenaren.\n\nDe commissiestructuur van Gumroad beloont serieuze verkopers. Het gratis Basic-plan laat je 45% van elke verkoop houden — Gumroad neemt 55% commissie. Het Premium-plan kost $59,95 per jaar maar verhoogt je aandeel naar 80% van elke verkoop, waarbij Gumroad slechts 20% neemt. Voor elke verkoper die meer dan ongeveer $150 aan jaarlijkse verkoop verwacht, verdient Premium zichzelf snel terug en verbetert het je marge op elke volgende verkoop dramatisch.\n\nTPT biedt ook ingebouwde functies die andere platforms missen voor educatieve verkopers. Je kunt materiaal taggen met specifieke productdoelen (in Nederland vergelijkbaar met productspecificaties en SLO-referentiekaders), gedetailleerde niveaucategories toewijzen, categoriseren op vakgebied en materiaaltype, en aangepaste bundels aanbieden waarmee kopers meerdere materialen met korting kunnen selecteren. Deze functies zorgen ervoor dat kopers precies vinden wat ze nodig hebben via nauwkeurige filters in plaats van op zoekwoorden te gokken, en je materiaal verschijnt automatisch in relevante zoekresultaten wanneer het correct is gecategoriseerd.\n\nDeze gids behandelt het complete proces om Gumroad-verkoper te worden: account instellen, materiaal maken, bestanden verpakken, vermeldingen optimaliseren, voorbeelden maken, prijsstrategie en lanceringstactieken. Voor verkopers die al actief zijn op Etsy of KDP richt deze gids zich op wat Gumroad anders maakt — de verkoperspecifieke vereisten, platformunieke functies en verwachtingen van het koperspubliek die een platformspecifieke aanpak vereisen in plaats van simpelweg je bestaande vermeldingen van andere platforms te kopiëren.',
@@ -155,13 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'tpt-winkel-optimalisatie', anchorText: 'Gumroad-Winkel Opzetten en Optimaliseren' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'kdp-of-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
-    { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Etsy Printables Prijzen en Prijsstrategie' },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor een Printable Bedrijf Starten' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
+    { pageType: 'guide', slug: 'tpt-winkel-optimalisatie', anchorText: 'Uw lesmateriaal-winkel optimaliseren' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP vs Etsy: waar printables verkopen' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
   ],
 
   toolsRecommended: [

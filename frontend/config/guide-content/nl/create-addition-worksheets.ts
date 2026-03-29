@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'optellen werkbladen maken',
+    primaryKeyword: 'optelwerkbladen maken om te verkopen',
     secondaryKeywords: [
-      'optellen werkbladen maken voor kinderen',
-      'optelling werkblad generator',
-      'printbare optellen werkbladen verkopen',
-      'aangepaste optellen oefenbladen',
+      'optellen werkbladen maken voor kinderen verkopen',
+      'printbare optelwerkbladen generator',
+      'rekenwerkbladen verkopen op Etsy en KDP',
+      'thematische optellen oefenbladen maken',
     ],
     lsiKeywords: [
       'beeldgebaseerde rekenwerkbladen',
@@ -17,14 +17,14 @@ const content: GuideContent = {
       'Amazon KDP reken activiteitenboeken',
       'commerciële licentie werkblad tool',
     ],
-    titleTag: 'Optellen Werkbladen Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Leer optellen werkbladen maken voor kinderen. Kies thema\'s, stel moeilijkheid in, genereer antwoordsleutels en exporteer PDF\'s om te verkopen op Etsy en KDP.',
+    titleTag: 'Optelwerkbladen maken om te verkopen | LessonCraftStudio',
+    metaDescription: 'Maak optelwerkbladen om te verkopen op Etsy en Amazon KDP. Kies thema\'s, stel moeilijkheid in en exporteer printklare PDF\'s met antwoordsleutels.',
   },
 
   hero: {
-    title: 'Hoe Optellen Werkbladen Maken voor Kinderen',
-    tagline: 'Een stap-voor-stap handleiding voor het maken van thematische, printklare optellen werkbladen die je kunt verkopen op Etsy, Amazon KDP en Gumroad',
-    description: 'Optellen werkbladen behoren tot de meest gezochte printbare producten op elke grote marktplaats. Ouders hebben ze nodig voor oefening thuis. verkopers hebben ze nodig voor dagelijkse oefeningen en oefenmateriaal. Bijlescentra hebben elke week nieuwe sets nodig. Deze gids leidt je door het volledige creatieproces met de Optellen Werkblad Generator — van het kiezen van je doelleeftijdsgroep en thema tot het exporteren van een gepolijste, printklare PDF met een automatische antwoordsleutel. Of je nu je eerste printbare product maakt of een bestaande rekenwerkblad-catalogus uitbreidt, aan het einde van deze handleiding heb je een afgewerkt product klaar om te vermelden.',
+    title: 'Optelwerkbladen maken en verkopen als printable',
+    tagline: 'Stap-voor-stap handleiding: thematische optelwerkbladen maken met de generator en verkopen op Etsy, Amazon KDP of Bol.com',
+    description: 'Optelwerkbladen behoren tot de meest gezochte printbare producten op elke grote marktplaats. Deze gids leidt u door het volledige creatieproces met de Optellen Werkblad Generator: doelleeftijdsgroep kiezen, thema selecteren, moeilijkheid instellen en een printklare PDF exporteren met automatische antwoordsleutel. Aan het einde heeft u een afgewerkt product klaar om te vermelden.',
   },
 
   introduction: 'Optellen is de eerste rekenbewerking die kinderen leren, en het blijft relevant van de kleuterschool tot en met groep 5 en daarna. Dit lange leervenster betekent aanhoudende vraag naar optellen werkbladen over meerdere leeftijdsgroepen — elk met verschillende moeilijkheidsniveaus, visuele stijlen en opgaveformaten.\n\nWat optellen werkbladen bijzonder sterk maakt als printbaar product is hun universaliteit. Elk productcatalogus in elk land onderwijst optellen. Elke ouder die thuisonderwijs geeft heeft optellen oefenmateriaal nodig. Elke bijlesverkoper die met moeizame gebruikers werkt grijpt naar opteloefeningen. Dit is geen seizoensproduct of een nichtrend — het is een fundamentele educatieve bron met vraag het hele jaar door.\n\nDe Optellen Werkblad Generator handelt de technische complexiteit voor je af. Het genereert beeldgebaseerde optelopgaven met thematische afbeeldingen, configureert moeilijkheidsgraad door getallenreeksen aan te passen, ondersteunt vier verschillende oefenmodi en produceert automatische antwoordsleutels. Jij focust op productstrategie — welke leeftijdsgroepen je richt, welke thema\'s je gebruikt, hoe je bundelt en prijst — terwijl de generator layout, rekenkundige nauwkeurigheid en printopmaak afhandelt.\n\nElke functie die in deze gids wordt genoemd is beschikbaar in de gratis proefversie met watermerk. Je kunt voorbeeldwerkbladen maken, elke configuratie testen en de uitvoerkwaliteit evalueren voordat je een commerciële licentie aanschaft.',
@@ -155,13 +155,10 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
-    { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Gids voor Commerciële Licenties' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken Activiteitenboeken voor Amazon KDP' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
+    { pageType: 'guide', slug: 'aftrekwerkbladen-maken', anchorText: 'Aftrekwerkbladen maken en verkopen' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator' },
+    { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket' },
   ],
 
   toolsRecommended: [
